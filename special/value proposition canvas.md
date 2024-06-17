@@ -115,7 +115,7 @@ vagueness: vague jobs, pains, and gains
 - mix: mixing customer segments→:::←mix: mixing jobs and outcomes <!--SR:!2024-09-29,112,289!2024-07-16,38,269-->
 - mix: mixing jobs and outcomes→:::←opposite: gains and pains are not opposite, gains are beyond expectation while pains are falling short of expectation <!--SR:!2024-06-25,12,265!2024-06-24,31,285-->
 - opposite: gains and pains are not opposite, gains are beyond expectation while pains are falling short of expectation→:::←reversed: listing jobs, pains, and gains from your product value propositions <!--SR:!2024-07-27,65,269!2024-07-07,54,269-->
-- reversed: listing jobs, pains, and gains from your product value propositions→:::←vagueness: vague jobs, pains, and gains <!--SR:!2024-06-17,25,189!2024-08-01,64,249-->
+- reversed: listing jobs, pains, and gains from your product value propositions→:::←vagueness: vague jobs, pains, and gains <!--SR:!2024-07-02,15,169!2024-08-01,64,249-->
 - vagueness: vague jobs, pains, and gains→:::←_(end)_ <!--SR:!2024-07-21,74,329!2024-08-20,84,289-->
 
 <!--/pytextgen-->
@@ -215,7 +215,7 @@ find customer patterns
 - outline the interview→:::←interview <!--SR:!2024-07-25,78,329!2024-06-26,56,309-->
 - interview→:::←capture new customer profile <!--SR:!2024-07-22,67,289!2024-06-29,54,309-->
 - capture new customer profile→:::←review interview, and repeat from "outline the interview" several times, like 10 times <!--SR:!2024-07-29,77,270!2024-07-13,63,289-->
-- review interview, and repeat from "outline the interview" several times, like 10 times→:::←find customer patterns <!--SR:!2024-06-17,39,269!2024-07-17,65,289-->
+- review interview, and repeat from "outline the interview" several times, like 10 times→:::←find customer patterns <!--SR:!2024-09-29,104,269!2024-07-17,65,289-->
 - find customer patterns→:::←_(end)_ <!--SR:!2024-07-22,75,329!2024-06-21,48,309-->
 
 <!--/pytextgen-->
@@ -269,7 +269,7 @@ conclusion: make progress
 
 ### test card
 
-When designing tests, you can use {{test cards}}. Test cards have {{basic info like name, due date, and person responsible; hypothesis; test; metric; and criteria}}. <!--SR:!2025-02-03,235,330!2024-06-17,47,250-->
+When designing tests, you can use {{test cards}}. Test cards have {{basic info like name, due date, and person responsible; hypothesis; test; metric; and criteria}}. <!--SR:!2025-02-03,235,330!2024-10-12,117,250-->
 
 One test card is insufficient. Design {{a series of experiments, rank them by cruicalness, and run experiments}}. Note that {{first experiments may invalidate crucial hypotheses that invalidates the rest of the tests}}. <!--SR:!2024-08-07,77,289!2024-09-18,113,309-->
 

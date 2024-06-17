@@ -20,7 +20,7 @@ Total addressable market (TAM), or {{total available market}}, is {{the annual r
 
 [Serviceable available market](serviceable%20available%20market.md) (SAM) is {{the portion of TAM one can reach via our customer channels, such as considering travel distance but not competition}}. <!--SR:!2024-07-08,45,290-->
 
-[Serviceable obtainable market](target%20market.md) (SOM), {{share of market, or target market}}, is {{the portion of SAM one can realistically capture, such as considering competition and travel distance}}. It is usually {{much smaller than SAM, like 6% to 10% depending on the number of competitors}}. <!--SR:!2024-07-17,53,312!2024-08-30,76,272!2024-06-17,29,272-->
+[Serviceable obtainable market](target%20market.md) (SOM), {{share of market, or target market}}, is {{the portion of SAM one can realistically capture, such as considering competition and travel distance}}. It is usually {{much smaller than SAM, like 6% to 10% depending on the number of competitors}}. <!--SR:!2024-07-17,53,312!2024-08-30,76,272!2024-09-03,78,272-->
 
 ## references
 

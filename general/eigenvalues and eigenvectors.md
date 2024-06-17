@@ -25,7 +25,7 @@ The eigenvalues of a matrix $A$ can be determined by {{finding the roots of the 
 
 #### eigenvectors
 
-Once {{the (exact) values of an eigenvalue is known}}, the corresponding eigenvector can be {{calculated directly by finding nonzero solutions of the eigenvalue equation}}, which becomes {{a [system of linear equations](system%20of%20linear%20equations.md) with known coefficients}}. <!--SR:!2024-06-18,4,270!2024-06-17,3,250!2024-06-18,4,270-->
+Once {{the (exact) values of an eigenvalue is known}}, the corresponding eigenvector can be {{calculated directly by finding nonzero solutions of the eigenvalue equation}}, which becomes {{a [system of linear equations](system%20of%20linear%20equations.md) with known coefficients}}. <!--SR:!2024-06-18,4,270!2024-06-26,9,250!2024-06-18,4,270-->
 
 ## references
 

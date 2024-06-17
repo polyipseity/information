@@ -98,11 +98,11 @@ return await memorize_seq(
 
 <!--pytextgen generate section="a92d"--><!-- The following content is generated at 2024-06-09T06:29:24.057662+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←(Cap. 311) Air Pollution Control Ordinance <!--SR:!2024-06-17,3,295!2024-06-18,4,315-->
-- (Cap. 311) Air Pollution Control Ordinance→:::←(Cap. 354) Waste Disposal Ordinance <!--SR:!2024-06-17,3,295!2024-06-18,4,315-->
-- (Cap. 354) Waste Disposal Ordinance→:::←(Cap. 358) Water Pollution Control Ordinance <!--SR:!2024-06-17,3,295!2024-06-18,4,315-->
-- (Cap. 358) Water Pollution Control Ordinance→:::←(Cap. 400) Noise Pollution Control Ordinance <!--SR:!2024-06-18,3,275!2024-06-17,3,295-->
-- (Cap. 400) Noise Pollution Control Ordinance→:::←(Cap. 499) Environmental Impact Ordinance <!--SR:!2024-06-17,3,295!2024-06-17,3,295-->
+- _(begin)_→:::←(Cap. 311) Air Pollution Control Ordinance <!--SR:!2024-06-19,2,275!2024-06-18,4,315-->
+- (Cap. 311) Air Pollution Control Ordinance→:::←(Cap. 354) Waste Disposal Ordinance <!--SR:!2024-06-24,7,295!2024-06-18,4,315-->
+- (Cap. 354) Waste Disposal Ordinance→:::←(Cap. 358) Water Pollution Control Ordinance <!--SR:!2024-06-24,7,295!2024-06-18,4,315-->
+- (Cap. 358) Water Pollution Control Ordinance→:::←(Cap. 400) Noise Pollution Control Ordinance <!--SR:!2024-06-18,3,275!2024-06-26,9,295-->
+- (Cap. 400) Noise Pollution Control Ordinance→:::←(Cap. 499) Environmental Impact Ordinance <!--SR:!2024-06-29,12,315!2024-07-01,14,315-->
 - (Cap. 499) Environmental Impact Ordinance→:::←_(end)_ <!--SR:!2024-06-18,4,315!2024-06-18,4,315-->
 
 <!--/pytextgen-->
@@ -153,11 +153,11 @@ return await memorize_seq(
 <!--pytextgen generate section="ee23"--><!-- The following content is generated at 2024-06-09T06:29:24.079979+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←air sparging <!--SR:!2024-06-18,4,315!2024-06-18,4,315-->
-- air sparging→:::←bioremediation <!--SR:!2024-06-17,3,295!2024-06-17,3,295-->
-- bioremediation→:::←catalytic oxidation <!--SR:!2024-06-17,3,295!2024-06-17,3,295-->
-- catalytic oxidation→:::←ex-situ biopile <!--SR:!2024-06-17,3,295!2024-06-17,3,295-->
-- ex-situ biopile→:::←ex-situ solidification or stabilization <!--SR:!2024-06-17,3,295!2024-06-17,3,295-->
-- ex-situ solidification or stabilization→:::←_(end)_ <!--SR:!2024-06-18,4,315!2024-06-17,3,295-->
+- air sparging→:::←bioremediation <!--SR:!2024-06-28,11,315!2024-06-29,12,315-->
+- bioremediation→:::←catalytic oxidation <!--SR:!2024-06-29,12,315!2024-06-30,13,315-->
+- catalytic oxidation→:::←ex-situ biopile <!--SR:!2024-06-25,8,295!2024-06-27,10,315-->
+- ex-situ biopile→:::←ex-situ solidification or stabilization <!--SR:!2024-06-30,13,315!2024-06-27,10,315-->
+- ex-situ solidification or stabilization→:::←_(end)_ <!--SR:!2024-06-18,4,315!2024-06-29,12,315-->
 
 <!--/pytextgen-->
 
@@ -256,7 +256,7 @@ HATS Stage 2 Overview
 
 - Hong Kong Harbour Area Treatment Scheme Stage II ::: HATS Stage 2 <!--SR:!2024-08-04,58,310!2024-08-11,64,310-->
   - HATS Stage 2 phases ::: 2 phases, stage 2A and stage 2B <!--SR:!2024-08-07,60,310!2024-08-09,63,310-->
-  - HATS Stage 2A ::: collect and treat the remaining 25% sewage from north and south-western Hong Kong Island and future development, and provide disinfection <!--SR:!2024-06-17,18,250!2024-07-05,34,290-->
+  - HATS Stage 2A ::: collect and treat the remaining 25% sewage from north and south-western Hong Kong Island and future development, and provide disinfection <!--SR:!2024-08-21,65,270!2024-07-05,34,290-->
   - HATS Stage 2B ::: biological treatment <!--SR:!2024-07-25,48,290!2024-07-28,53,310-->
 
 ## page 19
@@ -393,7 +393,7 @@ return await memorize_seq(
 - carbon dioxide (CO<sub>2</sub>)→:::←hydroflurocarbons (HFCs) <!--SR:!2024-06-18,15,230!2024-07-04,31,270-->
 - hydroflurocarbons (HFCs)→:::←methane (CH<sub>4</sub>) <!--SR:!2024-07-15,37,270!2024-07-14,31,230-->
 - methane (CH<sub>4</sub>)→:::←nitrous oxide (N<sub>2</sub>O) <!--SR:!2024-06-18,11,230!2024-07-26,47,290-->
-- nitrous oxide (N<sub>2</sub>O)→:::←perflurocarbons (PFCs) <!--SR:!2024-06-17,12,250!2024-06-19,5,210-->
+- nitrous oxide (N<sub>2</sub>O)→:::←perflurocarbons (PFCs) <!--SR:!2024-06-22,5,230!2024-06-19,5,210-->
 - perflurocarbons (PFCs)→:::←sulfur hexafluoride (SF<sub>6</sub>) <!--SR:!2024-07-29,50,290!2024-06-29,26,270-->
 - sulfur hexafluoride (SF<sub>6</sub>)→:::←_(end)_ <!--SR:!2024-08-09,62,310!2024-08-20,72,310-->
 

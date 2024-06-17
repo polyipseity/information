@@ -51,7 +51,7 @@ The content is in teaching order.
 - civil engineering solutions ::: smart cities <!--SR:!2024-09-06,105,380!2024-08-21,100,376-->
   - smart cities examples ::: Using technology to gather information, predict events, and notify people. <!--SR:!2025-03-24,304,335!2024-08-29,97,380-->
 - [civil engineering subdisciplines](#civil%20engineering%20subdisciplines)
-- structural engineering ::: analysis, design, and planning of structures to resist various loading and natural disasters <!--SR:!2024-10-08,126,340!2024-06-17,42,327-->
+- structural engineering ::: analysis, design, and planning of structures to resist various loading and natural disasters <!--SR:!2024-10-08,126,340!2024-12-22,188,347-->
   - [structural engineering examples](#structural%20engineering%20examples)
   - [natural disasters examples](#natural%20disaster%20examples)
   - structural engineering goals ::: safety: no collapse without warning, serviceability: deformation does not disrupt use <!--SR:!2024-07-10,46,292!2024-06-25,81,330-->
@@ -197,7 +197,7 @@ water and sewage treatment system
 - dam→:::←pipeline <!--SR:!2024-06-19,8,204!2024-10-09,117,321-->
 - pipeline→:::←power plant <!--SR:!2024-08-14,59,260!2024-07-06,38,281-->
 - power plant→:::←reservoir <!--SR:!2024-07-30,60,275!2024-09-05,91,320-->
-- reservoir→:::←sewage treatment <!--SR:!2024-06-17,16,197!2024-06-22,29,261-->
+- reservoir→:::←sewage treatment <!--SR:!2024-07-18,31,197!2024-06-22,29,261-->
 - sewage treatment→:::←transport <!--SR:!2024-07-08,39,250!2024-07-13,50,301-->
 - transport→:::←water and sewage treatment system <!--SR:!2024-06-21,41,340!2024-06-28,19,190-->
 - water and sewage treatment system→:::←_(end)_ <!--SR:!2024-08-25,93,381!2024-08-01,69,361-->
@@ -360,7 +360,7 @@ transportation
 - construction→:::←environmental <!--SR:!2024-09-04,96,340!2024-08-25,93,380-->
 - environmental→:::←geo-technical <!--SR:!2024-10-04,127,327!2025-01-07,205,345-->
 - geo-technical→:::←hydraulic <!--SR:!2024-06-24,44,340!2024-07-30,67,360-->
-- hydraulic→:::←material <!--SR:!2024-10-03,119,340!2024-06-17,39,340-->
+- hydraulic→:::←material <!--SR:!2024-10-03,119,340!2024-10-30,135,340-->
 - material→:::←structural <!--SR:!2024-08-15,81,317!2024-08-10,65,260-->
 - structural→:::←transportation <!--SR:!2024-07-04,51,340!2024-06-26,51,327-->
 - transportation→:::←_(end)_ <!--SR:!2024-06-30,55,350!2024-07-12,41,361-->
@@ -403,7 +403,7 @@ Water Cube
 - Beijing National Stadium→:::←Burj Al Arab <!--SR:!2024-08-23,87,304!2024-11-12,158,350-->
 - Burj Al Arab→:::←Burj Khalifa <!--SR:!2024-10-15,141,270!2024-12-22,190,352-->
 - Burj Khalifa→:::←CCTV Headquarters <!--SR:!2024-09-02,89,320!2024-08-12,95,270-->
-- CCTV Headquarters→:::←Eiffel Tower <!--SR:!2024-06-17,35,285!2024-07-15,52,292-->
+- CCTV Headquarters→:::←Eiffel Tower <!--SR:!2024-09-28,103,285!2024-07-15,52,292-->
 - Eiffel Tower→:::←Hong Kong Convention and Exhibition Centre <!--SR:!2024-06-21,39,294!2024-07-05,21,305-->
 - Hong Kong Convention and Exhibition Centre→:::←Water Cube <!--SR:!2024-06-29,18,317!2024-08-24,81,320-->
 - Water Cube→:::←_(end)_ <!--SR:!2024-08-06,83,381!2025-01-02,201,357-->
@@ -1052,7 +1052,7 @@ Hong Kong Code
 <!--pytextgen generate section="2ff2"--><!-- The following content is generated at 2024-04-23T18:07:51.798230+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←American Code <!--SR:!2024-09-02,101,380!2024-07-27,79,374-->
-- American Code→:::←Australian Standard <!--SR:!2024-06-17,42,335!2024-08-14,95,375-->
+- American Code→:::←Australian Standard <!--SR:!2024-12-27,193,355!2024-08-14,95,375-->
 - Australian Standard→:::←Chinese Code <!--SR:!2024-06-28,50,327!2024-06-28,50,337-->
 - Chinese Code→:::←Eurocode <!--SR:!2024-10-14,128,335!2024-07-18,70,357-->
 - Eurocode→:::←Hong Kong Code <!--SR:!2024-06-26,53,356!2024-11-26,168,357-->
@@ -1230,7 +1230,7 @@ water treatment
 - groundwater quality control→:::←wastewater recycling <!--SR:!2024-07-24,61,295!2024-07-11,48,300-->
 - wastewater recycling→:::←wastewater treatment <!--SR:!2024-06-25,42,315!2024-07-14,59,317-->
 - wastewater treatment→:::←water quality monitoring <!--SR:!2024-08-01,51,280!2024-07-03,50,315-->
-- water quality monitoring→:::←water treatment <!--SR:!2024-06-17,46,324!2024-09-20,117,334-->
+- water quality monitoring→:::←water treatment <!--SR:!2024-11-12,148,324!2024-09-20,117,334-->
 - water treatment→:::←_(end)_ <!--SR:!2024-07-16,68,354!2024-07-21,41,246-->
 
 <!--/pytextgen-->

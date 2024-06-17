@@ -85,7 +85,7 @@ See [Central Plaza (Hong Kong)](../../../../general/Central%20Plaza%20(Hong%20Ko
 See [Channel Tunnel](../../../../general/Channel%20Tunnel.md).
 
 - completion time ::: 1994 <!--SR:!2024-07-09,33,356!2024-06-22,29,376-->
-- rail tunnel length ::: 50.5 km (37.9 km underseas) <!--SR:!2024-07-02,26,316!2024-06-17,24,376-->
+- rail tunnel length ::: 50.5 km (37.9 km underseas) <!--SR:!2024-07-02,26,316!2024-10-20,125,396-->
 
 ## China International Trust and Investment Plaza
 
@@ -136,7 +136,7 @@ See [Great Pyramid of Giza](../../../../general/Great%20Pyramid%20of%20Giza.md).
 - construction period ::: 10~20 years around 2560 BC <!--SR:!2024-06-18,13,296!2024-10-14,120,396-->
 - description ::: largest pyramid in the Giza Necropolis, Egypt <!--SR:!2024-10-05,112,396!2024-06-19,26,376-->
 - height ::: current: 138.5 m, original: 146.6 m <!--SR:!2024-07-15,40,356!2024-06-19,26,376-->
-- weight ::: 5.9 million tonnes <!--SR:!2024-06-17,24,376!2024-06-21,28,376-->
+- weight ::: 5.9 million tonnes <!--SR:!2024-09-14,89,376!2024-06-21,28,376-->
 - tomb for ::: Egypt's 4th dynasty pharaoh Khufu <!--SR:!2024-06-24,31,376!2024-08-16,70,376-->
 
 ## Great Wall of China
@@ -220,7 +220,7 @@ See [Millau Viaduct](../../../../general/Millau%20Viaduct.md).
 - designers ::: Michel Virlogeux, Norman Foster <!--SR:!2024-08-24,77,376!2024-06-21,28,376-->
 - geographic location ::: across the gorge valley of the Tarn near Millau in southern France <!--SR:!2024-08-15,69,376!2024-08-22,75,376-->
 - height ::: max pylon above base: 343 m, structural: 336.4 m <!--SR:!2024-06-29,25,316!2024-06-20,27,376-->
-  - height record ::: as of October 2023, tallest bridge in the world <!--SR:!2024-06-18,25,376!2024-06-17,24,376-->
+  - height record ::: as of October 2023, tallest bridge in the world <!--SR:!2024-06-18,25,376!2024-10-22,127,396-->
 - length ::: 2450 m = 204 m + 342 m × 6 + 204 m, longest span: 342 m <!--SR:!2024-06-28,16,336!2024-10-12,118,396-->
 - image ::: ![Millau Viaduct image](../../../../archives/Wikimedia%20Commons/ViaducdeMillau.jpg) <!--SR:!2024-06-20,27,376!2024-08-28,80,376-->
 - opening time ::: 2004-12-16, 09:00 <!--SR:!2024-07-13,39,336!2024-08-22,75,376-->
@@ -243,7 +243,7 @@ See [Delta Works](../../../../general/Delat%20Works.md) and [Zuiderzee Works](..
 
 See [Panama Canal](../../../../general/Panama%20Canal.md).
 
-- image ::: ![Panama Canal image](../../../../archives/Wikimedia%20Commons/Panama%20canal%20panoramic%20view%20from%20the%20top%20of%20Ancon%20hill.jpg) <!--SR:!2024-06-17,24,376!2024-06-26,33,376-->
+- image ::: ![Panama Canal image](../../../../archives/Wikimedia%20Commons/Panama%20canal%20panoramic%20view%20from%20the%20top%20of%20Ancon%20hill.jpg) <!--SR:!2024-09-18,93,376!2024-06-26,33,376-->
 
 ## Parthenon
 

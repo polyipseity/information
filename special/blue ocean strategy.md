@@ -17,26 +17,26 @@ Blue ocean is about {{creating uncontested market space and capturing new demand
 
 ## blue ocean shift
 
-There are 3 steps to creating blue oceans: {{understand "as-is", imagine "to be", and create "gap"}}. <!--SR:!2024-06-17,3,264-->
+There are 3 steps to creating blue oceans: {{understand "as-is", imagine "to be", and create "gap"}}. <!--SR:!2024-06-27,10,284-->
 
 ### understand "as-is"
 
 In the 1st step, understand "as-is", the goal is to {{understand where we are now}}. You should {{mobilize your team and understand your industry}}. <!--SR:!2024-06-18,4,284!2024-06-18,4,284-->
 
-To visualize the industry, one can make use of a {{capture strategy canvas}}. It is {{a line chart}} showing the {{feature qualities of various offerings of your industry}}. Ideally, after finishing all the 3 steps, you should also plot {{your own blue ocean offering}}, of which {{some of the features should be respectively eliminated, reduced, raise, or create}}. This will be mentioned in [§ create "gap"](#create%20"gap") again. <!--SR:!2024-06-17,3,264!2024-06-18,4,284!2024-06-18,4,284!2024-06-17,3,264!2024-06-18,4,284-->
+To visualize the industry, one can make use of a {{capture strategy canvas}}. It is {{a line chart}} showing the {{feature qualities of various offerings of your industry}}. Ideally, after finishing all the 3 steps, you should also plot {{your own blue ocean offering}}, of which {{some of the features should be respectively eliminated, reduced, raise, or create}}. This will be mentioned in [§ create "gap"](#create%20"gap") again. <!--SR:!2024-06-25,8,264!2024-06-18,4,284!2024-06-18,4,284!2024-06-25,8,264!2024-06-18,4,284-->
 
 ### imagine "to be"
 
 In the 2nd step, imagine "to be", the goal is to {{imagine where we could be}}. You should {{understand pains and look for non-customers}}. <!--SR:!2024-06-18,4,284!2024-06-18,4,284-->
 
-To understand pains, we can use {{a customer journey map, which is similar to a [buyer utility map](buyer%20utility%20map.md) but with the column headers replaced with custom steps}}. Only {{note down the customer pains}} on the map, and then {{prioritize some customer pains by making them red}}. Finally, {{decide which pains are worth-solving by reducing or eliminating existing features}}. <!--SR:!2024-06-17,3,264!2024-06-18,4,284!2024-06-17,3,264!2024-06-18,4,284-->
+To understand pains, we can use {{a customer journey map, which is similar to a [buyer utility map](buyer%20utility%20map.md) but with the column headers replaced with custom steps}}. Only {{note down the customer pains}} on the map, and then {{prioritize some customer pains by making them red}}. Finally, {{decide which pains are worth-solving by reducing or eliminating existing features}}. <!--SR:!2024-06-23,6,264!2024-06-18,4,284!2024-06-30,13,284!2024-06-18,4,284-->
 
-To look for non-customers, we can {{separate the non-customers into 3 tiers: soon-to-be, refusing, and unexplored}}. Identify {{current market's customer}} first, then identify the non-customers. Soon-to-be non-customers are {{customers that are waiting to jump ship when a better offering appears}}. Refusing non-customers are {{customers consciously not using your market's offerings}}. Unexplored non-customers are {{customers in very distant markets, making them not considered by the current market at all}}. <!--SR:!2024-06-18,4,284!2024-06-18,4,284!2024-06-18,4,284!2024-06-18,4,284!2024-06-17,3,264-->
+To look for non-customers, we can {{separate the non-customers into 3 tiers: soon-to-be, refusing, and unexplored}}. Identify {{current market's customer}} first, then identify the non-customers. Soon-to-be non-customers are {{customers that are waiting to jump ship when a better offering appears}}. Refusing non-customers are {{customers consciously not using your market's offerings}}. Unexplored non-customers are {{customers in very distant markets, making them not considered by the current market at all}}. <!--SR:!2024-06-18,4,284!2024-06-18,4,284!2024-06-18,4,284!2024-06-18,4,284!2024-06-28,11,284-->
 
 ### create "gap"
 
 In the 3rd step, create "gap", the goal is to {{create our new strategic move}}. You should use {{6 paths to reconstruct and create a new business model using ERRC}}. <!--SR:!2024-06-18,4,284!2024-06-18,4,284-->
 
-The 6 paths to reconstruct market boundaries are {{considering alternative industries, considering strategic groups in the current industry, finding buyers across the value chain or redefining buyers, considering complementary offerings, functional-emotional reorientation, and participating in industry trends}}. <!--SR:!2024-06-17,3,264-->
+The 6 paths to reconstruct market boundaries are {{considering alternative industries, considering strategic groups in the current industry, finding buyers across the value chain or redefining buyers, considering complementary offerings, functional-emotional reorientation, and participating in industry trends}}. <!--SR:!2024-06-23,6,264-->
 
-To create a new business model, use {{eliminate, reduce, raise, and create (ERRC)}}. These are the 4 actions one can take. After writing the things to be ERRC-ed, {{go back to the capture strategy canvas in [§ understand "as-is"](#understand%20"as-is")}}. Plot {{the features of your new business model}}. Note that {{eliminated features should be 0 for the new business model, and created features are added to the canvas and are 0 for existing business models}}. If possible, {{order the features in the order of eliminated, reduced, raised, and then created features}}. <!--SR:!2024-06-18,4,284!2024-06-18,4,284!2024-06-17,3,264!2024-06-18,4,284!2024-06-18,4,284-->
+To create a new business model, use {{eliminate, reduce, raise, and create (ERRC)}}. These are the 4 actions one can take. After writing the things to be ERRC-ed, {{go back to the capture strategy canvas in [§ understand "as-is"](#understand%20"as-is")}}. Plot {{the features of your new business model}}. Note that {{eliminated features should be 0 for the new business model, and created features are added to the canvas and are 0 for existing business models}}. If possible, {{order the features in the order of eliminated, reduced, raised, and then created features}}. <!--SR:!2024-06-18,4,284!2024-06-18,4,284!2024-06-30,13,284!2024-06-18,4,284!2024-06-18,4,284-->

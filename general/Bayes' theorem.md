@@ -13,16 +13,16 @@ tags:
 
 Bayes' theorem is stated mathematically: {{$$P(A \mid B) = \frac {P(B \mid A) P(A)} {P(B)} \qquad P(B) > 0$$}} where {{$A$ and $B$ are [events](event%20(probability%20theory).md)}}. Further: <!--SR:!2024-06-18,4,274!2024-06-18,4,270-->
 
-- $P(A \mid B)$ ::: [conditional probability](conditional%20probability.md) of $A$ happening given $B$ is true; also known as [posterior probability](posterior%20probability.md) of $A$ given $B$ <!--SR:!2024-06-17,3,254!2024-06-17,3,254-->
-- $P(B \mid A)$ ::: [conditional probability](conditional%20probability.md) of $B$ happening given $A$ is true; also known as [likelihood](likelihood%20function.md) of $A$ given $B$ because $P(B \mid A) = L(A \mid B)$ <!--SR:!2024-06-17,3,254!2024-06-17,3,254-->
+- $P(A \mid B)$ ::: [conditional probability](conditional%20probability.md) of $A$ happening given $B$ is true; also known as [posterior probability](posterior%20probability.md) of $A$ given $B$ <!--SR:!2024-06-25,8,254!2024-06-23,6,254-->
+- $P(B \mid A)$ ::: [conditional probability](conditional%20probability.md) of $B$ happening given $A$ is true; also known as [likelihood](likelihood%20function.md) of $A$ given $B$ because $P(B \mid A) = L(A \mid B)$ <!--SR:!2024-06-25,8,254!2024-06-23,6,254-->
 - $P(A)$ ::: [prior probability](prior%20probability.md) <!--SR:!2024-06-18,4,274!2024-06-18,4,274-->
-- $P(B)$ ::: [marginal likelihood](marginal%20likelihood.md) or evidence <!--SR:!2024-06-17,3,254!2024-06-18,4,274-->
+- $P(B)$ ::: [marginal likelihood](marginal%20likelihood.md) or evidence <!--SR:!2024-06-28,11,274!2024-06-18,4,274-->
 
 ## generalizations
 
 ### Bayes' theorem for 3 events
 
-A version of Bayes' theorem for 3 events {{results from the addition of a 3rd event $C$ (or more events if $C$ is composed from multiple events, such as $C = X \cap Y$) called the _context_, with $P(C) > 0$}}, on which {{all probabilities are conditioned}}: <!--SR:!2024-06-17,3,254!2024-06-18,4,270-->
+A version of Bayes' theorem for 3 events {{results from the addition of a 3rd event $C$ (or more events if $C$ is composed from multiple events, such as $C = X \cap Y$) called the _context_, with $P(C) > 0$}}, on which {{all probabilities are conditioned}}: <!--SR:!2024-06-30,13,274!2024-06-18,4,270-->
 
 $$P(A \mid B \cap C) = \frac {P(B \mid A \cap C) P(A \mid C)} {P(B \mid C)}$$
 

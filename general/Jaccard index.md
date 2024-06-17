@@ -21,7 +21,7 @@ tags:
 
 - $M_{00}$ ::: number of attributes where _A_ has value 0 and _B_ has value 0 <!--SR:!2024-06-18,4,270!2024-06-18,4,270-->
 - $M_{01}$ ::: number of attributes where _A_ has value 0 and _B_ has value 1 <!--SR:!2024-06-18,4,270!2024-06-18,4,270-->
-- $M_{10}$ ::: number of attributes where _A_ has value 1 and _B_ has value 0 <!--SR:!2024-06-18,4,270!2024-06-17,3,250-->
+- $M_{10}$ ::: number of attributes where _A_ has value 1 and _B_ has value 0 <!--SR:!2024-06-18,4,270!2024-06-29,12,270-->
 - $M_{11}$ ::: number of attributes where _A_ has value 1 and _B_ has value 1 <!--SR:!2024-06-18,4,270!2024-06-18,4,270-->
 
 The Jaccard similarity coefficient, {{_J_}} is given as {{$$J = \frac {M_{11} } {M_{01} + M_{10} + M_{11} }$$}}. <!--SR:!2024-06-18,4,270!2024-06-18,4,270-->
