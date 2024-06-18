@@ -27,14 +27,14 @@ This gives us the table of conditional of probabilities of _y_ given _x_, with {
 | __P(_y_=1&mid;_x_)__ | 2/9       | 2/9       |
 | __sum__              | 6/9       | 3/9       |
 
-Swapping {{the row and column headers is also possible}}: <!--SR:!2024-06-18,4,270-->
+Swapping {{the row and column headers is also possible}}: <!--SR:!2024-07-02,14,290-->
 
 |           | __P(_y_=0&mid;_x_)__ | __P(_y_=1&mid;_x_)__ | __sum__ |
 | --------- |:--------------------:|:--------------------:|:-------:|
 | ___x_=0__ | 4/9                  | 2/9                  | 6/9     |
 | ___x_=1__ | 1/9                  | 2/9                  | 3/9     |
 
-With more than {{one conditioning variable or output variable}}, {{the table headers simply become all possible combinations of the multiple variables}}. <!--SR:!2024-06-18,4,270!2024-06-18,4,270-->
+With more than {{one conditioning variable or output variable}}, {{the table headers simply become all possible combinations of the multiple variables}}. <!--SR:!2024-06-27,9,270!2024-07-05,17,290-->
 
 ## references
 

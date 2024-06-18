@@ -19,7 +19,7 @@ __Product__ refers to {{the offered products or services}}. For example, it incl
 
 __Price__ refers to {{the monetary and psychological costs}}. For example, it includes {{bundling, credit terms, discounts, list pricing, etc.}} <!--SR:!2024-06-23,15,290!2024-06-25,17,290-->
 
-__Place__ refers to {{the physical locations of sale or distribution channels}}. For example, it includes {{channel, distribution, inventory, logistics, etc.}} <!--SR:!2024-06-22,14,290!2024-06-18,10,270-->
+__Place__ refers to {{the physical locations of sale or distribution channels}}. For example, it includes {{channel, distribution, inventory, logistics, etc.}} <!--SR:!2024-06-22,14,290!2024-07-16,28,270-->
 
 __Promotion__ refers to {{the marketing communications used to reach customers}}. For example, it includes {{advertising, publicity, sales force, sales promotion, etc.}} <!--SR:!2024-06-23,15,290!2024-06-24,16,290-->
 

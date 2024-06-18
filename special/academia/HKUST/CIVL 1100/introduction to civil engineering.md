@@ -148,7 +148,7 @@ quantity surveyor
 - consulting environmental engineer→:::←consulting geo-technical engineer <!--SR:!2024-07-03,40,265!2024-09-02,112,306-->
 - consulting geo-technical engineer→:::←consulting structural engineer <!--SR:!2024-07-11,57,315!2024-08-14,80,317-->
 - consulting structural engineer→:::←contracting civil engineer <!--SR:!2024-09-11,108,335!2024-08-23,88,315-->
-- contracting civil engineer→:::←engineering geologist <!--SR:!2024-06-18,34,297!2024-08-01,69,315-->
+- contracting civil engineer→:::←engineering geologist <!--SR:!2024-09-28,102,297!2024-08-01,69,315-->
 - engineering geologist→:::←environmental consultant <!--SR:!2024-06-22,40,305!2024-08-24,92,305-->
 - environmental consultant→:::←quantity surveyor <!--SR:!2024-07-06,54,340!2024-08-11,58,280-->
 - quantity surveyor→:::←_(end)_ <!--SR:!2024-07-06,54,340!2024-07-29,66,360-->
@@ -541,7 +541,7 @@ wood
 - _(begin)_→:::←brick <!--SR:!2024-07-18,66,357!2024-11-04,182,312-->
 - brick→:::←concrete <!--SR:!2024-06-30,19,305!2024-08-27,106,377-->
 - concrete→:::←new synthetic materials <!--SR:!2024-07-05,42,301!2024-06-29,47,341-->
-- new synthetic materials→:::←steel <!--SR:!2024-06-18,47,332!2024-08-29,85,320-->
+- new synthetic materials→:::←steel <!--SR:!2024-11-20,155,332!2024-08-29,85,320-->
 - steel→:::←stone <!--SR:!2024-06-20,42,340!2024-06-27,47,340-->
 - stone→:::←wood <!--SR:!2024-08-14,75,321!2024-09-10,109,332-->
 - wood→:::←_(end)_ <!--SR:!2024-08-21,100,374!2024-07-14,62,360-->
@@ -597,7 +597,7 @@ nuclear
 - ceramic→:::←chemical <!--SR:!2024-07-12,49,320!2024-09-24,119,335-->
 - chemical→:::←civil <!--SR:!2024-10-21,133,337!2024-12-24,194,357-->
 - civil→:::←computer <!--SR:!2024-11-15,163,354!2024-12-17,189,352-->
-- computer→:::←electrical <!--SR:!2024-06-18,43,327!2024-07-05,21,315-->
+- computer→:::←electrical <!--SR:!2024-11-07,142,327!2024-07-05,21,315-->
 - electrical→:::←industrial <!--SR:!2024-08-19,77,321!2024-07-25,52,270-->
 - industrial→:::←manufacturing <!--SR:!2024-10-02,125,337!2024-09-11,103,332-->
 - manufacturing→:::←mechanical <!--SR:!2024-08-23,101,377!2024-10-23,134,337-->
@@ -954,7 +954,7 @@ wave
 - fire→:::←flood <!--SR:!2024-06-23,48,324!2024-09-05,104,266-->
 - flood→:::←strong wind <!--SR:!2024-08-01,63,320!2024-07-17,38,297-->
 - strong wind→:::←wave <!--SR:!2025-01-11,218,290!2024-06-22,37,294-->
-- wave→:::←_(end)_ <!--SR:!2024-06-18,43,337!2024-07-22,67,315-->
+- wave→:::←_(end)_ <!--SR:!2025-01-03,199,357!2024-07-22,67,315-->
 
 <!--/pytextgen-->
 
@@ -1015,10 +1015,10 @@ Taipei 101
 
 <!--pytextgen generate section="938f"--><!-- The following content is generated at 2024-02-16T21:59:47.947997+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←HSBC Main Building <!--SR:!2024-06-18,8,277!2025-04-01,312,330-->
+- _(begin)_→:::←HSBC Main Building <!--SR:!2024-07-18,30,297!2025-04-01,312,330-->
 - HSBC Main Building→:::←International Commerce Centre <!--SR:!2024-06-23,30,297!2024-08-22,90,334-->
 - International Commerce Centre→:::←John Hancock Center <!--SR:!2024-10-04,113,320!2024-08-06,74,317-->
-- John Hancock Center→:::←Taipei 101 <!--SR:!2024-06-18,40,341!2024-10-07,120,312-->
+- John Hancock Center→:::←Taipei 101 <!--SR:!2024-11-02,137,341!2024-10-07,120,312-->
 - Taipei 101→:::←_(end)_ <!--SR:!2024-07-04,59,347!2024-09-12,99,321-->
 
 <!--/pytextgen-->
@@ -1100,7 +1100,7 @@ water tower
 - dam→:::←power plant <!--SR:!2024-08-06,68,301!2024-06-22,12,238-->
 - power plant→:::←storage facility <!--SR:!2024-07-29,62,300!2024-09-12,111,334-->
 - storage facility→:::←tunnel <!--SR:!2024-07-02,18,320!2024-09-01,89,320-->
-- tunnel→:::←unusual structure <!--SR:!2024-06-28,34,247!2024-06-18,38,320-->
+- tunnel→:::←unusual structure <!--SR:!2024-06-28,34,247!2024-10-17,121,320-->
 - unusual structure→:::←water tower <!--SR:!2024-07-10,25,310!2024-06-29,51,330-->
 - water tower→:::←_(end)_ <!--SR:!2024-08-14,93,367!2024-06-27,34,301-->
 

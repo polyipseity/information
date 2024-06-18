@@ -132,7 +132,7 @@ return _chain.from_iterable(await _gather(
 - [rubidium](rubidium.md)→:::←[potassium](potassium.md) <!--SR:!2025-01-07,392,250!2024-07-12,286,250-->
 - [potassium](potassium.md)→:::←[sodium](sodium.md) <!--SR:!2026-09-02,849,290!2025-11-14,655,310-->
 - [sodium](sodium.md)→:::←[lithium](lithium.md) <!--SR:!2024-06-24,42,230!2026-08-29,826,290-->
-- [lithium](lithium.md)→:::←[barium](barium.md) <!--SR:!2024-10-24,314,230!2024-06-18,139,230-->
+- [lithium](lithium.md)→:::←[barium](barium.md) <!--SR:!2024-10-24,314,230!2024-08-26,69,210-->
 - [barium](barium.md)→:::←[strontium](strontium.md) <!--SR:!2025-06-09,520,270!2025-07-25,417,250-->
 - [strontium](strontium.md)→:::←[calcium](calcium.md) <!--SR:!2025-01-09,360,230!2024-10-15,347,270-->
 - [calcium](calcium.md)→:::←[magnesium](magnesium.md) <!--SR:!2025-01-25,377,270!2024-06-23,76,250-->
@@ -150,7 +150,7 @@ return _chain.from_iterable(await _gather(
 - [tin](tin.md)→:::←[lead](lead.md) <!--SR:!2025-02-24,419,250!2025-07-07,539,250-->
 - [lead](lead.md)→:::←[antimony](antimony.md) <!--SR:!2024-11-30,169,210!2026-04-13,667,250-->
 - [antimony](antimony.md)→:::←[bismuth](bismuth.md) <!--SR:!2024-12-31,415,270!2025-11-08,643,290-->
-- [bismuth](bismuth.md)→:::←[copper](copper.md) <!--SR:!2024-06-18,46,230!2025-01-25,397,250-->
+- [bismuth](bismuth.md)→:::←[copper](copper.md) <!--SR:!2024-07-12,24,210!2025-01-25,397,250-->
 - [copper](copper.md)→:::←[tungsten](tungsten.md) <!--SR:!2025-10-22,593,270!2025-02-02,436,270-->
 - [tungsten](tungsten.md)→:::←[mercury](mercury%20(element).md) <!--SR:!2024-08-30,262,250!2024-07-20,41,190-->
 - [mercury](mercury%20(element).md)→:::←[silver](silver.md) <!--SR:!2026-08-12,877,330!2024-09-21,150,310-->

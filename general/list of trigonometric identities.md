@@ -48,7 +48,7 @@ return await memorize_table(
 - _(begin)_→:::←[Pythagorean identities](#Pythagorean%20identities) <!--SR:!2025-05-03,383,360!2025-04-05,361,362-->
 - [Pythagorean identities](#Pythagorean%20identities)→:::←[angle sum and difference](#angle%20sum%20and%20difference) <!--SR:!2027-06-27,1105,330!2024-06-22,340,330-->
 - [angle sum and difference](#angle%20sum%20and%20difference)→:::←[linear combination](#linear%20combination) <!--SR:!2024-12-04,229,289!2024-11-16,236,329-->
-- [linear combination](#linear%20combination)→:::←[multiple-angle](#multiple-angle) <!--SR:!2024-06-18,336,330!2024-06-23,341,330-->
+- [linear combination](#linear%20combination)→:::←[multiple-angle](#multiple-angle) <!--SR:!2027-07-01,1108,330!2024-06-23,341,330-->
 - [multiple-angle](#multiple-angle)→:::←[product-to-sum and sum-to-product](#product-to-sum%20and%20sum-to-product) <!--SR:!2024-12-07,354,270!2024-06-24,342,330-->
 - [product-to-sum and sum-to-product](#product-to-sum%20and%20sum-to-product)→:::←_(end)_ <!--SR:!2024-06-19,337,330!2025-03-31,535,310-->
 
@@ -175,7 +175,7 @@ return await memorize_map(
 >
 > - $\sin 7.42$ ([angle sum](#angle%20sum%20and%20difference) variant) ::: $2 \cos 3.71 \sin 3.71$ <!--SR:!2024-08-09,178,327!2024-11-21,241,327-->
 > - $\sin(-0.36)$ (square variant) ::: $(\cos 0.18 - \sin 0.18)^2 - 1$ <!--SR:!2025-03-20,300,287!2024-10-14,168,287-->
-> - $\sin 6.24$ (tangent variant) ::: $\frac{2 \tan 3.12}{1 + \tan^2 3.12}$ <!--SR:!2024-06-18,127,307!2024-09-11,121,247-->
+> - $\sin 6.24$ (tangent variant) ::: $\frac{2 \tan 3.12}{1 + \tan^2 3.12}$ <!--SR:!2025-07-12,389,307!2024-09-11,121,247-->
 > - $\cos(-3.68)$ ([angle sum](#angle%20sum%20and%20difference) variant) ::: $\cos^2 1.84 - \sin^2 1.84$ <!--SR:!2024-11-26,265,347!2024-12-05,231,287-->
 > - $\cos 9.98$ (cosine variant) ::: $2\cos^2 4.99 - 1$ <!--SR:!2024-11-25,244,327!2024-12-19,283,347-->
 > - $\cos 5.54$ (sine variant) ::: $1 - 2\sin^2 2.77$ <!--SR:!2024-12-28,290,347!2024-09-28,202,327-->

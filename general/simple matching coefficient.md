@@ -17,14 +17,14 @@ tags:
 
 # simple matching coefficient
 
-{{Two objects, _A_ and _B_, each with _n_ [binary](binary%20number.md) attributes}} are given. Define: <!--SR:!2024-06-18,4,270-->
+{{Two objects, _A_ and _B_, each with _n_ [binary](binary%20number.md) attributes}} are given. Define: <!--SR:!2024-07-02,14,290-->
 
-- $M_{00}$ ::: number of attributes where _A_ has value 0 and _B_ has value 0 <!--SR:!2024-06-18,4,270!2024-06-18,4,270-->
-- $M_{01}$ ::: number of attributes where _A_ has value 0 and _B_ has value 1 <!--SR:!2024-06-18,4,270!2024-06-18,4,270-->
-- $M_{10}$ ::: number of attributes where _A_ has value 1 and _B_ has value 0 <!--SR:!2024-06-18,4,270!2024-06-18,4,270-->
-- $M_{11}$ ::: number of attributes where _A_ has value 1 and _B_ has value 1 <!--SR:!2024-06-18,4,270!2024-06-18,4,270-->
+- $M_{00}$ ::: number of attributes where _A_ has value 0 and _B_ has value 0 <!--SR:!2024-07-03,15,290!2024-07-02,14,290-->
+- $M_{01}$ ::: number of attributes where _A_ has value 0 and _B_ has value 1 <!--SR:!2024-07-05,17,290!2024-07-05,17,290-->
+- $M_{10}$ ::: number of attributes where _A_ has value 1 and _B_ has value 0 <!--SR:!2024-07-01,13,290!2024-07-04,16,290-->
+- $M_{11}$ ::: number of attributes where _A_ has value 1 and _B_ has value 1 <!--SR:!2024-07-03,15,290!2024-07-04,16,290-->
 
-The simple matching coefficient is defined as {{$$\text{SMC} = \frac {\text{number of matching attributes} } {\text{number of attributes} } = \frac {M_{00} + M_{11} } {M_{00} + M_{01} + M_{10} + M_{11} }$$}}. <!--SR:!2024-06-18,4,270-->
+The simple matching coefficient is defined as {{$$\text{SMC} = \frac {\text{number of matching attributes} } {\text{number of attributes} } = \frac {M_{00} + M_{11} } {M_{00} + M_{01} + M_{10} + M_{11} }$$}}. <!--SR:!2024-07-01,13,290-->
 
 ## references
 

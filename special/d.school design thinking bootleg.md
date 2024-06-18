@@ -66,7 +66,7 @@ Ideate is {{generating _radical_ design alternatives, going wild with your imagi
 
 ### prototype
 
-Prototype is {{making your idea physical}}. In early stages, {{keep the prototypes inexpensive to reiterate quickly}}. Ideally, the prototypes are {{interactive}}. <!--SR:!2024-07-12,64,270!2024-09-15,116,290!2024-06-18,60,310-->
+Prototype is {{making your idea physical}}. In early stages, {{keep the prototypes inexpensive to reiterate quickly}}. Ideally, the prototypes are {{interactive}}. <!--SR:!2024-07-12,64,270!2024-09-15,116,290!2025-03-01,256,330-->
 
 ### test
 
@@ -118,7 +118,7 @@ return await memorize_seq(
 
 - _(begin)_→:::←(empathize) assume a beginner's mindset <!--SR:!2024-07-26,74,270!2024-06-28,67,310-->
 - (empathize) assume a beginner's mindset→:::←(empathize) extreme users: find amplified pains and gains <!--SR:!2024-06-26,59,270!2024-10-27,155,310-->
-- (empathize) extreme users: find amplified pains and gains→:::←(empathize) interview for empathy: interview with two <!--SR:!2024-08-11,81,270!2024-06-18,50,270-->
+- (empathize) extreme users: find amplified pains and gains→:::←(empathize) interview for empathy: interview with two <!--SR:!2024-08-11,81,270!2024-07-12,24,250-->
 - (empathize) interview for empathy: interview with two→:::←(empathize) interview preparation: prepare, prioritize, and refine questions <!--SR:!2024-10-19,129,270!2024-06-27,66,310-->
 - (empathize) interview preparation: prepare, prioritize, and refine questions→:::←(empathize) what, how, why: from the concrete to the abstract <!--SR:!2024-06-22,5,130!2024-07-04,38,210-->
 - (empathize) what, how, why: from the concrete to the abstract→:::←(empathize/define) journey map: dissect a user process to gain insights <!--SR:!2024-06-20,9,130!2024-06-28,19,210-->
@@ -127,7 +127,7 @@ return await memorize_seq(
 - (define) 2×2 matrix: plot a _xy_ graph to reveal relations and for visualization→:::←(define) design guidelines: a strategy to solve your design challenge, abstract enough to allow for multiple solutions <!--SR:!2024-09-01,94,250!2024-06-29,26,150-->
 - (define) design guidelines: a strategy to solve your design challenge, abstract enough to allow for multiple solutions→:::←(define) point of view (POV): make your design challenge into an actionable statement <!--SR:!2024-09-01,80,230!2024-09-05,83,210-->
 - (define) point of view (POV): make your design challenge into an actionable statement→:::←(define) why-how laddering: from need, asking "Why?" to follow the chain of reasoning to the root need, and then find other needs by asking "How?" to follow back down the chain <!--SR:!2024-07-05,23,150!2024-07-15,54,230-->
-- (define) why-how laddering: from need, asking "Why?" to follow the chain of reasoning to the root need, and then find other needs by asking "How?" to follow back down the chain→:::←(define/ideate) "how might we" questions: questions to stimulate ideation that are suitably narrow and suitably board <!--SR:!2024-06-18,10,150!2024-08-02,56,210-->
+- (define) why-how laddering: from need, asking "Why?" to follow the chain of reasoning to the root need, and then find other needs by asking "How?" to follow back down the chain→:::←(define/ideate) "how might we" questions: questions to stimulate ideation that are suitably narrow and suitably board <!--SR:!2024-07-02,14,150!2024-08-02,56,210-->
 - (define/ideate) "how might we" questions: questions to stimulate ideation that are suitably narrow and suitably board→:::←(define/ideate) powers of ten: change the scale by orders of magnitude <!--SR:!2024-07-12,38,170!2024-06-25,30,190-->
 - (define/ideate) powers of ten: change the scale by orders of magnitude→:::←_(end)_ <!--SR:!2024-10-10,141,310!2024-08-24,93,270-->
 

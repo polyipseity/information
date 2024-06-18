@@ -19,17 +19,17 @@ tags:
 
 ## overview
 
-PCA is most commonly used when {{many of the variables are highly correlated with each other and it is desirable to reduce the number of variables (e.g. accuracy, efficiency)}}. PCA allows us to {{reduce the number of dimensions in the data set while minimizing information loss}}. <!--SR:!2024-06-18,4,270!2024-06-18,4,270-->
+PCA is most commonly used when {{many of the variables are highly correlated with each other and it is desirable to reduce the number of variables (e.g. accuracy, efficiency)}}. PCA allows us to {{reduce the number of dimensions in the data set while minimizing information loss}}. <!--SR:!2024-07-03,15,290!2024-07-02,14,290-->
 
 ## intuition
 
-PCA can be thought of {{fitting an (hyper)[ellipsoid](ellipsoid.md) (a (hyper)[sphere](sphere.md) that are scaled differently along different axes) to the data}}, where each axis {{of the ellipsoid (which are perpendicular to each other) represents a principal component}}. The axis {{length represents the variance of the data along that axis}}. Axes with the least length means {{the data does not differ much in said axis}}, thus removing said axes {{reduces dimensionality while minimizing information loss}}. <!--SR:!2024-06-18,4,270!2024-06-27,10,250!2024-06-18,4,270!2024-06-18,4,270!2024-06-18,4,270-->
+PCA can be thought of {{fitting an (hyper)[ellipsoid](ellipsoid.md) (a (hyper)[sphere](sphere.md) that are scaled differently along different axes) to the data}}, where each axis {{of the ellipsoid (which are perpendicular to each other) represents a principal component}}. The axis {{length represents the variance of the data along that axis}}. Axes with the least length means {{the data does not differ much in said axis}}, thus removing said axes {{reduces dimensionality while minimizing information loss}}. <!--SR:!2024-07-02,14,290!2024-06-27,10,250!2024-07-03,15,290!2024-07-01,13,290!2024-07-03,15,290-->
 
 ## computing PCA using the covariance method
 
-The following is a detailed description of PCA using {{the covariance method as opposed to the correlation method}}. <!--SR:!2024-06-18,4,270-->
+The following is a detailed description of PCA using {{the covariance method as opposed to the correlation method}}. <!--SR:!2024-07-01,13,290-->
 
-The goal is to {{transform a given data set __X__ of dimension _p_ to another data set __Y__ of dimension _l_, where $p \ge l$}}. Equivalently, matrix __Y__ is {{the [Karhunen–Loève transform](Kosambi–Karhunen–Loève%20theorem.md) (KLT) of matrix __X__}}: {{$$\mathbf{Y} = \mathbb{KLT}\{\mathbf{X}\}$$}} <!--SR:!2024-06-18,4,270!2024-06-18,4,270!2024-06-18,4,270-->
+The goal is to {{transform a given data set __X__ of dimension _p_ to another data set __Y__ of dimension _l_, where $p \ge l$}}. Equivalently, matrix __Y__ is {{the [Karhunen–Loève transform](Kosambi–Karhunen–Loève%20theorem.md) (KLT) of matrix __X__}}: {{$$\mathbf{Y} = \mathbb{KLT}\{\mathbf{X}\}$$}} <!--SR:!2024-07-02,14,290!2024-07-04,16,290!2024-07-03,15,290-->
 
 ```Python
 # pytextgen generate data
@@ -80,15 +80,15 @@ return chain(
 <!--pytextgen generate section="dd23"--><!-- The following content is generated at 2024-06-11T22:43:08.135584+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←organize the data set <!--SR:!2024-06-26,9,250!2024-06-29,12,270-->
-- organize the data set→:::←calculate the empirical mean <!--SR:!2024-06-18,4,270!2024-06-18,4,270-->
-- calculate the empirical mean→:::←calculate the deviations from the mean <!--SR:!2024-06-18,4,270!2024-06-28,11,270-->
+- organize the data set→:::←calculate the empirical mean <!--SR:!2024-06-30,12,270!2024-06-30,12,270-->
+- calculate the empirical mean→:::←calculate the deviations from the mean <!--SR:!2024-07-05,17,290!2024-06-28,11,270-->
 - calculate the deviations from the mean→:::←find the covariance matrix <!--SR:!2024-06-28,11,270!2024-06-27,10,250-->
-- find the covariance matrix→:::←find the eigenvectors and eigenvalues of the covariance matrix <!--SR:!2024-06-18,4,270!2024-06-18,4,270-->
+- find the covariance matrix→:::←find the eigenvectors and eigenvalues of the covariance matrix <!--SR:!2024-06-29,11,270!2024-06-27,9,270-->
 - find the eigenvectors and eigenvalues of the covariance matrix→:::←rearrange the eigenvectors and eigenvalues <!--SR:!2024-06-24,7,250!2024-06-23,6,250-->
-- rearrange the eigenvectors and eigenvalues→:::←compute the cumulative variance for each eigenvector <!--SR:!2024-06-18,4,270!2024-06-18,4,270-->
+- rearrange the eigenvectors and eigenvalues→:::←compute the cumulative variance for each eigenvector <!--SR:!2024-07-04,16,290!2024-07-05,17,290-->
 - compute the cumulative variance for each eigenvector→:::←select a subset of the eigenvectors as basis vectors <!--SR:!2024-06-24,7,250!2024-06-24,7,250-->
-- select a subset of the eigenvectors as basis vectors→:::←project the data onto the new basis <!--SR:!2024-06-27,10,250!2024-06-18,4,270-->
-- project the data onto the new basis→:::←_(end)_ <!--SR:!2024-06-18,4,270!2024-06-28,11,270-->
+- select a subset of the eigenvectors as basis vectors→:::←project the data onto the new basis <!--SR:!2024-06-27,10,250!2024-06-29,11,270-->
+- project the data onto the new basis→:::←_(end)_ <!--SR:!2024-06-30,12,270!2024-06-28,11,270-->
 
 <!--/pytextgen-->
 
@@ -117,7 +117,7 @@ return chain(
     - Use the cumulative variances as {{a guide for choosing an appropriate value for the number of reduced dimensions _l_}}. The goal is to {{choose the smallest _l_ possible while ensuring the _l_-th cumulative variance _g<sub>l</sub>_ is reasonably high on a percentage basis}}. For example, {{one can choose the smallest _l_ such that $\frac {g_l} {g_p} \ge 0.9$}}.
     - After choosing _l_ (or _l_ is given beforehand), only keep {{the first _l_ columns of the eigenvector _V_ to make a _p_ × _l_ matrix __W__ and discard the rest}}.
 9. __<!--pytextgen generate section="f098"--><!-- The following content is generated at 2024-06-11T22:43:08.510681+08:00. Any edits will be overridden! -->project the data onto the new basis<!--/pytextgen-->__
-    - The projected data points are {{the rows of the _n_ × _l_ matrix __T__}}, computed by {{$$\mathbf{T} = \mathbf{B} \mathbf{W}$$}}. <!--SR:!2024-06-18,4,270!2024-06-18,4,270!2024-06-18,4,270!2024-06-29,12,270!2024-06-25,8,250!2024-06-18,4,270!2024-06-18,4,270!2024-06-29,12,270!2024-06-23,6,250!2024-06-26,9,250!2024-06-18,4,270!2024-06-29,12,270!2024-06-24,7,250!2024-06-18,4,270!2024-06-18,4,270!2024-06-18,4,270!2024-06-18,4,270!2024-06-18,4,270!2024-06-18,4,270!2024-06-24,7,250!2024-06-18,4,270!2024-06-18,4,270!2024-06-18,4,270!2024-06-18,4,270!2024-06-26,9,250!2024-06-27,10,250!2024-06-27,10,250!2024-06-23,6,250!2024-06-18,4,270!2024-06-18,4,270!2024-06-25,8,250!2024-06-25,8,250!2024-06-18,4,270-->
+    - The projected data points are {{the rows of the _n_ × _l_ matrix __T__}}, computed by {{$$\mathbf{T} = \mathbf{B} \mathbf{W}$$}}. <!--SR:!2024-07-01,13,290!2024-07-01,13,290!2024-07-02,14,290!2024-06-29,12,270!2024-06-25,8,250!2024-07-05,17,290!2024-07-03,15,290!2024-06-29,12,270!2024-06-23,6,250!2024-06-26,9,250!2024-07-05,17,290!2024-06-29,12,270!2024-06-24,7,250!2024-06-28,10,270!2024-07-04,16,290!2024-07-04,16,290!2024-06-30,12,270!2024-07-01,13,290!2024-06-27,9,270!2024-06-24,7,250!2024-06-28,10,270!2024-07-01,13,270!2024-07-04,16,290!2024-06-28,10,270!2024-06-26,9,250!2024-06-27,10,250!2024-06-27,10,250!2024-06-23,6,250!2024-06-27,9,270!2024-07-01,13,270!2024-06-25,8,250!2024-06-25,8,250!2024-06-29,11,270-->
 
 ## references
 

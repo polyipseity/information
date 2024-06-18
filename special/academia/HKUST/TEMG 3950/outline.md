@@ -134,7 +134,7 @@ The content is in teaching order.
     - individual presentation
 - presentation skills
 - [executive summary](../../../../general/executive%20summary.md)
-  - executive summary for startup investment ::: company name, one-line pitch, problem, solution and product, market and market size, marketing strategy, business model, competition and advantage, team <!--SR:!2024-06-18,24,255!2024-06-29,33,295-->
+  - executive summary for startup investment ::: company name, one-line pitch, problem, solution and product, market and market size, marketing strategy, business model, competition and advantage, team <!--SR:!2024-08-16,59,255!2024-06-29,33,295-->
 - [assignment W7](assignment%20W7/assignment%20W7.md)
 
 ## week 8 lecture
@@ -164,8 +164,8 @@ The content is in teaching order.
   - consultant job prospects
     - consultant after 1 to 2 years ::: Analyst, Associate, Specialist: doing the work; enter from BA, BS, MPhil, or MSc <!--SR:!2024-06-23,15,321!2024-06-26,18,341-->
     - consultant after 2 to 4 years ::: As. Consultant, Consultant, Sr. Consultant: doing the work; enter from JD, MBA, MD, or PhD, exit to project member of big firms or manager in small firms, and further top MBA <!--SR:!2024-06-28,20,341!2024-06-23,15,321-->
-    - consultant after 4 to 6 years ::: Eng. Manager, Mg. Consultant, Project Leader: managing the work; exit to manager of big firms or director of small firms, and further top EMBA <!--SR:!2024-06-18,11,301!2024-06-27,19,341-->
-    - consultant after 6 to 9 years ::: As. Partner, Principal: selling the work; exit to director of big firms or general manager (GM) of small firms, and further top EMBA <!--SR:!2024-06-18,11,301!2024-06-22,14,321-->
+    - consultant after 4 to 6 years ::: Eng. Manager, Mg. Consultant, Project Leader: managing the work; exit to manager of big firms or director of small firms, and further top EMBA <!--SR:!2024-07-22,34,301!2024-06-27,19,341-->
+    - consultant after 6 to 9 years ::: As. Partner, Principal: selling the work; exit to director of big firms or general manager (GM) of small firms, and further top EMBA <!--SR:!2024-07-21,33,301!2024-06-22,14,321-->
     - consultant after 9 years or more ::: Director, Partner, VP: managing the business; exit to CEO or retire rich <!--SR:!2024-06-25,17,341!2024-06-27,19,341-->
 - nature of complex problems ::: modeled by time-varying multi-variable optimization problems with constraints <!--SR:!2024-06-25,17,341!2024-06-27,19,341-->
   - solving complex problems ::: MECE frameworks for patterns, 5-step persuasive selling for presentation <!--SR:!2024-06-26,18,341!2024-06-19,11,321-->
@@ -175,7 +175,7 @@ The content is in teaching order.
 - modeling key concepts ::: abstraction, framework, model <!--SR:!2024-06-25,17,341!2024-06-28,20,341-->
   - modeling key concept: abstraction ::: filter for elements relevant to some specific purpose <!--SR:!2024-06-26,18,341!2024-06-28,20,341-->
   - modeling key concept: framework ::: a support structure around which something can be built <!--SR:!2024-06-27,19,341!2024-06-26,18,341-->
-  - modeling key concept: model ::: an abstraction of the real world for some specific purpose <!--SR:!2024-06-24,16,341!2024-06-18,8,321-->
+  - modeling key concept: model ::: an abstraction of the real world for some specific purpose <!--SR:!2024-06-24,16,341!2024-07-19,31,341-->
 - Aguilar's PESTLE framework ::: business environment analysis <!--SR:!2024-06-27,19,341!2024-06-26,18,341-->
   - [PEST analysis § composition](../../../../general/PEST%20analysis.md#composition)
 - Porter's 5 forces framework ::: industry profitability analysis <!--SR:!2024-06-26,18,341!2024-06-26,18,341-->

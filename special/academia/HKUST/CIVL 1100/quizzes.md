@@ -227,7 +227,7 @@ Example quiz questions for preparing exams.
 > 3. Amount of greenhouse gases is expressed in terms of equivalent amount of carbon
 > 4. Global warming is due to the presence of greenhouse gases (GHG)
 >
-> - solution: {{1}} <!--SR:!2024-06-18,18,272-->
+> - solution: {{1}} <!--SR:!2024-08-25,68,292-->
 
 <!-- markdownlint MD028 -->
 
