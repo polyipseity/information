@@ -406,7 +406,7 @@ The content is in teaching order.
 - [HITS algorithm](../../../../general/HITS%20algorithm.md)
   - [§ steps](../../../../general/HITS%20algorithm.md#steps)
     - HITS algorithm variant ::: It does not matter because we only use the recursive expressions to calculate the new authority and hub values.
-    - HITS algorithm termination ::: Terminate the algorithm when after rounding the values to a certain number of digits, the values have not changed.
+    - HITS algorithm termination ::: Terminate the HITS algorithm when after rounding the values to a certain number of digits, the values have not changed.
   - [§ in detail](../../../../general/HITS%20algorithm.md#in%20detail)
   - [§ authority update rule](../../../../general/HITS%20algorithm.md#authority%20update%20rule)
   - [§ hub update rule](../../../../general/HITS%20algorithm.md#hub%20update%20rule)
@@ -416,10 +416,10 @@ The content is in teaching order.
   - [§ algorithm](../../../../general/PageRank.md#algorithm)
     - PageRank self-links ::: Self-links are considered.
     - PageRank initialization ::: We initialize all PageRank values to 1 instead of 1 divided by number of pages.
-    - PageRank termination ::: Terminate the algorithm when after rounding the values to a certain number of digits, the values have not changed.
+    - PageRank termination ::: Terminate the PageRank algorithm when after rounding the values to a certain number of digits, the values have not changed.
   - [§ simplified algorithm](../../../../general/PageRank.md#simplified%20algorithm)
   - [§ damping factor](../../../../general/PageRank.md#damping%20factor)
-    - PageRank damping factor variatih`n ::: We use the algorithm in the original paper, where the PageRank is added $1 - d$ instead of $\frac {1 - d} N$.
+    - PageRank damping factor variation ::: We use the algorithm in the original paper, where the PageRank is added $1 - d$ instead of $\frac {1 - d} N$.
 
 ## week 14 lecture
 
@@ -464,7 +464,7 @@ The content is in teaching order.
 - [chain rule (probability)](../../../../general/chain%20rule%20(probability).md)
   - [§ two events](../../../../general/chain%20rule%20(probability).md#two%20events)
   - [§ finitely many events](../../../../general/chain%20rule%20(probability).md#finitely%20many%20events)
-- common core requirement ::: mathematical models, quantitative data, quantitative methods
+- common core requirements ::: mathematical models, quantitative data, quantitative methods
 - other topics
   - association thresholding ::: Instead of thresholding by frequency, we can threshold by number of frequent item sets found, which may be easier to choose.
   - [clustering high-dimensional data § subspace clustering](../../../../general/clustering%20high-dimensional%20data.md#subspace%20clustering) ::: By removing some dimensions of the data, more interesting clusters may be found. It mitigates [curse of dimensionality](../../../../general/curse%20of%20dimensionality.md), where [distances between different pairs of points become similar](../../../../general/curse%20of%20dimensionality.md#distance%20function).
