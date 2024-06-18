@@ -61,7 +61,7 @@ See [Burj Khalifa](../../../../general/Burj%20Khalifa.md).
 See [CCTV Headquarters](../../../../general/CCTV%20Headquarters.md).
 
 - description ::: skyscraper in the central business district of Beijing, China <!--SR:!2024-10-25,144,332!2024-07-27,79,367-->
-- height ::: roof: 234 m <!--SR:!2024-06-18,7,240!2024-08-29,108,377-->
+- height ::: roof: 234 m <!--SR:!2024-07-07,19,240!2024-08-29,108,377-->
 - image ::: ![CCTV Headquarters image](../../../../archives/Wikimedia%20Commons/China%20Central%20Television%20HQ,%20from%20China%20World%20Trade%20Centre%20(Cropped).jpg) <!--SR:!2024-07-26,63,360!2024-08-29,96,380-->
 - shape ::: big pants <!--SR:!2024-08-15,94,365!2024-08-25,93,380-->
 
@@ -103,7 +103,7 @@ See [Colosseum](../../../../general/Colosseum.md).
 - base widths ::: length: 189 m, width: 156 m <!--SR:!2024-07-14,40,336!2024-06-22,29,376-->
 - construction period ::: AD 72 to AD 80, 8 years <!--SR:!2024-06-23,13,296!2024-06-26,33,376-->
 - description ::: elliptical amphitheater in the center of Rome <!--SR:!2024-08-18,72,376!2024-06-22,29,376-->
-- geographic location ::: Rome <!--SR:!2024-10-13,119,396!2024-06-18,25,376-->
+- geographic location ::: Rome <!--SR:!2024-10-13,119,396!2024-10-29,133,396-->
 - height ::: 48 m (4 storeys) <!--SR:!2024-06-30,19,316!2024-06-21,28,376-->
 - importance ::: largest amphitheater in the Roman Empire, greatest works of Roman architecture and engineering <!--SR:!2024-06-25,32,376!2024-06-22,29,376-->
 
@@ -133,7 +133,7 @@ See [Golden Gate Bridge](../../../../general/Golden%20Gate%20Bridge.md).
 See [Great Pyramid of Giza](../../../../general/Great%20Pyramid%20of%20Giza.md).
 
 - base width ::: 230.33 m <!--SR:!2024-06-25,32,376!2024-06-19,26,376-->
-- construction period ::: 10~20 years around 2560 BC <!--SR:!2024-06-18,13,296!2024-10-14,120,396-->
+- construction period ::: 10~20 years around 2560 BC <!--SR:!2024-06-23,5,276!2024-10-14,120,396-->
 - description ::: largest pyramid in the Giza Necropolis, Egypt <!--SR:!2024-10-05,112,396!2024-06-19,26,376-->
 - height ::: current: 138.5 m, original: 146.6 m <!--SR:!2024-07-15,40,356!2024-06-19,26,376-->
 - weight ::: 5.9 million tonnes <!--SR:!2024-09-14,89,376!2024-06-21,28,376-->
@@ -203,7 +203,7 @@ See [Itaipu Dam](../../../../general/Itaipu%20Dam.md).
 See [John Hancock Center](John%20Hancock%20Center.md).
 
 - description ::: skyscraper in Chicago, Illinois <!--SR:!2024-08-20,80,295!2024-07-23,75,367-->
-- height ::: architectural: 344 m, tip: 457 m, top floor: 321 m <!--SR:!2024-06-18,25,237!2025-01-14,230,330-->
+- height ::: architectural: 344 m, tip: 457 m, top floor: 321 m <!--SR:!2024-06-29,11,217!2025-01-14,230,330-->
 - image ::: ![John Hancock Center image](../../../../archives/Wikimedia%20Commons/Chicago%20(22332583569).jpg) <!--SR:!2024-08-15,83,380!2024-09-08,104,380-->
 - [structural system](../../../../general/structural%20system.md) ::: steel<!-- flashcard cdb6c7b6-65ec-475e-8c89-c66ec42bacd2 --> <!--SR:!2024-09-26,106,300!2024-08-20,88,380-->
 
@@ -216,11 +216,11 @@ See [John Hancock Center](John%20Hancock%20Center.md).
 
 See [Millau Viaduct](../../../../general/Millau%20Viaduct.md).
 
-- bridge type ::: cable-stayed road bridge <!--SR:!2024-06-25,32,376!2024-06-18,25,376-->
+- bridge type ::: cable-stayed road bridge <!--SR:!2024-06-25,32,376!2024-10-23,127,396-->
 - designers ::: Michel Virlogeux, Norman Foster <!--SR:!2024-08-24,77,376!2024-06-21,28,376-->
 - geographic location ::: across the gorge valley of the Tarn near Millau in southern France <!--SR:!2024-08-15,69,376!2024-08-22,75,376-->
 - height ::: max pylon above base: 343 m, structural: 336.4 m <!--SR:!2024-06-29,25,316!2024-06-20,27,376-->
-  - height record ::: as of October 2023, tallest bridge in the world <!--SR:!2024-06-18,25,376!2024-10-22,127,396-->
+  - height record ::: as of October 2023, tallest bridge in the world <!--SR:!2024-10-22,126,396!2024-10-22,127,396-->
 - length ::: 2450 m = 204 m + 342 m × 6 + 204 m, longest span: 342 m <!--SR:!2024-06-28,16,336!2024-10-12,118,396-->
 - image ::: ![Millau Viaduct image](../../../../archives/Wikimedia%20Commons/ViaducdeMillau.jpg) <!--SR:!2024-06-20,27,376!2024-08-28,80,376-->
 - opening time ::: 2004-12-16, 09:00 <!--SR:!2024-07-13,39,336!2024-08-22,75,376-->
@@ -253,13 +253,13 @@ See [Parthenon](../../../../general/Parthenon.md).
 - dedication ::: Greek goddess Athena <!--SR:!2024-06-25,32,376!2024-06-20,27,376-->
 - description ::: temple on the Athenian Acropolis, Greece, dedicated to the Greek goddess Athena <!--SR:!2024-07-09,38,356!2024-06-20,27,376-->
 - geographic location ::: Athenian Acropolis, Greece <!--SR:!2024-07-14,39,356!2024-10-16,122,396-->
-- importance ::: most important surviving building of classical Greece <!--SR:!2024-06-25,32,376!2024-06-18,25,376-->
+- importance ::: most important surviving building of classical Greece <!--SR:!2024-06-25,32,376!2024-10-24,128,396-->
 
 ## Stonecutters Bridge
 
 See [Stonecutters Bridge](../../../../general/Stonecutters%20Bridge.md).
 
-- bridge type ::: [cable-stayed bridge](../../../../general/cable-stayed%20bridge.md)<!-- flashcard ca1fa4c4-b487-40a0-9948-a808866a25eb --> <!--SR:!2024-06-18,38,341!2024-08-30,98,381-->
+- bridge type ::: [cable-stayed bridge](../../../../general/cable-stayed%20bridge.md)<!-- flashcard ca1fa4c4-b487-40a0-9948-a808866a25eb --> <!--SR:!2024-12-12,177,361!2024-08-30,98,381-->
 - description ::: bridge in Hong Kong <!--SR:!2024-12-19,186,345!2024-08-21,100,377-->
 - image ::: ![Stonecutters Bridge image](../../../../archives/Wikimedia%20Commons/Stonecutters'%20Bridge.jpg) <!--SR:!2024-08-28,95,380!2024-07-21,58,360-->
 - length ::: 1596 m, longest span: 1018 m <!--SR:!2024-06-27,34,280!2024-06-27,54,350-->

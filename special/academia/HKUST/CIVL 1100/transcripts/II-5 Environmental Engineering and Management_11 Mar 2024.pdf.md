@@ -98,12 +98,12 @@ return await memorize_seq(
 
 <!--pytextgen generate section="a92d"--><!-- The following content is generated at 2024-06-09T06:29:24.057662+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←(Cap. 311) Air Pollution Control Ordinance <!--SR:!2024-06-19,2,275!2024-06-18,4,315-->
-- (Cap. 311) Air Pollution Control Ordinance→:::←(Cap. 354) Waste Disposal Ordinance <!--SR:!2024-06-24,7,295!2024-06-18,4,315-->
-- (Cap. 354) Waste Disposal Ordinance→:::←(Cap. 358) Water Pollution Control Ordinance <!--SR:!2024-06-24,7,295!2024-06-18,4,315-->
-- (Cap. 358) Water Pollution Control Ordinance→:::←(Cap. 400) Noise Pollution Control Ordinance <!--SR:!2024-06-18,3,275!2024-06-26,9,295-->
+- _(begin)_→:::←(Cap. 311) Air Pollution Control Ordinance <!--SR:!2024-06-19,2,275!2024-07-07,19,335-->
+- (Cap. 311) Air Pollution Control Ordinance→:::←(Cap. 354) Waste Disposal Ordinance <!--SR:!2024-06-24,7,295!2024-07-07,19,335-->
+- (Cap. 354) Waste Disposal Ordinance→:::←(Cap. 358) Water Pollution Control Ordinance <!--SR:!2024-06-24,7,295!2024-07-07,19,335-->
+- (Cap. 358) Water Pollution Control Ordinance→:::←(Cap. 400) Noise Pollution Control Ordinance <!--SR:!2024-06-28,10,295!2024-06-26,9,295-->
 - (Cap. 400) Noise Pollution Control Ordinance→:::←(Cap. 499) Environmental Impact Ordinance <!--SR:!2024-06-29,12,315!2024-07-01,14,315-->
-- (Cap. 499) Environmental Impact Ordinance→:::←_(end)_ <!--SR:!2024-06-18,4,315!2024-06-18,4,315-->
+- (Cap. 499) Environmental Impact Ordinance→:::←_(end)_ <!--SR:!2024-07-07,19,335!2024-07-07,19,335-->
 
 <!--/pytextgen-->
 
@@ -152,12 +152,12 @@ return await memorize_seq(
 
 <!--pytextgen generate section="ee23"--><!-- The following content is generated at 2024-06-09T06:29:24.079979+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←air sparging <!--SR:!2024-06-18,4,315!2024-06-18,4,315-->
+- _(begin)_→:::←air sparging <!--SR:!2024-07-07,19,335!2024-07-07,19,335-->
 - air sparging→:::←bioremediation <!--SR:!2024-06-28,11,315!2024-06-29,12,315-->
 - bioremediation→:::←catalytic oxidation <!--SR:!2024-06-29,12,315!2024-06-30,13,315-->
 - catalytic oxidation→:::←ex-situ biopile <!--SR:!2024-06-25,8,295!2024-06-27,10,315-->
 - ex-situ biopile→:::←ex-situ solidification or stabilization <!--SR:!2024-06-30,13,315!2024-06-27,10,315-->
-- ex-situ solidification or stabilization→:::←_(end)_ <!--SR:!2024-06-18,4,315!2024-06-29,12,315-->
+- ex-situ solidification or stabilization→:::←_(end)_ <!--SR:!2024-07-07,19,335!2024-06-29,12,315-->
 
 <!--/pytextgen-->
 
@@ -215,7 +215,7 @@ How to provide motivation for waste reduction, reuse and recycling?
 
 MSW Waste Charging Scheme
 
-- MSW waste charging scheme passing date ::: 2021-09-26 by Legco <!--SR:!2024-06-18,18,250!2024-06-29,29,270-->
+- MSW waste charging scheme passing date ::: 2021-09-26 by Legco <!--SR:!2024-08-02,45,250!2024-06-29,29,270-->
   - MSW waste charging scheme preparation period ::: 18 months <!--SR:!2024-08-10,64,310!2024-07-06,35,290-->
   - MSW waste charging scheme details ::: buy designated bags (0.11 HKD/L) at ~4000 selling points <!--SR:!2024-06-28,25,270!2024-08-02,57,310-->
   - MSW waste charging scheme penalty ::: max HK$25000 fine and 6 months in prison <!--SR:!2024-07-29,54,310!2024-07-23,46,290-->
@@ -390,9 +390,9 @@ return await memorize_seq(
 <!--pytextgen generate section="ff34"--><!-- The following content is generated at 2024-05-16T15:50:24.139486+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←carbon dioxide (CO<sub>2</sub>) <!--SR:!2024-08-09,62,310!2024-08-10,63,310-->
-- carbon dioxide (CO<sub>2</sub>)→:::←hydroflurocarbons (HFCs) <!--SR:!2024-06-18,15,230!2024-07-04,31,270-->
+- carbon dioxide (CO<sub>2</sub>)→:::←hydroflurocarbons (HFCs) <!--SR:!2024-07-22,34,230!2024-07-04,31,270-->
 - hydroflurocarbons (HFCs)→:::←methane (CH<sub>4</sub>) <!--SR:!2024-07-15,37,270!2024-07-14,31,230-->
-- methane (CH<sub>4</sub>)→:::←nitrous oxide (N<sub>2</sub>O) <!--SR:!2024-06-18,11,230!2024-07-26,47,290-->
+- methane (CH<sub>4</sub>)→:::←nitrous oxide (N<sub>2</sub>O) <!--SR:!2024-07-24,36,250!2024-07-26,47,290-->
 - nitrous oxide (N<sub>2</sub>O)→:::←perflurocarbons (PFCs) <!--SR:!2024-06-22,5,230!2024-06-19,5,210-->
 - perflurocarbons (PFCs)→:::←sulfur hexafluoride (SF<sub>6</sub>) <!--SR:!2024-07-29,50,290!2024-06-29,26,270-->
 - sulfur hexafluoride (SF<sub>6</sub>)→:::←_(end)_ <!--SR:!2024-08-09,62,310!2024-08-20,72,310-->
