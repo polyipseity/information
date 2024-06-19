@@ -15,7 +15,7 @@ tags:
 
 # confusion matrix
 
-In [machine learning](machine%20learning.md) and specifically [statistical classification](statistical%20classification.md), a __confusion matrix__ or {{__error matrix__}}, is {{a table that visualizes the performance of a classification algorithm}}. <!--SR:!2024-06-19,51,310!2024-10-07,132,310-->
+In [machine learning](machine%20learning.md) and specifically [statistical classification](statistical%20classification.md), a __confusion matrix__ or {{__error matrix__}}, is {{a table that visualizes the performance of a classification algorithm}}. <!--SR:!2025-01-23,218,330!2024-10-07,132,310-->
 
 Each row represents {{an actual class while each column represents a predicted class. The reverse is less common but also possible, and both are found in the literature}}. <!--SR:!2024-10-14,124,290-->
 
