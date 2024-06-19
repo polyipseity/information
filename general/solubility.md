@@ -369,7 +369,7 @@ return await memorize_map(
 - [copper(II) sulfide](copper(II)%20sulfide.md)::<span style="color: red;">insoluble</span> <!--SR:!2024-08-13,115,258-->
 - [lead(II) bromide](lead(II)%20bromide.md)::<span style="background-color: black; color: yellow;">slightly soluble</span> <!--SR:!2024-08-17,95,218-->
 - [lead(II) chloride](lead(II)%20chloride.md)::<span style="background-color: black; color: yellow;">slightly soluble</span> <!--SR:!2024-11-25,260,278-->
-- [lead(II) iodide](lead(II)%20iodide.md)::<span style="background-color: black; color: yellow;">slightly soluble</span> <!--SR:!2024-06-19,7,130-->
+- [lead(II) iodide](lead(II)%20iodide.md)::<span style="background-color: black; color: yellow;">slightly soluble</span> <!--SR:!2024-06-29,10,130-->
 - [lead(II) sulfate](lead(II)%20sulfate.md)::<span style="color: red;">insoluble</span> <!--SR:!2024-07-17,56,158-->
 - [lithium phosphate](lithium%20phosphate.md)::<span style="background-color: black; color: yellow;">slightly soluble</span> <!--SR:!2024-10-31,153,198-->
 - [mercury(I) bromide](mercury(I)%20bromide.md)::<span style="color: red;">insoluble</span> <!--SR:!2026-03-27,660,318-->
@@ -385,7 +385,7 @@ return await memorize_map(
 - [silver nitrate](silver%20nitrate.md)::<span style="color: green;">soluble</span> <!--SR:!2024-07-31,218,318-->
 - [silver sulfate](silver%20sulfate.md)::<span style="background-color: black; color: yellow;">slightly soluble</span> <!--SR:!2024-06-28,19,138-->
 - [sodium carbonate](sodium%20carbonate.md)::<span style="color: green;">soluble</span> <!--SR:!2025-03-02,333,298-->
-- [sodium chloride](sodium%20chloride.md)::<span style="color: green;">soluble</span> <!--SR:!2024-06-19,184,318-->
+- [sodium chloride](sodium%20chloride.md)::<span style="color: green;">soluble</span> <!--SR:!2026-09-04,807,338-->
 - [sodium fluoride](sodium%20fluoride.md)::<span style="color: green;">soluble</span> <!--SR:!2024-06-20,185,318-->
 - [sodium hydroxide](sodium%20hydroxide.md)::<span style="color: green;">soluble</span> <!--SR:!2026-07-27,777,338-->
 - [sodium oxide](sodium%20oxide.md)::<span style="color: violet;">reacts</span> <!--SR:!2025-01-08,301,318-->

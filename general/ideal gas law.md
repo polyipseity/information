@@ -20,7 +20,7 @@ The __ideal gas law__, also called the __general gas equation__, is {{the [equat
 > - where
 >   - [state variables](state%20variable.md): {{$p$ is the absolute [pressure](pressure.md) of the gas, $V$ is the [volume](volume.md) of the gas, $T$ is the [absolute temperature](thermodynamic%20temperature.md) of the gas, $n$ is the [amount of substance](amount%20of%20substance.md) (i.e. number of moles) of the gas, and $N$ is the [number of particles](particle%20number.md) of the gas}}
 >   - {{$R = 8.314\,462\,618\,153\,24 \mathrm{\ J \cdot K^{−1} \cdot mol^{−1} }$ is the [gas constant](gas%20constant.md)}}
->   - {{$k_\text{B} = 1.380\,649 \times 10^{−23} \mathrm{\ J \cdot K^{−1} }$ is the [Boltzmann constant](Boltzmann%20constant.md)}} <!--SR:!2024-11-28,268,330!2025-02-02,279,290!2024-06-30,76,210!2024-06-19,11,170-->
+>   - {{$k_\text{B} = 1.380\,649 \times 10^{−23} \mathrm{\ J \cdot K^{−1} }$ is the [Boltzmann constant](Boltzmann%20constant.md)}} <!--SR:!2024-11-28,268,330!2025-02-02,279,290!2024-06-30,76,210!2024-07-18,29,190-->
 
 ## energy associated with a gas
 
@@ -33,7 +33,7 @@ For an ideal [monoatomic gas](monoatomic%20gas.md), {{its [potential energy](pot
 
 ## deviations from behavior of real gases
 
-The ideal gas law is most accurate for {{[monoatomic gas](monoatomic%20gas.md) at high [temperature](temperature.md) and low [pressure](pressure.md) due to the neglect of [molecular size](molecule.md#molecular%20size) and [intermolecular forces](intermolecular%20forces.md)}}. At low [temperatures](temperature.md), {{the [pressure](pressure.md) of a [real gas](real%20gas.md) is often lower than that of an [ideal gas](ideal%20gas.md)}}. At high [pressures](pressure.md), {{the [volume](volume.md) of a [real gas](real%20gas.md) is often higher than that of an [ideal gas](ideal%20gas.md)}}. <!--SR:!2024-07-15,144,290!2024-06-19,126,290!2024-10-24,221,290-->
+The ideal gas law is most accurate for {{[monoatomic gas](monoatomic%20gas.md) at high [temperature](temperature.md) and low [pressure](pressure.md) due to the neglect of [molecular size](molecule.md#molecular%20size) and [intermolecular forces](intermolecular%20forces.md)}}. At low [temperatures](temperature.md), {{the [pressure](pressure.md) of a [real gas](real%20gas.md) is often lower than that of an [ideal gas](ideal%20gas.md)}}. At high [pressures](pressure.md), {{the [volume](volume.md) of a [real gas](real%20gas.md) is often higher than that of an [ideal gas](ideal%20gas.md)}}. <!--SR:!2024-07-15,144,290!2025-06-18,364,290!2024-10-24,221,290-->
 
 ## references
 

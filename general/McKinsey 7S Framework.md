@@ -25,7 +25,7 @@ The 3 hard elements are {{_strategy_, _structure_, and _systems_}}. <!--SR:!2024
 - _structure_ ::: coordination and integration mechanisms, and division of activities <!--SR:!2024-07-01,16,250!2024-06-23,14,290-->
 - _systems_ ::: formal and informal procedures for allocation, measurement, and reward <!--SR:!2024-06-24,15,290!2024-06-22,13,290-->
 
-The 4 soft elements are {{_shared values_, _skills_, _staff_, and _style_}}. <!--SR:!2024-06-19,10,270-->
+The 4 soft elements are {{_shared values_, _skills_, _staff_, and _style_}}. <!--SR:!2024-07-15,26,270-->
 
 - _shared values_ ::: core beliefs and values forming the corporate culture <!--SR:!2024-06-26,17,290!2024-06-23,14,290-->
 - _skills_ ::: core competencies and distinctive capabilities, such as existing skills, skill development <!--SR:!2024-06-25,16,290!2024-06-23,14,290-->

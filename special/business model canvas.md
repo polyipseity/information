@@ -170,7 +170,7 @@ risk reduction
 - cost reduction→:::←customization <!--SR:!2024-08-27,94,274!2024-07-14,44,177-->
 - customization→:::←design <!--SR:!2024-08-11,76,277!2024-07-17,55,234-->
 - design→:::←newness <!--SR:!2024-09-10,89,257!2024-06-30,52,274-->
-- newness→:::←performance <!--SR:!2024-07-16,61,277!2024-06-19,39,257-->
+- newness→:::←performance <!--SR:!2024-07-16,61,277!2024-09-26,99,257-->
 - performance→:::←performing the job well <!--SR:!2024-10-23,129,297!2024-09-03,92,274-->
 - performing the job well→:::←price <!--SR:!2024-10-20,139,294!2024-07-10,60,274-->
 - price→:::←risk reduction <!--SR:!2024-08-04,74,274!2024-08-12,82,274-->
@@ -180,7 +180,7 @@ risk reduction
 
 #### channels
 
-The channels building block shows {{the ways to reach customers and deliver value propositions}}. Channels phases are split into {{five phases, in chronological order: awareness, evaluation, purchase, delivery, and after sales}}. Channels can be classified into {{own or partner, and direct or indirect. Partner channels are always indirect}}. <!--SR:!2024-06-19,44,294!2024-08-03,73,277!2024-09-08,95,274-->
+The channels building block shows {{the ways to reach customers and deliver value propositions}}. Channels phases are split into {{five phases, in chronological order: awareness, evaluation, purchase, delivery, and after sales}}. Channels can be classified into {{own or partner, and direct or indirect. Partner channels are always indirect}}. <!--SR:!2024-10-25,128,294!2024-08-03,73,277!2024-09-08,95,274-->
 
 #### customer relationships
 
@@ -265,12 +265,12 @@ subscription fee
 
 - _(begin)_→:::←advertising <!--SR:!2024-08-24,92,274!2024-07-16,71,317-->
 - advertising→:::←asset sale <!--SR:!2024-10-07,130,294!2024-11-28,167,317-->
-- asset sale→:::←brokerage fee <!--SR:!2024-07-05,55,274!2024-06-19,41,274-->
+- asset sale→:::←brokerage fee <!--SR:!2024-07-05,55,274!2024-07-09,20,254-->
 - brokerage fee→:::←lending, renting, or leasing <!--SR:!2024-07-17,56,257!2024-07-01,48,254-->
 - lending, renting, or leasing→:::←licensing <!--SR:!2024-08-23,87,257!2024-08-01,71,274-->
 - licensing→:::←usage fee <!--SR:!2024-08-10,76,274!2024-07-31,68,274-->
 - usage fee→:::←subscription fee <!--SR:!2024-06-27,44,254!2024-08-04,74,277-->
-- subscription fee→:::←_(end)_ <!--SR:!2024-11-06,142,294!2024-06-19,37,257-->
+- subscription fee→:::←_(end)_ <!--SR:!2024-11-06,142,294!2024-10-29,132,277-->
 
 <!--/pytextgen-->
 

@@ -41,7 +41,7 @@ Industry rivalry is {{the extent of competition among existing firms}}. <!--SR:!
 
 ## usage
 
-Porter's five forces framework is great for {{classical industries involving physical goods}}, but not {{globalized markets, industries not affected by all 5 forces, internet businesses, or new sectors spanning multiple industries}}. <!--SR:!2024-06-24,16,290!2024-06-19,11,270-->
+Porter's five forces framework is great for {{classical industries involving physical goods}}, but not {{globalized markets, industries not affected by all 5 forces, internet businesses, or new sectors spanning multiple industries}}. <!--SR:!2024-06-24,16,290!2024-07-18,29,270-->
 
 ## references
 

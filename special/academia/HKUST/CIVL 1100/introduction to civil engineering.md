@@ -23,7 +23,7 @@ The content is in teaching order.
     - engineer methods ::: ingenuity, mathematics, scientific method and outlook <!--SR:!2024-10-24,143,337!2024-08-02,85,365-->
   - engineer, according to the World Federation of Engineering Organizations (WFEO)
     - engineer inspirations ::: art of using creativity, science and technology, traditional experience <!--SR:!2024-10-25,136,335!2024-06-20,76,330-->
-    - engineer sustainability ::: restore and safeguard the biophysical environment <!--SR:!2024-06-19,46,325!2024-06-30,57,345-->
+    - engineer sustainability ::: restore and safeguard the biophysical environment <!--SR:!2025-01-10,205,345!2024-06-30,57,345-->
   - [engineer types](#engineer%20types)
   - differences between engineers and scientists ::: Scientists understand nature and make predictions, while engineers use scientific data and knowledge to design cities and protect us from nature. <!--SR:!2024-07-18,99,279!2024-12-02,192,330-->
 - civil engineering ::: construction, design, maintenance, and planning of the built environment, including buildings and infrastructure <!--SR:!2024-07-01,38,300!2024-07-18,64,360-->
@@ -60,7 +60,7 @@ The content is in teaching order.
       - [reinforced concrete structure examples](#reinforced%20concrete%20structure%20examples)
       - [steel or concrete–steel composite structure examples](#steel%20or%20concrete–steel%20composite%20structure%20examples)
       - timber structure examples ::: Hirschberg 13, 35037 Marburg, Germany <!--SR:!2024-07-25,56,265!2024-07-16,71,344-->
-  - structural codes of practice or design codes ::: different countries have different standards <!--SR:!2024-06-19,75,330!2024-07-28,76,357-->
+  - structural codes of practice or design codes ::: different countries have different standards <!--SR:!2025-05-25,340,350!2024-07-28,76,357-->
     - [structural code of practice examples](#structural%20code%20of%20practice%20examples)
 - geo-technical engineering ::: behavior of rock, soil, and underground water <!--SR:!2024-08-28,109,305!2024-06-25,52,347-->
   - geo-technical engineering structures ::: design and construction of earthworks and foundations <!--SR:!2024-07-16,50,320!2024-06-23,48,330-->
@@ -90,7 +90,7 @@ The content is in teaching order.
     - [materials engineer job examples](#materials%20engineer%20job%20examples)
   - materials engineering materials ::: development of improved or new materials <!--SR:!2024-07-04,49,297!2024-06-21,77,330-->
     - [materials engineering material examples](#materials%20engineering%20material%20examples)
-  - materials engineering repair ::: design of materials and methods to repair <!--SR:!2024-06-19,75,330!2024-08-09,90,375-->
+  - materials engineering repair ::: design of materials and methods to repair <!--SR:!2025-05-24,339,350!2024-08-09,90,375-->
     - materials engineering repair examples ::: fiber reinforced polymer retrofit system, retrofit using damper, slab retrofit using steel plate and carbon fiber reinforced polymer <!--SR:!2024-09-07,92,320!2024-10-17,135,332-->
 - construction engineering ::: planning and execution of the designs from other fields of engineers <!--SR:!2024-08-25,90,317!2024-08-01,84,374-->
   - [construction engineer skills](#construction%20engineer%20skills)
@@ -194,7 +194,7 @@ water and sewage treatment system
 - _(begin)_→:::←bridge <!--SR:!2024-07-30,80,377!2024-08-11,92,374-->
 - bridge→:::←building <!--SR:!2024-07-24,76,372!2024-07-28,75,360-->
 - building→:::←dam <!--SR:!2024-06-28,50,340!2024-09-06,105,380-->
-- dam→:::←pipeline <!--SR:!2024-06-19,8,204!2024-10-09,117,321-->
+- dam→:::←pipeline <!--SR:!2024-07-05,16,204!2024-10-09,117,321-->
 - pipeline→:::←power plant <!--SR:!2024-08-14,59,260!2024-07-06,38,281-->
 - power plant→:::←reservoir <!--SR:!2024-07-30,60,275!2024-09-05,91,320-->
 - reservoir→:::←sewage treatment <!--SR:!2024-07-18,31,197!2024-06-22,29,261-->
@@ -233,7 +233,7 @@ water security
 <!--pytextgen generate section="9f12"--><!-- The following content is generated at 2024-02-16T21:59:47.097705+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←climate change <!--SR:!2024-10-25,164,325!2024-07-11,66,350-->
-- climate change→:::←extreme weather <!--SR:!2024-09-09,102,337!2024-06-19,44,330-->
+- climate change→:::←extreme weather <!--SR:!2024-09-09,102,337!2025-01-04,199,350-->
 - extreme weather→:::←food security <!--SR:!2024-11-12,150,330!2024-07-13,68,347-->
 - food security→:::←mega-cities <!--SR:!2024-08-27,95,352!2024-09-18,100,320-->
 - mega-cities→:::←water security <!--SR:!2024-07-16,64,360!2024-06-26,53,354-->
@@ -462,8 +462,8 @@ testing materials
 - quality assurance→:::←quality control <!--SR:!2024-10-31,150,357!2024-07-15,52,352-->
 - quality control→:::←safety engineering <!--SR:!2024-08-01,65,301!2024-06-21,9,275-->
 - safety engineering→:::←scheduling <!--SR:!2024-08-25,82,320!2024-10-01,120,340-->
-- scheduling→:::←surveying building site <!--SR:!2024-06-19,26,241!2024-06-22,39,300-->
-- surveying building site→:::←testing materials <!--SR:!2024-06-19,26,280!2024-07-12,49,292-->
+- scheduling→:::←surveying building site <!--SR:!2024-08-18,60,241!2024-06-22,39,300-->
+- surveying building site→:::←testing materials <!--SR:!2024-07-02,13,260!2024-07-12,49,292-->
 - testing materials→:::←_(end)_ <!--SR:!2024-06-30,52,327!2024-08-12,80,307-->
 
 <!--/pytextgen-->
@@ -499,12 +499,12 @@ teaming up with others
 <!--pytextgen generate section="ee20"--><!-- The following content is generated at 2024-02-16T21:59:47.378182+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←business procedures <!--SR:!2024-07-14,45,252!2024-09-08,107,381-->
-- business procedures→:::←economics <!--SR:!2024-06-19,18,261!2024-07-31,68,285-->
+- business procedures→:::←economics <!--SR:!2024-08-04,46,261!2024-07-31,68,285-->
 - economics→:::←human behaviors <!--SR:!2024-08-16,78,320!2024-10-23,131,340-->
 - human behaviors→:::←management principles <!--SR:!2024-06-21,16,300!2024-06-27,14,260-->
 - management principles→:::←strong communication skills <!--SR:!2024-08-12,74,301!2024-09-05,96,320-->
 - strong communication skills→:::←teaming up with others <!--SR:!2024-06-22,42,340!2024-08-23,91,380-->
-- teaming up with others→:::←_(end)_ <!--SR:!2024-07-11,66,355!2024-06-19,26,272-->
+- teaming up with others→:::←_(end)_ <!--SR:!2024-07-11,66,355!2024-08-31,73,272-->
 
 <!--/pytextgen-->
 
@@ -743,7 +743,7 @@ tunnel
 - _(begin)_→:::←embankment <!--SR:!2024-10-03,112,320!2024-08-11,87,380-->
 - embankment→:::←pile foundation <!--SR:!2024-10-10,116,320!2024-07-15,61,360-->
 - pile foundation→:::←shallow foundation <!--SR:!2024-07-17,54,317!2024-06-27,54,355-->
-- shallow foundation→:::←tunnel <!--SR:!2024-06-26,33,321!2024-06-19,9,232-->
+- shallow foundation→:::←tunnel <!--SR:!2024-06-26,33,321!2024-07-10,21,232-->
 - tunnel→:::←_(end)_ <!--SR:!2024-07-04,56,350!2024-08-01,67,317-->
 
 <!--/pytextgen-->
@@ -845,7 +845,7 @@ Tsing Ma Bridge
 <!--pytextgen generate section="e7f2"--><!-- The following content is generated at 2024-02-16T21:59:47.773549+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←Akashi Kaikyo Bridge <!--SR:!2024-08-17,82,318!2024-07-10,65,357-->
-- Akashi Kaikyo Bridge→:::←Hong Kong–Zhuhai–Macau Bridge <!--SR:!2024-08-24,92,327!2024-06-19,26,287-->
+- Akashi Kaikyo Bridge→:::←Hong Kong–Zhuhai–Macau Bridge <!--SR:!2024-08-24,92,327!2024-10-02,105,307-->
 - Hong Kong–Zhuhai–Macau Bridge→:::←Stonecutters Bridge <!--SR:!2024-07-11,58,340!2024-06-23,16,300-->
 - Stonecutters Bridge→:::←Sutong Yangtze River Bridge <!--SR:!2024-10-08,130,337!2024-06-23,43,340-->
 - Sutong Yangtze River Bridge→:::←Tsing Ma Bridge <!--SR:!2024-06-21,46,335!2024-08-31,93,307-->

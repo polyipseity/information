@@ -374,7 +374,7 @@ The content is in teaching order.
     - § computing PCA using the covariance method > data transformation ::: Also, instead of transforming the mean-subtracted data using $\mathbf{T} = \mathbf{B} \mathbf{\Phi}$, the original data $\mathbf{Y} = \mathbf{X}^\intercal$ is transformed, and in a different way: $\mathbf{T}' = \mathbf{\Phi}^\intercal \mathbf{Y}$. Each column instead of each row of $\mathbf{T}'$ is a data point. Even more specifically, the data points are transformed one by one: $\mathbf{T}'_i = \mathbf{\Phi}^\intercal \mathbf{Y}_i$. <!--SR:!2024-06-29,12,317!2024-07-02,15,337-->
 - [Analytics Solver usage](../../../Analytic%20Solver%20usage.md): principal components
 - [data warehouse](../../../../general/data%20warehouse.md)
-  - data warehouse > application ::: [online analytical processing](../../../../general/online%20analytical%20processing.md) (OLAP), used by many corporations <!--SR:!2024-06-19,5,348!2024-06-20,6,348-->
+  - data warehouse > application ::: [online analytical processing](../../../../general/online%20analytical%20processing.md) (OLAP), used by many corporations <!--SR:!2024-07-14,25,368!2024-06-20,6,348-->
   - data warehouse > advantage ::: data warehouses can speed up queries on a database <!--SR:!2024-06-26,9,317!2024-07-07,19,357-->
 
 ## week 13 lecture 1
@@ -414,7 +414,7 @@ The content is in teaching order.
     - HITS algorithm normalization ::: Normalization is done after each iteration. We use the [taxicab norm](../../../../general/norm%20(mathematics).md#taxicab%20norm%20or%20Manhattan%20norm). The normalized vector length is the number of pages instead of 1. <!--SR:!2024-06-29,12,337!2024-07-08,20,357-->
 - [PageRank](../../../../general/PageRank.md)
   - [§ algorithm](../../../../general/PageRank.md#algorithm)
-    - PageRank self-links ::: Self-links are considered. <!--SR:!2024-06-19,5,348!2024-06-19,5,348-->
+    - PageRank self-links ::: Self-links are considered. <!--SR:!2024-07-15,26,368!2024-07-13,24,368-->
     - PageRank initialization ::: We initialize all PageRank values to 1 instead of 1 divided by number of pages. <!--SR:!2024-07-09,21,357!2024-07-01,13,337-->
     - PageRank termination ::: Terminate the algorithm when after rounding the values to a certain number of digits, the values have not changed. <!--SR:!2024-07-07,19,368!2024-07-09,21,368-->
   - [§ simplified algorithm](../../../../general/PageRank.md#simplified%20algorithm)

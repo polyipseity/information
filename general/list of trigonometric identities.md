@@ -50,7 +50,7 @@ return await memorize_table(
 - [angle sum and difference](#angle%20sum%20and%20difference)→:::←[linear combination](#linear%20combination) <!--SR:!2024-12-04,229,289!2024-11-16,236,329-->
 - [linear combination](#linear%20combination)→:::←[multiple-angle](#multiple-angle) <!--SR:!2027-07-01,1108,330!2024-06-23,341,330-->
 - [multiple-angle](#multiple-angle)→:::←[product-to-sum and sum-to-product](#product-to-sum%20and%20sum-to-product) <!--SR:!2024-12-07,354,270!2024-06-24,342,330-->
-- [product-to-sum and sum-to-product](#product-to-sum%20and%20sum-to-product)→:::←_(end)_ <!--SR:!2024-06-19,337,330!2025-03-31,535,310-->
+- [product-to-sum and sum-to-product](#product-to-sum%20and%20sum-to-product)→:::←_(end)_ <!--SR:!2028-08-29,1532,350!2025-03-31,535,310-->
 
 <!--/pytextgen-->
 

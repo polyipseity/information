@@ -92,7 +92,7 @@ See [Channel Tunnel](../../../../general/Channel%20Tunnel.md).
 See [CITIC Plaza](../../../../general/CITIC%20Plaza.md).
 
 - description ::: super tall skyscraper in Guangzhou, Guangdong, China <!--SR:!2024-08-02,70,292!2024-08-09,90,367-->
-- height ::: architectural: 390.2 m, top floor: 296.9 m <!--SR:!2024-06-19,14,181!2024-07-11,66,352-->
+- height ::: architectural: 390.2 m, top floor: 296.9 m <!--SR:!2024-07-13,24,181!2024-07-11,66,352-->
 - image ::: ![China International Trust and Investment Plaza image](../../../../archives/Wikimedia%20Commons/CITIC%20Plaza%202017.jpg) <!--SR:!2024-08-09,77,360!2024-09-08,104,380-->
 - [structural system](../../../../general/structural%20system.md) ::: reinforced concrete<!-- flashcard ebde3927-b7ca-4808-9e3c-bf6078be3654 --> <!--SR:!2024-08-08,73,360!2024-08-22,90,380-->
 
@@ -126,16 +126,16 @@ See [Empire State Building](../../../../general/Empire%20State%20Building.md).
 
 See [Golden Gate Bridge](../../../../general/Golden%20Gate%20Bridge.md).
 
-- image ::: ![Golden Gate Bridge image](../../../../archives/Wikimedia%20Commons/Golden%20Gate%20Bridge%20as%20seen%20from%20Battery%20East.jpg) <!--SR:!2024-10-04,111,396!2024-06-19,26,376-->
+- image ::: ![Golden Gate Bridge image](../../../../archives/Wikimedia%20Commons/Golden%20Gate%20Bridge%20as%20seen%20from%20Battery%20East.jpg) <!--SR:!2024-10-04,111,396!2024-11-02,136,396-->
 
 ## Great Pyramid of Giza
 
 See [Great Pyramid of Giza](../../../../general/Great%20Pyramid%20of%20Giza.md).
 
-- base width ::: 230.33 m <!--SR:!2024-06-25,32,376!2024-06-19,26,376-->
+- base width ::: 230.33 m <!--SR:!2024-06-25,32,376!2024-11-03,137,396-->
 - construction period ::: 10~20 years around 2560 BC <!--SR:!2024-06-23,5,276!2024-10-14,120,396-->
-- description ::: largest pyramid in the Giza Necropolis, Egypt <!--SR:!2024-10-05,112,396!2024-06-19,26,376-->
-- height ::: current: 138.5 m, original: 146.6 m <!--SR:!2024-07-15,40,356!2024-06-19,26,376-->
+- description ::: largest pyramid in the Giza Necropolis, Egypt <!--SR:!2024-10-05,112,396!2024-10-31,134,396-->
+- height ::: current: 138.5 m, original: 146.6 m <!--SR:!2024-07-15,40,356!2024-11-02,136,396-->
 - weight ::: 5.9 million tonnes <!--SR:!2024-09-14,89,376!2024-06-21,28,376-->
 - tomb for ::: Egypt's 4th dynasty pharaoh Khufu <!--SR:!2024-06-24,31,376!2024-08-16,70,376-->
 
@@ -143,10 +143,10 @@ See [Great Pyramid of Giza](../../../../general/Great%20Pyramid%20of%20Giza.md).
 
 See [Great Wall of China](../../../../general/Great%20Wall%20of%20China.md).
 
-- component ::: fortress, horse track, pass, shelter, wall, watch tower <!--SR:!2024-07-02,27,316!2024-06-19,26,376-->
+- component ::: fortress, horse track, pass, shelter, wall, watch tower <!--SR:!2024-07-02,27,316!2024-11-01,135,396-->
 - construction period ::: 220 BC under Qin Shi Huang, and continued up to the Ming dynasty (1368–1644) <!--SR:!2024-08-04,57,356!2024-06-24,31,376-->
 - geographic locations ::: begins in the east at Shanhaiguan (山海關), Hebei; and ends in the west at Jiayuguan (嘉峪關), Gansu <!--SR:!2024-08-05,57,356!2024-06-22,29,376-->
-- length ::: 21196.18 km <!--SR:!2024-06-19,12,316!2024-06-21,28,376-->
+- length ::: 21196.18 km <!--SR:!2024-07-30,41,316!2024-06-21,28,376-->
 
 ## HSBC Main Building
 

@@ -22,7 +22,7 @@ tags:
 
 ## importance
 
-It is extremely important to {{know your customers}}. {{Without customers}}, no business can survive. One of the purpose of a business is to {{create and keep customers}}. For example, in biotechnology, understanding {{patents}} is important. <!--SR:!2024-06-20,31,290!2024-06-27,38,270!2024-06-19,30,270!2024-07-24,59,310-->
+It is extremely important to {{know your customers}}. {{Without customers}}, no business can survive. One of the purpose of a business is to {{create and keep customers}}. For example, in biotechnology, understanding {{patents}} is important. <!--SR:!2024-06-20,31,290!2024-06-27,38,270!2024-10-09,112,290!2024-07-24,59,310-->
 
 When defining customers, one should avoid {{vagueness}}. To avoid it, some factors to consider are {{disposable income, lifestyles, reasons for choosing your product}}, etc. <!--SR:!2024-06-20,31,270!2024-06-25,36,270-->
 

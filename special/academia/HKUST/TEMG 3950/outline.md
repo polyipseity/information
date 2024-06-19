@@ -168,7 +168,7 @@ The content is in teaching order.
     - consultant after 6 to 9 years ::: As. Partner, Principal: selling the work; exit to director of big firms or general manager (GM) of small firms, and further top EMBA <!--SR:!2024-07-21,33,301!2024-06-22,14,321-->
     - consultant after 9 years or more ::: Director, Partner, VP: managing the business; exit to CEO or retire rich <!--SR:!2024-06-25,17,341!2024-06-27,19,341-->
 - nature of complex problems ::: modeled by time-varying multi-variable optimization problems with constraints <!--SR:!2024-06-25,17,341!2024-06-27,19,341-->
-  - solving complex problems ::: MECE frameworks for patterns, 5-step persuasive selling for presentation <!--SR:!2024-06-26,18,341!2024-06-19,11,321-->
+  - solving complex problems ::: MECE frameworks for patterns, 5-step persuasive selling for presentation <!--SR:!2024-06-26,18,341!2024-07-25,36,321-->
 - [Pareto principle](../../../../general/Pareto%20principle.md)
 - "less is more" ::: In the digital age, there is too much information (digital garbage), so they need to be distilled. Also see [DIKW pyramid](../../../../general/DIKW%20pyramid.md). <!--SR:!2024-06-25,17,341!2024-06-27,19,341-->
 - [MECE principle](../../../../general/MECE%20principle.md)
@@ -223,7 +223,7 @@ The content is in teaching order.
   - facts table ::: what, when, where, impact <!--SR:!2024-06-26,18,341!2024-06-24,16,341-->
   - solutions table ::: no., cause, solution; optionally, time, persons responsible, budget <!--SR:!2024-06-24,16,341!2024-06-27,19,341-->
 - interview note-taking technique using 1 sheet of A4 paper ::: facts, key question (only 1), analysis <!--SR:!2024-06-27,19,341!2024-06-28,20,341-->
-  - interview note § layout ::: split the paper into 2, the left side is thinner and holds the facts and key question, and the right side is the analysis <!--SR:!2024-06-19,12,321!2024-06-28,20,341-->
+  - interview note § layout ::: split the paper into 2, the left side is thinner and holds the facts and key question, and the right side is the analysis <!--SR:!2024-07-31,42,321!2024-06-28,20,341-->
   - interview note § analysis ::: use a MECE framework suitable for the case in the interview <!--SR:!2024-06-28,20,341!2024-06-27,19,341-->
   - interview note § facts ::: do not be afraid to ask probing questions, probe for the real question, quantify, summarize, verify <!--SR:!2024-06-21,13,321!2024-06-28,20,341-->
 - [assignment W11](assignment%20W11/assignment%20W11.md): Root Cause Analysis (Starbucks)
@@ -264,10 +264,10 @@ The content is in teaching order.
   - [§ background](../../../profitability%20framework.md#background)
   - [§ usage](../../../profitability%20framework.md#usage)
   - abbreviations
-    - R&D ::: research & development <!--SR:!2024-06-19,5,350!2024-06-20,6,350-->
-    - S&M ::: sales & marketing <!--SR:!2024-06-20,6,350!2024-06-19,5,350-->
-    - G&A ::: general & administration <!--SR:!2024-06-19,5,350!2024-06-19,5,350-->
-    - CAGR ::: compound average growth rate; $$\text{CAGR} = \left(\frac {V_{\text{end} } } {V_{\text{start} } } \right)^{\frac 1 t} - 1$$ <!--SR:!2024-07-03,16,350!2024-06-19,5,350-->
+    - R&D ::: research & development <!--SR:!2024-07-15,26,370!2024-06-20,6,350-->
+    - S&M ::: sales & marketing <!--SR:!2024-06-20,6,350!2024-07-11,22,370-->
+    - G&A ::: general & administration <!--SR:!2024-07-10,21,370!2024-07-12,23,370-->
+    - CAGR ::: compound average growth rate; $$\text{CAGR} = \left(\frac {V_{\text{end} } } {V_{\text{start} } } \right)^{\frac 1 t} - 1$$ <!--SR:!2024-07-03,16,350!2024-07-12,23,370-->
 - interview note-taking technique using 1 sheet of A4 paper
 - exam for part 2 review
 

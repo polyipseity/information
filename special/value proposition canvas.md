@@ -124,7 +124,7 @@ vagueness: vague jobs, pains, and gains
 
 Products and services is {{simply a list of what you offer}}, and can also include {{supporting products and services}}. It can be {{physical, intangible, digital, or financial}}. It is important to recognize products and services do not {{create value by themselves (no intrinsic values), but in relationship with the customer segment}}. Note that products and services {{can have different relevance to your customers}}. <!--SR:!2024-06-29,68,310!2024-08-01,79,309!2024-09-21,99,269!2024-08-06,82,270!2024-10-26,138,309-->
 
-Pain relievers describe {{how the products or services alleviate customer pains}}. There is no need to {{alleviate every identified pain}}, and instead {{it is better to alleviate some extreme pains extremely well}}. Like products and services, pain relievers {{can have different relevance to your customers}}. <!--SR:!2024-06-19,49,309!2024-06-20,47,309!2024-08-15,98,290!2024-11-20,162,310-->
+Pain relievers describe {{how the products or services alleviate customer pains}}. There is no need to {{alleviate every identified pain}}, and instead {{it is better to alleviate some extreme pains extremely well}}. Like products and services, pain relievers {{can have different relevance to your customers}}. <!--SR:!2025-01-12,207,329!2024-06-20,47,309!2024-08-15,98,290!2024-11-20,162,310-->
 
 Gain creators describe {{how the products or services create customer gains}}. There is also no need to {{create every identified gain}}, and instead {{it is better to create some relevant gains extremely well}}. Like products and services, gain creators {{can have different relevance to your customers}}. <!--SR:!2024-07-17,72,329!2024-07-03,61,329!2024-11-09,154,309!2024-07-01,54,309-->
 
@@ -260,7 +260,7 @@ conclusion: make progress
 - hypothesis: extract hypotheses→:::←hypothesis: prioritize hypotheses <!--SR:!2024-07-28,81,329!2024-11-12,147,309-->
 - hypothesis: prioritize hypotheses→:::←test: design tests <!--SR:!2024-07-02,60,309!2024-07-21,74,270-->
 - test: design tests→:::←test: prioritize tests <!--SR:!2024-06-29,22,289!2024-09-04,112,290-->
-- test: prioritize tests→:::←test: run tests <!--SR:!2024-06-19,50,309!2024-11-25,166,310-->
+- test: prioritize tests→:::←test: run tests <!--SR:!2025-01-18,213,329!2024-11-25,166,310-->
 - test: run tests→:::←conclusion: capture findings <!--SR:!2024-07-01,40,269!2024-10-22,129,309-->
 - conclusion: capture findings→:::←conclusion: make progress <!--SR:!2024-07-10,65,329!2024-10-08,131,309-->
 - conclusion: make progress→:::←_(end)_ <!--SR:!2024-07-11,66,329!2024-10-01,112,270-->

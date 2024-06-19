@@ -98,7 +98,7 @@ return await memorize_seq(
 
 <!--pytextgen generate section="a92d"--><!-- The following content is generated at 2024-06-09T06:29:24.057662+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←(Cap. 311) Air Pollution Control Ordinance <!--SR:!2024-06-19,2,275!2024-07-07,19,335-->
+- _(begin)_→:::←(Cap. 311) Air Pollution Control Ordinance <!--SR:!2024-06-27,8,295!2024-07-07,19,335-->
 - (Cap. 311) Air Pollution Control Ordinance→:::←(Cap. 354) Waste Disposal Ordinance <!--SR:!2024-06-24,7,295!2024-07-07,19,335-->
 - (Cap. 354) Waste Disposal Ordinance→:::←(Cap. 358) Water Pollution Control Ordinance <!--SR:!2024-06-24,7,295!2024-07-07,19,335-->
 - (Cap. 358) Water Pollution Control Ordinance→:::←(Cap. 400) Noise Pollution Control Ordinance <!--SR:!2024-06-28,10,295!2024-06-26,9,295-->
@@ -393,7 +393,7 @@ return await memorize_seq(
 - carbon dioxide (CO<sub>2</sub>)→:::←hydroflurocarbons (HFCs) <!--SR:!2024-07-22,34,230!2024-07-04,31,270-->
 - hydroflurocarbons (HFCs)→:::←methane (CH<sub>4</sub>) <!--SR:!2024-07-15,37,270!2024-07-14,31,230-->
 - methane (CH<sub>4</sub>)→:::←nitrous oxide (N<sub>2</sub>O) <!--SR:!2024-07-24,36,250!2024-07-26,47,290-->
-- nitrous oxide (N<sub>2</sub>O)→:::←perflurocarbons (PFCs) <!--SR:!2024-06-22,5,230!2024-06-19,5,210-->
+- nitrous oxide (N<sub>2</sub>O)→:::←perflurocarbons (PFCs) <!--SR:!2024-06-22,5,230!2024-06-29,10,210-->
 - perflurocarbons (PFCs)→:::←sulfur hexafluoride (SF<sub>6</sub>) <!--SR:!2024-07-29,50,290!2024-06-29,26,270-->
 - sulfur hexafluoride (SF<sub>6</sub>)→:::←_(end)_ <!--SR:!2024-08-09,62,310!2024-08-20,72,310-->
 
