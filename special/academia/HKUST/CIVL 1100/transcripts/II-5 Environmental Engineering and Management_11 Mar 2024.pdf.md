@@ -64,7 +64,7 @@ return await memorize_seq(
 - air pollution→:::←land contamination <!--SR:!2024-07-03,30,270!2024-08-03,58,310-->
 - land contamination→:::←noise pollution <!--SR:!2024-07-09,34,290!2024-06-27,24,270-->
 - noise pollution→:::←solid waste disposal <!--SR:!2024-07-02,29,270!2024-07-15,42,290-->
-- solid waste disposal→:::←water pollution <!--SR:!2024-07-25,48,290!2024-06-20,9,230-->
+- solid waste disposal→:::←water pollution <!--SR:!2024-07-25,48,290!2024-07-08,18,230-->
 - water pollution→:::←_(end)_ <!--SR:!2024-07-24,49,310!2024-07-17,43,290-->
 
 <!--/pytextgen-->

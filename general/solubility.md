@@ -386,7 +386,7 @@ return await memorize_map(
 - [silver sulfate](silver%20sulfate.md)::<span style="background-color: black; color: yellow;">slightly soluble</span> <!--SR:!2024-06-28,19,138-->
 - [sodium carbonate](sodium%20carbonate.md)::<span style="color: green;">soluble</span> <!--SR:!2025-03-02,333,298-->
 - [sodium chloride](sodium%20chloride.md)::<span style="color: green;">soluble</span> <!--SR:!2026-09-04,807,338-->
-- [sodium fluoride](sodium%20fluoride.md)::<span style="color: green;">soluble</span> <!--SR:!2024-06-20,185,318-->
+- [sodium fluoride](sodium%20fluoride.md)::<span style="color: green;">soluble</span> <!--SR:!2026-01-28,587,318-->
 - [sodium hydroxide](sodium%20hydroxide.md)::<span style="color: green;">soluble</span> <!--SR:!2026-07-27,777,338-->
 - [sodium oxide](sodium%20oxide.md)::<span style="color: violet;">reacts</span> <!--SR:!2025-01-08,301,318-->
 - [sodium phosphate](sodium%20phosphate.md)::<span style="color: green;">soluble</span> <!--SR:!2025-01-30,296,278-->

@@ -22,7 +22,7 @@ The content is in teaching order.
     - engineer limitations ::: limited by cost, practicality, regulation, and safety <!--SR:!2024-12-24,195,350!2024-08-29,108,377-->
     - engineer methods ::: ingenuity, mathematics, scientific method and outlook <!--SR:!2024-10-24,143,337!2024-08-02,85,365-->
   - engineer, according to the World Federation of Engineering Organizations (WFEO)
-    - engineer inspirations ::: art of using creativity, science and technology, traditional experience <!--SR:!2024-10-25,136,335!2024-06-20,76,330-->
+    - engineer inspirations ::: art of using creativity, science and technology, traditional experience <!--SR:!2024-10-25,136,335!2025-02-25,250,330-->
     - engineer sustainability ::: restore and safeguard the biophysical environment <!--SR:!2025-01-10,205,345!2024-06-30,57,345-->
   - [engineer types](#engineer%20types)
   - differences between engineers and scientists ::: Scientists understand nature and make predictions, while engineers use scientific data and knowledge to design cities and protect us from nature. <!--SR:!2024-07-18,99,279!2024-12-02,192,330-->
@@ -356,7 +356,7 @@ transportation
 
 <!--pytextgen generate section="137b"--><!-- The following content is generated at 2024-05-01T19:22:34.905642+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←construction <!--SR:!2024-06-20,45,335!2024-11-13,161,375-->
+- _(begin)_→:::←construction <!--SR:!2025-01-13,207,355!2024-11-13,161,375-->
 - construction→:::←environmental <!--SR:!2024-09-04,96,340!2024-08-25,93,380-->
 - environmental→:::←geo-technical <!--SR:!2024-10-04,127,327!2025-01-07,205,345-->
 - geo-technical→:::←hydraulic <!--SR:!2024-06-24,44,340!2024-07-30,67,360-->
@@ -542,7 +542,7 @@ wood
 - brick→:::←concrete <!--SR:!2024-06-30,19,305!2024-08-27,106,377-->
 - concrete→:::←new synthetic materials <!--SR:!2024-07-05,42,301!2024-06-29,47,341-->
 - new synthetic materials→:::←steel <!--SR:!2024-11-20,155,332!2024-08-29,85,320-->
-- steel→:::←stone <!--SR:!2024-06-20,42,340!2024-06-27,47,340-->
+- steel→:::←stone <!--SR:!2024-07-10,20,320!2024-06-27,47,340-->
 - stone→:::←wood <!--SR:!2024-08-14,75,321!2024-09-10,109,332-->
 - wood→:::←_(end)_ <!--SR:!2024-08-21,100,374!2024-07-14,62,360-->
 
@@ -916,7 +916,7 @@ polypropylene fiber reinforced concrete
 - artificial stone→:::←cellular concrete <!--SR:!2024-07-06,43,300!2024-08-31,99,335-->
 - cellular concrete→:::←engineered cement composite <!--SR:!2024-10-24,153,270!2024-06-22,51,330-->
 - engineered cement composite→:::←fly ash concrete <!--SR:!2024-11-02,143,337!2024-09-26,107,320-->
-- fly ash concrete→:::←polypropylene fiber reinforced concrete <!--SR:!2024-06-20,27,280!2024-09-04,103,335-->
+- fly ash concrete→:::←polypropylene fiber reinforced concrete <!--SR:!2024-09-03,75,280!2024-09-04,103,335-->
 - polypropylene fiber reinforced concrete→:::←_(end)_ <!--SR:!2024-08-03,84,372!2024-10-10,117,320-->
 
 <!--/pytextgen-->
@@ -984,7 +984,7 @@ Two Prudential Plaza
 
 - _(begin)_→:::←Central Plaza (Hong Kong) <!--SR:!2024-08-20,88,317!2024-08-14,95,367-->
 - Central Plaza (Hong Kong)→:::←China International Trust and Investment (CITIC) Plaza <!--SR:!2024-08-22,90,334!2024-09-17,101,340-->
-- China International Trust and Investment (CITIC) Plaza→:::←Two Prudential Plaza <!--SR:!2024-06-20,40,340!2024-07-20,35,280-->
+- China International Trust and Investment (CITIC) Plaza→:::←Two Prudential Plaza <!--SR:!2024-10-29,131,340!2024-07-20,35,280-->
 - Two Prudential Plaza→:::←_(end)_ <!--SR:!2024-06-23,51,355!2024-09-15,101,320-->
 
 <!--/pytextgen-->

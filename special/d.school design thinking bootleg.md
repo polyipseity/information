@@ -47,7 +47,7 @@ return await memorize_seq(
 - [empathize](#empathize) (blue)→:::←[define](#define) (green) <!--SR:!2024-08-19,89,270!2024-06-29,68,310-->
 - [define](#define) (green)→:::←[ideate](#ideate) (yellow) <!--SR:!2024-08-26,84,250!2024-07-01,56,250-->
 - [ideate](#ideate) (yellow)→:::←[prototype](#prototype) (red) <!--SR:!2024-09-05,112,290!2024-08-15,85,270-->
-- [prototype](#prototype) (red)→:::←[test](#test) (brown) <!--SR:!2024-08-18,99,290!2024-06-20,60,310-->
+- [prototype](#prototype) (red)→:::←[test](#test) (brown) <!--SR:!2024-08-18,99,290!2024-12-22,185,310-->
 - [test](#test) (brown)→:::←_(end)_ <!--SR:!2024-06-29,68,310!2025-02-02,234,330-->
 
 <!--/pytextgen-->
@@ -121,7 +121,7 @@ return await memorize_seq(
 - (empathize) extreme users: find amplified pains and gains→:::←(empathize) interview for empathy: interview with two <!--SR:!2024-08-11,81,270!2024-07-12,24,250-->
 - (empathize) interview for empathy: interview with two→:::←(empathize) interview preparation: prepare, prioritize, and refine questions <!--SR:!2024-10-19,129,270!2024-06-27,66,310-->
 - (empathize) interview preparation: prepare, prioritize, and refine questions→:::←(empathize) what, how, why: from the concrete to the abstract <!--SR:!2024-06-22,5,130!2024-07-04,38,210-->
-- (empathize) what, how, why: from the concrete to the abstract→:::←(empathize/define) journey map: dissect a user process to gain insights <!--SR:!2024-06-20,9,130!2024-06-28,19,210-->
+- (empathize) what, how, why: from the concrete to the abstract→:::←(empathize/define) journey map: dissect a user process to gain insights <!--SR:!2024-07-04,14,130!2024-06-28,19,210-->
 - (empathize/define) journey map: dissect a user process to gain insights→:::←(empathize/define) story share-and-capture: after interviews, exchange stories with the team to gain further insights <!--SR:!2024-08-27,80,230!2024-07-13,59,230-->
 - (empathize/define) story share-and-capture: after interviews, exchange stories with the team to gain further insights→:::←(define) 2×2 matrix: plot a _xy_ graph to reveal relations and for visualization <!--SR:!2024-07-23,50,190!2024-06-28,17,150-->
 - (define) 2×2 matrix: plot a _xy_ graph to reveal relations and for visualization→:::←(define) design guidelines: a strategy to solve your design challenge, abstract enough to allow for multiple solutions <!--SR:!2024-09-01,94,250!2024-06-29,26,150-->
