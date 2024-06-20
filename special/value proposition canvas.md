@@ -124,7 +124,7 @@ vagueness: vague jobs, pains, and gains
 
 Products and services is {{simply a list of what you offer}}, and can also include {{supporting products and services}}. It can be {{physical, intangible, digital, or financial}}. It is important to recognize products and services do not {{create value by themselves (no intrinsic values), but in relationship with the customer segment}}. Note that products and services {{can have different relevance to your customers}}. <!--SR:!2024-06-29,68,310!2024-08-01,79,309!2024-09-21,99,269!2024-08-06,82,270!2024-10-26,138,309-->
 
-Pain relievers describe {{how the products or services alleviate customer pains}}. There is no need to {{alleviate every identified pain}}, and instead {{it is better to alleviate some extreme pains extremely well}}. Like products and services, pain relievers {{can have different relevance to your customers}}. <!--SR:!2025-01-12,207,329!2024-06-20,47,309!2024-08-15,98,290!2024-11-20,162,310-->
+Pain relievers describe {{how the products or services alleviate customer pains}}. There is no need to {{alleviate every identified pain}}, and instead {{it is better to alleviate some extreme pains extremely well}}. Like products and services, pain relievers {{can have different relevance to your customers}}. <!--SR:!2025-01-12,207,329!2024-11-15,148,309!2024-08-15,98,290!2024-11-20,162,310-->
 
 Gain creators describe {{how the products or services create customer gains}}. There is also no need to {{create every identified gain}}, and instead {{it is better to create some relevant gains extremely well}}. Like products and services, gain creators {{can have different relevance to your customers}}. <!--SR:!2024-07-17,72,329!2024-07-03,61,329!2024-11-09,154,309!2024-07-01,54,309-->
 
@@ -156,7 +156,7 @@ mix: mixing products and services with pain relievers and gain creators
 
 <!--pytextgen generate section="8ba2"--><!-- The following content is generated at 2024-03-22T20:40:48.908986+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←all: addressing all customer pains and gains <!--SR:!2024-06-20,40,269!2024-07-22,77,329-->
+- _(begin)_→:::←all: addressing all customer pains and gains <!--SR:!2024-10-06,108,269!2024-07-22,77,329-->
 - all: addressing all customer pains and gains→:::←irrelevance: listing all products and services without considering the customer segment <!--SR:!2024-08-09,61,229!2024-07-08,55,269-->
 - irrelevance: listing all products and services without considering the customer segment→:::←irrelevance: offer irrelevant pain relievers and gain creators <!--SR:!2024-07-08,27,229!2024-08-05,75,289-->
 - irrelevance: offer irrelevant pain relievers and gain creators→:::←mix: mixing products and services with pain relievers and gain creators <!--SR:!2024-07-26,51,249!2024-07-26,65,269-->

@@ -219,10 +219,10 @@ See [Millau Viaduct](../../../../general/Millau%20Viaduct.md).
 - bridge type ::: cable-stayed road bridge <!--SR:!2024-06-25,32,376!2024-10-23,127,396-->
 - designers ::: Michel Virlogeux, Norman Foster <!--SR:!2024-08-24,77,376!2024-06-21,28,376-->
 - geographic location ::: across the gorge valley of the Tarn near Millau in southern France <!--SR:!2024-08-15,69,376!2024-08-22,75,376-->
-- height ::: max pylon above base: 343 m, structural: 336.4 m <!--SR:!2024-06-29,25,316!2024-06-20,27,376-->
+- height ::: max pylon above base: 343 m, structural: 336.4 m <!--SR:!2024-06-29,25,316!2024-11-07,140,396-->
   - height record ::: as of October 2023, tallest bridge in the world <!--SR:!2024-10-22,126,396!2024-10-22,127,396-->
 - length ::: 2450 m = 204 m + 342 m × 6 + 204 m, longest span: 342 m <!--SR:!2024-06-28,16,336!2024-10-12,118,396-->
-- image ::: ![Millau Viaduct image](../../../../archives/Wikimedia%20Commons/ViaducdeMillau.jpg) <!--SR:!2024-06-20,27,376!2024-08-28,80,376-->
+- image ::: ![Millau Viaduct image](../../../../archives/Wikimedia%20Commons/ViaducdeMillau.jpg) <!--SR:!2024-11-04,137,396!2024-08-28,80,376-->
 - opening time ::: 2004-12-16, 09:00 <!--SR:!2024-07-13,39,336!2024-08-22,75,376-->
 - width ::: 32.05 m <!--SR:!2024-09-09,86,376!2024-09-10,87,376-->
 
@@ -250,8 +250,8 @@ See [Panama Canal](../../../../general/Panama%20Canal.md).
 See [Parthenon](../../../../general/Parthenon.md).
 
 - construction period ::: 447 BC to 438 BC, 9 years <!--SR:!2024-06-23,19,296!2024-06-24,31,376-->
-- dedication ::: Greek goddess Athena <!--SR:!2024-06-25,32,376!2024-06-20,27,376-->
-- description ::: temple on the Athenian Acropolis, Greece, dedicated to the Greek goddess Athena <!--SR:!2024-07-09,38,356!2024-06-20,27,376-->
+- dedication ::: Greek goddess Athena <!--SR:!2024-06-25,32,376!2024-11-08,141,396-->
+- description ::: temple on the Athenian Acropolis, Greece, dedicated to the Greek goddess Athena <!--SR:!2024-07-09,38,356!2024-11-06,139,396-->
 - geographic location ::: Athenian Acropolis, Greece <!--SR:!2024-07-14,39,356!2024-10-16,122,396-->
 - importance ::: most important surviving building of classical Greece <!--SR:!2024-06-25,32,376!2024-10-24,128,396-->
 

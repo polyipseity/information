@@ -204,7 +204,7 @@ The content is in teaching order.
   - use of framework takeaways ::: Consider relevant dimensions of each framework and select the framework with the most relevant dimensions. Add a total at the end to sum up all the dimensions. <!--SR:!2024-06-26,18,341!2024-06-28,20,341-->
 - nature of problems ::: Problems are caused by a network of causes. If the causes are not removed, the problems may recur. <!--SR:!2024-07-04,19,321!2024-06-27,19,341-->
 - casual relationship ::: Event A, called the _cause_, causes event B, called the _effect_. <!--SR:!2024-06-25,17,341!2024-06-26,18,341-->
-- correlation ::: Measure of relationship between 2 variables. They can be positively correlated, negatively correlated, or uncorrelated. <!--SR:!2024-06-25,17,341!2024-06-20,12,321-->
+- correlation ::: Measure of relationship between 2 variables. They can be positively correlated, negatively correlated, or uncorrelated. <!--SR:!2024-06-25,17,341!2024-07-28,38,321-->
 - casual relationship & correlation ::: Correlation does not imply causation. <!--SR:!2024-06-26,18,341!2024-06-26,18,341-->
 - [root cause analysis](../../../../general/root%20cause%20analysis.md) ::: discovery of casual relationships <!--SR:!2024-06-23,15,321!2024-06-24,16,341-->
 - [five whys](../../../../general/five%20whys.md)
@@ -233,7 +233,7 @@ The content is in teaching order.
 - time: 2024-04-16T18:00:00+08:00/2024-04-16T20:30:00+08:00
 - [assignment W11](assignment%20W11/assignment%20W11.md) takeaways
   - general case analysis reading takeaways ::: read twice, first fast, then slow and take notes <!--SR:!2024-06-28,19,357!2024-06-30,21,357-->
-- McKinsey 7Ss framework ::: organization analysis <!--SR:!2024-06-20,11,337!2024-06-29,20,357-->
+- McKinsey 7Ss framework ::: organization analysis <!--SR:!2024-08-10,51,357!2024-06-29,20,357-->
   - [McKinsey 7S Framework](../../../../general/McKinsey%207S%20Framework.md)
     - [§ objective](../../../../general/McKinsey%207S%20Framework.md#objective)
 - [PPTG change impact framework](../../../PPTG%20change%20impact%20framework.md)
@@ -249,7 +249,7 @@ The content is in teaching order.
 - [blue ocean strategy](../../../blue%20ocean%20strategy.md)
   - [general/Blue Ocean Strategy](../../../../general/Blue%20Ocean%20Strategy.md)
   - [§ red ocean vs. blue ocean](../../../blue%20ocean%20strategy.md#red%20ocean%20vs.%20blue%20ocean)
-  - blue ocean strategy example companies ::: CitizenM, Drybar, Johann Strauss Orchestra (André Rieu), Nintendo (Wii), Yellow Tail <!--SR:!2024-06-20,11,337!2024-06-29,20,357-->
+  - blue ocean strategy example companies ::: CitizenM, Drybar, Johann Strauss Orchestra (André Rieu), Nintendo (Wii), Yellow Tail <!--SR:!2024-07-27,37,337!2024-06-29,20,357-->
   - [§ blue ocean shift](../../../blue%20ocean%20strategy.md#blue%20ocean%20shift)
   - [§ understand "as-is"](../../../blue%20ocean%20strategy.md#understand%20"as-is")
   - [§ imagine "to be"](../../../blue%20ocean%20strategy.md#imagine%20"to%20be")
@@ -264,8 +264,8 @@ The content is in teaching order.
   - [§ background](../../../profitability%20framework.md#background)
   - [§ usage](../../../profitability%20framework.md#usage)
   - abbreviations
-    - R&D ::: research & development <!--SR:!2024-07-15,26,370!2024-06-20,6,350-->
-    - S&M ::: sales & marketing <!--SR:!2024-06-20,6,350!2024-07-11,22,370-->
+    - R&D ::: research & development <!--SR:!2024-07-15,26,370!2024-07-22,32,370-->
+    - S&M ::: sales & marketing <!--SR:!2024-07-23,33,370!2024-07-11,22,370-->
     - G&A ::: general & administration <!--SR:!2024-07-10,21,370!2024-07-12,23,370-->
     - CAGR ::: compound average growth rate; $$\text{CAGR} = \left(\frac {V_{\text{end} } } {V_{\text{start} } } \right)^{\frac 1 t} - 1$$ <!--SR:!2024-07-03,16,350!2024-07-12,23,370-->
 - interview note-taking technique using 1 sheet of A4 paper
