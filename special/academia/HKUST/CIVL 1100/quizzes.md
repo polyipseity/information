@@ -201,7 +201,7 @@ Example quiz questions for preparing exams.
 > 3. Commercial block is used as noise tolerant building to protect the residential building from road traffic noise
 > 4. Residential building with no balcony is built to reduce the impact of road traffic noise
 >
-> - solution: {{4}} <!--SR:!2024-06-21,20,272-->
+> - solution: {{4}} <!--SR:!2024-09-04,75,292-->
 
 <!-- markdownlint MD028 -->
 

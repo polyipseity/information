@@ -197,7 +197,7 @@ The steps for naming an organic compound are:
 <!--pytextgen generate section="920dca"--><!-- The following content is generated at 2024-01-04T20:17:52.176781+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←most suffix functional groups of [highest group precedence](#precedence%20of%20functional%20groups) <!--SR:!2027-12-10,1297,256!2030-03-16,2144,382-->
-- most suffix functional groups of [highest group precedence](#precedence%20of%20functional%20groups)→:::←most multiple bonds <!--SR:!2024-06-21,526,256!2027-09-09,1192,305-->
+- most suffix functional groups of [highest group precedence](#precedence%20of%20functional%20groups)→:::←most multiple bonds <!--SR:!2028-02-27,1346,256!2027-09-09,1192,305-->
 - most multiple bonds→:::←maximum length <!--SR:!2025-02-16,416,256!2025-10-04,690,282-->
 - maximum length→:::←most prefixes <!--SR:!2025-01-19,580,261!2024-12-19,541,325-->
 - most prefixes→:::←most single bonds <!--SR:!2027-12-09,1307,261!2025-03-02,332,262-->

@@ -185,7 +185,7 @@ return chain.from_iterable(await gather(
 <!--pytextgen generate section="983e"--><!-- The following content is generated at 2024-03-06T23:33:30.602829+08:00. Any edits will be overridden! -->
 
 - [alkaline](alkaline%20battery.md)::Usually cylindrical. Suitable for high-drain or continuous-use devices. <!--SR:!2024-06-24,85,363-->
-- [silver oxide](silver%20oxide%20battery.md)::Usually [button-shaped](button%20cell.md). Suitable for small continuous-use devices. <!--SR:!2024-06-21,82,363-->
+- [silver oxide](silver%20oxide%20battery.md)::Usually [button-shaped](button%20cell.md). Suitable for small continuous-use devices. <!--SR:!2025-08-02,407,383-->
 - [zinc–carbon](zinc–carbon%20battery.md)/zinc–chloride::Usually cylindrical. Suitable for low-drain or intermittent-use devices. <!--SR:!2025-01-28,232,343-->
 
 <!--/pytextgen-->
