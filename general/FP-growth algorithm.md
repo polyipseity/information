@@ -18,7 +18,7 @@ The FP-growth algorithm {{outperforms the [Apriori](Apriori%20algorithm.md) and 
 
 ### FP-tree
 
-The _FP-tree_ is {{a compact tree structure called [trie](trie.md), representing the entire database exactly while only discarding the order of transactions in the database}}. It is constructed with {{a _header table_}}. To construct a FP-tree for a set of transactions, {{two passes are required}}. <!--SR:!2024-10-07,120,270!2024-12-13,180,310!2024-06-22,50,290-->
+The _FP-tree_ is {{a compact tree structure called [trie](trie.md), representing the entire database exactly while only discarding the order of transactions in the database}}. It is constructed with {{a _header table_}}. To construct a FP-tree for a set of transactions, {{two passes are required}}. <!--SR:!2024-10-07,120,270!2024-12-13,180,310!2025-01-09,201,310-->
 
 A minimum support is given. (Here, we define support as "the number of transactions".) In the first pass, {{count the support for each individual item and store the supports into a header table}}. Then, for the header table, {{sort items by descending support and remove items below the minimum support}}. Also, for each item in the header table, {{add a list structure that will be storing FP-tree nodes}}. <!--SR:!2024-07-11,57,250!2024-09-06,104,290!2024-09-23,120,290-->
 

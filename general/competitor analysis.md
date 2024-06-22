@@ -72,7 +72,7 @@ why: Why are people using competitors' products?
 - _(begin)_→:::←compare: Identify similarities and differences between our and their products. <!--SR:!2024-07-05,32,261!2024-07-29,60,314-->
 - compare: Identify similarities and differences between our and their products.→:::←copy: Identify advantages and capabilities our products lack compared to others. <!--SR:!2024-08-25,70,274!2024-08-29,72,281-->
 - copy: Identify advantages and capabilities our products lack compared to others.→:::←discover: Identify unmet needs. <!--SR:!2024-07-10,36,261!2024-07-02,30,241-->
-- discover: Identify unmet needs.→:::←how: What is our strategy? <!--SR:!2024-06-29,10,221!2024-06-22,26,281-->
+- discover: Identify unmet needs.→:::←how: What is our strategy? <!--SR:!2024-06-29,10,221!2024-07-03,11,261-->
 - how: What is our strategy?→:::←pricing: Compare prices. <!--SR:!2024-07-02,12,241!2024-06-25,31,281-->
 - pricing: Compare prices.→:::←who: Who are the competitors? 3 to 5 is usually enough. <!--SR:!2024-07-17,45,261!2024-08-18,61,261-->
 - who: Who are the competitors? 3 to 5 is usually enough.→:::←why: Why are people using competitors' products? <!--SR:!2024-07-02,37,281!2024-07-04,30,241-->
@@ -167,7 +167,7 @@ number of features
 <!--pytextgen generate section="a983"--><!-- The following content is generated at 2024-06-04T14:02:33.625025+08:00. Any edits will be overridden! -->
 
 - _(most important)_→:::←price <!--SR:!2024-08-14,71,321!2024-08-13,71,321-->
-- price→:::←benefit <!--SR:!2024-06-30,37,294!2024-06-22,25,281-->
+- price→:::←benefit <!--SR:!2024-06-30,37,294!2024-09-27,97,301-->
 - benefit→:::←quality <!--SR:!2024-08-17,67,274!2024-07-12,45,301-->
 - quality→:::←durability <!--SR:!2024-06-28,13,241!2024-07-30,59,321-->
 - durability→:::←service <!--SR:!2024-07-25,50,301!2024-07-01,22,261-->

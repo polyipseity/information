@@ -149,7 +149,7 @@ quantity surveyor
 - consulting geo-technical engineer→:::←consulting structural engineer <!--SR:!2024-07-11,57,315!2024-08-14,80,317-->
 - consulting structural engineer→:::←contracting civil engineer <!--SR:!2024-09-11,108,335!2024-08-23,88,315-->
 - contracting civil engineer→:::←engineering geologist <!--SR:!2024-09-28,102,297!2024-08-01,69,315-->
-- engineering geologist→:::←environmental consultant <!--SR:!2024-06-22,40,305!2024-08-24,92,305-->
+- engineering geologist→:::←environmental consultant <!--SR:!2024-10-25,125,305!2024-08-24,92,305-->
 - environmental consultant→:::←quantity surveyor <!--SR:!2024-07-06,54,340!2024-08-11,58,280-->
 - quantity surveyor→:::←_(end)_ <!--SR:!2024-07-06,54,340!2024-07-29,66,360-->
 
@@ -197,7 +197,7 @@ water and sewage treatment system
 - dam→:::←pipeline <!--SR:!2024-07-05,16,204!2024-10-09,117,321-->
 - pipeline→:::←power plant <!--SR:!2024-08-14,59,260!2024-07-06,38,281-->
 - power plant→:::←reservoir <!--SR:!2024-07-30,60,275!2024-09-05,91,320-->
-- reservoir→:::←sewage treatment <!--SR:!2024-07-18,31,197!2024-06-22,29,261-->
+- reservoir→:::←sewage treatment <!--SR:!2024-07-18,31,197!2024-09-05,75,261-->
 - sewage treatment→:::←transport <!--SR:!2024-07-08,39,250!2024-07-13,50,301-->
 - transport→:::←water and sewage treatment system <!--SR:!2024-11-05,137,340!2024-06-28,19,190-->
 - water and sewage treatment system→:::←_(end)_ <!--SR:!2024-08-25,93,381!2024-08-01,69,361-->
@@ -462,7 +462,7 @@ testing materials
 - quality assurance→:::←quality control <!--SR:!2024-10-31,150,357!2024-07-15,52,352-->
 - quality control→:::←safety engineering <!--SR:!2024-08-01,65,301!2024-07-13,22,275-->
 - safety engineering→:::←scheduling <!--SR:!2024-08-25,82,320!2024-10-01,120,340-->
-- scheduling→:::←surveying building site <!--SR:!2024-08-18,60,241!2024-06-22,39,300-->
+- scheduling→:::←surveying building site <!--SR:!2024-08-18,60,241!2024-10-16,116,300-->
 - surveying building site→:::←testing materials <!--SR:!2024-07-02,13,260!2024-07-12,49,292-->
 - testing materials→:::←_(end)_ <!--SR:!2024-06-30,52,327!2024-08-12,80,307-->
 
@@ -503,7 +503,7 @@ teaming up with others
 - economics→:::←human behaviors <!--SR:!2024-08-16,78,320!2024-10-23,131,340-->
 - human behaviors→:::←management principles <!--SR:!2024-08-07,47,300!2024-06-27,14,260-->
 - management principles→:::←strong communication skills <!--SR:!2024-08-12,74,301!2024-09-05,96,320-->
-- strong communication skills→:::←teaming up with others <!--SR:!2024-06-22,42,340!2024-08-23,91,380-->
+- strong communication skills→:::←teaming up with others <!--SR:!2024-11-07,138,340!2024-08-23,91,380-->
 - teaming up with others→:::←_(end)_ <!--SR:!2024-07-11,66,355!2024-08-31,73,272-->
 
 <!--/pytextgen-->
@@ -914,7 +914,7 @@ polypropylene fiber reinforced concrete
 
 - _(begin)_→:::←artificial stone <!--SR:!2024-07-14,49,297!2024-06-28,84,345-->
 - artificial stone→:::←cellular concrete <!--SR:!2024-07-06,43,300!2024-08-31,99,335-->
-- cellular concrete→:::←engineered cement composite <!--SR:!2024-10-24,153,270!2024-06-22,51,330-->
+- cellular concrete→:::←engineered cement composite <!--SR:!2024-10-24,153,270!2024-12-05,166,330-->
 - engineered cement composite→:::←fly ash concrete <!--SR:!2024-11-02,143,337!2024-09-26,107,320-->
 - fly ash concrete→:::←polypropylene fiber reinforced concrete <!--SR:!2024-09-03,75,280!2024-09-04,103,335-->
 - polypropylene fiber reinforced concrete→:::←_(end)_ <!--SR:!2024-08-03,84,372!2024-10-10,117,320-->
@@ -949,11 +949,11 @@ wave
 
 <!--pytextgen generate section="4372"--><!-- The following content is generated at 2024-05-01T19:22:35.392684+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←earthquake <!--SR:!2024-06-22,42,340!2024-06-30,52,337-->
+- _(begin)_→:::←earthquake <!--SR:!2024-11-11,142,340!2024-06-30,52,337-->
 - earthquake→:::←fire <!--SR:!2024-09-28,117,335!2024-07-23,71,360-->
 - fire→:::←flood <!--SR:!2024-06-23,48,324!2024-09-05,104,266-->
 - flood→:::←strong wind <!--SR:!2024-08-01,63,320!2024-07-17,38,297-->
-- strong wind→:::←wave <!--SR:!2025-01-11,218,290!2024-06-22,37,294-->
+- strong wind→:::←wave <!--SR:!2025-01-11,218,290!2024-10-07,107,294-->
 - wave→:::←_(end)_ <!--SR:!2025-01-03,199,357!2024-07-22,67,315-->
 
 <!--/pytextgen-->
@@ -1097,7 +1097,7 @@ water tower
 - _(begin)_→:::←bridge <!--SR:!2024-10-23,142,335!2024-08-12,88,380-->
 - bridge→:::←building <!--SR:!2024-07-05,57,350!2024-08-28,96,380-->
 - building→:::←dam <!--SR:!2024-07-30,77,361!2024-07-03,55,361-->
-- dam→:::←power plant <!--SR:!2024-08-06,68,301!2024-06-22,12,238-->
+- dam→:::←power plant <!--SR:!2024-08-06,68,301!2024-07-25,33,238-->
 - power plant→:::←storage facility <!--SR:!2024-07-29,62,300!2024-09-12,111,334-->
 - storage facility→:::←tunnel <!--SR:!2024-07-02,18,320!2024-09-01,89,320-->
 - tunnel→:::←unusual structure <!--SR:!2024-06-28,34,247!2024-10-17,121,320-->
@@ -1148,7 +1148,7 @@ and the Structural Engineering Institute (SEI).
 - Other possible factors include corruption, insufficient reinforcing steel, and land subsidence.→:::←The problems had been reported in 2018 and a US$15M program of remedial work has been approved, though no main structural work has taken place. <!--SR:!2024-06-30,45,294!2024-08-20,86,316-->
 - The problems had been reported in 2018 and a US$15M program of remedial work has been approved, though no main structural work has taken place.→:::←On 25 August 2021, the National Institute of Standards and Technology (NIST) has been tasked with investigation, <!--SR:!2024-11-12,149,337!2024-09-28,123,335-->
 - On 25 August 2021, the National Institute of Standards and Technology (NIST) has been tasked with investigation,→:::←with investigators coming from the American Concrete Institute (ACI), <!--SR:!2024-10-26,144,327!2024-08-31,91,307-->
-- with investigators coming from the American Concrete Institute (ACI),→:::←the American Society of Civil Engineers (ASCE), <!--SR:!2024-06-22,47,334!2024-08-22,87,310-->
+- with investigators coming from the American Concrete Institute (ACI),→:::←the American Society of Civil Engineers (ASCE), <!--SR:!2024-11-25,156,334!2024-08-22,87,310-->
 - the American Society of Civil Engineers (ASCE),→:::←the Geode Institute (GI), <!--SR:!2024-07-29,66,290!2024-10-09,130,337-->
 - the Geode Institute (GI),→:::←and the Structural Engineering Institute (SEI). <!--SR:!2024-08-29,92,337!2024-12-11,201,330-->
 - and the Structural Engineering Institute (SEI).→:::←_(end)_ <!--SR:!2025-05-08,326,350!2024-12-06,196,330-->

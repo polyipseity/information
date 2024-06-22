@@ -8,7 +8,7 @@ tags:
 
 # Albustix
 
-{{__Albustix__}} is {{a clinical stick to detect [proteins](protein.md)}}. If the test is positive, it changes {{from yellow to green}}. <!--SR:!2024-06-22,320,330!2025-09-03,636,310!2024-09-19,108,170-->
+{{__Albustix__}} is {{a clinical stick to detect [proteins](protein.md)}}. If the test is positive, it changes {{from yellow to green}}. <!--SR:!2028-06-16,1455,350!2025-09-03,636,310!2024-09-19,108,170-->
 
 > [!tip] tips
 >
