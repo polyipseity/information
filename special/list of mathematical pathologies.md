@@ -25,7 +25,7 @@ tags:
 The [Dirichlet function](Dirichlet%20function.md) is {{$$f(x \in \mathbb{R}) = \begin{cases} 1 & x\text{ rational} \\ 0 & x\text{ irrational} \end{cases}$$}}. <!--SR:!2024-09-06,115,290-->
 
 - [continuity](../general/continuous%20function.md) and discontinuity ::: It is discontinuous at every [real](../general/real%20number.md). <!--SR:!2025-03-18,282,330!2025-02-20,261,330-->
-  - global continuity or discontinuity ::: It is a [discontinuous function](../general/continuous%20function.md). <!--SR:!2024-06-21,54,323!2024-12-11,186,343-->
+  - global continuity or discontinuity ::: It is a [discontinuous function](../general/continuous%20function.md). <!--SR:!2025-02-15,239,343!2024-12-11,186,343-->
 - integrability
   - [Riemann integrability](../general/Riemann%20integral.md) ::: The function is not Riemann integrable on any non-trivial [interval](../general/interval%20(mathematics).md). This is despite it being a [bounded function](../general/bounded%20function.md). <!--SR:!2024-06-28,50,326!2024-07-16,68,346-->
 - [limit of a function](../general/limit%20of%20a%20function.md) ::: It has no limit at every [real](../general/real%20number.md). <!--SR:!2024-12-29,218,330!2025-03-02,269,330-->
@@ -64,4 +64,4 @@ The function is {{$$f(x) = \begin{cases} x^2 \sin \frac 1 {x^2}, & x \ne 0 \\ 0,
 
 - derivative ::: $$f'(x) = \begin{cases} 2x \sin \frac 1 {x^2} - \frac {2 \cos \frac 1 {x^2} } x, & x \ne 0 \\ 0, & x = 0 \end{cases}$$ <!--SR:!2024-10-14,121,306!2024-06-24,47,306-->
   - derivative integrability
-    - derivative [Riemann integrability](../general/Riemann%20integral.md) ::: The derivative is not Riemann integrable on any interval containing 0, as it is [unbounded](../general/bounded%20function.md). The derivative is an example of an non-integrable function that has an [antiderivative](../general/antiderivative.md) everywhere. <!--SR:!2024-06-21,44,306!2024-07-10,58,326-->
+    - derivative [Riemann integrability](../general/Riemann%20integral.md) ::: The derivative is not Riemann integrable on any interval containing 0, as it is [unbounded](../general/bounded%20function.md). The derivative is an example of an non-integrable function that has an [antiderivative](../general/antiderivative.md) everywhere. <!--SR:!2024-11-04,136,306!2024-07-10,58,326-->

@@ -104,7 +104,7 @@ See [Colosseum](../../../../general/Colosseum.md).
 - construction period ::: AD 72 to AD 80, 8 years <!--SR:!2024-06-23,13,296!2024-06-26,33,376-->
 - description ::: elliptical amphitheater in the center of Rome <!--SR:!2024-08-18,72,376!2024-06-22,29,376-->
 - geographic location ::: Rome <!--SR:!2024-10-13,119,396!2024-10-29,133,396-->
-- height ::: 48 m (4 storeys) <!--SR:!2024-06-30,19,316!2024-06-21,28,376-->
+- height ::: 48 m (4 storeys) <!--SR:!2024-06-30,19,316!2024-11-11,143,396-->
 - importance ::: largest amphitheater in the Roman Empire, greatest works of Roman architecture and engineering <!--SR:!2024-06-25,32,376!2024-06-22,29,376-->
 
 ## Eiffel Tower
@@ -136,7 +136,7 @@ See [Great Pyramid of Giza](../../../../general/Great%20Pyramid%20of%20Giza.md).
 - construction period ::: 10~20 years around 2560 BC <!--SR:!2024-06-23,5,276!2024-10-14,120,396-->
 - description ::: largest pyramid in the Giza Necropolis, Egypt <!--SR:!2024-10-05,112,396!2024-10-31,134,396-->
 - height ::: current: 138.5 m, original: 146.6 m <!--SR:!2024-07-15,40,356!2024-11-02,136,396-->
-- weight ::: 5.9 million tonnes <!--SR:!2024-09-14,89,376!2024-06-21,28,376-->
+- weight ::: 5.9 million tonnes <!--SR:!2024-09-14,89,376!2024-11-10,142,396-->
 - tomb for ::: Egypt's 4th dynasty pharaoh Khufu <!--SR:!2024-06-24,31,376!2024-08-16,70,376-->
 
 ## Great Wall of China
@@ -146,7 +146,7 @@ See [Great Wall of China](../../../../general/Great%20Wall%20of%20China.md).
 - component ::: fortress, horse track, pass, shelter, wall, watch tower <!--SR:!2024-07-02,27,316!2024-11-01,135,396-->
 - construction period ::: 220 BC under Qin Shi Huang, and continued up to the Ming dynasty (1368–1644) <!--SR:!2024-08-04,57,356!2024-06-24,31,376-->
 - geographic locations ::: begins in the east at Shanhaiguan (山海關), Hebei; and ends in the west at Jiayuguan (嘉峪關), Gansu <!--SR:!2024-08-05,57,356!2024-06-22,29,376-->
-- length ::: 21196.18 km <!--SR:!2024-07-30,41,316!2024-06-21,28,376-->
+- length ::: 21196.18 km <!--SR:!2024-07-30,41,316!2024-11-15,147,396-->
 
 ## HSBC Main Building
 
@@ -181,7 +181,7 @@ See [Hoover Dam](../../../../general/Hoover%20Dam.md).
 - [dam type](../../../../general/dam.md#types) ::: concrete gravity-arch <!--SR:!2024-09-03,94,320!2024-08-16,97,375-->
 - height ::: 221.4 m <!--SR:!2024-06-26,33,281!2024-06-24,52,347-->
 - image ::: ![Hoover Dam image](../../../../archives/Wikimedia%20Commons/Ansel%20Adams%20-%20National%20Archives%2079-AAB-01.jpg) <!--SR:!2024-08-09,77,360!2024-08-31,97,380-->
-- length ::: 379 m <!--SR:!2024-07-02,25,261!2024-06-21,49,350-->
+- length ::: 379 m <!--SR:!2024-07-02,25,261!2025-02-11,235,370-->
 
 ## International Commerce Centre
 
@@ -217,7 +217,7 @@ See [John Hancock Center](John%20Hancock%20Center.md).
 See [Millau Viaduct](../../../../general/Millau%20Viaduct.md).
 
 - bridge type ::: cable-stayed road bridge <!--SR:!2024-06-25,32,376!2024-10-23,127,396-->
-- designers ::: Michel Virlogeux, Norman Foster <!--SR:!2024-08-24,77,376!2024-06-21,28,376-->
+- designers ::: Michel Virlogeux, Norman Foster <!--SR:!2024-08-24,77,376!2024-11-16,148,396-->
 - geographic location ::: across the gorge valley of the Tarn near Millau in southern France <!--SR:!2024-08-15,69,376!2024-08-22,75,376-->
 - height ::: max pylon above base: 343 m, structural: 336.4 m <!--SR:!2024-06-29,25,316!2024-11-07,140,396-->
   - height record ::: as of October 2023, tallest bridge in the world <!--SR:!2024-10-22,126,396!2024-10-22,127,396-->
@@ -237,7 +237,7 @@ See [Mont d'Ambin Base Tunnel](../../../../general/Mont%20d'Ambin%20Base%20Tunne
 
 See [Delta Works](../../../../general/Delat%20Works.md) and [Zuiderzee Works](../../../../general/Zuiderzee%20Works.md).
 
-- image ::: ![Netherlands North Sea Protection Works image](../../../../archives/Wikimedia%20Commons/Maeslantkering.jpg) <!--SR:!2024-06-21,28,376!2024-06-26,33,376-->
+- image ::: ![Netherlands North Sea Protection Works image](../../../../archives/Wikimedia%20Commons/Maeslantkering.jpg) <!--SR:!2024-11-17,149,396!2024-06-26,33,376-->
 
 ## Panama Canal
 
@@ -312,7 +312,7 @@ See [Turin–Lyon high-speed railway](../../../../general/Turin–Lyon%20high-sp
 See [Two Prudential Plaza](../../../../general/Two%20Prudential%20Plaza.md).
 
 - description ::: 64-story skyscraper located in the Loop area of Chicago, Illinois <!--SR:!2024-09-03,91,320!2024-07-28,80,365-->
-- height ::: architectural: 303 m, top floor: 250 m <!--SR:!2024-06-21,20,261!2024-08-19,98,364-->
+- height ::: architectural: 303 m, top floor: 250 m <!--SR:!2024-06-30,9,241!2024-08-19,98,364-->
 - image ::: ![Two Prudential Plaza image](../../../../archives/Wikimedia%20Commons/Two%20Prudential%20Plaza%20Chicago%20in%20May%202016.jpg) <!--SR:!2024-08-14,82,360!2024-08-06,74,360-->
 - [structural system](../../../../general/structural%20system.md) ::: reinforced concrete<!-- flashcard ecbdac25-22dc-429d-9976-d49408b1478d --> <!--SR:!2024-07-30,67,360!2024-08-27,94,380-->
 

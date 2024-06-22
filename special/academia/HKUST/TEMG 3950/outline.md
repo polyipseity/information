@@ -208,7 +208,7 @@ The content is in teaching order.
 - casual relationship & correlation ::: Correlation does not imply causation. <!--SR:!2024-06-26,18,341!2024-06-26,18,341-->
 - [root cause analysis](../../../../general/root%20cause%20analysis.md) ::: discovery of casual relationships <!--SR:!2024-06-23,15,321!2024-06-24,16,341-->
 - [five whys](../../../../general/five%20whys.md)
-- cause mapping process ::: define the issue by its impact to business goals, visualize the problem, and prevent or mitigate negative impacts <!--SR:!2024-07-13,27,321!2024-06-21,13,321-->
+- cause mapping process ::: define the issue by its impact to business goals, visualize the problem, and prevent or mitigate negative impacts <!--SR:!2024-07-13,27,321!2024-08-18,58,341-->
 - cause mapping notation (at least for this course)
   - cause mapping + MECE dimensions ::: Choose a MECE framework. For one of the causes, split the further causes by MECE dimensions. Label the further causes by their corresponding dimensions. Explain why, if some dimensions are irrelevant and thus has no further causes. <!--SR:!2024-07-11,25,321!2024-06-28,20,341-->
   - cause mapping § arrow direction ::: cause to effect <!--SR:!2024-06-26,18,341!2024-06-26,18,341-->
@@ -225,7 +225,7 @@ The content is in teaching order.
 - interview note-taking technique using 1 sheet of A4 paper ::: facts, key question (only 1), analysis <!--SR:!2024-06-27,19,341!2024-06-28,20,341-->
   - interview note § layout ::: split the paper into 2, the left side is thinner and holds the facts and key question, and the right side is the analysis <!--SR:!2024-07-31,42,321!2024-06-28,20,341-->
   - interview note § analysis ::: use a MECE framework suitable for the case in the interview <!--SR:!2024-06-28,20,341!2024-06-27,19,341-->
-  - interview note § facts ::: do not be afraid to ask probing questions, probe for the real question, quantify, summarize, verify <!--SR:!2024-06-21,13,321!2024-06-28,20,341-->
+  - interview note § facts ::: do not be afraid to ask probing questions, probe for the real question, quantify, summarize, verify <!--SR:!2024-08-20,60,341!2024-06-28,20,341-->
 - [assignment W11](assignment%20W11/assignment%20W11.md): Root Cause Analysis (Starbucks)
 
 ## week 12 lecture

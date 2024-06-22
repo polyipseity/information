@@ -10,7 +10,7 @@ tags:
 
 ## concept
 
-The tube system acts like {{a non-perforated vertical [cantilevered](cantilever.md) tube, but with reduced stiffness due to openings along the external wall}}. When subject to {{bending by lateral forces}}, {{columns windward and leeward (opposite side of windward) experience tension and compression}}, while {{the frame (beams and columns) parallel to the force are subject to in-plane bending}}. <!--SR:!2024-08-11,54,250!2024-08-05,53,270!2024-08-11,68,310!2024-06-21,26,270-->
+The tube system acts like {{a non-perforated vertical [cantilevered](cantilever.md) tube, but with reduced stiffness due to openings along the external wall}}. When subject to {{bending by lateral forces}}, {{columns windward and leeward (opposite side of windward) experience tension and compression}}, while {{the frame (beams and columns) parallel to the force are subject to in-plane bending}}. <!--SR:!2024-08-11,54,250!2024-08-05,53,270!2024-08-11,68,310!2024-09-26,97,290-->
 
 The exterior structure is {{a very stiff rigid frame with closely spaced columns around the perimeter (usually 2 m to 4 m), making a tube}}. The materials can be {{reinforced concrete or steel}}. Since the columns and beams are {{so closely spaced, the facade looks like a wall with perforated window openings}}. The interior structure are {{mostly columns and usually relatively few in numbers}}. The exterior supports {{some gravity loading and all lateral loading, while the interior supports some gravity loading}}. <!--SR:!2024-07-20,47,290!2024-06-29,31,270!2024-06-30,34,270!2024-07-18,48,290!2024-06-29,33,270-->
 

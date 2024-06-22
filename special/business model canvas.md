@@ -66,9 +66,9 @@ C$: [cost structure](#cost%20structure)
 - CR: [customer relationships](#customer%20relationships)→:::←R$: [revenue streams](#revenue%20streams) <!--SR:!2024-08-06,76,274!2024-09-02,100,292-->
 - R$: [revenue streams](#revenue%20streams)→:::←KR: [key resources](#key%20resources) <!--SR:!2024-06-27,45,257!2024-09-26,101,257-->
 - KR: [key resources](#key%20resources)→:::←KA: [key activities](#key%20activities) <!--SR:!2024-07-10,49,257!2024-08-08,77,274-->
-- KA: [key activities](#key%20activities)→:::←KP: [key partnerships](#key%20partnerships) <!--SR:!2024-07-16,55,257!2024-06-21,23,254-->
+- KA: [key activities](#key%20activities)→:::←KP: [key partnerships](#key%20partnerships) <!--SR:!2024-07-16,55,257!2024-08-17,57,254-->
 - KP: [key partnerships](#key%20partnerships)→:::←C$: [cost structure](#cost%20structure) <!--SR:!2024-06-26,19,257!2024-08-31,98,274-->
-- C$: [cost structure](#cost%20structure)→:::←_(end)_ <!--SR:!2024-06-24,54,294!2024-06-21,51,294-->
+- C$: [cost structure](#cost%20structure)→:::←_(end)_ <!--SR:!2024-06-24,54,294!2025-01-14,207,314-->
 
 <!--/pytextgen-->
 
@@ -119,7 +119,7 @@ segmented: splitting slightly different customer segments
 
 #### value propositions
 
-The value propositions building block shows {{products and services that create value for customer segments}}. Value propositions can be {{disruptive or an improvement over existing products}}. <!--SR:!2024-09-30,112,274!2024-06-21,41,254-->
+The value propositions building block shows {{products and services that create value for customer segments}}. Value propositions can be {{disruptive or an improvement over existing products}}. <!--SR:!2024-09-30,112,274!2024-10-02,103,254-->
 
 ##### value sources
 

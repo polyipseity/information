@@ -70,7 +70,7 @@ The content is in teaching order.
 - hydraulic engineering ::: conveyance and flow of fluids, principally sewage and water <!--SR:!2024-11-09,159,285!2024-07-11,63,345-->
   - hydraulic engineering structures ::: design and construction of hydraulic structures <!--SR:!2024-09-17,115,324!2024-07-07,62,345-->
     - [hydraulic engineering structure examples](#hydraulic%20engineering%20structure%20examples)
-  - hydraulic engineering systems ::: planning, development, and management of discharge systems and water resources <!--SR:!2024-09-10,94,320!2024-06-21,46,332-->
+  - hydraulic engineering systems ::: planning, development, and management of discharge systems and water resources <!--SR:!2024-09-10,94,320!2025-01-16,209,352-->
     - [hydraulic engineering system examples](#hydraulic%20engineering%20system%20examples)
 - environmental engineering ::: application of engineering and science to improve the natural environment and minimize environmental impact <!--SR:!2024-09-05,90,321!2024-06-27,55,356-->
   - [environmental engineering areas](#environmental%20engineering%20areas)
@@ -88,7 +88,7 @@ The content is in teaching order.
   - materials engineering characteristics ::: spans almost all engineering disciplines because materials are used in designs <!--SR:!2024-09-29,122,337!2024-07-19,67,347-->
   - materials engineer jobs ::: highly varied <!--SR:!2025-01-19,222,330!2024-08-13,94,372-->
     - [materials engineer job examples](#materials%20engineer%20job%20examples)
-  - materials engineering materials ::: development of improved or new materials <!--SR:!2024-07-04,49,297!2024-06-21,77,330-->
+  - materials engineering materials ::: development of improved or new materials <!--SR:!2024-07-04,49,297!2025-06-04,348,350-->
     - [materials engineering material examples](#materials%20engineering%20material%20examples)
   - materials engineering repair ::: design of materials and methods to repair <!--SR:!2025-05-24,339,350!2024-08-09,90,375-->
     - materials engineering repair examples ::: fiber reinforced polymer retrofit system, retrofit using damper, slab retrofit using steel plate and carbon fiber reinforced polymer <!--SR:!2024-09-07,92,320!2024-10-17,135,332-->
@@ -199,7 +199,7 @@ water and sewage treatment system
 - power plant→:::←reservoir <!--SR:!2024-07-30,60,275!2024-09-05,91,320-->
 - reservoir→:::←sewage treatment <!--SR:!2024-07-18,31,197!2024-06-22,29,261-->
 - sewage treatment→:::←transport <!--SR:!2024-07-08,39,250!2024-07-13,50,301-->
-- transport→:::←water and sewage treatment system <!--SR:!2024-06-21,41,340!2024-06-28,19,190-->
+- transport→:::←water and sewage treatment system <!--SR:!2024-11-05,137,340!2024-06-28,19,190-->
 - water and sewage treatment system→:::←_(end)_ <!--SR:!2024-08-25,93,381!2024-08-01,69,361-->
 
 <!--/pytextgen-->
@@ -404,7 +404,7 @@ Water Cube
 - Burj Al Arab→:::←Burj Khalifa <!--SR:!2024-10-15,141,270!2024-12-22,190,352-->
 - Burj Khalifa→:::←CCTV Headquarters <!--SR:!2024-09-02,89,320!2024-08-12,95,270-->
 - CCTV Headquarters→:::←Eiffel Tower <!--SR:!2024-09-28,103,285!2024-07-15,52,292-->
-- Eiffel Tower→:::←Hong Kong Convention and Exhibition Centre <!--SR:!2024-06-21,39,294!2024-07-05,21,305-->
+- Eiffel Tower→:::←Hong Kong Convention and Exhibition Centre <!--SR:!2024-10-13,114,294!2024-07-05,21,305-->
 - Hong Kong Convention and Exhibition Centre→:::←Water Cube <!--SR:!2024-06-29,18,317!2024-08-24,81,320-->
 - Water Cube→:::←_(end)_ <!--SR:!2024-08-06,83,381!2025-01-02,201,357-->
 
@@ -460,7 +460,7 @@ testing materials
 - planning→:::←procuring materials <!--SR:!2024-07-22,59,317!2024-08-10,65,277-->
 - procuring materials→:::←quality assurance <!--SR:!2024-08-02,58,300!2024-08-22,77,281-->
 - quality assurance→:::←quality control <!--SR:!2024-10-31,150,357!2024-07-15,52,352-->
-- quality control→:::←safety engineering <!--SR:!2024-08-01,65,301!2024-06-21,9,275-->
+- quality control→:::←safety engineering <!--SR:!2024-08-01,65,301!2024-07-13,22,275-->
 - safety engineering→:::←scheduling <!--SR:!2024-08-25,82,320!2024-10-01,120,340-->
 - scheduling→:::←surveying building site <!--SR:!2024-08-18,60,241!2024-06-22,39,300-->
 - surveying building site→:::←testing materials <!--SR:!2024-07-02,13,260!2024-07-12,49,292-->
@@ -501,7 +501,7 @@ teaming up with others
 - _(begin)_→:::←business procedures <!--SR:!2024-07-14,45,252!2024-09-08,107,381-->
 - business procedures→:::←economics <!--SR:!2024-08-04,46,261!2024-07-31,68,285-->
 - economics→:::←human behaviors <!--SR:!2024-08-16,78,320!2024-10-23,131,340-->
-- human behaviors→:::←management principles <!--SR:!2024-06-21,16,300!2024-06-27,14,260-->
+- human behaviors→:::←management principles <!--SR:!2024-08-07,47,300!2024-06-27,14,260-->
 - management principles→:::←strong communication skills <!--SR:!2024-08-12,74,301!2024-09-05,96,320-->
 - strong communication skills→:::←teaming up with others <!--SR:!2024-06-22,42,340!2024-08-23,91,380-->
 - teaming up with others→:::←_(end)_ <!--SR:!2024-07-11,66,355!2024-08-31,73,272-->
@@ -775,7 +775,7 @@ levee
 <!--pytextgen generate section="234f"--><!-- The following content is generated at 2024-05-01T19:22:35.207913+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←canal <!--SR:!2024-09-12,106,340!2024-07-18,70,347-->
-- canal→:::←channel <!--SR:!2024-11-27,174,357!2024-06-21,48,352-->
+- canal→:::←channel <!--SR:!2024-11-27,174,357!2024-12-06,168,352-->
 - channel→:::←dam <!--SR:!2024-10-21,128,327!2025-02-10,240,290-->
 - dam→:::←levee <!--SR:!2024-07-02,50,340!2024-11-04,141,332-->
 - levee→:::←_(end)_ <!--SR:!2024-08-09,90,375!2024-08-06,53,258-->
@@ -848,7 +848,7 @@ Tsing Ma Bridge
 - Akashi Kaikyo Bridge→:::←Hong Kong–Zhuhai–Macau Bridge <!--SR:!2024-08-24,92,327!2024-10-02,105,307-->
 - Hong Kong–Zhuhai–Macau Bridge→:::←Stonecutters Bridge <!--SR:!2024-07-11,58,340!2024-06-23,16,300-->
 - Stonecutters Bridge→:::←Sutong Yangtze River Bridge <!--SR:!2024-10-08,130,337!2024-06-23,43,340-->
-- Sutong Yangtze River Bridge→:::←Tsing Ma Bridge <!--SR:!2024-06-21,46,335!2024-08-31,93,307-->
+- Sutong Yangtze River Bridge→:::←Tsing Ma Bridge <!--SR:!2024-11-23,155,335!2024-08-31,93,307-->
 - Tsing Ma Bridge→:::←_(end)_ <!--SR:!2024-08-02,83,364!2024-08-09,112,310-->
 
 <!--/pytextgen-->
@@ -1142,7 +1142,7 @@ and the Structural Engineering Institute (SEI).
 
 <!--pytextgen generate section="34aa"--><!-- The following content is generated at 2024-05-16T15:46:41.750298+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←On 24 June 2021, a 12-story beachfront condominium, Champlain Towers South, in Miami suburb, Florida, United States partially collapsed, killing 98 people. <!--SR:!2024-09-11,95,320!2024-06-21,77,330-->
+- _(begin)_→:::←On 24 June 2021, a 12-story beachfront condominium, Champlain Towers South, in Miami suburb, Florida, United States partially collapsed, killing 98 people. <!--SR:!2024-09-11,95,320!2025-06-05,349,350-->
 - On 24 June 2021, a 12-story beachfront condominium, Champlain Towers South, in Miami suburb, Florida, United States partially collapsed, killing 98 people.→:::←Main culprit is degradation of reinforced concrete structural support in ground-level parking garage, due to water penetration and corrosion of the reinforcing steel. <!--SR:!2024-08-11,79,315!2024-08-12,79,315-->
 - Main culprit is degradation of reinforced concrete structural support in ground-level parking garage, due to water penetration and corrosion of the reinforcing steel.→:::←Other possible factors include corruption, insufficient reinforcing steel, and land subsidence. <!--SR:!2024-12-08,194,290!2024-09-13,102,317-->
 - Other possible factors include corruption, insufficient reinforcing steel, and land subsidence.→:::←The problems had been reported in 2018 and a US$15M program of remedial work has been approved, though no main structural work has taken place. <!--SR:!2024-06-30,45,294!2024-08-20,86,316-->

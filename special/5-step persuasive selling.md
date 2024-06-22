@@ -46,11 +46,11 @@ The 5-step persuasive selling consists of the following steps:
 
 <!--pytextgen generate section="cc19"--><!-- The following content is generated at 2024-06-09T06:27:26.828416+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←background: short summary of the situation with the _key problem or opportunity_, using irrefutable facts <!--SR:!2024-06-21,13,290!2024-06-25,17,290-->
+- _(begin)_→:::←background: short summary of the situation with the _key problem or opportunity_, using irrefutable facts <!--SR:!2024-07-28,37,290!2024-06-25,17,290-->
 - background: short summary of the situation with the _key problem or opportunity_, using irrefutable facts→:::←the big idea: use ONLY 1 (long) sentence to describe your solution <!--SR:!2024-06-24,16,290!2024-06-25,17,290-->
 - the big idea: use ONLY 1 (long) sentence to describe your solution→:::←how it works: _key solution details_ to preempt concerns, objections, and questions <!--SR:!2024-06-23,15,290!2024-06-23,15,290-->
 - how it works: _key solution details_ to preempt concerns, objections, and questions→:::←key benefits and risks: compelling reason to adopt the solution by _reinforcing benefits_ for multiple parties and _highlighting risks to politely threaten_ <!--SR:!2024-06-25,17,290!2024-07-21,31,270-->
 - key benefits and risks: compelling reason to adopt the solution by _reinforcing benefits_ for multiple parties and _highlighting risks to politely threaten_→:::←next step: an _easy_ task that the target cannot say no and moves the solution forward <!--SR:!2024-06-24,16,290!2024-06-22,14,290-->
-- next step: an _easy_ task that the target cannot say no and moves the solution forward→:::←_(end)_ <!--SR:!2024-06-22,14,290!2024-06-21,13,290-->
+- next step: an _easy_ task that the target cannot say no and moves the solution forward→:::←_(end)_ <!--SR:!2024-06-22,14,290!2024-07-27,36,290-->
 
 <!--/pytextgen-->
