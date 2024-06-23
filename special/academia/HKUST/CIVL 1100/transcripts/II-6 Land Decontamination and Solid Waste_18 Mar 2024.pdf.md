@@ -30,7 +30,7 @@ Brownfield site development
 
 - brownfield
   - brownfield in Hong Kong ::: agricultural or rural land in New Territories that is deserted and has been changed for container yards, depots, open storage, recycling yards, or rural industries <!--SR:!2024-06-25,22,250!2024-07-08,34,270-->
-    - brownfield in Hong Kong examples ::: Hung Shui Kiu, Lok Ma Chau Loop, northern Fanling, northern Kwun Tong, northern New Territories, southern Yuen Long; > 1500 hectares (1 ha = 10000 m<sup>2</sup>) <!--SR:!2024-07-21,36,230!2024-06-23,23,270-->
+    - brownfield in Hong Kong examples ::: Hung Shui Kiu, Lok Ma Chau Loop, northern Fanling, northern Kwun Tong, northern New Territories, southern Yuen Long; > 1500 hectares (1 ha = 10000 m<sup>2</sup>) <!--SR:!2024-07-21,36,230!2024-09-17,86,290-->
   - brownfield in the United States ::: currently unused land that was used with known or suspected not-very-serious pollution <!--SR:!2024-08-14,68,310!2024-07-18,45,290-->
 
 ## page 4
@@ -49,7 +49,7 @@ Soil Contamination in Kwu Tung North — Case Study (Aug 2013)
 
 Land Contamination Assessment in Hong Kong
 
-- Environmental Impact Assessment Ordinance (EIAO) requirements ::: contamination assessment plan (CAP), contamination assessment report (CAR), remediation action plan (RAP), remediation report (RR) <!--SR:!2024-07-04,25,230!2024-06-23,24,270-->
+- Environmental Impact Assessment Ordinance (EIAO) requirements ::: contamination assessment plan (CAP), contamination assessment report (CAR), remediation action plan (RAP), remediation report (RR) <!--SR:!2024-07-04,25,230!2024-09-21,90,290-->
 
 <!-- TODO: expand -->
 
