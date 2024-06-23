@@ -42,7 +42,7 @@ Product-specific segmentation divides the market by {{product or service-specifi
 
 ## benefits
 
-By segmenting the market, business {{can clarify the requirements of their customers and tailor to them}}. Strategy-wise, we can identify {{the most profitable and least profitable customers, and the size of the market}}. Marketers can {{focus their effort}}. <!--SR:!2024-11-16,168,310!2024-06-23,32,285!2024-07-26,58,325-->
+By segmenting the market, business {{can clarify the requirements of their customers and tailor to them}}. Strategy-wise, we can identify {{the most profitable and least profitable customers, and the size of the market}}. Marketers can {{focus their effort}}. <!--SR:!2024-11-16,168,310!2024-09-18,87,285!2024-07-26,58,325-->
 
 ## strategy
 

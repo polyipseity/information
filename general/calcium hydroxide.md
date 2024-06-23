@@ -65,7 +65,7 @@ Calcium hydroxide can be prepared in the following way:
 <!--pytextgen generate section="d7182f"--><!-- The following content is generated at 2024-01-04T20:17:51.479474+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←Dissolve carbonate hydroxide in deionized [water](water.md). <!--SR:!2026-02-26,874,250!2026-12-09,1345,358-->
-- Dissolve carbonate hydroxide in deionized [water](water.md).→:::←Filter the solution to obtain the [filtrate](filtrate.md). <!--SR:!2024-06-23,187,210!2026-06-15,952,261-->
+- Dissolve carbonate hydroxide in deionized [water](water.md).→:::←Filter the solution to obtain the [filtrate](filtrate.md). <!--SR:!2025-07-20,392,210!2026-06-15,952,261-->
 - Filter the solution to obtain the [filtrate](filtrate.md).→:::←_(end)_ <!--SR:!2026-01-24,1062,339!2026-02-28,869,279-->
 
 <!--/pytextgen-->

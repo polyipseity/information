@@ -69,7 +69,7 @@ See [CCTV Headquarters](../../../../general/CCTV%20Headquarters.md).
 
 See [CN Tower](../../../../general/CN%20Tower.md).
 
-- image ::: ![CN Tower image](../../../../archives/Wikimedia%20Commons/Toronto%20-%20ON%20-%20Toronto%20Harbourfront7.jpg) <!--SR:!2024-06-25,32,376!2024-06-23,30,376-->
+- image ::: ![CN Tower image](../../../../archives/Wikimedia%20Commons/Toronto%20-%20ON%20-%20Toronto%20Harbourfront7.jpg) <!--SR:!2024-06-25,32,376!2024-11-23,153,396-->
 
 ## Central Plaza (Hong Kong)
 
@@ -101,7 +101,7 @@ See [CITIC Plaza](../../../../general/CITIC%20Plaza.md).
 See [Colosseum](../../../../general/Colosseum.md).
 
 - base widths ::: length: 189 m, width: 156 m <!--SR:!2024-07-14,40,336!2024-10-12,112,376-->
-- construction period ::: AD 72 to AD 80, 8 years <!--SR:!2024-06-23,13,296!2024-06-26,33,376-->
+- construction period ::: AD 72 to AD 80, 8 years <!--SR:!2024-06-29,6,276!2024-06-26,33,376-->
 - description ::: elliptical amphitheater in the center of Rome <!--SR:!2024-08-18,72,376!2024-10-13,113,376-->
 - geographic location ::: Rome <!--SR:!2024-10-13,119,396!2024-10-29,133,396-->
 - height ::: 48 m (4 storeys) <!--SR:!2024-06-30,19,316!2024-11-11,143,396-->
@@ -120,7 +120,7 @@ See [Eiffel Tower](../../../../general/Eiffel%20Tower.md).
 
 See [Empire State Building](../../../../general/Empire%20State%20Building.md).
 
-- image ::: ![Empire State Building image](../../../../archives/Wikimedia%20Commons/Empire%20State%20Building%20(aerial%20view).jpg) <!--SR:!2024-06-23,30,376!2024-08-16,70,376-->
+- image ::: ![Empire State Building image](../../../../archives/Wikimedia%20Commons/Empire%20State%20Building%20(aerial%20view).jpg) <!--SR:!2024-11-27,157,396!2024-08-16,70,376-->
 
 ## Golden Gate Bridge
 
@@ -133,7 +133,7 @@ See [Golden Gate Bridge](../../../../general/Golden%20Gate%20Bridge.md).
 See [Great Pyramid of Giza](../../../../general/Great%20Pyramid%20of%20Giza.md).
 
 - base width ::: 230.33 m <!--SR:!2024-06-25,32,376!2024-11-03,137,396-->
-- construction period ::: 10~20 years around 2560 BC <!--SR:!2024-06-23,5,276!2024-10-14,120,396-->
+- construction period ::: 10~20 years around 2560 BC <!--SR:!2024-07-06,13,276!2024-10-14,120,396-->
 - description ::: largest pyramid in the Giza Necropolis, Egypt <!--SR:!2024-10-05,112,396!2024-10-31,134,396-->
 - height ::: current: 138.5 m, original: 146.6 m <!--SR:!2024-07-15,40,356!2024-11-02,136,396-->
 - weight ::: 5.9 million tonnes <!--SR:!2024-09-14,89,376!2024-11-10,142,396-->
@@ -196,7 +196,7 @@ See [International Commerce Centre](International%20Commerce%20Centre.md).
 
 See [Itaipu Dam](../../../../general/Itaipu%20Dam.md).
 
-- image ::: ![Itaipu Dam image](../../../../archives/Wikimedia%20Commons/Itaipu%20geral.jpg) <!--SR:!2024-06-23,30,376!2024-08-30,82,376-->
+- image ::: ![Itaipu Dam image](../../../../archives/Wikimedia%20Commons/Itaipu%20geral.jpg) <!--SR:!2024-11-19,149,396!2024-08-30,82,376-->
 
 ## John Hancock Center
 
@@ -249,7 +249,7 @@ See [Panama Canal](../../../../general/Panama%20Canal.md).
 
 See [Parthenon](../../../../general/Parthenon.md).
 
-- construction period ::: 447 BC to 438 BC, 9 years <!--SR:!2024-06-23,19,296!2024-06-24,31,376-->
+- construction period ::: 447 BC to 438 BC, 9 years <!--SR:!2024-07-03,10,276!2024-06-24,31,376-->
 - dedication ::: Greek goddess Athena <!--SR:!2024-06-25,32,376!2024-11-08,141,396-->
 - description ::: temple on the Athenian Acropolis, Greece, dedicated to the Greek goddess Athena <!--SR:!2024-07-09,38,356!2024-11-06,139,396-->
 - geographic location ::: Athenian Acropolis, Greece <!--SR:!2024-07-14,39,356!2024-10-16,122,396-->

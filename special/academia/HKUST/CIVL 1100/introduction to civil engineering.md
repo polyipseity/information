@@ -63,7 +63,7 @@ The content is in teaching order.
   - structural codes of practice or design codes ::: different countries have different standards <!--SR:!2025-05-25,340,350!2024-07-28,76,357-->
     - [structural code of practice examples](#structural%20code%20of%20practice%20examples)
 - geo-technical engineering ::: behavior of rock, soil, and underground water <!--SR:!2024-08-28,109,305!2024-06-25,52,347-->
-  - geo-technical engineering structures ::: design and construction of earthworks and foundations <!--SR:!2024-07-16,50,320!2024-06-23,48,330-->
+  - geo-technical engineering structures ::: design and construction of earthworks and foundations <!--SR:!2024-07-16,50,320!2025-01-26,217,350-->
     - [geo-technical engineering structure examples](#geo-technical%20engineering%20structure%20examples)
   - [geo-technical engineering risks](#geo-technical%20engineering%20risks)
     - geo-technical engineering risk migration ::: soil improvement or retaining structures can migrate risk to society <!--SR:!2024-06-26,48,340!2024-08-08,89,377-->
@@ -635,7 +635,7 @@ water
 <!--pytextgen generate section="736f"--><!-- The following content is generated at 2024-02-16T21:59:47.573916+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←air <!--SR:!2024-07-09,54,341!2024-08-25,93,381-->
-- air→:::←environmental impact assessment (EIA) <!--SR:!2024-06-23,41,298!2024-09-09,108,338-->
+- air→:::←environmental impact assessment (EIA) <!--SR:!2024-12-08,168,318!2024-09-09,108,338-->
 - environmental impact assessment (EIA)→:::←noise <!--SR:!2024-09-08,107,327!2024-08-28,96,380-->
 - noise→:::←waste <!--SR:!2024-07-14,62,360!2024-12-23,190,355-->
 - waste→:::←water <!--SR:!2024-07-02,57,357!2024-07-22,70,360-->
@@ -846,8 +846,8 @@ Tsing Ma Bridge
 
 - _(begin)_→:::←Akashi Kaikyo Bridge <!--SR:!2024-08-17,82,318!2024-07-10,65,357-->
 - Akashi Kaikyo Bridge→:::←Hong Kong–Zhuhai–Macau Bridge <!--SR:!2024-08-24,92,327!2024-10-02,105,307-->
-- Hong Kong–Zhuhai–Macau Bridge→:::←Stonecutters Bridge <!--SR:!2024-07-11,58,340!2024-06-23,16,300-->
-- Stonecutters Bridge→:::←Sutong Yangtze River Bridge <!--SR:!2024-10-08,130,337!2024-06-23,43,340-->
+- Hong Kong–Zhuhai–Macau Bridge→:::←Stonecutters Bridge <!--SR:!2024-07-11,58,340!2024-08-12,50,300-->
+- Stonecutters Bridge→:::←Sutong Yangtze River Bridge <!--SR:!2024-10-08,130,337!2024-11-17,147,340-->
 - Sutong Yangtze River Bridge→:::←Tsing Ma Bridge <!--SR:!2024-11-23,155,335!2024-08-31,93,307-->
 - Tsing Ma Bridge→:::←_(end)_ <!--SR:!2024-08-02,83,364!2024-08-09,112,310-->
 
@@ -951,7 +951,7 @@ wave
 
 - _(begin)_→:::←earthquake <!--SR:!2024-11-11,142,340!2024-06-30,52,337-->
 - earthquake→:::←fire <!--SR:!2024-09-28,117,335!2024-07-23,71,360-->
-- fire→:::←flood <!--SR:!2024-06-23,48,324!2024-09-05,104,266-->
+- fire→:::←flood <!--SR:!2024-11-25,155,324!2024-09-05,104,266-->
 - flood→:::←strong wind <!--SR:!2024-08-01,63,320!2024-07-17,38,297-->
 - strong wind→:::←wave <!--SR:!2025-01-11,218,290!2024-10-07,107,294-->
 - wave→:::←_(end)_ <!--SR:!2025-01-03,199,357!2024-07-22,67,315-->
@@ -985,7 +985,7 @@ Two Prudential Plaza
 - _(begin)_→:::←Central Plaza (Hong Kong) <!--SR:!2024-08-20,88,317!2024-08-14,95,367-->
 - Central Plaza (Hong Kong)→:::←China International Trust and Investment (CITIC) Plaza <!--SR:!2024-08-22,90,334!2024-09-17,101,340-->
 - China International Trust and Investment (CITIC) Plaza→:::←Two Prudential Plaza <!--SR:!2024-10-29,131,340!2024-07-20,35,280-->
-- Two Prudential Plaza→:::←_(end)_ <!--SR:!2024-06-23,51,355!2024-09-15,101,320-->
+- Two Prudential Plaza→:::←_(end)_ <!--SR:!2025-02-26,248,375!2024-09-15,101,320-->
 
 <!--/pytextgen-->
 
@@ -1016,7 +1016,7 @@ Taipei 101
 <!--pytextgen generate section="938f"--><!-- The following content is generated at 2024-02-16T21:59:47.947997+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←HSBC Main Building <!--SR:!2024-07-18,30,297!2025-04-01,312,330-->
-- HSBC Main Building→:::←International Commerce Centre <!--SR:!2024-06-23,30,297!2024-08-22,90,334-->
+- HSBC Main Building→:::←International Commerce Centre <!--SR:!2024-09-19,88,297!2024-08-22,90,334-->
 - International Commerce Centre→:::←John Hancock Center <!--SR:!2024-10-04,113,320!2024-08-06,74,317-->
 - John Hancock Center→:::←Taipei 101 <!--SR:!2024-11-02,137,341!2024-10-07,120,312-->
 - Taipei 101→:::←_(end)_ <!--SR:!2024-07-04,59,347!2024-09-12,99,321-->

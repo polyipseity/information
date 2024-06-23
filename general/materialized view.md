@@ -13,7 +13,7 @@ tags:
 
 ## algorithms
 
-In a database, there are usually {{many possible views to materialize}}. But it is {{not practical to materialize them all because of practical constraints}}, such as {{the number of views, the total size of views, the update cost, etc.}} Selecting the best views that {{reduces the cost of answering queries while staying within the constraints}} is known as {{the view materialization problem}}. It is {{[NP-complete](NP-completeness.md)}}. A variety of [algorithms](materialized%20view.md#algorithms) have been explored, such as {{[greedy algorithms](#greedy%20algorithm), randomized search, [genetic algorithms](genetic%20algorithm.md), and [A* search algorithm](A*%20search%20algorithm.md)}}. <!--SR:!2024-07-01,13,290!2024-06-26,9,270!2024-06-23,6,250!2024-06-23,6,250!2024-06-27,10,270!2024-07-02,14,290!2024-06-29,11,270-->
+In a database, there are usually {{many possible views to materialize}}. But it is {{not practical to materialize them all because of practical constraints}}, such as {{the number of views, the total size of views, the update cost, etc.}} Selecting the best views that {{reduces the cost of answering queries while staying within the constraints}} is known as {{the view materialization problem}}. It is {{[NP-complete](NP-completeness.md)}}. A variety of [algorithms](materialized%20view.md#algorithms) have been explored, such as {{[greedy algorithms](#greedy%20algorithm), randomized search, [genetic algorithms](genetic%20algorithm.md), and [A* search algorithm](A*%20search%20algorithm.md)}}. <!--SR:!2024-07-01,13,290!2024-06-26,9,270!2024-07-11,18,270!2024-07-12,19,270!2024-06-27,10,270!2024-07-02,14,290!2024-06-29,11,270-->
 
 ### terminology
 
@@ -41,7 +41,7 @@ We assume that {{each view is equally likely to be queried}}. We also assume the
 
 Let $S$ be {{the set of materialized views}}. Define the total cost function {{accepting a set of materialized views $C(S)$ as the total cost of accessing all possible views once, taking the materialized views into consideration}}. Next, define the gain {{$G(A, B)$ accepting 2 sets of materialized views, as $G(A, B) = C(B) - C(A)$, i.e. the total cost reduction of materializing $A$ over materializing $B$}}. Finally, define the benefit {{$B(v, S) = G(S \cup \set{v}, S)$, i.e. the total cost reduction of _additionally_ materializing $v$ over only materializing $S$}}. <!--SR:!2024-07-05,17,290!2024-06-25,8,250!2024-06-24,7,250!2024-06-28,10,270-->
 
-The objective is to {{find the best $S$ that maximizes the gain $G(S, \set{\top})$ over the top view, while satisfying the given constraints}}. The constraints we will consider here are {{the maximum number of materialized views or the max total cost of materialized views}}. The constraints are considered independently. <!--SR:!2024-06-27,10,270!2024-06-23,6,250-->
+The objective is to {{find the best $S$ that maximizes the gain $G(S, \set{\top})$ over the top view, while satisfying the given constraints}}. The constraints we will consider here are {{the maximum number of materialized views or the max total cost of materialized views}}. The constraints are considered independently. <!--SR:!2024-06-27,10,270!2024-07-09,16,250-->
 
 The pseudocode is as follows:
 
@@ -53,7 +53,7 @@ The pseudocode is as follows:
 
 To run the above algorithm manually, we can use {{a benefit table with the column headers being the _n_-th choice and row headers being the possible views to materialize}}. Fill in the benefit table from {{left to right, with advancing one column representing choosing one more view}}. When a view is selected, there is {{no need to further calculate its benefit in subsequent columns}}. Calculate the benefit {{with reference to the graph of relations between a set of views earlier}}. On completing an column, {{the view with the most benefit is selected}}. <!--SR:!2024-06-25,8,250!2024-06-28,11,270!2024-06-27,9,270!2024-06-26,9,250!2024-07-05,17,290-->
 
-In details, when calculating the benefit for a view to be materialized, only consider {{the (direct and indirect) children of the view}}. For each considered child, find {{the least costly (direct or indirect) parent view that is materialized}}. Then, compare {{it to the new view to be materialized}}. If {{the new view is more costly}}, then {{the benefit for that child is 0}}. Otherwise, {{the benefit for that child is the difference in cost}}. Finally, the benefit of materializing that view is {{the sum of all benefits for each individual child}}. <!--SR:!2024-07-03,15,290!2024-06-25,8,250!2024-06-24,7,250!2024-06-23,6,250!2024-07-02,14,290!2024-06-29,12,270!2024-06-28,10,270-->
+In details, when calculating the benefit for a view to be materialized, only consider {{the (direct and indirect) children of the view}}. For each considered child, find {{the least costly (direct or indirect) parent view that is materialized}}. Then, compare {{it to the new view to be materialized}}. If {{the new view is more costly}}, then {{the benefit for that child is 0}}. Otherwise, {{the benefit for that child is the difference in cost}}. Finally, the benefit of materializing that view is {{the sum of all benefits for each individual child}}. <!--SR:!2024-07-03,15,290!2024-06-25,8,250!2024-06-24,7,250!2024-07-15,22,270!2024-07-02,14,290!2024-06-29,12,270!2024-06-28,10,270-->
 
 > [!examples] benefit table example
 >
@@ -70,7 +70,7 @@ In details, when calculating the benefit for a view to be materialized, only con
 >
 > The above benefit table shows that the resulting greedy selection is {{"ps" and _then_ "c"}}. <!--SR:!2024-07-02,14,290!2024-06-27,10,270-->
 
-The resulting selection is {{greedy and may not be the optimal solution}}. When {{the heuristic function is simply the benefit}}, the above problem is {{a [submodular set function maximization](submodular%20set%20function.md#submodular%20set%20function%20maximization) problem}}. In this case, it has been proven that the greedy selection {{has a benefit that is at least $1 - 1 / e \approx 0.632$ times of that of the optimal selection}}.[<sup>[1]</sup>](#^ref-Nemhauser-1978) <!--SR:!2024-07-01,13,270!2024-06-30,13,270!2024-06-28,11,270!2024-06-23,6,250-->
+The resulting selection is {{greedy and may not be the optimal solution}}. When {{the heuristic function is simply the benefit}}, the above problem is {{a [submodular set function maximization](submodular%20set%20function.md#submodular%20set%20function%20maximization) problem}}. In this case, it has been proven that the greedy selection {{has a benefit that is at least $1 - 1 / e \approx 0.632$ times of that of the optimal selection}}.[<sup>[1]</sup>](#^ref-Nemhauser-1978) <!--SR:!2024-07-01,13,270!2024-06-30,13,270!2024-06-28,11,270!2024-07-08,15,250-->
 
 ## references
 

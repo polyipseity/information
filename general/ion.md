@@ -463,7 +463,7 @@ return chain.from_iterable(await gather(
 
 - hydride ion::colorless <!--SR:!2027-07-23,1489,319-->
 - fluoride ion::colorless <!--SR:!2029-11-11,2032,294-->
-- chloride ion::colorless <!--SR:!2024-06-23,612,314-->
+- chloride ion::colorless <!--SR:!2031-10-01,2656,334-->
 - bromide ion::colorless <!--SR:!2027-04-07,1324,279-->
 - iodide ion::colorless <!--SR:!2027-10-28,1427,307-->
 - hydroxide ion::colorless <!--SR:!2029-02-26,1712,327-->

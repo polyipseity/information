@@ -279,7 +279,7 @@ Example quiz questions for preparing exams.
 > 3. A soil is described as "plastic" when  the soil moisture content is higher than the plasticity index
 > 4. Soil with moisture content above the liquid limit "feels" like toothpaste
 >
-> - solution: {{3}} <!--SR:!2024-06-23,20,272-->
+> - solution: {{3}} <!--SR:!2024-09-06,75,292-->
 
 <!-- markdownlint MD028 -->
 

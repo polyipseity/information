@@ -12,7 +12,7 @@ tags:
 RCA can be decomposed into {{4 steps}}: {{problem, trace, label, and graph}}. <!--SR:!2024-06-24,16,290!2024-06-27,18,301-->
 
 1. problem ::: Identify and describe the problem clearly. <!--SR:!2024-07-26,36,270!2024-06-24,16,290-->
-2. trace ::: Establish a timeline from a normal situation to the problem. <!--SR:!2024-06-25,17,290!2024-06-23,15,290-->
+2. trace ::: Establish a timeline from a normal situation to the problem. <!--SR:!2024-06-25,17,290!2024-08-21,59,310-->
 3. label ::: Distinguish between the root causes and other casual factors. <!--SR:!2024-07-22,34,290!2024-08-15,54,310-->
 4. graph ::: Establish a [casual graph](casual%20graph.md) from the root causes to the problem. <!--SR:!2024-07-10,23,270!2024-08-11,51,310-->
 

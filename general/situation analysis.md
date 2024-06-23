@@ -23,7 +23,7 @@ Competitors are {{other entities that target the same customers to fulfill the s
 
 ### customers
 
-Customers are {{potential buyers, defined by their needs which the company intends to fulfill}}. Researching {{[demographics](demographics.md)}} is important. <!--SR:!2024-06-24,16,290!2024-06-23,15,290-->
+Customers are {{potential buyers, defined by their needs which the company intends to fulfill}}. Researching {{[demographics](demographics.md)}} is important. <!--SR:!2024-06-24,16,290!2024-08-21,59,310-->
 
 ### collaborators
 
@@ -31,7 +31,7 @@ Collaborators are {{entities working together with the company to fulfill custom
 
 ### climate
 
-Climate, also known as {{context}}, is {{the operating environment at the time}}. An analysis on the climate is also known as {{[PEST analysis](PEST%20analysis.md)}}. <!--SR:!2024-06-25,17,290!2024-06-23,15,290!2024-08-01,40,290-->
+Climate, also known as {{context}}, is {{the operating environment at the time}}. An analysis on the climate is also known as {{[PEST analysis](PEST%20analysis.md)}}. <!--SR:!2024-06-25,17,290!2024-08-20,58,310!2024-08-01,40,290-->
 
 ## references
 

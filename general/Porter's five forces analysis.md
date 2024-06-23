@@ -33,11 +33,11 @@ Buyers' power is high if {{there are many alternatives, and low if there are few
 
 ### bargaining power of suppliers
 
-Suppliers' power is high if {{there are few suppliers, and low if there are many}}. <!--SR:!2024-06-23,15,290-->
+Suppliers' power is high if {{there are few suppliers, and low if there are many}}. <!--SR:!2024-08-24,62,310-->
 
 ### industry rivalry
 
-Industry rivalry is {{the extent of competition among existing firms}}. <!--SR:!2024-06-23,15,290-->
+Industry rivalry is {{the extent of competition among existing firms}}. <!--SR:!2024-08-26,64,310-->
 
 ## usage
 
