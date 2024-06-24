@@ -1,0 +1,10 @@
+3
+A 101
+B 100
+Z 100
+1 6
+Z..A.B
+Z shoots east
+Z shoots east
+Z shoots east
+!

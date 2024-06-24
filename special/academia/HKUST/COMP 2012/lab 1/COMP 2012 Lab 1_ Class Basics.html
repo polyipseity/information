@@ -1,0 +1,325 @@
+<!DOCTYPE html> <html lang=en style><!--
+ Page saved with SingleFile 
+ url: https://course.cse.ust.hk/comp2012/labs/lab1/index.html 
+ saved date: Sun Feb 18 2024 10:51:26 GMT+0800 (香港標準時間)
+--><meta charset=utf-8>
+<meta name=viewport content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name=description content>
+<meta name=author content>
+<title>COMP 2012 Lab 1: Class Basics</title>
+<style>/*!
+ * Bootstrap v4.1.1 (https://getbootstrap.com/)
+ * Copyright 2011-2018 The Bootstrap Authors
+ * Copyright 2011-2018 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */:root{--blue:#007bff;--indigo:#6610f2;--purple:#6f42c1;--pink:#e83e8c;--red:#dc3545;--orange:#fd7e14;--yellow:#ffc107;--green:#28a745;--teal:#20c997;--cyan:#17a2b8;--white:#fff;--gray:#6c757d;--gray-dark:#343a40;--primary:#007bff;--secondary:#6c757d;--success:#28a745;--info:#17a2b8;--warning:#ffc107;--danger:#dc3545;--light:#f8f9fa;--dark:#343a40;--breakpoint-xs:0;--breakpoint-sm:576px;--breakpoint-md:768px;--breakpoint-lg:992px;--breakpoint-xl:1200px;--font-family-sans-serif:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";--font-family-monospace:SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace}*,::after,::before{box-sizing:border-box}html{font-family:sans-serif;line-height:1.15;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;-ms-overflow-style:scrollbar;-webkit-tap-highlight-color:transparent}@-ms-viewport{width:device-width}footer{display:block}body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";font-size:1rem;font-weight:400;line-height:1.5;color:#212529;text-align:left;background-color:#fff}h3,h4,h5{margin-top:0}p{margin-top:0;margin-bottom:1rem}dl,ul{margin-top:0;margin-bottom:1rem}dt{font-weight:700}dd{margin-bottom:.5rem;margin-left:0}b{font-weight:bolder}a{color:#007bff;text-decoration:none;background-color:transparent;-webkit-text-decoration-skip:objects}a:hover{color:#0056b3;text-decoration:underline}a:not([href]):not([tabindex]){color:inherit;text-decoration:none}a:not([href]):not([tabindex]):focus,a:not([href]):not([tabindex]):hover{color:inherit;text-decoration:none}a:not([href]):not([tabindex]):focus{outline:0}code{font-family:SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace}pre{margin-top:0;-ms-overflow-style:scrollbar}img{vertical-align:middle;border-style:none}::-webkit-file-upload-button{font:inherit;-webkit-appearance:button}h3,h4,h5{margin-bottom:.5rem;font-family:inherit;font-weight:500;line-height:1.2;color:inherit}h3{font-size:1.75rem}h4{font-size:1.5rem}h5{font-size:1.25rem}small{font-size:80%;font-weight:400}.list-unstyled{padding-left:0;list-style:none}code{font-size:87.5%;color:#e83e8c;word-break:break-word}.container{width:100%;padding-right:15px;padding-left:15px;margin-right:auto;margin-left:auto}@media(min-width:576px){.container{max-width:540px}}@media(min-width:768px){.container{max-width:720px}}@media(min-width:992px){.container{max-width:960px}}@media(min-width:1200px){.container{max-width:1140px}}.row{display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;margin-right:-15px;margin-left:-15px}.col-lg-12,.col-md-3,.col-md-9{position:relative;width:100%;min-height:1px;padding-right:15px;padding-left:15px}@media(min-width:576px){}@media(min-width:768px){.col-md-3{-ms-flex:0 0 25%;flex:0 0 25%;max-width:25%}.col-md-9{-ms-flex:0 0 75%;flex:0 0 75%;max-width:75%}}@media(min-width:992px){.col-lg-12{-ms-flex:0 0 100%;flex:0 0 100%;max-width:100%}}@media(min-width:1200px){}@media(max-width:575.98px){}@media(max-width:767.98px){}@media(max-width:991.98px){}@media(max-width:1199.98px){}@media screen and (prefers-reduced-motion:reduce){}@media(min-width:576px){}@media screen and (prefers-reduced-motion:reduce){}@media screen and (prefers-reduced-motion:reduce){}@media screen and (prefers-reduced-motion:reduce){}@media(max-width:575.98px){}@media(min-width:576px){}@media(max-width:767.98px){}@media(min-width:768px){}@media(max-width:991.98px){}@media(min-width:992px){}@media(max-width:1199.98px){}@media(min-width:1200px){}.card{position:relative;display:-ms-flexbox;display:flex;-ms-flex-direction:column;flex-direction:column;min-width:0;word-wrap:break-word;background-color:#fff;background-clip:border-box;border:1px solid rgba(0,0,0,.125);border-radius:.25rem}.card-body{-ms-flex:1 1 auto;flex:1 1 auto;padding:1.25rem}.card-title{margin-bottom:.75rem}.card-text:last-child{margin-bottom:0}.card-header{padding:.75rem 1.25rem;margin-bottom:0;background-color:rgba(0,0,0,.03);border-bottom:1px solid rgba(0,0,0,.125)}.card-header:first-child{border-radius:calc(.25rem - 1px) calc(.25rem - 1px)0 0}@media(min-width:576px){}@media(min-width:576px){}@media(min-width:576px){}@media(min-width:576px){}@-webkit-keyframes progress-bar-stripes{from{background-position:1rem 0}to{background-position:0 0}}@keyframes progress-bar-stripes{from{background-position:1rem 0}to{background-position:0 0}}@media screen and (prefers-reduced-motion:reduce){}@media screen and (prefers-reduced-motion:reduce){}@media(min-width:576px){}@media(min-width:992px){}@media screen and (prefers-reduced-motion:reduce){}@supports((-webkit-transform-style:preserve-3d) or (transform-style:preserve-3d)){.carousel-item-next.carousel-item-left,.carousel-item-prev.carousel-item-right{-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}}@supports((-webkit-transform-style:preserve-3d) or (transform-style:preserve-3d)){.active.carousel-item-right,.carousel-item-next{-webkit-transform:translate3d(100%,0,0);transform:translate3d(100%,0,0)}}@supports((-webkit-transform-style:preserve-3d) or (transform-style:preserve-3d)){.active.carousel-item-left,.carousel-item-prev{-webkit-transform:translate3d(-100%,0,0);transform:translate3d(-100%,0,0)}}@supports((-webkit-transform-style:preserve-3d) or (transform-style:preserve-3d)){.carousel-fade .active.carousel-item-left,.carousel-fade .active.carousel-item-prev,.carousel-fade .carousel-item-next,.carousel-fade .carousel-item-prev,.carousel-fade .carousel-item.active{-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}}.bg-dark{background-color:#343a40 !important}@media(min-width:576px){}@media(min-width:768px){}@media(min-width:992px){}@media(min-width:1200px){}@media print{}@media(min-width:576px){}@media(min-width:768px){}@media(min-width:992px){}@media(min-width:1200px){}@media(min-width:576px){}@media(min-width:768px){}@media(min-width:992px){}@media(min-width:1200px){}@supports((position:-webkit-sticky) or (position:sticky)){.sticky-top{position:-webkit-sticky;position:sticky;top:0;z-index:1020}}.m-0{margin:0 !important}.mb-0{margin-bottom:0 !important}.my-4{margin-top:1.5rem !important}.mb-4,.my-4{margin-bottom:1.5rem !important}.py-5{padding-top:3rem !important}.py-5{padding-bottom:3rem !important}@media(min-width:576px){}@media(min-width:768px){}@media(min-width:992px){}@media(min-width:1200px){}.text-center{text-align:center !important}@media(min-width:576px){}@media(min-width:768px){}@media(min-width:992px){}@media(min-width:1200px){}.text-white{color:#fff !important}@media print{*,::after,::before{text-shadow:none !important;box-shadow:none !important}a:not(.btn){text-decoration:underline}pre{white-space:pre-wrap !important}pre{border:1px solid #adb5bd;page-break-inside:avoid}img{page-break-inside:avoid}h3,p{orphans:3;widows:3}h3{page-break-after:avoid}@page{size:a3}body{min-width:992px !important}.container{min-width:992px !important}}</style>
+<style>/*!
+ * Start Bootstrap - Blog Home (https://startbootstrap.com/template-overviews/blog-home)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-blog-home/blob/master/LICENSE)
+ */body{padding-top:54px}@media(min-width:992px){body{padding-top:56px}}</style>
+<style>code[class*="language-"],pre[class*="language-"]{color:black;background:0;text-shadow:0 1px white;font-family:Consolas,Monaco,"Andale Mono","Ubuntu Mono",monospace;font-size:1em;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;line-height:1.5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-hyphens:none;-moz-hyphens:none;-ms-hyphens:none;hyphens:none}pre[class*="language-"]::selection,pre[class*="language-"] ::selection,code[class*="language-"]::selection,code[class*="language-"] ::selection{text-shadow:none;background:#b3d4fc}@media print{code[class*="language-"],pre[class*="language-"]{text-shadow:none}}pre[class*="language-"]{padding:1em;margin:.5em 0;overflow:auto}:not(pre)>code[class*="language-"],pre[class*="language-"]{background:#f5f2f0}:not(pre)>code[class*="language-"]{padding:.1em;border-radius:.3em;white-space:normal}.token.comment{color:slategray}.token.punctuation{color:#999}.token.number{color:#905}.token.string{color:#690}.token.operator{color:#9a6e3a;background:hsla(0,0%,100%,.5)}.token.keyword{color:#07a}.token.function,.token.class-name{color:#dd4a68}</style>
+<style>pre{background:#f4f4f4 !important;border:1px solid #ddd !important;border-left:3px solid #f36d33 !important;color:#666 !important;page-break-inside:avoid !important;font-family:monospace !important;font-size:14px !important;line-height:1.6 !important;margin-bottom:1.6em !important;max-width:100% !important;overflow:auto !important;padding:1em 1.5em !important;display:block !important;word-wrap:break-word !important}</style>
+<style>@media screen{}@media print,projection{}</style>
+<meta name=referrer content=no-referrer><link type=image/x-icon rel="shortcut icon" href=data:image/x-icon;base64, data-sf-original-href=https://course.cse.ust.hk/favicon.ico><link rel=canonical href=https://course.cse.ust.hk/comp2012/labs/lab1/index.html><meta http-equiv=content-security-policy content="default-src 'none'; font-src 'self' data:; img-src 'self' data:; style-src 'unsafe-inline'; media-src 'self' data:; script-src 'unsafe-inline' data:; object-src 'self' data:; frame-src 'self' data:;"><style>img[src="data:,"],source[src="data:,"]{display:none!important}</style></head>
+<body>
+ 
+ 
+ <div class=container>
+ <div class=row>
+ 
+ <div class=col-md-9>
+ <h4 class=my-4>
+ <span style=color:darkblue>COMP 2012</span>
+ <small>Object-Oriented Programming and Data Structures</small>
+ </h4>
+ 
+ <h3 class=my-4>
+ Lab 1
+ <span style=color:#660066>Class Basics</span>
+ </h3>
+ <div class=mb-4>
+ <img src="data:image/png;base64,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" width=100% data-sf-original-src=https://course.cse.ust.hk/comp2012/labs/lab1/img/gradebook.png>
+ 
+ <p></p>
+ </div>
+ 
+ 
+ <div class="card mb-4">
+ <div class=card-body id=overview>
+<h3 class=card-title>Overview</h3>
+<p>
+ In this lab, we will simulate a gradebook storing a list of students in a class.
+ The gradebook should store a student's full information including name, student ID,
+ department/major, year of study, and of course the student's scores. This is accomplished
+ by implementing a few classes and structs with different attributes and relationships.
+</p>
+<p>
+You can download the source files in a zip package <a href=https://course.cse.ust.hk/comp2012/labs/lab1/lab1_skeleton.zip>HERE</a>.</p>
+<p>
+This is the sample output of the program (<code>lab1.exe</code>):</p>
+<pre>Viewing all students sorted by name: 
+
+Name            SID             Dep     Yr      Total
+======================================================
+Alice           20123456        CSE     2       82.2
+Bob             20234567        ECE     2       77.5
+Charles         20345678        MATH    3       77.4
+Danny           20456789        CSE     3       57.7
+Evan            20567890        PHYS    1       71.7
+Francis         20678901        CSE     2       93.4
+Gerald          20789012        MATH    4       65.2
+Harry           20890123        CSE     2       51.5
+
+Viewing all CSE students sorted by name:
+
+Name            SID             Dep     Yr      Total
+======================================================
+Alice           20123456        CSE     2       82.2
+Danny           20456789        CSE     3       57.7
+Francis         20678901        CSE     2       93.4
+Harry           20890123        CSE     2       51.5
+
+Viewing all year 2 students sorted by name:
+
+Name            SID             Dep     Yr      Total
+======================================================
+Alice           20123456        CSE     2       82.2
+Bob             20234567        ECE     2       77.5
+Francis         20678901        CSE     2       93.4
+Harry           20890123        CSE     2       51.5
+
+Viewing all students sorted by grade:
+
+Name            SID             Dep     Yr      Total
+======================================================
+Francis         20678901        CSE     2       93.4
+Alice           20123456        CSE     2       82.2
+Bob             20234567        ECE     2       77.5
+Charles         20345678        MATH    3       77.4
+Evan            20567890        PHYS    1       71.7
+Gerald          20789012        MATH    4       65.2
+Danny           20456789        CSE     3       57.7
+Harry           20890123        CSE     2       51.5
+
+Viewing all year 2 CSE students sorted by grade:
+
+Name            SID             Dep     Yr      Total
+======================================================
+Francis         20678901        CSE     2       93.4
+Alice           20123456        CSE     2       82.2
+Harry           20890123        CSE     2       51.5
+</pre>
+<p>
+ The following struct and class are given in <code>student.h</code> and the member functions will need to be implemented in <code>student.cpp</code>:
+</p>
+<pre class=language-cpp><code class=language-cpp><span class="token keyword">struct</span> <span class="token class-name">CourseGrade</span> <span class="token punctuation">{</span>
+  <span class="token keyword">double</span> labs<span class="token punctuation">;</span>
+  <span class="token keyword">double</span> assignments<span class="token punctuation">;</span>
+  <span class="token keyword">double</span> midtermExam<span class="token punctuation">;</span>
+  <span class="token keyword">double</span> finalExam<span class="token punctuation">;</span>
+
+  <span class="token keyword">double</span> <span class="token function">getTotalPercentage</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token keyword">const</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+<span class="token keyword">class</span> <span class="token class-name">Student</span> <span class="token punctuation">{</span>
+  <span class="token keyword">private</span><span class="token operator">:</span>
+      string name<span class="token punctuation">;</span>
+      <span class="token keyword">int</span> SID<span class="token punctuation">;</span>
+      string department<span class="token punctuation">;</span>
+      <span class="token keyword">int</span> year<span class="token punctuation">;</span>
+      CourseGrade grade<span class="token punctuation">;</span>
+
+  <span class="token keyword">public</span><span class="token operator">:</span>
+      <span class="token function">Student</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+      <span class="token function">Student</span><span class="token punctuation">(</span><span class="token keyword">const</span> string<span class="token operator">&amp;</span> name<span class="token punctuation">,</span> <span class="token keyword">int</span> SID<span class="token punctuation">,</span> <span class="token keyword">const</span> string<span class="token operator">&amp;</span> department<span class="token punctuation">,</span> <span class="token keyword">int</span> year<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+      <span class="token keyword">void</span> <span class="token function">setGrade</span><span class="token punctuation">(</span><span class="token keyword">const</span> CourseGrade<span class="token operator">&amp;</span> grade<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+      string <span class="token function">getName</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token keyword">const</span><span class="token punctuation">;</span> 
+      <span class="token keyword">int</span> <span class="token function">getSID</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token keyword">const</span><span class="token punctuation">;</span>
+      string <span class="token function">getDepartment</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token keyword">const</span><span class="token punctuation">;</span>
+      <span class="token keyword">int</span> <span class="token function">getYear</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token keyword">const</span><span class="token punctuation">;</span>
+      <span class="token keyword">double</span> <span class="token function">getTotalPercentage</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token keyword">const</span><span class="token punctuation">;</span>
+
+      <span class="token keyword">void</span> <span class="token function">display</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token keyword">const</span> <span class="token punctuation">{</span>
+        <span class="token comment">// given</span>
+      <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+</code></pre>
+<p>
+ The struct <code>CourseGrade</code> contains the grade composition of a student. You will need to implement
+ a member function to calculate the total course grade using the weights defined as constants. Note that
+ in C++, structs are essentially similar to classes (except the default visibility of attributes and methods are public).
+</p>
+<p>
+ The class <code>Student</code> represents a student with name, student ID, department, year of study and grades.
+ You need to finish the implementation of the non-default constructor and the accessor/mutator functions.
+</p>
+<p>
+ The following class is defined in <code>studentlist.h</code> and the member functions will need to be implemented in <code>studentlist.cpp</code>:
+</p>
+<pre class=language-cpp><code class=language-cpp><span class="token keyword">const</span> <span class="token keyword">int</span> CLASS_CAPACITY <span class="token operator">=</span> <span class="token number">100</span><span class="token punctuation">;</span>
+<span class="token keyword">const</span> string ALL_DEPARTMENTS <span class="token operator">=</span> <span class="token string">"ALL"</span><span class="token punctuation">;</span>
+<span class="token keyword">const</span> <span class="token keyword">int</span> ALL_YEARS <span class="token operator">=</span> <span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">;</span>
+
+<span class="token keyword">class</span> <span class="token class-name">StudentList</span> <span class="token punctuation">{</span>
+    <span class="token keyword">private</span><span class="token operator">:</span>
+        Student students<span class="token punctuation">[</span>CLASS_CAPACITY<span class="token punctuation">]</span><span class="token punctuation">;</span>
+        <span class="token keyword">int</span> numStudents <span class="token punctuation">{</span><span class="token number">0</span><span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+    <span class="token keyword">public</span><span class="token operator">:</span>
+        <span class="token function">StudentList</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=</span> <span class="token keyword">default</span><span class="token punctuation">;</span>
+
+        <span class="token keyword">void</span> <span class="token function">addStudent</span><span class="token punctuation">(</span><span class="token keyword">const</span> string<span class="token operator">&amp;</span> name<span class="token punctuation">,</span> <span class="token keyword">int</span> SID<span class="token punctuation">,</span> <span class="token keyword">const</span> string<span class="token operator">&amp;</span> department<span class="token punctuation">,</span> <span class="token keyword">int</span> year<span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token keyword">void</span> <span class="token function">setStudentGrade</span><span class="token punctuation">(</span><span class="token keyword">int</span> SID<span class="token punctuation">,</span> <span class="token keyword">const</span> CourseGrade<span class="token operator">&amp;</span> grade<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+        <span class="token keyword">void</span> <span class="token function">displaySortedName</span><span class="token punctuation">(</span><span class="token keyword">const</span> string<span class="token operator">&amp;</span> depFilter <span class="token operator">=</span> ALL_DEPARTMENTS<span class="token punctuation">,</span> <span class="token keyword">int</span> yearFilter <span class="token operator">=</span> ALL_YEARS<span class="token punctuation">)</span> <span class="token keyword">const</span><span class="token punctuation">;</span>
+        <span class="token keyword">void</span> <span class="token function">displaySortedGrade</span><span class="token punctuation">(</span><span class="token keyword">const</span> string<span class="token operator">&amp;</span> depFilter <span class="token operator">=</span> ALL_DEPARTMENTS<span class="token punctuation">,</span> <span class="token keyword">int</span> yearFilter <span class="token operator">=</span> ALL_YEARS<span class="token punctuation">)</span> <span class="token keyword">const</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+</code></pre>
+<p>
+ The class <code>StudentList</code> contains an array of Students. It supports adding a student, setting the score
+ of a student and display the list of students in sorted order, with possible filters for students of a specific department
+ or year of study. For simplicity, you can assume no 2 students with the same ID or name will be added to the list.
+</p>
+</div></div>
+<div class="card mb-4">
+ <div class=card-body id=labtask>
+<h3 class=card-title>Lab Tasks</h3>
+<p class=card-text>
+<p>
+Your task is to implement the functions in <code>student.cpp</code> (<b>TODO 1</b> ~ <b>TODO 4</b>) and <code>studentlist.cpp</code> (<b>TODO 5</b> ~ <b>TODO 7</b>).
+<dl>
+<dt>TODO 1: CourseGrade::getTotalPercentage()</dt>
+<dd>
+ Calculate the total course grade using the struct's data members along with the constants defined in <code>student.h</code> representing the grading assignment's
+ course percentage. For example, if a student scores 0.6 in labs, 0.7 in assignments, 0.8 in midterm and 0.9 in final, the total percentage is:
+ <p>
+ </p><center>0.6 * <code>LAB_PERCENTAGE</code> + 0.7 * <code>ASGN_PERCENTAGE</code> + 0.8 * <code>MIDTERM_PERCENTAGE</code> + 0.9 * <code>FINAL_PERCENTAGE</code> = 79.6</center>
+ <p></p>
+</dd>
+<dt>TODO 2: Student non-default constructor</dt>
+<dd>Initialize the data members with the specified parameters, while <code>grade</code> is initialized to 0 similar to default constructor.</dd>
+<dt>TODO 3: Student mutator function</dt>
+<dd>Implement <code>Student::setGrade()</code> to set the data member accordingly.</dd>
+<dt>TODO 4: Student accessor functions</dt>
+<dd>Implement the 5 accessor functions to return the data member accordingly.</dd>
+<dt>TODO 5: StudentList::addStudent(string name, int SID, string department, int year)</dt>
+<dd>Set the Student in the array at the index indicated by <code>numStudents</code> to the provided parameters,
+and increment the <code>numStudents</code> counter. If the array is already full, the function should do nothing.
+</dd>
+<dt>TODO 6: void StudentList::setStudentGrade(int SID, const CourseGrade&amp; grade)</dt>
+<dd>Find the student whose SID is the same as the provided SID,
+and set that student's score to the provided parameter.</dd>
+<dt>TODO 7: StudentList::displaySortedGrade()</dt>
+<dd>Display the student list in descending grade order.
+ Most of the function has been done for you, which is the same as the function sorting students by name.
+ The function creates a temporary array copying the original array, then sorts it using swap sort.
+ You only need to change the swap condition such that the order is descending total course grade.
+ <span style=color:red>Note: For simplicity, you may assume no 2 students have the same total grade.</span>
+</dd>
+</dl>
+<p></p>
+<h4>Compile and Test</h4>
+<p>
+After you have finished all tasks (<b>TODO 1</b> ~ <b>TODO 7</b>), you can compile the files by typing <code>g++ *.cpp -Wall -std=c++11 -o lab1.exe</code>
+in the terminal to produce the executable <code>lab1.exe</code>.
+Your program must be able to re-generate <b>exactly the same output as the sample output</b> 
+that has been shown in the <a href=#overview>overview section</a>. 
+You should read the <code>main.cpp</code> file carefully to understand how the sample output is generated.</p>
+<div id=submission>
+<h4>Submission Deadline and Guidelines:</h4>
+The lab assignment is due <span style=color:red>10 minutes after the end of your lab session</span>.<br>
+We will use an online grading system, <a href=http://zinc.cse.ust.hk/>ZINC</a>, to grade your lab work. 
+Please upload the following files <span style=color:red>as a .zip file</span> to ZINC:
+<pre>- student.cpp
+- studentlist.cpp
+</pre>
+Please remember to zip the files <b>directly</b>, NOT zip a folder with the required files. After submitting, please review the ZINC report
+to make sure your submission is parsed correctly.
+You can make multiple submissions to <a href=http://zinc.cse.ust.hk/>ZINC</a> 
+before the deadline. Only the last submission will be graded.
+<p><p></p>
+</div>
+</div></div>
+ 
+ 
+</div>
+ 
+ <div class=col-md-3>
+ <div class=sticky-top>
+ 
+ <div class="card my-12">
+ <h5 class=card-header>Menu</h5>
+ <div class=card-body>
+ <div class=row>
+ <div class=col-lg-12>
+ <ul class=mb-0 type=circle style=padding-left:20px>
+ <li>
+ <a href=#overview>Overview</a>
+ </li>
+ <li>
+ <a href=https://course.cse.ust.hk/comp2012/labs/lab1/lab1_skeleton.zip>Source Files</a>
+ </li>
+ <li>
+ <a href=#labtask>Lab Tasks</a>
+ </li>
+ <li>
+ <a href=#submission>Submission Guidelines</a>
+ </li>
+ </ul>
+ </div>
+ </div>
+ </div>
+ </div>
+ 
+ <div class="card my-4">
+ <h5 class=card-header>Page maintained by</h5>
+ <div class=card-body>
+ <div class=row>
+ <div class=col-lg-12>
+ <ul class="list-unstyled mb-0">
+ <li>
+ <a href=mailto:dzung@ust.hk>DINH Anh Dung</a>
+ </li>
+ <li>Last Modified:
+ 02/14/2024 21:45:31
+ </li>
+ </ul>
+ </div>
+ </div>
+ </div>
+ </div>
+ 
+ <div class="card my-4">
+ <h5 class=card-header>Homepage</h5>
+ <div class=card-body>
+ <div class=row>
+ <div class=col-lg-12>
+ <ul class="list-unstyled mb-0">
+ <li>
+ <a href=http://course.cse.ust.hk/comp2012>Course Homepage</a>
+ </li>
+ </ul>
+ </div>
+ </div>
+ </div>
+ </div>
+ </div>
+ </div>
+ </div>
+ 
+ </div>
+ 
+ 
+ <footer class="py-5 bg-dark">
+ <div class=container>
+ <p class="m-0 text-center text-white">Maintained by COMP 2012 Teaching Team © 2024 HKUST Computer Science
+ and Engineering</p>
+ </div>
+ 
+ </footer>
+ 
+ 
+ 

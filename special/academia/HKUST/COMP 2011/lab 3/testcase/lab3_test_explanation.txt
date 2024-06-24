@@ -1,0 +1,20 @@
+Lab3 has 6 test cases in 3 pairs:
+
+Test 1: Encrypt "COMP" with key 11
+Explanation: 
+CO -> 66 + 11 = 77 -> CZ
+MP -> 327 + 11 = 338 -> NA
+
+Test 2: Encrypt "AAZZ" with key 0
+Explanation:
+AA -> 0 + 0 = 0 -> AA
+ZZ -> 675 + 0 = 675 -> ZZ
+This case tests the boundary values.  
+
+Test 3: Encrypt "YEAH" with key 600
+Explanation:
+YE -> (628 + 600) % 676 = 552 -> VG
+AH -> 7 + 600 = 607 -> XJ
+This case tests whether the students master the modulo operation.
+
+Test 4 - 6 are corresponding cases for decryption.

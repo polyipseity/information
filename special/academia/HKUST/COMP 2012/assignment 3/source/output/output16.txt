@@ -1,0 +1,6 @@
+Displaying linked list nodes manually: 
+4	Bird (Green-Cheeked Conure)   	19	Healthy        	1 (880  )	                         
+3	Dog (Labrador Retriever)      	9	Healthy        	0 (0    )	                         
+2	Cat (British Shorthair)       	29	Healthy        	3 (3735 )	                         
+1	Cat (Persian)                 	19	Fair           	0 (0    )	                         
+0	Bird (Budgerigar)             	14	Healthy        	0 (0    )	                         

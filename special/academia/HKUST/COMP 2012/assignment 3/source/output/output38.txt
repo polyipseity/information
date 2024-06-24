@@ -1,0 +1,7 @@
+Remove ID 3 is successful: true
+Remove ID 10 is successful: true
+Remove ID 17 is successful: true
+Remove ID 24 is successful: true
+Remove ID 31 is successful: true
+Remove ID 38 is successful: true
+Remove ID 45 is successful: true

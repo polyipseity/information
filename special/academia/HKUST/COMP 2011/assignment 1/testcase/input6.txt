@@ -1,0 +1,19 @@
+5
+A 1000
+B 100
+C 99
+D 101
+E 100
+6 6
+A...BC
+......
+......
+......
+D.....
+E.....
+A shoots east
+A shoots east
+A shoots south
+A shoots south
+A shoots south
+!

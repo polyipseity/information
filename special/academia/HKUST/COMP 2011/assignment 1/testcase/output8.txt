@@ -1,0 +1,25 @@
+The initial game information:
+Robot A HP=101
+Robot B HP=100
+Robot Z HP=100
+Z . . A . B 
+Success: Robot Z shoots A
+Robot A health point is reduced from 101 to 1
+== Health points of alive robots ==
+Robot A HP=1
+Robot B HP=100
+Robot Z HP=100
+Success: Robot Z shoots A
+Robot A health point is reduced from 1 to 0
+Robot A is being destroyed by Z
+Z . . . . B 
+== Health points of alive robots ==
+Robot B HP=100
+Robot Z HP=100
+Success: Robot Z shoots B
+Robot B health point is reduced from 100 to 0
+Robot B is being destroyed by Z
+Z . . . . . 
+== Health points of alive robots ==
+Robot Z HP=100
+=== Game Ended ===

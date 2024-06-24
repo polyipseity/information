@@ -1,0 +1,67 @@
+The initial game information:
+Robot B HP=99
+Robot C HP=500
+Robot Z HP=1000
+Z . . . . . . . . . 
+. . . . . . . . . . 
+. . . . . . . B . . 
+. . C . . . . . . . 
+. . . . . . . . . . 
+Success: Robot Z moves along the direction east by 2 step(s)
+. . Z . . . . . . . 
+. . . . . . . . . . 
+. . . . . . . B . . 
+. . C . . . . . . . 
+. . . . . . . . . . 
+Fail: If robot Z moves along the direction north by 1 step(s), it will move outside a boundary, so the position remains unchanged
+. . Z . . . . . . . 
+. . . . . . . . . . 
+. . . . . . . B . . 
+. . C . . . . . . . 
+. . . . . . . . . . 
+Fail: If robot Z moves along the direction south by 4 step(s), it will hit another robot along the path, so the position remains unchanged
+. . Z . . . . . . . 
+. . . . . . . . . . 
+. . . . . . . B . . 
+. . C . . . . . . . 
+. . . . . . . . . . 
+Fail: If robot Z moves along the direction south by 3 step(s), it will hit another robot along the path, so the position remains unchanged
+. . Z . . . . . . . 
+. . . . . . . . . . 
+. . . . . . . B . . 
+. . C . . . . . . . 
+. . . . . . . . . . 
+Success: Robot Z moves along the direction south by 2 step(s)
+. . . . . . . . . . 
+. . . . . . . . . . 
+. . Z . . . . B . . 
+. . C . . . . . . . 
+. . . . . . . . . . 
+Success: Robot Z hits C
+Robot C health point is reduced from 500 to 300
+== Health points of alive robots ==
+Robot B HP=99
+Robot C HP=300
+Robot Z HP=1000
+Fail: Robot Z cannot hit any target
+== Health points of alive robots ==
+Robot B HP=99
+Robot C HP=300
+Robot Z HP=1000
+Fail: Robot Z cannot shoot any target
+== Health points of alive robots ==
+Robot B HP=99
+Robot C HP=300
+Robot Z HP=1000
+Success: Robot Z shoots B
+Robot B health point is reduced from 99 to 0
+Robot B is being destroyed by Z
+. . . . . . . . . . 
+. . . . . . . . . . 
+. . Z . . . . . . . 
+. . C . . . . . . . 
+. . . . . . . . . . 
+== Health points of alive robots ==
+Robot C HP=300
+Robot Z HP=1000
+=== Game Ended ===

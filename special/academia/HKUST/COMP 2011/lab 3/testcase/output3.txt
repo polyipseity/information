@@ -1,0 +1,3 @@
+Welcome to Lab3: Encryption & Decryption!
+Enter the input file name: The encrypted numbers are: 552 and 607
+The encrypted text is: VGXJ

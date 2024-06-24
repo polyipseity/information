@@ -1,0 +1,17 @@
+1
+A 100
+5 10
+A.........
+..........
+..........
+..........
+..........
+A moves east 1
+A moves south 1
+A moves west 1
+A moves north 1
+A moves east 9
+A moves south 4
+A moves west 9
+A moves north 4
+!
