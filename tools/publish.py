@@ -90,7 +90,7 @@ async def main(args: Arguments) -> None:
 
     info(f"Paths: {paths}")
 
-    with TemporaryDirectory(delete=False) as tmp_repo:
+    with TemporaryDirectory() as tmp_repo:
         tmp_repo = Path(tmp_repo)
         info(f"Repository: {tmp_repo}")
 
@@ -155,22 +155,36 @@ commit.message += b"\n" + _MESSAGE_PROPERTY_KEY + b": " + commit.original_id
             "--root",
         )
 
-        remote_name = tmp_repo.name.replace(" ", "_")
-        await _exec(
-            git_exe, "--git-dir", pub_git_dir, "remote", "add", remote_name, tmp_repo
-        )
-        await _exec(git_exe, "--git-dir", pub_git_dir, "remote", "update", remote_name)
+        async def get_branch_name():
+            return (await _exec(git_exe, "-C", tmp_repo, "branch", "--show-current"))[
+                0
+            ].strip()
 
-        branch_name = (
-            await _exec(git_exe, "-C", tmp_repo, "branch", "--show-current")
-        )[0].strip()
-        info(
-            f"""Merge the commit history from the temporary repository:
-$ git merge --allow-unrelated-histories --gpg-sign refs/remotes/{remote_name}/{branch_name}
-Resolve any merge conflicts.
-Finally, cleanup the temporary repository:
-$ git remote remove {remote_name} && rm -rf {tmp_repo}"""
-        )
+        async def add_remote():
+            remote_name = tmp_repo.name.replace(" ", "_")
+            await _exec(
+                git_exe,
+                "--git-dir",
+                pub_git_dir,
+                "remote",
+                "add",
+                remote_name,
+                tmp_repo,
+            )
+            await _exec(
+                git_exe, "--git-dir", pub_git_dir, "remote", "update", remote_name
+            )
+            return remote_name
+
+        branch_name, remote_name = await gather(get_branch_name(), add_remote())
+
+    info(
+        f"""Merge commits from the temporary remote:
+$ git merge --allow-unrelated-histories --gpg-sign {quote(f'refs/remotes/{remote_name}/{branch_name}')}
+Resolve merge conflict if any.
+Cleanup the temporary remote:
+$ git remote remove {quote(remote_name)}"""
+    )
 
 
 def parser(parent: Callable[..., ArgumentParser] | None = None):
