@@ -161,9 +161,12 @@ commit.message += b"\n" + _MESSAGE_PROPERTY_KEY + b": " + commit.original_id
         )
         await _exec(git_exe, "--git-dir", pub_git_dir, "remote", "update", remote_name)
 
+        branch_name = (
+            await _exec(git_exe, "-C", tmp_repo, "branch", "--show-current")
+        )[0].strip()
         info(
             f"""Merge the commit history from the temporary repository:
-$ git merge --allow-unrelated-histories --gpg-sign refs/remotes/{remote_name}/{(await _exec(git_exe, "-C", tmp_repo, "branch", "--show-current"))[0]}
+$ git merge --allow-unrelated-histories --gpg-sign refs/remotes/{remote_name}/{branch_name}
 Resolve any merge conflicts.
 Finally, cleanup the temporary repository:
 $ git remote remove {remote_name} && rm -rf {tmp_repo}"""
