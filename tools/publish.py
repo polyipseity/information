@@ -73,10 +73,13 @@ async def _exec(*args: Any, **kwargs: Any) -> tuple[str, str]:
 
 async def main(args: Arguments) -> None:
     async def read_paths():
-        return set(
-            line.removeprefix("/")
+        ret = set(
+            line.replace("\\", "/")
             for line in (await args.paths_file.read_text()).splitlines()
+            if not line.startswith("#")
         )
+        ret.discard("")
+        return ret
 
     pri_git_dir, pub_git_dir, git_exe, paths = await gather(
         Path(_PRIVATE_GIT_DIRECTORY).resolve(strict=True),
