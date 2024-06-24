@@ -1,0 +1,1 @@
+Please input the width of the rectangle: Please input the height of the rectangle: Error: the width and height must be positive!

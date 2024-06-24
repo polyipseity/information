@@ -1,0 +1,53 @@
+This is a real-time updated game leaderboard, players ranked in descending order by score.
+Some new players join, some players update score.
+Game Ranking will show after each operation.
+Game over when input 0 0.
+================ Game Leaderboard ==============
+Rank  Name  Score
+1 a         1963.58    
+================ Game Leaderboard ==============
+Rank  Name  Score
+1 a         4857.33    
+================ Game Leaderboard ==============
+Rank  Name  Score
+1 a         2007.09    
+================ Game Leaderboard ==============
+Rank  Name  Score
+1 zje       4135.77    
+2 a         2007.09    
+================ Game Leaderboard ==============
+Rank  Name  Score
+1 zje       4135.77    
+2 a         2007.09    
+3 pbrbesep  1589.85    
+================ Game Leaderboard ==============
+Rank  Name  Score
+1 ygwvb     4979.8     
+2 zje       4135.77    
+3 a         2007.09    
+4 pbrbesep  1589.85    
+================ Game Leaderboard ==============
+Rank  Name  Score
+1 ygwvb     4979.8     
+2 pbrbesep  4847.72    
+3 zje       4135.77    
+4 a         2007.09    
+================ Game Leaderboard ==============
+Rank  Name  Score
+1 pbrbesep  8832.49    
+2 ygwvb     4979.8     
+3 zje       4135.77    
+4 a         2007.09    
+================ Game Leaderboard ==============
+Rank  Name  Score
+1 ygwvb     4979.8     
+2 pbrbesep  4265.5     
+3 zje       4135.77    
+4 a         2007.09    
+================ Game Leaderboard ==============
+Rank  Name  Score
+1 pbrbesep  4265.5     
+2 ygwvb     4191.21    
+3 zje       4135.77    
+4 a         2007.09    
+Game Over.

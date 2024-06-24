@@ -1,0 +1,6 @@
+Testing TODO 5: OrderList class functions
+Test case 1 selected.
+ID: 1, Name: Chicken, Price: $50
+ID: 2, Name: Cake, Price: $100
+Enter Food ID to add to your order (Enter 0 to stop): Enter Food ID to add to your order (Enter 0 to stop): Thank you for placing your order: Alex
+Your Buyer ID is 1. Please note this down for viewing your orders in the future.

@@ -1,0 +1,20 @@
+3
+B 99
+C 500
+Z 1000
+5 10
+Z.........
+..........
+.......B..
+..C.......
+..........
+Z moves east 2
+Z moves north 1
+Z moves south 4
+Z moves south 3
+Z moves south 2
+Z hits south
+Z hits east
+Z shoots north
+Z shoots east
+!

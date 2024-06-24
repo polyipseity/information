@@ -1,0 +1,69 @@
+The initial game information:
+Robot A HP=1000
+Robot B HP=100
+Robot C HP=99
+Robot D HP=101
+Robot E HP=100
+A . . . B C 
+. . . . . . 
+. . . . . . 
+. . . . . . 
+D . . . . . 
+E . . . . . 
+Success: Robot A shoots B
+Robot B health point is reduced from 100 to 0
+Robot B is being destroyed by A
+A . . . . C 
+. . . . . . 
+. . . . . . 
+. . . . . . 
+D . . . . . 
+E . . . . . 
+== Health points of alive robots ==
+Robot A HP=1000
+Robot C HP=99
+Robot D HP=101
+Robot E HP=100
+Success: Robot A shoots C
+Robot C health point is reduced from 99 to 0
+Robot C is being destroyed by A
+A . . . . . 
+. . . . . . 
+. . . . . . 
+. . . . . . 
+D . . . . . 
+E . . . . . 
+== Health points of alive robots ==
+Robot A HP=1000
+Robot D HP=101
+Robot E HP=100
+Success: Robot A shoots D
+Robot D health point is reduced from 101 to 1
+== Health points of alive robots ==
+Robot A HP=1000
+Robot D HP=1
+Robot E HP=100
+Success: Robot A shoots D
+Robot D health point is reduced from 1 to 0
+Robot D is being destroyed by A
+A . . . . . 
+. . . . . . 
+. . . . . . 
+. . . . . . 
+. . . . . . 
+E . . . . . 
+== Health points of alive robots ==
+Robot A HP=1000
+Robot E HP=100
+Success: Robot A shoots E
+Robot E health point is reduced from 100 to 0
+Robot E is being destroyed by A
+A . . . . . 
+. . . . . . 
+. . . . . . 
+. . . . . . 
+. . . . . . 
+. . . . . . 
+== Health points of alive robots ==
+Robot A HP=1000
+=== Game Ended ===
