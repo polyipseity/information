@@ -36,6 +36,7 @@ _VERSION = "∞"
     slots=True,
 )
 class Arguments:
+    allow_trailing_whitespaces_in_paths: bool
     paths_file: Path
 
 
@@ -89,6 +90,10 @@ async def main(args: Arguments) -> None:
     )
 
     info(f"Paths: {paths}")
+    if not args.allow_trailing_whitespaces_in_paths and any(
+        path.rstrip() != path for path in paths
+    ):
+        raise ValueError("Found trailing whitespaces in paths")
 
     with TemporaryDirectory() as tmp_repo:
         tmp_repo = Path(tmp_repo)
@@ -205,6 +210,12 @@ def parser(parent: Callable[..., ArgumentParser] | None = None):
         help="print version and exit",
     )
     parser.add_argument(
+        "--allow-trailing-whitespaces-in-paths",
+        action="store_true",
+        default=False,
+        help="allow trailing whitespaces in paths",
+    )
+    parser.add_argument(
         "-p",
         "--paths-file",
         action="store",
@@ -217,6 +228,7 @@ def parser(parent: Callable[..., ArgumentParser] | None = None):
     async def invoke(args: Namespace):
         await main(
             Arguments(
+                allow_trailing_whitespaces_in_paths=args.allow_trailing_whitespaces_in_paths,
                 paths_file=args.paths_file,
             )
         )
