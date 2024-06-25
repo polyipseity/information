@@ -26,7 +26,7 @@ The algorithm may not converge if {{using a distance function other than the (sq
 
 The clustering result {{depends on the initial means, so it is important to find "good" initial means to get more optimal clustering}}. An extreme example is {{an initial mean that is so far away from all observations that no observation ever gets assigned to it}}. <!--SR:!2024-08-26,96,293!2024-09-06,104,290-->
 
-A naive way to initialize the means is {{randomly choose $k$ observations}}. A less naive way is {{repeat the standard algorithm several times with different random initial means and take their average}}. <!--SR:!2024-06-30,60,313!2024-06-24,44,250-->
+A naive way to initialize the means is {{randomly choose $k$ observations}}. A less naive way is {{repeat the standard algorithm several times with different random initial means and take their average}}. <!--SR:!2024-06-30,60,313!2024-11-25,153,270-->
 
 #### variations
 

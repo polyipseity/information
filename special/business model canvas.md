@@ -61,14 +61,14 @@ C$: [cost structure](#cost%20structure)
 
 - _(begin)_→:::←CS: [customer segments](#customer%20segments) <!--SR:!2024-09-08,105,297!2024-06-28,57,317-->
 - CS: [customer segments](#customer%20segments)→:::←VP: [value propositions](#value%20propositions) <!--SR:!2024-09-04,92,274!2024-07-08,21,277-->
-- VP: [value propositions](#value%20propositions)→:::←CH: [channels](#channels) <!--SR:!2024-06-25,50,294!2024-08-22,92,297-->
+- VP: [value propositions](#value%20propositions)→:::←CH: [channels](#channels) <!--SR:!2024-11-18,146,294!2024-08-22,92,297-->
 - CH: [channels](#channels)→:::←CR: [customer relationships](#customer%20relationships) <!--SR:!2024-07-07,62,314!2024-06-27,56,314-->
 - CR: [customer relationships](#customer%20relationships)→:::←R$: [revenue streams](#revenue%20streams) <!--SR:!2024-08-06,76,274!2024-09-02,100,292-->
 - R$: [revenue streams](#revenue%20streams)→:::←KR: [key resources](#key%20resources) <!--SR:!2024-06-27,45,257!2024-09-26,101,257-->
 - KR: [key resources](#key%20resources)→:::←KA: [key activities](#key%20activities) <!--SR:!2024-07-10,49,257!2024-08-08,77,274-->
 - KA: [key activities](#key%20activities)→:::←KP: [key partnerships](#key%20partnerships) <!--SR:!2024-07-16,55,257!2024-08-17,57,254-->
 - KP: [key partnerships](#key%20partnerships)→:::←C$: [cost structure](#cost%20structure) <!--SR:!2024-06-26,19,257!2024-08-31,98,274-->
-- C$: [cost structure](#cost%20structure)→:::←_(end)_ <!--SR:!2024-06-24,54,294!2025-01-14,207,314-->
+- C$: [cost structure](#cost%20structure)→:::←_(end)_ <!--SR:!2025-01-30,219,314!2025-01-14,207,314-->
 
 <!--/pytextgen-->
 
@@ -111,7 +111,7 @@ segmented: splitting slightly different customer segments
 - _(begin)_→:::←diversified: serving unrelated customer segments <!--SR:!2024-08-30,81,257!2024-07-14,69,317-->
 - diversified: serving unrelated customer segments→:::←mass market: not distinguishing between customer segments <!--SR:!2024-09-10,84,237!2024-09-21,96,254-->
 - mass market: not distinguishing between customer segments→:::←multi-sided platforms: serving interdependent customer segments <!--SR:!2024-08-03,73,274!2024-09-12,109,297-->
-- multi-sided platforms: serving interdependent customer segments→:::←niche market: focusing on specific, specialized customer segments <!--SR:!2024-06-29,47,257!2024-06-24,30,254-->
+- multi-sided platforms: serving interdependent customer segments→:::←niche market: focusing on specific, specialized customer segments <!--SR:!2024-06-29,47,257!2024-09-12,79,254-->
 - niche market: focusing on specific, specialized customer segments→:::←segmented: splitting slightly different customer segments <!--SR:!2024-09-30,100,254!2024-06-26,42,257-->
 - segmented: splitting slightly different customer segments→:::←_(end)_ <!--SR:!2024-07-21,68,274!2024-07-06,45,254-->
 
@@ -166,7 +166,7 @@ risk reduction
 - _(begin)_→:::←accessibility <!--SR:!2024-09-07,100,277!2024-07-10,65,314-->
 - accessibility→:::←brand or status <!--SR:!2024-10-01,103,254!2024-08-02,72,274-->
 - brand or status→:::←convenience or usability <!--SR:!2024-07-03,49,254!2024-06-30,36,234-->
-- convenience or usability→:::←cost reduction <!--SR:!2024-06-25,42,254!2024-07-11,19,237-->
+- convenience or usability→:::←cost reduction <!--SR:!2024-10-11,108,254!2024-07-11,19,237-->
 - cost reduction→:::←customization <!--SR:!2024-08-27,94,274!2024-07-14,44,177-->
 - customization→:::←design <!--SR:!2024-08-11,76,277!2024-07-17,55,234-->
 - design→:::←newness <!--SR:!2024-09-10,89,257!2024-06-30,52,274-->
@@ -284,7 +284,7 @@ The key activities building block shows {{important activities required for the 
 
 #### key partnerships
 
-The key partnerships building block shows {{important suppliers and networks required for the business model}}. They can be categorized into {{buyer–seller relationships, coopetitions, joint ventures, and strategic alliances between non-competitors}}. Partnerships can {{acquire particular activities and resources, optimize for economy of scale, and reduce risk and uncertainty}}. <!--SR:!2024-06-24,42,254!2024-08-03,64,237!2024-08-19,72,237-->
+The key partnerships building block shows {{important suppliers and networks required for the business model}}. They can be categorized into {{buyer–seller relationships, coopetitions, joint ventures, and strategic alliances between non-competitors}}. Partnerships can {{acquire particular activities and resources, optimize for economy of scale, and reduce risk and uncertainty}}. <!--SR:!2024-11-21,149,274!2024-08-03,64,237!2024-08-19,72,237-->
 
 #### cost structure
 

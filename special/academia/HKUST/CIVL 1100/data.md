@@ -69,7 +69,7 @@ See [CCTV Headquarters](../../../../general/CCTV%20Headquarters.md).
 
 See [CN Tower](../../../../general/CN%20Tower.md).
 
-- image ::: ![CN Tower image](../../../../archives/Wikimedia%20Commons/Toronto%20-%20ON%20-%20Toronto%20Harbourfront7.jpg) <!--SR:!2024-06-25,32,376!2024-11-23,153,396-->
+- image ::: ![CN Tower image](../../../../archives/Wikimedia%20Commons/Toronto%20-%20ON%20-%20Toronto%20Harbourfront7.jpg) <!--SR:!2024-12-05,163,396!2024-11-23,153,396-->
 
 ## Central Plaza (Hong Kong)
 
@@ -105,7 +105,7 @@ See [Colosseum](../../../../general/Colosseum.md).
 - description ::: elliptical amphitheater in the center of Rome <!--SR:!2024-08-18,72,376!2024-10-13,113,376-->
 - geographic location ::: Rome <!--SR:!2024-10-13,119,396!2024-10-29,133,396-->
 - height ::: 48 m (4 storeys) <!--SR:!2024-06-30,19,316!2024-11-11,143,396-->
-- importance ::: largest amphitheater in the Roman Empire, greatest works of Roman architecture and engineering <!--SR:!2024-06-25,32,376!2024-10-08,108,376-->
+- importance ::: largest amphitheater in the Roman Empire, greatest works of Roman architecture and engineering <!--SR:!2024-10-25,122,376!2024-10-08,108,376-->
 
 ## Eiffel Tower
 
@@ -132,19 +132,19 @@ See [Golden Gate Bridge](../../../../general/Golden%20Gate%20Bridge.md).
 
 See [Great Pyramid of Giza](../../../../general/Great%20Pyramid%20of%20Giza.md).
 
-- base width ::: 230.33 m <!--SR:!2024-06-25,32,376!2024-11-03,137,396-->
+- base width ::: 230.33 m <!--SR:!2024-10-17,114,376!2024-11-03,137,396-->
 - construction period ::: 10~20 years around 2560 BC <!--SR:!2024-07-06,13,276!2024-10-14,120,396-->
 - description ::: largest pyramid in the Giza Necropolis, Egypt <!--SR:!2024-10-05,112,396!2024-10-31,134,396-->
 - height ::: current: 138.5 m, original: 146.6 m <!--SR:!2024-07-15,40,356!2024-11-02,136,396-->
 - weight ::: 5.9 million tonnes <!--SR:!2024-09-14,89,376!2024-11-10,142,396-->
-- tomb for ::: Egypt's 4th dynasty pharaoh Khufu <!--SR:!2024-06-24,31,376!2024-08-16,70,376-->
+- tomb for ::: Egypt's 4th dynasty pharaoh Khufu <!--SR:!2024-10-21,118,376!2024-08-16,70,376-->
 
 ## Great Wall of China
 
 See [Great Wall of China](../../../../general/Great%20Wall%20of%20China.md).
 
 - component ::: fortress, horse track, pass, shelter, wall, watch tower <!--SR:!2024-07-02,27,316!2024-11-01,135,396-->
-- construction period ::: 220 BC under Qin Shi Huang, and continued up to the Ming dynasty (1368–1644) <!--SR:!2024-08-04,57,356!2024-06-24,31,376-->
+- construction period ::: 220 BC under Qin Shi Huang, and continued up to the Ming dynasty (1368–1644) <!--SR:!2024-08-04,57,356!2024-12-01,159,396-->
 - geographic locations ::: begins in the east at Shanhaiguan (山海關), Hebei; and ends in the west at Jiayuguan (嘉峪關), Gansu <!--SR:!2024-08-05,57,356!2024-10-14,114,376-->
 - length ::: 21196.18 km <!--SR:!2024-07-30,41,316!2024-11-15,147,396-->
 
@@ -179,7 +179,7 @@ See [Hong Kong–Zhuhai–Macau Bridge](../../../../general/Hong%20Kong–Zhuhai
 See [Hoover Dam](../../../../general/Hoover%20Dam.md).
 
 - [dam type](../../../../general/dam.md#types) ::: concrete gravity-arch <!--SR:!2024-09-03,94,320!2024-08-16,97,375-->
-- height ::: 221.4 m <!--SR:!2024-06-26,33,281!2024-06-24,52,347-->
+- height ::: 221.4 m <!--SR:!2024-06-26,33,281!2025-02-27,247,367-->
 - image ::: ![Hoover Dam image](../../../../archives/Wikimedia%20Commons/Ansel%20Adams%20-%20National%20Archives%2079-AAB-01.jpg) <!--SR:!2024-08-09,77,360!2024-08-31,97,380-->
 - length ::: 379 m <!--SR:!2024-07-02,25,261!2025-02-11,235,370-->
 
@@ -216,7 +216,7 @@ See [John Hancock Center](John%20Hancock%20Center.md).
 
 See [Millau Viaduct](../../../../general/Millau%20Viaduct.md).
 
-- bridge type ::: cable-stayed road bridge <!--SR:!2024-06-25,32,376!2024-10-23,127,396-->
+- bridge type ::: cable-stayed road bridge <!--SR:!2024-10-22,119,376!2024-10-23,127,396-->
 - designers ::: Michel Virlogeux, Norman Foster <!--SR:!2024-08-24,77,376!2024-11-16,148,396-->
 - geographic location ::: across the gorge valley of the Tarn near Millau in southern France <!--SR:!2024-08-15,69,376!2024-08-22,75,376-->
 - height ::: max pylon above base: 343 m, structural: 336.4 m <!--SR:!2024-06-29,25,316!2024-11-07,140,396-->
@@ -249,11 +249,11 @@ See [Panama Canal](../../../../general/Panama%20Canal.md).
 
 See [Parthenon](../../../../general/Parthenon.md).
 
-- construction period ::: 447 BC to 438 BC, 9 years <!--SR:!2024-07-03,10,276!2024-06-24,31,376-->
-- dedication ::: Greek goddess Athena <!--SR:!2024-06-25,32,376!2024-11-08,141,396-->
+- construction period ::: 447 BC to 438 BC, 9 years <!--SR:!2024-07-03,10,276!2024-12-01,159,396-->
+- dedication ::: Greek goddess Athena <!--SR:!2024-12-08,166,396!2024-11-08,141,396-->
 - description ::: temple on the Athenian Acropolis, Greece, dedicated to the Greek goddess Athena <!--SR:!2024-07-09,38,356!2024-11-06,139,396-->
 - geographic location ::: Athenian Acropolis, Greece <!--SR:!2024-07-14,39,356!2024-10-16,122,396-->
-- importance ::: most important surviving building of classical Greece <!--SR:!2024-06-25,32,376!2024-10-24,128,396-->
+- importance ::: most important surviving building of classical Greece <!--SR:!2024-10-18,115,376!2024-10-24,128,396-->
 
 ## Stonecutters Bridge
 

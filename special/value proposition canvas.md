@@ -113,7 +113,7 @@ vagueness: vague jobs, pains, and gains
 - hyperfocus: focusing on functional jobs only→:::←insufficiency: not enough jobs, pains, and gains <!--SR:!2024-06-28,45,249!2024-07-22,61,269-->
 - insufficiency: not enough jobs, pains, and gains→:::←mix: mixing customer segments <!--SR:!2024-08-07,50,189!2024-06-26,11,169-->
 - mix: mixing customer segments→:::←mix: mixing jobs and outcomes <!--SR:!2024-09-29,112,289!2024-07-16,38,269-->
-- mix: mixing jobs and outcomes→:::←opposite: gains and pains are not opposite, gains are beyond expectation while pains are falling short of expectation <!--SR:!2024-06-25,12,265!2024-06-24,31,285-->
+- mix: mixing jobs and outcomes→:::←opposite: gains and pains are not opposite, gains are beyond expectation while pains are falling short of expectation <!--SR:!2024-07-26,31,265!2024-09-20,87,285-->
 - opposite: gains and pains are not opposite, gains are beyond expectation while pains are falling short of expectation→:::←reversed: listing jobs, pains, and gains from your product value propositions <!--SR:!2024-07-27,65,269!2024-07-07,54,269-->
 - reversed: listing jobs, pains, and gains from your product value propositions→:::←vagueness: vague jobs, pains, and gains <!--SR:!2024-07-02,15,169!2024-08-01,64,249-->
 - vagueness: vague jobs, pains, and gains→:::←_(end)_ <!--SR:!2024-07-21,74,329!2024-08-20,84,289-->

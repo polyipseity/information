@@ -20,7 +20,7 @@ Buildings can be {{categorized by height}}: {{single-storey, multi-storey with h
 
 The structural system of a building only {{consists of members designed to carry loads}}, and all others are {{non-structural}}. <!--SR:!2024-07-15,44,290!2024-08-01,59,315-->
 
-The structural system of a high-rise building should support {{vertical loads such as gravity and foundation settlement, and also lateral loads such as earthquake, wind}}. The latter, {{lateral loads, are especially important for tall buildings}}. Otherwise, tall buildings may {{slide (horizontal translation) or overturn (rotation about the base)}}. Generally the higher up, {{the larger the load}}. <!--SR:!2024-06-24,26,270!2024-07-17,46,295!2024-07-16,45,295!2024-08-11,66,310-->
+The structural system of a high-rise building should support {{vertical loads such as gravity and foundation settlement, and also lateral loads such as earthquake, wind}}. The latter, {{lateral loads, are especially important for tall buildings}}. Otherwise, tall buildings may {{slide (horizontal translation) or overturn (rotation about the base)}}. Generally the higher up, {{the larger the load}}. <!--SR:!2024-09-02,69,270!2024-07-17,46,295!2024-07-16,45,295!2024-08-11,66,310-->
 
 Hence, foundation-wise, low-rise buildings are {{supported by shallow foundations (footings)}}, while high-rise buildings are {{supported by deep foundations (pipes), which may even reach the bedrock}}. <!--SR:!2024-07-24,48,295!2024-07-18,43,295-->
 
@@ -68,7 +68,7 @@ The following interior structures are possible.
 - [hinged frame](hinged%20frame.md)→:::←[outrigger](#outrigger) <!--SR:!2024-06-28,19,235!2024-07-03,23,235-->
 - [outrigger](#outrigger)→:::←[rigid frame](rigid%20frame.md) <!--SR:!2024-07-04,32,275!2024-06-29,29,275-->
 - [rigid frame](rigid%20frame.md)→:::←[shear-walled frame](#sheared-walled%20frame): [rigid frame](rigid%20frame.md) + [shear wall](shear%20wall.md) <!--SR:!2024-08-05,50,255!2024-07-22,40,255-->
-- [shear-walled frame](#sheared-walled%20frame): [rigid frame](rigid%20frame.md) + [shear wall](shear%20wall.md)→:::←_(end)_ <!--SR:!2024-07-30,57,315!2024-06-25,10,255-->
+- [shear-walled frame](#sheared-walled%20frame): [rigid frame](rigid%20frame.md) + [shear wall](shear%20wall.md)→:::←_(end)_ <!--SR:!2024-07-30,57,315!2024-07-22,27,255-->
 
 <!--/pytextgen-->
 
@@ -78,7 +78,7 @@ The following interior structures are possible.
 
 Intuitively, if a high-rise building is {{a skier}}, then {{the building core is the human body, the outriggers are the arms, and the building exterior are the ski poles}}. <!--SR:!2024-07-22,47,295!2024-08-03,61,315-->
 
-Outriggers can {{reduce the overturning moment in the core by transferring some moment to columns outside the core}}. <!--SR:!2024-06-25,28,275-->
+Outriggers can {{reduce the overturning moment in the core by transferring some moment to columns outside the core}}. <!--SR:!2024-09-09,76,275-->
 
 For example, outriggers are used in {{the [International Commerce Center](International%20Commerce%20Center.md)}}. The building has {{4 outriggers in 4 separate floors}}. In each outrigger, {{8 outriggers connect the core to the mega columns of the exterior structure, forming a hash (#) shape}}. <!--SR:!2024-08-14,69,310!2024-07-20,48,295!2024-07-24,49,295-->
 
