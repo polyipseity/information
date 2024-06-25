@@ -4,6 +4,7 @@ aliases:
   - list of mathematical pathology
 tags:
   - flashcard/special/list_of_mathematical_pathologies
+  - functional/list
   - language/in/English
 ---
 

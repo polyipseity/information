@@ -1,0 +1,16 @@
+---
+aliases:
+  - convection zone
+  - convection zones
+tags:
+  - flashcard/general/convection_zone
+  - language/in/English
+---
+
+# convection zone
+
+A __convection zone__, __convective zone__ or __convective region__ of a [star](star.md) is {{a layer which is unstable due to [convection](convection.md)}}. [Energy](energy.md) is {{primarily or partially transported by [convection](convection%20(heat%20transfer).md) in such a region}}. Oppositely, in {{a [radiation zone](radiation%20zone.md)}}, energy is {{transported by [radiation](radiation.md) and [conduction](thermal%20conduction.md)}}.
+
+## references
+
+This text incorporates [content](https://en.wikipedia.org/wiki/convection_zone) from [Wikipedia](Wikipedia.md) available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.

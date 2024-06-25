@@ -20,7 +20,7 @@ tags:
 # import ../../tools/utility.py.md
 ```
 
-The __Kepler's laws of planetary motion__ describe {{the [orbits](Kepler%20orbit.md) of [planets](planet.md) around the [Sun](Sun.md)}}. They state that:
+The __Kepler's laws of planetary motion__ describe {{the [orbits](Kepler%20orbit.md) of [planets](planet.md) around the [Sun](Sun.md)}}. They were {{published by [Johannes Kepler](Johannes%20Kepler.md) between 1609 and 1619}} They state that:
 
 ```Python
 # pytextgen generate data
@@ -50,6 +50,12 @@ return await memorize_seq(
 - The square of the planetary [orbital period](orbital%20period.md) is proportional to the cube of the [semi-major axis](semi-major%20and%20semi-minor%20axes.md) of the orbit: $T^2=\frac{4\pi^2}{GM}a^3$→:::←_(end)_
 
 <!--/pytextgen-->
+
+{{[Issac Newton](Issac%20Newton.md) showed in 1687 (about 60 years later)}} that the above laws apply as {{a consequence of his own [laws of motion](Newton's%20laws%20of%20motion.md) and [law of universal gravitation](Newton's%20law%20of%20universal%20gravitation.md)}}.
+
+## history
+
+Kepler published {{his first 2 laws in 1609}} after {{analyzing th astronomical observations by [Tycho Brahe](Tycho%20Brahe.md)}}. Kepler's third law was {{published in 1619}}.
 
 ## references
 
