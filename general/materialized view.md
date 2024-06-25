@@ -39,7 +39,7 @@ The cost of answering a query depends on {{the view (materialized or not) to be 
 
 We assume that {{each view is equally likely to be queried}}. We also assume the top view $\top$ {{is materialized}}, and the bottom view $\bot$ {{is ignored and assumed does not exist}}.
 
-Let $S$ be {{the set of materialized views}}. Define the total cost function {{accepting a set of materialized views $C(S)$ as the total cost of accessing all possible views once, taking the materialized views into consideration}}. Next, define the gain {{$G(A, B)$ accepting 2 sets of materialized views, as $G(A, B) = C(B) - C(A)$, i.e. the total cost reduction of materializing $A$ over materializing $B$}}. Finally, define the benefit {{$B(v, S) = G(S \cup \set{v}, S)$, i.e. the total cost reduction of _additionally_ materializing $v$ over only materializing $S$}}.
+Let $S$ be {{the set of materialized views}}. Define the total cost function {{accepting a set of materialized views $C(S)$ as the total cost of accessing each possible views once, taking the materialized views into consideration}}. Next, define the gain {{$G(A, B)$ accepting 2 sets of materialized views, as $G(A, B) = C(B) - C(A)$, i.e. the total cost reduction of materializing $A$ over materializing $B$}}. Finally, define the benefit {{$B(v, S) = G(S \cup \set{v}, S)$, i.e. the total cost reduction of _additionally_ materializing $v$ over only materializing $S$}}.
 
 The objective is to {{find the best $S$ that maximizes the gain $G(S, \set{\top})$ over the top view, while satisfying the given constraints}}. The constraints we will consider here are {{the maximum number of materialized views or the max total cost of materialized views}}. The constraints are considered independently.
 
@@ -53,7 +53,7 @@ The pseudocode is as follows:
 
 To run the above algorithm manually, we can use {{a benefit table with the column headers being the _n_-th choice and row headers being the possible views to materialize}}. Fill in the benefit table from {{left to right, with advancing one column representing choosing one more view}}. When a view is selected, there is {{no need to further calculate its benefit (or an alternative heuristic function) in subsequent columns}}. Calculate the benefit {{with reference to the graph of relations between a set of views earlier}}. On completing an column, {{the view with the most benefit is selected}}.
 
-In details, when calculating the benefit for a view to be materialized, only consider {{the (direct and indirect) children of the view}}. For each considered child, find {{the least costly (direct or indirect) parent view that is materialized}}. Then, compare {{it to the new view to be materialized}}. If {{the new view is more costly}}, then {{the benefit for that child is 0}}. Otherwise, {{the benefit for that child is the difference in cost}}. Finally, the benefit of materializing that view is {{the sum of all benefits for each individual child}}.
+In details, when calculating the benefit for a view to be materialized, only consider {{the (direct and indirect) children of the view}}. For each considered child, find {{the least costly (direct or indirect) parent view that is already materialized}}. Then, compare {{it to the new view to be materialized}}. If {{the new view is more costly}}, then {{the benefit for that child is 0}}. Otherwise, {{the benefit for that child is the difference in cost}}. Finally, the benefit of materializing that view is {{the sum of all benefits for each individual child}}.
 
 > [!examples] benefit table example
 >
