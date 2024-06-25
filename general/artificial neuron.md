@@ -13,7 +13,7 @@ tags:
 
 For a given artificial neuron _k_, let there be {{_m_ + 1 inputs and weights. The inputs are labelled _x_<sub>0</sub> to _x_<sub>_m_</sub>. The weights are labelled _w_<sub>_k_<!-- separator -->0</sub> to _w_<sub>_km_</sub>}}. Usually, {{the _x_<sub>0</sub> input is always assigned +1, making it a _bias input_ with the weight _b_<sub>_k_</sub> = _w_<sub>_k_<!-- separator -->0</sub> being the _bias_}}. This leaves {{_m_ actual inputs to the neurons: from _x_<sub>1</sub> to _x_<sub>_m_</sub>}}. <!--SR:!2024-07-05,17,290!2024-07-05,17,290!2024-07-04,16,290-->
 
-The output of the _k_-th neuron is: {{$$y_k = \varphi\left(\sum_{j = 0}^m w_{kj} x_j \right) = \varphi\left(b_k + \sum_{j = 1}^m w_{kj} x_j \right)$$}}, where {{$\varphi$ is the _[activation function](activation%20function.md)_ (also called _threshold function_, or confusingly, _transfer function_)}}. <!--SR:!2024-06-25,8,250!2024-07-05,17,290-->
+The output of the _k_-th neuron is: {{$$y_k = \varphi\left(\sum_{j = 0}^m w_{kj} x_j \right) = \varphi\left(b_k + \sum_{j = 1}^m w_{kj} x_j \right)$$}}, where {{$\varphi$ is the _[activation function](activation%20function.md)_ (also called _threshold function_, or confusingly, _transfer function_)}}. <!--SR:!2024-07-18,23,250!2024-07-05,17,290-->
 
 ## types of activation function
 
@@ -37,7 +37,7 @@ In this case, the output _y_ is {{simply the net input _u_ multiplied by a const
 
 - see: [sigmoid function](sigmoid%20function.md)
 
-[Sigmoid functions](sigmoid%20function.md) are {{fairly simple non-linear activation functions}}. Usually, it refers to the {{[logistic function](logistic%20function.md) with _L_ = 1, _k_ = 1, and _x_<sub>0</sub> = 0}}: {{$$y = \frac 1 {1 + e^{-u} }$$}}. Its more practical counterpart is {{the [hyperbolic tangent](hyperbolic%20function.md) ($\tanh$)}}: {{$$y = \frac {\sinh u} {\cosh u} = \frac {e^u - e^{-u} } {e^u + e^{-u} } = \frac {e^{2u} - 1} {e^{2u} + 1}$$}} <!--SR:!2024-07-01,13,290!2024-06-27,10,250!2024-07-05,17,290!2024-07-04,16,290!2024-06-24,7,250-->
+[Sigmoid functions](sigmoid%20function.md) are {{fairly simple non-linear activation functions}}. Usually, it refers to the {{[logistic function](logistic%20function.md) with _L_ = 1, _k_ = 1, and _x_<sub>0</sub> = 0}}: {{$$y = \frac 1 {1 + e^{-u} }$$}}. Its more practical counterpart is {{the [hyperbolic tangent](hyperbolic%20function.md) ($\tanh$)}}: {{$$y = \frac {\sinh u} {\cosh u} = \frac {e^u - e^{-u} } {e^u + e^{-u} } = \frac {e^{2u} - 1} {e^{2u} + 1}$$}} <!--SR:!2024-07-01,13,290!2024-06-27,10,250!2024-07-05,17,290!2024-07-04,16,290!2024-07-14,19,250-->
 
 ### rectifier
 

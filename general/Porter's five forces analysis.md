@@ -17,19 +17,19 @@ tags:
 
 ## five forces that shape competition
 
-The 5 forces are {{threat of _new entrants_, bargaining power of _buyers_, threat of _substitutes_, bargaining power of _suppliers_, and _industry_ rivalry}}. The first 4 forces {{surrounds the last force in a loop}}. <!--SR:!2024-06-25,17,290!2024-08-13,53,310-->
+The 5 forces are {{threat of _new entrants_, bargaining power of _buyers_, threat of _substitutes_, bargaining power of _suppliers_, and _industry_ rivalry}}. The first 4 forces {{surrounds the last force in a loop}}. <!--SR:!2024-08-15,51,290!2024-08-13,53,310-->
 
 ### threat of new entrants
 
-{{Barriers to entry}} restrict the threat of new entrants. Th barriers can be {{business nature or government regulations}}. <!--SR:!2024-08-14,54,310!2024-06-24,16,290-->
+{{Barriers to entry}} restrict the threat of new entrants. Th barriers can be {{business nature or government regulations}}. <!--SR:!2024-08-14,54,310!2024-08-30,66,310-->
 
 ### threat of substitutes
 
-A substitute product {{uses a different technology to solve the same economic need}}. <!--SR:!2024-06-25,17,290-->
+A substitute product {{uses a different technology to solve the same economic need}}. <!--SR:!2024-09-02,69,310-->
 
 ### bargaining power of buyers
 
-Buyers' power is high if {{there are many alternatives, and low if there are few}}. Unbranded or commoditized products or services have {{no loyalty from buyers}}. <!--SR:!2024-06-25,17,290!2024-06-24,16,290-->
+Buyers' power is high if {{there are many alternatives, and low if there are few}}. Unbranded or commoditized products or services have {{no loyalty from buyers}}. <!--SR:!2024-09-04,71,310!2024-09-01,68,310-->
 
 ### bargaining power of suppliers
 
@@ -41,7 +41,7 @@ Industry rivalry is {{the extent of competition among existing firms}}. <!--SR:!
 
 ## usage
 
-Porter's five forces framework is great for {{classical industries involving physical goods}}, but not {{globalized markets, industries not affected by all 5 forces, internet businesses, or new sectors spanning multiple industries}}. <!--SR:!2024-06-24,16,290!2024-07-18,29,270-->
+Porter's five forces framework is great for {{classical industries involving physical goods}}, but not {{globalized markets, industries not affected by all 5 forces, internet businesses, or new sectors spanning multiple industries}}. <!--SR:!2024-08-26,62,310!2024-07-18,29,270-->
 
 ## references
 

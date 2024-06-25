@@ -72,7 +72,7 @@ value proposition canvas
 - _(begin)_→:::←blue ocean strategy: Break the value–cost tradeoff. For example, London cab services (red) and Uber (blue). <!--SR:!2024-08-14,84,290!2024-07-06,58,310-->
 - blue ocean strategy: Break the value–cost tradeoff. For example, London cab services (red) and Uber (blue).→:::←business model canvas <!--SR:!2024-08-25,81,270!2024-06-30,18,250-->
 - business model canvas→:::←competitor analysis <!--SR:!2024-07-29,68,270!2024-06-28,43,250-->
-- competitor analysis→:::←customer discovery <!--SR:!2024-06-24,21,230!2024-08-28,91,270-->
+- competitor analysis→:::←customer discovery <!--SR:!2024-07-05,10,210!2024-08-28,91,270-->
 - customer discovery→:::←customer segmentation <!--SR:!2024-10-15,123,290!2024-10-16,129,290-->
 - customer segmentation→:::←customer validation <!--SR:!2024-08-27,82,270!2024-07-16,55,270-->
 - customer validation→:::←design thinking <!--SR:!2024-07-23,50,230!2024-09-03,88,270-->
@@ -89,7 +89,7 @@ _Previously, product innovation was part 2._
 
 Prepares for TEMG 4950 — T&M consulting for a real client or TEMG 4940 — T&M prototyping for a real client.
 
-The case method, i.e. using case analysis for teaching, can teach {{identifying assumptions, issues, and relationships}}. From said information, {{conclusions, deductions, and inferences can be made}}. It also helps with {{evaluating authority, evidence, and logicalness of your thinking}}, {{making self-corrections}} as necessary. Finally, you can {{present your solution persuasively}}. <!--SR:!2024-06-25,17,301!2024-08-28,66,321!2024-08-05,44,301!2024-06-26,18,301!2024-06-25,17,301-->
+The case method, i.e. using case analysis for teaching, can teach {{identifying assumptions, issues, and relationships}}. From said information, {{conclusions, deductions, and inferences can be made}}. It also helps with {{evaluating authority, evidence, and logicalness of your thinking}}, {{making self-corrections}} as necessary. Finally, you can {{present your solution persuasively}}. <!--SR:!2024-08-14,50,301!2024-08-28,66,321!2024-08-05,44,301!2024-06-26,18,301!2024-09-03,70,321-->
 
 ### case analysis elements
 
@@ -131,17 +131,17 @@ root cause analysis, 5 whys
 
 <!--pytextgen generate section="a9bf"--><!-- The following content is generated at 2024-06-04T22:06:05.721345+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←4P: McCarthy's 4 Ps <!--SR:!2024-06-24,16,301!2024-06-26,18,301-->
-- 4P: McCarthy's 4 Ps→:::←5-step persuasive selling <!--SR:!2024-06-30,9,261!2024-06-25,17,301-->
-- 5-step persuasive selling→:::←5C: Chernev 5C framework <!--SR:!2024-06-24,16,301!2024-07-30,38,301-->
-- 5C: Chernev 5C framework→:::←5F: Porter's 5 forces framework <!--SR:!2024-07-18,32,281!2024-06-24,16,301-->
+- _(begin)_→:::←4P: McCarthy's 4 Ps <!--SR:!2024-08-08,44,301!2024-06-26,18,301-->
+- 4P: McCarthy's 4 Ps→:::←5-step persuasive selling <!--SR:!2024-06-30,9,261!2024-08-19,55,301-->
+- 5-step persuasive selling→:::←5C: Chernev 5C framework <!--SR:!2024-08-11,47,301!2024-07-30,38,301-->
+- 5C: Chernev 5C framework→:::←5F: Porter's 5 forces framework <!--SR:!2024-07-18,32,281!2024-08-13,49,301-->
 - 5F: Porter's 5 forces framework→:::←7S: McKinsey 7S framework <!--SR:!2024-08-06,44,301!2024-08-26,64,321-->
 - 7S: McKinsey 7S framework→:::←PESTLE: Aguilar's PESTLE framework <!--SR:!2024-07-14,27,281!2024-06-29,6,281-->
 - PESTLE: Aguilar's PESTLE framework→:::←PPTG: people, process, technology, governance framework <!--SR:!2024-07-03,14,261!2024-06-30,8,281-->
-- PPTG: people, process, technology, governance framework→:::←blue ocean strategy <!--SR:!2024-06-24,16,301!2024-08-04,43,301-->
+- PPTG: people, process, technology, governance framework→:::←blue ocean strategy <!--SR:!2024-08-10,46,301!2024-08-04,43,301-->
 - blue ocean strategy→:::←interview note-taking in an 1-page memo <!--SR:!2024-07-20,32,281!2024-06-29,8,241-->
-- interview note-taking in an 1-page memo→:::←profitability framework <!--SR:!2024-07-11,25,261!2024-06-24,8,221-->
+- interview note-taking in an 1-page memo→:::←profitability framework <!--SR:!2024-07-11,25,261!2024-07-12,17,221-->
 - profitability framework→:::←root cause analysis, 5 whys <!--SR:!2024-07-15,27,281!2024-07-01,10,241-->
-- root cause analysis, 5 whys→:::←_(end)_ <!--SR:!2024-06-25,17,301!2024-06-24,16,301-->
+- root cause analysis, 5 whys→:::←_(end)_ <!--SR:!2024-08-17,53,301!2024-08-14,50,301-->
 
 <!--/pytextgen-->

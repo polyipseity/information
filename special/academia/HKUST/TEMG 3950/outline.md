@@ -149,7 +149,7 @@ The content is in teaching order.
 - time: 2024-03-26T18:00:00+08:00/2024-03-26T20:30:00+08:00
 - [information § context](information.md#context)
 - [information § part 2: case analysis](information.md#part%202%20case%20analysis)
-- thinking processes ::: deduction, evaluation, inference, interpretation <!--SR:!2024-06-25,17,341!2024-06-24,16,341-->
+- thinking processes ::: deduction, evaluation, inference, interpretation <!--SR:!2024-08-24,60,341!2024-08-20,56,341-->
   - deduction ::: application; arrive at conclusions based on given premises and rules <!--SR:!2024-06-26,18,341!2024-06-27,19,341-->
   - evaluation ::: unbiased, unemotional; systematically assess, determine, or examine the effectiveness, quality, or value of something <!--SR:!2024-07-15,29,301!2024-06-28,20,341-->
   - inference ::: generalize; draw rules or predictions based on observed examples <!--SR:!2024-06-27,19,341!2024-06-27,19,341-->
@@ -166,16 +166,16 @@ The content is in teaching order.
     - consultant after 2 to 4 years ::: As. Consultant, Consultant, Sr. Consultant: doing the work; enter from JD, MBA, MD, or PhD, exit to project member of big firms or manager in small firms, and further top MBA <!--SR:!2024-06-28,20,341!2024-08-08,46,321-->
     - consultant after 4 to 6 years ::: Eng. Manager, Mg. Consultant, Project Leader: managing the work; exit to manager of big firms or director of small firms, and further top EMBA <!--SR:!2024-07-22,34,301!2024-06-27,19,341-->
     - consultant after 6 to 9 years ::: As. Partner, Principal: selling the work; exit to director of big firms or general manager (GM) of small firms, and further top EMBA <!--SR:!2024-07-21,33,301!2024-08-07,46,321-->
-    - consultant after 9 years or more ::: Director, Partner, VP: managing the business; exit to CEO or retire rich <!--SR:!2024-06-25,17,341!2024-06-27,19,341-->
-- nature of complex problems ::: modeled by time-varying multi-variable optimization problems with constraints <!--SR:!2024-06-25,17,341!2024-06-27,19,341-->
+    - consultant after 9 years or more ::: Director, Partner, VP: managing the business; exit to CEO or retire rich <!--SR:!2024-08-23,59,341!2024-06-27,19,341-->
+- nature of complex problems ::: modeled by time-varying multi-variable optimization problems with constraints <!--SR:!2024-07-04,9,321!2024-06-27,19,341-->
   - solving complex problems ::: MECE frameworks for patterns, 5-step persuasive selling for presentation <!--SR:!2024-06-26,18,341!2024-07-25,36,321-->
 - [Pareto principle](../../../../general/Pareto%20principle.md)
-- "less is more" ::: In the digital age, there is too much information (digital garbage), so they need to be distilled. Also see [DIKW pyramid](../../../../general/DIKW%20pyramid.md). <!--SR:!2024-06-25,17,341!2024-06-27,19,341-->
+- "less is more" ::: In the digital age, there is too much information (digital garbage), so they need to be distilled. Also see [DIKW pyramid](../../../../general/DIKW%20pyramid.md). <!--SR:!2024-08-23,59,341!2024-06-27,19,341-->
 - [MECE principle](../../../../general/MECE%20principle.md)
-- modeling key concepts ::: abstraction, framework, model <!--SR:!2024-06-25,17,341!2024-06-28,20,341-->
+- modeling key concepts ::: abstraction, framework, model <!--SR:!2024-08-25,61,341!2024-06-28,20,341-->
   - modeling key concept: abstraction ::: filter for elements relevant to some specific purpose <!--SR:!2024-06-26,18,341!2024-06-28,20,341-->
   - modeling key concept: framework ::: a support structure around which something can be built <!--SR:!2024-06-27,19,341!2024-06-26,18,341-->
-  - modeling key concept: model ::: an abstraction of the real world for some specific purpose <!--SR:!2024-06-24,16,341!2024-07-19,31,341-->
+  - modeling key concept: model ::: an abstraction of the real world for some specific purpose <!--SR:!2024-09-05,72,361!2024-07-19,31,341-->
 - Aguilar's PESTLE framework ::: business environment analysis <!--SR:!2024-06-27,19,341!2024-06-26,18,341-->
   - [PEST analysis § composition](../../../../general/PEST%20analysis.md#composition)
 - Porter's 5 forces framework ::: industry profitability analysis <!--SR:!2024-06-26,18,341!2024-06-26,18,341-->
@@ -200,28 +200,28 @@ The content is in teaching order.
 - time: 2024-04-09T18:00:00+08:00/2024-04-09T20:30:00+08:00
 - critical thinking pop quiz takeaways ::: cannot blindly trust given premises, case analysis needs to consider human behaviors, possess general knowledge <!--SR:!2024-06-26,18,341!2024-06-26,18,341-->
 - [assignment W9](assignment%20W9/assignment%20W9.md) takeaways
-  - general case analysis question takeaways ::: Identify key questions. Choose the question that is most precise and involves least work. <!--SR:!2024-06-25,17,341!2024-06-27,19,341-->
+  - general case analysis question takeaways ::: Identify key questions. Choose the question that is most precise and involves least work. <!--SR:!2024-08-23,59,341!2024-06-27,19,341-->
   - use of framework takeaways ::: Consider relevant dimensions of each framework and select the framework with the most relevant dimensions. Add a total at the end to sum up all the dimensions. <!--SR:!2024-06-26,18,341!2024-06-28,20,341-->
 - nature of problems ::: Problems are caused by a network of causes. If the causes are not removed, the problems may recur. <!--SR:!2024-07-04,19,321!2024-06-27,19,341-->
-- casual relationship ::: Event A, called the _cause_, causes event B, called the _effect_. <!--SR:!2024-06-25,17,341!2024-06-26,18,341-->
-- correlation ::: Measure of relationship between 2 variables. They can be positively correlated, negatively correlated, or uncorrelated. <!--SR:!2024-06-25,17,341!2024-07-28,38,321-->
+- casual relationship ::: Event A, called the _cause_, causes event B, called the _effect_. <!--SR:!2024-08-22,58,341!2024-06-26,18,341-->
+- correlation ::: Measure of relationship between 2 variables. They can be positively correlated, negatively correlated, or uncorrelated. <!--SR:!2024-07-05,10,321!2024-07-28,38,321-->
 - casual relationship & correlation ::: Correlation does not imply causation. <!--SR:!2024-06-26,18,341!2024-06-26,18,341-->
-- [root cause analysis](../../../../general/root%20cause%20analysis.md) ::: discovery of casual relationships <!--SR:!2024-08-08,46,321!2024-06-24,16,341-->
+- [root cause analysis](../../../../general/root%20cause%20analysis.md) ::: discovery of casual relationships <!--SR:!2024-08-08,46,321!2024-08-16,52,341-->
 - [five whys](../../../../general/five%20whys.md)
 - cause mapping process ::: define the issue by its impact to business goals, visualize the problem, and prevent or mitigate negative impacts <!--SR:!2024-07-13,27,321!2024-08-18,58,341-->
 - cause mapping notation (at least for this course)
   - cause mapping + MECE dimensions ::: Choose a MECE framework. For one of the causes, split the further causes by MECE dimensions. Label the further causes by their corresponding dimensions. Explain why, if some dimensions are irrelevant and thus has no further causes. <!--SR:!2024-07-11,25,321!2024-06-28,20,341-->
   - cause mapping § arrow direction ::: cause to effect <!--SR:!2024-06-26,18,341!2024-06-26,18,341-->
   - cause mapping § evidences ::: below the cause, pink background <!--SR:!2024-07-16,29,321!2024-06-28,20,341-->
-  - cause mapping § operators ::: AND, OR <!--SR:!2024-06-28,20,341!2024-06-24,16,341-->
-  - cause mapping § solutions ::: above the cause, green background <!--SR:!2024-06-25,17,341!2024-06-28,20,341-->
+  - cause mapping § operators ::: AND, OR <!--SR:!2024-06-28,20,341!2024-09-07,74,361-->
+  - cause mapping § solutions ::: above the cause, green background <!--SR:!2024-08-26,62,341!2024-06-28,20,341-->
   - cause mapping § symptom ::: red background <!--SR:!2024-06-27,19,341!2024-06-28,20,341-->
 - [5-step persuasive selling](../../../5-step%20persuasive%20selling.md)
   - [§ format](../../../5-step%20persuasive%20selling.md#format)
-- more trees (for TEMG 4950) ::: issue tree and hypothesis tree <!--SR:!2024-06-24,16,341!2024-06-24,16,341-->
-- cause mapping extensions ::: facts table, solutions table <!--SR:!2024-06-24,16,341!2024-06-27,19,341-->
-  - facts table ::: what, when, where, impact <!--SR:!2024-06-26,18,341!2024-06-24,16,341-->
-  - solutions table ::: no., cause, solution; optionally, time, persons responsible, budget <!--SR:!2024-06-24,16,341!2024-06-27,19,341-->
+- more trees (for TEMG 4950) ::: issue tree and hypothesis tree <!--SR:!2024-08-18,54,341!2024-09-11,78,361-->
+- cause mapping extensions ::: facts table, solutions table <!--SR:!2024-09-06,73,361!2024-06-27,19,341-->
+  - facts table ::: what, when, where, impact <!--SR:!2024-06-26,18,341!2024-08-15,51,341-->
+  - solutions table ::: no., cause, solution; optionally, time, persons responsible, budget <!--SR:!2024-08-19,55,341!2024-06-27,19,341-->
 - interview note-taking technique using 1 sheet of A4 paper ::: facts, key question (only 1), analysis <!--SR:!2024-06-27,19,341!2024-06-28,20,341-->
   - interview note § layout ::: split the paper into 2, the left side is thinner and holds the facts and key question, and the right side is the analysis <!--SR:!2024-07-31,42,321!2024-06-28,20,341-->
   - interview note § analysis ::: use a MECE framework suitable for the case in the interview <!--SR:!2024-06-28,20,341!2024-06-27,19,341-->

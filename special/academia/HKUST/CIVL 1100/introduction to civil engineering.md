@@ -28,7 +28,7 @@ The content is in teaching order.
   - differences between engineers and scientists ::: Scientists understand nature and make predictions, while engineers use scientific data and knowledge to design cities and protect us from nature. <!--SR:!2024-07-18,99,279!2024-12-02,192,330-->
 - civil engineering ::: construction, design, maintenance, and planning of the built environment, including buildings and infrastructure <!--SR:!2024-07-01,38,300!2024-07-18,64,360-->
   - "civil" meaning ::: "Civil" distinguishes non-military from military purposes. <!--SR:!2025-05-09,327,350!2024-07-31,81,377-->
-  - civil engineer characteristics ::: problem solvers <!--SR:!2024-09-28,122,335!2024-06-25,52,352-->
+  - civil engineer characteristics ::: problem solvers <!--SR:!2024-09-28,122,335!2024-12-24,182,352-->
   - civil engineering characteristics ::: Oldest engineering discipline. Takes place on all levels, from municipal to nationals in the public sector, from homeowners to international companies in the private sector. <!--SR:!2024-07-24,57,301!2024-07-13,63,360-->
   - built environment ::: man-made using materials and natural resources, benefiting mankind, with environment protection and prudent urban planning <!--SR:!2024-08-13,81,312!2024-12-30,218,330-->
     - built environment example ::: Hoover Dam, a hydroelectric and reservoir project constructed on the Colorado River from 1931 to 1936, affects Las Vegas, United States significantly to the present. <!--SR:!2024-07-18,55,297!2024-07-21,69,345-->
@@ -37,9 +37,9 @@ The content is in teaching order.
   - [civil engineering slogans in Hong Kong](#civil%20engineering%20slogans%20in%20Hong%20Kong)
 - civil engineering challenges
   - [civil engineering non-technical issues](#civil%20engineering%20non-technical%20issues)
-  - poor construction management consequences ::: Poor quality control and workmanship leads to high maintenance cost. Structural failure leads to loss of lives. <!--SR:!2024-09-13,95,300!2024-06-24,51,352-->
+  - poor construction management consequences ::: Poor quality control and workmanship leads to high maintenance cost. Structural failure leads to loss of lives. <!--SR:!2024-09-13,95,300!2024-12-21,179,352-->
     - poor quality control and workmanship consequences ::: cracks, stinky smell, water leakage <!--SR:!2024-07-03,55,352!2024-07-20,72,347-->
-    - structural failure consequences ::: building toppling over, killing workers, prosecution <!--SR:!2024-06-24,69,270!2024-07-27,75,354-->
+    - structural failure consequences ::: building toppling over, killing workers, prosecution <!--SR:!2024-12-31,189,270!2024-07-27,75,354-->
     - [structural failure example](#structural%20failure%20example)
   - civil engineering design challenges ::: complex shapes, long-span structures, underground structures <!--SR:!2024-10-25,138,340!2024-07-28,76,357-->
     - [complex shape examples](#complex%20shape%20examples)
@@ -54,7 +54,7 @@ The content is in teaching order.
 - structural engineering ::: analysis, design, and planning of structures to resist various loading and natural disasters <!--SR:!2024-10-08,126,340!2024-12-22,188,347-->
   - [structural engineering examples](#structural%20engineering%20examples)
   - [natural disasters examples](#natural%20disaster%20examples)
-  - structural engineering goals ::: safety: no collapse without warning, serviceability: deformation does not disrupt use <!--SR:!2024-07-10,46,292!2024-06-25,81,330-->
+  - structural engineering goals ::: safety: no collapse without warning, serviceability: deformation does not disrupt use <!--SR:!2024-07-10,46,292!2025-06-28,368,350-->
   - construction material factors ::: depends on availability, cost, project nature <!--SR:!2024-08-24,92,337!2024-07-08,60,355-->
     - [construction material examples](#construction%20material%20examples)
       - [reinforced concrete structure examples](#reinforced%20concrete%20structure%20examples)
@@ -62,7 +62,7 @@ The content is in teaching order.
       - timber structure examples ::: Hirschberg 13, 35037 Marburg, Germany <!--SR:!2024-07-25,56,265!2024-07-16,71,344-->
   - structural codes of practice or design codes ::: different countries have different standards <!--SR:!2025-05-25,340,350!2024-07-28,76,357-->
     - [structural code of practice examples](#structural%20code%20of%20practice%20examples)
-- geo-technical engineering ::: behavior of rock, soil, and underground water <!--SR:!2024-08-28,109,305!2024-06-25,52,347-->
+- geo-technical engineering ::: behavior of rock, soil, and underground water <!--SR:!2024-08-28,109,305!2025-03-01,249,367-->
   - geo-technical engineering structures ::: design and construction of earthworks and foundations <!--SR:!2024-07-16,50,320!2025-01-26,217,350-->
     - [geo-technical engineering structure examples](#geo-technical%20engineering%20structure%20examples)
   - [geo-technical engineering risks](#geo-technical%20engineering%20risks)
@@ -78,7 +78,7 @@ The content is in teaching order.
     - waste engineering ::: methods of disposal (e.g. landfills and incineration), site investigation and remediation, solid waste management <!--SR:!2024-06-28,44,295!2024-08-05,86,372-->
     - [water engineering](#water%20engineering)
     - noise engineering ::: noise mitigation measures (e.g. noise barriers), noise monitoring (e.g. construction noise, traffic noise) <!--SR:!2024-09-22,119,327!2024-07-18,68,350-->
-    - environmental impact assessment (EIA) ::: a systematic identification and evaluation process to assess the potential impacts of a proposed project so that mitigation measures can be developed <!--SR:!2024-08-12,66,230!2024-06-24,49,332-->
+    - environmental impact assessment (EIA) ::: a systematic identification and evaluation process to assess the potential impacts of a proposed project so that mitigation measures can be developed <!--SR:!2024-08-12,66,230!2024-12-04,162,332-->
       - [environmental impact components](#environmental%20impact%20components)
       - environmental impact assessment in [Hong Kong](../../../../general/Hong%20Kong.md) ::: regulated by the Environmental Impact Assessment (Cap. 499) 1997 <!--SR:!2024-07-27,64,314!2024-07-17,67,352-->
 - transportation engineering ::: moving goods and people effectively, efficiently, safely, and sustainably <!--SR:!2024-08-20,85,312!2024-12-04,219,319-->
@@ -98,7 +98,7 @@ The content is in teaching order.
 - civil engineer prospects ::: A civil engineering degree prepares one for work in the construction industry and the broader business, financial, and management sectors. <!--SR:!2024-10-09,164,325!2025-03-14,281,350-->
   - civil engineer demand ::: Civil engineer are always in demand due to new infrastructure and maintenance and monitoring of existing ones. <!--SR:!2024-07-31,78,360!2024-07-29,79,377-->
   - [civil engineer prospect examples](#civil%20engineer%20prospect%20examples)
-  - civil engineer organization examples ::: contractors or construction companies, engineering consulting firms, government (working as civil servants) <!--SR:!2024-07-17,87,285!2024-06-25,81,330-->
+  - civil engineer organization examples ::: contractors or construction companies, engineering consulting firms, government (working as civil servants) <!--SR:!2024-07-17,87,285!2025-03-18,266,330-->
     - civil government departments in [Hong Kong](../../../../general/Hong%20Kong.md) ::: Architectural Services Department (ArchSD), Buildings Department (BD), Housing Department (HD) <!--SR:!2024-09-25,120,332!2024-08-22,101,375-->
       - Architectural Services Department (ArchSD) ::: governmental structures, markets, playgrounds, public schools <!--SR:!2024-11-07,154,337!2024-12-06,196,330-->
       - Buildings Department (BD) ::: illegal structures, private buildings <!--SR:!2024-08-31,132,295!2024-07-24,72,354-->
@@ -144,7 +144,7 @@ quantity surveyor
 
 - _(begin)_→:::←building services engineer <!--SR:!2024-09-15,113,335!2024-08-23,102,377-->
 - building services engineer→:::←consulting civil engineer <!--SR:!2024-06-28,50,337!2024-08-25,93,337-->
-- consulting civil engineer→:::←consulting environmental engineer <!--SR:!2024-06-25,53,347!2024-06-29,47,340-->
+- consulting civil engineer→:::←consulting environmental engineer <!--SR:!2024-12-25,183,347!2024-06-29,47,340-->
 - consulting environmental engineer→:::←consulting geo-technical engineer <!--SR:!2024-07-03,40,265!2024-09-02,112,306-->
 - consulting geo-technical engineer→:::←consulting structural engineer <!--SR:!2024-07-11,57,315!2024-08-14,80,317-->
 - consulting structural engineer→:::←contracting civil engineer <!--SR:!2024-09-11,108,335!2024-08-23,88,315-->
@@ -359,7 +359,7 @@ transportation
 - _(begin)_→:::←construction <!--SR:!2025-01-13,207,355!2024-11-13,161,375-->
 - construction→:::←environmental <!--SR:!2024-09-04,96,340!2024-08-25,93,380-->
 - environmental→:::←geo-technical <!--SR:!2024-10-04,127,327!2025-01-07,205,345-->
-- geo-technical→:::←hydraulic <!--SR:!2024-06-24,44,340!2024-07-30,67,360-->
+- geo-technical→:::←hydraulic <!--SR:!2024-11-21,149,340!2024-07-30,67,360-->
 - hydraulic→:::←material <!--SR:!2024-10-03,119,340!2024-10-30,135,340-->
 - material→:::←structural <!--SR:!2024-08-15,81,317!2024-08-10,65,260-->
 - structural→:::←transportation <!--SR:!2024-07-04,51,340!2024-06-26,51,327-->
@@ -593,7 +593,7 @@ nuclear
 - _(begin)_→:::←agricultural <!--SR:!2024-09-22,136,310!2024-08-13,94,372-->
 - agricultural→:::←architectural <!--SR:!2024-07-03,60,357!2024-08-01,84,372-->
 - architectural→:::←biomedical <!--SR:!2024-11-04,144,337!2024-06-26,44,340-->
-- biomedical→:::←ceramic <!--SR:!2024-06-24,42,320!2024-09-25,114,337-->
+- biomedical→:::←ceramic <!--SR:!2024-11-05,133,320!2024-09-25,114,337-->
 - ceramic→:::←chemical <!--SR:!2024-07-12,49,320!2024-09-24,119,335-->
 - chemical→:::←civil <!--SR:!2024-10-21,133,337!2024-12-24,194,357-->
 - civil→:::←computer <!--SR:!2024-11-15,163,354!2024-12-17,189,352-->
@@ -676,7 +676,7 @@ socioeconomic
 - chemical→:::←cultural <!--SR:!2024-07-22,43,280!2024-11-27,173,357-->
 - cultural→:::←physical <!--SR:!2024-10-14,138,345!2024-07-31,64,300-->
 - physical→:::←socioeconomic <!--SR:!2024-07-23,60,297!2024-07-31,68,361-->
-- socioeconomic→:::←_(end)_ <!--SR:!2024-06-25,53,354!2024-06-26,32,277-->
+- socioeconomic→:::←_(end)_ <!--SR:!2024-12-29,187,354!2024-06-26,32,277-->
 
 <!--/pytextgen-->
 
@@ -710,7 +710,7 @@ soil liquefaction
 - debris flow→:::←landslide <!--SR:!2024-08-20,88,335!2024-08-10,78,335-->
 - landslide→:::←rockfall <!--SR:!2024-07-22,68,312!2024-08-03,65,320-->
 - rockfall→:::←soil liquefaction <!--SR:!2024-07-02,47,290!2024-09-19,118,270-->
-- soil liquefaction→:::←_(end)_ <!--SR:!2024-08-14,95,372!2024-06-25,40,295-->
+- soil liquefaction→:::←_(end)_ <!--SR:!2024-08-14,95,372!2024-10-20,117,295-->
 
 <!--/pytextgen-->
 
@@ -1228,7 +1228,7 @@ water treatment
 
 - _(begin)_→:::←groundwater quality control <!--SR:!2024-10-04,123,340!2024-11-29,175,357-->
 - groundwater quality control→:::←wastewater recycling <!--SR:!2024-07-24,61,295!2024-07-11,48,300-->
-- wastewater recycling→:::←wastewater treatment <!--SR:!2024-06-25,42,315!2024-07-14,59,317-->
+- wastewater recycling→:::←wastewater treatment <!--SR:!2024-11-03,131,315!2024-07-14,59,317-->
 - wastewater treatment→:::←water quality monitoring <!--SR:!2024-08-01,51,280!2024-07-03,50,315-->
 - water quality monitoring→:::←water treatment <!--SR:!2024-11-12,148,324!2024-09-20,117,334-->
 - water treatment→:::←_(end)_ <!--SR:!2024-07-16,68,354!2024-07-21,41,246-->

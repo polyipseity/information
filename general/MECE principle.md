@@ -9,7 +9,7 @@ tags:
 
 # MECE principle
 
-The __MECE principle__ ({{__mutually exclusive and collectively exhaustive__}}) is {{a principle separating items into subsets that are [mutually exclusive](mutual%20exclusivity.md) and [collectively exhaustive](collectively%20exhaustive%20events.md)}}. <!--SR:!2024-06-24,16,290!2024-08-20,58,310-->
+The __MECE principle__ ({{__mutually exclusive and collectively exhaustive__}}) is {{a principle separating items into subsets that are [mutually exclusive](mutual%20exclusivity.md) and [collectively exhaustive](collectively%20exhaustive%20events.md)}}. <!--SR:!2024-08-10,46,290!2024-08-20,58,310-->
 
 ## references
 

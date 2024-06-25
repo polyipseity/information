@@ -19,11 +19,11 @@ Company involves {{evaluating the company's capabilities, objectives, and strate
 
 ### competitors
 
-Competitors are {{other entities that target the same customers to fulfill the same needs}}. It is also known as {{[competitor analysis](competitor%20analysis.md)}}. <!--SR:!2024-06-24,16,290!2024-07-24,36,290-->
+Competitors are {{other entities that target the same customers to fulfill the same needs}}. It is also known as {{[competitor analysis](competitor%20analysis.md)}}. <!--SR:!2024-09-01,68,310!2024-07-24,36,290-->
 
 ### customers
 
-Customers are {{potential buyers, defined by their needs which the company intends to fulfill}}. Researching {{[demographics](demographics.md)}} is important. <!--SR:!2024-06-24,16,290!2024-08-21,59,310-->
+Customers are {{potential buyers, defined by their needs which the company intends to fulfill}}. Researching {{[demographics](demographics.md)}} is important. <!--SR:!2024-08-31,67,310!2024-08-21,59,310-->
 
 ### collaborators
 
@@ -31,7 +31,7 @@ Collaborators are {{entities working together with the company to fulfill custom
 
 ### climate
 
-Climate, also known as {{context}}, is {{the operating environment at the time}}. An analysis on the climate is also known as {{[PEST analysis](PEST%20analysis.md)}}. <!--SR:!2024-06-25,17,290!2024-08-20,58,310!2024-08-01,40,290-->
+Climate, also known as {{context}}, is {{the operating environment at the time}}. An analysis on the climate is also known as {{[PEST analysis](PEST%20analysis.md)}}. <!--SR:!2024-09-02,69,310!2024-08-20,58,310!2024-08-01,40,290-->
 
 ## references
 

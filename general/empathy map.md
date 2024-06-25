@@ -9,7 +9,7 @@ tags:
 
 # empathy map
 
-The empathy map can create {{a shared understanding of user pains and gains, and uncover latent ones}}. <!--SR:!2024-06-25,36,290-->
+The empathy map can create {{a shared understanding of user pains and gains, and uncover latent ones}}. <!--SR:!2024-10-06,103,290-->
 
 ## structure
 

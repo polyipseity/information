@@ -49,7 +49,7 @@ return await memorize_seq(
 
 ## format
 
-- cover email ::: (recipient); Refer to your vacancy of (position), please find attached <!--SR:!2024-12-30,222,338!2024-06-25,81,338-->
+- cover email ::: (recipient); Refer to your vacancy of (position), please find attached <!--SR:!2024-12-30,222,338!2025-07-06,376,358-->
 my CV and cover letter for your consideration.; (signature) <!--SR:!2024-04-18,124,290-->
 - date format ::: 1<sup>st</sup> January, 1970 <!--SR:!2024-11-17,308,330!2025-03-04,271,338-->
 - formatting ::: minimal <!--SR:!2025-03-07,333,290!2025-05-23,343,358-->

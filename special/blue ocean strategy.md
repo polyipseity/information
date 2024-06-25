@@ -11,7 +11,7 @@ tags:
 
 ## red ocean vs. blue ocean
 
-Red ocean is about {{competing in existing market space and exploiting existing demand}}. {{Either differentiation or low cost}} can be satisfied. <!--SR:!2024-06-24,15,290!2024-06-25,16,290-->
+Red ocean is about {{competing in existing market space and exploiting existing demand}}. {{Either differentiation or low cost}} can be satisfied. <!--SR:!2024-08-07,43,290!2024-08-09,45,290-->
 
 Blue ocean is about {{creating uncontested market space and capturing new demand}}. {{Both differentiation and low cost, i.e. value innovation}}, can be satisfied simultaneously. Value innovation can be represented by {{2 triangles pointing towards each other, with the 2 triangle tips overlapping in the middle}}. The upper triangle represents {{cost reduction while the lower triangle represents value creation}}, with the overlap {{representing satisfying both at the same time, hence value creation}}. <!--SR:!2024-08-18,56,310!2024-06-26,17,290!2024-07-06,18,304!2024-07-06,18,304!2024-07-06,18,304-->
 
@@ -23,7 +23,7 @@ There are 3 steps to creating blue oceans: {{understand "as-is", imagine "to be"
 
 In the 1st step, understand "as-is", the goal is to {{understand where we are now}}. You should {{mobilize your team and understand your industry}}. <!--SR:!2024-07-06,18,304!2024-07-06,18,304-->
 
-To visualize the industry, one can make use of a {{capture strategy canvas}}. It is {{a line chart}} showing the {{feature qualities of various offerings of your industry}}. Ideally, after finishing all the 3 steps, you should also plot {{your own blue ocean offering}}, of which {{some of the features should be respectively eliminated, reduced, raise, or create}}. This will be mentioned in [§ create "gap"](#create%20"gap") again. <!--SR:!2024-06-25,8,264!2024-07-06,18,304!2024-07-06,18,304!2024-06-25,8,264!2024-07-06,18,304-->
+To visualize the industry, one can make use of a {{capture strategy canvas}}. It is {{a line chart}} showing the {{feature qualities of various offerings of your industry}}. Ideally, after finishing all the 3 steps, you should also plot {{your own blue ocean offering}}, of which {{some of the features should be respectively eliminated, reduced, raise, or create}}. This will be mentioned in [§ create "gap"](#create%20"gap") again. <!--SR:!2024-07-24,29,284!2024-07-06,18,304!2024-07-06,18,304!2024-07-23,28,284!2024-07-06,18,304-->
 
 ### imagine "to be"
 

@@ -99,8 +99,8 @@ return await memorize_seq(
 <!--pytextgen generate section="a92d"--><!-- The following content is generated at 2024-06-09T06:29:24.057662+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←(Cap. 311) Air Pollution Control Ordinance <!--SR:!2024-06-27,8,295!2024-07-07,19,335-->
-- (Cap. 311) Air Pollution Control Ordinance→:::←(Cap. 354) Waste Disposal Ordinance <!--SR:!2024-06-24,7,295!2024-07-07,19,335-->
-- (Cap. 354) Waste Disposal Ordinance→:::←(Cap. 358) Water Pollution Control Ordinance <!--SR:!2024-06-24,7,295!2024-07-07,19,335-->
+- (Cap. 311) Air Pollution Control Ordinance→:::←(Cap. 354) Waste Disposal Ordinance <!--SR:!2024-07-14,19,295!2024-07-07,19,335-->
+- (Cap. 354) Waste Disposal Ordinance→:::←(Cap. 358) Water Pollution Control Ordinance <!--SR:!2024-07-15,20,295!2024-07-07,19,335-->
 - (Cap. 358) Water Pollution Control Ordinance→:::←(Cap. 400) Noise Pollution Control Ordinance <!--SR:!2024-06-28,10,295!2024-06-26,9,295-->
 - (Cap. 400) Noise Pollution Control Ordinance→:::←(Cap. 499) Environmental Impact Ordinance <!--SR:!2024-06-29,12,315!2024-07-01,14,315-->
 - (Cap. 499) Environmental Impact Ordinance→:::←_(end)_ <!--SR:!2024-07-07,19,335!2024-07-07,19,335-->
@@ -155,7 +155,7 @@ return await memorize_seq(
 - _(begin)_→:::←air sparging <!--SR:!2024-07-07,19,335!2024-07-07,19,335-->
 - air sparging→:::←bioremediation <!--SR:!2024-06-28,11,315!2024-06-29,12,315-->
 - bioremediation→:::←catalytic oxidation <!--SR:!2024-06-29,12,315!2024-06-30,13,315-->
-- catalytic oxidation→:::←ex-situ biopile <!--SR:!2024-06-25,8,295!2024-06-27,10,315-->
+- catalytic oxidation→:::←ex-situ biopile <!--SR:!2024-07-18,23,295!2024-06-27,10,315-->
 - ex-situ biopile→:::←ex-situ solidification or stabilization <!--SR:!2024-06-30,13,315!2024-06-27,10,315-->
 - ex-situ solidification or stabilization→:::←_(end)_ <!--SR:!2024-07-07,19,335!2024-06-29,12,315-->
 
@@ -282,7 +282,7 @@ Sewage Conveyance System
 Clean Victoria Harbor
 
 - HATS result ::: clean Victoria Harbor <!--SR:!2024-08-07,60,310!2024-07-30,54,310-->
-  - HATS result example ::: On 2017-10-29, 3000 swimmers participate in a previously-discontinued annual cross-harbor race. The race continues to be held. <!--SR:!2024-06-24,21,250!2024-08-03,57,310-->
+  - HATS result example ::: On 2017-10-29, 3000 swimmers participate in a previously-discontinued annual cross-harbor race. The race continues to be held. <!--SR:!2024-08-16,52,250!2024-08-03,57,310-->
 
 ## page 23
 
@@ -298,7 +298,7 @@ Noise Levels and Causes
   - airplane passing ::: 120 dB(A) <!--SR:!2024-08-08,62,310!2024-08-09,63,310-->
   - construction site ::: 110 dB(A) <!--SR:!2024-07-09,36,290!2024-08-19,71,310-->
   - concert ::: 100 dB(A) <!--SR:!2024-08-16,68,310!2024-08-15,68,310-->
-  - drilling ::: 90 dB(A) <!--SR:!2024-07-24,47,290!2024-06-25,24,270-->
+  - drilling ::: 90 dB(A) <!--SR:!2024-07-24,47,290!2024-08-27,63,270-->
   - train passing ::: 80 dB(A) <!--SR:!2024-08-11,64,310!2024-08-05,59,310-->
   - highway (harm threshold) ::: 70 dB(A) <!--SR:!2024-08-08,62,310!2024-07-23,46,290-->
   - home with TV on ::: 60 dB(A) <!--SR:!2024-07-18,44,290!2024-07-18,42,290-->
@@ -329,7 +329,7 @@ Air Pollution: A serious problem in Hong Kong?
 Air Quality Health Index
 
 - Air Quality Health Index ::: AQHI <!--SR:!2024-08-08,61,310!2024-08-16,68,310-->
-  - AQHI history ::: AQHI has replaced the Air Pollution Index (API) since 2013-12-30. <!--SR:!2024-06-25,24,270!2024-08-10,63,310-->
+  - AQHI history ::: AQHI has replaced the Air Pollution Index (API) since 2013-12-30. <!--SR:!2024-08-28,64,270!2024-08-10,63,310-->
   - AQHI scale ::: 1 to 10 and 10+, grouped into 5 health risk categories <!--SR:!2024-08-03,57,310!2024-07-27,52,310-->
   - AQHI health risk categories ::: low (green): 1~3, moderate (yellow): 4~6, high (red): 7, very high (brown): 8~10, serious (black): 10+ <!--SR:!2024-08-10,64,310!2024-07-27,52,310-->
 
