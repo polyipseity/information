@@ -64,6 +64,20 @@ ffmpeg -i "$input" -map 0 -map_metadata 0 -vf "fps=fps=$fps,scale=in_color_matri
   - `$output`: output filename without extension
   - `$pixel_format` = `yuv420p`: pixel format
 
+## GhostScript
+
+### optimize PDF
+
+```shell
+gs -dBATCH -dNOPAUSE -dQUIET -sDEVICE=pdfwrite "-dPDFSETTINGS=$preset" '-dCompatibilityLevel=2.0' "-sOutputFile=$output" "$input"
+```
+
+- parameters
+  - `$preset` = `/default`: `/screen` < `/ebook` < `/printer` < `/prepress` < `/default`; distiller parameters preset
+  - `$input`: input filename
+  - `$output`: output filename
+- source: <https://askubuntu.com/a/256449>
+
 ## PowerShell
 
 ### create hard link
