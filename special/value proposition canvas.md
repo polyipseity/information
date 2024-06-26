@@ -59,7 +59,7 @@ Value proposition design works for {{both new ventures and established organizat
 
 The value proposition canvas has two parts: {{the customer profile showing your customer understanding and the value map showing your product and its values. Achieve fit by having your product create value that satisfies customers}}. <!--SR:!2024-08-12,82,289-->
 
-The value map itself has three parts: {{products and services, pain relievers, and gain creators}}. It corresponds to the three parts of the customer profile: {{customer jobs, pains, and gains}}. Fit is achieved when {{pain relievers relieve pains and gain creators create gains that are important to the customer}}. <!--SR:!2024-07-04,61,327!2024-07-02,71,310!2024-06-26,55,309-->
+The value map itself has three parts: {{products and services, pain relievers, and gain creators}}. It corresponds to the three parts of the customer profile: {{customer jobs, pains, and gains}}. Fit is achieved when {{pain relievers relieve pains and gain creators create gains that are important to the customer}}. <!--SR:!2024-07-04,61,327!2024-07-02,71,310!2024-12-12,169,309-->
 
 ### customer profile
 
@@ -111,7 +111,7 @@ vagueness: vague jobs, pains, and gains
 
 - _(begin)_→:::←hyperfocus: focusing on functional jobs only <!--SR:!2024-08-11,62,229!2024-07-07,64,329-->
 - hyperfocus: focusing on functional jobs only→:::←insufficiency: not enough jobs, pains, and gains <!--SR:!2024-06-28,45,249!2024-07-22,61,269-->
-- insufficiency: not enough jobs, pains, and gains→:::←mix: mixing customer segments <!--SR:!2024-08-07,50,189!2024-06-26,11,169-->
+- insufficiency: not enough jobs, pains, and gains→:::←mix: mixing customer segments <!--SR:!2024-08-07,50,189!2024-07-03,7,149-->
 - mix: mixing customer segments→:::←mix: mixing jobs and outcomes <!--SR:!2024-09-29,112,289!2024-07-16,38,269-->
 - mix: mixing jobs and outcomes→:::←opposite: gains and pains are not opposite, gains are beyond expectation while pains are falling short of expectation <!--SR:!2024-07-26,31,265!2024-09-20,87,285-->
 - opposite: gains and pains are not opposite, gains are beyond expectation while pains are falling short of expectation→:::←reversed: listing jobs, pains, and gains from your product value propositions <!--SR:!2024-07-27,65,269!2024-07-07,54,269-->
@@ -212,7 +212,7 @@ find customer patterns
 
 - _(begin)_→:::←create a customer profile <!--SR:!2024-10-25,144,309!2024-07-19,74,329-->
 - create a customer profile→:::←outline the interview <!--SR:!2024-07-09,59,289!2024-09-29,114,289-->
-- outline the interview→:::←interview <!--SR:!2024-07-25,78,329!2024-06-26,56,309-->
+- outline the interview→:::←interview <!--SR:!2024-07-25,78,329!2025-02-20,239,329-->
 - interview→:::←capture new customer profile <!--SR:!2024-07-22,67,289!2024-06-29,54,309-->
 - capture new customer profile→:::←review interview, and repeat from "outline the interview" several times, like 10 times <!--SR:!2024-07-29,77,270!2024-07-13,63,289-->
 - review interview, and repeat from "outline the interview" several times, like 10 times→:::←find customer patterns <!--SR:!2024-09-29,104,269!2024-07-17,65,289-->

@@ -47,7 +47,7 @@ The content is in teaching order.
     - underground structure examples ::: Turin–Lyon high-speed railway (2002–2032), 271 km long, has the Mont Cenis base tunnel that is 57.5 km long with up to 4 km long access tunnels <!--SR:!2024-09-16,99,321!2024-10-26,147,352-->
   - [civil engineering new challenges](#civil%20engineering%20new%20challenges)
     - climate change engineering examples ::: Project MOSE (2003–2025) in Venice, Thames Barrier (1974–1982) <!--SR:!2024-07-05,42,287!2024-08-30,98,380-->
-      - Thames Barrier (1974–1982) mechanism ::: The gate is a chord of a circle. It rotates along the circumference of the circle. When open, it acts like the river floor. When closing, the chord rotates about the circle center and becomes a barrier. <!--SR:!2024-09-13,110,337!2024-06-26,44,340-->
+      - Thames Barrier (1974–1982) mechanism ::: The gate is a chord of a circle. It rotates along the circumference of the circle. When open, it acts like the river floor. When closing, the chord rotates about the circle center and becomes a barrier. <!--SR:!2024-09-13,110,337!2024-11-22,149,340-->
 - civil engineering solutions ::: smart cities <!--SR:!2024-09-06,105,380!2024-08-21,100,376-->
   - smart cities examples ::: Using technology to gather information, predict events, and notify people. <!--SR:!2025-03-24,304,335!2024-08-29,97,380-->
 - [civil engineering subdisciplines](#civil%20engineering%20subdisciplines)
@@ -66,7 +66,7 @@ The content is in teaching order.
   - geo-technical engineering structures ::: design and construction of earthworks and foundations <!--SR:!2024-07-16,50,320!2025-01-26,217,350-->
     - [geo-technical engineering structure examples](#geo-technical%20engineering%20structure%20examples)
   - [geo-technical engineering risks](#geo-technical%20engineering%20risks)
-    - geo-technical engineering risk migration ::: soil improvement or retaining structures can migrate risk to society <!--SR:!2024-06-26,48,340!2024-08-08,89,377-->
+    - geo-technical engineering risk migration ::: soil improvement or retaining structures can migrate risk to society <!--SR:!2024-12-05,162,340!2024-08-08,89,377-->
 - hydraulic engineering ::: conveyance and flow of fluids, principally sewage and water <!--SR:!2024-11-09,159,285!2024-07-11,63,345-->
   - hydraulic engineering structures ::: design and construction of hydraulic structures <!--SR:!2024-09-17,115,324!2024-07-07,62,345-->
     - [hydraulic engineering structure examples](#hydraulic%20engineering%20structure%20examples)
@@ -236,7 +236,7 @@ water security
 - climate change→:::←extreme weather <!--SR:!2024-09-09,102,337!2025-01-04,199,350-->
 - extreme weather→:::←food security <!--SR:!2024-11-12,150,330!2024-07-13,68,347-->
 - food security→:::←mega-cities <!--SR:!2024-08-27,95,352!2024-09-18,100,320-->
-- mega-cities→:::←water security <!--SR:!2024-07-16,64,360!2024-06-26,53,354-->
+- mega-cities→:::←water security <!--SR:!2024-07-16,64,360!2024-12-30,187,354-->
 - water security→:::←_(end)_ <!--SR:!2025-04-28,318,350!2024-09-29,107,337-->
 
 <!--/pytextgen-->
@@ -362,7 +362,7 @@ transportation
 - geo-technical→:::←hydraulic <!--SR:!2024-11-21,149,340!2024-07-30,67,360-->
 - hydraulic→:::←material <!--SR:!2024-10-03,119,340!2024-10-30,135,340-->
 - material→:::←structural <!--SR:!2024-08-15,81,317!2024-08-10,65,260-->
-- structural→:::←transportation <!--SR:!2024-07-04,51,340!2024-06-26,51,327-->
+- structural→:::←transportation <!--SR:!2024-07-04,51,340!2024-12-03,160,327-->
 - transportation→:::←_(end)_ <!--SR:!2024-06-30,55,350!2024-07-12,41,361-->
 
 <!--/pytextgen-->
@@ -592,7 +592,7 @@ nuclear
 
 - _(begin)_→:::←agricultural <!--SR:!2024-09-22,136,310!2024-08-13,94,372-->
 - agricultural→:::←architectural <!--SR:!2024-07-03,60,357!2024-08-01,84,372-->
-- architectural→:::←biomedical <!--SR:!2024-11-04,144,337!2024-06-26,44,340-->
+- architectural→:::←biomedical <!--SR:!2024-11-04,144,337!2024-11-25,152,340-->
 - biomedical→:::←ceramic <!--SR:!2024-11-05,133,320!2024-09-25,114,337-->
 - ceramic→:::←chemical <!--SR:!2024-07-12,49,320!2024-09-24,119,335-->
 - chemical→:::←civil <!--SR:!2024-10-21,133,337!2024-12-24,194,357-->
@@ -676,7 +676,7 @@ socioeconomic
 - chemical→:::←cultural <!--SR:!2024-07-22,43,280!2024-11-27,173,357-->
 - cultural→:::←physical <!--SR:!2024-10-14,138,345!2024-07-31,64,300-->
 - physical→:::←socioeconomic <!--SR:!2024-07-23,60,297!2024-07-31,68,361-->
-- socioeconomic→:::←_(end)_ <!--SR:!2024-12-29,187,354!2024-06-26,32,277-->
+- socioeconomic→:::←_(end)_ <!--SR:!2024-12-29,187,354!2024-09-24,90,277-->
 
 <!--/pytextgen-->
 
@@ -743,7 +743,7 @@ tunnel
 - _(begin)_→:::←embankment <!--SR:!2024-10-03,112,320!2024-08-11,87,380-->
 - embankment→:::←pile foundation <!--SR:!2024-10-10,116,320!2024-07-15,61,360-->
 - pile foundation→:::←shallow foundation <!--SR:!2024-07-17,54,317!2024-06-27,54,355-->
-- shallow foundation→:::←tunnel <!--SR:!2024-06-26,33,321!2024-07-10,21,232-->
+- shallow foundation→:::←tunnel <!--SR:!2024-10-08,104,321!2024-07-10,21,232-->
 - tunnel→:::←_(end)_ <!--SR:!2024-07-04,56,350!2024-08-01,67,317-->
 
 <!--/pytextgen-->
@@ -811,7 +811,7 @@ water distribution network
 - _(begin)_→:::←sewage collection network <!--SR:!2024-09-22,113,341!2024-08-11,79,317-->
 - sewage collection network→:::←storm water management <!--SR:!2024-07-04,41,267!2024-09-18,110,341-->
 - storm water management→:::←water collection network <!--SR:!2024-08-28,84,320!2024-09-19,101,320-->
-- water collection network→:::←water distribution network <!--SR:!2024-08-30,98,380!2024-06-26,51,352-->
+- water collection network→:::←water distribution network <!--SR:!2024-08-30,98,380!2024-12-24,181,352-->
 - water distribution network→:::←_(end)_ <!--SR:!2025-01-05,204,367!2024-07-16,43,321-->
 
 <!--/pytextgen-->
@@ -1055,7 +1055,7 @@ Hong Kong Code
 - American Code→:::←Australian Standard <!--SR:!2024-12-27,193,355!2024-08-14,95,375-->
 - Australian Standard→:::←Chinese Code <!--SR:!2024-06-28,50,327!2024-06-28,50,337-->
 - Chinese Code→:::←Eurocode <!--SR:!2024-10-14,128,335!2024-07-18,70,357-->
-- Eurocode→:::←Hong Kong Code <!--SR:!2024-06-26,53,356!2024-11-26,168,357-->
+- Eurocode→:::←Hong Kong Code <!--SR:!2025-03-11,258,376!2024-11-26,168,357-->
 - Hong Kong Code→:::←_(end)_ <!--SR:!2024-08-01,82,367!2025-02-21,263,350-->
 
 <!--/pytextgen-->

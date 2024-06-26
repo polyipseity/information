@@ -43,7 +43,7 @@ return await memorize_seq(
 
 <!--pytextgen generate section="8baa"--><!-- The following content is generated at 2024-03-12T21:10:03.124339+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←[empathize](#empathize) (blue) <!--SR:!2024-10-08,127,290!2024-06-26,65,310-->
+- _(begin)_→:::←[empathize](#empathize) (blue) <!--SR:!2024-10-08,127,290!2025-03-31,278,330-->
 - [empathize](#empathize) (blue)→:::←[define](#define) (green) <!--SR:!2024-08-19,89,270!2024-06-29,68,310-->
 - [define](#define) (green)→:::←[ideate](#ideate) (yellow) <!--SR:!2024-08-26,84,250!2024-07-01,56,250-->
 - [ideate](#ideate) (yellow)→:::←[prototype](#prototype) (red) <!--SR:!2024-09-05,112,290!2024-08-15,85,270-->
@@ -117,7 +117,7 @@ return await memorize_seq(
 <!--pytextgen generate section="0a8b"--><!-- The following content is generated at 2024-03-22T20:40:48.789313+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←(empathize) assume a beginner's mindset <!--SR:!2024-07-26,74,270!2024-06-28,67,310-->
-- (empathize) assume a beginner's mindset→:::←(empathize) extreme users: find amplified pains and gains <!--SR:!2024-06-26,59,270!2024-10-27,155,310-->
+- (empathize) assume a beginner's mindset→:::←(empathize) extreme users: find amplified pains and gains <!--SR:!2025-02-02,221,290!2024-10-27,155,310-->
 - (empathize) extreme users: find amplified pains and gains→:::←(empathize) interview for empathy: interview with two <!--SR:!2024-08-11,81,270!2024-07-12,24,250-->
 - (empathize) interview for empathy: interview with two→:::←(empathize) interview preparation: prepare, prioritize, and refine questions <!--SR:!2024-10-19,129,270!2024-06-27,66,310-->
 - (empathize) interview preparation: prepare, prioritize, and refine questions→:::←(empathize) what, how, why: from the concrete to the abstract <!--SR:!2024-06-27,5,130!2024-07-04,38,210-->

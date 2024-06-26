@@ -44,7 +44,7 @@ The content is in teaching order.
 - time: 2024-02-20T18:00:00+08:00/2024-02-20T20:30:00+08:00
 - [competitor analysis § outline](../../../../general/competitor%20analysis.md#outline)
 - [customer development](../../../../general/customer%20development.md)
-  - [Peter Drucker](../../../../general/Peter%20Drucker.md) on business and customer ::: "The purpose of a business is to create and keep a customer." <!--SR:!2024-07-12,47,315!2024-06-26,28,315-->
+  - [Peter Drucker](../../../../general/Peter%20Drucker.md) on business and customer ::: "The purpose of a business is to create and keep a customer." <!--SR:!2024-07-12,47,315!2024-10-25,121,335-->
   - [Steve Blank](../../../../general/Steve%20lank.md) on startup success ::: "More start-ups fail from lack of customers than from a failure from product development." <!--SR:!2024-07-10,45,315!2024-06-27,31,295-->
   - [§ importance](../../../../general/customer%20development.md#importance)
   - [§ customer discovery](../../../../general/customer%20development.md#customer%20discovery)
@@ -150,7 +150,7 @@ The content is in teaching order.
 - [information § context](information.md#context)
 - [information § part 2: case analysis](information.md#part%202%20case%20analysis)
 - thinking processes ::: deduction, evaluation, inference, interpretation <!--SR:!2024-08-24,60,341!2024-08-20,56,341-->
-  - deduction ::: application; arrive at conclusions based on given premises and rules <!--SR:!2024-06-26,18,341!2024-06-27,19,341-->
+  - deduction ::: application; arrive at conclusions based on given premises and rules <!--SR:!2024-08-30,65,341!2024-06-27,19,341-->
   - evaluation ::: unbiased, unemotional; systematically assess, determine, or examine the effectiveness, quality, or value of something <!--SR:!2024-07-15,29,301!2024-06-28,20,341-->
   - inference ::: generalize; draw rules or predictions based on observed examples <!--SR:!2024-06-27,19,341!2024-06-27,19,341-->
   - interpretation ::: explain or understand meaning, implications, or significance of something <!--SR:!2024-07-01,16,301!2024-06-27,19,341-->
@@ -162,29 +162,29 @@ The content is in teaching order.
   - time limit: 6 minutes
 - [consultant](../../../../general/consultant.md)
   - consultant job prospects
-    - consultant after 1 to 2 years ::: Analyst, Associate, Specialist: doing the work; enter from BA, BS, MPhil, or MSc <!--SR:!2024-08-09,47,321!2024-06-26,18,341-->
+    - consultant after 1 to 2 years ::: Analyst, Associate, Specialist: doing the work; enter from BA, BS, MPhil, or MSc <!--SR:!2024-08-09,47,321!2024-08-24,59,341-->
     - consultant after 2 to 4 years ::: As. Consultant, Consultant, Sr. Consultant: doing the work; enter from JD, MBA, MD, or PhD, exit to project member of big firms or manager in small firms, and further top MBA <!--SR:!2024-06-28,20,341!2024-08-08,46,321-->
     - consultant after 4 to 6 years ::: Eng. Manager, Mg. Consultant, Project Leader: managing the work; exit to manager of big firms or director of small firms, and further top EMBA <!--SR:!2024-07-22,34,301!2024-06-27,19,341-->
     - consultant after 6 to 9 years ::: As. Partner, Principal: selling the work; exit to director of big firms or general manager (GM) of small firms, and further top EMBA <!--SR:!2024-07-21,33,301!2024-08-07,46,321-->
     - consultant after 9 years or more ::: Director, Partner, VP: managing the business; exit to CEO or retire rich <!--SR:!2024-08-23,59,341!2024-06-27,19,341-->
 - nature of complex problems ::: modeled by time-varying multi-variable optimization problems with constraints <!--SR:!2024-07-04,9,321!2024-06-27,19,341-->
-  - solving complex problems ::: MECE frameworks for patterns, 5-step persuasive selling for presentation <!--SR:!2024-06-26,18,341!2024-07-25,36,321-->
+  - solving complex problems ::: MECE frameworks for patterns, 5-step persuasive selling for presentation <!--SR:!2024-09-21,87,361!2024-07-25,36,321-->
 - [Pareto principle](../../../../general/Pareto%20principle.md)
 - "less is more" ::: In the digital age, there is too much information (digital garbage), so they need to be distilled. Also see [DIKW pyramid](../../../../general/DIKW%20pyramid.md). <!--SR:!2024-08-23,59,341!2024-06-27,19,341-->
 - [MECE principle](../../../../general/MECE%20principle.md)
 - modeling key concepts ::: abstraction, framework, model <!--SR:!2024-08-25,61,341!2024-06-28,20,341-->
-  - modeling key concept: abstraction ::: filter for elements relevant to some specific purpose <!--SR:!2024-06-26,18,341!2024-06-28,20,341-->
-  - modeling key concept: framework ::: a support structure around which something can be built <!--SR:!2024-06-27,19,341!2024-06-26,18,341-->
+  - modeling key concept: abstraction ::: filter for elements relevant to some specific purpose <!--SR:!2024-09-17,83,361!2024-06-28,20,341-->
+  - modeling key concept: framework ::: a support structure around which something can be built <!--SR:!2024-06-27,19,341!2024-08-24,59,341-->
   - modeling key concept: model ::: an abstraction of the real world for some specific purpose <!--SR:!2024-09-05,72,361!2024-07-19,31,341-->
-- Aguilar's PESTLE framework ::: business environment analysis <!--SR:!2024-06-27,19,341!2024-06-26,18,341-->
+- Aguilar's PESTLE framework ::: business environment analysis <!--SR:!2024-06-27,19,341!2024-09-15,81,361-->
   - [PEST analysis § composition](../../../../general/PEST%20analysis.md#composition)
-- Porter's 5 forces framework ::: industry profitability analysis <!--SR:!2024-06-26,18,341!2024-06-26,18,341-->
+- Porter's 5 forces framework ::: industry profitability analysis <!--SR:!2024-08-28,63,341!2024-08-27,62,341-->
   - [Porter's five forces analysis](../../../../general/Porter's%20five%20forces%20analysis.md)
     - [§ five forces that shape competition](../../../../general/Porter's%20five%20forces%20analysis.md#five%20forcs%20that%20shape%20competition)
     - [§ usage](../../../../general/Porter's%20five%20forces%20analysis.md#usage)
 - Chernev's 5C framework ::: market & business analysis <!--SR:!2024-06-28,20,341!2024-06-28,20,341-->
   - [situation analysis § 5C analysis](../../../../general/situation%20analysis.md#5C%20analysis)
-  - 5C analysis & ancient Chinese philosophy ::: 天時·地利·人和 <!--SR:!2024-06-26,18,341!2024-06-26,18,341-->
+  - 5C analysis & ancient Chinese philosophy ::: 天時·地利·人和 <!--SR:!2024-09-19,85,361!2024-09-18,84,361-->
   - Chernev's 5C framework § competitor ::: The competitor aspect can use [competitor analysis](../../../../general/competitor%20analysis.md). <!--SR:!2024-06-27,19,341!2024-06-28,20,341-->
   - Chernev's 5C framework § context ::: The context aspect can use Anguilar's PESTLE framework. <!--SR:!2024-06-27,19,341!2024-06-27,19,341-->
 - McCarthy's 4P framework ::: market-related analysis <!--SR:!2024-06-28,20,341!2024-06-27,19,341-->
@@ -198,20 +198,20 @@ The content is in teaching order.
 ## week 11 lecture
 
 - time: 2024-04-09T18:00:00+08:00/2024-04-09T20:30:00+08:00
-- critical thinking pop quiz takeaways ::: cannot blindly trust given premises, case analysis needs to consider human behaviors, possess general knowledge <!--SR:!2024-06-26,18,341!2024-06-26,18,341-->
+- critical thinking pop quiz takeaways ::: cannot blindly trust given premises, case analysis needs to consider human behaviors, possess general knowledge <!--SR:!2024-08-23,58,341!2024-09-19,85,361-->
 - [assignment W9](assignment%20W9/assignment%20W9.md) takeaways
   - general case analysis question takeaways ::: Identify key questions. Choose the question that is most precise and involves least work. <!--SR:!2024-08-23,59,341!2024-06-27,19,341-->
-  - use of framework takeaways ::: Consider relevant dimensions of each framework and select the framework with the most relevant dimensions. Add a total at the end to sum up all the dimensions. <!--SR:!2024-06-26,18,341!2024-06-28,20,341-->
+  - use of framework takeaways ::: Consider relevant dimensions of each framework and select the framework with the most relevant dimensions. Add a total at the end to sum up all the dimensions. <!--SR:!2024-08-30,65,341!2024-06-28,20,341-->
 - nature of problems ::: Problems are caused by a network of causes. If the causes are not removed, the problems may recur. <!--SR:!2024-07-04,19,321!2024-06-27,19,341-->
-- casual relationship ::: Event A, called the _cause_, causes event B, called the _effect_. <!--SR:!2024-08-22,58,341!2024-06-26,18,341-->
+- casual relationship ::: Event A, called the _cause_, causes event B, called the _effect_. <!--SR:!2024-08-22,58,341!2024-09-20,86,361-->
 - correlation ::: Measure of relationship between 2 variables. They can be positively correlated, negatively correlated, or uncorrelated. <!--SR:!2024-07-05,10,321!2024-07-28,38,321-->
-- casual relationship & correlation ::: Correlation does not imply causation. <!--SR:!2024-06-26,18,341!2024-06-26,18,341-->
+- casual relationship & correlation ::: Correlation does not imply causation. <!--SR:!2024-09-14,80,361!2024-09-20,86,361-->
 - [root cause analysis](../../../../general/root%20cause%20analysis.md) ::: discovery of casual relationships <!--SR:!2024-08-08,46,321!2024-08-16,52,341-->
 - [five whys](../../../../general/five%20whys.md)
 - cause mapping process ::: define the issue by its impact to business goals, visualize the problem, and prevent or mitigate negative impacts <!--SR:!2024-07-13,27,321!2024-08-18,58,341-->
 - cause mapping notation (at least for this course)
   - cause mapping + MECE dimensions ::: Choose a MECE framework. For one of the causes, split the further causes by MECE dimensions. Label the further causes by their corresponding dimensions. Explain why, if some dimensions are irrelevant and thus has no further causes. <!--SR:!2024-07-11,25,321!2024-06-28,20,341-->
-  - cause mapping § arrow direction ::: cause to effect <!--SR:!2024-06-26,18,341!2024-06-26,18,341-->
+  - cause mapping § arrow direction ::: cause to effect <!--SR:!2024-09-14,80,361!2024-09-17,83,361-->
   - cause mapping § evidences ::: below the cause, pink background <!--SR:!2024-07-16,29,321!2024-06-28,20,341-->
   - cause mapping § operators ::: AND, OR <!--SR:!2024-06-28,20,341!2024-09-07,74,361-->
   - cause mapping § solutions ::: above the cause, green background <!--SR:!2024-08-26,62,341!2024-06-28,20,341-->
@@ -220,7 +220,7 @@ The content is in teaching order.
   - [§ format](../../../5-step%20persuasive%20selling.md#format)
 - more trees (for TEMG 4950) ::: issue tree and hypothesis tree <!--SR:!2024-08-18,54,341!2024-09-11,78,361-->
 - cause mapping extensions ::: facts table, solutions table <!--SR:!2024-09-06,73,361!2024-06-27,19,341-->
-  - facts table ::: what, when, where, impact <!--SR:!2024-06-26,18,341!2024-08-15,51,341-->
+  - facts table ::: what, when, where, impact <!--SR:!2024-09-19,85,361!2024-08-15,51,341-->
   - solutions table ::: no., cause, solution; optionally, time, persons responsible, budget <!--SR:!2024-08-19,55,341!2024-06-27,19,341-->
 - interview note-taking technique using 1 sheet of A4 paper ::: facts, key question (only 1), analysis <!--SR:!2024-06-27,19,341!2024-06-28,20,341-->
   - interview note § layout ::: split the paper into 2, the left side is thinner and holds the facts and key question, and the right side is the analysis <!--SR:!2024-07-31,42,321!2024-06-28,20,341-->
@@ -245,7 +245,7 @@ The content is in teaching order.
 ## week 13 lecture
 
 - time: 2024-04-23T18:00:00+08:00/2024-04-23T20:30:00+08:00
-- To be successful in business, you need to eat/kill the competition. Right? ::: Or you could make the competition irrelevant instead by creating uncontested market space... <!--SR:!2024-06-26,17,357!2024-06-29,20,357-->
+- To be successful in business, you need to eat/kill the competition. Right? ::: Or you could make the competition irrelevant instead by creating uncontested market space... <!--SR:!2024-09-14,80,377!2024-06-29,20,357-->
 - [blue ocean strategy](../../../blue%20ocean%20strategy.md)
   - [general/Blue Ocean Strategy](../../../../general/Blue%20Ocean%20Strategy.md)
   - [§ red ocean vs. blue ocean](../../../blue%20ocean%20strategy.md#red%20ocean%20vs.%20blue%20ocean)

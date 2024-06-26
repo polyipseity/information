@@ -101,7 +101,7 @@ See [CITIC Plaza](../../../../general/CITIC%20Plaza.md).
 See [Colosseum](../../../../general/Colosseum.md).
 
 - base widths ::: length: 189 m, width: 156 m <!--SR:!2024-07-14,40,336!2024-10-12,112,376-->
-- construction period ::: AD 72 to AD 80, 8 years <!--SR:!2024-06-29,6,276!2024-06-26,33,376-->
+- construction period ::: AD 72 to AD 80, 8 years <!--SR:!2024-06-29,6,276!2024-12-11,168,396-->
 - description ::: elliptical amphitheater in the center of Rome <!--SR:!2024-08-18,72,376!2024-10-13,113,376-->
 - geographic location ::: Rome <!--SR:!2024-10-13,119,396!2024-10-29,133,396-->
 - height ::: 48 m (4 storeys) <!--SR:!2024-06-30,19,316!2024-11-11,143,396-->
@@ -179,7 +179,7 @@ See [Hong Kong–Zhuhai–Macau Bridge](../../../../general/Hong%20Kong–Zhuhai
 See [Hoover Dam](../../../../general/Hoover%20Dam.md).
 
 - [dam type](../../../../general/dam.md#types) ::: concrete gravity-arch <!--SR:!2024-09-03,94,320!2024-08-16,97,375-->
-- height ::: 221.4 m <!--SR:!2024-06-26,33,281!2025-02-27,247,367-->
+- height ::: 221.4 m <!--SR:!2024-09-29,95,281!2025-02-27,247,367-->
 - image ::: ![Hoover Dam image](../../../../archives/Wikimedia%20Commons/Ansel%20Adams%20-%20National%20Archives%2079-AAB-01.jpg) <!--SR:!2024-08-09,77,360!2024-08-31,97,380-->
 - length ::: 379 m <!--SR:!2024-07-02,25,261!2025-02-11,235,370-->
 
@@ -237,13 +237,13 @@ See [Mont d'Ambin Base Tunnel](../../../../general/Mont%20d'Ambin%20Base%20Tunne
 
 See [Delta Works](../../../../general/Delat%20Works.md) and [Zuiderzee Works](../../../../general/Zuiderzee%20Works.md).
 
-- image ::: ![Netherlands North Sea Protection Works image](../../../../archives/Wikimedia%20Commons/Maeslantkering.jpg) <!--SR:!2024-11-17,149,396!2024-06-26,33,376-->
+- image ::: ![Netherlands North Sea Protection Works image](../../../../archives/Wikimedia%20Commons/Maeslantkering.jpg) <!--SR:!2024-11-17,149,396!2024-12-07,164,396-->
 
 ## Panama Canal
 
 See [Panama Canal](../../../../general/Panama%20Canal.md).
 
-- image ::: ![Panama Canal image](../../../../archives/Wikimedia%20Commons/Panama%20canal%20panoramic%20view%20from%20the%20top%20of%20Ancon%20hill.jpg) <!--SR:!2024-09-18,93,376!2024-06-26,33,376-->
+- image ::: ![Panama Canal image](../../../../archives/Wikimedia%20Commons/Panama%20canal%20panoramic%20view%20from%20the%20top%20of%20Ancon%20hill.jpg) <!--SR:!2024-09-18,93,376!2024-12-08,165,396-->
 
 ## Parthenon
 
@@ -278,7 +278,7 @@ See [Sutong Yangtze River Bridge](../../../../general/Sutong%20Yangtze%20River%2
 See [Taipei 101](Taipei%20101.md).
 
 - description ::: skyscraper in Taipei, Taiwan <!--SR:!2025-03-31,295,350!2024-09-04,103,380-->
-- height ::: architectural: 508.2 m, tip: 509.2 m, top floor: 438 m <!--SR:!2024-06-26,4,181!2024-11-19,179,330-->
+- height ::: architectural: 508.2 m, tip: 509.2 m, top floor: 438 m <!--SR:!2024-07-05,9,181!2024-11-19,179,330-->
 - image ::: ![Taipei 101 image](../../../../archives/Wikimedia%20Commons/Tower%20of%20Taipei%20101(cropped).jpg) <!--SR:!2024-07-18,55,360!2024-08-17,85,380-->
 - [structural system](../../../../general/structural%20system.md) ::: concrete–steel composite<!-- flashcard 16556e6f-00ca-4a87-845c-f0ea2f56807a --> <!--SR:!2024-09-10,92,320!2024-08-23,90,380-->
 

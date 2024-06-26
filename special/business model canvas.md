@@ -67,7 +67,7 @@ C$: [cost structure](#cost%20structure)
 - R$: [revenue streams](#revenue%20streams)→:::←KR: [key resources](#key%20resources) <!--SR:!2024-06-27,45,257!2024-09-26,101,257-->
 - KR: [key resources](#key%20resources)→:::←KA: [key activities](#key%20activities) <!--SR:!2024-07-10,49,257!2024-08-08,77,274-->
 - KA: [key activities](#key%20activities)→:::←KP: [key partnerships](#key%20partnerships) <!--SR:!2024-07-16,55,257!2024-08-17,57,254-->
-- KP: [key partnerships](#key%20partnerships)→:::←C$: [cost structure](#cost%20structure) <!--SR:!2024-06-26,19,257!2024-08-31,98,274-->
+- KP: [key partnerships](#key%20partnerships)→:::←C$: [cost structure](#cost%20structure) <!--SR:!2024-08-12,47,257!2024-08-31,98,274-->
 - C$: [cost structure](#cost%20structure)→:::←_(end)_ <!--SR:!2025-01-30,219,314!2025-01-14,207,314-->
 
 <!--/pytextgen-->
@@ -112,7 +112,7 @@ segmented: splitting slightly different customer segments
 - diversified: serving unrelated customer segments→:::←mass market: not distinguishing between customer segments <!--SR:!2024-09-10,84,237!2024-09-21,96,254-->
 - mass market: not distinguishing between customer segments→:::←multi-sided platforms: serving interdependent customer segments <!--SR:!2024-08-03,73,274!2024-09-12,109,297-->
 - multi-sided platforms: serving interdependent customer segments→:::←niche market: focusing on specific, specialized customer segments <!--SR:!2024-06-29,47,257!2024-09-12,79,254-->
-- niche market: focusing on specific, specialized customer segments→:::←segmented: splitting slightly different customer segments <!--SR:!2024-09-30,100,254!2024-06-26,42,257-->
+- niche market: focusing on specific, specialized customer segments→:::←segmented: splitting slightly different customer segments <!--SR:!2024-09-30,100,254!2024-07-14,18,237-->
 - segmented: splitting slightly different customer segments→:::←_(end)_ <!--SR:!2024-07-21,68,274!2024-07-06,45,254-->
 
 <!--/pytextgen-->
@@ -280,7 +280,7 @@ The key resources building block shows {{important assets required for the busin
 
 #### key activities
 
-The key activities building block shows {{important activities required for the business model}}. They can be categorized into {{platform or network, problem solving, and production}} activities. <!--SR:!2024-09-06,98,294!2024-06-26,46,257-->
+The key activities building block shows {{important activities required for the business model}}. They can be categorized into {{platform or network, problem solving, and production}} activities. <!--SR:!2024-09-06,98,294!2024-10-20,116,257-->
 
 #### key partnerships
 

@@ -17,7 +17,7 @@ tags:
 
 ## objective
 
-The framework has {{7 _interdependent_ elements}}, of which {{3 are _hard elements_ and 4 are _soft elements_}}. Hard elements {{might be easier to define than soft elements but they are equally important}}. The most important element is {{shared values}}. <!--SR:!2024-08-22,58,310!2024-06-26,17,290!2024-08-09,48,310!2024-08-27,63,310-->
+The framework has {{7 _interdependent_ elements}}, of which {{3 are _hard elements_ and 4 are _soft elements_}}. Hard elements {{might be easier to define than soft elements but they are equally important}}. The most important element is {{shared values}}. <!--SR:!2024-08-22,58,310!2024-09-04,70,310!2024-08-09,48,310!2024-08-27,63,310-->
 
 The 3 hard elements are {{_strategy_, _structure_, and _systems_}}. <!--SR:!2024-07-01,15,250-->
 
@@ -27,7 +27,7 @@ The 3 hard elements are {{_strategy_, _structure_, and _systems_}}. <!--SR:!2024
 
 The 4 soft elements are {{_shared values_, _skills_, _staff_, and _style_}}. <!--SR:!2024-07-15,26,270-->
 
-- _shared values_ ::: core beliefs and values forming the corporate culture <!--SR:!2024-06-26,17,290!2024-08-15,53,310-->
+- _shared values_ ::: core beliefs and values forming the corporate culture <!--SR:!2024-09-02,68,310!2024-08-15,53,310-->
 - _skills_ ::: core competencies and distinctive capabilities, such as existing skills, skill development <!--SR:!2024-08-11,47,290!2024-08-19,57,310-->
 - _staff_ ::: hiring and firing standards or policies, and staff characteristics <!--SR:!2024-07-28,36,290!2024-08-16,54,310-->
 - _style_ ::: behavior patterns of key groups, such as management style <!--SR:!2024-08-31,67,310!2024-08-17,55,310-->
