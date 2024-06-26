@@ -11,7 +11,7 @@ tags:
 
 # Hubble's law
 
-__Hubble's law__, also known as {{the __Hubble–Lemaître law__}}, is {{the observation in [physical cosmology](physical%20cosmology.md) that [galaxies](galaxy.md) are moving away from [Earth](Earth.md) at speeds proportional to their distance}}. In other words, {{the farther they are, the faster they are moving away from [Earth](Earth.md)}}.
+__Hubble's law__, also known as {{the __Hubble–Lemaître law__}}, is {{the observation in [physical cosmology](physical%20cosmology.md) that [galaxies](galaxy.md) are moving away from [Earth](Earth.md) at speeds proportional to their distance}}. In other words, {{the farther they are, the faster they are moving away from [Earth](Earth.md)}}. <!--SR:!2024-06-30,4,270!2024-06-30,4,270!2024-06-29,3,250-->
 
 ## references
 

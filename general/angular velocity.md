@@ -11,9 +11,9 @@ tags:
 
 ## orbital angular velocity of a point particle
 
-The angular velocity $\omega$ is {{the rate of change of angular position with respect to time, which can be computed from the cross-radial velocity}} as: {{$$\omega = \frac {\mathrm{d}\phi} {\mathrm{d}t} = \frac {v_{\perp} } r$$}}
+The angular velocity $\omega$ is {{the rate of change of angular position with respect to time, which can be computed from the cross-radial velocity}} as: {{$$\omega = \frac {\mathrm{d}\phi} {\mathrm{d}t} = \frac {v_{\perp} } r$$}} <!--SR:!2024-06-30,4,270!2024-06-30,4,270-->
 
-Here, the cross-radial speed $v_{\perp}$ is {{the signed magnitude of $\mathbf{v}_{\perp}$, positive for counterclockwise motion, negative for clockwise}}, and the radius $r$ is {{the distance from the center}}.
+Here, the cross-radial speed $v_{\perp}$ is {{the signed magnitude of $\mathbf{v}_{\perp}$, positive for counterclockwise motion, negative for clockwise}}, and the radius $r$ is {{the distance from the center}}. <!--SR:!2024-06-30,4,270!2024-06-30,4,270-->
 
 ## references
 
