@@ -9,7 +9,7 @@ tags:
 
 # galaxy group
 
-A __galaxy group__ or __group of galaxies__ (__GrG__) is {{an aggregation of [galaxies](galaxy.md) comprising about 50 or fewer [gravitationally](gravity.md) bound members, each at least as luminous as the [Milky Way](Milky%20Way.md) (about 10<sup>10</sup> times the luminosity of the [Sun](Sun.md))}}; collections of galaxies {{larger than groups that are first-order clustering are called [galaxy clusters](galaxy%20cluster.md)}}. The groups and clusters of galaxies can {{themselves be clustered, into [superclusters](supercluster.md) of galaxies}}. <!--SR:!2024-06-29,3,250!2024-06-30,4,270!2024-06-30,4,270-->
+A __galaxy group__ or __group of galaxies__ (__GrG__) is {{an aggregation of [galaxies](galaxy.md) composing of 50 or fewer [gravitationally](gravity.md) bound members, each at least as luminous as the [Milky Way](Milky%20Way.md) (about 10<sup>10</sup> times the luminosity of the [Sun](Sun.md))}}; collections of galaxies {{larger than groups that are first-order clustering are called [galaxy clusters](galaxy%20cluster.md)}}. The groups and clusters of galaxies can {{themselves be clustered, into [superclusters](supercluster.md) of galaxies}}. <!--SR:!2024-06-29,3,250!2024-06-30,4,270!2024-06-30,4,270-->
 
 The [Milky Way](Milky%20Way.md) galaxy is {{part of a group of galaxies called the [Local Group](Local%20Group.md)}}. <!--SR:!2024-06-30,4,270-->
 
