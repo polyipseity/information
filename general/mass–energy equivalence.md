@@ -9,7 +9,7 @@ tags:
 
 # mass–energy equivalence
 
-In [physics](physics.md), __mass–energy equivalence__ is {{the relationship between [mass](mass.md) and [energy](energy.md) in a system's [rest frame](rest%20frame.md), where the two quantities differ only by a multiplicative constant and the units of measurement}}.
+In [physics](physics.md), __mass–energy equivalence__ is {{the relationship between [mass](mass.md) and [energy](energy.md) in a system's [rest frame](rest%20frame.md), where the two quantities differ only by a multiplicative constant and the units of measurement}}. <!--SR:!2024-06-30,4,270-->
 
 ## references
 
