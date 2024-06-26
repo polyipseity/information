@@ -1,2 +1,2 @@
 @echo off
-python "./init.py" %*
+python -m "init" %*

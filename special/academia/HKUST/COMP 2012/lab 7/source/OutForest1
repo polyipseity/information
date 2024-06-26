@@ -1,0 +1,18 @@
+Enter Number of Trees: 
+Inserting Tree : 0
+Inserting Tree : 1
+Inserting Tree : 2
+Forest Initialized!
+Enter Test Point: 
+Predicted Label : Versicolor
+Enter Test Point: 
+Predicted Label : Virginica
+Enter Test Point: 
+Predicted Label : Setosa
+Enter Test Point: 
+Predicted Label : Versicolor
+Enter Test Point: 
+Predicted Label : Setosa
+Enter Test Point: 
+Predicted Label : Virginica
+Enter Test Point: 

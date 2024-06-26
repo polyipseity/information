@@ -1,0 +1,141 @@
+---
+aliases:
+  - MECE for Situation Analysis
+tags:
+  - by/self
+  - date/2024/04/07
+  - functional/text
+  - language/in/English
+---
+
+# MECE for Situation Analysis
+
+This is an individual assignment.
+
+For each of the questions below, please choose from these four MECE frameworks: 4Ps, 4Cs, PESTEL and 5Fs.
+
+<!-- markdownlint-disable-next-line MD036 -->
+__MECE analysis rubrics__
+
+| Criteria                         | Ratings | Pts               |
+| -------------------------------- | ------- | ----------------- |
+| Q1 Restaurant Situation Analysis |         | 40 pts            |
+| Q2 eVTOL Situation Analysis      |         | 30 pts            |
+| Q3 AI Chip Situation Analysis    |         | 30 pts            |
+|                                  |         | Total Points: 100 |
+
+## Q1
+
+Case 1: Your uncle owns a restaurant in one of the older malls in Tsuen Kwan O (TKO). Ever since new malls like Ocean Popwalk opened in TKO with many new restaurants that have ocean view and welcome pets, your uncle has seen a dramatic drop in business in the last 6 months. (40 pts)
+
+### Q1.a
+
+Q1a) Choose one of the four MECE frameworks that is most efficient for situation analysis.  Label row headers with four of the dimensions from your chosen MECE framework, label column headers as "Uncle's Restaurant" and "TKO Ocean-Pet Restaurant", and then fill out all the cells (4x2) with your hypothesis of reasons/causes for a drop in his business.
+
+> The chosen MECE framework is McCarthy's 4P framework. Since we are trying to figure out why our customers are dropping dramatically, we need to evaluate our customers' view of our and others' dining services. The 4P framework provides a comprehensive view of services in the eyes of the customers.
+>
+> There are 1.19 million pets in Hong Kong.[<sup>[1]</sup>](#^ref-1) Assuming each pet belongs to one person and 7.50 million people in Hong Kong,[<sup>[2]</sup>](#^ref-2) 15.9% of people in Hong Kong have pets. Note that fish accounts for most of the pets,[<sup>[1]</sup>](#^ref-1), so the number of pets that can be brought outside is smaller. A reasonable percentage is 5%, which is not negligible, but still relatively low compared to other countries.
+>
+> Considering the restaurant is in older malls, the restaurant is likely setup for a long time, so it is likely more traditional. Assuming this is true...
+>
+> | __Dimension&nbsp;\\&nbsp;Company__ | __Uncle's Restaurant__ | __TKO Ocean-Pet Restaurant__ |
+> |-------------------------|------------------------|------------------------------|
+> | __Product__             |  <p> The core product a restaurant offers is dining. The essential requirement is fulfilling hunger. Secondary but still important is the food quality and taste. These two are unlikely to be too different from the other company, however, as they are dependant on the restaurant staff, and there is nothing in the question that affects staffing significantly, such as famous chefs. </p> <p> More likely, it is caused by good-to-have factors, one of them is the dining experience. Considering the restaurant is old and traditional, the dining experience is likely okay but cannot differentiate itself from the market. </p> <p> There are also reasons to believe the above will be true for a long time. Changing the experience might alienate existing customers. Furthermore, as the restaurant is in an old mall, changing the restaurant environment to catch up with the new ones is difficult. For example, adding a sea view is essentially impossible. </p> | <p> As mentioned on the left, there is no good reasons to believe that the essential factors, the food itself, can differentiate the restaurant. Rather, the good-to-have factors can differentiate it. The only obvious one from the given situation is the dining experience. </p> <p> For dining experience, sea view is a great comparative advantage that can last. To have a sea view, the restaurant needs to be next to the coastline. Land next to the coastline is much rarer than those that is not, so it can last. For as why it is desirable, this means the customer can have beautiful scenery to look at, compared to the usual city environment in Hong Kong. </p> |
+> | __Price__               | <p> For pricing, the restaurant's pricing may be comparatively lower, as the rent of old malls is likely lower than new malls, though the difference is likely small. Other than that, there is no reason to believe there are great differences in pricing strategies or tactics, as both are talking about restaurants in general. </p> <p> However, customers also perceive the expected value provided by this restaurant is lower, because of its poorer dining experience, as described above. </p> | <p> As implied on the left, the pricing may be comparatively higher because of its location in newer malls, though it should not be much higher. And there are no meaningful differences in pricing strategies or tactics. </p> <p> For customers' perceived expected value, this restaurant is higher because of its better dining experience discussed above. There are also reasons to believe that the customers are more tolerant of higher prices. This is because the restaurant is in a new mall near the ocean, so the land around it likely more valuable, and its resident are likely more rich. </p> |
+> | __Place__               | <p> The most obvious is the location. The restaurant is located in an older mall, and there is nothing to differentiate the mall from the rest. The dining environment might be worse, which might be caused by decay and poorer construction planning, considering the malls' older age. </p> <p> There is not much difference in accessibility, as both are in a mall, except for a minor one: not allowing pets. This makes the restaurant less accessible to those who have pets, so those customers are less likely to come, partially contributing to the dramatic drop. Those with pets will either not go to the restaurant or simply not bring a pet. </p> | <p> For location, as the malls are newer, the dining environment is likely better. Furthermore, there is an feeling of novelty for the new mall, which attracts more people to come to the mall, so more potential people to be the restaurants' customers. </p> <p> For accessibility, allowing pets removes any inconvenience for those who do have pets, so they are more likely to go to this restaurant instead, though it only accounts for a small fraction of their customers. <p> </p> However, the mall being older, the number of visitors might decrease over time due to people going to new malls, which is the case in this question. </p> |
+> | __Promotion__           | <p> Restaurants in general do not do much promotion, and any promotion is likely within the mall itself. So promotion has limited effect on number of customers. </p> | <p> As mentioned on the left, promotion have limited effect for restaurants in general. However, as the restaurant is newer, some restaurants need to promote itself aggressively to obtain an initial customer base. </p> <p> Furthermore, the mall being newer gives a feeling of novelty, which might attract customers to try the new mall. </p> |
+
+### Q1.b
+
+Q1b) Give a concluding remark on three main reasons that caused your uncle's restaurant business has dropped dramatically.
+
+> To conclude, the first reason is that the uncle's restaurant has a worse dining experience than the TKO ocean-pet restaurants while offering no advantages in other things. Customers perceive they can obtain less value from the uncle's restaurant than the TKO ocean-pet restaurants. Note that the pricing increase from the former to the latter is small enough (and might not even exists) and it is justifiable to customers given that the TKO ocean-pet offers better value. So customers prefer the latter over the former, accounting for some of the drop in business.
+>
+> The second reason is that the uncle's restaurant is in an older mall than the TKO ocean-pet restaurants. The new malls offer better environment, such as the sea view and allowing pets, and better promotion for the restaurant due to the malls' novelty. This also accounts for some of the drop in business.
+>
+> The third reason, and an important one, is that both restaurants are close together. They are both in TKO, and as they most likely draw from the same customer base, people in TKO, they are in direct competition. This is important as the reasons above are mostly comparative in nature, which would be much less relevant if the restaurants were far away.
+>
+> It seems like the best course of action is moving the restaurant to a new mall, given enough resources. More information about the uncle's restaurant is needed to make a decision.
+
+### Q1.c
+
+Q1c) Pick one of the other three frameworks that's least effective for this case by elaborating on two dimensions and how each one is ineffective/irrelevant to the case.
+
+> The least effective framework for this case is the Aguila's PESTLE framework. The magnitude of the situation above is very small, nowhere not large enough to consider any macro-environment factors. Furthermore, PESTLE is for analyzing the environment, not products. Using two dimensions as examples:
+>
+> Taking the political aspect, it describes how the government intervenes in the economy, which is used to analyze how government affects your business, such as taxes, tariffs, bureaucracy, etc. However, the situation is describing restaurants both in TKO, which is both under the jurisdiction of the Hong Kong government. The situation also seems to describe uncle's restaurant is a small business, so going to other countries is not yet an option. That means there is only one government to evaluate politically, making it not matter for this situation. It does not matter what uncle does for his restaurant, the political factors will not change and are the same for his restaurant and the TKO ocean-pet restaurants.
+>
+> Taking the environment aspect, it describes how the ecology and the environment affect the business, such as climate, weather, etc. The situation restricts our options to TKO. TKO and even Hong Kong is geographically small and the ecology does not change much, if any, at all. So the environment factors will be the same for both restaurants, making it meaningless. Furthermore, the ecology have little impact on dining, especially when the restaurant business is not specifically for tourism. No matter how bad or good the weather or climate is, people still need to eat.
+
+## Q2
+
+Case 2: Now that the winners of the electric vehicle (EV) market has emerged, the electric vertical take-off and landing (eVTOL) market appears to be a new market up for grabs.  As a helicopter services provider in Brazil, you don't know if it is the right time to upgrade/expand your air mobility service with eVTOL vehicles. (30 pts)
+
+NOTE: According to the Agência Nacional de Aviação Civil (ANAC), the Brazilian civil aviation authority, 503 are public, and 2,737 are private, including 1,340 helipads, and 183 helidecks. (4 Dec 2023)
+
+### Q2.a
+
+Q2a) Which MECE framework from the four frameworks above is most efficient for situation analysis?
+
+> The chosen MECE framework model is Chernev's 5C framework. Since we are given an existing company and trying to evaluate whether to enter a new but related market, evaluating the company's current position is essential to see if the new market fits our company.
+
+### Q2.b
+
+Q2b) Explain your rationale for choosing this framework by elaborating about four dimensions and insight each dimension would yield.
+
+> The 5C framework has 5 factors: customers, company, competitors, collaborators, and context. We will choose customers, company, competitors, and context as the 4 dimensions.
+>
+> - __Customers__ <p> Customers describe our company's potential buyers. They are driven by their needs. For the company, it is important that its offerings address the customers' needs. This needs to be considered in any business because a business cannot survive without customers. By considering customers, we can try to find the potential customer segments, and evaluate whether it is profitable to service one or more segments. We can also evaluate the market size of the new market and see whether the numbers are worth entering. Furthermore, for resource-intensive or brand-heavy companies, it can also evaluate how existing customers are affected by changes in the company, such as entering into a new market. </p> <p> In this case, we are evaluating potential customers of eVTOL. The essential need in this case is transportation, though note that the situation does not restrict it to people, so it could be goods or people. There are also several customer segments we can identify: public transportation, private transportation, tourism, mass logistics, specialized logistics for special items, etc. One insight is that public transportation and mass logistics require low prices to compete with other types of transport, which is hard to achieve given the current technology level, so the company cannot service them. Private transportation and specialized logistics are okay with high prices, so our company could service them. For tourism, it is also possible to serve the high-end ones that are more rich. The customer base is likely small due to lack of awareness of eVTOL in general, but should expand as people and company are increasingly caring about the environment. </p> <p> As we are a helicopter services provider in Brazil, the eVTOL market is rather consistent with our current services and is unlikely to affect existing customers. One concern is that entering the new market may strain our company resources, such as helicopters, maintenance crew, which cannot be determined in this case because it is not given. </p> <p> Overall, entering the eVTOL market affects our existing customers minimally and there is a small but growing customer base for the new market. </p>
+> - __Company__ <p> Company describes our company's organization, assets, resources, and competencies. It is important because it shows what actions are feasible and effective for the company. For evaluating new markets, it shows whether the company is ready for joining the new market and whether it will affect our existing organizations. </p> <p> In this case, it is important for evaluating whether the eVTOL is a good fit for our company. To start, consider the company's current status. As a helicopter services provider, our company should have plentiful helicopters, maintenance crew, and flying crew as assets. There are also people responsible for dispatching the helicopters. These company infrastructure can be reused in the eVTOL market with ease. Some retraining might be required for employees, but the nature of eVTOL and helicopters are rather close for easy retraining. </p> <p> Now, consider transitioning into the new market. Upgrading or expanding our fleet with eVTOL takes money. This cannot be further evaluated because our financial status are not given in the question. </p>
+> - __Competitors__ <p> Competitors describe other entities that also satisfy the customers' needs directly or indirectly. It shows whether the customers' needs are met sufficiently, and if not, areas for improvements. In this case, we can use it to evaluate whether there are enough competition already in the new market. If the competition is worth enduring, then we can also use it to find ways to compete with existing competitors in the new market. One more thing is that it shows what advantages and disadvantages we have compared to others. </p> <p> Most obviously, there are a lot of substitutes for people and goods transportation. Using the market segmentation described in __Customers__: Transportation in the form of public transport and mass logistics industries have been developing for a long time and their prices are too low for us to compete right now, so we can avoid entering that market segment. This is the same for tourism and private transport, but we can better compete in this area as prices matter less than the experience. One advantage is that as the eVTOL is a new market, so its novelty can attract people looking for new experience. </p>
+> - __Context__ <p> Context shows the environment affecting the company, such as technology, climate, geopolitics, etc. It shows the external factors that cannot be changed that affect our business, and is important for evaluating feasibility and risks. In this case, it is important for evaluating whether or not the eVTOL infrastructure and technology is sufficiently mature. </p> <p> One insight is that from the ANAC numbers above, the eVTOL infrastructure is not very developed, so it cannot handle many eVTOLs. This means any form of mass public transport or logistics is infeasible right now. Furthermore, we do not know how much will the infrastructure will develop over time. This means our company cannot enter the new eVTOL market fully yet. Furthermore, eVTOL technology is not very mature yet, so the costs for eVTOL will be higher and their safety cannot be guaranteed. It seems like it is best to wait for a bit for the technology and infrastructure to develop. </p>
+>
+> Overall, it looks like the best course of action right now is upgrading a small portion with eVTOL and wait for the eVTOL market to develop before entering the eVTOL market further. This way, this will not alienate our exiting customers and is a good fit for our company. Entering the eVTOL market first can give us first-mover advantage, though we will only develop it further once the market is developing well to reduce risks and losses. The eVTOL market is a promising one, so it is worth waiting.
+
+### Q2.c
+
+Q2c) Pick one of the other three frameworks that's least effective for this case by elaborating on two dimensions and how each one is ineffective/irrelevant to the case.
+
+> The least effective framework for this case is the Porter's 5F framework. The framework is best used to analyze physical, traditional, and established industries. However, the eVTOL industry is a rather new industry, and thus not all forces can be filled in meaningfully. Taking two aspects as examples:
+>
+> Taking forces of rivalry as an example, it describes the competition between existing companies in the industry. However, we are evaluating the new eVTOL industry, and there is few if not no competitors in the industry, and existing competitors right now might not matter in the end when the industry has developed. That is, we cannot meaningfully describe the competition in a new industry, and even if so, for developing industries, competition matters less as there is a large unreached market to be obtained by all companies in the industry.
+>
+> Taking threat of substitutes, it describes substitutes customers can use to satisfy the same need. For new markets like eVTOL, we are not even entirely sure how the market will look like, and the customer needs are not all apparent to us yet, so it is unclear what industries and products are substitutes.
+
+## Q3
+
+Case 3: Nvidia supplies GPU chips that can power gaming, AI/ML applications, big data analytics, scientific research, AR/VR software, etc.  A shortage of Nvidia chips in 2021, as well as US curbs on AI chip exports to China has cause hiccups to many companies.  (30 pts)
+
+### Q3.a
+
+Q3a) Which MECE framework from the four frameworks above is most efficient for situation analysis?
+
+> The chosen MECE framework is the Aguila's PESTLE framework. We are analyzing the GPU and AI chips industry and business environment, which is somewhat affected by geopolitics, on a worldwide scale. The PESTLE framework is the best as it considers macroscopic variables.
+
+### Q3.b
+
+Q3b) Explain your rationale for choosing this framework by elaborating about four dimensions and insight it would yield.
+
+> The PESTLE framework has 6 factors: political, economical, social, technological, legal, and environmental. We will choose political, economical, technological, and environmental as the 4 dimensions.
+>
+> - __Political__ <p> Political factors describe how the government intervenes in the economy, such as taxes, sanctions, tariffs, etc. It shows how profitable and risky it is to do business in different countries, so that we can choose the best countries to sell our products or put our supply chain in. </p> <p> In this case, GPU and AI chips can be used to train some cutting edge technology such as AI and ML. There are incentives in governments to obtain technological advantage in said areas and prevent competing countries from doing the same thing. This will likely go on for some time as AI is an emerging technology right now. For example, the US curbs on AI chips exports to China means China will need to be considered a separate market segment. It is plausible that there will be more markets segmented this way. So companies working in this industry will need to be prepare for a market segment created by embargoes, and they could deal with it by not selling at all, or offering downgraded products. Either way, the profitability will decrease for said market segment. </p> <p> Overall, the political factors fragment the GPU and AI chips market and decrease profitability. Further, AI and GPU chip companies should avoid staying in one or few countries only. </p>
+> - __Economical__ <p> Economical factors describe aspects of the economy and how each of them affects business, such as economic growth, interest rates, inflation, etc. It shows how much the industry is affected by the economy and by what aspects of the economy, so that companies can know which economic factors to monitor when doing business. </p> <p> First, consider the nature of the industry. The GPU and AI chips require precised and complex procedures to produce, meaning they are generally expensive. This means they are likely only bought by companies but not individuals. As companies are sensitive to economic growth and interest rate, these two factors will affect the sale of the chips. When growth is high or interest rate is low, companies have more money to buy chips, increasing demand of GPU and AI chips, and vice versa. For lower end GPUs, they might be bought by individuals for gaming, AR/VR software, etc., and these are also highly dependant on the economic situation, as gaming, AR/VR software, etc. are not essential needs of people. Individuals might cut down on them when the economy is bad. </p> <p> This shows companies in the industry need to control their production rate of GPU and AI chips according to the economic situation. </p>
+> - __Technological__ <p> Technological factors describe how technology impacts the market, such as R&D, automation, technological changes, etc. </p> <p> On the high ends of GPU and AI chips, AI is more relevant. Considering that AI is an emerging technology, there is likely more development to be seen in this field in the near future. Its development also requires increasingly more and fast GPU and AI chips. Technologically, this means the demand for GPU and AI chips will remain or increase, and further R&D is required to catch up with the developing AI technology. </p> <p> We can also consider the technology required to make AI and GPU chips, which requires high precision and very expensive machines to make. The technology is also very complex. We can see that the industry has a high barrier to entry, so new competitors are unlikely. </p> <p> Overall, this shows the GPU and AI chips industry is likely to have only big companies dominate the market, and it is hard for others and startups to enter. The industry is very exclusive. </p>
+> - __Environmental__ <p> Environmental factors describe how the ecology and the environment impact the market, such as climate, weather, climate change, etc. As environment is of increasing importance to governments and customers, analyzing environmental factors can help business improve governments and customers' perception of the company on the environment, which may help increase profitability in this case. Another thing is evaluating natural resources required to make the GPU and AI chips. This is most useful for seeing how sustainable an industry or company is. Apart from these two, the direct effect of climate and weather on the AI and GPU chips is almost irrelevant. </p> <p> Considering natural resources, rare earth metals are generally used when making GPU and AI chips. This means it is important to evaluate whether they will run out, or otherwise new GPU and AI chips cannot be made. This might mean further R&D is required to increase efficiency of using raw resources. </p> <p> Another thing is that GPU and AI chips might use a lot of electricity. This is less relevant for lower ends GPUs as they are used by individuals, and more relevant for high end GPU and AI chips as they are bought by companies in bulk. Using a lot of high end GPU and AI chips might use a lot of electricity and sequently produce a lot of greenhouse gases. To improve on this, R&D needs to improve the energy efficiency of GPU and AI chips. </p> <p> Overall, this shows that companies in the AI and GPU chips also need to perform more R&D on resource and energy efficiency, as to keep up with the growing awareness of the environment by governments and the public. </p>
+>
+> Overall, the above analysis shows that the GPU and AI chips industry is an exclusive industry that can only be dominated by big companies, as only they have enough resources to deal with the technological requirements, R&D, and political risks at once.
+
+### Q3.c
+
+Q3c) Pick one of the other three frameworks that's least effective for this case by elaborating on two dimensions and how each one is ineffective/irrelevant to the case.
+
+> The least effective framework for this case is the McCarthy's 4P framework. The 4P framework focuses on the provided services or products in the shoes of customers. However, in this case, there are no clear products or services. AI and GPU chips are a very large market. There are many types of AI and GPU chips, aimed at very different market segments, such as high-end GPUs for research use and low-end GPUs for gaming. Since the customers are vary widely, it is difficult to create a 4P framework for all possible customer types and product types. Furthermore, the situation is worldwide, making the customers vary even more. Also, this case is more about analyzing an industry, not specific products and services. Using two dimensions as examples:
+>
+> Using product as an example, it describes the functions and features of the product or service. However, AI and GPU chips can have very different uses, some for gaming, some for AI training, which makes it hard to define the functions and features. Furthermore, the case already assumes the AI and GPU chips have certain functions and we do not need to consider the functions again.
+>
+> Using place as an example, it describes how the product or service is distributed and delivered. However, the case analyzes the AI and GPU chips industry on a worldwide scale. We need to consider the entire supply chain, but the marketing place only considers the part from our company to the customer, not the part before our company. Distribution methods also vary widely internationally, so it is hard to define what ways are used to distribute the products or services.
+
+### References
+
+1. "Hong Kong: number of pets 2028". _Statista_. <https://www.statista.com/statistics/1415853/hong-kong-number-of-pets> <a id="^ref-1"></a> ^ref-1
+2. "Mid-year population for 2023" (Press release). Census and Statistics Department. 15 August 2023. <https://www.censtatd.gov.hk/en/press_release_detail.html?id=5265> <a id="^ref-2"></a> ^ref-2

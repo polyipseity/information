@@ -1,0 +1,4 @@
+0	Bird (Budgerigar)             	14	Healthy        	0 (0    )	                         
+1	Cat (Persian)                 	19	Fair           	0 (0    )	                         
+2	Cat (British Shorthair)       	29	Healthy        	3 (3735 )	                         
+3	Dog (Labrador Retriever)      	9	Healthy        	0 (0    )	                         

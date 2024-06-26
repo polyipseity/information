@@ -1,0 +1,6 @@
+#include "../source/Buyer.cpp"
+#include "../source/Food.cpp"
+#include "../source/Menu.cpp"
+#include "../source/Order.cpp"
+#include "../source/OrderList.cpp"
+#include "main_test.cpp"

@@ -1,0 +1,2280 @@
+{
+    "assets": {
+        "__type__": "Assets",
+        "colors": {
+            "__type__": "NamedColorList",
+            "name": "",
+            "uuid": "a03ca305-65fc-4969-81b1-994dfc4ca42a",
+            "values": [
+            ]
+        },
+        "compositions": {
+            "__type__": "CompositionList",
+            "name": "",
+            "uuid": "3dfee3af-be95-4377-8883-d00ae3b69d02",
+            "values": [
+                {
+                    "__type__": "Composition",
+                    "animation": {
+                        "__type__": "AnimationContainer",
+                        "first_frame": 0,
+                        "last_frame": 360
+                    },
+                    "fps": 60,
+                    "group_color": "#00000000",
+                    "height": 512,
+                    "locked": false,
+                    "name": "Composition",
+                    "shapes": [
+                        {
+                            "__type__": "Group",
+                            "auto_orient": false,
+                            "group_color": "#00000000",
+                            "locked": false,
+                            "name": "Path 1",
+                            "opacity": {
+                                "value": 1
+                            },
+                            "shapes": [
+                                {
+                                    "__type__": "Fill",
+                                    "color": {
+                                        "value": "#9fff00"
+                                    },
+                                    "fill_rule": "NonZero",
+                                    "group_color": "#00000000",
+                                    "locked": false,
+                                    "name": "Fill",
+                                    "opacity": {
+                                        "value": 1
+                                    },
+                                    "use": null,
+                                    "uuid": "16cda285-9b37-48d8-a102-37883cb986bd",
+                                    "visible": true
+                                },
+                                {
+                                    "__type__": "Stroke",
+                                    "cap": "RoundCap",
+                                    "color": {
+                                        "value": "#6fb200"
+                                    },
+                                    "group_color": "#00000000",
+                                    "join": "RoundJoin",
+                                    "locked": false,
+                                    "miter_limit": 4,
+                                    "name": "Stroke",
+                                    "opacity": {
+                                        "value": 1
+                                    },
+                                    "use": null,
+                                    "uuid": "116d01ad-4c90-4fcf-968d-7e1570a04517",
+                                    "visible": true,
+                                    "width": {
+                                        "value": 16
+                                    }
+                                },
+                                {
+                                    "__type__": "Path",
+                                    "closed": true,
+                                    "group_color": "#00000000",
+                                    "locked": false,
+                                    "name": "Path 1",
+                                    "reversed": false,
+                                    "shape": {
+                                        "value": {
+                                            "closed": true,
+                                            "points": [
+                                                {
+                                                    "pos": {
+                                                        "x": 141.55844253978174,
+                                                        "y": 433.6280672584059
+                                                    },
+                                                    "tan_in": {
+                                                        "x": 141.55844253978174,
+                                                        "y": 433.6280672584059
+                                                    },
+                                                    "tan_out": {
+                                                        "x": 201.34578431193364,
+                                                        "y": 464.2508520685325
+                                                    },
+                                                    "type": 0
+                                                },
+                                                {
+                                                    "pos": {
+                                                        "x": 280.090088109402,
+                                                        "y": 433.6280672584059
+                                                    },
+                                                    "tan_in": {
+                                                        "x": 280.090088109402,
+                                                        "y": 433.6280672584059
+                                                    },
+                                                    "tan_out": {
+                                                        "x": 271.3407210207944,
+                                                        "y": 279.0559153596717
+                                                    },
+                                                    "type": 1
+                                                },
+                                                {
+                                                    "pos": {
+                                                        "x": 242.1761640587691,
+                                                        "y": 260.09895333435526
+                                                    },
+                                                    "tan_in": {
+                                                        "x": 242.1761640587691,
+                                                        "y": 260.09895333435526
+                                                    },
+                                                    "tan_out": {
+                                                        "x": 198.42932861573112,
+                                                        "y": 241.14199130903881
+                                                    },
+                                                    "type": 1
+                                                },
+                                                {
+                                                    "pos": {
+                                                        "x": 172.1812273499083,
+                                                        "y": 265.9318647267603
+                                                    },
+                                                    "tan_in": {
+                                                        "x": 172.1812273499083,
+                                                        "y": 265.9318647267603
+                                                    },
+                                                    "tan_out": {
+                                                        "x": 153.22426532459187,
+                                                        "y": 338.84325713182363
+                                                    },
+                                                    "type": 1
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    "uuid": "bc2205b7-4895-4321-9c38-bb686bca1fde",
+                                    "visible": true
+                                }
+                            ],
+                            "transform": {
+                                "__type__": "Transform",
+                                "anchor_point": {
+                                    "value": {
+                                        "x": 228.2126582278481,
+                                        "y": 356.85533175559135
+                                    }
+                                },
+                                "position": {
+                                    "keyframes": [
+                                        {
+                                            "after": {
+                                                "x": 0.3333333333333333,
+                                                "y": 1.3333333333333333
+                                            },
+                                            "before": {
+                                                "x": 0.6666666666666666,
+                                                "y": -0.3333333333333333
+                                            },
+                                            "point_type": 0,
+                                            "tan_in": {
+                                                "x": 251.5443037974683,
+                                                "y": 359.7717874517938
+                                            },
+                                            "tan_out": {
+                                                "x": 251.5443037974683,
+                                                "y": 359.7717874517938
+                                            },
+                                            "time": 149,
+                                            "value": {
+                                                "x": 251.5443037974683,
+                                                "y": 359.7717874517938
+                                            }
+                                        },
+                                        {
+                                            "after": {
+                                                "x": 0.3333333333333333,
+                                                "y": 1.3333333333333333
+                                            },
+                                            "before": {
+                                                "x": 0.6666666666666666,
+                                                "y": -0.3333333333333333
+                                            },
+                                            "point_type": 0,
+                                            "tan_in": {
+                                                "x": 203.42278481012653,
+                                                "y": 356.85533175559124
+                                            },
+                                            "tan_out": {
+                                                "x": 203.42278481012653,
+                                                "y": 356.85533175559124
+                                            },
+                                            "time": 179,
+                                            "value": {
+                                                "x": 203.42278481012653,
+                                                "y": 356.85533175559124
+                                            }
+                                        },
+                                        {
+                                            "after": {
+                                                "x": 0.3333333333333333,
+                                                "y": 1.3333333333333333
+                                            },
+                                            "before": {
+                                                "x": 0.3333333333333333,
+                                                "y": 0
+                                            },
+                                            "point_type": 0,
+                                            "tan_in": {
+                                                "x": 203.42278481012653,
+                                                "y": 356.85533175559124
+                                            },
+                                            "tan_out": {
+                                                "x": 203.42278481012653,
+                                                "y": 356.85533175559124
+                                            },
+                                            "time": 299,
+                                            "value": {
+                                                "x": 203.42278481012653,
+                                                "y": 356.85533175559124
+                                            }
+                                        },
+                                        {
+                                            "after": {
+                                                "x": 1,
+                                                "y": 1
+                                            },
+                                            "before": {
+                                                "x": 0.6666666666666666,
+                                                "y": -0.3333333333333333
+                                            },
+                                            "point_type": 0,
+                                            "tan_in": {
+                                                "x": 222.37974683544303,
+                                                "y": 362.6882431479963
+                                            },
+                                            "tan_out": {
+                                                "x": 222.37974683544303,
+                                                "y": 362.6882431479963
+                                            },
+                                            "time": 359,
+                                            "value": {
+                                                "x": 222.37974683544303,
+                                                "y": 362.6882431479963
+                                            }
+                                        }
+                                    ]
+                                },
+                                "rotation": {
+                                    "keyframes": [
+                                        {
+                                            "after": {
+                                                "x": 0.3333333333333333,
+                                                "y": 1.3333333333333333
+                                            },
+                                            "before": {
+                                                "x": 0.6666666666666666,
+                                                "y": -0.3333333333333333
+                                            },
+                                            "time": 149,
+                                            "value": 0
+                                        },
+                                        {
+                                            "after": {
+                                                "x": 0.3333333333333333,
+                                                "y": 1.3333333333333333
+                                            },
+                                            "before": {
+                                                "x": 0.6666666666666666,
+                                                "y": -0.3333333333333333
+                                            },
+                                            "time": 179,
+                                            "value": -10
+                                        },
+                                        {
+                                            "after": {
+                                                "x": 0.3333333333333333,
+                                                "y": 1.3333333333333333
+                                            },
+                                            "before": {
+                                                "x": 0.3333333333333333,
+                                                "y": 0
+                                            },
+                                            "time": 299,
+                                            "value": -10
+                                        },
+                                        {
+                                            "after": {
+                                                "x": 1,
+                                                "y": 1
+                                            },
+                                            "before": {
+                                                "x": 0.6666666666666666,
+                                                "y": -0.3333333333333333
+                                            },
+                                            "time": 359,
+                                            "value": -96.92404174804688
+                                        }
+                                    ]
+                                },
+                                "scale": {
+                                    "value": {
+                                        "x": 1.2741022109985352,
+                                        "y": 1.2741022109985352
+                                    }
+                                }
+                            },
+                            "uuid": "df178b33-4100-483c-9da9-19b36a9b52b2",
+                            "visible": true
+                        },
+                        {
+                            "__type__": "Group",
+                            "auto_orient": false,
+                            "group_color": "#00000000",
+                            "locked": false,
+                            "name": "Group 2",
+                            "opacity": {
+                                "value": 1
+                            },
+                            "shapes": [
+                                {
+                                    "__type__": "Group",
+                                    "auto_orient": false,
+                                    "group_color": "#00000000",
+                                    "locked": false,
+                                    "name": "Ellipse 2",
+                                    "opacity": {
+                                        "value": 1
+                                    },
+                                    "shapes": [
+                                        {
+                                            "__type__": "Fill",
+                                            "color": {
+                                                "value": "#fdbd86"
+                                            },
+                                            "fill_rule": "NonZero",
+                                            "group_color": "#00000000",
+                                            "locked": false,
+                                            "name": "Fill 1",
+                                            "opacity": {
+                                                "value": 1
+                                            },
+                                            "use": null,
+                                            "uuid": "513cb650-d7b9-41fe-827d-559d286795b2",
+                                            "visible": true
+                                        },
+                                        {
+                                            "__type__": "Stroke",
+                                            "cap": "RoundCap",
+                                            "color": {
+                                                "value": "#b0835d"
+                                            },
+                                            "group_color": "#00000000",
+                                            "join": "RoundJoin",
+                                            "locked": false,
+                                            "miter_limit": 4,
+                                            "name": "Stroke 1",
+                                            "opacity": {
+                                                "value": 1
+                                            },
+                                            "use": null,
+                                            "uuid": "92191f86-4354-4d94-b0f4-7de1add4803a",
+                                            "visible": true,
+                                            "width": {
+                                                "value": 16
+                                            }
+                                        },
+                                        {
+                                            "__type__": "Ellipse",
+                                            "group_color": "#00000000",
+                                            "locked": false,
+                                            "name": "Ellipse 3",
+                                            "position": {
+                                                "value": {
+                                                    "x": 264.2600506329112,
+                                                    "y": 174.89984810126572
+                                                }
+                                            },
+                                            "reversed": false,
+                                            "size": {
+                                                "value": {
+                                                    "height": 185.77822784810107,
+                                                    "width": 185.7782278481011
+                                                }
+                                            },
+                                            "uuid": "891d73f1-5333-4c2e-a436-1870ccdbbf44",
+                                            "visible": true
+                                        }
+                                    ],
+                                    "transform": {
+                                        "__type__": "Transform",
+                                        "anchor_point": {
+                                            "value": {
+                                                "x": 260.7603037974683,
+                                                "y": 174.8998481012658
+                                            }
+                                        },
+                                        "position": {
+                                            "value": {
+                                                "x": 223.13802531645564,
+                                                "y": 156.81782278481012
+                                            }
+                                        },
+                                        "rotation": {
+                                            "value": 0
+                                        },
+                                        "scale": {
+                                            "value": {
+                                                "x": 1,
+                                                "y": 1
+                                            }
+                                        }
+                                    },
+                                    "uuid": "67973ec0-f2f6-4b86-875e-acbbac695d1c",
+                                    "visible": true
+                                },
+                                {
+                                    "__type__": "Group",
+                                    "auto_orient": false,
+                                    "group_color": "#00000000",
+                                    "locked": false,
+                                    "name": "Ellipse 1",
+                                    "opacity": {
+                                        "value": 1
+                                    },
+                                    "shapes": [
+                                        {
+                                            "__type__": "Fill",
+                                            "color": {
+                                                "value": "#ffffff"
+                                            },
+                                            "fill_rule": "NonZero",
+                                            "group_color": "#00000000",
+                                            "locked": false,
+                                            "name": "Fill",
+                                            "opacity": {
+                                                "value": 1
+                                            },
+                                            "use": null,
+                                            "uuid": "0c8fdfcd-f6e6-4fc1-97a4-af1e15ca5c23",
+                                            "visible": true
+                                        },
+                                        {
+                                            "__type__": "Stroke",
+                                            "cap": "RoundCap",
+                                            "color": {
+                                                "value": "#000000"
+                                            },
+                                            "group_color": "#00000000",
+                                            "join": "RoundJoin",
+                                            "locked": false,
+                                            "miter_limit": 4,
+                                            "name": "Stroke",
+                                            "opacity": {
+                                                "value": 1
+                                            },
+                                            "use": null,
+                                            "uuid": "de5ded8c-13f0-4b27-b421-7a86141ea91c",
+                                            "visible": true,
+                                            "width": {
+                                                "value": 16
+                                            }
+                                        },
+                                        {
+                                            "__type__": "Ellipse",
+                                            "group_color": "#00000000",
+                                            "locked": false,
+                                            "name": "Ellipse 1",
+                                            "position": {
+                                                "value": {
+                                                    "x": 409.29539240506335,
+                                                    "y": 151.7140253164557
+                                                }
+                                            },
+                                            "reversed": false,
+                                            "size": {
+                                                "value": {
+                                                    "height": 53.196151898734186,
+                                                    "width": 53.19615189873417
+                                                }
+                                            },
+                                            "uuid": "a22036a5-b276-4ac1-be02-9d186b6ed0f9",
+                                            "visible": true
+                                        }
+                                    ],
+                                    "transform": {
+                                        "__type__": "Transform",
+                                        "anchor_point": {
+                                            "value": {
+                                                "x": 409.29539240506335,
+                                                "y": 151.7140253164557
+                                            }
+                                        },
+                                        "position": {
+                                            "value": {
+                                                "x": 266.6807088607595,
+                                                "y": 129.8406075949367
+                                            }
+                                        },
+                                        "rotation": {
+                                            "value": -13.382513999938965
+                                        },
+                                        "scale": {
+                                            "keyframes": [
+                                                {
+                                                    "after": {
+                                                        "x": 0.3333333333333333,
+                                                        "y": 1.3333333333333333
+                                                    },
+                                                    "before": {
+                                                        "x": 0.6378313532822114,
+                                                        "y": -0.36646818955125543
+                                                    },
+                                                    "time": 0,
+                                                    "value": {
+                                                        "x": 1,
+                                                        "y": 1
+                                                    }
+                                                },
+                                                {
+                                                    "after": {
+                                                        "x": 0.8333333333333334,
+                                                        "y": 0.6666666666666666
+                                                    },
+                                                    "before": {
+                                                        "x": 0.3333333333333333,
+                                                        "y": 0
+                                                    },
+                                                    "time": 53,
+                                                    "value": {
+                                                        "x": 1,
+                                                        "y": 1
+                                                    }
+                                                },
+                                                {
+                                                    "after": {
+                                                        "x": 0.6666666666666666,
+                                                        "y": 1
+                                                    },
+                                                    "before": {
+                                                        "x": 0.30925678402831847,
+                                                        "y": 0.34727984142088913
+                                                    },
+                                                    "time": 62,
+                                                    "value": {
+                                                        "x": 1,
+                                                        "y": 0.24134226143360138
+                                                    }
+                                                },
+                                                {
+                                                    "after": {
+                                                        "x": 0.42968389385413297,
+                                                        "y": 1.5034370356430546
+                                                    },
+                                                    "before": {
+                                                        "x": 0.6666666666666666,
+                                                        "y": -0.3333333333333333
+                                                    },
+                                                    "time": 71,
+                                                    "value": {
+                                                        "x": 1,
+                                                        "y": 1
+                                                    }
+                                                },
+                                                {
+                                                    "after": {
+                                                        "x": 0.3333333333333333,
+                                                        "y": 1.3333333333333333
+                                                    },
+                                                    "before": {
+                                                        "x": 0.6666666666666666,
+                                                        "y": -0.3333333333333333
+                                                    },
+                                                    "time": 119,
+                                                    "value": {
+                                                        "x": 1,
+                                                        "y": 1
+                                                    }
+                                                },
+                                                {
+                                                    "after": {
+                                                        "x": 0.3333333333333333,
+                                                        "y": 1.3333333333333333
+                                                    },
+                                                    "before": {
+                                                        "x": 0.6666666666666666,
+                                                        "y": -0.3333333333333333
+                                                    },
+                                                    "time": 149,
+                                                    "value": {
+                                                        "x": 1.1796369552612305,
+                                                        "y": 1.1796369552612305
+                                                    }
+                                                },
+                                                {
+                                                    "after": {
+                                                        "x": 0.6666666666666666,
+                                                        "y": 0.5
+                                                    },
+                                                    "before": {
+                                                        "x": 0.3333333333333333,
+                                                        "y": 0
+                                                    },
+                                                    "time": 247,
+                                                    "value": {
+                                                        "x": 1.1796369552612305,
+                                                        "y": 1.1796369552612305
+                                                    }
+                                                },
+                                                {
+                                                    "after": {
+                                                        "x": 0.6666666666666665,
+                                                        "y": 1
+                                                    },
+                                                    "before": {
+                                                        "x": 0.33333333333333326,
+                                                        "y": 0.5
+                                                    },
+                                                    "time": 260,
+                                                    "value": {
+                                                        "x": 1.1796369552612305,
+                                                        "y": 0.5038238167762756
+                                                    }
+                                                },
+                                                {
+                                                    "after": {
+                                                        "x": 1,
+                                                        "y": 1
+                                                    },
+                                                    "before": {
+                                                        "x": 0.6666666666666666,
+                                                        "y": -0.3333333333333333
+                                                    },
+                                                    "time": 271,
+                                                    "value": {
+                                                        "x": 1.1796369552612305,
+                                                        "y": 1.1796369552612305
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    "uuid": "bd4ccd84-43b5-4f1d-8e55-74a6112c46c8",
+                                    "visible": true
+                                },
+                                {
+                                    "__type__": "Group",
+                                    "auto_orient": false,
+                                    "group_color": "#00000000",
+                                    "locked": false,
+                                    "name": "Path",
+                                    "opacity": {
+                                        "value": 1
+                                    },
+                                    "shapes": [
+                                        {
+                                            "__type__": "Fill",
+                                            "color": {
+                                                "value": "#00000000"
+                                            },
+                                            "fill_rule": "NonZero",
+                                            "group_color": "#00000000",
+                                            "locked": false,
+                                            "name": "Fill",
+                                            "opacity": {
+                                                "value": 1
+                                            },
+                                            "use": null,
+                                            "uuid": "8ff20280-0dff-47b9-a645-854e6262eb3b",
+                                            "visible": true
+                                        },
+                                        {
+                                            "__type__": "Stroke",
+                                            "cap": "RoundCap",
+                                            "color": {
+                                                "value": "#000000"
+                                            },
+                                            "group_color": "#00000000",
+                                            "join": "RoundJoin",
+                                            "locked": false,
+                                            "miter_limit": 4,
+                                            "name": "Stroke",
+                                            "opacity": {
+                                                "value": 1
+                                            },
+                                            "use": null,
+                                            "uuid": "06d77ef6-17b9-41ba-972f-333f11936826",
+                                            "visible": true,
+                                            "width": {
+                                                "value": 16
+                                            }
+                                        },
+                                        {
+                                            "__type__": "Path",
+                                            "closed": false,
+                                            "group_color": "#00000000",
+                                            "locked": false,
+                                            "name": "Path",
+                                            "reversed": false,
+                                            "shape": {
+                                                "keyframes": [
+                                                    {
+                                                        "after": {
+                                                            "x": 0.30389565375298616,
+                                                            "y": 1.307339098548395
+                                                        },
+                                                        "before": {
+                                                            "x": 0.6666666666666666,
+                                                            "y": -0.3333333333333333
+                                                        },
+                                                        "time": 0,
+                                                        "value": {
+                                                            "closed": false,
+                                                            "points": [
+                                                                {
+                                                                    "pos": {
+                                                                        "x": 244.9412136587742,
+                                                                        "y": 208.64977674519645
+                                                                    },
+                                                                    "tan_in": {
+                                                                        "x": 244.9412136587742,
+                                                                        "y": 208.64977674519645
+                                                                    },
+                                                                    "tan_out": {
+                                                                        "x": 300.3538718866223,
+                                                                        "y": 233.43965016291796
+                                                                    },
+                                                                    "type": 0
+                                                                },
+                                                                {
+                                                                    "pos": {
+                                                                        "x": 300.5591959978147,
+                                                                        "y": 233.1727288183679
+                                                                    },
+                                                                    "tan_in": {
+                                                                        "x": 300.5591959978147,
+                                                                        "y": 233.1727288183679
+                                                                    },
+                                                                    "tan_out": {
+                                                                        "x": 300.5591959978147,
+                                                                        "y": 233.1727288183679
+                                                                    },
+                                                                    "type": 0
+                                                                }
+                                                            ]
+                                                        }
+                                                    },
+                                                    {
+                                                        "after": {
+                                                            "x": 0.3333333333333333,
+                                                            "y": 1.3333333333333333
+                                                        },
+                                                        "before": {
+                                                            "x": 0.6666666666666666,
+                                                            "y": -0.3333333333333333
+                                                        },
+                                                        "time": 46,
+                                                        "value": {
+                                                            "closed": false,
+                                                            "points": [
+                                                                {
+                                                                    "pos": {
+                                                                        "x": 247.89873417721518,
+                                                                        "y": 199.77721518987343
+                                                                    },
+                                                                    "tan_in": {
+                                                                        "x": 247.89873417721518,
+                                                                        "y": 199.77721518987343
+                                                                    },
+                                                                    "tan_out": {
+                                                                        "x": 303.3113924050633,
+                                                                        "y": 224.56708860759494
+                                                                    },
+                                                                    "type": 0
+                                                                },
+                                                                {
+                                                                    "pos": {
+                                                                        "x": 288.7291139240507,
+                                                                        "y": 243.5240506329114
+                                                                    },
+                                                                    "tan_in": {
+                                                                        "x": 288.7291139240507,
+                                                                        "y": 243.5240506329114
+                                                                    },
+                                                                    "tan_out": {
+                                                                        "x": 288.7291139240507,
+                                                                        "y": 243.5240506329114
+                                                                    },
+                                                                    "type": 0
+                                                                }
+                                                            ]
+                                                        }
+                                                    },
+                                                    {
+                                                        "after": {
+                                                            "x": 0.3333333333333333,
+                                                            "y": 1.3333333333333333
+                                                        },
+                                                        "before": {
+                                                            "x": 0.6666666666666666,
+                                                            "y": -0.3333333333333333
+                                                        },
+                                                        "time": 103,
+                                                        "value": {
+                                                            "closed": false,
+                                                            "points": [
+                                                                {
+                                                                    "pos": {
+                                                                        "x": 242.0658227848101,
+                                                                        "y": 220.19240506329115
+                                                                    },
+                                                                    "tan_in": {
+                                                                        "x": 242.0658227848101,
+                                                                        "y": 220.19240506329115
+                                                                    },
+                                                                    "tan_out": {
+                                                                        "x": 275.89377552085926,
+                                                                        "y": 235.48773694208393
+                                                                    },
+                                                                    "type": 0
+                                                                },
+                                                                {
+                                                                    "pos": {
+                                                                        "x": 288.7291139240507,
+                                                                        "y": 243.5240506329114
+                                                                    },
+                                                                    "tan_in": {
+                                                                        "x": 259.6733452888339,
+                                                                        "y": 236.77707316024538
+                                                                    },
+                                                                    "tan_out": {
+                                                                        "x": 288.7291139240507,
+                                                                        "y": 243.5240506329114
+                                                                    },
+                                                                    "type": 0
+                                                                }
+                                                            ]
+                                                        }
+                                                    },
+                                                    {
+                                                        "after": {
+                                                            "x": 0.3333333333333333,
+                                                            "y": 1.3333333333333333
+                                                        },
+                                                        "before": {
+                                                            "x": 0.603248680367849,
+                                                            "y": -0.14335117460983912
+                                                        },
+                                                        "time": 119,
+                                                        "value": {
+                                                            "closed": false,
+                                                            "points": [
+                                                                {
+                                                                    "pos": {
+                                                                        "x": 244.84067587081864,
+                                                                        "y": 208.951390109063
+                                                                    },
+                                                                    "tan_in": {
+                                                                        "x": 244.84067587081864,
+                                                                        "y": 208.951390109063
+                                                                    },
+                                                                    "tan_out": {
+                                                                        "x": 300.25333409866676,
+                                                                        "y": 233.7412635267845
+                                                                    },
+                                                                    "type": 0
+                                                                },
+                                                                {
+                                                                    "pos": {
+                                                                        "x": 300.96134714963677,
+                                                                        "y": 232.82084656052356
+                                                                    },
+                                                                    "tan_in": {
+                                                                        "x": 300.96134714963677,
+                                                                        "y": 232.82084656052356
+                                                                    },
+                                                                    "tan_out": {
+                                                                        "x": 300.96134714963677,
+                                                                        "y": 232.82084656052356
+                                                                    },
+                                                                    "type": 0
+                                                                }
+                                                            ]
+                                                        }
+                                                    },
+                                                    {
+                                                        "after": {
+                                                            "x": 1,
+                                                            "y": 1
+                                                        },
+                                                        "before": {
+                                                            "x": 0.6666666666666666,
+                                                            "y": -0.3333333333333333
+                                                        },
+                                                        "time": 149,
+                                                        "value": {
+                                                            "closed": false,
+                                                            "points": [
+                                                                {
+                                                                    "pos": {
+                                                                        "x": 282.75459992145164,
+                                                                        "y": 213.32607365336682
+                                                                    },
+                                                                    "tan_in": {
+                                                                        "x": 282.75459992145164,
+                                                                        "y": 213.32607365336682
+                                                                    },
+                                                                    "tan_out": {
+                                                                        "x": 303.16978979486936,
+                                                                        "y": 223.53366859007568
+                                                                    },
+                                                                    "type": 0
+                                                                },
+                                                                {
+                                                                    "pos": {
+                                                                        "x": 300.96134714963677,
+                                                                        "y": 232.82084656052356
+                                                                    },
+                                                                    "tan_in": {
+                                                                        "x": 300.96134714963677,
+                                                                        "y": 232.82084656052356
+                                                                    },
+                                                                    "tan_out": {
+                                                                        "x": 300.96134714963677,
+                                                                        "y": 232.82084656052356
+                                                                    },
+                                                                    "type": 0
+                                                                }
+                                                            ]
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            "uuid": "6cfadb95-0533-442c-b1d1-ed9ab07377b5",
+                                            "visible": true
+                                        }
+                                    ],
+                                    "transform": {
+                                        "__type__": "Transform",
+                                        "anchor_point": {
+                                            "value": {
+                                                "x": 272.6886075949367,
+                                                "y": 220.92151898734176
+                                            }
+                                        },
+                                        "position": {
+                                            "value": {
+                                                "x": 265.3974683544304,
+                                                "y": 204.88101265822783
+                                            }
+                                        },
+                                        "rotation": {
+                                            "value": 0
+                                        },
+                                        "scale": {
+                                            "value": {
+                                                "x": 1,
+                                                "y": 1
+                                            }
+                                        }
+                                    },
+                                    "uuid": "536f516d-d919-4ac4-ba80-945aacf7db7c",
+                                    "visible": true
+                                }
+                            ],
+                            "transform": {
+                                "__type__": "Transform",
+                                "anchor_point": {
+                                    "value": {
+                                        "x": 227.4835443037975,
+                                        "y": 166.2379746835443
+                                    }
+                                },
+                                "position": {
+                                    "keyframes": [
+                                        {
+                                            "after": {
+                                                "x": 0.3333333333333333,
+                                                "y": 1.3333333333333333
+                                            },
+                                            "before": {
+                                                "x": 0.6666666666666666,
+                                                "y": -0.3333333333333333
+                                            },
+                                            "point_type": 0,
+                                            "tan_in": {
+                                                "x": 227.4835443037975,
+                                                "y": 166.2379746835443
+                                            },
+                                            "tan_out": {
+                                                "x": 227.4835443037975,
+                                                "y": 166.2379746835443
+                                            },
+                                            "time": 149,
+                                            "value": {
+                                                "x": 227.4835443037975,
+                                                "y": 166.2379746835443
+                                            }
+                                        },
+                                        {
+                                            "after": {
+                                                "x": 0.3333333333333333,
+                                                "y": 1.3333333333333333
+                                            },
+                                            "before": {
+                                                "x": 0.6666666666666666,
+                                                "y": -0.3333333333333333
+                                            },
+                                            "point_type": 0,
+                                            "tan_in": {
+                                                "x": 123.94936708860769,
+                                                "y": 166.2379746835443
+                                            },
+                                            "tan_out": {
+                                                "x": 123.94936708860769,
+                                                "y": 166.2379746835443
+                                            },
+                                            "time": 179,
+                                            "value": {
+                                                "x": 123.94936708860769,
+                                                "y": 166.2379746835443
+                                            }
+                                        },
+                                        {
+                                            "after": {
+                                                "x": 0.3333333333333333,
+                                                "y": 1.3333333333333333
+                                            },
+                                            "before": {
+                                                "x": 0.3333333333333333,
+                                                "y": 0
+                                            },
+                                            "point_type": 0,
+                                            "tan_in": {
+                                                "x": 123.94936708860769,
+                                                "y": 166.2379746835443
+                                            },
+                                            "tan_out": {
+                                                "x": 123.94936708860769,
+                                                "y": 166.2379746835443
+                                            },
+                                            "time": 299,
+                                            "value": {
+                                                "x": 123.94936708860769,
+                                                "y": 166.2379746835443
+                                            }
+                                        },
+                                        {
+                                            "after": {
+                                                "x": 1,
+                                                "y": 1
+                                            },
+                                            "before": {
+                                                "x": 0.6666666666666666,
+                                                "y": -0.3333333333333333
+                                            },
+                                            "point_type": 0,
+                                            "tan_in": {
+                                                "x": 107.90886075949378,
+                                                "y": 262.4810126582278
+                                            },
+                                            "tan_out": {
+                                                "x": 107.90886075949378,
+                                                "y": 262.4810126582278
+                                            },
+                                            "time": 359,
+                                            "value": {
+                                                "x": 107.90886075949378,
+                                                "y": 262.4810126582278
+                                            }
+                                        }
+                                    ]
+                                },
+                                "rotation": {
+                                    "keyframes": [
+                                        {
+                                            "after": {
+                                                "x": 0.3333333333333333,
+                                                "y": 1.3333333333333333
+                                            },
+                                            "before": {
+                                                "x": 0.6666666666666666,
+                                                "y": -0.3333333333333333
+                                            },
+                                            "time": 149,
+                                            "value": 0
+                                        },
+                                        {
+                                            "after": {
+                                                "x": 0.3333333333333333,
+                                                "y": 1.3333333333333333
+                                            },
+                                            "before": {
+                                                "x": 0.6666666666666666,
+                                                "y": -0.3333333333333333
+                                            },
+                                            "time": 179,
+                                            "value": -26.013263702392578
+                                        },
+                                        {
+                                            "after": {
+                                                "x": 0.3333333333333333,
+                                                "y": 1.3333333333333333
+                                            },
+                                            "before": {
+                                                "x": 0.3333333333333333,
+                                                "y": 0
+                                            },
+                                            "time": 299,
+                                            "value": -26.013263702392578
+                                        },
+                                        {
+                                            "after": {
+                                                "x": 1,
+                                                "y": 1
+                                            },
+                                            "before": {
+                                                "x": 0.6666666666666666,
+                                                "y": -0.3333333333333333
+                                            },
+                                            "time": 359,
+                                            "value": -32.43915939331055
+                                        }
+                                    ]
+                                },
+                                "scale": {
+                                    "value": {
+                                        "x": 1,
+                                        "y": 1
+                                    }
+                                }
+                            },
+                            "uuid": "bad0b6f9-bd1e-481c-8c66-e087b5b03811",
+                            "visible": true
+                        },
+                        {
+                            "__type__": "Group",
+                            "auto_orient": false,
+                            "group_color": "#00000000",
+                            "locked": false,
+                            "name": "Group 1",
+                            "opacity": {
+                                "value": 1
+                            },
+                            "shapes": [
+                                {
+                                    "__type__": "Group",
+                                    "auto_orient": false,
+                                    "group_color": "#00000000",
+                                    "locked": false,
+                                    "name": "Path 3",
+                                    "opacity": {
+                                        "value": 1
+                                    },
+                                    "shapes": [
+                                        {
+                                            "__type__": "Fill",
+                                            "color": {
+                                                "value": "#f3d395"
+                                            },
+                                            "fill_rule": "NonZero",
+                                            "group_color": "#00000000",
+                                            "locked": false,
+                                            "name": "Fill",
+                                            "opacity": {
+                                                "value": 1
+                                            },
+                                            "use": null,
+                                            "uuid": "f0d85773-75d5-474c-b0ab-1590e250b89c",
+                                            "visible": true
+                                        },
+                                        {
+                                            "__type__": "Stroke",
+                                            "cap": "RoundCap",
+                                            "color": {
+                                                "value": "#a69066"
+                                            },
+                                            "group_color": "#00000000",
+                                            "join": "RoundJoin",
+                                            "locked": false,
+                                            "miter_limit": 4,
+                                            "name": "Stroke",
+                                            "opacity": {
+                                                "value": 1
+                                            },
+                                            "use": null,
+                                            "uuid": "07be138b-a94b-4946-8728-c637b0a9605f",
+                                            "visible": true,
+                                            "width": {
+                                                "value": 16
+                                            }
+                                        },
+                                        {
+                                            "__type__": "Path",
+                                            "closed": true,
+                                            "group_color": "#00000000",
+                                            "locked": false,
+                                            "name": "Path 3",
+                                            "reversed": false,
+                                            "shape": {
+                                                "value": {
+                                                    "closed": true,
+                                                    "points": [
+                                                        {
+                                                            "pos": {
+                                                                "x": 290.3720370014456,
+                                                                "y": 257.28486760220085
+                                                            },
+                                                            "tan_in": {
+                                                                "x": 290.3720370014456,
+                                                                "y": 257.28486760220085
+                                                            },
+                                                            "tan_out": {
+                                                                "x": 290.3720370014456,
+                                                                "y": 257.28486760220085
+                                                            },
+                                                            "type": 0
+                                                        },
+                                                        {
+                                                            "pos": {
+                                                                "x": 478.48342935256045,
+                                                                "y": 257.28486760220085
+                                                            },
+                                                            "tan_in": {
+                                                                "x": 478.48342935256045,
+                                                                "y": 257.28486760220085
+                                                            },
+                                                            "tan_out": {
+                                                                "x": 478.48342935256045,
+                                                                "y": 257.28486760220085
+                                                            },
+                                                            "type": 0
+                                                        },
+                                                        {
+                                                            "pos": {
+                                                                "x": 478.48342935256045,
+                                                                "y": 452.68739924777043
+                                                            },
+                                                            "tan_in": {
+                                                                "x": 478.48342935256045,
+                                                                "y": 452.68739924777043
+                                                            },
+                                                            "tan_out": {
+                                                                "x": 478.48342935256045,
+                                                                "y": 452.68739924777043
+                                                            },
+                                                            "type": 1
+                                                        },
+                                                        {
+                                                            "pos": {
+                                                                "x": 440.5695053019275,
+                                                                "y": 452.68739924777043
+                                                            },
+                                                            "tan_in": {
+                                                                "x": 440.5695053019275,
+                                                                "y": 452.68739924777043
+                                                            },
+                                                            "tan_out": {
+                                                                "x": 440.5695053019275,
+                                                                "y": 452.68739924777043
+                                                            },
+                                                            "type": 1
+                                                        },
+                                                        {
+                                                            "pos": {
+                                                                "x": 440.5695053019275,
+                                                                "y": 296.657019500935
+                                                            },
+                                                            "tan_in": {
+                                                                "x": 440.5695053019275,
+                                                                "y": 296.657019500935
+                                                            },
+                                                            "tan_out": {
+                                                                "x": 440.5695053019275,
+                                                                "y": 296.657019500935
+                                                            },
+                                                            "type": 1
+                                                        },
+                                                        {
+                                                            "pos": {
+                                                                "x": 331.20241669433256,
+                                                                "y": 296.657019500935
+                                                            },
+                                                            "tan_in": {
+                                                                "x": 331.20241669433256,
+                                                                "y": 296.657019500935
+                                                            },
+                                                            "tan_out": {
+                                                                "x": 331.20241669433256,
+                                                                "y": 296.657019500935
+                                                            },
+                                                            "type": 1
+                                                        },
+                                                        {
+                                                            "pos": {
+                                                                "x": 331.20241669433256,
+                                                                "y": 446.8544878553654
+                                                            },
+                                                            "tan_in": {
+                                                                "x": 331.20241669433256,
+                                                                "y": 446.8544878553654
+                                                            },
+                                                            "tan_out": {
+                                                                "x": 331.20241669433256,
+                                                                "y": 446.8544878553654
+                                                            },
+                                                            "type": 1
+                                                        },
+                                                        {
+                                                            "pos": {
+                                                                "x": 291.8302648495469,
+                                                                "y": 446.8544878553654
+                                                            },
+                                                            "tan_in": {
+                                                                "x": 291.8302648495469,
+                                                                "y": 446.8544878553654
+                                                            },
+                                                            "tan_out": {
+                                                                "x": 290.3720370014456,
+                                                                "y": 442.47980431106157
+                                                            },
+                                                            "type": 1
+                                                        }
+                                                    ]
+                                                }
+                                            },
+                                            "uuid": "a74204d1-0b05-4ec0-b333-e2794bb8e08d",
+                                            "visible": true
+                                        }
+                                    ],
+                                    "transform": {
+                                        "__type__": "Transform",
+                                        "anchor_point": {
+                                            "value": {
+                                                "x": 381.37069143853483,
+                                                "y": 356.84406473893534
+                                            }
+                                        },
+                                        "position": {
+                                            "value": {
+                                                "x": 341.7748491159288,
+                                                "y": 383.7220174596777
+                                            }
+                                        },
+                                        "rotation": {
+                                            "value": 0
+                                        },
+                                        "scale": {
+                                            "value": {
+                                                "x": 1.0623260736465454,
+                                                "y": 1.0376328229904175
+                                            }
+                                        }
+                                    },
+                                    "uuid": "cc956823-9ff7-4efa-8a4e-77eb5e1e3ee8",
+                                    "visible": true
+                                },
+                                {
+                                    "__type__": "Group",
+                                    "auto_orient": false,
+                                    "group_color": "#00000000",
+                                    "locked": false,
+                                    "name": "Path 4",
+                                    "opacity": {
+                                        "value": 1
+                                    },
+                                    "shapes": [
+                                        {
+                                            "__type__": "Fill",
+                                            "color": {
+                                                "value": "#ffffff"
+                                            },
+                                            "fill_rule": "NonZero",
+                                            "group_color": "#00000000",
+                                            "locked": false,
+                                            "name": "Fill",
+                                            "opacity": {
+                                                "value": 1
+                                            },
+                                            "use": null,
+                                            "uuid": "3cf243bf-f5f6-478c-b6fd-b2433b4eb48a",
+                                            "visible": true
+                                        },
+                                        {
+                                            "__type__": "Stroke",
+                                            "cap": "RoundCap",
+                                            "color": {
+                                                "value": "#000000"
+                                            },
+                                            "group_color": "#00000000",
+                                            "join": "RoundJoin",
+                                            "locked": false,
+                                            "miter_limit": 4,
+                                            "name": "Stroke",
+                                            "opacity": {
+                                                "value": 1
+                                            },
+                                            "use": null,
+                                            "uuid": "f7fbc9b3-3694-4dbc-9268-dda3dd7c2744",
+                                            "visible": true,
+                                            "width": {
+                                                "value": 16
+                                            }
+                                        },
+                                        {
+                                            "__type__": "Path",
+                                            "closed": false,
+                                            "group_color": "#00000000",
+                                            "locked": false,
+                                            "name": "Path 4",
+                                            "reversed": false,
+                                            "shape": {
+                                                "value": {
+                                                    "closed": false,
+                                                    "points": [
+                                                        {
+                                                            "pos": {
+                                                                "x": 263.9392405063291,
+                                                                "y": 262.4810126582278
+                                                            },
+                                                            "tan_in": {
+                                                                "x": 263.9392405063291,
+                                                                "y": 262.4810126582278
+                                                            },
+                                                            "tan_out": {
+                                                                "x": 263.9392405063291,
+                                                                "y": 262.4810126582278
+                                                            },
+                                                            "type": 0
+                                                        },
+                                                        {
+                                                            "pos": {
+                                                                "x": 415.59493670886076,
+                                                                "y": 262.4810126582278
+                                                            },
+                                                            "tan_in": {
+                                                                "x": 415.59493670886076,
+                                                                "y": 262.4810126582278
+                                                            },
+                                                            "tan_out": {
+                                                                "x": 415.59493670886076,
+                                                                "y": 262.4810126582278
+                                                            },
+                                                            "type": 0
+                                                        }
+                                                    ]
+                                                }
+                                            },
+                                            "uuid": "d433d264-1a22-4d24-abf3-ab397fb2d4fc",
+                                            "visible": true
+                                        }
+                                    ],
+                                    "transform": {
+                                        "__type__": "Transform",
+                                        "anchor_point": {
+                                            "value": {
+                                                "x": 339.7670886075949,
+                                                "y": 262.48101265822777
+                                            }
+                                        },
+                                        "position": {
+                                            "value": {
+                                                "x": 342.6835443037974,
+                                                "y": 265.39746835443026
+                                            }
+                                        },
+                                        "rotation": {
+                                            "value": 0
+                                        },
+                                        "scale": {
+                                            "value": {
+                                                "x": 1,
+                                                "y": 1
+                                            }
+                                        }
+                                    },
+                                    "uuid": "7cb84cef-0c38-494d-9c0c-e57ed04c4326",
+                                    "visible": true
+                                }
+                            ],
+                            "transform": {
+                                "__type__": "Transform",
+                                "anchor_point": {
+                                    "value": {
+                                        "x": 347.0582278481013,
+                                        "y": 373.306329113924
+                                    }
+                                },
+                                "position": {
+                                    "keyframes": [
+                                        {
+                                            "after": {
+                                                "x": 0.3333333333333333,
+                                                "y": 1.3333333333333333
+                                            },
+                                            "before": {
+                                                "x": 0.6666666666666666,
+                                                "y": -0.3333333333333333
+                                            },
+                                            "point_type": 0,
+                                            "tan_in": {
+                                                "x": 347.0582278481013,
+                                                "y": 371.8481012658227
+                                            },
+                                            "tan_out": {
+                                                "x": 347.0582278481013,
+                                                "y": 371.8481012658227
+                                            },
+                                            "time": 149,
+                                            "value": {
+                                                "x": 347.0582278481013,
+                                                "y": 371.8481012658227
+                                            }
+                                        },
+                                        {
+                                            "after": {
+                                                "x": 0.3333333333333333,
+                                                "y": 1.3333333333333333
+                                            },
+                                            "before": {
+                                                "x": 0.6666666666666666,
+                                                "y": -0.3333333333333333
+                                            },
+                                            "point_type": 0,
+                                            "tan_in": {
+                                                "x": 285.81265822784815,
+                                                "y": 336.8506329113924
+                                            },
+                                            "tan_out": {
+                                                "x": 285.81265822784815,
+                                                "y": 336.8506329113924
+                                            },
+                                            "time": 179,
+                                            "value": {
+                                                "x": 285.81265822784815,
+                                                "y": 336.8506329113924
+                                            }
+                                        },
+                                        {
+                                            "after": {
+                                                "x": 1,
+                                                "y": 1
+                                            },
+                                            "before": {
+                                                "x": 0.6666666666666666,
+                                                "y": -0.3333333333333333
+                                            },
+                                            "point_type": 0,
+                                            "tan_in": {
+                                                "x": 284.3544303797469,
+                                                "y": 361.6405063291139
+                                            },
+                                            "tan_out": {
+                                                "x": 284.3544303797469,
+                                                "y": 361.6405063291139
+                                            },
+                                            "time": 209,
+                                            "value": {
+                                                "x": 284.3544303797469,
+                                                "y": 361.6405063291139
+                                            }
+                                        }
+                                    ]
+                                },
+                                "rotation": {
+                                    "keyframes": [
+                                        {
+                                            "after": {
+                                                "x": 0.3333333333333333,
+                                                "y": 1.3333333333333333
+                                            },
+                                            "before": {
+                                                "x": 0.6666666666666666,
+                                                "y": -0.3333333333333333
+                                            },
+                                            "time": 149,
+                                            "value": 0
+                                        },
+                                        {
+                                            "after": {
+                                                "x": 0.3333333333333333,
+                                                "y": 1.3333333333333333
+                                            },
+                                            "before": {
+                                                "x": 0.6666666666666666,
+                                                "y": -0.3333333333333333
+                                            },
+                                            "time": 179,
+                                            "value": 11.77119255065918
+                                        },
+                                        {
+                                            "after": {
+                                                "x": 1,
+                                                "y": 1
+                                            },
+                                            "before": {
+                                                "x": 0.6666666666666666,
+                                                "y": -0.3333333333333333
+                                            },
+                                            "time": 209,
+                                            "value": 0
+                                        }
+                                    ]
+                                },
+                                "scale": {
+                                    "value": {
+                                        "x": 1,
+                                        "y": 1
+                                    }
+                                }
+                            },
+                            "uuid": "2cfce93a-5937-4c05-8f6e-86123853e9e5",
+                            "visible": true
+                        },
+                        {
+                            "__type__": "Group",
+                            "auto_orient": false,
+                            "group_color": "#00000000",
+                            "locked": false,
+                            "name": "Group",
+                            "opacity": {
+                                "value": 1
+                            },
+                            "shapes": [
+                                {
+                                    "__type__": "Group",
+                                    "auto_orient": false,
+                                    "group_color": "#00000000",
+                                    "locked": false,
+                                    "name": "Path 2",
+                                    "opacity": {
+                                        "value": 1
+                                    },
+                                    "shapes": [
+                                        {
+                                            "__type__": "Fill",
+                                            "color": {
+                                                "value": "#00000000"
+                                            },
+                                            "fill_rule": "NonZero",
+                                            "group_color": "#00000000",
+                                            "locked": false,
+                                            "name": "Fill",
+                                            "opacity": {
+                                                "value": 1
+                                            },
+                                            "use": null,
+                                            "uuid": "1e419111-664e-4ff2-8619-331f5ec70bcc",
+                                            "visible": true
+                                        },
+                                        {
+                                            "__type__": "Stroke",
+                                            "cap": "RoundCap",
+                                            "color": {
+                                                "value": "#000000"
+                                            },
+                                            "group_color": "#00000000",
+                                            "join": "RoundJoin",
+                                            "locked": false,
+                                            "miter_limit": 4,
+                                            "name": "Stroke",
+                                            "opacity": {
+                                                "value": 1
+                                            },
+                                            "use": null,
+                                            "uuid": "63c7c9f9-228a-4952-a641-02e9f1d4f6ba",
+                                            "visible": true,
+                                            "width": {
+                                                "value": 16
+                                            }
+                                        },
+                                        {
+                                            "__type__": "Path",
+                                            "closed": false,
+                                            "group_color": "#00000000",
+                                            "locked": false,
+                                            "name": "Path 2",
+                                            "reversed": false,
+                                            "shape": {
+                                                "value": {
+                                                    "closed": false,
+                                                    "points": [
+                                                        {
+                                                            "pos": {
+                                                                "x": 367.473417721519,
+                                                                "y": 166.2379746835443
+                                                            },
+                                                            "tan_in": {
+                                                                "x": 367.473417721519,
+                                                                "y": 166.2379746835443
+                                                            },
+                                                            "tan_out": {
+                                                                "x": 367.473417721519,
+                                                                "y": 167.69620253164558
+                                                            },
+                                                            "type": 0
+                                                        },
+                                                        {
+                                                            "pos": {
+                                                                "x": 331.01772151898734,
+                                                                "y": 303.3113924050633
+                                                            },
+                                                            "tan_in": {
+                                                                "x": 331.01772151898734,
+                                                                "y": 303.3113924050633
+                                                            },
+                                                            "tan_out": {
+                                                                "x": 331.01772151898734,
+                                                                "y": 303.3113924050633
+                                                            },
+                                                            "type": 0
+                                                        }
+                                                    ]
+                                                }
+                                            },
+                                            "uuid": "1452b2f1-9c23-419b-871e-4160a4b3710b",
+                                            "visible": true
+                                        }
+                                    ],
+                                    "transform": {
+                                        "__type__": "Transform",
+                                        "anchor_point": {
+                                            "value": {
+                                                "x": 349.24556962025315,
+                                                "y": 234.7746835443038
+                                            }
+                                        },
+                                        "position": {
+                                            "value": {
+                                                "x": 349.24556962025315,
+                                                "y": 204.1518987341772
+                                            }
+                                        },
+                                        "rotation": {
+                                            "value": 0
+                                        },
+                                        "scale": {
+                                            "value": {
+                                                "x": 1,
+                                                "y": 1
+                                            }
+                                        }
+                                    },
+                                    "uuid": "e03c693c-9e01-4f3b-9c00-bf8c3074d320",
+                                    "visible": true
+                                },
+                                {
+                                    "__type__": "Group",
+                                    "auto_orient": false,
+                                    "group_color": "#00000000",
+                                    "locked": false,
+                                    "name": "Ellipse",
+                                    "opacity": {
+                                        "value": 1
+                                    },
+                                    "shapes": [
+                                        {
+                                            "__type__": "Fill",
+                                            "color": {
+                                                "value": "#fdbd86"
+                                            },
+                                            "fill_rule": "NonZero",
+                                            "group_color": "#00000000",
+                                            "locked": false,
+                                            "name": "Fill",
+                                            "opacity": {
+                                                "value": 1
+                                            },
+                                            "use": null,
+                                            "uuid": "fcd3f4f4-66c1-4bec-bd71-0d9db1779d2c",
+                                            "visible": true
+                                        },
+                                        {
+                                            "__type__": "Stroke",
+                                            "cap": "RoundCap",
+                                            "color": {
+                                                "value": "#b0835d"
+                                            },
+                                            "group_color": "#00000000",
+                                            "join": "RoundJoin",
+                                            "locked": false,
+                                            "miter_limit": 4,
+                                            "name": "Stroke",
+                                            "opacity": {
+                                                "value": 1
+                                            },
+                                            "use": null,
+                                            "uuid": "a9355e31-d51b-4755-af35-f55203d8b2b8",
+                                            "visible": true,
+                                            "width": {
+                                                "value": 16
+                                            }
+                                        },
+                                        {
+                                            "__type__": "Ellipse",
+                                            "group_color": "#00000000",
+                                            "locked": false,
+                                            "name": "Ellipse",
+                                            "position": {
+                                                "value": {
+                                                    "x": 285.76891139240456,
+                                                    "y": 135.1631392405058
+                                                }
+                                            },
+                                            "reversed": false,
+                                            "size": {
+                                                "value": {
+                                                    "height": 68.39088607594869,
+                                                    "width": 68.39088607594869
+                                                }
+                                            },
+                                            "uuid": "7c74e75f-87cc-4c59-b388-9c5c4b1df72e",
+                                            "visible": true
+                                        }
+                                    ],
+                                    "transform": {
+                                        "__type__": "Transform",
+                                        "anchor_point": {
+                                            "value": {
+                                                "x": 284.0919493670885,
+                                                "y": 136.98592405063292
+                                            }
+                                        },
+                                        "position": {
+                                            "keyframes": [
+                                                {
+                                                    "after": {
+                                                        "x": 1,
+                                                        "y": 1
+                                                    },
+                                                    "before": {
+                                                        "x": 0,
+                                                        "y": 0
+                                                    },
+                                                    "point_type": 0,
+                                                    "tan_in": {
+                                                        "x": 336.8797974683544,
+                                                        "y": 247.22794936708866
+                                                    },
+                                                    "tan_out": {
+                                                        "x": 336.8797974683544,
+                                                        "y": 247.22794936708866
+                                                    },
+                                                    "time": 119,
+                                                    "value": {
+                                                        "x": 336.8797974683544,
+                                                        "y": 247.22794936708866
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        "rotation": {
+                                            "value": 0
+                                        },
+                                        "scale": {
+                                            "value": {
+                                                "x": 1,
+                                                "y": 1
+                                            }
+                                        }
+                                    },
+                                    "uuid": "e87c6d70-7aaf-410e-a587-fb1b41942a88",
+                                    "visible": true
+                                }
+                            ],
+                            "transform": {
+                                "__type__": "Transform",
+                                "anchor_point": {
+                                    "value": {
+                                        "x": 344.1417721518987,
+                                        "y": 202.69367088607595
+                                    }
+                                },
+                                "position": {
+                                    "keyframes": [
+                                        {
+                                            "after": {
+                                                "x": 0.3333333333333333,
+                                                "y": 1.3333333333333333
+                                            },
+                                            "before": {
+                                                "x": 0.4788243479591866,
+                                                "y": -1.5474943176028726
+                                            },
+                                            "point_type": 0,
+                                            "tan_in": {
+                                                "x": 344.1417721518987,
+                                                "y": 201.23544303797468
+                                            },
+                                            "tan_out": {
+                                                "x": 344.1417721518987,
+                                                "y": 201.23544303797468
+                                            },
+                                            "time": 0,
+                                            "value": {
+                                                "x": 344.1417721518987,
+                                                "y": 201.23544303797468
+                                            }
+                                        },
+                                        {
+                                            "after": {
+                                                "x": 0.3333333333333333,
+                                                "y": 1.3333333333333333
+                                            },
+                                            "before": {
+                                                "x": 0.7899869683415008,
+                                                "y": -0.29504317123583607
+                                            },
+                                            "point_type": 0,
+                                            "tan_in": {
+                                                "x": 370.3898734177215,
+                                                "y": 189.56962025316454
+                                            },
+                                            "tan_out": {
+                                                "x": 370.3898734177215,
+                                                "y": 189.56962025316454
+                                            },
+                                            "time": 40,
+                                            "value": {
+                                                "x": 370.3898734177215,
+                                                "y": 189.56962025316454
+                                            }
+                                        },
+                                        {
+                                            "after": {
+                                                "x": 0.39026187109441696,
+                                                "y": 1.3364818199681943
+                                            },
+                                            "before": {
+                                                "x": 0.6666666666666666,
+                                                "y": -0.3333333333333333
+                                            },
+                                            "point_type": 0,
+                                            "tan_in": {
+                                                "x": 331.7374473611629,
+                                                "y": 193.30037501247892
+                                            },
+                                            "tan_out": {
+                                                "x": 331.7374473611629,
+                                                "y": 193.30037501247892
+                                            },
+                                            "time": 81,
+                                            "value": {
+                                                "x": 331.7374473611629,
+                                                "y": 193.30037501247892
+                                            }
+                                        },
+                                        {
+                                            "after": {
+                                                "x": 0.3333333333333333,
+                                                "y": 1.3333333333333333
+                                            },
+                                            "before": {
+                                                "x": 0.6666666666666666,
+                                                "y": -0.3333333333333333
+                                            },
+                                            "point_type": 0,
+                                            "tan_in": {
+                                                "x": 344.1417721518987,
+                                                "y": 201.23544303797468
+                                            },
+                                            "tan_out": {
+                                                "x": 344.1417721518987,
+                                                "y": 201.23544303797468
+                                            },
+                                            "time": 119,
+                                            "value": {
+                                                "x": 344.1417721518987,
+                                                "y": 201.23544303797468
+                                            }
+                                        },
+                                        {
+                                            "after": {
+                                                "x": 0.3333333333333333,
+                                                "y": 1.3333333333333333
+                                            },
+                                            "before": {
+                                                "x": 0.6666666666666666,
+                                                "y": -0.3333333333333333
+                                            },
+                                            "point_type": 0,
+                                            "tan_in": {
+                                                "x": 344.1417721518987,
+                                                "y": 201.23544303797468
+                                            },
+                                            "tan_out": {
+                                                "x": 344.1417721518987,
+                                                "y": 201.23544303797468
+                                            },
+                                            "time": 149,
+                                            "value": {
+                                                "x": 344.1417721518987,
+                                                "y": 201.23544303797468
+                                            }
+                                        },
+                                        {
+                                            "after": {
+                                                "x": 0.3333333333333333,
+                                                "y": 1.3333333333333333
+                                            },
+                                            "before": {
+                                                "x": 0.6666666666666666,
+                                                "y": -0.3333333333333333
+                                            },
+                                            "point_type": 0,
+                                            "tan_in": {
+                                                "x": 207.0683544303797,
+                                                "y": 64.1620253164557
+                                            },
+                                            "tan_out": {
+                                                "x": 207.0683544303797,
+                                                "y": 64.1620253164557
+                                            },
+                                            "time": 179,
+                                            "value": {
+                                                "x": 207.0683544303797,
+                                                "y": 64.1620253164557
+                                            }
+                                        },
+                                        {
+                                            "after": {
+                                                "x": 0.3333333333333333,
+                                                "y": 1.3333333333333333
+                                            },
+                                            "before": {
+                                                "x": 0.6666666666666666,
+                                                "y": -0.3333333333333333
+                                            },
+                                            "point_type": 0,
+                                            "tan_in": {
+                                                "x": 204.15189873417717,
+                                                "y": 84.57721518987343
+                                            },
+                                            "tan_out": {
+                                                "x": 204.15189873417717,
+                                                "y": 84.57721518987343
+                                            },
+                                            "time": 235,
+                                            "value": {
+                                                "x": 204.15189873417717,
+                                                "y": 84.57721518987343
+                                            }
+                                        },
+                                        {
+                                            "after": {
+                                                "x": 0.3333333333333333,
+                                                "y": 1.3333333333333333
+                                            },
+                                            "before": {
+                                                "x": 0.6666666666666666,
+                                                "y": -0.3333333333333333
+                                            },
+                                            "point_type": 0,
+                                            "tan_in": {
+                                                "x": 234.77468354430374,
+                                                "y": 102.07594936708863
+                                            },
+                                            "tan_out": {
+                                                "x": 234.77468354430374,
+                                                "y": 102.07594936708863
+                                            },
+                                            "time": 299,
+                                            "value": {
+                                                "x": 234.77468354430374,
+                                                "y": 102.07594936708863
+                                            }
+                                        },
+                                        {
+                                            "after": {
+                                                "x": 1,
+                                                "y": 1
+                                            },
+                                            "before": {
+                                                "x": 0.6666666666666666,
+                                                "y": -0.3333333333333333
+                                            },
+                                            "point_type": 0,
+                                            "tan_in": {
+                                                "x": 218.73417721518976,
+                                                "y": 253.73164556962027
+                                            },
+                                            "tan_out": {
+                                                "x": 218.73417721518976,
+                                                "y": 253.73164556962027
+                                            },
+                                            "time": 359,
+                                            "value": {
+                                                "x": 218.73417721518976,
+                                                "y": 253.73164556962027
+                                            }
+                                        }
+                                    ]
+                                },
+                                "rotation": {
+                                    "keyframes": [
+                                        {
+                                            "after": {
+                                                "x": 0.3333333333333333,
+                                                "y": 1.3333333333333333
+                                            },
+                                            "before": {
+                                                "x": 0.6666666666666666,
+                                                "y": -0.3333333333333333
+                                            },
+                                            "time": 0,
+                                            "value": 0
+                                        },
+                                        {
+                                            "after": {
+                                                "x": 0.3333333333333333,
+                                                "y": 1.3333333333333333
+                                            },
+                                            "before": {
+                                                "x": 0.6907802895808889,
+                                                "y": -0.3115801740768756
+                                            },
+                                            "time": 40,
+                                            "value": -30
+                                        },
+                                        {
+                                            "after": {
+                                                "x": 0.359350663319731,
+                                                "y": 1.3628006357027211
+                                            },
+                                            "before": {
+                                                "x": 0.6666666666666666,
+                                                "y": -0.3333333333333333
+                                            },
+                                            "time": 81,
+                                            "value": 15
+                                        },
+                                        {
+                                            "after": {
+                                                "x": 0.3333333333333333,
+                                                "y": 1.3333333333333333
+                                            },
+                                            "before": {
+                                                "x": 0.6666666666666666,
+                                                "y": -0.3333333333333333
+                                            },
+                                            "time": 119,
+                                            "value": 0
+                                        },
+                                        {
+                                            "after": {
+                                                "x": 0.3333333333333333,
+                                                "y": 1.3333333333333333
+                                            },
+                                            "before": {
+                                                "x": 0.6666666666666666,
+                                                "y": -0.3333333333333333
+                                            },
+                                            "time": 149,
+                                            "value": 0
+                                        },
+                                        {
+                                            "after": {
+                                                "x": 0.3333333333333333,
+                                                "y": 1.3333333333333333
+                                            },
+                                            "before": {
+                                                "x": 0.6666666666666666,
+                                                "y": -0.3333333333333333
+                                            },
+                                            "time": 179,
+                                            "value": -73.12372589111328
+                                        },
+                                        {
+                                            "after": {
+                                                "x": 0.3333333333333333,
+                                                "y": 1.3333333333333333
+                                            },
+                                            "before": {
+                                                "x": 0.6666666666666666,
+                                                "y": -0.3333333333333333
+                                            },
+                                            "time": 235,
+                                            "value": -87.1832504272461
+                                        },
+                                        {
+                                            "after": {
+                                                "x": 0.3333333333333333,
+                                                "y": 1.3333333333333333
+                                            },
+                                            "before": {
+                                                "x": 0.6666666666666666,
+                                                "y": -0.3333333333333333
+                                            },
+                                            "time": 299,
+                                            "value": -5
+                                        },
+                                        {
+                                            "after": {
+                                                "x": 1,
+                                                "y": 1
+                                            },
+                                            "before": {
+                                                "x": 0.6666666666666666,
+                                                "y": -0.3333333333333333
+                                            },
+                                            "time": 359,
+                                            "value": -120
+                                        }
+                                    ]
+                                },
+                                "scale": {
+                                    "value": {
+                                        "x": 1,
+                                        "y": 1
+                                    }
+                                }
+                            },
+                            "uuid": "35975824-bd7a-49b8-9743-1236736d2f5f",
+                            "visible": true
+                        }
+                    ],
+                    "uuid": "25a4f160-2f4f-4f15-bc34-8d8a2f436306",
+                    "visible": true,
+                    "width": 512
+                }
+            ]
+        },
+        "fonts": {
+            "__type__": "FontList",
+            "name": "",
+            "uuid": "afd689cd-ac32-4b6d-ae5a-00454b0d7aeb",
+            "values": [
+            ]
+        },
+        "gradient_colors": {
+            "__type__": "GradientColorsList",
+            "name": "",
+            "uuid": "6f7971d5-581c-4518-bcf1-b4fc038cf08e",
+            "values": [
+            ]
+        },
+        "gradients": {
+            "__type__": "GradientList",
+            "name": "",
+            "uuid": "c961eaa7-0e78-43b0-8775-f4c7725a8ee1",
+            "values": [
+            ]
+        },
+        "images": {
+            "__type__": "BitmapList",
+            "name": "",
+            "uuid": "3f43ea58-51ad-4ace-b4de-6d1e33fcf19d",
+            "values": [
+            ]
+        },
+        "name": "",
+        "uuid": "49c9e42d-b50d-43c7-af30-f401f431a602"
+    },
+    "format": {
+        "format_version": 8,
+        "generator": "Glaxnimate",
+        "generator_version": "0.5.5+win-325cecfb"
+    },
+    "info": {
+        "author": "",
+        "description": "",
+        "keywords": [
+        ]
+    },
+    "metadata": {
+    }
+}

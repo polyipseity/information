@@ -1,0 +1,38 @@
+The initial game information:
+Robot A HP=1000
+Robot B HP=300
+Robot C HP=201
+Robot D HP=200
+Robot E HP=199
+B . C 
+. A . 
+D . E 
+Fail: Robot A cannot hit any target
+== Health points of alive robots ==
+Robot A HP=1000
+Robot B HP=300
+Robot C HP=201
+Robot D HP=200
+Robot E HP=199
+Fail: Robot A cannot hit any target
+== Health points of alive robots ==
+Robot A HP=1000
+Robot B HP=300
+Robot C HP=201
+Robot D HP=200
+Robot E HP=199
+Fail: Robot A cannot hit any target
+== Health points of alive robots ==
+Robot A HP=1000
+Robot B HP=300
+Robot C HP=201
+Robot D HP=200
+Robot E HP=199
+Fail: Robot A cannot hit any target
+== Health points of alive robots ==
+Robot A HP=1000
+Robot B HP=300
+Robot C HP=201
+Robot D HP=200
+Robot E HP=199
+=== Game Ended ===
