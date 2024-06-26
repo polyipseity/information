@@ -79,7 +79,7 @@ return chain(
 
 <!--pytextgen generate section="dd23"--><!-- The following content is generated at 2024-06-11T22:43:08.135584+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←organize the data set <!--SR:!2024-06-26,9,250!2024-06-29,12,270-->
+- _(begin)_→:::←organize the data set <!--SR:!2024-07-26,30,270!2024-06-29,12,270-->
 - organize the data set→:::←calculate the empirical mean <!--SR:!2024-06-30,12,270!2024-06-30,12,270-->
 - calculate the empirical mean→:::←calculate the deviations from the mean <!--SR:!2024-07-05,17,290!2024-06-28,11,270-->
 - calculate the deviations from the mean→:::←find the covariance matrix <!--SR:!2024-06-28,11,270!2024-06-27,10,250-->
@@ -117,7 +117,7 @@ return chain(
     - Use the cumulative variances as {{a guide for choosing an appropriate value for the number of reduced dimensions _l_}}. The goal is to {{choose the smallest _l_ possible while ensuring the _l_-th cumulative variance _g<sub>l</sub>_ is reasonably high on a percentage basis}}. For example, {{one can choose the smallest _l_ such that $\frac {g_l} {g_p} \ge 0.9$}}.
     - After choosing _l_ (or _l_ is given beforehand), only keep {{the first _l_ columns of the eigenvector _V_ to make a _p_ × _l_ matrix __W__ and discard the rest}}.
 9. __<!--pytextgen generate section="f098"--><!-- The following content is generated at 2024-06-11T22:43:08.510681+08:00. Any edits will be overridden! -->project the data onto the new basis<!--/pytextgen-->__
-    - The projected data points are {{the rows of the _n_ × _l_ matrix __T__}}, computed by {{$$\mathbf{T} = \mathbf{B} \mathbf{W}$$}}. <!--SR:!2024-07-01,13,290!2024-07-01,13,290!2024-07-02,14,290!2024-06-29,12,270!2024-07-15,20,250!2024-07-05,17,290!2024-07-03,15,290!2024-06-29,12,270!2024-07-06,13,250!2024-06-26,9,250!2024-07-05,17,290!2024-06-29,12,270!2024-07-13,18,250!2024-06-28,10,270!2024-07-04,16,290!2024-07-04,16,290!2024-06-30,12,270!2024-07-01,13,290!2024-06-27,9,270!2024-07-12,17,250!2024-06-28,10,270!2024-07-01,13,270!2024-07-04,16,290!2024-06-28,10,270!2024-06-26,9,250!2024-06-27,10,250!2024-06-27,10,250!2024-07-13,20,270!2024-06-27,9,270!2024-07-01,13,270!2024-07-17,22,250!2024-07-14,19,250!2024-06-29,11,270-->
+    - The projected data points are {{the rows of the _n_ × _l_ matrix __T__}}, computed by {{$$\mathbf{T} = \mathbf{B} \mathbf{W}$$}}. <!--SR:!2024-07-01,13,290!2024-07-01,13,290!2024-07-02,14,290!2024-06-29,12,270!2024-07-15,20,250!2024-07-05,17,290!2024-07-03,15,290!2024-06-29,12,270!2024-07-06,13,250!2024-07-17,21,250!2024-07-05,17,290!2024-06-29,12,270!2024-07-13,18,250!2024-06-28,10,270!2024-07-04,16,290!2024-07-04,16,290!2024-06-30,12,270!2024-07-01,13,290!2024-06-27,9,270!2024-07-12,17,250!2024-06-28,10,270!2024-07-01,13,270!2024-07-04,16,290!2024-06-28,10,270!2024-07-25,29,270!2024-06-27,10,250!2024-06-27,10,250!2024-07-13,20,270!2024-06-27,9,270!2024-07-01,13,270!2024-07-17,22,250!2024-07-14,19,250!2024-06-29,11,270-->
 
 ## references
 

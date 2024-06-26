@@ -89,7 +89,7 @@ _Previously, product innovation was part 2._
 
 Prepares for TEMG 4950 — T&M consulting for a real client or TEMG 4940 — T&M prototyping for a real client.
 
-The case method, i.e. using case analysis for teaching, can teach {{identifying assumptions, issues, and relationships}}. From said information, {{conclusions, deductions, and inferences can be made}}. It also helps with {{evaluating authority, evidence, and logicalness of your thinking}}, {{making self-corrections}} as necessary. Finally, you can {{present your solution persuasively}}. <!--SR:!2024-08-14,50,301!2024-08-28,66,321!2024-08-05,44,301!2024-06-26,18,301!2024-09-03,70,321-->
+The case method, i.e. using case analysis for teaching, can teach {{identifying assumptions, issues, and relationships}}. From said information, {{conclusions, deductions, and inferences can be made}}. It also helps with {{evaluating authority, evidence, and logicalness of your thinking}}, {{making self-corrections}} as necessary. Finally, you can {{present your solution persuasively}}. <!--SR:!2024-08-14,50,301!2024-08-28,66,321!2024-08-05,44,301!2024-09-07,73,321!2024-09-03,70,321-->
 
 ### case analysis elements
 
@@ -131,7 +131,7 @@ root cause analysis, 5 whys
 
 <!--pytextgen generate section="a9bf"--><!-- The following content is generated at 2024-06-04T22:06:05.721345+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←4P: McCarthy's 4 Ps <!--SR:!2024-08-08,44,301!2024-06-26,18,301-->
+- _(begin)_→:::←4P: McCarthy's 4 Ps <!--SR:!2024-08-08,44,301!2024-09-08,74,321-->
 - 4P: McCarthy's 4 Ps→:::←5-step persuasive selling <!--SR:!2024-06-30,9,261!2024-08-19,55,301-->
 - 5-step persuasive selling→:::←5C: Chernev 5C framework <!--SR:!2024-08-11,47,301!2024-07-30,38,301-->
 - 5C: Chernev 5C framework→:::←5F: Porter's 5 forces framework <!--SR:!2024-07-18,32,281!2024-08-13,49,301-->

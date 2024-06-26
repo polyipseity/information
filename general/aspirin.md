@@ -80,7 +80,7 @@ return await memorize_table(
 > |-|-|
 > | {{increased bleeding risk}} |  |
 > | {{[stomach ulcer](peptic%20ulcer%20disease.md)}} |  |
-> | {{[stomach upset](abdominal%20pain.md)}} |  | <!--SR:!2027-07-27,1127,330!2024-06-26,344,330!2024-09-08,144,310-->
+> | {{[stomach upset](abdominal%20pain.md)}} |  | <!--SR:!2027-07-27,1127,330!2027-08-04,1134,330!2024-09-08,144,310-->
 
 <!--/pytextgen-->
 

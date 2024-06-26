@@ -23,7 +23,7 @@ Depending on the 2 factors of {{meeting the same customer needs and possessing t
 
 1. direct competitor ::: meeting the same customer needs and possessing the same capabilities to do so <!--SR:!2024-08-06,65,321!2024-08-11,69,321-->
 2. indirect competitor ::: meeting the same customer needs but using different capabilities to do so <!--SR:!2024-06-28,32,281!2024-08-12,69,321-->
-3. potential competitor ::: not meeting the same customer needs but possessing the same capabilities to do so <!--SR:!2024-06-26,32,281!2024-08-03,62,321-->
+3. potential competitor ::: not meeting the same customer needs but possessing the same capabilities to do so <!--SR:!2024-10-30,126,301!2024-08-03,62,321-->
 4. non-competitor ::: not meeting the same customer needs and not possessing the same capabilities to do so <!--SR:!2024-07-31,60,321!2024-08-11,69,321-->
 
 Direct competitors are not {{necessarily more important than indirect or potential competitors, and instead it depends on the market}}. <!--SR:!2024-08-08,68,314-->
@@ -180,7 +180,7 @@ number of features
 
 ### visualization
 
-It is very important to {{add our own products to the visualization and make it obvious that the products are our own}}. <!--SR:!2024-06-26,32,281-->
+It is very important to {{add our own products to the visualization and make it obvious that the products are our own}}. <!--SR:!2024-10-26,122,301-->
 
 If we are comparing two features only, we can {{use a _xy_-grid and plot our and competitors' products}}. If there are more features, {{we can use a table, with the column headers being the products and the row headers being the features}}. {{A mix of both}} is possible. <!--SR:!2024-08-10,67,321!2024-07-24,56,314!2024-06-27,38,290-->
 

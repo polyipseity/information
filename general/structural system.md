@@ -117,10 +117,10 @@ return await memorize_seq(
 
 - _(begin)_→:::←[buttress](buttress.md) <!--SR:!2024-07-18,45,295!2024-08-13,69,315-->
 - [buttress](buttress.md)→:::←[diagrid](diagrid.md) <!--SR:!2024-07-08,18,235!2024-08-03,60,315-->
-- [diagrid](diagrid.md)→:::←[exoskeleton](exoskeleton.md) <!--SR:!2024-06-26,28,275!2024-08-01,58,315-->
+- [diagrid](diagrid.md)→:::←[exoskeleton](exoskeleton.md) <!--SR:!2024-09-11,77,275!2024-08-01,58,315-->
 - [exoskeleton](exoskeleton.md)→:::←[space truss](space%20frame.md) <!--SR:!2024-08-13,56,255!2024-06-27,28,275-->
 - [space truss](space%20frame.md)→:::←[superframe](superframe.md) <!--SR:!2024-07-25,49,295!2024-07-16,29,275-->
-- [superframe](superframe.md)→:::←[tube](tube%20(structure).md) <!--SR:!2024-07-08,36,295!2024-06-26,11,235-->
+- [superframe](superframe.md)→:::←[tube](tube%20(structure).md) <!--SR:!2024-07-08,36,295!2024-07-03,7,215-->
 - [tube](tube%20(structure).md)→:::←_(end)_ <!--SR:!2024-08-15,70,315!2024-08-14,69,315-->
 
 <!--/pytextgen-->

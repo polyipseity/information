@@ -140,7 +140,7 @@ The content is in teaching order.
 
 - time: 2024-03-11T09:00:00+08:00/2024-03-11T10:30:00+08:00
 - [entropy](../../../../general/entropy%20(information%20theory).md)
-- decision tree format ::: All nodes show the percentage of actual labels in that decision nodes. The internal nodes show the attribute being split on. The terminal nodes show the predicted label. Arrows point from top to bottom, and each is labelled with an inequality operating on the attribute, which decides whether an sample being predicted should go through said arrow. <!--SR:!2024-07-31,36,337!2024-06-26,9,317-->
+- decision tree format ::: All nodes show the percentage of actual labels in that decision nodes. The internal nodes show the attribute being split on. The terminal nodes show the predicted label. Arrows point from top to bottom, and each is labelled with an inequality operating on the attribute, which decides whether an sample being predicted should go through said arrow. <!--SR:!2024-07-31,36,337!2024-07-28,32,317-->
 - [decision tree learning § algorithms](../../../../general/decision%20tree%20learning.md#algorithms)
   - decision tree learning algorithms ::: We only teach ID3 algorithm, C4.5 algorithm, and CART. <!--SR:!2024-07-17,76,351!2025-01-27,225,347-->
 - [ID3 § algorithm](../../../../general/ID3%20algorithm.md#algorithm)
@@ -332,7 +332,7 @@ The content is in teaching order.
   - [§ long short-term memory](../../../../general/recurrent%20neural%20network.md#long%20short-term%20memory)
   - [§ gated recurrent unit](../../../../general/recurrent%20neural%20network.md#gated%20recurrent%20unit)
 - [convolutional neural network](../../../../general/convolutional%20neural%20network.md)
-  - convolutional neural network application ::: image similarity search <!--SR:!2024-06-26,9,317!2024-07-09,21,357-->
+  - convolutional neural network application ::: image similarity search <!--SR:!2024-08-08,43,337!2024-07-09,21,357-->
 - [support vector machine](../../../../general/support%20vector%20machine.md)
   - [§ linear SVM](../../../../general/support%20vector%20machine.md#linear%20SVM)
   - [§ hard-margin](../../../../general/support%20vector%20machine.md#hard-margin)
@@ -375,7 +375,7 @@ The content is in teaching order.
 - [Analytics Solver usage](../../../Analytic%20Solver%20usage.md): principal components
 - [data warehouse](../../../../general/data%20warehouse.md)
   - data warehouse > application ::: [online analytical processing](../../../../general/online%20analytical%20processing.md) (OLAP), used by many corporations <!--SR:!2024-07-14,25,368!2024-07-23,33,368-->
-  - data warehouse > advantage ::: data warehouses can speed up queries on a database <!--SR:!2024-06-26,9,317!2024-07-07,19,357-->
+  - data warehouse > advantage ::: data warehouses can speed up queries on a database <!--SR:!2024-08-06,41,337!2024-07-07,19,357-->
 
 ## week 13 lecture 1
 
@@ -437,7 +437,7 @@ The content is in teaching order.
   - [§ conditional independence of events](../../../../general/conditional%20independence.md#conditional%20independence%20of%20events)
   - [§ proof of the equivalent definition](../../../../general/conditional%20independence.md#proof%20of%20the%20equivalent%20definition)
 - [conditional probability table](../../../../general/conditional%20probability%20table.md)
-  - conditional probability table format ::: The row headers are the inputs. The column headers are the outputs. <!--SR:!2024-06-26,9,329!2024-07-03,16,349-->
+  - conditional probability table format ::: The row headers are the inputs. The column headers are the outputs. <!--SR:!2024-07-30,34,329!2024-07-03,16,349-->
 - [chain rule (probability)](../../../../general/chain%20rule%20(probability).md)
   - [§ two events](../../../../general/chain%20rule%20(probability).md#two%20events)
   - [§ finitely many events](../../../../general/chain%20rule%20(probability).md#finitely%20many%20events)
@@ -456,7 +456,7 @@ The content is in teaching order.
   - [§ Bayes' theorem for 3 events](../../../../general/Bayes'%20theorem.md#Bayes'%20theorem%20for%203%20events)
 - [Bayesian belief network](../../../../general/Bayesian%20network.md)
   - [§ graphical model](../../../../general/Bayesian%20network.md#graphical%20model)
-  - Bayesian belief network inference setup ::: Identify the node for which the conditional probability is calculated. Then identify all node parents and children, whether direct or indirect. Discard conditions that are conditionally independent of the calculated probability (e.g. not part of the identified parents and children, or the parents of nodes with known values). <!--SR:!2024-06-26,9,317!2024-07-07,19,357-->
+  - Bayesian belief network inference setup ::: Identify the node for which the conditional probability is calculated. Then identify all node parents and children, whether direct or indirect. Discard conditions that are conditionally independent of the calculated probability (e.g. not part of the identified parents and children, or the parents of nodes with known values). <!--SR:!2024-07-25,29,317!2024-07-07,19,357-->
   - Bayesian belief network inference process ::: Decompose joint probabilities into separate probabilities if they are conditionally independent of each other. Apply Bayes' theorem (for 3 events) to invert the conditional probability so that the resulting conditional probabilities follow the network arrows. Use the probability chain rule if necessary. Sum up over all possible values of a node (recursively) if necessary. Finally, substitute the known probabilities to calculate the results. <!--SR:!2024-07-19,24,317!2024-06-28,11,317-->
   - Bayesian belief network inference answering ::: Also calculate the inverse of the conditional probability (which is _usually_ done by subtracting from 1). Compare the 2 conditional probabilities, and declare that the higher conditional probability is the most likely outcome. <!--SR:!2024-07-08,20,357!2024-07-01,14,337-->
 - [conditional dependence](../../../../general/conditional%20dependence.md)
@@ -467,7 +467,7 @@ The content is in teaching order.
 - common core requirement ::: mathematical models, quantitative data, quantitative methods <!--SR:!2024-07-02,15,337!2024-07-08,20,357-->
 - other topics
   - association thresholding ::: Instead of thresholding by frequency, we can threshold by number of frequent item sets found, which may be easier to choose. <!--SR:!2024-07-01,13,337!2024-07-01,14,337-->
-  - [clustering high-dimensional data § subspace clustering](../../../../general/clustering%20high-dimensional%20data.md#subspace%20clustering) ::: By removing some dimensions of the data, more interesting clusters may be found. It mitigates [curse of dimensionality](../../../../general/curse%20of%20dimensionality.md), where [distance between different pairs of points become similar](../../../../general/curse%20of%20dimensionality.md#distance%20function). <!--SR:!2024-06-26,9,317!2024-06-30,13,337-->
+  - [clustering high-dimensional data § subspace clustering](../../../../general/clustering%20high-dimensional%20data.md#subspace%20clustering) ::: By removing some dimensions of the data, more interesting clusters may be found. It mitigates [curse of dimensionality](../../../../general/curse%20of%20dimensionality.md), where [distance between different pairs of points become similar](../../../../general/curse%20of%20dimensionality.md#distance%20function). <!--SR:!2024-07-27,31,317!2024-06-30,13,337-->
   - ensemble of classifiers ::: We can output the prediction based on the majority prediction of the classifiers. <!--SR:!2024-07-02,15,337!2024-07-02,15,337-->
   - data warehouse questions ::: How to create the data warehouse over different types of data, such as a graph? <!--SR:!2024-07-07,19,357!2024-07-09,21,357-->
   - [word-sense disambiguation](word-sense%20disambiguation.md) ::: How to disambiguate between different entities of the same name on the Internet? <!--SR:!2024-07-07,19,357!2024-07-07,19,357-->
