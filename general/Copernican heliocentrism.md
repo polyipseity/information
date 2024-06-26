@@ -13,11 +13,11 @@ tags:
 # import ../../tools/utility.py.md
 ```
 
-__Copernican heliocentrism__ is {{the astronomical [model](scientific%20modelling.md) developed by [Nicolaus Copernicus](Nicolaus%20Copernicus.md)}} and published in {{1543}}. This model {{positioned the [Sun](Sun.md) at the center of the [universe](universe.md), motionless, with [Earth](Earth.md) and the other [planets](planet.md) moving around it in [circular orbits](circular%20orbit.md), modified by [epicycles](deferent%20and%20epicycle.md), and at uniform speeds}}. The Copernican model displaced {{the [Ptolemaic model](geocentric%20model.md#Ptolemaic%20model) that had prevailed for centuries, which had placed Earth at the center of the universe}}.
+__Copernican heliocentrism__ is {{the astronomical [model](scientific%20modelling.md) developed by [Nicolaus Copernicus](Nicolaus%20Copernicus.md)}} and published in {{1543}}. This model {{positioned the [Sun](Sun.md) at the center of the [universe](universe.md), motionless, with [Earth](Earth.md) and the other [planets](planet.md) moving around it in [circular orbits](circular%20orbit.md), modified by [epicycles](deferent%20and%20epicycle.md), and at uniform speeds}}. The Copernican model displaced {{the [Ptolemaic model](geocentric%20model.md#Ptolemaic%20model) that had prevailed for centuries, which had placed Earth at the center of the universe}}. <!--SR:!2024-06-30,4,270!2024-06-27,1,230!2024-06-29,3,250!2024-06-29,3,250-->
 
 ## Copernican theory
 
-The Copernican order of spheres {{from the [Sun](Sun.md) outward}} is:
+The Copernican order of spheres {{from the [Sun](Sun.md) outward}} is: <!--SR:!2024-06-30,4,270-->
 
 ```Python
 # pytextgen generate data
@@ -51,15 +51,15 @@ return await memorize_seq(
 
 <!--pytextgen generate section="dbad"--><!-- The following content is generated at 2024-06-25T18:12:42.995238+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←(center) [Sun](Sun.md)
-- (center) [Sun](Sun.md)→:::←[Mercury](Mercury%20(planet).md)
-- [Mercury](Mercury%20(planet).md)→:::←[Venus](Venus.md)
-- [Venus](Venus.md)→:::←[Earth](Earth.md), with the [Moon](Moon.md) orbiting around it
-- [Earth](Earth.md), with the [Moon](Moon.md) orbiting around it→:::←[Mars](Mars.md)
-- [Mars](Mars.md)→:::←[Jupiter](Jupiter.md)
-- [Jupiter](Jupiter.md)→:::←[Saturn](Saturn.md)
-- [Saturn](Saturn.md)→:::←[fixed stars](fixed%20stars.md)
-- [fixed stars](fixed%20stars.md)→:::←_(end)_
+- _(begin)_→:::←(center) [Sun](Sun.md) <!--SR:!2024-06-30,4,270!2024-06-29,3,250-->
+- (center) [Sun](Sun.md)→:::←[Mercury](Mercury%20(planet).md) <!--SR:!2024-06-30,4,270!2024-06-30,4,270-->
+- [Mercury](Mercury%20(planet).md)→:::←[Venus](Venus.md) <!--SR:!2024-06-30,4,270!2024-06-29,3,250-->
+- [Venus](Venus.md)→:::←[Earth](Earth.md), with the [Moon](Moon.md) orbiting around it <!--SR:!2024-06-30,4,270!2024-06-30,4,270-->
+- [Earth](Earth.md), with the [Moon](Moon.md) orbiting around it→:::←[Mars](Mars.md) <!--SR:!2024-06-30,4,270!2024-06-29,3,250-->
+- [Mars](Mars.md)→:::←[Jupiter](Jupiter.md) <!--SR:!2024-06-30,4,270!2024-06-30,4,270-->
+- [Jupiter](Jupiter.md)→:::←[Saturn](Saturn.md) <!--SR:!2024-06-29,3,250!2024-06-30,4,270-->
+- [Saturn](Saturn.md)→:::←[fixed stars](fixed%20stars.md) <!--SR:!2024-06-30,4,270!2024-06-30,4,270-->
+- [fixed stars](fixed%20stars.md)→:::←_(end)_ <!--SR:!2024-06-30,4,270!2024-06-30,4,270-->
 
 <!--/pytextgen-->
 
