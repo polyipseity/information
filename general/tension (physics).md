@@ -10,7 +10,7 @@ aliases:
   - tensive force
   - tensive forces
 tags:
-  - flashcard/general/tension_(physics)
+  - flashcard/general/tension__physics_
   - language/in/English
 ---
 

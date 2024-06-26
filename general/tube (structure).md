@@ -1,8 +1,11 @@
 ---
 aliases:
   - tube
+  - tube system
+  - tube systems
+  - tubes
 tags:
-  - flashcard/general/tube_(structure)
+  - flashcard/general/tube__structure_
   - language/in/English
 ---
 

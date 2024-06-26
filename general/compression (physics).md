@@ -7,7 +7,7 @@ aliases:
   - compressive force
   - compressive forces
 tags:
-  - flashcard/general/compression_(physics)
+  - flashcard/general/compression__physics_
   - language/in/English
 ---
 
