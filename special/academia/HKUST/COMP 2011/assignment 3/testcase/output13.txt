@@ -1,0 +1,292 @@
+=== Simplified USTSPAC System ===
+=== Menu ===
+1: Display student list
+2: Display courses
+3: Display star_ranks of course 
+4: Insert a new student to the student list
+5: Insert a new course to the course list
+6: Insert a new star_rank to the star_rank list
+7: Delete a star_rank by student id and course id
+8: Delete a course by course id
+9: Exit the system
+Enter your option: 
+Enter the course id: 
+Enter a name: 
+1 is successfully inserted
+=== Menu ===
+1: Display student list
+2: Display courses
+3: Display star_ranks of course 
+4: Insert a new student to the student list
+5: Insert a new course to the course list
+6: Insert a new star_rank to the star_rank list
+7: Delete a star_rank by student id and course id
+8: Delete a course by course id
+9: Exit the system
+Enter your option: 
+Enter the course id: 
+Enter a name: 
+2 is successfully inserted
+=== Menu ===
+1: Display student list
+2: Display courses
+3: Display star_ranks of course 
+4: Insert a new student to the student list
+5: Insert a new course to the course list
+6: Insert a new star_rank to the star_rank list
+7: Delete a star_rank by student id and course id
+8: Delete a course by course id
+9: Exit the system
+Enter your option: 
+Enter the course id: 
+Enter a name: 
+increase course array size to 4
+3 is successfully inserted
+=== Menu ===
+1: Display student list
+2: Display courses
+3: Display star_ranks of course 
+4: Insert a new student to the student list
+5: Insert a new course to the course list
+6: Insert a new star_rank to the star_rank list
+7: Delete a star_rank by student id and course id
+8: Delete a course by course id
+9: Exit the system
+Enter your option: 
+Enter the student id: 
+Enter a name: 
+1 is successfully inserted
+=== Menu ===
+1: Display student list
+2: Display courses
+3: Display star_ranks of course 
+4: Insert a new student to the student list
+5: Insert a new course to the course list
+6: Insert a new star_rank to the star_rank list
+7: Delete a star_rank by student id and course id
+8: Delete a course by course id
+9: Exit the system
+Enter your option: 
+Enter the student id: 
+Enter a name: 
+2 is successfully inserted
+=== Menu ===
+1: Display student list
+2: Display courses
+3: Display star_ranks of course 
+4: Insert a new student to the student list
+5: Insert a new course to the course list
+6: Insert a new star_rank to the star_rank list
+7: Delete a star_rank by student id and course id
+8: Delete a course by course id
+9: Exit the system
+Enter your option: 
+Enter the student id: 
+Enter a name: 
+3 is successfully inserted
+=== Menu ===
+1: Display student list
+2: Display courses
+3: Display star_ranks of course 
+4: Insert a new student to the student list
+5: Insert a new course to the course list
+6: Insert a new star_rank to the star_rank list
+7: Delete a star_rank by student id and course id
+8: Delete a course by course id
+9: Exit the system
+Enter your option: 
+Enter the student id: 
+Enter the course id: 
+Enter the star rank of this course: 
+ star_rank is successfully inserted
+=== Menu ===
+1: Display student list
+2: Display courses
+3: Display star_ranks of course 
+4: Insert a new student to the student list
+5: Insert a new course to the course list
+6: Insert a new star_rank to the star_rank list
+7: Delete a star_rank by student id and course id
+8: Delete a course by course id
+9: Exit the system
+Enter your option: 
+Enter the student id: 
+Enter the course id: 
+Enter the star rank of this course: 
+ star_rank is successfully inserted
+=== Menu ===
+1: Display student list
+2: Display courses
+3: Display star_ranks of course 
+4: Insert a new student to the student list
+5: Insert a new course to the course list
+6: Insert a new star_rank to the star_rank list
+7: Delete a star_rank by student id and course id
+8: Delete a course by course id
+9: Exit the system
+Enter your option: 
+Enter the student id: 
+Enter the course id: 
+Enter the star rank of this course: 
+ star_rank is successfully inserted
+=== Menu ===
+1: Display student list
+2: Display courses
+3: Display star_ranks of course 
+4: Insert a new student to the student list
+5: Insert a new course to the course list
+6: Insert a new star_rank to the star_rank list
+7: Delete a star_rank by student id and course id
+8: Delete a course by course id
+9: Exit the system
+Enter your option: 
+Enter the student id: 
+Enter the course id: 
+Enter the star rank of this course: 
+ star_rank is successfully inserted
+=== Menu ===
+1: Display student list
+2: Display courses
+3: Display star_ranks of course 
+4: Insert a new student to the student list
+5: Insert a new course to the course list
+6: Insert a new star_rank to the star_rank list
+7: Delete a star_rank by student id and course id
+8: Delete a course by course id
+9: Exit the system
+Enter your option: 
+Enter the student id: 
+Enter the course id: 
+Enter the star rank of this course: 
+ star_rank is successfully inserted
+=== Menu ===
+1: Display student list
+2: Display courses
+3: Display star_ranks of course 
+4: Insert a new student to the student list
+5: Insert a new course to the course list
+6: Insert a new star_rank to the star_rank list
+7: Delete a star_rank by student id and course id
+8: Delete a course by course id
+9: Exit the system
+Enter your option: 
+Enter the student id: 
+Enter the course id: 
+Enter the star rank of this course: 
+Failed to insert star_rank because the student 3 already have a star_rank.
+Failed to insert star_rank, sid: 3, course id: 2
+=== Menu ===
+1: Display student list
+2: Display courses
+3: Display star_ranks of course 
+4: Insert a new student to the student list
+5: Insert a new course to the course list
+6: Insert a new star_rank to the star_rank list
+7: Delete a star_rank by student id and course id
+8: Delete a course by course id
+9: Exit the system
+Enter your option: 
+Enter the course id: 
+reduce course array size to 2
+course is successfully deleted
+=== Menu ===
+1: Display student list
+2: Display courses
+3: Display star_ranks of course 
+4: Insert a new student to the student list
+5: Insert a new course to the course list
+6: Insert a new star_rank to the star_rank list
+7: Delete a star_rank by student id and course id
+8: Delete a course by course id
+9: Exit the system
+Enter your option: 
+Enter the course id: 
+course is successfully deleted
+=== Menu ===
+1: Display student list
+2: Display courses
+3: Display star_ranks of course 
+4: Insert a new student to the student list
+5: Insert a new course to the course list
+6: Insert a new star_rank to the star_rank list
+7: Delete a star_rank by student id and course id
+8: Delete a course by course id
+9: Exit the system
+Enter your option: 
+Enter the course id: 
+course is successfully deleted
+=== Menu ===
+1: Display student list
+2: Display courses
+3: Display star_ranks of course 
+4: Insert a new student to the student list
+5: Insert a new course to the course list
+6: Insert a new star_rank to the star_rank list
+7: Delete a star_rank by student id and course id
+8: Delete a course by course id
+9: Exit the system
+Enter your option: 
+=== Student List ([sid, name, star_rank count]) ===
+[1, John, 0] -> [2, Tom, 0] -> [3, Jim, 0]
+=== Menu ===
+1: Display student list
+2: Display courses
+3: Display star_ranks of course 
+4: Insert a new student to the student list
+5: Insert a new course to the course list
+6: Insert a new star_rank to the star_rank list
+7: Delete a star_rank by student id and course id
+8: Delete a course by course id
+9: Exit the system
+Enter your option: 
+No course in the list 
+=== Menu ===
+1: Display student list
+2: Display courses
+3: Display star_ranks of course 
+4: Insert a new student to the student list
+5: Insert a new course to the course list
+6: Insert a new star_rank to the star_rank list
+7: Delete a star_rank by student id and course id
+8: Delete a course by course id
+9: Exit the system
+Enter your option: 
+Enter the course id: 
+Course not found 
+=== Menu ===
+1: Display student list
+2: Display courses
+3: Display star_ranks of course 
+4: Insert a new student to the student list
+5: Insert a new course to the course list
+6: Insert a new star_rank to the star_rank list
+7: Delete a star_rank by student id and course id
+8: Delete a course by course id
+9: Exit the system
+Enter your option: 
+Enter the course id: 
+Course not found 
+=== Menu ===
+1: Display student list
+2: Display courses
+3: Display star_ranks of course 
+4: Insert a new student to the student list
+5: Insert a new course to the course list
+6: Insert a new star_rank to the star_rank list
+7: Delete a star_rank by student id and course id
+8: Delete a course by course id
+9: Exit the system
+Enter your option: 
+Enter the course id: 
+Course not found 
+=== Menu ===
+1: Display student list
+2: Display courses
+3: Display star_ranks of course 
+4: Insert a new student to the student list
+5: Insert a new course to the course list
+6: Insert a new star_rank to the star_rank list
+7: Delete a star_rank by student id and course id
+8: Delete a course by course id
+9: Exit the system
+Enter your option: 

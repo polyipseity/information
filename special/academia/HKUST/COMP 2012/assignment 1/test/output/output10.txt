@@ -1,0 +1,5 @@
+Testing TODO 3: Menu class functions
+Test case 4 selected.
+Enter the ID of the food item to remove: Food item removed successfully.
+ID: 2, Name: Chocolate, Price: $10
+ID: 3, Name: Pasta, Price: $30

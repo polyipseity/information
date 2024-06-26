@@ -1,0 +1,56 @@
+The initial game information:
+Robot A HP=100
+A . . . . . . . . . 
+. . . . . . . . . . 
+. . . . . . . . . . 
+. . . . . . . . . . 
+. . . . . . . . . . 
+Success: Robot A moves along the direction east by 1 step(s)
+. A . . . . . . . . 
+. . . . . . . . . . 
+. . . . . . . . . . 
+. . . . . . . . . . 
+. . . . . . . . . . 
+Success: Robot A moves along the direction south by 1 step(s)
+. . . . . . . . . . 
+. A . . . . . . . . 
+. . . . . . . . . . 
+. . . . . . . . . . 
+. . . . . . . . . . 
+Success: Robot A moves along the direction west by 1 step(s)
+. . . . . . . . . . 
+A . . . . . . . . . 
+. . . . . . . . . . 
+. . . . . . . . . . 
+. . . . . . . . . . 
+Success: Robot A moves along the direction north by 1 step(s)
+A . . . . . . . . . 
+. . . . . . . . . . 
+. . . . . . . . . . 
+. . . . . . . . . . 
+. . . . . . . . . . 
+Success: Robot A moves along the direction east by 9 step(s)
+. . . . . . . . . A 
+. . . . . . . . . . 
+. . . . . . . . . . 
+. . . . . . . . . . 
+. . . . . . . . . . 
+Success: Robot A moves along the direction south by 4 step(s)
+. . . . . . . . . . 
+. . . . . . . . . . 
+. . . . . . . . . . 
+. . . . . . . . . . 
+. . . . . . . . . A 
+Success: Robot A moves along the direction west by 9 step(s)
+. . . . . . . . . . 
+. . . . . . . . . . 
+. . . . . . . . . . 
+. . . . . . . . . . 
+A . . . . . . . . . 
+Success: Robot A moves along the direction north by 4 step(s)
+A . . . . . . . . . 
+. . . . . . . . . . 
+. . . . . . . . . . 
+. . . . . . . . . . 
+. . . . . . . . . . 
+=== Game Ended ===

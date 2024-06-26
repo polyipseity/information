@@ -1,0 +1,53 @@
+This is a real-time updated game leaderboard, players ranked in descending order by score.
+Some new players join, some players update score.
+Game Ranking will show after each operation.
+Game over when input 0 0.
+================ Game Leaderboard ==============
+Rank  Name  Score
+1 dhkh      8188.6     
+================ Game Leaderboard ==============
+Rank  Name  Score
+1 dhkh      8188.6     
+2 oyndv     4000.34    
+================ Game Leaderboard ==============
+Rank  Name  Score
+1 oyndv     4000.34    
+2 dhkh      1243.64    
+================ Game Leaderboard ==============
+Rank  Name  Score
+1 oyndv     4000.34    
+2 daa       2606.15    
+3 dhkh      1243.64    
+================ Game Leaderboard ==============
+Rank  Name  Score
+1 daa       2606.15    
+2 oyndv     2057.82    
+3 dhkh      1243.64    
+================ Game Leaderboard ==============
+Rank  Name  Score
+1 sqdilyr   4504.72    
+2 daa       2606.15    
+3 oyndv     2057.82    
+4 dhkh      1243.64    
+================ Game Leaderboard ==============
+Rank  Name  Score
+1 sqdilyr   4504.72    
+2 oyndv     3049.05    
+3 daa       2606.15    
+4 dhkh      1243.64    
+================ Game Leaderboard ==============
+Rank  Name  Score
+1 yncsj     9920.09    
+2 sqdilyr   4504.72    
+3 oyndv     3049.05    
+4 daa       2606.15    
+5 dhkh      1243.64    
+================ Game Leaderboard ==============
+Rank  Name  Score
+1 yncsj     9920.09    
+2 sqdilyr   4504.72    
+3 oyndv     3049.05    
+4 daa       2606.15    
+5 dhkh      1243.64    
+6 mnvyx     307.15     
+Game Over.

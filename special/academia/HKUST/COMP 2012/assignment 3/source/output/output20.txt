@@ -1,0 +1,1 @@
+Empty BSTnode's head is nullptr: true

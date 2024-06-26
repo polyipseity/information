@@ -1,0 +1,15 @@
+6
+A 100
+B 100
+C 100
+D 100
+E 100
+F 100
+3 3
+ABC
+D..
+.EF
+A moves south 2
+B moves south 2
+C moves south 3
+!

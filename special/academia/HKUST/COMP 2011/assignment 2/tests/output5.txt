@@ -1,0 +1,10 @@
+Enter the width/height of the puzzle (2, 4, 8):
+Enter the x-coordinate of the empty cell (0-1):
+Enter the y-coordinate of the empty cell (0-1):
+0: Exit directly (for testing checkInput function), 1: Output Quadrant of the empty cell,
+2: Output without normalization (for student's debug only), 3: Output with normalization
+Enter the output mode:
+Quadrant for the empty cell: 4
+  0 1
+0:A A
+1:  A

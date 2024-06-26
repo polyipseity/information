@@ -1,0 +1,1 @@
+Empty Vaccine hash table count: 0

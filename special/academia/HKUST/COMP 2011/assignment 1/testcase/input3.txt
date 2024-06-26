@@ -1,0 +1,24 @@
+4
+A 100
+B 100
+C 100
+D 100
+2 2
+AB
+CD
+A moves north 1
+A moves east 2
+A moves south 2
+A moves west 1
+B moves south 1
+C moves south 1
+D moves south 1
+C moves east 1
+D moves east 1
+C moves east 2
+C moves east 3
+C moves east 10
+D moves east 2
+D moves east 3
+D moves east 10
+!

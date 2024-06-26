@@ -1,0 +1,9 @@
+1
+A 100
+1 1
+A
+A hits east
+A hits west
+A hits north
+A hits south
+!

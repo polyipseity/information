@@ -44,7 +44,7 @@ find the covariance matrix
 find the eigenvectors and eigenvalues of the covariance matrix
 rearrange the eigenvectors and eigenvalues
 compute the cumulative variance for each eigenvector
-select a subset of the eigenvectors as basis vectors
+select a subset of the eigenvectors as the new basis vectors
 project the data onto the new basis
 """.strip().splitlines()
 return chain(
@@ -63,7 +63,7 @@ return chain(
 )
 ```
 
-<!--pytextgen generate section="f123"--><!-- The following content is generated at 2024-06-11T22:43:08.443411+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="f123"--><!-- The following content is generated at 2024-06-25T17:37:48.396131+08:00. Any edits will be overridden! -->
 
 > 1. organize the data set
 > 2. calculate the empirical mean
@@ -72,12 +72,12 @@ return chain(
 > 5. find the eigenvectors and eigenvalues of the covariance matrix
 > 6. rearrange the eigenvectors and eigenvalues
 > 7. compute the cumulative variance for each eigenvector
-> 8. select a subset of the eigenvectors as basis vectors
+> 8. select a subset of the eigenvectors as the new basis vectors
 > 9. project the data onto the new basis
 
 <!--/pytextgen-->
 
-<!--pytextgen generate section="dd23"--><!-- The following content is generated at 2024-06-11T22:43:08.135584+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="dd23"--><!-- The following content is generated at 2024-06-25T17:37:48.351142+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←organize the data set <!--SR:!2024-07-26,30,270!2024-06-29,12,270-->
 - organize the data set→:::←calculate the empirical mean <!--SR:!2024-06-30,12,270!2024-06-30,12,270-->
@@ -86,8 +86,8 @@ return chain(
 - find the covariance matrix→:::←find the eigenvectors and eigenvalues of the covariance matrix <!--SR:!2024-06-29,11,270!2024-06-27,9,270-->
 - find the eigenvectors and eigenvalues of the covariance matrix→:::←rearrange the eigenvectors and eigenvalues <!--SR:!2024-07-14,19,250!2024-07-12,19,270-->
 - rearrange the eigenvectors and eigenvalues→:::←compute the cumulative variance for each eigenvector <!--SR:!2024-07-04,16,290!2024-07-05,17,290-->
-- compute the cumulative variance for each eigenvector→:::←select a subset of the eigenvectors as basis vectors <!--SR:!2024-07-11,16,250!2024-07-12,17,250-->
-- select a subset of the eigenvectors as basis vectors→:::←project the data onto the new basis <!--SR:!2024-06-27,10,250!2024-06-29,11,270-->
+- compute the cumulative variance for each eigenvector→:::←select a subset of the eigenvectors as the new basis vectors <!--SR:!2024-07-11,16,250!2024-07-12,17,250-->
+- select a subset of the eigenvectors as the new basis vectors→:::←project the data onto the new basis <!--SR:!2024-06-27,10,250!2024-06-29,11,270-->
 - project the data onto the new basis→:::←_(end)_ <!--SR:!2024-06-30,12,270!2024-06-28,11,270-->
 
 <!--/pytextgen-->
@@ -113,7 +113,7 @@ return chain(
     - Make sure {{the pairings between the 2 matrices are maintained}}.
 7. __<!--pytextgen generate section="dd01"--><!-- The following content is generated at 2024-06-11T22:43:08.410586+08:00. Any edits will be overridden! -->compute the cumulative variance for each eigenvector<!--/pytextgen-->__
     - The eigenvalues {{represent the distribution of the data's variance among each of the eigenvector}}. The cumulative variance _g_ for the _j_-th eigenvector is {{simply the sum of the eigenvalues from the 1st to the _j_-th eigenvector}}: {{$$g_j = \sum_{i = 1}^j \mathbf{D}_{ii} \quad \forall j \in \set{1, \ldots, p}$$}}
-8. __<!--pytextgen generate section="c123"--><!-- The following content is generated at 2024-06-11T22:43:08.476983+08:00. Any edits will be overridden! -->select a subset of the eigenvectors as basis vectors<!--/pytextgen-->__
+8. __<!--pytextgen generate section="c123"--><!-- The following content is generated at 2024-06-25T17:37:48.434481+08:00. Any edits will be overridden! -->select a subset of the eigenvectors as the new basis vectors<!--/pytextgen-->__
     - Use the cumulative variances as {{a guide for choosing an appropriate value for the number of reduced dimensions _l_}}. The goal is to {{choose the smallest _l_ possible while ensuring the _l_-th cumulative variance _g<sub>l</sub>_ is reasonably high on a percentage basis}}. For example, {{one can choose the smallest _l_ such that $\frac {g_l} {g_p} \ge 0.9$}}.
     - After choosing _l_ (or _l_ is given beforehand), only keep {{the first _l_ columns of the eigenvector _V_ to make a _p_ × _l_ matrix __W__ and discard the rest}}.
 9. __<!--pytextgen generate section="f098"--><!-- The following content is generated at 2024-06-11T22:43:08.510681+08:00. Any edits will be overridden! -->project the data onto the new basis<!--/pytextgen-->__
