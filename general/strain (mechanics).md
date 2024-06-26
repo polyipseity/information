@@ -3,7 +3,7 @@ aliases:
   - mechanical strain
   - strain
 tags:
-  - flashcard/general/strain_(mechanics)
+  - flashcard/general/strain__mechanics_
   - language/in/English
 ---
 
