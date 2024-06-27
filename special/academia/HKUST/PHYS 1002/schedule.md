@@ -73,7 +73,7 @@ For 2024 Summer.
 |     | 3  | Sat |                              |                                                          |
 |     | 4  | Sun |                              |                                                          |
 |     | 5  | Mon |                              |                                                          |
-|     | 6  | Tue | Lecture 14                   | Strip Sequencce Test                                     |
+|     | 6  | Tue | Lecture 14                   | Strip Sequence Test                                      |
 |     | 7  | Wed |                              |                                                          |
 |     | 8  | Thu | Final Exam                   |                                                          |
 |     | 9  | Fri |                              | Student generated questions submission deadline at 23:59 |

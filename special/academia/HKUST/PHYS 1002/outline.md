@@ -89,6 +89,11 @@ The content is in teaching order.
 - [scale of the universe @ HKUST](scale%20of%20the%20universe%20@%20HKUST.md) ::: a 1:10<sup>10</sup> (length) model <!--SR:!2024-06-30,4,288!2024-06-30,4,288-->
 - number of stars in the [observable universe](../../../../general/observable%20universe.md) ::: 10<sup>11</sup> stars/galaxy × 10<sup>11</sup> galaxies = 10<sup>22</sup> stars <!--SR:!2024-06-30,4,288!2024-06-30,4,288-->
   - number of stars in the [observable universe](../../../../general/observable%20universe.md) analogy ::: The [observable universe](../../../../general/observable%20universe.md) has as many stars as the number of grains of dry sand on all of [Earth](../../../../general/Earth.md)'s beaches. Imagine the time needed to count each grain of sand 1 per second. <!--SR:!2024-06-29,3,268!2024-06-30,4,288-->
+- [questions § 2024-06-18](questions.md#2024-06-18)
+
+## week 1 lecture 2
+
+- time: 2024-06-20T10:00:00+08:00/2024-06-20T12:30:00+08:00
 - [Cosmic Calendar](../../../../general/Cosmic%20Calendar.md) ::: Compress the entire history of the universe till now (13.8 billion years) into 1 year. 1 month ≈ 1.2 billion yrs, 1 day ≈ 40 million yrs, 1 sec ≈ 440 yrs <!--SR:!2024-06-29,3,268!2024-06-30,4,288-->
   - Cosmic Calendar highlights ::: The [Solar System](../../../../general/Solar%20System.md) formed on September. Dinosaurs appeared on Christmas (25 Dec) and extincted yesterday (30 Dec). All of recorded human history occurred in the last 30 seconds. We (age of ~20) were born 0.05 seconds before. <!--SR:!2024-06-29,3,268!2024-06-30,4,288-->
 - Are we ever standing still? ::: No! Consider the movement of [Earth](../../../../general/Earth.md), the [Sun](../../../../general/Sun.md), and [Milky Way](../../../../general/Milky%20Way.md). <!--SR:!2024-06-30,4,288!2024-06-30,4,288-->
@@ -96,23 +101,41 @@ The content is in teaching order.
   - [Earth's rotation](../../../../general/Earth's%20rotation.md) ::: [Earth](../../../../general/Earth.md) rotates on its axis once very day (~24 h). Its [axial tilt](../../../../general/axial%20tilt.md) is about 23.5°, pointing to [Polaris](../../../../general/Polaris.md). <!--SR:!2024-06-30,4,288!2024-06-30,4,288-->
   - [Earth's orbit](../../../../general/Earth's%20orbit.md) ::: [Earth](../../../../general/Earth.md) orbits the [Sun](../../../../general/Sun.md) once a year at an average distance of 1 [AU](../../../../general/astronomical%20unit.md), in counterclockwise direction as viewed from above. <!--SR:!2024-06-30,4,288!2024-06-30,4,288-->
     - [astronomical unit](../../../../general/astronomical%20unit.md) ::: 1 [AU](../../../../general/astronomical%20unit.md) = 149&nbsp;597&nbsp;870&nbsp;700 m ≈ 150 million km <!--SR:!2024-06-28,1,228!2024-06-30,4,288-->
-    - Earth's orbital speed ::: Surprisingly quick, 29.78 km/s or 107&nbsp;200 km/h <!--SR:!2024-06-29,3,268!2024-06-30,4,288-->
+    - Earth's orbital speed ::: surprisingly quick, 29.78 km/s or 107&nbsp;200 km/h <!--SR:!2024-06-29,3,268!2024-06-30,4,288-->
   - Why do we not feel the movement of Earth even if it is moving very quickly? ::: Although Earth moves very quickly, its acceleration is very little. As we feel acceleration but not velocity, we do not feel the Earth moving. (Imagine riding on trains which are respectively accelerating, in constant velocity, and decelerating.) For [Earth's rotation](../../../../general/Earth's%20rotation.md), consider that the [angular velocity](../../../../general/angular%20velocity.md) is very small. <!--SR:!2024-06-30,4,288!2024-06-30,4,288-->
   - [angular velocity](../../../../general/angular%20velocity.md) ::: Angular velocity is $\omega = \frac {v_{\perp} } r$, where $v_{\perp}$ is the signed (+: counterclockwise, -: clockwise) magnitude of the tangential velocity and $r$ is the radius from the rotation center. <!--SR:!2024-06-30,4,288!2024-06-30,4,288-->
 - movement of the [Sun](../../../../general/Sun.md) ::: [solar apex](../../../../general/solar%20apex.md), [orbit of the Sun](../../../../general/Sun.md#motion), movement of the [Milky Way](../../../../general/Milky%20Way.md) <!--SR:!2024-06-30,4,288!2024-06-30,4,288-->
-  - [solar apex § direction](solar%20apex.md#direction) ::: The [Sun](../../../../general/Sun.md) moves relative to the local solar neighborhood ([local standard of rest](../../../../general/local%20standard%20of%20rest.md)) at about 72&nbsp;000 km/h. <!--SR:!2024-06-30,4,288!2024-06-30,4,288-->
+  - [solar apex § direction](../../../../general/solar%20apex.md#direction) ::: The [Sun](../../../../general/Sun.md) moves relative to the local solar neighborhood ([local standard of rest](../../../../general/local%20standard%20of%20rest.md)) at about 72&nbsp;000 km/h. (Actually, this was the measured speed before 1986, but we will use it here anyway.) <!--SR:!2024-06-30,4,288!2024-06-30,4,288-->
   - [orbit of the Sun](../../../../general/Sun.md#motion) ::: The [Sun](../../../../general/Sun.md) orbits around the [Milky Way](../../../../general/Milky%20Way.md) center about every 230 million years at a speed of about 800&nbsp;000 km/h. <!--SR:!2024-06-30,4,288!2024-06-30,4,288-->
   - Why do we not notice the movement of the [Sun](../../../../general/Sun.md) even if it is moving extremely quickly? ::: This is because the distance between [stars](../../../../general/star.md) is even larger. In a 1:10<sup>10</sup> model, the [Sun](../../../../general/Sun.md)'s speed 70&nbsp;000 km/h is 0.7 cm/h. Compare this to the scaled distance of 4400 km (4.4 ly) between the Sun and [Alpha Centauri](../../../../general/Alpha%20Centauri.md). One implication is that stars appear to be stationary over lifetimes of many generations, allowing the concept of [constellation](../../../../general/constellation.md). <!--SR:!2024-06-30,4,288!2024-06-30,4,288-->
 - [Milky Way](../../../../general/Milky%20Way.md) fun fact ::: While most of the light come from the [Milky Way](../../../../general/Milky%20Way.md)'s bulge and disk, most of its mass is in its halo. ([dark matter](../../../../general/dark%20matter.md)) <!--SR:!2024-06-30,4,288!2024-06-30,4,288-->
 - movement of the [Milky Way](../../../../general/Milky%20Way.md) ::: [approaching the Andromeda Galaxy](../../../../general/Milky%20Way.md#intergalactic%20neighborhood), [Hubble's law](../../../../general/Hubble's%20law.md) <!--SR:!2024-06-30,4,288!2024-06-30,4,288-->
-  - [approaching the Andromeda Galaxy](../../../../general/Milky%20Way.md#intergalactic%20neighborhood) ::: at about 300&nbsp;300 km/h <!--SR:!2024-06-30,4,288!2024-06-30,4,288-->
+  - [approaching the Andromeda Galaxy](../../../../general/Milky%20Way.md#intergalactic%20neighborhood) ::: at about 300&nbsp;000 km/h <!--SR:!2024-06-30,4,288!2024-06-30,4,288-->
   - [Hubble's law](../../../../general/Hubble's%20law.md) ::: Attributed to [Edwin Hubble](../../../../general/Edwin%20Hubble.md). All [galaxies](../../../../general/galaxy.md) outside our [Local Group](../../../../general/Local%20Group.md) are moving away from us, with the speeds proportional to their distances. <!--SR:!2024-06-30,4,288!2024-06-30,4,288-->
     - Hubble's law implications ::: An evidence for the [expansion of the universe](../../../../general/expansion%20of%20the%20universe.md). Consider [raisins](../../../../general/raisin.md) (galaxies) in a rising loaf of bread (the universe). Raisins further apart from each other move away from each other faster. <!--SR:!2024-06-30,4,288!2024-06-30,4,288-->
-- [questions § 2024-06-18](questions.md#2024-06-18)
-
-## week 1 lecture 2
-
-- time: 2024-06-20T10:00:00+08:00/2024-06-20T12:30:00+08:00
+- recurring patterns on [Earth](../../../../general/Earth.md) ::: day: circling sky, month: phases of the [Moon](../../../../general/Moon.md), year: 4 seasons
+- How does the [universe](../../../../general/universe.md) look like from [Earth](../../../../general/Earth.md) using the naked eye? ::: We can see more than 2000 [stars](../../../../general/star.md) as well as the [Milky Way](../../../../general/Milky%20Way.md). (Unfortunately, due to light pollution, many [stars](../../../../general/star.md) cannot be seen from [Hong Kong](../../../../general/Hong%20Kong.md).)
+- [constellation](../../../../general/constellation.md) ::: A region of the sky. There are 88 of them. Most names come from the imagination of ancient people. They are now used as landmarks by modern [astronomers](../../../../general/astronomer.md).
+- [asterism](../../../../general/asterism%20(astronomy).md) ::: An observed pattern of [stars](../../../../general/star.md) in the [sky](../../../../general/sky.md). More general than [constellations](../../../../general/constellation.md).
+  - asterism examples ::: the [Big Dipper](../../../../general/Big%20Dipper.md), [Ursa Major](../../../../general/Ursa%20Major.md) ([constellation](../../../../general/constellation.md))
+  - the [Big Dipper](../../../../general/Big%20Dipper.md) ::: It consists of the 7 brightest stars of the constellation [Ursa Major](../../../../general/Ursa%20Major.md). (Also known as BeiDou (Chinese: 北斗). The [BeiDou](../../../../general/BeiDou.md) Navigation Satellite System (BDS) is named after it.)
+- Are stars in an asterism or constellation of the same cluster and similar distance? ::: No! They can very far apart from each other (many light-years away).
+- motion of the [stars](../../../../general/star.md) ::: They go around us once per day, like how the [Sun](../../../../general/Sun.md) rises and sets.
+- [celestial sphere](../../../../general/celestial%20sphere.md) (Chinese: 天球) ::: An imaginary sphere with [Earth](../../../../general/Earth.md) as the center.
+  - Why do stars appear to be fixed on the celestial sphere? And what are the exceptions? ::: Even if the stars (Chinese: 恆星 for 'unmoving star') are moving very quickly (described in km), their distances to us are even higher (described in ly), so they _appear_ fixed. The [Moon](../../../../general/Moon.md), the [Sun](../../../../general/Sun.md), and [planets](../../../../general/planet.md) (Chinese: 行星 for 'moving star') are much closer and moves slowly on the sphere.
+  - horizon ::: plane tangent to the ground, depends on your location
+  - [zenith](../../../../general/zenith.md) ::: point on the [celestial sphere](../../../../general/celestial%20sphere.md) directly overhead, depends on your location
+  - [nadir](../../../../general/nadir.md) ::: point on the [celestial sphere](../../../../general/celestial%20sphere.md) directly underneath, depends on your location
+  - [celestial equator](../../../../general/celestial%20equator.md) ::: projection of [Earth](../../../../general/Earth.md)'s equator onto the [celestial sphere](celestial%20sphere.md)
+  - north [celestial pole](../../../../general/celestial%20pole.md) ::: projection of [Earth](../../../../general/Earth.md)'s north [celestial pole](../../../../general/celestial%20pole.md) onto the [celestial sphere](../../../../general/celestial%20sphere.md)
+  - south [celestial pole](../../../../general/celestial%20pole.md) ::: projection of [Earth](../../../../general/Earth.md)'s south [celestial pole](../../../../general/celestial%20pole.md) onto the [celestial sphere](../../../../general/celestial%20sphere.md)
+  - [ecliptic](../../../../general/ecliptic.md) ::: the [Sun](../../../../general/Sun.md)'s apparent path through the [celestial sphere](../../../../general/celestial%20sphere.md) during the year
+- [axial tilt](../../../../general/axial%20tilt.md) ::: It equals the angle between the (celestial) [equatorial plane](../../../../general/equator.md) and the [ecliptic plane](../../../../general/ecliptic.md). For [Earth](../../../../general/Earth.md), this angle is 23.5°.
+- [Milky Way](../../../../general/Milky%20Way.md) [galaxy class](../../../../general/galaxy%20morphological%20classification.md) ::: [flat spiral galaxy](../../../../general/spiral%20galaxy.md)
+- [galactic plane](../../../../general/galactic%20plane.md) ::: The [plane](../../../../general/plane%20(geometry).md) on which the majority of a disk-shaped [galaxy](../../../../general/galaxy.md)'s [mass](../../../../general/mass.md) lies. For us, the galactic plane of [Milky Way](../../../../general/Milky%20Way.md) blocks our view  of the [universe](../../../../general/universe.md) outside the Milky Way in the direction parallel to the plane.
+- [horizontal coordinate system](../../../../general/horizontal%20coordinate%20system.md) ::: coordinate system based on the local sky
+  - [§ definition](../../../../general/horizontal%20coordinate%20system.md#definition)
+  - [meridian](../../../../general/meridian%20(astronomy).md)
 
 ## week 2 lecture
 
@@ -141,3 +164,8 @@ The content is in teaching order.
 >
 > Regards, <br/>
 > \[redacted\]
+
+## week 2 lecture 2
+
+- time: 2024-06-27T10:00:00+08:00/2024-06-27T12:30:00+08:00
+- tutorial is the last 30 minutes
