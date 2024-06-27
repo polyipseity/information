@@ -51,7 +51,7 @@ return await memorize_seq(
 
 <!--/pytextgen-->
 
-{{[Issac Newton](Issac%20Newton.md) showed in 1687 (about 60 years later)}} that the above laws apply as {{a consequence of his own [laws of motion](Newton's%20laws%20of%20motion.md) and [law of universal gravitation](Newton's%20law%20of%20universal%20gravitation.md)}}. <!--SR:!2024-06-27,1,250!2024-06-30,4,290-->
+{{[Issac Newton](Issac%20Newton.md) showed in 1687 (about 60 years later)}} that the above laws apply as {{a consequence of his own [laws of motion](Newton's%20laws%20of%20motion.md) and [law of universal gravitation](Newton's%20law%20of%20universal%20gravitation.md)}}. <!--SR:!2024-06-30,3,250!2024-06-30,4,290-->
 
 ## history
 

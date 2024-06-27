@@ -167,7 +167,7 @@ The steps for naming an organic compound are:
 - _(begin)_→:::←[identify parent hydrocarbon chain](#identify%20parent%20hydrocarbon%20chain) <!--SR:!2024-07-12,389,255!2026-02-20,924,345-->
 - [identify parent hydrocarbon chain](#identify%20parent%20hydrocarbon%20chain)→:::←identify parent functional group of [highest group precedence](#precedence%20of%20functional%20groups) <!--SR:!2024-10-23,610,262!2024-09-16,507,325-->
 - identify parent functional group of [highest group precedence](#precedence%20of%20functional%20groups)→:::←identify side-chains <!--SR:!2024-07-10,387,264!2024-07-14,34,130-->
-- identify side-chains→:::←identify remaining functional groups <!--SR:!2026-06-02,852,230!2024-06-27,118,207-->
+- identify side-chains→:::←identify remaining functional groups <!--SR:!2026-06-02,852,230!2025-02-25,243,207-->
 - identify remaining functional groups→:::←identify multiple bonds <!--SR:!2025-02-08,275,190!2024-08-06,334,207-->
 - identify multiple bonds→:::←[identify numbering direction](#identify%20numbering%20direction) <!--SR:!2025-11-26,549,230!2024-06-30,24,130-->
 - [identify numbering direction](#identify%20numbering%20direction)→:::←number and [prefix](#prefix%20for%20type%20count) substituents and bonds <!--SR:!2026-01-17,579,190!2026-03-01,749,265-->
@@ -218,7 +218,7 @@ The steps for naming an organic compound are:
 <!--pytextgen generate section="abacdf"--><!-- The following content is generated at 2024-01-04T20:17:52.021214+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←smallest locant for the suffix functional group <!--SR:!2024-07-08,545,266!2030-03-25,2149,382-->
-- smallest locant for the suffix functional group→:::←smallest locant for multiple bonds <!--SR:!2024-06-27,537,266!2024-09-02,481,322-->
+- smallest locant for the suffix functional group→:::←smallest locant for multiple bonds <!--SR:!2029-12-14,1996,286!2024-09-02,481,322-->
 - smallest locant for multiple bonds→:::←smallest locant for prefixes <!--SR:!2028-02-06,1523,286!2026-02-13,908,345-->
 - smallest locant for prefixes→:::←_(end)_ <!--SR:!2029-03-04,1841,382!2027-07-26,1161,305-->
 
