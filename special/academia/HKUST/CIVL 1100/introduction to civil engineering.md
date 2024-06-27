@@ -72,7 +72,7 @@ The content is in teaching order.
     - [hydraulic engineering structure examples](#hydraulic%20engineering%20structure%20examples)
   - hydraulic engineering systems ::: planning, development, and management of discharge systems and water resources <!--SR:!2024-09-10,94,320!2025-01-16,209,352-->
     - [hydraulic engineering system examples](#hydraulic%20engineering%20system%20examples)
-- environmental engineering ::: application of engineering and science to improve the natural environment and minimize environmental impact <!--SR:!2024-09-05,90,321!2024-06-27,55,356-->
+- environmental engineering ::: application of engineering and science to improve the natural environment and minimize environmental impact <!--SR:!2024-09-05,90,321!2025-03-22,268,376-->
   - [environmental engineering areas](#environmental%20engineering%20areas)
     - air engineering ::: air pollution control, air quality monitoring, ozone layer protection <!--SR:!2024-08-27,95,335!2024-07-29,81,370-->
     - waste engineering ::: methods of disposal (e.g. landfills and incineration), site investigation and remediation, solid waste management <!--SR:!2024-06-28,44,295!2024-08-05,86,372-->
@@ -399,7 +399,7 @@ Water Cube
 
 <!--pytextgen generate section="cc12"--><!-- The following content is generated at 2024-03-10T00:25:48.737016+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←Beijing National Stadium <!--SR:!2024-08-26,94,380!2024-06-27,54,347-->
+- _(begin)_→:::←Beijing National Stadium <!--SR:!2024-08-26,94,380!2025-03-11,257,367-->
 - Beijing National Stadium→:::←Burj Al Arab <!--SR:!2024-08-23,87,304!2024-11-12,158,350-->
 - Burj Al Arab→:::←Burj Khalifa <!--SR:!2024-10-15,141,270!2024-12-22,190,352-->
 - Burj Khalifa→:::←CCTV Headquarters <!--SR:!2024-09-02,89,320!2024-08-12,95,270-->
@@ -454,7 +454,7 @@ testing materials
 
 - _(begin)_→:::←budgeting <!--SR:!2024-10-31,140,327!2024-07-05,57,355-->
 - budgeting→:::←contracting <!--SR:!2024-08-25,87,314!2024-11-08,146,327-->
-- contracting→:::←designing temporary structures <!--SR:!2024-07-19,81,215!2024-06-27,23,275-->
+- contracting→:::←designing temporary structures <!--SR:!2024-07-19,81,215!2024-08-28,62,275-->
 - designing temporary structures→:::←logistics <!--SR:!2024-10-03,124,340!2024-07-31,68,297-->
 - logistics→:::←planning <!--SR:!2024-07-19,39,294!2024-09-28,120,335-->
 - planning→:::←procuring materials <!--SR:!2024-07-22,59,317!2024-08-10,65,277-->
@@ -501,7 +501,7 @@ teaming up with others
 - _(begin)_→:::←business procedures <!--SR:!2024-07-14,45,252!2024-09-08,107,381-->
 - business procedures→:::←economics <!--SR:!2024-08-04,46,261!2024-07-31,68,285-->
 - economics→:::←human behaviors <!--SR:!2024-08-16,78,320!2024-10-23,131,340-->
-- human behaviors→:::←management principles <!--SR:!2024-08-07,47,300!2024-06-27,14,260-->
+- human behaviors→:::←management principles <!--SR:!2024-08-07,47,300!2024-08-01,35,260-->
 - management principles→:::←strong communication skills <!--SR:!2024-08-12,74,301!2024-09-05,96,320-->
 - strong communication skills→:::←teaming up with others <!--SR:!2024-11-07,138,340!2024-08-23,91,380-->
 - teaming up with others→:::←_(end)_ <!--SR:!2024-07-11,66,355!2024-08-31,73,272-->
@@ -542,7 +542,7 @@ wood
 - brick→:::←concrete <!--SR:!2024-06-30,19,305!2024-08-27,106,377-->
 - concrete→:::←new synthetic materials <!--SR:!2024-07-05,42,301!2024-06-29,47,341-->
 - new synthetic materials→:::←steel <!--SR:!2024-11-20,155,332!2024-08-29,85,320-->
-- steel→:::←stone <!--SR:!2024-07-10,20,320!2024-06-27,47,340-->
+- steel→:::←stone <!--SR:!2024-07-10,20,320!2024-12-03,159,340-->
 - stone→:::←wood <!--SR:!2024-08-14,75,321!2024-09-10,109,332-->
 - wood→:::←_(end)_ <!--SR:!2024-08-21,100,374!2024-07-14,62,360-->
 
@@ -602,7 +602,7 @@ nuclear
 - industrial→:::←manufacturing <!--SR:!2024-10-02,125,337!2024-09-11,103,332-->
 - manufacturing→:::←mechanical <!--SR:!2024-08-23,101,377!2024-10-23,134,337-->
 - mechanical→:::←nuclear <!--SR:!2024-08-11,90,377!2024-06-29,51,335-->
-- nuclear→:::←_(end)_ <!--SR:!2024-08-04,85,374!2024-06-27,83,345-->
+- nuclear→:::←_(end)_ <!--SR:!2024-08-04,85,374!2025-07-25,393,365-->
 
 <!--/pytextgen-->
 
@@ -742,7 +742,7 @@ tunnel
 
 - _(begin)_→:::←embankment <!--SR:!2024-10-03,112,320!2024-08-11,87,380-->
 - embankment→:::←pile foundation <!--SR:!2024-10-10,116,320!2024-07-15,61,360-->
-- pile foundation→:::←shallow foundation <!--SR:!2024-07-17,54,317!2024-06-27,54,355-->
+- pile foundation→:::←shallow foundation <!--SR:!2024-07-17,54,317!2025-01-04,191,355-->
 - shallow foundation→:::←tunnel <!--SR:!2024-10-08,104,321!2024-07-10,21,232-->
 - tunnel→:::←_(end)_ <!--SR:!2024-07-04,56,350!2024-08-01,67,317-->
 
@@ -1102,7 +1102,7 @@ water tower
 - storage facility→:::←tunnel <!--SR:!2024-07-02,18,320!2024-09-01,89,320-->
 - tunnel→:::←unusual structure <!--SR:!2024-06-28,34,247!2024-10-17,121,320-->
 - unusual structure→:::←water tower <!--SR:!2024-07-10,25,310!2024-06-29,51,330-->
-- water tower→:::←_(end)_ <!--SR:!2024-08-14,93,367!2024-06-27,34,301-->
+- water tower→:::←_(end)_ <!--SR:!2024-08-14,93,367!2024-07-15,18,281-->
 
 <!--/pytextgen-->
 

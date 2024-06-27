@@ -34,7 +34,7 @@ Swapping {{the row and column headers is also possible}}: <!--SR:!2024-07-02,14,
 | ___x_=0__ | 4/9                  | 2/9                  | 6/9     |
 | ___x_=1__ | 1/9                  | 2/9                  | 3/9     |
 
-With more than {{one conditioning variable or output variable}}, {{the table headers simply become all possible combinations of the multiple variables}}. <!--SR:!2024-06-27,9,270!2024-07-05,17,290-->
+With more than {{one conditioning variable or output variable}}, {{the table headers simply become all possible combinations of the multiple variables}}. <!--SR:!2024-07-29,32,290!2024-07-05,17,290-->
 
 ## references
 

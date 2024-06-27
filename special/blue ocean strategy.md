@@ -17,7 +17,7 @@ Blue ocean is about {{creating uncontested market space and capturing new demand
 
 ## blue ocean shift
 
-There are 3 steps to creating blue oceans: {{understand "as-is", imagine "to be", and create "gap"}}. <!--SR:!2024-06-27,10,284-->
+There are 3 steps to creating blue oceans: {{understand "as-is", imagine "to be", and create "gap"}}. <!--SR:!2024-08-05,39,304-->
 
 ### understand "as-is"
 

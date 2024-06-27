@@ -97,7 +97,7 @@ Example quiz questions for preparing exams.
 > 3. Lime scrubber is used to neutralize acid gases (NOx, SOx, HCl)
 > 4. Selective catalytic reactor is used to convert nitrogen to nitrogen oxides
 >
-> - solution: {{3}} <!--SR:!2024-06-27,24,272-->
+> - solution: {{3}} <!--SR:!2024-08-31,65,272-->
 
 ## environmental engineering quiz 2
 
@@ -149,7 +149,7 @@ Example quiz questions for preparing exams.
 > 3. Filtration
 > 4. Chemical enhanced sedimentation
 >
-> - solution: {{1}} <!--SR:!2024-06-27,24,272-->
+> - solution: {{1}} <!--SR:!2024-09-30,95,292-->
 
 <!-- markdownlint MD028 -->
 

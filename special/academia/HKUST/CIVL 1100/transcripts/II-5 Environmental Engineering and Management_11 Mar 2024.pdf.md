@@ -62,7 +62,7 @@ return await memorize_seq(
 
 - _(begin)_→:::←air pollution <!--SR:!2024-07-29,53,310!2024-07-28,52,310-->
 - air pollution→:::←land contamination <!--SR:!2024-07-03,30,270!2024-08-03,58,310-->
-- land contamination→:::←noise pollution <!--SR:!2024-07-09,34,290!2024-06-27,24,270-->
+- land contamination→:::←noise pollution <!--SR:!2024-07-09,34,290!2024-09-03,68,270-->
 - noise pollution→:::←solid waste disposal <!--SR:!2024-07-02,29,270!2024-07-15,42,290-->
 - solid waste disposal→:::←water pollution <!--SR:!2024-07-25,48,290!2024-07-08,18,230-->
 - water pollution→:::←_(end)_ <!--SR:!2024-07-24,49,310!2024-07-17,43,290-->
@@ -98,7 +98,7 @@ return await memorize_seq(
 
 <!--pytextgen generate section="a92d"--><!-- The following content is generated at 2024-06-09T06:29:24.057662+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←(Cap. 311) Air Pollution Control Ordinance <!--SR:!2024-06-27,8,295!2024-07-07,19,335-->
+- _(begin)_→:::←(Cap. 311) Air Pollution Control Ordinance <!--SR:!2024-07-01,4,275!2024-07-07,19,335-->
 - (Cap. 311) Air Pollution Control Ordinance→:::←(Cap. 354) Waste Disposal Ordinance <!--SR:!2024-07-14,19,295!2024-07-07,19,335-->
 - (Cap. 354) Waste Disposal Ordinance→:::←(Cap. 358) Water Pollution Control Ordinance <!--SR:!2024-07-15,20,295!2024-07-07,19,335-->
 - (Cap. 358) Water Pollution Control Ordinance→:::←(Cap. 400) Noise Pollution Control Ordinance <!--SR:!2024-06-28,10,295!2024-07-22,26,295-->
@@ -155,8 +155,8 @@ return await memorize_seq(
 - _(begin)_→:::←air sparging <!--SR:!2024-07-07,19,335!2024-07-07,19,335-->
 - air sparging→:::←bioremediation <!--SR:!2024-06-28,11,315!2024-06-29,12,315-->
 - bioremediation→:::←catalytic oxidation <!--SR:!2024-06-29,12,315!2024-06-30,13,315-->
-- catalytic oxidation→:::←ex-situ biopile <!--SR:!2024-07-18,23,295!2024-06-27,10,315-->
-- ex-situ biopile→:::←ex-situ solidification or stabilization <!--SR:!2024-06-30,13,315!2024-06-27,10,315-->
+- catalytic oxidation→:::←ex-situ biopile <!--SR:!2024-07-18,23,295!2024-08-13,47,335-->
+- ex-situ biopile→:::←ex-situ solidification or stabilization <!--SR:!2024-06-30,13,315!2024-08-12,46,335-->
 - ex-situ solidification or stabilization→:::←_(end)_ <!--SR:!2024-07-07,19,335!2024-06-29,12,315-->
 
 <!--/pytextgen-->
@@ -230,7 +230,7 @@ Environmental Levy Scheme (Plastic Shopping Bags)
   - Environmental Levy Scheme launch time ::: launched in 2009 <!--SR:!2024-07-14,29,290!2024-08-08,61,310-->
   - Environmental Levy Scheme coverage ::: 40 registered retailers with ~3100 retail outlets <!--SR:!2024-07-05,32,270!2024-07-23,48,310-->
   - Environmental Levy Scheme effect ::: -90% from registered retailers after 1 year. -25% in overall plastic bag consumption after covering all retail shops in 2015 <!--SR:!2024-06-29,26,270!2024-07-30,52,290-->
-  - Environmental Levy Scheme income ::: HK$25.5 million in 2009 <!--SR:!2024-06-27,26,270!2024-07-16,40,290-->
+  - Environmental Levy Scheme income ::: HK$25.5 million in 2009 <!--SR:!2024-09-06,71,270!2024-07-16,40,290-->
 
 ## page 16
 
@@ -316,7 +316,7 @@ Properties of Sound Waves
 
 Air Pollution: A serious problem in Hong Kong?
 
-- regional air pollution concerns ::: outdoor and indoor air pollution <!--SR:!2024-06-27,24,270!2024-08-14,66,310-->
+- regional air pollution concerns ::: outdoor and indoor air pollution <!--SR:!2024-09-29,94,290!2024-08-14,66,310-->
 - global air pollution concerns ::: acid rain and climate change <!--SR:!2024-08-13,65,310!2024-07-29,53,310-->
 - 3 major reasons causing air pollution in Hong Kong: <https://youtube.com/watch?v=XVvsQyyZHVg&feature=related>
   - industrial activities in China's Pearl River Delta

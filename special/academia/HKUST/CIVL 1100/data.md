@@ -111,7 +111,7 @@ See [Colosseum](../../../../general/Colosseum.md).
 
 See [Eiffel Tower](../../../../general/Eiffel%20Tower.md).
 
-- description ::: tower on the Champ de Mars in Paris, France <!--SR:!2024-06-27,49,327!2024-12-15,205,330-->
+- description ::: tower on the Champ de Mars in Paris, France <!--SR:!2025-02-02,220,347!2024-12-15,205,330-->
 - height ::: architectural: 300 m, tip, 330 m, top floor: 276 m <!--SR:!2024-08-26,89,317!2025-01-31,244,330-->
 - image ::: ![Eiffel Tower image](../../../../archives/Wikimedia%20Commons/Tour%20Eiffel%20Wikimedia%20Commons%20(cropped).jpg) <!--SR:!2024-09-09,105,380!2024-09-10,106,380-->
 - shape ::: exponential <!--SR:!2025-03-03,272,350!2025-01-16,252,335-->
@@ -262,7 +262,7 @@ See [Stonecutters Bridge](../../../../general/Stonecutters%20Bridge.md).
 - bridge type ::: [cable-stayed bridge](../../../../general/cable-stayed%20bridge.md)<!-- flashcard ca1fa4c4-b487-40a0-9948-a808866a25eb --> <!--SR:!2024-12-12,177,361!2024-08-30,98,381-->
 - description ::: bridge in Hong Kong <!--SR:!2024-12-19,186,345!2024-08-21,100,377-->
 - image ::: ![Stonecutters Bridge image](../../../../archives/Wikimedia%20Commons/Stonecutters'%20Bridge.jpg) <!--SR:!2024-08-28,95,380!2024-07-21,58,360-->
-- length ::: 1596 m, longest span: 1018 m <!--SR:!2024-06-27,34,280!2024-06-27,54,350-->
+- length ::: 1596 m, longest span: 1018 m <!--SR:!2024-07-14,17,260!2025-03-13,259,370-->
 
 ## Sutong Yangtze River Bridge
 
