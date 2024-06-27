@@ -9,7 +9,7 @@ tags:
 
 # asterism
 
-An __asterism__ is {{an [observed](observational%20astronomy.md) pattern or group of [stars](star.md) in the [sky](sky.md)}}.
+An __asterism__ is {{an [observed](observational%20astronomy.md) pattern or group of [stars](star.md) in the [sky](sky.md)}}. <!--SR:!2024-07-01,4,270-->
 
 ## references
 
