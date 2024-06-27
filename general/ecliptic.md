@@ -1,0 +1,18 @@
+---
+aliases:
+  - ecliptic
+  - ecliptic plane
+  - ecliptic planes
+  - ecliptics
+tags:
+  - flashcard/general/ecliptic
+  - language/in/English
+---
+
+# ecliptic
+
+The __ecliptic__ or __ecliptic plane__ is {{the [orbital plane](orbital%20plane.md) of [Earth](Earth.md) around the [Sun](Sun.md)}}. From {{the perspective of an observer on Earth}}, the [Sun](Sun.md)'s movement {{around the [celestial sphere](celestial%20sphere.md) over the course of a year traces out a path along the ecliptic against the background of stars}}.
+
+## references
+
+This text incorporates [content](https://en.wikipedia.org/wiki/ecliptic) from [Wikipedia](Wikipedia.md) available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.
