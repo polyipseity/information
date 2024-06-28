@@ -59,7 +59,7 @@ C$: [cost structure](#cost%20structure)
 
 <!--pytextgen generate section="e441"--><!-- The following content is generated at 2024-03-22T20:40:48.930507+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←CS: [customer segments](#customer%20segments) <!--SR:!2024-09-08,105,297!2024-06-28,57,317-->
+- _(begin)_→:::←CS: [customer segments](#customer%20segments) <!--SR:!2024-09-08,105,297!2025-03-04,249,337-->
 - CS: [customer segments](#customer%20segments)→:::←VP: [value propositions](#value%20propositions) <!--SR:!2024-09-04,92,274!2024-07-08,21,277-->
 - VP: [value propositions](#value%20propositions)→:::←CH: [channels](#channels) <!--SR:!2024-11-18,146,294!2024-08-22,92,297-->
 - CH: [channels](#channels)→:::←CR: [customer relationships](#customer%20relationships) <!--SR:!2024-07-07,62,314!2025-02-24,242,334-->
@@ -218,7 +218,7 @@ personal assistance
 
 - _(begin)_→:::←automated services <!--SR:!2024-09-16,110,294!2024-12-08,178,310-->
 - automated services→:::←co-creation <!--SR:!2024-07-12,51,254!2024-07-17,63,274-->
-- co-creation→:::←communities <!--SR:!2024-06-28,46,254!2024-10-13,133,294-->
+- co-creation→:::←communities <!--SR:!2024-10-22,116,254!2024-10-13,133,294-->
 - communities→:::←dedicated personal assistance <!--SR:!2024-08-11,79,277!2024-09-09,98,274-->
 - dedicated personal assistance→:::←personal assistance <!--SR:!2024-07-10,65,317!2024-07-03,61,317-->
 - personal assistance→:::←_(end)_ <!--SR:!2024-07-08,63,317!2024-07-15,70,317-->

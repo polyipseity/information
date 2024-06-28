@@ -19,7 +19,7 @@ The _sum_ of {{two matrices __A__ and __B__ of the same size _m_ × _n_}} is den
 
 #### scalar multiplication
 
-The _product_ of {{a [scalar](scalar%20(mathematics).md) _c_ and a matrix __A__ of size _m_ × _n_}} is denoted {{$c\mathbf{A}$, $c \cdot \mathbf{A}$, or $\mathbf{A} \cdot c$}}. It is calculated by {{multiplying every element of __A__ by _c_}}: {{$$(c\mathbf{A})_{i, j} = c \cdot \mathbf{A}_{i, j} \qquad \text{where }1 \le i \le m\text{ and }1 \le j \le n$$}}. <!--SR:!2024-07-04,16,290!2024-07-01,13,290!2024-06-28,11,270!2024-06-30,13,270-->
+The _product_ of {{a [scalar](scalar%20(mathematics).md) _c_ and a matrix __A__ of size _m_ × _n_}} is denoted {{$c\mathbf{A}$, $c \cdot \mathbf{A}$, or $\mathbf{A} \cdot c$}}. It is calculated by {{multiplying every element of __A__ by _c_}}: {{$$(c\mathbf{A})_{i, j} = c \cdot \mathbf{A}_{i, j} \qquad \text{where }1 \le i \le m\text{ and }1 \le j \le n$$}}. <!--SR:!2024-07-04,16,290!2024-07-01,13,290!2024-08-07,40,290!2024-06-30,13,270-->
 
 #### subtraction
 
@@ -27,7 +27,7 @@ The subtraction of {{a matrix __A__ by another matrix __B__ of the same size}} i
 
 #### transposition
 
-The _transpose_ of {{an _m_-by-_n_ matrix __A__}} is {{the _n_-by-_m_ matrix denoted by __A__<sup>T</sup>, __A__<sup>tr</sup>, or <sup>t</sup>__A__}}. It is formed by {{swapping the row index with the column index for every element of __A__}}: {{$$\left(\mathbf{A}^{\text{T} }\right)_{j, i} = \mathbf{A}_{i, j} \qquad \text{where }1 \le i \le m\text{ and }1 \le j \le n$$}} <!--SR:!2024-06-29,12,270!2024-07-03,15,290!2024-07-05,17,290!2024-06-28,10,270-->
+The _transpose_ of {{an _m_-by-_n_ matrix __A__}} is {{the _n_-by-_m_ matrix denoted by __A__<sup>T</sup>, __A__<sup>tr</sup>, or <sup>t</sup>__A__}}. It is formed by {{swapping the row index with the column index for every element of __A__}}: {{$$\left(\mathbf{A}^{\text{T} }\right)_{j, i} = \mathbf{A}_{i, j} \qquad \text{where }1 \le i \le m\text{ and }1 \le j \le n$$}} <!--SR:!2024-06-29,12,270!2024-07-03,15,290!2024-07-05,17,290!2024-08-06,39,290-->
 
 ### matrix multiplication
 

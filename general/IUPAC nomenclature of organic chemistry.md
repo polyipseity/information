@@ -469,7 +469,7 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - formula: {{RCOR'}}
 > - prefix: {{oxo- (=O), ([prefix for carbon count](#prefix%20for%20carbon%20count))oyl- (-COR'), alkoyl- (-COR')}}
 > - suffix: {{-one}}
-> - infix: {{(locant)}} <!--SR:!2025-12-23,823,300!2024-06-28,295,280!2025-03-13,595,321!2024-06-30,35,130!2025-01-16,228,342!2028-07-31,1552,362-->
+> - infix: {{(locant)}} <!--SR:!2025-12-23,823,300!2026-10-01,825,280!2025-03-13,595,321!2024-06-30,35,130!2025-01-16,228,342!2028-07-31,1552,362-->
 
 <!-- markdownlint MD028 -->
 
@@ -499,7 +499,7 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - formula: {{RCO}}
 > - prefix: {{(none)}}
 > - suffix: {{-yl (retained), -oyl}}
-> - infix: {{(locant)}} <!--SR:!2027-07-29,1137,281!2024-06-28,147,282!2030-07-17,2244,382!2024-10-16,314,222!2026-01-06,571,227!2028-07-25,1555,367-->
+> - infix: {{(locant)}} <!--SR:!2027-07-29,1137,281!2026-01-25,576,302!2030-07-17,2244,382!2024-10-16,314,222!2026-01-06,571,227!2028-07-25,1555,367-->
 
 <!-- markdownlint MD028 -->
 

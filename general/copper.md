@@ -43,7 +43,7 @@ return await memorize_table(
 <!--pytextgen generate section="fa13"--><!-- The following content is generated at 2024-01-04T20:17:51.526998+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←cooking utensils <!--SR:!2026-01-02,652,290!2026-10-27,940,330-->
-- cooking utensils→:::←electric wires <!--SR:!2024-06-28,217,250!2024-07-24,132,300-->
+- cooking utensils→:::←electric wires <!--SR:!2025-12-22,542,250!2024-07-24,132,300-->
 - electric wires→:::←water pipes <!--SR:!2026-06-28,854,330!2024-08-18,362,290-->
 - water pipes→:::←_(end)_ <!--SR:!2027-07-08,1218,350!2025-02-05,239,250-->
 

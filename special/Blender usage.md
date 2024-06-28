@@ -28,7 +28,7 @@ See also [Blender manual](https://docs.blender.org/manual/en/dev/interface/keyma
 - show render window:::F11 <!--SR:!2025-09-03,725,315!2026-02-08,678,276-->
 - render:::F12 <!--SR:!2024-10-25,494,316!2025-11-29,812,336-->
 - quick access:::Q <!--SR:!2025-11-25,753,290!2024-10-27,393,250-->
-- toggle maximize area:::Ctrl+Space <!--SR:!2024-06-28,30,150!2024-10-16,397,256-->
+- toggle maximize area:::Ctrl+Space <!--SR:!2024-08-14,47,150!2024-10-16,397,256-->
 - toggle fullscreen area:::Ctrl+Alt+Space <!--SR:!2024-07-29,125,190!2025-06-03,434,196-->
 - cycle workspace:::Ctrl+PageUp/PageDown <!--SR:!2024-11-11,168,250!2024-12-01,513,316-->
 - play/tools/search:::Space <!--SR:!2025-05-04,643,316!2025-05-07,642,316-->
@@ -57,4 +57,4 @@ See also [Blender manual](https://docs.blender.org/manual/en/dev/interface/keyma
 - toggle vertex/edge/face mode + multiple modes:::+⇧Shift <!--SR:!2026-04-01,832,290!2025-07-28,688,316-->
 - toggle vertex/edge/face mode + expand/contract selection:::+Ctrl <!--SR:!2025-05-30,476,276!2025-10-24,557,256-->
 - toggle gizmos:::Ctrl+\` <!--SR:!2024-07-07,31,130!2024-06-29,103,216-->
-- start walk/fly navigation:::⇧Shift+\` <!--SR:!2024-09-22,121,230!2024-06-28,24,130-->
+- start walk/fly navigation:::⇧Shift+\` <!--SR:!2024-09-22,121,230!2024-07-30,32,130-->
