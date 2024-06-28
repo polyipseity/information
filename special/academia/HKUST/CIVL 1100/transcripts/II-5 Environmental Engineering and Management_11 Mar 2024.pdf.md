@@ -101,7 +101,7 @@ return await memorize_seq(
 - _(begin)_→:::←(Cap. 311) Air Pollution Control Ordinance <!--SR:!2024-07-01,4,275!2024-07-07,19,335-->
 - (Cap. 311) Air Pollution Control Ordinance→:::←(Cap. 354) Waste Disposal Ordinance <!--SR:!2024-07-14,19,295!2024-07-07,19,335-->
 - (Cap. 354) Waste Disposal Ordinance→:::←(Cap. 358) Water Pollution Control Ordinance <!--SR:!2024-07-15,20,295!2024-07-07,19,335-->
-- (Cap. 358) Water Pollution Control Ordinance→:::←(Cap. 400) Noise Pollution Control Ordinance <!--SR:!2024-06-28,10,295!2024-07-22,26,295-->
+- (Cap. 358) Water Pollution Control Ordinance→:::←(Cap. 400) Noise Pollution Control Ordinance <!--SR:!2024-07-03,5,275!2024-07-22,26,295-->
 - (Cap. 400) Noise Pollution Control Ordinance→:::←(Cap. 499) Environmental Impact Ordinance <!--SR:!2024-06-29,12,315!2024-07-01,14,315-->
 - (Cap. 499) Environmental Impact Ordinance→:::←_(end)_ <!--SR:!2024-07-07,19,335!2024-07-07,19,335-->
 
@@ -153,7 +153,7 @@ return await memorize_seq(
 <!--pytextgen generate section="ee23"--><!-- The following content is generated at 2024-06-09T06:29:24.079979+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←air sparging <!--SR:!2024-07-07,19,335!2024-07-07,19,335-->
-- air sparging→:::←bioremediation <!--SR:!2024-06-28,11,315!2024-06-29,12,315-->
+- air sparging→:::←bioremediation <!--SR:!2024-08-03,36,315!2024-06-29,12,315-->
 - bioremediation→:::←catalytic oxidation <!--SR:!2024-06-29,12,315!2024-06-30,13,315-->
 - catalytic oxidation→:::←ex-situ biopile <!--SR:!2024-07-18,23,295!2024-08-13,47,335-->
 - ex-situ biopile→:::←ex-situ solidification or stabilization <!--SR:!2024-06-30,13,315!2024-08-12,46,335-->
@@ -217,7 +217,7 @@ MSW Waste Charging Scheme
 
 - MSW waste charging scheme passing date ::: 2021-09-26 by Legco <!--SR:!2024-08-02,45,250!2024-06-29,29,270-->
   - MSW waste charging scheme preparation period ::: 18 months <!--SR:!2024-08-10,64,310!2024-07-06,35,290-->
-  - MSW waste charging scheme details ::: buy designated bags (0.11 HKD/L) at ~4000 selling points <!--SR:!2024-06-28,25,270!2024-08-02,57,310-->
+  - MSW waste charging scheme details ::: buy designated bags (0.11 HKD/L) at ~4000 selling points <!--SR:!2024-09-03,67,270!2024-08-02,57,310-->
   - MSW waste charging scheme penalty ::: max HK$25000 fine and 6 months in prison <!--SR:!2024-07-29,54,310!2024-07-23,46,290-->
 
 Will this waste charging scheme waste generation?

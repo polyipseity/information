@@ -80,7 +80,7 @@ The content is in teaching order.
 - simply supported beam ::: a beam with 2 supports on its 2 ends; should be a pinned support and a roller support to get a statically determinate structure <!--SR:!2024-07-01,28,290!2024-08-14,67,330-->
 - [torsion](../../../../general/torsion%20(mechanics).md) ::: twisting of an object <!--SR:!2024-08-17,69,330!2024-08-20,72,330-->
   - torsion deformation ::: The object is likely to return to its original shape when torsion forces are removed. <!--SR:!2024-08-09,64,330!2024-08-25,76,330-->
-  - torsion examples ::: drill pipes, power transmission shafts, tall buildings <!--SR:!2024-06-28,27,290!2024-07-25,48,310-->
+  - torsion examples ::: drill pipes, power transmission shafts, tall buildings <!--SR:!2024-10-12,106,310!2024-07-25,48,310-->
 - [shear](../../../../general/shear%20force.md) ::: created by forces not acting on the same line; think of a rectangle being "parallelogramized" by 2 forces facing opposite directions <!--SR:!2024-08-27,78,330!2024-08-08,63,330-->
   - shear examples ::: shear damage of road surface due to braking of heavy vehicles or fast running rainwater <!--SR:!2024-07-21,48,310!2024-08-12,66,330-->
 - [structural support](../../../../general/structural%20support.md) ::: fixed support, pinned support, roller support <!--SR:!2024-07-11,38,310!2024-08-12,66,330-->

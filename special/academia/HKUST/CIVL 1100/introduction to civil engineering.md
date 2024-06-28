@@ -75,7 +75,7 @@ The content is in teaching order.
 - environmental engineering ::: application of engineering and science to improve the natural environment and minimize environmental impact <!--SR:!2024-09-05,90,321!2025-03-22,268,376-->
   - [environmental engineering areas](#environmental%20engineering%20areas)
     - air engineering ::: air pollution control, air quality monitoring, ozone layer protection <!--SR:!2024-08-27,95,335!2024-07-29,81,370-->
-    - waste engineering ::: methods of disposal (e.g. landfills and incineration), site investigation and remediation, solid waste management <!--SR:!2024-06-28,44,295!2024-08-05,86,372-->
+    - waste engineering ::: methods of disposal (e.g. landfills and incineration), site investigation and remediation, solid waste management <!--SR:!2024-11-06,131,295!2024-08-05,86,372-->
     - [water engineering](#water%20engineering)
     - noise engineering ::: noise mitigation measures (e.g. noise barriers), noise monitoring (e.g. construction noise, traffic noise) <!--SR:!2024-09-22,119,327!2024-07-18,68,350-->
     - environmental impact assessment (EIA) ::: a systematic identification and evaluation process to assess the potential impacts of a proposed project so that mitigation measures can be developed <!--SR:!2024-08-12,66,230!2024-12-04,162,332-->
@@ -143,7 +143,7 @@ quantity surveyor
 <!--pytextgen generate section="9281"--><!-- The following content is generated at 2024-02-16T21:59:46.960790+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←building services engineer <!--SR:!2024-09-15,113,335!2024-08-23,102,377-->
-- building services engineer→:::←consulting civil engineer <!--SR:!2024-06-28,50,337!2024-08-25,93,337-->
+- building services engineer→:::←consulting civil engineer <!--SR:!2024-12-13,168,337!2024-08-25,93,337-->
 - consulting civil engineer→:::←consulting environmental engineer <!--SR:!2024-12-25,183,347!2024-06-29,47,340-->
 - consulting environmental engineer→:::←consulting geo-technical engineer <!--SR:!2024-07-03,40,265!2024-09-02,112,306-->
 - consulting geo-technical engineer→:::←consulting structural engineer <!--SR:!2024-07-11,57,315!2024-08-14,80,317-->
@@ -193,13 +193,13 @@ water and sewage treatment system
 
 - _(begin)_→:::←bridge <!--SR:!2024-07-30,80,377!2024-08-11,92,374-->
 - bridge→:::←building <!--SR:!2024-07-24,76,372!2024-07-28,75,360-->
-- building→:::←dam <!--SR:!2024-06-28,50,340!2024-09-06,105,380-->
+- building→:::←dam <!--SR:!2024-12-12,167,340!2024-09-06,105,380-->
 - dam→:::←pipeline <!--SR:!2024-07-05,16,204!2024-10-09,117,321-->
 - pipeline→:::←power plant <!--SR:!2024-08-14,59,260!2024-07-06,38,281-->
 - power plant→:::←reservoir <!--SR:!2024-07-30,60,275!2024-09-05,91,320-->
 - reservoir→:::←sewage treatment <!--SR:!2024-07-18,31,197!2024-09-05,75,261-->
 - sewage treatment→:::←transport <!--SR:!2024-07-08,39,250!2024-07-13,50,301-->
-- transport→:::←water and sewage treatment system <!--SR:!2024-11-05,137,340!2024-06-28,19,190-->
+- transport→:::←water and sewage treatment system <!--SR:!2024-11-05,137,340!2024-07-10,12,170-->
 - water and sewage treatment system→:::←_(end)_ <!--SR:!2024-08-25,93,381!2024-08-01,69,361-->
 
 <!--/pytextgen-->
@@ -912,7 +912,7 @@ polypropylene fiber reinforced concrete
 
 <!--pytextgen generate section="eee1"--><!-- The following content is generated at 2024-02-16T21:59:47.859581+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←artificial stone <!--SR:!2024-07-14,49,297!2024-06-28,84,345-->
+- _(begin)_→:::←artificial stone <!--SR:!2024-07-14,49,297!2025-07-31,398,365-->
 - artificial stone→:::←cellular concrete <!--SR:!2024-07-06,43,300!2024-08-31,99,335-->
 - cellular concrete→:::←engineered cement composite <!--SR:!2024-10-24,153,270!2024-12-05,166,330-->
 - engineered cement composite→:::←fly ash concrete <!--SR:!2024-11-02,143,337!2024-09-26,107,320-->
@@ -1053,7 +1053,7 @@ Hong Kong Code
 
 - _(begin)_→:::←American Code <!--SR:!2024-09-02,101,380!2024-07-27,79,374-->
 - American Code→:::←Australian Standard <!--SR:!2024-12-27,193,355!2024-08-14,95,375-->
-- Australian Standard→:::←Chinese Code <!--SR:!2024-06-28,50,327!2024-06-28,50,337-->
+- Australian Standard→:::←Chinese Code <!--SR:!2024-12-05,160,327!2025-02-16,233,357-->
 - Chinese Code→:::←Eurocode <!--SR:!2024-10-14,128,335!2024-07-18,70,357-->
 - Eurocode→:::←Hong Kong Code <!--SR:!2025-03-11,258,376!2024-11-26,168,357-->
 - Hong Kong Code→:::←_(end)_ <!--SR:!2024-08-01,82,367!2025-02-21,263,350-->
@@ -1100,7 +1100,7 @@ water tower
 - dam→:::←power plant <!--SR:!2024-08-06,68,301!2024-07-25,33,238-->
 - power plant→:::←storage facility <!--SR:!2024-07-29,62,300!2024-09-12,111,334-->
 - storage facility→:::←tunnel <!--SR:!2024-07-02,18,320!2024-09-01,89,320-->
-- tunnel→:::←unusual structure <!--SR:!2024-06-28,34,247!2024-10-17,121,320-->
+- tunnel→:::←unusual structure <!--SR:!2024-09-19,83,247!2024-10-17,121,320-->
 - unusual structure→:::←water tower <!--SR:!2024-07-10,25,310!2024-06-29,51,330-->
 - water tower→:::←_(end)_ <!--SR:!2024-08-14,93,367!2024-07-15,18,281-->
 

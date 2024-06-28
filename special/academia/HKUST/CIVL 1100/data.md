@@ -221,7 +221,7 @@ See [Millau Viaduct](../../../../general/Millau%20Viaduct.md).
 - geographic location ::: across the gorge valley of the Tarn near Millau in southern France <!--SR:!2024-08-15,69,376!2024-08-22,75,376-->
 - height ::: max pylon above base: 343 m, structural: 336.4 m <!--SR:!2024-06-29,25,316!2024-11-07,140,396-->
   - height record ::: as of October 2023, tallest bridge in the world <!--SR:!2024-10-22,126,396!2024-10-22,127,396-->
-- length ::: 2450 m = 204 m + 342 m × 6 + 204 m, longest span: 342 m <!--SR:!2024-06-28,16,336!2024-10-12,118,396-->
+- length ::: 2450 m = 204 m + 342 m × 6 + 204 m, longest span: 342 m <!--SR:!2024-08-23,56,336!2024-10-12,118,396-->
 - image ::: ![Millau Viaduct image](../../../../archives/Wikimedia%20Commons/ViaducdeMillau.jpg) <!--SR:!2024-11-04,137,396!2024-08-28,80,376-->
 - opening time ::: 2004-12-16, 09:00 <!--SR:!2024-07-13,39,336!2024-08-22,75,376-->
 - width ::: 32.05 m <!--SR:!2024-09-09,86,376!2024-09-10,87,376-->
@@ -230,7 +230,7 @@ See [Millau Viaduct](../../../../general/Millau%20Viaduct.md).
 
 See [Mont d'Ambin Base Tunnel](../../../../general/Mont%20d'Ambin%20Base%20Tunnel.md).
 
-- access tunnel lengths ::: up to 4 km <!--SR:!2024-08-20,99,377!2024-06-28,56,345-->
+- access tunnel lengths ::: up to 4 km <!--SR:!2024-08-20,99,377!2025-03-22,267,365-->
 - length ::: 57.5 km <!--SR:!2024-09-27,106,337!2024-08-06,87,374-->
 
 ## Netherlands North Sea Protection Works
@@ -320,6 +320,6 @@ See [Two Prudential Plaza](../../../../general/Two%20Prudential%20Plaza.md).
 
 See [Water Cube](../../../../general/Water%20Cube.md).
 
-- description ::: swimming center in Beijing, China <!--SR:!2024-06-28,84,346!2024-08-12,93,374-->
+- description ::: swimming center in Beijing, China <!--SR:!2025-04-14,290,346!2024-08-12,93,374-->
 - image ::: ![Water Cube image](../../../../archives/Wikimedia%20Commons/国家游泳中心夜景.jpg) <!--SR:!2024-09-02,99,380!2024-09-12,108,380-->
-- shape ::: cube covered with bubbles <!--SR:!2024-06-28,55,350!2024-12-31,207,330-->
+- shape ::: cube covered with bubbles <!--SR:!2025-03-19,264,370!2024-12-31,207,330-->
