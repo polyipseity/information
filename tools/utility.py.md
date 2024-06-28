@@ -1,4 +1,7 @@
 ---
+aliases:
+  - utility.py
+  - utility.py.md
 tags:
   - functional/code
   - language/in/English
