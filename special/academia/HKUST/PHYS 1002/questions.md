@@ -19,7 +19,7 @@ tags:
 
 # HKUST PHYS 1002 questions
 
-The parenthesized text at the beginning of of each question is {{the location the question appears in}}. Questions beginning with `(derived)` are {{derived from other questions and only appear here}}.
+The parenthesized text at the beginning of of each question is {{the location the question appears in}}. Questions beginning with `(derived)` are {{derived from other questions and only appear here}}. <!--SR:!2024-07-02,4,277!2024-07-02,4,277-->
 
 ## 2024-06-18
 
@@ -64,7 +64,7 @@ The parenthesized text at the beginning of of each question is {{the location th
 > 4. on the prime meridian
 > 5. 1 and 2
 >
-> - solution: {{3}}
+> - solution: {{3}} <!--SR:!2024-07-02,4,277-->
 
 <!-- markdownlint MD028 -->
 
@@ -77,7 +77,7 @@ The parenthesized text at the beginning of of each question is {{the location th
 > 5. 3/2 sidereal days
 >
 > - solution: {{2}}
-> - steps: {{The planet is in prograde motion. Hence, the number of solar days per orbital period is $6 - 1 = 5\text{ solar days}$. Thus each solar day is $\frac {1 / 5} {1 / 6} = \frac 6 5\text{ sidereal days}$.}}
+> - steps: {{The planet is in prograde motion. Hence, the number of solar days per orbital period is $6 - 1 = 5\text{ solar days}$. Thus each solar day is $\frac {1 / 5} {1 / 6} = \frac 6 5\text{ sidereal days}$.}} <!--SR:!2024-07-02,4,277!2024-07-02,4,277-->
 
 <!-- markdownlint MD028 -->
 
@@ -89,7 +89,7 @@ The parenthesized text at the beginning of of each question is {{the location th
 > 4. on the prime meridian
 > 5. 1 and 2
 >
-> - solution: {{5}}
+> - solution: {{5}} <!--SR:!2024-07-02,4,277-->
 
 <!-- markdownlint MD028 -->
 
@@ -103,4 +103,4 @@ The parenthesized text at the beginning of of each question is {{the location th
 > 6. 44/43 solar days
 >
 > - solution: {{3}}
-> - steps: {{The planet is in retrograde motion. Hence, the number of sidereal days per orbital period is $42 - 1 = 41\text{ sidereal days}$. Thus each sidereal day is $\frac {1 / 41} {1 / 42} = \frac {42} {41}\text{ solar days}$.}}
+> - steps: {{The planet is in retrograde motion. Hence, the number of sidereal days per orbital period is $42 - 1 = 41\text{ sidereal days}$. Thus each sidereal day is $\frac {1 / 41} {1 / 42} = \frac {42} {41}\text{ solar days}$.}} <!--SR:!2024-07-02,4,277!2024-07-02,4,277-->
