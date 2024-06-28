@@ -19,13 +19,15 @@ tags:
 
 # HKUST PHYS 1002 questions
 
+The parenthesized text at the beginning of of each question is {{the location the question appears in}}. Questions beginning with `(derived)` are {{derived from other questions and only appear here}}.
+
 ## 2024-06-18
 
 > Q1. (lecture) This photo shows the Andromeda Galaxy as it looked about 2.5 million years ago. (HISTORIC Photograph)
 >
 > Question: When will we be able to see what it looks like __now__?
 >
-> - solution: {{About 2.5 million years later. Or less than 2.5 million years later, if you know that the Andromeda is approaching the Milky Way}}.
+> - solution: {{_About_ 2.5 million years later. Or less than 2.5 million years later, if you know that the Andromeda is approaching the Milky Way}}.
 
 <!-- markdownlint MD028 -->
 
@@ -51,3 +53,54 @@ tags:
 >
 > - solution: {{5}}
 > - steps: {{Given there are about 10<sup>22</sup> stars, divide it by the number of seconds in a year: $$\frac {10^{22} } {86400 \times 365} \approx 3.17 \times 10^{14}\text{ years}$$ to get about 300 trillion (300 × 10<sup>12</sup>) years.}}
+
+## 2024-06-27
+
+> Q1. (iPRS) At what location(s) on the Earth will one see the stars, the Sun, and the Moon rise and set vertically (viz. perpendicular to the horizon)?
+>
+> 1. at the North Pole
+> 2. at the South Pole
+> 3. an the equator
+> 4. on the prime meridian
+> 5. 1 and 2
+>
+> - solution: {{3}}
+
+<!-- markdownlint MD028 -->
+
+> Q2. (MCQ) A hypothetical planet has an orbital period around the Sun equal to 6 sidereal days of the planet. The self-rotation and orbital rotation are in the same direction. How long is its solar day?
+>
+> 1. 7/6 sidereal days
+> 2. 6/5 sidereal days
+> 3. 5/4 sidereal days
+> 4. 4/3 sidereal days
+> 5. 3/2 sidereal days
+>
+> - solution: {{2}}
+> - steps: {{The planet is in prograde motion. Hence, the number of solar days per orbital period is $6 - 1 = 5\text{ solar days}$. Thus each solar day is $\frac {1 / 5} {1 / 6} = \frac 6 5\text{ sidereal days}$.}}
+
+<!-- markdownlint MD028 -->
+
+> Q3. (derived) At what location(s) on the Earth will one see the stars, the Sun, and the Moon move horizontally (viz. parallel to the horizon)?
+>
+> 1. at the North Pole
+> 2. at the South Pole
+> 3. an the equator
+> 4. on the prime meridian
+> 5. 1 and 2
+>
+> - solution: {{5}}
+
+<!-- markdownlint MD028 -->
+
+> Q4. (derived) A hypothetical planet has an orbital period around its parent star equal to 42 solar days of the planet. The self-rotation and orbital rotation are in the opposite direction. How long is its sidereal day?
+>
+> 1. 43/44 solar days
+> 2. 43/42 solar days
+> 3. 42/41 solar days
+> 4. 42/43 solar days
+> 5. 41/42 solar days
+> 6. 44/43 solar days
+>
+> - solution: {{3}}
+> - steps: {{The planet is in retrograde motion. Hence, the number of sidereal days per orbital period is $42 - 1 = 41\text{ sidereal days}$. Thus each sidereal day is $\frac {1 / 41} {1 / 42} = \frac {42} {41}\text{ solar days}$.}}
