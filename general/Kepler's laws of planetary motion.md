@@ -55,7 +55,7 @@ return await memorize_seq(
 
 ## history
 
-Kepler published {{his first 2 laws in 1609}} after {{analyzing th astronomical observations by [Tycho Brahe](Tycho%20Brahe.md)}}. Kepler's third law was {{published in 1619}}. <!--SR:!2024-06-30,4,290!2024-07-07,8,270!2024-06-30,4,290-->
+Kepler published {{his first 2 laws in 1609}} after {{analyzing astronomical observations by [Tycho Brahe](Tycho%20Brahe.md)}}. Kepler's third law was {{published in 1619}}. <!--SR:!2024-06-30,4,290!2024-07-07,8,270!2024-06-30,4,290-->
 
 ## references
 
