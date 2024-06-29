@@ -25,8 +25,9 @@ tags:
 - <https://myaccount.google.com/>: <polyipseity@gmail.com>
 - <https://studio.buymeacoffee.com/my-account/edit-profile>: polyipseity
 - <https://t.me/quizzaciously>
-- <https://twitter.com/polyipseity>
+- <https://twitch.tv/settings/profile>: polyipseity
 - <https://whatsapp.com/>: (redacted)
+- <https://x.com/polyipseity>
 
 ### avatar set 2
 
@@ -47,7 +48,7 @@ tags:
 - <https://discord.com/>: polyipseity
 - <https://github.com/polyipseity>
 - <https://t.me/quizzaciously>
-- <https://twitter.com/polyipseity>
+- <https://x.com/polyipseity>
 
 ### email set 2
 
