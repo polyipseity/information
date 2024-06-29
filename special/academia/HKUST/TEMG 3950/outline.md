@@ -73,7 +73,7 @@ The content is in teaching order.
 ## week 5 lecture
 
 - time: 2024-02-27T18:00:00+08:00/2024-02-27T20:30:00+08:00
-- How to build a user-centric product? ::: idea generation, then customer segmentation, then [design thinking](../../../../general/design%20thinking.md), then customer profile, then value proposition canvas, then business model canvas <!--SR:!2024-06-29,25,255!2024-07-07,40,295-->
+- How to build a user-centric product? ::: idea generation, then customer segmentation, then [design thinking](../../../../general/design%20thinking.md), then customer profile, then value proposition canvas, then business model canvas <!--SR:!2024-09-30,93,275!2024-07-07,40,295-->
 - [design thinking § in business](../../../../general/design%20thinking.md#in%20business)
 - [d.school design thinking bootleg § process modules](../../../d.school%20design%20thinking%20bootleg.md#process%20modules)
 - [design thinking § ideation: divergent and convergent thinking](../../../../general/design%20thinking.md#ideation%20divergent%20and%20convergent%20thinking)
@@ -134,7 +134,7 @@ The content is in teaching order.
     - individual presentation
 - presentation skills
 - [executive summary](../../../../general/executive%20summary.md)
-  - executive summary for startup investment ::: company name, one-line pitch, problem, solution and product, market and market size, marketing strategy, business model, competition and advantage, team <!--SR:!2024-08-16,59,255!2024-06-29,33,295-->
+  - executive summary for startup investment ::: company name, one-line pitch, problem, solution and product, market and market size, marketing strategy, business model, competition and advantage, team <!--SR:!2024-08-16,59,255!2024-10-03,96,295-->
 - [assignment W7](assignment%20W7/assignment%20W7.md)
 
 ## week 8 lecture
@@ -233,7 +233,7 @@ The content is in teaching order.
 - time: 2024-04-16T18:00:00+08:00/2024-04-16T20:30:00+08:00
 - [assignment W11](assignment%20W11/assignment%20W11.md) takeaways
   - general case analysis reading takeaways ::: read twice, first fast, then slow and take notes <!--SR:!2024-09-08,72,357!2024-06-30,21,357-->
-- McKinsey 7Ss framework ::: organization analysis <!--SR:!2024-08-10,51,357!2024-06-29,20,357-->
+- McKinsey 7Ss framework ::: organization analysis <!--SR:!2024-08-10,51,357!2024-10-05,98,377-->
   - [McKinsey 7S Framework](../../../../general/McKinsey%207S%20Framework.md)
     - [§ objective](../../../../general/McKinsey%207S%20Framework.md#objective)
 - [PPTG change impact framework](../../../PPTG%20change%20impact%20framework.md)
@@ -245,11 +245,11 @@ The content is in teaching order.
 ## week 13 lecture
 
 - time: 2024-04-23T18:00:00+08:00/2024-04-23T20:30:00+08:00
-- To be successful in business, you need to eat/kill the competition. Right? ::: Or you could make the competition irrelevant instead by creating uncontested market space... <!--SR:!2024-09-14,80,377!2024-06-29,20,357-->
+- To be successful in business, you need to eat/kill the competition. Right? ::: Or you could make the competition irrelevant instead by creating uncontested market space... <!--SR:!2024-09-14,80,377!2024-09-04,67,357-->
 - [blue ocean strategy](../../../blue%20ocean%20strategy.md)
   - [general/Blue Ocean Strategy](../../../../general/Blue%20Ocean%20Strategy.md)
   - [§ red ocean vs. blue ocean](../../../blue%20ocean%20strategy.md#red%20ocean%20vs.%20blue%20ocean)
-  - blue ocean strategy example companies ::: CitizenM, Drybar, Johann Strauss Orchestra (André Rieu), Nintendo (Wii), Yellow Tail <!--SR:!2024-07-27,37,337!2024-06-29,20,357-->
+  - blue ocean strategy example companies ::: CitizenM, Drybar, Johann Strauss Orchestra (André Rieu), Nintendo (Wii), Yellow Tail <!--SR:!2024-07-27,37,337!2024-10-08,101,377-->
   - [§ blue ocean shift](../../../blue%20ocean%20strategy.md#blue%20ocean%20shift)
   - [§ understand "as-is"](../../../blue%20ocean%20strategy.md#understand%20"as-is")
   - [§ imagine "to be"](../../../blue%20ocean%20strategy.md#imagine%20"to%20be")

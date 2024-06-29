@@ -144,7 +144,7 @@ quantity surveyor
 
 - _(begin)_→:::←building services engineer <!--SR:!2024-09-15,113,335!2024-08-23,102,377-->
 - building services engineer→:::←consulting civil engineer <!--SR:!2024-12-13,168,337!2024-08-25,93,337-->
-- consulting civil engineer→:::←consulting environmental engineer <!--SR:!2024-12-25,183,347!2024-06-29,47,340-->
+- consulting civil engineer→:::←consulting environmental engineer <!--SR:!2024-12-25,183,347!2025-02-05,221,360-->
 - consulting environmental engineer→:::←consulting geo-technical engineer <!--SR:!2024-07-03,40,265!2024-09-02,112,306-->
 - consulting geo-technical engineer→:::←consulting structural engineer <!--SR:!2024-07-11,57,315!2024-08-14,80,317-->
 - consulting structural engineer→:::←contracting civil engineer <!--SR:!2024-09-11,108,335!2024-08-23,88,315-->
@@ -282,7 +282,7 @@ workmanship
 - construction management→:::←economics <!--SR:!2024-07-10,42,235!2024-08-21,81,300-->
 - economics→:::←impacts to surrounding <!--SR:!2024-08-09,71,300!2024-07-01,27,280-->
 - impacts to surrounding→:::←lifecycle <!--SR:!2024-08-06,74,320!2024-08-22,82,320-->
-- lifecycle→:::←maintenance <!--SR:!2024-06-29,36,297!2024-08-08,74,312-->
+- lifecycle→:::←maintenance <!--SR:!2024-10-13,106,297!2024-08-08,74,312-->
 - maintenance→:::←politics <!--SR:!2024-07-17,32,261!2024-08-12,80,312-->
 - politics→:::←social <!--SR:!2024-07-21,69,360!2024-08-13,78,337-->
 - social→:::←workmanship <!--SR:!2024-08-26,82,300!2024-07-14,28,190-->
@@ -405,7 +405,7 @@ Water Cube
 - Burj Khalifa→:::←CCTV Headquarters <!--SR:!2024-09-02,89,320!2024-08-12,95,270-->
 - CCTV Headquarters→:::←Eiffel Tower <!--SR:!2024-09-28,103,285!2024-07-15,52,292-->
 - Eiffel Tower→:::←Hong Kong Convention and Exhibition Centre <!--SR:!2024-10-13,114,294!2024-07-05,21,305-->
-- Hong Kong Convention and Exhibition Centre→:::←Water Cube <!--SR:!2024-06-29,18,317!2024-08-24,81,320-->
+- Hong Kong Convention and Exhibition Centre→:::←Water Cube <!--SR:!2024-08-29,61,317!2024-08-24,81,320-->
 - Water Cube→:::←_(end)_ <!--SR:!2024-08-06,83,381!2025-01-02,201,357-->
 
 <!--/pytextgen-->
@@ -540,7 +540,7 @@ wood
 
 - _(begin)_→:::←brick <!--SR:!2024-07-18,66,357!2024-11-04,182,312-->
 - brick→:::←concrete <!--SR:!2024-06-30,19,305!2024-08-27,106,377-->
-- concrete→:::←new synthetic materials <!--SR:!2024-07-05,42,301!2024-06-29,47,341-->
+- concrete→:::←new synthetic materials <!--SR:!2024-07-05,42,301!2024-12-07,161,341-->
 - new synthetic materials→:::←steel <!--SR:!2024-11-20,155,332!2024-08-29,85,320-->
 - steel→:::←stone <!--SR:!2024-07-10,20,320!2024-12-03,159,340-->
 - stone→:::←wood <!--SR:!2024-08-14,75,321!2024-09-10,109,332-->
@@ -601,7 +601,7 @@ nuclear
 - electrical→:::←industrial <!--SR:!2024-08-19,77,321!2024-07-25,52,270-->
 - industrial→:::←manufacturing <!--SR:!2024-10-02,125,337!2024-09-11,103,332-->
 - manufacturing→:::←mechanical <!--SR:!2024-08-23,101,377!2024-10-23,134,337-->
-- mechanical→:::←nuclear <!--SR:!2024-08-11,90,377!2024-06-29,51,335-->
+- mechanical→:::←nuclear <!--SR:!2024-08-11,90,377!2024-12-14,168,335-->
 - nuclear→:::←_(end)_ <!--SR:!2024-08-04,85,374!2025-07-25,393,365-->
 
 <!--/pytextgen-->
@@ -1101,7 +1101,7 @@ water tower
 - power plant→:::←storage facility <!--SR:!2024-07-29,62,300!2024-09-12,111,334-->
 - storage facility→:::←tunnel <!--SR:!2024-07-02,18,320!2024-09-01,89,320-->
 - tunnel→:::←unusual structure <!--SR:!2024-09-19,83,247!2024-10-17,121,320-->
-- unusual structure→:::←water tower <!--SR:!2024-07-10,25,310!2024-06-29,51,330-->
+- unusual structure→:::←water tower <!--SR:!2024-07-10,25,310!2024-07-22,23,310-->
 - water tower→:::←_(end)_ <!--SR:!2024-08-14,93,367!2024-07-15,18,281-->
 
 <!--/pytextgen-->

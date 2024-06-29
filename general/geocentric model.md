@@ -17,11 +17,11 @@ tags:
 
 ## Ptolemaic model
 
-Although {{the basic tenets of Greek geocentrism were established by the time of Aristotle}}, {{the details of his system did not become standard}}. The {{Ptolemaic system}}, developed by {{the [Hellenistic](Hellenization.md) astronomer [Claudius Ptolemy](Ptolemy.md) in the 2nd century AD (~100 AD)}}, finally {{standardized geocentrism}}. <!--SR:!2024-06-30,4,270!2024-06-30,4,270!2024-06-30,4,270!2024-06-29,3,250!2024-06-30,4,270-->
+Although {{the basic tenets of Greek geocentrism were established by the time of Aristotle}}, {{the details of his system did not become standard}}. The {{Ptolemaic system}}, developed by {{the [Hellenistic](Hellenization.md) astronomer [Claudius Ptolemy](Ptolemy.md) in the 2nd century AD (~100 AD)}}, finally {{standardized geocentrism}}. <!--SR:!2024-06-30,4,270!2024-06-30,4,270!2024-06-30,4,270!2024-07-01,2,230!2024-06-30,4,270-->
 
 ### Ptolemaic system
 
-In the Ptolemaic system, each planet is {{moved by a system of [_deferent_ and _epicycle_](deferent%20and%20epicycle.md), along with an _eccentric_}}. The {{eccentric}} is {{a point distant from [Earth](Earth.md)}}. The {{deferent}} is {{a [celestial sphere](celestial%20sphere.md), represented by a thick circle and whose center is the eccentric}}. The {{epicycle}} is {{another celestial sphere embedded in the deferent sphere, represented by a smaller circle embedded in the deferent sphere}}. A given planet {{moves along the circular path marked by the epicycle}} at the same time {{the epicycle moves along the circular path marked by the deferent}}, both {{eastwards}}. <!--SR:!2024-06-30,4,270!2024-06-30,4,270!2024-06-30,4,270!2024-06-30,4,270!2024-06-30,4,270!2024-06-30,4,270!2024-06-29,3,250!2024-06-30,4,270!2024-06-30,4,270!2024-06-30,4,270-->
+In the Ptolemaic system, each planet is {{moved by a system of [_deferent_ and _epicycle_](deferent%20and%20epicycle.md), along with an _eccentric_}}. The {{eccentric}} is {{a point distant from [Earth](Earth.md)}}. The {{deferent}} is {{a [celestial sphere](celestial%20sphere.md), represented by a thick circle and whose center is the eccentric}}. The {{epicycle}} is {{another celestial sphere embedded in the deferent sphere, represented by a smaller circle embedded in the deferent sphere}}. A given planet {{moves along the circular path marked by the epicycle}} at the same time {{the epicycle moves along the circular path marked by the deferent}}, both {{eastwards}}. <!--SR:!2024-06-30,4,270!2024-06-30,4,270!2024-06-30,4,270!2024-06-30,4,270!2024-06-30,4,270!2024-06-30,4,270!2024-07-07,8,250!2024-06-30,4,270!2024-06-30,4,270!2024-06-30,4,270-->
 
 The Ptolemaic order of spheres {{from [Earth](Earth.md) outward}} is: <!--SR:!2024-06-30,4,270-->
 
@@ -65,9 +65,9 @@ return await memorize_seq(
 - (near center) [Earth](Earth.md)→:::←[Moon](Moon.md) <!--SR:!2024-06-30,4,270!2024-06-30,4,270-->
 - [Moon](Moon.md)→:::←[Mercury](Mercury%20(planet).md) <!--SR:!2024-06-30,4,270!2024-06-30,4,270-->
 - [Mercury](Mercury%20(planet).md)→:::←[Venus](Venus.md) <!--SR:!2024-06-30,4,270!2024-06-30,4,270-->
-- [Venus](Venus.md)→:::←[Sun](Sun.md) <!--SR:!2024-06-29,3,250!2024-06-30,4,270-->
+- [Venus](Venus.md)→:::←[Sun](Sun.md) <!--SR:!2024-07-07,8,250!2024-06-30,4,270-->
 - [Sun](Sun.md)→:::←[Mars](Mars.md) <!--SR:!2024-06-30,4,270!2024-06-30,4,270-->
-- [Mars](Mars.md)→:::←[Jupiter](Jupiter.md) <!--SR:!2024-06-29,3,250!2024-06-30,4,270-->
+- [Mars](Mars.md)→:::←[Jupiter](Jupiter.md) <!--SR:!2024-07-11,12,270!2024-06-30,4,270-->
 - [Jupiter](Jupiter.md)→:::←[Saturn](Saturn.md) <!--SR:!2024-06-30,4,270!2024-06-30,4,270-->
 - [Saturn](Saturn.md)→:::←[fixed stars](fixed%20stars.md) <!--SR:!2024-06-30,4,270!2024-06-30,4,270-->
 - [fixed stars](fixed%20stars.md)→:::←[_Primum Mobile_](Primum%20Mobile.md) ("first moveable"), outermost [celestial sphere](celestial%20sphere.md) <!--SR:!2024-06-30,4,270!2024-06-30,4,270-->

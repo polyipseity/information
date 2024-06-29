@@ -39,7 +39,7 @@ return await memorize_table(
 > | {{formation of [by-products](by-product.md)}} | {{Avoid forming [by-products](by-product.md), especially harmful ones.}} |
 > | {{number of steps}} | {{Less steps mean less loss.}} |
 > | {{[reaction rate](reaction%20rate.md)}} | {{[Catalysts](catalysis.md) and high [temperature](temperature.md) can hasten slow organic reactions at the expense of higher production cost.}} |
-> | {{[yield](yield%20(chemistry).md)}} | {{Organic reactions seldom give 100% [yield](yield%20(chemistry).md).}} | <!--SR:!2027-04-12,1137,350!2026-08-14,879,332!2024-06-30,348,332!2025-04-08,543,312!2024-06-29,347,332!2026-06-16,875,332!2027-03-11,1032,332!2024-10-30,383,292!2027-04-24,1148,352!2024-07-11,339,292-->
+> | {{[yield](yield%20(chemistry).md)}} | {{Organic reactions seldom give 100% [yield](yield%20(chemistry).md).}} | <!--SR:!2027-04-12,1137,350!2026-08-14,879,332!2024-06-30,348,332!2025-04-08,543,312!2028-11-02,1587,352!2026-06-16,875,332!2027-03-11,1032,332!2024-10-30,383,292!2027-04-24,1148,352!2024-07-11,339,292-->
 
 <!--/pytextgen-->
 
