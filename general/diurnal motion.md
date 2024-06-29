@@ -21,7 +21,7 @@ From {{the [Southern celestial sphere](Southern%20celestial%20sphere.md)}}, the 
 
 From {{anywhere on the [equator](equator.md)}}, the two [celestial poles](celestial%20pole.md) are {{on the horizon due [north](north.md) and [south](south.md), and appears fixed}}. The [stars](star.md) moves {{[westward](west.md), vertically from and into the [horizon](horizon.md)}}.
 
-For anywhere {{in between the [equator](equator.md) and the [celestial poles](celestial%20pole.md)}}, the motion is {{inclined}} and can be {{interpolated from the above description using the current location's [latitude](latitude.md)}}.
+For anywhere {{in between the [equator](equator.md) and the [celestial poles](celestial%20pole.md)}}, the motion is {{tilted}} and can be {{interpolated from the above description using the current location's [latitude](latitude.md)}}.
 
 ## references
 
