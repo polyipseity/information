@@ -419,7 +419,7 @@ The content is in teaching order.
     - PageRank termination ::: Terminate the PageRank algorithm when after rounding the values to a certain number of digits, the values have not changed. <!--SR:!2024-07-07,19,368!2024-07-09,21,368-->
   - [§ simplified algorithm](../../../../general/PageRank.md#simplified%20algorithm)
   - [§ damping factor](../../../../general/PageRank.md#damping%20factor)
-    - PageRank damping factor variation ::: We use the algorithm in the original paper, where the PageRank is added $1 - d$ instead of $\frac {1 - d} N$. <!--SR:!2024-07-07,19,357!2024-08-23,55,357-->
+    - PageRank damping factor variation ::: We use the "wrong" algorithm in the original paper, where the PageRank is added $1 - d$ instead of $\frac {1 - d} N$. <!--SR:!2024-07-07,19,357!2024-08-23,55,357-->
 
 ## week 14 lecture
 
