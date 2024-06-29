@@ -27,7 +27,7 @@ tags:
 
 # training, validation, and test data sets
 
-{{The model is initially fit}} on a __training data set__, which is {{a set of samples to adjust the model parameters (e.g. weights between [neurons](artificial%20neuron.md) in [neural networks](neural%20network%20(machine%20learning).md))}}. <!--SR:!2024-06-29,11,270!2024-06-30,12,270-->
+{{The model is initially fit}} on a __training data set__, which is {{a set of samples to adjust the model parameters (e.g. weights between [neurons](artificial%20neuron.md) in [neural networks](neural%20network%20(machine%20learning).md))}}. <!--SR:!2024-08-08,40,290!2024-06-30,12,270-->
 
 Subsequently, {{the fitted model is used to predict samples}} in a second data set called the __validation data set__. The validation data set provides {{an unbiased evaluation of a model fit on the training data set}}, so that {{[hyperparameters](hyperparameter%20(machine%20learning).md) (e.g. number of layers and layer widths in [neural networks](neural%20network%20(machine%20learning).md)) can be tuned}}. <!--SR:!2024-07-05,17,290!2024-07-26,28,270!2024-06-30,12,270-->
 

@@ -126,7 +126,7 @@ Lateral load may be caused by {{bulk materials, [groundwater](groundwater.md), o
 
 For example, there is lateral soil load on {{retaining walls of a slope because the soil of a slope on the retained side tends to slip down, pushing the walls towards the excavated side}}. This lateral soil load can cause {{lateral deflection, toppling of the retaining structure, or even a landslide}}. <!--SR:!2024-07-28,52,300!2024-07-23,52,300-->
 
-To protect against soil loads, {{retaining structures are built and weep holes may be installed}}. Alternatively, {{slopes on natural terrain can become man-made slopes, such as cut slopes, fill slopes, or retaining walls}}. <!--SR:!2024-06-29,30,280!2024-07-16,47,300-->
+To protect against soil loads, {{retaining structures are built and weep holes may be installed}}. Alternatively, {{slopes on natural terrain can become man-made slopes, such as cut slopes, fill slopes, or retaining walls}}. <!--SR:!2024-09-22,85,280!2024-07-16,47,300-->
 
 #### seismic load
 

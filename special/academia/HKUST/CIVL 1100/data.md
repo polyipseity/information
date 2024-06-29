@@ -76,7 +76,7 @@ See [CN Tower](../../../../general/CN%20Tower.md).
 See [Central Plaza (Hong Kong)](../../../../general/Central%20Plaza%20(Hong%20Kong).md).
 
 - description ::: super tall skyscraper in Wan Chai, Hong Kong <!--SR:!2024-11-26,170,355!2024-08-27,106,377-->
-- height ::: architectural: 373.9 m, top floor: 299 m <!--SR:!2024-06-29,36,281!2024-08-25,104,376-->
+- height ::: architectural: 373.9 m, top floor: 299 m <!--SR:!2024-07-17,18,261!2024-08-25,104,376-->
 - image ::: ![Central Plaza (Hong Kong) image](../../../../archives/Wikimedia%20Commons/Hong%20Kong%20Convention%20and%20Exhibition%20Centre%20200906(cropped).jpg) <!--SR:!2024-07-23,60,360!2024-08-18,86,380-->
 - [structural system](../../../../general/structural%20system.md) ::: reinforced concrete<!-- flashcard 90e284d1-1940-43c0-b5d7-1b8bea6e3c3e --> <!--SR:!2024-07-06,51,341!2024-08-19,87,381-->
 
@@ -101,7 +101,7 @@ See [CITIC Plaza](../../../../general/CITIC%20Plaza.md).
 See [Colosseum](../../../../general/Colosseum.md).
 
 - base widths ::: length: 189 m, width: 156 m <!--SR:!2024-07-14,40,336!2024-10-12,112,376-->
-- construction period ::: AD 72 to AD 80, 8 years <!--SR:!2024-06-29,6,276!2024-12-11,168,396-->
+- construction period ::: AD 72 to AD 80, 8 years <!--SR:!2024-07-02,3,256!2024-12-11,168,396-->
 - description ::: elliptical amphitheater in the center of Rome <!--SR:!2024-08-18,72,376!2024-10-13,113,376-->
 - geographic location ::: Rome <!--SR:!2024-10-13,119,396!2024-10-29,133,396-->
 - height ::: 48 m (4 storeys) <!--SR:!2024-06-30,19,316!2024-11-11,143,396-->
@@ -203,7 +203,7 @@ See [Itaipu Dam](../../../../general/Itaipu%20Dam.md).
 See [John Hancock Center](John%20Hancock%20Center.md).
 
 - description ::: skyscraper in Chicago, Illinois <!--SR:!2024-08-20,80,295!2024-07-23,75,367-->
-- height ::: architectural: 344 m, tip: 457 m, top floor: 321 m <!--SR:!2024-06-29,11,217!2025-01-14,230,330-->
+- height ::: architectural: 344 m, tip: 457 m, top floor: 321 m <!--SR:!2024-07-06,7,197!2025-01-14,230,330-->
 - image ::: ![John Hancock Center image](../../../../archives/Wikimedia%20Commons/Chicago%20(22332583569).jpg) <!--SR:!2024-08-15,83,380!2024-09-08,104,380-->
 - [structural system](../../../../general/structural%20system.md) ::: steel<!-- flashcard cdb6c7b6-65ec-475e-8c89-c66ec42bacd2 --> <!--SR:!2024-09-26,106,300!2024-08-20,88,380-->
 
@@ -219,7 +219,7 @@ See [Millau Viaduct](../../../../general/Millau%20Viaduct.md).
 - bridge type ::: cable-stayed road bridge <!--SR:!2024-10-22,119,376!2024-10-23,127,396-->
 - designers ::: Michel Virlogeux, Norman Foster <!--SR:!2024-08-24,77,376!2024-11-16,148,396-->
 - geographic location ::: across the gorge valley of the Tarn near Millau in southern France <!--SR:!2024-08-15,69,376!2024-08-22,75,376-->
-- height ::: max pylon above base: 343 m, structural: 336.4 m <!--SR:!2024-06-29,25,316!2024-11-07,140,396-->
+- height ::: max pylon above base: 343 m, structural: 336.4 m <!--SR:!2024-09-13,76,316!2024-11-07,140,396-->
   - height record ::: as of October 2023, tallest bridge in the world <!--SR:!2024-10-22,126,396!2024-10-22,127,396-->
 - length ::: 2450 m = 204 m + 342 m × 6 + 204 m, longest span: 342 m <!--SR:!2024-08-23,56,336!2024-10-12,118,396-->
 - image ::: ![Millau Viaduct image](../../../../archives/Wikimedia%20Commons/ViaducdeMillau.jpg) <!--SR:!2024-11-04,137,396!2024-08-28,80,376-->
@@ -287,7 +287,7 @@ See [Taipei 101](Taipei%20101.md).
 See [Thames Barrier](../../../../general/Thames%20Barrier.md).
 
 - [dam type](../../../../general/dam.md#types) ::: [barrage](barrage%20(dam).md) <!--SR:!2024-10-21,135,341!2024-08-03,84,377-->
-- height ::: 20.1 m <!--SR:!2024-06-29,36,281!2024-08-30,98,380-->
+- height ::: 20.1 m <!--SR:!2024-07-17,18,261!2024-08-30,98,380-->
 - image ::: ![Thames Barrier image](../../../../archives/Wikimedia%20Commons/Thames%20Barrier%2003.jpg) <!--SR:!2024-07-03,49,340!2024-08-24,92,380-->
 - length ::: 520 m <!--SR:!2024-07-02,39,280!2024-12-06,196,330-->
 
