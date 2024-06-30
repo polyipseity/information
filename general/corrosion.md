@@ -18,7 +18,7 @@ It most commonly refers to {{the [electrochemical](electrochemistry.md) [oxidati
 
 - see: [passivation (chemistry)](passivation%20(chemistry).md)
 
-Passivation involves {{the formation of an ultrathin corrosion products on the surface that prevents further [oxidization](oxidization.md)}}. It can be found in {{[aluminium](aluminium.md), [stainless steel](stainless%20steel.md), etc.}}.
+Passivation involves {{the formation of an ultrathin corrosion products on the surface that prevents further [oxidization](oxidization.md)}}. It can be found in {{[aluminium](aluminium.md), [stainless steel](stainless%20steel.md), etc.}}
 
 The layer can be thicken via {{[anodization](#anodization)}}.
 
