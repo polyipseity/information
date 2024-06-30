@@ -31,7 +31,7 @@ A view $v$ is the parent of another $v'$ if {{every query that we care about tha
 >
 > Of course, each view in the graph {{does not need to connect every possible subset}}:
 >
-> ![relations between a set of views, sparse](attachments/materialized%20view%20-%20data%20cube%20-%20sparse.png) <!--SR:!2024-07-02,14,290!2024-08-08,40,290!2024-07-02,14,290!2024-06-30,13,270!2024-06-30,12,270-->
+> ![relations between a set of views, sparse](attachments/materialized%20view%20-%20data%20cube%20-%20sparse.png) <!--SR:!2024-07-02,14,290!2024-08-08,40,290!2024-07-02,14,290!2024-08-16,47,290!2024-08-13,44,290-->
 
 The cost of answering a query depends on {{the view (materialized or not) to be queried against and the views materialized}}. First, identify the {{least costly view (materialized or not) required to answer the query}}, and then find the {{least costly (direct or indirect) parent view that is materialized}}, and its {{associated cost is the cost of answering said query}}. <!--SR:!2024-08-04,38,290!2024-08-01,34,290!2024-08-02,36,290!2024-07-23,28,270-->
 
@@ -70,7 +70,7 @@ In details, when calculating the benefit for a view to be materialized, only con
 >
 > The above benefit table shows that the resulting greedy selection is {{"ps" and _then_ "c"}}. <!--SR:!2024-07-02,14,290!2024-08-07,41,290-->
 
-The resulting selection is {{greedy and may not be the optimal solution}}. When {{the heuristic function is simply the benefit}}, the above problem is {{a [submodular set function maximization](submodular%20set%20function.md#submodular%20set%20function%20maximization) problem}}. In this case, it has been proven that the greedy selection {{has a benefit that is at least $1 - 1 / e \approx 0.632$ times of that of the optimal selection}}.[<sup>[1]</sup>](#^ref-Nemhauser-1978) <!--SR:!2024-07-01,13,270!2024-06-30,13,270!2024-07-26,28,270!2024-07-08,15,250-->
+The resulting selection is {{greedy and may not be the optimal solution}}. When {{the heuristic function is simply the benefit}}, the above problem is {{a [submodular set function maximization](submodular%20set%20function.md#submodular%20set%20function%20maximization) problem}}. In this case, it has been proven that the greedy selection {{has a benefit that is at least $1 - 1 / e \approx 0.632$ times of that of the optimal selection}}.[<sup>[1]</sup>](#^ref-Nemhauser-1978) <!--SR:!2024-07-01,13,270!2024-08-17,48,290!2024-07-26,28,270!2024-07-08,15,250-->
 
 ## references
 

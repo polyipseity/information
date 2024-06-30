@@ -21,7 +21,7 @@ Examples include {{roller supports under an overhanging highway, wheels of a tab
 
 ### pinned support
 
-A pinned support prevents {{translation in any direction}}, but not {{rotation}}. Its reaction force is {{a single linear force in any direction}}. <!--SR:!2024-06-30,32,290!2024-08-11,66,310!2024-08-12,67,310-->
+A pinned support prevents {{translation in any direction}}, but not {{rotation}}. Its reaction force is {{a single linear force in any direction}}. <!--SR:!2024-11-05,128,310!2024-08-11,66,310!2024-08-12,67,310-->
 
 A pinned support is drawn as {{a triangle or a square with a circle in the middle}}. <!--SR:!2024-07-06,38,290-->
 

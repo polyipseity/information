@@ -23,7 +23,7 @@ The content is in teaching order.
     - engineer methods ::: ingenuity, mathematics, scientific method and outlook <!--SR:!2024-10-24,143,337!2024-08-02,85,365-->
   - engineer, according to the World Federation of Engineering Organizations (WFEO)
     - engineer inspirations ::: art of using creativity, science and technology, traditional experience <!--SR:!2024-10-25,136,335!2025-02-25,250,330-->
-    - engineer sustainability ::: restore and safeguard the biophysical environment <!--SR:!2025-01-10,205,345!2024-06-30,57,345-->
+    - engineer sustainability ::: restore and safeguard the biophysical environment <!--SR:!2025-01-10,205,345!2025-03-26,269,365-->
   - [engineer types](#engineer%20types)
   - differences between engineers and scientists ::: Scientists understand nature and make predictions, while engineers use scientific data and knowledge to design cities and protect us from nature. <!--SR:!2024-07-18,99,279!2024-12-02,192,330-->
 - civil engineering ::: construction, design, maintenance, and planning of the built environment, including buildings and infrastructure <!--SR:!2024-07-01,38,300!2024-07-18,64,360-->
@@ -363,7 +363,7 @@ transportation
 - hydraulic→:::←material <!--SR:!2024-10-03,119,340!2024-10-30,135,340-->
 - material→:::←structural <!--SR:!2024-08-15,81,317!2024-08-10,65,260-->
 - structural→:::←transportation <!--SR:!2024-07-04,51,340!2024-12-03,160,327-->
-- transportation→:::←_(end)_ <!--SR:!2024-06-30,55,350!2024-07-12,41,361-->
+- transportation→:::←_(end)_ <!--SR:!2025-01-08,192,350!2024-07-12,41,361-->
 
 <!--/pytextgen-->
 
@@ -464,7 +464,7 @@ testing materials
 - safety engineering→:::←scheduling <!--SR:!2024-08-25,82,320!2024-10-01,120,340-->
 - scheduling→:::←surveying building site <!--SR:!2024-08-18,60,241!2024-10-16,116,300-->
 - surveying building site→:::←testing materials <!--SR:!2024-07-02,13,260!2024-07-12,49,292-->
-- testing materials→:::←_(end)_ <!--SR:!2024-06-30,52,327!2024-08-12,80,307-->
+- testing materials→:::←_(end)_ <!--SR:!2025-02-21,236,347!2024-08-12,80,307-->
 
 <!--/pytextgen-->
 
@@ -539,7 +539,7 @@ wood
 <!--pytextgen generate section="20b9"--><!-- The following content is generated at 2024-02-16T21:59:47.456944+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←brick <!--SR:!2024-07-18,66,357!2024-11-04,182,312-->
-- brick→:::←concrete <!--SR:!2024-06-30,19,305!2024-08-27,106,377-->
+- brick→:::←concrete <!--SR:!2024-08-30,61,305!2024-08-27,106,377-->
 - concrete→:::←new synthetic materials <!--SR:!2024-07-05,42,301!2024-12-07,161,341-->
 - new synthetic materials→:::←steel <!--SR:!2024-11-20,155,332!2024-08-29,85,320-->
 - steel→:::←stone <!--SR:!2024-07-10,20,320!2024-12-03,159,340-->
@@ -949,7 +949,7 @@ wave
 
 <!--pytextgen generate section="4372"--><!-- The following content is generated at 2024-05-01T19:22:35.392684+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←earthquake <!--SR:!2024-11-11,142,340!2024-06-30,52,337-->
+- _(begin)_→:::←earthquake <!--SR:!2024-11-11,142,340!2025-02-25,240,357-->
 - earthquake→:::←fire <!--SR:!2024-09-28,117,335!2024-07-23,71,360-->
 - fire→:::←flood <!--SR:!2024-11-25,155,324!2024-09-05,104,266-->
 - flood→:::←strong wind <!--SR:!2024-08-01,63,320!2024-07-17,38,297-->
@@ -1145,7 +1145,7 @@ and the Structural Engineering Institute (SEI).
 - _(begin)_→:::←On 24 June 2021, a 12-story beachfront condominium, Champlain Towers South, in Miami suburb, Florida, United States partially collapsed, killing 98 people. <!--SR:!2024-09-11,95,320!2025-06-05,349,350-->
 - On 24 June 2021, a 12-story beachfront condominium, Champlain Towers South, in Miami suburb, Florida, United States partially collapsed, killing 98 people.→:::←Main culprit is degradation of reinforced concrete structural support in ground-level parking garage, due to water penetration and corrosion of the reinforcing steel. <!--SR:!2024-08-11,79,315!2024-08-12,79,315-->
 - Main culprit is degradation of reinforced concrete structural support in ground-level parking garage, due to water penetration and corrosion of the reinforcing steel.→:::←Other possible factors include corruption, insufficient reinforcing steel, and land subsidence. <!--SR:!2024-12-08,194,290!2024-09-13,102,317-->
-- Other possible factors include corruption, insufficient reinforcing steel, and land subsidence.→:::←The problems had been reported in 2018 and a US$15M program of remedial work has been approved, though no main structural work has taken place. <!--SR:!2024-06-30,45,294!2024-08-20,86,316-->
+- Other possible factors include corruption, insufficient reinforcing steel, and land subsidence.→:::←The problems had been reported in 2018 and a US$15M program of remedial work has been approved, though no main structural work has taken place. <!--SR:!2024-11-08,131,294!2024-08-20,86,316-->
 - The problems had been reported in 2018 and a US$15M program of remedial work has been approved, though no main structural work has taken place.→:::←On 25 August 2021, the National Institute of Standards and Technology (NIST) has been tasked with investigation, <!--SR:!2024-11-12,149,337!2024-09-28,123,335-->
 - On 25 August 2021, the National Institute of Standards and Technology (NIST) has been tasked with investigation,→:::←with investigators coming from the American Concrete Institute (ACI), <!--SR:!2024-10-26,144,327!2024-08-31,91,307-->
 - with investigators coming from the American Concrete Institute (ACI),→:::←the American Society of Civil Engineers (ASCE), <!--SR:!2024-11-25,156,334!2024-08-22,87,310-->

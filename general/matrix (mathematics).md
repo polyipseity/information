@@ -19,7 +19,7 @@ The _sum_ of {{two matrices __A__ and __B__ of the same size _m_ × _n_}} is den
 
 #### scalar multiplication
 
-The _product_ of {{a [scalar](scalar%20(mathematics).md) _c_ and a matrix __A__ of size _m_ × _n_}} is denoted {{$c\mathbf{A}$, $c \cdot \mathbf{A}$, or $\mathbf{A} \cdot c$}}. It is calculated by {{multiplying every element of __A__ by _c_}}: {{$$(c\mathbf{A})_{i, j} = c \cdot \mathbf{A}_{i, j} \qquad \text{where }1 \le i \le m\text{ and }1 \le j \le n$$}}. <!--SR:!2024-07-04,16,290!2024-07-01,13,290!2024-08-07,40,290!2024-06-30,13,270-->
+The _product_ of {{a [scalar](scalar%20(mathematics).md) _c_ and a matrix __A__ of size _m_ × _n_}} is denoted {{$c\mathbf{A}$, $c \cdot \mathbf{A}$, or $\mathbf{A} \cdot c$}}. It is calculated by {{multiplying every element of __A__ by _c_}}: {{$$(c\mathbf{A})_{i, j} = c \cdot \mathbf{A}_{i, j} \qquad \text{where }1 \le i \le m\text{ and }1 \le j \le n$$}}. <!--SR:!2024-07-04,16,290!2024-07-01,13,290!2024-08-07,40,290!2024-08-21,52,290-->
 
 #### subtraction
 

@@ -232,14 +232,14 @@ The content is in teaching order.
 
 - time: 2024-04-16T18:00:00+08:00/2024-04-16T20:30:00+08:00
 - [assignment W11](assignment%20W11/assignment%20W11.md) takeaways
-  - general case analysis reading takeaways ::: read twice, first fast, then slow and take notes <!--SR:!2024-09-08,72,357!2024-06-30,21,357-->
+  - general case analysis reading takeaways ::: read twice, first fast, then slow and take notes <!--SR:!2024-09-08,72,357!2024-10-10,102,377-->
 - McKinsey 7Ss framework ::: organization analysis <!--SR:!2024-08-10,51,357!2024-10-05,98,377-->
   - [McKinsey 7S Framework](../../../../general/McKinsey%207S%20Framework.md)
     - [§ objective](../../../../general/McKinsey%207S%20Framework.md#objective)
 - [PPTG change impact framework](../../../PPTG%20change%20impact%20framework.md)
   - [§ the framework](../../../PPTG%20change%20impact%20framework.md#the%20framework)
   - [§ extensions](../../../PPTG%20change%20impact%20framework.md#extensions)
-- drawbridge drama ::: an analogy to an office drama <!--SR:!2024-09-19,84,377!2024-06-30,21,357-->
+- drawbridge drama ::: an analogy to an office drama <!--SR:!2024-09-19,84,377!2024-10-09,101,377-->
 - [assignment W12](assignment%20W12/assignment%20W12.md): Organizational Analysis (DRW Technologies)
 
 ## week 13 lecture

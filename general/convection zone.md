@@ -9,7 +9,7 @@ tags:
 
 # convection zone
 
-A __convection zone__, __convective zone__ or __convective region__ of a [star](star.md) is {{a layer which is unstable due to [convection](convection.md)}}. [Energy](energy.md) is {{primarily or partially transported by [convection](convection%20(heat%20transfer).md) in such a region}}. Oppositely, in {{a [radiation zone](radiation%20zone.md)}}, energy is {{transported by [radiation](radiation.md) and [conduction](thermal%20conduction.md)}}. <!--SR:!2024-06-30,4,270!2024-06-30,4,270!2024-06-30,4,270!2024-06-30,4,270-->
+A __convection zone__, __convective zone__ or __convective region__ of a [star](star.md) is {{a layer which is unstable due to [convection](convection.md)}}. [Energy](energy.md) is {{primarily or partially transported by [convection](convection%20(heat%20transfer).md) in such a region}}. Oppositely, in {{a [radiation zone](radiation%20zone.md)}}, energy is {{transported by [radiation](radiation.md) and [conduction](thermal%20conduction.md)}}. <!--SR:!2024-07-13,13,290!2024-07-17,17,290!2024-07-15,15,290!2024-07-14,14,290-->
 
 ## references
 

@@ -9,7 +9,7 @@ tags:
 
 # OLAP cube
 
-An __OLAP cube__ is {{a [multi-dimensional array](array%20(data%20type).md#multi-dimensional%20arrays)}}. OLAP refers to {{[online analytical processing](online%20analytical%20processing.md), a computer-based technique of analyzing data to look for insights}}. The term _cube_ refers to {{a multi-dimensional dataset, laid out in a multi-dimensional spreadsheet}}. It is also sometimes called {{a [hypercube](hypercube.md) if the number of dimensions is greater than 3}}. <!--SR:!2024-07-05,17,290!2024-07-02,14,290!2024-06-30,12,270!2024-07-01,13,290-->
+An __OLAP cube__ is {{a [multi-dimensional array](array%20(data%20type).md#multi-dimensional%20arrays)}}. OLAP refers to {{[online analytical processing](online%20analytical%20processing.md), a computer-based technique of analyzing data to look for insights}}. The term _cube_ refers to {{a multi-dimensional dataset, laid out in a multi-dimensional spreadsheet}}. It is also sometimes called {{a [hypercube](hypercube.md) if the number of dimensions is greater than 3}}. <!--SR:!2024-07-05,17,290!2024-07-02,14,290!2024-08-11,42,290!2024-07-01,13,290-->
 
 ## operations
 

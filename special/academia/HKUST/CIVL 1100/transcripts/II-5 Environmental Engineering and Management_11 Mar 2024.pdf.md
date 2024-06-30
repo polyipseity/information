@@ -154,9 +154,9 @@ return await memorize_seq(
 
 - _(begin)_→:::←air sparging <!--SR:!2024-07-07,19,335!2024-07-07,19,335-->
 - air sparging→:::←bioremediation <!--SR:!2024-08-03,36,315!2024-08-21,53,335-->
-- bioremediation→:::←catalytic oxidation <!--SR:!2024-08-05,37,315!2024-06-30,13,315-->
+- bioremediation→:::←catalytic oxidation <!--SR:!2024-08-05,37,315!2024-08-28,59,335-->
 - catalytic oxidation→:::←ex-situ biopile <!--SR:!2024-07-18,23,295!2024-08-13,47,335-->
-- ex-situ biopile→:::←ex-situ solidification or stabilization <!--SR:!2024-06-30,13,315!2024-08-12,46,335-->
+- ex-situ biopile→:::←ex-situ solidification or stabilization <!--SR:!2024-08-25,56,335!2024-08-12,46,335-->
 - ex-situ solidification or stabilization→:::←_(end)_ <!--SR:!2024-07-07,19,335!2024-08-20,52,335-->
 
 <!--/pytextgen-->
@@ -185,7 +185,7 @@ Daily Domestic Waste Generation Rates per Capita Compared
 
 Landfills in Hong Kong
 
-- main landfills in Hong Kong (and saturation time) ::: North East New Territories Landfill (2024), South East New Territories Landfill (2022), West New Territories Landfill (2024) <!--SR:!2024-06-30,27,270!2024-07-25,50,310-->
+- main landfills in Hong Kong (and saturation time) ::: North East New Territories Landfill (2024), South East New Territories Landfill (2022), West New Territories Landfill (2024) <!--SR:!2024-09-10,72,270!2024-07-25,50,310-->
 
 ## page 11
 
@@ -348,7 +348,7 @@ Indoor Air Quality
 - common indoor air pollutant ::: 12 parameters <!--SR:!2024-07-13,37,290!2024-08-10,63,310-->
   - common indoor air pollutant examples ::: carbon dioxide (CO<sub>2</sub>), carbon monoxide (CO), respirable suspended particulate (RSP/PM<sub>10</sub>) <!--SR:!2024-07-01,28,270!2024-07-25,50,310-->
     - carbon dioxide limits ::: excellent: < 800 ppmv; good: < 1000 ppmv <!--SR:!2024-07-03,30,270!2024-07-24,49,310-->
-    - carbon monoxide limits ::: excellent: < 2000 μg/m<sup>3</sup>, < 1.7 ppmv; good: < 10000 μg/m<sup>3</sup>, < 8.7 ppmv <!--SR:!2024-06-30,18,250!2024-08-02,56,310-->
+    - carbon monoxide limits ::: excellent: < 2000 μg/m<sup>3</sup>, < 1.7 ppmv; good: < 10000 μg/m<sup>3</sup>, < 8.7 ppmv <!--SR:!2024-08-12,43,250!2024-08-02,56,310-->
     - respirable suspended particulate limits ::: excellent: < 20 μg/m<sup>3</sup>; good: < 180 μg/m<sup>3</sup> <!--SR:!2024-07-07,32,270!2024-07-12,39,290-->
 
 ## page 30

@@ -114,7 +114,7 @@ pricing: Find suitable prices catering to different market segment and economies
 
 - _(begin)_→:::←differentiate: Differentiate our products to make it a hit with customers. <!--SR:!2024-07-23,50,301!2024-07-15,46,301-->
 - differentiate: Differentiate our products to make it a hit with customers.→:::←discover: Find holes in existing products. <!--SR:!2024-08-15,55,281!2024-08-13,70,321-->
-- discover: Find holes in existing products.→:::←know ourselves: See if our products are sticky. <!--SR:!2024-06-30,27,221!2024-07-20,42,261-->
+- discover: Find holes in existing products.→:::←know ourselves: See if our products are sticky. <!--SR:!2024-08-28,59,221!2024-07-20,42,261-->
 - know ourselves: See if our products are sticky.→:::←know them: See how big of a threat competitors pose. <!--SR:!2024-07-27,52,301!2024-08-02,63,314-->
 - know them: See how big of a threat competitors pose.→:::←pricing: Find suitable prices catering to different market segment and economies. <!--SR:!2024-07-18,40,261!2024-08-08,54,261-->
 - pricing: Find suitable prices catering to different market segment and economies.→:::←_(end)_ <!--SR:!2024-08-02,61,321!2024-08-13,65,281-->
@@ -167,7 +167,7 @@ number of features
 <!--pytextgen generate section="a983"--><!-- The following content is generated at 2024-06-04T14:02:33.625025+08:00. Any edits will be overridden! -->
 
 - _(most important)_→:::←price <!--SR:!2024-08-14,71,321!2024-08-13,71,321-->
-- price→:::←benefit <!--SR:!2024-06-30,37,294!2024-09-27,97,301-->
+- price→:::←benefit <!--SR:!2024-11-27,150,314!2024-09-27,97,301-->
 - benefit→:::←quality <!--SR:!2024-08-17,67,274!2024-07-12,45,301-->
 - quality→:::←durability <!--SR:!2024-07-05,7,221!2024-07-30,59,321-->
 - durability→:::←service <!--SR:!2024-07-25,50,301!2024-07-01,22,261-->

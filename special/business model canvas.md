@@ -74,7 +74,7 @@ C$: [cost structure](#cost%20structure)
 
 #### customer segments
 
-The customer segments building block shows {{the different groups an organization is trying to serve}}. Customers are the heart of any business model because {{without them, no business can work}}. <!--SR:!2024-07-28,67,274!2024-06-30,58,314-->
+The customer segments building block shows {{the different groups an organization is trying to serve}}. Customers are the heart of any business model because {{without them, no business can work}}. <!--SR:!2024-07-28,67,274!2024-12-28,181,314-->
 
 Customers should be separated into different segments if {{they have different needs, need different [distribution channels](#channels), different [customer relationships](#customer%20relationships), very different profitability, or needing different aspects of your products}}. <!--SR:!2024-07-14,53,257-->
 
@@ -165,11 +165,11 @@ risk reduction
 
 - _(begin)_→:::←accessibility <!--SR:!2024-09-07,100,277!2024-07-10,65,314-->
 - accessibility→:::←brand or status <!--SR:!2024-10-01,103,254!2024-08-02,72,274-->
-- brand or status→:::←convenience or usability <!--SR:!2024-07-03,49,254!2024-06-30,36,234-->
+- brand or status→:::←convenience or usability <!--SR:!2024-07-03,49,254!2024-07-19,19,214-->
 - convenience or usability→:::←cost reduction <!--SR:!2024-10-11,108,254!2024-07-11,19,237-->
 - cost reduction→:::←customization <!--SR:!2024-08-27,94,274!2024-07-14,44,177-->
 - customization→:::←design <!--SR:!2024-08-11,76,277!2024-07-17,55,234-->
-- design→:::←newness <!--SR:!2024-09-10,89,257!2024-06-30,52,274-->
+- design→:::←newness <!--SR:!2024-09-10,89,257!2024-07-23,23,254-->
 - newness→:::←performance <!--SR:!2024-07-16,61,277!2024-09-26,99,257-->
 - performance→:::←performing the job well <!--SR:!2024-10-23,129,297!2024-09-03,92,274-->
 - performing the job well→:::←price <!--SR:!2024-10-20,139,294!2024-07-10,60,274-->
@@ -294,7 +294,7 @@ In cost structures, costs can be {{fixed costs or variable costs}}. Costs can be
 
 ### fit
 
-Business model fit can be achieved by {{reiteration between changing the value propositions and the rest of the business model}}, because these two {{are interdependent on each other: changing one entails changing the other}}. The changes can be {{big or small}}: pivot {{means making radical changes to the business model because your code idea requires more exploration}}, while iteration {{means reorienting the business model slightly but still closely related to the original}}. <!--SR:!2024-06-30,34,289!2024-07-10,45,309!2024-07-19,52,309!2024-07-06,42,309!2024-07-22,54,309-->
+Business model fit can be achieved by {{reiteration between changing the value propositions and the rest of the business model}}, because these two {{are interdependent on each other: changing one entails changing the other}}. The changes can be {{big or small}}: pivot {{means making radical changes to the business model because your code idea requires more exploration}}, while iteration {{means reorienting the business model slightly but still closely related to the original}}. <!--SR:!2024-10-05,97,289!2024-07-10,45,309!2024-07-19,52,309!2024-07-06,42,309!2024-07-22,54,309-->
 
 ## comparison with other models
 
