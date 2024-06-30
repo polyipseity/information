@@ -40,7 +40,7 @@ The content is in teaching order.
 - [Hubble Ultra-Deep Field](../../../../general/Hubble%20Ultra-Deep%20Field.md)
 - HKUST in the universe ::: HKUST is a very small place compared to the universe
 - observing HKUST ::: different views depending on where we are and where we look, so multiple observations are required to reveal the true HKUST
-- observing the universe ::: unfortunately, we can only observe the universe from the inside at one (almost) fixed location; see 蘇軾《題西林壁》
+- observing the universe ::: unfortunately, we can only observe the universe from the inside at one (almost) fixed location (see 蘇軾《題西林壁》)
   - Does that mean we will never understand the universe? ::: Not quite, we have a good but not perfect understanding of our universe, and can construct a 3D or 4D model of it.
 - old world maps ::: can be very different due to limited technology; compare a world map believed to be compiled by Zheng He (1371–1435) and the Martellus world map (1490)
 - "cosmic address" ::: the universe -> Pisces–Cetus Supercluster Complex (galaxy filament and void) -> Local Supercluster -> Local Group -> Milky Way (galaxy) -> Solar System -> Earth -> ...
@@ -79,7 +79,7 @@ The content is in teaching order.
   - How to know what [Hong Kong](../../../../general/Hong%20Kong.md) was like in the past? ::: Look at historic photos of [Hong Kong](../../../../general/Hong%20Kong.md).
   - How to know what the [universe](../../../../general/universe.md) was like in the past? ::: Look far enough, because the [universe](../../../../general/universe.md) is extremely big.
 - [speed of light](../../../../general/speed%20of%20light.md) ::: exactly 299&nbsp;792&nbsp;458 m/s _in vacuum_, often approximated as 300&nbsp;000 km/s; 8 times around the Earth in 1 second
-  - light travel time from Earth to... ::: the Moon: 1 second, the Sun: ~8 minutes, Sirius (brightest star in the night sky): 8 years, Andromeda Galaxy (nearest major galaxy): 2.5 million years
+  - light travel time from Earth to... ::: the Moon: ~1.3 second, the Sun: ~8 minutes, Sirius (brightest star in the night sky): ~8 years, Andromeda Galaxy (nearest major galaxy): ~2.5 million years
   - speed of light implications ::: We see astronomical objects as they were in the past since they are so far away. The further the object is in distance, the further back we look back into time.
 - [lookback time](../../../../general/cosmic%20time.md#lookback%20time)
 - [light-year](../../../../general/light-year.md) ::: the distance light travels in one year; exactly 9460&nbsp;730&nbsp;472&nbsp;580&nbsp;800 m, approximately 9.4607 × 10<sup>15</sup> m
