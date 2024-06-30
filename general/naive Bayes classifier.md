@@ -31,7 +31,7 @@ After rewriting the joint probability model, {{the "naive" assumptions come into
 
 With the assumption, the joint probability model can {{be simplified}}: {{$$\begin{aligned} p(C_k \mid \mathbf{x}) & \propto p(C_k, x_1, \ldots, x_n) && (p(\mathbf{x}) = \text{const.}) \\ & = p(C_k) p(x_1 \mid C_k) p(x_2 \mid C_k) \cdots p(x_n \mid C_k) \\ & = p(C_k) \prod_{i = 1}^n p(x_i \mid C_k) \end{aligned}$$}}. <!--SR:!2024-08-07,40,290!2024-07-18,23,250-->
 
-To conclude, {{with the above assumptions}}, {{the conditional probability of class $C_k$ given features $\mathbf{x}$}} is: {{$$p(C_k \mid \mathbf{x}) = \frac 1 Z p(C_k) \prod_{i = 1}^n p(x_i \mid C_k)$$}}, where {{$Z = p(\mathbf{x}) = \sum_k p(C_k) p(\mathbf{x} \mid C_k)$ is a scaling factor dependent on $\mathbf{x}$ only}}. <!--SR:!2024-07-05,17,290!2024-06-30,13,270!2024-06-30,12,270!2024-07-18,22,250-->
+To conclude, {{with the above assumptions}}, {{the conditional probability of class $C_k$ given features $\mathbf{x}$}} is: {{$$p(C_k \mid \mathbf{x}) = \frac 1 Z p(C_k) \prod_{i = 1}^n p(x_i \mid C_k)$$}}, where {{$Z = p(\mathbf{x}) = \sum_k p(C_k) p(\mathbf{x} \mid C_k)$ is a scaling factor dependent on $\mathbf{x}$ only}}. <!--SR:!2024-07-05,17,290!2024-08-04,35,270!2024-08-10,41,290!2024-07-18,22,250-->
 
 The {{prior for a given class, i.e. $p(C_k)$}}, can be obtained from {{the training dataset (empirical distribution)}}, or {{assumed equiprobable, i.e. $p(C_k) = \frac 1 K$}}. For empirical distribution: {{$$p(C_k) = \frac {\text{number of samples of class }C_k} {\text{number of samples} }$$}}. <!--SR:!2024-07-05,17,290!2024-07-02,14,290!2024-07-02,14,290!2024-07-05,17,290-->
 

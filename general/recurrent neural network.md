@@ -23,23 +23,23 @@ The term "recurrent neural network" is used to refer {{to the class of networks 
 
 ### Elman networks and Jordan networks
 
-An [Elman](Jeffrey%20Elman.md) network is {{a 3-layer network with the addition of a context layer}}. The middle hidden layer is {{connected to the context layer with a fixed weight of 1}}. The context layer connects {{back to the middle hidden layer}}. <!--SR:!2024-07-03,15,290!2024-06-30,12,270!2024-07-02,14,290-->
+An [Elman](Jeffrey%20Elman.md) network is {{a 3-layer network with the addition of a context layer}}. The middle hidden layer is {{connected to the context layer with a fixed weight of 1}}. The context layer connects {{back to the middle hidden layer}}. <!--SR:!2024-07-03,15,290!2024-08-12,43,290!2024-07-02,14,290-->
 
 [Jordan](Michael%20I.%20Jordan.md) network are {{similar to Elman networks}}. The exception is {{that the context layer is fed from the output layer instead of the middle hidden layer}}. <!--SR:!2024-07-04,16,290!2024-07-02,14,290-->
 
-Elman and Jordan networks are also known as {{"simple recurrent networks" (SRN)}}. The disadvantages are that {{the networks are likely too simple, and they might take a long time to converge}}. <!--SR:!2024-07-03,15,290!2024-06-30,13,270-->
+Elman and Jordan networks are also known as {{"simple recurrent networks" (SRN)}}. The disadvantages are that {{the networks are likely too simple, and they might take a long time to converge}}. <!--SR:!2024-07-03,15,290!2024-08-20,51,290-->
 
 ### long short-term memory
 
 - see: [long short-term memory](long%20short-term%20memory.md)
 
-Long short-term memory (LSTM) is {{a [deep learning](deep%20learning.md) system that avoids the [vanishing gradient problem](vanishing%20gradient%20problem.md)}}. LSTMs are augmented with {{recurrent gates like "forget gates", "input gates", and "output gates"}}. LSTMs can learn {{tasks that require memories of events thousands or even millions of time steps earlier}}. LSTM works even if {{there are long delays between significant events and can handle low and high-frequency components}}. <!--SR:!2024-07-01,13,290!2024-06-30,12,270!2024-08-10,42,290!2024-07-02,14,290-->
+Long short-term memory (LSTM) is {{a [deep learning](deep%20learning.md) system that avoids the [vanishing gradient problem](vanishing%20gradient%20problem.md)}}. LSTMs are augmented with {{recurrent gates like "forget gates", "input gates", and "output gates"}}. LSTMs can learn {{tasks that require memories of events thousands or even millions of time steps earlier}}. LSTM works even if {{there are long delays between significant events and can handle low and high-frequency components}}. <!--SR:!2024-07-01,13,290!2024-08-14,45,290!2024-08-10,42,290!2024-07-02,14,290-->
 
 ### gated recurrent unit
 
 - see: [gated recurrent unit](gated%20recurrent%20unit.md)
 
-Gated recurrent units (GRUs) are {{a gating mechanism in RNN introduced in 2014}}. They have {{fewer parameters than LSTM, as they lack an output gate}}. This may make {{the training time shorter and the training requiring fewer data samples}}. <!--SR:!2024-07-03,15,290!2024-06-30,12,270!2024-08-05,38,290-->
+Gated recurrent units (GRUs) are {{a gating mechanism in RNN introduced in 2014}}. They have {{fewer parameters than LSTM, as they lack an output gate}}. This may make {{the training time shorter and the training requiring fewer data samples}}. <!--SR:!2024-07-03,15,290!2024-08-17,48,290!2024-08-05,38,290-->
 
 ## references
 

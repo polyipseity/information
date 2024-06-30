@@ -169,7 +169,7 @@ The steps for naming an organic compound are:
 - identify parent functional group of [highest group precedence](#precedence%20of%20functional%20groups)→:::←identify side-chains <!--SR:!2024-07-10,387,264!2024-07-14,34,130-->
 - identify side-chains→:::←identify remaining functional groups <!--SR:!2026-06-02,852,230!2025-02-25,243,207-->
 - identify remaining functional groups→:::←identify multiple bonds <!--SR:!2025-02-08,275,190!2024-08-06,334,207-->
-- identify multiple bonds→:::←[identify numbering direction](#identify%20numbering%20direction) <!--SR:!2025-11-26,549,230!2024-06-30,24,130-->
+- identify multiple bonds→:::←[identify numbering direction](#identify%20numbering%20direction) <!--SR:!2025-11-26,549,230!2024-07-10,10,130-->
 - [identify numbering direction](#identify%20numbering%20direction)→:::←number and [prefix](#prefix%20for%20type%20count) substituents and bonds <!--SR:!2026-01-17,579,190!2026-03-01,749,265-->
 - number and [prefix](#prefix%20for%20type%20count) substituents and bonds→:::←[arrange](#arrange): prefix(es) + [prefix for carbon count](#prefix%20for%20carbon%20count) + bond(s) + suffix <!--SR:!2024-07-31,143,227!2024-12-25,360,230-->
 - [arrange](#arrange): prefix(es) + [prefix for carbon count](#prefix%20for%20carbon%20count) + bond(s) + suffix→:::←(optional) omit unnecessary locants <!--SR:!2024-12-01,451,230!2024-09-03,103,207-->
@@ -469,7 +469,7 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - formula: {{RCOR'}}
 > - prefix: {{oxo- (=O), ([prefix for carbon count](#prefix%20for%20carbon%20count))oyl- (-COR'), alkoyl- (-COR')}}
 > - suffix: {{-one}}
-> - infix: {{(locant)}} <!--SR:!2025-12-23,823,300!2026-10-01,825,280!2025-03-13,595,321!2024-06-30,35,130!2025-01-16,228,342!2028-07-31,1552,362-->
+> - infix: {{(locant)}} <!--SR:!2025-12-23,823,300!2026-10-01,825,280!2025-03-13,595,321!2024-08-12,43,130!2025-01-16,228,342!2028-07-31,1552,362-->
 
 <!-- markdownlint MD028 -->
 
