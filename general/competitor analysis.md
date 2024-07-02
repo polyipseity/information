@@ -71,11 +71,11 @@ why: Why are people using competitors' products?
 
 - _(begin)_→:::←compare: Identify similarities and differences between our and their products. <!--SR:!2024-07-05,32,261!2024-07-29,60,314-->
 - compare: Identify similarities and differences between our and their products.→:::←copy: Identify advantages and capabilities our products lack compared to others. <!--SR:!2024-08-25,70,274!2024-08-29,72,281-->
-- copy: Identify advantages and capabilities our products lack compared to others.→:::←discover: Identify unmet needs. <!--SR:!2024-07-10,36,261!2024-07-02,30,241-->
+- copy: Identify advantages and capabilities our products lack compared to others.→:::←discover: Identify unmet needs. <!--SR:!2024-07-10,36,261!2024-09-10,70,241-->
 - discover: Identify unmet needs.→:::←how: What is our strategy? <!--SR:!2024-07-03,4,201!2024-07-03,11,261-->
-- how: What is our strategy?→:::←pricing: Compare prices. <!--SR:!2024-07-02,12,241!2024-07-10,15,261-->
+- how: What is our strategy?→:::←pricing: Compare prices. <!--SR:!2024-07-07,5,221!2024-07-10,15,261-->
 - pricing: Compare prices.→:::←who: Who are the competitors? 3 to 5 is usually enough. <!--SR:!2024-07-17,45,261!2024-08-18,61,261-->
-- who: Who are the competitors? 3 to 5 is usually enough.→:::←why: Why are people using competitors' products? <!--SR:!2024-07-02,37,281!2024-07-04,30,241-->
+- who: Who are the competitors? 3 to 5 is usually enough.→:::←why: Why are people using competitors' products? <!--SR:!2024-10-13,103,281!2024-07-04,30,241-->
 - why: Why are people using competitors' products?→:::←_(end)_ <!--SR:!2024-08-10,68,321!2024-09-16,83,281-->
 
 <!--/pytextgen-->
@@ -127,7 +127,7 @@ pricing: Find suitable prices catering to different market segment and economies
 
 ### when to do
 
-Competitor analysis can be done {{anytime as needed}}. For example, it can expose holes in existing products during {{idea screening}}, or determine suitable prices during {{commercialization}}. <!--SR:!2024-07-01,41,290!2024-07-28,57,321!2024-09-14,91,294-->
+Competitor analysis can be done {{anytime as needed}}. For example, it can expose holes in existing products during {{idea screening}}, or determine suitable prices during {{commercialization}}. <!--SR:!2024-12-15,166,310!2024-07-28,57,321!2024-09-14,91,294-->
 
 ### comparison parameters
 
@@ -170,7 +170,7 @@ number of features
 - price→:::←benefit <!--SR:!2024-11-27,150,314!2024-09-27,97,301-->
 - benefit→:::←quality <!--SR:!2024-08-17,67,274!2024-07-12,45,301-->
 - quality→:::←durability <!--SR:!2024-07-05,7,221!2024-07-30,59,321-->
-- durability→:::←service <!--SR:!2024-07-25,50,301!2024-07-01,22,261-->
+- durability→:::←service <!--SR:!2024-07-25,50,301!2024-07-14,12,241-->
 - service→:::←convenience <!--SR:!2024-07-20,35,241!2024-08-08,56,301-->
 - convenience→:::←ease of use <!--SR:!2024-07-15,40,261!2024-07-22,55,314-->
 - ease of use→:::←number of features <!--SR:!2024-07-06,36,281!2024-07-04,38,274-->

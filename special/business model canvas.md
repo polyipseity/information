@@ -266,7 +266,7 @@ subscription fee
 - _(begin)_→:::←advertising <!--SR:!2024-08-24,92,274!2024-07-16,71,317-->
 - advertising→:::←asset sale <!--SR:!2024-10-07,130,294!2024-11-28,167,317-->
 - asset sale→:::←brokerage fee <!--SR:!2024-07-05,55,274!2024-07-09,20,254-->
-- brokerage fee→:::←lending, renting, or leasing <!--SR:!2024-07-17,56,257!2024-07-01,48,254-->
+- brokerage fee→:::←lending, renting, or leasing <!--SR:!2024-07-17,56,257!2024-10-31,121,254-->
 - lending, renting, or leasing→:::←licensing <!--SR:!2024-08-23,87,257!2024-08-01,71,274-->
 - licensing→:::←usage fee <!--SR:!2024-08-10,76,274!2024-07-31,68,274-->
 - usage fee→:::←subscription fee <!--SR:!2024-10-16,111,254!2024-08-04,74,277-->

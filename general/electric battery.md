@@ -215,7 +215,7 @@ return chain.from_iterable(await gather(
 
 <!--pytextgen generate section="7801"--><!-- The following content is generated at 2024-03-06T23:33:30.574761+08:00. Any edits will be overridden! -->
 
-- [NiMH](nickel–metal%20hydride%20battery.md)::[H](hydrogen.md)-absorbing [alloy](alloy.md) <!--SR:!2024-07-01,18,203-->
+- [NiMH](nickel–metal%20hydride%20battery.md)::[H](hydrogen.md)-absorbing [alloy](alloy.md) <!--SR:!2024-07-10,8,183-->
 - [lead–acid](lead–acid%20battery.md)::[Pb](lead.md) <!--SR:!2024-08-03,92,283-->
 - [lithium-ion](lithium-ion%20battery.md)::[C](carbon.md) ([graphite](graphite.md) [intercalated](intercalation.md) with [Li](lithium.md)) <!--SR:!2024-07-13,81,283-->
 
@@ -246,7 +246,7 @@ return chain.from_iterable(await gather(
 <!--pytextgen generate section="018e"--><!-- The following content is generated at 2024-03-08T13:15:49.087660+08:00. Any edits will be overridden! -->
 
 - [NiMH](nickel–metal%20hydride%20battery.md)::(unavailable), 1.2 V <!--SR:!2024-07-29,81,263-->
-- [lead–acid](lead–acid%20battery.md)::(unavailable), 2.1 V; 6 cells: 12 V <!--SR:!2024-07-01,91,363-->
+- [lead–acid](lead–acid%20battery.md)::(unavailable), 2.1 V; 6 cells: 12 V <!--SR:!2025-09-27,452,383-->
 - [lithium-ion](lithium-ion%20battery.md)::(unavailable), 3.7 V <!--SR:!2024-07-10,58,303-->
 
 <!--/pytextgen-->

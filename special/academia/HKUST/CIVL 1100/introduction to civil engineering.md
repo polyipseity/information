@@ -17,7 +17,7 @@ The content is in teaching order.
 
 - engineer
   - engineer, according to Wikipedia
-    - engineer jobs ::: analyze, _build_, _design_, invent, repair, test <!--SR:!2024-07-02,50,340!2024-08-08,89,378-->
+    - engineer jobs ::: analyze, _build_, _design_, invent, repair, test <!--SR:!2024-12-17,168,340!2024-08-08,89,378-->
     - engineer goals ::: fulfill functional objectives and requirements <!--SR:!2024-07-25,62,340!2024-07-11,61,360-->
     - engineer limitations ::: limited by cost, practicality, regulation, and safety <!--SR:!2024-12-24,195,350!2024-08-29,108,377-->
     - engineer methods ::: ingenuity, mathematics, scientific method and outlook <!--SR:!2024-10-24,143,337!2024-08-02,85,365-->
@@ -26,7 +26,7 @@ The content is in teaching order.
     - engineer sustainability ::: restore and safeguard the biophysical environment <!--SR:!2025-01-10,205,345!2025-03-26,269,365-->
   - [engineer types](#engineer%20types)
   - differences between engineers and scientists ::: Scientists understand nature and make predictions, while engineers use scientific data and knowledge to design cities and protect us from nature. <!--SR:!2024-07-18,99,279!2024-12-02,192,330-->
-- civil engineering ::: construction, design, maintenance, and planning of the built environment, including buildings and infrastructure <!--SR:!2024-07-01,38,300!2024-07-18,64,360-->
+- civil engineering ::: construction, design, maintenance, and planning of the built environment, including buildings and infrastructure <!--SR:!2024-10-23,113,300!2024-07-18,64,360-->
   - "civil" meaning ::: "Civil" distinguishes non-military from military purposes. <!--SR:!2025-05-09,327,350!2024-07-31,81,377-->
   - civil engineer characteristics ::: problem solvers <!--SR:!2024-09-28,122,335!2024-12-24,182,352-->
   - civil engineering characteristics ::: Oldest engineering discipline. Takes place on all levels, from municipal to nationals in the public sector, from homeowners to international companies in the private sector. <!--SR:!2024-07-24,57,301!2024-07-13,63,360-->
@@ -280,7 +280,7 @@ workmanship
 - _(begin)_→:::←budgeting <!--SR:!2024-07-08,55,341!2024-09-06,105,380-->
 - budgeting→:::←construction management <!--SR:!2024-07-29,66,320!2024-08-30,98,335-->
 - construction management→:::←economics <!--SR:!2024-07-10,42,235!2024-08-21,81,300-->
-- economics→:::←impacts to surrounding <!--SR:!2024-08-09,71,300!2024-07-01,27,280-->
+- economics→:::←impacts to surrounding <!--SR:!2024-08-09,71,300!2024-07-15,13,260-->
 - impacts to surrounding→:::←lifecycle <!--SR:!2024-08-06,74,320!2024-08-22,82,320-->
 - lifecycle→:::←maintenance <!--SR:!2024-10-13,106,297!2024-08-08,74,312-->
 - maintenance→:::←politics <!--SR:!2024-07-17,32,261!2024-08-12,80,312-->
@@ -463,7 +463,7 @@ testing materials
 - quality control→:::←safety engineering <!--SR:!2024-08-01,65,301!2024-07-13,22,275-->
 - safety engineering→:::←scheduling <!--SR:!2024-08-25,82,320!2024-10-01,120,340-->
 - scheduling→:::←surveying building site <!--SR:!2024-08-18,60,241!2024-10-16,116,300-->
-- surveying building site→:::←testing materials <!--SR:!2024-07-02,13,260!2024-07-12,49,292-->
+- surveying building site→:::←testing materials <!--SR:!2024-08-04,33,260!2024-07-12,49,292-->
 - testing materials→:::←_(end)_ <!--SR:!2025-02-21,236,347!2024-08-12,80,307-->
 
 <!--/pytextgen-->
@@ -638,7 +638,7 @@ water
 - air→:::←environmental impact assessment (EIA) <!--SR:!2024-12-08,168,318!2024-09-09,108,338-->
 - environmental impact assessment (EIA)→:::←noise <!--SR:!2024-09-08,107,327!2024-08-28,96,380-->
 - noise→:::←waste <!--SR:!2024-07-14,62,360!2024-12-23,190,355-->
-- waste→:::←water <!--SR:!2024-07-02,57,357!2024-07-22,70,360-->
+- waste→:::←water <!--SR:!2025-01-20,202,357!2024-07-22,70,360-->
 - water→:::←_(end)_ <!--SR:!2024-08-20,88,380!2024-08-22,90,380-->
 
 <!--/pytextgen-->
@@ -709,7 +709,7 @@ soil liquefaction
 - _(begin)_→:::←debris flow <!--SR:!2024-08-07,75,314!2024-08-10,89,378-->
 - debris flow→:::←landslide <!--SR:!2024-08-20,88,335!2024-08-10,78,335-->
 - landslide→:::←rockfall <!--SR:!2024-07-22,68,312!2024-08-03,65,320-->
-- rockfall→:::←soil liquefaction <!--SR:!2024-07-02,47,290!2024-09-19,118,270-->
+- rockfall→:::←soil liquefaction <!--SR:!2024-11-14,135,290!2024-09-19,118,270-->
 - soil liquefaction→:::←_(end)_ <!--SR:!2024-08-14,95,372!2024-10-20,117,295-->
 
 <!--/pytextgen-->
@@ -777,7 +777,7 @@ levee
 - _(begin)_→:::←canal <!--SR:!2024-09-12,106,340!2024-07-18,70,347-->
 - canal→:::←channel <!--SR:!2024-11-27,174,357!2024-12-06,168,352-->
 - channel→:::←dam <!--SR:!2024-10-21,128,327!2025-02-10,240,290-->
-- dam→:::←levee <!--SR:!2024-07-02,50,340!2024-11-04,141,332-->
+- dam→:::←levee <!--SR:!2024-12-18,169,340!2024-11-04,141,332-->
 - levee→:::←_(end)_ <!--SR:!2024-08-09,90,375!2024-08-06,53,258-->
 
 <!--/pytextgen-->
@@ -1099,7 +1099,7 @@ water tower
 - building→:::←dam <!--SR:!2024-07-30,77,361!2024-07-03,55,361-->
 - dam→:::←power plant <!--SR:!2024-08-06,68,301!2024-07-25,33,238-->
 - power plant→:::←storage facility <!--SR:!2024-07-29,62,300!2024-09-12,111,334-->
-- storage facility→:::←tunnel <!--SR:!2024-07-02,18,320!2024-09-01,89,320-->
+- storage facility→:::←tunnel <!--SR:!2024-07-12,10,300!2024-09-01,89,320-->
 - tunnel→:::←unusual structure <!--SR:!2024-09-19,83,247!2024-10-17,121,320-->
 - unusual structure→:::←water tower <!--SR:!2024-07-10,25,310!2024-07-22,23,310-->
 - water tower→:::←_(end)_ <!--SR:!2024-08-14,93,367!2024-07-15,18,281-->

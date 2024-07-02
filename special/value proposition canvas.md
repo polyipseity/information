@@ -59,7 +59,7 @@ Value proposition design works for {{both new ventures and established organizat
 
 The value proposition canvas has two parts: {{the customer profile showing your customer understanding and the value map showing your product and its values. Achieve fit by having your product create value that satisfies customers}}. <!--SR:!2024-08-12,82,289-->
 
-The value map itself has three parts: {{products and services, pain relievers, and gain creators}}. It corresponds to the three parts of the customer profile: {{customer jobs, pains, and gains}}. Fit is achieved when {{pain relievers relieve pains and gain creators create gains that are important to the customer}}. <!--SR:!2024-07-04,61,327!2024-07-02,71,310!2024-12-12,169,309-->
+The value map itself has three parts: {{products and services, pain relievers, and gain creators}}. It corresponds to the three parts of the customer profile: {{customer jobs, pains, and gains}}. Fit is achieved when {{pain relievers relieve pains and gain creators create gains that are important to the customer}}. <!--SR:!2024-07-04,61,327!2025-05-02,304,330!2024-12-12,169,309-->
 
 ### customer profile
 
@@ -115,7 +115,7 @@ vagueness: vague jobs, pains, and gains
 - mix: mixing customer segments→:::←mix: mixing jobs and outcomes <!--SR:!2024-09-29,112,289!2024-07-16,38,269-->
 - mix: mixing jobs and outcomes→:::←opposite: gains and pains are not opposite, gains are beyond expectation while pains are falling short of expectation <!--SR:!2024-07-26,31,265!2024-09-20,87,285-->
 - opposite: gains and pains are not opposite, gains are beyond expectation while pains are falling short of expectation→:::←reversed: listing jobs, pains, and gains from your product value propositions <!--SR:!2024-07-27,65,269!2024-07-07,54,269-->
-- reversed: listing jobs, pains, and gains from your product value propositions→:::←vagueness: vague jobs, pains, and gains <!--SR:!2024-07-02,15,169!2024-08-01,64,249-->
+- reversed: listing jobs, pains, and gains from your product value propositions→:::←vagueness: vague jobs, pains, and gains <!--SR:!2024-07-26,24,169!2024-08-01,64,249-->
 - vagueness: vague jobs, pains, and gains→:::←_(end)_ <!--SR:!2024-07-21,74,329!2024-08-20,84,289-->
 
 <!--/pytextgen-->
@@ -126,7 +126,7 @@ Products and services is {{simply a list of what you offer}}, and can also inclu
 
 Pain relievers describe {{how the products or services alleviate customer pains}}. There is no need to {{alleviate every identified pain}}, and instead {{it is better to alleviate some extreme pains extremely well}}. Like products and services, pain relievers {{can have different relevance to your customers}}. <!--SR:!2025-01-12,207,329!2024-11-15,148,309!2024-08-15,98,290!2024-11-20,162,310-->
 
-Gain creators describe {{how the products or services create customer gains}}. There is also no need to {{create every identified gain}}, and instead {{it is better to create some relevant gains extremely well}}. Like products and services, gain creators {{can have different relevance to your customers}}. <!--SR:!2024-07-17,72,329!2024-07-03,61,329!2024-11-09,154,309!2024-07-01,54,309-->
+Gain creators describe {{how the products or services create customer gains}}. There is also no need to {{create every identified gain}}, and instead {{it is better to create some relevant gains extremely well}}. Like products and services, gain creators {{can have different relevance to your customers}}. <!--SR:!2024-07-17,72,329!2024-07-03,61,329!2024-11-09,154,309!2024-12-15,166,309-->
 
 There are several [common mistakes](#value%20map%20common%20mistakes) to be aware of.
 
@@ -168,7 +168,7 @@ mix: mixing products and services with pain relievers and gain creators
 
 Fit is when {{your pain relievers relieve customer pains, gain creators create customer gains, and products and services satisfy customer jobs}}. To check fit, {{put two ticks on the pair if there is a matching pair in the customer profile and the value map, and cross out those without any matches}}. A strong fit indicates {{customer satisfaction, market differentiation, and value creation}}. <!--SR:!2024-11-10,164,310!2024-08-28,112,290!2024-07-15,50,325-->
 
-However, checking the fit on paper like above is {{not enough}}. Fit happens in three stages: {{problem–solution fit, product–market fit, and business model fit}}. To achieve these three fits requires {{a nonlinear and iterative process}}. Value proposition design allows quick {{design, test, and repeat}}. <!--SR:!2024-07-01,56,309!2024-08-18,75,249!2024-08-31,101,309!2025-01-08,209,310-->
+However, checking the fit on paper like above is {{not enough}}. Fit happens in three stages: {{problem–solution fit, product–market fit, and business model fit}}. To achieve these three fits requires {{a nonlinear and iterative process}}. Value proposition design allows quick {{design, test, and repeat}}. <!--SR:!2025-02-26,239,329!2024-08-18,75,249!2024-08-31,101,309!2025-01-08,209,310-->
 
 ## design
 
@@ -258,10 +258,10 @@ conclusion: make progress
 
 - _(begin)_→:::←hypothesis: extract hypotheses <!--SR:!2024-08-26,89,289!2024-07-12,67,327-->
 - hypothesis: extract hypotheses→:::←hypothesis: prioritize hypotheses <!--SR:!2024-07-28,81,329!2024-11-12,147,309-->
-- hypothesis: prioritize hypotheses→:::←test: design tests <!--SR:!2024-07-02,60,309!2024-07-21,74,270-->
+- hypothesis: prioritize hypotheses→:::←test: design tests <!--SR:!2025-01-02,184,309!2024-07-21,74,270-->
 - test: design tests→:::←test: prioritize tests <!--SR:!2024-09-28,91,309!2024-09-04,112,290-->
 - test: prioritize tests→:::←test: run tests <!--SR:!2025-01-18,213,329!2024-11-25,166,310-->
-- test: run tests→:::←conclusion: capture findings <!--SR:!2024-07-01,40,269!2024-10-22,129,309-->
+- test: run tests→:::←conclusion: capture findings <!--SR:!2024-10-17,107,269!2024-10-22,129,309-->
 - conclusion: capture findings→:::←conclusion: make progress <!--SR:!2024-07-10,65,329!2024-10-08,131,309-->
 - conclusion: make progress→:::←_(end)_ <!--SR:!2024-07-11,66,329!2024-10-01,112,270-->
 

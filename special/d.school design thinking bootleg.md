@@ -45,7 +45,7 @@ return await memorize_seq(
 
 - _(begin)_→:::←[empathize](#empathize) (blue) <!--SR:!2024-10-08,127,290!2025-03-31,278,330-->
 - [empathize](#empathize) (blue)→:::←[define](#define) (green) <!--SR:!2024-08-19,89,270!2025-04-14,289,330-->
-- [define](#define) (green)→:::←[ideate](#ideate) (yellow) <!--SR:!2024-08-26,84,250!2024-07-01,56,250-->
+- [define](#define) (green)→:::←[ideate](#ideate) (yellow) <!--SR:!2024-08-26,84,250!2024-11-18,139,250-->
 - [ideate](#ideate) (yellow)→:::←[prototype](#prototype) (red) <!--SR:!2024-09-05,112,290!2024-08-15,85,270-->
 - [prototype](#prototype) (red)→:::←[test](#test) (brown) <!--SR:!2024-08-18,99,290!2024-12-22,185,310-->
 - [test](#test) (brown)→:::←_(end)_ <!--SR:!2025-04-15,290,330!2025-02-02,234,330-->
@@ -127,7 +127,7 @@ return await memorize_seq(
 - (define) 2×2 matrix: plot a _xy_ graph to reveal relations and for visualization→:::←(define) design guidelines: a strategy to solve your design challenge, abstract enough to allow for multiple solutions <!--SR:!2024-09-01,94,250!2024-07-13,14,130-->
 - (define) design guidelines: a strategy to solve your design challenge, abstract enough to allow for multiple solutions→:::←(define) point of view (POV): make your design challenge into an actionable statement <!--SR:!2024-09-01,80,230!2024-09-05,83,210-->
 - (define) point of view (POV): make your design challenge into an actionable statement→:::←(define) why-how laddering: from need, asking "Why?" to follow the chain of reasoning to the root need, and then find other needs by asking "How?" to follow back down the chain <!--SR:!2024-07-05,23,150!2024-07-15,54,230-->
-- (define) why-how laddering: from need, asking "Why?" to follow the chain of reasoning to the root need, and then find other needs by asking "How?" to follow back down the chain→:::←(define/ideate) "how might we" questions: questions to stimulate ideation that are suitably narrow and suitably board <!--SR:!2024-07-02,14,150!2024-08-02,56,210-->
+- (define) why-how laddering: from need, asking "Why?" to follow the chain of reasoning to the root need, and then find other needs by asking "How?" to follow back down the chain→:::←(define/ideate) "how might we" questions: questions to stimulate ideation that are suitably narrow and suitably board <!--SR:!2024-07-08,6,130!2024-08-02,56,210-->
 - (define/ideate) "how might we" questions: questions to stimulate ideation that are suitably narrow and suitably board→:::←(define/ideate) powers of ten: change the scale by orders of magnitude <!--SR:!2024-07-12,38,170!2024-08-20,56,190-->
 - (define/ideate) powers of ten: change the scale by orders of magnitude→:::←_(end)_ <!--SR:!2024-10-10,141,310!2024-08-24,93,270-->
 

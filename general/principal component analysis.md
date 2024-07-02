@@ -19,17 +19,17 @@ tags:
 
 ## overview
 
-PCA is most commonly used when {{many of the variables are highly correlated with each other and it is desirable to reduce the number of variables (e.g. accuracy, efficiency)}}. PCA allows us to {{reduce the number of dimensions in the data set while minimizing information loss}}. <!--SR:!2024-07-03,15,290!2024-07-02,14,290-->
+PCA is most commonly used when {{many of the variables are highly correlated with each other and it is desirable to reduce the number of variables (e.g. accuracy, efficiency)}}. PCA allows us to {{reduce the number of dimensions in the data set while minimizing information loss}}. <!--SR:!2024-07-03,15,290!2024-08-31,60,310-->
 
 ## intuition
 
-PCA can be thought of {{fitting an (hyper)[ellipsoid](ellipsoid.md) (a (hyper)[sphere](sphere.md) that are scaled differently along different axes) to the data}}, where each axis {{of the ellipsoid (which are perpendicular to each other) represents a principal component}}. The axis {{length represents the variance of the data along that axis}}. Axes with the least length means {{the data does not differ much in said axis}}, thus removing said axes {{reduces dimensionality while minimizing information loss}}. <!--SR:!2024-07-02,14,290!2024-07-30,33,270!2024-07-03,15,290!2024-07-01,13,290!2024-07-03,15,290-->
+PCA can be thought of {{fitting an (hyper)[ellipsoid](ellipsoid.md) (a (hyper)[sphere](sphere.md) that are scaled differently along different axes) to the data}}, where each axis {{of the ellipsoid (which are perpendicular to each other) represents a principal component}}. The axis {{length represents the variance of the data along that axis}}. Axes with the least length means {{the data does not differ much in said axis}}, thus removing said axes {{reduces dimensionality while minimizing information loss}}. <!--SR:!2024-08-12,41,290!2024-07-30,33,270!2024-07-03,15,290!2024-08-25,54,310!2024-07-03,15,290-->
 
 ## computing PCA using the covariance method
 
-The following is a detailed description of PCA using {{the covariance method as opposed to the correlation method}}. <!--SR:!2024-07-01,13,290-->
+The following is a detailed description of PCA using {{the covariance method as opposed to the correlation method}}. <!--SR:!2024-08-09,38,290-->
 
-The goal is to {{transform a given data set __X__ of dimension _p_ to another data set __Y__ of dimension _l_, where $p \ge l$}}. Equivalently, matrix __Y__ is {{the [Karhunen–Loève transform](Kosambi–Karhunen–Loève%20theorem.md) (KLT) of matrix __X__}}: {{$$\mathbf{Y} = \mathbb{KLT}\{\mathbf{X}\}$$}} <!--SR:!2024-07-02,14,290!2024-07-04,16,290!2024-07-03,15,290-->
+The goal is to {{transform a given data set __X__ of dimension _p_ to another data set __Y__ of dimension _l_, where $p \ge l$}}. Equivalently, matrix __Y__ is {{the [Karhunen–Loève transform](Kosambi–Karhunen–Loève%20theorem.md) (KLT) of matrix __X__}}: {{$$\mathbf{Y} = \mathbb{KLT}\{\mathbf{X}\}$$}} <!--SR:!2024-08-15,44,290!2024-07-04,16,290!2024-07-03,15,290-->
 
 ```Python
 # pytextgen generate data
@@ -117,7 +117,7 @@ return chain(
     - Use the cumulative variances as {{a guide for choosing an appropriate value for the number of reduced dimensions _l_}}. The goal is to {{choose the smallest _l_ possible while ensuring the _l_-th cumulative variance _g<sub>l</sub>_ is reasonably high on a percentage basis}}. For example, {{one can choose the smallest _l_ such that $\frac {g_l} {g_p} \ge 0.9$}}.
     - After choosing _l_ (or _l_ is given beforehand), only keep {{the first _l_ columns of the eigenvector _V_ to make a _p_ × _l_ matrix __W__ and discard the rest}}.
 9. __<!--pytextgen generate section="f098"--><!-- The following content is generated at 2024-06-11T22:43:08.510681+08:00. Any edits will be overridden! -->project the data onto the new basis<!--/pytextgen-->__
-    - The projected data points are {{the rows of the _n_ × _l_ matrix __T__}}, computed by {{$$\mathbf{T} = \mathbf{B} \mathbf{W}$$}}. <!--SR:!2024-07-01,13,290!2024-07-01,13,290!2024-07-02,14,290!2024-08-03,35,270!2024-07-15,20,250!2024-07-05,17,290!2024-07-03,15,290!2024-07-30,31,270!2024-07-06,13,250!2024-07-17,21,250!2024-07-05,17,290!2024-08-17,49,290!2024-07-13,18,250!2024-08-02,35,290!2024-07-04,16,290!2024-07-04,16,290!2024-08-10,41,290!2024-07-01,13,290!2024-07-30,33,290!2024-07-12,17,250!2024-07-24,26,270!2024-07-01,13,270!2024-07-04,16,290!2024-08-05,38,290!2024-07-25,29,270!2024-07-31,34,270!2024-08-03,37,270!2024-07-13,20,270!2024-07-31,34,290!2024-07-01,13,270!2024-07-17,22,250!2024-07-14,19,250!2024-07-29,30,270-->
+    - The projected data points are {{the rows of the _n_ × _l_ matrix __T__}}, computed by {{$$\mathbf{T} = \mathbf{B} \mathbf{W}$$}}. <!--SR:!2024-08-22,51,310!2024-08-19,48,310!2024-08-29,58,310!2024-08-03,35,270!2024-07-15,20,250!2024-07-05,17,290!2024-07-03,15,290!2024-07-30,31,270!2024-07-06,13,250!2024-07-17,21,250!2024-07-05,17,290!2024-08-17,49,290!2024-07-13,18,250!2024-08-02,35,290!2024-07-04,16,290!2024-07-04,16,290!2024-08-10,41,290!2024-08-19,48,310!2024-07-30,33,290!2024-07-12,17,250!2024-07-24,26,270!2024-08-03,32,270!2024-07-04,16,290!2024-08-05,38,290!2024-07-25,29,270!2024-07-31,34,270!2024-08-03,37,270!2024-07-13,20,270!2024-07-31,34,290!2024-08-03,32,270!2024-07-17,22,250!2024-07-14,19,250!2024-07-29,30,270-->
 
 ## references
 

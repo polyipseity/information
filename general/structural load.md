@@ -66,13 +66,13 @@ Loads on civil engineering can be separated into {{<!--pytextgen generate sectio
 
 ### dead load
 
-The dead load includes {{loads that are relatively constant over time}}. This includes {{self-weights of structural members, such as beams, columns, floor slabs, roofs, and walls}} and {{weights of permanent fixtures such as carpets, tiles, walls, and windows}}. Usually calculated by {{density of material multiplied by component size}}. <!--SR:!2024-08-21,76,320!2024-07-01,30,270!2024-09-21,83,270!2024-07-14,42,290-->
+The dead load includes {{loads that are relatively constant over time}}. This includes {{self-weights of structural members, such as beams, columns, floor slabs, roofs, and walls}} and {{weights of permanent fixtures such as carpets, tiles, walls, and windows}}. Usually calculated by {{density of material multiplied by component size}}. <!--SR:!2024-08-21,76,320!2024-10-22,112,290!2024-09-21,83,270!2024-07-14,42,290-->
 
 Generally, dead load (and live load) internally {{deflects beams and floors}}. As a whole, it causes {{the foundation to settle, which may be uniform or tilt (e.g. [Leaning Tower of Pisa](Leaning%20Tower%20of%20Pisa.md))}}. More seriously, {{dishing or sagging may happen to the foundation}}. If not managed well, it can need to {{partial or total collapse of structural elements or the roof}}. <!--SR:!2024-08-13,70,330!2024-08-17,73,330!2024-07-23,52,310!2024-07-22,52,310-->
 
 ### live load
 
-The live load includes {{loads that are temporary or moving}}. This includes {{moving things, such as moving vehicles, people, and storage}}; {{non-permanent fixtures such as ceiling lights, furniture, and pipe ducts}}. The load can vary in {{location and magnitude}}. In building codes such as {{_Minimum Design Load for Buildings and Other Structures_, ASCE 7-05}}, the live load is {{tabulated and usually assumed uniform on building floors}}. <!--SR:!2024-07-21,48,290!2024-07-04,37,300!2024-07-18,48,290!2024-07-01,33,290!2024-07-25,45,270!2024-07-03,36,300-->
+The live load includes {{loads that are temporary or moving}}. This includes {{moving things, such as moving vehicles, people, and storage}}; {{non-permanent fixtures such as ceiling lights, furniture, and pipe ducts}}. The load can vary in {{location and magnitude}}. In building codes such as {{_Minimum Design Load for Buildings and Other Structures_, ASCE 7-05}}, the live load is {{tabulated and usually assumed uniform on building floors}}. <!--SR:!2024-07-21,48,290!2024-07-04,37,300!2024-07-18,48,290!2024-11-11,132,310!2024-07-25,45,270!2024-07-03,36,300-->
 
 Generally, live load has {{similar effects to dead load}}. <!--SR:!2024-07-30,55,310-->
 

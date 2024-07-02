@@ -78,7 +78,7 @@ value proposition canvas
 - customer validation→:::←design thinking <!--SR:!2024-07-23,50,230!2024-09-03,88,270-->
 - design thinking→:::←idea generation: Put oneself in customers' shoes. For example, examine old mousetraps and build a better one. <!--SR:!2024-07-06,8,170!2024-08-15,73,250-->
 - idea generation: Put oneself in customers' shoes. For example, examine old mousetraps and build a better one.→:::←product validation <!--SR:!2024-07-08,18,230!2024-07-25,44,230-->
-- product validation→:::←value proposition canvas <!--SR:!2024-07-01,33,190!2024-10-08,100,250-->
+- product validation→:::←value proposition canvas <!--SR:!2024-07-20,18,170!2024-10-08,100,250-->
 - value proposition canvas→:::←_(end)_ <!--SR:!2024-07-05,57,310!2024-07-21,60,270-->
 
 <!--/pytextgen-->
@@ -141,7 +141,7 @@ root cause analysis, 5 whys
 - PPTG: people, process, technology, governance framework→:::←blue ocean strategy <!--SR:!2024-08-10,46,301!2024-08-04,43,301-->
 - blue ocean strategy→:::←interview note-taking in an 1-page memo <!--SR:!2024-07-20,32,281!2024-07-03,4,221-->
 - interview note-taking in an 1-page memo→:::←profitability framework <!--SR:!2024-07-11,25,261!2024-07-12,17,221-->
-- profitability framework→:::←root cause analysis, 5 whys <!--SR:!2024-07-15,27,281!2024-07-01,10,241-->
+- profitability framework→:::←root cause analysis, 5 whys <!--SR:!2024-07-15,27,281!2024-07-26,24,241-->
 - root cause analysis, 5 whys→:::←_(end)_ <!--SR:!2024-08-17,53,301!2024-08-14,50,301-->
 
 <!--/pytextgen-->

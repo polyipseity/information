@@ -346,7 +346,7 @@ Example quiz questions for preparing exams.
 > 3. It is possible when the true cohesion of the sand disappears under rainfall.
 > 4. It is not possible the friction angle is higher than the slope angle.
 >
-> - solution: {{2}} <!--SR:!2024-07-01,28,272-->
+> - solution: {{2}} <!--SR:!2024-10-14,104,292-->
 
 <!-- markdownlint MD028 -->
 

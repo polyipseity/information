@@ -21,11 +21,11 @@ tags:
 
 #### eigenvalues
 
-The eigenvalues of a matrix $A$ can be determined by {{finding the roots of the [characteristic polynomial](characteristic%20polynomial.md) ($\det(tI - A) = 0$)}}. This is {{easy for $2 \times 2$ matrices, but the difficulty increases rapidly with the size of the matrix}}. <!--SR:!2024-07-01,13,290!2024-07-05,17,290-->
+The eigenvalues of a matrix $A$ can be determined by {{finding the roots of the [characteristic polynomial](characteristic%20polynomial.md) ($\det(tI - A) = 0$)}}. This is {{easy for $2 \times 2$ matrices, but the difficulty increases rapidly with the size of the matrix}}. <!--SR:!2024-08-10,39,290!2024-07-05,17,290-->
 
 #### eigenvectors
 
-Once {{the (exact) values of an eigenvalue is known}}, the corresponding eigenvector can be {{calculated directly by finding nonzero solutions of the eigenvalue equation}}, which becomes {{a [system of linear equations](system%20of%20linear%20equations.md) with known coefficients}}. <!--SR:!2024-07-03,15,290!2024-07-16,20,250!2024-07-02,14,290-->
+Once {{the (exact) values of an eigenvalue is known}}, the corresponding eigenvector can be {{calculated directly by finding nonzero solutions of the eigenvalue equation}}, which becomes {{a [system of linear equations](system%20of%20linear%20equations.md) with known coefficients}}. <!--SR:!2024-07-03,15,290!2024-07-16,20,250!2024-08-11,40,290-->
 
 ## references
 

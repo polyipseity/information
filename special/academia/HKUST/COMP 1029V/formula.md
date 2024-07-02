@@ -260,7 +260,7 @@ return _chain.from_iterable(await _gather(
 
 - _(begin)_→:::←(operator) `&` <!--SR:!2025-09-10,444,330!2025-03-07,307,330-->
 - (operator) `&`→:::←`LEFT(string, length)` <!--SR:!2024-07-30,89,290!2024-12-22,204,270-->
-- `LEFT(string, length)`→:::←`LEN(string)` <!--SR:!2025-05-03,311,290!2024-07-01,84,230-->
+- `LEFT(string, length)`→:::←`LEN(string)` <!--SR:!2025-05-03,311,290!2025-01-10,192,230-->
 - `LEN(string)`→:::←`LOWER(string)` <!--SR:!2024-07-20,55,250!2024-08-20,89,290-->
 - `LOWER(string)`→:::←`RIGHT(string, length)` <!--SR:!2024-07-18,25,130!2024-07-21,59,230-->
 - `RIGHT(string, length)`→:::←`SUBSTITUTE(string, old, new)` <!--SR:!2025-01-27,229,270!2024-12-14,172,250-->

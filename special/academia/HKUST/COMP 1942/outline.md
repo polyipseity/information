@@ -328,7 +328,7 @@ The content is in teaching order.
 
 - time: 2024-04-10T09:00:00+08:00/2024-04-10T10:30:00+08:00
 - [recurrent neural network](../../../../general/recurrent%20neural%20network.md)
-  - basic RNN ::: [§ Elman networks and Jordan networks](../../../../general/recurrent%20neural%20network.md#Elman%20networks%20and%20Jordan%20networks) <!--SR:!2024-07-01,14,337!2024-07-09,21,357-->
+  - basic RNN ::: [§ Elman networks and Jordan networks](../../../../general/recurrent%20neural%20network.md#Elman%20networks%20and%20Jordan%20networks) <!--SR:!2024-08-17,46,337!2024-07-09,21,357-->
   - [§ long short-term memory](../../../../general/recurrent%20neural%20network.md#long%20short-term%20memory)
   - [§ gated recurrent unit](../../../../general/recurrent%20neural%20network.md#gated%20recurrent%20unit)
 - [convolutional neural network](../../../../general/convolutional%20neural%20network.md)
@@ -349,7 +349,7 @@ The content is in teaching order.
 - [sensitivity and specificity § specificity](../../../../general/sensitivity%20and%20specificity.md#specificity)
 - [false positives and false negatives](../../../../general/false%20positives%20and%20false%20negatives.md)
 - [training, validation, and test data sets](../../../../general/training,%20validation,%20and%20test%20data%20sets.md)
-  - new data set ::: The data set to be predicted that does not have the actual values of the predicted attributes to compare against. Essentially, the model is being put into practical use. <!--SR:!2024-07-02,15,337!2024-07-01,14,337-->
+  - new data set ::: The data set to be predicted that does not have the actual values of the predicted attributes to compare against. Essentially, the model is being put into practical use. <!--SR:!2024-09-08,68,357!2024-09-05,65,357-->
 
 ## week 12 lab
 
@@ -366,12 +366,12 @@ The content is in teaching order.
   - [§ computing PCA using the covariance method](../../../../general/principal%20component%20analysis.md#computing%20PCA%20using%20the%20covariance%20method)
     - § computing PCA using the covariance method > matrix __X__ ::: The matrix __X__ taught in lesson uses the symbol __Y__, and is transposed: $\mathbf{Y} = \mathbf{X}^\intercal$. <!--SR:!2024-07-09,21,357!2024-07-08,20,357-->
     - § computing PCA using the covariance method > covariance matrix __C__ ::: The matrix __C__ taught in lesson uses the symbol __Σ__, and divides by _n_ instead of $n - 1$. <!--SR:!2024-07-08,20,357!2024-07-07,19,357-->
-    - § computing PCA using the covariance method > eigenvalues and eigenvectors ::: The [classical method](../../../../general/eigenvalues%20and%20eigenvectors.md#classical%20method) is used to calculate. The eigenvalues _λ_ are found using $\det(\mathbf{\Sigma} - \lambda \mathbf{I})$ instead of $\det(\lambda \mathbf{I} - \mathbf{\Sigma})$. The eigenvectors are normalized. <!--SR:!2024-07-01,14,337!2024-07-02,15,337-->
+    - § computing PCA using the covariance method > eigenvalues and eigenvectors ::: The [classical method](../../../../general/eigenvalues%20and%20eigenvectors.md#classical%20method) is used to calculate. The eigenvalues _λ_ are found using $\det(\mathbf{\Sigma} - \lambda \mathbf{I})$ instead of $\det(\lambda \mathbf{I} - \mathbf{\Sigma})$. The eigenvectors are normalized. <!--SR:!2024-09-04,64,357!2024-08-22,51,337-->
       - [eigenvalues and eigenvectors § classical method](../../../../general/eigenvalues%20and%20eigenvectors.md#classical%20method)
-        - eigenvalues and eigenvectors § classical method > eigenvector ::: The eigenvector is calculated from the eigenvalue using $(\mathbf{\Sigma} - \lambda \mathbf{I}) \mathbf{x} = \mathbf{0}$ instead of $\mathbf{\Sigma} \mathbf{x} = \lambda \mathbf{x}$. <!--SR:!2024-07-09,21,357!2024-07-02,15,337-->
+        - eigenvalues and eigenvectors § classical method > eigenvector ::: The eigenvector is calculated from the eigenvalue using $(\mathbf{\Sigma} - \lambda \mathbf{I}) \mathbf{x} = \mathbf{0}$ instead of $\mathbf{\Sigma} \mathbf{x} = \lambda \mathbf{x}$. <!--SR:!2024-07-09,21,357!2024-09-10,70,357-->
     - § computing PCA using the covariance method > eigenvector matrix ::: The eigenvector matrix uses the symbol __Φ__. Instead of selecting a subset of the eigenvectors as the basis vectors first, the whole matrix is kept, and then the redundant coordinates are only discarded after transforming the original data. <!--SR:!2024-07-07,19,357!2024-08-26,57,357-->
     - § computing PCA using the covariance method > cumulative variance ::: Cumulative variance is ignored. So the step about computing the cumulative variance is ignored. Instead, the number of dimensions to be reduced to is specified beforehand instead of being chosen using the ignored step. <!--SR:!2024-08-30,61,357!2024-08-09,43,337-->
-    - § computing PCA using the covariance method > data transformation ::: Also, instead of transforming the mean-subtracted data using $\mathbf{T} = \mathbf{B} \mathbf{\Phi}$, the original data $\mathbf{Y} = \mathbf{X}^\intercal$ is transformed, and in a different way: $\mathbf{T}' = \mathbf{\Phi}^\intercal \mathbf{Y}$. Each column instead of each row of $\mathbf{T}'$ is a data point. Even more specifically, the data points are transformed one by one: $\mathbf{T}'_i = \mathbf{\Phi}^\intercal \mathbf{Y}_i$. <!--SR:!2024-08-22,54,337!2024-07-02,15,337-->
+    - § computing PCA using the covariance method > data transformation ::: Also, instead of transforming the mean-subtracted data using $\mathbf{T} = \mathbf{B} \mathbf{\Phi}$, the original data $\mathbf{Y} = \mathbf{X}^\intercal$ is transformed, and in a different way: $\mathbf{T}' = \mathbf{\Phi}^\intercal \mathbf{Y}$. Each column instead of each row of $\mathbf{T}'$ is a data point. Even more specifically, the data points are transformed one by one: $\mathbf{T}'_i = \mathbf{\Phi}^\intercal \mathbf{Y}_i$. <!--SR:!2024-08-22,54,337!2024-08-20,49,337-->
 - [Analytics Solver usage](../../../Analytic%20Solver%20usage.md): principal components
 - [data warehouse](../../../../general/data%20warehouse.md)
   - data warehouse > application ::: [online analytical processing](../../../../general/online%20analytical%20processing.md) (OLAP), used by many corporations <!--SR:!2024-07-14,25,368!2024-07-23,33,368-->
@@ -402,7 +402,7 @@ The content is in teaching order.
   - [§ algorithms](../../../../general/materialized%20view.md#algorithms)
   - [§ terminology](../../../../general/materialized%20view.md#terminology)
   - [§ greedy algorithm](../../../../general/materialized%20view.md#greedy%20algorithm)
-- web database ranking considerations ::: When searching for something using a search engine, apart from matching terms, incoming and outgoing links are also considered. <!--SR:!2024-07-01,14,337!2024-07-09,21,357-->
+- web database ranking considerations ::: When searching for something using a search engine, apart from matching terms, incoming and outgoing links are also considered. <!--SR:!2024-09-07,67,357!2024-07-09,21,357-->
 - [HITS algorithm](../../../../general/HITS%20algorithm.md)
   - [§ steps](../../../../general/HITS%20algorithm.md#steps)
     - HITS algorithm variant ::: It does not matter because we only use the recursive expressions to calculate the new authority and hub values. <!--SR:!2024-07-08,20,357!2024-07-08,20,357-->
@@ -415,7 +415,7 @@ The content is in teaching order.
 - [PageRank](../../../../general/PageRank.md)
   - [§ algorithm](../../../../general/PageRank.md#algorithm)
     - PageRank self-links ::: Self-links are considered. <!--SR:!2024-07-15,26,368!2024-07-13,24,368-->
-    - PageRank initialization ::: We initialize all PageRank values to 1 instead of 1 divided by number of pages. <!--SR:!2024-07-09,21,357!2024-07-01,13,337-->
+    - PageRank initialization ::: We initialize all PageRank values to 1 instead of 1 divided by number of pages. <!--SR:!2024-07-09,21,357!2024-08-30,59,357-->
     - PageRank termination ::: Terminate the PageRank algorithm when after rounding the values to a certain number of digits, the values have not changed. <!--SR:!2024-07-07,19,368!2024-07-09,21,368-->
   - [§ simplified algorithm](../../../../general/PageRank.md#simplified%20algorithm)
   - [§ damping factor](../../../../general/PageRank.md#damping%20factor)
@@ -458,24 +458,24 @@ The content is in teaching order.
   - [§ graphical model](../../../../general/Bayesian%20network.md#graphical%20model)
   - Bayesian belief network inference setup ::: Identify the node for which the conditional probability is calculated. Then identify all node parents and children, whether direct or indirect. Discard conditions that are conditionally independent of the calculated probability (search for "_d_-separation"). <!--SR:!2024-07-25,29,317!2024-07-07,19,357-->
   - Bayesian belief network inference process ::: Decompose joint probabilities into separate probabilities if they are conditionally independent of each other. Apply Bayes' theorem (for 3 events) to invert the conditional probability so that the resulting conditional probabilities follow the network arrows. Use the probability chain rule if necessary. Sum up over all possible values of a node (recursively) if necessary. Finally, substitute the known probabilities to calculate the results. <!--SR:!2024-07-19,24,317!2024-08-18,51,337-->
-  - Bayesian belief network inference answering ::: Also calculate the inverse of the conditional probability (which is _usually_ done by subtracting from 1). Compare the 2 conditional probabilities, and declare that the higher conditional probability is the most likely outcome. <!--SR:!2024-07-08,20,357!2024-07-01,14,337-->
+  - Bayesian belief network inference answering ::: Also calculate the inverse of the conditional probability (which is _usually_ done by subtracting from 1). Compare the 2 conditional probabilities, and declare that the higher conditional probability is the most likely outcome. <!--SR:!2024-07-08,20,357!2024-08-21,50,337-->
 - [conditional dependence](../../../../general/conditional%20dependence.md)
 - [conditional independence § conditional independence of events](../../../../general/conditional%20independence.md#conditional%20independence%20of%20events)
 - [chain rule (probability)](../../../../general/chain%20rule%20(probability).md)
   - [§ two events](../../../../general/chain%20rule%20(probability).md#two%20events)
   - [§ finitely many events](../../../../general/chain%20rule%20(probability).md#finitely%20many%20events)
-- common core requirements ::: mathematical models, quantitative data, quantitative methods <!--SR:!2024-07-02,15,337!2024-07-08,20,357-->
+- common core requirements ::: mathematical models, quantitative data, quantitative methods <!--SR:!2024-09-13,73,357!2024-07-08,20,357-->
 - other topics
-  - association thresholding ::: Instead of thresholding by frequency, we can threshold by number of frequent item sets found, which may be easier to choose. <!--SR:!2024-07-01,13,337!2024-07-01,14,337-->
+  - association thresholding ::: Instead of thresholding by frequency, we can threshold by number of frequent item sets found, which may be easier to choose. <!--SR:!2024-08-28,57,357!2024-08-19,48,337-->
   - [clustering high-dimensional data § subspace clustering](../../../../general/clustering%20high-dimensional%20data.md#subspace%20clustering) ::: By removing some dimensions of the data, more interesting clusters may be found. It mitigates [curse of dimensionality](../../../../general/curse%20of%20dimensionality.md), where [distances between different pairs of points become similar](../../../../general/curse%20of%20dimensionality.md#distance%20function). <!--SR:!2024-07-27,31,317!2024-08-29,60,357-->
-  - ensemble of classifiers ::: We can output the prediction based on the majority prediction of the classifiers. <!--SR:!2024-07-02,15,337!2024-07-02,15,337-->
+  - ensemble of classifiers ::: We can output the prediction based on the majority prediction of the classifiers. <!--SR:!2024-09-11,71,357!2024-09-13,73,357-->
   - data warehouse questions ::: How to create the data warehouse over different types of data, such as a graph? <!--SR:!2024-07-07,19,357!2024-07-09,21,357-->
   - [word-sense disambiguation](word-sense%20disambiguation.md) ::: How to disambiguate between different entities of the same name on the Internet? <!--SR:!2024-07-07,19,357!2024-07-07,19,357-->
   - social networks ::: How are people connected? <!--SR:!2024-07-08,20,357!2024-07-08,20,357-->
   - privacy issues ::: How to preserve data privacy while data mining? Minimize information loss while protect individual privacy. <!--SR:!2024-07-07,19,357!2024-07-07,19,357-->
   - graph data ::: How to analyze graphs? <!--SR:!2024-07-07,19,357!2024-07-08,20,357-->
   - decision making
-  - data streams ::: How to data mine over real-time and possibly unbounded data streams? <!--SR:!2024-07-09,21,357!2024-07-02,14,337-->
+  - data streams ::: How to data mine over real-time and possibly unbounded data streams? <!--SR:!2024-07-09,21,357!2024-09-01,61,357-->
   - chatbot
   - picture description
   - generative AI
