@@ -25,32 +25,32 @@ In the following, $f(t)$ is {{a [rational expression](rational%20function.md) in
 return await memorize_seq(
   __env__.cwf_sects("0362", "ca84"),
   R"""
-$\omega(t) = \omega(-t)$ _only_: Symmetry along $x = 0$, substitute $u = \cos t$.
-$\omega(t) = \omega(\pi - t)$ _only_: Symmetry along $x = \frac \pi 2$, substitute $u = \sin t$.
-$\omega(t) = \omega(\pi + t)$ _only_: $\pi$-periodic, Substitute $u = \tan t$.
-two preceding relations hold: substitute $u = \cos 2t$
+$\omega(t) = \omega(-t)$ _only_: Symmetry across $x = 0$, substitute $u = \cos t$.
+$\omega(t) = \omega(\pi - t)$ _only_: Symmetry across $x = \frac \pi 2$, substitute $u = \sin t$.
+$\omega(t) = \omega(\pi + t)$ _only_: $\pi$-periodic, substitute $u = \tan t$.
+two preceding relations hold: Substitute $u = \cos 2t$.
 otherwise: Substitute $u = \tan \frac t 2$.
 """.strip().splitlines(),
 )
 ```
 
-<!--pytextgen generate section="0362"--><!-- The following content is generated at 2024-07-01T16:40:04.227417+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="0362"--><!-- The following content is generated at 2024-07-02T17:25:31.792720+08:00. Any edits will be overridden! -->
 
-> 1. $\omega(t) = \omega(-t)$ _only_: Symmetry along $x = 0$, substitute $u = \cos t$.
-> 2. $\omega(t) = \omega(\pi - t)$ _only_: Symmetry along $x = \frac \pi 2$, substitute $u = \sin t$.
-> 3. $\omega(t) = \omega(\pi + t)$ _only_: $\pi$-periodic, Substitute $u = \tan t$.
-> 4. two preceding relations hold: substitute $u = \cos 2t$
+> 1. $\omega(t) = \omega(-t)$ _only_: Symmetry across $x = 0$, substitute $u = \cos t$.
+> 2. $\omega(t) = \omega(\pi - t)$ _only_: Symmetry across $x = \frac \pi 2$, substitute $u = \sin t$.
+> 3. $\omega(t) = \omega(\pi + t)$ _only_: $\pi$-periodic, substitute $u = \tan t$.
+> 4. two preceding relations hold: Substitute $u = \cos 2t$.
 > 5. otherwise: Substitute $u = \tan \frac t 2$.
 
 <!--/pytextgen-->
 
-<!--pytextgen generate section="ca84"--><!-- The following content is generated at 2024-07-01T16:40:04.202572+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="ca84"--><!-- The following content is generated at 2024-07-02T17:25:31.891084+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←$\omega(t) = \omega(-t)$ _only_: Symmetry along $x = 0$, substitute $u = \cos t$.
-- $\omega(t) = \omega(-t)$ _only_: Symmetry along $x = 0$, substitute $u = \cos t$.→:::←$\omega(t) = \omega(\pi - t)$ _only_: Symmetry along $x = \frac \pi 2$, substitute $u = \sin t$.
-- $\omega(t) = \omega(\pi - t)$ _only_: Symmetry along $x = \frac \pi 2$, substitute $u = \sin t$.→:::←$\omega(t) = \omega(\pi + t)$ _only_: $\pi$-periodic, Substitute $u = \tan t$.
-- $\omega(t) = \omega(\pi + t)$ _only_: $\pi$-periodic, Substitute $u = \tan t$.→:::←two preceding relations hold: substitute $u = \cos 2t$
-- two preceding relations hold: substitute $u = \cos 2t$→:::←otherwise: Substitute $u = \tan \frac t 2$.
+- _(begin)_→:::←$\omega(t) = \omega(-t)$ _only_: Symmetry across $x = 0$, substitute $u = \cos t$.
+- $\omega(t) = \omega(-t)$ _only_: Symmetry across $x = 0$, substitute $u = \cos t$.→:::←$\omega(t) = \omega(\pi - t)$ _only_: Symmetry across $x = \frac \pi 2$, substitute $u = \sin t$.
+- $\omega(t) = \omega(\pi - t)$ _only_: Symmetry across $x = \frac \pi 2$, substitute $u = \sin t$.→:::←$\omega(t) = \omega(\pi + t)$ _only_: $\pi$-periodic, substitute $u = \tan t$.
+- $\omega(t) = \omega(\pi + t)$ _only_: $\pi$-periodic, substitute $u = \tan t$.→:::←two preceding relations hold: Substitute $u = \cos 2t$.
+- two preceding relations hold: Substitute $u = \cos 2t$.→:::←otherwise: Substitute $u = \tan \frac t 2$.
 - otherwise: Substitute $u = \tan \frac t 2$.→:::←_(end)_
 
 <!--/pytextgen-->
