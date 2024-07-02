@@ -9,19 +9,19 @@ tags:
 
 # diurnal motion
 
-{{__Diurnal motion__}} (from [Latin](Latin.md) _diurnus_ 'daily', from [Latin](Latin.md) _diēs_ 'day') is {{an [astronomical](astronomy.md) term referring to the apparent [motion](motion.md) of [celestial objects](astronomical%20object.md) (e.g. the [Sun](Sun.md) and [stars](star.md)) around [Earth](Earth.md), or more precisely around the two [celestial poles](celestial%20pole.md), over the course of one day}}. <!--SR:!2024-07-02,4,277!2024-07-02,4,277-->
+{{__Diurnal motion__}} (from [Latin](Latin.md) _diurnus_ 'daily', from [Latin](Latin.md) _diēs_ 'day') is {{an [astronomical](astronomy.md) term referring to the apparent [motion](motion.md) of [celestial objects](astronomical%20object.md) (e.g. the [Sun](Sun.md) and [stars](star.md)) around [Earth](Earth.md), or more precisely around the two [celestial poles](celestial%20pole.md), over the course of one day}}. <!--SR:!2024-07-12,10,277!2024-07-11,9,277-->
 
 ## relative motion
 
-The relative motion of diurnal motion depends {{on the [latitude](latitude.md) but not the [longitude](longitude.md)}}. The latter only affects {{the time we see the [stars](star.md)}}. Stars that {{do not set below the [horizon](horizon.md)}} are called {{[circumpolar stars](circumpolar%20star.md)}}. <!--SR:!2024-07-02,4,277!2024-07-02,4,277!2024-07-02,4,277!2024-07-02,4,277-->
+The relative motion of diurnal motion depends {{on the [latitude](latitude.md) but not the [longitude](longitude.md)}}. The latter only affects {{the time we see the [stars](star.md)}}. Stars that {{do not set below the [horizon](horizon.md)}} are called {{[circumpolar stars](circumpolar%20star.md)}}. <!--SR:!2024-07-17,15,297!2024-07-18,16,297!2024-07-16,14,297!2024-07-13,11,277-->
 
-From {{the [Northern celestial sphere](Northern%20celestial%20sphere.md)}}, the [stars](star.md) moves {{[counterclockwise](clockwise.md) around [Polaris](Polaris.md), the North [pole star](pole%20star.md)}}. At the [North Pole](North%20Pole.md), all the [stars](star.md) can also be described as {{moving right as Polaris is around the [zenith](zenith.md)}}. <!--SR:!2024-07-02,4,277!2024-07-02,4,277!2024-07-02,4,277-->
+From {{the [Northern celestial sphere](Northern%20celestial%20sphere.md)}}, the [stars](star.md) moves {{[counterclockwise](clockwise.md) around [Polaris](Polaris.md), the North [pole star](pole%20star.md)}}. At the [North Pole](North%20Pole.md), all the [stars](star.md) can also be described as {{moving right as Polaris is around the [zenith](zenith.md)}}. <!--SR:!2024-07-14,12,277!2024-07-18,16,297!2024-07-14,12,277-->
 
-From {{the [Southern celestial sphere](Southern%20celestial%20sphere.md)}}, the [stars](star.md) moves {{[clockwise](clockwise.md) around [Sigma Octantis](Sigma%20Octantis.md), sometimes called the South [pole star](pole%20star.md)}}. At the [South Pole](South%20Pole.md), all the [stars](star.md) can also be described as {{moving left as Sigma Octantis is around the [zenith](zenith.md)}}. <!--SR:!2024-07-02,4,277!2024-07-02,4,270!2024-07-02,4,277-->
+From {{the [Southern celestial sphere](Southern%20celestial%20sphere.md)}}, the [stars](star.md) moves {{[clockwise](clockwise.md) around [Sigma Octantis](Sigma%20Octantis.md), sometimes called the South [pole star](pole%20star.md)}}. At the [South Pole](South%20Pole.md), all the [stars](star.md) can also be described as {{moving left as Sigma Octantis is around the [zenith](zenith.md)}}. <!--SR:!2024-07-04,2,257!2024-07-12,10,270!2024-07-18,16,297-->
 
-From {{anywhere on the [equator](equator.md)}}, the two [celestial poles](celestial%20pole.md) are {{on the horizon due [north](north.md) and [south](south.md), and appears fixed}}. The [stars](star.md) moves {{[westward](west.md), vertically from and into the [horizon](horizon.md)}}. <!--SR:!2024-07-02,4,277!2024-07-01,3,250!2024-07-02,4,277-->
+From {{anywhere on the [equator](equator.md)}}, the two [celestial poles](celestial%20pole.md) are {{on the horizon due [north](north.md) and [south](south.md), and appears fixed}}. The [stars](star.md) moves {{[westward](west.md), vertically from and into the [horizon](horizon.md)}}. <!--SR:!2024-07-11,9,277!2024-07-11,9,270!2024-07-11,9,277-->
 
-For anywhere {{in between the [equator](equator.md) and the [celestial poles](celestial%20pole.md)}}, the motion is {{tilted}} and can be {{interpolated from the above description using the current location's [latitude](latitude.md)}}. <!--SR:!2024-07-02,4,270!2024-07-02,4,270!2024-07-02,4,270-->
+For anywhere {{in between the [equator](equator.md) and the [celestial poles](celestial%20pole.md)}}, the motion is {{tilted}} and can be {{interpolated from the above description using the current location's [latitude](latitude.md)}}. <!--SR:!2024-07-17,15,290!2024-07-12,10,270!2024-07-19,17,290-->
 
 ## references
 

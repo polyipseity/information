@@ -11,7 +11,7 @@ tags:
 
 # multilayer perceptron
 
-A __multilayer perceptron__ (__MLP__) is a name for {{a modern [feedforward neural network](feedforward%20neural%20network.md)}}, consisting of {{fully connected neurons (each neuron in a layer is connected to every neuron in the next layer) with a nonlinear [activation function](activation%20function.md), organized in at least 3 layers}}. It is notable for being able to {{distinguish data that is not [linearly separable](linear%20separability.md)}} and {{approximate any [function](function%20(mathematics).md) from a certain [function space](function%20space.md), i.e. an _universal approximator_, by the [universal approximation theorem](universal%20approximation%20theorem.md)}}. <!--SR:!2024-08-05,39,290!2024-07-19,24,270!2024-07-02,14,290!2024-08-14,45,290-->
+A __multilayer perceptron__ (__MLP__) is a name for {{a modern [feedforward neural network](feedforward%20neural%20network.md)}}, consisting of {{fully connected neurons (each neuron in a layer is connected to every neuron in the next layer) with a nonlinear [activation function](activation%20function.md), organized in at least 3 layers}}. It is notable for being able to {{distinguish data that is not [linearly separable](linear%20separability.md)}} and {{approximate any [function](function%20(mathematics).md) from a certain [function space](function%20space.md), i.e. an _universal approximator_, by the [universal approximation theorem](universal%20approximation%20theorem.md)}}. <!--SR:!2024-08-05,39,290!2024-07-19,24,270!2024-08-26,55,310!2024-08-14,45,290-->
 
 ## references
 

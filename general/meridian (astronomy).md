@@ -9,11 +9,11 @@ tags:
 
 # meridian
 
-In [astronomy](astronomy.md), the __meridian__ is {{the [great circle](great%20circle.md) passing through the [celestial poles](celestial%20pole.md), as well as the [zenith](zenith.md) and [nadir](nadir.md) of an observer's location}}. Consequently, it contains {{also the [north](true%20north.md) and [south](south.md) points on the [horizon](horizon.md)}}, and it is [perpendicular](perpendicular.md) to {{the [celestial equator](celestial%20equator.md) and horizon}}. <!--SR:!2024-07-01,4,270!2024-07-01,4,270!2024-07-01,4,270-->
+In [astronomy](astronomy.md), the __meridian__ is {{the [great circle](great%20circle.md) passing through the [celestial poles](celestial%20pole.md), as well as the [zenith](zenith.md) and [nadir](nadir.md) of an observer's location}}. Consequently, it contains {{also the [north](true%20north.md) and [south](south.md) points on the [horizon](horizon.md)}}, and it is [perpendicular](perpendicular.md) to {{the [celestial equator](celestial%20equator.md) and horizon}}. <!--SR:!2024-07-12,10,270!2024-07-12,10,270!2024-07-11,9,270-->
 
 > [!tip] tips
 >
-> - [a.m., p.m.](12-hour%20clock.md), and the meridian ::: a.m. is from [Latin](Latin.md) _ante meridiem_, meaning "before midday". p.m. is from [Latin](Latin.md) _post meridiem_, meaning "after midday". <!--SR:!2024-07-01,4,270!2024-07-01,4,270-->
+> - [a.m., p.m.](12-hour%20clock.md), and the meridian ::: a.m. is from [Latin](Latin.md) _ante meridiem_, meaning "before midday". p.m. is from [Latin](Latin.md) _post meridiem_, meaning "after midday". <!--SR:!2024-07-18,16,290!2024-07-19,17,290-->
 
 ## references
 

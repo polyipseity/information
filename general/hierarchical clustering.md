@@ -103,7 +103,7 @@ return chain.from_iterable(await gather(
 
 - MISSQ, minimum increase of sum of squares::[Ward's method](Ward's%20method.md) <!--SR:!2025-02-17,239,335-->
 - UPGMC, unweighted centroid clustering::centroid linkage clustering <!--SR:!2025-01-02,200,315-->
-- maximum linkage clustering::[complete-linkage clustering](complete-linkage%20clustering.md) <!--SR:!2024-07-01,62,315-->
+- maximum linkage clustering::[complete-linkage clustering](complete-linkage%20clustering.md) <!--SR:!2025-03-28,269,335-->
 - WPGMC, weighted centroid clustering::median linkage clustering <!--SR:!2024-09-01,81,255-->
 - minimum linkage clustering, nearest neighbor technique::[single-linkage clustering](single-linkage%20clustering.md) <!--SR:!2025-03-21,265,335-->
 - [UPGMA](UPGMA.md), group average linkage clustering::unweighted average linkage clustering <!--SR:!2024-07-03,56,275-->
@@ -120,7 +120,7 @@ return chain.from_iterable(await gather(
 - [complete-linkage clustering](complete-linkage%20clustering.md)::$d(A, B) = \max_{a \in A, b \in B} d(a, b)$ <!--SR:!2025-03-06,252,335-->
 - median linkage clustering::$d(A \cup B, *) = d\left( \frac {m_A + m_B} 2, m_* \right)$, where $m_*$ is the [medoid](medoid.md) of the cluster $*$ <!--SR:!2024-09-10,100,275-->
 - [single-linkage clustering](single-linkage%20clustering.md)::$d(A, B) = \min_{a \in A, b \in B} d(a, b)$ <!--SR:!2025-02-23,243,335-->
-- unweighted average linkage clustering::$d(A, B) = \frac 1 {\lvert A \rvert \cdot \lvert B \rvert} \sum_{a \in A} \sum_{b \in B} d(a, b)$ <!--SR:!2024-07-02,50,255-->
+- unweighted average linkage clustering::$d(A, B) = \frac 1 {\lvert A \rvert \cdot \lvert B \rvert} \sum_{a \in A} \sum_{b \in B} d(a, b)$ <!--SR:!2024-11-06,127,255-->
 - weighted average linkage clustering::$d(A \cup B, *) = \frac {d(A, *) + d(B, *)} 2$ <!--SR:!2024-10-15,136,295-->
 
 <!--/pytextgen-->
@@ -153,7 +153,7 @@ The basic principle of divisive clustering was {{published as the DIANA (DIvisiv
 
 Initially, {{create a cluster that contain all observations}}. Find the cluster {{that has two or more items, and has the largest [diameter](diameter.md). Diameter of a cluster is the [distance](distance.md) between two furthest observations apart in the cluster}}. Then, in said cluster, {{find the observation that has the highest distance from the belonging cluster excluding the observation itself}}. Next, {{move the observation from said cluster to a new _splinter cluster_}}. Now, keep {{moving observations one by one from the old cluster to the new cluster}}. To choose the observation to be moved, {{calculate the _dissimilarity difference_ for each observation in the old cluster}}. The _dissimilarity difference_ of an observation in the old cluster is {{the distance of the observation to the old cluster excluding the observation itself, subtracted by the distance of the observation to the new cluster}}. Move the observation {{with the highest nonnegative _dissimilarity difference_ (arbitrarily choose one if there are multiple satisfying observations)}}. If all _dissimilarity differences_ are negative, {{stop moving the observations}}. If there is only one item left, {{keep the cluster, considering that the _dissimilarity difference_ can no longer be defined}}. Repeat the above steps {{until you reach the desirable number of clusters}}. <!--SR:!2025-03-15,260,335!2024-10-07,109,255!2024-09-29,101,255!2024-09-28,122,295!2024-10-27,121,255!2024-12-20,174,275!2024-10-06,106,255!2024-09-01,93,275!2024-09-13,110,295!2024-10-14,111,255!2024-08-17,82,275-->
 
-Alternatively, repeat the above steps until {{the number of clusters equals the number of observations}}. Construct {{a [dendrogram](dendrogram.md) by letting the _splinter cluster_ and the updated old cluster be children of the old cluster in the above steps}}. The dendrogram splits are ordered by {{the order of splitting}}. One can {{split the dendrogram at any height to get the desirable number of clusters}}. <!--SR:!2024-07-01,49,255!2024-07-21,64,275!2024-11-01,138,275!2024-08-23,86,294-->
+Alternatively, repeat the above steps until {{the number of clusters equals the number of observations}}. Construct {{a [dendrogram](dendrogram.md) by letting the _splinter cluster_ and the updated old cluster be children of the old cluster in the above steps}}. The dendrogram splits are ordered by {{the order of splitting}}. One can {{split the dendrogram at any height to get the desirable number of clusters}}. <!--SR:!2024-12-23,174,275!2024-07-21,64,275!2024-11-01,138,275!2024-08-23,86,294-->
 
 ### monothetic clustering
 

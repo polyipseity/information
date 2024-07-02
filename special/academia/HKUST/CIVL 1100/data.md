@@ -51,7 +51,7 @@ See [Burj Al Arab](../../../../general/Burj%20Al%20Arab.md).
 
 See [Burj Khalifa](../../../../general/Burj%20Khalifa.md).
 
-- description ::: skyscraper in Dubai, United Arab Emirates <!--SR:!2024-07-01,47,297!2024-08-15,96,374-->
+- description ::: skyscraper in Dubai, United Arab Emirates <!--SR:!2024-11-18,139,297!2024-08-15,96,374-->
 - height ::: architectural: 828 m, tip: 829.8 m, top floor: 585.4 m <!--SR:!2024-07-12,49,281!2024-08-24,102,377-->
 - image ::: ![Burj Khalifa image](../../../../archives/Wikimedia%20Commons/Burj%20Khalifa.jpg) <!--SR:!2024-08-18,86,380!2024-07-18,55,360-->
 - [structural system](../../../../general/structural%20system.md) ::: aluminum, reinforced concrete, steel<!-- flashcard e75e9185-3454-4c54-a9c9-5a05c6b26732 --> <!--SR:!2024-09-03,92,321!2025-02-01,232,330-->
@@ -85,7 +85,7 @@ See [Central Plaza (Hong Kong)](../../../../general/Central%20Plaza%20(Hong%20Ko
 See [Channel Tunnel](../../../../general/Channel%20Tunnel.md).
 
 - completion time ::: 1994 <!--SR:!2024-07-09,33,356!2024-10-10,110,376-->
-- rail tunnel length ::: 50.5 km (37.9 km underseas) <!--SR:!2024-07-02,26,316!2024-10-20,125,396-->
+- rail tunnel length ::: 50.5 km (37.9 km underseas) <!--SR:!2024-07-15,13,296!2024-10-20,125,396-->
 
 ## China International Trust and Investment Plaza
 
@@ -101,7 +101,7 @@ See [CITIC Plaza](../../../../general/CITIC%20Plaza.md).
 See [Colosseum](../../../../general/Colosseum.md).
 
 - base widths ::: length: 189 m, width: 156 m <!--SR:!2024-07-14,40,336!2024-10-12,112,376-->
-- construction period ::: AD 72 to AD 80, 8 years <!--SR:!2024-07-02,3,256!2024-12-11,168,396-->
+- construction period ::: AD 72 to AD 80, 8 years <!--SR:!2024-07-12,10,256!2024-12-11,168,396-->
 - description ::: elliptical amphitheater in the center of Rome <!--SR:!2024-08-18,72,376!2024-10-13,113,376-->
 - geographic location ::: Rome <!--SR:!2024-10-13,119,396!2024-10-29,133,396-->
 - height ::: 48 m (4 storeys) <!--SR:!2024-07-08,8,296!2024-11-11,143,396-->
@@ -143,7 +143,7 @@ See [Great Pyramid of Giza](../../../../general/Great%20Pyramid%20of%20Giza.md).
 
 See [Great Wall of China](../../../../general/Great%20Wall%20of%20China.md).
 
-- component ::: fortress, horse track, pass, shelter, wall, watch tower <!--SR:!2024-07-02,27,316!2024-11-01,135,396-->
+- component ::: fortress, horse track, pass, shelter, wall, watch tower <!--SR:!2024-09-26,86,316!2024-11-01,135,396-->
 - construction period ::: 220 BC under Qin Shi Huang, and continued up to the Ming dynasty (1368–1644) <!--SR:!2024-08-04,57,356!2024-12-01,159,396-->
 - geographic locations ::: begins in the east at Shanhaiguan (山海關), Hebei; and ends in the west at Jiayuguan (嘉峪關), Gansu <!--SR:!2024-08-05,57,356!2024-10-14,114,376-->
 - length ::: 21196.18 km <!--SR:!2024-07-30,41,316!2024-11-15,147,396-->
@@ -152,7 +152,7 @@ See [Great Wall of China](../../../../general/Great%20Wall%20of%20China.md).
 
 See [HSBC Building (Hong Kong)](HSBC%20Building%20(Hong%20Kong).md).
 
-- description ::: headquarters building of [The Hongkong and Shanghai Banking Corporation](HSBC%20(Hong%20Kong).md) <!--SR:!2024-07-01,56,354!2025-03-05,256,330-->
+- description ::: headquarters building of [The Hongkong and Shanghai Banking Corporation](HSBC%20(Hong%20Kong).md) <!--SR:!2025-01-15,197,354!2025-03-05,256,330-->
 - height ::: roof: 178.8 m <!--SR:!2024-07-12,47,281!2025-05-07,325,350-->
 - image ::: ![HSBC Main Building image](../../../../archives/Wikimedia%20Commons/HK%20HSBC%20Main%20Building%202008%20(cropped).jpg) <!--SR:!2024-07-26,63,360!2024-09-03,100,380-->
 - [structural system](../../../../general/structural%20system.md) ::: steel [suspended structure](../../../../general/suspended%20structure.md)<!-- flashcard b5c46b64-11cf-4605-a97e-3a159f12185f --> <!--SR:!2024-10-21,130,321!2024-08-15,83,381-->
@@ -181,7 +181,7 @@ See [Hoover Dam](../../../../general/Hoover%20Dam.md).
 - [dam type](../../../../general/dam.md#types) ::: concrete gravity-arch <!--SR:!2024-09-03,94,320!2024-08-16,97,375-->
 - height ::: 221.4 m <!--SR:!2024-09-29,95,281!2025-02-27,247,367-->
 - image ::: ![Hoover Dam image](../../../../archives/Wikimedia%20Commons/Ansel%20Adams%20-%20National%20Archives%2079-AAB-01.jpg) <!--SR:!2024-08-09,77,360!2024-08-31,97,380-->
-- length ::: 379 m <!--SR:!2024-07-02,25,261!2025-02-11,235,370-->
+- length ::: 379 m <!--SR:!2024-07-16,14,241!2025-02-11,235,370-->
 
 ## International Commerce Centre
 
@@ -289,7 +289,7 @@ See [Thames Barrier](../../../../general/Thames%20Barrier.md).
 - [dam type](../../../../general/dam.md#types) ::: [barrage](barrage%20(dam).md) <!--SR:!2024-10-21,135,341!2024-08-03,84,377-->
 - height ::: 20.1 m <!--SR:!2024-07-17,18,261!2024-08-30,98,380-->
 - image ::: ![Thames Barrier image](../../../../archives/Wikimedia%20Commons/Thames%20Barrier%2003.jpg) <!--SR:!2024-07-03,49,340!2024-08-24,92,380-->
-- length ::: 520 m <!--SR:!2024-07-02,39,280!2024-12-06,196,330-->
+- length ::: 520 m <!--SR:!2024-10-17,107,280!2024-12-06,196,330-->
 
 ## Tsing Ma Bridge
 

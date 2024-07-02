@@ -18,10 +18,10 @@ The profitability framework is {{an (extreme) abstraction of an _[income stateme
 
 {{$$\begin{aligned} \text{profit} & = \text{revenue} - \text{costs} \\ & = \left(\sum \text{price}_i \cdot \text{units}_i \right) - \left(\text{variable cost} + \text{fixed cost} \right) \\ & = \left(\sum \text{price}_i \cdot \text{units}_i \right) - \left(\left(\sum \text{cost}_i \cdot \text{units}_i \right) + \text{fixed cost} \right) \end{aligned}$$}} <!--SR:!2024-07-18,22,250-->
 
-Revenues may be {{one-time or recurring}}, such as {{asset sales and support offering}}. Variable costs are {{per unit}}, such as {{outsourced production costs, packaging costs, sales commission, and shipping costs}}. Fixed costs are {{independent of # units sold}}, such as {{bank interests, _fixed_ salaries, rent, subscribed services, and utility}}. <!--SR:!2024-07-04,16,290!2024-07-01,13,290!2024-07-01,13,290!2024-07-18,21,270!2024-07-03,15,290!2024-07-14,19,250-->
+Revenues may be {{one-time or recurring}}, such as {{asset sales and support offering}}. Variable costs are {{per unit}}, such as {{outsourced production costs, packaging costs, sales commission, and shipping costs}}. Fixed costs are {{independent of # units sold}}, such as {{bank interests, _fixed_ salaries, rent, subscribed services, and utility}}. <!--SR:!2024-07-04,16,290!2024-08-19,48,310!2024-08-07,36,290!2024-07-18,21,270!2024-07-03,15,290!2024-07-14,19,250-->
 
 ## usage
 
 Using the profitability framework, we can {{find levers for profit growth}}. <!--SR:!2024-07-05,17,290-->
 
-The variable profit and variable cost of profitability framework can be visualized {{using a table}}. The table list out {{a product segment for each row with the total as the final additional row, and the columns are revenue, units, revenue per unit, cost per unit, profit per unit, and net profit}}. <!--SR:!2024-07-02,14,290!2024-07-16,20,250-->
+The variable profit and variable cost of profitability framework can be visualized {{using a table}}. The table list out {{a product segment for each row with the total as the final additional row, and the columns are revenue, units, revenue per unit, cost per unit, profit per unit, and net profit}}. <!--SR:!2024-08-31,60,310!2024-07-16,20,250-->

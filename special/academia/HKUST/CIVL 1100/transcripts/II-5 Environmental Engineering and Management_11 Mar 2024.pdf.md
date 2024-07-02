@@ -63,7 +63,7 @@ return await memorize_seq(
 - _(begin)_→:::←air pollution <!--SR:!2024-07-29,53,310!2024-07-28,52,310-->
 - air pollution→:::←land contamination <!--SR:!2024-07-03,30,270!2024-08-03,58,310-->
 - land contamination→:::←noise pollution <!--SR:!2024-07-09,34,290!2024-09-03,68,270-->
-- noise pollution→:::←solid waste disposal <!--SR:!2024-07-02,29,270!2024-07-15,42,290-->
+- noise pollution→:::←solid waste disposal <!--SR:!2024-09-16,76,270!2024-07-15,42,290-->
 - solid waste disposal→:::←water pollution <!--SR:!2024-07-25,48,290!2024-07-08,18,230-->
 - water pollution→:::←_(end)_ <!--SR:!2024-07-24,49,310!2024-07-17,43,290-->
 
@@ -98,11 +98,11 @@ return await memorize_seq(
 
 <!--pytextgen generate section="a92d"--><!-- The following content is generated at 2024-06-09T06:29:24.057662+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←(Cap. 311) Air Pollution Control Ordinance <!--SR:!2024-07-01,4,275!2024-07-07,19,335-->
+- _(begin)_→:::←(Cap. 311) Air Pollution Control Ordinance <!--SR:!2024-07-14,12,275!2024-07-07,19,335-->
 - (Cap. 311) Air Pollution Control Ordinance→:::←(Cap. 354) Waste Disposal Ordinance <!--SR:!2024-07-14,19,295!2024-07-07,19,335-->
 - (Cap. 354) Waste Disposal Ordinance→:::←(Cap. 358) Water Pollution Control Ordinance <!--SR:!2024-07-15,20,295!2024-07-07,19,335-->
 - (Cap. 358) Water Pollution Control Ordinance→:::←(Cap. 400) Noise Pollution Control Ordinance <!--SR:!2024-07-03,5,275!2024-07-22,26,295-->
-- (Cap. 400) Noise Pollution Control Ordinance→:::←(Cap. 499) Environmental Impact Ordinance <!--SR:!2024-07-05,6,295!2024-07-01,14,315-->
+- (Cap. 400) Noise Pollution Control Ordinance→:::←(Cap. 499) Environmental Impact Ordinance <!--SR:!2024-07-05,6,295!2024-08-15,44,315-->
 - (Cap. 499) Environmental Impact Ordinance→:::←_(end)_ <!--SR:!2024-07-07,19,335!2024-07-07,19,335-->
 
 <!--/pytextgen-->
@@ -178,7 +178,7 @@ Is it a serious problem in Hong Kong?
 Daily Domestic Waste Generation Rates per Capita Compared
 
 - daily domestic waste generation rate per capita (DPWGR per capita)
-  - DPWGR per capita in Hong Kong ::: 1.36 kg/person/day, recycling rate: 37% <!--SR:!2024-07-02,29,270!2024-08-02,57,310-->
+  - DPWGR per capita in Hong Kong ::: 1.36 kg/person/day, recycling rate: 37% <!--SR:!2024-09-17,77,270!2024-08-02,57,310-->
   - DPWGR per capita other locations ::: Metro Tokyo: 0.77 kg/person/day, Seoul City: 0.95 kg/person/day, Taipei city: 1.00 kg/person/day <!--SR:!2024-07-26,48,290!2024-08-05,60,310-->
 
 ## page 10
@@ -191,7 +191,7 @@ Landfills in Hong Kong
 
 Sustainable Waste Management
 
-- sustainable waste management triangle ::: top: waste avoidance + 3Rs, left: incineration (waste-to-energy), right: landfill (methane (CH<sub>4</sub>) to energy) <!--SR:!2024-07-02,31,290!2024-07-02,31,290-->
+- sustainable waste management triangle ::: top: waste avoidance + 3Rs, left: incineration (waste-to-energy), right: landfill (methane (CH<sub>4</sub>) to energy) <!--SR:!2024-09-29,89,290!2024-09-28,88,290-->
   - sustainable waste management triangle arrows ::: top -> left, right; left -> right <!--SR:!2024-07-23,48,310!2024-07-23,49,290-->
 
 ## page 12
@@ -246,8 +246,8 @@ Hong Kong Harbour Area Treatment Scheme Stage I (HATS)
   - HATS Stage 1 scheme period ::: 1994 to 2001 <!--SR:!2024-07-16,42,290!2024-07-04,30,270-->
   - HATS Stage 1 scheme cost ::: HK$8.2 billion <!--SR:!2024-07-10,35,290!2024-07-08,31,270-->
   - HATS Stage 1 details ::: Stonecutters Island Sewage Treatment Works (SCISTW), sewage tunnel of 23.6 km, upgrade 8 preliminary treatment works (PTWs) <!--SR:!2024-07-09,35,270!2024-08-04,58,310-->
-  - HATS Stage 1 geographic coverage ::: collect sewage from Kowloon, Kwai Tsing, Tseung Kwan O, and north-eastern Hong Kong Island to SCISTW <!--SR:!2024-07-01,28,270!2024-07-12,37,290-->
-  - HATS Stage 1 coverage in numbers ::: 3.5 million people, 75% from harbour area <!--SR:!2024-07-21,46,290!2024-07-01,30,290-->
+  - HATS Stage 1 geographic coverage ::: collect sewage from Kowloon, Kwai Tsing, Tseung Kwan O, and north-eastern Hong Kong Island to SCISTW <!--SR:!2024-09-15,75,270!2024-07-12,37,290-->
+  - HATS Stage 1 coverage in numbers ::: 3.5 million people, 75% from harbour area <!--SR:!2024-07-21,46,290!2024-09-26,86,290-->
   - HATS Stage 1 capacities :::: current ~1.4M m<sup>3</sup>/d, max: 1.7M m<sup>3</sup>/d <!--SR:!2024-07-13,40,290!2024-07-16,43,290-->
 
 ## page 18
@@ -346,7 +346,7 @@ Indoor Air Quality
 
 - sick building syndrome ::: fatigue, headache, nasal congestion <!--SR:!2024-08-07,61,310!2024-07-26,51,310-->
 - common indoor air pollutant ::: 12 parameters <!--SR:!2024-07-13,37,290!2024-08-10,63,310-->
-  - common indoor air pollutant examples ::: carbon dioxide (CO<sub>2</sub>), carbon monoxide (CO), respirable suspended particulate (RSP/PM<sub>10</sub>) <!--SR:!2024-07-01,28,270!2024-07-25,50,310-->
+  - common indoor air pollutant examples ::: carbon dioxide (CO<sub>2</sub>), carbon monoxide (CO), respirable suspended particulate (RSP/PM<sub>10</sub>) <!--SR:!2024-09-20,80,270!2024-07-25,50,310-->
     - carbon dioxide limits ::: excellent: < 800 ppmv; good: < 1000 ppmv <!--SR:!2024-07-03,30,270!2024-07-24,49,310-->
     - carbon monoxide limits ::: excellent: < 2000 μg/m<sup>3</sup>, < 1.7 ppmv; good: < 10000 μg/m<sup>3</sup>, < 8.7 ppmv <!--SR:!2024-08-12,43,250!2024-08-02,56,310-->
     - respirable suspended particulate limits ::: excellent: < 20 μg/m<sup>3</sup>; good: < 180 μg/m<sup>3</sup> <!--SR:!2024-07-07,32,270!2024-07-12,39,290-->
@@ -393,7 +393,7 @@ return await memorize_seq(
 - carbon dioxide (CO<sub>2</sub>)→:::←hydroflurocarbons (HFCs) <!--SR:!2024-07-22,34,230!2024-07-04,31,270-->
 - hydroflurocarbons (HFCs)→:::←methane (CH<sub>4</sub>) <!--SR:!2024-07-15,37,270!2024-07-14,31,230-->
 - methane (CH<sub>4</sub>)→:::←nitrous oxide (N<sub>2</sub>O) <!--SR:!2024-07-24,36,250!2024-07-26,47,290-->
-- nitrous oxide (N<sub>2</sub>O)→:::←perflurocarbons (PFCs) <!--SR:!2024-07-02,10,230!2024-07-03,4,190-->
+- nitrous oxide (N<sub>2</sub>O)→:::←perflurocarbons (PFCs) <!--SR:!2024-07-26,24,230!2024-07-03,4,190-->
 - perflurocarbons (PFCs)→:::←sulfur hexafluoride (SF<sub>6</sub>) <!--SR:!2024-07-29,50,290!2024-09-06,69,270-->
 - sulfur hexafluoride (SF<sub>6</sub>)→:::←_(end)_ <!--SR:!2024-08-09,62,310!2024-08-20,72,310-->
 

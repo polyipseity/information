@@ -14,11 +14,11 @@ tags:
 # import ../../tools/utility.py.md
 ```
 
-It is similar to a {{[customer journey map](customer%20journey%20map.md)}}. <!--SR:!2024-07-02,52,310-->
+It is similar to a {{[customer journey map](customer%20journey%20map.md)}}. <!--SR:!2024-12-09,160,310-->
 
 ## 6 stages of buyer experience cycle
 
-The {{6 stages of buyer experience}} cycle are the {{map column headers}}. <!--SR:!2024-08-15,79,279!2024-07-01,48,290-->
+The {{6 stages of buyer experience}} cycle are the {{map column headers}}. <!--SR:!2024-08-15,79,279!2024-11-17,138,290-->
 
 ```Python
 # pytextgen generate data

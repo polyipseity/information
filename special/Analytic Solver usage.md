@@ -19,7 +19,7 @@ Eventually you should figure it out with online searching... Also, get familiar 
 
 ### category reduction
 
-There are {{some restrictions on the distinct values of an attribute}} depending on the XLMiner edition. One way to resolve this is {{merging some values into the same value}}. Funny enough, the category reduction, which is designed for this workload, also has {{restrictions on the distinct values depending on the XLMiner edition}}. So {{multiple category reductions on a subset of distinct values}} may be needed if there are too many distinct values. <!--SR:!2024-07-06,18,315!2024-07-06,18,315!2024-07-06,18,315!2024-07-01,14,295-->
+There are {{some restrictions on the distinct values of an attribute}} depending on the XLMiner edition. One way to resolve this is {{merging some values into the same value}}. Funny enough, the category reduction, which is designed for this workload, also has {{restrictions on the distinct values depending on the XLMiner edition}}. So {{multiple category reductions on a subset of distinct values}} may be needed if there are too many distinct values. <!--SR:!2024-07-06,18,315!2024-07-06,18,315!2024-07-06,18,315!2024-09-01,61,315-->
 
 XLMiner offers {{2 ways}} to reduce categories: {{automatically by frequency and manually}}. The first option {{reduces the values with the smallest frequencies into one value and leave the rest intact}}. The second option {{reduces the values using a user-specified table mapping current values to new values}}. <!--SR:!2024-07-06,18,315!2024-08-20,52,315!2024-07-06,18,315!2024-07-06,18,315-->
 
@@ -43,7 +43,7 @@ For inputting item lists, XLMiner provides 2 input formats: {{binary matrix and 
 
 ### partitioning
 
-XLMiner can partition the dataset into {{3 datasets}}: {{training set, validation set, and test set}}. <!--SR:!2024-07-06,18,315!2024-07-01,14,295-->
+XLMiner can partition the dataset into {{3 datasets}}: {{training set, validation set, and test set}}. <!--SR:!2024-07-06,18,315!2024-08-15,44,295-->
 
 ### random seed
 
@@ -55,5 +55,4 @@ The seed option present in various interfaces is {{simply the random seed to gen
 
 ### rescaling
 
-XLMiner can rescale the dataset {{in 4 ways}}: {{standardization, normalization, adjusted normalization, and unit-norm}}. The first option {{replaces the values with their standard scores}}.
- <!--SR:!2024-07-06,18,315!2024-07-06,18,315!2024-07-01,14,295-->
+XLMiner can rescale the dataset {{in 4 ways}}: {{standardization, normalization, adjusted normalization, and unit-norm}}. The first option {{replaces the values with their standard scores}}. <!--SR:!2024-07-06,18,315!2024-07-06,18,315!2024-08-10,39,295-->

@@ -13,7 +13,7 @@ tags:
 
 ### roller support
 
-A roller support prevents {{vertical (relative to a support on the ground) translation}}, but not {{horizontal or lateral translation and rotation}}. Its reaction force is {{a single linear force perpendicular to the surface}}. <!--SR:!2024-07-09,40,290!2024-07-13,43,290!2024-07-01,33,290-->
+A roller support prevents {{vertical (relative to a support on the ground) translation}}, but not {{horizontal or lateral translation and rotation}}. Its reaction force is {{a single linear force perpendicular to the surface}}. <!--SR:!2024-07-09,40,290!2024-07-13,43,290!2024-10-05,95,290-->
 
 A roller support is drawn as {{a circle or a triangle with two or more circles underneath}}. <!--SR:!2024-07-15,33,290-->
 
@@ -25,7 +25,7 @@ A pinned support prevents {{translation in any direction}}, but not {{rotation}}
 
 A pinned support is drawn as {{a triangle or a square with a circle in the middle}}. <!--SR:!2024-07-06,38,290-->
 
-Examples include {{a table leg pinned by a single screw only, joints of a truss}}. <!--SR:!2024-07-01,31,270-->
+Examples include {{a table leg pinned by a single screw only, joints of a truss}}. <!--SR:!2024-09-23,83,270-->
 
 ### fixed support
 

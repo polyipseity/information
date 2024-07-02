@@ -9,7 +9,7 @@ tags:
 
 # constellation
 
-A __constellation__ is {{an area on the [celestial sphere](celestial%20sphere.md) in which a group of visible [stars](star.md) forms [a perceived pattern](asterism%20(astronomy).md) or outline}}, typically {{representing an animal, mythological subject, or inanimate object}}. <!--SR:!2024-07-01,4,270!2024-07-01,4,270-->
+A __constellation__ is {{an area on the [celestial sphere](celestial%20sphere.md) in which a group of visible [stars](star.md) forms [a perceived pattern](asterism%20(astronomy).md) or outline}}, typically {{representing an animal, mythological subject, or inanimate object}}. <!--SR:!2024-07-18,16,290!2024-07-14,12,270-->
 
 ## references
 

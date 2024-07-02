@@ -12,7 +12,7 @@ tags:
 
 ### _u_ not satisfying conditions
 
-The substituting $u$ {{should be [differentiable](../general/differentiable%20function.md) and $u'$ should be [integrable](../general/integral.md)}}. An example is {{substituting $u = \frac 1 x$ into $\int_{-1}^1 \! \mathrm{d}x$}}: <!--SR:!2024-07-02,52,290!2024-10-02,122,310-->
+The substituting $u$ {{should be [differentiable](../general/differentiable%20function.md) and $u'$ should be [integrable](../general/integral.md)}}. An example is {{substituting $u = \frac 1 x$ into $\int_{-1}^1 \! \mathrm{d}x$}}: <!--SR:!2024-12-01,152,290!2024-10-02,122,310-->
 
 $$\begin{aligned}
 & \phantom{=} \int_{-1}^1 \! \mathrm{d}x \\

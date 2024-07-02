@@ -27,7 +27,7 @@ This gives us the table of conditional of probabilities of _y_ given _x_, with {
 | __P(_y_=1&mid;_x_)__ | 2/9       | 2/9       |
 | __sum__              | 6/9       | 3/9       |
 
-Swapping {{the row and column headers is also possible}}: <!--SR:!2024-07-02,14,290-->
+Swapping {{the row and column headers is also possible}}: <!--SR:!2024-08-26,55,310-->
 
 |           | __P(_y_=0&mid;_x_)__ | __P(_y_=1&mid;_x_)__ | __sum__ |
 | --------- |:--------------------:|:--------------------:|:-------:|
