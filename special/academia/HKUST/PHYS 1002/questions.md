@@ -104,3 +104,15 @@ The parenthesized text at the beginning of of each question is {{the location th
 >
 > - solution: {{3}}
 > - steps: {{The planet is in retrograde motion. Hence, the number of sidereal days per orbital period is $42 - 1 = 41\text{ sidereal days}$. Thus each sidereal day is $\frac {1 / 41} {1 / 42} = \frac {42} {41}\text{ solar days}$.}} <!--SR:!2024-07-11,9,277!2024-07-12,10,277-->
+
+## 2024-07-02
+
+> Q1. (lecture) What would seasons be like for a planet with 90 degree axial tilt?
+>
+> - solution: {{There would be no seasons. Instead, every location is daytime for half the orbital period and nighttime for the other half, like the north and south pole on Earth. Likely unliveable.}}
+
+<!-- markdownlint MD028 -->
+
+> Q2. (lecture) When will the Sun rise exactly due east and set exactly due west?
+>
+> - solution: {{During the equinoxes.}}
