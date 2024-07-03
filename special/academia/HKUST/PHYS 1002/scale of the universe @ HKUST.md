@@ -28,7 +28,7 @@ return await memorize_seq(
   __env__.cwf_sects("eec3", "dbad"),
   """
 (center) [Sun](../../../../general/Sun.md): radius of 7 cm (large grapefruit), distance of 0 m
-[Earth](../../../../general/Earth.md): radius of 0.06 cm (ballpoint pen pin), distance of 15 m (road surrounding the sundial)
+[Earth](../../../../general/Earth.md): radius of 0.06 cm (ballpoint pen pin), distance of 15 m (road surrounding the sundial); [Moon](../../../../general/Moon.md): radius of 0.02 cm, distance from Earth of 3.8 cm
 [Mars](../../../../general/Mars.md): radius of 0.03 cm, distance of 23 m
 [Jupiter](../../../../general/Jupiter.md): radius of 0.7 cm, distance of 78 m (atrium center)
 [Saturn](../../../../general/Saturn.md): radius of 0.6 cm, distance of 142 m
@@ -41,10 +41,10 @@ return await memorize_seq(
 )
 ```
 
-<!--pytextgen generate section="eec3"--><!-- The following content is generated at 2024-06-26T23:23:57.458132+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="eec3"--><!-- The following content is generated at 2024-07-03T20:50:02.459274+08:00. Any edits will be overridden! -->
 
 > 1. (center) [Sun](../../../../general/Sun.md): radius of 7 cm (large grapefruit), distance of 0 m
-> 2. [Earth](../../../../general/Earth.md): radius of 0.06 cm (ballpoint pen pin), distance of 15 m (road surrounding the sundial)
+> 2. [Earth](../../../../general/Earth.md): radius of 0.06 cm (ballpoint pen pin), distance of 15 m (road surrounding the sundial); [Moon](../../../../general/Moon.md): radius of 0.02 cm, distance from Earth of 3.8 cm
 > 3. [Mars](../../../../general/Mars.md): radius of 0.03 cm, distance of 23 m
 > 4. [Jupiter](../../../../general/Jupiter.md): radius of 0.7 cm, distance of 78 m (atrium center)
 > 5. [Saturn](../../../../general/Saturn.md): radius of 0.6 cm, distance of 142 m
@@ -56,11 +56,11 @@ return await memorize_seq(
 
 <!--/pytextgen-->
 
-<!--pytextgen generate section="dbad"--><!-- The following content is generated at 2024-06-26T23:23:57.408849+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="dbad"--><!-- The following content is generated at 2024-07-03T20:50:02.445266+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←(center) [Sun](../../../../general/Sun.md): radius of 7 cm (large grapefruit), distance of 0 m
-- (center) [Sun](../../../../general/Sun.md): radius of 7 cm (large grapefruit), distance of 0 m→:::←[Earth](../../../../general/Earth.md): radius of 0.06 cm (ballpoint pen pin), distance of 15 m (road surrounding the sundial)
-- [Earth](../../../../general/Earth.md): radius of 0.06 cm (ballpoint pen pin), distance of 15 m (road surrounding the sundial)→:::←[Mars](../../../../general/Mars.md): radius of 0.03 cm, distance of 23 m
+- (center) [Sun](../../../../general/Sun.md): radius of 7 cm (large grapefruit), distance of 0 m→:::←[Earth](../../../../general/Earth.md): radius of 0.06 cm (ballpoint pen pin), distance of 15 m (road surrounding the sundial); [Moon](../../../../general/Moon.md): radius of 0.02 cm, distance from Earth of 3.8 cm
+- [Earth](../../../../general/Earth.md): radius of 0.06 cm (ballpoint pen pin), distance of 15 m (road surrounding the sundial); [Moon](../../../../general/Moon.md): radius of 0.02 cm, distance from Earth of 3.8 cm→:::←[Mars](../../../../general/Mars.md): radius of 0.03 cm, distance of 23 m
 - [Mars](../../../../general/Mars.md): radius of 0.03 cm, distance of 23 m→:::←[Jupiter](../../../../general/Jupiter.md): radius of 0.7 cm, distance of 78 m (atrium center)
 - [Jupiter](../../../../general/Jupiter.md): radius of 0.7 cm, distance of 78 m (atrium center)→:::←[Saturn](../../../../general/Saturn.md): radius of 0.6 cm, distance of 142 m
 - [Saturn](../../../../general/Saturn.md): radius of 0.6 cm, distance of 142 m→:::←[Uranus](../../../../general/Uranus.md): radius of 0.25 cm, distance of 287 m
