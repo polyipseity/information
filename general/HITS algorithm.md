@@ -99,7 +99,7 @@ Notice that both iterations involve {{left multiplying the hub vector by $\mathb
 
 The authority or hub vector can be normalized by {{dividing the vector by its length ([norm](norm%20(mathematics).md))}}. Afterwards, the length {{of the vector will be 1}}.
 
-The length is {{usually defined as the [taxicab norm](norm%20(mathematics).md#taxicab%20norm%20or%20Manhattan%20norm) (_p_ = 1) or the conventional [Euclidean norm](norm%20(mathematics).md#Euclidean%20norm) (_p_ = 2)}}. In the former, length is {{the sum of absolute values of vector elements}}. In the latter, length is {{the sum of squares of vector elements}}. Both are {{generalized by the [_p_-norm](norm%20(mathematics).md#_p_-norm)}}: {{$$\lVert \mathbf{x} \rVert_p := \left(\sum_{i = 1}^n \lvert x_i \rvert^p \right)^{\frac 1 p}$$}}.
+The length is {{usually defined as the [taxicab norm](norm%20(mathematics).md#taxicab%20norm%20or%20Manhattan%20norm) (_p_ = 1) or the conventional [Euclidean norm](norm%20(mathematics).md#Euclidean%20norm) (_p_ = 2)}}. In the former, length is {{the sum of absolute values of vector elements}}. In the latter, length is {{the square root of sum of squares of vector elements}}. Both are {{generalized by the [_p_-norm](norm%20(mathematics).md#_p_-norm)}}: {{$$\lVert \mathbf{x} \rVert_p := \left(\sum_{i = 1}^n \lvert x_i \rvert^p \right)^{\frac 1 p}$$}}.
 
 When using the taxicab norm, some may also choose to {{normalize the vector length to the number of pages _n_ instead of 1}}, which mathematically is {{multiplying the above normalized vector by _n_}}.
 
