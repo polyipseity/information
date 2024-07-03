@@ -219,14 +219,14 @@ The content is in teaching order.
   - equinox etymology ::: equi "equal" + nox "night"
   - equinox names ::: spring/vernal equinox, fall/autumnal equinox, March equinox, September equinox
     - spring/vernal equinox, fall/autumnal equinox vs. [March equinox](../../../../general/March%20equinox.md), [September equinox](../../../../general/September%20equinox.md) ::: The former depends on the hemisphere while the latter does not. For the Northern hemisphere, spring/vernal equinox is March equinox and fall/autumnal equinox is September equinox. This is reversed for the Southern hemisphere.
-  - March equinox date ::: March 21/22 (19–21)
-  - September equinox date ::: September 22/23 (21–24)
+  - March equinox date ::: March 21/22@UT+08 (19–21@UT)
+  - September equinox date ::: September 22/23@UT+08 (21–24@UT)
 - [solstice](../../../../general/solstice.md) ::: Axis tilt is at the largest angle with regards to the Sun. The Sun is farthest away from the celestial equator on the celestial sphere. One hemisphere receives more sunlight than the other.
   - solstice etymology ::: sol "sun" + stice "stopped", "stationary"
   - solstice names ::: summer solstice, winter solstice, June solstice, December solstice
     - [summer solstice](../../../../general/summer%20solstice.md), [winter solstice](../../../../winter%20solstice.md) vs. [June solstice](../../../../general/June%20solstice.md), [December solstice](../../../../general/December%20solstice.md) ::: The former depends on the hemisphere while the latter does not. For the Northern hemisphere, summer solstice is June solstice and winter solstice is December solstice. This is reversed for the Southern hemisphere.
-  - June solstice date ::: June 21/22 (20–22)
-  - December solstice date ::: December 21/22 (20–22)
+  - June solstice date ::: June 21/22@UT+08 (20–22@UT)
+  - December solstice date ::: December 21/22@UT+08 (20–22@UT)
 - [sun path](../../../../general/sun%20path.md) ::: Identify today's Sun position on the ecliptic. Then draw a circle passing through that position and parallel to the celestial equator. This is the path the Sun takes on that day. According to the ecliptic, the Sun position oscillates around the celestial equator _over a year_. Then one can see how the path the Sun takes _over a day_ oscillates over a year. By this, one can also see how altitude of the Sun and daytime length change.
   - sun path at polar regions ::: On some days, the circle over a day does not go below or above the horizon.
   - sun path at tropics ::: The Sun is not at the highest altitude on the celestial sphere for both solstices, unlike locations at temperate latitudes. On the equator, the Sun is at the highest altitude during the equinoxes instead.
@@ -236,8 +236,9 @@ The content is in teaching order.
   - [Tropic of Capricorn § name](../../../../general/Tropic%20of%20Capricorn.md#name) ::: It was named after the constellation Capricorn during last centuries BCE, as the Sun was there on the December solstice. Due to westward precession of the equinoxes, this is no longer the case. The current constellation is Sagittarius.
 - [Arctic Circle](../../../../general/Arctic%20Circle.md) ::: About 66°33′50.0″ north of the equator. The southernmost altitude at which the Sun does not set for at least 24 continuous hours per year.
 - [Antarctic Circle](../../../../general/Antarctic%20Circle.md) ::: About 66°33′50.0″ south of the equator. The northernmost altitude at which the Sun does not set for at least 24 continuous hours per year.
-- 4 [seasons](season.md) as we know it ::: The 4 seasons as we know it only happen at temperate latitudes. For tropics (latitudes in between the tropics), the seasons become the _dry season_ and the _wet season_, or may not exist at all like alpines and deserts. For polar regions (latitudes in the Arctic or Antarctic Circle), the sun does not set on some days during the "summer", and vice versa for "winter". This is apparent when considering the sun path oscillation, restricted to the visible parts of the celestial sphere.
-- [axial precession](../../../../general/axial%20precession.md) ::: The orientation of Earth's axis of rotation gradually shifts westward (opposite of the Earth's direction of rotation) in a circle over a period of about 26&nbsp;000 years. One effect is that the celestial poles points at a different direction, changing the pole stars (e.g. the north star will eventually no longer be Polaris). The other is that the constellations the Sun's projection is on during the equinoxes and solstices shifts westward along the zodiac.
+- 4 [seasons](season.md) as we know it ::: The 4 seasons as we know it only happen at temperate latitudes. For tropics (latitudes in between the tropics), the seasons become the _dry season_ and the _wet season_, or may not exist at all like in alpines and deserts. For polar regions (latitudes in the Arctic or Antarctic Circle), the sun does not set on some days during the "summer", and does not rise for some days during the "winter". This is apparent when considering the sun path oscillation, restricted to the visible parts of the celestial sphere.
+- [axial precession](../../../../general/axial%20precession.md) ::: The orientation of Earth's axis of rotation gradually shifts westward (opposite of the Earth's direction of rotation) in a circle over a period of about 26&nbsp;000 years.
+  - axial precession effects ::: One effect is that the celestial poles points at a different direction, changing the pole stars (e.g. the north star will eventually no longer be Polaris). The other is that the constellations the Sun's projection is on during the equinoxes and solstices shifts westward along the zodiac.
 - [solar term](../../../../general/solar%20term.md) ::: One of the 24 periods in traditional Chinese lunisolar calendars.
 - [scale of the universe @ HKUST](scale%20of%20the%20universe%20@%20HKUST.md) / [Moon](../../../../general/Moon.md)
 - [Moon](../../../../general/Moon.md)
