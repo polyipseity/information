@@ -11,7 +11,7 @@ tags:
 
 # Moon
 
-The __Moon__ is {{[Earth](Earth.md)'s only [natural satellite](natural%20satellite.md)}}.
+The __Moon__ is {{[Earth](Earth.md)'s only [natural satellite](natural%20satellite.md)}}. <!--SR:!2024-07-07,4,270-->
 
 ## references
 

@@ -109,10 +109,10 @@ The parenthesized text at the beginning of of each question is {{the location th
 
 > Q1. (lecture) What would seasons be like for a planet with 90 degree axial tilt?
 >
-> - solution: {{There would be no seasons. Instead, every location is daytime for half the orbital period and nighttime for the other half, like the north and south pole on Earth. Likely unliveable.}}
+> - solution: {{There would be no seasons. Instead, every location is daytime for half the orbital period and nighttime for the other half, like the north and south pole on Earth. Likely unliveable.}} <!--SR:!2024-07-07,4,288-->
 
 <!-- markdownlint MD028 -->
 
 > Q2. (lecture) When will the Sun rise exactly due east and set exactly due west?
 >
-> - solution: {{During the equinoxes.}}
+> - solution: {{During the equinoxes.}} <!--SR:!2024-07-07,4,288-->
