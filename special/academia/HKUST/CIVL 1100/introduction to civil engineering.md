@@ -38,7 +38,7 @@ The content is in teaching order.
 - civil engineering challenges
   - [civil engineering non-technical issues](#civil%20engineering%20non-technical%20issues)
   - poor construction management consequences ::: Poor quality control and workmanship leads to high maintenance cost. Structural failure leads to loss of lives. <!--SR:!2024-09-13,95,300!2024-12-21,179,352-->
-    - poor quality control and workmanship consequences ::: cracks, stinky smell, water leakage <!--SR:!2024-07-03,55,352!2024-07-20,72,347-->
+    - poor quality control and workmanship consequences ::: cracks, stinky smell, water leakage <!--SR:!2025-01-12,193,352!2024-07-20,72,347-->
     - structural failure consequences ::: building toppling over, killing workers, prosecution <!--SR:!2024-12-31,189,270!2024-07-27,75,354-->
     - [structural failure example](#structural%20failure%20example)
   - civil engineering design challenges ::: complex shapes, long-span structures, underground structures <!--SR:!2024-10-25,138,340!2024-07-28,76,357-->
@@ -145,7 +145,7 @@ quantity surveyor
 - _(begin)_→:::←building services engineer <!--SR:!2024-09-15,113,335!2024-08-23,102,377-->
 - building services engineer→:::←consulting civil engineer <!--SR:!2024-12-13,168,337!2024-08-25,93,337-->
 - consulting civil engineer→:::←consulting environmental engineer <!--SR:!2024-12-25,183,347!2025-02-05,221,360-->
-- consulting environmental engineer→:::←consulting geo-technical engineer <!--SR:!2024-07-03,40,265!2024-09-02,112,306-->
+- consulting environmental engineer→:::←consulting geo-technical engineer <!--SR:!2024-10-16,105,265!2024-09-02,112,306-->
 - consulting geo-technical engineer→:::←consulting structural engineer <!--SR:!2024-07-11,57,315!2024-08-14,80,317-->
 - consulting structural engineer→:::←contracting civil engineer <!--SR:!2024-09-11,108,335!2024-08-23,88,315-->
 - contracting civil engineer→:::←engineering geologist <!--SR:!2024-09-28,102,297!2024-08-01,69,315-->
@@ -591,7 +591,7 @@ nuclear
 <!--pytextgen generate section="ee13"--><!-- The following content is generated at 2024-04-23T18:07:51.639356+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←agricultural <!--SR:!2024-09-22,136,310!2024-08-13,94,372-->
-- agricultural→:::←architectural <!--SR:!2024-07-03,60,357!2024-08-01,84,372-->
+- agricultural→:::←architectural <!--SR:!2025-01-31,212,357!2024-08-01,84,372-->
 - architectural→:::←biomedical <!--SR:!2024-11-04,144,337!2024-11-25,152,340-->
 - biomedical→:::←ceramic <!--SR:!2024-11-05,133,320!2024-09-25,114,337-->
 - ceramic→:::←chemical <!--SR:!2024-07-12,49,320!2024-09-24,119,335-->
@@ -1096,7 +1096,7 @@ water tower
 
 - _(begin)_→:::←bridge <!--SR:!2024-10-23,142,335!2024-08-12,88,380-->
 - bridge→:::←building <!--SR:!2024-07-05,57,350!2024-08-28,96,380-->
-- building→:::←dam <!--SR:!2024-07-30,77,361!2024-07-03,55,361-->
+- building→:::←dam <!--SR:!2024-07-30,77,361!2025-01-17,198,361-->
 - dam→:::←power plant <!--SR:!2024-08-06,68,301!2024-07-25,33,238-->
 - power plant→:::←storage facility <!--SR:!2024-07-29,62,300!2024-09-12,111,334-->
 - storage facility→:::←tunnel <!--SR:!2024-07-12,10,300!2024-09-01,89,320-->
@@ -1229,7 +1229,7 @@ water treatment
 - _(begin)_→:::←groundwater quality control <!--SR:!2024-10-04,123,340!2024-11-29,175,357-->
 - groundwater quality control→:::←wastewater recycling <!--SR:!2024-07-24,61,295!2024-07-11,48,300-->
 - wastewater recycling→:::←wastewater treatment <!--SR:!2024-11-03,131,315!2024-07-14,59,317-->
-- wastewater treatment→:::←water quality monitoring <!--SR:!2024-08-01,51,280!2024-07-03,50,315-->
+- wastewater treatment→:::←water quality monitoring <!--SR:!2024-08-01,51,280!2024-12-07,157,315-->
 - water quality monitoring→:::←water treatment <!--SR:!2024-11-12,148,324!2024-09-20,117,334-->
 - water treatment→:::←_(end)_ <!--SR:!2024-07-16,68,354!2024-07-21,41,246-->
 

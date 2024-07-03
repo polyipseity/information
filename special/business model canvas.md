@@ -165,7 +165,7 @@ risk reduction
 
 - _(begin)_→:::←accessibility <!--SR:!2024-09-07,100,277!2024-07-10,65,314-->
 - accessibility→:::←brand or status <!--SR:!2024-10-01,103,254!2024-08-02,72,274-->
-- brand or status→:::←convenience or usability <!--SR:!2024-07-03,49,254!2024-07-19,19,214-->
+- brand or status→:::←convenience or usability <!--SR:!2024-07-29,26,234!2024-07-19,19,214-->
 - convenience or usability→:::←cost reduction <!--SR:!2024-10-11,108,254!2024-07-11,19,237-->
 - cost reduction→:::←customization <!--SR:!2024-08-27,94,274!2024-07-14,44,177-->
 - customization→:::←design <!--SR:!2024-08-11,76,277!2024-07-17,55,234-->
@@ -220,7 +220,7 @@ personal assistance
 - automated services→:::←co-creation <!--SR:!2024-07-12,51,254!2024-07-17,63,274-->
 - co-creation→:::←communities <!--SR:!2024-10-22,116,254!2024-10-13,133,294-->
 - communities→:::←dedicated personal assistance <!--SR:!2024-08-11,79,277!2024-09-09,98,274-->
-- dedicated personal assistance→:::←personal assistance <!--SR:!2024-07-10,65,317!2024-07-03,61,317-->
+- dedicated personal assistance→:::←personal assistance <!--SR:!2024-07-10,65,317!2025-01-10,191,317-->
 - personal assistance→:::←_(end)_ <!--SR:!2024-07-08,63,317!2024-07-15,70,317-->
 
 <!--/pytextgen-->
