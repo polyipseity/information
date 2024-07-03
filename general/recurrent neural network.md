@@ -23,11 +23,11 @@ The term "recurrent neural network" is used to refer {{to the class of networks 
 
 ### Elman networks and Jordan networks
 
-An [Elman](Jeffrey%20Elman.md) network is {{a 3-layer network with the addition of a context layer}}. The middle hidden layer is {{connected to the context layer with a fixed weight of 1}}. The context layer connects {{back to the middle hidden layer}}. <!--SR:!2024-07-03,15,290!2024-08-12,43,290!2024-08-15,44,290-->
+An [Elman](Jeffrey%20Elman.md) network is {{a 3-layer network with the addition of a context layer}}. The middle hidden layer is {{connected to the context layer with a fixed weight of 1}}. The context layer connects {{back to the middle hidden layer}}. <!--SR:!2024-08-19,47,290!2024-08-12,43,290!2024-08-15,44,290-->
 
 [Jordan](Michael%20I.%20Jordan.md) network are {{similar to Elman networks}}. The exception is {{that the context layer is fed from the output layer instead of the middle hidden layer}}. <!--SR:!2024-07-04,16,290!2024-08-13,42,290-->
 
-Elman and Jordan networks are also known as {{"simple recurrent networks" (SRN)}}. The disadvantages are that {{the networks are likely too simple, and they might take a long time to converge}}. <!--SR:!2024-07-03,15,290!2024-08-20,51,290-->
+Elman and Jordan networks are also known as {{"simple recurrent networks" (SRN)}}. The disadvantages are that {{the networks are likely too simple, and they might take a long time to converge}}. <!--SR:!2024-08-28,56,310!2024-08-20,51,290-->
 
 ### long short-term memory
 
@@ -39,7 +39,7 @@ Long short-term memory (LSTM) is {{a [deep learning](deep%20learning.md) system 
 
 - see: [gated recurrent unit](gated%20recurrent%20unit.md)
 
-Gated recurrent units (GRUs) are {{a gating mechanism in RNN introduced in 2014}}. They have {{fewer parameters than LSTM, as they lack an output gate}}. This may make {{the training time shorter and the training requiring fewer data samples}}. <!--SR:!2024-07-03,15,290!2024-08-17,48,290!2024-08-05,38,290-->
+Gated recurrent units (GRUs) are {{a gating mechanism in RNN introduced in 2014}}. They have {{fewer parameters than LSTM, as they lack an output gate}}. This may make {{the training time shorter and the training requiring fewer data samples}}. <!--SR:!2024-08-29,57,310!2024-08-17,48,290!2024-08-05,38,290-->
 
 ## references
 

@@ -50,7 +50,7 @@ disposal
 
 - _(begin)_→:::←purchase <!--SR:!2024-10-11,115,290!2024-10-25,127,299-->
 - purchase→:::←delivery <!--SR:!2024-07-18,65,310!2024-07-06,56,310-->
-- delivery→:::←use <!--SR:!2024-07-22,69,310!2024-07-03,53,290-->
+- delivery→:::←use <!--SR:!2024-07-22,69,310!2024-12-05,155,290-->
 - use→:::←supplements <!--SR:!2024-08-04,66,279!2024-07-20,67,319-->
 - supplements→:::←maintenance <!--SR:!2024-10-21,121,290!2024-09-16,94,279-->
 - maintenance→:::←disposal <!--SR:!2024-07-14,62,310!2024-07-21,69,319-->
@@ -96,7 +96,7 @@ simplicity: remove complexity or hassle
 - fun and image: conveyed feel, look, or attitude→:::←productivity: less effort, time, or money <!--SR:!2024-08-19,64,239!2024-08-22,56,239-->
 - productivity: less effort, time, or money→:::←risk reduction: financial, physical, reputational <!--SR:!2024-07-14,46,250!2024-10-06,100,259-->
 - risk reduction: financial, physical, reputational→:::←simplicity: remove complexity or hassle <!--SR:!2024-08-17,61,230!2024-07-20,55,259-->
-- simplicity: remove complexity or hassle→:::←_(end)_ <!--SR:!2024-07-03,53,310!2024-10-07,113,299-->
+- simplicity: remove complexity or hassle→:::←_(end)_ <!--SR:!2024-12-13,163,310!2024-10-07,113,299-->
 
 <!--/pytextgen-->
 

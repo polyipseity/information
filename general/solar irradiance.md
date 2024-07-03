@@ -8,7 +8,7 @@ tags:
 
 # solar irradiance
 
-__Solar irradiance__ is {{the [power](power%20(physics).md) per unit [area](area.md) ([surface power density](surface%20power%20density.md)) received from the [Sun](Sun.md)}}. Solar irradiance is measured in {{[watts](watt.md) per [square metre](square%20metree.md) (W/m<sup>2</sup>) in [SI units](International%20System%20of%20Units.md)}}. <!--SR:!2024-07-03,4,270!2024-07-03,4,270-->
+__Solar irradiance__ is {{the [power](power%20(physics).md) per unit [area](area.md) ([surface power density](surface%20power%20density.md)) received from the [Sun](Sun.md)}}. Solar irradiance is measured in {{[watts](watt.md) per [square metre](square%20metree.md) (W/m<sup>2</sup>) in [SI units](International%20System%20of%20Units.md)}}. <!--SR:!2024-07-20,17,290!2024-07-17,14,290-->
 
 ## references
 

@@ -17,9 +17,9 @@ tags:
 
 ## probabilistic model
 
-Abstractly, naive Bayes classifier is {{a [conditional probability](conditional%20probability.md) model}}. The problem to be solved is: Given a sample with {{$n$ features ($n$ inputs)}}, assign {{the conditional probability of the sample belonging to a class (1 output) for each of the $K$ possible classes}}. The $n$ inputs are represented by {{a vector $\mathbf{x} = (x_1, \ldots, x_n)$}}. The $k$-th class of the $K$ possible classes is represented by {{$C_k$}}. Then the conditional probability is mathematically {{$p(C_k \mid \mathbf{x})$}}. <!--SR:!2024-07-05,17,290!2024-07-03,15,290!2024-08-04,37,290!2024-07-03,15,290!2024-07-04,16,290!2024-07-03,15,290-->
+Abstractly, naive Bayes classifier is {{a [conditional probability](conditional%20probability.md) model}}. The problem to be solved is: Given a sample with {{$n$ features ($n$ inputs)}}, assign {{the conditional probability of the sample belonging to a class (1 output) for each of the $K$ possible classes}}. The $n$ inputs are represented by {{a vector $\mathbf{x} = (x_1, \ldots, x_n)$}}. The $k$-th class of the $K$ possible classes is represented by {{$C_k$}}. Then the conditional probability is mathematically {{$p(C_k \mid \mathbf{x})$}}. <!--SR:!2024-07-05,17,290!2024-09-04,63,310!2024-08-04,37,290!2024-09-03,62,310!2024-07-04,16,290!2024-08-15,43,290-->
 
-Using {{[Bayes' theorem](Bayes'%20theorem.md)}}, the {{required conditional probability}} can be written as: {{$$p(C_k \mid \mathbf{x}) = \frac {p(C_k) p(\mathbf{x} \mid C_k)} {p(\mathbf{x})}$$}}. <!--SR:!2024-07-05,17,290!2024-07-03,15,290!2024-08-07,41,290-->
+Using {{[Bayes' theorem](Bayes'%20theorem.md)}}, the {{required conditional probability}} can be written as: {{$$p(C_k \mid \mathbf{x}) = \frac {p(C_k) p(\mathbf{x} \mid C_k)} {p(\mathbf{x})}$$}}. <!--SR:!2024-07-05,17,290!2024-08-13,41,290!2024-08-07,41,290-->
 
 In plain English, {{using [Bayesian probability](Bayesian%20probability.md) terminology}}, the above equation is: {{$$\text{posterior} = \frac {\text{prior} \times \text{likelihood} } {\text{evidence} }$$}}. <!--SR:!2024-07-04,16,290!2024-07-29,33,270-->
 

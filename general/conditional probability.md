@@ -15,7 +15,7 @@ tags:
 
 #### Kolmogorov definition
 
-The conditional probability can be found by {{the [quotient](quotient.md) of the probability of the joint intersection of events $A$ and $B$, that is, $P(A \cap B)$, the probability that both events happen together, divided by the [probability](probability.md) of $B$}}: {{$$P(A \mid B) = \frac {P(A \cap B)} {P(B)} \qquad P(B) > 0$$}}. <!--SR:!2024-08-04,38,290!2024-07-03,15,290-->
+The conditional probability can be found by {{the [quotient](quotient.md) of the probability of the joint intersection of events $A$ and $B$, that is, $P(A \cap B)$, the probability that both events happen together, divided by the [probability](probability.md) of $B$}}: {{$$P(A \mid B) = \frac {P(A \cap B)} {P(B)} \qquad P(B) > 0$$}}. <!--SR:!2024-08-04,38,290!2024-09-01,60,310-->
 
 ## references
 

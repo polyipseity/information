@@ -249,7 +249,7 @@ See [Panama Canal](../../../../general/Panama%20Canal.md).
 
 See [Parthenon](../../../../general/Parthenon.md).
 
-- construction period ::: 447 BC to 438 BC, 9 years <!--SR:!2024-07-03,10,276!2024-12-01,159,396-->
+- construction period ::: 447 BC to 438 BC, 9 years <!--SR:!2024-07-07,4,256!2024-12-01,159,396-->
 - dedication ::: Greek goddess Athena <!--SR:!2024-12-08,166,396!2024-11-08,141,396-->
 - description ::: temple on the Athenian Acropolis, Greece, dedicated to the Greek goddess Athena <!--SR:!2024-07-09,38,356!2024-11-06,139,396-->
 - geographic location ::: Athenian Acropolis, Greece <!--SR:!2024-07-14,39,356!2024-10-16,122,396-->
@@ -288,7 +288,7 @@ See [Thames Barrier](../../../../general/Thames%20Barrier.md).
 
 - [dam type](../../../../general/dam.md#types) ::: [barrage](barrage%20(dam).md) <!--SR:!2024-10-21,135,341!2024-08-03,84,377-->
 - height ::: 20.1 m <!--SR:!2024-07-17,18,261!2024-08-30,98,380-->
-- image ::: ![Thames Barrier image](../../../../archives/Wikimedia%20Commons/Thames%20Barrier%2003.jpg) <!--SR:!2024-07-03,49,340!2024-08-24,92,380-->
+- image ::: ![Thames Barrier image](../../../../archives/Wikimedia%20Commons/Thames%20Barrier%2003.jpg) <!--SR:!2025-02-16,228,360!2024-08-24,92,380-->
 - length ::: 520 m <!--SR:!2024-10-17,107,280!2024-12-06,196,330-->
 
 ## Tsing Ma Bridge

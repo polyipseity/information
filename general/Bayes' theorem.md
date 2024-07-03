@@ -11,7 +11,7 @@ tags:
 
 ## statement of theorem
 
-Bayes' theorem is stated mathematically: {{$$P(A \mid B) = \frac {P(B \mid A) P(A)} {P(B)} \qquad P(B) > 0$$}} where {{$A$ and $B$ are [events](event%20(probability%20theory).md)}}. Further: <!--SR:!2024-07-03,15,294!2024-07-04,16,290-->
+Bayes' theorem is stated mathematically: {{$$P(A \mid B) = \frac {P(B \mid A) P(A)} {P(B)} \qquad P(B) > 0$$}} where {{$A$ and $B$ are [events](event%20(probability%20theory).md)}}. Further: <!--SR:!2024-09-06,65,314!2024-07-04,16,290-->
 
 - $P(A \mid B)$ ::: [conditional probability](conditional%20probability.md) of $A$ happening given $B$ is true; also known as [posterior probability](posterior%20probability.md) of $A$ given $B$ <!--SR:!2024-07-17,22,254!2024-07-13,20,274-->
 - $P(B \mid A)$ ::: [conditional probability](conditional%20probability.md) of $B$ happening given $A$ is true; also known as [likelihood](likelihood%20function.md) of $A$ given $B$ because $P(B \mid A) = L(A \mid B)$ <!--SR:!2024-07-14,19,254!2024-07-12,19,274-->

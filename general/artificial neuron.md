@@ -21,7 +21,7 @@ The output of the _k_-th neuron is: {{$$y_k = \varphi\left(\sum_{j = 0}^m w_{kj}
 
 The [activation function](activation%20function.md) of a neurons is chosen {{to have properties enhancing or simplifying the network}}. Crucially, {{any [multilayer perceptron](multilayer%20perceptron.md) using a _linear_ activation function has a equivalent single-layer network, which can be proved mathematically; thus, a non-linear function is needed to leverage the full power of a multilayer network}}. <!--SR:!2024-07-04,16,290!2024-08-09,38,290-->
 
-Below, _u_, also called {{the _net input_}}, is {{the weighted sum of all inputs to the neuron, including the bias}}. For _m + 1_ inputs as described above: {{$$u = \sum_{j = 0}^m w_{kj} x_j = b_k + \sum_{j = 1}^m w_{kj} x_j$$}}. <!--SR:!2024-07-03,15,290!2024-07-04,16,290!2024-07-30,34,270-->
+Below, _u_, also called {{the _net input_}}, is {{the weighted sum of all inputs to the neuron, including the bias}}. For _m + 1_ inputs as described above: {{$$u = \sum_{j = 0}^m w_{kj} x_j = b_k + \sum_{j = 1}^m w_{kj} x_j$$}}. <!--SR:!2024-08-29,57,310!2024-07-04,16,290!2024-07-30,34,270-->
 
 ### step function
 
@@ -31,7 +31,7 @@ Usually, the threshold _θ_ is {{chosen to be 0}}. <!--SR:!2024-08-31,60,310-->
 
 ### linear combination
 
-In this case, the output _y_ is {{simply the net input _u_ multiplied by a constant _k_}}: {{$$y = ku$$}} When {{$k = 1$}}, this is {{simply the [identity function](identity%20function.md): $y = u$}}. It is a type of {{linear activation function}}. <!--SR:!2024-08-24,53,310!2024-07-03,15,290!2024-07-03,15,290!2024-08-23,52,310!2024-08-26,55,310-->
+In this case, the output _y_ is {{simply the net input _u_ multiplied by a constant _k_}}: {{$$y = ku$$}} When {{$k = 1$}}, this is {{simply the [identity function](identity%20function.md): $y = u$}}. It is a type of {{linear activation function}}. <!--SR:!2024-08-24,53,310!2024-09-05,64,310!2024-08-30,58,310!2024-08-23,52,310!2024-08-26,55,310-->
 
 ### sigmoid
 
@@ -43,7 +43,7 @@ In this case, the output _y_ is {{simply the net input _u_ multiplied by a const
 
 - see: [rectifier](rectifier%20(neural%20networks).md)
 
-The __rectifier__ or {{__ReLU__ (__rectified linear unit__)}} is an activation function defined as {{the positive part of its argument}}: {{$$y = u^+ = \max(0, u) = \frac {u + \lvert u \rvert} 2 = \begin{cases} u & \text{if }u > 0 \\ 0 & \text{otherwise} \end{cases}$$}}. <!--SR:!2024-07-03,15,290!2024-08-24,53,310!2024-08-08,41,290-->
+The __rectifier__ or {{__ReLU__ (__rectified linear unit__)}} is an activation function defined as {{the positive part of its argument}}: {{$$y = u^+ = \max(0, u) = \frac {u + \lvert u \rvert} 2 = \begin{cases} u & \text{if }u > 0 \\ 0 & \text{otherwise} \end{cases}$$}}. <!--SR:!2024-08-31,59,310!2024-08-24,53,310!2024-08-08,41,290-->
 
 ## references
 

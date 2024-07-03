@@ -19,7 +19,7 @@ For two [events](event%20(probability%20theory).md) $A$ and $B$ such that {{$\ma
 
 ### finitely many events
 
-For {{finitely many}} events $A_1, \ldots, A_n$ whose {{intersection has not probability zero}}, the chain rule states that: {{$$\begin{aligned} \mathbb P(A_1 \cap \ldots \cap A_n) & = \mathbb P(A_1 \cap \ldots \cap A_{n - 1}) \mathbb P(A_n \mid A_1 \cap \ldots \cap A_{n - 1}) \\ & = \mathbb P(A_1) \mathbb P(A_2 \mid A_1) \ldots \mathbb P(A_n \mid A_1 \cap \ldots \cap A_{n - 1}) \\ & = \prod_{k = 1}^n \mathbb P(A_k \mid A_1 \cap \ldots A_{k - 1}) \\ & = \prod_{k = 1}^n \mathbb P\left(A_k \,\Bigg|\, \bigcap_{j = 1}^{k - 1} A_j \right) \end{aligned}$$}}, which results from {{repeated application of the [chain rule for two events](#two%20events)}}. <!--SR:!2024-08-07,40,290!2024-08-08,37,290!2024-07-12,17,250!2024-07-03,15,290-->
+For {{finitely many}} events $A_1, \ldots, A_n$ whose {{intersection has not probability zero}}, the chain rule states that: {{$$\begin{aligned} \mathbb P(A_1 \cap \ldots \cap A_n) & = \mathbb P(A_1 \cap \ldots \cap A_{n - 1}) \mathbb P(A_n \mid A_1 \cap \ldots \cap A_{n - 1}) \\ & = \mathbb P(A_1) \mathbb P(A_2 \mid A_1) \ldots \mathbb P(A_n \mid A_1 \cap \ldots \cap A_{n - 1}) \\ & = \prod_{k = 1}^n \mathbb P(A_k \mid A_1 \cap \ldots A_{k - 1}) \\ & = \prod_{k = 1}^n \mathbb P\left(A_k \,\Bigg|\, \bigcap_{j = 1}^{k - 1} A_j \right) \end{aligned}$$}}, which results from {{repeated application of the [chain rule for two events](#two%20events)}}. <!--SR:!2024-08-07,40,290!2024-08-08,37,290!2024-07-12,17,250!2024-08-31,59,310-->
 
 ## references
 

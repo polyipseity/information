@@ -10,7 +10,7 @@ tags:
 
 # FP-growth algorithm
 
-FP stands for {{frequent pattern}}. <!--SR:!2024-07-03,62,310-->
+FP stands for {{frequent pattern}}. <!--SR:!2025-03-25,265,330-->
 
 ## overview
 

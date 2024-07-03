@@ -61,7 +61,7 @@ return await memorize_seq(
 <!--pytextgen generate section="48ff"--><!-- The following content is generated at 2024-05-16T15:50:23.869379+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←air pollution <!--SR:!2024-07-29,53,310!2024-07-28,52,310-->
-- air pollution→:::←land contamination <!--SR:!2024-07-03,30,270!2024-08-03,58,310-->
+- air pollution→:::←land contamination <!--SR:!2024-09-23,82,270!2024-08-03,58,310-->
 - land contamination→:::←noise pollution <!--SR:!2024-07-09,34,290!2024-09-03,68,270-->
 - noise pollution→:::←solid waste disposal <!--SR:!2024-09-16,76,270!2024-07-15,42,290-->
 - solid waste disposal→:::←water pollution <!--SR:!2024-07-25,48,290!2024-07-08,18,230-->
@@ -101,7 +101,7 @@ return await memorize_seq(
 - _(begin)_→:::←(Cap. 311) Air Pollution Control Ordinance <!--SR:!2024-07-14,12,275!2024-07-07,19,335-->
 - (Cap. 311) Air Pollution Control Ordinance→:::←(Cap. 354) Waste Disposal Ordinance <!--SR:!2024-07-14,19,295!2024-07-07,19,335-->
 - (Cap. 354) Waste Disposal Ordinance→:::←(Cap. 358) Water Pollution Control Ordinance <!--SR:!2024-07-15,20,295!2024-07-07,19,335-->
-- (Cap. 358) Water Pollution Control Ordinance→:::←(Cap. 400) Noise Pollution Control Ordinance <!--SR:!2024-07-03,5,275!2024-07-22,26,295-->
+- (Cap. 358) Water Pollution Control Ordinance→:::←(Cap. 400) Noise Pollution Control Ordinance <!--SR:!2024-07-16,13,275!2024-07-22,26,295-->
 - (Cap. 400) Noise Pollution Control Ordinance→:::←(Cap. 499) Environmental Impact Ordinance <!--SR:!2024-07-05,6,295!2024-08-15,44,315-->
 - (Cap. 499) Environmental Impact Ordinance→:::←_(end)_ <!--SR:!2024-07-07,19,335!2024-07-07,19,335-->
 
@@ -347,7 +347,7 @@ Indoor Air Quality
 - sick building syndrome ::: fatigue, headache, nasal congestion <!--SR:!2024-08-07,61,310!2024-07-26,51,310-->
 - common indoor air pollutant ::: 12 parameters <!--SR:!2024-07-13,37,290!2024-08-10,63,310-->
   - common indoor air pollutant examples ::: carbon dioxide (CO<sub>2</sub>), carbon monoxide (CO), respirable suspended particulate (RSP/PM<sub>10</sub>) <!--SR:!2024-09-20,80,270!2024-07-25,50,310-->
-    - carbon dioxide limits ::: excellent: < 800 ppmv; good: < 1000 ppmv <!--SR:!2024-07-03,30,270!2024-07-24,49,310-->
+    - carbon dioxide limits ::: excellent: < 800 ppmv; good: < 1000 ppmv <!--SR:!2024-09-25,84,270!2024-07-24,49,310-->
     - carbon monoxide limits ::: excellent: < 2000 μg/m<sup>3</sup>, < 1.7 ppmv; good: < 10000 μg/m<sup>3</sup>, < 8.7 ppmv <!--SR:!2024-08-12,43,250!2024-08-02,56,310-->
     - respirable suspended particulate limits ::: excellent: < 20 μg/m<sup>3</sup>; good: < 180 μg/m<sup>3</sup> <!--SR:!2024-07-07,32,270!2024-07-12,39,290-->
 
@@ -393,7 +393,7 @@ return await memorize_seq(
 - carbon dioxide (CO<sub>2</sub>)→:::←hydroflurocarbons (HFCs) <!--SR:!2024-07-22,34,230!2024-07-04,31,270-->
 - hydroflurocarbons (HFCs)→:::←methane (CH<sub>4</sub>) <!--SR:!2024-07-15,37,270!2024-07-14,31,230-->
 - methane (CH<sub>4</sub>)→:::←nitrous oxide (N<sub>2</sub>O) <!--SR:!2024-07-24,36,250!2024-07-26,47,290-->
-- nitrous oxide (N<sub>2</sub>O)→:::←perflurocarbons (PFCs) <!--SR:!2024-07-26,24,230!2024-07-03,4,190-->
+- nitrous oxide (N<sub>2</sub>O)→:::←perflurocarbons (PFCs) <!--SR:!2024-07-26,24,230!2024-07-11,8,190-->
 - perflurocarbons (PFCs)→:::←sulfur hexafluoride (SF<sub>6</sub>) <!--SR:!2024-07-29,50,290!2024-09-06,69,270-->
 - sulfur hexafluoride (SF<sub>6</sub>)→:::←_(end)_ <!--SR:!2024-08-09,62,310!2024-08-20,72,310-->
 

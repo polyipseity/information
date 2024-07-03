@@ -15,7 +15,7 @@ tags:
 
 #### addition
 
-The _sum_ of {{two matrices __A__ and __B__ of the same size _m_ × _n_}} is denoted {{__A__ + __B__}}. It is calculated by {{adding the matrices element-wise}}: {{$$(\mathbf{A} + \mathbf{B})_{i, j} = \mathbf{A}_{i, j} + \mathbf{B}_{i, j} \qquad \text{where }1 \le i \le m\text{ and }1 \le j \le n$$}}. <!--SR:!2024-07-05,17,290!2024-08-22,51,310!2024-08-28,57,310!2024-07-03,15,290-->
+The _sum_ of {{two matrices __A__ and __B__ of the same size _m_ × _n_}} is denoted {{__A__ + __B__}}. It is calculated by {{adding the matrices element-wise}}: {{$$(\mathbf{A} + \mathbf{B})_{i, j} = \mathbf{A}_{i, j} + \mathbf{B}_{i, j} \qquad \text{where }1 \le i \le m\text{ and }1 \le j \le n$$}}. <!--SR:!2024-07-05,17,290!2024-08-22,51,310!2024-08-28,57,310!2024-09-03,62,310-->
 
 #### scalar multiplication
 
@@ -23,11 +23,11 @@ The _product_ of {{a [scalar](scalar%20(mathematics).md) _c_ and a matrix __A__ 
 
 #### subtraction
 
-The subtraction of {{a matrix __A__ by another matrix __B__ of the same size}} is denoted {{__A__ - __B__}}. It is defined by {{[addition](#addition) of __A__ and __B__ that is scalar multiplied by -1}}: {{$$\mathbf{A} - \mathbf{B} = \mathbf{A} + (-1) \cdot \mathbf{B}$$}} <!--SR:!2024-07-03,15,290!2024-07-03,15,290!2024-08-04,38,290!2024-07-04,16,290-->
+The subtraction of {{a matrix __A__ by another matrix __B__ of the same size}} is denoted {{__A__ - __B__}}. It is defined by {{[addition](#addition) of __A__ and __B__ that is scalar multiplied by -1}}: {{$$\mathbf{A} - \mathbf{B} = \mathbf{A} + (-1) \cdot \mathbf{B}$$}} <!--SR:!2024-09-01,60,310!2024-09-04,63,310!2024-08-04,38,290!2024-07-04,16,290-->
 
 #### transposition
 
-The _transpose_ of {{an _m_-by-_n_ matrix __A__}} is {{the _n_-by-_m_ matrix denoted by __A__<sup>T</sup>, __A__<sup>tr</sup>, or <sup>t</sup>__A__}}. It is formed by {{swapping the row index with the column index for every element of __A__}}: {{$$\left(\mathbf{A}^{\text{T} }\right)_{j, i} = \mathbf{A}_{i, j} \qquad \text{where }1 \le i \le m\text{ and }1 \le j \le n$$}} <!--SR:!2024-08-17,49,290!2024-07-03,15,290!2024-07-05,17,290!2024-08-06,39,290-->
+The _transpose_ of {{an _m_-by-_n_ matrix __A__}} is {{the _n_-by-_m_ matrix denoted by __A__<sup>T</sup>, __A__<sup>tr</sup>, or <sup>t</sup>__A__}}. It is formed by {{swapping the row index with the column index for every element of __A__}}: {{$$\left(\mathbf{A}^{\text{T} }\right)_{j, i} = \mathbf{A}_{i, j} \qquad \text{where }1 \le i \le m\text{ and }1 \le j \le n$$}} <!--SR:!2024-08-17,49,290!2024-09-02,61,310!2024-07-05,17,290!2024-08-06,39,290-->
 
 ### matrix multiplication
 

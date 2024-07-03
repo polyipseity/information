@@ -30,7 +30,7 @@ The content is in teaching order.
 - [buyer utility map](../../../buyer%20utility%20map.md)
 - [_Blue Ocean Strategy_ § concept](../../../../general/Blue%20Ocean%20Strategy.md#concept)
   - blue ocean strategy example ::: [inventing the air fryer from observing French fries](../../../examples/inventing%20the%20air%20fryer%20from%20observing%20French%20fries.md) <!--SR:!2024-09-23,112,290!2024-07-07,59,310-->
-- International Business Plan Competition ::: IBPC <!--SR:!2024-07-03,55,310!2024-07-16,66,310-->
+- International Business Plan Competition ::: IBPC <!--SR:!2025-02-22,234,330!2024-07-16,66,310-->
 - transferrable technology ::: Technology that can potentially target multiple market segments. <!--SR:!2024-07-13,63,310!2024-07-06,58,310-->
 - reading assignment: [IBM prioritization grid](../../../IBM%20prioritization%20grid.md), [market segmentation](../../../market%20segmentation.md)
 - [assignment W2](assignment%20W2/assignment%20W2.md)
@@ -92,7 +92,7 @@ The content is in teaching order.
 ## week 6 lecture
 
 - time: 2024-03-05T18:00:00+08:00/2024-03-05T20:30:00+08:00
-- product innovation success first step ::: Identification of the _real_ problem: If your project does not work, you have not found the real needs of your customers. <!--SR:!2024-07-03,37,295!2024-07-12,44,315-->
+- product innovation success first step ::: Identification of the _real_ problem: If your project does not work, you have not found the real needs of your customers. <!--SR:!2024-10-19,108,295!2024-07-12,44,315-->
 - jobs to be done theory history ::: Alex Osterwalder adopted the idea from Prof. Clayton Christensen of Harvard University. <!--SR:!2024-10-24,114,295!2024-07-15,47,315-->
 - [value proposition canvas](../../../value%20proposition%20canvas.md)
   - [§ customer profile](../../../value%20proposition%20canvas.md#customer%20profile)
@@ -267,7 +267,7 @@ The content is in teaching order.
     - R&D ::: research & development <!--SR:!2024-07-15,26,370!2024-07-22,32,370-->
     - S&M ::: sales & marketing <!--SR:!2024-07-23,33,370!2024-07-11,22,370-->
     - G&A ::: general & administration <!--SR:!2024-07-10,21,370!2024-07-12,23,370-->
-    - CAGR ::: compound average growth rate; $$\text{CAGR} = \left(\frac {V_{\text{end} } } {V_{\text{start} } } \right)^{\frac 1 t} - 1$$ <!--SR:!2024-07-03,16,350!2024-07-12,23,370-->
+    - CAGR ::: compound average growth rate; $$\text{CAGR} = \left(\frac {V_{\text{end} } } {V_{\text{start} } } \right)^{\frac 1 t} - 1$$ <!--SR:!2024-09-15,74,370!2024-07-12,23,370-->
 - interview note-taking technique using 1 sheet of A4 paper
 - exam for part 2 review
 
