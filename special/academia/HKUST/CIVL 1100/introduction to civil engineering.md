@@ -88,7 +88,7 @@ The content is in teaching order.
   - materials engineering characteristics ::: spans almost all engineering disciplines because materials are used in designs <!--SR:!2024-09-29,122,337!2024-07-19,67,347-->
   - materials engineer jobs ::: highly varied <!--SR:!2025-01-19,222,330!2024-08-13,94,372-->
     - [materials engineer job examples](#materials%20engineer%20job%20examples)
-  - materials engineering materials ::: development of improved or new materials <!--SR:!2024-07-04,49,297!2025-06-04,348,350-->
+  - materials engineering materials ::: development of improved or new materials <!--SR:!2025-01-21,201,317!2025-06-04,348,350-->
     - [materials engineering material examples](#materials%20engineering%20material%20examples)
   - materials engineering repair ::: design of materials and methods to repair <!--SR:!2025-05-24,339,350!2024-08-09,90,375-->
     - materials engineering repair examples ::: fiber reinforced polymer retrofit system, retrofit using damper, slab retrofit using steel plate and carbon fiber reinforced polymer <!--SR:!2024-09-07,92,320!2024-10-17,135,332-->
@@ -362,7 +362,7 @@ transportation
 - geo-technical→:::←hydraulic <!--SR:!2024-11-21,149,340!2024-07-30,67,360-->
 - hydraulic→:::←material <!--SR:!2024-10-03,119,340!2024-10-30,135,340-->
 - material→:::←structural <!--SR:!2024-08-15,81,317!2024-08-10,65,260-->
-- structural→:::←transportation <!--SR:!2024-07-04,51,340!2024-12-03,160,327-->
+- structural→:::←transportation <!--SR:!2024-12-22,171,340!2024-12-03,160,327-->
 - transportation→:::←_(end)_ <!--SR:!2025-01-08,192,350!2024-07-12,41,361-->
 
 <!--/pytextgen-->
@@ -744,7 +744,7 @@ tunnel
 - embankment→:::←pile foundation <!--SR:!2024-10-10,116,320!2024-07-15,61,360-->
 - pile foundation→:::←shallow foundation <!--SR:!2024-07-17,54,317!2025-01-04,191,355-->
 - shallow foundation→:::←tunnel <!--SR:!2024-10-08,104,321!2024-07-10,21,232-->
-- tunnel→:::←_(end)_ <!--SR:!2024-07-04,56,350!2024-08-01,67,317-->
+- tunnel→:::←_(end)_ <!--SR:!2025-01-15,195,350!2024-08-01,67,317-->
 
 <!--/pytextgen-->
 
@@ -809,7 +809,7 @@ water distribution network
 <!--pytextgen generate section="019b"--><!-- The following content is generated at 2024-05-01T19:22:35.271947+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←sewage collection network <!--SR:!2024-09-22,113,341!2024-08-11,79,317-->
-- sewage collection network→:::←storm water management <!--SR:!2024-07-04,41,267!2024-09-18,110,341-->
+- sewage collection network→:::←storm water management <!--SR:!2024-10-26,114,267!2024-09-18,110,341-->
 - storm water management→:::←water collection network <!--SR:!2024-08-28,84,320!2024-09-19,101,320-->
 - water collection network→:::←water distribution network <!--SR:!2024-08-30,98,380!2024-12-24,181,352-->
 - water distribution network→:::←_(end)_ <!--SR:!2025-01-05,204,367!2024-07-16,43,321-->
@@ -1019,7 +1019,7 @@ Taipei 101
 - HSBC Main Building→:::←International Commerce Centre <!--SR:!2024-09-19,88,297!2024-08-22,90,334-->
 - International Commerce Centre→:::←John Hancock Center <!--SR:!2024-10-04,113,320!2024-08-06,74,317-->
 - John Hancock Center→:::←Taipei 101 <!--SR:!2024-11-02,137,341!2024-10-07,120,312-->
-- Taipei 101→:::←_(end)_ <!--SR:!2024-07-04,59,347!2024-09-12,99,321-->
+- Taipei 101→:::←_(end)_ <!--SR:!2025-04-10,280,367!2024-09-12,99,321-->
 
 <!--/pytextgen-->
 

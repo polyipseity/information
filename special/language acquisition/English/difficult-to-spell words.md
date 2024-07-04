@@ -45,7 +45,7 @@ English
 - [fomite](https://en.wiktionary.org/wiki/fomite) ::: (f\_e) An inanimate object that can carry infectious agents to transmit between hosts. <!--SR:!2024-08-18,121,376!2024-07-06,87,376-->
 - [governance](https://en.wiktionary.org/wiki/governance) ::: (g\_e) The action or manner of governing. <!--SR:!2025-01-02,289,330!2025-02-14,315,330-->
 - [guarantee](https://en.wiktionary.org/wiki/guarantee) ::: (g\_e) Assure that something will be done. <!--SR:!2025-04-11,337,363!2024-08-08,142,303-->
-- [hallucinate](https://en.wiktionary.org/wiki/hallucinate) ::: (h\_e) Perceive things that are not actually present. <!--SR:!2024-07-04,121,388!2024-11-13,208,348-->
+- [hallucinate](https://en.wiktionary.org/wiki/hallucinate) ::: (h\_e) Perceive things that are not actually present. <!--SR:!2025-10-15,468,388!2024-11-13,208,348-->
 - [hydraulic](https://en.wiktionary.org/wiki/hydraulic) ::: (h\_c) Of or pertaining to [water](../../../general/water.md). <!--SR:!2024-08-02,144,412!2026-04-17,656,432-->
 - [imaginary](https://en.wiktionary.org/wiki/imaginary) ::: (i\_y) Existing only in the [imagination](../../../general/imagination.md). <!--SR:!2025-02-10,311,344!2024-12-14,271,344-->
 - [incandescent](https://en.wiktionary.org/wiki/incandescent) ::: (i\_t) Emitting [light](../../../general/light.md) due to high [temperature](../../../general/temperature.md). <!--SR:!2024-08-08,169,324!2024-11-13,222,284-->

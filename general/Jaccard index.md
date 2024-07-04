@@ -17,12 +17,12 @@ tags:
 
 ## similarity of asymmetric binary attributes
 
-{{Two objects, _A_ and _B_, each with _n_ [binary](binary%20number.md) attributes}} are given. Define: <!--SR:!2024-07-04,16,290-->
+{{Two objects, _A_ and _B_, each with _n_ [binary](binary%20number.md) attributes}} are given. Define: <!--SR:!2024-09-06,64,310-->
 
 - $M_{00}$ ::: number of attributes where _A_ has value 0 and _B_ has value 0 <!--SR:!2024-08-29,57,310!2024-08-25,54,310-->
 - $M_{01}$ ::: number of attributes where _A_ has value 0 and _B_ has value 1 <!--SR:!2024-07-05,17,290!2024-08-28,57,310-->
 - $M_{10}$ ::: number of attributes where _A_ has value 1 and _B_ has value 0 <!--SR:!2024-08-24,53,310!2024-08-12,44,290-->
-- $M_{11}$ ::: number of attributes where _A_ has value 1 and _B_ has value 1 <!--SR:!2024-07-04,16,290!2024-08-30,58,310-->
+- $M_{11}$ ::: number of attributes where _A_ has value 1 and _B_ has value 1 <!--SR:!2024-09-02,60,310!2024-08-30,58,310-->
 
 The Jaccard similarity coefficient, {{_J_}} is given as {{$$J = \frac {M_{11} } {M_{01} + M_{10} + M_{11} }$$}}. <!--SR:!2024-07-05,17,290!2024-08-30,59,310-->
 

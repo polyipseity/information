@@ -62,7 +62,7 @@ Define is {{unpacking your findings from empathize into insights, and coming up 
 
 ### ideate
 
-Ideate is {{generating _radical_ design alternatives, going wild with your imagination}}. While ideating, it is also important to curtail {{bad behaviors, like evaluating ideas}}. <!--SR:!2024-07-04,56,250!2024-11-20,172,310-->
+Ideate is {{generating _radical_ design alternatives, going wild with your imagination}}. While ideating, it is also important to curtail {{bad behaviors, like evaluating ideas}}. <!--SR:!2024-11-20,139,250!2024-11-20,172,310-->
 
 ### prototype
 
@@ -120,8 +120,8 @@ return await memorize_seq(
 - (empathize) assume a beginner's mindset→:::←(empathize) extreme users: find amplified pains and gains <!--SR:!2025-02-02,221,290!2024-10-27,155,310-->
 - (empathize) extreme users: find amplified pains and gains→:::←(empathize) interview for empathy: interview with two <!--SR:!2024-08-11,81,270!2024-07-12,24,250-->
 - (empathize) interview for empathy: interview with two→:::←(empathize) interview preparation: prepare, prioritize, and refine questions <!--SR:!2024-10-19,129,270!2025-04-05,282,330-->
-- (empathize) interview preparation: prepare, prioritize, and refine questions→:::←(empathize) what, how, why: from the concrete to the abstract <!--SR:!2024-07-05,8,130!2024-07-04,38,210-->
-- (empathize) what, how, why: from the concrete to the abstract→:::←(empathize/define) journey map: dissect a user process to gain insights <!--SR:!2024-07-04,14,130!2024-08-10,43,210-->
+- (empathize) interview preparation: prepare, prioritize, and refine questions→:::←(empathize) what, how, why: from the concrete to the abstract <!--SR:!2024-07-05,8,130!2024-09-20,78,210-->
+- (empathize) what, how, why: from the concrete to the abstract→:::←(empathize/define) journey map: dissect a user process to gain insights <!--SR:!2024-07-11,7,130!2024-08-10,43,210-->
 - (empathize/define) journey map: dissect a user process to gain insights→:::←(empathize/define) story share-and-capture: after interviews, exchange stories with the team to gain further insights <!--SR:!2024-08-27,80,230!2024-07-13,59,230-->
 - (empathize/define) story share-and-capture: after interviews, exchange stories with the team to gain further insights→:::←(define) 2×2 matrix: plot a _xy_ graph to reveal relations and for visualization <!--SR:!2024-07-23,50,190!2024-07-09,11,130-->
 - (define) 2×2 matrix: plot a _xy_ graph to reveal relations and for visualization→:::←(define) design guidelines: a strategy to solve your design challenge, abstract enough to allow for multiple solutions <!--SR:!2024-09-01,94,250!2024-07-13,14,130-->

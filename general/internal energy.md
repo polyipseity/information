@@ -9,7 +9,7 @@ tags:
 
 # internal energy
 
-The __internal energy__ is {{the [energy](energy.md) contained in a [thermodynamic system](thermodynamic%20system.md)}}. <!--SR:!2024-07-04,299,310-->
+The __internal energy__ is {{the [energy](energy.md) contained in a [thermodynamic system](thermodynamic%20system.md)}}. <!--SR:!2027-01-16,926,310-->
 
 ## internal energy of ideal gas
 

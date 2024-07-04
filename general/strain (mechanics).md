@@ -15,7 +15,7 @@ In [mechanics](mechanics.md), __strain__ is defined as {{relative [deformation](
 
 ### engineering strain
 
-__Engineering strain__, also known as {{__Cauchy strain__}}, is expressed as {{the ratio of the deformation to the initial dimension on the body}}. For an {{axial object}}, this is {{the _relative elongation_ (symbol: $e$ or $\varepsilon$) or the change in length $\Delta L$ per unit length of the original length $L$}}: {{$$e = \frac {\Delta L} L$$}}. <!--SR:!2024-07-29,55,310!2024-07-22,49,310!2024-07-15,40,290!2024-07-04,34,290!2024-08-13,67,310-->
+__Engineering strain__, also known as {{__Cauchy strain__}}, is expressed as {{the ratio of the deformation to the initial dimension on the body}}. For an {{axial object}}, this is {{the _relative elongation_ (symbol: $e$ or $\varepsilon$) or the change in length $\Delta L$ per unit length of the original length $L$}}: {{$$e = \frac {\Delta L} L$$}}. <!--SR:!2024-07-29,55,310!2024-07-22,49,310!2024-07-15,40,290!2024-11-17,136,310!2024-08-13,67,310-->
 
 Strain has {{no units and is dimensionless}}. <!--SR:!2024-10-05,95,290-->
 

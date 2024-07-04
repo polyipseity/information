@@ -43,7 +43,7 @@ See [Beijing National Stadium](../../../../general/Beijing%20National%20Stadium)
 See [Burj Al Arab](../../../../general/Burj%20Al%20Arab.md).
 
 - description ::: luxury hotel in Dubai, United Arab Emirates <!--SR:!2024-09-19,106,307!2024-08-29,108,377-->
-- height ::: architectural: 321 m, top floor: 197.5 m <!--SR:!2024-07-04,28,220!2024-08-13,92,365-->
+- height ::: architectural: 321 m, top floor: 197.5 m <!--SR:!2024-09-02,60,220!2024-08-13,92,365-->
 - image ::: ![Burj Al Arab image](../../../../archives/Wikimedia%20Commons/Burj%20Al%20Arab,%20Dubai,%20by%20Joi%20Ito%20Dec2007.jpg) <!--SR:!2024-09-11,107,380!2024-08-30,96,380-->
 - shape ::: sail of a ship <!--SR:!2024-07-23,71,357!2024-07-23,75,372-->
 
@@ -169,7 +169,7 @@ See [Hong Kong Convention and Exhibition Centre](../../../../general/Hong%20Kong
 
 See [Hong Kong–Zhuhai–Macau Bridge](../../../../general/Hong%20Kong–Zhuhai–Macau%20Bridge.md).
 
-- bridge type ::: [bridge–tunnel](../../../../general/bridge–tunnel.md)<!-- flashcard 981d3cc6-47b4-4aad-8a99-bdeea2975b92 --> <!--SR:!2024-07-04,59,354!2024-07-27,79,374-->
+- bridge type ::: [bridge–tunnel](../../../../general/bridge–tunnel.md)<!-- flashcard 981d3cc6-47b4-4aad-8a99-bdeea2975b92 --> <!--SR:!2025-04-16,286,374!2024-07-27,79,374-->
 - description ::: fixed link consisting of tunnels and multiple bridges <!--SR:!2024-08-19,98,375!2024-12-19,209,330-->
 - image ::: ![Hong Kong–Zhuhai–Macau Bridge image](../../../../archives/Wikimedia%20Commons/West%20section%20of%20Hong%20Kong-Zhuhai-Macau%20Bridge%20(20180902174105).jpg) <!--SR:!2024-09-10,106,380!2024-08-19,87,380-->
 - length: 55 km

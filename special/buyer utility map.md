@@ -90,7 +90,7 @@ simplicity: remove complexity or hassle
 
 <!--pytextgen generate section="aa92"--><!-- The following content is generated at 2024-04-22T01:24:34.799107+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←convenience: ease of spatial and temporal accessibility <!--SR:!2024-07-25,58,259!2024-07-04,54,310-->
+- _(begin)_→:::←convenience: ease of spatial and temporal accessibility <!--SR:!2024-07-25,58,259!2024-12-17,166,310-->
 - convenience: ease of spatial and temporal accessibility→:::←environmental friendliness <!--SR:!2024-09-05,87,279!2024-07-05,51,299-->
 - environmental friendliness→:::←fun and image: conveyed feel, look, or attitude <!--SR:!2024-07-16,51,259!2024-07-29,59,259-->
 - fun and image: conveyed feel, look, or attitude→:::←productivity: less effort, time, or money <!--SR:!2024-08-19,64,239!2024-08-22,56,239-->

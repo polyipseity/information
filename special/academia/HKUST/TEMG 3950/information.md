@@ -19,7 +19,7 @@ tags:
 
 ## context
 
-Education needs to prepare for {{future jobs that we do not know now}}. This is needed to adapt in our {{very fast moving world of disruptive technology}}, such as autonomous flying taxis, ChatGPT, etc. One way to do that is via {{learning [metaknowledge](../../../../general/metaknowledge.md)}}. <!--SR:!2024-10-15,129,290!2025-01-09,195,310!2024-07-04,56,310-->
+Education needs to prepare for {{future jobs that we do not know now}}. This is needed to adapt in our {{very fast moving world of disruptive technology}}, such as autonomous flying taxis, ChatGPT, etc. One way to do that is via {{learning [metaknowledge](../../../../general/metaknowledge.md)}}. <!--SR:!2024-10-15,129,290!2025-01-09,195,310!2025-03-02,241,330-->
 
 Some important metaknowledge in this 21st century are the 4Cs: {{collaboration to solve large problems, communication to convince people, creativity to make new things, and critical thinking and problem solving to solve problems}}. <!--SR:!2024-07-06,45,250-->
 
