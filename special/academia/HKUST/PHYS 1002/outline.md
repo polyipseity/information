@@ -242,6 +242,7 @@ The content is in teaching order.
 - [solar term](../../../../general/solar%20term.md) ::: One of the 24 periods in traditional Chinese lunisolar calendars.
 - [scale of the universe @ HKUST](scale%20of%20the%20universe%20@%20HKUST.md) / [Moon](../../../../general/Moon.md)
 - [Moon](../../../../general/Moon.md)
+  - [§ orbit](../../../../general/Moon.md#orbit)
   - [Moon](../../../../general/Moon.md) / [average orbital distance](../../../../general/lunar%20distance.md) ::: 384&nbsp;400 km, about 30 times the diameter of Earth
   - [Moon](../../../../general/Moon.md) / orbital direction ::: counterclockwise viewed from north; prograde to Earth's rotation direction
   - [Moon](../../../../general/Moon.md) / rotation direction ::: counterclockwise viewed from north; prograde to its own rotation direction, prograde to Earth's rotation direction
