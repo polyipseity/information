@@ -13,7 +13,7 @@ An __OLAP cube__ is {{a [multi-dimensional array](array%20(data%20type).md#multi
 
 ## operations
 
-_Drill down/up_ allows the user to {{navigate among levels of data}} ranging from {{the most summarized (up) to the most detailed (down)}}. The more summarized the data level, {{the more dimensions are collapsed and thus hidden}}, and vice versa. <!--SR:!2024-09-02,61,310!2024-07-04,16,290!2024-08-14,43,290-->
+_Drill down/up_ allows the user to {{navigate among levels of data}} ranging from {{the most summarized (up) to the most detailed (down)}}. The more summarized the data level, {{the more dimensions are collapsed and thus hidden}}, and vice versa. <!--SR:!2024-09-02,61,310!2024-09-10,68,310!2024-08-14,43,290-->
 
 _Rollup_ involves {{summarizing the data along a dimension}}. The summarization rule may be {{an [aggregate function](aggregate%20function.md)}}, such as {{computing the average, max, min, sum, or a custom formula}}. <!--SR:!2024-07-05,17,290!2024-08-06,35,290!2024-08-16,45,290-->
 

@@ -35,7 +35,7 @@ A function is continuous on an open [interval](interval%20(mathematics).md) {{if
 
 A function that {{is continuous on the interval $(-\infty, +\infty)$, i.e. $\mathbb{R}$}}, is _continuous everywhere_. It is also {{often simply called a continuous function}}. Sometimes, a function that {{is continuous on its [domain](domain%20of%20a%20function.md) but not all [real](real%20number.md)}} is also called a continuous function, but it is {{not continuous everywhere}}. For example, {{[partial functions](partial%20function.md) that have a domain of all reals except at [isolated points](isolated%20point.md)}}, which are continuous in its domain. In {{contexts interested in the partial functions' behavior near exceptional points}}, they are called _discontinuous functions_ instead, confusingly. <!--SR:!2025-02-21,265,330!2024-11-03,176,310!2025-02-01,248,324!2024-09-01,121,290!2025-01-07,228,324!2024-08-24,112,290-->
 
-A __discontinuous function__ is {{a function that is _not continuous_, so a function is either continuous or discontinuous}}. <!--SR:!2024-07-04,64,333-->
+A __discontinuous function__ is {{a function that is _not continuous_, so a function is either continuous or discontinuous}}. <!--SR:!2025-02-01,212,333-->
 
 > [!tip] tips
 >

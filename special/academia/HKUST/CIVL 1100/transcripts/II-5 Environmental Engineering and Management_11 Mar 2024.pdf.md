@@ -243,7 +243,7 @@ Water Pollution: A serious problem in Hong Kong?
 Hong Kong Harbour Area Treatment Scheme Stage I (HATS)
 
 - Hong Kong Harbour Area Treatment Scheme Stage I ::: HATS Stage 1 <!--SR:!2024-07-31,56,310!2024-08-07,61,310-->
-  - HATS Stage 1 scheme period ::: 1994 to 2001 <!--SR:!2024-07-16,42,290!2024-07-04,30,270-->
+  - HATS Stage 1 scheme period ::: 1994 to 2001 <!--SR:!2024-07-16,42,290!2024-07-18,14,250-->
   - HATS Stage 1 scheme cost ::: HK$8.2 billion <!--SR:!2024-07-10,35,290!2024-07-08,31,270-->
   - HATS Stage 1 details ::: Stonecutters Island Sewage Treatment Works (SCISTW), sewage tunnel of 23.6 km, upgrade 8 preliminary treatment works (PTWs) <!--SR:!2024-07-09,35,270!2024-08-04,58,310-->
   - HATS Stage 1 geographic coverage ::: collect sewage from Kowloon, Kwai Tsing, Tseung Kwan O, and north-eastern Hong Kong Island to SCISTW <!--SR:!2024-09-15,75,270!2024-07-12,37,290-->
@@ -390,7 +390,7 @@ return await memorize_seq(
 <!--pytextgen generate section="ff34"--><!-- The following content is generated at 2024-05-16T15:50:24.139486+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←carbon dioxide (CO<sub>2</sub>) <!--SR:!2024-08-09,62,310!2024-08-10,63,310-->
-- carbon dioxide (CO<sub>2</sub>)→:::←hydroflurocarbons (HFCs) <!--SR:!2024-07-22,34,230!2024-07-04,31,270-->
+- carbon dioxide (CO<sub>2</sub>)→:::←hydroflurocarbons (HFCs) <!--SR:!2024-07-22,34,230!2024-09-25,83,270-->
 - hydroflurocarbons (HFCs)→:::←methane (CH<sub>4</sub>) <!--SR:!2024-07-15,37,270!2024-07-14,31,230-->
 - methane (CH<sub>4</sub>)→:::←nitrous oxide (N<sub>2</sub>O) <!--SR:!2024-07-24,36,250!2024-07-26,47,290-->
 - nitrous oxide (N<sub>2</sub>O)→:::←perflurocarbons (PFCs) <!--SR:!2024-07-26,24,230!2024-07-11,8,190-->
@@ -460,4 +460,4 @@ Relationship between ppm<sub>v</sub> and mg/m<sup>3</sup>
 
 - relationship between ppm<sub>v</sub> and mg/m<sup>3</sup>
   - relationship between ppm<sub>v</sub> and mg/m<sup>3</sup> at 0 °C and 1 atm ::: $$\mathrm{conc.\ \left(mg/m^3\right)} = \frac {\mathrm{conc.\ (ppm_v)} \times \mathrm{mol.\ wt.\ (g/mol)} } {22.414\mathrm{\ (L/mol)} }$$ <!--SR:!2024-08-01,56,310!2024-07-14,39,290-->
-  - relationship between ppm<sub>v</sub> and mg/m<sup>3</sup> at other temperature and pressure ::: $$\mathrm{conc.\ \left(mg/m^3\right)} = \frac {\mathrm{conc.\ (ppm_v)} \times \mathrm{mol.\ wt.\ (g/mol)} } {\mathrm{22.414\ (L/mol)} } \times \frac {273.15\mathrm{\ K} } {T\mathrm{\ (K)} } \times \frac {p\mathrm{\ (atm)} } {1\mathrm{\ atm} }$$ <!--SR:!2024-07-09,35,270!2024-07-04,33,290-->
+  - relationship between ppm<sub>v</sub> and mg/m<sup>3</sup> at other temperature and pressure ::: $$\mathrm{conc.\ \left(mg/m^3\right)} = \frac {\mathrm{conc.\ (ppm_v)} \times \mathrm{mol.\ wt.\ (g/mol)} } {\mathrm{22.414\ (L/mol)} } \times \frac {273.15\mathrm{\ K} } {T\mathrm{\ (K)} } \times \frac {p\mathrm{\ (atm)} } {1\mathrm{\ atm} }$$ <!--SR:!2024-07-09,35,270!2024-10-07,95,290-->

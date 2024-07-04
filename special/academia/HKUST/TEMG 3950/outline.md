@@ -167,7 +167,7 @@ The content is in teaching order.
     - consultant after 4 to 6 years ::: Eng. Manager, Mg. Consultant, Project Leader: managing the work; exit to manager of big firms or director of small firms, and further top EMBA <!--SR:!2024-07-22,34,301!2024-09-28,93,361-->
     - consultant after 6 to 9 years ::: As. Partner, Principal: selling the work; exit to director of big firms or general manager (GM) of small firms, and further top EMBA <!--SR:!2024-07-21,33,301!2024-08-07,46,321-->
     - consultant after 9 years or more ::: Director, Partner, VP: managing the business; exit to CEO or retire rich <!--SR:!2024-08-23,59,341!2024-09-24,89,361-->
-- nature of complex problems ::: modeled by time-varying multi-variable optimization problems with constraints <!--SR:!2024-07-04,9,321!2024-09-26,91,361-->
+- nature of complex problems ::: modeled by time-varying multi-variable optimization problems with constraints <!--SR:!2024-08-12,39,341!2024-09-26,91,361-->
   - solving complex problems ::: MECE frameworks for patterns, 5-step persuasive selling for presentation <!--SR:!2024-09-21,87,361!2024-07-25,36,321-->
 - [Pareto principle](../../../../general/Pareto%20principle.md)
 - "less is more" ::: In the digital age, there is too much information (digital garbage), so they need to be distilled. Also see [DIKW pyramid](../../../../general/DIKW%20pyramid.md). <!--SR:!2024-08-23,59,341!2024-09-21,86,361-->
@@ -202,7 +202,7 @@ The content is in teaching order.
 - [assignment W9](assignment%20W9/assignment%20W9.md) takeaways
   - general case analysis question takeaways ::: Identify key questions. Choose the question that is most precise and involves least work. <!--SR:!2024-08-23,59,341!2024-09-20,85,361-->
   - use of framework takeaways ::: Consider relevant dimensions of each framework and select the framework with the most relevant dimensions. Add a total at the end to sum up all the dimensions. <!--SR:!2024-08-30,65,341!2024-10-01,95,361-->
-- nature of problems ::: Problems are caused by a network of causes. If the causes are not removed, the problems may recur. <!--SR:!2024-07-04,19,321!2024-09-25,90,361-->
+- nature of problems ::: Problems are caused by a network of causes. If the causes are not removed, the problems may recur. <!--SR:!2024-08-31,58,321!2024-09-25,90,361-->
 - casual relationship ::: Event A, called the _cause_, causes event B, called the _effect_. <!--SR:!2024-08-22,58,341!2024-09-20,86,361-->
 - correlation ::: Measure of relationship between 2 variables. They can be positively correlated, negatively correlated, or uncorrelated. <!--SR:!2024-07-05,10,321!2024-07-28,38,321-->
 - casual relationship & correlation ::: Correlation does not imply causation. <!--SR:!2024-09-14,80,361!2024-09-20,86,361-->

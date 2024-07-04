@@ -48,7 +48,7 @@ return await memorize_table(
 
 - _(begin)_→:::←[catalytic](catalysis.md) properties <!--SR:!2027-05-04,1155,350!2027-04-28,1150,350-->
 - [catalytic](catalysis.md) properties→:::←colored [ions](ion.md) <!--SR:!2024-07-05,353,330!2026-05-08,804,330-->
-- colored [ions](ion.md)→:::←variable [oxidation states](oxidation%20state.md) <!--SR:!2027-03-15,1114,350!2024-07-04,352,330-->
+- colored [ions](ion.md)→:::←variable [oxidation states](oxidation%20state.md) <!--SR:!2027-03-15,1114,350!2028-11-21,1601,350-->
 - variable [oxidation states](oxidation%20state.md)→:::←_(end)_ <!--SR:!2024-07-06,354,330!2027-10-03,1273,350-->
 
 <!--/pytextgen-->

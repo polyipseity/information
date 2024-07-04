@@ -75,7 +75,7 @@ why: Why are people using competitors' products?
 - discover: Identify unmet needs.→:::←how: What is our strategy? <!--SR:!2024-07-09,6,201!2024-07-31,28,261-->
 - how: What is our strategy?→:::←pricing: Compare prices. <!--SR:!2024-07-07,5,221!2024-07-10,15,261-->
 - pricing: Compare prices.→:::←who: Who are the competitors? 3 to 5 is usually enough. <!--SR:!2024-07-17,45,261!2024-08-18,61,261-->
-- who: Who are the competitors? 3 to 5 is usually enough.→:::←why: Why are people using competitors' products? <!--SR:!2024-10-13,103,281!2024-07-04,30,241-->
+- who: Who are the competitors? 3 to 5 is usually enough.→:::←why: Why are people using competitors' products? <!--SR:!2024-10-13,103,281!2024-09-15,73,241-->
 - why: Why are people using competitors' products?→:::←_(end)_ <!--SR:!2024-08-10,68,321!2024-09-16,83,281-->
 
 <!--/pytextgen-->
@@ -173,7 +173,7 @@ number of features
 - durability→:::←service <!--SR:!2024-07-25,50,301!2024-07-14,12,241-->
 - service→:::←convenience <!--SR:!2024-07-20,35,241!2024-08-08,56,301-->
 - convenience→:::←ease of use <!--SR:!2024-07-15,40,261!2024-07-22,55,314-->
-- ease of use→:::←number of features <!--SR:!2024-07-06,36,281!2024-07-04,38,274-->
+- ease of use→:::←number of features <!--SR:!2024-07-06,36,281!2024-07-23,19,254-->
 - number of features→:::←_(least important)_ <!--SR:!2024-08-08,69,314!2024-08-15,72,321-->
 
 <!--/pytextgen-->
@@ -184,7 +184,7 @@ It is very important to {{add our own products to the visualization and make it 
 
 If we are comparing two features only, we can {{use a _xy_-grid and plot our and competitors' products}}. If there are more features, {{we can use a table, with the column headers being the products and the row headers being the features}}. {{A mix of both}} is possible. <!--SR:!2024-08-10,67,321!2024-07-24,56,314!2024-11-26,152,310-->
 
-When listing the features, {{use numbers}} if possible. Do not be {{vague}}. Highlight {{important features, such as the best product for each feature}}. <!--SR:!2024-07-26,51,301!2024-08-04,63,321!2024-07-04,39,281-->
+When listing the features, {{use numbers}} if possible. Do not be {{vague}}. Highlight {{important features, such as the best product for each feature}}. <!--SR:!2024-07-26,51,301!2024-08-04,63,321!2024-12-08,157,301-->
 
 ## references
 
