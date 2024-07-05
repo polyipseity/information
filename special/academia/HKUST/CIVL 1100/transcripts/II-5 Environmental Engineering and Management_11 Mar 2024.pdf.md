@@ -102,7 +102,7 @@ return await memorize_seq(
 - (Cap. 311) Air Pollution Control Ordinance→:::←(Cap. 354) Waste Disposal Ordinance <!--SR:!2024-07-14,19,295!2024-07-07,19,335-->
 - (Cap. 354) Waste Disposal Ordinance→:::←(Cap. 358) Water Pollution Control Ordinance <!--SR:!2024-07-15,20,295!2024-07-07,19,335-->
 - (Cap. 358) Water Pollution Control Ordinance→:::←(Cap. 400) Noise Pollution Control Ordinance <!--SR:!2024-07-16,13,275!2024-07-22,26,295-->
-- (Cap. 400) Noise Pollution Control Ordinance→:::←(Cap. 499) Environmental Impact Ordinance <!--SR:!2024-07-05,6,295!2024-08-15,44,315-->
+- (Cap. 400) Noise Pollution Control Ordinance→:::←(Cap. 499) Environmental Impact Ordinance <!--SR:!2024-07-22,17,295!2024-08-15,44,315-->
 - (Cap. 499) Environmental Impact Ordinance→:::←_(end)_ <!--SR:!2024-07-07,19,335!2024-07-07,19,335-->
 
 <!--/pytextgen-->
@@ -228,7 +228,7 @@ Environmental Levy Scheme (Plastic Shopping Bags)
 
 - Environmental Levy Scheme ::: scheme to reduce plastic shopping bags <!--SR:!2024-08-01,56,310!2024-08-13,65,310-->
   - Environmental Levy Scheme launch time ::: launched in 2009 <!--SR:!2024-07-14,29,290!2024-08-08,61,310-->
-  - Environmental Levy Scheme coverage ::: 40 registered retailers with ~3100 retail outlets <!--SR:!2024-07-05,32,270!2024-07-23,48,310-->
+  - Environmental Levy Scheme coverage ::: 40 registered retailers with ~3100 retail outlets <!--SR:!2024-09-28,85,270!2024-07-23,48,310-->
   - Environmental Levy Scheme effect ::: -90% from registered retailers after 1 year. -25% in overall plastic bag consumption after covering all retail shops in 2015 <!--SR:!2024-09-05,68,270!2024-07-30,52,290-->
   - Environmental Levy Scheme income ::: HK$25.5 million in 2009 <!--SR:!2024-09-06,71,270!2024-07-16,40,290-->
 
@@ -256,7 +256,7 @@ HATS Stage 2 Overview
 
 - Hong Kong Harbour Area Treatment Scheme Stage II ::: HATS Stage 2 <!--SR:!2024-08-04,58,310!2024-08-11,64,310-->
   - HATS Stage 2 phases ::: 2 phases, stage 2A and stage 2B <!--SR:!2024-08-07,60,310!2024-08-09,63,310-->
-  - HATS Stage 2A ::: collect and treat the remaining 25% sewage from north and south-western Hong Kong Island and future development, and provide disinfection <!--SR:!2024-08-21,65,270!2024-07-05,34,290-->
+  - HATS Stage 2A ::: collect and treat the remaining 25% sewage from north and south-western Hong Kong Island and future development, and provide disinfection <!--SR:!2024-08-21,65,270!2024-10-10,97,290-->
   - HATS Stage 2B ::: biological treatment <!--SR:!2024-07-25,48,290!2024-07-28,53,310-->
 
 ## page 19

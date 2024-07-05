@@ -21,7 +21,7 @@ tags:
 
 #### eigenvalues
 
-The eigenvalues of a matrix $A$ can be determined by {{finding the roots of the [characteristic polynomial](characteristic%20polynomial.md) ($\det(tI - A) = 0$)}}. This is {{easy for $2 \times 2$ matrices, but the difficulty increases rapidly with the size of the matrix}}. <!--SR:!2024-08-10,39,290!2024-07-05,17,290-->
+The eigenvalues of a matrix $A$ can be determined by {{finding the roots of the [characteristic polynomial](characteristic%20polynomial.md) ($\det(tI - A) = 0$)}}. This is {{easy for $2 \times 2$ matrices, but the difficulty increases rapidly with the size of the matrix}}. <!--SR:!2024-08-10,39,290!2024-09-11,68,310-->
 
 #### eigenvectors
 

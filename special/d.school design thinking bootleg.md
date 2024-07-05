@@ -58,7 +58,7 @@ Empathy is {{the foundation of human-centered design}}. To empathize: {{observe,
 
 ### define
 
-Define is {{unpacking your findings from empathize into insights, and coming up with your _Point of View_}}. A _Point of View_ should {{preserve emotions and the individuals you are designing for. Language should be strong but sensible. The goal is to generate many possibilities}}. <!--SR:!2024-07-05,57,250!2024-09-25,126,290-->
+Define is {{unpacking your findings from empathize into insights, and coming up with your _Point of View_}}. A _Point of View_ should {{preserve emotions and the individuals you are designing for. Language should be strong but sensible. The goal is to generate many possibilities}}. <!--SR:!2024-11-24,142,250!2024-09-25,126,290-->
 
 ### ideate
 
@@ -120,13 +120,13 @@ return await memorize_seq(
 - (empathize) assume a beginner's mindset→:::←(empathize) extreme users: find amplified pains and gains <!--SR:!2025-02-02,221,290!2024-10-27,155,310-->
 - (empathize) extreme users: find amplified pains and gains→:::←(empathize) interview for empathy: interview with two <!--SR:!2024-08-11,81,270!2024-07-12,24,250-->
 - (empathize) interview for empathy: interview with two→:::←(empathize) interview preparation: prepare, prioritize, and refine questions <!--SR:!2024-10-19,129,270!2025-04-05,282,330-->
-- (empathize) interview preparation: prepare, prioritize, and refine questions→:::←(empathize) what, how, why: from the concrete to the abstract <!--SR:!2024-07-05,8,130!2024-09-20,78,210-->
+- (empathize) interview preparation: prepare, prioritize, and refine questions→:::←(empathize) what, how, why: from the concrete to the abstract <!--SR:!2024-07-17,12,130!2024-09-20,78,210-->
 - (empathize) what, how, why: from the concrete to the abstract→:::←(empathize/define) journey map: dissect a user process to gain insights <!--SR:!2024-07-11,7,130!2024-08-10,43,210-->
 - (empathize/define) journey map: dissect a user process to gain insights→:::←(empathize/define) story share-and-capture: after interviews, exchange stories with the team to gain further insights <!--SR:!2024-08-27,80,230!2024-07-13,59,230-->
 - (empathize/define) story share-and-capture: after interviews, exchange stories with the team to gain further insights→:::←(define) 2×2 matrix: plot a _xy_ graph to reveal relations and for visualization <!--SR:!2024-07-23,50,190!2024-07-09,11,130-->
 - (define) 2×2 matrix: plot a _xy_ graph to reveal relations and for visualization→:::←(define) design guidelines: a strategy to solve your design challenge, abstract enough to allow for multiple solutions <!--SR:!2024-09-01,94,250!2024-07-13,14,130-->
 - (define) design guidelines: a strategy to solve your design challenge, abstract enough to allow for multiple solutions→:::←(define) point of view (POV): make your design challenge into an actionable statement <!--SR:!2024-09-01,80,230!2024-09-05,83,210-->
-- (define) point of view (POV): make your design challenge into an actionable statement→:::←(define) why-how laddering: from need, asking "Why?" to follow the chain of reasoning to the root need, and then find other needs by asking "How?" to follow back down the chain <!--SR:!2024-07-05,23,150!2024-07-15,54,230-->
+- (define) point of view (POV): make your design challenge into an actionable statement→:::←(define) why-how laddering: from need, asking "Why?" to follow the chain of reasoning to the root need, and then find other needs by asking "How?" to follow back down the chain <!--SR:!2024-07-19,14,130!2024-07-15,54,230-->
 - (define) why-how laddering: from need, asking "Why?" to follow the chain of reasoning to the root need, and then find other needs by asking "How?" to follow back down the chain→:::←(define/ideate) "how might we" questions: questions to stimulate ideation that are suitably narrow and suitably board <!--SR:!2024-07-08,6,130!2024-08-02,56,210-->
 - (define/ideate) "how might we" questions: questions to stimulate ideation that are suitably narrow and suitably board→:::←(define/ideate) powers of ten: change the scale by orders of magnitude <!--SR:!2024-07-12,38,170!2024-08-20,56,190-->
 - (define/ideate) powers of ten: change the scale by orders of magnitude→:::←_(end)_ <!--SR:!2024-10-10,141,310!2024-08-24,93,270-->

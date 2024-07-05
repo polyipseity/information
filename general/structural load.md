@@ -108,7 +108,7 @@ return await memorize_seq(
 - _(begin)_→:::←[hydrostatic load](#hydrostatic%20load) <!--SR:!2024-07-13,41,290!2024-08-22,77,320-->
 - [hydrostatic load](#hydrostatic%20load)→:::←[lateral load](#lateral%20load) <!--SR:!2024-10-08,97,288!2024-07-12,42,300-->
 - [lateral load](#lateral%20load)→:::←[seismic load](#seismic%20load) <!--SR:!2024-09-21,85,288!2024-07-19,48,300-->
-- [seismic load](#seismic%20load)→:::←[thermal load](#thermal%20load) <!--SR:!2024-07-05,14,260!2024-07-17,38,260-->
+- [seismic load](#seismic%20load)→:::←[thermal load](#thermal%20load) <!--SR:!2024-08-11,37,260!2024-07-17,38,260-->
 - [thermal load](#thermal%20load)→:::←[wind load](#wind%20load) <!--SR:!2024-07-06,38,300!2024-07-26,45,270-->
 - [wind load](#wind%20load)→:::←_(end)_ <!--SR:!2024-08-19,75,320!2024-08-10,67,328-->
 
