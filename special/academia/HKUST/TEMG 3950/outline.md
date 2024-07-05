@@ -26,7 +26,7 @@ The content is in teaching order.
 - [information § product innovation elements](information.md#production%20innovation%20elements)
 - [product innovation § classification of innovation](../../../../general/product%20innovation.md#classification%20of%20innovation)
 - investor goals ::: Investors want to make money in the shortest amount of time. Maybe with the exception of biotechnology investors, considering it requires a long time to see returns. <!--SR:!2024-08-18,76,270!2024-07-13,63,310-->
-- good business opportunities ::: meet a need (most important), sufficient resources, right location, right price, right time <!--SR:!2024-08-04,57,230!2024-07-05,57,310-->
+- good business opportunities ::: meet a need (most important), sufficient resources, right location, right price, right time <!--SR:!2024-08-04,57,230!2025-03-05,243,330-->
 - [buyer utility map](../../../buyer%20utility%20map.md)
 - [_Blue Ocean Strategy_ § concept](../../../../general/Blue%20Ocean%20Strategy.md#concept)
   - blue ocean strategy example ::: [inventing the air fryer from observing French fries](../../../examples/inventing%20the%20air%20fryer%20from%20observing%20French%20fries.md) <!--SR:!2024-09-23,112,290!2024-07-07,59,310-->
@@ -204,7 +204,7 @@ The content is in teaching order.
   - use of framework takeaways ::: Consider relevant dimensions of each framework and select the framework with the most relevant dimensions. Add a total at the end to sum up all the dimensions. <!--SR:!2024-08-30,65,341!2024-10-01,95,361-->
 - nature of problems ::: Problems are caused by a network of causes. If the causes are not removed, the problems may recur. <!--SR:!2024-08-31,58,321!2024-09-25,90,361-->
 - casual relationship ::: Event A, called the _cause_, causes event B, called the _effect_. <!--SR:!2024-08-22,58,341!2024-09-20,86,361-->
-- correlation ::: Measure of relationship between 2 variables. They can be positively correlated, negatively correlated, or uncorrelated. <!--SR:!2024-07-05,10,321!2024-07-28,38,321-->
+- correlation ::: Measure of relationship between 2 variables. They can be positively correlated, negatively correlated, or uncorrelated. <!--SR:!2024-08-18,44,341!2024-07-28,38,321-->
 - casual relationship & correlation ::: Correlation does not imply causation. <!--SR:!2024-09-14,80,361!2024-09-20,86,361-->
 - [root cause analysis](../../../../general/root%20cause%20analysis.md) ::: discovery of casual relationships <!--SR:!2024-08-08,46,321!2024-08-16,52,341-->
 - [five whys](../../../../general/five%20whys.md)

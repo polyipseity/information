@@ -265,7 +265,7 @@ subscription fee
 
 - _(begin)_→:::←advertising <!--SR:!2024-08-24,92,274!2024-07-16,71,317-->
 - advertising→:::←asset sale <!--SR:!2024-10-07,130,294!2024-11-28,167,317-->
-- asset sale→:::←brokerage fee <!--SR:!2024-07-05,55,274!2024-07-09,20,254-->
+- asset sale→:::←brokerage fee <!--SR:!2024-12-04,152,274!2024-07-09,20,254-->
 - brokerage fee→:::←lending, renting, or leasing <!--SR:!2024-07-17,56,257!2024-10-31,121,254-->
 - lending, renting, or leasing→:::←licensing <!--SR:!2024-08-23,87,257!2024-08-01,71,274-->
 - licensing→:::←usage fee <!--SR:!2024-08-10,76,274!2024-07-31,68,274-->
@@ -298,4 +298,4 @@ Business model fit can be achieved by {{reiteration between changing the value p
 
 ## comparison with other models
 
-The business model canvas can be grouped into {{4 sections: "how" for key blocks, "what" for value propositions, "who" for customer blocks, and "how much" for cost structure and revenue streams}}. It can also be grouped into {{3 sections: "feasibility" for key blocks, "desirability" for value propositions and customer blocks, and "viability" for cost structure and revenue streams}}. This is similar to {{[design thinking](../general/design%20thinking.md)}}. <!--SR:!2024-07-06,39,289!2024-07-05,39,289!2024-08-12,72,329-->
+The business model canvas can be grouped into {{4 sections: "how" for key blocks, "what" for value propositions, "who" for customer blocks, and "how much" for cost structure and revenue streams}}. It can also be grouped into {{3 sections: "feasibility" for key blocks, "desirability" for value propositions and customer blocks, and "viability" for cost structure and revenue streams}}. This is similar to {{[design thinking](../general/design%20thinking.md)}}. <!--SR:!2024-07-06,39,289!2024-07-08,3,250!2024-08-12,72,329-->

@@ -46,7 +46,7 @@ The content is in teaching order.
     - [long-span structure examples](#long%20span%20structure%20examples)
     - underground structure examples ::: Turin–Lyon high-speed railway (2002–2032), 271 km long, has the Mont Cenis base tunnel that is 57.5 km long with up to 4 km long access tunnels <!--SR:!2024-09-16,99,321!2024-10-26,147,352-->
   - [civil engineering new challenges](#civil%20engineering%20new%20challenges)
-    - climate change engineering examples ::: Project MOSE (2003–2025) in Venice, Thames Barrier (1974–1982) <!--SR:!2024-07-05,42,287!2024-08-30,98,380-->
+    - climate change engineering examples ::: Project MOSE (2003–2025) in Venice, Thames Barrier (1974–1982) <!--SR:!2024-11-02,120,287!2024-08-30,98,380-->
       - Thames Barrier (1974–1982) mechanism ::: The gate is a chord of a circle. It rotates along the circumference of the circle. When open, it acts like the river floor. When closing, the chord rotates about the circle center and becomes a barrier. <!--SR:!2024-09-13,110,337!2024-11-22,149,340-->
 - civil engineering solutions ::: smart cities <!--SR:!2024-09-06,105,380!2024-08-21,100,376-->
   - smart cities examples ::: Using technology to gather information, predict events, and notify people. <!--SR:!2025-03-24,304,335!2024-08-29,97,380-->
@@ -194,7 +194,7 @@ water and sewage treatment system
 - _(begin)_→:::←bridge <!--SR:!2024-07-30,80,377!2024-08-11,92,374-->
 - bridge→:::←building <!--SR:!2024-07-24,76,372!2024-07-28,75,360-->
 - building→:::←dam <!--SR:!2024-12-12,167,340!2024-09-06,105,380-->
-- dam→:::←pipeline <!--SR:!2024-07-05,16,204!2024-10-09,117,321-->
+- dam→:::←pipeline <!--SR:!2024-08-06,32,204!2024-10-09,117,321-->
 - pipeline→:::←power plant <!--SR:!2024-08-14,59,260!2024-07-06,38,281-->
 - power plant→:::←reservoir <!--SR:!2024-07-30,60,275!2024-09-05,91,320-->
 - reservoir→:::←sewage treatment <!--SR:!2024-07-18,31,197!2024-09-05,75,261-->
@@ -404,7 +404,7 @@ Water Cube
 - Burj Al Arab→:::←Burj Khalifa <!--SR:!2024-10-15,141,270!2024-12-22,190,352-->
 - Burj Khalifa→:::←CCTV Headquarters <!--SR:!2024-09-02,89,320!2024-08-12,95,270-->
 - CCTV Headquarters→:::←Eiffel Tower <!--SR:!2024-09-28,103,285!2024-07-15,52,292-->
-- Eiffel Tower→:::←Hong Kong Convention and Exhibition Centre <!--SR:!2024-10-13,114,294!2024-07-05,21,305-->
+- Eiffel Tower→:::←Hong Kong Convention and Exhibition Centre <!--SR:!2024-10-13,114,294!2024-09-03,60,305-->
 - Hong Kong Convention and Exhibition Centre→:::←Water Cube <!--SR:!2024-08-29,61,317!2024-08-24,81,320-->
 - Water Cube→:::←_(end)_ <!--SR:!2024-08-06,83,381!2025-01-02,201,357-->
 
@@ -452,7 +452,7 @@ testing materials
 
 <!--pytextgen generate section="a93e"--><!-- The following content is generated at 2024-05-01T19:22:34.995351+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←budgeting <!--SR:!2024-10-31,140,327!2024-07-05,57,355-->
+- _(begin)_→:::←budgeting <!--SR:!2024-10-31,140,327!2025-04-08,277,375-->
 - budgeting→:::←contracting <!--SR:!2024-08-25,87,314!2024-11-08,146,327-->
 - contracting→:::←designing temporary structures <!--SR:!2024-07-19,81,215!2024-08-28,62,275-->
 - designing temporary structures→:::←logistics <!--SR:!2024-10-03,124,340!2024-07-31,68,297-->
@@ -540,7 +540,7 @@ wood
 
 - _(begin)_→:::←brick <!--SR:!2024-07-18,66,357!2024-11-04,182,312-->
 - brick→:::←concrete <!--SR:!2024-08-30,61,305!2024-08-27,106,377-->
-- concrete→:::←new synthetic materials <!--SR:!2024-07-05,42,301!2024-12-07,161,341-->
+- concrete→:::←new synthetic materials <!--SR:!2024-11-09,127,301!2024-12-07,161,341-->
 - new synthetic materials→:::←steel <!--SR:!2024-11-20,155,332!2024-08-29,85,320-->
 - steel→:::←stone <!--SR:!2024-07-10,20,320!2024-12-03,159,340-->
 - stone→:::←wood <!--SR:!2024-08-14,75,321!2024-09-10,109,332-->
@@ -597,7 +597,7 @@ nuclear
 - ceramic→:::←chemical <!--SR:!2024-07-12,49,320!2024-09-24,119,335-->
 - chemical→:::←civil <!--SR:!2024-10-21,133,337!2024-12-24,194,357-->
 - civil→:::←computer <!--SR:!2024-11-15,163,354!2024-12-17,189,352-->
-- computer→:::←electrical <!--SR:!2024-11-07,142,327!2024-07-05,21,315-->
+- computer→:::←electrical <!--SR:!2024-11-07,142,327!2024-07-17,12,295-->
 - electrical→:::←industrial <!--SR:!2024-08-19,77,321!2024-07-25,52,270-->
 - industrial→:::←manufacturing <!--SR:!2024-10-02,125,337!2024-09-11,103,332-->
 - manufacturing→:::←mechanical <!--SR:!2024-08-23,101,377!2024-10-23,134,337-->
@@ -1095,7 +1095,7 @@ water tower
 <!--pytextgen generate section="1002"--><!-- The following content is generated at 2024-05-01T19:22:35.524682+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←bridge <!--SR:!2024-10-23,142,335!2024-08-12,88,380-->
-- bridge→:::←building <!--SR:!2024-07-05,57,350!2024-08-28,96,380-->
+- bridge→:::←building <!--SR:!2025-01-24,203,350!2024-08-28,96,380-->
 - building→:::←dam <!--SR:!2024-07-30,77,361!2025-01-17,198,361-->
 - dam→:::←power plant <!--SR:!2024-08-06,68,301!2024-07-25,33,238-->
 - power plant→:::←storage facility <!--SR:!2024-07-29,62,300!2024-09-12,111,334-->
@@ -1189,7 +1189,7 @@ water transport
 
 - _(begin)_→:::←airport <!--SR:!2024-07-26,62,290!2024-08-03,84,375-->
 - airport→:::←bicycle path <!--SR:!2024-07-15,67,355!2024-09-03,102,337-->
-- bicycle path→:::←highway <!--SR:!2024-07-05,55,360!2024-07-16,64,360-->
+- bicycle path→:::←highway <!--SR:!2025-01-20,199,360!2024-07-16,64,360-->
 - highway→:::←pier <!--SR:!2024-10-06,114,320!2024-08-10,72,300-->
 - pier→:::←pipeline <!--SR:!2024-08-03,80,380!2024-07-25,62,314-->
 - pipeline→:::←railroad <!--SR:!2024-07-24,44,255!2024-08-07,75,315-->
