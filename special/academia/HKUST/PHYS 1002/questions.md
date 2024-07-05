@@ -60,7 +60,7 @@ The parenthesized text at the beginning of of each question is {{the location th
 >
 > 1. at the North Pole
 > 2. at the South Pole
-> 3. an the equator
+> 3. on the equator
 > 4. on the prime meridian
 > 5. 1 and 2
 >
@@ -116,3 +116,56 @@ The parenthesized text at the beginning of of each question is {{the location th
 > Q2. (lecture) When will the Sun rise exactly due east and set exactly due west?
 >
 > - solution: {{During the equinoxes.}}
+
+<!-- markdownlint MD028 -->
+
+> Q3. (iPRS) At the equator, on which day(s) is the Sun’s position at noon the highest?
+>
+> 1. spring equinox
+> 2. summer solstice
+> 3. fall equinox
+> 4. winter solstice
+> 5. 1 and 3
+>
+> - solution: {{5}}
+
+<!-- markdownlint MD028 -->
+
+> Q4. (derived) There is a planet with a satellite orbiting a star. The planet completes an orbit in 420 years relative to distant stars. The satellite completes an orbit in 69 years relative to distant stars. The orbiting direction of the satellite is prograde to that of the planet. What is the synodic orbital period of the satellite relative to the star as viewed from the planet, rounded to the nearest year?
+>
+> 1. 69 years
+> 2. 83 years
+> 3. 59 years
+> 4. 82 years
+> 5. 420 years
+> 6. 60 years
+>
+> - solution: {{2}}
+> - steps: {{Since the relative orbital motion between the planet and the satellite is prograde, apply the equation: $$\frac 1 {T_\text{syn} } = \frac 1 {T_1} - \frac 1 {T_2} \quad T_1 < T_2$$. Thus we have $T_\text{syn} = \frac 1 {\frac 1 {T_1} - \frac 1 {T_2} } = \frac 1 {\frac 1 {69} - \frac 1 {420} } \approx 82.6 \approx 83\text{ years}$.}}
+
+<!-- markdownlint MD028 -->
+
+> Q5. (derived) Where on Earth can you enjoy 6 months of continuous daytime?
+>
+> 1. at the North Pole
+> 2. at the South Pole
+> 3. on the equator
+> 4. on the prime meridian
+> 5. 1 and 2
+> 6. 3 and 4
+>
+> - solution: {{5}}
+
+<!-- markdownlint MD028 -->
+
+> Q6. (derived) There are 2 planets orbiting a star. The 1st planet completes an orbit in 7 years relative to the fixed stars. The 2nd planet completes an orbit in 1 year relative to the 1st planet. The orbiting direction of the 2 planets are retrograde to each other. What is the sidereal orbital period of the 2nd planet?
+>
+> 1. 6/7 years
+> 2. 1 year
+> 3. 8/7 years
+> 4. 7 years
+> 5. 7/8 years
+> 6. 7/6 years
+>
+> - solution: {{6}}
+> - steps: {{Since the relative orbital motion between the 2 planets is retrograde, apply the equation: $$\frac 1 {T_\text{syn} } = \frac 1 {T_1} + \frac 1 {T_2}$$. Thus we have $T_2 = \frac 1 {\frac 1 {T_\text{syn} } - \frac 1 {T_1} } = \frac 1 {\frac 1 1 - \frac 1 7} = \frac 7 6\text{ years}$.}}
