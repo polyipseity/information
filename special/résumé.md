@@ -14,6 +14,8 @@ tags:
 # import ../../tools/utility.py.md
 ```
 
+The format outlined below is {{only recommended and does not need to be followed strictly}}.
+
 ## format
 
 To optimize the résumé for successful application and {{[applicant tracking system](applicant%20tracking%20system.md)}}: <!--SR:!2024-10-29,291,330-->

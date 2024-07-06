@@ -252,7 +252,7 @@ The content is in teaching order.
   - [lunar phase](../../../../general/lunar%20phase.md) ::: Cycles once every lunar month, which is about 29.5 days, which is the same as the synodic rotation period. Caused by changing relative orbital positions of the Moon, Earth, and the Sun, as the Moon orbits around Earth and Earth orbits around the Sun. Half of the Moon is always sunlit (the side facing the Sun), but as the visible side (the side facing the Earth) shifts relative to the sunlit side, so the portion of visible side that is sunlit changes. <!--SR:!2024-07-07,3,299!2024-07-07,3,299-->
     - [lunar phase § principal and intermediate phases of the Moon](../../../../general/lunar%20phase.md#principal%20and%20intermediate%20phases%20of%20the%20Moon) ::: new moon -> waxing crescent -> first quarter -> waxing gibbous -> full moon -> waning gibbous -> third quarter -> waning crescent -> (new moon) <!--SR:!2024-07-08,4,319!2024-07-08,4,319-->
       - [lunar phase § principal and intermediate phases of the Moon](../../../../general/lunar%20phase.md#principal%20and%20intermediate%20phases%20of%20the%20Moon) / memorization ::: New moon and full moon are easily remembered. Then insert the 2 quarters, first quarter and third quarter, respectively in between new moon and full moon, and in between full moon and next new moon. Finally, in between each of the 4 phases, including between third quarter and next new moon, insert the 4 minor phases. The 4 minor phases is a word combination of waxing or waning, and crescent or gibbous. Waxing means "increasing" while waning means "decreasing". Crescent means "sickle moon" while gibbous means "convex" or "protuberant", so the former is thinner than the latter. <!--SR:!2024-07-08,4,319!2024-07-07,3,299-->
-    - [lunar phase](../../../../general/lunar%20phase.md) / moonrise and moonset ::: Each day, the Moon advances in its orbit slightly, delaying moonrise and moonset daily. The moonrise and moonset times correspond to the moon phases, and resets every lunar month. <!--SR:!2024-07-07,3,299!2024-07-08,4,319-->
+    - [lunar phase](../../../../general/lunar%20phase.md) / moonrise and moonset ::: Each day, the Moon advances in its orbit slightly, delaying moonrise and moonset daily by about 50 minutes. The moonrise and moonset times correspond to the moon phases, and resets every lunar month. <!--SR:!2024-07-07,3,299!2024-07-08,4,319-->
   - [Moon](../../../../general/Moon.md) / sidereal [orbital period](../../../../general/orbital%20period.md) ::: about 27.3 days <!--SR:!2024-07-08,4,319!2024-07-08,4,319-->
   - [Moon](../../../../general/Moon.md) / sidereal [rotation period](../../../../general/rotation%20period%20(astronomy).md) ::: about 27.3 days = sidereal orbital period (due to tidal locking) <!--SR:!2024-07-07,3,299!2024-07-08,4,319-->
 - [orbital period § synodic period](../../../../general/orbital%20period.md#synodic%20period) ::: It is the orbital period of a body orbiting a second body, using a third body as the reference. (The second body and the third body can be the same.) It is also the time between [conjunctions](conjunction%20(astronomy).md) of the second body and the third body as viewed from the first body. For observers on [Earth](Earth.md), the usual reference (third body) is the [Sun](Sun.md). <!--SR:!2024-07-07,3,299!2024-07-08,4,319-->
@@ -260,3 +260,71 @@ The content is in teaching order.
 - [questions § 2024-07-02](questions.md#2024-07-02)
   - a MCQ question is deferred to the next lecture
     - update@2024-07-04: forgotten or canceled
+
+## week 3 lecture 2
+
+- time: 2024-07-04T10:00:00+08:00/2024-07-04T12:30:00+08:00
+- [eclipse](../../../../general/eclipse.md)
+- [umbra, penumbra and antumbra](../../../../general/umbra,%20penumbra%20and%20antumbra.md)
+  - [§ umbra](../../../../general/umbra,%20penumbra%20and%20antumbra.md#umbra)
+  - [§ penumbra](../../../../general/umbra,%20penumbra%20and%20antumbra.md#penumbra)
+  - [§ antumbra](../../../../general/umbra,%20penumbra%20and%20antumbra.md#antumbra)
+- [lunar eclipse](../../../../general/lunar%20eclipse.md)
+  - [§ types of lunar eclipse](../../../../general/lunar%20eclipse.md#types%20of%20lunar%20eclipse)
+  - [§ penumbral lunar eclipse](../../../../general/lunar%20eclipse.md#penumbral%20lunar%20eclipse)
+  - [§ partial lunar eclipse](../../../../general/lunar%20eclipse.md#partial%20lunar%20eclipse)
+  - [§ total lunar eclipse](../../../../general/lunar%20eclipse.md#total%20lunar%20eclipse)
+  - [§ blood moon](../../../../general/lunar%20eclipse.md#blood%20moon)
+    - [Rayleigh scattering](../../../../general/Rayleigh%20scattering.md) ::: Apart from the blood moon, also responsible for the blue color of the sky and orange-to-red color during sunrises and sunsets.
+      - [diffuse sky radiation § color](../../../../general/diffuse%20sky%20radiation.md#color)
+- [solar eclipse](../../../../general/solar%20eclipse.md)
+  - solar eclipse mythology ::: The solar eclipse phenomenon has had fascinated many ancient cultures. According to the Chinese folklore, there is a "dog" eating up the Sun (天狗食日) during a solar eclipse.
+  - [§ types](../../../../general/solar%20eclipse.md#types)
+  - [§ total eclipse](../../../../general/solar%20eclipse.md#total%20eclipse)
+    - [§ eclipse phases](../../../../general/solar%20eclipse.md#eclipse%20phases)
+  - [§ partial eclipse](../../../../general/solar%20eclipse.md#partial%20eclipse)
+  - [§ annular eclipse](../../../../general/solar%20eclipse.md#annular%20eclipse)
+  - [§ path](../../../../general/solar%20eclipse.md#path)
+- [stellar corona](../../../../general/stellar%20corona.md)
+- [Moon](../../../../general/Moon.md) / orbital inclination ::: 5.145° to the ecliptic
+- [lunar node](../../../../general/lunar%20node.md)
+- [eclipse season](../../../../general/eclipse%20season.md)
+- planets known in ancient times ::: Mercury, Venus, Mars, Jupiter, and Saturn (the innermost 6 planets of the Solar System except for Earth)
+  - [Mercury](../../../../general/Mercury%20(planet).md) properties in ancient times ::: difficult to see, always close to the Sun in the sky
+  - [Venus](../../../../general/Venus.md) properties in ancient times ::: very bright, also called "morning star" or "evening star"
+  - [Mars](../../../../general/Mars.md) properties in ancient times ::: noticeably red
+  - [Jupiter](../../../../general/Jupiter.md) properties in ancient times ::: very bright
+  - [Saturn](../../../../general/Saturn.md) properties in ancient times ::: moderately bright
+  - time-related things named after planets known in ancient times ::: days of the week
+    - order of astronomical objects in days of the week ::: Sun (Sunday, 日曜日), Moon (Monday, 月曜日), Mars (Tuesday, 火曜日), Mercury (Wednesday, 水曜日), Jupiter (Thursday, 木曜日), Venus (Friday, 金曜日), Saturn (Saturday, 土曜日)
+- [diurnal motion](../../../../general/diurnal%20motion.md) ::: The Sun, the Moon, and planets move westward due to Earth's rotation.
+- [apparent retrograde motion](../../../../general/apparent%20retrograde%20motion.md)
+  - [§ from Earth](../../../../general/apparent%20retrograde%20motion.md#from%20Earth)
+  - explaining apparent retrograde motion ::: The inner planet moves faster than the outer planet when they are near conjunctions, so the relative velocity reverses and apparent retrograde motion occurs.
+    - explaining apparent retrograde motion in ancient times ::: As most ancients thought that Earth is the center, it is harder to explain. Their explanation was deferent and epicycle.
+- [stellar parallax](../../../../general/stellar%20parallax.md)
+- reason the (very) ancient Greeks thought Earth is the center ::: They cannot observe stellar parallax of the fixed stars. There were 2 plausible explanations for them. One was the fixed stars are too far away so the stellar parallax is too small to be observed with the naked eye. The other was Earth is the center of the universe. With rare exceptions, the first (and correct) option was rejected by most (very) ancient Greeks because they could not believe that fixed stars are _that_ far away.
+  - reason the (very) ancient Greeks thought Earth is the center / exceptions ::: (very) ancient Greeks who thought the fixed stars are indeed _that_ far away: Aristarchus, etc.
+- scientific thinking ::: based on everyday ideas arising from observations and trial-and-error experiments
+- [astronomy](../../../../general/astronomy.md) ::: oldest science, as many ancient cultures throughout the world practiced it by making observations of the sky and noticing patterns of cyclic motions
+  - astronomy in very ancient times ::: to keep track of time and seasons for practical, social and religious purposes, e.g. marks carved into animal bones, prehistoric cave paintings, stone circle, orientation of the crescent moon, Stonehenge
+    - marks carved into animal bones ::: Upper Paleolithic (late stone-age) Aurignacian Culture, Europe, ~32&nbsp;000 BC
+    - prehistoric cave paintings ::: 29 dots = lunar phase cycle; Upper Paleolithic (late stone-age) Magdelanian Culture, Europe, ~15&nbsp;000 BC
+    - [stone circle](../../../../general/stone%20circle.md) ::: 4000 year old stone circle, Scotland; Moon rise in between two particular stones every 18.6 years due to the lunar nodal cycle period
+    - orientation of the crescent moon ::: predict the weather from the orientation of the crescent moon; ancient people of central Nigeria, Africa, 6500 BC
+    - [Stonehenge](../../../../general/Stonehenge.md) ::: Stonehenge, England, ~1550 BC
+- [Jacob's staff](Jacob's%20staff.md) ::: determine a vessel's latitude by measuring the altitude of Polaris or the Sun
+- astronomical observation by ancient Chinese ::: earliest known records of nova explosions on bone or tortoise shell inscriptions (1400 BC)
+- [archaeoastronomy](../../../../general/archaeoastronomy.md)
+- brief history of the [Ancient Greece](../../../../general/Ancient%20Greece.md) ::: rose to power around 800 BC and well-established by about 500 BC, famous for Ancient Greek philosophy
+  - [Ancient Greek philosophy](../../../../general/Ancient%20Greek%20philosophy.md) ::: Greek philosophers tried to understand nature with rational explanations over mythological ones, e.g. empirical observations, mathematics, models of nature
+    - Ancient Greek philosopher examples ::: Socrates (469–399 BC), Plato (428–348 BC), Aristotle (384–322 BC)
+      - Socrates (469–399 BC) ::: Credited as one of the founders of Western philosophy; Plato’s teacher
+      - Plato (428–348 BC) thinking ::: Earth at the center of the universe; all natural motions are perfectly circular; all celestial objects are perfect spheres
+      - Aristotle (384–322 BC) thinking ::: five elements: _earth_, _water_, _air_, _fire_, _quintessence_; moving objects spontaneously come to rest without external driving force
+    - Ancient Greek philosophy & science ::: Ancient Greek philosophy based their thinking on philosophical reasoning, including apparent perfection, which is not necessarily science.
+- [model](../../../../general/model.md)
+  - models of nature ::: Models that explain the nature.
+- [geocentric model § Ancient Greece](../../../../general/geocentric%20model.md#Ancient%20Greece)
+  - Greek geocentric model ::: about 400 BC by Plato; Earth is the center of the universe and all other celestial objects have perfectly circular orbits
+- [questions § 2024-07-04](questions.md#2024-07-04)
