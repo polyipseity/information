@@ -181,7 +181,7 @@ The parenthesized text at the beginning of of each question is {{the location th
 > 5. 3 hours
 >
 > - solution: {{3}}
-> - steps: {{Recall that the moonrise time corresponds to the lunar phase cycle. As the cycle resets every 29.5 days, the moonrise time also resets 29.5 days. A moonrise time "reset" happens when the moon rises later by a cumulative time of 1 day. Thus the answer is: $$\frac {24} {29.5} \approx 0.813\,559\,322 \approx 1\text{ hour}$$.}}
+> - steps: {{Recall that the moonrise time corresponds to the lunar phase cycle. As the cycle resets every 29.5 days, the moonrise time also resets 29.5 days. A moonrise time "reset" happens when the moon rises later by a cumulative time of 1 day. Thus the answer is: $$\frac {24} {29.5} \approx 0.813\,559\,322 \approx 1\text{ hour}$$.}} <!--SR:!2024-07-09,4,292!2024-07-09,4,292-->
 
 <!-- markdownlint MD028 -->
 
@@ -194,4 +194,4 @@ The parenthesized text at the beginning of of each question is {{the location th
 > 5. 366 days
 >
 > - solution: {{4}}
-> - steps: {{Recall that the eclipse season depends on the line of lunar nodes. Consider that the lunar nodes rotates retrograde (clockwise) once about 18.6 years. The answer is: $$\frac {365.25} {18.6} \approx 19.637\,0967 \approx 20\text{ days}$$.}}
+> - steps: {{Recall that the eclipse season depends on the line of lunar nodes. Consider that the lunar nodes rotates retrograde (clockwise) once about 18.6 years. The answer is: $$\frac {365.25} {18.6} \approx 19.637\,0967 \approx 20\text{ days}$$.}} <!--SR:!2024-07-09,4,292!2024-07-08,3,272-->
