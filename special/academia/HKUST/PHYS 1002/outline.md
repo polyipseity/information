@@ -275,10 +275,10 @@ The content is in teaching order.
   - [§ partial lunar eclipse](../../../../general/lunar%20eclipse.md#partial%20lunar%20eclipse)
   - [§ total lunar eclipse](../../../../general/lunar%20eclipse.md#total%20lunar%20eclipse)
   - [§ blood moon](../../../../general/lunar%20eclipse.md#blood%20moon)
-    - [Rayleigh scattering](../../../../general/Rayleigh%20scattering.md) ::: Apart from the blood moon, also responsible for the blue color of the sky and orange-to-red color during sunrises and sunsets.
+    - [Rayleigh scattering](../../../../general/Rayleigh%20scattering.md) ::: Apart from the blood moon, also responsible for the blue color of the sky and orange-to-red color during sunrises and sunsets. <!--SR:!2024-07-09,4,320!2024-07-09,4,320-->
       - [diffuse sky radiation § color](../../../../general/diffuse%20sky%20radiation.md#color)
 - [solar eclipse](../../../../general/solar%20eclipse.md)
-  - solar eclipse mythology ::: The solar eclipse phenomenon has had fascinated many ancient cultures. According to the Chinese folklore, there is a "dog" eating up the Sun (天狗食日) during a solar eclipse.
+  - solar eclipse mythology ::: The solar eclipse phenomenon has had fascinated many ancient cultures. According to the Chinese folklore, there is a "dog" eating up the Sun (天狗食日) during a solar eclipse. <!--SR:!2024-07-09,4,320!2024-07-09,4,320-->
   - [§ types](../../../../general/solar%20eclipse.md#types)
   - [§ total eclipse](../../../../general/solar%20eclipse.md#total%20eclipse)
     - [§ eclipse phases](../../../../general/solar%20eclipse.md#eclipse%20phases)
@@ -286,45 +286,45 @@ The content is in teaching order.
   - [§ annular eclipse](../../../../general/solar%20eclipse.md#annular%20eclipse)
   - [§ path](../../../../general/solar%20eclipse.md#path)
 - [stellar corona](../../../../general/stellar%20corona.md)
-- [Moon](../../../../general/Moon.md) / orbital inclination ::: 5.145° to the ecliptic
+- [Moon](../../../../general/Moon.md) / orbital inclination ::: 5.145° to the ecliptic <!--SR:!2024-07-08,3,300!2024-07-08,3,300-->
 - [lunar node](../../../../general/lunar%20node.md)
 - [eclipse season](../../../../general/eclipse%20season.md)
-- planets known in ancient times ::: Mercury, Venus, Mars, Jupiter, and Saturn (the innermost 6 planets of the Solar System except for Earth)
-  - [Mercury](../../../../general/Mercury%20(planet).md) properties in ancient times ::: difficult to see, always close to the Sun in the sky
-  - [Venus](../../../../general/Venus.md) properties in ancient times ::: very bright, also called "morning star" or "evening star"
-  - [Mars](../../../../general/Mars.md) properties in ancient times ::: noticeably red
-  - [Jupiter](../../../../general/Jupiter.md) properties in ancient times ::: very bright
-  - [Saturn](../../../../general/Saturn.md) properties in ancient times ::: moderately bright
-  - time-related things named after planets known in ancient times ::: days of the week
-    - order of astronomical objects in days of the week ::: Sun (Sunday, 日曜日), Moon (Monday, 月曜日), Mars (Tuesday, 火曜日), Mercury (Wednesday, 水曜日), Jupiter (Thursday, 木曜日), Venus (Friday, 金曜日), Saturn (Saturday, 土曜日)
-- [diurnal motion](../../../../general/diurnal%20motion.md) ::: The Sun, the Moon, and planets move westward due to Earth's rotation.
+- planets known in ancient times ::: Mercury, Venus, Mars, Jupiter, and Saturn (the innermost 6 planets of the Solar System except for Earth) <!--SR:!2024-07-09,4,320!2024-07-09,4,320-->
+  - [Mercury](../../../../general/Mercury%20(planet).md) properties in ancient times ::: difficult to see, always close to the Sun in the sky <!--SR:!2024-07-09,4,320!2024-07-09,4,320-->
+  - [Venus](../../../../general/Venus.md) properties in ancient times ::: very bright, also called "morning star" or "evening star" <!--SR:!2024-07-09,4,320!2024-07-09,4,320-->
+  - [Mars](../../../../general/Mars.md) properties in ancient times ::: noticeably red <!--SR:!2024-07-09,4,320!2024-07-09,4,320-->
+  - [Jupiter](../../../../general/Jupiter.md) properties in ancient times ::: very bright <!--SR:!2024-07-08,3,300!2024-07-09,4,320-->
+  - [Saturn](../../../../general/Saturn.md) properties in ancient times ::: moderately bright <!--SR:!2024-07-09,4,320!2024-07-09,4,320-->
+  - time-related things named after planets known in ancient times ::: days of the week <!--SR:!2024-07-09,4,320!2024-07-09,4,320-->
+    - order of astronomical objects in days of the week ::: Sun (Sunday, 日曜日), Moon (Monday, 月曜日), Mars (Tuesday, 火曜日), Mercury (Wednesday, 水曜日), Jupiter (Thursday, 木曜日), Venus (Friday, 金曜日), Saturn (Saturday, 土曜日) <!--SR:!2024-07-08,3,300!2024-07-08,3,300-->
+- [diurnal motion](../../../../general/diurnal%20motion.md) ::: The Sun, the Moon, and planets move westward due to Earth's rotation. <!--SR:!2024-07-09,4,320!2024-07-09,4,320-->
 - [apparent retrograde motion](../../../../general/apparent%20retrograde%20motion.md)
   - [§ from Earth](../../../../general/apparent%20retrograde%20motion.md#from%20Earth)
-  - explaining apparent retrograde motion ::: The inner planet moves faster than the outer planet when they are near conjunctions, so the relative velocity reverses and apparent retrograde motion occurs.
-    - explaining apparent retrograde motion in ancient times ::: As most ancients thought that Earth is the center, it is harder to explain. Their explanation was deferent and epicycle.
+  - explaining apparent retrograde motion ::: The inner planet moves faster than the outer planet when they are near conjunctions, so the relative velocity reverses and apparent retrograde motion occurs. <!--SR:!2024-07-08,3,300!2024-07-09,4,320-->
+    - explaining apparent retrograde motion in ancient times ::: As most ancients thought that Earth is the center, it is harder to explain. Their explanation was deferent and epicycle. <!--SR:!2024-07-09,4,320!2024-07-09,4,320-->
 - [stellar parallax](../../../../general/stellar%20parallax.md)
-- reason the (very) ancient Greeks thought Earth is the center ::: They cannot observe stellar parallax of the fixed stars. There were 2 plausible explanations for them. One was the fixed stars are too far away so the stellar parallax is too small to be observed with the naked eye. The other was Earth is the center of the universe. With rare exceptions, the first (and correct) option was rejected by most (very) ancient Greeks because they could not believe that fixed stars are _that_ far away.
-  - reason the (very) ancient Greeks thought Earth is the center / exceptions ::: (very) ancient Greeks who thought the fixed stars are indeed _that_ far away: Aristarchus, etc.
-- scientific thinking ::: based on everyday ideas arising from observations and trial-and-error experiments
-- [astronomy](../../../../general/astronomy.md) ::: oldest science, as many ancient cultures throughout the world practiced it by making observations of the sky and noticing patterns of cyclic motions
-  - astronomy in very ancient times ::: to keep track of time and seasons for practical, social and religious purposes, e.g. marks carved into animal bones, prehistoric cave paintings, stone circle, orientation of the crescent moon, Stonehenge
-    - marks carved into animal bones ::: Upper Paleolithic (late stone-age) Aurignacian Culture, Europe, ~32&nbsp;000 BC
-    - prehistoric cave paintings ::: 29 dots = lunar phase cycle; Upper Paleolithic (late stone-age) Magdelanian Culture, Europe, ~15&nbsp;000 BC
-    - [stone circle](../../../../general/stone%20circle.md) ::: 4000 year old stone circle, Scotland; Moon rise in between two particular stones every 18.6 years due to the lunar nodal cycle period
-    - orientation of the crescent moon ::: predict the weather from the orientation of the crescent moon; ancient people of central Nigeria, Africa, 6500 BC
-    - [Stonehenge](../../../../general/Stonehenge.md) ::: Stonehenge, England, ~1550 BC
-- [Jacob's staff](Jacob's%20staff.md) ::: determine a vessel's latitude by measuring the altitude of Polaris or the Sun
-- astronomical observation by ancient Chinese ::: earliest known records of nova explosions on bone or tortoise shell inscriptions (1400 BC)
+- reason the (very) ancient Greeks thought Earth is the center ::: They cannot observe stellar parallax of the fixed stars. There were 2 plausible explanations for them. One was the fixed stars are too far away so the stellar parallax is too small to be observed with the naked eye. The other was Earth is the center of the universe. With rare exceptions, the first (and correct) option was rejected by most (very) ancient Greeks because they could not believe that fixed stars are _that_ far away. <!--SR:!2024-07-09,4,320!2024-07-09,4,320-->
+  - reason the (very) ancient Greeks thought Earth is the center / exceptions ::: (very) ancient Greeks who thought the fixed stars are indeed _that_ far away: Aristarchus, etc. <!--SR:!2024-07-09,4,320!2024-07-09,4,320-->
+- scientific thinking ::: based on everyday ideas arising from observations and trial-and-error experiments <!--SR:!2024-07-09,4,320!2024-07-09,4,320-->
+- [astronomy](../../../../general/astronomy.md) ::: oldest science, as many ancient cultures throughout the world practiced it by making observations of the sky and noticing patterns of cyclic motions <!--SR:!2024-07-09,4,320!2024-07-09,4,320-->
+  - astronomy in very ancient times ::: to keep track of time and seasons for practical, social and religious purposes, e.g. marks carved into animal bones, prehistoric cave paintings, stone circle, orientation of the crescent moon, Stonehenge <!--SR:!2024-07-08,3,300!2024-07-09,4,320-->
+    - marks carved into animal bones ::: Upper Paleolithic (late stone-age) Aurignacian Culture, Europe, ~32&nbsp;000 BC <!--SR:!2024-07-08,3,300!2024-07-08,3,300-->
+    - prehistoric cave paintings ::: 29 dots = lunar phase cycle; Upper Paleolithic (late stone-age) Magdelanian Culture, Europe, ~15&nbsp;000 BC <!--SR:!2024-07-08,3,300!2024-07-09,4,320-->
+    - [stone circle](../../../../general/stone%20circle.md) ::: 4000 year old stone circle, Scotland; Moon rise in between two particular stones every 18.6 years due to the lunar nodal cycle period <!--SR:!2024-07-08,3,300!2024-07-09,4,320-->
+    - orientation of the crescent moon ::: predict the weather from the orientation of the crescent moon; ancient people of central Nigeria, Africa, 6500 BC <!--SR:!2024-07-09,4,320!2024-07-09,4,320-->
+    - [Stonehenge](../../../../general/Stonehenge.md) ::: Stonehenge, England, ~1550 BC <!--SR:!2024-07-09,4,320!2024-07-09,4,320-->
+- [Jacob's staff](Jacob's%20staff.md) ::: determine a vessel's latitude by measuring the altitude of Polaris or the Sun <!--SR:!2024-07-09,4,320!2024-07-09,4,320-->
+- astronomical observation by ancient Chinese ::: earliest known records of nova explosions on bone or tortoise shell inscriptions (1400 BC) <!--SR:!2024-07-09,4,320!2024-07-09,4,320-->
 - [archaeoastronomy](../../../../general/archaeoastronomy.md)
-- brief history of the [Ancient Greece](../../../../general/Ancient%20Greece.md) ::: rose to power around 800 BC and well-established by about 500 BC, famous for Ancient Greek philosophy
-  - [Ancient Greek philosophy](../../../../general/Ancient%20Greek%20philosophy.md) ::: Greek philosophers tried to understand nature with rational explanations over mythological ones, e.g. empirical observations, mathematics, models of nature
-    - Ancient Greek philosopher examples ::: Socrates (469–399 BC), Plato (428–348 BC), Aristotle (384–322 BC)
-      - Socrates (469–399 BC) ::: Credited as one of the founders of Western philosophy; Plato’s teacher
-      - Plato (428–348 BC) thinking ::: Earth at the center of the universe; all natural motions are perfectly circular; all celestial objects are perfect spheres
-      - Aristotle (384–322 BC) thinking ::: five elements: _earth_, _water_, _air_, _fire_, _quintessence_; moving objects spontaneously come to rest without external driving force
-    - Ancient Greek philosophy & science ::: Ancient Greek philosophy based their thinking on philosophical reasoning, including apparent perfection, which is not necessarily science.
+- brief history of the [Ancient Greece](../../../../general/Ancient%20Greece.md) ::: rose to power around 800 BC and well-established by about 500 BC, famous for Ancient Greek philosophy <!--SR:!2024-07-09,4,320!2024-07-09,4,320-->
+  - [Ancient Greek philosophy](../../../../general/Ancient%20Greek%20philosophy.md) ::: Greek philosophers tried to understand nature with rational explanations over mythological ones, e.g. empirical observations, mathematics, models of nature <!--SR:!2024-07-09,4,320!2024-07-09,4,320-->
+    - Ancient Greek philosopher examples ::: Socrates (469–399 BC), Plato (428–348 BC), Aristotle (384–322 BC) <!--SR:!2024-07-08,3,300!2024-07-06,1,280-->
+      - Socrates (469–399 BC) ::: Credited as one of the founders of Western philosophy; Plato’s teacher <!--SR:!2024-07-09,4,320!2024-07-09,4,320-->
+      - Plato (428–348 BC) thinking ::: Earth at the center of the universe; all natural motions are perfectly circular; all celestial objects are perfect spheres <!--SR:!2024-07-09,4,320!2024-07-08,3,300-->
+      - Aristotle (384–322 BC) thinking ::: five elements: _earth_, _water_, _air_, _fire_, _quintessence_; moving objects spontaneously come to rest without external driving force <!--SR:!2024-07-08,3,300!2024-07-08,3,300-->
+    - Ancient Greek philosophy & science ::: Ancient Greek philosophy based their thinking on philosophical reasoning, including apparent perfection, which is not necessarily science. <!--SR:!2024-07-09,4,320!2024-07-09,4,320-->
 - [model](../../../../general/model.md)
-  - models of nature ::: Models that explain the nature.
+  - models of nature ::: Models that explain the nature. <!--SR:!2024-07-09,4,320!2024-07-09,4,320-->
 - [geocentric model § Ancient Greece](../../../../general/geocentric%20model.md#Ancient%20Greece)
-  - Greek geocentric model ::: about 400 BC by Plato; Earth is the center of the universe and all other celestial objects have perfectly circular orbits
+  - Greek geocentric model ::: about 400 BC by Plato; Earth is the center of the universe and all other celestial objects have perfectly circular orbits <!--SR:!2024-07-09,4,320!2024-07-09,4,320-->
 - [questions § 2024-07-04](questions.md#2024-07-04)
