@@ -301,7 +301,7 @@ The content is in teaching order.
 - [apparent retrograde motion](../../../../general/apparent%20retrograde%20motion.md)
   - [§ from Earth](../../../../general/apparent%20retrograde%20motion.md#from%20Earth)
   - explaining apparent retrograde motion ::: The inner planet moves faster than the outer planet when they are near conjunctions, so the relative velocity reverses and apparent retrograde motion occurs.
-    - explaining apparent retrograde motion in ancient times ::: As most ancients thought that Earth is the center, it is harder to explain. Their explanation was deferent and epicycle.
+    - explaining apparent retrograde motion in ancient times ::: As most ancients thought that Earth is the center, it is harder to explain. Their explanation was using deferents and epicycles.
 - [stellar parallax](../../../../general/stellar%20parallax.md)
 - reason the (very) ancient Greeks thought Earth is the center ::: They cannot observe stellar parallax of the fixed stars. There were 2 plausible explanations for them. One was the fixed stars are too far away so the stellar parallax is too small to be observed with the naked eye. The other was Earth is the center of the universe. With rare exceptions, the first (and correct) option was rejected by most (very) ancient Greeks because they could not believe that fixed stars are _that_ far away.
   - reason the (very) ancient Greeks thought Earth is the center / exceptions ::: (very) ancient Greeks who thought the fixed stars are indeed _that_ far away: Aristarchus, etc.
@@ -319,12 +319,12 @@ The content is in teaching order.
 - brief history of the [Ancient Greece](../../../../general/Ancient%20Greece.md) ::: rose to power around 800 BC and well-established by about 500 BC, famous for Ancient Greek philosophy
   - [Ancient Greek philosophy](../../../../general/Ancient%20Greek%20philosophy.md) ::: Greek philosophers tried to understand nature with rational explanations over mythological ones, e.g. empirical observations, mathematics, models of nature
     - Ancient Greek philosopher examples ::: Socrates (469–399 BC), Plato (428–348 BC), Aristotle (384–322 BC)
-      - Socrates (469–399 BC) ::: Credited as one of the founders of Western philosophy; Plato’s teacher
+      - Socrates (469–399 BC) ::: Credited as one of the founders of Western philosophy; Plato's teacher
       - Plato (428–348 BC) thinking ::: Earth at the center of the universe; all natural motions are perfectly circular; all celestial objects are perfect spheres
       - Aristotle (384–322 BC) thinking ::: five elements: _earth_, _water_, _air_, _fire_, _quintessence_; moving objects spontaneously come to rest without external driving force
     - Ancient Greek philosophy & science ::: Ancient Greek philosophy based their thinking on philosophical reasoning, including apparent perfection, which is not necessarily science.
 - [model](../../../../general/model.md)
-  - models of nature ::: Models that explain the nature.
+  - models of nature ::: models that explain the nature
 - [geocentric model § Ancient Greece](../../../../general/geocentric%20model.md#Ancient%20Greece)
   - Greek geocentric model ::: about 400 BC by Plato; Earth is the center of the universe and all other celestial objects have perfectly circular orbits
 - [questions § 2024-07-04](questions.md#2024-07-04)
