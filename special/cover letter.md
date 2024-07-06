@@ -13,6 +13,8 @@ tags:
 # import ../../tools/utility.py.md
 ```
 
+The format outlined below is {{only recommended and does not need to be followed strictly}}.
+
 ## use
 
 ```Python

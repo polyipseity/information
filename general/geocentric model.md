@@ -1,7 +1,9 @@
 ---
 aliases:
   - Ptolemaic system
+  - Ptolemaic systems
   - geocentric model
+  - geocentric models
   - geocentrism
 tags:
   - flashcard/general/geocentric_model
@@ -14,6 +16,10 @@ tags:
 # pytextgen generate module
 # import ../../tools/utility.py.md
 ```
+
+## Ancient Greece
+
+In {{the 4th century BC}}, two influential Greek philosophers, {{[Plato](Plato.md) and his student [Aristotle](Aristotle.md)}}, wrote works {{based on the geocentric model}}.
 
 ## Ptolemaic model
 
