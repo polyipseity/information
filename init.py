@@ -1,5 +1,5 @@
 # -*- coding: UTF-8 -*-
-from aioshutil import rmtree as _rmtr
+from aioshutil import rmtree as _rmtr, sync_to_async
 from anyio import Path as _Path
 from appdirs import AppDirs as _AppDirs  # type: ignore
 from argparse import (
@@ -8,7 +8,6 @@ from argparse import (
     ONE_OR_MORE as _ONE_OR_MORE,
 )
 from asyncio import Task, TaskGroup, create_task, gather as _gather, run as _run
-from asyncstdlib import sync as _sync
 from collections import defaultdict as _defdict
 from dataclasses import dataclass as _dc
 from functools import wraps as _wraps
@@ -58,6 +57,7 @@ _LOCAL_APP_DIRS = _AppDirs(
     roaming=False,
     multipath=False,
 )
+_lstat_a = sync_to_async(_lstat)
 
 
 @_fin
@@ -94,7 +94,7 @@ async def main(args: Arguments):
 
         cache_folder = _Path(
             _LOCAL_APP_DIRS.user_cache_dir,  # type: ignore
-        ) / str((await _sync(_lstat)(folder)).st_ino)
+        ) / str((await _lstat_a(folder)).st_ino)
         if not args.cached and await cache_folder.exists():
             await _rmtr(cache_folder, ignore_errors=False)
         await cache_folder.mkdir(parents=True, exist_ok=True)
@@ -152,7 +152,7 @@ async def main(args: Arguments):
                                 finally:
                                     seek.cancel()
                             cache[path_s] = (
-                                (await _sync(_lstat)(path)).st_mtime_ns,
+                                (await _lstat_a(path)).st_mtime_ns,
                                 text,
                             )
 
@@ -168,7 +168,7 @@ async def main(args: Arguments):
                         c_mtime, c_text = cache[path_s]
                     except KeyError:
                         return finalizer()
-                    if (await _sync(_lstat)(path)).st_mtime_ns != c_mtime:
+                    if (await _lstat_a(path)).st_mtime_ns != c_mtime:
                         open_opts = _OPEN_TXT_OPTS.copy()
                         open_opts.update({"newline": ""})
                         async with await path.open(mode="rt", **open_opts) as io:
