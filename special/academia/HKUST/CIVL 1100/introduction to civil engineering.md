@@ -68,7 +68,7 @@ The content is in teaching order.
   - [geo-technical engineering risks](#geo-technical%20engineering%20risks)
     - geo-technical engineering risk migration ::: soil improvement or retaining structures can migrate risk to society <!--SR:!2024-12-05,162,340!2024-08-08,89,377-->
 - hydraulic engineering ::: conveyance and flow of fluids, principally sewage and water <!--SR:!2024-11-09,159,285!2024-07-11,63,345-->
-  - hydraulic engineering structures ::: design and construction of hydraulic structures <!--SR:!2024-09-17,115,324!2024-07-07,62,345-->
+  - hydraulic engineering structures ::: design and construction of hydraulic structures <!--SR:!2024-09-17,115,324!2025-04-26,293,365-->
     - [hydraulic engineering structure examples](#hydraulic%20engineering%20structure%20examples)
   - hydraulic engineering systems ::: planning, development, and management of discharge systems and water resources <!--SR:!2024-09-10,94,320!2025-01-16,209,352-->
     - [hydraulic engineering system examples](#hydraulic%20engineering%20system%20examples)
@@ -150,8 +150,8 @@ quantity surveyor
 - consulting structural engineer→:::←contracting civil engineer <!--SR:!2024-09-11,108,335!2024-08-23,88,315-->
 - contracting civil engineer→:::←engineering geologist <!--SR:!2024-09-28,102,297!2024-08-01,69,315-->
 - engineering geologist→:::←environmental consultant <!--SR:!2024-10-25,125,305!2024-08-24,92,305-->
-- environmental consultant→:::←quantity surveyor <!--SR:!2024-07-06,54,340!2024-08-11,58,280-->
-- quantity surveyor→:::←_(end)_ <!--SR:!2024-07-06,54,340!2024-07-29,66,360-->
+- environmental consultant→:::←quantity surveyor <!--SR:!2024-08-02,26,320!2024-08-11,58,280-->
+- quantity surveyor→:::←_(end)_ <!--SR:!2025-01-10,187,340!2024-07-29,66,360-->
 
 <!--/pytextgen-->
 
@@ -195,7 +195,7 @@ water and sewage treatment system
 - bridge→:::←building <!--SR:!2024-07-24,76,372!2024-07-28,75,360-->
 - building→:::←dam <!--SR:!2024-12-12,167,340!2024-09-06,105,380-->
 - dam→:::←pipeline <!--SR:!2024-08-06,32,204!2024-10-09,117,321-->
-- pipeline→:::←power plant <!--SR:!2024-08-14,59,260!2024-07-06,38,281-->
+- pipeline→:::←power plant <!--SR:!2024-08-14,59,260!2024-10-22,107,281-->
 - power plant→:::←reservoir <!--SR:!2024-07-30,60,275!2024-09-05,91,320-->
 - reservoir→:::←sewage treatment <!--SR:!2024-07-18,31,197!2024-09-05,75,261-->
 - sewage treatment→:::←transport <!--SR:!2024-07-08,39,250!2024-07-13,50,301-->
@@ -913,7 +913,7 @@ polypropylene fiber reinforced concrete
 <!--pytextgen generate section="eee1"--><!-- The following content is generated at 2024-02-16T21:59:47.859581+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←artificial stone <!--SR:!2024-07-14,49,297!2025-07-31,398,365-->
-- artificial stone→:::←cellular concrete <!--SR:!2024-07-06,43,300!2024-08-31,99,335-->
+- artificial stone→:::←cellular concrete <!--SR:!2024-11-12,128,300!2024-08-31,99,335-->
 - cellular concrete→:::←engineered cement composite <!--SR:!2024-10-24,153,270!2024-12-05,166,330-->
 - engineered cement composite→:::←fly ash concrete <!--SR:!2024-11-02,143,337!2024-09-26,107,320-->
 - fly ash concrete→:::←polypropylene fiber reinforced concrete <!--SR:!2024-09-03,75,280!2024-09-04,103,335-->

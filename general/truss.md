@@ -11,7 +11,7 @@ tags:
 
 ## characteristics
 
-A truss consists of {{typically (but not necessarily) straight members connected at joints or nodes}}. Trusses are typically (but not necessarily) composed of {{triangles (triangular units) because of its stability}}. <!--SR:!2024-07-11,38,290!2024-07-06,34,290-->
+A truss consists of {{typically (but not necessarily) straight members connected at joints or nodes}}. Trusses are typically (but not necessarily) composed of {{triangles (triangular units) because of its stability}}. <!--SR:!2024-07-11,38,290!2024-11-20,136,310-->
 
 The joints are likely {{pinned support}}, so they can {{resist translation but not rotation}}. <!--SR:!2024-08-07,63,310!2024-08-07,63,310-->
 
@@ -37,7 +37,7 @@ Note that when a truss member is in tension, it is actually {{pulling on the two
 
 The steps are {{label all joints, members, and the support reactions}}. Then, {{compute the support reactions by considering the entire truss}}. Finally, use {{the method of joints to determine forces in all members}}. <!--SR:!2024-07-24,48,290!2024-08-03,60,310!2024-07-12,39,290-->
 
-Note that after finishing with the method of joints, there is {{no need to consider the global (the entire truss) equilibrium again}}. This is because {{the global equilibrium is automatically satisfied afterwards}}, given that {{the calculations are done correctly}}. So this can also serve as a way to {{check the by-hand calculations}}. <!--SR:!2024-08-04,60,310!2024-07-25,52,310!2024-07-19,48,290!2024-07-06,37,290-->
+Note that after finishing with the method of joints, there is {{no need to consider the global (the entire truss) equilibrium again}}. This is because {{the global equilibrium is automatically satisfied afterwards}}, given that {{the calculations are done correctly}}. So this can also serve as a way to {{check the by-hand calculations}}. <!--SR:!2024-08-04,60,310!2024-07-25,52,310!2024-07-19,48,290!2024-10-24,109,290-->
 
 ## references
 

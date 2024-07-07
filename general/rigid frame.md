@@ -16,7 +16,7 @@ Usually, the building plan is {{open and are rectangular grids, making space pla
 
 It is used in {{car parks, low-rise factories, etc.}} Economically, it makes sense {{up to about 25 stories}}, after which {{the lateral stiffness is too low, making it not suitable for tall buildings}}. <!--SR:!2024-08-10,67,310!2024-08-06,64,310!2024-07-20,49,290-->
 
-It can be combined with {{[shear walls](shear%20wall.md), constrained to deflect together}}. This provides {{stiffer structure than rigid frame or shear walls alone}}. It is economic up to {{about 50 stories}}. <!--SR:!2024-07-07,39,290!2024-07-28,56,310!2024-07-09,40,290-->
+It can be combined with {{[shear walls](shear%20wall.md), constrained to deflect together}}. This provides {{stiffer structure than rigid frame or shear walls alone}}. It is economic up to {{about 50 stories}}. <!--SR:!2024-12-10,156,310!2024-07-28,56,310!2024-07-09,40,290-->
 
 ## references
 

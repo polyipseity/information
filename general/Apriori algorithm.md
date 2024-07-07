@@ -24,7 +24,7 @@ Note that the above is a slower variant of the Apriori algorithm. There is a muc
 
 If we consider each set is directionally linked from itself to the new candidate sets it has generated, {{a tree-like structure}} appears, and the Apriori algorithm is similar to {{[breadth-first search](breadth-first%20search.md)}}. <!--SR:!2024-10-06,170,310!2025-02-24,294,339-->
 
-Creation of association rules from the frequent item sets is {{not covered by this algorithm}}. <!--SR:!2024-07-07,64,343-->
+Creation of association rules from the frequent item sets is {{not covered by this algorithm}}. <!--SR:!2025-05-04,301,363-->
 
 ## the algorithm
 

@@ -90,7 +90,7 @@ The spectral colors have a range of {{[wavelength](wavelength.md) 380–750 [nm]
 - <span style="background-color:#00ff00;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [green](green.md)::500–565 <!--SR:!2024-07-08,13,130-->
 - <span style="background-color:yellow;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [yellow](yellow.md)::565–590 <!--SR:!2024-07-12,24,130-->
 - <span style="background-color:orange;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [orange](orange%20(color).md)::590–625 <!--SR:!2024-08-09,43,130-->
-- <span style="background-color:red;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [red](red.md)::625–750 <!--SR:!2024-07-07,247,250-->
+- <span style="background-color:red;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [red](red.md)::625–750 <!--SR:!2026-03-16,617,250-->
 
 <!--/pytextgen-->
 

@@ -225,7 +225,7 @@ return chain.from_iterable(await gather(
 
 <!--pytextgen generate section="3213"--><!-- The following content is generated at 2024-01-04T20:17:52.372879+08:00. Any edits will be overridden! -->
 
-- sine cosine::$\sin\theta\cos\varphi=\frac{\sin(\theta+\varphi)+\sin(\theta-\varphi)}2$ <!--SR:!2024-07-06,124,190-->
+- sine cosine::$\sin\theta\cos\varphi=\frac{\sin(\theta+\varphi)+\sin(\theta-\varphi)}2$ <!--SR:!2025-02-27,235,190-->
 - cosine sine::$\cos\theta\sin\varphi=\frac{\sin(\theta+\varphi)-\sin(\theta-\varphi)}2$ <!--SR:!2024-07-09,127,190-->
 - sine sine::$\sin\theta\sin\varphi=\frac{\cos(\theta-\varphi)-\cos(\theta+\varphi)}2$ <!--SR:!2024-09-10,231,210-->
 - cosine cosine::$\cos\theta\cos\varphi=\frac{\cos(\theta-\varphi)+\cos(\theta+\varphi)}2$ <!--SR:!2024-10-24,342,250-->
