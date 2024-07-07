@@ -46,14 +46,14 @@ The content is in teaching order.
 - [tension § effects](../../../../general/tension%20(physics).md#effects)
   - tension types ::: We are concerned with uniaxial tension only. <!--SR:!2024-08-20,73,330!2024-08-10,63,321-->
   - tension examples in structures ::: cable, hanging column, rope, swing, tie <!--SR:!2024-08-15,56,270!2024-07-11,40,310-->
-  - tension conventions ::: __positive__; arrows pointing outwards for forces applied on the object in tension <!--SR:!2024-07-07,23,310!2024-07-17,44,310-->
-- [reaction](../../../../general/reaction%20(physics).md) of compression and tension ::: Note that when another object exerts compression/tension on an object, the object applies an opposing pushing/pulling (reaction) force on the other object. <!--SR:!2024-08-08,59,310!2024-07-07,36,301-->
+  - tension conventions ::: __positive__; arrows pointing outwards for forces applied on the object in tension <!--SR:!2024-09-15,70,310!2024-07-17,44,310-->
+- [reaction](../../../../general/reaction%20(physics).md) of compression and tension ::: Note that when another object exerts compression/tension on an object, the object applies an opposing pushing/pulling (reaction) force on the other object. <!--SR:!2024-08-08,59,310!2024-12-03,149,321-->
 - [Hooke's law § linear springs](../../../../general/Hooke's%20law.md#linear%20springs)
 - stress and strain
   - strength of an object ::: Under compression or tension, objects deform. But it can differ in severity. "Strong", "hard", or "rigid" materials deform less while "weak", "soft", or "flexible" materials deform more. <!--SR:!2024-08-02,53,301!2024-08-18,70,321-->
     - "strong" object examples ::: table leg <!--SR:!2024-08-23,74,330!2024-08-07,62,330-->
     - "weak" object examples ::: mattress <!--SR:!2024-08-15,68,330!2024-08-22,73,321-->
-  - relative deformation ::: Amount of deformation also depends on the original length of the object. <!--SR:!2024-07-06,22,310!2024-07-28,51,310-->
+  - relative deformation ::: Amount of deformation also depends on the original length of the object. <!--SR:!2024-10-10,95,330!2024-07-28,51,310-->
     - relative deformation examples ::: Compare deforming a thin mattress and a thick mattress. <!--SR:!2024-07-18,44,310!2024-08-21,73,330-->
   - [stress](../../../../general/stress%20(mechanics).md)
     - [§ uniaxial normal](../../../../general/stress%20(mechanics).md#uniaxial%20normal)
@@ -111,7 +111,7 @@ The content is in teaching order.
   - [§ dead load](../../../../general/structural%20load.md#dead%20load)
   - [§ live load](../../../../general/structural%20load.md#live%20load)
   - [§ wind load](../../../../general/structural%20load.md#wind%20load)
-  - soil load ::: [§ lateral load](../../../../general/structural%20load.md#lateral%20load) <!--SR:!2024-07-06,33,290!2024-08-09,64,330-->
+  - soil load ::: [§ lateral load](../../../../general/structural%20load.md#lateral%20load) <!--SR:!2024-11-16,132,310!2024-08-09,64,330-->
   - water load ::: [§ hydrostatic load](../../../../general/structural%20load.md#lateral%20load) <!--SR:!2024-08-25,76,330!2024-08-14,67,321-->
   - [§ thermal load](../../../../general/structural%20load.md#thermal%20load)
   - earthquake load ::: [§ seismic load](../../../../general/structural%20load.md#seismic%20load) <!--SR:!2024-07-19,46,310!2024-08-24,75,321-->
@@ -127,7 +127,7 @@ The content is in teaching order.
   - wall-frame economic limit ::: up to about 50 stories <!--SR:!2024-08-23,75,330!2024-07-22,48,310-->
 - framed tube ::: [tube](../../../../general/tube%20(structure).md) <!--SR:!2024-07-11,38,310!2024-08-12,66,330-->
   - [§ variation](../../../../general/tube%20(structure).md#variation)
-- core walls with outriggers ::: [structural system § outrigger](../../../../general/structural%20system.md#outrigger) <!--SR:!2024-08-22,74,330!2024-07-06,35,301-->
+- core walls with outriggers ::: [structural system § outrigger](../../../../general/structural%20system.md#outrigger) <!--SR:!2024-08-22,74,330!2024-10-19,104,301-->
 
 ## week 6 lecture
 

@@ -266,7 +266,7 @@ Example quiz questions for preparing exams.
 > 3. Soil can stand up 90 degree, even without any lateral weight
 > 4. Soil strength does not depend on its self-weight
 >
-> - solution: {{4}} <!--SR:!2024-07-06,32,272-->
+> - solution: {{4}} <!--SR:!2024-10-02,87,272-->
 
 <!-- markdownlint MD028 -->
 

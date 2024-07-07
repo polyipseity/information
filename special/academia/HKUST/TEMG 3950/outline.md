@@ -29,9 +29,9 @@ The content is in teaching order.
 - good business opportunities ::: meet a need (most important), sufficient resources, right location, right price, right time <!--SR:!2024-08-04,57,230!2025-03-05,243,330-->
 - [buyer utility map](../../../buyer%20utility%20map.md)
 - [_Blue Ocean Strategy_ § concept](../../../../general/Blue%20Ocean%20Strategy.md#concept)
-  - blue ocean strategy example ::: [inventing the air fryer from observing French fries](../../../examples/inventing%20the%20air%20fryer%20from%20observing%20French%20fries.md) <!--SR:!2024-09-23,112,290!2024-07-07,59,310-->
+  - blue ocean strategy example ::: [inventing the air fryer from observing French fries](../../../examples/inventing%20the%20air%20fryer%20from%20observing%20French%20fries.md) <!--SR:!2024-09-23,112,290!2025-01-05,182,310-->
 - International Business Plan Competition ::: IBPC <!--SR:!2025-02-22,234,330!2024-07-16,66,310-->
-- transferrable technology ::: Technology that can potentially target multiple market segments. <!--SR:!2024-07-13,63,310!2024-07-06,58,310-->
+- transferrable technology ::: Technology that can potentially target multiple market segments. <!--SR:!2024-07-13,63,310!2025-01-04,181,310-->
 - reading assignment: [IBM prioritization grid](../../../IBM%20prioritization%20grid.md), [market segmentation](../../../market%20segmentation.md)
 - [assignment W2](assignment%20W2/assignment%20W2.md)
 
@@ -73,7 +73,7 @@ The content is in teaching order.
 ## week 5 lecture
 
 - time: 2024-02-27T18:00:00+08:00/2024-02-27T20:30:00+08:00
-- How to build a user-centric product? ::: idea generation, then customer segmentation, then [design thinking](../../../../general/design%20thinking.md), then customer profile, then value proposition canvas, then business model canvas <!--SR:!2024-09-30,93,275!2024-07-07,40,295-->
+- How to build a user-centric product? ::: idea generation, then customer segmentation, then [design thinking](../../../../general/design%20thinking.md), then customer profile, then value proposition canvas, then business model canvas <!--SR:!2024-09-30,93,275!2024-11-01,117,295-->
 - [design thinking § in business](../../../../general/design%20thinking.md#in%20business)
 - [d.school design thinking bootleg § process modules](../../../d.school%20design%20thinking%20bootleg.md#process%20modules)
 - [design thinking § ideation: divergent and convergent thinking](../../../../general/design%20thinking.md#ideation%20divergent%20and%20convergent%20thinking)
