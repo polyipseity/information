@@ -73,10 +73,22 @@ gs -dBATCH -dNOPAUSE -dQUIET -sDEVICE=pdfwrite "-dPDFSETTINGS=$preset" '-dCompat
 ```
 
 - parameters
-  - `$preset` = `/default`: `/screen` < `/ebook` < `/printer` < `/prepress` < `/default`; distiller parameters preset
+  - `$preset` = `/default`: `/default` or (`/screen` < `/ebook` < `/printer` < `/prepress`); distiller parameters preset
   - `$input`: input filename
   - `$output`: output filename
 - source: <https://askubuntu.com/a/256449>
+
+## ImageMagick
+
+### images to PDF
+
+```shell
+magick $inputs "$output.pdf"
+```
+
+- parameters
+  - `$inputs`: input filenames
+  - `$output`: output filename without extension
 
 ## PowerShell
 
