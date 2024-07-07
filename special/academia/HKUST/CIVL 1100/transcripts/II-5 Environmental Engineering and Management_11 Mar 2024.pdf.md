@@ -24,7 +24,7 @@ Environmental Engineering and Management
 
 What is Environmental Engineering?
 
-- What is environmental engineering? ::: Apply science and engineering principles to solve environmental problems. <!--SR:!2024-08-01,56,310!2024-07-07,34,290-->
+- What is environmental engineering? ::: Apply science and engineering principles to solve environmental problems. <!--SR:!2024-08-01,56,310!2024-11-20,136,310-->
   - environmental engineering relevance ::: practical and lots of satisfaction, prevent environment deterioration, related to daily life <!--SR:!2024-07-23,48,310!2024-07-21,45,290-->
 
 ## page 3
@@ -98,12 +98,12 @@ return await memorize_seq(
 
 <!--pytextgen generate section="a92d"--><!-- The following content is generated at 2024-06-09T06:29:24.057662+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←(Cap. 311) Air Pollution Control Ordinance <!--SR:!2024-07-14,12,275!2024-07-07,19,335-->
-- (Cap. 311) Air Pollution Control Ordinance→:::←(Cap. 354) Waste Disposal Ordinance <!--SR:!2024-07-14,19,295!2024-07-07,19,335-->
-- (Cap. 354) Waste Disposal Ordinance→:::←(Cap. 358) Water Pollution Control Ordinance <!--SR:!2024-07-15,20,295!2024-07-07,19,335-->
+- _(begin)_→:::←(Cap. 311) Air Pollution Control Ordinance <!--SR:!2024-07-14,12,275!2024-09-29,84,355-->
+- (Cap. 311) Air Pollution Control Ordinance→:::←(Cap. 354) Waste Disposal Ordinance <!--SR:!2024-07-14,19,295!2024-07-17,10,315-->
+- (Cap. 354) Waste Disposal Ordinance→:::←(Cap. 358) Water Pollution Control Ordinance <!--SR:!2024-07-15,20,295!2024-07-16,9,315-->
 - (Cap. 358) Water Pollution Control Ordinance→:::←(Cap. 400) Noise Pollution Control Ordinance <!--SR:!2024-07-16,13,275!2024-07-22,26,295-->
 - (Cap. 400) Noise Pollution Control Ordinance→:::←(Cap. 499) Environmental Impact Ordinance <!--SR:!2024-07-22,17,295!2024-08-15,44,315-->
-- (Cap. 499) Environmental Impact Ordinance→:::←_(end)_ <!--SR:!2024-07-07,19,335!2024-07-07,19,335-->
+- (Cap. 499) Environmental Impact Ordinance→:::←_(end)_ <!--SR:!2024-10-02,87,355!2024-10-07,92,355-->
 
 <!--/pytextgen-->
 
@@ -152,12 +152,12 @@ return await memorize_seq(
 
 <!--pytextgen generate section="ee23"--><!-- The following content is generated at 2024-06-09T06:29:24.079979+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←air sparging <!--SR:!2024-07-07,19,335!2024-07-07,19,335-->
+- _(begin)_→:::←air sparging <!--SR:!2024-10-02,87,355!2024-10-01,86,355-->
 - air sparging→:::←bioremediation <!--SR:!2024-08-03,36,315!2024-08-21,53,335-->
 - bioremediation→:::←catalytic oxidation <!--SR:!2024-08-05,37,315!2024-08-28,59,335-->
 - catalytic oxidation→:::←ex-situ biopile <!--SR:!2024-07-18,23,295!2024-08-13,47,335-->
 - ex-situ biopile→:::←ex-situ solidification or stabilization <!--SR:!2024-08-25,56,335!2024-08-12,46,335-->
-- ex-situ solidification or stabilization→:::←_(end)_ <!--SR:!2024-07-07,19,335!2024-08-20,52,335-->
+- ex-situ solidification or stabilization→:::←_(end)_ <!--SR:!2024-09-30,85,355!2024-08-20,52,335-->
 
 <!--/pytextgen-->
 
@@ -209,14 +209,14 @@ Sustainable Waste Management
 How to provide motivation for waste reduction, reuse and recycling?
 
 - How to charge your MSW? ::: fixed charge, proxy system, quantity-based system <!--SR:!2024-07-17,44,290!2024-07-13,37,290-->
-  - quantity-based system example ::: Taipei (not Taiwan as a whole) implemented MSW charging by bag in 2000. Compared to before, -37% after 1 year and -62% after 7 years. <!--SR:!2024-07-06,33,270!2024-07-16,42,290-->
+  - quantity-based system example ::: Taipei (not Taiwan as a whole) implemented MSW charging by bag in 2000. Compared to before, -37% after 1 year and -62% after 7 years. <!--SR:!2024-10-06,91,270!2024-07-16,42,290-->
 
 ## page 14
 
 MSW Waste Charging Scheme
 
 - MSW waste charging scheme passing date ::: 2021-09-26 by Legco <!--SR:!2024-08-02,45,250!2024-09-14,77,270-->
-  - MSW waste charging scheme preparation period ::: 18 months <!--SR:!2024-08-10,64,310!2024-07-06,35,290-->
+  - MSW waste charging scheme preparation period ::: 18 months <!--SR:!2024-08-10,64,310!2024-11-24,140,310-->
   - MSW waste charging scheme details ::: buy designated bags (0.11 HKD/L) at ~4000 selling points <!--SR:!2024-09-03,67,270!2024-08-02,57,310-->
   - MSW waste charging scheme penalty ::: max HK$25000 fine and 6 months in prison <!--SR:!2024-07-29,54,310!2024-07-23,46,290-->
 
@@ -349,14 +349,14 @@ Indoor Air Quality
   - common indoor air pollutant examples ::: carbon dioxide (CO<sub>2</sub>), carbon monoxide (CO), respirable suspended particulate (RSP/PM<sub>10</sub>) <!--SR:!2024-09-20,80,270!2024-07-25,50,310-->
     - carbon dioxide limits ::: excellent: < 800 ppmv; good: < 1000 ppmv <!--SR:!2024-09-25,84,270!2024-07-24,49,310-->
     - carbon monoxide limits ::: excellent: < 2000 μg/m<sup>3</sup>, < 1.7 ppmv; good: < 10000 μg/m<sup>3</sup>, < 8.7 ppmv <!--SR:!2024-08-12,43,250!2024-08-02,56,310-->
-    - respirable suspended particulate limits ::: excellent: < 20 μg/m<sup>3</sup>; good: < 180 μg/m<sup>3</sup> <!--SR:!2024-07-07,32,270!2024-07-12,39,290-->
+    - respirable suspended particulate limits ::: excellent: < 20 μg/m<sup>3</sup>; good: < 180 μg/m<sup>3</sup> <!--SR:!2024-09-27,82,270!2024-07-12,39,290-->
 
 ## page 30
 
 Climate Change — Greenhouse Gas Emission (Global Air Pollution)
 
 - [greenhouse gases](#greenhouse%20gases)
-- climate change consequences for animals ::: polar bears losing their natural habitats <!--SR:!2024-07-06,35,290!2024-08-08,61,310-->
+- climate change consequences for animals ::: polar bears losing their natural habitats <!--SR:!2024-11-23,139,310!2024-08-08,61,310-->
 
 ### greenhouse gases
 
@@ -418,7 +418,7 @@ Observed climate change in Hong Kong
 
 Concentration Units for Liquids
 
-- concentration units for liquids ::: mass of substance per unit mass of mixture, mass of substance per unit volume of mixture <!--SR:!2024-07-07,33,270!2024-07-17,43,290-->
+- concentration units for liquids ::: mass of substance per unit mass of mixture, mass of substance per unit volume of mixture <!--SR:!2024-10-05,90,270!2024-07-17,43,290-->
   - mass of substance per unit volume of mixture units for liquids ::: mol/L (mol is not strictly mass), mg/L <!--SR:!2024-07-09,34,290!2024-08-05,59,310-->
   - mass of substance per unit mass of mixture units for liquids ::: parts per billion (ppb) by weight, parts per million (ppm) by weight <!--SR:!2024-08-15,67,310!2024-08-19,71,310-->
 
