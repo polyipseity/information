@@ -42,7 +42,7 @@ class pHRanges(typing.NamedTuple):
 methyl_orange: pHRanges = pHRanges({
   '~3.1': '<span style="color: red;">red</span>',
   '3.1~4.4': '<span style="color: orange;">orange</span>',
-  '4.4~': '<span style="color: yellow;">yellow</span>',
+  '4.4~': '<span style="color: yellow; background-color: black;">yellow</span>',
 })
 litmus: pHRanges = pHRanges({
   '~5': '<span style="color: red;">red</span>',
@@ -112,13 +112,13 @@ return (
 
 ## methyl orange
 
-<!--pytextgen generate section="a9208f"--><!-- The following content is generated at 2023-08-01T10:43:41.600103+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="a9208f"--><!-- The following content is generated at 2024-07-07T16:14:39.510537+08:00. Any edits will be overridden! -->
 
 > | pH | color |
 > |-|-|
 > | ~3.1 | <span style="color: red;">red</span> |
 > | 3.1~4.4 | <span style="color: orange;">orange</span> |
-> | 4.4~ | <span style="color: yellow;">yellow</span> |
+> | 4.4~ | <span style="color: yellow; background-color: black;">yellow</span> |
 
 <!--/pytextgen-->
 
@@ -131,11 +131,11 @@ return (
 
 <!--/pytextgen-->
 
-<!--pytextgen generate section="1389d0"--><!-- The following content is generated at 2024-01-04T20:17:52.448925+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="1389d0"--><!-- The following content is generated at 2024-07-07T16:14:39.455963+08:00. Any edits will be overridden! -->
 
 - ~3.1:::<span style="color: red;">red</span>
 - 3.1~4.4:::<span style="color: orange;">orange</span>
-- 4.4~:::<span style="color: yellow;">yellow</span>
+- 4.4~:::<span style="color: yellow; background-color: black;">yellow</span>
 
 <!--/pytextgen-->
 

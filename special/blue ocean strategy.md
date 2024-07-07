@@ -35,7 +35,7 @@ To look for non-customers, we can {{separate the non-customers into 3 tiers: soo
 
 ### create "gap"
 
-In the 3rd step, create "gap", the goal is to {{create our new strategic move}}. You should use {{6 paths to reconstruct and create a new business model using ERRC}}.
+In the 3rd step, create "gap", the goal is to {{create your new strategic move}}. You should use {{6 paths to reconstruct and create a new business model using ERRC}}.
 
 The 6 paths to reconstruct market boundaries are {{considering alternative industries, considering strategic groups in the current industry, finding buyers across the value chain or redefining buyers, considering complementary offerings, functional-emotional reorientation, and participating in industry trends}}.
 
