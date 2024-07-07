@@ -23,7 +23,7 @@ tags:
   - integer data types ::: `TINYINT`, `SMALLINT`, `INT`, `INTEGER`, `MEDIUMINT`, `BIGINT` <!--SR:!2025-01-09,368,330!2025-03-09,410,330-->
     - `TINYINT` ::: Signed is from -2<sup>7</sup> to 2<sup>7</sup> - 1 and unsigned is from 0 to 2<sup>8</sup> - 1. <!--SR:!2024-10-03,269,310!2025-03-01,407,330-->
     - `SMALLINT` ::: Signed is from -2<sup>15</sup> to 2<sup>15</sup> - 1 and unsigned is 0 to 2<sup>16</sup> - 1. <!--SR:!2025-02-27,405,330!2024-12-31,361,330-->
-    - `INT`, `INTEGER` ::: Signed is from -2<sup>23</sup> to 2<sup>23</sup> - 1 and unsigned is from 0 to 2<sup>24</sup> - 1. <!--SR:!2025-04-08,422,330!2024-07-07,196,290-->
+    - `INT`, `INTEGER` ::: Signed is from -2<sup>23</sup> to 2<sup>23</sup> - 1 and unsigned is from 0 to 2<sup>24</sup> - 1. <!--SR:!2025-04-08,422,330!2026-01-25,567,290-->
     - `MEDIUMINT` ::: Signed is from -2<sup>31</sup> to 2<sup>31</sup> - 1 and unsigned is from 0 to 2<sup>32</sup> - 1. <!--SR:!2024-09-07,201,290!2025-01-28,381,330-->
     - `BIGINT` ::: Signed is from -2<sup>63</sup> to 2<sup>63</sup> - 1 and unsigned is from 0 to 2<sup>64</sup> - 1. <!--SR:!2024-09-26,277,310!2025-04-06,422,330-->
 - string data types ::: `BINARY`, `BLOB`, `CHAR`, `ENUM`, `SET`, `TEXT`, `VARBINARY`, `VARCHAR` <!--SR:!2024-10-20,281,310!2024-08-05,205,290-->

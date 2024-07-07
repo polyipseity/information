@@ -52,9 +52,9 @@ See also [Blender manual](https://docs.blender.org/manual/en/dev/interface/keyma
 ### 3D viewport
 
 - toggle edit mode:::Tab↹ <!--SR:!2024-11-30,512,310!2025-05-21,637,316-->
-- open mode pie menu/toggle pose mode:::Ctrl+Tab↹ <!--SR:!2028-05-16,1423,296!2024-07-07,82,196-->
+- open mode pie menu/toggle pose mode:::Ctrl+Tab↹ <!--SR:!2028-05-16,1423,296!2024-12-16,162,196-->
 - toggle vertex/edge/face mode:::1/2/3 <!--SR:!2025-08-08,723,336!2024-08-12,390,296-->
 - toggle vertex/edge/face mode + multiple modes:::+⇧Shift <!--SR:!2026-04-01,832,290!2025-07-28,688,316-->
 - toggle vertex/edge/face mode + expand/contract selection:::+Ctrl <!--SR:!2025-05-30,476,276!2025-10-24,557,256-->
-- toggle gizmos:::Ctrl+\` <!--SR:!2024-07-07,31,130!2024-08-21,53,196-->
+- toggle gizmos:::Ctrl+\` <!--SR:!2024-07-25,18,130!2024-08-21,53,196-->
 - start walk/fly navigation:::⇧Shift+\` <!--SR:!2024-09-22,121,230!2024-07-30,32,130-->

@@ -45,7 +45,7 @@ value: overwhelmed by true value creation vs. understand patterns of value creat
 
 - _(begin)_→:::←idea quality: involved in failed bold shiny projects vs. avoid wasting time in bad ideas <!--SR:!2024-09-08,96,289!2024-07-12,67,329-->
 - idea quality: involved in failed bold shiny projects vs. avoid wasting time in bad ideas→:::←implementation: disappointed by failure of a good idea vs. design, test, and deliver what customers want <!--SR:!2024-09-01,90,289!2024-07-14,53,269-->
-- implementation: disappointed by failure of a good idea vs. design, test, and deliver what customers want→:::←teamwork: frustrated by unproductive meetings and teams vs. leverage the team fully <!--SR:!2024-07-06,53,269!2024-08-08,74,289-->
+- implementation: disappointed by failure of a good idea vs. design, test, and deliver what customers want→:::←teamwork: frustrated by unproductive meetings and teams vs. leverage the team fully <!--SR:!2024-11-22,138,269!2024-08-08,74,289-->
 - teamwork: frustrated by unproductive meetings and teams vs. leverage the team fully→:::←value: overwhelmed by true value creation vs. understand patterns of value creation <!--SR:!2024-08-18,73,249!2024-07-26,65,269-->
 - value: overwhelmed by true value creation vs. understand patterns of value creation→:::←_(end)_ <!--SR:!2024-07-23,76,329!2024-07-08,58,289-->
 
@@ -109,12 +109,12 @@ vagueness: vague jobs, pains, and gains
 
 <!--pytextgen generate section="39ba"--><!-- The following content is generated at 2024-05-03T17:30:19.548044+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←hyperfocus: focusing on functional jobs only <!--SR:!2024-08-11,62,229!2024-07-07,64,329-->
+- _(begin)_→:::←hyperfocus: focusing on functional jobs only <!--SR:!2024-08-11,62,229!2025-04-22,289,349-->
 - hyperfocus: focusing on functional jobs only→:::←insufficiency: not enough jobs, pains, and gains <!--SR:!2024-10-17,111,249!2024-07-22,61,269-->
-- insufficiency: not enough jobs, pains, and gains→:::←mix: mixing customer segments <!--SR:!2024-08-07,50,189!2024-07-07,4,130-->
+- insufficiency: not enough jobs, pains, and gains→:::←mix: mixing customer segments <!--SR:!2024-08-07,50,189!2024-07-09,2,130-->
 - mix: mixing customer segments→:::←mix: mixing jobs and outcomes <!--SR:!2024-09-29,112,289!2024-07-16,38,269-->
 - mix: mixing jobs and outcomes→:::←opposite: gains and pains are not opposite, gains are beyond expectation while pains are falling short of expectation <!--SR:!2024-07-26,31,265!2024-09-20,87,285-->
-- opposite: gains and pains are not opposite, gains are beyond expectation while pains are falling short of expectation→:::←reversed: listing jobs, pains, and gains from your product value propositions <!--SR:!2024-07-27,65,269!2024-07-07,54,269-->
+- opposite: gains and pains are not opposite, gains are beyond expectation while pains are falling short of expectation→:::←reversed: listing jobs, pains, and gains from your product value propositions <!--SR:!2024-07-27,65,269!2024-08-01,25,249-->
 - reversed: listing jobs, pains, and gains from your product value propositions→:::←vagueness: vague jobs, pains, and gains <!--SR:!2024-07-26,24,169!2024-08-01,64,249-->
 - vagueness: vague jobs, pains, and gains→:::←_(end)_ <!--SR:!2024-07-21,74,329!2024-08-20,84,289-->
 

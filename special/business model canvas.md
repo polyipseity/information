@@ -62,7 +62,7 @@ C$: [cost structure](#cost%20structure)
 - _(begin)_→:::←CS: [customer segments](#customer%20segments) <!--SR:!2024-09-08,105,297!2025-03-04,249,337-->
 - CS: [customer segments](#customer%20segments)→:::←VP: [value propositions](#value%20propositions) <!--SR:!2024-09-04,92,274!2024-07-08,21,277-->
 - VP: [value propositions](#value%20propositions)→:::←CH: [channels](#channels) <!--SR:!2024-11-18,146,294!2024-08-22,92,297-->
-- CH: [channels](#channels)→:::←CR: [customer relationships](#customer%20relationships) <!--SR:!2024-07-07,62,314!2025-02-24,242,334-->
+- CH: [channels](#channels)→:::←CR: [customer relationships](#customer%20relationships) <!--SR:!2025-01-16,193,314!2025-02-24,242,334-->
 - CR: [customer relationships](#customer%20relationships)→:::←R$: [revenue streams](#revenue%20streams) <!--SR:!2024-08-06,76,274!2024-09-02,100,292-->
 - R$: [revenue streams](#revenue%20streams)→:::←KR: [key resources](#key%20resources) <!--SR:!2024-10-20,115,257!2024-09-26,101,257-->
 - KR: [key resources](#key%20resources)→:::←KA: [key activities](#key%20activities) <!--SR:!2024-07-10,49,257!2024-08-08,77,274-->
@@ -113,7 +113,7 @@ segmented: splitting slightly different customer segments
 - mass market: not distinguishing between customer segments→:::←multi-sided platforms: serving interdependent customer segments <!--SR:!2024-08-03,73,274!2024-09-12,109,297-->
 - multi-sided platforms: serving interdependent customer segments→:::←niche market: focusing on specific, specialized customer segments <!--SR:!2024-10-27,120,257!2024-09-12,79,254-->
 - niche market: focusing on specific, specialized customer segments→:::←segmented: splitting slightly different customer segments <!--SR:!2024-09-30,100,254!2024-07-14,18,237-->
-- segmented: splitting slightly different customer segments→:::←_(end)_ <!--SR:!2024-07-21,68,274!2024-07-06,45,254-->
+- segmented: splitting slightly different customer segments→:::←_(end)_ <!--SR:!2024-07-21,68,274!2024-10-31,116,254-->
 
 <!--/pytextgen-->
 
@@ -290,12 +290,12 @@ The key partnerships building block shows {{important suppliers and networks req
 
 The cost structure building block shows {{all costs required to run the business model}}. Business models, with respect to the cost structure, can be categorized into {{cost-driven and value-driven, though most organizations fall somewhere between these two}}. <!--SR:!2024-08-24,94,294!2024-08-17,82,274-->
 
-In cost structures, costs can be {{fixed costs or variable costs}}. Costs can be reduced by {{economies of scale and economies of scope}}. <!--SR:!2024-08-18,88,290!2024-07-06,56,274-->
+In cost structures, costs can be {{fixed costs or variable costs}}. Costs can be reduced by {{economies of scale and economies of scope}}. <!--SR:!2024-08-18,88,290!2024-12-06,152,274-->
 
 ### fit
 
-Business model fit can be achieved by {{reiteration between changing the value propositions and the rest of the business model}}, because these two {{are interdependent on each other: changing one entails changing the other}}. The changes can be {{big or small}}: pivot {{means making radical changes to the business model because your code idea requires more exploration}}, while iteration {{means reorienting the business model slightly but still closely related to the original}}. <!--SR:!2024-10-05,97,289!2024-07-10,45,309!2024-07-19,52,309!2024-07-06,42,309!2024-07-22,54,309-->
+Business model fit can be achieved by {{reiteration between changing the value propositions and the rest of the business model}}, because these two {{are interdependent on each other: changing one entails changing the other}}. The changes can be {{big or small}}: pivot {{means making radical changes to the business model because your code idea requires more exploration}}, while iteration {{means reorienting the business model slightly but still closely related to the original}}. <!--SR:!2024-10-05,97,289!2024-07-10,45,309!2024-07-19,52,309!2025-01-02,179,329!2024-07-22,54,309-->
 
 ## comparison with other models
 
-The business model canvas can be grouped into {{4 sections: "how" for key blocks, "what" for value propositions, "who" for customer blocks, and "how much" for cost structure and revenue streams}}. It can also be grouped into {{3 sections: "feasibility" for key blocks, "desirability" for value propositions and customer blocks, and "viability" for cost structure and revenue streams}}. This is similar to {{[design thinking](../general/design%20thinking.md)}}. <!--SR:!2024-07-06,39,289!2024-07-08,3,250!2024-08-12,72,329-->
+The business model canvas can be grouped into {{4 sections: "how" for key blocks, "what" for value propositions, "who" for customer blocks, and "how much" for cost structure and revenue streams}}. It can also be grouped into {{3 sections: "feasibility" for key blocks, "desirability" for value propositions and customer blocks, and "viability" for cost structure and revenue streams}}. This is similar to {{[design thinking](../general/design%20thinking.md)}}. <!--SR:!2024-11-02,118,289!2024-07-08,3,250!2024-08-12,72,329-->

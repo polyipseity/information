@@ -56,7 +56,7 @@ Loads on civil engineering can be separated into {{<!--pytextgen generate sectio
 <!--pytextgen generate section="cc19"--><!-- The following content is generated at 2024-05-14T21:09:52.082807+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←[dead load](#dead%20load) <!--SR:!2024-07-30,53,308!2024-08-22,77,320-->
-- [dead load](#dead%20load)→:::←[environmental load](#environmental%20load) <!--SR:!2024-07-28,56,310!2024-07-06,37,290-->
+- [dead load](#dead%20load)→:::←[environmental load](#environmental%20load) <!--SR:!2024-07-28,56,310!2024-10-21,106,290-->
 - [environmental load](#environmental%20load)→:::←[live load](#live%20load) <!--SR:!2024-09-24,83,270!2024-08-16,72,328-->
 - [live load](#live%20load)→:::←[load combinations](#load%20combinations) <!--SR:!2024-07-18,45,300!2024-07-19,49,290-->
 - [load combinations](#load%20combinations)→:::←[other loads](#other%20loads) <!--SR:!2024-07-16,44,290!2024-08-08,65,320-->
@@ -109,7 +109,7 @@ return await memorize_seq(
 - [hydrostatic load](#hydrostatic%20load)→:::←[lateral load](#lateral%20load) <!--SR:!2024-10-08,97,288!2024-07-12,42,300-->
 - [lateral load](#lateral%20load)→:::←[seismic load](#seismic%20load) <!--SR:!2024-09-21,85,288!2024-07-19,48,300-->
 - [seismic load](#seismic%20load)→:::←[thermal load](#thermal%20load) <!--SR:!2024-08-11,37,260!2024-07-17,38,260-->
-- [thermal load](#thermal%20load)→:::←[wind load](#wind%20load) <!--SR:!2024-07-06,38,300!2024-07-26,45,270-->
+- [thermal load](#thermal%20load)→:::←[wind load](#wind%20load) <!--SR:!2024-07-27,20,280!2024-07-26,45,270-->
 - [wind load](#wind%20load)→:::←_(end)_ <!--SR:!2024-08-19,75,320!2024-08-10,67,328-->
 
 <!--/pytextgen-->
