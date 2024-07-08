@@ -35,7 +35,7 @@ A fixed support is {{usually not drawn specifically and represented by being con
 
 Examples include {{a computer monitor with a single non-rotatable support, fixed supports under a bridge}}. <!--SR:!2024-07-10,40,290-->
 
-Note that the reaction [torque](torque.md) only makes sense when {{you consider that the support is not a single ideal point, or otherwise the moment arm is always zero}}. <!--SR:!2024-07-08,39,290-->
+Note that the reaction [torque](torque.md) only makes sense when {{you consider that the support is not a single ideal point, or otherwise the moment arm is always zero}}. <!--SR:!2024-12-11,156,310-->
 
 ## references
 

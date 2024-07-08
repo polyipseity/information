@@ -305,7 +305,7 @@ Example quiz questions for preparing exams.
 > 3. 220.89 MN
 > 4. 110.4 MN
 >
-> - solution: {{4}} <!--SR:!2024-07-08,33,272-->
+> - solution: {{4}} <!--SR:!2024-10-05,89,272-->
 
 <!-- markdownlint MD028 -->
 
@@ -333,7 +333,7 @@ Example quiz questions for preparing exams.
 > 3. In a soil slide, a soil mass slides along a slip surface
 > 4. In a rock fall, pieces of rock blocks detach from the rock mass and fall down the hill
 >
-> - solution: {{2}} <!--SR:!2024-07-08,35,292-->
+> - solution: {{2}} <!--SR:!2024-11-24,139,312-->
 
 <!-- markdownlint MD028 -->
 
