@@ -60,7 +60,7 @@ C$: [cost structure](#cost%20structure)
 <!--pytextgen generate section="e441"--><!-- The following content is generated at 2024-03-22T20:40:48.930507+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←CS: [customer segments](#customer%20segments) <!--SR:!2024-09-08,105,297!2025-03-04,249,337-->
-- CS: [customer segments](#customer%20segments)→:::←VP: [value propositions](#value%20propositions) <!--SR:!2024-09-04,92,274!2024-07-08,21,277-->
+- CS: [customer segments](#customer%20segments)→:::←VP: [value propositions](#value%20propositions) <!--SR:!2024-09-04,92,274!2024-09-03,57,277-->
 - VP: [value propositions](#value%20propositions)→:::←CH: [channels](#channels) <!--SR:!2024-11-18,146,294!2024-08-22,92,297-->
 - CH: [channels](#channels)→:::←CR: [customer relationships](#customer%20relationships) <!--SR:!2025-01-16,193,314!2025-02-24,242,334-->
 - CR: [customer relationships](#customer%20relationships)→:::←R$: [revenue streams](#revenue%20streams) <!--SR:!2024-08-06,76,274!2024-09-02,100,292-->
@@ -221,7 +221,7 @@ personal assistance
 - co-creation→:::←communities <!--SR:!2024-10-22,116,254!2024-10-13,133,294-->
 - communities→:::←dedicated personal assistance <!--SR:!2024-08-11,79,277!2024-09-09,98,274-->
 - dedicated personal assistance→:::←personal assistance <!--SR:!2024-07-10,65,317!2025-01-10,191,317-->
-- personal assistance→:::←_(end)_ <!--SR:!2024-07-08,63,317!2024-07-15,70,317-->
+- personal assistance→:::←_(end)_ <!--SR:!2025-01-23,199,317!2024-07-15,70,317-->
 
 <!--/pytextgen-->
 
@@ -298,4 +298,4 @@ Business model fit can be achieved by {{reiteration between changing the value p
 
 ## comparison with other models
 
-The business model canvas can be grouped into {{4 sections: "how" for key blocks, "what" for value propositions, "who" for customer blocks, and "how much" for cost structure and revenue streams}}. It can also be grouped into {{3 sections: "feasibility" for key blocks, "desirability" for value propositions and customer blocks, and "viability" for cost structure and revenue streams}}. This is similar to {{[design thinking](../general/design%20thinking.md)}}. <!--SR:!2024-11-02,118,289!2024-07-08,3,250!2024-08-12,72,329-->
+The business model canvas can be grouped into {{4 sections: "how" for key blocks, "what" for value propositions, "who" for customer blocks, and "how much" for cost structure and revenue streams}}. It can also be grouped into {{3 sections: "feasibility" for key blocks, "desirability" for value propositions and customer blocks, and "viability" for cost structure and revenue streams}}. This is similar to {{[design thinking](../general/design%20thinking.md)}}. <!--SR:!2024-11-02,118,289!2024-07-16,8,250!2024-08-12,72,329-->

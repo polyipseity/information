@@ -64,7 +64,7 @@ return await memorize_seq(
 - air pollution→:::←land contamination <!--SR:!2024-09-23,82,270!2024-08-03,58,310-->
 - land contamination→:::←noise pollution <!--SR:!2024-07-09,34,290!2024-09-03,68,270-->
 - noise pollution→:::←solid waste disposal <!--SR:!2024-09-16,76,270!2024-07-15,42,290-->
-- solid waste disposal→:::←water pollution <!--SR:!2024-07-25,48,290!2024-07-08,18,230-->
+- solid waste disposal→:::←water pollution <!--SR:!2024-07-25,48,290!2024-07-16,8,210-->
 - water pollution→:::←_(end)_ <!--SR:!2024-07-24,49,310!2024-07-17,43,290-->
 
 <!--/pytextgen-->
@@ -244,7 +244,7 @@ Hong Kong Harbour Area Treatment Scheme Stage I (HATS)
 
 - Hong Kong Harbour Area Treatment Scheme Stage I ::: HATS Stage 1 <!--SR:!2024-07-31,56,310!2024-08-07,61,310-->
   - HATS Stage 1 scheme period ::: 1994 to 2001 <!--SR:!2024-07-16,42,290!2024-07-18,14,250-->
-  - HATS Stage 1 scheme cost ::: HK$8.2 billion <!--SR:!2024-07-10,35,290!2024-07-08,31,270-->
+  - HATS Stage 1 scheme cost ::: HK$8.2 billion <!--SR:!2024-07-10,35,290!2024-10-01,85,270-->
   - HATS Stage 1 details ::: Stonecutters Island Sewage Treatment Works (SCISTW), sewage tunnel of 23.6 km, upgrade 8 preliminary treatment works (PTWs) <!--SR:!2024-07-09,35,270!2024-08-04,58,310-->
   - HATS Stage 1 geographic coverage ::: collect sewage from Kowloon, Kwai Tsing, Tseung Kwan O, and north-eastern Hong Kong Island to SCISTW <!--SR:!2024-09-15,75,270!2024-07-12,37,290-->
   - HATS Stage 1 coverage in numbers ::: 3.5 million people, 75% from harbour area <!--SR:!2024-07-21,46,290!2024-09-26,86,290-->
@@ -451,7 +451,7 @@ Concentration Units for Gases
 
 Relationship between ppm<sub>v</sub> and mg/m<sup>3</sup>
 
-- relationship between ppm<sub>v</sub> and mg/m<sup>3</sup> ::: [ideal gas law](../../../../../general/ideal%20gas%20law.md) <!--SR:!2024-08-21,73,310!2024-07-08,35,290-->
+- relationship between ppm<sub>v</sub> and mg/m<sup>3</sup> ::: [ideal gas law](../../../../../general/ideal%20gas%20law.md) <!--SR:!2024-08-21,73,310!2024-11-26,141,310-->
   - ideal gas law equation ::: $$pV = nRT$$, where $p$ is the absolute pressure in atm, $V$ is the volume in m<sup>3</sup>, $n$ is the number of moles, $R \approx 0.082056\mathrm{\ L \cdot atm \cdot K^{-1} \cdot mol^{-1} }$ is the [ideal gas constant](../../../../../general/gas%20constant.md), and $T$ is the absolute temperature in K <!--SR:!2024-07-27,49,290!2024-08-13,66,310-->
 
 ## page 38

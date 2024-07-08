@@ -47,7 +47,7 @@ value: overwhelmed by true value creation vs. understand patterns of value creat
 - idea quality: involved in failed bold shiny projects vs. avoid wasting time in bad ideas→:::←implementation: disappointed by failure of a good idea vs. design, test, and deliver what customers want <!--SR:!2024-09-01,90,289!2024-07-14,53,269-->
 - implementation: disappointed by failure of a good idea vs. design, test, and deliver what customers want→:::←teamwork: frustrated by unproductive meetings and teams vs. leverage the team fully <!--SR:!2024-11-22,138,269!2024-08-08,74,289-->
 - teamwork: frustrated by unproductive meetings and teams vs. leverage the team fully→:::←value: overwhelmed by true value creation vs. understand patterns of value creation <!--SR:!2024-08-18,73,249!2024-07-26,65,269-->
-- value: overwhelmed by true value creation vs. understand patterns of value creation→:::←_(end)_ <!--SR:!2024-07-23,76,329!2024-07-08,58,289-->
+- value: overwhelmed by true value creation vs. understand patterns of value creation→:::←_(end)_ <!--SR:!2024-07-23,76,329!2024-12-24,169,289-->
 
 <!--/pytextgen-->
 
@@ -157,8 +157,8 @@ mix: mixing products and services with pain relievers and gain creators
 <!--pytextgen generate section="8ba2"--><!-- The following content is generated at 2024-03-22T20:40:48.908986+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←all: addressing all customer pains and gains <!--SR:!2024-10-06,108,269!2024-07-22,77,329-->
-- all: addressing all customer pains and gains→:::←irrelevance: listing all products and services without considering the customer segment <!--SR:!2024-08-09,61,229!2024-07-08,55,269-->
-- irrelevance: listing all products and services without considering the customer segment→:::←irrelevance: offer irrelevant pain relievers and gain creators <!--SR:!2024-07-08,27,229!2024-08-05,75,289-->
+- all: addressing all customer pains and gains→:::←irrelevance: listing all products and services without considering the customer segment <!--SR:!2024-08-09,61,229!2024-08-04,27,249-->
+- irrelevance: listing all products and services without considering the customer segment→:::←irrelevance: offer irrelevant pain relievers and gain creators <!--SR:!2024-07-24,16,209!2024-08-05,75,289-->
 - irrelevance: offer irrelevant pain relievers and gain creators→:::←mix: mixing products and services with pain relievers and gain creators <!--SR:!2024-07-26,51,249!2024-07-26,65,269-->
 - mix: mixing products and services with pain relievers and gain creators→:::←_(end)_ <!--SR:!2024-10-03,115,289!2024-07-09,28,189-->
 

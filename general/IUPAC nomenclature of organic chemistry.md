@@ -217,7 +217,7 @@ The steps for naming an organic compound are:
 
 <!--pytextgen generate section="abacdf"--><!-- The following content is generated at 2024-01-04T20:17:52.021214+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←smallest locant for the suffix functional group <!--SR:!2024-07-08,545,266!2030-03-25,2149,382-->
+- _(begin)_→:::←smallest locant for the suffix functional group <!--SR:!2028-06-26,1449,266!2030-03-25,2149,382-->
 - smallest locant for the suffix functional group→:::←smallest locant for multiple bonds <!--SR:!2029-12-14,1996,286!2024-09-02,481,322-->
 - smallest locant for multiple bonds→:::←smallest locant for prefixes <!--SR:!2028-02-06,1523,286!2026-02-13,908,345-->
 - smallest locant for prefixes→:::←_(end)_ <!--SR:!2029-03-04,1841,382!2027-07-26,1161,305-->
@@ -675,7 +675,7 @@ return await memorize_table(
 - _(begin)_→:::←[acetic acid](acetic%20acid.md) <!--SR:!2024-11-11,469,384!2024-11-22,478,384-->
 - [acetic acid](acetic%20acid.md)→:::←[acetone](acetone.md) <!--SR:!2026-06-28,862,364!2024-12-05,489,384-->
 - [acetone](acetone.md)→:::←[chloroform](chloroform.md) <!--SR:!2027-03-26,1038,344!2025-11-25,553,364-->
-- [chloroform](chloroform.md)→:::←[formaldehyde](formaldehyde.md) <!--SR:!2024-07-08,282,364!2025-01-11,242,304-->
+- [chloroform](chloroform.md)→:::←[formaldehyde](formaldehyde.md) <!--SR:!2024-11-25,140,344!2025-01-11,242,304-->
 - [formaldehyde](formaldehyde.md)→:::←[isopropyl alcohol](isopropyl%20alochol.md) <!--SR:!2025-04-07,336,324!2024-07-17,351,364-->
 - [isopropyl alcohol](isopropyl%20alochol.md)→:::←_(end)_ <!--SR:!2024-09-09,418,384!2024-09-20,233,304-->
 

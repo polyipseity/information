@@ -141,7 +141,7 @@ The parenthesized text at the beginning of of each question is {{the location th
 > 6. 60 years
 >
 > - solution: {{2}}
-> - steps: {{Since the relative orbital motion between the planet and the satellite is prograde, apply the equation: $$\frac 1 {T_\text{syn} } = \frac 1 {T_1} - \frac 1 {T_2} \quad T_1 < T_2$$. Thus we have $T_\text{syn} = \frac 1 {\frac 1 {T_1} - \frac 1 {T_2} } = \frac 1 {\frac 1 {69} - \frac 1 {420} } \approx 82.564\,1026 \approx 83\text{ years}$.}} <!--SR:!2024-07-08,3,270!2024-07-08,3,270-->
+> - steps: {{Since the relative orbital motion between the planet and the satellite is prograde, apply the equation: $$\frac 1 {T_\text{syn} } = \frac 1 {T_1} - \frac 1 {T_2} \quad T_1 < T_2$$. Thus we have $T_\text{syn} = \frac 1 {\frac 1 {T_1} - \frac 1 {T_2} } = \frac 1 {\frac 1 {69} - \frac 1 {420} } \approx 82.564\,1026 \approx 83\text{ years}$.}} <!--SR:!2024-07-15,7,270!2024-07-14,6,270-->
 
 <!-- markdownlint MD028 -->
 
@@ -168,7 +168,7 @@ The parenthesized text at the beginning of of each question is {{the location th
 > 6. 7/6 years
 >
 > - solution: {{6}}
-> - steps: {{Since the relative orbital motion between the 2 planets is retrograde, apply the equation: $$\frac 1 {T_\text{syn} } = \frac 1 {T_1} + \frac 1 {T_2}$$. Thus we have $T_2 = \frac 1 {\frac 1 {T_\text{syn} } - \frac 1 {T_1} } = \frac 1 {\frac 1 1 - \frac 1 7} = \frac 7 6\text{ years}$.}} <!--SR:!2024-07-08,3,270!2024-07-09,4,290-->
+> - steps: {{Since the relative orbital motion between the 2 planets is retrograde, apply the equation: $$\frac 1 {T_\text{syn} } = \frac 1 {T_1} + \frac 1 {T_2}$$. Thus we have $T_2 = \frac 1 {\frac 1 {T_\text{syn} } - \frac 1 {T_1} } = \frac 1 {\frac 1 1 - \frac 1 7} = \frac 7 6\text{ years}$.}} <!--SR:!2024-07-14,6,270!2024-07-09,4,290-->
 
 ## 2024-07-04
 
@@ -194,4 +194,4 @@ The parenthesized text at the beginning of of each question is {{the location th
 > 5. 366 days
 >
 > - solution: {{4}}
-> - steps: {{Recall that the eclipse season depends on the line of lunar nodes. Consider that the lunar nodes rotates retrograde (clockwise) once about 18.6 years. The answer is: $$\frac {365.25} {18.6} \approx 19.637\,0967 \approx 20\text{ days}$$.}} <!--SR:!2024-07-09,4,292!2024-07-08,3,272-->
+> - steps: {{Recall that the eclipse season depends on the line of lunar nodes. Consider that the lunar nodes rotates retrograde (clockwise) once about 18.6 years. The answer is: $$\frac {365.25} {18.6} \approx 19.637\,0967 \approx 20\text{ days}$$.}} <!--SR:!2024-07-09,4,292!2024-07-14,6,272-->

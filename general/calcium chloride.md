@@ -43,7 +43,7 @@ return await memorize_table(
 
 - _(begin)_→:::←[desiccant](desiccant.md) <!--SR:!2025-01-25,280,290!2026-08-02,867,330-->
 - [desiccant](desiccant.md)→:::←[separation](separation%20process.md) <!--SR:!2025-08-02,532,310!2027-03-20,1038,330-->
-- [separation](separation%20process.md)→:::←_(end)_ <!--SR:!2024-07-08,356,330!2027-03-16,1035,330-->
+- [separation](separation%20process.md)→:::←_(end)_ <!--SR:!2028-12-13,1619,350!2027-03-16,1035,330-->
 
 <!--/pytextgen-->
 

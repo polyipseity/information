@@ -55,7 +55,7 @@ The content is in teaching order.
   - [structural engineering examples](#structural%20engineering%20examples)
   - [natural disasters examples](#natural%20disaster%20examples)
   - structural engineering goals ::: safety: no collapse without warning, serviceability: deformation does not disrupt use <!--SR:!2024-07-10,46,292!2025-06-28,368,350-->
-  - construction material factors ::: depends on availability, cost, project nature <!--SR:!2024-08-24,92,337!2024-07-08,60,355-->
+  - construction material factors ::: depends on availability, cost, project nature <!--SR:!2024-08-24,92,337!2025-02-05,212,355-->
     - [construction material examples](#construction%20material%20examples)
       - [reinforced concrete structure examples](#reinforced%20concrete%20structure%20examples)
       - [steel or concrete–steel composite structure examples](#steel%20or%20concrete–steel%20composite%20structure%20examples)
@@ -198,7 +198,7 @@ water and sewage treatment system
 - pipeline→:::←power plant <!--SR:!2024-08-14,59,260!2024-10-22,107,281-->
 - power plant→:::←reservoir <!--SR:!2024-07-30,60,275!2024-09-05,91,320-->
 - reservoir→:::←sewage treatment <!--SR:!2024-07-18,31,197!2024-09-05,75,261-->
-- sewage treatment→:::←transport <!--SR:!2024-07-08,39,250!2024-07-13,50,301-->
+- sewage treatment→:::←transport <!--SR:!2024-07-29,21,230!2024-07-13,50,301-->
 - transport→:::←water and sewage treatment system <!--SR:!2024-11-05,137,340!2024-07-10,12,170-->
 - water and sewage treatment system→:::←_(end)_ <!--SR:!2024-08-25,93,381!2024-08-01,69,361-->
 
@@ -277,7 +277,7 @@ workmanship
 
 <!--pytextgen generate section="1e12"--><!-- The following content is generated at 2024-05-01T19:22:34.848790+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←budgeting <!--SR:!2024-07-08,55,341!2024-09-06,105,380-->
+- _(begin)_→:::←budgeting <!--SR:!2025-01-11,187,341!2024-09-06,105,380-->
 - budgeting→:::←construction management <!--SR:!2024-07-29,66,320!2024-08-30,98,335-->
 - construction management→:::←economics <!--SR:!2024-07-10,42,235!2024-08-21,81,300-->
 - economics→:::←impacts to surrounding <!--SR:!2024-08-09,71,300!2024-07-15,13,260-->

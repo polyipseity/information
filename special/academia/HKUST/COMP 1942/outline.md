@@ -121,8 +121,8 @@ The content is in teaching order.
 - time: 2024-03-04T18:00:00+08:00/2024-03-04T19:00:00+08:00
 - topic: how to do in-class exercise 2 (FP-tree) and additional exercise (FP-tree)
 - [FP-growth algorithm § overview](../../../../general/FP-growth%20algorithm.md#overview)
-- Jaccard's coefficient for binary data ::: [Jaccard index § similarity of asymmetric binary attributes](../../../../general/Jaccard%20index.md#similarity%20of%20asymmetric%20binary%20attributes) <!--SR:!2024-07-08,20,357!2024-07-08,20,357-->
-- matching coefficient for binary data ::: [simple matching coefficient](../../../../general/simple%20matching%20coefficient.md) <!--SR:!2024-07-08,20,357!2024-07-08,20,357-->
+- Jaccard's coefficient for binary data ::: [Jaccard index § similarity of asymmetric binary attributes](../../../../general/Jaccard%20index.md#similarity%20of%20asymmetric%20binary%20attributes) <!--SR:!2024-10-17,101,377!2024-10-13,97,377-->
+- matching coefficient for binary data ::: [simple matching coefficient](../../../../general/simple%20matching%20coefficient.md) <!--SR:!2024-10-11,95,377!2024-10-14,98,377-->
 
 ## week 6 lecture 2
 
@@ -306,7 +306,7 @@ The content is in teaching order.
   - [§ basic structure](../../../../general/artificial%20neuron.md#basic%20structure)
   - [§ types of activation functions](../../../../general/artificial%20neuron.md#types%20of%20activation%20function)
   - [§ step function](../../../../general/artificial%20neuron.md#step%20function)
-    - step function threshold ::: _θ_ = 0 <!--SR:!2024-07-08,20,357!2024-07-09,21,357-->
+    - step function threshold ::: _θ_ = 0 <!--SR:!2024-10-18,102,377!2024-07-09,21,357-->
   - [§ rectifier](../../../../general/artificial%20neuron.md#rectifier)
   - [§ sigmoid](../../../../general/artificial%20neuron.md#sigmoid)
     - sigmoid function variants ::: [logistic function](../../../../general/logistic%20function.md) with _L_ = 1, _k = 1_, and _x_<sub>0</sub> = 0: $$y = \frac 1 {1 + e^{-u} }$$, [hyperbolic tangent](../../../../general/hyperbolic%20functions.md) ($\tanh$): $$y = \frac {\sinh u} {\cosh u} = \frac {e^u - e^{-u} } {e^u + e^{-u} } = \frac {e^{2u} - 1} {e^{2u} + 1}$$ <!--SR:!2024-08-01,37,337!2024-08-26,57,357-->
@@ -343,7 +343,7 @@ The content is in teaching order.
 - [support vector machine](../../../../general/support%20vector%20machine.md)
   - [§ hard-margin](../../../../general/support%20vector%20machine.md#hard-margin)
   - [§ nonlinear kernels](../../../../general/support%20vector%20machine.md#nonlinear%20kernels)
-- accuracy ::: [accuracy and precision § in binary classification](../../../../general/accuracy%20and%20precision.md#in%20binary%20classification) <!--SR:!2024-07-08,20,357!2024-07-09,21,357-->
+- accuracy ::: [accuracy and precision § in binary classification](../../../../general/accuracy%20and%20precision.md#in%20binary%20classification) <!--SR:!2024-09-16,70,357!2024-07-09,21,357-->
 - [precision and recall](../../../../general/precision%20and%20recall.md), [sensitivity and specificity § sensitivity](../../../../general/sensitivity%20and%20specificity.md#sensitivity)
 - F-measure ::: [F-score § definition](../../../../general/F-score.md#definition) <!--SR:!2024-10-12,97,377!2024-09-09,64,357-->
 - [sensitivity and specificity § specificity](../../../../general/sensitivity%20and%20specificity.md#specificity)
@@ -364,8 +364,8 @@ The content is in teaching order.
   - [§ overview](../../../../general/principal%20component%20analysis.md#overview)
   - [§ intuition](../../../../general/principal%20component%20analysis.md#intuition)
   - [§ computing PCA using the covariance method](../../../../general/principal%20component%20analysis.md#computing%20PCA%20using%20the%20covariance%20method)
-    - § computing PCA using the covariance method > matrix __X__ ::: The matrix __X__ taught in lesson uses the symbol __Y__, and is transposed: $\mathbf{Y} = \mathbf{X}^\intercal$. <!--SR:!2024-07-09,21,357!2024-07-08,20,357-->
-    - § computing PCA using the covariance method > covariance matrix __C__ ::: The matrix __C__ taught in lesson uses the symbol __Σ__, and divides by _n_ instead of $n - 1$. <!--SR:!2024-07-08,20,357!2024-09-11,66,357-->
+    - § computing PCA using the covariance method > matrix __X__ ::: The matrix __X__ taught in lesson uses the symbol __Y__, and is transposed: $\mathbf{Y} = \mathbf{X}^\intercal$. <!--SR:!2024-07-09,21,357!2024-10-17,101,377-->
+    - § computing PCA using the covariance method > covariance matrix __C__ ::: The matrix __C__ taught in lesson uses the symbol __Σ__, and divides by _n_ instead of $n - 1$. <!--SR:!2024-10-18,102,377!2024-09-11,66,357-->
     - § computing PCA using the covariance method > eigenvalues and eigenvectors ::: The [classical method](../../../../general/eigenvalues%20and%20eigenvectors.md#classical%20method) is used to calculate. The eigenvalues _λ_ are found using $\det(\mathbf{\Sigma} - \lambda \mathbf{I})$ instead of $\det(\lambda \mathbf{I} - \mathbf{\Sigma})$. The eigenvectors are normalized. <!--SR:!2024-09-04,64,357!2024-08-22,51,337-->
       - [eigenvalues and eigenvectors § classical method](../../../../general/eigenvalues%20and%20eigenvectors.md#classical%20method)
         - eigenvalues and eigenvectors § classical method > eigenvector ::: The eigenvector is calculated from the eigenvalue using $(\mathbf{\Sigma} - \lambda \mathbf{I}) \mathbf{x} = \mathbf{0}$ instead of $\mathbf{\Sigma} \mathbf{x} = \lambda \mathbf{x}$. <!--SR:!2024-07-09,21,357!2024-09-10,70,357-->
@@ -385,7 +385,7 @@ The content is in teaching order.
 - [fact table § examples](../../../../general/fact%20table.md) ::: see the transactional fact table example <!--SR:!2024-09-10,65,357!2024-07-09,21,357-->
 - data cube ::: [OLAP cube](../../../../general/OLAP%20cube.md) <!--SR:!2024-07-09,21,357!2024-07-09,21,357-->
   - [§ operations](../../../../general/OLAP%20cube.md#operations)
-    - data cube > operations ::: drill down, rollup <!--SR:!2024-07-09,21,357!2024-07-08,20,357-->
+    - data cube > operations ::: drill down, rollup <!--SR:!2024-07-09,21,357!2024-10-16,100,377-->
 
 ## week 13 tutorial
 
@@ -405,13 +405,13 @@ The content is in teaching order.
 - web database ranking considerations ::: When searching for something using a search engine, apart from matching terms, incoming and outgoing links are also considered. <!--SR:!2024-09-07,67,357!2024-07-09,21,357-->
 - [HITS algorithm](../../../../general/HITS%20algorithm.md)
   - [§ steps](../../../../general/HITS%20algorithm.md#steps)
-    - HITS algorithm variant ::: It does not matter because we only use the recursive expressions to calculate the new authority and hub values. <!--SR:!2024-07-08,20,357!2024-07-08,20,357-->
+    - HITS algorithm variant ::: It does not matter because we only use the recursive expressions to calculate the new authority and hub values. <!--SR:!2024-10-15,99,377!2024-10-12,96,377-->
     - HITS algorithm termination ::: Terminate the HITS algorithm when after rounding the values to a certain number of digits, the values have not changed. <!--SR:!2024-07-09,21,368!2024-07-18,28,368-->
   - [§ in detail](../../../../general/HITS%20algorithm.md#in%20detail)
   - [§ authority update rule](../../../../general/HITS%20algorithm.md#authority%20update%20rule)
   - [§ hub update rule](../../../../general/HITS%20algorithm.md#hub%20update%20rule)
   - [§ normalization](../../../../general/HITS%20algorithm.md#normalization)
-    - HITS algorithm normalization ::: Normalization is done after each iteration. We use the [taxicab norm](../../../../general/norm%20(mathematics).md#taxicab%20norm%20or%20Manhattan%20norm). The normalized vector length is the number of pages instead of 1. <!--SR:!2024-08-27,59,357!2024-07-08,20,357-->
+    - HITS algorithm normalization ::: Normalization is done after each iteration. We use the [taxicab norm](../../../../general/norm%20(mathematics).md#taxicab%20norm%20or%20Manhattan%20norm). The normalized vector length is the number of pages instead of 1. <!--SR:!2024-08-27,59,357!2024-10-13,97,377-->
 - [PageRank](../../../../general/PageRank.md)
   - [§ algorithm](../../../../general/PageRank.md#algorithm)
     - PageRank self-links ::: Self-links are considered. <!--SR:!2024-07-15,26,368!2024-07-13,24,368-->
@@ -458,22 +458,22 @@ The content is in teaching order.
   - [§ graphical model](../../../../general/Bayesian%20network.md#graphical%20model)
   - Bayesian belief network inference setup ::: Identify the node for which the conditional probability is calculated. Then identify all node parents and children, whether direct or indirect. Discard conditions that are conditionally independent of the calculated probability (search for "_d_-separation"). <!--SR:!2024-07-25,29,317!2024-09-16,71,357-->
   - Bayesian belief network inference process ::: Decompose joint probabilities into separate probabilities if they are conditionally independent of each other. Apply Bayes' theorem (for 3 events) to invert the conditional probability so that the resulting conditional probabilities follow the network arrows. Use the probability chain rule if necessary. Sum up over all possible values of a node (recursively) if necessary. Finally, substitute the known probabilities to calculate the results. <!--SR:!2024-07-19,24,317!2024-08-18,51,337-->
-  - Bayesian belief network inference answering ::: Also calculate the complement of the conditional probability (which is _usually_ done by subtracting from 1). Compare the 2 conditional probabilities, and declare that the higher conditional probability is the most likely outcome. <!--SR:!2024-07-08,20,357!2024-08-21,50,337-->
+  - Bayesian belief network inference answering ::: Also calculate the complement of the conditional probability (which is _usually_ done by subtracting from 1). Compare the 2 conditional probabilities, and declare that the higher conditional probability is the most likely outcome. <!--SR:!2024-10-16,100,377!2024-08-21,50,337-->
 - [conditional dependence](../../../../general/conditional%20dependence.md)
 - [conditional independence § conditional independence of events](../../../../general/conditional%20independence.md#conditional%20independence%20of%20events)
 - [chain rule (probability)](../../../../general/chain%20rule%20(probability).md)
   - [§ two events](../../../../general/chain%20rule%20(probability).md#two%20events)
   - [§ finitely many events](../../../../general/chain%20rule%20(probability).md#finitely%20many%20events)
-- common core requirements ::: mathematical models, quantitative data, quantitative methods <!--SR:!2024-09-13,73,357!2024-07-08,20,357-->
+- common core requirements ::: mathematical models, quantitative data, quantitative methods <!--SR:!2024-09-13,73,357!2024-10-12,96,377-->
 - other topics
   - association thresholding ::: Instead of thresholding by frequency, we can threshold by number of frequent item sets found, which may be easier to choose. <!--SR:!2024-08-28,57,357!2024-08-19,48,337-->
   - [clustering high-dimensional data § subspace clustering](../../../../general/clustering%20high-dimensional%20data.md#subspace%20clustering) ::: By removing some dimensions of the data, more interesting clusters may be found. It mitigates [curse of dimensionality](../../../../general/curse%20of%20dimensionality.md), where [distances between different pairs of points become similar](../../../../general/curse%20of%20dimensionality.md#distance%20function). <!--SR:!2024-07-27,31,317!2024-08-29,60,357-->
   - ensemble of classifiers ::: We can output the prediction based on the majority prediction of the classifiers. <!--SR:!2024-09-11,71,357!2024-09-13,73,357-->
   - data warehouse questions ::: How to create the data warehouse over different types of data, such as a graph? <!--SR:!2024-10-06,91,377!2024-07-09,21,357-->
   - [word-sense disambiguation](word-sense%20disambiguation.md) ::: How to disambiguate between different entities of the same name on the Internet? <!--SR:!2024-10-07,92,377!2024-10-06,91,377-->
-  - social networks ::: How are people connected? <!--SR:!2024-07-08,20,357!2024-07-08,20,357-->
+  - social networks ::: How are people connected? <!--SR:!2024-10-15,99,377!2024-10-11,95,377-->
   - privacy issues ::: How to preserve data privacy while data mining? Minimize information loss while protect individual privacy. <!--SR:!2024-10-04,89,377!2024-10-05,90,377-->
-  - graph data ::: How to analyze graphs? <!--SR:!2024-10-07,92,377!2024-07-08,20,357-->
+  - graph data ::: How to analyze graphs? <!--SR:!2024-10-07,92,377!2024-10-10,94,377-->
   - decision making
   - data streams ::: How to data mine over real-time and possibly unbounded data streams? <!--SR:!2024-07-09,21,357!2024-09-01,61,357-->
   - chatbot
