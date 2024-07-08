@@ -11,7 +11,7 @@ tags:
 
 An __eclipse season__ is {{a period, roughly every six months, when [eclipses](eclipse.md) occur}}. <!--SR:!2024-07-18,10,270-->
 
-{{Only two (or occasionally three) eclipse seasons}} occur during each year, and each season lasts {{about 35 days and repeats just short of six months (173 days) later}}, thus {{two full eclipse seasons always occur each year}}. <!--SR:!2024-07-09,4,270!2024-07-21,13,270!2024-07-09,4,270-->
+{{Only two (or occasionally three) eclipse seasons}} occur during each year, and each season lasts {{about 35 days and repeats just short of six months (173 days) later}}, thus {{two _full_ eclipse seasons always occur each year}}. <!--SR:!2024-07-09,4,270!2024-07-21,13,270!2024-07-09,4,270-->
 
 ## references
 

@@ -310,7 +310,7 @@ The content is in teaching order.
   - astronomy in very ancient times ::: to keep track of time and seasons for practical, social and religious purposes, e.g. marks carved into animal bones, prehistoric cave paintings, stone circle, orientation of the crescent moon, Stonehenge <!--SR:!2024-07-17,9,300!2024-07-09,4,320-->
     - marks carved into animal bones ::: Upper Paleolithic (late stone-age) Aurignacian Culture, Europe, ~32&nbsp;000 BC <!--SR:!2024-07-19,11,300!2024-07-17,9,300-->
     - prehistoric cave paintings ::: 29 dots = lunar phase cycle; Upper Paleolithic (late stone-age) Magdelanian Culture, Europe, ~15&nbsp;000 BC <!--SR:!2024-07-18,10,300!2024-07-09,4,320-->
-    - [stone circle](../../../../general/stone%20circle.md) ::: 4000 year old stone circle, Scotland; Moon rise in between two particular stones every 18.6 years due to the lunar nodal cycle period <!--SR:!2024-07-17,9,300!2024-07-09,4,320-->
+    - [stone circle](../../../../general/stone%20circle.md) ::: 4000 year old stone circle, Scotland; Moon rise in between two particular stones about every 18.60 years due to the lunar nodal cycle period <!--SR:!2024-07-17,9,300!2024-07-09,4,320-->
     - orientation of the crescent moon ::: predict the weather from the orientation of the crescent moon; ancient people of central Nigeria, Africa, 6500 BC <!--SR:!2024-07-09,4,320!2024-07-09,4,320-->
     - [Stonehenge](../../../../general/Stonehenge.md) ::: Stonehenge, England, ~1550 BC <!--SR:!2024-07-09,4,320!2024-07-09,4,320-->
 - [Jacob's staff](Jacob's%20staff.md) ::: determine a vessel's latitude by measuring the altitude of Polaris or the Sun <!--SR:!2024-07-09,4,320!2024-07-09,4,320-->
