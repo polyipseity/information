@@ -10,7 +10,7 @@ tags:
 
 ## why
 
-Business {{may not be able to satisfy all of their customers}}. There are few products that {{appeal to everyone}}. Segmentation allows {{the customer needs and wants to be similar enough for our product to target}}. <!--SR:!2024-07-09,44,305!2024-07-20,53,305!2024-07-31,62,325-->
+Business {{may not be able to satisfy all of their customers}}. There are few products that {{appeal to everyone}}. Segmentation allows {{the customer needs and wants to be similar enough for our product to target}}. <!--SR:!2024-11-18,132,305!2024-07-20,53,305!2024-07-31,62,325-->
 
 ## how
 

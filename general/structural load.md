@@ -130,7 +130,7 @@ To protect against soil loads, {{retaining structures are built and weep holes m
 
 #### seismic load
 
-Seismic load are {{caused by [earthquakes](earthquake.md)}}. It can induce {{both horizontal and vertical load on structures}}. <!--SR:!2024-07-15,45,290!2024-07-09,40,300-->
+Seismic load are {{caused by [earthquakes](earthquake.md)}}. It can induce {{both horizontal and vertical load on structures}}. <!--SR:!2024-07-15,45,290!2024-12-21,165,320-->
 
 The consequences are {{partial or complete collapse of structural elements or entire buildings}}. <!--SR:!2024-08-14,69,310-->
 

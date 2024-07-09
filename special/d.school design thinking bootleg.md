@@ -70,7 +70,7 @@ Prototype is {{making your idea physical}}. In early stages, {{keep the prototyp
 
 ### test
 
-Test is {{testing your idea, gather feedback, and reiterate your design}}. It is different from prototype that {{prototype finds success in your design while test finds failure}}. <!--SR:!2024-11-29,182,310!2024-07-09,61,270-->
+Test is {{testing your idea, gather feedback, and reiterate your design}}. It is different from prototype that {{prototype finds success in your design while test finds failure}}. <!--SR:!2024-11-29,182,310!2025-02-23,229,290-->
 
 ## methods and tools
 
@@ -123,7 +123,7 @@ return await memorize_seq(
 - (empathize) interview preparation: prepare, prioritize, and refine questions→:::←(empathize) what, how, why: from the concrete to the abstract <!--SR:!2024-07-17,12,130!2024-09-20,78,210-->
 - (empathize) what, how, why: from the concrete to the abstract→:::←(empathize/define) journey map: dissect a user process to gain insights <!--SR:!2024-07-11,7,130!2024-08-10,43,210-->
 - (empathize/define) journey map: dissect a user process to gain insights→:::←(empathize/define) story share-and-capture: after interviews, exchange stories with the team to gain further insights <!--SR:!2024-08-27,80,230!2024-07-13,59,230-->
-- (empathize/define) story share-and-capture: after interviews, exchange stories with the team to gain further insights→:::←(define) 2×2 matrix: plot a _xy_ graph to reveal relations and for visualization <!--SR:!2024-07-23,50,190!2024-07-09,11,130-->
+- (empathize/define) story share-and-capture: after interviews, exchange stories with the team to gain further insights→:::←(define) 2×2 matrix: plot a _xy_ graph to reveal relations and for visualization <!--SR:!2024-07-23,50,190!2024-07-16,7,130-->
 - (define) 2×2 matrix: plot a _xy_ graph to reveal relations and for visualization→:::←(define) design guidelines: a strategy to solve your design challenge, abstract enough to allow for multiple solutions <!--SR:!2024-09-01,94,250!2024-07-13,14,130-->
 - (define) design guidelines: a strategy to solve your design challenge, abstract enough to allow for multiple solutions→:::←(define) point of view (POV): make your design challenge into an actionable statement <!--SR:!2024-09-01,80,230!2024-09-05,83,210-->
 - (define) point of view (POV): make your design challenge into an actionable statement→:::←(define) why-how laddering: from need, asking "Why?" to follow the chain of reasoning to the root need, and then find other needs by asking "How?" to follow back down the chain <!--SR:!2024-07-19,14,130!2024-07-15,54,230-->

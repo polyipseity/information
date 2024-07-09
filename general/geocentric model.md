@@ -19,7 +19,7 @@ tags:
 
 ## Ancient Greece
 
-In {{the 4th century BC}}, two influential Greek philosophers, {{[Plato](Plato.md) and his student [Aristotle](Aristotle.md)}}, wrote works {{based on the geocentric model}}. <!--SR:!2024-07-10,2,260!2024-07-09,4,300!2024-07-09,4,300-->
+In {{the 4th century BC}}, two influential Greek philosophers, {{[Plato](Plato.md) and his student [Aristotle](Aristotle.md)}}, wrote works {{based on the geocentric model}}. <!--SR:!2024-07-10,2,260!2024-07-27,18,320!2024-07-26,17,320-->
 
 ## Ptolemaic model
 
@@ -74,7 +74,7 @@ return await memorize_seq(
 - [Venus](Venus.md)→:::←[Sun](Sun.md) <!--SR:!2024-07-30,23,250!2024-07-17,17,290-->
 - [Sun](Sun.md)→:::←[Mars](Mars.md) <!--SR:!2024-07-15,15,290!2024-07-15,15,290-->
 - [Mars](Mars.md)→:::←[Jupiter](Jupiter.md) <!--SR:!2024-07-11,12,270!2024-07-17,17,290-->
-- [Jupiter](Jupiter.md)→:::←[Saturn](Saturn.md) <!--SR:!2024-07-09,9,270!2024-07-15,15,290-->
+- [Jupiter](Jupiter.md)→:::←[Saturn](Saturn.md) <!--SR:!2024-08-13,35,290!2024-07-15,15,290-->
 - [Saturn](Saturn.md)→:::←[fixed stars](fixed%20stars.md) <!--SR:!2024-07-14,14,290!2024-07-17,17,290-->
 - [fixed stars](fixed%20stars.md)→:::←[_Primum Mobile_](Primum%20Mobile.md) ("first moveable"), outermost [celestial sphere](celestial%20sphere.md) <!--SR:!2024-07-16,16,290!2024-07-17,17,290-->
 - [_Primum Mobile_](Primum%20Mobile.md) ("first moveable"), outermost [celestial sphere](celestial%20sphere.md)→:::←_(end)_ <!--SR:!2024-07-14,14,290!2024-07-13,13,290-->

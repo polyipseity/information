@@ -33,7 +33,7 @@ English
 - [complimentary](https://en.wiktionary.org/wiki/complimentary) ::: (c\_y) In the nature of a [compliment](../../../general/compliment.md); or free, provided at no charge. <!--SR:!2024-08-10,50,244!2024-09-26,192,324-->
 - [consequent](https://en.wiktionary.org/wiki/consequent) ::: (c\_t) Following as a result, inference, or natural effect. <!--SR:!2025-04-16,335,392!2024-08-28,145,392-->
 - [criterion](https://en.wiktionary.org/wiki/criterion) ::: (c\_n) A standard or test to judge and compare things. <!--SR:!2024-09-04,175,410!2024-07-14,117,350-->
-- [deliver](https://en.wiktionary.org/wiki/deliver) ::: (d\_r) To bring or transport something to its destination. <!--SR:!2024-07-09,92,376!2024-08-31,138,396-->
+- [deliver](https://en.wiktionary.org/wiki/deliver) ::: (d\_r) To bring or transport something to its destination. <!--SR:!2025-10-25,473,396!2024-08-31,138,396-->
 - [diagnosis](https://en.wiktionary.org/wiki/diagnosis) ::: (d\_s) The process, or an instance of, of identification of the cause and nature of something. <!--SR:!2024-07-20,124,392!2024-08-09,149,413-->
 - [differentiate](https://en.wiktionary.org/wiki/differentiate) ::: (d\_e) To make different. <!--SR:!2025-03-02,328,344!2024-12-14,248,324-->
 - [dissipative](https://en.wiktionary.org/wiki/dissipative) ::: (d\_e) That dissipates or causes dissipation. <!--SR:!2025-04-06,356,344!2025-02-04,305,344-->
@@ -90,7 +90,7 @@ English
 - [ubiquitous](https://en.wiktionary.org/wiki/ubiquitous) ::: (u\_s) Widespread. <!--SR:!2025-02-23,300,388!2024-10-29,192,348-->
 - [vacuous](https://en.wiktionary.org/wiki/vacuous) ::: (v\_s) Empty, void. <!--SR:!2024-12-03,263,344!2024-07-28,159,324-->
 - [vacuum](https://en.wiktionary.org/wiki/vacuum) ::: (v\_m) A region of [space](../../../general/space.md) containing no [matter](../../../general/matter.md). <!--SR:!2025-01-20,290,344!2024-12-12,269,344-->
-- [vehicle](https://en.wiktionary.org/wiki/vehicle) ::: (v\_e) A spacious device for transporting things. <!--SR:!2024-09-07,145,396!2024-07-09,89,376-->
+- [vehicle](https://en.wiktionary.org/wiki/vehicle) ::: (v\_e) A spacious device for transporting things. <!--SR:!2024-09-07,145,396!2025-06-08,334,376-->
 - [viscous](https://en.wiktionary.org/wiki/viscous) ::: (v\_s) Having a thick and stick consistency between [solid](../../../general/solid.md) and [liquid](../../../general/liquid.md). <!--SR:!2024-11-22,254,344!2025-09-01,433,324-->
 - [volunteer](https://en.wiktionary.org/wiki/volunteer) ::: (v\_r) To do or offer to do something voluntarily. <!--SR:!2025-03-28,357,372!2025-04-09,369,372-->
 
