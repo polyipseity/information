@@ -84,7 +84,7 @@ See [Central Plaza (Hong Kong)](../../../../general/Central%20Plaza%20(Hong%20Ko
 
 See [Channel Tunnel](../../../../general/Channel%20Tunnel.md).
 
-- completion time ::: 1994 <!--SR:!2024-07-09,33,356!2024-10-10,110,376-->
+- completion time ::: 1994 <!--SR:!2024-07-27,18,336!2024-10-10,110,376-->
 - rail tunnel length ::: 50.5 km (37.9 km underseas) <!--SR:!2024-07-15,13,296!2024-10-20,125,396-->
 
 ## China International Trust and Investment Plaza
@@ -251,7 +251,7 @@ See [Parthenon](../../../../general/Parthenon.md).
 
 - construction period ::: 447 BC to 438 BC, 9 years <!--SR:!2024-07-16,9,256!2024-12-01,159,396-->
 - dedication ::: Greek goddess Athena <!--SR:!2024-12-08,166,396!2024-11-08,141,396-->
-- description ::: temple on the Athenian Acropolis, Greece, dedicated to the Greek goddess Athena <!--SR:!2024-07-09,38,356!2024-11-06,139,396-->
+- description ::: temple on the Athenian Acropolis, Greece, dedicated to the Greek goddess Athena <!--SR:!2024-11-21,135,356!2024-11-06,139,396-->
 - geographic location ::: Athenian Acropolis, Greece <!--SR:!2024-07-14,39,356!2024-10-16,122,396-->
 - importance ::: most important surviving building of classical Greece <!--SR:!2024-10-18,115,376!2024-10-24,128,396-->
 
@@ -298,7 +298,7 @@ See [Tsing Ma Bridge](../../../../general/Tsing%20Ma%20Bridge.md).
 - bridge type ::: [double-decked](../../../../general/deck%20(bridge).md) [suspension bridge](../../../../general/suspension%20bridge.md)<!-- flashcard 54af6d8c-884f-4894-bb1a-ce65254b1063 --> <!--SR:!2024-07-16,53,297!2024-08-10,91,370-->
 - description ::: [suspension bridge](../../../../general/suspension%20bridge.md) in [Hong Kong](../../../../general/Hong%20Kong.md) <!--SR:!2025-01-26,227,330!2024-08-17,96,372-->
 - image ::: ![Tsing Ma Bridge image](../../../../archives/Wikimedia%20Commons/Tsing%20Ma%20Bridge%202.jpg) <!--SR:!2024-08-30,97,380!2024-08-11,79,360-->
-- length ::: 2160 m, longest span: 1377 m <!--SR:!2024-07-09,46,280!2024-08-29,97,380-->
+- length ::: 2160 m, longest span: 1377 m <!--SR:!2024-11-12,126,280!2024-08-29,97,380-->
 
 ## Turin–Lyon high-speed railway
 

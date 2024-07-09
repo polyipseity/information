@@ -19,7 +19,7 @@ tags:
 > {{$$\mathrm{COP} = \frac{\lvert Q \rvert}W$$}}
 >
 > - where
->   - {{$Q$ is the useful [heat](heat.md) absorbed (positive) or dissipated (negative) by the system, and $W > 0$ is the net [work](work%20(physics).md) put into the system}} <!--SR:!2024-07-09,148,310!2024-10-18,231,330-->
+>   - {{$Q$ is the useful [heat](heat.md) absorbed (positive) or dissipated (negative) by the system, and $W > 0$ is the net [work](work%20(physics).md) put into the system}} <!--SR:!2026-04-04,634,330!2024-10-18,231,330-->
 
 <!-- markdownlint MD028 -->
 

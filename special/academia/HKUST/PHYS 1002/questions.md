@@ -127,7 +127,7 @@ The parenthesized text at the beginning of of each question is {{the location th
 > 4. winter solstice
 > 5. 1 and 3
 >
-> - solution: {{5}} <!--SR:!2024-07-09,4,290-->
+> - solution: {{5}} <!--SR:!2024-07-27,18,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -154,7 +154,7 @@ The parenthesized text at the beginning of of each question is {{the location th
 > 5. 1 and 2
 > 6. 3 and 4
 >
-> - solution: {{5}} <!--SR:!2024-07-09,4,290-->
+> - solution: {{5}} <!--SR:!2024-07-27,18,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -168,7 +168,7 @@ The parenthesized text at the beginning of of each question is {{the location th
 > 6. 7/6 years
 >
 > - solution: {{6}}
-> - steps: {{Since the relative orbital motion between the 2 planets is retrograde, apply the equation: $$\frac 1 {T_\text{syn} } = \frac 1 {T_1} + \frac 1 {T_2}$$. Thus we have $T_2 = \frac 1 {\frac 1 {T_\text{syn} } - \frac 1 {T_1} } = \frac 1 {\frac 1 1 - \frac 1 7} = \frac 7 6\text{ years}$.}} <!--SR:!2024-07-14,6,270!2024-07-09,4,290-->
+> - steps: {{Since the relative orbital motion between the 2 planets is retrograde, apply the equation: $$\frac 1 {T_\text{syn} } = \frac 1 {T_1} + \frac 1 {T_2}$$. Thus we have $T_2 = \frac 1 {\frac 1 {T_\text{syn} } - \frac 1 {T_1} } = \frac 1 {\frac 1 1 - \frac 1 7} = \frac 7 6\text{ years}$.}} <!--SR:!2024-07-14,6,270!2024-07-22,13,290-->
 
 ## 2024-07-04
 
@@ -181,7 +181,7 @@ The parenthesized text at the beginning of of each question is {{the location th
 > 5. 3 hours
 >
 > - solution: {{3}}
-> - steps: {{Recall that the moonrise time corresponds to the lunar phase cycle. As the cycle resets every 29.5 days, the moonrise time also resets 29.5 days. A moonrise time "reset" happens when the moon rises later by a cumulative time of 1 day. Thus the answer is: $$\frac {24} {29.5} \approx 0.813\,559\,322 \approx 1\text{ hour}$$.}} <!--SR:!2024-07-09,4,292!2024-07-09,4,292-->
+> - steps: {{Recall that the moonrise time corresponds to the lunar phase cycle. As the cycle resets every 29.5 days, the moonrise time also resets 29.5 days. A moonrise time "reset" happens when the moon rises later by a cumulative time of 1 day. Thus the answer is: $$\frac {24} {29.5} \approx 0.813\,559\,322 \approx 1\text{ hour}$$.}} <!--SR:!2024-07-20,11,292!2024-07-26,17,312-->
 
 <!-- markdownlint MD028 -->
 
@@ -194,4 +194,4 @@ The parenthesized text at the beginning of of each question is {{the location th
 > 5. 366 days
 >
 > - solution: {{4}}
-> - steps: {{Recall that the eclipse season depends on the line of lunar nodes. Consider that the lunar nodes rotates retrograde (clockwise) once about 18.6 years. The answer is: $$\frac {365.25} {18.6} \approx 19.637\,0967 \approx 20\text{ days}$$.}} <!--SR:!2024-07-09,4,292!2024-07-14,6,272-->
+> - steps: {{Recall that the eclipse season depends on the line of lunar nodes. Consider that the lunar nodes rotates retrograde (clockwise) once about 18.6 years. The answer is: $$\frac {365.25} {18.6} \approx 19.637\,0967 \approx 20\text{ days}$$.}} <!--SR:!2024-07-27,18,312!2024-07-14,6,272-->

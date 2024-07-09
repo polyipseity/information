@@ -36,7 +36,7 @@ One can create {{a customer profile that shows a typical person}} for each custo
 
 > [!example] examples
 >
-> - customers of a service selling meal plans to elderly ::: Buyers: Children of the elderly, as the elderly are unlikely to know how to use the service by themselves. Users: Elderly. <!--SR:!2024-08-08,72,310!2024-07-09,47,290-->
+> - customers of a service selling meal plans to elderly ::: Buyers: Children of the elderly, as the elderly are unlikely to know how to use the service by themselves. Users: Elderly. <!--SR:!2024-08-08,72,310!2025-01-13,188,310-->
 
 ### customer validation
 
