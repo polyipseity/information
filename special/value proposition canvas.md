@@ -262,8 +262,8 @@ conclusion: make progress
 - test: design tests→:::←test: prioritize tests <!--SR:!2024-09-28,91,309!2024-09-04,112,290-->
 - test: prioritize tests→:::←test: run tests <!--SR:!2025-01-18,213,329!2024-11-25,166,310-->
 - test: run tests→:::←conclusion: capture findings <!--SR:!2024-10-17,107,269!2024-10-22,129,309-->
-- conclusion: capture findings→:::←conclusion: make progress <!--SR:!2024-07-10,65,329!2024-10-08,131,309-->
-- conclusion: make progress→:::←_(end)_ <!--SR:!2024-07-11,66,329!2024-10-01,112,270-->
+- conclusion: capture findings→:::←conclusion: make progress <!--SR:!2025-02-09,213,329!2024-10-08,131,309-->
+- conclusion: make progress→:::←_(end)_ <!--SR:!2025-02-14,218,329!2024-10-01,112,270-->
 
 <!--/pytextgen-->
 

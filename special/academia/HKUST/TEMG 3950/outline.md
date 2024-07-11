@@ -45,7 +45,7 @@ The content is in teaching order.
 - [competitor analysis § outline](../../../../general/competitor%20analysis.md#outline)
 - [customer development](../../../../general/customer%20development.md)
   - [Peter Drucker](../../../../general/Peter%20Drucker.md) on business and customer ::: "The purpose of a business is to create and keep a customer." <!--SR:!2024-07-12,47,315!2024-10-25,121,335-->
-  - [Steve Blank](../../../../general/Steve%20lank.md) on startup success ::: "More start-ups fail from lack of customers than from a failure from product development." <!--SR:!2024-07-10,45,315!2024-10-31,126,315-->
+  - [Steve Blank](../../../../general/Steve%20lank.md) on startup success ::: "More start-ups fail from lack of customers than from a failure from product development." <!--SR:!2024-11-25,137,315!2024-10-31,126,315-->
   - [§ importance](../../../../general/customer%20development.md#importance)
   - [§ customer discovery](../../../../general/customer%20development.md#customer%20discovery)
   - [§ customer validation](../../../../general/customer%20development.md#customer%20validation)
@@ -85,7 +85,7 @@ The content is in teaching order.
 - [d.school design thinking bootleg § define](../../../d.school%20design%20thinking%20bootleg.md#define)
 - [d.school design thinking bootleg § methods and tools](../../../d.school%20design%20thinking%20bootleg.md#methods%20and%20tools)
   - "how might we" statement
-    - "how might we" statement examples ::: "How might we help pet owners keep the floor from covering with hair?" instead of "Get the best broom!". "How might we help a person access the very top shelves of a library?" instead of "Get a ladder!". <!--SR:!2024-07-10,42,295!2024-08-12,73,335-->
+    - "how might we" statement examples ::: "How might we help pet owners keep the floor from covering with hair?" instead of "Get the best broom!". "How might we help a person access the very top shelves of a library?" instead of "Get a ladder!". <!--SR:!2024-11-12,124,295!2024-08-12,73,335-->
 - reading assignment: [value proposition canvas](../../../value%20proposition%20canvas.md)
 - [assignment W5](assignment%20W5/assignment%20W5.md)
 
@@ -210,7 +210,7 @@ The content is in teaching order.
 - [five whys](../../../../general/five%20whys.md)
 - cause mapping process ::: define the issue by its impact to business goals, visualize the problem, and prevent or mitigate negative impacts <!--SR:!2024-07-13,27,321!2024-08-18,58,341-->
 - cause mapping notation (at least for this course)
-  - cause mapping + MECE dimensions ::: Choose a MECE framework. For one of the causes, split the further causes by MECE dimensions. Label the further causes by their corresponding dimensions. Explain why, if some dimensions are irrelevant and thus has no further causes. <!--SR:!2024-07-11,25,321!2024-09-07,71,341-->
+  - cause mapping + MECE dimensions ::: Choose a MECE framework. For one of the causes, split the further causes by MECE dimensions. Label the further causes by their corresponding dimensions. Explain why, if some dimensions are irrelevant and thus has no further causes. <!--SR:!2024-09-28,79,321!2024-09-07,71,341-->
   - cause mapping § arrow direction ::: cause to effect <!--SR:!2024-09-14,80,361!2024-09-17,83,361-->
   - cause mapping § evidences ::: below the cause, pink background <!--SR:!2024-07-16,29,321!2024-09-03,67,341-->
   - cause mapping § operators ::: AND, OR <!--SR:!2024-09-29,93,361!2024-09-07,74,361-->
@@ -265,8 +265,8 @@ The content is in teaching order.
   - [§ usage](../../../profitability%20framework.md#usage)
   - abbreviations
     - R&D ::: research & development <!--SR:!2024-07-15,26,370!2024-07-22,32,370-->
-    - S&M ::: sales & marketing <!--SR:!2024-07-23,33,370!2024-07-11,22,370-->
-    - G&A ::: general & administration <!--SR:!2024-07-10,21,370!2024-07-12,23,370-->
+    - S&M ::: sales & marketing <!--SR:!2024-07-23,33,370!2024-10-30,111,390-->
+    - G&A ::: general & administration <!--SR:!2024-10-22,103,390!2024-07-12,23,370-->
     - CAGR ::: compound average growth rate; $$\text{CAGR} = \left(\frac {V_{\text{end} } } {V_{\text{start} } } \right)^{\frac 1 t} - 1$$ <!--SR:!2024-09-15,74,370!2024-07-12,23,370-->
 - interview note-taking technique using 1 sheet of A4 paper
 - exam for part 2 review

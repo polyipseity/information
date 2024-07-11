@@ -15,7 +15,7 @@ tags:
 
 ## business model generation
 
-Business model generation is for {{the entrepreneurial-spirited, value creators, and business innovators}}. A business model shows {{how an organization create, deliver, and capture value}}. <!--SR:!2024-07-10,49,252!2024-07-20,59,250-->
+Business model generation is for {{the entrepreneurial-spirited, value creators, and business innovators}}. A business model shows {{how an organization create, deliver, and capture value}}. <!--SR:!2024-11-10,122,252!2024-07-20,59,250-->
 
 ## canvas
 
@@ -65,7 +65,7 @@ C$: [cost structure](#cost%20structure)
 - CH: [channels](#channels)→:::←CR: [customer relationships](#customer%20relationships) <!--SR:!2025-01-16,193,314!2025-02-24,242,334-->
 - CR: [customer relationships](#customer%20relationships)→:::←R$: [revenue streams](#revenue%20streams) <!--SR:!2024-08-06,76,274!2024-09-02,100,292-->
 - R$: [revenue streams](#revenue%20streams)→:::←KR: [key resources](#key%20resources) <!--SR:!2024-10-20,115,257!2024-09-26,101,257-->
-- KR: [key resources](#key%20resources)→:::←KA: [key activities](#key%20activities) <!--SR:!2024-07-10,49,257!2024-08-08,77,274-->
+- KR: [key resources](#key%20resources)→:::←KA: [key activities](#key%20activities) <!--SR:!2024-11-16,128,257!2024-08-08,77,274-->
 - KA: [key activities](#key%20activities)→:::←KP: [key partnerships](#key%20partnerships) <!--SR:!2024-07-16,55,257!2024-08-17,57,254-->
 - KP: [key partnerships](#key%20partnerships)→:::←C$: [cost structure](#cost%20structure) <!--SR:!2024-08-12,47,257!2024-08-31,98,274-->
 - C$: [cost structure](#cost%20structure)→:::←_(end)_ <!--SR:!2025-01-30,219,314!2025-01-14,207,314-->
@@ -163,16 +163,16 @@ risk reduction
 
 <!--pytextgen generate section="c321"--><!-- The following content is generated at 2024-03-18T19:56:56.570256+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←accessibility <!--SR:!2024-09-07,100,277!2024-07-10,65,314-->
+- _(begin)_→:::←accessibility <!--SR:!2024-09-07,100,277!2025-04-18,281,334-->
 - accessibility→:::←brand or status <!--SR:!2024-10-01,103,254!2024-08-02,72,274-->
 - brand or status→:::←convenience or usability <!--SR:!2024-07-29,26,234!2024-07-19,19,214-->
-- convenience or usability→:::←cost reduction <!--SR:!2024-10-11,108,254!2024-07-11,19,237-->
+- convenience or usability→:::←cost reduction <!--SR:!2024-10-11,108,254!2024-08-23,43,237-->
 - cost reduction→:::←customization <!--SR:!2024-08-27,94,274!2024-07-14,44,177-->
 - customization→:::←design <!--SR:!2024-08-11,76,277!2024-07-17,55,234-->
 - design→:::←newness <!--SR:!2024-09-10,89,257!2024-07-23,23,254-->
 - newness→:::←performance <!--SR:!2024-07-16,61,277!2024-09-26,99,257-->
 - performance→:::←performing the job well <!--SR:!2024-10-23,129,297!2024-09-03,92,274-->
-- performing the job well→:::←price <!--SR:!2024-10-20,139,294!2024-07-10,60,274-->
+- performing the job well→:::←price <!--SR:!2024-10-20,139,294!2024-12-24,166,274-->
 - price→:::←risk reduction <!--SR:!2024-08-04,74,274!2024-08-12,82,274-->
 - risk reduction→:::←_(end)_ <!--SR:!2024-10-03,123,297!2024-07-16,55,257-->
 
@@ -220,14 +220,14 @@ personal assistance
 - automated services→:::←co-creation <!--SR:!2024-07-12,51,254!2024-07-17,63,274-->
 - co-creation→:::←communities <!--SR:!2024-10-22,116,254!2024-10-13,133,294-->
 - communities→:::←dedicated personal assistance <!--SR:!2024-08-11,79,277!2024-09-09,98,274-->
-- dedicated personal assistance→:::←personal assistance <!--SR:!2024-07-10,65,317!2025-01-10,191,317-->
+- dedicated personal assistance→:::←personal assistance <!--SR:!2025-02-04,208,317!2025-01-10,191,317-->
 - personal assistance→:::←_(end)_ <!--SR:!2025-01-23,199,317!2024-07-15,70,317-->
 
 <!--/pytextgen-->
 
 #### revenue streams
 
-The revenue streams building block show {{how the organization generates money from customers}}. There are two main types of revenue streams: {{transaction, one-time payment; and recurring, recurrent payment}}. There are [many ways to generate revenue streams](#revenue%20stream%20examples). There are also two main ways to price things: {{fixed, pricing based on static conditions; and dynamic, pricing based on market conditions}}. <!--SR:!2024-08-28,95,274!2024-09-04,102,297!2024-07-10,65,317-->
+The revenue streams building block show {{how the organization generates money from customers}}. There are two main types of revenue streams: {{transaction, one-time payment; and recurring, recurrent payment}}. There are [many ways to generate revenue streams](#revenue%20stream%20examples). There are also two main ways to price things: {{fixed, pricing based on static conditions; and dynamic, pricing based on market conditions}}. <!--SR:!2024-08-28,95,274!2024-09-04,102,297!2025-02-01,205,317-->
 
 ##### revenue stream examples
 
@@ -294,7 +294,7 @@ In cost structures, costs can be {{fixed costs or variable costs}}. Costs can be
 
 ### fit
 
-Business model fit can be achieved by {{reiteration between changing the value propositions and the rest of the business model}}, because these two {{are interdependent on each other: changing one entails changing the other}}. The changes can be {{big or small}}: pivot {{means making radical changes to the business model because your code idea requires more exploration}}, while iteration {{means reorienting the business model slightly but still closely related to the original}}. <!--SR:!2024-10-05,97,289!2024-07-10,45,309!2024-07-19,52,309!2025-01-02,179,329!2024-07-22,54,309-->
+Business model fit can be achieved by {{reiteration between changing the value propositions and the rest of the business model}}, because these two {{are interdependent on each other: changing one entails changing the other}}. The changes can be {{big or small}}: pivot {{means making radical changes to the business model because your code idea requires more exploration}}, while iteration {{means reorienting the business model slightly but still closely related to the original}}. <!--SR:!2024-10-05,97,289!2024-11-26,138,309!2024-07-19,52,309!2025-01-02,179,329!2024-07-22,54,309-->
 
 ## comparison with other models
 

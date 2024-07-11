@@ -86,7 +86,7 @@ return chain(
 - find the covariance matrix→:::←find the eigenvectors and eigenvalues of the covariance matrix <!--SR:!2024-08-06,38,290!2024-07-28,31,290-->
 - find the eigenvectors and eigenvalues of the covariance matrix→:::←rearrange the eigenvectors and eigenvalues <!--SR:!2024-07-14,19,250!2024-07-12,19,270-->
 - rearrange the eigenvectors and eigenvalues→:::←compute the cumulative variance for each eigenvector <!--SR:!2024-08-19,46,290!2024-08-25,51,290-->
-- compute the cumulative variance for each eigenvector→:::←select a subset of the eigenvectors as the new basis vectors <!--SR:!2024-07-11,16,250!2024-07-12,17,250-->
+- compute the cumulative variance for each eigenvector→:::←select a subset of the eigenvectors as the new basis vectors <!--SR:!2024-09-07,58,270!2024-07-12,17,250-->
 - select a subset of the eigenvectors as the new basis vectors→:::←project the data onto the new basis <!--SR:!2024-07-28,31,270!2024-08-08,40,290-->
 - project the data onto the new basis→:::←_(end)_ <!--SR:!2024-08-12,43,290!2024-08-08,41,290-->
 

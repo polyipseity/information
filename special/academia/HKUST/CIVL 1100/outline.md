@@ -45,7 +45,7 @@ The content is in teaching order.
   - compression conventions ::: __negative__; arrows pointing inwards for forces applied on the object in compression <!--SR:!2024-08-19,71,330!2024-07-30,55,310-->
 - [tension § effects](../../../../general/tension%20(physics).md#effects)
   - tension types ::: We are concerned with uniaxial tension only. <!--SR:!2024-08-20,73,330!2024-08-10,63,321-->
-  - tension examples in structures ::: cable, hanging column, rope, swing, tie <!--SR:!2024-08-15,56,270!2024-07-11,40,310-->
+  - tension examples in structures ::: cable, hanging column, rope, swing, tie <!--SR:!2024-08-15,56,270!2024-12-29,171,330-->
   - tension conventions ::: __positive__; arrows pointing outwards for forces applied on the object in tension <!--SR:!2024-09-15,70,310!2024-07-17,44,310-->
 - [reaction](../../../../general/reaction%20(physics).md) of compression and tension ::: Note that when another object exerts compression/tension on an object, the object applies an opposing pushing/pulling (reaction) force on the other object. <!--SR:!2024-08-08,59,310!2024-12-03,149,321-->
 - [Hooke's law § linear springs](../../../../general/Hooke's%20law.md#linear%20springs)
@@ -66,7 +66,7 @@ The content is in teaching order.
 - [Young's modulus](../../../../general/Young's%20modulus.md)
   - [§ definition](../../../../general/Young's%20modulus.md#definition)
 - moment or [torque](../../../../general/torque.md)
-  - pivot ::: A moment requires a pivot to be defined. The pivot can be anywhere and does not need to be physical. <!--SR:!2024-07-10,37,310!2024-07-12,39,310-->
+  - pivot ::: A moment requires a pivot to be defined. The pivot can be anywhere and does not need to be physical. <!--SR:!2024-10-31,112,310!2024-07-12,39,310-->
   - torque intuition ::: Torque creates rotation just as force creates translation (linear movement). <!--SR:!2024-08-06,61,330!2024-08-20,73,330-->
   - [§ moment arm formula](../../../../general/torque.md#moment%20arm%20formula)
   - symbol of moment about point $P$ ::: $M_P$ <!--SR:!2024-08-14,68,330!2024-08-09,64,330-->
@@ -83,7 +83,7 @@ The content is in teaching order.
   - torsion examples ::: drill pipes, power transmission shafts, tall buildings <!--SR:!2024-10-12,106,310!2024-07-25,48,310-->
 - [shear](../../../../general/shear%20force.md) ::: created by forces not acting on the same line; think of a rectangle being "parallelogramized" by 2 forces facing opposite directions <!--SR:!2024-08-27,78,330!2024-08-08,63,330-->
   - shear examples ::: shear damage of road surface due to braking of heavy vehicles or fast running rainwater <!--SR:!2024-07-21,48,310!2024-08-12,66,330-->
-- [structural support](../../../../general/structural%20support.md) ::: fixed support, pinned support, roller support <!--SR:!2024-07-11,38,310!2024-08-12,66,330-->
+- [structural support](../../../../general/structural%20support.md) ::: fixed support, pinned support, roller support <!--SR:!2024-11-08,120,310!2024-08-12,66,330-->
   - [§ roller support](../../../../general/structural%20support.md#roller%20support)
   - [§ pinned support](../../../../general/structural%20support.md#pinned%20support)
   - [§ fixed support](../../../../general/structural%20support.md#fixed%20support)
@@ -125,7 +125,7 @@ The content is in teaching order.
 - wall-frame ::: shear-walled frame: [rigid frame](../../../../general/rigid%20frame.md) + [shear wall](../../../../general/shear%20wall.md), see [shear wall § description](../../../../general/shear%20wall.md#description) <!--SR:!2024-07-24,47,310!2024-07-23,47,310-->
   - wall-frame stiffness ::: stiffer than rigid frame or shear wall alone <!--SR:!2024-07-13,38,290!2024-08-30,81,330-->
   - wall-frame economic limit ::: up to about 50 stories <!--SR:!2024-08-23,75,330!2024-07-22,48,310-->
-- framed tube ::: [tube](../../../../general/tube%20(structure).md) <!--SR:!2024-07-11,38,310!2024-08-12,66,330-->
+- framed tube ::: [tube](../../../../general/tube%20(structure).md) <!--SR:!2024-12-15,157,330!2024-08-12,66,330-->
   - [§ variation](../../../../general/tube%20(structure).md#variation)
 - core walls with outriggers ::: [structural system § outrigger](../../../../general/structural%20system.md#outrigger) <!--SR:!2024-08-22,74,330!2024-10-19,104,301-->
 

@@ -65,7 +65,7 @@ See also [Vim help files](https://vimhelp.org/).
 - exit visual mode:::([visual](#visual))\<Esc\> <!--SR:!2028-02-04,1339,348!2029-08-21,1893,368-->
 - highlight characters:::v <!--SR:!2026-07-03,967,348!2026-01-12,801,328-->
 - highlight lines:::V <!--SR:!2027-05-17,1126,293!2025-10-01,654,288-->
-- highlight block:::\<Ctrl\>+v <!--SR:!2024-07-10,136,253!2027-12-19,1304,348-->
+- highlight block:::\<Ctrl\>+v <!--SR:!2025-06-19,343,253!2027-12-19,1304,348-->
 - copy highlight into \["register=(latest)\]:::([visual](#visual))\["register\]y <!--SR:!2024-09-13,422,293!2024-08-09,368,288-->
 
 ## edit
@@ -85,7 +85,7 @@ See also [Vim help files](https://vimhelp.org/).
 - search backward for \[N=1\]th occurence of (pattern) with \[offset\]:::\[N\]?(pattern)\[?\]\[offset\]\<Enter\> <!--SR:!2027-05-03,1066,270!2025-12-25,783,328-->
 - repeat last search:::n <!--SR:!2027-02-27,1125,333!2025-11-18,767,328-->
 - repeat last search reversed:::N <!--SR:!2025-06-01,631,313!2024-07-14,378,288-->
-- repeat last search forward:::/\<Enter\> <!--SR:!2024-07-10,369,293!2024-07-25,396,293-->
+- repeat last search forward:::/\<Enter\> <!--SR:!2027-06-26,1080,293!2024-07-25,396,293-->
 - repeat last search backward:::?\<Enter\> <!--SR:!2024-10-12,449,293!2025-09-11,602,268-->
 - substitute (pattern) with (string) in \[range=.\] with \[flags\]::::\[range\]s\[ubstitute\]/(pattern)/(string)/\[flags\]\<Enter\> <!--SR:!2025-04-21,556,273!2026-12-23,1021,333-->
 

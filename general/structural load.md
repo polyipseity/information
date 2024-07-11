@@ -150,7 +150,7 @@ Wind load causes {{lateral deflection, which may further lead to toppling of the
 
 ### load combinations
 
-{{Load (amplifying) factors}} are used in {{design equations to increase the design loads}}, to {{account for uncertainties involved when estimating loads}}. An example is {{_U_ = 1.2 _D_ + 1.6 _L_, where _D_ is the dead load and _L_ is the live load}}. <!--SR:!2024-08-06,64,310!2024-07-26,54,310!2024-07-11,42,300!2024-07-22,51,300-->
+{{Load (amplifying) factors}} are used in {{design equations to increase the design loads}}, to {{account for uncertainties involved when estimating loads}}. An example is {{_U_ = 1.2 _D_ + 1.6 _L_, where _D_ is the dead load and _L_ is the live load}}. <!--SR:!2024-08-06,64,310!2024-07-26,54,310!2025-01-01,174,320!2024-07-22,51,300-->
 
 ## references
 
