@@ -134,7 +134,7 @@ The content is in teaching order.
 - [statistical classification § algorithms](../../../../general/statistical%20classification.md#application%20algorithms)
   - statistical classification algorithms ::: We only teach decision tree, bayesian classifier, and nearest neighbor classifier. <!--SR:!2025-04-12,281,351!2024-11-29,176,331-->
 - [entropy](../../../../general/entropy%20(information%20theory).md)
-  - entropy base ::: We use base 2. <!--SR:!2024-07-11,71,347!2024-07-22,80,347-->
+  - entropy base ::: We use base 2. <!--SR:!2025-03-13,245,347!2024-07-22,80,347-->
 
 ## week 7 lecture 1
 

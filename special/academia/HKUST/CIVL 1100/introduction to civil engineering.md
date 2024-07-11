@@ -18,7 +18,7 @@ The content is in teaching order.
 - engineer
   - engineer, according to Wikipedia
     - engineer jobs ::: analyze, _build_, _design_, invent, repair, test <!--SR:!2024-12-17,168,340!2024-08-08,89,378-->
-    - engineer goals ::: fulfill functional objectives and requirements <!--SR:!2024-07-25,62,340!2024-07-11,61,360-->
+    - engineer goals ::: fulfill functional objectives and requirements <!--SR:!2024-07-25,62,340!2025-02-21,225,360-->
     - engineer limitations ::: limited by cost, practicality, regulation, and safety <!--SR:!2024-12-24,195,350!2024-08-29,108,377-->
     - engineer methods ::: ingenuity, mathematics, scientific method and outlook <!--SR:!2024-10-24,143,337!2024-08-02,85,365-->
   - engineer, according to the World Federation of Engineering Organizations (WFEO)
@@ -54,7 +54,7 @@ The content is in teaching order.
 - structural engineering ::: analysis, design, and planning of structures to resist various loading and natural disasters <!--SR:!2024-10-08,126,340!2024-12-22,188,347-->
   - [structural engineering examples](#structural%20engineering%20examples)
   - [natural disasters examples](#natural%20disaster%20examples)
-  - structural engineering goals ::: safety: no collapse without warning, serviceability: deformation does not disrupt use <!--SR:!2024-07-10,46,292!2025-06-28,368,350-->
+  - structural engineering goals ::: safety: no collapse without warning, serviceability: deformation does not disrupt use <!--SR:!2024-11-21,133,292!2025-06-28,368,350-->
   - construction material factors ::: depends on availability, cost, project nature <!--SR:!2024-08-24,92,337!2025-02-05,212,355-->
     - [construction material examples](#construction%20material%20examples)
       - [reinforced concrete structure examples](#reinforced%20concrete%20structure%20examples)
@@ -67,7 +67,7 @@ The content is in teaching order.
     - [geo-technical engineering structure examples](#geo-technical%20engineering%20structure%20examples)
   - [geo-technical engineering risks](#geo-technical%20engineering%20risks)
     - geo-technical engineering risk migration ::: soil improvement or retaining structures can migrate risk to society <!--SR:!2024-12-05,162,340!2024-08-08,89,377-->
-- hydraulic engineering ::: conveyance and flow of fluids, principally sewage and water <!--SR:!2024-11-09,159,285!2024-07-11,63,345-->
+- hydraulic engineering ::: conveyance and flow of fluids, principally sewage and water <!--SR:!2024-11-09,159,285!2025-05-07,300,365-->
   - hydraulic engineering structures ::: design and construction of hydraulic structures <!--SR:!2024-09-17,115,324!2025-04-26,293,365-->
     - [hydraulic engineering structure examples](#hydraulic%20engineering%20structure%20examples)
   - hydraulic engineering systems ::: planning, development, and management of discharge systems and water resources <!--SR:!2024-09-10,94,320!2025-01-16,209,352-->
@@ -102,7 +102,7 @@ The content is in teaching order.
     - civil government departments in [Hong Kong](../../../../general/Hong%20Kong.md) ::: Architectural Services Department (ArchSD), Buildings Department (BD), Housing Department (HD) <!--SR:!2024-09-25,120,332!2024-08-22,101,375-->
       - Architectural Services Department (ArchSD) ::: governmental structures, markets, playgrounds, public schools <!--SR:!2024-11-07,154,337!2024-12-06,196,330-->
       - Buildings Department (BD) ::: illegal structures, private buildings <!--SR:!2024-08-31,132,295!2024-07-24,72,354-->
-      - Housing Department (HD) ::: home ownership scheme, public housing <!--SR:!2024-10-30,146,290!2024-07-11,63,354-->
+      - Housing Department (HD) ::: home ownership scheme, public housing <!--SR:!2024-10-30,146,290!2025-02-17,221,354-->
 
 ## oversized data
 
@@ -146,7 +146,7 @@ quantity surveyor
 - building services engineer→:::←consulting civil engineer <!--SR:!2024-12-13,168,337!2024-08-25,93,337-->
 - consulting civil engineer→:::←consulting environmental engineer <!--SR:!2024-12-25,183,347!2025-02-05,221,360-->
 - consulting environmental engineer→:::←consulting geo-technical engineer <!--SR:!2024-10-16,105,265!2024-09-02,112,306-->
-- consulting geo-technical engineer→:::←consulting structural engineer <!--SR:!2024-07-11,57,315!2024-08-14,80,317-->
+- consulting geo-technical engineer→:::←consulting structural engineer <!--SR:!2025-01-06,179,315!2024-08-14,80,317-->
 - consulting structural engineer→:::←contracting civil engineer <!--SR:!2024-09-11,108,335!2024-08-23,88,315-->
 - contracting civil engineer→:::←engineering geologist <!--SR:!2024-09-28,102,297!2024-08-01,69,315-->
 - engineering geologist→:::←environmental consultant <!--SR:!2024-10-25,125,305!2024-08-24,92,305-->
@@ -199,7 +199,7 @@ water and sewage treatment system
 - power plant→:::←reservoir <!--SR:!2024-07-30,60,275!2024-09-05,91,320-->
 - reservoir→:::←sewage treatment <!--SR:!2024-07-18,31,197!2024-09-05,75,261-->
 - sewage treatment→:::←transport <!--SR:!2024-07-29,21,230!2024-07-13,50,301-->
-- transport→:::←water and sewage treatment system <!--SR:!2024-11-05,137,340!2024-07-10,12,170-->
+- transport→:::←water and sewage treatment system <!--SR:!2024-11-05,137,340!2024-07-18,7,150-->
 - water and sewage treatment system→:::←_(end)_ <!--SR:!2024-08-25,93,381!2024-08-01,69,361-->
 
 <!--/pytextgen-->
@@ -232,7 +232,7 @@ water security
 
 <!--pytextgen generate section="9f12"--><!-- The following content is generated at 2024-02-16T21:59:47.097705+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←climate change <!--SR:!2024-10-25,164,325!2024-07-11,66,350-->
+- _(begin)_→:::←climate change <!--SR:!2024-10-25,164,325!2025-02-24,228,350-->
 - climate change→:::←extreme weather <!--SR:!2024-09-09,102,337!2025-01-04,199,350-->
 - extreme weather→:::←food security <!--SR:!2024-11-12,150,330!2024-07-13,68,347-->
 - food security→:::←mega-cities <!--SR:!2024-08-27,95,352!2024-09-18,100,320-->
@@ -279,7 +279,7 @@ workmanship
 
 - _(begin)_→:::←budgeting <!--SR:!2025-01-11,187,341!2024-09-06,105,380-->
 - budgeting→:::←construction management <!--SR:!2024-07-29,66,320!2024-08-30,98,335-->
-- construction management→:::←economics <!--SR:!2024-07-10,42,235!2024-08-21,81,300-->
+- construction management→:::←economics <!--SR:!2024-10-17,98,235!2024-08-21,81,300-->
 - economics→:::←impacts to surrounding <!--SR:!2024-08-09,71,300!2024-07-15,13,260-->
 - impacts to surrounding→:::←lifecycle <!--SR:!2024-08-06,74,320!2024-08-22,82,320-->
 - lifecycle→:::←maintenance <!--SR:!2024-10-13,106,297!2024-08-08,74,312-->
@@ -504,7 +504,7 @@ teaming up with others
 - human behaviors→:::←management principles <!--SR:!2024-08-07,47,300!2024-08-01,35,260-->
 - management principles→:::←strong communication skills <!--SR:!2024-08-12,74,301!2024-09-05,96,320-->
 - strong communication skills→:::←teaming up with others <!--SR:!2024-11-07,138,340!2024-08-23,91,380-->
-- teaming up with others→:::←_(end)_ <!--SR:!2024-07-11,66,355!2024-08-31,73,272-->
+- teaming up with others→:::←_(end)_ <!--SR:!2025-05-28,321,375!2024-08-31,73,272-->
 
 <!--/pytextgen-->
 
@@ -542,7 +542,7 @@ wood
 - brick→:::←concrete <!--SR:!2024-08-30,61,305!2024-08-27,106,377-->
 - concrete→:::←new synthetic materials <!--SR:!2024-11-09,127,301!2024-12-07,161,341-->
 - new synthetic materials→:::←steel <!--SR:!2024-11-20,155,332!2024-08-29,85,320-->
-- steel→:::←stone <!--SR:!2024-07-10,20,320!2024-12-03,159,340-->
+- steel→:::←stone <!--SR:!2024-09-13,64,320!2024-12-03,159,340-->
 - stone→:::←wood <!--SR:!2024-08-14,75,321!2024-09-10,109,332-->
 - wood→:::←_(end)_ <!--SR:!2024-08-21,100,374!2024-07-14,62,360-->
 
@@ -743,7 +743,7 @@ tunnel
 - _(begin)_→:::←embankment <!--SR:!2024-10-03,112,320!2024-08-11,87,380-->
 - embankment→:::←pile foundation <!--SR:!2024-10-10,116,320!2024-07-15,61,360-->
 - pile foundation→:::←shallow foundation <!--SR:!2024-07-17,54,317!2025-01-04,191,355-->
-- shallow foundation→:::←tunnel <!--SR:!2024-10-08,104,321!2024-07-10,21,232-->
+- shallow foundation→:::←tunnel <!--SR:!2024-10-08,104,321!2024-07-21,10,212-->
 - tunnel→:::←_(end)_ <!--SR:!2025-01-15,195,350!2024-08-01,67,317-->
 
 <!--/pytextgen-->
@@ -844,9 +844,9 @@ Tsing Ma Bridge
 
 <!--pytextgen generate section="e7f2"--><!-- The following content is generated at 2024-02-16T21:59:47.773549+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←Akashi Kaikyo Bridge <!--SR:!2024-08-17,82,318!2024-07-10,65,357-->
+- _(begin)_→:::←Akashi Kaikyo Bridge <!--SR:!2024-08-17,82,318!2025-05-27,320,377-->
 - Akashi Kaikyo Bridge→:::←Hong Kong–Zhuhai–Macau Bridge <!--SR:!2024-08-24,92,327!2024-10-02,105,307-->
-- Hong Kong–Zhuhai–Macau Bridge→:::←Stonecutters Bridge <!--SR:!2024-07-11,58,340!2024-08-12,50,300-->
+- Hong Kong–Zhuhai–Macau Bridge→:::←Stonecutters Bridge <!--SR:!2024-08-11,31,320!2024-08-12,50,300-->
 - Stonecutters Bridge→:::←Sutong Yangtze River Bridge <!--SR:!2024-10-08,130,337!2024-11-17,147,340-->
 - Sutong Yangtze River Bridge→:::←Tsing Ma Bridge <!--SR:!2024-11-23,155,335!2024-08-31,93,307-->
 - Tsing Ma Bridge→:::←_(end)_ <!--SR:!2024-08-02,83,364!2024-08-09,112,310-->
@@ -1101,7 +1101,7 @@ water tower
 - power plant→:::←storage facility <!--SR:!2024-07-29,62,300!2024-09-12,111,334-->
 - storage facility→:::←tunnel <!--SR:!2024-07-12,10,300!2024-09-01,89,320-->
 - tunnel→:::←unusual structure <!--SR:!2024-09-19,83,247!2024-10-17,121,320-->
-- unusual structure→:::←water tower <!--SR:!2024-07-10,25,310!2024-07-22,23,310-->
+- unusual structure→:::←water tower <!--SR:!2024-07-24,13,290!2024-07-22,23,310-->
 - water tower→:::←_(end)_ <!--SR:!2024-08-14,93,367!2024-07-15,18,281-->
 
 <!--/pytextgen-->
@@ -1227,7 +1227,7 @@ water treatment
 <!--pytextgen generate section="1123"--><!-- The following content is generated at 2024-02-16T21:59:48.139738+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←groundwater quality control <!--SR:!2024-10-04,123,340!2024-11-29,175,357-->
-- groundwater quality control→:::←wastewater recycling <!--SR:!2024-07-24,61,295!2024-07-11,48,300-->
+- groundwater quality control→:::←wastewater recycling <!--SR:!2024-07-24,61,295!2024-08-05,25,280-->
 - wastewater recycling→:::←wastewater treatment <!--SR:!2024-11-03,131,315!2024-07-14,59,317-->
 - wastewater treatment→:::←water quality monitoring <!--SR:!2024-08-01,51,280!2024-12-07,157,315-->
 - water quality monitoring→:::←water treatment <!--SR:!2024-11-12,148,324!2024-09-20,117,334-->

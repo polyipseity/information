@@ -52,7 +52,7 @@ The parenthesized text at the beginning of of each question is {{the location th
 > 5. 3 hundred trillion years
 >
 > - solution: {{5}}
-> - steps: {{Given there are about 10<sup>22</sup> stars, divide it by the number of seconds in a year: $$\frac {10^{22} } {86400 \times 365} \approx 3.17 \times 10^{14}\text{ years}$$ to get about 300 trillion (300 × 10<sup>12</sup>) years.}} <!--SR:!2024-07-17,17,290!2024-07-10,10,270-->
+> - steps: {{Given there are about 10<sup>22</sup> stars, divide it by the number of seconds in a year: $$\frac {10^{22} } {86400 \times 365} \approx 3.17 \times 10^{14}\text{ years}$$ to get about 300 trillion (300 × 10<sup>12</sup>) years.}} <!--SR:!2024-07-17,17,290!2024-08-06,26,270-->
 
 ## 2024-06-27
 
@@ -103,7 +103,7 @@ The parenthesized text at the beginning of of each question is {{the location th
 > 6. 44/43 solar days
 >
 > - solution: {{3}}
-> - steps: {{The planet is in retrograde motion. Hence, the number of sidereal days per orbital period is $42 - 1 = 41\text{ sidereal days}$. Thus each sidereal day is $\frac {1 / 41} {1 / 42} = \frac {42} {41}\text{ solar days}$.}} <!--SR:!2024-07-11,9,277!2024-07-12,10,277-->
+> - steps: {{The planet is in retrograde motion. Hence, the number of sidereal days per orbital period is $42 - 1 = 41\text{ sidereal days}$. Thus each sidereal day is $\frac {1 / 41} {1 / 42} = \frac {42} {41}\text{ solar days}$.}} <!--SR:!2024-08-05,25,277!2024-07-12,10,277-->
 
 ## 2024-07-02
 

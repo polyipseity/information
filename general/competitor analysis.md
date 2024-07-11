@@ -71,9 +71,9 @@ why: Why are people using competitors' products?
 
 - _(begin)_→:::←compare: Identify similarities and differences between our and their products. <!--SR:!2024-07-23,18,241!2024-07-29,60,314-->
 - compare: Identify similarities and differences between our and their products.→:::←copy: Identify advantages and capabilities our products lack compared to others. <!--SR:!2024-08-25,70,274!2024-08-29,72,281-->
-- copy: Identify advantages and capabilities our products lack compared to others.→:::←discover: Identify unmet needs. <!--SR:!2024-07-10,36,261!2024-09-10,70,241-->
+- copy: Identify advantages and capabilities our products lack compared to others.→:::←discover: Identify unmet needs. <!--SR:!2024-07-29,18,241!2024-09-10,70,241-->
 - discover: Identify unmet needs.→:::←how: What is our strategy? <!--SR:!2024-07-23,14,201!2024-07-31,28,261-->
-- how: What is our strategy?→:::←pricing: Compare prices. <!--SR:!2024-07-10,3,201!2024-07-10,15,261-->
+- how: What is our strategy?→:::←pricing: Compare prices. <!--SR:!2024-07-17,6,201!2024-07-20,9,241-->
 - pricing: Compare prices.→:::←who: Who are the competitors? 3 to 5 is usually enough. <!--SR:!2024-07-17,45,261!2024-08-18,61,261-->
 - who: Who are the competitors? 3 to 5 is usually enough.→:::←why: Why are people using competitors' products? <!--SR:!2024-10-13,103,281!2024-09-15,73,241-->
 - why: Why are people using competitors' products?→:::←_(end)_ <!--SR:!2024-08-10,68,321!2024-09-16,83,281-->
@@ -169,7 +169,7 @@ number of features
 - _(most important)_→:::←price <!--SR:!2024-08-14,71,321!2024-08-13,71,321-->
 - price→:::←benefit <!--SR:!2024-11-27,150,314!2024-09-27,97,301-->
 - benefit→:::←quality <!--SR:!2024-08-17,67,274!2024-07-12,45,301-->
-- quality→:::←durability <!--SR:!2024-07-11,2,181!2024-07-30,59,321-->
+- quality→:::←durability <!--SR:!2024-07-12,1,161!2024-07-30,59,321-->
 - durability→:::←service <!--SR:!2024-07-25,50,301!2024-07-14,12,241-->
 - service→:::←convenience <!--SR:!2024-07-20,35,241!2024-08-08,56,301-->
 - convenience→:::←ease of use <!--SR:!2024-07-15,40,261!2024-07-22,55,314-->

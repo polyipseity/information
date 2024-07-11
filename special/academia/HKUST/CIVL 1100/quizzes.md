@@ -136,7 +136,7 @@ Example quiz questions for preparing exams.
 > 3. Bacteria get inactive permanently
 > 4. Bacteria may re-grow
 >
-> - solution: {{4}} <!--SR:!2024-07-10,37,292-->
+> - solution: {{4}} <!--SR:!2024-12-07,149,312-->
 
 <!-- markdownlint MD028 -->
 
@@ -240,7 +240,7 @@ Example quiz questions for preparing exams.
 > 3. 9.80 kg CO2/gal
 > 4. 10.80 kg CO2/gal
 >
-> - solution: {{1}} <!--SR:!2024-07-10,34,272-->
+> - solution: {{1}} <!--SR:!2024-10-10,91,272-->
 
 <!-- markdownlint MD028 -->
 
