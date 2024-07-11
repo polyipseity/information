@@ -20,19 +20,19 @@ tags:
 ```Python
 # pytextgen generate data
 return await memorize_table(
-  __env__.cwf_sects('4949', 'd996',),
+  __env__.cwf_sects('4949', 'd996'),
   ('name',),
   (
-    ('[Pythagorean identities](#Pythagorean%20identities)',),
-    ('[angle sum and difference](#angle%20sum%20and%20difference)',),
-    ('[linear combination](#linear%20combination)',),
-    ('[multiple-angle](#multiple-angle)',),
-    ('[product-to-sum and sum-to-product](#product-to-sum%20and%20sum-to-product)',),
+    (R'[Pythagorean identities](#Pythagorean%20identities)',),
+    (R'[angle sum and difference](#angle%20sum%20and%20difference)',),
+    (R'[linear combination](#linear%20combination)',),
+    (R'[multiple-angle](#multiple-angle)',),
+    (R'[product-to-sum and sum-to-product](#product-to-sum%20and%20sum-to-product)',),
   ),
 )
 ```
 
-<!--pytextgen generate section="4949"--><!-- The following content is generated at 2024-01-03T09:39:48.167446+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="4949"--><!-- The following content is generated at 2024-07-11T08:29:28.938003+08:00. Any edits will be overridden! -->
 
 > | name |
 > |-|
@@ -44,7 +44,7 @@ return await memorize_table(
 
 <!--/pytextgen-->
 
-<!--pytextgen generate section="d996"--><!-- The following content is generated at 2024-01-04T20:17:52.198336+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="d996"--><!-- The following content is generated at 2024-07-11T08:29:28.983272+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←[Pythagorean identities](#Pythagorean%20identities) <!--SR:!2025-05-03,383,360!2025-04-05,361,362-->
 - [Pythagorean identities](#Pythagorean%20identities)→:::←[angle sum and difference](#angle%20sum%20and%20difference) <!--SR:!2027-06-27,1105,330!2028-09-15,1546,350-->
@@ -59,33 +59,32 @@ return await memorize_table(
 
 ```Python
 # pytextgen generate data
-from pytextgen.util import NULL_LOCATION
 return await memorize_map(
-  __env__.cwf_sects('958f', 'ba01', None,),
+  __env__.cwf_sects('958f', 'ba01', None),
   items_to_map(
-    ('normal', R'$\sin^2 \theta + \cos^2 \theta = 1$',),
-    ('divided by sine', R'$1 + \cot^2 \theta = \csc^2 \theta$',),
-    ('divided by cosine', R'$1 + \tan^2 \theta = \sec^2 \theta$',),
-    ('divided by sine and cosine', R'$\sec^2 \theta + \csc^2 \theta = \sec^2 \theta \csc^2 \theta$',),
+    (R'normal', R'$$\sin^2 \theta + \cos^2 \theta = 1$$'),
+    (R'divided by sine', R'$$1 + \cot^2 \theta = \csc^2 \theta$$'),
+    (R'divided by cosine', R'$$1 + \tan^2 \theta = \sec^2 \theta$$'),
+    (R'divided by sine and cosine', R'$$\sec^2 \theta + \csc^2 \theta = \sec^2 \theta \csc^2 \theta$$'),
   ),
 )
 ```
 
-<!--pytextgen generate section="958f"--><!-- The following content is generated at 2023-12-29T17:59:38.650037+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="958f"--><!-- The following content is generated at 2024-07-10T23:14:21.879549+08:00. Any edits will be overridden! -->
 
-> 1. normal: $\sin^2 \theta + \cos^2 \theta = 1$
-> 2. divided by sine: $1 + \cot^2 \theta = \csc^2 \theta$
-> 3. divided by cosine: $1 + \tan^2 \theta = \sec^2 \theta$
-> 4. divided by sine and cosine: $\sec^2 \theta + \csc^2 \theta = \sec^2 \theta \csc^2 \theta$
+> 1. normal: $$\sin^2 \theta + \cos^2 \theta = 1$$
+> 2. divided by sine: $$1 + \cot^2 \theta = \csc^2 \theta$$
+> 3. divided by cosine: $$1 + \tan^2 \theta = \sec^2 \theta$$
+> 4. divided by sine and cosine: $$\sec^2 \theta + \csc^2 \theta = \sec^2 \theta \csc^2 \theta$$
 
 <!--/pytextgen-->
 
-<!--pytextgen generate section="ba01"--><!-- The following content is generated at 2024-01-04T20:17:52.215336+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="ba01"--><!-- The following content is generated at 2024-07-10T23:14:21.851131+08:00. Any edits will be overridden! -->
 
-- normal::$\sin^2 \theta + \cos^2 \theta = 1$ <!--SR:!2025-05-07,387,360-->
-- divided by sine::$1 + \cot^2 \theta = \csc^2 \theta$ <!--SR:!2025-03-06,336,360-->
-- divided by cosine::$1 + \tan^2 \theta = \sec^2 \theta$ <!--SR:!2024-07-27,148,320-->
-- divided by sine and cosine::$\sec^2 \theta + \csc^2 \theta = \sec^2 \theta \csc^2 \theta$ <!--SR:!2025-04-14,368,360-->
+- normal::$$\sin^2 \theta + \cos^2 \theta = 1$$ <!--SR:!2025-05-07,387,360-->
+- divided by sine::$$1 + \cot^2 \theta = \csc^2 \theta$$ <!--SR:!2025-03-06,336,360-->
+- divided by cosine::$$1 + \tan^2 \theta = \sec^2 \theta$$ <!--SR:!2024-07-27,148,320-->
+- divided by sine and cosine::$$\sec^2 \theta + \csc^2 \theta = \sec^2 \theta \csc^2 \theta$$ <!--SR:!2025-04-14,368,360-->
 
 <!--/pytextgen-->
 
@@ -100,30 +99,29 @@ return await memorize_map(
 
 ```Python
 # pytextgen generate data
-from pytextgen.util import NULL_LOCATION
 return await memorize_map(
-  __env__.cwf_sects('f823', '394a', None,),
+  __env__.cwf_sects('f823', '394a', None),
   items_to_map(
-    ('sine', R'$\sin(\alpha\pm\beta)=\sin\alpha\cos\beta\pm\cos\alpha\sin\beta$',),
-    ('cosine', R'$\cos(\alpha\pm\beta)=\cos\alpha\cos\beta\mp\sin\alpha\sin\beta$',),
-    ('tangent', R'$\tan(\alpha\pm\beta)=\frac{\tan\alpha\pm\tan\beta}{1\mp\tan\alpha\tan\beta}$',),
+    (R'sine', R'$$\sin(\alpha\pm\beta)=\sin\alpha\cos\beta\pm\cos\alpha\sin\beta$$'),
+    (R'cosine', R'$$\cos(\alpha\pm\beta)=\cos\alpha\cos\beta\mp\sin\alpha\sin\beta$$'),
+    (R'tangent', R'$$\tan(\alpha\pm\beta)=\frac{\tan\alpha\pm\tan\beta}{1\mp\tan\alpha\tan\beta}$$'),
   ),
 )
 ```
 
-<!--pytextgen generate section="f823"--><!-- The following content is generated at 2023-11-21T01:16:38.253997+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="f823"--><!-- The following content is generated at 2024-07-10T23:14:21.957811+08:00. Any edits will be overridden! -->
 
-> 1. sine: $\sin(\alpha\pm\beta)=\sin\alpha\cos\beta\pm\cos\alpha\sin\beta$
-> 2. cosine: $\cos(\alpha\pm\beta)=\cos\alpha\cos\beta\mp\sin\alpha\sin\beta$
-> 3. tangent: $\tan(\alpha\pm\beta)=\frac{\tan\alpha\pm\tan\beta}{1\mp\tan\alpha\tan\beta}$
+> 1. sine: $$\sin(\alpha\pm\beta)=\sin\alpha\cos\beta\pm\cos\alpha\sin\beta$$
+> 2. cosine: $$\cos(\alpha\pm\beta)=\cos\alpha\cos\beta\mp\sin\alpha\sin\beta$$
+> 3. tangent: $$\tan(\alpha\pm\beta)=\frac{\tan\alpha\pm\tan\beta}{1\mp\tan\alpha\tan\beta}$$
 
 <!--/pytextgen-->
 
-<!--pytextgen generate section="394a"--><!-- The following content is generated at 2024-01-04T20:17:52.256338+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="394a"--><!-- The following content is generated at 2024-07-10T23:14:21.914301+08:00. Any edits will be overridden! -->
 
-- sine::$\sin(\alpha\pm\beta)=\sin\alpha\cos\beta\pm\cos\alpha\sin\beta$ <!--SR:!2024-09-06,172,230-->
-- cosine::$\cos(\alpha\pm\beta)=\cos\alpha\cos\beta\mp\sin\alpha\sin\beta$ <!--SR:!2025-03-23,527,310-->
-- tangent::$\tan(\alpha\pm\beta)=\frac{\tan\alpha\pm\tan\beta}{1\mp\tan\alpha\tan\beta}$ <!--SR:!2024-09-28,230,250-->
+- sine::$$\sin(\alpha\pm\beta)=\sin\alpha\cos\beta\pm\cos\alpha\sin\beta$$ <!--SR:!2024-09-06,172,230-->
+- cosine::$$\cos(\alpha\pm\beta)=\cos\alpha\cos\beta\mp\sin\alpha\sin\beta$$ <!--SR:!2025-03-23,527,310-->
+- tangent::$$\tan(\alpha\pm\beta)=\frac{\tan\alpha\pm\tan\beta}{1\mp\tan\alpha\tan\beta}$$ <!--SR:!2024-09-28,230,250-->
 
 <!--/pytextgen-->
 
@@ -135,34 +133,33 @@ return await memorize_map(
 
 ## multiple-angle
 
+### double-angle
+
 ```Python
 # pytextgen generate data
-from pytextgen.util import NULL_LOCATION
 return await memorize_map(
-  __env__.cwf_sects('b023', 'ab2d', None,),
+  __env__.cwf_sects('b023', 'ab2d', None),
   items_to_map(
-    ('sine', R'$\sin(2\theta)=2\sin\theta\cos\theta=(\sin\theta+\cos\theta)^2-1=\frac{2\tan\theta}{1+\tan^2\theta}$',),
-    ('cosine', R'$\cos(2\theta)=\cos^2\theta-\sin^2\theta=2\cos^2\theta-1=1-2\sin^2\theta=\frac{1-\tan^2\theta}{1+\tan^2\theta}$',),
-    ('tangent', R'$\tan(2\theta)=\frac{2\tan\theta}{1-\tan^2\theta}$',),
+    (R'sine', R'$$\sin(2\theta)=2\sin\theta\cos\theta=(\sin\theta+\cos\theta)^2-1=\frac{2\tan\theta}{1+\tan^2\theta}$$'),
+    (R'cosine', R'$$\cos(2\theta)=\cos^2\theta-\sin^2\theta=2\cos^2\theta-1=1-2\sin^2\theta=\frac{1-\tan^2\theta}{1+\tan^2\theta}$$'),
+    (R'tangent', R'$$\tan(2\theta)=\frac{2\tan\theta}{1-\tan^2\theta}$$'),
   ),
 )
 ```
 
-### double-angle
+<!--pytextgen generate section="b023"--><!-- The following content is generated at 2024-07-10T23:14:22.063540+08:00. Any edits will be overridden! -->
 
-<!--pytextgen generate section="b023"--><!-- The following content is generated at 2023-11-21T01:16:58.994052+08:00. Any edits will be overridden! -->
-
-> 1. sine: $\sin(2\theta)=2\sin\theta\cos\theta=(\sin\theta+\cos\theta)^2-1=\frac{2\tan\theta}{1+\tan^2\theta}$
-> 2. cosine: $\cos(2\theta)=\cos^2\theta-\sin^2\theta=2\cos^2\theta-1=1-2\sin^2\theta=\frac{1-\tan^2\theta}{1+\tan^2\theta}$
-> 3. tangent: $\tan(2\theta)=\frac{2\tan\theta}{1-\tan^2\theta}$
+> 1. sine: $$\sin(2\theta)=2\sin\theta\cos\theta=(\sin\theta+\cos\theta)^2-1=\frac{2\tan\theta}{1+\tan^2\theta}$$
+> 2. cosine: $$\cos(2\theta)=\cos^2\theta-\sin^2\theta=2\cos^2\theta-1=1-2\sin^2\theta=\frac{1-\tan^2\theta}{1+\tan^2\theta}$$
+> 3. tangent: $$\tan(2\theta)=\frac{2\tan\theta}{1-\tan^2\theta}$$
 
 <!--/pytextgen-->
 
-<!--pytextgen generate section="ab2d"--><!-- The following content is generated at 2024-01-04T20:17:52.289866+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="ab2d"--><!-- The following content is generated at 2024-07-10T23:14:22.112551+08:00. Any edits will be overridden! -->
 
-- sine::$\sin(2\theta)=2\sin\theta\cos\theta=(\sin\theta+\cos\theta)^2-1=\frac{2\tan\theta}{1+\tan^2\theta}$ <!--SR:!2024-09-06,312,250-->
-- cosine::$\cos(2\theta)=\cos^2\theta-\sin^2\theta=2\cos^2\theta-1=1-2\sin^2\theta=\frac{1-\tan^2\theta}{1+\tan^2\theta}$ <!--SR:!2024-08-01,314,270-->
-- tangent::$\tan(2\theta)=\frac{2\tan\theta}{1-\tan^2\theta}$ <!--SR:!2025-04-12,474,250-->
+- sine::$$\sin(2\theta)=2\sin\theta\cos\theta=(\sin\theta+\cos\theta)^2-1=\frac{2\tan\theta}{1+\tan^2\theta}$$ <!--SR:!2024-09-06,312,250-->
+- cosine::$$\cos(2\theta)=\cos^2\theta-\sin^2\theta=2\cos^2\theta-1=1-2\sin^2\theta=\frac{1-\tan^2\theta}{1+\tan^2\theta}$$ <!--SR:!2024-08-01,314,270-->
+- tangent::$$\tan(2\theta)=\frac{2\tan\theta}{1-\tan^2\theta}$$ <!--SR:!2025-04-12,474,250-->
 
 <!--/pytextgen-->
 
@@ -183,52 +180,92 @@ return await memorize_map(
 > - $\cos(-9.22)$ (tangent variant) ::: $\frac{1 - \tan^2 4.61}{1 + \tan^2 4.61}$ <!--SR:!2024-08-09,159,307!2024-10-28,211,287-->
 > - $\tan 0.04$ ::: $\frac{2 \tan 0.02}{1 - \tan^2 0.02}$ <!--SR:!2025-02-13,291,307!2024-10-28,186,287-->
 
-## product-to-sum and sum-to-product
+### half-angle
 
 ```Python
 # pytextgen generate data
-from asyncio import gather
-from itertools import chain
-from pytextgen.util import NULL_LOCATION
-return chain.from_iterable(await gather(
-  memorize_map(
-    __env__.cwf_sects('dd91', '3213', None,),
-    items_to_map(
-      ('sine cosine', R'$\sin\theta\cos\varphi=\frac{\sin(\theta+\varphi)+\sin(\theta-\varphi)}2$',),
-      ('cosine sine', R'$\cos\theta\sin\varphi=\frac{\sin(\theta+\varphi)-\sin(\theta-\varphi)}2$',),
-      ('sine sine', R'$\sin\theta\sin\varphi=\frac{\cos(\theta-\varphi)-\cos(\theta+\varphi)}2$',),
-      ('cosine cosine', R'$\cos\theta\cos\varphi=\frac{\cos(\theta-\varphi)+\cos(\theta+\varphi)}2$'),
-    ),
+return await memorize_map(
+  __env__.cwf_sects("d7f1", "3759", None),
+  items_to_map(
+    (R"sine", R"$$\sin \frac \theta 2 = \operatorname{sgn}\left(\sin \frac \theta 2\right) \sqrt{\frac {1 - \cos \theta} 2}$$"),
+    (R"cosine", R"$$\cos \frac \theta 2 = \operatorname{sgn}\left(\cos \frac \theta 2\right) \sqrt{\frac {1 + \cos \theta} 2}$$"),
+    (R"tangent", R"$$\tan \frac \theta 2 = \frac {1 - \cos \theta} {\sin \theta} = \frac {\sin \theta} {1 + \cos \theta} = \operatorname{sgn}(\sin \theta) \sqrt{\frac {1 - \cos \theta} {1 + \cos \theta} } = \csc \theta - \cot \theta = \frac {\tan \theta} {1 + \sec \theta} = \frac {-1 + \operatorname{sgn}(\cos \theta)\sqrt{1 + \tan^2 \theta} } {\tan \theta}$$"),
+    (R"secant", R"$$\sec \frac \theta 2 = \operatorname{sgn}\left(\cos \frac \theta 2\right) \sqrt{\frac 2 {1 + \cos \theta} }$$"),
+    (R"cosecant", R"$$\csc \frac \theta 2 = \operatorname{sgn}\left(\sin \frac \theta 2\right) \sqrt{\frac 2 {1 - \cos \theta} }$$"),
+    (R"cotangent", R"$$\cot \frac \theta 2 = \frac {1 + \cos \theta} {\sin \theta} = \frac {\sin \theta} {1 - \cos \theta} = \operatorname{sgn}(\sin \theta) \sqrt{\frac {1 + \cos \theta} {1 - \cos \theta} } = \csc \theta + \cot \theta$$"),
   ),
-  memorize_map(
-    __env__.cwf_sects('96fb', '39cd', None,),
-    items_to_map(
-      ('sine ± sine', R'$\sin\theta\pm\sin\varphi=2\sin\left(\frac{\theta\pm\varphi}2\right)\cos\left(\frac{\theta\mp\varphi}2\right)$',),
-      ('cosine + cosine', R'$\cos\theta+\cos\varphi=2\cos\left(\frac{\theta+\varphi}2\right)\cos\left(\frac{\theta-\varphi}2\right)$',),
-      ('cosine - cosine', R'$\cos\theta-\cos\varphi=-2\sin\left(\frac{\theta+\varphi}2\right)\sin\left(\frac{\theta-\varphi}2\right)$',),
-      ('tangent ± tangent', R'$\tan\theta\pm\tan\varphi=\frac{\sin(\theta\pm\varphi)}{\cos\theta\cos\varphi}$',),
-    ),
-  ),
-))
+)
 ```
 
-### product-to-sum
+<!--pytextgen generate section="d7f1"--><!-- The following content is generated at 2024-07-10T23:43:06.900914+08:00. Any edits will be overridden! -->
 
-<!--pytextgen generate section="dd91"--><!-- The following content is generated at 2023-12-31T17:50:22.105562+08:00. Any edits will be overridden! -->
-
-> 1. sine cosine: $\sin\theta\cos\varphi=\frac{\sin(\theta+\varphi)+\sin(\theta-\varphi)}2$
-> 2. cosine sine: $\cos\theta\sin\varphi=\frac{\sin(\theta+\varphi)-\sin(\theta-\varphi)}2$
-> 3. sine sine: $\sin\theta\sin\varphi=\frac{\cos(\theta-\varphi)-\cos(\theta+\varphi)}2$
-> 4. cosine cosine: $\cos\theta\cos\varphi=\frac{\cos(\theta-\varphi)+\cos(\theta+\varphi)}2$
+> 1. sine: $$\sin \frac \theta 2 = \operatorname{sgn}\left(\sin \frac \theta 2\right) \sqrt{\frac {1 - \cos \theta} 2}$$
+> 2. cosine: $$\cos \frac \theta 2 = \operatorname{sgn}\left(\cos \frac \theta 2\right) \sqrt{\frac {1 + \cos \theta} 2}$$
+> 3. tangent: $$\tan \frac \theta 2 = \frac {1 - \cos \theta} {\sin \theta} = \frac {\sin \theta} {1 + \cos \theta} = \operatorname{sgn}(\sin \theta) \sqrt{\frac {1 - \cos \theta} {1 + \cos \theta} } = \csc \theta - \cot \theta = \frac {\tan \theta} {1 + \sec \theta} = \frac {-1 + \operatorname{sgn}(\cos \theta)\sqrt{1 + \tan^2 \theta} } {\tan \theta}$$
+> 4. secant: $$\sec \frac \theta 2 = \operatorname{sgn}\left(\cos \frac \theta 2\right) \sqrt{\frac 2 {1 + \cos \theta} }$$
+> 5. cosecant: $$\csc \frac \theta 2 = \operatorname{sgn}\left(\sin \frac \theta 2\right) \sqrt{\frac 2 {1 - \cos \theta} }$$
+> 6. cotangent: $$\cot \frac \theta 2 = \frac {1 + \cos \theta} {\sin \theta} = \frac {\sin \theta} {1 - \cos \theta} = \operatorname{sgn}(\sin \theta) \sqrt{\frac {1 + \cos \theta} {1 - \cos \theta} } = \csc \theta + \cot \theta$$
 
 <!--/pytextgen-->
 
-<!--pytextgen generate section="3213"--><!-- The following content is generated at 2024-01-04T20:17:52.372879+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="3759"--><!-- The following content is generated at 2024-07-10T23:43:06.932525+08:00. Any edits will be overridden! -->
 
-- sine cosine::$\sin\theta\cos\varphi=\frac{\sin(\theta+\varphi)+\sin(\theta-\varphi)}2$ <!--SR:!2025-02-27,235,190-->
-- cosine sine::$\cos\theta\sin\varphi=\frac{\sin(\theta+\varphi)-\sin(\theta-\varphi)}2$ <!--SR:!2025-03-06,240,190-->
-- sine sine::$\sin\theta\sin\varphi=\frac{\cos(\theta-\varphi)-\cos(\theta+\varphi)}2$ <!--SR:!2024-09-10,231,210-->
-- cosine cosine::$\cos\theta\cos\varphi=\frac{\cos(\theta-\varphi)+\cos(\theta+\varphi)}2$ <!--SR:!2024-10-24,342,250-->
+- sine::$$\sin \frac \theta 2 = \operatorname{sgn}\left(\sin \frac \theta 2\right) \sqrt{\frac {1 - \cos \theta} 2}$$
+- cosine::$$\cos \frac \theta 2 = \operatorname{sgn}\left(\cos \frac \theta 2\right) \sqrt{\frac {1 + \cos \theta} 2}$$
+- tangent::$$\tan \frac \theta 2 = \frac {1 - \cos \theta} {\sin \theta} = \frac {\sin \theta} {1 + \cos \theta} = \operatorname{sgn}(\sin \theta) \sqrt{\frac {1 - \cos \theta} {1 + \cos \theta} } = \csc \theta - \cot \theta = \frac {\tan \theta} {1 + \sec \theta} = \frac {-1 + \operatorname{sgn}(\cos \theta)\sqrt{1 + \tan^2 \theta} } {\tan \theta}$$
+- secant::$$\sec \frac \theta 2 = \operatorname{sgn}\left(\cos \frac \theta 2\right) \sqrt{\frac 2 {1 + \cos \theta} }$$
+- cosecant::$$\csc \frac \theta 2 = \operatorname{sgn}\left(\sin \frac \theta 2\right) \sqrt{\frac 2 {1 - \cos \theta} }$$
+- cotangent::$$\cot \frac \theta 2 = \frac {1 + \cos \theta} {\sin \theta} = \frac {\sin \theta} {1 - \cos \theta} = \operatorname{sgn}(\sin \theta) \sqrt{\frac {1 + \cos \theta} {1 - \cos \theta} } = \csc \theta + \cot \theta$$
+
+<!--/pytextgen-->
+
+> [!example] examples
+>
+> - $\sin 4.2$ ::: $\operatorname{sgn}(\sin 4.2) \sqrt{\frac {1 - \cos 8.4} 2}$
+> - $\cos (-3.6)$ ::: $\operatorname{sgn}(\cos 3.6) \sqrt{\frac {1 + \cos 7.2} 2}$
+> - $\tan (-3.14)$ (sine and cosine) ::: $\frac {1 - \cos 6.28} {\sin 6.28} = \frac {\sin 6.28} {1 + \cos 6.28}$
+> - $\tan 3.42$ (cosine) ::: $\operatorname{sgn}(\sin 6.82) \sqrt{\frac {1 - \cos 6.82} {1 + \cos 6.82} }$
+> - $\tan (-2.01)$ (addition) ::: $-\csc 4.02 + \cot 4.02$
+> - $\tan (-9.6)$ (tangent and secant) ::: $-\frac {\tan 19.2} {1 + \sec 19.2}$
+> - $\tan (-4.96)$ (tangent) ::: $\frac {1 - \operatorname{sgn}(\cos 9.92) \sqrt{1 + \tan^2 9.92} } {\tan 9.92}$
+> - $\sec (-7.24)$ ::: $\operatorname{sgn}(\cos 7.24) \sqrt{\frac 2 {1 + \cos 14.48} }$
+> - $\csc (-1.7)$ ::: $-\operatorname{sgn}(\sin 1.7) \sqrt{\frac 2 {1 - \cos 3.4} }$
+> - $\cot 3.14$ (sine and cosine) ::: $\frac {1 + \cos 6.28} {\sin 6.28} = \frac {\sin 6.28} {1 - \cos 6.28}$
+> - $\cot (-69)$ (cosine) ::: $-\operatorname{sgn}(\sin 138) \sqrt{\frac {1 + \cos 138} {1 - \cos 138} }$
+> - $\cot 17$ (addition) ::: $\csc 34 + \cot 34$
+
+## product-to-sum and sum-to-product
+
+### product-to-sum
+
+```Python
+# pytextgen generate data
+return await memorize_map(
+  __env__.cwf_sects('dd91', '3213', None),
+  items_to_map(
+    (R'sine cosine', R'$$\sin\theta\cos\varphi=\frac{\sin(\theta+\varphi)+\sin(\theta-\varphi)}2$$'),
+    (R'cosine sine', R'$$\cos\theta\sin\varphi=\frac{\sin(\theta+\varphi)-\sin(\theta-\varphi)}2$$'),
+    (R'sine sine', R'$$\sin\theta\sin\varphi=\frac{\cos(\theta-\varphi)-\cos(\theta+\varphi)}2$$'),
+    (R'cosine cosine', R'$$\cos\theta\cos\varphi=\frac{\cos(\theta-\varphi)+\cos(\theta+\varphi)}2$$'),
+  ),
+)
+```
+
+<!--pytextgen generate section="dd91"--><!-- The following content is generated at 2024-07-10T23:14:22.164185+08:00. Any edits will be overridden! -->
+
+> 1. sine cosine: $$\sin\theta\cos\varphi=\frac{\sin(\theta+\varphi)+\sin(\theta-\varphi)}2$$
+> 2. cosine sine: $$\cos\theta\sin\varphi=\frac{\sin(\theta+\varphi)-\sin(\theta-\varphi)}2$$
+> 3. sine sine: $$\sin\theta\sin\varphi=\frac{\cos(\theta-\varphi)-\cos(\theta+\varphi)}2$$
+> 4. cosine cosine: $$\cos\theta\cos\varphi=\frac{\cos(\theta-\varphi)+\cos(\theta+\varphi)}2$$
+
+<!--/pytextgen-->
+
+<!--pytextgen generate section="3213"--><!-- The following content is generated at 2024-07-10T23:14:22.138589+08:00. Any edits will be overridden! -->
+
+- sine cosine::$$\sin\theta\cos\varphi=\frac{\sin(\theta+\varphi)+\sin(\theta-\varphi)}2$$ <!--SR:!2025-02-27,235,190-->
+- cosine sine::$$\cos\theta\sin\varphi=\frac{\sin(\theta+\varphi)-\sin(\theta-\varphi)}2$$ <!--SR:!2025-03-06,240,190-->
+- sine sine::$$\sin\theta\sin\varphi=\frac{\cos(\theta-\varphi)-\cos(\theta+\varphi)}2$$ <!--SR:!2024-09-10,231,210-->
+- cosine cosine::$$\cos\theta\cos\varphi=\frac{\cos(\theta-\varphi)+\cos(\theta+\varphi)}2$$ <!--SR:!2024-10-24,342,250-->
 
 <!--/pytextgen-->
 
@@ -241,21 +278,34 @@ return chain.from_iterable(await gather(
 
 ### sum-to-product
 
-<!--pytextgen generate section="96fb"--><!-- The following content is generated at 2023-11-21T01:12:55.755818+08:00. Any edits will be overridden! -->
+```Python
+# pytextgen generate data
+return await memorize_map(
+  __env__.cwf_sects('96fb', '39cd', None),
+  items_to_map(
+    (R'sine ± sine', R'$$\sin\theta\pm\sin\varphi=2\sin\left(\frac{\theta\pm\varphi}2\right)\cos\left(\frac{\theta\mp\varphi}2\right)$$'),
+    (R'cosine + cosine', R'$$\cos\theta+\cos\varphi=2\cos\left(\frac{\theta+\varphi}2\right)\cos\left(\frac{\theta-\varphi}2\right)$$'),
+    (R'cosine - cosine', R'$$\cos\theta-\cos\varphi=-2\sin\left(\frac{\theta+\varphi}2\right)\sin\left(\frac{\theta-\varphi}2\right)$$'),
+    (R'tangent ± tangent', R'$$\tan\theta\pm\tan\varphi=\frac{\sin(\theta\pm\varphi)}{\cos\theta\cos\varphi}$$'),
+  ),
+)
+```
 
-> 1. sine ± sine: $\sin\theta\pm\sin\varphi=2\sin\left(\frac{\theta\pm\varphi}2\right)\cos\left(\frac{\theta\mp\varphi}2\right)$
-> 2. cosine + cosine: $\cos\theta+\cos\varphi=2\cos\left(\frac{\theta+\varphi}2\right)\cos\left(\frac{\theta-\varphi}2\right)$
-> 3. cosine - cosine: $\cos\theta-\cos\varphi=-2\sin\left(\frac{\theta+\varphi}2\right)\sin\left(\frac{\theta-\varphi}2\right)$
-> 4. tangent ± tangent: $\tan\theta\pm\tan\varphi=\frac{\sin(\theta\pm\varphi)}{\cos\theta\cos\varphi}$
+<!--pytextgen generate section="96fb"--><!-- The following content is generated at 2024-07-10T23:14:22.188212+08:00. Any edits will be overridden! -->
+
+> 1. sine ± sine: $$\sin\theta\pm\sin\varphi=2\sin\left(\frac{\theta\pm\varphi}2\right)\cos\left(\frac{\theta\mp\varphi}2\right)$$
+> 2. cosine + cosine: $$\cos\theta+\cos\varphi=2\cos\left(\frac{\theta+\varphi}2\right)\cos\left(\frac{\theta-\varphi}2\right)$$
+> 3. cosine - cosine: $$\cos\theta-\cos\varphi=-2\sin\left(\frac{\theta+\varphi}2\right)\sin\left(\frac{\theta-\varphi}2\right)$$
+> 4. tangent ± tangent: $$\tan\theta\pm\tan\varphi=\frac{\sin(\theta\pm\varphi)}{\cos\theta\cos\varphi}$$
 
 <!--/pytextgen-->
 
-<!--pytextgen generate section="39cd"--><!-- The following content is generated at 2024-01-04T20:17:52.322868+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="39cd"--><!-- The following content is generated at 2024-07-10T23:14:22.210248+08:00. Any edits will be overridden! -->
 
-- sine ± sine::$\sin\theta\pm\sin\varphi=2\sin\left(\frac{\theta\pm\varphi}2\right)\cos\left(\frac{\theta\mp\varphi}2\right)$ <!--SR:!2024-11-03,359,250-->
-- cosine + cosine::$\cos\theta+\cos\varphi=2\cos\left(\frac{\theta+\varphi}2\right)\cos\left(\frac{\theta-\varphi}2\right)$ <!--SR:!2025-08-21,448,230-->
-- cosine - cosine::$\cos\theta-\cos\varphi=-2\sin\left(\frac{\theta+\varphi}2\right)\sin\left(\frac{\theta-\varphi}2\right)$ <!--SR:!2024-12-18,254,190-->
-- tangent ± tangent::$\tan\theta\pm\tan\varphi=\frac{\sin(\theta\pm\varphi)}{\cos\theta\cos\varphi}$ <!--SR:!2024-08-17,134,150-->
+- sine ± sine::$$\sin\theta\pm\sin\varphi=2\sin\left(\frac{\theta\pm\varphi}2\right)\cos\left(\frac{\theta\mp\varphi}2\right)$$ <!--SR:!2024-11-03,359,250-->
+- cosine + cosine::$$\cos\theta+\cos\varphi=2\cos\left(\frac{\theta+\varphi}2\right)\cos\left(\frac{\theta-\varphi}2\right)$$ <!--SR:!2025-08-21,448,230-->
+- cosine - cosine::$$\cos\theta-\cos\varphi=-2\sin\left(\frac{\theta+\varphi}2\right)\sin\left(\frac{\theta-\varphi}2\right)$$ <!--SR:!2024-12-18,254,190-->
+- tangent ± tangent::$$\tan\theta\pm\tan\varphi=\frac{\sin(\theta\pm\varphi)}{\cos\theta\cos\varphi}$$ <!--SR:!2024-08-17,134,150-->
 
 <!--/pytextgen-->
 
