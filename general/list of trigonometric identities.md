@@ -23,35 +23,35 @@ return await memorize_table(
   __env__.cwf_sects('4949', 'd996'),
   ('name',),
   (
-    (R'[Pythagorean identities](#Pythagorean%20identities)'),
-    (R'[angle sum and difference](#angle%20sum%20and%20difference)'),
-    (R'[linear combination](#linear%20combination)'),
-    (R'[multiple-angle](#multiple-angle)'),
-    (R'[product-to-sum and sum-to-product](#product-to-sum%20and%20sum-to-product)'),
+    (R'[Pythagorean identities](#Pythagorean%20identities)',),
+    (R'[angle sum and difference](#angle%20sum%20and%20difference)',),
+    (R'[linear combination](#linear%20combination)',),
+    (R'[multiple-angle](#multiple-angle)',),
+    (R'[product-to-sum and sum-to-product](#product-to-sum%20and%20sum-to-product)',),
   ),
 )
 ```
 
-<!--pytextgen generate section="4949"--><!-- The following content is generated at 2024-07-11T00:10:53.146938+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="4949"--><!-- The following content is generated at 2024-07-11T08:29:28.938003+08:00. Any edits will be overridden! -->
 
 > | name |
 > |-|
-> | [ | P | y | t | h | a | g | o | r | e | a | n |   | i | d | e | n | t | i | t | i | e | s | ] | ( | # | P | y | t | h | a | g | o | r | e | a | n | % | 2 | 0 | i | d | e | n | t | i | t | i | e | s | ) |
-> | [ | a | n | g | l | e |   | s | u | m |   | a | n | d |   | d | i | f | f | e | r | e | n | c | e | ] | ( | # | a | n | g | l | e | % | 2 | 0 | s | u | m | % | 2 | 0 | a | n | d | % | 2 | 0 | d | i | f | f | e | r | e | n | c | e | ) |
-> | [ | l | i | n | e | a | r |   | c | o | m | b | i | n | a | t | i | o | n | ] | ( | # | l | i | n | e | a | r | % | 2 | 0 | c | o | m | b | i | n | a | t | i | o | n | ) |
-> | [ | m | u | l | t | i | p | l | e | - | a | n | g | l | e | ] | ( | # | m | u | l | t | i | p | l | e | - | a | n | g | l | e | ) |
-> | [ | p | r | o | d | u | c | t | - | t | o | - | s | u | m |   | a | n | d |   | s | u | m | - | t | o | - | p | r | o | d | u | c | t | ] | ( | # | p | r | o | d | u | c | t | - | t | o | - | s | u | m | % | 2 | 0 | a | n | d | % | 2 | 0 | s | u | m | - | t | o | - | p | r | o | d | u | c | t | ) |
+> | [Pythagorean identities](#Pythagorean%20identities) |
+> | [angle sum and difference](#angle%20sum%20and%20difference) |
+> | [linear combination](#linear%20combination) |
+> | [multiple-angle](#multiple-angle) |
+> | [product-to-sum and sum-to-product](#product-to-sum%20and%20sum-to-product) |
 
 <!--/pytextgen-->
 
-<!--pytextgen generate section="d996"--><!-- The following content is generated at 2024-07-11T00:10:53.166499+08:00. Any edits will be overridden! -->
+<!--pytextgen generate section="d996"--><!-- The following content is generated at 2024-07-11T08:29:28.983272+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←[
-- [→:::←[
-- [→:::←[
-- [→:::←[
-- [→:::←[
-- [→:::←_(end)_
+- _(begin)_→:::←[Pythagorean identities](#Pythagorean%20identities)
+- [Pythagorean identities](#Pythagorean%20identities)→:::←[angle sum and difference](#angle%20sum%20and%20difference)
+- [angle sum and difference](#angle%20sum%20and%20difference)→:::←[linear combination](#linear%20combination)
+- [linear combination](#linear%20combination)→:::←[multiple-angle](#multiple-angle)
+- [multiple-angle](#multiple-angle)→:::←[product-to-sum and sum-to-product](#product-to-sum%20and%20sum-to-product)
+- [product-to-sum and sum-to-product](#product-to-sum%20and%20sum-to-product)→:::←_(end)_
 
 <!--/pytextgen-->
 
