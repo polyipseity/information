@@ -223,7 +223,7 @@ return await memorize_map(
 >
 > - $\sin 4.2$ ::: $\operatorname{sgn}(\sin 4.2) \sqrt{\frac {1 - \cos 8.4} 2}$
 > - $\cos (-3.6)$ ::: $\operatorname{sgn}(\cos 3.6) \sqrt{\frac {1 + \cos 7.2} 2}$
-> - $\tan (-3.14)$ (sine and cosine) ::: $\frac {1 - \cos 6.28} {\sin 6.28} = \frac {\sin 6.28} {1 + \cos 6.28}$
+> - $\tan (-3.14)$ (sine and cosine) ::: $\frac {\cos 6.28 - 1} {\sin 6.28} = -\frac {\sin 6.28} {1 + \cos 6.28}$
 > - $\tan 3.42$ (cosine) ::: $\operatorname{sgn}(\sin 6.82) \sqrt{\frac {1 - \cos 6.82} {1 + \cos 6.82} }$
 > - $\tan (-2.01)$ (addition) ::: $-\csc 4.02 + \cot 4.02$
 > - $\tan (-9.6)$ (tangent and secant) ::: $-\frac {\tan 19.2} {1 + \sec 19.2}$

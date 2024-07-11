@@ -301,7 +301,7 @@ The content is in teaching order.
 - [apparent retrograde motion](../../../../general/apparent%20retrograde%20motion.md)
   - [§ from Earth](../../../../general/apparent%20retrograde%20motion.md#from%20Earth)
   - explaining apparent retrograde motion ::: The inner planet moves faster than the outer planet when they are near conjunctions, so the relative velocity reverses and apparent retrograde motion occurs.
-    - explaining apparent retrograde motion in ancient times ::: As most ancients thought that Earth is the center, it is harder to explain. Their explanation was using deferents and epicycles.
+    - explaining apparent retrograde motion in ancient times ::: As most ancients thought that Earth is the center, it was harder to explain. Their explanation was using deferents and epicycles.
 - [stellar parallax](../../../../general/stellar%20parallax.md)
 - reason the (very) ancient Greeks thought Earth is the center ::: They cannot observe stellar parallax of the fixed stars. There were 2 plausible explanations for them. One was the fixed stars are too far away so the stellar parallax is too small to be observed with the naked eye. The other was Earth is the center of the universe. With rare exceptions, the first (and correct) option was rejected by most (very) ancient Greeks because they could not believe that fixed stars are _that_ far away.
   - reason the (very) ancient Greeks thought Earth is the center / exceptions ::: (very) ancient Greeks who thought the fixed stars are indeed _that_ far away: Aristarchus, etc.
