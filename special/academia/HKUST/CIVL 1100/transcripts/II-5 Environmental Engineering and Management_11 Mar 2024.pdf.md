@@ -208,7 +208,7 @@ Sustainable Waste Management
 
 How to provide motivation for waste reduction, reuse and recycling?
 
-- How to charge your MSW? ::: fixed charge, proxy system, quantity-based system <!--SR:!2024-07-17,44,290!2024-07-13,37,290-->
+- How to charge your MSW? ::: fixed charge, proxy system, quantity-based system <!--SR:!2024-07-17,44,290!2024-12-08,147,310-->
   - quantity-based system example ::: Taipei (not Taiwan as a whole) implemented MSW charging by bag in 2000. Compared to before, -37% after 1 year and -62% after 7 years. <!--SR:!2024-10-06,91,270!2024-07-16,42,290-->
 
 ## page 14
@@ -246,9 +246,9 @@ Hong Kong Harbour Area Treatment Scheme Stage I (HATS)
   - HATS Stage 1 scheme period ::: 1994 to 2001 <!--SR:!2024-07-16,42,290!2024-07-18,14,250-->
   - HATS Stage 1 scheme cost ::: HK$8.2 billion <!--SR:!2024-10-20,101,290!2024-10-01,85,270-->
   - HATS Stage 1 details ::: Stonecutters Island Sewage Treatment Works (SCISTW), sewage tunnel of 23.6 km, upgrade 8 preliminary treatment works (PTWs) <!--SR:!2024-10-10,93,270!2024-08-04,58,310-->
-  - HATS Stage 1 geographic coverage ::: collect sewage from Kowloon, Kwai Tsing, Tseung Kwan O, and north-eastern Hong Kong Island to SCISTW <!--SR:!2024-09-15,75,270!2024-07-12,37,290-->
+  - HATS Stage 1 geographic coverage ::: collect sewage from Kowloon, Kwai Tsing, Tseung Kwan O, and north-eastern Hong Kong Island to SCISTW <!--SR:!2024-09-15,75,270!2024-12-09,148,310-->
   - HATS Stage 1 coverage in numbers ::: 3.5 million people, 75% from harbour area <!--SR:!2024-07-21,46,290!2024-09-26,86,290-->
-  - HATS Stage 1 capacities :::: current ~1.4M m<sup>3</sup>/d, max: 1.7M m<sup>3</sup>/d <!--SR:!2024-07-13,40,290!2024-07-16,43,290-->
+  - HATS Stage 1 capacities :::: current ~1.4M m<sup>3</sup>/d, max: 1.7M m<sup>3</sup>/d <!--SR:!2024-11-05,114,290!2024-07-16,43,290-->
 
 ## page 18
 
@@ -294,7 +294,7 @@ Noise Pollution: A serious problem in Hong Kong?
 
 Noise Levels and Causes
 
-- noise level measure ::: sound pressure level, in dB(A) <!--SR:!2024-07-13,40,290!2024-08-01,56,310-->
+- noise level measure ::: sound pressure level, in dB(A) <!--SR:!2024-12-20,159,310!2024-08-01,56,310-->
   - airplane passing ::: 120 dB(A) <!--SR:!2024-08-08,62,310!2024-08-09,63,310-->
   - construction site ::: 110 dB(A) <!--SR:!2024-10-20,103,290!2024-08-19,71,310-->
   - concert ::: 100 dB(A) <!--SR:!2024-08-16,68,310!2024-08-15,68,310-->
@@ -345,11 +345,11 @@ FORECAST of Health Risk
 Indoor Air Quality
 
 - sick building syndrome ::: fatigue, headache, nasal congestion <!--SR:!2024-08-07,61,310!2024-07-26,51,310-->
-- common indoor air pollutant ::: 12 parameters <!--SR:!2024-07-13,37,290!2024-08-10,63,310-->
+- common indoor air pollutant ::: 12 parameters <!--SR:!2024-10-27,105,290!2024-08-10,63,310-->
   - common indoor air pollutant examples ::: carbon dioxide (CO<sub>2</sub>), carbon monoxide (CO), respirable suspended particulate (RSP/PM<sub>10</sub>) <!--SR:!2024-09-20,80,270!2024-07-25,50,310-->
     - carbon dioxide limits ::: excellent: < 800 ppmv; good: < 1000 ppmv <!--SR:!2024-09-25,84,270!2024-07-24,49,310-->
     - carbon monoxide limits ::: excellent: < 2000 μg/m<sup>3</sup>, < 1.7 ppmv; good: < 10000 μg/m<sup>3</sup>, < 8.7 ppmv <!--SR:!2024-08-12,43,250!2024-08-02,56,310-->
-    - respirable suspended particulate limits ::: excellent: < 20 μg/m<sup>3</sup>; good: < 180 μg/m<sup>3</sup> <!--SR:!2024-09-27,82,270!2024-07-12,39,290-->
+    - respirable suspended particulate limits ::: excellent: < 20 μg/m<sup>3</sup>; good: < 180 μg/m<sup>3</sup> <!--SR:!2024-09-27,82,270!2024-08-05,22,270-->
 
 ## page 30
 
@@ -436,7 +436,7 @@ Relationship between PPM and mg/L
 
 - relationship between PPM and mg/L for other solutions
   - relationship between PPM and mg/L examples
-  - relationship between PPM and mg/L for other solutions ::: 1 mg/L = (1 / SG) ppm <!--SR:!2024-07-12,39,290!2024-07-29,53,310-->
+  - relationship between PPM and mg/L for other solutions ::: 1 mg/L = (1 / SG) ppm <!--SR:!2024-11-04,113,290!2024-07-29,53,310-->
 - specific gravity (SG) of a mixture ::: density of mixture divided by density of water <!--SR:!2024-07-31,56,310!2024-08-13,65,310-->
 
 ## page 36

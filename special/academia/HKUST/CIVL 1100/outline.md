@@ -66,13 +66,13 @@ The content is in teaching order.
 - [Young's modulus](../../../../general/Young's%20modulus.md)
   - [§ definition](../../../../general/Young's%20modulus.md#definition)
 - moment or [torque](../../../../general/torque.md)
-  - pivot ::: A moment requires a pivot to be defined. The pivot can be anywhere and does not need to be physical. <!--SR:!2024-10-31,112,310!2024-07-12,39,310-->
+  - pivot ::: A moment requires a pivot to be defined. The pivot can be anywhere and does not need to be physical. <!--SR:!2024-10-31,112,310!2024-11-18,127,310-->
   - torque intuition ::: Torque creates rotation just as force creates translation (linear movement). <!--SR:!2024-08-06,61,330!2024-08-20,73,330-->
   - [§ moment arm formula](../../../../general/torque.md#moment%20arm%20formula)
   - symbol of moment about point $P$ ::: $M_P$ <!--SR:!2024-08-14,68,330!2024-08-09,64,330-->
   - torque conventions ::: __counterclockwise positive__, clockwise negative <!--SR:!2024-07-20,47,310!2024-08-11,65,321-->
   - [§ principles of moments](../../../../general/torque.md#principles%20of%20moments)
-    - application of principles of moments ::: This means when the moment arm of a force is difficult to find for calculating the moment, instead decompose the force into 2 or more forces (usually horizontal and vertical). Summing the torques from those forces gives the moment. <!--SR:!2024-07-13,40,310!2024-07-27,52,310-->
+    - application of principles of moments ::: This means when the moment arm of a force is difficult to find for calculating the moment, instead decompose the force into 2 or more forces (usually horizontal and vertical). Summing the torques from those forces gives the moment. <!--SR:!2024-11-16,125,310!2024-07-27,52,310-->
 - [bending](../../../../general/bending.md)
   - bending conditions ::: For a pinned support, an object subject to a moment rotates about the support. For a fixed support, an object subject to a moment bends. <!--SR:!2024-09-07,81,301!2024-08-11,65,321-->
   - [§ quasi-static bending of beams](../../../../general/bending.md#quasi-static%20bending%20of%20beams)
@@ -123,7 +123,7 @@ The content is in teaching order.
 - [rigid frame § description](../../../../general/rigid%20frame.md#description)
 - [shear wall § description](../../../../general/shear%20wall.md#description)
 - wall-frame ::: shear-walled frame: [rigid frame](../../../../general/rigid%20frame.md) + [shear wall](../../../../general/shear%20wall.md), see [shear wall § description](../../../../general/shear%20wall.md#description) <!--SR:!2024-07-24,47,310!2024-07-23,47,310-->
-  - wall-frame stiffness ::: stiffer than rigid frame or shear wall alone <!--SR:!2024-07-13,38,290!2024-08-30,81,330-->
+  - wall-frame stiffness ::: stiffer than rigid frame or shear wall alone <!--SR:!2024-10-31,109,290!2024-08-30,81,330-->
   - wall-frame economic limit ::: up to about 50 stories <!--SR:!2024-08-23,75,330!2024-07-22,48,310-->
 - framed tube ::: [tube](../../../../general/tube%20(structure).md) <!--SR:!2024-12-15,157,330!2024-08-12,66,330-->
   - [§ variation](../../../../general/tube%20(structure).md#variation)

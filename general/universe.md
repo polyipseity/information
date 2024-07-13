@@ -10,7 +10,7 @@ tags:
 
 # universe
 
-The __universe__ is {{all of [space](space.md) and [time](time.md) and their contents}}. <!--SR:!2024-07-13,13,290-->
+The __universe__ is {{all of [space](space.md) and [time](time.md) and their contents}}. <!--SR:!2024-09-06,54,310-->
 
 ## references
 

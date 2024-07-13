@@ -23,13 +23,13 @@ In {{the 4th century BC}}, two influential Greek philosophers, {{[Plato](Plato.m
 
 ## Ptolemaic model
 
-Although {{the basic tenets of Greek geocentrism were established by the time of Aristotle}}, {{the details of his system did not become standard}}. The {{Ptolemaic system}}, developed by {{the [Hellenistic](Hellenization.md) astronomer [Claudius Ptolemy](Ptolemy.md) in the 2nd century AD (~100 AD)}}, finally {{standardized geocentrism}}. <!--SR:!2024-07-13,13,290!2024-07-16,16,290!2024-07-13,13,290!2024-07-16,9,230!2024-07-16,16,290-->
+Although {{the basic tenets of Greek geocentrism were established by the time of Aristotle}}, {{the details of his system did not become standard}}. The {{Ptolemaic system}}, developed by {{the [Hellenistic](Hellenization.md) astronomer [Claudius Ptolemy](Ptolemy.md) in the 2nd century AD (~100 AD)}}, finally {{standardized geocentrism}}. <!--SR:!2024-08-20,38,290!2024-07-16,16,290!2024-08-31,49,310!2024-07-16,9,230!2024-07-16,16,290-->
 
 ### Ptolemaic system
 
-In the Ptolemaic system, each planet is {{moved by a system of [_deferent_ and _epicycle_](deferent%20and%20epicycle.md), along with an _eccentric_}}. The {{eccentric}} is {{a point distant from [Earth](Earth.md)}}. The {{deferent}} is {{a [celestial sphere](celestial%20sphere.md), represented by a thick circle and whose center is the eccentric}}. The {{epicycle}} is {{another celestial sphere embedded in the deferent sphere, represented by a smaller circle embedded in the deferent sphere}}. A given planet {{moves along the circular path marked by the epicycle}} at the same time {{the epicycle moves along the circular path marked by the deferent}}, both {{eastwards}}. <!--SR:!2024-07-14,14,290!2024-07-15,15,290!2024-07-16,16,290!2024-07-13,13,290!2024-07-13,13,290!2024-07-16,16,290!2024-08-02,26,270!2024-07-14,14,290!2024-07-15,15,290!2024-07-12,12,270-->
+In the Ptolemaic system, each planet is {{moved by a system of [_deferent_ and _epicycle_](deferent%20and%20epicycle.md), along with an _eccentric_}}. The {{eccentric}} is {{a point distant from [Earth](Earth.md)}}. The {{deferent}} is {{a [celestial sphere](celestial%20sphere.md), represented by a thick circle and whose center is the eccentric}}. The {{epicycle}} is {{another celestial sphere embedded in the deferent sphere, represented by a smaller circle embedded in the deferent sphere}}. A given planet {{moves along the circular path marked by the epicycle}} at the same time {{the epicycle moves along the circular path marked by the deferent}}, both {{eastwards}}. <!--SR:!2024-07-14,14,290!2024-07-15,15,290!2024-07-16,16,290!2024-09-01,50,310!2024-09-02,51,310!2024-07-16,16,290!2024-08-02,26,270!2024-07-14,14,290!2024-07-15,15,290!2024-08-28,46,290-->
 
-The Ptolemaic order of spheres {{from [Earth](Earth.md) outward}} is: <!--SR:!2024-07-13,13,290-->
+The Ptolemaic order of spheres {{from [Earth](Earth.md) outward}} is: <!--SR:!2024-09-07,56,310-->
 
 ```Python
 # pytextgen generate data
@@ -77,7 +77,7 @@ return await memorize_seq(
 - [Jupiter](Jupiter.md)→:::←[Saturn](Saturn.md) <!--SR:!2024-08-13,35,290!2024-07-15,15,290-->
 - [Saturn](Saturn.md)→:::←[fixed stars](fixed%20stars.md) <!--SR:!2024-07-14,14,290!2024-07-17,17,290-->
 - [fixed stars](fixed%20stars.md)→:::←[_Primum Mobile_](Primum%20Mobile.md) ("first moveable"), outermost [celestial sphere](celestial%20sphere.md) <!--SR:!2024-07-16,16,290!2024-07-17,17,290-->
-- [_Primum Mobile_](Primum%20Mobile.md) ("first moveable"), outermost [celestial sphere](celestial%20sphere.md)→:::←_(end)_ <!--SR:!2024-07-14,14,290!2024-07-13,13,290-->
+- [_Primum Mobile_](Primum%20Mobile.md) ("first moveable"), outermost [celestial sphere](celestial%20sphere.md)→:::←_(end)_ <!--SR:!2024-07-14,14,290!2024-08-17,35,290-->
 
 <!--/pytextgen-->
 

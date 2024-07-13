@@ -40,7 +40,7 @@ The three factors above are {{interdependent and must be balanced for a successf
 
 Design thinking can be used in {{design conceptualization}}. It is the {{most important stage of product development}} because it is {{at the start of the product development and requires the least effort, so it produces the highest rate of return}}. The rate of return decreases along the stages as {{mistakes in later stages become much more costly}}. <!--SR:!2024-11-17,142,290!2025-01-03,176,310!2024-11-01,121,290!2024-10-19,118,290-->
 
-During ideation, we can use divergent and convergent thinking to {{find the right problem (from many pains to a problem), and then find the right solution (from many solutions to few prototypes)}}, but {{do not mix these processes}}. <!--SR:!2024-07-13,46,270!2024-08-05,69,310-->
+During ideation, we can use divergent and convergent thinking to {{find the right problem (from many pains to a problem), and then find the right solution (from many solutions to few prototypes)}}, but {{do not mix these processes}}. <!--SR:!2024-11-13,123,270!2024-08-05,69,310-->
 
 ## references
 
