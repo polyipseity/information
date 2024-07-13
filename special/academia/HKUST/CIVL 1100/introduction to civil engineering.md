@@ -29,7 +29,7 @@ The content is in teaching order.
 - civil engineering ::: construction, design, maintenance, and planning of the built environment, including buildings and infrastructure <!--SR:!2024-10-23,113,300!2024-07-18,64,360-->
   - "civil" meaning ::: "Civil" distinguishes non-military from military purposes. <!--SR:!2025-05-09,327,350!2024-07-31,81,377-->
   - civil engineer characteristics ::: problem solvers <!--SR:!2024-09-28,122,335!2024-12-24,182,352-->
-  - civil engineering characteristics ::: Oldest engineering discipline. Takes place on all levels, from municipal to nationals in the public sector, from homeowners to international companies in the private sector. <!--SR:!2024-07-24,57,301!2024-07-13,63,360-->
+  - civil engineering characteristics ::: Oldest engineering discipline. Takes place on all levels, from municipal to nationals in the public sector, from homeowners to international companies in the private sector. <!--SR:!2024-07-24,57,301!2025-05-20,310,380-->
   - built environment ::: man-made using materials and natural resources, benefiting mankind, with environment protection and prudent urban planning <!--SR:!2024-08-13,81,312!2024-12-30,218,330-->
     - built environment example ::: Hoover Dam, a hydroelectric and reservoir project constructed on the Colorado River from 1931 to 1936, affects Las Vegas, United States significantly to the present. <!--SR:!2024-07-18,55,297!2024-07-21,69,345-->
 - civil engineering importance ::: improving living environments, productivity, and working efficiency <!--SR:!2024-10-07,126,340!2024-12-06,179,352-->
@@ -198,7 +198,7 @@ water and sewage treatment system
 - pipeline→:::←power plant <!--SR:!2024-08-14,59,260!2024-10-22,107,281-->
 - power plant→:::←reservoir <!--SR:!2024-07-30,60,275!2024-09-05,91,320-->
 - reservoir→:::←sewage treatment <!--SR:!2024-07-18,31,197!2024-09-05,75,261-->
-- sewage treatment→:::←transport <!--SR:!2024-07-29,21,230!2024-07-13,50,301-->
+- sewage treatment→:::←transport <!--SR:!2024-07-29,21,230!2024-12-13,152,301-->
 - transport→:::←water and sewage treatment system <!--SR:!2024-11-05,137,340!2024-07-18,7,150-->
 - water and sewage treatment system→:::←_(end)_ <!--SR:!2024-08-25,93,381!2024-08-01,69,361-->
 
@@ -234,7 +234,7 @@ water security
 
 - _(begin)_→:::←climate change <!--SR:!2024-10-25,164,325!2025-02-24,228,350-->
 - climate change→:::←extreme weather <!--SR:!2024-09-09,102,337!2025-01-04,199,350-->
-- extreme weather→:::←food security <!--SR:!2024-11-12,150,330!2024-07-13,68,347-->
+- extreme weather→:::←food security <!--SR:!2024-11-12,150,330!2025-03-06,235,347-->
 - food security→:::←mega-cities <!--SR:!2024-08-27,95,352!2024-09-18,100,320-->
 - mega-cities→:::←water security <!--SR:!2024-07-16,64,360!2024-12-30,187,354-->
 - water security→:::←_(end)_ <!--SR:!2025-04-28,318,350!2024-09-29,107,337-->
@@ -363,7 +363,7 @@ transportation
 - hydraulic→:::←material <!--SR:!2024-10-03,119,340!2024-10-30,135,340-->
 - material→:::←structural <!--SR:!2024-08-15,81,317!2024-08-10,65,260-->
 - structural→:::←transportation <!--SR:!2024-12-22,171,340!2024-12-03,160,327-->
-- transportation→:::←_(end)_ <!--SR:!2025-01-08,192,350!2024-07-12,41,361-->
+- transportation→:::←_(end)_ <!--SR:!2025-01-08,192,350!2025-02-01,202,381-->
 
 <!--/pytextgen-->
 
@@ -460,10 +460,10 @@ testing materials
 - planning→:::←procuring materials <!--SR:!2024-07-22,59,317!2024-08-10,65,277-->
 - procuring materials→:::←quality assurance <!--SR:!2024-08-02,58,300!2024-08-22,77,281-->
 - quality assurance→:::←quality control <!--SR:!2024-10-31,150,357!2024-07-15,52,352-->
-- quality control→:::←safety engineering <!--SR:!2024-08-01,65,301!2024-07-13,22,275-->
+- quality control→:::←safety engineering <!--SR:!2024-08-01,65,301!2024-07-23,9,255-->
 - safety engineering→:::←scheduling <!--SR:!2024-08-25,82,320!2024-10-01,120,340-->
 - scheduling→:::←surveying building site <!--SR:!2024-08-18,60,241!2024-10-16,116,300-->
-- surveying building site→:::←testing materials <!--SR:!2024-08-04,33,260!2024-07-12,49,292-->
+- surveying building site→:::←testing materials <!--SR:!2024-08-04,33,260!2024-08-10,27,272-->
 - testing materials→:::←_(end)_ <!--SR:!2025-02-21,236,347!2024-08-12,80,307-->
 
 <!--/pytextgen-->
@@ -594,7 +594,7 @@ nuclear
 - agricultural→:::←architectural <!--SR:!2025-01-31,212,357!2024-08-01,84,372-->
 - architectural→:::←biomedical <!--SR:!2024-11-04,144,337!2024-11-25,152,340-->
 - biomedical→:::←ceramic <!--SR:!2024-11-05,133,320!2024-09-25,114,337-->
-- ceramic→:::←chemical <!--SR:!2024-07-12,49,320!2024-09-24,119,335-->
+- ceramic→:::←chemical <!--SR:!2024-12-15,154,320!2024-09-24,119,335-->
 - chemical→:::←civil <!--SR:!2024-10-21,133,337!2024-12-24,194,357-->
 - civil→:::←computer <!--SR:!2024-11-15,163,354!2024-12-17,189,352-->
 - computer→:::←electrical <!--SR:!2024-11-07,142,327!2024-07-17,12,295-->
@@ -1099,7 +1099,7 @@ water tower
 - building→:::←dam <!--SR:!2024-07-30,77,361!2025-01-17,198,361-->
 - dam→:::←power plant <!--SR:!2024-08-06,68,301!2024-07-25,33,238-->
 - power plant→:::←storage facility <!--SR:!2024-07-29,62,300!2024-09-12,111,334-->
-- storage facility→:::←tunnel <!--SR:!2024-07-12,10,300!2024-09-01,89,320-->
+- storage facility→:::←tunnel <!--SR:!2024-07-19,5,280!2024-09-01,89,320-->
 - tunnel→:::←unusual structure <!--SR:!2024-09-19,83,247!2024-10-17,121,320-->
 - unusual structure→:::←water tower <!--SR:!2024-07-24,13,290!2024-07-22,23,310-->
 - water tower→:::←_(end)_ <!--SR:!2024-08-14,93,367!2024-07-15,18,281-->

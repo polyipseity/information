@@ -168,7 +168,7 @@ The content is in teaching order.
 
 - time: 2024-03-13T09:00:00+08:00/2024-03-13T10:30:00+08:00
 - [confusion matrix](../../../../general/confusion%20matrix.md)
-  - confusion matrix format ::: Each row represents an actual class while each column represents a predicted class. <!--SR:!2024-10-29,140,320!2024-07-12,64,340-->
+  - confusion matrix format ::: Each row represents an actual class while each column represents a predicted class. <!--SR:!2024-10-29,140,320!2025-02-10,211,340-->
 - [confusion matrix § error report](../../../../general/confusion%20matrix.md#error%20report)
 - [lift chart](../../../lift%20chart.md)
 - [lift chart § construction](../../../lift%20chart.md#construction)
@@ -414,7 +414,7 @@ The content is in teaching order.
     - HITS algorithm normalization ::: Normalization is done after each iteration. We use the [taxicab norm](../../../../general/norm%20(mathematics).md#taxicab%20norm%20or%20Manhattan%20norm). The normalized vector length is the number of pages instead of 1. <!--SR:!2024-08-27,59,357!2024-10-13,97,377-->
 - [PageRank](../../../../general/PageRank.md)
   - [§ algorithm](../../../../general/PageRank.md#algorithm)
-    - PageRank self-links ::: Self-links are considered. <!--SR:!2024-07-15,26,368!2024-07-13,24,368-->
+    - PageRank self-links ::: Self-links are considered. <!--SR:!2024-07-15,26,368!2024-11-08,117,388-->
     - PageRank initialization ::: We initialize all PageRank values to 1 instead of 1 divided by number of pages. <!--SR:!2024-10-25,108,377!2024-08-30,59,357-->
     - PageRank termination ::: Terminate the PageRank algorithm when after rounding the values to a certain number of digits, the values have not changed. <!--SR:!2024-10-12,97,388!2024-10-27,110,388-->
   - [§ simplified algorithm](../../../../general/PageRank.md#simplified%20algorithm)

@@ -52,7 +52,7 @@ See [Burj Al Arab](../../../../general/Burj%20Al%20Arab.md).
 See [Burj Khalifa](../../../../general/Burj%20Khalifa.md).
 
 - description ::: skyscraper in Dubai, United Arab Emirates <!--SR:!2024-11-18,139,297!2024-08-15,96,374-->
-- height ::: architectural: 828 m, tip: 829.8 m, top floor: 585.4 m <!--SR:!2024-07-12,49,281!2024-08-24,102,377-->
+- height ::: architectural: 828 m, tip: 829.8 m, top floor: 585.4 m <!--SR:!2024-08-09,26,261!2024-08-24,102,377-->
 - image ::: ![Burj Khalifa image](../../../../archives/Wikimedia%20Commons/Burj%20Khalifa.jpg) <!--SR:!2024-08-18,86,380!2024-07-18,55,360-->
 - [structural system](../../../../general/structural%20system.md) ::: aluminum, reinforced concrete, steel<!-- flashcard e75e9185-3454-4c54-a9c9-5a05c6b26732 --> <!--SR:!2024-09-03,92,321!2025-02-01,232,330-->
 
@@ -92,7 +92,7 @@ See [Channel Tunnel](../../../../general/Channel%20Tunnel.md).
 See [CITIC Plaza](../../../../general/CITIC%20Plaza.md).
 
 - description ::: super tall skyscraper in Guangzhou, Guangdong, China <!--SR:!2024-08-02,70,292!2024-08-09,90,367-->
-- height ::: architectural: 390.2 m, top floor: 296.9 m <!--SR:!2024-07-13,24,181!2025-02-27,231,352-->
+- height ::: architectural: 390.2 m, top floor: 296.9 m <!--SR:!2024-08-28,45,181!2025-02-27,231,352-->
 - image ::: ![China International Trust and Investment Plaza image](../../../../archives/Wikimedia%20Commons/CITIC%20Plaza%202017.jpg) <!--SR:!2024-08-09,77,360!2024-09-08,104,380-->
 - [structural system](../../../../general/structural%20system.md) ::: reinforced concrete<!-- flashcard ebde3927-b7ca-4808-9e3c-bf6078be3654 --> <!--SR:!2024-08-08,73,360!2024-08-22,90,380-->
 
@@ -101,7 +101,7 @@ See [CITIC Plaza](../../../../general/CITIC%20Plaza.md).
 See [Colosseum](../../../../general/Colosseum.md).
 
 - base widths ::: length: 189 m, width: 156 m <!--SR:!2024-07-14,40,336!2024-10-12,112,376-->
-- construction period ::: AD 72 to AD 80, 8 years <!--SR:!2024-07-12,10,256!2024-12-11,168,396-->
+- construction period ::: AD 72 to AD 80, 8 years <!--SR:!2024-07-19,5,236!2024-12-11,168,396-->
 - description ::: elliptical amphitheater in the center of Rome <!--SR:!2024-08-18,72,376!2024-10-13,113,376-->
 - geographic location ::: Rome <!--SR:!2024-10-13,119,396!2024-10-29,133,396-->
 - height ::: 48 m (4 storeys) <!--SR:!2024-07-31,23,296!2024-11-11,143,396-->
@@ -133,7 +133,7 @@ See [Golden Gate Bridge](../../../../general/Golden%20Gate%20Bridge.md).
 See [Great Pyramid of Giza](../../../../general/Great%20Pyramid%20of%20Giza.md).
 
 - base width ::: 230.33 m <!--SR:!2024-10-17,114,376!2024-11-03,137,396-->
-- construction period ::: 10~20 years around 2560 BC <!--SR:!2024-07-13,6,256!2024-10-14,120,396-->
+- construction period ::: 10~20 years around 2560 BC <!--SR:!2024-07-28,14,256!2024-10-14,120,396-->
 - description ::: largest pyramid in the Giza Necropolis, Egypt <!--SR:!2024-10-05,112,396!2024-10-31,134,396-->
 - height ::: current: 138.5 m, original: 146.6 m <!--SR:!2024-07-15,40,356!2024-11-02,136,396-->
 - weight ::: 5.9 million tonnes <!--SR:!2024-09-14,89,376!2024-11-10,142,396-->
@@ -153,7 +153,7 @@ See [Great Wall of China](../../../../general/Great%20Wall%20of%20China.md).
 See [HSBC Building (Hong Kong)](HSBC%20Building%20(Hong%20Kong).md).
 
 - description ::: headquarters building of [The Hongkong and Shanghai Banking Corporation](HSBC%20(Hong%20Kong).md) <!--SR:!2025-01-15,197,354!2025-03-05,256,330-->
-- height ::: roof: 178.8 m <!--SR:!2024-07-12,47,281!2025-05-07,325,350-->
+- height ::: roof: 178.8 m <!--SR:!2024-08-07,24,261!2025-05-07,325,350-->
 - image ::: ![HSBC Main Building image](../../../../archives/Wikimedia%20Commons/HK%20HSBC%20Main%20Building%202008%20(cropped).jpg) <!--SR:!2024-07-26,63,360!2024-09-03,100,380-->
 - [structural system](../../../../general/structural%20system.md) ::: steel [suspended structure](../../../../general/suspended%20structure.md)<!-- flashcard b5c46b64-11cf-4605-a97e-3a159f12185f --> <!--SR:!2024-10-21,130,321!2024-08-15,83,381-->
 
@@ -223,7 +223,7 @@ See [Millau Viaduct](../../../../general/Millau%20Viaduct.md).
   - height record ::: as of October 2023, tallest bridge in the world <!--SR:!2024-10-22,126,396!2024-10-22,127,396-->
 - length ::: 2450 m = 204 m + 342 m × 6 + 204 m, longest span: 342 m <!--SR:!2024-08-23,56,336!2024-10-12,118,396-->
 - image ::: ![Millau Viaduct image](../../../../archives/Wikimedia%20Commons/ViaducdeMillau.jpg) <!--SR:!2024-11-04,137,396!2024-08-28,80,376-->
-- opening time ::: 2004-12-16, 09:00 <!--SR:!2024-07-13,39,336!2024-08-22,75,376-->
+- opening time ::: 2004-12-16, 09:00 <!--SR:!2024-08-05,22,316!2024-08-22,75,376-->
 - width ::: 32.05 m <!--SR:!2024-09-09,86,376!2024-09-10,87,376-->
 
 ## Mont Cenis Base Tunnel
@@ -269,7 +269,7 @@ See [Stonecutters Bridge](../../../../general/Stonecutters%20Bridge.md).
 See [Sutong Yangtze River Bridge](../../../../general/Sutong%20Yangtze%20River%20Bridge.md).
 
 - bridge type ::: [cable-stayed bridge](../../../../general/cable-stayed%20bridge.md)<!-- flashcard 30c74f35-b995-41af-8d8c-189c93fb1dfa --> <!--SR:!2024-08-10,78,360!2024-08-23,91,380-->
-- description ::: [cable-stayed bridge](../../../../general/cable-stayed%20bridge.md) in China <!--SR:!2024-08-12,80,310!2024-07-12,67,344-->
+- description ::: [cable-stayed bridge](../../../../general/cable-stayed%20bridge.md) in China <!--SR:!2024-08-12,80,310!2025-05-26,316,364-->
 - image ::: ![Sutong Yangtze River Bridge image](../../../../archives/Wikimedia%20Commons/Sutong%20Yangtze%20River%20Bridge.JPG) <!--SR:!2024-08-21,89,380!2024-07-23,60,360-->
 - length ::: 8206 m, longest span: 1088 m <!--SR:!2024-07-30,48,257!2025-02-02,212,355-->
 

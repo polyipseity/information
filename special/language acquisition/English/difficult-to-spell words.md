@@ -20,7 +20,7 @@ English
 - [accumulate](https://en.wiktionary.org/wiki/accumulate) ::: (a\_e) To gradually increase in quantity. <!--SR:!2024-07-16,141,332!2025-06-10,417,374-->
 - [altitude](https://en.wiktionary.org/wiki/altitude) ::: (a\_e) Height of a location from a reference point, usually [sea level](../../../general/sea%20level.md). <!--SR:!2024-11-12,226,324!2024-12-05,244,324-->
 - [aluminium](https://en.wiktionary.org/wiki/aluminium) ::: (a\_m) A [chemical element](../../../general/chemical%20element.md) (_symbol_ Al) of [atomic number](../../../general/atomic%20number.md) 13, longer spelling. <!--SR:!2024-08-20,170,310!2025-02-08,309,330-->
-- [aluminum](https://en.wiktionary.org/wiki/aluminum) ::: (a\_m) A [chemical element](../../../general/chemical%20element.md) (_symbol_ Al) of [atomic number](../../../general/atomic%20number.md) 13, shorter spelling. <!--SR:!2025-10-08,458,310!2024-07-13,141,290-->
+- [aluminum](https://en.wiktionary.org/wiki/aluminum) ::: (a\_m) A [chemical element](../../../general/chemical%20element.md) (_symbol_ Al) of [atomic number](../../../general/atomic%20number.md) 13, shorter spelling. <!--SR:!2025-10-08,458,310!2025-08-26,408,290-->
 - [ambiguous](https://en.wiktionary.org/wiki/ambiguous) ::: (a\_s) Open to multiple interpretations. <!--SR:!2025-10-02,452,396!2024-12-03,186,376-->
 - [antecedent](https://en.wiktionary.org/wiki/antecedent) ::: (a\_t) Earlier, in time or order. <!--SR:!2024-08-20,137,392!2025-03-05,294,372-->
 - [arithmetic](https://en.wiktionary.org/wiki/arithmetic) ::: (a\_c) The branch of [mathematics](../../../general/mathematics.md) studying numerical operations like [addition](../../../general/addition.md), [subtraction](../../../general/subtraction.md), [multiplication](../../../general/multiplication.md), and [division](../../../general/division%20(mathematics).md). <!--SR:!2025-01-05,289,344!2024-11-05,228,304-->
@@ -68,11 +68,11 @@ English
 - [polynomial](https://en.wiktionary.org/wiki/polynomial) ::: (p\_l) A [mathematical expression](../../../general/expression%20(mathematics).md) that is a [sum](../../../general/summation.md) of [constant](../../../general/constant%20(mathematics).md) [coefficients](../../../general/coefficient.md) multipled with [indeterminates](../../../general/indeterminate%20(variable).md) raised to a nonnegative [integer](../../../general/integer.md) [power](../../../general/exponentiation.md). <!--SR:!2024-11-20,229,324!2024-09-24,205,324-->
 - [preamble](https://en.wiktionary.org/wiki/preamble) ::: (p\_e) An introduction to a [document](../../../general/document.md). <!--SR:!2025-06-02,410,372!2025-01-24,284,352-->
 - [precedence](https://en.wiktionary.org/wiki/precedence) ::: (p\_e) The state of preceding in importance or priority. <!--SR:!2024-07-21,138,410!2025-01-08,254,370-->
-- [proprietary](https://en.wiktionary.org/wiki/proprietary) ::: (p\_y) Of or relating to [property](../../../general/property.md) or ownership. <!--SR:!2024-08-12,116,376!2024-07-12,5,216-->
+- [proprietary](https://en.wiktionary.org/wiki/proprietary) ::: (p\_y) Of or relating to [property](../../../general/property.md) or ownership. <!--SR:!2024-08-12,116,376!2024-07-17,3,196-->
 - [receipt](https://en.wiktionary.org/wiki/receipt) ::: (r\_t) The act of receiving or having been received. <!--SR:!2024-07-16,131,388!2024-08-29,83,288-->
 - [recipe](https://en.wiktionary.org/wiki/recipe) ::: (r\_e) A set of instructions for making [food](../../../general/food.md). <!--SR:!2025-07-06,423,408!2025-01-24,266,388-->
 - [recipient](https://en.wiktionary.org/wiki/recipient) ::: (r\_t) One who receives. <!--SR:!2024-07-14,137,408!2024-09-23,116,308-->
-- [reciprocity](https://en.wiktionary.org/wiki/reciprocity) ::: (r\_y) Mutual dependence, action, or influence. <!--SR:!2025-11-01,493,408!2024-07-13,117,348-->
+- [reciprocity](https://en.wiktionary.org/wiki/reciprocity) ::: (r\_y) Mutual dependence, action, or influence. <!--SR:!2025-11-01,493,408!2025-08-24,406,348-->
 - [recruit](https://en.wiktionary.org/wiki/recruit) ::: (r\_t) Enroll new [employees](../../../general/employment.md#employee). <!--SR:!2025-02-26,327,372!2025-03-18,347,372-->
 - [reservoir](https://en.wiktionary.org/wiki/reservoir) ::: (r\_r) A source or sink of something. <!--SR:!2025-01-20,304,330!2025-01-21,269,290-->
 - [rudimentary](https://en.wiktionary.org/wiki/rudimentary) ::: (r\_y) Basic, minimal. <!--SR:!2025-04-28,381,372!2024-09-25,209,352-->

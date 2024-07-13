@@ -63,10 +63,10 @@ The following interior structures are possible.
 
 <!--pytextgen generate section="ab92"--><!-- The following content is generated at 2024-05-14T21:11:05.318372+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←[braced frame](braced%20frame.md) <!--SR:!2024-07-13,42,290!2024-07-28,55,315-->
+- _(begin)_→:::←[braced frame](braced%20frame.md) <!--SR:!2024-08-03,21,270!2024-07-28,55,315-->
 - [braced frame](braced%20frame.md)→:::←[hinged frame](hinged%20frame.md) <!--SR:!2024-07-25,42,255!2024-07-30,39,235-->
-- [hinged frame](hinged%20frame.md)→:::←[outrigger](#outrigger) <!--SR:!2024-07-12,4,195!2024-07-14,11,215-->
-- [outrigger](#outrigger)→:::←[rigid frame](rigid%20frame.md) <!--SR:!2024-09-29,87,275!2024-07-13,14,255-->
+- [hinged frame](hinged%20frame.md)→:::←[outrigger](#outrigger) <!--SR:!2024-07-19,6,195!2024-07-14,11,215-->
+- [outrigger](#outrigger)→:::←[rigid frame](rigid%20frame.md) <!--SR:!2024-09-29,87,275!2024-07-19,6,235-->
 - [rigid frame](rigid%20frame.md)→:::←[shear-walled frame](#sheared-walled%20frame): [rigid frame](rigid%20frame.md) + [shear wall](shear%20wall.md) <!--SR:!2024-08-05,50,255!2024-07-22,40,255-->
 - [shear-walled frame](#sheared-walled%20frame): [rigid frame](rigid%20frame.md) + [shear wall](shear%20wall.md)→:::←_(end)_ <!--SR:!2024-07-30,57,315!2024-07-22,27,255-->
 

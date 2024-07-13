@@ -64,7 +64,7 @@ The parenthesized text at the beginning of of each question is {{the location th
 > 4. on the prime meridian
 > 5. 1 and 2
 >
-> - solution: {{3}} <!--SR:!2024-07-13,11,277-->
+> - solution: {{3}} <!--SR:!2024-08-29,46,297-->
 
 <!-- markdownlint MD028 -->
 
@@ -89,7 +89,7 @@ The parenthesized text at the beginning of of each question is {{the location th
 > 4. on the prime meridian
 > 5. 1 and 2
 >
-> - solution: {{5}} <!--SR:!2024-07-13,11,277-->
+> - solution: {{5}} <!--SR:!2024-08-28,45,297-->
 
 <!-- markdownlint MD028 -->
 
@@ -103,7 +103,7 @@ The parenthesized text at the beginning of of each question is {{the location th
 > 6. 44/43 solar days
 >
 > - solution: {{3}}
-> - steps: {{The planet is in retrograde motion. Hence, the number of sidereal days per orbital period is $42 - 1 = 41\text{ sidereal days}$. Thus each sidereal day is $\frac {1 / 41} {1 / 42} = \frac {42} {41}\text{ solar days}$.}} <!--SR:!2024-08-05,25,277!2024-07-12,10,277-->
+> - steps: {{The planet is in retrograde motion. Hence, the number of sidereal days per orbital period is $42 - 1 = 41\text{ sidereal days}$. Thus each sidereal day is $\frac {1 / 41} {1 / 42} = \frac {42} {41}\text{ solar days}$.}} <!--SR:!2024-08-05,25,277!2024-08-10,27,277-->
 
 ## 2024-07-02
 

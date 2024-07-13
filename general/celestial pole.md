@@ -19,11 +19,11 @@ To {{find [Polaris](Polaris.md)}}, from {{a point in the [Northern Hemisphere](N
 
 ## finding the south celestial pole
 
-{{[Sigma Octantis](Sigma%20Octantis.md)}} is identified as the [south](south.md) pole star, {{more than one degree away}} from the pole, but {{with an [apparent magnitude](apparent%20magnitude.md) of 5.5 it is barely visible on a clear night}}. <!--SR:!2024-07-17,15,292!2024-07-16,14,292!2024-07-12,10,272-->
+{{[Sigma Octantis](Sigma%20Octantis.md)}} is identified as the [south](south.md) pole star, {{more than one degree away}} from the pole, but {{with an [apparent magnitude](apparent%20magnitude.md) of 5.5 it is barely visible on a clear night}}. <!--SR:!2024-07-17,15,292!2024-07-16,14,292!2024-08-07,25,272-->
 
 ### method one: the Southern Cross
 
-The [south](south.md) celestial pole can be located from {{the [Southern Cross](Crux.md) (Crux)}}. Draw {{an imaginary line from [γ Crucis](Gacrux.md) to [α Crucis](Acrux.md)—the two stars at the extreme ends of the long axis of the cross}}—and {{follow this line through the sky. Go four-and-a-half times the distance of the long axis in the direction the narrow end of the cross points (the foot of the crucifix)}}. This point is {{5 or 6 degrees}} from the south celestial pole. <!--SR:!2024-07-17,15,292!2024-07-12,10,272!2024-07-18,16,292!2024-07-18,16,292-->
+The [south](south.md) celestial pole can be located from {{the [Southern Cross](Crux.md) (Crux)}}. Draw {{an imaginary line from [γ Crucis](Gacrux.md) to [α Crucis](Acrux.md)—the two stars at the extreme ends of the long axis of the cross}}—and {{follow this line through the sky. Go four-and-a-half times the distance of the long axis in the direction the narrow end of the cross points (the foot of the crucifix)}}. This point is {{5 or 6 degrees}} from the south celestial pole. <!--SR:!2024-07-17,15,292!2024-08-13,31,272!2024-07-18,16,292!2024-07-18,16,292-->
 
 ## references
 

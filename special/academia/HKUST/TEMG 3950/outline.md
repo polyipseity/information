@@ -25,13 +25,13 @@ The content is in teaching order.
 - [information § part 1: product innovation](information.md#part%201%20product%20innovation)
 - [information § product innovation elements](information.md#production%20innovation%20elements)
 - [product innovation § classification of innovation](../../../../general/product%20innovation.md#classification%20of%20innovation)
-- investor goals ::: Investors want to make money in the shortest amount of time. Maybe with the exception of biotechnology investors, considering it requires a long time to see returns. <!--SR:!2024-08-18,76,270!2024-07-13,63,310-->
+- investor goals ::: Investors want to make money in the shortest amount of time. Maybe with the exception of biotechnology investors, considering it requires a long time to see returns. <!--SR:!2024-08-18,76,270!2025-01-28,198,310-->
 - good business opportunities ::: meet a need (most important), sufficient resources, right location, right price, right time <!--SR:!2024-08-04,57,230!2025-03-05,243,330-->
 - [buyer utility map](../../../buyer%20utility%20map.md)
 - [_Blue Ocean Strategy_ § concept](../../../../general/Blue%20Ocean%20Strategy.md#concept)
   - blue ocean strategy example ::: [inventing the air fryer from observing French fries](../../../examples/inventing%20the%20air%20fryer%20from%20observing%20French%20fries.md) <!--SR:!2024-09-23,112,290!2025-01-05,182,310-->
 - International Business Plan Competition ::: IBPC <!--SR:!2025-02-22,234,330!2024-07-16,66,310-->
-- transferrable technology ::: Technology that can potentially target multiple market segments. <!--SR:!2024-07-13,63,310!2025-01-04,181,310-->
+- transferrable technology ::: Technology that can potentially target multiple market segments. <!--SR:!2025-04-09,269,330!2025-01-04,181,310-->
 - reading assignment: [IBM prioritization grid](../../../IBM%20prioritization%20grid.md), [market segmentation](../../../market%20segmentation.md)
 - [assignment W2](assignment%20W2/assignment%20W2.md)
 
@@ -44,7 +44,7 @@ The content is in teaching order.
 - time: 2024-02-20T18:00:00+08:00/2024-02-20T20:30:00+08:00
 - [competitor analysis § outline](../../../../general/competitor%20analysis.md#outline)
 - [customer development](../../../../general/customer%20development.md)
-  - [Peter Drucker](../../../../general/Peter%20Drucker.md) on business and customer ::: "The purpose of a business is to create and keep a customer." <!--SR:!2024-07-12,47,315!2024-10-25,121,335-->
+  - [Peter Drucker](../../../../general/Peter%20Drucker.md) on business and customer ::: "The purpose of a business is to create and keep a customer." <!--SR:!2024-12-06,145,315!2024-10-25,121,335-->
   - [Steve Blank](../../../../general/Steve%20lank.md) on startup success ::: "More start-ups fail from lack of customers than from a failure from product development." <!--SR:!2024-11-25,137,315!2024-10-31,126,315-->
   - [§ importance](../../../../general/customer%20development.md#importance)
   - [§ customer discovery](../../../../general/customer%20development.md#customer%20discovery)
@@ -92,7 +92,7 @@ The content is in teaching order.
 ## week 6 lecture
 
 - time: 2024-03-05T18:00:00+08:00/2024-03-05T20:30:00+08:00
-- product innovation success first step ::: Identification of the _real_ problem: If your project does not work, you have not found the real needs of your customers. <!--SR:!2024-10-19,108,295!2024-07-12,44,315-->
+- product innovation success first step ::: Identification of the _real_ problem: If your project does not work, you have not found the real needs of your customers. <!--SR:!2024-10-19,108,295!2025-01-23,193,335-->
 - jobs to be done theory history ::: Alex Osterwalder adopted the idea from Prof. Clayton Christensen of Harvard University. <!--SR:!2024-10-24,114,295!2024-07-15,47,315-->
 - [value proposition canvas](../../../value%20proposition%20canvas.md)
   - [§ customer profile](../../../value%20proposition%20canvas.md#customer%20profile)
@@ -208,7 +208,7 @@ The content is in teaching order.
 - casual relationship & correlation ::: Correlation does not imply causation. <!--SR:!2024-09-14,80,361!2024-09-20,86,361-->
 - [root cause analysis](../../../../general/root%20cause%20analysis.md) ::: discovery of casual relationships <!--SR:!2024-08-08,46,321!2024-08-16,52,341-->
 - [five whys](../../../../general/five%20whys.md)
-- cause mapping process ::: define the issue by its impact to business goals, visualize the problem, and prevent or mitigate negative impacts <!--SR:!2024-07-13,27,321!2024-08-18,58,341-->
+- cause mapping process ::: define the issue by its impact to business goals, visualize the problem, and prevent or mitigate negative impacts <!--SR:!2024-10-08,86,321!2024-08-18,58,341-->
 - cause mapping notation (at least for this course)
   - cause mapping + MECE dimensions ::: Choose a MECE framework. For one of the causes, split the further causes by MECE dimensions. Label the further causes by their corresponding dimensions. Explain why, if some dimensions are irrelevant and thus has no further causes. <!--SR:!2024-09-28,79,321!2024-09-07,71,341-->
   - cause mapping § arrow direction ::: cause to effect <!--SR:!2024-09-14,80,361!2024-09-17,83,361-->
@@ -266,8 +266,8 @@ The content is in teaching order.
   - abbreviations
     - R&D ::: research & development <!--SR:!2024-07-15,26,370!2024-07-22,32,370-->
     - S&M ::: sales & marketing <!--SR:!2024-07-23,33,370!2024-10-30,111,390-->
-    - G&A ::: general & administration <!--SR:!2024-10-22,103,390!2024-07-12,23,370-->
-    - CAGR ::: compound average growth rate; $$\text{CAGR} = \left(\frac {V_{\text{end} } } {V_{\text{start} } } \right)^{\frac 1 t} - 1$$ <!--SR:!2024-09-15,74,370!2024-07-12,23,370-->
+    - G&A ::: general & administration <!--SR:!2024-10-22,103,390!2024-11-09,118,390-->
+    - CAGR ::: compound average growth rate; $$\text{CAGR} = \left(\frac {V_{\text{end} } } {V_{\text{start} } } \right)^{\frac 1 t} - 1$$ <!--SR:!2024-09-15,74,370!2024-11-08,117,390-->
 - interview note-taking technique using 1 sheet of A4 paper
 - exam for part 2 review
 
