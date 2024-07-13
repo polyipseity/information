@@ -125,7 +125,7 @@ Going a step further, taking {{the [conjugate transpose](conjugate%20transpos.md
 
 > [!tip] tips
 >
-> - geometric interpretation of left eigenvectors ::: The geometric interpretation of left eigenvectors is slightly different as row vectors are conventionally thought of as [hyperplanes](hyperplane.md) ($n - 1$-dimensional [subspace](linear%20subspace.md)) instead, with the direction of a row vector being the [normal](normal%20(geometry).md) of the corresponding hyperplane. (Also see [dual basis](dual%20basis.md).) Under this interpretation, left eigenvectors are identified with hyperplanes through the origin that are perpendicular to the row vectors that are sent to themselves or the set of zero $\set 0$ after applying $A$.
+> - geometric interpretation of left eigenvectors ::: The geometric interpretation of left eigenvectors is slightly different as row vectors are conventionally thought of as [hyperplanes](hyperplane.md) ($n - 1$-dimensional [subspace](linear%20subspace.md)) instead, with the direction of a row vector being the [normal](normal%20(geometry).md) of the corresponding hyperplane. (Also see [dual basis](dual%20basis.md).) Under this interpretation, left eigenvectors are identified with hyperplanes through the origin that are perpendicular to the row vectors that are sent to themselves or the set of zero $\set 0$ after applying $A^{-1}$.
 
 ### diagonalization and the eigendecomposition
 
@@ -175,7 +175,7 @@ We say that {{a nonzero [vector](vector%20space.md) $\mathbf v \in V_{\ne \mathb
 
 Given an eigenvalue $\lambda$, consider the set {{$$E = \set{ \mathbf v : T(\mathbf v) = \lambda \mathbf v }$$}}, which is {{the [union](union%20(set%20theory).md) of the zero vector and the set of all eigenvectors associated with the eigenvalue $\lambda$}}.
 
-By the definition of [linear transformation](linear%20map.md), the following properties hold: {{$$\begin{aligned} T(\mathbf x + \mathbf y) & = T(\mathbf x) + T(\mathbf y) \\ T(\alpha \mathbf x) & = \alpha T(\mathbf x) \end{aligned}$$}} for {{arbitrary $\mathbf x, \mathbf y \in V$ and arbitrary $\alpha \in K$}}. Therefore, if $\mathbf u, \mathbf v$ are eigenvectors of $T$ associated with eigenvalue $\lambda$, namely $\mathbf u, \mathbf v \in E$, then {{$$\begin{aligned} T(\mathbf u + \mathbf v) & = T(\mathbf u) + T(\mathbf v) = \lambda \mathbf u + \lambda \mathbf v + \lambda (\mathbf u + \mathbf v) \\ T(\alpha \mathbf u) & = \alpha T(\mathbf u) = \alpha (\lambda \mathbf u) = \lambda (\alpha \mathbf u) \end{aligned}$$}}.
+By the definition of [linear transformation](linear%20map.md), the following properties hold: {{$$\begin{aligned} T(\mathbf x + \mathbf y) & = T(\mathbf x) + T(\mathbf y) \\ T(\alpha \mathbf x) & = \alpha T(\mathbf x) \end{aligned}$$}} for {{arbitrary $\mathbf x, \mathbf y \in V$ and arbitrary $\alpha \in K$}}. Therefore, if $\mathbf u, \mathbf v$ are eigenvectors of $T$ associated with eigenvalue $\lambda$, namely $\mathbf u, \mathbf v \in E$, then {{$$\begin{aligned} T(\mathbf u + \mathbf v) & = T(\mathbf u) + T(\mathbf v) = \lambda \mathbf u + \lambda \mathbf v = \lambda (\mathbf u + \mathbf v) \\ T(\alpha \mathbf u) & = \alpha T(\mathbf u) = \alpha (\lambda \mathbf u) = \lambda (\alpha \mathbf u) \end{aligned}$$}}.
 
 So, both $\mathbf u + \mathbf v$ and $\alpha \mathbf u$ are {{either zero or eigenvectors of $T$ associated with $\lambda$, namely $\mathbf u + \mathbf v, \alpha \mathbf u \in E$}}, and thus {{$E$ is closed under [addition](addition.md) and [scalar multiplication](scalar%20multiplication.md)}}. The eigenspace $E$ associated with $\lambda$ is therefore {{a [linear subspace](linear%20subspace.md) of $V$}}. If {{that subspace has [dimension](dimension%20(vector%20space).md) 1}}, it is sometimes called {{an __eigenline__}}.
 
@@ -195,7 +195,7 @@ Any [subspace](linear%20subspace.md) [spanned](linear%20span.md) by eigenvectors
 
 If {{$\lambda$ is an eigenvalue of $T$}}, then {{the operator $(T − \lambda I)$ is not one-to-one, and therefore its [inverse](invertible%20matrix.md) $(T − \lambda I)^{-1}$ does not exist}}. The converse is {{true for finite-[dimensional](dimension%20(vector%20space).md) [vector spaces](vector%20space.md), but not for infinite-dimensional vector spaces}}. In general, the operator $(T − \lambda I)$ {{may not have an inverse even if $\lambda$ is not an eigenvalue}}.
 
-For this reason, in [functional analysis](functional%20analysis.md) eigenvalues can be {{generalized to the [spectrum](spectrum%20(functional%20analysis).md) of a [linear operator](linear%20map.md) $T$ as the set of all [scalars](scalar%20(mathematics).md) $\lambda$ for which the operator $(T − \lambda I)$ has no bounded inverse}}. The spectrum of an operator always {{contains all its eigenvalues but is not limited to them}}.
+For this reason, in [functional analysis](functional%20analysis.md) eigenvalues can be {{generalized to the [spectrum](spectrum%20(functional%20analysis).md) of a [linear operator](linear%20map.md) $T$ as the set of all [scalars](scalar%20(mathematics).md) $\lambda$ for which the operator $(T − \lambda I)$ has no bounded inverse}}. The spectrum of an operator always {{contain all its eigenvalues but is not limited to them}}.
 
 ## dynamic equations
 
