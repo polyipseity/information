@@ -15,7 +15,7 @@ In [astronomy](astronomy.md) and [navigation](navigation.md), the __celestial sp
 
 ## description
 
-Because {{[astronomical objects](astronomical%20object.md) are so far away}}, causally observing them {{cannot reveal their actual distances and movement to us}}. Thus, all astronomical objects seem {{[equally far away](equidistant.md) and appear fixed}}. Since {{[Earth](Earth.md) rotates [eastward](east.md) but the celestial objects are essentially fixed}}, the {{sphere appears to [rotate westward](diurnal%20motion.md) overhead with Earth underfoot remaining still}}. <!--SR:!2024-07-17,15,290!2024-07-17,15,290!2024-07-14,12,270!2024-07-14,12,270!2024-07-14,12,270-->
+Because {{[astronomical objects](astronomical%20object.md) are so far away}}, causally observing them {{cannot reveal their actual distances and movement to us}}. Thus, all astronomical objects seem {{[equally far away](equidistant.md) and appear fixed}}. Since {{[Earth](Earth.md) rotates [eastward](east.md) but the celestial objects are essentially fixed}}, the {{sphere appears to [rotate westward](diurnal%20motion.md) overhead with Earth underfoot remaining still}}. <!--SR:!2024-07-17,15,290!2024-07-17,15,290!2024-08-31,48,290!2024-08-17,34,270!2024-08-14,31,270-->
 
 ## references
 

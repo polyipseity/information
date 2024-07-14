@@ -21,7 +21,7 @@ The content is in teaching order.
 ## week 1 lecture
 
 - time: 2024-01-31T09:00:00+08:00/2024-01-31T10:30:00+08:00
-- 6 major topics ::: association, clustering, classification, data warehouse, dimension reduction, web database <!--SR:!2024-07-14,89,250!2025-01-13,260,330-->
+- 6 major topics ::: association, clustering, classification, data warehouse, dimension reduction, web database <!--SR:!2025-02-23,224,250!2025-01-13,260,330-->
 - association ::: Finding frequent _patterns_, e.g. frequent items and _item sets_, and _association rules_, e.g. the likelihood of A implying B. <!--SR:!2024-08-25,132,290!2024-11-21,218,330-->
 - clustering ::: Finding all _clusters_, e.g. the clusters of items after graphing them in a 2D graph. <!--SR:!2024-11-05,191,310!2025-02-08,282,330-->
 - classification ::: _Predict_ results given some input data, e.g. decision trees. <!--SR:!2024-08-01,115,290!2025-02-16,286,330-->
@@ -374,7 +374,7 @@ The content is in teaching order.
     - § computing PCA using the covariance method > data transformation ::: Also, instead of transforming the mean-subtracted data using $\mathbf{T} = \mathbf{B} \mathbf{\Phi}$, the original data $\mathbf{Y} = \mathbf{X}^\intercal$ is transformed, and in a different way: $\mathbf{T}' = \mathbf{\Phi}^\intercal \mathbf{Y}$. Each column instead of each row of $\mathbf{T}'$ is a data point. Even more specifically, the data points are transformed one by one: $\mathbf{T}'_i = \mathbf{\Phi}^\intercal \mathbf{Y}_i$. <!--SR:!2024-08-22,54,337!2024-08-20,49,337-->
 - [Analytics Solver usage](../../../Analytic%20Solver%20usage.md): principal components
 - [data warehouse](../../../../general/data%20warehouse.md)
-  - data warehouse > application ::: [online analytical processing](../../../../general/online%20analytical%20processing.md) (OLAP), used by many corporations <!--SR:!2024-07-14,25,368!2024-07-23,33,368-->
+  - data warehouse > application ::: [online analytical processing](../../../../general/online%20analytical%20processing.md) (OLAP), used by many corporations <!--SR:!2024-10-16,94,368!2024-07-23,33,368-->
   - data warehouse > advantage ::: data warehouses can speed up queries on a database <!--SR:!2024-08-06,41,337!2024-09-12,67,357-->
 
 ## week 13 lecture 1

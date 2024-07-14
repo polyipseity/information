@@ -46,7 +46,7 @@ The objective is to {{find the best $S$ that maximizes the gain $G(S, \set{\top}
 The pseudocode is as follows:
 
 1. initialization ::: Initialize $S$ to consist of the top view $\top$ only. <!--SR:!2024-08-09,42,290!2024-08-23,52,310-->
-2. looping condition ::: The looping condition depends on the constraint. For example, loop while the number of materialized views has not exceeded the limit. Another example is, loop while there exists an view not in $S$ such that materializing the view does not make the total cost of materialized views exceed the limit. Go to step 5 if the loop stops. <!--SR:!2024-07-14,19,250!2024-08-21,47,290-->
+2. looping condition ::: The looping condition depends on the constraint. For example, loop while the number of materialized views has not exceeded the limit. Another example is, loop while there exists an view not in $S$ such that materializing the view does not make the total cost of materialized views exceed the limit. Go to step 5 if the loop stops. <!--SR:!2024-08-31,48,250!2024-08-21,47,290-->
 3. selection with heuristic ::: Select an view not in $S$ such that the constraint is respected while maximizing a specific heuristic function. The heuristic function also depends on the constraint. For example, the heuristic function can be the benefit $B(v, S)$ of materializing the view if the number of materialized views is limited. Another example is, the benefit per view cost $B(v, S) / c_v$ of materializing the view if the total cost of materialized views is constrained. <!--SR:!2024-07-25,27,270!2024-07-27,31,270-->
 4. update ::: Add the view to $S$. Go to step 2. <!--SR:!2024-08-20,49,290!2024-09-02,60,310-->
 5. results ::: $S$ is the resulting view selection. <!--SR:!2024-08-21,50,290!2024-08-12,44,290-->

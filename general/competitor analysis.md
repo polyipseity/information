@@ -131,7 +131,7 @@ Competitor analysis can be done {{anytime as needed}}. For example, it can expos
 
 ### comparison parameters
 
-Common parameters used for comparison, {{most important first}}: <!--SR:!2024-07-14,45,294-->
+Common parameters used for comparison, {{most important first}}: <!--SR:!2025-01-13,183,314-->
 
 ```Python
 # pytextgen generate data
@@ -170,7 +170,7 @@ number of features
 - price→:::←benefit <!--SR:!2024-11-27,150,314!2024-09-27,97,301-->
 - benefit→:::←quality <!--SR:!2024-08-17,67,274!2024-11-24,134,301-->
 - quality→:::←durability <!--SR:!2024-07-15,2,161!2024-07-30,59,321-->
-- durability→:::←service <!--SR:!2024-07-25,50,301!2024-07-14,12,241-->
+- durability→:::←service <!--SR:!2024-07-25,50,301!2024-08-11,28,241-->
 - service→:::←convenience <!--SR:!2024-07-20,35,241!2024-08-08,56,301-->
 - convenience→:::←ease of use <!--SR:!2024-07-15,40,261!2024-07-22,55,314-->
 - ease of use→:::←number of features <!--SR:!2024-07-27,20,261!2024-07-23,19,254-->

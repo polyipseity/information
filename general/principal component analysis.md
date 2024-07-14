@@ -84,7 +84,7 @@ return chain(
 - calculate the empirical mean→:::←calculate the deviations from the mean <!--SR:!2024-09-16,73,310!2024-07-27,29,270-->
 - calculate the deviations from the mean→:::←find the covariance matrix <!--SR:!2024-08-11,44,290!2024-08-01,35,270-->
 - find the covariance matrix→:::←find the eigenvectors and eigenvalues of the covariance matrix <!--SR:!2024-08-06,38,290!2024-07-28,31,290-->
-- find the eigenvectors and eigenvalues of the covariance matrix→:::←rearrange the eigenvectors and eigenvalues <!--SR:!2024-07-14,19,250!2024-09-20,69,290-->
+- find the eigenvectors and eigenvalues of the covariance matrix→:::←rearrange the eigenvectors and eigenvalues <!--SR:!2024-09-03,51,250!2024-09-20,69,290-->
 - rearrange the eigenvectors and eigenvalues→:::←compute the cumulative variance for each eigenvector <!--SR:!2024-08-19,46,290!2024-08-25,51,290-->
 - compute the cumulative variance for each eigenvector→:::←select a subset of the eigenvectors as the new basis vectors <!--SR:!2024-09-07,58,270!2024-09-13,62,270-->
 - select a subset of the eigenvectors as the new basis vectors→:::←project the data onto the new basis <!--SR:!2024-07-28,31,270!2024-08-08,40,290-->
@@ -117,7 +117,7 @@ return chain(
     - Use the cumulative variances as {{a guide for choosing an appropriate value for the number of reduced dimensions _l_}}. The goal is to {{choose the smallest _l_ possible while ensuring the _l_-th cumulative variance _g<sub>l</sub>_ is reasonably high on a percentage basis}}. For example, {{one can choose the smallest _l_ such that $\frac {g_l} {g_p} \ge 0.9$}}.
     - After choosing _l_ (or _l_ is given beforehand), only keep {{the first _l_ columns of the eigenvector _V_ to make a _p_ × _l_ matrix __W__ and discard the rest}}.
 9. __<!--pytextgen generate section="f098"--><!-- The following content is generated at 2024-06-11T22:43:08.510681+08:00. Any edits will be overridden! -->project the data onto the new basis<!--/pytextgen-->__
-    - The projected data points are {{the rows of the _n_ × _l_ matrix __T__}}, computed by {{$$\mathbf{T} = \mathbf{B} \mathbf{W}$$}}. <!--SR:!2024-08-22,51,310!2024-08-19,48,310!2024-08-29,58,310!2024-08-03,35,270!2024-07-15,20,250!2024-09-11,68,310!2024-08-31,59,310!2024-07-30,31,270!2024-08-23,47,270!2024-07-17,21,250!2024-09-14,71,310!2024-08-17,49,290!2024-09-15,64,270!2024-08-02,35,290!2024-08-21,48,290!2024-08-20,47,290!2024-08-10,41,290!2024-08-19,48,310!2024-07-30,33,290!2024-08-24,42,250!2024-07-24,26,270!2024-08-03,32,270!2024-09-07,65,310!2024-08-05,38,290!2024-07-25,29,270!2024-07-31,34,270!2024-08-03,37,270!2024-09-27,76,290!2024-07-31,34,290!2024-08-03,32,270!2024-07-17,22,250!2024-07-14,19,250!2024-07-29,30,270-->
+    - The projected data points are {{the rows of the _n_ × _l_ matrix __T__}}, computed by {{$$\mathbf{T} = \mathbf{B} \mathbf{W}$$}}. <!--SR:!2024-08-22,51,310!2024-08-19,48,310!2024-08-29,58,310!2024-08-03,35,270!2024-07-15,20,250!2024-09-11,68,310!2024-08-31,59,310!2024-07-30,31,270!2024-08-23,47,270!2024-07-17,21,250!2024-09-14,71,310!2024-08-17,49,290!2024-09-15,64,270!2024-08-02,35,290!2024-08-21,48,290!2024-08-20,47,290!2024-08-10,41,290!2024-08-19,48,310!2024-07-30,33,290!2024-08-24,42,250!2024-07-24,26,270!2024-08-03,32,270!2024-09-07,65,310!2024-08-05,38,290!2024-07-25,29,270!2024-07-31,34,270!2024-08-03,37,270!2024-09-27,76,290!2024-07-31,34,290!2024-08-03,32,270!2024-07-17,22,250!2024-09-17,65,270!2024-07-29,30,270-->
 
 ## references
 

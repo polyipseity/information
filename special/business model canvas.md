@@ -76,7 +76,7 @@ C$: [cost structure](#cost%20structure)
 
 The customer segments building block shows {{the different groups an organization is trying to serve}}. Customers are the heart of any business model because {{without them, no business can work}}. <!--SR:!2024-07-28,67,274!2024-12-28,181,314-->
 
-Customers should be separated into different segments if {{they have different needs, need different [distribution channels](#channels), different [customer relationships](#customer%20relationships), very different profitability, or needing different aspects of your products}}. <!--SR:!2024-07-14,53,257-->
+Customers should be separated into different segments if {{they have different needs, need different [distribution channels](#channels), different [customer relationships](#customer%20relationships), very different profitability, or needing different aspects of your products}}. <!--SR:!2024-11-28,137,257-->
 
 ##### customer segment examples
 
@@ -108,11 +108,11 @@ segmented: splitting slightly different customer segments
 
 <!--pytextgen generate section="9b8a"--><!-- The following content is generated at 2024-03-22T20:40:48.955505+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←diversified: serving unrelated customer segments <!--SR:!2024-08-30,81,257!2024-07-14,69,317-->
+- _(begin)_→:::←diversified: serving unrelated customer segments <!--SR:!2024-08-30,81,257!2025-02-16,217,317-->
 - diversified: serving unrelated customer segments→:::←mass market: not distinguishing between customer segments <!--SR:!2024-09-10,84,237!2024-09-21,96,254-->
 - mass market: not distinguishing between customer segments→:::←multi-sided platforms: serving interdependent customer segments <!--SR:!2024-08-03,73,274!2024-09-12,109,297-->
 - multi-sided platforms: serving interdependent customer segments→:::←niche market: focusing on specific, specialized customer segments <!--SR:!2024-10-27,120,257!2024-09-12,79,254-->
-- niche market: focusing on specific, specialized customer segments→:::←segmented: splitting slightly different customer segments <!--SR:!2024-09-30,100,254!2024-07-14,18,237-->
+- niche market: focusing on specific, specialized customer segments→:::←segmented: splitting slightly different customer segments <!--SR:!2024-09-30,100,254!2024-07-24,10,217-->
 - segmented: splitting slightly different customer segments→:::←_(end)_ <!--SR:!2024-07-21,68,274!2024-10-31,116,254-->
 
 <!--/pytextgen-->
@@ -167,7 +167,7 @@ risk reduction
 - accessibility→:::←brand or status <!--SR:!2024-10-01,103,254!2024-08-02,72,274-->
 - brand or status→:::←convenience or usability <!--SR:!2024-07-29,26,234!2024-07-19,19,214-->
 - convenience or usability→:::←cost reduction <!--SR:!2024-10-11,108,254!2024-08-23,43,237-->
-- cost reduction→:::←customization <!--SR:!2024-08-27,94,274!2024-07-14,44,177-->
+- cost reduction→:::←customization <!--SR:!2024-08-27,94,274!2024-08-02,19,157-->
 - customization→:::←design <!--SR:!2024-08-11,76,277!2024-07-17,55,234-->
 - design→:::←newness <!--SR:!2024-09-10,89,257!2024-07-23,23,254-->
 - newness→:::←performance <!--SR:!2024-07-16,61,277!2024-09-26,99,257-->

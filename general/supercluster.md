@@ -9,7 +9,7 @@ tags:
 
 # supercluster
 
-A __supercluster__ is {{a large group of smaller [galaxy clusters](galaxy%20cluster.md) or [galaxy groups](galaxy%20group.md)}}; they are among {{the largest known structures in the [universe](universe.md)}}. A supercluster {{unlike smaller astronomical structures, is not necessarily [gravitationally](gravity.md) bound}}. <!--SR:!2024-07-14,14,290!2024-07-16,16,290!2024-07-18,18,299-->
+A __supercluster__ is {{a large group of smaller [galaxy clusters](galaxy%20cluster.md) or [galaxy groups](galaxy%20group.md)}}; they are among {{the largest known structures in the [universe](universe.md)}}. A supercluster {{unlike smaller astronomical structures, is not necessarily [gravitationally](gravity.md) bound}}. <!--SR:!2024-08-21,38,290!2024-07-16,16,290!2024-07-18,18,299-->
 
 The [Milky Way](Milky%20Way.md) is part of {{the [Local Group](Local%20Group.md)}}, which is part of {{the [Virgo Supercluster](Virgo%20Supercluster.md)}}, which is part of {{the [Laniakea Supercluster](Laniakea%20Supercluster.md)}}, which is part of {{the [Pisces–Cetus Supercluster Complex](Pisces–Cetus%20Supercluster%20Complex.md)}}. <!--SR:!2024-07-15,15,290!2024-07-17,17,290!2024-07-17,17,290!2024-08-19,37,290-->
 

@@ -285,7 +285,7 @@ workmanship
 - lifecycle→:::←maintenance <!--SR:!2024-10-13,106,297!2024-08-08,74,312-->
 - maintenance→:::←politics <!--SR:!2024-07-17,32,261!2024-08-12,80,312-->
 - politics→:::←social <!--SR:!2024-07-21,69,360!2024-08-13,78,337-->
-- social→:::←workmanship <!--SR:!2024-08-26,82,300!2024-07-14,28,190-->
+- social→:::←workmanship <!--SR:!2024-08-26,82,300!2024-09-04,52,190-->
 - workmanship→:::←_(end)_ <!--SR:!2024-08-03,84,365!2024-07-21,73,355-->
 
 <!--/pytextgen-->
@@ -498,7 +498,7 @@ teaming up with others
 
 <!--pytextgen generate section="ee20"--><!-- The following content is generated at 2024-02-16T21:59:47.378182+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←business procedures <!--SR:!2024-07-14,45,252!2024-09-08,107,381-->
+- _(begin)_→:::←business procedures <!--SR:!2024-11-02,111,252!2024-09-08,107,381-->
 - business procedures→:::←economics <!--SR:!2024-08-04,46,261!2024-07-31,68,285-->
 - economics→:::←human behaviors <!--SR:!2024-08-16,78,320!2024-10-23,131,340-->
 - human behaviors→:::←management principles <!--SR:!2024-08-07,47,300!2024-08-01,35,260-->
@@ -544,7 +544,7 @@ wood
 - new synthetic materials→:::←steel <!--SR:!2024-11-20,155,332!2024-08-29,85,320-->
 - steel→:::←stone <!--SR:!2024-09-13,64,320!2024-12-03,159,340-->
 - stone→:::←wood <!--SR:!2024-08-14,75,321!2024-09-10,109,332-->
-- wood→:::←_(end)_ <!--SR:!2024-08-21,100,374!2024-07-14,62,360-->
+- wood→:::←_(end)_ <!--SR:!2024-08-21,100,374!2024-08-14,31,340-->
 
 <!--/pytextgen-->
 
@@ -637,7 +637,7 @@ water
 - _(begin)_→:::←air <!--SR:!2025-01-07,182,341!2024-08-25,93,381-->
 - air→:::←environmental impact assessment (EIA) <!--SR:!2024-12-08,168,318!2024-09-09,108,338-->
 - environmental impact assessment (EIA)→:::←noise <!--SR:!2024-09-08,107,327!2024-08-28,96,380-->
-- noise→:::←waste <!--SR:!2024-07-14,62,360!2024-12-23,190,355-->
+- noise→:::←waste <!--SR:!2024-08-11,28,340!2024-12-23,190,355-->
 - waste→:::←water <!--SR:!2025-01-20,202,357!2024-07-22,70,360-->
 - water→:::←_(end)_ <!--SR:!2024-08-20,88,380!2024-08-22,90,380-->
 
@@ -672,7 +672,7 @@ socioeconomic
 <!--pytextgen generate section="238a"--><!-- The following content is generated at 2024-02-16T21:59:47.593005+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←biological <!--SR:!2024-08-08,76,327!2024-07-27,79,374-->
-- biological→:::←chemical <!--SR:!2024-10-04,126,337!2024-07-14,69,357-->
+- biological→:::←chemical <!--SR:!2024-10-04,126,337!2025-03-18,247,357-->
 - chemical→:::←cultural <!--SR:!2024-07-22,43,280!2024-11-27,173,357-->
 - cultural→:::←physical <!--SR:!2024-10-14,138,345!2024-07-31,64,300-->
 - physical→:::←socioeconomic <!--SR:!2024-07-23,60,297!2024-07-31,68,361-->
@@ -880,7 +880,7 @@ developing strengthening techniques for damaged structures or structural members
 - _(begin)_→:::←choosing suitable materials to resurface a road like asphalt pavement <!--SR:!2024-08-23,91,335!2024-07-24,76,370-->
 - choosing suitable materials to resurface a road like asphalt pavement→:::←designing a concrete mix for a large building <!--SR:!2025-01-17,192,340!2024-10-11,133,327-->
 - designing a concrete mix for a large building→:::←developing strengthening techniques for damaged structures or structural members like a damaged column <!--SR:!2024-09-05,104,335!2024-08-18,86,317-->
-- developing strengthening techniques for damaged structures or structural members like a damaged column→:::←_(end)_ <!--SR:!2024-07-14,66,345!2024-08-30,98,324-->
+- developing strengthening techniques for damaged structures or structural members like a damaged column→:::←_(end)_ <!--SR:!2025-03-02,231,345!2024-08-30,98,324-->
 
 <!--/pytextgen-->
 
@@ -912,7 +912,7 @@ polypropylene fiber reinforced concrete
 
 <!--pytextgen generate section="eee1"--><!-- The following content is generated at 2024-02-16T21:59:47.859581+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←artificial stone <!--SR:!2024-07-14,49,297!2025-07-31,398,365-->
+- _(begin)_→:::←artificial stone <!--SR:!2024-08-08,25,277!2025-07-31,398,365-->
 - artificial stone→:::←cellular concrete <!--SR:!2024-11-12,128,300!2024-08-31,99,335-->
 - cellular concrete→:::←engineered cement composite <!--SR:!2024-10-24,153,270!2024-12-05,166,330-->
 - engineered cement composite→:::←fly ash concrete <!--SR:!2024-11-02,143,337!2024-09-26,107,320-->
@@ -1228,7 +1228,7 @@ water treatment
 
 - _(begin)_→:::←groundwater quality control <!--SR:!2024-10-04,123,340!2024-11-29,175,357-->
 - groundwater quality control→:::←wastewater recycling <!--SR:!2024-07-24,61,295!2024-08-05,25,280-->
-- wastewater recycling→:::←wastewater treatment <!--SR:!2024-11-03,131,315!2024-07-14,59,317-->
+- wastewater recycling→:::←wastewater treatment <!--SR:!2024-11-03,131,315!2025-01-16,186,317-->
 - wastewater treatment→:::←water quality monitoring <!--SR:!2024-08-01,51,280!2024-12-07,157,315-->
 - water quality monitoring→:::←water treatment <!--SR:!2024-11-12,148,324!2024-09-20,117,334-->
 - water treatment→:::←_(end)_ <!--SR:!2024-07-16,68,354!2024-07-21,41,246-->
