@@ -12,6 +12,19 @@ tags:
 
 ## FFmpeg
 
+### combine audio and video
+
+```shell
+ffmpeg -itsoffset "$offset_v" -i "$input_v" -itsoffset "$offset_a" -i "$input_a" -map 0 -map 1 -c copy "$output"
+```
+
+- parameters
+  - `$offset_a` = `0`: audio offset
+  - `$offset_v` = `0`: video offset
+  - `$input_a`: input audio filename
+  - `$input_v`: input video filename
+  - `$output`: output filename
+
 ### measure loudness
 
 ```shell
@@ -27,7 +40,7 @@ ffmpeg -i "$input" -af ebur128=framelog=verbose -f null -
 #### AAC in MP4
 
 ```shell
-ffmpeg -i "$input" -map 0:a -map_metadata 0:g -map_metadata 0:s:a -c:a aac -b:a "$bitrate" -movflags +faststart "$output.m4a"
+ffmpeg -i "$input" -map 0:a -c:a aac -b:a "$bitrate" -movflags +faststart "$output.m4a"
 ```
 
 - parameters
@@ -38,8 +51,8 @@ ffmpeg -i "$input" -map 0:a -map_metadata 0:g -map_metadata 0:s:a -c:a aac -b:a 
 #### AV1 and Opus in WebM
 
 ```shell
-ffmpeg -i "$input" -map 0 -map_metadata 0 -vf "fps=fps=$fps,scale=in_color_matrix=auto:out_color_matrix=bt709:in_range=auto:out_range=$color_range" -c:v libaom-av1 -b:v 0 -crf 45 -g "$($fps * 5)" -pix_fmt "$pixel_format" -color_range "$color_range" -colorspace bt709 -color_primaries bt709 -color_trc bt709 -row-mt 1 -tile-columns 2 -tile-rows 1 -cpu-used 4 -c:a libopus -b:a "$audio_bitrate" -cues_to_front 1 -pass 1 -f null -
-ffmpeg -i "$input" -map 0 -map_metadata 0 -vf "fps=fps=$fps,scale=in_color_matrix=auto:out_color_matrix=bt709:in_range=auto:out_range=$color_range" -c:v libaom-av1 -b:v 0 -crf 45 -g "$($fps * 5)" -pix_fmt "$pixel_format" -color_range "$color_range" -colorspace bt709 -color_primaries bt709 -color_trc bt709 -row-mt 1 -tile-columns 2 -tile-rows 1 -cpu-used 4 -c:a libopus -b:a "$audio_bitrate" -cues_to_front 1 -pass 2 "$output.webm"
+ffmpeg -i "$input" -map 0 -vf "fps=fps=$fps,scale=in_color_matrix=auto:out_color_matrix=bt709:in_range=auto:out_range=$color_range" -c:v libaom-av1 -b:v 0 -crf 45 -g "$($fps * 5)" -pix_fmt "$pixel_format" -color_range "$color_range" -colorspace bt709 -color_primaries bt709 -color_trc bt709 -row-mt 1 -tile-columns 2 -tile-rows 1 -cpu-used 4 -c:a libopus -b:a "$audio_bitrate" -cues_to_front 1 -pass 1 -f null -
+ffmpeg -i "$input" -map 0 -vf "fps=fps=$fps,scale=in_color_matrix=auto:out_color_matrix=bt709:in_range=auto:out_range=$color_range" -c:v libaom-av1 -b:v 0 -crf 45 -g "$($fps * 5)" -pix_fmt "$pixel_format" -color_range "$color_range" -colorspace bt709 -color_primaries bt709 -color_trc bt709 -row-mt 1 -tile-columns 2 -tile-rows 1 -cpu-used 4 -c:a libopus -b:a "$audio_bitrate" -cues_to_front 1 -pass 2 "$output.webm"
 ```
 
 - parameters
@@ -53,7 +66,7 @@ ffmpeg -i "$input" -map 0 -map_metadata 0 -vf "fps=fps=$fps,scale=in_color_matri
 #### HEVC and AAC in QTFF
 
 ```shell
-ffmpeg -i "$input" -map 0 -map_metadata 0 -vf "fps=fps=$fps,scale=in_color_matrix=auto:out_color_matrix=bt709:in_range=auto:out_range=$color_range" -c:v libx265 -tag:v hvc1 -b:v 0 -crf 28 -g "$($fps * 5)" -preset medium -pix_fmt "$pixel_format" -color_range "$color_range" -colorspace bt709 -color_primaries bt709 -color_trc bt709 -c:a aac -b:a "$audio_bitrate" -movflags +faststart "$output.mov"
+ffmpeg -i "$input" -map 0 -vf "fps=fps=$fps,scale=in_color_matrix=auto:out_color_matrix=bt709:in_range=auto:out_range=$color_range" -c:v libx265 -tag:v hvc1 -b:v 0 -crf 28 -g "$($fps * 5)" -preset medium -pix_fmt "$pixel_format" -color_range "$color_range" -colorspace bt709 -color_primaries bt709 -color_trc bt709 -c:a aac -b:a "$audio_bitrate" -movflags +faststart "$output.mov"
 ```
 
 - parameters
