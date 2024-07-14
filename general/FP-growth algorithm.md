@@ -44,7 +44,7 @@ One can prove that the shortcut above {{produces the same result as without usin
 
 ### association rule creation
 
-Creation of association rules from the frequent item sets is {{not covered by this algorithm}}. <!--SR:!2024-07-14,72,310-->
+Creation of association rules from the frequent item sets is {{not covered by this algorithm}}. <!--SR:!2025-05-18,308,330-->
 
 ## the algorithm
 

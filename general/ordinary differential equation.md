@@ -67,7 +67,7 @@ Ordinary differential equations are furthered classified:
 
 > [__homogeneous__](homogeneous%20differential%20equation.md) <a id="^homogeneous"></a>^homogeneous
 >
-> {{An [linear](#^linear) ODE where there are no constant terms ($r(x)=0$).}} <!--SR:!2024-07-14,211,310-->
+> {{An [linear](#^linear) ODE where there are no constant terms ($r(x)=0$).}} <!--SR:!2026-04-28,653,310-->
 
 <!-- markdownlint MD028 -->
 

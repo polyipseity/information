@@ -93,7 +93,7 @@ return chain.from_iterable(await gather(
 - [full moon](full%20moon.md)::all night (sunset to sunrise) <!--SR:!2024-07-22,14,290-->
 - waning gibbous::most of night to early morning <!--SR:!2024-07-19,12,270-->
 - last quarter::late night to morning <!--SR:!2024-07-23,15,290-->
-- waning [crescent](cresceent.md)::pre-dawn to early afternoon <!--SR:!2024-07-14,7,250-->
+- waning [crescent](cresceent.md)::pre-dawn to early afternoon <!--SR:!2024-07-31,17,250-->
 
 <!--/pytextgen-->
 
@@ -102,11 +102,11 @@ return chain.from_iterable(await gather(
 - invisible due to being too closed to the [Sun](Sun.md) except during a [solar eclipse](solar%20eclipse.md)::[new moon](new%20moon.md) <!--SR:!2024-07-24,16,290-->
 - late morning to post-dusk::waxing [crescent](crescent.md) <!--SR:!2024-07-17,10,270-->
 - afternoon to early night::first quarter <!--SR:!2024-07-19,12,270-->
-- late afternoon to most of night::waxing gibbous <!--SR:!2024-07-14,7,250-->
+- late afternoon to most of night::waxing gibbous <!--SR:!2024-07-30,16,250-->
 - all night (sunset to sunrise)::[full moon](full%20moon.md) <!--SR:!2024-07-22,14,290-->
 - most of night to early morning::waning gibbous <!--SR:!2024-07-24,16,290-->
 - late night to morning::last quarter <!--SR:!2024-07-23,15,290-->
-- pre-dawn to early afternoon::waning [crescent](cresceent.md) <!--SR:!2024-07-14,7,250-->
+- pre-dawn to early afternoon::waning [crescent](cresceent.md) <!--SR:!2024-08-06,23,270-->
 
 <!--/pytextgen-->
 

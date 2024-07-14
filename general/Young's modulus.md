@@ -8,7 +8,7 @@ tags:
 
 # Young's modulus
 
-__Young's modulus__ (or __Young modulus__) is {{a mechanical property of solid materials that measures the tensile or compressive [stiffness](stiffness.md) when a [force](force.md) is applied uniaxially}}. <!--SR:!2024-07-14,45,290-->
+__Young's modulus__ (or __Young modulus__) is {{a mechanical property of solid materials that measures the tensile or compressive [stiffness](stiffness.md) when a [force](force.md) is applied uniaxially}}. <!--SR:!2025-01-12,182,310-->
 
 ## definition
 

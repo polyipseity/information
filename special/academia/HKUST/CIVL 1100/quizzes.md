@@ -292,7 +292,7 @@ Example quiz questions for preparing exams.
 > 3. shallow foundation on tuff materials
 > 4. deep foundation on tuff materials
 >
-> - solution: {{3}} <!--SR:!2024-07-14,41,292-->
+> - solution: {{3}} <!--SR:!2024-11-09,118,292-->
 
 <!-- markdownlint MD028 -->
 

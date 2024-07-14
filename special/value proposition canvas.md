@@ -44,7 +44,7 @@ value: overwhelmed by true value creation vs. understand patterns of value creat
 <!--pytextgen generate section="e441"--><!-- The following content is generated at 2024-03-22T20:40:48.753308+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←idea quality: involved in failed bold shiny projects vs. avoid wasting time in bad ideas <!--SR:!2024-09-08,96,289!2025-02-24,225,329-->
-- idea quality: involved in failed bold shiny projects vs. avoid wasting time in bad ideas→:::←implementation: disappointed by failure of a good idea vs. design, test, and deliver what customers want <!--SR:!2024-09-01,90,289!2024-07-14,53,269-->
+- idea quality: involved in failed bold shiny projects vs. avoid wasting time in bad ideas→:::←implementation: disappointed by failure of a good idea vs. design, test, and deliver what customers want <!--SR:!2024-09-01,90,289!2024-08-09,26,249-->
 - implementation: disappointed by failure of a good idea vs. design, test, and deliver what customers want→:::←teamwork: frustrated by unproductive meetings and teams vs. leverage the team fully <!--SR:!2024-11-22,138,269!2024-08-08,74,289-->
 - teamwork: frustrated by unproductive meetings and teams vs. leverage the team fully→:::←value: overwhelmed by true value creation vs. understand patterns of value creation <!--SR:!2024-08-18,73,249!2024-07-26,65,269-->
 - value: overwhelmed by true value creation vs. understand patterns of value creation→:::←_(end)_ <!--SR:!2024-07-23,76,329!2024-12-24,169,289-->
@@ -69,7 +69,7 @@ Since customer jobs has {{functional and non-functional aspects}}, the resulting
 
 The concept of customer jobs is based on {{the jobs to be done theory}}, which states that {{customers "hire" a product to do a "job" instead of simply buying a product}}. <!--SR:!2024-07-22,55,325!2024-07-30,63,325-->
 
-Customer pains include {{undesirable things, obstacles, and risks}}. Make pains {{concrete}}. Note that pains {{can have different severity}}. <!--SR:!2024-09-22,123,290!2024-07-14,69,329!2024-11-13,144,309-->
+Customer pains include {{undesirable things, obstacles, and risks}}. Make pains {{concrete}}. Note that pains {{can have different severity}}. <!--SR:!2024-09-22,123,290!2025-02-25,226,329!2024-11-13,144,309-->
 
 Customer gains can be separated into four levels: {{required, required by customers; expected, expected by customers; desired gains, wanted by customers; and unexpected gains, wanted by customers but customers do not know}}. Make gains {{concrete}}. Like customer pains, note that gains {{can have different severity}}. <!--SR:!2024-07-26,62,249!2024-11-30,175,329!2025-03-13,265,330-->
 
