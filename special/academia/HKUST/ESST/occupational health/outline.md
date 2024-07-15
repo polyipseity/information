@@ -18,58 +18,58 @@ The content is in teaching order.
 
 - [occupational health areas](#occupational%20health%20areas) <!--SR:!2024-02-14,2,182!2024-02-25,14,290-->
 - occupational health services in [Hong Kong](../../../../../general/Hong%20Kong.md) ::: Under Labour Department, there is an occupational hygiene section and an occupational medicine section. <!--SR:!2024-05-02,65,322!2024-04-29,63,310-->
-- occupational hygiene section ::: industrial hygienists anticipate, recognize, evaluate, and control workplace hazards <!--SR:!2024-05-22,64,295!2024-04-28,56,335-->
+  - occupational hygiene section ::: industrial hygienists anticipate, recognize, evaluate, and control workplace hazards <!--SR:!2024-05-22,64,295!2024-04-28,56,335-->
   - [occupational medicine section](#occupational%20medicine%20section)
 - [occupational hazard types](#occupational%20hazard%20types)
 - [occupational hazard factors](#occupational%20hazard%20factors)
 - chemical hazards ::: dusts or particulates, gases or vapors <!--SR:!2024-04-08,31,315!2024-04-24,58,322-->
-- gases or vapors hazards ::: benzene; epoxy; hydrogen sulfide, a common sewer gas; polyurethane <!--SR:!2024-04-10,38,262!2024-05-01,64,322-->
+  - gases or vapors hazards ::: benzene; epoxy; hydrogen sulfide, a common sewer gas; polyurethane <!--SR:!2024-04-10,38,262!2024-05-01,64,322-->
   - dusts or particulates hazards ::: asbestos, mesothelioma; cement, cement contact dermatitis; silica, silicosis <!--SR:!2024-06-06,59,222!2024-04-22,53,302-->
 - [physical hazards](#physical%20hazards)
-- ultraviolet radiation ::: in decreasing wavelength (and hence increasing energy): UV-A: 400~315 nm, UV-B: 315~280 nm, UV-C: 280~100 nm <!--SR:!2024-04-06,34,289!2024-06-13,94,359-->
-- ultraviolet radiation sources ::: fluorescent tubes, sun, ultraviolet lamps, welding arcs <!--SR:!2024-06-28,85,295!2024-05-11,68,355-->
-- UV-A and UV-B health effects ::: skin: aging, cancer, erythema, photosensitization <!--SR:!2024-04-08,36,319!2024-05-30,83,359-->
-- UV-C health effects ::: eyes: conjunctivitis, photokeratitis due to welder's flash <!--SR:!2024-06-23,80,289!2024-04-15,48,302-->
-- ultraviolet radiation effect on airborne chemicals ::: chlorinated hydrocarbons to phosgene, oxygen to ozone <!--SR:!2024-06-11,81,282!2024-05-27,82,355-->
-- noise ::: unwanted sound <!--SR:!2024-04-21,55,322!2024-05-03,65,310-->
-- human audible frequency range ::: 20~20000 Hz <!--SR:!2024-05-22,77,355!2024-05-27,81,355-->
+  - ultraviolet radiation ::: in decreasing wavelength (and hence increasing energy): UV-A: 400~315 nm, UV-B: 315~280 nm, UV-C: 280~100 nm <!--SR:!2024-04-06,34,289!2024-06-13,94,359-->
+    - ultraviolet radiation sources ::: fluorescent tubes, sun, ultraviolet lamps, welding arcs <!--SR:!2024-06-28,85,295!2024-05-11,68,355-->
+    - UV-A and UV-B health effects ::: skin: aging, cancer, erythema, photosensitization <!--SR:!2024-04-08,36,319!2024-05-30,83,359-->
+    - UV-C health effects ::: eyes: conjunctivitis, photokeratitis due to welder's flash <!--SR:!2024-06-23,80,289!2024-04-15,48,302-->
+    - ultraviolet radiation effect on airborne chemicals ::: chlorinated hydrocarbons to phosgene, oxygen to ozone <!--SR:!2024-06-11,81,282!2024-05-27,82,355-->
+  - noise ::: unwanted sound <!--SR:!2024-04-21,55,322!2024-05-03,65,310-->
+    - human audible frequency range ::: 20~20000 Hz <!--SR:!2024-05-22,77,355!2024-05-27,81,355-->
     - noise health effects ::: communication interference, noise induced hearing loss, psychological effects <!--SR:!2024-04-09,43,302!2024-05-09,71,322-->
-- noise health effect factors ::: employment length, exposure time, frequency distribution, level <!--SR:!2024-07-04,91,295!2024-04-21,47,282-->
-- noise types ::: continuous, impact, intermittent <!--SR:!2024-05-21,76,349!2024-05-07,70,322-->
-- temperature hazards ::: Too hot or too cold. Usually too hot for most industries. <!--SR:!2024-05-12,69,346!2024-04-30,63,322-->
+    - noise health effect factors ::: employment length, exposure time, frequency distribution, level <!--SR:!2024-07-04,91,295!2024-04-21,47,282-->
+    - noise types ::: continuous, impact, intermittent <!--SR:!2024-05-21,76,349!2024-05-07,70,322-->
+  - temperature hazards ::: Too hot or too cold. Usually too hot for most industries. <!--SR:!2024-05-12,69,346!2024-04-30,63,322-->
     - [workplaces with temperature hazards](#workplaces%20with%20temperature%20hazards)
-- heat disorders ::: heat cramps, heat exhaustion, heat rash, heat stroke <!--SR:!2024-04-20,51,335!2024-05-07,69,322-->
+    - heat disorders ::: heat cramps, heat exhaustion, heat rash, heat stroke <!--SR:!2024-04-20,51,335!2024-05-07,69,322-->
       - heat rash ::: red spots on skin <!--SR:!2024-05-07,69,322!2024-04-17,51,310-->
-- heat exhaustion ::: fainting, headache, nausea, tiredness due to water loss <!--SR:!2024-04-29,45,269!2024-05-10,67,346-->
-- heat cramps ::: muscle cramps, often painful, due to core temperature increase and electrolyte loss <!--SR:!2024-07-03,90,282!2024-05-25,80,349-->
-- heat stroke ::: most serious, can be fatal <!--SR:!2024-04-21,48,262!2024-06-01,85,349-->
+      - heat exhaustion ::: fainting, headache, nausea, tiredness due to water loss <!--SR:!2024-04-29,45,269!2024-05-10,67,346-->
+      - heat cramps ::: muscle cramps, often painful, due to core temperature increase and electrolyte loss <!--SR:!2024-07-03,90,282!2024-05-25,80,349-->
+      - heat stroke ::: most serious, can be fatal <!--SR:!2024-04-21,48,262!2024-06-01,85,349-->
         - [heat stroke syndromes](#heat%20stroke%20syndromes)
 - biological hazards ::: animal handlers/food processors, _Streptococcus suis_ infection; healthcare/lab, tuberculosis; ventilation maintenance, [Legionnaires' Disease](../../../../../general/Legionnaires'%20Disease.md) <!--SR:!2024-05-23,62,279!2024-05-05,67,322-->
-- [Legionnaires' Disease](../../../../../general/Legionnaires'%20Disease.md) ::: Usually caused by _Legionella pneumophila_. Transmitted by inhalation of aerosols. Related occupations include maintenance of systems using water. A notifiable occupational disease under the Employees' Compensation Ordinance (Cap. 282). <!--SR:!2024-05-02,28,269!2024-04-14,48,290-->
+  - [Legionnaires' Disease](../../../../../general/Legionnaires'%20Disease.md) ::: Usually caused by _Legionella pneumophila_. Transmitted by inhalation of aerosols. Related occupations include maintenance of systems using water. A notifiable occupational disease under the Employees' Compensation Ordinance (Cap. 282). <!--SR:!2024-05-02,28,269!2024-04-14,48,290-->
     - [Legionnaires' Disease syndromes](#Legionnaires'%20Disease%20syndromes)
 - ergonomics ::: maximize comfort zone, minimize injurious forces <!--SR:!2024-05-08,62,335!2024-04-29,63,310-->
-- ergonomic injuries ::: mechanical stresses or stretches, occupational cumulative trauma disorders <!--SR:!2024-06-01,57,242!2024-04-12,44,326-->
-- occupational cumulative trauma disorders ::: carpal tunnel syndrome, tendinitis, tenosynovitis <!--SR:!2024-05-03,53,262!2024-05-06,64,335-->
+  - ergonomic injuries ::: mechanical stresses or stretches, occupational cumulative trauma disorders <!--SR:!2024-06-01,57,242!2024-04-12,44,326-->
+    - occupational cumulative trauma disorders ::: carpal tunnel syndrome, tendinitis, tenosynovitis <!--SR:!2024-05-03,53,262!2024-05-06,64,335-->
 - socio-psychological hazards ::: occupational stress, workplace violence <!--SR:!2024-05-31,84,349!2024-05-11,72,322-->
 - particulate sizes ::: according to the [American Conference of Governmental Industrial Hygienists](../../../../../general/American%20Conference%20of%20Governmental%20Industrial%20Hygienists.md), inhalable dusts: ≤ 100 µm, thoraic dusts: ≤ 10 µm, respirable dusts: ≤ 4 µm <!--SR:!2024-07-16,103,282!2024-06-02,87,355-->
 - toxicity equation ::: toxicity × quantity × time <!--SR:!2024-05-25,80,355!2024-05-25,79,349-->
 - occupational exposure limits ::: ceiling (C), short term exposure limit (STEL), time weighted average (TWA) <!--SR:!2024-05-14,71,349!2024-09-02,151,322-->
-- ceiling (C) ::: at any time <!--SR:!2024-06-03,87,349!2024-05-28,82,355-->
-- short term exposure limit (STEL) ::: 15-minute average, 60-minute exposure 4 times daily <!--SR:!2024-04-29,57,339!2024-05-21,76,349-->
-- time weighted average (TWA) ::: 8-hour average, repeated daily exposure <!--SR:!2024-05-13,74,319!2024-05-24,79,349-->
+  - ceiling (C) ::: at any time <!--SR:!2024-06-03,87,349!2024-05-28,82,355-->
+  - short term exposure limit (STEL) ::: 15-minute average, 60-minute exposure 4 times daily <!--SR:!2024-04-29,57,339!2024-05-21,76,349-->
+  - time weighted average (TWA) ::: 8-hour average, repeated daily exposure <!--SR:!2024-05-13,74,319!2024-05-24,79,349-->
 - exposure measurement methods ::: air or surface sampling and laboratory analysis, direct reading <!--SR:!2024-05-01,55,329!2024-04-28,62,310-->
   - direct reading ::: colorimetry like color detection tubes, electronic instruments <!--SR:!2024-05-27,70,270!2024-04-19,53,310-->
-- air or surface and laboratory analysis ::: active sampling and passive sampling like badges <!--SR:!2024-05-02,66,322!2024-06-06,90,349-->
+  - air or surface and laboratory analysis ::: active sampling and passive sampling like badges <!--SR:!2024-05-02,66,322!2024-06-06,90,349-->
 - [hazard control hierarchy](#hazard%20control%20hierarchy)
   - personal protective equipment
-- personal protective equipment disadvantages ::: administrative burden, expensive, physiological burden <!--SR:!2024-04-16,47,339!2024-06-01,85,349-->
-- eye and face protection ::: face shields, safety glasses, safety goggles <!--SR:!2024-05-28,67,282!2024-04-18,49,326-->
-- safety goggle characteristics ::: chemical splash proof, direct vent, impact resistant, indirect vent <!--SR:!2024-07-31,117,319!2024-05-19,74,359-->
-- breathing protection ::: air-purifying respirators <!--SR:!2024-04-19,50,302!2024-06-05,89,349-->
-- air-purifying respirator characteristics ::: full-face, half-face, negative pressure <!--SR:!2024-07-12,99,315!2024-04-11,45,302-->
-- respirator fit tests ::: qualitative fit test and quantitative fit test <!--SR:!2024-04-24,58,322!2024-05-03,66,322-->
-- skin protection against corrosives and solvents ::: chemical gloves, can be made from butyl, latex, nitrile, polyvinyl chloride, etc. <!--SR:!2024-07-04,92,282!2024-05-08,70,319-->
-- chemical gloves precaution ::: test for leaks or pinholes, use the correct type for different chemicals <!--SR:!2024-04-27,61,322!2024-04-25,38,335-->
+    - personal protective equipment disadvantages ::: administrative burden, expensive, physiological burden <!--SR:!2024-04-16,47,339!2024-06-01,85,349-->
+      - eye and face protection ::: face shields, safety glasses, safety goggles <!--SR:!2024-05-28,67,282!2024-04-18,49,326-->
+        - safety goggle characteristics ::: chemical splash proof, direct vent, impact resistant, indirect vent <!--SR:!2024-07-31,117,319!2024-05-19,74,359-->
+      - breathing protection ::: air-purifying respirators <!--SR:!2024-04-19,50,302!2024-06-05,89,349-->
+        - air-purifying respirator characteristics ::: full-face, half-face, negative pressure <!--SR:!2024-07-12,99,315!2024-04-11,45,302-->
+        - respirator fit tests ::: qualitative fit test and quantitative fit test <!--SR:!2024-04-24,58,322!2024-05-03,66,322-->
+      - skin protection against corrosives and solvents ::: chemical gloves, can be made from butyl, latex, nitrile, polyvinyl chloride, etc. <!--SR:!2024-07-04,92,282!2024-05-08,70,319-->
+        - chemical gloves precaution ::: test for leaks or pinholes, use the correct type for different chemicals <!--SR:!2024-04-27,61,322!2024-04-25,38,335-->
 - occupational health goals ::: protect the environment, general community, and workers' health <!--SR:!2024-04-23,54,302!2024-05-26,80,349-->
 
 ## oversized data
