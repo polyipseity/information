@@ -11,7 +11,7 @@ tags:
 
 # ecliptic
 
-The __ecliptic__ or __ecliptic plane__ is {{the [orbital plane](orbital%20plane.md) of [Earth](Earth.md) around the [Sun](Sun.md)}}. From {{the perspective of an observer on Earth}}, the [Sun](Sun.md)'s movement {{around the [celestial sphere](celestial%20sphere.md) [eastward](east.md) over the course of a year traces out a path along the ecliptic against the background of stars}}. <!--SR:!2024-07-17,15,290!2024-07-18,16,290!2024-08-25,42,290-->
+The __ecliptic__ or __ecliptic plane__ is {{the [orbital plane](orbital%20plane.md) of [Earth](Earth.md) around the [Sun](Sun.md)}}. From {{the perspective of an observer on Earth}}, the [Sun](Sun.md)'s movement {{[eastward](east.md) around the [celestial sphere](celestial%20sphere.md) over the course of a year traces out a path along the ecliptic against the background of stars}}. <!--SR:!2024-07-17,15,290!2024-07-18,16,290!2024-08-25,42,290-->
 
 ## astrology
 

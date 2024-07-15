@@ -195,3 +195,83 @@ The parenthesized text at the beginning of of each question is {{the location th
 >
 > - solution: {{4}}
 > - steps: {{Recall that the eclipse season depends on the line of lunar nodes. Consider that the lunar nodes rotates retrograde (clockwise) once about 18.6 years. The answer is: $$\frac {365.25} {18.6} \approx 19.637\,0967 \approx 20\text{ days}$$.}} <!--SR:!2024-07-27,18,312!2024-07-31,17,272-->
+
+## 2024-07-09
+
+> Q1. (iPRS) Assume that the orbits of all planets in the solar system are circular. Then a = r = orbital radius. By Kepler’s third law, p<sup>2</sup> ~ r<sup>3</sup>, the orbital speed v is
+>
+> 1. proportional to 1/r
+> 2. proportional to r^(-1/2)
+> 3. independent of r
+> 4. proportional to r^(1/2)
+> 5. proportional to r
+>
+> - solution: {{2}}
+> - steps: {{The orbital period $p$ is proportional to the inverse of angular orbital velocity $1 / \omega$. Further, linear orbital velocity (speed) $v$ relates to angular orbital velocity by $v = r \omega \implies \omega = v / r$. Therefore, $$p^2 \propto r^3 \implies \omega^{-2} \propto r^3 \implies r^2 / v^2 \propto r^3 \implies r^{-1} \propto v^2 \implies v \propto r^{-1 / 2}$$. Therefore the answer is $v \propto r^{-1 / 2}$}}.
+
+<!-- markdownlint MD028 -->
+
+> Q2. (derived) Assume orbits are circular, so $a = r$. By Kepler’s third law, $T^2 ~ a^3$. Then the magnitude of orbital acceleration $A$ ($A$ instead of $a$ to avoid clash of variables) is
+>
+> 1. proportional to $1 / r^2$
+> 2. proportional to $1 / r$
+> 3. independent of $r$
+> 4. proportional to $r$
+> 5. proportional to $r^2$
+>
+> - solution: {{1}}
+> - steps: {{The orbital period $T$ is proportional to the inverse of angular orbital velocity $1 / \omega$. Further, linear orbital acceleration $A$ relates to angular orbital velocity by $v = r \omega^2 \implies \omega^2 = v / r$. Therefore, $$T^2 \propto a^3 \implies T^2 \propto r^3 \implies \omega^{-2} \propto r^3 \implies r / v \propto r^3 \implies r^{-2} \propto v \implies v \propto r^{-2}$$. Therefore the answer is $v \propto r^{-2}$}}.
+
+## 2024-07-11
+
+> Q1. (MCQ) <u>First Cosmic Velocity</u>
+>
+> What is the orbital velocity of a satellite which orbits the Earth at sea-level? It is given that the radius of the Earth is 6400 km and the acceleration due to gravity at sea-level is 9.8 m/s<sup>2</sup>.
+>
+> 1. 3.6 km/s
+> 2. 5.2 km/s
+> 3. 7.9 km/s
+> 4. 9.8 km/s
+> 5. 11 km/s
+>
+> - solution: {{3}}
+> - steps: {{Equate circular acceleration to gravitational acceleration: $$a = g \implies \frac {v^2} r = g \implies v^2 = gr \implies v = \sqrt{gr}$$. Plug in the numbers: $$v = \sqrt{\frac {9.8} {1000} \cdot 6400} = \sqrt{62.72} \approx 7.91959595\text{ km/s}$$. Therefore, the answer is 7.9 km/s.}}
+
+<!-- markdownlint MD028 -->
+
+> Q2. (iPRS) In 2023, China's total installed electric generation capacity was 2.92 TW. How much mass is converted to energy every second to generate the same power? (T = Tera = 10<sup>12</sup>)
+>
+> 1. 0.003 g
+> 2. 0.03 g
+> 3. 0.3 g
+> 4. 3 g
+> 5. 30 g
+>
+> - solution: {{2}}
+> - steps: {{Apply Albert Einstein's famous formula: $$E = mc^2 \implies m = \frac E {c^2}$$. Plug in the numbers: $$E = \frac {2.92 \times 10^12} {(3 \times 10^8)^2} \approx 3.24444444 \times 10^{-5}\text{ kg} \approx 0.03\text{ g}$$. Therefore, the answer is 0.03 g.}}
+
+<!-- markdownlint MD028 -->
+
+> Q3. (derived) What is the orbital velocity of a satellite which orbits the Earth at 400 km above the surface? It is given that the radius of the Earth is 6400 km and the acceleration due to gravity at sea-level is 9.8 m/s<sup>2</sup>.
+>
+> 1. 7.5 km/s
+> 2. 7.7 km/s
+> 3. 7.9 km/s
+> 4. 9.8 km/s
+> 5. 11 km/s
+>
+> - solution: {{2}}
+> - steps: {{Recall that the acceleration due to gravity is inversely proportional to the square of distance: $g \propto \frac 1 {r^2}$. Therefore, the acceleration due to gravity 400 km above the surface is: $$g = 9.8 \cdot \frac {6400^2} {6800^2} \approx 8.68096886\text{ m/s}$$. Now, equate circular acceleration to gravitational acceleration: $$a = g \implies \frac {v^2} r = g \implies v^2 = gr \implies v = \sqrt{gr}$$. Plug in the numbers: $$v = \sqrt{\frac {8.68096886} {1000} \cdot 6800} \approx 7.6831366\text{ km/s}$$. Therefore, the answer is 7.7 km/s}}.
+
+<!-- markdownlint MD028 -->
+
+> Q4. (derived) About 0.1% of the mass of the Sun will be converted into energy over its lifetime. Given that the Sun has a mass of 2 × 10<sup>30</sup> kg and emits 3.8 × 10<sup>26</sup> joules of energy per second, calculate its lifetime.
+>
+> 1. 100 million years
+> 2. 1 billion years
+> 3. 10 billion years
+> 4. 100 billion years
+> 5. 1 trillion years
+>
+> - solution: {{3}}
+> - steps: {{Apply Albert Einstein's famous formula: $$E = mc^2$$. Calculate the total emitted energy over the Sun's lifetime: $$E = 2 \times 10^30 \cdot 0.001 \cdot (3 \times 10^8)^2 = 1.8 \times 10^{44}\text{ J}$$. Then calculate its lifetime by dividing it by the power of the Sun: $$t = \frac {1.8 \times 10^{44} } {3.8 \times 10^{26} } \approx 4.73684211 \times 10^{17}\text{ s} \approx 1.5010468 \times 10^{10}\text{ yrs} \approx 15\text{ billion years}$$. Therefore, the answer is 10 billion years}}.

@@ -9,7 +9,7 @@ tags:
 
 # mass–energy equivalence
 
-In [physics](physics.md), __mass–energy equivalence__ is {{the relationship between [mass](mass.md) and [energy](energy.md) in a system's [rest frame](rest%20frame.md), where the two quantities differ only by a multiplicative constant and the units of measurement}}. <!--SR:!2024-07-17,17,290-->
+In [physics](physics.md), __mass–energy equivalence__ is {{the relationship between [mass](mass.md) and [energy](energy.md) in a system's [rest frame](rest%20frame.md), where the two quantities differ only by a multiplicative constant and the units of measurement}}. <!--SR:!2024-07-17,17,290--> This principle is described by {{[Albert Einstein](Albert%20Einstein.md)'s famous formula: $$E = mc^2$$}}.
 
 ## references
 
