@@ -21,7 +21,7 @@ The 5 forces are {{threat of _new entrants_, bargaining power of _buyers_, threa
 
 ### threat of new entrants
 
-{{Barriers to entry}} restrict the threat of new entrants. Th barriers can be {{business nature or government regulations}}.
+{{Barriers to entry}} restrict the threat of new entrants. The barriers can be {{business nature or government regulations}}.
 
 ### threat of substitutes
 
