@@ -17,12 +17,12 @@ __Copernican heliocentrism__ is {{the astronomical [model](scientific%20modellin
 
 The model uses ideas such as:
 
-- [planets](planet.md) ::: Not only other planets but the Earth also revolves around a stationary sun in perfectly circular orbits.
-- [Earth](Earth.md)'s motions ::: [Earth](Earth.md) has three motions: daily rotation, annual revolution, and annual tilting of its axis.
-- [apparent retrograde motion](apparent%20retrograde%20motion.md) ::: Apparent retrograde motions of other planets are explained by the Earth's motion relative th other planets.
-- [stars](star.md) ::: The distance from [Earth](Earth.md) to the [Sun](Sun.md) is small compared to the distance from the Sun to the [stars](star.md).
+- [planets](planet.md) ::: Not only other planets but the Earth also revolves around a stationary sun in perfectly circular orbits. <!--SR:!2024-07-19,4,301!2024-07-19,4,301-->
+- [Earth](Earth.md)'s motions ::: [Earth](Earth.md) has three motions: daily rotation, annual revolution, and annual tilting of its axis. <!--SR:!2024-07-19,4,301!2024-07-19,4,301-->
+- [apparent retrograde motion](apparent%20retrograde%20motion.md) ::: Apparent retrograde motions of other planets are explained by the Earth's motion relative th other planets. <!--SR:!2024-07-19,4,301!2024-07-18,3,281-->
+- [stars](star.md) ::: The distance from [Earth](Earth.md) to the [Sun](Sun.md) is small compared to the distance from the Sun to the [stars](star.md). <!--SR:!2024-07-19,4,301!2024-07-19,4,301-->
 
-The model has several advantages: {{simpler and more elegant}}, and naturally explains several phenomenons: {{[apparent retrograde motion](apparent%20retrograde%20motion.md), changing brightness of planets, and motion of [inferior planets](inferior%20and%20superior%20planets.md)}}. But it is not without disadvantages: {{not more accurate than old models (duee to the incorrect assumption of perfectly circular orbits)}}, and {{[Earth](Earth.md) needs to move in very high speed, which is generally thought to be improbable at the time}}.
+The model has several advantages: {{simpler and more elegant}}, and naturally explains several phenomenons: {{[apparent retrograde motion](apparent%20retrograde%20motion.md), changing brightness of planets, and motion of [inferior planets](inferior%20and%20superior%20planets.md)}}. But it is not without disadvantages: {{not more accurate than old models (duee to the incorrect assumption of perfectly circular orbits)}}, and {{[Earth](Earth.md) needs to move in very high speed, which is generally thought to be improbable at the time}}. <!--SR:!2024-07-19,4,301!2024-07-19,4,301!2024-07-18,3,281!2024-07-19,4,301-->
 
 ## Copernican theory
 
