@@ -15,6 +15,15 @@ tags:
 
 __Copernican heliocentrism__ is {{the astronomical [model](scientific%20modelling.md) developed by [Nicolaus Copernicus](Nicolaus%20Copernicus.md)}} and published in {{1543}}. This model {{positioned the [Sun](Sun.md) at the center of the [universe](universe.md), motionless, with [Earth](Earth.md) and the other [planets](planet.md) moving around it in [circular orbits](circular%20orbit.md), modified by [epicycles](deferent%20and%20epicycle.md), and at uniform speeds}}. The Copernican model displaced {{the [Ptolemaic model](geocentric%20model.md#Ptolemaic%20model) that had prevailed for centuries, which had placed Earth at the center of the universe}}. <!--SR:!2024-08-21,41,290!2024-08-01,18,230!2024-09-02,50,290!2024-08-22,42,290-->
 
+The model uses ideas such as:
+
+- [planets](planet.md) ::: Not only other planets but the Earth also revolves around a stationary sun in perfectly circular orbits.
+- [Earth](Earth.md)'s motions ::: [Earth](Earth.md) has three motions: daily rotation, annual revolution, and annual tilting of its axis.
+- [apparent retrograde motion](apparent%20retrograde%20motion.md) ::: Apparent retrograde motions of other planets are explained by the Earth's motion relative th other planets.
+- [stars](star.md) ::: The distance from [Earth](Earth.md) to the [Sun](Sun.md) is small compared to the distance from the Sun to the [stars](star.md).
+
+The model has several advantages: {{simpler and more elegant}}, and naturally explains several phenomenons: {{[apparent retrograde motion](apparent%20retrograde%20motion.md), changing brightness of planets, and motion of [inferior planets](inferior%20and%20superior%20planets.md)}}. But it is not without disadvantages: {{not more accurate than old models (duee to the incorrect assumption of perfectly circular orbits)}}, and {{[Earth](Earth.md) needs to move in very high speed, which is generally thought to be improbable at the time}}.
+
 ## Copernican theory
 
 The Copernican order of spheres {{from the [Sun](Sun.md) outward}} is: <!--SR:!2024-07-16,16,290-->

@@ -426,17 +426,17 @@ Concentration Units for Liquids
 
 Relationship between PPM and mg/L
 
-- relationship between ppm and mg/L for dilute solutions ::: 1 mg/L ≈ 1 ppm, 1 µg/L ≈ 1 ppb <!--SR:!2024-07-16,41,290!2024-08-15,68,310-->
-  - relationship between ppm and mg/L derivation ::: convert the volume to mass or mass to volume using density <!--SR:!2024-08-16,68,310!2024-07-24,49,310-->
+- relationship between ppm<sub>w</sub> and mg/L for dilute solutions ::: 1 mg/L ≈ 1 ppm<sub>w</sub>, 1 µg/L ≈ 1 ppb<sub>w</sub> <!--SR:!2024-07-16,41,290!2024-08-15,68,310-->
+  - relationship between ppm<sub>w</sub> and mg/L derivation ::: convert the volume to mass or mass to volume using density <!--SR:!2024-08-16,68,310!2024-07-24,49,310-->
   - density of water ::: about 1 kg/L <!--SR:!2024-08-14,66,310!2024-07-28,53,310-->
 
 ## page 35
 
 Relationship between PPM and mg/L
 
-- relationship between PPM and mg/L for other solutions
-  - relationship between PPM and mg/L examples
-  - relationship between PPM and mg/L for other solutions ::: 1 mg/L = (1 / SG) ppm <!--SR:!2024-11-04,113,290!2024-07-29,53,310-->
+- relationship between ppm<sub>w</sub> and mg/L for other solutions
+  - relationship between ppm<sub>w</sub> and mg/L examples
+  - relationship between ppm<sub>w</sub> and mg/L for other solutions ::: 1 mg/L = (1 / SG) ppm<sub>w</sub> <!--SR:!2024-11-04,113,290!2024-07-29,53,310-->
 - specific gravity (SG) of a mixture ::: density of mixture divided by density of water <!--SR:!2024-07-31,56,310!2024-08-13,65,310-->
 
 ## page 36
