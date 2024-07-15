@@ -119,7 +119,7 @@ return (
 > nitrates
 >
 > - general solubility: {{<span style="color: green;">soluble</span>}}
-> - exception(s): {{(none)}} <!--SR:!2025-10-17,822,236!2024-07-15,454,289-->
+> - exception(s): {{(none)}} <!--SR:!2025-10-17,822,236!2028-02-16,1311,289-->
 
 <!-- markdownlint MD028 -->
 
@@ -189,7 +189,7 @@ return (
 > oxides
 >
 > - general solubility: {{<span style="color: red;">insoluble</span>}}
-> - exception(s): {{group I, group II (except [BeO](beryllium%20oxide.md)), NH<sub>4</sub><sup>+</sup>, Ba<sup>2+</sup>, Sr<sup>2+</sup>, and Tl<sup>+</sup> compounds}} <!--SR:!2025-01-01,660,250!2024-07-15,11,130-->
+> - exception(s): {{group I, group II (except [BeO](beryllium%20oxide.md)), NH<sub>4</sub><sup>+</sup>, Ba<sup>2+</sup>, Sr<sup>2+</sup>, and Tl<sup>+</sup> compounds}} <!--SR:!2025-01-01,660,250!2024-07-29,14,130-->
 
 <!-- markdownlint MD028 -->
 

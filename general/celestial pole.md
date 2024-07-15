@@ -15,7 +15,7 @@ The north and south __celestial poles__ are {{the two points in the [sky](sky.md
 
 The [north](north.md) celestial pole currently is {{within one degree of the bright star [Polaris](Polaris.md) (named from the [Latin](Latin.md) _stella polaris_, meaning "pole star")}}. <!--SR:!2024-07-17,15,292-->
 
-To {{find [Polaris](Polaris.md)}}, from {{a point in the [Northern Hemisphere](Northern%20Hemisphere.md), face [north](north.md)}} and locate the [Big Dipper](Big%20Dipper.md) (Plough) and [Little Dipper](Ursa%20Minor.md) [asterisms](asterism%20(astronomy).md)}}. Looking at {{the "cup" part of the Big Dipper, imagine that the two stars at the outside edge of the cup form a line pointing upward out of the cup}}. This line points directly at {{the [star](star.md) at the tip of the Little Dipper's handle, which is Polaris}}. <!--SR:!2024-07-18,16,292!2024-07-18,16,292!2024-07-15,13,272!2024-08-16,33,272-->
+To {{find [Polaris](Polaris.md)}}, from {{a point in the [Northern Hemisphere](Northern%20Hemisphere.md), face [north](north.md)}} and locate the [Big Dipper](Big%20Dipper.md) (Plough) and [Little Dipper](Ursa%20Minor.md) [asterisms](asterism%20(astronomy).md)}}. Looking at {{the "cup" part of the Big Dipper, imagine that the two stars at the outside edge of the cup form a line pointing upward out of the cup}}. This line points directly at {{the [star](star.md) at the tip of the Little Dipper's handle, which is Polaris}}. <!--SR:!2024-07-18,16,292!2024-07-18,16,292!2024-08-15,31,272!2024-08-16,33,272-->
 
 ## finding the south celestial pole
 

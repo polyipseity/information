@@ -18,13 +18,13 @@ tags:
 
 Buildings can be {{categorized by height}}: {{single-storey, multi-storey with height less than 24 m, high-rise with height more than 24 m but less than 100 m, tall, and supertall}}. <!--SR:!2024-11-23,142,315!2024-07-18,45,295-->
 
-The structural system of a building only {{consists of members designed to carry loads}}, and all others are {{non-structural}}. <!--SR:!2024-07-15,44,290!2024-08-01,59,315-->
+The structural system of a building only {{consists of members designed to carry loads}}, and all others are {{non-structural}}. <!--SR:!2024-11-15,123,290!2024-08-01,59,315-->
 
 The structural system of a high-rise building should support {{vertical loads such as gravity and foundation settlement, and also lateral loads such as earthquake, wind}}. The latter, {{lateral loads, are especially important for tall buildings}}. Otherwise, tall buildings may {{slide (horizontal translation) or overturn (rotation about the base)}}. Generally the higher up, {{the larger the load}}. <!--SR:!2024-09-02,69,270!2024-07-17,46,295!2024-07-16,45,295!2024-08-11,66,310-->
 
 Hence, foundation-wise, low-rise buildings are {{supported by shallow foundations (footings)}}, while high-rise buildings are {{supported by deep foundations (pipes), which may even reach the bedrock}}. <!--SR:!2024-07-24,48,295!2024-07-18,43,295-->
 
-The structural system affects {{the load distribution}}. For example, a {{structural steel undergoing overturning due to wind}} would experience {{tension at the wind-facing side and compression on the other side}}. A {{reinforced concrete (concrete with steel bars)}} would experience the same thing, but {{steel bars bear most of the tension while concrete bears most of the compression and the heavy vertical loading}}. <!--SR:!2024-07-31,58,315!2024-07-22,46,295!2024-08-13,68,315!2024-07-15,44,295!2024-09-20,84,275-->
+The structural system affects {{the load distribution}}. For example, a {{structural steel undergoing overturning due to wind}} would experience {{tension at the wind-facing side and compression on the other side}}. A {{reinforced concrete (concrete with steel bars)}} would experience the same thing, but {{steel bars bear most of the tension while concrete bears most of the compression and the heavy vertical loading}}. <!--SR:!2024-07-31,58,315!2024-07-22,46,295!2024-08-13,68,315!2024-11-26,134,295!2024-09-20,84,275-->
 
 We can {{quantify}} overturning. The {{lateral stiffness}} of a building is defined as {{the force divided by the horizontal displacement at the building top, and has a unit of kN/mm}}, somewhat similar to {{[elastic modulus](elastic%20modulus.md)}}. The aim is to {{increase the lateral stiffness, which involves making the building stiff and strong}}. <!--SR:!2024-08-02,60,315!2024-08-02,59,315!2024-07-20,49,295!2024-07-17,44,295!2024-08-08,65,315-->
 

@@ -63,7 +63,7 @@ return await memorize_seq(
 - _(begin)_→:::←air pollution <!--SR:!2024-07-29,53,310!2024-07-28,52,310-->
 - air pollution→:::←land contamination <!--SR:!2024-09-23,82,270!2024-08-03,58,310-->
 - land contamination→:::←noise pollution <!--SR:!2024-07-28,19,270!2024-09-03,68,270-->
-- noise pollution→:::←solid waste disposal <!--SR:!2024-09-16,76,270!2024-07-15,42,290-->
+- noise pollution→:::←solid waste disposal <!--SR:!2024-09-16,76,270!2024-11-18,126,290-->
 - solid waste disposal→:::←water pollution <!--SR:!2024-07-25,48,290!2024-07-16,8,210-->
 - water pollution→:::←_(end)_ <!--SR:!2024-07-24,49,310!2024-07-17,43,290-->
 
@@ -100,7 +100,7 @@ return await memorize_seq(
 
 - _(begin)_→:::←(Cap. 311) Air Pollution Control Ordinance <!--SR:!2024-07-21,7,255!2024-09-29,84,355-->
 - (Cap. 311) Air Pollution Control Ordinance→:::←(Cap. 354) Waste Disposal Ordinance <!--SR:!2024-07-25,11,275!2024-07-17,10,315-->
-- (Cap. 354) Waste Disposal Ordinance→:::←(Cap. 358) Water Pollution Control Ordinance <!--SR:!2024-07-15,20,295!2024-07-16,9,315-->
+- (Cap. 354) Waste Disposal Ordinance→:::←(Cap. 358) Water Pollution Control Ordinance <!--SR:!2024-09-08,55,295!2024-07-16,9,315-->
 - (Cap. 358) Water Pollution Control Ordinance→:::←(Cap. 400) Noise Pollution Control Ordinance <!--SR:!2024-07-16,13,275!2024-07-22,26,295-->
 - (Cap. 400) Noise Pollution Control Ordinance→:::←(Cap. 499) Environmental Impact Ordinance <!--SR:!2024-07-22,17,295!2024-08-15,44,315-->
 - (Cap. 499) Environmental Impact Ordinance→:::←_(end)_ <!--SR:!2024-10-02,87,355!2024-10-07,92,355-->
@@ -391,9 +391,9 @@ return await memorize_seq(
 
 - _(begin)_→:::←carbon dioxide (CO<sub>2</sub>) <!--SR:!2024-08-09,62,310!2024-08-10,63,310-->
 - carbon dioxide (CO<sub>2</sub>)→:::←hydroflurocarbons (HFCs) <!--SR:!2024-07-22,34,230!2024-09-25,83,270-->
-- hydroflurocarbons (HFCs)→:::←methane (CH<sub>4</sub>) <!--SR:!2024-07-15,37,270!2024-09-25,73,230-->
+- hydroflurocarbons (HFCs)→:::←methane (CH<sub>4</sub>) <!--SR:!2024-10-22,99,270!2024-09-25,73,230-->
 - methane (CH<sub>4</sub>)→:::←nitrous oxide (N<sub>2</sub>O) <!--SR:!2024-07-24,36,250!2024-07-26,47,290-->
-- nitrous oxide (N<sub>2</sub>O)→:::←perflurocarbons (PFCs) <!--SR:!2024-07-26,24,230!2024-07-15,4,170-->
+- nitrous oxide (N<sub>2</sub>O)→:::←perflurocarbons (PFCs) <!--SR:!2024-07-26,24,230!2024-07-22,7,170-->
 - perflurocarbons (PFCs)→:::←sulfur hexafluoride (SF<sub>6</sub>) <!--SR:!2024-07-29,50,290!2024-09-06,69,270-->
 - sulfur hexafluoride (SF<sub>6</sub>)→:::←_(end)_ <!--SR:!2024-08-09,62,310!2024-08-20,72,310-->
 

@@ -162,7 +162,7 @@ Example quiz questions for preparing exams.
 > 3. High concentration of BOD increases the solubility and toxicity of metals in water body
 > 4. High concentration of BOD leads to the algae bloom
 >
-> - solution: {{2}} <!--SR:!2024-07-15,41,292-->
+> - solution: {{2}} <!--SR:!2024-11-08,116,292-->
 
 <!-- markdownlint MD028 -->
 
@@ -188,7 +188,7 @@ Example quiz questions for preparing exams.
 > 3. When the distance away from a point source reduces by half, the sound level increases by 6 dB
 > 4. When the sound pressure increases 100 times, the sound level increases by 10 dB
 >
-> - solution: {{3}} <!--SR:!2024-07-15,38,292-->
+> - solution: {{3}} <!--SR:!2024-11-01,109,292-->
 
 <!-- markdownlint MD028 -->
 
@@ -253,7 +253,7 @@ Example quiz questions for preparing exams.
 > 3. Buildings
 > 4. Transportation
 >
-> - solution: {{3}} <!--SR:!2024-07-15,38,292-->
+> - solution: {{3}} <!--SR:!2024-12-13,151,312-->
 
 ## geotechnical engineering quiz 1
 

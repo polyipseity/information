@@ -9,7 +9,7 @@ tags:
 
 # flat Earth
 
-__Flat Earth__ is {{an archaic and scientifically disproven conception of the [Earth's shape](figure%20of%20the%20Earth.md) as a [plane](Euclidean%20plane.md) or [disk](disk%20(mathematics).md)}}. Many ancient cultures subscribed to {{a flat-Earth cosmography, notably including [ancient near eastern cosmology](ancient%20near%20eastern%20cosmology.md)}}. The model has {{undergone a [recent resurgence](modern%20flat%20Earth%20beliefs.md) as a [conspiracy theory](conspiracy%20theory.md)}}. <!--SR:!2024-09-01,49,310!2024-07-15,15,290!2024-07-16,16,290-->
+__Flat Earth__ is {{an archaic and scientifically disproven conception of the [Earth's shape](figure%20of%20the%20Earth.md) as a [plane](Euclidean%20plane.md) or [disk](disk%20(mathematics).md)}}. Many ancient cultures subscribed to {{a flat-Earth cosmography, notably including [ancient near eastern cosmology](ancient%20near%20eastern%20cosmology.md)}}. The model has {{undergone a [recent resurgence](modern%20flat%20Earth%20beliefs.md) as a [conspiracy theory](conspiracy%20theory.md)}}. <!--SR:!2024-09-01,49,310!2024-09-13,60,310!2024-07-16,16,290-->
 
 ## history
 
