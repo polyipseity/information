@@ -1,6 +1,6 @@
 # -*- coding: UTF-8 -*-
-from asyncio import run
 from anyio import Path
+from asyncio import run
 from pyperclip import copy
 from re import compile, escape
 
@@ -10,8 +10,9 @@ async def main() -> None:
 
     template = await Path(__file__).with_suffix(".md.txt").read_text()
 
+    tag_replacements = {"–": "-", "—": "-"}
     tag_name = compile(r"[^A-Za-z0-9_/-]").sub(
-        "_", name
+        lambda match: tag_replacements.get(match[0], "_"), name
     )  # https://help.obsidian.md/Editing+and+formatting/Tags#Tag+format
     if not tag_name or tag_name.isnumeric():
         tag_name += "_"
