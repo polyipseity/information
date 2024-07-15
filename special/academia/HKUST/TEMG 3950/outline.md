@@ -93,7 +93,7 @@ The content is in teaching order.
 
 - time: 2024-03-05T18:00:00+08:00/2024-03-05T20:30:00+08:00
 - product innovation success first step ::: Identification of the _real_ problem: If your project does not work, you have not found the real needs of your customers. <!--SR:!2024-10-19,108,295!2025-01-23,193,335-->
-- jobs to be done theory history ::: Alex Osterwalder adopted the idea from Prof. Clayton Christensen of Harvard University. <!--SR:!2024-10-24,114,295!2024-07-15,47,315-->
+- jobs to be done theory history ::: Alex Osterwalder adopted the idea from Prof. Clayton Christensen of Harvard University. <!--SR:!2024-10-24,114,295!2024-12-09,147,315-->
 - [value proposition canvas](../../../value%20proposition%20canvas.md)
   - [§ customer profile](../../../value%20proposition%20canvas.md#customer%20profile)
     - filling in a customer profile ::: customer segmentation, then empathy map, then customer profile <!--SR:!2024-09-03,78,295!2024-08-02,64,335-->
@@ -151,7 +151,7 @@ The content is in teaching order.
 - [information § part 2: case analysis](information.md#part%202%20case%20analysis)
 - thinking processes ::: deduction, evaluation, inference, interpretation <!--SR:!2024-08-24,60,341!2024-08-20,56,341-->
   - deduction ::: application; arrive at conclusions based on given premises and rules <!--SR:!2024-08-30,65,341!2024-09-20,85,361-->
-  - evaluation ::: unbiased, unemotional; systematically assess, determine, or examine the effectiveness, quality, or value of something <!--SR:!2024-07-15,29,301!2024-10-02,96,361-->
+  - evaluation ::: unbiased, unemotional; systematically assess, determine, or examine the effectiveness, quality, or value of something <!--SR:!2024-10-09,86,301!2024-10-02,96,361-->
   - inference ::: generalize; draw rules or predictions based on observed examples <!--SR:!2024-09-24,89,361!2024-09-21,86,361-->
   - interpretation ::: explain or understand meaning, implications, or significance of something <!--SR:!2024-08-17,46,301!2024-09-21,86,361-->
 - critical thinking pop quiz
@@ -264,7 +264,7 @@ The content is in teaching order.
   - [§ background](../../../profitability%20framework.md#background)
   - [§ usage](../../../profitability%20framework.md#usage)
   - abbreviations
-    - R&D ::: research & development <!--SR:!2024-07-15,26,370!2024-07-22,32,370-->
+    - R&D ::: research & development <!--SR:!2024-11-25,133,390!2024-07-22,32,370-->
     - S&M ::: sales & marketing <!--SR:!2024-07-23,33,370!2024-10-30,111,390-->
     - G&A ::: general & administration <!--SR:!2024-10-22,103,390!2024-11-09,118,390-->
     - CAGR ::: compound average growth rate; $$\text{CAGR} = \left(\frac {V_{\text{end} } } {V_{\text{start} } } \right)^{\frac 1 t} - 1$$ <!--SR:!2024-09-15,74,370!2024-11-08,117,390-->

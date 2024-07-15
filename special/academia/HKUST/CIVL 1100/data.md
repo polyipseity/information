@@ -85,7 +85,7 @@ See [Central Plaza (Hong Kong)](../../../../general/Central%20Plaza%20(Hong%20Ko
 See [Channel Tunnel](../../../../general/Channel%20Tunnel.md).
 
 - completion time ::: 1994 <!--SR:!2024-07-27,18,336!2024-10-10,110,376-->
-- rail tunnel length ::: 50.5 km (37.9 km underseas) <!--SR:!2024-07-15,13,296!2024-10-20,125,396-->
+- rail tunnel length ::: 50.5 km (37.9 km underseas) <!--SR:!2024-07-23,8,276!2024-10-20,125,396-->
 
 ## China International Trust and Investment Plaza
 
@@ -135,7 +135,7 @@ See [Great Pyramid of Giza](../../../../general/Great%20Pyramid%20of%20Giza.md).
 - base width ::: 230.33 m <!--SR:!2024-10-17,114,376!2024-11-03,137,396-->
 - construction period ::: 10~20 years around 2560 BC <!--SR:!2024-07-28,14,256!2024-10-14,120,396-->
 - description ::: largest pyramid in the Giza Necropolis, Egypt <!--SR:!2024-10-05,112,396!2024-10-31,134,396-->
-- height ::: current: 138.5 m, original: 146.6 m <!--SR:!2024-07-15,40,356!2024-11-02,136,396-->
+- height ::: current: 138.5 m, original: 146.6 m <!--SR:!2024-12-03,141,356!2024-11-02,136,396-->
 - weight ::: 5.9 million tonnes <!--SR:!2024-09-14,89,376!2024-11-10,142,396-->
 - tomb for ::: Egypt's 4th dynasty pharaoh Khufu <!--SR:!2024-10-21,118,376!2024-08-16,70,376-->
 

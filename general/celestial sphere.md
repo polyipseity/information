@@ -9,9 +9,9 @@ tags:
 
 # celestial sphere
 
-In [astronomy](astronomy.md) and [navigation](navigation.md), the __celestial sphere__ is {{an [abstract](abstraction.md) [sphere](sphere.md) that has an arbitrarily large [radius](radius.md) and is [concentric](concentric%20objects.md) to [Earth](Earth.md)}}. <!--SR:!2024-07-15,13,270-->
+In [astronomy](astronomy.md) and [navigation](navigation.md), the __celestial sphere__ is {{an [abstract](abstraction.md) [sphere](sphere.md) that has an arbitrarily large [radius](radius.md) and is [concentric](concentric%20objects.md) to [Earth](Earth.md)}}. <!--SR:!2024-09-01,48,290-->
 
-{{The [celestial equator](celestial%20equator.md)}} divides the celestial sphere into {{[northern](northern%20celestial%20sphere.md) and [southern](southern%20celestial%20sphere.md) celestial spheres}}. Their centers are respectively {{the north and south [celestial pole](celestial%20pole.md)}}. {{The position of the [Sun](Sun.md)}} on the celestial sphere over a year is {{the [ecliptic](ecliptic.md)}}. <!--SR:!2024-07-17,15,290!2024-07-15,13,270!2024-07-15,13,290!2024-07-17,15,290!2024-07-18,16,290-->
+{{The [celestial equator](celestial%20equator.md)}} divides the celestial sphere into {{[northern](northern%20celestial%20sphere.md) and [southern](southern%20celestial%20sphere.md) celestial spheres}}. Their centers are respectively {{the north and south [celestial pole](celestial%20pole.md)}}. {{The position of the [Sun](Sun.md)}} on the celestial sphere over a year is {{the [ecliptic](ecliptic.md)}}. <!--SR:!2024-07-17,15,290!2024-08-30,46,290!2024-09-09,56,310!2024-07-17,15,290!2024-07-18,16,290-->
 
 ## description
 

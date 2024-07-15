@@ -53,11 +53,11 @@ return await memorize_seq(
 
 - _(begin)_→:::←(center) [Sun](Sun.md) <!--SR:!2024-09-04,52,310!2024-08-20,42,290-->
 - (center) [Sun](Sun.md)→:::←[Mercury](Mercury%20(planet).md) <!--SR:!2024-07-17,17,290!2024-07-17,17,290-->
-- [Mercury](Mercury%20(planet).md)→:::←[Venus](Venus.md) <!--SR:!2024-07-15,15,290!2024-08-25,45,290-->
+- [Mercury](Mercury%20(planet).md)→:::←[Venus](Venus.md) <!--SR:!2024-08-27,43,290!2024-08-25,45,290-->
 - [Venus](Venus.md)→:::←[Earth](Earth.md), with the [Moon](Moon.md) orbiting around it <!--SR:!2024-08-23,40,290!2024-07-16,16,290-->
-- [Earth](Earth.md), with the [Moon](Moon.md) orbiting around it→:::←[Mars](Mars.md) <!--SR:!2024-07-15,15,290!2024-08-15,32,270-->
+- [Earth](Earth.md), with the [Moon](Moon.md) orbiting around it→:::←[Mars](Mars.md) <!--SR:!2024-09-14,61,310!2024-08-15,32,270-->
 - [Mars](Mars.md)→:::←[Jupiter](Jupiter.md) <!--SR:!2024-07-17,17,290!2024-08-21,38,290-->
-- [Jupiter](Jupiter.md)→:::←[Saturn](Saturn.md) <!--SR:!2024-08-15,37,290!2024-07-15,15,290-->
+- [Jupiter](Jupiter.md)→:::←[Saturn](Saturn.md) <!--SR:!2024-08-15,37,290!2024-09-15,62,310-->
 - [Saturn](Saturn.md)→:::←[fixed stars](fixed%20stars.md) <!--SR:!2024-07-16,16,290!2024-07-17,17,290-->
 - [fixed stars](fixed%20stars.md)→:::←_(end)_ <!--SR:!2024-09-07,55,310!2024-09-05,53,310-->
 

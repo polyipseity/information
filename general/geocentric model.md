@@ -19,7 +19,7 @@ tags:
 
 ## Ancient Greece
 
-In {{the 4th century BC}}, two influential Greek philosophers, {{[Plato](Plato.md) and his student [Aristotle](Aristotle.md)}}, wrote works {{based on the geocentric model}}. <!--SR:!2024-07-15,4,260!2024-07-27,18,320!2024-07-26,17,320-->
+In {{the 4th century BC}}, two influential Greek philosophers, {{[Plato](Plato.md) and his student [Aristotle](Aristotle.md)}}, wrote works {{based on the geocentric model}}. <!--SR:!2024-07-27,12,260!2024-07-27,18,320!2024-07-26,17,320-->
 
 ## Ptolemaic model
 
@@ -27,7 +27,7 @@ Although {{the basic tenets of Greek geocentrism were established by the time of
 
 ### Ptolemaic system
 
-In the Ptolemaic system, each planet is {{moved by a system of [_deferent_ and _epicycle_](deferent%20and%20epicycle.md), along with an _eccentric_}}. The {{eccentric}} is {{a point distant from [Earth](Earth.md)}}. The {{deferent}} is {{a [celestial sphere](celestial%20sphere.md), represented by a thick circle and whose center is the eccentric}}. The {{epicycle}} is {{another celestial sphere embedded in the deferent sphere, represented by a smaller circle embedded in the deferent sphere}}. A given planet {{moves along the circular path marked by the epicycle}} at the same time {{the epicycle moves along the circular path marked by the deferent}}, both {{eastwards}}. <!--SR:!2024-08-25,42,290!2024-07-15,15,290!2024-07-16,16,290!2024-09-01,50,310!2024-09-02,51,310!2024-07-16,16,290!2024-08-02,26,270!2024-09-10,58,310!2024-07-15,15,290!2024-08-28,46,290-->
+In the Ptolemaic system, each planet is {{moved by a system of [_deferent_ and _epicycle_](deferent%20and%20epicycle.md), along with an _eccentric_}}. The {{eccentric}} is {{a point distant from [Earth](Earth.md)}}. The {{deferent}} is {{a [celestial sphere](celestial%20sphere.md), represented by a thick circle and whose center is the eccentric}}. The {{epicycle}} is {{another celestial sphere embedded in the deferent sphere, represented by a smaller circle embedded in the deferent sphere}}. A given planet {{moves along the circular path marked by the epicycle}} at the same time {{the epicycle moves along the circular path marked by the deferent}}, both {{eastwards}}. <!--SR:!2024-08-25,42,290!2024-09-09,56,310!2024-07-16,16,290!2024-09-01,50,310!2024-09-02,51,310!2024-07-16,16,290!2024-08-02,26,270!2024-09-10,58,310!2024-08-25,41,290!2024-08-28,46,290-->
 
 The Ptolemaic order of spheres {{from [Earth](Earth.md) outward}} is: <!--SR:!2024-09-07,56,310-->
 
@@ -67,14 +67,14 @@ return await memorize_seq(
 
 <!--pytextgen generate section="dbad"--><!-- The following content is generated at 2024-06-25T18:12:42.998219+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←(near center) [Earth](Earth.md) <!--SR:!2024-07-15,15,290!2024-07-16,16,290-->
+- _(begin)_→:::←(near center) [Earth](Earth.md) <!--SR:!2024-09-09,56,310!2024-07-16,16,290-->
 - (near center) [Earth](Earth.md)→:::←[Moon](Moon.md) <!--SR:!2024-09-04,52,310!2024-07-17,17,290-->
-- [Moon](Moon.md)→:::←[Mercury](Mercury%20(planet).md) <!--SR:!2024-08-27,44,290!2024-07-15,15,290-->
+- [Moon](Moon.md)→:::←[Mercury](Mercury%20(planet).md) <!--SR:!2024-08-27,44,290!2024-09-13,60,310-->
 - [Mercury](Mercury%20(planet).md)→:::←[Venus](Venus.md) <!--SR:!2024-09-09,57,310!2024-07-17,17,290-->
 - [Venus](Venus.md)→:::←[Sun](Sun.md) <!--SR:!2024-07-30,23,250!2024-07-17,17,290-->
-- [Sun](Sun.md)→:::←[Mars](Mars.md) <!--SR:!2024-07-15,15,290!2024-07-15,15,290-->
+- [Sun](Sun.md)→:::←[Mars](Mars.md) <!--SR:!2024-09-10,57,310!2024-09-14,61,310-->
 - [Mars](Mars.md)→:::←[Jupiter](Jupiter.md) <!--SR:!2024-08-24,44,290!2024-07-17,17,290-->
-- [Jupiter](Jupiter.md)→:::←[Saturn](Saturn.md) <!--SR:!2024-08-13,35,290!2024-07-15,15,290-->
+- [Jupiter](Jupiter.md)→:::←[Saturn](Saturn.md) <!--SR:!2024-08-13,35,290!2024-08-30,46,290-->
 - [Saturn](Saturn.md)→:::←[fixed stars](fixed%20stars.md) <!--SR:!2024-09-08,56,310!2024-07-17,17,290-->
 - [fixed stars](fixed%20stars.md)→:::←[_Primum Mobile_](Primum%20Mobile.md) ("first moveable"), outermost [celestial sphere](celestial%20sphere.md) <!--SR:!2024-07-16,16,290!2024-07-17,17,290-->
 - [_Primum Mobile_](Primum%20Mobile.md) ("first moveable"), outermost [celestial sphere](celestial%20sphere.md)→:::←_(end)_ <!--SR:!2024-09-09,57,310!2024-08-17,35,290-->

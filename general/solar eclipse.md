@@ -32,7 +32,7 @@ There are {{three main types of solar eclipses: [total eclipse](#total%20eclipse
 
 ### total eclipse
 
-A total eclipse occurs on average {{every 18 months}} when {{the dark silhouette of the [Moon](Moon.md) completely obscures the bright light of the [Sun](Sun.md)}}, allowing {{the much fainter [solar corona](stellar%20corona.md) to be visible}}. During an eclipse, totality occurs {{only along a narrow track on the surface of Earth. This narrow track is called the path of totality}}. <!--SR:!2024-07-25,16,290!2024-07-15,7,250!2024-07-24,15,290!2024-07-22,13,290-->
+A total eclipse occurs on average {{every 18 months}} when {{the dark silhouette of the [Moon](Moon.md) completely obscures the bright light of the [Sun](Sun.md)}}, allowing {{the much fainter [solar corona](stellar%20corona.md) to be visible}}. During an eclipse, totality occurs {{only along a narrow track on the surface of Earth. This narrow track is called the path of totality}}. <!--SR:!2024-07-25,16,290!2024-08-01,17,250!2024-07-24,15,290!2024-07-22,13,290-->
 
 ### annular eclipse
 
@@ -87,7 +87,7 @@ fourth contact: When the trailing edge of the [Moon](Moon.md) ceases to overlap 
 
 ### path
 
-During a central eclipse, the [Moon](Moon.md)'s {{[umbra](umbra,%20penumbra%20and%20antumbra.md#umbra) (or [antumbra](umbra,%20penumbra%20and%20antumbra.md#antumbra), in the case of an [annular eclipse](#annular%20eclipse)) moves rapidly from [west](west.md) to [east](east.md) across [Earth](Earth.md)}}. Earth is also {{[rotating](rotation.md) from west to east, at about 28 km/min at the [equator](equator.md)}}, but as the Moon is {{moving in the same direction as Earth's rotation at about 61 km/min}}, the umbra almost always appears to {{move in a roughly west–east direction across a map of Earth at the speed of the Moon's orbital velocity minus Earth's rotational velocity}}. This also means standing on a location on Earth, the [Sun](Sun.md) {{appears to enter the [Moon](Moon.md) from the east}}, as {{the [Moon](Moon.md) moves westward in the sky slower than the [Sun](Sun.md) due to the Moon's orbital velocity}}. <!--SR:!2024-07-20,12,270!2024-07-20,11,270!2024-07-15,7,250!2024-07-19,10,270!2024-07-18,9,270!2024-07-17,9,270-->
+During a central eclipse, the [Moon](Moon.md)'s {{[umbra](umbra,%20penumbra%20and%20antumbra.md#umbra) (or [antumbra](umbra,%20penumbra%20and%20antumbra.md#antumbra), in the case of an [annular eclipse](#annular%20eclipse)) moves rapidly from [west](west.md) to [east](east.md) across [Earth](Earth.md)}}. Earth is also {{[rotating](rotation.md) from west to east, at about 28 km/min at the [equator](equator.md)}}, but as the Moon is {{moving in the same direction as Earth's rotation at about 61 km/min}}, the umbra almost always appears to {{move in a roughly west–east direction across a map of Earth at the speed of the Moon's orbital velocity minus Earth's rotational velocity}}. This also means standing on a location on Earth, the [Sun](Sun.md) {{appears to enter the [Moon](Moon.md) from the east}}, as {{the [Moon](Moon.md) moves westward in the sky slower than the [Sun](Sun.md) due to the Moon's orbital velocity}}. <!--SR:!2024-07-20,12,270!2024-07-20,11,270!2024-07-31,16,250!2024-07-19,10,270!2024-07-18,9,270!2024-07-17,9,270-->
 
 ## references
 

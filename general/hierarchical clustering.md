@@ -23,7 +23,7 @@ The merges and splits are {{usually [greedy](greedy%20algorithm.md)}}. The resul
 
 To determine the distance between two observations, {{a _[metric](metric%20(mathematics).md)_, usually the [Euclidean distance](Euclidean%20distance.md)}} is needed. To decide how to merge or split clusters, {{a measure of _dissimilarity_ between clusters}} is required. The metric is {{insufficient, and a linkage criterion is also needed, which specifies the _dissimilarity_ of clusters as a function of the pairwise distances of observations in the clusters, or a function of the properties of the clusters before being combined}}. <!--SR:!2025-04-25,291,335!2024-11-06,155,315!2024-09-11,110,295-->
 
-Both the choice of the metric and the linkage criterion {{affects the clustering results significantly}}. The metric affects {{which observations are similar}} more, while the linkage affects {{the cluster shapes}} more. <!--SR:!2024-10-29,135,295!2024-10-03,126,295!2024-07-15,74,315-->
+Both the choice of the metric and the linkage criterion {{affects the clustering results significantly}}. The metric affects {{which observations are similar}} more, while the linkage affects {{the cluster shapes}} more. <!--SR:!2024-10-29,135,295!2024-10-03,126,295!2025-06-01,321,335-->
 
 Some commonly used linkage criterion given two clusters _A_ and _B_ and a _[distance](distance.md)_ function $d$ are:
 
@@ -75,7 +75,7 @@ return chain.from_iterable(await gather(
 <!--pytextgen generate section="c471"--><!-- The following content is generated at 2024-03-25T02:33:59.339528+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←[Ward's method](Ward's%20method.md) <!--SR:!2025-04-30,295,335!2025-05-04,299,335-->
-- [Ward's method](Ward's%20method.md)→:::←centroid linkage clustering <!--SR:!2024-07-15,56,275!2025-01-21,212,315-->
+- [Ward's method](Ward's%20method.md)→:::←centroid linkage clustering <!--SR:!2024-12-15,153,275!2025-01-21,212,315-->
 - centroid linkage clustering→:::←[complete-linkage clustering](complete-linkage%20clustering.md) <!--SR:!2024-10-09,131,295!2024-08-27,87,275-->
 - [complete-linkage clustering](complete-linkage%20clustering.md)→:::←median linkage clustering <!--SR:!2024-08-05,74,275!2024-09-13,93,255-->
 - median linkage clustering→:::←[single-linkage clustering](single-linkage%20clustering.md) <!--SR:!2024-08-29,90,275!2024-10-22,141,295-->
@@ -115,7 +115,7 @@ return chain.from_iterable(await gather(
 
 <!--pytextgen generate section="0196"--><!-- The following content is generated at 2024-04-12T10:15:07.434836+08:00. Any edits will be overridden! -->
 
-- [Ward's method](Ward's%20method.md)::$d(A, B) = \frac {\lvert A \rvert \cdot \lvert B \rvert} {\lvert A \cup B \rvert} \lVert \mu_A - \mu_B \rVert^2 = \sum_{x \in A \cup B} \lVert x - \mu_{A \cup B} \rVert^2 - \sum_{x \in A} \lVert x - \mu_A \rVert^2 - \sum_{x \in B} \lVert x - \mu_B \rVert^2$, where $\mu_*$ is the [centroid](centroid.md) of the cluster $*$ <!--SR:!2024-07-15,60,275-->
+- [Ward's method](Ward's%20method.md)::$d(A, B) = \frac {\lvert A \rvert \cdot \lvert B \rvert} {\lvert A \cup B \rvert} \lVert \mu_A - \mu_B \rVert^2 = \sum_{x \in A \cup B} \lVert x - \mu_{A \cup B} \rVert^2 - \sum_{x \in A} \lVert x - \mu_A \rVert^2 - \sum_{x \in B} \lVert x - \mu_B \rVert^2$, where $\mu_*$ is the [centroid](centroid.md) of the cluster $*$ <!--SR:!2024-12-26,164,275-->
 - centroid linkage clustering::$d(A, B) = \lVert \mu_A - \mu_B \rVert^2$, where $\mu_*$ is the [centroid](centroid.md) of the cluster $*$ <!--SR:!2024-09-27,114,295-->
 - [complete-linkage clustering](complete-linkage%20clustering.md)::$d(A, B) = \max_{a \in A, b \in B} d(a, b)$ <!--SR:!2025-03-06,252,335-->
 - median linkage clustering::$d(A \cup B, *) = d\left( \frac {m_A + m_B} 2, m_* \right)$, where $m_*$ is the [medoid](medoid.md) of the cluster $*$ <!--SR:!2024-09-10,100,275-->

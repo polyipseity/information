@@ -280,7 +280,7 @@ workmanship
 - _(begin)_→:::←budgeting <!--SR:!2025-01-11,187,341!2024-09-06,105,380-->
 - budgeting→:::←construction management <!--SR:!2024-07-29,66,320!2024-08-30,98,335-->
 - construction management→:::←economics <!--SR:!2024-10-17,98,235!2024-08-21,81,300-->
-- economics→:::←impacts to surrounding <!--SR:!2024-08-09,71,300!2024-07-15,13,260-->
+- economics→:::←impacts to surrounding <!--SR:!2024-08-09,71,300!2024-07-20,5,240-->
 - impacts to surrounding→:::←lifecycle <!--SR:!2024-08-06,74,320!2024-08-22,82,320-->
 - lifecycle→:::←maintenance <!--SR:!2024-10-13,106,297!2024-08-08,74,312-->
 - maintenance→:::←politics <!--SR:!2024-07-17,32,261!2024-08-12,80,312-->
@@ -403,7 +403,7 @@ Water Cube
 - Beijing National Stadium→:::←Burj Al Arab <!--SR:!2024-08-23,87,304!2024-11-12,158,350-->
 - Burj Al Arab→:::←Burj Khalifa <!--SR:!2024-10-15,141,270!2024-12-22,190,352-->
 - Burj Khalifa→:::←CCTV Headquarters <!--SR:!2024-09-02,89,320!2024-08-12,95,270-->
-- CCTV Headquarters→:::←Eiffel Tower <!--SR:!2024-09-28,103,285!2024-07-15,52,292-->
+- CCTV Headquarters→:::←Eiffel Tower <!--SR:!2024-09-28,103,285!2024-12-11,149,292-->
 - Eiffel Tower→:::←Hong Kong Convention and Exhibition Centre <!--SR:!2024-10-13,114,294!2024-09-03,60,305-->
 - Hong Kong Convention and Exhibition Centre→:::←Water Cube <!--SR:!2024-08-29,61,317!2024-08-24,81,320-->
 - Water Cube→:::←_(end)_ <!--SR:!2024-08-06,83,381!2025-01-02,201,357-->
@@ -459,7 +459,7 @@ testing materials
 - logistics→:::←planning <!--SR:!2024-07-19,39,294!2024-09-28,120,335-->
 - planning→:::←procuring materials <!--SR:!2024-07-22,59,317!2024-08-10,65,277-->
 - procuring materials→:::←quality assurance <!--SR:!2024-08-02,58,300!2024-08-22,77,281-->
-- quality assurance→:::←quality control <!--SR:!2024-10-31,150,357!2024-07-15,52,352-->
+- quality assurance→:::←quality control <!--SR:!2024-10-31,150,357!2025-01-13,182,352-->
 - quality control→:::←safety engineering <!--SR:!2024-08-01,65,301!2024-07-23,9,255-->
 - safety engineering→:::←scheduling <!--SR:!2024-08-25,82,320!2024-10-01,120,340-->
 - scheduling→:::←surveying building site <!--SR:!2024-08-18,60,241!2024-10-16,116,300-->
@@ -741,7 +741,7 @@ tunnel
 <!--pytextgen generate section="11ab"--><!-- The following content is generated at 2024-05-01T19:22:35.163388+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←embankment <!--SR:!2024-10-03,112,320!2024-08-11,87,380-->
-- embankment→:::←pile foundation <!--SR:!2024-10-10,116,320!2024-07-15,61,360-->
+- embankment→:::←pile foundation <!--SR:!2024-10-10,116,320!2025-02-18,218,360-->
 - pile foundation→:::←shallow foundation <!--SR:!2024-07-17,54,317!2025-01-04,191,355-->
 - shallow foundation→:::←tunnel <!--SR:!2024-10-08,104,321!2024-07-21,10,212-->
 - tunnel→:::←_(end)_ <!--SR:!2025-01-15,195,350!2024-08-01,67,317-->
@@ -1102,7 +1102,7 @@ water tower
 - storage facility→:::←tunnel <!--SR:!2024-07-19,5,280!2024-09-01,89,320-->
 - tunnel→:::←unusual structure <!--SR:!2024-09-19,83,247!2024-10-17,121,320-->
 - unusual structure→:::←water tower <!--SR:!2024-07-24,13,290!2024-07-22,23,310-->
-- water tower→:::←_(end)_ <!--SR:!2024-08-14,93,367!2024-07-15,18,281-->
+- water tower→:::←_(end)_ <!--SR:!2024-08-14,93,367!2024-09-08,55,281-->
 
 <!--/pytextgen-->
 
@@ -1188,7 +1188,7 @@ water transport
 <!--pytextgen generate section="a928"--><!-- The following content is generated at 2024-05-01T23:30:35.177839+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←airport <!--SR:!2024-07-26,62,290!2024-08-03,84,375-->
-- airport→:::←bicycle path <!--SR:!2024-07-15,67,355!2024-09-03,102,337-->
+- airport→:::←bicycle path <!--SR:!2025-03-09,237,355!2024-09-03,102,337-->
 - bicycle path→:::←highway <!--SR:!2025-01-20,199,360!2024-07-16,64,360-->
 - highway→:::←pier <!--SR:!2024-10-06,114,320!2024-08-10,72,300-->
 - pier→:::←pipeline <!--SR:!2024-08-03,80,380!2024-07-25,62,314-->

@@ -11,7 +11,7 @@ tags:
 
 > {{![structure of sodium chloride](../archives/Wikimedia%20Commons/NaCl%20bonds.svg)}}
 >
-> {{structure of sodium chloride}} <!--SR:!2024-07-15,363,330!2024-07-16,364,330-->
+> {{structure of sodium chloride}} <!--SR:!2027-10-25,1197,330!2024-07-16,364,330-->
 
 ## references
 

@@ -19,7 +19,7 @@ tags:
 
 # HKUST PHYS 1002 questions
 
-The parenthesized text at the beginning of of each question is {{the location the question appears in}}. Questions beginning with `(derived)` are {{derived from other questions and only appear here}}. <!--SR:!2024-07-15,13,277!2024-08-30,47,297-->
+The parenthesized text at the beginning of of each question is {{the location the question appears in}}. Questions beginning with `(derived)` are {{derived from other questions and only appear here}}. <!--SR:!2024-09-04,51,297!2024-08-30,47,297-->
 
 ## 2024-06-18
 
@@ -141,7 +141,7 @@ The parenthesized text at the beginning of of each question is {{the location th
 > 6. 60 years
 >
 > - solution: {{2}}
-> - steps: {{Since the relative orbital motion between the planet and the satellite is prograde, apply the equation: $$\frac 1 {T_\text{syn} } = \frac 1 {T_1} - \frac 1 {T_2} \quad T_1 < T_2$$. Thus we have $T_\text{syn} = \frac 1 {\frac 1 {T_1} - \frac 1 {T_2} } = \frac 1 {\frac 1 {69} - \frac 1 {420} } \approx 82.564\,1026 \approx 83\text{ years}$.}} <!--SR:!2024-07-15,7,270!2024-07-29,15,270-->
+> - steps: {{Since the relative orbital motion between the planet and the satellite is prograde, apply the equation: $$\frac 1 {T_\text{syn} } = \frac 1 {T_1} - \frac 1 {T_2} \quad T_1 < T_2$$. Thus we have $T_\text{syn} = \frac 1 {\frac 1 {T_1} - \frac 1 {T_2} } = \frac 1 {\frac 1 {69} - \frac 1 {420} } \approx 82.564\,1026 \approx 83\text{ years}$.}} <!--SR:!2024-08-01,17,270!2024-07-29,15,270-->
 
 <!-- markdownlint MD028 -->
 
