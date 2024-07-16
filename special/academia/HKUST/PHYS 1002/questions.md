@@ -39,7 +39,7 @@ The parenthesized text at the beginning of of each question is {{the location th
 > 4. smaller for more distant objects
 > 5. larger for nearer objects
 >
-> - solution: {{3}} <!--SR:!2024-07-16,16,290-->
+> - solution: {{3}} <!--SR:!2024-08-28,43,290-->
 
 <!-- markdownlint MD028 -->
 

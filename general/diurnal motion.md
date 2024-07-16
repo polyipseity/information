@@ -13,7 +13,7 @@ tags:
 
 ## relative motion
 
-The relative motion of diurnal motion depends {{on the [latitude](latitude.md) but not the [longitude](longitude.md)}}. The latter only affects {{the time we see the [stars](star.md)}}. Stars that {{do not set below the [horizon](horizon.md)}} are called {{[circumpolar stars](circumpolar%20star.md)}}. <!--SR:!2024-07-17,15,297!2024-07-18,16,297!2024-07-16,14,297!2024-08-28,45,297-->
+The relative motion of diurnal motion depends {{on the [latitude](latitude.md) but not the [longitude](longitude.md)}}. The latter only affects {{the time we see the [stars](star.md)}}. Stars that {{do not set below the [horizon](horizon.md)}} are called {{[circumpolar stars](circumpolar%20star.md)}}. <!--SR:!2024-07-17,15,297!2024-07-18,16,297!2024-09-15,61,317!2024-08-28,45,297-->
 
 From {{the [Northern celestial sphere](Northern%20celestial%20sphere.md)}}, the [stars](star.md) moves {{[counterclockwise](clockwise.md) around [Polaris](Polaris.md), the North [pole star](pole%20star.md)}}. At the [North Pole](North%20Pole.md), all the [stars](star.md) can also be described as {{moving right as Polaris is around the [zenith](zenith.md)}}. <!--SR:!2024-08-19,36,277!2024-07-18,16,297!2024-08-20,37,277-->
 

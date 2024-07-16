@@ -30,7 +30,7 @@ The content is in teaching order.
 - [buyer utility map](../../../buyer%20utility%20map.md)
 - [_Blue Ocean Strategy_ § concept](../../../../general/Blue%20Ocean%20Strategy.md#concept)
   - blue ocean strategy example ::: [inventing the air fryer from observing French fries](../../../examples/inventing%20the%20air%20fryer%20from%20observing%20French%20fries.md) <!--SR:!2024-09-23,112,290!2025-01-05,182,310-->
-- International Business Plan Competition ::: IBPC <!--SR:!2025-02-22,234,330!2024-07-16,66,310-->
+- International Business Plan Competition ::: IBPC <!--SR:!2025-02-22,234,330!2025-04-24,282,330-->
 - transferrable technology ::: Technology that can potentially target multiple market segments. <!--SR:!2025-04-09,269,330!2025-01-04,181,310-->
 - reading assignment: [IBM prioritization grid](../../../IBM%20prioritization%20grid.md), [market segmentation](../../../market%20segmentation.md)
 - [assignment W2](assignment%20W2/assignment%20W2.md)
@@ -212,7 +212,7 @@ The content is in teaching order.
 - cause mapping notation (at least for this course)
   - cause mapping + MECE dimensions ::: Choose a MECE framework. For one of the causes, split the further causes by MECE dimensions. Label the further causes by their corresponding dimensions. Explain why, if some dimensions are irrelevant and thus has no further causes. <!--SR:!2024-09-28,79,321!2024-09-07,71,341-->
   - cause mapping § arrow direction ::: cause to effect <!--SR:!2024-09-14,80,361!2024-09-17,83,361-->
-  - cause mapping § evidences ::: below the cause, pink background <!--SR:!2024-07-16,29,321!2024-09-03,67,341-->
+  - cause mapping § evidences ::: below the cause, pink background <!--SR:!2024-10-16,92,321!2024-09-03,67,341-->
   - cause mapping § operators ::: AND, OR <!--SR:!2024-09-29,93,361!2024-09-07,74,361-->
   - cause mapping § solutions ::: above the cause, green background <!--SR:!2024-08-26,62,341!2024-09-01,65,341-->
   - cause mapping § symptom ::: red background <!--SR:!2024-09-22,87,361!2024-10-02,96,361-->

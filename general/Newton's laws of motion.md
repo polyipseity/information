@@ -23,7 +23,7 @@ __Newton's laws of motion__ are {{three [physical laws](scientific%20law.md) tha
 
 ### first law
 
-Newton's first law expresses {{the principle of [inertia](inertia.md): the natural behavior of a body is to move in a straight line at constant [speed](speed.md)}}. <!--SR:!2024-07-16,1,230-->
+Newton's first law expresses {{the principle of [inertia](inertia.md): the natural behavior of a body is to move in a straight line at constant [speed](speed.md)}}. <!--SR:!2024-07-18,2,230-->
 
 ### second law
 
@@ -31,7 +31,7 @@ In modern notation, the [momentum](momentum.md) of a body is {{the product of it
 
 ### third law
 
-Newton's third law relates to {{a more fundamental principle, the [conservation of momentum](momentum.md#conservation)}}. <!--SR:!2024-07-16,1,230-->
+Newton's third law relates to {{a more fundamental principle, the [conservation of momentum](momentum.md#conservation)}}. <!--SR:!2024-07-19,3,250-->
 
 ## references
 
