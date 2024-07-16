@@ -64,7 +64,7 @@ return await memorize_seq(
 - air pollution→:::←land contamination <!--SR:!2024-09-23,82,270!2024-08-03,58,310-->
 - land contamination→:::←noise pollution <!--SR:!2024-07-28,19,270!2024-09-03,68,270-->
 - noise pollution→:::←solid waste disposal <!--SR:!2024-09-16,76,270!2024-11-18,126,290-->
-- solid waste disposal→:::←water pollution <!--SR:!2024-07-25,48,290!2024-07-16,8,210-->
+- solid waste disposal→:::←water pollution <!--SR:!2024-07-25,48,290!2024-07-31,15,210-->
 - water pollution→:::←_(end)_ <!--SR:!2024-07-24,49,310!2024-07-17,43,290-->
 
 <!--/pytextgen-->
@@ -100,8 +100,8 @@ return await memorize_seq(
 
 - _(begin)_→:::←(Cap. 311) Air Pollution Control Ordinance <!--SR:!2024-07-21,7,255!2024-09-29,84,355-->
 - (Cap. 311) Air Pollution Control Ordinance→:::←(Cap. 354) Waste Disposal Ordinance <!--SR:!2024-07-25,11,275!2024-07-17,10,315-->
-- (Cap. 354) Waste Disposal Ordinance→:::←(Cap. 358) Water Pollution Control Ordinance <!--SR:!2024-09-08,55,295!2024-07-16,9,315-->
-- (Cap. 358) Water Pollution Control Ordinance→:::←(Cap. 400) Noise Pollution Control Ordinance <!--SR:!2024-07-16,13,275!2024-07-22,26,295-->
+- (Cap. 354) Waste Disposal Ordinance→:::←(Cap. 358) Water Pollution Control Ordinance <!--SR:!2024-09-08,55,295!2024-08-12,27,315-->
+- (Cap. 358) Water Pollution Control Ordinance→:::←(Cap. 400) Noise Pollution Control Ordinance <!--SR:!2024-08-21,36,275!2024-07-22,26,295-->
 - (Cap. 400) Noise Pollution Control Ordinance→:::←(Cap. 499) Environmental Impact Ordinance <!--SR:!2024-07-22,17,295!2024-08-15,44,315-->
 - (Cap. 499) Environmental Impact Ordinance→:::←_(end)_ <!--SR:!2024-10-02,87,355!2024-10-07,92,355-->
 
@@ -201,7 +201,7 @@ Sustainable Waste Management
 - 3Rs ::: (highest priority) reduce, reuse, recycle (lowest priority) <!--SR:!2024-08-21,73,310!2024-08-15,67,310-->
   - reduce ::: reduce the amount of solid waste generation <!--SR:!2024-07-31,55,310!2024-08-06,60,310-->
   - reuse ::: multiple uses of an item in its original form with or without reconditioning <!--SR:!2024-07-27,52,310!2024-07-26,51,310-->
-  - recycle ::: materials are collected and recovered to be used as raw material <!--SR:!2024-07-16,42,290!2024-08-07,60,310-->
+  - recycle ::: materials are collected and recovered to be used as raw material <!--SR:!2024-11-14,121,290!2024-08-07,60,310-->
     - recycle example ::: plastic bottle (PET or HDPE) -> chips -> fiber -> T-shirt or bag <!--SR:!2024-07-23,49,290!2024-08-02,57,310-->
 
 ## page 13
@@ -209,7 +209,7 @@ Sustainable Waste Management
 How to provide motivation for waste reduction, reuse and recycling?
 
 - How to charge your MSW? ::: fixed charge, proxy system, quantity-based system <!--SR:!2024-07-17,44,290!2024-12-08,147,310-->
-  - quantity-based system example ::: Taipei (not Taiwan as a whole) implemented MSW charging by bag in 2000. Compared to before, -37% after 1 year and -62% after 7 years. <!--SR:!2024-10-06,91,270!2024-07-16,42,290-->
+  - quantity-based system example ::: Taipei (not Taiwan as a whole) implemented MSW charging by bag in 2000. Compared to before, -37% after 1 year and -62% after 7 years. <!--SR:!2024-10-06,91,270!2024-11-13,120,290-->
 
 ## page 14
 
@@ -230,7 +230,7 @@ Environmental Levy Scheme (Plastic Shopping Bags)
   - Environmental Levy Scheme launch time ::: launched in 2009 <!--SR:!2024-10-05,83,290!2024-08-08,61,310-->
   - Environmental Levy Scheme coverage ::: 40 registered retailers with ~3100 retail outlets <!--SR:!2024-09-28,85,270!2024-07-23,48,310-->
   - Environmental Levy Scheme effect ::: -90% from registered retailers after 1 year. -25% in overall plastic bag consumption after covering all retail shops in 2015 <!--SR:!2024-09-05,68,270!2024-07-30,52,290-->
-  - Environmental Levy Scheme income ::: HK$25.5 million in 2009 <!--SR:!2024-09-06,71,270!2024-07-16,40,290-->
+  - Environmental Levy Scheme income ::: HK$25.5 million in 2009 <!--SR:!2024-09-06,71,270!2024-11-08,115,290-->
 
 ## page 16
 
@@ -243,12 +243,12 @@ Water Pollution: A serious problem in Hong Kong?
 Hong Kong Harbour Area Treatment Scheme Stage I (HATS)
 
 - Hong Kong Harbour Area Treatment Scheme Stage I ::: HATS Stage 1 <!--SR:!2024-07-31,56,310!2024-08-07,61,310-->
-  - HATS Stage 1 scheme period ::: 1994 to 2001 <!--SR:!2024-07-16,42,290!2024-07-18,14,250-->
+  - HATS Stage 1 scheme period ::: 1994 to 2001 <!--SR:!2024-11-10,117,290!2024-07-18,14,250-->
   - HATS Stage 1 scheme cost ::: HK$8.2 billion <!--SR:!2024-10-20,101,290!2024-10-01,85,270-->
   - HATS Stage 1 details ::: Stonecutters Island Sewage Treatment Works (SCISTW), sewage tunnel of 23.6 km, upgrade 8 preliminary treatment works (PTWs) <!--SR:!2024-10-10,93,270!2024-08-04,58,310-->
   - HATS Stage 1 geographic coverage ::: collect sewage from Kowloon, Kwai Tsing, Tseung Kwan O, and north-eastern Hong Kong Island to SCISTW <!--SR:!2024-09-15,75,270!2024-12-09,148,310-->
   - HATS Stage 1 coverage in numbers ::: 3.5 million people, 75% from harbour area <!--SR:!2024-07-21,46,290!2024-09-26,86,290-->
-  - HATS Stage 1 capacities :::: current ~1.4M m<sup>3</sup>/d, max: 1.7M m<sup>3</sup>/d <!--SR:!2024-11-05,114,290!2024-07-16,43,290-->
+  - HATS Stage 1 capacities :::: current ~1.4M m<sup>3</sup>/d, max: 1.7M m<sup>3</sup>/d <!--SR:!2024-11-05,114,290!2024-11-17,124,290-->
 
 ## page 18
 
@@ -426,7 +426,7 @@ Concentration Units for Liquids
 
 Relationship between PPM and mg/L
 
-- relationship between ppm<sub>w</sub> and mg/L for dilute solutions ::: 1 mg/L ≈ 1 ppm<sub>w</sub>, 1 µg/L ≈ 1 ppb<sub>w</sub> <!--SR:!2024-07-16,41,290!2024-08-15,68,310-->
+- relationship between ppm<sub>w</sub> and mg/L for dilute solutions ::: 1 mg/L ≈ 1 ppm<sub>w</sub>, 1 µg/L ≈ 1 ppb<sub>w</sub> <!--SR:!2024-11-11,118,290!2024-08-15,68,310-->
   - relationship between ppm<sub>w</sub> and mg/L derivation ::: convert the volume to mass or mass to volume using density <!--SR:!2024-08-16,68,310!2024-07-24,49,310-->
   - density of water ::: about 1 kg/L <!--SR:!2024-08-14,66,310!2024-07-28,53,310-->
 

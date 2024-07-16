@@ -74,7 +74,7 @@ return _chain.from_iterable(await _gather(
 - [polyethylene terephthalate](polyethylene%20terephthalate.md) (PET)→:::←[polymethyl methacrylate](poly(methyl%20methacrylate).md) (PMMA), Perspex <!--SR:!2024-10-12,119,249!2024-08-31,185,249-->
 - [polymethyl methacrylate](poly(methyl%20methacrylate).md) (PMMA), Perspex→:::←[polypropylene](polypropylene.md) (PP) <!--SR:!2024-07-26,137,194!2025-07-02,440,274-->
 - [polypropylene](polypropylene.md) (PP)→:::←[polystyrene](polystyrene.md) (PS) <!--SR:!2026-04-12,706,274!2024-10-01,233,274-->
-- [polystyrene](polystyrene.md) (PS)→:::←[polyvinyl chloride](polyvinyl%20chloride.md) (PVC) <!--SR:!2027-03-25,1048,334!2024-07-16,260,281-->
+- [polystyrene](polystyrene.md) (PS)→:::←[polyvinyl chloride](polyvinyl%20chloride.md) (PVC) <!--SR:!2027-03-25,1048,334!2026-07-16,730,281-->
 - [polyvinyl chloride](polyvinyl%20chloride.md) (PVC)→:::←_(end)_ <!--SR:!2028-05-01,1449,354!2027-07-03,1121,334-->
 
 <!--/pytextgen-->

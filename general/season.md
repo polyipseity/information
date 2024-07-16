@@ -17,9 +17,9 @@ The [Earth's orbit](Earth's%20orbit.md) exhibits {{approximate [axial parallelis
 
 ### axial tilt
 
-The seasons result from {{the [Earth](Earth.md)'s [axis of rotation](rotation%20around%20a%20fixed%20axis.md) being tilted with respect to its orbital plane by an angle of approximately 23.4 degrees}}, known as [axial tilt](axial%20tilt.md) or {{obliquity of the [ecliptic](ecliptic.md)}}. <!--SR:!2024-07-17,14,290!2024-07-16,13,290-->
+The seasons result from {{the [Earth](Earth.md)'s [axis of rotation](rotation%20around%20a%20fixed%20axis.md) being tilted with respect to its orbital plane by an angle of approximately 23.4 degrees}}, known as [axial tilt](axial%20tilt.md) or {{obliquity of the [ecliptic](ecliptic.md)}}. <!--SR:!2024-07-17,14,290!2024-08-22,37,290-->
 
-Regardless of {{the time of year}}, {{the [northern](Northern%20Hemisphere.md) and [southern](Souther%20Hemisphere.md) hemispheres always experience opposite seasons}}. <!--SR:!2024-07-18,15,290!2024-07-16,13,290-->
+Regardless of {{the time of year}}, {{the [northern](Northern%20Hemisphere.md) and [southern](Souther%20Hemisphere.md) hemispheres always experience opposite seasons}}. <!--SR:!2024-07-18,15,290!2024-09-08,54,310-->
 
 The effect of axial tilt is observable as {{the change in [day length](daytime.md) and altitude (also see [analemma](analemma.md)) of the [Sun](Sun.md) at solar [noon](noon.md) (the Sun's [culmination](culmination.md)) during the year}}. The change in day length leads to {{[sunlight](sunlight.md) being shone on the surface for different amount of time in a day, affecting how much energy is transmitted in a day}}. The low altitude of Sun {{during [winter](winter.md) means that incoming rays of solar radiation are spread over a larger area of the Earth's surface, so the light received is more indirect and of lower [intensity](solar%20irradiance.md)}}. The intensity can be approximated by {{multiplying $\cos \theta$, where $\theta$ is the angle between the [normal](normal%20(geometry).md) of the surface and the direction of solar radiation}}. These two effects {{caused by axial tilt accounts for most of the seasonal variation in [climate](climate.md) in both hemispheres}}. <!--SR:!2024-07-17,14,301!2024-07-19,16,290!2024-08-16,36,301!2024-07-21,18,301!2024-08-11,28,270-->
 

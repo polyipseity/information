@@ -20,7 +20,7 @@ Buildings can be {{categorized by height}}: {{single-storey, multi-storey with h
 
 The structural system of a building only {{consists of members designed to carry loads}}, and all others are {{non-structural}}. <!--SR:!2024-11-15,123,290!2024-08-01,59,315-->
 
-The structural system of a high-rise building should support {{vertical loads such as gravity and foundation settlement, and also lateral loads such as earthquake, wind}}. The latter, {{lateral loads, are especially important for tall buildings}}. Otherwise, tall buildings may {{slide (horizontal translation) or overturn (rotation about the base)}}. Generally the higher up, {{the larger the load}}. <!--SR:!2024-09-02,69,270!2024-07-17,46,295!2024-07-16,45,295!2024-08-11,66,310-->
+The structural system of a high-rise building should support {{vertical loads such as gravity and foundation settlement, and also lateral loads such as earthquake, wind}}. The latter, {{lateral loads, are especially important for tall buildings}}. Otherwise, tall buildings may {{slide (horizontal translation) or overturn (rotation about the base)}}. Generally the higher up, {{the larger the load}}. <!--SR:!2024-09-02,69,270!2024-07-17,46,295!2025-01-15,183,315!2024-08-11,66,310-->
 
 Hence, foundation-wise, low-rise buildings are {{supported by shallow foundations (footings)}}, while high-rise buildings are {{supported by deep foundations (pipes), which may even reach the bedrock}}. <!--SR:!2024-07-24,48,295!2024-07-18,43,295-->
 
@@ -118,9 +118,9 @@ return await memorize_seq(
 - _(begin)_→:::←[buttress](buttress.md) <!--SR:!2024-07-18,45,295!2024-08-13,69,315-->
 - [buttress](buttress.md)→:::←[diagrid](diagrid.md) <!--SR:!2024-08-18,41,235!2024-08-03,60,315-->
 - [diagrid](diagrid.md)→:::←[exoskeleton](exoskeleton.md) <!--SR:!2024-09-11,77,275!2024-08-01,58,315-->
-- [exoskeleton](exoskeleton.md)→:::←[space truss](space%20frame.md) <!--SR:!2024-08-13,56,255!2024-07-16,5,235-->
-- [space truss](space%20frame.md)→:::←[superframe](superframe.md) <!--SR:!2024-07-25,49,295!2024-07-16,29,275-->
-- [superframe](superframe.md)→:::←[tube](tube%20(structure).md) <!--SR:!2024-07-28,20,275!2024-07-16,13,215-->
+- [exoskeleton](exoskeleton.md)→:::←[space truss](space%20frame.md) <!--SR:!2024-08-13,56,255!2024-07-27,11,235-->
+- [space truss](space%20frame.md)→:::←[superframe](superframe.md) <!--SR:!2024-07-25,49,295!2024-10-03,79,275-->
+- [superframe](superframe.md)→:::←[tube](tube%20(structure).md) <!--SR:!2024-07-28,20,275!2024-08-11,26,215-->
 - [tube](tube%20(structure).md)→:::←_(end)_ <!--SR:!2024-08-15,70,315!2024-08-14,69,315-->
 
 <!--/pytextgen-->

@@ -59,11 +59,11 @@ The content is in teaching order.
     - [construction material examples](#construction%20material%20examples)
       - [reinforced concrete structure examples](#reinforced%20concrete%20structure%20examples)
       - [steel or concrete–steel composite structure examples](#steel%20or%20concrete–steel%20composite%20structure%20examples)
-      - timber structure examples ::: Hirschberg 13, 35037 Marburg, Germany <!--SR:!2024-07-25,56,265!2024-07-16,71,344-->
+      - timber structure examples ::: Hirschberg 13, 35037 Marburg, Germany <!--SR:!2024-07-25,56,265!2025-03-16,243,344-->
   - structural codes of practice or design codes ::: different countries have different standards <!--SR:!2025-05-25,340,350!2024-07-28,76,357-->
     - [structural code of practice examples](#structural%20code%20of%20practice%20examples)
 - geo-technical engineering ::: behavior of rock, soil, and underground water <!--SR:!2024-08-28,109,305!2025-03-01,249,367-->
-  - geo-technical engineering structures ::: design and construction of earthworks and foundations <!--SR:!2024-07-16,50,320!2025-01-26,217,350-->
+  - geo-technical engineering structures ::: design and construction of earthworks and foundations <!--SR:!2024-12-22,159,320!2025-01-26,217,350-->
     - [geo-technical engineering structure examples](#geo-technical%20engineering%20structure%20examples)
   - [geo-technical engineering risks](#geo-technical%20engineering%20risks)
     - geo-technical engineering risk migration ::: soil improvement or retaining structures can migrate risk to society <!--SR:!2024-12-05,162,340!2024-08-08,89,377-->
@@ -236,7 +236,7 @@ water security
 - climate change→:::←extreme weather <!--SR:!2024-09-09,102,337!2025-01-04,199,350-->
 - extreme weather→:::←food security <!--SR:!2024-11-12,150,330!2025-03-06,235,347-->
 - food security→:::←mega-cities <!--SR:!2024-08-27,95,352!2024-09-18,100,320-->
-- mega-cities→:::←water security <!--SR:!2024-07-16,64,360!2024-12-30,187,354-->
+- mega-cities→:::←water security <!--SR:!2025-03-02,229,360!2024-12-30,187,354-->
 - water security→:::←_(end)_ <!--SR:!2025-04-28,318,350!2024-09-29,107,337-->
 
 <!--/pytextgen-->
@@ -812,7 +812,7 @@ water distribution network
 - sewage collection network→:::←storm water management <!--SR:!2024-10-26,114,267!2024-09-18,110,341-->
 - storm water management→:::←water collection network <!--SR:!2024-08-28,84,320!2024-09-19,101,320-->
 - water collection network→:::←water distribution network <!--SR:!2024-08-30,98,380!2024-12-24,181,352-->
-- water distribution network→:::←_(end)_ <!--SR:!2025-01-05,204,367!2024-07-16,43,321-->
+- water distribution network→:::←_(end)_ <!--SR:!2025-01-05,204,367!2024-11-30,137,321-->
 
 <!--/pytextgen-->
 
@@ -1189,7 +1189,7 @@ water transport
 
 - _(begin)_→:::←airport <!--SR:!2024-07-26,62,290!2024-08-03,84,375-->
 - airport→:::←bicycle path <!--SR:!2025-03-09,237,355!2024-09-03,102,337-->
-- bicycle path→:::←highway <!--SR:!2025-01-20,199,360!2024-07-16,64,360-->
+- bicycle path→:::←highway <!--SR:!2025-01-20,199,360!2025-03-05,232,360-->
 - highway→:::←pier <!--SR:!2024-10-06,114,320!2024-08-10,72,300-->
 - pier→:::←pipeline <!--SR:!2024-08-03,80,380!2024-07-25,62,314-->
 - pipeline→:::←railroad <!--SR:!2024-07-24,44,255!2024-08-07,75,315-->
@@ -1231,6 +1231,6 @@ water treatment
 - wastewater recycling→:::←wastewater treatment <!--SR:!2024-11-03,131,315!2025-01-16,186,317-->
 - wastewater treatment→:::←water quality monitoring <!--SR:!2024-08-01,51,280!2024-12-07,157,315-->
 - water quality monitoring→:::←water treatment <!--SR:!2024-11-12,148,324!2024-09-20,117,334-->
-- water treatment→:::←_(end)_ <!--SR:!2024-07-16,68,354!2024-07-21,41,246-->
+- water treatment→:::←_(end)_ <!--SR:!2025-03-13,240,354!2024-07-21,41,246-->
 
 <!--/pytextgen-->
