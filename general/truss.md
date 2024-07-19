@@ -25,7 +25,7 @@ To analyze a truss, {{design the truss and determine the support sizes}}. Then c
 
 ### forces in members
 
-There are {{2}} common methods to determine forces in members: {{[method of joints](#method%20of%20joints), suitable for determining forces in all members; and method of sections, suitable for determining forces in some particular members}}. <!--SR:!2024-08-05,61,310!2024-07-18,47,290-->
+There are {{2}} common methods to determine forces in members: {{[method of joints](#method%20of%20joints), suitable for determining forces in all members; and method of sections, suitable for determining forces in some particular members}}. <!--SR:!2024-08-05,61,310!2025-01-21,187,310-->
 
 Note that some members can have {{zero forces, i.e. neither in tension nor in compression, which are called [zero force members](zero%20force%20member.md)}}. <!--SR:!2024-08-06,62,310-->
 
@@ -37,7 +37,7 @@ Note that when a truss member is in tension, it is actually {{pulling on the two
 
 The steps are {{label all joints, members, and the support reactions}}. Then, {{compute the support reactions by considering the entire truss}}. Finally, use {{the method of joints to determine forces in all members}}. <!--SR:!2024-07-24,48,290!2024-08-03,60,310!2024-12-18,158,310-->
 
-Note that after finishing with the method of joints, there is {{no need to consider the global (the entire truss) equilibrium again}}. This is because {{the global equilibrium is automatically satisfied afterwards}}, given that {{the calculations are done correctly}}. So this can also serve as a way to {{check the by-hand calculations}}. <!--SR:!2024-08-04,60,310!2024-07-25,52,310!2024-07-19,48,290!2024-10-24,109,290-->
+Note that after finishing with the method of joints, there is {{no need to consider the global (the entire truss) equilibrium again}}. This is because {{the global equilibrium is automatically satisfied afterwards}}, given that {{the calculations are done correctly}}. So this can also serve as a way to {{check the by-hand calculations}}. <!--SR:!2024-08-04,60,310!2024-07-25,52,310!2025-01-27,192,310!2024-10-24,109,290-->
 
 ## references
 

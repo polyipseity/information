@@ -32,7 +32,7 @@ When defining customers, one should avoid {{vagueness}}. To avoid it, some facto
 
 Discovering and defining your customer segments is important so that {{the market size can be accurately estimated}}. Also, they affect {{your products' properties}}. Customer segments can be broadly classified into {{mass market, a large group with broadly similar needs; niche market, a small group with specific needs; and in the middle of the road, segmented market, different groups with different needs}}. In terms of profits, {{mass market has lower profit margins but higher volume, while the opposite is true for niche market}}. <!--SR:!2024-12-09,160,310!2024-11-17,132,290!2024-10-26,104,250!2024-09-14,83,270-->
 
-One can create {{a customer profile that shows a typical person}} for each customer segment. The profile lists {{the customer information, jobs, pains, and gains}}. Note that in a customer segment, users of the product {{might not be the buyers, such as children buying stuff for elderly}}. In that case, {{the buyer should have a customer profile as well}}. <!--SR:!2024-07-19,55,310!2024-10-21,102,250!2024-07-30,58,270!2024-08-09,73,310-->
+One can create {{a customer profile that shows a typical person}} for each customer segment. The profile lists {{the customer information, jobs, pains, and gains}}. Note that in a customer segment, users of the product {{might not be the buyers, such as children buying stuff for elderly}}. In that case, {{the buyer should have a customer profile as well}}. <!--SR:!2025-03-11,235,330!2024-10-21,102,250!2024-07-30,58,270!2024-08-09,73,310-->
 
 > [!example] examples
 >
@@ -46,7 +46,7 @@ To validate your customers, {{interact with your customers, such as talking to t
 
 > [!example] examples
 >
-> - Old people are unhappy. Is it because they cannot move around easily? ::: Maybe... but the lack of mobility is only one of the factors contributing to their greatest pain, loneliness. <!--SR:!2024-10-06,110,290!2024-07-18,54,310-->
+> - Old people are unhappy. Is it because they cannot move around easily? ::: Maybe... but the lack of mobility is only one of the factors contributing to their greatest pain, loneliness. <!--SR:!2024-10-06,110,290!2025-03-06,231,330-->
 
 ## references
 

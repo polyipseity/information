@@ -20,9 +20,9 @@ tags:
 
 A __lunar phase__ or __Moon phase__ is {{the apparent shape of the [Moon](Moon.md)'s directly sunlit portion as viewed from [Earth](Earth.md)}}. In common usage, the four major phases are {{the [new moon](new%20moon.md), the first quarter, the [full moon](full%20moon.md) and the last quarter}}; the four minor phases are {{waxing crescent, waxing gibbous, waning gibbous, and waning crescent}}. A [lunar month](lunar%20month.md) is thus {{the time between successive recurrences of the same phase}}. The duration is {{not perfectly constant due to [eccentricity](orbital%20eccentricity.md) of the Moon's orbit, but averages out to about 29.5 days, which is also the [synodic orbital period](orbital%20period.md#synodic%20period) of the Moon}}. <!--SR:!2024-07-23,15,290!2024-07-24,16,290!2024-07-23,15,290!2024-07-25,17,290!2024-07-20,13,270-->
 
-The appearance of the [Moon](Moon.md) (its phase) depends on {{the relative orbital positions of the Moon, [Earth](Earth.md), and the [Sun](Sun.md)}}. It gradually {{changes over a [lunar month](lunar%20month.md) as the Moon orbits around Earth and Earth orbits around the Sun}}. Half of the Moon is {{always sunlit (the side facing the Sun), but as the visible side (the side facing the Earth) shifts relative to the sunlit side, so the portion of visible side that is sunlit changes}}, varying from {{0% at [new moon](new%20moon.md) to nearly 100% at [full moon](full%20moon.md)}}. The rotation of Earth {{has only little effect on the phase}} because {{the [lunar distance](lunar%20distance.md) is about 30 times the diameter of Earth, so the perspective of observers on Earth changes only very slightly}}. This partially contributes to {{[lunar libration](libration.md) slightly}}. <!--SR:!2024-07-21,13,290!2024-07-18,11,270!2024-07-23,15,290!2024-07-22,14,290!2024-07-25,17,290!2024-07-25,17,290!2024-07-25,17,290-->
+The appearance of the [Moon](Moon.md) (its phase) depends on {{the relative orbital positions of the Moon, [Earth](Earth.md), and the [Sun](Sun.md)}}. It gradually {{changes over a [lunar month](lunar%20month.md) as the Moon orbits around Earth and Earth orbits around the Sun}}. Half of the Moon is {{always sunlit (the side facing the Sun), but as the visible side (the side facing the Earth) shifts relative to the sunlit side, so the portion of visible side that is sunlit changes}}, varying from {{0% at [new moon](new%20moon.md) to nearly 100% at [full moon](full%20moon.md)}}. The rotation of Earth {{has only little effect on the phase}} because {{the [lunar distance](lunar%20distance.md) is about 30 times the diameter of Earth, so the perspective of observers on Earth changes only very slightly}}. This partially contributes to {{[lunar libration](libration.md) slightly}}. <!--SR:!2024-07-21,13,290!2024-08-30,43,290!2024-07-23,15,290!2024-07-22,14,290!2024-07-25,17,290!2024-07-25,17,290!2024-07-25,17,290-->
 
-As different [Moon](Moon.md) phases represent {{different relative orbital positions of the Moon relative to [Earth](Earth.md)}}, this also means the corresponding {{moonrise and moonset are at different times of the day}}. In particular, the Moon rises and sets {{about 50 minutes later each day}}. <!--SR:!2024-07-21,13,290!2024-07-24,16,290!2024-07-19,11,285-->
+As different [Moon](Moon.md) phases represent {{different relative orbital positions of the Moon relative to [Earth](Earth.md)}}, this also means the corresponding {{moonrise and moonset are at different times of the day}}. In particular, the Moon rises and sets {{about 50 minutes later each day}}. <!--SR:!2024-07-21,13,290!2024-07-24,16,290!2024-07-25,6,265-->
 
 ## principal and intermediate phases of the Moon
 
@@ -91,7 +91,7 @@ return chain.from_iterable(await gather(
 - first quarter::afternoon to early night <!--SR:!2024-07-25,17,290-->
 - waxing gibbous::late afternoon to most of night <!--SR:!2024-07-20,12,270-->
 - [full moon](full%20moon.md)::all night (sunset to sunrise) <!--SR:!2024-07-22,14,290-->
-- waning gibbous::most of night to early morning <!--SR:!2024-07-19,12,270-->
+- waning gibbous::most of night to early morning <!--SR:!2024-08-23,35,270-->
 - last quarter::late night to morning <!--SR:!2024-07-23,15,290-->
 - waning [crescent](cresceent.md)::pre-dawn to early afternoon <!--SR:!2024-07-31,17,250-->
 
@@ -100,8 +100,8 @@ return chain.from_iterable(await gather(
 <!--pytextgen generate section="d8fa"--><!-- The following content is generated at 2024-07-04T10:16:44.237111+08:00. Any edits will be overridden! -->
 
 - invisible due to being too closed to the [Sun](Sun.md) except during a [solar eclipse](solar%20eclipse.md)::[new moon](new%20moon.md) <!--SR:!2024-07-24,16,290-->
-- late morning to post-dusk::waxing [crescent](crescent.md) <!--SR:!2024-07-17,10,270-->
-- afternoon to early night::first quarter <!--SR:!2024-07-19,12,270-->
+- late morning to post-dusk::waxing [crescent](crescent.md) <!--SR:!2024-08-15,28,270-->
+- afternoon to early night::first quarter <!--SR:!2024-07-25,6,250-->
 - late afternoon to most of night::waxing gibbous <!--SR:!2024-07-30,16,250-->
 - all night (sunset to sunrise)::[full moon](full%20moon.md) <!--SR:!2024-07-22,14,290-->
 - most of night to early morning::waning gibbous <!--SR:!2024-07-24,16,290-->

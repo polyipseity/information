@@ -9,7 +9,7 @@ tags:
 
 # speed
 
-In [kinematics](kinematics.md), the __speed__ (commonly referred to as {{___v___}}) of an object is {{the [magnitude](magnitude%20(mathematics).md) of the change of its [position](position%20(geometry).md) over [time](time.md) or the magnitude of the change of its position per unit of time}}; it is thus {{a [scalar](scalar%20(physics).md) quantity}}. <!--SR:!2024-07-19,4,270!2024-07-18,3,250!2024-07-19,4,270-->
+In [kinematics](kinematics.md), the __speed__ (commonly referred to as {{___v___}}) of an object is {{the [magnitude](magnitude%20(mathematics).md) of the change of its [position](position%20(geometry).md) over [time](time.md) or the magnitude of the change of its position per unit of time}}; it is thus {{a [scalar](scalar%20(physics).md) quantity}}. <!--SR:!2024-08-05,17,290!2024-07-26,8,250!2024-08-04,16,290-->
 
 ## references
 

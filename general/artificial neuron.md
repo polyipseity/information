@@ -13,7 +13,7 @@ tags:
 
 For a given artificial neuron _k_, let there be {{_m_ + 1 inputs and weights. The inputs are labelled _x_<sub>0</sub> to _x_<sub>_m_</sub>. The weights are labelled _w_<sub>_k_<!-- separator -->0</sub> to _w_<sub>_km_</sub>}}. Usually, {{the _x_<sub>0</sub> input is always assigned +1, making it a _bias input_ with the weight _b_<sub>_k_</sub> = _w_<sub>_k_<!-- separator -->0</sub> being the _bias_}}. This leaves {{_m_ actual inputs to the neurons: from _x_<sub>1</sub> to _x_<sub>_m_</sub>}}. <!--SR:!2024-09-11,68,310!2024-09-16,73,310!2024-09-07,65,310-->
 
-The output of the _k_-th neuron is: {{$$y_k = \varphi\left(\sum_{j = 0}^m w_{kj} x_j \right) = \varphi\left(b_k + \sum_{j = 1}^m w_{kj} x_j \right)$$}}, where {{$\varphi$ is the _[activation function](activation%20function.md)_ (also called _threshold function_, or confusingly, _transfer function_)}}. <!--SR:!2024-07-18,23,250!2024-09-14,71,310-->
+The output of the _k_-th neuron is: {{$$y_k = \varphi\left(\sum_{j = 0}^m w_{kj} x_j \right) = \varphi\left(b_k + \sum_{j = 1}^m w_{kj} x_j \right)$$}}, where {{$\varphi$ is the _[activation function](activation%20function.md)_ (also called _threshold function_, or confusingly, _transfer function_)}}. <!--SR:!2024-09-14,58,250!2024-09-14,71,310-->
 
 ## types of activation function
 

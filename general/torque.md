@@ -10,7 +10,7 @@ tags:
 
 # torque
 
-In [physics](physics.md) and [mechanics](mechanics.md), __torque__, also known as {{__moment of force__ or simply __moment__}}, is {{the [rotational](rotation.md) analogue of linear [force](force.md)}}. <!--SR:!2024-07-18,48,290!2024-08-01,59,310-->
+In [physics](physics.md) and [mechanics](mechanics.md), __torque__, also known as {{__moment of force__ or simply __moment__}}, is {{the [rotational](rotation.md) analogue of linear [force](force.md)}}. <!--SR:!2025-01-26,192,310!2024-08-01,59,310-->
 
 ## principles of moments
 

@@ -13,7 +13,7 @@ In [astronomy](astronomy.md), the __meridian__ is {{the [great circle](great%20c
 
 > [!tip] tips
 >
-> - [a.m., p.m.](12-hour%20clock.md), and the meridian ::: a.m. is from [Latin](Latin.md) _ante meridiem_, meaning "before midday". p.m. is from [Latin](Latin.md) _post meridiem_, meaning "after midday". <!--SR:!2024-07-18,16,290!2024-07-19,17,290-->
+> - [a.m., p.m.](12-hour%20clock.md), and the meridian ::: a.m. is from [Latin](Latin.md) _ante meridiem_, meaning "before midday". p.m. is from [Latin](Latin.md) _post meridiem_, meaning "after midday". <!--SR:!2024-09-20,64,310!2024-09-25,68,310-->
 
 ## references
 
