@@ -18,7 +18,7 @@ tags:
 
 > {{![skeletal formula of aspirin](../archives/Wikimedia%20Commons/Aspirin-skeletal.svg)}}
 >
-> {{[skeletal formula](skeletal%20formula.md) of aspirin}} <!--SR:!2024-08-05,73,190!2024-07-17,364,344-->
+> {{[skeletal formula](skeletal%20formula.md) of aspirin}} <!--SR:!2024-08-05,73,190!2029-04-05,1721,364-->
 
 ## medical use
 
@@ -87,7 +87,7 @@ return await memorize_table(
 <!--pytextgen generate section="78ae"--><!-- The following content is generated at 2024-01-04T20:17:51.327355+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←increased bleeding risk <!--SR:!2024-12-15,173,310!2026-06-27,841,330-->
-- increased bleeding risk→:::←[stomach ulcer](peptic%20ulcer%20disease.md) <!--SR:!2027-06-08,1182,350!2024-07-19,129,310-->
+- increased bleeding risk→:::←[stomach ulcer](peptic%20ulcer%20disease.md) <!--SR:!2027-06-08,1182,350!2025-08-21,398,310-->
 - [stomach ulcer](peptic%20ulcer%20disease.md)→:::←[stomach upset](abdominal%20pain.md) <!--SR:!2024-08-21,360,290!2027-06-19,1191,350-->
 - [stomach upset](abdominal%20pain.md)→:::←_(end)_ <!--SR:!2027-05-28,1173,350!2027-05-23,1168,350-->
 

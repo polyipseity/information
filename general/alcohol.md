@@ -44,7 +44,7 @@ Tertiary alcohols {{react with [hydrogen halides](hydrochloric%20acid.md) to pro
 
 Primary alcohols {{can be oxidized to [aldehydes](aldehyde.md) and then [carboxylic acids](carboxylic%20acid.md). Secondary ones can be oxidized to [ketones](ketone.md). Tertiary ones are resistant to oxidation}}. {{Acidified [potassium dichromate](potassium%20dichromate.md)}} can be used as the [oxidizing agent](oxidizing%20agent.md). <!--SR:!2025-02-11,458,300!2026-05-24,793,320-->
 
-To produce [carboxylic acids](carboxylic%20acid.md) or [ketones](ketone.md), {{heat the solution (under [reflux](reflux.md)) with the [oxidizing agent](oxidizing%20agent.md)}}. To produce [aldehydes](aldehyde.md), {{heat the solution while adding the oxidizing agent dropwise slowly. [Distill](distillation.md) the aldehyde out of it by keeping the temperature between the [boiling points](boiling%20point.md) of the aldehyde and the carboxylic acid}}. <!--SR:!2024-08-14,319,275!2024-07-19,301,260-->
+To produce [carboxylic acids](carboxylic%20acid.md) or [ketones](ketone.md), {{heat the solution (under [reflux](reflux.md)) with the [oxidizing agent](oxidizing%20agent.md)}}. To produce [aldehydes](aldehyde.md), {{heat the solution while adding the oxidizing agent dropwise slowly. [Distill](distillation.md) the aldehyde out of it by keeping the temperature between the [boiling points](boiling%20point.md) of the aldehyde and the carboxylic acid}}. <!--SR:!2024-08-14,319,275!2026-09-09,782,260-->
 
 ### reactions
 
@@ -70,9 +70,9 @@ return await memorize_seq(
 
 <!--pytextgen generate section="abba"--><!-- The following content is generated at 2024-01-04T20:17:51.145207+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←[dehydration](#dehydration) <!--SR:!2025-05-04,466,255!2024-07-18,366,340-->
+- _(begin)_→:::←[dehydration](#dehydration) <!--SR:!2025-05-04,466,255!2027-12-13,1243,340-->
 - [dehydration](#dehydration)→:::←[nucleophilic substitution](#nucleophilic%20substitution) <!--SR:!2024-09-20,79,195!2024-08-12,59,280-->
-- [nucleophilic substitution](#nucleophilic%20substitution)→:::←[oxidation](#oxidation) <!--SR:!2024-08-06,208,275!2024-07-19,5,130-->
+- [nucleophilic substitution](#nucleophilic%20substitution)→:::←[oxidation](#oxidation) <!--SR:!2024-08-06,208,275!2024-07-26,7,130-->
 - [oxidation](#oxidation)→:::←_(end)_ <!--SR:!2026-04-12,758,315!2028-11-21,1605,355-->
 
 <!--/pytextgen-->

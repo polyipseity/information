@@ -10,7 +10,7 @@ tags:
 
 # conservation of energy
 
-The __law of conservation of energy__ states {{that the total [energy](energy.md) of an [isolated system](isolated%20system.md) remains constant; it is said to be [_conserved_](conservation%20law.md) over [time](time.md)}}. <!--SR:!2024-07-19,4,270-->
+The __law of conservation of energy__ states {{that the total [energy](energy.md) of an [isolated system](isolated%20system.md) remains constant; it is said to be [_conserved_](conservation%20law.md) over [time](time.md)}}. <!--SR:!2024-08-02,14,290-->
 
 ## references
 

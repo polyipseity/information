@@ -19,10 +19,10 @@ The model uses ideas such as:
 
 - [planets](planet.md) ::: Not only other planets but the Earth also revolves around a stationary sun in perfectly circular orbits. <!--SR:!2024-07-19,4,301!2024-07-19,4,301-->
 - [Earth](Earth.md)'s motions ::: [Earth](Earth.md) has three motions: daily rotation, annual revolution, and annual tilting of its axis. <!--SR:!2024-07-19,4,301!2024-07-19,4,301-->
-- [apparent retrograde motion](apparent%20retrograde%20motion.md) ::: Apparent retrograde motions of other planets are explained by the Earth's motion relative to other planets. <!--SR:!2024-07-19,4,301!2024-07-18,3,281-->
+- [apparent retrograde motion](apparent%20retrograde%20motion.md) ::: Apparent retrograde motions of other planets are explained by the Earth's motion relative to other planets. <!--SR:!2024-07-19,4,301!2024-08-01,14,301-->
 - [stars](star.md) ::: The distance from [Earth](Earth.md) to the [Sun](Sun.md) is small compared to the distance from the Sun to the [stars](star.md). <!--SR:!2024-07-19,4,301!2024-07-19,4,301-->
 
-The model has several advantages: {{simpler and more elegant}}, and naturally explains several phenomenons: {{[apparent retrograde motion](apparent%20retrograde%20motion.md), changing brightness of planets, and motion of [inferior planets](inferior%20and%20superior%20planets.md)}}. But it is not without disadvantages: {{not more accurate than old models (due to the incorrect assumption of perfectly circular orbits)}}, and {{[Earth](Earth.md) needs to move in very high speed, which is generally thought to be improbable at the time}}. <!--SR:!2024-07-19,4,301!2024-07-19,4,301!2024-07-18,3,281!2024-07-19,4,301-->
+The model has several advantages: {{simpler and more elegant}}, and naturally explains several phenomenons: {{[apparent retrograde motion](apparent%20retrograde%20motion.md), changing brightness of planets, and motion of [inferior planets](inferior%20and%20superior%20planets.md)}}. But it is not without disadvantages: {{not more accurate than old models (due to the incorrect assumption of perfectly circular orbits)}}, and {{[Earth](Earth.md) needs to move in very high speed, which is generally thought to be improbable at the time}}. <!--SR:!2024-07-19,4,301!2024-07-19,4,301!2024-08-01,14,301!2024-07-19,4,301-->
 
 ## Copernican theory
 
@@ -61,13 +61,13 @@ return await memorize_seq(
 <!--pytextgen generate section="dbad"--><!-- The following content is generated at 2024-06-25T18:12:42.995238+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←(center) [Sun](Sun.md) <!--SR:!2024-09-04,52,310!2024-08-20,42,290-->
-- (center) [Sun](Sun.md)→:::←[Mercury](Mercury%20(planet).md) <!--SR:!2024-07-17,17,290!2024-07-17,17,290-->
+- (center) [Sun](Sun.md)→:::←[Mercury](Mercury%20(planet).md) <!--SR:!2024-09-27,71,310!2024-09-26,70,310-->
 - [Mercury](Mercury%20(planet).md)→:::←[Venus](Venus.md) <!--SR:!2024-08-27,43,290!2024-08-25,45,290-->
 - [Venus](Venus.md)→:::←[Earth](Earth.md), with the [Moon](Moon.md) orbiting around it <!--SR:!2024-08-23,40,290!2024-08-28,43,290-->
 - [Earth](Earth.md), with the [Moon](Moon.md) orbiting around it→:::←[Mars](Mars.md) <!--SR:!2024-09-14,61,310!2024-08-15,32,270-->
-- [Mars](Mars.md)→:::←[Jupiter](Jupiter.md) <!--SR:!2024-07-17,17,290!2024-08-21,38,290-->
+- [Mars](Mars.md)→:::←[Jupiter](Jupiter.md) <!--SR:!2024-09-21,65,310!2024-08-21,38,290-->
 - [Jupiter](Jupiter.md)→:::←[Saturn](Saturn.md) <!--SR:!2024-08-15,37,290!2024-09-15,62,310-->
-- [Saturn](Saturn.md)→:::←[fixed stars](fixed%20stars.md) <!--SR:!2024-09-18,64,310!2024-07-17,17,290-->
+- [Saturn](Saturn.md)→:::←[fixed stars](fixed%20stars.md) <!--SR:!2024-09-18,64,310!2024-09-25,69,310-->
 - [fixed stars](fixed%20stars.md)→:::←_(end)_ <!--SR:!2024-09-07,55,310!2024-09-05,53,310-->
 
 <!--/pytextgen-->
