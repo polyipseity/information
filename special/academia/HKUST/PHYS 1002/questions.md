@@ -302,3 +302,31 @@ The parenthesized text at the beginning of of each question is {{the location th
 >
 > - solution: {{5}}
 > - explanation: {{Purple is the combination of red and blue. However, red and blue are on the two opposite ends of the visible spectrum, so the spectral radiance graph would need to have 2 peaks. This is impossible for thermal radiation to produce, as predicted by the Wien approximation. For more, see [Planckian locus](../../../../general/Planckian%20locus.md).}}
+
+## 2024-07-18
+
+> Q1. (iPRS) From laboratory measurements, we know that a particular spectral line appears at a certain wavelength. The line width is very small and can be ignored. A star is moving with negligible velocity relative to the Earth but self-rotating very fast. Assume that the Earth lies on the equatorial plane of the star. What will be observed of the same spectral line in the spectrum of the star?
+>
+> 1. Broadened (line width increased) but (the center of line) un-shifted.
+> 2. Broadened (line width increased) and (the center of line) red-shifted.
+> 3. Broadened (line width increased) and (the center of line) blue-shifted.
+> 4. No width broadening and un-shifted.
+> 5. No width broadening but red-shifted.
+> 6. No width broadening but blue-shifted.
+>
+> - solution: {{1}}
+> - explanation: {{First, the star is not moving, so the spectral line should be unshifted. Now consider the surface a very fast rotating star. In particular, consider the sides of the rotating star. The surface of one side is approaching us very quickly, and that of the other side is moving away from us very quickly as well. This would mean part of the light from the star is blue-shifted and another part is red-shifted. The result is that the spectral line broadens.}}
+
+<!-- markdownlint MD028 -->
+
+> Q2. (derived) A binary star system consists of two stars orbiting each other. Assume a binary star system is not moving relative to Earth, and its orbital plane is parallel to that of Earth. When the system is dimmer than what it normally is, what are the detected Doppler shifts of the two stars?
+>
+> 1. red shift for one star, blue shift for the other star
+> 2. red shift for one star only, almost no shift for the other star
+> 3. blue shift for one star only, almost no shift for the other star
+> 4. red shift for both stars
+> 5. blue shift for both stars
+> 6. almost no shift for both stars
+>
+> - solution: {{6}}
+> - explanation: {{When the system is dimmer than what it normally is, it implies one star is in front of the other star. Consider that both stars are always opposite in their orbits. So the stars must be in the part of the orbit closest to or farthest from Earth. That means both stars are moving mostly transversal to Earth, taking into consideration that the system as a whole is not moving. So there should be almost no Doppler shift}}.
