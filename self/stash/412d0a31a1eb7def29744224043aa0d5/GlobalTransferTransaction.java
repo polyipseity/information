@@ -17,7 +17,8 @@ public final class GlobalTransferTransaction {
     }
 
     public static void setServerThread(Thread serverThread) {
-        if (GlobalTransferTransaction.serverThread != null) throw new AssertionError();
+        if (GlobalTransferTransaction.serverThread != null)
+            throw new AssertionError();
         GlobalTransferTransaction.serverThread = serverThread;
     }
 
@@ -68,7 +69,8 @@ public final class GlobalTransferTransaction {
         @Override
         protected void commitReversibly() {
             ensureActive(this);
-            if (CHECK && isCommitted()) throw new AssertionError(); // already committed
+            if (CHECK && isCommitted())
+                throw new AssertionError(); // already committed
             super.commitReversibly();
         }
 
@@ -86,7 +88,8 @@ public final class GlobalTransferTransaction {
         }
 
         protected static void ensureActive(GlobalTransactionImpl instance) {
-            if (CHECK && !instance.equals(DEQUE.poll())) throw new AssertionError(); // inactive, no modification allowed
+            if (CHECK && !instance.equals(DEQUE.poll()))
+                throw new AssertionError(); // inactive, no modification allowed
         }
     }
 
@@ -95,18 +98,26 @@ public final class GlobalTransferTransaction {
             setServerThread(Thread.currentThread());
 
             try (Context outermost = open()) {
-                outermost.configure(() -> {}, () -> {});
+                outermost.configure(() -> {
+                }, () -> {
+                });
 
                 try (Context intermediate = open()) {
-                    intermediate.configure(() -> {}, () -> {});
+                    intermediate.configure(() -> {
+                    }, () -> {
+                    });
 
                     try (Context innermost = open()) {
-                        innermost.configure(() -> {}, () -> {});
-                        innermost.execute(() -> {});
+                        innermost.configure(() -> {
+                        }, () -> {
+                        });
+                        innermost.execute(() -> {
+                        });
                         commit();
                     }
 
-                    intermediate.execute(() -> {});
+                    intermediate.execute(() -> {
+                    });
 
                     if (new Random().nextBoolean())
                         commit();
