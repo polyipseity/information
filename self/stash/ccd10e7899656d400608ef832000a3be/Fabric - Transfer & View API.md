@@ -1,18 +1,30 @@
+---
+aliases:
+  - 'Fabric: Transfer & View API'
+tags:
+  - date/2020/12/13/from
+  - date/2020/12/16/to
+  - language/in/English
+---
+
 # Fabric: Transfer & View API
 
 This may be revised if there are problems with the API while implementing it.
 
 ## Goals
+
 - To facilitate the transfer of content between participants.
 - To provide an unified way to access view content.
 - To provide an unified way to manipuate view content.
+
 ### Non-goals
+
 - To impose constraints on the logic of transfers.
 - To impose constraints on how participants store and represent their states.
 - To impose constraints on allowed content of views.
 
-
 ## Definitions
+
 - **Content**
   a instance of an arbitrary type with arbitrary data that can be transferred or stored
 - **Transfer**
@@ -25,6 +37,7 @@ This may be revised if there are problems with the API while implementing it.
   an arbitrary entity that contains content
 
 ### Rationale
+
 An API should only constrain things that are part of its goal.
 Anything out of scope of the goal should not be constrained.
 
@@ -33,15 +46,17 @@ Implementations can have a greater freedom when implementing the API.
 Maintability is high as there are less constraints, which could be violated through reasons such as the complex interactions between different systems, made by the API.
 
 To achieve this, only essential things are specified.
+
 - **Content** represents the information being transferred in transfers and things stored in views.
 - **Transfer** is a part of the goal of this API and thus defined.
 - **Participant** represents the starting point(s) and ending point(s) of transfers.
 - **View** represents the storage of content.
 - **Controller** represents the consumer of this API.
 
-
 ## Design
+
 The API is designed with the following rules in mind:
+
 - Clear separation of concerns.<br>
   Each interface should only handle one concern.  This allows selective implementation of capabilities.<br>
   For this reason, the transfer API and the view API are separate interfaces.
@@ -99,7 +114,9 @@ This is because the API is for describing the collection of interfaces,
 while the controller is just an alias for the consumer of the API of which the API should not care.
 
 ### Content
+
 A content have the following properties:
+
 - type, instance of category
 - data, arbitrary
 - category, class
@@ -109,6 +126,7 @@ Category is used to allow participants to quickly filter the type accepted.
 It should be immutable.
 
 #### Data-only
+
 A content could be designed to have only one property, which is data.
 
 However, in Minecraft, there are registeries that are pretty much fixed.
@@ -116,51 +134,71 @@ Apart from that, the API is much more likely to handle transferabale with no spe
 This and the limited amount of types can be used to cache content to reduce memory allocation pressure.  Immutability is required to support this.
 
 The type property is used for such purposes.
+
 #### Amount property
+
 Amount is not included in content as it is an extrinsic property.
 Think of one item of type A and many items of type A.
 The properties of the one item and each item from the stash of item in isolation should be the same.
 Apart from that, this would break the type property optimization.
+
 #### Conversion functions
+
 Conversion functions could be added to the content, but that is of no concern to the API itself.
 However, this may be of concern to the implementors of participants.  Actually implementing is needed to figure out whether it is suitable for the API.
+
 #### Category
+
 Implementations usually only handles a subset of types.
 This is true because content can contain anything, even things unexpected.
 Usually the types are instances of the same class.
 Category is used to provide the class of the type.
 
-
 ### Participant
+
 A participant have the following functions:
+
 - insert with context, type, and amount
 - extract with context, type, and amount
+
 #### Merging insert and extract
+
 Insert and extract could be merged together into one function that allows for negative amount.
 However, this does not really offer much benefits.
 The disadvantage is that people may get confused over what negative values mean.
+
 #### Check transfer function
+
 Check transfer functions allow for transfers that do not change the state of the participants.
+
 ##### Need for checking
+
 If only transfers that changes the state is allowed,
 if a less than desireable transfer happen such as not fulfilling the full amount,
 the only way to rollback is to call the opposite transfer method.
 However, this may not always be possible.
 
 Check transfer functions allow for the execution of the transfer be dependent on the predicted execution of the transfer.
+
 ##### Check and transfer relationship
+
 In order to make the check transfer function useful, some constraints are required.
 Given the same state and the same input, the same output should be returned in all cases.
 This is to establish a relationship between checking and execution.
+
 ##### Informal analysis
+
 Given that the API should handle transfers only, there are only 2 things matter to the API:
+
 - transfer: depends on state, changes state
 - check: depends on state, keeps state
 
 We can treat transfer as some sort of a barrier, i.e. once a transfer has occured, all previous checks are invalidated.
 This is due to the state changing, which invalidates all previous results of checks which depends on the previous state.
 This will be important in later sections.
+
 ##### Multiple actions
+
 To reduce allocation, all functions in participants will not accept multiple actions.
 However, this poses a question.
 
@@ -178,7 +216,9 @@ However, since multiple actions are controlled by the controller, the rollback c
 Also, rollback code between multiple actions may involve multiple participants, so the rollback code should be stored in the controller instead.
 
 To sum it up, we need a mechanism for participants to pass their rollback code to the controller.  A context object is purposed to be used for such purposes.  The functions will be passed the context object, which allows the participants to manipulate the context object in ways allowed by the context object.
+
 #### Context
+
 A context holds the context in which the transfer is executed in.
 
 It is originally designed to store rollbacks.
@@ -188,9 +228,10 @@ The current design is that the context controls the mode of the transfer which i
 To support any participant state manipulation action, two `Runnable`s are accepted, one is for the action and another one is for the rollback action.
 A context may do anything with the provided two actions.
 
-
 ### View
+
 A view have the following functions:
+
 - get an iterator of atoms
 
 A view should provide functions that allow consumers of the API to see their content in an organized way.  It should also support manipulation of the content.
@@ -200,11 +241,14 @@ Therefore, any view can be expressed as a map from any arbitrary type to the amo
 
 Something to note is that views are composable.  That is any views combined together will still result in a view.
 This also means views can be separated into smaller views as well.  With this, views can be separated into the simplest form of a view like how matter in the world is made up of atoms.
+
 #### Atom
+
 Atom is the simplest form of a view.
 All views are composed of atoms.
 The point of a view is to store content and to be manipulated.
 An atom should have the following functions:
+
 - get content
 - get amount
 - set content, return operation result
@@ -213,34 +257,40 @@ An atom should have the following functions:
 This ensures that an atom can be read and manipulated.
 The manipulation operations may fail.
 
-
 ## Compatibility
+
 ### Vanilla
+
 Vanilla transfers and views are simple, so it should be trivial to adapt them to the API.
 
 The vanilla implementation is slightly inefficient, so adapters could optimize the implementations of the API for vanilla things.
 
 ### Existing similar APIs
+
 The API should be compatible with most similar existing APIs reasonably well
 due to the low amount of constraints imposed by the API.
 Adapters should be made in order to achieve this.
 
-
 ## Implementation
 
 ### Provider API
+
 The Provier API is recently introduced to Fabric.
 It allows consumers of the API to lookup an API object for an object.
 This can be used to provider transfer and view capability to the object.
 
 However, it is limited to blocks and items only, though custom lookups can be made.
+
 #### `ItemApiLookup` replacement
+
 The default `ItemApiLookup` provided by the provider API accepts `ItemStack` as its keys.
 However, the intention of `ItemApiLookup` seems to be about providing capability to an `Item` instead of an `ItemStack` as hinted by its name.
 Moreover, this is inconsistent with `BlockApiLookup`, where a `Block` is accepted instead.
 
 To improve consistency, a custom `ItemApiLookup` is provided which accepts `ItemConvertible` instead of `ItemStack` as its key.
+
 #### `XXXLookupContext`
+
 The provider API allows us to pass a context object to the API provider.
 
 In order to ensure easy transition consumers of the API for future changes, such as the addition of new data in context,
@@ -251,8 +301,10 @@ Whereas if the context object does not exist, addition of new fields requires br
 For example, `BlockLookupContext` only has the `direction` property now, which means it could be replaced with `Direction` directly.  However if at a later date, a new field is desired, the context will not be `Direction` anymore, forcing the consumers of the API to update in order to work.
 
 ### Type of amount
+
 In order to ensure that the allocation of object is low, the type of amount should be a numerical primitive.
 There are several choices:
+
 - `byte`
 - `short`
 - `char`
@@ -278,8 +330,11 @@ Problem is that they cannot represent decimals.  However, consumers of the API c
 Lastly, `long` is chosen because it can support a much larger range of numbers than `int`.  The larger range is also reasonably large, that is, not too large like floating point numbers.
 
 ### Built-in implementations
+
 #### `Context`
+
 For now, the API comes with 3 implementations:
+
 - `SimulationContext`<br>
   It discards both the action and the rollback action.  Nothing occurs, can be used as a check for a single action.<br>
   Ignores `#close`.
@@ -294,8 +349,9 @@ For now, the API comes with 3 implementations:
   The default action is to run the rollback actions in reverse order of which they are added, which restores the states of participants.<br>
   `#commit` clears the rollback action queue, which means the states of participants will not be restored.
 
-
 ## Conjectures
+
 These, while seems to make sense, needs statistics to be proven.
+
 - It is much more likely that a constructed content does not have data rather than having data in all conditions.
 - It is much more likely that an atomic transfer operation as defined by the controller consists of one and only mone action.
