@@ -17,7 +17,7 @@ __Copernican heliocentrism__ is {{the astronomical [model](scientific%20modellin
 
 The model uses ideas such as:
 
-- [planets](planet.md) ::: Not only other planets but the Earth also revolves around a stationary sun in perfectly circular orbits. <!--SR:!2024-08-06,16,321!2024-08-06,16,321-->
+- [planets](planet.md) ::: Not only other planets but [Earth](Earth.md) also revolves around a stationary [Sun](Sun.md) in perfectly [circular orbits](circular%20orbit.md). <!--SR:!2024-08-06,16,321!2024-08-06,16,321-->
 - [Earth](Earth.md)'s motions ::: [Earth](Earth.md) has three motions: daily rotation, annual revolution, and annual tilting of its axis. <!--SR:!2024-08-09,19,321!2024-08-07,17,321-->
 - [apparent retrograde motion](apparent%20retrograde%20motion.md) ::: Apparent retrograde motions of other planets are explained by the Earth's motion relative to other planets. <!--SR:!2024-08-09,19,321!2024-08-01,14,301-->
 - [stars](star.md) ::: The distance from [Earth](Earth.md) to the [Sun](Sun.md) is small compared to the distance from the Sun to the [stars](star.md). <!--SR:!2024-08-05,15,321!2024-08-09,19,321-->
