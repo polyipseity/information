@@ -3,12 +3,14 @@ aliases:
   - 'trigonometric substitution: fractional exponent'
 tags:
   - date/2024/07/01
-  - flashcard/special/questions/2024-07-01T160936_245_0800
+  - flashcard/special/questions/trigonometric_substitution__fractional_exponent
   - language/in/English
   - question/mathematics/calculus/integral
 ---
 
 # trigonometric substitution: fractional exponent
+
+- time: 2024-07-01T16:09:36.245+08:00
 
 Evaluate $$\int \! \left( 5x^2 - 5 \right)^{\frac 3 2} \, \mathrm{d}x$$.
 

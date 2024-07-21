@@ -4,7 +4,7 @@ aliases:
 tags:
   - date/2024/03/02/from
   - date/2024/03/04/to
-  - flashcard/special/questions/2024-03-02T175520_242_0800
+  - flashcard/special/questions/factorial__power__and_modular_arithmetic
   - language/in/English
   - question/mathematics/modular_arithmetic
   - question/mathematics/number_theory
@@ -14,6 +14,7 @@ tags:
 # factorial, power, and modular arithmetic
 
 - credit: [Older Amateur](https://math.stackexchange.com/a/4836664), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), via Mathematics Stack Exchange
+- time: 2024-03-02T17:55:20.242+08:00
 
 Prove that $$\sqrt{ \sum_{n = 1}^{N \ge 12} n!^m } \notin \mathbb{Z} \qquad m \in \mathbb{Z}_{\ge 1}$$.
 

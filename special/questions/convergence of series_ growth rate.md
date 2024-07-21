@@ -4,12 +4,14 @@ aliases:
 tags:
   - date/2024/07/01/from
   - date/2024/07/02/to
-  - flashcard/special/questions/2024-07-01T231204_682_0800
+  - flashcard/special/questions/convergence_of_series__growth_rate
   - language/in/English
   - question/mathematics/series
 ---
 
 # convergence of series: growth rate
+
+- time: 2024-07-01T23:12:04.682+08:00
 
 Prove or disprove: If $a_n > 0$ for $n \gg 0$ and $\lim_{n \to +\infty} n a_n = 0$, then $\sum (-1)^n a_n$ converges.
 

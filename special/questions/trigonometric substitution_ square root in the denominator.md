@@ -3,12 +3,14 @@ aliases:
   - 'trigonometric substitution: square root in the denominator'
 tags:
   - date/2024/07/01
-  - flashcard/special/questions/2024-07-01T160949_707_0800
+  - flashcard/special/questions/trigonometric_substitution__square_root_in_the_denominator
   - language/in/English
   - question/mathematics/calculus/integral
 ---
 
 # trigonometric substitution: square root in the denominator
+
+- time: 2024-07-01T16:09:49.707+08:00
 
 Evaluate $$\int \! \frac {x^2} {\sqrt{3x^2 + 8} } \,\mathrm{d}x$$.
 

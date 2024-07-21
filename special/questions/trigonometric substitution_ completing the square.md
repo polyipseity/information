@@ -3,12 +3,14 @@ aliases:
   - 'trigonometric substitution: completing the square'
 tags:
   - date/2024/07/01
-  - flashcard/special/questions/2024-07-01T160953_702_0800
+  - flashcard/special/questions/trigonometric_substitution__completing_the_square
   - language/in/English
   - question/mathematics/calculus/integral
 ---
 
 # trigonometric substitution: completing the square
+
+- time: 2024-07-01T16:09:53.702+08:00
 
 Evaluate $$\int \! x \sqrt{4x^2 - 40x + 92} \,\mathrm{d}x$$.
 
