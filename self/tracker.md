@@ -17,23 +17,29 @@ tags:
 
 ### avatar set 1
 
-- contacts
 - <https://account.microsoft.com/profile/edit-picture>: <polyipseity@outlook.com>
 - <https://appleid.apple.com/account/manage/section/information>: <polyipseity@gmail.com>
 - <https://discord.com/>: polyipseity
 - <https://github.com/polyipseity>
+- <https://instagram.com/(redacted)>
 - <https://myaccount.google.com/>: <polyipseity@gmail.com>
 - <https://studio.buymeacoffee.com/my-account/edit-profile>: polyipseity
 - <https://t.me/quizzaciously>
 - <https://twitch.tv/settings/profile>: polyipseity
-- <https://whatsapp.com/>: (redacted)
 - <https://x.com/polyipseity>
 
 ### avatar set 2
 
-- <https://linkedin.com/in/(redacted)>
+- contacts
+- <https://facebook.com/(redacted)>
+- <https://instagram.com/(redacted)>
+- <https://whatsapp.com/>: (redacted)
 
 ### avatar set 3
+
+- <https://linkedin.com/in/(redacted)>
+
+### avatar set 4
 
 - <https://discord.com/>: (redacted)
 - <https://im.qq.com/>: (redacted)

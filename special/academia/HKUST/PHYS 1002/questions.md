@@ -52,7 +52,7 @@ The parenthesized text at the beginning of of each question is {{the location th
 > 5. 3 hundred trillion years
 >
 > - solution: {{5}}
-> - steps: {{Given there are about 10<sup>22</sup> stars, divide it by the number of seconds in a year: $$\frac {10^{22} } {86400 \times 365} \approx 3.17 \times 10^{14}\text{ years}$$ to get about 300 trillion (300 × 10<sup>12</sup>) years.}} <!--SR:!2024-09-11,52,290!2024-08-06,26,270-->
+> - explanation: {{Given there are about 10<sup>22</sup> stars, divide it by the number of seconds in a year: $$\frac {10^{22} } {86400 \times 365} \approx 3.17 \times 10^{14}\text{ years}$$ to get about 300 trillion (300 × 10<sup>12</sup>) years.}} <!--SR:!2024-09-11,52,290!2024-08-06,26,270-->
 
 ## 2024-06-27
 
@@ -77,7 +77,7 @@ The parenthesized text at the beginning of of each question is {{the location th
 > 5. 3/2 sidereal days
 >
 > - solution: {{2}}
-> - steps: {{The planet is in prograde motion. Hence, the number of solar days per orbital period is $6 - 1 = 5\text{ solar days}$. Thus each solar day is $\frac {1 / 5} {1 / 6} = \frac 6 5\text{ sidereal days}$.}} <!--SR:!2024-08-16,33,277!2024-08-17,34,277-->
+> - explanation: {{The planet is in prograde motion. Hence, the number of solar days per orbital period is $6 - 1 = 5\text{ solar days}$. Thus each solar day is $\frac {1 / 5} {1 / 6} = \frac 6 5\text{ sidereal days}$.}} <!--SR:!2024-08-16,33,277!2024-08-17,34,277-->
 
 <!-- markdownlint MD028 -->
 
@@ -103,7 +103,7 @@ The parenthesized text at the beginning of of each question is {{the location th
 > 6. 44/43 solar days
 >
 > - solution: {{3}}
-> - steps: {{The planet is in retrograde motion. Hence, the number of sidereal days per orbital period is $42 - 1 = 41\text{ sidereal days}$. Thus each sidereal day is $\frac {1 / 41} {1 / 42} = \frac {42} {41}\text{ solar days}$.}} <!--SR:!2024-08-05,25,277!2024-08-10,27,277-->
+> - explanation: {{The planet is in retrograde motion. Hence, the number of sidereal days per orbital period is $42 - 1 = 41\text{ sidereal days}$. Thus each sidereal day is $\frac {1 / 41} {1 / 42} = \frac {42} {41}\text{ solar days}$.}} <!--SR:!2024-08-05,25,277!2024-08-10,27,277-->
 
 ## 2024-07-02
 
@@ -141,7 +141,7 @@ The parenthesized text at the beginning of of each question is {{the location th
 > 6. 60 years
 >
 > - solution: {{2}}
-> - steps: {{Since the relative orbital motion between the planet and the satellite is prograde, apply the equation: $$\frac 1 {T_\text{syn} } = \frac 1 {T_1} - \frac 1 {T_2} \quad T_1 < T_2$$. Thus we have $T_\text{syn} = \frac 1 {\frac 1 {T_1} - \frac 1 {T_2} } = \frac 1 {\frac 1 {69} - \frac 1 {420} } \approx 82.564\,1026 \approx 83\text{ years}$.}} <!--SR:!2024-08-01,17,270!2024-07-29,15,270-->
+> - explanation: {{Since the relative orbital motion between the planet and the satellite is prograde, apply the equation: $$\frac 1 {T_\text{syn} } = \frac 1 {T_1} - \frac 1 {T_2} \quad T_1 < T_2$$. Thus we have $T_\text{syn} = \frac 1 {\frac 1 {T_1} - \frac 1 {T_2} } = \frac 1 {\frac 1 {69} - \frac 1 {420} } \approx 82.564\,1026 \approx 83\text{ years}$.}} <!--SR:!2024-08-01,17,270!2024-07-29,15,270-->
 
 <!-- markdownlint MD028 -->
 
@@ -168,7 +168,7 @@ The parenthesized text at the beginning of of each question is {{the location th
 > 6. 7/6 years
 >
 > - solution: {{6}}
-> - steps: {{Since the relative orbital motion between the 2 planets is retrograde, apply the equation: $$\frac 1 {T_\text{syn} } = \frac 1 {T_1} + \frac 1 {T_2}$$. Thus we have $T_2 = \frac 1 {\frac 1 {T_\text{syn} } - \frac 1 {T_1} } = \frac 1 {\frac 1 1 - \frac 1 7} = \frac 7 6\text{ years}$.}} <!--SR:!2024-08-05,22,290!2024-07-22,13,290-->
+> - explanation: {{Since the relative orbital motion between the 2 planets is retrograde, apply the equation: $$\frac 1 {T_\text{syn} } = \frac 1 {T_1} + \frac 1 {T_2}$$. Thus we have $T_2 = \frac 1 {\frac 1 {T_\text{syn} } - \frac 1 {T_1} } = \frac 1 {\frac 1 1 - \frac 1 7} = \frac 7 6\text{ years}$.}} <!--SR:!2024-08-05,22,290!2024-07-22,13,290-->
 
 ## 2024-07-04
 
@@ -181,7 +181,7 @@ The parenthesized text at the beginning of of each question is {{the location th
 > 5. 3 hours
 >
 > - solution: {{3}}
-> - steps: {{Recall that the moonrise time corresponds to the lunar phase cycle. As the cycle resets every 29.5 days, the moonrise time also resets 29.5 days. A moonrise time "reset" happens when the moon rises later by a cumulative time of 1 day. Thus the answer is: $$\frac {24} {29.5} \approx 0.813\,559\,322 \approx 1\text{ hour}$$.}} <!--SR:!2024-09-01,42,312!2024-07-26,17,312-->
+> - explanation: {{Recall that the moonrise time corresponds to the lunar phase cycle. As the cycle resets every 29.5 days, the moonrise time also resets 29.5 days. A moonrise time "reset" happens when the moon rises later by a cumulative time of 1 day. Thus the answer is: $$\frac {24} {29.5} \approx 0.813\,559\,322 \approx 1\text{ hour}$$.}} <!--SR:!2024-09-01,42,312!2024-07-26,17,312-->
 
 <!-- markdownlint MD028 -->
 
@@ -194,7 +194,7 @@ The parenthesized text at the beginning of of each question is {{the location th
 > 5. 366 days
 >
 > - solution: {{4}}
-> - steps: {{Recall that the eclipse season depends on the line of lunar nodes. Consider that the lunar nodes rotates retrograde (clockwise) once about 18.6 years. The answer is: $$\frac {365.25} {18.6} \approx 19.637\,0967 \approx 20\text{ days}$$.}} <!--SR:!2024-07-27,18,312!2024-07-31,17,272-->
+> - explanation: {{Recall that the eclipse season depends on the line of lunar nodes. Consider that the lunar nodes rotates retrograde (clockwise) once about 18.6 years. The answer is: $$\frac {365.25} {18.6} \approx 19.637\,0967 \approx 20\text{ days}$$.}} <!--SR:!2024-07-27,18,312!2024-07-31,17,272-->
 
 ## 2024-07-09
 
@@ -207,7 +207,7 @@ The parenthesized text at the beginning of of each question is {{the location th
 > 5. proportional to r
 >
 > - solution: {{2}}
-> - steps: {{The orbital period $p$ is proportional to the inverse of angular orbital velocity $1 / \omega$. Further, linear orbital velocity (speed) $v$ relates to angular orbital velocity by $v = r \omega \implies \omega = v / r$. Therefore, $$p^2 \propto r^3 \implies \omega^{-2} \propto r^3 \implies r^2 / v^2 \propto r^3 \implies r^{-1} \propto v^2 \implies v \propto r^{-1 / 2}$$. Therefore the answer is $v \propto r^{-1 / 2}$.}} <!--SR:!2024-07-31,10,301!2024-08-07,17,321-->
+> - explanation: {{The orbital period $p$ is proportional to the inverse of angular orbital velocity $1 / \omega$. Further, linear orbital velocity (speed) $v$ relates to angular orbital velocity by $v = r \omega \implies \omega = v / r$. Therefore, $$p^2 \propto r^3 \implies \omega^{-2} \propto r^3 \implies r^2 / v^2 \propto r^3 \implies r^{-1} \propto v^2 \implies v \propto r^{-1 / 2}$$. Therefore the answer is $v \propto r^{-1 / 2}$.}} <!--SR:!2024-07-31,10,301!2024-08-07,17,321-->
 
 <!-- markdownlint MD028 -->
 
@@ -220,7 +220,7 @@ The parenthesized text at the beginning of of each question is {{the location th
 > 5. proportional to $r^2$
 >
 > - solution: {{1}}
-> - steps: {{The orbital period $T$ is proportional to the inverse of angular orbital velocity $1 / \omega$. Further, linear orbital acceleration $A$ relates to angular orbital velocity by $A = r \omega^2 \implies \omega^2 = A / r$. Therefore, $$T^2 \propto r^3 \implies \omega^{-2} \propto r^3 \implies r / A \propto r^3 \implies r^{-2} \propto A \implies A \propto r^{-2}$$. Therefore the answer is $A \propto r^{-2}$.}} <!--SR:!2024-08-06,16,321!2024-07-30,9,281-->
+> - explanation: {{The orbital period $T$ is proportional to the inverse of angular orbital velocity $1 / \omega$. Further, linear orbital acceleration $A$ relates to angular orbital velocity by $A = r \omega^2 \implies \omega^2 = A / r$. Therefore, $$T^2 \propto r^3 \implies \omega^{-2} \propto r^3 \implies r / A \propto r^3 \implies r^{-2} \propto A \implies A \propto r^{-2}$$. Therefore the answer is $A \propto r^{-2}$.}} <!--SR:!2024-08-06,16,321!2024-07-30,9,281-->
 
 ## 2024-07-11
 
@@ -235,7 +235,7 @@ The parenthesized text at the beginning of of each question is {{the location th
 > 5. 11 km/s
 >
 > - solution: {{3}}
-> - steps: {{Equate circular acceleration to gravitational acceleration: $$a = g \implies \frac {v^2} r = g \implies v^2 = gr \implies v = \sqrt{gr}$$. Plug in the numbers: $$v = \sqrt{\frac {9.8} {1000} \cdot 6400} = \sqrt{62.72} \approx 7.91959595\text{ km/s}$$. Therefore, the answer is 7.9 km/s.}} <!--SR:!2024-07-28,7,281!2024-07-30,9,281-->
+> - explanation: {{Equate circular acceleration to gravitational acceleration: $$a = g \implies \frac {v^2} r = g \implies v^2 = gr \implies v = \sqrt{gr}$$. Plug in the numbers: $$v = \sqrt{\frac {9.8} {1000} \cdot 6400} = \sqrt{62.72} \approx 7.91959595\text{ km/s}$$. Therefore, the answer is 7.9 km/s.}} <!--SR:!2024-07-28,7,281!2024-07-30,9,281-->
 
 <!-- markdownlint MD028 -->
 
@@ -248,7 +248,7 @@ The parenthesized text at the beginning of of each question is {{the location th
 > 5. 30 g
 >
 > - solution: {{2}}
-> - steps: {{Apply Albert Einstein's famous formula: $$E = mc^2 \implies m = \frac E {c^2}$$. Plug in the numbers: $$E = \frac {2.92 \times 10^12} {(3 \times 10^8)^2} \approx 3.24444444 \times 10^{-5}\text{ kg} \approx 0.03\text{ g}$$. Therefore, the answer is 0.03 g.}} <!--SR:!2024-08-02,12,301!2024-08-08,18,321-->
+> - explanation: {{Apply Albert Einstein's famous formula: $$E = mc^2 \implies m = \frac E {c^2}$$. Plug in the numbers: $$E = \frac {2.92 \times 10^12} {(3 \times 10^8)^2} \approx 3.24444444 \times 10^{-5}\text{ kg} \approx 0.03\text{ g}$$. Therefore, the answer is 0.03 g.}} <!--SR:!2024-08-02,12,301!2024-08-08,18,321-->
 
 <!-- markdownlint MD028 -->
 
@@ -261,7 +261,7 @@ The parenthesized text at the beginning of of each question is {{the location th
 > 5. 11 km/s
 >
 > - solution: {{2}}
-> - steps: {{Recall that the acceleration due to gravity is inversely proportional to the square of distance: $g \propto \frac 1 {r^2}$. Therefore, the acceleration due to gravity 400 km above the surface is: $$g = 9.8 \cdot \frac {6400^2} {6800^2} \approx 8.68096886\text{ m/s}$$. Now, equate circular acceleration to gravitational acceleration: $$a = g \implies \frac {v^2} r = g \implies v^2 = gr \implies v = \sqrt{gr}$$. Plug in the numbers: $$v = \sqrt{\frac {8.68096886} {1000} \cdot 6800} \approx 7.6831366\text{ km/s}$$. Therefore, the answer is 7.7 km/s.}} <!--SR:!2024-07-31,10,301!2024-08-01,11,301-->
+> - explanation: {{Recall that the acceleration due to gravity is inversely proportional to the square of distance: $g \propto \frac 1 {r^2}$. Therefore, the acceleration due to gravity 400 km above the surface is: $$g = 9.8 \cdot \frac {6400^2} {6800^2} \approx 8.68096886\text{ m/s}$$. Now, equate circular acceleration to gravitational acceleration: $$a = g \implies \frac {v^2} r = g \implies v^2 = gr \implies v = \sqrt{gr}$$. Plug in the numbers: $$v = \sqrt{\frac {8.68096886} {1000} \cdot 6800} \approx 7.6831366\text{ km/s}$$. Therefore, the answer is 7.7 km/s.}} <!--SR:!2024-07-31,10,301!2024-08-01,11,301-->
 
 <!-- markdownlint MD028 -->
 
@@ -274,4 +274,59 @@ The parenthesized text at the beginning of of each question is {{the location th
 > 5. 1 trillion years
 >
 > - solution: {{3}}
-> - steps: {{Apply Albert Einstein's famous formula: $$E = mc^2$$. Calculate the total emitted energy over the Sun's lifetime: $$E = 2 \times 10^{30} \cdot 0.001 \cdot (3 \times 10^8)^2 = 1.8 \times 10^{44}\text{ J}$$. Then calculate its lifetime by dividing it by the power of the Sun: $$t = \frac {1.8 \times 10^{44} } {3.8 \times 10^{26} } \approx 4.73684211 \times 10^{17}\text{ s} \approx 1.5010468 \times 10^{10}\text{ yrs} \approx 15\text{ billion years}$$. Therefore, the answer is 10 billion years.}} <!--SR:!2024-07-29,8,281!2024-08-01,11,301-->
+> - explanation: {{Apply Albert Einstein's famous formula: $$E = mc^2$$. Calculate the total emitted energy over the Sun's lifetime: $$E = 2 \times 10^{30} \cdot 0.001 \cdot (3 \times 10^8)^2 = 1.8 \times 10^{44}\text{ J}$$. Then calculate the Sun's lifetime by dividing it by the power of the Sun: $$t = \frac {1.8 \times 10^{44} } {3.8 \times 10^{26} } \approx 4.73684211 \times 10^{17}\text{ s} \approx 1.5010468 \times 10^{10}\text{ yrs} \approx 15\text{ billion years}$$. Therefore, the answer is 10 billion years.}} <!--SR:!2024-07-29,8,281!2024-08-01,11,301-->
+
+## 2024-07-16
+
+> Q1. (iPRS) Take the visible light wavelengths to be ~380 nm to 700 nm.
+>
+> A star emits thermal radiation with maximum intensity at 530 nm, which is in the range of green lights (~495 nm – 570 nm). This star is
+>
+> 1. red in color
+> 2. white in color
+> 3. green in color
+> 4. blue in color
+>
+> - solution: {{2}}
+> - explanation: {{Consider the graph of spectral radiance for that star, which peaks at 530 nm. It should look like a hill with somewhat narrow peak. However, the narrow peak should cover the entire visible spectrum. As the spectral radiance is approximately even around the peak, that means it is approximately even over the entire visible spectrum, so the color is white.}}
+
+<!-- markdownlint MD028 -->
+
+> Q2. (derived) Which of the following color is impossible for a star to have, as seen by the human eye?
+>
+> 1. red
+> 2. yellow
+> 3. white
+> 4. blue
+> 5. purple
+>
+> - solution: {{5}}
+> - explanation: {{Purple is the combination of red and blue. However, red and blue are on the two opposite ends of the visible spectrum, so the spectral radiance graph would need to have 2 peaks. This is impossible for thermal radiation to produce, as predicted by the Wien approximation. For more, see [Planckian locus](../../../../general/Planckian%20locus.md).}}
+
+## 2024-07-18
+
+> Q1. (iPRS) From laboratory measurements, we know that a particular spectral line appears at a certain wavelength. The line width is very small and can be ignored. A star is moving with negligible velocity relative to the Earth but self-rotating very fast. Assume that the Earth lies on the equatorial plane of the star. What will be observed of the same spectral line in the spectrum of the star?
+>
+> 1. Broadened (line width increased) but (the center of line) un-shifted.
+> 2. Broadened (line width increased) and (the center of line) red-shifted.
+> 3. Broadened (line width increased) and (the center of line) blue-shifted.
+> 4. No width broadening and un-shifted.
+> 5. No width broadening but red-shifted.
+> 6. No width broadening but blue-shifted.
+>
+> - solution: {{1}}
+> - explanation: {{First, the star is not moving, so the spectral line should be unshifted. Now consider the surface a very fast rotating star. In particular, consider the sides of the rotating star. The surface of one side is approaching us very quickly, and that of the other side is moving away from us very quickly as well. This would mean part of the light from the star is blue-shifted and another part is red-shifted. The result is that the spectral line broadens.}}
+
+<!-- markdownlint MD028 -->
+
+> Q2. (derived) A binary star system consists of two stars orbiting each other. Assume a binary star system is not moving relative to Earth, and its orbital plane is parallel to that of Earth. When the system is dimmer than what it normally is, what are the detected Doppler shifts of the two stars?
+>
+> 1. red shift for one star, blue shift for the other star
+> 2. red shift for one star only, almost no shift for the other star
+> 3. blue shift for one star only, almost no shift for the other star
+> 4. red shift for both stars
+> 5. blue shift for both stars
+> 6. almost no shift for both stars
+>
+> - solution: {{6}}
+> - explanation: {{When the system is dimmer than what it normally is, it implies one star is in front of the other star. Consider that both stars are always opposite in their orbits. So the stars must be in the part of the orbit closest to or farthest from Earth. That means both stars are moving mostly transversal to Earth, taking into consideration that the system as a whole is not moving. So there should be almost no Doppler shift}}.

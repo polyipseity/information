@@ -8,15 +8,13 @@ tags:
 
 # photon
 
-A __photon__ is {{a [quantum](quantum.md) of the [electromagnetic field](electromagnetic%20field.md)}}. <!--SR:!2026-09-10,863,290-->
+A __photon__ is {{a [quantum](quantum.md) of the [electromagnetic field](electromagnetic%20field.md)}}. Photons are {{[massless](massless%20particle.md)}}, so they {{always move at the [speed of light in vacuum](speed%20of%20light.md), 299&nbsp;792&nbsp;458&nbsp;m/s}}. <!--SR:!2026-09-10,863,290-->
 
-## properties
+## physical properties
 
-A photon is {{[massless](massless%20particle.md)}}, so they {{always move at the [speed of light in vacuum](speed%20of%20light.md), 299&nbsp;792&nbsp;458&nbsp;m/s}}. <!--SR:!2025-05-14,646,290!2025-02-01,592,310-->
+### relativistic energy and momentum
 
-It carries {{[energy](energy.md) $E$ proportional to its [frequency](frequency.md) $f$}}:
-{{$$E=hf$$}}
-where {{$h$ is the [Planck constant](Planck%20constant.md)}}. <!--SR:!2024-08-07,437,290!2027-08-06,1328,350!2027-10-16,1382,350-->
+- see: [photon energy](./photon%20energy.md), [special relativity](special%20relativity.md)
 
 ## references
 
