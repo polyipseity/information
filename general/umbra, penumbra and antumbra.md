@@ -14,6 +14,7 @@ tags:
   - flashcard/general/umbra__penumbra_and_antumbra
   - language/in/English
 ---
+ ant
 
 # umbra, penumbra and antumbra
 
@@ -37,7 +38,7 @@ The penumbra of a round body occluding a round light source forms {{a [frustum](
 
 The {{__antumbra__}} (from the [Latin](Latin.md) {{_ante_ "before" and _umbra_ "shadow"}}) is {{the region from which the [occluding](occultation.md) body appears entirely within the disc of the light source}}. This implies {{the antumbra is a subset of the [penumbra](#penumbra)}}. An observer in this region experiences {{an [annular eclipse](solar%20eclipse.md#annular%20eclipse), in which a bright ring is visible around the eclipsing body}}. If the observer moves closer to the light source, {{the [apparent size](angular%20diameter.md) of the occluding body increases until it causes a full [umbra](#umbra)}}.
 
-The antumbra of a round body occluding a round light source forms {{a [cone](cone.md)}}. The cone can be visualized by {{drawing two lines, one from the light source top to the round body top, the other from the light source bottom to the round body bottom}}. Then the cone is {{the portion enclosed by the two lines and behind the apex of the [umbra](#umbra) cone}}. If the round body is {{larger than the round light source}}, then {{there is no antumbra}}.
+The antumbra of a round body occluding a round light source forms {{a [cone](cone.md)}}. The cone can be visualized by {{drawing two lines, one from the light source top to the round body top, the other from the light source bottom to the round body bottom}}. Then the cone is {{the portion enclosed by the two lines and behind the apex of the [umbra](#umbra) cone}}. If the round body is {{larger than or equal to the round light source in actual size}}, then {{there is no antumbra}}.
 
 ## references
 
