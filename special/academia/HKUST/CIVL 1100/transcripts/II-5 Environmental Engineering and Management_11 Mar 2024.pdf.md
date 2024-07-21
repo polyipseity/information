@@ -25,7 +25,7 @@ Environmental Engineering and Management
 What is Environmental Engineering?
 
 - What is environmental engineering? ::: Apply science and engineering principles to solve environmental problems. <!--SR:!2024-08-01,56,310!2024-11-20,136,310-->
-  - environmental engineering relevance ::: practical and lots of satisfaction, prevent environment deterioration, related to daily life <!--SR:!2024-07-23,48,310!2024-07-21,45,290-->
+  - environmental engineering relevance ::: practical and lots of satisfaction, prevent environment deterioration, related to daily life <!--SR:!2024-07-23,48,310!2025-01-17,180,310-->
 
 ## page 3
 
@@ -65,7 +65,7 @@ return await memorize_seq(
 - land contamination→:::←noise pollution <!--SR:!2024-07-28,19,270!2024-09-03,68,270-->
 - noise pollution→:::←solid waste disposal <!--SR:!2024-09-16,76,270!2024-11-18,126,290-->
 - solid waste disposal→:::←water pollution <!--SR:!2024-07-25,48,290!2024-07-31,15,210-->
-- water pollution→:::←_(end)_ <!--SR:!2024-07-24,49,310!2024-07-17,43,290-->
+- water pollution→:::←_(end)_ <!--SR:!2024-07-24,49,310!2025-01-11,174,310-->
 
 <!--/pytextgen-->
 
@@ -98,8 +98,8 @@ return await memorize_seq(
 
 <!--pytextgen generate section="a92d"--><!-- The following content is generated at 2024-06-09T06:29:24.057662+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←(Cap. 311) Air Pollution Control Ordinance <!--SR:!2024-07-21,7,255!2024-09-29,84,355-->
-- (Cap. 311) Air Pollution Control Ordinance→:::←(Cap. 354) Waste Disposal Ordinance <!--SR:!2024-07-25,11,275!2024-07-17,10,315-->
+- _(begin)_→:::←(Cap. 311) Air Pollution Control Ordinance <!--SR:!2024-08-07,17,255!2024-09-29,84,355-->
+- (Cap. 311) Air Pollution Control Ordinance→:::←(Cap. 354) Waste Disposal Ordinance <!--SR:!2024-07-25,11,275!2024-07-25,4,295-->
 - (Cap. 354) Waste Disposal Ordinance→:::←(Cap. 358) Water Pollution Control Ordinance <!--SR:!2024-09-08,55,295!2024-08-12,27,315-->
 - (Cap. 358) Water Pollution Control Ordinance→:::←(Cap. 400) Noise Pollution Control Ordinance <!--SR:!2024-08-21,36,275!2024-07-22,26,295-->
 - (Cap. 400) Noise Pollution Control Ordinance→:::←(Cap. 499) Environmental Impact Ordinance <!--SR:!2024-07-22,17,295!2024-08-15,44,315-->
@@ -115,7 +115,7 @@ Land Contamination: A serious problem in Hong Kong?
 
 Former Kai Tak Airport
 
-- contaminants detected in the former Kai Tak Airport ::: heavy metals, total petroleum hydrocarbons (TPH), volatile organic compounds (VOCs) <!--SR:!2024-07-20,43,290!2024-07-29,53,310-->
+- contaminants detected in the former Kai Tak Airport ::: heavy metals, total petroleum hydrocarbons (TPH), volatile organic compounds (VOCs) <!--SR:!2024-11-18,120,290!2024-07-29,53,310-->
 
 ## page 6
 
@@ -155,7 +155,7 @@ return await memorize_seq(
 - _(begin)_→:::←air sparging <!--SR:!2024-10-02,87,355!2024-10-01,86,355-->
 - air sparging→:::←bioremediation <!--SR:!2024-08-03,36,315!2024-08-21,53,335-->
 - bioremediation→:::←catalytic oxidation <!--SR:!2024-08-05,37,315!2024-08-28,59,335-->
-- catalytic oxidation→:::←ex-situ biopile <!--SR:!2024-07-18,23,295!2024-08-13,47,335-->
+- catalytic oxidation→:::←ex-situ biopile <!--SR:!2024-09-26,67,295!2024-08-13,47,335-->
 - ex-situ biopile→:::←ex-situ solidification or stabilization <!--SR:!2024-08-25,56,335!2024-08-12,46,335-->
 - ex-situ solidification or stabilization→:::←_(end)_ <!--SR:!2024-09-30,85,355!2024-08-20,52,335-->
 
@@ -165,7 +165,7 @@ return await memorize_seq(
 
 Today's Kai Tak Development — Cruise Terminal
 
-- the former Kai Tak airport location nowadays ::: cruise terminal <!--SR:!2024-08-20,72,310!2024-07-18,44,290-->
+- the former Kai Tak airport location nowadays ::: cruise terminal <!--SR:!2024-08-20,72,310!2025-01-15,178,310-->
 
 ## page 8
 
@@ -208,7 +208,7 @@ Sustainable Waste Management
 
 How to provide motivation for waste reduction, reuse and recycling?
 
-- How to charge your MSW? ::: fixed charge, proxy system, quantity-based system <!--SR:!2024-07-17,44,290!2024-12-08,147,310-->
+- How to charge your MSW? ::: fixed charge, proxy system, quantity-based system <!--SR:!2025-01-19,182,310!2024-12-08,147,310-->
   - quantity-based system example ::: Taipei (not Taiwan as a whole) implemented MSW charging by bag in 2000. Compared to before, -37% after 1 year and -62% after 7 years. <!--SR:!2024-10-06,91,270!2024-11-13,120,290-->
 
 ## page 14
@@ -243,11 +243,11 @@ Water Pollution: A serious problem in Hong Kong?
 Hong Kong Harbour Area Treatment Scheme Stage I (HATS)
 
 - Hong Kong Harbour Area Treatment Scheme Stage I ::: HATS Stage 1 <!--SR:!2024-07-31,56,310!2024-08-07,61,310-->
-  - HATS Stage 1 scheme period ::: 1994 to 2001 <!--SR:!2024-11-10,117,290!2024-07-18,14,250-->
+  - HATS Stage 1 scheme period ::: 1994 to 2001 <!--SR:!2024-11-10,117,290!2024-08-24,34,250-->
   - HATS Stage 1 scheme cost ::: HK$8.2 billion <!--SR:!2024-10-20,101,290!2024-10-01,85,270-->
   - HATS Stage 1 details ::: Stonecutters Island Sewage Treatment Works (SCISTW), sewage tunnel of 23.6 km, upgrade 8 preliminary treatment works (PTWs) <!--SR:!2024-10-10,93,270!2024-08-04,58,310-->
   - HATS Stage 1 geographic coverage ::: collect sewage from Kowloon, Kwai Tsing, Tseung Kwan O, and north-eastern Hong Kong Island to SCISTW <!--SR:!2024-09-15,75,270!2024-12-09,148,310-->
-  - HATS Stage 1 coverage in numbers ::: 3.5 million people, 75% from harbour area <!--SR:!2024-07-21,46,290!2024-09-26,86,290-->
+  - HATS Stage 1 coverage in numbers ::: 3.5 million people, 75% from harbour area <!--SR:!2024-11-30,132,290!2024-09-26,86,290-->
   - HATS Stage 1 capacities :::: current ~1.4M m<sup>3</sup>/d, max: 1.7M m<sup>3</sup>/d <!--SR:!2024-11-05,114,290!2024-11-17,124,290-->
 
 ## page 18
@@ -301,7 +301,7 @@ Noise Levels and Causes
   - drilling ::: 90 dB(A) <!--SR:!2024-07-24,47,290!2024-08-27,63,270-->
   - train passing ::: 80 dB(A) <!--SR:!2024-08-11,64,310!2024-08-05,59,310-->
   - highway (harm threshold) ::: 70 dB(A) <!--SR:!2024-08-08,62,310!2024-07-23,46,290-->
-  - home with TV on ::: 60 dB(A) <!--SR:!2024-07-18,44,290!2024-07-18,42,290-->
+  - home with TV on ::: 60 dB(A) <!--SR:!2025-01-21,184,310!2025-01-05,168,310-->
   - library ::: 40 dB(A) <!--SR:!2024-08-10,64,310!2024-07-25,50,310-->
   - park ::: 30 dB(A) <!--SR:!2024-08-08,61,310!2024-07-25,50,310-->
 
@@ -310,7 +310,7 @@ Noise Levels and Causes
 Properties of Sound Waves
 
 - sound level calculation ::: root mean square of sound pressure $p_{\text{rms} }$ is used <!--SR:!2024-08-15,67,310!2024-08-14,67,310-->
-  - root mean square of sound pressure calculation ::: $$p_{\text{rms} } = \left(\overline{p^2} \right)^{0.5} = \left(\frac 1 T \int_0^T \! p^2(t) \,\mathrm{d}t \right)^{0.5}$$, where $T$ is duration of time period concerned, $t$ is time, $p(t)$ is pressure that may varies with time, and the overbar means the average over time <!--SR:!2024-07-21,44,290!2024-08-13,65,310-->
+  - root mean square of sound pressure calculation ::: $$p_{\text{rms} } = \left(\overline{p^2} \right)^{0.5} = \left(\frac 1 T \int_0^T \! p^2(t) \,\mathrm{d}t \right)^{0.5}$$, where $T$ is duration of time period concerned, $t$ is time, $p(t)$ is pressure that may varies with time, and the overbar means the average over time <!--SR:!2024-11-25,127,290!2024-08-13,65,310-->
 
 ## page 26
 
@@ -411,14 +411,14 @@ Observed climate change in Hong Kong
 
 - climate change consequences in Hong Kong ::: rainfall become more variable, sea level rises, temperature increases <!--SR:!2024-07-22,45,290!2024-08-10,63,310-->
   - temperature increases consequences ::: less cold days, more very hot days and hot nights <!--SR:!2024-08-05,59,310!2024-08-15,68,310-->
-  - rainfall become more variable consequences ::: probability of rainfall extremes increases <!--SR:!2024-07-31,55,310!2024-07-19,43,290-->
+  - rainfall become more variable consequences ::: probability of rainfall extremes increases <!--SR:!2024-07-31,55,310!2025-01-12,175,310-->
   - climate change example in Hong Kong ::: On 2017-08-22, max temperature reaches 36.6 °C in the Hong Kong Observatory headquarters, coinciding with the super typhoon Hato. <!--SR:!2024-08-02,49,250!2024-08-12,65,310-->
 
 ## page 33
 
 Concentration Units for Liquids
 
-- concentration units for liquids ::: mass of substance per unit mass of mixture, mass of substance per unit volume of mixture <!--SR:!2024-10-05,90,270!2024-07-17,43,290-->
+- concentration units for liquids ::: mass of substance per unit mass of mixture, mass of substance per unit volume of mixture <!--SR:!2024-10-05,90,270!2024-11-22,124,290-->
   - mass of substance per unit volume of mixture units for liquids ::: mol/L (mol is not strictly mass), mg/L <!--SR:!2024-11-24,138,310!2024-08-05,59,310-->
   - mass of substance per unit mass of mixture units for liquids ::: parts per billion (ppb) by weight, parts per million (ppm) by weight <!--SR:!2024-08-15,67,310!2024-08-19,71,310-->
 

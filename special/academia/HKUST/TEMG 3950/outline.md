@@ -165,7 +165,7 @@ The content is in teaching order.
     - consultant after 1 to 2 years ::: Analyst, Associate, Specialist: doing the work; enter from BA, BS, MPhil, or MSc <!--SR:!2024-08-09,47,321!2024-08-24,59,341-->
     - consultant after 2 to 4 years ::: As. Consultant, Consultant, Sr. Consultant: doing the work; enter from JD, MBA, MD, or PhD, exit to project member of big firms or manager in small firms, and further top MBA <!--SR:!2024-09-03,67,341!2024-08-08,46,321-->
     - consultant after 4 to 6 years ::: Eng. Manager, Mg. Consultant, Project Leader: managing the work; exit to manager of big firms or director of small firms, and further top EMBA <!--SR:!2024-07-22,34,301!2024-09-28,93,361-->
-    - consultant after 6 to 9 years ::: As. Partner, Principal: selling the work; exit to director of big firms or general manager (GM) of small firms, and further top EMBA <!--SR:!2024-07-21,33,301!2024-08-07,46,321-->
+    - consultant after 6 to 9 years ::: As. Partner, Principal: selling the work; exit to director of big firms or general manager (GM) of small firms, and further top EMBA <!--SR:!2024-10-27,98,301!2024-08-07,46,321-->
     - consultant after 9 years or more ::: Director, Partner, VP: managing the business; exit to CEO or retire rich <!--SR:!2024-08-23,59,341!2024-09-24,89,361-->
 - nature of complex problems ::: modeled by time-varying multi-variable optimization problems with constraints <!--SR:!2024-08-12,39,341!2024-09-26,91,361-->
   - solving complex problems ::: MECE frameworks for patterns, 5-step persuasive selling for presentation <!--SR:!2024-09-21,87,361!2024-07-25,36,321-->
@@ -175,7 +175,7 @@ The content is in teaching order.
 - modeling key concepts ::: abstraction, framework, model <!--SR:!2024-08-25,61,341!2024-10-04,98,361-->
   - modeling key concept: abstraction ::: filter for elements relevant to some specific purpose <!--SR:!2024-09-17,83,361!2024-10-02,96,361-->
   - modeling key concept: framework ::: a support structure around which something can be built <!--SR:!2024-09-25,90,361!2024-08-24,59,341-->
-  - modeling key concept: model ::: an abstraction of the real world for some specific purpose <!--SR:!2024-09-05,72,361!2024-07-19,31,341-->
+  - modeling key concept: model ::: an abstraction of the real world for some specific purpose <!--SR:!2024-09-05,72,361!2024-11-03,105,341-->
 - Aguilar's PESTLE framework ::: business environment analysis <!--SR:!2024-09-27,92,361!2024-09-15,81,361-->
   - [PEST analysis § composition](../../../../general/PEST%20analysis.md#composition)
 - Porter's 5 forces framework ::: industry profitability analysis <!--SR:!2024-08-28,63,341!2024-08-27,62,341-->
