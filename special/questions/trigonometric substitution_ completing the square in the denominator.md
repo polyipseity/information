@@ -1,14 +1,16 @@
 ---
 aliases:
-  - 'trigonometric substitution: completing the square'
+  - 'trigonometric substitution: completing the square in the denominator'
 tags:
   - date/2024/07/01
-  - flashcard/special/questions/2024-07-01T160956_318_0800
+  - flashcard/special/questions/trigonometric_substitution__completing_the_square_in_the_denominator
   - language/in/English
   - question/mathematics/calculus/integral
 ---
 
-# trigonometric substitution: completing the square
+# trigonometric substitution: completing the square in the denominator
+
+- time:2024-07-01T16:09:56.318+08:00
 
 Evaluate $$\int \! \frac x {\sqrt{-148 - 6x^2 + 60x} } \,\mathrm{d}x$$.
 

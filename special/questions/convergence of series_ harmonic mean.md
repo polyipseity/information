@@ -4,12 +4,14 @@ aliases:
 tags:
   - date/2024/07/01/from
   - date/2024/07/02/to
-  - flashcard/special/questions/2024-07-01T231208_913_0800
+  - flashcard/special/questions/convergence_of_series__harmonic_mean
   - language/in/English
   - question/mathematics/series
 ---
 
 # convergence of series: harmonic mean
+
+- time: 2024-07-01T23:12:08.913+08:00
 
 Prove or disprove: If $a_n > 0$ for $n \gg 0$ and $\sum a_n$ diverges, then $\sum \frac 1 {\frac 1 {a_n} + n}$ diverges.
 

@@ -3,12 +3,14 @@ aliases:
   - maximal coprime subset problem
 tags:
   - date/2024/02/23
-  - flashcard/special/questions/2024-02-23T145806_312_0800
+  - flashcard/special/questions/maximal_coprime_subset_problem
   - language/in/English
   - question/algorithm/dynamic_programming
 ---
 
 # maximal coprime subset problem
+
+- time: 2024-02-23T14:58:06.312+08:00
 
 For a given $n \ge 1$, from the set of integers from 1 to $n$, find the subset such that all its elements are coprime and the sum of the elements are as large as possible.
 

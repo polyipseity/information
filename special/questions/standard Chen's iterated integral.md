@@ -3,12 +3,14 @@ aliases:
   - standard Chen's iterated integral
 tags:
   - date/2024/02/29
-  - flashcard/special/questions/2024-02-29T173114_505_0800
+  - flashcard/special/questions/standard_Chen_s_iterated_integral
   - language/in/English
   - question/mathematics/calculus/integral
 ---
 
 # standard Chen's iterated integral
+
+- time: 2024-02-29T17:31:14.505+08:00
 
 A standard Chen's iterated integral is as follows, where $n \in \mathbb{Z}_{\ge 0}$ and $f$ is an [operator](../../general/operator%20(mathematics).md) that forms an [abelian group](../../general/abelian%20group.md):
 

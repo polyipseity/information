@@ -3,12 +3,14 @@ aliases:
   - heart tangents
 tags:
   - date/2023/12/06
-  - flashcard/special/questions/2023-12-06T143521_125_0800
+  - flashcard/special/questions/heart_tangents
   - language/in/English
   - question/mathematics/calculus/differential
 ---
 
 # heart tangents
+
+- time: 2023-12-06T14:35:21.125+08:00
 
 Consider the curve $\left(x^2+y^2-1\right)^3=x^2y^3$. Find the number of horizontal and vertical tangent lines.
 
