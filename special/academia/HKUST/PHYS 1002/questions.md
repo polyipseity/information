@@ -27,7 +27,7 @@ The parenthesized text at the beginning of of each question is {{the location th
 >
 > Question: When will we be able to see what it looks like __now__?
 >
-> - solution: {{_About_ 2.5 million years later. Or less than 2.5 million years later, if you know that the Andromeda is approaching the Milky Way.}} <!--SR:!2024-07-17,17,290-->
+> - solution: {{_About_ 2.5 million years later. Or less than 2.5 million years later, if you know that the Andromeda is approaching the Milky Way.}} <!--SR:!2024-09-06,47,290-->
 
 <!-- markdownlint MD028 -->
 
@@ -52,7 +52,7 @@ The parenthesized text at the beginning of of each question is {{the location th
 > 5. 3 hundred trillion years
 >
 > - solution: {{5}}
-> - steps: {{Given there are about 10<sup>22</sup> stars, divide it by the number of seconds in a year: $$\frac {10^{22} } {86400 \times 365} \approx 3.17 \times 10^{14}\text{ years}$$ to get about 300 trillion (300 × 10<sup>12</sup>) years.}} <!--SR:!2024-07-17,17,290!2024-08-06,26,270-->
+> - steps: {{Given there are about 10<sup>22</sup> stars, divide it by the number of seconds in a year: $$\frac {10^{22} } {86400 \times 365} \approx 3.17 \times 10^{14}\text{ years}$$ to get about 300 trillion (300 × 10<sup>12</sup>) years.}} <!--SR:!2024-09-11,52,290!2024-08-06,26,270-->
 
 ## 2024-06-27
 
@@ -181,7 +181,7 @@ The parenthesized text at the beginning of of each question is {{the location th
 > 5. 3 hours
 >
 > - solution: {{3}}
-> - steps: {{Recall that the moonrise time corresponds to the lunar phase cycle. As the cycle resets every 29.5 days, the moonrise time also resets 29.5 days. A moonrise time "reset" happens when the moon rises later by a cumulative time of 1 day. Thus the answer is: $$\frac {24} {29.5} \approx 0.813\,559\,322 \approx 1\text{ hour}$$.}} <!--SR:!2024-07-20,11,292!2024-07-26,17,312-->
+> - steps: {{Recall that the moonrise time corresponds to the lunar phase cycle. As the cycle resets every 29.5 days, the moonrise time also resets 29.5 days. A moonrise time "reset" happens when the moon rises later by a cumulative time of 1 day. Thus the answer is: $$\frac {24} {29.5} \approx 0.813\,559\,322 \approx 1\text{ hour}$$.}} <!--SR:!2024-09-01,42,312!2024-07-26,17,312-->
 
 <!-- markdownlint MD028 -->
 
@@ -207,7 +207,7 @@ The parenthesized text at the beginning of of each question is {{the location th
 > 5. proportional to r
 >
 > - solution: {{2}}
-> - steps: {{The orbital period $p$ is proportional to the inverse of angular orbital velocity $1 / \omega$. Further, linear orbital velocity (speed) $v$ relates to angular orbital velocity by $v = r \omega \implies \omega = v / r$. Therefore, $$p^2 \propto r^3 \implies \omega^{-2} \propto r^3 \implies r^2 / v^2 \propto r^3 \implies r^{-1} \propto v^2 \implies v \propto r^{-1 / 2}$$. Therefore the answer is $v \propto r^{-1 / 2}$.}} <!--SR:!2024-07-19,4,301!2024-07-19,4,301-->
+> - steps: {{The orbital period $p$ is proportional to the inverse of angular orbital velocity $1 / \omega$. Further, linear orbital velocity (speed) $v$ relates to angular orbital velocity by $v = r \omega \implies \omega = v / r$. Therefore, $$p^2 \propto r^3 \implies \omega^{-2} \propto r^3 \implies r^2 / v^2 \propto r^3 \implies r^{-1} \propto v^2 \implies v \propto r^{-1 / 2}$$. Therefore the answer is $v \propto r^{-1 / 2}$.}} <!--SR:!2024-07-31,10,301!2024-08-07,17,321-->
 
 <!-- markdownlint MD028 -->
 
@@ -220,7 +220,7 @@ The parenthesized text at the beginning of of each question is {{the location th
 > 5. proportional to $r^2$
 >
 > - solution: {{1}}
-> - steps: {{The orbital period $T$ is proportional to the inverse of angular orbital velocity $1 / \omega$. Further, linear orbital acceleration $A$ relates to angular orbital velocity by $A = r \omega^2 \implies \omega^2 = A / r$. Therefore, $$T^2 \propto r^3 \implies \omega^{-2} \propto r^3 \implies r / A \propto r^3 \implies r^{-2} \propto A \implies A \propto r^{-2}$$. Therefore the answer is $A \propto r^{-2}$.}} <!--SR:!2024-07-19,4,301!2024-07-18,3,281-->
+> - steps: {{The orbital period $T$ is proportional to the inverse of angular orbital velocity $1 / \omega$. Further, linear orbital acceleration $A$ relates to angular orbital velocity by $A = r \omega^2 \implies \omega^2 = A / r$. Therefore, $$T^2 \propto r^3 \implies \omega^{-2} \propto r^3 \implies r / A \propto r^3 \implies r^{-2} \propto A \implies A \propto r^{-2}$$. Therefore the answer is $A \propto r^{-2}$.}} <!--SR:!2024-08-06,16,321!2024-07-30,9,281-->
 
 ## 2024-07-11
 
@@ -235,7 +235,7 @@ The parenthesized text at the beginning of of each question is {{the location th
 > 5. 11 km/s
 >
 > - solution: {{3}}
-> - steps: {{Equate circular acceleration to gravitational acceleration: $$a = g \implies \frac {v^2} r = g \implies v^2 = gr \implies v = \sqrt{gr}$$. Plug in the numbers: $$v = \sqrt{\frac {9.8} {1000} \cdot 6400} = \sqrt{62.72} \approx 7.91959595\text{ km/s}$$. Therefore, the answer is 7.9 km/s.}} <!--SR:!2024-07-18,3,281!2024-07-18,3,281-->
+> - steps: {{Equate circular acceleration to gravitational acceleration: $$a = g \implies \frac {v^2} r = g \implies v^2 = gr \implies v = \sqrt{gr}$$. Plug in the numbers: $$v = \sqrt{\frac {9.8} {1000} \cdot 6400} = \sqrt{62.72} \approx 7.91959595\text{ km/s}$$. Therefore, the answer is 7.9 km/s.}} <!--SR:!2024-07-28,7,281!2024-07-30,9,281-->
 
 <!-- markdownlint MD028 -->
 
@@ -248,7 +248,7 @@ The parenthesized text at the beginning of of each question is {{the location th
 > 5. 30 g
 >
 > - solution: {{2}}
-> - steps: {{Apply Albert Einstein's famous formula: $$E = mc^2 \implies m = \frac E {c^2}$$. Plug in the numbers: $$E = \frac {2.92 \times 10^12} {(3 \times 10^8)^2} \approx 3.24444444 \times 10^{-5}\text{ kg} \approx 0.03\text{ g}$$. Therefore, the answer is 0.03 g.}} <!--SR:!2024-07-18,3,281!2024-07-19,4,301-->
+> - steps: {{Apply Albert Einstein's famous formula: $$E = mc^2 \implies m = \frac E {c^2}$$. Plug in the numbers: $$E = \frac {2.92 \times 10^12} {(3 \times 10^8)^2} \approx 3.24444444 \times 10^{-5}\text{ kg} \approx 0.03\text{ g}$$. Therefore, the answer is 0.03 g.}} <!--SR:!2024-08-02,12,301!2024-08-08,18,321-->
 
 <!-- markdownlint MD028 -->
 
@@ -261,7 +261,7 @@ The parenthesized text at the beginning of of each question is {{the location th
 > 5. 11 km/s
 >
 > - solution: {{2}}
-> - steps: {{Recall that the acceleration due to gravity is inversely proportional to the square of distance: $g \propto \frac 1 {r^2}$. Therefore, the acceleration due to gravity 400 km above the surface is: $$g = 9.8 \cdot \frac {6400^2} {6800^2} \approx 8.68096886\text{ m/s}$$. Now, equate circular acceleration to gravitational acceleration: $$a = g \implies \frac {v^2} r = g \implies v^2 = gr \implies v = \sqrt{gr}$$. Plug in the numbers: $$v = \sqrt{\frac {8.68096886} {1000} \cdot 6800} \approx 7.6831366\text{ km/s}$$. Therefore, the answer is 7.7 km/s.}} <!--SR:!2024-07-18,3,281!2024-07-19,4,301-->
+> - steps: {{Recall that the acceleration due to gravity is inversely proportional to the square of distance: $g \propto \frac 1 {r^2}$. Therefore, the acceleration due to gravity 400 km above the surface is: $$g = 9.8 \cdot \frac {6400^2} {6800^2} \approx 8.68096886\text{ m/s}$$. Now, equate circular acceleration to gravitational acceleration: $$a = g \implies \frac {v^2} r = g \implies v^2 = gr \implies v = \sqrt{gr}$$. Plug in the numbers: $$v = \sqrt{\frac {8.68096886} {1000} \cdot 6800} \approx 7.6831366\text{ km/s}$$. Therefore, the answer is 7.7 km/s.}} <!--SR:!2024-07-31,10,301!2024-08-01,11,301-->
 
 <!-- markdownlint MD028 -->
 
@@ -274,4 +274,4 @@ The parenthesized text at the beginning of of each question is {{the location th
 > 5. 1 trillion years
 >
 > - solution: {{3}}
-> - steps: {{Apply Albert Einstein's famous formula: $$E = mc^2$$. Calculate the total emitted energy over the Sun's lifetime: $$E = 2 \times 10^{30} \cdot 0.001 \cdot (3 \times 10^8)^2 = 1.8 \times 10^{44}\text{ J}$$. Then calculate its lifetime by dividing it by the power of the Sun: $$t = \frac {1.8 \times 10^{44} } {3.8 \times 10^{26} } \approx 4.73684211 \times 10^{17}\text{ s} \approx 1.5010468 \times 10^{10}\text{ yrs} \approx 15\text{ billion years}$$. Therefore, the answer is 10 billion years.}} <!--SR:!2024-07-18,3,281!2024-07-19,4,301-->
+> - steps: {{Apply Albert Einstein's famous formula: $$E = mc^2$$. Calculate the total emitted energy over the Sun's lifetime: $$E = 2 \times 10^{30} \cdot 0.001 \cdot (3 \times 10^8)^2 = 1.8 \times 10^{44}\text{ J}$$. Then calculate its lifetime by dividing it by the power of the Sun: $$t = \frac {1.8 \times 10^{44} } {3.8 \times 10^{26} } \approx 4.73684211 \times 10^{17}\text{ s} \approx 1.5010468 \times 10^{10}\text{ yrs} \approx 15\text{ billion years}$$. Therefore, the answer is 10 billion years.}} <!--SR:!2024-07-29,8,281!2024-08-01,11,301-->
