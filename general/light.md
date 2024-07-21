@@ -10,7 +10,7 @@ tags:
 
 # light
 
-__Light__, __visible light__, or __visible radiation__ is {{[electromagnetic radiation](electromagnetic%20radiation.md) that can be [perceived](visual%20perception.md) by the [human eye](human%20eye.md)}}.
+__Light__, __visible light__, or __visible radiation__ is {{[electromagnetic radiation](electromagnetic%20radiation.md) that can be [perceived](visual%20perception.md) by the [human eye](human%20eye.md)}}. <!--SR:!2024-07-25,4,270-->
 
 ## references
 
