@@ -15,7 +15,7 @@ tags:
 
 ## business model generation
 
-Business model generation is for {{the entrepreneurial-spirited, value creators, and business innovators}}. A business model shows {{how an organization create, deliver, and capture value}}. <!--SR:!2024-11-10,122,252!2024-07-20,59,250-->
+Business model generation is for {{the entrepreneurial-spirited, value creators, and business innovators}}. A business model shows {{how an organization create, deliver, and capture value}}. <!--SR:!2024-11-10,122,252!2025-02-16,210,270-->
 
 ## canvas
 
@@ -113,7 +113,7 @@ segmented: splitting slightly different customer segments
 - mass market: not distinguishing between customer segments→:::←multi-sided platforms: serving interdependent customer segments <!--SR:!2024-08-03,73,274!2024-09-12,109,297-->
 - multi-sided platforms: serving interdependent customer segments→:::←niche market: focusing on specific, specialized customer segments <!--SR:!2024-10-27,120,257!2024-09-12,79,254-->
 - niche market: focusing on specific, specialized customer segments→:::←segmented: splitting slightly different customer segments <!--SR:!2024-09-30,100,254!2024-07-24,10,217-->
-- segmented: splitting slightly different customer segments→:::←_(end)_ <!--SR:!2024-07-21,68,274!2024-10-31,116,254-->
+- segmented: splitting slightly different customer segments→:::←_(end)_ <!--SR:!2025-01-22,185,274!2024-10-31,116,254-->
 
 <!--/pytextgen-->
 
@@ -165,10 +165,10 @@ risk reduction
 
 - _(begin)_→:::←accessibility <!--SR:!2024-09-07,100,277!2025-04-18,281,334-->
 - accessibility→:::←brand or status <!--SR:!2024-10-01,103,254!2024-08-02,72,274-->
-- brand or status→:::←convenience or usability <!--SR:!2024-07-29,26,234!2024-07-19,19,214-->
+- brand or status→:::←convenience or usability <!--SR:!2024-07-29,26,234!2024-09-03,44,214-->
 - convenience or usability→:::←cost reduction <!--SR:!2024-10-11,108,254!2024-08-23,43,237-->
 - cost reduction→:::←customization <!--SR:!2024-08-27,94,274!2024-08-02,19,157-->
-- customization→:::←design <!--SR:!2024-08-11,76,277!2024-07-17,55,234-->
+- customization→:::←design <!--SR:!2024-08-11,76,277!2024-11-27,129,234-->
 - design→:::←newness <!--SR:!2024-09-10,89,257!2024-07-23,23,254-->
 - newness→:::←performance <!--SR:!2024-12-31,168,277!2024-09-26,99,257-->
 - performance→:::←performing the job well <!--SR:!2024-10-23,129,297!2024-09-03,92,274-->
@@ -217,7 +217,7 @@ personal assistance
 <!--pytextgen generate section="ca84"--><!-- The following content is generated at 2024-03-18T19:56:56.603002+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←automated services <!--SR:!2024-09-16,110,294!2024-12-08,178,310-->
-- automated services→:::←co-creation <!--SR:!2024-11-21,130,254!2024-07-17,63,274-->
+- automated services→:::←co-creation <!--SR:!2024-11-21,130,254!2025-01-04,167,274-->
 - co-creation→:::←communities <!--SR:!2024-10-22,116,254!2024-10-13,133,294-->
 - communities→:::←dedicated personal assistance <!--SR:!2024-08-11,79,277!2024-09-09,98,274-->
 - dedicated personal assistance→:::←personal assistance <!--SR:!2025-02-04,208,317!2025-01-10,191,317-->
@@ -266,7 +266,7 @@ subscription fee
 - _(begin)_→:::←advertising <!--SR:!2024-08-24,92,274!2025-02-25,224,317-->
 - advertising→:::←asset sale <!--SR:!2024-10-07,130,294!2024-11-28,167,317-->
 - asset sale→:::←brokerage fee <!--SR:!2024-12-04,152,274!2024-08-28,50,254-->
-- brokerage fee→:::←lending, renting, or leasing <!--SR:!2024-07-17,56,257!2024-10-31,121,254-->
+- brokerage fee→:::←lending, renting, or leasing <!--SR:!2024-08-18,28,237!2024-10-31,121,254-->
 - lending, renting, or leasing→:::←licensing <!--SR:!2024-08-23,87,257!2024-08-01,71,274-->
 - licensing→:::←usage fee <!--SR:!2024-08-10,76,274!2024-07-31,68,274-->
 - usage fee→:::←subscription fee <!--SR:!2024-10-16,111,254!2024-08-04,74,277-->
@@ -294,7 +294,7 @@ In cost structures, costs can be {{fixed costs or variable costs}}. Costs can be
 
 ### fit
 
-Business model fit can be achieved by {{reiteration between changing the value propositions and the rest of the business model}}, because these two {{are interdependent on each other: changing one entails changing the other}}. The changes can be {{big or small}}: pivot {{means making radical changes to the business model because your code idea requires more exploration}}, while iteration {{means reorienting the business model slightly but still closely related to the original}}. <!--SR:!2024-10-05,97,289!2024-11-26,138,309!2024-07-19,52,309!2025-01-02,179,329!2024-07-22,54,309-->
+Business model fit can be achieved by {{reiteration between changing the value propositions and the rest of the business model}}, because these two {{are interdependent on each other: changing one entails changing the other}}. The changes can be {{big or small}}: pivot {{means making radical changes to the business model because your code idea requires more exploration}}, while iteration {{means reorienting the business model slightly but still closely related to the original}}. <!--SR:!2024-10-05,97,289!2024-11-26,138,309!2025-03-01,223,329!2025-01-02,179,329!2024-07-22,54,309-->
 
 ## comparison with other models
 

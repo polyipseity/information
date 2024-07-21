@@ -8,9 +8,9 @@ tags:
 
 # Antarctic Circle
 
-The __Antarctic Circle__ is {{the [circle of altitude](circle%20of%20altitude.md) marking the [northernmost](north.md) [latitude](latitude.md) at which the [Sun](Sun.md) is above the [horizon](horizon.md) for 24 continuous hours at least once per year}}. The duration becomes longer {{the [souther](south.md) one goes, reaching about 6 months at the [South Pole](South%20Pole.md)}}. These are also true for the [northern](north.md) equivalent, {{the [Arctic Circle](Arctic%20Circle.md)}}. <!--SR:!2024-07-17,10,270!2024-07-22,15,290!2024-07-21,14,290-->
+The __Antarctic Circle__ is {{the [circle of altitude](circle%20of%20altitude.md) marking the [northernmost](north.md) [latitude](latitude.md) at which the [Sun](Sun.md) is above the [horizon](horizon.md) for 24 continuous hours at least once per year}}. The duration becomes longer {{the [souther](south.md) one goes, reaching about 6 months at the [South Pole](South%20Pole.md)}}. These are also true for the [northern](north.md) equivalent, {{the [Arctic Circle](Arctic%20Circle.md)}}. <!--SR:!2024-08-27,37,290!2024-07-22,15,290!2024-09-17,58,310-->
 
-The position of the Antarctic Circle is {{not fixed and currently runs about 66°33′50.0″ [south](south.md) of the [equator](equator.md)}}. The value is approximately {{90 degrees minus the [Earth](Earth.md)'s [axial tilt](axial%20tilt.md)}}. <!--SR:!2024-07-19,12,270!2024-07-20,13,270-->
+The position of the Antarctic Circle is {{not fixed and currently runs about 66°33′50.0″ [south](south.md) of the [equator](equator.md)}}. The value is approximately {{90 degrees minus the [Earth](Earth.md)'s [axial tilt](axial%20tilt.md)}}. <!--SR:!2024-08-22,32,270!2024-09-09,50,290-->
 
 ## references
 

@@ -78,8 +78,8 @@ value proposition canvas
 - customer validation→:::←design thinking <!--SR:!2024-07-23,50,230!2024-09-03,88,270-->
 - design thinking→:::←idea generation: Put oneself in customers' shoes. For example, examine old mousetraps and build a better one. <!--SR:!2024-07-23,16,170!2024-08-15,73,250-->
 - idea generation: Put oneself in customers' shoes. For example, examine old mousetraps and build a better one.→:::←product validation <!--SR:!2024-08-19,42,230!2024-07-25,44,230-->
-- product validation→:::←value proposition canvas <!--SR:!2024-07-20,18,170!2024-10-08,100,250-->
-- value proposition canvas→:::←_(end)_ <!--SR:!2025-03-06,244,330!2024-07-21,60,270-->
+- product validation→:::←value proposition canvas <!--SR:!2024-08-18,28,170!2024-10-08,100,250-->
+- value proposition canvas→:::←_(end)_ <!--SR:!2025-03-06,244,330!2024-08-16,26,250-->
 
 <!--/pytextgen-->
 
@@ -134,12 +134,12 @@ root cause analysis, 5 whys
 - _(begin)_→:::←4P: McCarthy's 4 Ps <!--SR:!2024-08-08,44,301!2024-09-08,74,321-->
 - 4P: McCarthy's 4 Ps→:::←5-step persuasive selling <!--SR:!2024-07-22,22,261!2024-08-19,55,301-->
 - 5-step persuasive selling→:::←5C: Chernev 5C framework <!--SR:!2024-08-11,47,301!2024-07-30,38,301-->
-- 5C: Chernev 5C framework→:::←5F: Porter's 5 forces framework <!--SR:!2024-07-18,32,281!2024-08-13,49,301-->
+- 5C: Chernev 5C framework→:::←5F: Porter's 5 forces framework <!--SR:!2024-10-17,88,281!2024-08-13,49,301-->
 - 5F: Porter's 5 forces framework→:::←7S: McKinsey 7S framework <!--SR:!2024-08-06,44,301!2024-08-26,64,321-->
 - 7S: McKinsey 7S framework→:::←PESTLE: Aguilar's PESTLE framework <!--SR:!2024-09-27,75,281!2024-08-31,47,281-->
 - PESTLE: Aguilar's PESTLE framework→:::←PPTG: people, process, technology, governance framework <!--SR:!2024-08-10,38,261!2024-07-24,24,281-->
 - PPTG: people, process, technology, governance framework→:::←blue ocean strategy <!--SR:!2024-08-10,46,301!2024-08-04,43,301-->
-- blue ocean strategy→:::←interview note-taking in an 1-page memo <!--SR:!2024-07-20,32,281!2024-08-08,25,221-->
+- blue ocean strategy→:::←interview note-taking in an 1-page memo <!--SR:!2024-10-18,89,281!2024-08-08,25,221-->
 - interview note-taking in an 1-page memo→:::←profitability framework <!--SR:!2024-09-11,62,261!2024-08-24,41,221-->
 - profitability framework→:::←root cause analysis, 5 whys <!--SR:!2024-07-28,13,261!2024-07-26,24,241-->
 - root cause analysis, 5 whys→:::←_(end)_ <!--SR:!2024-08-17,53,301!2024-08-14,50,301-->

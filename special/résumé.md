@@ -14,7 +14,7 @@ tags:
 # import ../../tools/utility.py.md
 ```
 
-The format outlined below is {{only recommended and does not need to be followed strictly}}. <!--SR:!2024-07-20,11,335-->
+The format outlined below is {{only recommended and does not need to be followed strictly}}. <!--SR:!2024-08-26,36,335-->
 
 ## format
 
@@ -59,7 +59,7 @@ return await memorize_seq(
 
 - _(begin)_→:::←[profile summary](#profile%20summary) <!--SR:!2024-08-17,232,330!2024-08-20,235,330-->
 - [profile summary](#profile%20summary)→:::←[education](#education) <!--SR:!2024-08-17,233,330!2025-05-16,359,310-->
-- [education](#education)→:::←[experience](#experience) <!--SR:!2024-07-18,194,310!2024-07-22,70,270-->
+- [education](#education)→:::←[experience](#experience) <!--SR:!2026-03-13,600,310!2024-07-22,70,270-->
 - [experience](#experience)→:::←[achievements](#achievements) <!--SR:!2025-02-06,217,250!2024-10-29,221,290-->
 - [achievements](#achievements)→:::←[skills](#skills) <!--SR:!2024-12-01,258,270!2024-07-22,197,310-->
 - [skills](#skills)→:::←[others](#others) <!--SR:!2024-08-01,220,330!2025-01-15,289,290-->

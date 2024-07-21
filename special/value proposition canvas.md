@@ -65,7 +65,7 @@ The value map itself has three parts: {{products and services, pain relievers, a
 
 Customer jobs can be split into three categories: {{functional jobs; social jobs, seek to be perceived in a certain way by others; and personal or emotional jobs, seek to feel a certain way}}. There are also supporting jobs arising from three different roles: {{buyer of value, buying value; co-creator of value, participating in creating value; and transferrer of value, end of lifecycle}}. Note that jobs {{have different priorities}}.  The jobs can be improved by {{asking why repeatedly until you find the root job}}. <!--SR:!2024-08-05,75,289!2024-07-25,71,289!2024-10-07,122,309!2024-10-30,130,325-->
 
-Since customer jobs has {{functional and non-functional aspects}}, the resulting products can be categorized by {{functional complexity and emotional complexity}}. It is important that non-functional aspects are {{not ignored}}. For example, a hunching old person needs a stick, but {{the person also wants to not feel bad while using the stick}}. Sometimes, non-functional aspects are {{more important than functional ones}}, such as {{an extremely expensive sports car, which is mainly for showing status instead of driving on it}}. So a {{deep understanding}} of customer jobs is required. <!--SR:!2024-08-29,87,345!2024-08-25,83,345!2024-12-30,167,325!2024-07-18,53,325!2024-08-22,80,345!2024-08-05,63,325!2024-08-12,73,345-->
+Since customer jobs has {{functional and non-functional aspects}}, the resulting products can be categorized by {{functional complexity and emotional complexity}}. It is important that non-functional aspects are {{not ignored}}. For example, a hunching old person needs a stick, but {{the person also wants to not feel bad while using the stick}}. Sometimes, non-functional aspects are {{more important than functional ones}}, such as {{an extremely expensive sports car, which is mainly for showing status instead of driving on it}}. So a {{deep understanding}} of customer jobs is required. <!--SR:!2024-08-29,87,345!2024-08-25,83,345!2024-12-30,167,325!2025-03-11,233,345!2024-08-22,80,345!2024-08-05,63,325!2024-08-12,73,345-->
 
 The concept of customer jobs is based on {{the jobs to be done theory}}, which states that {{customers "hire" a product to do a "job" instead of simply buying a product}}. <!--SR:!2024-07-22,55,325!2024-07-30,63,325-->
 
@@ -111,12 +111,12 @@ vagueness: vague jobs, pains, and gains
 
 - _(begin)_→:::←hyperfocus: focusing on functional jobs only <!--SR:!2024-08-11,62,229!2025-04-22,289,349-->
 - hyperfocus: focusing on functional jobs only→:::←insufficiency: not enough jobs, pains, and gains <!--SR:!2024-10-17,111,249!2024-07-22,61,269-->
-- insufficiency: not enough jobs, pains, and gains→:::←mix: mixing customer segments <!--SR:!2024-08-07,50,189!2024-07-18,4,130-->
+- insufficiency: not enough jobs, pains, and gains→:::←mix: mixing customer segments <!--SR:!2024-08-07,50,189!2024-07-26,5,130-->
 - mix: mixing customer segments→:::←mix: mixing jobs and outcomes <!--SR:!2024-09-29,112,289!2024-08-03,18,249-->
 - mix: mixing jobs and outcomes→:::←opposite: gains and pains are not opposite, gains are beyond expectation while pains are falling short of expectation <!--SR:!2024-07-26,31,265!2024-09-20,87,285-->
 - opposite: gains and pains are not opposite, gains are beyond expectation while pains are falling short of expectation→:::←reversed: listing jobs, pains, and gains from your product value propositions <!--SR:!2024-07-27,65,269!2024-08-01,25,249-->
 - reversed: listing jobs, pains, and gains from your product value propositions→:::←vagueness: vague jobs, pains, and gains <!--SR:!2024-07-26,24,169!2024-08-01,64,249-->
-- vagueness: vague jobs, pains, and gains→:::←_(end)_ <!--SR:!2024-07-21,74,329!2024-08-20,84,289-->
+- vagueness: vague jobs, pains, and gains→:::←_(end)_ <!--SR:!2025-03-14,236,329!2024-08-20,84,289-->
 
 <!--/pytextgen-->
 
@@ -126,7 +126,7 @@ Products and services is {{simply a list of what you offer}}, and can also inclu
 
 Pain relievers describe {{how the products or services alleviate customer pains}}. There is no need to {{alleviate every identified pain}}, and instead {{it is better to alleviate some extreme pains extremely well}}. Like products and services, pain relievers {{can have different relevance to your customers}}. <!--SR:!2025-01-12,207,329!2024-11-15,148,309!2024-08-15,98,290!2024-11-20,162,310-->
 
-Gain creators describe {{how the products or services create customer gains}}. There is also no need to {{create every identified gain}}, and instead {{it is better to create some relevant gains extremely well}}. Like products and services, gain creators {{can have different relevance to your customers}}. <!--SR:!2024-07-17,72,329!2025-01-19,200,329!2024-11-09,154,309!2024-12-15,166,309-->
+Gain creators describe {{how the products or services create customer gains}}. There is also no need to {{create every identified gain}}, and instead {{it is better to create some relevant gains extremely well}}. Like products and services, gain creators {{can have different relevance to your customers}}. <!--SR:!2025-06-12,326,349!2025-01-19,200,329!2024-11-09,154,309!2024-12-15,166,309-->
 
 There are several [common mistakes](#value%20map%20common%20mistakes) to be aware of.
 
@@ -210,12 +210,12 @@ find customer patterns
 
 <!--pytextgen generate section="49ba"--><!-- The following content is generated at 2024-03-13T22:31:33.738010+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←create a customer profile <!--SR:!2024-10-25,144,309!2024-07-19,74,329-->
+- _(begin)_→:::←create a customer profile <!--SR:!2024-10-25,144,309!2025-06-21,335,349-->
 - create a customer profile→:::←outline the interview <!--SR:!2024-12-26,170,289!2024-09-29,114,289-->
 - outline the interview→:::←interview <!--SR:!2024-07-25,78,329!2025-02-20,239,329-->
 - interview→:::←capture new customer profile <!--SR:!2024-07-22,67,289!2025-02-14,230,329-->
 - capture new customer profile→:::←review interview, and repeat from "outline the interview" several times, like 10 times <!--SR:!2024-07-29,77,270!2025-03-25,254,309-->
-- review interview, and repeat from "outline the interview" several times, like 10 times→:::←find customer patterns <!--SR:!2024-09-29,104,269!2024-07-17,65,289-->
+- review interview, and repeat from "outline the interview" several times, like 10 times→:::←find customer patterns <!--SR:!2024-09-29,104,269!2025-04-09,262,309-->
 - find customer patterns→:::←_(end)_ <!--SR:!2024-07-22,75,329!2025-01-10,203,329-->
 
 <!--/pytextgen-->
@@ -258,7 +258,7 @@ conclusion: make progress
 
 - _(begin)_→:::←hypothesis: extract hypotheses <!--SR:!2024-08-26,89,289!2025-05-08,298,347-->
 - hypothesis: extract hypotheses→:::←hypothesis: prioritize hypotheses <!--SR:!2024-07-28,81,329!2024-11-12,147,309-->
-- hypothesis: prioritize hypotheses→:::←test: design tests <!--SR:!2025-01-02,184,309!2024-07-21,74,270-->
+- hypothesis: prioritize hypotheses→:::←test: design tests <!--SR:!2025-01-02,184,309!2025-02-05,199,270-->
 - test: design tests→:::←test: prioritize tests <!--SR:!2024-09-28,91,309!2024-09-04,112,290-->
 - test: prioritize tests→:::←test: run tests <!--SR:!2025-01-18,213,329!2024-11-25,166,310-->
 - test: run tests→:::←conclusion: capture findings <!--SR:!2024-10-17,107,269!2024-10-22,129,309-->

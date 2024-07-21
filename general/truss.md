@@ -31,7 +31,7 @@ Note that some members can have {{zero forces, i.e. neither in tension nor in co
 
 #### method of joints
 
-The principle is simple: {{Consider the equilibrium of each joint one by one, starting with those with 2 or less unknown forces}}. For each joint, {{draw the [free body diagram](free%20body%20diagram.md), and determine the axial forces of members connected to the joint}}. <!--SR:!2024-07-20,49,290!2024-08-02,59,310-->
+The principle is simple: {{Consider the equilibrium of each joint one by one, starting with those with 2 or less unknown forces}}. For each joint, {{draw the [free body diagram](free%20body%20diagram.md), and determine the axial forces of members connected to the joint}}. <!--SR:!2025-02-02,196,310!2024-08-02,59,310-->
 
 Note that when a truss member is in tension, it is actually {{pulling on the two joints instead of pushing them}}, and vice versa for compression. <!--SR:!2024-08-16,71,310-->
 

@@ -11,7 +11,7 @@ tags:
 
 The __June solstice__ or {{__northern solstice__}} is {{the [solstice](solstice.md) on the [Earth](Earth.md) when the [subsolar point](subsolar%20point.md) is at its [northernmost](north.md) point}}. It is also known as {{the [summer solstice](summer%20solstice.md) in the Northern Hemisphere and as the [winter solstice](winter%20solstice.md) in the Southern Hemisphere}}. The [Sun](Sun.md) is directly over {{the [Tropic of Cancer](Tropic%20of%20Cancer.md) in the Northern Hemisphere}}. <!--SR:!2024-08-14,26,270!2024-07-24,17,290!2024-07-24,17,290!2024-07-24,17,290-->
 
-On {{the [Gregorian calendar](Gregorian%20calendar.md)}}, the June solstice can occur {{as early as June 20 and as late as June 22 in terms of [Universal Time](Universal%20Time.md)}}. <!--SR:!2024-07-21,14,290!2024-07-21,14,290-->
+On {{the [Gregorian calendar](Gregorian%20calendar.md)}}, the June solstice can occur {{as early as June 20 and as late as June 22 in terms of [Universal Time](Universal%20Time.md)}}. <!--SR:!2024-09-16,57,310!2024-09-01,42,290-->
 
 ## references
 

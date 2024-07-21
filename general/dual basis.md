@@ -14,7 +14,7 @@ Denoting the indexed vector sets as {{$B = \set{v_i}_{i \in I}$ and $B^* = \set{
 
 > [!tip] tips
 >
-> - use of [index set](index%20set.md) $I$ ::: It is a way to encode the [cardinality](cardinality.md) of the set of basis of the [vector space](vector%20space.md) $V$. For a finite number of basis, this is, intuitively, naming each basis by an integer starting from 1. If one does not understand this concept, it can be mostly ignored for finite number of basis. <!--SR:!2024-07-20,6,250!2024-07-27,13,290-->
+> - use of [index set](index%20set.md) $I$ ::: It is a way to encode the [cardinality](cardinality.md) of the set of basis of the [vector space](vector%20space.md) $V$. For a finite number of basis, this is, intuitively, naming each basis by an integer starting from 1. If one does not understand this concept, it can be mostly ignored for finite number of basis. <!--SR:!2024-08-06,16,250!2024-07-27,13,290-->
 > - What if the [inner product](inner%20product%20space.md) between a vector and its corresponding dual vector is nonzero but does not equal to 1? ::: One of the vector can be scaled such that the inner product is 1. This does not affect the inner products between a vector and other non-corresponding dual vectors. Consider that the original inner products are 0. Scaling them by any scalar are still 0. <!--SR:!2024-08-06,18,317!2024-08-01,14,297-->
 
 ## introduction

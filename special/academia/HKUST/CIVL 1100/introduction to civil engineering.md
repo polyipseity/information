@@ -197,7 +197,7 @@ water and sewage treatment system
 - dam→:::←pipeline <!--SR:!2024-08-06,32,204!2024-10-09,117,321-->
 - pipeline→:::←power plant <!--SR:!2024-08-14,59,260!2024-10-22,107,281-->
 - power plant→:::←reservoir <!--SR:!2024-07-30,60,275!2024-09-05,91,320-->
-- reservoir→:::←sewage treatment <!--SR:!2024-07-18,31,197!2024-09-05,75,261-->
+- reservoir→:::←sewage treatment <!--SR:!2024-09-21,62,197!2024-09-05,75,261-->
 - sewage treatment→:::←transport <!--SR:!2024-07-29,21,230!2024-12-13,152,301-->
 - transport→:::←water and sewage treatment system <!--SR:!2024-11-05,137,340!2024-07-18,7,150-->
 - water and sewage treatment system→:::←_(end)_ <!--SR:!2024-08-25,93,381!2024-08-01,69,361-->

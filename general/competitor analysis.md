@@ -73,7 +73,7 @@ why: Why are people using competitors' products?
 - compare: Identify similarities and differences between our and their products.→:::←copy: Identify advantages and capabilities our products lack compared to others. <!--SR:!2024-08-25,70,274!2024-08-29,72,281-->
 - copy: Identify advantages and capabilities our products lack compared to others.→:::←discover: Identify unmet needs. <!--SR:!2024-07-29,18,241!2024-09-10,70,241-->
 - discover: Identify unmet needs.→:::←how: What is our strategy? <!--SR:!2024-07-23,14,201!2024-07-31,28,261-->
-- how: What is our strategy?→:::←pricing: Compare prices. <!--SR:!2024-07-30,11,201!2024-07-20,9,241-->
+- how: What is our strategy?→:::←pricing: Compare prices. <!--SR:!2024-07-30,11,201!2024-08-12,22,241-->
 - pricing: Compare prices.→:::←who: Who are the competitors? 3 to 5 is usually enough. <!--SR:!2024-08-08,20,241!2024-08-18,61,261-->
 - who: Who are the competitors? 3 to 5 is usually enough.→:::←why: Why are people using competitors' products? <!--SR:!2024-10-13,103,281!2024-09-15,73,241-->
 - why: Why are people using competitors' products?→:::←_(end)_ <!--SR:!2024-08-10,68,321!2024-09-16,83,281-->
@@ -114,7 +114,7 @@ pricing: Find suitable prices catering to different market segment and economies
 
 - _(begin)_→:::←differentiate: Differentiate our products to make it a hit with customers. <!--SR:!2024-07-23,50,301!2024-11-29,137,301-->
 - differentiate: Differentiate our products to make it a hit with customers.→:::←discover: Find holes in existing products. <!--SR:!2024-08-15,55,281!2024-08-13,70,321-->
-- discover: Find holes in existing products.→:::←know ourselves: See if our products are sticky. <!--SR:!2024-08-28,59,221!2024-07-20,42,261-->
+- discover: Find holes in existing products.→:::←know ourselves: See if our products are sticky. <!--SR:!2024-08-28,59,221!2024-08-10,20,241-->
 - know ourselves: See if our products are sticky.→:::←know them: See how big of a threat competitors pose. <!--SR:!2024-07-27,52,301!2024-08-02,63,314-->
 - know them: See how big of a threat competitors pose.→:::←pricing: Find suitable prices catering to different market segment and economies. <!--SR:!2024-08-07,19,241!2024-08-08,54,261-->
 - pricing: Find suitable prices catering to different market segment and economies.→:::←_(end)_ <!--SR:!2024-08-02,61,321!2024-08-13,65,281-->
@@ -169,9 +169,9 @@ number of features
 - _(most important)_→:::←price <!--SR:!2024-08-14,71,321!2024-08-13,71,321-->
 - price→:::←benefit <!--SR:!2024-11-27,150,314!2024-09-27,97,301-->
 - benefit→:::←quality <!--SR:!2024-08-17,67,274!2024-11-24,134,301-->
-- quality→:::←durability <!--SR:!2024-07-20,5,181!2024-07-30,59,321-->
+- quality→:::←durability <!--SR:!2024-07-31,10,181!2024-07-30,59,321-->
 - durability→:::←service <!--SR:!2024-07-25,50,301!2024-08-11,28,241-->
-- service→:::←convenience <!--SR:!2024-07-20,35,241!2024-08-08,56,301-->
+- service→:::←convenience <!--SR:!2024-08-08,18,221!2024-08-08,56,301-->
 - convenience→:::←ease of use <!--SR:!2024-10-26,103,261!2024-07-22,55,314-->
 - ease of use→:::←number of features <!--SR:!2024-07-27,20,261!2024-07-23,19,254-->
 - number of features→:::←_(least important)_ <!--SR:!2024-08-08,69,314!2024-08-15,72,321-->
