@@ -9,7 +9,7 @@ tags:
 
 # solstice
 
-A __solstice__ is {{the time when the [Sun](Sun.md) reaches its most northerly or southerly [excursion](sun%20path.md) relative to the [celestial equator](celestial%20equator.md) on the [celestial sphere](celestial%20sphere.md)}}. This occurs {{twice each year, around June 20–22 ([June solstice](June%20solstice.md)) and December 20–22 ([December solstice](December%20solstice.md))}}. <!--SR:!2024-07-22,15,290!2024-07-20,13,290-->
+A __solstice__ is {{the time when the [Sun](Sun.md) reaches its most northerly or southerly [excursion](sun%20path.md) relative to the [celestial equator](celestial%20equator.md) on the [celestial sphere](celestial%20sphere.md)}}. This occurs {{twice each year, around June 20–22 ([June solstice](June%20solstice.md)) and December 20–22 ([December solstice](December%20solstice.md))}}. <!--SR:!2024-07-22,15,290!2024-08-24,34,290-->
 
 ## references
 

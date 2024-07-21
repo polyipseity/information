@@ -142,13 +142,13 @@ The content is in teaching order.
 - [entropy](../../../../general/entropy%20(information%20theory).md)
 - decision tree format ::: All nodes show the percentage of actual labels in that decision nodes. The internal nodes show the attribute being split on. The terminal nodes show the predicted label. Arrows point from top to bottom, and each is labelled with an inequality operating on the attribute, which decides whether an sample being predicted should go through said arrow. <!--SR:!2024-07-31,36,337!2024-07-28,32,317-->
 - [decision tree learning § algorithms](../../../../general/decision%20tree%20learning.md#algorithms)
-  - decision tree learning algorithms ::: We only teach ID3 algorithm, C4.5 algorithm, and CART. <!--SR:!2024-07-17,76,351!2025-01-27,225,347-->
+  - decision tree learning algorithms ::: We only teach ID3 algorithm, C4.5 algorithm, and CART. <!--SR:!2025-07-22,366,371!2025-01-27,225,347-->
 - [ID3 § algorithm](../../../../general/ID3%20algorithm.md#algorithm)
 - [information gain § general definition](../../../../general/information%20gain%20(decision%20tree).md#general%20definition)
 - [conditional entropy § definition](../../../../general/conditional%20entropy.md#definition)
 - [ID3 § properties](../../../../general/ID3%20algorithm.md#properties)
 - [C4.5 § algorithm](../../../../general/C4.5%20algorithm.md#algorithm)
-  - split information of an attribute ::: It can be the entropy of the attribute in the entire set or the set of the decision node. The former is preferred. <!--SR:!2024-11-07,156,340!2024-07-17,69,340-->
+  - split information of an attribute ::: It can be the entropy of the attribute in the entire set or the set of the decision node. The former is preferred. <!--SR:!2024-11-07,156,340!2025-06-08,322,360-->
 - [information gain ratio § definition](../../../../general/information%20gain%20ratio.md#definition)
 - [classification and regression tree § algorithm](../../../../general/classification%20and%20regression%20tree.md#algorithm)
 - [decision tree learning § Gini impurity](../../../../general/decision%20tree%20learning.md#Gini%20impurity)
@@ -406,7 +406,7 @@ The content is in teaching order.
 - [HITS algorithm](../../../../general/HITS%20algorithm.md)
   - [§ steps](../../../../general/HITS%20algorithm.md#steps)
     - HITS algorithm variant ::: It does not matter because we only use the recursive expressions to calculate the new authority and hub values. <!--SR:!2024-10-15,99,377!2024-10-12,96,377-->
-    - HITS algorithm termination ::: Terminate the HITS algorithm when after rounding the values to a certain number of digits, the values have not changed. <!--SR:!2024-10-24,107,388!2024-07-18,28,368-->
+    - HITS algorithm termination ::: Terminate the HITS algorithm when after rounding the values to a certain number of digits, the values have not changed. <!--SR:!2024-10-24,107,388!2024-12-08,140,388-->
   - [§ in detail](../../../../general/HITS%20algorithm.md#in%20detail)
   - [§ authority update rule](../../../../general/HITS%20algorithm.md#authority%20update%20rule)
   - [§ hub update rule](../../../../general/HITS%20algorithm.md#hub%20update%20rule)
@@ -430,7 +430,7 @@ The content is in teaching order.
   - [§ statement of theorem](../../../../general/Bayes'%20theorem.md#statement%20of%20theorem)
   - [§ Bayes' theorem for 3 events](../../../../general/Bayes'%20theorem.md#Bayes'%20theorem%20for%203%20events)
 - [conditional probability § Kolmogorov definition](../../../../general/conditional%20probability.md#Kolmogorov%20definition)
-- Bayesian belief network ::: [Bayesian network](../../../../general/Bayesian%20network.md) <!--SR:!2024-07-17,27,368!2024-10-26,109,388-->
+- Bayesian belief network ::: [Bayesian network](../../../../general/Bayesian%20network.md) <!--SR:!2024-12-10,142,388!2024-10-26,109,388-->
   - [§ graphical model](../../../../general/Bayesian%20network.md#graphical%20model)
 - [conditional dependence](../../../../general/conditional%20dependence.md)
 - [conditional independence](../../../../general/conditional%20independence.md)
@@ -457,7 +457,7 @@ The content is in teaching order.
 - [Bayesian belief network](../../../../general/Bayesian%20network.md)
   - [§ graphical model](../../../../general/Bayesian%20network.md#graphical%20model)
   - Bayesian belief network inference setup ::: Identify the node for which the conditional probability is calculated. Then identify all node parents and children, whether direct or indirect. Discard conditions that are conditionally independent of the calculated probability (search for "_d_-separation"). <!--SR:!2024-07-25,29,317!2024-09-16,71,357-->
-  - Bayesian belief network inference process ::: Decompose joint probabilities into separate probabilities if they are conditionally independent of each other. Apply Bayes' theorem (for 3 events) to invert the conditional probability so that the resulting conditional probabilities follow the network arrows. Use the probability chain rule if necessary. Sum up over all possible values of a node (recursively) if necessary. Finally, substitute the known probabilities to calculate the results. <!--SR:!2024-07-19,24,317!2024-08-18,51,337-->
+  - Bayesian belief network inference process ::: Decompose joint probabilities into separate probabilities if they are conditionally independent of each other. Apply Bayes' theorem (for 3 events) to invert the conditional probability so that the resulting conditional probabilities follow the network arrows. Use the probability chain rule if necessary. Sum up over all possible values of a node (recursively) if necessary. Finally, substitute the known probabilities to calculate the results. <!--SR:!2024-11-02,104,337!2024-08-18,51,337-->
   - Bayesian belief network inference answering ::: Also calculate the complement of the conditional probability (which is _usually_ done by subtracting from 1). Compare the 2 conditional probabilities, and state that the higher conditional probability is the most likely outcome. <!--SR:!2024-10-16,100,377!2024-08-21,50,337-->
 - [conditional dependence](../../../../general/conditional%20dependence.md)
 - [conditional independence § conditional independence of events](../../../../general/conditional%20independence.md#conditional%20independence%20of%20events)

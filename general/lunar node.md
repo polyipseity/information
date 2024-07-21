@@ -11,7 +11,7 @@ tags:
 
 # lunar node
 
-A __lunar node__ is {{either of the two [orbital nodes](orbital%20node.md) of the [Moon](Moon.md), that is, the two points at which the [orbit of the Moon](orbit%20of%20the%20Moon.md) [intersects](intersection%20(geometry).md) the [ecliptic](ecliptic.md)}}. This is caused by {{the Moon's orbital inclination (5°09′ or 5.145°) to the ecliptic}}. The {{_ascending_ (or _north_) node}} is {{where the Moon moves into the northern ecliptic hemisphere}}, while the {{_descending_ (or _south_)}} node is {{where the Moon enters the southern ecliptic hemisphere}}. The {{_line of nodes_}} is {{the line joining these two nodes}}. <!--SR:!2024-07-24,15,290!2024-07-30,16,250!2024-07-20,11,270!2024-07-26,17,290!2024-07-25,16,290!2024-07-23,14,290!2024-07-22,13,290!2024-07-25,16,290-->
+A __lunar node__ is {{either of the two [orbital nodes](orbital%20node.md) of the [Moon](Moon.md), that is, the two points at which the [orbit of the Moon](orbit%20of%20the%20Moon.md) [intersects](intersection%20(geometry).md) the [ecliptic](ecliptic.md)}}. This is caused by {{the Moon's orbital inclination (5°09′ or 5.145°) to the ecliptic}}. The {{_ascending_ (or _north_) node}} is {{where the Moon moves into the northern ecliptic hemisphere}}, while the {{_descending_ (or _south_)}} node is {{where the Moon enters the southern ecliptic hemisphere}}. The {{_line of nodes_}} is {{the line joining these two nodes}}. <!--SR:!2024-07-24,15,290!2024-07-30,16,250!2024-09-04,45,290!2024-07-26,17,290!2024-07-25,16,290!2024-07-23,14,290!2024-07-22,13,290!2024-07-25,16,290-->
 
 ## motion
 

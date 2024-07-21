@@ -26,7 +26,7 @@ Things to memorize. Yes... 🫠
 See [Akashi Kaikyo Bridge](../../../../general/Akashi%20Kaikyo%20Bridge.md).
 
 - bridge type ::: [suspension bridge](../../../../general/suspension%20bridge.md)<!-- flashcard 30fd6583-3351-4146-9125-522db98579b7 --> <!--SR:!2024-07-28,21,274!2024-08-29,97,380-->
-- description ::: suspension bridge in Kobe, Japan <!--SR:!2024-07-18,68,347!2024-07-26,78,375-->
+- description ::: suspension bridge in Kobe, Japan <!--SR:!2025-03-15,237,347!2024-07-26,78,375-->
 - image ::: ![Akashi Kaikyo Bridge image](../../../../archives/Wikimedia%20Commons/Akashi%20Bridge.JPG) <!--SR:!2024-08-06,74,360!2024-08-16,84,380-->
 - length ::: 3911 m, longest span: 1991 m <!--SR:!2024-08-10,68,281!2024-08-05,86,372-->
 
@@ -53,7 +53,7 @@ See [Burj Khalifa](../../../../general/Burj%20Khalifa.md).
 
 - description ::: skyscraper in Dubai, United Arab Emirates <!--SR:!2024-11-18,139,297!2024-08-15,96,374-->
 - height ::: architectural: 828 m, tip: 829.8 m, top floor: 585.4 m <!--SR:!2024-08-09,26,261!2024-08-24,102,377-->
-- image ::: ![Burj Khalifa image](../../../../archives/Wikimedia%20Commons/Burj%20Khalifa.jpg) <!--SR:!2024-08-18,86,380!2024-07-18,55,360-->
+- image ::: ![Burj Khalifa image](../../../../archives/Wikimedia%20Commons/Burj%20Khalifa.jpg) <!--SR:!2024-08-18,86,380!2025-04-18,271,380-->
 - [structural system](../../../../general/structural%20system.md) ::: aluminum, reinforced concrete, steel<!-- flashcard e75e9185-3454-4c54-a9c9-5a05c6b26732 --> <!--SR:!2024-09-03,92,321!2025-02-01,232,330-->
 
 ## CCTV Headquarters
@@ -76,7 +76,7 @@ See [CN Tower](../../../../general/CN%20Tower.md).
 See [Central Plaza (Hong Kong)](../../../../general/Central%20Plaza%20(Hong%20Kong).md).
 
 - description ::: super tall skyscraper in Wan Chai, Hong Kong <!--SR:!2024-11-26,170,355!2024-08-27,106,377-->
-- height ::: architectural: 373.9 m, top floor: 299 m <!--SR:!2024-07-17,18,261!2024-08-25,104,376-->
+- height ::: architectural: 373.9 m, top floor: 299 m <!--SR:!2024-07-29,8,241!2024-08-25,104,376-->
 - image ::: ![Central Plaza (Hong Kong) image](../../../../archives/Wikimedia%20Commons/Hong%20Kong%20Convention%20and%20Exhibition%20Centre%20200906(cropped).jpg) <!--SR:!2024-07-23,60,360!2024-08-18,86,380-->
 - [structural system](../../../../general/structural%20system.md) ::: reinforced concrete<!-- flashcard 90e284d1-1940-43c0-b5d7-1b8bea6e3c3e --> <!--SR:!2024-12-27,173,341!2024-08-19,87,381-->
 
@@ -101,7 +101,7 @@ See [CITIC Plaza](../../../../general/CITIC%20Plaza.md).
 See [Colosseum](../../../../general/Colosseum.md).
 
 - base widths ::: length: 189 m, width: 156 m <!--SR:!2024-11-25,134,336!2024-10-12,112,376-->
-- construction period ::: AD 72 to AD 80, 8 years <!--SR:!2024-07-19,5,236!2024-12-11,168,396-->
+- construction period ::: AD 72 to AD 80, 8 years <!--SR:!2024-08-02,12,236!2024-12-11,168,396-->
 - description ::: elliptical amphitheater in the center of Rome <!--SR:!2024-08-18,72,376!2024-10-13,113,376-->
 - geographic location ::: Rome <!--SR:!2024-10-13,119,396!2024-10-29,133,396-->
 - height ::: 48 m (4 storeys) <!--SR:!2024-07-31,23,296!2024-11-11,143,396-->
@@ -249,7 +249,7 @@ See [Panama Canal](../../../../general/Panama%20Canal.md).
 
 See [Parthenon](../../../../general/Parthenon.md).
 
-- construction period ::: 447 BC to 438 BC, 9 years <!--SR:!2024-07-21,5,236!2024-12-01,159,396-->
+- construction period ::: 447 BC to 438 BC, 9 years <!--SR:!2024-08-03,13,236!2024-12-01,159,396-->
 - dedication ::: Greek goddess Athena <!--SR:!2024-12-08,166,396!2024-11-08,141,396-->
 - description ::: temple on the Athenian Acropolis, Greece, dedicated to the Greek goddess Athena <!--SR:!2024-11-21,135,356!2024-11-06,139,396-->
 - geographic location ::: Athenian Acropolis, Greece <!--SR:!2024-11-29,138,356!2024-10-16,122,396-->
@@ -261,7 +261,7 @@ See [Stonecutters Bridge](../../../../general/Stonecutters%20Bridge.md).
 
 - bridge type ::: [cable-stayed bridge](../../../../general/cable-stayed%20bridge.md)<!-- flashcard ca1fa4c4-b487-40a0-9948-a808866a25eb --> <!--SR:!2024-12-12,177,361!2024-08-30,98,381-->
 - description ::: bridge in Hong Kong <!--SR:!2024-12-19,186,345!2024-08-21,100,377-->
-- image ::: ![Stonecutters Bridge image](../../../../archives/Wikimedia%20Commons/Stonecutters'%20Bridge.jpg) <!--SR:!2024-08-28,95,380!2024-07-21,58,360-->
+- image ::: ![Stonecutters Bridge image](../../../../archives/Wikimedia%20Commons/Stonecutters'%20Bridge.jpg) <!--SR:!2024-08-28,95,380!2025-05-03,286,380-->
 - length ::: 1596 m, longest span: 1018 m <!--SR:!2024-07-24,10,240!2025-03-13,259,370-->
 
 ## Sutong Yangtze River Bridge
@@ -278,8 +278,8 @@ See [Sutong Yangtze River Bridge](../../../../general/Sutong%20Yangtze%20River%2
 See [Taipei 101](Taipei%20101.md).
 
 - description ::: skyscraper in Taipei, Taiwan <!--SR:!2025-03-31,295,350!2024-09-04,103,380-->
-- height ::: architectural: 508.2 m, tip: 509.2 m, top floor: 438 m <!--SR:!2024-07-19,3,130!2024-11-19,179,330-->
-- image ::: ![Taipei 101 image](../../../../archives/Wikimedia%20Commons/Tower%20of%20Taipei%20101(cropped).jpg) <!--SR:!2024-07-18,55,360!2024-08-17,85,380-->
+- height ::: architectural: 508.2 m, tip: 509.2 m, top floor: 438 m <!--SR:!2024-07-25,4,130!2024-11-19,179,330-->
+- image ::: ![Taipei 101 image](../../../../archives/Wikimedia%20Commons/Tower%20of%20Taipei%20101(cropped).jpg) <!--SR:!2025-02-07,201,360!2024-08-17,85,380-->
 - [structural system](../../../../general/structural%20system.md) ::: concrete–steel composite<!-- flashcard 16556e6f-00ca-4a87-845c-f0ea2f56807a --> <!--SR:!2024-09-10,92,320!2024-08-23,90,380-->
 
 ## Thames Barrier
@@ -287,7 +287,7 @@ See [Taipei 101](Taipei%20101.md).
 See [Thames Barrier](../../../../general/Thames%20Barrier.md).
 
 - [dam type](../../../../general/dam.md#types) ::: [barrage](barrage%20(dam).md) <!--SR:!2024-10-21,135,341!2024-08-03,84,377-->
-- height ::: 20.1 m <!--SR:!2024-07-17,18,261!2024-08-30,98,380-->
+- height ::: 20.1 m <!--SR:!2024-09-10,51,261!2024-08-30,98,380-->
 - image ::: ![Thames Barrier image](../../../../archives/Wikimedia%20Commons/Thames%20Barrier%2003.jpg) <!--SR:!2025-02-16,228,360!2024-08-24,92,380-->
 - length ::: 520 m <!--SR:!2024-10-17,107,280!2024-12-06,196,330-->
 
@@ -312,7 +312,7 @@ See [Turin–Lyon high-speed railway](../../../../general/Turin–Lyon%20high-sp
 See [Two Prudential Plaza](../../../../general/Two%20Prudential%20Plaza.md).
 
 - description ::: 64-story skyscraper located in the Loop area of Chicago, Illinois <!--SR:!2024-09-03,91,320!2024-07-28,80,365-->
-- height ::: architectural: 303 m, top floor: 250 m <!--SR:!2024-07-21,21,241!2024-08-19,98,364-->
+- height ::: architectural: 303 m, top floor: 250 m <!--SR:!2024-08-01,11,221!2024-08-19,98,364-->
 - image ::: ![Two Prudential Plaza image](../../../../archives/Wikimedia%20Commons/Two%20Prudential%20Plaza%20Chicago%20in%20May%202016.jpg) <!--SR:!2024-08-14,82,360!2024-08-06,74,360-->
 - [structural system](../../../../general/structural%20system.md) ::: reinforced concrete<!-- flashcard ecbdac25-22dc-429d-9976-d49408b1478d --> <!--SR:!2024-07-30,67,360!2024-08-27,94,380-->
 

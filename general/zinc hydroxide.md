@@ -9,7 +9,7 @@ tags:
 
 # zinc hydroxide
 
-__Zinc hydroxide__ is {{an [inorganic compound](inorganic%20compound.md) with the [chemical formula](chemical%20formula.md) [Zn](zinc.md)([OH](hydroxide.md))<sub>2</sub>}}. It looks like {{white [powder](powder.md)}}. <!--SR:!2026-11-25,953,330!2024-07-21,340,290-->
+__Zinc hydroxide__ is {{an [inorganic compound](inorganic%20compound.md) with the [chemical formula](chemical%20formula.md) [Zn](zinc.md)([OH](hydroxide.md))<sub>2</sub>}}. It looks like {{white [powder](powder.md)}}. <!--SR:!2026-11-25,953,330!2027-04-02,985,290-->
 
 ## preparation
 

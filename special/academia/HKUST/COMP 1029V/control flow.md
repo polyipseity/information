@@ -75,7 +75,7 @@ Do While condition
 Loop
 ```
 
-The semantics of `Do While...Loop` is {{that the condition is executed first. If the condition is `True`, the statement is executed and then we repeat the above process again. If the condition is `False`, the `Do While...Loop` statement ends its execution}}. You can see it is exactly {{the same as that for [`While...Wend`](#`While`)}}. The only difference is that you cannot {{prematurely end a loop in `While...Wend`, while you can do so for `Do While...Loop`}}. <!--SR:!2025-01-10,246,321!2024-12-22,230,321!2024-07-19,69,281-->
+The semantics of `Do While...Loop` is {{that the condition is executed first. If the condition is `True`, the statement is executed and then we repeat the above process again. If the condition is `False`, the `Do While...Loop` statement ends its execution}}. You can see it is exactly {{the same as that for [`While...Wend`](#`While`)}}. The only difference is that you cannot {{prematurely end a loop in `While...Wend`, while you can do so for `Do While...Loop`}}. <!--SR:!2025-01-10,246,321!2024-12-22,230,321!2025-02-09,203,281-->
 
 One can also first run the statement block instead of the condition by using a `Do...Loop While` statement, which consists of {{a statement block and a condition}}: <!--SR:!2024-09-18,156,301-->
 

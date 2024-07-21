@@ -26,7 +26,7 @@ Hence, foundation-wise, low-rise buildings are {{supported by shallow foundation
 
 The structural system affects {{the load distribution}}. For example, a {{structural steel undergoing overturning due to wind}} would experience {{tension at the wind-facing side and compression on the other side}}. A {{reinforced concrete (concrete with steel bars)}} would experience the same thing, but {{steel bars bear most of the tension while concrete bears most of the compression and the heavy vertical loading}}. <!--SR:!2024-07-31,58,315!2024-07-22,46,295!2024-08-13,68,315!2024-11-26,134,295!2024-09-20,84,275-->
 
-We can {{quantify}} overturning. The {{lateral stiffness}} of a building is defined as {{the force divided by the horizontal displacement at the building top, and has a unit of kN/mm}}, somewhat similar to {{[elastic modulus](elastic%20modulus.md)}}. The aim is to {{increase the lateral stiffness, which involves making the building stiff and strong}}. <!--SR:!2024-08-02,60,315!2024-08-02,59,315!2024-07-20,49,295!2025-01-13,179,315!2024-08-08,65,315-->
+We can {{quantify}} overturning. The {{lateral stiffness}} of a building is defined as {{the force divided by the horizontal displacement at the building top, and has a unit of kN/mm}}, somewhat similar to {{[elastic modulus](elastic%20modulus.md)}}. The aim is to {{increase the lateral stiffness, which involves making the building stiff and strong}}. <!--SR:!2024-08-02,60,315!2024-08-02,59,315!2024-12-16,148,295!2025-01-13,179,315!2024-08-08,65,315-->
 
 ### classification
 
@@ -80,7 +80,7 @@ Intuitively, if a high-rise building is {{a skier}}, then {{the building core is
 
 Outriggers can {{reduce the overturning moment in the core by transferring some moment to columns outside the core}}. <!--SR:!2024-09-09,76,275-->
 
-For example, outriggers are used in {{the [International Commerce Center](International%20Commerce%20Center.md)}}. The building has {{4 outriggers in 4 separate floors}}. In each outrigger, {{8 outriggers connect the core to the mega columns of the exterior structure, forming a hash (#) shape}}. <!--SR:!2024-08-14,69,310!2024-07-20,48,295!2024-07-24,49,295-->
+For example, outriggers are used in {{the [International Commerce Center](International%20Commerce%20Center.md)}}. The building has {{4 outriggers in 4 separate floors}}. In each outrigger, {{8 outriggers connect the core to the mega columns of the exterior structure, forming a hash (#) shape}}. <!--SR:!2024-08-14,69,310!2024-12-14,146,295!2024-07-24,49,295-->
 
 #### exterior structures
 

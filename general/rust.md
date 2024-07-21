@@ -67,7 +67,7 @@ return await memorize_seq(
 <!--pytextgen generate section="192a"--><!-- The following content is generated at 2024-01-04T20:17:52.534830+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←[cathodic protection](#cathodic%20protection) <!--SR:!2027-03-16,1037,330!2026-11-07,943,330-->
-- [cathodic protection](#cathodic%20protection)→:::←[coating and painting](#coating%20and%20painting) <!--SR:!2024-08-18,375,310!2024-07-21,261,310-->
+- [cathodic protection](#cathodic%20protection)→:::←[coating and painting](#coating%20and%20painting) <!--SR:!2024-08-18,375,310!2026-10-07,808,310-->
 - [coating and painting](#coating%20and%20painting)→:::←[electroplating](#electroplating) <!--SR:!2024-07-24,131,310!2026-10-21,930,330-->
 - [electroplating](#electroplating)→:::←[rust-resistant alloys](#rust-resistant%20alloys) <!--SR:!2025-02-15,301,290!2025-05-11,330,290-->
 - [rust-resistant alloys](#rust-resistant%20alloys)→:::←_(end)_ <!--SR:!2027-12-16,1335,350!2027-03-25,1039,330-->

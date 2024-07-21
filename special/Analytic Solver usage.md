@@ -33,7 +33,7 @@ XLMiner offers {{2 ways}} to reduce categories: {{automatically by frequency and
 
 The decision tree ends are called {{_leaf nodes_ or _terminal nodes_}}. The rest of the nodes are called {{_decision nodes_ or _internal nodes_}}. <!--SR:!2024-11-19,163,310!2024-10-19,131,290-->
 
-The _error rate_ of a decision tree is {{the number of mispredicted observations divided by the number of all observations}}. <!--SR:!2024-07-17,67,270-->
+The _error rate_ of a decision tree is {{the number of mispredicted observations divided by the number of all observations}}. <!--SR:!2025-03-30,252,290-->
 
 The decision tree threshold are used as follows: {{If the attribute value is smaller or equal to the threshold, go left; otherwise, go right}}. <!--SR:!2024-09-26,81,335-->
 

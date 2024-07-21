@@ -39,7 +39,7 @@ return (
 )
 ```
 
-Loads can be specified in {{3}} ways: {{point load (load at a point) in kN, line load (load over a line) in kN/m, and distributed load (load over an area) in kN/m<sup>2</sup>}}. <!--SR:!2024-07-21,50,310!2024-08-08,66,320-->
+Loads can be specified in {{3}} ways: {{point load (load at a point) in kN, line load (load over a line) in kN/m, and distributed load (load over an area) in kN/m<sup>2</sup>}}. <!--SR:!2025-02-20,214,330!2024-08-08,66,320-->
 
 Loads on civil engineering can be separated into {{<!--pytextgen generate section="28ba"--><!-- The following content is generated at 2024-05-14T01:02:39.496907+08:00. Any edits will be overridden! -->4<!--/pytextgen-->}} main categories. <!--SR:!2024-07-25,50,290-->
 
@@ -72,7 +72,7 @@ Generally, dead load (and live load) internally {{deflects beams and floors}}. A
 
 ### live load
 
-The live load includes {{loads that are temporary or moving}}. This includes {{moving things, such as moving vehicles, people, and storage}}; {{non-permanent fixtures such as ceiling lights, furniture, and pipe ducts}}. The load can vary in {{location and magnitude}}. In building codes such as {{_Minimum Design Load for Buildings and Other Structures_, ASCE 7-05}}, the live load is {{tabulated and usually assumed uniform on building floors}}. <!--SR:!2024-07-21,48,290!2024-12-04,153,320!2024-12-05,140,290!2024-11-11,132,310!2024-07-25,45,270!2024-11-29,149,320-->
+The live load includes {{loads that are temporary or moving}}. This includes {{moving things, such as moving vehicles, people, and storage}}; {{non-permanent fixtures such as ceiling lights, furniture, and pipe ducts}}. The load can vary in {{location and magnitude}}. In building codes such as {{_Minimum Design Load for Buildings and Other Structures_, ASCE 7-05}}, the live load is {{tabulated and usually assumed uniform on building floors}}. <!--SR:!2025-01-31,194,310!2024-12-04,153,320!2024-12-05,140,290!2024-11-11,132,310!2024-07-25,45,270!2024-11-29,149,320-->
 
 Generally, live load has {{similar effects to dead load}}. <!--SR:!2024-07-30,55,310-->
 
@@ -136,7 +136,7 @@ The consequences are {{partial or complete collapse of structural elements or en
 
 #### thermal load
 
-Thermal load refers to load {{caused by [temperature](temperature.md) changes leading to [thermal expansion](thermal%20expansion.md) (contraction) of structural and non-structural members}}. <!--SR:!2024-07-21,51,308-->
+Thermal load refers to load {{caused by [temperature](temperature.md) changes leading to [thermal expansion](thermal%20expansion.md) (contraction) of structural and non-structural members}}. <!--SR:!2024-12-24,156,308-->
 
 For example, {{a beam in between two fixed support creates thermal load under heating as the beam expands}}. A solution would be {{making the beam a simply supported beam instead, with one side a pinned support and the other side a roller support}}. Then when thermal expansion occurs, {{the beam can expand in the direction of the roller support, relieving the thermal load}}. <!--SR:!2024-07-31,54,308!2024-08-12,68,310!2024-08-08,66,320-->
 
