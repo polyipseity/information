@@ -288,7 +288,7 @@ The parenthesized text at the beginning of of each question is {{the location th
 > 4. blue in color
 >
 > - solution: {{2}}
-> - explanation: {{Consider the graph of spectral radiance for that star, which peaks at 530 nm. It should look like a hill with somewhat narrow peak. However, the narrow peak should cover the entire visible spectrum. As the spectral radiance is approximately even around the peak, that means it is approximately even over the entire visible spectrum, so the color is white.}}
+> - explanation: {{Consider the graph of spectral radiance for that star, which peaks at 530 nm. It should look like a hill with somewhat narrow peak. However, the narrow peak should cover the entire visible spectrum. As the spectral radiance is approximately even around the peak, that means it is approximately even over the entire visible spectrum, so the color is white.}} <!--SR:!2024-07-24,3,288!2024-07-25,4,308-->
 
 <!-- markdownlint MD028 -->
 
@@ -301,7 +301,7 @@ The parenthesized text at the beginning of of each question is {{the location th
 > 5. purple
 >
 > - solution: {{5}}
-> - explanation: {{Purple is the combination of red and blue. However, red and blue are on the two opposite ends of the visible spectrum, so the spectral radiance graph would need to have 2 peaks. This is impossible for thermal radiation to produce, as predicted by the Wien approximation. For more, see [Planckian locus](../../../../general/Planckian%20locus.md).}}
+> - explanation: {{Purple is the combination of red and blue. However, red and blue are on the two opposite ends of the visible spectrum, so the spectral radiance graph would need to have 2 peaks. This is impossible for thermal radiation to produce, as predicted by the Wien approximation. For more, see [Planckian locus](../../../../general/Planckian%20locus.md).}} <!--SR:!2024-07-25,4,308!2024-07-25,4,308-->
 
 ## 2024-07-18
 
@@ -315,7 +315,7 @@ The parenthesized text at the beginning of of each question is {{the location th
 > 6. No width broadening but blue-shifted.
 >
 > - solution: {{1}}
-> - explanation: {{First, the star is not moving, so the spectral line should be unshifted. Now consider the surface a very fast rotating star. In particular, consider the sides of the rotating star. The surface of one side is approaching us very quickly, and that of the other side is moving away from us very quickly as well. This would mean part of the light from the star is blue-shifted and another part is red-shifted. The result is that the spectral line broadens.}}
+> - explanation: {{First, the star is not moving, so the spectral line should be unshifted. Now consider the surface a very fast rotating star. In particular, consider the sides of the rotating star. The surface of one side is approaching us very quickly, and that of the other side is moving away from us very quickly as well. This would mean part of the light from the star is blue-shifted and another part is red-shifted. The result is that the spectral line broadens.}} <!--SR:!2024-07-25,4,308!2024-07-25,4,308-->
 
 <!-- markdownlint MD028 -->
 
@@ -329,4 +329,4 @@ The parenthesized text at the beginning of of each question is {{the location th
 > 6. almost no shift for both stars
 >
 > - solution: {{6}}
-> - explanation: {{When the system is dimmer than what it normally is, it implies one star is in front of the other star. Consider that both stars are always opposite in their orbits. So the stars must be in the part of the orbit closest to or farthest from Earth. That means both stars are moving mostly transversal to Earth, taking into consideration that the system as a whole is not moving. So there should be almost no Doppler shift}}.
+> - explanation: {{When the system is dimmer than what it normally is, it implies one star is in front of the other star. Consider that both stars are always opposite in their orbits. So the stars must be in the part of the orbit closest to or farthest from Earth. That means both stars are moving mostly transversal to Earth, taking into consideration that the system as a whole is not moving. So there should be almost no Doppler shift}}. <!--SR:!2024-07-24,3,288!2024-07-24,3,288-->
