@@ -67,7 +67,7 @@ Customer jobs can be split into three categories: {{functional jobs; social jobs
 
 Since customer jobs has {{functional and non-functional aspects}}, the resulting products can be categorized by {{functional complexity and emotional complexity}}. It is important that non-functional aspects are {{not ignored}}. For example, a hunching old person needs a stick, but {{the person also wants to not feel bad while using the stick}}. Sometimes, non-functional aspects are {{more important than functional ones}}, such as {{an extremely expensive sports car, which is mainly for showing status instead of driving on it}}. So a {{deep understanding}} of customer jobs is required. <!--SR:!2024-08-29,87,345!2024-08-25,83,345!2024-12-30,167,325!2025-03-11,233,345!2024-08-22,80,345!2024-08-05,63,325!2024-08-12,73,345-->
 
-The concept of customer jobs is based on {{the jobs to be done theory}}, which states that {{customers "hire" a product to do a "job" instead of simply buying a product}}. <!--SR:!2024-07-22,55,325!2024-07-30,63,325-->
+The concept of customer jobs is based on {{the jobs to be done theory}}, which states that {{customers "hire" a product to do a "job" instead of simply buying a product}}. <!--SR:!2025-03-27,248,345!2024-07-30,63,325-->
 
 Customer pains include {{undesirable things, obstacles, and risks}}. Make pains {{concrete}}. Note that pains {{can have different severity}}. <!--SR:!2024-09-22,123,290!2025-02-25,226,329!2024-11-13,144,309-->
 
@@ -110,7 +110,7 @@ vagueness: vague jobs, pains, and gains
 <!--pytextgen generate section="39ba"--><!-- The following content is generated at 2024-05-03T17:30:19.548044+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←hyperfocus: focusing on functional jobs only <!--SR:!2024-08-11,62,229!2025-04-22,289,349-->
-- hyperfocus: focusing on functional jobs only→:::←insufficiency: not enough jobs, pains, and gains <!--SR:!2024-10-17,111,249!2024-07-22,61,269-->
+- hyperfocus: focusing on functional jobs only→:::←insufficiency: not enough jobs, pains, and gains <!--SR:!2024-10-17,111,249!2025-01-01,163,269-->
 - insufficiency: not enough jobs, pains, and gains→:::←mix: mixing customer segments <!--SR:!2024-08-07,50,189!2024-07-26,5,130-->
 - mix: mixing customer segments→:::←mix: mixing jobs and outcomes <!--SR:!2024-09-29,112,289!2024-08-03,18,249-->
 - mix: mixing jobs and outcomes→:::←opposite: gains and pains are not opposite, gains are beyond expectation while pains are falling short of expectation <!--SR:!2024-07-26,31,265!2024-09-20,87,285-->
@@ -156,11 +156,11 @@ mix: mixing products and services with pain relievers and gain creators
 
 <!--pytextgen generate section="8ba2"--><!-- The following content is generated at 2024-03-22T20:40:48.908986+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←all: addressing all customer pains and gains <!--SR:!2024-10-06,108,269!2024-07-22,77,329-->
+- _(begin)_→:::←all: addressing all customer pains and gains <!--SR:!2024-10-06,108,269!2025-07-05,348,349-->
 - all: addressing all customer pains and gains→:::←irrelevance: listing all products and services without considering the customer segment <!--SR:!2024-08-09,61,229!2024-08-04,27,249-->
 - irrelevance: listing all products and services without considering the customer segment→:::←irrelevance: offer irrelevant pain relievers and gain creators <!--SR:!2024-07-24,16,209!2024-08-05,75,289-->
 - irrelevance: offer irrelevant pain relievers and gain creators→:::←mix: mixing products and services with pain relievers and gain creators <!--SR:!2024-07-26,51,249!2024-07-26,65,269-->
-- mix: mixing products and services with pain relievers and gain creators→:::←_(end)_ <!--SR:!2024-10-03,115,289!2024-07-22,13,169-->
+- mix: mixing products and services with pain relievers and gain creators→:::←_(end)_ <!--SR:!2024-10-03,115,289!2024-08-12,21,169-->
 
 <!--/pytextgen-->
 
@@ -213,10 +213,10 @@ find customer patterns
 - _(begin)_→:::←create a customer profile <!--SR:!2024-10-25,144,309!2025-06-21,335,349-->
 - create a customer profile→:::←outline the interview <!--SR:!2024-12-26,170,289!2024-09-29,114,289-->
 - outline the interview→:::←interview <!--SR:!2024-07-25,78,329!2025-02-20,239,329-->
-- interview→:::←capture new customer profile <!--SR:!2024-07-22,67,289!2025-02-14,230,329-->
+- interview→:::←capture new customer profile <!--SR:!2025-04-16,268,309!2025-02-14,230,329-->
 - capture new customer profile→:::←review interview, and repeat from "outline the interview" several times, like 10 times <!--SR:!2024-07-29,77,270!2025-03-25,254,309-->
 - review interview, and repeat from "outline the interview" several times, like 10 times→:::←find customer patterns <!--SR:!2024-09-29,104,269!2025-04-09,262,309-->
-- find customer patterns→:::←_(end)_ <!--SR:!2024-07-22,75,329!2025-01-10,203,329-->
+- find customer patterns→:::←_(end)_ <!--SR:!2025-06-26,339,349!2025-01-10,203,329-->
 
 <!--/pytextgen-->
 

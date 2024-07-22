@@ -49,7 +49,7 @@ The content is in teaching order.
 - astronomical structures
   - [star](../../../../general/star.md) ::: A large, glowing ball of gas that generates heat and light via nuclear fusion. <!--SR:!2024-08-27,44,290!2024-09-29,70,310-->
     - star surface ::: bubbling convection cells that rise and fall across the surface <!--SR:!2024-09-01,47,290!2024-09-07,55,310-->
-      - star surface example ::: the [Sun](../../../../general/Sun.md), with ~700&nbsp;000 km<sup>2</sup> cells, observed by [Daniel K. Inouye Solar Telescope](../../../../Daniel%20K.%20Inouye%20Solar%20Telescope.md) <!--SR:!2024-07-22,18,270!2024-09-28,69,310-->
+      - star surface example ::: the [Sun](../../../../general/Sun.md), with ~700&nbsp;000 km<sup>2</sup> cells, observed by [Daniel K. Inouye Solar Telescope](../../../../Daniel%20K.%20Inouye%20Solar%20Telescope.md) <!--SR:!2024-09-11,51,270!2024-09-28,69,310-->
     - [convection zone](../../../../general/convection%20zone.md) ::: ...where heat flow mainly consists of [convection](../../../../general/convection%20(heat%20transfer).md) <!--SR:!2024-09-16,63,310!2024-09-14,61,310-->
     - [radiation zone](../../../../general/radiation%20zone.md) ::: ...where heat flow mainly consists of [radiation](../../../../general/radiation.md) and [conduction](../../../../thermal%20conduction.md) <!--SR:!2024-08-10,32,290!2024-09-21,67,310-->
       - radiation zone radiation detection ::: The radiation from the radiation zone can be detected and analyzed via [astronomical spectroscopy](../../../../astronomical%20spectroscopy.md). This produces a spectrum, which is _mostly_ similar to a [black body](../../../../general/black%20body.md), but the _small_ differences are significant and tell us about many properties of the [star](../../../../general/star.md). <!--SR:!2024-09-17,64,310!2024-08-28,45,290-->
@@ -206,24 +206,24 @@ The content is in teaching order.
   - season [§ elliptical Earth orbit](../../../../general/season.md#elliptical%20Earth%20orbit) ::: The [Earth orbit](../../../../general/Earth's%20orbit.md) being elliptical does not affect the seasons much. As the Earth's [orbital distance](../../../../general/semi-major%20and%20semi-minor%20axes.md) varies by about 3%, sunlight received varies by only about 7%. (In fact, the Earth is farther away in the [summer](../../../../general/summer.md) for the [Northern Hemisphere](../../../../general/Northern%20Hemisphere.md).) For the same reason, some parts of the [Earth's surface](geoid.md) being closer or farther (but not angle of the surface) due to [axial tilt](../../../../general/axial%20tilt.md) also does not contribute much, considering the distance difference—up to only thousands of [kilometers](../../../../general/kilometre.md)—is even smaller. Both effects are overwhelmed by the effect of axial parallelism and axial tilt. <!--SR:!2024-07-31,22,281!2024-10-05,76,341-->
 - [surface power density](../../../../general/surface%20power%20density.md) ::: [power](../../../../general/power%20(physics).md) per unit [area](../../../../general/area.md), e.g. [solar irradiance](../../../../general/solar%20irradiance.md) <!--SR:!2024-10-05,76,340!2024-09-27,68,340-->
   - [solar irradiance](../../../../general/solar%20irradiance.md), solar flux ::: The [power](../../../../general/power%20(physics).md) per unit [area](../../../../general/area.md) ([surface power density](../../../../general/surface%20power%20density.md)) received from the [Sun](../../../../general/Sun.md), typically measured in [watts](../../../../general/watt.md) per [square meter](../../../../general/square%20metre.md) (W/m<sup>2</sup>) in [SI units](../../../../general/International%20System%20of%20Units.md). <!--SR:!2024-10-13,84,341!2024-09-25,66,340-->
-    - [solar flux](../../../../general/solar%20irradiance.md) & [axial tilt](../../../../general/axial%20tilt.md) ::: [Axial tilt](../../../../general/axial%20tilt.md) makes the [sunlight](../../../../general/sunlight.md) not necessarily hit the surface [perpendicularly](../../../../general/perpendicular.md). When it is not perpendicular, the same amount of sunlight is spread over a larger surface area. This effect can be approximated as: $$\text{solar flux} = \text{solar power} \cdot \cos \theta$$, where $\theta$ is the angle between the [normal](../../../../general/normal%20(geometry).md) of the surface and the direction of solar radiation. <!--SR:!2024-07-22,19,320!2024-07-22,19,320-->
+    - [solar flux](../../../../general/solar%20irradiance.md) & [axial tilt](../../../../general/axial%20tilt.md) ::: [Axial tilt](../../../../general/axial%20tilt.md) makes the [sunlight](../../../../general/sunlight.md) not necessarily hit the surface [perpendicularly](../../../../general/perpendicular.md). When it is not perpendicular, the same amount of sunlight is spread over a larger surface area. This effect can be approximated as: $$\text{solar flux} = \text{solar power} \cdot \cos \theta$$, where $\theta$ is the angle between the [normal](../../../../general/normal%20(geometry).md) of the surface and the direction of solar radiation. <!--SR:!2024-10-13,83,340!2024-10-12,82,340-->
 - [analemma](../../../../general/analemma.md)
   - [analemma](../../../../general/analemma.md) & [season](../../../../general/season.md) ::: The [analemma](../../../../general/analemma.md) at [noon](../../../../general/noon.md) shows the [Sun](../../../../general/Sun.md)'s altitude on the [celestial sphere](../../../../general/celestial%20sphere.md) at noon in any particular day of the year. Higher altitude means the [sunlight](../../../../general/sunlight.md) is more direct, so it is [summer](../../../../general/summer.md). Conversely, lower altitude means the sunlight is less direct, so it is [winter](../../../../general/winter.md). <!--SR:!2024-08-04,24,280!2024-09-30,71,340-->
-  - analemma direction ::: The Sun moves eastward on the analemma near the solstices (the top and bottom of the 8 figure). <!--SR:!2024-07-27,20,337!2024-07-22,15,335-->
+  - analemma direction ::: The Sun moves eastward on the analemma near the solstices (the top and bottom of the 8 figure). <!--SR:!2024-07-27,20,337!2024-07-28,6,315-->
 - [questions § 2024-06-27](questions.md#2024-06-27)
 
 ## week 3 lecture
 
 - time: 2024-07-02T10:00:00+08:00/2024-07-02T12:30:00+08:00
 - [equinox](../../../../general/equinox.md) ::: Axis tilt is sideways with regards to the Sun. The Sun on the celestial equator on the celestial sphere. Both hemisphere receives the same amount of sunlight. <!--SR:!2024-07-23,16,335!2024-09-11,52,335-->
-  - equinox etymology ::: equi "equal" + nox "night" <!--SR:!2024-07-23,16,335!2024-07-22,15,335-->
+  - equinox etymology ::: equi "equal" + nox "night" <!--SR:!2024-07-23,16,335!2024-09-28,68,355-->
   - equinox names ::: spring/vernal equinox, fall/autumnal equinox, March equinox, September equinox <!--SR:!2024-07-23,16,335!2024-07-25,18,337-->
     - spring/vernal equinox, fall/autumnal equinox vs. [March equinox](../../../../general/March%20equinox.md), [September equinox](../../../../general/September%20equinox.md) ::: The former depends on the hemisphere while the latter does not. For the Northern hemisphere, spring/vernal equinox is March equinox and fall/autumnal equinox is September equinox. This is reversed for the Southern hemisphere. <!--SR:!2024-07-26,19,337!2024-07-26,19,337-->
   - March equinox date ::: March 21/22@UT+08 (19–21@UT) <!--SR:!2024-08-29,39,315!2024-08-16,32,315-->
   - September equinox date ::: September 22/23@UT+08 (21–24@UT) <!--SR:!2024-07-24,10,277!2024-08-31,41,315-->
 - [solstice](../../../../general/solstice.md) ::: Axis tilt is at the largest angle with regards to the Sun. The Sun is farthest away from the celestial equator on the celestial sphere. One hemisphere receives more sunlight than the other. <!--SR:!2024-07-25,18,335!2024-07-23,16,337-->
   - solstice etymology ::: sol "sun" + stice "stopped", "stationary" <!--SR:!2024-07-26,19,337!2024-07-26,19,335-->
-  - solstice names ::: summer solstice, winter solstice, June solstice, December solstice <!--SR:!2024-07-27,20,337!2024-07-22,15,335-->
+  - solstice names ::: summer solstice, winter solstice, June solstice, December solstice <!--SR:!2024-07-27,20,337!2024-09-12,52,335-->
     - [summer solstice](../../../../general/summer%20solstice.md), [winter solstice](../../../../winter%20solstice.md) vs. [June solstice](../../../../general/June%20solstice.md), [December solstice](../../../../general/December%20solstice.md) ::: The former depends on the hemisphere while the latter does not. For the Northern hemisphere, summer solstice is June solstice and winter solstice is December solstice. This is reversed for the Southern hemisphere. <!--SR:!2024-07-27,20,337!2024-07-27,20,337-->
   - June solstice date ::: June 21/22@UT+08 (20–22@UT) <!--SR:!2024-08-12,27,295!2024-07-27,20,337-->
   - December solstice date ::: December 21/22@UT+08 (20–22@UT) <!--SR:!2024-09-07,48,337!2024-09-14,55,335-->
@@ -235,11 +235,11 @@ The content is in teaching order.
 - [Tropic of Capricorn](../../../../general/Tropic%20of%20Capricorn.md) ::: Currently 23°26′10.0″ (or 23.43611°) south of the equator. <!--SR:!2024-08-02,19,295!2024-07-24,17,337-->
   - [Tropic of Capricorn § name](../../../../general/Tropic%20of%20Capricorn.md#name) ::: It was named after the constellation Capricorn during last centuries BCE, as the Sun was there on the December solstice. Due to westward precession of the equinoxes, this is no longer the case. The current constellation is Sagittarius. <!--SR:!2024-07-24,17,335!2024-07-25,18,337-->
 - [Arctic Circle](../../../../general/Arctic%20Circle.md) ::: About 66°33′50.0″ north of the equator. The southernmost altitude at which the Sun does not set for at least 24 continuous hours per year. <!--SR:!2024-09-12,53,337!2024-07-25,18,337-->
-- [Antarctic Circle](../../../../general/Antarctic%20Circle.md) ::: About 66°33′50.0″ south of the equator. The northernmost altitude at which the Sun does not set for at least 24 continuous hours per year. <!--SR:!2024-07-22,15,317!2024-07-23,16,335-->
+- [Antarctic Circle](../../../../general/Antarctic%20Circle.md) ::: About 66°33′50.0″ south of the equator. The northernmost altitude at which the Sun does not set for at least 24 continuous hours per year. <!--SR:!2024-09-27,67,337!2024-07-23,16,335-->
 - 4 [seasons](season.md) as we know it ::: The 4 seasons as we know it only happen at temperate latitudes. For tropics (latitudes in between the tropics), the seasons become the _dry season_ and the _wet season_, or may not exist at all like in alpines and deserts. For polar regions (latitudes in the Arctic or Antarctic Circle), the sun does not set on some days during the "summer", and does not rise for some days during the "winter". This is apparent when considering the sun path oscillation, restricted to the visible parts of the celestial sphere. <!--SR:!2024-08-08,24,295!2024-07-24,17,337-->
 - [axial precession](../../../../general/axial%20precession.md) ::: The orientation of Earth's axis of rotation gradually shifts westward (opposite of the Earth's direction of rotation) in a circle over a period of about 26&nbsp;000 years. <!--SR:!2024-07-26,18,339!2024-07-25,17,339-->
   - axial precession effects ::: One effect is that the celestial poles points at a different direction, changing the pole stars (e.g. the north star will eventually no longer be Polaris). The other is that the constellations the Sun's projection is on during the equinoxes and solstices shifts westward along the zodiac. <!--SR:!2024-07-26,19,337!2024-07-27,20,337-->
-- [solar term](../../../../general/solar%20term.md) ::: One of the 24 periods in traditional Chinese lunisolar calendars. <!--SR:!2024-07-24,17,335!2024-07-22,15,335-->
+- [solar term](../../../../general/solar%20term.md) ::: One of the 24 periods in traditional Chinese lunisolar calendars. <!--SR:!2024-07-24,17,335!2024-09-27,67,355-->
 - [scale of the universe @ HKUST](scale%20of%20the%20universe%20@%20HKUST.md) / [Moon](../../../../general/Moon.md)
 - [Moon](../../../../general/Moon.md)
   - [§ orbit](../../../../general/Moon.md#orbit)
@@ -286,12 +286,12 @@ The content is in teaching order.
   - [§ annular eclipse](../../../../general/solar%20eclipse.md#annular%20eclipse)
   - [§ path](../../../../general/solar%20eclipse.md#path)
 - [stellar corona](../../../../general/stellar%20corona.md)
-- [Moon](../../../../general/Moon.md) / orbital inclination ::: 5.145° to the ecliptic <!--SR:!2024-07-22,14,320!2024-09-09,50,340-->
+- [Moon](../../../../general/Moon.md) / orbital inclination ::: 5.145° to the ecliptic <!--SR:!2024-09-08,48,320!2024-09-09,50,340-->
 - [lunar node](../../../../general/lunar%20node.md)
 - [eclipse season](../../../../general/eclipse%20season.md)
 - planets known in ancient times ::: Mercury, Venus, Mars, Jupiter, and Saturn (the innermost 6 planets of the Solar System except for Earth) <!--SR:!2024-07-29,20,340!2024-07-26,17,340-->
   - [Mercury](../../../../general/Mercury%20(planet).md) properties in ancient times ::: difficult to see, always close to the Sun in the sky <!--SR:!2024-07-23,14,320!2024-07-25,16,340-->
-  - [Venus](../../../../general/Venus.md) properties in ancient times ::: very bright, also called "morning star" or "evening star" <!--SR:!2024-07-22,13,320!2024-07-29,20,340-->
+  - [Venus](../../../../general/Venus.md) properties in ancient times ::: very bright, also called "morning star" or "evening star" <!--SR:!2024-09-18,58,340!2024-07-29,20,340-->
   - [Mars](../../../../general/Mars.md) properties in ancient times ::: noticeably red <!--SR:!2024-07-29,20,340!2024-07-27,18,340-->
   - [Jupiter](../../../../general/Jupiter.md) properties in ancient times ::: very bright <!--SR:!2024-08-31,41,340!2024-07-26,17,340-->
   - [Saturn](../../../../general/Saturn.md) properties in ancient times ::: moderately bright <!--SR:!2024-07-28,19,340!2024-09-08,49,340-->
@@ -326,7 +326,7 @@ The content is in teaching order.
 - [model](../../../../general/model.md)
   - models of nature ::: models that explain the nature <!--SR:!2024-07-29,20,340!2024-07-25,16,340-->
 - [geocentric model § Ancient Greece](../../../../general/geocentric%20model.md#Ancient%20Greece)
-  - Greek geocentric model ::: about 400 BC by Plato; Earth is the center of the universe and all other celestial objects have perfectly circular orbits <!--SR:!2024-07-22,13,320!2024-07-29,20,340-->
+  - Greek geocentric model ::: about 400 BC by Plato; Earth is the center of the universe and all other celestial objects have perfectly circular orbits <!--SR:!2024-08-29,38,320!2024-07-29,20,340-->
 - [questions § 2024-07-04](questions.md#2024-07-04)
 
 ## week 4 lecture
@@ -461,7 +461,7 @@ The content is in teaching order.
   - [electromagnetic radiation](../../../../general/electromagnetic%20radiation.md) / examples ::: in increasing frequency: radio waves, microwaves, infrared, visible light, ultraviolet, X-rays, gamma rays <!--SR:!2024-07-26,4,345!2024-07-25,4,345-->
   - [photon](../../../../general/photon.md) ::: By the wave–particle duality, electromagnetic radiation sometimes exhibit properties of a particle. The higher energy a photon has, the higher its frequency and the lower its wavelength. <!--SR:!2024-07-26,4,345!2024-07-26,4,345-->
   - [photon energy](../../../../general/photon%20energy.md) ::: $$E = hf = \frac {hc} \lambda$$, where $h$ is the Planck constant <!--SR:!2024-07-25,4,345!2024-07-26,4,345-->
-  - [Planck constant](../../../../general/Planck%20constant.md) ::: $h = 6.626\,070\,15 \times 10^{-34}~\mathrm{J \cdot Hz^{-1} }$ <!--SR:!2024-07-22,1,305!2024-07-25,4,345-->
+  - [Planck constant](../../../../general/Planck%20constant.md) ::: $h = 6.626\,070\,15 \times 10^{-34}~\mathrm{J \cdot Hz^{-1} }$ <!--SR:!2024-07-25,3,305!2024-07-25,4,345-->
     - [Planck constant](../../../../general/Planck%20constant.md) / fundamental mathematical relations ::: $$\begin{aligned} E & = h f \\ \lambda & = \frac h p \end{aligned}$$, where $h$ is the Planck constant <!--SR:!2024-07-25,3,325!2024-07-26,4,345-->
 - [matter](../../../../general/matter.md) / composition ::: Ordinary matter are made of atoms. <!--SR:!2024-07-26,4,345!2024-07-26,4,345-->
 - [atom](../../../../general/atom.md) ::: a particle consisting of a nucleus of neutrons and protons surrounded by a cloud of electrons <!--SR:!2024-07-25,4,345!2024-07-26,4,345-->
@@ -525,8 +525,8 @@ The content is in teaching order.
         - [chromatic aberration](../../../../general/chromatic%20aberration.md) ::: a failure of a lens to focus all colors to the same point, caused by dispersion; the refractive index of most transparent materials decreases with increasing wavelength <!--SR:!2024-07-26,4,345!2024-07-26,4,345-->
       - [refracting telescope](../../../../general/refracting%20telescope.md) / examples ::: Yerkes 1-m refractor <!--SR:!2024-07-25,4,345!2024-07-26,4,345-->
     - [reflecting telescope](../../../../general/reflecting%20telescope.md) ::: an optical telescope that uses a single or a combination of curved mirrors that reflect light and form an image <!--SR:!2024-07-26,4,345!2024-07-26,4,345-->
-      - [reflecting telescope](../../../../general/reflecting%20telescope.md) / examples ::: Gemini North 8-m; largest (as of 2024): Keck I and Keck II, Mauna Kea, Hawaii <!--SR:!2024-07-22,1,305!2024-07-26,4,345-->
-        - Keck I and Keck II, Mauna Kea, Hawaii ::: They have an elevation of 4145 meters. Each has a 10-meter mirror consisting of 36 hexagonal mirror segments. They operate in the near-infrared and visible ranges. <!--SR:!2024-07-24,3,325!2024-07-22,1,305-->
+      - [reflecting telescope](../../../../general/reflecting%20telescope.md) / examples ::: Gemini North 8-m; largest (as of 2024): Keck I and Keck II, Mauna Kea, Hawaii <!--SR:!2024-07-25,3,305!2024-07-26,4,345-->
+        - Keck I and Keck II, Mauna Kea, Hawaii ::: They have an elevation of 4145 meters. Each has a 10-meter mirror consisting of 36 hexagonal mirror segments. They operate in the near-infrared and visible ranges. <!--SR:!2024-07-24,3,325!2024-07-25,3,305-->
   - [telescope](../../../../general/telescope.md) / radio telescope / examples ::: Arecibo Telescope, which had sent the Arecibo message (interstellar radio message) in 1974. The disk is big because the wavelength of radio waves are long and the waves themselves are faint. <!--SR:!2024-07-26,4,345!2024-07-24,3,325-->
   - [telescope](../../../../general/telescope.md) / X-ray telescope / examples ::: Chandra X-ray Observatory, which uses "grazing incidence" optics, which are mirrors with low grazing angle. It is orbiting Earth. <!--SR:!2024-07-26,4,345!2024-07-26,4,345-->
   - [telescope § in space](../../../../general/telescope.md#in%20space) ::: Telescopes are put into outer space to avoid light pollution, astronomical seeing (turbulence in the atmosphere), and because that the atmosphere absorbs most portion of electromagnetic spectrum. <!--SR:!2024-07-25,3,325!2024-07-26,4,345-->
@@ -540,7 +540,7 @@ The content is in teaching order.
     - [astronomical interferometer](../../../../general/astronomical%20interferometer.md)
     - [radio astronomy § radio interferometry](../../../../general/radio%20astronomy.md#radio%20interferometry) / examples ::: Karl G. Jansky Very Large Array (VLA), with 27 telescopes spanning 36 km; perhaps setting up an observatory on the Moon for interferometry would be a great idea except for the price... <!--SR:!2024-07-24,3,325!2024-07-26,4,345-->
   - [radio astronomy](../../../../general/radio%20astronomy.md) / radio telescope examples ::: Five-hundred-meter Aperture Spherical Telescope (FAST), Dawodang, Guizhou <!--SR:!2024-07-26,4,345!2024-07-25,4,345-->
-- [infrared astronomy](../../../../general/infrared%20astronomy.md) / infrared telescope examples ::: James Webb Space Telescope (JWST), launched on 2021-12-25, primarily for near-infrared and can also see red and orange visible light <!--SR:!2024-07-22,1,305!2024-07-25,4,345-->
+- [infrared astronomy](../../../../general/infrared%20astronomy.md) / infrared telescope examples ::: James Webb Space Telescope (JWST), launched on 2021-12-25, primarily for near-infrared and can also see red and orange visible light <!--SR:!2024-07-25,3,305!2024-07-25,4,345-->
 - [Sun](../../../../general/Sun.md)
   - [Sun](../../../../general/Sun.md) / equatorial [radius](../../../../general/radius.md) ::: 696&nbsp;300&nbsp;[km](../../../../general/kilometre.md), 109&nbsp;[Earth radii](../../../../general/Earth%20radius.md) <!--SR:!2024-07-26,4,345!2024-07-26,4,345-->
   - [Sun](../../../../general/Sun.md) / [luminosity](../../../../general/luminosity.md) ::: 3.828×10<sup>26</sup>&nbsp;[W](../../../../general/watt.md) <!--SR:!2024-07-26,4,345!2024-07-26,4,345-->

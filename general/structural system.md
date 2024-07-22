@@ -24,7 +24,7 @@ The structural system of a high-rise building should support {{vertical loads su
 
 Hence, foundation-wise, low-rise buildings are {{supported by shallow foundations (footings)}}, while high-rise buildings are {{supported by deep foundations (pipes), which may even reach the bedrock}}. <!--SR:!2024-07-24,48,295!2024-11-21,126,295-->
 
-The structural system affects {{the load distribution}}. For example, a {{structural steel undergoing overturning due to wind}} would experience {{tension at the wind-facing side and compression on the other side}}. A {{reinforced concrete (concrete with steel bars)}} would experience the same thing, but {{steel bars bear most of the tension while concrete bears most of the compression and the heavy vertical loading}}. <!--SR:!2024-07-31,58,315!2024-07-22,46,295!2024-08-13,68,315!2024-11-26,134,295!2024-09-20,84,275-->
+The structural system affects {{the load distribution}}. For example, a {{structural steel undergoing overturning due to wind}} would experience {{tension at the wind-facing side and compression on the other side}}. A {{reinforced concrete (concrete with steel bars)}} would experience the same thing, but {{steel bars bear most of the tension while concrete bears most of the compression and the heavy vertical loading}}. <!--SR:!2024-07-31,58,315!2024-12-04,135,295!2024-08-13,68,315!2024-11-26,134,295!2024-09-20,84,275-->
 
 We can {{quantify}} overturning. The {{lateral stiffness}} of a building is defined as {{the force divided by the horizontal displacement at the building top, and has a unit of kN/mm}}, somewhat similar to {{[elastic modulus](elastic%20modulus.md)}}. The aim is to {{increase the lateral stiffness, which involves making the building stiff and strong}}. <!--SR:!2024-08-02,60,315!2024-08-02,59,315!2024-12-16,148,295!2025-01-13,179,315!2024-08-08,65,315-->
 
@@ -65,10 +65,10 @@ The following interior structures are possible.
 
 - _(begin)_→:::←[braced frame](braced%20frame.md) <!--SR:!2024-08-03,21,270!2024-07-28,55,315-->
 - [braced frame](braced%20frame.md)→:::←[hinged frame](hinged%20frame.md) <!--SR:!2024-07-25,42,255!2024-07-30,39,235-->
-- [hinged frame](hinged%20frame.md)→:::←[outrigger](#outrigger) <!--SR:!2024-07-22,3,175!2024-08-06,23,215-->
+- [hinged frame](hinged%20frame.md)→:::←[outrigger](#outrigger) <!--SR:!2024-07-24,2,155!2024-08-06,23,215-->
 - [outrigger](#outrigger)→:::←[rigid frame](rigid%20frame.md) <!--SR:!2024-09-29,87,275!2024-08-01,13,235-->
-- [rigid frame](rigid%20frame.md)→:::←[shear-walled frame](#sheared-walled%20frame): [rigid frame](rigid%20frame.md) + [shear wall](shear%20wall.md) <!--SR:!2024-08-05,50,255!2024-07-22,40,255-->
-- [shear-walled frame](#sheared-walled%20frame): [rigid frame](rigid%20frame.md) + [shear wall](shear%20wall.md)→:::←_(end)_ <!--SR:!2024-07-30,57,315!2024-07-22,27,255-->
+- [rigid frame](rigid%20frame.md)→:::←[shear-walled frame](#sheared-walled%20frame): [rigid frame](rigid%20frame.md) + [shear wall](shear%20wall.md) <!--SR:!2024-08-05,50,255!2024-11-02,103,255-->
+- [shear-walled frame](#sheared-walled%20frame): [rigid frame](rigid%20frame.md) + [shear wall](shear%20wall.md)→:::←_(end)_ <!--SR:!2024-07-30,57,315!2024-09-28,68,255-->
 
 <!--/pytextgen-->
 
@@ -76,7 +76,7 @@ The following interior structures are possible.
 
 - see [outrigger](outrigger.md)
 
-Intuitively, if a high-rise building is {{a skier}}, then {{the building core is the human body, the outriggers are the arms, and the building exterior are the ski poles}}. <!--SR:!2024-07-22,47,295!2024-08-03,61,315-->
+Intuitively, if a high-rise building is {{a skier}}, then {{the building core is the human body, the outriggers are the arms, and the building exterior are the ski poles}}. <!--SR:!2025-01-29,191,315!2024-08-03,61,315-->
 
 Outriggers can {{reduce the overturning moment in the core by transferring some moment to columns outside the core}}. <!--SR:!2024-09-09,76,275-->
 

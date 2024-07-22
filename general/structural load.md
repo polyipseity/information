@@ -68,7 +68,7 @@ Loads on civil engineering can be separated into {{<!--pytextgen generate sectio
 
 The dead load includes {{loads that are relatively constant over time}}. This includes {{self-weights of structural members, such as beams, columns, floor slabs, roofs, and walls}} and {{weights of permanent fixtures such as carpets, tiles, walls, and windows}}. Usually calculated by {{density of material multiplied by component size}}. <!--SR:!2024-08-21,76,320!2024-10-22,112,290!2024-09-21,83,270!2024-11-14,123,290-->
 
-Generally, dead load (and live load) internally {{deflects beams and floors}}. As a whole, it causes {{the foundation to settle, which may be uniform or tilt (e.g. [Leaning Tower of Pisa](Leaning%20Tower%20of%20Pisa.md))}}. More seriously, {{dishing or sagging may happen to the foundation}}. If not managed well, it can need to {{partial or total collapse of structural elements or the roof}}. <!--SR:!2024-08-13,70,330!2024-08-17,73,330!2024-07-23,52,310!2024-07-22,52,310-->
+Generally, dead load (and live load) internally {{deflects beams and floors}}. As a whole, it causes {{the foundation to settle, which may be uniform or tilt (e.g. [Leaning Tower of Pisa](Leaning%20Tower%20of%20Pisa.md))}}. More seriously, {{dishing or sagging may happen to the foundation}}. If not managed well, it can need to {{partial or total collapse of structural elements or the roof}}. <!--SR:!2024-08-13,70,330!2024-08-17,73,330!2024-07-23,52,310!2025-03-01,222,330-->
 
 ### live load
 
@@ -150,7 +150,7 @@ Wind load causes {{lateral deflection, which may further lead to toppling of the
 
 ### load combinations
 
-{{Load (amplifying) factors}} are used in {{design equations to increase the design loads}}, to {{account for uncertainties involved when estimating loads}}. An example is {{_U_ = 1.2 _D_ + 1.6 _L_, where _D_ is the dead load and _L_ is the live load}}. <!--SR:!2024-08-06,64,310!2024-07-26,54,310!2025-01-01,174,320!2024-07-22,51,300-->
+{{Load (amplifying) factors}} are used in {{design equations to increase the design loads}}, to {{account for uncertainties involved when estimating loads}}. An example is {{_U_ = 1.2 _D_ + 1.6 _L_, where _D_ is the dead load and _L_ is the live load}}. <!--SR:!2024-08-06,64,310!2024-07-26,54,310!2025-01-01,174,320!2025-02-18,211,320-->
 
 ## references
 
