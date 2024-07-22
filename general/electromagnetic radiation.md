@@ -12,7 +12,7 @@ tags:
 
 # electromagnetic radiation
 
-__Electromagnetic radiation__ (__EMR__) consists of {{[waves](wave.md) of the [electromagnetic field](electromagnetic%20field.md)}}. <!--SR:!2025-05-25,624,270--> It {{propagates through [space](space.md) and carry [momentum](momentum.md) and electromagnetic [radiant energy](radiant%20energy.md)}}. In {{[quantum mechanics](quantum%20mechanics.md)}}, EMR is viewed as that {{it consists of [photons](photon.md) (also see [wave–particle duality](wave–particle%20duality.md))}}.
+__Electromagnetic radiation__ (__EMR__) consists of {{[waves](wave.md) of the [electromagnetic field](electromagnetic%20field.md)}}.  It {{propagates through [space](space.md) and carry [momentum](momentum.md) and electromagnetic [radiant energy](radiant%20energy.md)}}. In {{[quantum mechanics](quantum%20mechanics.md)}}, EMR is viewed as that {{it consists of [photons](photon.md) (also see [wave–particle duality](wave–particle%20duality.md))}}. <!--SR:!2025-05-25,624,270!2024-07-25,4,286!2024-07-25,4,286!2024-07-25,4,286-->
 
 ## properties
 
