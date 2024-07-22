@@ -9,6 +9,8 @@ tags:
 
 # angular resolution
 
+The colloquial use of the term "resolution" sometimes causes confusion; when an optical system is said to {{have a high resolution or high angular resolution, it means that the perceived distance, or actual angular distance, between resolved neighboring objects is small}}. The value that quantifies this property, _θ_, which is given by the [Rayleigh criterion](#Rayleigh's%20criterion), is {{low for a system with a high resolution}}.
+
 ## Rayleigh's criterion
 
 The {{Rayleigh}}'s criterion is that {{two point sources are considered just resolved when the principal diffraction maximum of the [Airy disk](Airy%20disk.md) of an image coincide with the first minimum of the [Airy disk](Airy%20disk.md) of the other}}. <!--SR:!2025-02-17,500,330!2025-10-30,549,250-->
