@@ -315,11 +315,11 @@ The parenthesized text at the beginning of of each question is {{the location th
 > 6. No width broadening but blue-shifted.
 >
 > - solution: {{1}}
-> - explanation: {{First, the star is not moving, so the spectral line should be unshifted. Now consider the surface a very fast rotating star. In particular, consider the sides of the rotating star. The surface of one side is approaching us very quickly, and that of the other side is moving away from us very quickly as well. This would mean part of the light from the star is blue-shifted and another part is red-shifted. The result is that the spectral line broadens.}}
+> - explanation: {{First, the star is not moving, so the spectral line should be unshifted. Now consider the surface of a very fast rotating star. In particular, consider the left and right sides of the rotating star. The surface of one side is approaching us very quickly, and that of the other side is moving away from us very quickly as well. This would mean part of the light from the star is blue-shifted and another part is red-shifted. The result is that the spectral line broadens.}}
 
 <!-- markdownlint MD028 -->
 
-> Q2. (derived) A binary star system consists of two stars orbiting each other. Assume a binary star system is not moving relative to Earth, and its orbital plane is parallel to that of Earth. When the system is dimmer than what it normally is, what are the detected Doppler shifts of the two stars?
+> Q2. (derived) A binary star system consists of two stars orbiting each other. Assume a binary star system, with circular orbits, is not moving relative to Earth, and its orbital plane is parallel to that of Earth. When the system is dimmer than what it normally is, what are the detected Doppler shifts of the two stars?
 >
 > 1. red shift for one star, blue shift for the other star
 > 2. red shift for one star only, almost no shift for the other star
@@ -329,4 +329,4 @@ The parenthesized text at the beginning of of each question is {{the location th
 > 6. almost no shift for both stars
 >
 > - solution: {{6}}
-> - explanation: {{When the system is dimmer than what it normally is, it implies one star is in front of the other star. Consider that both stars are always opposite in their orbits. So the stars must be in the part of the orbit closest to or farthest from Earth. That means both stars are moving mostly transversal to Earth, taking into consideration that the system as a whole is not moving. So there should be almost no Doppler shift}}.
+> - explanation: {{When the system is dimmer than what it normally is, it implies one star is in front of the other star. Consider that both stars are always opposite in their orbits. So the stars must be in the part of the orbit closest to or farthest from Earth (this is true for circular orbits, but gets less true the more elliptic the orbits are). That means both stars are moving mostly transversal to Earth, taking into consideration that the system as a whole is not moving. So there should be almost no Doppler shift}}.
