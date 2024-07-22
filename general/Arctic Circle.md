@@ -8,7 +8,7 @@ tags:
 
 # Arctic Circle
 
-The __Arctic Circle__ is {{the [circle of altitude](circle%20of%20altitude.md) marking the [southernmost](south.md) [latitude](latitude.md) at which the [Sun](Sun.md) is above the [horizon](horizon.md) for 24 continuous hours at least once per year}}. The duration becomes longer {{the [norther](north.md) one goes, reaching about 6 months at the [North Pole](North%20Pole.md)}}. These are also true for the [southern](south.md) equivalent, {{the [Antarctic Circle](Antarctic%20Circle.md)}}. <!--SR:!2024-07-22,15,290!2024-07-24,17,290!2024-09-18,59,310-->
+The __Arctic Circle__ is {{the [circle of altitude](circle%20of%20altitude.md) marking the [southernmost](south.md) [latitude](latitude.md) at which the [Sun](Sun.md) is above the [horizon](horizon.md) for 24 continuous hours at least once per year}}. The duration becomes longer {{the [norther](north.md) one goes, reaching about 6 months at the [North Pole](North%20Pole.md)}}. These are also true for the [southern](south.md) equivalent, {{the [Antarctic Circle](Antarctic%20Circle.md)}}. <!--SR:!2024-09-22,62,310!2024-07-24,17,290!2024-09-18,59,310-->
 
 The position of the Arctic Circle is {{not fixed and currently runs about 66°33′50.0″ [north](north.md) of the [equator](equator.md)}}. The value is {{approximately 90 degrees minus the [Earth](Earth.md)'s [axial tilt](axial%20tilt.md)}}. <!--SR:!2024-08-18,30,270!2024-09-11,52,310-->
 

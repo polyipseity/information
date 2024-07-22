@@ -15,11 +15,11 @@ tags:
 
 # lunar eclipse
 
-A __lunar eclipse__ is {{an astronomical event that occurs when the [Moon](Moon.md) moves into the [Earth](Earth.md)'s [shadow](shadow.md), causing the Moon to be darkened}}. Such an alignment occurs {{during an [eclipse season](eclipse%20season.md), approximately every six months, during the [full moon](full%20moon.md) phase}}, when {{the Moon is closest to the plane of the [Earth's orbit](Earth's%20orbit.md)}}. <!--SR:!2024-07-23,14,290!2024-08-26,38,290!2024-07-22,13,290-->
+A __lunar eclipse__ is {{an astronomical event that occurs when the [Moon](Moon.md) moves into the [Earth](Earth.md)'s [shadow](shadow.md), causing the Moon to be darkened}}. Such an alignment occurs {{during an [eclipse season](eclipse%20season.md), approximately every six months, during the [full moon](full%20moon.md) phase}}, when {{the Moon is closest to the plane of the [Earth's orbit](Earth's%20orbit.md)}}. <!--SR:!2024-07-23,14,290!2024-08-26,38,290!2024-09-09,49,310-->
 
 ## types of lunar eclipse
 
-[Earth's shadow](Earth's%20shadow.md) can be divided into {{two distinctive parts: the [umbra](umbra,%20penumbra%20and%20antumbra.md#umbra) and [penumbra](umbra,%20penumbra%20and%20antumbra.md#penumbra)}}. <!--SR:!2024-07-22,13,290-->
+[Earth's shadow](Earth's%20shadow.md) can be divided into {{two distinctive parts: the [umbra](umbra,%20penumbra%20and%20antumbra.md#umbra) and [penumbra](umbra,%20penumbra%20and%20antumbra.md#penumbra)}}. <!--SR:!2024-09-13,53,310-->
 
 ### penumbral lunar eclipse
 

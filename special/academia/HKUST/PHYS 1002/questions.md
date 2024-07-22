@@ -168,7 +168,7 @@ The parenthesized text at the beginning of of each question is {{the location th
 > 6. 7/6 years
 >
 > - solution: {{6}}
-> - explanation: {{Since the relative orbital motion between the 2 planets is retrograde, apply the equation: $$\frac 1 {T_\text{syn} } = \frac 1 {T_1} + \frac 1 {T_2}$$. Thus we have $T_2 = \frac 1 {\frac 1 {T_\text{syn} } - \frac 1 {T_1} } = \frac 1 {\frac 1 1 - \frac 1 7} = \frac 7 6\text{ years}$.}} <!--SR:!2024-08-05,22,290!2024-07-22,13,290-->
+> - explanation: {{Since the relative orbital motion between the 2 planets is retrograde, apply the equation: $$\frac 1 {T_\text{syn} } = \frac 1 {T_1} + \frac 1 {T_2}$$. Thus we have $T_2 = \frac 1 {\frac 1 {T_\text{syn} } - \frac 1 {T_1} } = \frac 1 {\frac 1 1 - \frac 1 7} = \frac 7 6\text{ years}$.}} <!--SR:!2024-08-05,22,290!2024-08-25,34,290-->
 
 ## 2024-07-04
 

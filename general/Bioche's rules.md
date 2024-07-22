@@ -50,7 +50,7 @@ otherwise: Substitute $u = \tan \frac t 2$.
 - $\omega(t) = \omega(-t)$ _only_: Symmetry across $x = 0$, substitute $u = \cos t$.→:::←$\omega(t) = \omega(\pi - t)$ _only_: Symmetry across $x = \frac \pi 2$, substitute $u = \sin t$. <!--SR:!2024-08-04,24,270!2024-08-01,21,270-->
 - $\omega(t) = \omega(\pi - t)$ _only_: Symmetry across $x = \frac \pi 2$, substitute $u = \sin t$.→:::←$\omega(t) = \omega(\pi + t)$ _only_: $\pi$-periodic, substitute $u = \tan t$. <!--SR:!2024-07-23,16,290!2024-08-28,38,290-->
 - $\omega(t) = \omega(\pi + t)$ _only_: $\pi$-periodic, substitute $u = \tan t$.→:::←two preceding relations hold: Substitute $u = \cos 2t$. <!--SR:!2024-08-30,42,290!2024-07-24,17,290-->
-- two preceding relations hold: Substitute $u = \cos 2t$.→:::←otherwise: Substitute $u = \tan \frac t 2$. <!--SR:!2024-07-23,16,290!2024-07-22,15,290-->
+- two preceding relations hold: Substitute $u = \cos 2t$.→:::←otherwise: Substitute $u = \tan \frac t 2$. <!--SR:!2024-07-23,16,290!2024-09-03,43,290-->
 - otherwise: Substitute $u = \tan \frac t 2$.→:::←_(end)_ <!--SR:!2024-09-08,52,290!2024-09-06,49,290-->
 
 <!--/pytextgen-->
