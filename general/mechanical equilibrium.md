@@ -12,7 +12,7 @@ tags:
 
 ### equilibrium equations
 
-For a {{2-dimensional body}}, there are {{3}} equilibrium equations available: {{$\sum F_x = 0$, $\sum F_y = 0$, and $\sum M_{\text{any point} } = 0$}}. This means {{at most 3 unknown forces of a 2-dimensional system can be solved}}, assuming {{there are no other constraining equations}}. This can be extrapolated {{to lower or higher dimensions}}. <!--SR:!2024-08-13,67,310!2024-07-29,55,310!2024-07-23,50,310!2024-12-15,154,310!2024-08-14,68,310!2024-07-27,53,310-->
+For a {{2-dimensional body}}, there are {{3}} equilibrium equations available: {{$\sum F_x = 0$, $\sum F_y = 0$, and $\sum M_{\text{any point} } = 0$}}. This means {{at most 3 unknown forces of a 2-dimensional system can be solved}}, assuming {{there are no other constraining equations}}. This can be extrapolated {{to lower or higher dimensions}}. <!--SR:!2024-08-13,67,310!2024-07-29,55,310!2025-02-22,214,330!2024-12-15,154,310!2024-08-14,68,310!2024-07-27,53,310-->
 
 ### statically indeterminate system
 

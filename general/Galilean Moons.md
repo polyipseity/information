@@ -15,7 +15,7 @@ tags:
 
 # Galilean Moons
 
-The {{__Galilean moons__ (/ˌɡælɪˈleɪ.ən/), or __Galilean satellites__}}, are {{the four largest moons of Jupiter}}: {{[Io](Io%20(moon).md), [Europa](Europa%20(moon).md), [Ganymede](Ganymede%20(moon).md), and [Callisto](Callisto%20(moon).md)}}. <!--SR:!2024-08-03,15,290!2024-07-29,10,270!2024-07-23,5,250-->
+The {{__Galilean moons__ (/ˌɡælɪˈleɪ.ən/), or __Galilean satellites__}}, are {{the four largest moons of Jupiter}}: {{[Io](Io%20(moon).md), [Europa](Europa%20(moon).md), [Ganymede](Ganymede%20(moon).md), and [Callisto](Callisto%20(moon).md)}}. <!--SR:!2024-08-03,15,290!2024-07-29,10,270!2024-08-06,14,250-->
 
 ## references
 

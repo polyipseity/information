@@ -33,7 +33,7 @@ A view $v$ is the parent of another $v'$ if {{every query that we care about tha
 >
 > ![relations between a set of views, sparse](attachments/materialized%20view%20-%20data%20cube%20-%20sparse.png) <!--SR:!2024-08-27,56,310!2024-08-08,40,290!2024-08-28,57,310!2024-08-16,47,290!2024-08-13,44,290-->
 
-The cost of answering a query depends on {{the view (materialized or not) to be queried against and the views materialized}}. First, identify the {{least costly view (materialized or not) required to answer the query}}, and then find the {{least costly (direct or indirect) parent view that is materialized}}, and its {{associated cost is the cost of answering said query}}. <!--SR:!2024-08-04,38,290!2024-08-01,34,290!2024-08-02,36,290!2024-07-23,28,270-->
+The cost of answering a query depends on {{the view (materialized or not) to be queried against and the views materialized}}. First, identify the {{least costly view (materialized or not) required to answer the query}}, and then find the {{least costly (direct or indirect) parent view that is materialized}}, and its {{associated cost is the cost of answering said query}}. <!--SR:!2024-08-04,38,290!2024-08-01,34,290!2024-08-02,36,290!2024-10-05,74,270-->
 
 ### greedy algorithm
 

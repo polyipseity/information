@@ -13,7 +13,7 @@ tags:
 
 ### combining cv-qualifications
 
-Loosely speaking, when adding `const` to a multilevel pointer, {{`const` also needs to be added to all levels above said level ignoring the topmost level}}. For example, a pointer `T***` can be assigned to {{`T const *const *const *const`, `T const *const *const *`, `T *const *const *const`, `T *const *const *`, `T **const *const`, `T **const *`, and `T ***const`}}, but not {{`T const ***const`, `T const ***`, `T *const **const`, `T *const **`, `T const **const *const`, and `T const **const *`}}. <!--SR:!2024-08-30,59,270!2024-09-05,58,270!2024-07-23,26,272-->
+Loosely speaking, when adding `const` to a multilevel pointer, {{`const` also needs to be added to all levels above said level ignoring the topmost level}}. For example, a pointer `T***` can be assigned to {{`T const *const *const *const`, `T const *const *const *`, `T *const *const *const`, `T *const *const *`, `T **const *const`, `T **const *`, and `T ***const`}}, but not {{`T const ***const`, `T const ***`, `T *const **const`, `T *const **`, `T const **const *const`, and `T const **const *`}}. <!--SR:!2024-08-30,59,270!2024-09-05,58,270!2024-10-01,70,272-->
 
 ## references
 
