@@ -264,7 +264,7 @@ return _chain.from_iterable(await _gather(
 - `LEN(string)`→:::←`LOWER(string)` <!--SR:!2025-01-29,192,270!2024-08-20,89,290-->
 - `LOWER(string)`→:::←`RIGHT(string, length)` <!--SR:!2024-08-22,32,130!2024-11-30,132,230-->
 - `RIGHT(string, length)`→:::←`SUBSTITUTE(string, old, new)` <!--SR:!2025-01-27,229,270!2024-12-14,172,250-->
-- `SUBSTITUTE(string, old, new)`→:::←`UPPER(string)` <!--SR:!2024-10-15,121,230!2024-07-23,9,130-->
+- `SUBSTITUTE(string, old, new)`→:::←`UPPER(string)` <!--SR:!2024-10-15,121,230!2024-08-06,14,130-->
 - `UPPER(string)`→:::←_(end)_ <!--SR:!2024-10-09,177,310!2025-01-24,240,290-->
 
 <!--/pytextgen-->
@@ -336,7 +336,7 @@ return _chain.from_iterable(await _gather(
 - `IF(boolean, value_if_true[, value_if_false = FALSE])`→:::←`MAX(numbers...)` <!--SR:!2024-12-17,178,230!2024-12-26,211,270-->
 - `MAX(numbers...)`→:::←`MIN(numbers...)` <!--SR:!2024-12-28,255,330!2024-12-04,237,330-->
 - `MIN(numbers...)`→:::←`RANK(number, numbers...)` <!--SR:!2024-08-05,82,210!2025-04-21,291,270-->
-- `RANK(number, numbers...)`→:::←`STDEV(numbers...)` <!--SR:!2024-07-23,110,250!2024-08-29,133,270-->
+- `RANK(number, numbers...)`→:::←`STDEV(numbers...)` <!--SR:!2025-04-25,276,250!2024-08-29,133,270-->
 - `STDEV(numbers...)`→:::←`SUM(numbers...)` <!--SR:!2025-03-03,304,330!2024-09-03,134,270-->
 - `SUM(numbers...)`→:::←_(end)_ <!--SR:!2025-02-26,254,290!2024-10-14,132,250-->
 

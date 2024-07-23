@@ -25,7 +25,7 @@ Environmental Engineering and Management
 What is Environmental Engineering?
 
 - What is environmental engineering? ::: Apply science and engineering principles to solve environmental problems. <!--SR:!2024-08-01,56,310!2024-11-20,136,310-->
-  - environmental engineering relevance ::: practical and lots of satisfaction, prevent environment deterioration, related to daily life <!--SR:!2024-07-23,48,310!2025-01-17,180,310-->
+  - environmental engineering relevance ::: practical and lots of satisfaction, prevent environment deterioration, related to daily life <!--SR:!2024-12-18,148,310!2025-01-17,180,310-->
 
 ## page 3
 
@@ -192,7 +192,7 @@ Landfills in Hong Kong
 Sustainable Waste Management
 
 - sustainable waste management triangle ::: top: waste avoidance + 3Rs, left: incineration (waste-to-energy), right: landfill (methane (CH<sub>4</sub>) to energy) <!--SR:!2024-09-29,89,290!2024-09-28,88,290-->
-  - sustainable waste management triangle arrows ::: top -> left, right; left -> right <!--SR:!2024-07-23,48,310!2024-07-23,49,290-->
+  - sustainable waste management triangle arrows ::: top -> left, right; left -> right <!--SR:!2024-12-17,147,310!2025-02-06,198,310-->
 
 ## page 12
 
@@ -202,7 +202,7 @@ Sustainable Waste Management
   - reduce ::: reduce the amount of solid waste generation <!--SR:!2024-07-31,55,310!2024-08-06,60,310-->
   - reuse ::: multiple uses of an item in its original form with or without reconditioning <!--SR:!2024-07-27,52,310!2024-07-26,51,310-->
   - recycle ::: materials are collected and recovered to be used as raw material <!--SR:!2024-11-14,121,290!2024-08-07,60,310-->
-    - recycle example ::: plastic bottle (PET or HDPE) -> chips -> fiber -> T-shirt or bag <!--SR:!2024-07-23,49,290!2024-08-02,57,310-->
+    - recycle example ::: plastic bottle (PET or HDPE) -> chips -> fiber -> T-shirt or bag <!--SR:!2024-12-11,141,290!2024-08-02,57,310-->
 
 ## page 13
 
@@ -218,7 +218,7 @@ MSW Waste Charging Scheme
 - MSW waste charging scheme passing date ::: 2021-09-26 by Legco <!--SR:!2024-08-02,45,250!2024-09-14,77,270-->
   - MSW waste charging scheme preparation period ::: 18 months <!--SR:!2024-08-10,64,310!2024-11-24,140,310-->
   - MSW waste charging scheme details ::: buy designated bags (0.11 HKD/L) at ~4000 selling points <!--SR:!2024-09-03,67,270!2024-08-02,57,310-->
-  - MSW waste charging scheme penalty ::: max HK$25000 fine and 6 months in prison <!--SR:!2024-07-29,54,310!2024-07-23,46,290-->
+  - MSW waste charging scheme penalty ::: max HK$25000 fine and 6 months in prison <!--SR:!2024-07-29,54,310!2025-01-26,187,310-->
 
 Will this waste charging scheme waste generation?
 
@@ -228,7 +228,7 @@ Environmental Levy Scheme (Plastic Shopping Bags)
 
 - Environmental Levy Scheme ::: scheme to reduce plastic shopping bags <!--SR:!2024-08-01,56,310!2024-08-13,65,310-->
   - Environmental Levy Scheme launch time ::: launched in 2009 <!--SR:!2024-10-05,83,290!2024-08-08,61,310-->
-  - Environmental Levy Scheme coverage ::: 40 registered retailers with ~3100 retail outlets <!--SR:!2024-09-28,85,270!2024-07-23,48,310-->
+  - Environmental Levy Scheme coverage ::: 40 registered retailers with ~3100 retail outlets <!--SR:!2024-09-28,85,270!2024-12-16,146,310-->
   - Environmental Levy Scheme effect ::: -90% from registered retailers after 1 year. -25% in overall plastic bag consumption after covering all retail shops in 2015 <!--SR:!2024-09-05,68,270!2024-07-30,52,290-->
   - Environmental Levy Scheme income ::: HK$25.5 million in 2009 <!--SR:!2024-09-06,71,270!2024-11-08,115,290-->
 
@@ -300,7 +300,7 @@ Noise Levels and Causes
   - concert ::: 100 dB(A) <!--SR:!2024-08-16,68,310!2024-08-15,68,310-->
   - drilling ::: 90 dB(A) <!--SR:!2024-07-24,47,290!2024-08-27,63,270-->
   - train passing ::: 80 dB(A) <!--SR:!2024-08-11,64,310!2024-08-05,59,310-->
-  - highway (harm threshold) ::: 70 dB(A) <!--SR:!2024-08-08,62,310!2024-07-23,46,290-->
+  - highway (harm threshold) ::: 70 dB(A) <!--SR:!2024-08-08,62,310!2024-12-02,132,290-->
   - home with TV on ::: 60 dB(A) <!--SR:!2025-01-21,184,310!2025-01-05,168,310-->
   - library ::: 40 dB(A) <!--SR:!2024-08-10,64,310!2024-07-25,50,310-->
   - park ::: 30 dB(A) <!--SR:!2024-08-08,61,310!2024-07-25,50,310-->

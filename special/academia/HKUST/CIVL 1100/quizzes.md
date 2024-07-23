@@ -214,7 +214,7 @@ Example quiz questions for preparing exams.
 > 3. Nitrogen oxides
 > 4. Solvents
 >
-> - solution: {{3}} <!--SR:!2024-07-23,46,292-->
+> - solution: {{3}} <!--SR:!2024-12-06,136,292-->
 
 <!-- markdownlint MD028 -->
 

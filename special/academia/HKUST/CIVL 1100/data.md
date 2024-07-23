@@ -45,7 +45,7 @@ See [Burj Al Arab](../../../../general/Burj%20Al%20Arab.md).
 - description ::: luxury hotel in Dubai, United Arab Emirates <!--SR:!2024-09-19,106,307!2024-08-29,108,377-->
 - height ::: architectural: 321 m, top floor: 197.5 m <!--SR:!2024-09-02,60,220!2024-08-13,92,365-->
 - image ::: ![Burj Al Arab image](../../../../archives/Wikimedia%20Commons/Burj%20Al%20Arab,%20Dubai,%20by%20Joi%20Ito%20Dec2007.jpg) <!--SR:!2024-09-11,107,380!2024-08-30,96,380-->
-- shape ::: sail of a ship <!--SR:!2024-07-23,71,357!2024-07-23,75,372-->
+- shape ::: sail of a ship <!--SR:!2025-04-03,254,357!2025-04-27,278,372-->
 
 ## Burj Khalifa
 
@@ -77,7 +77,7 @@ See [Central Plaza (Hong Kong)](../../../../general/Central%20Plaza%20(Hong%20Ko
 
 - description ::: super tall skyscraper in Wan Chai, Hong Kong <!--SR:!2024-11-26,170,355!2024-08-27,106,377-->
 - height ::: architectural: 373.9 m, top floor: 299 m <!--SR:!2024-07-29,8,241!2024-08-25,104,376-->
-- image ::: ![Central Plaza (Hong Kong) image](../../../../archives/Wikimedia%20Commons/Hong%20Kong%20Convention%20and%20Exhibition%20Centre%20200906(cropped).jpg) <!--SR:!2024-07-23,60,360!2024-08-18,86,380-->
+- image ::: ![Central Plaza (Hong Kong) image](../../../../archives/Wikimedia%20Commons/Hong%20Kong%20Convention%20and%20Exhibition%20Centre%20200906(cropped).jpg) <!--SR:!2024-08-26,34,340!2024-08-18,86,380-->
 - [structural system](../../../../general/structural%20system.md) ::: reinforced concrete<!-- flashcard 90e284d1-1940-43c0-b5d7-1b8bea6e3c3e --> <!--SR:!2024-12-27,173,341!2024-08-19,87,381-->
 
 ## Channel Tunnel
@@ -85,7 +85,7 @@ See [Central Plaza (Hong Kong)](../../../../general/Central%20Plaza%20(Hong%20Ko
 See [Channel Tunnel](../../../../general/Channel%20Tunnel.md).
 
 - completion time ::: 1994 <!--SR:!2024-07-27,18,336!2024-10-10,110,376-->
-- rail tunnel length ::: 50.5 km (37.9 km underseas) <!--SR:!2024-07-23,8,276!2024-10-20,125,396-->
+- rail tunnel length ::: 50.5 km (37.9 km underseas) <!--SR:!2024-08-11,19,276!2024-10-20,125,396-->
 
 ## China International Trust and Investment Plaza
 
@@ -202,7 +202,7 @@ See [Itaipu Dam](../../../../general/Itaipu%20Dam.md).
 
 See [John Hancock Center](John%20Hancock%20Center.md).
 
-- description ::: skyscraper in Chicago, Illinois <!--SR:!2024-08-20,80,295!2024-07-23,75,367-->
+- description ::: skyscraper in Chicago, Illinois <!--SR:!2024-08-20,80,295!2025-08-03,376,387-->
 - height ::: architectural: 344 m, tip: 457 m, top floor: 321 m <!--SR:!2024-08-20,29,197!2025-01-14,230,330-->
 - image ::: ![John Hancock Center image](../../../../archives/Wikimedia%20Commons/Chicago%20(22332583569).jpg) <!--SR:!2024-08-15,83,380!2024-09-08,104,380-->
 - [structural system](../../../../general/structural%20system.md) ::: steel<!-- flashcard cdb6c7b6-65ec-475e-8c89-c66ec42bacd2 --> <!--SR:!2024-09-26,106,300!2024-08-20,88,380-->
@@ -270,7 +270,7 @@ See [Sutong Yangtze River Bridge](../../../../general/Sutong%20Yangtze%20River%2
 
 - bridge type ::: [cable-stayed bridge](../../../../general/cable-stayed%20bridge.md)<!-- flashcard 30c74f35-b995-41af-8d8c-189c93fb1dfa --> <!--SR:!2024-08-10,78,360!2024-08-23,91,380-->
 - description ::: [cable-stayed bridge](../../../../general/cable-stayed%20bridge.md) in China <!--SR:!2024-08-12,80,310!2025-05-26,316,364-->
-- image ::: ![Sutong Yangtze River Bridge image](../../../../archives/Wikimedia%20Commons/Sutong%20Yangtze%20River%20Bridge.JPG) <!--SR:!2024-08-21,89,380!2024-07-23,60,360-->
+- image ::: ![Sutong Yangtze River Bridge image](../../../../archives/Wikimedia%20Commons/Sutong%20Yangtze%20River%20Bridge.JPG) <!--SR:!2024-08-21,89,380!2025-05-14,295,380-->
 - length ::: 8206 m, longest span: 1088 m <!--SR:!2024-07-30,48,257!2025-02-02,212,355-->
 
 ## Taipei 101

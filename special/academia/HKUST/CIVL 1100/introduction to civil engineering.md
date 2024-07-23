@@ -460,7 +460,7 @@ testing materials
 - planning→:::←procuring materials <!--SR:!2025-01-24,186,317!2024-08-10,65,277-->
 - procuring materials→:::←quality assurance <!--SR:!2024-08-02,58,300!2024-08-22,77,281-->
 - quality assurance→:::←quality control <!--SR:!2024-10-31,150,357!2025-01-13,182,352-->
-- quality control→:::←safety engineering <!--SR:!2024-08-01,65,301!2024-07-23,9,255-->
+- quality control→:::←safety engineering <!--SR:!2024-08-01,65,301!2024-07-29,6,235-->
 - safety engineering→:::←scheduling <!--SR:!2024-08-25,82,320!2024-10-01,120,340-->
 - scheduling→:::←surveying building site <!--SR:!2024-08-18,60,241!2024-10-16,116,300-->
 - surveying building site→:::←testing materials <!--SR:!2024-08-04,33,260!2024-08-10,27,272-->
@@ -675,7 +675,7 @@ socioeconomic
 - biological→:::←chemical <!--SR:!2024-10-04,126,337!2025-03-18,247,357-->
 - chemical→:::←cultural <!--SR:!2024-11-18,119,280!2024-11-27,173,357-->
 - cultural→:::←physical <!--SR:!2024-10-14,138,345!2024-07-31,64,300-->
-- physical→:::←socioeconomic <!--SR:!2024-07-23,60,297!2024-07-31,68,361-->
+- physical→:::←socioeconomic <!--SR:!2024-08-25,33,277!2024-07-31,68,361-->
 - socioeconomic→:::←_(end)_ <!--SR:!2024-12-29,187,354!2024-09-24,90,277-->
 
 <!--/pytextgen-->
@@ -950,7 +950,7 @@ wave
 <!--pytextgen generate section="4372"--><!-- The following content is generated at 2024-05-01T19:22:35.392684+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←earthquake <!--SR:!2024-11-11,142,340!2025-02-25,240,357-->
-- earthquake→:::←fire <!--SR:!2024-09-28,117,335!2024-07-23,71,360-->
+- earthquake→:::←fire <!--SR:!2024-09-28,117,335!2025-04-04,255,360-->
 - fire→:::←flood <!--SR:!2024-11-25,155,324!2024-09-05,104,266-->
 - flood→:::←strong wind <!--SR:!2024-08-01,63,320!2024-11-10,112,297-->
 - strong wind→:::←wave <!--SR:!2025-01-11,218,290!2024-10-07,107,294-->
