@@ -141,7 +141,7 @@ Additionally, for negative damping ratios:
 > {{$$Q = \frac{1}{2 \zeta}$$}}
 >
 > - where
->   - {{$Q$ is the [_Q_ factor](Q%20factor.md) of an [oscillator](osccillation.md) with damping ratio $\zeta$}} <!--SR:!2024-07-26,143,303!2025-01-22,302,343-->
+>   - {{$Q$ is the [_Q_ factor](Q%20factor.md) of an [oscillator](osccillation.md) with damping ratio $\zeta$}} <!--SR:!2025-10-02,432,303!2025-01-22,302,343-->
 
 <!-- markdownlint MD028 -->
 

@@ -174,7 +174,7 @@ The steps for naming an organic compound are:
 - number and [prefix](#prefix%20for%20type%20count) substituents and bonds→:::←[arrange](#arrange): prefix(es) + [prefix for carbon count](#prefix%20for%20carbon%20count) + bond(s) + suffix <!--SR:!2024-07-31,143,227!2024-12-25,360,230-->
 - [arrange](#arrange): prefix(es) + [prefix for carbon count](#prefix%20for%20carbon%20count) + bond(s) + suffix→:::←(optional) omit unnecessary locants <!--SR:!2024-12-01,451,230!2024-09-03,103,207-->
 - (optional) omit unnecessary locants→:::←[modify words for pronunciation](#modify%20words%20for%20pronunciation) <!--SR:!2024-08-07,335,230!2024-12-28,231,225-->
-- [modify words for pronunciation](#modify%20words%20for%20pronunciation)→:::←[modify punctuations](#modify%20punctuations) <!--SR:!2024-07-27,602,312!2025-12-06,562,267-->
+- [modify words for pronunciation](#modify%20words%20for%20pronunciation)→:::←[modify punctuations](#modify%20punctuations) <!--SR:!2029-09-16,1877,312!2025-12-06,562,267-->
 - [modify punctuations](#modify%20punctuations)→:::←prefix notation for _cis_–_trans_ isomerism <!--SR:!2024-11-28,206,253!2027-10-24,1227,307-->
 - prefix notation for _cis_–_trans_ isomerism→:::←_(end)_ <!--SR:!2029-08-16,1975,382!2027-07-03,1153,307-->
 
@@ -633,7 +633,7 @@ return (
 - carboxylic acid derivative→:::←nitrile <!--SR:!2024-12-29,427,210!2024-09-05,585,267-->
 - nitrile→:::←aldehyde <!--SR:!2024-08-19,96,190!2024-08-09,90,210-->
 - aldehyde→:::←ketone <!--SR:!2026-12-29,1065,252!2024-12-06,598,250-->
-- ketone→:::←alcohol <!--SR:!2026-06-11,743,250!2024-07-26,12,130-->
+- ketone→:::←alcohol <!--SR:!2026-06-11,743,250!2024-08-14,18,130-->
 - alcohol→:::←hydroperoxide <!--SR:!2027-05-18,1057,226!2026-10-20,1068,272-->
 - hydroperoxide→:::←amine <!--SR:!2024-09-14,98,224!2025-02-02,257,252-->
 - amine→:::←_(lowest)_ <!--SR:!2025-04-28,532,236!2024-08-28,171,247-->

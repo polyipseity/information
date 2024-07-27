@@ -9,7 +9,7 @@ tags:
 
 # tidal locking
 
-__Tidal locking__ between {{a pair of co-[orbiting](orbit.md) [astronomical bodies](astronomical%20object.md) occurs when one of the objects reaches a state where there is no longer any net change in its [rotation rate](rotational%20frequency.md) over the course of a complete orbit}}. Some scientific sources use it to {{_exclusively_ refer to 1:1 synchronous rotation (e.g. the [Moon](Moon.md)) instead}}. <!--SR:!2024-07-25,4,270!2024-07-25,4,270-->
+__Tidal locking__ between {{a pair of co-[orbiting](orbit.md) [astronomical bodies](astronomical%20object.md) occurs when one of the objects reaches a state where there is no longer any net change in its [rotation rate](rotational%20frequency.md) over the course of a complete orbit}}. Some scientific sources use it to {{_exclusively_ refer to 1:1 synchronous rotation (e.g. the [Moon](Moon.md)) instead}}. <!--SR:!2024-08-11,15,290!2024-08-12,16,290-->
 
 ## references
 

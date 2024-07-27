@@ -19,4 +19,4 @@ Remember what functions are available for turtles and combine them with previous
 - movement :: `turtle.forward(pixels)`, `turtle.backward(pixels)` <!--SR:!2025-01-27,275,330-->
 - rotation :: `turtle.left(degrees)`, `turtle.right(degrees)` <!--SR:!2025-02-26,299,330-->
 - shapes :: `turtle.circle(radius)` <!--SR:!2024-12-22,247,330-->
-- pen :: `turtle.penup()`, `turtle.pendown()`, `turtle.pencolor(color_name)` <!--SR:!2024-07-27,115,290-->
+- pen :: `turtle.penup()`, `turtle.pendown()`, `turtle.pencolor(color_name)` <!--SR:!2025-06-25,333,290-->

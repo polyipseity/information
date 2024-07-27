@@ -41,7 +41,7 @@ return (
 
 Loads can be specified in {{3}} ways: {{point load (load at a point) in kN, line load (load over a line) in kN/m, and distributed load (load over an area) in kN/m<sup>2</sup>}}. <!--SR:!2025-02-20,214,330!2024-08-08,66,320-->
 
-Loads on civil engineering can be separated into {{<!--pytextgen generate section="28ba"--><!-- The following content is generated at 2024-05-14T01:02:39.496907+08:00. Any edits will be overridden! -->4<!--/pytextgen-->}} main categories. <!--SR:!2024-07-25,50,290-->
+Loads on civil engineering can be separated into {{<!--pytextgen generate section="28ba"--><!-- The following content is generated at 2024-05-14T01:02:39.496907+08:00. Any edits will be overridden! -->4<!--/pytextgen-->}} main categories. <!--SR:!2025-02-17,205,310-->
 
 <!--pytextgen generate section="98ba"--><!-- The following content is generated at 2024-05-14T21:09:52.059240+08:00. Any edits will be overridden! -->
 
@@ -72,7 +72,7 @@ Generally, dead load (and live load) internally {{deflects beams and floors}}. A
 
 ### live load
 
-The live load includes {{loads that are temporary or moving}}. This includes {{moving things, such as moving vehicles, people, and storage}}; {{non-permanent fixtures such as ceiling lights, furniture, and pipe ducts}}. The load can vary in {{location and magnitude}}. In building codes such as {{_Minimum Design Load for Buildings and Other Structures_, ASCE 7-05}}, the live load is {{tabulated and usually assumed uniform on building floors}}. <!--SR:!2025-01-31,194,310!2024-12-04,153,320!2024-12-05,140,290!2024-11-11,132,310!2024-07-25,45,270!2024-11-29,149,320-->
+The live load includes {{loads that are temporary or moving}}. This includes {{moving things, such as moving vehicles, people, and storage}}; {{non-permanent fixtures such as ceiling lights, furniture, and pipe ducts}}. The load can vary in {{location and magnitude}}. In building codes such as {{_Minimum Design Load for Buildings and Other Structures_, ASCE 7-05}}, the live load is {{tabulated and usually assumed uniform on building floors}}. <!--SR:!2025-01-31,194,310!2024-12-04,153,320!2024-12-05,140,290!2024-11-11,132,310!2024-11-23,119,270!2024-11-29,149,320-->
 
 Generally, live load has {{similar effects to dead load}}. <!--SR:!2024-07-30,55,310-->
 
@@ -109,20 +109,20 @@ return await memorize_seq(
 - [hydrostatic load](#hydrostatic%20load)→:::←[lateral load](#lateral%20load) <!--SR:!2024-10-08,97,288!2024-11-15,125,300-->
 - [lateral load](#lateral%20load)→:::←[seismic load](#seismic%20load) <!--SR:!2024-09-21,85,288!2024-12-09,143,300-->
 - [seismic load](#seismic%20load)→:::←[thermal load](#thermal%20load) <!--SR:!2024-08-11,37,260!2024-10-24,98,260-->
-- [thermal load](#thermal%20load)→:::←[wind load](#wind%20load) <!--SR:!2024-07-27,20,280!2024-07-26,45,270-->
+- [thermal load](#thermal%20load)→:::←[wind load](#wind%20load) <!--SR:!2024-09-20,55,280!2024-11-24,120,270-->
 - [wind load](#wind%20load)→:::←_(end)_ <!--SR:!2024-08-19,75,320!2024-08-10,67,328-->
 
 <!--/pytextgen-->
 
 #### hydrostatic load
 
-Hydrostatic load refers to load caused by {{[water](water.md)}}. The load can be caused by {{pure water itself, or water in a material such as soil}}. <!--SR:!2024-07-30,58,310!2024-07-25,54,310-->
+Hydrostatic load refers to load caused by {{[water](water.md)}}. The load can be caused by {{pure water itself, or water in a material such as soil}}. <!--SR:!2024-07-30,58,310!2025-03-23,239,330-->
 
 For example, when there is {{water buildup in the soil}}, there is {{increased hydrostatic pressure on retaining walls}}. For pure water, examples include a {{[dam](dam.md), where deeper waters exert more horizontal hydrostatic pressure on the dam}}. <!--SR:!2024-08-03,61,310!2024-07-30,55,300!2024-07-31,59,310-->
 
 #### lateral load
 
-Lateral load may be caused by {{bulk materials, [groundwater](groundwater.md), or [soil](soil.md)}}. <!--SR:!2024-07-27,52,290-->
+Lateral load may be caused by {{bulk materials, [groundwater](groundwater.md), or [soil](soil.md)}}. <!--SR:!2025-02-21,209,310-->
 
 For example, there is lateral soil load on {{retaining walls of a slope because the soil of a slope on the retained side tends to slip down, pushing the walls towards the excavated side}}. This lateral soil load can cause {{lateral deflection, toppling of the retaining structure, or even a landslide}}. <!--SR:!2024-07-28,52,300!2024-12-25,155,300-->
 
@@ -150,7 +150,7 @@ Wind load causes {{lateral deflection, which may further lead to toppling of the
 
 ### load combinations
 
-{{Load (amplifying) factors}} are used in {{design equations to increase the design loads}}, to {{account for uncertainties involved when estimating loads}}. An example is {{_U_ = 1.2 _D_ + 1.6 _L_, where _D_ is the dead load and _L_ is the live load}}. <!--SR:!2024-08-06,64,310!2024-07-26,54,310!2025-01-01,174,320!2025-02-18,211,320-->
+{{Load (amplifying) factors}} are used in {{design equations to increase the design loads}}, to {{account for uncertainties involved when estimating loads}}. An example is {{_U_ = 1.2 _D_ + 1.6 _L_, where _D_ is the dead load and _L_ is the live load}}. <!--SR:!2024-08-06,64,310!2025-03-24,240,330!2025-01-01,174,320!2025-02-18,211,320-->
 
 ## references
 

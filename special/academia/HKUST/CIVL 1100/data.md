@@ -26,7 +26,7 @@ Things to memorize. Yes... 🫠
 See [Akashi Kaikyo Bridge](../../../../general/Akashi%20Kaikyo%20Bridge.md).
 
 - bridge type ::: [suspension bridge](../../../../general/suspension%20bridge.md)<!-- flashcard 30fd6583-3351-4146-9125-522db98579b7 --> <!--SR:!2024-07-28,21,274!2024-08-29,97,380-->
-- description ::: suspension bridge in Kobe, Japan <!--SR:!2025-03-15,237,347!2024-07-26,78,375-->
+- description ::: suspension bridge in Kobe, Japan <!--SR:!2025-03-15,237,347!2025-05-16,292,375-->
 - image ::: ![Akashi Kaikyo Bridge image](../../../../archives/Wikimedia%20Commons/Akashi%20Bridge.JPG) <!--SR:!2024-08-06,74,360!2024-08-16,84,380-->
 - length ::: 3911 m, longest span: 1991 m <!--SR:!2024-08-10,68,281!2024-08-05,86,372-->
 
@@ -60,9 +60,9 @@ See [Burj Khalifa](../../../../general/Burj%20Khalifa.md).
 
 See [CCTV Headquarters](../../../../general/CCTV%20Headquarters.md).
 
-- description ::: skyscraper in the central business district of Beijing, China <!--SR:!2024-10-25,144,332!2024-07-27,79,367-->
+- description ::: skyscraper in the central business district of Beijing, China <!--SR:!2024-10-25,144,332!2025-08-30,398,387-->
 - height ::: roof: 234 m <!--SR:!2024-08-21,45,240!2024-08-29,108,377-->
-- image ::: ![CCTV Headquarters image](../../../../archives/Wikimedia%20Commons/China%20Central%20Television%20HQ,%20from%20China%20World%20Trade%20Centre%20(Cropped).jpg) <!--SR:!2024-07-26,63,360!2024-08-29,96,380-->
+- image ::: ![CCTV Headquarters image](../../../../archives/Wikimedia%20Commons/China%20Central%20Television%20HQ,%20from%20China%20World%20Trade%20Centre%20(Cropped).jpg) <!--SR:!2025-03-20,235,360!2024-08-29,96,380-->
 - shape ::: big pants <!--SR:!2024-08-15,94,365!2024-08-25,93,380-->
 
 ## CN Tower
@@ -84,7 +84,7 @@ See [Central Plaza (Hong Kong)](../../../../general/Central%20Plaza%20(Hong%20Ko
 
 See [Channel Tunnel](../../../../general/Channel%20Tunnel.md).
 
-- completion time ::: 1994 <!--SR:!2024-07-27,18,336!2024-10-10,110,376-->
+- completion time ::: 1994 <!--SR:!2024-08-04,7,316!2024-10-10,110,376-->
 - rail tunnel length ::: 50.5 km (37.9 km underseas) <!--SR:!2024-08-11,19,276!2024-10-20,125,396-->
 
 ## China International Trust and Investment Plaza
@@ -154,7 +154,7 @@ See [HSBC Building (Hong Kong)](HSBC%20Building%20(Hong%20Kong).md).
 
 - description ::: headquarters building of [The Hongkong and Shanghai Banking Corporation](HSBC%20(Hong%20Kong).md) <!--SR:!2025-01-15,197,354!2025-03-05,256,330-->
 - height ::: roof: 178.8 m <!--SR:!2024-08-07,24,261!2025-05-07,325,350-->
-- image ::: ![HSBC Main Building image](../../../../archives/Wikimedia%20Commons/HK%20HSBC%20Main%20Building%202008%20(cropped).jpg) <!--SR:!2024-07-26,63,360!2024-09-03,100,380-->
+- image ::: ![HSBC Main Building image](../../../../archives/Wikimedia%20Commons/HK%20HSBC%20Main%20Building%202008%20(cropped).jpg) <!--SR:!2025-06-05,312,380!2024-09-03,100,380-->
 - [structural system](../../../../general/structural%20system.md) ::: steel [suspended structure](../../../../general/suspended%20structure.md)<!-- flashcard b5c46b64-11cf-4605-a97e-3a159f12185f --> <!--SR:!2024-10-21,130,321!2024-08-15,83,381-->
 
 ## Hong Kong Convention and Exhibition Centre
@@ -169,7 +169,7 @@ See [Hong Kong Convention and Exhibition Centre](../../../../general/Hong%20Kong
 
 See [Hong Kong–Zhuhai–Macau Bridge](../../../../general/Hong%20Kong–Zhuhai–Macau%20Bridge.md).
 
-- bridge type ::: [bridge–tunnel](../../../../general/bridge–tunnel.md)<!-- flashcard 981d3cc6-47b4-4aad-8a99-bdeea2975b92 --> <!--SR:!2025-04-16,286,374!2024-07-27,79,374-->
+- bridge type ::: [bridge–tunnel](../../../../general/bridge–tunnel.md)<!-- flashcard 981d3cc6-47b4-4aad-8a99-bdeea2975b92 --> <!--SR:!2025-04-16,286,374!2025-09-03,402,394-->
 - description ::: fixed link consisting of tunnels and multiple bridges <!--SR:!2024-08-19,98,375!2024-12-19,209,330-->
 - image ::: ![Hong Kong–Zhuhai–Macau Bridge image](../../../../archives/Wikimedia%20Commons/West%20section%20of%20Hong%20Kong-Zhuhai-Macau%20Bridge%20(20180902174105).jpg) <!--SR:!2024-09-10,106,380!2024-08-19,87,380-->
 - length: 55 km
@@ -181,7 +181,7 @@ See [Hoover Dam](../../../../general/Hoover%20Dam.md).
 - [dam type](../../../../general/dam.md#types) ::: concrete gravity-arch <!--SR:!2024-09-03,94,320!2024-08-16,97,375-->
 - height ::: 221.4 m <!--SR:!2024-09-29,95,281!2025-02-27,247,367-->
 - image ::: ![Hoover Dam image](../../../../archives/Wikimedia%20Commons/Ansel%20Adams%20-%20National%20Archives%2079-AAB-01.jpg) <!--SR:!2024-08-09,77,360!2024-08-31,97,380-->
-- length ::: 379 m <!--SR:!2024-07-25,9,221!2025-02-11,235,370-->
+- length ::: 379 m <!--SR:!2024-08-16,19,221!2025-02-11,235,370-->
 
 ## International Commerce Centre
 
@@ -189,8 +189,8 @@ See [International Commerce Centre](International%20Commerce%20Centre.md).
 
 - description ::: tallest building in [Hong Kong](../../../../general/Hong%20Kong.md) <!--SR:!2024-12-25,214,330!2024-08-14,93,370-->
 - height ::: architectural: 484 m, tip: 484 m, top floor: 468 m, roof: 484 m <!--SR:!2024-07-30,67,301!2025-01-15,231,330-->
-- image ::: ![International Commerce Centre image](../../../../archives/Wikimedia%20Commons/International%20Commerce%20Centre%20201008.jpg) <!--SR:!2024-07-26,63,360!2024-08-24,91,380-->
-- [structural system](../../../../general/structural%20system.md) ::: concrete–steel composite <!--SR:!2024-07-24,58,321!2024-09-04,103,381-->
+- image ::: ![International Commerce Centre image](../../../../archives/Wikimedia%20Commons/International%20Commerce%20Centre%20201008.jpg) <!--SR:!2025-03-17,232,360!2024-08-24,91,380-->
+- [structural system](../../../../general/structural%20system.md) ::: concrete–steel composite <!--SR:!2024-08-30,33,301!2024-09-04,103,381-->
 
 ## Itaipu Dam
 
@@ -262,7 +262,7 @@ See [Stonecutters Bridge](../../../../general/Stonecutters%20Bridge.md).
 - bridge type ::: [cable-stayed bridge](../../../../general/cable-stayed%20bridge.md)<!-- flashcard ca1fa4c4-b487-40a0-9948-a808866a25eb --> <!--SR:!2024-12-12,177,361!2024-08-30,98,381-->
 - description ::: bridge in Hong Kong <!--SR:!2024-12-19,186,345!2024-08-21,100,377-->
 - image ::: ![Stonecutters Bridge image](../../../../archives/Wikimedia%20Commons/Stonecutters'%20Bridge.jpg) <!--SR:!2024-08-28,95,380!2025-05-03,286,380-->
-- length ::: 1596 m, longest span: 1018 m <!--SR:!2024-07-24,10,240!2025-03-13,259,370-->
+- length ::: 1596 m, longest span: 1018 m <!--SR:!2024-08-19,22,240!2025-03-13,259,370-->
 
 ## Sutong Yangtze River Bridge
 
@@ -278,7 +278,7 @@ See [Sutong Yangtze River Bridge](../../../../general/Sutong%20Yangtze%20River%2
 See [Taipei 101](Taipei%20101.md).
 
 - description ::: skyscraper in Taipei, Taiwan <!--SR:!2025-03-31,295,350!2024-09-04,103,380-->
-- height ::: architectural: 508.2 m, tip: 509.2 m, top floor: 438 m <!--SR:!2024-07-25,4,130!2024-11-19,179,330-->
+- height ::: architectural: 508.2 m, tip: 509.2 m, top floor: 438 m <!--SR:!2024-08-01,4,130!2024-11-19,179,330-->
 - image ::: ![Taipei 101 image](../../../../archives/Wikimedia%20Commons/Tower%20of%20Taipei%20101(cropped).jpg) <!--SR:!2025-02-07,201,360!2024-08-17,85,380-->
 - [structural system](../../../../general/structural%20system.md) ::: concrete–steel composite<!-- flashcard 16556e6f-00ca-4a87-845c-f0ea2f56807a --> <!--SR:!2024-09-10,92,320!2024-08-23,90,380-->
 
@@ -305,7 +305,7 @@ See [Tsing Ma Bridge](../../../../general/Tsing%20Ma%20Bridge.md).
 See [Turin–Lyon high-speed railway](../../../../general/Turin–Lyon%20high-speed%20railway.md).
 
 - core part ::: [Mont Cenis Base Tunnel](#Mont%20Cenis%20Base%20Tunnel) <!--SR:!2024-10-19,138,327!2024-08-06,87,370-->
-- length ::: 271 km <!--SR:!2024-07-24,58,317!2024-08-23,102,377-->
+- length ::: 271 km <!--SR:!2024-08-28,31,297!2024-08-23,102,377-->
 
 ## Two Prudential Plaza
 

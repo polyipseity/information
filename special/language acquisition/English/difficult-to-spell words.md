@@ -68,7 +68,7 @@ English
 - [polynomial](https://en.wiktionary.org/wiki/polynomial) ::: (p\_l) A [mathematical expression](../../../general/expression%20(mathematics).md) that is a [sum](../../../general/summation.md) of [constant](../../../general/constant%20(mathematics).md) [coefficients](../../../general/coefficient.md) multipled with [indeterminates](../../../general/indeterminate%20(variable).md) raised to a nonnegative [integer](../../../general/integer.md) [power](../../../general/exponentiation.md). <!--SR:!2024-11-20,229,324!2024-09-24,205,324-->
 - [preamble](https://en.wiktionary.org/wiki/preamble) ::: (p\_e) An introduction to a [document](../../../general/document.md). <!--SR:!2025-06-02,410,372!2025-01-24,284,352-->
 - [precedence](https://en.wiktionary.org/wiki/precedence) ::: (p\_e) The state of preceding in importance or priority. <!--SR:!2026-08-30,770,430!2025-01-08,254,370-->
-- [proprietary](https://en.wiktionary.org/wiki/proprietary) ::: (p\_y) Of or relating to [property](../../../general/property.md) or ownership. <!--SR:!2024-08-12,116,376!2024-07-27,6,196-->
+- [proprietary](https://en.wiktionary.org/wiki/proprietary) ::: (p\_y) Of or relating to [property](../../../general/property.md) or ownership. <!--SR:!2024-08-12,116,376!2024-08-07,11,196-->
 - [receipt](https://en.wiktionary.org/wiki/receipt) ::: (r\_t) The act of receiving or having been received. <!--SR:!2025-12-05,507,388!2024-08-29,83,288-->
 - [recipe](https://en.wiktionary.org/wiki/recipe) ::: (r\_e) A set of instructions for making [food](../../../general/food.md). <!--SR:!2025-07-06,423,408!2025-01-24,266,388-->
 - [recipient](https://en.wiktionary.org/wiki/recipient) ::: (r\_t) One who receives. <!--SR:!2026-01-23,558,408!2024-09-23,116,308-->
@@ -78,9 +78,9 @@ English
 - [rudimentary](https://en.wiktionary.org/wiki/rudimentary) ::: (r\_y) Basic, minimal. <!--SR:!2025-04-28,381,372!2024-09-25,209,352-->
 - [sacred](https://en.wiktionary.org/wiki/sacred) ::: (s\_d) Not to be profaned or violated; inviolable. <!--SR:!2024-08-09,114,376!2024-09-16,86,336-->
 - [scarce](https://en.wiktionary.org/wiki/scarce) ::: (s\_e) Uncommon, rare. <!--SR:!2025-08-20,394,376!2024-08-17,103,336-->
-- [scared](https://en.wiktionary.org/wiki/scared) ::: (s\_d) Feeling fear; afraid, frightened. <!--SR:!2024-07-27,103,376!2024-08-26,133,396-->
+- [scared](https://en.wiktionary.org/wiki/scared) ::: (s\_d) Feeling fear; afraid, frightened. <!--SR:!2026-01-07,529,396!2024-08-26,133,396-->
 - [scissors](https://en.wiktionary.org/wiki/scissors) ::: (s\_s) A tool used for cutting thin material, consisting of two crossing blades attached at a pivot point in such a way that the blades slide across each other when the handles are closed. <!--SR:!2024-09-17,145,332!2025-06-30,396,392-->
-- [sinusoidal](https://en.wiktionary.org/wiki/sinusoidal) ::: (s\_l) Having the shape or characteristics of a [sine wave](../../../general/sine%20wave.md). <!--SR:!2024-11-27,236,324!2024-07-26,95,244-->
+- [sinusoidal](https://en.wiktionary.org/wiki/sinusoidal) ::: (s\_l) Having the shape or characteristics of a [sine wave](../../../general/sine%20wave.md). <!--SR:!2024-11-27,236,324!2025-03-06,222,244-->
 - [supremum](https://en.wiktionary.org/wiki/supremum) ::: (s\_m) Given a [subset](../../../general/subset.md) $X$ of a [partially ordered set](../../../general/partially%20ordered%20set.md) $P$ with partial order $\le$, the least element $y$ of $P$ such that every $x$ in $X$ satisfies $x \le y$. <!--SR:!2024-08-16,158,410!2025-01-18,257,370-->
 - [tennessine](https://en.wiktionary.org/wiki/tennessine) ::: (t\_e) A [chemical element](../../../general/chemical%20element.md) (_symbol_ Ts) of [atomic number](../../../general/atomic%20number.md) 117. <!--SR:!2024-12-13,205,332!2025-06-17,391,392-->
 - [theoretical](https://en.wiktionary.org/wiki/theoretical) ::: (t\_l) Of or relating to theory rather than practice. <!--SR:!2024-11-10,250,330!2024-08-26,180,290-->

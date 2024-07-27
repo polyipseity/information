@@ -19,7 +19,7 @@ Business model generation is for {{the entrepreneurial-spirited, value creators,
 
 ## canvas
 
-The business model canvas consists of 9 [building blocks](#building%20blocks). It can be used for {{new or existing business models}}. It works best when {{it is on a large surface and groups of people can contribute and discuss}}. <!--SR:!2024-07-24,62,274!2024-09-12,110,294-->
+The business model canvas consists of 9 [building blocks](#building%20blocks). It can be used for {{new or existing business models}}. It works best when {{it is on a large surface and groups of people can contribute and discuss}}. <!--SR:!2025-03-27,243,294!2024-09-12,110,294-->
 
 ### building blocks
 
@@ -112,7 +112,7 @@ segmented: splitting slightly different customer segments
 - diversified: serving unrelated customer segments→:::←mass market: not distinguishing between customer segments <!--SR:!2024-09-10,84,237!2024-09-21,96,254-->
 - mass market: not distinguishing between customer segments→:::←multi-sided platforms: serving interdependent customer segments <!--SR:!2024-08-03,73,274!2024-09-12,109,297-->
 - multi-sided platforms: serving interdependent customer segments→:::←niche market: focusing on specific, specialized customer segments <!--SR:!2024-10-27,120,257!2024-09-12,79,254-->
-- niche market: focusing on specific, specialized customer segments→:::←segmented: splitting slightly different customer segments <!--SR:!2024-09-30,100,254!2024-07-24,10,217-->
+- niche market: focusing on specific, specialized customer segments→:::←segmented: splitting slightly different customer segments <!--SR:!2024-09-30,100,254!2024-07-31,4,197-->
 - segmented: splitting slightly different customer segments→:::←_(end)_ <!--SR:!2025-01-22,185,274!2024-10-31,116,254-->
 
 <!--/pytextgen-->

@@ -13,7 +13,7 @@ tags:
 
 ## importance
 
-SOM can be treated as a {{short-term goal, which should be realized by a startup quickly for it to be viable}}. It is the most important for startups as {{failing to meet SOM renders SAM and TAM meaningless}}. If the company is good enough, SOM eventually {{approaches SAM}}. <!--SR:!2024-07-28,63,310!2024-07-28,62,310!2024-07-27,62,310-->
+SOM can be treated as a {{short-term goal, which should be realized by a startup quickly for it to be viable}}. It is the most important for startups as {{failing to meet SOM renders SAM and TAM meaningless}}. If the company is good enough, SOM eventually {{approaches SAM}}. <!--SR:!2024-07-28,63,310!2024-07-28,62,310!2025-04-17,264,330-->
 
 ## references
 

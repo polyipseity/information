@@ -15,9 +15,9 @@ tags:
 
 # coronal mass ejection
 
-A __coronal mass ejection__ (__CME__) is {{a significant ejection of [magnetic field](magnetic%20field.md) and accompanying [plasma](plasma%20(physics).md) mass from the Sun's [corona](corona.md) into the [heliosphere](heliosphere.md)}}. <!--SR:!2024-07-25,4,270-->
+A __coronal mass ejection__ (__CME__) is {{a significant ejection of [magnetic field](magnetic%20field.md) and accompanying [plasma](plasma%20(physics).md) mass from the Sun's [corona](corona.md) into the [heliosphere](heliosphere.md)}}. <!--SR:!2024-08-10,14,290-->
 
-If a CME {{enters [interplanetary space](interplanetary%20medium.md)}}, it is referred to as {{an __interplanetary coronal mass ejection__ (__ICME__)}}. ICMEs are capable of {{reaching and colliding with Earth's [magnetosphere](magnetosphere.md), where they can cause [geomagnetic storms](geomagnetic%20storm.md), [aurorae](aurora.md), and in rare cases damage to [electrical power grids](electrical%20grid.md)}}. <!--SR:!2024-07-25,4,270!2024-07-25,4,270!2024-07-24,3,250-->
+If a CME {{enters [interplanetary space](interplanetary%20medium.md)}}, it is referred to as {{an __interplanetary coronal mass ejection__ (__ICME__)}}. ICMEs are capable of {{reaching and colliding with Earth's [magnetosphere](magnetosphere.md), where they can cause [geomagnetic storms](geomagnetic%20storm.md), [aurorae](aurora.md), and in rare cases damage to [electrical power grids](electrical%20grid.md)}}. <!--SR:!2024-08-10,14,290!2024-08-13,17,290!2024-08-06,10,270-->
 
 ## references
 

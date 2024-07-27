@@ -168,7 +168,7 @@ The content is in teaching order.
     - consultant after 6 to 9 years ::: As. Partner, Principal: selling the work; exit to director of big firms or general manager (GM) of small firms, and further top EMBA <!--SR:!2024-10-27,98,301!2024-08-07,46,321-->
     - consultant after 9 years or more ::: Director, Partner, VP: managing the business; exit to CEO or retire rich <!--SR:!2024-08-23,59,341!2024-09-24,89,361-->
 - nature of complex problems ::: modeled by time-varying multi-variable optimization problems with constraints <!--SR:!2024-08-12,39,341!2024-09-26,91,361-->
-  - solving complex problems ::: MECE frameworks for patterns, 5-step persuasive selling for presentation <!--SR:!2024-09-21,87,361!2024-07-25,36,321-->
+  - solving complex problems ::: MECE frameworks for patterns, 5-step persuasive selling for presentation <!--SR:!2024-09-21,87,361!2024-11-23,119,321-->
 - [Pareto principle](../../../../general/Pareto%20principle.md)
 - "less is more" ::: In the digital age, there is too much information (digital garbage), so they need to be distilled. Also see [DIKW pyramid](../../../../general/DIKW%20pyramid.md). <!--SR:!2024-08-23,59,341!2024-09-21,86,361-->
 - [MECE principle](../../../../general/MECE%20principle.md)
@@ -249,7 +249,7 @@ The content is in teaching order.
 - [blue ocean strategy](../../../blue%20ocean%20strategy.md)
   - [general/Blue Ocean Strategy](../../../../general/Blue%20Ocean%20Strategy.md)
   - [§ red ocean vs. blue ocean](../../../blue%20ocean%20strategy.md#red%20ocean%20vs.%20blue%20ocean)
-  - blue ocean strategy example companies ::: CitizenM, Drybar, Johann Strauss Orchestra (André Rieu), Nintendo (Wii), Yellow Tail <!--SR:!2024-07-27,37,337!2024-10-08,101,377-->
+  - blue ocean strategy example companies ::: CitizenM, Drybar, Johann Strauss Orchestra (André Rieu), Nintendo (Wii), Yellow Tail <!--SR:!2024-11-30,126,337!2024-10-08,101,377-->
   - [§ blue ocean shift](../../../blue%20ocean%20strategy.md#blue%20ocean%20shift)
   - [§ understand "as-is"](../../../blue%20ocean%20strategy.md#understand%20"as-is")
   - [§ imagine "to be"](../../../blue%20ocean%20strategy.md#imagine%20"to%20be")

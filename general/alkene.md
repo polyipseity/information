@@ -78,9 +78,9 @@ return await memorize_seq(
 - [combustion](#combustion)→:::←[dihydroxylation](dihydroxylation.md) <!--SR:!2025-07-07,383,310!2024-07-28,199,290-->
 - [dihydroxylation](dihydroxylation.md)→:::←[halogen addition reaction](halogen%20addition%20reaction.md) <!--SR:!2024-10-29,123,230!2026-06-01,727,290-->
 - [halogen addition reaction](halogen%20addition%20reaction.md)→:::←[hydrogenation](#hydrogenation) <!--SR:!2026-04-12,848,330!2026-01-14,639,270-->
-- [hydrogenation](#hydrogenation)→:::←[hydrohalogenation](#hydrohalogenation) <!--SR:!2024-07-26,374,351!2026-08-18,883,331-->
+- [hydrogenation](#hydrogenation)→:::←[hydrohalogenation](#hydrohalogenation) <!--SR:!2029-07-04,1803,371!2026-08-18,883,331-->
 - [hydrohalogenation](#hydrohalogenation)→:::←[polymerization](#polymerization) <!--SR:!2025-05-16,473,271!2024-12-22,449,311-->
-- [polymerization](#polymerization)→:::←_(end)_ <!--SR:!2024-07-25,373,351!2025-01-16,182,331-->
+- [polymerization](#polymerization)→:::←_(end)_ <!--SR:!2029-06-29,1798,371!2025-01-16,182,331-->
 
 <!--/pytextgen-->
 
