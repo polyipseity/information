@@ -53,7 +53,7 @@ return await memorize_map(
 
 - [lithium](lithium.md)::floats, producing hydrogen gas steadily <!--SR:!2024-10-16,352,250-->
 - [sodium](sodium.md)::melts to a silvery ball moving about quickly on water, producing hydrogen gas rapidly <!--SR:!2025-04-04,447,250-->
-- [potassium](potassium.md)::melts to a silvery ball moving about rapidly on water, producing hydrogen gas that spontaneously ignites <!--SR:!2024-07-26,315,270-->
+- [potassium](potassium.md)::melts to a silvery ball moving about rapidly on water, producing hydrogen gas that spontaneously ignites <!--SR:!2026-11-24,850,270-->
 - [rubidium](rubidium.md)::explosive <!--SR:!2025-10-01,641,310-->
 - [caesium](caesium.md)::explosive <!--SR:!2025-08-16,610,310-->
 - [francium](francium.md)::unknown <!--SR:!2027-06-15,1200,350-->
@@ -65,7 +65,7 @@ return await memorize_map(
 - floats, producing hydrogen gas steadily::[lithium](lithium.md) <!--SR:!2025-04-21,333,290-->
 - melts to a silvery ball moving about quickly on water, producing hydrogen gas rapidly::[sodium](sodium.md) <!--SR:!2027-04-08,1043,290-->
 - melts to a silvery ball moving about rapidly on water, producing hydrogen gas that spontaneously ignites::[potassium](potassium.md) <!--SR:!2027-03-02,971,290-->
-- explosive::[rubidium](rubidium.md), [caesium](caesium.md) <!--SR:!2024-07-27,40,150-->
+- explosive::[rubidium](rubidium.md), [caesium](caesium.md) <!--SR:!2024-09-24,59,150-->
 - unknown::[francium](francium.md) <!--SR:!2025-06-15,374,310-->
 
 <!--/pytextgen-->

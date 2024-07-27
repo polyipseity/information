@@ -99,10 +99,10 @@ The following table lists out transformation from other [indeterminate forms](in
 - $\frac00$→:::←$\frac\infty\infty$ <!--SR:!2024-12-05,286,330!2024-10-07,239,330-->
 - $\frac\infty\infty$→:::←$0\cdot\infty$ <!--SR:!2025-08-28,445,310!2025-09-28,466,310-->
 - $0\cdot\infty$→:::←$\infty-\infty$ <!--SR:!2025-07-29,411,290!2024-09-23,212,310-->
-- $\infty-\infty$→:::←$0^0$ <!--SR:!2024-07-24,93,230!2024-08-15,50,230-->
+- $\infty-\infty$→:::←$0^0$ <!--SR:!2025-02-25,213,230!2024-08-15,50,230-->
 - $0^0$→:::←$1^\infty$ <!--SR:!2024-11-06,255,310!2025-07-25,421,310-->
-- $1^\infty$→:::←$\infty^0$ <!--SR:!2024-07-24,142,270!2024-10-20,90,290-->
-- $\infty^0$→:::←_(end)_ <!--SR:!2024-09-14,222,330!2024-07-24,121,270-->
+- $1^\infty$→:::←$\infty^0$ <!--SR:!2024-10-10,75,250!2024-10-20,90,290-->
+- $\infty^0$→:::←_(end)_ <!--SR:!2024-09-14,222,330!2025-10-25,455,290-->
 
 <!--/pytextgen-->
 
@@ -150,7 +150,7 @@ The following table lists out transformation from other [indeterminate forms](in
 - $\frac00$::$\lim_{x\to{c} }\frac{f(x)}{g(x)}=\lim_{x\to{c} }\frac{1/g(x)}{1/f(x)}$ <!--SR:!2024-08-23,205,330-->
 - $0\cdot\infty$::$\lim_{x\to{c} }f(x)g(x)=\lim_{x\to{c} }\frac{g(x)}{1/f(x)}$ <!--SR:!2024-10-11,243,330-->
 - $\infty-\infty$::$\lim_{x\to{c} }(f(x)-g(x))=\ln\lim_{x\to{c} }\frac{e^{f(x)} }{e^{g(x)} }$ <!--SR:!2024-11-30,282,330-->
-- $0^0$::$\lim_{x\to{c} }f(x)^{g(x)}=\exp\lim_{x\to{c} }\frac{\ln{f(x)} }{1/g(x)}$ <!--SR:!2024-07-26,170,310-->
+- $0^0$::$\lim_{x\to{c} }f(x)^{g(x)}=\exp\lim_{x\to{c} }\frac{\ln{f(x)} }{1/g(x)}$ <!--SR:!2026-07-25,728,330-->
 - $1^\infty$::$\lim_{x\to{c} }f(x)^{g(x)}=\exp\lim_{x\to{c} }\frac{g(x)}{1/\ln{f(x)} }$ <!--SR:!2024-11-02,261,330-->
 - $\infty^0$::$\lim_{x\to{c} }f(x)^{g(x)}=\exp\lim_{x\to{c} }\frac{\ln{f(x)} }{1/g(x)}$ <!--SR:!2024-11-13,269,330-->
 

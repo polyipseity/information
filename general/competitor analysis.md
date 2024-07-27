@@ -115,7 +115,7 @@ pricing: Find suitable prices catering to different market segment and economies
 - _(begin)_→:::←differentiate: Differentiate our products to make it a hit with customers. <!--SR:!2024-12-20,150,301!2024-11-29,137,301-->
 - differentiate: Differentiate our products to make it a hit with customers.→:::←discover: Find holes in existing products. <!--SR:!2024-08-15,55,281!2024-08-13,70,321-->
 - discover: Find holes in existing products.→:::←know ourselves: See if our products are sticky. <!--SR:!2024-08-28,59,221!2024-08-10,20,241-->
-- know ourselves: See if our products are sticky.→:::←know them: See how big of a threat competitors pose. <!--SR:!2024-07-27,52,301!2024-08-02,63,314-->
+- know ourselves: See if our products are sticky.→:::←know them: See how big of a threat competitors pose. <!--SR:!2024-12-30,156,301!2024-08-02,63,314-->
 - know them: See how big of a threat competitors pose.→:::←pricing: Find suitable prices catering to different market segment and economies. <!--SR:!2024-08-07,19,241!2024-08-08,54,261-->
 - pricing: Find suitable prices catering to different market segment and economies.→:::←_(end)_ <!--SR:!2024-08-02,61,321!2024-08-13,65,281-->
 
@@ -170,10 +170,10 @@ number of features
 - price→:::←benefit <!--SR:!2024-11-27,150,314!2024-09-27,97,301-->
 - benefit→:::←quality <!--SR:!2024-08-17,67,274!2024-11-24,134,301-->
 - quality→:::←durability <!--SR:!2024-07-31,10,181!2024-07-30,59,321-->
-- durability→:::←service <!--SR:!2024-07-25,50,301!2024-08-11,28,241-->
+- durability→:::←service <!--SR:!2024-12-24,150,301!2024-08-11,28,241-->
 - service→:::←convenience <!--SR:!2024-08-08,18,221!2024-08-08,56,301-->
 - convenience→:::←ease of use <!--SR:!2024-10-26,103,261!2025-01-10,172,314-->
-- ease of use→:::←number of features <!--SR:!2024-07-27,20,261!2024-09-08,47,254-->
+- ease of use→:::←number of features <!--SR:!2024-09-16,51,261!2024-09-08,47,254-->
 - number of features→:::←_(least important)_ <!--SR:!2024-08-08,69,314!2024-08-15,72,321-->
 
 <!--/pytextgen-->
@@ -182,9 +182,9 @@ number of features
 
 It is very important to {{add our own products to the visualization and make it obvious that the products are our own}}. <!--SR:!2024-10-26,122,301-->
 
-If we are comparing two features only, we can {{use a _xy_-grid and plot our and competitors' products}}. If there are more features, {{we can use a table, with the column headers being the products and the row headers being the features}}. {{A mix of both}} is possible. <!--SR:!2024-08-10,67,321!2024-07-24,56,314!2024-11-26,152,310-->
+If we are comparing two features only, we can {{use a _xy_-grid and plot our and competitors' products}}. If there are more features, {{we can use a table, with the column headers being the products and the row headers being the features}}. {{A mix of both}} is possible. <!--SR:!2024-08-10,67,321!2025-03-26,242,334!2024-11-26,152,310-->
 
-When listing the features, {{use numbers}} if possible. Do not be {{vague}}. Highlight {{important features, such as the best product for each feature}}. <!--SR:!2024-07-26,51,301!2024-08-04,63,321!2024-12-08,157,301-->
+When listing the features, {{use numbers}} if possible. Do not be {{vague}}. Highlight {{important features, such as the best product for each feature}}. <!--SR:!2025-02-24,212,321!2024-08-04,63,321!2024-12-08,157,301-->
 
 ## references
 

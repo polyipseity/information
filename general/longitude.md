@@ -9,7 +9,7 @@ tags:
 
 # longitude
 
-{{__Longitude__}} (/ˈlɒndʒɪtjuːd/, AU and UK also /ˈlɒŋɡɪ-/) is {{a [geographic coordinate](geographic%20coordinat%20system.md) that specifies the [east](east.md)–[west](west.md) position of a point on the surface of the [Earth](Earth.md), or another [celestial body](astronomical%20object.md)}}. {{The [prime meridian](prime%20meridian.md)}} defines {{0° longitude}}; by convention the [International Reference Meridian](IERS%20Reference%20Meridian.md) for the [Earth](Earth.md) {{passes near the [Royal Observatory in Greenwich](Royal%20Observatory,%20Greenwich.md), south-east [London](London.md) on the island of [Great Britain](Great%20Britain.md)}}. <!--SR:!2024-08-21,37,290!2024-08-19,36,270!2024-09-19,63,310!2024-09-17,61,310!2024-07-27,9,250-->
+{{__Longitude__}} (/ˈlɒndʒɪtjuːd/, AU and UK also /ˈlɒŋɡɪ-/) is {{a [geographic coordinate](geographic%20coordinat%20system.md) that specifies the [east](east.md)–[west](west.md) position of a point on the surface of the [Earth](Earth.md), or another [celestial body](astronomical%20object.md)}}. {{The [prime meridian](prime%20meridian.md)}} defines {{0° longitude}}; by convention the [International Reference Meridian](IERS%20Reference%20Meridian.md) for the [Earth](Earth.md) {{passes near the [Royal Observatory in Greenwich](Royal%20Observatory,%20Greenwich.md), south-east [London](London.md) on the island of [Great Britain](Great%20Britain.md)}}. <!--SR:!2024-08-21,37,290!2024-08-19,36,270!2024-09-19,63,310!2024-09-17,61,310!2024-08-20,24,250-->
 
 ## references
 

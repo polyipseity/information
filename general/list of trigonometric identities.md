@@ -83,7 +83,7 @@ return await memorize_map(
 
 - normal::$$\sin^2 \theta + \cos^2 \theta = 1$$ <!--SR:!2025-05-07,387,360-->
 - divided by sine::$$1 + \cot^2 \theta = \csc^2 \theta$$ <!--SR:!2025-03-06,336,360-->
-- divided by cosine::$$1 + \tan^2 \theta = \sec^2 \theta$$ <!--SR:!2024-07-27,148,320-->
+- divided by cosine::$$1 + \tan^2 \theta = \sec^2 \theta$$ <!--SR:!2026-05-11,653,340-->
 - divided by sine and cosine::$$\sec^2 \theta + \csc^2 \theta = \sec^2 \theta \csc^2 \theta$$ <!--SR:!2025-04-14,368,360-->
 
 <!--/pytextgen-->
@@ -210,29 +210,29 @@ return await memorize_map(
 
 <!--pytextgen generate section="3759"--><!-- The following content is generated at 2024-07-10T23:43:06.932525+08:00. Any edits will be overridden! -->
 
-- sine::$$\sin \frac \theta 2 = \operatorname{sgn}\left(\sin \frac \theta 2\right) \sqrt{\frac {1 - \cos \theta} 2}$$ <!--SR:!2024-07-24,10,316-->
-- cosine::$$\cos \frac \theta 2 = \operatorname{sgn}\left(\cos \frac \theta 2\right) \sqrt{\frac {1 + \cos \theta} 2}$$ <!--SR:!2024-07-25,10,316-->
-- tangent::$$\tan \frac \theta 2 = \frac {1 - \cos \theta} {\sin \theta} = \frac {\sin \theta} {1 + \cos \theta} = \operatorname{sgn}(\sin \theta) \sqrt{\frac {1 - \cos \theta} {1 + \cos \theta} } = \csc \theta - \cot \theta = \frac {\tan \theta} {1 + \sec \theta} = \frac {-1 + \operatorname{sgn}(\cos \theta)\sqrt{1 + \tan^2 \theta} } {\tan \theta}$$ <!--SR:!2024-07-24,8,256-->
+- sine::$$\sin \frac \theta 2 = \operatorname{sgn}\left(\sin \frac \theta 2\right) \sqrt{\frac {1 - \cos \theta} 2}$$ <!--SR:!2024-08-27,31,316-->
+- cosine::$$\cos \frac \theta 2 = \operatorname{sgn}\left(\cos \frac \theta 2\right) \sqrt{\frac {1 + \cos \theta} 2}$$ <!--SR:!2024-08-28,32,316-->
+- tangent::$$\tan \frac \theta 2 = \frac {1 - \cos \theta} {\sin \theta} = \frac {\sin \theta} {1 + \cos \theta} = \operatorname{sgn}(\sin \theta) \sqrt{\frac {1 - \cos \theta} {1 + \cos \theta} } = \csc \theta - \cot \theta = \frac {\tan \theta} {1 + \sec \theta} = \frac {-1 + \operatorname{sgn}(\cos \theta)\sqrt{1 + \tan^2 \theta} } {\tan \theta}$$ <!--SR:!2024-08-15,19,256-->
 - secant::$$\sec \frac \theta 2 = \operatorname{sgn}\left(\cos \frac \theta 2\right) \sqrt{\frac 2 {1 + \cos \theta} }$$ <!--SR:!2024-08-10,20,296-->
 - cosecant::$$\csc \frac \theta 2 = \operatorname{sgn}\left(\sin \frac \theta 2\right) \sqrt{\frac 2 {1 - \cos \theta} }$$ <!--SR:!2024-08-18,27,296-->
-- cotangent::$$\cot \frac \theta 2 = \frac {1 + \cos \theta} {\sin \theta} = \frac {\sin \theta} {1 - \cos \theta} = \operatorname{sgn}(\sin \theta) \sqrt{\frac {1 + \cos \theta} {1 - \cos \theta} } = \csc \theta + \cot \theta$$ <!--SR:!2024-07-24,3,256-->
+- cotangent::$$\cot \frac \theta 2 = \frac {1 + \cos \theta} {\sin \theta} = \frac {\sin \theta} {1 - \cos \theta} = \operatorname{sgn}(\sin \theta) \sqrt{\frac {1 + \cos \theta} {1 - \cos \theta} } = \csc \theta + \cot \theta$$ <!--SR:!2024-08-02,6,256-->
 
 <!--/pytextgen-->
 
 > [!example] examples
 >
 > - $\sin 4.2$ ::: $\operatorname{sgn}(\sin 4.2) \sqrt{\frac {1 - \cos 8.4} 2}$ <!--SR:!2024-08-08,18,296!2024-07-30,16,336-->
-> - $\cos (-3.6)$ ::: $\operatorname{sgn}(\cos 3.6) \sqrt{\frac {1 + \cos 7.2} 2}$ <!--SR:!2024-07-25,11,316!2024-08-01,18,336-->
+> - $\cos (-3.6)$ ::: $\operatorname{sgn}(\cos 3.6) \sqrt{\frac {1 + \cos 7.2} 2}$ <!--SR:!2024-08-30,34,316!2024-08-01,18,336-->
 > - $\tan (-3.14)$ (sine and cosine) ::: $\frac {\cos 6.28 - 1} {\sin 6.28} = -\frac {\sin 6.28} {1 + \cos 6.28}$ <!--SR:!2024-08-14,23,296!2024-08-21,30,316-->
 > - $\tan 3.42$ (cosine) ::: $\operatorname{sgn}(\sin 6.82) \sqrt{\frac {1 - \cos 6.82} {1 + \cos 6.82} }$ <!--SR:!2024-08-16,25,296!2024-08-08,18,276-->
-> - $\tan (-2.01)$ (addition) ::: $-\csc 4.02 + \cot 4.02$ <!--SR:!2024-07-24,11,316!2024-07-26,12,316-->
-> - $\tan (-9.6)$ (tangent and secant) ::: $-\frac {\tan 19.2} {1 + \sec 19.2}$ <!--SR:!2024-08-13,22,296!2024-07-25,11,316-->
+> - $\tan (-2.01)$ (addition) ::: $-\csc 4.02 + \cot 4.02$ <!--SR:!2024-09-11,46,336!2024-09-02,37,316-->
+> - $\tan (-9.6)$ (tangent and secant) ::: $-\frac {\tan 19.2} {1 + \sec 19.2}$ <!--SR:!2024-08-13,22,296!2024-09-12,47,336-->
 > - $\tan (-4.96)$ (tangent) ::: $\frac {1 - \operatorname{sgn}(\cos 9.92) \sqrt{1 + \tan^2 9.92} } {\tan 9.92}$ <!--SR:!2024-08-18,27,296!2024-08-17,26,296-->
-> - $\sec (-7.24)$ ::: $\operatorname{sgn}(\cos 7.24) \sqrt{\frac 2 {1 + \cos 14.48} }$ <!--SR:!2024-07-24,10,316!2024-07-29,15,336-->
-> - $\csc (-1.7)$ ::: $-\operatorname{sgn}(\sin 1.7) \sqrt{\frac 2 {1 - \cos 3.4} }$ <!--SR:!2024-07-24,10,316!2024-07-26,12,316-->
+> - $\sec (-7.24)$ ::: $\operatorname{sgn}(\cos 7.24) \sqrt{\frac 2 {1 + \cos 14.48} }$ <!--SR:!2024-08-26,30,316!2024-07-29,15,336-->
+> - $\csc (-1.7)$ ::: $-\operatorname{sgn}(\sin 1.7) \sqrt{\frac 2 {1 - \cos 3.4} }$ <!--SR:!2024-08-27,31,316!2024-09-01,36,316-->
 > - $\cot 3.14$ (sine and cosine) ::: $\frac {1 + \cos 6.28} {\sin 6.28} = \frac {\sin 6.28} {1 - \cos 6.28}$ <!--SR:!2024-07-28,14,296!2024-08-22,30,316-->
 > - $\cot (-69)$ (cosine) ::: $-\operatorname{sgn}(\sin 138) \sqrt{\frac {1 + \cos 138} {1 - \cos 138} }$ <!--SR:!2024-08-09,19,296!2024-07-31,17,336-->
-> - $\cot 17$ (addition) ::: $\csc 34 + \cot 34$ <!--SR:!2024-07-26,12,316!2024-08-02,19,336-->
+> - $\cot 17$ (addition) ::: $\csc 34 + \cot 34$ <!--SR:!2024-09-01,36,316!2024-08-02,19,336-->
 
 ## product-to-sum and sum-to-product
 
@@ -312,7 +312,7 @@ return await memorize_map(
 > [!example] examples
 >
 > - $\sin 3.23 \mp \sin(-1.52)$ ::: $2 \sin\left(\frac{3.23 \pm 1.52}2\right) \cos\left(\frac{3.23 \mp 1.52}2\right)$ <!--SR:!2024-10-23,115,227!2024-11-18,210,267-->
-> - $\cos(-2.23) + \cos 0.14$ ::: $2 \cos 1.045 \cos 1.185$ <!--SR:!2024-07-25,165,327!2024-08-07,146,267-->
+> - $\cos(-2.23) + \cos 0.14$ ::: $2 \cos 1.045 \cos 1.185$ <!--SR:!2026-01-17,539,327!2024-08-07,146,267-->
 > - $\cos(-6.88) - \cos(-2.45)$ ::: $-2 \sin 4.665 \sin 2.215$ <!--SR:!2024-08-14,167,307!2024-09-11,167,267-->
 > - $\tan(-0.73) \mp \tan 2.55$ ::: $\frac{\sin(-0.73 \mp 2.55)}{\cos 0.73 \cos 2.55}$ <!--SR:!2025-05-12,346,307!2024-08-25,174,287-->
 

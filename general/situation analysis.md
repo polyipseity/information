@@ -19,7 +19,7 @@ Company involves {{evaluating the company's capabilities, objectives, and strate
 
 ### competitors
 
-Competitors are {{other entities that target the same customers to fulfill the same needs}}. It is also known as {{[competitor analysis](competitor%20analysis.md)}}. <!--SR:!2024-09-01,68,310!2024-07-24,36,290-->
+Competitors are {{other entities that target the same customers to fulfill the same needs}}. It is also known as {{[competitor analysis](competitor%20analysis.md)}}. <!--SR:!2024-09-01,68,310!2024-12-14,140,310-->
 
 ### customers
 

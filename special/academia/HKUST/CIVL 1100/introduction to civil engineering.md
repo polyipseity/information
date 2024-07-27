@@ -18,7 +18,7 @@ The content is in teaching order.
 - engineer
   - engineer, according to Wikipedia
     - engineer jobs ::: analyze, _build_, _design_, invent, repair, test <!--SR:!2024-12-17,168,340!2024-08-08,89,378-->
-    - engineer goals ::: fulfill functional objectives and requirements <!--SR:!2024-07-25,62,340!2025-02-21,225,360-->
+    - engineer goals ::: fulfill functional objectives and requirements <!--SR:!2025-05-14,291,360!2025-02-21,225,360-->
     - engineer limitations ::: limited by cost, practicality, regulation, and safety <!--SR:!2024-12-24,195,350!2024-08-29,108,377-->
     - engineer methods ::: ingenuity, mathematics, scientific method and outlook <!--SR:!2024-10-24,143,337!2024-08-02,85,365-->
   - engineer, according to the World Federation of Engineering Organizations (WFEO)
@@ -29,7 +29,7 @@ The content is in teaching order.
 - civil engineering ::: construction, design, maintenance, and planning of the built environment, including buildings and infrastructure <!--SR:!2024-10-23,113,300!2025-06-01,315,380-->
   - "civil" meaning ::: "Civil" distinguishes non-military from military purposes. <!--SR:!2025-05-09,327,350!2024-07-31,81,377-->
   - civil engineer characteristics ::: problem solvers <!--SR:!2024-09-28,122,335!2024-12-24,182,352-->
-  - civil engineering characteristics ::: Oldest engineering discipline. Takes place on all levels, from municipal to nationals in the public sector, from homeowners to international companies in the private sector. <!--SR:!2024-07-24,57,301!2025-05-20,310,380-->
+  - civil engineering characteristics ::: Oldest engineering discipline. Takes place on all levels, from municipal to nationals in the public sector, from homeowners to international companies in the private sector. <!--SR:!2025-01-14,171,301!2025-05-20,310,380-->
   - built environment ::: man-made using materials and natural resources, benefiting mankind, with environment protection and prudent urban planning <!--SR:!2024-08-13,81,312!2024-12-30,218,330-->
     - built environment example ::: Hoover Dam, a hydroelectric and reservoir project constructed on the Colorado River from 1931 to 1936, affects Las Vegas, United States significantly to the present. <!--SR:!2024-12-30,162,297!2025-03-15,237,345-->
 - civil engineering importance ::: improving living environments, productivity, and working efficiency <!--SR:!2024-10-07,126,340!2024-12-06,179,352-->
@@ -39,7 +39,7 @@ The content is in teaching order.
   - [civil engineering non-technical issues](#civil%20engineering%20non-technical%20issues)
   - poor construction management consequences ::: Poor quality control and workmanship leads to high maintenance cost. Structural failure leads to loss of lives. <!--SR:!2024-09-13,95,300!2024-12-21,179,352-->
     - poor quality control and workmanship consequences ::: cracks, stinky smell, water leakage <!--SR:!2025-01-12,193,352!2025-06-29,343,367-->
-    - structural failure consequences ::: building toppling over, killing workers, prosecution <!--SR:!2024-12-31,189,270!2024-07-27,75,354-->
+    - structural failure consequences ::: building toppling over, killing workers, prosecution <!--SR:!2024-12-31,189,270!2025-07-26,364,374-->
     - [structural failure example](#structural%20failure%20example)
   - civil engineering design challenges ::: complex shapes, long-span structures, underground structures <!--SR:!2024-10-25,138,340!2024-07-28,76,357-->
     - [complex shape examples](#complex%20shape%20examples)
@@ -59,7 +59,7 @@ The content is in teaching order.
     - [construction material examples](#construction%20material%20examples)
       - [reinforced concrete structure examples](#reinforced%20concrete%20structure%20examples)
       - [steel or concrete–steel composite structure examples](#steel%20or%20concrete–steel%20composite%20structure%20examples)
-      - timber structure examples ::: Hirschberg 13, 35037 Marburg, Germany <!--SR:!2024-07-25,56,265!2025-03-16,243,344-->
+      - timber structure examples ::: Hirschberg 13, 35037 Marburg, Germany <!--SR:!2024-08-23,27,245!2025-03-16,243,344-->
   - structural codes of practice or design codes ::: different countries have different standards <!--SR:!2025-05-25,340,350!2024-07-28,76,357-->
     - [structural code of practice examples](#structural%20code%20of%20practice%20examples)
 - geo-technical engineering ::: behavior of rock, soil, and underground water <!--SR:!2024-08-28,109,305!2025-03-01,249,367-->
@@ -80,7 +80,7 @@ The content is in teaching order.
     - noise engineering ::: noise mitigation measures (e.g. noise barriers), noise monitoring (e.g. construction noise, traffic noise) <!--SR:!2024-09-22,119,327!2025-06-14,328,370-->
     - environmental impact assessment (EIA) ::: a systematic identification and evaluation process to assess the potential impacts of a proposed project so that mitigation measures can be developed <!--SR:!2024-08-12,66,230!2024-12-04,162,332-->
       - [environmental impact components](#environmental%20impact%20components)
-      - environmental impact assessment in [Hong Kong](../../../../general/Hong%20Kong.md) ::: regulated by the Environmental Impact Assessment (Cap. 499) 1997 <!--SR:!2024-07-27,64,314!2025-03-13,235,352-->
+      - environmental impact assessment in [Hong Kong](../../../../general/Hong%20Kong.md) ::: regulated by the Environmental Impact Assessment (Cap. 499) 1997 <!--SR:!2025-02-20,208,314!2025-03-13,235,352-->
 - transportation engineering ::: moving goods and people effectively, efficiently, safely, and sustainably <!--SR:!2024-08-20,85,312!2024-12-04,219,319-->
   - transportation engineering structures ::: planning, design, construction, operation, and maintenance of transportational infrastructures <!--SR:!2024-08-05,67,300!2024-08-06,83,381-->
     - [transportation engineering structure examples](#transportation%20engineering%20structure%20examples)
@@ -101,7 +101,7 @@ The content is in teaching order.
   - civil engineer organization examples ::: contractors or construction companies, engineering consulting firms, government (working as civil servants) <!--SR:!2025-03-25,247,285!2025-03-18,266,330-->
     - civil government departments in [Hong Kong](../../../../general/Hong%20Kong.md) ::: Architectural Services Department (ArchSD), Buildings Department (BD), Housing Department (HD) <!--SR:!2024-09-25,120,332!2024-08-22,101,375-->
       - Architectural Services Department (ArchSD) ::: governmental structures, markets, playgrounds, public schools <!--SR:!2024-11-07,154,337!2024-12-06,196,330-->
-      - Buildings Department (BD) ::: illegal structures, private buildings <!--SR:!2024-08-31,132,295!2024-07-24,72,354-->
+      - Buildings Department (BD) ::: illegal structures, private buildings <!--SR:!2024-08-31,132,295!2025-07-11,349,374-->
       - Housing Department (HD) ::: home ownership scheme, public housing <!--SR:!2024-10-30,146,290!2025-02-17,221,354-->
 
 ## oversized data
@@ -192,7 +192,7 @@ water and sewage treatment system
 <!--pytextgen generate section="39fa"--><!-- The following content is generated at 2024-05-01T23:30:34.986638+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←bridge <!--SR:!2024-07-30,80,377!2024-08-11,92,374-->
-- bridge→:::←building <!--SR:!2024-07-24,76,372!2024-07-28,75,360-->
+- bridge→:::←building <!--SR:!2025-05-05,282,372!2024-07-28,75,360-->
 - building→:::←dam <!--SR:!2024-12-12,167,340!2024-09-06,105,380-->
 - dam→:::←pipeline <!--SR:!2024-08-06,32,204!2024-10-09,117,321-->
 - pipeline→:::←power plant <!--SR:!2024-08-14,59,260!2024-10-22,107,281-->
@@ -598,7 +598,7 @@ nuclear
 - chemical→:::←civil <!--SR:!2024-10-21,133,337!2024-12-24,194,357-->
 - civil→:::←computer <!--SR:!2024-11-15,163,354!2024-12-17,189,352-->
 - computer→:::←electrical <!--SR:!2024-11-07,142,327!2024-08-25,35,295-->
-- electrical→:::←industrial <!--SR:!2024-08-19,77,321!2024-07-25,52,270-->
+- electrical→:::←industrial <!--SR:!2024-08-19,77,321!2024-08-24,28,250-->
 - industrial→:::←manufacturing <!--SR:!2024-10-02,125,337!2024-09-11,103,332-->
 - manufacturing→:::←mechanical <!--SR:!2024-08-23,101,377!2024-10-23,134,337-->
 - mechanical→:::←nuclear <!--SR:!2024-08-11,90,377!2024-12-14,168,335-->
@@ -671,7 +671,7 @@ socioeconomic
 
 <!--pytextgen generate section="238a"--><!-- The following content is generated at 2024-02-16T21:59:47.593005+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←biological <!--SR:!2024-08-08,76,327!2024-07-27,79,374-->
+- _(begin)_→:::←biological <!--SR:!2024-08-08,76,327!2025-09-04,404,394-->
 - biological→:::←chemical <!--SR:!2024-10-04,126,337!2025-03-18,247,357-->
 - chemical→:::←cultural <!--SR:!2024-11-18,119,280!2024-11-27,173,357-->
 - cultural→:::←physical <!--SR:!2024-10-14,138,345!2024-07-31,64,300-->
@@ -877,7 +877,7 @@ developing strengthening techniques for damaged structures or structural members
 
 <!--pytextgen generate section="198b"--><!-- The following content is generated at 2024-05-01T19:22:35.365059+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←choosing suitable materials to resurface a road like asphalt pavement <!--SR:!2024-08-23,91,335!2024-07-24,76,370-->
+- _(begin)_→:::←choosing suitable materials to resurface a road like asphalt pavement <!--SR:!2024-08-23,91,335!2025-05-03,280,370-->
 - choosing suitable materials to resurface a road like asphalt pavement→:::←designing a concrete mix for a large building <!--SR:!2025-01-17,192,340!2024-10-11,133,327-->
 - designing a concrete mix for a large building→:::←developing strengthening techniques for damaged structures or structural members like a damaged column <!--SR:!2024-09-05,104,335!2024-08-18,86,317-->
 - developing strengthening techniques for damaged structures or structural members like a damaged column→:::←_(end)_ <!--SR:!2025-03-02,231,345!2024-08-30,98,324-->
@@ -1051,7 +1051,7 @@ Hong Kong Code
 
 <!--pytextgen generate section="2ff2"--><!-- The following content is generated at 2024-04-23T18:07:51.798230+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←American Code <!--SR:!2024-09-02,101,380!2024-07-27,79,374-->
+- _(begin)_→:::←American Code <!--SR:!2024-09-02,101,380!2025-09-03,403,394-->
 - American Code→:::←Australian Standard <!--SR:!2024-12-27,193,355!2024-08-14,95,375-->
 - Australian Standard→:::←Chinese Code <!--SR:!2024-12-05,160,327!2025-02-16,233,357-->
 - Chinese Code→:::←Eurocode <!--SR:!2024-10-14,128,335!2025-03-30,252,357-->
@@ -1097,11 +1097,11 @@ water tower
 - _(begin)_→:::←bridge <!--SR:!2024-10-23,142,335!2024-08-12,88,380-->
 - bridge→:::←building <!--SR:!2025-01-24,203,350!2024-08-28,96,380-->
 - building→:::←dam <!--SR:!2024-07-30,77,361!2025-01-17,198,361-->
-- dam→:::←power plant <!--SR:!2024-08-06,68,301!2024-07-25,33,238-->
+- dam→:::←power plant <!--SR:!2024-08-06,68,301!2024-10-17,82,238-->
 - power plant→:::←storage facility <!--SR:!2024-07-29,62,300!2024-09-12,111,334-->
 - storage facility→:::←tunnel <!--SR:!2024-08-03,13,280!2024-09-01,89,320-->
 - tunnel→:::←unusual structure <!--SR:!2024-09-19,83,247!2024-10-17,121,320-->
-- unusual structure→:::←water tower <!--SR:!2024-07-24,13,290!2024-08-03,12,290-->
+- unusual structure→:::←water tower <!--SR:!2024-09-02,37,290!2024-08-03,12,290-->
 - water tower→:::←_(end)_ <!--SR:!2024-08-14,93,367!2024-09-08,55,281-->
 
 <!--/pytextgen-->
@@ -1187,12 +1187,12 @@ water transport
 
 <!--pytextgen generate section="a928"--><!-- The following content is generated at 2024-05-01T23:30:35.177839+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←airport <!--SR:!2024-07-26,62,290!2024-08-03,84,375-->
+- _(begin)_→:::←airport <!--SR:!2025-01-22,179,290!2024-08-03,84,375-->
 - airport→:::←bicycle path <!--SR:!2025-03-09,237,355!2024-09-03,102,337-->
 - bicycle path→:::←highway <!--SR:!2025-01-20,199,360!2025-03-05,232,360-->
 - highway→:::←pier <!--SR:!2024-10-06,114,320!2024-08-10,72,300-->
-- pier→:::←pipeline <!--SR:!2024-08-03,80,380!2024-07-25,62,314-->
-- pipeline→:::←railroad <!--SR:!2024-07-24,44,255!2024-08-07,75,315-->
+- pier→:::←pipeline <!--SR:!2024-08-03,80,380!2025-02-06,194,314-->
+- pipeline→:::←railroad <!--SR:!2024-11-15,111,255!2024-08-07,75,315-->
 - railroad→:::←water transport <!--SR:!2024-10-11,127,340!2024-08-11,79,315-->
 - water transport→:::←_(end)_ <!--SR:!2024-09-11,107,380!2024-08-17,85,380-->
 
@@ -1227,7 +1227,7 @@ water treatment
 <!--pytextgen generate section="1123"--><!-- The following content is generated at 2024-02-16T21:59:48.139738+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←groundwater quality control <!--SR:!2024-10-04,123,340!2024-11-29,175,357-->
-- groundwater quality control→:::←wastewater recycling <!--SR:!2024-07-24,61,295!2024-08-05,25,280-->
+- groundwater quality control→:::←wastewater recycling <!--SR:!2024-08-28,32,275!2024-08-05,25,280-->
 - wastewater recycling→:::←wastewater treatment <!--SR:!2024-11-03,131,315!2025-01-16,186,317-->
 - wastewater treatment→:::←water quality monitoring <!--SR:!2024-08-01,51,280!2024-12-07,157,315-->
 - water quality monitoring→:::←water treatment <!--SR:!2024-11-12,148,324!2024-09-20,117,334-->

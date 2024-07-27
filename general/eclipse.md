@@ -9,7 +9,7 @@ tags:
 
 # eclipse
 
-An __eclipse__ is {{an astronomical event which occurs when an [astronomical object](astronomical%20object.md) or [spacecraft](spacecraft.md) is temporarily obscured}}, by {{passing into the shadow of another body or by having another body pass between it and the viewer}}. <!--SR:!2024-07-24,15,290!2024-07-25,16,290-->
+An __eclipse__ is {{an astronomical event which occurs when an [astronomical object](astronomical%20object.md) or [spacecraft](spacecraft.md) is temporarily obscured}}, by {{passing into the shadow of another body or by having another body pass between it and the viewer}}. <!--SR:!2024-09-24,59,310!2024-09-30,65,310-->
 
 ## references
 

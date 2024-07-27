@@ -54,9 +54,9 @@ Compare with [nonmetal § properties](nonmetal.md#properties).
 - _(begin)_→:::←appearance <!--SR:!2026-12-13,965,330!2028-04-15,1430,350-->
 - appearance→:::←deformability (as a solid) <!--SR:!2024-08-29,199,250!2024-08-19,360,290-->
 - deformability (as a solid)→:::←[density](density.md) <!--SR:!2026-03-01,768,290!2024-08-27,118,270-->
-- [density](density.md)→:::←[electrical conductivity](electrical%20conductivity.md) <!--SR:!2024-10-15,402,290!2024-07-25,25,150-->
+- [density](density.md)→:::←[electrical conductivity](electrical%20conductivity.md) <!--SR:!2024-10-15,402,290!2024-09-02,37,150-->
 - [electrical conductivity](electrical%20conductivity.md)→:::←form <!--SR:!2026-06-26,752,270!2024-10-29,180,210-->
-- form→:::←[melting point](melting%20point.md) <!--SR:!2024-10-06,94,170!2024-07-27,154,210-->
+- form→:::←[melting point](melting%20point.md) <!--SR:!2024-10-06,94,170!2025-06-14,322,210-->
 - [melting point](melting%20point.md)→:::←[thermal conductivity](thermal%20conductivity.md) <!--SR:!2025-07-28,539,270!2024-08-08,72,170-->
 - [thermal conductivity](thermal%20conductivity.md)→:::←_(end)_ <!--SR:!2027-03-13,1032,330!2024-10-29,253,290-->
 

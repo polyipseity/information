@@ -15,9 +15,9 @@ In the {{Morgan–Keenan (MK) system}}, [stars](star.md) are classified, {{from 
 
 ### Yerkes spectral classification
 
-Denser stars with higher surface gravity exhibit {{greater [pressure broadening](spectral%20line.md#pressure%20broadening) of [spectral lines](spectral%20line.md)}}. The gravity, and hence the pressure, on the surface of a giant star is {{much lower than for a dwarf star because the radius of the giant is much greater than a dwarf of similar [mass](mass.md)}}. Therefore, differences in the spectrum can be interpreted as {{luminosity effects and a luminosity class can be assigned purely from examination of the spectrum}}. <!--SR:!2024-07-27,4,270!2024-07-27,4,270!2024-07-27,4,270-->
+Denser stars with higher surface gravity exhibit {{greater [pressure broadening](spectral%20line.md#pressure%20broadening) of [spectral lines](spectral%20line.md)}}. The gravity, and hence the pressure, on the surface of a giant star is {{much lower than for a dwarf star because the radius of the giant is much greater than a dwarf of similar [mass](mass.md)}}. Therefore, differences in the spectrum can be interpreted as {{luminosity effects and a luminosity class can be assigned purely from examination of the spectrum}}. <!--SR:!2024-08-09,13,290!2024-08-09,13,290!2024-08-07,11,270-->
 
-A number of different luminosity classes are distinguished, as listed in the table below. The [luminosity](luminosity.md) {{generally decreases with increasing Roman numerals}}. <!--SR:!2024-07-27,4,270-->
+A number of different luminosity classes are distinguished, as listed in the table below. The [luminosity](luminosity.md) {{generally decreases with increasing Roman numerals}}. <!--SR:!2024-08-11,15,290-->
 
 ## references
 

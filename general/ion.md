@@ -346,7 +346,7 @@ return chain.from_iterable(await gather(
 - chromium(III) ion::<span style="color: green;">green</span> <!--SR:!2027-08-09,1347,258-->
 - scandium(III) ion::colorless <!--SR:!2024-08-07,117,282-->
 - titanium(III) ion::<span style="color: purple; background-color: white;">purple</span> <!--SR:!2024-08-06,45,150-->
-- vanadium(II) ion::<span style="color: violet;">violet</span> <!--SR:!2024-07-26,4,130-->
+- vanadium(II) ion::<span style="color: violet;">violet</span> <!--SR:!2024-07-29,2,130-->
 - vanadium(III) ion::<span style="color: green;">green</span> <!--SR:!2024-08-08,50,170-->
 - manganese(III) ion::<span style="color: red;">red</color> <!--SR:!2025-10-25,509,250-->
 
@@ -468,7 +468,7 @@ return chain.from_iterable(await gather(
 - iodide ion::colorless <!--SR:!2027-10-28,1427,307-->
 - hydroxide ion::colorless <!--SR:!2029-02-26,1712,327-->
 - nitrate ion::colorless <!--SR:!2027-09-23,1392,299-->
-- nitrite ion::_(n/a)_ <!--SR:!2024-07-26,245,256-->
+- nitrite ion::_(n/a)_ <!--SR:!2026-04-14,626,256-->
 - hydrogencarbonate ion::colorless <!--SR:!2031-06-28,2573,330-->
 - hydrogensulfite ion::colorless <!--SR:!2026-11-15,1203,270-->
 - hydrogensulfate ion::colorless <!--SR:!2027-11-01,1341,270-->

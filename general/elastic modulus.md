@@ -44,7 +44,7 @@ return (
 )
 ```
 
-There are many types of elastic moduli that can be defined. The {{<!--pytextgen generate section="28ba"--><!-- The following content is generated at 2024-05-14T01:02:39.496907+08:00. Any edits will be overridden! -->4<!--/pytextgen-->}} primary ones are: <!--SR:!2024-07-27,53,310-->
+There are many types of elastic moduli that can be defined. The {{<!--pytextgen generate section="28ba"--><!-- The following content is generated at 2024-05-14T01:02:39.496907+08:00. Any edits will be overridden! -->4<!--/pytextgen-->}} primary ones are: <!--SR:!2025-03-13,229,330-->
 
 <!--pytextgen generate section="98ba"--><!-- The following content is generated at 2024-05-13T21:24:01.864042+08:00. Any edits will be overridden! -->
 
@@ -61,7 +61,7 @@ There are many types of elastic moduli that can be defined. The {{<!--pytextgen 
 - _[Young's modulus](Young's%20modulus.md)_ ($E$)→:::←_[bulk modulus](bulk%20modulus.md)_ ($K$) <!--SR:!2025-02-21,213,330!2024-07-29,55,310-->
 - _[bulk modulus](bulk%20modulus.md)_ ($K$)→:::←_[flexural modulus](flexural%20modulus.md)_ ($E_{\text{flex} }$) <!--SR:!2024-10-25,109,290!2025-01-31,192,310-->
 - _[flexural modulus](flexural%20modulus.md)_ ($E_{\text{flex} }$)→:::←_[shear modulus](shear%20modulus.md)_ or _modulus of rigidity_ ($G$, $S$, or $\mu$) <!--SR:!2024-08-31,67,270!2025-01-14,180,310-->
-- _[shear modulus](shear%20modulus.md)_ or _modulus of rigidity_ ($G$, $S$, or $\mu$)→:::←_(end)_ <!--SR:!2024-07-24,51,310!2024-12-06,138,290-->
+- _[shear modulus](shear%20modulus.md)_ or _modulus of rigidity_ ($G$, $S$, or $\mu$)→:::←_(end)_ <!--SR:!2024-12-31,157,310!2024-12-06,138,290-->
 
 <!--/pytextgen-->
 

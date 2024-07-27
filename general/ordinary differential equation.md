@@ -85,7 +85,7 @@ Ordinary differential equations are furthered classified:
 
 > [__nonlinear__](nonlinear%20system.md#nonlinear%20differential%20equations) <a id="^nonlinear"></a>^nonlinear
 >
-> {{An ODE that is not [linear](#^linear).}} <!--SR:!2024-07-24,231,330-->
+> {{An ODE that is not [linear](#^linear).}} <!--SR:!2027-06-12,1050,350-->
 
 ### exact solutions
 

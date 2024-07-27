@@ -31,13 +31,13 @@ When the [Moon](Moon.md) {{penetrates partially into the [Earth](Earth.md)'s [um
 
 ### total lunar eclipse
 
-If the [Moon](Moon.md) {{entirely passes into the [Earth](Earth.md)'s [umbra](umbra,%20penumbra%20and%20antumbra.md#umbra)}}, a total lunar eclipse occurs. <!--SR:!2024-07-26,17,290-->
+If the [Moon](Moon.md) {{entirely passes into the [Earth](Earth.md)'s [umbra](umbra,%20penumbra%20and%20antumbra.md#umbra)}}, a total lunar eclipse occurs. <!--SR:!2024-10-04,69,310-->
 
 ## blood moon
 
 - see: [blood moon prophecy](blood%20moon%20prophecy.md)
 
-The meaning usually relates to {{the reddish color a [totally eclipsed Moon](#total%20lunar%20eclipse) takes on to observers on [Earth](Earth.md)}}. As [sunlight](sunlight.md) {{penetrates the [atmosphere of Earth](atmosphere%20of%20Earth.md), the gaseous layer [filters](extinction%20(astronomy).md#atmospheric%20extinction) and [refracts](atmospheric%20refraction.md) the rays}} in such a way that {{the green to violet wavelengths on the [visible spectrum](visible%20spectrum.md) [scatter](scattering.md#electromagnetics) ([Rayleigh scattering](Rayleigh%20scattering.md)) more strongly than the red}}, thus {{the refracted light reaching the Moon are mostly red}}. This gives {{the Moon a reddish cast}}. This is possible because the rays from the [Sun](Sun.md) are able to {{wrap around the Earth and reflect off the Moon}}. <!--SR:!2024-07-24,15,290!2024-08-23,36,290!2024-08-18,28,270!2024-08-14,27,270!2024-07-26,17,290!2024-07-25,16,290-->
+The meaning usually relates to {{the reddish color a [totally eclipsed Moon](#total%20lunar%20eclipse) takes on to observers on [Earth](Earth.md)}}. As [sunlight](sunlight.md) {{penetrates the [atmosphere of Earth](atmosphere%20of%20Earth.md), the gaseous layer [filters](extinction%20(astronomy).md#atmospheric%20extinction) and [refracts](atmospheric%20refraction.md) the rays}} in such a way that {{the green to violet wavelengths on the [visible spectrum](visible%20spectrum.md) [scatter](scattering.md#electromagnetics) ([Rayleigh scattering](Rayleigh%20scattering.md)) more strongly than the red}}, thus {{the refracted light reaching the Moon are mostly red}}. This gives {{the Moon a reddish cast}}. This is possible because the rays from the [Sun](Sun.md) are able to {{wrap around the Earth and reflect off the Moon}}. <!--SR:!2024-09-27,62,310!2024-08-23,36,290!2024-08-18,28,270!2024-08-14,27,270!2024-10-02,67,310!2024-09-28,63,310-->
 
 ## references
 

@@ -46,7 +46,7 @@ value: overwhelmed by true value creation vs. understand patterns of value creat
 - _(begin)_→:::←idea quality: involved in failed bold shiny projects vs. avoid wasting time in bad ideas <!--SR:!2024-09-08,96,289!2025-02-24,225,329-->
 - idea quality: involved in failed bold shiny projects vs. avoid wasting time in bad ideas→:::←implementation: disappointed by failure of a good idea vs. design, test, and deliver what customers want <!--SR:!2024-09-01,90,289!2024-08-09,26,249-->
 - implementation: disappointed by failure of a good idea vs. design, test, and deliver what customers want→:::←teamwork: frustrated by unproductive meetings and teams vs. leverage the team fully <!--SR:!2024-11-22,138,269!2024-08-08,74,289-->
-- teamwork: frustrated by unproductive meetings and teams vs. leverage the team fully→:::←value: overwhelmed by true value creation vs. understand patterns of value creation <!--SR:!2024-08-18,73,249!2024-07-26,65,269-->
+- teamwork: frustrated by unproductive meetings and teams vs. leverage the team fully→:::←value: overwhelmed by true value creation vs. understand patterns of value creation <!--SR:!2024-08-18,73,249!2025-01-13,170,269-->
 - value: overwhelmed by true value creation vs. understand patterns of value creation→:::←_(end)_ <!--SR:!2025-03-31,251,329!2024-12-24,169,289-->
 
 <!--/pytextgen-->
@@ -63,7 +63,7 @@ The value map itself has three parts: {{products and services, pain relievers, a
 
 ### customer profile
 
-Customer jobs can be split into three categories: {{functional jobs; social jobs, seek to be perceived in a certain way by others; and personal or emotional jobs, seek to feel a certain way}}. There are also supporting jobs arising from three different roles: {{buyer of value, buying value; co-creator of value, participating in creating value; and transferrer of value, end of lifecycle}}. Note that jobs {{have different priorities}}.  The jobs can be improved by {{asking why repeatedly until you find the root job}}. <!--SR:!2024-08-05,75,289!2024-07-25,71,289!2024-10-07,122,309!2024-10-30,130,325-->
+Customer jobs can be split into three categories: {{functional jobs; social jobs, seek to be perceived in a certain way by others; and personal or emotional jobs, seek to feel a certain way}}. There are also supporting jobs arising from three different roles: {{buyer of value, buying value; co-creator of value, participating in creating value; and transferrer of value, end of lifecycle}}. Note that jobs {{have different priorities}}.  The jobs can be improved by {{asking why repeatedly until you find the root job}}. <!--SR:!2024-08-05,75,289!2025-02-17,205,289!2024-10-07,122,309!2024-10-30,130,325-->
 
 Since customer jobs has {{functional and non-functional aspects}}, the resulting products can be categorized by {{functional complexity and emotional complexity}}. It is important that non-functional aspects are {{not ignored}}. For example, a hunching old person needs a stick, but {{the person also wants to not feel bad while using the stick}}. Sometimes, non-functional aspects are {{more important than functional ones}}, such as {{an extremely expensive sports car, which is mainly for showing status instead of driving on it}}. So a {{deep understanding}} of customer jobs is required. <!--SR:!2024-08-29,87,345!2024-08-25,83,345!2024-12-30,167,325!2025-03-11,233,345!2024-08-22,80,345!2024-08-05,63,325!2024-08-12,73,345-->
 
@@ -71,7 +71,7 @@ The concept of customer jobs is based on {{the jobs to be done theory}}, which s
 
 Customer pains include {{undesirable things, obstacles, and risks}}. Make pains {{concrete}}. Note that pains {{can have different severity}}. <!--SR:!2024-09-22,123,290!2025-02-25,226,329!2024-11-13,144,309-->
 
-Customer gains can be separated into four levels: {{required, required by customers; expected, expected by customers; desired gains, wanted by customers; and unexpected gains, wanted by customers but customers do not know}}. Make gains {{concrete}}. Like customer pains, note that gains {{can have different severity}}. <!--SR:!2024-07-26,62,249!2024-11-30,175,329!2025-03-13,265,330-->
+Customer gains can be separated into four levels: {{required, required by customers; expected, expected by customers; desired gains, wanted by customers; and unexpected gains, wanted by customers but customers do not know}}. Make gains {{concrete}}. Like customer pains, note that gains {{can have different severity}}. <!--SR:!2024-12-27,153,249!2024-11-30,175,329!2025-03-13,265,330-->
 
 Since customer jobs, customer pains, and customer gains all can have {{different priorities or severity, so we can rank them}}. Ranking them can be based on {{what you think given that it eventually truly reflects the customers' perspectives}}.  Pains and gains can exist {{on a continuum, are not always absolute or binary}}. For example, {{waiting time for a food order can be a gain if it is faster than expected and a pain if it is slower than expected}}. Pains and gains are also not {{opposite}}, like {{coffee temperature being too low or too high are both pains}}. <!--SR:!2024-11-02,144,290!2024-12-02,177,329!2024-08-21,79,345!2024-08-27,85,345!2024-08-16,76,345!2024-11-25,151,324-->
 
@@ -111,11 +111,11 @@ vagueness: vague jobs, pains, and gains
 
 - _(begin)_→:::←hyperfocus: focusing on functional jobs only <!--SR:!2024-08-11,62,229!2025-04-22,289,349-->
 - hyperfocus: focusing on functional jobs only→:::←insufficiency: not enough jobs, pains, and gains <!--SR:!2024-10-17,111,249!2025-01-01,163,269-->
-- insufficiency: not enough jobs, pains, and gains→:::←mix: mixing customer segments <!--SR:!2024-08-07,50,189!2024-07-26,5,130-->
+- insufficiency: not enough jobs, pains, and gains→:::←mix: mixing customer segments <!--SR:!2024-08-07,50,189!2024-08-01,5,130-->
 - mix: mixing customer segments→:::←mix: mixing jobs and outcomes <!--SR:!2024-09-29,112,289!2024-08-03,18,249-->
-- mix: mixing jobs and outcomes→:::←opposite: gains and pains are not opposite, gains are beyond expectation while pains are falling short of expectation <!--SR:!2024-07-26,31,265!2024-09-20,87,285-->
-- opposite: gains and pains are not opposite, gains are beyond expectation while pains are falling short of expectation→:::←reversed: listing jobs, pains, and gains from your product value propositions <!--SR:!2024-07-27,65,269!2024-08-01,25,249-->
-- reversed: listing jobs, pains, and gains from your product value propositions→:::←vagueness: vague jobs, pains, and gains <!--SR:!2024-07-26,24,169!2024-08-01,64,249-->
+- mix: mixing jobs and outcomes→:::←opposite: gains and pains are not opposite, gains are beyond expectation while pains are falling short of expectation <!--SR:!2024-08-14,18,245!2024-09-20,87,285-->
+- opposite: gains and pains are not opposite, gains are beyond expectation while pains are falling short of expectation→:::←reversed: listing jobs, pains, and gains from your product value propositions <!--SR:!2025-01-17,174,269!2024-08-01,25,249-->
+- reversed: listing jobs, pains, and gains from your product value propositions→:::←vagueness: vague jobs, pains, and gains <!--SR:!2024-09-05,40,169!2024-08-01,64,249-->
 - vagueness: vague jobs, pains, and gains→:::←_(end)_ <!--SR:!2025-03-14,236,329!2024-08-20,84,289-->
 
 <!--/pytextgen-->
@@ -158,8 +158,8 @@ mix: mixing products and services with pain relievers and gain creators
 
 - _(begin)_→:::←all: addressing all customer pains and gains <!--SR:!2024-10-06,108,269!2025-07-05,348,349-->
 - all: addressing all customer pains and gains→:::←irrelevance: listing all products and services without considering the customer segment <!--SR:!2024-08-09,61,229!2024-08-04,27,249-->
-- irrelevance: listing all products and services without considering the customer segment→:::←irrelevance: offer irrelevant pain relievers and gain creators <!--SR:!2024-07-24,16,209!2024-08-05,75,289-->
-- irrelevance: offer irrelevant pain relievers and gain creators→:::←mix: mixing products and services with pain relievers and gain creators <!--SR:!2024-07-26,51,249!2024-07-26,65,269-->
+- irrelevance: listing all products and services without considering the customer segment→:::←irrelevance: offer irrelevant pain relievers and gain creators <!--SR:!2024-09-01,36,209!2024-08-05,75,289-->
+- irrelevance: offer irrelevant pain relievers and gain creators→:::←mix: mixing products and services with pain relievers and gain creators <!--SR:!2024-08-21,25,229!2025-01-16,173,269-->
 - mix: mixing products and services with pain relievers and gain creators→:::←_(end)_ <!--SR:!2024-10-03,115,289!2024-08-12,21,169-->
 
 <!--/pytextgen-->
@@ -212,7 +212,7 @@ find customer patterns
 
 - _(begin)_→:::←create a customer profile <!--SR:!2024-10-25,144,309!2025-06-21,335,349-->
 - create a customer profile→:::←outline the interview <!--SR:!2024-12-26,170,289!2024-09-29,114,289-->
-- outline the interview→:::←interview <!--SR:!2024-07-25,78,329!2025-02-20,239,329-->
+- outline the interview→:::←interview <!--SR:!2025-07-15,353,349!2025-02-20,239,329-->
 - interview→:::←capture new customer profile <!--SR:!2025-04-16,268,309!2025-02-14,230,329-->
 - capture new customer profile→:::←review interview, and repeat from "outline the interview" several times, like 10 times <!--SR:!2024-07-29,77,270!2025-03-25,254,309-->
 - review interview, and repeat from "outline the interview" several times, like 10 times→:::←find customer patterns <!--SR:!2024-09-29,104,269!2025-04-09,262,309-->

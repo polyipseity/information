@@ -20,19 +20,19 @@ tags:
 # import ../../tools/utility.py.md
 ```
 
-A __solar eclipse__ occurs when {{the [Moon](Moon.md) passes between [Earth](Earth.md) and the [Sun](Sun.md), thereby obscuring the view of the Sun from a small part of Earth, totally or partially}}. Such an alignment occurs {{approximately every six months, during the [eclipse season](eclipsee%20season.md) in its [new moon](new%20moon.md) phase}}, when {{the Moon is closest to the plane of [Earth's orbit](Earth's%20orbit.md)}}. <!--SR:!2024-08-25,35,270!2024-07-24,15,290!2024-07-24,15,290-->
+A __solar eclipse__ occurs when {{the [Moon](Moon.md) passes between [Earth](Earth.md) and the [Sun](Sun.md), thereby obscuring the view of the Sun from a small part of Earth, totally or partially}}. Such an alignment occurs {{approximately every six months, during the [eclipse season](eclipsee%20season.md) in its [new moon](new%20moon.md) phase}}, when {{the Moon is closest to the plane of [Earth's orbit](Earth's%20orbit.md)}}. <!--SR:!2024-08-25,35,270!2024-09-24,59,310!2024-09-23,58,310-->
 
 ## types
 
 The [Sun](Sun.md)'s distance from [Earth](Earth.md) is {{about 400 times the [Moon](Moon.md)'s [distance](lunar%20distance.md), and the Sun's [diameter](diameter.md) is also about 400 times the Moon's [diameter](diameter.md)}}. Because these ratios are approximately the same, {{the Sun and the Moon as seen from Earth appear to be approximately the same size: about 0.5 [degree of arc](degree%20(angle).md) in [angular measure](angular%20diameter.md)}}. <!--SR:!2024-09-11,52,290!2024-08-24,34,270-->
 
-The [Moon](Moon.md)'s orbit around [Earth](Earth.md) is {{slightly [elliptical](elliptic%20orbit.md), as is Earth's orbit around the [Sun](Sun.md)}}. The [apparent sizes](angular%20diameter.md) of the Sun and Moon therefore {{vary}}. The [magnitude of an eclipse](magnitude%20of%20eclipse.md) is {{the ratio of the apparent size of the Moon to the apparent size of the Sun during an eclipse}}. <!--SR:!2024-07-24,15,290!2024-07-26,17,290!2024-08-21,33,290-->
+The [Moon](Moon.md)'s orbit around [Earth](Earth.md) is {{slightly [elliptical](elliptic%20orbit.md), as is Earth's orbit around the [Sun](Sun.md)}}. The [apparent sizes](angular%20diameter.md) of the Sun and Moon therefore {{vary}}. The [magnitude of an eclipse](magnitude%20of%20eclipse.md) is {{the ratio of the apparent size of the Moon to the apparent size of the Sun during an eclipse}}. <!--SR:!2024-09-24,59,310!2024-10-02,67,310!2024-08-21,33,290-->
 
 There are {{three main types of solar eclipses: [total eclipse](#total%20eclipse), [annular eclipse](#annular%20eclipse), and [partial eclipse](#partial%20eclipse)}}. <!--SR:!2024-08-29,38,290-->
 
 ### total eclipse
 
-A total eclipse occurs on average {{every 18 months}} when {{the dark silhouette of the [Moon](Moon.md) completely obscures the bright light of the [Sun](Sun.md)}}, allowing {{the much fainter [solar corona](stellar%20corona.md) to be visible}}. During an eclipse, totality occurs {{only along a narrow track on the surface of Earth. This narrow track is called the path of totality}}. <!--SR:!2024-07-25,16,290!2024-08-01,17,250!2024-07-24,15,290!2024-09-16,56,310-->
+A total eclipse occurs on average {{every 18 months}} when {{the dark silhouette of the [Moon](Moon.md) completely obscures the bright light of the [Sun](Sun.md)}}, allowing {{the much fainter [solar corona](stellar%20corona.md) to be visible}}. During an eclipse, totality occurs {{only along a narrow track on the surface of Earth. This narrow track is called the path of totality}}. <!--SR:!2024-09-12,47,290!2024-08-01,17,250!2024-09-21,56,310!2024-09-16,56,310-->
 
 ### annular eclipse
 
@@ -40,13 +40,13 @@ An annular eclipse, like a total eclipse, occurs when {{the [Sun](Sun.md) and [M
 
 ### partial eclipse
 
-A partial eclipse occurs {{about twice a year}}, when {{the [Sun](Sun.md) and [Moon](Moon.md) are not exactly in line with [Earth](Earth.md)}} and {{the Moon only partially obscures the Sun}}. This phenomenon can usually be seen from {{a large part of Earth outside of the track of an annular or total eclipse}}. However, some eclipses can be seen {{only as a partial eclipse}}, because {{the [umbra](umbra,%20penumbra%20and%20antumbra.md#umbra) passes above [Earth's polar regions](polar%20regions%20of%20Earth.md) and never intersects [Earth's surface](geoid.md)}}. Partial eclipses are {{virtually unnoticeable in terms of the Sun's brightness}}, as {{it takes well over 90% coverage to notice any darkening at all}}. Even at 99%, it would be {{no darker than [civil twilight](twilight.md#civil%20twilight)}}. <!--SR:!2024-08-25,37,290!2024-09-15,54,310!2024-09-13,53,310!2024-09-17,56,310!2024-08-21,33,270!2024-07-24,15,290!2024-08-23,35,290!2024-07-24,15,290!2024-07-25,16,290-->
+A partial eclipse occurs {{about twice a year}}, when {{the [Sun](Sun.md) and [Moon](Moon.md) are not exactly in line with [Earth](Earth.md)}} and {{the Moon only partially obscures the Sun}}. This phenomenon can usually be seen from {{a large part of Earth outside of the track of an annular or total eclipse}}. However, some eclipses can be seen {{only as a partial eclipse}}, because {{the [umbra](umbra,%20penumbra%20and%20antumbra.md#umbra) passes above [Earth's polar regions](polar%20regions%20of%20Earth.md) and never intersects [Earth's surface](geoid.md)}}. Partial eclipses are {{virtually unnoticeable in terms of the Sun's brightness}}, as {{it takes well over 90% coverage to notice any darkening at all}}. Even at 99%, it would be {{no darker than [civil twilight](twilight.md#civil%20twilight)}}. <!--SR:!2024-08-25,37,290!2024-09-15,54,310!2024-09-13,53,310!2024-09-17,56,310!2024-08-21,33,270!2024-09-22,57,310!2024-08-23,35,290!2024-09-05,40,290!2024-09-30,65,310-->
 
 ## terminology
 
 ### eclipse phases
 
-During {{a [total eclipse](#total%20eclipse)}}, there are {{4 visual phases (excluding totality)}}, which are called: <!--SR:!2024-09-14,53,310!2024-07-26,17,290-->
+During {{a [total eclipse](#total%20eclipse)}}, there are {{4 visual phases (excluding totality)}}, which are called: <!--SR:!2024-09-14,53,310!2024-10-03,68,310-->
 
 ```Python
 # pytextgen generate data
@@ -74,12 +74,12 @@ fourth contact: When the trailing edge of the [Moon](Moon.md) ceases to overlap 
 
 <!--pytextgen generate section="9ac1"--><!-- The following content is generated at 2024-07-05T20:41:16.752680+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←first contact: When the [Moon](Moon.md)'s limb (edge) is exactly tangential to the [Sun](Sun.md)'s limb. <!--SR:!2024-08-14,26,270!2024-07-24,15,290-->
+- _(begin)_→:::←first contact: When the [Moon](Moon.md)'s limb (edge) is exactly tangential to the [Sun](Sun.md)'s limb. <!--SR:!2024-08-14,26,270!2024-09-22,57,310-->
 - first contact: When the [Moon](Moon.md)'s limb (edge) is exactly tangential to the [Sun](Sun.md)'s limb.→:::←second contact: Starting with [Baily's beads](Baily's%20beads.md) (caused by light shining through valleys on the [Moon](Moon.md)'s surface) and the diamond ring effect. Almost the entire disk is covered. <!--SR:!2024-08-18,28,270!2024-08-24,36,290-->
-- second contact: Starting with [Baily's beads](Baily's%20beads.md) (caused by light shining through valleys on the [Moon](Moon.md)'s surface) and the diamond ring effect. Almost the entire disk is covered.→:::←totality: The [Moon](Moon.md) obscures the entire disk of the [Sun](Sun.md) and only the [solar corona](stellar%20corona.md) is visible. <!--SR:!2024-07-26,17,290!2024-08-28,37,290-->
-- totality: The [Moon](Moon.md) obscures the entire disk of the [Sun](Sun.md) and only the [solar corona](stellar%20corona.md) is visible.→:::←third contact: When the first bright light becomes visible and the [Moon](Moon.md)'s [shadow](shadow.md) is moving away from the observer. Again a diamond ring may be observed. <!--SR:!2024-08-13,28,270!2024-07-24,15,290-->
+- second contact: Starting with [Baily's beads](Baily's%20beads.md) (caused by light shining through valleys on the [Moon](Moon.md)'s surface) and the diamond ring effect. Almost the entire disk is covered.→:::←totality: The [Moon](Moon.md) obscures the entire disk of the [Sun](Sun.md) and only the [solar corona](stellar%20corona.md) is visible. <!--SR:!2024-09-17,52,290!2024-08-28,37,290-->
+- totality: The [Moon](Moon.md) obscures the entire disk of the [Sun](Sun.md) and only the [solar corona](stellar%20corona.md) is visible.→:::←third contact: When the first bright light becomes visible and the [Moon](Moon.md)'s [shadow](shadow.md) is moving away from the observer. Again a diamond ring may be observed. <!--SR:!2024-08-13,28,270!2024-09-23,58,310-->
 - third contact: When the first bright light becomes visible and the [Moon](Moon.md)'s [shadow](shadow.md) is moving away from the observer. Again a diamond ring may be observed.→:::←fourth contact: When the trailing edge of the [Moon](Moon.md) ceases to overlap with the solar disk and the eclipse ends. <!--SR:!2024-08-25,37,290!2024-09-01,44,290-->
-- fourth contact: When the trailing edge of the [Moon](Moon.md) ceases to overlap with the solar disk and the eclipse ends.→:::←_(end)_ <!--SR:!2024-07-25,16,290!2024-09-01,42,290-->
+- fourth contact: When the trailing edge of the [Moon](Moon.md) ceases to overlap with the solar disk and the eclipse ends.→:::←_(end)_ <!--SR:!2024-09-29,64,310!2024-09-01,42,290-->
 
 <!--/pytextgen-->
 

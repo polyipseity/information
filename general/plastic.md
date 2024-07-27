@@ -72,7 +72,7 @@ return _chain.from_iterable(await _gather(
 - [high-density polyethylene](high-density%20polyethylene.md) (HDPE)→:::←[low-density polyethylene](low-density%20polyethylene.md) (LDPE) <!--SR:!2028-08-25,1541,354!2024-08-10,389,341-->
 - [low-density polyethylene](low-density%20polyethylene.md) (LDPE)→:::←[polyethylene terephthalate](polyethylene%20terephthalate.md) (PET) <!--SR:!2025-07-16,497,254!2027-06-25,1115,334-->
 - [polyethylene terephthalate](polyethylene%20terephthalate.md) (PET)→:::←[polymethyl methacrylate](poly(methyl%20methacrylate).md) (PMMA), Perspex <!--SR:!2024-10-12,119,249!2024-08-31,185,249-->
-- [polymethyl methacrylate](poly(methyl%20methacrylate).md) (PMMA), Perspex→:::←[polypropylene](polypropylene.md) (PP) <!--SR:!2024-07-26,137,194!2025-07-02,440,274-->
+- [polymethyl methacrylate](poly(methyl%20methacrylate).md) (PMMA), Perspex→:::←[polypropylene](polypropylene.md) (PP) <!--SR:!2025-04-18,265,194!2025-07-02,440,274-->
 - [polypropylene](polypropylene.md) (PP)→:::←[polystyrene](polystyrene.md) (PS) <!--SR:!2026-04-12,706,274!2024-10-01,233,274-->
 - [polystyrene](polystyrene.md) (PS)→:::←[polyvinyl chloride](polyvinyl%20chloride.md) (PVC) <!--SR:!2027-03-25,1048,334!2026-07-16,730,281-->
 - [polyvinyl chloride](polyvinyl%20chloride.md) (PVC)→:::←_(end)_ <!--SR:!2028-05-01,1449,354!2027-07-03,1121,334-->
@@ -89,7 +89,7 @@ return _chain.from_iterable(await _gather(
 - [polymethyl methacrylate](poly(methyl%20methacrylate).md) (PMMA), Perspex::![poly(methyl methacrylate)](../archives/Wikimedia%20Commons/PMMA%20repeating%20unit.svg) <!--SR:!2025-02-12,229,190-->
 - [polypropylene](polypropylene.md) (PP)::![polypropylene](../archives/Wikimedia%20Commons/Polypropylen.svg) <!--SR:!2024-08-09,388,341-->
 - [polystyrene](polystyrene.md) (PS)::![polystyrene](../archives/Wikimedia%20Commons/Polystyrene.svg) <!--SR:!2025-08-20,393,301-->
-- [polyvinyl chloride](polyvinyl%20chloride.md) (PVC)::![polyvinyl chloride](../archives/Wikimedia%20Commons/Polyvinylchlorid.svg) <!--SR:!2024-07-26,372,349-->
+- [polyvinyl chloride](polyvinyl%20chloride.md) (PVC)::![polyvinyl chloride](../archives/Wikimedia%20Commons/Polyvinylchlorid.svg) <!--SR:!2029-06-14,1783,369-->
 
 <!--/pytextgen-->
 

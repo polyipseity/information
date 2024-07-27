@@ -42,7 +42,7 @@ return await memorize_seq(
 - _(begin)_→:::←[initiation](initiation%20(chemistry).md): [homolysis](homolysis%20(chemistry).md) of [halogens](halogen.md) into [free radicals](free%20radical.md) by [light](light.md) or [heat](heat.md) <!--SR:!2025-12-05,690,317!2024-07-30,378,339-->
 - [initiation](initiation%20(chemistry).md): [homolysis](homolysis%20(chemistry).md) of [halogens](halogen.md) into [free radicals](free%20radical.md) by [light](light.md) or [heat](heat.md)→:::←[propagation](chain%20propagation.md) <!--SR:!2024-07-28,376,339!2024-10-11,392,279-->
 - [propagation](chain%20propagation.md)→:::←[termination](chain%20termination.md) <!--SR:!2027-08-02,1238,357!2027-08-29,1169,339-->
-- [termination](chain%20termination.md)→:::←_(end)_ <!--SR:!2028-11-17,1614,359!2024-07-27,375,339-->
+- [termination](chain%20termination.md)→:::←_(end)_ <!--SR:!2028-11-17,1614,359!2029-05-11,1749,359-->
 
 <!--/pytextgen-->
 

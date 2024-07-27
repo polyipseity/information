@@ -13,7 +13,7 @@ tags:
 
 # atomic number
 
-The __atomic number__ or __nuclear charge number__ (symbol {{___Z___}}) of {{a [chemical element](chemical%20element.md) is the [charge number](charge%20number.md) of an [atomic nucleus](atomic%20nucleus.md)}}.  For {{ordinary nuclei composed of [protons](proton.md) and [neutrons](neutron.md)}}, this is {{equal to the __proton number__ (___n___<!-- Markdown separator -->__<sub>p</sub>__) or the number of protons found in the nucleus of every [atom](atom.md) of that element}}. <!--SR:!2024-07-25,4,270!2024-07-25,4,270!2024-07-25,4,270!2024-07-25,4,270-->
+The __atomic number__ or __nuclear charge number__ (symbol {{___Z___}}) of {{a [chemical element](chemical%20element.md) is the [charge number](charge%20number.md) of an [atomic nucleus](atomic%20nucleus.md)}}.  For {{ordinary nuclei composed of [protons](proton.md) and [neutrons](neutron.md)}}, this is {{equal to the __proton number__ (___n___<!-- Markdown separator -->__<sub>p</sub>__) or the number of protons found in the nucleus of every [atom](atom.md) of that element}}. <!--SR:!2024-08-13,17,290!2024-08-12,16,290!2024-08-09,13,290!2024-08-11,15,290-->
 
 ## references
 

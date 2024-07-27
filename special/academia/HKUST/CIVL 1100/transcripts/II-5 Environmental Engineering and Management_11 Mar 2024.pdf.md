@@ -64,8 +64,8 @@ return await memorize_seq(
 - air pollution→:::←land contamination <!--SR:!2024-09-23,82,270!2024-08-03,58,310-->
 - land contamination→:::←noise pollution <!--SR:!2024-07-28,19,270!2024-09-03,68,270-->
 - noise pollution→:::←solid waste disposal <!--SR:!2024-09-16,76,270!2024-11-18,126,290-->
-- solid waste disposal→:::←water pollution <!--SR:!2024-07-25,48,290!2024-07-31,15,210-->
-- water pollution→:::←_(end)_ <!--SR:!2024-07-24,49,310!2025-01-11,174,310-->
+- solid waste disposal→:::←water pollution <!--SR:!2024-12-15,140,290!2024-07-31,15,210-->
+- water pollution→:::←_(end)_ <!--SR:!2024-12-20,145,310!2025-01-11,174,310-->
 
 <!--/pytextgen-->
 
@@ -99,7 +99,7 @@ return await memorize_seq(
 <!--pytextgen generate section="a92d"--><!-- The following content is generated at 2024-06-09T06:29:24.057662+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←(Cap. 311) Air Pollution Control Ordinance <!--SR:!2024-08-07,17,255!2024-09-29,84,355-->
-- (Cap. 311) Air Pollution Control Ordinance→:::←(Cap. 354) Waste Disposal Ordinance <!--SR:!2024-07-25,11,275!2024-07-25,4,295-->
+- (Cap. 311) Air Pollution Control Ordinance→:::←(Cap. 354) Waste Disposal Ordinance <!--SR:!2024-08-28,31,275!2024-08-08,11,295-->
 - (Cap. 354) Waste Disposal Ordinance→:::←(Cap. 358) Water Pollution Control Ordinance <!--SR:!2024-09-08,55,295!2024-08-12,27,315-->
 - (Cap. 358) Water Pollution Control Ordinance→:::←(Cap. 400) Noise Pollution Control Ordinance <!--SR:!2024-08-21,36,275!2024-08-06,15,275-->
 - (Cap. 400) Noise Pollution Control Ordinance→:::←(Cap. 499) Environmental Impact Ordinance <!--SR:!2024-09-10,50,295!2024-08-15,44,315-->
@@ -179,13 +179,13 @@ Daily Domestic Waste Generation Rates per Capita Compared
 
 - daily domestic waste generation rate per capita (DPWGR per capita)
   - DPWGR per capita in Hong Kong ::: 1.36 kg/person/day, recycling rate: 37% <!--SR:!2024-09-17,77,270!2024-08-02,57,310-->
-  - DPWGR per capita other locations ::: Metro Tokyo: 0.77 kg/person/day, Seoul City: 0.95 kg/person/day, Taipei city: 1.00 kg/person/day <!--SR:!2024-07-26,48,290!2024-08-05,60,310-->
+  - DPWGR per capita other locations ::: Metro Tokyo: 0.77 kg/person/day, Seoul City: 0.95 kg/person/day, Taipei city: 1.00 kg/person/day <!--SR:!2024-12-11,136,290!2024-08-05,60,310-->
 
 ## page 10
 
 Landfills in Hong Kong
 
-- main landfills in Hong Kong (and saturation time) ::: North East New Territories Landfill (2024), South East New Territories Landfill (2022), West New Territories Landfill (2024) <!--SR:!2024-09-10,72,270!2024-07-25,50,310-->
+- main landfills in Hong Kong (and saturation time) ::: North East New Territories Landfill (2024), South East New Territories Landfill (2022), West New Territories Landfill (2024) <!--SR:!2024-09-10,72,270!2024-12-28,154,310-->
 
 ## page 11
 
@@ -200,7 +200,7 @@ Sustainable Waste Management
 
 - 3Rs ::: (highest priority) reduce, reuse, recycle (lowest priority) <!--SR:!2024-08-21,73,310!2024-08-15,67,310-->
   - reduce ::: reduce the amount of solid waste generation <!--SR:!2024-07-31,55,310!2024-08-06,60,310-->
-  - reuse ::: multiple uses of an item in its original form with or without reconditioning <!--SR:!2024-07-27,52,310!2024-07-26,51,310-->
+  - reuse ::: multiple uses of an item in its original form with or without reconditioning <!--SR:!2025-01-12,168,310!2025-01-05,161,310-->
   - recycle ::: materials are collected and recovered to be used as raw material <!--SR:!2024-11-14,121,290!2024-08-07,60,310-->
     - recycle example ::: plastic bottle (PET or HDPE) -> chips -> fiber -> T-shirt or bag <!--SR:!2024-12-11,141,290!2024-08-02,57,310-->
 
@@ -257,7 +257,7 @@ HATS Stage 2 Overview
 - Hong Kong Harbour Area Treatment Scheme Stage II ::: HATS Stage 2 <!--SR:!2024-08-04,58,310!2024-08-11,64,310-->
   - HATS Stage 2 phases ::: 2 phases, stage 2A and stage 2B <!--SR:!2024-08-07,60,310!2024-08-09,63,310-->
   - HATS Stage 2A ::: collect and treat the remaining 25% sewage from north and south-western Hong Kong Island and future development, and provide disinfection <!--SR:!2024-08-21,65,270!2024-10-10,97,290-->
-  - HATS Stage 2B ::: biological treatment <!--SR:!2024-07-25,48,290!2024-07-28,53,310-->
+  - HATS Stage 2B ::: biological treatment <!--SR:!2025-01-29,186,310!2024-07-28,53,310-->
 
 ## page 19
 
@@ -298,12 +298,12 @@ Noise Levels and Causes
   - airplane passing ::: 120 dB(A) <!--SR:!2024-08-08,62,310!2024-08-09,63,310-->
   - construction site ::: 110 dB(A) <!--SR:!2024-10-20,103,290!2024-08-19,71,310-->
   - concert ::: 100 dB(A) <!--SR:!2024-08-16,68,310!2024-08-15,68,310-->
-  - drilling ::: 90 dB(A) <!--SR:!2024-07-24,47,290!2024-08-27,63,270-->
+  - drilling ::: 90 dB(A) <!--SR:!2025-01-31,187,310!2024-08-27,63,270-->
   - train passing ::: 80 dB(A) <!--SR:!2024-08-11,64,310!2024-08-05,59,310-->
   - highway (harm threshold) ::: 70 dB(A) <!--SR:!2024-08-08,62,310!2024-12-02,132,290-->
   - home with TV on ::: 60 dB(A) <!--SR:!2025-01-21,184,310!2025-01-05,168,310-->
-  - library ::: 40 dB(A) <!--SR:!2024-08-10,64,310!2024-07-25,50,310-->
-  - park ::: 30 dB(A) <!--SR:!2024-08-08,61,310!2024-07-25,50,310-->
+  - library ::: 40 dB(A) <!--SR:!2024-08-10,64,310!2024-12-23,148,310-->
+  - park ::: 30 dB(A) <!--SR:!2024-08-08,61,310!2025-02-25,212,330-->
 
 ## page 25
 
@@ -322,7 +322,7 @@ Air Pollution: A serious problem in Hong Kong?
   - industrial activities in China's Pearl River Delta
   - land use change affects air circulation
   - air pollution regulations are outdated (16 years old)
-  - 3 major reasons causing air pollution in Hong Kong ::: air pollution regulations are outdated (16 years old), industrial activities in China's Pearl River Delta, land use change affects air circulation <!--SR:!2024-07-25,47,290!2024-08-21,73,310-->
+  - 3 major reasons causing air pollution in Hong Kong ::: air pollution regulations are outdated (16 years old), industrial activities in China's Pearl River Delta, land use change affects air circulation <!--SR:!2025-02-01,188,310!2024-08-21,73,310-->
 
 ## page 27
 
@@ -330,24 +330,24 @@ Air Quality Health Index
 
 - Air Quality Health Index ::: AQHI <!--SR:!2024-08-08,61,310!2024-08-16,68,310-->
   - AQHI history ::: AQHI has replaced the Air Pollution Index (API) since 2013-12-30. <!--SR:!2024-08-28,64,270!2024-08-10,63,310-->
-  - AQHI scale ::: 1 to 10 and 10+, grouped into 5 health risk categories <!--SR:!2024-08-03,57,310!2024-07-27,52,310-->
-  - AQHI health risk categories ::: low (green): 1~3, moderate (yellow): 4~6, high (red): 7, very high (brown): 8~10, serious (black): 10+ <!--SR:!2024-08-10,64,310!2024-07-27,52,310-->
+  - AQHI scale ::: 1 to 10 and 10+, grouped into 5 health risk categories <!--SR:!2024-08-03,57,310!2025-03-11,226,330-->
+  - AQHI health risk categories ::: low (green): 1~3, moderate (yellow): 4~6, high (red): 7, very high (brown): 8~10, serious (black): 10+ <!--SR:!2024-08-10,64,310!2025-03-13,228,330-->
 
 ## page 28
 
 FORECAST of Health Risk
 
 - AQHI calculation ::: 3-hour moving average concentrations of 4 air pollutants <!--SR:!2024-08-07,60,310!2024-08-13,66,310-->
-  - AQHI calculation main pollutants ::: nitrogen dioxide (NO<sub>2</sub>), ozone (O<sub>3</sub>), particulate matter (PM<sub>2.5</sub>, PM<sub>10</sub>), sulfur dioxide (SO<sub>2</sub>) <!--SR:!2024-07-27,42,250!2024-08-02,57,310-->
+  - AQHI calculation main pollutants ::: nitrogen dioxide (NO<sub>2</sub>), ozone (O<sub>3</sub>), particulate matter (PM<sub>2.5</sub>, PM<sub>10</sub>), sulfur dioxide (SO<sub>2</sub>) <!--SR:!2024-12-18,143,270!2024-08-02,57,310-->
 
 ## page 29
 
 Indoor Air Quality
 
-- sick building syndrome ::: fatigue, headache, nasal congestion <!--SR:!2024-08-07,61,310!2024-07-26,51,310-->
+- sick building syndrome ::: fatigue, headache, nasal congestion <!--SR:!2024-08-07,61,310!2025-03-04,219,330-->
 - common indoor air pollutant ::: 12 parameters <!--SR:!2024-10-27,105,290!2024-08-10,63,310-->
-  - common indoor air pollutant examples ::: carbon dioxide (CO<sub>2</sub>), carbon monoxide (CO), respirable suspended particulate (RSP/PM<sub>10</sub>) <!--SR:!2024-09-20,80,270!2024-07-25,50,310-->
-    - carbon dioxide limits ::: excellent: < 800 ppmv; good: < 1000 ppmv <!--SR:!2024-09-25,84,270!2024-07-24,49,310-->
+  - common indoor air pollutant examples ::: carbon dioxide (CO<sub>2</sub>), carbon monoxide (CO), respirable suspended particulate (RSP/PM<sub>10</sub>) <!--SR:!2024-09-20,80,270!2025-01-01,157,310-->
+    - carbon dioxide limits ::: excellent: < 800 ppmv; good: < 1000 ppmv <!--SR:!2024-09-25,84,270!2024-12-28,153,310-->
     - carbon monoxide limits ::: excellent: < 2000 μg/m<sup>3</sup>, < 1.7 ppmv; good: < 10000 μg/m<sup>3</sup>, < 8.7 ppmv <!--SR:!2024-08-12,43,250!2024-08-02,56,310-->
     - respirable suspended particulate limits ::: excellent: < 20 μg/m<sup>3</sup>; good: < 180 μg/m<sup>3</sup> <!--SR:!2024-09-27,82,270!2024-08-05,22,270-->
 
@@ -392,8 +392,8 @@ return await memorize_seq(
 - _(begin)_→:::←carbon dioxide (CO<sub>2</sub>) <!--SR:!2024-08-09,62,310!2024-08-10,63,310-->
 - carbon dioxide (CO<sub>2</sub>)→:::←hydroflurocarbons (HFCs) <!--SR:!2024-10-09,79,230!2024-09-25,83,270-->
 - hydroflurocarbons (HFCs)→:::←methane (CH<sub>4</sub>) <!--SR:!2024-10-22,99,270!2024-09-25,73,230-->
-- methane (CH<sub>4</sub>)→:::←nitrous oxide (N<sub>2</sub>O) <!--SR:!2024-07-24,36,250!2024-07-26,47,290-->
-- nitrous oxide (N<sub>2</sub>O)→:::←perflurocarbons (PFCs) <!--SR:!2024-07-26,24,230!2024-07-26,4,150-->
+- methane (CH<sub>4</sub>)→:::←nitrous oxide (N<sub>2</sub>O) <!--SR:!2024-10-27,91,250!2024-12-09,134,290-->
+- nitrous oxide (N<sub>2</sub>O)→:::←perflurocarbons (PFCs) <!--SR:!2024-09-20,54,230!2024-08-02,5,150-->
 - perflurocarbons (PFCs)→:::←sulfur hexafluoride (SF<sub>6</sub>) <!--SR:!2024-07-29,50,290!2024-09-06,69,270-->
 - sulfur hexafluoride (SF<sub>6</sub>)→:::←_(end)_ <!--SR:!2024-08-09,62,310!2024-08-20,72,310-->
 
@@ -403,7 +403,7 @@ return await memorize_seq(
 
 Observed Global Climate Change
 
-- climate change consequences in the Northern Hemisphere ::: Northern Hemisphere spring snow cover decreases, sea ice extend and level decreases <!--SR:!2024-07-24,49,310!2024-08-16,68,310-->
+- climate change consequences in the Northern Hemisphere ::: Northern Hemisphere spring snow cover decreases, sea ice extend and level decreases <!--SR:!2025-02-23,211,330!2024-08-16,68,310-->
 
 ## page 32
 
@@ -427,7 +427,7 @@ Concentration Units for Liquids
 Relationship between PPM and mg/L
 
 - relationship between ppm<sub>w</sub> and mg/L for dilute solutions ::: 1 mg/L ≈ 1 ppm<sub>w</sub>, 1 µg/L ≈ 1 ppb<sub>w</sub> <!--SR:!2024-11-11,118,290!2024-08-15,68,310-->
-  - relationship between ppm<sub>w</sub> and mg/L derivation ::: convert the volume to mass or mass to volume using density <!--SR:!2024-08-16,68,310!2024-07-24,49,310-->
+  - relationship between ppm<sub>w</sub> and mg/L derivation ::: convert the volume to mass or mass to volume using density <!--SR:!2024-08-16,68,310!2025-02-22,209,330-->
   - density of water ::: about 1 kg/L <!--SR:!2024-08-14,66,310!2024-07-28,53,310-->
 
 ## page 35
@@ -443,7 +443,7 @@ Relationship between PPM and mg/L
 
 Concentration Units for Gases
 
-- concentration units for gases ::: mass of substance per unit volume of mixture, volume of substance per unit volume of mixture <!--SR:!2024-07-24,45,290!2024-08-15,67,310-->
+- concentration units for gases ::: mass of substance per unit volume of mixture, volume of substance per unit volume of mixture <!--SR:!2024-12-07,132,290!2024-08-15,67,310-->
   - volume of substance per unit volume of mixture for gases ::: ppm by volume (ppm<sub>v</sub>) <!--SR:!2024-08-09,62,310!2024-07-30,51,290-->
   - mass of substance per unit volume of mixture for gases ::: µg/m<sup>3</sup>, mg/m<sup>3</sup> <!--SR:!2024-08-08,62,310!2024-07-28,52,310-->
 
@@ -452,7 +452,7 @@ Concentration Units for Gases
 Relationship between ppm<sub>v</sub> and mg/m<sup>3</sup>
 
 - relationship between ppm<sub>v</sub> and mg/m<sup>3</sup> ::: [ideal gas law](../../../../../general/ideal%20gas%20law.md) <!--SR:!2024-08-21,73,310!2024-11-26,141,310-->
-  - ideal gas law equation ::: $$pV = nRT$$, where $p$ is the absolute pressure in atm, $V$ is the volume in m<sup>3</sup>, $n$ is the number of moles, $R \approx 0.082056\mathrm{\ L \cdot atm \cdot K^{-1} \cdot mol^{-1} }$ is the [ideal gas constant](../../../../../general/gas%20constant.md), and $T$ is the absolute temperature in K <!--SR:!2024-07-27,49,290!2024-08-13,66,310-->
+  - ideal gas law equation ::: $$pV = nRT$$, where $p$ is the absolute pressure in atm, $V$ is the volume in m<sup>3</sup>, $n$ is the number of moles, $R \approx 0.082056\mathrm{\ L \cdot atm \cdot K^{-1} \cdot mol^{-1} }$ is the [ideal gas constant](../../../../../general/gas%20constant.md), and $T$ is the absolute temperature in K <!--SR:!2024-12-16,141,290!2024-08-13,66,310-->
 
 ## page 38
 

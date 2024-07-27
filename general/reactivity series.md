@@ -242,7 +242,7 @@ return _chain.from_iterable(await _gather(
 - [barium](barium.md)::reacts with cold [water](water.md) <!--SR:!2025-03-15,495,310-->
 - [strontium](strontium.md)::reacts with cold [water](water.md) <!--SR:!2025-03-20,497,310-->
 - [calcium](calcium.md)::reacts with cold [water](water.md) <!--SR:!2025-08-04,539,270-->
-- [magnesium](magnesium.md)::reacts very slowly with cold [water](water.md), rapidly with boiling water, and very vigorously with [acids](acid.md) <!--SR:!2024-07-27,13,130-->
+- [magnesium](magnesium.md)::reacts very slowly with cold [water](water.md), rapidly with boiling water, and very vigorously with [acids](acid.md) <!--SR:!2024-08-20,24,150-->
 - [beryllium](beryllium.md)::reacts with [steam](steam.md) and [acids](acid.md) <!--SR:!2024-08-01,64,150-->
 - [aluminium](aluminium.md)::reacts with [steam](steam.md) and [acids](acid.md) <!--SR:!2024-08-23,38,150-->
 - [titanium](titanium.md)::reacts with concentrated [mineral acids](mineral%20acid.md) <!--SR:!2025-02-22,417,250-->
@@ -293,7 +293,7 @@ return _chain.from_iterable(await _gather(
 - [magnesium](magnesium.md)::[electrolysis](electrolysis.md) <!--SR:!2024-09-18,130,250-->
 - [beryllium](beryllium.md)::[electrolysis](electrolysis.md) <!--SR:!2025-09-02,411,310-->
 - [aluminium](aluminium.md)::[electrolysis](electrolysis.md) <!--SR:!2024-10-07,250,230-->
-- [titanium](titanium.md)::[pyrometallurgical](pyrometallurgy.md) extraction using [magnesium](magnesium.md) <!--SR:!2024-07-27,43,130-->
+- [titanium](titanium.md)::[pyrometallurgical](pyrometallurgy.md) extraction using [magnesium](magnesium.md) <!--SR:!2024-08-17,21,130-->
 - [manganese](manganese.md)::[smelting](smelting.md) with [coke](coke%20(fuel).md) <!--SR:!2024-09-07,62,150-->
 - [zinc](zinc.md)::[smelting](smelting.md) with [coke](coke%20(fuel).md) <!--SR:!2024-11-16,379,290-->
 - [chromium](chromium.md)::[aluminothermic reaction](aluminothermic%20reaction.md) <!--SR:!2025-09-11,558,270-->

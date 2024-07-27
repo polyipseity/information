@@ -175,7 +175,7 @@ Example quiz questions for preparing exams.
 > 3. COD > BODu < BOD5
 > 4. COD > BODu > BOD5
 >
-> - solution: {{4}} <!--SR:!2024-07-25,49,292-->
+> - solution: {{4}} <!--SR:!2025-02-13,201,312-->
 
 ## environmental engineering quiz 3
 
@@ -385,7 +385,7 @@ Example quiz questions for preparing exams.
 > 3. To eliminate the risk of liquefaction in seismic zones
 > 4. To minimize the future settlement
 >
-> - solution: {{2}} <!--SR:!2024-07-27,52,312-->
+> - solution: {{2}} <!--SR:!2025-03-04,220,332-->
 
 ## week 4 lecture quiz
 
@@ -398,4 +398,4 @@ Example quiz questions for preparing exams.
 > 3. The horizontal reaction force at Y is 40 kN in magnitude.
 > 4. The vertical reaction force at Y is 30 kN in magnitude
 >
-> - solution: {{2}} <!--SR:!2024-07-27,47,290-->
+> - solution: {{2}} <!--SR:!2024-12-08,134,290-->
