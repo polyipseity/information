@@ -140,7 +140,7 @@ The content is in teaching order.
 
 - time: 2024-03-11T09:00:00+08:00/2024-03-11T10:30:00+08:00
 - [entropy](../../../../general/entropy%20(information%20theory).md)
-- decision tree format ::: All nodes show the percentage of actual labels in that decision nodes. The internal nodes show the attribute being split on. The terminal nodes show the predicted label. Arrows point from top to bottom, and each is labelled with an inequality operating on the attribute, which decides whether an sample being predicted should go through said arrow. <!--SR:!2024-07-31,36,337!2024-07-28,32,317-->
+- decision tree format ::: All nodes show the percentage of actual labels in that decision nodes. The internal nodes show the attribute being split on. The terminal nodes show the predicted label. Arrows point from top to bottom, and each is labelled with an inequality operating on the attribute, which decides whether an sample being predicted should go through said arrow. <!--SR:!2024-07-31,36,337!2024-11-07,102,317-->
 - [decision tree learning § algorithms](../../../../general/decision%20tree%20learning.md#algorithms)
   - decision tree learning algorithms ::: We only teach ID3 algorithm, C4.5 algorithm, and CART. <!--SR:!2025-07-22,366,371!2025-01-27,225,347-->
 - [ID3 § algorithm](../../../../general/ID3%20algorithm.md#algorithm)

@@ -141,7 +141,7 @@ root cause analysis, 5 whys
 - PPTG: people, process, technology, governance framework→:::←blue ocean strategy <!--SR:!2024-08-10,46,301!2024-08-04,43,301-->
 - blue ocean strategy→:::←interview note-taking in an 1-page memo <!--SR:!2024-10-18,89,281!2024-08-08,25,221-->
 - interview note-taking in an 1-page memo→:::←profitability framework <!--SR:!2024-09-11,62,261!2024-08-24,41,221-->
-- profitability framework→:::←root cause analysis, 5 whys <!--SR:!2024-07-28,13,261!2024-09-27,62,241-->
+- profitability framework→:::←root cause analysis, 5 whys <!--SR:!2024-09-01,35,261!2024-09-27,62,241-->
 - root cause analysis, 5 whys→:::←_(end)_ <!--SR:!2024-08-17,53,301!2024-08-14,50,301-->
 
 <!--/pytextgen-->

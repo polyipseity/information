@@ -56,7 +56,7 @@ Loads on civil engineering can be separated into {{<!--pytextgen generate sectio
 <!--pytextgen generate section="cc19"--><!-- The following content is generated at 2024-05-14T21:09:52.082807+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←[dead load](#dead%20load) <!--SR:!2024-07-30,53,308!2024-08-22,77,320-->
-- [dead load](#dead%20load)→:::←[environmental load](#environmental%20load) <!--SR:!2024-07-28,56,310!2024-10-21,106,290-->
+- [dead load](#dead%20load)→:::←[environmental load](#environmental%20load) <!--SR:!2025-01-15,171,310!2024-10-21,106,290-->
 - [environmental load](#environmental%20load)→:::←[live load](#live%20load) <!--SR:!2024-09-24,83,270!2024-08-16,72,328-->
 - [live load](#live%20load)→:::←[load combinations](#load%20combinations) <!--SR:!2025-01-20,186,320!2025-01-31,196,310-->
 - [load combinations](#load%20combinations)→:::←[other loads](#other%20loads) <!--SR:!2024-11-20,127,290!2024-08-08,65,320-->
@@ -124,7 +124,7 @@ For example, when there is {{water buildup in the soil}}, there is {{increased h
 
 Lateral load may be caused by {{bulk materials, [groundwater](groundwater.md), or [soil](soil.md)}}. <!--SR:!2025-02-21,209,310-->
 
-For example, there is lateral soil load on {{retaining walls of a slope because the soil of a slope on the retained side tends to slip down, pushing the walls towards the excavated side}}. This lateral soil load can cause {{lateral deflection, toppling of the retaining structure, or even a landslide}}. <!--SR:!2024-07-28,52,300!2024-12-25,155,300-->
+For example, there is lateral soil load on {{retaining walls of a slope because the soil of a slope on the retained side tends to slip down, pushing the walls towards the excavated side}}. This lateral soil load can cause {{lateral deflection, toppling of the retaining structure, or even a landslide}}. <!--SR:!2024-12-30,155,300!2024-12-25,155,300-->
 
 To protect against soil loads, {{retaining structures are built and weep holes may be installed}}. Alternatively, {{slopes on natural terrain can become man-made slopes, such as cut slopes, fill slopes, or retaining walls}}. <!--SR:!2024-09-22,85,280!2024-12-03,140,300-->
 
@@ -144,7 +144,7 @@ For example, {{a beam in between two fixed support creates thermal load under he
 
 [Wind](wind.md) is {{movement of air}}. When wind moves past a building, {{wind changes in velocity}}. Then, {{the pressure of air changes}}. Positive pressure outside {{causes inward forces while negative causes outward (uplift for roof) forces}}. This is wind load. It also depends on {{building shape, wind direction, and wind speed}}. <!--SR:!2024-07-31,55,300!2025-01-18,186,310!2024-11-20,128,300!2024-07-30,54,300!2024-10-03,100,300-->
 
-Wind load causes {{lateral deflection, which may further lead to toppling of the structure, such as collapse of bridges}}. Less serious consequences include {{damage to individual structural elements such as roofs, walls, and windows; and causes excessive building vibrations}}. <!--SR:!2024-08-06,63,320!2024-07-28,53,300-->
+Wind load causes {{lateral deflection, which may further lead to toppling of the structure, such as collapse of bridges}}. Less serious consequences include {{damage to individual structural elements such as roofs, walls, and windows; and causes excessive building vibrations}}. <!--SR:!2024-08-06,63,320!2025-01-04,160,300-->
 
 ### other loads
 

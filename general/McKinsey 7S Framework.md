@@ -29,7 +29,7 @@ The 4 soft elements are {{_shared values_, _skills_, _staff_, and _style_}}. <!-
 
 - _shared values_ ::: core beliefs and values forming the corporate culture <!--SR:!2024-09-02,68,310!2024-08-15,53,310-->
 - _skills_ ::: core competencies and distinctive capabilities, such as existing skills, skill development <!--SR:!2024-08-11,47,290!2024-08-19,57,310-->
-- _staff_ ::: hiring and firing standards or policies, and staff characteristics <!--SR:!2024-07-28,36,290!2024-08-16,54,310-->
+- _staff_ ::: hiring and firing standards or policies, and staff characteristics <!--SR:!2024-08-14,17,270!2024-08-16,54,310-->
 - _style_ ::: behavior patterns of key groups, such as management style <!--SR:!2024-08-31,67,310!2024-08-17,55,310-->
 
 ## references

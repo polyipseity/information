@@ -14,7 +14,7 @@ tags:
 # import ../../tools/utility.py.md
 ```
 
-A __primary standard__ is {{a [standard](standard%20(metrology).md) that is accurate enough to not need external calibrations}}. <!--SR:!2024-07-28,349,290-->
+A __primary standard__ is {{a [standard](standard%20(metrology).md) that is accurate enough to not need external calibrations}}. <!--SR:!2028-06-02,1405,310-->
 
 ## chemistry
 
