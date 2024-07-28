@@ -19,7 +19,7 @@ The __proton–proton chain__, also commonly referred to as the __p–p chain__,
 
 ## the proton–proton chain
 
-(Note that the elements in the equation are {{[ionized](ionization.md), so the elements are bare [nuclei](atomic%20nucleus.md)}}.)
+(Note that the elements in the equation are {{[ionized](ionization.md), so the elements are bare [nuclei](atomic%20nucleus.md)}}.) <!--SR:!2024-08-01,4,273-->
 
 The first step in all the branches is {{the fusion of two [protons](proton.md) ([hydrogen](hydrogen.md)) into a [deuteron](deuteron.md)}}. As the protons fuse, {{one of them undergoes [β+ decay](positron%20emission.md), converting into a [neutron](neutron.md) by emitting a [positron](positron.md) and an [electron neutrino](electron%20neutrino.md)}} (though a small amount of deuterium nuclei is produced by the [PEP reaction](#the%20PEP%20reaction)): {{$$\mathrm{p} + \mathrm{p} \to {}_1^2 \mathrm{D} + \mathrm{e}^+ + \nu_{\mathrm{e} } + 0.42  \text{ MeV}$$}} has a [_Q_ value](Q%20value%20(nuclear%20science).md) {{(released [energy](energy.md)) of 0.42&nbsp;[MeV](electronvolt.md)}}. <!--SR:!2024-08-11,15,290!2024-08-03,7,250!2024-08-02,6,250!2024-08-02,6,250-->
 
