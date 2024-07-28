@@ -60,8 +60,8 @@ PERSON: Yes, I did it! Yes!
 - Karpicke, J. D., & Roediger III, H. L. (2008). The critical importance of retrieval for learning. _Science_, _319_(5865), 966-968. <https://doi.org/10.1126/science.1152408>
 - Korstange, R., Craig, M., & Duncan, M. D. (2019). Understanding and Addressing Student Procrastination in College. _Learning Assistance Review_, _24_(1), 57-70. <https://eric.ed.gov/?id=EJ1234437>
 - Miyatsu, T., Nguyen, K., & McDaniel, M. A. (2018). Five Popular Study Strategies: Their Pitfalls and Optimal Implementations. _Perspectives on Psychological Science_, _13_(3), 390-407. <https://doi.org/10.1177/1745691617710510>
-- Morehead, K., Rhodes, M. G., & DeLozier, S. (2016). Instructor and student knowledge of study strategies. _Memory_, _24_(2), 257-271. <https://doi.org/10.1080/09658211.2014.1001992>
+- Morehead, K., Rhodes, M. G., & DeLozier, S. (2016). Instructor and student knowledge of study strategies. _Memory_, _24_(2), 257-271. <https://doi.org/10.1080/09658211.2014.1001992>
 - Sommer, R. (1968). The social psychology of cramming. _The Personnel and Guidance Journal_, _47_(2), 104-109. <https://doi.org/10.1002/j.2164-4918.1968.tb02901.x>
 - Thakkar, N. (2009). Why procrastinate: an investigation of the root causes behind procrastination. _Lethbridge Undergraduate Research Journal_. <https://hdl.handle.net/10133/1241>
 - Vacha, E. F., & McBride, M. J. (1993). Cramming: A barrier to student success, a way to beat the system or an effective learning strategy?. _College Student Journal_. <https://psycnet.apa.org/record/1993-39276-001>
-- Walck-Shannon, E. M., Rowell, S. F., & Frey, R. F. (2021). To what extent do study habits relate to performance?. _CBE—Life Sciences Education_, _20_(1), ar6. <https://doi.org/10.1187/cbe.20-05-0091>
+- Walck-Shannon, E. M., Rowell, S. F., & Frey, R. F. (2021). To what extent do study habits relate to performance?. _CBE—Life Sciences Education_, _20_(1), ar6. <https://doi.org/10.1187/cbe.20-05-0091>

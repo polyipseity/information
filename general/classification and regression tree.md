@@ -19,4 +19,4 @@ Note that that the Gini impurity is {{simply a variation of the usual [Shannon e
 
 This text incorporates [content](https://en.wikipedia.org/wiki/classification_and_regression_tree) from [Wikipedia](Wikipedia.md) available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.
 
-1. Teixeira A, Souto A, Antunes L. On Conditional Tsallis Entropy. _Entropy_. 2021; 23(11):1427. <https://doi.org/10.3390/e23111427> <a id="^ref-Teixeira-2021"></a> ^ref-Teixeira-2021
+1. Teixeira A, Souto A, Antunes L. On Conditional Tsallis Entropy. _Entropy_. 2021; 23(11):1427. <https://doi.org/10.3390/e23111427> <a id="^ref-Teixeira-2021"></a> ^ref-Teixeira-2021
