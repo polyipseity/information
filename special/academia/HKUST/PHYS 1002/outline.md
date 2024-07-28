@@ -319,7 +319,7 @@ The content is in teaching order.
 - brief history of the [Ancient Greece](../../../../general/Ancient%20Greece.md) ::: rose to power around 800 BC and well-established by about 500 BC, famous for Ancient Greek philosophy
   - [Ancient Greek philosophy](../../../../general/Ancient%20Greek%20philosophy.md) ::: Greek philosophers tried to understand nature with rational explanations over mythological ones, e.g. empirical observations, mathematics, models of nature
     - Ancient Greek philosopher examples ::: Socrates (469–399 BC), Plato (428–348 BC), Aristotle (384–322 BC)
-      - Socrates (469–399 BC) ::: Credited as one of the founders of Western philosophy; Plato's teacher
+      - Socrates (469–399 BC) ::: Credited as one of the founders of Western philosophy; Plato's teacher
       - Plato (428–348 BC) thinking ::: Earth at the center of the universe; all natural motions are perfectly circular; all celestial objects are perfect spheres
       - Aristotle (384–322 BC) thinking ::: five elements: _earth_, _water_, _air_, _fire_, _quintessence_; moving objects spontaneously come to rest without external driving force
     - Ancient Greek philosophy & science ::: Ancient Greek philosophy based their thinking on philosophical reasoning, including apparent perfection, which is not necessarily science.
@@ -438,7 +438,7 @@ The content is in teaching order.
 - [escape velocity](../../../../general/escape%20velocity.md) ::: the minimum speed required to escape into an unbounded orbit at a certain distance from the center of the primary body (ignoring friction): $$v_{\text{escape} } = \sqrt{\frac {2GM} r}$$
   - [escape velocity](../../../../general/escape%20velocity.md) / [Earth](../../../../general/Earth.md)'s [surface](../../../../general/geoid.md) ::: about 11.2 km/s at sea level
 - [tide](../../../../general/tide.md) ::: periodic variation in sea level, with two tides per day
-  - [tide](../../../../general/tide.md) / amplitude ::: Usually in the order of 10 cm to 100 cm. The world's largest tidal range of 17 m (56 ft) occurs at in the Bay of Fundy, Eastern Canada.
+  - [tide](../../../../general/tide.md) / amplitude ::: Usually in the order of 10 cm to 100 cm. The world's largest tidal range of 17 m (56 ft) occurs at in the Bay of Fundy, Eastern Canada.
   - [tide](../../../../general/tide.md) / contributions ::: tidal force of the Moon, and the tidal force of the Sun, which is about one third as strong as that of the Moon
   - [tidal force](../../../../general/tidal%20force.md) ::: a gravitational effect that stretches an object along the line towards and away from the center of mass of the other object due to spatial variations in the gravitational field strength; a _differential force_
     - [tidal force § explanation](../../../../general/tidal%20force.md#explanation) ::: Consider a sphere falling onto Earth. Consider 5 points of the sphere: its center of mass, the point farthest away from Earth, the point nearest to Earth, and the 2 points on the sideways. The gravitational accelerations of those 5 points are: downward, downward but weaker, downward but stronger, and downward but slightly sideways towards the center. Now, place ourself in the center-of-mass frame, and compute the relative accelerations of the above 5 points by subtracting the acceleration of the center of mass. Then, the relative accelerations of the above 5 points are: zero, upward, downward, and sideways approximately towards the center. These are the tidal forces. It is also clear why this is a _differential force_.

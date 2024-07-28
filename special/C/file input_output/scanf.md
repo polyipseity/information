@@ -23,7 +23,7 @@ tags:
 
 ```C
 // (1)
-int scanf(char const *format, ...); // (until C99)
+int scanf(char const *format, ...); // (until C99)
 int scanf(char const *restrict format, ...); // (since C99)
 // (2)
 int fscanf(FILE *stream, char const *format, ...); // (until C99)
