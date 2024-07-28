@@ -29,7 +29,7 @@ The overall reaction (ignoring uninvolved [electrons](electron.md)) is: {{$$4\, 
 
 ### the p–p I branch
 
-{{$${}_2^3\mathrm{He} + {}_2^3\mathrm{He} \to {}_2^4\mathrm{He} + 2\, {}_1^1\mathrm{H} + 12.859\text{ MeV}$$}}, which has a [_Q_ value](Q%20value%20(nuclear%20science).md) {{(released [energy](energy.md)) of 12.859&nbsp;[MeV](electronvolt.md)}}. The complete chain releases {{a net energy of 26.732 MeV}} but {{2.2 percent of this energy (0.59&nbsp;MeV) is lost to the [neutrinos](neutrino.md) that are produced}}. The p–p I branch is dominant {{at [temperatures](temperature.md) of 10 to 18&nbsp;MK. Below 10&nbsp;MK}}, the p–p chain proceeds at slow rate, resulting in {{a low production of <sup>4</sup>He}}. <!--SR:!2024-08-03,7,250!2024-07-28,1,210!2024-07-31,4,230!2024-08-09,13,270!2024-08-07,11,270!2024-08-05,9,270-->
+{{$${}_2^3\mathrm{He} + {}_2^3\mathrm{He} \to {}_2^4\mathrm{He} + 2\, {}_1^1\mathrm{H} + 12.859\text{ MeV}$$}}, which has a [_Q_ value](Q%20value%20(nuclear%20science).md) {{(released [energy](energy.md)) of 12.859&nbsp;[MeV](electronvolt.md)}}. The complete chain releases {{a net energy of 26.732 MeV}} but {{2.2 percent of this energy (0.59&nbsp;MeV) is lost to the [neutrinos](neutrino.md) that are produced}}. The p–p I branch is dominant {{at [temperatures](temperature.md) of 10 to 18&nbsp;MK. Below 10&nbsp;MK}}, the p–p chain proceeds at slow rate, resulting in {{a low production of <sup>4</sup>He}}. <!--SR:!2024-08-03,7,250!2024-07-29,1,190!2024-07-31,4,230!2024-08-09,13,270!2024-08-07,11,270!2024-08-05,9,270-->
 
 ## references
 

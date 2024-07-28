@@ -25,7 +25,7 @@ Things to memorize. Yes... 🫠
 
 See [Akashi Kaikyo Bridge](../../../../general/Akashi%20Kaikyo%20Bridge.md).
 
-- bridge type ::: [suspension bridge](../../../../general/suspension%20bridge.md)<!-- flashcard 30fd6583-3351-4146-9125-522db98579b7 --> <!--SR:!2024-07-28,21,274!2024-08-29,97,380-->
+- bridge type ::: [suspension bridge](../../../../general/suspension%20bridge.md)<!-- flashcard 30fd6583-3351-4146-9125-522db98579b7 --> <!--SR:!2024-09-27,61,274!2024-08-29,97,380-->
 - description ::: suspension bridge in Kobe, Japan <!--SR:!2025-03-15,237,347!2025-05-16,292,375-->
 - image ::: ![Akashi Kaikyo Bridge image](../../../../archives/Wikimedia%20Commons/Akashi%20Bridge.JPG) <!--SR:!2024-08-06,74,360!2024-08-16,84,380-->
 - length ::: 3911 m, longest span: 1991 m <!--SR:!2024-08-10,68,281!2024-08-05,86,372-->
@@ -133,7 +133,7 @@ See [Golden Gate Bridge](../../../../general/Golden%20Gate%20Bridge.md).
 See [Great Pyramid of Giza](../../../../general/Great%20Pyramid%20of%20Giza.md).
 
 - base width ::: 230.33 m <!--SR:!2024-10-17,114,376!2024-11-03,137,396-->
-- construction period ::: 10~20 years around 2560 BC <!--SR:!2024-07-28,14,256!2024-10-14,120,396-->
+- construction period ::: 10~20 years around 2560 BC <!--SR:!2024-08-02,5,236!2024-10-14,120,396-->
 - description ::: largest pyramid in the Giza Necropolis, Egypt <!--SR:!2024-10-05,112,396!2024-10-31,134,396-->
 - height ::: current: 138.5 m, original: 146.6 m <!--SR:!2024-12-03,141,356!2024-11-02,136,396-->
 - weight ::: 5.9 million tonnes <!--SR:!2024-09-14,89,376!2024-11-10,142,396-->
@@ -311,7 +311,7 @@ See [Turin–Lyon high-speed railway](../../../../general/Turin–Lyon%20high-sp
 
 See [Two Prudential Plaza](../../../../general/Two%20Prudential%20Plaza.md).
 
-- description ::: 64-story skyscraper located in the Loop area of Chicago, Illinois <!--SR:!2024-09-03,91,320!2024-07-28,80,365-->
+- description ::: 64-story skyscraper located in the Loop area of Chicago, Illinois <!--SR:!2024-09-03,91,320!2025-08-31,399,385-->
 - height ::: architectural: 303 m, top floor: 250 m <!--SR:!2024-08-01,11,221!2024-08-19,98,364-->
 - image ::: ![Two Prudential Plaza image](../../../../archives/Wikimedia%20Commons/Two%20Prudential%20Plaza%20Chicago%20in%20May%202016.jpg) <!--SR:!2024-08-14,82,360!2024-08-06,74,360-->
 - [structural system](../../../../general/structural%20system.md) ::: reinforced concrete<!-- flashcard ecbdac25-22dc-429d-9976-d49408b1478d --> <!--SR:!2024-07-30,67,360!2024-08-27,94,380-->

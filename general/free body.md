@@ -9,7 +9,7 @@ tags:
 
 # free body
 
-__Free body__ is {{usually associated with a [free body diagram](free%20body%20diagram.md)}}. In such context, a body is "free" {{when it is singled out from other bodies for static or dynamic analysis}}. <!--SR:!2024-07-28,55,310!2025-01-20,183,310-->
+__Free body__ is {{usually associated with a [free body diagram](free%20body%20diagram.md)}}. In such context, a body is "free" {{when it is singled out from other bodies for static or dynamic analysis}}. <!--SR:!2025-03-22,237,330!2025-01-20,183,310-->
 
 ## external and internal forces
 

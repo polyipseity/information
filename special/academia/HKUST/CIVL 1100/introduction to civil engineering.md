@@ -41,7 +41,7 @@ The content is in teaching order.
     - poor quality control and workmanship consequences ::: cracks, stinky smell, water leakage <!--SR:!2025-01-12,193,352!2025-06-29,343,367-->
     - structural failure consequences ::: building toppling over, killing workers, prosecution <!--SR:!2024-12-31,189,270!2025-07-26,364,374-->
     - [structural failure example](#structural%20failure%20example)
-  - civil engineering design challenges ::: complex shapes, long-span structures, underground structures <!--SR:!2024-10-25,138,340!2024-07-28,76,357-->
+  - civil engineering design challenges ::: complex shapes, long-span structures, underground structures <!--SR:!2024-10-25,138,340!2025-08-06,374,377-->
     - [complex shape examples](#complex%20shape%20examples)
     - [long-span structure examples](#long%20span%20structure%20examples)
     - underground structure examples ::: Turin–Lyon high-speed railway (2002–2032), 271 km long, has the Mont Cenis base tunnel that is 57.5 km long with up to 4 km long access tunnels <!--SR:!2024-09-16,99,321!2024-10-26,147,352-->
@@ -60,7 +60,7 @@ The content is in teaching order.
       - [reinforced concrete structure examples](#reinforced%20concrete%20structure%20examples)
       - [steel or concrete–steel composite structure examples](#steel%20or%20concrete–steel%20composite%20structure%20examples)
       - timber structure examples ::: Hirschberg 13, 35037 Marburg, Germany <!--SR:!2024-08-23,27,245!2025-03-16,243,344-->
-  - structural codes of practice or design codes ::: different countries have different standards <!--SR:!2025-05-25,340,350!2024-07-28,76,357-->
+  - structural codes of practice or design codes ::: different countries have different standards <!--SR:!2025-05-25,340,350!2025-08-05,373,377-->
     - [structural code of practice examples](#structural%20code%20of%20practice%20examples)
 - geo-technical engineering ::: behavior of rock, soil, and underground water <!--SR:!2024-08-28,109,305!2025-03-01,249,367-->
   - geo-technical engineering structures ::: design and construction of earthworks and foundations <!--SR:!2024-12-22,159,320!2025-01-26,217,350-->
@@ -192,7 +192,7 @@ water and sewage treatment system
 <!--pytextgen generate section="39fa"--><!-- The following content is generated at 2024-05-01T23:30:34.986638+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←bridge <!--SR:!2024-07-30,80,377!2024-08-11,92,374-->
-- bridge→:::←building <!--SR:!2025-05-05,282,372!2024-07-28,75,360-->
+- bridge→:::←building <!--SR:!2025-05-05,282,372!2025-04-22,268,360-->
 - building→:::←dam <!--SR:!2024-12-12,167,340!2024-09-06,105,380-->
 - dam→:::←pipeline <!--SR:!2024-08-06,32,204!2024-10-09,117,321-->
 - pipeline→:::←power plant <!--SR:!2024-08-14,59,260!2024-10-22,107,281-->

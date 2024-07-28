@@ -63,7 +63,7 @@ The following interior structures are possible.
 
 <!--pytextgen generate section="ab92"--><!-- The following content is generated at 2024-05-14T21:11:05.318372+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←[braced frame](braced%20frame.md) <!--SR:!2024-08-03,21,270!2024-07-28,55,315-->
+- _(begin)_→:::←[braced frame](braced%20frame.md) <!--SR:!2024-08-03,21,270!2025-01-16,172,315-->
 - [braced frame](braced%20frame.md)→:::←[hinged frame](hinged%20frame.md) <!--SR:!2024-08-16,20,235!2024-07-30,39,235-->
 - [hinged frame](hinged%20frame.md)→:::←[outrigger](#outrigger) <!--SR:!2024-07-30,3,155!2024-08-06,23,215-->
 - [outrigger](#outrigger)→:::←[rigid frame](rigid%20frame.md) <!--SR:!2024-09-29,87,275!2024-08-01,13,235-->
@@ -120,7 +120,7 @@ return await memorize_seq(
 - [diagrid](diagrid.md)→:::←[exoskeleton](exoskeleton.md) <!--SR:!2024-09-11,77,275!2024-08-01,58,315-->
 - [exoskeleton](exoskeleton.md)→:::←[space truss](space%20frame.md) <!--SR:!2024-08-13,56,255!2024-08-25,29,235-->
 - [space truss](space%20frame.md)→:::←[superframe](superframe.md) <!--SR:!2024-12-17,143,295!2024-10-03,79,275-->
-- [superframe](superframe.md)→:::←[tube](tube%20(structure).md) <!--SR:!2024-07-28,20,275!2024-08-11,26,215-->
+- [superframe](superframe.md)→:::←[tube](tube%20(structure).md) <!--SR:!2024-09-19,53,275!2024-08-11,26,215-->
 - [tube](tube%20(structure).md)→:::←_(end)_ <!--SR:!2024-08-15,70,315!2024-08-14,69,315-->
 
 <!--/pytextgen-->

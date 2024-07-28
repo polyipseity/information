@@ -235,7 +235,7 @@ The parenthesized text at the beginning of of each question is {{the location th
 > 5. 11 km/s
 >
 > - solution: {{3}}
-> - explanation: {{Equate circular acceleration to gravitational acceleration: $$a = g \implies \frac {v^2} r = g \implies v^2 = gr \implies v = \sqrt{gr}$$. Plug in the numbers: $$v = \sqrt{\frac {9.8} {1000} \cdot 6400} = \sqrt{62.72} \approx 7.91959595\text{ km/s}$$. Therefore, the answer is 7.9 km/s.}} <!--SR:!2024-07-28,7,281!2024-07-30,9,281-->
+> - explanation: {{Equate circular acceleration to gravitational acceleration: $$a = g \implies \frac {v^2} r = g \implies v^2 = gr \implies v = \sqrt{gr}$$. Plug in the numbers: $$v = \sqrt{\frac {9.8} {1000} \cdot 6400} = \sqrt{62.72} \approx 7.91959595\text{ km/s}$$. Therefore, the answer is 7.9 km/s.}} <!--SR:!2024-08-14,17,281!2024-07-30,9,281-->
 
 <!-- markdownlint MD028 -->
 

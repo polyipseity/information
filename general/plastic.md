@@ -100,7 +100,7 @@ return _chain.from_iterable(await _gather(
 - ![poly(methyl methacrylate)](../archives/Wikimedia%20Commons/PMMA%20repeating%20unit.svg)::[polymethyl methacrylate](poly(methyl%20methacrylate).md) (PMMA), Perspex <!--SR:!2025-03-23,478,294-->
 - ![polypropylene](../archives/Wikimedia%20Commons/Polypropylen.svg)::[polypropylene](polypropylene.md) (PP) <!--SR:!2026-01-05,746,321-->
 - ![polystyrene](../archives/Wikimedia%20Commons/Polystyrene.svg)::[polystyrene](polystyrene.md) (PS) <!--SR:!2026-02-23,747,321-->
-- ![polyvinyl chloride](../archives/Wikimedia%20Commons/Polyvinylchlorid.svg)::[polyvinyl chloride](polyvinyl%20chloride.md) (PVC) <!--SR:!2024-07-28,373,349-->
+- ![polyvinyl chloride](../archives/Wikimedia%20Commons/Polyvinylchlorid.svg)::[polyvinyl chloride](polyvinyl%20chloride.md) (PVC) <!--SR:!2028-02-19,1301,349-->
 
 <!--/pytextgen-->
 

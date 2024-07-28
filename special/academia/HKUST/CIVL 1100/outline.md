@@ -37,7 +37,7 @@ The content is in teaching order.
 - [free body](../../../../general/free%20body.md)
   - [§ external and internal forces](../../../../general/free%20body.md#external%20and%20internal%20forces)
   - [§ example](../../../../general/free%20body.md#example)
-  - free body in structural engineering ::: The free body is likely a structure. It can deform but should stay in static equilibrium, such as the [Leaning Tower of Pisa](../../../../general/Leaning%20Tower%20of%20Pisa.md). <!--SR:!2024-07-28,50,310!2025-01-10,178,330-->
+  - free body in structural engineering ::: The free body is likely a structure. It can deform but should stay in static equilibrium, such as the [Leaning Tower of Pisa](../../../../general/Leaning%20Tower%20of%20Pisa.md). <!--SR:!2025-02-27,214,330!2025-01-10,178,330-->
 - [solid mechanics § types of forces](../../../../general/solid%20mechanics.md#types%20of%20forces)
 - [compression § effects](../../../../general/compression%20(physics).md#effects)
   - compression types ::: We are concerned with uniaxial compression only. <!--SR:!2024-08-18,70,330!2024-08-15,68,330-->
@@ -53,7 +53,7 @@ The content is in teaching order.
   - strength of an object ::: Under compression or tension, objects deform. But it can differ in severity. "Strong", "hard", or "rigid" materials deform less while "weak", "soft", or "flexible" materials deform more. <!--SR:!2024-08-02,53,301!2024-08-18,70,321-->
     - "strong" object examples ::: table leg <!--SR:!2024-08-23,74,330!2024-08-07,62,330-->
     - "weak" object examples ::: mattress <!--SR:!2024-08-15,68,330!2024-08-22,73,321-->
-  - relative deformation ::: Amount of deformation also depends on the original length of the object. <!--SR:!2024-10-10,95,330!2024-07-28,51,310-->
+  - relative deformation ::: Amount of deformation also depends on the original length of the object. <!--SR:!2024-10-10,95,330!2025-03-03,218,330-->
     - relative deformation examples ::: Compare deforming a thin mattress and a thick mattress. <!--SR:!2025-01-24,187,330!2024-08-21,73,330-->
   - [stress](../../../../general/stress%20(mechanics).md)
     - [§ uniaxial normal](../../../../general/stress%20(mechanics).md#uniaxial%20normal)
