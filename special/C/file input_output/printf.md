@@ -27,7 +27,7 @@ tags:
 
 ```C
 // (1)
-int printf(char const *format, ...); // (until C99)
+int printf(char const *format, ...); // (until C99)
 int printf(char const *restrict format, ...); // (since C99)
 // (2)
 int fprintf(FILE *stream, char const *format, ...); // (until C99)
