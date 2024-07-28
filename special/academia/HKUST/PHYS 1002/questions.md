@@ -298,7 +298,7 @@ The parenthesized text at the beginning of of each question is {{the location th
 > 2. yellow
 > 3. white
 > 4. blue
-> 5. purple
+> 5. purple (not violet)
 >
 > - solution: {{5}}
 > - explanation: {{Purple is the combination of red and blue. However, red and blue are on the two opposite ends of the visible spectrum, so the spectral radiance graph would need to have 2 peaks. This is impossible for thermal radiation to produce, as predicted by the Wien approximation. For more, see [Planckian locus](../../../../general/Planckian%20locus.md).}}
@@ -342,7 +342,7 @@ The parenthesized text at the beginning of of each question is {{the location th
 > 5. 4.92 W/m^2
 >
 > - solution: {{2}}
-> - explanation: {{Since both magnitudes are apparent, they are already directly describing the power of light per unit area reaching Earth, so we do not need to consider distance. Calculate the factor of the Moon's intensity over the Sun using the definition: $$f = 100^{-(-12.74 - (-26.832)) / 5} = 100^{-14.092 / 5} = 100^{-2.8184} \approx 2.30780973 \times 10^{-6}$$. Then multiply the solar constant by the factor to get the answer: $$I = 1370 \cdot 2.30780973 \times 10^{-6} \approx 0.0031616993~\mathrm{W/m^2}$$. So the answer is 0.0316 W/m<sup>2</sup>,}}
+> - explanation: {{Since both magnitudes are apparent, they are already directly describing the power of light per unit area reaching Earth, so we do not need to consider distance. Calculate the factor of the Moon's intensity over the Sun using the definition: $$f = 100^{-(-12.74 - (-26.832)) / 5} = 100^{-14.092 / 5} = 100^{-2.8184} \approx 2.30780973 \times 10^{-6}$$. Then multiply the solar constant by the factor to get the answer: $$I = 1370 \cdot 2.30780973 \times 10^{-6} \approx 0.0031616993~\mathrm{W/m^2}$$. So the answer is 0.00316 W/m<sup>2</sup>,}}
 
 <!-- markdownlint MD028 -->
 
@@ -380,12 +380,12 @@ The parenthesized text at the beginning of of each question is {{the location th
 > Q4. (derived) How far should the Sun (apparent magnitude: -26.832) be in order to make it appear as bright as Polaris (apparent magnitude: 1.98), both observed from Earth?
 >
 > 1. 29 AU
-> 2. 22&nbsp;200&nbsp;000 AU
-> 3. 4&nbsp;700 AU
-> 4. 735 AU
+> 2. 3.3×10<sup>11</sup> AU
+> 3. 5.8×10<sup>5</sup> AU
+> 4. 24 AU
 >
 > - solution: {{3}}
-> - explanation: {{Find the factor the Sun needs to be dimmer to have an apparent magnitude of 1.98: $$f_B = 100^{-\frac {1.98 - (-26.832)} 5} = 100^{-7.3464} \approx 4.50401678 \times 10^{-8}$$. As the apparent brightness is inversely proportional to the square of distance, the factor the Sun needs to be farther away is $$f_d = 1 / \sqrt{4.50401678 \times 10^{-8} } \approx 4711.9427$$. As the Sun is 1 AU away, the answer is about 4700 AU.}}
+> - explanation: {{Find the factor the Sun needs to be dimmer to have an apparent magnitude of 1.98: $$f_B = 100^{-\frac {1.98 - (-26.832)} 5} = 100^{-5.7624} \approx 2.98675776 \times 10^{-12}$$. As the apparent brightness is inversely proportional to the square of distance, the factor the Sun needs to be farther away is $$f_d = 1 / \sqrt{2.98675776 \times 10^{-12} } \approx 578628.74$$. As the Sun is 1 AU away, the answer is about 5.8×10<sup>5</sup> AU.}}
 
 <!-- markdownlint MD028 -->
 
