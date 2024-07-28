@@ -184,4 +184,4 @@ Now, for each variable, denoted $A$ here, calculate {{the sum of all chi-squared
 
 This text incorporates [content](https://en.wikipedia.org/wiki/hierarchical_clustering) from [Wikipedia](Wikipedia.md) available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.
 
-1. Kaufman, L.; Rousseeuw, P.J. (2009) [1990]. ["6. Divisive Analysis (Program DIANA)"](https://books.google.com/books?id=YeFQHiikNo0C&pg=PA253). _Finding Groups in Data: An Introduction to Cluster Analysis_. Wiley. pp. 253–279. [ISBN](ISBN%20(identifier).md) 978-0-470-31748-8. <a id="^ref-Kaufman-2009"></a> ^ref-Kaufman-2009
+1. Kaufman, L.; Rousseeuw, P.J. (2009) [1990]. ["6. Divisive Analysis (Program DIANA)"](https://books.google.com/books?id=YeFQHiikNo0C&pg=PA253). _Finding Groups in Data: An Introduction to Cluster Analysis_. Wiley. pp. 253–279. [ISBN](ISBN%20(identifier).md) 978-0-470-31748-8. <a id="^ref-Kaufman-2009"></a> ^ref-Kaufman-2009
