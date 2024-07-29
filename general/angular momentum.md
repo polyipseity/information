@@ -23,7 +23,7 @@ tags:
 
 # angular momentum
 
-In [physics](physics.md), __angular momentum__ (sometimes called {{__moment of momentum__ or __rotational momentum__}}) is {{the [rotational](rotation.md) analog of [linear momentum](momentum.md)}}. Likewise, it is also {{a [conserved quantity](conservation%20law.md)–the total angular momentum of a [closed system](closed%20system.md) remains constant}}. <!--SR:!2024-07-29,11,270!2024-07-29,10,270!2024-07-29,11,270-->
+In [physics](physics.md), __angular momentum__ (sometimes called {{__moment of momentum__ or __rotational momentum__}}) is {{the [rotational](rotation.md) analog of [linear momentum](momentum.md)}}. Likewise, it is also {{a [conserved quantity](conservation%20law.md)–the total angular momentum of a [closed system](closed%20system.md) remains constant}}. <!--SR:!2024-08-31,33,270!2024-08-25,27,270!2024-09-09,42,290-->
 
 ## conservation of angular momentum
 

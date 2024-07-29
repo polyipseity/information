@@ -35,7 +35,7 @@ The rotation of [Earth](Earth.md) {{does not affect the equilibrium tide}}. Ther
 
 - see: [tidal acceleration](tidal%20acceleration.md)
 
-Earth's tidal oscillations introduce dissipation at {{an [average](average.md) rate of about 3.75 [terawatts](watt.md#terawatt)}}. <!--SR:!2024-07-29,2,230-->
+Earth's tidal oscillations introduce dissipation at {{an [average](average.md) rate of about 3.75 [terawatts](watt.md#terawatt)}}. <!--SR:!2024-08-03,5,230-->
 
 ## references
 

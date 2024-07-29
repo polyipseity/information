@@ -11,7 +11,7 @@ tags:
 
 ## 1632 thought experiment
 
-To prove the point [Galileo](Galileo%20Galilei.md)'s {{fictional advocate Salviati}} proposed the experiment described below to {{show the classical [principle of relativity](principle%20of%20relativity.md)}} according to which there is {{no internal observation (i.e. without, as it were, looking out the window) by which one can distinguish between a system moving uniformly from one at rest}}. Hence, {{any two systems moving without [acceleration](acceleration.md)}} are equivalent, and {{unaccelerated motion}} is relative. <!--SR:!2024-08-02,14,290!2024-08-01,13,290!2024-07-29,10,270!2024-08-04,16,290!2024-08-03,15,290-->
+To prove the point [Galileo](Galileo%20Galilei.md)'s {{fictional advocate Salviati}} proposed the experiment described below to {{show the classical [principle of relativity](principle%20of%20relativity.md)}} according to which there is {{no internal observation (i.e. without, as it were, looking out the window) by which one can distinguish between a system moving uniformly from one at rest}}. Hence, {{any two systems moving without [acceleration](acceleration.md)}} are equivalent, and {{unaccelerated motion}} is relative. <!--SR:!2024-08-02,14,290!2024-08-01,13,290!2024-08-22,24,270!2024-08-04,16,290!2024-08-03,15,290-->
 
 ## references
 

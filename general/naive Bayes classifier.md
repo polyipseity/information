@@ -21,7 +21,7 @@ Abstractly, naive Bayes classifier is {{a [conditional probability](conditional%
 
 Using {{[Bayes' theorem](Bayes'%20theorem.md)}}, the {{required conditional probability}} can be written as: {{$$p(C_k \mid \mathbf{x}) = \frac {p(C_k) p(\mathbf{x} \mid C_k)} {p(\mathbf{x})}$$}}. <!--SR:!2024-09-09,66,310!2024-08-13,41,290!2024-08-07,41,290-->
 
-In plain English, {{using [Bayesian probability](Bayesian%20probability.md) terminology}}, the above equation is: {{$$\text{posterior} = \frac {\text{prior} \times \text{likelihood} } {\text{evidence} }$$}}. <!--SR:!2024-09-09,67,310!2024-07-29,33,270-->
+In plain English, {{using [Bayesian probability](Bayesian%20probability.md) terminology}}, the above equation is: {{$$\text{posterior} = \frac {\text{prior} \times \text{likelihood} } {\text{evidence} }$$}}. <!--SR:!2024-09-09,67,310!2024-11-29,123,290-->
 
 In practice, there is only {{interest in the numerator but not the denominator}}, because {{the denominator depends not on $C_k$ but only $\mathbf{x}$, and $\mathbf{x}$ is often given so it is effectively constant}}. The numerator is {{equivalent to the [joint probability](joint%20probability%20distribution.md) model}}: {{$$p(C_k) p(\mathbf{x} \mid C_k) = p\left(C_k \cap \left(\bigcap_{i = 1}^n x_i \right) \right) = p(C_k, x_1, \ldots, x_n)$$}}. <!--SR:!2024-08-26,55,310!2024-09-08,52,250!2024-08-06,38,290!2024-08-07,36,290-->
 

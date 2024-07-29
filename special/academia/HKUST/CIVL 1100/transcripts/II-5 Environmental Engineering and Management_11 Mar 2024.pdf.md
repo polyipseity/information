@@ -60,7 +60,7 @@ return await memorize_seq(
 
 <!--pytextgen generate section="48ff"--><!-- The following content is generated at 2024-05-16T15:50:23.869379+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←air pollution <!--SR:!2024-07-29,53,310!2025-03-07,222,330-->
+- _(begin)_→:::←air pollution <!--SR:!2025-01-11,166,310!2025-03-07,222,330-->
 - air pollution→:::←land contamination <!--SR:!2024-09-23,82,270!2024-08-03,58,310-->
 - land contamination→:::←noise pollution <!--SR:!2024-09-19,53,270!2024-09-03,68,270-->
 - noise pollution→:::←solid waste disposal <!--SR:!2024-09-16,76,270!2024-11-18,126,290-->
@@ -115,7 +115,7 @@ Land Contamination: A serious problem in Hong Kong?
 
 Former Kai Tak Airport
 
-- contaminants detected in the former Kai Tak Airport ::: heavy metals, total petroleum hydrocarbons (TPH), volatile organic compounds (VOCs) <!--SR:!2024-11-18,120,290!2024-07-29,53,310-->
+- contaminants detected in the former Kai Tak Airport ::: heavy metals, total petroleum hydrocarbons (TPH), volatile organic compounds (VOCs) <!--SR:!2024-11-18,120,290!2025-03-14,228,330-->
 
 ## page 6
 
@@ -218,7 +218,7 @@ MSW Waste Charging Scheme
 - MSW waste charging scheme passing date ::: 2021-09-26 by Legco <!--SR:!2024-08-02,45,250!2024-09-14,77,270-->
   - MSW waste charging scheme preparation period ::: 18 months <!--SR:!2024-08-10,64,310!2024-11-24,140,310-->
   - MSW waste charging scheme details ::: buy designated bags (0.11 HKD/L) at ~4000 selling points <!--SR:!2024-09-03,67,270!2024-08-02,57,310-->
-  - MSW waste charging scheme penalty ::: max HK$25000 fine and 6 months in prison <!--SR:!2024-07-29,54,310!2025-01-26,187,310-->
+  - MSW waste charging scheme penalty ::: max HK$25000 fine and 6 months in prison <!--SR:!2024-08-27,29,290!2025-01-26,187,310-->
 
 Will this waste charging scheme waste generation?
 
@@ -268,7 +268,7 @@ HATS Stage 2A — Overall Layout
 Sewage Conveyance System
 
 - HATS Stage 2A
-  - HATS Stage 2A tunnel ::: a drop shaft, a tunnel, and a riser shaft, from PTWs to SCISTW across the Victoria Harbour <!--SR:!2024-07-29,53,310!2024-08-09,63,310-->
+  - HATS Stage 2A tunnel ::: a drop shaft, a tunnel, and a riser shaft, from PTWs to SCISTW across the Victoria Harbour <!--SR:!2024-08-28,30,290!2024-08-09,63,310-->
     - HATS Stage 2A tunnel sizes ::: 21 km tunnel, about 70 to 160 m (inside bedrock) below sea level <!--SR:!2024-08-20,55,250!2024-08-16,68,310-->
 
 ## page 21
@@ -317,7 +317,7 @@ Properties of Sound Waves
 Air Pollution: A serious problem in Hong Kong?
 
 - regional air pollution concerns ::: outdoor and indoor air pollution <!--SR:!2024-09-29,94,290!2024-08-14,66,310-->
-- global air pollution concerns ::: acid rain and climate change <!--SR:!2024-08-13,65,310!2024-07-29,53,310-->
+- global air pollution concerns ::: acid rain and climate change <!--SR:!2024-08-13,65,310!2025-01-13,168,310-->
 - 3 major reasons causing air pollution in Hong Kong: <https://youtube.com/watch?v=XVvsQyyZHVg&feature=related>
   - industrial activities in China's Pearl River Delta
   - land use change affects air circulation
@@ -394,7 +394,7 @@ return await memorize_seq(
 - hydroflurocarbons (HFCs)→:::←methane (CH<sub>4</sub>) <!--SR:!2024-10-22,99,270!2024-09-25,73,230-->
 - methane (CH<sub>4</sub>)→:::←nitrous oxide (N<sub>2</sub>O) <!--SR:!2024-10-27,91,250!2024-12-09,134,290-->
 - nitrous oxide (N<sub>2</sub>O)→:::←perflurocarbons (PFCs) <!--SR:!2024-09-20,54,230!2024-08-02,5,150-->
-- perflurocarbons (PFCs)→:::←sulfur hexafluoride (SF<sub>6</sub>) <!--SR:!2024-07-29,50,290!2024-09-06,69,270-->
+- perflurocarbons (PFCs)→:::←sulfur hexafluoride (SF<sub>6</sub>) <!--SR:!2024-08-23,25,270!2024-09-06,69,270-->
 - sulfur hexafluoride (SF<sub>6</sub>)→:::←_(end)_ <!--SR:!2024-08-09,62,310!2024-08-20,72,310-->
 
 <!--/pytextgen-->
@@ -436,7 +436,7 @@ Relationship between PPM and mg/L
 
 - relationship between ppm<sub>w</sub> and mg/L for other solutions
   - relationship between ppm<sub>w</sub> and mg/L examples
-  - relationship between ppm<sub>w</sub> and mg/L for other solutions ::: 1 mg/L = (1 / SG) ppm<sub>w</sub> <!--SR:!2024-11-04,113,290!2024-07-29,53,310-->
+  - relationship between ppm<sub>w</sub> and mg/L for other solutions ::: 1 mg/L = (1 / SG) ppm<sub>w</sub> <!--SR:!2024-11-04,113,290!2025-01-08,163,310-->
 - specific gravity (SG) of a mixture ::: density of mixture divided by density of water <!--SR:!2024-07-31,56,310!2024-08-13,65,310-->
 
 ## page 36
