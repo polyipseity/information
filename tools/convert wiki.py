@@ -1,45 +1,49 @@
 from itertools import chain
-from typing import Callable, Mapping
 from asyncio import run
+from bs4 import BeautifulSoup, NavigableString, PageElement, Tag
+from bs4.element import PreformattedString
+from jaraco.clipboard import paste_html
 from pyperclip import copy
-from re import Pattern, compile, escape
 
 
 async def main() -> None:
-    print("Wikitext?")
+    input("HTML? (will read from clipboard)")
+    html_text = paste_html()
+    assert isinstance(html_text, str)
 
-    wikitext = list[str]()
-    while True:
-        try:
-            text = input()
-        except EOFError:
-            break
-        wikitext.append(text)
-    wikitext = "\n".join(wikitext)
+    html = BeautifulSoup(html_text, "html.parser")
 
-    def markdown_link(link: str, display: str):
-        link = f"{link[:1].lower()}{link[1:]}"
-        return f"[{display}]({link.replace(' ', '%20')}.md)"
-
-    replacements: Mapping[Pattern[str], Callable[[str], str]] = {
-        compile(escape("'''")): lambda _: "__",
-        compile(escape("''")): lambda _: "_",
-        compile(r"\[\[[^\|]*\|[^\]]*\]\]"): lambda ss: markdown_link(
-            *ss[2:-2].split("|", 2)
-        ),
-        compile(r"\[\[[^\|]*\]\]"): lambda ss: markdown_link(ss2 := ss[2:-2], ss2),
-    }
-
-    output = compile("|".join(key.pattern for key in replacements)).sub(
-        lambda match: next(
-            chain(
-                (val for key, val in replacements.items() if key.match(match[0])),
-                (lambda ss: ss,),
+    def html_to_plaintext(ele: PageElement) -> str:
+        if not isinstance(ele, Tag):
+            return (
+                ele
+                if isinstance(ele, NavigableString)
+                and not isinstance(ele, PreformattedString)
+                else ""
             )
-        )(match[0]),
-        wikitext,
-    )
 
+        def tag_affixes(name: str):
+            return f"<{name}>", f"</{name}>"
+
+        match ele.name:
+            case "b":
+                prefix, suffix = "__", "__"
+            case "i":
+                prefix, suffix = "_", "_"
+            case "s" | "sub" | "sup" | "u":
+                prefix, suffix = tag_affixes(ele.name)
+            case _:
+                prefix, suffix = "", ""
+
+        return "".join(
+            chain((prefix,), map(html_to_plaintext, ele.children), (suffix,))
+        )
+
+    output = html_to_plaintext(html).replace(
+        "\xa0", " "
+    )  # replace non-breaking spaces with spaces
+
+    print(output)
     copy(output)
     print(":)")
 
