@@ -33,6 +33,7 @@ async def main() -> None:
         template,
     )
 
+    print(output)
     copy(output)
     print(":)")
 
