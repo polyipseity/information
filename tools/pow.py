@@ -1,6 +1,3 @@
-# -*- coding: UTF-8 -*-
-
-
 def _pow(a: int, b: int, c: int, d: int = 0) -> int:
     return pow(a, b, c) + d
 

@@ -1,4 +1,3 @@
-# -*- coding: UTF-8 -*-
 from collections import Counter, defaultdict
 from dataclasses import InitVar, dataclass, field
 from typing import AbstractSet, Mapping, MutableMapping, MutableSequence, Self, TypeVar

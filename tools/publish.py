@@ -1,4 +1,3 @@
-# -*- coding: UTF-8 -*-
 from asyncio.subprocess import DEVNULL, PIPE
 from collections import defaultdict
 from os import cpu_count

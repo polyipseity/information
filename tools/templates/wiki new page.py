@@ -1,4 +1,3 @@
-# -*- coding: UTF-8 -*-
 from anyio import Path
 from asyncio import run
 from pyperclip import copy
