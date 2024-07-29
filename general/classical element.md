@@ -18,7 +18,7 @@ In his [_On Generation and Corruption_](On%20Generation%20and%20Corruption.md), 
 - [__fire__](../../../../general/fire%20(classical%20element).md) ::: both hot and dry <!--SR:!2024-08-02,14,290!2024-08-01,13,270-->
 - [__air__](../../../../general/air%20(classical%20element).md) ::: both hot and wet (for air is vapor, ἀτμὶς) <!--SR:!2024-08-29,33,270!2024-08-04,16,290-->
 - [__water__](../../../../general/water%20(classical%20element).md) ::: both cold and wet <!--SR:!2024-08-05,17,290!2024-07-30,11,270-->
-- [__earth__](../../../../general/earth%20(classical%20element).md) ::: both cold and dry <!--SR:!2024-07-29,10,270!2024-08-23,27,270-->
+- [__earth__](../../../../general/earth%20(classical%20element).md) ::: both cold and dry <!--SR:!2024-08-24,26,270!2024-08-23,27,270-->
 
 #### aether
 

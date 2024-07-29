@@ -69,9 +69,9 @@ why: Why are people using competitors' products?
 
 <!--pytextgen generate section="48ff"--><!-- The following content is generated at 2024-05-03T13:31:34.682726+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←compare: Identify similarities and differences between our and their products. <!--SR:!2024-09-04,43,241!2024-07-29,60,314-->
+- _(begin)_→:::←compare: Identify similarities and differences between our and their products. <!--SR:!2024-09-04,43,241!2025-04-15,260,334-->
 - compare: Identify similarities and differences between our and their products.→:::←copy: Identify advantages and capabilities our products lack compared to others. <!--SR:!2024-08-25,70,274!2024-08-29,72,281-->
-- copy: Identify advantages and capabilities our products lack compared to others.→:::←discover: Identify unmet needs. <!--SR:!2024-07-29,18,241!2024-09-10,70,241-->
+- copy: Identify advantages and capabilities our products lack compared to others.→:::←discover: Identify unmet needs. <!--SR:!2024-08-08,10,221!2024-09-10,70,241-->
 - discover: Identify unmet needs.→:::←how: What is our strategy? <!--SR:!2024-08-19,27,201!2024-07-31,28,261-->
 - how: What is our strategy?→:::←pricing: Compare prices. <!--SR:!2024-07-30,11,201!2024-08-12,22,241-->
 - pricing: Compare prices.→:::←who: Who are the competitors? 3 to 5 is usually enough. <!--SR:!2024-08-08,20,241!2024-08-18,61,261-->

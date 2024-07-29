@@ -74,7 +74,7 @@ The content is in teaching order.
     - [hydraulic engineering system examples](#hydraulic%20engineering%20system%20examples)
 - environmental engineering ::: application of engineering and science to improve the natural environment and minimize environmental impact <!--SR:!2024-09-05,90,321!2025-03-22,268,376-->
   - [environmental engineering areas](#environmental%20engineering%20areas)
-    - air engineering ::: air pollution control, air quality monitoring, ozone layer protection <!--SR:!2024-08-27,95,335!2024-07-29,81,370-->
+    - air engineering ::: air pollution control, air quality monitoring, ozone layer protection <!--SR:!2024-08-27,95,335!2025-09-12,410,390-->
     - waste engineering ::: methods of disposal (e.g. landfills and incineration), site investigation and remediation, solid waste management <!--SR:!2024-11-06,131,295!2024-08-05,86,372-->
     - [water engineering](#water%20engineering)
     - noise engineering ::: noise mitigation measures (e.g. noise barriers), noise monitoring (e.g. construction noise, traffic noise) <!--SR:!2024-09-22,119,327!2025-06-14,328,370-->
@@ -96,7 +96,7 @@ The content is in teaching order.
   - [construction engineer skills](#construction%20engineer%20skills)
   - [construction engineer jobs](#construction%20engineer%20jobs)
 - civil engineer prospects ::: A civil engineering degree prepares one for work in the construction industry and the broader business, financial, and management sectors. <!--SR:!2024-10-09,164,325!2025-03-14,281,350-->
-  - civil engineer demand ::: Civil engineer are always in demand due to new infrastructure and maintenance and monitoring of existing ones. <!--SR:!2024-07-31,78,360!2024-07-29,79,377-->
+  - civil engineer demand ::: Civil engineer are always in demand due to new infrastructure and maintenance and monitoring of existing ones. <!--SR:!2024-07-31,78,360!2025-09-09,407,397-->
   - [civil engineer prospect examples](#civil%20engineer%20prospect%20examples)
   - civil engineer organization examples ::: contractors or construction companies, engineering consulting firms, government (working as civil servants) <!--SR:!2025-03-25,247,285!2025-03-18,266,330-->
     - civil government departments in [Hong Kong](../../../../general/Hong%20Kong.md) ::: Architectural Services Department (ArchSD), Buildings Department (BD), Housing Department (HD) <!--SR:!2024-09-25,120,332!2024-08-22,101,375-->
@@ -151,7 +151,7 @@ quantity surveyor
 - contracting civil engineer→:::←engineering geologist <!--SR:!2024-09-28,102,297!2024-08-01,69,315-->
 - engineering geologist→:::←environmental consultant <!--SR:!2024-10-25,125,305!2024-08-24,92,305-->
 - environmental consultant→:::←quantity surveyor <!--SR:!2024-08-02,26,320!2024-08-11,58,280-->
-- quantity surveyor→:::←_(end)_ <!--SR:!2025-01-10,187,340!2024-07-29,66,360-->
+- quantity surveyor→:::←_(end)_ <!--SR:!2025-01-10,187,340!2024-09-02,35,340-->
 
 <!--/pytextgen-->
 
@@ -198,7 +198,7 @@ water and sewage treatment system
 - pipeline→:::←power plant <!--SR:!2024-08-14,59,260!2024-10-22,107,281-->
 - power plant→:::←reservoir <!--SR:!2024-07-30,60,275!2024-09-05,91,320-->
 - reservoir→:::←sewage treatment <!--SR:!2024-09-21,62,197!2024-09-05,75,261-->
-- sewage treatment→:::←transport <!--SR:!2024-07-29,21,230!2024-12-13,152,301-->
+- sewage treatment→:::←transport <!--SR:!2024-08-11,13,210!2024-12-13,152,301-->
 - transport→:::←water and sewage treatment system <!--SR:!2024-11-05,137,340!2024-08-01,11,150-->
 - water and sewage treatment system→:::←_(end)_ <!--SR:!2024-08-25,93,381!2024-08-01,69,361-->
 
@@ -278,7 +278,7 @@ workmanship
 <!--pytextgen generate section="1e12"--><!-- The following content is generated at 2024-05-01T19:22:34.848790+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←budgeting <!--SR:!2025-01-11,187,341!2024-09-06,105,380-->
-- budgeting→:::←construction management <!--SR:!2024-07-29,66,320!2024-08-30,98,335-->
+- budgeting→:::←construction management <!--SR:!2024-09-02,35,300!2024-08-30,98,335-->
 - construction management→:::←economics <!--SR:!2024-10-17,98,235!2024-08-21,81,300-->
 - economics→:::←impacts to surrounding <!--SR:!2024-08-09,71,300!2024-08-01,11,240-->
 - impacts to surrounding→:::←lifecycle <!--SR:!2024-08-06,74,320!2024-08-22,82,320-->
@@ -460,7 +460,7 @@ testing materials
 - planning→:::←procuring materials <!--SR:!2025-01-24,186,317!2024-08-10,65,277-->
 - procuring materials→:::←quality assurance <!--SR:!2024-08-02,58,300!2024-08-22,77,281-->
 - quality assurance→:::←quality control <!--SR:!2024-10-31,150,357!2025-01-13,182,352-->
-- quality control→:::←safety engineering <!--SR:!2024-08-01,65,301!2024-07-29,6,235-->
+- quality control→:::←safety engineering <!--SR:!2024-08-01,65,301!2024-08-13,15,235-->
 - safety engineering→:::←scheduling <!--SR:!2024-08-25,82,320!2024-10-01,120,340-->
 - scheduling→:::←surveying building site <!--SR:!2024-08-18,60,241!2024-10-16,116,300-->
 - surveying building site→:::←testing materials <!--SR:!2024-08-04,33,260!2024-08-10,27,272-->
@@ -1098,7 +1098,7 @@ water tower
 - bridge→:::←building <!--SR:!2025-01-24,203,350!2024-08-28,96,380-->
 - building→:::←dam <!--SR:!2024-07-30,77,361!2025-01-17,198,361-->
 - dam→:::←power plant <!--SR:!2024-08-06,68,301!2024-10-17,82,238-->
-- power plant→:::←storage facility <!--SR:!2024-07-29,62,300!2024-09-12,111,334-->
+- power plant→:::←storage facility <!--SR:!2025-01-30,185,300!2024-09-12,111,334-->
 - storage facility→:::←tunnel <!--SR:!2024-08-03,13,280!2024-09-01,89,320-->
 - tunnel→:::←unusual structure <!--SR:!2024-09-19,83,247!2024-10-17,121,320-->
 - unusual structure→:::←water tower <!--SR:!2024-09-02,37,290!2024-08-03,12,290-->
@@ -1149,7 +1149,7 @@ and the Structural Engineering Institute (SEI).
 - The problems had been reported in 2018 and a US$15M program of remedial work has been approved, though no main structural work has taken place.→:::←On 25 August 2021, the National Institute of Standards and Technology (NIST) has been tasked with investigation, <!--SR:!2024-11-12,149,337!2024-09-28,123,335-->
 - On 25 August 2021, the National Institute of Standards and Technology (NIST) has been tasked with investigation,→:::←with investigators coming from the American Concrete Institute (ACI), <!--SR:!2024-10-26,144,327!2024-08-31,91,307-->
 - with investigators coming from the American Concrete Institute (ACI),→:::←the American Society of Civil Engineers (ASCE), <!--SR:!2024-11-25,156,334!2024-08-22,87,310-->
-- the American Society of Civil Engineers (ASCE),→:::←the Geode Institute (GI), <!--SR:!2024-07-29,66,290!2024-10-09,130,337-->
+- the American Society of Civil Engineers (ASCE),→:::←the Geode Institute (GI), <!--SR:!2025-02-04,190,290!2024-10-09,130,337-->
 - the Geode Institute (GI),→:::←and the Structural Engineering Institute (SEI). <!--SR:!2024-08-29,92,337!2024-12-11,201,330-->
 - and the Structural Engineering Institute (SEI).→:::←_(end)_ <!--SR:!2025-05-08,326,350!2024-12-06,196,330-->
 

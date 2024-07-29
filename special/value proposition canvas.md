@@ -214,7 +214,7 @@ find customer patterns
 - create a customer profile→:::←outline the interview <!--SR:!2024-12-26,170,289!2024-09-29,114,289-->
 - outline the interview→:::←interview <!--SR:!2025-07-15,353,349!2025-02-20,239,329-->
 - interview→:::←capture new customer profile <!--SR:!2025-04-16,268,309!2025-02-14,230,329-->
-- capture new customer profile→:::←review interview, and repeat from "outline the interview" several times, like 10 times <!--SR:!2024-07-29,77,270!2025-03-25,254,309-->
+- capture new customer profile→:::←review interview, and repeat from "outline the interview" several times, like 10 times <!--SR:!2025-02-21,207,270!2025-03-25,254,309-->
 - review interview, and repeat from "outline the interview" several times, like 10 times→:::←find customer patterns <!--SR:!2024-09-29,104,269!2025-04-09,262,309-->
 - find customer patterns→:::←_(end)_ <!--SR:!2025-06-26,339,349!2025-01-10,203,329-->
 
