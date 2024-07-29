@@ -21,7 +21,14 @@ USER_AGENT = f"{NAME}/{VERSION} ({AUTHORS[0]['email']}) Python/{version}"
 _MAX_CONCURRENT_REQUESTS_PER_HOST = 2
 _NAMES_DO_NOT_FIX = frozenset(
     {
+        "Balmer series",
+        "Bok globule",
+        "Hayashi track",
+        "Henyey track",
+        "Jeans instability",
+        "Jeans mass",
         "Latin",
+        "Pauli exclusion principle",
     }
 )
 
@@ -53,7 +60,7 @@ async def wiki_html_to_plaintext(
             ele
             if isinstance(ele, NavigableString)
             and not isinstance(ele, PreformattedString)
-            and not ele.startswith("<!--")
+            and not isinstance(ele.parent, BeautifulSoup)
             else ""
         )
 
