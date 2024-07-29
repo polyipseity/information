@@ -19,7 +19,9 @@ async def main() -> None:
         tag_name += "_"
     replacements: Mapping[Pattern[str], Callable[[str], str]] = {
         compile(escape("(Wikipedia name)")): lambda _, ret=name.replace(" ", "_"): ret,
-        compile(escape("(name)")): lambda _: name,
+        compile(escape("(name)")): lambda _, ret=compile(r"\([^\(]+\)$").sub(
+            "", name
+        ): ret,
         compile(escape("(tag name)")): lambda _: tag_name,
     }
 
