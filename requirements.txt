@@ -1,9 +1,11 @@
 --index-url https://pypi.org/simple/
 
 aioshutil>=1.2.0
-anyio>=3.6.2
-asyncstdlib>=3.10.6
-cihai>=0.18.2
+anyio>=3.6.0
+asyncstdlib>=3.10.0
+beautifulsoup4>=4.12.0
+cihai>=0.18.0
+jaraco.clipboard>=3.1.0
 pyperclip>=1.9.0
 pytextgen>=6.3.0
 typing_extensions>=4.4.0
