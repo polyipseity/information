@@ -149,7 +149,7 @@ A matrix that is not [diagonalizable](diagonalizable%20matrix.md) is said to be 
 
 - see: [min-max theorem](min-max%20theorem.md)
 
-For {{a [Hermitian matrix](Hermitian%20matrix.md) $H$}}, eigenvalues can be {{given a variational characterization}}. {{The largest eigenvalue of $H$}} is {{the maximum value of the [quadratic form](quadratic%20form.md) $\mathbf x^\intercal A \mathbf x / \mathbf x^\intercal \mathbf x$}}. A value of $\mathbf x$ that realizes that maximum is {{an eigenvector associated with the largest eigenvalue}}.
+For {{a [Hermitian matrix](Hermitian%20matrix.md) $H$}}, eigenvalues can be {{given a variational characterization}}. {{The largest eigenvalue of $H$}} is {{the maximum value of the [quadratic form](quadratic%20form.md) $\mathbf x^\intercal H \mathbf x / \mathbf x^\intercal \mathbf x$}}. A value of $\mathbf x$ that realizes that maximum is {{an eigenvector associated with the largest eigenvalue}}.
 
 ## eigenvalues and eigenfunctions of differential operators
 
