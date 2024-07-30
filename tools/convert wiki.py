@@ -22,29 +22,32 @@ VERSION = "∞"
 USER_AGENT = f"{NAME}/{VERSION} ({AUTHORS[0]['email']}) Python/{version}"
 _MAX_CONCURRENT_REQUESTS_PER_HOST = 2
 
-_names_do_not_fix = set(
-    filename[:-3]
+_names_map = {
+    filename[:-3]: filename[:-3]
     for filename in iglob("*.md", root_dir="../general/")
     if filename[:1].isupper()
-)
-_names_do_not_fix_manual = {
-    "Balmer series",
-    "Bok globule",
-    "Jeans instability",
-    "Jeans mass",
-    "Latin",
-    "Pauli exclusion principle",
 }
-if _names_do_not_fix_overlap := _names_do_not_fix & _names_do_not_fix_manual:
-    raise ValueError(_names_do_not_fix_overlap)
-_NAMES_DO_NOT_FIX = frozenset(_names_do_not_fix | _names_do_not_fix_manual)
+_names_map_manual = {
+    "Balmer series": "Balmer series",
+    "Bok globule": "Bok globule",
+    "Jeans instability": "Jeans instability",
+    "Jeans mass": "Jeans mass",
+    "Latin": "Latin",
+    "Pauli exclusion principle": "Pauli exclusion principle",
+}
+if _names_map_overlap := frozenset(_names_map).intersection(_names_map_manual):
+    raise ValueError(_names_map_overlap)
+_NAMES_MAP = _names_map | _names_map_manual
 
 
 def _fix_name_maybe(name: str) -> str:
-    return (
-        f"{name[:1].lower()}{name[1:]}"
-        if name not in _NAMES_DO_NOT_FIX and (len(name) <= 1 or name[1:].islower())
-        else name
+    return _NAMES_MAP.get(
+        name,
+        (
+            f"{name[:1].lower()}{name[1:]}"
+            if len(name) <= 1 or name[1:].islower()
+            else name
+        ),
     )
 
 
