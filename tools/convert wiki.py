@@ -1,3 +1,4 @@
+from glob import iglob
 from pathlib import PurePath
 from re import DOTALL, compile
 from aiohttp import ClientSession, TCPConnector
@@ -20,18 +21,23 @@ AUTHORS = (
 VERSION = "∞"
 USER_AGENT = f"{NAME}/{VERSION} ({AUTHORS[0]['email']}) Python/{version}"
 _MAX_CONCURRENT_REQUESTS_PER_HOST = 2
-_NAMES_DO_NOT_FIX = frozenset(
-    {
-        "Balmer series",
-        "Bok globule",
-        "Hayashi track",
-        "Henyey track",
-        "Jeans instability",
-        "Jeans mass",
-        "Latin",
-        "Pauli exclusion principle",
-    }
+
+_names_do_not_fix = set(
+    filename[:-3]
+    for filename in iglob("*.md", root_dir="../general/")
+    if filename[:1].isupper()
 )
+_names_do_not_fix_manual = {
+    "Balmer series",
+    "Bok globule",
+    "Jeans instability",
+    "Jeans mass",
+    "Latin",
+    "Pauli exclusion principle",
+}
+if _names_do_not_fix_overlap := _names_do_not_fix & _names_do_not_fix_manual:
+    raise ValueError(_names_do_not_fix_overlap)
+_NAMES_DO_NOT_FIX = frozenset(_names_do_not_fix | _names_do_not_fix_manual)
 
 
 def _fix_name_maybe(name: str) -> str:
