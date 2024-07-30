@@ -42,7 +42,7 @@ The content is in teaching order.
 - [compression § effects](../../../../general/compression%20(physics).md#effects)
   - compression types ::: We are concerned with uniaxial compression only. <!--SR:!2024-08-18,70,330!2024-08-15,68,330-->
   - compression examples in structures ::: arch bridge, elevated water tank, igloo (snow house) <!--SR:!2024-08-06,57,310!2024-08-07,62,330-->
-  - compression conventions ::: __negative__; arrows pointing inwards for forces applied on the object in compression <!--SR:!2024-08-19,71,330!2024-07-30,55,310-->
+  - compression conventions ::: __negative__; arrows pointing inwards for forces applied on the object in compression <!--SR:!2024-08-19,71,330!2025-01-20,174,310-->
 - [tension § effects](../../../../general/tension%20(physics).md#effects)
   - tension types ::: We are concerned with uniaxial tension only. <!--SR:!2024-08-20,73,330!2024-08-10,63,321-->
   - tension examples in structures ::: cable, hanging column, rope, swing, tie <!--SR:!2024-08-15,56,270!2024-12-29,171,330-->
@@ -100,7 +100,7 @@ The content is in teaching order.
   - [§ characteristics](../../../../general/truss.md#characteristics)
   - [§ analysis](../../../../general/truss.md#analysis)
   - [§ forces in members](../../../../general/truss.md#forces%20in%20members)
-    - methods for calculating forces in members ::: only the method of joints is discussed <!--SR:!2024-07-30,50,301!2024-08-20,72,330-->
+    - methods for calculating forces in members ::: only the method of joints is discussed <!--SR:!2025-02-23,208,321!2024-08-20,72,330-->
   - [§ method of joints](../../../../general/truss.md#method%20of%20joints)
 - [zero force member](../../../../general/zero%20force%20member.md)
   - [§ description](../../../../general/zero%20force%20member.md#description)

@@ -12,7 +12,7 @@ tags:
 
 ## composition
 
-The basic PEST analysis includes {{4 factors: _political_, _economic_, _social_, and _technological_}}. <!--SR:!2024-07-30,38,290-->
+The basic PEST analysis includes {{4 factors: _political_, _economic_, _social_, and _technological_}}. <!--SR:!2024-12-29,152,310-->
 
 - (P) _political_ factors ::: They relate to how the government policy and actions intervene in the economy. For example, they include bureaucracy, trade restrictions, tariffs, tax policies, etc. <!--SR:!2024-10-12,83,270!2024-12-29,154,310-->
 - (E) _economic_ factors ::: They relate to aspects and outlook of the economy. For example, they include economic growth, exchange rates, inflation rate, interest rates, etc. <!--SR:!2024-09-08,59,250!2024-08-11,47,290-->

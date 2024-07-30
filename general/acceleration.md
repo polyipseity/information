@@ -9,7 +9,7 @@ tags:
 
 # acceleration
 
-In [mechanics](mechanics.md), __acceleration__ is {{the [rate](rate%20(mathematics).md) of change of the velocity of an object with respect to [time](time.md)}}. <!--SR:!2024-07-30,11,270-->
+In [mechanics](mechanics.md), __acceleration__ is {{the [rate](rate%20(mathematics).md) of change of the velocity of an object with respect to [time](time.md)}}. <!--SR:!2024-09-07,39,290-->
 
 ## references
 
