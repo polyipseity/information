@@ -93,9 +93,9 @@ async def wiki_html_to_plaintext(
                 nonlocal prefix, suffix
                 match = process_strings0_pattern.match(strings)
                 assert match
-                prefix = f"{strings[1]}{prefix}"
-                suffix += strings[3]
-                return strings[2]
+                prefix = f"{match[1]}{prefix}"
+                suffix += match[3]
+                return match[2]
 
             process_strings = process_strings0
         case "s" | "sub" | "sup" | "u":
@@ -158,9 +158,12 @@ async def wiki_html_to_plaintext(
             )
         )
     )
+    strings = process_strings(strings)
+
     if pop_list_stack:
         list_stack.pop()
-    return strings and f"{prefix}{process_strings(strings)}{suffix}"
+
+    return strings and f"{prefix}{strings}{suffix}"
 
 
 async def main() -> None:
