@@ -1,4 +1,5 @@
 from pathlib import PurePath
+from re import DOTALL, compile
 from aiohttp import ClientSession, TCPConnector
 from asyncio import gather, run
 from typing import Callable, Mapping, MutableSequence
@@ -71,10 +72,23 @@ async def wiki_html_to_plaintext(
     prefix, suffix = "", ""
     pop_list_stack = False
     match ele.name:
-        case "b":
-            prefix, suffix = "__", "__"
-        case "i":
-            prefix, suffix = "_", "_"
+        case "p":
+            suffix = "\n\n"
+        case "b" | "i":
+            times = 2 if ele.name == "b" else 1
+            prefix, suffix = "_" * times, "_" * times
+
+            process_strings0_pattern = compile(r"^( *)(.*?)( *)$", DOTALL)
+
+            def process_strings0(strings: str):
+                nonlocal prefix, suffix
+                match = process_strings0_pattern.match(strings)
+                assert match
+                prefix = f"{strings[1]}{prefix}"
+                suffix += strings[3]
+                return strings[2]
+
+            process_strings = process_strings0
         case "s" | "sub" | "sup" | "u":
             prefix, suffix = _tag_affixes(ele.name)
         case "a":
@@ -121,9 +135,9 @@ async def wiki_html_to_plaintext(
         case "li":
             if list_stack and (item := list_stack[-1] + 1) >= 1:
                 list_stack[-1] = item
-                prefix = f"{item}. "
+                prefix = f"{'  ' * (len(list_stack) - 1)}{item}. "
             else:
-                prefix = "- "
+                prefix = f"{'  ' * (len(list_stack) - 1)}- "
         case _:
             pass
 
