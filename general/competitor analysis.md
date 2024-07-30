@@ -73,7 +73,7 @@ why: Why are people using competitors' products?
 - compare: Identify similarities and differences between our and their products.→:::←copy: Identify advantages and capabilities our products lack compared to others. <!--SR:!2024-08-25,70,274!2024-08-29,72,281-->
 - copy: Identify advantages and capabilities our products lack compared to others.→:::←discover: Identify unmet needs. <!--SR:!2024-08-08,10,221!2024-09-10,70,241-->
 - discover: Identify unmet needs.→:::←how: What is our strategy? <!--SR:!2024-08-19,27,201!2024-07-31,28,261-->
-- how: What is our strategy?→:::←pricing: Compare prices. <!--SR:!2024-07-30,11,201!2024-08-12,22,241-->
+- how: What is our strategy?→:::←pricing: Compare prices. <!--SR:!2024-08-05,6,181!2024-08-12,22,241-->
 - pricing: Compare prices.→:::←who: Who are the competitors? 3 to 5 is usually enough. <!--SR:!2024-08-08,20,241!2024-08-18,61,261-->
 - who: Who are the competitors? 3 to 5 is usually enough.→:::←why: Why are people using competitors' products? <!--SR:!2024-10-13,103,281!2024-09-15,73,241-->
 - why: Why are people using competitors' products?→:::←_(end)_ <!--SR:!2024-08-10,68,321!2024-09-16,83,281-->
@@ -169,7 +169,7 @@ number of features
 - _(most important)_→:::←price <!--SR:!2024-08-14,71,321!2024-08-13,71,321-->
 - price→:::←benefit <!--SR:!2024-11-27,150,314!2024-09-27,97,301-->
 - benefit→:::←quality <!--SR:!2024-08-17,67,274!2024-11-24,134,301-->
-- quality→:::←durability <!--SR:!2024-07-31,10,181!2024-07-30,59,321-->
+- quality→:::←durability <!--SR:!2024-07-31,10,181!2024-08-29,30,301-->
 - durability→:::←service <!--SR:!2024-12-24,150,301!2024-08-11,28,241-->
 - service→:::←convenience <!--SR:!2024-08-08,18,221!2024-08-08,56,301-->
 - convenience→:::←ease of use <!--SR:!2024-10-26,103,261!2025-01-10,172,314-->

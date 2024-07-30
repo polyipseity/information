@@ -191,12 +191,12 @@ water and sewage treatment system
 
 <!--pytextgen generate section="39fa"--><!-- The following content is generated at 2024-05-01T23:30:34.986638+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←bridge <!--SR:!2024-07-30,80,377!2024-08-11,92,374-->
+- _(begin)_→:::←bridge <!--SR:!2025-09-15,412,397!2024-08-11,92,374-->
 - bridge→:::←building <!--SR:!2025-05-05,282,372!2025-04-22,268,360-->
 - building→:::←dam <!--SR:!2024-12-12,167,340!2024-09-06,105,380-->
 - dam→:::←pipeline <!--SR:!2024-08-06,32,204!2024-10-09,117,321-->
 - pipeline→:::←power plant <!--SR:!2024-08-14,59,260!2024-10-22,107,281-->
-- power plant→:::←reservoir <!--SR:!2024-07-30,60,275!2024-09-05,91,320-->
+- power plant→:::←reservoir <!--SR:!2025-01-10,164,275!2024-09-05,91,320-->
 - reservoir→:::←sewage treatment <!--SR:!2024-09-21,62,197!2024-09-05,75,261-->
 - sewage treatment→:::←transport <!--SR:!2024-08-11,13,210!2024-12-13,152,301-->
 - transport→:::←water and sewage treatment system <!--SR:!2024-11-05,137,340!2024-08-01,11,150-->
@@ -359,7 +359,7 @@ transportation
 - _(begin)_→:::←construction <!--SR:!2025-01-13,207,355!2024-11-13,161,375-->
 - construction→:::←environmental <!--SR:!2024-09-04,96,340!2024-08-25,93,380-->
 - environmental→:::←geo-technical <!--SR:!2024-10-04,127,327!2025-01-07,205,345-->
-- geo-technical→:::←hydraulic <!--SR:!2024-11-21,149,340!2024-07-30,67,360-->
+- geo-technical→:::←hydraulic <!--SR:!2024-11-21,149,340!2024-09-01,33,340-->
 - hydraulic→:::←material <!--SR:!2024-10-03,119,340!2024-10-30,135,340-->
 - material→:::←structural <!--SR:!2024-08-15,81,317!2024-08-10,65,260-->
 - structural→:::←transportation <!--SR:!2024-12-22,171,340!2024-12-03,160,327-->
@@ -1096,7 +1096,7 @@ water tower
 
 - _(begin)_→:::←bridge <!--SR:!2024-10-23,142,335!2024-08-12,88,380-->
 - bridge→:::←building <!--SR:!2025-01-24,203,350!2024-08-28,96,380-->
-- building→:::←dam <!--SR:!2024-07-30,77,361!2025-01-17,198,361-->
+- building→:::←dam <!--SR:!2025-05-03,277,361!2025-01-17,198,361-->
 - dam→:::←power plant <!--SR:!2024-08-06,68,301!2024-10-17,82,238-->
 - power plant→:::←storage facility <!--SR:!2025-01-30,185,300!2024-09-12,111,334-->
 - storage facility→:::←tunnel <!--SR:!2024-08-03,13,280!2024-09-01,89,320-->

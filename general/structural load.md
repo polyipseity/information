@@ -55,7 +55,7 @@ Loads on civil engineering can be separated into {{<!--pytextgen generate sectio
 
 <!--pytextgen generate section="cc19"--><!-- The following content is generated at 2024-05-14T21:09:52.082807+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←[dead load](#dead%20load) <!--SR:!2024-07-30,53,308!2024-08-22,77,320-->
+- _(begin)_→:::←[dead load](#dead%20load) <!--SR:!2025-03-12,225,328!2024-08-22,77,320-->
 - [dead load](#dead%20load)→:::←[environmental load](#environmental%20load) <!--SR:!2025-01-15,171,310!2024-10-21,106,290-->
 - [environmental load](#environmental%20load)→:::←[live load](#live%20load) <!--SR:!2024-09-24,83,270!2024-08-16,72,328-->
 - [live load](#live%20load)→:::←[load combinations](#load%20combinations) <!--SR:!2025-01-20,186,320!2025-01-31,196,310-->
@@ -74,7 +74,7 @@ Generally, dead load (and live load) internally {{deflects beams and floors}}. A
 
 The live load includes {{loads that are temporary or moving}}. This includes {{moving things, such as moving vehicles, people, and storage}}; {{non-permanent fixtures such as ceiling lights, furniture, and pipe ducts}}. The load can vary in {{location and magnitude}}. In building codes such as {{_Minimum Design Load for Buildings and Other Structures_, ASCE 7-05}}, the live load is {{tabulated and usually assumed uniform on building floors}}. <!--SR:!2025-01-31,194,310!2024-12-04,153,320!2024-12-05,140,290!2024-11-11,132,310!2024-11-23,119,270!2024-11-29,149,320-->
 
-Generally, live load has {{similar effects to dead load}}. <!--SR:!2024-07-30,55,310-->
+Generally, live load has {{similar effects to dead load}}. <!--SR:!2025-03-22,235,330-->
 
 ### environmental loads
 
@@ -116,9 +116,9 @@ return await memorize_seq(
 
 #### hydrostatic load
 
-Hydrostatic load refers to load caused by {{[water](water.md)}}. The load can be caused by {{pure water itself, or water in a material such as soil}}. <!--SR:!2024-07-30,58,310!2025-03-23,239,330-->
+Hydrostatic load refers to load caused by {{[water](water.md)}}. The load can be caused by {{pure water itself, or water in a material such as soil}}. <!--SR:!2025-04-04,248,330!2025-03-23,239,330-->
 
-For example, when there is {{water buildup in the soil}}, there is {{increased hydrostatic pressure on retaining walls}}. For pure water, examples include a {{[dam](dam.md), where deeper waters exert more horizontal hydrostatic pressure on the dam}}. <!--SR:!2024-08-03,61,310!2024-07-30,55,300!2024-07-31,59,310-->
+For example, when there is {{water buildup in the soil}}, there is {{increased hydrostatic pressure on retaining walls}}. For pure water, examples include a {{[dam](dam.md), where deeper waters exert more horizontal hydrostatic pressure on the dam}}. <!--SR:!2024-08-03,61,310!2025-03-15,228,320!2024-07-31,59,310-->
 
 #### lateral load
 
@@ -142,7 +142,7 @@ For example, {{a beam in between two fixed support creates thermal load under he
 
 #### wind load
 
-[Wind](wind.md) is {{movement of air}}. When wind moves past a building, {{wind changes in velocity}}. Then, {{the pressure of air changes}}. Positive pressure outside {{causes inward forces while negative causes outward (uplift for roof) forces}}. This is wind load. It also depends on {{building shape, wind direction, and wind speed}}. <!--SR:!2024-07-31,55,300!2025-01-18,186,310!2024-11-20,128,300!2024-07-30,54,300!2024-10-03,100,300-->
+[Wind](wind.md) is {{movement of air}}. When wind moves past a building, {{wind changes in velocity}}. Then, {{the pressure of air changes}}. Positive pressure outside {{causes inward forces while negative causes outward (uplift for roof) forces}}. This is wind load. It also depends on {{building shape, wind direction, and wind speed}}. <!--SR:!2024-07-31,55,300!2025-01-18,186,310!2024-11-20,128,300!2025-03-10,223,320!2024-10-03,100,300-->
 
 Wind load causes {{lateral deflection, which may further lead to toppling of the structure, such as collapse of bridges}}. Less serious consequences include {{damage to individual structural elements such as roofs, walls, and windows; and causes excessive building vibrations}}. <!--SR:!2024-08-06,63,320!2025-01-04,160,300-->
 

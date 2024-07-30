@@ -229,7 +229,7 @@ Environmental Levy Scheme (Plastic Shopping Bags)
 - Environmental Levy Scheme ::: scheme to reduce plastic shopping bags <!--SR:!2024-08-01,56,310!2024-08-13,65,310-->
   - Environmental Levy Scheme launch time ::: launched in 2009 <!--SR:!2024-10-05,83,290!2024-08-08,61,310-->
   - Environmental Levy Scheme coverage ::: 40 registered retailers with ~3100 retail outlets <!--SR:!2024-09-28,85,270!2024-12-16,146,310-->
-  - Environmental Levy Scheme effect ::: -90% from registered retailers after 1 year. -25% in overall plastic bag consumption after covering all retail shops in 2015 <!--SR:!2024-09-05,68,270!2024-07-30,52,290-->
+  - Environmental Levy Scheme effect ::: -90% from registered retailers after 1 year. -25% in overall plastic bag consumption after covering all retail shops in 2015 <!--SR:!2024-09-05,68,270!2024-12-27,150,290-->
   - Environmental Levy Scheme income ::: HK$25.5 million in 2009 <!--SR:!2024-09-06,71,270!2024-11-08,115,290-->
 
 ## page 16
@@ -281,7 +281,7 @@ Sewage Conveyance System
 
 Clean Victoria Harbor
 
-- HATS result ::: clean Victoria Harbor <!--SR:!2024-08-07,60,310!2024-07-30,54,310-->
+- HATS result ::: clean Victoria Harbor <!--SR:!2024-08-07,60,310!2025-03-20,233,330-->
   - HATS result example ::: On 2017-10-29, 3000 swimmers participate in a previously-discontinued annual cross-harbor race. The race continues to be held. <!--SR:!2024-08-16,52,250!2024-08-03,57,310-->
 
 ## page 23
@@ -444,7 +444,7 @@ Relationship between PPM and mg/L
 Concentration Units for Gases
 
 - concentration units for gases ::: mass of substance per unit volume of mixture, volume of substance per unit volume of mixture <!--SR:!2024-12-07,132,290!2024-08-15,67,310-->
-  - volume of substance per unit volume of mixture for gases ::: ppm by volume (ppm<sub>v</sub>) <!--SR:!2024-08-09,62,310!2024-07-30,51,290-->
+  - volume of substance per unit volume of mixture for gases ::: ppm by volume (ppm<sub>v</sub>) <!--SR:!2024-08-09,62,310!2024-12-24,147,290-->
   - mass of substance per unit volume of mixture for gases ::: µg/m<sup>3</sup>, mg/m<sup>3</sup> <!--SR:!2024-08-08,62,310!2025-03-06,221,330-->
 
 ## page 37

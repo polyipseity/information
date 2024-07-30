@@ -102,7 +102,7 @@ return chain.from_iterable(await gather(
 - invisible due to being too closed to the [Sun](Sun.md) except during a [solar eclipse](solar%20eclipse.md)::[new moon](new%20moon.md) <!--SR:!2024-09-26,61,310-->
 - late morning to post-dusk::waxing [crescent](crescent.md) <!--SR:!2024-08-15,28,270-->
 - afternoon to early night::first quarter <!--SR:!2024-08-18,22,270-->
-- late afternoon to most of night::waxing gibbous <!--SR:!2024-07-30,16,250-->
+- late afternoon to most of night::waxing gibbous <!--SR:!2024-09-06,38,250-->
 - all night (sunset to sunrise)::[full moon](full%20moon.md) <!--SR:!2024-09-16,56,310-->
 - most of night to early morning::waning gibbous <!--SR:!2024-09-07,42,290-->
 - late night to morning::last quarter <!--SR:!2024-09-09,48,290-->
