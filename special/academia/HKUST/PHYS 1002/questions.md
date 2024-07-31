@@ -427,7 +427,7 @@ The parenthesized text at the beginning of of each question is {{the location th
 > 5. All of these stars take the same time to get to the main sequence
 >
 > - solution: {{4}}
-> - explanation: {{A fundamental feature of stellar evolution is that the greater the mass, the faster the evolution.}}
+> - explanation: {{A fundamental feature of stellar evolution is that the greater the mass, the faster the evolution.}} <!--SR:!2024-08-03,4,321!2024-08-03,4,321-->
 
 <!-- markdownlint MD028 -->
 
@@ -439,7 +439,7 @@ The parenthesized text at the beginning of of each question is {{the location th
 > 4. are no longer forming in the Milky Way galaxy; they only formed very early in the Milky Way galaxy's history
 > 5. they are significantly less luminous after the main sequence stage is over
 >
-> - solution: {{3}}
+> - solution: {{3}} <!--SR:!2024-08-03,4,321-->
 
 <!-- markdownlint MD028 -->
 
@@ -450,4 +450,4 @@ The parenthesized text at the beginning of of each question is {{the location th
 > 3. It was produced by previous massive stars which expelled some heavy elements during the explosions when they died.
 > 4. It was produced by fission of even heavier elements in the Sun.
 >
-> - solution: {{3}}
+> - solution: {{3}} <!--SR:!2024-08-03,4,321-->
