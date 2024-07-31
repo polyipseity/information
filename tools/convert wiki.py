@@ -101,6 +101,7 @@ async def wiki_html_to_plaintext(
         case "s" | "sub" | "sup" | "u":
             prefix, suffix = _tag_affixes(ele.name)
         case "a":
+            process = True
             if title := str(ele.get("title", "")):
                 href = str(ele.get("href", ""))
                 to_fragment = (
@@ -130,6 +131,11 @@ async def wiki_html_to_plaintext(
                     "[",
                     f"]({_markdown_link(_fix_name_maybe(to), _fix_name_maybe(to_fragment))})",
                 )
+            elif href := str(ele.get("href", "")):
+                prefix, suffix = "[", f"]({href})"
+            else:
+                process = False
+            if process:
                 process_strings = (
                     lambda strings: strings.replace("\\", "\\\\")
                     .replace(R"[", R"\[")
