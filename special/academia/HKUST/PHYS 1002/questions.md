@@ -1,15 +1,11 @@
 ---
 aliases:
-  - HKUST PHYS 1002
   - HKUST PHYS 1002 question
   - HKUST PHYS 1002 questions
-  - HKUST PHYS1002
   - HKUST PHYS1002 question
   - HKUST PHYS1002 questions
-  - PHYS 1002
   - PHYS 1002 question
   - PHYS 1002 questions
-  - PHYS1002
   - PHYS1002 question
   - PHYS1002 questions
 tags:

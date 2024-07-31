@@ -30,17 +30,17 @@ The CN-cycle, named as {{it contains no stable isotope of oxygen}}, involves the
 This cycle is now understood as {{being the first part of a larger process, the CNO-cycle}}, and the main reactions in this part of the cycle (CNO-I) are: <!--SR:!2024-08-03,4,270-->
 
 - 1st step ::: $${}_{\phantom{0}6}^{12}\mathrm{C} + {}_1^1\mathrm{H} \rightarrow {}_{\phantom{0}7}^{13}\mathrm{N} + \gamma + 1.95~\mathrm{MeV}$$ <!--SR:!2024-08-02,3,250!2024-08-03,4,270-->
-  - 1st step / energy release (& half-life if unstable) ::: 1.95 MeV <!--SR:!2024-08-02,3,250!2024-07-31,1,230-->
+  - 1st step / energy release (& half-life if available) ::: 1.95 MeV <!--SR:!2024-08-02,3,250!2024-07-31,1,230-->
 - 2nd step ::: $${}_{\phantom{0}7}^{13}\mathrm{N} \rightarrow {}_{\phantom{0}6}^{13}\mathrm{C} + \mathrm{e}^+ + \nu_{\mathrm{e} } + 1.20~\mathrm{MeV} \quad (\text{half life of 9.965 minutes})$$ <!--SR:!2024-07-31,1,230!2024-08-03,4,270-->
-  - 2nd step / energy release (& half-life if unstable) ::: 1.20 Mev, 9.965 minutes <!--SR:!2024-07-31,1,230!2024-08-03,4,270-->
+  - 2nd step / energy release (& half-life if available) ::: 1.20 Mev, 9.965 minutes <!--SR:!2024-07-31,1,230!2024-08-03,4,270-->
 - 3rd step ::: $${}_{\phantom{0}6}^{13}\mathrm{C} + {}_1^1\mathrm{H} \rightarrow {}_{\phantom{0}7}^{14}\mathrm{N} + \gamma + 7.54~\mathrm{MeV}$$ <!--SR:!2024-08-03,4,270!2024-08-03,4,270-->
-  - 3rd step / energy release (& half-life if unstable) ::: 7.54 MeV <!--SR:!2024-07-31,1,230!2024-07-31,1,230-->
+  - 3rd step / energy release (& half-life if available) ::: 7.54 MeV <!--SR:!2024-07-31,1,230!2024-07-31,1,230-->
 - 4th step ::: $${}_{\phantom{0}7}^{14}\mathrm{N} + {}_1^1\mathrm{H} \rightarrow {}_{\phantom{0}8}^{15}\mathrm{O} + \gamma + 7.35~\mathrm{MeV}$$ <!--SR:!2024-07-31,1,230!2024-08-03,4,270-->
-  - 4th step / energy release (& half-life if unstable) ::: 7.35 MeV <!--SR:!2024-08-02,3,250!2024-08-03,4,270-->
+  - 4th step / energy release (& half-life if available) ::: 7.35 MeV <!--SR:!2024-08-02,3,250!2024-08-03,4,270-->
 - 5th step ::: $${}_{\phantom{0}8}^{15}\mathrm{O} \rightarrow {}_{\phantom{0}7}^{15}\mathrm{N} + \mathrm{e}^+ + \nu_{\mathrm{e} } + 1.73~\mathrm{MeV} \quad (\text{half life of 122.24 seconds})$$ <!--SR:!2024-08-02,3,250!2024-08-02,3,250-->
-  - 5th step / energy release (& half-life if unstable) ::: 1.73 MeV, 122.24 seconds <!--SR:!2024-07-31,1,230!2024-08-03,4,270-->
+  - 5th step / energy release (& half-life if available) ::: 1.73 MeV, 122.24 seconds <!--SR:!2024-07-31,1,230!2024-08-03,4,270-->
 - 6th step ::: $${}_{\phantom{0}7}^{15}\mathrm{N} + {}_1^1\mathrm{H} \rightarrow {}_{\phantom{0}6}^{12}\mathrm{C} + {}_2^4\mathrm{He} + 4.96~\mathrm{MeV}$$ <!--SR:!2024-07-31,1,230!2024-08-03,4,270-->
-  - 6th step / energy release (& half-life if unstable) ::: 4.96 MeV <!--SR:!2024-08-02,3,250!2024-08-03,4,270-->
+  - 6th step / energy release (& half-life if available) ::: 4.96 MeV <!--SR:!2024-08-02,3,250!2024-08-03,4,270-->
 
 ...where {{the carbon-12 nucleus used in the first reaction is regenerated in the last reaction}}. After {{the two [positrons emitted](positron%20emission.md) [annihilate](annihilation.md) with two ambient electrons producing an additional 2.04 MeV}}, the total energy released in one cycle is {{26.73 MeV}}. <!--SR:!2024-08-03,4,270!2024-07-31,1,230!2024-08-03,4,270-->
 

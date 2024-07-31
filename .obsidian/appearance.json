@@ -2,7 +2,7 @@
   "baseFontSize": 16,
   "translucency": true,
   "theme": "system",
-  "accentColor": "#ffaebd",
+  "accentColor": "#d4bbff",
   "interfaceFontFamily": "Calibri,Arial",
   "textFontFamily": "Courier New,Courier,Arial",
   "monospaceFontFamily": "Consolas,Arial",
@@ -10,5 +10,6 @@
     "increase audio min width",
     "white content image background"
   ],
-  "nativeMenus": false
+  "nativeMenus": false,
+  "baseFontSizeAction": true
 }
