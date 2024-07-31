@@ -415,3 +415,39 @@ The parenthesized text at the beginning of of each question is {{the location th
 >
 > - solution: {{4}}
 > - explanation: {{Assuming the fuel burnt is proportional to luminosity. Then, the lifetime of a star is: $$\tau = M / L \propto M^{-3}$$. Derive the proportionality between mass and luminosity: $$M / L \propto M^{-3} \implies M^4 \propto L \implies M \propto L^{0.25}$$. So the star mass is predicted to be: $$(2147\,483\,647)^{0.25} \approx 215.269482~\mathrm{solar\ masses}$$. So the answer is 220 solar masses.}} <!--SR:!2024-08-10,13,311!2024-08-08,11,311-->
+
+## 2024-07-25
+
+> Q1. (MCQ) Which of these stars will take the SHORTEST time to go from the earliest protostar stage to the main sequence?
+>
+> 1. A star with 1/10 the mass of our Sun
+> 2. A star with 1/2 the mass of our Sun
+> 3. A star with equal mass of our Sun
+> 4. A star with ten times the mass of our Sun
+> 5. All of these stars take the same time to get to the main sequence
+>
+> - solution: {{4}}
+> - explanation: {{A fundamental feature of stellar evolution is that the greater the mass, the faster the evolution.}}
+
+<!-- markdownlint MD028 -->
+
+> Q2. (iPRS) Intermediate-mass stars differ from low-mass stars in that they
+>
+> 1. go through all the stages of their lives more slowly
+> 2. do not really go through a main sequence stage in their lives
+> 3. can fuse elements beyond helium in their hot central regions
+> 4. are no longer forming in the Milky Way galaxy; they only formed very early in the Milky Way galaxy's history
+> 5. they are significantly less luminous after the main sequence stage is over
+>
+> - solution: {{3}}
+
+<!-- markdownlint MD028 -->
+
+> Q3. (MCQ) Carbon is present at 2% (by number of atoms) in the Sun. Where does the carbon come from? It is given that the Big Bang produced mainly hydrogen and helium only.
+>
+> 1. It was produced by the Sun's own fusion inside the core.
+> 2. It was produced by chemical reactions outside the core and then diffused into the core.
+> 3. It was produced by previous massive stars which expelled some heavy elements during the explosions when they died.
+> 4. It was produced by fission of even heavier elements in the Sun.
+>
+> - solution: {{3}}

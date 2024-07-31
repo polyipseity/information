@@ -55,7 +55,6 @@ Below is a runnable example in [Python](Python%20(programming%20language).md).
 [`FP-growth algorithm.py`](attachments/FP-growth%20algorithm.py):
 
 ```Python
-# -*- coding: UTF-8 -*-
 from collections import Counter, defaultdict
 from dataclasses import InitVar, dataclass, field
 from typing import AbstractSet, Mapping, MutableMapping, MutableSequence, Self, TypeVar

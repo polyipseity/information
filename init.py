@@ -1,4 +1,3 @@
-# -*- coding: UTF-8 -*-
 from aioshutil import rmtree as _rmtr, sync_to_async
 from anyio import Path as _Path
 from appdirs import AppDirs as _AppDirs  # type: ignore
