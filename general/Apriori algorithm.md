@@ -62,7 +62,6 @@ Below is a runnable example in [Python](Python%20(programming%20language).md).
 [`Apriori algorithm.py`](attachments/Apriori%20algorithm.py):
 
 ```Python
-# -*- coding: UTF-8 -*-
 from functools import reduce
 from itertools import combinations
 from operator import add

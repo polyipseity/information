@@ -1,4 +1,3 @@
-# -*- coding: UTF-8 -*-
 from functools import reduce
 from itertools import combinations
 from operator import add

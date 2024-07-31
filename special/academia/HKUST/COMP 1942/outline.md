@@ -437,7 +437,7 @@ The content is in teaching order.
   - [§ conditional independence of events](../../../../general/conditional%20independence.md#conditional%20independence%20of%20events)
   - [§ proof of the equivalent definition](../../../../general/conditional%20independence.md#proof%20of%20the%20equivalent%20definition)
 - [conditional probability table](../../../../general/conditional%20probability%20table.md)
-  - conditional probability table format ::: The row headers are the input variables. The column headers are the output variables. <!--SR:!2024-08-14,15,309!2024-08-27,55,349-->
+  - conditional probability table format ::: The row headers are the input variables. The column headers are the output variables. (mnemonic: ↗) <!--SR:!2024-08-14,15,309!2024-08-27,55,349-->
 - [chain rule (probability)](../../../../general/chain%20rule%20(probability).md)
   - [§ two events](../../../../general/chain%20rule%20(probability).md#two%20events)
   - [§ finitely many events](../../../../general/chain%20rule%20(probability).md#finitely%20many%20events)

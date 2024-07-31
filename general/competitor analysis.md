@@ -182,7 +182,7 @@ number of features
 
 It is very important to {{add our own products to the visualization and make it obvious that the products are our own}}. <!--SR:!2024-10-26,122,301-->
 
-If we are comparing two features only, we can {{use a _xy_-grid and plot our and competitors' products}}. If there are more features, {{we can use a table, with the column headers being the products and the row headers being the features}}. {{A mix of both}} is possible. <!--SR:!2024-08-10,67,321!2025-03-26,242,334!2024-11-26,152,310-->
+If we are comparing two features only, we can {{use a _xy_-grid and plot our and competitors' products}}. If there are more features, {{we can use a table, with the row headers being the features and the column headers being the products}}. {{A mix of both}} is possible. <!--SR:!2024-08-10,67,321!2025-03-26,242,334!2024-11-26,152,310-->
 
 When listing the features, {{use numbers}} if possible. Do not be {{vague}}. Highlight {{important features, such as the best product for each feature}}. <!--SR:!2025-02-24,212,321!2024-08-04,63,321!2024-12-08,157,301-->
 
