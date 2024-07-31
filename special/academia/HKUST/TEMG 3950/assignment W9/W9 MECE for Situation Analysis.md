@@ -34,7 +34,7 @@ Q1a) Choose one of the four MECE frameworks that is most efficient for situation
 
 > The chosen MECE framework is McCarthy's 4P framework. Since we are trying to figure out why our customers are dropping dramatically, we need to evaluate our customers' view of our and others' dining services. The 4P framework provides a comprehensive view of services in the eyes of the customers.
 >
-> There are 1.19 million pets in Hong Kong.[<sup>[1]</sup>](#^ref-1) Assuming each pet belongs to one person and 7.50 million people in Hong Kong,[<sup>[2]</sup>](#^ref-2) 15.9% of people in Hong Kong have pets. Note that fish accounts for most of the pets,[<sup>[1]</sup>](#^ref-1), so the number of pets that can be brought outside is smaller. A reasonable percentage is 5%, which is not negligible, but still relatively low compared to other countries.
+> There are 1.19 million pets in Hong Kong.<sup>[\[1\]](#^ref-1)</sup> Assuming each pet belongs to one person and 7.50 million people in Hong Kong,<sup>[\[2\]](#^ref-2)</sup> 15.9% of people in Hong Kong have pets. Note that fish accounts for most of the pets,<sup>[\[1\]](#^ref-1)</sup>, so the number of pets that can be brought outside is smaller. A reasonable percentage is 5%, which is not negligible, but still relatively low compared to other countries.
 >
 > Considering the restaurant is in older malls, the restaurant is likely setup for a long time, so it is likely more traditional. Assuming this is true...
 >
