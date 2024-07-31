@@ -13,9 +13,9 @@ tags:
 
 ### ascending the red-giant branch
 
-Stars at {{the foot of the red-giant branch}} all have {{a similar temperature around 5,000 [K](Kelvin.md), corresponding to an early to mid-K spectral type}}. Their luminosities {{range from a few times the luminosity of the sun for the least massive red giants to several thousand times as luminous for stars around 8 M<sub>☉</sub>}}.
+Stars at {{the foot of the red-giant branch}} all have {{a similar temperature around 5&nbsp;000 [K](Kelvin.md), corresponding to an early to mid-K spectral type}}. Their luminosities {{range from a few times the luminosity of the sun for the least massive red giants to several thousand times as luminous for stars around 8 M<sub>☉</sub>}}.
 
-As {{their hydrogen shells continue to produce more helium}}, the cores of RGB stars {{increase in mass and temperature}}. This causes {{the hydrogen shell to fuse more rapidly}}. Stars become {{more luminous, larger and somewhat cooler. They are described as ascending the RGB}}.
+As {{their hydrogen shells continue to produce more helium}}, the cores of RGB stars {{increase in mass and temperature}}. This causes {{the hydrogen shell to fuse more rapidly}}. Stars become {{more luminous, larger and somewhat cooler on the surface. They are described as ascending the RGB}}.
 
 On the ascent of the RGB, there are {{a number of internal events that produce observable external features}}. The outer [convective envelope](convection%20zone.md) becomes {{deeper and deeper as the star grows and shell energy production increases}}. Eventually it {{reaches deep enough to bring fusion products to the surface from the formerly convective core, known as the first [dredge-up](dredge-up.md)}}. This changes {{the surface abundance of helium, carbon, nitrogen and oxygen}}. {{A noticeable clustering of stars at one point on the RGB}} can be detected and is known as {{the RGB bump}}. It is caused by {{a discontinuity in hydrogen abundance left behind by the deep convection}}. Shell {{energy production temporarily decreases at this discontinuity, effective stalling the ascent of the RGB and causing an excess of stars at that point}}.
 

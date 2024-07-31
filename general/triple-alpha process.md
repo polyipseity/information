@@ -21,9 +21,9 @@ The __triple-alpha process__ is {{a set of [nuclear fusion](nuclear%20fusion.md)
 Nuclear fusion reaction of two helium-4 nuclei {{produces [beryllium-8](beryllium-8.md), which is highly unstable, and decays back into smaller nuclei}} with {{a half-life of 8.19×10<sup>−17</sup> s}}, unless {{within that time a third alpha particle fuses with the beryllium-8 nucleus to produce an excited [resonance](resonance%20(particle%20physics).md) state of [carbon-12](carbon-12.md), called the [Hoyle state](carbon-12.md#hoyle%20state)}}, which {{nearly always decays back into three alpha particles}}, but {{once in about 2421.3 times releases energy and changes into the stable base form of carbon-12}}. When a star {{runs out of [hydrogen](hydrogen.md) to fuse in its core}}, it {{begins to contract and heat up}}. If the central temperature {{rises to 10<sup>8</sup> K, six times hotter than the Sun's core}}, alpha particles can {{fuse fast enough to get past the beryllium-8 barrier and produce significant amounts of stable carbon-12}}.
 
 - 1st step ::: $${}_2^4\mathrm{He} + {}_2^4\mathrm{He} \rightarrow {}_4^8\mathrm{Be} \quad (-0.0918\mathrm{\ MeV})$$
-  - first step / energy release ::: -0.0918 MeV
+  - 1st step / energy release ::: -0.0918 MeV
 - 2nd step ::: $${}_4^8\mathrm{Be} + {}_2^4\mathrm{He} \rightarrow {}_{\phantom{0}6}^{12}\mathrm{C} + 2 \gamma \quad (+7.367\mathrm{\ MeV})$$
-  - second step / energy release ::: +7.367 MeV
+  - 2nd step / energy release ::: +7.367 MeV
 
 The net energy release of the process is {{7.275 MeV}}.
 

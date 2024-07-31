@@ -1,15 +1,11 @@
 ---
 aliases:
-  - HKUST PHYS 1002
   - HKUST PHYS 1002 schedule
   - HKUST PHYS 1002 schedules
-  - HKUST PHYS1002
   - HKUST PHYS1002 schedule
   - HKUST PHYS1002 schedules
-  - PHYS 1002
   - PHYS 1002 schedule
   - PHYS 1002 schedules
-  - PHYS1002
   - PHYS1002 schedule
   - PHYS1002 schedules
 tags:
