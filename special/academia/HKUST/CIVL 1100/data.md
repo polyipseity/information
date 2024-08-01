@@ -36,7 +36,7 @@ See [Beijing National Stadium](../../../../general/Beijing%20National%20Stadium)
 
 - description ::: stadium in Beijing, China <!--SR:!2024-12-02,182,310!2025-04-05,299,350-->
 - image ::: ![Beijing National Stadium image](../../../../archives/Wikimedia%20Commons/Beijing%20National%20Stadium%20from%20the%20Central%20Axis%20(20220905140702)%20(cropped).jpg) <!--SR:!2024-08-03,71,360!2024-08-20,88,380-->
-- shape ::: [bird nest](../../../../general/bird%20nest.md) <!--SR:!2024-08-11,92,372!2024-07-31,81,365-->
+- shape ::: [bird nest](../../../../general/bird%20nest.md) <!--SR:!2024-08-11,92,372!2025-09-09,404,385-->
 
 ## Burj Al Arab
 
@@ -104,7 +104,7 @@ See [Colosseum](../../../../general/Colosseum.md).
 - construction period ::: AD 72 to AD 80, 8 years <!--SR:!2024-08-02,12,236!2024-12-11,168,396-->
 - description ::: elliptical amphitheater in the center of Rome <!--SR:!2024-08-18,72,376!2024-10-13,113,376-->
 - geographic location ::: Rome <!--SR:!2024-10-13,119,396!2024-10-29,133,396-->
-- height ::: 48 m (4 storeys) <!--SR:!2024-07-31,23,296!2024-11-11,143,396-->
+- height ::: 48 m (4 storeys) <!--SR:!2024-08-15,14,276!2024-11-11,143,396-->
 - importance ::: largest amphitheater in the Roman Empire, greatest works of Roman architecture and engineering <!--SR:!2024-10-25,122,376!2024-10-08,108,376-->
 
 ## Eiffel Tower
@@ -278,7 +278,7 @@ See [Sutong Yangtze River Bridge](../../../../general/Sutong%20Yangtze%20River%2
 See [Taipei 101](Taipei%20101.md).
 
 - description ::: skyscraper in Taipei, Taiwan <!--SR:!2025-03-31,295,350!2024-09-04,103,380-->
-- height ::: architectural: 508.2 m, tip: 509.2 m, top floor: 438 m <!--SR:!2024-08-01,4,130!2024-11-19,179,330-->
+- height ::: architectural: 508.2 m, tip: 509.2 m, top floor: 438 m <!--SR:!2024-08-07,6,130!2024-11-19,179,330-->
 - image ::: ![Taipei 101 image](../../../../archives/Wikimedia%20Commons/Tower%20of%20Taipei%20101(cropped).jpg) <!--SR:!2025-02-07,201,360!2024-08-17,85,380-->
 - [structural system](../../../../general/structural%20system.md) ::: concrete–steel composite<!-- flashcard 16556e6f-00ca-4a87-845c-f0ea2f56807a --> <!--SR:!2024-09-10,92,320!2024-08-23,90,380-->
 
@@ -312,7 +312,7 @@ See [Turin–Lyon high-speed railway](../../../../general/Turin–Lyon%20high-sp
 See [Two Prudential Plaza](../../../../general/Two%20Prudential%20Plaza.md).
 
 - description ::: 64-story skyscraper located in the Loop area of Chicago, Illinois <!--SR:!2024-09-03,91,320!2025-08-31,399,385-->
-- height ::: architectural: 303 m, top floor: 250 m <!--SR:!2024-08-01,11,221!2024-08-19,98,364-->
+- height ::: architectural: 303 m, top floor: 250 m <!--SR:!2024-08-08,7,201!2024-08-19,98,364-->
 - image ::: ![Two Prudential Plaza image](../../../../archives/Wikimedia%20Commons/Two%20Prudential%20Plaza%20Chicago%20in%20May%202016.jpg) <!--SR:!2024-08-14,82,360!2024-08-06,74,360-->
 - [structural system](../../../../general/structural%20system.md) ::: reinforced concrete<!-- flashcard ecbdac25-22dc-429d-9976-d49408b1478d --> <!--SR:!2024-09-06,38,340!2024-08-27,94,380-->
 

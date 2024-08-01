@@ -115,7 +115,7 @@ tags:
 > 1. Head
 > 2. Tail
 >
-> - solution: {{1}} <!--SR:!2024-08-01,51,310-->
+> - solution: {{1}} <!--SR:!2025-01-06,158,310-->
 
 <!-- markdownlint MD028 -->
 

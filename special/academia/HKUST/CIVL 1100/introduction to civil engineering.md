@@ -27,7 +27,7 @@ The content is in teaching order.
   - [engineer types](#engineer%20types)
   - differences between engineers and scientists ::: Scientists understand nature and make predictions, while engineers use scientific data and knowledge to design cities and protect us from nature. <!--SR:!2025-08-09,384,299!2024-12-02,192,330-->
 - civil engineering ::: construction, design, maintenance, and planning of the built environment, including buildings and infrastructure <!--SR:!2024-10-23,113,300!2025-06-01,315,380-->
-  - "civil" meaning ::: "Civil" distinguishes non-military from military purposes. <!--SR:!2025-05-09,327,350!2024-07-31,81,377-->
+  - "civil" meaning ::: "Civil" distinguishes non-military from military purposes. <!--SR:!2025-05-09,327,350!2025-09-22,417,397-->
   - civil engineer characteristics ::: problem solvers <!--SR:!2024-09-28,122,335!2024-12-24,182,352-->
   - civil engineering characteristics ::: Oldest engineering discipline. Takes place on all levels, from municipal to nationals in the public sector, from homeowners to international companies in the private sector. <!--SR:!2025-01-14,171,301!2025-05-20,310,380-->
   - built environment ::: man-made using materials and natural resources, benefiting mankind, with environment protection and prudent urban planning <!--SR:!2024-08-13,81,312!2024-12-30,218,330-->
@@ -92,11 +92,11 @@ The content is in teaching order.
     - [materials engineering material examples](#materials%20engineering%20material%20examples)
   - materials engineering repair ::: design of materials and methods to repair <!--SR:!2025-05-24,339,350!2024-08-09,90,375-->
     - materials engineering repair examples ::: fiber reinforced polymer retrofit system, retrofit using damper, slab retrofit using steel plate and carbon fiber reinforced polymer <!--SR:!2024-09-07,92,320!2024-10-17,135,332-->
-- construction engineering ::: planning and execution of the designs from other fields of engineers <!--SR:!2024-08-25,90,317!2024-08-01,84,374-->
+- construction engineering ::: planning and execution of the designs from other fields of engineers <!--SR:!2024-08-25,90,317!2025-10-04,429,394-->
   - [construction engineer skills](#construction%20engineer%20skills)
   - [construction engineer jobs](#construction%20engineer%20jobs)
 - civil engineer prospects ::: A civil engineering degree prepares one for work in the construction industry and the broader business, financial, and management sectors. <!--SR:!2024-10-09,164,325!2025-03-14,281,350-->
-  - civil engineer demand ::: Civil engineer are always in demand due to new infrastructure and maintenance and monitoring of existing ones. <!--SR:!2024-07-31,78,360!2025-09-09,407,397-->
+  - civil engineer demand ::: Civil engineer are always in demand due to new infrastructure and maintenance and monitoring of existing ones. <!--SR:!2025-08-20,384,380!2025-09-09,407,397-->
   - [civil engineer prospect examples](#civil%20engineer%20prospect%20examples)
   - civil engineer organization examples ::: contractors or construction companies, engineering consulting firms, government (working as civil servants) <!--SR:!2025-03-25,247,285!2025-03-18,266,330-->
     - civil government departments in [Hong Kong](../../../../general/Hong%20Kong.md) ::: Architectural Services Department (ArchSD), Buildings Department (BD), Housing Department (HD) <!--SR:!2024-09-25,120,332!2024-08-22,101,375-->
@@ -148,7 +148,7 @@ quantity surveyor
 - consulting environmental engineer→:::←consulting geo-technical engineer <!--SR:!2024-10-16,105,265!2024-09-02,112,306-->
 - consulting geo-technical engineer→:::←consulting structural engineer <!--SR:!2025-01-06,179,315!2024-08-14,80,317-->
 - consulting structural engineer→:::←contracting civil engineer <!--SR:!2024-09-11,108,335!2024-08-23,88,315-->
-- contracting civil engineer→:::←engineering geologist <!--SR:!2024-09-28,102,297!2024-08-01,69,315-->
+- contracting civil engineer→:::←engineering geologist <!--SR:!2024-09-28,102,297!2024-09-04,34,295-->
 - engineering geologist→:::←environmental consultant <!--SR:!2024-10-25,125,305!2024-08-24,92,305-->
 - environmental consultant→:::←quantity surveyor <!--SR:!2024-08-02,26,320!2024-08-11,58,280-->
 - quantity surveyor→:::←_(end)_ <!--SR:!2025-01-10,187,340!2024-09-02,35,340-->
@@ -199,8 +199,8 @@ water and sewage treatment system
 - power plant→:::←reservoir <!--SR:!2025-01-10,164,275!2024-09-05,91,320-->
 - reservoir→:::←sewage treatment <!--SR:!2024-09-21,62,197!2024-09-05,75,261-->
 - sewage treatment→:::←transport <!--SR:!2024-08-11,13,210!2024-12-13,152,301-->
-- transport→:::←water and sewage treatment system <!--SR:!2024-11-05,137,340!2024-08-01,11,150-->
-- water and sewage treatment system→:::←_(end)_ <!--SR:!2024-08-25,93,381!2024-08-01,69,361-->
+- transport→:::←water and sewage treatment system <!--SR:!2024-11-05,137,340!2024-08-17,16,150-->
+- water and sewage treatment system→:::←_(end)_ <!--SR:!2024-08-25,93,381!2025-04-10,252,361-->
 
 <!--/pytextgen-->
 
@@ -280,7 +280,7 @@ workmanship
 - _(begin)_→:::←budgeting <!--SR:!2025-01-11,187,341!2024-09-06,105,380-->
 - budgeting→:::←construction management <!--SR:!2024-09-02,35,300!2024-08-30,98,335-->
 - construction management→:::←economics <!--SR:!2024-10-17,98,235!2024-08-21,81,300-->
-- economics→:::←impacts to surrounding <!--SR:!2024-08-09,71,300!2024-08-01,11,240-->
+- economics→:::←impacts to surrounding <!--SR:!2024-08-09,71,300!2024-08-24,23,240-->
 - impacts to surrounding→:::←lifecycle <!--SR:!2024-08-06,74,320!2024-08-22,82,320-->
 - lifecycle→:::←maintenance <!--SR:!2024-10-13,106,297!2024-08-08,74,312-->
 - maintenance→:::←politics <!--SR:!2024-08-05,15,241!2024-08-12,80,312-->
@@ -455,12 +455,12 @@ testing materials
 - _(begin)_→:::←budgeting <!--SR:!2024-10-31,140,327!2025-04-08,277,375-->
 - budgeting→:::←contracting <!--SR:!2024-08-25,87,314!2024-11-08,146,327-->
 - contracting→:::←designing temporary structures <!--SR:!2025-01-10,173,215!2024-08-28,62,275-->
-- designing temporary structures→:::←logistics <!--SR:!2024-10-03,124,340!2024-07-31,68,297-->
+- designing temporary structures→:::←logistics <!--SR:!2024-10-03,124,340!2024-09-07,37,277-->
 - logistics→:::←planning <!--SR:!2024-08-11,21,274!2024-09-28,120,335-->
 - planning→:::←procuring materials <!--SR:!2025-01-24,186,317!2024-08-10,65,277-->
 - procuring materials→:::←quality assurance <!--SR:!2024-08-02,58,300!2024-08-22,77,281-->
 - quality assurance→:::←quality control <!--SR:!2024-10-31,150,357!2025-01-13,182,352-->
-- quality control→:::←safety engineering <!--SR:!2024-08-01,65,301!2024-08-13,15,235-->
+- quality control→:::←safety engineering <!--SR:!2025-02-12,195,301!2024-08-13,15,235-->
 - safety engineering→:::←scheduling <!--SR:!2024-08-25,82,320!2024-10-01,120,340-->
 - scheduling→:::←surveying building site <!--SR:!2024-08-18,60,241!2024-10-16,116,300-->
 - surveying building site→:::←testing materials <!--SR:!2024-08-04,33,260!2024-08-10,27,272-->
@@ -499,9 +499,9 @@ teaming up with others
 <!--pytextgen generate section="ee20"--><!-- The following content is generated at 2024-02-16T21:59:47.378182+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←business procedures <!--SR:!2024-11-02,111,252!2024-09-08,107,381-->
-- business procedures→:::←economics <!--SR:!2024-08-04,46,261!2024-07-31,68,285-->
+- business procedures→:::←economics <!--SR:!2024-08-04,46,261!2025-02-10,193,285-->
 - economics→:::←human behaviors <!--SR:!2024-08-16,78,320!2024-10-23,131,340-->
-- human behaviors→:::←management principles <!--SR:!2024-08-07,47,300!2024-08-01,35,260-->
+- human behaviors→:::←management principles <!--SR:!2024-08-07,47,300!2024-11-04,95,260-->
 - management principles→:::←strong communication skills <!--SR:!2024-08-12,74,301!2024-09-05,96,320-->
 - strong communication skills→:::←teaming up with others <!--SR:!2024-11-07,138,340!2024-08-23,91,380-->
 - teaming up with others→:::←_(end)_ <!--SR:!2025-05-28,321,375!2024-08-31,73,272-->
@@ -591,7 +591,7 @@ nuclear
 <!--pytextgen generate section="ee13"--><!-- The following content is generated at 2024-04-23T18:07:51.639356+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←agricultural <!--SR:!2024-09-22,136,310!2024-08-13,94,372-->
-- agricultural→:::←architectural <!--SR:!2025-01-31,212,357!2024-08-01,84,372-->
+- agricultural→:::←architectural <!--SR:!2025-01-31,212,357!2025-06-08,311,372-->
 - architectural→:::←biomedical <!--SR:!2024-11-04,144,337!2024-11-25,152,340-->
 - biomedical→:::←ceramic <!--SR:!2024-11-05,133,320!2024-09-25,114,337-->
 - ceramic→:::←chemical <!--SR:!2024-12-15,154,320!2024-09-24,119,335-->
@@ -674,8 +674,8 @@ socioeconomic
 - _(begin)_→:::←biological <!--SR:!2024-08-08,76,327!2025-09-04,404,394-->
 - biological→:::←chemical <!--SR:!2024-10-04,126,337!2025-03-18,247,357-->
 - chemical→:::←cultural <!--SR:!2024-11-18,119,280!2024-11-27,173,357-->
-- cultural→:::←physical <!--SR:!2024-10-14,138,345!2024-07-31,64,300-->
-- physical→:::←socioeconomic <!--SR:!2024-08-25,33,277!2024-07-31,68,361-->
+- cultural→:::←physical <!--SR:!2024-10-14,138,345!2024-09-04,34,280-->
+- physical→:::←socioeconomic <!--SR:!2024-08-25,33,277!2025-04-02,244,361-->
 - socioeconomic→:::←_(end)_ <!--SR:!2024-12-29,187,354!2024-09-24,90,277-->
 
 <!--/pytextgen-->
@@ -744,7 +744,7 @@ tunnel
 - embankment→:::←pile foundation <!--SR:!2024-10-10,116,320!2025-02-18,218,360-->
 - pile foundation→:::←shallow foundation <!--SR:!2025-01-07,170,317!2025-01-04,191,355-->
 - shallow foundation→:::←tunnel <!--SR:!2024-10-08,104,321!2024-08-13,23,212-->
-- tunnel→:::←_(end)_ <!--SR:!2025-01-15,195,350!2024-08-01,67,317-->
+- tunnel→:::←_(end)_ <!--SR:!2025-01-15,195,350!2024-09-04,34,297-->
 
 <!--/pytextgen-->
 
@@ -952,7 +952,7 @@ wave
 - _(begin)_→:::←earthquake <!--SR:!2024-11-11,142,340!2025-02-25,240,357-->
 - earthquake→:::←fire <!--SR:!2024-09-28,117,335!2025-04-04,255,360-->
 - fire→:::←flood <!--SR:!2024-11-25,155,324!2024-09-05,104,266-->
-- flood→:::←strong wind <!--SR:!2024-08-01,63,320!2024-11-10,112,297-->
+- flood→:::←strong wind <!--SR:!2024-09-01,31,300!2024-11-10,112,297-->
 - strong wind→:::←wave <!--SR:!2025-01-11,218,290!2024-10-07,107,294-->
 - wave→:::←_(end)_ <!--SR:!2025-01-03,199,357!2025-02-17,210,315-->
 
@@ -1056,7 +1056,7 @@ Hong Kong Code
 - Australian Standard→:::←Chinese Code <!--SR:!2024-12-05,160,327!2025-02-16,233,357-->
 - Chinese Code→:::←Eurocode <!--SR:!2024-10-14,128,335!2025-03-30,252,357-->
 - Eurocode→:::←Hong Kong Code <!--SR:!2025-03-11,258,376!2024-11-26,168,357-->
-- Hong Kong Code→:::←_(end)_ <!--SR:!2024-08-01,82,367!2025-02-21,263,350-->
+- Hong Kong Code→:::←_(end)_ <!--SR:!2025-09-17,412,387!2025-02-21,263,350-->
 
 <!--/pytextgen-->
 
@@ -1229,7 +1229,7 @@ water treatment
 - _(begin)_→:::←groundwater quality control <!--SR:!2024-10-04,123,340!2024-11-29,175,357-->
 - groundwater quality control→:::←wastewater recycling <!--SR:!2024-08-28,32,275!2024-08-05,25,280-->
 - wastewater recycling→:::←wastewater treatment <!--SR:!2024-11-03,131,315!2025-01-16,186,317-->
-- wastewater treatment→:::←water quality monitoring <!--SR:!2024-08-01,51,280!2024-12-07,157,315-->
+- wastewater treatment→:::←water quality monitoring <!--SR:!2024-12-21,142,280!2024-12-07,157,315-->
 - water quality monitoring→:::←water treatment <!--SR:!2024-11-12,148,324!2024-09-20,117,334-->
 - water treatment→:::←_(end)_ <!--SR:!2025-03-13,240,354!2024-12-09,141,266-->
 

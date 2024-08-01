@@ -45,7 +45,7 @@ Example quiz questions for preparing exams.
 > 3. Urban residential
 > 4. Public parks
 >
-> - solution: {{1}} <!--SR:!2024-08-01,55,312-->
+> - solution: {{1}} <!--SR:!2025-01-18,170,312-->
 
 <!-- markdownlint MD028 -->
 
@@ -123,7 +123,7 @@ Example quiz questions for preparing exams.
 > 3. To enhance coagulation and flocculation
 > 4. To remove odor
 >
-> - solution: {{3}} <!--SR:!2024-08-01,52,292-->
+> - solution: {{3}} <!--SR:!2025-02-26,209,312-->
 
 <!-- markdownlint MD028 -->
 

@@ -112,7 +112,7 @@ segmented: splitting slightly different customer segments
 - diversified: serving unrelated customer segments→:::←mass market: not distinguishing between customer segments <!--SR:!2024-09-10,84,237!2024-09-21,96,254-->
 - mass market: not distinguishing between customer segments→:::←multi-sided platforms: serving interdependent customer segments <!--SR:!2024-08-03,73,274!2024-09-12,109,297-->
 - multi-sided platforms: serving interdependent customer segments→:::←niche market: focusing on specific, specialized customer segments <!--SR:!2024-10-27,120,257!2024-09-12,79,254-->
-- niche market: focusing on specific, specialized customer segments→:::←segmented: splitting slightly different customer segments <!--SR:!2024-09-30,100,254!2024-07-31,4,197-->
+- niche market: focusing on specific, specialized customer segments→:::←segmented: splitting slightly different customer segments <!--SR:!2024-09-30,100,254!2024-08-03,2,177-->
 - segmented: splitting slightly different customer segments→:::←_(end)_ <!--SR:!2025-01-22,185,274!2024-10-31,116,254-->
 
 <!--/pytextgen-->
@@ -267,8 +267,8 @@ subscription fee
 - advertising→:::←asset sale <!--SR:!2024-10-07,130,294!2024-11-28,167,317-->
 - asset sale→:::←brokerage fee <!--SR:!2024-12-04,152,274!2024-08-28,50,254-->
 - brokerage fee→:::←lending, renting, or leasing <!--SR:!2024-08-18,28,237!2024-10-31,121,254-->
-- lending, renting, or leasing→:::←licensing <!--SR:!2024-08-23,87,257!2024-08-01,71,274-->
-- licensing→:::←usage fee <!--SR:!2024-08-10,76,274!2024-07-31,68,274-->
+- lending, renting, or leasing→:::←licensing <!--SR:!2024-08-23,87,257!2024-09-05,35,254-->
+- licensing→:::←usage fee <!--SR:!2024-08-10,76,274!2024-08-31,30,254-->
 - usage fee→:::←subscription fee <!--SR:!2024-10-16,111,254!2024-08-04,74,277-->
 - subscription fee→:::←_(end)_ <!--SR:!2024-11-06,142,294!2024-10-29,132,277-->
 

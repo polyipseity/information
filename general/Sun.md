@@ -14,8 +14,8 @@ tags:
 The __Sun__ is {{the [star](star.md) at the center of the [Solar System](Solar%20System.md)}}. <!--SR:!2024-08-10,14,300-->
 
 - equatorial [radius](radius.md) ::: 696&nbsp;300&nbsp;[km](kilometre.md), 432&nbsp;700&nbsp;[mi](mile.md), 109&nbsp;[Earth radii](Earth%20radius.md) <!--SR:!2024-08-02,3,240!2024-08-06,10,280-->
-- [luminosity](luminosity.md) ::: 3.828×10<sup>26</sup>&nbsp;[W](watt.md), 3.75×10<sup>28</sup>&nbsp;[lm](lumen%20(unit).md), 98&nbsp;lm/W [efficacy](luminous%20efficacy.md) <!--SR:!2024-08-01,2,220!2024-08-01,5,260-->
-- [mass](mass.md) ::: 1.9885×10<sup>30</sup>&nbsp;[kg](kilogram.md), 4.3839×10<sup>30</sup>&nbsp;[lbs](pound%20(mass).md), 332&nbsp;950&nbsp;[Earths](Earth%20mass.md) <!--SR:!2024-07-31,1,200!2024-08-04,8,260-->
+- [luminosity](luminosity.md) ::: 3.828×10<sup>26</sup>&nbsp;[W](watt.md), 3.75×10<sup>28</sup>&nbsp;[lm](lumen%20(unit).md), 98&nbsp;lm/W [efficacy](luminous%20efficacy.md) <!--SR:!2024-08-05,4,220!2024-08-20,19,280-->
+- [mass](mass.md) ::: 1.9885×10<sup>30</sup>&nbsp;[kg](kilogram.md), 4.3839×10<sup>30</sup>&nbsp;[lbs](pound%20(mass).md), 332&nbsp;950&nbsp;[Earths](Earth%20mass.md) <!--SR:!2024-08-04,3,220!2024-08-04,8,260-->
 
 ## structure and fusion
 
