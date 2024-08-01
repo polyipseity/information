@@ -46,12 +46,12 @@ return await memorize_seq(
 
 - _(begin)_→:::←The orbit of a [planet](planet.md) is an [ellipse](ellipse.md) with the [Sun](Sun.md) as one of the two [foci](focus%20(geometry).md): $r=\frac{p}{1+\epsilon\cos\theta}$ <!--SR:!2024-08-15,109,230!2024-10-10,399,330-->
 - The orbit of a [planet](planet.md) is an [ellipse](ellipse.md) with the [Sun](Sun.md) as one of the two [foci](focus%20(geometry).md): $r=\frac{p}{1+\epsilon\cos\theta}$→:::←A [line segment](line%20segment.md) joining a [planet](planet.md) and the [Sun](Sun.md) sweeps out equal areas in equal intervals of time: $\frac{\mathrm{d}A}{\mathrm{d}t}=\frac{r^2}2\frac{\mathrm{d}\theta}{\mathrm{d}t}$ <!--SR:!2025-06-23,515,290!2025-02-06,261,270-->
-- A [line segment](line%20segment.md) joining a [planet](planet.md) and the [Sun](Sun.md) sweeps out equal areas in equal intervals of time: $\frac{\mathrm{d}A}{\mathrm{d}t}=\frac{r^2}2\frac{\mathrm{d}\theta}{\mathrm{d}t}$→:::←The square of the planetary [orbital period](orbital%20period.md) is proportional to the cube of the [semi-major axis](semi-major%20and%20semi-minor%20axes.md) of the orbit: $T^2=\frac{4\pi^2}{G(M + m)}a^3$ <!--SR:!2025-05-05,483,290!2024-08-01,277,270-->
+- A [line segment](line%20segment.md) joining a [planet](planet.md) and the [Sun](Sun.md) sweeps out equal areas in equal intervals of time: $\frac{\mathrm{d}A}{\mathrm{d}t}=\frac{r^2}2\frac{\mathrm{d}\theta}{\mathrm{d}t}$→:::←The square of the planetary [orbital period](orbital%20period.md) is proportional to the cube of the [semi-major axis](semi-major%20and%20semi-minor%20axes.md) of the orbit: $T^2=\frac{4\pi^2}{G(M + m)}a^3$ <!--SR:!2025-05-05,483,290!2026-08-18,747,270-->
 - The square of the planetary [orbital period](orbital%20period.md) is proportional to the cube of the [semi-major axis](semi-major%20and%20semi-minor%20axes.md) of the orbit: $T^2=\frac{4\pi^2}{G(M + m)}a^3$→:::←_(end)_ <!--SR:!2024-10-20,407,330!2025-07-14,501,270-->
 
 <!--/pytextgen-->
 
-{{[Issac Newton](Issac%20Newton.md) showed in 1687 (about 60 years later)}} that the above laws apply as {{a consequence of his own [laws of motion](Newton's%20laws%20of%20motion.md) and [law of universal gravitation](Newton's%20law%20of%20universal%20gravitation.md)}}. <!--SR:!2024-08-01,14,230!2024-10-01,75,330-->
+{{[Issac Newton](Issac%20Newton.md) showed in 1687 (about 60 years later)}} that the above laws apply as {{a consequence of his own [laws of motion](Newton's%20laws%20of%20motion.md) and [law of universal gravitation](Newton's%20law%20of%20universal%20gravitation.md)}}. <!--SR:!2024-08-08,7,210!2024-10-01,75,330-->
 
 ## history
 

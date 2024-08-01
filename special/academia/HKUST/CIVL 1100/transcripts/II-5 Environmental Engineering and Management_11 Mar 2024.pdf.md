@@ -24,7 +24,7 @@ Environmental Engineering and Management
 
 What is Environmental Engineering?
 
-- What is environmental engineering? ::: Apply science and engineering principles to solve environmental problems. <!--SR:!2024-08-01,56,310!2024-11-20,136,310-->
+- What is environmental engineering? ::: Apply science and engineering principles to solve environmental problems. <!--SR:!2025-03-27,238,330!2024-11-20,136,310-->
   - environmental engineering relevance ::: practical and lots of satisfaction, prevent environment deterioration, related to daily life <!--SR:!2024-12-18,148,310!2025-01-17,180,310-->
 
 ## page 3
@@ -64,7 +64,7 @@ return await memorize_seq(
 - air pollution→:::←land contamination <!--SR:!2024-09-23,82,270!2024-08-03,58,310-->
 - land contamination→:::←noise pollution <!--SR:!2024-09-19,53,270!2024-09-03,68,270-->
 - noise pollution→:::←solid waste disposal <!--SR:!2024-09-16,76,270!2024-11-18,126,290-->
-- solid waste disposal→:::←water pollution <!--SR:!2024-12-15,140,290!2024-07-31,15,210-->
+- solid waste disposal→:::←water pollution <!--SR:!2024-12-15,140,290!2024-08-10,9,190-->
 - water pollution→:::←_(end)_ <!--SR:!2024-12-20,145,310!2025-01-11,174,310-->
 
 <!--/pytextgen-->
@@ -199,7 +199,7 @@ Sustainable Waste Management
 3Rs Concept
 
 - 3Rs ::: (highest priority) reduce, reuse, recycle (lowest priority) <!--SR:!2024-08-21,73,310!2024-08-15,67,310-->
-  - reduce ::: reduce the amount of solid waste generation <!--SR:!2024-07-31,55,310!2024-08-06,60,310-->
+  - reduce ::: reduce the amount of solid waste generation <!--SR:!2025-03-24,235,330!2024-08-06,60,310-->
   - reuse ::: multiple uses of an item in its original form with or without reconditioning <!--SR:!2025-01-12,168,310!2025-01-05,161,310-->
   - recycle ::: materials are collected and recovered to be used as raw material <!--SR:!2024-11-14,121,290!2024-08-07,60,310-->
     - recycle example ::: plastic bottle (PET or HDPE) -> chips -> fiber -> T-shirt or bag <!--SR:!2024-12-11,141,290!2024-08-02,57,310-->
@@ -226,7 +226,7 @@ Will this waste charging scheme waste generation?
 
 Environmental Levy Scheme (Plastic Shopping Bags)
 
-- Environmental Levy Scheme ::: scheme to reduce plastic shopping bags <!--SR:!2024-08-01,56,310!2024-08-13,65,310-->
+- Environmental Levy Scheme ::: scheme to reduce plastic shopping bags <!--SR:!2025-03-28,239,330!2024-08-13,65,310-->
   - Environmental Levy Scheme launch time ::: launched in 2009 <!--SR:!2024-10-05,83,290!2024-08-08,61,310-->
   - Environmental Levy Scheme coverage ::: 40 registered retailers with ~3100 retail outlets <!--SR:!2024-09-28,85,270!2024-12-16,146,310-->
   - Environmental Levy Scheme effect ::: -90% from registered retailers after 1 year. -25% in overall plastic bag consumption after covering all retail shops in 2015 <!--SR:!2024-09-05,68,270!2024-12-27,150,290-->
@@ -242,7 +242,7 @@ Water Pollution: A serious problem in Hong Kong?
 
 Hong Kong Harbour Area Treatment Scheme Stage I (HATS)
 
-- Hong Kong Harbour Area Treatment Scheme Stage I ::: HATS Stage 1 <!--SR:!2024-07-31,56,310!2024-08-07,61,310-->
+- Hong Kong Harbour Area Treatment Scheme Stage I ::: HATS Stage 1 <!--SR:!2025-03-26,237,330!2024-08-07,61,310-->
   - HATS Stage 1 scheme period ::: 1994 to 2001 <!--SR:!2024-11-10,117,290!2024-08-24,34,250-->
   - HATS Stage 1 scheme cost ::: HK$8.2 billion <!--SR:!2024-10-20,101,290!2024-10-01,85,270-->
   - HATS Stage 1 details ::: Stonecutters Island Sewage Treatment Works (SCISTW), sewage tunnel of 23.6 km, upgrade 8 preliminary treatment works (PTWs) <!--SR:!2024-10-10,93,270!2024-08-04,58,310-->
@@ -294,7 +294,7 @@ Noise Pollution: A serious problem in Hong Kong?
 
 Noise Levels and Causes
 
-- noise level measure ::: sound pressure level, in dB(A) <!--SR:!2024-12-20,159,310!2024-08-01,56,310-->
+- noise level measure ::: sound pressure level, in dB(A) <!--SR:!2024-12-20,159,310!2025-04-01,243,330-->
   - airplane passing ::: 120 dB(A) <!--SR:!2024-08-08,62,310!2024-08-09,63,310-->
   - construction site ::: 110 dB(A) <!--SR:!2024-10-20,103,290!2024-08-19,71,310-->
   - concert ::: 100 dB(A) <!--SR:!2024-08-16,68,310!2024-08-15,68,310-->
@@ -411,7 +411,7 @@ Observed climate change in Hong Kong
 
 - climate change consequences in Hong Kong ::: rainfall become more variable, sea level rises, temperature increases <!--SR:!2024-11-29,130,290!2024-08-10,63,310-->
   - temperature increases consequences ::: less cold days, more very hot days and hot nights <!--SR:!2024-08-05,59,310!2024-08-15,68,310-->
-  - rainfall become more variable consequences ::: probability of rainfall extremes increases <!--SR:!2024-07-31,55,310!2025-01-12,175,310-->
+  - rainfall become more variable consequences ::: probability of rainfall extremes increases <!--SR:!2025-03-23,234,330!2025-01-12,175,310-->
   - climate change example in Hong Kong ::: On 2017-08-22, max temperature reaches 36.6 °C in the Hong Kong Observatory headquarters, coinciding with the super typhoon Hato. <!--SR:!2024-08-02,49,250!2024-08-12,65,310-->
 
 ## page 33
@@ -437,7 +437,7 @@ Relationship between PPM and mg/L
 - relationship between ppm<sub>w</sub> and mg/L for other solutions
   - relationship between ppm<sub>w</sub> and mg/L examples
   - relationship between ppm<sub>w</sub> and mg/L for other solutions ::: 1 mg/L = (1 / SG) ppm<sub>w</sub> <!--SR:!2024-11-04,113,290!2025-01-08,163,310-->
-- specific gravity (SG) of a mixture ::: density of mixture divided by density of water <!--SR:!2024-07-31,56,310!2024-08-13,65,310-->
+- specific gravity (SG) of a mixture ::: density of mixture divided by density of water <!--SR:!2025-04-03,245,330!2024-08-13,65,310-->
 
 ## page 36
 
@@ -459,5 +459,5 @@ Relationship between ppm<sub>v</sub> and mg/m<sup>3</sup>
 Relationship between ppm<sub>v</sub> and mg/m<sup>3</sup>
 
 - relationship between ppm<sub>v</sub> and mg/m<sup>3</sup>
-  - relationship between ppm<sub>v</sub> and mg/m<sup>3</sup> at 0 °C and 1 atm ::: $$\mathrm{conc.\ \left(mg/m^3\right)} = \frac {\mathrm{conc.\ (ppm_v)} \times \mathrm{mol.\ wt.\ (g/mol)} } {22.414\mathrm{\ (L/mol)} }$$ <!--SR:!2024-08-01,56,310!2024-11-07,116,290-->
+  - relationship between ppm<sub>v</sub> and mg/m<sup>3</sup> at 0 °C and 1 atm ::: $$\mathrm{conc.\ \left(mg/m^3\right)} = \frac {\mathrm{conc.\ (ppm_v)} \times \mathrm{mol.\ wt.\ (g/mol)} } {22.414\mathrm{\ (L/mol)} }$$ <!--SR:!2024-08-30,29,290!2024-11-07,116,290-->
   - relationship between ppm<sub>v</sub> and mg/m<sup>3</sup> at other temperature and pressure ::: $$\mathrm{conc.\ \left(mg/m^3\right)} = \frac {\mathrm{conc.\ (ppm_v)} \times \mathrm{mol.\ wt.\ (g/mol)} } {\mathrm{22.414\ (L/mol)} } \times \frac {273.15\mathrm{\ K} } {T\mathrm{\ (K)} } \times \frac {p\mathrm{\ (atm)} } {1\mathrm{\ atm} }$$ <!--SR:!2024-10-11,94,270!2024-10-07,95,290-->

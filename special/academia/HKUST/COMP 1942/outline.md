@@ -24,7 +24,7 @@ The content is in teaching order.
 - 6 major topics ::: association, clustering, classification, data warehouse, dimension reduction, web database <!--SR:!2025-02-23,224,250!2025-01-13,260,330-->
 - association ::: Finding frequent _patterns_, e.g. frequent items and _item sets_, and _association rules_, e.g. the likelihood of A implying B. <!--SR:!2024-08-25,132,290!2024-11-21,218,330-->
 - clustering ::: Finding all _clusters_, e.g. the clusters of items after graphing them in a 2D graph. <!--SR:!2024-11-05,191,310!2025-02-08,282,330-->
-- classification ::: _Predict_ results given some input data, e.g. decision trees. <!--SR:!2024-08-01,115,290!2025-02-16,286,330-->
+- classification ::: _Predict_ results given some input data, e.g. decision trees. <!--SR:!2025-11-06,462,310!2025-02-16,286,330-->
 - data warehouse ::: Knowledge database containing _pre-computed_ results from data sources. <!--SR:!2024-10-09,180,310!2024-09-17,154,310-->
 - dimension reduction ::: Reducing _dimensionality_ while minimizing _information loss_. One can visualize this by imagine many data points lying close to a line in a $xy$ graph. Then instead of representing each data point with two numbers, $x$ and $y$, we can represent each data point with one number representing the distance from the origin to the point on the line closest to the original data point. Information loss is the distance between the original point and the point on the line closest to the origin point. <!--SR:!2025-06-27,333,290!2024-11-16,199,310-->
 - web database ::: Using data from the web, e.g. ranking webpages. <!--SR:!2025-02-05,278,330!2025-02-28,295,330-->
@@ -140,7 +140,7 @@ The content is in teaching order.
 
 - time: 2024-03-11T09:00:00+08:00/2024-03-11T10:30:00+08:00
 - [entropy](../../../../general/entropy%20(information%20theory).md)
-- decision tree format ::: All nodes show the percentage of actual labels in that decision nodes. The internal nodes show the attribute being split on. The terminal nodes show the predicted label. Arrows point from top to bottom, and each is labelled with an inequality operating on the attribute, which decides whether an sample being predicted should go through said arrow. <!--SR:!2024-07-31,36,337!2024-11-07,102,317-->
+- decision tree format ::: All nodes show the percentage of actual labels in that decision nodes. The internal nodes show the attribute being split on. The terminal nodes show the predicted label. Arrows point from top to bottom, and each is labelled with an inequality operating on the attribute, which decides whether an sample being predicted should go through said arrow. <!--SR:!2024-11-29,120,337!2024-11-07,102,317-->
 - [decision tree learning § algorithms](../../../../general/decision%20tree%20learning.md#algorithms)
   - decision tree learning algorithms ::: We only teach ID3 algorithm, C4.5 algorithm, and CART. <!--SR:!2025-07-22,366,371!2025-01-27,225,347-->
 - [ID3 § algorithm](../../../../general/ID3%20algorithm.md#algorithm)
@@ -309,7 +309,7 @@ The content is in teaching order.
     - step function threshold ::: _θ_ = 0 <!--SR:!2024-10-18,102,377!2024-10-25,108,377-->
   - [§ rectifier](../../../../general/artificial%20neuron.md#rectifier)
   - [§ sigmoid](../../../../general/artificial%20neuron.md#sigmoid)
-    - sigmoid function variants ::: [logistic function](../../../../general/logistic%20function.md) with _L_ = 1, _k = 1_, and _x_<sub>0</sub> = 0: $$y = \frac 1 {1 + e^{-u} }$$, [hyperbolic tangent](../../../../general/hyperbolic%20functions.md) ($\tanh$): $$y = \frac {\sinh u} {\cosh u} = \frac {e^u - e^{-u} } {e^u + e^{-u} } = \frac {e^{2u} - 1} {e^{2u} + 1}$$ <!--SR:!2024-08-01,37,337!2024-08-26,57,357-->
+    - sigmoid function variants ::: [logistic function](../../../../general/logistic%20function.md) with _L_ = 1, _k = 1_, and _x_<sub>0</sub> = 0: $$y = \frac 1 {1 + e^{-u} }$$, [hyperbolic tangent](../../../../general/hyperbolic%20functions.md) ($\tanh$): $$y = \frac {\sinh u} {\cosh u} = \frac {e^u - e^{-u} } {e^u + e^{-u} } = \frac {e^{2u} - 1} {e^{2u} + 1}$$ <!--SR:!2024-12-03,124,337!2024-08-26,57,357-->
 - [perceptron](../../../../general/perceptron.md)
   - [§ steps](../../../../general/perceptron.md#steps)
     - perceptron stopping conditions ::: We can limit the maximum number of epochs, i.e. number of passes over the entire training dataset. We can also prematurely stop the training when the percentage error reaches below a threshold. <!--SR:!2024-08-31,62,357!2024-08-24,56,357-->

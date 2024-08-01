@@ -118,7 +118,7 @@ return await memorize_seq(
 
 Hydrostatic load refers to load caused by {{[water](water.md)}}. The load can be caused by {{pure water itself, or water in a material such as soil}}. <!--SR:!2025-04-04,248,330!2025-03-23,239,330-->
 
-For example, when there is {{water buildup in the soil}}, there is {{increased hydrostatic pressure on retaining walls}}. For pure water, examples include a {{[dam](dam.md), where deeper waters exert more horizontal hydrostatic pressure on the dam}}. <!--SR:!2024-08-03,61,310!2025-03-15,228,320!2024-07-31,59,310-->
+For example, when there is {{water buildup in the soil}}, there is {{increased hydrostatic pressure on retaining walls}}. For pure water, examples include a {{[dam](dam.md), where deeper waters exert more horizontal hydrostatic pressure on the dam}}. <!--SR:!2024-08-03,61,310!2025-03-15,228,320!2025-04-20,262,330-->
 
 #### lateral load
 
@@ -138,11 +138,11 @@ The consequences are {{partial or complete collapse of structural elements or en
 
 Thermal load refers to load {{caused by [temperature](temperature.md) changes leading to [thermal expansion](thermal%20expansion.md) (contraction) of structural and non-structural members}}. <!--SR:!2024-12-24,156,308-->
 
-For example, {{a beam in between two fixed support creates thermal load under heating as the beam expands}}. A solution would be {{making the beam a simply supported beam instead, with one side a pinned support and the other side a roller support}}. Then when thermal expansion occurs, {{the beam can expand in the direction of the roller support, relieving the thermal load}}. <!--SR:!2024-07-31,54,308!2024-08-12,68,310!2024-08-08,66,320-->
+For example, {{a beam in between two fixed support creates thermal load under heating as the beam expands}}. A solution would be {{making the beam a simply supported beam instead, with one side a pinned support and the other side a roller support}}. Then when thermal expansion occurs, {{the beam can expand in the direction of the roller support, relieving the thermal load}}. <!--SR:!2025-01-13,165,308!2024-08-12,68,310!2024-08-08,66,320-->
 
 #### wind load
 
-[Wind](wind.md) is {{movement of air}}. When wind moves past a building, {{wind changes in velocity}}. Then, {{the pressure of air changes}}. Positive pressure outside {{causes inward forces while negative causes outward (uplift for roof) forces}}. This is wind load. It also depends on {{building shape, wind direction, and wind speed}}. <!--SR:!2024-07-31,55,300!2025-01-18,186,310!2024-11-20,128,300!2025-03-10,223,320!2024-10-03,100,300-->
+[Wind](wind.md) is {{movement of air}}. When wind moves past a building, {{wind changes in velocity}}. Then, {{the pressure of air changes}}. Positive pressure outside {{causes inward forces while negative causes outward (uplift for roof) forces}}. This is wind load. It also depends on {{building shape, wind direction, and wind speed}}. <!--SR:!2025-03-21,232,320!2025-01-18,186,310!2024-11-20,128,300!2025-03-10,223,320!2024-10-03,100,300-->
 
 Wind load causes {{lateral deflection, which may further lead to toppling of the structure, such as collapse of bridges}}. Less serious consequences include {{damage to individual structural elements such as roofs, walls, and windows; and causes excessive building vibrations}}. <!--SR:!2024-08-06,63,320!2025-01-04,160,300-->
 

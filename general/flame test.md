@@ -82,10 +82,10 @@ return await memorize_map(
 <!--pytextgen generate section="2837ca"--><!-- The following content is generated at 2024-01-04T20:17:51.882656+08:00. Any edits will be overridden! -->
 
 - [calcium](calcium.md)::brick red, light green (through [cobalt blue glass](cobalt%20glass.md)) <!--SR:!2024-09-05,40,150-->
-- [copper](copper.md)(I)::blue-green <!--SR:!2024-07-31,10,130-->
+- [copper](copper.md)(I)::blue-green <!--SR:!2024-08-15,14,130-->
 - [copper](copper.md)(II)::green (non-halide), blue-green (halide) <!--SR:!2024-12-17,161,190-->
-- [iron](iron.md)(II)::blue (very hot), gold, green to orange-brown, sparks <!--SR:!2024-08-01,45,170-->
-- [iron](iron.md)(III)::orange-brown <!--SR:!2024-08-01,24,170-->
+- [iron](iron.md)(II)::blue (very hot), gold, green to orange-brown, sparks <!--SR:!2024-08-27,26,150-->
+- [iron](iron.md)(III)::orange-brown <!--SR:!2024-09-12,42,170-->
 - [magnesium](magnesium.md)::intense white <!--SR:!2024-08-06,196,270-->
 - [potassium](potassium.md)::lilac, invisible (through [cobalt blue glass](cobalt%20glass.md)) <!--SR:!2024-09-07,149,190-->
 - [sodium](sodium.md)::intense yellow, invisible (through [cobalt blue glass](cobalt%20glass.md)) <!--SR:!2024-08-03,185,190-->
@@ -98,7 +98,7 @@ return await memorize_map(
 - light green (through [cobalt blue glass](cobalt%20glass.md))::[calcium](calcium.md) <!--SR:!2025-04-16,449,250-->
 - blue-green::[copper](copper.md)(I) <!--SR:!2024-08-24,107,250-->
 - green (non-halide)::[copper](copper.md)(II) <!--SR:!2025-08-13,547,270-->
-- blue-green (halide)::[copper](copper.md)(II) <!--SR:!2024-08-01,352,290-->
+- blue-green (halide)::[copper](copper.md)(II) <!--SR:!2027-05-18,1020,290-->
 - blue (very hot)::[iron](iron.md)(II) <!--SR:!2024-10-19,406,290-->
 - gold::[iron](iron.md)(II) <!--SR:!2024-10-22,420,310-->
 - green to orange-brown::[iron](iron.md)(II) <!--SR:!2025-04-21,526,310-->

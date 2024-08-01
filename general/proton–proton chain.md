@@ -19,13 +19,13 @@ The __proton–proton chain__, also commonly referred to as the __p–p chain__,
 
 ## the proton–proton chain
 
-(Note that elements in the chemical equations are {{[ionized](ionization.md), so they are bare [nuclei](atomic%20nucleus.md)}}.) <!--SR:!2024-08-01,4,273-->
+(Note that elements in the chemical equations are {{[ionized](ionization.md), so they are bare [nuclei](atomic%20nucleus.md)}}.) <!--SR:!2024-08-18,17,293-->
 
 The first step in all the branches is {{the fusion of two [protons](proton.md) ([hydrogen](hydrogen.md)) into a [deuteron](deuteron.md)}}. As the protons fuse, {{one of them undergoes [β+ decay](positron%20emission.md), converting into a [neutron](neutron.md) by emitting a [positron](positron.md) and an [electron neutrino](electron%20neutrino.md)}} (though a small amount of deuterium nuclei is produced by the [PEP reaction](#the%20PEP%20reaction)): {{$$\mathrm{p} + \mathrm{p} \to {}_1^2 \mathrm{D} + \mathrm{e}^+ + \nu_{\mathrm{e} } + 0.42\text{ MeV}$$}}. <!--SR:!2024-08-03,4,275!2024-08-03,4,275!2024-08-03,4,275-->
 
 - 1st step / energy release ::: 0.42 MeV <!--SR:!2024-08-11,15,290!2024-08-03,7,250-->
 
-The [positron](positron.md) will {{[annihilate](annihilation.md) with an [electron](electron.md) from the environment into two [gamma rays](gamma%20ray.md). Including this annihilation and the energy of the neutrino}}, the net reaction {{$$\mathrm{p} + \mathrm{p} + \mathrm{e}^- \to {}_1^2 \mathrm{D} + \nu_{\mathrm{e} } + 2\, \gamma + 1.442\text{ MeV }$$}}, which is the same as the [PEP reaction](#the%20PEP%20reaction). The relative amounts of energy {{going to the neutrino and to the other products is variable}}. <!--SR:!2024-08-09,13,270!2024-08-03,7,250!2024-07-31,4,230-->
+The [positron](positron.md) will {{[annihilate](annihilation.md) with an [electron](electron.md) from the environment into two [gamma rays](gamma%20ray.md). Including this annihilation and the energy of the neutrino}}, the net reaction {{$$\mathrm{p} + \mathrm{p} + \mathrm{e}^- \to {}_1^2 \mathrm{D} + \nu_{\mathrm{e} } + 2\, \gamma + 1.442\text{ MeV }$$}}, which is the same as the [PEP reaction](#the%20PEP%20reaction). The relative amounts of energy {{going to the neutrino and to the other products is variable}}. <!--SR:!2024-08-09,13,270!2024-08-03,7,250!2024-08-16,15,250-->
 
 - 1st step + annihilation / energy release ::: 1.442 MeV <!--SR:!2024-08-03,4,275!2024-08-03,4,275-->
 
@@ -39,9 +39,9 @@ The overall reaction (noting that the elements are [ionized](ionization.md)) is:
 
 ### the p–p I branch
 
-The p–p I branch is: {{$${}_2^3\mathrm{He} + {}_2^3\mathrm{He} \to {}_2^4\mathrm{He} + 2\, {}_1^1\mathrm{H} + 12.859\text{ MeV}$$}}. The complete chain releases {{a net energy of 26.732 MeV}} but {{2.2 percent of this energy (0.59&nbsp;MeV) is lost to the [neutrinos](neutrino.md) that are produced}}. The p–p I branch is dominant {{at [temperatures](temperature.md) of 10 to 18&nbsp;MK. Below 10&nbsp;MK}}, the p–p chain proceeds at slow rate, resulting in {{a low production of <sup>4</sup>He}}. <!--SR:!2024-08-03,7,250!2024-07-31,2,190!2024-07-31,4,230!2024-08-09,13,270!2024-08-07,11,270-->
+The p–p I branch is: {{$${}_2^3\mathrm{He} + {}_2^3\mathrm{He} \to {}_2^4\mathrm{He} + 2\, {}_1^1\mathrm{H} + 12.859\text{ MeV}$$}}. The complete chain releases {{a net energy of 26.732 MeV}} but {{2.2 percent of this energy (0.59&nbsp;MeV) is lost to the [neutrinos](neutrino.md) that are produced}}. The p–p I branch is dominant {{at [temperatures](temperature.md) of 10 to 18&nbsp;MK. Below 10&nbsp;MK}}, the p–p chain proceeds at slow rate, resulting in {{a low production of <sup>4</sup>He}}. <!--SR:!2024-08-03,7,250!2024-08-02,1,170!2024-08-03,2,210!2024-08-09,13,270!2024-08-07,11,270-->
 
-- p–p I branch / energy release ::: 12.859 MeV <!--SR:!2024-07-31,1,235!2024-08-03,4,275-->
+- p–p I branch / energy release ::: 12.859 MeV <!--SR:!2024-08-02,1,215!2024-08-03,4,275-->
 
 ## references
 

@@ -158,7 +158,7 @@ return await memorize_map(
 <!--pytextgen generate section="ab2d"--><!-- The following content is generated at 2024-07-10T23:14:22.112551+08:00. Any edits will be overridden! -->
 
 - sine::$$\sin(2\theta)=2\sin\theta\cos\theta=(\sin\theta+\cos\theta)^2-1=\frac{2\tan\theta}{1+\tan^2\theta}$$ <!--SR:!2024-09-06,312,250-->
-- cosine::$$\cos(2\theta)=\cos^2\theta-\sin^2\theta=2\cos^2\theta-1=1-2\sin^2\theta=\frac{1-\tan^2\theta}{1+\tan^2\theta}$$ <!--SR:!2024-08-01,314,270-->
+- cosine::$$\cos(2\theta)=\cos^2\theta-\sin^2\theta=2\cos^2\theta-1=1-2\sin^2\theta=\frac{1-\tan^2\theta}{1+\tan^2\theta}$$ <!--SR:!2026-11-26,847,270-->
 - tangent::$$\tan(2\theta)=\frac{2\tan\theta}{1-\tan^2\theta}$$ <!--SR:!2025-04-12,474,250-->
 
 <!--/pytextgen-->
@@ -222,7 +222,7 @@ return await memorize_map(
 > [!example] examples
 >
 > - $\sin 4.2$ ::: $\operatorname{sgn}(\sin 4.2) \sqrt{\frac {1 - \cos 8.4} 2}$ <!--SR:!2024-08-08,18,296!2024-09-18,50,336-->
-> - $\cos (-3.6)$ ::: $\operatorname{sgn}(\cos 3.6) \sqrt{\frac {1 + \cos 7.2} 2}$ <!--SR:!2024-08-30,34,316!2024-08-01,18,336-->
+> - $\cos (-3.6)$ ::: $\operatorname{sgn}(\cos 3.6) \sqrt{\frac {1 + \cos 7.2} 2}$ <!--SR:!2024-08-30,34,316!2024-10-22,82,356-->
 > - $\tan (-3.14)$ (sine and cosine) ::: $\frac {\cos 6.28 - 1} {\sin 6.28} = -\frac {\sin 6.28} {1 + \cos 6.28}$ <!--SR:!2024-08-14,23,296!2024-08-21,30,316-->
 > - $\tan 3.42$ (cosine) ::: $\operatorname{sgn}(\sin 6.82) \sqrt{\frac {1 - \cos 6.82} {1 + \cos 6.82} }$ <!--SR:!2024-08-16,25,296!2024-08-08,18,276-->
 > - $\tan (-2.01)$ (addition) ::: $-\csc 4.02 + \cot 4.02$ <!--SR:!2024-09-11,46,336!2024-09-02,37,316-->
@@ -231,7 +231,7 @@ return await memorize_map(
 > - $\sec (-7.24)$ ::: $\operatorname{sgn}(\cos 7.24) \sqrt{\frac 2 {1 + \cos 14.48} }$ <!--SR:!2024-08-26,30,316!2024-09-16,49,336-->
 > - $\csc (-1.7)$ ::: $-\operatorname{sgn}(\sin 1.7) \sqrt{\frac 2 {1 - \cos 3.4} }$ <!--SR:!2024-08-27,31,316!2024-09-01,36,316-->
 > - $\cot 3.14$ (sine and cosine) ::: $\frac {1 + \cos 6.28} {\sin 6.28} = \frac {\sin 6.28} {1 - \cos 6.28}$ <!--SR:!2024-09-06,40,296!2024-08-22,30,316-->
-> - $\cot (-69)$ (cosine) ::: $-\operatorname{sgn}(\sin 138) \sqrt{\frac {1 + \cos 138} {1 - \cos 138} }$ <!--SR:!2024-08-09,19,296!2024-07-31,17,336-->
+> - $\cot (-69)$ (cosine) ::: $-\operatorname{sgn}(\sin 138) \sqrt{\frac {1 + \cos 138} {1 - \cos 138} }$ <!--SR:!2024-08-09,19,296!2024-09-29,59,336-->
 > - $\cot 17$ (addition) ::: $\csc 34 + \cot 34$ <!--SR:!2024-09-01,36,316!2024-08-02,19,336-->
 
 ## product-to-sum and sum-to-product

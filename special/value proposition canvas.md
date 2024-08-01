@@ -111,18 +111,18 @@ vagueness: vague jobs, pains, and gains
 
 - _(begin)_→:::←hyperfocus: focusing on functional jobs only <!--SR:!2024-08-11,62,229!2025-04-22,289,349-->
 - hyperfocus: focusing on functional jobs only→:::←insufficiency: not enough jobs, pains, and gains <!--SR:!2024-10-17,111,249!2025-01-01,163,269-->
-- insufficiency: not enough jobs, pains, and gains→:::←mix: mixing customer segments <!--SR:!2024-08-07,50,189!2024-08-01,5,130-->
+- insufficiency: not enough jobs, pains, and gains→:::←mix: mixing customer segments <!--SR:!2024-08-07,50,189!2024-08-09,8,130-->
 - mix: mixing customer segments→:::←mix: mixing jobs and outcomes <!--SR:!2024-09-29,112,289!2024-08-03,18,249-->
 - mix: mixing jobs and outcomes→:::←opposite: gains and pains are not opposite, gains are beyond expectation while pains are falling short of expectation <!--SR:!2024-08-14,18,245!2024-09-20,87,285-->
-- opposite: gains and pains are not opposite, gains are beyond expectation while pains are falling short of expectation→:::←reversed: listing jobs, pains, and gains from your product value propositions <!--SR:!2025-01-17,174,269!2024-08-01,25,249-->
-- reversed: listing jobs, pains, and gains from your product value propositions→:::←vagueness: vague jobs, pains, and gains <!--SR:!2024-09-05,40,169!2024-08-01,64,249-->
+- opposite: gains and pains are not opposite, gains are beyond expectation while pains are falling short of expectation→:::←reversed: listing jobs, pains, and gains from your product value propositions <!--SR:!2025-01-17,174,269!2024-08-16,15,229-->
+- reversed: listing jobs, pains, and gains from your product value propositions→:::←vagueness: vague jobs, pains, and gains <!--SR:!2024-09-05,40,169!2024-08-29,28,229-->
 - vagueness: vague jobs, pains, and gains→:::←_(end)_ <!--SR:!2025-03-14,236,329!2024-08-20,84,289-->
 
 <!--/pytextgen-->
 
 ### value map
 
-Products and services is {{simply a list of what you offer}}, and can also include {{supporting products and services}}. It can be {{physical, intangible, digital, or financial}}. It is important to recognize products and services do not {{create value by themselves (no intrinsic values), but in relationship with the customer segment}}. Note that products and services {{can have different relevance to your customers}}. <!--SR:!2025-01-24,209,310!2024-08-01,79,309!2024-09-21,99,269!2024-08-06,82,270!2024-10-26,138,309-->
+Products and services is {{simply a list of what you offer}}, and can also include {{supporting products and services}}. It can be {{physical, intangible, digital, or financial}}. It is important to recognize products and services do not {{create value by themselves (no intrinsic values), but in relationship with the customer segment}}. Note that products and services {{can have different relevance to your customers}}. <!--SR:!2025-01-24,209,310!2025-03-28,239,309!2024-09-21,99,269!2024-08-06,82,270!2024-10-26,138,309-->
 
 Pain relievers describe {{how the products or services alleviate customer pains}}. There is no need to {{alleviate every identified pain}}, and instead {{it is better to alleviate some extreme pains extremely well}}. Like products and services, pain relievers {{can have different relevance to your customers}}. <!--SR:!2025-01-12,207,329!2024-11-15,148,309!2024-08-15,98,290!2024-11-20,162,310-->
 
