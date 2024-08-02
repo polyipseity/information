@@ -447,3 +447,32 @@ The parenthesized text at the beginning of of each question is {{the location th
 > 4. It was produced by fission of even heavier elements in the Sun.
 >
 > - solution: {{3}}
+
+## 2024-07-30
+
+> Q1. (MCQ) What is the Schwarzschild radius of a 70-kg person?
+>
+> G = 6.67 × 10^(-11) m^3 s^(-2) kg^(-1)
+>
+> 1. 10^(-30) m
+> 2. 10^(-25) m
+> 3. 10^(-20) m
+> 4. 10^(-15) m
+> 5. 10^(-10) m
+>
+> - solution: {{2}}
+> - explanation: {{Apply the equation for Schwarzschild radius: $$r_s = \frac {2 \cdot 6.67 \times 10^{-11} \cdot 70} {299\,792\,458^2} \approx 1.03899262 \times 10^{-25}~\mathrm{m}$$. So the answer is 10<sup>-25</sup> m.}}
+
+<!-- markdownlint MD028 -->
+
+> Q2. (derived) What is th Schwarzschild radius of the observable universe? There are 10<sup>53</sup> kg of ordinary (baryonic) matter in the observable universe. Ignore non-baryonic matter.
+>
+> 1. 1.57×10<sup>11</sup> ly
+> 2. 1.57×10<sup>14</sup> ly
+> 3. 1.57×10<sup>17</sup> ly
+> 4. 7.85×10<sup>10</sup> ly
+> 5. 7.85×10<sup>13</sup> ly
+> 6. 7.85×10<sup>16</sup> ly
+>
+> - solution: {{1}}
+> - explanation: {{Apply the equation for Schwarzschild radius: $$r_s = \frac {2 \cdot 6.674\,30 \times 10^{-11} \cdot 10^{53} } {299\,792\,458^2} \approx 1.485\,232\,05 \times 10^{27}~\mathrm{m} \approx 1.569\,9251 \times 10^{11}~\mathrm{ly}$$. So the answer is 1.57×10<sup>11</sup> ly.}}
