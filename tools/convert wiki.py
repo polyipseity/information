@@ -33,7 +33,7 @@ _names_map_manual = {
     "Jeans instability": "Jeans instability",
     "Jeans mass": "Jeans mass",
     "Latin": "Latin",
-    "Pauli exclusion principle": "Pauli exclusion principle",
+    "X-ray": "X-ray",
 }
 if _names_map_overlap := frozenset(_names_map).intersection(_names_map_manual):
     raise ValueError(_names_map_overlap)
