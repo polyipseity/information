@@ -244,7 +244,7 @@ The parenthesized text at the beginning of of each question is {{the location th
 > 5. 30 g
 >
 > - solution: {{2}}
-> - explanation: {{Apply Albert Einstein's famous formula: $$E = mc^2 \implies m = \frac E {c^2}$$. Plug in the numbers: $$E = \frac {2.92 \times 10^12} {(3 \times 10^8)^2} \approx 3.24444444 \times 10^{-5}\text{ kg} \approx 0.03\text{ g}$$. Therefore, the answer is 0.03 g.}} <!--SR:!2024-08-02,12,301!2024-08-08,18,321-->
+> - explanation: {{Apply Albert Einstein's famous formula: $$E = mc^2 \implies m = \frac E {c^2}$$. Plug in the numbers: $$E = \frac {2.92 \times 10^12} {(3 \times 10^8)^2} \approx 3.24444444 \times 10^{-5}\text{ kg} \approx 0.03\text{ g}$$. Therefore, the answer is 0.03 g.}} <!--SR:!2024-09-21,49,321!2024-08-08,18,321-->
 
 <!-- markdownlint MD028 -->
 
@@ -423,7 +423,7 @@ The parenthesized text at the beginning of of each question is {{the location th
 > 5. All of these stars take the same time to get to the main sequence
 >
 > - solution: {{4}}
-> - explanation: {{A fundamental feature of stellar evolution is that the greater the mass, the faster the evolution.}} <!--SR:!2024-08-03,4,321!2024-08-03,4,321-->
+> - explanation: {{A fundamental feature of stellar evolution is that the greater the mass, the faster the evolution.}} <!--SR:!2024-08-20,17,341!2024-08-22,19,341-->
 
 <!-- markdownlint MD028 -->
 
@@ -435,7 +435,7 @@ The parenthesized text at the beginning of of each question is {{the location th
 > 4. are no longer forming in the Milky Way galaxy; they only formed very early in the Milky Way galaxy's history
 > 5. they are significantly less luminous after the main sequence stage is over
 >
-> - solution: {{3}} <!--SR:!2024-08-03,4,321-->
+> - solution: {{3}} <!--SR:!2024-08-21,18,341-->
 
 <!-- markdownlint MD028 -->
 
@@ -446,4 +446,4 @@ The parenthesized text at the beginning of of each question is {{the location th
 > 3. It was produced by previous massive stars which expelled some heavy elements during the explosions when they died.
 > 4. It was produced by fission of even heavier elements in the Sun.
 >
-> - solution: {{3}} <!--SR:!2024-08-03,4,321-->
+> - solution: {{3}} <!--SR:!2024-08-19,16,341-->

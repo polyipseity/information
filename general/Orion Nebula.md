@@ -12,7 +12,7 @@ tags:
 
 # Orion Nebula
 
-The {{__Orion Nebula__}} (also known as {{__Messier 42__, __M42__, or __NGC 1976__}}) is {{a diffuse [nebula](nebula.md) situated in the [Milky Way](Milky%20Way.md), being south of [Orion's Belt](Orion's%20Belt.md) in the [constellation of Orion](Orion%20(constellation).md), and is known as the middle "star" in the "sword" of Orion}}. <!--SR:!2024-08-02,3,250!2024-08-02,1,210!2024-08-02,3,250-->
+The {{__Orion Nebula__}} (also known as {{__Messier 42__, __M42__, or __NGC 1976__}}) is {{a diffuse [nebula](nebula.md) situated in the [Milky Way](Milky%20Way.md), being south of [Orion's Belt](Orion's%20Belt.md) in the [constellation of Orion](Orion%20(constellation).md), and is known as the middle "star" in the "sword" of Orion}}. <!--SR:!2024-08-09,6,250!2024-08-04,1,190!2024-08-11,8,250-->
 
 ## references
 

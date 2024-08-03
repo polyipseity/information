@@ -18,7 +18,7 @@ Consider the curve $\left(x^2+y^2-1\right)^3=x^2y^3$. Find the number of horizon
 
 - inspecting "Consider the curve $\left(x^2+y^2-1\right)^3=x^2y^3$. Find the number of horizontal and vertical tangent lines." :: First, try using existence theorems if needed and simpler, such as intermediate value theorem and monotonic properties. Second, use implicit differentiation. Third, plotting the graph helps a lot. <!--SR:!2024-08-07,24,270-->
 - finding horizontal and vertical tangents from the implicit derivative of $\left(x^2+y^2-1\right)^3=x^2y^3$ :: Whenever the numerator is 0, it is a _potential_ horizontal tangent. Whenever the denominator is a _potential_ vertical tangent. Whenever the numerator and denominator are both 0, it _may or may not_ be a tangent. We need to validate whether they are actual tangents though. <!--SR:!2024-08-09,24,270-->
-- validating horizontal and vertical tangents at a specific point :: Find the actual derivative at that specific point. Also, consider the symmetry of the figure. <!--SR:!2024-08-03,20,250-->
+- validating horizontal and vertical tangents at a specific point :: Find the actual derivative at that specific point. Also, consider the symmetry of the figure. <!--SR:!2024-09-23,51,250-->
 - resolving the calculated derivative of $\left(x^2+y^2-1\right)^3=x^2y^3$ being $\frac 0 0$ :: Realize the expression is indeterminate. To resolve, consider only a part of the curve by letting $x = -\sqrt{t + 1}$ for the left intersection point and $x = \sqrt{t + 1}$ for the right intersection point to simplify the original equation as much as possible, which may make the derivative more "well-behaved". Then differentiate. <!--SR:!2024-08-18,33,270-->
 
 ## solution

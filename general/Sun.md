@@ -13,7 +13,7 @@ tags:
 
 The __Sun__ is {{the [star](star.md) at the center of the [Solar System](Solar%20System.md)}}. <!--SR:!2024-08-10,14,300-->
 
-- equatorial [radius](radius.md) ::: 696&nbsp;300&nbsp;[km](kilometre.md), 432&nbsp;700&nbsp;[mi](mile.md), 109&nbsp;[Earth radii](Earth%20radius.md) <!--SR:!2024-08-02,3,240!2024-08-06,10,280-->
+- equatorial [radius](radius.md) ::: 696&nbsp;300&nbsp;[km](kilometre.md), 432&nbsp;700&nbsp;[mi](mile.md), 109&nbsp;[Earth radii](Earth%20radius.md) <!--SR:!2024-08-05,2,220!2024-08-06,10,280-->
 - [luminosity](luminosity.md) ::: 3.828×10<sup>26</sup>&nbsp;[W](watt.md), 3.75×10<sup>28</sup>&nbsp;[lm](lumen%20(unit).md), 98&nbsp;lm/W [efficacy](luminous%20efficacy.md) <!--SR:!2024-08-05,4,220!2024-08-20,19,280-->
 - [mass](mass.md) ::: 1.9885×10<sup>30</sup>&nbsp;[kg](kilogram.md), 4.3839×10<sup>30</sup>&nbsp;[lbs](pound%20(mass).md), 332&nbsp;950&nbsp;[Earths](Earth%20mass.md) <!--SR:!2024-08-04,3,220!2024-08-04,8,260-->
 
@@ -21,7 +21,7 @@ The __Sun__ is {{the [star](star.md) at the center of the [Solar System](Solar%2
 
 - see: [standard solar model](standard%20solar%20model.md)
 
-From the outside to inside, significant structures of the Sun are: {{[solar wind](solar%20wind.md), [corona](stellar%20corona.md), [chromosphere](chromosphere.md), [photosphere](#photosphere), [convective zone](#convective%20zone), [radiative zone](#radiative%20zone), and [core](#core)}}. <!--SR:!2024-08-03,7,260-->
+From the outside to inside, significant structures of the Sun are: {{[solar wind](solar%20wind.md), [corona](stellar%20corona.md), [chromosphere](chromosphere.md), [photosphere](#photosphere), [convective zone](#convective%20zone), [radiative zone](#radiative%20zone), and [core](#core)}}. <!--SR:!2024-08-22,19,260-->
 
 ### core
 
@@ -43,7 +43,7 @@ The radiative zone is the thickest layer of the [Sun](sun.md), {{at 0.45 [solar 
 
 - see: [convection zone](convection%20zone.md)
 
-The Sun's convection zone extends {{from 0.7 [solar radii](solar%20radius.md) (500&nbsp;000 km) to near the surface}}. The temperature drops {{from approximately 1.5 million to 5700 [kelvins](Kelvin.md) with increasing distance from the [core](#core)}}. In this layer, the solar plasma is {{not dense or hot enough to transfer the heat energy of the interior outward via [radiation](thermal%20radiation.md)}}. Instead, the density of the plasma is {{low enough to allow convective currents to develop and move the Sun's energy outward towards its surface}}. <!--SR:!2024-08-03,7,260!2024-08-14,18,300!2024-08-05,9,280!2024-08-14,18,300-->
+The Sun's convection zone extends {{from 0.7 [solar radii](solar%20radius.md) (500&nbsp;000 km) to near the surface}}. The temperature drops {{from approximately 1.5 million to 5700 [kelvins](Kelvin.md) with increasing distance from the [core](#core)}}. In this layer, the solar plasma is {{not dense or hot enough to transfer the heat energy of the interior outward via [radiation](thermal%20radiation.md)}}. Instead, the density of the plasma is {{low enough to allow convective currents to develop and move the Sun's energy outward towards its surface}}. <!--SR:!2024-08-27,24,280!2024-08-14,18,300!2024-08-05,9,280!2024-08-14,18,300-->
 
 ## photosphere
 
@@ -55,7 +55,7 @@ The Sun's convection zone extends {{from 0.7 [solar radii](solar%20radius.md) (5
 
 - see: [stellar kinematics](stellar%20kinematics.md)
 
-Being {{part of the [Milky Way](Milky%20Way.md) galaxy}}, the Sun with the whole [Solar System](Solar%20System.md), moves in {{an [orbital](orbit.md) fashion around the galaxy's center of mass at an average speed of 230 km/s (828&nbsp;000 km/h) or 143 mi/s (514&nbsp;000 mph)}}, taking {{about 220–250 million [Earth](Earth.md) years to complete a revolution (a Galactic year)}}, having done so {{about 20 times since the Sun's formation}}. The direction of the Sun's motion {{relative to the [local standard of rest](local%20standard%20of%20rest.md) (so the orbital motion is excluded), the [solar apex](solar%20apex.md), is roughly in the direction of the star [Vega](Vega.md) at about 13.4 km/s}}. <!--SR:!2024-09-26,69,310!2024-08-03,4,210!2024-08-30,45,290!2024-08-25,42,290!2024-09-01,34,250-->
+Being {{part of the [Milky Way](Milky%20Way.md) galaxy}}, the Sun with the whole [Solar System](Solar%20System.md), moves in {{an [orbital](orbit.md) fashion around the galaxy's center of mass at an average speed of 230 km/s (828&nbsp;000 km/h) or 143 mi/s (514&nbsp;000 mph)}}, taking {{about 220–250 million [Earth](Earth.md) years to complete a revolution (a Galactic year)}}, having done so {{about 20 times since the Sun's formation}}. The direction of the Sun's motion {{relative to the [local standard of rest](local%20standard%20of%20rest.md) (so the orbital motion is excluded), the [solar apex](solar%20apex.md), is roughly in the direction of the star [Vega](Vega.md) at about 13.4 km/s}}. <!--SR:!2024-09-26,69,310!2024-08-11,8,210!2024-08-30,45,290!2024-08-25,42,290!2024-09-01,34,250-->
 
 ## references
 
