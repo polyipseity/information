@@ -9,7 +9,7 @@ tags:
 
 # tide
 
-__Tides__ are {{the rise and fall of [sea levels](sea%20level.md)}} caused by {{the combined effects of the [gravitational](gravity.md) forces exerted by the [Moon](Moon.md) (and to a much lesser extent, the [Sun](Sun.md)) and are also caused by the [Earth](Earth.md) and [Moon](Moon.md) [orbiting](orbit.md) one another}}. <!--SR:!2024-08-11,15,290!2024-08-03,7,250-->
+__Tides__ are {{the rise and fall of [sea levels](sea%20level.md)}} caused by {{the combined effects of the [gravitational](gravity.md) forces exerted by the [Moon](Moon.md) (and to a much lesser extent, the [Sun](Sun.md)) and are also caused by the [Earth](Earth.md) and [Moon](Moon.md) [orbiting](orbit.md) one another}}. <!--SR:!2024-08-11,15,290!2024-08-29,26,270-->
 
 ## tidal constituents
 
@@ -35,7 +35,7 @@ The rotation of [Earth](Earth.md) {{does not affect the equilibrium tide}}. Ther
 
 - see: [tidal acceleration](tidal%20acceleration.md)
 
-Earth's tidal oscillations introduce dissipation at {{an [average](average.md) rate of about 3.75 [terawatts](watt.md#terawatt)}}. <!--SR:!2024-08-03,5,230-->
+Earth's tidal oscillations introduce dissipation at {{an [average](average.md) rate of about 3.75 [terawatts](watt.md#terawatt)}}. <!--SR:!2024-08-14,11,230-->
 
 ## references
 

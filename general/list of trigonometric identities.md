@@ -215,7 +215,7 @@ return await memorize_map(
 - tangent::$$\tan \frac \theta 2 = \frac {1 - \cos \theta} {\sin \theta} = \frac {\sin \theta} {1 + \cos \theta} = \operatorname{sgn}(\sin \theta) \sqrt{\frac {1 - \cos \theta} {1 + \cos \theta} } = \csc \theta - \cot \theta = \frac {\tan \theta} {1 + \sec \theta} = \frac {-1 + \operatorname{sgn}(\cos \theta)\sqrt{1 + \tan^2 \theta} } {\tan \theta}$$ <!--SR:!2024-08-15,19,256-->
 - secant::$$\sec \frac \theta 2 = \operatorname{sgn}\left(\cos \frac \theta 2\right) \sqrt{\frac 2 {1 + \cos \theta} }$$ <!--SR:!2024-08-10,20,296-->
 - cosecant::$$\csc \frac \theta 2 = \operatorname{sgn}\left(\sin \frac \theta 2\right) \sqrt{\frac 2 {1 - \cos \theta} }$$ <!--SR:!2024-08-18,27,296-->
-- cotangent::$$\cot \frac \theta 2 = \frac {1 + \cos \theta} {\sin \theta} = \frac {\sin \theta} {1 - \cos \theta} = \operatorname{sgn}(\sin \theta) \sqrt{\frac {1 + \cos \theta} {1 - \cos \theta} } = \csc \theta + \cot \theta$$ <!--SR:!2024-08-02,6,256-->
+- cotangent::$$\cot \frac \theta 2 = \frac {1 + \cos \theta} {\sin \theta} = \frac {\sin \theta} {1 - \cos \theta} = \operatorname{sgn}(\sin \theta) \sqrt{\frac {1 + \cos \theta} {1 - \cos \theta} } = \csc \theta + \cot \theta$$ <!--SR:!2024-08-18,15,256-->
 
 <!--/pytextgen-->
 
@@ -232,7 +232,7 @@ return await memorize_map(
 > - $\csc (-1.7)$ ::: $-\operatorname{sgn}(\sin 1.7) \sqrt{\frac 2 {1 - \cos 3.4} }$ <!--SR:!2024-08-27,31,316!2024-09-01,36,316-->
 > - $\cot 3.14$ (sine and cosine) ::: $\frac {1 + \cos 6.28} {\sin 6.28} = \frac {\sin 6.28} {1 - \cos 6.28}$ <!--SR:!2024-09-06,40,296!2024-08-22,30,316-->
 > - $\cot (-69)$ (cosine) ::: $-\operatorname{sgn}(\sin 138) \sqrt{\frac {1 + \cos 138} {1 - \cos 138} }$ <!--SR:!2024-08-09,19,296!2024-09-29,59,336-->
-> - $\cot 17$ (addition) ::: $\csc 34 + \cot 34$ <!--SR:!2024-09-01,36,316!2024-08-02,19,336-->
+> - $\cot 17$ (addition) ::: $\csc 34 + \cot 34$ <!--SR:!2024-09-01,36,316!2024-10-10,68,336-->
 
 ## product-to-sum and sum-to-product
 
@@ -326,7 +326,7 @@ return await memorize_map(
 >
 > - where
 >   - {{$c = \operatorname{sgn}(a) \sqrt{a^2 + b^2}, \varphi = \arctan(-b / a)$ or $c = \sqrt{a^2 + b^2}, \varphi = \operatorname{atan2}(-b, a)$, assuming $\arctan(\pm \infty) = \pm \pi / 2$}}
-> - conditions: {{$a \ne 0 \quad \text{and}\quad b \ne 0$}} <!--SR:!2024-08-02,157,309!2024-11-07,213,289!2024-10-23,219,329-->
+> - conditions: {{$a \ne 0 \quad \text{and}\quad b \ne 0$}} <!--SR:!2025-11-30,484,309!2024-11-07,213,289!2024-10-23,219,329-->
 
 <!-- markdownlint MD028 -->
 
@@ -335,7 +335,7 @@ return await memorize_map(
 > - $-2.64 \cos 3x + 3.22 \sin 3x$ (arctangent variant) ::: $-\sqrt{2.64^2 + 3.22^2} \cos(3x + \arctan(3.22 / 2.64))$ <!--SR:!2024-12-20,245,289!2024-09-29,62,229-->
 > - $-9.29 \cos(-2x) - 9.11 \sin(-2x)$ ([atan2](atan2.md) variant) ::: $\sqrt{9.29^2 + 9.11^2} \cos(2x - \operatorname{atan2}(9.11, -9.29))$ <!--SR:!2024-09-27,120,269!2024-09-04,86,229-->
 > - $0 \cos 5x - 1.23 \sin 5x$ (arctangent variant, [atan2](atan2.md) variant) ::: $1.23 \cos(5x + \pi / 2)$ <!--SR:!2024-10-17,213,329!2024-12-02,249,329-->
-> - $0 \cos 4.2x + 0 \sin 4.2x$ ::: $0$ <!--SR:!2024-08-03,4,319!2024-08-03,4,319-->
+> - $0 \cos 4.2x + 0 \sin 4.2x$ ::: $0$ <!--SR:!2024-08-22,19,339!2024-08-22,19,339-->
 
 ## references
 

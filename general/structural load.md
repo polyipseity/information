@@ -60,7 +60,7 @@ Loads on civil engineering can be separated into {{<!--pytextgen generate sectio
 - [environmental load](#environmental%20load)→:::←[live load](#live%20load) <!--SR:!2024-09-24,83,270!2024-08-16,72,328-->
 - [live load](#live%20load)→:::←[load combinations](#load%20combinations) <!--SR:!2025-01-20,186,320!2025-01-31,196,310-->
 - [load combinations](#load%20combinations)→:::←[other loads](#other%20loads) <!--SR:!2024-11-20,127,290!2024-08-08,65,320-->
-- [other loads](#other%20loads)→:::←_(end)_ <!--SR:!2024-08-20,75,320!2024-08-02,57,300-->
+- [other loads](#other%20loads)→:::←_(end)_ <!--SR:!2024-08-20,75,320!2025-03-27,236,320-->
 
 <!--/pytextgen-->
 
@@ -118,7 +118,7 @@ return await memorize_seq(
 
 Hydrostatic load refers to load caused by {{[water](water.md)}}. The load can be caused by {{pure water itself, or water in a material such as soil}}. <!--SR:!2025-04-04,248,330!2025-03-23,239,330-->
 
-For example, when there is {{water buildup in the soil}}, there is {{increased hydrostatic pressure on retaining walls}}. For pure water, examples include a {{[dam](dam.md), where deeper waters exert more horizontal hydrostatic pressure on the dam}}. <!--SR:!2024-08-03,61,310!2025-03-15,228,320!2025-04-20,262,330-->
+For example, when there is {{water buildup in the soil}}, there is {{increased hydrostatic pressure on retaining walls}}. For pure water, examples include a {{[dam](dam.md), where deeper waters exert more horizontal hydrostatic pressure on the dam}}. <!--SR:!2025-04-21,261,330!2025-03-15,228,320!2025-04-20,262,330-->
 
 #### lateral load
 

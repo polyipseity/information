@@ -17,13 +17,13 @@ tags:
 
 # Hertzsprung–Russell diagram
 
-The __Hertzsprung–Russell diagram__ (abbreviated as __H–R diagram__, __HR diagram__ or __HRD__) is {{a [scatter plot](scatter%20plot.md) of [stars](star.md) showing the relationship between the stars' [absolute magnitudes](absolute%20magnitude.md) or [luminosities](luminosity.md) and their [stellar classifications](stellar%20classification.md) or [effective temperatures](effective%20temperature.md)}}. The diagram was created {{independently in 1911 by [Ejnar Hertzsprung](Ejnar%20Hertzsprung.md) and by [Henry Norris Russell](Henry%20Norris%20Russell.md) in 1913}}, and represented a major step towards {{an understanding of [stellar evolution](stellar%20evolution.md)}}. <!--SR:!2024-08-13,17,290!2024-08-02,6,250!2024-08-09,13,290-->
+The __Hertzsprung–Russell diagram__ (abbreviated as __H–R diagram__, __HR diagram__ or __HRD__) is {{a [scatter plot](scatter%20plot.md) of [stars](star.md) showing the relationship between the stars' [absolute magnitudes](absolute%20magnitude.md) or [luminosities](luminosity.md) and their [stellar classifications](stellar%20classification.md) or [effective temperatures](effective%20temperature.md)}}. The diagram was created {{independently in 1911 by [Ejnar Hertzsprung](Ejnar%20Hertzsprung.md) and by [Henry Norris Russell](Henry%20Norris%20Russell.md) in 1913}}, and represented a major step towards {{an understanding of [stellar evolution](stellar%20evolution.md)}}. <!--SR:!2024-08-13,17,290!2024-08-06,3,230!2024-08-09,13,290-->
 
 ## forms of diagram
 
 There are {{several forms of the Hertzsprung–Russell diagram, and the [nomenclature](nomenclature.md) is not very well defined}}. All forms share the same general layout: {{[stars](star.md) of greater [luminosity](luminosity.md) are toward the top of the diagram, and stars with higher surface [temperature](temperature.md) are toward the left side of the diagram}}. <!--SR:!2024-08-12,16,290!2024-08-05,9,270-->
 
-The original diagram displayed {{the [spectral type](stellar%20classification.md#spectral%20type) of [stars](star.md) on the horizontal axis and the [absolute visual magnitude](absolute%20magnitude.md) on the vertical axis}}. <!--SR:!2024-08-03,7,250-->
+The original diagram displayed {{the [spectral type](stellar%20classification.md#spectral%20type) of [stars](star.md) on the horizontal axis and the [absolute visual magnitude](absolute%20magnitude.md) on the vertical axis}}. <!--SR:!2024-08-23,20,250-->
 
 Another form of the diagram plots {{the effective surface [temperature](temperature.md) of the [star](star.md) on one axis and the [luminosity](luminosity.md) of the star on the other}}, almost invariably {{in a [log–log plot](log–log%20plot.md)}}. <!--SR:!2024-08-05,9,270!2024-08-06,10,270-->
 

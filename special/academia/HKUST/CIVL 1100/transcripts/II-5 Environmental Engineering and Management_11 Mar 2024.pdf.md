@@ -61,7 +61,7 @@ return await memorize_seq(
 <!--pytextgen generate section="48ff"--><!-- The following content is generated at 2024-05-16T15:50:23.869379+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←air pollution <!--SR:!2025-01-11,166,310!2025-03-07,222,330-->
-- air pollution→:::←land contamination <!--SR:!2024-09-23,82,270!2024-08-03,58,310-->
+- air pollution→:::←land contamination <!--SR:!2024-09-23,82,270!2025-04-15,255,330-->
 - land contamination→:::←noise pollution <!--SR:!2024-09-19,53,270!2024-09-03,68,270-->
 - noise pollution→:::←solid waste disposal <!--SR:!2024-09-16,76,270!2024-11-18,126,290-->
 - solid waste disposal→:::←water pollution <!--SR:!2024-12-15,140,290!2024-08-10,9,190-->
@@ -153,7 +153,7 @@ return await memorize_seq(
 <!--pytextgen generate section="ee23"--><!-- The following content is generated at 2024-06-09T06:29:24.079979+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←air sparging <!--SR:!2024-10-02,87,355!2024-10-01,86,355-->
-- air sparging→:::←bioremediation <!--SR:!2024-08-03,36,315!2024-08-21,53,335-->
+- air sparging→:::←bioremediation <!--SR:!2024-11-22,111,315!2024-08-21,53,335-->
 - bioremediation→:::←catalytic oxidation <!--SR:!2024-08-05,37,315!2024-08-28,59,335-->
 - catalytic oxidation→:::←ex-situ biopile <!--SR:!2024-09-26,67,295!2024-08-13,47,335-->
 - ex-situ biopile→:::←ex-situ solidification or stabilization <!--SR:!2024-08-25,56,335!2024-08-12,46,335-->
@@ -178,7 +178,7 @@ Is it a serious problem in Hong Kong?
 Daily Domestic Waste Generation Rates per Capita Compared
 
 - daily domestic waste generation rate per capita (DPWGR per capita)
-  - DPWGR per capita in Hong Kong ::: 1.36 kg/person/day, recycling rate: 37% <!--SR:!2024-09-17,77,270!2024-08-02,57,310-->
+  - DPWGR per capita in Hong Kong ::: 1.36 kg/person/day, recycling rate: 37% <!--SR:!2024-09-17,77,270!2025-03-30,239,330-->
   - DPWGR per capita other locations ::: Metro Tokyo: 0.77 kg/person/day, Seoul City: 0.95 kg/person/day, Taipei city: 1.00 kg/person/day <!--SR:!2024-12-11,136,290!2024-08-05,60,310-->
 
 ## page 10
@@ -202,7 +202,7 @@ Sustainable Waste Management
   - reduce ::: reduce the amount of solid waste generation <!--SR:!2025-03-24,235,330!2024-08-06,60,310-->
   - reuse ::: multiple uses of an item in its original form with or without reconditioning <!--SR:!2025-01-12,168,310!2025-01-05,161,310-->
   - recycle ::: materials are collected and recovered to be used as raw material <!--SR:!2024-11-14,121,290!2024-08-07,60,310-->
-    - recycle example ::: plastic bottle (PET or HDPE) -> chips -> fiber -> T-shirt or bag <!--SR:!2024-12-11,141,290!2024-08-02,57,310-->
+    - recycle example ::: plastic bottle (PET or HDPE) -> chips -> fiber -> T-shirt or bag <!--SR:!2024-12-11,141,290!2025-03-26,235,330-->
 
 ## page 13
 
@@ -215,9 +215,9 @@ How to provide motivation for waste reduction, reuse and recycling?
 
 MSW Waste Charging Scheme
 
-- MSW waste charging scheme passing date ::: 2021-09-26 by Legco <!--SR:!2024-08-02,45,250!2024-09-14,77,270-->
+- MSW waste charging scheme passing date ::: 2021-09-26 by Legco <!--SR:!2024-11-23,112,250!2024-09-14,77,270-->
   - MSW waste charging scheme preparation period ::: 18 months <!--SR:!2024-08-10,64,310!2024-11-24,140,310-->
-  - MSW waste charging scheme details ::: buy designated bags (0.11 HKD/L) at ~4000 selling points <!--SR:!2024-09-03,67,270!2024-08-02,57,310-->
+  - MSW waste charging scheme details ::: buy designated bags (0.11 HKD/L) at ~4000 selling points <!--SR:!2024-09-03,67,270!2025-04-05,245,330-->
   - MSW waste charging scheme penalty ::: max HK$25000 fine and 6 months in prison <!--SR:!2024-08-27,29,290!2025-01-26,187,310-->
 
 Will this waste charging scheme waste generation?
@@ -282,13 +282,13 @@ Sewage Conveyance System
 Clean Victoria Harbor
 
 - HATS result ::: clean Victoria Harbor <!--SR:!2024-08-07,60,310!2025-03-20,233,330-->
-  - HATS result example ::: On 2017-10-29, 3000 swimmers participate in a previously-discontinued annual cross-harbor race. The race continues to be held. <!--SR:!2024-08-16,52,250!2024-08-03,57,310-->
+  - HATS result example ::: On 2017-10-29, 3000 swimmers participate in a previously-discontinued annual cross-harbor race. The race continues to be held. <!--SR:!2024-08-16,52,250!2025-03-28,237,330-->
 
 ## page 23
 
 Noise Pollution: A serious problem in Hong Kong?
 
-- sound vs. noise ::: noise is undesirable sound <!--SR:!2024-08-06,60,310!2024-08-02,56,310-->
+- sound vs. noise ::: noise is undesirable sound <!--SR:!2024-08-06,60,310!2025-03-21,230,330-->
 
 ## page 24
 
@@ -330,7 +330,7 @@ Air Quality Health Index
 
 - Air Quality Health Index ::: AQHI <!--SR:!2024-08-08,61,310!2024-08-16,68,310-->
   - AQHI history ::: AQHI has replaced the Air Pollution Index (API) since 2013-12-30. <!--SR:!2024-08-28,64,270!2024-08-10,63,310-->
-  - AQHI scale ::: 1 to 10 and 10+, grouped into 5 health risk categories <!--SR:!2024-08-03,57,310!2025-03-11,226,330-->
+  - AQHI scale ::: 1 to 10 and 10+, grouped into 5 health risk categories <!--SR:!2025-03-24,233,330!2025-03-11,226,330-->
   - AQHI health risk categories ::: low (green): 1~3, moderate (yellow): 4~6, high (red): 7, very high (brown): 8~10, serious (black): 10+ <!--SR:!2024-08-10,64,310!2025-03-13,228,330-->
 
 ## page 28
@@ -338,7 +338,7 @@ Air Quality Health Index
 FORECAST of Health Risk
 
 - AQHI calculation ::: 3-hour moving average concentrations of 4 air pollutants <!--SR:!2024-08-07,60,310!2024-08-13,66,310-->
-  - AQHI calculation main pollutants ::: nitrogen dioxide (NO<sub>2</sub>), ozone (O<sub>3</sub>), particulate matter (PM<sub>2.5</sub>, PM<sub>10</sub>), sulfur dioxide (SO<sub>2</sub>) <!--SR:!2024-12-18,143,270!2024-08-02,57,310-->
+  - AQHI calculation main pollutants ::: nitrogen dioxide (NO<sub>2</sub>), ozone (O<sub>3</sub>), particulate matter (PM<sub>2.5</sub>, PM<sub>10</sub>), sulfur dioxide (SO<sub>2</sub>) <!--SR:!2024-12-18,143,270!2025-04-06,246,330-->
 
 ## page 29
 
@@ -348,7 +348,7 @@ Indoor Air Quality
 - common indoor air pollutant ::: 12 parameters <!--SR:!2024-10-27,105,290!2024-08-10,63,310-->
   - common indoor air pollutant examples ::: carbon dioxide (CO<sub>2</sub>), carbon monoxide (CO), respirable suspended particulate (RSP/PM<sub>10</sub>) <!--SR:!2024-09-20,80,270!2025-01-01,157,310-->
     - carbon dioxide limits ::: excellent: < 800 ppmv; good: < 1000 ppmv <!--SR:!2024-09-25,84,270!2024-12-28,153,310-->
-    - carbon monoxide limits ::: excellent: < 2000 μg/m<sup>3</sup>, < 1.7 ppmv; good: < 10000 μg/m<sup>3</sup>, < 8.7 ppmv <!--SR:!2024-08-12,43,250!2024-08-02,56,310-->
+    - carbon monoxide limits ::: excellent: < 2000 μg/m<sup>3</sup>, < 1.7 ppmv; good: < 10000 μg/m<sup>3</sup>, < 8.7 ppmv <!--SR:!2024-08-12,43,250!2025-01-17,167,310-->
     - respirable suspended particulate limits ::: excellent: < 20 μg/m<sup>3</sup>; good: < 180 μg/m<sup>3</sup> <!--SR:!2024-09-27,82,270!2024-08-05,22,270-->
 
 ## page 30
@@ -393,7 +393,7 @@ return await memorize_seq(
 - carbon dioxide (CO<sub>2</sub>)→:::←hydroflurocarbons (HFCs) <!--SR:!2024-10-09,79,230!2024-09-25,83,270-->
 - hydroflurocarbons (HFCs)→:::←methane (CH<sub>4</sub>) <!--SR:!2024-10-22,99,270!2024-09-25,73,230-->
 - methane (CH<sub>4</sub>)→:::←nitrous oxide (N<sub>2</sub>O) <!--SR:!2024-10-27,91,250!2024-12-09,134,290-->
-- nitrous oxide (N<sub>2</sub>O)→:::←perflurocarbons (PFCs) <!--SR:!2024-09-20,54,230!2024-08-02,5,150-->
+- nitrous oxide (N<sub>2</sub>O)→:::←perflurocarbons (PFCs) <!--SR:!2024-09-20,54,230!2024-08-10,7,150-->
 - perflurocarbons (PFCs)→:::←sulfur hexafluoride (SF<sub>6</sub>) <!--SR:!2024-08-23,25,270!2024-09-06,69,270-->
 - sulfur hexafluoride (SF<sub>6</sub>)→:::←_(end)_ <!--SR:!2024-08-09,62,310!2024-08-20,72,310-->
 
@@ -412,7 +412,7 @@ Observed climate change in Hong Kong
 - climate change consequences in Hong Kong ::: rainfall become more variable, sea level rises, temperature increases <!--SR:!2024-11-29,130,290!2024-08-10,63,310-->
   - temperature increases consequences ::: less cold days, more very hot days and hot nights <!--SR:!2024-08-05,59,310!2024-08-15,68,310-->
   - rainfall become more variable consequences ::: probability of rainfall extremes increases <!--SR:!2025-03-23,234,330!2025-01-12,175,310-->
-  - climate change example in Hong Kong ::: On 2017-08-22, max temperature reaches 36.6 °C in the Hong Kong Observatory headquarters, coinciding with the super typhoon Hato. <!--SR:!2024-08-02,49,250!2024-08-12,65,310-->
+  - climate change example in Hong Kong ::: On 2017-08-22, max temperature reaches 36.6 °C in the Hong Kong Observatory headquarters, coinciding with the super typhoon Hato. <!--SR:!2024-12-03,122,250!2024-08-12,65,310-->
 
 ## page 33
 

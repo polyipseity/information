@@ -20,7 +20,7 @@ The content is in teaching order.
     - engineer jobs ::: analyze, _build_, _design_, invent, repair, test <!--SR:!2024-12-17,168,340!2024-08-08,89,378-->
     - engineer goals ::: fulfill functional objectives and requirements <!--SR:!2025-05-14,291,360!2025-02-21,225,360-->
     - engineer limitations ::: limited by cost, practicality, regulation, and safety <!--SR:!2024-12-24,195,350!2024-08-29,108,377-->
-    - engineer methods ::: ingenuity, mathematics, scientific method and outlook <!--SR:!2024-10-24,143,337!2024-08-02,85,365-->
+    - engineer methods ::: ingenuity, mathematics, scientific method and outlook <!--SR:!2024-10-24,143,337!2025-10-01,424,385-->
   - engineer, according to the World Federation of Engineering Organizations (WFEO)
     - engineer inspirations ::: art of using creativity, science and technology, traditional experience <!--SR:!2024-10-25,136,335!2025-02-25,250,330-->
     - engineer sustainability ::: restore and safeguard the biophysical environment <!--SR:!2025-01-10,205,345!2025-03-26,269,365-->
@@ -150,7 +150,7 @@ quantity surveyor
 - consulting structural engineer→:::←contracting civil engineer <!--SR:!2024-09-11,108,335!2024-08-23,88,315-->
 - contracting civil engineer→:::←engineering geologist <!--SR:!2024-09-28,102,297!2024-09-04,34,295-->
 - engineering geologist→:::←environmental consultant <!--SR:!2024-10-25,125,305!2024-08-24,92,305-->
-- environmental consultant→:::←quantity surveyor <!--SR:!2024-08-02,26,320!2024-08-11,58,280-->
+- environmental consultant→:::←quantity surveyor <!--SR:!2024-08-18,15,300!2024-08-11,58,280-->
 - quantity surveyor→:::←_(end)_ <!--SR:!2025-01-10,187,340!2024-09-02,35,340-->
 
 <!--/pytextgen-->
@@ -286,7 +286,7 @@ workmanship
 - maintenance→:::←politics <!--SR:!2024-08-05,15,241!2024-08-12,80,312-->
 - politics→:::←social <!--SR:!2025-03-24,246,360!2024-08-13,78,337-->
 - social→:::←workmanship <!--SR:!2024-08-26,82,300!2024-09-04,52,190-->
-- workmanship→:::←_(end)_ <!--SR:!2024-08-03,84,365!2025-04-05,258,355-->
+- workmanship→:::←_(end)_ <!--SR:!2025-09-26,419,385!2025-04-05,258,355-->
 
 <!--/pytextgen-->
 
@@ -458,7 +458,7 @@ testing materials
 - designing temporary structures→:::←logistics <!--SR:!2024-10-03,124,340!2024-09-07,37,277-->
 - logistics→:::←planning <!--SR:!2024-08-11,21,274!2024-09-28,120,335-->
 - planning→:::←procuring materials <!--SR:!2025-01-24,186,317!2024-08-10,65,277-->
-- procuring materials→:::←quality assurance <!--SR:!2024-08-02,58,300!2024-08-22,77,281-->
+- procuring materials→:::←quality assurance <!--SR:!2025-01-23,173,300!2024-08-22,77,281-->
 - quality assurance→:::←quality control <!--SR:!2024-10-31,150,357!2025-01-13,182,352-->
 - quality control→:::←safety engineering <!--SR:!2025-02-12,195,301!2024-08-13,15,235-->
 - safety engineering→:::←scheduling <!--SR:!2024-08-25,82,320!2024-10-01,120,340-->
@@ -708,7 +708,7 @@ soil liquefaction
 
 - _(begin)_→:::←debris flow <!--SR:!2024-08-07,75,314!2024-08-10,89,378-->
 - debris flow→:::←landslide <!--SR:!2024-08-20,88,335!2024-08-10,78,335-->
-- landslide→:::←rockfall <!--SR:!2024-08-25,34,292!2024-08-03,65,320-->
+- landslide→:::←rockfall <!--SR:!2024-08-25,34,292!2025-03-02,211,320-->
 - rockfall→:::←soil liquefaction <!--SR:!2024-11-14,135,290!2024-09-19,118,270-->
 - soil liquefaction→:::←_(end)_ <!--SR:!2024-08-14,95,372!2024-10-20,117,295-->
 
@@ -849,7 +849,7 @@ Tsing Ma Bridge
 - Hong Kong–Zhuhai–Macau Bridge→:::←Stonecutters Bridge <!--SR:!2024-08-11,31,320!2024-08-12,50,300-->
 - Stonecutters Bridge→:::←Sutong Yangtze River Bridge <!--SR:!2024-10-08,130,337!2024-11-17,147,340-->
 - Sutong Yangtze River Bridge→:::←Tsing Ma Bridge <!--SR:!2024-11-23,155,335!2024-08-31,93,307-->
-- Tsing Ma Bridge→:::←_(end)_ <!--SR:!2024-08-02,83,364!2024-08-09,112,310-->
+- Tsing Ma Bridge→:::←_(end)_ <!--SR:!2025-05-31,301,364!2024-08-09,112,310-->
 
 <!--/pytextgen-->
 
@@ -917,7 +917,7 @@ polypropylene fiber reinforced concrete
 - cellular concrete→:::←engineered cement composite <!--SR:!2024-10-24,153,270!2024-12-05,166,330-->
 - engineered cement composite→:::←fly ash concrete <!--SR:!2024-11-02,143,337!2024-09-26,107,320-->
 - fly ash concrete→:::←polypropylene fiber reinforced concrete <!--SR:!2024-09-03,75,280!2024-09-04,103,335-->
-- polypropylene fiber reinforced concrete→:::←_(end)_ <!--SR:!2024-08-03,84,372!2024-10-10,117,320-->
+- polypropylene fiber reinforced concrete→:::←_(end)_ <!--SR:!2025-06-10,311,372!2024-10-10,117,320-->
 
 <!--/pytextgen-->
 
@@ -1099,9 +1099,9 @@ water tower
 - building→:::←dam <!--SR:!2025-05-03,277,361!2025-01-17,198,361-->
 - dam→:::←power plant <!--SR:!2024-08-06,68,301!2024-10-17,82,238-->
 - power plant→:::←storage facility <!--SR:!2025-01-30,185,300!2024-09-12,111,334-->
-- storage facility→:::←tunnel <!--SR:!2024-08-03,13,280!2024-09-01,89,320-->
+- storage facility→:::←tunnel <!--SR:!2024-09-09,37,280!2024-09-01,89,320-->
 - tunnel→:::←unusual structure <!--SR:!2024-09-19,83,247!2024-10-17,121,320-->
-- unusual structure→:::←water tower <!--SR:!2024-09-02,37,290!2024-08-03,12,290-->
+- unusual structure→:::←water tower <!--SR:!2024-09-02,37,290!2024-09-06,34,290-->
 - water tower→:::←_(end)_ <!--SR:!2024-08-14,93,367!2024-09-08,55,281-->
 
 <!--/pytextgen-->
@@ -1187,11 +1187,11 @@ water transport
 
 <!--pytextgen generate section="a928"--><!-- The following content is generated at 2024-05-01T23:30:35.177839+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←airport <!--SR:!2025-01-22,179,290!2024-08-03,84,375-->
+- _(begin)_→:::←airport <!--SR:!2025-01-22,179,290!2025-10-07,430,395-->
 - airport→:::←bicycle path <!--SR:!2025-03-09,237,355!2024-09-03,102,337-->
 - bicycle path→:::←highway <!--SR:!2025-01-20,199,360!2025-03-05,232,360-->
 - highway→:::←pier <!--SR:!2024-10-06,114,320!2024-08-10,72,300-->
-- pier→:::←pipeline <!--SR:!2024-08-03,80,380!2025-02-06,194,314-->
+- pier→:::←pipeline <!--SR:!2024-09-10,38,360!2025-02-06,194,314-->
 - pipeline→:::←railroad <!--SR:!2024-11-15,111,255!2024-08-07,75,315-->
 - railroad→:::←water transport <!--SR:!2024-10-11,127,340!2024-08-11,79,315-->
 - water transport→:::←_(end)_ <!--SR:!2024-09-11,107,380!2024-08-17,85,380-->

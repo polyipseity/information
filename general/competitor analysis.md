@@ -15,15 +15,15 @@ tags:
 
 ## outline
 
-This section {{outlines how one might do competitor analysis and present it to others}}. <!--SR:!2024-08-03,64,314-->
+This section {{outlines how one might do competitor analysis and present it to others}}. <!--SR:!2025-05-11,281,334-->
 
 ### competitor classification
 
-Depending on the 2 factors of {{meeting the same customer needs and possessing the same capabilities to do so (such as having a similar product to solve the same problem)}}, competitors can be classified into 4 types (we can {{draw a 2 by 2 table}} to represent it): <!--SR:!2024-08-11,68,321!2024-08-02,62,321-->
+Depending on the 2 factors of {{meeting the same customer needs and possessing the same capabilities to do so (such as having a similar product to solve the same problem)}}, competitors can be classified into 4 types (we can {{draw a 2 by 2 table}} to represent it): <!--SR:!2024-08-11,68,321!2025-05-04,274,341-->
 
 1. direct competitor ::: meeting the same customer needs and possessing the same capabilities to do so <!--SR:!2024-08-06,65,321!2024-08-11,69,321-->
 2. indirect competitor ::: meeting the same customer needs but using different capabilities to do so <!--SR:!2024-09-25,89,281!2024-08-12,69,321-->
-3. potential competitor ::: not meeting the same customer needs but possessing the same capabilities to do so <!--SR:!2024-10-30,126,301!2024-08-03,62,321-->
+3. potential competitor ::: not meeting the same customer needs but possessing the same capabilities to do so <!--SR:!2024-10-30,126,301!2025-05-12,282,341-->
 4. non-competitor ::: not meeting the same customer needs and not possessing the same capabilities to do so <!--SR:!2025-04-23,265,341!2024-08-11,69,321-->
 
 Direct competitors are not {{necessarily more important than indirect or potential competitors, and instead it depends on the market}}. <!--SR:!2024-08-08,68,314-->
@@ -115,15 +115,15 @@ pricing: Find suitable prices catering to different market segment and economies
 - _(begin)_→:::←differentiate: Differentiate our products to make it a hit with customers. <!--SR:!2024-12-20,150,301!2024-11-29,137,301-->
 - differentiate: Differentiate our products to make it a hit with customers.→:::←discover: Find holes in existing products. <!--SR:!2024-08-15,55,281!2024-08-13,70,321-->
 - discover: Find holes in existing products.→:::←know ourselves: See if our products are sticky. <!--SR:!2024-08-28,59,221!2024-08-10,20,241-->
-- know ourselves: See if our products are sticky.→:::←know them: See how big of a threat competitors pose. <!--SR:!2024-12-30,156,301!2024-08-02,63,314-->
+- know ourselves: See if our products are sticky.→:::←know them: See how big of a threat competitors pose. <!--SR:!2024-12-30,156,301!2025-02-15,196,314-->
 - know them: See how big of a threat competitors pose.→:::←pricing: Find suitable prices catering to different market segment and economies. <!--SR:!2024-08-07,19,241!2024-08-08,54,261-->
-- pricing: Find suitable prices catering to different market segment and economies.→:::←_(end)_ <!--SR:!2024-08-02,61,321!2024-08-13,65,281-->
+- pricing: Find suitable prices catering to different market segment and economies.→:::←_(end)_ <!--SR:!2025-04-24,264,341!2024-08-13,65,281-->
 
 <!--/pytextgen-->
 
 > [!example] examples
 >
-> - In Africa, phones are {{sold for very cheap because of Africa's less developed economies}}. <!--SR:!2024-08-02,62,321-->
+> - In Africa, phones are {{sold for very cheap because of Africa's less developed economies}}. <!--SR:!2025-05-07,277,341-->
 
 ### when to do
 
