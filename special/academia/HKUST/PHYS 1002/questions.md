@@ -447,3 +447,90 @@ The parenthesized text at the beginning of of each question is {{the location th
 > 4. It was produced by fission of even heavier elements in the Sun.
 >
 > - solution: {{3}} <!--SR:!2024-08-19,16,341-->
+
+## 2024-07-30
+
+> Q1. (MCQ) What is the Schwarzschild radius of a 70-kg person?
+>
+> G = 6.67 × 10^(-11) m^3 s^(-2) kg^(-1)
+>
+> 1. 10^(-30) m
+> 2. 10^(-25) m
+> 3. 10^(-20) m
+> 4. 10^(-15) m
+> 5. 10^(-10) m
+>
+> - solution: {{2}}
+> - explanation: {{Apply the equation for Schwarzschild radius: $$r_s = \frac {2 \cdot 6.67 \times 10^{-11} \cdot 70} {299\,792\,458^2} \approx 1.03899262 \times 10^{-25}~\mathrm{m}$$. So the answer is 10<sup>-25</sup> m.}}
+
+<!-- markdownlint MD028 -->
+
+> Q2. (derived) What is th Schwarzschild radius of the observable universe? There are 10<sup>53</sup> kg of ordinary (baryonic) matter in the observable universe. Ignore non-baryonic matter.
+>
+> 1. 1.57×10<sup>11</sup> ly
+> 2. 1.57×10<sup>14</sup> ly
+> 3. 1.57×10<sup>17</sup> ly
+> 4. 7.85×10<sup>10</sup> ly
+> 5. 7.85×10<sup>13</sup> ly
+> 6. 7.85×10<sup>16</sup> ly
+>
+> - solution: {{1}}
+> - explanation: {{Apply the equation for Schwarzschild radius: $$r_s = \frac {2 \cdot 6.674\,30 \times 10^{-11} \cdot 10^{53} } {299\,792\,458^2} \approx 1.485\,232\,05 \times 10^{27}~\mathrm{m} \approx 1.569\,9251 \times 10^{11}~\mathrm{ly}$$. So the answer is 1.57×10<sup>11</sup> ly.}}
+
+## 2024-08-01
+
+> Q1. (iPRS) Which of the following correctly describes the concept of galactic recycling?
+>
+> 1. Stars near the center of a galaxy are continually recycled to the outskirts of the disk by their orbital motion.
+> 2. New stars are continuously being formed in a galaxy out of gas that has been ejected from a previous generation of stars.
+> 3. New galaxies are continuously being formed out of gas ejected from a previous generation of galaxies.
+> 4. In the formation of a star, no matter is wasted as all excess material ends up recycled into planets.
+> 5. Life is continuously being spread from star to star in a galaxy.
+>
+> - solution: {{2}}
+
+<!-- markdownlint MD028 -->
+
+> Q2. (iPRS) Where would you look for the youngest stars in the Milky Way galaxy?
+>
+> 1. In the halo
+> 2. At the galactic center
+> 3. In the disk
+> 4. In the nuclear bulge
+> 5. The chances of finding a very young star are the same anywhere in the Milky Way galaxy
+>
+> - solution: {{3}}
+
+<!-- markdownlint MD028 -->
+
+> Q3. (MCQ) A star in a galaxy is located at a distance of 100000 light years from the galactic center and has an orbital speed of 400 km/s around the center. Estimate the mass of the galaxy located within a distance of 100000 light years from the center.
+>
+> 1. 10^6 solar masses
+> 2. 10^8 solar masses
+> 3. 10^10 solar masses
+> 4. 10^12 solar masses
+> 5. 10^14 solar masses
+>
+> - solution: {{4}}
+> - explanation: {{Apply the orbital velocity equation: $$M = \frac {rv^2} G = \frac {100\,000 \cdot 9460\,730\,472\,580\,800 \cdot \left(400 \times 10^{3} \right)^2 } {\cdot 6.674\,30 \times 10^{-11} } \approx 2.26797848e42~\mathrm{kg} \approx \frac {2.26797848 \times 10^{42} } {1.9885 \times 10^{30} }~\mathrm{solar\ masses} \approx 1.1405474 \times 10^{12}~\mathrm{solar\ masses}$$. So the answer is 10^12 solar masses. Alternatively, one can use the proportionality relation $$M \propto rv^2$$, but one needs to recall that the Sun is ~26&nbsp;000 ly (~8 kpc) away from the center and has a galactic orbital velocity of 230 km/s.}}
+
+<!-- markdownlint MD028 -->
+
+> Q4. (MCQ) The typical radius of a white dwarf is several thousand km. The typical radius of a neutron star is about 10 km.
+>
+> In a Type II supernova, the source of energy is the gravitational energy released when the degenerate iron core (which is an iron white dwarf) collapses to become a neutron star in less than one second.
+>
+> It is given that the self-gravitational-potential energy of a spherical object with mass M and radius R can be estimated by the formula U ~ – (GM^2)/R
+>
+> The energy released by a type II supernova is \_\_\_\_\_\_\_\_ the energy emitted by the Sun during its whole 10-billion-year lifetime.
+>
+> You may assume that the solar luminosity is always the same and equal to 3.8 × 10^26 W. Take the mass of the neutron star to be 2 solar mass where 1 solar mass = 2 × 10^30 kg. G = 6.67 × 10^(-11) m^3 s^(-2) kg^(-1).
+>
+> 1. 1000 times
+> 2. 10 times
+> 3. equal to
+> 4. 0.1 times
+> 5. 0.001 times
+>
+> - solution: {{1}}
+> - explanation: {{The typical radius of a white dwarf is not given. However, consider the energy exploded: $$E = \frac {GM^2} {10 \times 10^3} - \frac {GM^2} x = GM^2 \left(\frac 1 {10 \times 10^3} - \frac 1 x\right)$$, where $x$ is the typical radius of a white dwarf. One would realize, given that $x \ge 1000 \times 10^3$, since $x \gg 10 \times 10^3$, so $$\frac 1 {10 \times 10^3} - \frac 1 x \approx \frac 1 {10 \times 10^3}$$, which is a good enough approximation for this question. So calculate the energy released: $$E = {GM^2} {10 \times 10^3} = \frac {6.674\,30 \times 10^{-11} \cdot \left( 2 \cdot 1.9885 \times 10^{30} \right)^2} {10 \times 10^3} \approx 1.055\,6426 \times 10^{47}~\mathrm{J}$$. Then, calculate the energy released by the Sun over its lifetime: $$E_\odot = 3.828 \times 10^{26} \cdot 10 \times 10^9 \times \cdot 365.25 \times 86\,400 \approx 1.208\,024\,93 \times 10^{44}~\mathrm{J}$$. Now divide the first number by the second number to get the answer: $$\frac E {E_\odot} = \frac {1.055\,6426 \times 10^{47} } {1.208\,024\,93 \times 10^{44} } \approx 873.8583$$. So the answer is 1000 times.}}
