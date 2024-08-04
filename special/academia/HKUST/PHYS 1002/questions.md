@@ -537,7 +537,7 @@ The parenthesized text at the beginning of of each question is {{the location th
 > - solution: {{1}}
 > - explanation: {{The typical radius of a white dwarf is not given. However, consider the energy exploded: $$E = \frac {GM^2} {10 \times 10^3} - \frac {GM^2} x = GM^2 \left(\frac 1 {10 \times 10^3} - \frac 1 x\right)$$, where $x$ is the typical radius of a white dwarf. One would realize, given that $x \ge 1000 \times 10^3$, since $x \gg 10 \times 10^3$, so $$\frac 1 {10 \times 10^3} - \frac 1 x \approx \frac 1 {10 \times 10^3}$$, which is a good enough approximation for this question. So, using the above approximation, calculate the energy released: $$E = {GM^2} {10 \times 10^3} = \frac {6.674\,30 \times 10^{-11} \cdot \left( 2 \cdot 1.9885 \times 10^{30} \right)^2} {10 \times 10^3} \approx 1.055\,6426 \times 10^{47}~\mathrm{J}$$. Then, calculate the energy released by the Sun over its lifetime: $$E_\odot = 3.828 \times 10^{26} \cdot 10 \times 10^9 \times \cdot 365.25 \times 86\,400 \approx 1.208\,024\,93 \times 10^{44}~\mathrm{J}$$. Now divide the first number by the second number to get the answer: $$\frac E {E_\odot} = \frac {1.055\,6426 \times 10^{47} } {1.208\,024\,93 \times 10^{44} } \approx 873.8583$$. So the answer is 1000 times.}}
 
-## student generated questions
+## student-generated questions
 
 > Q1. (sample) Star A is a star with apparent magnitude (m<sub>A</sub>) of 3. The apparent brightness ratio of Star A over Star B is 15 and assume absolute magnitude (M<sub>B</sub>) of star B is 1. What is the distance between earth and star B in terms of parsecs?
 >
@@ -566,6 +566,27 @@ The parenthesized text at the beginning of of each question is {{the location th
 >
 > - solution: {{5}}
 > - explanation: {{White dwarfs have very high surface temperature and are very small. So they have low luminosity. E matches this description. So the answer is E. (Note that the graph is similar to a horizontally flipped Hertzsprung-Russell diagram.)}}
+
+<!-- markdownlint MD028 -->
+
+> Q4. (derived) In the lectures, we have learned about the _axial precession_ of Earth. Earth's rotational axis follows a circle, in the opposite direction as Earth's rotation (and thus, also Earth's orbital motion), over a 26&nbsp;000-year period. This is shown in the figure below:
+>
+> > ![axial precession of Earth|256](../../../../archives/Wikimedia%20Commons/Earth%20precession.svg)
+> >
+> > [NASA, Mysid](https://commons.wikimedia.org/wiki/File:Earth_precession.svg), Public domain, via Wikimedia Commons
+>
+> An important effect of axial precession is that the duration it takes for the Sun to return to the same _solstice_ or _equinox_ (of the same type) is shorter than the _sidereal orbital period_ (or _sidereal year_) of Earth. The shorter duration is called the __tropical year__ or __solar year__.
+>
+> Assume there is a hypothetical planet similar to Earth. In particular, the directions of its orbital motion, rotation, and _axial precession_ are the same as that of Earth. Its axial tilt is also the same as that of Earth. The planet orbits around the parent star relative to distant stars every 42 days. Its _tropical year_ lasts for 41 days. Calculate the period of its axial precession. Assume its axial precession follows a perfect circle with uniform speed.
+>
+> 1. 20.75 days
+> 2. 1722 days, but the direction of axial precession should be the same as that of rotation instead
+> 3. 1722 days
+> 4. 20.75 days, but the direction of axial precession should be the same as that of rotation instead
+> 5. 26&nbsp;000 years
+>
+> - solution: {{3}}
+> - explanation: {{This is analogous to a planet orbiting a parent star in retrograde motion. To find the answer: $$\frac 1 {T_{\mathrm{orb} } } + \frac 1 {T_{\mathrm{sid} } } = \frac 1 {T_{\mathrm{sol} } } \implies \frac 1 {T_{\mathrm{orb} } } = \frac 1 {T_{\mathrm{sol} } } - \frac 1 {T_{\mathrm{sid} } } \implies \frac 1 T = \frac 1 {41} - \frac 1 {42} \implies T = \frac 1 {\frac 1 {41} - \frac 1 {42} } = \frac 1 {\frac 1 {1722} } = 1722$$. So the answer is 1722 days. For a detailed explanation, see [SGQ on the tropical year § explanation](SGQ%20on%20the%20tropical%20year.md#explanation).}}
 
 ## strip sequence questions
 
