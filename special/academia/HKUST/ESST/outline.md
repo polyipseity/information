@@ -9,7 +9,9 @@ tags:
   - language/in/English
 ---
 
-# HKUST Engineering Student Safety Training outline
+# outline
+
+- HKUST Engineering Student Safety Training
 
 - [electrical safety](electrical%20safety/outline.md)
 - [occupational health](occupational%20health/outline.md)

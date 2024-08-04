@@ -14,7 +14,9 @@ tags:
   - language/in/English
 ---
 
-# HKUST TEMG 3950 outline
+# outline
+
+- HKUST TEMG 3950
 
 The content is in teaching order.
 

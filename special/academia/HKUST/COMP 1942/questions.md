@@ -17,7 +17,9 @@ tags:
   - language/in/English
 ---
 
-# HKUST COMP 1942 questions
+# questions
+
+- HKUST COMP 1942
 
 ## 2024-02-05
 

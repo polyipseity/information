@@ -14,7 +14,9 @@ tags:
   - language/in/English
 ---
 
-# HKUST COMP 1029J outline
+# outline
+
+- HKUST COMP 1029J
 
 The content is in teaching order.
 

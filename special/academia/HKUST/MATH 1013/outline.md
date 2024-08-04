@@ -14,7 +14,9 @@ tags:
   - language/in/English
 ---
 
-# HKUST MATH 1013 outline
+# outline
+
+- HKUST MATH 1013
 
 - [L'Hôpital's rule](../../../../general/L'Hôpital's%20rule.md)
   - [other indeterminate forms](../../../../general/L'Hôpital's%20rule.md#other%20indeterminate%20forms)

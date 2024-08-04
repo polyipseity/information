@@ -14,7 +14,9 @@ tags:
   - language/in/English
 ---
 
-# HKUST COMP 3633 outline
+# outline
+
+- HKUST COMP 3633
 
 The content is in teaching order.
 

@@ -13,7 +13,9 @@ tags:
   - language/in/English
 ---
 
-# HKUST PHYS 1002 schedule
+# schedule
+
+- HKUST PHYS 1002
 
 For 2024 Summer.
 

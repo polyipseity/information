@@ -17,7 +17,9 @@ tags:
   - language/in/English
 ---
 
-# HKUST CIVL 1100 data
+# data
+
+- HKUST CIVL 1100
 
 Things to memorize. Yes... 🫠
 

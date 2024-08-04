@@ -13,7 +13,9 @@ tags:
   - language/in/English
 ---
 
-# HKUST PHYS 1002 questions
+# questions
+
+- HKUST PHYS 1002
 
 The parenthesized text at the beginning of of each question is {{the location the question appears in}}. Questions beginning with `(derived)` are {{derived from other questions and only appear here}}.
 

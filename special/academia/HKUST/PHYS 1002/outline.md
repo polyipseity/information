@@ -18,7 +18,9 @@ tags:
   - language/in/English
 ---
 
-# HKUST PHYS 1002 outline
+# outline
+
+- HKUST PHYS 1002
 
 The content is in teaching order. Extra information and corrections are included, but they are not recommended to be used for exams.
 
