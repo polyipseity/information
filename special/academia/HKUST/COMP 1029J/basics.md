@@ -197,7 +197,7 @@ return _chain.from_iterable(await _gather(
 - `--`→:::←`*` <!--SR:!2025-02-18,253,310!2024-09-26,174,310-->
 - `*`→:::←`/` <!--SR:!2024-10-13,181,310!2024-12-22,251,330-->
 - `/`→:::←`%` <!--SR:!2025-01-17,270,330!2025-05-23,306,290-->
-- `%`→:::←`+` <!--SR:!2025-03-14,314,330!2024-08-04,121,290-->
+- `%`→:::←`+` <!--SR:!2025-03-14,314,330!2025-07-20,350,290-->
 - `+`→:::←`-` <!--SR:!2025-02-10,288,330!2025-02-04,282,330-->
 - `-`→:::←_(end)_ <!--SR:!2024-11-03,209,330!2025-01-29,281,330-->
 
@@ -208,7 +208,7 @@ return _chain.from_iterable(await _gather(
 - `++`::increment a numerical variable by 1 <!--SR:!2024-11-07,213,330-->
 - `--`::decrement a numerical variable by 1 <!--SR:!2025-03-15,316,330-->
 - `*`::multiplication <!--SR:!2025-03-01,303,330-->
-- `/`::division; if both operands are of integral types, then round-towards-zero division <!--SR:!2024-08-04,121,290-->
+- `/`::division; if both operands are of integral types, then round-towards-zero division <!--SR:!2024-09-30,57,270-->
 - `%`::remainder; the resulting sign is the same as the dividend, i.e. the number before the operator <!--SR:!2025-06-14,322,290-->
 - `+`::addition <!--SR:!2025-01-19,272,330-->
 - `-`::subtraction <!--SR:!2025-01-03,256,330-->

@@ -33,15 +33,15 @@ A view $v$ is the parent of another $v'$ if {{every query that we care about tha
 >
 > ![relations between a set of views, sparse](attachments/materialized%20view%20-%20data%20cube%20-%20sparse.png) <!--SR:!2024-08-27,56,310!2024-08-08,40,290!2024-08-28,57,310!2024-08-16,47,290!2024-08-13,44,290-->
 
-The cost of answering a query depends on {{the view (materialized or not) to be queried against and the views materialized}}. First, identify the {{least costly view (materialized or not) required to answer the query}}, and then find the {{least costly (direct or indirect) parent view that is materialized}}, and its {{associated cost is the cost of answering said query}}. <!--SR:!2024-08-04,38,290!2024-11-07,98,290!2024-12-22,141,310!2024-10-05,74,270-->
+The cost of answering a query depends on {{the view (materialized or not) to be queried against and the views materialized}}. First, identify the {{least costly view (materialized or not) required to answer the query}}, and then find the {{least costly (direct or indirect) parent view that is materialized}}, and its {{associated cost is the cost of answering said query}}. <!--SR:!2025-01-02,151,310!2024-11-07,98,290!2024-12-22,141,310!2024-10-05,74,270-->
 
 ### greedy algorithm
 
 We assume that {{each view is equally likely to be queried}}. We also assume the top view $\top$ {{is materialized}}, and the bottom view $\bot$ {{is ignored and assumed does not exist}}. <!--SR:!2024-08-07,39,290!2024-12-27,146,310!2024-12-19,140,310-->
 
-Let $S$ be {{the set of materialized views}}. Define the total cost function {{accepting a set of materialized views $C(S)$ as the total cost of accessing each possible views once, taking the materialized views into consideration}}. Next, define the gain {{$G(A, B)$ accepting 2 sets of materialized views, as $G(A, B) = C(B) - C(A)$, i.e. the total cost reduction of materializing $A$ over materializing $B$}}. Finally, define the benefit {{$B(v, S) = G(S \cup \set{v}, S)$, i.e. the total cost reduction of _additionally_ materializing $v$ over only materializing $S$}}. <!--SR:!2024-09-16,73,310!2024-09-10,54,250!2024-09-10,58,270!2024-08-04,37,290-->
+Let $S$ be {{the set of materialized views}}. Define the total cost function {{accepting a set of materialized views $C(S)$ as the total cost of accessing each possible views once, taking the materialized views into consideration}}. Next, define the gain {{$G(A, B)$ accepting 2 sets of materialized views, as $G(A, B) = C(B) - C(A)$, i.e. the total cost reduction of materializing $A$ over materializing $B$}}. Finally, define the benefit {{$B(v, S) = G(S \cup \set{v}, S)$, i.e. the total cost reduction of _additionally_ materializing $v$ over only materializing $S$}}. <!--SR:!2024-09-16,73,310!2024-09-10,54,250!2024-09-10,58,270!2024-11-18,106,290-->
 
-The objective is to {{find the best $S$ that maximizes the gain $G(S, \set{\top})$ over the top view, while satisfying the given constraints}}. The constraints we will consider here are {{the maximum number of materialized views or the max total cost of materialized views}}. The constraints are considered separately. <!--SR:!2024-08-04,38,290!2024-08-17,39,250-->
+The objective is to {{find the best $S$ that maximizes the gain $G(S, \set{\top})$ over the top view, while satisfying the given constraints}}. The constraints we will consider here are {{the maximum number of materialized views or the max total cost of materialized views}}. The constraints are considered separately. <!--SR:!2025-01-03,152,310!2024-08-17,39,250-->
 
 The pseudocode is as follows:
 

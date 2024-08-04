@@ -84,7 +84,7 @@ See [Central Plaza (Hong Kong)](../../../../general/Central%20Plaza%20(Hong%20Ko
 
 See [Channel Tunnel](../../../../general/Channel%20Tunnel.md).
 
-- completion time ::: 1994 <!--SR:!2024-08-04,7,316!2024-10-10,110,376-->
+- completion time ::: 1994 <!--SR:!2024-08-08,4,296!2024-10-10,110,376-->
 - rail tunnel length ::: 50.5 km (37.9 km underseas) <!--SR:!2024-08-11,19,276!2024-10-20,125,396-->
 
 ## China International Trust and Investment Plaza
@@ -144,7 +144,7 @@ See [Great Pyramid of Giza](../../../../general/Great%20Pyramid%20of%20Giza.md).
 See [Great Wall of China](../../../../general/Great%20Wall%20of%20China.md).
 
 - component ::: fortress, horse track, pass, shelter, wall, watch tower <!--SR:!2024-09-26,86,316!2024-11-01,135,396-->
-- construction period ::: 220 BC under Qin Shi Huang, and continued up to the Ming dynasty (1368–1644) <!--SR:!2024-08-04,57,356!2024-12-01,159,396-->
+- construction period ::: 220 BC under Qin Shi Huang, and continued up to the Ming dynasty (1368–1644) <!--SR:!2025-02-20,200,356!2024-12-01,159,396-->
 - geographic locations ::: begins in the east at Shanhaiguan (山海關), Hebei; and ends in the west at Jiayuguan (嘉峪關), Gansu <!--SR:!2024-08-05,57,356!2024-10-14,114,376-->
 - length ::: 21196.18 km <!--SR:!2024-08-19,20,296!2024-11-15,147,396-->
 
@@ -161,9 +161,9 @@ See [HSBC Building (Hong Kong)](HSBC%20Building%20(Hong%20Kong).md).
 
 See [Hong Kong Convention and Exhibition Centre](../../../../general/Hong%20Kong%20Convention%20and%20Exhibition%20Centre.md).
 
-- description ::: events venue in Wan Chai, Hong Kong <!--SR:!2025-11-12,466,315!2024-08-04,87,374-->
+- description ::: events venue in Wan Chai, Hong Kong <!--SR:!2025-11-12,466,315!2025-10-23,445,394-->
 - image ::: ![Hong Kong Convention and Exhibition Centre image](../../../../archives/Wikimedia%20Commons/HKCEC.jpg) <!--SR:!2025-07-14,345,380!2024-08-28,95,380-->
-- shape ::: bird/turtle rooftop <!--SR:!2025-01-20,235,330!2024-08-04,85,372-->
+- shape ::: bird/turtle rooftop <!--SR:!2025-01-20,235,330!2025-10-10,432,392-->
 
 ## Hong Kong–Zhuhai–Macau Bridge
 

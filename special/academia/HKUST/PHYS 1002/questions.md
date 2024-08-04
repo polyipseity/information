@@ -284,7 +284,7 @@ The parenthesized text at the beginning of of each question is {{the location th
 > 4. blue in color
 >
 > - solution: {{2}}
-> - explanation: {{Consider the graph of spectral radiance for that star, which peaks at 530 nm. It should look like a hill with somewhat narrow peak. However, the narrow peak should cover the entire visible spectrum. As the spectral radiance is approximately even around the peak, that means it is approximately even over the entire visible spectrum, so the color is white.}} <!--SR:!2024-08-04,7,288!2024-08-07,10,308-->
+> - explanation: {{Consider the graph of spectral radiance for that star, which peaks at 530 nm. It should look like a hill with somewhat narrow peak. However, the narrow peak should cover the entire visible spectrum. As the spectral radiance is approximately even around the peak, that means it is approximately even over the entire visible spectrum, so the color is white.}} <!--SR:!2024-08-25,21,288!2024-08-07,10,308-->
 
 <!-- markdownlint MD028 -->
 
@@ -369,7 +369,7 @@ The parenthesized text at the beginning of of each question is {{the location th
 > 5. 10^7 L_Sun
 >
 > - solution: {{1}}
-> - explanation: {{Notice that $C$ is not given for two cases. So the main problem is calculating $C$. The main thing to realize is that w expect for masses in the boundary points between two equations, the two equations should predict the same value, i.e. a continuous function. We only need the $C$ for the third case: $$55^{3.5} = C \cdot 55^1 \implies C = 55^{2.5} \approx 22434.0004$$. Then the rest is a simple matter of applying the formula: $$L = 22434.0004 \cdot 100^1 \approx 2.24 \times 10^6~\mathrm{solar\ luminosity}$$. So the answer is 2×10<sup>6</sup> L<sub>Sun</sub>.}} <!--SR:!2024-08-16,19,331!2024-08-04,7,291-->
+> - explanation: {{Notice that $C$ is not given for two cases. So the main problem is calculating $C$. The main thing to realize is that w expect for masses in the boundary points between two equations, the two equations should predict the same value, i.e. a continuous function. We only need the $C$ for the third case: $$55^{3.5} = C \cdot 55^1 \implies C = 55^{2.5} \approx 22434.0004$$. Then the rest is a simple matter of applying the formula: $$L = 22434.0004 \cdot 100^1 \approx 2.24 \times 10^6~\mathrm{solar\ luminosity}$$. So the answer is 2×10<sup>6</sup> L<sub>Sun</sub>.}} <!--SR:!2024-08-16,19,331!2024-08-26,22,291-->
 
 <!-- markdownlint MD028 -->
 
@@ -381,7 +381,7 @@ The parenthesized text at the beginning of of each question is {{the location th
 > 4. 24 AU
 >
 > - solution: {{3}}
-> - explanation: {{Find the factor the Sun needs to be dimmer to have an apparent magnitude of 1.98: $$f_B = 100^{-\frac {1.98 - (-26.832)} 5} = 100^{-5.7624} \approx 2.98675776 \times 10^{-12}$$. As the apparent brightness is inversely proportional to the square of distance, the factor the Sun needs to be farther away is $$f_d = 1 / \sqrt{2.98675776 \times 10^{-12} } \approx 578628.74$$. As the Sun is 1 AU away, the answer is about 5.8×10<sup>5</sup> AU.}} <!--SR:!2024-08-15,14,291!2024-08-04,5,271-->
+> - explanation: {{Find the factor the Sun needs to be dimmer to have an apparent magnitude of 1.98: $$f_B = 100^{-\frac {1.98 - (-26.832)} 5} = 100^{-5.7624} \approx 2.98675776 \times 10^{-12}$$. As the apparent brightness is inversely proportional to the square of distance, the factor the Sun needs to be farther away is $$f_d = 1 / \sqrt{2.98675776 \times 10^{-12} } \approx 578628.74$$. As the Sun is 1 AU away, the answer is about 5.8×10<sup>5</sup> AU.}} <!--SR:!2024-08-15,14,291!2024-08-25,21,291-->
 
 <!-- markdownlint MD028 -->
 

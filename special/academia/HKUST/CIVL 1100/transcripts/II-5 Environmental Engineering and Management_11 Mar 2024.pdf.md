@@ -245,7 +245,7 @@ Hong Kong Harbour Area Treatment Scheme Stage I (HATS)
 - Hong Kong Harbour Area Treatment Scheme Stage I ::: HATS Stage 1 <!--SR:!2025-03-26,237,330!2024-08-07,61,310-->
   - HATS Stage 1 scheme period ::: 1994 to 2001 <!--SR:!2024-11-10,117,290!2024-08-24,34,250-->
   - HATS Stage 1 scheme cost ::: HK$8.2 billion <!--SR:!2024-10-20,101,290!2024-10-01,85,270-->
-  - HATS Stage 1 details ::: Stonecutters Island Sewage Treatment Works (SCISTW), sewage tunnel of 23.6 km, upgrade 8 preliminary treatment works (PTWs) <!--SR:!2024-10-10,93,270!2024-08-04,58,310-->
+  - HATS Stage 1 details ::: Stonecutters Island Sewage Treatment Works (SCISTW), sewage tunnel of 23.6 km, upgrade 8 preliminary treatment works (PTWs) <!--SR:!2024-10-10,93,270!2025-02-01,181,310-->
   - HATS Stage 1 geographic coverage ::: collect sewage from Kowloon, Kwai Tsing, Tseung Kwan O, and north-eastern Hong Kong Island to SCISTW <!--SR:!2024-09-15,75,270!2024-12-09,148,310-->
   - HATS Stage 1 coverage in numbers ::: 3.5 million people, 75% from harbour area <!--SR:!2024-11-30,132,290!2024-09-26,86,290-->
   - HATS Stage 1 capacities :::: current ~1.4M m<sup>3</sup>/d, max: 1.7M m<sup>3</sup>/d <!--SR:!2024-11-05,114,290!2024-11-17,124,290-->
@@ -254,7 +254,7 @@ Hong Kong Harbour Area Treatment Scheme Stage I (HATS)
 
 HATS Stage 2 Overview
 
-- Hong Kong Harbour Area Treatment Scheme Stage II ::: HATS Stage 2 <!--SR:!2024-08-04,58,310!2024-08-11,64,310-->
+- Hong Kong Harbour Area Treatment Scheme Stage II ::: HATS Stage 2 <!--SR:!2025-04-09,248,330!2024-08-11,64,310-->
   - HATS Stage 2 phases ::: 2 phases, stage 2A and stage 2B <!--SR:!2024-08-07,60,310!2024-08-09,63,310-->
   - HATS Stage 2A ::: collect and treat the remaining 25% sewage from north and south-western Hong Kong Island and future development, and provide disinfection <!--SR:!2024-08-21,65,270!2024-10-10,97,290-->
   - HATS Stage 2B ::: biological treatment <!--SR:!2025-01-29,186,310!2025-01-07,163,310-->

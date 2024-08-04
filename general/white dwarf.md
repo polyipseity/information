@@ -13,7 +13,7 @@ A __white dwarf__ is {{a [stellar core remnant](compact%20object.md) composed mo
 
 ## formation
 
-White dwarfs are thought to represent {{the end point of [stellar evolution](stellar%20evolution.md) for main-sequence stars with masses from about 0.07 to 10 M<sub>☉</sub>}}. The composition of the white dwarf produced will depend on {{the initial mass of the star}}. Current galactic models suggest the Milky Way galaxy currently contains {{about ten billion white dwarfs}}. <!--SR:!2024-08-06,3,250!2024-08-07,4,270!2024-08-04,1,230-->
+White dwarfs are thought to represent {{the end point of [stellar evolution](stellar%20evolution.md) for main-sequence stars with masses from about 0.07 to 10 M<sub>☉</sub>}}. The composition of the white dwarf produced will depend on {{the initial mass of the star}}. Current galactic models suggest the Milky Way galaxy currently contains {{about ten billion white dwarfs}}. <!--SR:!2024-08-06,3,250!2024-08-07,4,270!2024-08-06,2,230-->
 
 ### stars with very low mass
 

@@ -47,7 +47,7 @@ After obtaining {{the base set}}, let the _n_ pages be {{$p_1, \ldots, p_n$}}. S
 
 To help with the update rules, construct {{a [directed adjacency matrix](adjacency%20matrix.md#directed%20graphs) $\mathbf{M}$ representing links between the pages}}. The matrix element $\mathbf{M}_{i, j}$ {{is 1 iff $p_i$ is linked to $p_j$, and otherwise 0}}. <!--SR:!2024-10-19,81,274!2024-08-25,54,314-->
 
-Let $k$ be {{the current number of iterations}}, and $\mathbf{A}_k$ and $\mathbf{H}_k$ be {{the authority and hub column vectors that are outputted by the current iteration}}. $\mathbf{A}_0$ and $\mathbf{H}_0$ are {{the initial values, after normalization if any}}. <!--SR:!2024-08-04,38,294!2024-09-01,61,314!2024-09-12,69,314-->
+Let $k$ be {{the current number of iterations}}, and $\mathbf{A}_k$ and $\mathbf{H}_k$ be {{the authority and hub column vectors that are outputted by the current iteration}}. $\mathbf{A}_0$ and $\mathbf{H}_0$ are {{the initial values, after normalization if any}}. <!--SR:!2025-01-06,155,314!2024-09-01,61,314!2024-09-12,69,314-->
 
 ### authority update rule
 
