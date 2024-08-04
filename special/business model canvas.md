@@ -112,7 +112,7 @@ segmented: splitting slightly different customer segments
 - diversified: serving unrelated customer segments→:::←mass market: not distinguishing between customer segments <!--SR:!2024-09-10,84,237!2024-09-21,96,254-->
 - mass market: not distinguishing between customer segments→:::←multi-sided platforms: serving interdependent customer segments <!--SR:!2024-09-05,33,254!2024-09-12,109,297-->
 - multi-sided platforms: serving interdependent customer segments→:::←niche market: focusing on specific, specialized customer segments <!--SR:!2024-10-27,120,257!2024-09-12,79,254-->
-- niche market: focusing on specific, specialized customer segments→:::←segmented: splitting slightly different customer segments <!--SR:!2024-09-30,100,254!2024-08-04,1,157-->
+- niche market: focusing on specific, specialized customer segments→:::←segmented: splitting slightly different customer segments <!--SR:!2024-09-30,100,254!2024-08-06,2,157-->
 - segmented: splitting slightly different customer segments→:::←_(end)_ <!--SR:!2025-01-22,185,274!2024-10-31,116,254-->
 
 <!--/pytextgen-->
@@ -173,7 +173,7 @@ risk reduction
 - newness→:::←performance <!--SR:!2024-12-31,168,277!2024-09-26,99,257-->
 - performance→:::←performing the job well <!--SR:!2024-10-23,129,297!2024-09-03,92,274-->
 - performing the job well→:::←price <!--SR:!2024-10-20,139,294!2024-12-24,166,274-->
-- price→:::←risk reduction <!--SR:!2024-08-04,74,274!2024-08-12,82,274-->
+- price→:::←risk reduction <!--SR:!2025-02-24,204,274!2024-08-12,82,274-->
 - risk reduction→:::←_(end)_ <!--SR:!2024-10-03,123,297!2024-12-01,138,257-->
 
 <!--/pytextgen-->
@@ -269,7 +269,7 @@ subscription fee
 - brokerage fee→:::←lending, renting, or leasing <!--SR:!2024-08-18,28,237!2024-10-31,121,254-->
 - lending, renting, or leasing→:::←licensing <!--SR:!2024-08-23,87,257!2024-09-05,35,254-->
 - licensing→:::←usage fee <!--SR:!2024-08-10,76,274!2024-08-31,30,254-->
-- usage fee→:::←subscription fee <!--SR:!2024-10-16,111,254!2024-08-04,74,277-->
+- usage fee→:::←subscription fee <!--SR:!2024-10-16,111,254!2025-02-26,206,277-->
 - subscription fee→:::←_(end)_ <!--SR:!2024-11-06,142,294!2024-10-29,132,277-->
 
 <!--/pytextgen-->

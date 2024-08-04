@@ -463,7 +463,7 @@ testing materials
 - quality control→:::←safety engineering <!--SR:!2025-02-12,195,301!2024-08-13,15,235-->
 - safety engineering→:::←scheduling <!--SR:!2024-08-25,82,320!2024-10-01,120,340-->
 - scheduling→:::←surveying building site <!--SR:!2024-08-18,60,241!2024-10-16,116,300-->
-- surveying building site→:::←testing materials <!--SR:!2024-08-04,33,260!2024-08-10,27,272-->
+- surveying building site→:::←testing materials <!--SR:!2024-08-20,16,240!2024-08-10,27,272-->
 - testing materials→:::←_(end)_ <!--SR:!2025-02-21,236,347!2024-08-12,80,307-->
 
 <!--/pytextgen-->
@@ -499,7 +499,7 @@ teaming up with others
 <!--pytextgen generate section="ee20"--><!-- The following content is generated at 2024-02-16T21:59:47.378182+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←business procedures <!--SR:!2024-11-02,111,252!2024-09-08,107,381-->
-- business procedures→:::←economics <!--SR:!2024-08-04,46,261!2025-02-10,193,285-->
+- business procedures→:::←economics <!--SR:!2024-08-28,24,241!2025-02-10,193,285-->
 - economics→:::←human behaviors <!--SR:!2024-08-16,78,320!2024-10-23,131,340-->
 - human behaviors→:::←management principles <!--SR:!2024-08-07,47,300!2024-11-04,95,260-->
 - management principles→:::←strong communication skills <!--SR:!2024-08-12,74,301!2024-09-05,96,320-->
@@ -602,7 +602,7 @@ nuclear
 - industrial→:::←manufacturing <!--SR:!2024-10-02,125,337!2024-09-11,103,332-->
 - manufacturing→:::←mechanical <!--SR:!2024-08-23,101,377!2024-10-23,134,337-->
 - mechanical→:::←nuclear <!--SR:!2024-08-11,90,377!2024-12-14,168,335-->
-- nuclear→:::←_(end)_ <!--SR:!2024-08-04,85,374!2025-07-25,393,365-->
+- nuclear→:::←_(end)_ <!--SR:!2025-06-17,317,374!2025-07-25,393,365-->
 
 <!--/pytextgen-->
 
