@@ -512,7 +512,7 @@ The parenthesized text at the beginning of of each question is {{the location th
 > 5. 10^14 solar masses
 >
 > - solution: {{4}}
-> - explanation: {{Apply the orbital velocity equation: $$M = \frac {rv^2} G = \frac {100\,000 \cdot 9460\,730\,472\,580\,800 \cdot \left(400 \times 10^{3} \right)^2 } {\cdot 6.674\,30 \times 10^{-11} } \approx 2.26797848e42~\mathrm{kg} \approx \frac {2.26797848 \times 10^{42} } {1.9885 \times 10^{30} }~\mathrm{solar\ masses} \approx 1.1405474 \times 10^{12}~\mathrm{solar\ masses}$$. So the answer is 10^12 solar masses. Alternatively, one can use the proportionality relation $$M \propto rv^2$$, but one needs to recall that the Sun is ~26&nbsp;000 ly (~8 kpc) away from the center and has a galactic orbital velocity of 230 km/s.}} <!--SR:!2024-08-06,3,305!2024-08-06,3,305-->
+> - explanation: {{Apply the orbital velocity equation: $$M = \frac {rv^2} G = \frac {100\,000 \cdot 9460\,730\,472\,580\,800 \cdot \left(400 \times 10^{3} \right)^2 } {\cdot 6.674\,30 \times 10^{-11} } \approx 2.26797848e42~\mathrm{kg} \approx \frac {2.26797848 \times 10^{42} } {1.9885 \times 10^{30} }~\mathrm{solar\ masses} \approx 1.1405474 \times 10^{12}~\mathrm{solar\ masses}$$. So the answer is 10^12 solar masses. Alternatively, one can use the proportionality relation $$M \propto rv^2$$, but one needs to recall that the Sun is ~26&nbsp;000 ly (~8 kpc) away from the center and has a galactic orbital velocity of ~230 km/s.}} <!--SR:!2024-08-06,3,305!2024-08-06,3,305-->
 
 <!-- markdownlint MD028 -->
 
@@ -520,7 +520,7 @@ The parenthesized text at the beginning of of each question is {{the location th
 >
 > In a Type II supernova, the source of energy is the gravitational energy released when the degenerate iron core (which is an iron white dwarf) collapses to become a neutron star in less than one second.
 >
-> It is given that the self-gravitational-potential energy of a spherical object with mass M and radius R can be estimated by the formula U ~ – (GM^2)/R
+> It is given that the self-gravitational-potential energy of a spherical object with mass M and radius R can be estimated by the formula U ~ -(GM^2)/R.
 >
 > The energy released by a type II supernova is \_\_\_\_\_\_\_\_ the energy emitted by the Sun during its whole 10-billion-year lifetime.
 >
@@ -533,4 +533,65 @@ The parenthesized text at the beginning of of each question is {{the location th
 > 5. 0.001 times
 >
 > - solution: {{1}}
-> - explanation: {{The typical radius of a white dwarf is not given. However, consider the energy exploded: $$E = \frac {GM^2} {10 \times 10^3} - \frac {GM^2} x = GM^2 \left(\frac 1 {10 \times 10^3} - \frac 1 x\right)$$, where $x$ is the typical radius of a white dwarf. One would realize, given that $x \ge 1000 \times 10^3$, since $x \gg 10 \times 10^3$, so $$\frac 1 {10 \times 10^3} - \frac 1 x \approx \frac 1 {10 \times 10^3}$$, which is a good enough approximation for this question. So calculate the energy released: $$E = {GM^2} {10 \times 10^3} = \frac {6.674\,30 \times 10^{-11} \cdot \left( 2 \cdot 1.9885 \times 10^{30} \right)^2} {10 \times 10^3} \approx 1.055\,6426 \times 10^{47}~\mathrm{J}$$. Then, calculate the energy released by the Sun over its lifetime: $$E_\odot = 3.828 \times 10^{26} \cdot 10 \times 10^9 \times \cdot 365.25 \times 86\,400 \approx 1.208\,024\,93 \times 10^{44}~\mathrm{J}$$. Now divide the first number by the second number to get the answer: $$\frac E {E_\odot} = \frac {1.055\,6426 \times 10^{47} } {1.208\,024\,93 \times 10^{44} } \approx 873.8583$$. So the answer is 1000 times.}} <!--SR:!2024-08-06,3,305!2024-08-06,3,305-->
+> - explanation: {{The typical radius of a white dwarf is not given. However, consider the energy exploded: $$E = \frac {GM^2} {10 \times 10^3} - \frac {GM^2} x = GM^2 \left(\frac 1 {10 \times 10^3} - \frac 1 x\right)$$, where $x$ is the typical radius of a white dwarf. One would realize, given that $x \ge 1000 \times 10^3$, since $x \gg 10 \times 10^3$, so $$\frac 1 {10 \times 10^3} - \frac 1 x \approx \frac 1 {10 \times 10^3}$$, which is a good enough approximation for this question. So, using the above approximation, calculate the energy released: $$E = {GM^2} {10 \times 10^3} = \frac {6.674\,30 \times 10^{-11} \cdot \left( 2 \cdot 1.9885 \times 10^{30} \right)^2} {10 \times 10^3} \approx 1.055\,6426 \times 10^{47}~\mathrm{J}$$. Then, calculate the energy released by the Sun over its lifetime: $$E_\odot = 3.828 \times 10^{26} \cdot 10 \times 10^9 \times \cdot 365.25 \times 86\,400 \approx 1.208\,024\,93 \times 10^{44}~\mathrm{J}$$. Now divide the first number by the second number to get the answer: $$\frac E {E_\odot} = \frac {1.055\,6426 \times 10^{47} } {1.208\,024\,93 \times 10^{44} } \approx 873.8583$$. So the answer is 1000 times.}} <!--SR:!2024-08-06,3,305!2024-08-06,3,305-->
+
+## student generated questions
+
+> Q1. (sample) Star A is a star with apparent magnitude (m<sub>A</sub>) of 3. The apparent brightness ratio of Star A over Star B is 15 and assume absolute magnitude (M<sub>B</sub>) of star B is 1. What is the distance between earth and star B in terms of parsecs?
+>
+> 1. 10
+> 2. 20
+> 3. 50
+> 4. 97
+> 5. 100
+>
+> - solution: {{4}}
+> - explanation: {{Calculate the apparent magnitude of star B: $$m_B = 3 + 5 \log_{100} 15 \approx 5.940\,228\,15$$. Then apply the m & M equation: $$d = 10^{(m_B - M_B + 5) / 5} = 10^{(5.940\,228\,15 - 1 + 5) / 5} = 10^{1.988\,045\,62} \approx 97.28494~\mathrm{pc}$$. So the answer is 97.}}
+
+<!-- markdownlint MD028 -->
+
+> Q2. (sample) We are asked to plot various stars on a scatter chart depending on their luminosities and temperatures. Given the chart shown below, where (in which region) would we put the white dwarf star Sirius B?
+>
+> ![A horizontally flipped Hertzsprung-Russell diagram. The diagram is split into 5 regions of 4 quadrants and 1 central region. They are labeled, in Z-order, A, B, C, D, and E.](attachments/2.png)
+>
+> Hint: This graph is not a Hertzsprung-Russell diagram!
+>
+> 1. A
+> 2. B
+> 3. C
+> 4. D
+> 5. E
+>
+> - solution: {{5}}
+> - explanation: {{White dwarfs have very high surface temperature and are very small. So they have low luminosity. E matches this description. So the answer is E. (Note that the graph is similar to a horizontally flipped Hertzsprung-Russell diagram.)}}
+
+## strip sequence questions
+
+> Q1. (sample) <s>By putting the correct letters into the brackets under the numbers,</s> place the following lunar phases in a month in the correct chronological sequence.
+>
+> 1. Waning gibbous
+> 2. First quarter
+> 3. Full moon
+> 4. New moon
+> 5. Waning crescent
+> 6. Third quarter
+> 7. Waxing gibbous
+> 8. Waxing crescent
+>
+> - solution: {{4 → 8 → 2 → 7 → 3 → 1 → 6 → 5}}
+> - mnemonics: {{New moon and full moon are easily remembered. Then insert the 2 quarters, first quarter and third quarter, respectively in between new moon and full moon, and in between full moon and next new moon. Finally, in between each of the 4 phases, including between third quarter and next new moon, insert the 4 minor phases. The 4 minor phases is a word combination of waxing or waning, and crescent or gibbous. Waxing means "increasing" while waning means "decreasing". Crescent means "sickle moon" while gibbous means "convex" or "protuberant", so the former is thinner than the latter.}}
+
+<!-- markdownlint MD028 -->
+
+> Q2. (sample) <s>By putting the correct letters into the brackets under the numbers,</s> place the following stellar spectral types in the correct order from highest to lowest surface temperature.
+>
+> 1. A
+> 2. B
+> 3. K
+> 4. O
+> 5. M
+> 6. F
+> 7. G
+>
+> - solution: {{4 → 2 → 1 → 6 → 7 → 3 → 5}}
+> - mnemonics: {{<u>O</u>h, <u>B</u>e <u>A</u> <u>F</u>ine <u>G</u>uy/<u>G</u>irl, <u>K</u>iss <u>M</u>e! <br/> <u>O</u>ur <u>B</u>right <u>A</u>stronomers <u>F</u>requently <u>G</u>enerate <u>K</u>iller <u>M</u>nemonics! <br/> <u>O</u>h, <u>B</u>e <u>A</u> <u>F</u>ool <u>G</u>uy, <u>K</u>ill <u>M</u>e! <br/> <u>O</u>h <u>B</u>oy, <u>A</u> <u>F</u> <u>G</u>rade <u>K</u>ills <u>M</u>e!}}
