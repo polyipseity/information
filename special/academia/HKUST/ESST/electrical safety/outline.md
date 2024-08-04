@@ -7,7 +7,9 @@ tags:
   - language/in/English
 ---
 
-# HKUST ESST electrical safety outline
+# outline
+
+- HKUST ESST electrical safety
 
 ```Python
 # pytextgen generate module

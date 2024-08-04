@@ -6,7 +6,9 @@ tags:
   - language/in/English
 ---
 
-# HKUST COMP 1942 homework 2 submission
+# homework 2 submission
+
+- HKUST COMP 1942
 
 COMP1942 Exploring and Visualizing Data (Spring Semester 2024)<br/>
 Homework 2<br/>

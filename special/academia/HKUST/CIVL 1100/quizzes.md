@@ -17,7 +17,9 @@ tags:
   - language/in/English
 ---
 
-# HKUST CIVL 1100 quizzes
+# quizzes
+
+- HKUST CIVL 1100
 
 Example quiz questions for preparing exams.
 

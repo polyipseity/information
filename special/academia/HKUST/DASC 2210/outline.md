@@ -14,6 +14,8 @@ tags:
   - language/in/English
 ---
 
-# HKUST DASC 2210 outline
+# outline
+
+- HKUST DASC 2210
 
 - [DIKW pyramid](../../../../general/DIKW%20pyramid.md)
