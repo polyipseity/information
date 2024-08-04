@@ -24,9 +24,10 @@ tags:
 
 The content is in teaching order. Extra information and corrections are included, but they are not recommended to be used for exams.
 
+- lecture format: iPRS questions sometime during the lecture. Tutorials and MCQs are in the last 30 minutes.
 - [competencies rubrics](competencies%20rubrics.pdf)
 - [schedule](schedule.md)
-- lecture format: iPRS questions sometime during the lecture. Tutorials and MCQs are in the last 30 minutes.
+- [questions](questions.md)
 
 ## week 1 lecture
 
