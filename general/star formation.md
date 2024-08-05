@@ -21,7 +21,7 @@ An interstellar cloud of gas will {{remain in [hydrostatic equilibrium](hydrosta
 
 - see: [protostar](protostar.md)
 
-Accretion of material onto the [protostar](protostar.md) {{continues partially from the newly formed [circumstellar disc](circumstellar%20disc.md)}}. When the density and temperature are high enough, {{[deuterium fusion](deuterium%20fusion.md) begins, and the outward [pressure](radiation%20pressure.md) of the resultant radiation slows (but does not stop) the collapse}}. Material comprising the cloud continues to "rain" onto the [protostar](protostar.md). In this stage {{bipolar jets are produced called [Herbig–Haro objects](Herbig–Haro%20object.md)}}. This is probably the means {{by which excess [angular momentum](angular%20momentum.md) of the infalling material is expelled, allowing the star to continue to form}}. <!--SR:!2024-08-15,11,270!2024-08-05,2,210!2024-08-12,9,270!2024-08-20,17,290-->
+Accretion of material onto the [protostar](protostar.md) {{continues partially from the newly formed [circumstellar disc](circumstellar%20disc.md)}}. When the density and temperature are high enough, {{[deuterium fusion](deuterium%20fusion.md) begins, and the outward [pressure](radiation%20pressure.md) of the resultant radiation slows (but does not stop) the collapse}}. Material comprising the cloud continues to "rain" onto the [protostar](protostar.md). In this stage {{bipolar jets are produced called [Herbig–Haro objects](Herbig–Haro%20object.md)}}. This is probably the means {{by which excess [angular momentum](angular%20momentum.md) of the infalling material is expelled, allowing the star to continue to form}}. <!--SR:!2024-08-15,11,270!2024-08-09,4,210!2024-08-12,9,270!2024-08-20,17,290-->
 
 ## references
 

@@ -154,7 +154,7 @@ return await memorize_seq(
 
 - _(begin)_→:::←air sparging <!--SR:!2024-10-02,87,355!2024-10-01,86,355-->
 - air sparging→:::←bioremediation <!--SR:!2024-11-22,111,315!2024-08-21,53,335-->
-- bioremediation→:::←catalytic oxidation <!--SR:!2024-08-05,37,315!2024-08-28,59,335-->
+- bioremediation→:::←catalytic oxidation <!--SR:!2024-11-29,116,315!2024-08-28,59,335-->
 - catalytic oxidation→:::←ex-situ biopile <!--SR:!2024-09-26,67,295!2024-08-13,47,335-->
 - ex-situ biopile→:::←ex-situ solidification or stabilization <!--SR:!2024-08-25,56,335!2024-08-12,46,335-->
 - ex-situ solidification or stabilization→:::←_(end)_ <!--SR:!2024-09-30,85,355!2024-08-20,52,335-->
@@ -179,7 +179,7 @@ Daily Domestic Waste Generation Rates per Capita Compared
 
 - daily domestic waste generation rate per capita (DPWGR per capita)
   - DPWGR per capita in Hong Kong ::: 1.36 kg/person/day, recycling rate: 37% <!--SR:!2024-09-17,77,270!2025-03-30,239,330-->
-  - DPWGR per capita other locations ::: Metro Tokyo: 0.77 kg/person/day, Seoul City: 0.95 kg/person/day, Taipei city: 1.00 kg/person/day <!--SR:!2024-12-11,136,290!2024-08-05,60,310-->
+  - DPWGR per capita other locations ::: Metro Tokyo: 0.77 kg/person/day, Seoul City: 0.95 kg/person/day, Taipei city: 1.00 kg/person/day <!--SR:!2024-12-11,136,290!2025-02-08,187,310-->
 
 ## page 10
 
@@ -299,7 +299,7 @@ Noise Levels and Causes
   - construction site ::: 110 dB(A) <!--SR:!2024-10-20,103,290!2024-08-19,71,310-->
   - concert ::: 100 dB(A) <!--SR:!2024-08-16,68,310!2024-08-15,68,310-->
   - drilling ::: 90 dB(A) <!--SR:!2025-01-31,187,310!2024-08-27,63,270-->
-  - train passing ::: 80 dB(A) <!--SR:!2024-08-11,64,310!2024-08-05,59,310-->
+  - train passing ::: 80 dB(A) <!--SR:!2024-08-11,64,310!2025-02-05,184,310-->
   - highway (harm threshold) ::: 70 dB(A) <!--SR:!2024-08-08,62,310!2024-12-02,132,290-->
   - home with TV on ::: 60 dB(A) <!--SR:!2025-01-21,184,310!2025-01-05,168,310-->
   - library ::: 40 dB(A) <!--SR:!2024-08-10,64,310!2024-12-23,148,310-->
@@ -349,7 +349,7 @@ Indoor Air Quality
   - common indoor air pollutant examples ::: carbon dioxide (CO<sub>2</sub>), carbon monoxide (CO), respirable suspended particulate (RSP/PM<sub>10</sub>) <!--SR:!2024-09-20,80,270!2025-01-01,157,310-->
     - carbon dioxide limits ::: excellent: < 800 ppmv; good: < 1000 ppmv <!--SR:!2024-09-25,84,270!2024-12-28,153,310-->
     - carbon monoxide limits ::: excellent: < 2000 μg/m<sup>3</sup>, < 1.7 ppmv; good: < 10000 μg/m<sup>3</sup>, < 8.7 ppmv <!--SR:!2024-08-12,43,250!2025-01-17,167,310-->
-    - respirable suspended particulate limits ::: excellent: < 20 μg/m<sup>3</sup>; good: < 180 μg/m<sup>3</sup> <!--SR:!2024-09-27,82,270!2024-08-05,22,270-->
+    - respirable suspended particulate limits ::: excellent: < 20 μg/m<sup>3</sup>; good: < 180 μg/m<sup>3</sup> <!--SR:!2024-09-27,82,270!2024-10-06,62,270-->
 
 ## page 30
 
@@ -410,7 +410,7 @@ Observed Global Climate Change
 Observed climate change in Hong Kong
 
 - climate change consequences in Hong Kong ::: rainfall become more variable, sea level rises, temperature increases <!--SR:!2024-11-29,130,290!2024-08-10,63,310-->
-  - temperature increases consequences ::: less cold days, more very hot days and hot nights <!--SR:!2024-08-05,59,310!2024-08-15,68,310-->
+  - temperature increases consequences ::: less cold days, more very hot days and hot nights <!--SR:!2025-04-14,252,330!2024-08-15,68,310-->
   - rainfall become more variable consequences ::: probability of rainfall extremes increases <!--SR:!2025-03-23,234,330!2025-01-12,175,310-->
   - climate change example in Hong Kong ::: On 2017-08-22, max temperature reaches 36.6 °C in the Hong Kong Observatory headquarters, coinciding with the super typhoon Hato. <!--SR:!2024-12-03,122,250!2024-08-12,65,310-->
 
@@ -419,7 +419,7 @@ Observed climate change in Hong Kong
 Concentration Units for Liquids
 
 - concentration units for liquids ::: mass of substance per unit mass of mixture, mass of substance per unit volume of mixture <!--SR:!2024-10-05,90,270!2024-11-22,124,290-->
-  - mass of substance per unit volume of mixture units for liquids ::: mol/L (mol is not strictly mass), mg/L <!--SR:!2024-11-24,138,310!2024-08-05,59,310-->
+  - mass of substance per unit volume of mixture units for liquids ::: mol/L (mol is not strictly mass), mg/L <!--SR:!2024-11-24,138,310!2025-02-06,185,310-->
   - mass of substance per unit mass of mixture units for liquids ::: parts per billion (ppb) by weight, parts per million (ppm) by weight <!--SR:!2024-08-15,67,310!2024-08-19,71,310-->
 
 ## page 34

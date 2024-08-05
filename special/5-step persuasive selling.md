@@ -48,7 +48,7 @@ The 5-step persuasive selling consists of the following steps:
 
 - _(begin)_→:::←background: short summary of the situation with the _key problem or opportunity_, using irrefutable facts <!--SR:!2024-11-13,108,290!2024-09-01,68,310-->
 - background: short summary of the situation with the _key problem or opportunity_, using irrefutable facts→:::←the big idea: use ONLY 1 (long) sentence to describe your solution <!--SR:!2024-08-12,48,290!2024-08-30,66,310-->
-- the big idea: use ONLY 1 (long) sentence to describe your solution→:::←how it works: _key solution details_ to preempt concerns, objections, and questions <!--SR:!2024-08-08,46,290!2024-08-05,43,290-->
+- the big idea: use ONLY 1 (long) sentence to describe your solution→:::←how it works: _key solution details_ to preempt concerns, objections, and questions <!--SR:!2024-08-08,46,290!2024-12-06,123,290-->
 - how it works: _key solution details_ to preempt concerns, objections, and questions→:::←key benefits and risks: compelling reason to adopt the solution by _reinforcing benefits_ for multiple parties and _highlighting risks to politely threaten_ <!--SR:!2024-08-12,48,290!2024-10-10,81,270-->
 - key benefits and risks: compelling reason to adopt the solution by _reinforcing benefits_ for multiple parties and _highlighting risks to politely threaten_→:::←next step: an _easy_ task that the target cannot say no and moves the solution forward <!--SR:!2024-08-10,46,290!2024-12-06,124,290-->
 - next step: an _easy_ task that the target cannot say no and moves the solution forward→:::←_(end)_ <!--SR:!2024-08-14,53,310!2024-11-07,103,290-->

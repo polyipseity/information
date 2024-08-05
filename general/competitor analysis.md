@@ -35,7 +35,7 @@ Direct competitors are not {{necessarily more important than indirect or potenti
 > - an direct competitor of Starbucks ::: [Dunkin' Donuts](Dunkin'%20Donuts.md): serves mainly coffee to satisfy beverage need <!--SR:!2024-12-08,158,321!2024-08-07,66,321-->
 > - an indirect competitor of Starbucks ::: [bars](bar%20(establishment).md): does not serve coffee but [alcoholic beverages](alcoholic%20beverage.md) to satisfy beverage need <!--SR:!2024-08-11,63,281!2024-08-18,74,321-->
 > - a potential competitor of Starbucks ::: [McDonald's](McDonald's.md): serves mainly coffee but usually as part of a meal to satisfy food need <!--SR:!2024-08-16,73,321!2024-08-23,79,321-->
-> - a non-competitor of Starbucks ::: [Walmart](Walmart.md): does not serve coffee and does not satisfy beverage need <!--SR:!2024-08-17,73,321!2024-08-05,64,321-->
+> - a non-competitor of Starbucks ::: [Walmart](Walmart.md): does not serve coffee and does not satisfy beverage need <!--SR:!2024-08-17,73,321!2025-05-14,282,341-->
 
 ### considerations
 
@@ -73,7 +73,7 @@ why: Why are people using competitors' products?
 - compare: Identify similarities and differences between our and their products.→:::←copy: Identify advantages and capabilities our products lack compared to others. <!--SR:!2024-08-25,70,274!2024-08-29,72,281-->
 - copy: Identify advantages and capabilities our products lack compared to others.→:::←discover: Identify unmet needs. <!--SR:!2024-08-08,10,221!2024-09-10,70,241-->
 - discover: Identify unmet needs.→:::←how: What is our strategy? <!--SR:!2024-08-19,27,201!2024-08-16,15,241-->
-- how: What is our strategy?→:::←pricing: Compare prices. <!--SR:!2024-08-05,6,181!2024-08-12,22,241-->
+- how: What is our strategy?→:::←pricing: Compare prices. <!--SR:!2024-08-08,3,161!2024-08-12,22,241-->
 - pricing: Compare prices.→:::←who: Who are the competitors? 3 to 5 is usually enough. <!--SR:!2024-08-08,20,241!2024-08-18,61,261-->
 - who: Who are the competitors? 3 to 5 is usually enough.→:::←why: Why are people using competitors' products? <!--SR:!2024-10-13,103,281!2024-09-15,73,241-->
 - why: Why are people using competitors' products?→:::←_(end)_ <!--SR:!2024-08-10,68,321!2024-09-16,83,281-->

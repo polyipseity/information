@@ -11,7 +11,7 @@ tags:
 
 # recurrent neural network
 
-A __recurrent neural network__ (__RNN__) is {{one of the two board types of [neural network](neural%20network%20(machine%20learning).md)}}, characterized by {{the direction of information flow between its layers}}. In contrast to {{the unidirectional [feedforward neural network](feedforward%20nerual%20network.md), an RNN allows outputs from some neurons to affect subsequent inputs to the same neurons}}. <!--SR:!2024-08-08,37,290!2024-08-22,48,290!2024-08-05,37,290-->
+A __recurrent neural network__ (__RNN__) is {{one of the two board types of [neural network](neural%20network%20(machine%20learning).md)}}, characterized by {{the direction of information flow between its layers}}. In contrast to {{the unidirectional [feedforward neural network](feedforward%20nerual%20network.md), an RNN allows outputs from some neurons to affect subsequent inputs to the same neurons}}. <!--SR:!2024-08-08,37,290!2024-08-22,48,290!2024-11-19,106,290-->
 
 An RNN exhibits {{temporal [dynamic behavior](dynamical%20system.md)}}. This makes it suitable for datasets {{with temporal relationship between the samples}}. <!--SR:!2024-09-14,71,310!2024-08-25,54,310-->
 
@@ -39,7 +39,7 @@ Long short-term memory (LSTM) is {{a [deep learning](deep%20learning.md) system 
 
 - see: [gated recurrent unit](gated%20recurrent%20unit.md)
 
-Gated recurrent units (GRUs) are {{a gating mechanism in RNN introduced in 2014}}. They have {{fewer parameters than LSTM, as they lack an output gate}}. This may make {{the training time shorter and the training requiring fewer data samples}}. <!--SR:!2024-08-29,57,310!2024-08-17,48,290!2024-08-05,38,290-->
+Gated recurrent units (GRUs) are {{a gating mechanism in RNN introduced in 2014}}. They have {{fewer parameters than LSTM, as they lack an output gate}}. This may make {{the training time shorter and the training requiring fewer data samples}}. <!--SR:!2024-08-29,57,310!2024-08-17,48,290!2025-01-04,152,310-->
 
 ## references
 

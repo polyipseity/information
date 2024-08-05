@@ -17,7 +17,7 @@ The original marketing mix, or 4Ps, are {{_product_, _price_, _place_, and _prom
 
 __Product__ refers to {{the offered products or services}}. For example, it includes {{brand, functionality, packaging, services, etc.}} <!--SR:!2024-08-29,65,310!2024-08-12,52,310-->
 
-__Price__ refers to {{the monetary and psychological costs}}. For example, it includes {{bundling, credit terms, discounts, list pricing, etc.}} <!--SR:!2024-08-05,43,290!2024-09-05,72,310-->
+__Price__ refers to {{the monetary and psychological costs}}. For example, it includes {{bundling, credit terms, discounts, list pricing, etc.}} <!--SR:!2024-12-07,124,290!2024-09-05,72,310-->
 
 __Place__ refers to {{the physical locations of sale or distribution channels}}. For example, it includes {{channel, distribution, inventory, logistics, etc.}} <!--SR:!2024-08-16,55,310!2024-09-29,75,270-->
 
