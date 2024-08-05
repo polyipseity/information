@@ -10,7 +10,7 @@ tags:
 
 ## description
 
-In a rigid frame, structural elements like {{beams, columns, and floor slabs are rigidly connected}}. Typically, the material used is {{reinforced concrete}}. At {{junctions joining the structural elements}}, the joints are {{fixed and rigid}}. <!--SR:!2024-08-10,67,310!2024-08-14,24,270!2024-08-05,63,310!2024-08-11,67,310-->
+In a rigid frame, structural elements like {{beams, columns, and floor slabs are rigidly connected}}. Typically, the material used is {{reinforced concrete}}. At {{junctions joining the structural elements}}, the joints are {{fixed and rigid}}. <!--SR:!2024-08-10,67,310!2024-08-14,24,270!2025-05-01,269,330!2024-08-11,67,310-->
 
 Usually, the building plan is {{open and are rectangular grids, making space planning easy}}. Even {{the vertical plan (elevation)}} are {{rectangular grids}}. You can think of the structural elements as {{a 3D lattice}}, where the vertical structural elements are the {{columns or walls}} and others are the {{beams}}. <!--SR:!2024-12-20,164,310!2024-08-08,65,310!2024-12-11,143,290!2025-03-30,244,330!2025-01-19,184,310!2025-03-17,233,330-->
 

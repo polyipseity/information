@@ -51,7 +51,7 @@ A __discontinuous function__ is {{a function that is _not continuous_. By this d
 
 #### discontinuity at a point
 
-A function is _discontinuous_ at a point {{if the point is in the [topological closure](closure%20(topology).md) of the [function domain](domain%20of%20a%20function.md), and either the point is not in the [function domain](domain%20of%20a%20function.md) or the function is not continuous at the point}}. <!--SR:!2024-08-05,98,290-->
+A function is _discontinuous_ at a point {{if the point is in the [topological closure](closure%20(topology).md) of the [function domain](domain%20of%20a%20function.md), and either the point is not in the [function domain](domain%20of%20a%20function.md) or the function is not continuous at the point}}. <!--SR:!2025-05-15,283,290-->
 
 > [!tip] tips
 >
