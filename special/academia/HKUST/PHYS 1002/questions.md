@@ -567,6 +567,19 @@ The parenthesized text at the beginning of of each question is {{the location th
 > - solution: {{5}}
 > - explanation: {{White dwarfs have very high surface temperature and are very small. So they have low luminosity. E matches this description. So the answer is E. (Note that the graph is similar to a horizontally flipped Hertzsprung-Russell diagram.)}}
 
+<!-- markdownlint MD028 -->
+
+> Q3. (sample) A hypothetical planet has an orbital period around the Sun equal to 10 sidereal days of the planet. The self-rotation and orbital rotation are in opposite directions. How long is its solar day?
+>
+> 1. 9/10 sidereal days
+> 2. 10/9 sidereal days
+> 3. 10/11 sidereal days
+> 4. 11/10 sidereal days
+> 5. 1 sidereal day
+>
+> - solution: {{3}}
+> - explanation: {{The planet is in retrograde motion. Hence, the number of solar days per orbital period is $10 + 1 = 11~\mathrm{solar\ days}$. Thus each solar day is $\frac {1 / 11} {1 / 10} = \frac {10} {11}~\mathrm{sidereal\ days}$.}}
+
 ## strip sequence questions
 
 > Q1. (sample) <s>By putting the correct letters into the brackets under the numbers,</s> place the following lunar phases in a month in the correct chronological sequence.
