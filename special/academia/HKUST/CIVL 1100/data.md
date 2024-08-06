@@ -27,7 +27,7 @@ See [Akashi Kaikyo Bridge](../../../../general/Akashi%20Kaikyo%20Bridge.md).
 
 - bridge type ::: [suspension bridge](../../../../general/suspension%20bridge.md)<!-- flashcard 30fd6583-3351-4146-9125-522db98579b7 --> <!--SR:!2024-09-27,61,274!2024-08-29,97,380-->
 - description ::: suspension bridge in Kobe, Japan <!--SR:!2025-03-15,237,347!2025-05-16,292,375-->
-- image ::: ![Akashi Kaikyo Bridge image](../../../../archives/Wikimedia%20Commons/Akashi%20Bridge.JPG) <!--SR:!2024-08-06,74,360!2024-08-16,84,380-->
+- image ::: ![Akashi Kaikyo Bridge image](../../../../archives/Wikimedia%20Commons/Akashi%20Bridge.JPG) <!--SR:!2025-04-28,265,360!2024-08-16,84,380-->
 - length ::: 3911 m, longest span: 1991 m <!--SR:!2024-08-10,68,281!2025-06-20,319,372-->
 
 ## Beijing National Stadium
@@ -231,7 +231,7 @@ See [Millau Viaduct](../../../../general/Millau%20Viaduct.md).
 See [Mont d'Ambin Base Tunnel](../../../../general/Mont%20d'Ambin%20Base%20Tunnel.md).
 
 - access tunnel lengths ::: up to 4 km <!--SR:!2024-08-20,99,377!2025-03-22,267,365-->
-- length ::: 57.5 km <!--SR:!2024-09-27,106,337!2024-08-06,87,374-->
+- length ::: 57.5 km <!--SR:!2024-09-27,106,337!2025-06-26,324,374-->
 
 ## Netherlands North Sea Protection Works
 
@@ -304,7 +304,7 @@ See [Tsing Ma Bridge](../../../../general/Tsing%20Ma%20Bridge.md).
 
 See [Turin–Lyon high-speed railway](../../../../general/Turin–Lyon%20high-speed%20railway.md).
 
-- core part ::: [Mont Cenis Base Tunnel](#Mont%20Cenis%20Base%20Tunnel) <!--SR:!2024-10-19,138,327!2024-08-06,87,370-->
+- core part ::: [Mont Cenis Base Tunnel](#Mont%20Cenis%20Base%20Tunnel) <!--SR:!2024-10-19,138,327!2025-06-23,321,370-->
 - length ::: 271 km <!--SR:!2024-08-28,31,297!2024-08-23,102,377-->
 
 ## Two Prudential Plaza
@@ -313,7 +313,7 @@ See [Two Prudential Plaza](../../../../general/Two%20Prudential%20Plaza.md).
 
 - description ::: 64-story skyscraper located in the Loop area of Chicago, Illinois <!--SR:!2024-09-03,91,320!2025-08-31,399,385-->
 - height ::: architectural: 303 m, top floor: 250 m <!--SR:!2024-08-08,7,201!2024-08-19,98,364-->
-- image ::: ![Two Prudential Plaza image](../../../../archives/Wikimedia%20Commons/Two%20Prudential%20Plaza%20Chicago%20in%20May%202016.jpg) <!--SR:!2024-08-14,82,360!2024-08-06,74,360-->
+- image ::: ![Two Prudential Plaza image](../../../../archives/Wikimedia%20Commons/Two%20Prudential%20Plaza%20Chicago%20in%20May%202016.jpg) <!--SR:!2024-08-14,82,360!2024-09-14,39,340-->
 - [structural system](../../../../general/structural%20system.md) ::: reinforced concrete<!-- flashcard ecbdac25-22dc-429d-9976-d49408b1478d --> <!--SR:!2024-09-06,38,340!2024-08-27,94,380-->
 
 ## Water Cube

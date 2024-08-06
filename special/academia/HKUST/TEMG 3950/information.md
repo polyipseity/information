@@ -135,7 +135,7 @@ root cause analysis, 5 whys
 - 4P: McCarthy's 4 Ps→:::←5-step persuasive selling <!--SR:!2024-09-19,59,261!2024-08-19,55,301-->
 - 5-step persuasive selling→:::←5C: Chernev 5C framework <!--SR:!2024-08-11,47,301!2024-11-20,113,301-->
 - 5C: Chernev 5C framework→:::←5F: Porter's 5 forces framework <!--SR:!2024-10-17,88,281!2024-08-13,49,301-->
-- 5F: Porter's 5 forces framework→:::←7S: McKinsey 7S framework <!--SR:!2024-08-06,44,301!2024-08-26,64,321-->
+- 5F: Porter's 5 forces framework→:::←7S: McKinsey 7S framework <!--SR:!2024-12-15,131,301!2024-08-26,64,321-->
 - 7S: McKinsey 7S framework→:::←PESTLE: Aguilar's PESTLE framework <!--SR:!2024-09-27,75,281!2024-08-31,47,281-->
 - PESTLE: Aguilar's PESTLE framework→:::←PPTG: people, process, technology, governance framework <!--SR:!2024-08-10,38,261!2024-09-29,64,281-->
 - PPTG: people, process, technology, governance framework→:::←blue ocean strategy <!--SR:!2024-08-10,46,301!2024-12-12,130,301-->

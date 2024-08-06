@@ -21,7 +21,7 @@ This section {{outlines how one might do competitor analysis and present it to o
 
 Depending on the 2 factors of {{meeting the same customer needs and possessing the same capabilities to do so (such as having a similar product to solve the same problem)}}, competitors can be classified into 4 types (we can {{draw a 2 by 2 table}} to represent it): <!--SR:!2024-08-11,68,321!2025-05-04,274,341-->
 
-1. direct competitor ::: meeting the same customer needs and possessing the same capabilities to do so <!--SR:!2024-08-06,65,321!2024-08-11,69,321-->
+1. direct competitor ::: meeting the same customer needs and possessing the same capabilities to do so <!--SR:!2025-03-02,208,321!2024-08-11,69,321-->
 2. indirect competitor ::: meeting the same customer needs but using different capabilities to do so <!--SR:!2024-09-25,89,281!2024-08-12,69,321-->
 3. potential competitor ::: not meeting the same customer needs but possessing the same capabilities to do so <!--SR:!2024-10-30,126,301!2025-05-12,282,341-->
 4. non-competitor ::: not meeting the same customer needs and not possessing the same capabilities to do so <!--SR:!2025-04-23,265,341!2024-08-11,69,321-->

@@ -55,7 +55,7 @@ return await memorize_seq(
 - [protection](protective%20group.md) of the four [hydroxyl groups](hydroxyl%20group.md) in ʟ-[sorbose](sorbose.md) by forming [acetal](acetal.md) with [acetone](acetone.md) and an [acid](acid.md) to diacetone-ʟ-[sorbose](sorbose.md)→:::←[organic oxidation](organic%20oxidation.md) of diacetone-ʟ-[sorbose](sorbose.md) with [potassium permanganate](potassium%20permanganate.md) to [diprogulic acid](diprogulic%20acid.md) followed by heating with [water](water.md) to 2-keto-ʟ-gulonic acid <!--SR:!2025-02-01,387,250!2024-11-07,100,210-->
 - [organic oxidation](organic%20oxidation.md) of diacetone-ʟ-[sorbose](sorbose.md) with [potassium permanganate](potassium%20permanganate.md) to [diprogulic acid](diprogulic%20acid.md) followed by heating with [water](water.md) to 2-keto-ʟ-gulonic acid→:::←ring-closing or gamma [lactonization](lactone.md) of 2-keto-ʟ-gulonic acid to [ʟ-ascorbic acid](vitamin%20C.md) by [dehydration](dehydration%20reaction.md) <!--SR:!2025-02-24,402,250!2024-08-24,19,130-->
 - ring-closing or gamma [lactonization](lactone.md) of 2-keto-ʟ-gulonic acid to [ʟ-ascorbic acid](vitamin%20C.md) by [dehydration](dehydration%20reaction.md)→:::←purification of [ʟ-ascorbic acid](vitamin%20C.md) <!--SR:!2025-12-15,659,310!2024-12-27,153,250-->
-- purification of [ʟ-ascorbic acid](vitamin%20C.md)→:::←_(end)_ <!--SR:!2027-07-10,1191,350!2024-08-06,311,290-->
+- purification of [ʟ-ascorbic acid](vitamin%20C.md)→:::←_(end)_ <!--SR:!2027-07-10,1191,350!2025-01-07,154,270-->
 
 <!--/pytextgen-->
 

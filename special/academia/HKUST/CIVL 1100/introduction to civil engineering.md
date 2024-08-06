@@ -82,7 +82,7 @@ The content is in teaching order.
       - [environmental impact components](#environmental%20impact%20components)
       - environmental impact assessment in [Hong Kong](../../../../general/Hong%20Kong.md) ::: regulated by the Environmental Impact Assessment (Cap. 499) 1997 <!--SR:!2025-02-20,208,314!2025-03-13,235,352-->
 - transportation engineering ::: moving goods and people effectively, efficiently, safely, and sustainably <!--SR:!2024-08-20,85,312!2024-12-04,219,319-->
-  - transportation engineering structures ::: planning, design, construction, operation, and maintenance of transportational infrastructures <!--SR:!2025-02-21,200,300!2024-08-06,83,381-->
+  - transportation engineering structures ::: planning, design, construction, operation, and maintenance of transportational infrastructures <!--SR:!2025-02-21,200,300!2025-10-11,431,401-->
     - [transportation engineering structure examples](#transportation%20engineering%20structure%20examples)
 - materials engineering
   - materials engineering characteristics ::: spans almost all engineering disciplines because materials are used in designs <!--SR:!2024-09-29,122,337!2025-06-05,319,367-->
@@ -194,7 +194,7 @@ water and sewage treatment system
 - _(begin)_→:::←bridge <!--SR:!2025-09-15,412,397!2024-08-11,92,374-->
 - bridge→:::←building <!--SR:!2025-05-05,282,372!2025-04-22,268,360-->
 - building→:::←dam <!--SR:!2024-12-12,167,340!2024-09-06,105,380-->
-- dam→:::←pipeline <!--SR:!2024-08-06,32,204!2024-10-09,117,321-->
+- dam→:::←pipeline <!--SR:!2024-10-11,66,204!2024-10-09,117,321-->
 - pipeline→:::←power plant <!--SR:!2024-08-14,59,260!2024-10-22,107,281-->
 - power plant→:::←reservoir <!--SR:!2025-01-10,164,275!2024-09-05,91,320-->
 - reservoir→:::←sewage treatment <!--SR:!2024-09-21,62,197!2024-09-05,75,261-->
@@ -281,7 +281,7 @@ workmanship
 - budgeting→:::←construction management <!--SR:!2024-09-02,35,300!2024-08-30,98,335-->
 - construction management→:::←economics <!--SR:!2024-10-17,98,235!2024-08-21,81,300-->
 - economics→:::←impacts to surrounding <!--SR:!2024-08-09,71,300!2024-08-24,23,240-->
-- impacts to surrounding→:::←lifecycle <!--SR:!2024-08-06,74,320!2024-08-22,82,320-->
+- impacts to surrounding→:::←lifecycle <!--SR:!2025-04-01,238,320!2024-08-22,82,320-->
 - lifecycle→:::←maintenance <!--SR:!2024-10-13,106,297!2024-08-08,74,312-->
 - maintenance→:::←politics <!--SR:!2024-08-15,10,221!2024-08-12,80,312-->
 - politics→:::←social <!--SR:!2025-03-24,246,360!2024-08-13,78,337-->
@@ -318,7 +318,7 @@ We Engineer Hong Kong’s Development
 
 - _(begin)_→:::←興土木 利民生 齊拓展 創明天 <!--SR:!2024-08-10,78,314!2024-12-19,209,330-->
 - 興土木 利民生 齊拓展 創明天→:::←We Bring The Best Engineering To Life <!--SR:!2024-10-07,130,324!2024-10-02,115,307-->
-- We Bring The Best Engineering To Life→:::←卓越工程 建設香港 <!--SR:!2024-08-06,73,312!2024-08-06,56,297-->
+- We Bring The Best Engineering To Life→:::←卓越工程 建設香港 <!--SR:!2025-03-21,227,312!2025-01-18,165,297-->
 - 卓越工程 建設香港→:::←We Engineer Hong Kong’s Development <!--SR:!2025-04-13,265,357!2024-10-22,134,330-->
 - We Engineer Hong Kong’s Development→:::←_(end)_ <!--SR:!2024-08-12,93,372!2024-08-24,92,380-->
 
@@ -406,7 +406,7 @@ Water Cube
 - CCTV Headquarters→:::←Eiffel Tower <!--SR:!2024-09-28,103,285!2024-12-11,149,292-->
 - Eiffel Tower→:::←Hong Kong Convention and Exhibition Centre <!--SR:!2024-10-13,114,294!2024-09-03,60,305-->
 - Hong Kong Convention and Exhibition Centre→:::←Water Cube <!--SR:!2024-08-29,61,317!2024-08-24,81,320-->
-- Water Cube→:::←_(end)_ <!--SR:!2024-08-06,83,381!2025-01-02,201,357-->
+- Water Cube→:::←_(end)_ <!--SR:!2025-10-12,432,401!2025-01-02,201,357-->
 
 <!--/pytextgen-->
 
@@ -778,7 +778,7 @@ levee
 - canal→:::←channel <!--SR:!2024-11-27,174,357!2024-12-06,168,352-->
 - channel→:::←dam <!--SR:!2024-10-21,128,327!2025-02-10,240,290-->
 - dam→:::←levee <!--SR:!2024-12-18,169,340!2024-11-04,141,332-->
-- levee→:::←_(end)_ <!--SR:!2024-08-09,90,375!2024-08-06,53,258-->
+- levee→:::←_(end)_ <!--SR:!2024-08-09,90,375!2024-08-31,25,238-->
 
 <!--/pytextgen-->
 
@@ -1017,7 +1017,7 @@ Taipei 101
 
 - _(begin)_→:::←HSBC Main Building <!--SR:!2024-10-17,88,297!2025-04-01,312,330-->
 - HSBC Main Building→:::←International Commerce Centre <!--SR:!2024-09-19,88,297!2024-08-22,90,334-->
-- International Commerce Centre→:::←John Hancock Center <!--SR:!2024-10-04,113,320!2024-08-06,74,317-->
+- International Commerce Centre→:::←John Hancock Center <!--SR:!2024-10-04,113,320!2024-09-10,35,297-->
 - John Hancock Center→:::←Taipei 101 <!--SR:!2024-11-02,137,341!2024-10-07,120,312-->
 - Taipei 101→:::←_(end)_ <!--SR:!2025-04-10,280,367!2024-09-12,99,321-->
 
@@ -1097,7 +1097,7 @@ water tower
 - _(begin)_→:::←bridge <!--SR:!2024-10-23,142,335!2024-08-12,88,380-->
 - bridge→:::←building <!--SR:!2025-01-24,203,350!2024-08-28,96,380-->
 - building→:::←dam <!--SR:!2025-05-03,277,361!2025-01-17,198,361-->
-- dam→:::←power plant <!--SR:!2024-08-06,68,301!2024-10-17,82,238-->
+- dam→:::←power plant <!--SR:!2024-09-08,33,281!2024-10-17,82,238-->
 - power plant→:::←storage facility <!--SR:!2025-01-30,185,300!2024-09-12,111,334-->
 - storage facility→:::←tunnel <!--SR:!2024-09-09,37,280!2024-09-01,89,320-->
 - tunnel→:::←unusual structure <!--SR:!2024-09-19,83,247!2024-10-17,121,320-->
