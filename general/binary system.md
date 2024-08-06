@@ -17,7 +17,7 @@ A __binary system__ is {{a system of two [astronomical bodies](astronomical%20ob
 
 ## classification
 
-Binary systems can also be classified based on {{how we see them}}. {{__Visual binaries__}} are two objects {{separate enough that they can be distinguished through binoculars or a small telescope}}. {{__Eclipsing binaries__}} are two objects {{that have an [orbit](orbit.md) inclined such that when one passes in front of another other, an [eclipse](eclipse.md) is seen from [Earth](Earth.md)}}. They also periodically undergo {{a dip in its light curve when an eclipse happens}}. {{__Spectroscopic binaries__}} are two objects {{that can have its binary nature detected using spectroscopy (e.g. [Doppler effect](Doppler%20effect.md))}} <!--SR:!2024-08-09,13,290!2024-08-10,14,290!2024-08-12,16,290!2024-08-11,15,290!2024-08-12,16,290!2024-08-13,17,290!2024-08-11,15,290!2024-08-06,10,270-->
+Binary systems can also be classified based on {{how we see them}}. {{__Visual binaries__}} are two objects {{separate enough that they can be distinguished through binoculars or a small telescope}}. {{__Eclipsing binaries__}} are two objects {{that have an [orbit](orbit.md) inclined such that when one passes in front of another other, an [eclipse](eclipse.md) is seen from [Earth](Earth.md)}}. They also periodically undergo {{a dip in its light curve when an eclipse happens}}. {{__Spectroscopic binaries__}} are two objects {{that can have its binary nature detected using spectroscopy (e.g. [Doppler effect](Doppler%20effect.md))}} <!--SR:!2024-08-09,13,290!2024-08-10,14,290!2024-08-12,16,290!2024-08-11,15,290!2024-08-12,16,290!2024-08-13,17,290!2024-08-11,15,290!2024-09-02,27,270-->
 
 ## references
 

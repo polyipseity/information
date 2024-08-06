@@ -18,7 +18,7 @@ tags:
 
 ### ideation: divergent and convergent thinking
 
-Ideation consists of {{alternation between [divergent](divergent%20thinking.md) and [convergent thinking](convergent%20thinking.md)}}. <!--SR:!2024-08-06,70,310-->
+Ideation consists of {{alternation between [divergent](divergent%20thinking.md) and [convergent thinking](convergent%20thinking.md)}}. <!--SR:!2025-06-03,301,330-->
 
 Divergent thinking is supposed to {{enhance creativity of thinkers}}. During divergent thinking, having {{a diverse group of people}} involved is important. Good practice is {{encouraging people to go wild with many ideas, and avoiding evaluation}}. <!--SR:!2025-01-17,192,310!2024-08-07,71,310!2025-01-21,182,310-->
 

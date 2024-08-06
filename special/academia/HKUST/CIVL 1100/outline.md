@@ -41,7 +41,7 @@ The content is in teaching order.
 - [solid mechanics § types of forces](../../../../general/solid%20mechanics.md#types%20of%20forces)
 - [compression § effects](../../../../general/compression%20(physics).md#effects)
   - compression types ::: We are concerned with uniaxial compression only. <!--SR:!2024-08-18,70,330!2024-08-15,68,330-->
-  - compression examples in structures ::: arch bridge, elevated water tank, igloo (snow house) <!--SR:!2024-08-06,57,310!2024-08-07,62,330-->
+  - compression examples in structures ::: arch bridge, elevated water tank, igloo (snow house) <!--SR:!2025-01-29,176,310!2024-08-07,62,330-->
   - compression conventions ::: __negative__; arrows pointing inwards for forces applied on the object in compression <!--SR:!2024-08-19,71,330!2025-01-20,174,310-->
 - [tension § effects](../../../../general/tension%20(physics).md#effects)
   - tension types ::: We are concerned with uniaxial tension only. <!--SR:!2024-08-20,73,330!2024-08-10,63,321-->
@@ -67,7 +67,7 @@ The content is in teaching order.
   - [§ definition](../../../../general/Young's%20modulus.md#definition)
 - moment or [torque](../../../../general/torque.md)
   - pivot ::: A moment requires a pivot to be defined. The pivot can be anywhere and does not need to be physical. <!--SR:!2024-10-31,112,310!2024-11-18,127,310-->
-  - torque intuition ::: Torque creates rotation just as force creates translation (linear movement). <!--SR:!2024-08-06,61,330!2024-08-20,73,330-->
+  - torque intuition ::: Torque creates rotation just as force creates translation (linear movement). <!--SR:!2025-05-09,276,350!2024-08-20,73,330-->
   - [§ moment arm formula](../../../../general/torque.md#moment%20arm%20formula)
   - symbol of moment about point $P$ ::: $M_P$ <!--SR:!2024-08-14,68,330!2024-08-09,64,330-->
   - torque conventions ::: __counterclockwise positive__, clockwise negative <!--SR:!2025-02-08,202,330!2024-08-11,65,321-->
@@ -90,7 +90,7 @@ The content is in teaching order.
 - [static equilibrium](../../../../general/mechanical%20equilibrium.md)
   - [§ equilibrium equations](../../../../general/mechanical%20equilibrium.md#equilibrium%20equations)
   - [§ statically indeterminate system](../../../../general/structural%20support.md#statically%20indeterminate%20system)
-- use "critical thinking" ::: more like whether you are good at mathematics and physics <!--SR:!2024-08-06,61,330!2024-08-17,69,330-->
+- use "critical thinking" ::: more like whether you are good at mathematics and physics <!--SR:!2025-05-10,277,350!2024-08-17,69,330-->
 - [quizzes § week 4 lecture quiz](quizzes.md#week%204%20lecture%20quiz)
 
 ## week 5 lecture

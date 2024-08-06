@@ -15,7 +15,7 @@ A __recurrent neural network__ (__RNN__) is {{one of the two board types of [neu
 
 An RNN exhibits {{temporal [dynamic behavior](dynamical%20system.md)}}. This makes it suitable for datasets {{with temporal relationship between the samples}}. <!--SR:!2024-09-14,71,310!2024-08-25,54,310-->
 
-The term "recurrent neural network" is used to refer {{to the class of networks with [infinite impulse response](infinite%20impulse%20response.md)}}, while {{"[convolutional neural network](convolutional%20neural%20network.md)" refers to the class of networks with [finite impulse response](finite%20impulse%20response.md)}}. <!--SR:!2024-08-06,35,290!2024-08-12,45,290-->
+The term "recurrent neural network" is used to refer {{to the class of networks with [infinite impulse response](infinite%20impulse%20response.md)}}, while {{"[convolutional neural network](convolutional%20neural%20network.md)" refers to the class of networks with [finite impulse response](finite%20impulse%20response.md)}}. <!--SR:!2024-11-15,101,290!2024-08-12,45,290-->
 
 ## architectures
 

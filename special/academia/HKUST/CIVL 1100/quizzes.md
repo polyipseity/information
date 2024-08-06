@@ -71,7 +71,7 @@ Example quiz questions for preparing exams.
 > 3. Commercial waste is classified as MSW
 > 4. Food waste is classified as MSW
 >
-> - solution: {{2}} <!--SR:!2024-08-06,61,312-->
+> - solution: {{2}} <!--SR:!2025-02-11,189,312-->
 
 <!-- markdownlint MD028 -->
 
