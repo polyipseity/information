@@ -147,15 +147,6 @@ The content is in teaching order. Extra information and corrections are included
 
 ## week 2 lecture
 
-- time: 2024-06-25T10:00:00+08:00/2024-06-25T11:30:00+08:00
-- optional
-- topic: observational astronomy
-- by: HKUST Astronomy Club
-- moon phases
-- 3 types of telescopes
-- zodiacs
-- observing sun spots using a telescope
-
 > Dear students,
 >
 > Please be reminded that the class venue will be changed to LTD starting from 25 Jun.
@@ -172,6 +163,15 @@ The content is in teaching order. Extra information and corrections are included
 >
 > Regards, <br/>
 > \[redacted\]
+
+- time: 2024-06-25T10:00:00+08:00/2024-06-25T11:30:00+08:00
+- optional
+- topic: observational astronomy
+- by: HKUST Astronomy Club
+- moon phases
+- 3 types of telescopes
+- zodiacs
+- observing sun spots using a telescope
 
 ## week 2 lecture 2
 
