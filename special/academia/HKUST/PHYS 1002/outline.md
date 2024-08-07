@@ -28,6 +28,7 @@ The content is in teaching order. Extra information and corrections are included
 - [competencies rubrics](competencies%20rubrics.pdf)
 - [schedule](schedule.md)
 - [questions](questions.md)
+- [open-ended question report](open-ended%20question%20report.md)
 
 ## week 1 lecture
 
