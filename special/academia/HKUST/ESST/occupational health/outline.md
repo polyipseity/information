@@ -7,7 +7,9 @@ tags:
   - language/in/English
 ---
 
-# HKUST ESST occupational health outline
+# outline
+
+- HKUST ESST occupational health
 
 ```Python
 # pytextgen generate module

@@ -6,7 +6,9 @@ tags:
   - language/in/English
 ---
 
-# HKUST CIVL 1100 assignment II.2 submission
+# assignment II.2 submission
+
+- HKUST CIVL 1100
 
 CIVL 1100<br/>
 Discovering Civil and Environmental Engineering

@@ -10,7 +10,9 @@ tags:
   - language/in/English
 ---
 
-# HKUST TEMG 3950 information
+# information
+
+- HKUST TEMG 3950
 
 ```Python
 # pytextgen generate module

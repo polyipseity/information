@@ -13,7 +13,9 @@ tags:
   - language/in/English
 ---
 
-# HKUST COMP 4321 cheatsheet
+# cheatsheet
+
+- HKUST COMP 4321
 
 ## search engine (SE)
 

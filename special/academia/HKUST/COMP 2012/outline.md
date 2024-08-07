@@ -14,7 +14,9 @@ tags:
   - language/in/English
 ---
 
-# HKUST COMP 2012 outline
+# outline
+
+- HKUST COMP 2012
 
 The content is in teaching order.
 

@@ -14,7 +14,9 @@ tags:
   - language/in/English
 ---
 
-# HKUST GNED 2510 review
+# review
+
+- HKUST GNED 2510
 
 ## information
 

@@ -8,7 +8,9 @@ tags:
   - language/in/English
 ---
 
-# HKUST reviews
+# reviews
+
+- HKUST
 
 The 4-character code following the course is the ratings, in the order of content, teaching, grading, and workload.
 

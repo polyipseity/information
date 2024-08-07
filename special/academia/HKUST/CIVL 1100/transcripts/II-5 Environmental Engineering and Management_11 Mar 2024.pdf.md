@@ -410,7 +410,7 @@ Observed Global Climate Change
 Observed climate change in Hong Kong
 
 - climate change consequences in Hong Kong ::: rainfall become more variable, sea level rises, temperature increases <!--SR:!2024-11-29,130,290!2024-08-10,63,310-->
-  - temperature increases consequences ::: less cold days, more very hot days and hot nights <!--SR:!2025-04-14,252,330!2024-08-15,68,310-->
+  - temperature increase consequences ::: less cold days, more very hot days and hot nights <!--SR:!2025-04-14,252,330!2024-08-15,68,310-->
   - rainfall become more variable consequences ::: probability of rainfall extremes increases <!--SR:!2025-03-23,234,330!2025-01-12,175,310-->
   - climate change example in Hong Kong ::: On 2017-08-22, max temperature reaches 36.6 °C in the Hong Kong Observatory headquarters, coinciding with the super typhoon Hato. <!--SR:!2024-12-03,122,250!2024-08-12,65,310-->
 

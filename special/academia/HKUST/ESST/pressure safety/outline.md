@@ -7,7 +7,9 @@ tags:
   - language/in/English
 ---
 
-# HKUST ESST pressure safety outline
+# outline
+
+- HKUST ESST pressure safety
 
 ```Python
 # pytextgen generate module

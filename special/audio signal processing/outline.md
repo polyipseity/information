@@ -13,7 +13,12 @@ tags:
 
 ## contents
 
+The content is in recommended learning order.
+
 - [signal mathematics](signal%20mathematics.md)
+- [signal tools](signal%20tools.md)
+- [Python for signal processing](Python%20for%20signal%20processing.md)
+- [discrete Fourier transform](discrete%20Fourier%20transform.md)
 
 ## references
 

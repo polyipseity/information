@@ -14,7 +14,9 @@ tags:
   - language/in/English
 ---
 
-# HKUST CIVL 1100 outline
+# outline
+
+- HKUST CIVL 1100
 
 The content is in teaching order.
 

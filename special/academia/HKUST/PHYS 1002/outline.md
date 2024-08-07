@@ -18,13 +18,17 @@ tags:
   - language/in/English
 ---
 
-# HKUST PHYS 1002 outline
+# outline
+
+- HKUST PHYS 1002
 
 The content is in teaching order. Extra information and corrections are included, but they are not recommended to be used for exams.
 
+- lecture format: iPRS questions sometime during the lecture. Tutorials and MCQs are in the last 30 minutes.
 - [competencies rubrics](competencies%20rubrics.pdf)
 - [schedule](schedule.md)
-- lecture format: iPRS questions sometime during the lecture. Tutorials and MCQs are in the last 30 minutes.
+- [questions](questions.md)
+- [final exam](final%20exam.md)
 
 ## week 1 lecture
 
@@ -144,15 +148,6 @@ The content is in teaching order. Extra information and corrections are included
 
 ## week 2 lecture
 
-- time: 2024-06-25T10:00:00+08:00/2024-06-25T11:30:00+08:00
-- optional
-- topic: observational astronomy
-- by: HKUST Astronomy Club
-- moon phases
-- 3 types of telescopes
-- zodiacs
-- observing sun spots using a telescope
-
 > Dear students,
 >
 > Please be reminded that the class venue will be changed to LTD starting from 25 Jun.
@@ -169,6 +164,15 @@ The content is in teaching order. Extra information and corrections are included
 >
 > Regards, <br/>
 > \[redacted\]
+
+- time: 2024-06-25T10:00:00+08:00/2024-06-25T11:30:00+08:00
+- optional
+- topic: observational astronomy
+- by: HKUST Astronomy Club
+- moon phases
+- 3 types of telescopes
+- zodiacs
+- observing sun spots using a telescope
 
 ## week 2 lecture 2
 
@@ -746,7 +750,7 @@ The content is in teaching order. Extra information and corrections are included
   - [star formation § cloud collapse](../../../../general/star%20formation.md#cloud%20collapse) ::: gas pressure vs gravity; If they are equal, then hydrostatic equilibrium results and no stars form. If gravity is greater than pressure, then stars may form. Gas pressure (proportional to temperature in an ideal gas) can be removed via thermal radiation. After collapse, many stars are formed, thus a star (open) cluster is formed. <!--SR:!2024-08-22,19,386!2024-09-01,27,386-->
     - [star formation § cloud collapse](../../../../general/star%20formation.md#cloud%20collapse) / mass ::: A typical molecular cloud (T ~30 K, n ~300 particles/cm<sup>3</sup>) must contain at least a few hundred solar masses for gravity to overcome pressure. <!--SR:!2024-08-26,21,365!2024-08-17,14,364-->
     - [star formation § cloud collapse](../../../../general/star%20formation.md#cloud%20collapse) / fragmentation ::: When a mostly spherical turbulent cloud with random noise undergoes collapse, the random noise causes the cloud to become multiple clumps under gravity (fragmentation). This is because gravity can overcome the pressure locally in each clump. Finally, multiple stars instead of one gigantic star is formed from a cloud. <!--SR:!2024-08-15,9,347!2024-08-16,10,347-->
-    - [star formation § cloud collapse](../../../../general/star%20formation.md#cloud%20collapse) && [emission nebula](../../../../general/emission%20nebula.md) ::: As a nebula collapse, the newly formed stars excites the atoms in the nebula by absorbing the visible light and emitting infrared, which can be observed using an infrared telescope. <!--SR:!2024-08-11,8,345!2024-08-25,20,365-->
+    - [star formation § cloud collapse](../../../../general/star%20formation.md#cloud%20collapse) & [emission nebula](../../../../general/emission%20nebula.md) ::: As a nebula collapse, the newly formed stars excites the atoms in the nebula by absorbing the visible light and emitting infrared, which can be observed using an infrared telescope. <!--SR:!2024-08-11,8,345!2024-08-25,20,365-->
   - [star formation § protostar](../../../../general/star%20formation.md#protostar)
     - [star formation § protostar](../../../../general/star%20formation.md#protostar) & [conservation of energy](../../../../general/conservation%20of%20energy.md) ::: The cloud heats up due to gravitational contraction, converting gravitational potential energy to kinetic/thermal energy during the collapse of the cloud. Gravitational force wins out over thermal gas pressure because energy is radiated away as light. The cloud continues to contract. <!--SR:!2024-08-15,12,345!2024-08-24,20,364-->
     - [star formation § protostar](../../../../general/star%20formation.md#protostar) & [angular momentum § conservation of angular momentum](../../../../general/angular%20momentum.md#conservation%20of%20angular%20momentum) ::: The initial rotation of the cloud is imperceptibly slow but nonzero. As it collapses, the rotational speed increases to conserve angular momentum. Note that there is only one rotational axis and plane. The rotation slows collapse in the rotational plane to conserve angular momentum. Collapse in other directions are much faster. The end product is a spinning flattened disk surrounding a protostar in the rotational plane, also called a protoplanetary disk. <!--SR:!2024-08-31,26,384!2024-08-24,19,364-->
@@ -849,7 +853,7 @@ The content is in teaching order. Extra information and corrections are included
     - [supernova nucleosynthesis](../../../../general/supernova%20nucleosynthesis.md) ::: Supernova explosion enables elements heavier than iron to form through neutron capture, shockwave, etc., such as gold (Au) and uranium (U). <!--SR:!2024-08-26,22,384!2024-08-21,18,385-->
     - [§ supernova](../../../../general/stellar%20evolution.md#supernova) / remnants ::: The energy released by the core collapse drives outer layers of the star into space. This forms a nebula. The core becomes a neutron star or a black hole. (For very heavy stars, the star can directly collapse into a black hole without a supernova.) <!--SR:!2024-08-14,11,344!2024-08-26,23,385-->
       - [§ supernova](../../../../general/stellar%20evolution.md#supernova) / remnants / examples ::: SN 1054, SN 1987A <!--SR:!2024-08-13,10,345!2024-09-04,30,384-->
-        - SN 1054 ::: remanent: Crab Nebula (M1), distance: ~6&nbsp;500 ly, time: 1054-07-10 (Old Style: 1054-07-04); Sung Dynasty had a record of it as a "guest star" (客星) <!--SR:!2024-08-12,9,345!2024-08-12,9,344-->
+        - SN 1054 ::: remanent: Crab Nebula (M1), distance: ~6&nbsp;500 ly, time: 1054-07-10 (Old Style: 1054-07-04); Sung Dynasty had a record of it as a "guest star" (客星) <!--SR:!2024-08-12,9,345!2024-08-12,9,344-->, but this is not the first record of a supernova by the Chinese. Instead, the first record was when the Chinese were writing in Oracle bone script (Chinese: 甲骨文).
         - SN 1987A ::: distance: ~168&nbsp;000 ly; notable as the closest supernova since invention of telescope (in the last 4 centuries) <!--SR:!2024-08-12,9,345!2024-08-20,17,365-->
 - [stellar evolution § low-mass stars](../../../../general/stellar%20evolution.md#low-mass%20stars) ::: main sequence (extremely long lives, can be trillions of years) → blue dwarf (hypothetical; not necessarily blue) → white dwarf → black dwarf (hypothetical) <!--SR:!2024-08-22,19,385!2024-09-02,28,384-->
   - [stellar evolution § low-mass stars](../../../../general/stellar%20evolution.md#low-mass%20stars) / mass ::: In the slides, they are defined as stars less than 0.25 solar masses (red dwarf). Externally, the lower limit is approximately 0.08 solar masses (brown dwarf), and the upper limit is between 0.4 and 0.6 solar masses. <!--SR:!2024-08-11,8,345!2024-08-23,19,365-->
@@ -1042,12 +1046,115 @@ The content is in teaching order. Extra information and corrections are included
 - measuring galactic distances ::: We use the [cosmic distance ladder](cosmic%20distance%20ladder.md). <!--SR:!2024-08-09,6,367!2024-08-09,6,367-->
 - [cosmic distance ladder](../../../../general/cosmic%20distance%20ladder.md) ::: This is used because there are many methods to measure distances, each suitable for different distances and situations. Combining and calibrating them against each other leads to a "ladder" to measure distances at all scales of the universe. <!--SR:!2024-08-08,5,367!2024-08-09,6,367-->
   - [cosmic distance ladder § direct measurement](../../../../general/cosmic%20distance%20ladder.md#direct%20measurement) ::: small distances (up to about 200 pc) can be measured directly <!--SR:!2024-08-16,10,347!2024-08-22,16,367-->
-    - [cosmic distance ladder § astronomical unit](../../../../general/cosmic%20distance%20ladder.md#astronomical%20unit) ::: Distances within our solar system can be determined accurately using radar methods. <!--SR:!2024-08-08,5,367!2024-08-08,5,367-->
+    - [cosmic distance ladder § astronomical unit](../../../../general/cosmic%20distance%20ladder.md#astronomical%20unit) ::: Distances within our Solar System can be determined accurately using radar methods. <!--SR:!2024-08-08,5,367!2024-08-08,5,367-->
+      - [cosmic distance ladder § astronomical unit](../../../../general/cosmic%20distance%20ladder.md#astronomical%20unit) / limit ::: within our Solar System, otherwise power needed is too large, and Earth would have moved too much while waiting for the signal to come back for a long time
     - [cosmic distance ladder § parallax](../../../../general/cosmic%20distance%20ladder.md#parallax) ::: Stellar parallax is useful for measuring distances up to ~200 pc. (Complex ways of using parallax can increase this distance.) <!--SR:!2024-08-19,13,367!2024-08-08,5,367-->
+      - [cosmic distance ladder § parallax](../../../../general/cosmic%20distance%20ladder.md#parallax) / limit ::: <~200 pc, because the parallax is too small to be detected (accurately)
+      - [stellar parallax](../../../../general/stellar%20parallax.md)
     - [cosmic distance ladder § standard candles](../../../../general/cosmic%20distance%20ladder.md#standard%20candles) ::: A standard candle is a light source of a known standard luminosity. An object can serve as a standard candle if there is some way to know its luminosity without first measuring its apparent brightness and distance. Each step in the ladder utilizes its own standard candle. <!--SR:!2024-08-08,5,367!2024-08-09,6,367-->
-  - [cosmic distance ladder](../../../../general/cosmic%20distance%20ladder.md) / steps ::: radar (solar system), stellar parallax (<~200 pc), spectroscopic parallax (<~10 kpc), Cepheid Variables (<~25 Mpc), Type Ia supernova (<~3 Gpc); This is not comprehensive and oversimplified. The actual ladder has multiple pathways and many more methods. <!--SR:!2024-08-20,12,347!2024-08-09,6,367-->
     - [stellar parallax](../../../../general/stellar%20parallax.md)
     - [luminosity](../../../../general/luminosity.md) ([astronomy](../../../../general/astronomy.md)), [radiant flux](../../../../general/radiant%20flux.md)
     - [apparent magnitude](../../../../general/apparent%20magnitude.md) & [inverse-square law](../../../../general/inverse-square%20law.md)
+  - [cosmic distance ladder](../../../../general/cosmic%20distance%20ladder.md) / steps ::: radar (solar system), stellar parallax (<~200 pc), spectroscopic parallax (<~10 kpc), Cepheid Variables (<~25 Mpc), Type Ia supernova (<~3 Gpc), Hubble's law; This is not comprehensive and oversimplified. The actual ladder has multiple pathways and many more methods. <!--SR:!2024-08-20,12,347!2024-08-09,6,367-->
 - [questions § 2024-08-01](questions.md#2024-08-01)
   - a MCQ question about supernova from [week 7 lecture](#week%207%20lecture)
+
+## week 8 lecture
+
+> Dear students,
+>
+> The strip sequence test will be held on
+>
+> Date: Aug 6
+>
+> Time: 10:00 - 10:20
+>
+> Venue: LTB, LTD
+>
+> The test will start at 10:00am sharp. Please do not be late.
+>
+> Students are divided into two groups with one group having the test in LTB and the other in LTD.
+>
+> Please check the grouping here: [LTB](https://canvas.ust.hk/courses/57202/files/9216791), [LTD](https://canvas.ust.hk/courses/57202/files/9216792)
+>
+> We will have lecture after the test in LTD. Students who will take the test in LTB please go to LTD after the test. (There may be PRS/MCQ in the last lecture).
+>
+> There will be 4 strip sequence questions.
+>
+> It is a closed book test (no notes and cheat sheets allowed) and will cover <span style="color: red;">Chapter 1 to Chapter 19</span>.
+>
+> [Formula sheet](https://canvas.ust.hk/courses/57202/files/9132514) will be provided.
+>
+> Please remember to bring your student ID card and a calculator.
+>
+> Best, <br/>
+> \[redacted\]
+
+- time: 2024-08-06T10:00:00+08:00/2024-08-06T12:30:00+08:00
+- [strip sequence test](strip%20sequence%20test.md): 3.8/4
+- [cosmic distance ladder](../../../../general/cosmic%20distance%20ladder.md)
+  - [cosmic distance ladder](../../../../general/cosmic%20distance%20ladder.md) / steps
+  - [§ main sequence fitting](../../../../general/cosmic%20distance%20ladder.md#main%20sequence%20fitting), [spectroscopic parallax](../../../../general/spectroscopic%20parallax.md) ::: It may be applied to a main-sequence star or a star cluster containing many main sequence stars. In the former, we determine the spectral type of the star to know its approximate luminosity. Then compare it with its apparent brightness to find out its approximate distance. In a star cluster, we can obtain its main sequence strip in a HR diagram and compare it against with the strips of other star clusters with known distances. The latter is more accurate because more stars are used to estimate tee distance.
+    - [§ main sequence fitting](../../../../general/cosmic%20distance%20ladder.md#main%20sequence%20fitting) / limit ::: <~10 kpc, because the main-sequence stars are too dim to provide a spectrum to us
+  - [Cepheid variable](../../../../general/Cepheid%20variable.md) ::: very luminous stars that varies in brightness periodically; brighter stars varies in brightness slower, like a blue whale's heart rate is lower than that of a mouse
+    - [Cepheid variable](../../../../general/Cepheid%20variable.md) / limit ::: <~25 Mpc, because they are much more luminous than most main-sequence stars
+    - [Cepheid variable](../../../../general/Cepheid%20variable.md) / examples ::: Delta Cephei, which has its apparent magnitude varies between 3.5 and 4.5 every 5.4 days
+    - [Cepheid variable](../../../../general/Cepheid%20variable.md) / [Hertzsprung–Russell diagram](../../../../general/Hertzsprung–Russell%20diagram.md) ::: They occur in a region of the HR diagram called the instability strip, a straight line strip extending up from the middle of the main sequence strip.
+    - [Cepheid variable](../../../../general/Cepheid%20variable.md) / [κ–mechanism](../../../../general/kappa–mechanism.md) ::: They pulsate because of periodic imbalance between thermal pressure and gravity. When the star contracts (and becomes dimmer), helium heats up by gravitational contraction. The helium is eventually enough to become doubly ionized, which is more opaque. It absorbs more light, which causes helium to heat up even more. Eventually, the thermal pressure expands the star (and becomes brighter). The helium cools down by gravitational contraction and becomes singly-ionized, which is more transparent. So the helium continues to cool down, causing the star to contract again. Then the cycle repeats. The stars become dimmest during the part of the cycle when the helium is doubly ionized.
+    - [Cepheid variable](../../../../general/Cepheid%20variable.md) / reason Cepheid variable has a narrow temperature range ::: Hotter stars can never form a variable layer. Cooler stars have its variable layer located deeper, which cannot significantly vary the size and surface temperature of the star.
+    - [Cepheid variable](../../../../general/Cepheid%20variable.md) / [RR Lyrae variable](../../../../general/RR%20Lyrae%20variable.md) ::: They are separate type of variable stars from Cepheid variables, which have short periods and lie on the instability strip where it crosses the horizontal branch. Its distribution is a horizontal rectangle, rather than a slope, on a (average) luminosity—period graph.
+    - [Cepheid variable](../../../../general/Cepheid%20variable.md) / brief history ::: In 1912, Henrietta Leavitt, an astronomer at Harvard, discovered that the periods of these variable stars in a cluster was correlated with the brightness of the stars.
+      - [Cepheid variable](../../../../general/Cepheid%20variable.md) / brief history / determination ::: This was determined by comparing thousands of photographic plates to get the period and the _relative_ brightness of each variable star. The absolute luminosity is determined by using Shapley's systematic study of globular clusters. _Spectrscopic parallax_ is used to determine cluster distances. Then the absolute luminosities are computed from the cluster distances and the relative brightnesses.
+    - [Cepheid variable](../../../../general/Cepheid%20variable.md) / (average) luminosity & period (for classical Cepheid variables) ::: ($x$: $\log_{10} P - 1$, slope: -2.43, y-intercept: -4.05) $$M_{\mathrm {v} }=(-2.43\pm 0.12)\left(\log _{10}P-1\right)-(4.05\pm 0.02)$$, with _P_ measured in days.
+      - [Cepheid variable](../../../../general/Cepheid%20variable.md) / (average) luminosity & period (for classical Cepheid variables) / graph ::: The resulting (average) luminosity—period log graph looks like a straight line from 3 days and 1000 solar luminosities to 100 days and 30&nbsp;000 solar luminosities.
+  - [§ Type Ia light curves](../../../../general/cosmic%20distance%20ladder.md#Type%20Ia%20light%20curves) ::: As Type Ia supernovae are produced by white dwarfs of similar mass (~1.4 solar masses), ir luminosities peaks at an absolute magnitude of about -19.3 or about 5 billion solar luminosities.
+    - [§ Type Ia light curves](../../../../general/cosmic%20distance%20ladder.md#Type%20Ia%20light%20curves) / limit ::: <~3 Gpc, otherwise they get too dim
+    - [Chandrasekhar limit](../../../../general/Chandrasekhar%20limit.md)
+  - [Hubble's law](../../../../general/Hubble's%20law.md) ::: the observation in physical cosmology that galaxies are moving away from Earth at speeds (can be measured using redshift) proportional to their distance
+    - [Hubble's law](../../../../general/Hubble's%20law.md) / Edwin Hubble ::: Hubble received an undergraduate degree in math and astronomy, then a law degree from Oxford. After practicing law for a while, he decided to return to his first interest and pursued a PhD, graduating at age 30 in 1919 (after serving in WW1).
+    - [Hubble's law](../../../../general/Hubble's%20law.md) / brief history ::: the Great Debate and "spiral nebulae": Is the Milky Way the entire universe or not? Some argued "spiral nebulae" were entire galaxies while others said they were smaller collections of stars within the Milky Way. Hubble settled the debate by measuring the distance to the Andromeda Galaxy using Cepheid variables as standard candles. (Shapley was on the wrong side of the Great Debate.) He also found that the spectral features of _virtually_ all galaxies are redshifted. More data at further distances were published on 1934-09.
+      - [Milky Way](../../../../general/Milky%20Way.md) / study of [globular cluster](../../../../general/globular%20cluster.md)
+      - [Hubble's law](../../../../general/Hubble's%20law.md) / brief history / example distances ::: Messier 31 (Andromeda Galaxy): ~765 kpc (~2.5 Mly), Messier 33 (Triangulum Galaxy): ~2.73 Mly, NGC 6822: ~1.6 Mly
+    - [Hubble's law](../../../../general/Hubble's%20law.md) / quotes ::: "The problem is now in the hands of the theorists"
+    - [Hubble's law § interpretation](../../../../general/Hubble's%20law.md#interpretation) (mathematics) ::: $$\begin{aligned} v & = H d \\ d & = v / H \end{aligned}$$, where $v$ is the recession velocity (can be measured using redshift), $d$ is the distance to Earth, and $H$ is the Hubble constant
+    - [Hubble's law](../../../../general/Hubble's%20law.md) / Hubble's constant ::: usually in units of (km/s)/Mpc; about 70 (km/s)/Mpc (lecture slides used 64 (km/s)/Mpc and other larger values)
+      - [Hubble's law](../../../../general/Hubble's%20law.md) / Hubble's constant / [Dark Energy Survey](../../../../general/Dark%20Energy%20Survey.md) (DES) ::: 67.77±1.30 (km/s)/Mpc (2018)
+        - [Dark Energy Survey](../../../../general/Dark%20Energy%20Survey.md) ::: The Dark Energy Survey is a visible and near-infrared survey that uses a 4-meter telescope located in Chile.
+- [questions § 2024-08-06](questions.md#2024-08-06)
+  - Finally, a question (Q.4, the last question) that everyone (who answered) got correctly! The teacher gave away the answer.
+- [questions](questions.md): 25/25
+  - iPRS: 10/10
+  - MCQ: 15/15
+
+## week 8 lecture 2
+
+> Dear students,
+>
+> The final exam will be held on
+>
+> Date: Aug 8
+>
+> Time: 10:00 - 13:00
+>
+> Venue: LTA
+>
+> Please arrive at LTA 15 minutes before the exam.
+>
+> It is a closed book exam (no notes allowed) but you can bring three  A4-size cheat sheets (6 sides together, either hand-writing notes or electronic typing notes).
+>
+> The exam will cover <span style="color: red;">Chapter 1 to Chapter 20</span>.
+>
+> [Formula sheet](https://canvas.ust.hk/courses/57202/files/9132514) will be provided.
+>
+> Please remember to bring your student ID card, a calculator, <span style="color: red;">and pencil and eraser</span>.
+>
+> Best, <br/>
+> \[redacted\]
+
+- time: 2024-08-08T10:00:00+08:00/2024-08-08T13:00:00+08:00
+- [final exam](final%20exam.md): ?/50
+
+## aftermath
+
+- [student-generated question](student-generated%20question.md): ?/1
+- [open-ended question report](open-ended%20question%20report.md): ?/20
