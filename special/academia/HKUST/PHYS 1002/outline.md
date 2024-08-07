@@ -1055,3 +1055,75 @@ The content is in teaching order. Extra information and corrections are included
     - [apparent magnitude](../../../../general/apparent%20magnitude.md) & [inverse-square law](../../../../general/inverse-square%20law.md)
 - [questions § 2024-08-01](questions.md#2024-08-01)
   - a MCQ question about supernova from [week 7 lecture](#week%207%20lecture)
+
+## week 8 lecture
+
+> Dear students,
+>
+> The strip sequence test will be held on
+>
+> Date: Aug 6
+>
+> Time: 10:00 - 10:20
+>
+> Venue: LTB, LTD
+>
+> The test will start at 10:00am sharp. Please do not be late.
+>
+> Students are divided into two groups with one group having the test in LTB and the other in LTD.
+>
+> Please check the grouping here: [LTB](https://canvas.ust.hk/courses/57202/files/9216791), [LTD](https://canvas.ust.hk/courses/57202/files/9216792)
+>
+> We will have lecture after the test in LTD. Students who will take the test in LTB please go to LTD after the test. (There may be PRS/MCQ in the last lecture).
+>
+> There will be 4 strip sequence questions.
+>
+> It is a closed book test (no notes and cheat sheets allowed) and will cover <span style="color: red;">Chapter 1 to Chapter 19</span>.
+>
+> [Formula sheet](https://canvas.ust.hk/courses/57202/files/9132514) will be provided.
+>
+> Please remember to bring your student ID card and a calculator.
+>
+> Best, <br/>
+> \[redacted\]
+
+- time: 2024-08-06T10:00:00+08:00/2024-08-06T12:30:00+08:00
+- [strip sequence test](strip%20sequence%20test.md): 3.9/4
+- [questions § 2024-08-06](questions.md#2024-08-06)
+  - Finally, a question (Q.4, the last question) that everyone (who answered) got correctly! The teacher gave away the answer.
+- [questions](questions.md): 25/25
+  - iPRS: 10/10
+  - MCQ: 15/15
+
+## week 8 lecture 2
+
+> Dear students,
+>
+> The final exam will be held on
+>
+> Date: Aug 8
+>
+> Time: 10:00 - 13:00
+>
+> Venue: LTA
+>
+> Please arrive at LTA 15 minutes before the exam.
+>
+> It is a closed book exam (no notes allowed) but you can bring three  A4-size cheat sheets (6 sides together, either hand-writing notes or electronic typing notes).
+>
+> The exam will cover <span style="color: red;">Chapter 1 to Chapter 20</span>.
+>
+> [Formula sheet](https://canvas.ust.hk/courses/57202/files/9132514) will be provided.
+>
+> Please remember to bring your student ID card, a calculator, <span style="color: red;">and pencil and eraser</span>.
+>
+> Best, <br/>
+> \[redacted\]
+
+- time: 2024-08-08T10:00:00+08:00/2024-08-08T13:00:00+08:00
+- [final exam](final%20exam.md): ?/50
+
+## aftermath
+
+- [student-generated question](student-generated%20question.md): ?/1
+- [open-ended question report](open-ended%20question%20report.md): ?/20
