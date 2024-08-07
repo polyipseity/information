@@ -28,6 +28,7 @@ The content is in teaching order. Extra information and corrections are included
 - [competencies rubrics](competencies%20rubrics.pdf)
 - [schedule](schedule.md)
 - [questions](questions.md)
+- [strip sequence test](strip%20sequence%20test.md)
 
 ## week 1 lecture
 
