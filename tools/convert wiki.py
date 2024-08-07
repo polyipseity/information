@@ -30,17 +30,18 @@ _names_map = {
 _names_map_manual = {
     "Balmer series": "Balmer series",
     "Bok globule": "Bok globule",
+    "Discrete Fourier series": "discrete Fourier series",
+    "Discrete Fourier transform": "discrete Fourier transform",
+    "Discrete-time Fourier transform": "discrete-time Fourier transform",
+    "Discrete Hartley transform": "discrete Hartley transform",
     "Euclidean distance": "Euclidean distance",
     "Euclidean norm": "Euclidean norm",
     "Euclidean space": "Euclidean space",
     "Jeans instability": "Jeans instability",
     "Jeans mass": "Jeans mass",
     "Latin": "Latin",
-    "X-ray": "X-ray",
-    "Discrete Fourier series": "discrete Fourier series",
-    "Discrete Fourier transform": "discrete Fourier transform",
-    "Discrete-time Fourier transform": "discrete-time Fourier transform",
     "Squared Euclidean distance": "squared Euclidean distance",
+    "X-ray": "X-ray",
 }
 if _names_map_overlap := frozenset(_names_map).intersection(_names_map_manual):
     raise ValueError(_names_map_overlap)
@@ -171,19 +172,25 @@ async def wiki_html_to_plaintext(
             suffix = "\n"
         case "math":
             if alt_text := str(ele.get("alttext", "")):
-                ele.clear()
-                ele.append(
-                    alt_text.removeprefix(R"{\displaystyle ").removesuffix(R"}").strip()
-                )
-                math_affix = (
-                    "$"
-                    if (parent := ele.parent)
+                alt_text_len = len(alt_text)
+                alt_text = alt_text.removeprefix(R"{\displaystyle ")
+                if len(alt_text) == alt_text_len:
+                    alt_text = alt_text.removeprefix(R"{\textstyle ")
+                if len(alt_text) <= alt_text_len:
+                    alt_text = alt_text.removesuffix(R"}")
+                alt_text = alt_text.replace(R"{{", R"{ {").replace(R"}}", R"} }")
+
+                inline = (
+                    (parent := ele.parent)
                     and (parent := parent.parent)
                     and (parent := parent.parent)
                     and len(parent) > 1
-                    else "$$"
                 )
-                prefix, suffix = math_affix, math_affix
+
+                prefix, suffix = "$" if inline else "$$", "$" if inline else "$$\n\n"
+
+                ele.clear()
+                ele.append(alt_text)
         case _:
             pass
 
@@ -218,7 +225,9 @@ async def main() -> None:
         },
     ) as session:
         output = await wiki_html_to_plaintext(html, session=session)
-    output = output.replace("\xa0", " ")  # replace non-breaking spaces with spaces
+    output = output.replace(
+        "\xa0", " "  # replace non-breaking spaces with spaces
+    ).strip()
 
     print(output)
     copy(output)
