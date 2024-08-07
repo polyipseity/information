@@ -1090,7 +1090,7 @@ The content is in teaching order. Extra information and corrections are included
 > \[redacted\]
 
 - time: 2024-08-06T10:00:00+08:00/2024-08-06T12:30:00+08:00
-- [strip sequence test](strip%20sequence%20test.md): 3.9/4
+- [strip sequence test](strip%20sequence%20test.md): 3.8/4
 - [cosmic distance ladder](../../../../general/cosmic%20distance%20ladder.md)
   - [cosmic distance ladder](../../../../general/cosmic%20distance%20ladder.md) / steps
   - [§ main sequence fitting](../../../../general/cosmic%20distance%20ladder.md#main%20sequence%20fitting), [spectroscopic parallax](../../../../general/spectroscopic%20parallax.md) ::: It may be applied to a main-sequence star or a star cluster containing many main sequence stars. In the former, we determine the spectral type of the star to know its approximate luminosity. Then compare it with its apparent brightness to find out its approximate distance. In a star cluster, we can obtain its main sequence strip in a HR diagram and compare it against with the strips of other star clusters with known distances. The latter is more accurate because more stars are used to estimate tee distance.
