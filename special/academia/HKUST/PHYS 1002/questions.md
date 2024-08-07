@@ -539,6 +539,8 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > - solution: {{1}}
 > - explanation: {{The typical radius of a white dwarf is not given. However, consider the energy exploded: $$E = \frac {GM^2} {10 \times 10^3} - \frac {GM^2} x = GM^2 \left(\frac 1 {10 \times 10^3} - \frac 1 x\right)$$, where $x$ is the typical radius of a white dwarf. One would realize, given that $x \ge 1000 \times 10^3$, since $x \gg 10 \times 10^3$, so $$\frac 1 {10 \times 10^3} - \frac 1 x \approx \frac 1 {10 \times 10^3}$$, which is a good enough approximation for this question. So, using the above approximation, calculate the energy released: $$E = {GM^2} {10 \times 10^3} = \frac {6.674\,30 \times 10^{-11} \cdot \left( 2 \cdot 1.9885 \times 10^{30} \right)^2} {10 \times 10^3} \approx 1.055\,6426 \times 10^{47}~\mathrm{J}$$. Then, calculate the energy released by the Sun over its lifetime: $$E_\odot = 3.828 \times 10^{26} \cdot 10 \times 10^9 \times \cdot 365.25 \times 86\,400 \approx 1.208\,024\,93 \times 10^{44}~\mathrm{J}$$. Now divide the first number by the second number to get the answer: $$\frac E {E_\odot} = \frac {1.055\,6426 \times 10^{47} } {1.208\,024\,93 \times 10^{44} } \approx 873.8583$$. So the answer is 1000 times.}}
 
+## 2024-08-06
+
 ## student generated questions
 
 > Q1. (sample) Star A is a star with apparent magnitude (m<sub>A</sub>) of 3. The apparent brightness ratio of Star A over Star B is 15 and assume absolute magnitude (M<sub>B</sub>) of star B is 1. What is the distance between earth and star B in terms of parsecs?
