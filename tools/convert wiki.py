@@ -30,10 +30,17 @@ _names_map = {
 _names_map_manual = {
     "Balmer series": "Balmer series",
     "Bok globule": "Bok globule",
+    "Euclidean distance": "Euclidean distance",
+    "Euclidean norm": "Euclidean norm",
+    "Euclidean space": "Euclidean space",
     "Jeans instability": "Jeans instability",
     "Jeans mass": "Jeans mass",
     "Latin": "Latin",
     "X-ray": "X-ray",
+    "Discrete Fourier series": "discrete Fourier series",
+    "Discrete Fourier transform": "discrete Fourier transform",
+    "Discrete-time Fourier transform": "discrete-time Fourier transform",
+    "Squared Euclidean distance": "squared Euclidean distance",
 }
 if _names_map_overlap := frozenset(_names_map).intersection(_names_map_manual):
     raise ValueError(_names_map_overlap)
@@ -51,8 +58,12 @@ def _fix_name_maybe(name: str) -> str:
     )
 
 
+def _markdown_fragment(fragment: str) -> str:
+    return fragment and f"#{fragment.replace(':', '').replace(' ', '%20')}"
+
+
 def _markdown_link(page: str, fragment: str) -> str:
-    return f"{page.replace(' ', '%20')}.md{fragment and '#'}{fragment.replace(':', '').replace(' ', '%20')}"
+    return f"{page.replace(' ', '%20')}.md{_markdown_fragment(fragment)}"
 
 
 def _tag_affixes(name: str) -> tuple[str, str]:
@@ -132,7 +143,11 @@ async def wiki_html_to_plaintext(
                     f"]({_markdown_link(_fix_name_maybe(to), _fix_name_maybe(to_fragment))})",
                 )
             elif href := str(ele.get("href", "")):
-                prefix, suffix = "[", f"]({href})"
+                if href.startswith("https://en.wikipedia.org/wiki/") and "#" in href:
+                    href = _fix_name_maybe(
+                        href[href.index("#") + 1 :].replace("_", " ")
+                    )
+                prefix, suffix = "[", f"]({_markdown_fragment(href)})"
             else:
                 process = False
             if process:
@@ -153,6 +168,22 @@ async def wiki_html_to_plaintext(
                 prefix = f"{'  ' * (len(list_stack) - 1)}{item}. "
             else:
                 prefix = f"{'  ' * (len(list_stack) - 1)}- "
+            suffix = "\n"
+        case "math":
+            if alt_text := str(ele.get("alttext", "")):
+                ele.clear()
+                ele.append(
+                    alt_text.removeprefix(R"{\displaystyle ").removesuffix(R"}").strip()
+                )
+                math_affix = (
+                    "$"
+                    if (parent := ele.parent)
+                    and (parent := parent.parent)
+                    and (parent := parent.parent)
+                    and len(parent) > 1
+                    else "$$"
+                )
+                prefix, suffix = math_affix, math_affix
         case _:
             pass
 
