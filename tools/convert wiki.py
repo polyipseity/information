@@ -8,7 +8,7 @@ from bs4 import BeautifulSoup, NavigableString, PageElement, Tag
 from bs4.element import PreformattedString
 from jaraco.clipboard import paste_html
 from pyperclip import copy
-from sys import version
+from sys import argv, version
 from yarl import URL
 
 NAME = PurePath(__file__).name
@@ -30,6 +30,7 @@ _names_map = {
 _names_map_manual = {
     "Balmer series": "Balmer series",
     "Bok globule": "Bok globule",
+    "Cepheus (constellation)": "Cepheus (constellation)",
     "Discrete Fourier series": "discrete Fourier series",
     "Discrete Fourier transform": "discrete Fourier transform",
     "Discrete-time Fourier transform": "discrete-time Fourier transform",
@@ -40,6 +41,7 @@ _names_map_manual = {
     "Jeans instability": "Jeans instability",
     "Jeans mass": "Jeans mass",
     "Latin": "Latin",
+    "Polaris": "Polaris",
     "Squared Euclidean distance": "squared Euclidean distance",
     "X-ray": "X-ray",
 }
@@ -63,8 +65,12 @@ def _markdown_fragment(fragment: str) -> str:
     return fragment and f"#{fragment.replace(':', '').replace(' ', '%20')}"
 
 
-def _markdown_link(page: str, fragment: str) -> str:
+def _markdown_link_target(page: str, fragment: str) -> str:
     return f"{page.replace(' ', '%20')}.md{_markdown_fragment(fragment)}"
+
+
+def _markdown_link_name(name: str) -> str:
+    return name.replace("\\", "\\\\").replace(R"[", R"\[").replace(R"]", R"\]")
 
 
 def _tag_affixes(name: str) -> tuple[str, str]:
@@ -75,6 +81,7 @@ async def wiki_html_to_plaintext(
     ele: PageElement,
     *,
     session: ClientSession,
+    refs: bool,
     list_stack: MutableSequence[int] = [],
 ) -> str:
     if not isinstance(ele, Tag):
@@ -87,6 +94,10 @@ async def wiki_html_to_plaintext(
         )
 
     if "reference" in ele.get_attribute_list("class"):
+        if refs:
+            ref_idx = compile(r"\d+").search("".join(ele.stripped_strings))
+            ref_idx = int(ref_idx[0]) if ref_idx else 0
+            return f"<sup>[{_markdown_link_name(f'[{ref_idx}]')}]({_markdown_fragment(f'^ref-{ref_idx}')})</sup>"
         return ""
 
     process_strings: Callable[[str], str] = lambda strings: strings
@@ -95,7 +106,9 @@ async def wiki_html_to_plaintext(
     match ele.name:
         case "p":
             suffix = "\n\n"
-        case "b" | "i":
+        case name if name in ("b", "i") or compile(r"font-style: *italic").search(
+            str(ele.get("style", ""))
+        ):
             times = 2 if ele.name == "b" else 1
             prefix, suffix = "_" * times, "_" * times
 
@@ -141,35 +154,34 @@ async def wiki_html_to_plaintext(
                         to_fragment = redirect.get("tofragment", "")
                 prefix, suffix = (
                     "[",
-                    f"]({_markdown_link(_fix_name_maybe(to), _fix_name_maybe(to_fragment))})",
+                    f"]({_markdown_link_target(_fix_name_maybe(to), _fix_name_maybe(to_fragment))})",
                 )
             elif href := str(ele.get("href", "")):
                 if href.startswith("https://en.wikipedia.org/wiki/") and "#" in href:
-                    href = _fix_name_maybe(
-                        href[href.index("#") + 1 :].replace("_", " ")
+                    href = _markdown_fragment(
+                        _fix_name_maybe(href[href.index("#") + 1 :].replace("_", " "))
                     )
-                prefix, suffix = "[", f"]({_markdown_fragment(href)})"
+                prefix, suffix = "[", f"]({href})"
             else:
                 process = False
             if process:
-                process_strings = (
-                    lambda strings: strings.replace("\\", "\\\\")
-                    .replace(R"[", R"\[")
-                    .replace(R"]", R"\]")
-                )
+                process_strings = _markdown_link_name
         case "ol":
+            suffix = "\n\n"
             pop_list_stack = True
             list_stack.append(0)
         case "ul":
+            suffix = "\n\n"
             pop_list_stack = True
             list_stack.append(-1)
         case "li":
             if list_stack and (item := list_stack[-1] + 1) >= 1:
                 list_stack[-1] = item
                 prefix = f"{'  ' * (len(list_stack) - 1)}{item}. "
+                if str(ele.get("id", "")).startswith("cite_"):
+                    suffix = f' <a id="^ref-{item}"></a>^ref-{item}\n'
             else:
-                prefix = f"{'  ' * (len(list_stack) - 1)}- "
-            suffix = "\n"
+                prefix, suffix = f"{'  ' * (len(list_stack) - 1)}- ", "\n"
         case "math":
             if alt_text := str(ele.get("alttext", "")):
                 alt_text_len = len(alt_text)
@@ -191,13 +203,18 @@ async def wiki_html_to_plaintext(
 
                 ele.clear()
                 ele.append(alt_text)
+        case name if (header_match := compile(r"h(\d?)").match(name)):
+            prefix, suffix = f"{'#' * int(header_match[1] or '1')} ", "\n\n"
+            process_strings = lambda strings: _fix_name_maybe(strings.strip())
         case _:
             pass
 
     strings = "".join(
         await gather(
             *(
-                wiki_html_to_plaintext(child, session=session, list_stack=list_stack)
+                wiki_html_to_plaintext(
+                    child, session=session, refs=refs, list_stack=list_stack
+                )
                 for child in ele.children
             )
         )
@@ -211,6 +228,8 @@ async def wiki_html_to_plaintext(
 
 
 async def main() -> None:
+    refs = "refs" in argv[1:]
+
     input("HTML? (will read from clipboard)")
     html_text = paste_html()
     assert isinstance(html_text, str)
@@ -224,7 +243,7 @@ async def main() -> None:
             "User-Agent": USER_AGENT,
         },
     ) as session:
-        output = await wiki_html_to_plaintext(html, session=session)
+        output = await wiki_html_to_plaintext(html, session=session, refs=refs)
     output = output.replace(
         "\xa0", " "  # replace non-breaking spaces with spaces
     ).strip()
