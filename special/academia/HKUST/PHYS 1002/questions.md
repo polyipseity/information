@@ -19,6 +19,8 @@ tags:
 
 The parenthesized text at the beginning of of each question is {{the location the question appears in}}. Questions beginning with `(derived)` are {{derived from other questions and only appear here}}.
 
+Marking is done as follows. iPRS and MCQ questions are considered separately. For each type of questions, the best 80% are counted. Then the percentage is linearly scaled onto a 10-mark scale for iPRS and 15-mark scale for MCQ.
+
 ## 2024-06-18
 
 > Q1. (lecture) This photo shows the Andromeda Galaxy as it looked about 2.5 million years ago. (HISTORIC Photograph)
