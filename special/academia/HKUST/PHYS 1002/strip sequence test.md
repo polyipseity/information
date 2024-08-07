@@ -17,7 +17,9 @@ tags:
 
 - time limit: 20 minutes
 
-Marking is done as follows. Full marks if 4 marks. Each strip sequence test carries 1 mark. As each strip sequence test has 5 choices, so there are 5C2 = 10 pairs of choices. Each pair carries 0.1 marks. If the ordering, when only considering the 2 choices in a pair, is correct, then 0.1 marks is given. Otherwise, there are no marks.
+Marking is done as follows. Full marks if 4 marks. Each strip sequence test carries 1 mark.
+
+As each question has 5 choices, each question has are 5C2 = 10 pairs of choices. For each question, full marks is assumed originally. Each wrong pair deducts 0.2 marks. That is, if the ordering, when only considering the 2 choices in a pair, is correct, then no marks are deducted. Otherwise, there 0.2 marks is deducted. That means 5 or more wrong pairs result in 0 marks. This makes random guessing yields 0 marks on average.
 
 ## questions
 
