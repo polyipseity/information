@@ -70,4 +70,26 @@ We can {{convert}} in between rectangular form and polar form. From rectangular 
 
 - see: [general/Euler's formula](../../general/Euler's%20formula.md)
 
-[Euler's formula](../../general/Euler's%20formula.md) is: {{$$e^{j\varphi} = \cos x + j \sin \varphi$$, where $\varphi$ is a [complex number](#complex%20number)}}. The above implies alternative formulas for {{$\sin$ and $\cos$}}: {{$$\begin{aligned} \cos \varphi & = \frac {e^{j\varphi} + e^{-j\varphi} } 2 \\ \sin \varphi & = \frac {e^{j\varphi} - e^{-j\varphi} } {2j} \end{aligned}$$}}.
+[Euler's formula](../../general/Euler's%20formula.md) is: {{$$e^{j\varphi} = \cos \varphi + j \sin \varphi$$, where $\varphi$ is a [complex number](#complex%20number)}}. The above implies alternative formulas for {{$\sin$ and $\cos$}}: {{$$\begin{aligned} \cos \varphi & = \frac {e^{j\varphi} + e^{-j\varphi} } 2 \\ \sin \varphi & = \frac {e^{j\varphi} - e^{-j\varphi} } {2j} \end{aligned}$$}}.
+
+Using Euler's formula, we can express waves {{using exponentiation instead}}. For example, the discrete sine wave {{$$f[x](n) = A \cos(kx \pm \omega T n + \phi) + D$$}} can also be expressed as {{$$f[x](n) = \operatorname{Re}\left(A e^{j(kx \pm \omega Tn + \phi)}\right) + D = \operatorname{Re}\left(A e^{j \phi} e^{j(kx \pm \omega Tn)}\right) + D = \operatorname{Re}\left(X e^{j(kx \pm \omega Tn)} \right) + D \qquad X := A e^{j \phi}$$}}. The latter expression has the advantage that {{exponentiation is much easier to manipulate than trigonometric functions}}.
+
+## dot product
+
+- see: [general/dot product § complex vectors](../../general/dot%20product.md#complex%20vectors)
+
+The __dot product__ or __scalar product__ of two sequences $x$ and $y$ is defined as: {{$$\langle x, y \rangle = \sum_{n = 0}^{N - 1} x[n] y^*[n]$$ (the variant that is antilinear in the 2nd argument)}}. Geometrically, two sequences are {{orthogonal iff their dot product is $0$, i.e. $\langle x, y \rangle = 0$}}.
+
+## even and odd sequences
+
+- see: [general/even and odd functions](../../general/even%20and%20odd%20functions.md)
+
+A sequence is {{even or symmetric}} iff {{$f[-n] = f[n]$}}. A sequence is {{odd or antisymmetric}} iff {{$f[-n] = -f[n]$}}.
+
+## convolution
+
+- see: [general/convolution](../../general/convolution.md)
+
+The convolution of 2 sequences $x$ and $y$ is denoted {{$x[n] * y[n]$ or $x * y$}}. It is defined as {{$$(x * y) [n] = \sum_{m = 0}^{N - 1} x[m] y[n - m]$$}}.
+
+It can be visualized as follows. Take 2 sequences $x$ and $y$. Then, {{reflect the 2nd argument $y$ across $0$, i.e. $$y'[n] = y[-n]$$}}. Then the convolution $x * y$ {{at argument $n = 0$ is the dot product of $x$ and $y'$ ($y$ reflected), i.e. $$(x * y) [0] = \sum_{m = 0}^{N - 1} x[m] y'[m] = \sum_{m = 0}^{N - 1} x[m] y[-m]$$}}. When the argument $n$ is not $0$, then {{the argument specifies how much $y'$ is shifted, with positive values shifting to the right, i.e. $$y'_n[m] = y'[m - n] = y[n - m]$$}}. Then the convolution $x * y$ {{at nonzero argument is the dot product of $x$ and $y'_n$ ($y$ reflected and shifted by $n$), i.e. $$(x * y) [n] = \sum_{m = 0}^{N - 1} x[m] y'_n[m] = \sum_{m = 0}^{N - 1} x[m] y'[m - n] = \sum_{m = 0}^{N - 1} x[m] y[n - m]$$}}.
