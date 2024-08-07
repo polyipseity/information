@@ -33,7 +33,7 @@ Elman and Jordan networks are also known as {{"simple recurrent networks" (SRN)}
 
 - see: [long short-term memory](long%20short-term%20memory.md)
 
-Long short-term memory (LSTM) is {{a [deep learning](deep%20learning.md) system that avoids the [vanishing gradient problem](vanishing%20gradient%20problem.md)}}. LSTMs are augmented with {{recurrent gates like "forget gates", "input gates", and "output gates"}}. LSTMs can learn {{tasks that require memories of events thousands or even millions of time steps earlier}}. LSTM works even if {{there are long delays between significant events and can handle low and high-frequency components}}. <!--SR:!2024-08-07,36,290!2024-08-14,45,290!2024-08-10,42,290!2024-08-29,58,310-->
+Long short-term memory (LSTM) is {{a [deep learning](deep%20learning.md) system that avoids the [vanishing gradient problem](vanishing%20gradient%20problem.md)}}. LSTMs are augmented with {{recurrent gates like "forget gates", "input gates", and "output gates"}}. LSTMs can learn {{tasks that require memories of events thousands or even millions of time steps earlier}}. LSTM works even if {{there are long delays between significant events and can handle low and high-frequency components}}. <!--SR:!2024-11-21,105,290!2024-08-14,45,290!2024-08-10,42,290!2024-08-29,58,310-->
 
 ### gated recurrent unit
 

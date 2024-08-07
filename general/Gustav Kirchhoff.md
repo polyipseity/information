@@ -15,7 +15,7 @@ tags:
 - see: [history of spectroscopy](history%20of%20spectroscopy.md)
 
 1. Kirchhoff's first law of spectroscopy ::: A solid, liquid, or dense gas excited to emit light will radiate at all wavelengths and thus produce a continuous spectrum. <!--SR:!2024-08-08,12,270!2024-08-11,15,290-->
-2. Kirchhoff's second law of spectroscopy ::: A low-density gas excited to emit light will do so at specific wavelengths, and this produces an [emission spectrum](emission%20spectrum.md). <!--SR:!2024-08-07,11,270!2024-08-13,17,290-->
+2. Kirchhoff's second law of spectroscopy ::: A low-density gas excited to emit light will do so at specific wavelengths, and this produces an [emission spectrum](emission%20spectrum.md). <!--SR:!2024-09-07,30,270!2024-08-13,17,290-->
 3. Kirchhoff's third law of spectroscopy ::: If light composing a continuous spectrum passes through a cool, low-density gas, the result will be an [absorption spectrum](absorption%20spectroscopy.md#absorption%20spectrum). <!--SR:!2024-08-09,13,290!2024-08-12,16,290-->
 
 ## references

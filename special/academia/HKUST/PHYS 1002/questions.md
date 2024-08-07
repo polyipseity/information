@@ -203,7 +203,7 @@ The parenthesized text at the beginning of of each question is {{the location th
 > 5. proportional to r
 >
 > - solution: {{2}}
-> - explanation: {{The orbital period $p$ is proportional to the inverse of angular orbital velocity $1 / \omega$. Further, linear orbital velocity (speed) $v$ relates to angular orbital velocity by $v = r \omega \implies \omega = v / r$. Therefore, $$p^2 \propto r^3 \implies \omega^{-2} \propto r^3 \implies r^2 / v^2 \propto r^3 \implies r^{-1} \propto v^2 \implies v \propto r^{-1 / 2}$$. Therefore the answer is $v \propto r^{-1 / 2}$.}} <!--SR:!2024-08-30,29,301!2024-08-07,17,321-->
+> - explanation: {{The orbital period $p$ is proportional to the inverse of angular orbital velocity $1 / \omega$. Further, linear orbital velocity (speed) $v$ relates to angular orbital velocity by $v = r \omega \implies \omega = v / r$. Therefore, $$p^2 \propto r^3 \implies \omega^{-2} \propto r^3 \implies r^2 / v^2 \propto r^3 \implies r^{-1} \propto v^2 \implies v \propto r^{-1 / 2}$$. Therefore the answer is $v \propto r^{-1 / 2}$.}} <!--SR:!2024-08-30,29,301!2024-09-30,53,321-->
 
 <!-- markdownlint MD028 -->
 
@@ -284,7 +284,7 @@ The parenthesized text at the beginning of of each question is {{the location th
 > 4. blue in color
 >
 > - solution: {{2}}
-> - explanation: {{Consider the graph of spectral radiance for that star, which peaks at 530 nm. It should look like a hill with somewhat narrow peak. However, the narrow peak should cover the entire visible spectrum. As the spectral radiance is approximately even around the peak, that means it is approximately even over the entire visible spectrum, so the color is white.}} <!--SR:!2024-08-25,21,288!2024-08-07,10,308-->
+> - explanation: {{Consider the graph of spectral radiance for that star, which peaks at 530 nm. It should look like a hill with somewhat narrow peak. However, the narrow peak should cover the entire visible spectrum. As the spectral radiance is approximately even around the peak, that means it is approximately even over the entire visible spectrum, so the color is white.}} <!--SR:!2024-08-25,21,288!2024-09-24,47,328-->
 
 <!-- markdownlint MD028 -->
 
@@ -461,7 +461,7 @@ The parenthesized text at the beginning of of each question is {{the location th
 > 5. 10^(-10) m
 >
 > - solution: {{2}}
-> - explanation: {{Apply the equation for Schwarzschild radius: $$r_s = \frac {2 \cdot 6.67 \times 10^{-11} \cdot 70} {299\,792\,458^2} \approx 1.03899262 \times 10^{-25}~\mathrm{m}$$. So the answer is 10<sup>-25</sup> m.}} <!--SR:!2024-08-07,4,325!2024-08-15,9,305-->
+> - explanation: {{Apply the equation for Schwarzschild radius: $$r_s = \frac {2 \cdot 6.67 \times 10^{-11} \cdot 70} {299\,792\,458^2} \approx 1.03899262 \times 10^{-25}~\mathrm{m}$$. So the answer is 10<sup>-25</sup> m.}} <!--SR:!2024-08-23,15,325!2024-08-15,9,305-->
 
 <!-- markdownlint MD028 -->
 
@@ -475,7 +475,7 @@ The parenthesized text at the beginning of of each question is {{the location th
 > 6. 7.85×10<sup>16</sup> ly
 >
 > - solution: {{1}}
-> - explanation: {{Apply the equation for Schwarzschild radius: $$r_s = \frac {2 \cdot 6.674\,30 \times 10^{-11} \cdot 10^{53} } {299\,792\,458^2} \approx 1.485\,232\,05 \times 10^{27}~\mathrm{m} \approx 1.569\,9251 \times 10^{11}~\mathrm{ly}$$. So the answer is 1.57×10<sup>11</sup> ly.}} <!--SR:!2024-08-08,2,285!2024-08-07,4,325-->
+> - explanation: {{Apply the equation for Schwarzschild radius: $$r_s = \frac {2 \cdot 6.674\,30 \times 10^{-11} \cdot 10^{53} } {299\,792\,458^2} \approx 1.485\,232\,05 \times 10^{27}~\mathrm{m} \approx 1.569\,9251 \times 10^{11}~\mathrm{ly}$$. So the answer is 1.57×10<sup>11</sup> ly.}} <!--SR:!2024-08-08,2,285!2024-08-19,11,325-->
 
 ## 2024-08-01
 
@@ -487,7 +487,7 @@ The parenthesized text at the beginning of of each question is {{the location th
 > 4. In the formation of a star, no matter is wasted as all excess material ends up recycled into planets.
 > 5. Life is continuously being spread from star to star in a galaxy.
 >
-> - solution: {{2}} <!--SR:!2024-08-07,4,325-->
+> - solution: {{2}} <!--SR:!2024-08-27,19,345-->
 
 <!-- markdownlint MD028 -->
 
@@ -499,7 +499,7 @@ The parenthesized text at the beginning of of each question is {{the location th
 > 4. In the nuclear bulge
 > 5. The chances of finding a very young star are the same anywhere in the Milky Way galaxy
 >
-> - solution: {{3}} <!--SR:!2024-08-07,4,325-->
+> - solution: {{3}} <!--SR:!2024-08-27,19,345-->
 
 <!-- markdownlint MD028 -->
 
