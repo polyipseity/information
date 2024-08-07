@@ -14,7 +14,9 @@ tags:
   - language/in/English
 ---
 
-# HKUST COMP 1942 outline
+# outline
+
+- HKUST COMP 1942
 
 The content is in teaching order.
 

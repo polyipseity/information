@@ -7,7 +7,9 @@ tags:
   - language/in/English
 ---
 
-# HKUST MATH 1014 L1 assignment 8 submission
+# L1 assignment 8 submission
+
+- HKUST MATH 1014
 
 MATH1014 Calculus II Problem Set 8<br/>
 L01 (Spring 2024)

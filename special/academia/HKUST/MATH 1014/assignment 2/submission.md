@@ -6,7 +6,9 @@ tags:
   - language/in/English
 ---
 
-# HKUST MATH 1014 L1 assignment 2 submission
+# L1 assignment 2 submission
+
+- HKUST MATH 1014
 
 ## 1
 

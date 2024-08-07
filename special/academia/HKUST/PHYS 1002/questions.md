@@ -13,9 +13,13 @@ tags:
   - language/in/English
 ---
 
-# HKUST PHYS 1002 questions
+# questions
+
+- HKUST PHYS 1002
 
 The parenthesized text at the beginning of of each question is {{the location the question appears in}}. Questions beginning with `(derived)` are {{derived from other questions and only appear here}}. <!--SR:!2024-09-04,51,297!2024-08-30,47,297-->
+
+Marking is done as follows. iPRS and MCQ questions are considered separately. For each type of questions, the best 80% are counted. Then the percentage is linearly scaled onto a 10-mark scale for iPRS and 15-mark scale for MCQ.
 
 ## 2024-06-18
 
@@ -535,6 +539,8 @@ The parenthesized text at the beginning of of each question is {{the location th
 > - solution: {{1}}
 > - explanation: {{The typical radius of a white dwarf is not given. However, consider the energy exploded: $$E = \frac {GM^2} {10 \times 10^3} - \frac {GM^2} x = GM^2 \left(\frac 1 {10 \times 10^3} - \frac 1 x\right)$$, where $x$ is the typical radius of a white dwarf. One would realize, given that $x \ge 1000 \times 10^3$, since $x \gg 10 \times 10^3$, so $$\frac 1 {10 \times 10^3} - \frac 1 x \approx \frac 1 {10 \times 10^3}$$, which is a good enough approximation for this question. So, using the above approximation, calculate the energy released: $$E = {GM^2} {10 \times 10^3} = \frac {6.674\,30 \times 10^{-11} \cdot \left( 2 \cdot 1.9885 \times 10^{30} \right)^2} {10 \times 10^3} \approx 1.055\,6426 \times 10^{47}~\mathrm{J}$$. Then, calculate the energy released by the Sun over its lifetime: $$E_\odot = 3.828 \times 10^{26} \cdot 10 \times 10^9 \times \cdot 365.25 \times 86\,400 \approx 1.208\,024\,93 \times 10^{44}~\mathrm{J}$$. Now divide the first number by the second number to get the answer: $$\frac E {E_\odot} = \frac {1.055\,6426 \times 10^{47} } {1.208\,024\,93 \times 10^{44} } \approx 873.8583$$. So the answer is 1000 times.}} <!--SR:!2024-08-20,14,325!2024-08-14,8,305-->
 
+## 2024-08-06
+
 ## student generated questions
 
 > Q1. (sample) Star A is a star with apparent magnitude (m<sub>A</sub>) of 3. The apparent brightness ratio of Star A over Star B is 15 and assume absolute magnitude (M<sub>B</sub>) of star B is 1. What is the distance between earth and star B in terms of parsecs?
@@ -564,6 +570,19 @@ The parenthesized text at the beginning of of each question is {{the location th
 >
 > - solution: {{5}}
 > - explanation: {{White dwarfs have very high surface temperature and are very small. So they have low luminosity. E matches this description. So the answer is E. (Note that the graph is similar to a horizontally flipped Hertzsprung-Russell diagram.)}} <!--SR:!2024-08-08,4,327!2024-08-08,4,327-->
+
+<!-- markdownlint MD028 -->
+
+> Q3. (sample) A hypothetical planet has an orbital period around the Sun equal to 10 sidereal days of the planet. The self-rotation and orbital rotation are in opposite directions. How long is its solar day?
+>
+> 1. 9/10 sidereal days
+> 2. 10/9 sidereal days
+> 3. 10/11 sidereal days
+> 4. 11/10 sidereal days
+> 5. 1 sidereal day
+>
+> - solution: {{3}}
+> - explanation: {{The planet is in retrograde motion. Hence, the number of solar days per orbital period is $10 + 1 = 11~\mathrm{solar\ days}$. Thus each solar day is $\frac {1 / 11} {1 / 10} = \frac {10} {11}~\mathrm{sidereal\ days}$.}}
 
 ## strip sequence questions
 

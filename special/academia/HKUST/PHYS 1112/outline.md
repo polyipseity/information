@@ -14,7 +14,9 @@ tags:
   - language/in/English
 ---
 
-# HKUST PHYS 1112 outline
+# outline
+
+- HKUST PHYS 1112
 
 ## astronomy
 

@@ -14,7 +14,9 @@ tags:
   - language/in/English
 ---
 
-# HKUST COMP 2011 outline
+# outline
+
+- HKUST COMP 2011
 
 - array: [array declaration](../../../C++/array%20declaration.md)
 - floating-point number: [double-precision floating-point format § IEEE 754 standard](../../../../general/double-precision%20floating-point%20format.md#IEEE%20754%20standard), [single-precision floating-point format § IEEE 754 standard](../../../../general/single-precision%20floating-point%20format.md#IEEE%20754%20standard)

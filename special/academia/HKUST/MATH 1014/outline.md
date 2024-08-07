@@ -14,7 +14,9 @@ tags:
   - language/in/English
 ---
 
-# HKUST MATH 1014 outline
+# outline
+
+- HKUST MATH 1014
 
 - prerequisite: [MATH 1013](../MATH%201013/outline.md)
 

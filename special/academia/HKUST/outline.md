@@ -8,4 +8,6 @@ tags:
   - language/in/English
 ---
 
-# HKUST outline
+# outline
+
+- HKUST
