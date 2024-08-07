@@ -13,7 +13,7 @@ tags:
 
 ## algorithms
 
-In a database, there are usually {{many possible views to materialize}}. But it is {{not practical to materialize them all because of practical constraints}}, such as {{the number of views, the total size of views, the update cost, etc.}} Selecting the best views that {{reduces the cost of answering queries while staying within the constraints}} is known as {{the view materialization problem}}. It is {{[NP-complete](NP-completeness.md)}}. A variety of [algorithms](materialized%20view.md#algorithms) have been explored, such as {{[greedy algorithms](#greedy%20algorithm), randomized search, [genetic algorithms](genetic%20algorithm.md), and [A* search algorithm](A*%20search%20algorithm.md)}}. <!--SR:!2024-08-24,53,310!2024-10-22,93,290!2024-09-16,67,290!2024-09-23,71,290!2024-08-07,41,290!2024-08-30,59,310!2024-11-24,110,290-->
+In a database, there are usually {{many possible views to materialize}}. But it is {{not practical to materialize them all because of practical constraints}}, such as {{the number of views, the total size of views, the update cost, etc.}} Selecting the best views that {{reduces the cost of answering queries while staying within the constraints}} is known as {{the view materialization problem}}. It is {{[NP-complete](NP-completeness.md)}}. A variety of [algorithms](materialized%20view.md#algorithms) have been explored, such as {{[greedy algorithms](#greedy%20algorithm), randomized search, [genetic algorithms](genetic%20algorithm.md), and [A* search algorithm](A*%20search%20algorithm.md)}}. <!--SR:!2024-08-24,53,310!2024-10-22,93,290!2024-09-16,67,290!2024-09-23,71,290!2025-01-19,164,310!2024-08-30,59,310!2024-11-24,110,290-->
 
 ### terminology
 
@@ -37,7 +37,7 @@ The cost of answering a query depends on {{the view (materialized or not) to be 
 
 ### greedy algorithm
 
-We assume that {{each view is equally likely to be queried}}. We also assume the top view $\top$ {{is materialized}}, and the bottom view $\bot$ {{is ignored and assumed does not exist}}. <!--SR:!2024-08-07,39,290!2024-12-27,146,310!2024-12-19,140,310-->
+We assume that {{each view is equally likely to be queried}}. We also assume the top view $\top$ {{is materialized}}, and the bottom view $\bot$ {{is ignored and assumed does not exist}}. <!--SR:!2025-01-11,156,310!2024-12-27,146,310!2024-12-19,140,310-->
 
 Let $S$ be {{the set of materialized views}}. Define the total cost function {{accepting a set of materialized views $C(S)$ as the total cost of accessing each possible views once, taking the materialized views into consideration}}. Next, define the gain {{$G(A, B)$ accepting 2 sets of materialized views, as $G(A, B) = C(B) - C(A)$, i.e. the total cost reduction of materializing $A$ over materializing $B$}}. Finally, define the benefit {{$B(v, S) = G(S \cup \set{v}, S)$, i.e. the total cost reduction of _additionally_ materializing $v$ over only materializing $S$}}. <!--SR:!2024-09-16,73,310!2024-09-10,54,250!2024-09-10,58,270!2024-11-18,106,290-->
 
@@ -68,7 +68,7 @@ In details, when calculating the benefit for a view to be materialized, only con
 > | s  | 5.99 × 1 = 5.99    | 0.79 × 1 = 0.79   |
 > | c  | 5.9 × 1 = 5.9      | 5.9 × 1 = __5.9__ |
 >
-> The above benefit table shows that the resulting greedy selection is {{"ps" and _then_ "c"}}. <!--SR:!2024-08-25,54,310!2024-08-07,41,290-->
+> The above benefit table shows that the resulting greedy selection is {{"ps" and _then_ "c"}}. <!--SR:!2024-08-25,54,310!2024-12-06,120,290-->
 
 The resulting selection is {{greedy and may not be the optimal solution}}. When {{the heuristic function is simply the benefit}}, the above problem is {{a [submodular set function maximization](submodular%20set%20function.md#submodular%20set%20function%20maximization) problem}}. In this case, it has been proven that the greedy selection {{has a benefit that is at least $1 - 1 / e \approx 0.632$ times of that of the optimal selection}}.<sup>[\[1\]](#^ref-Nemhauser-1978)</sup> <!--SR:!2024-08-20,49,290!2024-08-17,48,290!2024-11-09,105,290!2024-08-29,52,270-->
 

@@ -33,13 +33,13 @@ After it is formed, the [deuteron](deuteron.md) produced in the first stage can 
 
 - 2nd step / energy release ::: 5.493 MeV <!--SR:!2024-08-17,14,250!2024-08-22,19,250-->
 
-The overall reaction (noting that the elements are [ionized](ionization.md)) is: {{$$4\, {}^1\mathrm{H}^+ + 2\,\mathrm{e}^- \to {}^4\mathrm{He}^{2+} + 2\,\nu_{\mathrm{e} } + n\, \gamma + 26.732\text{ MeV}$$, releasing 26.732&nbsp;[MeV](electronvolt.md) of [energy](energy.md)}}. Some energy is {{lost to the neutrinos, and various number of [gamma rays](gamma%20ray.md) depending on the branch taken}}. <!--SR:!2024-08-31,25,270!2024-08-07,11,270-->
+The overall reaction (noting that the elements are [ionized](ionization.md)) is: {{$$4\, {}^1\mathrm{H}^+ + 2\,\mathrm{e}^- \to {}^4\mathrm{He}^{2+} + 2\,\nu_{\mathrm{e} } + n\, \gamma + 26.732\text{ MeV}$$, releasing 26.732&nbsp;[MeV](electronvolt.md) of [energy](energy.md)}}. Some energy is {{lost to the neutrinos, and various number of [gamma rays](gamma%20ray.md) depending on the branch taken}}. <!--SR:!2024-08-31,25,270!2024-09-10,33,270-->
 
 - overall reaction (including annihilation) / energy release ::: 26.732 MeV <!--SR:!2024-08-16,13,295!2024-08-19,16,295-->
 
 ### the p–p I branch
 
-The p–p I branch is: {{$${}_2^3\mathrm{He} + {}_2^3\mathrm{He} \to {}_2^4\mathrm{He} + 2\, {}_1^1\mathrm{H} + 12.859\text{ MeV}$$}}. The complete chain releases {{a net energy of 26.732 MeV}} but {{2.2 percent of this energy (0.59&nbsp;MeV) is lost to the [neutrinos](neutrino.md) that are produced}}. The p–p I branch is dominant {{at [temperatures](temperature.md) of 10 to 18&nbsp;MK. Below 10&nbsp;MK}}, the p–p chain proceeds at slow rate, resulting in {{a low production of <sup>4</sup>He}}. <!--SR:!2024-08-23,20,250!2024-08-10,5,210!2024-08-07,4,210!2024-08-09,13,270!2024-08-07,11,270-->
+The p–p I branch is: {{$${}_2^3\mathrm{He} + {}_2^3\mathrm{He} \to {}_2^4\mathrm{He} + 2\, {}_1^1\mathrm{H} + 12.859\text{ MeV}$$}}. The complete chain releases {{a net energy of 26.732 MeV}} but {{2.2 percent of this energy (0.59&nbsp;MeV) is lost to the [neutrinos](neutrino.md) that are produced}}. The p–p I branch is dominant {{at [temperatures](temperature.md) of 10 to 18&nbsp;MK. Below 10&nbsp;MK}}, the p–p chain proceeds at slow rate, resulting in {{a low production of <sup>4</sup>He}}. <!--SR:!2024-08-23,20,250!2024-08-10,5,210!2024-08-15,7,210!2024-08-09,13,270!2024-09-09,32,270-->
 
 - p–p I branch / energy release ::: 12.859 MeV <!--SR:!2024-08-08,2,155!2024-08-18,15,295-->
 

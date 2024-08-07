@@ -32,7 +32,7 @@ Direct competitors are not {{necessarily more important than indirect or potenti
 >
 > If I were [Starbucks](Starbucks.md), a [coffee shop](coffeehouse.md) company, then...
 >
-> - an direct competitor of Starbucks ::: [Dunkin' Donuts](Dunkin'%20Donuts.md): serves mainly coffee to satisfy beverage need <!--SR:!2024-12-08,158,321!2024-08-07,66,321-->
+> - an direct competitor of Starbucks ::: [Dunkin' Donuts](Dunkin'%20Donuts.md): serves mainly coffee to satisfy beverage need <!--SR:!2024-12-08,158,321!2025-05-29,294,341-->
 > - an indirect competitor of Starbucks ::: [bars](bar%20(establishment).md): does not serve coffee but [alcoholic beverages](alcoholic%20beverage.md) to satisfy beverage need <!--SR:!2024-08-11,63,281!2024-08-18,74,321-->
 > - a potential competitor of Starbucks ::: [McDonald's](McDonald's.md): serves mainly coffee but usually as part of a meal to satisfy food need <!--SR:!2024-08-16,73,321!2024-08-23,79,321-->
 > - a non-competitor of Starbucks ::: [Walmart](Walmart.md): does not serve coffee and does not satisfy beverage need <!--SR:!2024-08-17,73,321!2025-05-14,282,341-->
@@ -116,7 +116,7 @@ pricing: Find suitable prices catering to different market segment and economies
 - differentiate: Differentiate our products to make it a hit with customers.→:::←discover: Find holes in existing products. <!--SR:!2024-08-15,55,281!2024-08-13,70,321-->
 - discover: Find holes in existing products.→:::←know ourselves: See if our products are sticky. <!--SR:!2024-08-28,59,221!2024-08-10,20,241-->
 - know ourselves: See if our products are sticky.→:::←know them: See how big of a threat competitors pose. <!--SR:!2024-12-30,156,301!2025-02-15,196,314-->
-- know them: See how big of a threat competitors pose.→:::←pricing: Find suitable prices catering to different market segment and economies. <!--SR:!2024-08-07,19,241!2024-08-08,54,261-->
+- know them: See how big of a threat competitors pose.→:::←pricing: Find suitable prices catering to different market segment and economies. <!--SR:!2024-08-16,8,221!2024-08-08,54,261-->
 - pricing: Find suitable prices catering to different market segment and economies.→:::←_(end)_ <!--SR:!2025-04-24,264,341!2024-08-13,65,281-->
 
 <!--/pytextgen-->
