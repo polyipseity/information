@@ -17,7 +17,7 @@ The content is in teaching order.
 
 - engineer
   - engineer, according to Wikipedia
-    - engineer jobs ::: analyze, _build_, _design_, invent, repair, test <!--SR:!2024-12-17,168,340!2024-08-08,89,378-->
+    - engineer jobs ::: analyze, _build_, _design_, invent, repair, test <!--SR:!2024-12-17,168,340!2025-07-08,334,378-->
     - engineer goals ::: fulfill functional objectives and requirements <!--SR:!2025-05-14,291,360!2025-02-21,225,360-->
     - engineer limitations ::: limited by cost, practicality, regulation, and safety <!--SR:!2024-12-24,195,350!2024-08-29,108,377-->
     - engineer methods ::: ingenuity, mathematics, scientific method and outlook <!--SR:!2024-10-24,143,337!2025-10-01,424,385-->
@@ -66,7 +66,7 @@ The content is in teaching order.
   - geo-technical engineering structures ::: design and construction of earthworks and foundations <!--SR:!2024-12-22,159,320!2025-01-26,217,350-->
     - [geo-technical engineering structure examples](#geo-technical%20engineering%20structure%20examples)
   - [geo-technical engineering risks](#geo-technical%20engineering%20risks)
-    - geo-technical engineering risk migration ::: soil improvement or retaining structures can migrate risk to society <!--SR:!2024-12-05,162,340!2024-08-08,89,377-->
+    - geo-technical engineering risk migration ::: soil improvement or retaining structures can migrate risk to society <!--SR:!2024-12-05,162,340!2025-07-09,335,377-->
 - hydraulic engineering ::: conveyance and flow of fluids, principally sewage and water <!--SR:!2024-11-09,159,285!2025-05-07,300,365-->
   - hydraulic engineering structures ::: design and construction of hydraulic structures <!--SR:!2024-09-17,115,324!2025-04-26,293,365-->
     - [hydraulic engineering structure examples](#hydraulic%20engineering%20structure%20examples)
@@ -282,7 +282,7 @@ workmanship
 - construction management→:::←economics <!--SR:!2024-10-17,98,235!2024-08-21,81,300-->
 - economics→:::←impacts to surrounding <!--SR:!2024-08-09,71,300!2024-08-24,23,240-->
 - impacts to surrounding→:::←lifecycle <!--SR:!2025-04-01,238,320!2024-08-22,82,320-->
-- lifecycle→:::←maintenance <!--SR:!2024-10-13,106,297!2024-08-08,74,312-->
+- lifecycle→:::←maintenance <!--SR:!2024-10-13,106,297!2024-09-16,39,292-->
 - maintenance→:::←politics <!--SR:!2024-08-15,10,221!2024-08-12,80,312-->
 - politics→:::←social <!--SR:!2025-03-24,246,360!2024-08-13,78,337-->
 - social→:::←workmanship <!--SR:!2024-08-26,82,300!2024-09-04,52,190-->
@@ -501,7 +501,7 @@ teaming up with others
 - _(begin)_→:::←business procedures <!--SR:!2024-11-02,111,252!2024-09-08,107,381-->
 - business procedures→:::←economics <!--SR:!2024-08-28,24,241!2025-02-10,193,285-->
 - economics→:::←human behaviors <!--SR:!2024-08-16,78,320!2024-10-23,131,340-->
-- human behaviors→:::←management principles <!--SR:!2024-08-07,47,300!2024-11-04,95,260-->
+- human behaviors→:::←management principles <!--SR:!2024-12-25,139,300!2024-11-04,95,260-->
 - management principles→:::←strong communication skills <!--SR:!2024-08-12,74,301!2024-09-05,96,320-->
 - strong communication skills→:::←teaming up with others <!--SR:!2024-11-07,138,340!2024-08-23,91,380-->
 - teaming up with others→:::←_(end)_ <!--SR:!2025-05-28,321,375!2024-08-31,73,272-->
@@ -671,7 +671,7 @@ socioeconomic
 
 <!--pytextgen generate section="238a"--><!-- The following content is generated at 2024-02-16T21:59:47.593005+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←biological <!--SR:!2024-08-08,76,327!2025-09-04,404,394-->
+- _(begin)_→:::←biological <!--SR:!2025-04-13,248,327!2025-09-04,404,394-->
 - biological→:::←chemical <!--SR:!2024-10-04,126,337!2025-03-18,247,357-->
 - chemical→:::←cultural <!--SR:!2024-11-18,119,280!2024-11-27,173,357-->
 - cultural→:::←physical <!--SR:!2024-10-14,138,345!2024-09-04,34,280-->
@@ -706,7 +706,7 @@ soil liquefaction
 
 <!--pytextgen generate section="50ba"--><!-- The following content is generated at 2024-05-01T19:22:35.142020+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←debris flow <!--SR:!2024-08-07,75,314!2024-08-10,89,378-->
+- _(begin)_→:::←debris flow <!--SR:!2025-03-31,235,314!2024-08-10,89,378-->
 - debris flow→:::←landslide <!--SR:!2024-08-20,88,335!2024-08-10,78,335-->
 - landslide→:::←rockfall <!--SR:!2024-08-25,34,292!2025-03-02,211,320-->
 - rockfall→:::←soil liquefaction <!--SR:!2024-11-14,135,290!2024-09-19,118,270-->
@@ -912,7 +912,7 @@ polypropylene fiber reinforced concrete
 
 <!--pytextgen generate section="eee1"--><!-- The following content is generated at 2024-02-16T21:59:47.859581+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←artificial stone <!--SR:!2024-08-08,25,277!2025-07-31,398,365-->
+- _(begin)_→:::←artificial stone <!--SR:!2024-10-13,66,277!2025-07-31,398,365-->
 - artificial stone→:::←cellular concrete <!--SR:!2024-11-12,128,300!2024-08-31,99,335-->
 - cellular concrete→:::←engineered cement composite <!--SR:!2024-10-24,153,270!2024-12-05,166,330-->
 - engineered cement composite→:::←fly ash concrete <!--SR:!2024-11-02,143,337!2024-09-26,107,320-->
@@ -1192,7 +1192,7 @@ water transport
 - bicycle path→:::←highway <!--SR:!2025-01-20,199,360!2025-03-05,232,360-->
 - highway→:::←pier <!--SR:!2024-10-06,114,320!2024-08-10,72,300-->
 - pier→:::←pipeline <!--SR:!2024-09-10,38,360!2025-02-06,194,314-->
-- pipeline→:::←railroad <!--SR:!2024-11-15,111,255!2024-08-07,75,315-->
+- pipeline→:::←railroad <!--SR:!2024-11-15,111,255!2024-09-15,38,295-->
 - railroad→:::←water transport <!--SR:!2024-10-11,127,340!2024-08-11,79,315-->
 - water transport→:::←_(end)_ <!--SR:!2024-09-11,107,380!2024-08-17,85,380-->
 

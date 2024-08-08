@@ -29,7 +29,7 @@ tags:
 
 A __Bayesian network__ (also known as a __Bayes network__, __Bayes net__, __belief network__, or __decision network__) is {{a [probabilistic graphical model](graphical%20model.md) that represents a set of variables and their [conditional dependencies](conditional%20dependence.md) via a [directed acyclic graph](directed%20acyclic%20graph.md) (DAG)}}. <!--SR:!2024-10-21,86,290-->
 
-One advantage of Bayesian networks is that {{it is more intuitive for humans to understand over complete [joint distributions](joint%20probability%20distribution.md)}}. Disadvantages include {{it requires predefined knowledge about the network topology, and it cannot contain cycles}}. <!--SR:!2024-08-29,57,310!2024-08-08,40,290-->
+One advantage of Bayesian networks is that {{it is more intuitive for humans to understand over complete [joint distributions](joint%20probability%20distribution.md)}}. Disadvantages include {{it requires predefined knowledge about the network topology, and it cannot contain cycles}}. <!--SR:!2024-08-29,57,310!2025-01-15,160,310-->
 
 ## graphical model
 

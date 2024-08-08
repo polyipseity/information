@@ -65,7 +65,7 @@ return await memorize_seq(
 - [Jupiter](../../../../general/Jupiter.md): radius of 0.7 cm, distance of 78 m (atrium center)→:::←[Saturn](../../../../general/Saturn.md): radius of 0.6 cm, distance of 142 m <!--SR:!2024-08-18,35,278!2024-08-10,20,250-->
 - [Saturn](../../../../general/Saturn.md): radius of 0.6 cm, distance of 142 m→:::←[Uranus](../../../../general/Uranus.md): radius of 0.25 cm, distance of 287 m <!--SR:!2024-08-16,20,198!2024-08-14,6,210-->
 - [Uranus](../../../../general/Uranus.md): radius of 0.25 cm, distance of 287 m→:::←[Neptune](../../../../general/Neptune.md): radius of 0.24 cm, distance of 449 m <!--SR:!2024-08-19,29,250!2024-09-08,34,230-->
-- [Neptune](../../../../general/Neptune.md): radius of 0.24 cm, distance of 449 m→:::←[Pluto](../../../../general/Pluto.md): radius of 0.01 cm, distance of 590 m <!--SR:!2024-08-28,20,226!2024-08-08,30,266-->
+- [Neptune](../../../../general/Neptune.md): radius of 0.24 cm, distance of 449 m→:::←[Pluto](../../../../general/Pluto.md): radius of 0.01 cm, distance of 590 m <!--SR:!2024-08-28,20,226!2024-10-25,78,266-->
 - [Pluto](../../../../general/Pluto.md): radius of 0.01 cm, distance of 590 m→:::←[Alpha Centauri](../../../../general/Alpha%20Centauri.md): distance of 4400 km (4.4 ly; Kabul, Afghanistan or Siberia, Russia) <!--SR:!2024-10-01,61,250!2024-10-24,79,286-->
 - [Alpha Centauri](../../../../general/Alpha%20Centauri.md): distance of 4400 km (4.4 ly; Kabul, Afghanistan or Siberia, Russia)→:::←[Milky Way](../../../../general/Milky%20Way.md): radius of 0.5 AU (half of the unscaled distance between the Sun and Earth) <!--SR:!2024-11-03,92,298!2024-09-02,49,298-->
 - [Milky Way](../../../../general/Milky%20Way.md): radius of 0.5 AU (half of the unscaled distance between the Sun and Earth)→:::←_(end)_ <!--SR:!2024-09-14,62,318!2024-09-15,61,310-->
@@ -102,6 +102,6 @@ return await memorize_seq(
 
 - _(begin)_→:::←[Alpha Centauri](../../../../general/Alpha%20Centauri.md): distance of 4 mm (4.4 ly) <!--SR:!2024-09-11,52,306!2024-10-03,74,326-->
 - [Alpha Centauri](../../../../general/Alpha%20Centauri.md): distance of 4 mm (4.4 ly)→:::←[Milky Way](../../../../general/Milky%20Way.md): radius of 75 m (size of a soccer field) <!--SR:!2024-10-09,80,326!2024-09-25,66,310-->
-- [Milky Way](../../../../general/Milky%20Way.md): radius of 75 m (size of a soccer field)→:::←_(end)_ <!--SR:!2024-09-27,68,318!2024-08-08,18,270-->
+- [Milky Way](../../../../general/Milky%20Way.md): radius of 75 m (size of a soccer field)→:::←_(end)_ <!--SR:!2024-09-27,68,318!2024-10-11,64,290-->
 
 <!--/pytextgen-->

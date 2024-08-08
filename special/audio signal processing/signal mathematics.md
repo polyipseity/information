@@ -27,7 +27,7 @@ tags:
 >   - $k$ is {{angular wavenumber or angular spatial frequency}}.
 >   - $\omega$ is {{angular frequency, which equals 2 pi times normal (linear) frequency $\omega = 2\pi f$}}.
 >   - $\phi$ is {{initial phase offset}}.
->   - $D$ is {{equilibrium offset}}. <!--SR:!2024-08-08,12,270!2024-08-09,13,290!2024-08-11,15,290!2024-08-12,16,290!2024-08-09,13,290!2024-08-10,14,290!2024-08-12,16,290-->
+>   - $D$ is {{equilibrium offset}}. <!--SR:!2024-09-21,44,290!2024-08-09,13,290!2024-08-11,15,290!2024-08-12,16,290!2024-08-09,13,290!2024-08-10,14,290!2024-08-12,16,290-->
 
 In signal processing, apart from analog signals (continuous signals), we also deal with {{digital signals (discrete signals)}}. In that case, usually {{the time is discretized}}. So the equation becomes: <!--SR:!2024-08-11,15,290!2024-08-12,16,290-->
 
@@ -42,7 +42,7 @@ In signal processing, apart from analog signals (continuous signals), we also de
 >   - $k$ is {{angular wavenumber or angular spatial frequency}}.
 >   - $\omega$ is {{angular frequency, which equals 2 pi times normal (linear) frequency $\omega = 2\pi f$}}.
 >   - $\phi$ is {{initial phase offset}}.
->   - $D$ is {{equilibrium offset}}. <!--SR:!2024-08-10,14,290!2024-08-13,17,290!2024-08-13,17,290!2024-08-09,13,290!2024-08-13,17,290!2024-08-10,14,290!2024-08-09,13,290!2024-08-08,12,270-->
+>   - $D$ is {{equilibrium offset}}. <!--SR:!2024-08-10,14,290!2024-08-13,17,290!2024-08-13,17,290!2024-08-09,13,290!2024-08-13,17,290!2024-08-10,14,290!2024-08-09,13,290!2024-09-20,43,290-->
 
 For the two equations above, we will ignore {{the $kx$ term and the $\pm$ operator as we care about time more}}. <!--SR:!2024-08-13,17,290-->
 
@@ -70,7 +70,7 @@ We can {{convert}} in between rectangular form and polar form. From rectangular 
 
 - see: [general/Euler's formula](../../general/Euler's%20formula.md)
 
-[Euler's formula](../../general/Euler's%20formula.md) is: {{$$e^{j\varphi} = \cos \varphi + j \sin \varphi$$, where $\varphi$ is a [complex number](#complex%20number)}}. The above implies alternative formulas for {{$\sin$ and $\cos$}}: {{$$\begin{aligned} \cos \varphi & = \frac {e^{j\varphi} + e^{-j\varphi} } 2 \\ \sin \varphi & = \frac {e^{j\varphi} - e^{-j\varphi} } {2j} \end{aligned}$$}}. <!--SR:!2024-08-12,16,290!2024-08-11,15,290!2024-08-08,12,270-->
+[Euler's formula](../../general/Euler's%20formula.md) is: {{$$e^{j\varphi} = \cos \varphi + j \sin \varphi$$, where $\varphi$ is a [complex number](#complex%20number)}}. The above implies alternative formulas for {{$\sin$ and $\cos$}}: {{$$\begin{aligned} \cos \varphi & = \frac {e^{j\varphi} + e^{-j\varphi} } 2 \\ \sin \varphi & = \frac {e^{j\varphi} - e^{-j\varphi} } {2j} \end{aligned}$$}}. <!--SR:!2024-08-12,16,290!2024-08-11,15,290!2024-09-26,49,290-->
 
 Using Euler's formula, we can express waves {{using exponentiation instead}}. For example, the discrete sine wave {{$$f[x](n) = A \cos(kx \pm \omega T n + \phi) + D$$}} can also be expressed as {{$$f[x](n) = \operatorname{Re}\left(A e^{j(kx \pm \omega Tn + \phi)}\right) + D = \operatorname{Re}\left(A e^{j \phi} e^{j(kx \pm \omega Tn)}\right) + D = \operatorname{Re}\left(X e^{j(kx \pm \omega Tn)} \right) + D \qquad X := A e^{j \phi}$$}}. The latter expression has the advantage that {{exponentiation is much easier to manipulate than trigonometric functions}}. <!--SR:!2024-08-10,4,301!2024-08-10,4,301!2024-08-10,4,301!2024-08-10,4,301-->
 

@@ -39,7 +39,7 @@ return (
 )
 ```
 
-Loads can be specified in {{3}} ways: {{point load (load at a point) in kN, line load (load over a line) in kN/m, and distributed load (load over an area) in kN/m<sup>2</sup>}}. <!--SR:!2025-02-20,214,330!2024-08-08,66,320-->
+Loads can be specified in {{3}} ways: {{point load (load at a point) in kN, line load (load over a line) in kN/m, and distributed load (load over an area) in kN/m<sup>2</sup>}}. <!--SR:!2025-02-20,214,330!2025-05-25,290,340-->
 
 Loads on civil engineering can be separated into {{<!--pytextgen generate section="28ba"--><!-- The following content is generated at 2024-05-14T01:02:39.496907+08:00. Any edits will be overridden! -->4<!--/pytextgen-->}} main categories. <!--SR:!2025-02-17,205,310-->
 
@@ -59,7 +59,7 @@ Loads on civil engineering can be separated into {{<!--pytextgen generate sectio
 - [dead load](#dead%20load)→:::←[environmental load](#environmental%20load) <!--SR:!2025-01-15,171,310!2024-10-21,106,290-->
 - [environmental load](#environmental%20load)→:::←[live load](#live%20load) <!--SR:!2024-09-24,83,270!2024-08-16,72,328-->
 - [live load](#live%20load)→:::←[load combinations](#load%20combinations) <!--SR:!2025-01-20,186,320!2025-01-31,196,310-->
-- [load combinations](#load%20combinations)→:::←[other loads](#other%20loads) <!--SR:!2024-11-20,127,290!2024-08-08,65,320-->
+- [load combinations](#load%20combinations)→:::←[other loads](#other%20loads) <!--SR:!2024-11-20,127,290!2025-03-03,207,320-->
 - [other loads](#other%20loads)→:::←_(end)_ <!--SR:!2024-08-20,75,320!2025-03-27,236,320-->
 
 <!--/pytextgen-->
@@ -138,7 +138,7 @@ The consequences are {{partial or complete collapse of structural elements or en
 
 Thermal load refers to load {{caused by [temperature](temperature.md) changes leading to [thermal expansion](thermal%20expansion.md) (contraction) of structural and non-structural members}}. <!--SR:!2024-12-24,156,308-->
 
-For example, {{a beam in between two fixed support creates thermal load under heating as the beam expands}}. A solution would be {{making the beam a simply supported beam instead, with one side a pinned support and the other side a roller support}}. Then when thermal expansion occurs, {{the beam can expand in the direction of the roller support, relieving the thermal load}}. <!--SR:!2025-01-13,165,308!2024-08-12,68,310!2024-08-08,66,320-->
+For example, {{a beam in between two fixed support creates thermal load under heating as the beam expands}}. A solution would be {{making the beam a simply supported beam instead, with one side a pinned support and the other side a roller support}}. Then when thermal expansion occurs, {{the beam can expand in the direction of the roller support, relieving the thermal load}}. <!--SR:!2025-01-13,165,308!2024-08-12,68,310!2025-05-26,291,340-->
 
 #### wind load
 

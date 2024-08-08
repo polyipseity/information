@@ -26,7 +26,7 @@ Depending on the 2 factors of {{meeting the same customer needs and possessing t
 3. potential competitor ::: not meeting the same customer needs but possessing the same capabilities to do so <!--SR:!2024-10-30,126,301!2025-05-12,282,341-->
 4. non-competitor ::: not meeting the same customer needs and not possessing the same capabilities to do so <!--SR:!2025-04-23,265,341!2024-08-11,69,321-->
 
-Direct competitors are not {{necessarily more important than indirect or potential competitors, and instead it depends on the market}}. <!--SR:!2024-08-08,68,314-->
+Direct competitors are not {{necessarily more important than indirect or potential competitors, and instead it depends on the market}}. <!--SR:!2025-03-09,213,314-->
 
 > [!example] examples
 >
@@ -71,10 +71,10 @@ why: Why are people using competitors' products?
 
 - _(begin)_→:::←compare: Identify similarities and differences between our and their products. <!--SR:!2024-09-04,43,241!2025-04-15,260,334-->
 - compare: Identify similarities and differences between our and their products.→:::←copy: Identify advantages and capabilities our products lack compared to others. <!--SR:!2024-08-25,70,274!2024-08-29,72,281-->
-- copy: Identify advantages and capabilities our products lack compared to others.→:::←discover: Identify unmet needs. <!--SR:!2024-08-08,10,221!2024-09-10,70,241-->
+- copy: Identify advantages and capabilities our products lack compared to others.→:::←discover: Identify unmet needs. <!--SR:!2024-08-30,22,221!2024-09-10,70,241-->
 - discover: Identify unmet needs.→:::←how: What is our strategy? <!--SR:!2024-08-19,27,201!2024-08-16,15,241-->
-- how: What is our strategy?→:::←pricing: Compare prices. <!--SR:!2024-08-08,3,161!2024-08-12,22,241-->
-- pricing: Compare prices.→:::←who: Who are the competitors? 3 to 5 is usually enough. <!--SR:!2024-08-08,20,241!2024-08-18,61,261-->
+- how: What is our strategy?→:::←pricing: Compare prices. <!--SR:!2024-08-10,2,141!2024-08-12,22,241-->
+- pricing: Compare prices.→:::←who: Who are the competitors? 3 to 5 is usually enough. <!--SR:!2024-09-27,50,241!2024-08-18,61,261-->
 - who: Who are the competitors? 3 to 5 is usually enough.→:::←why: Why are people using competitors' products? <!--SR:!2024-10-13,103,281!2024-09-15,73,241-->
 - why: Why are people using competitors' products?→:::←_(end)_ <!--SR:!2024-08-10,68,321!2024-09-16,83,281-->
 
@@ -116,7 +116,7 @@ pricing: Find suitable prices catering to different market segment and economies
 - differentiate: Differentiate our products to make it a hit with customers.→:::←discover: Find holes in existing products. <!--SR:!2024-08-15,55,281!2024-08-13,70,321-->
 - discover: Find holes in existing products.→:::←know ourselves: See if our products are sticky. <!--SR:!2024-08-28,59,221!2024-08-10,20,241-->
 - know ourselves: See if our products are sticky.→:::←know them: See how big of a threat competitors pose. <!--SR:!2024-12-30,156,301!2025-02-15,196,314-->
-- know them: See how big of a threat competitors pose.→:::←pricing: Find suitable prices catering to different market segment and economies. <!--SR:!2024-08-16,8,221!2024-08-08,54,261-->
+- know them: See how big of a threat competitors pose.→:::←pricing: Find suitable prices catering to different market segment and economies. <!--SR:!2024-08-16,8,221!2024-12-26,140,261-->
 - pricing: Find suitable prices catering to different market segment and economies.→:::←_(end)_ <!--SR:!2025-04-24,264,341!2024-08-13,65,281-->
 
 <!--/pytextgen-->
@@ -171,10 +171,10 @@ number of features
 - benefit→:::←quality <!--SR:!2024-08-17,67,274!2024-11-24,134,301-->
 - quality→:::←durability <!--SR:!2024-08-20,19,181!2024-08-29,30,301-->
 - durability→:::←service <!--SR:!2024-12-24,150,301!2024-08-11,28,241-->
-- service→:::←convenience <!--SR:!2024-08-08,18,221!2024-08-08,56,301-->
+- service→:::←convenience <!--SR:!2024-08-19,11,201!2024-09-04,27,281-->
 - convenience→:::←ease of use <!--SR:!2024-10-26,103,261!2025-01-10,172,314-->
 - ease of use→:::←number of features <!--SR:!2024-09-16,51,261!2024-09-08,47,254-->
-- number of features→:::←_(least important)_ <!--SR:!2024-08-08,69,314!2024-08-15,72,321-->
+- number of features→:::←_(least important)_ <!--SR:!2025-06-03,299,334!2024-08-15,72,321-->
 
 <!--/pytextgen-->
 

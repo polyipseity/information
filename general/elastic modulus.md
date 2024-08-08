@@ -17,7 +17,7 @@ An __elastic modulus__ (also known as {{__modulus of elasticity__}}) is {{a meas
 
 ## definition
 
-An elastic modulus has the form: {{$$\delta \overset {\text{def} } = \frac {\text{stress} } {\text{strain} }$$}}. <!--SR:!2024-08-08,63,310-->
+An elastic modulus has the form: {{$$\delta \overset {\text{def} } = \frac {\text{stress} } {\text{strain} }$$}}. <!--SR:!2025-05-04,269,330-->
 
 ## types of elastic modulus
 
