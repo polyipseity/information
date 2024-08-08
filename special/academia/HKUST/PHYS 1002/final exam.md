@@ -1,0 +1,30 @@
+---
+aliases:
+  - HKUST PHYS 1002 final exam
+  - HKUST PHYS 1002 final exams
+  - HKUST PHYS1002 final exam
+  - HKUST PHYS1002 final exams
+  - PHYS 1002 final exam
+  - PHYS 1002 final exams
+  - PHYS1002 final exam
+  - PHYS1002 final exams
+tags:
+  - flashcard/special/academia/HKUST/PHYS_1002/final_exam
+  - language/in/English
+---
+
+# final exam
+
+- HKUST PHYS 1002
+
+## format
+
+- time limit: 3 hours
+- contents: ?/100 marks, scaled to 50 marks
+  - multiple choice questions: ?/70 marks, 56 questions
+    - multiple choice questions 1: ?/42 marks, 42 questions, 1 mark each
+    - multiple choice questions 2: ?/28 marks, 14 questions, 2 marks each
+  - short questions: ?/30 marks, 3 questions, 10 mark each
+    - short question 1: ?/10 marks, 1 sub-question, sidereal and solar day
+    - short question 2: ?/10 marks, 5 sub-questions, Doppler shift
+    - short question 3: ?/10 marks, 3 sub-questions, Cepheid variable
