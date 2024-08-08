@@ -469,7 +469,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 
 <!-- markdownlint MD028 -->
 
-> Q2. (derived) What is th Schwarzschild radius of the observable universe? There are 10<sup>53</sup> kg of ordinary (baryonic) matter in the observable universe. Ignore non-baryonic matter.
+> Q2. (derived) What is the Schwarzschild radius of the observable universe? There are 10<sup>53</sup> kg of ordinary (baryonic) matter in the observable universe. Ignore non-baryonic matter.
 >
 > 1. 1.57×10<sup>11</sup> ly
 > 2. 1.57×10<sup>14</sup> ly

@@ -43,6 +43,7 @@ _names_map_manual = {
     "Latin": "Latin",
     "Polaris": "Polaris",
     "Squared Euclidean distance": "squared Euclidean distance",
+    "Super soft X-ray source": "super soft X-ray source",
     "X-ray": "X-ray",
 }
 if _names_map_overlap := frozenset(_names_map).intersection(_names_map_manual):

@@ -45,6 +45,54 @@ __Eq.2__ is {{also $N$-periodic (in index $n$)}}. In __Eq.2__, each $X_k$ is {{a
 
 ## properties
 
+### linearity
+
+The DFT is {{a linear transform}}, i.e. if {{${\mathcal {F} }(\{x_{n}\})_{k}=X_{k}$ and ${\mathcal {F} }(\{y_{n}\})_{k}=Y_{k}$}}, then {{for any complex numbers $a,b$: $${\mathcal {F} }(\{ax_{n}+by_{n}\})_{k}=aX_{k}+bY_{k}$$}}.
+
+### time and frequency reversal
+
+Reversing the time (i.e. {{replacing $n$ by $N-n$}}) in $x_{n}$ corresponds to {{reversing the frequency (i.e. $k$ by $N-k$)}}. Mathematically, if $\{x_{n}\}$ represents the vector __x__ then {{$${\mathcal {F} }(\{x_{n}\})_{k}=X_{k} \implies {\mathcal {F} }(\{x_{N-n}\})_{k}=X_{N-k}$$}}.
+
+### conjugation in time
+
+Mathematically: {{$${\mathcal {F} }(\{x_{n}\})_{k}=X_{k} \implies {\mathcal {F} }(\{x_{n}^{*}\})_{k}=X_{N-k}^{*}$$}}.
+
+### real and imaginary part
+
+This table shows {{some mathematical operations on $x_{n}$ in the time domain and the corresponding effects on its DFT $X_{k}$ in the frequency domain}}.
+
+property | time domain $x_{n}$ | frequency domain $X_{k}$
+-|-|-
+real part in time | $$\operatorname {Re} {\left(x_{n}\right)}$$ | $${\frac {1}{2} }\left(X_{k}+X_{N-k}^{*}\right)$$
+imaginary part in time | $$\operatorname {Im} {\left(x_{n}\right)}$$ | $${\frac {1}{2i} }\left(X_{k}-X_{N-k}^{*}\right)$$
+real part in frequency | $${\frac {1}{2} }\left(x_{n}+x_{N-n}^{*}\right)$$ | $$\operatorname {Re} {\left(X_{k}\right)}$$
+imaginary part in frequency | $${\frac {1}{2i} }\left(x_{n}-x_{N-n}^{*}\right)$$ | $$\operatorname {Im} {\left(X_{k}\right)}$$
+
+- real part in time ::: frequency: $$\frac 1 2 (X_k + X^*_{N - k})$$
+- imaginary part in time ::: frequency: $$\frac 1 {2i} (X_k + X^*_{N - k})$$
+- real part in frequency ::: time: $$\frac 1 2 (x_n + x^*_{N - n})$$
+- imaginary part in frequency ::: time: $$\frac 1 {2i} (x_n - x^*_{N - n})$$
+
+### orthogonality
+
+The vectors {{$u_{k}=\left[\left.e^{ {\frac {i2\pi }{N} }kn}\;\right|\;n=0,1,\ldots ,N-1\right]^{\mathsf {T} }$}} form {{an [orthogonal basis](orthogonal%20basis.md) over the set of _N_-dimensional complex vectors}}: {{$$u_{k}^{\mathsf {T} }u_{k'}^{*}=\sum _{n=0}^{N-1}\left(e^{ {\frac {i2\pi }{N} }kn}\right)\left(e^{ {\frac {i2\pi }{N} }(-k')n}\right)=\sum _{n=0}^{N-1}e^{ {\frac {i2\pi }{N} }(k-k')n}=N~\delta _{kk'}$$}} where {{$\delta _{kk'}$ is the [Kronecker delta](kronecker%20delta.md)}}. (In the last step, {{the summation is trivial if $k=k'$, where it is 1 + 1 + ⋯ = _N_}}, and {{otherwise is a [geometric series](geometric%20series.md) that can be explicitly summed to obtain zero}}.) This orthogonality condition can be used to {{derive the formula for the IDFT from the definition of the DFT}}, and is {{equivalent to the unitarity property below}}.
+
+### The Plancherel theorem and Parseval's theorem
+
+If {{$X_{k}$ and $Y_{k}$ are the DFTs of $x_{n}$ and $y_{n}$ respectively}} then {{[Parseval's theorem](parseval's%20theorem.md)}} states: {{$$\sum _{n=0}^{N-1}x_{n}y_{n}^{*}={\frac {1}{N} }\sum _{k=0}^{N-1}X_{k}Y_{k}^{*}$$}} where the star denotes [complex conjugation](complex%20conjugate.md). {{The [Plancherel theorem](plancherel%20theorem.md)}} is {{a special case of Parseval's theorem}} and states: {{$$\sum _{n=0}^{N-1}|x_{n}|^{2}={\frac {1}{N} }\sum _{k=0}^{N-1}|X_{k}|^{2}$$}}.
+
+These theorems are {{also equivalent to the unitary condition below}}.
+
+### periodicity
+
+The periodicity can be {{shown directly from the definition}}: {{$$X_{k+N}\ \triangleq \ \sum _{n=0}^{N-1}x_{n}e^{-{\frac {i2\pi }{N} }(k+N)n}=\sum _{n=0}^{N-1}x_{n}e^{-{\frac {i2\pi }{N} }kn}\underbrace {e^{-i2\pi n} } _{1}=\sum _{n=0}^{N-1}x_{n}e^{-{\frac {i2\pi }{N} }kn}=X_{k}$$}}.
+
+Similarly, it can be {{shown that the IDFT formula leads to a periodic extension}}.
+
+### shift theorem
+
+Multiplying {{$x_{n}$ by a _linear phase_ $e^{ {\frac {i2\pi }{N} }nm}$ for some integer _m_}} corresponds to {{a _circular shift_ of the output $X_{k}$: $X_{k}$ is replaced by $X_{k-m}$ (shifted to the right, with warping, by _m_)}}, where {{the subscript is interpreted [modulo](modular%20arithmetic.md) _N_ (i.e., periodically)}}. Similarly, {{a circular shift of the input $x_{n}$ (e.g. shifted to the right, with warping, by _m_) corresponds to multiplying the output $X_{k}$ by a linear phase (with an opposite exponent sign, e.g. $e^{-\frac {i 2\pi} N km}$)}}. Mathematically, if $\{x_{n}\}$ represents the vector __x__ then {{$$\begin{aligned} {\mathcal {F} }(\{x_{n}\})_{k}=X_{k} & \implies {\mathcal {F} }\left(\left\{x_{n}\cdot e^{ {\frac {i2\pi }{N} }nm}\right\}\right)_{k}=X_{k-m} \\ \cdots & \implies {\mathcal {F} }\left(\left\{x_{n-m}\right\}\right)_{k}=X_{k}\cdot e^{-{\frac {i2\pi }{N} }km} \end{aligned}$$}}.
+
 ### expressing the inverse DFT in terms of the DFT
 
 A useful property of the DFT is that {{the inverse DFT can be easily expressed in terms of the (forward) DFT, via several well-known "tricks"}}. (For example, in {{computations}}, it is {{often convenient to only implement a fast Fourier transform corresponding to one transform direction and then to get the other transform direction from the first}}.)
@@ -55,7 +103,7 @@ Second, one can also {{conjugate the inputs and outputs}}: {{$$\mathcal F^{-1}(\
 
 Third, {{a variant of this conjugation trick}}, which is {{sometimes preferable because it requires no modification of the data values}}, involves {{swapping real and imaginary parts (which can be done on a computer simply by modifying [pointers](pointer%20(computer%20programming).md))}}. Define {{$\operatorname {swap} (x_{n})$ as $x_{n}$ with its real and imaginary parts swapped—that is, if $x_{n}=a+bi$ then $\operatorname {swap} (x_{n})$ is $b+ai$}}. Equivalently, {{$\operatorname {swap} (x_{n})$ equals $ix_{n}^{*}$}}. Then {{$${\mathcal {F} }^{-1}(\mathbf {x} )={\frac {1}{N} }\operatorname {swap} ({\mathcal {F} }(\operatorname {swap} (\mathbf {x} )))$$}}. That is, the inverse transform is {{the same as the forward transform with the real and imaginary parts swapped for both input and output, up to a normalization (Duhamel _et al._, 1988)}}.
 
-The conjugation trick can also be used to {{define a new transform, closely related to the DFT, that is [involutory](involution%20(mathematics).md)—that is, which is its own inverse}}. In particular, {{$T(\mathbf {x} )={\mathcal {F} }\left(\mathbf {x} ^{*}\right)/{\sqrt {N} }$ is clearly its own inverse: $T(T(\mathbf {x} ))=\mathbf {x} $}}. A closely related involutory transformation {{(by a factor of ${\frac {1+i}{\sqrt {2} }}$) is $H(\mathbf {x} )={\mathcal {F} }\left((1+i)\mathbf {x} ^{*}\right)/{\sqrt {2N} }$}}, since {{the $(1+i)$ factors in $H(H(\mathbf {x} ))$ cancel the 2}}. For {{real inputs $\mathbf {x} $}}, {{the real part of $H(\mathbf {x} )$ is none other than the [discrete Hartley transform](discrete%20Hartley%20transform.md), which is also involutory}}.
+The conjugation trick can also be used to {{define a new transform, closely related to the DFT, that is [involutory](involution%20(mathematics).md)—that is, which is its own inverse}}. In particular, {{$T(\mathbf {x} )={\mathcal {F} }\left(\mathbf {x} ^{*}\right)/{\sqrt {N} }$ is clearly its own inverse: $T(T(\mathbf {x} ))=\mathbf {x}$}}. A closely related involutory transformation {{(by a factor of ${\frac {1+i}{\sqrt {2} }}$) is $H(\mathbf {x} )={\mathcal {F} }\left((1+i)\mathbf {x} ^{*}\right)/{\sqrt {2N} }$}}, since {{the $(1+i)$ factors in $H(H(\mathbf {x} ))$ cancel the 2}}. For {{real inputs $\mathbf {x}$}}, {{the real part of $H(\mathbf {x} )$ is none other than the [discrete Hartley transform](discrete%20Hartley%20transform.md), which is also involutory}}.
 
 ## references
 
