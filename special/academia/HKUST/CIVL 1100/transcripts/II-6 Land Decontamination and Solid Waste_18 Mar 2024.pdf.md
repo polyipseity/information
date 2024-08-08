@@ -41,7 +41,7 @@ For example: Lok Ma Chau Loop or North East NT New Development Areas
 
 Soil Contamination in Kwu Tung North — Case Study (Aug 2013)
 
-- soil standard for arsenic (As) ::: 21.8 mg/kg <!--SR:!2024-09-02,59,230!2024-08-08,63,310-->
+- soil standard for arsenic (As) ::: 21.8 mg/kg <!--SR:!2024-09-02,59,230!2025-02-18,194,310-->
 
 <!-- TODO: expand -->
 

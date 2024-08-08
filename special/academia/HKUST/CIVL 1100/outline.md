@@ -43,17 +43,17 @@ The content is in teaching order.
 - [solid mechanics § types of forces](../../../../general/solid%20mechanics.md#types%20of%20forces)
 - [compression § effects](../../../../general/compression%20(physics).md#effects)
   - compression types ::: We are concerned with uniaxial compression only. <!--SR:!2024-08-18,70,330!2024-08-15,68,330-->
-  - compression examples in structures ::: arch bridge, elevated water tank, igloo (snow house) <!--SR:!2025-01-29,176,310!2024-08-07,62,330-->
+  - compression examples in structures ::: arch bridge, elevated water tank, igloo (snow house) <!--SR:!2025-01-29,176,310!2025-02-28,204,330-->
   - compression conventions ::: __negative__; arrows pointing inwards for forces applied on the object in compression <!--SR:!2024-08-19,71,330!2025-01-20,174,310-->
 - [tension § effects](../../../../general/tension%20(physics).md#effects)
   - tension types ::: We are concerned with uniaxial tension only. <!--SR:!2024-08-20,73,330!2024-08-10,63,321-->
   - tension examples in structures ::: cable, hanging column, rope, swing, tie <!--SR:!2024-08-15,56,270!2024-12-29,171,330-->
   - tension conventions ::: __positive__; arrows pointing outwards for forces applied on the object in tension <!--SR:!2024-09-15,70,310!2024-12-02,134,310-->
-- [reaction](../../../../general/reaction%20(physics).md) of compression and tension ::: Note that when another object exerts compression/tension on an object, the object applies an opposing pushing/pulling (reaction) force on the other object. <!--SR:!2024-08-08,59,310!2024-12-03,149,321-->
+- [reaction](../../../../general/reaction%20(physics).md) of compression and tension ::: Note that when another object exerts compression/tension on an object, the object applies an opposing pushing/pulling (reaction) force on the other object. <!--SR:!2025-04-10,245,330!2024-12-03,149,321-->
 - [Hooke's law § linear springs](../../../../general/Hooke's%20law.md#linear%20springs)
 - stress and strain
   - strength of an object ::: Under compression or tension, objects deform. But it can differ in severity. "Strong", "hard", or "rigid" materials deform less while "weak", "soft", or "flexible" materials deform more. <!--SR:!2025-03-11,220,321!2024-08-18,70,321-->
-    - "strong" object examples ::: table leg <!--SR:!2024-08-23,74,330!2024-08-07,62,330-->
+    - "strong" object examples ::: table leg <!--SR:!2024-08-23,74,330!2025-05-12,277,350-->
     - "weak" object examples ::: mattress <!--SR:!2024-08-15,68,330!2024-08-22,73,321-->
   - relative deformation ::: Amount of deformation also depends on the original length of the object. <!--SR:!2024-10-10,95,330!2025-03-03,218,330-->
     - relative deformation examples ::: Compare deforming a thin mattress and a thick mattress. <!--SR:!2025-01-24,187,330!2024-08-21,73,330-->
@@ -83,7 +83,7 @@ The content is in teaching order.
 - [torsion](../../../../general/torsion%20(mechanics).md) ::: twisting of an object <!--SR:!2024-08-17,69,330!2024-08-20,72,330-->
   - torsion deformation ::: The object is likely to return to its original shape when torsion forces are removed. <!--SR:!2024-08-09,64,330!2024-08-25,76,330-->
   - torsion examples ::: drill pipes, power transmission shafts, tall buildings <!--SR:!2024-10-12,106,310!2025-02-19,207,330-->
-- [shear](../../../../general/shear%20force.md) ::: created by forces not acting on the same line; think of a rectangle being "parallelogramized" by 2 forces facing opposite directions <!--SR:!2024-08-27,78,330!2024-08-08,63,330-->
+- [shear](../../../../general/shear%20force.md) ::: created by forces not acting on the same line; think of a rectangle being "parallelogramized" by 2 forces facing opposite directions <!--SR:!2024-08-27,78,330!2025-05-20,285,350-->
   - shear examples ::: shear damage of road surface due to braking of heavy vehicles or fast running rainwater <!--SR:!2024-12-16,148,310!2024-08-12,66,330-->
 - [structural support](../../../../general/structural%20support.md) ::: fixed support, pinned support, roller support <!--SR:!2024-11-08,120,310!2024-08-12,66,330-->
   - [§ roller support](../../../../general/structural%20support.md#roller%20support)

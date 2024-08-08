@@ -11,7 +11,7 @@ tags:
 
 ## red ocean vs. blue ocean
 
-Red ocean is about {{competing in existing market space and exploiting existing demand}}. {{Either differentiation or low cost}} can be satisfied. <!--SR:!2024-08-07,43,290!2024-08-09,45,290-->
+Red ocean is about {{competing in existing market space and exploiting existing demand}}. {{Either differentiation or low cost}} can be satisfied. <!--SR:!2024-12-12,126,290!2024-08-09,45,290-->
 
 Blue ocean is about {{creating uncontested market space and capturing new demand}}. {{Both differentiation and low cost, i.e. value innovation}}, can be satisfied simultaneously. Value innovation can be represented by {{2 triangles pointing towards each other, with the 2 triangle tips overlapping in the middle}}. The upper triangle represents {{cost reduction while the lower triangle represents value creation}}, with the overlap {{representing satisfying both at the same time, hence value creation}}. <!--SR:!2024-08-18,56,310!2024-08-13,48,290!2024-09-24,79,324!2024-09-21,76,324!2024-09-19,74,324-->
 
@@ -37,6 +37,6 @@ To look for non-customers, we can {{separate the non-customers into 3 tiers: soo
 
 In the 3rd step, create "gap", the goal is to {{create your new strategic move}}. You should use {{6 paths to reconstruct and create a new business model using ERRC}}. <!--SR:!2024-09-19,74,324!2024-09-18,73,324-->
 
-The 6 paths to reconstruct market boundaries are {{considering alternative industries, considering strategic groups in the current industry, finding buyers across the value chain or redefining buyers, considering complementary offerings, functional-emotional reorientation, and participating in industry trends}}. <!--SR:!2024-08-07,17,244-->
+The 6 paths to reconstruct market boundaries are {{considering alternative industries, considering strategic groups in the current industry, finding buyers across the value chain or redefining buyers, considering complementary offerings, functional-emotional reorientation, and participating in industry trends}}. <!--SR:!2024-09-16,39,244-->
 
 To create a new business model, use {{eliminate, reduce, raise, and create (ERRC)}}. These are the 4 actions one can take. After writing the things to be ERRC-ed, {{go back to the capture strategy canvas in [§ understand "as-is"](#understand%20"as-is")}}. Plot {{the features of your new business model}}. Note that {{eliminated features should be 0 for the new business model, and created features are added to the canvas and are 0 for existing business models}}. If possible, {{order the features in the order of eliminated, reduced, raised, and then created features}}. <!--SR:!2024-09-21,76,324!2024-09-18,73,324!2024-08-24,55,304!2024-09-22,77,324!2024-09-23,78,324-->

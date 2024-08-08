@@ -320,7 +320,7 @@ Example quiz questions for preparing exams.
 > 3. The soil underneath is too soft
 > 4. The wind loading is too high
 >
-> - solution: {{3}} <!--SR:!2024-08-08,61,312-->
+> - solution: {{3}} <!--SR:!2025-04-27,262,332-->
 
 <!-- markdownlint MD028 -->
 

@@ -98,8 +98,8 @@ return await memorize_seq(
 
 <!--pytextgen generate section="a92d"--><!-- The following content is generated at 2024-06-09T06:29:24.057662+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←(Cap. 311) Air Pollution Control Ordinance <!--SR:!2024-08-07,17,255!2024-09-29,84,355-->
-- (Cap. 311) Air Pollution Control Ordinance→:::←(Cap. 354) Waste Disposal Ordinance <!--SR:!2024-08-28,31,275!2024-08-08,11,295-->
+- _(begin)_→:::←(Cap. 311) Air Pollution Control Ordinance <!--SR:!2024-09-18,41,255!2024-09-29,84,355-->
+- (Cap. 311) Air Pollution Control Ordinance→:::←(Cap. 354) Waste Disposal Ordinance <!--SR:!2024-08-28,31,275!2024-08-13,5,275-->
 - (Cap. 354) Waste Disposal Ordinance→:::←(Cap. 358) Water Pollution Control Ordinance <!--SR:!2024-09-08,55,295!2024-08-12,27,315-->
 - (Cap. 358) Water Pollution Control Ordinance→:::←(Cap. 400) Noise Pollution Control Ordinance <!--SR:!2024-08-21,36,275!2024-08-13,7,255-->
 - (Cap. 400) Noise Pollution Control Ordinance→:::←(Cap. 499) Environmental Impact Ordinance <!--SR:!2024-09-10,50,295!2024-08-15,44,315-->
@@ -201,7 +201,7 @@ Sustainable Waste Management
 - 3Rs ::: (highest priority) reduce, reuse, recycle (lowest priority) <!--SR:!2024-08-21,73,310!2024-08-15,67,310-->
   - reduce ::: reduce the amount of solid waste generation <!--SR:!2025-03-24,235,330!2025-04-21,258,330-->
   - reuse ::: multiple uses of an item in its original form with or without reconditioning <!--SR:!2025-01-12,168,310!2025-01-05,161,310-->
-  - recycle ::: materials are collected and recovered to be used as raw material <!--SR:!2024-11-14,121,290!2024-08-07,60,310-->
+  - recycle ::: materials are collected and recovered to be used as raw material <!--SR:!2024-11-14,121,290!2025-04-17,252,330-->
     - recycle example ::: plastic bottle (PET or HDPE) -> chips -> fiber -> T-shirt or bag <!--SR:!2024-12-11,141,290!2025-03-26,235,330-->
 
 ## page 13
@@ -227,7 +227,7 @@ Will this waste charging scheme waste generation?
 Environmental Levy Scheme (Plastic Shopping Bags)
 
 - Environmental Levy Scheme ::: scheme to reduce plastic shopping bags <!--SR:!2025-03-28,239,330!2024-08-13,65,310-->
-  - Environmental Levy Scheme launch time ::: launched in 2009 <!--SR:!2024-10-05,83,290!2024-08-08,61,310-->
+  - Environmental Levy Scheme launch time ::: launched in 2009 <!--SR:!2024-10-05,83,290!2025-04-21,256,330-->
   - Environmental Levy Scheme coverage ::: 40 registered retailers with ~3100 retail outlets <!--SR:!2024-09-28,85,270!2024-12-16,146,310-->
   - Environmental Levy Scheme effect ::: -90% from registered retailers after 1 year. -25% in overall plastic bag consumption after covering all retail shops in 2015 <!--SR:!2024-09-05,68,270!2024-12-27,150,290-->
   - Environmental Levy Scheme income ::: HK$25.5 million in 2009 <!--SR:!2024-09-06,71,270!2024-11-08,115,290-->
@@ -242,7 +242,7 @@ Water Pollution: A serious problem in Hong Kong?
 
 Hong Kong Harbour Area Treatment Scheme Stage I (HATS)
 
-- Hong Kong Harbour Area Treatment Scheme Stage I ::: HATS Stage 1 <!--SR:!2025-03-26,237,330!2024-08-07,61,310-->
+- Hong Kong Harbour Area Treatment Scheme Stage I ::: HATS Stage 1 <!--SR:!2025-03-26,237,330!2025-04-16,251,330-->
   - HATS Stage 1 scheme period ::: 1994 to 2001 <!--SR:!2024-11-10,117,290!2024-08-24,34,250-->
   - HATS Stage 1 scheme cost ::: HK$8.2 billion <!--SR:!2024-10-20,101,290!2024-10-01,85,270-->
   - HATS Stage 1 details ::: Stonecutters Island Sewage Treatment Works (SCISTW), sewage tunnel of 23.6 km, upgrade 8 preliminary treatment works (PTWs) <!--SR:!2024-10-10,93,270!2025-02-01,181,310-->
@@ -255,7 +255,7 @@ Hong Kong Harbour Area Treatment Scheme Stage I (HATS)
 HATS Stage 2 Overview
 
 - Hong Kong Harbour Area Treatment Scheme Stage II ::: HATS Stage 2 <!--SR:!2025-04-09,248,330!2024-08-11,64,310-->
-  - HATS Stage 2 phases ::: 2 phases, stage 2A and stage 2B <!--SR:!2024-08-07,60,310!2024-08-09,63,310-->
+  - HATS Stage 2 phases ::: 2 phases, stage 2A and stage 2B <!--SR:!2025-04-12,247,330!2024-08-09,63,310-->
   - HATS Stage 2A ::: collect and treat the remaining 25% sewage from north and south-western Hong Kong Island and future development, and provide disinfection <!--SR:!2024-08-21,65,270!2024-10-10,97,290-->
   - HATS Stage 2B ::: biological treatment <!--SR:!2025-01-29,186,310!2025-01-07,163,310-->
 
@@ -281,7 +281,7 @@ Sewage Conveyance System
 
 Clean Victoria Harbor
 
-- HATS result ::: clean Victoria Harbor <!--SR:!2024-08-07,60,310!2025-03-20,233,330-->
+- HATS result ::: clean Victoria Harbor <!--SR:!2025-02-04,180,310!2025-03-20,233,330-->
   - HATS result example ::: On 2017-10-29, 3000 swimmers participate in a previously-discontinued annual cross-harbor race. The race continues to be held. <!--SR:!2024-08-16,52,250!2025-03-28,237,330-->
 
 ## page 23
@@ -295,15 +295,15 @@ Noise Pollution: A serious problem in Hong Kong?
 Noise Levels and Causes
 
 - noise level measure ::: sound pressure level, in dB(A) <!--SR:!2024-12-20,159,310!2025-04-01,243,330-->
-  - airplane passing ::: 120 dB(A) <!--SR:!2024-08-08,62,310!2024-08-09,63,310-->
+  - airplane passing ::: 120 dB(A) <!--SR:!2025-02-17,193,310!2024-08-09,63,310-->
   - construction site ::: 110 dB(A) <!--SR:!2024-10-20,103,290!2024-08-19,71,310-->
   - concert ::: 100 dB(A) <!--SR:!2024-08-16,68,310!2024-08-15,68,310-->
   - drilling ::: 90 dB(A) <!--SR:!2025-01-31,187,310!2024-08-27,63,270-->
   - train passing ::: 80 dB(A) <!--SR:!2024-08-11,64,310!2025-02-05,184,310-->
-  - highway (harm threshold) ::: 70 dB(A) <!--SR:!2024-08-08,62,310!2024-12-02,132,290-->
+  - highway (harm threshold) ::: 70 dB(A) <!--SR:!2025-02-16,192,310!2024-12-02,132,290-->
   - home with TV on ::: 60 dB(A) <!--SR:!2025-01-21,184,310!2025-01-05,168,310-->
   - library ::: 40 dB(A) <!--SR:!2024-08-10,64,310!2024-12-23,148,310-->
-  - park ::: 30 dB(A) <!--SR:!2024-08-08,61,310!2025-02-25,212,330-->
+  - park ::: 30 dB(A) <!--SR:!2025-04-23,258,330!2025-02-25,212,330-->
 
 ## page 25
 
@@ -328,7 +328,7 @@ Air Pollution: A serious problem in Hong Kong?
 
 Air Quality Health Index
 
-- Air Quality Health Index ::: AQHI <!--SR:!2024-08-08,61,310!2024-08-16,68,310-->
+- Air Quality Health Index ::: AQHI <!--SR:!2025-02-12,188,310!2024-08-16,68,310-->
   - AQHI history ::: AQHI has replaced the Air Pollution Index (API) since 2013-12-30. <!--SR:!2024-08-28,64,270!2024-08-10,63,310-->
   - AQHI scale ::: 1 to 10 and 10+, grouped into 5 health risk categories <!--SR:!2025-03-24,233,330!2025-03-11,226,330-->
   - AQHI health risk categories ::: low (green): 1~3, moderate (yellow): 4~6, high (red): 7, very high (brown): 8~10, serious (black): 10+ <!--SR:!2024-08-10,64,310!2025-03-13,228,330-->
@@ -337,14 +337,14 @@ Air Quality Health Index
 
 FORECAST of Health Risk
 
-- AQHI calculation ::: 3-hour moving average concentrations of 4 air pollutants <!--SR:!2024-08-07,60,310!2024-08-13,66,310-->
+- AQHI calculation ::: 3-hour moving average concentrations of 4 air pollutants <!--SR:!2025-02-08,184,310!2024-08-13,66,310-->
   - AQHI calculation main pollutants ::: nitrogen dioxide (NO<sub>2</sub>), ozone (O<sub>3</sub>), particulate matter (PM<sub>2.5</sub>, PM<sub>10</sub>), sulfur dioxide (SO<sub>2</sub>) <!--SR:!2024-12-18,143,270!2025-04-06,246,330-->
 
 ## page 29
 
 Indoor Air Quality
 
-- sick building syndrome ::: fatigue, headache, nasal congestion <!--SR:!2024-08-07,61,310!2025-03-04,219,330-->
+- sick building syndrome ::: fatigue, headache, nasal congestion <!--SR:!2025-05-10,275,330!2025-03-04,219,330-->
 - common indoor air pollutant ::: 12 parameters <!--SR:!2024-10-27,105,290!2024-08-10,63,310-->
   - common indoor air pollutant examples ::: carbon dioxide (CO<sub>2</sub>), carbon monoxide (CO), respirable suspended particulate (RSP/PM<sub>10</sub>) <!--SR:!2024-09-20,80,270!2025-01-01,157,310-->
     - carbon dioxide limits ::: excellent: < 800 ppmv; good: < 1000 ppmv <!--SR:!2024-09-25,84,270!2024-12-28,153,310-->
@@ -356,7 +356,7 @@ Indoor Air Quality
 Climate Change — Greenhouse Gas Emission (Global Air Pollution)
 
 - [greenhouse gases](#greenhouse%20gases)
-- climate change consequences for animals ::: polar bears losing their natural habitats <!--SR:!2024-11-23,139,310!2024-08-08,61,310-->
+- climate change consequences for animals ::: polar bears losing their natural habitats <!--SR:!2024-11-23,139,310!2025-04-24,259,330-->
 
 ### greenhouse gases
 
@@ -445,7 +445,7 @@ Concentration Units for Gases
 
 - concentration units for gases ::: mass of substance per unit volume of mixture, volume of substance per unit volume of mixture <!--SR:!2024-12-07,132,290!2024-08-15,67,310-->
   - volume of substance per unit volume of mixture for gases ::: ppm by volume (ppm<sub>v</sub>) <!--SR:!2024-08-09,62,310!2024-12-24,147,290-->
-  - mass of substance per unit volume of mixture for gases ::: µg/m<sup>3</sup>, mg/m<sup>3</sup> <!--SR:!2024-08-08,62,310!2025-03-06,221,330-->
+  - mass of substance per unit volume of mixture for gases ::: µg/m<sup>3</sup>, mg/m<sup>3</sup> <!--SR:!2025-02-17,193,310!2025-03-06,221,330-->
 
 ## page 37
 
