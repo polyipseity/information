@@ -39,7 +39,7 @@ Marks will be deducted for late submission of the SGQ according to the following
 
 For submissions that are late for _N_ days
 
-Score = Original Score * ( 1 – 0.2 × _N_) for _N_ = 1, 2, 3, 4
+Score = Original Score * (1 - 0.2 × _N_) for _N_ = 1, 2, 3, 4
 
 Score = 0 for _N_ >= 5
 
