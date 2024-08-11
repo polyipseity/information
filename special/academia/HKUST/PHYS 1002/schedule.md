@@ -74,5 +74,5 @@ For 2024 Summer.
 |     | 6  | Tue | Lecture 14                   | Strip Sequence Test                                      |
 |     | 7  | Wed |                              |                                                          |
 |     | 8  | Thu | Final Exam                   |                                                          |
-|     | 9  | Fri |                              | Student generated questions submission deadline at 23:59 |
+|     | 9  | Fri |                              | Student-generated questions submission deadline at 23:59 |
 |     | 10 | Sat |                              | OEQ reports submission deadline at 23:59                 |

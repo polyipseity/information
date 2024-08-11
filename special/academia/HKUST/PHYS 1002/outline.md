@@ -28,7 +28,10 @@ The content is in teaching order. Extra information and corrections are included
 - [competencies rubrics](competencies%20rubrics.pdf)
 - [schedule](schedule.md)
 - [questions](questions.md)
+  - [student-generated question](student-generated%20question.md)
+- [strip sequence test](strip%20sequence%20test.md)
 - [final exam](final%20exam.md)
+- [open-ended question report](open-ended%20question%20report.md)
 
 ## week 1 lecture
 
