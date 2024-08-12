@@ -16,16 +16,16 @@ In [astrophysics](astrophysics.md), the __mass–luminosity relation__ is {{an e
 In summary, the relations for stars with different ranges of mass are, to a good approximation, as the following:
 
 $$\begin{aligned}
-\frac{L}{L_{\odot} } & \approx 0.23\left(\frac{M}{M_{\odot} }\right)^{2.3}   & (M < 0.43M_{\odot}) \\
-\frac{L}{L_{\odot} } & \approx \left(\frac{M}{M_{\odot} }\right)^4 &     (0.43M_{\odot} \le M < 2M_{\odot}) \\
-\frac{L}{L_{\odot} } & \approx 1.4\left(\frac{M}{M_{\odot} }\right)^{3.5}   & (2M_{\odot} \le M < 55M_{\odot}) \\
+\frac{L}{L_{\odot} } & \approx 0.23\left(\frac{M}{M_{\odot} }\right)^{2.3}   & (M \le 0.43M_{\odot}) \\
+\frac{L}{L_{\odot} } & \approx \left(\frac{M}{M_{\odot} }\right)^4 &     (0.43M_{\odot} \le M \le 2M_{\odot}) \\
+\frac{L}{L_{\odot} } & \approx 1.4\left(\frac{M}{M_{\odot} }\right)^{3.5}   & (2M_{\odot} \le M \le 55M_{\odot}) \\
 \frac{L}{L_{\odot} } & \approx 32000 \frac{M}{M_{\odot} } & (M \ge 55M_{\odot})
 \end{aligned}$$
 
 - mass thresholds ::: $0.43M_\odot, 2M_\odot, 55M_\odot$
-- $M < 0.43M_{\odot}$ ::: $a = 2.3, C = 0.23$
-- $0.43M_{\odot} \le M < 2M_{\odot}$ ::: $a = 4, C = 1$
-- $2M_{\odot} \le M < 55M_{\odot}$ ::: $a = 3.5, C = 1.4$
+- $M \le 0.43M_{\odot}$ ::: $a = 2.3, C = 0.23$
+- $0.43M_{\odot} \le M \le 2M_{\odot}$ ::: $a = 4, C = 1$
+- $2M_{\odot} \le M \le 55M_{\odot}$ ::: $a = 3.5, C = 1.4$
 - $M \ge 55M_{\odot}$ ::: $a = 1, C = 32\,000$
 
 The mass/luminosity relationship can also be used to {{determine the lifetime of [stars](star.md)}} by {{noting that lifetime is approximately proportional to _M_/_L_}} although {{one finds that more massive stars have shorter lifetimes than that which the _M_/_L_ relationship predicts}}. A more sophisticated calculation factors in {{a star's [loss of mass](stellar%20mass%20loss.md) over [time](time.md)}}.
