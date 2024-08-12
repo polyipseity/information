@@ -61,21 +61,21 @@ Mathematically: {{$${\mathcal {F} }(\{x_{n}\})_{k}=X_{k} \implies {\mathcal {F} 
 
 This table shows {{some mathematical operations on $x_{n}$ in the time domain and the corresponding effects on its DFT $X_{k}$ in the frequency domain}}.
 
-property | time domain $x_{n}$ | frequency domain $X_{k}$
--|-|-
-real part in time | $$\operatorname {Re} {\left(x_{n}\right)}$$ | $${\frac {1}{2} }\left(X_{k}+X_{N-k}^{*}\right)$$
-imaginary part in time | $$\operatorname {Im} {\left(x_{n}\right)}$$ | $${\frac {1}{2i} }\left(X_{k}-X_{N-k}^{*}\right)$$
-real part in frequency | $${\frac {1}{2} }\left(x_{n}+x_{N-n}^{*}\right)$$ | $$\operatorname {Re} {\left(X_{k}\right)}$$
-imaginary part in frequency | $${\frac {1}{2i} }\left(x_{n}-x_{N-n}^{*}\right)$$ | $$\operatorname {Im} {\left(X_{k}\right)}$$
+| property                    | time domain $x_{n}$                                | frequency domain $X_{k}$                           |
+| --------------------------- | -------------------------------------------------- | -------------------------------------------------- |
+| real part in time           | $$\operatorname {Re} {\left(x_{n}\right)}$$        | $${\frac {1}{2} }\left(X_{k}+X_{N-k}^{*}\right)$$  |
+| imaginary part in time      | $$\operatorname {Im} {\left(x_{n}\right)}$$        | $${\frac {1}{2i} }\left(X_{k}-X_{N-k}^{*}\right)$$ |
+| real part in frequency      | $${\frac {1}{2} }\left(x_{n}+x_{N-n}^{*}\right)$$  | $$\operatorname {Re} {\left(X_{k}\right)}$$        |
+| imaginary part in frequency | $${\frac {1}{2i} }\left(x_{n}-x_{N-n}^{*}\right)$$ | $$\operatorname {Im} {\left(X_{k}\right)}$$        |
 
 - real part in time ::: frequency: $$\frac 1 2 (X_k + X^*_{N - k})$$
-- imaginary part in time ::: frequency: $$\frac 1 {2i} (X_k + X^*_{N - k})$$
+- imaginary part in time ::: frequency: $$\frac 1 {2i} (X_k - X^*_{N - k})$$
 - real part in frequency ::: time: $$\frac 1 2 (x_n + x^*_{N - n})$$
 - imaginary part in frequency ::: time: $$\frac 1 {2i} (x_n - x^*_{N - n})$$
 
 ### orthogonality
 
-The vectors {{$u_{k}=\left[\left.e^{ {\frac {i2\pi }{N} }kn}\;\right|\;n=0,1,\ldots ,N-1\right]^{\mathsf {T} }$}} form {{an [orthogonal basis](orthogonal%20basis.md) over the set of _N_-dimensional complex vectors}}: {{$$u_{k}^{\mathsf {T} }u_{k'}^{*}=\sum _{n=0}^{N-1}\left(e^{ {\frac {i2\pi }{N} }kn}\right)\left(e^{ {\frac {i2\pi }{N} }(-k')n}\right)=\sum _{n=0}^{N-1}e^{ {\frac {i2\pi }{N} }(k-k')n}=N~\delta _{kk'}$$}} where {{$\delta _{kk'}$ is the [Kronecker delta](kronecker%20delta.md)}}. (In the last step, {{the summation is trivial if $k=k'$, where it is 1 + 1 + ⋯ = _N_}}, and {{otherwise is a [geometric series](geometric%20series.md) that can be explicitly summed to obtain zero}}.) This orthogonality condition can be used to {{derive the formula for the IDFT from the definition of the DFT}}, and is {{equivalent to the unitarity property below}}.
+The vectors {{$u_{k}=\left[\left.e^{ {\frac {i2\pi }{N} }kn}\;\right|\;n=0,1,\ldots ,N-1\right]^{\mathsf {T} }$}} form {{an [orthogonal basis](orthogonal%20basis.md) over the set of _N_-dimensional complex vectors}}: {{$$u_{k}^{\mathsf {T} }u_{k'}^{*}=\sum _{n=0}^{N-1}\left(e^{ {\frac {i2\pi }{N} }kn}\right)\left(e^{ {\frac {i2\pi }{N} }(-k')n}\right)=\sum _{n=0}^{N-1}e^{ {\frac {i2\pi }{N} }(k-k')n}=N~\delta _{kk'}$$}} where {{$\delta _{kk'}$ is the [Kronecker delta](kronecker%20delta.md)}}. (In the last step, {{the summation is trivial if $k=k'$, where it is 1 + 1 + ⋯ = _N_}}, and {{otherwise is a [geometric series](geometric%20series.md) that can be explicitly summed to obtain zero}}.) This orthogonality condition can be used to {{derive the formula for the IDFT from the definition of the DFT}}, and is {{equivalent to the unitary property below}}.
 
 ### The Plancherel theorem and Parseval's theorem
 
