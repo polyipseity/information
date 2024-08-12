@@ -47,19 +47,19 @@ __Eq.2__ is {{also $N$-periodic (in index $n$)}}. In __Eq.2__, each $X_k$ is {{a
 
 ### linearity
 
-The DFT is {{a linear transform}}, i.e. if {{${\mathcal {F} }(\{x_{n}\})_{k}=X_{k}$ and ${\mathcal {F} }(\{y_{n}\})_{k}=Y_{k}$}}, then {{for any complex numbers $a,b$: $${\mathcal {F} }(\{ax_{n}+by_{n}\})_{k}=aX_{k}+bY_{k}$$}}.
+The DFT is {{a linear transform}}, i.e. if {{${\mathcal {F} }(\{x_{n}\})_{k}=X_{k}$ and ${\mathcal {F} }(\{y_{n}\})_{k}=Y_{k}$}}, then {{for any complex numbers $a,b$: $${\mathcal {F} }(\{ax_{n}+by_{n}\})_{k}=aX_{k}+bY_{k}$$}}. <!--SR:!2024-08-16,4,296!2024-08-16,4,296!2024-08-16,4,296-->
 
 ### time and frequency reversal
 
-Reversing the time (i.e. {{replacing $n$ by $N-n$}}) in $x_{n}$ corresponds to {{reversing the frequency (i.e. $k$ by $N-k$)}}. Mathematically, if $\{x_{n}\}$ represents the vector __x__ then {{$${\mathcal {F} }(\{x_{n}\})_{k}=X_{k} \implies {\mathcal {F} }(\{x_{N-n}\})_{k}=X_{N-k}$$}}.
+Reversing the time (i.e. {{replacing $n$ by $N-n$}}) in $x_{n}$ corresponds to {{reversing the frequency (i.e. $k$ by $N-k$)}}. Mathematically, if $\{x_{n}\}$ represents the vector __x__ then {{$${\mathcal {F} }(\{x_{n}\})_{k}=X_{k} \implies {\mathcal {F} }(\{x_{N-n}\})_{k}=X_{N-k}$$}}. <!--SR:!2024-08-15,3,276!2024-08-15,3,276!2024-08-16,4,296-->
 
 ### conjugation in time
 
-Mathematically: {{$${\mathcal {F} }(\{x_{n}\})_{k}=X_{k} \implies {\mathcal {F} }(\{x_{n}^{*}\})_{k}=X_{N-k}^{*}$$}}.
+Mathematically: {{$${\mathcal {F} }(\{x_{n}\})_{k}=X_{k} \implies {\mathcal {F} }(\{x_{n}^{*}\})_{k}=X_{N-k}^{*}$$}}. <!--SR:!2024-08-13,1,256-->
 
 ### real and imaginary part
 
-This table shows {{some mathematical operations on $x_{n}$ in the time domain and the corresponding effects on its DFT $X_{k}$ in the frequency domain}}.
+This table shows {{some mathematical operations on $x_{n}$ in the time domain and the corresponding effects on its DFT $X_{k}$ in the frequency domain}}. <!--SR:!2024-08-16,4,296-->
 
 property | time domain $x_{n}$ | frequency domain $X_{k}$
 -|-|-
@@ -68,30 +68,30 @@ imaginary part in time | $$\operatorname {Im} {\left(x_{n}\right)}$$ | $${\frac 
 real part in frequency | $${\frac {1}{2} }\left(x_{n}+x_{N-n}^{*}\right)$$ | $$\operatorname {Re} {\left(X_{k}\right)}$$
 imaginary part in frequency | $${\frac {1}{2i} }\left(x_{n}-x_{N-n}^{*}\right)$$ | $$\operatorname {Im} {\left(X_{k}\right)}$$
 
-- real part in time ::: frequency: $$\frac 1 2 (X_k + X^*_{N - k})$$
-- imaginary part in time ::: frequency: $$\frac 1 {2i} (X_k + X^*_{N - k})$$
-- real part in frequency ::: time: $$\frac 1 2 (x_n + x^*_{N - n})$$
-- imaginary part in frequency ::: time: $$\frac 1 {2i} (x_n - x^*_{N - n})$$
+- real part in time ::: frequency: $$\frac 1 2 (X_k + X^*_{N - k})$$ <!--SR:!2024-08-15,3,276!2024-08-16,4,296-->
+- imaginary part in time ::: frequency: $$\frac 1 {2i} (X_k + X^*_{N - k})$$ <!--SR:!2024-08-15,3,276!2024-08-16,4,296-->
+- real part in frequency ::: time: $$\frac 1 2 (x_n + x^*_{N - n})$$ <!--SR:!2024-08-15,3,276!2024-08-16,4,296-->
+- imaginary part in frequency ::: time: $$\frac 1 {2i} (x_n - x^*_{N - n})$$ <!--SR:!2024-08-16,4,296!2024-08-16,4,296-->
 
 ### orthogonality
 
-The vectors {{$u_{k}=\left[\left.e^{ {\frac {i2\pi }{N} }kn}\;\right|\;n=0,1,\ldots ,N-1\right]^{\mathsf {T} }$}} form {{an [orthogonal basis](orthogonal%20basis.md) over the set of _N_-dimensional complex vectors}}: {{$$u_{k}^{\mathsf {T} }u_{k'}^{*}=\sum _{n=0}^{N-1}\left(e^{ {\frac {i2\pi }{N} }kn}\right)\left(e^{ {\frac {i2\pi }{N} }(-k')n}\right)=\sum _{n=0}^{N-1}e^{ {\frac {i2\pi }{N} }(k-k')n}=N~\delta _{kk'}$$}} where {{$\delta _{kk'}$ is the [Kronecker delta](kronecker%20delta.md)}}. (In the last step, {{the summation is trivial if $k=k'$, where it is 1 + 1 + ⋯ = _N_}}, and {{otherwise is a [geometric series](geometric%20series.md) that can be explicitly summed to obtain zero}}.) This orthogonality condition can be used to {{derive the formula for the IDFT from the definition of the DFT}}, and is {{equivalent to the unitarity property below}}.
+The vectors {{$u_{k}=\left[\left.e^{ {\frac {i2\pi }{N} }kn}\;\right|\;n=0,1,\ldots ,N-1\right]^{\mathsf {T} }$}} form {{an [orthogonal basis](orthogonal%20basis.md) over the set of _N_-dimensional complex vectors}}: {{$$u_{k}^{\mathsf {T} }u_{k'}^{*}=\sum _{n=0}^{N-1}\left(e^{ {\frac {i2\pi }{N} }kn}\right)\left(e^{ {\frac {i2\pi }{N} }(-k')n}\right)=\sum _{n=0}^{N-1}e^{ {\frac {i2\pi }{N} }(k-k')n}=N~\delta _{kk'}$$}} where {{$\delta _{kk'}$ is the [Kronecker delta](kronecker%20delta.md)}}. (In the last step, {{the summation is trivial if $k=k'$, where it is 1 + 1 + ⋯ = _N_}}, and {{otherwise is a [geometric series](geometric%20series.md) that can be explicitly summed to obtain zero}}.) This orthogonality condition can be used to {{derive the formula for the IDFT from the definition of the DFT}}, and is {{equivalent to the unitarity property below}}. <!--SR:!2024-08-15,3,276!2024-08-16,4,296!2024-08-16,4,296!2024-08-16,4,296!2024-08-16,4,296!2024-08-16,4,296!2024-08-16,4,296!2024-08-16,4,296-->
 
 ### The Plancherel theorem and Parseval's theorem
 
-If {{$X_{k}$ and $Y_{k}$ are the DFTs of $x_{n}$ and $y_{n}$ respectively}} then {{[Parseval's theorem](parseval's%20theorem.md)}} states: {{$$\sum _{n=0}^{N-1}x_{n}y_{n}^{*}={\frac {1}{N} }\sum _{k=0}^{N-1}X_{k}Y_{k}^{*}$$}} where the star denotes [complex conjugation](complex%20conjugate.md). {{The [Plancherel theorem](plancherel%20theorem.md)}} is {{a special case of Parseval's theorem}} and states: {{$$\sum _{n=0}^{N-1}|x_{n}|^{2}={\frac {1}{N} }\sum _{k=0}^{N-1}|X_{k}|^{2}$$}}.
+If {{$X_{k}$ and $Y_{k}$ are the DFTs of $x_{n}$ and $y_{n}$ respectively}} then {{[Parseval's theorem](parseval's%20theorem.md)}} states: {{$$\sum _{n=0}^{N-1}x_{n}y_{n}^{*}={\frac {1}{N} }\sum _{k=0}^{N-1}X_{k}Y_{k}^{*}$$}} where the star denotes [complex conjugation](complex%20conjugate.md). {{The [Plancherel theorem](plancherel%20theorem.md)}} is {{a special case of Parseval's theorem}} and states: {{$$\sum _{n=0}^{N-1}|x_{n}|^{2}={\frac {1}{N} }\sum _{k=0}^{N-1}|X_{k}|^{2}$$}}. <!--SR:!2024-08-16,4,296!2024-08-15,3,276!2024-08-15,3,276!2024-08-15,3,276!2024-08-16,4,296!2024-08-16,4,296-->
 
-These theorems are {{also equivalent to the unitary condition below}}.
+These theorems are {{also equivalent to the unitary condition below}}. <!--SR:!2024-08-16,4,296-->
 
 ### periodicity
 
-The periodicity can be {{shown directly from the definition}}: {{$$X_{k+N}\ \triangleq \ \sum _{n=0}^{N-1}x_{n}e^{-{\frac {i2\pi }{N} }(k+N)n}=\sum _{n=0}^{N-1}x_{n}e^{-{\frac {i2\pi }{N} }kn}\underbrace {e^{-i2\pi n} } _{1}=\sum _{n=0}^{N-1}x_{n}e^{-{\frac {i2\pi }{N} }kn}=X_{k}$$}}.
+The periodicity can be {{shown directly from the definition}}: {{$$X_{k+N}\ \triangleq \ \sum _{n=0}^{N-1}x_{n}e^{-{\frac {i2\pi }{N} }(k+N)n}=\sum _{n=0}^{N-1}x_{n}e^{-{\frac {i2\pi }{N} }kn}\underbrace {e^{-i2\pi n} } _{1}=\sum _{n=0}^{N-1}x_{n}e^{-{\frac {i2\pi }{N} }kn}=X_{k}$$}}. <!--SR:!2024-08-16,4,296!2024-08-16,4,296-->
 
-Similarly, it can be {{shown that the IDFT formula leads to a periodic extension}}.
+Similarly, it can be {{shown that the IDFT formula leads to a periodic extension}}. <!--SR:!2024-08-16,4,296-->
 
 ### shift theorem
 
-Multiplying {{$x_{n}$ by a _linear phase_ $e^{ {\frac {i2\pi }{N} }nm}$ for some integer _m_}} corresponds to {{a _circular shift_ of the output $X_{k}$: $X_{k}$ is replaced by $X_{k-m}$ (shifted to the right, with warping, by _m_)}}, where {{the subscript is interpreted [modulo](modular%20arithmetic.md) _N_ (i.e., periodically)}}. Similarly, {{a circular shift of the input $x_{n}$ (e.g. shifted to the right, with warping, by _m_) corresponds to multiplying the output $X_{k}$ by a linear phase (with an opposite exponent sign, e.g. $e^{-\frac {i 2\pi} N km}$)}}. Mathematically, if $\{x_{n}\}$ represents the vector __x__ then {{$$\begin{aligned} {\mathcal {F} }(\{x_{n}\})_{k}=X_{k} & \implies {\mathcal {F} }\left(\left\{x_{n}\cdot e^{ {\frac {i2\pi }{N} }nm}\right\}\right)_{k}=X_{k-m} \\ \cdots & \implies {\mathcal {F} }\left(\left\{x_{n-m}\right\}\right)_{k}=X_{k}\cdot e^{-{\frac {i2\pi }{N} }km} \end{aligned}$$}}.
+Multiplying {{$x_{n}$ by a _linear phase_ $e^{ {\frac {i2\pi }{N} }nm}$ for some integer _m_}} corresponds to {{a _circular shift_ of the output $X_{k}$: $X_{k}$ is replaced by $X_{k-m}$ (shifted to the right, with warping, by _m_)}}, where {{the subscript is interpreted [modulo](modular%20arithmetic.md) _N_ (i.e., periodically)}}. Similarly, {{a circular shift of the input $x_{n}$ (e.g. shifted to the right, with warping, by _m_) corresponds to multiplying the output $X_{k}$ by a linear phase (with an opposite exponent sign, e.g. $e^{-\frac {i 2\pi} N km}$)}}. Mathematically, if $\{x_{n}\}$ represents the vector __x__ then {{$$\begin{aligned} {\mathcal {F} }(\{x_{n}\})_{k}=X_{k} & \implies {\mathcal {F} }\left(\left\{x_{n}\cdot e^{ {\frac {i2\pi }{N} }nm}\right\}\right)_{k}=X_{k-m} \\ \cdots & \implies {\mathcal {F} }\left(\left\{x_{n-m}\right\}\right)_{k}=X_{k}\cdot e^{-{\frac {i2\pi }{N} }km} \end{aligned}$$}}. <!--SR:!2024-08-15,3,276!2024-08-15,3,276!2024-08-16,4,296!2024-08-15,3,276!2024-08-15,3,276-->
 
 ### expressing the inverse DFT in terms of the DFT
 
