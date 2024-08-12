@@ -21,7 +21,7 @@ They are named for {{the [parity](parity%20(mathematics).md) of the powers of th
 
 Even functions are those real functions whose [graph](graph%20of%20a%20function.md) is {{[self-symmetric](symmetry%20(geometry).md) with respect to the y-axis, and odd functions are those whose graph is self-symmetric with respect to the [origin](origin%20(mathematics).md)}}. <!--SR:!2024-08-22,11,270-->
 
-If the domain of a real function is {{self-symmetric with respect to the origin}}, then the function can be {{uniquely decomposed as the sum of an even function and an odd function}}. <!--SR:!2024-08-19,10,270!2024-08-25,14,290-->
+If {{the domain of a real function is self-symmetric with respect to the origin}}, then the function can be {{uniquely decomposed as the sum of an even function and an odd function}}. <!--SR:!2024-08-19,10,270!2024-08-25,14,290-->
 
 ## references
 

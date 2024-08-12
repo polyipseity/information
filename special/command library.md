@@ -28,11 +28,11 @@ ffmpeg -itsoffset "$offset_v" -i "$input_v" -itsoffset "$offset_a" -i "$input_a"
 ### measure loudness
 
 ```shell
-ffmpeg -i "$input" -af ebur128=framelog=verbose -f null -
+ffmpeg -i "$input_" -af ebur128=framelog=verbose -f null -
 ```
 
 - parameters
-  - `$input`: input filename
+  - `$input_`: input filename
 - source: <https://superuser.com/a/1424365>
 
 ### transcode
@@ -40,40 +40,40 @@ ffmpeg -i "$input" -af ebur128=framelog=verbose -f null -
 #### AAC in MP4
 
 ```shell
-ffmpeg -i "$input" -map 0:a -c:a aac -b:a "$bitrate" -movflags +faststart "$output.m4a"
+ffmpeg -i "$input_" -map 0:a -c:a aac -b:a "$bitrate" -movflags +faststart "$output.m4a"
 ```
 
 - parameters
   - `$bitrate` = `320000`: bitrate in bits per second (bps)
-  - `$input`: input filename
+  - `$input_`: input filename
   - `$output`: output filename without extension
 
 #### AV1 and Opus in WebM
 
 ```shell
-ffmpeg -i "$input" -map 0 -vf "fps=fps=$fps,scale=in_color_matrix=auto:out_color_matrix=bt709:in_range=auto:out_range=$color_range" -c:v libaom-av1 -b:v 0 -crf 45 -g "$($fps * 5)" -pix_fmt "$pixel_format" -color_range "$color_range" -colorspace bt709 -color_primaries bt709 -color_trc bt709 -row-mt 1 -tile-columns 2 -tile-rows 1 -cpu-used 4 -c:a libopus -b:a "$audio_bitrate" -cues_to_front 1 -pass 1 -f null -
-ffmpeg -i "$input" -map 0 -vf "fps=fps=$fps,scale=in_color_matrix=auto:out_color_matrix=bt709:in_range=auto:out_range=$color_range" -c:v libaom-av1 -b:v 0 -crf 45 -g "$($fps * 5)" -pix_fmt "$pixel_format" -color_range "$color_range" -colorspace bt709 -color_primaries bt709 -color_trc bt709 -row-mt 1 -tile-columns 2 -tile-rows 1 -cpu-used 4 -c:a libopus -b:a "$audio_bitrate" -cues_to_front 1 -pass 2 "$output.webm"
+ffmpeg -i "$input_" -map 0 -vf "fps=fps=$fps,scale=in_color_matrix=auto:out_color_matrix=bt709:in_range=auto:out_range=$color_range" -c:v libaom-av1 -b:v 0 -crf 45 -g "$($fps * 5)" -pix_fmt "$pixel_format" -color_range "$color_range" -colorspace bt709 -color_primaries bt709 -color_trc bt709 -row-mt 1 -tile-columns 2 -tile-rows 1 -cpu-used 4 -c:a libopus -b:a "$audio_bitrate" -cues_to_front 1 -pass 1 -f null -
+ffmpeg -i "$input_" -map 0 -vf "fps=fps=$fps,scale=in_color_matrix=auto:out_color_matrix=bt709:in_range=auto:out_range=$color_range" -c:v libaom-av1 -b:v 0 -crf 45 -g "$($fps * 5)" -pix_fmt "$pixel_format" -color_range "$color_range" -colorspace bt709 -color_primaries bt709 -color_trc bt709 -row-mt 1 -tile-columns 2 -tile-rows 1 -cpu-used 4 -c:a libopus -b:a "$audio_bitrate" -cues_to_front 1 -pass 2 "$output.webm"
 ```
 
 - parameters
   - `$audio_bitrate` = `320000`: audio bitrate in bits per second (bps)
   - `$color_range` = `full`: `full` or `limited`; color range
   - `$fps` = `60`: frames per second
-  - `$input`: input filename
+  - `$input_`: input filename
   - `$output`: output filename without extension
   - `$pixel_format` = `yuv420p`: pixel format
 
 #### HEVC and AAC in QTFF
 
 ```shell
-ffmpeg -i "$input" -map 0 -vf "fps=fps=$fps,scale=in_color_matrix=auto:out_color_matrix=bt709:in_range=auto:out_range=$color_range" -c:v libx265 -tag:v hvc1 -b:v 0 -crf 28 -g "$($fps * 5)" -preset medium -pix_fmt "$pixel_format" -color_range "$color_range" -colorspace bt709 -color_primaries bt709 -color_trc bt709 -c:a aac -b:a "$audio_bitrate" -movflags +faststart "$output.mov"
+ffmpeg -i "$input_" -map 0 -vf "fps=fps=$fps,scale=in_color_matrix=auto:out_color_matrix=bt709:in_range=auto:out_range=$color_range" -c:v libx265 -tag:v hvc1 -b:v 0 -crf 28 -g "$($fps * 5)" -preset medium -pix_fmt "$pixel_format" -color_range "$color_range" -colorspace bt709 -color_primaries bt709 -color_trc bt709 -c:a aac -b:a "$audio_bitrate" -movflags +faststart "$output.mov"
 ```
 
 - parameters
   - `$audio_bitrate` = `320000`: audio bitrate in bits per second (bps)
   - `$color_range` = `full`: `full` or `limited`; color range
   - `$fps` = `60`: frames per second
-  - `$input`: input filename
+  - `$input_`: input filename
   - `$output`: output filename without extension
   - `$pixel_format` = `yuv420p`: pixel format
 
@@ -82,12 +82,12 @@ ffmpeg -i "$input" -map 0 -vf "fps=fps=$fps,scale=in_color_matrix=auto:out_color
 ### optimize PDF
 
 ```shell
-gs -dBATCH -dNOPAUSE -dQUIET -sDEVICE=pdfwrite "-dPDFSETTINGS=$preset" '-dCompatibilityLevel=2.0' "-sOutputFile=$output" "$input"
+gs -dBATCH -dNOPAUSE -dQUIET -sDEVICE=pdfwrite "-dPDFSETTINGS=$preset" '-dCompatibilityLevel=2.0' "-sOutputFile=$output" "$input_"
 ```
 
 - parameters
   - `$preset` = `/default`: `/default` or (`/screen` < `/ebook` < `/printer` < `/prepress`); distiller parameters preset
-  - `$input`: input filename
+  - `$input_`: input filename
   - `$output`: output filename
 - source: <https://askubuntu.com/a/256449>
 

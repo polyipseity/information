@@ -469,7 +469,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 
 <!-- markdownlint MD028 -->
 
-> Q2. (derived) What is th Schwarzschild radius of the observable universe? There are 10<sup>53</sup> kg of ordinary (baryonic) matter in the observable universe. Ignore non-baryonic matter.
+> Q2. (derived) What is the Schwarzschild radius of the observable universe? There are 10<sup>53</sup> kg of ordinary (baryonic) matter in the observable universe. Ignore non-baryonic matter.
 >
 > 1. 1.57×10<sup>11</sup> ly
 > 2. 1.57×10<sup>14</sup> ly
@@ -541,7 +541,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 
 ## 2024-08-06
 
-## student generated questions
+## student-generated questions
 
 > Q1. (sample) Star A is a star with apparent magnitude (m<sub>A</sub>) of 3. The apparent brightness ratio of Star A over Star B is 15 and assume absolute magnitude (M<sub>B</sub>) of star B is 1. What is the distance between earth and star B in terms of parsecs?
 >
@@ -583,6 +583,27 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 >
 > - solution: {{3}}
 > - explanation: {{The planet is in retrograde motion. Hence, the number of solar days per orbital period is $10 + 1 = 11~\mathrm{solar\ days}$. Thus each solar day is $\frac {1 / 11} {1 / 10} = \frac {10} {11}~\mathrm{sidereal\ days}$.}} <!--SR:!2024-08-29,17,350!2024-08-26,14,330-->
+
+<!-- markdownlint MD028 -->
+
+> Q4. (derived) In the lectures, we have learned about the _axial precession_ of Earth. Earth's rotational axis follows a circle, in the opposite direction as Earth's rotation (and thus, also Earth's orbital motion), over a 26&nbsp;000-year period. This is shown in the figure below:
+>
+> > ![axial precession of Earth|256](../../../../archives/Wikimedia%20Commons/Earth%20precession.svg)
+> >
+> > [NASA, Mysid](https://commons.wikimedia.org/wiki/File:Earth_precession.svg), Public domain, via Wikimedia Commons
+>
+> An important effect of axial precession is that the duration it takes for the Sun to return to the same _solstice_ or _equinox_ (of the same type) is shorter than the _sidereal orbital period_ (or _sidereal year_) of Earth. The shorter duration is called the __tropical year__ or __solar year__.
+>
+> Assume there is a hypothetical planet similar to Earth. In particular, the directions of its orbital motion, rotation, and _axial precession_ are the same as that of Earth. Its axial tilt is also the same as that of Earth. The planet orbits around the parent star relative to distant stars every 42 days. Its _tropical year_ lasts for 41 days. Calculate the period of its axial precession. Assume its axial precession follows a perfect circle with uniform speed.
+>
+> 1. 20.75 days
+> 2. 1722 days, but the direction of axial precession should be the same as that of rotation instead
+> 3. 1722 days
+> 4. 20.75 days, but the direction of axial precession should be the same as that of rotation instead
+> 5. 26&nbsp;000 years
+>
+> - solution: {{3}}
+> - explanation: {{This is analogous to a planet orbiting a parent star in retrograde motion. To find the answer: $$\frac 1 {T_{\mathrm{orb} } } + \frac 1 {T_{\mathrm{sid} } } = \frac 1 {T_{\mathrm{sol} } } \implies \frac 1 {T_{\mathrm{orb} } } = \frac 1 {T_{\mathrm{sol} } } - \frac 1 {T_{\mathrm{sid} } } \implies \frac 1 T = \frac 1 {41} - \frac 1 {42} \implies T = \frac 1 {\frac 1 {41} - \frac 1 {42} } = \frac 1 {\frac 1 {1722} } = 1722$$. So the answer is 1722 days. For a detailed explanation, see [SGQ on the tropical year § explanation](SGQ%20on%20the%20tropical%20year.md#explanation).}}
 
 ## strip sequence questions
 
