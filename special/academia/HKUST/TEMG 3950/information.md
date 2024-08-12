@@ -74,7 +74,7 @@ value proposition canvas
 - _(begin)_→:::←blue ocean strategy: Break the value–cost tradeoff. For example, London cab services (red) and Uber (blue). <!--SR:!2024-08-14,84,290!2025-03-12,248,330-->
 - blue ocean strategy: Break the value–cost tradeoff. For example, London cab services (red) and Uber (blue).→:::←business model canvas <!--SR:!2024-08-25,81,270!2024-08-13,44,250-->
 - business model canvas→:::←competitor analysis <!--SR:!2025-01-28,183,270!2024-10-13,107,250-->
-- competitor analysis→:::←customer discovery <!--SR:!2024-08-12,14,190!2024-08-28,91,270-->
+- competitor analysis→:::←customer discovery <!--SR:!2024-09-12,31,190!2024-08-28,91,270-->
 - customer discovery→:::←customer segmentation <!--SR:!2024-10-15,123,290!2024-10-16,129,290-->
 - customer segmentation→:::←customer validation <!--SR:!2024-08-27,82,270!2024-12-11,148,270-->
 - customer validation→:::←design thinking <!--SR:!2024-08-18,26,210!2024-09-03,88,270-->
@@ -135,12 +135,12 @@ root cause analysis, 5 whys
 
 - _(begin)_→:::←4P: McCarthy's 4 Ps <!--SR:!2024-08-29,21,281!2024-09-08,74,321-->
 - 4P: McCarthy's 4 Ps→:::←5-step persuasive selling <!--SR:!2024-09-19,59,261!2024-08-19,55,301-->
-- 5-step persuasive selling→:::←5C: Chernev 5C framework <!--SR:!2024-08-11,47,301!2024-11-20,113,301-->
+- 5-step persuasive selling→:::←5C: Chernev 5C framework <!--SR:!2025-01-03,144,301!2024-11-20,113,301-->
 - 5C: Chernev 5C framework→:::←5F: Porter's 5 forces framework <!--SR:!2024-10-17,88,281!2024-08-13,49,301-->
 - 5F: Porter's 5 forces framework→:::←7S: McKinsey 7S framework <!--SR:!2024-12-15,131,301!2024-08-26,64,321-->
 - 7S: McKinsey 7S framework→:::←PESTLE: Aguilar's PESTLE framework <!--SR:!2024-09-27,75,281!2024-08-31,47,281-->
-- PESTLE: Aguilar's PESTLE framework→:::←PPTG: people, process, technology, governance framework <!--SR:!2024-08-10,38,261!2024-09-29,64,281-->
-- PPTG: people, process, technology, governance framework→:::←blue ocean strategy <!--SR:!2024-08-10,46,301!2024-12-12,130,301-->
+- PESTLE: Aguilar's PESTLE framework→:::←PPTG: people, process, technology, governance framework <!--SR:!2024-11-20,100,261!2024-09-29,64,281-->
+- PPTG: people, process, technology, governance framework→:::←blue ocean strategy <!--SR:!2024-12-27,137,301!2024-12-12,130,301-->
 - blue ocean strategy→:::←interview note-taking in an 1-page memo <!--SR:!2024-10-18,89,281!2024-09-30,53,221-->
 - interview note-taking in an 1-page memo→:::←profitability framework <!--SR:!2024-09-11,62,261!2024-08-24,41,221-->
 - profitability framework→:::←root cause analysis, 5 whys <!--SR:!2024-09-01,35,261!2024-09-27,62,241-->

@@ -9,11 +9,11 @@ tags:
 
 # Kelvin–Helmholtz mechanism
 
-The __Kelvin–Helmholtz mechanism__ is {{an [astronomical](astronomy.md) process that occurs when the surface of a [star](star.md) or a [planet](planet.md) cools}}. The cooling causes {{the internal pressure to drop, and the star or planet shrinks as a result. This compression, in turn, heats the core of the star or the planet}}. <!--SR:!2024-08-12,16,290!2024-08-13,17,290-->
+The __Kelvin–Helmholtz mechanism__ is {{an [astronomical](astronomy.md) process that occurs when the surface of a [star](star.md) or a [planet](planet.md) cools}}. The cooling causes {{the internal pressure to drop, and the star or planet shrinks as a result. This compression, in turn, heats the core of the star or the planet}}. <!--SR:!2024-10-17,66,310!2024-08-13,17,290-->
 
-The mechanism was originally proposed by {{[Kelvin](Lord%20Kelvin.md) and [Helmholtz](Hermann%20von%20Helmholtz.md) in the late 19th century to explain the source of [energy](energy.md) of the [Sun](Sun.md)}}. <!--SR:!2024-08-09,13,290-->
+The mechanism was originally proposed by {{[Kelvin](Lord%20Kelvin.md) and [Helmholtz](Hermann%20von%20Helmholtz.md) in the late 19th century to explain the source of [energy](energy.md) of the [Sun](Sun.md)}}. <!--SR:!2024-09-17,38,290-->
 
-The true source of the [Sun](Sun.md)'s energy remained {{uncertain until the 1930s, when it was shown by [Hans Bethe](Hans%20Bethe.md) to be [nuclear fusion](nuclear%20fusion.md)}}. <!--SR:!2024-08-11,15,290-->
+The true source of the [Sun](Sun.md)'s energy remained {{uncertain until the 1930s, when it was shown by [Hans Bethe](Hans%20Bethe.md) to be [nuclear fusion](nuclear%20fusion.md)}}. <!--SR:!2024-09-26,45,290-->
 
 ## references
 

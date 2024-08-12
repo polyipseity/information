@@ -171,13 +171,13 @@ return await memorize_map(
 
 > [!example] examples
 >
-> - $\sin 7.42$ ([angle sum](#angle%20sum%20and%20difference) variant) ::: $2 \cos 3.71 \sin 3.71$ <!--SR:!2024-08-09,178,327!2024-11-21,241,327-->
+> - $\sin 7.42$ ([angle sum](#angle%20sum%20and%20difference) variant) ::: $2 \cos 3.71 \sin 3.71$ <!--SR:!2026-03-16,581,327!2024-11-21,241,327-->
 > - $\sin(-0.36)$ (square variant) ::: $(\cos 0.18 - \sin 0.18)^2 - 1$ <!--SR:!2025-03-20,300,287!2024-10-14,168,287-->
 > - $\sin 6.24$ (tangent variant) ::: $\frac{2 \tan 3.12}{1 + \tan^2 3.12}$ <!--SR:!2025-07-12,389,307!2024-09-11,121,247-->
 > - $\cos(-3.68)$ ([angle sum](#angle%20sum%20and%20difference) variant) ::: $\cos^2 1.84 - \sin^2 1.84$ <!--SR:!2024-11-26,265,347!2024-12-05,231,287-->
 > - $\cos 9.98$ (cosine variant) ::: $2\cos^2 4.99 - 1$ <!--SR:!2024-11-25,244,327!2024-12-19,283,347-->
 > - $\cos 5.54$ (sine variant) ::: $1 - 2\sin^2 2.77$ <!--SR:!2024-12-28,290,347!2024-09-28,202,327-->
-> - $\cos(-9.22)$ (tangent variant) ::: $\frac{1 - \tan^2 4.61}{1 + \tan^2 4.61}$ <!--SR:!2024-08-09,159,307!2024-10-28,211,287-->
+> - $\cos(-9.22)$ (tangent variant) ::: $\frac{1 - \tan^2 4.61}{1 + \tan^2 4.61}$ <!--SR:!2025-12-12,487,307!2024-10-28,211,287-->
 > - $\tan 0.04$ ::: $\frac{2 \tan 0.02}{1 - \tan^2 0.02}$ <!--SR:!2025-02-13,291,307!2024-10-28,186,287-->
 
 ### half-angle
@@ -213,7 +213,7 @@ return await memorize_map(
 - sine::$$\sin \frac \theta 2 = \operatorname{sgn}\left(\sin \frac \theta 2\right) \sqrt{\frac {1 - \cos \theta} 2}$$ <!--SR:!2024-08-27,31,316-->
 - cosine::$$\cos \frac \theta 2 = \operatorname{sgn}\left(\cos \frac \theta 2\right) \sqrt{\frac {1 + \cos \theta} 2}$$ <!--SR:!2024-08-28,32,316-->
 - tangent::$$\tan \frac \theta 2 = \frac {1 - \cos \theta} {\sin \theta} = \frac {\sin \theta} {1 + \cos \theta} = \operatorname{sgn}(\sin \theta) \sqrt{\frac {1 - \cos \theta} {1 + \cos \theta} } = \csc \theta - \cot \theta = \frac {\tan \theta} {1 + \sec \theta} = \frac {-1 + \operatorname{sgn}(\cos \theta)\sqrt{1 + \tan^2 \theta} } {\tan \theta}$$ <!--SR:!2024-08-15,19,256-->
-- secant::$$\sec \frac \theta 2 = \operatorname{sgn}\left(\cos \frac \theta 2\right) \sqrt{\frac 2 {1 + \cos \theta} }$$ <!--SR:!2024-08-10,20,296-->
+- secant::$$\sec \frac \theta 2 = \operatorname{sgn}\left(\cos \frac \theta 2\right) \sqrt{\frac 2 {1 + \cos \theta} }$$ <!--SR:!2024-10-08,57,296-->
 - cosecant::$$\csc \frac \theta 2 = \operatorname{sgn}\left(\sin \frac \theta 2\right) \sqrt{\frac 2 {1 - \cos \theta} }$$ <!--SR:!2024-08-18,27,296-->
 - cotangent::$$\cot \frac \theta 2 = \frac {1 + \cos \theta} {\sin \theta} = \frac {\sin \theta} {1 - \cos \theta} = \operatorname{sgn}(\sin \theta) \sqrt{\frac {1 + \cos \theta} {1 - \cos \theta} } = \csc \theta + \cot \theta$$ <!--SR:!2024-08-18,15,256-->
 
@@ -231,7 +231,7 @@ return await memorize_map(
 > - $\sec (-7.24)$ ::: $\operatorname{sgn}(\cos 7.24) \sqrt{\frac 2 {1 + \cos 14.48} }$ <!--SR:!2024-08-26,30,316!2024-09-16,49,336-->
 > - $\csc (-1.7)$ ::: $-\operatorname{sgn}(\sin 1.7) \sqrt{\frac 2 {1 - \cos 3.4} }$ <!--SR:!2024-08-27,31,316!2024-09-01,36,316-->
 > - $\cot 3.14$ (sine and cosine) ::: $\frac {1 + \cos 6.28} {\sin 6.28} = \frac {\sin 6.28} {1 - \cos 6.28}$ <!--SR:!2024-09-06,40,296!2024-08-22,30,316-->
-> - $\cot (-69)$ (cosine) ::: $-\operatorname{sgn}(\sin 138) \sqrt{\frac {1 + \cos 138} {1 - \cos 138} }$ <!--SR:!2024-08-09,19,296!2024-09-29,59,336-->
+> - $\cot (-69)$ (cosine) ::: $-\operatorname{sgn}(\sin 138) \sqrt{\frac {1 + \cos 138} {1 - \cos 138} }$ <!--SR:!2024-10-07,56,296!2024-09-29,59,336-->
 > - $\cot 17$ (addition) ::: $\csc 34 + \cot 34$ <!--SR:!2024-09-01,36,316!2024-10-10,68,336-->
 
 ## product-to-sum and sum-to-product
@@ -274,7 +274,7 @@ return await memorize_map(
 > - $\sin 5.23 \cos 1.23$ ::: $\frac{\sin 6.46 + \sin 4}2$ <!--SR:!2025-06-29,380,307!2025-04-16,318,287-->
 > - $\cos(-3.21) \sin 0.23$ ::: $\frac{\sin 3.44 - \sin 2.98}2$ <!--SR:!2024-08-22,173,307!2024-10-04,98,207-->
 > - $\sin 6.22 \sin(-0.01)$ ::: $\frac{\cos 6.23 - \cos 6.21}2$ <!--SR:!2025-03-09,306,307!2024-10-04,66,207-->
-> - $\cos(-7.23) \cos(-1.23)$ ::: $\frac{\cos 6 + \cos 8.46}2$ <!--SR:!2024-08-11,92,267!2024-08-25,168,287-->
+> - $\cos(-7.23) \cos(-1.23)$ ::: $\frac{\cos 6 + \cos 8.46}2$ <!--SR:!2024-09-27,46,247!2024-08-25,168,287-->
 
 ### sum-to-product
 

@@ -11,7 +11,7 @@ tags:
 
 # orbit of the Moon
 
-[Earth](Earth.md) and the [Moon](Moon.md) orbit {{about their [barycentre](barycenter.md) (common [centre of mass](center%20of%20mass.md)), which lies about 4&nbsp;670 km (2&nbsp;900 mi) from Earth's centre (about 73% of its radius)}}, forming {{a satellite system called the __Earth–Moon system__}}. <!--SR:!2024-08-15,7,210!2024-08-09,13,290-->
+[Earth](Earth.md) and the [Moon](Moon.md) orbit {{about their [barycentre](barycenter.md) (common [centre of mass](center%20of%20mass.md)), which lies about 4&nbsp;670 km (2&nbsp;900 mi) from Earth's centre (about 73% of its radius)}}, forming {{a satellite system called the __Earth–Moon system__}}. <!--SR:!2024-08-15,7,210!2024-09-16,36,290-->
 
 ## references
 

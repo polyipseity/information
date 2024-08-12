@@ -13,16 +13,16 @@ tags:
 # import ../../tools/utility.py.md
 ```
 
-__Copernican heliocentrism__ is {{the astronomical [model](scientific%20modelling.md) developed by [Nicolaus Copernicus](Nicolaus%20Copernicus.md)}} and published in {{1543}}. This model {{positioned the [Sun](Sun.md) at the center of the [universe](universe.md), motionless, with [Earth](Earth.md) and the other [planets](planet.md) moving around it in [circular orbits](circular%20orbit.md), modified by [epicycles](deferent%20and%20epicycle.md), and at uniform speeds}}. The Copernican model displaced {{the [Ptolemaic model](geocentric%20model.md#Ptolemaic%20model) that had prevailed for centuries, which had placed Earth at the center of the universe}}. <!--SR:!2024-08-21,41,290!2024-08-12,11,210!2024-09-02,50,290!2024-08-22,42,290-->
+__Copernican heliocentrism__ is {{the astronomical [model](scientific%20modelling.md) developed by [Nicolaus Copernicus](Nicolaus%20Copernicus.md)}} and published in {{1543}}. This model {{positioned the [Sun](Sun.md) at the center of the [universe](universe.md), motionless, with [Earth](Earth.md) and the other [planets](planet.md) moving around it in [circular orbits](circular%20orbit.md), modified by [epicycles](deferent%20and%20epicycle.md), and at uniform speeds}}. The Copernican model displaced {{the [Ptolemaic model](geocentric%20model.md#Ptolemaic%20model) that had prevailed for centuries, which had placed Earth at the center of the universe}}. <!--SR:!2024-08-21,41,290!2024-09-03,22,210!2024-09-02,50,290!2024-08-22,42,290-->
 
 The model uses ideas such as:
 
 - [planets](planet.md) ::: Not only other planets but [Earth](Earth.md) also revolves around a stationary [Sun](Sun.md) in perfectly [circular orbits](circular%20orbit.md). <!--SR:!2024-10-15,70,341!2024-10-14,69,341-->
-- [Earth](Earth.md)'s motions ::: [Earth](Earth.md) has three motions: daily rotation, annual revolution, and annual tilting of its axis. <!--SR:!2024-08-09,19,321!2024-10-21,74,341-->
-- [apparent retrograde motion](apparent%20retrograde%20motion.md) ::: Apparent retrograde motions of other planets are explained by the Earth's motion relative to other planets. <!--SR:!2024-08-09,19,321!2024-09-29,59,321-->
-- [stars](star.md) ::: The distance from [Earth](Earth.md) to the [Sun](Sun.md) is small compared to the distance from the Sun to the [stars](star.md). <!--SR:!2024-09-22,48,321!2024-08-09,19,321-->
+- [Earth](Earth.md)'s motions ::: [Earth](Earth.md) has three motions: daily rotation, annual revolution, and annual tilting of its axis. <!--SR:!2024-11-03,83,341!2024-10-21,74,341-->
+- [apparent retrograde motion](apparent%20retrograde%20motion.md) ::: Apparent retrograde motions of other planets are explained by the Earth's motion relative to other planets. <!--SR:!2024-10-14,63,321!2024-09-29,59,321-->
+- [stars](star.md) ::: The distance from [Earth](Earth.md) to the [Sun](Sun.md) is small compared to the distance from the Sun to the [stars](star.md). <!--SR:!2024-09-22,48,321!2024-11-01,81,341-->
 
-The model has several advantages: {{simpler and more elegant}}, and naturally explains several phenomenons: {{[apparent retrograde motion](apparent%20retrograde%20motion.md), changing brightness of planets, and motion of [inferior planets](inferior%20and%20superior%20planets.md)}}. But it is not without disadvantages: {{not more accurate than old models (due to the incorrect assumption of perfectly circular orbits)}}, and {{[Earth](Earth.md) needs to move in very high speed, which is generally thought to be improbable at the time}}. <!--SR:!2024-08-09,19,321!2024-10-05,58,321!2024-10-01,61,321!2024-08-09,19,321-->
+The model has several advantages: {{simpler and more elegant}}, and naturally explains several phenomenons: {{[apparent retrograde motion](apparent%20retrograde%20motion.md), changing brightness of planets, and motion of [inferior planets](inferior%20and%20superior%20planets.md)}}. But it is not without disadvantages: {{not more accurate than old models (due to the incorrect assumption of perfectly circular orbits)}}, and {{[Earth](Earth.md) needs to move in very high speed, which is generally thought to be improbable at the time}}. <!--SR:!2024-11-02,83,341!2024-10-05,58,321!2024-10-01,61,321!2024-11-02,82,341-->
 
 ## Copernican theory
 

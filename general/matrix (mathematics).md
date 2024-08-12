@@ -19,7 +19,7 @@ The _sum_ of {{two matrices __A__ and __B__ of the same size _m_ × _n_}} is den
 
 #### scalar multiplication
 
-The _product_ of {{a [scalar](scalar%20(mathematics).md) _c_ and a matrix __A__ of size _m_ × _n_}} is denoted {{$c\mathbf{A}$, $c \cdot \mathbf{A}$, or $\mathbf{A} \cdot c$}}. It is calculated by {{multiplying every element of __A__ by _c_}}: {{$$(c\mathbf{A})_{i, j} = c \cdot \mathbf{A}_{i, j} \qquad \text{where }1 \le i \le m\text{ and }1 \le j \le n$$}}. <!--SR:!2024-09-09,67,310!2024-08-10,39,290!2024-12-01,115,290!2024-08-21,52,290-->
+The _product_ of {{a [scalar](scalar%20(mathematics).md) _c_ and a matrix __A__ of size _m_ × _n_}} is denoted {{$c\mathbf{A}$, $c \cdot \mathbf{A}$, or $\mathbf{A} \cdot c$}}. It is calculated by {{multiplying every element of __A__ by _c_}}: {{$$(c\mathbf{A})_{i, j} = c \cdot \mathbf{A}_{i, j} \qquad \text{where }1 \le i \le m\text{ and }1 \le j \le n$$}}. <!--SR:!2024-09-09,67,310!2025-01-15,156,310!2024-12-01,115,290!2024-08-21,52,290-->
 
 #### subtraction
 
@@ -33,7 +33,7 @@ The _transpose_ of {{an _m_-by-_n_ matrix __A__}} is {{the _n_-by-_m_ matrix den
 
 - see: [matrix multiplication](matrix%20multiplication.md)
 
-_Multiplication_ of two matrices is defined iff {{the number of columns in the left matrix equals the number of rows in the right matrix}}. Given two matrices {{__A__, a _m_-by-_p_ matrix, and __B__, a _p_-by-_n_ matrix}}, the _matrix product_ is denoted {{__AB__, which does not equal __BA__ in general, and __BA__ may even not be defined}}. The matrix product element are given by {{the [dot product](dot%20product.md) between the corresponding row of __A__ and the corresponding column of __B__}}: {{$$(\mathbf{A} \mathbf{B})_{i, j} = \sum_{r = 1}^p \mathbf{A}_{i, r} \mathbf{B}_{r, j} = \mathbf{A}_{i, 1} \mathbf{B}_{1, j} + \mathbf{A}_{i, 2} \mathbf{B}_{2, j} + \cdots + \mathbf{A}_{i, p} \mathbf{B}_{p, j} \qquad \text{where }1 \le i \le m\text{ and }1 \le j \le n$$}}. <!--SR:!2024-09-08,66,310!2024-09-26,74,290!2024-08-14,43,290!2024-09-15,63,270!2024-08-09,38,290-->
+_Multiplication_ of two matrices is defined iff {{the number of columns in the left matrix equals the number of rows in the right matrix}}. Given two matrices {{__A__, a _m_-by-_p_ matrix, and __B__, a _p_-by-_n_ matrix}}, the _matrix product_ is denoted {{__AB__, which does not equal __BA__ in general, and __BA__ may even not be defined}}. The matrix product element are given by {{the [dot product](dot%20product.md) between the corresponding row of __A__ and the corresponding column of __B__}}: {{$$(\mathbf{A} \mathbf{B})_{i, j} = \sum_{r = 1}^p \mathbf{A}_{i, r} \mathbf{B}_{r, j} = \mathbf{A}_{i, 1} \mathbf{B}_{1, j} + \mathbf{A}_{i, 2} \mathbf{B}_{2, j} + \cdots + \mathbf{A}_{i, p} \mathbf{B}_{p, j} \qquad \text{where }1 \le i \le m\text{ and }1 \le j \le n$$}}. <!--SR:!2024-09-08,66,310!2024-09-26,74,290!2024-08-14,43,290!2024-09-15,63,270!2024-11-29,109,290-->
 
 ## linear equation
 

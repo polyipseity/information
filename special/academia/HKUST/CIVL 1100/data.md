@@ -30,7 +30,7 @@ See [Akashi Kaikyo Bridge](../../../../general/Akashi%20Kaikyo%20Bridge.md).
 - bridge type ::: [suspension bridge](../../../../general/suspension%20bridge.md)<!-- flashcard 30fd6583-3351-4146-9125-522db98579b7 --> <!--SR:!2024-09-27,61,274!2024-08-29,97,380-->
 - description ::: suspension bridge in Kobe, Japan <!--SR:!2025-03-15,237,347!2025-05-16,292,375-->
 - image ::: ![Akashi Kaikyo Bridge image](../../../../archives/Wikimedia%20Commons/Akashi%20Bridge.JPG) <!--SR:!2025-04-28,265,360!2024-08-16,84,380-->
-- length ::: 3911 m, longest span: 1991 m <!--SR:!2024-08-10,68,281!2025-06-20,319,372-->
+- length ::: 3911 m, longest span: 1991 m <!--SR:!2025-02-18,190,281!2025-06-20,319,372-->
 
 ## Beijing National Stadium
 
@@ -38,7 +38,7 @@ See [Beijing National Stadium](../../../../general/Beijing%20National%20Stadium)
 
 - description ::: stadium in Beijing, China <!--SR:!2024-12-02,182,310!2025-04-05,299,350-->
 - image ::: ![Beijing National Stadium image](../../../../archives/Wikimedia%20Commons/Beijing%20National%20Stadium%20from%20the%20Central%20Axis%20(20220905140702)%20(cropped).jpg) <!--SR:!2025-07-19,350,380!2024-08-20,88,380-->
-- shape ::: [bird nest](../../../../general/bird%20nest.md) <!--SR:!2024-08-11,92,372!2025-09-09,404,385-->
+- shape ::: [bird nest](../../../../general/bird%20nest.md) <!--SR:!2025-07-20,342,372!2025-09-09,404,385-->
 
 ## Burj Al Arab
 
@@ -54,7 +54,7 @@ See [Burj Al Arab](../../../../general/Burj%20Al%20Arab.md).
 See [Burj Khalifa](../../../../general/Burj%20Khalifa.md).
 
 - description ::: skyscraper in Dubai, United Arab Emirates <!--SR:!2024-11-18,139,297!2024-08-15,96,374-->
-- height ::: architectural: 828 m, tip: 829.8 m, top floor: 585.4 m <!--SR:!2024-08-09,26,261!2024-08-24,102,377-->
+- height ::: architectural: 828 m, tip: 829.8 m, top floor: 585.4 m <!--SR:!2024-08-24,12,241!2024-08-24,102,377-->
 - image ::: ![Burj Khalifa image](../../../../archives/Wikimedia%20Commons/Burj%20Khalifa.jpg) <!--SR:!2024-08-18,86,380!2025-04-18,271,380-->
 - [structural system](../../../../general/structural%20system.md) ::: aluminum, reinforced concrete, steel<!-- flashcard e75e9185-3454-4c54-a9c9-5a05c6b26732 --> <!--SR:!2024-09-03,92,321!2025-02-01,232,330-->
 
@@ -87,15 +87,15 @@ See [Central Plaza (Hong Kong)](../../../../general/Central%20Plaza%20(Hong%20Ko
 See [Channel Tunnel](../../../../general/Channel%20Tunnel.md).
 
 - completion time ::: 1994 <!--SR:!2024-08-22,14,296!2024-10-10,110,376-->
-- rail tunnel length ::: 50.5 km (37.9 km underseas) <!--SR:!2024-08-11,19,276!2024-10-20,125,396-->
+- rail tunnel length ::: 50.5 km (37.9 km underseas) <!--SR:!2024-08-21,9,256!2024-10-20,125,396-->
 
 ## China International Trust and Investment Plaza
 
 See [CITIC Plaza](../../../../general/CITIC%20Plaza.md).
 
-- description ::: super tall skyscraper in Guangzhou, Guangdong, China <!--SR:!2025-02-22,203,292!2024-08-09,90,367-->
+- description ::: super tall skyscraper in Guangzhou, Guangdong, China <!--SR:!2025-02-22,203,292!2025-11-09,454,387-->
 - height ::: architectural: 390.2 m, top floor: 296.9 m <!--SR:!2024-08-28,45,181!2025-02-27,231,352-->
-- image ::: ![China International Trust and Investment Plaza image](../../../../archives/Wikimedia%20Commons/CITIC%20Plaza%202017.jpg) <!--SR:!2024-08-09,77,360!2024-09-08,104,380-->
+- image ::: ![China International Trust and Investment Plaza image](../../../../archives/Wikimedia%20Commons/CITIC%20Plaza%202017.jpg) <!--SR:!2025-05-22,283,360!2024-09-08,104,380-->
 - [structural system](../../../../general/structural%20system.md) ::: reinforced concrete<!-- flashcard ebde3927-b7ca-4808-9e3c-bf6078be3654 --> <!--SR:!2024-09-18,41,340!2024-08-22,90,380-->
 
 ## Colosseum
@@ -103,7 +103,7 @@ See [CITIC Plaza](../../../../general/CITIC%20Plaza.md).
 See [Colosseum](../../../../general/Colosseum.md).
 
 - base widths ::: length: 189 m, width: 156 m <!--SR:!2024-11-25,134,336!2024-10-12,112,376-->
-- construction period ::: AD 72 to AD 80, 8 years <!--SR:!2024-08-09,6,216!2024-12-11,168,396-->
+- construction period ::: AD 72 to AD 80, 8 years <!--SR:!2024-08-25,13,216!2024-12-11,168,396-->
 - description ::: elliptical amphitheater in the center of Rome <!--SR:!2024-08-18,72,376!2024-10-13,113,376-->
 - geographic location ::: Rome <!--SR:!2024-10-13,119,396!2024-10-29,133,396-->
 - height ::: 48 m (4 storeys) <!--SR:!2024-08-15,14,276!2024-11-11,143,396-->
@@ -182,7 +182,7 @@ See [Hoover Dam](../../../../general/Hoover%20Dam.md).
 
 - [dam type](../../../../general/dam.md#types) ::: concrete gravity-arch <!--SR:!2024-09-03,94,320!2024-08-16,97,375-->
 - height ::: 221.4 m <!--SR:!2024-09-29,95,281!2025-02-27,247,367-->
-- image ::: ![Hoover Dam image](../../../../archives/Wikimedia%20Commons/Ansel%20Adams%20-%20National%20Archives%2079-AAB-01.jpg) <!--SR:!2024-08-09,77,360!2024-08-31,97,380-->
+- image ::: ![Hoover Dam image](../../../../archives/Wikimedia%20Commons/Ansel%20Adams%20-%20National%20Archives%2079-AAB-01.jpg) <!--SR:!2025-08-26,379,380!2024-08-31,97,380-->
 - length ::: 379 m <!--SR:!2024-08-16,19,221!2025-02-11,235,370-->
 
 ## International Commerce Centre
@@ -251,7 +251,7 @@ See [Panama Canal](../../../../general/Panama%20Canal.md).
 
 See [Parthenon](../../../../general/Parthenon.md).
 
-- construction period ::: 447 BC to 438 BC, 9 years <!--SR:!2024-08-09,6,216!2024-12-01,159,396-->
+- construction period ::: 447 BC to 438 BC, 9 years <!--SR:!2024-08-15,3,196!2024-12-01,159,396-->
 - dedication ::: Greek goddess Athena <!--SR:!2024-12-08,166,396!2024-11-08,141,396-->
 - description ::: temple on the Athenian Acropolis, Greece, dedicated to the Greek goddess Athena <!--SR:!2024-11-21,135,356!2024-11-06,139,396-->
 - geographic location ::: Athenian Acropolis, Greece <!--SR:!2024-11-29,138,356!2024-10-16,122,396-->
@@ -270,8 +270,8 @@ See [Stonecutters Bridge](../../../../general/Stonecutters%20Bridge.md).
 
 See [Sutong Yangtze River Bridge](../../../../general/Sutong%20Yangtze%20River%20Bridge.md).
 
-- bridge type ::: [cable-stayed bridge](../../../../general/cable-stayed%20bridge.md)<!-- flashcard 30c74f35-b995-41af-8d8c-189c93fb1dfa --> <!--SR:!2024-08-10,78,360!2024-08-23,91,380-->
-- description ::: [cable-stayed bridge](../../../../general/cable-stayed%20bridge.md) in China <!--SR:!2024-08-12,80,310!2025-05-26,316,364-->
+- bridge type ::: [cable-stayed bridge](../../../../general/cable-stayed%20bridge.md)<!-- flashcard 30c74f35-b995-41af-8d8c-189c93fb1dfa --> <!--SR:!2025-05-24,285,360!2024-08-23,91,380-->
+- description ::: [cable-stayed bridge](../../../../general/cable-stayed%20bridge.md) in China <!--SR:!2025-04-08,239,310!2025-05-26,316,364-->
 - image ::: ![Sutong Yangtze River Bridge image](../../../../archives/Wikimedia%20Commons/Sutong%20Yangtze%20River%20Bridge.JPG) <!--SR:!2024-08-21,89,380!2025-05-14,295,380-->
 - length ::: 8206 m, longest span: 1088 m <!--SR:!2024-08-24,25,237!2025-02-02,212,355-->
 
@@ -297,9 +297,9 @@ See [Thames Barrier](../../../../general/Thames%20Barrier.md).
 
 See [Tsing Ma Bridge](../../../../general/Tsing%20Ma%20Bridge.md).
 
-- bridge type ::: [double-decked](../../../../general/deck%20(bridge).md) [suspension bridge](../../../../general/suspension%20bridge.md)<!-- flashcard 54af6d8c-884f-4894-bb1a-ce65254b1063 --> <!--SR:!2024-12-19,156,297!2024-08-10,91,370-->
+- bridge type ::: [double-decked](../../../../general/deck%20(bridge).md) [suspension bridge](../../../../general/suspension%20bridge.md)<!-- flashcard 54af6d8c-884f-4894-bb1a-ce65254b1063 --> <!--SR:!2024-12-19,156,297!2025-11-10,455,390-->
 - description ::: [suspension bridge](../../../../general/suspension%20bridge.md) in [Hong Kong](../../../../general/Hong%20Kong.md) <!--SR:!2025-01-26,227,330!2024-08-17,96,372-->
-- image ::: ![Tsing Ma Bridge image](../../../../archives/Wikimedia%20Commons/Tsing%20Ma%20Bridge%202.jpg) <!--SR:!2024-08-30,97,380!2024-08-11,79,360-->
+- image ::: ![Tsing Ma Bridge image](../../../../archives/Wikimedia%20Commons/Tsing%20Ma%20Bridge%202.jpg) <!--SR:!2024-08-30,97,380!2025-09-05,389,380-->
 - length ::: 2160 m, longest span: 1377 m <!--SR:!2024-11-12,126,280!2024-08-29,97,380-->
 
 ## Turin–Lyon high-speed railway
@@ -314,7 +314,7 @@ See [Turin–Lyon high-speed railway](../../../../general/Turin–Lyon%20high-sp
 See [Two Prudential Plaza](../../../../general/Two%20Prudential%20Plaza.md).
 
 - description ::: 64-story skyscraper located in the Loop area of Chicago, Illinois <!--SR:!2024-09-03,91,320!2025-08-31,399,385-->
-- height ::: architectural: 303 m, top floor: 250 m <!--SR:!2024-08-12,4,181!2024-08-19,98,364-->
+- height ::: architectural: 303 m, top floor: 250 m <!--SR:!2024-08-17,5,181!2024-08-19,98,364-->
 - image ::: ![Two Prudential Plaza image](../../../../archives/Wikimedia%20Commons/Two%20Prudential%20Plaza%20Chicago%20in%20May%202016.jpg) <!--SR:!2024-08-14,82,360!2024-09-14,39,340-->
 - [structural system](../../../../general/structural%20system.md) ::: reinforced concrete<!-- flashcard ecbdac25-22dc-429d-9976-d49408b1478d --> <!--SR:!2024-09-06,38,340!2024-08-27,94,380-->
 
@@ -322,6 +322,6 @@ See [Two Prudential Plaza](../../../../general/Two%20Prudential%20Plaza.md).
 
 See [Water Cube](../../../../general/Water%20Cube.md).
 
-- description ::: swimming center in Beijing, China <!--SR:!2025-04-14,290,346!2024-08-12,93,374-->
+- description ::: swimming center in Beijing, China <!--SR:!2025-04-14,290,346!2025-11-30,475,394-->
 - image ::: ![Water Cube image](../../../../archives/Wikimedia%20Commons/国家游泳中心夜景.jpg) <!--SR:!2024-09-02,99,380!2024-09-12,108,380-->
 - shape ::: cube covered with bubbles <!--SR:!2025-03-19,264,370!2024-12-31,207,330-->

@@ -57,7 +57,7 @@ The content is in teaching order.
   - [§ how](../../../market%20segmentation.md#how)
   - [§ segmentation variables](../../../market%20segmentation.md#segmentation%20variables)
 - market size
-  - market size acronyms and names ::: TAM: total available market, SAM: serviceable available market, SOM: serviceable obtainable market <!--SR:!2024-08-15,75,335!2024-08-09,70,335-->
+  - market size acronyms and names ::: TAM: total available market, SAM: serviceable available market, SOM: serviceable obtainable market <!--SR:!2024-08-15,75,335!2025-06-30,322,355-->
   - market size importance ::: Startups use these metrics to analyze business viability and for fundraising purposes. <!--SR:!2024-08-19,77,335!2024-08-14,74,335-->
   - [difference between TAM, SAM, and SOM](../../../../general/total%20addressable%20market.md#difference%20between%20TAM,%20SAM,%20and%20SOM)
   - [total available market](../../../../general/total%20addressable%20market.md) (TAM)
@@ -67,8 +67,8 @@ The content is in teaching order.
   - [serviceable obtainable market](../../../../general/target%20market.md) (SOM)
     - [§ importance](../../../../general/target%20market.md#importance)
   - market size correctness ::: There is no correct answer for market size, but it should be reasonable to others. <!--SR:!2024-08-15,75,335!2024-08-13,74,335-->
-  - extra market sizes ::: Early adopters: The market size the company can achieve at the very start. Smaller than SOM. <!--SR:!2024-08-17,77,335!2024-08-10,71,335-->
-- visualization ::: Visualization is important to bring your point across. <!--SR:!2024-08-17,78,327!2024-08-11,72,335-->
+  - extra market sizes ::: Early adopters: The market size the company can achieve at the very start. Smaller than SOM. <!--SR:!2024-08-17,77,335!2025-07-04,326,355-->
+- visualization ::: Visualization is important to bring your point across. <!--SR:!2024-08-17,78,327!2025-07-09,331,355-->
 - reading assignment: [d.school design thinking bootleg § process modules](../../../d.school%20design%20thinking%20bootleg.md#process%20modules), [d.school design thinking bootleg § methods and tools](../../../d.school%20design%20thinking%20bootleg.md#methods%20and%20tools)
 - [assignment W4](assignment%20W4/assignment%20W4.md)
 
@@ -87,7 +87,7 @@ The content is in teaching order.
 - [d.school design thinking bootleg § define](../../../d.school%20design%20thinking%20bootleg.md#define)
 - [d.school design thinking bootleg § methods and tools](../../../d.school%20design%20thinking%20bootleg.md#methods%20and%20tools)
   - "how might we" statement
-    - "how might we" statement examples ::: "How might we help pet owners keep the floor from covering with hair?" instead of "Get the best broom!". "How might we help a person access the very top shelves of a library?" instead of "Get a ladder!". <!--SR:!2024-11-12,124,295!2024-08-12,73,335-->
+    - "how might we" statement examples ::: "How might we help pet owners keep the floor from covering with hair?" instead of "Get the best broom!". "How might we help a person access the very top shelves of a library?" instead of "Get a ladder!". <!--SR:!2024-11-12,124,295!2025-07-16,338,355-->
 - reading assignment: [value proposition canvas](../../../value%20proposition%20canvas.md)
 - [assignment W5](assignment%20W5/assignment%20W5.md)
 
@@ -164,12 +164,12 @@ The content is in teaching order.
   - time limit: 6 minutes
 - [consultant](../../../../general/consultant.md)
   - consultant job prospects
-    - consultant after 1 to 2 years ::: Analyst, Associate, Specialist: doing the work; enter from BA, BS, MPhil, or MSc <!--SR:!2024-08-09,47,321!2024-08-24,59,341-->
+    - consultant after 1 to 2 years ::: Analyst, Associate, Specialist: doing the work; enter from BA, BS, MPhil, or MSc <!--SR:!2025-01-11,152,321!2024-08-24,59,341-->
     - consultant after 2 to 4 years ::: As. Consultant, Consultant, Sr. Consultant: doing the work; enter from JD, MBA, MD, or PhD, exit to project member of big firms or manager in small firms, and further top MBA <!--SR:!2024-09-03,67,341!2024-12-30,144,321-->
     - consultant after 4 to 6 years ::: Eng. Manager, Mg. Consultant, Project Leader: managing the work; exit to manager of big firms or director of small firms, and further top EMBA <!--SR:!2024-09-21,44,281!2024-09-28,93,361-->
     - consultant after 6 to 9 years ::: As. Partner, Principal: selling the work; exit to director of big firms or general manager (GM) of small firms, and further top EMBA <!--SR:!2024-10-27,98,301!2025-01-04,149,321-->
     - consultant after 9 years or more ::: Director, Partner, VP: managing the business; exit to CEO or retire rich <!--SR:!2024-08-23,59,341!2024-09-24,89,361-->
-- nature of complex problems ::: modeled by time-varying multi-variable optimization problems with constraints <!--SR:!2024-08-12,39,341!2024-09-26,91,361-->
+- nature of complex problems ::: modeled by time-varying multi-variable optimization problems with constraints <!--SR:!2025-02-13,185,361!2024-09-26,91,361-->
   - solving complex problems ::: MECE frameworks for patterns, 5-step persuasive selling for presentation <!--SR:!2024-09-21,87,361!2024-11-23,119,321-->
 - [Pareto principle](../../../../general/Pareto%20principle.md)
 - "less is more" ::: In the digital age, there is too much information (digital garbage), so they need to be distilled. Also see [DIKW pyramid](../../../../general/DIKW%20pyramid.md). <!--SR:!2024-08-23,59,341!2024-09-21,86,361-->
@@ -235,7 +235,7 @@ The content is in teaching order.
 - time: 2024-04-16T18:00:00+08:00/2024-04-16T20:30:00+08:00
 - [assignment W11](assignment%20W11/assignment%20W11.md) takeaways
   - general case analysis reading takeaways ::: read twice, first fast, then slow and take notes <!--SR:!2024-09-08,72,357!2024-10-10,102,377-->
-- McKinsey 7Ss framework ::: organization analysis <!--SR:!2024-08-10,51,357!2024-10-05,98,377-->
+- McKinsey 7Ss framework ::: organization analysis <!--SR:!2025-04-14,245,377!2024-10-05,98,377-->
   - [McKinsey 7S Framework](../../../../general/McKinsey%207S%20Framework.md)
     - [§ objective](../../../../general/McKinsey%207S%20Framework.md#objective)
 - [PPTG change impact framework](../../../PPTG%20change%20impact%20framework.md)

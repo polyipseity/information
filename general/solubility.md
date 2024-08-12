@@ -348,11 +348,11 @@ return await memorize_map(
 - [ammonium sulfite](ammonium%20sulfite.md)::<span style="color: green;">soluble</span> <!--SR:!2026-12-15,887,338-->
 - [barium hydroxide](barium%20hydroxide.md)::<span style="color: green;">soluble</span> <!--SR:!2024-11-04,229,258-->
 - [barium oxide](barium%20oxide.md)::<span style="color: violet;">reacts</span> <!--SR:!2024-10-25,241,278-->
-- [barium sulfate](barium%20sulfate.md)::<span style="color: red;">insoluble</span> <!--SR:!2024-08-11,3,150-->
+- [barium sulfate](barium%20sulfate.md)::<span style="color: red;">insoluble</span> <!--SR:!2024-08-16,5,150-->
 - [calcium hydroxide](calcium%20hydroxide.md)::<span style="background-color: black; color: yellow;">slightly soluble</span> <!--SR:!2025-09-23,470,298-->
 - [calcium oxide](calcium%20oxide.md)::<span style="color: violet;">reacts</span> <!--SR:!2025-01-01,216,258-->
 - [calcium sulfate](calcium%20sulfate.md)::<span style="background-color: black; color: yellow;">slightly soluble</span> <!--SR:!2024-11-11,153,198-->
-- [calcium sulfide](calcium%20sulfide.md)::<span style="color: violet;">reacts</span> <!--SR:!2024-08-10,20,130-->
+- [calcium sulfide](calcium%20sulfide.md)::<span style="color: violet;">reacts</span> <!--SR:!2024-09-03,24,130-->
 - [calcium sulfite](calcium%20sulfite.md)::<span style="color: red;">insoluble</span> <!--SR:!2024-08-29,23,130-->
 - [copper(I) bromide](copper(I)%20bromide.md)::<span style="color: red;">insoluble</span> <!--SR:!2025-02-16,288,258-->
 - [copper(I) chloride](copper(I)%20chloride.md)::<span style="color: red;">insoluble</span> <!--SR:!2024-12-29,279,278-->
@@ -394,7 +394,7 @@ return await memorize_map(
 - [sodium sulfite](sodium%20sulfite.md)::<span style="color: green;">soluble</span> <!--SR:!2025-10-11,460,278-->
 - [strontium hydroxide](strontium%20hydroxide.md)::<span style="background-color: black; color: yellow;">slightly soluble</span> <!--SR:!2024-08-14,18,130-->
 - [strontium oxide](strontium%20oxide.md)::<span style="color: violet;">reacts</span> <!--SR:!2025-03-09,321,278-->
-- [strontium sulfate](strontium%20sulfate.md)::<span style="background-color: black; color: yellow;">slightly soluble</span> <!--SR:!2024-08-11,50,158-->
+- [strontium sulfate](strontium%20sulfate.md)::<span style="background-color: black; color: yellow;">slightly soluble</span> <!--SR:!2024-10-28,78,158-->
 - [thallium(I) hydroxide](thallium(I)%20hydroxide.md)::<span style="color: green;">soluble</span> <!--SR:!2024-10-21,195,258-->
 - [thallium(I) oxide](thallium(I)%20oxide.md)::<span style="color: violet;">reacts</span> <!--SR:!2025-12-30,519,278-->
 - [thallium(III) oxide](thallium(III)%20oxide.md)::<span style="color: red;">insoluble</span> <!--SR:!2024-08-27,71,238-->

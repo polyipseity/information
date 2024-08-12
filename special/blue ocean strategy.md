@@ -11,7 +11,7 @@ tags:
 
 ## red ocean vs. blue ocean
 
-Red ocean is about {{competing in existing market space and exploiting existing demand}}. {{Either differentiation or low cost}} can be satisfied. <!--SR:!2024-12-12,126,290!2024-08-09,45,290-->
+Red ocean is about {{competing in existing market space and exploiting existing demand}}. {{Either differentiation or low cost}} can be satisfied. <!--SR:!2024-12-12,126,290!2024-12-20,130,290-->
 
 Blue ocean is about {{creating uncontested market space and capturing new demand}}. {{Both differentiation and low cost, i.e. value innovation}}, can be satisfied simultaneously. Value innovation can be represented by {{2 triangles pointing towards each other, with the 2 triangle tips overlapping in the middle}}. The upper triangle represents {{cost reduction while the lower triangle represents value creation}}, with the overlap {{representing satisfying both at the same time, hence value creation}}. <!--SR:!2024-08-18,56,310!2024-08-13,48,290!2024-09-24,79,324!2024-09-21,76,324!2024-09-19,74,324-->
 

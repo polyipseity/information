@@ -67,7 +67,7 @@ C$: [cost structure](#cost%20structure)
 - R$: [revenue streams](#revenue%20streams)→:::←KR: [key resources](#key%20resources) <!--SR:!2024-10-20,115,257!2024-09-26,101,257-->
 - KR: [key resources](#key%20resources)→:::←KA: [key activities](#key%20activities) <!--SR:!2024-11-16,128,257!2025-03-14,218,274-->
 - KA: [key activities](#key%20activities)→:::←KP: [key partnerships](#key%20partnerships) <!--SR:!2024-12-02,139,257!2024-08-17,57,254-->
-- KP: [key partnerships](#key%20partnerships)→:::←C$: [cost structure](#cost%20structure) <!--SR:!2024-08-12,47,257!2024-08-31,98,274-->
+- KP: [key partnerships](#key%20partnerships)→:::←C$: [cost structure](#cost%20structure) <!--SR:!2024-09-08,27,237!2024-08-31,98,274-->
 - C$: [cost structure](#cost%20structure)→:::←_(end)_ <!--SR:!2025-01-30,219,314!2025-01-14,207,314-->
 
 <!--/pytextgen-->
@@ -112,7 +112,7 @@ segmented: splitting slightly different customer segments
 - diversified: serving unrelated customer segments→:::←mass market: not distinguishing between customer segments <!--SR:!2024-09-10,84,237!2024-09-21,96,254-->
 - mass market: not distinguishing between customer segments→:::←multi-sided platforms: serving interdependent customer segments <!--SR:!2024-09-05,33,254!2024-09-12,109,297-->
 - multi-sided platforms: serving interdependent customer segments→:::←niche market: focusing on specific, specialized customer segments <!--SR:!2024-10-27,120,257!2024-09-12,79,254-->
-- niche market: focusing on specific, specialized customer segments→:::←segmented: splitting slightly different customer segments <!--SR:!2024-09-30,100,254!2024-08-09,1,137-->
+- niche market: focusing on specific, specialized customer segments→:::←segmented: splitting slightly different customer segments <!--SR:!2024-09-30,100,254!2024-08-13,1,137-->
 - segmented: splitting slightly different customer segments→:::←_(end)_ <!--SR:!2025-01-22,185,274!2024-10-31,116,254-->
 
 <!--/pytextgen-->
@@ -165,15 +165,15 @@ risk reduction
 
 - _(begin)_→:::←accessibility <!--SR:!2024-09-07,100,277!2025-04-18,281,334-->
 - accessibility→:::←brand or status <!--SR:!2024-10-01,103,254!2025-02-15,196,274-->
-- brand or status→:::←convenience or usability <!--SR:!2024-08-11,13,214!2024-09-03,44,214-->
+- brand or status→:::←convenience or usability <!--SR:!2024-09-10,29,214!2024-09-03,44,214-->
 - convenience or usability→:::←cost reduction <!--SR:!2024-10-11,108,254!2024-08-23,43,237-->
 - cost reduction→:::←customization <!--SR:!2024-08-27,94,274!2024-09-01,29,157-->
-- customization→:::←design <!--SR:!2024-08-11,76,277!2024-11-27,129,234-->
+- customization→:::←design <!--SR:!2024-09-20,39,257!2024-11-27,129,234-->
 - design→:::←newness <!--SR:!2024-09-10,89,257!2024-09-15,54,254-->
 - newness→:::←performance <!--SR:!2024-12-31,168,277!2024-09-26,99,257-->
 - performance→:::←performing the job well <!--SR:!2024-10-23,129,297!2024-09-03,92,274-->
 - performing the job well→:::←price <!--SR:!2024-10-20,139,294!2024-12-24,166,274-->
-- price→:::←risk reduction <!--SR:!2025-02-24,204,274!2024-08-12,82,274-->
+- price→:::←risk reduction <!--SR:!2025-02-24,204,274!2025-03-28,228,274-->
 - risk reduction→:::←_(end)_ <!--SR:!2024-10-03,123,297!2024-12-01,138,257-->
 
 <!--/pytextgen-->
@@ -219,7 +219,7 @@ personal assistance
 - _(begin)_→:::←automated services <!--SR:!2024-09-16,110,294!2024-12-08,178,310-->
 - automated services→:::←co-creation <!--SR:!2024-11-21,130,254!2025-01-04,167,274-->
 - co-creation→:::←communities <!--SR:!2024-10-22,116,254!2024-10-13,133,294-->
-- communities→:::←dedicated personal assistance <!--SR:!2024-08-11,79,277!2024-09-09,98,274-->
+- communities→:::←dedicated personal assistance <!--SR:!2025-03-26,226,277!2024-09-09,98,274-->
 - dedicated personal assistance→:::←personal assistance <!--SR:!2025-02-04,208,317!2025-01-10,191,317-->
 - personal assistance→:::←_(end)_ <!--SR:!2025-01-23,199,317!2025-02-21,221,317-->
 
@@ -268,7 +268,7 @@ subscription fee
 - asset sale→:::←brokerage fee <!--SR:!2024-12-04,152,274!2024-08-28,50,254-->
 - brokerage fee→:::←lending, renting, or leasing <!--SR:!2024-08-18,28,237!2024-10-31,121,254-->
 - lending, renting, or leasing→:::←licensing <!--SR:!2024-08-23,87,257!2024-09-05,35,254-->
-- licensing→:::←usage fee <!--SR:!2024-08-10,76,274!2024-08-31,30,254-->
+- licensing→:::←usage fee <!--SR:!2025-03-07,207,274!2024-08-31,30,254-->
 - usage fee→:::←subscription fee <!--SR:!2024-10-16,111,254!2025-02-26,206,277-->
 - subscription fee→:::←_(end)_ <!--SR:!2024-11-06,142,294!2024-10-29,132,277-->
 
@@ -298,4 +298,4 @@ Business model fit can be achieved by {{reiteration between changing the value p
 
 ## comparison with other models
 
-The business model canvas can be grouped into {{4 sections: "how" for key blocks, "what" for value propositions, "who" for customer blocks, and "how much" for cost structure and revenue streams}}. It can also be grouped into {{3 sections: "feasibility" for key blocks, "desirability" for value propositions and customer blocks, and "viability" for cost structure and revenue streams}}. This is similar to {{[design thinking](../general/design%20thinking.md)}}. <!--SR:!2024-11-02,118,289!2024-09-24,50,250!2024-08-12,72,329-->
+The business model canvas can be grouped into {{4 sections: "how" for key blocks, "what" for value propositions, "who" for customer blocks, and "how much" for cost structure and revenue streams}}. It can also be grouped into {{3 sections: "feasibility" for key blocks, "desirability" for value propositions and customer blocks, and "viability" for cost structure and revenue streams}}. This is similar to {{[design thinking](../general/design%20thinking.md)}}. <!--SR:!2024-11-02,118,289!2024-09-24,50,250!2025-04-05,236,329-->

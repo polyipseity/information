@@ -103,7 +103,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 6. 44/43 solar days
 >
 > - solution: {{3}}
-> - explanation: {{The planet is in retrograde motion. Hence, the number of sidereal days per orbital period is $42 - 1 = 41\text{ sidereal days}$. Thus each sidereal day is $\frac {1 / 41} {1 / 42} = \frac {42} {41}\text{ solar days}$.}} <!--SR:!2024-10-12,68,277!2024-08-10,27,277-->
+> - explanation: {{The planet is in retrograde motion. Hence, the number of sidereal days per orbital period is $42 - 1 = 41\text{ sidereal days}$. Thus each sidereal day is $\frac {1 / 41} {1 / 42} = \frac {42} {41}\text{ solar days}$.}} <!--SR:!2024-10-12,68,277!2024-10-25,74,277-->
 
 ## 2024-07-02
 
@@ -315,7 +315,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 6. No width broadening but blue-shifted.
 >
 > - solution: {{1}}
-> - explanation: {{First, the star is not moving, so the spectral line should be unshifted. Now consider the surface of a very fast rotating star. In particular, consider the left and right sides of the rotating star. The surface of one side is approaching us very quickly, and that of the other side is moving away from us very quickly as well. This would mean part of the light from the star is blue-shifted and another part is red-shifted. The result is that the spectral line broadens.}} <!--SR:!2024-08-11,14,308!2024-08-16,19,328-->
+> - explanation: {{First, the star is not moving, so the spectral line should be unshifted. Now consider the surface of a very fast rotating star. In particular, consider the left and right sides of the rotating star. The surface of one side is approaching us very quickly, and that of the other side is moving away from us very quickly as well. This would mean part of the light from the star is blue-shifted and another part is red-shifted. The result is that the spectral line broadens.}} <!--SR:!2024-10-10,59,328!2024-08-16,19,328-->
 
 <!-- markdownlint MD028 -->
 
@@ -329,7 +329,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 6. almost no shift for both stars
 >
 > - solution: {{6}}
-> - explanation: {{When the system is dimmer than what it normally is, it implies one star is in front of the other star. Consider that both stars are always opposite in their orbits. So the stars must be in the part of the orbit closest to or farthest from Earth (this is true for circular orbits, but gets less true the more elliptic the orbits are). That means both stars are moving mostly transversal to Earth, taking into consideration that the system as a whole is not moving. So there should be almost no Doppler shift.}} <!--SR:!2024-08-10,13,308!2024-08-31,25,288-->
+> - explanation: {{When the system is dimmer than what it normally is, it implies one star is in front of the other star. Consider that both stars are always opposite in their orbits. So the stars must be in the part of the orbit closest to or farthest from Earth (this is true for circular orbits, but gets less true the more elliptic the orbits are). That means both stars are moving mostly transversal to Earth, taking into consideration that the system as a whole is not moving. So there should be almost no Doppler shift.}} <!--SR:!2024-10-05,54,328!2024-08-31,25,288-->
 
 ## 2024-07-23
 
@@ -342,7 +342,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 5. 4.92 W/m^2
 >
 > - solution: {{2}}
-> - explanation: {{Since both magnitudes are apparent, they are already directly describing the power of light per unit area reaching Earth, so we do not need to consider distance. Calculate the factor of the Moon's intensity over the Sun using the definition: $$f = 100^{-(-12.74 - (-26.832)) / 5} = 100^{-14.092 / 5} = 100^{-2.8184} \approx 2.30780973 \times 10^{-6}$$. Then multiply the solar constant by the factor to get the answer: $$I = 1370 \cdot 2.30780973 \times 10^{-6} \approx 0.0031616993~\mathrm{W/m^2}$$. So the answer is 0.00316 W/m<sup>2</sup>,}} <!--SR:!2024-08-09,12,311!2024-08-09,12,311-->
+> - explanation: {{Since both magnitudes are apparent, they are already directly describing the power of light per unit area reaching Earth, so we do not need to consider distance. Calculate the factor of the Moon's intensity over the Sun using the definition: $$f = 100^{-(-12.74 - (-26.832)) / 5} = 100^{-14.092 / 5} = 100^{-2.8184} \approx 2.30780973 \times 10^{-6}$$. Then multiply the solar constant by the factor to get the answer: $$I = 1370 \cdot 2.30780973 \times 10^{-6} \approx 0.0031616993~\mathrm{W/m^2}$$. So the answer is 0.00316 W/m<sup>2</sup>,}} <!--SR:!2024-10-02,51,331!2024-09-17,36,311-->
 
 <!-- markdownlint MD028 -->
 
@@ -355,7 +355,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 5. 2500000 km
 >
 > - solution: {{2}}
-> - explanation: {{Using the Rayleigh criterion, the angular resolution in radians is $$\theta = 1.22 \frac {500 \times 10^{-9} } {3 \times 10^{-3} } \approx 0.000203333333~\mathrm{rad}$$. Setup a trigonometric equation: $$\tan (\theta / 2) = \frac {5 / 2} d$$, where $d$ is the distance to the Great Wall (in meters). Since the angle is small, we can use small angle approximation to save work: $$\theta / 2 \approx \frac {5 / 2} d \implies \theta \approx \frac 5 d \implies d \approx \frac 5 \theta = \frac 5 {0.000203333333} \approx 24590.16~\mathrm{m} \approx 24.6~\mathrm{km}$$. So the answer is 25 km.}} <!--SR:!2024-08-16,19,331!2024-08-11,14,311-->
+> - explanation: {{Using the Rayleigh criterion, the angular resolution in radians is $$\theta = 1.22 \frac {500 \times 10^{-9} } {3 \times 10^{-3} } \approx 0.000203333333~\mathrm{rad}$$. Setup a trigonometric equation: $$\tan (\theta / 2) = \frac {5 / 2} d$$, where $d$ is the distance to the Great Wall (in meters). Since the angle is small, we can use small angle approximation to save work: $$\theta / 2 \approx \frac {5 / 2} d \implies \theta \approx \frac 5 d \implies d \approx \frac 5 \theta = \frac 5 {0.000203333333} \approx 24590.16~\mathrm{m} \approx 24.6~\mathrm{km}$$. So the answer is 25 km.}} <!--SR:!2024-08-16,19,331!2024-09-26,45,311-->
 
 <!-- markdownlint MD028 -->
 
@@ -414,7 +414,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 5. 5400 solar masses
 >
 > - solution: {{4}}
-> - explanation: {{Assuming the fuel burnt is proportional to luminosity. Then, the lifetime of a star is: $$\tau = M / L \propto M^{-3}$$. Derive the proportionality between mass and luminosity: $$M / L \propto M^{-3} \implies M^4 \propto L \implies M \propto L^{0.25}$$. So the star mass is predicted to be: $$(2147\,483\,647)^{0.25} \approx 215.269482~\mathrm{solar\ masses}$$. So the answer is 220 solar masses.}} <!--SR:!2024-08-10,13,311!2024-09-13,36,311-->
+> - explanation: {{Assuming the fuel burnt is proportional to luminosity. Then, the lifetime of a star is: $$\tau = M / L \propto M^{-3}$$. Derive the proportionality between mass and luminosity: $$M / L \propto M^{-3} \implies M^4 \propto L \implies M \propto L^{0.25}$$. So the star mass is predicted to be: $$(2147\,483\,647)^{0.25} \approx 215.269482~\mathrm{solar\ masses}$$. So the answer is 220 solar masses.}} <!--SR:!2024-09-20,39,311!2024-09-13,36,311-->
 
 ## 2024-07-25
 
@@ -582,7 +582,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 5. 1 sidereal day
 >
 > - solution: {{3}}
-> - explanation: {{The planet is in retrograde motion. Hence, the number of solar days per orbital period is $10 + 1 = 11~\mathrm{solar\ days}$. Thus each solar day is $\frac {1 / 11} {1 / 10} = \frac {10} {11}~\mathrm{sidereal\ days}$.}} <!--SR:!2024-08-10,4,330!2024-08-10,4,330-->
+> - explanation: {{The planet is in retrograde motion. Hence, the number of solar days per orbital period is $10 + 1 = 11~\mathrm{solar\ days}$. Thus each solar day is $\frac {1 / 11} {1 / 10} = \frac {10} {11}~\mathrm{sidereal\ days}$.}} <!--SR:!2024-08-29,17,350!2024-08-26,14,330-->
 
 ## strip sequence questions
 

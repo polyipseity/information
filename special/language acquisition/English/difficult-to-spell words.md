@@ -30,11 +30,11 @@ English
 - [buoyancy](https://en.wiktionary.org/wiki/buoyancy) ::: (b\_y) The upward [force](../../../general/force.md) exerted by a [fluid](../../../general/fluid.md) on a partly or fully immersed body. <!--SR:!2026-04-09,627,324!2024-12-08,244,324-->
 - [collinear](https://en.wiktionary.org/wiki/collinear) ::: (c\_r) Lying on the same [line](../../../general/line%20(geometry).md). <!--SR:!2024-12-20,276,344!2025-01-06,290,344-->
 - [complementary](https://en.wiktionary.org/wiki/complementary) ::: (c\_y) Acting as a complement to make something else whole. <!--SR:!2024-12-31,285,344!2024-11-17,249,344-->
-- [complimentary](https://en.wiktionary.org/wiki/complimentary) ::: (c\_y) In the nature of a [compliment](../../../general/compliment.md); or free, provided at no charge. <!--SR:!2024-08-10,50,244!2024-09-26,192,324-->
+- [complimentary](https://en.wiktionary.org/wiki/complimentary) ::: (c\_y) In the nature of a [compliment](../../../general/compliment.md); or free, provided at no charge. <!--SR:!2024-12-08,118,244!2024-09-26,192,324-->
 - [consequent](https://en.wiktionary.org/wiki/consequent) ::: (c\_t) Following as a result, inference, or natural effect. <!--SR:!2025-04-16,335,392!2024-08-28,145,392-->
 - [criterion](https://en.wiktionary.org/wiki/criterion) ::: (c\_n) A standard or test to judge and compare things. <!--SR:!2024-09-04,175,410!2025-08-27,409,350-->
 - [deliver](https://en.wiktionary.org/wiki/deliver) ::: (d\_r) To bring or transport something to its destination. <!--SR:!2025-10-25,473,396!2024-08-31,138,396-->
-- [diagnosis](https://en.wiktionary.org/wiki/diagnosis) ::: (d\_s) The process, or an instance of, of identification of the cause and nature of something. <!--SR:!2025-11-18,485,392!2024-08-09,149,413-->
+- [diagnosis](https://en.wiktionary.org/wiki/diagnosis) ::: (d\_s) The process, or an instance of, of identification of the cause and nature of something. <!--SR:!2025-11-18,485,392!2026-11-28,838,433-->
 - [differentiate](https://en.wiktionary.org/wiki/differentiate) ::: (d\_e) To make different. <!--SR:!2025-03-02,328,344!2024-12-14,248,324-->
 - [dissipative](https://en.wiktionary.org/wiki/dissipative) ::: (d\_e) That dissipates or causes dissipation. <!--SR:!2025-04-06,356,344!2025-02-04,305,344-->
 - [esophagus](https://en.wiktionary.org/wiki/esophagus) ::: (e\_s) The tube that carries [food](../../../general/food.md) from the [pharynx](../../../general/pharynx.md) to the [stomach](../../../general/stomach.md), [American spelling](../../../general/American%20and%20British%20English%20spelling%20differences.md). <!--SR:!2024-12-06,245,324!2024-09-30,173,264-->
@@ -53,7 +53,7 @@ English
 - [intuition](https://en.wiktionary.org/wiki/intuition) ::: (i\_n) Acquiring [knowledge](../../../general/knowledge.md) without using conscious [reasoning](../../../general/reason.md). <!--SR:!2025-02-11,312,344!2025-03-05,334,344-->
 - [laryngeal](https://en.wiktionary.org/wiki/laryngeal) ::: (l\_l) Of or pertaining to the [larynx](../../../general/larynx.md). <!--SR:!2025-02-23,324,344!2025-03-08,334,344-->
 - [larynx](https://en.wiktionary.org/wiki/larynx) ::: (l\_x) An [organ](../../../general/organ%20(anatomy).md) involved in [breathing](../../../general/breathing.md), [sound](../../../general/sound.md) production, and protection of the [trachea](../../../general/trachea.md). <!--SR:!2024-08-31,63,284!2024-11-14,223,324-->
-- [narcissism](https://en.wiktionary.org/wiki/narcissism) ::: (n\_m) Excessive [love](../../../general/love.md) of oneself. <!--SR:!2024-08-22,169,408!2024-08-09,54,328-->
+- [narcissism](https://en.wiktionary.org/wiki/narcissism) ::: (n\_m) Excessive [love](../../../general/love.md) of oneself. <!--SR:!2024-08-22,169,408!2025-02-10,182,328-->
 - [negligible](https://en.wiktionary.org/wiki/negligible) ::: (n\_e) Can be not considered as it is too small or unimportant. <!--SR:!2025-02-26,324,344!2024-10-03,181,284-->
 - [nondimensionalization](https://en.wiktionary.org/wiki/nondimensionalization) ::: (n\_n) The partial of full removal of [units](../../../general/unit%20of%20measurement.md) from an [equation](../../../general/equation.md) by a [change of variables](../../../general/change%20of%20variables.md). <!--SR:!2025-03-03,329,344!2025-10-13,440,304-->
 - [occupation](https://en.wiktionary.org/wiki/occupation) ::: (o\_n) An activity or task one usually occupies oneself. <!--SR:!2026-01-01,535,412!2025-04-22,351,392-->
@@ -68,7 +68,7 @@ English
 - [polynomial](https://en.wiktionary.org/wiki/polynomial) ::: (p\_l) A [mathematical expression](../../../general/expression%20(mathematics).md) that is a [sum](../../../general/summation.md) of [constant](../../../general/constant%20(mathematics).md) [coefficients](../../../general/coefficient.md) multipled with [indeterminates](../../../general/indeterminate%20(variable).md) raised to a nonnegative [integer](../../../general/integer.md) [power](../../../general/exponentiation.md). <!--SR:!2024-11-20,229,324!2024-09-24,205,324-->
 - [preamble](https://en.wiktionary.org/wiki/preamble) ::: (p\_e) An introduction to a [document](../../../general/document.md). <!--SR:!2025-06-02,410,372!2025-01-24,284,352-->
 - [precedence](https://en.wiktionary.org/wiki/precedence) ::: (p\_e) The state of preceding in importance or priority. <!--SR:!2026-08-30,770,430!2025-01-08,254,370-->
-- [proprietary](https://en.wiktionary.org/wiki/proprietary) ::: (p\_y) Of or relating to [property](../../../general/property.md) or ownership. <!--SR:!2024-08-12,116,376!2024-08-14,6,176-->
+- [proprietary](https://en.wiktionary.org/wiki/proprietary) ::: (p\_y) Of or relating to [property](../../../general/property.md) or ownership. <!--SR:!2026-03-31,596,396!2024-08-14,6,176-->
 - [receipt](https://en.wiktionary.org/wiki/receipt) ::: (r\_t) The act of receiving or having been received. <!--SR:!2025-12-05,507,388!2024-08-29,83,288-->
 - [recipe](https://en.wiktionary.org/wiki/recipe) ::: (r\_e) A set of instructions for making [food](../../../general/food.md). <!--SR:!2025-07-06,423,408!2025-01-24,266,388-->
 - [recipient](https://en.wiktionary.org/wiki/recipient) ::: (r\_t) One who receives. <!--SR:!2026-01-23,558,408!2024-09-23,116,308-->
@@ -76,7 +76,7 @@ English
 - [recruit](https://en.wiktionary.org/wiki/recruit) ::: (r\_t) Enroll new [employees](../../../general/employment.md#employee). <!--SR:!2025-02-26,327,372!2025-03-18,347,372-->
 - [reservoir](https://en.wiktionary.org/wiki/reservoir) ::: (r\_r) A source or sink of something. <!--SR:!2025-01-20,304,330!2025-01-21,269,290-->
 - [rudimentary](https://en.wiktionary.org/wiki/rudimentary) ::: (r\_y) Basic, minimal. <!--SR:!2025-04-28,381,372!2024-09-25,209,352-->
-- [sacred](https://en.wiktionary.org/wiki/sacred) ::: (s\_d) Not to be profaned or violated; inviolable. <!--SR:!2024-08-09,114,376!2024-09-16,86,336-->
+- [sacred](https://en.wiktionary.org/wiki/sacred) ::: (s\_d) Not to be profaned or violated; inviolable. <!--SR:!2025-10-14,428,376!2024-09-16,86,336-->
 - [scarce](https://en.wiktionary.org/wiki/scarce) ::: (s\_e) Uncommon, rare. <!--SR:!2025-08-20,394,376!2024-08-17,103,336-->
 - [scared](https://en.wiktionary.org/wiki/scared) ::: (s\_d) Feeling fear; afraid, frightened. <!--SR:!2026-01-07,529,396!2024-08-26,133,396-->
 - [scissors](https://en.wiktionary.org/wiki/scissors) ::: (s\_s) A tool used for cutting thin material, consisting of two crossing blades attached at a pivot point in such a way that the blades slide across each other when the handles are closed. <!--SR:!2024-09-17,145,332!2025-06-30,396,392-->

@@ -132,7 +132,7 @@ return _chain.from_iterable(await _gather(
 
 <!--pytextgen generate section="d123"--><!-- The following content is generated at 2024-01-31T12:32:22.775056+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←`=` <!--SR:!2024-08-10,77,270!2024-10-29,155,290-->
+- _(begin)_→:::←`=` <!--SR:!2025-03-09,209,270!2024-10-29,155,290-->
 - `=`→:::←`<` <!--SR:!2024-09-09,147,290!2025-02-19,273,310-->
 - `<`→:::←`>` <!--SR:!2025-01-12,268,330!2024-11-24,210,310-->
 - `>`→:::←`<=` <!--SR:!2024-11-25,210,310!2024-11-12,142,250-->
@@ -331,7 +331,7 @@ return _chain.from_iterable(await _gather(
 <!--pytextgen generate section="ee42"--><!-- The following content is generated at 2024-01-31T12:52:39.155842+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←`AVERAGE(numbers...)` <!--SR:!2024-08-27,129,270!2024-12-03,235,330-->
-- `AVERAGE(numbers...)`→:::←`COUNTIF(values, criteria)` <!--SR:!2025-02-27,257,290!2024-08-10,89,290-->
+- `AVERAGE(numbers...)`→:::←`COUNTIF(values, criteria)` <!--SR:!2025-02-27,257,290!2025-04-28,259,290-->
 - `COUNTIF(values, criteria)`→:::←`IF(boolean, value_if_true[, value_if_false = FALSE])` <!--SR:!2024-11-09,196,310!2025-03-09,231,290-->
 - `IF(boolean, value_if_true[, value_if_false = FALSE])`→:::←`MAX(numbers...)` <!--SR:!2024-12-17,178,230!2024-12-26,211,270-->
 - `MAX(numbers...)`→:::←`MIN(numbers...)` <!--SR:!2024-12-28,255,330!2024-12-04,237,330-->

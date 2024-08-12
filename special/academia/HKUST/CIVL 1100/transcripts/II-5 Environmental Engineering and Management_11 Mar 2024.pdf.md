@@ -64,7 +64,7 @@ return await memorize_seq(
 - air pollution→:::←land contamination <!--SR:!2024-09-23,82,270!2025-04-15,255,330-->
 - land contamination→:::←noise pollution <!--SR:!2024-09-19,53,270!2024-09-03,68,270-->
 - noise pollution→:::←solid waste disposal <!--SR:!2024-09-16,76,270!2024-11-18,126,290-->
-- solid waste disposal→:::←water pollution <!--SR:!2024-12-15,140,290!2024-08-10,9,190-->
+- solid waste disposal→:::←water pollution <!--SR:!2024-12-15,140,290!2024-08-31,19,190-->
 - water pollution→:::←_(end)_ <!--SR:!2024-12-20,145,310!2025-01-11,174,310-->
 
 <!--/pytextgen-->
@@ -100,7 +100,7 @@ return await memorize_seq(
 
 - _(begin)_→:::←(Cap. 311) Air Pollution Control Ordinance <!--SR:!2024-09-18,41,255!2024-09-29,84,355-->
 - (Cap. 311) Air Pollution Control Ordinance→:::←(Cap. 354) Waste Disposal Ordinance <!--SR:!2024-08-28,31,275!2024-08-13,5,275-->
-- (Cap. 354) Waste Disposal Ordinance→:::←(Cap. 358) Water Pollution Control Ordinance <!--SR:!2024-09-08,55,295!2024-08-12,27,315-->
+- (Cap. 354) Waste Disposal Ordinance→:::←(Cap. 358) Water Pollution Control Ordinance <!--SR:!2024-09-08,55,295!2024-08-25,13,295-->
 - (Cap. 358) Water Pollution Control Ordinance→:::←(Cap. 400) Noise Pollution Control Ordinance <!--SR:!2024-08-21,36,275!2024-08-13,7,255-->
 - (Cap. 400) Noise Pollution Control Ordinance→:::←(Cap. 499) Environmental Impact Ordinance <!--SR:!2024-09-10,50,295!2024-08-15,44,315-->
 - (Cap. 499) Environmental Impact Ordinance→:::←_(end)_ <!--SR:!2024-10-02,87,355!2024-10-07,92,355-->
@@ -156,7 +156,7 @@ return await memorize_seq(
 - air sparging→:::←bioremediation <!--SR:!2024-11-22,111,315!2024-08-21,53,335-->
 - bioremediation→:::←catalytic oxidation <!--SR:!2024-11-29,116,315!2024-08-28,59,335-->
 - catalytic oxidation→:::←ex-situ biopile <!--SR:!2024-09-26,67,295!2024-08-13,47,335-->
-- ex-situ biopile→:::←ex-situ solidification or stabilization <!--SR:!2024-08-25,56,335!2024-08-12,46,335-->
+- ex-situ biopile→:::←ex-situ solidification or stabilization <!--SR:!2024-08-25,56,335!2025-01-12,153,335-->
 - ex-situ solidification or stabilization→:::←_(end)_ <!--SR:!2024-09-30,85,355!2024-08-20,52,335-->
 
 <!--/pytextgen-->
@@ -216,7 +216,7 @@ How to provide motivation for waste reduction, reuse and recycling?
 MSW Waste Charging Scheme
 
 - MSW waste charging scheme passing date ::: 2021-09-26 by Legco <!--SR:!2024-11-23,112,250!2024-09-14,77,270-->
-  - MSW waste charging scheme preparation period ::: 18 months <!--SR:!2024-08-10,64,310!2024-11-24,140,310-->
+  - MSW waste charging scheme preparation period ::: 18 months <!--SR:!2025-03-03,203,310!2024-11-24,140,310-->
   - MSW waste charging scheme details ::: buy designated bags (0.11 HKD/L) at ~4000 selling points <!--SR:!2024-09-03,67,270!2025-04-05,245,330-->
   - MSW waste charging scheme penalty ::: max HK$25000 fine and 6 months in prison <!--SR:!2024-08-27,29,290!2025-01-26,187,310-->
 
@@ -254,8 +254,8 @@ Hong Kong Harbour Area Treatment Scheme Stage I (HATS)
 
 HATS Stage 2 Overview
 
-- Hong Kong Harbour Area Treatment Scheme Stage II ::: HATS Stage 2 <!--SR:!2025-04-09,248,330!2024-08-11,64,310-->
-  - HATS Stage 2 phases ::: 2 phases, stage 2A and stage 2B <!--SR:!2025-04-12,247,330!2024-08-09,63,310-->
+- Hong Kong Harbour Area Treatment Scheme Stage II ::: HATS Stage 2 <!--SR:!2025-04-09,248,330!2025-05-13,274,330-->
+  - HATS Stage 2 phases ::: 2 phases, stage 2A and stage 2B <!--SR:!2025-04-12,247,330!2025-04-29,260,330-->
   - HATS Stage 2A ::: collect and treat the remaining 25% sewage from north and south-western Hong Kong Island and future development, and provide disinfection <!--SR:!2024-08-21,65,270!2024-10-10,97,290-->
   - HATS Stage 2B ::: biological treatment <!--SR:!2025-01-29,186,310!2025-01-07,163,310-->
 
@@ -268,7 +268,7 @@ HATS Stage 2A — Overall Layout
 Sewage Conveyance System
 
 - HATS Stage 2A
-  - HATS Stage 2A tunnel ::: a drop shaft, a tunnel, and a riser shaft, from PTWs to SCISTW across the Victoria Harbour <!--SR:!2024-08-28,30,290!2024-08-09,63,310-->
+  - HATS Stage 2A tunnel ::: a drop shaft, a tunnel, and a riser shaft, from PTWs to SCISTW across the Victoria Harbour <!--SR:!2024-08-28,30,290!2025-02-21,193,310-->
     - HATS Stage 2A tunnel sizes ::: 21 km tunnel, about 70 to 160 m (inside bedrock) below sea level <!--SR:!2024-08-20,55,250!2024-08-16,68,310-->
 
 ## page 21
@@ -295,14 +295,14 @@ Noise Pollution: A serious problem in Hong Kong?
 Noise Levels and Causes
 
 - noise level measure ::: sound pressure level, in dB(A) <!--SR:!2024-12-20,159,310!2025-04-01,243,330-->
-  - airplane passing ::: 120 dB(A) <!--SR:!2025-02-17,193,310!2024-08-09,63,310-->
+  - airplane passing ::: 120 dB(A) <!--SR:!2025-02-17,193,310!2025-02-22,194,310-->
   - construction site ::: 110 dB(A) <!--SR:!2024-10-20,103,290!2024-08-19,71,310-->
   - concert ::: 100 dB(A) <!--SR:!2024-08-16,68,310!2024-08-15,68,310-->
   - drilling ::: 90 dB(A) <!--SR:!2025-01-31,187,310!2024-08-27,63,270-->
-  - train passing ::: 80 dB(A) <!--SR:!2024-08-11,64,310!2025-02-05,184,310-->
+  - train passing ::: 80 dB(A) <!--SR:!2025-02-28,200,310!2025-02-05,184,310-->
   - highway (harm threshold) ::: 70 dB(A) <!--SR:!2025-02-16,192,310!2024-12-02,132,290-->
   - home with TV on ::: 60 dB(A) <!--SR:!2025-01-21,184,310!2025-01-05,168,310-->
-  - library ::: 40 dB(A) <!--SR:!2024-08-10,64,310!2024-12-23,148,310-->
+  - library ::: 40 dB(A) <!--SR:!2025-02-26,198,310!2024-12-23,148,310-->
   - park ::: 30 dB(A) <!--SR:!2025-04-23,258,330!2025-02-25,212,330-->
 
 ## page 25
@@ -329,9 +329,9 @@ Air Pollution: A serious problem in Hong Kong?
 Air Quality Health Index
 
 - Air Quality Health Index ::: AQHI <!--SR:!2025-02-12,188,310!2024-08-16,68,310-->
-  - AQHI history ::: AQHI has replaced the Air Pollution Index (API) since 2013-12-30. <!--SR:!2024-08-28,64,270!2024-08-10,63,310-->
+  - AQHI history ::: AQHI has replaced the Air Pollution Index (API) since 2013-12-30. <!--SR:!2024-08-28,64,270!2025-05-03,264,330-->
   - AQHI scale ::: 1 to 10 and 10+, grouped into 5 health risk categories <!--SR:!2025-03-24,233,330!2025-03-11,226,330-->
-  - AQHI health risk categories ::: low (green): 1~3, moderate (yellow): 4~6, high (red): 7, very high (brown): 8~10, serious (black): 10+ <!--SR:!2024-08-10,64,310!2025-03-13,228,330-->
+  - AQHI health risk categories ::: low (green): 1~3, moderate (yellow): 4~6, high (red): 7, very high (brown): 8~10, serious (black): 10+ <!--SR:!2025-02-27,199,310!2025-03-13,228,330-->
 
 ## page 28
 
@@ -345,10 +345,10 @@ FORECAST of Health Risk
 Indoor Air Quality
 
 - sick building syndrome ::: fatigue, headache, nasal congestion <!--SR:!2025-05-10,275,330!2025-03-04,219,330-->
-- common indoor air pollutant ::: 12 parameters <!--SR:!2024-10-27,105,290!2024-08-10,63,310-->
+- common indoor air pollutant ::: 12 parameters <!--SR:!2024-10-27,105,290!2025-05-05,266,330-->
   - common indoor air pollutant examples ::: carbon dioxide (CO<sub>2</sub>), carbon monoxide (CO), respirable suspended particulate (RSP/PM<sub>10</sub>) <!--SR:!2024-09-20,80,270!2025-01-01,157,310-->
     - carbon dioxide limits ::: excellent: < 800 ppmv; good: < 1000 ppmv <!--SR:!2024-09-25,84,270!2024-12-28,153,310-->
-    - carbon monoxide limits ::: excellent: < 2000 μg/m<sup>3</sup>, < 1.7 ppmv; good: < 10000 μg/m<sup>3</sup>, < 8.7 ppmv <!--SR:!2024-08-12,43,250!2025-01-17,167,310-->
+    - carbon monoxide limits ::: excellent: < 2000 μg/m<sup>3</sup>, < 1.7 ppmv; good: < 10000 μg/m<sup>3</sup>, < 8.7 ppmv <!--SR:!2024-09-06,25,230!2025-01-17,167,310-->
     - respirable suspended particulate limits ::: excellent: < 20 μg/m<sup>3</sup>; good: < 180 μg/m<sup>3</sup> <!--SR:!2024-09-27,82,270!2024-10-06,62,270-->
 
 ## page 30
@@ -389,13 +389,13 @@ return await memorize_seq(
 
 <!--pytextgen generate section="ff34"--><!-- The following content is generated at 2024-05-16T15:50:24.139486+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←carbon dioxide (CO<sub>2</sub>) <!--SR:!2024-08-09,62,310!2024-08-10,63,310-->
+- _(begin)_→:::←carbon dioxide (CO<sub>2</sub>) <!--SR:!2025-02-20,192,310!2025-02-16,188,310-->
 - carbon dioxide (CO<sub>2</sub>)→:::←hydroflurocarbons (HFCs) <!--SR:!2024-10-09,79,230!2024-09-25,83,270-->
 - hydroflurocarbons (HFCs)→:::←methane (CH<sub>4</sub>) <!--SR:!2024-10-22,99,270!2024-09-25,73,230-->
 - methane (CH<sub>4</sub>)→:::←nitrous oxide (N<sub>2</sub>O) <!--SR:!2024-10-27,91,250!2024-12-09,134,290-->
-- nitrous oxide (N<sub>2</sub>O)→:::←perflurocarbons (PFCs) <!--SR:!2024-09-20,54,230!2024-08-10,7,150-->
+- nitrous oxide (N<sub>2</sub>O)→:::←perflurocarbons (PFCs) <!--SR:!2024-09-20,54,230!2024-08-21,9,150-->
 - perflurocarbons (PFCs)→:::←sulfur hexafluoride (SF<sub>6</sub>) <!--SR:!2024-08-23,25,270!2024-09-06,69,270-->
-- sulfur hexafluoride (SF<sub>6</sub>)→:::←_(end)_ <!--SR:!2024-08-09,62,310!2024-08-20,72,310-->
+- sulfur hexafluoride (SF<sub>6</sub>)→:::←_(end)_ <!--SR:!2025-02-14,186,310!2024-08-20,72,310-->
 
 <!--/pytextgen-->
 
@@ -409,10 +409,10 @@ Observed Global Climate Change
 
 Observed climate change in Hong Kong
 
-- climate change consequences in Hong Kong ::: rainfall become more variable, sea level rises, temperature increases <!--SR:!2024-11-29,130,290!2024-08-10,63,310-->
+- climate change consequences in Hong Kong ::: rainfall become more variable, sea level rises, temperature increases <!--SR:!2024-11-29,130,290!2025-05-07,268,330-->
   - temperature increase consequences ::: less cold days, more very hot days and hot nights <!--SR:!2025-04-14,252,330!2024-08-15,68,310-->
   - rainfall become more variable consequences ::: probability of rainfall extremes increases <!--SR:!2025-03-23,234,330!2025-01-12,175,310-->
-  - climate change example in Hong Kong ::: On 2017-08-22, max temperature reaches 36.6 °C in the Hong Kong Observatory headquarters, coinciding with the super typhoon Hato. <!--SR:!2024-12-03,122,250!2024-08-12,65,310-->
+  - climate change example in Hong Kong ::: On 2017-08-22, max temperature reaches 36.6 °C in the Hong Kong Observatory headquarters, coinciding with the super typhoon Hato. <!--SR:!2024-12-03,122,250!2025-03-05,205,310-->
 
 ## page 33
 
@@ -444,7 +444,7 @@ Relationship between PPM and mg/L
 Concentration Units for Gases
 
 - concentration units for gases ::: mass of substance per unit volume of mixture, volume of substance per unit volume of mixture <!--SR:!2024-12-07,132,290!2024-08-15,67,310-->
-  - volume of substance per unit volume of mixture for gases ::: ppm by volume (ppm<sub>v</sub>) <!--SR:!2024-08-09,62,310!2024-12-24,147,290-->
+  - volume of substance per unit volume of mixture for gases ::: ppm by volume (ppm<sub>v</sub>) <!--SR:!2025-04-27,258,330!2024-12-24,147,290-->
   - mass of substance per unit volume of mixture for gases ::: µg/m<sup>3</sup>, mg/m<sup>3</sup> <!--SR:!2025-02-17,193,310!2025-03-06,221,330-->
 
 ## page 37

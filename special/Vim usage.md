@@ -66,7 +66,7 @@ See also [Vim help files](https://vimhelp.org/).
 - highlight characters:::v <!--SR:!2026-07-03,967,348!2026-01-12,801,328-->
 - highlight lines:::V <!--SR:!2027-05-17,1126,293!2025-10-01,654,288-->
 - highlight block:::\<Ctrl\>+v <!--SR:!2025-06-19,343,253!2027-12-19,1304,348-->
-- copy highlight into \["register=(latest)\]:::([visual](#visual))\["register\]y <!--SR:!2024-09-13,422,293!2024-08-09,368,288-->
+- copy highlight into \["register=(latest)\]:::([visual](#visual))\["register\]y <!--SR:!2024-09-13,422,293!2027-07-07,1059,288-->
 
 ## edit
 

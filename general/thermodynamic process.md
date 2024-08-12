@@ -54,7 +54,7 @@ return await memorize_seq(
 - [isochoric process](isochoric%20process.md): $\Delta V = 0$→:::←[isoenthalpic process](isoenthalpic%20process.md): $\Delta H = 0$ <!--SR:!2024-12-22,286,330!2024-10-12,121,270-->
 - [isoenthalpic process](isoenthalpic%20process.md): $\Delta H = 0$→:::←[isentropic process](isentropic%20process.md): [reversible](reversible%20process%20(thermodynamics).md) [adiabatic process](adiabatic%20process.md) <!--SR:!2024-10-11,231,330!2024-11-04,224,310-->
 - [isentropic process](isentropic%20process.md): [reversible](reversible%20process%20(thermodynamics).md) [adiabatic process](adiabatic%20process.md)→:::←[isothermal process](isothermal%20process.md): $\Delta T = 0$ <!--SR:!2024-10-02,191,270!2024-12-02,236,290-->
-- [isothermal process](isothermal%20process.md): $\Delta T = 0$→:::←[polytropic process](polytropic%20process.md): $pV^n = C$ <!--SR:!2024-09-30,92,230!2024-08-09,180,310-->
+- [isothermal process](isothermal%20process.md): $\Delta T = 0$→:::←[polytropic process](polytropic%20process.md): $pV^n = C$ <!--SR:!2024-09-30,92,230!2026-02-18,557,310-->
 - [polytropic process](polytropic%20process.md): $pV^n = C$→:::←_(end)_ <!--SR:!2024-12-29,291,330!2025-12-18,539,310-->
 
 <!--/pytextgen-->

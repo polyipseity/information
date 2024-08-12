@@ -20,7 +20,7 @@ tags:
 
 #### relationship to trigonometry
 
-Euler's formula, the definitions of the trigonometric functions and the standard identities for exponentials are {{sufficient to easily derive most trigonometric identities}}. It provides {{a powerful connection between [analysis](mathematical%20analysis.md) and [trigonometry](trigonometry.md)}}, and provides an interpretation of the sine and cosine functions as {{[weighted sums](weight%20function.md) of the exponential function}}: {{$$\begin{aligned} \cos x & = \operatorname{Re}\left(e^{ix}\right) = \frac {e^{ix} + e^{-ix} } 2 \\ \sin x & = \operatorname{Im}\left(e^{ix}\right) = \frac {e^{ix} - e^{-ix} } {2i} \end{aligned}$$}}. <!--SR:!2024-08-10,14,298!2024-08-09,13,298!2024-08-11,15,298!2024-08-22,19,258-->
+Euler's formula, the definitions of the trigonometric functions and the standard identities for exponentials are {{sufficient to easily derive most trigonometric identities}}. It provides {{a powerful connection between [analysis](mathematical%20analysis.md) and [trigonometry](trigonometry.md)}}, and provides an interpretation of the sine and cosine functions as {{[weighted sums](weight%20function.md) of the exponential function}}: {{$$\begin{aligned} \cos x & = \operatorname{Re}\left(e^{ix}\right) = \frac {e^{ix} + e^{-ix} } 2 \\ \sin x & = \operatorname{Im}\left(e^{ix}\right) = \frac {e^{ix} - e^{-ix} } {2i} \end{aligned}$$}}. <!--SR:!2024-10-06,57,318!2024-10-02,53,318!2024-09-25,44,298!2024-08-22,19,258-->
 
 ## references
 

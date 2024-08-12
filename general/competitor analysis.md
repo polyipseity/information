@@ -19,12 +19,12 @@ This section {{outlines how one might do competitor analysis and present it to o
 
 ### competitor classification
 
-Depending on the 2 factors of {{meeting the same customer needs and possessing the same capabilities to do so (such as having a similar product to solve the same problem)}}, competitors can be classified into 4 types (we can {{draw a 2 by 2 table}} to represent it): <!--SR:!2024-08-11,68,321!2025-05-04,274,341-->
+Depending on the 2 factors of {{meeting the same customer needs and possessing the same capabilities to do so (such as having a similar product to solve the same problem)}}, competitors can be classified into 4 types (we can {{draw a 2 by 2 table}} to represent it): <!--SR:!2025-06-07,299,341!2025-05-04,274,341-->
 
-1. direct competitor ::: meeting the same customer needs and possessing the same capabilities to do so <!--SR:!2025-03-02,208,321!2024-08-11,69,321-->
-2. indirect competitor ::: meeting the same customer needs but using different capabilities to do so <!--SR:!2024-09-25,89,281!2024-08-12,69,321-->
+1. direct competitor ::: meeting the same customer needs and possessing the same capabilities to do so <!--SR:!2025-03-02,208,321!2025-06-12,304,341-->
+2. indirect competitor ::: meeting the same customer needs but using different capabilities to do so <!--SR:!2024-09-25,89,281!2025-06-13,305,341-->
 3. potential competitor ::: not meeting the same customer needs but possessing the same capabilities to do so <!--SR:!2024-10-30,126,301!2025-05-12,282,341-->
-4. non-competitor ::: not meeting the same customer needs and not possessing the same capabilities to do so <!--SR:!2025-04-23,265,341!2024-08-11,69,321-->
+4. non-competitor ::: not meeting the same customer needs and not possessing the same capabilities to do so <!--SR:!2025-04-23,265,341!2025-06-11,303,341-->
 
 Direct competitors are not {{necessarily more important than indirect or potential competitors, and instead it depends on the market}}. <!--SR:!2025-03-09,213,314-->
 
@@ -33,7 +33,7 @@ Direct competitors are not {{necessarily more important than indirect or potenti
 > If I were [Starbucks](Starbucks.md), a [coffee shop](coffeehouse.md) company, then...
 >
 > - an direct competitor of Starbucks ::: [Dunkin' Donuts](Dunkin'%20Donuts.md): serves mainly coffee to satisfy beverage need <!--SR:!2024-12-08,158,321!2025-05-29,294,341-->
-> - an indirect competitor of Starbucks ::: [bars](bar%20(establishment).md): does not serve coffee but [alcoholic beverages](alcoholic%20beverage.md) to satisfy beverage need <!--SR:!2024-08-11,63,281!2024-08-18,74,321-->
+> - an indirect competitor of Starbucks ::: [bars](bar%20(establishment).md): does not serve coffee but [alcoholic beverages](alcoholic%20beverage.md) to satisfy beverage need <!--SR:!2025-02-04,176,281!2024-08-18,74,321-->
 > - a potential competitor of Starbucks ::: [McDonald's](McDonald's.md): serves mainly coffee but usually as part of a meal to satisfy food need <!--SR:!2024-08-16,73,321!2024-08-23,79,321-->
 > - a non-competitor of Starbucks ::: [Walmart](Walmart.md): does not serve coffee and does not satisfy beverage need <!--SR:!2024-08-17,73,321!2025-05-14,282,341-->
 
@@ -73,16 +73,16 @@ why: Why are people using competitors' products?
 - compare: Identify similarities and differences between our and their products.→:::←copy: Identify advantages and capabilities our products lack compared to others. <!--SR:!2024-08-25,70,274!2024-08-29,72,281-->
 - copy: Identify advantages and capabilities our products lack compared to others.→:::←discover: Identify unmet needs. <!--SR:!2024-08-30,22,221!2024-09-10,70,241-->
 - discover: Identify unmet needs.→:::←how: What is our strategy? <!--SR:!2024-08-19,27,201!2024-08-16,15,241-->
-- how: What is our strategy?→:::←pricing: Compare prices. <!--SR:!2024-08-10,2,141!2024-08-12,22,241-->
+- how: What is our strategy?→:::←pricing: Compare prices. <!--SR:!2024-08-15,3,141!2024-10-03,52,241-->
 - pricing: Compare prices.→:::←who: Who are the competitors? 3 to 5 is usually enough. <!--SR:!2024-09-27,50,241!2024-08-18,61,261-->
 - who: Who are the competitors? 3 to 5 is usually enough.→:::←why: Why are people using competitors' products? <!--SR:!2024-10-13,103,281!2024-09-15,73,241-->
-- why: Why are people using competitors' products?→:::←_(end)_ <!--SR:!2024-08-10,68,321!2024-09-16,83,281-->
+- why: Why are people using competitors' products?→:::←_(end)_ <!--SR:!2025-06-08,300,341!2024-09-16,83,281-->
 
 <!--/pytextgen-->
 
 > [!example] examples
 >
-> - Early Google differentiates itself by {{offering some of their services for free}}. <!--SR:!2024-08-09,67,321-->
+> - Early Google differentiates itself by {{offering some of their services for free}}. <!--SR:!2025-06-06,298,341-->
 
 ### benefits
 
@@ -114,7 +114,7 @@ pricing: Find suitable prices catering to different market segment and economies
 
 - _(begin)_→:::←differentiate: Differentiate our products to make it a hit with customers. <!--SR:!2024-12-20,150,301!2024-11-29,137,301-->
 - differentiate: Differentiate our products to make it a hit with customers.→:::←discover: Find holes in existing products. <!--SR:!2024-08-15,55,281!2024-08-13,70,321-->
-- discover: Find holes in existing products.→:::←know ourselves: See if our products are sticky. <!--SR:!2024-08-28,59,221!2024-08-10,20,241-->
+- discover: Find holes in existing products.→:::←know ourselves: See if our products are sticky. <!--SR:!2024-08-28,59,221!2024-09-30,49,241-->
 - know ourselves: See if our products are sticky.→:::←know them: See how big of a threat competitors pose. <!--SR:!2024-12-30,156,301!2025-02-15,196,314-->
 - know them: See how big of a threat competitors pose.→:::←pricing: Find suitable prices catering to different market segment and economies. <!--SR:!2024-08-16,8,221!2024-12-26,140,261-->
 - pricing: Find suitable prices catering to different market segment and economies.→:::←_(end)_ <!--SR:!2025-04-24,264,341!2024-08-13,65,281-->
@@ -170,7 +170,7 @@ number of features
 - price→:::←benefit <!--SR:!2024-11-27,150,314!2024-09-27,97,301-->
 - benefit→:::←quality <!--SR:!2024-08-17,67,274!2024-11-24,134,301-->
 - quality→:::←durability <!--SR:!2024-08-20,19,181!2024-08-29,30,301-->
-- durability→:::←service <!--SR:!2024-12-24,150,301!2024-08-11,28,241-->
+- durability→:::←service <!--SR:!2024-12-24,150,301!2024-08-27,15,221-->
 - service→:::←convenience <!--SR:!2024-08-19,11,201!2024-09-04,27,281-->
 - convenience→:::←ease of use <!--SR:!2024-10-26,103,261!2025-01-10,172,314-->
 - ease of use→:::←number of features <!--SR:!2024-09-16,51,261!2024-09-08,47,254-->
@@ -182,7 +182,7 @@ number of features
 
 It is very important to {{add our own products to the visualization and make it obvious that the products are our own}}. <!--SR:!2024-10-26,122,301-->
 
-If we are comparing two features only, we can {{use a _xy_-grid and plot our and competitors' products}}. If there are more features, {{we can use a table, with the row headers being the features and the column headers being the products}}. {{A mix of both}} is possible. <!--SR:!2024-08-10,67,321!2025-03-26,242,334!2024-11-26,152,310-->
+If we are comparing two features only, we can {{use a _xy_-grid and plot our and competitors' products}}. If there are more features, {{we can use a table, with the row headers being the features and the column headers being the products}}. {{A mix of both}} is possible. <!--SR:!2025-06-01,293,341!2025-03-26,242,334!2024-11-26,152,310-->
 
 When listing the features, {{use numbers}} if possible. Do not be {{vague}}. Highlight {{important features, such as the best product for each feature}}. <!--SR:!2025-02-24,212,321!2025-05-09,278,341!2024-12-08,157,301-->
 

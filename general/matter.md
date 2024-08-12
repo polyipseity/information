@@ -8,7 +8,7 @@ tags:
 
 # matter
 
-In [classical physics](classical%20physics.md) and general [chemistry](chemistry.md), __matter__ is {{any substance that has [mass](mass.md) and takes up [space](space.md) by having [volume](volume.md)}}. <!--SR:!2024-08-10,14,290-->
+In [classical physics](classical%20physics.md) and general [chemistry](chemistry.md), __matter__ is {{any substance that has [mass](mass.md) and takes up [space](space.md) by having [volume](volume.md)}}. <!--SR:!2024-10-04,55,310-->
 
 ## references
 

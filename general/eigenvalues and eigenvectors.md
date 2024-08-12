@@ -33,7 +33,7 @@ Eigenvalues and eigenvectors give rise to {{many closely related mathematical co
 
 - __eigensystem__ of a linear transformation ::: the set of all eigenvectors of the linear transformation, each paired with its corresponding eigenvalue <!--SR:!2024-10-10,74,326!2024-10-07,71,326-->
 - __eigenspace__ or __characteristic space__ of a eigenvalue of a linear transformation ::: the set of all eigenvectors of the linear transformation corresponding to the same eigenvalue, together with the zero vector <!--SR:!2024-10-13,76,326!2024-09-23,58,326-->
-- __eigenbasis__ :::  the set of eigenvectors of a linear transformation that also forms a [basis](basis%20(linear%20algebra.md)) of the domain of the same linear transformation <!--SR:!2024-08-11,24,286!2024-09-22,57,326-->
+- __eigenbasis__ :::  the set of eigenvectors of a linear transformation that also forms a [basis](basis%20(linear%20algebra.md)) of the domain of the same linear transformation <!--SR:!2024-10-20,69,286!2024-09-22,57,326-->
 
 ## eigenvalues and eigenvectors of matrices
 
@@ -55,7 +55,7 @@ From the eigenvector equation, given a eigenvector with its corresponding eigenv
 
 The rewritten eigenvalue equation with $\lambda I$ in front: {{$$(\lambda I - A) \mathbf v = \mathbf 0$$}} has {{a nonzero vector solution $\mathbf v$ [iff](if%20and%20only%20if.md) the [determinant](determinant.md) of the matrix $(\lambda I - A)$ is zero}}. Therefore, the eigenvalues $\lambda$ are {{that satisfy the equation $\det(\lambda I - A) = 0$}}. This equation is called {{the __characteristic equation__ or the __secular equation__ of $A$}}. <!--SR:!2024-10-04,69,326!2024-09-10,45,306!2024-10-06,71,326!2024-08-24,34,306-->
 
-Using {{the [Leibniz formula for determinants](Leibniz%20formula%20for%20determinants.md)}}, the left-hand side of equation is {{a [polynomial](polynomial.md) function of the variable $\lambda$ and the [degree](degree%20of%20a%20polynomial.md) of this polynomial is $n$, the order of the matrix $A$}}. Its coefficients depend on {{the entries of $A$, except that its term of degree of $n$ is always $\lambda^n$, making the polynomial a [monic polynomial](monic%20polynomial.md)}}. If {{the eigenvalue equation with $A$ in front is used instead}}, then {{its term of degree of $n$ is always $(-1)^n \lambda^n$, making it monic only when $n$ is even}}. This polynomial is called {{the _characteristic polynomial_ of $A$}}. {{The monic polynomial}} will be used in the rest of this article. <!--SR:!2024-10-11,75,326!2024-08-12,25,286!2024-09-13,48,306!2024-10-19,89,286!2024-09-03,43,306!2024-08-24,32,286!2024-09-26,61,326-->
+Using {{the [Leibniz formula for determinants](Leibniz%20formula%20for%20determinants.md)}}, the left-hand side of equation is {{a [polynomial](polynomial.md) function of the variable $\lambda$ and the [degree](degree%20of%20a%20polynomial.md) of this polynomial is $n$, the order of the matrix $A$}}. Its coefficients depend on {{the entries of $A$, except that its term of degree of $n$ is always $\lambda^n$, making the polynomial a [monic polynomial](monic%20polynomial.md)}}. If {{the eigenvalue equation with $A$ in front is used instead}}, then {{its term of degree of $n$ is always $(-1)^n \lambda^n$, making it monic only when $n$ is even}}. This polynomial is called {{the _characteristic polynomial_ of $A$}}. {{The monic polynomial}} will be used in the rest of this article. <!--SR:!2024-10-11,75,326!2024-10-22,71,286!2024-09-13,48,306!2024-10-19,89,286!2024-09-03,43,306!2024-08-24,32,286!2024-09-26,61,326-->
 
 {{The [fundamental theorem of algebra](fundamental%20theorem%20of%20algebra.md)}} implies that the characteristic polynomial of an _n_-by-_n_ [matrix](matrix%20(mathematics).md) $A$, being {{a (monic) polynomial of [degree](degree%20of%20a%20polynomial.md) _n_}}, can {{be [factored](factorization.md) into the product of _n_ linear terms}}: {{$$\det(\lambda I - A) = (\lambda - \lambda_1) (\lambda - \lambda_2) \cdots (\lambda_n - \lambda) = \prod_{i = 1}^n (\lambda - \lambda_i)$$}}, where {{each $\lambda_i$ may be [real](real%20number.md) but in general is a [complex number](complex%20number.md)}}. The scalars $\lambda_1, \lambda_2, \ldots, \lambda_n$ are {{the roots of the polynomial and also eigenvalues of $A$}}. The eigenvalues may or may not {{be zero, or be all distinct}}. {{Plugging the eigenvalues back into the eigenvalue equation and solving them}} gives {{the corresponding eigenvectors}}. <!--SR:!2024-09-14,49,306!2024-10-11,74,326!2024-09-28,63,326!2024-09-04,44,306!2024-10-12,75,326!2024-09-20,55,326!2024-09-30,65,326!2024-08-29,39,306!2024-10-14,78,344-->
 
@@ -213,11 +213,11 @@ A somewhat similar idea can also be applied to {{solving simple [ordinary differ
 
 #### eigenvalues
 
-The eigenvalues of a matrix $A$ can be determined by {{finding the roots of the [characteristic polynomial](characteristic%20polynomial.md) ($\det(tI - A) = 0$)}}. This is {{easy for $2 \times 2$ matrices, but the difficulty increases rapidly with the size of the matrix}}. <!--SR:!2024-08-10,39,290!2024-09-11,68,310-->
+The eigenvalues of a matrix $A$ can be determined by {{finding the roots of the [characteristic polynomial](characteristic%20polynomial.md) ($\det(tI - A) = 0$)}}. This is {{easy for $2 \times 2$ matrices, but the difficulty increases rapidly with the size of the matrix}}. <!--SR:!2024-12-04,114,290!2024-09-11,68,310-->
 
 #### eigenvectors
 
-Once {{the (exact) values of an eigenvalue is known}}, the corresponding eigenvector can be {{calculated directly by finding nonzero solutions of the eigenvalue equation}}, which becomes {{a [system of linear equations](system%20of%20linear%20equations.md) with known coefficients}}. <!--SR:!2024-08-28,56,310!2024-09-24,70,270!2024-08-11,40,290-->
+Once {{the (exact) values of an eigenvalue is known}}, the corresponding eigenvector can be {{calculated directly by finding nonzero solutions of the eigenvalue equation}}, which becomes {{a [system of linear equations](system%20of%20linear%20equations.md) with known coefficients}}. <!--SR:!2024-08-28,56,310!2024-09-24,70,270!2025-01-18,159,310-->
 
 ## references
 

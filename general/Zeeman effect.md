@@ -9,7 +9,7 @@ tags:
 
 # Zeeman effect
 
-The __Zeeman effect__ (/ˈzeɪmən/; Dutch pronunciation: [ˈzeːmɑn]) is {{the effect of splitting of a [spectral line](spectral%20line.md) into several components in the presence of a static [magnetic field](magnetic%20field.md)}}. <!--SR:!2024-08-09,13,270-->
+The __Zeeman effect__ (/ˈzeɪmən/; Dutch pronunciation: [ˈzeːmɑn]) is {{the effect of splitting of a [spectral line](spectral%20line.md) into several components in the presence of a static [magnetic field](magnetic%20field.md)}}. <!--SR:!2024-10-04,53,290-->
 
 ## references
 

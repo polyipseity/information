@@ -18,7 +18,7 @@ tags:
 
 ### boiling and melting points
 
-Due to [hydrogen bonding](hydrogen%20bond.md) and {{formation of [dimers](dimer%20(chemistry).md)}}, carboxylic acids have {{higher [boiling points](boiling%20point.md) and [melting points](melting%20point.md) than comparable [alcohols](alcohol.md)}}. They also have {{higher [boiling points](boiling%20point.md) than [water](water.md)}}. <!--SR:!2024-08-10,336,290!2026-01-12,709,310!2025-03-27,507,310-->
+Due to [hydrogen bonding](hydrogen%20bond.md) and {{formation of [dimers](dimer%20(chemistry).md)}}, carboxylic acids have {{higher [boiling points](boiling%20point.md) and [melting points](melting%20point.md) than comparable [alcohols](alcohol.md)}}. They also have {{higher [boiling points](boiling%20point.md) than [water](water.md)}}. <!--SR:!2027-04-10,973,290!2026-01-12,709,310!2025-03-27,507,310-->
 
 ### density
 
@@ -78,7 +78,7 @@ return await memorize_seq(
 
 - _(begin)_→:::←[dehydration](#dehydration) <!--SR:!2025-07-03,502,269!2026-04-30,802,329-->
 - [dehydration](#dehydration)→:::←[esterification](#esterification) <!--SR:!2026-08-21,811,293!2027-01-06,1029,333-->
-- [esterification](#esterification)→:::←[nucleophilic substitution](#nucleophilic%20substitution) <!--SR:!2025-01-12,317,229!2024-08-09,6,149-->
+- [esterification](#esterification)→:::←[nucleophilic substitution](#nucleophilic%20substitution) <!--SR:!2025-01-12,317,229!2024-08-13,3,130-->
 - [nucleophilic substitution](#nucleophilic%20substitution)→:::←[reduction](#reduction) <!--SR:!2025-02-26,481,309!2025-05-13,524,309-->
 - [reduction](#reduction)→:::←_(end)_ <!--SR:!2025-02-13,311,309!2025-06-14,367,309-->
 

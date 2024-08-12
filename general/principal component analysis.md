@@ -23,11 +23,11 @@ PCA is most commonly used when {{many of the variables are highly correlated wit
 
 ## intuition
 
-PCA can be thought of {{fitting an (hyper)[ellipsoid](ellipsoid.md) (a (hyper)[sphere](sphere.md) that are scaled differently along different axes) to the data}}, where each axis {{of the ellipsoid (which are perpendicular to each other) represents a principal component}}. The axis {{length represents the variance of the data along that axis}}. Axes with the least length means {{the data does not differ much in said axis}}, thus removing said axes {{reduces dimensionality while minimizing information loss}}. <!--SR:!2024-08-12,41,290!2024-10-26,88,270!2024-08-13,41,290!2024-08-25,54,310!2024-08-14,42,290-->
+PCA can be thought of {{fitting an (hyper)[ellipsoid](ellipsoid.md) (a (hyper)[sphere](sphere.md) that are scaled differently along different axes) to the data}}, where each axis {{of the ellipsoid (which are perpendicular to each other) represents a principal component}}. The axis {{length represents the variance of the data along that axis}}. Axes with the least length means {{the data does not differ much in said axis}}, thus removing said axes {{reduces dimensionality while minimizing information loss}}. <!--SR:!2025-01-23,164,310!2024-10-26,88,270!2024-08-13,41,290!2024-08-25,54,310!2024-08-14,42,290-->
 
 ## computing PCA using the covariance method
 
-The following is a detailed description of PCA using {{the covariance method as opposed to the correlation method}}. <!--SR:!2024-08-09,38,290-->
+The following is a detailed description of PCA using {{the covariance method as opposed to the correlation method}}. <!--SR:!2025-01-11,152,310-->
 
 The goal is to {{transform a given data set __X__ of dimension _p_ to another data set __Y__ of dimension _l_, where $p \ge l$}}. Equivalently, matrix __Y__ is {{the [Karhunen–Loève transform](Kosambi–Karhunen–Loève%20theorem.md) (KLT) of matrix __X__}}: {{$$\mathbf{Y} = \mathbb{KLT}\{\mathbf{X}\}$$}} <!--SR:!2024-08-15,44,290!2024-09-09,67,310!2024-09-04,63,310-->
 
@@ -79,16 +79,16 @@ return chain(
 
 <!--pytextgen generate section="dd23"--><!-- The following content is generated at 2024-06-25T17:37:48.351142+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←organize the data set <!--SR:!2024-11-16,112,290!2024-08-11,43,290-->
-- organize the data set→:::←calculate the empirical mean <!--SR:!2024-08-13,44,290!2024-08-12,43,290-->
+- _(begin)_→:::←organize the data set <!--SR:!2024-11-16,112,290!2025-01-30,171,310-->
+- organize the data set→:::←calculate the empirical mean <!--SR:!2024-08-13,44,290!2024-12-13,123,290-->
 - calculate the empirical mean→:::←calculate the deviations from the mean <!--SR:!2024-09-16,73,310!2024-11-12,108,290-->
-- calculate the deviations from the mean→:::←find the covariance matrix <!--SR:!2024-08-11,44,290!2024-12-10,131,290-->
+- calculate the deviations from the mean→:::←find the covariance matrix <!--SR:!2025-02-03,176,310!2024-12-10,131,290-->
 - find the covariance matrix→:::←find the eigenvectors and eigenvalues of the covariance matrix <!--SR:!2024-11-23,109,290!2024-11-29,124,310-->
 - find the eigenvectors and eigenvalues of the covariance matrix→:::←rearrange the eigenvectors and eigenvalues <!--SR:!2024-09-03,51,250!2024-09-20,69,290-->
 - rearrange the eigenvectors and eigenvalues→:::←compute the cumulative variance for each eigenvector <!--SR:!2024-08-19,46,290!2024-08-25,51,290-->
 - compute the cumulative variance for each eigenvector→:::←select a subset of the eigenvectors as the new basis vectors <!--SR:!2024-09-07,58,270!2024-09-13,62,270-->
 - select a subset of the eigenvectors as the new basis vectors→:::←project the data onto the new basis <!--SR:!2024-10-18,82,270!2025-01-13,158,310-->
-- project the data onto the new basis→:::←_(end)_ <!--SR:!2024-08-12,43,290!2025-01-21,166,310-->
+- project the data onto the new basis→:::←_(end)_ <!--SR:!2025-01-31,172,310!2025-01-21,166,310-->
 
 <!--/pytextgen-->
 
@@ -117,7 +117,7 @@ return chain(
     - Use the cumulative variances as {{a guide for choosing an appropriate value for the number of reduced dimensions _l_}}. The goal is to {{choose the smallest _l_ possible while ensuring the _l_-th cumulative variance _g<sub>l</sub>_ is reasonably high on a percentage basis}}. For example, {{one can choose the smallest _l_ such that $\frac {g_l} {g_p} \ge 0.9$}}.
     - After choosing _l_ (or _l_ is given beforehand), only keep {{the first _l_ columns of the eigenvector _V_ to make a _p_ × _l_ matrix __W__ and discard the rest}}.
 9. __<!--pytextgen generate section="f098"--><!-- The following content is generated at 2024-06-11T22:43:08.510681+08:00. Any edits will be overridden! -->project the data onto the new basis<!--/pytextgen-->__
-    - The projected data points are {{the rows of the _n_ × _l_ matrix __T__}}, computed by {{$$\mathbf{T} = \mathbf{B} \mathbf{W}$$}}. <!--SR:!2024-08-22,51,310!2024-08-19,48,310!2024-08-29,58,310!2024-12-14,133,290!2024-09-20,67,270!2024-09-11,68,310!2024-08-31,59,310!2024-10-23,85,270!2024-08-23,47,270!2024-10-04,78,270!2024-09-14,71,310!2024-08-17,49,290!2024-09-15,64,270!2024-11-09,98,290!2024-08-21,48,290!2024-08-20,47,290!2024-08-10,41,290!2024-08-19,48,310!2024-11-02,95,290!2024-08-24,42,250!2024-11-01,97,290!2024-10-24,82,270!2024-09-07,65,310!2025-01-03,151,310!2024-10-14,79,270!2024-12-06,127,290!2024-12-17,136,290!2024-09-27,76,290!2024-12-15,136,310!2024-12-01,120,290!2024-09-13,57,250!2024-09-17,65,270!2024-10-17,80,270-->
+    - The projected data points are {{the rows of the _n_ × _l_ matrix __T__}}, computed by {{$$\mathbf{T} = \mathbf{B} \mathbf{W}$$}}. <!--SR:!2024-08-22,51,310!2024-08-19,48,310!2024-08-29,58,310!2024-12-14,133,290!2024-09-20,67,270!2024-09-11,68,310!2024-08-31,59,310!2024-10-23,85,270!2024-08-23,47,270!2024-10-04,78,270!2024-09-14,71,310!2024-08-17,49,290!2024-09-15,64,270!2024-11-09,98,290!2024-08-21,48,290!2024-08-20,47,290!2025-01-21,164,310!2024-08-19,48,310!2024-11-02,95,290!2024-08-24,42,250!2024-11-01,97,290!2024-10-24,82,270!2024-09-07,65,310!2025-01-03,151,310!2024-10-14,79,270!2024-12-06,127,290!2024-12-17,136,290!2024-09-27,76,290!2024-12-15,136,310!2024-12-01,120,290!2024-09-13,57,250!2024-09-17,65,270!2024-10-17,80,270-->
 
 ## references
 

@@ -13,9 +13,9 @@ tags:
 
 The {{__Tolman–Oppenheimer–Volkoff limit__ (or __TOV limit__)}} is {{an upper bound to the [mass](star.md#mass) of cold, non-rotating [neutron stars](neutron%20star.md)}}, analogous to {{the [Chandrasekhar limit](Chandrasekhar%20limit.md) for [white dwarf](white%20dwarf.md) stars}}. Stars more massive than the TOV limit {{collapse into a [black hole](black%20hole.md)}}. <!--SR:!2024-08-23,15,290!2024-08-20,12,270!2024-08-21,13,290!2024-08-24,16,290-->
 
-The original calculation in {{1939}}, which neglected {{complications such as nuclear forces between neutrons}}, placed this limit at {{approximately 0.7 [solar masses](solar%20mass.md) ([M<sub>☉</sub>](solar%20mass.md))}}. Later, more refined analyses have resulted in {{larger values}}. <!--SR:!2024-08-09,1,190!2024-08-24,16,290!2024-08-20,12,270!2024-08-23,15,290-->
+The original calculation in {{1939}}, which neglected {{complications such as nuclear forces between neutrons}}, placed this limit at {{approximately 0.7 [solar masses](solar%20mass.md) ([M<sub>☉</sub>](solar%20mass.md))}}. Later, more refined analyses have resulted in {{larger values}}. <!--SR:!2024-08-14,2,190!2024-08-24,16,290!2024-08-20,12,270!2024-08-23,15,290-->
 
-Theoretical work in {{1996}} placed the limit at {{approximately 1.5 to 3.0 M<sub>☉</sub>, corresponding to an original stellar mass of 15 to 20 M<sub>☉</sub>}}; additional work in the same year gave {{a more precise range of 2.2 to 2.9 M<sub>☉</sub>}}. <!--SR:!2024-08-10,4,230!2024-08-14,8,250!2024-08-15,9,250-->
+Theoretical work in {{1996}} placed the limit at {{approximately 1.5 to 3.0 M<sub>☉</sub>, corresponding to an original stellar mass of 15 to 20 M<sub>☉</sub>}}; additional work in the same year gave {{a more precise range of 2.2 to 2.9 M<sub>☉</sub>}}. <!--SR:!2024-08-21,9,230!2024-08-14,8,250!2024-08-15,9,250-->
 
 ## references
 

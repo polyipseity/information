@@ -346,7 +346,7 @@ return chain.from_iterable(await gather(
 - chromium(III) ion::<span style="color: green;">green</span> <!--SR:!2027-08-09,1347,258-->
 - scandium(III) ion::colorless <!--SR:!2024-10-05,58,262-->
 - titanium(III) ion::<span style="color: purple; background-color: white;">purple</span> <!--SR:!2024-10-11,66,150-->
-- vanadium(II) ion::<span style="color: violet;">violet</span> <!--SR:!2024-08-10,5,130-->
+- vanadium(II) ion::<span style="color: violet;">violet</span> <!--SR:!2024-08-16,6,130-->
 - vanadium(III) ion::<span style="color: green;">green</span> <!--SR:!2024-10-29,82,170-->
 - manganese(III) ion::<span style="color: red;">red</color> <!--SR:!2025-10-25,509,250-->
 
@@ -363,7 +363,7 @@ return chain.from_iterable(await gather(
 - <span style="color: yellow; background-color: black;">yellow</span> (dilute)::iron(III) ion <!--SR:!2027-09-13,1183,361-->
 - <span style="color: brown; background-color: white;">brown</span> (concentrated)::iron(III) ion <!--SR:!2024-09-11,421,381-->
 - <span style="color: purple; background-color: white;">purple</span>::titanium(III) ion <!--SR:!2025-08-06,473,242-->
-- <span style="color: violet;">violet</span>::vanadium(II) ion <!--SR:!2024-08-12,53,242-->
+- <span style="color: violet;">violet</span>::vanadium(II) ion <!--SR:!2024-12-17,127,242-->
 - <span style="color: red;">red</color>::manganese(III) ion <!--SR:!2024-12-03,423,322-->
 
 <!--/pytextgen-->
@@ -415,7 +415,7 @@ return chain.from_iterable(await gather(
 - hydrogensulfite ion:::HSO<sub>3</sub><sup>-</sup> <!--SR:!2028-02-10,1564,290!2027-04-29,1416,314-->
 - hydrogensulfate ion:::HSO<sub>4</sub><sup>-</sup> <!--SR:!2027-09-19,1641,367!2026-01-17,1128,350-->
 - permanganate ion:::MnO<sub>4</sub><sup>-</sup> <!--SR:!2027-09-07,1459,293!2026-09-01,1005,253-->
-- oxide ion:::O<sup>2-</sup> <!--SR:!2024-08-09,659,310!2026-06-30,1200,313-->
+- oxide ion:::O<sup>2-</sup> <!--SR:!2032-05-06,2826,330!2026-06-30,1200,313-->
 - sulfide ion:::S<sup>2-</sup> <!--SR:!2029-01-11,1794,287!2030-05-27,2286,330-->
 - sulfate ion:::SO<sub>4</sub><sup>2-</sup> <!--SR:!2030-11-15,2375,319!2025-10-13,1049,345-->
 - sulfite ion:::SO<sub>3</sub><sup>2-</sup> <!--SR:!2028-08-21,1757,313!2026-07-16,1061,274-->

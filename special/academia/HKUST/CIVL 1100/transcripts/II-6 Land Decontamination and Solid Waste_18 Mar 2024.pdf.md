@@ -30,7 +30,7 @@ Brownfield site development
 
 - brownfield
   - brownfield in Hong Kong ::: agricultural or rural land in New Territories that is deserted and has been changed for container yards, depots, open storage, recycling yards, or rural industries <!--SR:!2024-08-18,54,250!2024-10-07,91,270-->
-    - brownfield in Hong Kong examples ::: Hung Shui Kiu, Lok Ma Chau Loop, northern Fanling, northern Kwun Tong, northern New Territories, southern Yuen Long; > 1500 hectares (1 ha = 10000 m<sup>2</sup>) <!--SR:!2024-08-10,20,210!2024-09-17,86,290-->
+    - brownfield in Hong Kong examples ::: Hung Shui Kiu, Lok Ma Chau Loop, northern Fanling, northern Kwun Tong, northern New Territories, southern Yuen Long; > 1500 hectares (1 ha = 10000 m<sup>2</sup>) <!--SR:!2024-09-22,41,210!2024-09-17,86,290-->
   - brownfield in the United States ::: currently unused land that was used with known or suspected not-very-serious pollution <!--SR:!2024-08-14,68,310!2024-11-25,127,290-->
 
 ## page 4

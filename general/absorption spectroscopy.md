@@ -16,7 +16,7 @@ A material's absorption spectrum is {{the fraction of incident radiation absorbe
 
 ### relation to emission spectrum
 
-[Emission](emission%20spectrum.md) is {{a process by which a substance releases [energy](energy.md) in the form of [electromagnetic radiation](electromagnetic%20radiation.md)}}. Emission can {{occur at any [frequency](frequency.md) at which absorption can occur, and this allows the absorption lines to be determined from an emission spectrum}}. However, the emission spectrum will {{typically have a quite different intensity pattern from the absorption spectrum, so the two are not equivalent}}. The absorption spectrum can be calculated from the emission spectrum using {{[Einstein coefficients](Einstein%20coefficients.md)}}. <!--SR:!2024-09-18,41,290!2024-08-09,13,290!2024-08-10,14,290!2024-08-11,15,290-->
+[Emission](emission%20spectrum.md) is {{a process by which a substance releases [energy](energy.md) in the form of [electromagnetic radiation](electromagnetic%20radiation.md)}}. Emission can {{occur at any [frequency](frequency.md) at which absorption can occur, and this allows the absorption lines to be determined from an emission spectrum}}. However, the emission spectrum will {{typically have a quite different intensity pattern from the absorption spectrum, so the two are not equivalent}}. The absorption spectrum can be calculated from the emission spectrum using {{[Einstein coefficients](Einstein%20coefficients.md)}}. <!--SR:!2024-09-18,41,290!2024-09-30,51,310!2024-09-22,43,290!2024-09-21,40,290-->
 
 ## references
 

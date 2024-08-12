@@ -20,7 +20,7 @@ Buildings can be {{categorized by height}}: {{single-storey, multi-storey with h
 
 The structural system of a building only {{consists of members designed to carry loads}}, and all others are {{non-structural}}. <!--SR:!2024-11-15,123,290!2025-04-17,259,335-->
 
-The structural system of a high-rise building should support {{vertical loads such as gravity and foundation settlement, and also lateral loads such as earthquake, wind}}. The latter, {{lateral loads, are especially important for tall buildings}}. Otherwise, tall buildings may {{slide (horizontal translation) or overturn (rotation about the base)}}. Generally the higher up, {{the larger the load}}. <!--SR:!2024-09-02,69,270!2024-11-26,131,295!2025-01-15,183,315!2024-08-11,66,310-->
+The structural system of a high-rise building should support {{vertical loads such as gravity and foundation settlement, and also lateral loads such as earthquake, wind}}. The latter, {{lateral loads, are especially important for tall buildings}}. Otherwise, tall buildings may {{slide (horizontal translation) or overturn (rotation about the base)}}. Generally the higher up, {{the larger the load}}. <!--SR:!2024-09-02,69,270!2024-11-26,131,295!2025-01-15,183,315!2025-03-04,204,310-->
 
 Hence, foundation-wise, low-rise buildings are {{supported by shallow foundations (footings)}}, while high-rise buildings are {{supported by deep foundations (pipes), which may even reach the bedrock}}. <!--SR:!2025-02-07,195,315!2024-11-21,126,295-->
 
@@ -30,7 +30,7 @@ We can {{quantify}} overturning. The {{lateral stiffness}} of a building is defi
 
 ### classification
 
-For high-rise buildings, the structural system can be broadly categorized into {{exterior and interior structures}}. <!--SR:!2024-08-12,68,315-->
+For high-rise buildings, the structural system can be broadly categorized into {{exterior and interior structures}}. <!--SR:!2025-06-03,295,335-->
 
 #### interior structures
 
@@ -65,8 +65,8 @@ The following interior structures are possible.
 
 - _(begin)_→:::←[braced frame](braced%20frame.md) <!--SR:!2024-10-03,61,270!2025-01-16,172,315-->
 - [braced frame](braced%20frame.md)→:::←[hinged frame](hinged%20frame.md) <!--SR:!2024-08-16,20,235!2024-08-20,21,215-->
-- [hinged frame](hinged%20frame.md)→:::←[outrigger](#outrigger) <!--SR:!2024-08-10,2,150!2024-08-20,14,195-->
-- [outrigger](#outrigger)→:::←[rigid frame](rigid%20frame.md) <!--SR:!2024-09-29,87,275!2024-08-09,8,215-->
+- [hinged frame](hinged%20frame.md)→:::←[outrigger](#outrigger) <!--SR:!2024-08-15,3,150!2024-08-20,14,195-->
+- [outrigger](#outrigger)→:::←[rigid frame](rigid%20frame.md) <!--SR:!2024-09-29,87,275!2024-08-16,4,195-->
 - [rigid frame](rigid%20frame.md)→:::←[shear-walled frame](#sheared-walled%20frame): [rigid frame](rigid%20frame.md) + [shear wall](shear%20wall.md) <!--SR:!2024-12-09,126,255!2024-11-02,103,255-->
 - [shear-walled frame](#sheared-walled%20frame): [rigid frame](rigid%20frame.md) + [shear wall](shear%20wall.md)→:::←_(end)_ <!--SR:!2025-01-27,181,315!2024-09-28,68,255-->
 
@@ -120,7 +120,7 @@ return await memorize_seq(
 - [diagrid](diagrid.md)→:::←[exoskeleton](exoskeleton.md) <!--SR:!2024-09-11,77,275!2024-08-29,28,295-->
 - [exoskeleton](exoskeleton.md)→:::←[space truss](space%20frame.md) <!--SR:!2024-08-13,56,255!2024-08-25,29,235-->
 - [space truss](space%20frame.md)→:::←[superframe](superframe.md) <!--SR:!2024-12-17,143,295!2024-10-03,79,275-->
-- [superframe](superframe.md)→:::←[tube](tube%20(structure).md) <!--SR:!2024-09-19,53,275!2024-08-11,26,215-->
+- [superframe](superframe.md)→:::←[tube](tube%20(structure).md) <!--SR:!2024-09-19,53,275!2024-08-24,12,195-->
 - [tube](tube%20(structure).md)→:::←_(end)_ <!--SR:!2024-08-15,70,315!2024-08-14,69,315-->
 
 <!--/pytextgen-->

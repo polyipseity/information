@@ -9,7 +9,7 @@ tags:
 
 # neutrino detector
 
-A __neutrino detector__ is {{a physics apparatus which is designed to study [neutrinos](neutrino.md)}}. Because neutrinos only [weakly interact](weak%20interaction.md) with other particles of matter, {{neutrino detectors must be very large to detect a significant number of neutrinos}}. Neutrino detectors are often built {{underground, to isolate the detector from [cosmic rays](cosmic%20ray.md) and other background radiation}}. <!--SR:!2024-08-11,15,290!2024-08-13,17,290!2024-08-12,16,290-->
+A __neutrino detector__ is {{a physics apparatus which is designed to study [neutrinos](neutrino.md)}}. Because neutrinos only [weakly interact](weak%20interaction.md) with other particles of matter, {{neutrino detectors must be very large to detect a significant number of neutrinos}}. Neutrino detectors are often built {{underground, to isolate the detector from [cosmic rays](cosmic%20ray.md) and other background radiation}}. <!--SR:!2024-10-11,61,310!2024-08-13,17,290!2024-10-15,64,310-->
 
 ## references
 

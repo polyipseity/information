@@ -9,7 +9,7 @@ tags:
 
 # solar flare
 
-A __solar flare__ is {{a relatively intense, localized emission of [electromagnetic radiation](electromagnetic%20radiation.md) in the [Sun](Sun.md)'s [atmosphere](stellar%20atmosphere.md)}}. <!--SR:!2024-08-10,14,290-->
+A __solar flare__ is {{a relatively intense, localized emission of [electromagnetic radiation](electromagnetic%20radiation.md) in the [Sun](Sun.md)'s [atmosphere](stellar%20atmosphere.md)}}. <!--SR:!2024-09-18,39,290-->
 
 ## references
 
