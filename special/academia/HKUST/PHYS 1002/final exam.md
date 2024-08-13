@@ -20,6 +20,7 @@ tags:
 ## format
 
 - time limit: 3 hours
+- coverage: chapter 1—chapter 20
 - contents: ?/100 marks, scaled to 50 marks
   - multiple choice questions: ?/70 marks, 56 questions
     - multiple choice questions 1: ?/42 marks, 42 questions, 1 mark each

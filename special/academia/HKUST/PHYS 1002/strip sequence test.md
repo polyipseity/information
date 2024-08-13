@@ -16,6 +16,7 @@ tags:
 # strip sequence test
 
 - time limit: 20 minutes
+- coverage: chapter 1—chapter 19
 
 Marking is done as follows. Full marks if 4 marks. Each strip sequence test carries 1 mark.
 

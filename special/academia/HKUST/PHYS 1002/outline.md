@@ -91,7 +91,7 @@ The content is in teaching order. Extra information and corrections are included
   - How to know what [Hong Kong](../../../../general/Hong%20Kong.md) was like in the past? ::: Look at historic photos of [Hong Kong](../../../../general/Hong%20Kong.md).
   - How to know what the [universe](../../../../general/universe.md) was like in the past? ::: Look far enough, because the [universe](../../../../general/universe.md) is extremely big.
 - [speed of light](../../../../general/speed%20of%20light.md) ::: exactly 299&nbsp;792&nbsp;458 m/s _in vacuum_, often approximated as 300&nbsp;000 km/s; 8 times around the Earth in 1 second
-  - light travel time from Earth to... ::: the Moon: ~1.3 second, the Sun: ~8 minutes, Sirius (brightest star in the night sky): ~8 years, Andromeda Galaxy (nearest major galaxy): ~2.5 million years
+  - light travel time from Earth to... ::: the Moon: ~1.3 second, the Sun: ~8 minutes, Sirius (brightest star in the night sky): ~8 years, the Andromeda Galaxy (nearest major galaxy): ~2.5 million years
   - speed of light implications ::: We see astronomical objects as they were in the past since they are so far away. The further the object is in distance, the further back we look back into time.
 - [lookback time](../../../../general/cosmic%20time.md#lookback%20time)
 - [light-year](../../../../general/light-year.md) ::: the distance light travels in one year; exactly 9460&nbsp;730&nbsp;472&nbsp;580&nbsp;800 m, approximately 9.4607 × 10<sup>15</sup> m
@@ -169,7 +169,7 @@ The content is in teaching order. Extra information and corrections are included
 > \[redacted\]
 
 - time: 2024-06-25T10:00:00+08:00/2024-06-25T11:30:00+08:00
-- optional
+- properties: optional
 - topic: observational astronomy
 - by: HKUST Astronomy Club
 - moon phases
@@ -1122,6 +1122,50 @@ The content is in teaching order. Extra information and corrections are included
     - [Hubble's law](../../../../general/Hubble's%20law.md) / Hubble's constant ::: usually in units of (km/s)/Mpc; about 70 (km/s)/Mpc (lecture slides used 64 (km/s)/Mpc and other larger values)
       - [Hubble's law](../../../../general/Hubble's%20law.md) / Hubble's constant / [Dark Energy Survey](../../../../general/Dark%20Energy%20Survey.md) (DES) ::: 67.77±1.30 (km/s)/Mpc (2018)
         - [Dark Energy Survey](../../../../general/Dark%20Energy%20Survey.md) ::: It is a visible and near-infrared survey that uses a 4-meter telescope located in Chile.
+- not covered in [final exam](final%20exam.md)
+  - [cosmic distance ladder](../../../../general/cosmic%20distance%20ladder.md)
+  - [Hubble's law](../../../../general/Hubble's%20law.md)
+    - [§ Hubble time](../../../../general/Hubble's%20law.md#Hubble%20time) ::: If we reverse time, then Hubble's law would eventually make all galaxies in the observable universe go back to a point. This hints at the beginning of the universe. The Hubble time is the time it takes for this to happen, assuming the Hubble constant is constant over time (which it is not; it is only constant over space). It is simply the reciprocal of the Hubble constant (after simplifying the units): $$t_H = \frac 1 {H_0}$$.
+  - [expansion of the universe](../../../../general/expansion%20of%20the%20universe.md) ::: The universe appears to expand at the same rate everywhere in space. However, it is not expanding to "anything" (no center or edge, though the _observable_ universe does have an edge). An example of an expanding "thing" without a center of edge is the surface of an expanding balloon.
+  - [cosmological principle](../../../../general/cosmological%20principle.md) ::: The universe should look the same on large enough scale anywhere. For example, matter should be distributed evenly on a large enough scale. This has not been proven formally but is consistent with observations so far.
+  - [cosmic time § lookback time](../../../../general/cosmic%20time.md#lookback%20time)
+    - [cosmic time § lookback time](../../../../general/cosmic%20time.md#lookback%20time) / uses ::: For extremely far objects, their distances to us would have changed drastically while their light travels to us. So it is more useful to use lookback time to indicate their locations for extremely far objects.
+  - [Hubble's law](../../../../general/Hubble's%20law.md) / cosmological redshift ::: It is the stretching of photon wavelength by the expansion of the universe. An alternative way to view the Doppler redshift on a cosmological scale. Hubble hinted at this. (Okay, this is not exactly true... expanding space is only a choice of coordinates and thus cannot have physical consequences. So a Doppler redshift is really the only natural interpretation.)
+    - [Doppler effect](../../../../general/Doppler%20effect.md)
+  - [galaxy formation and evolution](../../../../general/galaxy%20formation%20and%20evolution.md) ::: We can look at histories of galaxies by looking back into time. The farther you look back, the older you go.
+    - [galaxy formation and evolution](../../../../general/galaxy%20formation%20and%20evolution.md) / formation order ::: protogalaxies (young galaxies) → irregular galaxies → elliptical galaxies → spiral galaxies
+    - [galaxy formation and evolution](../../../../general/galaxy%20formation%20and%20evolution.md) / earliest galaxies ::: We cannot directly observe them and instead rely on theoretical models. The models assume hydrogen and helium initially fill the universe almost uniformly. The imperfections seed galaxy formation.
+    - [§ commonly observed properties of galaxies](../../../../general/galaxy%20formation%20and%20evolution.md#commonly%20observed%20properties%20of%20galaxies)
+      - [galaxy formation and evolution](../../../../general/galaxy%20formation%20and%20evolution.md) / forming spiral galaxies ::: Due to imperfections, gravity can form protogalatic clouds from the almost uniform hydrogen and helium. Very massive stars are formed and died quickly, before spiral disks can form. Supernovae heated the surrounding gas and slowed down the collapse. So new galaxies can attract more material before settling into spiral disks, such as NGC 4414.
+      - [galaxy formation and evolution](../../../../general/galaxy%20formation%20and%20evolution.md) / forming elliptical galaxies ::: It depends on initial conditions. Clouds that have large angular momentum or low density tend to form spiral galaxies. Clouds that have small angular momentum or high density tend to form elliptical galaxies, such as M87.
+        - [Hubble sequence](../../../../general/Hubble%20sequence.md)
+      - [galaxy formation and evolution](../../../../general/galaxy%20formation%20and%20evolution.md) / factors ::: galaxy merger (galaxy collision), initial angular momentum, initial density
+        - [galaxy formation and evolution](../../../../general/galaxy%20formation%20and%20evolution.md) / factors / evidences ::: Distant red elliptical galaxies are observed. They are very old galaxies containing only red low-mass star without star formation activity.
+      - [galaxy formation and evolution](../../../../general/galaxy%20formation%20and%20evolution.md) / angular momentum ::: With the conservation of angular momentum in mind, initial angular momentum determines whether the cloud spins fast enough to form a spiral after collapsing.
+      - [galaxy formation and evolution](../../../../general/galaxy%20formation%20and%20evolution.md) / density ::: Initial density affects the star formation rate. High density clouds form stars faster and consumes much star-making material. The radiation pressure prevents said clouds from collapsing into spiral galaxies and becomes elliptical galaxies instead. Low density clouds form stars slower and allow sufficient time for gas to settle into spiral disks.
+      - [galaxy formation and evolution § galaxy mergers and the formation of elliptical galaxies](../../../../general/galaxy%20formation%20and%20evolution.md#galaxy%20mergers%20and%20the%20formation%20elliptical%20galaxies) (galaxy collision) ::: It is possible for galaxies to collide and form giant elliptical galaxies. The ratio of galaxy sizes over galaxy distances is much larger then the ratio of star sizes over star distances, so galaxies are much more likely than stars to collide. (Exercise: Compute the ratio of the solar radius over the distance to Alpha Centauri, the closest star. Then compute the ratio of the radius of the Milky Way galaxy over the distance to thee Andromeda Galaxy. Compare the 2 ratios.)
+        - [galaxy merger](../../../../general/galaxy%20merger.md)
+    - [galaxy merger](../../../../general/galaxy%20merger.md) ::: Two galaxies collide. However, as mentioned above, stars are unlikely to collide in a collision due to the low ratio of star sizes over star distances.
+      - [galaxy merger](../../../../general/galaxy%20merger.md) / Milky Way galaxy ::: In ~2.5 billion years, the Andromeda Galaxy will collide with our Milky Way galaxy. However, the Sun are unlikely to collide with other stars.
+      - [galaxy merger](../../../../general/galaxy%20merger.md) / examples ::: tails and bridges: Antennae Galaxies, rings: Cartwheel Galaxy, mergers: NGC5128
+      - [interacting galaxy § galactic cannibalism](../../../../general/interacting%20galaxy.md#galactic%20cannibalism) ::: Large galaxies, due to their larger size and strong gravitational effect, tend to distort and consume galaxies. The Milky Way galaxy might be doing so on the Large and Small Magellanic Clouds, distorting them into the irregular shapes we see now.
+      - [galaxy merger](../../../../general/galaxy%20merger.md) / chances ::: They were more likely in the early universe because galaxies were much closer before much expansion took place. An evidence for this is that irregular galaxies at great distance (i.e. of old age) seem violently distributed.
+      - [galaxy merger](../../../../general/galaxy%20merger.md) / results ::: It can trigger a sudden burst of star formation, called _starburst_, due to compressions of clouds. This consumes much of the interstellar medium, and the many new stars and subsequent supernovae blow away the remaining gases. Finally, there is little gas left to form a disk and to form stars, so the merged galaxy becomes an elliptical galaxy. (Computer models show that two colliding spiral galaxies can produce an elliptical galaxy.) This may explain why elliptical galaxies are found where galaxies are clustered together, and giant elliptical galaxies in the cluster centers seem to have consumed a number of smaller galaxies.
+  - self-reading, not tested
+    - [starburst galaxy](../../../../general/starburst%20galaxy.md) ::: Galaxies that are currently forming stars rapidly. The gas are used up in less than a billion years. The many supernovae can drive _galactic winds_. An example is M82.
+    - [active galactic nucleus](../../../../general/active%20galactic%20nucleus.md) (AGN) ::: Centers of galaxies that are unusually luminous.
+      - [quasar](../../../../general/quasar.md) ::: Also called _quasi-stellar objects_. The most luminous subtype of active galactic nuclei. They can be discovered by comparing objects in visible light and positions of strong radio sources. They are found at great distance, thus a long time ago (billions of years), when galaxies were very young. No quasars and few active galactic nuclei are found nearby. So quasar are probably one of the stages in galaxy evolution.
+        - [quasar](../../../../general/quasar.md) / examples ::: 3C273: It looks like a bright blue star, but its hydrogen emission lines are strongly redshifted, indicating it is very distant. It has a luminosity exceeding 100 Milky Way galaxies.
+          - [redshift](../../../../general/redshift.md) / mathematics ::: $$z = \frac {\Delta \lambda} {\lambda_{\mathrm{emit} } } = \frac {\lambda_{\mathrm{obsv} } - \lambda_{\mathrm{emit} } } {\lambda_{\mathrm{emit} } }$$
+        - [quasar](../../../../general/quasar.md) / sizes ::: Quasars can vary in brightness on the timescale of weeks, days, or even hours. In order for this to happen, quasar sizes must be smaller than the distance light travels in the time that the brightness changes. This indicates quasars can be smaller than one light-hour, which is about the size of our solar system.
+        - [quasar](../../../../general/quasar.md) vs normal galaxies ::: For the latter, luminosities can range from 10<sup>6</sup> to 10<sup>10</sup>&nbsp;L<sub>⊙</sub> (the Milky Way galaxy: 2×10<sup>10</sup>&nbsp;L<sub>⊙</sub>). They emit a spectrum of thremal radiation. For the former, luminosities can exceed 10<sup>12</sup>&nbsp;L<sub>⊙</sub>, with strong radiation from radio waves to X-rays and beyond.
+      - [radio galaxy](../../../../general/radio%20galaxy.md) ::: They are galaxies containing active nuclei shooting out jets of plasma matter close to the speed of light. Huge lobes of radio emission, which can extend up to hundreds of millions of light-years, are produced when the jets are decelerated by interaction with the intergalactic medium.
+        - [radio galaxy](../../../../general/radio%20galaxy.md) / examples: J021659-044920, imaged by the Giant Metrewave Radio Telescope (GMRT)
+      - [§ unification of AGN species](../../../../general/active%20galactic%20nucleus.md#unification%20of%20AGN%20species) ::: There are models of AGN that propose different subtypes of AGN is a single type of AGN observed from different angles. If you look at a jet directly, it looks like a quasar. If you look at a jet almost directly, you can see an AGN with a single jet. If you look at it sideways, it looks like a radio galaxy, with double jets and lobes.
+      - [active galactic nucleus](../../../../general/active%20galactic%20nucleus.md) / sources ::: The accretion of gas onto a supermassive black hole seems to be the only way to explain all properties of AGN. Gravitational potential energy gets converted into kinetic energy by gravity, and then thermal energy by friction, and then photons by thermal radiation. 10—40% of energy can become radiation by this process.
+      - [astrophysical jet](../../../../general/astrophysical%20jet.md) ::: Jets are thought to be charged particles emitted along the axis of the twisted magnetic field lines in the inner part of the accretion. It emits _thermal_ radiation. It also emits _non-thermal_ radiation called _synchrotron radiation_, caused by charged particles being accelerated rapidly.
+    - [supermassive black hole](../../../../general/supermassive%20black%20hole.md) ::: They exists! Many galaxies, maybe even all of them, have supermassive black holes at their centers. Said supermassive black holes were probably all active galactic nuclei, and then became dormant (inactive) active galactic nuclei some time later. Also, their masses are closely related to the bulge of their belonging galaxies (with exceptions, of course). So we think the development of a central supermassive black hole is somehow related to galaxy evolution.
+      - [supermassive black hole](../../../../general/supermassive%20black%20hole.md) / examples ::: Milky Way (Sagittarius A*): 4 million solar masses, M87 (M87*): 3 billion solar masses
 - [questions § 2024-08-06](questions.md#2024-08-06)
   - Finally, a question (Q.4, the last question) that everyone (who answered) got correctly! The teacher gave away the answer.
 - [questions](questions.md): 25/25
@@ -1155,6 +1199,24 @@ The content is in teaching order. Extra information and corrections are included
 
 - time: 2024-08-08T10:00:00+08:00/2024-08-08T13:00:00+08:00
 - [final exam](final%20exam.md): ?/50
+
+## week 9 lecture
+
+> Dear students,
+>
+> The extra online lecture on Chapter 22 & 23 will be held on 11 Aug (Sunday) 8:00pm.
+>
+> There will be NO PRS or MCQ.
+>
+> The zoom link will be posted in Canvas --> Zoom Meeting later.
+>
+> If you would like to attend the lecture but are not available at the above class time, please let me know by replying here or emailing me.
+>
+> Best, <br/>
+> \[redacted\]
+
+- time: 2024-08-11T19:58:34+08:00/2024-08-08T21:35:08+08:00
+- properties: Zoom, online, optional
 
 ## aftermath
 
