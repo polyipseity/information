@@ -14,6 +14,10 @@ _Not to be confused with the [discrete-time Fourier transform](discrete-time%20F
 
 In [mathematics](mathematics.md), {{the __discrete Fourier transform__ (__DFT__)}} {{converts a finite sequence of equally-spaced [samples](sampling%20(signal%20processing).md) of a [function](function%20(mathematics).md) into a same-length sequence of equally-spaced samples of the [discrete-time Fourier transform](discrete-time%20Fourier%20transform.md) (DTFT)}}, which is {{a [complex-valued](complex%20number.md) function of frequency}}. The interval at which the DTFT is sampled is {{the reciprocal of the duration of the input sequence}}. {{An inverse DFT (IDFT)}} is {{a [Fourier series](fourier%20series.md), using the DTFT samples as coefficients of [complex](complex%20number.md) [sinusoids](sine%20wave.md) at the corresponding DTFT frequencies}}. It has {{the same sample-values as the original input sequence}}. The DFT is therefore said to be {{a [frequency domain](frequency%20domain.md) representation of the original input sequence}}. If {{the original sequence spans all the non-zero values of a function (i.e. the function has one copy of the original sequence and zero everywhere else)}}, its DTFT is {{continuous (and periodic), and the DFT provides discrete samples of one cycle}}. If {{the original sequence is one cycle of a periodic function}}, {{the DFT provides all the non-zero values of one DTFT cycle}}.
 
+> [!tip] tips
+>
+> - interpretation of the DFT of a sequence ::: The modulus (length) of the complex number for each frequency is the amplitude (e.g. loudness) of that frequency. The argument (angle) of the complex number for each frequency is the phase (e.g. time offset) of that frequency.
+
 ## definition
 
 The _discrete Fourier transform_ transforms {{a [sequence](sequence.md) of _N_ [complex numbers](complex%20number.md) $\set{\mathbf x_n} := x_0, x_1, \ldots, x_{N−1}$ into another sequence of complex numbers, $\set{\mathbf X_k} := X_0, X_1, \ldots, X_{N−1}$, which is defined by:
