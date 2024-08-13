@@ -1094,6 +1094,13 @@ The content is in teaching order. Extra information and corrections are included
 
 - time: 2024-08-06T10:00:00+08:00/2024-08-06T12:30:00+08:00
 - [strip sequence test](strip%20sequence%20test.md): 3.8/4
+  - statistics
+    - mean: 2.48
+    - high: 4
+    - low: 0
+    - median: 2.7
+    - upper quartile: 3.35
+    - lower quartile: 1.85
 - [cosmic distance ladder](../../../../general/cosmic%20distance%20ladder.md)
   - [cosmic distance ladder](../../../../general/cosmic%20distance%20ladder.md) / steps
   - [§ main sequence fitting](../../../../general/cosmic%20distance%20ladder.md#main%20sequence%20fitting), [spectroscopic parallax](../../../../general/spectroscopic%20parallax.md) ::: It may be applied to a main-sequence star or a star cluster containing many main sequence stars. In the former, we determine the spectral type of the star to know its approximate luminosity. Then compare it with its apparent brightness to find out its approximate distance. In a star cluster, we can obtain its main sequence strip in a HR diagram and compare it against with the strips of other star clusters with known distances. The latter is more accurate because more stars are used to estimate the distance.
@@ -1122,7 +1129,7 @@ The content is in teaching order. Extra information and corrections are included
     - [Hubble's law](../../../../general/Hubble's%20law.md) / Hubble's constant ::: usually in units of (km/s)/Mpc; about 70 (km/s)/Mpc (lecture slides used 64 (km/s)/Mpc and other larger values)
       - [Hubble's law](../../../../general/Hubble's%20law.md) / Hubble's constant / [Dark Energy Survey](../../../../general/Dark%20Energy%20Survey.md) (DES) ::: 67.77±1.30 (km/s)/Mpc (2018)
         - [Dark Energy Survey](../../../../general/Dark%20Energy%20Survey.md) ::: It is a visible and near-infrared survey that uses a 4-meter telescope located in Chile.
-- not covered in [final exam](final%20exam.md)
+- not covered in the [final exam](final%20exam.md)
   - [cosmic distance ladder](../../../../general/cosmic%20distance%20ladder.md)
   - [Hubble's law](../../../../general/Hubble's%20law.md)
     - [§ Hubble time](../../../../general/Hubble's%20law.md#Hubble%20time) ::: If we reverse time, then Hubble's law would eventually make all galaxies in the observable universe go back to a point. This hints at the beginning of the universe. The Hubble time is the time it takes for this to happen, assuming the Hubble constant is constant over time (which it is not; it is only constant over space). It is simply the reciprocal of the Hubble constant (after simplifying the units): $$t_H = \frac 1 {H_0}$$.
@@ -1169,8 +1176,8 @@ The content is in teaching order. Extra information and corrections are included
 - [questions § 2024-08-06](questions.md#2024-08-06)
   - Finally, a question (Q.4, the last question) that everyone (who answered) got correctly! The teacher gave away the answer.
 - [questions](questions.md): 25/25
-  - iPRS: 10/10
-  - MCQ: 15/15
+  - iPRS: 10/10 (12/12, before add-drop period: 0/1)
+  - MCQ: 15/15 (11.25/12, before add-drop period: 0/1)
 
 ## week 8 lecture 2
 
@@ -1198,7 +1205,14 @@ The content is in teaching order. Extra information and corrections are included
 > \[redacted\]
 
 - time: 2024-08-08T10:00:00+08:00/2024-08-08T13:00:00+08:00
-- [final exam](final%20exam.md): ?/50
+- [final exam](final%20exam.md): 49.5/50 (99/100)
+  - statistics
+    - mean: 58.84
+    - high: 99
+    - low: 0
+    - median: 61
+    - upper quartile: 75.13
+    - lower quartile: 46.88
 
 ## week 9 lecture
 
@@ -1216,7 +1230,8 @@ The content is in teaching order. Extra information and corrections are included
 > \[redacted\]
 
 - time: 2024-08-11T19:58:34+08:00/2024-08-08T21:35:08+08:00
-- properties: Zoom, online, optional
+- properties: Zoom, online, optional, untested
+- not covered in the [final exam](final%20exam.md) (because the final exam has ended already, duh)
 
 ## aftermath
 
