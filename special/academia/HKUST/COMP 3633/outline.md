@@ -10,7 +10,7 @@ aliases:
   - HKUST COMP3633 outline
 tags:
   - flashcard/special/academia/HKUST/COMP_3633/outline
-  - functional/outline
+  - function/outline
   - language/in/English
 ---
 

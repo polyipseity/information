@@ -6,7 +6,7 @@ tags:
   - by/self
   - date/2023/11/27/from
   - date/2023/12/01/to
-  - functional/text
+  - function/text
   - language/for/English
   - language/in/English
 ---

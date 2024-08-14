@@ -4,7 +4,7 @@ aliases:
   - list of Nobel laureates in astronomy
 tags:
   - flashcard/special/list_of_Nobel_laureates_in_Astronomy
-  - functional/list
+  - function/list
   - language/in/English
 ---
 

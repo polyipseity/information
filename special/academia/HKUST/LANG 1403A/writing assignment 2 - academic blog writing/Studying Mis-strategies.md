@@ -5,7 +5,7 @@ aliases:
 tags:
   - by/self
   - date/2023/11/01
-  - functional/text
+  - function/text
   - language/for/English
   - language/in/English
 ---

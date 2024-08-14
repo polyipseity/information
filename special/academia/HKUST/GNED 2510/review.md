@@ -10,7 +10,7 @@ aliases:
   - HKUST GNED2510 review
 tags:
   - flashcard/special/academia/HKUST/GNED_2510/review
-  - functional/text
+  - function/text
   - language/in/English
 ---
 

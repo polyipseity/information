@@ -10,7 +10,7 @@ aliases:
   - LANG1403A review
 tags:
   - flashcard/special/academia/HKUST/LANG_1403A/review
-  - functional/text
+  - function/text
   - language/in/English
 ---
 

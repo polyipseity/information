@@ -4,7 +4,7 @@ aliases:
   - regex library
 tags:
   - flashcard/special/regex_library
-  - functional/library
+  - function/library
   - language/in/English
 ---
 

@@ -10,7 +10,7 @@ aliases:
   - HKUST DASC2210 review
 tags:
   - flashcard/special/academia/HKUST/DASC_2210/review
-  - functional/text
+  - function/text
   - language/in/English
 ---
 

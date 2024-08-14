@@ -3,7 +3,7 @@ aliases:
   - utility.py
   - utility.py.md
 tags:
-  - functional/code
+  - function/code
   - language/in/English
 ---
 
