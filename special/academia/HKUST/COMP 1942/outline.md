@@ -105,7 +105,7 @@ The content is in teaching order.
 - [Analytics Solver usage § random seed](../../../Analytic%20Solver%20usage.md#random%20seed)
 - [hierarchial clustering](../../../../general/hierarchical%20clustering.md)
 - [hierarchial clustering § cluster linkage](../../../../general/hierarchical%20clustering.md#cluster%20linkage)
-  - cluster linkage ::: We only teach single-linkage, centroid linkage, complete-linkage, group average linkage (unweighted average linkage), median linkage, McQuitty's method (weighted average linkage), and Ward's method (minimum increase of sum of squares). <!--SR:!2024-08-13,83,291!2024-12-22,197,347-->
+  - cluster linkage ::: We only teach single-linkage, centroid linkage, complete-linkage, group average linkage (unweighted average linkage), median linkage, McQuitty's method (weighted average linkage), and Ward's method (minimum increase of sum of squares). <!--SR:!2025-04-11,240,291!2024-12-22,197,347-->
 - [hierarchial clustering § agglomerative clustering](../../../../general/hierarchical%20clustering.md#agglomerative%20clustering)
 
 ## week 6 lecture 1
@@ -439,7 +439,7 @@ The content is in teaching order.
   - [§ conditional independence of events](../../../../general/conditional%20independence.md#conditional%20independence%20of%20events)
   - [§ proof of the equivalent definition](../../../../general/conditional%20independence.md#proof%20of%20the%20equivalent%20definition)
 - [conditional probability table](../../../../general/conditional%20probability%20table.md)
-  - conditional probability table format ::: The row headers are the input variables. The column headers are the output variables. (mnemonic: ↗) <!--SR:!2024-08-14,15,309!2024-08-27,55,349-->
+  - conditional probability table format ::: The row headers are the input variables. The column headers are the output variables. (mnemonic: ↗) <!--SR:!2024-09-26,43,309!2024-08-27,55,349-->
 - [chain rule (probability)](../../../../general/chain%20rule%20(probability).md)
   - [§ two events](../../../../general/chain%20rule%20(probability).md#two%20events)
   - [§ finitely many events](../../../../general/chain%20rule%20(probability).md#finitely%20many%20events)

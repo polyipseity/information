@@ -19,7 +19,7 @@ In a database, there are usually {{many possible views to materialize}}. But it 
 
 Let $\top$ be {{the top view, i.e. the unaggregated view containing all transactions}}. Let $\bot$ be {{the bottom view, i.e. the view containing one transaction aggregating all transactions}}. Each view $v$ is {{associated with a real number called the cost $v_c$, with $\top_c$ being the total number of transactions and $\bot_c = 1$}}. The view cost $v_c$ can be considered as {{the cost of answering an query using said view $v$}}. <!--SR:!2024-08-17,46,290!2024-09-11,68,310!2025-01-08,156,310!2025-01-09,150,310-->
 
-A view $v$ is the parent of another $v'$ if {{every query that we care about that are answerable by $v'$ is also answerable by $v$}}. For example, a table containing parts, suppliers, and costs {{can answer queries answerable by a table containing parts and costs only or a table containing suppliers and cost only}}. Note that the above parent—child relation is dependant on the queries that we care about. So the example above might only works for some queries. $\top$ is {{the common ancestor of all views excluding itself}}, and $\bot$ is {{the common children of all views excluding itself}}. The relations for a set of views can be {{visualized as a graph, along with the view costs}}. <!--SR:!2024-12-04,128,310!2024-12-09,130,290!2024-08-17,46,290!2024-08-24,53,310!2024-08-14,42,290-->
+A view $v$ is the parent of another $v'$ if {{every query that we care about that are answerable by $v'$ is also answerable by $v$}}. For example, a table containing parts, suppliers, and costs {{can answer queries answerable by a table containing parts and costs only or a table containing suppliers and cost only}}. Note that the above parent—child relation is dependant on the queries that we care about. So the example above might only works for some queries. $\top$ is {{the common ancestor of all views excluding itself}}, and $\bot$ is {{the common children of all views excluding itself}}. The relations for a set of views can be {{visualized as a graph, along with the view costs}}. <!--SR:!2024-12-04,128,310!2024-12-09,130,290!2024-08-17,46,290!2024-08-24,53,310!2024-12-12,120,290-->
 
 > [!example] visualizing relations between a set of views
 >
@@ -31,7 +31,7 @@ A view $v$ is the parent of another $v'$ if {{every query that we care about tha
 >
 > Of course, each view in the graph {{does not need to connect every possible subset}}:
 >
-> ![relations between a set of views, sparse](attachments/materialized%20view%20-%20data%20cube%20-%20sparse.png) <!--SR:!2024-08-27,56,310!2025-01-14,159,310!2024-08-28,57,310!2024-08-16,47,290!2024-08-13,44,290-->
+> ![relations between a set of views, sparse](attachments/materialized%20view%20-%20data%20cube%20-%20sparse.png) <!--SR:!2024-08-27,56,310!2025-01-14,159,310!2024-08-28,57,310!2024-08-16,47,290!2025-02-12,182,310-->
 
 The cost of answering a query depends on {{the view (materialized or not) to be queried against and the views materialized}}. First, identify the {{least costly view (materialized or not) required to answer the query}}, and then find the {{least costly (direct or indirect) parent view that is materialized}}, and its {{associated cost is the cost of answering said query}}. <!--SR:!2025-01-02,151,310!2024-11-07,98,290!2024-12-22,141,310!2024-10-05,74,270-->
 

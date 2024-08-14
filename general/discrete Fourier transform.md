@@ -55,7 +55,7 @@ Reversing the time (i.e. {{replacing $n$ by $N-n$}}) in $x_{n}$ corresponds to {
 
 ### conjugation in time
 
-Mathematically: {{$${\mathcal {F} }(\{x_{n}\})_{k}=X_{k} \implies {\mathcal {F} }(\{x_{n}^{*}\})_{k}=X_{N-k}^{*}$$}}. <!--SR:!2024-08-13,1,256-->
+Mathematically: {{$${\mathcal {F} }(\{x_{n}\})_{k}=X_{k} \implies {\mathcal {F} }(\{x_{n}^{*}\})_{k}=X_{N-k}^{*}$$}}. <!--SR:!2024-08-17,3,256-->
 
 ### real and imaginary part
 
@@ -103,7 +103,7 @@ Second, one can also {{conjugate the inputs and outputs}}: {{$$\mathcal F^{-1}(\
 
 Third, {{a variant of this conjugation trick}}, which is {{sometimes preferable because it requires no modification of the data values}}, involves {{swapping real and imaginary parts (which can be done on a computer simply by modifying [pointers](pointer%20(computer%20programming).md))}}. Define {{$\operatorname {swap} (x_{n})$ as $x_{n}$ with its real and imaginary parts swapped—that is, if $x_{n}=a+bi$ then $\operatorname {swap} (x_{n})$ is $b+ai$}}. Equivalently, {{$\operatorname {swap} (x_{n})$ equals $ix_{n}^{*}$}}. Then {{$${\mathcal {F} }^{-1}(\mathbf {x} )={\frac {1}{N} }\operatorname {swap} ({\mathcal {F} }(\operatorname {swap} (\mathbf {x} )))$$}}. That is, the inverse transform is {{the same as the forward transform with the real and imaginary parts swapped for both input and output, up to a normalization (Duhamel _et al._, 1988)}}. <!--SR:!2024-08-23,13,290!2024-08-27,17,290!2024-08-22,12,270!2024-08-22,10,270!2024-08-27,15,290!2024-08-29,17,290!2024-08-22,12,270-->
 
-The conjugation trick can also be used to {{define a new transform, closely related to the DFT, that is [involutory](involution%20(mathematics).md)—that is, which is its own inverse}}. In particular, {{$T(\mathbf {x} )={\mathcal {F} }\left(\mathbf {x} ^{*}\right)/{\sqrt {N} }$ is clearly its own inverse: $T(T(\mathbf {x} ))=\mathbf {x}$}}. A closely related involutory transformation {{(by a factor of ${\frac {1+i}{\sqrt {2} }}$) is $H(\mathbf {x} )={\mathcal {F} }\left((1+i)\mathbf {x} ^{*}\right)/{\sqrt {2N} }$}}, since {{the $(1+i)$ factors in $H(H(\mathbf {x} ))$ cancel the 2}}. For {{real inputs $\mathbf {x}$}}, {{the real part of $H(\mathbf {x} )$ is none other than the [discrete Hartley transform](discrete%20Hartley%20transform.md), which is also involutory}}. <!--SR:!2024-08-21,11,270!2024-08-16,6,250!2024-08-18,8,250!2024-08-21,9,270!2024-08-14,4,230!2024-08-18,6,250-->
+The conjugation trick can also be used to {{define a new transform, closely related to the DFT, that is [involutory](involution%20(mathematics).md)—that is, which is its own inverse}}. In particular, {{$T(\mathbf {x} )={\mathcal {F} }\left(\mathbf {x} ^{*}\right)/{\sqrt {N} }$ is clearly its own inverse: $T(T(\mathbf {x} ))=\mathbf {x}$}}. A closely related involutory transformation {{(by a factor of ${\frac {1+i}{\sqrt {2} }}$) is $H(\mathbf {x} )={\mathcal {F} }\left((1+i)\mathbf {x} ^{*}\right)/{\sqrt {2N} }$}}, since {{the $(1+i)$ factors in $H(H(\mathbf {x} ))$ cancel the 2}}. For {{real inputs $\mathbf {x}$}}, {{the real part of $H(\mathbf {x} )$ is none other than the [discrete Hartley transform](discrete%20Hartley%20transform.md), which is also involutory}}. <!--SR:!2024-08-21,11,270!2024-08-16,6,250!2024-08-18,8,250!2024-08-21,9,270!2024-08-26,12,250!2024-08-18,6,250-->
 
 ## references
 

@@ -24,7 +24,7 @@ The structural system of a high-rise building should support {{vertical loads su
 
 Hence, foundation-wise, low-rise buildings are {{supported by shallow foundations (footings)}}, while high-rise buildings are {{supported by deep foundations (pipes), which may even reach the bedrock}}. <!--SR:!2025-02-07,195,315!2024-11-21,126,295-->
 
-The structural system affects {{the load distribution}}. For example, a {{structural steel undergoing overturning due to wind}} would experience {{tension at the wind-facing side and compression on the other side}}. A {{reinforced concrete (concrete with steel bars)}} would experience the same thing, but {{steel bars bear most of the tension while concrete bears most of the compression and the heavy vertical loading}}. <!--SR:!2025-02-05,188,315!2024-12-04,135,295!2024-08-13,68,315!2024-11-26,134,295!2024-09-20,84,275-->
+The structural system affects {{the load distribution}}. For example, a {{structural steel undergoing overturning due to wind}} would experience {{tension at the wind-facing side and compression on the other side}}. A {{reinforced concrete (concrete with steel bars)}} would experience the same thing, but {{steel bars bear most of the tension while concrete bears most of the compression and the heavy vertical loading}}. <!--SR:!2025-02-05,188,315!2024-12-04,135,295!2025-06-07,297,335!2024-11-26,134,295!2024-09-20,84,275-->
 
 We can {{quantify}} overturning. The {{lateral stiffness}} of a building is defined as {{the force divided by the horizontal displacement at the building top, and has a unit of kN/mm}}, somewhat similar to {{[elastic modulus](elastic%20modulus.md)}}. The aim is to {{increase the lateral stiffness, which involves making the building stiff and strong}}. <!--SR:!2025-04-19,259,335!2025-04-18,258,335!2024-12-16,148,295!2025-01-13,179,315!2025-05-17,282,335-->
 
@@ -80,7 +80,7 @@ Intuitively, if a high-rise building is {{a skier}}, then {{the building core is
 
 Outriggers can {{reduce the overturning moment in the core by transferring some moment to columns outside the core}}. <!--SR:!2024-09-09,76,275-->
 
-For example, outriggers are used in {{the [International Commerce Center](International%20Commerce%20Center.md)}}. The building has {{4 outriggers in 4 separate floors}}. In each outrigger, {{8 outriggers connect the core to the mega columns of the exterior structure, forming a hash (#) shape}}. <!--SR:!2024-08-14,69,310!2024-12-14,146,295!2025-02-11,199,315-->
+For example, outriggers are used in {{the [International Commerce Center](International%20Commerce%20Center.md)}}. The building has {{4 outriggers in 4 separate floors}}. In each outrigger, {{8 outriggers connect the core to the mega columns of the exterior structure, forming a hash (#) shape}}. <!--SR:!2025-03-15,213,310!2024-12-14,146,295!2025-02-11,199,315-->
 
 #### exterior structures
 
@@ -115,13 +115,13 @@ return await memorize_seq(
 
 <!--pytextgen generate section="7123"--><!-- The following content is generated at 2024-05-14T21:11:05.350734+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←[buttress](buttress.md) <!--SR:!2025-01-16,181,315!2024-08-13,69,315-->
+- _(begin)_→:::←[buttress](buttress.md) <!--SR:!2025-01-16,181,315!2025-03-18,216,315-->
 - [buttress](buttress.md)→:::←[diagrid](diagrid.md) <!--SR:!2024-08-18,41,235!2024-09-04,32,295-->
 - [diagrid](diagrid.md)→:::←[exoskeleton](exoskeleton.md) <!--SR:!2024-09-11,77,275!2024-08-29,28,295-->
-- [exoskeleton](exoskeleton.md)→:::←[space truss](space%20frame.md) <!--SR:!2024-08-13,56,255!2024-08-25,29,235-->
+- [exoskeleton](exoskeleton.md)→:::←[space truss](space%20frame.md) <!--SR:!2025-01-03,142,255!2024-08-25,29,235-->
 - [space truss](space%20frame.md)→:::←[superframe](superframe.md) <!--SR:!2024-12-17,143,295!2024-10-03,79,275-->
 - [superframe](superframe.md)→:::←[tube](tube%20(structure).md) <!--SR:!2024-09-19,53,275!2024-08-24,12,195-->
-- [tube](tube%20(structure).md)→:::←_(end)_ <!--SR:!2024-08-15,70,315!2024-08-14,69,315-->
+- [tube](tube%20(structure).md)→:::←_(end)_ <!--SR:!2024-08-15,70,315!2025-03-17,215,315-->
 
 <!--/pytextgen-->
 

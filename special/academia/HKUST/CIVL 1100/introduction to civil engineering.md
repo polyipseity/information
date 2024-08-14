@@ -30,7 +30,7 @@ The content is in teaching order.
   - "civil" meaning ::: "Civil" distinguishes non-military from military purposes. <!--SR:!2025-05-09,327,350!2025-09-22,417,397-->
   - civil engineer characteristics ::: problem solvers <!--SR:!2024-09-28,122,335!2024-12-24,182,352-->
   - civil engineering characteristics ::: Oldest engineering discipline. Takes place on all levels, from municipal to nationals in the public sector, from homeowners to international companies in the private sector. <!--SR:!2025-01-14,171,301!2025-05-20,310,380-->
-  - built environment ::: man-made using materials and natural resources, benefiting mankind, with environment protection and prudent urban planning <!--SR:!2024-08-13,81,312!2024-12-30,218,330-->
+  - built environment ::: man-made using materials and natural resources, benefiting mankind, with environment protection and prudent urban planning <!--SR:!2025-04-23,252,312!2024-12-30,218,330-->
     - built environment example ::: Hoover Dam, a hydroelectric and reservoir project constructed on the Colorado River from 1931 to 1936, affects Las Vegas, United States significantly to the present. <!--SR:!2024-12-30,162,297!2025-03-15,237,345-->
 - civil engineering importance ::: improving living environments, productivity, and working efficiency <!--SR:!2024-10-07,126,340!2024-12-06,179,352-->
   - [civil engineering examples](#civil%20engineering%20examples)
@@ -86,7 +86,7 @@ The content is in teaching order.
     - [transportation engineering structure examples](#transportation%20engineering%20structure%20examples)
 - materials engineering
   - materials engineering characteristics ::: spans almost all engineering disciplines because materials are used in designs <!--SR:!2024-09-29,122,337!2025-06-05,319,367-->
-  - materials engineer jobs ::: highly varied <!--SR:!2025-01-19,222,330!2024-08-13,94,372-->
+  - materials engineer jobs ::: highly varied <!--SR:!2025-01-19,222,330!2025-12-05,478,392-->
     - [materials engineer job examples](#materials%20engineer%20job%20examples)
   - materials engineering materials ::: development of improved or new materials <!--SR:!2025-01-21,201,317!2025-06-04,348,350-->
     - [materials engineering material examples](#materials%20engineering%20material%20examples)
@@ -146,7 +146,7 @@ quantity surveyor
 - building services engineer→:::←consulting civil engineer <!--SR:!2024-12-13,168,337!2024-08-25,93,337-->
 - consulting civil engineer→:::←consulting environmental engineer <!--SR:!2024-12-25,183,347!2025-02-05,221,360-->
 - consulting environmental engineer→:::←consulting geo-technical engineer <!--SR:!2024-10-16,105,265!2024-09-02,112,306-->
-- consulting geo-technical engineer→:::←consulting structural engineer <!--SR:!2025-01-06,179,315!2024-08-14,80,317-->
+- consulting geo-technical engineer→:::←consulting structural engineer <!--SR:!2025-01-06,179,315!2025-04-26,255,317-->
 - consulting structural engineer→:::←contracting civil engineer <!--SR:!2024-09-11,108,335!2024-08-23,88,315-->
 - contracting civil engineer→:::←engineering geologist <!--SR:!2024-09-28,102,297!2024-09-04,34,295-->
 - engineering geologist→:::←environmental consultant <!--SR:!2024-10-25,125,305!2024-08-24,92,305-->
@@ -195,7 +195,7 @@ water and sewage treatment system
 - bridge→:::←building <!--SR:!2025-05-05,282,372!2025-04-22,268,360-->
 - building→:::←dam <!--SR:!2024-12-12,167,340!2024-09-06,105,380-->
 - dam→:::←pipeline <!--SR:!2024-10-11,66,204!2024-10-09,117,321-->
-- pipeline→:::←power plant <!--SR:!2024-08-14,59,260!2024-10-22,107,281-->
+- pipeline→:::←power plant <!--SR:!2025-01-13,152,260!2024-10-22,107,281-->
 - power plant→:::←reservoir <!--SR:!2025-01-10,164,275!2024-09-05,91,320-->
 - reservoir→:::←sewage treatment <!--SR:!2024-09-21,62,197!2024-09-05,75,261-->
 - sewage treatment→:::←transport <!--SR:!2024-08-19,7,190!2024-12-13,152,301-->
@@ -284,7 +284,7 @@ workmanship
 - impacts to surrounding→:::←lifecycle <!--SR:!2025-04-01,238,320!2024-08-22,82,320-->
 - lifecycle→:::←maintenance <!--SR:!2024-10-13,106,297!2024-09-16,39,292-->
 - maintenance→:::←politics <!--SR:!2024-08-15,10,221!2025-04-18,249,312-->
-- politics→:::←social <!--SR:!2025-03-24,246,360!2024-08-13,78,337-->
+- politics→:::←social <!--SR:!2025-03-24,246,360!2025-05-03,262,337-->
 - social→:::←workmanship <!--SR:!2024-08-26,82,300!2024-09-04,52,190-->
 - workmanship→:::←_(end)_ <!--SR:!2025-09-26,419,385!2025-04-05,258,355-->
 
@@ -460,7 +460,7 @@ testing materials
 - planning→:::←procuring materials <!--SR:!2025-01-24,186,317!2025-02-03,175,277-->
 - procuring materials→:::←quality assurance <!--SR:!2025-01-23,173,300!2024-08-22,77,281-->
 - quality assurance→:::←quality control <!--SR:!2024-10-31,150,357!2025-01-13,182,352-->
-- quality control→:::←safety engineering <!--SR:!2025-02-12,195,301!2024-08-13,15,235-->
+- quality control→:::←safety engineering <!--SR:!2025-02-12,195,301!2024-09-14,31,235-->
 - safety engineering→:::←scheduling <!--SR:!2024-08-25,82,320!2024-10-01,120,340-->
 - scheduling→:::←surveying building site <!--SR:!2024-08-18,60,241!2024-10-16,116,300-->
 - surveying building site→:::←testing materials <!--SR:!2024-08-20,16,240!2024-10-25,74,272-->
@@ -543,8 +543,8 @@ wood
 - concrete→:::←new synthetic materials <!--SR:!2024-11-09,127,301!2024-12-07,161,341-->
 - new synthetic materials→:::←steel <!--SR:!2024-11-20,155,332!2024-08-29,85,320-->
 - steel→:::←stone <!--SR:!2024-09-13,64,320!2024-12-03,159,340-->
-- stone→:::←wood <!--SR:!2024-08-14,75,321!2024-09-10,109,332-->
-- wood→:::←_(end)_ <!--SR:!2024-08-21,100,374!2024-08-14,31,340-->
+- stone→:::←wood <!--SR:!2025-04-11,240,321!2024-09-10,109,332-->
+- wood→:::←_(end)_ <!--SR:!2024-08-21,100,374!2025-01-05,144,360-->
 
 <!--/pytextgen-->
 
@@ -590,7 +590,7 @@ nuclear
 
 <!--pytextgen generate section="ee13"--><!-- The following content is generated at 2024-04-23T18:07:51.639356+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←agricultural <!--SR:!2024-09-22,136,310!2024-08-13,94,372-->
+- _(begin)_→:::←agricultural <!--SR:!2024-09-22,136,310!2025-12-04,477,392-->
 - agricultural→:::←architectural <!--SR:!2025-01-31,212,357!2025-06-08,311,372-->
 - architectural→:::←biomedical <!--SR:!2024-11-04,144,337!2024-11-25,152,340-->
 - biomedical→:::←ceramic <!--SR:!2024-11-05,133,320!2024-09-25,114,337-->
@@ -710,7 +710,7 @@ soil liquefaction
 - debris flow→:::←landslide <!--SR:!2024-08-20,88,335!2025-04-29,260,335-->
 - landslide→:::←rockfall <!--SR:!2024-08-25,34,292!2025-03-02,211,320-->
 - rockfall→:::←soil liquefaction <!--SR:!2024-11-14,135,290!2024-09-19,118,270-->
-- soil liquefaction→:::←_(end)_ <!--SR:!2024-08-14,95,372!2024-10-20,117,295-->
+- soil liquefaction→:::←_(end)_ <!--SR:!2025-12-10,483,392!2024-10-20,117,295-->
 
 <!--/pytextgen-->
 
@@ -743,7 +743,7 @@ tunnel
 - _(begin)_→:::←embankment <!--SR:!2024-10-03,112,320!2025-06-28,320,380-->
 - embankment→:::←pile foundation <!--SR:!2024-10-10,116,320!2025-02-18,218,360-->
 - pile foundation→:::←shallow foundation <!--SR:!2025-01-07,170,317!2025-01-04,191,355-->
-- shallow foundation→:::←tunnel <!--SR:!2024-10-08,104,321!2024-08-13,23,212-->
+- shallow foundation→:::←tunnel <!--SR:!2024-10-08,104,321!2024-10-03,50,212-->
 - tunnel→:::←_(end)_ <!--SR:!2025-01-15,195,350!2024-09-04,34,297-->
 
 <!--/pytextgen-->
@@ -982,7 +982,7 @@ Two Prudential Plaza
 
 <!--pytextgen generate section="daaf"--><!-- The following content is generated at 2024-02-16T21:59:47.894677+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←Central Plaza (Hong Kong) <!--SR:!2024-08-20,88,317!2024-08-14,95,367-->
+- _(begin)_→:::←Central Plaza (Hong Kong) <!--SR:!2024-08-20,88,317!2025-12-02,475,387-->
 - Central Plaza (Hong Kong)→:::←China International Trust and Investment (CITIC) Plaza <!--SR:!2024-08-22,90,334!2024-09-17,101,340-->
 - China International Trust and Investment (CITIC) Plaza→:::←Two Prudential Plaza <!--SR:!2024-10-29,131,340!2024-08-20,8,240-->
 - Two Prudential Plaza→:::←_(end)_ <!--SR:!2025-02-26,248,375!2024-09-15,101,320-->
@@ -1052,7 +1052,7 @@ Hong Kong Code
 <!--pytextgen generate section="2ff2"--><!-- The following content is generated at 2024-04-23T18:07:51.798230+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←American Code <!--SR:!2024-09-02,101,380!2025-09-03,403,394-->
-- American Code→:::←Australian Standard <!--SR:!2024-12-27,193,355!2024-08-14,95,375-->
+- American Code→:::←Australian Standard <!--SR:!2024-12-27,193,355!2025-12-14,487,395-->
 - Australian Standard→:::←Chinese Code <!--SR:!2024-12-05,160,327!2025-02-16,233,357-->
 - Chinese Code→:::←Eurocode <!--SR:!2024-10-14,128,335!2025-03-30,252,357-->
 - Eurocode→:::←Hong Kong Code <!--SR:!2025-03-11,258,376!2024-11-26,168,357-->
@@ -1102,7 +1102,7 @@ water tower
 - storage facility→:::←tunnel <!--SR:!2024-09-09,37,280!2024-09-01,89,320-->
 - tunnel→:::←unusual structure <!--SR:!2024-09-19,83,247!2024-10-17,121,320-->
 - unusual structure→:::←water tower <!--SR:!2024-09-02,37,290!2024-09-06,34,290-->
-- water tower→:::←_(end)_ <!--SR:!2024-08-14,93,367!2024-09-08,55,281-->
+- water tower→:::←_(end)_ <!--SR:!2025-11-24,467,387!2024-09-08,55,281-->
 
 <!--/pytextgen-->
 

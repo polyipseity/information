@@ -25,7 +25,7 @@ The term "recurrent neural network" is used to refer {{to the class of networks 
 
 An [Elman](Jeffrey%20Elman.md) network is {{a 3-layer network with the addition of a context layer}}. The middle hidden layer is {{connected to the context layer with a fixed weight of 1}}. The context layer connects {{back to the middle hidden layer}}. <!--SR:!2024-08-19,47,290!2025-01-30,171,310!2024-08-15,44,290-->
 
-[Jordan](Michael%20I.%20Jordan.md) network are {{similar to Elman networks}}. The exception is {{that the context layer is fed from the output layer instead of the middle hidden layer}}. <!--SR:!2024-08-15,42,290!2024-08-13,42,290-->
+[Jordan](Michael%20I.%20Jordan.md) network are {{similar to Elman networks}}. The exception is {{that the context layer is fed from the output layer instead of the middle hidden layer}}. <!--SR:!2024-08-15,42,290!2024-12-13,121,290-->
 
 Elman and Jordan networks are also known as {{"simple recurrent networks" (SRN)}}. The disadvantages are that {{the networks are likely too simple, and they might take a long time to converge}}. <!--SR:!2024-08-28,56,310!2024-08-20,51,290-->
 
@@ -33,7 +33,7 @@ Elman and Jordan networks are also known as {{"simple recurrent networks" (SRN)}
 
 - see: [long short-term memory](long%20short-term%20memory.md)
 
-Long short-term memory (LSTM) is {{a [deep learning](deep%20learning.md) system that avoids the [vanishing gradient problem](vanishing%20gradient%20problem.md)}}. LSTMs are augmented with {{recurrent gates like "forget gates", "input gates", and "output gates"}}. LSTMs can learn {{tasks that require memories of events thousands or even millions of time steps earlier}}. LSTM works even if {{there are long delays between significant events and can handle low and high-frequency components}}. <!--SR:!2024-11-21,105,290!2024-08-14,45,290!2024-12-09,121,290!2024-08-29,58,310-->
+Long short-term memory (LSTM) is {{a [deep learning](deep%20learning.md) system that avoids the [vanishing gradient problem](vanishing%20gradient%20problem.md)}}. LSTMs are augmented with {{recurrent gates like "forget gates", "input gates", and "output gates"}}. LSTMs can learn {{tasks that require memories of events thousands or even millions of time steps earlier}}. LSTM works even if {{there are long delays between significant events and can handle low and high-frequency components}}. <!--SR:!2024-11-21,105,290!2024-12-29,137,290!2024-12-09,121,290!2024-08-29,58,310-->
 
 ### gated recurrent unit
 

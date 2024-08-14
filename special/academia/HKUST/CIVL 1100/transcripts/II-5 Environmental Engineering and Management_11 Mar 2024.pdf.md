@@ -99,9 +99,9 @@ return await memorize_seq(
 <!--pytextgen generate section="a92d"--><!-- The following content is generated at 2024-06-09T06:29:24.057662+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←(Cap. 311) Air Pollution Control Ordinance <!--SR:!2024-09-18,41,255!2024-09-29,84,355-->
-- (Cap. 311) Air Pollution Control Ordinance→:::←(Cap. 354) Waste Disposal Ordinance <!--SR:!2024-08-28,31,275!2024-08-13,5,275-->
+- (Cap. 311) Air Pollution Control Ordinance→:::←(Cap. 354) Waste Disposal Ordinance <!--SR:!2024-08-28,31,275!2024-08-29,15,275-->
 - (Cap. 354) Waste Disposal Ordinance→:::←(Cap. 358) Water Pollution Control Ordinance <!--SR:!2024-09-08,55,295!2024-08-25,13,295-->
-- (Cap. 358) Water Pollution Control Ordinance→:::←(Cap. 400) Noise Pollution Control Ordinance <!--SR:!2024-08-21,36,275!2024-08-13,7,255-->
+- (Cap. 358) Water Pollution Control Ordinance→:::←(Cap. 400) Noise Pollution Control Ordinance <!--SR:!2024-08-21,36,275!2024-08-31,17,255-->
 - (Cap. 400) Noise Pollution Control Ordinance→:::←(Cap. 499) Environmental Impact Ordinance <!--SR:!2024-09-10,50,295!2024-08-15,44,315-->
 - (Cap. 499) Environmental Impact Ordinance→:::←_(end)_ <!--SR:!2024-10-02,87,355!2024-10-07,92,355-->
 
@@ -155,7 +155,7 @@ return await memorize_seq(
 - _(begin)_→:::←air sparging <!--SR:!2024-10-02,87,355!2024-10-01,86,355-->
 - air sparging→:::←bioremediation <!--SR:!2024-11-22,111,315!2024-08-21,53,335-->
 - bioremediation→:::←catalytic oxidation <!--SR:!2024-11-29,116,315!2024-08-28,59,335-->
-- catalytic oxidation→:::←ex-situ biopile <!--SR:!2024-09-26,67,295!2024-08-13,47,335-->
+- catalytic oxidation→:::←ex-situ biopile <!--SR:!2024-09-26,67,295!2025-01-14,153,335-->
 - ex-situ biopile→:::←ex-situ solidification or stabilization <!--SR:!2024-08-25,56,335!2025-01-12,153,335-->
 - ex-situ solidification or stabilization→:::←_(end)_ <!--SR:!2024-09-30,85,355!2024-08-20,52,335-->
 
@@ -226,7 +226,7 @@ Will this waste charging scheme waste generation?
 
 Environmental Levy Scheme (Plastic Shopping Bags)
 
-- Environmental Levy Scheme ::: scheme to reduce plastic shopping bags <!--SR:!2025-03-28,239,330!2024-08-13,65,310-->
+- Environmental Levy Scheme ::: scheme to reduce plastic shopping bags <!--SR:!2025-03-28,239,330!2025-02-28,198,310-->
   - Environmental Levy Scheme launch time ::: launched in 2009 <!--SR:!2024-10-05,83,290!2025-04-21,256,330-->
   - Environmental Levy Scheme coverage ::: 40 registered retailers with ~3100 retail outlets <!--SR:!2024-09-28,85,270!2024-12-16,146,310-->
   - Environmental Levy Scheme effect ::: -90% from registered retailers after 1 year. -25% in overall plastic bag consumption after covering all retail shops in 2015 <!--SR:!2024-09-05,68,270!2024-12-27,150,290-->
@@ -236,7 +236,7 @@ Environmental Levy Scheme (Plastic Shopping Bags)
 
 Water Pollution: A serious problem in Hong Kong?
 
-- wastewater ::: drinking water after use <!--SR:!2025-03-16,231,330!2024-08-14,67,310-->
+- wastewater ::: drinking water after use <!--SR:!2025-03-16,231,330!2025-03-11,209,310-->
 
 ## page 17
 
@@ -309,15 +309,15 @@ Noise Levels and Causes
 
 Properties of Sound Waves
 
-- sound level calculation ::: root mean square of sound pressure $p_{\text{rms} }$ is used <!--SR:!2024-08-15,67,310!2024-08-14,67,310-->
-  - root mean square of sound pressure calculation ::: $$p_{\text{rms} } = \left(\overline{p^2} \right)^{0.5} = \left(\frac 1 T \int_0^T \! p^2(t) \,\mathrm{d}t \right)^{0.5}$$, where $T$ is duration of time period concerned, $t$ is time, $p(t)$ is pressure that may varies with time, and the overbar means the average over time <!--SR:!2024-11-25,127,290!2024-08-13,65,310-->
+- sound level calculation ::: root mean square of sound pressure $p_{\text{rms} }$ is used <!--SR:!2024-08-15,67,310!2025-05-27,286,330-->
+  - root mean square of sound pressure calculation ::: $$p_{\text{rms} } = \left(\overline{p^2} \right)^{0.5} = \left(\frac 1 T \int_0^T \! p^2(t) \,\mathrm{d}t \right)^{0.5}$$, where $T$ is duration of time period concerned, $t$ is time, $p(t)$ is pressure that may varies with time, and the overbar means the average over time <!--SR:!2024-11-25,127,290!2025-05-22,281,330-->
 
 ## page 26
 
 Air Pollution: A serious problem in Hong Kong?
 
-- regional air pollution concerns ::: outdoor and indoor air pollution <!--SR:!2024-09-29,94,290!2024-08-14,66,310-->
-- global air pollution concerns ::: acid rain and climate change <!--SR:!2024-08-13,65,310!2025-01-13,168,310-->
+- regional air pollution concerns ::: outdoor and indoor air pollution <!--SR:!2024-09-29,94,290!2025-03-04,202,310-->
+- global air pollution concerns ::: acid rain and climate change <!--SR:!2025-05-16,275,330!2025-01-13,168,310-->
 - 3 major reasons causing air pollution in Hong Kong: <https://youtube.com/watch?v=XVvsQyyZHVg&feature=related>
   - industrial activities in China's Pearl River Delta
   - land use change affects air circulation
@@ -337,7 +337,7 @@ Air Quality Health Index
 
 FORECAST of Health Risk
 
-- AQHI calculation ::: 3-hour moving average concentrations of 4 air pollutants <!--SR:!2025-02-08,184,310!2024-08-13,66,310-->
+- AQHI calculation ::: 3-hour moving average concentrations of 4 air pollutants <!--SR:!2025-02-08,184,310!2025-05-12,271,330-->
   - AQHI calculation main pollutants ::: nitrogen dioxide (NO<sub>2</sub>), ozone (O<sub>3</sub>), particulate matter (PM<sub>2.5</sub>, PM<sub>10</sub>), sulfur dioxide (SO<sub>2</sub>) <!--SR:!2024-12-18,143,270!2025-04-06,246,330-->
 
 ## page 29
@@ -428,7 +428,7 @@ Relationship between PPM and mg/L
 
 - relationship between ppm<sub>w</sub> and mg/L for dilute solutions ::: 1 mg/L ≈ 1 ppm<sub>w</sub>, 1 µg/L ≈ 1 ppb<sub>w</sub> <!--SR:!2024-11-11,118,290!2024-08-15,68,310-->
   - relationship between ppm<sub>w</sub> and mg/L derivation ::: convert the volume to mass or mass to volume using density <!--SR:!2024-08-16,68,310!2025-02-22,209,330-->
-  - density of water ::: about 1 kg/L <!--SR:!2024-08-14,66,310!2025-03-15,230,330-->
+  - density of water ::: about 1 kg/L <!--SR:!2025-05-25,284,330!2025-03-15,230,330-->
 
 ## page 35
 
@@ -437,7 +437,7 @@ Relationship between PPM and mg/L
 - relationship between ppm<sub>w</sub> and mg/L for other solutions
   - relationship between ppm<sub>w</sub> and mg/L examples
   - relationship between ppm<sub>w</sub> and mg/L for other solutions ::: 1 mg/L = (1 / SG) ppm<sub>w</sub> <!--SR:!2024-11-04,113,290!2025-01-08,163,310-->
-- specific gravity (SG) of a mixture ::: density of mixture divided by density of water <!--SR:!2025-04-03,245,330!2024-08-13,65,310-->
+- specific gravity (SG) of a mixture ::: density of mixture divided by density of water <!--SR:!2025-04-03,245,330!2025-05-19,278,330-->
 
 ## page 36
 
@@ -452,7 +452,7 @@ Concentration Units for Gases
 Relationship between ppm<sub>v</sub> and mg/m<sup>3</sup>
 
 - relationship between ppm<sub>v</sub> and mg/m<sup>3</sup> ::: [ideal gas law](../../../../../general/ideal%20gas%20law.md) <!--SR:!2024-08-21,73,310!2024-11-26,141,310-->
-  - ideal gas law equation ::: $$pV = nRT$$, where $p$ is the absolute pressure in atm, $V$ is the volume in m<sup>3</sup>, $n$ is the number of moles, $R \approx 0.082056\mathrm{\ L \cdot atm \cdot K^{-1} \cdot mol^{-1} }$ is the [ideal gas constant](../../../../../general/gas%20constant.md), and $T$ is the absolute temperature in K <!--SR:!2024-12-16,141,290!2024-08-13,66,310-->
+  - ideal gas law equation ::: $$pV = nRT$$, where $p$ is the absolute pressure in atm, $V$ is the volume in m<sup>3</sup>, $n$ is the number of moles, $R \approx 0.082056\mathrm{\ L \cdot atm \cdot K^{-1} \cdot mol^{-1} }$ is the [ideal gas constant](../../../../../general/gas%20constant.md), and $T$ is the absolute temperature in K <!--SR:!2024-12-16,141,290!2025-05-14,273,330-->
 
 ## page 38
 

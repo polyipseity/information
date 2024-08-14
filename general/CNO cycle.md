@@ -31,16 +31,16 @@ This cycle is now understood as {{being the first part of a larger process, the 
 
 - 1st step ::: $${}_{\phantom{0}6}^{12}\mathrm{C} + {}_1^1\mathrm{H} \rightarrow {}_{\phantom{0}7}^{13}\mathrm{N} + \gamma + 1.95~\mathrm{MeV}$$ <!--SR:!2024-09-06,25,270!2024-08-20,17,290-->
   - 1st step / energy release (& half-life if available) ::: 1.95 MeV <!--SR:!2024-08-30,18,250!2024-08-26,14,250-->
-- 2nd step ::: $${}_{\phantom{0}7}^{13}\mathrm{N} \rightarrow {}_{\phantom{0}6}^{13}\mathrm{C} + \mathrm{e}^+ + \nu_{\mathrm{e} } + 1.20~\mathrm{MeV} \quad (\text{half life of 9.965 minutes})$$ <!--SR:!2024-08-14,2,190!2024-08-19,16,290-->
-  - 2nd step / energy release (& half-life if available) ::: 1.20 Mev, 9.965 minutes <!--SR:!2024-08-14,2,190!2024-08-16,13,290-->
+- 2nd step ::: $${}_{\phantom{0}7}^{13}\mathrm{N} \rightarrow {}_{\phantom{0}6}^{13}\mathrm{C} + \mathrm{e}^+ + \nu_{\mathrm{e} } + 1.20~\mathrm{MeV} \quad (\text{half life of 9.965 minutes})$$ <!--SR:!2024-08-18,4,190!2024-08-19,16,290-->
+  - 2nd step / energy release (& half-life if available) ::: 1.20 Mev, 9.965 minutes <!--SR:!2024-08-18,4,190!2024-08-16,13,290-->
 - 3rd step ::: $${}_{\phantom{0}6}^{13}\mathrm{C} + {}_1^1\mathrm{H} \rightarrow {}_{\phantom{0}7}^{14}\mathrm{N} + \gamma + 7.54~\mathrm{MeV}$$ <!--SR:!2024-09-08,27,270!2024-08-18,15,290-->
   - 3rd step / energy release (& half-life if available) ::: 7.54 MeV <!--SR:!2024-09-12,31,270!2024-08-28,16,250-->
 - 4th step ::: $${}_{\phantom{0}7}^{14}\mathrm{N} + {}_1^1\mathrm{H} \rightarrow {}_{\phantom{0}8}^{15}\mathrm{O} + \gamma + 7.35~\mathrm{MeV}$$ <!--SR:!2024-08-19,7,230!2024-08-19,16,290-->
   - 4th step / energy release (& half-life if available) ::: 7.35 MeV <!--SR:!2024-08-27,15,250!2024-08-15,12,270-->
-- 5th step ::: $${}_{\phantom{0}8}^{15}\mathrm{O} \rightarrow {}_{\phantom{0}7}^{15}\mathrm{N} + \mathrm{e}^+ + \nu_{\mathrm{e} } + 1.73~\mathrm{MeV} \quad (\text{half life of 122.24 seconds})$$ <!--SR:!2024-08-31,19,250!2024-08-13,10,270-->
+- 5th step ::: $${}_{\phantom{0}8}^{15}\mathrm{O} \rightarrow {}_{\phantom{0}7}^{15}\mathrm{N} + \mathrm{e}^+ + \nu_{\mathrm{e} } + 1.73~\mathrm{MeV} \quad (\text{half life of 122.24 seconds})$$ <!--SR:!2024-08-31,19,250!2024-09-10,27,270-->
   - 5th step / energy release (& half-life if available) ::: 1.73 MeV, 122.24 seconds <!--SR:!2024-08-16,4,210!2024-08-20,17,290-->
 - 6th step ::: $${}_{\phantom{0}7}^{15}\mathrm{N} + {}_1^1\mathrm{H} \rightarrow {}_{\phantom{0}6}^{12}\mathrm{C} + {}_2^4\mathrm{He} + 4.96~\mathrm{MeV}$$ <!--SR:!2024-08-19,7,210!2024-08-20,17,290-->
-  - 6th step / energy release (& half-life if available) ::: 4.96 MeV <!--SR:!2024-08-14,11,270!2024-08-19,16,290-->
+  - 6th step / energy release (& half-life if available) ::: 4.96 MeV <!--SR:!2024-09-17,34,270!2024-08-19,16,290-->
 
 ...where {{the carbon-12 nucleus used in the first reaction is regenerated in the last reaction}}. After {{the two [positrons emitted](positron%20emission.md) [annihilate](annihilation.md) with two ambient electrons producing an additional 2.04 MeV}}, the total energy released in one cycle is {{26.73 MeV}}. <!--SR:!2024-08-19,16,290!2024-08-21,13,250!2024-09-04,23,270-->
 

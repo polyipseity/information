@@ -51,7 +51,7 @@ Let $k$ be {{the current number of iterations}}, and $\mathbf{A}_k$ and $\mathbf
 
 ### authority update rule
 
-For each $p$, we {{update $a(p)$ to $a(p) = \sum_{q \in p_{\text{to} } } h(q)$ where $p_{\text{to} }$ are all pages linking to $p$}}. That is, a page's authority value is {{the sum of the hub values of nodes pointing to it}}. This can also be expressed {{using [matrix multiplication](matrix%20multiplication.md)}}: {{$\mathbf{A}_k \gets \mathbf{M}^\intercal \mathbf{H}_{k - 1}$}}. <!--SR:!2024-08-18,50,294!2024-08-22,51,310!2024-09-04,62,314!2024-08-14,45,294-->
+For each $p$, we {{update $a(p)$ to $a(p) = \sum_{q \in p_{\text{to} } } h(q)$ where $p_{\text{to} }$ are all pages linking to $p$}}. That is, a page's authority value is {{the sum of the hub values of nodes pointing to it}}. This can also be expressed {{using [matrix multiplication](matrix%20multiplication.md)}}: {{$\mathbf{A}_k \gets \mathbf{M}^\intercal \mathbf{H}_{k - 1}$}}. <!--SR:!2024-08-18,50,294!2024-08-22,51,310!2024-09-04,62,314!2025-02-15,185,314-->
 
 Consider the authority vector after several updates (without normalization):
 
@@ -93,7 +93,7 @@ Consider the hub vector after several updates (without normalization):
 
 From the table above, we can obtain {{a closed expression and a recursive expression}}. Let {{$\mathbf{H}_1 \gets \mathbf{M} \mathbf{A}_0$ for sync iteration only}}. For async iteration, the expressions are {{$$\begin{aligned} \mathbf{H}_k & \gets \left(\mathbf{M} \mathbf{M}^\intercal\right)^k \mathbf{H}_0 \\ \mathbf{H}_k & \gets \mathbf{M} \mathbf{M}^\intercal \mathbf{H}_{k - 1} \end{aligned}$$}}. For sync iteration, the expressions are {{$$\begin{aligned} \mathbf{H}_{2k} & \gets \left(\mathbf{M} \mathbf{M}^\intercal\right)^k \mathbf{H}_0 \\ \mathbf{H}_{2k + 1} & \gets \left(\mathbf{M} \mathbf{M}^\intercal\right)^k \mathbf{H}_1 \\ \mathbf{H}_k & \gets \mathbf{M} \mathbf{M}^\intercal \mathbf{H}_{k - 2} \end{aligned}$$}}. <!--SR:!2024-12-07,120,294!2024-11-27,114,294!2024-12-10,124,294!2024-10-11,76,274-->
 
-Notice that both iterations involve {{left multiplying the hub vector by $\mathbf{M} \mathbf{M}^\intercal$ repeatedly}}. This is how computation is done in practice. Mathematically, this is also known as {{[power iteration](power%20iteration.md)}}. By this, if {{the hub vector is [normalized](#normalization) after each iteration}}, then the hub vector {{tends to the normalized principal [eigenvector](eigenvalues%20and%20eigenvectors.md) (the normalized eigenvector with the largest eigenvalue) of $\mathbf{M} \mathbf{M}^\intercal$ regardless of the starting initial values}}. <!--SR:!2024-08-13,42,294!2024-08-26,55,314!2024-08-20,49,314!2024-08-16,33,294-->
+Notice that both iterations involve {{left multiplying the hub vector by $\mathbf{M} \mathbf{M}^\intercal$ repeatedly}}. This is how computation is done in practice. Mathematically, this is also known as {{[power iteration](power%20iteration.md)}}. By this, if {{the hub vector is [normalized](#normalization) after each iteration}}, then the hub vector {{tends to the normalized principal [eigenvector](eigenvalues%20and%20eigenvectors.md) (the normalized eigenvector with the largest eigenvalue) of $\mathbf{M} \mathbf{M}^\intercal$ regardless of the starting initial values}}. <!--SR:!2025-01-31,170,314!2024-08-26,55,314!2024-08-20,49,314!2024-08-16,33,294-->
 
 ### normalization
 

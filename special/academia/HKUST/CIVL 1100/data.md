@@ -45,7 +45,7 @@ See [Beijing National Stadium](../../../../general/Beijing%20National%20Stadium)
 See [Burj Al Arab](../../../../general/Burj%20Al%20Arab.md).
 
 - description ::: luxury hotel in Dubai, United Arab Emirates <!--SR:!2024-09-19,106,307!2024-08-29,108,377-->
-- height ::: architectural: 321 m, top floor: 197.5 m <!--SR:!2024-09-02,60,220!2024-08-13,92,365-->
+- height ::: architectural: 321 m, top floor: 197.5 m <!--SR:!2024-09-02,60,220!2025-07-14,334,365-->
 - image ::: ![Burj Al Arab image](../../../../archives/Wikimedia%20Commons/Burj%20Al%20Arab,%20Dubai,%20by%20Joi%20Ito%20Dec2007.jpg) <!--SR:!2024-09-11,107,380!2024-08-30,96,380-->
 - shape ::: sail of a ship <!--SR:!2025-04-03,254,357!2025-04-27,278,372-->
 
@@ -135,7 +135,7 @@ See [Golden Gate Bridge](../../../../general/Golden%20Gate%20Bridge.md).
 See [Great Pyramid of Giza](../../../../general/Great%20Pyramid%20of%20Giza.md).
 
 - base width ::: 230.33 m <!--SR:!2024-10-17,114,376!2024-11-03,137,396-->
-- construction period ::: 10~20 years around 2560 BC <!--SR:!2024-08-14,11,236!2024-10-14,120,396-->
+- construction period ::: 10~20 years around 2560 BC <!--SR:!2024-09-11,28,236!2024-10-14,120,396-->
 - description ::: largest pyramid in the Giza Necropolis, Egypt <!--SR:!2024-10-05,112,396!2024-10-31,134,396-->
 - height ::: current: 138.5 m, original: 146.6 m <!--SR:!2024-12-03,141,356!2024-11-02,136,396-->
 - weight ::: 5.9 million tonnes <!--SR:!2024-09-14,89,376!2024-11-10,142,396-->
@@ -189,7 +189,7 @@ See [Hoover Dam](../../../../general/Hoover%20Dam.md).
 
 See [International Commerce Centre](International%20Commerce%20Centre.md).
 
-- description ::: tallest building in [Hong Kong](../../../../general/Hong%20Kong.md) <!--SR:!2024-12-25,214,330!2024-08-14,93,370-->
+- description ::: tallest building in [Hong Kong](../../../../general/Hong%20Kong.md) <!--SR:!2024-12-25,214,330!2025-11-28,471,390-->
 - height ::: architectural: 484 m, tip: 484 m, top floor: 468 m, roof: 484 m <!--SR:!2024-09-04,36,281!2025-01-15,231,330-->
 - image ::: ![International Commerce Centre image](../../../../archives/Wikimedia%20Commons/International%20Commerce%20Centre%20201008.jpg) <!--SR:!2025-03-17,232,360!2024-08-24,91,380-->
 - [structural system](../../../../general/structural%20system.md) ::: concrete–steel composite <!--SR:!2024-08-30,33,301!2024-09-04,103,381-->
@@ -315,7 +315,7 @@ See [Two Prudential Plaza](../../../../general/Two%20Prudential%20Plaza.md).
 
 - description ::: 64-story skyscraper located in the Loop area of Chicago, Illinois <!--SR:!2024-09-03,91,320!2025-08-31,399,385-->
 - height ::: architectural: 303 m, top floor: 250 m <!--SR:!2024-08-17,5,181!2024-08-19,98,364-->
-- image ::: ![Two Prudential Plaza image](../../../../archives/Wikimedia%20Commons/Two%20Prudential%20Plaza%20Chicago%20in%20May%202016.jpg) <!--SR:!2024-08-14,82,360!2024-09-14,39,340-->
+- image ::: ![Two Prudential Plaza image](../../../../archives/Wikimedia%20Commons/Two%20Prudential%20Plaza%20Chicago%20in%20May%202016.jpg) <!--SR:!2025-06-04,294,360!2024-09-14,39,340-->
 - [structural system](../../../../general/structural%20system.md) ::: reinforced concrete<!-- flashcard ecbdac25-22dc-429d-9976-d49408b1478d --> <!--SR:!2024-09-06,38,340!2024-08-27,94,380-->
 
 ## Water Cube

@@ -23,7 +23,7 @@ PCA is most commonly used when {{many of the variables are highly correlated wit
 
 ## intuition
 
-PCA can be thought of {{fitting an (hyper)[ellipsoid](ellipsoid.md) (a (hyper)[sphere](sphere.md) that are scaled differently along different axes) to the data}}, where each axis {{of the ellipsoid (which are perpendicular to each other) represents a principal component}}. The axis {{length represents the variance of the data along that axis}}. Axes with the least length means {{the data does not differ much in said axis}}, thus removing said axes {{reduces dimensionality while minimizing information loss}}. <!--SR:!2025-01-23,164,310!2024-10-26,88,270!2024-08-13,41,290!2024-08-25,54,310!2024-08-14,42,290-->
+PCA can be thought of {{fitting an (hyper)[ellipsoid](ellipsoid.md) (a (hyper)[sphere](sphere.md) that are scaled differently along different axes) to the data}}, where each axis {{of the ellipsoid (which are perpendicular to each other) represents a principal component}}. The axis {{length represents the variance of the data along that axis}}. Axes with the least length means {{the data does not differ much in said axis}}, thus removing said axes {{reduces dimensionality while minimizing information loss}}. <!--SR:!2025-01-23,164,310!2024-10-26,88,270!2024-12-12,120,290!2024-08-25,54,310!2025-01-31,170,310-->
 
 ## computing PCA using the covariance method
 
@@ -80,7 +80,7 @@ return chain(
 <!--pytextgen generate section="dd23"--><!-- The following content is generated at 2024-06-25T17:37:48.351142+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←organize the data set <!--SR:!2024-11-16,112,290!2025-01-30,171,310-->
-- organize the data set→:::←calculate the empirical mean <!--SR:!2024-08-13,44,290!2024-12-13,123,290-->
+- organize the data set→:::←calculate the empirical mean <!--SR:!2024-12-19,127,290!2024-12-13,123,290-->
 - calculate the empirical mean→:::←calculate the deviations from the mean <!--SR:!2024-09-16,73,310!2024-11-12,108,290-->
 - calculate the deviations from the mean→:::←find the covariance matrix <!--SR:!2025-02-03,176,310!2024-12-10,131,290-->
 - find the covariance matrix→:::←find the eigenvectors and eigenvalues of the covariance matrix <!--SR:!2024-11-23,109,290!2024-11-29,124,310-->

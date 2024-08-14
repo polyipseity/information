@@ -17,11 +17,11 @@ tags:
 
 ## five forces that shape competition
 
-The 5 forces are {{threat of _new entrants_, bargaining power of _buyers_, threat of _substitutes_, bargaining power of _suppliers_, and _industry_ rivalry}}. The first 4 forces {{surrounds the last force in a loop}}. <!--SR:!2024-08-15,51,290!2024-08-13,53,310-->
+The 5 forces are {{threat of _new entrants_, bargaining power of _buyers_, threat of _substitutes_, bargaining power of _suppliers_, and _industry_ rivalry}}. The first 4 forces {{surrounds the last force in a loop}}. <!--SR:!2024-08-15,51,290!2025-03-30,228,330-->
 
 ### threat of new entrants
 
-{{Barriers to entry}} restrict the threat of new entrants. The barriers can be {{business nature or government regulations}}. <!--SR:!2024-08-14,54,310!2024-08-30,66,310-->
+{{Barriers to entry}} restrict the threat of new entrants. The barriers can be {{business nature or government regulations}}. <!--SR:!2025-04-02,231,330!2024-08-30,66,310-->
 
 ### threat of substitutes
 

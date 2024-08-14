@@ -61,7 +61,7 @@ The content is in teaching order.
     - [§ uniaxial normal](../../../../general/stress%20(mechanics).md#uniaxial%20normal)
   - [strain](../../../../general/strain%20(mechanics).md)
     - [§ engineering strain](../../../../general/strain%20(mechanics).md#engineering%20strain)
-      - engineering strain symbol ::: $\varepsilon$ <!--SR:!2024-08-14,68,330!2025-06-09,301,350-->
+      - engineering strain symbol ::: $\varepsilon$ <!--SR:!2025-06-17,307,350!2025-06-09,301,350-->
 - [elastic modulus](../../../../general/elastic%20modulus.md)
   - [§ definition](../../../../general/elastic%20modulus.md#definition)
   - [§ types of elastic modulus](../../../../general/elastic%20modulus.md#types%20of%20elastic%20modulus)
@@ -71,7 +71,7 @@ The content is in teaching order.
   - pivot ::: A moment requires a pivot to be defined. The pivot can be anywhere and does not need to be physical. <!--SR:!2024-10-31,112,310!2024-11-18,127,310-->
   - torque intuition ::: Torque creates rotation just as force creates translation (linear movement). <!--SR:!2025-05-09,276,350!2024-08-20,73,330-->
   - [§ moment arm formula](../../../../general/torque.md#moment%20arm%20formula)
-  - symbol of moment about point $P$ ::: $M_P$ <!--SR:!2024-08-14,68,330!2025-06-02,294,350-->
+  - symbol of moment about point $P$ ::: $M_P$ <!--SR:!2025-06-18,308,350!2025-06-02,294,350-->
   - torque conventions ::: __counterclockwise positive__, clockwise negative <!--SR:!2025-02-08,202,330!2025-05-19,280,341-->
   - [§ principles of moments](../../../../general/torque.md#principles%20of%20moments)
     - application of principles of moments ::: This means when the moment arm of a force is difficult to find for calculating the moment, instead decompose the force into 2 or more forces (usually horizontal and vertical). Summing the torques from those forces gives the moment. <!--SR:!2024-11-16,125,310!2025-03-05,221,330-->
@@ -79,7 +79,7 @@ The content is in teaching order.
   - bending conditions ::: For a pinned support, an object subject to a moment rotates about the support. For a fixed support, an object subject to a moment bends. <!--SR:!2024-09-07,81,301!2025-05-16,277,341-->
   - [§ quasi-static bending of beams](../../../../general/bending.md#quasi-static%20bending%20of%20beams)
 - [cantilever](../../../../general/cantilever.md) ::: a overhanging structure with only 1 support on 1 end; should be a fixed support to prevent rotation <!--SR:!2024-10-30,114,310!2024-08-18,71,330-->
-- simply supported beam ::: a beam with 2 supports on its 2 ends; should be a pinned support and a roller support to get a statically determinate structure <!--SR:!2024-09-22,82,290!2024-08-14,67,330-->
+- simply supported beam ::: a beam with 2 supports on its 2 ends; should be a pinned support and a roller support to get a statically determinate structure <!--SR:!2024-09-22,82,290!2025-03-22,220,330-->
 - [torsion](../../../../general/torsion%20(mechanics).md) ::: twisting of an object <!--SR:!2024-08-17,69,330!2024-08-20,72,330-->
   - torsion deformation ::: The object is likely to return to its original shape when torsion forces are removed. <!--SR:!2025-03-21,221,330!2024-08-25,76,330-->
   - torsion examples ::: drill pipes, power transmission shafts, tall buildings <!--SR:!2024-10-12,106,310!2025-02-19,207,330-->
@@ -114,7 +114,7 @@ The content is in teaching order.
   - [§ live load](../../../../general/structural%20load.md#live%20load)
   - [§ wind load](../../../../general/structural%20load.md#wind%20load)
   - soil load ::: [§ lateral load](../../../../general/structural%20load.md#lateral%20load) <!--SR:!2024-11-16,132,310!2025-05-28,289,350-->
-  - water load ::: [§ hydrostatic load](../../../../general/structural%20load.md#lateral%20load) <!--SR:!2024-08-25,76,330!2024-08-14,67,321-->
+  - water load ::: [§ hydrostatic load](../../../../general/structural%20load.md#lateral%20load) <!--SR:!2024-08-25,76,330!2025-03-16,214,321-->
   - [§ thermal load](../../../../general/structural%20load.md#thermal%20load)
   - earthquake load ::: [§ seismic load](../../../../general/structural%20load.md#seismic%20load) <!--SR:!2025-02-02,196,330!2024-08-24,75,321-->
 - [structural system](../../../../general/structural%20system.md)

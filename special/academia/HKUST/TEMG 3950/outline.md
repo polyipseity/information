@@ -58,7 +58,7 @@ The content is in teaching order.
   - [§ segmentation variables](../../../market%20segmentation.md#segmentation%20variables)
 - market size
   - market size acronyms and names ::: TAM: total available market, SAM: serviceable available market, SOM: serviceable obtainable market <!--SR:!2024-08-15,75,335!2025-06-30,322,355-->
-  - market size importance ::: Startups use these metrics to analyze business viability and for fundraising purposes. <!--SR:!2024-08-19,77,335!2024-08-14,74,335-->
+  - market size importance ::: Startups use these metrics to analyze business viability and for fundraising purposes. <!--SR:!2024-08-19,77,335!2025-07-24,344,355-->
   - [difference between TAM, SAM, and SOM](../../../../general/total%20addressable%20market.md#difference%20between%20TAM,%20SAM,%20and%20SOM)
   - [total available market](../../../../general/total%20addressable%20market.md) (TAM)
     - [§ importance](../../../../general/total%20addressable%20market.md#importance)
@@ -66,7 +66,7 @@ The content is in teaching order.
     - [§ importance](../../../../general/serviceable%20available%20market.md#importance)
   - [serviceable obtainable market](../../../../general/target%20market.md) (SOM)
     - [§ importance](../../../../general/target%20market.md#importance)
-  - market size correctness ::: There is no correct answer for market size, but it should be reasonable to others. <!--SR:!2024-08-15,75,335!2024-08-13,74,335-->
+  - market size correctness ::: There is no correct answer for market size, but it should be reasonable to others. <!--SR:!2024-08-15,75,335!2025-07-23,343,355-->
   - extra market sizes ::: Early adopters: The market size the company can achieve at the very start. Smaller than SOM. <!--SR:!2024-08-17,77,335!2025-07-04,326,355-->
 - visualization ::: Visualization is important to bring your point across. <!--SR:!2024-08-17,78,327!2025-07-09,331,355-->
 - reading assignment: [d.school design thinking bootleg § process modules](../../../d.school%20design%20thinking%20bootleg.md#process%20modules), [d.school design thinking bootleg § methods and tools](../../../d.school%20design%20thinking%20bootleg.md#methods%20and%20tools)

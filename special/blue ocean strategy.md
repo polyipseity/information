@@ -13,7 +13,7 @@ tags:
 
 Red ocean is about {{competing in existing market space and exploiting existing demand}}. {{Either differentiation or low cost}} can be satisfied. <!--SR:!2024-12-12,126,290!2024-12-20,130,290-->
 
-Blue ocean is about {{creating uncontested market space and capturing new demand}}. {{Both differentiation and low cost, i.e. value innovation}}, can be satisfied simultaneously. Value innovation can be represented by {{2 triangles pointing towards each other, with the 2 triangle tips overlapping in the middle}}. The upper triangle represents {{cost reduction while the lower triangle represents value creation}}, with the overlap {{representing satisfying both at the same time, hence value creation}}. <!--SR:!2024-08-18,56,310!2024-08-13,48,290!2024-09-24,79,324!2024-09-21,76,324!2024-09-19,74,324-->
+Blue ocean is about {{creating uncontested market space and capturing new demand}}. {{Both differentiation and low cost, i.e. value innovation}}, can be satisfied simultaneously. Value innovation can be represented by {{2 triangles pointing towards each other, with the 2 triangle tips overlapping in the middle}}. The upper triangle represents {{cost reduction while the lower triangle represents value creation}}, with the overlap {{representing satisfying both at the same time, hence value creation}}. <!--SR:!2024-08-18,56,310!2024-12-30,138,290!2024-09-24,79,324!2024-09-21,76,324!2024-09-19,74,324-->
 
 ## blue ocean shift
 
@@ -31,7 +31,7 @@ In the 2nd step, imagine "to be", the goal is to {{imagine where we could be}}. 
 
 To understand pains, we can use {{a customer journey map, which is similar to a [buyer utility map](buyer%20utility%20map.md) but with the column headers replaced with custom steps}}. Only {{note down the customer pains}} on the map, and then {{prioritize some customer pains by making them red}}. Finally, {{decide which pains are worth-solving by reducing or eliminating existing features}}. <!--SR:!2024-10-01,72,284!2024-09-25,53,284!2024-11-18,104,284!2024-09-24,79,324-->
 
-To look for non-customers, we can {{separate the non-customers into 3 tiers: soon-to-be, refusing, and unexplored}}. Identify {{current market's customer}} first, then identify the non-customers. Soon-to-be non-customers are {{customers that are waiting to jump ship when a better offering appears}}. Refusing non-customers are {{customers consciously not using your market's offerings}}. Unexplored non-customers are {{customers in very distant markets, making them not considered by the current market at all}}. <!--SR:!2024-09-20,75,324!2024-09-18,73,324!2024-08-31,55,304!2024-08-28,52,304!2024-08-14,47,304-->
+To look for non-customers, we can {{separate the non-customers into 3 tiers: soon-to-be, refusing, and unexplored}}. Identify {{current market's customer}} first, then identify the non-customers. Soon-to-be non-customers are {{customers that are waiting to jump ship when a better offering appears}}. Refusing non-customers are {{customers consciously not using your market's offerings}}. Unexplored non-customers are {{customers in very distant markets, making them not considered by the current market at all}}. <!--SR:!2024-09-20,75,324!2024-09-18,73,324!2024-08-31,55,304!2024-08-28,52,304!2025-01-07,146,304-->
 
 ### create "gap"
 

@@ -113,11 +113,11 @@ pricing: Find suitable prices catering to different market segment and economies
 <!--pytextgen generate section="948d"--><!-- The following content is generated at 2024-05-14T00:47:53.349895+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←differentiate: Differentiate our products to make it a hit with customers. <!--SR:!2024-12-20,150,301!2024-11-29,137,301-->
-- differentiate: Differentiate our products to make it a hit with customers.→:::←discover: Find holes in existing products. <!--SR:!2024-08-15,55,281!2024-08-13,70,321-->
+- differentiate: Differentiate our products to make it a hit with customers.→:::←discover: Find holes in existing products. <!--SR:!2024-08-15,55,281!2025-03-27,225,321-->
 - discover: Find holes in existing products.→:::←know ourselves: See if our products are sticky. <!--SR:!2024-08-28,59,221!2024-09-30,49,241-->
 - know ourselves: See if our products are sticky.→:::←know them: See how big of a threat competitors pose. <!--SR:!2024-12-30,156,301!2025-02-15,196,314-->
 - know them: See how big of a threat competitors pose.→:::←pricing: Find suitable prices catering to different market segment and economies. <!--SR:!2024-08-16,8,221!2024-12-26,140,261-->
-- pricing: Find suitable prices catering to different market segment and economies.→:::←_(end)_ <!--SR:!2025-04-24,264,341!2024-08-13,65,281-->
+- pricing: Find suitable prices catering to different market segment and economies.→:::←_(end)_ <!--SR:!2025-04-24,264,341!2024-09-20,37,261-->
 
 <!--/pytextgen-->
 
@@ -166,7 +166,7 @@ number of features
 
 <!--pytextgen generate section="a983"--><!-- The following content is generated at 2024-06-04T14:02:33.625025+08:00. Any edits will be overridden! -->
 
-- _(most important)_→:::←price <!--SR:!2024-08-14,71,321!2024-08-13,71,321-->
+- _(most important)_→:::←price <!--SR:!2025-06-23,313,341!2025-06-24,314,341-->
 - price→:::←benefit <!--SR:!2024-11-27,150,314!2024-09-27,97,301-->
 - benefit→:::←quality <!--SR:!2024-08-17,67,274!2024-11-24,134,301-->
 - quality→:::←durability <!--SR:!2024-08-20,19,181!2024-08-29,30,301-->

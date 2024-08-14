@@ -27,29 +27,29 @@ From the outside to inside, significant structures of the Sun are: {{[solar wind
 
 - see: [solar core](solar%20core.md)
 
-The core of the Sun extends {{from the center to about 20–25% of the [solar radius](solar%20radius.md)}}. It has a [density](density.md) of {{up to 150 g/cm<sup>3</sup> (about 150 times the density of [water](water.md))}} and a temperature of {{close to 15.7 million [kelvin](Kelvin.md) (K)}}. <!--SR:!2024-08-14,18,300!2024-09-25,48,300!2024-09-06,30,280-->
+The core of the Sun extends {{from the center to about 20–25% of the [solar radius](solar%20radius.md)}}. It has a [density](density.md) of {{up to 150 g/cm<sup>3</sup> (about 150 times the density of [water](water.md))}} and a temperature of {{close to 15.7 million [kelvin](Kelvin.md) (K)}}. <!--SR:!2024-10-11,58,300!2024-09-25,48,300!2024-09-06,30,280-->
 
-The core is the only region of the Sun that {{produces an appreciable amount of [thermal energy](thermal%20energy.md) through [nuclear fusion](nuclear%20fusion.md)}}; {{99% of the power is generated within 24% of the Sun's radius, and by 30% of the radius}}, fusion has stopped nearly entirely. Through most of the Sun's life, energy has been produced by {{nuclear fusion in the core region through the [proton–proton chain](proton–proton%20chain.md); this process converts [hydrogen](hydrogen.md) into [helium](helium.md)}}. Currently, only about 0.8% of the energy generated in the Sun {{comes from another sequence of fusion reactions called the [CNO cycle](CNO%20cycle.md), though this proportion is expected to increase as the Sun becomes older and more luminous}}. <!--SR:!2024-09-27,50,300!2024-08-14,18,300!2024-09-12,38,300!2024-08-14,18,300-->
+The core is the only region of the Sun that {{produces an appreciable amount of [thermal energy](thermal%20energy.md) through [nuclear fusion](nuclear%20fusion.md)}}; {{99% of the power is generated within 24% of the Sun's radius, and by 30% of the radius}}, fusion has stopped nearly entirely. Through most of the Sun's life, energy has been produced by {{nuclear fusion in the core region through the [proton–proton chain](proton–proton%20chain.md); this process converts [hydrogen](hydrogen.md) into [helium](helium.md)}}. Currently, only about 0.8% of the energy generated in the Sun {{comes from another sequence of fusion reactions called the [CNO cycle](CNO%20cycle.md), though this proportion is expected to increase as the Sun becomes older and more luminous}}. <!--SR:!2024-09-27,50,300!2024-10-06,53,300!2024-09-12,38,300!2024-10-08,55,300-->
 
-The fusion rate in the core is {{in a self-correcting equilibrium}}: a slightly higher rate of fusion would {{cause the core to heat up more and [expand](thermal%20expansion.md) slightly against the weight of the outer layers, reducing the density and hence the fusion rate and correcting the perturbation}}; and {{a slightly lower rate would cause the core to cool and shrink slightly, increasing the density and increasing the fusion rate and again reverting it to its present rate}}. <!--SR:!2024-08-14,18,300!2024-08-14,18,300!2024-09-27,47,300-->
+The fusion rate in the core is {{in a self-correcting equilibrium}}: a slightly higher rate of fusion would {{cause the core to heat up more and [expand](thermal%20expansion.md) slightly against the weight of the outer layers, reducing the density and hence the fusion rate and correcting the perturbation}}; and {{a slightly lower rate would cause the core to cool and shrink slightly, increasing the density and increasing the fusion rate and again reverting it to its present rate}}. <!--SR:!2024-10-09,56,300!2024-10-31,78,320!2024-09-27,47,300-->
 
 ## radiative zone
 
 - see: [radiation zone](radiation%20zone.md)
 
-The radiative zone is the thickest layer of the [Sun](sun.md), {{at 0.45 [solar radii](solar%20radius.md), extending from the core (0.25 solar radii) out to about 0.7 solar radii}}. {{[Thermal radiation](thermal%20radiation.md)}} is the primary means of energy transfer. The temperature drops from approximately 7 million to 1.5 million kelvins with increasing distance from the core. <!--SR:!2024-08-28,23,280!2024-08-14,18,300-->
+The radiative zone is the thickest layer of the [Sun](sun.md), {{at 0.45 [solar radii](solar%20radius.md), extending from the core (0.25 solar radii) out to about 0.7 solar radii}}. {{[Thermal radiation](thermal%20radiation.md)}} is the primary means of energy transfer. The temperature drops from approximately 7 million to 1.5 million kelvins with increasing distance from the core. <!--SR:!2024-08-28,23,280!2024-10-30,77,320-->
 
 ## convective zone
 
 - see: [convection zone](convection%20zone.md)
 
-The Sun's convection zone extends {{from 0.7 [solar radii](solar%20radius.md) (500&nbsp;000 km) to near the surface}}. The temperature drops {{from approximately 1.5 million to 5700 [kelvins](Kelvin.md) with increasing distance from the [core](#core)}}. In this layer, the solar plasma is {{not dense or hot enough to transfer the heat energy of the interior outward via [radiation](thermal%20radiation.md)}}. Instead, the density of the plasma is {{low enough to allow convective currents to develop and move the Sun's energy outward towards its surface}}. <!--SR:!2024-08-27,24,280!2024-08-14,18,300!2024-09-04,24,280!2024-08-14,18,300-->
+The Sun's convection zone extends {{from 0.7 [solar radii](solar%20radius.md) (500&nbsp;000 km) to near the surface}}. The temperature drops {{from approximately 1.5 million to 5700 [kelvins](Kelvin.md) with increasing distance from the [core](#core)}}. In this layer, the solar plasma is {{not dense or hot enough to transfer the heat energy of the interior outward via [radiation](thermal%20radiation.md)}}. Instead, the density of the plasma is {{low enough to allow convective currents to develop and move the Sun's energy outward towards its surface}}. <!--SR:!2024-08-27,24,280!2024-10-11,58,300!2024-09-04,24,280!2024-10-10,57,300-->
 
 ## photosphere
 
 - see: [photosphere](photosphere.md)
 
-{{The visible surface}} of the Sun, the photosphere, is {{the layer below which the Sun becomes [opaque](opacity.md) to [visible light](visible%20light.md)}}. <!--SR:!2024-08-14,18,300!2024-09-06,29,280-->
+{{The visible surface}} of the Sun, the photosphere, is {{the layer below which the Sun becomes [opaque](opacity.md) to [visible light](visible%20light.md)}}. <!--SR:!2024-10-29,76,320!2024-09-06,29,280-->
 
 ## motion
 

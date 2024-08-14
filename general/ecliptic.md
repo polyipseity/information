@@ -17,7 +17,7 @@ The __ecliptic__ or __ecliptic plane__ is {{the [orbital plane](orbital%20plane.
 
 - see: [astrology](astrology.md)
 
-The ecliptic forms {{the center of the [zodiac](zodiac.md)}}, {{a celestial belt about 20° wide in [latitude](latitude.md) through which the [Sun](Sun.md), [Moon](Moon.md), and [planets](planet.md) always appear to move}}, due to {{their small [orbital inclinations](orbital%20inclination.md)}}. <!--SR:!2024-09-29,72,316!2024-08-14,31,276!2024-08-27,44,296-->
+The ecliptic forms {{the center of the [zodiac](zodiac.md)}}, {{a celestial belt about 20° wide in [latitude](latitude.md) through which the [Sun](Sun.md), [Moon](Moon.md), and [planets](planet.md) always appear to move}}, due to {{their small [orbital inclinations](orbital%20inclination.md)}}. <!--SR:!2024-09-29,72,316!2024-12-07,115,296!2024-08-27,44,296-->
 
 ## references
 
