@@ -17,6 +17,14 @@ tags:
 
 - time limit: 20 minutes
 - coverage: chapter 1—chapter 19
+- contents: 3.8/4 marks
+  - [questions](#questions)
+    - question 1: 0.8/1 mark, 4 → 2 → 3 → 1 → 5
+    - question 2: 1/1 mark
+    - question 3: 1/1 mark
+    - question 4: 1/1 mark
+
+## marking scheme
 
 Marking is done as follows. Full marks if 4 marks. Each strip sequence test carries 1 mark.
 

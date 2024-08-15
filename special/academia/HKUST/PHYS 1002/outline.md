@@ -1205,7 +1205,7 @@ The content is in teaching order. Extra information and corrections are included
 > \[redacted\]
 
 - time: 2024-08-08T10:00:00+08:00/2024-08-08T13:00:00+08:00
-- [final exam](final%20exam.md): 49.5/50 (99/100)
+- [final exam](final%20exam.md): 99/100, scaled to 49.5/50
   - statistics
     - mean: 58.84
     - high: 99
@@ -1326,3 +1326,21 @@ The content is in teaching order. Extra information and corrections are included
 
 - [student-generated question](student-generated%20question.md): ?/1
 - [open-ended question report](open-ended%20question%20report.md): ?/20
+- [paper-checking session](#paper-checking%20session)
+
+### paper-checking session
+
+> Dear students,
+>
+> There will be two paper-checking sessions for you to check your strip sequence test and final exam papers.
+>
+> - Date: 15 & 16 Aug
+> - Time: 2:00pm to 3:30pm
+> - Venue: 2504
+>
+> If you want to check your papers, please attend either one of them. You need to show your student ID card to check your papers. You are not allowed to take the papers away or take pictures of them.
+>
+> If you want to have someone check the papers for you, please email the NAME and SID of that student to our IA \[redacted\] (\[redacted\])
+>
+> Best,<br/>
+> \[redacted\]
