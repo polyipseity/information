@@ -11,7 +11,7 @@ tags:
 
 ## 5C analysis
 
-5C analysis aspects include {{_company_, _competitors_, _customers_, _collaborators_, and _climate_}}. <!--SR:!2024-08-15,55,310-->
+5C analysis aspects include {{_company_, _competitors_, _customers_, _collaborators_, and _climate_}}. <!--SR:!2025-02-01,170,310-->
 
 ### company
 

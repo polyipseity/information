@@ -8,7 +8,7 @@ tags:
 
 # galaxy morphological classification
 
-__Galaxy morphological classification__ is {{a system used by [astronomers](astronomer.md) to divide [galaxies](galaxy.md) into groups based on their visual appearance}}. There are {{several schemes in use by which galaxies can be classified according to their morphologies}}, the most famous being {{the [Hubble sequence](hubble%20sequence.md), devised by [Edwin Hubble](Edwin%20Hubble.md)}} and later {{expanded by [Gérard de Vaucouleurs](Gérard%20de%20Vaucouleurs.md) and [Allan Sandage](Allan%20Sandage.md)}}. However, galaxy classification and morphology are now {{largely done using computational methods and physical morphology}}. <!--SR:!2024-08-21,13,290!2024-08-25,17,290!2024-08-23,15,290!2024-08-15,9,250!2024-08-22,14,290-->
+__Galaxy morphological classification__ is {{a system used by [astronomers](astronomer.md) to divide [galaxies](galaxy.md) into groups based on their visual appearance}}. There are {{several schemes in use by which galaxies can be classified according to their morphologies}}, the most famous being {{the [Hubble sequence](hubble%20sequence.md), devised by [Edwin Hubble](Edwin%20Hubble.md)}} and later {{expanded by [Gérard de Vaucouleurs](Gérard%20de%20Vaucouleurs.md) and [Allan Sandage](Allan%20Sandage.md)}}. However, galaxy classification and morphology are now {{largely done using computational methods and physical morphology}}. <!--SR:!2024-08-21,13,290!2024-08-25,17,290!2024-08-23,15,290!2024-09-05,20,250!2024-08-22,14,290-->
 
 ## references
 

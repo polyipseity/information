@@ -17,7 +17,7 @@ tags:
 
 ## probabilistic model
 
-Abstractly, naive Bayes classifier is {{a [conditional probability](conditional%20probability.md) model}}. The problem to be solved is: Given a sample with {{$n$ features ($n$ inputs)}}, assign {{the conditional probability of the sample belonging to a class (1 output) for each of the $K$ possible classes}}. The $n$ inputs are represented by {{a vector $\mathbf{x} = (x_1, \ldots, x_n)$}}. The $k$-th class of the $K$ possible classes is represented by {{$C_k$}}. Then the conditional probability is mathematically {{$p(C_k \mid \mathbf{x})$}}. <!--SR:!2024-09-12,69,310!2024-09-04,63,310!2024-11-16,104,290!2024-09-03,62,310!2024-09-08,66,310!2024-08-15,43,290-->
+Abstractly, naive Bayes classifier is {{a [conditional probability](conditional%20probability.md) model}}. The problem to be solved is: Given a sample with {{$n$ features ($n$ inputs)}}, assign {{the conditional probability of the sample belonging to a class (1 output) for each of the $K$ possible classes}}. The $n$ inputs are represented by {{a vector $\mathbf{x} = (x_1, \ldots, x_n)$}}. The $k$-th class of the $K$ possible classes is represented by {{$C_k$}}. Then the conditional probability is mathematically {{$p(C_k \mid \mathbf{x})$}}. <!--SR:!2024-09-12,69,310!2024-09-04,63,310!2024-11-16,104,290!2024-09-03,62,310!2024-09-08,66,310!2025-02-05,173,310-->
 
 Using {{[Bayes' theorem](Bayes'%20theorem.md)}}, the {{required conditional probability}} can be written as: {{$$p(C_k \mid \mathbf{x}) = \frac {p(C_k) p(\mathbf{x} \mid C_k)} {p(\mathbf{x})}$$}}. <!--SR:!2024-09-09,66,310!2025-01-25,164,310!2025-01-24,169,310-->
 

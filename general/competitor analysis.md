@@ -73,7 +73,7 @@ why: Why are people using competitors' products?
 - compare: Identify similarities and differences between our and their products.→:::←copy: Identify advantages and capabilities our products lack compared to others. <!--SR:!2024-08-25,70,274!2024-08-29,72,281-->
 - copy: Identify advantages and capabilities our products lack compared to others.→:::←discover: Identify unmet needs. <!--SR:!2024-08-30,22,221!2024-09-10,70,241-->
 - discover: Identify unmet needs.→:::←how: What is our strategy? <!--SR:!2024-08-19,27,201!2024-08-16,15,241-->
-- how: What is our strategy?→:::←pricing: Compare prices. <!--SR:!2024-08-15,3,141!2024-10-03,52,241-->
+- how: What is our strategy?→:::←pricing: Compare prices. <!--SR:!2024-08-19,4,141!2024-10-03,52,241-->
 - pricing: Compare prices.→:::←who: Who are the competitors? 3 to 5 is usually enough. <!--SR:!2024-09-27,50,241!2024-08-18,61,261-->
 - who: Who are the competitors? 3 to 5 is usually enough.→:::←why: Why are people using competitors' products? <!--SR:!2024-10-13,103,281!2024-09-15,73,241-->
 - why: Why are people using competitors' products?→:::←_(end)_ <!--SR:!2025-06-08,300,341!2024-09-16,83,281-->
@@ -113,7 +113,7 @@ pricing: Find suitable prices catering to different market segment and economies
 <!--pytextgen generate section="948d"--><!-- The following content is generated at 2024-05-14T00:47:53.349895+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←differentiate: Differentiate our products to make it a hit with customers. <!--SR:!2024-12-20,150,301!2024-11-29,137,301-->
-- differentiate: Differentiate our products to make it a hit with customers.→:::←discover: Find holes in existing products. <!--SR:!2024-08-15,55,281!2025-03-27,225,321-->
+- differentiate: Differentiate our products to make it a hit with customers.→:::←discover: Find holes in existing products. <!--SR:!2025-01-16,154,281!2025-03-27,225,321-->
 - discover: Find holes in existing products.→:::←know ourselves: See if our products are sticky. <!--SR:!2024-08-28,59,221!2024-09-30,49,241-->
 - know ourselves: See if our products are sticky.→:::←know them: See how big of a threat competitors pose. <!--SR:!2024-12-30,156,301!2025-02-15,196,314-->
 - know them: See how big of a threat competitors pose.→:::←pricing: Find suitable prices catering to different market segment and economies. <!--SR:!2024-08-16,8,221!2024-12-26,140,261-->
@@ -174,7 +174,7 @@ number of features
 - service→:::←convenience <!--SR:!2024-08-19,11,201!2024-09-04,27,281-->
 - convenience→:::←ease of use <!--SR:!2024-10-26,103,261!2025-01-10,172,314-->
 - ease of use→:::←number of features <!--SR:!2024-09-16,51,261!2024-09-08,47,254-->
-- number of features→:::←_(least important)_ <!--SR:!2025-06-03,299,334!2024-08-15,72,321-->
+- number of features→:::←_(least important)_ <!--SR:!2025-06-03,299,334!2025-06-29,318,341-->
 
 <!--/pytextgen-->
 

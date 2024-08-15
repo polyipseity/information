@@ -14,7 +14,7 @@ A __supernova__ (pl.: __supernovae__ or __supernovas__) is {{a powerful and lumi
 
 ## classification
 
-Astronomers classify supernovae {{according to their [light curves](light%20curve.md) and the [absorption lines](spectral%20line.md) of different [chemical elements](chemical%20element.md) that appear in their [spectra](astronomical%20spectroscopy.md)}}. If {{a supernova's spectrum contains lines of [hydrogen](hydrogen.md) (known as the [Balmer series](Balmer%20series.md) in the visual portion of the spectrum)}} it is {{classified _Type II_; otherwise it is _Type I_}}. In each of these two types there are {{subdivisions according to the presence of lines from other elements or the shape of the light curve (a graph of the supernova's apparent magnitude as a function of time)}}. <!--SR:!2024-08-15,9,263!2024-08-26,18,303!2024-08-16,10,263!2024-09-26,43,303-->
+Astronomers classify supernovae {{according to their [light curves](light%20curve.md) and the [absorption lines](spectral%20line.md) of different [chemical elements](chemical%20element.md) that appear in their [spectra](astronomical%20spectroscopy.md)}}. If {{a supernova's spectrum contains lines of [hydrogen](hydrogen.md) (known as the [Balmer series](Balmer%20series.md) in the visual portion of the spectrum)}} it is {{classified _Type II_; otherwise it is _Type I_}}. In each of these two types there are {{subdivisions according to the presence of lines from other elements or the shape of the light curve (a graph of the supernova's apparent magnitude as a function of time)}}. <!--SR:!2024-09-08,23,263!2024-08-26,18,303!2024-08-16,10,263!2024-09-26,43,303-->
 
 ## references
 

@@ -40,7 +40,7 @@ return await memorize_seq(
 <!--pytextgen generate section="bd92ec"--><!-- The following content is generated at 2024-01-04T20:17:51.763624+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←Moisten a clean [platinum](platinum.md) or [nichrome](nichrome.md) wire with concentrated [hydrochloric acid](hydrochloric%20acid.md). <!--SR:!2026-09-08,798,270!2027-12-01,1328,350-->
-- Moisten a clean [platinum](platinum.md) or [nichrome](nichrome.md) wire with concentrated [hydrochloric acid](hydrochloric%20acid.md).→:::←Dip the wire into the crushed sample or [solution](solution%20(chemistry).md). <!--SR:!2024-08-15,358,290!2027-05-31,1026,290-->
+- Moisten a clean [platinum](platinum.md) or [nichrome](nichrome.md) wire with concentrated [hydrochloric acid](hydrochloric%20acid.md).→:::←Dip the wire into the crushed sample or [solution](solution%20(chemistry).md). <!--SR:!2027-06-19,1037,290!2027-05-31,1026,290-->
 - Dip the wire into the crushed sample or [solution](solution%20(chemistry).md).→:::←Heat the end of the wire in a hot, non-luminous flame. <!--SR:!2028-07-22,1438,310!2025-01-07,473,310-->
 - Heat the end of the wire in a hot, non-luminous flame.→:::←Observe the color of the resulting flame. <!--SR:!2026-11-26,959,330!2025-07-06,616,310-->
 - Observe the color of the resulting flame.→:::←_(end)_ <!--SR:!2028-01-05,1355,350!2026-07-16,917,330-->
@@ -82,7 +82,7 @@ return await memorize_map(
 <!--pytextgen generate section="2837ca"--><!-- The following content is generated at 2024-01-04T20:17:51.882656+08:00. Any edits will be overridden! -->
 
 - [calcium](calcium.md)::brick red, light green (through [cobalt blue glass](cobalt%20glass.md)) <!--SR:!2024-09-05,40,150-->
-- [copper](copper.md)(I)::blue-green <!--SR:!2024-08-15,14,130-->
+- [copper](copper.md)(I)::blue-green <!--SR:!2024-09-02,17,130-->
 - [copper](copper.md)(II)::green (non-halide), blue-green (halide) <!--SR:!2024-12-17,161,190-->
 - [iron](iron.md)(II)::blue (very hot), gold, green to orange-brown, sparks <!--SR:!2024-08-27,26,150-->
 - [iron](iron.md)(III)::orange-brown <!--SR:!2024-09-12,42,170-->

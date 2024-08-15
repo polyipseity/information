@@ -57,7 +57,7 @@ The content is in teaching order.
   - [§ how](../../../market%20segmentation.md#how)
   - [§ segmentation variables](../../../market%20segmentation.md#segmentation%20variables)
 - market size
-  - market size acronyms and names ::: TAM: total available market, SAM: serviceable available market, SOM: serviceable obtainable market <!--SR:!2024-08-15,75,335!2025-06-30,322,355-->
+  - market size acronyms and names ::: TAM: total available market, SAM: serviceable available market, SOM: serviceable obtainable market <!--SR:!2025-04-28,255,335!2025-06-30,322,355-->
   - market size importance ::: Startups use these metrics to analyze business viability and for fundraising purposes. <!--SR:!2024-08-19,77,335!2025-07-24,344,355-->
   - [difference between TAM, SAM, and SOM](../../../../general/total%20addressable%20market.md#difference%20between%20TAM,%20SAM,%20and%20SOM)
   - [total available market](../../../../general/total%20addressable%20market.md) (TAM)
@@ -66,7 +66,7 @@ The content is in teaching order.
     - [§ importance](../../../../general/serviceable%20available%20market.md#importance)
   - [serviceable obtainable market](../../../../general/target%20market.md) (SOM)
     - [§ importance](../../../../general/target%20market.md#importance)
-  - market size correctness ::: There is no correct answer for market size, but it should be reasonable to others. <!--SR:!2024-08-15,75,335!2025-07-23,343,355-->
+  - market size correctness ::: There is no correct answer for market size, but it should be reasonable to others. <!--SR:!2025-04-27,254,335!2025-07-23,343,355-->
   - extra market sizes ::: Early adopters: The market size the company can achieve at the very start. Smaller than SOM. <!--SR:!2024-08-17,77,335!2025-07-04,326,355-->
 - visualization ::: Visualization is important to bring your point across. <!--SR:!2024-08-17,78,327!2025-07-09,331,355-->
 - reading assignment: [d.school design thinking bootleg § process modules](../../../d.school%20design%20thinking%20bootleg.md#process%20modules), [d.school design thinking bootleg § methods and tools](../../../d.school%20design%20thinking%20bootleg.md#methods%20and%20tools)
@@ -222,7 +222,7 @@ The content is in teaching order.
   - [§ format](../../../5-step%20persuasive%20selling.md#format)
 - more trees (for TEMG 4950) ::: issue tree and hypothesis tree <!--SR:!2024-08-18,54,341!2024-09-11,78,361-->
 - cause mapping extensions ::: facts table, solutions table <!--SR:!2024-09-06,73,361!2024-09-22,87,361-->
-  - facts table ::: what, when, where, impact <!--SR:!2024-09-19,85,361!2024-08-15,51,341-->
+  - facts table ::: what, when, where, impact <!--SR:!2024-09-19,85,361!2025-02-07,175,341-->
   - solutions table ::: no., cause, solution; optionally, time, persons responsible, budget <!--SR:!2024-08-19,55,341!2024-09-22,87,361-->
 - interview note-taking technique using 1 sheet of A4 paper ::: facts, key question (only 1), analysis <!--SR:!2024-09-26,91,361!2024-10-04,98,361-->
   - interview note § layout ::: split the paper into 2, the left side is thinner and holds the facts and key question, and the right side is the analysis <!--SR:!2024-12-13,134,321!2024-10-03,97,361-->

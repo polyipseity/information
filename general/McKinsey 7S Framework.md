@@ -13,7 +13,7 @@ tags:
 
 > {{![visual representation of the model](../archives/Wikimedia%20Commons/McKinsey%207S%20framework.svg)}}
 >
-> {{visual representation of the model}} <!--SR:!2024-08-15,44,250!2025-01-23,162,310-->
+> {{visual representation of the model}} <!--SR:!2024-12-03,109,250!2025-01-23,162,310-->
 
 ## objective
 
@@ -27,7 +27,7 @@ The 3 hard elements are {{_strategy_, _structure_, and _systems_}}. <!--SR:!2024
 
 The 4 soft elements are {{_shared values_, _skills_, _staff_, and _style_}}. <!--SR:!2024-09-22,69,270-->
 
-- _shared values_ ::: core beliefs and values forming the corporate culture <!--SR:!2024-09-02,68,310!2024-08-15,53,310-->
+- _shared values_ ::: core beliefs and values forming the corporate culture <!--SR:!2024-09-02,68,310!2025-03-30,226,330-->
 - _skills_ ::: core competencies and distinctive capabilities, such as existing skills, skill development <!--SR:!2024-12-25,135,290!2024-08-19,57,310-->
 - _staff_ ::: hiring and firing standards or policies, and staff characteristics <!--SR:!2024-09-28,45,270!2024-08-16,54,310-->
 - _style_ ::: behavior patterns of key groups, such as management style <!--SR:!2024-08-31,67,310!2024-08-17,55,310-->

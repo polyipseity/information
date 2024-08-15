@@ -46,7 +46,7 @@ return await memorize_seq(
 - _(begin)_→:::←[empathize](#empathize) (blue) <!--SR:!2024-10-08,127,290!2025-03-31,278,330-->
 - [empathize](#empathize) (blue)→:::←[define](#define) (green) <!--SR:!2024-08-19,89,270!2025-04-14,289,330-->
 - [define](#define) (green)→:::←[ideate](#ideate) (yellow) <!--SR:!2024-08-26,84,250!2024-11-18,139,250-->
-- [ideate](#ideate) (yellow)→:::←[prototype](#prototype) (red) <!--SR:!2024-09-05,112,290!2024-08-15,85,270-->
+- [ideate](#ideate) (yellow)→:::←[prototype](#prototype) (red) <!--SR:!2024-09-05,112,290!2025-04-02,229,270-->
 - [prototype](#prototype) (red)→:::←[test](#test) (brown) <!--SR:!2024-08-18,99,290!2024-12-22,185,310-->
 - [test](#test) (brown)→:::←_(end)_ <!--SR:!2025-04-15,290,330!2025-02-02,234,330-->
 

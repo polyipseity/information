@@ -36,7 +36,7 @@ This cycle is now understood as {{being the first part of a larger process, the 
 - 3rd step ::: $${}_{\phantom{0}6}^{13}\mathrm{C} + {}_1^1\mathrm{H} \rightarrow {}_{\phantom{0}7}^{14}\mathrm{N} + \gamma + 7.54~\mathrm{MeV}$$ <!--SR:!2024-09-08,27,270!2024-08-18,15,290-->
   - 3rd step / energy release (& half-life if available) ::: 7.54 MeV <!--SR:!2024-09-12,31,270!2024-08-28,16,250-->
 - 4th step ::: $${}_{\phantom{0}7}^{14}\mathrm{N} + {}_1^1\mathrm{H} \rightarrow {}_{\phantom{0}8}^{15}\mathrm{O} + \gamma + 7.35~\mathrm{MeV}$$ <!--SR:!2024-08-19,7,230!2024-08-19,16,290-->
-  - 4th step / energy release (& half-life if available) ::: 7.35 MeV <!--SR:!2024-08-27,15,250!2024-08-15,12,270-->
+  - 4th step / energy release (& half-life if available) ::: 7.35 MeV <!--SR:!2024-08-27,15,250!2024-09-21,36,270-->
 - 5th step ::: $${}_{\phantom{0}8}^{15}\mathrm{O} \rightarrow {}_{\phantom{0}7}^{15}\mathrm{N} + \mathrm{e}^+ + \nu_{\mathrm{e} } + 1.73~\mathrm{MeV} \quad (\text{half life of 122.24 seconds})$$ <!--SR:!2024-08-31,19,250!2024-09-10,27,270-->
   - 5th step / energy release (& half-life if available) ::: 1.73 MeV, 122.24 seconds <!--SR:!2024-08-16,4,210!2024-08-20,17,290-->
 - 6th step ::: $${}_{\phantom{0}7}^{15}\mathrm{N} + {}_1^1\mathrm{H} \rightarrow {}_{\phantom{0}6}^{12}\mathrm{C} + {}_2^4\mathrm{He} + 4.96~\mathrm{MeV}$$ <!--SR:!2024-08-19,7,210!2024-08-20,17,290-->

@@ -43,7 +43,7 @@ For inputting item lists, XLMiner provides 2 input formats: {{binary matrix and 
 
 ### partitioning
 
-XLMiner can partition the dataset into {{3 datasets}}: {{training set, validation set, and test set}}. <!--SR:!2024-09-21,76,335!2024-08-15,44,295-->
+XLMiner can partition the dataset into {{3 datasets}}: {{training set, validation set, and test set}}. <!--SR:!2024-09-21,76,335!2025-02-15,183,315-->
 
 ### random seed
 

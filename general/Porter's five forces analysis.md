@@ -13,11 +13,11 @@ tags:
 
 > {{![visual representation of the model](../archives/Wikimedia%20Commons/Elements%20of%20Industry%20Structure.svg)}}
 >
-> {{visual representation of the model}} <!--SR:!2024-08-15,54,310!2024-11-21,112,290-->
+> {{visual representation of the model}} <!--SR:!2025-01-28,166,310!2024-11-21,112,290-->
 
 ## five forces that shape competition
 
-The 5 forces are {{threat of _new entrants_, bargaining power of _buyers_, threat of _substitutes_, bargaining power of _suppliers_, and _industry_ rivalry}}. The first 4 forces {{surrounds the last force in a loop}}. <!--SR:!2024-08-15,51,290!2025-03-30,228,330-->
+The 5 forces are {{threat of _new entrants_, bargaining power of _buyers_, threat of _substitutes_, bargaining power of _suppliers_, and _industry_ rivalry}}. The first 4 forces {{surrounds the last force in a loop}}. <!--SR:!2025-01-09,146,290!2025-03-30,228,330-->
 
 ### threat of new entrants
 
