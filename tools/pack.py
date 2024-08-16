@@ -8,7 +8,7 @@ from types import EllipsisType
 from urllib.parse import unquote
 from zipfile import ZIP_DEFLATED, ZipFile
 from anyio import Path
-from argparse import ONE_OR_MORE, ArgumentParser, Namespace
+from argparse import ONE_OR_MORE, ZERO_OR_MORE, ArgumentParser, Namespace
 from asyncio import (
     BoundedSemaphore,
     Queue,
@@ -36,6 +36,7 @@ from typing import (
     AsyncIterator,
     Awaitable,
     Callable,
+    Collection,
     Iterator,
     Mapping,
     MutableSet,
@@ -71,10 +72,15 @@ _VERSION = "∞"
 class Arguments:
     output: Path
     root: Path | None
-    files: Sequence[Path]
     count: int
     damping_factor: float
     page_rank_iterations: int
+    exclude_extensions: Collection[str]
+    files: Collection[Path]
+
+    def __post_init__(self) -> None:
+        object.__setattr__(self, "files", tuple(self.files))
+        object.__setattr__(self, "exclude_extensions", tuple(self.exclude_extensions))
 
 
 async def main(args: Arguments) -> None:
@@ -102,7 +108,14 @@ async def main(args: Arguments) -> None:
         resolve_root(),
         a_tuple(a_chain[Path].from_iterable(map(resolve_file, args.files))),
     )
-    args = replace(args, output=output, root=root, files=files)
+    exclude_extensions = frozenset(args.exclude_extensions)
+    args = replace(
+        args,
+        output=output,
+        root=root,
+        exclude_extensions=exclude_extensions,
+        files=files,
+    )
 
     if root is not None and not all(root in file.parents for file in files):
         raise ValueError("The specified root does not contain all files to pack")
@@ -114,7 +127,9 @@ async def main(args: Arguments) -> None:
 
     scheme_regex = compile(r"^[^:]+:")
 
-    async def process_markdown_file(file: Path):
+    async def process_file(file: Path):
+        if file.suffix in exclude_extensions:
+            return None
         if file.suffix != ".md":
             return ProcessMarkdownFileResult(file, set(), set())
         text = await file.read_text()
@@ -166,9 +181,13 @@ async def main(args: Arguments) -> None:
             yield queue.pop()
 
     while queue:
-        async for path, existing, missing in a_eager_map(
-            process_markdown_file, queue_iter(), concurrency=_CONCURRENCY
+        async for ret in a_eager_map(
+            process_file, queue_iter(), concurrency=_CONCURRENCY
         ):
+            if ret is None:
+                continue
+            path, existing, missing = ret
+
             new_existing = set(existing)
             new_existing.difference_update(existing_paths)
             existing_paths.update({path: _EMPTY_SET for path in new_existing})
@@ -230,7 +249,7 @@ async def main(args: Arguments) -> None:
     existing_paths, filtered_paths = dict(existing_paths), dict(filtered_paths)
     missing_paths = sorted(map(try_make_relative, missing_paths))
 
-    filter_threshold = min(existing_paths.values())
+    filter_threshold = max(filtered_paths.values(), default=0)
 
     info(f"existing paths: {existing_paths}")
     # info(f"filtered paths: {filtered_paths}")
@@ -372,6 +391,14 @@ def parser(parent: Callable[..., ArgumentParser] | None = None):
         help="number of PageRank iterations; default 100",
     )
     parser.add_argument(
+        "-e",
+        "--exclude-extension",
+        action="store",
+        nargs=ZERO_OR_MORE,
+        type=str,
+        help="extensions to exclude, with a leading dot if nonempty",
+    )
+    parser.add_argument(
         "files",
         action="store",
         nargs=ONE_OR_MORE,
@@ -385,10 +412,11 @@ def parser(parent: Callable[..., ArgumentParser] | None = None):
             Arguments(
                 output=args.output,
                 root=args.root,
-                files=args.files,
                 count=args.count,
                 damping_factor=args.damping_factor,
                 page_rank_iterations=args.page_rank_iterations,
+                exclude_extensions=args.exclude_extension,
+                files=args.files,
             )
         )
 
