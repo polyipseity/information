@@ -77,7 +77,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 5. 3/2 sidereal days
 >
 > - solution: {{2}}
-> - explanation: {{The planet is in prograde motion. Hence, the number of solar days per orbital period is $6 - 1 = 5\text{ solar days}$. Thus each solar day is $\frac {1 / 5} {1 / 6} = \frac 6 5\text{ sidereal days}$.}} <!--SR:!2024-08-16,33,277!2024-08-17,34,277-->
+> - explanation: {{The planet is in prograde motion. Hence, the number of solar days per orbital period is $6 - 1 = 5\text{ solar days}$. Thus each solar day is $\frac {1 / 5} {1 / 6} = \frac 6 5\text{ sidereal days}$.}} <!--SR:!2024-12-23,128,297!2024-08-17,34,277-->
 
 <!-- markdownlint MD028 -->
 
@@ -301,7 +301,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 5. purple (not violet)
 >
 > - solution: {{5}}
-> - explanation: {{Purple is the combination of red and blue. However, red and blue are on the two opposite ends of the visible spectrum, so the spectral radiance graph would need to have 2 peaks. This is impossible for thermal radiation to produce, as predicted by the Wien approximation. For more, see [Planckian locus](../../../../general/Planckian%20locus.md).}} <!--SR:!2024-08-16,19,328!2024-08-16,19,328-->
+> - explanation: {{Purple is the combination of red and blue. However, red and blue are on the two opposite ends of the visible spectrum, so the spectral radiance graph would need to have 2 peaks. This is impossible for thermal radiation to produce, as predicted by the Wien approximation. For more, see [Planckian locus](../../../../general/Planckian%20locus.md).}} <!--SR:!2024-11-11,86,348!2024-11-09,84,348-->
 
 ## 2024-07-18
 
@@ -315,7 +315,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 6. No width broadening but blue-shifted.
 >
 > - solution: {{1}}
-> - explanation: {{First, the star is not moving, so the spectral line should be unshifted. Now consider the surface of a very fast rotating star. In particular, consider the left and right sides of the rotating star. The surface of one side is approaching us very quickly, and that of the other side is moving away from us very quickly as well. This would mean part of the light from the star is blue-shifted and another part is red-shifted. The result is that the spectral line broadens.}} <!--SR:!2024-10-10,59,328!2024-08-16,19,328-->
+> - explanation: {{First, the star is not moving, so the spectral line should be unshifted. Now consider the surface of a very fast rotating star. In particular, consider the left and right sides of the rotating star. The surface of one side is approaching us very quickly, and that of the other side is moving away from us very quickly as well. This would mean part of the light from the star is blue-shifted and another part is red-shifted. The result is that the spectral line broadens.}} <!--SR:!2024-10-10,59,328!2024-11-09,84,348-->
 
 <!-- markdownlint MD028 -->
 
@@ -355,7 +355,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 5. 2500000 km
 >
 > - solution: {{2}}
-> - explanation: {{Using the Rayleigh criterion, the angular resolution in radians is $$\theta = 1.22 \frac {500 \times 10^{-9} } {3 \times 10^{-3} } \approx 0.000203333333~\mathrm{rad}$$. Setup a trigonometric equation: $$\tan (\theta / 2) = \frac {5 / 2} d$$, where $d$ is the distance to the Great Wall (in meters). Since the angle is small, we can use small angle approximation to save work: $$\theta / 2 \approx \frac {5 / 2} d \implies \theta \approx \frac 5 d \implies d \approx \frac 5 \theta = \frac 5 {0.000203333333} \approx 24590.16~\mathrm{m} \approx 24.6~\mathrm{km}$$. So the answer is 25 km.}} <!--SR:!2024-08-16,19,331!2024-09-26,45,311-->
+> - explanation: {{Using the Rayleigh criterion, the angular resolution in radians is $$\theta = 1.22 \frac {500 \times 10^{-9} } {3 \times 10^{-3} } \approx 0.000203333333~\mathrm{rad}$$. Setup a trigonometric equation: $$\tan (\theta / 2) = \frac {5 / 2} d$$, where $d$ is the distance to the Great Wall (in meters). Since the angle is small, we can use small angle approximation to save work: $$\theta / 2 \approx \frac {5 / 2} d \implies \theta \approx \frac 5 d \implies d \approx \frac 5 \theta = \frac 5 {0.000203333333} \approx 24590.16~\mathrm{m} \approx 24.6~\mathrm{km}$$. So the answer is 25 km.}} <!--SR:!2024-11-12,87,351!2024-09-26,45,311-->
 
 <!-- markdownlint MD028 -->
 
@@ -373,7 +373,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 5. 10^7 L_Sun
 >
 > - solution: {{1}}
-> - explanation: {{Notice that $C$ is not given for two cases. So the main problem is calculating $C$. The main thing to realize is that w expect for masses in the boundary points between two equations, the two equations should predict the same value, i.e. a continuous function. We only need the $C$ for the third case: $$55^{3.5} = C \cdot 55^1 \implies C = 55^{2.5} \approx 22434.0004$$. Then the rest is a simple matter of applying the formula: $$L = 22434.0004 \cdot 100^1 \approx 2.24 \times 10^6~\mathrm{solar\ luminosity}$$. So the answer is 2×10<sup>6</sup> L<sub>Sun</sub>.}} <!--SR:!2024-08-16,19,331!2024-08-26,22,291-->
+> - explanation: {{Notice that $C$ is not given for two cases. So the main problem is calculating $C$. The main thing to realize is that w expect for masses in the boundary points between two equations, the two equations should predict the same value, i.e. a continuous function. We only need the $C$ for the third case: $$55^{3.5} = C \cdot 55^1 \implies C = 55^{2.5} \approx 22434.0004$$. Then the rest is a simple matter of applying the formula: $$L = 22434.0004 \cdot 100^1 \approx 2.24 \times 10^6~\mathrm{solar\ luminosity}$$. So the answer is 2×10<sup>6</sup> L<sub>Sun</sub>.}} <!--SR:!2024-11-11,86,351!2024-08-26,22,291-->
 
 <!-- markdownlint MD028 -->
 
@@ -385,7 +385,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 4. 24 AU
 >
 > - solution: {{3}}
-> - explanation: {{Find the factor the Sun needs to be dimmer to have an apparent magnitude of 1.98: $$f_B = 100^{-\frac {1.98 - (-26.832)} 5} = 100^{-5.7624} \approx 2.98675776 \times 10^{-12}$$. As the apparent brightness is inversely proportional to the square of distance, the factor the Sun needs to be farther away is $$f_d = 1 / \sqrt{2.98675776 \times 10^{-12} } \approx 578628.74$$. As the Sun is 1 AU away, the answer is about 5.8×10<sup>5</sup> AU.}} <!--SR:!2024-08-15,14,291!2024-08-25,21,291-->
+> - explanation: {{Find the factor the Sun needs to be dimmer to have an apparent magnitude of 1.98: $$f_B = 100^{-\frac {1.98 - (-26.832)} 5} = 100^{-5.7624} \approx 2.98675776 \times 10^{-12}$$. As the apparent brightness is inversely proportional to the square of distance, the factor the Sun needs to be farther away is $$f_d = 1 / \sqrt{2.98675776 \times 10^{-12} } \approx 578628.74$$. As the Sun is 1 AU away, the answer is about 5.8×10<sup>5</sup> AU.}} <!--SR:!2024-08-24,7,271!2024-08-25,21,291-->
 
 <!-- markdownlint MD028 -->
 
@@ -401,7 +401,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 8. 1.5 m
 >
 > - solution: {{1}}
-> - explanation: {{To have a maximum error of 0.5 km, the measurement interval is twice that: 1 km (primary school things). Calculate the angular size of 1 km from 1 AU away, using the small angle approximation: $$\theta \approx \frac {1000} {149\,597\,870\,700} \approx 6.68458712 \times 10^{-9}$$. This is the angular resolution required. Calculate the minimum aperture required using the Rayleigh criterion: $$\theta \approx 1.22 \frac \lambda D \implies D \approx 1.22 \frac \lambda \theta = 1.22 \frac {500 \times 10^{-9} } {6.68458712 \times 10^{-9} } \approx 91.254701~\mathrm{m}$$. So the answer is 90 m. That is a giant telescope indeed.}} <!--SR:!2024-08-16,19,331!2024-08-16,19,331-->
+> - explanation: {{To have a maximum error of 0.5 km, the measurement interval is twice that: 1 km (primary school things). Calculate the angular size of 1 km from 1 AU away, using the small angle approximation: $$\theta \approx \frac {1000} {149\,597\,870\,700} \approx 6.68458712 \times 10^{-9}$$. This is the angular resolution required. Calculate the minimum aperture required using the Rayleigh criterion: $$\theta \approx 1.22 \frac \lambda D \implies D \approx 1.22 \frac \lambda \theta = 1.22 \frac {500 \times 10^{-9} } {6.68458712 \times 10^{-9} } \approx 91.254701~\mathrm{m}$$. So the answer is 90 m. That is a giant telescope indeed.}} <!--SR:!2024-10-17,61,331!2024-10-20,64,331-->
 
 <!-- markdownlint MD028 -->
 
@@ -465,7 +465,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 5. 10^(-10) m
 >
 > - solution: {{2}}
-> - explanation: {{Apply the equation for Schwarzschild radius: $$r_s = \frac {2 \cdot 6.67 \times 10^{-11} \cdot 70} {299\,792\,458^2} \approx 1.03899262 \times 10^{-25}~\mathrm{m}$$. So the answer is 10<sup>-25</sup> m.}} <!--SR:!2024-08-23,15,325!2024-08-15,9,305-->
+> - explanation: {{Apply the equation for Schwarzschild radius: $$r_s = \frac {2 \cdot 6.67 \times 10^{-11} \cdot 70} {299\,792\,458^2} \approx 1.03899262 \times 10^{-25}~\mathrm{m}$$. So the answer is 10<sup>-25</sup> m.}} <!--SR:!2024-08-23,15,325!2024-09-24,38,325-->
 
 <!-- markdownlint MD028 -->
 
@@ -516,7 +516,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 5. 10^14 solar masses
 >
 > - solution: {{4}}
-> - explanation: {{Apply the orbital velocity equation: $$M = \frac {rv^2} G = \frac {100\,000 \cdot 9460\,730\,472\,580\,800 \cdot \left(400 \times 10^{3} \right)^2 } {\cdot 6.674\,30 \times 10^{-11} } \approx 2.26797848e42~\mathrm{kg} \approx \frac {2.26797848 \times 10^{42} } {1.9885 \times 10^{30} }~\mathrm{solar\ masses} \approx 1.1405474 \times 10^{12}~\mathrm{solar\ masses}$$. So the answer is 10^12 solar masses. Alternatively, one can use the proportionality relation $$M \propto rv^2$$, but one needs to recall that the Sun is ~26&nbsp;000 ly (~8 kpc) away from the center and has a galactic orbital velocity of ~230 km/s.}} <!--SR:!2024-08-16,10,305!2024-08-17,11,305-->
+> - explanation: {{Apply the orbital velocity equation: $$M = \frac {rv^2} G = \frac {100\,000 \cdot 9460\,730\,472\,580\,800 \cdot \left(400 \times 10^{3} \right)^2 } {\cdot 6.674\,30 \times 10^{-11} } \approx 2.26797848e42~\mathrm{kg} \approx \frac {2.26797848 \times 10^{42} } {1.9885 \times 10^{30} }~\mathrm{solar\ masses} \approx 1.1405474 \times 10^{12}~\mathrm{solar\ masses}$$. So the answer is 10^12 solar masses. Alternatively, one can use the proportionality relation $$M \propto rv^2$$, but one needs to recall that the Sun is ~26&nbsp;000 ly (~8 kpc) away from the center and has a galactic orbital velocity of ~230 km/s.}} <!--SR:!2024-10-01,45,325!2024-08-17,11,305-->
 
 <!-- markdownlint MD028 -->
 
@@ -603,7 +603,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 5. 26&nbsp;000 years
 >
 > - solution: {{3}}
-> - explanation: {{This is analogous to a planet orbiting a parent star in retrograde motion. To find the answer: $$\frac 1 {T_{\mathrm{orb} } } + \frac 1 {T_{\mathrm{sid} } } = \frac 1 {T_{\mathrm{sol} } } \implies \frac 1 {T_{\mathrm{orb} } } = \frac 1 {T_{\mathrm{sol} } } - \frac 1 {T_{\mathrm{sid} } } \implies \frac 1 T = \frac 1 {41} - \frac 1 {42} \implies T = \frac 1 {\frac 1 {41} - \frac 1 {42} } = \frac 1 {\frac 1 {1722} } = 1722$$. So the answer is 1722 days. For a detailed explanation, see [SGQ on the tropical year § explanation](SGQ%20on%20the%20tropical%20year.md#explanation).}} <!--SR:!2024-08-16,4,332!2024-08-16,4,332-->
+> - explanation: {{This is analogous to a planet orbiting a parent star in retrograde motion. To find the answer: $$\frac 1 {T_{\mathrm{orb} } } + \frac 1 {T_{\mathrm{sid} } } = \frac 1 {T_{\mathrm{sol} } } \implies \frac 1 {T_{\mathrm{orb} } } = \frac 1 {T_{\mathrm{sol} } } - \frac 1 {T_{\mathrm{sid} } } \implies \frac 1 T = \frac 1 {41} - \frac 1 {42} \implies T = \frac 1 {\frac 1 {41} - \frac 1 {42} } = \frac 1 {\frac 1 {1722} } = 1722$$. So the answer is 1722 days. For a detailed explanation, see [SGQ on the tropical year § explanation](SGQ%20on%20the%20tropical%20year.md#explanation).}} <!--SR:!2024-08-31,14,332!2024-09-06,20,352-->
 
 ## strip sequence questions
 

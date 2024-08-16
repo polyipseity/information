@@ -283,7 +283,7 @@ workmanship
 - economics→:::←impacts to surrounding <!--SR:!2025-03-15,215,300!2024-08-24,23,240-->
 - impacts to surrounding→:::←lifecycle <!--SR:!2025-04-01,238,320!2024-08-22,82,320-->
 - lifecycle→:::←maintenance <!--SR:!2024-10-13,106,297!2024-09-16,39,292-->
-- maintenance→:::←politics <!--SR:!2024-08-15,10,221!2025-04-18,249,312-->
+- maintenance→:::←politics <!--SR:!2024-09-07,21,221!2025-04-18,249,312-->
 - politics→:::←social <!--SR:!2025-03-24,246,360!2025-05-03,262,337-->
 - social→:::←workmanship <!--SR:!2024-08-26,82,300!2024-09-04,52,190-->
 - workmanship→:::←_(end)_ <!--SR:!2025-09-26,419,385!2025-04-05,258,355-->
@@ -361,7 +361,7 @@ transportation
 - environmental→:::←geo-technical <!--SR:!2024-10-04,127,327!2025-01-07,205,345-->
 - geo-technical→:::←hydraulic <!--SR:!2024-11-21,149,340!2024-09-01,33,340-->
 - hydraulic→:::←material <!--SR:!2024-10-03,119,340!2024-10-30,135,340-->
-- material→:::←structural <!--SR:!2024-08-15,81,317!2025-01-26,167,260-->
+- material→:::←structural <!--SR:!2024-09-30,44,297!2025-01-26,167,260-->
 - structural→:::←transportation <!--SR:!2024-12-22,171,340!2024-12-03,160,327-->
 - transportation→:::←_(end)_ <!--SR:!2025-01-08,192,350!2025-02-01,202,381-->
 
@@ -500,7 +500,7 @@ teaming up with others
 
 - _(begin)_→:::←business procedures <!--SR:!2024-11-02,111,252!2024-09-08,107,381-->
 - business procedures→:::←economics <!--SR:!2024-08-28,24,241!2025-02-10,193,285-->
-- economics→:::←human behaviors <!--SR:!2024-08-16,78,320!2024-10-23,131,340-->
+- economics→:::←human behaviors <!--SR:!2024-09-28,42,300!2024-10-23,131,340-->
 - human behaviors→:::←management principles <!--SR:!2024-12-25,139,300!2024-11-04,95,260-->
 - management principles→:::←strong communication skills <!--SR:!2025-03-22,222,301!2024-09-05,96,320-->
 - strong communication skills→:::←teaming up with others <!--SR:!2024-11-07,138,340!2024-08-23,91,380-->

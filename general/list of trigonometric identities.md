@@ -224,7 +224,7 @@ return await memorize_map(
 > - $\sin 4.2$ ::: $\operatorname{sgn}(\sin 4.2) \sqrt{\frac {1 - \cos 8.4} 2}$ <!--SR:!2024-10-02,55,296!2024-09-18,50,336-->
 > - $\cos (-3.6)$ ::: $\operatorname{sgn}(\cos 3.6) \sqrt{\frac {1 + \cos 7.2} 2}$ <!--SR:!2024-08-30,34,316!2024-10-22,82,356-->
 > - $\tan (-3.14)$ (sine and cosine) ::: $\frac {\cos 6.28 - 1} {\sin 6.28} = -\frac {\sin 6.28} {1 + \cos 6.28}$ <!--SR:!2024-08-27,13,276!2024-08-21,30,316-->
-> - $\tan 3.42$ (cosine) ::: $\operatorname{sgn}(\sin 6.82) \sqrt{\frac {1 - \cos 6.82} {1 + \cos 6.82} }$ <!--SR:!2024-08-16,25,296!2024-09-30,53,276-->
+> - $\tan 3.42$ (cosine) ::: $\operatorname{sgn}(\sin 6.82) \sqrt{\frac {1 - \cos 6.82} {1 + \cos 6.82} }$ <!--SR:!2024-10-27,72,296!2024-09-30,53,276-->
 > - $\tan (-2.01)$ (addition) ::: $-\csc 4.02 + \cot 4.02$ <!--SR:!2024-09-11,46,336!2024-09-02,37,316-->
 > - $\tan (-9.6)$ (tangent and secant) ::: $-\frac {\tan 19.2} {1 + \sec 19.2}$ <!--SR:!2024-08-26,12,276!2024-09-12,47,336-->
 > - $\tan (-4.96)$ (tangent) ::: $\frac {1 - \operatorname{sgn}(\cos 9.92) \sqrt{1 + \tan^2 9.92} } {\tan 9.92}$ <!--SR:!2024-08-18,27,296!2024-08-17,26,296-->

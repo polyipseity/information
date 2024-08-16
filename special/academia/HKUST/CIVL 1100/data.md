@@ -29,7 +29,7 @@ See [Akashi Kaikyo Bridge](../../../../general/Akashi%20Kaikyo%20Bridge.md).
 
 - bridge type ::: [suspension bridge](../../../../general/suspension%20bridge.md)<!-- flashcard 30fd6583-3351-4146-9125-522db98579b7 --> <!--SR:!2024-09-27,61,274!2024-08-29,97,380-->
 - description ::: suspension bridge in Kobe, Japan <!--SR:!2025-03-15,237,347!2025-05-16,292,375-->
-- image ::: ![Akashi Kaikyo Bridge image](../../../../archives/Wikimedia%20Commons/Akashi%20Bridge.JPG) <!--SR:!2025-04-28,265,360!2024-08-16,84,380-->
+- image ::: ![Akashi Kaikyo Bridge image](../../../../archives/Wikimedia%20Commons/Akashi%20Bridge.JPG) <!--SR:!2025-04-28,265,360!2025-10-26,436,400-->
 - length ::: 3911 m, longest span: 1991 m <!--SR:!2025-02-18,190,281!2025-06-20,319,372-->
 
 ## Beijing National Stadium
@@ -53,7 +53,7 @@ See [Burj Al Arab](../../../../general/Burj%20Al%20Arab.md).
 
 See [Burj Khalifa](../../../../general/Burj%20Khalifa.md).
 
-- description ::: skyscraper in Dubai, United Arab Emirates <!--SR:!2024-11-18,139,297!2024-08-15,96,374-->
+- description ::: skyscraper in Dubai, United Arab Emirates <!--SR:!2024-11-18,139,297!2025-08-07,356,374-->
 - height ::: architectural: 828 m, tip: 829.8 m, top floor: 585.4 m <!--SR:!2024-08-24,12,241!2024-08-24,102,377-->
 - image ::: ![Burj Khalifa image](../../../../archives/Wikimedia%20Commons/Burj%20Khalifa.jpg) <!--SR:!2024-08-18,86,380!2025-04-18,271,380-->
 - [structural system](../../../../general/structural%20system.md) ::: aluminum, reinforced concrete, steel<!-- flashcard e75e9185-3454-4c54-a9c9-5a05c6b26732 --> <!--SR:!2024-09-03,92,321!2025-02-01,232,330-->
@@ -65,7 +65,7 @@ See [CCTV Headquarters](../../../../general/CCTV%20Headquarters.md).
 - description ::: skyscraper in the central business district of Beijing, China <!--SR:!2024-10-25,144,332!2025-08-30,398,387-->
 - height ::: roof: 234 m <!--SR:!2024-08-21,45,240!2024-08-29,108,377-->
 - image ::: ![CCTV Headquarters image](../../../../archives/Wikimedia%20Commons/China%20Central%20Television%20HQ,%20from%20China%20World%20Trade%20Centre%20(Cropped).jpg) <!--SR:!2025-03-20,235,360!2024-08-29,96,380-->
-- shape ::: big pants <!--SR:!2024-08-15,94,365!2024-08-25,93,380-->
+- shape ::: big pants <!--SR:!2025-11-28,469,385!2024-08-25,93,380-->
 
 ## CN Tower
 
@@ -106,7 +106,7 @@ See [Colosseum](../../../../general/Colosseum.md).
 - construction period ::: AD 72 to AD 80, 8 years <!--SR:!2024-08-25,13,216!2024-12-11,168,396-->
 - description ::: elliptical amphitheater in the center of Rome <!--SR:!2024-08-18,72,376!2024-10-13,113,376-->
 - geographic location ::: Rome <!--SR:!2024-10-13,119,396!2024-10-29,133,396-->
-- height ::: 48 m (4 storeys) <!--SR:!2024-08-15,14,276!2024-11-11,143,396-->
+- height ::: 48 m (4 storeys) <!--SR:!2024-09-25,40,276!2024-11-11,143,396-->
 - importance ::: largest amphitheater in the Roman Empire, greatest works of Roman architecture and engineering <!--SR:!2024-10-25,122,376!2024-10-08,108,376-->
 
 ## Eiffel Tower
@@ -122,7 +122,7 @@ See [Eiffel Tower](../../../../general/Eiffel%20Tower.md).
 
 See [Empire State Building](../../../../general/Empire%20State%20Building.md).
 
-- image ::: ![Empire State Building image](../../../../archives/Wikimedia%20Commons/Empire%20State%20Building%20(aerial%20view).jpg) <!--SR:!2024-11-27,157,396!2024-08-16,70,376-->
+- image ::: ![Empire State Building image](../../../../archives/Wikimedia%20Commons/Empire%20State%20Building%20(aerial%20view).jpg) <!--SR:!2024-11-27,157,396!2025-08-09,358,396-->
 
 ## Golden Gate Bridge
 
@@ -139,7 +139,7 @@ See [Great Pyramid of Giza](../../../../general/Great%20Pyramid%20of%20Giza.md).
 - description ::: largest pyramid in the Giza Necropolis, Egypt <!--SR:!2024-10-05,112,396!2024-10-31,134,396-->
 - height ::: current: 138.5 m, original: 146.6 m <!--SR:!2024-12-03,141,356!2024-11-02,136,396-->
 - weight ::: 5.9 million tonnes <!--SR:!2024-09-14,89,376!2024-11-10,142,396-->
-- tomb for ::: Egypt's 4th dynasty pharaoh Khufu <!--SR:!2024-10-21,118,376!2024-08-16,70,376-->
+- tomb for ::: Egypt's 4th dynasty pharaoh Khufu <!--SR:!2024-10-21,118,376!2025-05-07,264,376-->
 
 ## Great Wall of China
 
@@ -157,7 +157,7 @@ See [HSBC Building (Hong Kong)](HSBC%20Building%20(Hong%20Kong).md).
 - description ::: headquarters building of [The Hongkong and Shanghai Banking Corporation](HSBC%20(Hong%20Kong).md) <!--SR:!2025-01-15,197,354!2025-03-05,256,330-->
 - height ::: roof: 178.8 m <!--SR:!2024-08-19,11,241!2025-05-07,325,350-->
 - image ::: ![HSBC Main Building image](../../../../archives/Wikimedia%20Commons/HK%20HSBC%20Main%20Building%202008%20(cropped).jpg) <!--SR:!2025-06-05,312,380!2024-09-03,100,380-->
-- [structural system](../../../../general/structural%20system.md) ::: steel [suspended structure](../../../../general/suspended%20structure.md)<!-- flashcard b5c46b64-11cf-4605-a97e-3a159f12185f --> <!--SR:!2024-10-21,130,321!2024-08-15,83,381-->
+- [structural system](../../../../general/structural%20system.md) ::: steel [suspended structure](../../../../general/suspended%20structure.md)<!-- flashcard b5c46b64-11cf-4605-a97e-3a159f12185f --> <!--SR:!2024-10-21,130,321!2025-10-22,432,401-->
 
 ## Hong Kong Convention and Exhibition Centre
 
@@ -180,10 +180,10 @@ See [Hong Kong–Zhuhai–Macau Bridge](../../../../general/Hong%20Kong–Zhuhai
 
 See [Hoover Dam](../../../../general/Hoover%20Dam.md).
 
-- [dam type](../../../../general/dam.md#types) ::: concrete gravity-arch <!--SR:!2024-09-03,94,320!2024-08-16,97,375-->
+- [dam type](../../../../general/dam.md#types) ::: concrete gravity-arch <!--SR:!2024-09-03,94,320!2025-12-26,497,395-->
 - height ::: 221.4 m <!--SR:!2024-09-29,95,281!2025-02-27,247,367-->
 - image ::: ![Hoover Dam image](../../../../archives/Wikimedia%20Commons/Ansel%20Adams%20-%20National%20Archives%2079-AAB-01.jpg) <!--SR:!2025-08-26,379,380!2024-08-31,97,380-->
-- length ::: 379 m <!--SR:!2024-08-16,19,221!2025-02-11,235,370-->
+- length ::: 379 m <!--SR:!2024-08-26,10,201!2025-02-11,235,370-->
 
 ## International Commerce Centre
 
@@ -206,7 +206,7 @@ See [John Hancock Center](John%20Hancock%20Center.md).
 
 - description ::: skyscraper in Chicago, Illinois <!--SR:!2024-08-20,80,295!2025-08-03,376,387-->
 - height ::: architectural: 344 m, tip: 457 m, top floor: 321 m <!--SR:!2024-08-20,29,197!2025-01-14,230,330-->
-- image ::: ![John Hancock Center image](../../../../archives/Wikimedia%20Commons/Chicago%20(22332583569).jpg) <!--SR:!2024-08-15,83,380!2024-09-08,104,380-->
+- image ::: ![John Hancock Center image](../../../../archives/Wikimedia%20Commons/Chicago%20(22332583569).jpg) <!--SR:!2025-10-20,430,400!2024-09-08,104,380-->
 - [structural system](../../../../general/structural%20system.md) ::: steel<!-- flashcard cdb6c7b6-65ec-475e-8c89-c66ec42bacd2 --> <!--SR:!2024-09-26,106,300!2024-08-20,88,380-->
 
 ## MOSE
@@ -220,7 +220,7 @@ See [Millau Viaduct](../../../../general/Millau%20Viaduct.md).
 
 - bridge type ::: cable-stayed road bridge <!--SR:!2024-10-22,119,376!2024-10-23,127,396-->
 - designers ::: Michel Virlogeux, Norman Foster <!--SR:!2024-08-24,77,376!2024-11-16,148,396-->
-- geographic location ::: across the gorge valley of the Tarn near Millau in southern France <!--SR:!2024-08-15,69,376!2024-08-22,75,376-->
+- geographic location ::: across the gorge valley of the Tarn near Millau in southern France <!--SR:!2025-05-01,258,376!2024-08-22,75,376-->
 - height ::: max pylon above base: 343 m, structural: 336.4 m <!--SR:!2024-09-13,76,316!2024-11-07,140,396-->
   - height record ::: as of October 2023, tallest bridge in the world <!--SR:!2024-10-22,126,396!2024-10-22,127,396-->
 - length ::: 2450 m = 204 m + 342 m × 6 + 204 m, longest span: 342 m <!--SR:!2024-08-23,56,336!2024-10-12,118,396-->
@@ -251,7 +251,7 @@ See [Panama Canal](../../../../general/Panama%20Canal.md).
 
 See [Parthenon](../../../../general/Parthenon.md).
 
-- construction period ::: 447 BC to 438 BC, 9 years <!--SR:!2024-08-15,3,196!2024-12-01,159,396-->
+- construction period ::: 447 BC to 438 BC, 9 years <!--SR:!2024-08-22,6,196!2024-12-01,159,396-->
 - dedication ::: Greek goddess Athena <!--SR:!2024-12-08,166,396!2024-11-08,141,396-->
 - description ::: temple on the Athenian Acropolis, Greece, dedicated to the Greek goddess Athena <!--SR:!2024-11-21,135,356!2024-11-06,139,396-->
 - geographic location ::: Athenian Acropolis, Greece <!--SR:!2024-11-29,138,356!2024-10-16,122,396-->
@@ -280,7 +280,7 @@ See [Sutong Yangtze River Bridge](../../../../general/Sutong%20Yangtze%20River%2
 See [Taipei 101](Taipei%20101.md).
 
 - description ::: skyscraper in Taipei, Taiwan <!--SR:!2025-03-31,295,350!2024-09-04,103,380-->
-- height ::: architectural: 508.2 m, tip: 509.2 m, top floor: 438 m <!--SR:!2024-08-16,8,130!2024-11-19,179,330-->
+- height ::: architectural: 508.2 m, tip: 509.2 m, top floor: 438 m <!--SR:!2024-08-24,8,130!2024-11-19,179,330-->
 - image ::: ![Taipei 101 image](../../../../archives/Wikimedia%20Commons/Tower%20of%20Taipei%20101(cropped).jpg) <!--SR:!2025-02-07,201,360!2024-08-17,85,380-->
 - [structural system](../../../../general/structural%20system.md) ::: concrete–steel composite<!-- flashcard 16556e6f-00ca-4a87-845c-f0ea2f56807a --> <!--SR:!2024-09-10,92,320!2024-08-23,90,380-->
 

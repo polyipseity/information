@@ -96,7 +96,7 @@ See also [Vim help files](https://vimhelp.org/).
 
 ## options
 
-- show ([option](#list%20of%20options)) value::::se\[t\] ([option](#list%20of%20options))?\<Enter\> <!--SR:!2024-08-16,366,293!2026-08-15,908,327-->
+- show ([option](#list%20of%20options)) value::::se\[t\] ([option](#list%20of%20options))?\<Enter\> <!--SR:!2027-07-23,1071,293!2026-08-15,908,327-->
 - set boolean but show non-boolean ([option](#list%20of%20options))::::se\[t\] ([option](#list%20of%20options))\<Enter\> <!--SR:!2026-11-05,1038,333!2025-05-10,497,268-->
 - unset boolean ([option](#list%20of%20options))::::se\[t\] no([option](#list%20of%20options))\<Enter\> <!--SR:!2026-01-11,646,273!2028-12-07,1669,353-->
 - invert boolean ([option](#list%20of%20options))::::se\[t\] inv([option](#list%20of%20options))\<Enter\> <!--SR:!2025-11-20,474,313!2025-08-25,695,313-->

@@ -33,7 +33,7 @@ Note that some members can have {{zero forces, i.e. neither in tension nor in co
 
 The principle is simple: {{Consider the equilibrium of each joint one by one, starting with those with 2 or less unknown forces}}. For each joint, {{draw the [free body diagram](free%20body%20diagram.md), and determine the axial forces of members connected to the joint}}. <!--SR:!2025-02-02,196,310!2025-04-06,246,330-->
 
-Note that when a truss member is in tension, it is actually {{pulling on the two joints instead of pushing them}}, and vice versa for compression. <!--SR:!2024-08-16,71,310-->
+Note that when a truss member is in tension, it is actually {{pulling on the two joints instead of pushing them}}, and vice versa for compression. <!--SR:!2025-06-16,304,330-->
 
 The steps are {{label all joints, members, and the support reactions}}. Then, {{compute the support reactions by considering the entire truss}}. Finally, use {{the method of joints to determine forces in all members}}. <!--SR:!2025-02-04,192,310!2025-04-08,248,330!2024-12-18,158,310-->
 

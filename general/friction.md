@@ -9,7 +9,7 @@ tags:
 
 # friction
 
-__Friction__ is {{the [force](force.md) resisting the relative motion of solid surfaces, fluid layers, and material elements [sliding](sliding%20(motion).md) against each other}}. Types of friction include {{dry, fluid, internal, lubricated, and skin}}. <!--SR:!2024-08-21,24,270!2024-08-16,20,250-->
+__Friction__ is {{the [force](force.md) resisting the relative motion of solid surfaces, fluid layers, and material elements [sliding](sliding%20(motion).md) against each other}}. Types of friction include {{dry, fluid, internal, lubricated, and skin}}. <!--SR:!2024-08-21,24,270!2024-10-05,50,250-->
 
 ## references
 

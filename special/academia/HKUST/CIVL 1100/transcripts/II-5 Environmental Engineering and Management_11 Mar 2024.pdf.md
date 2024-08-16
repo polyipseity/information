@@ -102,7 +102,7 @@ return await memorize_seq(
 - (Cap. 311) Air Pollution Control Ordinance→:::←(Cap. 354) Waste Disposal Ordinance <!--SR:!2024-08-28,31,275!2024-08-29,15,275-->
 - (Cap. 354) Waste Disposal Ordinance→:::←(Cap. 358) Water Pollution Control Ordinance <!--SR:!2024-09-08,55,295!2024-08-25,13,295-->
 - (Cap. 358) Water Pollution Control Ordinance→:::←(Cap. 400) Noise Pollution Control Ordinance <!--SR:!2024-08-21,36,275!2024-08-31,17,255-->
-- (Cap. 400) Noise Pollution Control Ordinance→:::←(Cap. 499) Environmental Impact Ordinance <!--SR:!2024-09-10,50,295!2024-08-15,44,315-->
+- (Cap. 400) Noise Pollution Control Ordinance→:::←(Cap. 499) Environmental Impact Ordinance <!--SR:!2024-09-10,50,295!2024-09-06,21,295-->
 - (Cap. 499) Environmental Impact Ordinance→:::←_(end)_ <!--SR:!2024-10-02,87,355!2024-10-07,92,355-->
 
 <!--/pytextgen-->
@@ -198,7 +198,7 @@ Sustainable Waste Management
 
 3Rs Concept
 
-- 3Rs ::: (highest priority) reduce, reuse, recycle (lowest priority) <!--SR:!2024-08-21,73,310!2024-08-15,67,310-->
+- 3Rs ::: (highest priority) reduce, reuse, recycle (lowest priority) <!--SR:!2024-08-21,73,310!2025-03-05,201,310-->
   - reduce ::: reduce the amount of solid waste generation <!--SR:!2025-03-24,235,330!2025-04-21,258,330-->
   - reuse ::: multiple uses of an item in its original form with or without reconditioning <!--SR:!2025-01-12,168,310!2025-01-05,161,310-->
   - recycle ::: materials are collected and recovered to be used as raw material <!--SR:!2024-11-14,121,290!2025-04-17,252,330-->
@@ -269,7 +269,7 @@ Sewage Conveyance System
 
 - HATS Stage 2A
   - HATS Stage 2A tunnel ::: a drop shaft, a tunnel, and a riser shaft, from PTWs to SCISTW across the Victoria Harbour <!--SR:!2024-08-28,30,290!2025-02-21,193,310-->
-    - HATS Stage 2A tunnel sizes ::: 21 km tunnel, about 70 to 160 m (inside bedrock) below sea level <!--SR:!2024-08-20,55,250!2024-08-16,68,310-->
+    - HATS Stage 2A tunnel sizes ::: 21 km tunnel, about 70 to 160 m (inside bedrock) below sea level <!--SR:!2024-08-20,55,250!2025-06-05,293,330-->
 
 ## page 21
 
@@ -282,7 +282,7 @@ Sewage Conveyance System
 Clean Victoria Harbor
 
 - HATS result ::: clean Victoria Harbor <!--SR:!2025-02-04,180,310!2025-03-20,233,330-->
-  - HATS result example ::: On 2017-10-29, 3000 swimmers participate in a previously-discontinued annual cross-harbor race. The race continues to be held. <!--SR:!2024-08-16,52,250!2025-03-28,237,330-->
+  - HATS result example ::: On 2017-10-29, 3000 swimmers participate in a previously-discontinued annual cross-harbor race. The race continues to be held. <!--SR:!2024-09-12,27,230!2025-03-28,237,330-->
 
 ## page 23
 
@@ -297,7 +297,7 @@ Noise Levels and Causes
 - noise level measure ::: sound pressure level, in dB(A) <!--SR:!2024-12-20,159,310!2025-04-01,243,330-->
   - airplane passing ::: 120 dB(A) <!--SR:!2025-02-17,193,310!2025-02-22,194,310-->
   - construction site ::: 110 dB(A) <!--SR:!2024-10-20,103,290!2024-08-19,71,310-->
-  - concert ::: 100 dB(A) <!--SR:!2024-08-16,68,310!2024-08-15,68,310-->
+  - concert ::: 100 dB(A) <!--SR:!2025-03-18,214,310!2025-03-22,218,310-->
   - drilling ::: 90 dB(A) <!--SR:!2025-01-31,187,310!2024-08-27,63,270-->
   - train passing ::: 80 dB(A) <!--SR:!2025-02-28,200,310!2025-02-05,184,310-->
   - highway (harm threshold) ::: 70 dB(A) <!--SR:!2025-02-16,192,310!2024-12-02,132,290-->
@@ -309,7 +309,7 @@ Noise Levels and Causes
 
 Properties of Sound Waves
 
-- sound level calculation ::: root mean square of sound pressure $p_{\text{rms} }$ is used <!--SR:!2024-08-15,67,310!2025-05-27,286,330-->
+- sound level calculation ::: root mean square of sound pressure $p_{\text{rms} }$ is used <!--SR:!2025-03-11,207,310!2025-05-27,286,330-->
   - root mean square of sound pressure calculation ::: $$p_{\text{rms} } = \left(\overline{p^2} \right)^{0.5} = \left(\frac 1 T \int_0^T \! p^2(t) \,\mathrm{d}t \right)^{0.5}$$, where $T$ is duration of time period concerned, $t$ is time, $p(t)$ is pressure that may varies with time, and the overbar means the average over time <!--SR:!2024-11-25,127,290!2025-05-22,281,330-->
 
 ## page 26
@@ -328,7 +328,7 @@ Air Pollution: A serious problem in Hong Kong?
 
 Air Quality Health Index
 
-- Air Quality Health Index ::: AQHI <!--SR:!2025-02-12,188,310!2024-08-16,68,310-->
+- Air Quality Health Index ::: AQHI <!--SR:!2025-02-12,188,310!2025-06-10,298,330-->
   - AQHI history ::: AQHI has replaced the Air Pollution Index (API) since 2013-12-30. <!--SR:!2024-08-28,64,270!2025-05-03,264,330-->
   - AQHI scale ::: 1 to 10 and 10+, grouped into 5 health risk categories <!--SR:!2025-03-24,233,330!2025-03-11,226,330-->
   - AQHI health risk categories ::: low (green): 1~3, moderate (yellow): 4~6, high (red): 7, very high (brown): 8~10, serious (black): 10+ <!--SR:!2025-02-27,199,310!2025-03-13,228,330-->
@@ -403,14 +403,14 @@ return await memorize_seq(
 
 Observed Global Climate Change
 
-- climate change consequences in the Northern Hemisphere ::: Northern Hemisphere spring snow cover decreases, sea ice extend and level decreases <!--SR:!2025-02-23,211,330!2024-08-16,68,310-->
+- climate change consequences in the Northern Hemisphere ::: Northern Hemisphere spring snow cover decreases, sea ice extend and level decreases <!--SR:!2025-02-23,211,330!2025-03-14,210,310-->
 
 ## page 32
 
 Observed climate change in Hong Kong
 
 - climate change consequences in Hong Kong ::: rainfall become more variable, sea level rises, temperature increases <!--SR:!2024-11-29,130,290!2025-05-07,268,330-->
-  - temperature increase consequences ::: less cold days, more very hot days and hot nights <!--SR:!2025-04-14,252,330!2024-08-15,68,310-->
+  - temperature increase consequences ::: less cold days, more very hot days and hot nights <!--SR:!2025-04-14,252,330!2025-03-16,212,310-->
   - rainfall become more variable consequences ::: probability of rainfall extremes increases <!--SR:!2025-03-23,234,330!2025-01-12,175,310-->
   - climate change example in Hong Kong ::: On 2017-08-22, max temperature reaches 36.6 °C in the Hong Kong Observatory headquarters, coinciding with the super typhoon Hato. <!--SR:!2024-12-03,122,250!2025-03-05,205,310-->
 
@@ -420,14 +420,14 @@ Concentration Units for Liquids
 
 - concentration units for liquids ::: mass of substance per unit mass of mixture, mass of substance per unit volume of mixture <!--SR:!2024-10-05,90,270!2024-11-22,124,290-->
   - mass of substance per unit volume of mixture units for liquids ::: mol/L (mol is not strictly mass), mg/L <!--SR:!2024-11-24,138,310!2025-02-06,185,310-->
-  - mass of substance per unit mass of mixture units for liquids ::: parts per billion (ppb) by weight, parts per million (ppm) by weight <!--SR:!2024-08-15,67,310!2024-08-19,71,310-->
+  - mass of substance per unit mass of mixture units for liquids ::: parts per billion (ppb) by weight, parts per million (ppm) by weight <!--SR:!2025-03-09,205,310!2024-08-19,71,310-->
 
 ## page 34
 
 Relationship between PPM and mg/L
 
-- relationship between ppm<sub>w</sub> and mg/L for dilute solutions ::: 1 mg/L ≈ 1 ppm<sub>w</sub>, 1 µg/L ≈ 1 ppb<sub>w</sub> <!--SR:!2024-11-11,118,290!2024-08-15,68,310-->
-  - relationship between ppm<sub>w</sub> and mg/L derivation ::: convert the volume to mass or mass to volume using density <!--SR:!2024-08-16,68,310!2025-02-22,209,330-->
+- relationship between ppm<sub>w</sub> and mg/L for dilute solutions ::: 1 mg/L ≈ 1 ppm<sub>w</sub>, 1 µg/L ≈ 1 ppb<sub>w</sub> <!--SR:!2024-11-11,118,290!2025-06-08,296,330-->
+  - relationship between ppm<sub>w</sub> and mg/L derivation ::: convert the volume to mass or mass to volume using density <!--SR:!2025-03-20,216,310!2025-02-22,209,330-->
   - density of water ::: about 1 kg/L <!--SR:!2025-05-25,284,330!2025-03-15,230,330-->
 
 ## page 35
@@ -443,7 +443,7 @@ Relationship between PPM and mg/L
 
 Concentration Units for Gases
 
-- concentration units for gases ::: mass of substance per unit volume of mixture, volume of substance per unit volume of mixture <!--SR:!2024-12-07,132,290!2024-08-15,67,310-->
+- concentration units for gases ::: mass of substance per unit volume of mixture, volume of substance per unit volume of mixture <!--SR:!2024-12-07,132,290!2025-03-07,203,310-->
   - volume of substance per unit volume of mixture for gases ::: ppm by volume (ppm<sub>v</sub>) <!--SR:!2025-04-27,258,330!2024-12-24,147,290-->
   - mass of substance per unit volume of mixture for gases ::: µg/m<sup>3</sup>, mg/m<sup>3</sup> <!--SR:!2025-02-17,193,310!2025-03-06,221,330-->
 

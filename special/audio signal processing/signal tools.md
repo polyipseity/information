@@ -17,7 +17,7 @@ Audacity is {{an audio editor}}. It can be downloaded from {{<https://audacityte
 
 ### analysis (Audacity)
 
-Audacity can show {{the spectrogram of a signal}}. <!--SR:!2024-08-16,4,289-->
+Audacity can show {{the spectrogram of a signal}}. <!--SR:!2024-09-01,16,309-->
 
 ## SonicVisualiser
 
@@ -29,8 +29,8 @@ SonicVisualiser is {{an audio visualization, analysis, and annotation tool}}. It
 
 ### analysis (sms-tools)
 
-`sms-tools` can show {{the spectrum magnitude and phase of a signal}}. <!--SR:!2024-08-16,4,289-->
+`sms-tools` can show {{the spectrum magnitude and phase of a signal}}. <!--SR:!2024-09-01,16,309-->
 
 ## Freesound
 
-Freesound is {{a repository of free and open (Creative Commons) sounds}}. Its website is {{<https://freesound.org/>}}. <!--SR:!2024-08-16,4,289!2024-08-16,4,289-->
+Freesound is {{a repository of free and open (Creative Commons) sounds}}. Its website is {{<https://freesound.org/>}}. <!--SR:!2024-09-02,17,309!2024-09-02,17,309-->

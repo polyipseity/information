@@ -33,7 +33,7 @@ As each question has 5 choices, each question has are 5C2 = 10 pairs of choices.
 >
 > <!-- My answer swapped 2 and 4, so only got 0.9 out of 1 mark. -->
 >
-> - solution: {{2 → 4 → 3 → 1 → 5}} <!--SR:!2024-08-16,4,270-->
+> - solution: {{2 → 4 → 3 → 1 → 5}} <!--SR:!2024-09-01,15,290-->
 
 <!-- markdownlint MD028 -->
 
@@ -45,7 +45,7 @@ As each question has 5 choices, each question has are 5C2 = 10 pairs of choices.
 > 4. red
 > 5. ultraviolet
 >
-> - solution: {{2 → 4 → 1 → 3 → 5}} <!--SR:!2024-08-16,4,270-->
+> - solution: {{2 → 4 → 1 → 3 → 5}} <!--SR:!2024-09-02,16,290-->
 
 <!-- markdownlint MD028 -->
 
@@ -57,7 +57,7 @@ As each question has 5 choices, each question has are 5C2 = 10 pairs of choices.
 > 4. neutron star near its mass upper limit
 > 5. black hole of Schwarzschild radius 6 km
 >
-> - solution: {{2 → 1 → 3 → 5 → 4}} <!--SR:!2024-08-16,4,270-->
+> - solution: {{2 → 1 → 3 → 5 → 4}} <!--SR:!2024-08-27,10,270-->
 
 <!-- markdownlint MD028 -->
 
@@ -72,4 +72,4 @@ As each question has 5 choices, each question has are 5C2 = 10 pairs of choices.
 > 5. orbital motion of the Moon
 >
 > - solution: {{2 → 4 → 3 → 1 → 5}}
-> - explanation: {{Notice that in the hypothetical situation stated in the question, the angular velocity of all circular motions above are equal. So the linear velocity is directly proportional to the radius of the circular motion, i.e. $v \propto r$. This converts the above question into comparing the radii of above circular motions. For choice 3, its radius is given by multiplying Earth's (equatorial) radius by $\cos 22\degree$.}} <!--SR:!2024-08-16,4,270!2024-08-15,3,250-->
+> - explanation: {{Notice that in the hypothetical situation stated in the question, the angular velocity of all circular motions above are equal. So the linear velocity is directly proportional to the radius of the circular motion, i.e. $v \propto r$. This converts the above question into comparing the radii of above circular motions. For choice 3, its radius is given by multiplying Earth's (equatorial) radius by $\cos 22\degree$.}} <!--SR:!2024-08-31,14,290!2024-08-24,7,250-->
