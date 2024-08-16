@@ -1,3 +1,4 @@
+from datetime import datetime, timezone
 from asyncstdlib import chain as a_chain, tuple as a_tuple
 from itertools import chain, count
 from json import JSONEncoder, dumps
@@ -260,6 +261,7 @@ async def main(args: Arguments) -> None:
             metadata_filename,
             dumps(
                 {
+                    "timestamp": datetime.now(timezone.utc).isoformat(),
                     "arguments": args,
                     "filter_threshold": filter_threshold,
                     "existing_paths": existing_paths,
