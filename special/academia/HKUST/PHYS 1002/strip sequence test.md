@@ -70,7 +70,7 @@ As each question has 5 choices, each question has are 5C2 = 10 pairs of choices.
 
 <!-- markdownlint MD028 -->
 
-> Q4. (exam, memory) Assume that now, after billions of years, Earth and the Moon has become mutually tidal locked. Under this situation, order the below points by increasing speed.
+> Q4. (exam, memory) Assume that now, after billions of years, Earth and the Moon has become mutually tidal locked. Under this situation, order the following points by increasing speed.
 >
 > Hint: speed of circular motion = 2 \* pi \* radius / period
 >
