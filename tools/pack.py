@@ -1,3 +1,4 @@
+from asyncstdlib import chain as a_chain, tuple as a_tuple
 from itertools import chain, count
 from json import JSONEncoder, dumps
 from os import PathLike, cpu_count
@@ -86,10 +87,19 @@ async def main(args: Arguments) -> None:
     async def resolve_root():
         return await args.root.resolve(strict=True) if args.root else None
 
+    async def resolve_file(file: Path) -> AsyncIterator[Path]:
+        file = await file.resolve(strict=True)
+        if await file.is_dir():
+            async for child in file.glob("**/*"):
+                if await child.is_file():
+                    yield child
+            return
+        yield file
+
     output, root, files = await gather(
         args.output.resolve(),
         resolve_root(),
-        gather(*(file.resolve(strict=True) for file in args.files)),
+        a_tuple(a_chain[Path].from_iterable(map(resolve_file, args.files))),
     )
     args = replace(args, output=output, root=root, files=files)
 
@@ -103,7 +113,9 @@ async def main(args: Arguments) -> None:
 
     scheme_regex = compile(r"^[^:]+:")
 
-    async def process_markdown_file(file: Path) -> ProcessMarkdownFileResult:
+    async def process_markdown_file(file: Path) -> ProcessMarkdownFileResult | None:
+        if file.suffix != ".md":
+            return None
         text = await file.read_text()
         xhtml = markdown(text, output_format="xhtml")
         link_paths = list[Path]()
@@ -119,7 +131,15 @@ async def main(args: Arguments) -> None:
 
         async def process_path(path: Path):
             resolved = await path.resolve()
-            return resolved, await resolved.exists()
+            if await resolved.exists():
+                if await resolved.is_dir():
+                    async for child in resolved.glob("**/*"):
+                        if await child.is_file():
+                            yield child, True
+                    return
+                yield resolved, True
+                return
+            yield resolved, False
 
         def reduce_ret(
             ret: ProcessMarkdownFileResult, path_and_existence: tuple[Path, bool]
@@ -129,23 +149,29 @@ async def main(args: Arguments) -> None:
             )
             return ret
 
-        link_paths = await gather(*map(process_path, link_paths))
+        link_paths = await a_tuple(
+            a_chain[tuple[Path, bool]].from_iterable(map(process_path, link_paths))
+        )
         return reduce(
             reduce_ret, link_paths, ProcessMarkdownFileResult(file, set(), set())
         )
 
     existing_paths = dict[Path, AbstractSet[Path]]()
     missing_paths = set[Path]()
-    queue = files.copy()
+    queue = list(files)
 
     async def queue_iter():
         while queue:
             yield queue.pop()
 
     while queue:
-        async for path, existing, missing in a_eager_map(
+        async for ret in a_eager_map(
             process_markdown_file, queue_iter(), concurrency=_CONCURRENCY
         ):
+            if ret is None:
+                continue
+            path, existing, missing = ret
+
             new_existing = set(existing)
             new_existing.difference_update(existing_paths)
             existing_paths.update({path: _EMPTY_SET for path in new_existing})
