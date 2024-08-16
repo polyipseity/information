@@ -1093,14 +1093,14 @@ The content is in teaching order. Extra information and corrections are included
 > \[redacted\]
 
 - time: 2024-08-06T10:00:00+08:00/2024-08-06T12:30:00+08:00
-- [strip sequence test](strip%20sequence%20test.md): 3.8/4
+- [strip sequence test](strip%20sequence%20test.md): 3.8/4 → 3.8/4
   - statistics
-    - mean: 2.48
-    - high: 4
-    - low: 0
-    - median: 2.7
-    - upper quartile: 3.35
-    - lower quartile: 1.85
+    - mean: 2.48 → 2.48
+    - high: 4 → 4
+    - low: 0 → 0
+    - median: 2.7 → 2.7
+    - upper quartile: 3.35 → 3.35
+    - lower quartile: 1.85 → 1.85
 - [cosmic distance ladder](../../../../general/cosmic%20distance%20ladder.md)
   - [cosmic distance ladder](../../../../general/cosmic%20distance%20ladder.md) / steps
   - [§ main sequence fitting](../../../../general/cosmic%20distance%20ladder.md#main%20sequence%20fitting), [spectroscopic parallax](../../../../general/spectroscopic%20parallax.md) ::: It may be applied to a main-sequence star or a star cluster containing many main sequence stars. In the former, we determine the spectral type of the star to know its approximate luminosity. Then compare it with its apparent brightness to find out its approximate distance. In a star cluster, we can obtain its main sequence strip in a HR diagram and compare it against with the strips of other star clusters with known distances. The latter is more accurate because more stars are used to estimate the distance.
@@ -1205,14 +1205,15 @@ The content is in teaching order. Extra information and corrections are included
 > \[redacted\]
 
 - time: 2024-08-08T10:00:00+08:00/2024-08-08T13:00:00+08:00
-- [final exam](final%20exam.md): 99/100, scaled to 49.5/50
+- [final exam](final%20exam.md): 99/100, scaled to 49.5/50 → 99/100, scaled to 49.5/50
   - statistics
-    - mean: 58.84
-    - high: 99
-    - low: 0
-    - median: 61
-    - upper quartile: 75.13
-    - lower quartile: 46.88
+    - mean: 58.84 → 59.62
+    - high: 99 → 99
+    - low: 0 → 0
+    - median: 61 → 62
+    - upper quartile: 75.13 → 75.75
+    - lower quartile: 46.88 → 48
+    - standard deviation: ? → 21.31
 
 ## week 9 lecture
 
