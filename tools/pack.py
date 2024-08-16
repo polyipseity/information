@@ -113,9 +113,9 @@ async def main(args: Arguments) -> None:
 
     scheme_regex = compile(r"^[^:]+:")
 
-    async def process_markdown_file(file: Path) -> ProcessMarkdownFileResult | None:
+    async def process_markdown_file(file: Path):
         if file.suffix != ".md":
-            return None
+            return ProcessMarkdownFileResult(file, set(), set())
         text = await file.read_text()
         xhtml = markdown(text, output_format="xhtml")
         link_paths = list[Path]()
@@ -165,13 +165,9 @@ async def main(args: Arguments) -> None:
             yield queue.pop()
 
     while queue:
-        async for ret in a_eager_map(
+        async for path, existing, missing in a_eager_map(
             process_markdown_file, queue_iter(), concurrency=_CONCURRENCY
         ):
-            if ret is None:
-                continue
-            path, existing, missing = ret
-
             new_existing = set(existing)
             new_existing.difference_update(existing_paths)
             existing_paths.update({path: _EMPTY_SET for path in new_existing})
