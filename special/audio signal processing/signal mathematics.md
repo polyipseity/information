@@ -72,7 +72,7 @@ We can {{convert}} in between rectangular form and polar form. From rectangular 
 
 [Euler's formula](../../general/Euler's%20formula.md) is: {{$$e^{j\varphi} = \cos \varphi + j \sin \varphi$$, where $\varphi$ is a [complex number](#complex%20number)}}. The above implies alternative formulas for {{$\sin$ and $\cos$}}: {{$$\begin{aligned} \cos \varphi & = \frac {e^{j\varphi} + e^{-j\varphi} } 2 \\ \sin \varphi & = \frac {e^{j\varphi} - e^{-j\varphi} } {2j} \end{aligned}$$}}.
 
-Using Euler's formula, we can express waves {{using exponentiation instead}}. For example, the discrete sine wave {{$$f[x](n) = A \cos(kx \pm \omega T n + \phi) + D$$}} can also be expressed as {{$$f[x](n) = \operatorname{Re}\left(A e^{j(kx \pm \omega Tn + \phi)}\right) + D = \operatorname{Re}\left(A e^{j \phi} e^{j(kx \pm \omega Tn)}\right) + D = \operatorname{Re}\left(X e^{j(kx \pm \omega Tn)} \right) + D \qquad X := A e^{j \phi}$$}}. The latter expression has the advantage that {{exponentiation is much easier to manipulate than trigonometric functions}}.
+Using Euler's formula, we can express waves {{using exponentiation instead}}. For example, the discrete sine wave {{$$f(x) [n] = A \cos(kx \pm \omega T n + \phi) + D$$}} can also be expressed as {{$$f(x) [n] = \operatorname{Re}\left(A e^{j(kx \pm \omega Tn + \phi)}\right) + D = \operatorname{Re}\left(A e^{j \phi} e^{j(kx \pm \omega Tn)}\right) + D = \operatorname{Re}\left(X e^{j(kx \pm \omega Tn)} \right) + D \qquad X := A e^{j \phi}$$}}. The latter expression has the advantage that {{exponentiation is much easier to manipulate than trigonometric functions}}.
 
 ## dot product
 
