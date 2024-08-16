@@ -21,7 +21,7 @@ from asyncio import (
 from dataclasses import asdict, dataclass, is_dataclass, replace
 from functools import reduce, wraps
 from logging import INFO, basicConfig, info
-from lxml.html import fromstring  # type: ignore
+from bs4 import BeautifulSoup
 from markdown import markdown
 from matplotlib.pylab import matrix_power
 from numpy import array, float64, full, zeros
@@ -133,12 +133,12 @@ async def main(args: Arguments) -> None:
         if file.suffix != ".md":
             return ProcessMarkdownFileResult(file, set(), set())
         text = await file.read_text()
-        xhtml = markdown(text, output_format="xhtml")
+        html = markdown(text, output_format="html")
         link_paths = list[Path]()
-        for link in fromstring(xhtml).xpath("//a"):
-            if not (href := link.get("href")):
+        for a_tag in BeautifulSoup(html, "html.parser").find_all("a"):
+            if not (href := a_tag.get("href")):
                 continue
-            if not (link_path := href.split("#", 2)[0]):
+            if not (link_path := str(href).split("#", 2)[0]):
                 continue
             link_path = unquote(link_path)
             if scheme_regex.match(link_path):
