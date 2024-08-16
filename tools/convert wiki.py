@@ -6,8 +6,8 @@ from asyncio import gather, run
 from typing import Callable, Mapping, MutableSequence
 from bs4 import BeautifulSoup, NavigableString, PageElement, Tag
 from bs4.element import PreformattedString
-from jaraco.clipboard import paste_html
-from pyperclip import copy
+from jaraco.clipboard import paste_html  # type: ignore
+from pyperclip import copy  # type: ignore
 from sys import argv, version
 from yarl import URL
 
@@ -128,7 +128,8 @@ async def wiki_html_to_plaintext(
             prefix, suffix = _tag_affixes(ele.name)
         case "a":
             process = True
-            if title := str(ele.get("title", "")):
+            if title := ele.get("title"):
+                title = str(title)
                 href = str(ele.get("href", ""))
                 to_fragment = (
                     href.split("#", 1)[-1].replace("_", " ") if "#" in href else ""
@@ -157,7 +158,8 @@ async def wiki_html_to_plaintext(
                     "[",
                     f"]({_markdown_link_target(_fix_name_maybe(to), _fix_name_maybe(to_fragment))})",
                 )
-            elif href := str(ele.get("href", "")):
+            elif href := ele.get("href"):
+                href = str(href)
                 if href.startswith("https://en.wikipedia.org/wiki/") and "#" in href:
                     href = _markdown_fragment(
                         _fix_name_maybe(href[href.index("#") + 1 :].replace("_", " "))
@@ -184,7 +186,8 @@ async def wiki_html_to_plaintext(
             else:
                 prefix, suffix = f"{'  ' * (len(list_stack) - 1)}- ", "\n"
         case "math":
-            if alt_text := str(ele.get("alttext", "")):
+            if alt_text := ele.get("alttext"):
+                alt_text = str(alt_text)
                 alt_text_len = len(alt_text)
                 alt_text = alt_text.removeprefix(R"{\displaystyle ")
                 if len(alt_text) == alt_text_len:
@@ -232,7 +235,7 @@ async def main() -> None:
     refs = "refs" in argv[1:]
 
     input("HTML? (will read from clipboard)")
-    html_text = paste_html()
+    html_text = paste_html()  # type: ignore
     assert isinstance(html_text, str)
 
     html = BeautifulSoup(html_text, "html.parser")
