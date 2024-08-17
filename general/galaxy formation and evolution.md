@@ -22,7 +22,7 @@ Because of {{the inability to conduct experiments in outer space}}, {{the only w
 - {{Many of the properties of galaxies (including the [galaxy color–magnitude diagram](galaxy%20color–magnitude%20diagram.md))}} indicate that {{there are fundamentally two types of galaxies}}. These groups divide into {{blue star-forming galaxies that are more like spiral types}}, and {{red non-star forming galaxies that are more like elliptical galaxies}}.
 - Spiral galaxies are {{quite thin, dense, and rotate relatively fast}}, while {{the stars in elliptical galaxies have randomly oriented orbits}}.
 - The majority of giant galaxies contain {{a [supermassive black hole](supermassive%20black%20hole.md) in their centers, ranging in mass from millions to billions of times the mass of the [Sun](Sun.md)}}. The black hole mass is {{tied to the host galaxy bulge or spheroid mass}}.
-- {{[Metallicity](metallicity.md)}} has {{a positive correlation with the [absolute magnitude](absolute%20magnitude.md) (luminosity) of a galaxy}}.
+- {{[Metallicity](metallicity.md)}} has {{a positive correlation with the luminosity (negative correlation with the [absolute magnitude](absolute%20magnitude.md)) of a galaxy}}.
 
 Astronomers now believe that {{disk galaxies likely formed first}}, then {{evolved into elliptical galaxies through galaxy mergers}}.
 
