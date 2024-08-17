@@ -1,24 +1,24 @@
 ---
 aliases:
   - HKUST PHYS 1002
-  - HKUST PHYS 1002 outline
-  - HKUST PHYS 1002 outlines
+  - HKUST PHYS 1002 index
+  - HKUST PHYS 1002 indexes
   - HKUST PHYS1002
-  - HKUST PHYS1002 outline
-  - HKUST PHYS1002 outlines
+  - HKUST PHYS1002 index
+  - HKUST PHYS1002 indexes
   - PHYS 1002
-  - PHYS 1002 outline
-  - PHYS 1002 outlines
+  - PHYS 1002 index
+  - PHYS 1002 indexes
   - PHYS1002
-  - PHYS1002 outline
-  - PHYS1002 outlines
+  - PHYS1002 index
+  - PHYS1002 indexes
 tags:
-  - flashcard/special/academia/HKUST/PHYS_1002/outline
+  - flashcard/special/academia/HKUST/PHYS_1002/index
   - function/index
   - language/in/English
 ---
 
-# outline
+# index
 
 - HKUST PHYS 1002
 

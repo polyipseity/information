@@ -1,20 +1,20 @@
 ---
 aliases:
   - MATH 1013
-  - MATH 1013 outline
+  - MATH 1013 index
   - MATH1013
-  - MATH1013 outline
+  - MATH1013 index
   - HKUST MATH 1013
-  - HKUST MATH 1013 outline
+  - HKUST MATH 1013 index
   - HKUST MATH1013
-  - HKUST MATH1013 outline
+  - HKUST MATH1013 index
 tags:
-  - flashcard/special/academia/HKUST/MATH_1013/outline
+  - flashcard/special/academia/HKUST/MATH_1013/index
   - function/index
   - language/in/English
 ---
 
-# outline
+# index
 
 - HKUST MATH 1013
 

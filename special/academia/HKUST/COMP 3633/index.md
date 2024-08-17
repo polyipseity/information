@@ -1,20 +1,20 @@
 ---
 aliases:
   - COMP 3633
-  - COMP 3633 outline
+  - COMP 3633 index
   - COMP3633
-  - COMP3633 outline
+  - COMP3633 index
   - HKUST COMP 3633
-  - HKUST COMP 3633 outline
+  - HKUST COMP 3633 index
   - HKUST COMP3633
-  - HKUST COMP3633 outline
+  - HKUST COMP3633 index
 tags:
-  - flashcard/special/academia/HKUST/COMP_3633/outline
+  - flashcard/special/academia/HKUST/COMP_3633/index
   - function/index
   - language/in/English
 ---
 
-# outline
+# index
 
 - HKUST COMP 3633
 

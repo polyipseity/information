@@ -1,20 +1,20 @@
 ---
 aliases:
   - COMP 1942
-  - COMP 1942 outline
+  - COMP 1942 index
   - COMP1942
-  - COMP1942 outline
+  - COMP1942 index
   - HKUST COMP 1942
-  - HKUST COMP 1942 outline
+  - HKUST COMP 1942 index
   - HKUST COMP1942
-  - HKUST COMP1942 outline
+  - HKUST COMP1942 index
 tags:
-  - flashcard/special/academia/HKUST/COMP_1942/outline
+  - flashcard/special/academia/HKUST/COMP_1942/index
   - function/index
   - language/in/English
 ---
 
-# outline
+# index
 
 - HKUST COMP 1942
 

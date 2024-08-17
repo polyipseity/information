@@ -1,20 +1,20 @@
 ---
 aliases:
   - COMP 2011
-  - COMP 2011 outline
+  - COMP 2011 index
   - COMP2011
-  - COMP2011 outline
+  - COMP2011 index
   - HKUST COMP 2011
-  - HKUST COMP 2011 outline
+  - HKUST COMP 2011 index
   - HKUST COMP2011
-  - HKUST COMP2011 outline
+  - HKUST COMP2011 index
 tags:
-  - flashcard/special/academia/HKUST/COMP_2011/outline
+  - flashcard/special/academia/HKUST/COMP_2011/index
   - function/index
   - language/in/English
 ---
 
-# outline
+# index
 
 - HKUST COMP 2011
 

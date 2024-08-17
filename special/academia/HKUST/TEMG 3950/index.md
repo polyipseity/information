@@ -1,20 +1,20 @@
 ---
 aliases:
   - HKUST TEMG 3950
-  - HKUST TEMG 3950 outline
+  - HKUST TEMG 3950 index
   - HKUST TEMG3950
-  - HKUST TEMG3950 outline
+  - HKUST TEMG3950 index
   - TEMG 3950
-  - TEMG 3950 outline
+  - TEMG 3950 index
   - TEMG3950
-  - TEMG3950 outline
+  - TEMG3950 index
 tags:
-  - flashcard/special/academia/HKUST/TEMG_3950/outline
+  - flashcard/special/academia/HKUST/TEMG_3950/index
   - function/index
   - language/in/English
 ---
 
-# outline
+# index
 
 - HKUST TEMG 3950
 

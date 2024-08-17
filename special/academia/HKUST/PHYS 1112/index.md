@@ -1,20 +1,20 @@
 ---
 aliases:
   - HKUST PHYS 1112
-  - HKUST PHYS 1112 outline
+  - HKUST PHYS 1112 index
   - HKUST PHYS1112
-  - HKUST PHYS1112 outline
+  - HKUST PHYS1112 index
   - PHYS 1112
-  - PHYS 1112 outline
+  - PHYS 1112 index
   - PHYS1112
-  - PHYS1112 outline
+  - PHYS1112 index
 tags:
-  - flashcard/special/academia/HKUST/PHYS_1112/outline
+  - flashcard/special/academia/HKUST/PHYS_1112/index
   - function/index
   - language/in/English
 ---
 
-# outline
+# index
 
 - HKUST PHYS 1112
 

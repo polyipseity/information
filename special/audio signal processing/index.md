@@ -1,13 +1,14 @@
 ---
 aliases:
-  - audio signal processing outline
-  - audio signal processing outlines
+  - audio signal processing index
+  - audio signal processing indexes
 tags:
-  - flashcard/special/audio_signal_processing/outline
+  - flashcard/special/audio_signal_processing/index
+  - function/index
   - language/in/English
 ---
 
-# audio signal processing outline
+# audio signal processing index
 
 - see: [general/audio signal processing](../../general/audio%20signal%20processing.md)
 

@@ -1,13 +1,14 @@
 ---
 aliases:
-  - ESST occupational health outline
-  - HKUST ESST occupational health outline
+  - ESST occupational health index
+  - HKUST ESST occupational health index
 tags:
-  - flashcard_disabled/special/academia/HKUST/ESST/occupational_health/outline
+  - flashcard_disabled/special/academia/HKUST/ESST/occupational_health/index
+  - function/index
   - language/in/English
 ---
 
-# outline
+# index
 
 - HKUST ESST occupational health
 

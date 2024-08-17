@@ -1,13 +1,14 @@
 ---
 aliases:
-  - ESST electrical safety outline
-  - HKUST ESST electrical safety outline
+  - ESST electrical safety index
+  - HKUST ESST electrical safety index
 tags:
-  - flashcard_disabled/special/academia/HKUST/ESST/electrical_safety/outline
+  - flashcard_disabled/special/academia/HKUST/ESST/electrical_safety/index
+  - function/index
   - language/in/English
 ---
 
-# outline
+# index
 
 - HKUST ESST electrical safety
 
