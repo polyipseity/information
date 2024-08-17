@@ -27,7 +27,7 @@ This course emphasises the development of academic literacy skills, in addition 
 - offered in: 2023—24 spring, 2023—24 fall
 - prerequisites: LANG 1401 OR LANG 1402 OR (level 5 in HKDSE English Language with all papers at or above level 4) OR (overall bandscore of 6.5 in IELTS with all subscores at or above 6.0) OR (equivalence of the above)
 
-## review
+## the review
 
 the mandatory grade lottery machine
 

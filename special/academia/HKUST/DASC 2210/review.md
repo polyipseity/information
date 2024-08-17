@@ -25,7 +25,7 @@ A survey on data collection and applied data science in different areas of scien
 
 - offered in: 2023—24 fall, 2022—23 fall
 
-## review
+## the review
 
 rudimentary data science and Excel course
 

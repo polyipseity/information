@@ -14,7 +14,6 @@ tags:
   - flashcard/active/general/umbra__penumbra_and_antumbra
   - language/in/English
 ---
- ant
 
 # umbra, penumbra and antumbra
 
