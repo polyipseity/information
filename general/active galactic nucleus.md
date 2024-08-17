@@ -19,6 +19,10 @@ The observed characteristics of an AGN depend on {{several properties such as th
 
 {{Numerous subclasses of AGN}} have been defined on {{the basis of their observed characteristics}}; {{the most powerful AGN}} are classified as {{[quasars](quasar.md)}}. {{A [blazar](blazar.md)}} is {{an AGN with a jet pointed toward the Earth, in which radiation from the jet is enhanced by [relativistic beaming](relativistic%20beaming.md)}}.
 
+## unification of AGN species
+
+Unified models propose that different observational classes of AGN are a single type of physical object observed under different conditions. The currently favoured unified models are 'orientation-based unified models' meaning that they propose that the apparent differences between different types of objects arise simply because of their different orientations to the observer. However, they are debated (see below).
+
 ## references
 
 This text incorporates [content](https://en.wikipedia.org/wiki/active_galactic_nucleus) from [Wikipedia](Wikipedia.md) available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.
