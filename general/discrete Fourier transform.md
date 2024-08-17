@@ -16,11 +16,11 @@ In [mathematics](mathematics.md), {{the __discrete Fourier transform__ (__DFT__)
 
 > [!tip] tips
 >
-> - interpretation of the DFT of a sequence ::: The modulus (length) of the complex number for each frequency is the amplitude (e.g. loudness) of that frequency. The argument (angle) of the complex number for each frequency is the phase (e.g. time offset) of that frequency.
+> - interpretation of the DFT of a sequence ::: The modulus (length) of the complex number for each frequency is the amplitude (e.g. loudness) of that frequency. The argument (angle) of the complex number for each frequency is the phase (e.g. time offset) of that frequency. <!--SR:!2024-08-21,4,306!2024-08-21,4,306-->
 
 ## definition
 
-The _discrete Fourier transform_ {{transforms a [sequence](sequence.md) of _N_ [complex numbers](complex%20number.md) $\set{\mathbf x_n} := x_0, x_1, \ldots, x_{N−1}$ into another sequence of complex numbers, $\set{\mathbf X_k} := X_0, X_1, \ldots, X_{N−1}$}}, which is defined by:
+The _discrete Fourier transform_ {{transforms a [sequence](sequence.md) of _N_ [complex numbers](complex%20number.md) $\set{\mathbf x_n} := x_0, x_1, \ldots, x_{N−1}$ into another sequence of complex numbers, $\set{\mathbf X_k} := X_0, X_1, \ldots, X_{N−1}$}}, which is defined by: <!--SR:!2024-08-21,4,306-->
 
 > {{__discrete Fourier transform (Eq. 1)__}}
 >

@@ -549,7 +549,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 4. (1) and (3)
 > 5. (2) and (3)
 >
-> - solution: {{5}}
+> - solution: {{5}} <!--SR:!2024-08-21,4,335-->
 
 <!-- markdownlint MD028 -->
 
@@ -562,7 +562,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 5. 240000 pc
 >
 > - solution: {{3}}
-> - explanation: {{If the period of a Cepheid variable is 10 days, according to the (average) luminosity—period log graph, it has a luminosity of 3000 solar luminosities. Find the absolute magnitude $M$ of the Cepheid variable: $$M = 4.83 - 5 \log_{100} 3000 \approx -3.86280314$$. Then apply the m & M equation to find its distance: $$d = 10^{\frac {m - M + 5} 5} = 10^{\frac {8 - (-3.86280314) + 5} 5} = 10^{3.372560628} \approx 2358.0913~\mathrm{pc}$$. So the answer is 2400 pc.}}
+> - explanation: {{If the period of a Cepheid variable is 10 days, according to the (average) luminosity—period log graph, it has a luminosity of 3000 solar luminosities. Find the absolute magnitude $M$ of the Cepheid variable: $$M = 4.83 - 5 \log_{100} 3000 \approx -3.86280314$$. Then apply the m & M equation to find its distance: $$d = 10^{\frac {m - M + 5} 5} = 10^{\frac {8 - (-3.86280314) + 5} 5} = 10^{3.372560628} \approx 2358.0913~\mathrm{pc}$$. So the answer is 2400 pc.}} <!--SR:!2024-08-21,4,335!2024-08-20,3,315-->
 
 <!-- markdownlint MD028 -->
 
@@ -575,7 +575,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 5. 27 Gpc
 >
 > - solution: {{4}}
-> - explanation: {{70% the speed of light (~300&nbsp;000 km/s) is approximately 210&nbsp;000 km/s. Divide this by the Hubble's constant: $$\frac {210\,000~\mathrm{km/s} } {64~\mathrm{(km/s)/Mpc} } = 3281.25~\mathrm{Mpc} = 3.28125~\mathrm{Gpc}$$. So the answer is 3.3 Gpc.}}
+> - explanation: {{70% the speed of light (~300&nbsp;000 km/s) is approximately 210&nbsp;000 km/s. Divide this by the Hubble's constant: $$\frac {210\,000~\mathrm{km/s} } {64~\mathrm{(km/s)/Mpc} } = 3281.25~\mathrm{Mpc} = 3.28125~\mathrm{Gpc}$$. So the answer is 3.3 Gpc.}} <!--SR:!2024-08-21,4,335!2024-08-21,4,335-->
 
 <!-- markdownlint MD028 -->
 
@@ -588,7 +588,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 5. by measuring spectral broadening of hydrogen emission lines
 >
 > - solution: {{2}}
-> - note: Finally, a question that everyone (who answered) got correctly! The teacher gave away the answer.
+> - note: Finally, a question that everyone (who answered) got correctly! The teacher gave away the answer. <!--SR:!2024-08-21,4,335-->
 
 ## student-generated questions
 
