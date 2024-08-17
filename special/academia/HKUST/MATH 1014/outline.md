@@ -10,7 +10,7 @@ aliases:
   - HKUST MATH1014 outline
 tags:
   - flashcard/special/academia/HKUST/MATH_1014/outline
-  - function/outline
+  - function/index
   - language/in/English
 ---
 

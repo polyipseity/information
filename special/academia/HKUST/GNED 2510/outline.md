@@ -10,7 +10,7 @@ aliases:
   - HKUST GNED2510 outline
 tags:
   - flashcard/special/academia/HKUST/GNED_2510/outline
-  - function/outline
+  - function/index
   - language/in/English
 ---
 

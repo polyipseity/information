@@ -10,7 +10,7 @@ aliases:
   - HKUST COMP1942 outline
 tags:
   - flashcard/special/academia/HKUST/COMP_1942/outline
-  - function/outline
+  - function/index
   - language/in/English
 ---
 

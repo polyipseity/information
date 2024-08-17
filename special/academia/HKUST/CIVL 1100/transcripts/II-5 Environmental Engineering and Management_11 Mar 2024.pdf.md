@@ -3,7 +3,6 @@ aliases:
   - II-5 Environmental Engineering and Management_11 Mar 2024.pdf
 tags:
   - flashcard/special/academia/HKUST/CIVL_1100/transcripts/II-5_Environmental_Engineering_and_Management_11_Mar_2024_pdf
-  - function/transcript
   - language/in/English
 ---
 

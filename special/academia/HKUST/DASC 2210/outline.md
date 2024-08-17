@@ -10,7 +10,7 @@ aliases:
   - HKUST DASC2210 outline
 tags:
   - flashcard/special/academia/HKUST/DASC_2210/outline
-  - function/outline
+  - function/index
   - language/in/English
 ---
 

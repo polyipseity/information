@@ -10,7 +10,7 @@ aliases:
   - HKUST CIVL1100 outline
 tags:
   - flashcard/special/academia/HKUST/CIVL_1100/outline
-  - function/outline
+  - function/index
   - language/in/English
 ---
 

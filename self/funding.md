@@ -1,7 +1,6 @@
 ---
 aliases: []
 tags:
-  - function/text
   - language/in/English
 ---
 

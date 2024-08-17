@@ -10,7 +10,7 @@ aliases:
   - TEMG3950 outline
 tags:
   - flashcard/special/academia/HKUST/TEMG_3950/outline
-  - function/outline
+  - function/index
   - language/in/English
 ---
 

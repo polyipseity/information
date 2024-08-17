@@ -4,7 +4,6 @@ aliases:
 tags:
   - flashcard/special/academia/HKUST/reviews
   - function/index
-  - function/text
   - language/in/English
 ---
 

@@ -14,7 +14,7 @@ aliases:
   - PHYS1002 outlines
 tags:
   - flashcard/special/academia/HKUST/PHYS_1002/outline
-  - function/outline
+  - function/index
   - language/in/English
 ---
 

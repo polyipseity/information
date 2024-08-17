@@ -6,7 +6,6 @@ aliases:
   - TEMG3950 information
 tags:
   - flashcard/special/academia/HKUST/TEMG_3950/information
-  - function/information
   - language/in/English
 ---
 
