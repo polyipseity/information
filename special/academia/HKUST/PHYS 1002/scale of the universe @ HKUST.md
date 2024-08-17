@@ -16,7 +16,7 @@ tags:
 
 Since the [universe](../../../../general/universe.md) is {{so big, the scale of it is hard to comprehend}}. Instead, we can make a {{1:_X_ model, i.e. all lengths are reduced by a factor of _X_ billion}}. For example, the [Sun](../../../../general/Sun.md) has {{a radius of about 6.96 × 10<sup>8</sup> m}}. In the 1:10<sup>10</sup> scale model, its {{radius would be about 7 cm instead}}.
 
-A scale model preserves {{all size ratios between different objects}}, while making the distance {{familiar to us}}. For example, also take {{[Earth](../../../../general/Earth.md)'s radius: 6.371 × 10<sup>6</sup> m}}. The ratio of {{Earth's radius over the Sun's radius}} is {{about 6.371 × 10<sup>6</sup> m / 6.96 × 10<sup>8</sup> m ≈ 0.00913}}. Such ratios are {{preserved in the scaled model}}. The ratios can also {{provide easier comparison}}. For instance, additionally take the ratio of [Jupiter](../../../../general/Jupiter.md) over the Sun's radius: {{0.100}}. Then we know {{Jupiter is about 0.100 / 0.00913 ≈ 11.0 times as large as Earth in radius}}.
+A scale model preserves {{all size ratios between different objects}}, while making the distance {{familiar to us}}. For example, also take {{[Earth](../../../../general/Earth.md)'s radius: 6.371 × 10<sup>6</sup> m}}. The ratio of {{Earth's radius over the Sun's radius}} is {{about 6.371 × 10<sup>6</sup> m / 6.963 × 10<sup>8</sup> m ≈ 0.00915}}. Such ratios are {{preserved in the scaled model}}. The ratios can also {{provide easier comparison}}. For instance, additionally take the ratio of [Jupiter](../../../../general/Jupiter.md) over the Sun's radius: {{0.100}}. Then we know {{Jupiter is about 0.100 / 0.00915 ≈ 10.9 times as large as Earth in radius}}.
 
 ## scale factor of 10 billion
 
