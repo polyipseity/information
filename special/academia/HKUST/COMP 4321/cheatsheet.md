@@ -21,6 +21,11 @@ tags:
 
 - HKUST COMP 4321
 
+## previews
+
+- [`cheatsheet.pdf`](cheatsheet.pdf)
+- [`cheatsheet 2.pdf`](cheatsheet%202.pdf)
+
 ## search engine (SE)
 
 - names: information retrieval (IR), document retrieval (DR), text retrieval (TR)

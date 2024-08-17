@@ -19,3 +19,7 @@ tags:
 - HKUST DASC 2210
 
 - [DIKW pyramid](../../../../general/DIKW%20pyramid.md)
+
+## aftermath
+
+- [review](review.md)

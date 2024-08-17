@@ -21,3 +21,7 @@ tags:
 - [cover letter](../../../cover%20letter.md)
 - [name tag](../../../name%20tag.md)
 - [résumé](../../../résumé.md)
+
+## aftermath
+
+- [review](review.md)
