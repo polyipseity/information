@@ -3,7 +3,7 @@ aliases:
   - complex number
   - complex numbers
 tags:
-  - flashcard/general/complex_number
+  - flashcard/active/general/complex_number
   - language/in/English
 ---
 

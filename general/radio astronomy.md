@@ -2,7 +2,7 @@
 aliases:
   - radio astronomy
 tags:
-  - flashcard/general/radio_astronomy
+  - flashcard/active/general/radio_astronomy
   - language/in/English
 ---
 

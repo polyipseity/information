@@ -3,7 +3,7 @@ aliases:
   - nuclear fusion
   - nuclear fusions
 tags:
-  - flashcard/general/nuclear_fusion
+  - flashcard/active/general/nuclear_fusion
   - language/in/English
 ---
 

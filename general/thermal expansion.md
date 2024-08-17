@@ -2,7 +2,7 @@
 aliases:
   - thermal expansion
 tags:
-  - flashcard/general/thermal_expansion
+  - flashcard/active/general/thermal_expansion
   - language/in/English
 ---
 

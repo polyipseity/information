@@ -21,7 +21,7 @@ aliases:
   - decision network
   - decision networks
 tags:
-  - flashcard/general/Bayesian_network
+  - flashcard/active/general/Bayesian_network
   - language/in/English
 ---
 

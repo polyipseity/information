@@ -2,7 +2,7 @@
 aliases:
   - strings library
 tags:
-  - flashcard/special/C/strings_library
+  - flashcard/active/special/C/strings_library
   - language/in/English
 ---
 

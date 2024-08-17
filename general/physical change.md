@@ -2,7 +2,7 @@
 aliases:
   - physical changes
 tags:
-  - flashcard/general/physical_change
+  - flashcard/active/general/physical_change
   - language/in/English
 ---
 

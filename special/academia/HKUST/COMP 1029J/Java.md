@@ -2,7 +2,7 @@
 aliases:
   - Java
 tags:
-  - flashcard/special/academia/HKUST/COMP_1029J/Java
+  - flashcard/active/special/academia/HKUST/COMP_1029J/Java
   - language/in/English
 ---
 

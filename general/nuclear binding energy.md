@@ -3,7 +3,7 @@ aliases:
   - nuclear binding energies
   - nuclear binding energy
 tags:
-  - flashcard/general/nuclear_binding_energy
+  - flashcard/active/general/nuclear_binding_energy
   - language/in/English
 ---
 

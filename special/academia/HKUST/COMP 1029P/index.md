@@ -1,20 +1,20 @@
 ---
 aliases:
   - COMP 1029P
-  - COMP 1029P outline
+  - COMP 1029P index
   - COMP1029P
-  - COMP1029P outline
+  - COMP1029P index
   - HKUST COMP 1029P
-  - HKUST COMP 1029P outline
+  - HKUST COMP 1029P index
   - HKUST COMP1029P
-  - HKUST COMP1029P outline
+  - HKUST COMP1029P index
 tags:
-  - flashcard/special/academia/HKUST/COMP_1029P/outline
-  - function/outline
+  - flashcard/active/special/academia/HKUST/COMP_1029P/index
+  - function/index
   - language/in/English
 ---
 
-# outline
+# index
 
 - HKUST COMP 1029P
 

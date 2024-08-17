@@ -3,7 +3,7 @@ aliases:
   - mineral species
   - minerals
 tags:
-  - flashcard/general/mineral
+  - flashcard/active/general/mineral
   - language/in/English
 ---
 

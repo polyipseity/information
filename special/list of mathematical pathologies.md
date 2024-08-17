@@ -3,8 +3,7 @@ aliases:
   - list of mathematical pathologies
   - list of mathematical pathology
 tags:
-  - flashcard/special/list_of_mathematical_pathologies
-  - function/list
+  - flashcard/active/special/list_of_mathematical_pathologies
   - language/in/English
 ---
 

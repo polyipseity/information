@@ -3,7 +3,7 @@ aliases:
   - energies
   - energy
 tags:
-  - flashcard/general/energy
+  - flashcard/active/general/energy
   - language/in/English
 ---
 

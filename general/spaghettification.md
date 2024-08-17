@@ -4,7 +4,7 @@ aliases:
   - noodle effects
   - spaghettification
 tags:
-  - flashcard/general/spaghettification
+  - flashcard/active/general/spaghettification
   - language/in/English
 ---
 

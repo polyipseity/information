@@ -3,7 +3,7 @@ aliases:
   - apparent retrograde motion
   - apparent retrograde motions
 tags:
-  - flashcard/general/apparent_retrograde_motion
+  - flashcard/active/general/apparent_retrograde_motion
   - language/in/English
 ---
 

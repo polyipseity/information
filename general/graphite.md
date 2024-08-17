@@ -3,7 +3,7 @@ aliases:
   - graphite
   - graphites
 tags:
-  - flashcard/general/graphite
+  - flashcard/active/general/graphite
   - language/in/English
 ---
 

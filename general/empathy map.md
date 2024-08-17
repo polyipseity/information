@@ -3,7 +3,7 @@ aliases:
   - empathy map
   - empathy maps
 tags:
-  - flashcard/general/empathy_map
+  - flashcard/active/general/empathy_map
   - language/in/English
 ---
 

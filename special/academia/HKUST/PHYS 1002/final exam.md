@@ -9,7 +9,7 @@ aliases:
   - PHYS1002 final exam
   - PHYS1002 final exams
 tags:
-  - flashcard/special/academia/HKUST/PHYS_1002/final_exam
+  - flashcard/active/special/academia/HKUST/PHYS_1002/final_exam
   - language/in/English
 ---
 

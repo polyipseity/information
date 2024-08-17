@@ -2,7 +2,7 @@
 aliases:
   - Galactic Center
 tags:
-  - flashcard/general/Galactic_Center
+  - flashcard/active/general/Galactic_Center
   - language/in/English
 ---
 

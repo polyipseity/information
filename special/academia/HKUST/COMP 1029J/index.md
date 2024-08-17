@@ -1,20 +1,20 @@
 ---
 aliases:
   - COMP 1029J
-  - COMP 1029J outline
+  - COMP 1029J index
   - COMP1029J
-  - COMP1029J outline
+  - COMP1029J index
   - HKUST COMP 1029J
-  - HKUST COMP 1029J outline
+  - HKUST COMP 1029J index
   - HKUST COMP1029J
-  - HKUST COMP1029J outline
+  - HKUST COMP1029J index
 tags:
-  - flashcard/special/academia/HKUST/COMP_1029J/outline
-  - function/outline
+  - flashcard/active/special/academia/HKUST/COMP_1029J/index
+  - function/index
   - language/in/English
 ---
 
-# outline
+# index
 
 - HKUST COMP 1029J
 

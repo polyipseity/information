@@ -3,7 +3,7 @@ aliases:
   - eclipse
   - eclipses
 tags:
-  - flashcard/general/eclipse
+  - flashcard/active/general/eclipse
   - language/in/English
 ---
 

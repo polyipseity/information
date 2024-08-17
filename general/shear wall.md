@@ -2,7 +2,7 @@
 aliases:
   - shear wall
 tags:
-  - flashcard/general/shear_wall
+  - flashcard/active/general/shear_wall
   - language/in/English
 ---
 

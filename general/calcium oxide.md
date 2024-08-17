@@ -4,7 +4,7 @@ aliases:
   - calcium oxide
   - quicklime
 tags:
-  - flashcard/general/calcium_oxide
+  - flashcard/active/general/calcium_oxide
   - language/in/English
 ---
 

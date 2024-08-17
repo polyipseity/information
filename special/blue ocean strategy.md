@@ -3,7 +3,7 @@ aliases:
   - blue ocean strategies
   - blue ocean strategy
 tags:
-  - flashcard/special/blue_ocean_strategy
+  - flashcard/active/special/blue_ocean_strategy
   - language/in/English
 ---
 

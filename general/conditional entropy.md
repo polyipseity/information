@@ -2,7 +2,7 @@
 aliases:
   - conditional entropy
 tags:
-  - flashcard/general/conditional_entropy
+  - flashcard/active/general/conditional_entropy
   - language/in/English
 ---
 

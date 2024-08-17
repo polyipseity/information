@@ -4,7 +4,7 @@ aliases:
   - alkali metals
   - lithium group
 tags:
-  - flashcard/general/alkali_metal
+  - flashcard/active/general/alkali_metal
   - language/in/English
 ---
 

@@ -3,8 +3,7 @@ aliases:
   - command libraries
   - command library
 tags:
-  - flashcard/special/command_library
-  - function/library
+  - flashcard/active/special/command_library
   - language/in/English
 ---
 

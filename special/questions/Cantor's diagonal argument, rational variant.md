@@ -3,7 +3,7 @@ aliases:
   - Cantor's diagonal argument, rational variant
 tags:
   - date/2024/03/01
-  - flashcard/special/questions/Cantor_s_diagonal_argument__rational_variant
+  - flashcard/active/special/questions/Cantor_s_diagonal_argument__rational_variant
   - language/in/English
   - question/mathematics/elementary_set_theory
   - status/incomplete

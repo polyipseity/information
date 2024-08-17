@@ -2,7 +2,7 @@
 aliases:
   - product innovation
 tags:
-  - flashcard/general/product_innovation
+  - flashcard/active/general/product_innovation
   - language/in/English
 ---
 

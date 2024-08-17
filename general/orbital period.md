@@ -3,7 +3,7 @@ aliases:
   - orbital period
   - orbital periods
 tags:
-  - flashcard/general/orbital_period
+  - flashcard/active/general/orbital_period
   - language/in/English
 ---
 

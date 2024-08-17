@@ -6,7 +6,7 @@ aliases:
   - characteristic equation (calculus)
   - characteristic equations
 tags:
-  - flashcard/general/characteristic_equation__calculus_
+  - flashcard/active/general/characteristic_equation__calculus_
   - language/in/English
 ---
 

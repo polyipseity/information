@@ -5,7 +5,7 @@ aliases:
   - information entropy
   - informational entropy
 tags:
-  - flashcard/general/statistical_classification
+  - flashcard/active/general/statistical_classification
   - language/in/English
 ---
 

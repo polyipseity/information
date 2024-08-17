@@ -7,7 +7,7 @@ aliases:
   - double
   - double-precision floating-point format
 tags:
-  - flashcard/general/double-precison_floating-point_format
+  - flashcard/active/general/double-precison_floating-point_format
   - language/in/English
 ---
 

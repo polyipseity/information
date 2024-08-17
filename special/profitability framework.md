@@ -2,7 +2,7 @@
 aliases:
   - profitability framework
 tags:
-  - flashcard/special/profitability_framework
+  - flashcard/active/special/profitability_framework
   - language/in/English
 ---
 

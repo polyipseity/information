@@ -6,7 +6,7 @@ aliases:
   - solution (chemistry)
   - solutions
 tags:
-  - flashcard/general/solution__chemistry_
+  - flashcard/active/general/solution__chemistry_
   - language/in/English
 ---
 

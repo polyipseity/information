@@ -3,7 +3,7 @@ aliases:
   - "`time`"
   - time
 tags:
-  - flashcard/special/C/date_and_time_utilities/time
+  - flashcard/active/special/C/date_and_time_utilities/time
   - language/in/English
 ---
 

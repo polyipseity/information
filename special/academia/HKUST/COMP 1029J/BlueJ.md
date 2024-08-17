@@ -2,7 +2,7 @@
 aliases:
   - BlueJ
 tags:
-  - flashcard/special/academia/HKUST/COMP_1029J/BlueJ
+  - flashcard/active/special/academia/HKUST/COMP_1029J/BlueJ
   - language/in/English
 ---
 

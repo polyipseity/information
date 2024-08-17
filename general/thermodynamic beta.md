@@ -3,7 +3,7 @@ aliases:
   - coldness
   - thermodynamic beta
 tags:
-  - flashcard/general/thermodynamic_beta
+  - flashcard/active/general/thermodynamic_beta
   - language/in/English
 ---
 

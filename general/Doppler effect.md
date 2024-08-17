@@ -5,7 +5,7 @@ aliases:
   - doppler effect
   - doppler shift
 tags:
-  - flashcard/general/Doppler_effect
+  - flashcard/active/general/Doppler_effect
   - language/in/English
 ---
 

@@ -2,7 +2,7 @@
 aliases:
   - photoemission
 tags:
-  - flashcard/general/photoelectric_effect
+  - flashcard/active/general/photoelectric_effect
   - language/in/English
 ---
 

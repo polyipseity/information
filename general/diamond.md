@@ -3,7 +3,7 @@ aliases:
   - diamond
   - diamonds
 tags:
-  - flashcard/general/diamond
+  - flashcard/active/general/diamond
   - language/in/English
 ---
 

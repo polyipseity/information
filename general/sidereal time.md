@@ -2,7 +2,7 @@
 aliases:
   - sidereal time
 tags:
-  - flashcard/general/sidereal_time
+  - flashcard/active/general/sidereal_time
   - language/in/English
 ---
 

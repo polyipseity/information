@@ -5,7 +5,7 @@ aliases:
   - interstellar media
   - interstellar medium
 tags:
-  - flashcard/general/interstellar_medium
+  - flashcard/active/general/interstellar_medium
   - language/in/English
 ---
 

@@ -1,13 +1,14 @@
 ---
 aliases:
-  - MySQL outline
-  - MySQL outlines
+  - MySQL index
+  - MySQL indexes
 tags:
-  - flashcard/special/MySQL/outline
+  - flashcard/active/special/MySQL/index
+  - function/index
   - language/in/English
 ---
 
-# MySQL outline
+# MySQL index
 
 - see: [general/MySQL](../../general/MySQL.md)
 

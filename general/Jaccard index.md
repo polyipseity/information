@@ -9,7 +9,7 @@ aliases:
   - Jaccard's index
   - Jaccard's indices
 tags:
-  - flashcard/general/Jaccard_index
+  - flashcard/active/general/Jaccard_index
   - language/in/English
 ---
 

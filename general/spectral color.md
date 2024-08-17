@@ -3,7 +3,7 @@ aliases:
   - spectral color
   - spectral colors
 tags:
-  - flashcard/general/spectral_color
+  - flashcard/active/general/spectral_color
   - language/in/English
 ---
 

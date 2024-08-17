@@ -3,7 +3,7 @@ aliases:
   - planet
   - planets
 tags:
-  - flashcard/general/planet
+  - flashcard/active/general/planet
   - language/in/English
 ---
 

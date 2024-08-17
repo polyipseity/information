@@ -4,7 +4,7 @@ aliases:
   - chemical formulae
   - chemical formulas
 tags:
-  - flashcard/general/chemical_formula
+  - flashcard/active/general/chemical_formula
   - language/in/English
 ---
 

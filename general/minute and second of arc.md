@@ -29,7 +29,7 @@ aliases:
   - seconds of arc
   - secs of arc
 tags:
-  - flashcard/general/minute_and_second_of_arc
+  - flashcard/active/general/minute_and_second_of_arc
   - language/in/English
 ---
 

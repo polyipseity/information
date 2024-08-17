@@ -3,7 +3,7 @@ aliases:
   - helium flash
   - helium flashes
 tags:
-  - flashcard/general/helium_flash
+  - flashcard/active/general/helium_flash
   - language/in/English
 ---
 

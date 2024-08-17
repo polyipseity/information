@@ -5,7 +5,7 @@ aliases:
   - Ei(x)
   - exponential integral
 tags:
-  - flashcard/general/exponential_integral
+  - flashcard/active/general/exponential_integral
   - language/in/English
 ---
 

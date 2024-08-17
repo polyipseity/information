@@ -3,7 +3,7 @@ aliases:
   - 5C analysis
   - situation analysis
 tags:
-  - flashcard/general/situation_analysis
+  - flashcard/active/general/situation_analysis
   - language/in/English
 ---
 

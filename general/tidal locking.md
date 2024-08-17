@@ -3,7 +3,7 @@ aliases:
   - tidal locking
   - tidally locked
 tags:
-  - flashcard/general/tidal_locking
+  - flashcard/active/general/tidal_locking
   - language/in/English
 ---
 

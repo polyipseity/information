@@ -3,7 +3,7 @@ aliases:
   - weight
   - weights
 tags:
-  - flashcard/general/weight
+  - flashcard/active/general/weight
   - language/in/English
 ---
 

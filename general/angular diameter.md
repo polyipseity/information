@@ -5,7 +5,7 @@ aliases:
   - angular radii
   - angular radius
 tags:
-  - flashcard/general/angular_diameter
+  - flashcard/active/general/angular_diameter
   - language/in/English
 ---
 

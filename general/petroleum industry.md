@@ -3,7 +3,7 @@ aliases:
   - petroleum industries
   - petroleum industry
 tags:
-  - flashcard/general/petroleum_industry
+  - flashcard/active/general/petroleum_industry
   - language/in/English
 ---
 

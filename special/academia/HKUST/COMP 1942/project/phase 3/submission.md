@@ -6,7 +6,6 @@ tags:
   - by/self
   - date/2024/04/15/from
   - date/2024/04/16/to
-  - function/text
   - language/in/English
 ---
 

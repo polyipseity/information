@@ -1,6 +1,6 @@
 ---
 tags:
-  - flashcard/general/pyrometallurgy
+  - flashcard/active/general/pyrometallurgy
   - language/in/English
 ---
 

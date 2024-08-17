@@ -2,7 +2,7 @@
 aliases:
   - damping
 tags:
-  - flashcard/general/damping
+  - flashcard/active/general/damping
   - language/in/English
 ---
 

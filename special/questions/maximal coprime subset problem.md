@@ -3,7 +3,7 @@ aliases:
   - maximal coprime subset problem
 tags:
   - date/2024/02/23
-  - flashcard/special/questions/maximal_coprime_subset_problem
+  - flashcard/active/special/questions/maximal_coprime_subset_problem
   - language/in/English
   - question/algorithm/dynamic_programming
 ---

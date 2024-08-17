@@ -9,7 +9,7 @@ aliases:
   - lift chart
   - lift charts
 tags:
-  - flashcard/special/lift_chart
+  - flashcard/active/special/lift_chart
   - language/in/English
 ---
 

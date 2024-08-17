@@ -4,7 +4,7 @@ aliases:
   - square root
   - square roots
 tags:
-  - flashcard/general/square_root
+  - flashcard/active/general/square_root
   - language/in/English
 ---
 

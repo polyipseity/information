@@ -2,7 +2,7 @@
 aliases:
   - IUPAC nomenclature of inorganic chemistry
 tags:
-  - flashcard/general/IUPAC_nomenclature_of_inorganic_chemistry
+  - flashcard/active/general/IUPAC_nomenclature_of_inorganic_chemistry
   - language/in/English
 ---
 

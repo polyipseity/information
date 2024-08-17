@@ -9,7 +9,7 @@ aliases:
   - PHYS1002 question
   - PHYS1002 questions
 tags:
-  - flashcard/special/academia/HKUST/PHYS_1002/questions
+  - flashcard/active/special/academia/HKUST/PHYS_1002/questions
   - language/in/English
 ---
 

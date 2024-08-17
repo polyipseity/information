@@ -12,7 +12,7 @@ aliases:
   - ctime
   - time.h
 tags:
-  - flashcard/general/C_date_and_time_functions
+  - flashcard/active/general/C_date_and_time_functions
   - language/in/English
 ---
 

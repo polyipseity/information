@@ -3,7 +3,7 @@ aliases:
   - angular resolution
   - angular resolutions
 tags:
-  - flashcard/general/angular_resolution
+  - flashcard/active/general/angular_resolution
   - language/in/English
 ---
 

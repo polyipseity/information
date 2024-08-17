@@ -1,6 +1,6 @@
 ---
 tags:
-  - flashcard/general/scattering
+  - flashcard/active/general/scattering
   - language/in/English
 ---
 

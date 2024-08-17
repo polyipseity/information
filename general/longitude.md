@@ -3,7 +3,7 @@ aliases:
   - longitude
   - longitudes
 tags:
-  - flashcard/general/longitude
+  - flashcard/active/general/longitude
   - language/in/English
 ---
 

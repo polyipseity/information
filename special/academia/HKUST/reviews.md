@@ -2,9 +2,8 @@
 aliases:
   - HKUST reviews
 tags:
-  - flashcard/special/academia/HKUST/reviews
+  - flashcard/active/special/academia/HKUST/reviews
   - function/index
-  - function/text
   - language/in/English
 ---
 

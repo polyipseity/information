@@ -3,7 +3,7 @@ aliases:
   - activity series
   - reactivity series
 tags:
-  - flashcard/general/reactivity_series
+  - flashcard/active/general/reactivity_series
   - language/in/English
 ---
 

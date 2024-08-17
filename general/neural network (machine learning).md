@@ -13,7 +13,7 @@ aliases:
   - neural network
   - neural networks
 tags:
-  - flashcard/general/neural_network__machine_learning_
+  - flashcard/active/general/neural_network__machine_learning_
   - language/in/English
 ---
 

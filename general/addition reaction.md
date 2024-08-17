@@ -3,7 +3,7 @@ aliases:
   - addition reaction
   - addition reactions
 tags:
-  - flashcard/general/addition_reaction
+  - flashcard/active/general/addition_reaction
   - language/in/English
 ---
 

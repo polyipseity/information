@@ -3,7 +3,7 @@ aliases:
   - X-ray binaries
   - X-ray binary
 tags:
-  - flashcard/general/X-ray_binary
+  - flashcard/active/general/X-ray_binary
   - language/in/English
 ---
 

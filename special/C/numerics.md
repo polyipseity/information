@@ -2,7 +2,7 @@
 aliases:
   - numerics
 tags:
-  - flashcard/special/C/numerics
+  - flashcard/active/special/C/numerics
   - language/in/English
 ---
 

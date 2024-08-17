@@ -3,7 +3,7 @@ aliases:
   - X-ray burster
   - X-ray bursters
 tags:
-  - flashcard/general/X-ray_burster
+  - flashcard/active/general/X-ray_burster
   - language/in/English
 ---
 

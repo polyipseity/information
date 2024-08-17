@@ -3,7 +3,7 @@ aliases:
   - RAND_MAX
   - "`RAND_MAX`"
 tags:
-  - flashcard/special/C/numerics/pseudo-random_number_generation/RAND_MAX
+  - flashcard/active/special/C/numerics/pseudo-random_number_generation/RAND_MAX
   - language/in/English
 ---
 

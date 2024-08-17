@@ -4,7 +4,7 @@ aliases:
   - uncertainty principle
   - uncertainty principles
 tags:
-  - flashcard/general/uncertainty_principle
+  - flashcard/active/general/uncertainty_principle
   - language/in/English
 ---
 

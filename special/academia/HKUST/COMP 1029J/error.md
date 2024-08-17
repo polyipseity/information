@@ -3,7 +3,7 @@ aliases:
   - Java error
   - Java errors
 tags:
-  - flashcard/special/academia/HKUST/COMP_1029J/error
+  - flashcard/active/special/academia/HKUST/COMP_1029J/error
   - language/in/English
 ---
 

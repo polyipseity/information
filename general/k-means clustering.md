@@ -3,7 +3,7 @@ aliases:
   - k-means algorithm
   - k-means clustering
 tags:
-  - flashcard/general/k-means_clustering
+  - flashcard/active/general/k-means_clustering
   - language/in/English
 ---
 

@@ -3,7 +3,7 @@ aliases:
   - standard Chen's iterated integral
 tags:
   - date/2024/02/29
-  - flashcard/special/questions/standard_Chen_s_iterated_integral
+  - flashcard/active/special/questions/standard_Chen_s_iterated_integral
   - language/in/English
   - question/mathematics/calculus/integral
 ---

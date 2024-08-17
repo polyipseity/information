@@ -3,7 +3,7 @@ aliases:
   - neutron star
   - neutron stars
 tags:
-  - flashcard/general/neutron_star
+  - flashcard/active/general/neutron_star
   - language/in/English
 ---
 

@@ -3,7 +3,7 @@ aliases:
   - galaxy cluster
   - galaxy clusters
 tags:
-  - flashcard/general/galaxy_cluster
+  - flashcard/active/general/galaxy_cluster
   - language/in/English
 ---
 

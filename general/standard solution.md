@@ -3,7 +3,7 @@ aliases:
   - standard solution
   - standard solutions
 tags:
-  - flashcard/general/standard_solution
+  - flashcard/active/general/standard_solution
   - language/in/English
 ---
 

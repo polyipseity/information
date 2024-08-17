@@ -3,7 +3,7 @@ aliases:
   - Excel spreadsheet
   - Excel spreadsheets
 tags:
-  - flashcard/special/academia/HKUST/COMP_1029V/spreadsheet
+  - flashcard/active/special/academia/HKUST/COMP_1029V/spreadsheet
   - language/in/English
 ---
 

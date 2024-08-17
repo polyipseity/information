@@ -3,7 +3,7 @@ aliases:
   - solar core
   - solar cores
 tags:
-  - flashcard/general/solar_core
+  - flashcard/active/general/solar_core
   - language/in/English
 ---
 

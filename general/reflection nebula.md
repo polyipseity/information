@@ -4,7 +4,7 @@ aliases:
   - reflection nebulae
   - reflection nebulas
 tags:
-  - flashcard/general/reflection_nebula
+  - flashcard/active/general/reflection_nebula
   - language/in/English
 ---
 

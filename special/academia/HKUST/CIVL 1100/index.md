@@ -1,20 +1,20 @@
 ---
 aliases:
   - CIVL 1100
-  - CIVL 1100 outline
+  - CIVL 1100 index
   - CIVL1100
-  - CIVL1100 outline
+  - CIVL1100 index
   - HKUST CIVL 1100
-  - HKUST CIVL 1100 outline
+  - HKUST CIVL 1100 index
   - HKUST CIVL1100
-  - HKUST CIVL1100 outline
+  - HKUST CIVL1100 index
 tags:
-  - flashcard/special/academia/HKUST/CIVL_1100/outline
-  - function/outline
+  - flashcard/active/special/academia/HKUST/CIVL_1100/index
+  - function/index
   - language/in/English
 ---
 
-# outline
+# index
 
 - HKUST CIVL 1100
 

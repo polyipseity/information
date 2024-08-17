@@ -4,7 +4,7 @@ aliases:
   - Cl2
   - chlorine
 tags:
-  - flashcard/general/chlorine
+  - flashcard/active/general/chlorine
   - language/in/English
 ---
 

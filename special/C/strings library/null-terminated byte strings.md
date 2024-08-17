@@ -2,7 +2,7 @@
 aliases:
   - null-terminated byte strings
 tags:
-  - flashcard/special/C/strings_library/null-terminated_byte_strings
+  - flashcard/active/special/C/strings_library/null-terminated_byte_strings
   - language/in/English
 ---
 

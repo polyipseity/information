@@ -5,7 +5,7 @@ aliases:
   - precession of the equinoxes
   - precessions of the equinoxes
 tags:
-  - flashcard/general/axial_precession
+  - flashcard/active/general/axial_precession
   - language/in/English
 ---
 

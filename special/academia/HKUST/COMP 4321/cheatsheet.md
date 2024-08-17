@@ -1,21 +1,30 @@
 ---
 aliases:
   - COMP 4321
-  - COMP 4321 outline
+  - COMP 4321 cheatsheet
+  - COMP 4321 cheatsheets
   - COMP4321
-  - COMP4321 outline
+  - COMP4321 cheatsheet
+  - COMP4321 cheatsheets
   - HKUST COMP 4321
-  - HKUST COMP 4321 outline
+  - HKUST COMP 4321 cheatsheet
+  - HKUST COMP 4321 cheatsheets
   - HKUST COMP4321
-  - HKUST COMP4321 outline
+  - HKUST COMP4321 cheatsheet
+  - HKUST COMP4321 cheatsheets
 tags:
-  - flashcard/special/academia/HKUST/COMP_4321/cheatsheet
+  - flashcard/active/special/academia/HKUST/COMP_4321/cheatsheet
   - language/in/English
 ---
 
 # cheatsheet
 
 - HKUST COMP 4321
+
+## previews
+
+- [`cheatsheet.pdf`](cheatsheet.pdf)
+- [`cheatsheet 2.pdf`](cheatsheet%202.pdf)
 
 ## search engine (SE)
 

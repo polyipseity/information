@@ -3,7 +3,7 @@ aliases:
   - galaxies
   - galaxy
 tags:
-  - flashcard/general/galaxy
+  - flashcard/active/general/galaxy
   - language/in/English
 ---
 

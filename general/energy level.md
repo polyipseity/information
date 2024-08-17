@@ -2,7 +2,7 @@
 aliases:
   - energy levels
 tags:
-  - flashcard/general/energy_level
+  - flashcard/active/general/energy_level
   - language/in/English
 ---
 

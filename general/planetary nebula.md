@@ -4,7 +4,7 @@ aliases:
   - planetary nebulae
   - planetary nebulas
 tags:
-  - flashcard/general/planetary_nebula
+  - flashcard/active/general/planetary_nebula
   - language/in/English
 ---
 

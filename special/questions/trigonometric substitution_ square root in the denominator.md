@@ -3,7 +3,7 @@ aliases:
   - 'trigonometric substitution: square root in the denominator'
 tags:
   - date/2024/07/01
-  - flashcard/special/questions/trigonometric_substitution__square_root_in_the_denominator
+  - flashcard/active/special/questions/trigonometric_substitution__square_root_in_the_denominator
   - language/in/English
   - question/mathematics/calculus/integral
 ---

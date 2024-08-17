@@ -5,7 +5,6 @@ tags:
   - by/self
   - date/2023/11/22/from
   - date/2023/11/24/to
-  - function/text
   - language/in/English
 ---
 

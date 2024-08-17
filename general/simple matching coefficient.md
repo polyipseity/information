@@ -11,7 +11,7 @@ aliases:
   - simple matching coefficient
   - simple matching coefficients
 tags:
-  - flashcard/general/simple_matching_coefficient
+  - flashcard/active/general/simple_matching_coefficient
   - language/in/English
 ---
 

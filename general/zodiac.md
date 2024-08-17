@@ -3,7 +3,7 @@ aliases:
   - zodiac
   - zodiacs
 tags:
-  - flashcard/general/zodiac
+  - flashcard/active/general/zodiac
   - language/in/English
 ---
 

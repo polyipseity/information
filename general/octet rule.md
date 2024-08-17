@@ -2,7 +2,7 @@
 aliases:
   - octet rule
 tags:
-  - flashcard/general/octet_rule
+  - flashcard/active/general/octet_rule
   - language/in/English
 ---
 

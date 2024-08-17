@@ -3,7 +3,7 @@ aliases:
   - thermal efficiencies
   - thermal efficiency
 tags:
-  - flashcard/general/thermal_efficiency
+  - flashcard/active/general/thermal_efficiency
   - language/in/English
 ---
 

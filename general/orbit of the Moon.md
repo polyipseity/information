@@ -5,7 +5,7 @@ aliases:
   - orbit of the Moon
   - orbits of the Moon
 tags:
-  - flashcard/general/orbit_of_the_Moon
+  - flashcard/active/general/orbit_of_the_Moon
   - language/in/English
 ---
 

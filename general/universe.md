@@ -4,7 +4,7 @@ aliases:
   - universe
   - universes
 tags:
-  - flashcard/general/universe
+  - flashcard/active/general/universe
   - language/in/English
 ---
 

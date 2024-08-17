@@ -3,7 +3,7 @@ aliases:
   - 'trigonometric substitution: fractional exponent'
 tags:
   - date/2024/07/01
-  - flashcard/special/questions/trigonometric_substitution__fractional_exponent
+  - flashcard/active/special/questions/trigonometric_substitution__fractional_exponent
   - language/in/English
   - question/mathematics/calculus/integral
 ---

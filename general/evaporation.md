@@ -4,7 +4,7 @@ aliases:
   - evaporates
   - evaporation
 tags:
-  - flashcard/general/evaporation
+  - flashcard/active/general/evaporation
   - language/in/English
 ---
 

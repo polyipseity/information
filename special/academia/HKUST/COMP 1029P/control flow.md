@@ -3,7 +3,7 @@ aliases:
   - Python control flow
   - Python control flows
 tags:
-  - flashcard/special/academia/HKUST/COMP_1029P/control_flow
+  - flashcard/active/special/academia/HKUST/COMP_1029P/control_flow
   - language/in/English
 ---
 

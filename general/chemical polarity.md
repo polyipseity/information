@@ -6,7 +6,7 @@ aliases:
   - polarities
   - polarity
 tags:
-  - flashcard/general/chemical_polarity
+  - flashcard/active/general/chemical_polarity
   - language/in/English
 ---
 

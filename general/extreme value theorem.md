@@ -2,7 +2,7 @@
 aliases:
   - extreme value theorem
 tags:
-  - flashcard/general/extreme_value_theorem
+  - flashcard/active/general/extreme_value_theorem
   - language/in/English
 ---
 

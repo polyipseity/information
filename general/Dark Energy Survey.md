@@ -3,7 +3,7 @@ aliases:
   - DES
   - Dark Energy Survey
 tags:
-  - flashcard/general/Dark_Energy_Survey
+  - flashcard/active/general/Dark_Energy_Survey
   - language/in/English
 ---
 

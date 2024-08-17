@@ -3,7 +3,7 @@ aliases:
   - angular velocities
   - angular velocity
 tags:
-  - flashcard/general/angular_velocity
+  - flashcard/active/general/angular_velocity
   - language/in/English
 ---
 

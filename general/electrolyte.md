@@ -3,7 +3,7 @@ aliases:
   - electrolyte
   - electrolytes
 tags:
-  - flashcard/general/electrolyte
+  - flashcard/active/general/electrolyte
   - language/in/English
 ---
 

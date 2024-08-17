@@ -1,6 +1,6 @@
 ---
 tags:
-  - flashcard/general/filtration
+  - flashcard/active/general/filtration
   - language/in/English
 ---
 

@@ -5,7 +5,7 @@ aliases:
   - escape velocity
   - escape velocities
 tags:
-  - flashcard/general/escape_velocity
+  - flashcard/active/general/escape_velocity
   - language/in/English
 ---
 

@@ -9,7 +9,7 @@ aliases:
   - develop customer
   - develop customers
 tags:
-  - flashcard/general/customer_development
+  - flashcard/active/general/customer_development
   - language/in/English
 ---
 

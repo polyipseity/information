@@ -3,7 +3,7 @@ aliases:
   - log derivative
   - logarithmic derivative
 tags:
-  - flashcard/general/logarithmic_derivative
+  - flashcard/active/general/logarithmic_derivative
   - language/in/English
 ---
 

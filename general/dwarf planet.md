@@ -3,7 +3,7 @@ aliases:
   - dwarf planet
   - dwarf planets
 tags:
-  - flashcard/general/dwarf_planet
+  - flashcard/active/general/dwarf_planet
   - language/in/English
 ---
 

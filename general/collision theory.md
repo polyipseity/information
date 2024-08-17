@@ -2,7 +2,7 @@
 aliases:
   - collision theory
 tags:
-  - flashcard/general/collision_theory
+  - flashcard/active/general/collision_theory
   - language/in/English
 ---
 

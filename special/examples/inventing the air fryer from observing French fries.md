@@ -2,7 +2,7 @@
 aliases:
   - inventing the air fryer from observing French fries
 tags:
-  - flashcard/special/examples/inventing_the_air_fryer_from_observing_French_fries
+  - flashcard/active/special/examples/inventing_the_air_fryer_from_observing_French_fries
   - language/in/English
 ---
 

@@ -4,7 +4,7 @@ aliases:
 tags:
   - date/2024/07/01/from
   - date/2024/07/02/to
-  - flashcard/special/questions/convergence_of_series__harmonic_mean
+  - flashcard/active/special/questions/convergence_of_series__harmonic_mean
   - language/in/English
   - question/mathematics/series
 ---

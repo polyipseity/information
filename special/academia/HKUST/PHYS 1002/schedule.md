@@ -9,7 +9,7 @@ aliases:
   - PHYS1002 schedule
   - PHYS1002 schedules
 tags:
-  - flashcard/special/academia/HKUST/PHYS_1002/schedules
+  - flashcard/active/special/academia/HKUST/PHYS_1002/schedules
   - language/in/English
 ---
 

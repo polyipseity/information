@@ -3,7 +3,7 @@ aliases:
   - radio galaxies
   - radio galaxy
 tags:
-  - flashcard/general/radio_galaxy
+  - flashcard/active/general/radio_galaxy
   - language/in/English
 ---
 

@@ -5,7 +5,7 @@ aliases:
   - solar prominence
   - solar prominences
 tags:
-  - flashcard/general/solar_prominence
+  - flashcard/active/general/solar_prominence
   - language/in/English
 ---
 

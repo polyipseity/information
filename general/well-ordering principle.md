@@ -5,7 +5,7 @@ aliases:
   - well-ordering principle
   - well-ordering principles
 tags:
-  - flashcard/general/well-ordering_principle
+  - flashcard/active/general/well-ordering_principle
   - language/in/English
 ---
 

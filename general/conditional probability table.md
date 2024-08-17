@@ -5,7 +5,7 @@ aliases:
   - conditional probability table
   - conditional probability tables
 tags:
-  - flashcard/general/conditional_probability_table
+  - flashcard/active/general/conditional_probability_table
   - language/in/English
 ---
 

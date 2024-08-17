@@ -3,7 +3,7 @@ aliases:
   - Python sequence
   - Python sequences
 tags:
-  - flashcard/special/academia/HKUST/COMP_1029P/sequence
+  - flashcard/active/special/academia/HKUST/COMP_1029P/sequence
   - language/in/English
 ---
 

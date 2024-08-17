@@ -3,7 +3,7 @@ aliases:
   - Zeeman effect
   - Zeeman effects
 tags:
-  - flashcard/general/Zeeman_effect
+  - flashcard/active/general/Zeeman_effect
   - language/in/English
 ---
 

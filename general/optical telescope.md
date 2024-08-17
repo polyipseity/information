@@ -3,7 +3,7 @@ aliases:
   - optical telescope
   - optical Telescopes
 tags:
-  - flashcard/general/optical_telescope
+  - flashcard/active/general/optical_telescope
   - language/in/English
 ---
 

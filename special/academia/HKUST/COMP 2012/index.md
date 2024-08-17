@@ -1,20 +1,20 @@
 ---
 aliases:
   - COMP 2012
-  - COMP 2012 outline
+  - COMP 2012 index
   - COMP2012
-  - COMP2012 outline
+  - COMP2012 index
   - HKUST COMP 2012
-  - HKUST COMP 2012 outline
+  - HKUST COMP 2012 index
   - HKUST COMP2012
-  - HKUST COMP2012 outline
+  - HKUST COMP2012 index
 tags:
-  - flashcard/special/academia/HKUST/COMP_2012/outline
-  - function/outline
+  - flashcard/active/special/academia/HKUST/COMP_2012/index
+  - function/index
   - language/in/English
 ---
 
-# outline
+# index
 
 - HKUST COMP 2012
 

@@ -5,7 +5,7 @@ aliases:
   - acetylsaylicylic acid
   - aspirin
 tags:
-  - flashcard/general/aspirin
+  - flashcard/active/general/aspirin
   - language/in/English
 ---
 

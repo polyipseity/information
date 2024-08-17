@@ -2,7 +2,7 @@
 aliases:
   - work functions
 tags:
-  - flashcard/general/work_function
+  - flashcard/active/general/work_function
   - language/in/English
 ---
 

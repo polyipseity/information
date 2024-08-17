@@ -2,7 +2,7 @@
 aliases:
   - organic synthesis
 tags:
-  - flashcard/general/organic_synthesis
+  - flashcard/active/general/organic_synthesis
   - language/in/English
 ---
 

@@ -1,6 +1,6 @@
 ---
 tags:
-  - flashcard/general/panning
+  - flashcard/active/general/panning
   - language/in/English
 ---
 

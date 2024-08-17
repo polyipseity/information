@@ -4,7 +4,7 @@ aliases:
   - Clinistrip
   - Diastix
 tags:
-  - flashcard/general/Clinistrip
+  - flashcard/active/general/Clinistrip
   - language/in/English
 ---
 

@@ -5,7 +5,7 @@ aliases:
   - sine wave
   - sine waves
 tags:
-  - flashcard/general/sine_wave
+  - flashcard/active/general/sine_wave
   - language/in/English
 ---
 

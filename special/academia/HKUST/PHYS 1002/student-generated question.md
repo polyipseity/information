@@ -17,7 +17,7 @@ aliases:
   - PHYS1002 student-generated question
   - PHYS1002 student-generated questions
 tags:
-  - flashcard/special/academia/HKUST/PHYS_1002/student_generated_question
+  - flashcard/active/special/academia/HKUST/PHYS_1002/student_generated_question
   - language/in/English
 ---
 

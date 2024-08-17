@@ -4,7 +4,7 @@ aliases:
   - "`printf`"
   - printf
 tags:
-  - flashcard/general/printf
+  - flashcard/active/general/printf
   - language/in/English
 ---
 

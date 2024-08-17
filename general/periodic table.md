@@ -3,7 +3,7 @@ aliases:
   - periodic table
   - periodic tables
 tags:
-  - flashcard/general/periodic_table
+  - flashcard/active/general/periodic_table
   - language/in/English
 ---
 

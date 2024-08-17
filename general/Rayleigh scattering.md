@@ -2,7 +2,7 @@
 aliases:
   - Rayleigh scattering
 tags:
-  - flashcard/general/Rayleigh_scattering
+  - flashcard/active/general/Rayleigh_scattering
   - language/in/English
 ---
 

@@ -3,7 +3,7 @@ aliases:
   - Ag
   - silver
 tags:
-  - flashcard/general/silver
+  - flashcard/active/general/silver
   - language/in/English
 ---
 

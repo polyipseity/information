@@ -5,7 +5,7 @@ aliases:
   - Game of Life
   - Games of Life
 tags:
-  - flashcard/special/academia/HKUST/COMP_1029P/Conway_s_Game_of_Life
+  - flashcard/active/special/academia/HKUST/COMP_1029P/Conway_s_Game_of_Life
   - language/in/English
 ---
 

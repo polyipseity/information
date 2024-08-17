@@ -3,7 +3,7 @@ aliases:
   - VBA array
   - VBA arrays
 tags:
-  - flashcard/special/academia/HKUST/COMP_1029V/array
+  - flashcard/active/special/academia/HKUST/COMP_1029V/array
   - language/in/English
 ---
 

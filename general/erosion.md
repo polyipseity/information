@@ -1,6 +1,6 @@
 ---
 tags:
-  - flashcard/general/erosion
+  - flashcard/active/general/erosion
   - language/in/English
 ---
 

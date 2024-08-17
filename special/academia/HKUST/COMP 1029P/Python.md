@@ -2,7 +2,7 @@
 aliases:
   - Python
 tags:
-  - flashcard/special/academia/HKUST/COMP_1029P/Python
+  - flashcard/active/special/academia/HKUST/COMP_1029P/Python
   - language/in/English
 ---
 

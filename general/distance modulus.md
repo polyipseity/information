@@ -3,7 +3,7 @@ aliases:
   - distance moduli
   - distance modulus
 tags:
-  - flashcard/general/distance_modulus
+  - flashcard/active/general/distance_modulus
   - language/in/English
 ---
 

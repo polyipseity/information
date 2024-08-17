@@ -2,7 +2,7 @@
 aliases:
   - Gustav Kirchhoff
 tags:
-  - flashcard/general/Gustav_Kirchhoff
+  - flashcard/active/general/Gustav_Kirchhoff
   - language/in/English
 ---
 

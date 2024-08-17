@@ -5,7 +5,7 @@ aliases:
   - main sequence stars
   - main sequences
 tags:
-  - flashcard/general/main_sequence
+  - flashcard/active/general/main_sequence
   - language/in/English
 ---
 

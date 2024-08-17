@@ -7,7 +7,7 @@ aliases:
   - refractor
   - refractors
 tags:
-  - flashcard/general/refracting_telescope
+  - flashcard/active/general/refracting_telescope
   - language/in/English
 ---
 

@@ -3,7 +3,7 @@ aliases:
   - star
   - stars
 tags:
-  - flashcard/general/star
+  - flashcard/active/general/star
   - language/in/English
 ---
 

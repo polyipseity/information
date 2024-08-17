@@ -4,7 +4,7 @@ aliases:
   - Hess's law
   - Hess's law of constant heat summation
 tags:
-  - flashcard/general/Hess_s_law
+  - flashcard/active/general/Hess_s_law
   - language/in/English
 ---
 

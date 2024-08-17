@@ -1,6 +1,6 @@
 ---
 tags:
-  - flashcard/general/filter_paper
+  - flashcard/active/general/filter_paper
   - language/in/English
 ---
 

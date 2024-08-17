@@ -2,7 +2,7 @@
 aliases:
   - homologous series
 tags:
-  - flashcard/general/homologous_series
+  - flashcard/active/general/homologous_series
   - language/in/English
 ---
 

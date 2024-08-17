@@ -5,7 +5,7 @@ aliases:
   - convolutional neural network
   - convolutional neural networks
 tags:
-  - flashcard/general/convolutional_neural_network
+  - flashcard/active/general/convolutional_neural_network
   - language/in/English
 ---
 

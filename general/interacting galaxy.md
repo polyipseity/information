@@ -6,7 +6,7 @@ aliases:
   - interacting galaxies
   - interacting galaxy
 tags:
-  - flashcard/general/interacting_galaxy
+  - flashcard/active/general/interacting_galaxy
   - language/in/English
 ---
 

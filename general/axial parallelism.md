@@ -7,7 +7,7 @@ aliases:
   - gyroscopic stiffness
   - rigidity in space
 tags:
-  - flashcard/general/axial_parallelism
+  - flashcard/active/general/axial_parallelism
   - language/in/English
 ---
 

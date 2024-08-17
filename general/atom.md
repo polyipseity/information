@@ -2,7 +2,7 @@
 aliases:
   - atoms
 tags:
-  - flashcard/general/atom
+  - flashcard/active/general/atom
   - language/in/English
 ---
 

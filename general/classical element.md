@@ -3,7 +3,7 @@ aliases:
   - classical element
   - classical elements
 tags:
-  - flashcard/general/classical_element
+  - flashcard/active/general/classical_element
   - language/in/English
 ---
 

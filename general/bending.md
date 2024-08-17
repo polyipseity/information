@@ -3,7 +3,7 @@ aliases:
   - bending
   - mechanical bending
 tags:
-  - flashcard/general/bending
+  - flashcard/active/general/bending
   - language/in/English
 ---
 

@@ -3,7 +3,7 @@ aliases:
   - microscope
   - microscopes
 tags:
-  - flashcard/general/microscope
+  - flashcard/active/general/microscope
   - language/in/English
 ---
 

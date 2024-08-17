@@ -6,7 +6,7 @@ aliases:
   - principal component analysis
   - principal components
 tags:
-  - flashcard/general/principal_component_analysis
+  - flashcard/active/general/principal_component_analysis
   - language/in/English
 ---
 

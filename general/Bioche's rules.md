@@ -5,7 +5,7 @@ aliases:
   - Bioche's rule
   - Bioche's rules
 tags:
-   - flashcard/general/Bioche_s_rules
+   - flashcard/active/general/Bioche_s_rules
    - language/in/English
 ---
 

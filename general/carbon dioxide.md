@@ -4,7 +4,7 @@ aliases:
   - CO<sub>2</sub>
   - carbon dioxide
 tags:
-  - flashcard/general/carbon_dioxide
+  - flashcard/active/general/carbon_dioxide
   - language/in/English
 ---
 

@@ -3,7 +3,7 @@ aliases:
   - difficult to spell words
   - difficult-to-spell words
 tags:
-  - flashcard/special/language_acquisition/English/difficult-to-spell_words
+  - flashcard/active/special/language_acquisition/English/difficult-to-spell_words
   - language/for/English
   - language/in/English
 ---

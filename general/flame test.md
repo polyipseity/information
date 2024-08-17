@@ -1,6 +1,6 @@
 ---
 tags:
-  - flashcard/general/flame_test
+  - flashcard/active/general/flame_test
   - language/in/English
 ---
 

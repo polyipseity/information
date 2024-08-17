@@ -3,7 +3,7 @@ aliases:
   - latitude
   - latitudes
 tags:
-  - flashcard/general/latitude
+  - flashcard/active/general/latitude
   - language/in/English
 ---
 

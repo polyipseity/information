@@ -3,7 +3,7 @@ aliases:
   - cluster analysis
   - clustering
 tags:
-  - flashcard/general/cluster_analysis
+  - flashcard/active/general/cluster_analysis
   - language/in/English
 ---
 

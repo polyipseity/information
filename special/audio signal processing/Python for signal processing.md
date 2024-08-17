@@ -2,7 +2,7 @@
 aliases:
   - Python for signal processing
 tags:
-  - flashcard/special/audio_signal_processing/Python_for_signal_processing
+  - flashcard/active/special/audio_signal_processing/Python_for_signal_processing
   - language/in/English
 ---
 

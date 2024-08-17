@@ -3,7 +3,7 @@ aliases:
   - ester
   - esters
 tags:
-  - flashcard/general/ester
+  - flashcard/active/general/ester
   - language/in/English
 ---
 

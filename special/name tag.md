@@ -3,7 +3,7 @@ aliases:
   - name tag
   - nametag
 tags:
-  - flashcard/special/name_tag
+  - flashcard/active/special/name_tag
   - language/in/English
 ---
 

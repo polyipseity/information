@@ -4,7 +4,7 @@ aliases:
   - Excel formulae
   - Excel formulas
 tags:
-  - flashcard/special/academia/HKUST/COMP_1029V/formula
+  - flashcard/active/special/academia/HKUST/COMP_1029V/formula
   - language/in/English
 ---
 

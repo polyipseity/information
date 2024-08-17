@@ -3,7 +3,7 @@ aliases:
   - neutrino
   - neutrinos
 tags:
-  - flashcard/general/neutrino
+  - flashcard/active/general/neutrino
   - language/in/English
 ---
 

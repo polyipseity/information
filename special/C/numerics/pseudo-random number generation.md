@@ -2,7 +2,7 @@
 aliases:
   - pseudo-random number generation
 tags:
-  - flashcard/special/C/numerics/pseudo-random_number_generation
+  - flashcard/active/special/C/numerics/pseudo-random_number_generation
   - language/in/English
 ---
 

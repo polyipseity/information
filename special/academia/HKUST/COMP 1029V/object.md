@@ -3,7 +3,7 @@ aliases:
   - VBA object
   - VBA objects
 tags:
-  - flashcard/special/academia/HKUST/COMP_1029V/object
+  - flashcard/active/special/academia/HKUST/COMP_1029V/object
   - language/in/English
 ---
 

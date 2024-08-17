@@ -9,7 +9,7 @@ aliases:
   - Earth's spin
   - Earth's spins
 tags:
-  - flashcard/general/Earth_s_rotation
+  - flashcard/active/general/Earth_s_rotation
   - language/in/English
 ---
 

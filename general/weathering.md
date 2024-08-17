@@ -1,6 +1,6 @@
 ---
 tags:
-  - flashcard/general/weathering
+  - flashcard/active/general/weathering
   - language/in/English
 ---
 

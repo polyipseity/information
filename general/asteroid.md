@@ -3,7 +3,7 @@ aliases:
   - asteroid
   - asteroids
 tags:
-  - flashcard/general/asteroid
+  - flashcard/active/general/asteroid
   - language/in/English
 ---
 

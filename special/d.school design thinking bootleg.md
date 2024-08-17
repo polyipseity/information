@@ -2,7 +2,7 @@
 aliases:
   - d.school design thinking bootleg
 tags:
-  - flashcard/special/d_school_design_thinking_bootleg
+  - flashcard/active/special/d_school_design_thinking_bootleg
   - language/in/English
 ---
 

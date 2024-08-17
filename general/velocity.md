@@ -3,7 +3,7 @@ aliases:
   - velocities
   - velocity
 tags:
-  - flashcard/general/velocity
+  - flashcard/active/general/velocity
   - language/in/English
 ---
 

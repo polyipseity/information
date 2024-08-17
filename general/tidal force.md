@@ -5,7 +5,7 @@ aliases:
   - tidal force
   - tidal forces
 tags:
-  - flashcard/general/tidal_force
+  - flashcard/active/general/tidal_force
   - language/in/English
 ---
 

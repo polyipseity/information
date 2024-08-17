@@ -3,7 +3,7 @@ aliases:
   - pulsar
   - pulsars
 tags:
-  - flashcard/general/pulsar
+  - flashcard/active/general/pulsar
   - language/in/English
 ---
 

@@ -6,7 +6,7 @@ aliases:
   - big bang nucleosynthesis
   - primordial nucleosynthesis
 tags:
-  - flashcard/general/Big_Bang_nucleosynthesis
+  - flashcard/active/general/Big_Bang_nucleosynthesis
   - language/in/English
 ---
 

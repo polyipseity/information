@@ -5,7 +5,7 @@ aliases:
   - recurrent neural network
   - recurrent neural networks
 tags:
-  - flashcard/general/recurrent_neural_network
+  - flashcard/active/general/recurrent_neural_network
   - language/in/English
 ---
 

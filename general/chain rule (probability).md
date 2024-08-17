@@ -5,7 +5,7 @@ aliases:
   - chain rules
   - chain rules for probability
 tags:
-  - flashcard/general/chain_rule__probability_
+  - flashcard/active/general/chain_rule__probability_
   - language/in/English
 ---
 

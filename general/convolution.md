@@ -3,7 +3,7 @@ aliases:
   - convolution
   - convolutions
 tags:
-  - flashcard/general/convolution
+  - flashcard/active/general/convolution
   - language/in/English
 ---
 

@@ -4,7 +4,7 @@ aliases:
 tags:
   - date/2024/03/02/from
   - date/2024/03/04/to
-  - flashcard/special/questions/factorial__power__and_modular_arithmetic
+  - flashcard/active/special/questions/factorial__power__and_modular_arithmetic
   - language/in/English
   - question/mathematics/modular_arithmetic
   - question/mathematics/number_theory

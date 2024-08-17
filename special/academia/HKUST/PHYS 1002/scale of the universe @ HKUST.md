@@ -3,7 +3,7 @@ aliases:
   - scale of the universe@HKUST
   - scale of the universe @ HKUST
 tags:
-  - flashcard/special/academia/HKUST/PHYS_1002/scale_of_the_universe___HKUST
+  - flashcard/active/special/academia/HKUST/PHYS_1002/scale_of_the_universe___HKUST
   - language/in/English
 ---
 

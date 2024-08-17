@@ -2,7 +2,7 @@
 aliases:
   - diffuse sky radiation
 tags:
-  - flashcard/general/diffuse_sky_radiation
+  - flashcard/active/general/diffuse_sky_radiation
   - language/in/English
 ---
 

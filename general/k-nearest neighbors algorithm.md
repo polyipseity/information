@@ -40,7 +40,7 @@ aliases:
   - k-nearest neighbors algorithm
   - k-nearest neighbors algorithms
 tags:
-  - flashcard/general/k-nearest_neighbors_algorithm
+  - flashcard/active/general/k-nearest_neighbors_algorithm
   - language/in/English
 ---
 

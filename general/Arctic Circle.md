@@ -2,7 +2,7 @@
 aliases:
   - Arctic Circle
 tags:
-  - flashcard/general/Arctic_Circle
+  - flashcard/active/general/Arctic_Circle
   - language/in/English
 ---
 

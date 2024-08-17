@@ -7,7 +7,7 @@ aliases:
   - nucleon number
   - nucleon numbers
 tags:
-  - flashcard/general/mass_number
+  - flashcard/active/general/mass_number
   - language/in/English
 ---
 

@@ -12,7 +12,7 @@ aliases:
   - scalar product
   - scalar products
 tags:
-  - flashcard/general/dot_product
+  - flashcard/active/general/dot_product
   - language/in/English
 ---
 

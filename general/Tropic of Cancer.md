@@ -3,7 +3,7 @@ aliases:
   - Northern Tropic
   - Tropic of Cancer
 tags:
-  - flashcard/general/Tropic_of_Cancer
+  - flashcard/active/general/Tropic_of_Cancer
   - language/in/English
 ---
 

@@ -3,7 +3,7 @@ aliases:
   - Vogt-Russell theorem
   - Vogt–Russell theorem
 tags:
-  - flashcard/general/Vogt-Russell_theorem
+  - flashcard/active/general/Vogt-Russell_theorem
   - language/in/English
 ---
 

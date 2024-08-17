@@ -3,7 +3,7 @@ aliases:
   - Python error
   - Python errors
 tags:
-  - flashcard/special/academia/HKUST/COMP_1029P/error
+  - flashcard/active/special/academia/HKUST/COMP_1029P/error
   - language/in/English
 ---
 

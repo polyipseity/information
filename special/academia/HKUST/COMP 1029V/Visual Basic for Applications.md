@@ -3,7 +3,7 @@ aliases:
   - VBA
   - Visual Basic for Applications
 tags:
-  - flashcard/special/academia/HKUST/COMP_1029V/Visual_Basic_for_Applications
+  - flashcard/active/special/academia/HKUST/COMP_1029V/Visual_Basic_for_Applications
 ---
 
 # Visual Basic for Applications

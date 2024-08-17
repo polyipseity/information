@@ -9,7 +9,7 @@ aliases:
   - interstellar coronal mass ejection
   - interstellar coronal mass ejections
 tags:
-  - flashcard/general/coronal_mass_ejection
+  - flashcard/active/general/coronal_mass_ejection
   - language/in/English
 ---
 

@@ -2,7 +2,7 @@
 aliases:
   - overload resolution
 tags:
-  - flashcard/special/Cpp/overload_resolution
+  - flashcard/active/special/Cpp/overload_resolution
   - language/in/English
 ---
 

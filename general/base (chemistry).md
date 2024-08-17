@@ -5,7 +5,7 @@ aliases:
   - bases
   - basic
 tags:
-  - flashcard/general/base__chemistry_
+  - flashcard/active/general/base__chemistry_
   - language/in/English
 ---
 

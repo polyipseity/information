@@ -2,7 +2,7 @@
 aliases:
   - functions and operators
 tags:
-  - flashcard/special/MySQL/functions_and_operators
+  - flashcard/active/special/MySQL/functions_and_operators
   - language/in/English
 ---
 

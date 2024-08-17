@@ -3,7 +3,7 @@ aliases:
   - 'trigonometric substitution: completing the square'
 tags:
   - date/2024/07/01
-  - flashcard/special/questions/trigonometric_substitution__completing_the_square
+  - flashcard/active/special/questions/trigonometric_substitution__completing_the_square
   - language/in/English
   - question/mathematics/calculus/integral
 ---

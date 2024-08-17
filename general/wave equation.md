@@ -3,7 +3,7 @@ aliases:
   - wave equation
   - wave equations
 tags:
-  - flashcard/general/wave_equation
+  - flashcard/active/general/wave_equation
   - language/in/English
 ---
 

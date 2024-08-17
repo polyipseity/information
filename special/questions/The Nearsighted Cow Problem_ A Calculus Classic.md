@@ -3,7 +3,7 @@ aliases:
   - 'The Nearsighted Cow Problem: A Calculus Classic'
 tags:
   - date/2023/11/08
-  - flashcard/special/questions/The_Nearsighted_Cow_Problem__A_Calculus_Classic
+  - flashcard/active/special/questions/The_Nearsighted_Cow_Problem__A_Calculus_Classic
   - language/in/English
   - question/mathematics/calculus/differential
 ---

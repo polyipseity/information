@@ -5,7 +5,7 @@ aliases:
   - the Moon
   - the moon
 tags:
-  - flashcard/general/Moon
+  - flashcard/active/general/Moon
   - language/in/English
 ---
 

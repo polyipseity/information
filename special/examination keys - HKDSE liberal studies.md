@@ -1,7 +1,7 @@
 ---
 aliases: []
 tags:
-  - flashcard_disabled/special/examination_keys_-_HKDSE_liberal_studies
+  - flashcard/archive/special/examination_keys_-_HKDSE_liberal_studies
   - language/in/English
 ---
 

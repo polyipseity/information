@@ -4,7 +4,7 @@ aliases:
   - CaCl<sub>2</sub>
   - calcium chloride
 tags:
-  - flashcard/general/calcium_chloride
+  - flashcard/active/general/calcium_chloride
   - language/in/English
 ---
 

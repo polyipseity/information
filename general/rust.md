@@ -3,7 +3,7 @@ aliases:
   - rust
   - rusting
 tags:
-  - flashcard/general/rust
+  - flashcard/active/general/rust
   - language/in/English
 ---
 

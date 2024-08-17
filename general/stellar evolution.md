@@ -3,7 +3,7 @@ aliases:
   - stellar evolution
   - stellar evolutions
 tags:
-  - flashcard/general/stellar_evolution
+  - flashcard/active/general/stellar_evolution
   - language/in/English
 ---
 

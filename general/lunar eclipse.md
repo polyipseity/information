@@ -9,7 +9,7 @@ aliases:
   - total lunar eclipse
   - total lunar eclipses
 tags:
-  - flashcard/general/lunar_eclipse
+  - flashcard/active/general/lunar_eclipse
   - language/in/English
 ---
 

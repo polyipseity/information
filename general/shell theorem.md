@@ -3,7 +3,7 @@ aliases:
   - shell theorem
   - shell theorems
 tags:
-  - flashcard/general/shell_theorem
+  - flashcard/active/general/shell_theorem
   - language/in/English
 ---
 
