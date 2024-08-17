@@ -25,7 +25,7 @@ The course is open to all undergraduate students, with priority given to Year 2 
 
 - offered in: 2023—24 spring, 2023—24 fall, 2022—23 spring, 2022—23 fall, 2021—22 spring, 2021—22 fall, 2020—21 spring, 2020—21 fall, 2019—20 spring, 2019—20 fall, 2018—19 spring, 2018—19 fall, 2017—18 spring, 2017—18 fall, 2016—17 spring, 2016—17 fall, 2015—16 spring, 2015—16 fall, 2014—15 spring, 2014—15 fall
 
-## review
+## the review
 
 least boring course
 
