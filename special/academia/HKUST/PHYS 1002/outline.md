@@ -14,7 +14,7 @@ aliases:
   - PHYS1002 outlines
 tags:
   - flashcard/special/academia/HKUST/PHYS_1002/outline
-  - functional/outline
+  - function/outline
   - language/in/English
 ---
 
@@ -48,7 +48,7 @@ The content is in teaching order. Extra information and corrections are included
 - [Kepler's laws of planetary motion](../../../../general/Kepler's%20laws%20of%20planetary%20motion.md)
   - [§ history](../../../../general/Kepler's%20laws%20of%20planetary%20motion.md#history)
 - [list of Nobel laureates in Astronomy](../../../list%20of%20Nobel%20laureates%20in%20Astronomy.md)
-  - 2006: [George Smoot](../../../../general/George%20Smoot.md) ::: a Nobel laureate affiliated with HKUST <!--SR:!2024-09-01,49,310!2024-09-19,65,310-->
+  - 2006 Nobel Prize in Physics: [George Smoot](../../../../general/George%20Smoot.md) ::: a Nobel laureate affiliated with HKUST (IAS Professor) <!--SR:!2024-09-01,49,310!2024-09-19,65,310-->
 - [Hubble Ultra-Deep Field](../../../../general/Hubble%20Ultra-Deep%20Field.md)
 - HKUST in the universe ::: HKUST is a very small place compared to the universe <!--SR:!2024-09-22,68,310!2024-08-31,48,310-->
 - observing HKUST ::: different views depending on where we are and where we look, so multiple observations are required to reveal the true HKUST <!--SR:!2024-09-12,59,310!2024-10-01,72,310-->
@@ -91,7 +91,7 @@ The content is in teaching order. Extra information and corrections are included
   - How to know what [Hong Kong](../../../../general/Hong%20Kong.md) was like in the past? ::: Look at historic photos of [Hong Kong](../../../../general/Hong%20Kong.md). <!--SR:!2024-09-04,52,310!2024-09-06,54,310-->
   - How to know what the [universe](../../../../general/universe.md) was like in the past? ::: Look far enough, because the [universe](../../../../general/universe.md) is extremely big. <!--SR:!2024-08-21,41,290!2024-09-06,54,310-->
 - [speed of light](../../../../general/speed%20of%20light.md) ::: exactly 299&nbsp;792&nbsp;458 m/s _in vacuum_, often approximated as 300&nbsp;000 km/s; 8 times around the Earth in 1 second <!--SR:!2024-08-27,43,290!2024-09-16,63,310-->
-  - light travel time from Earth to... ::: the Moon: ~1.3 second, the Sun: ~8 minutes, Sirius (brightest star in the night sky): ~8 years, Andromeda Galaxy (nearest major galaxy): ~2.5 million years <!--SR:!2024-09-12,26,250!2024-08-24,41,290-->
+  - light travel time from Earth to... ::: the Moon: ~1.3 second, the Sun: ~8 minutes, Sirius (brightest star in the night sky): ~8 years, the Andromeda Galaxy (nearest major galaxy): ~2.5 million years <!--SR:!2024-09-12,26,250!2024-08-24,41,290-->
   - speed of light implications ::: We see astronomical objects as they were in the past since they are so far away. The further the object is in distance, the further back we look back into time. <!--SR:!2024-09-12,60,310!2024-09-02,50,310-->
 - [lookback time](../../../../general/cosmic%20time.md#lookback%20time)
 - [light-year](../../../../general/light-year.md) ::: the distance light travels in one year; exactly 9460&nbsp;730&nbsp;472&nbsp;580&nbsp;800 m, approximately 9.4607 × 10<sup>15</sup> m <!--SR:!2024-08-25,8,170!2024-08-27,44,290-->
@@ -169,7 +169,7 @@ The content is in teaching order. Extra information and corrections are included
 > \[redacted\]
 
 - time: 2024-06-25T10:00:00+08:00/2024-06-25T11:30:00+08:00
-- optional
+- properties: optional
 - topic: observational astronomy
 - by: HKUST Astronomy Club
 - moon phases
@@ -601,7 +601,7 @@ The content is in teaching order. Extra information and corrections are included
   - [solar neutrino problem](../../../../general/solar%20neutrino%20problem.md) ::: Actual measurement detected only about one third of that was predicted by models of nuclear fusion. Neutrinos were missing! <!--SR:!2024-11-30,105,385!2024-11-04,82,385-->
     - [solar neutrino problem § resolution](../../../../general/solar%20neutrino%20problem.md#resolution) ::: First, there are 3 flavors of neutrinos: electron neutrino, muon neutrino, tau neutrino. Second, neutrino changes flavors as they travel, called neutrino oscillation. Since previous detectors only detected the 1st flavor, so they detected about only one-third the expected count. When all flavors are detected using modern detectors, the detected count matches expectation. <!--SR:!2024-11-03,81,385!2024-10-31,80,365-->
       - [neutrino oscillation](../../../../general/neutrino%20oscillation.md)
-        - [neutrino oscillation](../../../../general/neutrino%20oscillation.md) / Nobel prize ::: 2015 Nobel Prize in Physics, to Takaaki Kajita and Arthur B. McDonald, for "for the discovery of neutrino oscillations, which shows that neutrinos have mass " <!--SR:!2024-09-14,37,345!2024-11-06,84,385-->
+        - [neutrino oscillation](../../../../general/neutrino%20oscillation.md) / Nobel Prize ::: 2015 Nobel Prize in Physics, to Takaaki Kajita and Arthur B. McDonald, "for the discovery of neutrino oscillations, which shows that neutrinos have mass " <!--SR:!2024-09-14,37,345!2024-11-06,84,385-->.
   - [neutrino detector](../../../../general/neutrino%20detector.md) ::: Because neutrinos rarely interact with ordinary matter, detectors are very large. They are also often underground to isolate them from background radiation. <!--SR:!2024-08-29,32,372!2024-08-24,28,372-->
 - self-reading, not tested
   - [solar phenomena](../../../../general/solar%20phenomena.md) ::: solar flare, solar prominence, sunspot; related to magnetic fields <!--SR:!2024-10-20,69,365!2024-11-23,98,385-->
@@ -917,7 +917,7 @@ The content is in teaching order. Extra information and corrections are included
   - [black hole](../../../../general/black%20hole.md) / brief history ::: Issac Newton assumed light behaviors like ordinary matter in his _Opticks_, 1704. Later, John Michell (1784) and Pierre Laplace (1798) predicted that a mass of a body could be so large that light cannot leave its surface. The term "black hole" was first used by John A. Wheeler in 1967. <!--SR:!2024-09-13,27,347!2024-09-10,24,327-->
   - [escape velocity](../../../../general/escape%20velocity.md)
   - [Schwarzschild radius](../../../../general/Schwarzschild%20radius.md) ::: A boundary within events of any kind (light) cannot affect an outside observer. Light cannot escape inside it. It is given by: $$r_s = \frac {2GM} {c^2}$$. It can be derived from the escape velocity equation by setting the escape velocity to the speed of light. (This derivation is based on Newtonian mechanics, which is inaccurate in this situation, but the final answer is somehow correct.) <!--SR:!2024-08-31,23,387!2024-09-05,28,387-->
-    - [Schwarzschild radius](../../../../general/Schwarzschild%20radius.md) / surprising implications ::: Consider a non-rotating uncharged spherical object, made of ordinary matter, with a radius same as its Schwarzschild radius. Such an object is not yet a singularity (no infinite density), but will eventually become one given enough time, since the Schwarzschild radius is also the event horizon. So the first surprising thing is that an event horizon forms before its singularity forms. Next, consider the density of the above object and its proportionality with the Schwarzschild radius: $$r_s \propto M = \rho V = \frac 4 3 \rho r^3 \overset {r := r_s} \implies r_s \propto \rho r_s^3 \implies \rho \propto r_s^{-2}$$. The density of the above object is inversely proportional to the square of its Schwarzschild radius. So the second surprising thing is that even ordinary matter with low density can become a black hole eventually as long as there is sufficient mass close enough together. <!--SR:!2024-09-08,25,347!2024-08-20,14,367-->
+    - [Schwarzschild radius](../../../../general/Schwarzschild%20radius.md) / surprising implications ::: Consider a non-rotating uncharged spherical object, made of ordinary matter, with a radius same as its Schwarzschild radius. Assume there is no mass outside the Schwarzschild radius (this is an important but frequently unmentioned assumption of the Schwarzschild radius). Such an object is not yet a singularity (no infinite density), but will eventually become one given enough time, since the Schwarzschild radius is also the event horizon. So the first surprising thing is that an event horizon forms before its singularity forms. Next, consider the density of the above object and its proportionality with the Schwarzschild radius: $$r_s \propto M = \rho V = \frac 4 3 \rho r^3 \overset {r := r_s} \implies r_s \propto \rho r_s^3 \implies \rho \propto r_s^{-2}$$. The density of the above object is inversely proportional to the square of its Schwarzschild radius. So the second surprising thing is that even ordinary matter with low density can become a black hole eventually as long as there is sufficient mass close enough together. <!--SR:!2024-09-08,25,347!2024-08-20,14,367-->
   - [black hole](../../../../general/black%20hole.md) / types ::: There are 4 types of black holes. A black hole is either non-rotating or rotating. A black hole is also either uncharged or charged. An non-rotating uncharged black hole is the simplest. <!--SR:!2024-09-01,24,387!2024-08-28,20,387-->
   - [black hole § singularity](../../../../general/black%20dwarf.md#singularity) ::: For a non-rotating (uncharged or charged) black hole, there is a point in the center called the singularity, which contains all the black hole's mass, has zero volume, and thus infinite density. <!--SR:!2024-09-05,24,367!2024-08-26,18,387-->
   - [black hole § event horizon](../../../../general/black%20hole.md#event%20horizon) ::: For a non-rotating (uncharged or charged) black hole, the event horizon is the surface of a sphere centered at the singularity with radius equal to the Schwarzschild radius of the black hole. An event that occurs inside the event horizon cannot be detected by anyone outside because even light cannot escape from it. <!--SR:!2024-08-31,23,387!2024-08-31,23,387-->
@@ -949,7 +949,7 @@ The content is in teaching order. Extra information and corrections are included
   - [gravitational wave](../../../../general/gravitational%20wave.md) / detection ::: They are very weak, especially over long distances. So we can only directly detect those from binary neutron stars or binary black holes, and even then highly sensitive instrument such as Laser Interferometer Gravitational-Wave Observatory (LIGO) are needed. Indirect evidence includes decreasing orbital period of binary pulsar systems. <!--SR:!2024-09-14,33,387!2024-09-03,26,387-->
     - [LIGO](../../../../general/LIGO.md) ::: Laser Interferometer Gravitational-Wave Observatory <!--SR:!2024-09-12,31,387!2024-09-01,24,387-->
     - LIGO / first direct detection ::: The first direct observation of gravitational waves was made on 2015-09-14. The waves were caused by the merger of two black holes with masses of ~36 and ~29 solar masses. <!--SR:!2024-08-24,7,267!2024-08-20,14,367-->
-      - LIGO / first direct detection / Nobel prize ::: 2017 Nobel Prize in Physics, to [Rainer Weiss](../../../../general/Rainer%20Weiss.md), [Kip Thorne](../../../../general/Kip%20Thorne.md), [Barry Barish](../../../../general/Barry%20Barish.md), "for decisive contributions to the [LIGO](../../../../general/LIGO.md) detector and the observation of [gravitational waves](../../../../general/gravitational%20wave.md)" <!--SR:!2024-09-06,25,367!2024-08-18,12,347-->
+      - LIGO / first direct detection / Nobel Prize ::: 2017 Nobel Prize in Physics, to [Rainer Weiss](../../../../general/Rainer%20Weiss.md), [Kip Thorne](../../../../general/Kip%20Thorne.md), [Barry Barish](../../../../general/Barry%20Barish.md), "for decisive contributions to the [LIGO](../../../../general/LIGO.md) detector and the observation of [gravitational waves](../../../../general/gravitational%20wave.md)". <!--SR:!2024-09-06,25,367!2024-08-18,12,347-->
 - supplementary information (untested)  
   - [black hole](../../../../general/black%20hole.md) / recent breakthroughs ::: Event Horizon Telescope (EHT) imaging the first-ever picture of a black hole (M87) on 2019-04. <!--SR:!2024-09-26,40,347!2024-08-31,23,387-->
     - EHT ::: [Event Horizon Telescope](../../../../general/Event%20Horizon%20Telescope.md) <!--SR:!2024-08-27,19,387!2024-08-29,21,387-->
@@ -1094,7 +1094,14 @@ The content is in teaching order. Extra information and corrections are included
 > \[redacted\]
 
 - time: 2024-08-06T10:00:00+08:00/2024-08-06T12:30:00+08:00
-- [strip sequence test](strip%20sequence%20test.md): 3.8/4
+- [strip sequence test](strip%20sequence%20test.md): 3.8/4 → 3.8/4
+  - statistics
+    - mean: 2.48 → 2.48
+    - high: 4 → 4
+    - low: 0 → 0
+    - median: 2.7 → 2.7
+    - upper quartile: 3.35 → 3.35
+    - lower quartile: 1.85 → 1.85
 - [cosmic distance ladder](../../../../general/cosmic%20distance%20ladder.md)
   - [cosmic distance ladder](../../../../general/cosmic%20distance%20ladder.md) / steps
   - [§ main sequence fitting](../../../../general/cosmic%20distance%20ladder.md#main%20sequence%20fitting), [spectroscopic parallax](../../../../general/spectroscopic%20parallax.md) ::: It may be applied to a main-sequence star or a star cluster containing many main sequence stars. In the former, we determine the spectral type of the star to know its approximate luminosity. Then compare it with its apparent brightness to find out its approximate distance. In a star cluster, we can obtain its main sequence strip in a HR diagram and compare it against with the strips of other star clusters with known distances. The latter is more accurate because more stars are used to estimate the distance. <!--SR:!2024-09-12,31,391!2024-09-08,27,391-->
@@ -1123,11 +1130,55 @@ The content is in teaching order. Extra information and corrections are included
     - [Hubble's law](../../../../general/Hubble's%20law.md) / Hubble's constant ::: usually in units of (km/s)/Mpc; about 70 (km/s)/Mpc (lecture slides used 64 (km/s)/Mpc and other larger values) <!--SR:!2024-09-05,24,371!2024-09-10,29,391-->
       - [Hubble's law](../../../../general/Hubble's%20law.md) / Hubble's constant / [Dark Energy Survey](../../../../general/Dark%20Energy%20Survey.md) (DES) ::: 67.77±1.30 (km/s)/Mpc (2018) <!--SR:!2024-08-21,7,331!2024-09-04,23,371-->
         - [Dark Energy Survey](../../../../general/Dark%20Energy%20Survey.md) ::: It is a visible and near-infrared survey that uses a 4-meter telescope located in Chile. <!--SR:!2024-09-02,21,371!2024-09-15,34,391-->
+- not covered in the [final exam](final%20exam.md)
+  - [cosmic distance ladder](../../../../general/cosmic%20distance%20ladder.md)
+  - [Hubble's law](../../../../general/Hubble's%20law.md)
+    - [§ Hubble time](../../../../general/Hubble's%20law.md#Hubble%20time) ::: If we reverse time, then Hubble's law would eventually make all galaxies in the observable universe go back to a point. This hints at the beginning of the universe. The Hubble time is the time it takes for this to happen, assuming the Hubble constant is constant over time (which it is not; it is only constant over space). It is simply the reciprocal of the Hubble constant (after simplifying the units): $$t_H = \frac 1 {H_0}$$.
+  - [expansion of the universe](../../../../general/expansion%20of%20the%20universe.md) ::: The universe appears to expand at the same rate everywhere in space. However, it is not expanding to "anything" (no center or edge, though the _observable_ universe does have an edge). An example of an expanding "thing" without a center of edge is the surface of an expanding balloon.
+  - [cosmological principle](../../../../general/cosmological%20principle.md) ::: The universe should look the same on large enough scale anywhere. For example, matter should be distributed evenly on a large enough scale. This has not been proven formally but is consistent with observations so far.
+  - [cosmic time § lookback time](../../../../general/cosmic%20time.md#lookback%20time)
+    - [cosmic time § lookback time](../../../../general/cosmic%20time.md#lookback%20time) / uses ::: For extremely far objects, their distances to us would have changed drastically while their light travels to us. So it is more useful to use lookback time to indicate their locations for extremely far objects.
+  - [Hubble's law](../../../../general/Hubble's%20law.md) / cosmological redshift ::: It is the stretching of photon wavelength by the expansion of the universe. An alternative way to view the Doppler redshift on a cosmological scale. Hubble hinted at this. (Okay, this is not exactly true... expanding space is only a choice of coordinates and thus cannot have physical consequences. So a Doppler redshift is really the only natural interpretation.)
+    - [Doppler effect](../../../../general/Doppler%20effect.md)
+  - [galaxy formation and evolution](../../../../general/galaxy%20formation%20and%20evolution.md) ::: We can look at histories of galaxies by looking back into time. The farther you look back, the older you go.
+    - [galaxy formation and evolution](../../../../general/galaxy%20formation%20and%20evolution.md) / formation order ::: protogalaxies (young galaxies) → irregular galaxies → elliptical galaxies → spiral galaxies
+    - [galaxy formation and evolution](../../../../general/galaxy%20formation%20and%20evolution.md) / earliest galaxies ::: We cannot directly observe them and instead rely on theoretical models. The models assume hydrogen and helium initially fill the universe almost uniformly. The imperfections seed galaxy formation.
+    - [§ commonly observed properties of galaxies](../../../../general/galaxy%20formation%20and%20evolution.md#commonly%20observed%20properties%20of%20galaxies)
+      - [galaxy formation and evolution](../../../../general/galaxy%20formation%20and%20evolution.md) / forming spiral galaxies ::: Due to imperfections, gravity can form protogalatic clouds from the almost uniform hydrogen and helium. Very massive stars are formed and died quickly, before spiral disks can form. Supernovae heated the surrounding gas and slowed down the collapse. So new galaxies can attract more material before settling into spiral disks, such as NGC 4414.
+      - [galaxy formation and evolution](../../../../general/galaxy%20formation%20and%20evolution.md) / forming elliptical galaxies ::: It depends on initial conditions. Clouds that have large angular momentum or low density tend to form spiral galaxies. Clouds that have small angular momentum or high density tend to form elliptical galaxies, such as M87.
+        - [Hubble sequence](../../../../general/Hubble%20sequence.md)
+      - [galaxy formation and evolution](../../../../general/galaxy%20formation%20and%20evolution.md) / factors ::: galaxy merger (galaxy collision), initial angular momentum, initial density
+        - [galaxy formation and evolution](../../../../general/galaxy%20formation%20and%20evolution.md) / factors / evidences ::: Distant red elliptical galaxies are observed. They are very old galaxies containing only red low-mass star without star formation activity.
+      - [galaxy formation and evolution](../../../../general/galaxy%20formation%20and%20evolution.md) / angular momentum ::: With the conservation of angular momentum in mind, initial angular momentum determines whether the cloud spins fast enough to form a spiral after collapsing.
+      - [galaxy formation and evolution](../../../../general/galaxy%20formation%20and%20evolution.md) / density ::: Initial density affects the star formation rate. High density clouds form stars faster and consumes much star-making material. The radiation pressure prevents said clouds from collapsing into spiral galaxies and becomes elliptical galaxies instead. Low density clouds form stars slower and allow sufficient time for gas to settle into spiral disks.
+      - [galaxy formation and evolution § galaxy mergers and the formation of elliptical galaxies](../../../../general/galaxy%20formation%20and%20evolution.md#galaxy%20mergers%20and%20the%20formation%20elliptical%20galaxies) (galaxy collision) ::: It is possible for galaxies to collide and form giant elliptical galaxies. The ratio of galaxy sizes over galaxy distances is much larger then the ratio of star sizes over star distances, so galaxies are much more likely than stars to collide. (Exercise: Compute the ratio of the solar radius over the distance to Alpha Centauri, the closest star. Then compute the ratio of the radius of the Milky Way galaxy over the distance to thee Andromeda Galaxy. Compare the 2 ratios.)
+        - [galaxy merger](../../../../general/galaxy%20merger.md)
+    - [galaxy merger](../../../../general/galaxy%20merger.md) ::: Two galaxies collide. However, as mentioned above, stars are unlikely to collide in a collision due to the low ratio of star sizes over star distances.
+      - [galaxy merger](../../../../general/galaxy%20merger.md) / Milky Way galaxy ::: In ~2.5 billion years, the Andromeda Galaxy will collide with our Milky Way galaxy. However, the Sun are unlikely to collide with other stars.
+      - [galaxy merger](../../../../general/galaxy%20merger.md) / examples ::: tails and bridges: Antennae Galaxies, rings: Cartwheel Galaxy, mergers: NGC5128
+      - [interacting galaxy § galactic cannibalism](../../../../general/interacting%20galaxy.md#galactic%20cannibalism) ::: Large galaxies, due to their larger size and strong gravitational effect, tend to distort and consume galaxies. The Milky Way galaxy might be doing so on the Large and Small Magellanic Clouds, distorting them into the irregular shapes we see now.
+      - [galaxy merger](../../../../general/galaxy%20merger.md) / chances ::: They were more likely in the early universe because galaxies were much closer before much expansion took place. An evidence for this is that irregular galaxies at great distance (i.e. of old age) seem violently distributed.
+      - [galaxy merger](../../../../general/galaxy%20merger.md) / results ::: It can trigger a sudden burst of star formation, called _starburst_, due to compressions of clouds. This consumes much of the interstellar medium, and the many new stars and subsequent supernovae blow away the remaining gases. Finally, there is little gas left to form a disk and to form stars, so the merged galaxy becomes an elliptical galaxy. (Computer models show that two colliding spiral galaxies can produce an elliptical galaxy.) This may explain why elliptical galaxies are found where galaxies are clustered together, and giant elliptical galaxies in the cluster centers seem to have consumed a number of smaller galaxies.
+  - self-reading, not tested
+    - [starburst galaxy](../../../../general/starburst%20galaxy.md) ::: Galaxies that are currently forming stars rapidly. The gas are used up in less than a billion years. The many supernovae can drive _galactic winds_. An example is M82.
+    - [active galactic nucleus](../../../../general/active%20galactic%20nucleus.md) (AGN) ::: Centers of galaxies that are unusually luminous.
+      - [quasar](../../../../general/quasar.md) ::: Also called _quasi-stellar objects_. The most luminous subtype of active galactic nuclei. They can be discovered by comparing objects in visible light and positions of strong radio sources. They are found at great distance, thus a long time ago (billions of years), when galaxies were very young. No quasars and few active galactic nuclei are found nearby. So quasar are probably one of the stages in galaxy evolution.
+        - [quasar](../../../../general/quasar.md) / examples ::: 3C273: It looks like a bright blue star, but its hydrogen emission lines are strongly redshifted, indicating it is very distant. It has a luminosity exceeding 100 Milky Way galaxies.
+          - [redshift](../../../../general/redshift.md) / mathematics ::: $$z = \frac {\Delta \lambda} {\lambda_{\mathrm{emit} } } = \frac {\lambda_{\mathrm{obsv} } - \lambda_{\mathrm{emit} } } {\lambda_{\mathrm{emit} } }$$
+        - [quasar](../../../../general/quasar.md) / sizes ::: Quasars can vary in brightness on the timescale of weeks, days, or even hours. In order for this to happen, quasar sizes must be smaller than the distance light travels in the time that the brightness changes. This indicates quasars can be smaller than one light-hour, which is about the size of our solar system.
+        - [quasar](../../../../general/quasar.md) vs normal galaxies ::: For the latter, luminosities can range from 10<sup>6</sup> to 10<sup>10</sup>&nbsp;L<sub>⊙</sub> (the Milky Way galaxy: 2×10<sup>10</sup>&nbsp;L<sub>⊙</sub>). They emit a spectrum of thremal radiation. For the former, luminosities can exceed 10<sup>12</sup>&nbsp;L<sub>⊙</sub>, with strong radiation from radio waves to X-rays and beyond.
+      - [radio galaxy](../../../../general/radio%20galaxy.md) ::: They are galaxies containing active nuclei shooting out jets of plasma matter close to the speed of light. Huge lobes of radio emission, which can extend up to hundreds of millions of light-years, are produced when the jets are decelerated by interaction with the intergalactic medium.
+        - [radio galaxy](../../../../general/radio%20galaxy.md) / examples: J021659-044920, imaged by the Giant Metrewave Radio Telescope (GMRT)
+      - [§ unification of AGN species](../../../../general/active%20galactic%20nucleus.md#unification%20of%20AGN%20species) ::: There are models of AGN that propose different subtypes of AGN is a single type of AGN observed from different angles. If you look at a jet directly, it looks like a quasar. If you look at a jet almost directly, you can see an AGN with a single jet. If you look at it sideways, it looks like a radio galaxy, with double jets and lobes.
+      - [active galactic nucleus](../../../../general/active%20galactic%20nucleus.md) / sources ::: The accretion of gas onto a supermassive black hole seems to be the only way to explain all properties of AGN. Gravitational potential energy gets converted into kinetic energy by gravity, and then thermal energy by friction, and then photons by thermal radiation. 10—40% of energy can become radiation by this process.
+      - [astrophysical jet](../../../../general/astrophysical%20jet.md) ::: Jets are thought to be charged particles emitted along the axis of the twisted magnetic field lines in the inner part of the accretion. It emits _thermal_ radiation. It also emits _non-thermal_ radiation called _synchrotron radiation_, caused by charged particles being accelerated rapidly.
+    - [supermassive black hole](../../../../general/supermassive%20black%20hole.md) ::: They exists! Many galaxies, maybe even all of them, have supermassive black holes at their centers. Said supermassive black holes were probably all active galactic nuclei, and then became dormant (inactive) active galactic nuclei some time later. Also, their masses are closely related to the bulge of their belonging galaxies (with exceptions, of course). So we think the development of a central supermassive black hole is somehow related to galaxy evolution.
+      - [supermassive black hole](../../../../general/supermassive%20black%20hole.md) / examples ::: Milky Way (Sagittarius A*): 4 million solar masses, M87 (M87*): 3 billion solar masses
 - [questions § 2024-08-06](questions.md#2024-08-06)
   - Finally, a question (Q.4, the last question) that everyone (who answered) got correctly! The teacher gave away the answer.
 - [questions](questions.md): 25/25
-  - iPRS: 10/10
-  - MCQ: 15/15
+  - iPRS: 10/10 (12/12, before add-drop period: 0/1)
+  - MCQ: 15/15 (11.25/12, before add-drop period: 0/1)
 
 ## week 8 lecture 2
 
@@ -1155,9 +1206,143 @@ The content is in teaching order. Extra information and corrections are included
 > \[redacted\]
 
 - time: 2024-08-08T10:00:00+08:00/2024-08-08T13:00:00+08:00
-- [final exam](final%20exam.md): ?/50
+- [final exam](final%20exam.md): 99/100, scaled to 49.5/50 → 99/100, scaled to 49.5/50
+  - statistics
+    - mean: 58.84 → 59.62
+    - high: 99 → 99
+    - low: 0 → 0
+    - median: 61 → 62
+    - upper quartile: 75.13 → 75.75
+    - lower quartile: 46.88 → 48
+    - standard deviation: ? → 21.31
+
+## week 9 lecture
+
+> Dear students,
+>
+> The extra online lecture on Chapter 22 & 23 will be held on 11 Aug (Sunday) 8:00pm.
+>
+> There will be NO PRS or MCQ.
+>
+> The zoom link will be posted in Canvas --> Zoom Meeting later.
+>
+> If you would like to attend the lecture but are not available at the above class time, please let me know by replying here or emailing me.
+>
+> Best, <br/>
+> \[redacted\]
+
+- time: 2024-08-11T19:58:34+08:00/2024-08-08T21:35:08+08:00
+- properties: Zoom, online, optional, untested
+- not covered in the [final exam](final%20exam.md) (because the final exam has ended already, duh)
+  - course parts
+  - [cosmology](../../../../general/cosmology.md)
+    - [cosmology](../../../../general/cosmology.md) / questions to ask ::: How much matter? How matter comes? Why expand? Is the expansion constant, accelerating, or decelerating? What is the shape (topology) of the universe (flat, curved, etc.)? What is the ultimate fate of the universe? (very abstract stuff ahead)
+    - [universe](../../../../general/universe.md) / parameters (2020) ::: H<sub>0</sub> ≈ 67 km/s/Mpc, age: ~13.8 billion years, expansion: accelerate forever, geometry: flat
+    - [universe § composition](../../../../general/universe.md#composition) (2020) ::: dark energy: 68.3%, dark matter: 26.8%, ordinary matter: 4.9%
+      - [universe § composition](../../../../general/universe.md#composition) / ordinary matter ::: Hubble Edwin already gave an estimate in 1934! By counting luminous bodies and estimating the total mass, we get an average density of 10<sup>-30</sup> (10<sup>-31</sup>) g/cm<sup>3</sup>. But the observed gravitational effect indicate that there should be 10 times more mass than the above estimate.
+      - [dark matter](../../../../general/dark%20matter.md) ::: Hypothetical matter that does not interact with light or the electromagnetic field, inferred from its gravitational effects (excess gravitational effect not explained by ordinary matter).
+        - [dark matter](../../../../general/dark%20matter.md) / evidences ::: gravitational lensing in clusters of galaxies, orbital motion of stars and hydrogen in galaxies
+          - [Milky Way](../../../../general/Milky%20Way.md) / a great mystery
+          - measuring galactic mass ::: hydrogen orbital motion in _spirals_, spectral line broadening in _ellipticals_
+            - measuring galactic mass / [hydrogen line](../../../../general/hydrogen%20line.md) ::: As 21-cm radiation is produced by hydrogen, measuring its Doppler red- and blueshift can yield the radial velocity of hydrogen. If applied to opposite sides of _spiral_ galaxies, we can estimate its orbital velocity. In turns out the rotation curves (after the initial rapid increase) for spiral galaxies are flat instead of decreasing, implying the existence of dark matter.
+              - [hydrogen line](../../../../general/hydrogen%20line.md)
+            - measuring galactic mass / spectral line broadening ::: More massive _elliptical_ galaxies have stars moving faster due to higher gravity. So their velocity spreads, and hence Doppler shift spreads, are greater. Finally, their spectral lines are more broad, as the spectral lines of galaxies are a mix of spectral lines of each individual star in the galaxies.
+          - measuring galaxy cluster mass ::: Doppler shift, gravitational equilibrium, gravitational lensing; all methods imply similar amounts of missing matter, called dark matter
+            - measuring galaxy cluster mass / Doppler shift ::: Galaxies orbit each other in a cluster similar to stars orbit each other in a galaxy. So the Doppler shift can be applied to find their motions and orbital velocities. Then the mass can be found.
+            - measuring galaxy cluster mass / gravitational equilibrium ::: Galaxy clusters contain large amount of hot (10<sup>6</sup>—10<sup>7</sup> K) X-ray-emitting gases, called the _intracluster medium_, which several times the mass of stars in clusters. The mass of the cluster can be then determined from gravitational equilibrium — the balance between gravitational attraction and "thermal gas pressure".
+              - measuring galaxy cluster mass / gravitational equilibrium / results ::: dark matter: 85%, hot gas: 13%, stars: 2%
+            - measuring galaxy cluster mass / gravitational lensing ::: The position of multiple images can provide cluster mass or even dark matter distribution.
+              - [gravitational lens](../../../../general/gravitational%20lens.md)
+        - [dark matter](../../../../general/dark%20matter.md) / alternatives ::: It exists. Or, gravity (general relativity) is wrong. Or, there are some unknown mechanism acting like gravity. Most astronomers prefer the first explanation because gravity is so well-tested, but we cannot be _absolutely_ sure.
+        - [dark matter](../../../../general/dark%20matter.md) / nature ::: currently proposed: dark ordinary matter, exotic (extraordinary) matter, or both
+          - [dark matter](../../../../general/dark%20matter.md) / nature / dark ordinary matter ::: massive compact halo object (MACHOS), like black holes, brown dwarfs, dead or failed stars, neutron stars, etc.; but currently not enough are found, even in the neighborhood of the Solar System
+          - [dark matter](../../../../general/dark%20matter.md) / nature / exotic matter ::: axions (low-mass quasiparticles), mysterious neutrino-like particles (can only supply a small fraction of dark matter), primordial black holes, weakly interacting massive particles (WIMPS)
+    - [static universe](../../../../general/static%20universe.md) ::: A universe that is unchanging, not even expanding. This is now known to be wrong. However, many people in older times thought the universe is static, including Albert Einstein. He even added a _cosmological constant_ to his field equations of relativity to make the universe static. The constant was removed when Hubble discovered the universe is expanding.
+      - [Olbers's paradox](../../../../general/Olbers's%20paradox.md) ::: If the universe is homogeneous (everywhere the same), infinite, and static, then we would see stars in every direction and the night sky should be bright with stars covering all directions. This is obviously not the case. Mathematically, consider a unit of solid angle. The observed brightness is inversely proportional to the square of the distance. But the amount of star is proportional to the square of the distance. So these two proportionalities cancel out. No matter the distance, the observed brightness is the same for a unit of solid angle.
+        - [Olbers's paradox](../../../../general/Olbers's%20paradox.md) / brief history ::: Kepler stated the problem in 1610, and the paradox took its mature form in the early 1800s. But it was named after Heinrich Olbers.
+        - [Olbers's paradox](../../../../general/Olbers's%20paradox.md) / possible solutions ::: The universe has a finite number of stars surrounded by an infinite empty space (not homogeneous and infinite). Or, the universe is changing (not static; also the currently accepted solution). Non-solution: The universe is the surface of a 4-dimensional ball (not infinite). But paths of light can be circular in this case, so the sky is still infinitely bright.
+    - [Big Bang](../../../../general/Big%20Bang.md) ::: About 13.8 billion years ago, the hot and dense universe starts to expand from a very small size. This is the __Big Bang__. Before about 1 second, the universe consists of energy (photons) at incredibly high temperature and pressure. At 1 second, the universe is ~10<sup>10</sup> K and continues to cool as it expands. (But there is a lot of very weird physics happening in that 1 second, which we are skipping...) First stars were formed ~300 million years later.
+      - [Big Bang](../../../../general/Big%20Bang.md) / later ::: When the universe was still very hot, it was like a soup, mainly made of electrons, neutrinos, neutrons, and protons. Primordial nucleosynthesis created hydrogen (75%) and helium (25%) (and trace amounts of lithium and beryllium) nuclei when it got cooler, but before it cooled down to ~10<sup>9</sup> K. As it got even cooler, the conditions became favorable for the condensation of nebulae, galaxy formation, and star formation.
+      - [Big Bang](../../../../general/Big%20Bang.md) / misconceptions ::: The term "Big Bang" was used to make fun of the concept. The Big Bang was not an _explosion_ but _expansion_ of space. It does not imply a beginning in time, or the existence of a center of the universe,
+      - [Big Bang](../../../../general/Big%20Bang.md) / mathematics ::: An important parameter of the model is the expansion rate, which is derived from observed redshifts. Its exact value is very important.
+      - Hubble's law implications
+      - [Big Bang § observational evidence](../../../../general/Big%20Bang.md#observational%20evidence) ::: 3 "pillars" (now 4): Hubble's law, cosmic background radiation, abundance of primordial elements; these make the Big Bang a basic framework of modern cosmology
+        - [Big Bang § Hubble's law and the expansion of the universe](../../../../general/Big%20Bang.md#Hubble's%20law%20and%20the%20expansion%20of%20the%20universe) ::: The observed red shift is not due to the _peculiar motion_ (local motion from gravitational interaction) of the galaxies, but is due to the expansion of the spacetime itself. This is called _cosmological redshift_. But locally, peculiar motion of  individual galaxy still exists.
+          - [Hubble's law](../../../../general/Hubble's%20law.md)
+            - [Hubble's law](../../../../general/Hubble's%20law.md) / cosmological redshift
+          - [Big Bang § Hubble's law and the expansion of the universe](../../../../general/Big%20Bang.md#Hubble's%20law%20and%20the%20expansion%20of%20the%20universe) / brief history ::: Many people, including Hubble, found an expanding universe difficult to accept. Alternative ways to explain the cosmological redshift were sought. There are also other predicted consequences of the Big Bang model that most ignored, such as the chemical composition of the early universe and the current temperature of the universe (no one tested this latter prediction experimentally until 1965).
+        - [Big Bang § cosmic microwave background radiation](../../../../general/Big%20Bang.md#cosmic%20microwave%20background%20radiation) ::: It is the background radiation from the Big Bang has been freely streaming across the universe since the universe became transparent to light when atoms formed at the temperature ~3000 K. After ~13.8 billion years, it has redshifted to a corresponding temperature of 2.725 K, which can also be described as the current temperature of the universe.
+          - [Big Bang § cosmic microwave background radiation](../../../../general/Big%20Bang.md#cosmic%20microwave%20background%20radiation) / brief history ::: The cosmic microwave background was discovered serendipitously (by accident). In 1965, Penzias and Wilson, two scientist working at Bell Telephone Laboratories, were working on microwave transmission. But they could get rid of the omnidirectional and omnitemporal "background noise". It turned out to be _cosmic background radiation_ (CBR) (they hard the data but not theory). At nearby Princeton University, a team of scientists were setting up an experiment to look for CBR (they had the theory but not data). Two notes were published in _Astrophysics Journal Letters_ separately by the above 2 teams, each referencing each other. Wilson and Penzias received the 1978 Nobel Prize in Physics for this.
+          - [Big Bang § cosmic microwave background radiation](../../../../general/Big%20Bang.md#cosmic%20microwave%20background%20radiation) / Nobel Prize ::: 1978 Nobel Prize in Physics, to [Arno Allan Penzias](../../../../general/Arno%20Allan%20Penzias.md), [Robert Woodrow Wilson](../../../../general/Robert%20Woodrow%20Wilson.md), "for their discovery of [cosmic microwave background radiation](../../../../general/cosmic%20microwave%20background.md)".
+          - [Big Bang § cosmic microwave background radiation](../../../../general/Big%20Bang.md#cosmic%20microwave%20background%20radiation) / details ::: When the early universe was hot, it was radiation-dominated. Matters were ions and electrons, which strongly scatter photons. The universe was opaque. When the universe cooled down enough (~3000 K), ions and electrons _recombine_ to form neutral atoms, which scatter photons much weakly. So the universe became transparent. The first photons to travel freely without being scattered and finally reaching Earth forms the cosmic microwave background, which is an almost perfect black body (follows the thermal radiation curve almost perfectly). The Big Bang predicts that the universe has expanded ~1000 times since the above recombination happened, so the radiation should be ~3 K now. This approximately matches the current value, 2.725 K.
+            - [Stefan–Boltzmann law](../../../../general/Stefan–Boltzmann%20law.md)
+            - [Wien approximation](../../../../general/Wien%20approximation.md)
+          - [Big Bang § cosmic microwave background radiation](../../../../general/Big%20Bang.md#cosmic%20microwave%20background%20radiation) / observations ::: COBE 1992, WMAP: 2003, Planck 2013
+            - [Cosmic Background Explorer](../../../../general/Cosmic%20Background%20Explorer.md) (COBE), Explorer 66 ::: A satellite or thermometer that was launched in 1989 to measure the diffuse infrared and microwave radiation from the early universe.
+              - [Cosmic Background Explorer](../../../../general/Cosmic%20Background%20Explorer.md) (COBE) / Nobel Prize ::: 2006 Nobel Prize in Physics, to [John C. Mather](../../../../general/John%20C.%20Mather.md), [George Smoot](../../../../general/George%20Smoot.md), "for their discovery of the [blackbody form](../../../../general/black%20body.md) and [anisotropy](../../../../general/anisotropy.md) of the [cosmic microwave background radiation](../../../../general/cosmic%20microwave%20background.md)".
+              - 2006 Nobel Prize in Physics: [George Smoot](../../../../general/George%20Smoot.md)
+        - [Big Bang § abundance of primordial elements](../../../../general/Big%20Bang.md#abundance%20of%20primordial%20elements)
+          - [Big Bang § abundance of primordial elements](../../../../general/Big%20Bang.md#abundance%20of%20primordial%20elements) / the problem ::: By 1950s, we understood the abundance of elements from carbon to iron via supernovae. But this cannot explain the relative abundance of H-1, H-2, and He-4, which comprises over 98% of normal matter _by mass_. The current hydrogen to helium ratio _by mass_ is about 3 to 1. But also, by the Big Bang model, shouldn't the temperature be high enough for _all_ (not just _some_, as observed) newly created hydrogen to fuse into helium in the very early universe?
+            - [Big Bang § Hubble's law and the expansion of the universe](../../../../general/Big%20Bang.md#Hubble's%20law%20and%20the%20expansion%20of%20the%20universe) / brief history
+          - [Big Bang nucleosynthesis](../../../../general/Big%20Bang%20nucleosynthesis.md)
+            - [Big Bang nucleosynthesis](../../../../general/Big%20Bang%20nucleosynthesis.md) / before ::: Photons and particle—antiparticle pairs interconvert (particle creation and annihilation) due to Einstein's mass–energy equivalence ($E = mc^2$). Above ~10<sup>11</sup> K, the number of protons equaled that of neutrons. Below this, the former started to exceed the latter as protons are lighter than neutrons. At the start of the nucleosynthesis, the ratio of protons to neutrons was 7:1.
+            - [Big Bang nucleosynthesis](../../../../general/Big%20Bang%20nucleosynthesis.md) / the process ::: It lasted for 5 minutes (revised: from 10 seconds to 20 minutes after the Big Bang). The temperature was high enough for fusion to occur, creating deuterium (H-2), helium (He-4), and a few other light element isotopes in trace amounts. When all neutrons were consumed, nucleosynthesis ended. The ratio of hydrogen to helium _by mass_ is 3:1, which agrees with our current observations. Other element isotopes are predicted to have a ratio over hydrogen of 10<sup>-1</sup>:1 to 10<sup>-10</sup>:1, which mostly agrees with our current observations.
+    - [cosmology](../../../../general/cosmology.md) / questions to ask
+    - [cosmology](../../../../general/cosmology.md) / closely related theory ::: Einstein's theory of General relativity
+    - [cosmology](../../../../general/cosmology.md) / origin of cosmic structures ::: If the universe is _perfectly_ uniform initially, then gravity should not form any structures, as all forces are perfectly balanced. Indeed, the universe is only _almost perfectly_ uniform initially. The temperature of the cosmic background radiation (CBR) has small inhomogeneities with variations of 1 part in 100&nbsp;000. The inhomogeneities represent the inhomogeneities of the universe when recombination happens.
+      - [cosmology](../../../../general/cosmology.md) / origin of cosmic structures / inhomogeneities ::: 1 part in 100&nbsp;000
+    - [cosmology](../../../../general/cosmology.md) / curvature of the universe ::: The angular size of variations in the cosmic background radiation (CBR) is determined by the curvature of the universe. If th universe is flat, the angular size is expected to be 1°, which agrees with current observations.
+      - [Big Bang § cosmic microwave background radiation](../../../../general/Big%20Bang.md#cosmic%20microwave%20background%20radiation) / observations
+    - [cosmic inflation](../../../../general/cosmic%20inflation.md) ::: According to _inflation theory_, the universe began to suddenly inflate at the age of 10<sup>-38</sup> s (revised: 10<sup>-36</sup> s) by a factor of 10<sup>30</sup> within 10<sup>-36</sup> s (revised: 10<sup>-33</sup> to 10<sup>-32</sup> s).
+      - [cosmic inflation](../../../../general/cosmic%20inflation.md) / causes ::: A _possible_ (unconfirmed, many other competing theories) cause is the massive amount of energy released by the separation of the strong force from the Grand Unified Theory (GUT) force.
+      - [cosmic inflation](../../../../general/cosmic%20inflation.md) / explains... ::: It explains why the cosmic background radiation (CBR) is _almost perfect_. (A sentence in the slide that feels wrong: The small size of the universe allowed the temperature to almost equalize everywhere in the universe.) Inflation also explains why the universe looks flat, similar to the spherical Earth looking flat to us, as Earth is huge compared to us (the slide used an analogy based on an ant on a balloon being blown up).
+    - [Planck units § Planck time](../../../../general/Planck%20units.md#Planck%20time) ::: $$\sqrt{\frac {\hbar G} {c^5} } \approx 5.39 \times 10^{-44}~\mathrm{s}$$, in which, within this time, quantum gravity governed and our current knowledge of physics breaks down!
+    - [ultimate fate of the universe](../../../../general/ultimate%20fate%20of%20the%20universe.md) ::: Notice that the expansion of the universe competes with gravity. Will the universe continue to expand or collapse in the future? Is the rate of expansion constant, increasing, or decreasing? How is Hubble's constant changing over time?
+      - [Hubble's law § Hubble time](../../../../general/Hubble's%20law.md#Hubble%20time)
+      - [ultimate fate of the universe](../../../../general/ultimate%20fate%20of%20the%20universe.md) / models of expansion ::: There are 4 simple ones (suitable for a common core course, there are many others not mentioned here): recollapsing, critical, coasting, accelerating; characterized by the strength of gravity and a repulsive force
+        - [ultimate fate of the universe](../../../../general/ultimate%20fate%20of%20the%20universe.md) / recollapsing ::: extremely strong gravity, no repulsive force, leads to a collapse in the finite future
+        - [ultimate fate of the universe](../../../../general/ultimate%20fate%20of%20the%20universe.md) / critical ::: moderate gravity, no repulsive force, expand forever while always decelerating (imagine a $y = 1 / x$ graph as $x$ approaches infinity)
+        - [ultimate fate of the universe](../../../../general/ultimate%20fate%20of%20the%20universe.md) / coasting ::: weak gravity, no repulsive force, expand forever at the same rate (linear, so the Hubble time equals the age of the universe)
+        - [ultimate fate of the universe](../../../../general/ultimate%20fate%20of%20the%20universe.md) / accelerating ::: has gravity, stronger-than-gravity repulsive force, expand forever while always accelerating
+      - [ultimate fate of the universe](../../../../general/ultimate%20fate%20of%20the%20universe.md) / models of expansion / determination ::: We can try to determine to appropriate model of expansion by observing the expansion rates of distant galaxies. This is analogous to throwing a ball on Earth and watching it fall. The rising or falling of the ball corresponds to the universe expanding or collapsing. The initial velocity of the ball corresponds to the initial expansion rate. Gravity acting on the ball corresponds to gravity acting on the universe to collapse it. (But the repulsive force has no good analogy in this context.)
+      - [ultimate fate of the universe](../../../../general/ultimate%20fate%20of%20the%20universe.md) / models of expansion / mathematics ::: One key parameter is the _normalized matter density_ $$\Omega_M = \frac \rho {\rho_c}$$, where $\rho$ is the matter density and $\rho_c$ is the _critical_ matter density. Then the past and future expansion rate of the universe depends on it. When $\Omega_M = 0$, the expansion model is coasting. When $\Omega_M = 1$, the expansion model is critical. When $\Omega_M > 1$, the expansion model is recollapsing. Interpolate for in between values. The resulting graph of expansion extent over time for all cases above looks somewhat similar to projectile motion.
+        - [ultimate fate of the universe](../../../../general/ultimate%20fate%20of%20the%20universe.md) / models of expansion / mathematics / critical matter density ::: According to the Friedmann equations, the critical matter density is $$\rho_c = \frac {3 H^3} {8 \pi G} \approx 10^{-29}~\mathrm{g/cm^3}$$.
+      - [ultimate fate of the universe](../../../../general/ultimate%20fate%20of%20the%20universe.md) / observations ::: It turns out the expansion of the universe is expanding. Initially, the universe inflated, and then expanded with a decreasing rate. Only after some billions of years did the universe start expanding with an increasing rate.\
+        - [dark energy § supernovae](../../../../general/dark%20energy.md#supernovae)
+        - [ultimate fate of the universe](../../../../general/ultimate%20fate%20of%20the%20universe.md) / observations / brief history ::: [Saul Perlmutter](../../../../general/Saul%20Perlmutter.md), [Brian Schmidt](../../../../general/Brian%20Schmidt.md), [Adam Riess](../../../../general/Adam%20Riess.md) traced the expansion back in time using Type Ia supernovae. They discovered the accelerating expansion of the universe. It was named by _Science Magazine_ as the "Science Breakthrough of the Year" in 1998. They even got a Nobel Prize in 2011.
+          - [ultimate fate of the universe](../../../../general/ultimate%20fate%20of%20the%20universe.md) / observations / brief history / quote: Brian Schmidt: "When we started in 1994 we were trying to literally weigh the universe by seeing how gravity would tug on the universe as it expands... We were expecting to measure how fast the universe was slowing down to weigh it. When we found that it was speeding up it was a big surprise..."
+        - [ultimate fate of the universe](../../../../general/ultimate%20fate%20of%20the%20universe.md) / observations / Nobel Prize ::: 2011 Nobel Prize in Physics, to [Saul Perlmutter](../../../../general/Saul%20Perlmutter.md), [Brian Schmidt](../../../../general/Brian%20Schmidt.md), [Adam Riess](../../../../general/Adam%20Riess.md), "for the discovery of the [accelerating expansion of the Universe](../../../../general/accelerating%20expansion%20of%20the%20universe.md) through observations of distant [supernovae](../../../../general/supernova.md)".
+        - [cosmic distance ladder § Type Ia light curves](../../../../general/cosmic%20distance%20ladder.md#Type%20Ia%20light%20curves)
+      - [dark energy](../../../../general/dark%20energy.md) ::: It turns out critical matter density is insufficient to explain our accelerating expansion of the universe. A repulsive force of unknown origin needs to be added, which we called __dark energy__.
+        - [dark energy](../../../../general/dark%20energy.md) / details ::: As of 2024, like dark matter, we also have no idea what nature does dark energy have. But unlike dark matter, which we know must interact with gravity, we do not even know what dark energy interacts with. All we know is that it causes to universe to accelerate. (This is reminiscent of the _cosmological constant_ added and later removed by Einstein...)
+          - [static universe](../../../../general/static%20universe.md)
+        - [dark energy § evidence of existence](../../../../general/dark%20energy.md#evidence%20of%20existence) ::: We only have _indirect_ evidences. Apart from supernovae outlined above, the curvature of the universe (inferred from the cosmic background radiation (CBR)) is another indirect evidence.
+          - [dark energy § supernovae](../../../../general/dark%20energy.md#supernovae)
+          - [dark energy § cosmic microwave background](../../../../general/dark%20energy.md#cosmic%20microwave%20background) ::: As mentioned above, the cosmic background radiation (CBR) seem to indicate the universe is flat, so the matter density of the universe should equal the critical density. But the estimated the matter density is only one-fourth (1/4) the required. This can be solved by making the remaining three-fourths (3/4) dark energy. As energy is also mass by Einstein's mass–energy equivalence ($E = mc^2$), dark energy also exerts gravity. However, unlike ordinary and dark matter, it can also act like a repulsive force that accelerates the expansion of the universe.
+        - [dark energy](../../../../general/dark%20energy.md) / debates ::: As of 2024, there are debates over its existence. For example, see debates in 2019, where a scientist at Oxford claims the Nobel-Prize-winning conclusion is wrong. (It is reminiscent of the great debate on "spiral nebulae", isn't it?)
+          - Dark energy debate reignited by controversial analysis of supernovae data  (2019-10-28): <https://physicsworld.com/a/dark-energy-debate-reignited-by-controversial-analysis-of-supernovae-data/>
+          - New study says cosmic acceleration and dark energy don't exist (2019-10-31): <https://bigthink.com/surprising-science/new-study-cosmic-acceleration-dark-energy-dont-exist/>
+- The end
 
 ## aftermath
 
 - [student-generated question](student-generated%20question.md): ?/1
 - [open-ended question report](open-ended%20question%20report.md): ?/20
+- [paper-checking session](#paper-checking%20session)
+
+### paper-checking session
+
+> Dear students,
+>
+> There will be two paper-checking sessions for you to check your strip sequence test and final exam papers.
+>
+> - Date: 15 & 16 Aug
+> - Time: 2:00pm to 3:30pm
+> - Venue: 2504
+>
+> If you want to check your papers, please attend either one of them. You need to show your student ID card to check your papers. You are not allowed to take the papers away or take pictures of them.
+>
+> If you want to have someone check the papers for you, please email the NAME and SID of that student to our IA \[redacted\] (\[redacted\])
+>
+> Best,<br/>
+> \[redacted\]

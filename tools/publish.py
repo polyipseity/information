@@ -237,7 +237,7 @@ def parser(parent: Callable[..., ArgumentParser] | None = None):
 
 
 if __name__ == "__main__":
-    __name__ = PurePath(__file__).stem
+    __name__ = _FILE_PATH.stem
     basicConfig(level=INFO)
     entry = parser().parse_args(argv[1:])
     run(entry.invoke(entry))

@@ -3,8 +3,8 @@ aliases:
   - HKUST reviews
 tags:
   - flashcard/special/academia/HKUST/reviews
-  - functional/index
-  - functional/text
+  - function/index
+  - function/text
   - language/in/English
 ---
 

@@ -80,4 +80,5 @@ __Remarks__:
 
 ## submission
 
+- sample: [The transition of neutron stars into black holes due to mass transfer (Open-ended question C18-L1)](https://canvas.ust.hk/courses/57202/files/9133580)
 - [Derivation of solar day on Venus](Derivation%20of%20solar%20day%20on%20Venus.md)

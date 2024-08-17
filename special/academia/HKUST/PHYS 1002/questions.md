@@ -541,6 +541,55 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 
 ## 2024-08-06
 
+> Q1. (iPRS) What property of a protogalactic cloud determines if it ends up as a spiral or elliptical galaxy?
+>
+> 1. its composition
+> 2. its angular momentum
+> 3. its density
+> 4. (1) and (3)
+> 5. (2) and (3)
+>
+> - solution: {{5}}
+
+<!-- markdownlint MD028 -->
+
+> Q2. (MCQ) The period of a Cepheid variable is 10 days. If its apparent magnitude varies around 8, estimate its distance. It is given that the absolute magnitude of the Sun is 4.83.
+>
+> 1. 24 pc
+> 2. 240 pc
+> 3. 2400 pc
+> 4. 24000 pc
+> 5. 240000 pc
+>
+> - solution: {{3}}
+> - explanation: {{If the period of a Cepheid variable is 10 days, according to the (average) luminosity—period log graph, it has a luminosity of 3000 solar luminosities. Find the absolute magnitude $M$ of the Cepheid variable: $$M = 4.83 - 5 \log_{100} 3000 \approx -3.86280314$$. Then apply the m & M equation to find its distance: $$d = 10^{\frac {m - M + 5} 5} = 10^{\frac {8 - (-3.86280314) + 5} 5} = 10^{3.372560628} \approx 2358.0913~\mathrm{pc}$$. So the answer is 2400 pc.}}
+
+<!-- markdownlint MD028 -->
+
+> Q3. (MCQ) Measurement of redshift shows that a galaxy is moving away from us at 70% the speed of light. What is the distance of the galaxy from us? Take Hubble's constant H = 64 km s<sup>-1</sup> Mpc<sup>-1</sup>.
+>
+> 1. 60 pc
+> 2. 24 kpc
+> 3. 8.5 Mpc
+> 4. 3.3 Gpc
+> 5. 27 Gpc
+>
+> - solution: {{4}}
+> - explanation: {{70% the speed of light (~300&nbsp;000 km/s) is approximately 210&nbsp;000 km/s. Divide this by the Hubble's constant: $$\frac {210\,000~\mathrm{km/s} } {64~\mathrm{(km/s)/Mpc} } = 3281.25~\mathrm{Mpc} = 3.28125~\mathrm{Gpc}$$. So the answer is 3.3 Gpc.}}
+
+<!-- markdownlint MD028 -->
+
+> Q4. (iPRS) How are rotation curves of spiral galaxies determined at radii that are larger than the stars at the edge of the galaxy?
+>
+> 1. by extrapolating orbital velocities of stars measured at smaller radii
+> 2. by observations of the 21 cm line of atomic hydrogen
+> 3. by measuring redshift and blueshift of the spectral lines of dark matter
+> 4. by observations of gravitational lensing
+> 5. by measuring spectral broadening of hydrogen emission lines
+>
+> - solution: {{2}}
+> - note: Finally, a question that everyone (who answered) got correctly! The teacher gave away the answer.
+
 ## student-generated questions
 
 > Q1. (sample) Star A is a star with apparent magnitude (m<sub>A</sub>) of 3. The apparent brightness ratio of Star A over Star B is 15 and assume absolute magnitude (M<sub>B</sub>) of star B is 1. What is the distance between earth and star B in terms of parsecs?

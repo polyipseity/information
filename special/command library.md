@@ -4,7 +4,7 @@ aliases:
   - command library
 tags:
   - flashcard/special/command_library
-  - functional/library
+  - function/library
   - language/in/English
 ---
 
@@ -90,6 +90,36 @@ gs -dBATCH -dNOPAUSE -dQUIET -sDEVICE=pdfwrite "-dPDFSETTINGS=$preset" '-dCompat
   - `$input_`: input filename
   - `$output`: output filename
 - source: <https://askubuntu.com/a/256449>
+
+### remove metadata
+
+The command below may not remove all metadata. See <https://stackoverflow.com/a/78633569>.
+
+```shell
+gs -dBATCH -dNOPAUSE -dQUIET -sDEVICE=pdfwrite -dOmitXMP=true "-sOutputFile=$output" "$input_" "$pdfmark.txt"
+```
+
+- parameters
+  - `$input_`: input filename
+  - `$output`: output filename
+  - `$pdfmark`: a filename without extension, referring to a text file containing the content specified below
+- source: <https://github.com/ArtifexSoftware/Ghostscript.NET/issues/117>
+
+For `pdfmark.txt`, see [`GhostScript remove metadata pdfmark.txt`](attachments/GhostScript%20remove%20metadata%20pdfmark.txt):
+
+```pdfmark
+[ /Title ()
+/Author ()
+/Subject ()
+/Creator ()
+/ModDate ()
+/Producer ()
+/Keywords ()
+/CreationDate ()
+/DOCINFO pdfmark
+[ /XML ()
+/Ext_Metadata pdfmark
+```
 
 ## ImageMagick
 

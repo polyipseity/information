@@ -10,7 +10,7 @@ aliases:
   - HKUST COMP1029J outline
 tags:
   - flashcard/special/academia/HKUST/COMP_1029J/outline
-  - functional/outline
+  - function/outline
   - language/in/English
 ---
 

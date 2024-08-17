@@ -10,7 +10,7 @@ aliases:
   - HKUST MATH1013 outline
 tags:
   - flashcard/special/academia/HKUST/MATH_1013/outline
-  - functional/outline
+  - function/outline
   - language/in/English
 ---
 
