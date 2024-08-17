@@ -67,8 +67,8 @@ The content is in teaching order.
   - [serviceable obtainable market](../../../../general/target%20market.md) (SOM)
     - [§ importance](../../../../general/target%20market.md#importance)
   - market size correctness ::: There is no correct answer for market size, but it should be reasonable to others. <!--SR:!2025-04-27,254,335!2025-07-23,343,355-->
-  - extra market sizes ::: Early adopters: The market size the company can achieve at the very start. Smaller than SOM. <!--SR:!2024-08-17,77,335!2025-07-04,326,355-->
-- visualization ::: Visualization is important to bring your point across. <!--SR:!2024-08-17,78,327!2025-07-09,331,355-->
+  - extra market sizes ::: Early adopters: The market size the company can achieve at the very start. Smaller than SOM. <!--SR:!2025-05-01,257,335!2025-07-04,326,355-->
+- visualization ::: Visualization is important to bring your point across. <!--SR:!2025-08-03,351,347!2025-07-09,331,355-->
 - reading assignment: [d.school design thinking bootleg § process modules](../../../d.school%20design%20thinking%20bootleg.md#process%20modules), [d.school design thinking bootleg § methods and tools](../../../d.school%20design%20thinking%20bootleg.md#methods%20and%20tools)
 - [assignment W4](assignment%20W4/assignment%20W4.md)
 
@@ -155,7 +155,7 @@ The content is in teaching order.
   - deduction ::: application; arrive at conclusions based on given premises and rules <!--SR:!2024-08-30,65,341!2024-09-20,85,361-->
   - evaluation ::: unbiased, unemotional; systematically assess, determine, or examine the effectiveness, quality, or value of something <!--SR:!2024-10-09,86,301!2024-10-02,96,361-->
   - inference ::: generalize; draw rules or predictions based on observed examples <!--SR:!2024-09-24,89,361!2024-09-21,86,361-->
-  - interpretation ::: explain or understand meaning, implications, or significance of something <!--SR:!2024-08-17,46,301!2024-09-21,86,361-->
+  - interpretation ::: explain or understand meaning, implications, or significance of something <!--SR:!2025-01-01,137,301!2024-09-21,86,361-->
 - critical thinking pop quiz
   - content: 10 4-choice questions
   - effect: 0.5% of course grade

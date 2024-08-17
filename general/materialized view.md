@@ -17,9 +17,9 @@ In a database, there are usually {{many possible views to materialize}}. But it 
 
 ### terminology
 
-Let $\top$ be {{the top view, i.e. the unaggregated view containing all transactions}}. Let $\bot$ be {{the bottom view, i.e. the view containing one transaction aggregating all transactions}}. Each view $v$ is {{associated with a real number called the cost $v_c$, with $\top_c$ being the total number of transactions and $\bot_c = 1$}}. The view cost $v_c$ can be considered as {{the cost of answering an query using said view $v$}}. <!--SR:!2024-08-17,46,290!2024-09-11,68,310!2025-01-08,156,310!2025-01-09,150,310-->
+Let $\top$ be {{the top view, i.e. the unaggregated view containing all transactions}}. Let $\bot$ be {{the bottom view, i.e. the view containing one transaction aggregating all transactions}}. Each view $v$ is {{associated with a real number called the cost $v_c$, with $\top_c$ being the total number of transactions and $\bot_c = 1$}}. The view cost $v_c$ can be considered as {{the cost of answering an query using said view $v$}}. <!--SR:!2025-02-15,182,310!2024-09-11,68,310!2025-01-08,156,310!2025-01-09,150,310-->
 
-A view $v$ is the parent of another $v'$ if {{every query that we care about that are answerable by $v'$ is also answerable by $v$}}. For example, a table containing parts, suppliers, and costs {{can answer queries answerable by a table containing parts and costs only or a table containing suppliers and cost only}}. Note that the above parent—child relation is dependant on the queries that we care about. So the example above might only works for some queries. $\top$ is {{the common ancestor of all views excluding itself}}, and $\bot$ is {{the common children of all views excluding itself}}. The relations for a set of views can be {{visualized as a graph, along with the view costs}}. <!--SR:!2024-12-04,128,310!2024-12-09,130,290!2024-08-17,46,290!2024-08-24,53,310!2024-12-12,120,290-->
+A view $v$ is the parent of another $v'$ if {{every query that we care about that are answerable by $v'$ is also answerable by $v$}}. For example, a table containing parts, suppliers, and costs {{can answer queries answerable by a table containing parts and costs only or a table containing suppliers and cost only}}. Note that the above parent—child relation is dependant on the queries that we care about. So the example above might only works for some queries. $\top$ is {{the common ancestor of all views excluding itself}}, and $\bot$ is {{the common children of all views excluding itself}}. The relations for a set of views can be {{visualized as a graph, along with the view costs}}. <!--SR:!2024-12-04,128,310!2024-12-09,130,290!2025-02-19,186,310!2024-08-24,53,310!2024-12-12,120,290-->
 
 > [!example] visualizing relations between a set of views
 >
@@ -41,7 +41,7 @@ We assume that {{each view is equally likely to be queried}}. We also assume the
 
 Let $S$ be {{the set of materialized views}}. Define the total cost function {{accepting a set of materialized views $C(S)$ as the total cost of accessing each possible views once, taking the materialized views into consideration}}. Next, define the gain {{$G(A, B)$ accepting 2 sets of materialized views, as $G(A, B) = C(B) - C(A)$, i.e. the total cost reduction of materializing $A$ over materializing $B$}}. Finally, define the benefit {{$B(v, S) = G(S \cup \set{v}, S)$, i.e. the total cost reduction of _additionally_ materializing $v$ over only materializing $S$}}. <!--SR:!2024-09-16,73,310!2024-09-10,54,250!2024-09-10,58,270!2024-11-18,106,290-->
 
-The objective is to {{find the best $S$ that maximizes the gain $G(S, \set{\top})$ over the top view, while satisfying the given constraints}}. The constraints we will consider here are {{the maximum number of materialized views or the max total cost of materialized views}}. The constraints are considered separately. <!--SR:!2025-01-03,152,310!2024-08-17,39,250-->
+The objective is to {{find the best $S$ that maximizes the gain $G(S, \set{\top})$ over the top view, while satisfying the given constraints}}. The constraints we will consider here are {{the maximum number of materialized views or the max total cost of materialized views}}. The constraints are considered separately. <!--SR:!2025-01-03,152,310!2024-11-22,97,250-->
 
 The pseudocode is as follows:
 
@@ -70,7 +70,7 @@ In details, when calculating the benefit for a view to be materialized, only con
 >
 > The above benefit table shows that the resulting greedy selection is {{"ps" and _then_ "c"}}. <!--SR:!2024-08-25,54,310!2024-12-06,120,290-->
 
-The resulting selection is {{greedy and may not be the optimal solution}}. When {{the heuristic function is simply the benefit}}, the above problem is {{a [submodular set function maximization](submodular%20set%20function.md#submodular%20set%20function%20maximization) problem}}. In this case, it has been proven that the greedy selection {{has a benefit that is at least $1 - 1 / e \approx 0.632$ times of that of the optimal selection}}.<sup>[\[1\]](#^ref-Nemhauser-1978)</sup> <!--SR:!2024-08-20,49,290!2024-08-17,48,290!2024-11-09,105,290!2024-08-29,52,270-->
+The resulting selection is {{greedy and may not be the optimal solution}}. When {{the heuristic function is simply the benefit}}, the above problem is {{a [submodular set function maximization](submodular%20set%20function.md#submodular%20set%20function%20maximization) problem}}. In this case, it has been proven that the greedy selection {{has a benefit that is at least $1 - 1 / e \approx 0.632$ times of that of the optimal selection}}.<sup>[\[1\]](#^ref-Nemhauser-1978)</sup> <!--SR:!2024-08-20,49,290!2025-02-23,190,310!2024-11-09,105,290!2024-08-29,52,270-->
 
 ## references
 

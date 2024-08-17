@@ -95,7 +95,7 @@ simplicity: remove complexity or hassle
 - environmental friendliness→:::←fun and image: conveyed feel, look, or attitude <!--SR:!2024-11-29,136,259!2024-08-27,29,239-->
 - fun and image: conveyed feel, look, or attitude→:::←productivity: less effort, time, or money <!--SR:!2024-08-19,64,239!2024-08-22,56,239-->
 - productivity: less effort, time, or money→:::←risk reduction: financial, physical, reputational <!--SR:!2024-11-05,114,250!2024-10-06,100,259-->
-- risk reduction: financial, physical, reputational→:::←simplicity: remove complexity or hassle <!--SR:!2024-08-17,61,230!2024-12-15,147,259-->
+- risk reduction: financial, physical, reputational→:::←simplicity: remove complexity or hassle <!--SR:!2024-09-14,28,210!2024-12-15,147,259-->
 - simplicity: remove complexity or hassle→:::←_(end)_ <!--SR:!2024-12-13,163,310!2024-10-07,113,299-->
 
 <!--/pytextgen-->

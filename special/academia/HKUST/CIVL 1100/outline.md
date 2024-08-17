@@ -80,7 +80,7 @@ The content is in teaching order.
   - [§ quasi-static bending of beams](../../../../general/bending.md#quasi-static%20bending%20of%20beams)
 - [cantilever](../../../../general/cantilever.md) ::: a overhanging structure with only 1 support on 1 end; should be a fixed support to prevent rotation <!--SR:!2024-10-30,114,310!2024-08-18,71,330-->
 - simply supported beam ::: a beam with 2 supports on its 2 ends; should be a pinned support and a roller support to get a statically determinate structure <!--SR:!2024-09-22,82,290!2025-03-22,220,330-->
-- [torsion](../../../../general/torsion%20(mechanics).md) ::: twisting of an object <!--SR:!2024-08-17,69,330!2024-08-20,72,330-->
+- [torsion](../../../../general/torsion%20(mechanics).md) ::: twisting of an object <!--SR:!2025-04-03,229,330!2024-08-20,72,330-->
   - torsion deformation ::: The object is likely to return to its original shape when torsion forces are removed. <!--SR:!2025-03-21,221,330!2024-08-25,76,330-->
   - torsion examples ::: drill pipes, power transmission shafts, tall buildings <!--SR:!2024-10-12,106,310!2025-02-19,207,330-->
 - [shear](../../../../general/shear%20force.md) ::: created by forces not acting on the same line; think of a rectangle being "parallelogramized" by 2 forces facing opposite directions <!--SR:!2024-08-27,78,330!2025-05-20,285,350-->
@@ -92,7 +92,7 @@ The content is in teaching order.
 - [static equilibrium](../../../../general/mechanical%20equilibrium.md)
   - [§ equilibrium equations](../../../../general/mechanical%20equilibrium.md#equilibrium%20equations)
   - [§ statically indeterminate system](../../../../general/structural%20support.md#statically%20indeterminate%20system)
-- use "critical thinking" ::: more like whether you are good at mathematics and physics <!--SR:!2025-05-10,277,350!2024-08-17,69,330-->
+- use "critical thinking" ::: more like whether you are good at mathematics and physics <!--SR:!2025-05-10,277,350!2025-06-26,313,350-->
 - [quizzes § week 4 lecture quiz](quizzes.md#week%204%20lecture%20quiz)
 
 ## week 5 lecture

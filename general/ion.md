@@ -263,7 +263,7 @@ return chain.from_iterable(await gather(
 - copper(I) ion:::Cu<sup>+</sup> <!--SR:!2027-02-02,1451,359!2028-06-30,1612,330-->
 - silver ion:::Ag<sup>+</sup> <!--SR:!2026-05-27,1086,290!2025-06-25,897,336-->
 - mercury(I) ion:::Hg<sup>+</sup> <!--SR:!2027-09-08,1632,367!2026-09-15,1300,330-->
-- ammonium ion:::NH<sub>4</sub><sup>+</sup> <!--SR:!2024-08-17,519,270!2027-01-08,1335,313-->
+- ammonium ion:::NH<sub>4</sub><sup>+</sup> <!--SR:!2029-12-25,1956,290!2027-01-08,1335,313-->
 - magnesium ion:::Mg<sup>2+</sup> <!--SR:!2027-05-17,1165,267!2030-05-06,2283,336-->
 - calcium ion:::Ca<sup>2+</sup> <!--SR:!2027-08-21,1621,370!2028-01-19,1745,374-->
 - barium ion:::Ba<sup>2+</sup> <!--SR:!2025-06-02,665,250!2025-02-15,770,294-->
@@ -493,7 +493,7 @@ return chain.from_iterable(await gather(
 - <span style="color: darkViolet; background-color: white;">deep purple</span>::permanganate ion <!--SR:!2028-06-21,1515,381-->
 - <span style="color: yellow; background-color: black;">yellow</span>::chromate ion <!--SR:!2026-10-30,1008,361-->
 - <span style="color: orange;">orange</span>::dichromate ion <!--SR:!2029-03-08,1723,381-->
-- <span style="color: green;">green</span>::manganate ion <!--SR:!2024-08-17,43,222-->
+- <span style="color: green;">green</span>::manganate ion <!--SR:!2024-11-20,95,222-->
 
 <!--/pytextgen-->
 

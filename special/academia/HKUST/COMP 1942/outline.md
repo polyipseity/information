@@ -330,7 +330,7 @@ The content is in teaching order.
 
 - time: 2024-04-10T09:00:00+08:00/2024-04-10T10:30:00+08:00
 - [recurrent neural network](../../../../general/recurrent%20neural%20network.md)
-  - basic RNN ::: [§ Elman networks and Jordan networks](../../../../general/recurrent%20neural%20network.md#Elman%20networks%20and%20Jordan%20networks) <!--SR:!2024-08-17,46,337!2024-10-16,99,377-->
+  - basic RNN ::: [§ Elman networks and Jordan networks](../../../../general/recurrent%20neural%20network.md#Elman%20networks%20and%20Jordan%20networks) <!--SR:!2025-01-18,154,337!2024-10-16,99,377-->
   - [§ long short-term memory](../../../../general/recurrent%20neural%20network.md#long%20short-term%20memory)
   - [§ gated recurrent unit](../../../../general/recurrent%20neural%20network.md#gated%20recurrent%20unit)
 - [convolutional neural network](../../../../general/convolutional%20neural%20network.md)

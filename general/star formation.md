@@ -9,7 +9,7 @@ tags:
 
 # star formation
 
-__Star formation__ is {{the process by which dense regions within [molecular clouds](molecular%20cloud.md) in [interstellar space](outer%20space.md#interstellar%20space), sometimes referred to as "stellar nurseries" or "[star](star.md)-forming regions", [collapse](Jeans%20instability.md) and form [stars](star.md)}}. <!--SR:!2024-08-17,14,290-->
+__Star formation__ is {{the process by which dense regions within [molecular clouds](molecular%20cloud.md) in [interstellar space](outer%20space.md#interstellar%20space), sometimes referred to as "stellar nurseries" or "[star](star.md)-forming regions", [collapse](Jeans%20instability.md) and form [stars](star.md)}}. <!--SR:!2024-09-26,40,290-->
 
 ## stellar nurseries
 

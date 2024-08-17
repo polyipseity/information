@@ -29,7 +29,7 @@ __Eq.1__ can be {{interpreted or derived in various ways}}, for example: <!--SR:
 - discrete Fourier transform & discrete-time Fourier transform ::: It completely describes the [discrete-time Fourier transform](discrete-time%20Fourier%20transform.md) (DTFT) of an $N$-periodic sequence, which comprises only discrete frequency components. ([Using the DTFT with periodic data](discrete-time%20Fourier%20transform.md#periodic%20data)) <!--SR:!2024-08-22,12,270!2024-08-27,15,290-->
 - discrete Fourier transform & sampling ::: It can also provide uniformly spaced samples of the continuous DTFT of a finite length sequence. The sampling interval is the reciprocal of the duration of the input sequence. ([§ sampling the DTFT](discrete-time%20Fourier%20transform.md#sampling%20the%20DTFT)) <!--SR:!2024-08-22,10,270!2024-08-24,14,290-->
 - discrete Fourier transform & complex sinusoid ::: It is the [cross correlation](cross-correlation.md) of the _input_ sequence, $x_n$, and a complex sinusoid at frequency $k / N$ (angular frequency $2 \pi k / N$). Thus it acts like a [matched filter](matched%20filter.md) for that frequency. <!--SR:!2024-08-22,12,270!2024-08-24,12,270-->
-- discrete Fourier transform & Fourier series ::: It is the discrete analog of the formula for the coefficients of a [Fourier series](fourier%20series.md): $$C_k = \frac 1 P \int_P \! x(t) e^{-i2\pi \frac k P t} \,\mathrm{d}t$$. <!--SR:!2024-08-17,7,250!2024-08-21,11,270-->
+- discrete Fourier transform & Fourier series ::: It is the discrete analog of the formula for the coefficients of a [Fourier series](fourier%20series.md): $$C_k = \frac 1 P \int_P \! x(t) e^{-i2\pi \frac k P t} \,\mathrm{d}t$$. <!--SR:!2024-08-21,4,230!2024-08-21,11,270-->
 
 __Eq.1__ can also be evaluated {{outside the domain $k \in [0 , N - 1]$, and that extended sequence is $N$-[periodic](periodic%20sequence.md)}}. Accordingly, other sequences of $N$ indices are sometimes used, such as {{$\left[-\frac N 2,\frac N 2 - 1 \right]$ (if $N$ is even) and $\left[-\frac {N - 1} 2,\frac {N - 1} 2 \right]$ (if $N$ is odd)}}, which amounts to {{swapping the left and right halves of the result of the transform}}. <!--SR:!2024-08-25,13,270!2024-08-21,9,270!2024-08-24,12,270-->
 
@@ -37,7 +37,7 @@ The inverse transform is given by:
 
 > {{__inverse discrete Fourier transform (Eq.2)__}}
 >
-> {{$$x_n = \frac 1 N \sum_{k = 0}^{N - 1} X_k \cdot e^{i 2\pi \frac k N n}$$}} <!--SR:!2024-08-17,7,250!2024-08-19,9,270-->
+> {{$$x_n = \frac 1 N \sum_{k = 0}^{N - 1} X_k \cdot e^{i 2\pi \frac k N n}$$}} <!--SR:!2024-09-03,17,250!2024-08-19,9,270-->
 
 __Eq.2__ is {{also $N$-periodic (in index $n$)}}. In __Eq.2__, each $X_k$ is {{a complex number whose polar coordinates are the amplitude and phase of a complex sinusoidal component $\left(e^{i 2\pi \frac k N n}\right)$ of function $x_n$}}. (see [discrete Fourier series](discrete%20Fourier%20series.md)) The sinusoid's [frequency](frequency.md) is {{$k$ cycles per $N$ samples}}. <!--SR:!2024-08-25,15,290!2024-08-23,11,270!2024-08-27,17,290-->
 
@@ -55,7 +55,7 @@ Reversing the time (i.e. {{replacing $n$ by $N-n$}}) in $x_{n}$ corresponds to {
 
 ### conjugation in time
 
-Mathematically: {{$${\mathcal {F} }(\{x_{n}\})_{k}=X_{k} \implies {\mathcal {F} }(\{x_{n}^{*}\})_{k}=X_{N-k}^{*}$$}}. <!--SR:!2024-08-17,3,256-->
+Mathematically: {{$${\mathcal {F} }(\{x_{n}\})_{k}=X_{k} \implies {\mathcal {F} }(\{x_{n}^{*}\})_{k}=X_{N-k}^{*}$$}}. <!--SR:!2024-08-29,12,276-->
 
 ### real and imaginary part
 

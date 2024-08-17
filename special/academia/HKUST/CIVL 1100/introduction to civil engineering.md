@@ -199,7 +199,7 @@ water and sewage treatment system
 - power plant→:::←reservoir <!--SR:!2025-01-10,164,275!2024-09-05,91,320-->
 - reservoir→:::←sewage treatment <!--SR:!2024-09-21,62,197!2024-09-05,75,261-->
 - sewage treatment→:::←transport <!--SR:!2024-08-19,7,190!2024-12-13,152,301-->
-- transport→:::←water and sewage treatment system <!--SR:!2024-11-05,137,340!2024-08-17,16,150-->
+- transport→:::←water and sewage treatment system <!--SR:!2024-11-05,137,340!2024-08-24,7,130-->
 - water and sewage treatment system→:::←_(end)_ <!--SR:!2024-08-25,93,381!2025-04-10,252,361-->
 
 <!--/pytextgen-->
@@ -844,7 +844,7 @@ Tsing Ma Bridge
 
 <!--pytextgen generate section="e7f2"--><!-- The following content is generated at 2024-02-16T21:59:47.773549+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←Akashi Kaikyo Bridge <!--SR:!2024-08-17,82,318!2025-05-27,320,377-->
+- _(begin)_→:::←Akashi Kaikyo Bridge <!--SR:!2024-09-28,42,298!2025-05-27,320,377-->
 - Akashi Kaikyo Bridge→:::←Hong Kong–Zhuhai–Macau Bridge <!--SR:!2024-08-24,92,327!2024-10-02,105,307-->
 - Hong Kong–Zhuhai–Macau Bridge→:::←Stonecutters Bridge <!--SR:!2024-11-20,100,320!2025-01-08,149,300-->
 - Stonecutters Bridge→:::←Sutong Yangtze River Bridge <!--SR:!2024-10-08,130,337!2024-11-17,147,340-->
@@ -1194,7 +1194,7 @@ water transport
 - pier→:::←pipeline <!--SR:!2024-09-10,38,360!2025-02-06,194,314-->
 - pipeline→:::←railroad <!--SR:!2024-11-15,111,255!2024-09-15,38,295-->
 - railroad→:::←water transport <!--SR:!2024-10-11,127,340!2025-04-24,255,315-->
-- water transport→:::←_(end)_ <!--SR:!2024-09-11,107,380!2024-08-17,85,380-->
+- water transport→:::←_(end)_ <!--SR:!2024-09-11,107,380!2025-07-05,322,380-->
 
 <!--/pytextgen-->
 

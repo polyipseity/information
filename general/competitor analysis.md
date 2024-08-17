@@ -35,7 +35,7 @@ Direct competitors are not {{necessarily more important than indirect or potenti
 > - an direct competitor of Starbucks ::: [Dunkin' Donuts](Dunkin'%20Donuts.md): serves mainly coffee to satisfy beverage need <!--SR:!2024-12-08,158,321!2025-05-29,294,341-->
 > - an indirect competitor of Starbucks ::: [bars](bar%20(establishment).md): does not serve coffee but [alcoholic beverages](alcoholic%20beverage.md) to satisfy beverage need <!--SR:!2025-02-04,176,281!2024-08-18,74,321-->
 > - a potential competitor of Starbucks ::: [McDonald's](McDonald's.md): serves mainly coffee but usually as part of a meal to satisfy food need <!--SR:!2025-04-06,233,321!2024-08-23,79,321-->
-> - a non-competitor of Starbucks ::: [Walmart](Walmart.md): does not serve coffee and does not satisfy beverage need <!--SR:!2024-08-17,73,321!2025-05-14,282,341-->
+> - a non-competitor of Starbucks ::: [Walmart](Walmart.md): does not serve coffee and does not satisfy beverage need <!--SR:!2025-07-06,323,341!2025-05-14,282,341-->
 
 ### considerations
 
@@ -168,7 +168,7 @@ number of features
 
 - _(most important)_→:::←price <!--SR:!2025-06-23,313,341!2025-06-24,314,341-->
 - price→:::←benefit <!--SR:!2024-11-27,150,314!2024-09-27,97,301-->
-- benefit→:::←quality <!--SR:!2024-08-17,67,274!2024-11-24,134,301-->
+- benefit→:::←quality <!--SR:!2025-02-16,183,274!2024-11-24,134,301-->
 - quality→:::←durability <!--SR:!2024-08-20,19,181!2024-08-29,30,301-->
 - durability→:::←service <!--SR:!2024-12-24,150,301!2024-08-27,15,221-->
 - service→:::←convenience <!--SR:!2024-08-19,11,201!2024-09-04,27,281-->

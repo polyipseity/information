@@ -15,7 +15,7 @@ __Stellar evolution__ is {{the process by which a [star](star.md) changes over t
 
 ### mid-sized stars
 
-Stars of {{roughly 0.6–10 M<sub>☉</sub>}} become {{[red giants](red%20giant.md), which are large non-[main-sequence](main%20sequence.md) stars of [stellar classification](stellar%20classification.md) K or M}}. Red giants lie {{along the right edge of the Hertzsprung–Russell diagram due to their red color and large luminosity}}. Examples include [Aldebaran](aldebaran.md) in the constellation [Taurus](taurus%20(constellation).md) and [Arcturus](arcturus.md) in the constellation of [Boötes](boötes.md). <!--SR:!2024-08-20,14,248!2024-09-05,22,250!2024-08-17,14,290-->
+Stars of {{roughly 0.6–10 M<sub>☉</sub>}} become {{[red giants](red%20giant.md), which are large non-[main-sequence](main%20sequence.md) stars of [stellar classification](stellar%20classification.md) K or M}}. Red giants lie {{along the right edge of the Hertzsprung–Russell diagram due to their red color and large luminosity}}. Examples include [Aldebaran](aldebaran.md) in the constellation [Taurus](taurus%20(constellation).md) and [Arcturus](arcturus.md) in the constellation of [Boötes](boötes.md). <!--SR:!2024-08-20,14,248!2024-09-05,22,250!2024-09-27,41,290-->
 
 Mid-sized stars are {{red giants during two different phases of their post-main-sequence evolution}}: {{red-giant-branch stars, with inert cores made of helium and hydrogen-burning shells, and asymptotic-giant-branch stars, with inert cores made of carbon and helium-burning shells inside the hydrogen-burning shells}}. Between these two phases, {{stars spend a period on the [horizontal branch](horizontal%20branch.md) with a helium-fusing core}}. Many of these helium-fusing stars {{cluster towards the cool end of the horizontal branch as K-type giants and are referred to as [red clump](red%20clump.md) giants}}. <!--SR:!2024-10-10,55,308!2024-09-01,20,268!2024-09-13,30,288!2024-08-27,17,248-->
 
@@ -53,13 +53,13 @@ After a star {{has consumed the helium at the core}}, {{hydrogen and helium fusi
 
 - see: [post-AGB star](post-AGB%20star.md)
 
-These mid-range stars ultimately {{reach the tip of the asymptotic-giant-branch and run out of fuel for shell burning}}. They are {{not sufficiently massive to start full-scale carbon fusion}}, so they {{contract again, going through a period of post-asymptotic-giant-branch superwind to produce a planetary nebula with an extremely hot central star}}. The central star then {{cools to a white dwarf}}. <!--SR:!2024-08-30,18,268!2024-08-17,13,270!2024-08-29,17,250!2024-09-29,46,308-->
+These mid-range stars ultimately {{reach the tip of the asymptotic-giant-branch and run out of fuel for shell burning}}. They are {{not sufficiently massive to start full-scale carbon fusion}}, so they {{contract again, going through a period of post-asymptotic-giant-branch superwind to produce a planetary nebula with an extremely hot central star}}. The central star then {{cools to a white dwarf}}. <!--SR:!2024-08-30,18,268!2024-10-04,48,290!2024-08-29,17,250!2024-09-29,46,308-->
 
 ### massive stars
 
 - see: [supergiant](supergiant.md)
 
-In massive stars, the core is {{already large enough at the onset of the hydrogen burning shell that helium ignition will occur before electron degeneracy pressure has a chance to become prevalent}}. Thus, when {{these stars expand and cool}}, they {{do not brighten as dramatically as lower-mass stars}}; however, they were {{more luminous on the main sequence and they evolve to highly luminous supergiants}}. Their cores become {{massive enough that they cannot support themselves by [electron degeneracy](electron%20degeneracy%20pressure.md) and will eventually collapse to produce a [neutron star](neutron%20star.md) or [black hole](black%20hole.md)}}. <!--SR:!2024-09-24,41,308!2024-09-28,45,308!2024-08-17,12,248!2024-09-03,22,268!2024-08-26,14,230-->
+In massive stars, the core is {{already large enough at the onset of the hydrogen burning shell that helium ignition will occur before electron degeneracy pressure has a chance to become prevalent}}. Thus, when {{these stars expand and cool}}, they {{do not brighten as dramatically as lower-mass stars}}; however, they were {{more luminous on the main sequence and they evolve to highly luminous supergiants}}. Their cores become {{massive enough that they cannot support themselves by [electron degeneracy](electron%20degeneracy%20pressure.md) and will eventually collapse to produce a [neutron star](neutron%20star.md) or [black hole](black%20hole.md)}}. <!--SR:!2024-09-24,41,308!2024-09-28,45,308!2024-09-29,43,268!2024-09-03,22,268!2024-08-26,14,230-->
 
 #### supernova
 

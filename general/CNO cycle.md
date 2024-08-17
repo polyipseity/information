@@ -17,7 +17,7 @@ tags:
 
 # CNO cycle
 
-The __CNO cycle__ (for {{[carbon](carbon.md)–[nitrogen](nitrogen.md)–[oxygen](oxygen.md)}}; sometimes called {{__Bethe–Weizsäcker cycle__}} after {{[Hans Albrecht Bethe](Hans%20Bethe.md) and [Carl Friedrich von Weizsäcker](Carl%20Friedrich%20von%20Weizsäcker.md)}}) is {{one of the two known sets of [fusion](nuclear%20fusion.md) [reactions](nuclear%20reaction.md) by which [stars](star.md) convert [hydrogen](hydrogen.md) to [helium](helium.md)}}, the other being {{the [proton–proton chain reaction](proton–proton%20chain.md) (p–p cycle), which is more efficient at the [Sun](Sun.md)'s core temperature}}. The CNO cycle is {{hypothesized to be dominant in stars that are more than 1.3 times as [massive as the Sun](solar%20mass.md)}}. <!--SR:!2024-10-06,51,310!2024-08-17,14,290!2024-08-26,14,250!2024-08-19,16,290!2024-08-18,15,290!2024-08-20,17,290-->
+The __CNO cycle__ (for {{[carbon](carbon.md)–[nitrogen](nitrogen.md)–[oxygen](oxygen.md)}}; sometimes called {{__Bethe–Weizsäcker cycle__}} after {{[Hans Albrecht Bethe](Hans%20Bethe.md) and [Carl Friedrich von Weizsäcker](Carl%20Friedrich%20von%20Weizsäcker.md)}}) is {{one of the two known sets of [fusion](nuclear%20fusion.md) [reactions](nuclear%20reaction.md) by which [stars](star.md) convert [hydrogen](hydrogen.md) to [helium](helium.md)}}, the other being {{the [proton–proton chain reaction](proton–proton%20chain.md) (p–p cycle), which is more efficient at the [Sun](Sun.md)'s core temperature}}. The CNO cycle is {{hypothesized to be dominant in stars that are more than 1.3 times as [massive as the Sun](solar%20mass.md)}}. <!--SR:!2024-10-06,51,310!2024-09-26,40,290!2024-08-26,14,250!2024-08-19,16,290!2024-08-18,15,290!2024-08-20,17,290-->
 
 ## cold CNO cycles
 
@@ -25,7 +25,7 @@ Under {{typical conditions found in stars}}, catalytic hydrogen burning by the C
 
 ### CNO-I
 
-The CN-cycle, named as {{it contains no stable isotope of oxygen}}, involves the following cycle of transformations: {{$${}_{\phantom{0}6}^{12}\mathrm{C} \rightarrow {}_{\phantom{0}7}^{13}\mathrm{N} \rightarrow {}_{\phantom{0}6}^{13}\mathrm{C} \rightarrow {}_{\phantom{0}7}^{14}\mathrm{N} \rightarrow {}_{\phantom{0}8}^{15}\mathrm{O} \rightarrow {}_{\phantom{0}7}^{15}\mathrm{N} \rightarrow {}_{\phantom{0}6}^{12}\mathrm{C}$$}}. <!--SR:!2024-08-17,14,290!2024-08-20,17,290-->
+The CN-cycle, named as {{it contains no stable isotope of oxygen}}, involves the following cycle of transformations: {{$${}_{\phantom{0}6}^{12}\mathrm{C} \rightarrow {}_{\phantom{0}7}^{13}\mathrm{N} \rightarrow {}_{\phantom{0}6}^{13}\mathrm{C} \rightarrow {}_{\phantom{0}7}^{14}\mathrm{N} \rightarrow {}_{\phantom{0}8}^{15}\mathrm{O} \rightarrow {}_{\phantom{0}7}^{15}\mathrm{N} \rightarrow {}_{\phantom{0}6}^{12}\mathrm{C}$$}}. <!--SR:!2024-09-25,39,290!2024-08-20,17,290-->
 
 This cycle is now understood as {{being the first part of a larger process, the CNO-cycle}}, and the main reactions in this part of the cycle (CNO-I) are: <!--SR:!2024-08-18,15,290-->
 
