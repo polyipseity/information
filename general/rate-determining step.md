@@ -18,7 +18,7 @@ aliases:
   - rate-limiting step
   - rate-limiting steps
 tags:
-  - flashcard/general/rate-determining_step
+  - flashcard/active/general/rate-determining_step
   - language/in/English
 ---
 

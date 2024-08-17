@@ -20,7 +20,7 @@ aliases:
   - L’Hôspital rule
   - L’Hôspital’s rule
 tags:
-  - flashcard/general/L_Hôpital_s_rule
+  - flashcard/active/general/L_Hôpital_s_rule
   - language/in/English
 ---
 

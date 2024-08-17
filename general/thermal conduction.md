@@ -3,7 +3,7 @@ aliases:
   - conduction
   - thermal conduction
 tags:
-  - flashcard/general/thermal_conduction
+  - flashcard/active/general/thermal_conduction
   - language/in/English
 ---
 

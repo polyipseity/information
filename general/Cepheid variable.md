@@ -3,7 +3,7 @@ aliases:
   - Cepheid variable
   - Cepheid variables
 tags:
-  - flashcard/general/Cepheid_variable
+  - flashcard/active/general/Cepheid_variable
   - language/in/English
 ---
 

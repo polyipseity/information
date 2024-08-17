@@ -4,7 +4,7 @@ aliases:
   - corrosive substance
   - corrosive substances
 tags:
-  - flashcard/general/corrosive_substance
+  - flashcard/active/general/corrosive_substance
   - language/in/English
 ---
 

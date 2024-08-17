@@ -3,7 +3,7 @@ aliases:
   - perpendicular axis theorem
   - plane figure theorem
 tags:
-  - flashcard/general/perpendicular_axis_theorem
+  - flashcard/active/general/perpendicular_axis_theorem
   - language/in/English
 ---
 

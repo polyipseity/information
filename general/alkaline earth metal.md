@@ -7,7 +7,7 @@ aliases:
   - group II
   - group IIA
 tags:
-  - flashcard/general/alkaline_earth_metal
+  - flashcard/active/general/alkaline_earth_metal
   - language/in/English
 ---
 

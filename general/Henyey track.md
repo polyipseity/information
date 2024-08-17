@@ -3,7 +3,7 @@ aliases:
   - Henyey track
   - Henyey tracks
 tags:
-  - flashcard/general/Henyey_track
+  - flashcard/active/general/Henyey_track
   - language/in/English
 ---
 

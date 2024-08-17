@@ -5,7 +5,7 @@ aliases:
   - rate law
   - rate laws
 tags:
-  - flashcard/general/rate_equation
+  - flashcard/active/general/rate_equation
   - language/in/English
 ---
 

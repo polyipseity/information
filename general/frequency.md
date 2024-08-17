@@ -5,7 +5,7 @@ aliases:
   - temporal frequencies
   - temporal frequency
 tags:
-  - flashcard/general/frequency
+  - flashcard/active/general/frequency
   - language/in/English
 ---
 

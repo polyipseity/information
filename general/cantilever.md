@@ -3,7 +3,7 @@ aliases:
   - cantilever
   - cantilevers
 tags:
-  - flashcard/general/cantilever
+  - flashcard/active/general/cantilever
   - language/in/English
 ---
 

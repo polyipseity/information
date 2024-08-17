@@ -2,7 +2,7 @@
 aliases:
   - solar time
 tags:
-  - flashcard/general/solar_time
+  - flashcard/active/general/solar_time
   - language/in/English
 ---
 

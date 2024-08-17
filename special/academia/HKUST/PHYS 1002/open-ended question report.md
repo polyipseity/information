@@ -25,7 +25,7 @@ aliases:
   - PHYS1002 open-ended question reports
   - PHYS1002 open-ended questions
 tags:
-  - flashcard/special/academia/HKUST/PHYS_1002/open-ended_question_report
+  - flashcard/active/special/academia/HKUST/PHYS_1002/open-ended_question_report
   - language/in/English
 ---
 

@@ -7,7 +7,7 @@ aliases:
   - halogen
   - halogens
 tags:
-  - flashcard/general/halogen
+  - flashcard/active/general/halogen
   - language/in/English
 ---
 

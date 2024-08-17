@@ -3,7 +3,7 @@ aliases:
   - MySQL index
   - MySQL indexes
 tags:
-  - flashcard/special/MySQL/index
+  - flashcard/active/special/MySQL/index
   - function/index
   - language/in/English
 ---

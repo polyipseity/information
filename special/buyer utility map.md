@@ -3,7 +3,7 @@ aliases:
   - Buyer Utility Map
   - buyer utility map
 tags:
-  - flashcard/special/buyer_utility_map
+  - flashcard/active/special/buyer_utility_map
   - language/in/English
 ---
 

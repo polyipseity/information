@@ -9,7 +9,7 @@ aliases:
   - HKUST COMP1029J
   - HKUST COMP1029J index
 tags:
-  - flashcard/special/academia/HKUST/COMP_1029J/index
+  - flashcard/active/special/academia/HKUST/COMP_1029J/index
   - function/index
   - language/in/English
 ---

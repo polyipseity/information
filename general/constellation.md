@@ -3,7 +3,7 @@ aliases:
   - constellation
   - constellations
 tags:
-  - flashcard/general/constellation
+  - flashcard/active/general/constellation
   - language/in/English
 ---
 

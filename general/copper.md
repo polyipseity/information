@@ -3,7 +3,7 @@ aliases:
   - Cu
   - copper
 tags:
-  - flashcard/general/copper
+  - flashcard/active/general/copper
   - language/in/English
 ---
 

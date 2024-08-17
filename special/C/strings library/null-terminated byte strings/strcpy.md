@@ -5,7 +5,7 @@ aliases:
   - strcpy
   - strcpy_s
 tags:
-  - flashcard/special/C/strings_library/null-terminated_byte_strings/strcpy
+  - flashcard/active/special/C/strings_library/null-terminated_byte_strings/strcpy
   - language/in/English
 ---
 

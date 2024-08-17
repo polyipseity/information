@@ -9,7 +9,7 @@ aliases:
   - LANG1403A
   - LANG1403A review
 tags:
-  - flashcard/special/academia/HKUST/LANG_1403A/review
+  - flashcard/active/special/academia/HKUST/LANG_1403A/review
   - language/in/English
 ---
 

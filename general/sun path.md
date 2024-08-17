@@ -5,7 +5,7 @@ aliases:
   - sun path
   - sun paths
 tags:
-  - flashcard/general/sun_path
+  - flashcard/active/general/sun_path
   - language/in/English
 ---
 

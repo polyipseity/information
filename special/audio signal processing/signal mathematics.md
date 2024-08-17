@@ -5,7 +5,7 @@ aliases:
   - signal mathematic
   - signal mathematics
 tags:
-  - flashcard/special/audio_signal_processing/signal_mathematics
+  - flashcard/active/special/audio_signal_processing/signal_mathematics
   - language/in/English
 ---
 

@@ -2,7 +2,7 @@
 aliases:
   - integration by substitution
 tags:
-  - flashcard/special/integration_by_substitution
+  - flashcard/active/special/integration_by_substitution
   - language/in/English
 ---
 

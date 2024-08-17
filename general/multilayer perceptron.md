@@ -5,7 +5,7 @@ aliases:
   - multilayer perceptron
   - multilayer perceptrons
 tags:
-  - flashcard/general/multilayer_perceptron
+  - flashcard/active/general/multilayer_perceptron
   - language/in/English
 ---
 

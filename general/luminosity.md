@@ -3,7 +3,7 @@ aliases:
   - luminosities
   - luminosity
 tags:
-  - flashcard/general/luminosity
+  - flashcard/active/general/luminosity
   - language/in/English
 ---
 

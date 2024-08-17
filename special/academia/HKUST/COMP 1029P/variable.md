@@ -3,7 +3,7 @@ aliases:
   - Python variable
   - Python variables
 tags:
-  - flashcard/special/academia/HKUST/COMP_1029P/variable
+  - flashcard/active/special/academia/HKUST/COMP_1029P/variable
   - language/in/English
 ---
 

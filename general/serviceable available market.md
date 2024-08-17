@@ -4,7 +4,7 @@ aliases:
   - served available market
   - serviceable available market
 tags:
-  - flashcard/general/serviceable_available_market
+  - flashcard/active/general/serviceable_available_market
   - language/in/English
 ---
 

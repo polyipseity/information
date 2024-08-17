@@ -2,7 +2,7 @@
 aliases:
   - cosmology
 tags:
-  - flashcard/general/cosmology
+  - flashcard/active/general/cosmology
   - language/in/English
 ---
 

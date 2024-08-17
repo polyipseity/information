@@ -4,7 +4,7 @@ aliases:
   - distillation
   - distills
 tags:
-  - flashcard/general/distillation
+  - flashcard/active/general/distillation
   - language/in/English
 ---
 

@@ -3,7 +3,7 @@ aliases:
   - Java object
   - Java objects
 tags:
-  - flashcard/special/academia/HKUST/COMP_1029J/object
+  - flashcard/active/special/academia/HKUST/COMP_1029J/object
   - language/in/English
 ---
 

@@ -2,7 +2,7 @@
 aliases:
   - 5-step persuasive selling
 tags:
-  - flashcard/special/5-step_persuasive_selling
+  - flashcard/active/special/5-step_persuasive_selling
   - language/in/English
 ---
 

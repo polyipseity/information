@@ -3,7 +3,7 @@ aliases:
   - mechanical energies
   - mechanical energy
 tags:
-  - flashcard/general/mechanical_energy
+  - flashcard/active/general/mechanical_energy
   - language/in/English
 ---
 

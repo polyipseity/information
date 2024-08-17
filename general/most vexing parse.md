@@ -2,7 +2,7 @@
 aliases:
   - most vexing parse
 tags:
-  - flashcard/general/most_vexing_parse
+  - flashcard/active/general/most_vexing_parse
   - language/in/English
 ---
 

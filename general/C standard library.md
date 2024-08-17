@@ -10,7 +10,7 @@ aliases:
   - cstdlib
   - stdlib.h
 tags:
-  - flashcard/general/C_standard_library
+  - flashcard/active/general/C_standard_library
   - language/in/English
 ---
 

@@ -1,6 +1,6 @@
 ---
 tags:
-  - flashcard/general/Earth
+  - flashcard/active/general/Earth
   - language/in/English
 ---
 

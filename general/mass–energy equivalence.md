@@ -3,7 +3,7 @@ aliases:
   - mass-energy equivalence
   - mass–energy equivalence
 tags:
-  - flashcard/general/mass-energy_equivalence
+  - flashcard/active/general/mass-energy_equivalence
   - language/in/English
 ---
 

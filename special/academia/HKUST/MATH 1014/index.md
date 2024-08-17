@@ -9,7 +9,7 @@ aliases:
   - HKUST MATH1014
   - HKUST MATH1014 index
 tags:
-  - flashcard/special/academia/HKUST/MATH_1014/index
+  - flashcard/active/special/academia/HKUST/MATH_1014/index
   - function/index
   - language/in/English
 ---

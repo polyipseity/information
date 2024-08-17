@@ -5,7 +5,7 @@ aliases:
   - horizontal coordinate systems
   - horizontal coordinates
 tags:
-  - flashcard/general/horizontal_coordinate_system
+  - flashcard/active/general/horizontal_coordinate_system
   - language/in/English
 ---
 

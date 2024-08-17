@@ -3,7 +3,7 @@ aliases:
   - asterism
   - asterisms
 tags:
-  - flashcard/general/asterism__astronomy_
+  - flashcard/active/general/asterism__astronomy_
   - language/in/English
 ---
 

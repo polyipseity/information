@@ -5,7 +5,7 @@ aliases:
   - share of market
   - target market
 tags:
-  - flashcard/general/target_market
+  - flashcard/active/general/target_market
   - language/in/English
 ---
 

@@ -3,7 +3,7 @@ aliases:
   - Kelvin-Helmholtz mechanism
   - Kelvin–Helmholtz mechanism
 tags:
-  - flashcard/general/Kelvin-Helmholtz_mechanism
+  - flashcard/active/general/Kelvin-Helmholtz_mechanism
   - language/in/English
 ---
 

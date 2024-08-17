@@ -4,7 +4,7 @@ aliases:
   - FP-growth algorithm
   - frequent pattern growth algorithm
 tags:
-  - flashcard/general/FP-growth_algorithm
+  - flashcard/active/general/FP-growth_algorithm
   - language/in/English
 ---
 

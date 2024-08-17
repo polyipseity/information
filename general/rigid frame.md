@@ -2,7 +2,7 @@
 aliases:
   - rigid frame
 tags:
-  - flashcard/general/rigid_frame
+  - flashcard/active/general/rigid_frame
   - language/in/English
 ---
 

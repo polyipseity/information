@@ -3,7 +3,7 @@ aliases:
   - ID3
   - ID3 algorithm
 tags:
-  - flashcard/general/ID3_algorithm
+  - flashcard/active/general/ID3_algorithm
   - language/in/English
 ---
 

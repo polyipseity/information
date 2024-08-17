@@ -5,7 +5,7 @@ aliases:
   - calorimeter
   - calorimeters
 tags:
-  - flashcard/general/calorimeter
+  - flashcard/active/general/calorimeter
   - language/in/English
 ---
 

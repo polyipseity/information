@@ -4,7 +4,7 @@ aliases:
   - Na<sub>2</sub>CO<sub>3</sub>
   - sodium carbonate
 tags:
-  - flashcard/general/sodium_carbonate
+  - flashcard/active/general/sodium_carbonate
   - language/in/English
 ---
 

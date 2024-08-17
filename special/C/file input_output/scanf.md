@@ -13,7 +13,7 @@ aliases:
   - sscanf
   - sscanf_s
 tags:
-  - flashcard/special/C/file_intput_output/scanf
+  - flashcard/active/special/C/file_intput_output/scanf
   - language/in/English
 ---
 

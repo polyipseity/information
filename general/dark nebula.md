@@ -7,7 +7,7 @@ aliases:
   - dark nebulae
   - dark nebulas
 tags:
-  - flashcard/general/dark_nebula
+  - flashcard/active/general/dark_nebula
   - language/in/English
 ---
 

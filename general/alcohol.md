@@ -3,7 +3,7 @@ aliases:
   - alcohol
   - alcohols
 tags:
-  - flashcard/general/alcohol
+  - flashcard/active/general/alcohol
   - language/in/English
 ---
 

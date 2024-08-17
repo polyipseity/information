@@ -6,7 +6,7 @@ aliases:
   - laboratory instrument
   - laboratory instruments
 tags:
-  - flashcard/general/laboratory_equipment
+  - flashcard/active/general/laboratory_equipment
   - language/in/English
 ---
 

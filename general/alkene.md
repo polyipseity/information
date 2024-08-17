@@ -3,7 +3,7 @@ aliases:
   - alkene
   - alkenes
 tags:
-  - flashcard/general/alkene
+  - flashcard/active/general/alkene
   - language/in/English
 ---
 

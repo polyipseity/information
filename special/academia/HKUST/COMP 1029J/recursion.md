@@ -3,7 +3,7 @@ aliases:
   - Java recursion
   - Java recursions
 tags:
-  - flashcard/special/academia/HKUST/COMP_1029J/recursion
+  - flashcard/active/special/academia/HKUST/COMP_1029J/recursion
   - language/in/English
 ---
 

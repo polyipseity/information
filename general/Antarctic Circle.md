@@ -2,7 +2,7 @@
 aliases:
   - Antarctic Circle
 tags:
-  - flashcard/general/Antarctic_Circle
+  - flashcard/active/general/Antarctic_Circle
   - language/in/English
 ---
 

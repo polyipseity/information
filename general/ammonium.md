@@ -3,7 +3,7 @@ aliases:
   - NH4+
   - ammonium
 tags:
-  - flashcard/general/ammonium
+  - flashcard/active/general/ammonium
   - language/in/English
 ---
 

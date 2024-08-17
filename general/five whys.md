@@ -3,7 +3,7 @@ aliases:
   - 5 whys
   - five whys
 tags:
-  - flashcard/general/five_whys
+  - flashcard/active/general/five_whys
   - language/in/English
 ---
 

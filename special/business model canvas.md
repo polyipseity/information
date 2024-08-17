@@ -2,7 +2,7 @@
 aliases:
   - business model canvas
 tags:
-  - flashcard/special/business_model_canvas
+  - flashcard/active/special/business_model_canvas
   - language/in/English
 ---
 

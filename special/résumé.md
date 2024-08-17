@@ -3,7 +3,7 @@ aliases:
   - resume
   - résumé
 tags:
-  - flashcard/special/résumé
+  - flashcard/active/special/résumé
   - language/in/English
 ---
 

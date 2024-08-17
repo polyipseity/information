@@ -5,7 +5,7 @@ aliases:
   - transition metal
   - transition metals
 tags:
-  - flashcard/general/transition_metal
+  - flashcard/active/general/transition_metal
   - language/in/English
 ---
 

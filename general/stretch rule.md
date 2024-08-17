@@ -5,7 +5,7 @@ aliases:
   - Routh’s rule
   - stretch rule
 tags:
-  - flashcard/general/stretch_rule
+  - flashcard/active/general/stretch_rule
   - language/in/English
 ---
 

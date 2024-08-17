@@ -6,7 +6,7 @@ aliases:
   - electromagnetic wave
   - electromagnetic waves
 tags:
-  - flashcard/general/electromagnetic_radiation
+  - flashcard/active/general/electromagnetic_radiation
   - language/in/English
 ---
 

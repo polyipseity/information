@@ -3,7 +3,7 @@ aliases:
   - Excel object
   - Excel objects
 tags:
-  - flashcard/special/academia/HKUST/COMP_1029V/Excel_object
+  - flashcard/active/special/academia/HKUST/COMP_1029V/Excel_object
   - language/in/English
 ---
 

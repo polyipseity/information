@@ -3,7 +3,7 @@ aliases:
   - exponentiation
   - exponentiations
 tags:
-  - flashcard/general/exponentiation
+  - flashcard/active/general/exponentiation
   - language/in/English
 ---
 

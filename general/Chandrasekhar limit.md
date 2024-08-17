@@ -3,7 +3,7 @@ aliases:
   - Chandrasekhar limit
   - Chandrasekhar limits
 tags:
-  - flashcard/general/Chandrasekhar_limit
+  - flashcard/active/general/Chandrasekhar_limit
   - language/in/English
 ---
 

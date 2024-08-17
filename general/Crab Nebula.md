@@ -6,7 +6,7 @@ aliases:
   - NGC 1952
   - Taurus A
 tags:
-  - flashcard/general/Crab_Nebula
+  - flashcard/active/general/Crab_Nebula
   - language/in/English
 ---
 

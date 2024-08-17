@@ -3,7 +3,7 @@ aliases:
   - Python object
   - Python objects
 tags:
-  - flashcard/special/academia/HKUST/COMP_1029P/object
+  - flashcard/active/special/academia/HKUST/COMP_1029P/object
   - language/in/English
 ---
 

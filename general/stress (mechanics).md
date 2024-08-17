@@ -3,7 +3,7 @@ aliases:
   - mechanical stress
   - stress
 tags:
-  - flashcard/general/stress__mechanics_
+  - flashcard/active/general/stress__mechanics_
   - language/in/English
 ---
 

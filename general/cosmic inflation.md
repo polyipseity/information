@@ -7,7 +7,7 @@ aliases:
   - inflation
   - inflations
 tags:
-  - flashcard/general/cosmic_inflation
+  - flashcard/active/general/cosmic_inflation
   - language/in/English
 ---
 

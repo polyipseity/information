@@ -1,7 +1,7 @@
 ---
 aliases: []
 tags:
-  - flashcard/special/Microsoft_Windows_usage
+  - flashcard/active/special/Microsoft_Windows_usage
   - language/in/English
 ---
 

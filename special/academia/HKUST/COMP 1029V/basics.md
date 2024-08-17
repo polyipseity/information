@@ -3,7 +3,7 @@ aliases:
   - VBA basic
   - VBA basics
 tags:
-  - flashcard/special/academia/HKUST/COMP_1029V/basics
+  - flashcard/active/special/academia/HKUST/COMP_1029V/basics
   - language/in/English
 ---
 

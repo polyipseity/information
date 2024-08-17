@@ -5,7 +5,7 @@ aliases:
   - Earth's orbit
   - Earth's orbits
 tags:
-  - flashcard/general/Earth_s_orbit
+  - flashcard/active/general/Earth_s_orbit
   - language/in/English
 ---
 

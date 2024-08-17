@@ -2,7 +2,7 @@
 aliases:
   - value proposition canvas
 tags:
-  - flashcard/special/value_proposition_canvas
+  - flashcard/active/special/value_proposition_canvas
   - language/in/English
 ---
 

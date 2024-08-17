@@ -4,7 +4,7 @@ aliases:
   - dynamic equilibrium
   - dynamic equilibriums
 tags:
-  - flashcard/general/dynamic_equilibrium
+  - flashcard/active/general/dynamic_equilibrium
   - language/in/English
 ---
 

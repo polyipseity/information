@@ -2,7 +2,7 @@
 aliases:
   - IBM prioritization grid
 tags:
-  - flashcard/special/IBM_prioritization_grid
+  - flashcard/active/special/IBM_prioritization_grid
   - language/in/English
 ---
 

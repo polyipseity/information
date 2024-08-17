@@ -3,7 +3,7 @@ aliases:
   - K2O
   - potassium oxide
 tags:
-  - flashcard/general/potassium_oxide
+  - flashcard/active/general/potassium_oxide
   - language/in/English
 ---
 

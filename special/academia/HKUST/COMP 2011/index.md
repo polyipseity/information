@@ -9,7 +9,7 @@ aliases:
   - HKUST COMP2011
   - HKUST COMP2011 index
 tags:
-  - flashcard/special/academia/HKUST/COMP_2011/index
+  - flashcard/active/special/academia/HKUST/COMP_2011/index
   - function/index
   - language/in/English
 ---

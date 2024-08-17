@@ -5,7 +5,7 @@ aliases:
   - Dulong–Petit law
   - Dulong–Petit laws
 tags:
-  - flashcard/general/Dulong-Petit_law
+  - flashcard/active/general/Dulong-Petit_law
   - language/in/English
 ---
 

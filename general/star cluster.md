@@ -3,7 +3,7 @@ aliases:
   - star cluster
   - star clusters
 tags:
-  - flashcard/general/star_cluster
+  - flashcard/active/general/star_cluster
   - language/in/English
 ---
 

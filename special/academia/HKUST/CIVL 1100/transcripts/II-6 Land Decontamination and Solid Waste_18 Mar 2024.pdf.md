@@ -2,7 +2,7 @@
 aliases:
   - II-6 Land Decontamination and Solid Waste_18 Mar 2024.pdf
 tags:
-  - flashcard/special/academia/HKUST/CIVL_1100/transcripts/II-6_Land_Decontamination_and_Solid_Waste_18_Mar_2024_pdf
+  - flashcard/active/special/academia/HKUST/CIVL_1100/transcripts/II-6_Land_Decontamination_and_Solid_Waste_18_Mar_2024_pdf
   - language/in/English
 ---
 

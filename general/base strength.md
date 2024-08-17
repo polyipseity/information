@@ -5,7 +5,7 @@ aliases:
   - strong base
   - strong bases
 tags:
-  - flashcard/general/base_strength
+  - flashcard/active/general/base_strength
   - language/in/English
 ---
 

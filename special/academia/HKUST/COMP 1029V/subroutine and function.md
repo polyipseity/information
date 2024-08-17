@@ -9,7 +9,7 @@ aliases:
   - VBA subroutines
   - VBA subroutines and functions
 tags:
-  - flashcard/special/academia/HKUST/COMP_1029V/subroutine_and_function
+  - flashcard/active/special/academia/HKUST/COMP_1029V/subroutine_and_function
   - language/in/English
 ---
 

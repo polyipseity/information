@@ -2,7 +2,7 @@
 aliases:
   - mixtures
 tags:
-  - flashcard/general/mixture
+  - flashcard/active/general/mixture
   - language/in/English
 ---
 

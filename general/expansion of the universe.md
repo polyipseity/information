@@ -7,7 +7,7 @@ aliases:
   - universe expansion
   - universe expansions
 tags:
-  - flashcard/general/expansion_of_the_universe
+  - flashcard/active/general/expansion_of_the_universe
   - language/in/English
 ---
 

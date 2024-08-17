@@ -3,7 +3,7 @@ aliases:
   - folding@calculus
 tags:
   - date/2023/11/08
-  - flashcard/special/questions/folding_calculus
+  - flashcard/active/special/questions/folding_calculus
   - language/in/English
   - question/mathematics/calculus/differential
 ---

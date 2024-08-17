@@ -3,7 +3,7 @@ aliases:
   - regex libraries
   - regex library
 tags:
-  - flashcard/special/regex_library
+  - flashcard/active/special/regex_library
   - language/in/English
 ---
 

@@ -1,6 +1,6 @@
 ---
 tags:
-  - flashcard/general/oxygen
+  - flashcard/active/general/oxygen
   - language/in/English
 ---
 

@@ -7,7 +7,7 @@ aliases:
   - proton number
   - proton numbers
 tags:
-  - flashcard/general/atomic_number
+  - flashcard/active/general/atomic_number
   - language/in/English
 ---
 

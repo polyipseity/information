@@ -3,7 +3,7 @@ aliases:
   - dark matter
   - dark matters
 tags:
-  - flashcard/general/dark_matter
+  - flashcard/active/general/dark_matter
   - language/in/English
 ---
 

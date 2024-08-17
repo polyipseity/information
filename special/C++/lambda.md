@@ -4,7 +4,7 @@ aliases:
   - lambda expression
   - lambda expressions
 tags:
-  - flashcard/special/Cpp/lambda
+  - flashcard/active/special/Cpp/lambda
   - language/in/English
 ---
 

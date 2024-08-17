@@ -6,7 +6,7 @@ aliases:
   - polytropic process
   - polytropic processes
 tags:
-  - flashcard/general/polytropic_process
+  - flashcard/active/general/polytropic_process
   - language/in/English
 ---
 

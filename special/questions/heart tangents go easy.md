@@ -3,7 +3,7 @@ aliases:
   - heart tangents go easy
 tags:
   - date/2023/12/06
-  - flashcard/special/questions/heart_tangents_go_easy
+  - flashcard/active/special/questions/heart_tangents_go_easy
   - language/in/English
   - question/mathematics/calculus/differential
 ---

@@ -2,7 +2,7 @@
 aliases:
   - Avogadro's law
 tags:
-  - flashcard/general/Avogadro_s_law
+  - flashcard/active/general/Avogadro_s_law
   - language/in/English
 ---
 

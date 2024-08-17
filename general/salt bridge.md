@@ -3,7 +3,7 @@ aliases:
   - salt bridge
   - salt bridges
 tags:
-  - flashcard/general/salt_bridge
+  - flashcard/active/general/salt_bridge
   - language/in/English
 ---
 

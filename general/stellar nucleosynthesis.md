@@ -2,7 +2,7 @@
 aliases:
   - stellar nucleosynthesis
 tags:
-  - flashcard/general/stellar_nucleosynthesis
+  - flashcard/active/general/stellar_nucleosynthesis
   - language/in/English
 ---
 

@@ -5,7 +5,7 @@ aliases:
   - upthrust
   - upthrusts
 tags:
-  - flashcard/general/buoyancy
+  - flashcard/active/general/buoyancy
   - language/in/English
 ---
 

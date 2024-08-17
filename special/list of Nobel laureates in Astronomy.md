@@ -3,7 +3,7 @@ aliases:
   - list of Nobel laureates in Astronomy
   - list of Nobel laureates in astronomy
 tags:
-  - flashcard/special/list_of_Nobel_laureates_in_Astronomy
+  - flashcard/active/special/list_of_Nobel_laureates_in_Astronomy
   - language/in/English
 ---
 

@@ -3,7 +3,7 @@ aliases:
   - zenith
   - zeniths
 tags:
-  - flashcard/general/zenith
+  - flashcard/active/general/zenith
   - language/in/English
 ---
 

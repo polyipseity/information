@@ -3,7 +3,7 @@ aliases:
   - Blender help
   - Blender usage
 tags:
-  - flashcard/special/Blender_usage
+  - flashcard/active/special/Blender_usage
   - language/in/English
 ---
 

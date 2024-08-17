@@ -5,7 +5,7 @@ aliases:
   - gravitational potential energies
   - gravitational potential energy
 tags:
-  - flashcard/general/gravitational_energy
+  - flashcard/active/general/gravitational_energy
   - language/in/English
 ---
 

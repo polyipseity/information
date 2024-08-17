@@ -9,7 +9,7 @@ aliases:
   - HKUST GNED2510
   - HKUST GNED2510 index
 tags:
-  - flashcard/special/academia/HKUST/GNED_2510/index
+  - flashcard/active/special/academia/HKUST/GNED_2510/index
   - function/index
   - language/in/English
 ---

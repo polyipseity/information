@@ -6,7 +6,7 @@ aliases:
   - Type II supernovae
   - Type II supernovas
 tags:
-  - flashcard/general/Type_II_supernova
+  - flashcard/active/general/Type_II_supernova
   - language/in/English
 ---
 

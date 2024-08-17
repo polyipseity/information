@@ -13,7 +13,7 @@ aliases:
   - HKUST COMP4321 cheatsheet
   - HKUST COMP4321 cheatsheets
 tags:
-  - flashcard/special/academia/HKUST/COMP_4321/cheatsheet
+  - flashcard/active/special/academia/HKUST/COMP_4321/cheatsheet
   - language/in/English
 ---
 

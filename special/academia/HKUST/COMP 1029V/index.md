@@ -9,7 +9,7 @@ aliases:
   - HKUST COMP1029V
   - HKUST COMP1029V index
 tags:
-  - flashcard/special/academia/HKUST/COMP_1029V/index
+  - flashcard/active/special/academia/HKUST/COMP_1029V/index
   - function/index
   - language/in/English
 ---

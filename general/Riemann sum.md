@@ -5,7 +5,7 @@ aliases:
   - Riemann summations
   - Riemann sums
 tags:
-  - flashcard/general/Riemann_sum
+  - flashcard/active/general/Riemann_sum
   - language/in/English
 ---
 

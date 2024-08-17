@@ -7,7 +7,7 @@ aliases:
   - visual binaries
   - visual binary
 tags:
-  - flashcard/general/binary_system
+  - flashcard/active/general/binary_system
   - language/in/English
 ---
 

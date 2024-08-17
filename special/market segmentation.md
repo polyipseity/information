@@ -2,7 +2,7 @@
 aliases:
   - market segmentation
 tags:
-  - flashcard/special/market_segmentation
+  - flashcard/active/special/market_segmentation
   - language/in/English
 ---
 

@@ -5,7 +5,7 @@ aliases:
   - HKUST ESST index
   - HKUST Engineering Student Safety Training index
 tags:
-  - flashcard/special/academia/HKUST/ESST/index
+  - flashcard/active/special/academia/HKUST/ESST/index
   - function/index
   - language/in/English
 ---

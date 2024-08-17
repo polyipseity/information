@@ -6,7 +6,7 @@ aliases:
   - oils
   - petroleum
 tags:
-  - flashcard/general/petroleum
+  - flashcard/active/general/petroleum
   - language/in/English
 ---
 

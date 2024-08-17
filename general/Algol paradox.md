@@ -3,7 +3,7 @@ aliases:
   - Algol paradox
   - Algol paradoxes
 tags:
-  - flashcard/general/Algol_paradox
+  - flashcard/active/general/Algol_paradox
   - language/in/English
 ---
 

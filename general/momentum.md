@@ -16,7 +16,7 @@ aliases:
   - translational momentum
   - translational momentums
 tags:
-  - flashcard/general/momentum
+  - flashcard/active/general/momentum
   - language/in/English
 ---
 

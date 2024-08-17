@@ -5,7 +5,7 @@ aliases:
   - Herbig–Haro object
   - Herbig–Haro objects
 tags:
-  - flashcard/general/Herbig-Haro_object
+  - flashcard/active/general/Herbig-Haro_object
   - language/in/English
 ---
 

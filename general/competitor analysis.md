@@ -2,7 +2,7 @@
 aliases:
   - competitor analysis
 tags:
-  - flashcard/general/competitor_analysis
+  - flashcard/active/general/competitor_analysis
   - language/in/English
 ---
 

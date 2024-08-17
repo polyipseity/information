@@ -3,7 +3,7 @@ aliases:
   - Haber process
   - Haber–Bosch process
 tags:
-  - flashcard/general/Haber_process
+  - flashcard/active/general/Haber_process
   - language/in/English
 ---
 

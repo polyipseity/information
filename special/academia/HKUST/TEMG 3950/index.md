@@ -9,7 +9,7 @@ aliases:
   - TEMG3950
   - TEMG3950 index
 tags:
-  - flashcard/special/academia/HKUST/TEMG_3950/index
+  - flashcard/active/special/academia/HKUST/TEMG_3950/index
   - function/index
   - language/in/English
 ---

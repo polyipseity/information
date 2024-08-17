@@ -4,7 +4,7 @@ aliases:
   - organic compound
   - organic compounds
 tags:
-  - flashcard/general/organic_compound
+  - flashcard/active/general/organic_compound
   - language/in/English
 ---
 

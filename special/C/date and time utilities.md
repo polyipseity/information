@@ -2,7 +2,7 @@
 aliases:
   - date and time utilities
 tags:
-  - flashcard/special/C/date_and_time_utilities
+  - flashcard/active/special/C/date_and_time_utilities
   - language/in/English
 ---
 

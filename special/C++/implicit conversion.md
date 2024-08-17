@@ -3,7 +3,7 @@ aliases:
   - implicit conversion
   - implicit conversions
 tags:
-  - flashcard/special/Cpp/implicit_conversion
+  - flashcard/active/special/Cpp/implicit_conversion
   - language/in/English
 ---
 

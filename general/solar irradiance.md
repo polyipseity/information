@@ -2,7 +2,7 @@
 aliases:
   - solar irradiance
 tags:
-  - flashcard/general/solar_irradiance
+  - flashcard/active/general/solar_irradiance
   - language/in/English
 ---
 

@@ -5,7 +5,7 @@ aliases:
   - TEMG 3950 information
   - TEMG3950 information
 tags:
-  - flashcard/special/academia/HKUST/TEMG_3950/information
+  - flashcard/active/special/academia/HKUST/TEMG_3950/information
   - language/in/English
 ---
 

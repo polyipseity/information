@@ -4,7 +4,7 @@ aliases:
   - isomeres
   - isomerism
 tags:
-  - flashcard/general/isomer
+  - flashcard/active/general/isomer
   - language/in/English
 ---
 

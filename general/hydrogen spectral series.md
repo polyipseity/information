@@ -2,7 +2,7 @@
 aliases:
   - hydrogen spectral series
 tags:
-  - flashcard/general/hydrogen_spectral_series
+  - flashcard/active/general/hydrogen_spectral_series
   - language/in/English
 ---
 

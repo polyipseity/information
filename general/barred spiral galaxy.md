@@ -3,7 +3,7 @@ aliases:
   - barred spiral galaxies
   - barred spiral galaxy
 tags:
-  - flashcard/general/barred_spiral_galaxy
+  - flashcard/active/general/barred_spiral_galaxy
   - language/in/English
 ---
 

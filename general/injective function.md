@@ -7,7 +7,7 @@ aliases:
   - one-to-one function
   - one-to-one functions
 tags:
-  - flashcard/general/injective_function
+  - flashcard/active/general/injective_function
   - language/in/English
 ---
 

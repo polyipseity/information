@@ -3,7 +3,7 @@ aliases:
   - emission spectra
   - emission spectrum
 tags:
-  - flashcard/general/emission_spectrum
+  - flashcard/active/general/emission_spectrum
   - language/in/English
 ---
 

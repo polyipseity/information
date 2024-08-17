@@ -1,6 +1,6 @@
 ---
 tags:
-  - flashcard/general/Rutherford_model
+  - flashcard/active/general/Rutherford_model
   - language/in/English
 ---
 

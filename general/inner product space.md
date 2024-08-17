@@ -4,7 +4,7 @@ aliases:
   - inner product space
   - inner product spaces
 tags:
-  - flashcard/general/inner_product_space
+  - flashcard/active/general/inner_product_space
   - language/in/English
 ---
 

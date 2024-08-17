@@ -3,7 +3,7 @@ aliases:
   - nebula
   - nebulas
 tags:
-  - flashcard/general/nebula
+  - flashcard/active/general/nebula
   - language/in/English
 ---
 

@@ -5,7 +5,7 @@ aliases:
   - reflector
   - reflectors
 tags:
-  - flashcard/general/reflecting_telescope
+  - flashcard/active/general/reflecting_telescope
   - language/in/English
 ---
 

@@ -3,7 +3,7 @@ aliases:
   - perceptron
   - perceptrons
 tags:
-  - flashcard/general/perceptron
+  - flashcard/active/general/perceptron
   - language/in/English
 ---
 

@@ -3,7 +3,7 @@ aliases:
   - apparent magnitude
   - apparent magnitudes
 tags:
-  - flashcard/general/apparent_magnitude
+  - flashcard/active/general/apparent_magnitude
   - language/in/English
 ---
 

@@ -5,7 +5,7 @@ aliases:
   - astronomical unit
   - astronomical units
 tags:
-  - flashcard/general/astronomical_unit
+  - flashcard/active/general/astronomical_unit
   - language/in/English
 ---
 

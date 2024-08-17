@@ -2,7 +2,7 @@
 aliases:
   - HKUST index
 tags:
-  - flashcard/special/academia/HKUST/index
+  - flashcard/active/special/academia/HKUST/index
   - function/index
   - language/in/English
 ---

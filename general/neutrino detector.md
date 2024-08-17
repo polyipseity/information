@@ -3,7 +3,7 @@ aliases:
   - neutrino detector
   - neutrino detectors
 tags:
-  - flashcard/general/neutrino_detector
+  - flashcard/active/general/neutrino_detector
   - language/in/English
 ---
 

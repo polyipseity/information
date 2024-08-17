@@ -5,7 +5,7 @@ aliases:
   - fopen
   - fopen_s
 tags:
-  - flashcard/special/C/file_input_output/fopen
+  - flashcard/active/special/C/file_input_output/fopen
   - language/in/English
 ---
 

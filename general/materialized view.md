@@ -5,7 +5,7 @@ aliases:
   - view materialization
   - view materializations
 tags:
-  - flashcard/general/materialized_view
+  - flashcard/active/general/materialized_view
   - language/in/English
 ---
 

@@ -1,6 +1,6 @@
 ---
 tags:
-  - flashcard/general/crystallization
+  - flashcard/active/general/crystallization
   - language/in/English
 ---
 

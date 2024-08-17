@@ -5,7 +5,7 @@ aliases:
   - degenerate matter
   - degenerate matters
 tags:
-  - flashcard/general/degenerate_matter
+  - flashcard/active/general/degenerate_matter
   - language/in/English
 ---
 

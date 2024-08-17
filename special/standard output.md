@@ -3,7 +3,7 @@ aliases:
   - standard output
   - stdout
 tags:
-  - flashcard/special/standard_output
+  - flashcard/active/special/standard_output
   - language/in/English
 ---
 

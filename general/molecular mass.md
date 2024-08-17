@@ -3,7 +3,7 @@ aliases:
   - molecular mass
   - relative molecular mass
 tags:
-  - flashcard/general/molecular_mass
+  - flashcard/active/general/molecular_mass
   - language/in/English
 ---
 

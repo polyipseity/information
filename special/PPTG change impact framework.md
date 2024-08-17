@@ -4,7 +4,7 @@ aliases:
   - PPTG change impact
   - PPTG change impact framework
 tags:
-  - flashcard/special/PPTG_change_impact_framework
+  - flashcard/active/special/PPTG_change_impact_framework
   - language/in/English
 ---
 

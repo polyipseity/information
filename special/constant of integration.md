@@ -3,7 +3,7 @@ aliases:
   - constant of integration
   - constants of integration
 tags:
-  - flashcard/special/constant_of_integration
+  - flashcard/active/special/constant_of_integration
   - language/in/English
 ---
 

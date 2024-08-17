@@ -3,7 +3,7 @@ aliases:
   - interstellar cloud
   - interstellar clouds
 tags:
-  - flashcard/general/interstellar_cloud
+  - flashcard/active/general/interstellar_cloud
   - language/in/English
 ---
 

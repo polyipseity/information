@@ -13,7 +13,7 @@ aliases:
   - HKUST CIVL1100 data
   - HKUST CIVL1100 datum
 tags:
-  - flashcard/special/academia/HKUST/CIVL_1100/data
+  - flashcard/active/special/academia/HKUST/CIVL_1100/data
   - language/in/English
 ---
 

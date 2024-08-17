@@ -5,7 +5,7 @@ aliases:
   - Python docstring
   - Python docstrings
 tags:
-  - flashcard/special/academia/HKUST/COMP_1029P/comment
+  - flashcard/active/special/academia/HKUST/COMP_1029P/comment
   - language/in/English
 ---
 

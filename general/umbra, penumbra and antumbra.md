@@ -11,7 +11,7 @@ aliases:
   - umbras, penumbras and antumbras
   - umbras, penumbras, and antumbras
 tags:
-  - flashcard/general/umbra__penumbra_and_antumbra
+  - flashcard/active/general/umbra__penumbra_and_antumbra
   - language/in/English
 ---
  ant

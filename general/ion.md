@@ -7,7 +7,7 @@ aliases:
   - ion
   - ions
 tags:
-  - flashcard/general/ion
+  - flashcard/active/general/ion
   - language/in/English
 ---
 

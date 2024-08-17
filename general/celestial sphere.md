@@ -3,7 +3,7 @@ aliases:
   - celestial sphere
   - celestial spheres
 tags:
-  - flashcard/general/celestial_sphere
+  - flashcard/active/general/celestial_sphere
   - language/in/English
 ---
 

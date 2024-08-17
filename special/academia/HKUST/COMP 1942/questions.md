@@ -13,7 +13,7 @@ aliases:
   - HKUST COMP1942 question
   - HKUST COMP1942 questions
 tags:
-  - flashcard/special/academia/HKUST/COMP_1942/questions
+  - flashcard/active/special/academia/HKUST/COMP_1942/questions
   - language/in/English
 ---
 

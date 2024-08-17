@@ -6,7 +6,7 @@ aliases:
   - Steiner’s theorem
   - parallel axis theorem
 tags:
-  - flashcard/general/parallel_axis_theorem
+  - flashcard/active/general/parallel_axis_theorem
   - language/in/English
 ---
 

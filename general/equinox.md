@@ -3,7 +3,7 @@ aliases:
   - equinox
   - equinoxes
 tags:
-  - flashcard/general/equinox
+  - flashcard/active/general/equinox
   - language/in/English
 ---
 

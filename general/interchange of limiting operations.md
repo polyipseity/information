@@ -3,7 +3,7 @@ aliases:
   - interchange of limit operation
   - interchange of limit operations
 tags:
-  - flashcard/general/interchange_of_limiting_operations
+  - flashcard/active/general/interchange_of_limiting_operations
   - language/in/English
 ---
 

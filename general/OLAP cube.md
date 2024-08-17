@@ -3,7 +3,7 @@ aliases:
   - OLAP cube
   - OLAP cubes
 tags:
-  - flashcard/general/OLAP_cube
+  - flashcard/active/general/OLAP_cube
   - language/in/English
 ---
 

@@ -43,7 +43,7 @@ aliases:
   - two-sided second-derivative test
   - two-sided second-derivative tests
 tags:
-  - flashcard/general/derivative_test
+  - flashcard/active/general/derivative_test
   - language/in/English
 ---
 

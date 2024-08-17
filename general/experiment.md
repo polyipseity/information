@@ -1,6 +1,6 @@
 ---
 tags:
-  - flashcard/general/experiment
+  - flashcard/active/general/experiment
   - language/in/English
 ---
 

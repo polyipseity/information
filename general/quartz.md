@@ -2,7 +2,7 @@
 aliases:
   - quartz
 tags:
-  - flashcard/general/quartz
+  - flashcard/active/general/quartz
   - language/in/English
 ---
 

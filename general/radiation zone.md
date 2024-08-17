@@ -3,7 +3,7 @@ aliases:
   - radiation zone
   - radiation zones
 tags:
-  - flashcard/general/radiation_zone
+  - flashcard/active/general/radiation_zone
   - language/in/English
 ---
 

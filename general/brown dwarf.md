@@ -3,7 +3,7 @@ aliases:
   - brown dwarf
   - brown dwarfs
 tags:
-  - flashcard/general/brown_dwarf
+  - flashcard/active/general/brown_dwarf
   - language/in/English
 ---
 

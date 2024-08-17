@@ -3,7 +3,7 @@ aliases:
   - signal tool
   - signal tools
 tags:
-  - flashcard/special/audio_signal_processing/signal_tools
+  - flashcard/active/special/audio_signal_processing/signal_tools
   - language/in/English
 ---
 

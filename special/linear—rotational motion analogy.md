@@ -2,7 +2,7 @@
 aliases:
   - linear—rotational motion analogy
 tags:
-  - flashcard/special/linear-rotational_motion_analogy
+  - flashcard/active/special/linear-rotational_motion_analogy
   - language/in/English
 ---
 

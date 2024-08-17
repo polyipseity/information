@@ -3,7 +3,7 @@ aliases:
   - "`fclose`"
   - fclose
 tags:
-  - flashcard/special/C/file_input_output/fclose
+  - flashcard/active/special/C/file_input_output/fclose
   - language/in/English
 ---
 

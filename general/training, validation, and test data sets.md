@@ -21,7 +21,7 @@ aliases:
   - validation dataset
   - validation datasets
 tags:
-  - flashcard/general/training__validation__and_test_data_sets
+  - flashcard/active/general/training__validation__and_test_data_sets
   - language/in/English
 ---
 

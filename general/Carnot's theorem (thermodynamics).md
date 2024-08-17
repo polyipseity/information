@@ -6,7 +6,7 @@ aliases:
   - Carnot's theorem
   - Carnot's theorem (thermodynamics)
 tags:
-  - flashcard/general/Carnot_s_theorem__thermodynamics_
+  - flashcard/active/general/Carnot_s_theorem__thermodynamics_
   - language/in/English
 ---
 

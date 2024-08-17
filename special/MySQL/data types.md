@@ -2,7 +2,7 @@
 aliases:
   - data types
 tags:
-  - flashcard/special/MySQL/data_types
+  - flashcard/active/special/MySQL/data_types
   - language/in/English
 ---
 

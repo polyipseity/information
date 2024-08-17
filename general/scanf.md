@@ -4,7 +4,7 @@ aliases:
   - "`scanf`"
   - scanf
 tags:
-  - flashcard/general/scanf
+  - flashcard/active/general/scanf
   - language/in/English
 ---
 

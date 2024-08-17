@@ -4,7 +4,7 @@ aliases:
   - Big bang
   - big bang
 tags:
-  - flashcard/general/Big_Bang
+  - flashcard/active/general/Big_Bang
   - language/in/English
 ---
 

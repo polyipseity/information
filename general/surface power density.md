@@ -3,7 +3,7 @@ aliases:
   - surface power densities
   - surface power density
 tags:
-  - flashcard/general/surface_power_density
+  - flashcard/active/general/surface_power_density
   - language/in/English
 ---
 

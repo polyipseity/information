@@ -3,7 +3,7 @@ aliases:
   - ionic compound
   - ionic compounds
 tags:
-  - flashcard/general/ionic_compound
+  - flashcard/active/general/ionic_compound
   - language/in/English
 ---
 

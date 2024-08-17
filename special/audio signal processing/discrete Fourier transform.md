@@ -5,7 +5,7 @@ aliases:
   - discrete Fourier transform
   - discrete Fourier transforms
 tags:
-  - flashcard/special/audio_signal_processing/discrete_Fourier_transform
+  - flashcard/active/special/audio_signal_processing/discrete_Fourier_transform
   - language/in/English
 ---
 

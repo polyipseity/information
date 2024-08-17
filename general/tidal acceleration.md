@@ -5,7 +5,7 @@ aliases:
   - tidal deceleration
   - tidal decelerations
 tags:
-  - flashcard/general/tidal_acceleration
+  - flashcard/active/general/tidal_acceleration
   - language/in/English
 ---
 

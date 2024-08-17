@@ -3,7 +3,7 @@ aliases:
   - "`srand`"
   - srand
 tags:
-  - flashcard/special/C/numerics/pseudo-random_number_generation/srand
+  - flashcard/active/special/C/numerics/pseudo-random_number_generation/srand
   - language/in/English
 ---
 

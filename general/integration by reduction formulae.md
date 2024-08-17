@@ -4,7 +4,7 @@ aliases:
   - integration by reduction formulae
   - integration by reduction formulas
 tags:
-  - flashcard/general/integration_by_reduction_formulae
+  - flashcard/active/general/integration_by_reduction_formulae
   - language/in/English
 ---
 

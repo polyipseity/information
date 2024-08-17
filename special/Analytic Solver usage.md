@@ -3,7 +3,7 @@ aliases:
   - Analytic Solver help
   - Analytic Solver usage
 tags:
-  - flashcard/special/Analytic_Solver_usage
+  - flashcard/active/special/Analytic_Solver_usage
   - language/in/English
 ---
 

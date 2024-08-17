@@ -4,7 +4,7 @@ aliases:
   - aluminium
   - aluminum
 tags:
-  - flashcard/general/aluminium
+  - flashcard/active/general/aluminium
   - language/in/English
 ---
 

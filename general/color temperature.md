@@ -3,7 +3,7 @@ aliases:
   - color temperature
   - color temperatures
 tags:
-  - flashcard/general/color_temperature
+  - flashcard/active/general/color_temperature
   - language/in/English
 ---
 

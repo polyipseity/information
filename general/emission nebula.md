@@ -3,7 +3,7 @@ aliases:
   - emission nebula
   - emission nebulae
 tags:
-  - flashcard/general/emission_nebula
+  - flashcard/active/general/emission_nebula
   - language/in/English
 ---
 

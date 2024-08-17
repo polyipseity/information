@@ -9,7 +9,7 @@ aliases:
   - HKUST MATH1013
   - HKUST MATH1013 index
 tags:
-  - flashcard/special/academia/HKUST/MATH_1013/index
+  - flashcard/active/special/academia/HKUST/MATH_1013/index
   - function/index
   - language/in/English
 ---

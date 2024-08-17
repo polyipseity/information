@@ -3,7 +3,7 @@ aliases:
   - starburst galaxies
   - starburst galaxy
 tags:
-  - flashcard/general/starburst_galaxy
+  - flashcard/active/general/starburst_galaxy
   - language/in/English
 ---
 

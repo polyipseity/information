@@ -3,7 +3,7 @@ aliases:
   - solar granule
   - solar granules
 tags:
-  - flashcard/general/solar_granule
+  - flashcard/active/general/solar_granule
   - language/in/English
 ---
 

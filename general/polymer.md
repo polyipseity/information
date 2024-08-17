@@ -3,7 +3,7 @@ aliases:
   - polymer
   - polymers
 tags:
-  - flashcard/general/polymer
+  - flashcard/active/general/polymer
   - language/in/English
 ---
 

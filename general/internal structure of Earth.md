@@ -1,6 +1,6 @@
 ---
 tags:
-  - flashcard/general/internal_structure_of_Earth
+  - flashcard/active/general/internal_structure_of_Earth
   - language/in/English
 ---
 

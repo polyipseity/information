@@ -9,7 +9,7 @@ aliases:
   - HKUST COMP1942
   - HKUST COMP1942 index
 tags:
-  - flashcard/special/academia/HKUST/COMP_1942/index
+  - flashcard/active/special/academia/HKUST/COMP_1942/index
   - function/index
   - language/in/English
 ---

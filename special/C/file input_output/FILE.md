@@ -3,7 +3,7 @@ aliases:
   - FILE
   - "`FILE`"
 tags:
-  - flashcard/special/C/file_input_output/FILE
+  - flashcard/active/special/C/file_input_output/FILE
   - language/in/English
 ---
 

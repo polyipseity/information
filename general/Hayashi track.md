@@ -3,7 +3,7 @@ aliases:
   - Hayashi track
   - Hayashi tracks
 tags:
-  - flashcard/general/Hayashi_track
+  - flashcard/active/general/Hayashi_track
   - language/in/English
 ---
 
