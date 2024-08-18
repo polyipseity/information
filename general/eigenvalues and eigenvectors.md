@@ -37,7 +37,7 @@ Eigenvalues and eigenvectors give rise to {{many closely related mathematical co
 
 ## eigenvalues and eigenvectors of matrices
 
-Eigenvalues and eigenvectors are often introduced to students in {{the context of [linear algebra](linear%20algebra.md) courses focused on [matrices](matrix%20(mathematics).md)}}. Furthermore, linear transformations over {{a finite-[dimensional](dimnsion%20(vector%20space).md) [vector space](vector%20space.md)}} can be represented {{using matrices, which is especially common in numerical and computational applications}}. <!--SR:!2024-09-01,41,306!2024-10-06,70,326!2024-08-18,28,286-->
+Eigenvalues and eigenvectors are often introduced to students in {{the context of [linear algebra](linear%20algebra.md) courses focused on [matrices](matrix%20(mathematics).md)}}. Furthermore, linear transformations over {{a finite-[dimensional](dimnsion%20(vector%20space).md) [vector space](vector%20space.md)}} can be represented {{using matrices, which is especially common in numerical and computational applications}}. <!--SR:!2024-09-01,41,306!2024-10-06,70,326!2024-12-06,110,306-->
 
 Consider _n_-dimensional vectors formed of {{a vertical list of _n_ scalars}}, such as the 2-dimensional vectors $$\mathbf x = \begin{bmatrix} 10 \\ -20 \end{bmatrix} \quad \text{ and } \quad \mathbf y = \begin{bmatrix} -1 \\ 2 \end{bmatrix}$$. These vectors are {{[scalar multiples](scalar%20multiplication.md) of each other, also called [parallel](parallel%20(geometry).md) or [collinear](collinearity.md)}}, because {{there is a [scalar](scalar%20(mathematics).md) $\lambda$ such that $$\mathbf x = \lambda \mathbf y$$}}. In this case, {{$\lambda = -10$}}. <!--SR:!2024-10-12,75,326!2024-09-02,43,306!2024-09-29,64,326!2024-10-07,72,326-->
 

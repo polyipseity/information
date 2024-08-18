@@ -65,7 +65,7 @@ In massive stars, the core is {{already large enough at the onset of the hydroge
 
 - see: [supernova](supernova.md)
 
-When {{the core of a massive star collapses}}, it will {{form a [neutron star](neutron%20star.md), or in the case of cores that exceed the Tolman–Oppenheimer–Volkoff limit, a [black hole](black%20hole.md)}}. Through {{a process that is not completely understood}}, some of the [gravitational potential energy](gravitational%20energy.md) {{released by this core collapse is converted into a Type Ib, Type Ic, or Type II [supernova](supernova.md)}}. It is known that the core collapse produces {{a massive surge of [neutrinos](neutrino.md)}}, as observed with supernova [SN 1987A](SN%201987A.md). <!--SR:!2024-09-14,31,288!2024-08-18,15,290!2024-10-06,51,308!2024-09-05,26,268!2024-08-20,17,290-->
+When {{the core of a massive star collapses}}, it will {{form a [neutron star](neutron%20star.md), or in the case of cores that exceed the Tolman–Oppenheimer–Volkoff limit, a [black hole](black%20hole.md)}}. Through {{a process that is not completely understood}}, some of the [gravitational potential energy](gravitational%20energy.md) {{released by this core collapse is converted into a Type Ib, Type Ic, or Type II [supernova](supernova.md)}}. It is known that the core collapse produces {{a massive surge of [neutrinos](neutrino.md)}}, as observed with supernova [SN 1987A](SN%201987A.md). <!--SR:!2024-09-14,31,288!2024-10-17,60,310!2024-10-06,51,308!2024-09-05,26,268!2024-08-20,17,290-->
 
 ## references
 

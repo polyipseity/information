@@ -266,7 +266,7 @@ subscription fee
 - _(begin)_→:::←advertising <!--SR:!2024-08-24,92,274!2025-02-25,224,317-->
 - advertising→:::←asset sale <!--SR:!2024-10-07,130,294!2024-11-28,167,317-->
 - asset sale→:::←brokerage fee <!--SR:!2024-12-04,152,274!2024-08-28,50,254-->
-- brokerage fee→:::←lending, renting, or leasing <!--SR:!2024-08-18,28,237!2024-10-31,121,254-->
+- brokerage fee→:::←lending, renting, or leasing <!--SR:!2024-09-01,14,217!2024-10-31,121,254-->
 - lending, renting, or leasing→:::←licensing <!--SR:!2024-08-23,87,257!2024-09-05,35,254-->
 - licensing→:::←usage fee <!--SR:!2025-03-07,207,274!2024-08-31,30,254-->
 - usage fee→:::←subscription fee <!--SR:!2024-10-16,111,254!2025-02-26,206,277-->
@@ -290,7 +290,7 @@ The key partnerships building block shows {{important suppliers and networks req
 
 The cost structure building block shows {{all costs required to run the business model}}. Business models, with respect to the cost structure, can be categorized into {{cost-driven and value-driven, though most organizations fall somewhere between these two}}. <!--SR:!2024-08-24,94,294!2025-03-29,224,274-->
 
-In cost structures, costs can be {{fixed costs or variable costs}}. Costs can be reduced by {{economies of scale and economies of scope}}. <!--SR:!2024-08-18,88,290!2024-12-06,152,274-->
+In cost structures, costs can be {{fixed costs or variable costs}}. Costs can be reduced by {{economies of scale and economies of scope}}. <!--SR:!2025-05-01,256,290!2024-12-06,152,274-->
 
 ### fit
 

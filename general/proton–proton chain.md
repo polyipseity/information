@@ -19,9 +19,9 @@ The __proton–proton chain__, also commonly referred to as the __p–p chain__,
 
 ## the proton–proton chain
 
-(Note that elements in the chemical equations are {{[ionized](ionization.md), so they are bare [nuclei](atomic%20nucleus.md)}}.) <!--SR:!2024-08-18,17,293-->
+(Note that elements in the chemical equations are {{[ionized](ionization.md), so they are bare [nuclei](atomic%20nucleus.md)}}.) <!--SR:!2024-10-25,68,313-->
 
-The first step in all the branches is {{the fusion of two [protons](proton.md) ([hydrogen](hydrogen.md)) into a [deuteron](deuteron.md)}}. As the protons fuse, {{one of them undergoes [β+ decay](positron%20emission.md), converting into a [neutron](neutron.md) by emitting a [positron](positron.md) and an [electron neutrino](electron%20neutrino.md)}} (though a small amount of deuterium nuclei is produced by the [PEP reaction](#the%20PEP%20reaction)): {{$$\mathrm{p} + \mathrm{p} \to {}_1^2 \mathrm{D} + \mathrm{e}^+ + \nu_{\mathrm{e} } + 0.42\text{ MeV}$$}}. <!--SR:!2024-08-18,15,295!2024-09-28,42,295!2024-09-17,33,275-->
+The first step in all the branches is {{the fusion of two [protons](proton.md) ([hydrogen](hydrogen.md)) into a [deuteron](deuteron.md)}}. As the protons fuse, {{one of them undergoes [β+ decay](positron%20emission.md), converting into a [neutron](neutron.md) by emitting a [positron](positron.md) and an [electron neutrino](electron%20neutrino.md)}} (though a small amount of deuterium nuclei is produced by the [PEP reaction](#the%20PEP%20reaction)): {{$$\mathrm{p} + \mathrm{p} \to {}_1^2 \mathrm{D} + \mathrm{e}^+ + \nu_{\mathrm{e} } + 0.42\text{ MeV}$$}}. <!--SR:!2024-09-27,40,295!2024-09-28,42,295!2024-09-17,33,275-->
 
 - 1st step / energy release ::: 0.42 MeV <!--SR:!2024-09-22,41,290!2024-08-30,27,270-->
 
@@ -41,7 +41,7 @@ The overall reaction (noting that the elements are [ionized](ionization.md)) is:
 
 The p–p I branch is: {{$${}_2^3\mathrm{He} + {}_2^3\mathrm{He} \to {}_2^4\mathrm{He} + 2\, {}_1^1\mathrm{H} + 12.859\text{ MeV}$$}}. The complete chain releases {{a net energy of 26.732 MeV}} but {{2.2 percent of this energy (0.59&nbsp;MeV) is lost to the [neutrinos](neutrino.md) that are produced}}. The p–p I branch is dominant {{at [temperatures](temperature.md) of 10 to 18&nbsp;MK. Below 10&nbsp;MK}}, the p–p chain proceeds at slow rate, resulting in {{a low production of <sup>4</sup>He}}. <!--SR:!2024-08-23,20,250!2024-08-25,15,230!2024-08-29,14,210!2024-09-10,32,270!2024-09-09,32,270-->
 
-- p–p I branch / energy release ::: 12.859 MeV <!--SR:!2024-08-19,4,155!2024-08-18,15,295-->
+- p–p I branch / energy release ::: 12.859 MeV <!--SR:!2024-08-19,4,155!2024-10-17,60,315-->
 
 ## references
 

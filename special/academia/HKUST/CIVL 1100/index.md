@@ -42,7 +42,7 @@ The content is in teaching order.
   - free body in structural engineering ::: The free body is likely a structure. It can deform but should stay in static equilibrium, such as the [Leaning Tower of Pisa](../../../../general/Leaning%20Tower%20of%20Pisa.md). <!--SR:!2025-02-27,214,330!2025-01-10,178,330-->
 - [solid mechanics § types of forces](../../../../general/solid%20mechanics.md#types%20of%20forces)
 - [compression § effects](../../../../general/compression%20(physics).md#effects)
-  - compression types ::: We are concerned with uniaxial compression only. <!--SR:!2024-08-18,70,330!2025-06-20,307,350-->
+  - compression types ::: We are concerned with uniaxial compression only. <!--SR:!2025-07-01,317,350!2025-06-20,307,350-->
   - compression examples in structures ::: arch bridge, elevated water tank, igloo (snow house) <!--SR:!2025-01-29,176,310!2025-02-28,204,330-->
   - compression conventions ::: __negative__; arrows pointing inwards for forces applied on the object in compression <!--SR:!2024-08-19,71,330!2025-01-20,174,310-->
 - [tension § effects](../../../../general/tension%20(physics).md#effects)
@@ -52,7 +52,7 @@ The content is in teaching order.
 - [reaction](../../../../general/reaction%20(physics).md) of compression and tension ::: Note that when another object exerts compression/tension on an object, the object applies an opposing pushing/pulling (reaction) force on the other object. <!--SR:!2025-04-10,245,330!2024-12-03,149,321-->
 - [Hooke's law § linear springs](../../../../general/Hooke's%20law.md#linear%20springs)
 - stress and strain
-  - strength of an object ::: Under compression or tension, objects deform. But it can differ in severity. "Strong", "hard", or "rigid" materials deform less while "weak", "soft", or "flexible" materials deform more. <!--SR:!2025-03-11,220,321!2024-08-18,70,321-->
+  - strength of an object ::: Under compression or tension, objects deform. But it can differ in severity. "Strong", "hard", or "rigid" materials deform less while "weak", "soft", or "flexible" materials deform more. <!--SR:!2025-03-11,220,321!2025-06-22,308,341-->
     - "strong" object examples ::: table leg <!--SR:!2024-08-23,74,330!2025-05-12,277,350-->
     - "weak" object examples ::: mattress <!--SR:!2025-06-21,308,350!2024-08-22,73,321-->
   - relative deformation ::: Amount of deformation also depends on the original length of the object. <!--SR:!2024-10-10,95,330!2025-03-03,218,330-->
@@ -78,7 +78,7 @@ The content is in teaching order.
 - [bending](../../../../general/bending.md)
   - bending conditions ::: For a pinned support, an object subject to a moment rotates about the support. For a fixed support, an object subject to a moment bends. <!--SR:!2024-09-07,81,301!2025-05-16,277,341-->
   - [§ quasi-static bending of beams](../../../../general/bending.md#quasi-static%20bending%20of%20beams)
-- [cantilever](../../../../general/cantilever.md) ::: a overhanging structure with only 1 support on 1 end; should be a fixed support to prevent rotation <!--SR:!2024-10-30,114,310!2024-08-18,71,330-->
+- [cantilever](../../../../general/cantilever.md) ::: a overhanging structure with only 1 support on 1 end; should be a fixed support to prevent rotation <!--SR:!2024-10-30,114,310!2025-07-06,322,350-->
 - simply supported beam ::: a beam with 2 supports on its 2 ends; should be a pinned support and a roller support to get a statically determinate structure <!--SR:!2024-09-22,82,290!2025-03-22,220,330-->
 - [torsion](../../../../general/torsion%20(mechanics).md) ::: twisting of an object <!--SR:!2025-04-03,229,330!2024-08-20,72,330-->
   - torsion deformation ::: The object is likely to return to its original shape when torsion forces are removed. <!--SR:!2025-03-21,221,330!2024-08-25,76,330-->
