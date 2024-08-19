@@ -78,7 +78,7 @@ value proposition canvas
 - customer segmentation→:::←customer validation <!--SR:!2024-08-27,82,270!2024-12-11,148,270-->
 - customer validation→:::←design thinking <!--SR:!2024-09-02,15,190!2024-09-03,88,270-->
 - design thinking→:::←idea generation: Put oneself in customers' shoes. For example, examine old mousetraps and build a better one. <!--SR:!2024-08-22,30,170!2024-09-26,41,230-->
-- idea generation: Put oneself in customers' shoes. For example, examine old mousetraps and build a better one.→:::←product validation <!--SR:!2024-08-19,42,230!2024-08-21,25,210-->
+- idea generation: Put oneself in customers' shoes. For example, examine old mousetraps and build a better one.→:::←product validation <!--SR:!2024-11-23,96,230!2024-08-21,25,210-->
 - product validation→:::←value proposition canvas <!--SR:!2024-10-07,50,170!2024-10-08,100,250-->
 - value proposition canvas→:::←_(end)_ <!--SR:!2025-03-06,244,330!2024-10-19,64,250-->
 
@@ -133,7 +133,7 @@ root cause analysis, 5 whys
 <!--pytextgen generate section="a9bf"--><!-- The following content is generated at 2024-06-04T22:06:05.721345+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←4P: McCarthy's 4 Ps <!--SR:!2024-08-29,21,281!2024-09-08,74,321-->
-- 4P: McCarthy's 4 Ps→:::←5-step persuasive selling <!--SR:!2024-09-19,59,261!2024-08-19,55,301-->
+- 4P: McCarthy's 4 Ps→:::←5-step persuasive selling <!--SR:!2024-09-19,59,261!2025-01-31,165,301-->
 - 5-step persuasive selling→:::←5C: Chernev 5C framework <!--SR:!2025-01-03,144,301!2024-11-20,113,301-->
 - 5C: Chernev 5C framework→:::←5F: Porter's 5 forces framework <!--SR:!2024-10-17,88,281!2025-01-07,146,301-->
 - 5F: Porter's 5 forces framework→:::←7S: McKinsey 7S framework <!--SR:!2024-12-15,131,301!2024-08-26,64,321-->

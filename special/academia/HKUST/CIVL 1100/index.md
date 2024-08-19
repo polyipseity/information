@@ -44,7 +44,7 @@ The content is in teaching order.
 - [compression § effects](../../../../general/compression%20(physics).md#effects)
   - compression types ::: We are concerned with uniaxial compression only. <!--SR:!2025-07-01,317,350!2025-06-20,307,350-->
   - compression examples in structures ::: arch bridge, elevated water tank, igloo (snow house) <!--SR:!2025-01-29,176,310!2025-02-28,204,330-->
-  - compression conventions ::: __negative__; arrows pointing inwards for forces applied on the object in compression <!--SR:!2024-08-19,71,330!2025-01-20,174,310-->
+  - compression conventions ::: __negative__; arrows pointing inwards for forces applied on the object in compression <!--SR:!2025-04-09,233,330!2025-01-20,174,310-->
 - [tension § effects](../../../../general/tension%20(physics).md#effects)
   - tension types ::: We are concerned with uniaxial tension only. <!--SR:!2024-08-20,73,330!2025-05-17,278,341-->
   - tension examples in structures ::: cable, hanging column, rope, swing, tie <!--SR:!2025-01-18,154,270!2024-12-29,171,330-->

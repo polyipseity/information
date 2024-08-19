@@ -12,7 +12,7 @@ tags:
 
 - _Not to be confused with [alpha process](alpha%20process.md)._
 
-The __triple-alpha process__ is {{a set of [nuclear fusion](nuclear%20fusion.md) reactions by which three [helium-4](helium-4.md) nuclei ([alpha particles](alpha%20particle.md)) are transformed into [carbon](carbon.md)}}. <!--SR:!2024-08-19,16,290-->
+The __triple-alpha process__ is {{a set of [nuclear fusion](nuclear%20fusion.md) reactions by which three [helium-4](helium-4.md) nuclei ([alpha particles](alpha%20particle.md)) are transformed into [carbon](carbon.md)}}. <!--SR:!2024-10-08,50,290-->
 
 ## triple-alpha process in stars
 
@@ -23,13 +23,13 @@ Nuclear fusion reaction of two helium-4 nuclei {{produces [beryllium-8](berylliu
 - 1st step ::: $${}_2^4\mathrm{He} + {}_2^4\mathrm{He} \rightarrow {}_4^8\mathrm{Be} \quad (-0.0918\mathrm{\ MeV})$$ <!--SR:!2024-09-26,40,290!2024-10-16,60,310-->
   - 1st step / energy release ::: -0.0918 MeV <!--SR:!2024-09-16,31,270!2024-09-30,45,290-->
 - 2nd step ::: $${}_4^8\mathrm{Be} + {}_2^4\mathrm{He} \rightarrow {}_{\phantom{0}6}^{12}\mathrm{C} + 2 \gamma \quad (+7.367\mathrm{\ MeV})$$ <!--SR:!2024-09-04,17,210!2024-09-12,29,270-->
-  - 2nd step / energy release ::: +7.367 MeV <!--SR:!2024-08-26,16,250!2024-08-19,9,250-->
+  - 2nd step / energy release ::: +7.367 MeV <!--SR:!2024-08-26,16,250!2024-09-08,20,250-->
 
 The net energy release of the process is {{7.275 MeV}}. <!--SR:!2024-08-29,12,250-->
 
-As a side effect of the process, {{some carbon nuclei fuse with additional helium to produce a stable isotope of oxygen and energy (in the form of 1 gamma ray)}} when {{the temperature rises above 2×10<sup>8</sup> K}}, called {{[_alpha capture_](alpha%20process.md)}}: <!--SR:!2024-09-23,37,290!2024-08-19,16,290!2024-08-19,16,290-->
+As a side effect of the process, {{some carbon nuclei fuse with additional helium to produce a stable isotope of oxygen and energy (in the form of 1 gamma ray)}} when {{the temperature rises above 2×10<sup>8</sup> K}}, called {{[_alpha capture_](alpha%20process.md)}}: <!--SR:!2024-09-23,37,290!2024-10-22,64,310!2024-10-03,45,290-->
 
-1. [alpha capture](alpha%20process.md) ::: $${}_{\phantom{0}6}^{12}\mathrm{C} + {}_2^4\mathrm{He} \rightarrow {}_{\phantom{0}8}^{16}\mathrm{O} + \gamma \quad (+7.162\mathrm{\ MeV})$$ <!--SR:!2024-08-19,5,250!2024-08-20,17,290-->
+1. [alpha capture](alpha%20process.md) ::: $${}_{\phantom{0}6}^{12}\mathrm{C} + {}_2^4\mathrm{He} \rightarrow {}_{\phantom{0}8}^{16}\mathrm{O} + \gamma \quad (+7.162\mathrm{\ MeV})$$ <!--SR:!2024-08-22,3,230!2024-08-20,17,290-->
     - [alpha capture](alpha%20process.md) / energy release ::: +7.162 MeV <!--SR:!2024-08-24,10,210!2024-09-15,32,270-->
 
 Nuclear fusion reactions of {{helium with hydrogen produces [lithium-5](isotopes%20of%20lithium.md#lithium-5)}}, which also is {{highly unstable, and decays back into smaller nuclei with a half-life of 3.7×10<sup>−22</sup> s}}. <!--SR:!2024-09-27,41,290!2024-08-29,11,190-->

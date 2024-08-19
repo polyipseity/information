@@ -72,8 +72,8 @@ why: Why are people using competitors' products?
 - _(begin)_→:::←compare: Identify similarities and differences between our and their products. <!--SR:!2024-09-04,43,241!2025-04-15,260,334-->
 - compare: Identify similarities and differences between our and their products.→:::←copy: Identify advantages and capabilities our products lack compared to others. <!--SR:!2024-08-25,70,274!2024-08-29,72,281-->
 - copy: Identify advantages and capabilities our products lack compared to others.→:::←discover: Identify unmet needs. <!--SR:!2024-08-30,22,221!2024-09-10,70,241-->
-- discover: Identify unmet needs.→:::←how: What is our strategy? <!--SR:!2024-08-19,27,201!2024-08-24,8,221-->
-- how: What is our strategy?→:::←pricing: Compare prices. <!--SR:!2024-08-19,4,141!2024-10-03,52,241-->
+- discover: Identify unmet needs.→:::←how: What is our strategy? <!--SR:!2024-10-15,57,201!2024-08-24,8,221-->
+- how: What is our strategy?→:::←pricing: Compare prices. <!--SR:!2024-08-21,2,130!2024-10-03,52,241-->
 - pricing: Compare prices.→:::←who: Who are the competitors? 3 to 5 is usually enough. <!--SR:!2024-09-27,50,241!2025-01-23,158,261-->
 - who: Who are the competitors? 3 to 5 is usually enough.→:::←why: Why are people using competitors' products? <!--SR:!2024-10-13,103,281!2024-09-15,73,241-->
 - why: Why are people using competitors' products?→:::←_(end)_ <!--SR:!2025-06-08,300,341!2024-09-16,83,281-->
@@ -171,7 +171,7 @@ number of features
 - benefit→:::←quality <!--SR:!2025-02-16,183,274!2024-11-24,134,301-->
 - quality→:::←durability <!--SR:!2024-08-20,19,181!2024-08-29,30,301-->
 - durability→:::←service <!--SR:!2024-12-24,150,301!2024-08-27,15,221-->
-- service→:::←convenience <!--SR:!2024-08-19,11,201!2024-09-04,27,281-->
+- service→:::←convenience <!--SR:!2024-08-24,5,181!2024-09-04,27,281-->
 - convenience→:::←ease of use <!--SR:!2024-10-26,103,261!2025-01-10,172,314-->
 - ease of use→:::←number of features <!--SR:!2024-09-16,51,261!2024-09-08,47,254-->
 - number of features→:::←_(least important)_ <!--SR:!2025-06-03,299,334!2025-06-29,318,341-->

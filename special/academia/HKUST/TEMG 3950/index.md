@@ -58,7 +58,7 @@ The content is in teaching order.
   - [§ segmentation variables](../../../market%20segmentation.md#segmentation%20variables)
 - market size
   - market size acronyms and names ::: TAM: total available market, SAM: serviceable available market, SOM: serviceable obtainable market <!--SR:!2025-04-28,255,335!2025-06-30,322,355-->
-  - market size importance ::: Startups use these metrics to analyze business viability and for fundraising purposes. <!--SR:!2024-08-19,77,335!2025-07-24,344,355-->
+  - market size importance ::: Startups use these metrics to analyze business viability and for fundraising purposes. <!--SR:!2025-05-03,257,335!2025-07-24,344,355-->
   - [difference between TAM, SAM, and SOM](../../../../general/total%20addressable%20market.md#difference%20between%20TAM,%20SAM,%20and%20SOM)
   - [total available market](../../../../general/total%20addressable%20market.md) (TAM)
     - [§ importance](../../../../general/total%20addressable%20market.md#importance)
@@ -223,7 +223,7 @@ The content is in teaching order.
 - more trees (for TEMG 4950) ::: issue tree and hypothesis tree <!--SR:!2025-04-27,252,361!2024-09-11,78,361-->
 - cause mapping extensions ::: facts table, solutions table <!--SR:!2024-09-06,73,361!2024-09-22,87,361-->
   - facts table ::: what, when, where, impact <!--SR:!2024-09-19,85,361!2025-02-07,175,341-->
-  - solutions table ::: no., cause, solution; optionally, time, persons responsible, budget <!--SR:!2024-08-19,55,341!2024-09-22,87,361-->
+  - solutions table ::: no., cause, solution; optionally, time, persons responsible, budget <!--SR:!2025-02-22,187,341!2024-09-22,87,361-->
 - interview note-taking technique using 1 sheet of A4 paper ::: facts, key question (only 1), analysis <!--SR:!2024-09-26,91,361!2024-10-04,98,361-->
   - interview note § layout ::: split the paper into 2, the left side is thinner and holds the facts and key question, and the right side is the analysis <!--SR:!2024-12-13,134,321!2024-10-03,97,361-->
   - interview note § analysis ::: use a MECE framework suitable for the case in the interview <!--SR:!2024-09-27,91,361!2024-09-23,88,361-->

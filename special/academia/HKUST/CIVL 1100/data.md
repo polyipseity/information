@@ -80,7 +80,7 @@ See [Central Plaza (Hong Kong)](../../../../general/Central%20Plaza%20(Hong%20Ko
 - description ::: super tall skyscraper in Wan Chai, Hong Kong <!--SR:!2024-11-26,170,355!2024-08-27,106,377-->
 - height ::: architectural: 373.9 m, top floor: 299 m <!--SR:!2024-10-08,51,241!2024-08-25,104,376-->
 - image ::: ![Central Plaza (Hong Kong) image](../../../../archives/Wikimedia%20Commons/Hong%20Kong%20Convention%20and%20Exhibition%20Centre%20200906(cropped).jpg) <!--SR:!2024-08-26,34,340!2025-11-07,446,400-->
-- [structural system](../../../../general/structural%20system.md) ::: reinforced concrete<!-- flashcard 90e284d1-1940-43c0-b5d7-1b8bea6e3c3e --> <!--SR:!2024-12-27,173,341!2024-08-19,87,381-->
+- [structural system](../../../../general/structural%20system.md) ::: reinforced concrete<!-- flashcard 90e284d1-1940-43c0-b5d7-1b8bea6e3c3e --> <!--SR:!2024-12-27,173,341!2025-07-15,330,381-->
 
 ## Channel Tunnel
 
@@ -148,14 +148,14 @@ See [Great Wall of China](../../../../general/Great%20Wall%20of%20China.md).
 - component ::: fortress, horse track, pass, shelter, wall, watch tower <!--SR:!2024-09-26,86,316!2024-11-01,135,396-->
 - construction period ::: 220 BC under Qin Shi Huang, and continued up to the Ming dynasty (1368–1644) <!--SR:!2025-02-20,200,356!2024-12-01,159,396-->
 - geographic locations ::: begins in the east at Shanhaiguan (山海關), Hebei; and ends in the west at Jiayuguan (嘉峪關), Gansu <!--SR:!2025-02-23,202,356!2024-10-14,114,376-->
-- length ::: 21196.18 km <!--SR:!2024-08-19,20,296!2024-11-15,147,396-->
+- length ::: 21196.18 km <!--SR:!2024-08-31,12,276!2024-11-15,147,396-->
 
 ## HSBC Main Building
 
 See [HSBC Building (Hong Kong)](HSBC%20Building%20(Hong%20Kong).md).
 
 - description ::: headquarters building of [The Hongkong and Shanghai Banking Corporation](HSBC%20(Hong%20Kong).md) <!--SR:!2025-01-15,197,354!2025-03-05,256,330-->
-- height ::: roof: 178.8 m <!--SR:!2024-08-19,11,241!2025-05-07,325,350-->
+- height ::: roof: 178.8 m <!--SR:!2024-09-14,26,241!2025-05-07,325,350-->
 - image ::: ![HSBC Main Building image](../../../../archives/Wikimedia%20Commons/HK%20HSBC%20Main%20Building%202008%20(cropped).jpg) <!--SR:!2025-06-05,312,380!2024-09-03,100,380-->
 - [structural system](../../../../general/structural%20system.md) ::: steel [suspended structure](../../../../general/suspended%20structure.md)<!-- flashcard b5c46b64-11cf-4605-a97e-3a159f12185f --> <!--SR:!2024-10-21,130,321!2025-10-22,432,401-->
 
@@ -172,8 +172,8 @@ See [Hong Kong Convention and Exhibition Centre](../../../../general/Hong%20Kong
 See [Hong Kong–Zhuhai–Macau Bridge](../../../../general/Hong%20Kong–Zhuhai–Macau%20Bridge.md).
 
 - bridge type ::: [bridge–tunnel](../../../../general/bridge–tunnel.md)<!-- flashcard 981d3cc6-47b4-4aad-8a99-bdeea2975b92 --> <!--SR:!2025-04-16,286,374!2025-09-03,402,394-->
-- description ::: fixed link consisting of tunnels and multiple bridges <!--SR:!2024-08-19,98,375!2024-12-19,209,330-->
-- image ::: ![Hong Kong–Zhuhai–Macau Bridge image](../../../../archives/Wikimedia%20Commons/West%20section%20of%20Hong%20Kong-Zhuhai-Macau%20Bridge%20(20180902174105).jpg) <!--SR:!2024-09-10,106,380!2024-08-19,87,380-->
+- description ::: fixed link consisting of tunnels and multiple bridges <!--SR:!2025-08-21,367,375!2024-12-19,209,330-->
+- image ::: ![Hong Kong–Zhuhai–Macau Bridge image](../../../../archives/Wikimedia%20Commons/West%20section%20of%20Hong%20Kong-Zhuhai-Macau%20Bridge%20(20180902174105).jpg) <!--SR:!2024-09-10,106,380!2025-11-13,451,400-->
 - length: 55 km
 
 ## Hoover Dam
@@ -264,7 +264,7 @@ See [Stonecutters Bridge](../../../../general/Stonecutters%20Bridge.md).
 - bridge type ::: [cable-stayed bridge](../../../../general/cable-stayed%20bridge.md)<!-- flashcard ca1fa4c4-b487-40a0-9948-a808866a25eb --> <!--SR:!2024-12-12,177,361!2024-08-30,98,381-->
 - description ::: bridge in Hong Kong <!--SR:!2024-12-19,186,345!2024-08-21,100,377-->
 - image ::: ![Stonecutters Bridge image](../../../../archives/Wikimedia%20Commons/Stonecutters'%20Bridge.jpg) <!--SR:!2024-08-28,95,380!2025-05-03,286,380-->
-- length ::: 1596 m, longest span: 1018 m <!--SR:!2024-08-19,22,240!2025-03-13,259,370-->
+- length ::: 1596 m, longest span: 1018 m <!--SR:!2024-10-14,56,240!2025-03-13,259,370-->
 
 ## Sutong Yangtze River Bridge
 
@@ -314,7 +314,7 @@ See [Turin–Lyon high-speed railway](../../../../general/Turin–Lyon%20high-sp
 See [Two Prudential Plaza](../../../../general/Two%20Prudential%20Plaza.md).
 
 - description ::: 64-story skyscraper located in the Loop area of Chicago, Illinois <!--SR:!2024-09-03,91,320!2025-08-31,399,385-->
-- height ::: architectural: 303 m, top floor: 250 m <!--SR:!2024-08-27,10,181!2024-08-19,98,364-->
+- height ::: architectural: 303 m, top floor: 250 m <!--SR:!2024-08-27,10,181!2025-12-20,488,384-->
 - image ::: ![Two Prudential Plaza image](../../../../archives/Wikimedia%20Commons/Two%20Prudential%20Plaza%20Chicago%20in%20May%202016.jpg) <!--SR:!2025-06-04,294,360!2024-09-14,39,340-->
 - [structural system](../../../../general/structural%20system.md) ::: reinforced concrete<!-- flashcard ecbdac25-22dc-429d-9976-d49408b1478d --> <!--SR:!2024-09-06,38,340!2024-08-27,94,380-->
 

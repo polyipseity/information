@@ -198,7 +198,7 @@ water and sewage treatment system
 - pipeline→:::←power plant <!--SR:!2025-01-13,152,260!2024-10-22,107,281-->
 - power plant→:::←reservoir <!--SR:!2025-01-10,164,275!2024-09-05,91,320-->
 - reservoir→:::←sewage treatment <!--SR:!2024-09-21,62,197!2024-09-05,75,261-->
-- sewage treatment→:::←transport <!--SR:!2024-08-19,7,190!2024-12-13,152,301-->
+- sewage treatment→:::←transport <!--SR:!2024-09-01,13,190!2024-12-13,152,301-->
 - transport→:::←water and sewage treatment system <!--SR:!2024-11-05,137,340!2024-08-24,7,130-->
 - water and sewage treatment system→:::←_(end)_ <!--SR:!2024-08-25,93,381!2025-04-10,252,361-->
 
@@ -598,7 +598,7 @@ nuclear
 - chemical→:::←civil <!--SR:!2024-10-21,133,337!2024-12-24,194,357-->
 - civil→:::←computer <!--SR:!2024-11-15,163,354!2024-12-17,189,352-->
 - computer→:::←electrical <!--SR:!2024-11-07,142,327!2024-08-25,35,295-->
-- electrical→:::←industrial <!--SR:!2024-08-19,77,321!2024-08-24,28,250-->
+- electrical→:::←industrial <!--SR:!2024-09-29,41,301!2024-08-24,28,250-->
 - industrial→:::←manufacturing <!--SR:!2024-10-02,125,337!2024-09-11,103,332-->
 - manufacturing→:::←mechanical <!--SR:!2024-08-23,101,377!2024-10-23,134,337-->
 - mechanical→:::←nuclear <!--SR:!2025-07-18,340,377!2024-12-14,168,335-->
@@ -1227,7 +1227,7 @@ water treatment
 <!--pytextgen generate section="1123"--><!-- The following content is generated at 2024-02-16T21:59:48.139738+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←groundwater quality control <!--SR:!2024-10-04,123,340!2024-11-29,175,357-->
-- groundwater quality control→:::←wastewater recycling <!--SR:!2024-08-28,32,275!2024-08-19,14,260-->
+- groundwater quality control→:::←wastewater recycling <!--SR:!2024-08-28,32,275!2024-09-25,37,260-->
 - wastewater recycling→:::←wastewater treatment <!--SR:!2024-11-03,131,315!2025-01-16,186,317-->
 - wastewater treatment→:::←water quality monitoring <!--SR:!2024-12-21,142,280!2024-12-07,157,315-->
 - water quality monitoring→:::←water treatment <!--SR:!2024-11-12,148,324!2024-09-20,117,334-->

@@ -112,7 +112,7 @@ segmented: splitting slightly different customer segments
 - diversified: serving unrelated customer segments→:::←mass market: not distinguishing between customer segments <!--SR:!2024-09-10,84,237!2024-09-21,96,254-->
 - mass market: not distinguishing between customer segments→:::←multi-sided platforms: serving interdependent customer segments <!--SR:!2024-09-05,33,254!2024-09-12,109,297-->
 - multi-sided platforms: serving interdependent customer segments→:::←niche market: focusing on specific, specialized customer segments <!--SR:!2024-10-27,120,257!2024-09-12,79,254-->
-- niche market: focusing on specific, specialized customer segments→:::←segmented: splitting slightly different customer segments <!--SR:!2024-09-30,100,254!2024-08-19,3,157-->
+- niche market: focusing on specific, specialized customer segments→:::←segmented: splitting slightly different customer segments <!--SR:!2024-09-30,100,254!2024-08-23,4,157-->
 - segmented: splitting slightly different customer segments→:::←_(end)_ <!--SR:!2025-01-22,185,274!2024-10-31,116,254-->
 
 <!--/pytextgen-->
@@ -284,7 +284,7 @@ The key activities building block shows {{important activities required for the 
 
 #### key partnerships
 
-The key partnerships building block shows {{important suppliers and networks required for the business model}}. They can be categorized into {{buyer–seller relationships, coopetitions, joint ventures, and strategic alliances between non-competitors}}. Partnerships can {{acquire particular activities and resources, optimize for economy of scale, and reduce risk and uncertainty}}. <!--SR:!2024-11-21,149,274!2024-09-03,31,217!2024-08-19,72,237-->
+The key partnerships building block shows {{important suppliers and networks required for the business model}}. They can be categorized into {{buyer–seller relationships, coopetitions, joint ventures, and strategic alliances between non-competitors}}. Partnerships can {{acquire particular activities and resources, optimize for economy of scale, and reduce risk and uncertainty}}. <!--SR:!2024-11-21,149,274!2024-09-03,31,217!2025-02-05,170,237-->
 
 #### cost structure
 

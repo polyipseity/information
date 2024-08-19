@@ -450,7 +450,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 3. It was produced by previous massive stars which expelled some heavy elements during the explosions when they died.
 > 4. It was produced by fission of even heavier elements in the Sun.
 >
-> - solution: {{3}} <!--SR:!2024-08-19,16,341-->
+> - solution: {{3}} <!--SR:!2024-11-01,74,361-->
 
 ## 2024-07-30
 
@@ -479,7 +479,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 6. 7.85×10<sup>16</sup> ly
 >
 > - solution: {{1}}
-> - explanation: {{Apply the equation for Schwarzschild radius: $$r_s = \frac {2 \cdot 6.674\,30 \times 10^{-11} \cdot 10^{53} } {299\,792\,458^2} \approx 1.485\,232\,05 \times 10^{27}~\mathrm{m} \approx 1.569\,9251 \times 10^{11}~\mathrm{ly}$$. So the answer is 1.57×10<sup>11</sup> ly.}} <!--SR:!2024-08-27,13,285!2024-08-19,11,325-->
+> - explanation: {{Apply the equation for Schwarzschild radius: $$r_s = \frac {2 \cdot 6.674\,30 \times 10^{-11} \cdot 10^{53} } {299\,792\,458^2} \approx 1.485\,232\,05 \times 10^{27}~\mathrm{m} \approx 1.569\,9251 \times 10^{11}~\mathrm{ly}$$. So the answer is 1.57×10<sup>11</sup> ly.}} <!--SR:!2024-08-27,13,285!2024-10-09,51,345-->
 
 ## 2024-08-01
 

@@ -21,7 +21,7 @@ tags:
 
 - $M_{00}$ ::: number of attributes where _A_ has value 0 and _B_ has value 0 <!--SR:!2024-09-02,61,310!2024-08-27,56,310-->
 - $M_{01}$ ::: number of attributes where _A_ has value 0 and _B_ has value 1 <!--SR:!2024-09-10,67,310!2024-09-11,68,310-->
-- $M_{10}$ ::: number of attributes where _A_ has value 1 and _B_ has value 0 <!--SR:!2024-08-19,48,310!2024-09-04,62,310-->
+- $M_{10}$ ::: number of attributes where _A_ has value 1 and _B_ has value 0 <!--SR:!2025-03-12,205,330!2024-09-04,62,310-->
 - $M_{11}$ ::: number of attributes where _A_ has value 1 and _B_ has value 1 <!--SR:!2024-09-03,62,310!2024-09-05,63,310-->
 
 The simple matching coefficient is defined as {{$$\text{SMC} = \frac {\text{number of matching attributes} } {\text{number of attributes} } = \frac {M_{00} + M_{11} } {M_{00} + M_{01} + M_{10} + M_{11} }$$}}. <!--SR:!2024-08-22,51,310-->

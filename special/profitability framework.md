@@ -18,7 +18,7 @@ The profitability framework is {{an (extreme) abstraction of an _[income stateme
 
 {{$$\begin{aligned} \text{profit} & = \text{revenue} - \text{costs} \\ & = \left(\sum \text{price}_i \cdot \text{units}_i \right) - \left(\text{variable cost} + \text{fixed cost} \right) \\ & = \left(\sum \text{price}_i \cdot \text{units}_i \right) - \left(\left(\sum \text{cost}_i \cdot \text{units}_i \right) + \text{fixed cost} \right) \end{aligned}$$}} <!--SR:!2024-10-05,76,270-->
 
-Revenues may be {{one-time or recurring}}, such as {{asset sales and support offering}}. Variable costs are {{per unit}}, such as {{outsourced production costs, packaging costs, sales commission, and shipping costs}}. Fixed costs are {{independent of # units sold}}, such as {{bank interests, _fixed_ salaries, rent, subscribed services, and utility}}. <!--SR:!2024-09-05,63,310!2024-08-19,48,310!2024-11-15,99,290!2024-08-27,26,250!2025-01-25,164,310!2024-09-04,52,250-->
+Revenues may be {{one-time or recurring}}, such as {{asset sales and support offering}}. Variable costs are {{per unit}}, such as {{outsourced production costs, packaging costs, sales commission, and shipping costs}}. Fixed costs are {{independent of # units sold}}, such as {{bank interests, _fixed_ salaries, rent, subscribed services, and utility}}. <!--SR:!2024-09-05,63,310!2025-01-14,148,310!2024-11-15,99,290!2024-08-27,26,250!2025-01-25,164,310!2024-09-04,52,250-->
 
 ## usage
 
