@@ -32,7 +32,8 @@ The content is in recommended learning order.
   - [§ matplotlib](Python%20for%20signal%20processing.md#matplotlib)
 - [discrete Fourier transform](discrete%20Fourier%20transform.md)
   - [§ definition](discrete%20Fourier%20transform.md#definition)
-  - [§ properties](discrete%20Fourier%20transform.md#properties)
+  - [§ periodicity](discrete%20Fourier%20transform.md#periodicity)
+  - [§ expressing the inverse DFT in terms of the DFT](discrete%20Fourier%20transform.md#expressing%20the%20inverse%20DFT%20in%20terms%20of%20the%20DFT)
   - [§ interpretation](discrete%20Fourier%20transform.md#interpretation)
   - [§ components](discrete%20Fourier%20transform.md#components)
   - [§ spectrums](discrete%20Fourier%20transform.md#spectrums)
@@ -42,6 +43,12 @@ The content is in recommended learning order.
   - [§ Freesound](signal%20tools.md#Freesound)
 - [Python for signal processing](Python%20for%20signal%20processing.md)
   - [§ complex number](Python%20for%20signal%20processing.md#complex%20number)
+- [discrete Fourier transform](discrete%20Fourier%20transform.md)
+  - [§ linearity](discrete%20Fourier%20transform.md#linearity)
+  - [§ shift](discrete%20Fourier%20transform.md#shift)
+  - [§ symmetry](discrete%20Fourier%20transform.md#symmetry)
+  - [§ convolution](discrete%20Fourier%20transform.md#convolution)
+  - [§ energy conservation](discrete%20Fourier%20transform.md#energy%20conservation)
 
 ## references
 
