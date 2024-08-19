@@ -23,9 +23,53 @@ The above formulas are {{the most conventional way of writing them}}. The only r
 
 ## properties
 
-The original sequence is {{treated as $N$-periodic}} by DFT. The transformed sequence is {{also $N$-periodic}}. Likewise, the DFT-transformed sequence is {{treated as $N$-periodic}} by IDFT. The recovered original sequence is {{also $N$-periodic}}.
+### periodicity
 
-Note that the formulas for DFT and IDFT are extremely similar. Indeed, one can {{write the IDFT in terms of the DFT}}.
+- see: [general/discrete Fourier transform § periodicity](../../general/discrete%20Fourier%20transform.md#periodicity)
+
+The original sequence is {{treated as $N$-periodic}} by DFT. The transformed sequence is {{also $N$-periodic}}. Likewise, the DFT-transformed sequence is {{treated as $N$-periodic}} by IDFT. The recovered original sequence is {{also $N$-periodic}}. This is easily shown {{directly from the definition}}.
+
+### expressing the inverse DFT in terms of the DFT
+
+- see: [general/discrete Fourier transform § expressing the inverse DFT in terms of the DFT](../../general/discrete%20Fourier%20transform.md#expressing%20the%20inverse%20DFT%20in%20terms%20of%20the%20DFT)
+
+Note that the formulas for DFT and IDFT are {{extremely similar}}. Indeed, one can {{write the IDFT in terms of the DFT}}.
+
+### linearity
+
+- see: [general/discrete Fourier transform § linearity](../../general/discrete%20Fourier%20transform.md#linearity)
+
+The DFT is {{a linear transform}}. That is, {{$$\mathcal{F}(\{a x_n + b y_n\})_k= a \mathcal{F}(\{x_n\})_k + b \mathcal{F}(\{y_n\})_k$$ for any complex numbers $a$ and $b$}}. This can be shown {{directly from the definition}}.
+
+### shift
+
+- see: [general/discrete Fourier transform § shift theorem](../../general/discrete%20Fourier%20transform.md#shift%20theorem)
+
+{{Shifting the signal in the time domain to the right by $n_0$ samples}} corresponds to {{multiplying the signal in the frequency domain by $e^{-\frac{j 2\pi} N kn_0}$}}. This can be shown {{directly from the definition}}.
+
+This shift from the time domain to the frequency domain has an intuitive interpretation. Interpret the argument (angle) of the complex number for each frequency as {{its time offset}}. Shifting a signal to the right (with warping) in the time domain {{increases the time offset for all frequencies}}. This means the complex number for each frequency is {{multiplied (rotated) by $e^{-\frac {j 2\pi} N k n_0}$, changing its argument (angle) while keeping its modulus (length) unchanged}}. This corresponds to {{shifting its corresponding complex sinusoidal in the time domain to the right (with warping)}}.
+
+By duality, {{shifting the signal in the frequency to the right by $k_0$ samples}} corresponds to {{multiplying the signal in the time domain by $e^{\frac{j 2\pi} N n k_0}$} (notice there is no negative sign)}. This can also be shown {{directly from the definition}}.
+
+### symmetry
+
+- see: [general/discrete Fourier transform § DFT of real and purely imaginary signals](../../general/discrete%20Fourier%20transform.md#DFT%20of%20real%20and%20purely%20imaginary%20signals)
+
+If {{the signal in the time domain is purely real}}, then {{the signal in the frequency domain is even conjugate symmetric, i.e. $$X[k] = X^*[-k]$$}}. Interpreting this in {{rectangular form}}, {{the real part is even symmetric while the imaginary part is odd symmetric}}. Interpreting this in {{polar form}}, {{the modulus (length) is even symmetric while the argument (angle) is odd symmetric}}.
+
+Furthermore, if {{the signal in the time domain is _additionally_ even symmetric}}, then {{the frequency domain is _additionally_ even symmetric}}. Interpreting this in {{rectangular form}}, {{the real part is even symmetric while the imaginary part is always zero}}. Interpreting this in {{polar form}}, {{the modulus (length) is even symmetric while the argument (angle) is always an integer multiple of $\pi$}}.
+
+### convolution
+
+- see: [general/discrete Fourier transform § circular convolution theorem and cross-correlation theorem](../../general/discrete%20Fourier%20transform.md#circular%20convolution%20theorem%20and%20cross-correlation%20theorem)
+
+{{Convoluting two signals in the time domain}} corresponds to {{multiplying the two signals in the frequency domain}}. That is, {{$$\mathcal{F}(x * y) = XY \qquad x * y = \mathcal{F}^{-1}(XY)$$}}. This is also easily shown {{from the definition}}.
+
+To understand this convolution theorem, imagine the two signals {{decomposed into two linear combinations of complex sinusoidal $e^{-\frac {j 2\pi} N kn}$ with different frequency indices $k$}}. Convolution of the two signals can also be {{expressed as the _sliding dot product_ of one signal and the other signal going backwards in time}}. That means the complex sinusoidal components are {{multiplied into terms like $A_0 A_1 \sum_{n = 0}^{N - 1} e^{\frac{j 2\pi} N k_0 n} e^{\frac{j 2\pi} N k_1 (n' - n)}$}}. Notice said terms can be rewritten as: {{$$\begin{aligned} A_0 A_1 \sum_{n = 0}^{N - 1} e^{\frac{j 2\pi} N k_0 n} e^{\frac{j 2\pi} N k_1 (n' - n)} & = A_0 A_1 e^{\frac{j 2\pi } N k_1 n'} \sum_{n = 0}^{N - 1} e^{\frac{j 2\pi} N k_0 n} e^{-\frac{j 2\pi} N k_1 n} \\ & = A_0 A_1 e^{\frac{j 2\pi } N k_1 n'} \sum_{n = 0}^{N - 1} e^{\frac{j 2\pi} N k_0 n} \left( e^{\frac{j 2\pi} N k_1 n} \right)^* \\ & = A_0 A_1 e^{\frac{j 2\pi } N k_1 n'} \left\langle e^{\frac{j 2\pi} N k_0 n}, e^{\frac{j 2\pi} N k_1 n} \right\rangle && (\text{using the dot product that is antilinear in the 2nd argument}) \end{aligned}$$}}. Intuitively ({{__rigorous in this case__}}; left as an exercise), the dot product {{between two complex sinusoidal components of different frequency indices ($k_0 \ne k_1$) cancels out while that of the same frequency index ($k_0 = k_1$) has their amplitudes multiplied together ($A_0 A_1$; $e^{\frac{j 2\pi } N k_1 n'}$ modifies the phase only)}}. So {{the product of the two signals in the frequency domain is the DFT of their convolution in the time domain}}.
+
+### energy conservation
+
+- see: [general/discrete Fourier transform § The Plancherel theorem and Parseval's theorem](../../general/discrete%20Fourier%20transform.md#The%20Plancherel%20theorem%20and%20Parseval's%20theorem)
 
 ## interpretation
 
@@ -50,3 +94,6 @@ Note that if {{you try to use Python to repeat the above mathematical proofs}}, 
 {{The magnitude spectrum}} is {{the transformed signal under the modulus operation $\lvert X \rvert$ (length of the complex amplitude)}}. For easier visualization, the magnitude may be {{in logarithm scale}}. The magnitude, intuitively, represents {{the loudness of the complex sinusoidal of a given frequency}}.
 
 {{The phase spectrum}} is {{the transformed signal under the argument operation $\operatorname{arg}(X)$ (angle of the complex amplitude)}}. To make the phase spectrum {{less jumpy (more continuous)}}, the phase may be {{wrapped around $2\pi$ such that the difference from the previous phase is not more than $\pi$ (see [`np.unwrap`](https://numpy.org/doc/stable/reference/generated/numpy.unwrap.html))}}. The phase, intuitively, represents {{the time offset of the complex sinusoidal of a given frequency}}.
+a
+
+## properties
