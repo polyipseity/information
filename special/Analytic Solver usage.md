@@ -21,7 +21,7 @@ Eventually you should figure it out with online searching... Also, get familiar 
 
 There are {{some restrictions on the distinct values of an attribute}} depending on the XLMiner edition. One way to resolve this is {{merging some values into the same value}}. Funny enough, the category reduction, which is designed for this workload, also has {{restrictions on the distinct values depending on the XLMiner edition}}. So {{multiple category reductions on a subset of distinct values}} may be needed if there are too many distinct values. <!--SR:!2024-09-20,75,335!2024-09-24,79,335!2024-09-27,82,335!2024-09-01,61,315-->
 
-XLMiner offers {{2 ways}} to reduce categories: {{automatically by frequency and manually}}. The first option {{reduces the values with the smallest frequencies into one value and leave the rest intact}}. The second option {{reduces the values using a user-specified table mapping current values to new values}}. <!--SR:!2024-09-21,76,335!2024-08-20,52,315!2024-09-27,82,335!2024-09-25,80,335-->
+XLMiner offers {{2 ways}} to reduce categories: {{automatically by frequency and manually}}. The first option {{reduces the values with the smallest frequencies into one value and leave the rest intact}}. The second option {{reduces the values using a user-specified table mapping current values to new values}}. <!--SR:!2024-09-21,76,335!2025-04-02,225,335!2024-09-27,82,335!2024-09-25,80,335-->
 
 ### common parameters
 

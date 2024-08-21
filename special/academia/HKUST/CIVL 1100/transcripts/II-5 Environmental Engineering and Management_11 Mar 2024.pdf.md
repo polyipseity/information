@@ -156,7 +156,7 @@ return await memorize_seq(
 - bioremediation→:::←catalytic oxidation <!--SR:!2024-11-29,116,315!2024-08-28,59,335-->
 - catalytic oxidation→:::←ex-situ biopile <!--SR:!2024-09-26,67,295!2025-01-14,153,335-->
 - ex-situ biopile→:::←ex-situ solidification or stabilization <!--SR:!2024-08-25,56,335!2025-01-12,153,335-->
-- ex-situ solidification or stabilization→:::←_(end)_ <!--SR:!2024-09-30,85,355!2024-08-20,52,335-->
+- ex-situ solidification or stabilization→:::←_(end)_ <!--SR:!2024-09-30,85,355!2025-02-09,173,335-->
 
 <!--/pytextgen-->
 
@@ -164,7 +164,7 @@ return await memorize_seq(
 
 Today's Kai Tak Development — Cruise Terminal
 
-- the former Kai Tak airport location nowadays ::: cruise terminal <!--SR:!2024-08-20,72,310!2025-01-15,178,310-->
+- the former Kai Tak airport location nowadays ::: cruise terminal <!--SR:!2025-06-26,310,330!2025-01-15,178,310-->
 
 ## page 8
 
@@ -268,7 +268,7 @@ Sewage Conveyance System
 
 - HATS Stage 2A
   - HATS Stage 2A tunnel ::: a drop shaft, a tunnel, and a riser shaft, from PTWs to SCISTW across the Victoria Harbour <!--SR:!2024-08-28,30,290!2025-02-21,193,310-->
-    - HATS Stage 2A tunnel sizes ::: 21 km tunnel, about 70 to 160 m (inside bedrock) below sea level <!--SR:!2024-08-20,55,250!2025-06-05,293,330-->
+    - HATS Stage 2A tunnel sizes ::: 21 km tunnel, about 70 to 160 m (inside bedrock) below sea level <!--SR:!2025-01-04,137,250!2025-06-05,293,330-->
 
 ## page 21
 
@@ -394,7 +394,7 @@ return await memorize_seq(
 - methane (CH<sub>4</sub>)→:::←nitrous oxide (N<sub>2</sub>O) <!--SR:!2024-10-27,91,250!2024-12-09,134,290-->
 - nitrous oxide (N<sub>2</sub>O)→:::←perflurocarbons (PFCs) <!--SR:!2024-09-20,54,230!2024-08-21,9,150-->
 - perflurocarbons (PFCs)→:::←sulfur hexafluoride (SF<sub>6</sub>) <!--SR:!2024-08-23,25,270!2024-09-06,69,270-->
-- sulfur hexafluoride (SF<sub>6</sub>)→:::←_(end)_ <!--SR:!2025-02-14,186,310!2024-08-20,72,310-->
+- sulfur hexafluoride (SF<sub>6</sub>)→:::←_(end)_ <!--SR:!2025-02-14,186,310!2025-03-30,222,310-->
 
 <!--/pytextgen-->
 

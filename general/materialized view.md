@@ -48,7 +48,7 @@ The pseudocode is as follows:
 1. initialization ::: Initialize $S$ to consist of the top view $\top$ only. <!--SR:!2025-01-27,168,310!2024-08-23,52,310-->
 2. looping condition ::: The looping condition depends on the constraint. For example, loop while the number of materialized views has not exceeded the limit. Another example is, loop while there exists an view not in $S$ such that materializing the view does not make the total cost of materialized views exceed the limit. Go to step 5 if the loop stops. <!--SR:!2024-08-31,48,250!2024-08-21,47,290-->
 3. selection with heuristic ::: Select an view not in $S$ such that the constraint is respected while maximizing a specific heuristic function. The heuristic function also depends on the constraint. For example, the heuristic function can be the benefit $B(v, S)$ of materializing the view if the number of materialized views is limited. Another example is, the benefit per view cost $B(v, S) / c_v$ of materializing the view if the total cost of materialized views is constrained. <!--SR:!2024-11-05,101,290!2024-11-20,116,290-->
-4. update ::: Add the view to $S$. Go to step 2. <!--SR:!2024-08-20,49,290!2024-09-02,60,310-->
+4. update ::: Add the view to $S$. Go to step 2. <!--SR:!2025-01-10,143,290!2024-09-02,60,310-->
 5. results ::: $S$ is the resulting view selection. <!--SR:!2024-08-21,50,290!2024-12-14,124,290-->
 
 To run the above algorithm manually, we can use {{a benefit table with row headers being the possible views to materialize and column headers being the _n_-th choice}}. Fill in the benefit table from {{left to right, with advancing one column representing choosing one more view}}. When a view is selected, there is {{no need to further calculate its benefit (or an alternative heuristic function) in subsequent columns}}. Calculate the benefit {{with reference to the graph of relations between a set of views earlier}}. On completing an column, {{the view with the most benefit is selected}}. <!--SR:!2024-09-02,49,250!2024-12-19,129,290!2024-12-15,136,310!2024-11-16,112,290!2024-09-15,72,310-->
@@ -70,7 +70,7 @@ In details, when calculating the benefit for a view to be materialized, only con
 >
 > The above benefit table shows that the resulting greedy selection is {{"ps" and _then_ "c"}}. <!--SR:!2024-08-25,54,310!2024-12-06,120,290-->
 
-The resulting selection is {{greedy and may not be the optimal solution}}. When {{the heuristic function is simply the benefit}}, the above problem is {{a [submodular set function maximization](submodular%20set%20function.md#submodular%20set%20function%20maximization) problem}}. In this case, it has been proven that the greedy selection {{has a benefit that is at least $1 - 1 / e \approx 0.632$ times of that of the optimal selection}}.<sup>[\[1\]](#^ref-Nemhauser-1978)</sup> <!--SR:!2024-08-20,49,290!2025-02-23,190,310!2024-11-09,105,290!2024-08-29,52,270-->
+The resulting selection is {{greedy and may not be the optimal solution}}. When {{the heuristic function is simply the benefit}}, the above problem is {{a [submodular set function maximization](submodular%20set%20function.md#submodular%20set%20function%20maximization) problem}}. In this case, it has been proven that the greedy selection {{has a benefit that is at least $1 - 1 / e \approx 0.632$ times of that of the optimal selection}}.<sup>[\[1\]](#^ref-Nemhauser-1978)</sup> <!--SR:!2025-03-04,196,310!2025-02-23,190,310!2024-11-09,105,290!2024-08-29,52,270-->
 
 ## references
 

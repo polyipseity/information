@@ -17,7 +17,7 @@ tags:
 
 # CNO cycle
 
-The __CNO cycle__ (for {{[carbon](carbon.md)–[nitrogen](nitrogen.md)–[oxygen](oxygen.md)}}; sometimes called {{__Bethe–Weizsäcker cycle__}} after {{[Hans Albrecht Bethe](Hans%20Bethe.md) and [Carl Friedrich von Weizsäcker](Carl%20Friedrich%20von%20Weizsäcker.md)}}) is {{one of the two known sets of [fusion](nuclear%20fusion.md) [reactions](nuclear%20reaction.md) by which [stars](star.md) convert [hydrogen](hydrogen.md) to [helium](helium.md)}}, the other being {{the [proton–proton chain reaction](proton–proton%20chain.md) (p–p cycle), which is more efficient at the [Sun](Sun.md)'s core temperature}}. The CNO cycle is {{hypothesized to be dominant in stars that are more than 1.3 times as [massive as the Sun](solar%20mass.md)}}. <!--SR:!2024-10-06,51,310!2024-09-26,40,290!2024-08-26,14,250!2024-09-30,42,290!2024-09-28,41,290!2024-08-20,17,290-->
+The __CNO cycle__ (for {{[carbon](carbon.md)–[nitrogen](nitrogen.md)–[oxygen](oxygen.md)}}; sometimes called {{__Bethe–Weizsäcker cycle__}} after {{[Hans Albrecht Bethe](Hans%20Bethe.md) and [Carl Friedrich von Weizsäcker](Carl%20Friedrich%20von%20Weizsäcker.md)}}) is {{one of the two known sets of [fusion](nuclear%20fusion.md) [reactions](nuclear%20reaction.md) by which [stars](star.md) convert [hydrogen](hydrogen.md) to [helium](helium.md)}}, the other being {{the [proton–proton chain reaction](proton–proton%20chain.md) (p–p cycle), which is more efficient at the [Sun](Sun.md)'s core temperature}}. The CNO cycle is {{hypothesized to be dominant in stars that are more than 1.3 times as [massive as the Sun](solar%20mass.md)}}. <!--SR:!2024-10-06,51,310!2024-09-26,40,290!2024-08-26,14,250!2024-09-30,42,290!2024-09-28,41,290!2024-10-06,47,290-->
 
 ## cold CNO cycles
 
@@ -25,11 +25,11 @@ Under {{typical conditions found in stars}}, catalytic hydrogen burning by the C
 
 ### CNO-I
 
-The CN-cycle, named as {{it contains no stable isotope of oxygen}}, involves the following cycle of transformations: {{$${}_{\phantom{0}6}^{12}\mathrm{C} \rightarrow {}_{\phantom{0}7}^{13}\mathrm{N} \rightarrow {}_{\phantom{0}6}^{13}\mathrm{C} \rightarrow {}_{\phantom{0}7}^{14}\mathrm{N} \rightarrow {}_{\phantom{0}8}^{15}\mathrm{O} \rightarrow {}_{\phantom{0}7}^{15}\mathrm{N} \rightarrow {}_{\phantom{0}6}^{12}\mathrm{C}$$}}. <!--SR:!2024-09-25,39,290!2024-08-20,17,290-->
+The CN-cycle, named as {{it contains no stable isotope of oxygen}}, involves the following cycle of transformations: {{$${}_{\phantom{0}6}^{12}\mathrm{C} \rightarrow {}_{\phantom{0}7}^{13}\mathrm{N} \rightarrow {}_{\phantom{0}6}^{13}\mathrm{C} \rightarrow {}_{\phantom{0}7}^{14}\mathrm{N} \rightarrow {}_{\phantom{0}8}^{15}\mathrm{O} \rightarrow {}_{\phantom{0}7}^{15}\mathrm{N} \rightarrow {}_{\phantom{0}6}^{12}\mathrm{C}$$}}. <!--SR:!2024-09-25,39,290!2024-10-04,45,290-->
 
 This cycle is now understood as {{being the first part of a larger process, the CNO-cycle}}, and the main reactions in this part of the cycle (CNO-I) are: <!--SR:!2024-10-15,58,310-->
 
-- 1st step ::: $${}_{\phantom{0}6}^{12}\mathrm{C} + {}_1^1\mathrm{H} \rightarrow {}_{\phantom{0}7}^{13}\mathrm{N} + \gamma + 1.95~\mathrm{MeV}$$ <!--SR:!2024-09-06,25,270!2024-08-20,17,290-->
+- 1st step ::: $${}_{\phantom{0}6}^{12}\mathrm{C} + {}_1^1\mathrm{H} \rightarrow {}_{\phantom{0}7}^{13}\mathrm{N} + \gamma + 1.95~\mathrm{MeV}$$ <!--SR:!2024-09-06,25,270!2024-10-07,48,290-->
   - 1st step / energy release (& half-life if available) ::: 1.95 MeV <!--SR:!2024-08-30,18,250!2024-08-26,14,250-->
 - 2nd step ::: $${}_{\phantom{0}7}^{13}\mathrm{N} \rightarrow {}_{\phantom{0}6}^{13}\mathrm{C} + \mathrm{e}^+ + \nu_{\mathrm{e} } + 1.20~\mathrm{MeV} \quad (\text{half life of 9.965 minutes})$$ <!--SR:!2024-08-26,8,190!2024-10-20,62,310-->
   - 2nd step / energy release (& half-life if available) ::: 1.20 Mev, 9.965 minutes <!--SR:!2024-08-25,7,190!2024-09-24,39,290-->
@@ -38,8 +38,8 @@ This cycle is now understood as {{being the first part of a larger process, the 
 - 4th step ::: $${}_{\phantom{0}7}^{14}\mathrm{N} + {}_1^1\mathrm{H} \rightarrow {}_{\phantom{0}8}^{15}\mathrm{O} + \gamma + 7.35~\mathrm{MeV}$$ <!--SR:!2024-09-02,14,230!2024-10-21,63,310-->
   - 4th step / energy release (& half-life if available) ::: 7.35 MeV <!--SR:!2024-08-27,15,250!2024-09-21,36,270-->
 - 5th step ::: $${}_{\phantom{0}8}^{15}\mathrm{O} \rightarrow {}_{\phantom{0}7}^{15}\mathrm{N} + \mathrm{e}^+ + \nu_{\mathrm{e} } + 1.73~\mathrm{MeV} \quad (\text{half life of 122.24 seconds})$$ <!--SR:!2024-08-31,19,250!2024-09-10,27,270-->
-  - 5th step / energy release (& half-life if available) ::: 1.73 MeV, 122.24 seconds <!--SR:!2024-08-22,6,210!2024-08-20,17,290-->
-- 6th step ::: $${}_{\phantom{0}7}^{15}\mathrm{N} + {}_1^1\mathrm{H} \rightarrow {}_{\phantom{0}6}^{12}\mathrm{C} + {}_2^4\mathrm{He} + 4.96~\mathrm{MeV}$$ <!--SR:!2024-09-08,20,230!2024-08-20,17,290-->
+  - 5th step / energy release (& half-life if available) ::: 1.73 MeV, 122.24 seconds <!--SR:!2024-08-22,6,210!2024-10-29,70,310-->
+- 6th step ::: $${}_{\phantom{0}7}^{15}\mathrm{N} + {}_1^1\mathrm{H} \rightarrow {}_{\phantom{0}6}^{12}\mathrm{C} + {}_2^4\mathrm{He} + 4.96~\mathrm{MeV}$$ <!--SR:!2024-09-08,20,230!2024-10-25,66,310-->
   - 6th step / energy release (& half-life if available) ::: 4.96 MeV <!--SR:!2024-09-17,34,270!2024-10-22,64,310-->
 
 ...where {{the carbon-12 nucleus used in the first reaction is regenerated in the last reaction}}. After {{the two [positrons emitted](positron%20emission.md) [annihilate](annihilation.md) with two ambient electrons producing an additional 2.04 MeV}}, the total energy released in one cycle is {{26.73 MeV}}. <!--SR:!2024-10-03,45,290!2024-08-21,13,250!2024-09-04,23,270-->
