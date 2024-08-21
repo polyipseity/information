@@ -38,6 +38,7 @@ _names_map_manual = {
     "Euclidean distance": "Euclidean distance",
     "Euclidean norm": "Euclidean norm",
     "Euclidean space": "Euclidean space",
+    "Fourier analysis": "Fourier analysis",
     "Jeans instability": "Jeans instability",
     "Jeans mass": "Jeans mass",
     "Latin": "Latin",
