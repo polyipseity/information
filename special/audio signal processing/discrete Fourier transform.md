@@ -49,7 +49,7 @@ The DFT is {{a linear transform}}. That is, {{$$\mathcal{F}(\{a x_n + b y_n\})_k
 
 This shift from the time domain to the frequency domain has an intuitive interpretation. Interpret the argument (angle) of the complex number for each frequency as {{its time offset}}. Shifting a signal to the right (with warping) in the time domain {{increases the time offset for all frequencies}}. This means the complex number for each frequency is {{multiplied (rotated) by $e^{-\frac {j 2\pi} N k n_0}$, changing its argument (angle) while keeping its modulus (length) unchanged}}. This corresponds to {{shifting its corresponding complex sinusoidal in the time domain to the right (with warping)}}. <!--SR:!2024-08-23,4,306!2024-08-23,4,306!2024-08-23,4,306!2024-08-23,4,306-->
 
-By duality, {{shifting the signal in the frequency to the right by $k_0$ samples}} corresponds to {{multiplying the signal in the time domain by $e^{\frac{j 2\pi} N n k_0}$ (notice there is no negative sign)}}. This can also be shown {{directly from the definition}}. <!--SR:!2024-08-23,4,306!2024-08-29,7,286-->
+By duality, {{shifting the signal in the frequency to the right by $k_0$ samples}} corresponds to {{multiplying the signal in the time domain by $e^{\frac{j 2\pi} N n k_0}$ (notice there is no negative sign)}}. This can also be shown {{directly from the definition}}. <!--SR:!2024-08-23,4,306!2024-08-29,7,286!2024-08-26,4,313-->
 
 ### symmetry
 
@@ -71,7 +71,7 @@ To understand this convolution theorem, imagine the two signals {{decomposed int
 
 - see: [general/discrete Fourier transform § The Plancherel theorem and Parseval's theorem](../../general/discrete%20Fourier%20transform.md#The%20Plancherel%20theorem%20and%20Parseval's%20theorem)
 
-"Energy" is {{conserved after applying DFT or IDFT on a signal, up to a factor of $1 / N$}}. "Energy" here means {{the squared length of the vector when the sequence of values in a signal is treated as a vector}}. Mathematically, this is: {{$$\sum_{n = 0}^{N - 1} \lvert x[n]\rvert^2 = \frac 1 N \sum_{k = 0}^{N - 1} \lvert X[k] \rvert^2$$}}.
+"Energy" is {{conserved after applying DFT or IDFT on a signal, up to a factor of $1 / N$}}. "Energy" here means {{the squared length of the vector when the sequence of values in a signal is treated as a vector}}. Mathematically, this is: {{$$\sum_{n = 0}^{N - 1} \lvert x[n]\rvert^2 = \frac 1 N \sum_{k = 0}^{N - 1} \lvert X[k] \rvert^2$$}}. <!--SR:!2024-08-26,4,313!2024-08-26,4,313!2024-08-26,4,313-->
 
 ## interpretation
 
@@ -95,42 +95,42 @@ Note that if {{you try to use Python to repeat the above mathematical proofs}}, 
 
 {{The magnitude spectrum}} is {{the transformed signal under the modulus operation $\lvert X \rvert$ (length of the complex amplitude)}}. For easier visualization, the magnitude may be {{in logarithm scale}}. The magnitude, intuitively, represents {{the loudness of the complex sinusoidal of a given frequency}}. <!--SR:!2024-08-29,17,290!2024-08-28,16,290!2024-08-28,16,290!2024-08-28,16,290-->
 
-{{The phase spectrum}} is {{the transformed signal under the argument operation $\operatorname{arg}(X)$ (angle of the complex amplitude)}}. The phase, intuitively, represents {{the time offset of the complex sinusoidal of a given frequency}}.
+{{The phase spectrum}} is {{the transformed signal under the argument operation $\operatorname{arg}(X)$ (angle of the complex amplitude)}}. The phase, intuitively, represents {{the time offset of the complex sinusoidal of a given frequency}}. <!--SR:!2024-08-26,4,313!2024-08-26,4,313!2024-08-26,4,313-->
 
 ### decibel
 
 - see: [general/decibel](../../general/decibel.md)
 
-It is often more helpful to plot the magnitude spectrum in {{a logarithmic scale to show small differences well}}. {{The decibel (dB)}} is often used. The magnitude values can be converted into decibels using the following equation: {{$$A_{\mathrm{dB} } = 20 \cdot \log_{10} (A_{\mathrm{abs} })$$}}.
+It is often more helpful to plot the magnitude spectrum in {{a logarithmic scale to show small differences well}}. {{The decibel (dB)}} is often used. The magnitude values can be converted into decibels using the following equation: {{$$A_{\mathrm{dB} } = 20 \cdot \log_{10} (A_{\mathrm{abs} })$$}}. <!--SR:!2024-08-26,4,313!2024-08-26,4,313!2024-08-26,4,313-->
 
 ### phase unwrapping
 
 - see: [`np.unwrap`](https://numpy.org/doc/stable/reference/generated/numpy.unwrap.html)
 
-To make the phase spectrum {{less jumpy (more continuous)}}, the phase may be {{wrapped around $2\pi$ such that the difference from the previous phase is not more than $\pi$ (see [`np.unwrap`](https://numpy.org/doc/stable/reference/generated/numpy.unwrap.html))}}.
+To make the phase spectrum {{less jumpy (more continuous)}}, the phase may be {{wrapped around $2\pi$ such that the difference from the previous phase is not more than $\pi$ (see [`np.unwrap`](https://numpy.org/doc/stable/reference/generated/numpy.unwrap.html))}}. <!--SR:!2024-08-26,4,313!2024-08-26,4,313-->
 
 ## zero padding
 
-Zero padding refers to {{adding an arbitrary number of zero values to a signal in the time or frequency domain in the middle, assuming the indices are from $0$ to $N - 1$; or on both ends symmetrically, assuming the indices are centered around $0$}}. This is the {{_zero-centered_ variant}}, which is {{more natural with respect to the mathematics of DFT}} and {{can be applied to the [spectrum](#spectrums) of a real signal (the other variant makes the signal have imaginary components)}}. The resulting phase (angle) spectrum of the signal is also {{not offsetted}}, allowing us to {{obtain a very smooth phase spectrum after [unwrapping](#phase%20unwrapping)}}.
+Zero padding refers to {{adding an arbitrary number of zero values to a signal in the time or frequency domain in the middle, assuming the indices are from $0$ to $N - 1$; or on both ends symmetrically, assuming the indices are centered around $0$}}. This is the {{_zero-centered_ variant}}, which is {{more natural with respect to the mathematics of DFT}} and {{can be applied to the [spectrum](#spectrums) of a real signal (the other variant makes the signal have imaginary components)}}. The resulting phase (angle) spectrum of the signal is also {{not offsetted}}, allowing us to {{obtain a very smooth phase spectrum after [unwrapping](#phase%20unwrapping)}}. <!--SR:!2024-08-26,4,313!2024-08-26,4,313!2024-08-26,4,313!2024-08-26,4,313!2024-08-26,4,313!2024-08-26,4,313-->
 
-The other variant is {{the _causal_ variant}}, which {{adds an arbitrary number of zero values to a signal in the time or frequency domain at the end, assuming the indices are from $0$ to $N - 1$}}.
+The other variant is {{the _causal_ variant}}, which {{adds an arbitrary number of zero values to a signal in the time or frequency domain at the end, assuming the indices are from $0$ to $N - 1$}}. <!--SR:!2024-08-26,4,313!2024-08-26,4,313-->
 
-The effect of {{zero padding a signal in the time domain}} is that {{its corresponding DFT has its values interpolated such that it has the same number of values as the signal in the time domain, similar to scaling up image}}. Common reasons for zero padding the signal in the time domain include {{interpolating the signal in the frequency domain and making the number of signal samples a power of two so that fast Fourier transform (FFT) can be applied to it}}.
+The effect of {{zero padding a signal in the time domain}} is that {{its corresponding DFT has its values interpolated such that it has the same number of values as the signal in the time domain, similar to scaling up image}}. Common reasons for zero padding the signal in the time domain include {{interpolating the signal in the frequency domain and making the number of signal samples a power of two so that fast Fourier transform (FFT) can be applied to it}}. <!--SR:!2024-08-26,4,313!2024-08-26,4,313!2024-08-26,4,313-->
 
-By duality, zero padding a signal in the frequency domain corresponds to {{interpolating the signal in the time domain}}.
+By duality, zero padding a signal in the frequency domain corresponds to {{interpolating the signal in the time domain}}. <!--SR:!2024-08-26,4,313-->
 
-Zero padding can {{make the input size suitable}} for {{[fast Fourier transform](#fast%20Fourier%20transform) (FFT)}}. It can also be used to {{minimize the energy spread (the spread of values into adjacent frequencies in the frequency domain) of the resulting DFT}} for {{a signal made of a combination of sinusoidal waves}}.
+Zero padding can {{make the input size suitable}} for {{[fast Fourier transform](#fast%20Fourier%20transform) (FFT)}}. It can also be used to {{minimize the energy spread (the spread of values into adjacent frequencies in the frequency domain) of the resulting DFT}} for {{a signal made of a combination of sinusoidal waves}}. <!--SR:!2024-08-26,4,313!2024-08-26,4,313!2024-08-26,4,313!2024-08-26,4,313-->
 
 ## fast Fourier transform
 
 - see: [general/fast Fourier transform](../../general/fast%20Fourier%20transform.md)
 
-Fast Fourier transform (__FFT__) is {{a fast algorithm for computing the DFT of a signal}}. It works by {{breaking down DFT of a long signal into several DFTs of shorter signals recursively}}.
+Fast Fourier transform (__FFT__) is {{a fast algorithm for computing the DFT of a signal}}. It works by {{breaking down DFT of a long signal into several DFTs of shorter signals recursively}}. <!--SR:!2024-08-26,4,313!2024-08-26,4,313-->
 
-Its time complexity, that is {{how the running time grows with input size}}, is {{$O(n \log n)$, instead of $O(n^2)$ for DFT computed by its definition}}. This means {{for large input sizes, much time can be saved}}. So in practice, {{FFT is used over the traditional DFT}}.
+Its time complexity, that is {{how the running time grows with input size}}, is {{$O(n \log n)$, instead of $O(n^2)$ for DFT computed by its definition}}. This means {{for large input sizes, much time can be saved}}. So in practice, {{FFT is used over the traditional DFT}}. <!--SR:!2024-08-26,4,313!2024-08-26,4,313!2024-08-26,4,313!2024-08-26,4,313-->
 
-The most common form of FFT is {{the Cooley–Tukey algorithm}} that {{divides the signal into 2 equal-length signals recursively}}, so {{it requires the input size to be a power of 2}}. This can be fixed using {{[zero padding](#zero%20padding)}}. This algorithm also {{has other variants that divide the signal into arbitrary many equal-length signals recursively}}, but this will not be discussed here.
+The most common form of FFT is {{the Cooley–Tukey algorithm}} that {{divides the signal into 2 equal-length signals recursively}}, so {{it requires the input size to be a power of 2}}. This can be fixed using {{[zero padding](#zero%20padding)}}. This algorithm also {{has other variants that divide the signal into arbitrary many equal-length signals recursively}}, but this will not be discussed here. <!--SR:!2024-08-26,4,313!2024-08-26,4,313!2024-08-26,4,313!2024-08-26,4,313!2024-08-26,4,313-->
 
-Note that when {{zero padding a signal for FFT}}, it is important to {{apply the zero-centered variant instead of the causal one}}.
+Note that when {{zero padding a signal for FFT}}, it is important to {{apply the zero-centered variant instead of the causal one}}. <!--SR:!2024-08-26,4,313!2024-08-26,4,313-->
 
-Note that FFT is fundamentally {{the same thing as DFT}}, with the only difference being {{how the values are actually computed}}.
+Note that FFT is fundamentally {{the same thing as DFT}}, with the only difference being {{how the values are actually computed}}. <!--SR:!2024-08-26,4,313!2024-08-26,4,313-->
