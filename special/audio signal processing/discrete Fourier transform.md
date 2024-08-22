@@ -115,7 +115,7 @@ Zero padding refers to {{adding an arbitrary number of zero values to a signal i
 
 The other variant is {{the _causal_ variant}}, which {{adds an arbitrary number of zero values to a signal in the time or frequency domain at the end, assuming the indices are from $0$ to $N - 1$}}.
 
-The effect of {{zero padding a signal in the time domain}} is that {{its corresponding DFT has its values interpolated such that it has the same number of values as the signal in the time domain, similar to scaling up image}}. Common reasons for zero padding the signal in the time domain include {{interpolating the signal in the frequency domain and making the number of signal samples a power of two so that fast Fourier transform (FFT) can be applied to it}}.
+The effect of {{zero padding a signal in the time domain}} is that {{its corresponding DFT has its values interpolated such that it has the same number of values as the signal in the time domain, similar to scaling up an image}}. Common reasons for zero padding the signal in the time domain include {{interpolating the signal in the frequency domain and making the number of signal samples a power of two so that fast Fourier transform (FFT) can be applied to it}}.
 
 By duality, zero padding a signal in the frequency domain corresponds to {{interpolating the signal in the time domain}}.
 
