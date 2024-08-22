@@ -55,7 +55,7 @@ Loads on civil engineering can be separated into {{<!--pytextgen generate sectio
 
 <!--pytextgen generate section="cc19"--><!-- The following content is generated at 2024-05-14T21:09:52.082807+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←[dead load](#dead%20load) <!--SR:!2025-03-12,225,328!2024-08-22,77,320-->
+- _(begin)_→:::←[dead load](#dead%20load) <!--SR:!2025-03-12,225,328!2025-07-26,338,340-->
 - [dead load](#dead%20load)→:::←[environmental load](#environmental%20load) <!--SR:!2025-01-15,171,310!2024-10-21,106,290-->
 - [environmental load](#environmental%20load)→:::←[live load](#live%20load) <!--SR:!2024-09-24,83,270!2024-09-25,40,308-->
 - [live load](#live%20load)→:::←[load combinations](#load%20combinations) <!--SR:!2025-01-20,186,320!2025-01-31,196,310-->
@@ -66,7 +66,7 @@ Loads on civil engineering can be separated into {{<!--pytextgen generate sectio
 
 ### dead load
 
-The dead load includes {{loads that are relatively constant over time}}. This includes {{self-weights of structural members, such as beams, columns, floor slabs, roofs, and walls}} and {{weights of permanent fixtures such as carpets, tiles, walls, and windows}}. Usually calculated by {{density of material multiplied by component size}}. <!--SR:!2024-08-21,76,320!2024-10-22,112,290!2024-09-21,83,270!2024-11-14,123,290-->
+The dead load includes {{loads that are relatively constant over time}}. This includes {{self-weights of structural members, such as beams, columns, floor slabs, roofs, and walls}} and {{weights of permanent fixtures such as carpets, tiles, walls, and windows}}. Usually calculated by {{density of material multiplied by component size}}. <!--SR:!2025-07-23,335,340!2024-10-22,112,290!2024-09-21,83,270!2024-11-14,123,290-->
 
 Generally, dead load (and live load) internally {{deflects beams and floors}}. As a whole, it causes {{the foundation to settle, which may be uniform or tilt (e.g. [Leaning Tower of Pisa](Leaning%20Tower%20of%20Pisa.md))}}. More seriously, {{dishing or sagging may happen to the foundation}}. If not managed well, it can need to {{partial or total collapse of structural elements or the roof}}. <!--SR:!2025-04-06,235,330!2025-04-14,240,330!2025-03-02,222,330!2025-03-01,222,330-->
 
@@ -105,7 +105,7 @@ return await memorize_seq(
 
 <!--pytextgen generate section="ab92"--><!-- The following content is generated at 2024-05-14T21:09:52.106487+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←[hydrostatic load](#hydrostatic%20load) <!--SR:!2024-12-24,164,310!2024-08-22,77,320-->
+- _(begin)_→:::←[hydrostatic load](#hydrostatic%20load) <!--SR:!2024-12-24,164,310!2025-07-27,339,340-->
 - [hydrostatic load](#hydrostatic%20load)→:::←[lateral load](#lateral%20load) <!--SR:!2024-10-08,97,288!2024-11-15,125,300-->
 - [lateral load](#lateral%20load)→:::←[seismic load](#seismic%20load) <!--SR:!2024-09-21,85,288!2024-12-09,143,300-->
 - [seismic load](#seismic%20load)→:::←[thermal load](#thermal%20load) <!--SR:!2024-11-17,97,260!2024-10-24,98,260-->

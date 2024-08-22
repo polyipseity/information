@@ -63,7 +63,7 @@ See [Burj Khalifa](../../../../general/Burj%20Khalifa.md).
 See [CCTV Headquarters](../../../../general/CCTV%20Headquarters.md).
 
 - description ::: skyscraper in the central business district of Beijing, China <!--SR:!2024-10-25,144,332!2025-08-30,398,387-->
-- height ::: roof: 234 m <!--SR:!2024-08-21,45,240!2024-08-29,108,377-->
+- height ::: roof: 234 m <!--SR:!2024-12-08,108,240!2024-08-29,108,377-->
 - image ::: ![CCTV Headquarters image](../../../../archives/Wikimedia%20Commons/China%20Central%20Television%20HQ,%20from%20China%20World%20Trade%20Centre%20(Cropped).jpg) <!--SR:!2025-03-20,235,360!2024-08-29,96,380-->
 - shape ::: big pants <!--SR:!2025-11-28,469,385!2024-08-25,93,380-->
 
@@ -86,8 +86,8 @@ See [Central Plaza (Hong Kong)](../../../../general/Central%20Plaza%20(Hong%20Ko
 
 See [Channel Tunnel](../../../../general/Channel%20Tunnel.md).
 
-- completion time ::: 1994 <!--SR:!2024-08-22,14,296!2024-10-10,110,376-->
-- rail tunnel length ::: 50.5 km (37.9 km underseas) <!--SR:!2024-08-21,9,256!2024-10-20,125,396-->
+- completion time ::: 1994 <!--SR:!2024-10-05,44,296!2024-10-10,110,376-->
+- rail tunnel length ::: 50.5 km (37.9 km underseas) <!--SR:!2024-09-14,23,256!2024-10-20,125,396-->
 
 ## China International Trust and Investment Plaza
 
@@ -96,7 +96,7 @@ See [CITIC Plaza](../../../../general/CITIC%20Plaza.md).
 - description ::: super tall skyscraper in Guangzhou, Guangdong, China <!--SR:!2025-02-22,203,292!2025-11-09,454,387-->
 - height ::: architectural: 390.2 m, top floor: 296.9 m <!--SR:!2024-08-28,45,181!2025-02-27,231,352-->
 - image ::: ![China International Trust and Investment Plaza image](../../../../archives/Wikimedia%20Commons/CITIC%20Plaza%202017.jpg) <!--SR:!2025-05-22,283,360!2024-09-08,104,380-->
-- [structural system](../../../../general/structural%20system.md) ::: reinforced concrete<!-- flashcard ebde3927-b7ca-4808-9e3c-bf6078be3654 --> <!--SR:!2024-09-18,41,340!2024-08-22,90,380-->
+- [structural system](../../../../general/structural%20system.md) ::: reinforced concrete<!-- flashcard ebde3927-b7ca-4808-9e3c-bf6078be3654 --> <!--SR:!2024-09-18,41,340!2025-12-04,469,400-->
 
 ## Colosseum
 
@@ -220,12 +220,12 @@ See [Millau Viaduct](../../../../general/Millau%20Viaduct.md).
 
 - bridge type ::: cable-stayed road bridge <!--SR:!2024-10-22,119,376!2024-10-23,127,396-->
 - designers ::: Michel Virlogeux, Norman Foster <!--SR:!2024-08-24,77,376!2024-11-16,148,396-->
-- geographic location ::: across the gorge valley of the Tarn near Millau in southern France <!--SR:!2025-05-01,258,376!2024-08-22,75,376-->
+- geographic location ::: across the gorge valley of the Tarn near Millau in southern France <!--SR:!2025-05-01,258,376!2025-05-29,280,376-->
 - height ::: max pylon above base: 343 m, structural: 336.4 m <!--SR:!2024-09-13,76,316!2024-11-07,140,396-->
   - height record ::: as of October 2023, tallest bridge in the world <!--SR:!2024-10-22,126,396!2024-10-22,127,396-->
 - length ::: 2450 m = 204 m + 342 m × 6 + 204 m, longest span: 342 m <!--SR:!2024-08-23,56,336!2024-10-12,118,396-->
 - image ::: ![Millau Viaduct image](../../../../archives/Wikimedia%20Commons/ViaducdeMillau.jpg) <!--SR:!2024-11-04,137,396!2024-08-28,80,376-->
-- opening time ::: 2004-12-16, 09:00 <!--SR:!2024-08-23,6,276!2024-08-22,75,376-->
+- opening time ::: 2004-12-16, 09:00 <!--SR:!2024-08-23,6,276!2025-05-30,281,376-->
 - width ::: 32.05 m <!--SR:!2024-09-09,86,376!2024-09-10,87,376-->
 
 ## Mont Cenis Base Tunnel
@@ -251,7 +251,7 @@ See [Panama Canal](../../../../general/Panama%20Canal.md).
 
 See [Parthenon](../../../../general/Parthenon.md).
 
-- construction period ::: 447 BC to 438 BC, 9 years <!--SR:!2024-08-22,6,196!2024-12-01,159,396-->
+- construction period ::: 447 BC to 438 BC, 9 years <!--SR:!2024-09-01,10,196!2024-12-01,159,396-->
 - dedication ::: Greek goddess Athena <!--SR:!2024-12-08,166,396!2024-11-08,141,396-->
 - description ::: temple on the Athenian Acropolis, Greece, dedicated to the Greek goddess Athena <!--SR:!2024-11-21,135,356!2024-11-06,139,396-->
 - geographic location ::: Athenian Acropolis, Greece <!--SR:!2024-11-29,138,356!2024-10-16,122,396-->
@@ -262,7 +262,7 @@ See [Parthenon](../../../../general/Parthenon.md).
 See [Stonecutters Bridge](../../../../general/Stonecutters%20Bridge.md).
 
 - bridge type ::: [cable-stayed bridge](../../../../general/cable-stayed%20bridge.md)<!-- flashcard ca1fa4c4-b487-40a0-9948-a808866a25eb --> <!--SR:!2024-12-12,177,361!2024-08-30,98,381-->
-- description ::: bridge in Hong Kong <!--SR:!2024-12-19,186,345!2024-08-21,100,377-->
+- description ::: bridge in Hong Kong <!--SR:!2024-12-19,186,345!2026-01-18,514,397-->
 - image ::: ![Stonecutters Bridge image](../../../../archives/Wikimedia%20Commons/Stonecutters'%20Bridge.jpg) <!--SR:!2024-08-28,95,380!2025-05-03,286,380-->
 - length ::: 1596 m, longest span: 1018 m <!--SR:!2024-10-14,56,240!2025-03-13,259,370-->
 
@@ -272,7 +272,7 @@ See [Sutong Yangtze River Bridge](../../../../general/Sutong%20Yangtze%20River%2
 
 - bridge type ::: [cable-stayed bridge](../../../../general/cable-stayed%20bridge.md)<!-- flashcard 30c74f35-b995-41af-8d8c-189c93fb1dfa --> <!--SR:!2025-05-24,285,360!2024-08-23,91,380-->
 - description ::: [cable-stayed bridge](../../../../general/cable-stayed%20bridge.md) in China <!--SR:!2025-04-08,239,310!2025-05-26,316,364-->
-- image ::: ![Sutong Yangtze River Bridge image](../../../../archives/Wikimedia%20Commons/Sutong%20Yangtze%20River%20Bridge.JPG) <!--SR:!2024-08-21,89,380!2025-05-14,295,380-->
+- image ::: ![Sutong Yangtze River Bridge image](../../../../archives/Wikimedia%20Commons/Sutong%20Yangtze%20River%20Bridge.JPG) <!--SR:!2025-07-18,330,380!2025-05-14,295,380-->
 - length ::: 8206 m, longest span: 1088 m <!--SR:!2024-08-24,25,237!2025-02-02,212,355-->
 
 ## Taipei 101

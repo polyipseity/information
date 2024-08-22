@@ -15,11 +15,11 @@ tags:
 
 #### addition
 
-The _sum_ of {{two matrices __A__ and __B__ of the same size _m_ × _n_}} is denoted {{__A__ + __B__}}. It is calculated by {{adding the matrices element-wise}}: {{$$(\mathbf{A} + \mathbf{B})_{i, j} = \mathbf{A}_{i, j} + \mathbf{B}_{i, j} \qquad \text{where }1 \le i \le m\text{ and }1 \le j \le n$$}}. <!--SR:!2024-09-15,72,310!2024-08-22,51,310!2024-08-28,57,310!2024-09-03,62,310-->
+The _sum_ of {{two matrices __A__ and __B__ of the same size _m_ × _n_}} is denoted {{__A__ + __B__}}. It is calculated by {{adding the matrices element-wise}}: {{$$(\mathbf{A} + \mathbf{B})_{i, j} = \mathbf{A}_{i, j} + \mathbf{B}_{i, j} \qquad \text{where }1 \le i \le m\text{ and }1 \le j \le n$$}}. <!--SR:!2024-09-15,72,310!2025-03-28,218,330!2024-08-28,57,310!2024-09-03,62,310-->
 
 #### scalar multiplication
 
-The _product_ of {{a [scalar](scalar%20(mathematics).md) _c_ and a matrix __A__ of size _m_ × _n_}} is denoted {{$c\mathbf{A}$, $c \cdot \mathbf{A}$, or $\mathbf{A} \cdot c$}}. It is calculated by {{multiplying every element of __A__ by _c_}}: {{$$(c\mathbf{A})_{i, j} = c \cdot \mathbf{A}_{i, j} \qquad \text{where }1 \le i \le m\text{ and }1 \le j \le n$$}}. <!--SR:!2024-09-09,67,310!2025-01-15,156,310!2024-12-01,115,290!2024-08-21,52,290-->
+The _product_ of {{a [scalar](scalar%20(mathematics).md) _c_ and a matrix __A__ of size _m_ × _n_}} is denoted {{$c\mathbf{A}$, $c \cdot \mathbf{A}$, or $\mathbf{A} \cdot c$}}. It is calculated by {{multiplying every element of __A__ by _c_}}: {{$$(c\mathbf{A})_{i, j} = c \cdot \mathbf{A}_{i, j} \qquad \text{where }1 \le i \le m\text{ and }1 \le j \le n$$}}. <!--SR:!2024-09-09,67,310!2025-01-15,156,310!2024-12-01,115,290!2025-03-19,209,310-->
 
 #### subtraction
 

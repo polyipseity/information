@@ -19,7 +19,7 @@ In [mathematics](mathematics.md), {{an __even function__}} is {{a [real function
 
 They are named for {{the [parity](parity%20(mathematics).md) of the powers of the [power functions](exponentiation.md#power%20functions)}} which satisfy each condition: {{the function $f(x) = x^n$ is even if _n_ is an [even integer](parity%20(mathematics).md), and it is odd if _n_ is an odd integer}}. <!--SR:!2024-08-26,15,290!2024-08-28,17,290-->
 
-Even functions are those real functions whose [graph](graph%20of%20a%20function.md) is {{[self-symmetric](symmetry%20(geometry).md) with respect to the y-axis, and odd functions are those whose graph is self-symmetric with respect to the [origin](origin%20(mathematics).md)}}. <!--SR:!2024-08-22,11,270-->
+Even functions are those real functions whose [graph](graph%20of%20a%20function.md) is {{[self-symmetric](symmetry%20(geometry).md) with respect to the y-axis, and odd functions are those whose graph is self-symmetric with respect to the [origin](origin%20(mathematics).md)}}. <!--SR:!2024-10-03,42,290-->
 
 If {{the domain of a real function is self-symmetric with respect to the origin}}, then the function can be {{uniquely decomposed as the sum of an even function and an odd function}}. <!--SR:!2024-09-25,37,290!2024-08-25,14,290-->
 

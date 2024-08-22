@@ -9,7 +9,7 @@ tags:
 
 # cosmological principle
 
-In modern [physical cosmology](physical%20cosmology.md), the __cosmological principle__ is {{the notion that the spatial distribution of matter in the universe is uniformly [isotropic](isotropy.md) and [homogeneous](homogeneity%20(physics).md) when viewed on a large enough scale}}, since {{the forces are expected to act equally throughout the universe on a large scale}}, and {{should, therefore, produce no observable inequalities in the large-scale structuring over the course of evolution of the matter field that was initially laid down by the [Big Bang](Big%20Bang.md)}}. <!--SR:!2024-08-21,4,270!2024-08-21,4,270!2024-08-21,4,270-->
+In modern [physical cosmology](physical%20cosmology.md), the __cosmological principle__ is {{the notion that the spatial distribution of matter in the universe is uniformly [isotropic](isotropy.md) and [homogeneous](homogeneity%20(physics).md) when viewed on a large enough scale}}, since {{the forces are expected to act equally throughout the universe on a large scale}}, and {{should, therefore, produce no observable inequalities in the large-scale structuring over the course of evolution of the matter field that was initially laid down by the [Big Bang](Big%20Bang.md)}}. <!--SR:!2024-09-08,17,290!2024-09-05,14,290!2024-09-04,13,290-->
 
 ## references
 

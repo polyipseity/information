@@ -88,7 +88,7 @@ return await memorize_table(
 
 - _(begin)_→:::←increased bleeding risk <!--SR:!2024-12-15,173,310!2026-06-27,841,330-->
 - increased bleeding risk→:::←[stomach ulcer](peptic%20ulcer%20disease.md) <!--SR:!2027-06-08,1182,350!2025-08-21,398,310-->
-- [stomach ulcer](peptic%20ulcer%20disease.md)→:::←[stomach upset](abdominal%20pain.md) <!--SR:!2024-08-21,360,290!2027-06-19,1191,350-->
+- [stomach ulcer](peptic%20ulcer%20disease.md)→:::←[stomach upset](abdominal%20pain.md) <!--SR:!2027-07-01,1043,290!2027-06-19,1191,350-->
 - [stomach upset](abdominal%20pain.md)→:::←_(end)_ <!--SR:!2027-05-28,1173,350!2027-05-23,1168,350-->
 
 <!--/pytextgen-->

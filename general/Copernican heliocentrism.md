@@ -13,7 +13,7 @@ tags:
 # import ../../tools/utility.py.md
 ```
 
-__Copernican heliocentrism__ is {{the astronomical [model](scientific%20modelling.md) developed by [Nicolaus Copernicus](Nicolaus%20Copernicus.md)}} and published in {{1543}}. This model {{positioned the [Sun](Sun.md) at the center of the [universe](universe.md), motionless, with [Earth](Earth.md) and the other [planets](planet.md) moving around it in [circular orbits](circular%20orbit.md), modified by [epicycles](deferent%20and%20epicycle.md), and at uniform speeds}}. The Copernican model displaced {{the [Ptolemaic model](geocentric%20model.md#Ptolemaic%20model) that had prevailed for centuries, which had placed Earth at the center of the universe}}. <!--SR:!2024-08-21,41,290!2024-09-03,22,210!2024-09-02,50,290!2024-08-22,42,290-->
+__Copernican heliocentrism__ is {{the astronomical [model](scientific%20modelling.md) developed by [Nicolaus Copernicus](Nicolaus%20Copernicus.md)}} and published in {{1543}}. This model {{positioned the [Sun](Sun.md) at the center of the [universe](universe.md), motionless, with [Earth](Earth.md) and the other [planets](planet.md) moving around it in [circular orbits](circular%20orbit.md), modified by [epicycles](deferent%20and%20epicycle.md), and at uniform speeds}}. The Copernican model displaced {{the [Ptolemaic model](geocentric%20model.md#Ptolemaic%20model) that had prevailed for centuries, which had placed Earth at the center of the universe}}. <!--SR:!2024-12-18,118,290!2024-09-03,22,210!2024-09-02,50,290!2025-02-06,168,310-->
 
 The model uses ideas such as:
 
@@ -65,7 +65,7 @@ return await memorize_seq(
 - [Mercury](Mercury%20(planet).md)→:::←[Venus](Venus.md) <!--SR:!2024-08-27,43,290!2024-08-25,45,290-->
 - [Venus](Venus.md)→:::←[Earth](Earth.md), with the [Moon](Moon.md) orbiting around it <!--SR:!2024-08-23,40,290!2024-08-28,43,290-->
 - [Earth](Earth.md), with the [Moon](Moon.md) orbiting around it→:::←[Mars](Mars.md) <!--SR:!2024-09-14,61,310!2024-11-08,85,270-->
-- [Mars](Mars.md)→:::←[Jupiter](Jupiter.md) <!--SR:!2024-09-21,65,310!2024-08-21,38,290-->
+- [Mars](Mars.md)→:::←[Jupiter](Jupiter.md) <!--SR:!2024-09-21,65,310!2024-12-09,109,290-->
 - [Jupiter](Jupiter.md)→:::←[Saturn](Saturn.md) <!--SR:!2025-01-10,148,310!2024-09-15,62,310-->
 - [Saturn](Saturn.md)→:::←[fixed stars](fixed%20stars.md) <!--SR:!2024-09-18,64,310!2024-09-25,69,310-->
 - [fixed stars](fixed%20stars.md)→:::←_(end)_ <!--SR:!2024-09-07,55,310!2024-09-05,53,310-->
