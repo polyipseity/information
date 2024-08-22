@@ -29,6 +29,7 @@ The content is in recommended learning order.
   - [§ sms-tools](signal%20tools.md#sms-tools)
 - [Python for signal processing](Python%20for%20signal%20processing.md)
   - [§ numpy](Python%20for%20signal%20processing.md#numpy)
+  - [§ useful functions](Python%20for%20signal%20processing.md#useful%20functions)
   - [§ matplotlib](Python%20for%20signal%20processing.md#matplotlib)
 - [discrete Fourier transform](discrete%20Fourier%20transform.md)
   - [§ definition](discrete%20Fourier%20transform.md#definition)
@@ -49,6 +50,16 @@ The content is in recommended learning order.
   - [§ symmetry](discrete%20Fourier%20transform.md#symmetry)
   - [§ convolution](discrete%20Fourier%20transform.md#convolution)
   - [§ energy conservation](discrete%20Fourier%20transform.md#energy%20conservation)
+  - [§ decibel](discrete%20Fourier%20transform.md#decibel)
+  - [§ phase unwrapping](discrete%20Fourier%20transform.md#phase%20unwrapping)
+  - [§ zero padding](discrete%20Fourier%20transform.md#zero%20padding)
+  - [§ fast Fourier transform](discrete%20Fourier%20transform.md#fast%20Fourier%20transform)
+- [signal tools](signal%20tools.md)
+  - [§ generating periodic signals](signal%20tools.md#generating%20periodic%20signals)
+  - [§ applying DFT on complicated sounds](signal%20tools.md#applying%20DFT%20on%20complicated%20sounds)
+  - [§ analysis (sms-tools)](signal%20tools.md#analysis%20(sms-tools))
+- [Python for signal processing](Python%20for%20signal%20processing.md)
+  - [§ numpy](Python%20for%20signal%20processing.md#numpy)
 
 ## references
 

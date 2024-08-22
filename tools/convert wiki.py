@@ -38,6 +38,7 @@ _names_map_manual = {
     "Euclidean distance": "Euclidean distance",
     "Euclidean norm": "Euclidean norm",
     "Euclidean space": "Euclidean space",
+    "Fourier analysis": "Fourier analysis",
     "Jeans instability": "Jeans instability",
     "Jeans mass": "Jeans mass",
     "Latin": "Latin",
@@ -194,7 +195,9 @@ async def wiki_html_to_plaintext(
                     alt_text = alt_text.removeprefix(R"{\textstyle ")
                 if len(alt_text) <= alt_text_len:
                     alt_text = alt_text.removesuffix(R"}")
-                alt_text = alt_text.replace(R"{{", R"{ {").replace(R"}}", R"} }")
+                alt_text = (
+                    alt_text.replace(R"{{", R"{ {").replace(R"}}", R"} }").strip()
+                )
 
                 inline = (
                     (parent := ele.parent)

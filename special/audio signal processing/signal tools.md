@@ -19,9 +19,17 @@ Audacity is {{an audio editor}}. It can be downloaded from {{<https://audacityte
 
 Audacity can show {{the spectrogram of a signal}}. <!--SR:!2024-09-01,16,309-->
 
+### generating periodic signals
+
+Audacity can generate {{real sine signals of any frequency and amplitude}}. The signals can also be {{non-sinusoidal, such as _sawtooth_-shaped and _triangle_-shaped}}, which have {{more complex frequency components}}. It can even generate signals that {{increases in frequency over time (increasing pitch)}}, called {{_chirp_}}.
+
 ## SonicVisualiser
 
 SonicVisualiser is {{an audio visualization, analysis, and annotation tool}}. It can be downloaded from {{<https://sonicvisualiser.org/>}}. <!--SR:!2024-08-25,13,290!2024-08-26,14,290-->
+
+### applying DFT on complicated sounds
+
+SonicVisualiser can {{apply DFT on complicated sounds and produce a magnitude spectrum of its frequencies}}.
 
 ## sms-tools
 
