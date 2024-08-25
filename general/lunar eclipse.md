@@ -23,7 +23,7 @@ A __lunar eclipse__ is {{an astronomical event that occurs when the [Moon](Moon.
 
 ### penumbral lunar eclipse
 
-A penumbral lunar eclipse occurs when {{part or all of the [Moon](Moon.md) passes into the [Earth](Earth.md)'s [penumbra](umbra,%20penumbra%20and%20antumbra.md#penumbra). No part of the moon is in the Earth's [umbra](umbra,%20penumbra%20and%20antumbra.md#umbra) during this event}}. The penumbra causes {{a subtle dimming of the lunar surface}}, which is only visible to the naked eye when {{about 70% of the Moon's [diameter](diameter.md) has immersed into Earth's penumbra}}. <!--SR:!2024-10-31,82,290!2024-09-21,60,310!2024-08-24,37,290-->
+A penumbral lunar eclipse occurs when {{part or all of the [Moon](Moon.md) passes into the [Earth](Earth.md)'s [penumbra](umbra,%20penumbra%20and%20antumbra.md#penumbra). No part of the moon is in the Earth's [umbra](umbra,%20penumbra%20and%20antumbra.md#umbra) during this event}}. The penumbra causes {{a subtle dimming of the lunar surface}}, which is only visible to the naked eye when {{about 70% of the Moon's [diameter](diameter.md) has immersed into Earth's penumbra}}. <!--SR:!2024-10-31,82,290!2024-09-21,60,310!2025-01-19,148,310-->
 
 ### partial lunar eclipse
 

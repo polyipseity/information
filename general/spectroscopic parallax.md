@@ -20,7 +20,7 @@ To apply this method, one must {{measure the [apparent magnitude](apparent%20mag
 
 The method ultimately derives from {{the spectroscopic studies of sunspots and stars}} by [Walter Sydney Adams](Walter%20Sydney%20Adams.md) and [Ernst Arnold Kohlschütter](Arnold%20Kohlschütter.md).<sup>[\[4\]](#^ref-4)</sup> <!--SR:!2024-08-25,13,270-->
 
-The method is an important step {{on the [cosmic distance ladder](cosmic%20distance%20ladder.md)}}. <!--SR:!2024-08-24,12,270-->
+The method is an important step {{on the [cosmic distance ladder](cosmic%20distance%20ladder.md)}}. <!--SR:!2024-10-07,44,290-->
 
 ## see also
 

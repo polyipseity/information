@@ -120,7 +120,7 @@ return await memorize_seq(
 - [diagrid](diagrid.md)→:::←[exoskeleton](exoskeleton.md) <!--SR:!2024-09-11,77,275!2024-08-29,28,295-->
 - [exoskeleton](exoskeleton.md)→:::←[space truss](space%20frame.md) <!--SR:!2025-01-03,142,255!2024-08-25,29,235-->
 - [space truss](space%20frame.md)→:::←[superframe](superframe.md) <!--SR:!2024-12-17,143,295!2024-10-03,79,275-->
-- [superframe](superframe.md)→:::←[tube](tube%20(structure).md) <!--SR:!2024-09-19,53,275!2024-08-24,12,195-->
+- [superframe](superframe.md)→:::←[tube](tube%20(structure).md) <!--SR:!2024-09-19,53,275!2024-09-15,22,195-->
 - [tube](tube%20(structure).md)→:::←_(end)_ <!--SR:!2025-03-24,220,315!2025-03-17,215,315-->
 
 <!--/pytextgen-->

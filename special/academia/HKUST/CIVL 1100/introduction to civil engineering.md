@@ -55,7 +55,7 @@ The content is in teaching order.
   - [structural engineering examples](#structural%20engineering%20examples)
   - [natural disasters examples](#natural%20disaster%20examples)
   - structural engineering goals ::: safety: no collapse without warning, serviceability: deformation does not disrupt use <!--SR:!2024-11-21,133,292!2025-06-28,368,350-->
-  - construction material factors ::: depends on availability, cost, project nature <!--SR:!2024-08-24,92,337!2025-02-05,212,355-->
+  - construction material factors ::: depends on availability, cost, project nature <!--SR:!2025-10-24,426,357!2025-02-05,212,355-->
     - [construction material examples](#construction%20material%20examples)
       - [reinforced concrete structure examples](#reinforced%20concrete%20structure%20examples)
       - [steel or concrete–steel composite structure examples](#steel%20or%20concrete–steel%20composite%20structure%20examples)
@@ -149,7 +149,7 @@ quantity surveyor
 - consulting geo-technical engineer→:::←consulting structural engineer <!--SR:!2025-01-06,179,315!2025-04-26,255,317-->
 - consulting structural engineer→:::←contracting civil engineer <!--SR:!2024-09-11,108,335!2025-05-27,276,315-->
 - contracting civil engineer→:::←engineering geologist <!--SR:!2024-09-28,102,297!2024-09-04,34,295-->
-- engineering geologist→:::←environmental consultant <!--SR:!2024-10-25,125,305!2024-08-24,92,305-->
+- engineering geologist→:::←environmental consultant <!--SR:!2024-10-25,125,305!2025-05-31,280,305-->
 - environmental consultant→:::←quantity surveyor <!--SR:!2024-08-26,8,280!2025-01-22,163,280-->
 - quantity surveyor→:::←_(end)_ <!--SR:!2025-01-10,187,340!2024-09-02,35,340-->
 
@@ -199,7 +199,7 @@ water and sewage treatment system
 - power plant→:::←reservoir <!--SR:!2025-01-10,164,275!2024-09-05,91,320-->
 - reservoir→:::←sewage treatment <!--SR:!2024-09-21,62,197!2024-09-05,75,261-->
 - sewage treatment→:::←transport <!--SR:!2024-09-01,13,190!2024-12-13,152,301-->
-- transport→:::←water and sewage treatment system <!--SR:!2024-11-05,137,340!2024-08-24,7,130-->
+- transport→:::←water and sewage treatment system <!--SR:!2024-11-05,137,340!2024-09-02,9,130-->
 - water and sewage treatment system→:::←_(end)_ <!--SR:!2024-08-25,93,381!2025-04-10,252,361-->
 
 <!--/pytextgen-->
@@ -280,7 +280,7 @@ workmanship
 - _(begin)_→:::←budgeting <!--SR:!2025-01-11,187,341!2024-09-06,105,380-->
 - budgeting→:::←construction management <!--SR:!2024-09-02,35,300!2024-08-30,98,335-->
 - construction management→:::←economics <!--SR:!2024-10-17,98,235!2025-04-19,240,300-->
-- economics→:::←impacts to surrounding <!--SR:!2025-03-15,215,300!2024-08-24,23,240-->
+- economics→:::←impacts to surrounding <!--SR:!2025-03-15,215,300!2024-10-17,54,240-->
 - impacts to surrounding→:::←lifecycle <!--SR:!2025-04-01,238,320!2025-05-10,261,320-->
 - lifecycle→:::←maintenance <!--SR:!2024-10-13,106,297!2024-09-16,39,292-->
 - maintenance→:::←politics <!--SR:!2024-09-07,21,221!2025-04-18,249,312-->
@@ -320,7 +320,7 @@ We Engineer Hong Kong’s Development
 - 興土木 利民生 齊拓展 創明天→:::←We Bring The Best Engineering To Life <!--SR:!2024-10-07,130,324!2024-10-02,115,307-->
 - We Bring The Best Engineering To Life→:::←卓越工程 建設香港 <!--SR:!2025-03-21,227,312!2025-01-18,165,297-->
 - 卓越工程 建設香港→:::←We Engineer Hong Kong’s Development <!--SR:!2025-04-13,265,357!2024-10-22,134,330-->
-- We Engineer Hong Kong’s Development→:::←_(end)_ <!--SR:!2025-11-28,473,392!2024-08-24,92,380-->
+- We Engineer Hong Kong’s Development→:::←_(end)_ <!--SR:!2025-11-28,473,392!2025-08-08,349,380-->
 
 <!--/pytextgen-->
 
@@ -405,7 +405,7 @@ Water Cube
 - Burj Khalifa→:::←CCTV Headquarters <!--SR:!2024-09-02,89,320!2025-04-25,256,270-->
 - CCTV Headquarters→:::←Eiffel Tower <!--SR:!2024-09-28,103,285!2024-12-11,149,292-->
 - Eiffel Tower→:::←Hong Kong Convention and Exhibition Centre <!--SR:!2024-10-13,114,294!2024-09-03,60,305-->
-- Hong Kong Convention and Exhibition Centre→:::←Water Cube <!--SR:!2024-08-29,61,317!2024-08-24,81,320-->
+- Hong Kong Convention and Exhibition Centre→:::←Water Cube <!--SR:!2024-08-29,61,317!2025-05-09,258,320-->
 - Water Cube→:::←_(end)_ <!--SR:!2025-10-12,432,401!2025-01-02,201,357-->
 
 <!--/pytextgen-->
@@ -598,7 +598,7 @@ nuclear
 - chemical→:::←civil <!--SR:!2024-10-21,133,337!2024-12-24,194,357-->
 - civil→:::←computer <!--SR:!2024-11-15,163,354!2024-12-17,189,352-->
 - computer→:::←electrical <!--SR:!2024-11-07,142,327!2024-08-25,35,295-->
-- electrical→:::←industrial <!--SR:!2024-09-29,41,301!2024-08-24,28,250-->
+- electrical→:::←industrial <!--SR:!2024-09-29,41,301!2024-10-31,68,250-->
 - industrial→:::←manufacturing <!--SR:!2024-10-02,125,337!2024-09-11,103,332-->
 - manufacturing→:::←mechanical <!--SR:!2025-09-08,380,377!2024-10-23,134,337-->
 - mechanical→:::←nuclear <!--SR:!2025-07-18,340,377!2024-12-14,168,335-->
@@ -845,7 +845,7 @@ Tsing Ma Bridge
 <!--pytextgen generate section="e7f2"--><!-- The following content is generated at 2024-02-16T21:59:47.773549+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←Akashi Kaikyo Bridge <!--SR:!2024-09-28,42,298!2025-05-27,320,377-->
-- Akashi Kaikyo Bridge→:::←Hong Kong–Zhuhai–Macau Bridge <!--SR:!2024-08-24,92,327!2024-10-02,105,307-->
+- Akashi Kaikyo Bridge→:::←Hong Kong–Zhuhai–Macau Bridge <!--SR:!2025-06-20,300,327!2024-10-02,105,307-->
 - Hong Kong–Zhuhai–Macau Bridge→:::←Stonecutters Bridge <!--SR:!2024-11-20,100,320!2025-01-08,149,300-->
 - Stonecutters Bridge→:::←Sutong Yangtze River Bridge <!--SR:!2024-10-08,130,337!2024-11-17,147,340-->
 - Sutong Yangtze River Bridge→:::←Tsing Ma Bridge <!--SR:!2024-11-23,155,335!2024-08-31,93,307-->

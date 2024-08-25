@@ -220,7 +220,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 5. proportional to $r^2$
 >
 > - solution: {{1}}
-> - explanation: {{The orbital period $T$ is proportional to the inverse of angular orbital velocity $1 / \omega$. Further, linear orbital acceleration $A$ relates to angular orbital velocity by $A = r \omega^2 \implies \omega^2 = A / r$. Therefore, $$T^2 \propto r^3 \implies \omega^{-2} \propto r^3 \implies r / A \propto r^3 \implies r^{-2} \propto A \implies A \propto r^{-2}$$. Therefore the answer is $A \propto r^{-2}$.}} <!--SR:!2024-09-25,50,321!2024-08-24,25,281-->
+> - explanation: {{The orbital period $T$ is proportional to the inverse of angular orbital velocity $1 / \omega$. Further, linear orbital acceleration $A$ relates to angular orbital velocity by $A = r \omega^2 \implies \omega^2 = A / r$. Therefore, $$T^2 \propto r^3 \implies \omega^{-2} \propto r^3 \implies r / A \propto r^3 \implies r^{-2} \propto A \implies A \propto r^{-2}$$. Therefore the answer is $A \propto r^{-2}$.}} <!--SR:!2024-09-25,50,321!2024-11-01,69,281-->
 
 ## 2024-07-11
 
@@ -385,7 +385,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 4. 24 AU
 >
 > - solution: {{3}}
-> - explanation: {{Find the factor the Sun needs to be dimmer to have an apparent magnitude of 1.98: $$f_B = 100^{-\frac {1.98 - (-26.832)} 5} = 100^{-5.7624} \approx 2.98675776 \times 10^{-12}$$. As the apparent brightness is inversely proportional to the square of distance, the factor the Sun needs to be farther away is $$f_d = 1 / \sqrt{2.98675776 \times 10^{-12} } \approx 578628.74$$. As the Sun is 1 AU away, the answer is about 5.8×10<sup>5</sup> AU.}} <!--SR:!2024-08-24,7,271!2024-08-25,21,291-->
+> - explanation: {{Find the factor the Sun needs to be dimmer to have an apparent magnitude of 1.98: $$f_B = 100^{-\frac {1.98 - (-26.832)} 5} = 100^{-5.7624} \approx 2.98675776 \times 10^{-12}$$. As the apparent brightness is inversely proportional to the square of distance, the factor the Sun needs to be farther away is $$f_d = 1 / \sqrt{2.98675776 \times 10^{-12} } \approx 578628.74$$. As the Sun is 1 AU away, the answer is about 5.8×10<sup>5</sup> AU.}} <!--SR:!2024-09-14,21,271!2024-08-25,21,291-->
 
 <!-- markdownlint MD028 -->
 
@@ -601,7 +601,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 5. 100
 >
 > - solution: {{4}}
-> - explanation: {{Calculate the apparent magnitude of star B: $$m_B = 3 + 5 \log_{100} 15 \approx 5.940\,228\,15$$. Then apply the m & M equation: $$d = 10^{(m_B - M_B + 5) / 5} = 10^{(5.940\,228\,15 - 1 + 5) / 5} = 10^{1.988\,045\,62} \approx 97.28494~\mathrm{pc}$$. So the answer is 97.}} <!--SR:!2024-08-24,16,347!2024-10-11,52,347-->
+> - explanation: {{Calculate the apparent magnitude of star B: $$m_B = 3 + 5 \log_{100} 15 \approx 5.940\,228\,15$$. Then apply the m & M equation: $$d = 10^{(m_B - M_B + 5) / 5} = 10^{(5.940\,228\,15 - 1 + 5) / 5} = 10^{1.988\,045\,62} \approx 97.28494~\mathrm{pc}$$. So the answer is 97.}} <!--SR:!2024-11-07,75,367!2024-10-11,52,347-->
 
 <!-- markdownlint MD028 -->
 

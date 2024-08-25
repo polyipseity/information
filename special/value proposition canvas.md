@@ -51,7 +51,7 @@ value: overwhelmed by true value creation vs. understand patterns of value creat
 
 <!--/pytextgen-->
 
-Value proposition design starts from {{tools, value proposition canvas; design and test; and evolve}}. It is important to note that value proposition design is {{a nonlinear and messy process that gets more linear and clean over time}}. <!--SR:!2024-08-24,75,230!2024-09-14,111,307-->
+Value proposition design starts from {{tools, value proposition canvas; design and test; and evolve}}. It is important to note that value proposition design is {{a nonlinear and messy process that gets more linear and clean over time}}. <!--SR:!2025-02-12,172,230!2024-09-14,111,307-->
 
 Value proposition design works for {{both new ventures and established organizations}}. <!--SR:!2024-09-26,127,290-->
 
@@ -114,7 +114,7 @@ vagueness: vague jobs, pains, and gains
 - insufficiency: not enough jobs, pains, and gains→:::←mix: mixing customer segments <!--SR:!2024-11-12,96,189!2024-08-29,7,130-->
 - mix: mixing customer segments→:::←mix: mixing jobs and outcomes <!--SR:!2024-09-29,112,289!2024-09-19,47,249-->
 - mix: mixing jobs and outcomes→:::←opposite: gains and pains are not opposite, gains are beyond expectation while pains are falling short of expectation <!--SR:!2024-09-11,20,225!2024-09-20,87,285-->
-- opposite: gains and pains are not opposite, gains are beyond expectation while pains are falling short of expectation→:::←reversed: listing jobs, pains, and gains from your product value propositions <!--SR:!2025-01-17,174,269!2024-08-24,8,209-->
+- opposite: gains and pains are not opposite, gains are beyond expectation while pains are falling short of expectation→:::←reversed: listing jobs, pains, and gains from your product value propositions <!--SR:!2025-01-17,174,269!2024-09-09,16,209-->
 - reversed: listing jobs, pains, and gains from your product value propositions→:::←vagueness: vague jobs, pains, and gains <!--SR:!2024-09-05,40,169!2024-08-29,28,229-->
 - vagueness: vague jobs, pains, and gains→:::←_(end)_ <!--SR:!2025-03-14,236,329!2025-04-19,242,289-->
 
