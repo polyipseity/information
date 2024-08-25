@@ -53,7 +53,7 @@ The content is in teaching order.
 - [Hooke's law § linear springs](../../../../general/Hooke's%20law.md#linear%20springs)
 - stress and strain
   - strength of an object ::: Under compression or tension, objects deform. But it can differ in severity. "Strong", "hard", or "rigid" materials deform less while "weak", "soft", or "flexible" materials deform more. <!--SR:!2025-03-11,220,321!2025-06-22,308,341-->
-    - "strong" object examples ::: table leg <!--SR:!2024-08-23,74,330!2025-05-12,277,350-->
+    - "strong" object examples ::: table leg <!--SR:!2025-07-25,336,350!2025-05-12,277,350-->
     - "weak" object examples ::: mattress <!--SR:!2025-06-21,308,350!2025-04-18,239,321-->
   - relative deformation ::: Amount of deformation also depends on the original length of the object. <!--SR:!2024-10-10,95,330!2025-03-03,218,330-->
     - relative deformation examples ::: Compare deforming a thin mattress and a thick mattress. <!--SR:!2025-01-24,187,330!2025-07-21,333,350-->
@@ -126,7 +126,7 @@ The content is in teaching order.
 - [shear wall § description](../../../../general/shear%20wall.md#description)
 - wall-frame ::: shear-walled frame: [rigid frame](../../../../general/rigid%20frame.md) + [shear wall](../../../../general/shear%20wall.md), see [shear wall § description](../../../../general/shear%20wall.md#description) <!--SR:!2025-02-15,203,330!2025-02-08,200,330-->
   - wall-frame stiffness ::: stiffer than rigid frame or shear wall alone <!--SR:!2024-10-31,109,290!2024-08-30,81,330-->
-  - wall-frame economic limit ::: up to about 50 stories <!--SR:!2024-08-23,75,330!2025-02-12,205,330-->
+  - wall-frame economic limit ::: up to about 50 stories <!--SR:!2025-07-29,340,350!2025-02-12,205,330-->
 - framed tube ::: [tube](../../../../general/tube%20(structure).md) <!--SR:!2024-12-15,157,330!2025-03-16,216,330-->
   - [§ variation](../../../../general/tube%20(structure).md#variation)
 - core walls with outriggers ::: [structural system § outrigger](../../../../general/structural%20system.md#outrigger) <!--SR:!2025-05-05,256,330!2024-10-19,104,301-->

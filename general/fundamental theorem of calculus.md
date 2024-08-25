@@ -22,7 +22,7 @@ The first part is sometimes called the _first fundamental theorem of calculus_.
 >
 > {{Given a [real-valued function](real-valued%20function.md) $f$ [continuous](continuous%20function.md) on a closed [interval](interval%20(mathematics).md) $[a,b]$, define $F$ as the [Riemann integral](Riemann%20integral.md) $$F(x)=\int_a^x\!f(t)\,\mathrm{d}t\quad\forall{x}\in[a,b]$$. Then $F$ is an [antiderivative](antiderivative.md) of $f$ on the open [interval](interval%20(mathematics).md) $(a,b)$, i.e. $$F'(x)=f(x)\quad\forall{x}\in(a,b)$$. $F$ is [uniformly continuous](uniformly%20continuous.md) on $[a,b]$ and [differentiable](differentiable%20function.md) on $(a,b)$.}} <!--SR:!2025-07-03,323,230-->
 
-The first part implies that when $f$ is [continuous](continuous%20function.md), {{[antiderivatives](antiderivative.md) of $f$ always exists}}. <!--SR:!2024-08-23,205,330-->
+The first part implies that when $f$ is [continuous](continuous%20function.md), {{[antiderivatives](antiderivative.md) of $f$ always exists}}. <!--SR:!2027-03-12,931,350-->
 
 The conditions above can be relaxed. If $f$ is {{[Lebesgue integrable](Lebesgue%20integration.md) on $[a, b]$, and [continuous](continuous%20function.md) at $x_0 \in (a, b)$}}, then {{$F$ is [differentiable](differentiable%20function.md) at $x_0$ and $F'(x_0) = f(x_0)$}}. This is still valid for the more general {{[Henstock–Kurzweil integral](Henstock–Kurzweil%20integral.md)}}. <!--SR:!2025-04-23,254,300!2024-12-12,152,260!2024-11-01,153,320-->
 

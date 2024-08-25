@@ -80,7 +80,7 @@ return chain.from_iterable(await gather(
 - [complete-linkage clustering](complete-linkage%20clustering.md)→:::←median linkage clustering <!--SR:!2025-02-24,203,275!2024-09-13,93,255-->
 - median linkage clustering→:::←[single-linkage clustering](single-linkage%20clustering.md) <!--SR:!2024-08-29,90,275!2024-10-22,141,295-->
 - [single-linkage clustering](single-linkage%20clustering.md)→:::←unweighted average linkage clustering <!--SR:!2024-10-07,123,295!2024-09-25,91,235-->
-- unweighted average linkage clustering→:::←weighted average linkage clustering <!--SR:!2024-09-09,64,275!2024-08-23,95,295-->
+- unweighted average linkage clustering→:::←weighted average linkage clustering <!--SR:!2024-09-09,64,275!2025-05-29,279,295-->
 - weighted average linkage clustering→:::←_(end)_ <!--SR:!2025-02-16,220,315!2024-09-11,109,295-->
 
 <!--/pytextgen-->
@@ -153,7 +153,7 @@ The basic principle of divisive clustering was {{published as the DIANA (DIvisiv
 
 Initially, {{create a cluster that contain all observations}}. Find the cluster {{that has two or more items, and has the largest [diameter](diameter.md). Diameter of a cluster is the [distance](distance.md) between two furthest observations apart in the cluster}}. Then, in said cluster, {{find the observation that has the highest distance from the belonging cluster excluding the observation itself}}. Next, {{move the observation from said cluster to a new _splinter cluster_}}. Now, keep {{moving observations one by one from the old cluster to the new cluster}}. To choose the observation to be moved, {{calculate the _dissimilarity difference_ for each observation in the old cluster}}. The _dissimilarity difference_ of an observation in the old cluster is {{the distance of the observation to the old cluster excluding the observation itself, subtracted by the distance of the observation to the new cluster}}. Move the observation {{with the highest nonnegative _dissimilarity difference_ (arbitrarily choose one if there are multiple satisfying observations)}}. If all _dissimilarity differences_ are negative, {{stop moving the observations}}. If there is only one item left, {{keep the cluster, considering that the _dissimilarity difference_ can no longer be defined}}. Repeat the above steps {{until you reach the desirable number of clusters}}. <!--SR:!2025-03-15,260,335!2024-10-07,109,255!2024-09-29,101,255!2024-09-28,122,295!2024-10-27,121,255!2024-12-20,174,275!2024-10-06,106,255!2024-09-01,93,275!2024-09-13,110,295!2024-10-14,111,255!2025-06-26,313,295-->
 
-Alternatively, repeat the above steps until {{the number of clusters equals the number of observations}}. Construct {{a [dendrogram](dendrogram.md) by letting the _splinter cluster_ and the updated old cluster be children of the old cluster in the above steps}}. The dendrogram splits are ordered by {{the order of splitting}}. One can {{split the dendrogram at any height to get the desirable number of clusters}}. <!--SR:!2024-12-23,174,275!2025-01-10,173,275!2024-11-01,138,275!2024-08-23,86,294-->
+Alternatively, repeat the above steps until {{the number of clusters equals the number of observations}}. Construct {{a [dendrogram](dendrogram.md) by letting the _splinter cluster_ and the updated old cluster be children of the old cluster in the above steps}}. The dendrogram splits are ordered by {{the order of splitting}}. One can {{split the dendrogram at any height to get the desirable number of clusters}}. <!--SR:!2024-12-23,174,275!2025-01-10,173,275!2024-11-01,138,275!2025-08-10,352,314-->
 
 ### monothetic clustering
 

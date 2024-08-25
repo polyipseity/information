@@ -31,7 +31,7 @@ Usually, the threshold _θ_ is {{chosen to be 0}}. <!--SR:!2024-08-31,60,310-->
 
 ### linear combination
 
-In this case, the output _y_ is {{simply the net input _u_ multiplied by a constant _k_}}: {{$$y = ku$$}} When {{$k = 1$}}, this is {{simply the [identity function](identity%20function.md): $y = u$}}. It is a type of {{linear activation function}}. <!--SR:!2024-08-24,53,310!2024-09-05,64,310!2024-08-30,58,310!2024-08-23,52,310!2024-08-26,55,310-->
+In this case, the output _y_ is {{simply the net input _u_ multiplied by a constant _k_}}: {{$$y = ku$$}} When {{$k = 1$}}, this is {{simply the [identity function](identity%20function.md): $y = u$}}. It is a type of {{linear activation function}}. <!--SR:!2024-08-24,53,310!2024-09-05,64,310!2024-08-30,58,310!2025-03-28,217,330!2024-08-26,55,310-->
 
 ### sigmoid
 

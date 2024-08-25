@@ -21,7 +21,7 @@ __Price__ refers to {{the monetary and psychological costs}}. For example, it in
 
 __Place__ refers to {{the physical locations of sale or distribution channels}}. For example, it includes {{channel, distribution, inventory, logistics, etc.}} <!--SR:!2025-02-02,170,310!2024-09-29,75,270-->
 
-__Promotion__ refers to {{the marketing communications used to reach customers}}. For example, it includes {{advertising, publicity, sales force, sales promotion, etc.}} <!--SR:!2024-08-23,61,310!2024-12-18,130,290-->
+__Promotion__ refers to {{the marketing communications used to reach customers}}. For example, it includes {{advertising, publicity, sales force, sales promotion, etc.}} <!--SR:!2025-03-01,190,310!2024-12-18,130,290-->
 
 ## references
 

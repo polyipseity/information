@@ -223,9 +223,9 @@ See [Millau Viaduct](../../../../general/Millau%20Viaduct.md).
 - geographic location ::: across the gorge valley of the Tarn near Millau in southern France <!--SR:!2025-05-01,258,376!2025-05-29,280,376-->
 - height ::: max pylon above base: 343 m, structural: 336.4 m <!--SR:!2024-09-13,76,316!2024-11-07,140,396-->
   - height record ::: as of October 2023, tallest bridge in the world <!--SR:!2024-10-22,126,396!2024-10-22,127,396-->
-- length ::: 2450 m = 204 m + 342 m × 6 + 204 m, longest span: 342 m <!--SR:!2024-08-23,56,336!2024-10-12,118,396-->
+- length ::: 2450 m = 204 m + 342 m × 6 + 204 m, longest span: 342 m <!--SR:!2024-09-16,24,316!2024-10-12,118,396-->
 - image ::: ![Millau Viaduct image](../../../../archives/Wikimedia%20Commons/ViaducdeMillau.jpg) <!--SR:!2024-11-04,137,396!2024-08-28,80,376-->
-- opening time ::: 2004-12-16, 09:00 <!--SR:!2024-08-23,6,276!2025-05-30,281,376-->
+- opening time ::: 2004-12-16, 09:00 <!--SR:!2024-09-07,15,276!2025-05-30,281,376-->
 - width ::: 32.05 m <!--SR:!2024-09-09,86,376!2024-09-10,87,376-->
 
 ## Mont Cenis Base Tunnel
@@ -270,7 +270,7 @@ See [Stonecutters Bridge](../../../../general/Stonecutters%20Bridge.md).
 
 See [Sutong Yangtze River Bridge](../../../../general/Sutong%20Yangtze%20River%20Bridge.md).
 
-- bridge type ::: [cable-stayed bridge](../../../../general/cable-stayed%20bridge.md)<!-- flashcard 30c74f35-b995-41af-8d8c-189c93fb1dfa --> <!--SR:!2025-05-24,285,360!2024-08-23,91,380-->
+- bridge type ::: [cable-stayed bridge](../../../../general/cable-stayed%20bridge.md)<!-- flashcard 30c74f35-b995-41af-8d8c-189c93fb1dfa --> <!--SR:!2025-05-24,285,360!2025-08-03,345,380-->
 - description ::: [cable-stayed bridge](../../../../general/cable-stayed%20bridge.md) in China <!--SR:!2025-04-08,239,310!2025-05-26,316,364-->
 - image ::: ![Sutong Yangtze River Bridge image](../../../../archives/Wikimedia%20Commons/Sutong%20Yangtze%20River%20Bridge.JPG) <!--SR:!2025-07-18,330,380!2025-05-14,295,380-->
 - length ::: 8206 m, longest span: 1088 m <!--SR:!2024-08-24,25,237!2025-02-02,212,355-->
@@ -282,7 +282,7 @@ See [Taipei 101](Taipei%20101.md).
 - description ::: skyscraper in Taipei, Taiwan <!--SR:!2025-03-31,295,350!2024-09-04,103,380-->
 - height ::: architectural: 508.2 m, tip: 509.2 m, top floor: 438 m <!--SR:!2024-08-24,8,130!2024-11-19,179,330-->
 - image ::: ![Taipei 101 image](../../../../archives/Wikimedia%20Commons/Tower%20of%20Taipei%20101(cropped).jpg) <!--SR:!2025-02-07,201,360!2025-07-04,321,380-->
-- [structural system](../../../../general/structural%20system.md) ::: concrete–steel composite<!-- flashcard 16556e6f-00ca-4a87-845c-f0ea2f56807a --> <!--SR:!2024-09-10,92,320!2024-08-23,90,380-->
+- [structural system](../../../../general/structural%20system.md) ::: concrete–steel composite<!-- flashcard 16556e6f-00ca-4a87-845c-f0ea2f56807a --> <!--SR:!2024-09-10,92,320!2025-08-01,343,380-->
 
 ## Thames Barrier
 
@@ -307,7 +307,7 @@ See [Tsing Ma Bridge](../../../../general/Tsing%20Ma%20Bridge.md).
 See [Turin–Lyon high-speed railway](../../../../general/Turin–Lyon%20high-speed%20railway.md).
 
 - core part ::: [Mont Cenis Base Tunnel](#Mont%20Cenis%20Base%20Tunnel) <!--SR:!2024-10-19,138,327!2025-06-23,321,370-->
-- length ::: 271 km <!--SR:!2024-08-28,31,297!2024-08-23,102,377-->
+- length ::: 271 km <!--SR:!2024-08-28,31,297!2026-01-30,525,397-->
 
 ## Two Prudential Plaza
 

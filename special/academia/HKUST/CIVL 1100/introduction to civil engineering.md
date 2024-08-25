@@ -59,7 +59,7 @@ The content is in teaching order.
     - [construction material examples](#construction%20material%20examples)
       - [reinforced concrete structure examples](#reinforced%20concrete%20structure%20examples)
       - [steel or concrete–steel composite structure examples](#steel%20or%20concrete–steel%20composite%20structure%20examples)
-      - timber structure examples ::: Hirschberg 13, 35037 Marburg, Germany <!--SR:!2024-08-23,27,245!2025-03-16,243,344-->
+      - timber structure examples ::: Hirschberg 13, 35037 Marburg, Germany <!--SR:!2024-10-26,63,245!2025-03-16,243,344-->
   - structural codes of practice or design codes ::: different countries have different standards <!--SR:!2025-05-25,340,350!2025-08-05,373,377-->
     - [structural code of practice examples](#structural%20code%20of%20practice%20examples)
 - geo-technical engineering ::: behavior of rock, soil, and underground water <!--SR:!2024-08-28,109,305!2025-03-01,249,367-->
@@ -142,12 +142,12 @@ quantity surveyor
 
 <!--pytextgen generate section="9281"--><!-- The following content is generated at 2024-02-16T21:59:46.960790+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←building services engineer <!--SR:!2024-09-15,113,335!2024-08-23,102,377-->
+- _(begin)_→:::←building services engineer <!--SR:!2024-09-15,113,335!2026-01-31,525,397-->
 - building services engineer→:::←consulting civil engineer <!--SR:!2024-12-13,168,337!2024-08-25,93,337-->
 - consulting civil engineer→:::←consulting environmental engineer <!--SR:!2024-12-25,183,347!2025-02-05,221,360-->
 - consulting environmental engineer→:::←consulting geo-technical engineer <!--SR:!2024-10-16,105,265!2024-09-02,112,306-->
 - consulting geo-technical engineer→:::←consulting structural engineer <!--SR:!2025-01-06,179,315!2025-04-26,255,317-->
-- consulting structural engineer→:::←contracting civil engineer <!--SR:!2024-09-11,108,335!2024-08-23,88,315-->
+- consulting structural engineer→:::←contracting civil engineer <!--SR:!2024-09-11,108,335!2025-05-27,276,315-->
 - contracting civil engineer→:::←engineering geologist <!--SR:!2024-09-28,102,297!2024-09-04,34,295-->
 - engineering geologist→:::←environmental consultant <!--SR:!2024-10-25,125,305!2024-08-24,92,305-->
 - environmental consultant→:::←quantity surveyor <!--SR:!2024-08-26,8,280!2025-01-22,163,280-->
@@ -400,7 +400,7 @@ Water Cube
 <!--pytextgen generate section="cc12"--><!-- The following content is generated at 2024-03-10T00:25:48.737016+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←Beijing National Stadium <!--SR:!2024-08-26,94,380!2025-03-11,257,367-->
-- Beijing National Stadium→:::←Burj Al Arab <!--SR:!2024-08-23,87,304!2024-11-12,158,350-->
+- Beijing National Stadium→:::←Burj Al Arab <!--SR:!2025-05-14,263,304!2024-11-12,158,350-->
 - Burj Al Arab→:::←Burj Khalifa <!--SR:!2024-10-15,141,270!2024-12-22,190,352-->
 - Burj Khalifa→:::←CCTV Headquarters <!--SR:!2024-09-02,89,320!2025-04-25,256,270-->
 - CCTV Headquarters→:::←Eiffel Tower <!--SR:!2024-09-28,103,285!2024-12-11,149,292-->
@@ -503,7 +503,7 @@ teaming up with others
 - economics→:::←human behaviors <!--SR:!2024-09-28,42,300!2024-10-23,131,340-->
 - human behaviors→:::←management principles <!--SR:!2024-12-25,139,300!2024-11-04,95,260-->
 - management principles→:::←strong communication skills <!--SR:!2025-03-22,222,301!2024-09-05,96,320-->
-- strong communication skills→:::←teaming up with others <!--SR:!2024-11-07,138,340!2024-08-23,91,380-->
+- strong communication skills→:::←teaming up with others <!--SR:!2024-11-07,138,340!2025-08-04,345,380-->
 - teaming up with others→:::←_(end)_ <!--SR:!2025-05-28,321,375!2024-08-31,73,272-->
 
 <!--/pytextgen-->
@@ -600,7 +600,7 @@ nuclear
 - computer→:::←electrical <!--SR:!2024-11-07,142,327!2024-08-25,35,295-->
 - electrical→:::←industrial <!--SR:!2024-09-29,41,301!2024-08-24,28,250-->
 - industrial→:::←manufacturing <!--SR:!2024-10-02,125,337!2024-09-11,103,332-->
-- manufacturing→:::←mechanical <!--SR:!2024-08-23,101,377!2024-10-23,134,337-->
+- manufacturing→:::←mechanical <!--SR:!2025-09-08,380,377!2024-10-23,134,337-->
 - mechanical→:::←nuclear <!--SR:!2025-07-18,340,377!2024-12-14,168,335-->
 - nuclear→:::←_(end)_ <!--SR:!2025-06-17,317,374!2025-07-25,393,365-->
 
@@ -877,7 +877,7 @@ developing strengthening techniques for damaged structures or structural members
 
 <!--pytextgen generate section="198b"--><!-- The following content is generated at 2024-05-01T19:22:35.365059+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←choosing suitable materials to resurface a road like asphalt pavement <!--SR:!2024-08-23,91,335!2025-05-03,280,370-->
+- _(begin)_→:::←choosing suitable materials to resurface a road like asphalt pavement <!--SR:!2025-06-24,304,335!2025-05-03,280,370-->
 - choosing suitable materials to resurface a road like asphalt pavement→:::←designing a concrete mix for a large building <!--SR:!2025-01-17,192,340!2024-10-11,133,327-->
 - designing a concrete mix for a large building→:::←developing strengthening techniques for damaged structures or structural members like a damaged column <!--SR:!2024-09-05,104,335!2024-09-26,39,297-->
 - developing strengthening techniques for damaged structures or structural members like a damaged column→:::←_(end)_ <!--SR:!2025-03-02,231,345!2024-08-30,98,324-->

@@ -34,7 +34,7 @@ Direct competitors are not {{necessarily more important than indirect or potenti
 >
 > - an direct competitor of Starbucks ::: [Dunkin' Donuts](Dunkin'%20Donuts.md): serves mainly coffee to satisfy beverage need <!--SR:!2024-12-08,158,321!2025-05-29,294,341-->
 > - an indirect competitor of Starbucks ::: [bars](bar%20(establishment).md): does not serve coffee but [alcoholic beverages](alcoholic%20beverage.md) to satisfy beverage need <!--SR:!2025-02-04,176,281!2025-07-11,327,341-->
-> - a potential competitor of Starbucks ::: [McDonald's](McDonald's.md): serves mainly coffee but usually as part of a meal to satisfy food need <!--SR:!2025-04-06,233,321!2024-08-23,79,321-->
+> - a potential competitor of Starbucks ::: [McDonald's](McDonald's.md): serves mainly coffee but usually as part of a meal to satisfy food need <!--SR:!2025-04-06,233,321!2025-08-07,349,341-->
 > - a non-competitor of Starbucks ::: [Walmart](Walmart.md): does not serve coffee and does not satisfy beverage need <!--SR:!2025-07-06,323,341!2025-05-14,282,341-->
 
 ### considerations

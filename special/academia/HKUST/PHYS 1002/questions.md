@@ -465,7 +465,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 5. 10^(-10) m
 >
 > - solution: {{2}}
-> - explanation: {{Apply the equation for Schwarzschild radius: $$r_s = \frac {2 \cdot 6.67 \times 10^{-11} \cdot 70} {299\,792\,458^2} \approx 1.03899262 \times 10^{-25}~\mathrm{m}$$. So the answer is 10<sup>-25</sup> m.}} <!--SR:!2024-08-23,15,325!2024-09-24,38,325-->
+> - explanation: {{Apply the equation for Schwarzschild radius: $$r_s = \frac {2 \cdot 6.67 \times 10^{-11} \cdot 70} {299\,792\,458^2} \approx 1.03899262 \times 10^{-25}~\mathrm{m}$$. So the answer is 10<sup>-25</sup> m.}} <!--SR:!2024-10-11,49,325!2024-09-24,38,325-->
 
 <!-- markdownlint MD028 -->
 
@@ -668,7 +668,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 8. Waxing crescent
 >
 > - solution: {{4 → 8 → 2 → 7 → 3 → 1 → 6 → 5}}
-> - mnemonics: {{New moon and full moon are easily remembered. Then insert the 2 quarters, first quarter and third quarter, respectively in between new moon and full moon, and in between full moon and next new moon. Finally, in between each of the 4 phases, including between third quarter and next new moon, insert the 4 minor phases. The 4 minor phases is a word combination of waxing or waning, and crescent or gibbous. Waxing means "increasing" while waning means "decreasing". Crescent means "sickle moon" while gibbous means "convex" or "protuberant", so the former is thinner than the latter.}} <!--SR:!2024-08-23,15,327!2024-08-25,17,347-->
+> - mnemonics: {{New moon and full moon are easily remembered. Then insert the 2 quarters, first quarter and third quarter, respectively in between new moon and full moon, and in between full moon and next new moon. Finally, in between each of the 4 phases, including between third quarter and next new moon, insert the 4 minor phases. The 4 minor phases is a word combination of waxing or waning, and crescent or gibbous. Waxing means "increasing" while waning means "decreasing". Crescent means "sickle moon" while gibbous means "convex" or "protuberant", so the former is thinner than the latter.}} <!--SR:!2024-10-31,69,347!2024-08-25,17,347-->
 
 <!-- markdownlint MD028 -->
 

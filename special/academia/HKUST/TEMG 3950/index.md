@@ -168,11 +168,11 @@ The content is in teaching order.
     - consultant after 2 to 4 years ::: As. Consultant, Consultant, Sr. Consultant: doing the work; enter from JD, MBA, MD, or PhD, exit to project member of big firms or manager in small firms, and further top MBA <!--SR:!2024-09-03,67,341!2024-12-30,144,321-->
     - consultant after 4 to 6 years ::: Eng. Manager, Mg. Consultant, Project Leader: managing the work; exit to manager of big firms or director of small firms, and further top EMBA <!--SR:!2024-09-21,44,281!2024-09-28,93,361-->
     - consultant after 6 to 9 years ::: As. Partner, Principal: selling the work; exit to director of big firms or general manager (GM) of small firms, and further top EMBA <!--SR:!2024-10-27,98,301!2025-01-04,149,321-->
-    - consultant after 9 years or more ::: Director, Partner, VP: managing the business; exit to CEO or retire rich <!--SR:!2024-08-23,59,341!2024-09-24,89,361-->
+    - consultant after 9 years or more ::: Director, Partner, VP: managing the business; exit to CEO or retire rich <!--SR:!2025-03-10,199,341!2024-09-24,89,361-->
 - nature of complex problems ::: modeled by time-varying multi-variable optimization problems with constraints <!--SR:!2025-02-13,185,361!2024-09-26,91,361-->
   - solving complex problems ::: MECE frameworks for patterns, 5-step persuasive selling for presentation <!--SR:!2024-09-21,87,361!2024-11-23,119,321-->
 - [Pareto principle](../../../../general/Pareto%20principle.md)
-- "less is more" ::: In the digital age, there is too much information (digital garbage), so they need to be distilled. Also see [DIKW pyramid](../../../../general/DIKW%20pyramid.md). <!--SR:!2024-08-23,59,341!2024-09-21,86,361-->
+- "less is more" ::: In the digital age, there is too much information (digital garbage), so they need to be distilled. Also see [DIKW pyramid](../../../../general/DIKW%20pyramid.md). <!--SR:!2025-05-26,276,361!2024-09-21,86,361-->
 - [MECE principle](../../../../general/MECE%20principle.md)
 - modeling key concepts ::: abstraction, framework, model <!--SR:!2024-08-25,61,341!2024-10-04,98,361-->
   - modeling key concept: abstraction ::: filter for elements relevant to some specific purpose <!--SR:!2024-09-17,83,361!2024-10-02,96,361-->
@@ -200,9 +200,9 @@ The content is in teaching order.
 ## week 11 lecture
 
 - time: 2024-04-09T18:00:00+08:00/2024-04-09T20:30:00+08:00
-- critical thinking pop quiz takeaways ::: cannot blindly trust given premises, case analysis needs to consider human behaviors, possess general knowledge <!--SR:!2024-08-23,58,341!2024-09-19,85,361-->
+- critical thinking pop quiz takeaways ::: cannot blindly trust given premises, case analysis needs to consider human behaviors, possess general knowledge <!--SR:!2025-03-08,197,341!2024-09-19,85,361-->
 - [assignment W9](assignment%20W9/assignment%20W9.md) takeaways
-  - general case analysis question takeaways ::: Identify key questions. Choose the question that is most precise and involves least work. <!--SR:!2024-08-23,59,341!2024-09-20,85,361-->
+  - general case analysis question takeaways ::: Identify key questions. Choose the question that is most precise and involves least work. <!--SR:!2025-05-25,275,361!2024-09-20,85,361-->
   - use of framework takeaways ::: Consider relevant dimensions of each framework and select the framework with the most relevant dimensions. Add a total at the end to sum up all the dimensions. <!--SR:!2024-08-30,65,341!2024-10-01,95,361-->
 - nature of problems ::: Problems are caused by a network of causes. If the causes are not removed, the problems may recur. <!--SR:!2024-08-31,58,321!2024-09-25,90,361-->
 - casual relationship ::: Event A, called the _cause_, causes event B, called the _effect_. <!--SR:!2025-05-24,275,361!2024-09-20,86,361-->

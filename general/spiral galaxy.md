@@ -9,7 +9,7 @@ tags:
 
 # spiral galaxy
 
-__Spiral galaxies__ (denoted {{S or SB for [barred](barred%20spiral%20galaxy.md)}}) form {{a [class of galaxy](galaxy%20morphological%20classification.md) originally described by [Edwin Hubble](Edwin%20Hubble.md) in his 1936 work _The Realm of the Nebulae_}} and, as such, form part of {{the [Hubble sequence](Hubble%20sequence.md)}}. Most spiral galaxies consist {{of a flat, rotating [disk](galactic%20disc.md) containing [stars](star.md), [gas and dust](interstellar%20medium.md), and a central concentration of stars known as the [bulge](galactic%20bulge.md)}}. These are often surrounded by {{a much fainter [halo](galactic%20halo.md) of stars, many of which reside in [globular clusters](globular%20cluster.md)}}. <!--SR:!2024-08-23,15,290!2024-09-01,18,250!2024-09-18,31,270!2024-09-21,33,270!2024-09-09,23,270-->
+__Spiral galaxies__ (denoted {{S or SB for [barred](barred%20spiral%20galaxy.md)}}) form {{a [class of galaxy](galaxy%20morphological%20classification.md) originally described by [Edwin Hubble](Edwin%20Hubble.md) in his 1936 work _The Realm of the Nebulae_}} and, as such, form part of {{the [Hubble sequence](Hubble%20sequence.md)}}. Most spiral galaxies consist {{of a flat, rotating [disk](galactic%20disc.md) containing [stars](star.md), [gas and dust](interstellar%20medium.md), and a central concentration of stars known as the [bulge](galactic%20bulge.md)}}. These are often surrounded by {{a much fainter [halo](galactic%20halo.md) of stars, many of which reside in [globular clusters](globular%20cluster.md)}}. <!--SR:!2024-10-23,61,310!2024-09-01,18,250!2024-09-18,31,270!2024-09-21,33,270!2024-09-09,23,270-->
 
 ## references
 
