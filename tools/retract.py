@@ -278,7 +278,7 @@ $ git reset --hard {quote(f'refs/remotes/{remote_name}/{branch_name}')}
 $ git fetch --force --tags {quote(remote_name)}
 Cleanup the temporary remote:
 $ git remote remove {quote(remote_name)}
-$ rm -fr {tmp_repo}"""
+$ rm -fr {await tmp_repo.absolute()}"""
     )
 
 
