@@ -270,15 +270,19 @@ async def main(args: Arguments) -> None:
         )
         await _exec(git_exe, "--git-dir", pub_git_dir, "remote", "update", remote_name)
 
+        tmp_repo = await tmp_repo.resolve(strict=True)
     info(
-        f"""Check the following unmapped tags:
+        f"""Commit maps:
+1. {tmp_repo / ".git/filter-repo/commit-map"}
+2. {tmp_repo / ".git/filter-branch/commit-map"}
+Check the following unmapped tags:
 {'\n'.join(' '.join(item) for item in unmapped_tags.items()) or '(none)'}
 Replace all commits in this repository with commits from the temporary remote:
 $ git reset --hard {quote(f'refs/remotes/{remote_name}/{branch_name}')}
 $ git fetch --force --tags {quote(remote_name)}
 Cleanup the temporary remote:
 $ git remote remove {quote(remote_name)}
-$ rm -fr {await tmp_repo.absolute()}"""
+$ rm -fr {tmp_repo}"""
     )
 
 
