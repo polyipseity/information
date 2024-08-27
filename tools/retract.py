@@ -1,5 +1,6 @@
 from asyncio.subprocess import DEVNULL, PIPE
 from collections import defaultdict
+from itertools import chain
 from os import cpu_count
 from pathlib import PurePath
 from shlex import quote
@@ -12,11 +13,9 @@ from dataclasses import dataclass
 from functools import wraps
 from logging import INFO, basicConfig, error, info
 from sys import argv
-from typing import Any, Callable, MutableSet, final
+from typing import Any, Callable, Iterable, MutableSet, final
 
 _FILE_PATH = PurePath(__file__)
-_MESSAGE_PROPERTY_KEY = b"Private-commit"
-_PRIVATE_GIT_DIRECTORY = _FILE_PATH / "../../private/.git"
 _PUBLIC_GIT_DIRECTORY = _FILE_PATH / "../../.git"
 _SUBPROCESS_SEMAPHORE = BoundedSemaphore(cpu_count() or 4)
 _VERSION = "∞"
@@ -83,8 +82,7 @@ async def main(args: Arguments) -> None:
         ret.discard("")
         return ret
 
-    pri_git_dir, pub_git_dir, git_exe, paths = await gather(
-        Path(_PRIVATE_GIT_DIRECTORY).resolve(strict=True),
+    pub_git_dir, git_exe, paths = await gather(
         Path(_PUBLIC_GIT_DIRECTORY).resolve(strict=True),
         _which2("git"),
         read_paths(),
@@ -100,7 +98,7 @@ async def main(args: Arguments) -> None:
         tmp_repo = Path(tmp_repo)
         info(f"Repository: {tmp_repo}")
 
-        await _exec(git_exe, "clone", "--no-local", pri_git_dir, tmp_repo)
+        await _exec(git_exe, "clone", "--no-local", pub_git_dir, tmp_repo)
         await _exec(git_exe, "-C", tmp_repo, "filter-repo", "--analyze")
 
         renames_backward = defaultdict[str, MutableSet[str]](set)
@@ -126,6 +124,53 @@ async def main(args: Arguments) -> None:
                 paths.update(renames_backward[path])
         info(f"Paths with renames: {paths}")
 
+        old_commits_with_files_added, _ = await _exec(
+            git_exe,
+            "-C",
+            tmp_repo,
+            "log",
+            "--diff-filter=A",
+            "--pretty=format:%H",
+            "--reverse",
+            "--stdin",
+            input="\n".join(chain(("--",), paths)).encode(),
+        )
+        old_commits_with_files_added = set(
+            commit.strip()
+            for commit in old_commits_with_files_added.strip().splitlines()
+        )
+
+        async def get_path(commit: str):
+            return (
+                line.strip()
+                for line in (
+                    await _exec(
+                        git_exe,
+                        "-C",
+                        tmp_repo,
+                        "rev-list",
+                        "--ancestry-path",
+                        f"{commit}..HEAD",
+                    )
+                )[0]
+                .strip()
+                .splitlines()
+            )
+
+        for commit in tuple(old_commits_with_files_added):
+            if commit in old_commits_with_files_added:
+                old_commits_with_files_added.difference_update(await get_path(commit))
+        info(f"Commit tails to rewrite: {old_commits_with_files_added}")
+
+        unmapped_tags, _ = await _exec(
+            git_exe,
+            "-C",
+            tmp_repo,
+            "for-each-ref",
+            "--format=%(refname) %(object)",
+            "refs/tags",
+        )
+
         with NamedTemporaryFile("xt", delete_on_close=False) as tmp_path_file:
             async with AsyncFile(tmp_path_file) as tmp_path_file_open:
                 await tmp_path_file_open.write(
@@ -136,38 +181,61 @@ async def main(args: Arguments) -> None:
                 "-C",
                 tmp_repo,
                 "filter-repo",
-                "--commit-callback",
-                Rf"""
-{_MESSAGE_PROPERTY_KEY=}
-commit.message = commit.message.rstrip()
-msg_lines = commit.message.splitlines()
-msg_lines_rev = msg_lines[::-1]
-try:
-    last_para_rev_idx = msg_lines_rev.index(b"")
-except ValueError:
-    last_para_rev_idx = 0
-prop_regex = re.compile(rb"^[a-zA-Z0-9_-]*: ")
-if all(prop_regex.match(para) is None for para in msg_lines[-last_para_rev_idx:]):
-    commit.message += b"\n"
-commit.message += b"\n" + _MESSAGE_PROPERTY_KEY + b": " + commit.original_id
-""",
-                "--paths-from-file",
-                tmp_path_file.name,
+                "--invert-paths",
+                f"--paths-from-file={tmp_path_file.name}",
+                "--refs=--ancestry-path",
+                *(f"--refs={commit}~..HEAD" for commit in old_commits_with_files_added),
             )
 
         branch_name = (
             await _exec(git_exe, "-C", tmp_repo, "branch", "--show-current")
         )[0].strip()
-        remote_name = tmp_repo.name.replace(" ", "_")
+        remote_name: str = tmp_repo.name.replace(" ", "_")
         await _exec(
             git_exe,
             "-C",
             tmp_repo,
-            "rebase",
-            "--exec",
-            f"{quote(git_exe)} commit --amend --gpg-sign --no-edit --no-verify",
-            "--root",
+            "filter-branch",
+            "--commit-filter",
+            'git commit-tree --gpg-sign "$@"',
+            "--tag-name-filter",
+            "cat",
+            "--",
+            "--ancestry-path",
+            "HEAD",
+            *(f"^{commit}~" for commit in old_commits_with_files_added),
         )
+
+        # Not working yet
+        """
+        for tag in (
+            (await _exec(git_exe, "-C", tmp_repo, "tag"))[0].strip().splitlines()
+        ):
+            await _exec(
+                git_exe,
+                "-C",
+                tmp_repo,
+                "tag",
+                "--file",
+                "-",
+                "--force",
+                "--sign",
+                tag,
+                f"{tag}^{{}}",
+                input=(
+                    await _exec(
+                        git_exe,
+                        "-C",
+                        tmp_repo,
+                        "for-each-ref",
+                        f"refs/tags/{tag}",
+                        "--format=%(contents)",
+                    )
+                )[0]
+                .strip()
+                .encode(),
+            )
+        """
 
         await _exec(
             git_exe,
@@ -181,9 +249,10 @@ commit.message += b"\n" + _MESSAGE_PROPERTY_KEY + b": " + commit.original_id
         await _exec(git_exe, "--git-dir", pub_git_dir, "remote", "update", remote_name)
 
     info(
-        f"""Merge commits from the temporary remote:
-$ git merge --allow-unrelated-histories --gpg-sign {quote(f'refs/remotes/{remote_name}/{branch_name}')}
-Resolve merge conflict if any.
+        f"""Replace all commits in this repository with commits from the temporary remote:
+$ git reset --hard {quote(f'refs/remotes/{remote_name}/{branch_name}')}
+Remap the following tags manually:
+{unmapped_tags.strip()}
 Cleanup the temporary remote:
 $ git remote remove {quote(remote_name)}"""
     )
@@ -194,7 +263,7 @@ def parser(parent: Callable[..., ArgumentParser] | None = None):
 
     parser = (ArgumentParser if parent is None else parent)(
         prog=f"python -m {prog}",
-        description="publish private files",
+        description="retract public files",
         add_help=True,
         allow_abbrev=False,
         exit_on_error=False,
