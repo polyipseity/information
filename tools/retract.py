@@ -7,13 +7,13 @@ from shlex import quote
 from tempfile import NamedTemporaryFile, TemporaryDirectory
 from aioshutil import which
 from anyio import AsyncFile, Path
-from argparse import ArgumentParser, Namespace
+from argparse import ZERO_OR_MORE, ArgumentParser, Namespace
 from asyncio import BoundedSemaphore, create_subprocess_exec, gather, run
 from dataclasses import dataclass
 from functools import wraps
 from logging import INFO, basicConfig, error, info
 from sys import argv
-from typing import Any, Callable, MutableSet, final
+from typing import Any, Callable, MutableSet, Sequence, final
 
 _FILE_PATH = PurePath(__file__)
 _NULL_SHA = "0000000000000000000000000000000000000000"
@@ -38,6 +38,10 @@ _VERSION = "∞"
 class Arguments:
     allow_trailing_whitespaces_in_paths: bool
     paths_file: Path
+    refs: Sequence[str]
+
+    def __post_init__(self) -> None:
+        object.__setattr__(self, "refs", tuple(self.refs))
 
 
 @wraps(which)
@@ -159,7 +163,7 @@ async def main(args: Arguments) -> None:
         info(f"Commit tails to rewrite: {old_commits_with_files_added}")
 
         initial_commits, _ = await _exec(
-            git_exe, "-C", tmp_repo, "rev-list", "--max-parents=0", "HEAD"
+            git_exe, "-C", tmp_repo, "rev-list", "--max-parents=0", "--all"
         )
         initial_commits = frozenset(initial_commits.splitlines())
 
@@ -194,8 +198,10 @@ async def main(args: Arguments) -> None:
                     for commit in old_commits_with_files_added
                 ),
                 "--refs=HEAD",
+                *(f"--refs={ref}" for ref in args.refs),
                 *(
-                    f"--refs={commit}~..HEAD"
+                    f"--refs={commit}~..{ref}"
+                    for ref in ("HEAD", *args.refs)
                     for commit in old_commits_with_files_added - initial_commits
                 ),
             )
@@ -228,6 +234,7 @@ async def main(args: Arguments) -> None:
                 if commit in commit_map
             ),
             "HEAD",
+            *(commit_map[ref] for ref in args.refs if ref in commit_map),
             *(
                 f"^{commit}~"  # old commits still kept
                 for commit in old_commits_with_files_added - initial_commits
@@ -337,6 +344,15 @@ def parser(parent: Callable[..., ArgumentParser] | None = None):
         type=Path,
         help="paths file",
     )
+    parser.add_argument(
+        "--ref",
+        action="store",
+        nargs=ZERO_OR_MORE,
+        type=str,
+        default=(),
+        help="additional refs",
+        dest="refs",
+    )
 
     @wraps(main)
     async def invoke(args: Namespace):
@@ -344,6 +360,7 @@ def parser(parent: Callable[..., ArgumentParser] | None = None):
             Arguments(
                 allow_trailing_whitespaces_in_paths=args.allow_trailing_whitespaces_in_paths,
                 paths_file=args.paths_file,
+                refs=args.refs,
             )
         )
 
