@@ -113,6 +113,7 @@ async def main(args: Arguments) -> None:
                 for name in current_equivalence_group:
                     renames_backward[name] = current_equivalence_group
                 current_equivalence_group = set[str]()
+                line = line[:-3]
             else:
                 assert line.startswith("    ")
                 line = line[4:]
