@@ -24,7 +24,7 @@ tags:
 ## previews
 
 - [`cheatsheet.pdf`](cheatsheet.pdf)
-- [`cheatsheet 2.pdf`](cheatsheet%202.pdf)
+- [`cheatsheet 3.pdf`](cheatsheet%203.pdf)
 
 ## search engine (SE)
 
