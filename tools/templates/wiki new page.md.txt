@@ -2,7 +2,7 @@
 aliases:
   - (name)
 tags:
-  - flashcard/general/(tag name)
+  - flashcard/active/general/(tag name)
   - language/in/English
 ---
 

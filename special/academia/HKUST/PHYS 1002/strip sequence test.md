@@ -9,7 +9,7 @@ aliases:
   - PHYS1002 strip sequence test
   - PHYS1002 strip sequence tests
 tags:
-  - flashcard/special/academia/HKUST/PHYS_1002/strip_sequence_test
+  - flashcard/active/special/academia/HKUST/PHYS_1002/strip_sequence_test
   - language/in/English
 ---
 
