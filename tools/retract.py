@@ -13,9 +13,11 @@ from dataclasses import dataclass
 from functools import wraps
 from logging import INFO, basicConfig, error, info
 from sys import argv
-from typing import Any, Callable, Iterable, MutableSet, final
+from typing import Any, Callable, MutableSet, final
 
 _FILE_PATH = PurePath(__file__)
+_NULL_SHA = "0000000000000000000000000000000000000000"
+_PGP_SIGNATURE_HEADER = "-----BEGIN PGP SIGNATURE-----"
 _PUBLIC_GIT_DIRECTORY = _FILE_PATH / "../../.git"
 _SUBPROCESS_SEMAPHORE = BoundedSemaphore(cpu_count() or 4)
 _VERSION = "∞"
@@ -94,7 +96,8 @@ async def main(args: Arguments) -> None:
     ):
         raise ValueError("Found trailing whitespaces in paths")
 
-    with TemporaryDirectory() as tmp_repo:
+    # `delete` is `False` so that tags can be updated
+    with TemporaryDirectory(delete=False) as tmp_repo:
         tmp_repo = Path(tmp_repo)
         info(f"Repository: {tmp_repo}")
 
@@ -135,27 +138,19 @@ async def main(args: Arguments) -> None:
             "--stdin",
             input="\n".join(chain(("--",), paths)).encode(),
         )
-        old_commits_with_files_added = set(
-            commit.strip()
-            for commit in old_commits_with_files_added.strip().splitlines()
-        )
+        old_commits_with_files_added = set(old_commits_with_files_added.splitlines())
 
         async def get_path(commit: str):
             return (
-                line.strip()
-                for line in (
-                    await _exec(
-                        git_exe,
-                        "-C",
-                        tmp_repo,
-                        "rev-list",
-                        "--ancestry-path",
-                        f"{commit}..HEAD",
-                    )
-                )[0]
-                .strip()
-                .splitlines()
-            )
+                await _exec(
+                    git_exe,
+                    "-C",
+                    tmp_repo,
+                    "rev-list",
+                    "--ancestry-path",
+                    f"{commit}..HEAD",
+                )
+            )[0].splitlines()
 
         for commit in tuple(old_commits_with_files_added):
             if commit in old_commits_with_files_added:
@@ -170,6 +165,11 @@ async def main(args: Arguments) -> None:
             "--format=%(refname) %(object)",
             "refs/tags",
         )
+        unmapped_tags = {
+            key.removeprefix("refs/tags/"): val
+            for line in unmapped_tags.splitlines()
+            for key, val in (line.split(" ", 1),)
+        }
 
         with NamedTemporaryFile("xt", delete_on_close=False) as tmp_path_file:
             async with AsyncFile(tmp_path_file) as tmp_path_file_open:
@@ -197,7 +197,9 @@ async def main(args: Arguments) -> None:
             tmp_repo,
             "filter-branch",
             "--commit-filter",
-            'git commit-tree --gpg-sign "$@"',
+            'echo -n "${GIT_COMMIT} " >> ../../.git/filter-branch/commit-map; git commit-tree --gpg-sign "$@" | tee -a ../../.git/filter-branch/commit-map',
+            "--setup",
+            "mkdir ../../.git/filter-branch",
             "--tag-name-filter",
             "cat",
             "--",
@@ -206,11 +208,42 @@ async def main(args: Arguments) -> None:
             *(f"^{commit}~" for commit in old_commits_with_files_added),
         )
 
-        # Not working yet
-        """
-        for tag in (
-            (await _exec(git_exe, "-C", tmp_repo, "tag"))[0].strip().splitlines()
-        ):
+        commit_map_text, commit_map_text2 = await gather(
+            (tmp_repo / ".git/filter-repo/commit-map").read_text(),
+            (tmp_repo / ".git/filter-branch/commit-map").read_text(),
+        )
+        commit_map = dict(
+            line.split(" ", 1)
+            for line in commit_map_text.splitlines()[1:]
+            if _NULL_SHA not in line
+        )
+        commit_map2 = dict(line.split(" ", 1) for line in commit_map_text2.splitlines())
+
+        def map_old_commit(old_commit: str):
+            return commit_map2.get(commit_map.get(old_commit, ""), "")
+
+        for tag, old_commit in tuple(unmapped_tags.items()):
+            if not (new_commit := map_old_commit(old_commit)):
+                if old_commit not in commit_map:
+                    del unmapped_tags[tag]
+                continue
+            tag_msg = (
+                await _exec(
+                    git_exe,
+                    "-C",
+                    tmp_repo,
+                    "for-each-ref",
+                    f"refs/tags/{tag}",
+                    "--format=%(contents)",
+                )
+            )[0]
+            try:
+                signature_idx = tag_msg.index(_PGP_SIGNATURE_HEADER)
+            except ValueError:
+                pass
+            else:
+                tag_msg = tag_msg[:signature_idx]
+            tag_msg = tag_msg.strip()
             await _exec(
                 git_exe,
                 "-C",
@@ -221,21 +254,10 @@ async def main(args: Arguments) -> None:
                 "--force",
                 "--sign",
                 tag,
-                f"{tag}^{{}}",
-                input=(
-                    await _exec(
-                        git_exe,
-                        "-C",
-                        tmp_repo,
-                        "for-each-ref",
-                        f"refs/tags/{tag}",
-                        "--format=%(contents)",
-                    )
-                )[0]
-                .strip()
-                .encode(),
+                new_commit,
+                input=tag_msg.encode(),
             )
-        """
+            del unmapped_tags[tag]
 
         await _exec(
             git_exe,
@@ -249,12 +271,14 @@ async def main(args: Arguments) -> None:
         await _exec(git_exe, "--git-dir", pub_git_dir, "remote", "update", remote_name)
 
     info(
-        f"""Replace all commits in this repository with commits from the temporary remote:
+        f"""Check the following unmapped tags:
+{'\n'.join(' '.join(item) for item in unmapped_tags.items()) or '(none)'}
+Replace all commits in this repository with commits from the temporary remote:
 $ git reset --hard {quote(f'refs/remotes/{remote_name}/{branch_name}')}
-Remap the following tags manually:
-{unmapped_tags.strip()}
+$ git fetch --force --tags {quote(remote_name)}
 Cleanup the temporary remote:
-$ git remote remove {quote(remote_name)}"""
+$ git remote remove {quote(remote_name)}
+$ rm -fr {tmp_repo}"""
     )
 
 
