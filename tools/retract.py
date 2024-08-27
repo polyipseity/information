@@ -188,17 +188,22 @@ async def main(args: Arguments) -> None:
                 "filter-repo",
                 "--invert-paths",
                 f"--paths-from-file={tmp_path_file.name}",
+                *(
+                    f"--refs=--ancestry-path={commit}"  # put before other paths or `filter-repo` will not work
+                    for commit in old_commits_with_files_added
+                ),
                 "--refs=HEAD",
-                f"--refs=--ancestry-path",
                 *(
                     f"--refs={commit}~..HEAD"
                     for commit in old_commits_with_files_added - initial_commits
                 ),
-                *(
-                    f"--refs=--ancestry-path={commit}"
-                    for commit in old_commits_with_files_added & initial_commits
-                ),
             )
+        commit_map_text = await (tmp_repo / ".git/filter-repo/commit-map").read_text()
+        commit_map = dict(
+            line.split(" ", 1)
+            for line in commit_map_text.splitlines()[1:]
+            if _NULL_SHA not in line
+        )
 
         branch_name = (
             await _exec(git_exe, "-C", tmp_repo, "branch", "--show-current")
@@ -216,27 +221,21 @@ async def main(args: Arguments) -> None:
             "--tag-name-filter",
             "cat",
             "--",
-            "HEAD",
-            "--ancestry-path",
             *(
-                f"^{commit}~"
-                for commit in old_commits_with_files_added - initial_commits
+                f"--ancestry-path={commit_map[commit]}"
+                for commit in old_commits_with_files_added
+                if commit in commit_map
             ),
+            "HEAD",
             *(
-                f"--ancestry-path={commit}"
-                for commit in old_commits_with_files_added & initial_commits
+                f"^{commit}~"  # old commits still kept
+                for commit in old_commits_with_files_added - initial_commits
             ),
         )
 
-        commit_map_text, commit_map_text2 = await gather(
-            (tmp_repo / ".git/filter-repo/commit-map").read_text(),
-            (tmp_repo / ".git/filter-branch/commit-map").read_text(),
-        )
-        commit_map = dict(
-            line.split(" ", 1)
-            for line in commit_map_text.splitlines()[1:]
-            if _NULL_SHA not in line
-        )
+        commit_map_text2 = await (
+            tmp_repo / ".git/filter-branch/commit-map"
+        ).read_text()
         commit_map2 = dict(line.split(" ", 1) for line in commit_map_text2.splitlines())
 
         def map_old_commit(old_commit: str):
