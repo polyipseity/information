@@ -31,7 +31,7 @@ A view $v$ is the parent of another $v'$ if {{every query that we care about tha
 >
 > Of course, each view in the graph {{does not need to connect every possible subset}}:
 >
-> ![relations between a set of views, sparse](attachments/materialized%20view%20-%20data%20cube%20-%20sparse.png) <!--SR:!2024-08-27,56,310!2025-01-14,159,310!2024-08-28,57,310!2025-02-22,190,310!2025-02-12,182,310-->
+> ![relations between a set of views, sparse](attachments/materialized%20view%20-%20data%20cube%20-%20sparse.png) <!--SR:!2025-04-19,235,330!2025-01-14,159,310!2024-08-28,57,310!2025-02-22,190,310!2025-02-12,182,310-->
 
 The cost of answering a query depends on {{the view (materialized or not) to be queried against and the views materialized}}. First, identify the {{least costly view (materialized or not) required to answer the query}}, and then find the {{least costly (direct or indirect) parent view that is materialized}}, and its {{associated cost is the cost of answering said query}}. <!--SR:!2025-01-02,151,310!2024-11-07,98,290!2024-12-22,141,310!2024-10-05,74,270-->
 
@@ -53,7 +53,7 @@ The pseudocode is as follows:
 
 To run the above algorithm manually, we can use {{a benefit table with row headers being the possible views to materialize and column headers being the _n_-th choice}}. Fill in the benefit table from {{left to right, with advancing one column representing choosing one more view}}. When a view is selected, there is {{no need to further calculate its benefit (or an alternative heuristic function) in subsequent columns}}. Calculate the benefit {{with reference to the graph of relations between a set of views earlier}}. On completing an column, {{the view with the most benefit is selected}}. <!--SR:!2024-09-02,49,250!2024-12-19,129,290!2024-12-15,136,310!2024-11-16,112,290!2024-09-15,72,310-->
 
-In details, when calculating the benefit for a view to be materialized, only consider {{the (direct and indirect) children of the view}}. For each considered child, find {{the least costly (direct or indirect) parent view that is already materialized}}. Then, compare {{it to the new view to be materialized}}. If {{the new view is more costly}}, then {{the benefit for that child is 0}}. Otherwise, {{the benefit for that child is the difference in cost}}. Finally, the benefit of materializing that view is {{the sum of all benefits for each individual child}}. <!--SR:!2024-08-30,58,310!2024-09-24,70,270!2024-09-04,55,270!2024-09-10,57,270!2024-08-27,56,310!2024-12-29,135,290!2024-12-28,147,310-->
+In details, when calculating the benefit for a view to be materialized, only consider {{the (direct and indirect) children of the view}}. For each considered child, find {{the least costly (direct or indirect) parent view that is already materialized}}. Then, compare {{it to the new view to be materialized}}. If {{the new view is more costly}}, then {{the benefit for that child is 0}}. Otherwise, {{the benefit for that child is the difference in cost}}. Finally, the benefit of materializing that view is {{the sum of all benefits for each individual child}}. <!--SR:!2024-08-30,58,310!2024-09-24,70,270!2024-09-04,55,270!2024-09-10,57,270!2025-04-21,237,330!2024-12-29,135,290!2024-12-28,147,310-->
 
 > [!examples] benefit table example
 >
@@ -68,7 +68,7 @@ In details, when calculating the benefit for a view to be materialized, only con
 > | s  | 5.99 × 1 = 5.99    | 0.79 × 1 = 0.79   |
 > | c  | 5.9 × 1 = 5.9      | 5.9 × 1 = __5.9__ |
 >
-> The above benefit table shows that the resulting greedy selection is {{"ps" and _then_ "c"}}. <!--SR:!2024-08-25,54,310!2024-12-06,120,290-->
+> The above benefit table shows that the resulting greedy selection is {{"ps" and _then_ "c"}}. <!--SR:!2025-04-14,231,330!2024-12-06,120,290-->
 
 The resulting selection is {{greedy and may not be the optimal solution}}. When {{the heuristic function is simply the benefit}}, the above problem is {{a [submodular set function maximization](submodular%20set%20function.md#submodular%20set%20function%20maximization) problem}}. In this case, it has been proven that the greedy selection {{has a benefit that is at least $1 - 1 / e \approx 0.632$ times of that of the optimal selection}}.<sup>[\[1\]](#^ref-Nemhauser-1978)</sup> <!--SR:!2025-03-04,196,310!2025-02-23,190,310!2024-11-09,105,290!2024-08-29,52,270-->
 

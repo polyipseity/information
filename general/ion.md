@@ -356,7 +356,7 @@ return chain.from_iterable(await gather(
 
 <!--pytextgen generate section="394a"--><!-- The following content is generated at 2024-01-28T09:35:10.023241+08:00. Any edits will be overridden! -->
 
-- <span style="color: green;">green</span>::iron(II) ion, nickel(II) ion, copper(II) ion, chromium(III) ion, vanadium(III) ion <!--SR:!2024-08-26,23,130-->
+- <span style="color: green;">green</span>::iron(II) ion, nickel(II) ion, copper(II) ion, chromium(III) ion, vanadium(III) ion <!--SR:!2024-09-25,29,130-->
 - <span style="color: blue; background-color: white;">blue</span>::copper(II) ion <!--SR:!2025-08-06,553,281-->
 - <span style="color: lightPink;">very pale pink</span>::manganese(II) ion <!--SR:!2025-03-30,513,321-->
 - <span style="color: pink;">pink</span>::cobalt(II) ion <!--SR:!2024-10-19,126,241-->
@@ -423,7 +423,7 @@ return chain.from_iterable(await gather(
 - chromate ion:::CrO<sub>4</sub><sup>2-</sup> <!--SR:!2028-07-31,1651,278!2031-10-25,2674,333-->
 - dichromate ion:::Cr<sub>2</sub>O<sub>7</sub><sup>2-</sup> <!--SR:!2028-08-20,1669,278!2029-05-12,1985,325-->
 - nitride ion:::N<sup>3-</sup> <!--SR:!2029-01-01,1786,287!2025-03-18,705,310-->
-- phosphate ion:::PO<sub>4</sub><sup>3-</sup> <!--SR:!2025-03-25,502,239!2024-08-25,617,276-->
+- phosphate ion:::PO<sub>4</sub><sup>3-</sup> <!--SR:!2025-03-25,502,239!2031-02-25,2373,296-->
 - manganate ion:::MnO<sub>4</sub><sup>2-</sup> <!--SR:!2024-12-04,484,382!2029-11-11,1921,382-->
 
 <!--/pytextgen-->

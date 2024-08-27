@@ -13,7 +13,7 @@ tags:
 
 # Wien approximation
 
-__Wien's approximation__ (also sometimes called __Wien's law__ or the __Wien distribution law__) is {{a [law](scientific%20law.md) of [physics](physics.md) used to describe the [spectrum](spectrum.md) of thermal radiation (frequently called the [blackbody](black%20body.md) function)}}. <!--SR:!2024-08-27,24,270-->
+__Wien's approximation__ (also sometimes called __Wien's law__ or the __Wien distribution law__) is {{a [law](scientific%20law.md) of [physics](physics.md) used to describe the [spectrum](spectrum.md) of thermal radiation (frequently called the [blackbody](black%20body.md) function)}}. <!--SR:!2024-11-24,89,290-->
 
 ## details
 
@@ -25,7 +25,7 @@ This same equation using {{[wavelength](wavelength.md)}} is obtained by {{using 
 
 The peak value of this curve can be determined by {{setting the [derivative](derivative.md) of the equation to zero and solving it}}. <!--SR:!2024-10-22,69,310-->
 
-The peak value occurs at, for wavelength, {{$$\lambda_{\text{max} } = \frac {hc} {5 k_{\mathrm B} T} \approx \frac {2.878 \times 10^{-3}~\mathrm{m \cdot K} } T$$}}, and for frequency, {{$$\nu_{\text{max} } = \frac {3 k_{\mathrm B} T} h \approx 6.25 \times 10^{10}~\frac {\mathrm{Hz} } {\mathrm{K} } \cdot T$$}}. <!--SR:!2024-08-25,14,190!2024-09-01,9,190-->
+The peak value occurs at, for wavelength, {{$$\lambda_{\text{max} } = \frac {hc} {5 k_{\mathrm B} T} \approx \frac {2.878 \times 10^{-3}~\mathrm{m \cdot K} } T$$}}, and for frequency, {{$$\nu_{\text{max} } = \frac {3 k_{\mathrm B} T} h \approx 6.25 \times 10^{10}~\frac {\mathrm{Hz} } {\mathrm{K} } \cdot T$$}}. <!--SR:!2024-09-26,30,190!2024-09-01,9,190-->
 
 ## references
 

@@ -25,19 +25,19 @@ Below, _u_, also called {{the _net input_}}, is {{the weighted sum of all inputs
 
 ### step function
 
-The output of _y_ is {{binary depending on whether the net input meets a specified threshold, _θ_}}: {{$$y = \begin{cases} 1 & \text{if }u \ge \theta \\ 0 & \text{if }u < \theta \end{cases}$$}}. <!--SR:!2024-08-25,54,310!2024-09-09,67,310-->
+The output of _y_ is {{binary depending on whether the net input meets a specified threshold, _θ_}}: {{$$y = \begin{cases} 1 & \text{if }u \ge \theta \\ 0 & \text{if }u < \theta \end{cases}$$}}. <!--SR:!2025-04-10,227,330!2024-09-09,67,310-->
 
 Usually, the threshold _θ_ is {{chosen to be 0}}. <!--SR:!2024-08-31,60,310-->
 
 ### linear combination
 
-In this case, the output _y_ is {{simply the net input _u_ multiplied by a constant _k_}}: {{$$y = ku$$}} When {{$k = 1$}}, this is {{simply the [identity function](identity%20function.md): $y = u$}}. It is a type of {{linear activation function}}. <!--SR:!2025-04-06,225,330!2024-09-05,64,310!2024-08-30,58,310!2025-03-28,217,330!2024-08-26,55,310-->
+In this case, the output _y_ is {{simply the net input _u_ multiplied by a constant _k_}}: {{$$y = ku$$}} When {{$k = 1$}}, this is {{simply the [identity function](identity%20function.md): $y = u$}}. It is a type of {{linear activation function}}. <!--SR:!2025-04-06,225,330!2024-09-05,64,310!2024-08-30,58,310!2025-03-28,217,330!2025-04-12,229,330-->
 
 ### sigmoid
 
 - see: [sigmoid function](sigmoid%20function.md)
 
-[Sigmoid functions](sigmoid%20function.md) are {{fairly simple non-linear activation functions}}. Usually, it refers to the {{[logistic function](logistic%20function.md) with _L_ = 1, _k_ = 1, and _x_<sub>0</sub> = 0}}: {{$$y = \frac 1 {1 + e^{-u} }$$}}. Its more practical counterpart is {{the [hyperbolic tangent](hyperbolic%20function.md) ($\tanh$)}}: {{$$y = \frac {\sinh u} {\cosh u} = \frac {e^u - e^{-u} } {e^u + e^{-u} } = \frac {e^{2u} - 1} {e^{2u} + 1}$$}} <!--SR:!2024-12-19,136,310!2024-11-21,116,290!2024-08-26,52,290!2024-12-26,130,290!2024-08-30,47,250-->
+[Sigmoid functions](sigmoid%20function.md) are {{fairly simple non-linear activation functions}}. Usually, it refers to the {{[logistic function](logistic%20function.md) with _L_ = 1, _k_ = 1, and _x_<sub>0</sub> = 0}}: {{$$y = \frac 1 {1 + e^{-u} }$$}}. Its more practical counterpart is {{the [hyperbolic tangent](hyperbolic%20function.md) ($\tanh$)}}: {{$$y = \frac {\sinh u} {\cosh u} = \frac {e^u - e^{-u} } {e^u + e^{-u} } = \frac {e^{2u} - 1} {e^{2u} + 1}$$}} <!--SR:!2024-12-19,136,310!2024-11-21,116,290!2025-01-26,153,290!2024-12-26,130,290!2024-08-30,47,250-->
 
 ### rectifier
 
