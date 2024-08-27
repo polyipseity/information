@@ -157,6 +157,11 @@ async def main(args: Arguments) -> None:
                 old_commits_with_files_added.difference_update(await get_path(commit))
         info(f"Commit tails to rewrite: {old_commits_with_files_added}")
 
+        initial_commits, _ = await _exec(
+            git_exe, "-C", tmp_repo, "rev-list", "--max-parents=0", "HEAD"
+        )
+        initial_commits = frozenset(initial_commits.splitlines())
+
         unmapped_tags, _ = await _exec(
             git_exe,
             "-C",
@@ -183,8 +188,16 @@ async def main(args: Arguments) -> None:
                 "filter-repo",
                 "--invert-paths",
                 f"--paths-from-file={tmp_path_file.name}",
-                "--refs=--ancestry-path",
-                *(f"--refs={commit}~..HEAD" for commit in old_commits_with_files_added),
+                "--refs=HEAD",
+                f"--refs=--ancestry-path",
+                *(
+                    f"--refs={commit}~..HEAD"
+                    for commit in old_commits_with_files_added - initial_commits
+                ),
+                *(
+                    f"--refs=--ancestry-path={commit}"
+                    for commit in old_commits_with_files_added & initial_commits
+                ),
             )
 
         branch_name = (
@@ -203,9 +216,16 @@ async def main(args: Arguments) -> None:
             "--tag-name-filter",
             "cat",
             "--",
-            "--ancestry-path",
             "HEAD",
-            *(f"^{commit}~" for commit in old_commits_with_files_added),
+            "--ancestry-path",
+            *(
+                f"^{commit}~"
+                for commit in old_commits_with_files_added - initial_commits
+            ),
+            *(
+                f"--ancestry-path={commit}"
+                for commit in old_commits_with_files_added & initial_commits
+            ),
         )
 
         commit_map_text, commit_map_text2 = await gather(
