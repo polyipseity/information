@@ -1,0 +1,8 @@
+updates:
+  - directory: /special/academia/HKUST/COMP 3633/presentation 10/examples
+    ignore:
+      - dependency-name: "*"
+    package-ecosystem: npm
+    schedule:
+      interval: daily
+version: 2
