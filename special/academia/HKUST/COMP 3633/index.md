@@ -21,3 +21,10 @@ tags:
 The content is in teaching order.
 
 ## week 1 lecture
+
+- [information](information.md)
+  - [§ logistics](information.md#logistics)
+  - [§ assessment](information.md#assessment)
+  - [§ ethical hacking](information.md#ethical%20hacking)
+
+## week 2 lecture
