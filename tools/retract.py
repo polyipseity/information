@@ -186,6 +186,7 @@ async def main(args: Arguments) -> None:
                 await tmp_path_file_open.write(
                     "\n".join(f"literal:{path}" for path in paths)
                 )
+            # Please ensure there are no unstaged and uncommitted changes, otherwise `filter-repo` will miss many commits.
             await _exec(
                 git_exe,
                 "-C",
@@ -215,6 +216,14 @@ async def main(args: Arguments) -> None:
             for line in commit_map_text.splitlines()[1:]
             if _NULL_SHA not in line
         )
+        await (tmp_repo / ".git/filter-repo/new-commits").write_text(
+            "\n".join(
+                line2
+                for line in commit_map_text.splitlines()[1:]
+                for line2 in (line[line.index(" ") + 1 :],)
+                if line2 != _NULL_SHA
+            )
+        )
 
         branch_name = (
             await _exec(git_exe, "-C", tmp_repo, "branch", "--show-current")
@@ -226,27 +235,14 @@ async def main(args: Arguments) -> None:
             tmp_repo,
             "filter-branch",
             "--commit-filter",
-            'echo -n "${GIT_COMMIT} " >> ../../.git/filter-branch/commit-map; git commit-tree --gpg-sign "$@" | tee -a ../../.git/filter-branch/commit-map',
+            'grep -q "${GIT_COMMIT}" ../../.git/filter-repo/new-commits && (echo -n "${GIT_COMMIT} " >> ../../.git/filter-branch/commit-map; git commit-tree --gpg-sign "$@" | tee -a ../../.git/filter-branch/commit-map) || echo "${GIT_COMMIT}"',
             "--setup",
             "mkdir ../../.git/filter-branch",
             "--tag-name-filter",
             "cat",
             "--",
-            *(
-                f"--ancestry-path={commit}~"  # old commits still kept
-                for commit in old_commits_with_files_added - initial_commits
-            ),
-            *(
-                f"--ancestry-path={commit_map[commit]}"
-                for commit in old_commits_with_files_added & initial_commits
-                if commit in commit_map
-            ),
             "HEAD",
             *(commit_map[ref] for ref in args.refs if ref in commit_map),
-            *(
-                f"^{commit}~"  # old commits still kept
-                for commit in old_commits_with_files_added - initial_commits
-            ),
         )
 
         commit_map_text2 = await (
