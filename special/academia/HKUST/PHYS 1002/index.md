@@ -732,7 +732,7 @@ The content is in teaching order. Extra information and corrections are included
   - Barnard 33 ::: [Horsehead Nebula](../../../../general/Horsehead%20Nebula.md), constellation Orion
   - Messier 16 ::: [Eagle Nebula](../../../../general/Eagle%20Nebula.md), constellation Serpens; containing the _Pillars of Creation_
   - Messier 8 ::: [Lagoon Nebula](../../../../general/Lagoon%20Nebula.md), constellation Sagittarius
-  - [nebula](../../../../general/nebula.md) / Why can we see nebulae? ::: They are not stars, which are powered by nuclear fusion. There are 3 main mechanisms: light emission following absorption from nearby stars (stimulated emission; emission nebula), reflection of light from nearby stars (scattering; reflection nebula), and blocking light from behind (absorption; dark nebula).
+  - [nebula](../../../../general/nebula.md) / Why can we see nebulae? ::: They are not stars powered by nuclear fusion. There are 3 main mechanisms: light emission following absorption from nearby stars (stimulated emission; emission nebula), reflection of light from nearby stars (scattering; reflection nebula), and blocking light from behind (absorption; dark nebula).
   - [nebula](../../../../general/nebula.md) / main types ::: dark nebula, emission nebula, reflection nebula
 - [emission nebula](../../../../general/emission%20nebula.md)
   - [§ general information](../../../../general/emission%20nebula.md#general%20information)
@@ -1238,7 +1238,7 @@ The content is in teaching order. Extra information and corrections are included
     - [cosmology](../../../../general/cosmology.md) / questions to ask ::: How much matter? How matter comes? Why expand? Is the expansion constant, accelerating, or decelerating? What is the shape (topology) of the universe (flat, curved, etc.)? What is the ultimate fate of the universe? (very abstract stuff ahead)
     - [universe](../../../../general/universe.md) / parameters (2020) ::: H<sub>0</sub> ≈ 67 km/s/Mpc, age: ~13.8 billion years, expansion: accelerate forever, geometry: flat
     - [universe § composition](../../../../general/universe.md#composition) (2020) ::: dark energy: 68.3%, dark matter: 26.8%, ordinary matter: 4.9%
-      - [universe § composition](../../../../general/universe.md#composition) / ordinary matter ::: Hubble Edwin already gave an estimate in 1934! By counting luminous bodies and estimating the total mass, we get an average density of 10<sup>-30</sup> (more accurately, 4.5×10<sup>-31</sup>) g/cm<sup>3</sup>. But the observed gravitational effect indicate that there should be 10 times more mass than the above estimate.
+      - [universe § composition](../../../../general/universe.md#composition) / ordinary matter ::: Hubble Edwin already gave an estimate in 1934. By counting luminous bodies and estimating the total mass, we get an average density of 10<sup>-30</sup> (more accurately, 4.5×10<sup>-31</sup>) g/cm<sup>3</sup>. But the observed gravitational effect indicate that there should be 10 times more mass than the above estimate.
       - [dark matter](../../../../general/dark%20matter.md) ::: Hypothetical matter that does not interact with light or the electromagnetic field, inferred from its gravitational effects (excess gravitational effect not explained by ordinary matter).
         - [dark matter](../../../../general/dark%20matter.md) / evidences ::: gravitational lensing in clusters of galaxies, orbital motion of stars and hydrogen in galaxies
           - [Milky Way](../../../../general/Milky%20Way.md) / a great mystery
