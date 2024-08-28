@@ -106,7 +106,7 @@ return _chain.from_iterable(await _gather(
 
 <!--pytextgen generate section="577a"--><!-- The following content is generated at 2024-01-04T20:17:52.495477+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←_n_ < 0 <!--SR:!2024-08-25,190,310!2024-12-20,282,330-->
+- _(begin)_→:::←_n_ < 0 <!--SR:!2026-11-20,814,330!2024-12-20,282,330-->
 - _n_ < 0→:::←_n_ = 0 <!--SR:!2024-10-03,222,330!2026-01-18,582,330-->
 - _n_ = 0→:::←0 < _n_ < 1 <!--SR:!2024-11-25,263,330!2025-01-11,299,330-->
 - 0 < _n_ < 1→:::←_n_ = 1 <!--SR:!2024-11-03,247,330!2026-03-09,569,310-->
@@ -137,7 +137,7 @@ return _chain.from_iterable(await _gather(
 - $p = C$; equivalent to [isobaric process](isobaric%20process.md)::_n_ = 0 <!--SR:!2024-10-18,234,330-->
 - under [ideal gas law](ideal%20gas%20law.md), [heat](heat.md) and [work](work%20(physics).md) flow in the opposite direction; when [volume](volume.md) increases, [temperature](temperature.md) increases::0 < _n_ < 1 <!--SR:!2024-12-14,278,330-->
 - $pV = C$; under [ideal gas law](ideal%20gas%20law.md), equivalent to [isothermic process](isothermic%20process.md)::_n_ = 1 <!--SR:!2024-12-02,269,330-->
-- under [ideal gas law](ideal%20gas%20law.md), [heat](heat.md) and [work](work%20(physics).md) flow in the opposite direction; when [volume](volume.md) increases, [temperature](temperature.md) decreases::1 < _n_ < _γ_ <!--SR:!2024-08-28,188,310-->
+- under [ideal gas law](ideal%20gas%20law.md), [heat](heat.md) and [work](work%20(physics).md) flow in the opposite direction; when [volume](volume.md) increases, [temperature](temperature.md) decreases::1 < _n_ < _γ_ <!--SR:!2026-04-02,582,310-->
 - under [ideal gas law](ideal%20gas%20law.md), equivalent to [isentropic process](isentropic%20process.md)::_n_ = _γ_ <!--SR:!2025-01-04,295,330-->
 - under [ideal gas law](ideal%20gas%20law.md), [heat](heat.md) and [work](work%20(physics).md) flow in the same direction::_γ_ < _n_ < +∞ <!--SR:!2025-01-04,245,270-->
 - $V = C$; equivalent to [isochoric process](isochoric%20process.md)::_n_ = +∞ <!--SR:!2024-10-08,226,330-->

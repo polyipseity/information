@@ -10,7 +10,7 @@ tags:
 
 # Horsehead Nebula
 
-The {{__Horsehead Nebula__}} (also known as {{__Barnard 33__ or __B33__}}) is {{a small [dark nebula](dark%20nebula.md) in the constellation [Orion](Orion%20(constellation).md)}}. <!--SR:!2024-09-25,33,250!2024-09-01,20,250!2024-08-28,16,230-->
+The {{__Horsehead Nebula__}} (also known as {{__Barnard 33__ or __B33__}}) is {{a small [dark nebula](dark%20nebula.md) in the constellation [Orion](Orion%20(constellation).md)}}. <!--SR:!2024-09-25,33,250!2024-09-01,20,250!2024-10-03,36,230-->
 
 ## references
 

@@ -16,4 +16,4 @@ With the problem statement in mind, identify {{what makes French fries tasty}}. 
 
 To remove moisture from potatoes faster by transferring heat quickly, the conventional way of {{dipping the French fries in oil}} works. But with creativity, we could also {{use very hot air surrounding potatoes}}, then much less or no oil is needed. <!--SR:!2024-09-08,99,290!2024-10-18,127,290-->
 
-A lot of research later, the air fryer is invented. It uses the principles of {{circulation of hot air, convection, and radiation}}. It {{distinguishes itself}} from prior art as it {{uses much less oil, making the French fries healthier; easy to clean and dispose oil; and safer as there is no high temperature flammable oil}}. <!--SR:!2024-10-16,104,250!2024-10-19,127,290!2024-08-25,77,270-->
+A lot of research later, the air fryer is invented. It uses the principles of {{circulation of hot air, convection, and radiation}}. It {{distinguishes itself}} from prior art as it {{uses much less oil, making the French fries healthier; easy to clean and dispose oil; and safer as there is no high temperature flammable oil}}. <!--SR:!2024-10-16,104,250!2024-10-19,127,290!2025-03-22,207,270-->

@@ -13,7 +13,7 @@ The __ammonium__ ion is {{a [polyatomic](polyatomic%20ion.md) [cation](ion.md) w
 
 ## salts
 
-When ammonium [salts](salt%20(chemistry).md) are {{heated in [alkali hydroxide](alkali%20hydroxide.md), [ammonia](ammonia.md), which is pungent and turns moist [litmus paper](litmus.md) blue, is released}}: <!--SR:!2024-08-27,307,230-->
+When ammonium [salts](salt%20(chemistry).md) are {{heated in [alkali hydroxide](alkali%20hydroxide.md), [ammonia](ammonia.md), which is pungent and turns moist [litmus paper](litmus.md) blue, is released}}: <!--SR:!2027-05-21,997,250-->
 
 > heating in [alkali hydroxide](alkali%20hydroxide.md)
 >
