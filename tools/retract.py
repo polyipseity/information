@@ -194,8 +194,12 @@ async def main(args: Arguments) -> None:
                 "--invert-paths",
                 f"--paths-from-file={tmp_path_file.name}",
                 *(
+                    f"--refs=--ancestry-path={commit}~"  # put before other paths or `filter-repo` will not work
+                    for commit in old_commits_with_files_added - initial_commits
+                ),
+                *(
                     f"--refs=--ancestry-path={commit}"  # put before other paths or `filter-repo` will not work
-                    for commit in old_commits_with_files_added
+                    for commit in old_commits_with_files_added & initial_commits
                 ),
                 "--refs=HEAD",
                 *(f"--refs={ref}" for ref in args.refs),
@@ -229,8 +233,12 @@ async def main(args: Arguments) -> None:
             "cat",
             "--",
             *(
+                f"--ancestry-path={commit}~"  # old commits still kept
+                for commit in old_commits_with_files_added - initial_commits
+            ),
+            *(
                 f"--ancestry-path={commit_map[commit]}"
-                for commit in old_commits_with_files_added
+                for commit in old_commits_with_files_added & initial_commits
                 if commit in commit_map
             ),
             "HEAD",
