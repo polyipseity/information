@@ -15,7 +15,7 @@ Turtle graphics is about {{controlling a "turtle" using code and the "turtle" dr
 
 Remember what functions are available for turtles and combine them with previous knowledge.
 
-- state :: `turtle.xcor()`, `turtle.ycor()`, `turtle.reset()` <!--SR:!2024-08-25,106,310-->
+- state :: `turtle.xcor()`, `turtle.ycor()`, `turtle.reset()` <!--SR:!2025-11-26,454,330-->
 - movement :: `turtle.forward(pixels)`, `turtle.backward(pixels)` <!--SR:!2025-01-27,275,330-->
 - rotation :: `turtle.left(degrees)`, `turtle.right(degrees)` <!--SR:!2025-02-26,299,330-->
 - shapes :: `turtle.circle(radius)` <!--SR:!2024-12-22,247,330-->

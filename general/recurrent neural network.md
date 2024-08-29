@@ -27,19 +27,19 @@ An [Elman](Jeffrey%20Elman.md) network is {{a 3-layer network with the addition 
 
 [Jordan](Michael%20I.%20Jordan.md) network are {{similar to Elman networks}}. The exception is {{that the context layer is fed from the output layer instead of the middle hidden layer}}. <!--SR:!2024-12-13,120,290!2024-12-13,121,290-->
 
-Elman and Jordan networks are also known as {{"simple recurrent networks" (SRN)}}. The disadvantages are that {{the networks are likely too simple, and they might take a long time to converge}}. <!--SR:!2024-08-28,56,310!2025-01-16,149,290-->
+Elman and Jordan networks are also known as {{"simple recurrent networks" (SRN)}}. The disadvantages are that {{the networks are likely too simple, and they might take a long time to converge}}. <!--SR:!2025-04-25,239,330!2025-01-16,149,290-->
 
 ### long short-term memory
 
 - see: [long short-term memory](long%20short-term%20memory.md)
 
-Long short-term memory (LSTM) is {{a [deep learning](deep%20learning.md) system that avoids the [vanishing gradient problem](vanishing%20gradient%20problem.md)}}. LSTMs are augmented with {{recurrent gates like "forget gates", "input gates", and "output gates"}}. LSTMs can learn {{tasks that require memories of events thousands or even millions of time steps earlier}}. LSTM works even if {{there are long delays between significant events and can handle low and high-frequency components}}. <!--SR:!2024-11-21,105,290!2024-12-29,137,290!2024-12-09,121,290!2024-08-29,58,310-->
+Long short-term memory (LSTM) is {{a [deep learning](deep%20learning.md) system that avoids the [vanishing gradient problem](vanishing%20gradient%20problem.md)}}. LSTMs are augmented with {{recurrent gates like "forget gates", "input gates", and "output gates"}}. LSTMs can learn {{tasks that require memories of events thousands or even millions of time steps earlier}}. LSTM works even if {{there are long delays between significant events and can handle low and high-frequency components}}. <!--SR:!2024-11-21,105,290!2024-12-29,137,290!2024-12-09,121,290!2025-02-24,179,310-->
 
 ### gated recurrent unit
 
 - see: [gated recurrent unit](gated%20recurrent%20unit.md)
 
-Gated recurrent units (GRUs) are {{a gating mechanism in RNN introduced in 2014}}. They have {{fewer parameters than LSTM, as they lack an output gate}}. This may make {{the training time shorter and the training requiring fewer data samples}}. <!--SR:!2024-08-29,57,310!2025-01-01,137,290!2025-01-04,152,310-->
+Gated recurrent units (GRUs) are {{a gating mechanism in RNN introduced in 2014}}. They have {{fewer parameters than LSTM, as they lack an output gate}}. This may make {{the training time shorter and the training requiring fewer data samples}}. <!--SR:!2025-02-23,178,310!2025-01-01,137,290!2025-01-04,152,310-->
 
 ## references
 

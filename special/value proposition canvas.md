@@ -65,7 +65,7 @@ The value map itself has three parts: {{products and services, pain relievers, a
 
 Customer jobs can be split into three categories: {{functional jobs; social jobs, seek to be perceived in a certain way by others; and personal or emotional jobs, seek to feel a certain way}}. There are also supporting jobs arising from three different roles: {{buyer of value, buying value; co-creator of value, participating in creating value; and transferrer of value, end of lifecycle}}. Note that jobs {{have different priorities}}.  The jobs can be improved by {{asking why repeatedly until you find the root job}}. <!--SR:!2025-03-09,216,289!2025-02-17,205,289!2024-10-07,122,309!2024-10-30,130,325-->
 
-Since customer jobs has {{functional and non-functional aspects}}, the resulting products can be categorized by {{functional complexity and emotional complexity}}. It is important that non-functional aspects are {{not ignored}}. For example, a hunching old person needs a stick, but {{the person also wants to not feel bad while using the stick}}. Sometimes, non-functional aspects are {{more important than functional ones}}, such as {{an extremely expensive sports car, which is mainly for showing status instead of driving on it}}. So a {{deep understanding}} of customer jobs is required. <!--SR:!2024-08-29,87,345!2024-08-25,83,345!2024-12-30,167,325!2025-03-11,233,345!2025-09-07,381,365!2025-02-27,206,325!2025-07-23,345,365-->
+Since customer jobs has {{functional and non-functional aspects}}, the resulting products can be categorized by {{functional complexity and emotional complexity}}. It is important that non-functional aspects are {{not ignored}}. For example, a hunching old person needs a stick, but {{the person also wants to not feel bad while using the stick}}. Sometimes, non-functional aspects are {{more important than functional ones}}, such as {{an extremely expensive sports car, which is mainly for showing status instead of driving on it}}. So a {{deep understanding}} of customer jobs is required. <!--SR:!2025-10-17,414,365!2025-09-26,393,365!2024-12-30,167,325!2025-03-11,233,345!2025-09-07,381,365!2025-02-27,206,325!2025-07-23,345,365-->
 
 The concept of customer jobs is based on {{the jobs to be done theory}}, which states that {{customers "hire" a product to do a "job" instead of simply buying a product}}. <!--SR:!2025-03-27,248,345!2025-02-19,204,325-->
 
@@ -73,7 +73,7 @@ Customer pains include {{undesirable things, obstacles, and risks}}. Make pains 
 
 Customer gains can be separated into four levels: {{required, required by customers; expected, expected by customers; desired gains, wanted by customers; and unexpected gains, wanted by customers but customers do not know}}. Make gains {{concrete}}. Like customer pains, note that gains {{can have different severity}}. <!--SR:!2024-12-27,153,249!2024-11-30,175,329!2025-03-13,265,330-->
 
-Since customer jobs, customer pains, and customer gains all can have {{different priorities or severity, so we can rank them}}. Ranking them can be based on {{what you think given that it eventually truly reflects the customers' perspectives}}.  Pains and gains can exist {{on a continuum, are not always absolute or binary}}. For example, {{waiting time for a food order can be a gain if it is faster than expected and a pain if it is slower than expected}}. Pains and gains are also not {{opposite}}, like {{coffee temperature being too low or too high are both pains}}. <!--SR:!2024-11-02,144,290!2024-12-02,177,329!2025-08-29,372,365!2024-08-27,85,345!2025-05-04,261,345!2024-11-25,151,324-->
+Since customer jobs, customer pains, and customer gains all can have {{different priorities or severity, so we can rank them}}. Ranking them can be based on {{what you think given that it eventually truly reflects the customers' perspectives}}.  Pains and gains can exist {{on a continuum, are not always absolute or binary}}. For example, {{waiting time for a food order can be a gain if it is faster than expected and a pain if it is slower than expected}}. Pains and gains are also not {{opposite}}, like {{coffee temperature being too low or too high are both pains}}. <!--SR:!2024-11-02,144,290!2024-12-02,177,329!2025-08-29,372,365!2025-10-05,402,365!2025-05-04,261,345!2024-11-25,151,324-->
 
 There are several [common mistakes](#customer%20profile%20common%20mistakes) to be aware of. <!--SR:!2024-05-16,18,269-->
 
@@ -111,11 +111,11 @@ vagueness: vague jobs, pains, and gains
 
 - _(begin)_→:::←hyperfocus: focusing on functional jobs only <!--SR:!2025-01-05,146,229!2025-04-22,289,349-->
 - hyperfocus: focusing on functional jobs only→:::←insufficiency: not enough jobs, pains, and gains <!--SR:!2024-10-17,111,249!2025-01-01,163,269-->
-- insufficiency: not enough jobs, pains, and gains→:::←mix: mixing customer segments <!--SR:!2024-11-12,96,189!2024-08-29,7,130-->
+- insufficiency: not enough jobs, pains, and gains→:::←mix: mixing customer segments <!--SR:!2024-11-12,96,189!2024-09-07,9,130-->
 - mix: mixing customer segments→:::←mix: mixing jobs and outcomes <!--SR:!2024-09-29,112,289!2024-09-19,47,249-->
 - mix: mixing jobs and outcomes→:::←opposite: gains and pains are not opposite, gains are beyond expectation while pains are falling short of expectation <!--SR:!2024-09-11,20,225!2024-09-20,87,285-->
 - opposite: gains and pains are not opposite, gains are beyond expectation while pains are falling short of expectation→:::←reversed: listing jobs, pains, and gains from your product value propositions <!--SR:!2025-01-17,174,269!2024-09-09,16,209-->
-- reversed: listing jobs, pains, and gains from your product value propositions→:::←vagueness: vague jobs, pains, and gains <!--SR:!2024-09-05,40,169!2024-08-29,28,229-->
+- reversed: listing jobs, pains, and gains from your product value propositions→:::←vagueness: vague jobs, pains, and gains <!--SR:!2024-09-05,40,169!2024-11-05,68,229-->
 - vagueness: vague jobs, pains, and gains→:::←_(end)_ <!--SR:!2025-03-14,236,329!2025-04-19,242,289-->
 
 <!--/pytextgen-->
@@ -166,7 +166,7 @@ mix: mixing products and services with pain relievers and gain creators
 
 ### fit
 
-Fit is when {{your pain relievers relieve customer pains, gain creators create customer gains, and products and services satisfy customer jobs}}. To check fit, {{put two ticks on the pair if there is a matching pair in the customer profile and the value map, and cross out those without any matches}}. A strong fit indicates {{customer satisfaction, market differentiation, and value creation}}. <!--SR:!2024-11-10,164,310!2024-08-28,112,290!2025-02-23,223,345-->
+Fit is when {{your pain relievers relieve customer pains, gain creators create customer gains, and products and services satisfy customer jobs}}. To check fit, {{put two ticks on the pair if there is a matching pair in the customer profile and the value map, and cross out those without any matches}}. A strong fit indicates {{customer satisfaction, market differentiation, and value creation}}. <!--SR:!2024-11-10,164,310!2025-11-22,450,310!2025-02-23,223,345-->
 
 However, checking the fit on paper like above is {{not enough}}. Fit happens in three stages: {{problem–solution fit, product–market fit, and business model fit}}. To achieve these three fits requires {{a nonlinear and iterative process}}. Value proposition design allows quick {{design, test, and repeat}}. <!--SR:!2025-02-26,239,329!2025-02-23,189,249!2024-08-31,101,309!2025-01-08,209,310-->
 
@@ -176,7 +176,7 @@ Design is {{designing business models from your value proposition}}. <!--SR:!202
 
 ### prototyping
 
-Prototyping is {{making quick study models to explore alternatives and reshape your value propositions}}. <!--SR:!2024-08-27,79,249-->
+Prototyping is {{making quick study models to explore alternatives and reshape your value propositions}}. <!--SR:!2025-05-31,275,269-->
 
 ### interview your customers
 
@@ -256,7 +256,7 @@ conclusion: make progress
 
 <!--pytextgen generate section="c301"--><!-- The following content is generated at 2024-03-22T20:40:48.987505+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←hypothesis: extract hypotheses <!--SR:!2024-08-26,89,289!2025-05-08,298,347-->
+- _(begin)_→:::←hypothesis: extract hypotheses <!--SR:!2025-08-23,359,309!2025-05-08,298,347-->
 - hypothesis: extract hypotheses→:::←hypothesis: prioritize hypotheses <!--SR:!2025-07-29,366,349!2024-11-12,147,309-->
 - hypothesis: prioritize hypotheses→:::←test: design tests <!--SR:!2025-01-02,184,309!2025-02-05,199,270-->
 - test: design tests→:::←test: prioritize tests <!--SR:!2024-09-28,91,309!2024-09-04,112,290-->

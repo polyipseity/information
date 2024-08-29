@@ -19,7 +19,7 @@ The content is in teaching order.
   - engineer, according to Wikipedia
     - engineer jobs ::: analyze, _build_, _design_, invent, repair, test <!--SR:!2024-12-17,168,340!2025-07-08,334,378-->
     - engineer goals ::: fulfill functional objectives and requirements <!--SR:!2025-05-14,291,360!2025-02-21,225,360-->
-    - engineer limitations ::: limited by cost, practicality, regulation, and safety <!--SR:!2024-12-24,195,350!2024-08-29,108,377-->
+    - engineer limitations ::: limited by cost, practicality, regulation, and safety <!--SR:!2024-12-24,195,350!2025-10-08,405,377-->
     - engineer methods ::: ingenuity, mathematics, scientific method and outlook <!--SR:!2024-10-24,143,337!2025-10-01,424,385-->
   - engineer, according to the World Federation of Engineering Organizations (WFEO)
     - engineer inspirations ::: art of using creativity, science and technology, traditional experience <!--SR:!2024-10-25,136,335!2025-02-25,250,330-->
@@ -49,7 +49,7 @@ The content is in teaching order.
     - climate change engineering examples ::: Project MOSE (2003–2025) in Venice, Thames Barrier (1974–1982) <!--SR:!2024-11-02,120,287!2024-08-30,98,380-->
       - Thames Barrier (1974–1982) mechanism ::: The gate is a chord of a circle. It rotates along the circumference of the circle. When open, it acts like the river floor. When closing, the chord rotates about the circle center and becomes a barrier. <!--SR:!2024-09-13,110,337!2024-11-22,149,340-->
 - civil engineering solutions ::: smart cities <!--SR:!2024-09-06,105,380!2025-09-01,375,376-->
-  - smart cities examples ::: Using technology to gather information, predict events, and notify people. <!--SR:!2025-03-24,304,335!2024-08-29,97,380-->
+  - smart cities examples ::: Using technology to gather information, predict events, and notify people. <!--SR:!2025-03-24,304,335!2026-01-13,502,400-->
 - [civil engineering subdisciplines](#civil%20engineering%20subdisciplines)
 - structural engineering ::: analysis, design, and planning of structures to resist various loading and natural disasters <!--SR:!2024-10-08,126,340!2024-12-22,188,347-->
   - [structural engineering examples](#structural%20engineering%20examples)
@@ -62,7 +62,7 @@ The content is in teaching order.
       - timber structure examples ::: Hirschberg 13, 35037 Marburg, Germany <!--SR:!2024-10-26,63,245!2025-03-16,243,344-->
   - structural codes of practice or design codes ::: different countries have different standards <!--SR:!2025-05-25,340,350!2025-08-05,373,377-->
     - [structural code of practice examples](#structural%20code%20of%20practice%20examples)
-- geo-technical engineering ::: behavior of rock, soil, and underground water <!--SR:!2024-08-28,109,305!2025-03-01,249,367-->
+- geo-technical engineering ::: behavior of rock, soil, and underground water <!--SR:!2025-07-26,331,305!2025-03-01,249,367-->
   - geo-technical engineering structures ::: design and construction of earthworks and foundations <!--SR:!2024-12-22,159,320!2025-01-26,217,350-->
     - [geo-technical engineering structure examples](#geo-technical%20engineering%20structure%20examples)
   - [geo-technical engineering risks](#geo-technical%20engineering%20risks)
@@ -74,7 +74,7 @@ The content is in teaching order.
     - [hydraulic engineering system examples](#hydraulic%20engineering%20system%20examples)
 - environmental engineering ::: application of engineering and science to improve the natural environment and minimize environmental impact <!--SR:!2024-09-05,90,321!2025-03-22,268,376-->
   - [environmental engineering areas](#environmental%20engineering%20areas)
-    - air engineering ::: air pollution control, air quality monitoring, ozone layer protection <!--SR:!2024-08-27,95,335!2025-09-12,410,390-->
+    - air engineering ::: air pollution control, air quality monitoring, ozone layer protection <!--SR:!2025-11-09,437,355!2025-09-12,410,390-->
     - waste engineering ::: methods of disposal (e.g. landfills and incineration), site investigation and remediation, solid waste management <!--SR:!2024-11-06,131,295!2025-06-19,318,372-->
     - [water engineering](#water%20engineering)
     - noise engineering ::: noise mitigation measures (e.g. noise barriers), noise monitoring (e.g. construction noise, traffic noise) <!--SR:!2024-09-22,119,327!2025-06-14,328,370-->
@@ -92,7 +92,7 @@ The content is in teaching order.
     - [materials engineering material examples](#materials%20engineering%20material%20examples)
   - materials engineering repair ::: design of materials and methods to repair <!--SR:!2025-05-24,339,350!2025-11-16,461,395-->
     - materials engineering repair examples ::: fiber reinforced polymer retrofit system, retrofit using damper, slab retrofit using steel plate and carbon fiber reinforced polymer <!--SR:!2024-09-07,92,320!2024-10-17,135,332-->
-- construction engineering ::: planning and execution of the designs from other fields of engineers <!--SR:!2024-08-25,90,317!2025-10-04,429,394-->
+- construction engineering ::: planning and execution of the designs from other fields of engineers <!--SR:!2025-09-30,397,337!2025-10-04,429,394-->
   - [construction engineer skills](#construction%20engineer%20skills)
   - [construction engineer jobs](#construction%20engineer%20jobs)
 - civil engineer prospects ::: A civil engineering degree prepares one for work in the construction industry and the broader business, financial, and management sectors. <!--SR:!2024-10-09,164,325!2025-03-14,281,350-->
@@ -143,14 +143,14 @@ quantity surveyor
 <!--pytextgen generate section="9281"--><!-- The following content is generated at 2024-02-16T21:59:46.960790+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←building services engineer <!--SR:!2024-09-15,113,335!2026-01-31,525,397-->
-- building services engineer→:::←consulting civil engineer <!--SR:!2024-12-13,168,337!2024-08-25,93,337-->
+- building services engineer→:::←consulting civil engineer <!--SR:!2024-12-13,168,337!2025-07-07,312,337-->
 - consulting civil engineer→:::←consulting environmental engineer <!--SR:!2024-12-25,183,347!2025-02-05,221,360-->
 - consulting environmental engineer→:::←consulting geo-technical engineer <!--SR:!2024-10-16,105,265!2024-09-02,112,306-->
 - consulting geo-technical engineer→:::←consulting structural engineer <!--SR:!2025-01-06,179,315!2025-04-26,255,317-->
 - consulting structural engineer→:::←contracting civil engineer <!--SR:!2024-09-11,108,335!2025-05-27,276,315-->
 - contracting civil engineer→:::←engineering geologist <!--SR:!2024-09-28,102,297!2024-09-04,34,295-->
 - engineering geologist→:::←environmental consultant <!--SR:!2024-10-25,125,305!2025-05-31,280,305-->
-- environmental consultant→:::←quantity surveyor <!--SR:!2024-08-26,8,280!2025-01-22,163,280-->
+- environmental consultant→:::←quantity surveyor <!--SR:!2024-09-19,21,280!2025-01-22,163,280-->
 - quantity surveyor→:::←_(end)_ <!--SR:!2025-01-10,187,340!2024-09-02,35,340-->
 
 <!--/pytextgen-->
@@ -200,7 +200,7 @@ water and sewage treatment system
 - reservoir→:::←sewage treatment <!--SR:!2024-09-21,62,197!2024-09-05,75,261-->
 - sewage treatment→:::←transport <!--SR:!2024-09-01,13,190!2024-12-13,152,301-->
 - transport→:::←water and sewage treatment system <!--SR:!2024-11-05,137,340!2024-09-02,9,130-->
-- water and sewage treatment system→:::←_(end)_ <!--SR:!2024-08-25,93,381!2025-04-10,252,361-->
+- water and sewage treatment system→:::←_(end)_ <!--SR:!2025-12-24,482,401!2025-04-10,252,361-->
 
 <!--/pytextgen-->
 
@@ -235,7 +235,7 @@ water security
 - _(begin)_→:::←climate change <!--SR:!2024-10-25,164,325!2025-02-24,228,350-->
 - climate change→:::←extreme weather <!--SR:!2024-09-09,102,337!2025-01-04,199,350-->
 - extreme weather→:::←food security <!--SR:!2024-11-12,150,330!2025-03-06,235,347-->
-- food security→:::←mega-cities <!--SR:!2024-08-27,95,352!2024-09-18,100,320-->
+- food security→:::←mega-cities <!--SR:!2025-12-02,460,372!2024-09-18,100,320-->
 - mega-cities→:::←water security <!--SR:!2025-03-02,229,360!2024-12-30,187,354-->
 - water security→:::←_(end)_ <!--SR:!2025-04-28,318,350!2024-09-29,107,337-->
 
@@ -285,7 +285,7 @@ workmanship
 - lifecycle→:::←maintenance <!--SR:!2024-10-13,106,297!2024-09-16,39,292-->
 - maintenance→:::←politics <!--SR:!2024-09-07,21,221!2025-04-18,249,312-->
 - politics→:::←social <!--SR:!2025-03-24,246,360!2025-05-03,262,337-->
-- social→:::←workmanship <!--SR:!2024-08-26,82,300!2024-09-04,52,190-->
+- social→:::←workmanship <!--SR:!2025-04-30,244,300!2024-09-04,52,190-->
 - workmanship→:::←_(end)_ <!--SR:!2025-09-26,419,385!2025-04-05,258,355-->
 
 <!--/pytextgen-->
@@ -357,7 +357,7 @@ transportation
 <!--pytextgen generate section="137b"--><!-- The following content is generated at 2024-05-01T19:22:34.905642+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←construction <!--SR:!2025-01-13,207,355!2024-11-13,161,375-->
-- construction→:::←environmental <!--SR:!2024-09-04,96,340!2024-08-25,93,380-->
+- construction→:::←environmental <!--SR:!2024-09-04,96,340!2025-12-22,480,400-->
 - environmental→:::←geo-technical <!--SR:!2024-10-04,127,327!2025-01-07,205,345-->
 - geo-technical→:::←hydraulic <!--SR:!2024-11-21,149,340!2024-09-01,33,340-->
 - hydraulic→:::←material <!--SR:!2024-10-03,119,340!2024-10-30,135,340-->
@@ -399,13 +399,13 @@ Water Cube
 
 <!--pytextgen generate section="cc12"--><!-- The following content is generated at 2024-03-10T00:25:48.737016+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←Beijing National Stadium <!--SR:!2024-08-26,94,380!2025-03-11,257,367-->
+- _(begin)_→:::←Beijing National Stadium <!--SR:!2025-08-26,362,380!2025-03-11,257,367-->
 - Beijing National Stadium→:::←Burj Al Arab <!--SR:!2025-05-14,263,304!2024-11-12,158,350-->
 - Burj Al Arab→:::←Burj Khalifa <!--SR:!2024-10-15,141,270!2024-12-22,190,352-->
 - Burj Khalifa→:::←CCTV Headquarters <!--SR:!2024-09-02,89,320!2025-04-25,256,270-->
 - CCTV Headquarters→:::←Eiffel Tower <!--SR:!2024-09-28,103,285!2024-12-11,149,292-->
 - Eiffel Tower→:::←Hong Kong Convention and Exhibition Centre <!--SR:!2024-10-13,114,294!2024-09-03,60,305-->
-- Hong Kong Convention and Exhibition Centre→:::←Water Cube <!--SR:!2024-08-29,61,317!2025-05-09,258,320-->
+- Hong Kong Convention and Exhibition Centre→:::←Water Cube <!--SR:!2025-05-22,266,337!2025-05-09,258,320-->
 - Water Cube→:::←_(end)_ <!--SR:!2025-10-12,432,401!2025-01-02,201,357-->
 
 <!--/pytextgen-->
@@ -453,15 +453,15 @@ testing materials
 <!--pytextgen generate section="a93e"--><!-- The following content is generated at 2024-05-01T19:22:34.995351+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←budgeting <!--SR:!2024-10-31,140,327!2025-04-08,277,375-->
-- budgeting→:::←contracting <!--SR:!2024-08-25,87,314!2024-11-08,146,327-->
-- contracting→:::←designing temporary structures <!--SR:!2025-01-10,173,215!2024-08-28,62,275-->
+- budgeting→:::←contracting <!--SR:!2025-09-10,377,334!2024-11-08,146,327-->
+- contracting→:::←designing temporary structures <!--SR:!2025-01-10,173,215!2025-04-22,236,295-->
 - designing temporary structures→:::←logistics <!--SR:!2024-10-03,124,340!2024-09-07,37,277-->
 - logistics→:::←planning <!--SR:!2024-10-13,62,274!2024-09-28,120,335-->
 - planning→:::←procuring materials <!--SR:!2025-01-24,186,317!2025-02-03,175,277-->
 - procuring materials→:::←quality assurance <!--SR:!2025-01-23,173,300!2025-03-23,213,281-->
 - quality assurance→:::←quality control <!--SR:!2024-10-31,150,357!2025-01-13,182,352-->
 - quality control→:::←safety engineering <!--SR:!2025-02-12,195,301!2024-09-14,31,235-->
-- safety engineering→:::←scheduling <!--SR:!2024-08-25,82,320!2024-10-01,120,340-->
+- safety engineering→:::←scheduling <!--SR:!2025-05-17,261,320!2024-10-01,120,340-->
 - scheduling→:::←surveying building site <!--SR:!2025-01-14,149,241!2024-10-16,116,300-->
 - surveying building site→:::←testing materials <!--SR:!2024-09-26,37,240!2024-10-25,74,272-->
 - testing materials→:::←_(end)_ <!--SR:!2025-02-21,236,347!2025-04-14,245,307-->
@@ -499,7 +499,7 @@ teaming up with others
 <!--pytextgen generate section="ee20"--><!-- The following content is generated at 2024-02-16T21:59:47.378182+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←business procedures <!--SR:!2024-11-02,111,252!2024-09-08,107,381-->
-- business procedures→:::←economics <!--SR:!2024-08-28,24,241!2025-02-10,193,285-->
+- business procedures→:::←economics <!--SR:!2024-11-19,82,261!2025-02-10,193,285-->
 - economics→:::←human behaviors <!--SR:!2024-09-28,42,300!2024-10-23,131,340-->
 - human behaviors→:::←management principles <!--SR:!2024-12-25,139,300!2024-11-04,95,260-->
 - management principles→:::←strong communication skills <!--SR:!2025-03-22,222,301!2024-09-05,96,320-->
@@ -539,9 +539,9 @@ wood
 <!--pytextgen generate section="20b9"--><!-- The following content is generated at 2024-02-16T21:59:47.456944+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←brick <!--SR:!2025-03-11,233,357!2024-11-04,182,312-->
-- brick→:::←concrete <!--SR:!2024-08-30,61,305!2024-08-27,106,377-->
+- brick→:::←concrete <!--SR:!2024-08-30,61,305!2026-02-28,548,397-->
 - concrete→:::←new synthetic materials <!--SR:!2024-11-09,127,301!2024-12-07,161,341-->
-- new synthetic materials→:::←steel <!--SR:!2024-11-20,155,332!2024-08-29,85,320-->
+- new synthetic materials→:::←steel <!--SR:!2024-11-20,155,332!2025-09-08,375,340-->
 - steel→:::←stone <!--SR:!2024-09-13,64,320!2024-12-03,159,340-->
 - stone→:::←wood <!--SR:!2025-04-11,240,321!2024-09-10,109,332-->
 - wood→:::←_(end)_ <!--SR:!2026-01-17,513,394!2025-01-05,144,360-->
@@ -597,7 +597,7 @@ nuclear
 - ceramic→:::←chemical <!--SR:!2024-12-15,154,320!2024-09-24,119,335-->
 - chemical→:::←civil <!--SR:!2024-10-21,133,337!2024-12-24,194,357-->
 - civil→:::←computer <!--SR:!2024-11-15,163,354!2024-12-17,189,352-->
-- computer→:::←electrical <!--SR:!2024-11-07,142,327!2024-08-25,35,295-->
+- computer→:::←electrical <!--SR:!2024-11-07,142,327!2025-01-18,142,315-->
 - electrical→:::←industrial <!--SR:!2024-09-29,41,301!2024-10-31,68,250-->
 - industrial→:::←manufacturing <!--SR:!2024-10-02,125,337!2024-09-11,103,332-->
 - manufacturing→:::←mechanical <!--SR:!2025-09-08,380,377!2024-10-23,134,337-->
@@ -634,9 +634,9 @@ water
 
 <!--pytextgen generate section="736f"--><!-- The following content is generated at 2024-02-16T21:59:47.573916+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←air <!--SR:!2025-01-07,182,341!2024-08-25,93,381-->
+- _(begin)_→:::←air <!--SR:!2025-01-07,182,341!2025-12-28,486,401-->
 - air→:::←environmental impact assessment (EIA) <!--SR:!2024-12-08,168,318!2024-09-09,108,338-->
-- environmental impact assessment (EIA)→:::←noise <!--SR:!2024-09-08,107,327!2024-08-28,96,380-->
+- environmental impact assessment (EIA)→:::←noise <!--SR:!2024-09-08,107,327!2026-01-08,497,400-->
 - noise→:::←waste <!--SR:!2024-11-15,95,340!2024-12-23,190,355-->
 - waste→:::←water <!--SR:!2025-01-20,202,357!2025-03-30,251,360-->
 - water→:::←_(end)_ <!--SR:!2025-11-18,455,400!2025-07-31,343,380-->
@@ -675,7 +675,7 @@ socioeconomic
 - biological→:::←chemical <!--SR:!2024-10-04,126,337!2025-03-18,247,357-->
 - chemical→:::←cultural <!--SR:!2024-11-18,119,280!2024-11-27,173,357-->
 - cultural→:::←physical <!--SR:!2024-10-14,138,345!2024-09-04,34,280-->
-- physical→:::←socioeconomic <!--SR:!2024-08-25,33,277!2025-04-02,244,361-->
+- physical→:::←socioeconomic <!--SR:!2024-12-01,94,277!2025-04-02,244,361-->
 - socioeconomic→:::←_(end)_ <!--SR:!2024-12-29,187,354!2024-09-24,90,277-->
 
 <!--/pytextgen-->
@@ -708,7 +708,7 @@ soil liquefaction
 
 - _(begin)_→:::←debris flow <!--SR:!2025-03-31,235,314!2025-11-14,459,398-->
 - debris flow→:::←landslide <!--SR:!2025-06-10,294,335!2025-04-29,260,335-->
-- landslide→:::←rockfall <!--SR:!2024-08-25,34,292!2025-03-02,211,320-->
+- landslide→:::←rockfall <!--SR:!2025-01-13,137,312!2025-03-02,211,320-->
 - rockfall→:::←soil liquefaction <!--SR:!2024-11-14,135,290!2024-09-19,118,270-->
 - soil liquefaction→:::←_(end)_ <!--SR:!2025-12-10,483,392!2024-10-20,117,295-->
 
@@ -810,7 +810,7 @@ water distribution network
 
 - _(begin)_→:::←sewage collection network <!--SR:!2024-09-22,113,341!2025-04-21,252,317-->
 - sewage collection network→:::←storm water management <!--SR:!2024-10-26,114,267!2024-09-18,110,341-->
-- storm water management→:::←water collection network <!--SR:!2024-08-28,84,320!2024-09-19,101,320-->
+- storm water management→:::←water collection network <!--SR:!2025-09-05,372,340!2024-09-19,101,320-->
 - water collection network→:::←water distribution network <!--SR:!2024-08-30,98,380!2024-12-24,181,352-->
 - water distribution network→:::←_(end)_ <!--SR:!2025-01-05,204,367!2024-11-30,137,321-->
 
@@ -1095,7 +1095,7 @@ water tower
 <!--pytextgen generate section="1002"--><!-- The following content is generated at 2024-05-01T19:22:35.524682+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←bridge <!--SR:!2024-10-23,142,335!2025-11-12,457,400-->
-- bridge→:::←building <!--SR:!2025-01-24,203,350!2024-08-28,96,380-->
+- bridge→:::←building <!--SR:!2025-01-24,203,350!2026-01-07,496,400-->
 - building→:::←dam <!--SR:!2025-05-03,277,361!2025-01-17,198,361-->
 - dam→:::←power plant <!--SR:!2024-09-08,33,281!2024-10-17,82,238-->
 - power plant→:::←storage facility <!--SR:!2025-01-30,185,300!2024-09-12,111,334-->
@@ -1150,7 +1150,7 @@ and the Structural Engineering Institute (SEI).
 - On 25 August 2021, the National Institute of Standards and Technology (NIST) has been tasked with investigation,→:::←with investigators coming from the American Concrete Institute (ACI), <!--SR:!2024-10-26,144,327!2024-08-31,91,307-->
 - with investigators coming from the American Concrete Institute (ACI),→:::←the American Society of Civil Engineers (ASCE), <!--SR:!2024-11-25,156,334!2025-05-18,269,310-->
 - the American Society of Civil Engineers (ASCE),→:::←the Geode Institute (GI), <!--SR:!2025-02-04,190,290!2024-10-09,130,337-->
-- the Geode Institute (GI),→:::←and the Structural Engineering Institute (SEI). <!--SR:!2024-08-29,92,337!2024-12-11,201,330-->
+- the Geode Institute (GI),→:::←and the Structural Engineering Institute (SEI). <!--SR:!2025-10-29,426,357!2024-12-11,201,330-->
 - and the Structural Engineering Institute (SEI).→:::←_(end)_ <!--SR:!2025-05-08,326,350!2024-12-06,196,330-->
 
 <!--/pytextgen-->
@@ -1227,7 +1227,7 @@ water treatment
 <!--pytextgen generate section="1123"--><!-- The following content is generated at 2024-02-16T21:59:48.139738+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←groundwater quality control <!--SR:!2024-10-04,123,340!2024-11-29,175,357-->
-- groundwater quality control→:::←wastewater recycling <!--SR:!2024-08-28,32,275!2024-09-25,37,260-->
+- groundwater quality control→:::←wastewater recycling <!--SR:!2024-11-26,89,275!2024-09-25,37,260-->
 - wastewater recycling→:::←wastewater treatment <!--SR:!2024-11-03,131,315!2025-01-16,186,317-->
 - wastewater treatment→:::←water quality monitoring <!--SR:!2024-12-21,142,280!2024-12-07,157,315-->
 - water quality monitoring→:::←water treatment <!--SR:!2024-11-12,148,324!2024-09-20,117,334-->

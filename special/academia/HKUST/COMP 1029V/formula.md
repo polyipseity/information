@@ -330,13 +330,13 @@ return _chain.from_iterable(await _gather(
 
 <!--pytextgen generate section="ee42"--><!-- The following content is generated at 2024-01-31T12:52:39.155842+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←`AVERAGE(numbers...)` <!--SR:!2024-08-27,129,270!2024-12-03,235,330-->
+- _(begin)_→:::←`AVERAGE(numbers...)` <!--SR:!2025-12-27,485,290!2024-12-03,235,330-->
 - `AVERAGE(numbers...)`→:::←`COUNTIF(values, criteria)` <!--SR:!2025-02-27,257,290!2025-04-28,259,290-->
 - `COUNTIF(values, criteria)`→:::←`IF(boolean, value_if_true[, value_if_false = FALSE])` <!--SR:!2024-11-09,196,310!2025-03-09,231,290-->
 - `IF(boolean, value_if_true[, value_if_false = FALSE])`→:::←`MAX(numbers...)` <!--SR:!2024-12-17,178,230!2024-12-26,211,270-->
 - `MAX(numbers...)`→:::←`MIN(numbers...)` <!--SR:!2024-12-28,255,330!2024-12-04,237,330-->
 - `MIN(numbers...)`→:::←`RANK(number, numbers...)` <!--SR:!2025-01-23,171,210!2025-04-21,291,270-->
-- `RANK(number, numbers...)`→:::←`STDEV(numbers...)` <!--SR:!2025-04-25,276,250!2024-08-29,133,270-->
+- `RANK(number, numbers...)`→:::←`STDEV(numbers...)` <!--SR:!2025-04-25,276,250!2025-08-22,358,270-->
 - `STDEV(numbers...)`→:::←`SUM(numbers...)` <!--SR:!2025-03-03,304,330!2024-09-03,134,270-->
 - `SUM(numbers...)`→:::←_(end)_ <!--SR:!2025-02-26,254,290!2024-10-14,132,250-->
 

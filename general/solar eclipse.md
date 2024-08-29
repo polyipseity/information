@@ -28,7 +28,7 @@ The [Sun](Sun.md)'s distance from [Earth](Earth.md) is {{about 400 times the [Mo
 
 The [Moon](Moon.md)'s orbit around [Earth](Earth.md) is {{slightly [elliptical](elliptic%20orbit.md), as is Earth's orbit around the [Sun](Sun.md)}}. The [apparent sizes](angular%20diameter.md) of the Sun and Moon therefore {{vary}}. The [magnitude of an eclipse](magnitude%20of%20eclipse.md) is {{the ratio of the apparent size of the Moon to the apparent size of the Sun during an eclipse}}. <!--SR:!2024-09-24,59,310!2024-10-02,67,310!2025-01-01,132,310-->
 
-There are {{three main types of solar eclipses: [total eclipse](#total%20eclipse), [annular eclipse](#annular%20eclipse), and [partial eclipse](#partial%20eclipse)}}. <!--SR:!2024-08-29,38,290-->
+There are {{three main types of solar eclipses: [total eclipse](#total%20eclipse), [annular eclipse](#annular%20eclipse), and [partial eclipse](#partial%20eclipse)}}. <!--SR:!2025-01-27,151,310-->
 
 ### total eclipse
 
@@ -36,7 +36,7 @@ A total eclipse occurs on average {{every 18 months}} when {{the dark silhouette
 
 ### annular eclipse
 
-An annular eclipse, like a total eclipse, occurs when {{the [Sun](Sun.md) and [Moon](Moon.md) are exactly in line with [Earth](Earth.md)}}. During an annular eclipse, however, {{the [apparent size](angular%20diameter.md) of the Moon is not large enough to completely block out the Sun}}. Totality thus {{does not occur; the Sun instead appears as a very bright ring, or [annulus](annulus%20(mathematics).md), surrounding the dark disk of the Moon}}. Annular eclipses occur {{once every one or two years, not annually}}. Their name comes from {{the [Latin](Latin.md) [root word](root%20(linguistics).md) _anulus_, meaning "ring", rather than _annus_, for "year"}}. <!--SR:!2025-01-11,138,310!2024-09-14,54,310!2024-09-13,52,310!2024-08-28,40,290!2024-10-27,78,290-->
+An annular eclipse, like a total eclipse, occurs when {{the [Sun](Sun.md) and [Moon](Moon.md) are exactly in line with [Earth](Earth.md)}}. During an annular eclipse, however, {{the [apparent size](angular%20diameter.md) of the Moon is not large enough to completely block out the Sun}}. Totality thus {{does not occur; the Sun instead appears as a very bright ring, or [annulus](annulus%20(mathematics).md), surrounding the dark disk of the Moon}}. Annular eclipses occur {{once every one or two years, not annually}}. Their name comes from {{the [Latin](Latin.md) [root word](root%20(linguistics).md) _anulus_, meaning "ring", rather than _annus_, for "year"}}. <!--SR:!2025-01-11,138,310!2024-09-14,54,310!2024-09-13,52,310!2025-02-05,160,310!2024-10-27,78,290-->
 
 ### partial eclipse
 
@@ -76,7 +76,7 @@ fourth contact: When the trailing edge of the [Moon](Moon.md) ceases to overlap 
 
 - _(begin)_→:::←first contact: When the [Moon](Moon.md)'s limb (edge) is exactly tangential to the [Sun](Sun.md)'s limb. <!--SR:!2024-10-23,70,270!2024-09-22,57,310-->
 - first contact: When the [Moon](Moon.md)'s limb (edge) is exactly tangential to the [Sun](Sun.md)'s limb.→:::←second contact: Starting with [Baily's beads](Baily's%20beads.md) (caused by light shining through valleys on the [Moon](Moon.md)'s surface) and the diamond ring effect. Almost the entire disk is covered. <!--SR:!2024-12-01,105,290!2025-01-15,144,310-->
-- second contact: Starting with [Baily's beads](Baily's%20beads.md) (caused by light shining through valleys on the [Moon](Moon.md)'s surface) and the diamond ring effect. Almost the entire disk is covered.→:::←totality: The [Moon](Moon.md) obscures the entire disk of the [Sun](Sun.md) and only the [solar corona](stellar%20corona.md) is visible. <!--SR:!2024-09-17,52,290!2024-08-28,37,290-->
+- second contact: Starting with [Baily's beads](Baily's%20beads.md) (caused by light shining through valleys on the [Moon](Moon.md)'s surface) and the diamond ring effect. Almost the entire disk is covered.→:::←totality: The [Moon](Moon.md) obscures the entire disk of the [Sun](Sun.md) and only the [solar corona](stellar%20corona.md) is visible. <!--SR:!2024-09-17,52,290!2025-01-24,148,310-->
 - totality: The [Moon](Moon.md) obscures the entire disk of the [Sun](Sun.md) and only the [solar corona](stellar%20corona.md) is visible.→:::←third contact: When the first bright light becomes visible and the [Moon](Moon.md)'s [shadow](shadow.md) is moving away from the observer. Again a diamond ring may be observed. <!--SR:!2024-11-01,79,270!2024-09-23,58,310-->
 - third contact: When the first bright light becomes visible and the [Moon](Moon.md)'s [shadow](shadow.md) is moving away from the observer. Again a diamond ring may be observed.→:::←fourth contact: When the trailing edge of the [Moon](Moon.md) ceases to overlap with the solar disk and the eclipse ends. <!--SR:!2025-01-23,150,310!2024-09-01,44,290-->
 - fourth contact: When the trailing edge of the [Moon](Moon.md) ceases to overlap with the solar disk and the eclipse ends.→:::←_(end)_ <!--SR:!2024-09-29,64,310!2024-09-01,42,290-->

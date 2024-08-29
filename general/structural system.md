@@ -65,8 +65,8 @@ The following interior structures are possible.
 
 - _(begin)_→:::←[braced frame](braced%20frame.md) <!--SR:!2024-10-03,61,270!2025-01-16,172,315-->
 - [braced frame](braced%20frame.md)→:::←[hinged frame](hinged%20frame.md) <!--SR:!2024-09-30,45,235!2024-09-02,13,195-->
-- [hinged frame](hinged%20frame.md)→:::←[outrigger](#outrigger) <!--SR:!2024-08-28,6,150!2024-09-16,27,195-->
-- [outrigger](#outrigger)→:::←[rigid frame](rigid%20frame.md) <!--SR:!2024-09-29,87,275!2024-08-26,10,195-->
+- [hinged frame](hinged%20frame.md)→:::←[outrigger](#outrigger) <!--SR:!2024-09-05,7,150!2024-09-16,27,195-->
+- [outrigger](#outrigger)→:::←[rigid frame](rigid%20frame.md) <!--SR:!2024-09-29,87,275!2024-09-18,20,195-->
 - [rigid frame](rigid%20frame.md)→:::←[shear-walled frame](#sheared-walled%20frame): [rigid frame](rigid%20frame.md) + [shear wall](shear%20wall.md) <!--SR:!2024-12-09,126,255!2024-11-02,103,255-->
 - [shear-walled frame](#sheared-walled%20frame): [rigid frame](rigid%20frame.md) + [shear wall](shear%20wall.md)→:::←_(end)_ <!--SR:!2025-01-27,181,315!2024-09-28,68,255-->
 
@@ -117,8 +117,8 @@ return await memorize_seq(
 
 - _(begin)_→:::←[buttress](buttress.md) <!--SR:!2025-01-16,181,315!2025-03-18,216,315-->
 - [buttress](buttress.md)→:::←[diagrid](diagrid.md) <!--SR:!2024-11-21,95,235!2024-09-04,32,295-->
-- [diagrid](diagrid.md)→:::←[exoskeleton](exoskeleton.md) <!--SR:!2024-09-11,77,275!2024-08-29,28,295-->
-- [exoskeleton](exoskeleton.md)→:::←[space truss](space%20frame.md) <!--SR:!2025-01-03,142,255!2024-08-25,29,235-->
+- [diagrid](diagrid.md)→:::←[exoskeleton](exoskeleton.md) <!--SR:!2024-09-11,77,275!2024-11-19,82,295-->
+- [exoskeleton](exoskeleton.md)→:::←[space truss](space%20frame.md) <!--SR:!2025-01-03,142,255!2024-11-04,67,235-->
 - [space truss](space%20frame.md)→:::←[superframe](superframe.md) <!--SR:!2024-12-17,143,295!2024-10-03,79,275-->
 - [superframe](superframe.md)→:::←[tube](tube%20(structure).md) <!--SR:!2024-09-19,53,275!2024-09-15,22,195-->
 - [tube](tube%20(structure).md)→:::←_(end)_ <!--SR:!2025-03-24,220,315!2025-03-17,215,315-->

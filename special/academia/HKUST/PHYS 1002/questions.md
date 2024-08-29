@@ -39,7 +39,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 4. smaller for more distant objects
 > 5. larger for nearer objects
 >
-> - solution: {{3}} <!--SR:!2024-08-28,43,290-->
+> - solution: {{3}} <!--SR:!2025-02-17,172,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -64,7 +64,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 4. on the prime meridian
 > 5. 1 and 2
 >
-> - solution: {{3}} <!--SR:!2024-08-29,46,297-->
+> - solution: {{3}} <!--SR:!2025-03-06,189,317-->
 
 <!-- markdownlint MD028 -->
 
@@ -89,7 +89,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 4. on the prime meridian
 > 5. 1 and 2
 >
-> - solution: {{5}} <!--SR:!2024-08-28,45,297-->
+> - solution: {{5}} <!--SR:!2025-03-01,184,317-->
 
 <!-- markdownlint MD028 -->
 
@@ -168,7 +168,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 6. 7/6 years
 >
 > - solution: {{6}}
-> - explanation: {{Since the relative orbital motion between the 2 planets is retrograde, apply the equation: $$\frac 1 {T_\text{syn} } = \frac 1 {T_1} + \frac 1 {T_2}$$. Thus we have $T_2 = \frac 1 {\frac 1 {T_\text{syn} } - \frac 1 {T_1} } = \frac 1 {\frac 1 1 - \frac 1 7} = \frac 7 6\text{ years}$.}} <!--SR:!2024-10-07,63,290!2024-08-25,34,290-->
+> - explanation: {{Since the relative orbital motion between the 2 planets is retrograde, apply the equation: $$\frac 1 {T_\text{syn} } = \frac 1 {T_1} + \frac 1 {T_2}$$. Thus we have $T_2 = \frac 1 {\frac 1 {T_\text{syn} } - \frac 1 {T_1} } = \frac 1 {\frac 1 1 - \frac 1 7} = \frac 7 6\text{ years}$.}} <!--SR:!2024-10-07,63,290!2025-01-14,138,310-->
 
 ## 2024-07-04
 
@@ -261,7 +261,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 5. 11 km/s
 >
 > - solution: {{2}}
-> - explanation: {{Recall that the acceleration due to gravity is inversely proportional to the square of distance: $g \propto \frac 1 {r^2}$. Therefore, the acceleration due to gravity 400 km above the surface is: $$g = 9.8 \cdot \frac {6400^2} {6800^2} \approx 8.68096886\text{ m/s}$$. Now, equate circular acceleration to gravitational acceleration: $$a = g \implies \frac {v^2} r = g \implies v^2 = gr \implies v = \sqrt{gr}$$. Plug in the numbers: $$v = \sqrt{\frac {8.68096886} {1000} \cdot 6800} \approx 7.6831366\text{ km/s}$$. Therefore, the answer is 7.7 km/s.}} <!--SR:!2024-08-27,26,301!2024-09-01,31,301-->
+> - explanation: {{Recall that the acceleration due to gravity is inversely proportional to the square of distance: $g \propto \frac 1 {r^2}$. Therefore, the acceleration due to gravity 400 km above the surface is: $$g = 9.8 \cdot \frac {6400^2} {6800^2} \approx 8.68096886\text{ m/s}$$. Now, equate circular acceleration to gravitational acceleration: $$a = g \implies \frac {v^2} r = g \implies v^2 = gr \implies v = \sqrt{gr}$$. Plug in the numbers: $$v = \sqrt{\frac {8.68096886} {1000} \cdot 6800} \approx 7.6831366\text{ km/s}$$. Therefore, the answer is 7.7 km/s.}} <!--SR:!2024-12-14,107,321!2024-09-01,31,301-->
 
 <!-- markdownlint MD028 -->
 
@@ -274,7 +274,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 5. 1 trillion years
 >
 > - solution: {{3}}
-> - explanation: {{Apply Albert Einstein's famous formula: $$E = mc^2$$. Calculate the total emitted energy over the Sun's lifetime: $$E = 2 \times 10^{30} \cdot 0.001 \cdot (3 \times 10^8)^2 = 1.8 \times 10^{44}\text{ J}$$. Then calculate the Sun's lifetime by dividing it by the power of the Sun: $$t = \frac {1.8 \times 10^{44} } {3.8 \times 10^{26} } \approx 4.73684211 \times 10^{17}\text{ s} \approx 1.5010468 \times 10^{10}\text{ yrs} \approx 15\text{ billion years}$$. Therefore, the answer is 10 billion years.}} <!--SR:!2024-08-28,30,301!2024-09-02,32,301-->
+> - explanation: {{Apply Albert Einstein's famous formula: $$E = mc^2$$. Calculate the total emitted energy over the Sun's lifetime: $$E = 2 \times 10^{30} \cdot 0.001 \cdot (3 \times 10^8)^2 = 1.8 \times 10^{44}\text{ J}$$. Then calculate the Sun's lifetime by dividing it by the power of the Sun: $$t = \frac {1.8 \times 10^{44} } {3.8 \times 10^{26} } \approx 4.73684211 \times 10^{17}\text{ s} \approx 1.5010468 \times 10^{10}\text{ yrs} \approx 15\text{ billion years}$$. Therefore, the answer is 10 billion years.}} <!--SR:!2025-01-02,126,321!2024-09-02,32,301-->
 
 ## 2024-07-16
 
@@ -288,7 +288,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 4. blue in color
 >
 > - solution: {{2}}
-> - explanation: {{Consider the graph of spectral radiance for that star, which peaks at 530 nm. It should look like a hill with somewhat narrow peak. However, the narrow peak should cover the entire visible spectrum. As the spectral radiance is approximately even around the peak, that means it is approximately even over the entire visible spectrum, so the color is white.}} <!--SR:!2024-08-25,21,288!2024-09-24,47,328-->
+> - explanation: {{Consider the graph of spectral radiance for that star, which peaks at 530 nm. It should look like a hill with somewhat narrow peak. However, the narrow peak should cover the entire visible spectrum. As the spectral radiance is approximately even around the peak, that means it is approximately even over the entire visible spectrum, so the color is white.}} <!--SR:!2024-11-20,83,308!2024-09-24,47,328-->
 
 <!-- markdownlint MD028 -->
 
@@ -373,7 +373,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 5. 10^7 L_Sun
 >
 > - solution: {{1}}
-> - explanation: {{Notice that $C$ is not given for two cases. So the main problem is calculating $C$. The main thing to realize is that w expect for masses in the boundary points between two equations, the two equations should predict the same value, i.e. a continuous function. We only need the $C$ for the third case: $$55^{3.5} = C \cdot 55^1 \implies C = 55^{2.5} \approx 22434.0004$$. Then the rest is a simple matter of applying the formula: $$L = 22434.0004 \cdot 100^1 \approx 2.24 \times 10^6~\mathrm{solar\ luminosity}$$. So the answer is 2×10<sup>6</sup> L<sub>Sun</sub>.}} <!--SR:!2024-11-11,86,351!2024-08-26,22,291-->
+> - explanation: {{Notice that $C$ is not given for two cases. So the main problem is calculating $C$. The main thing to realize is that w expect for masses in the boundary points between two equations, the two equations should predict the same value, i.e. a continuous function. We only need the $C$ for the third case: $$55^{3.5} = C \cdot 55^1 \implies C = 55^{2.5} \approx 22434.0004$$. Then the rest is a simple matter of applying the formula: $$L = 22434.0004 \cdot 100^1 \approx 2.24 \times 10^6~\mathrm{solar\ luminosity}$$. So the answer is 2×10<sup>6</sup> L<sub>Sun</sub>.}} <!--SR:!2024-11-11,86,351!2024-11-25,88,311-->
 
 <!-- markdownlint MD028 -->
 
@@ -385,7 +385,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 4. 24 AU
 >
 > - solution: {{3}}
-> - explanation: {{Find the factor the Sun needs to be dimmer to have an apparent magnitude of 1.98: $$f_B = 100^{-\frac {1.98 - (-26.832)} 5} = 100^{-5.7624} \approx 2.98675776 \times 10^{-12}$$. As the apparent brightness is inversely proportional to the square of distance, the factor the Sun needs to be farther away is $$f_d = 1 / \sqrt{2.98675776 \times 10^{-12} } \approx 578628.74$$. As the Sun is 1 AU away, the answer is about 5.8×10<sup>5</sup> AU.}} <!--SR:!2024-09-14,21,271!2024-08-25,21,291-->
+> - explanation: {{Find the factor the Sun needs to be dimmer to have an apparent magnitude of 1.98: $$f_B = 100^{-\frac {1.98 - (-26.832)} 5} = 100^{-5.7624} \approx 2.98675776 \times 10^{-12}$$. As the apparent brightness is inversely proportional to the square of distance, the factor the Sun needs to be farther away is $$f_d = 1 / \sqrt{2.98675776 \times 10^{-12} } \approx 578628.74$$. As the Sun is 1 AU away, the answer is about 5.8×10<sup>5</sup> AU.}} <!--SR:!2024-09-14,21,271!2024-10-27,59,291-->
 
 <!-- markdownlint MD028 -->
 
@@ -479,7 +479,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 6. 7.85×10<sup>16</sup> ly
 >
 > - solution: {{1}}
-> - explanation: {{Apply the equation for Schwarzschild radius: $$r_s = \frac {2 \cdot 6.674\,30 \times 10^{-11} \cdot 10^{53} } {299\,792\,458^2} \approx 1.485\,232\,05 \times 10^{27}~\mathrm{m} \approx 1.569\,9251 \times 10^{11}~\mathrm{ly}$$. So the answer is 1.57×10<sup>11</sup> ly.}} <!--SR:!2024-08-27,13,285!2024-10-09,51,345-->
+> - explanation: {{Apply the equation for Schwarzschild radius: $$r_s = \frac {2 \cdot 6.674\,30 \times 10^{-11} \cdot 10^{53} } {299\,792\,458^2} \approx 1.485\,232\,05 \times 10^{27}~\mathrm{m} \approx 1.569\,9251 \times 10^{11}~\mathrm{ly}$$. So the answer is 1.57×10<sup>11</sup> ly.}} <!--SR:!2024-10-04,36,285!2024-10-09,51,345-->
 
 ## 2024-08-01
 
@@ -491,7 +491,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 4. In the formation of a star, no matter is wasted as all excess material ends up recycled into planets.
 > 5. Life is continuously being spread from star to star in a galaxy.
 >
-> - solution: {{2}} <!--SR:!2024-08-27,19,345-->
+> - solution: {{2}} <!--SR:!2024-11-28,91,365-->
 
 <!-- markdownlint MD028 -->
 
@@ -503,7 +503,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 4. In the nuclear bulge
 > 5. The chances of finding a very young star are the same anywhere in the Milky Way galaxy
 >
-> - solution: {{3}} <!--SR:!2024-08-27,19,345-->
+> - solution: {{3}} <!--SR:!2024-11-27,90,365-->
 
 <!-- markdownlint MD028 -->
 
@@ -618,7 +618,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 5. E
 >
 > - solution: {{5}}
-> - explanation: {{White dwarfs have very high surface temperature and are very small. So they have low luminosity. E matches this description. So the answer is E. (Note that the graph is similar to a horizontally flipped Hertzsprung-Russell diagram.)}} <!--SR:!2024-08-27,19,347!2024-08-28,20,347-->
+> - explanation: {{White dwarfs have very high surface temperature and are very small. So they have low luminosity. E matches this description. So the answer is E. (Note that the graph is similar to a horizontally flipped Hertzsprung-Russell diagram.)}} <!--SR:!2024-12-01,94,367!2024-12-03,96,367-->
 
 <!-- markdownlint MD028 -->
 
@@ -631,7 +631,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 5. 1 sidereal day
 >
 > - solution: {{3}}
-> - explanation: {{The planet is in retrograde motion. Hence, the number of solar days per orbital period is $10 + 1 = 11~\mathrm{solar\ days}$. Thus each solar day is $\frac {1 / 11} {1 / 10} = \frac {10} {11}~\mathrm{sidereal\ days}$.}} <!--SR:!2024-08-29,17,350!2024-08-26,14,330-->
+> - explanation: {{The planet is in retrograde motion. Hence, the number of solar days per orbital period is $10 + 1 = 11~\mathrm{solar\ days}$. Thus each solar day is $\frac {1 / 11} {1 / 10} = \frac {10} {11}~\mathrm{sidereal\ days}$.}} <!--SR:!2024-11-18,81,370!2024-10-30,62,350-->
 
 <!-- markdownlint MD028 -->
 
@@ -668,7 +668,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 8. Waxing crescent
 >
 > - solution: {{4 → 8 → 2 → 7 → 3 → 1 → 6 → 5}}
-> - mnemonics: {{New moon and full moon are easily remembered. Then insert the 2 quarters, first quarter and third quarter, respectively in between new moon and full moon, and in between full moon and next new moon. Finally, in between each of the 4 phases, including between third quarter and next new moon, insert the 4 minor phases. The 4 minor phases is a word combination of waxing or waning, and crescent or gibbous. Waxing means "increasing" while waning means "decreasing". Crescent means "sickle moon" while gibbous means "convex" or "protuberant", so the former is thinner than the latter.}} <!--SR:!2024-10-31,69,347!2024-08-25,17,347-->
+> - mnemonics: {{New moon and full moon are easily remembered. Then insert the 2 quarters, first quarter and third quarter, respectively in between new moon and full moon, and in between full moon and next new moon. Finally, in between each of the 4 phases, including between third quarter and next new moon, insert the 4 minor phases. The 4 minor phases is a word combination of waxing or waning, and crescent or gibbous. Waxing means "increasing" while waning means "decreasing". Crescent means "sickle moon" while gibbous means "convex" or "protuberant", so the former is thinner than the latter.}} <!--SR:!2024-10-31,69,347!2024-11-16,79,367-->
 
 <!-- markdownlint MD028 -->
 
@@ -683,4 +683,4 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 7. G
 >
 > - solution: {{4 → 2 → 1 → 6 → 7 → 3 → 5}}
-> - mnemonics: {{<u>O</u>h, <u>B</u>e <u>A</u> <u>F</u>ine <u>G</u>uy/<u>G</u>irl, <u>K</u>iss <u>M</u>e! <br/> <u>O</u>ur <u>B</u>right <u>A</u>stronomers <u>F</u>requently <u>G</u>enerate <u>K</u>iller <u>M</u>nemonics! <br/> <u>O</u>h, <u>B</u>e <u>A</u> <u>F</u>ool <u>G</u>uy, <u>K</u>ill <u>M</u>e! <br/> <u>O</u>h <u>B</u>oy, <u>A</u> <u>F</u> <u>G</u>rade <u>K</u>ills <u>M</u>e!}} <!--SR:!2024-10-12,53,347!2024-08-27,19,347-->
+> - mnemonics: {{<u>O</u>h, <u>B</u>e <u>A</u> <u>F</u>ine <u>G</u>uy/<u>G</u>irl, <u>K</u>iss <u>M</u>e! <br/> <u>O</u>ur <u>B</u>right <u>A</u>stronomers <u>F</u>requently <u>G</u>enerate <u>K</u>iller <u>M</u>nemonics! <br/> <u>O</u>h, <u>B</u>e <u>A</u> <u>F</u>ool <u>G</u>uy, <u>K</u>ill <u>M</u>e! <br/> <u>O</u>h <u>B</u>oy, <u>A</u> <u>F</u> <u>G</u>rade <u>K</u>ills <u>M</u>e!}} <!--SR:!2024-10-12,53,347!2024-11-03,66,347-->

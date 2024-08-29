@@ -24,7 +24,7 @@ The content is in teaching order.
 
 - time: 2024-01-31T09:00:00+08:00/2024-01-31T10:30:00+08:00
 - 6 major topics ::: association, clustering, classification, data warehouse, dimension reduction, web database <!--SR:!2025-02-23,224,250!2025-01-13,260,330-->
-- association ::: Finding frequent _patterns_, e.g. frequent items and _item sets_, and _association rules_, e.g. the likelihood of A implying B. <!--SR:!2024-08-25,132,290!2024-11-21,218,330-->
+- association ::: Finding frequent _patterns_, e.g. frequent items and _item sets_, and _association rules_, e.g. the likelihood of A implying B. <!--SR:!2026-02-11,531,310!2024-11-21,218,330-->
 - clustering ::: Finding all _clusters_, e.g. the clusters of items after graphing them in a 2D graph. <!--SR:!2024-11-05,191,310!2025-02-08,282,330-->
 - classification ::: _Predict_ results given some input data, e.g. decision trees. <!--SR:!2025-11-06,462,310!2025-02-16,286,330-->
 - data warehouse ::: Knowledge database containing _pre-computed_ results from data sources. <!--SR:!2024-10-09,180,310!2024-09-17,154,310-->
@@ -311,7 +311,7 @@ The content is in teaching order.
     - step function threshold ::: _θ_ = 0 <!--SR:!2024-10-18,102,377!2024-10-25,108,377-->
   - [§ rectifier](../../../../general/artificial%20neuron.md#rectifier)
   - [§ sigmoid](../../../../general/artificial%20neuron.md#sigmoid)
-    - sigmoid function variants ::: [logistic function](../../../../general/logistic%20function.md) with _L_ = 1, _k = 1_, and _x_<sub>0</sub> = 0: $$y = \frac 1 {1 + e^{-u} }$$, [hyperbolic tangent](../../../../general/hyperbolic%20functions.md) ($\tanh$): $$y = \frac {\sinh u} {\cosh u} = \frac {e^u - e^{-u} } {e^u + e^{-u} } = \frac {e^{2u} - 1} {e^{2u} + 1}$$ <!--SR:!2024-12-03,124,337!2024-08-26,57,357-->
+    - sigmoid function variants ::: [logistic function](../../../../general/logistic%20function.md) with _L_ = 1, _k = 1_, and _x_<sub>0</sub> = 0: $$y = \frac 1 {1 + e^{-u} }$$, [hyperbolic tangent](../../../../general/hyperbolic%20functions.md) ($\tanh$): $$y = \frac {\sinh u} {\cosh u} = \frac {e^u - e^{-u} } {e^u + e^{-u} } = \frac {e^{2u} - 1} {e^{2u} + 1}$$ <!--SR:!2024-12-03,124,337!2025-03-21,204,357-->
 - [perceptron](../../../../general/perceptron.md)
   - [§ steps](../../../../general/perceptron.md#steps)
     - perceptron stopping conditions ::: We can limit the maximum number of epochs, i.e. number of passes over the entire training dataset. We can also prematurely stop the training when the percentage error reaches below a threshold. <!--SR:!2024-08-31,62,357!2025-05-24,273,377-->
@@ -371,7 +371,7 @@ The content is in teaching order.
     - § computing PCA using the covariance method > eigenvalues and eigenvectors ::: The [classical method](../../../../general/eigenvalues%20and%20eigenvectors.md#classical%20method) is used to calculate. The eigenvalues _λ_ are found using $\det(\mathbf{\Sigma} - \lambda \mathbf{I})$ instead of $\det(\lambda \mathbf{I} - \mathbf{\Sigma})$. The eigenvectors are normalized. <!--SR:!2024-09-04,64,357!2025-04-15,236,357-->
       - [eigenvalues and eigenvectors § classical method](../../../../general/eigenvalues%20and%20eigenvectors.md#classical%20method)
         - eigenvalues and eigenvectors § classical method > eigenvector ::: The eigenvector is calculated from the eigenvalue using $(\mathbf{\Sigma} - \lambda \mathbf{I}) \mathbf{x} = \mathbf{0}$ instead of $\mathbf{\Sigma} \mathbf{x} = \lambda \mathbf{x}$. <!--SR:!2024-10-18,101,377!2024-09-10,70,357-->
-    - § computing PCA using the covariance method > eigenvector matrix ::: The eigenvector matrix uses the symbol __Φ__. Instead of selecting a subset of the eigenvectors as the basis vectors first, the whole matrix is kept, and then the redundant coordinates are only discarded after transforming the original data. <!--SR:!2024-10-05,90,377!2024-08-26,57,357-->
+    - § computing PCA using the covariance method > eigenvector matrix ::: The eigenvector matrix uses the symbol __Φ__. Instead of selecting a subset of the eigenvectors as the basis vectors first, the whole matrix is kept, and then the redundant coordinates are only discarded after transforming the original data. <!--SR:!2024-10-05,90,377!2025-03-22,205,357-->
     - § computing PCA using the covariance method > cumulative variance ::: Cumulative variance is ignored. So the step about computing the cumulative variance is ignored. Instead, the number of dimensions to be reduced to is specified beforehand instead of being chosen using the ignored step. <!--SR:!2024-08-30,61,357!2025-01-02,143,337-->
     - § computing PCA using the covariance method > data transformation ::: Also, instead of transforming the mean-subtracted data using $\mathbf{T} = \mathbf{B} \mathbf{\Phi}$, the original data $\mathbf{Y} = \mathbf{X}^\intercal$ is transformed, and in a different way: $\mathbf{T}' = \mathbf{\Phi}^\intercal \mathbf{Y}$. Each column instead of each row of $\mathbf{T}'$ is a data point. Even more specifically, the data points are transformed one by one: $\mathbf{T}'_i = \mathbf{\Phi}^\intercal \mathbf{Y}_i$. <!--SR:!2025-02-19,181,337!2025-02-02,166,337-->
 - [Analytics Solver usage](../../../Analytic%20Solver%20usage.md): principal components
@@ -413,7 +413,7 @@ The content is in teaching order.
   - [§ authority update rule](../../../../general/HITS%20algorithm.md#authority%20update%20rule)
   - [§ hub update rule](../../../../general/HITS%20algorithm.md#hub%20update%20rule)
   - [§ normalization](../../../../general/HITS%20algorithm.md#normalization)
-    - HITS algorithm normalization ::: Normalization is done after each iteration. We use the [taxicab norm](../../../../general/norm%20(mathematics).md#taxicab%20norm%20or%20Manhattan%20norm). The normalized vector length is the number of pages instead of 1. <!--SR:!2024-08-27,59,357!2024-10-13,97,377-->
+    - HITS algorithm normalization ::: Normalization is done after each iteration. We use the [taxicab norm](../../../../general/norm%20(mathematics).md#taxicab%20norm%20or%20Manhattan%20norm). The normalized vector length is the number of pages instead of 1. <!--SR:!2025-06-13,288,377!2024-10-13,97,377-->
 - [PageRank](../../../../general/PageRank.md)
   - [§ algorithm](../../../../general/PageRank.md#algorithm)
     - PageRank self-links ::: Self-links are considered. <!--SR:!2024-11-22,130,388!2024-11-08,117,388-->
@@ -439,7 +439,7 @@ The content is in teaching order.
   - [§ conditional independence of events](../../../../general/conditional%20independence.md#conditional%20independence%20of%20events)
   - [§ proof of the equivalent definition](../../../../general/conditional%20independence.md#proof%20of%20the%20equivalent%20definition)
 - [conditional probability table](../../../../general/conditional%20probability%20table.md)
-  - conditional probability table format ::: The row headers are the input variables. The column headers are the output variables. (mnemonic: ↗) <!--SR:!2024-09-26,43,309!2024-08-27,55,349-->
+  - conditional probability table format ::: The row headers are the input variables. The column headers are the output variables. (mnemonic: ↗) <!--SR:!2024-09-26,43,309!2025-03-08,191,349-->
 - [chain rule (probability)](../../../../general/chain%20rule%20(probability).md)
   - [§ two events](../../../../general/chain%20rule%20(probability).md#two%20events)
   - [§ finitely many events](../../../../general/chain%20rule%20(probability).md#finitely%20many%20events)
@@ -468,8 +468,8 @@ The content is in teaching order.
   - [§ finitely many events](../../../../general/chain%20rule%20(probability).md#finitely%20many%20events)
 - common core requirements ::: mathematical models, quantitative data, quantitative methods <!--SR:!2024-09-13,73,357!2024-10-12,96,377-->
 - other topics
-  - association thresholding ::: Instead of thresholding by frequency, we can threshold by number of frequent item sets found, which may be easier to choose. <!--SR:!2024-08-28,57,357!2025-01-27,161,337-->
-  - [clustering high-dimensional data § subspace clustering](../../../../general/clustering%20high-dimensional%20data.md#subspace%20clustering) ::: By removing some dimensions of the data, more interesting clusters may be found. It mitigates [curse of dimensionality](../../../../general/curse%20of%20dimensionality.md), where [distances between different pairs of points become similar](../../../../general/curse%20of%20dimensionality.md#distance%20function). <!--SR:!2024-12-09,135,337!2024-08-29,60,357-->
+  - association thresholding ::: Instead of thresholding by frequency, we can threshold by number of frequent item sets found, which may be easier to choose. <!--SR:!2025-06-03,278,377!2025-01-27,161,337-->
+  - [clustering high-dimensional data § subspace clustering](../../../../general/clustering%20high-dimensional%20data.md#subspace%20clustering) ::: By removing some dimensions of the data, more interesting clusters may be found. It mitigates [curse of dimensionality](../../../../general/curse%20of%20dimensionality.md), where [distances between different pairs of points become similar](../../../../general/curse%20of%20dimensionality.md#distance%20function). <!--SR:!2024-12-09,135,337!2025-06-18,293,377-->
   - ensemble of classifiers ::: We can output the prediction based on the majority prediction of the classifiers. <!--SR:!2024-09-11,71,357!2024-09-13,73,357-->
   - data warehouse questions ::: How to create the data warehouse over different types of data, such as a graph? <!--SR:!2024-10-06,91,377!2024-09-26,79,357-->
   - [word-sense disambiguation](word-sense%20disambiguation.md) ::: How to disambiguate between different entities of the same name on the Internet? <!--SR:!2024-10-07,92,377!2024-10-06,91,377-->

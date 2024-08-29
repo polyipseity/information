@@ -112,7 +112,7 @@ segmented: splitting slightly different customer segments
 - diversified: serving unrelated customer segments→:::←mass market: not distinguishing between customer segments <!--SR:!2024-09-10,84,237!2024-09-21,96,254-->
 - mass market: not distinguishing between customer segments→:::←multi-sided platforms: serving interdependent customer segments <!--SR:!2024-09-05,33,254!2024-09-12,109,297-->
 - multi-sided platforms: serving interdependent customer segments→:::←niche market: focusing on specific, specialized customer segments <!--SR:!2024-10-27,120,257!2024-09-12,79,254-->
-- niche market: focusing on specific, specialized customer segments→:::←segmented: splitting slightly different customer segments <!--SR:!2024-09-30,100,254!2024-08-28,5,157-->
+- niche market: focusing on specific, specialized customer segments→:::←segmented: splitting slightly different customer segments <!--SR:!2024-09-30,100,254!2024-09-04,6,157-->
 - segmented: splitting slightly different customer segments→:::←_(end)_ <!--SR:!2025-01-22,185,274!2024-10-31,116,254-->
 
 <!--/pytextgen-->
@@ -167,7 +167,7 @@ risk reduction
 - accessibility→:::←brand or status <!--SR:!2024-10-01,103,254!2025-02-15,196,274-->
 - brand or status→:::←convenience or usability <!--SR:!2024-09-10,29,214!2024-09-03,44,214-->
 - convenience or usability→:::←cost reduction <!--SR:!2024-10-11,108,254!2024-12-02,101,237-->
-- cost reduction→:::←customization <!--SR:!2024-08-27,94,274!2024-09-01,29,157-->
+- cost reduction→:::←customization <!--SR:!2025-05-10,254,274!2024-09-01,29,157-->
 - customization→:::←design <!--SR:!2024-09-20,39,257!2024-11-27,129,234-->
 - design→:::←newness <!--SR:!2024-09-10,89,257!2024-09-15,54,254-->
 - newness→:::←performance <!--SR:!2024-12-31,168,277!2024-09-26,99,257-->
@@ -227,7 +227,7 @@ personal assistance
 
 #### revenue streams
 
-The revenue streams building block show {{how the organization generates money from customers}}. There are two main types of revenue streams: {{transaction, one-time payment; and recurring, recurrent payment}}. There are [many ways to generate revenue streams](#revenue%20stream%20examples). There are also two main ways to price things: {{fixed, pricing based on static conditions; and dynamic, pricing based on market conditions}}. <!--SR:!2024-08-28,95,274!2024-09-04,102,297!2025-02-01,205,317-->
+The revenue streams building block show {{how the organization generates money from customers}}. There are two main types of revenue streams: {{transaction, one-time payment; and recurring, recurrent payment}}. There are [many ways to generate revenue streams](#revenue%20stream%20examples). There are also two main ways to price things: {{fixed, pricing based on static conditions; and dynamic, pricing based on market conditions}}. <!--SR:!2025-05-20,264,274!2024-09-04,102,297!2025-02-01,205,317-->
 
 ##### revenue stream examples
 
@@ -265,7 +265,7 @@ subscription fee
 
 - _(begin)_→:::←advertising <!--SR:!2025-05-02,251,274!2025-02-25,224,317-->
 - advertising→:::←asset sale <!--SR:!2024-10-07,130,294!2024-11-28,167,317-->
-- asset sale→:::←brokerage fee <!--SR:!2024-12-04,152,274!2024-08-28,50,254-->
+- asset sale→:::←brokerage fee <!--SR:!2024-12-04,152,274!2025-02-22,177,274-->
 - brokerage fee→:::←lending, renting, or leasing <!--SR:!2024-09-01,14,217!2024-10-31,121,254-->
 - lending, renting, or leasing→:::←licensing <!--SR:!2025-04-03,223,257!2024-09-05,35,254-->
 - licensing→:::←usage fee <!--SR:!2025-03-07,207,274!2024-08-31,30,254-->

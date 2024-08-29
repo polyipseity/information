@@ -23,7 +23,7 @@ For example, a sympathetic person seeing a homeless person might {{feel bad, don
 
 In an empathic design process, we need to {{observe, immerse, engage, and understand}}. <!--SR:!2024-10-15,116,290-->
 
-Observe {{views users and their behavior in the context of their lives}}. <!--SR:!2024-08-29,74,270-->
+Observe {{views users and their behavior in the context of their lives}}. <!--SR:!2025-06-03,278,290-->
 
 Immerse is {{experiencing in your users' shoes}}. <!--SR:!2025-03-21,243,330-->
 

@@ -70,7 +70,7 @@ why: Why are people using competitors' products?
 <!--pytextgen generate section="48ff"--><!-- The following content is generated at 2024-05-03T13:31:34.682726+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←compare: Identify similarities and differences between our and their products. <!--SR:!2024-09-04,43,241!2025-04-15,260,334-->
-- compare: Identify similarities and differences between our and their products.→:::←copy: Identify advantages and capabilities our products lack compared to others. <!--SR:!2025-03-05,191,274!2024-08-29,72,281-->
+- compare: Identify similarities and differences between our and their products.→:::←copy: Identify advantages and capabilities our products lack compared to others. <!--SR:!2025-03-05,191,274!2025-06-06,281,301-->
 - copy: Identify advantages and capabilities our products lack compared to others.→:::←discover: Identify unmet needs. <!--SR:!2024-08-30,22,221!2024-09-10,70,241-->
 - discover: Identify unmet needs.→:::←how: What is our strategy? <!--SR:!2024-10-15,57,201!2024-09-09,16,221-->
 - how: What is our strategy?→:::←pricing: Compare prices. <!--SR:!2024-08-30,4,130!2024-10-03,52,241-->
@@ -169,7 +169,7 @@ number of features
 - _(most important)_→:::←price <!--SR:!2025-06-23,313,341!2025-06-24,314,341-->
 - price→:::←benefit <!--SR:!2024-11-27,150,314!2024-09-27,97,301-->
 - benefit→:::←quality <!--SR:!2025-02-16,183,274!2024-11-24,134,301-->
-- quality→:::←durability <!--SR:!2024-09-27,38,181!2024-08-29,30,301-->
+- quality→:::←durability <!--SR:!2024-09-27,38,181!2024-12-31,124,321-->
 - durability→:::←service <!--SR:!2024-12-24,150,301!2024-09-29,32,221-->
 - service→:::←convenience <!--SR:!2024-09-04,11,181!2024-09-04,27,281-->
 - convenience→:::←ease of use <!--SR:!2024-10-26,103,261!2025-01-10,172,314-->

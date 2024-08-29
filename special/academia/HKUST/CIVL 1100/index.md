@@ -81,9 +81,9 @@ The content is in teaching order.
 - [cantilever](../../../../general/cantilever.md) ::: a overhanging structure with only 1 support on 1 end; should be a fixed support to prevent rotation <!--SR:!2024-10-30,114,310!2025-07-06,322,350-->
 - simply supported beam ::: a beam with 2 supports on its 2 ends; should be a pinned support and a roller support to get a statically determinate structure <!--SR:!2024-09-22,82,290!2025-03-22,220,330-->
 - [torsion](../../../../general/torsion%20(mechanics).md) ::: twisting of an object <!--SR:!2025-04-03,229,330!2025-07-12,326,350-->
-  - torsion deformation ::: The object is likely to return to its original shape when torsion forces are removed. <!--SR:!2025-03-21,221,330!2024-08-25,76,330-->
+  - torsion deformation ::: The object is likely to return to its original shape when torsion forces are removed. <!--SR:!2025-03-21,221,330!2025-08-12,348,350-->
   - torsion examples ::: drill pipes, power transmission shafts, tall buildings <!--SR:!2024-10-12,106,310!2025-02-19,207,330-->
-- [shear](../../../../general/shear%20force.md) ::: created by forces not acting on the same line; think of a rectangle being "parallelogramized" by 2 forces facing opposite directions <!--SR:!2024-08-27,78,330!2025-05-20,285,350-->
+- [shear](../../../../general/shear%20force.md) ::: created by forces not acting on the same line; think of a rectangle being "parallelogramized" by 2 forces facing opposite directions <!--SR:!2025-08-18,354,350!2025-05-20,285,350-->
   - shear examples ::: shear damage of road surface due to braking of heavy vehicles or fast running rainwater <!--SR:!2024-12-16,148,310!2025-03-24,224,330-->
 - [structural support](../../../../general/structural%20support.md) ::: fixed support, pinned support, roller support <!--SR:!2024-11-08,120,310!2025-06-10,302,350-->
   - [§ roller support](../../../../general/structural%20support.md#roller%20support)
@@ -114,7 +114,7 @@ The content is in teaching order.
   - [§ live load](../../../../general/structural%20load.md#live%20load)
   - [§ wind load](../../../../general/structural%20load.md#wind%20load)
   - soil load ::: [§ lateral load](../../../../general/structural%20load.md#lateral%20load) <!--SR:!2024-11-16,132,310!2025-05-28,289,350-->
-  - water load ::: [§ hydrostatic load](../../../../general/structural%20load.md#lateral%20load) <!--SR:!2024-08-25,76,330!2025-03-16,214,321-->
+  - water load ::: [§ hydrostatic load](../../../../general/structural%20load.md#lateral%20load) <!--SR:!2025-08-11,347,350!2025-03-16,214,321-->
   - [§ thermal load](../../../../general/structural%20load.md#thermal%20load)
   - earthquake load ::: [§ seismic load](../../../../general/structural%20load.md#seismic%20load) <!--SR:!2025-02-02,196,330!2025-07-21,331,341-->
 - [structural system](../../../../general/structural%20system.md)

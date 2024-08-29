@@ -98,8 +98,8 @@ return await memorize_seq(
 <!--pytextgen generate section="a92d"--><!-- The following content is generated at 2024-06-09T06:29:24.057662+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←(Cap. 311) Air Pollution Control Ordinance <!--SR:!2024-09-18,41,255!2024-09-29,84,355-->
-- (Cap. 311) Air Pollution Control Ordinance→:::←(Cap. 354) Waste Disposal Ordinance <!--SR:!2024-08-28,31,275!2024-08-29,15,275-->
-- (Cap. 354) Waste Disposal Ordinance→:::←(Cap. 358) Water Pollution Control Ordinance <!--SR:!2024-09-08,55,295!2024-08-25,13,295-->
+- (Cap. 311) Air Pollution Control Ordinance→:::←(Cap. 354) Waste Disposal Ordinance <!--SR:!2024-11-21,84,275!2024-10-08,40,275-->
+- (Cap. 354) Waste Disposal Ordinance→:::←(Cap. 358) Water Pollution Control Ordinance <!--SR:!2024-09-08,55,295!2024-10-20,52,315-->
 - (Cap. 358) Water Pollution Control Ordinance→:::←(Cap. 400) Noise Pollution Control Ordinance <!--SR:!2024-09-11,20,255!2024-08-31,17,255-->
 - (Cap. 400) Noise Pollution Control Ordinance→:::←(Cap. 499) Environmental Impact Ordinance <!--SR:!2024-09-10,50,295!2024-09-06,21,295-->
 - (Cap. 499) Environmental Impact Ordinance→:::←_(end)_ <!--SR:!2024-10-02,87,355!2024-10-07,92,355-->
@@ -153,9 +153,9 @@ return await memorize_seq(
 
 - _(begin)_→:::←air sparging <!--SR:!2024-10-02,87,355!2024-10-01,86,355-->
 - air sparging→:::←bioremediation <!--SR:!2024-11-22,111,315!2025-02-15,177,335-->
-- bioremediation→:::←catalytic oxidation <!--SR:!2024-11-29,116,315!2024-08-28,59,335-->
+- bioremediation→:::←catalytic oxidation <!--SR:!2024-11-29,116,315!2025-03-14,197,335-->
 - catalytic oxidation→:::←ex-situ biopile <!--SR:!2024-09-26,67,295!2025-01-14,153,335-->
-- ex-situ biopile→:::←ex-situ solidification or stabilization <!--SR:!2024-08-25,56,335!2025-01-12,153,335-->
+- ex-situ biopile→:::←ex-situ solidification or stabilization <!--SR:!2025-03-04,187,335!2025-01-12,153,335-->
 - ex-situ solidification or stabilization→:::←_(end)_ <!--SR:!2024-09-30,85,355!2025-02-09,173,335-->
 
 <!--/pytextgen-->
@@ -217,7 +217,7 @@ MSW Waste Charging Scheme
 - MSW waste charging scheme passing date ::: 2021-09-26 by Legco <!--SR:!2024-11-23,112,250!2024-09-14,77,270-->
   - MSW waste charging scheme preparation period ::: 18 months <!--SR:!2025-03-03,203,310!2024-11-24,140,310-->
   - MSW waste charging scheme details ::: buy designated bags (0.11 HKD/L) at ~4000 selling points <!--SR:!2024-09-03,67,270!2025-04-05,245,330-->
-  - MSW waste charging scheme penalty ::: max HK$25000 fine and 6 months in prison <!--SR:!2024-08-27,29,290!2025-01-26,187,310-->
+  - MSW waste charging scheme penalty ::: max HK$25000 fine and 6 months in prison <!--SR:!2024-11-19,82,290!2025-01-26,187,310-->
 
 Will this waste charging scheme waste generation?
 
@@ -267,7 +267,7 @@ HATS Stage 2A — Overall Layout
 Sewage Conveyance System
 
 - HATS Stage 2A
-  - HATS Stage 2A tunnel ::: a drop shaft, a tunnel, and a riser shaft, from PTWs to SCISTW across the Victoria Harbour <!--SR:!2024-08-28,30,290!2025-02-21,193,310-->
+  - HATS Stage 2A tunnel ::: a drop shaft, a tunnel, and a riser shaft, from PTWs to SCISTW across the Victoria Harbour <!--SR:!2024-12-29,122,310!2025-02-21,193,310-->
     - HATS Stage 2A tunnel sizes ::: 21 km tunnel, about 70 to 160 m (inside bedrock) below sea level <!--SR:!2025-01-04,137,250!2025-06-05,293,330-->
 
 ## page 21
@@ -297,7 +297,7 @@ Noise Levels and Causes
   - airplane passing ::: 120 dB(A) <!--SR:!2025-02-17,193,310!2025-02-22,194,310-->
   - construction site ::: 110 dB(A) <!--SR:!2024-10-20,103,290!2025-03-26,219,310-->
   - concert ::: 100 dB(A) <!--SR:!2025-03-18,214,310!2025-03-22,218,310-->
-  - drilling ::: 90 dB(A) <!--SR:!2025-01-31,187,310!2024-08-27,63,270-->
+  - drilling ::: 90 dB(A) <!--SR:!2025-01-31,187,310!2025-04-23,237,290-->
   - train passing ::: 80 dB(A) <!--SR:!2025-02-28,200,310!2025-02-05,184,310-->
   - highway (harm threshold) ::: 70 dB(A) <!--SR:!2025-02-16,192,310!2024-12-02,132,290-->
   - home with TV on ::: 60 dB(A) <!--SR:!2025-01-21,184,310!2025-01-05,168,310-->
@@ -328,7 +328,7 @@ Air Pollution: A serious problem in Hong Kong?
 Air Quality Health Index
 
 - Air Quality Health Index ::: AQHI <!--SR:!2025-02-12,188,310!2025-06-10,298,330-->
-  - AQHI history ::: AQHI has replaced the Air Pollution Index (API) since 2013-12-30. <!--SR:!2024-08-28,64,270!2025-05-03,264,330-->
+  - AQHI history ::: AQHI has replaced the Air Pollution Index (API) since 2013-12-30. <!--SR:!2025-02-17,172,270!2025-05-03,264,330-->
   - AQHI scale ::: 1 to 10 and 10+, grouped into 5 health risk categories <!--SR:!2025-03-24,233,330!2025-03-11,226,330-->
   - AQHI health risk categories ::: low (green): 1~3, moderate (yellow): 4~6, high (red): 7, very high (brown): 8~10, serious (black): 10+ <!--SR:!2025-02-27,199,310!2025-03-13,228,330-->
 

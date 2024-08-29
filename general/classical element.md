@@ -16,7 +16,7 @@ tags:
 In his [_On Generation and Corruption_](On%20Generation%20and%20Corruption.md), [Aristotle](Aristotle.md) related each of the four elements, {{fire, air, water, and earth}}, to {{two of the four sensible qualities}}: <!--SR:!2024-09-20,46,290!2024-10-01,59,310-->
 
 - [__fire__](../../../../general/fire%20(classical%20element).md) ::: both hot and dry <!--SR:!2024-09-30,58,310!2024-09-20,50,290-->
-- [__air__](../../../../general/air%20(classical%20element).md) ::: both hot and wet (for air is vapor, ἀτμὶς) <!--SR:!2024-08-29,33,270!2024-10-11,68,310-->
+- [__air__](../../../../general/air%20(classical%20element).md) ::: both hot and wet (for air is vapor, ἀτμὶς) <!--SR:!2025-01-02,126,290!2024-10-11,68,310-->
 - [__water__](../../../../general/water%20(classical%20element).md) ::: both cold and wet <!--SR:!2024-09-21,47,290!2024-09-11,43,290-->
 - [__earth__](../../../../general/earth%20(classical%20element).md) ::: both cold and dry <!--SR:!2024-11-29,97,290!2024-11-30,99,290-->
 

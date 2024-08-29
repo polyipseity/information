@@ -19,11 +19,11 @@ tags:
     2. training: backward ::: Update the weights: $$w_i(t + 1) = w_i(t) + r (d_j - y_j(t)) x_{j, i}$$ for all features $0 \le i \le n$. $r$ is the [learning rate](learning%20rate.md). <!--SR:!2024-12-13,109,250!2025-01-12,143,290-->
 3. termination ::: For [offline training](offline%20training.md), the second step may be repeated until the batch or iteration error $\frac 1 s \sum_{j = 1}^s \lvert d_j - y_j(t) \rvert$ is less than a user-defined threshold $\gamma$, or a predetermined number of batches or iterations have been completed. $s$ is the batch or iteration (not to be confused with epoch) size. <!--SR:!2024-09-11,55,250!2024-10-21,91,290-->
 
-Since {{$x_{j, 0} = 1$ always}}, $w_0$ is {{effectively the bias $b$}}. Thus the above algorithm {{already includes updating the bias: $$b(t + 1) = b(t) + r(d_j - y_j(t))$$}}. <!--SR:!2024-08-29,58,310!2025-01-02,147,310!2024-10-27,91,290-->
+Since {{$x_{j, 0} = 1$ always}}, $w_0$ is {{effectively the bias $b$}}. Thus the above algorithm {{already includes updating the bias: $$b(t + 1) = b(t) + r(d_j - y_j(t))$$}}. <!--SR:!2025-05-06,250,330!2025-01-02,147,310!2024-10-27,91,290-->
 
 ### convergence of one perceptron on a linearly separable dataset
 
-A single perceptron is {{a [linear classifier](linear%20classifier.md)}}. It only {{converges (reaches a stable state) if the training samples are [linearly separable](linear%20separability.md), i.e. can always be classified correctly by a [linear classifier](linear%20classifier.md)}}. <!--SR:!2024-08-28,57,310!2024-09-05,64,310-->
+A single perceptron is {{a [linear classifier](linear%20classifier.md)}}. It only {{converges (reaches a stable state) if the training samples are [linearly separable](linear%20separability.md), i.e. can always be classified correctly by a [linear classifier](linear%20classifier.md)}}. <!--SR:!2025-05-03,247,330!2024-09-05,64,310-->
 
 ## references
 

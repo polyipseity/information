@@ -15,7 +15,7 @@ tags:
 
 # proton–proton chain
 
-The __proton–proton chain__, also commonly referred to as the __p–p chain__, is {{one of two known sets of [nuclear fusion](nuclear%20fusion.md) reactions by which [stars](star.md) convert [hydrogen](hydrogen.md) to [helium](helium.md)}}. It dominates in {{[stars](star.md) with [masses](mass.md) less than or equal to that of the [Sun](Sun.md)}}, whereas the [CNO cycle](CNO%20cycle.md), the other known reaction, is suggested by theoretical models to {{dominate in [stars](star.md) with [masses](mass.md) greater than about 1.3 [solar masses](solar%20mass.md)}}. <!--SR:!2024-10-19,68,310!2024-08-30,24,270!2024-08-29,25,270-->
+The __proton–proton chain__, also commonly referred to as the __p–p chain__, is {{one of two known sets of [nuclear fusion](nuclear%20fusion.md) reactions by which [stars](star.md) convert [hydrogen](hydrogen.md) to [helium](helium.md)}}. It dominates in {{[stars](star.md) with [masses](mass.md) less than or equal to that of the [Sun](Sun.md)}}, whereas the [CNO cycle](CNO%20cycle.md), the other known reaction, is suggested by theoretical models to {{dominate in [stars](star.md) with [masses](mass.md) greater than about 1.3 [solar masses](solar%20mass.md)}}. <!--SR:!2024-10-19,68,310!2024-08-30,24,270!2024-11-30,93,290-->
 
 ## the proton–proton chain
 
@@ -39,7 +39,7 @@ The overall reaction (noting that the elements are [ionized](ionization.md)) is:
 
 ### the p–p I branch
 
-The p–p I branch is: {{$${}_2^3\mathrm{He} + {}_2^3\mathrm{He} \to {}_2^4\mathrm{He} + 2\, {}_1^1\mathrm{H} + 12.859\text{ MeV}$$}}. The complete chain releases {{a net energy of 26.732 MeV}} but {{2.2 percent of this energy (0.59&nbsp;MeV) is lost to the [neutrinos](neutrino.md) that are produced}}. The p–p I branch is dominant {{at [temperatures](temperature.md) of 10 to 18&nbsp;MK. Below 10&nbsp;MK}}, the p–p chain proceeds at slow rate, resulting in {{a low production of <sup>4</sup>He}}. <!--SR:!2024-09-04,12,230!2024-09-29,34,230!2024-08-29,14,210!2024-09-10,32,270!2024-09-09,32,270-->
+The p–p I branch is: {{$${}_2^3\mathrm{He} + {}_2^3\mathrm{He} \to {}_2^4\mathrm{He} + 2\, {}_1^1\mathrm{H} + 12.859\text{ MeV}$$}}. The complete chain releases {{a net energy of 26.732 MeV}} but {{2.2 percent of this energy (0.59&nbsp;MeV) is lost to the [neutrinos](neutrino.md) that are produced}}. The p–p I branch is dominant {{at [temperatures](temperature.md) of 10 to 18&nbsp;MK. Below 10&nbsp;MK}}, the p–p chain proceeds at slow rate, resulting in {{a low production of <sup>4</sup>He}}. <!--SR:!2024-09-04,12,230!2024-09-29,34,230!2024-10-09,41,230!2024-09-10,32,270!2024-09-09,32,270-->
 
 - p–p I branch / energy release ::: 12.859 MeV <!--SR:!2024-09-10,15,175!2024-10-17,60,315-->
 

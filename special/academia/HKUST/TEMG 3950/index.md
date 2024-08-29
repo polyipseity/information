@@ -151,7 +151,7 @@ The content is in teaching order.
 - time: 2024-03-26T18:00:00+08:00/2024-03-26T20:30:00+08:00
 - [information § context](information.md#context)
 - [information § part 2: case analysis](information.md#part%202%20case%20analysis)
-- thinking processes ::: deduction, evaluation, inference, interpretation <!--SR:!2024-08-24,60,341!2025-05-09,262,361-->
+- thinking processes ::: deduction, evaluation, inference, interpretation <!--SR:!2025-05-26,270,361!2025-05-09,262,361-->
   - deduction ::: application; arrive at conclusions based on given premises and rules <!--SR:!2024-08-30,65,341!2024-09-20,85,361-->
   - evaluation ::: unbiased, unemotional; systematically assess, determine, or examine the effectiveness, quality, or value of something <!--SR:!2024-10-09,86,301!2024-10-02,96,361-->
   - inference ::: generalize; draw rules or predictions based on observed examples <!--SR:!2024-09-24,89,361!2024-09-21,86,361-->
@@ -164,7 +164,7 @@ The content is in teaching order.
   - time limit: 6 minutes
 - [consultant](../../../../general/consultant.md)
   - consultant job prospects
-    - consultant after 1 to 2 years ::: Analyst, Associate, Specialist: doing the work; enter from BA, BS, MPhil, or MSc <!--SR:!2025-01-11,152,321!2024-08-24,59,341-->
+    - consultant after 1 to 2 years ::: Analyst, Associate, Specialist: doing the work; enter from BA, BS, MPhil, or MSc <!--SR:!2025-01-11,152,321!2025-03-17,200,341-->
     - consultant after 2 to 4 years ::: As. Consultant, Consultant, Sr. Consultant: doing the work; enter from JD, MBA, MD, or PhD, exit to project member of big firms or manager in small firms, and further top MBA <!--SR:!2024-09-03,67,341!2024-12-30,144,321-->
     - consultant after 4 to 6 years ::: Eng. Manager, Mg. Consultant, Project Leader: managing the work; exit to manager of big firms or director of small firms, and further top EMBA <!--SR:!2024-09-21,44,281!2024-09-28,93,361-->
     - consultant after 6 to 9 years ::: As. Partner, Principal: selling the work; exit to director of big firms or general manager (GM) of small firms, and further top EMBA <!--SR:!2024-10-27,98,301!2025-01-04,149,321-->
@@ -174,13 +174,13 @@ The content is in teaching order.
 - [Pareto principle](../../../../general/Pareto%20principle.md)
 - "less is more" ::: In the digital age, there is too much information (digital garbage), so they need to be distilled. Also see [DIKW pyramid](../../../../general/DIKW%20pyramid.md). <!--SR:!2025-05-26,276,361!2024-09-21,86,361-->
 - [MECE principle](../../../../general/MECE%20principle.md)
-- modeling key concepts ::: abstraction, framework, model <!--SR:!2024-08-25,61,341!2024-10-04,98,361-->
+- modeling key concepts ::: abstraction, framework, model <!--SR:!2025-06-11,286,361!2024-10-04,98,361-->
   - modeling key concept: abstraction ::: filter for elements relevant to some specific purpose <!--SR:!2024-09-17,83,361!2024-10-02,96,361-->
-  - modeling key concept: framework ::: a support structure around which something can be built <!--SR:!2024-09-25,90,361!2024-08-24,59,341-->
+  - modeling key concept: framework ::: a support structure around which something can be built <!--SR:!2024-09-25,90,361!2025-05-29,273,361-->
   - modeling key concept: model ::: an abstraction of the real world for some specific purpose <!--SR:!2024-09-05,72,361!2024-11-03,105,341-->
 - Aguilar's PESTLE framework ::: business environment analysis <!--SR:!2024-09-27,92,361!2024-09-15,81,361-->
   - [PEST analysis § composition](../../../../general/PEST%20analysis.md#composition)
-- Porter's 5 forces framework ::: industry profitability analysis <!--SR:!2024-08-28,63,341!2024-08-27,62,341-->
+- Porter's 5 forces framework ::: industry profitability analysis <!--SR:!2025-06-24,299,361!2025-06-28,303,361-->
   - [Porter's five forces analysis](../../../../general/Porter's%20five%20forces%20analysis.md)
     - [§ five forces that shape competition](../../../../general/Porter's%20five%20forces%20analysis.md#five%20forcs%20that%20shape%20competition)
     - [§ usage](../../../../general/Porter's%20five%20forces%20analysis.md#usage)
@@ -216,7 +216,7 @@ The content is in teaching order.
   - cause mapping § arrow direction ::: cause to effect <!--SR:!2024-09-14,80,361!2024-09-17,83,361-->
   - cause mapping § evidences ::: below the cause, pink background <!--SR:!2024-10-16,92,321!2024-09-03,67,341-->
   - cause mapping § operators ::: AND, OR <!--SR:!2024-09-29,93,361!2024-09-07,74,361-->
-  - cause mapping § solutions ::: above the cause, green background <!--SR:!2024-08-26,62,341!2024-09-01,65,341-->
+  - cause mapping § solutions ::: above the cause, green background <!--SR:!2025-06-10,285,361!2024-09-01,65,341-->
   - cause mapping § symptom ::: red background <!--SR:!2024-09-22,87,361!2024-10-02,96,361-->
 - [5-step persuasive selling](../../../5-step%20persuasive%20selling.md)
   - [§ format](../../../5-step%20persuasive%20selling.md#format)
