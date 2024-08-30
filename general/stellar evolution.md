@@ -53,7 +53,7 @@ After a star {{has consumed the helium at the core}}, {{hydrogen and helium fusi
 
 - see: [post-AGB star](post-AGB%20star.md)
 
-These mid-range stars ultimately {{reach the tip of the asymptotic-giant-branch and run out of fuel for shell burning}}. They are {{not sufficiently massive to start full-scale carbon fusion}}, so they {{contract again, going through a period of post-asymptotic-giant-branch superwind to produce a planetary nebula with an extremely hot central star}}. The central star then {{cools to a white dwarf}}. <!--SR:!2024-08-30,18,268!2024-10-04,48,290!2024-10-07,39,250!2024-09-29,46,308-->
+These mid-range stars ultimately {{reach the tip of the asymptotic-giant-branch and run out of fuel for shell burning}}. They are {{not sufficiently massive to start full-scale carbon fusion}}, so they {{contract again, going through a period of post-asymptotic-giant-branch superwind to produce a planetary nebula with an extremely hot central star}}. The central star then {{cools to a white dwarf}}. <!--SR:!2024-10-18,49,268!2024-10-04,48,290!2024-10-07,39,250!2024-09-29,46,308-->
 
 ### massive stars
 

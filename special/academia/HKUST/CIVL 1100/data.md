@@ -46,7 +46,7 @@ See [Burj Al Arab](../../../../general/Burj%20Al%20Arab.md).
 
 - description ::: luxury hotel in Dubai, United Arab Emirates <!--SR:!2024-09-19,106,307!2026-03-07,555,397-->
 - height ::: architectural: 321 m, top floor: 197.5 m <!--SR:!2024-09-02,60,220!2025-07-14,334,365-->
-- image ::: ![Burj Al Arab image](../../../../archives/Wikimedia%20Commons/Burj%20Al%20Arab,%20Dubai,%20by%20Joi%20Ito%20Dec2007.jpg) <!--SR:!2024-09-11,107,380!2024-08-30,96,380-->
+- image ::: ![Burj Al Arab image](../../../../archives/Wikimedia%20Commons/Burj%20Al%20Arab,%20Dubai,%20by%20Joi%20Ito%20Dec2007.jpg) <!--SR:!2024-09-11,107,380!2026-01-10,498,400-->
 - shape ::: sail of a ship <!--SR:!2025-04-03,254,357!2025-04-27,278,372-->
 
 ## Burj Khalifa
@@ -192,13 +192,13 @@ See [International Commerce Centre](International%20Commerce%20Centre.md).
 - description ::: tallest building in [Hong Kong](../../../../general/Hong%20Kong.md) <!--SR:!2024-12-25,214,330!2025-11-28,471,390-->
 - height ::: architectural: 484 m, tip: 484 m, top floor: 468 m, roof: 484 m <!--SR:!2024-09-04,36,281!2025-01-15,231,330-->
 - image ::: ![International Commerce Centre image](../../../../archives/Wikimedia%20Commons/International%20Commerce%20Centre%20201008.jpg) <!--SR:!2025-03-17,232,360!2025-12-14,472,400-->
-- [structural system](../../../../general/structural%20system.md) ::: concrete–steel composite <!--SR:!2024-08-30,33,301!2024-09-04,103,381-->
+- [structural system](../../../../general/structural%20system.md) ::: concrete–steel composite <!--SR:!2024-09-15,16,281!2024-09-04,103,381-->
 
 ## Itaipu Dam
 
 See [Itaipu Dam](../../../../general/Itaipu%20Dam.md).
 
-- image ::: ![Itaipu Dam image](../../../../archives/Wikimedia%20Commons/Itaipu%20geral.jpg) <!--SR:!2024-11-19,149,396!2024-08-30,82,376-->
+- image ::: ![Itaipu Dam image](../../../../archives/Wikimedia%20Commons/Itaipu%20geral.jpg) <!--SR:!2024-11-19,149,396!2025-10-25,421,396-->
 
 ## John Hancock Center
 
@@ -261,7 +261,7 @@ See [Parthenon](../../../../general/Parthenon.md).
 
 See [Stonecutters Bridge](../../../../general/Stonecutters%20Bridge.md).
 
-- bridge type ::: [cable-stayed bridge](../../../../general/cable-stayed%20bridge.md)<!-- flashcard ca1fa4c4-b487-40a0-9948-a808866a25eb --> <!--SR:!2024-12-12,177,361!2024-08-30,98,381-->
+- bridge type ::: [cable-stayed bridge](../../../../general/cable-stayed%20bridge.md)<!-- flashcard ca1fa4c4-b487-40a0-9948-a808866a25eb --> <!--SR:!2024-12-12,177,361!2026-01-22,510,401-->
 - description ::: bridge in Hong Kong <!--SR:!2024-12-19,186,345!2026-01-18,514,397-->
 - image ::: ![Stonecutters Bridge image](../../../../archives/Wikimedia%20Commons/Stonecutters'%20Bridge.jpg) <!--SR:!2026-01-03,492,400!2025-05-03,286,380-->
 - length ::: 1596 m, longest span: 1018 m <!--SR:!2024-10-14,56,240!2025-03-13,259,370-->
@@ -289,7 +289,7 @@ See [Taipei 101](Taipei%20101.md).
 See [Thames Barrier](../../../../general/Thames%20Barrier.md).
 
 - [dam type](../../../../general/dam.md#types) ::: [barrage](barrage%20(dam).md) <!--SR:!2024-10-21,135,341!2025-10-10,433,397-->
-- height ::: 20.1 m <!--SR:!2024-09-10,51,261!2024-08-30,98,380-->
+- height ::: 20.1 m <!--SR:!2024-09-10,51,261!2025-09-05,371,380-->
 - image ::: ![Thames Barrier image](../../../../archives/Wikimedia%20Commons/Thames%20Barrier%2003.jpg) <!--SR:!2025-02-16,228,360!2025-12-19,477,400-->
 - length ::: 520 m <!--SR:!2024-10-17,107,280!2024-12-06,196,330-->
 
@@ -299,7 +299,7 @@ See [Tsing Ma Bridge](../../../../general/Tsing%20Ma%20Bridge.md).
 
 - bridge type ::: [double-decked](../../../../general/deck%20(bridge).md) [suspension bridge](../../../../general/suspension%20bridge.md)<!-- flashcard 54af6d8c-884f-4894-bb1a-ce65254b1063 --> <!--SR:!2024-12-19,156,297!2025-11-10,455,390-->
 - description ::: [suspension bridge](../../../../general/suspension%20bridge.md) in [Hong Kong](../../../../general/Hong%20Kong.md) <!--SR:!2025-01-26,227,330!2025-12-18,488,392-->
-- image ::: ![Tsing Ma Bridge image](../../../../archives/Wikimedia%20Commons/Tsing%20Ma%20Bridge%202.jpg) <!--SR:!2024-08-30,97,380!2025-09-05,389,380-->
+- image ::: ![Tsing Ma Bridge image](../../../../archives/Wikimedia%20Commons/Tsing%20Ma%20Bridge%202.jpg) <!--SR:!2026-01-15,503,400!2025-09-05,389,380-->
 - length ::: 2160 m, longest span: 1377 m <!--SR:!2024-11-12,126,280!2025-09-01,368,380-->
 
 ## Turin–Lyon high-speed railway

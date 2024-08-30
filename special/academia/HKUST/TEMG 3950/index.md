@@ -152,7 +152,7 @@ The content is in teaching order.
 - [information § context](information.md#context)
 - [information § part 2: case analysis](information.md#part%202%20case%20analysis)
 - thinking processes ::: deduction, evaluation, inference, interpretation <!--SR:!2025-05-26,270,361!2025-05-09,262,361-->
-  - deduction ::: application; arrive at conclusions based on given premises and rules <!--SR:!2024-08-30,65,341!2024-09-20,85,361-->
+  - deduction ::: application; arrive at conclusions based on given premises and rules <!--SR:!2025-06-30,304,361!2024-09-20,85,361-->
   - evaluation ::: unbiased, unemotional; systematically assess, determine, or examine the effectiveness, quality, or value of something <!--SR:!2024-10-09,86,301!2024-10-02,96,361-->
   - inference ::: generalize; draw rules or predictions based on observed examples <!--SR:!2024-09-24,89,361!2024-09-21,86,361-->
   - interpretation ::: explain or understand meaning, implications, or significance of something <!--SR:!2025-01-01,137,301!2024-09-21,86,361-->
@@ -203,7 +203,7 @@ The content is in teaching order.
 - critical thinking pop quiz takeaways ::: cannot blindly trust given premises, case analysis needs to consider human behaviors, possess general knowledge <!--SR:!2025-03-08,197,341!2024-09-19,85,361-->
 - [assignment W9](assignment%20W9/assignment%20W9.md) takeaways
   - general case analysis question takeaways ::: Identify key questions. Choose the question that is most precise and involves least work. <!--SR:!2025-05-25,275,361!2024-09-20,85,361-->
-  - use of framework takeaways ::: Consider relevant dimensions of each framework and select the framework with the most relevant dimensions. Add a total at the end to sum up all the dimensions. <!--SR:!2024-08-30,65,341!2024-10-01,95,361-->
+  - use of framework takeaways ::: Consider relevant dimensions of each framework and select the framework with the most relevant dimensions. Add a total at the end to sum up all the dimensions. <!--SR:!2025-04-10,223,341!2024-10-01,95,361-->
 - nature of problems ::: Problems are caused by a network of causes. If the causes are not removed, the problems may recur. <!--SR:!2024-08-31,58,321!2024-09-25,90,361-->
 - casual relationship ::: Event A, called the _cause_, causes event B, called the _effect_. <!--SR:!2025-05-24,275,361!2024-09-20,86,361-->
 - correlation ::: Measure of relationship between 2 variables. They can be positively correlated, negatively correlated, or uncorrelated. <!--SR:!2025-03-13,207,361!2025-01-08,164,341-->

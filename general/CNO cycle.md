@@ -30,7 +30,7 @@ The CN-cycle, named as {{it contains no stable isotope of oxygen}}, involves the
 This cycle is now understood as {{being the first part of a larger process, the CNO-cycle}}, and the main reactions in this part of the cycle (CNO-I) are: <!--SR:!2024-10-15,58,310-->
 
 - 1st step ::: $${}_{\phantom{0}6}^{12}\mathrm{C} + {}_1^1\mathrm{H} \rightarrow {}_{\phantom{0}7}^{13}\mathrm{N} + \gamma + 1.95~\mathrm{MeV}$$ <!--SR:!2024-09-06,25,270!2024-10-07,48,290-->
-  - 1st step / energy release (& half-life if available) ::: 1.95 MeV <!--SR:!2024-08-30,18,250!2024-10-16,50,270-->
+  - 1st step / energy release (& half-life if available) ::: 1.95 MeV <!--SR:!2024-10-13,44,250!2024-10-16,50,270-->
 - 2nd step ::: $${}_{\phantom{0}7}^{13}\mathrm{N} \rightarrow {}_{\phantom{0}6}^{13}\mathrm{C} + \mathrm{e}^+ + \nu_{\mathrm{e} } + 1.20~\mathrm{MeV} \quad (\text{half life of 9.965 minutes})$$ <!--SR:!2024-09-09,13,190!2024-10-20,62,310-->
   - 2nd step / energy release (& half-life if available) ::: 1.20 Mev, 9.965 minutes <!--SR:!2024-09-08,12,190!2024-09-24,39,290-->
 - 3rd step ::: $${}_{\phantom{0}6}^{13}\mathrm{C} + {}_1^1\mathrm{H} \rightarrow {}_{\phantom{0}7}^{14}\mathrm{N} + \gamma + 7.54~\mathrm{MeV}$$ <!--SR:!2024-09-08,27,270!2024-10-14,57,310-->

@@ -46,7 +46,7 @@ The content is in teaching order.
     - [long-span structure examples](#long%20span%20structure%20examples)
     - underground structure examples ::: Turin–Lyon high-speed railway (2002–2032), 271 km long, has the Mont Cenis base tunnel that is 57.5 km long with up to 4 km long access tunnels <!--SR:!2024-09-16,99,321!2024-10-26,147,352-->
   - [civil engineering new challenges](#civil%20engineering%20new%20challenges)
-    - climate change engineering examples ::: Project MOSE (2003–2025) in Venice, Thames Barrier (1974–1982) <!--SR:!2024-11-02,120,287!2024-08-30,98,380-->
+    - climate change engineering examples ::: Project MOSE (2003–2025) in Venice, Thames Barrier (1974–1982) <!--SR:!2024-11-02,120,287!2025-09-10,376,380-->
       - Thames Barrier (1974–1982) mechanism ::: The gate is a chord of a circle. It rotates along the circumference of the circle. When open, it acts like the river floor. When closing, the chord rotates about the circle center and becomes a barrier. <!--SR:!2024-09-13,110,337!2024-11-22,149,340-->
 - civil engineering solutions ::: smart cities <!--SR:!2024-09-06,105,380!2025-09-01,375,376-->
   - smart cities examples ::: Using technology to gather information, predict events, and notify people. <!--SR:!2025-03-24,304,335!2026-01-13,502,400-->
@@ -278,7 +278,7 @@ workmanship
 <!--pytextgen generate section="1e12"--><!-- The following content is generated at 2024-05-01T19:22:34.848790+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←budgeting <!--SR:!2025-01-11,187,341!2024-09-06,105,380-->
-- budgeting→:::←construction management <!--SR:!2024-09-02,35,300!2024-08-30,98,335-->
+- budgeting→:::←construction management <!--SR:!2024-09-02,35,300!2025-11-24,451,355-->
 - construction management→:::←economics <!--SR:!2024-10-17,98,235!2025-04-19,240,300-->
 - economics→:::←impacts to surrounding <!--SR:!2025-03-15,215,300!2024-10-17,54,240-->
 - impacts to surrounding→:::←lifecycle <!--SR:!2025-04-01,238,320!2025-05-10,261,320-->
@@ -539,7 +539,7 @@ wood
 <!--pytextgen generate section="20b9"--><!-- The following content is generated at 2024-02-16T21:59:47.456944+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←brick <!--SR:!2025-03-11,233,357!2024-11-04,182,312-->
-- brick→:::←concrete <!--SR:!2024-08-30,61,305!2026-02-28,548,397-->
+- brick→:::←concrete <!--SR:!2025-03-03,185,305!2026-02-28,548,397-->
 - concrete→:::←new synthetic materials <!--SR:!2024-11-09,127,301!2024-12-07,161,341-->
 - new synthetic materials→:::←steel <!--SR:!2024-11-20,155,332!2025-09-08,375,340-->
 - steel→:::←stone <!--SR:!2024-09-13,64,320!2024-12-03,159,340-->
@@ -811,7 +811,7 @@ water distribution network
 - _(begin)_→:::←sewage collection network <!--SR:!2024-09-22,113,341!2025-04-21,252,317-->
 - sewage collection network→:::←storm water management <!--SR:!2024-10-26,114,267!2024-09-18,110,341-->
 - storm water management→:::←water collection network <!--SR:!2025-09-05,372,340!2024-09-19,101,320-->
-- water collection network→:::←water distribution network <!--SR:!2024-08-30,98,380!2024-12-24,181,352-->
+- water collection network→:::←water distribution network <!--SR:!2026-01-24,512,400!2024-12-24,181,352-->
 - water distribution network→:::←_(end)_ <!--SR:!2025-01-05,204,367!2024-11-30,137,321-->
 
 <!--/pytextgen-->
@@ -880,7 +880,7 @@ developing strengthening techniques for damaged structures or structural members
 - _(begin)_→:::←choosing suitable materials to resurface a road like asphalt pavement <!--SR:!2025-06-24,304,335!2025-05-03,280,370-->
 - choosing suitable materials to resurface a road like asphalt pavement→:::←designing a concrete mix for a large building <!--SR:!2025-01-17,192,340!2024-10-11,133,327-->
 - designing a concrete mix for a large building→:::←developing strengthening techniques for damaged structures or structural members like a damaged column <!--SR:!2024-09-05,104,335!2024-09-26,39,297-->
-- developing strengthening techniques for damaged structures or structural members like a damaged column→:::←_(end)_ <!--SR:!2025-03-02,231,345!2024-08-30,98,324-->
+- developing strengthening techniques for damaged structures or structural members like a damaged column→:::←_(end)_ <!--SR:!2025-03-02,231,345!2025-07-13,317,324-->
 
 <!--/pytextgen-->
 

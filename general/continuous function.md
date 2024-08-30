@@ -19,7 +19,7 @@ tags:
 
 #### continuity at a point
 
-There are {{several ways}} to define whether a function is _continuous_ at a point. The most common one {{is in terms of [limits](limit%20of%20a%20function.md). A function $f$ is continuous at a point $c$ if $\lim_{x \to c} f(x) = f(c)$ or $c$ is an [isolated point](isolated%20point.md) of the [domain](domain%20of%20a%20function.md) of $f$}}. <!--SR:!2024-08-30,115,290!2024-10-11,158,310-->
+There are {{several ways}} to define whether a function is _continuous_ at a point. The most common one {{is in terms of [limits](limit%20of%20a%20function.md). A function $f$ is continuous at a point $c$ if $\lim_{x \to c} f(x) = f(c)$ or $c$ is an [isolated point](isolated%20point.md) of the [domain](domain%20of%20a%20function.md) of $f$}}. <!--SR:!2025-12-05,462,310!2024-10-11,158,310-->
 
 > [!tip] tips
 >

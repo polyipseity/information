@@ -17,7 +17,7 @@ tags:
 
 - HKUST PHYS 1002
 
-The parenthesized text at the beginning of of each question is {{the location the question appears in}}. Questions beginning with `(derived)` are {{derived from other questions and only appear here}}. <!--SR:!2024-09-04,51,297!2024-08-30,47,297-->
+The parenthesized text at the beginning of of each question is {{the location the question appears in}}. Questions beginning with `(derived)` are {{derived from other questions and only appear here}}. <!--SR:!2024-09-04,51,297!2025-03-16,198,317-->
 
 Marking is done as follows. iPRS and MCQ questions are considered separately. For each type of questions, the best 80% are counted. Then the percentage is linearly scaled onto a 10-mark scale for iPRS and 15-mark scale for MCQ.
 
@@ -207,7 +207,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 5. proportional to r
 >
 > - solution: {{2}}
-> - explanation: {{The orbital period $p$ is proportional to the inverse of angular orbital velocity $1 / \omega$. Further, linear orbital velocity (speed) $v$ relates to angular orbital velocity by $v = r \omega \implies \omega = v / r$. Therefore, $$p^2 \propto r^3 \implies \omega^{-2} \propto r^3 \implies r^2 / v^2 \propto r^3 \implies r^{-1} \propto v^2 \implies v \propto r^{-1 / 2}$$. Therefore the answer is $v \propto r^{-1 / 2}$.}} <!--SR:!2024-08-30,29,301!2024-09-30,53,321-->
+> - explanation: {{The orbital period $p$ is proportional to the inverse of angular orbital velocity $1 / \omega$. Further, linear orbital velocity (speed) $v$ relates to angular orbital velocity by $v = r \omega \implies \omega = v / r$. Therefore, $$p^2 \propto r^3 \implies \omega^{-2} \propto r^3 \implies r^2 / v^2 \propto r^3 \implies r^{-1} \propto v^2 \implies v \propto r^{-1 / 2}$$. Therefore the answer is $v \propto r^{-1 / 2}$.}} <!--SR:!2024-12-31,123,321!2024-09-30,53,321-->
 
 <!-- markdownlint MD028 -->
 
@@ -562,7 +562,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 5. 240000 pc
 >
 > - solution: {{3}}
-> - explanation: {{If the period of a Cepheid variable is 10 days, according to the (average) luminosity—period log graph, it has a luminosity of 3000 solar luminosities. Find the absolute magnitude $M$ of the Cepheid variable: $$M = 4.83 - 5 \log_{100} 3000 \approx -3.86280314$$. Then apply the m & M equation to find its distance: $$d = 10^{\frac {m - M + 5} 5} = 10^{\frac {8 - (-3.86280314) + 5} 5} = 10^{3.372560628} \approx 2358.0913~\mathrm{pc}$$. So the answer is 2400 pc.}} <!--SR:!2024-09-11,20,355!2024-08-30,10,315-->
+> - explanation: {{If the period of a Cepheid variable is 10 days, according to the (average) luminosity—period log graph, it has a luminosity of 3000 solar luminosities. Find the absolute magnitude $M$ of the Cepheid variable: $$M = 4.83 - 5 \log_{100} 3000 \approx -3.86280314$$. Then apply the m & M equation to find its distance: $$d = 10^{\frac {m - M + 5} 5} = 10^{\frac {8 - (-3.86280314) + 5} 5} = 10^{3.372560628} \approx 2358.0913~\mathrm{pc}$$. So the answer is 2400 pc.}} <!--SR:!2024-09-11,20,355!2024-10-03,34,315-->
 
 <!-- markdownlint MD028 -->
 

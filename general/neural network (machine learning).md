@@ -25,7 +25,7 @@ Advantages of neural network include {{highly parallel, making it suitable for p
 
 ### artificial neurons
 
-ANNs are composed of {{[artificial neurons](artificial%20neuron.md)}}, which are conceptually {{derived from biological [neurons](neuron.md)}}. <!--SR:!2024-09-15,72,310!2024-08-30,59,310-->
+ANNs are composed of {{[artificial neurons](artificial%20neuron.md)}}, which are conceptually {{derived from biological [neurons](neuron.md)}}. <!--SR:!2024-09-15,72,310!2025-05-14,257,330-->
 
 ## references
 

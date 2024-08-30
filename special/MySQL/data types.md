@@ -31,7 +31,7 @@ tags:
     - `BINARY` ::: Up to 2<sup>8</sup> - 1 bytes of fixed-size binary string. <!--SR:!2025-02-18,398,330!2025-01-21,376,330-->
     - `VARBINARY` ::: Up to 2<sup>16</sup> - 1 bytes of binary string. Shared among columns in a row. <!--SR:!2025-02-28,406,330!2025-01-06,325,310-->
   - `TINYBLOB`, `BLOB`, `MEDIUMBLOB`, `LONGBLOB` ::: Unindexed prefix-indexable long binary strings. <!--SR:!2025-04-05,421,330!2025-03-08,409,330-->
-    - `TINYBLOB` ::: Up to 2<sup>8</sup> - 1 bytes of binary string. <!--SR:!2024-08-30,243,310!2025-03-28,414,330-->
+    - `TINYBLOB` ::: Up to 2<sup>8</sup> - 1 bytes of binary string. <!--SR:!2026-09-21,752,310!2025-03-28,414,330-->
     - `BLOB` ::: Up to 2<sup>16</sup> - 1 bytes of binary string. <!--SR:!2025-04-12,426,330!2025-02-23,402,330-->
     - `MEDIUMBLOB` ::: Up to 2<sup>24</sup> - 1 bytes of binary string. <!--SR:!2024-09-12,253,310!2025-01-31,385,330-->
     - `LONGBLOB` ::: Up to 2<sup>32</sup> - 1 bytes of binary string. <!--SR:!2025-08-06,391,290!2024-09-30,266,310-->
