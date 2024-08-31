@@ -168,7 +168,7 @@ mix: mixing products and services with pain relievers and gain creators
 
 Fit is when {{your pain relievers relieve customer pains, gain creators create customer gains, and products and services satisfy customer jobs}}. To check fit, {{put two ticks on the pair if there is a matching pair in the customer profile and the value map, and cross out those without any matches}}. A strong fit indicates {{customer satisfaction, market differentiation, and value creation}}. <!--SR:!2024-11-10,164,310!2025-11-22,450,310!2025-02-23,223,345-->
 
-However, checking the fit on paper like above is {{not enough}}. Fit happens in three stages: {{problem–solution fit, product–market fit, and business model fit}}. To achieve these three fits requires {{a nonlinear and iterative process}}. Value proposition design allows quick {{design, test, and repeat}}. <!--SR:!2025-02-26,239,329!2025-02-23,189,249!2024-08-31,101,309!2025-01-08,209,310-->
+However, checking the fit on paper like above is {{not enough}}. Fit happens in three stages: {{problem–solution fit, product–market fit, and business model fit}}. To achieve these three fits requires {{a nonlinear and iterative process}}. Value proposition design allows quick {{design, test, and repeat}}. <!--SR:!2025-02-26,239,329!2025-02-23,189,249!2025-11-05,431,329!2025-01-08,209,310-->
 
 ## design
 

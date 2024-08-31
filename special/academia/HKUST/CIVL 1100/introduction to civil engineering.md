@@ -101,7 +101,7 @@ The content is in teaching order.
   - civil engineer organization examples ::: contractors or construction companies, engineering consulting firms, government (working as civil servants) <!--SR:!2025-03-25,247,285!2025-03-18,266,330-->
     - civil government departments in [Hong Kong](../../../../general/Hong%20Kong.md) ::: Architectural Services Department (ArchSD), Buildings Department (BD), Housing Department (HD) <!--SR:!2024-09-25,120,332!2026-01-22,518,395-->
       - Architectural Services Department (ArchSD) ::: governmental structures, markets, playgrounds, public schools <!--SR:!2024-11-07,154,337!2024-12-06,196,330-->
-      - Buildings Department (BD) ::: illegal structures, private buildings <!--SR:!2024-08-31,132,295!2025-07-11,349,374-->
+      - Buildings Department (BD) ::: illegal structures, private buildings <!--SR:!2025-09-23,388,295!2025-07-11,349,374-->
       - Housing Department (HD) ::: home ownership scheme, public housing <!--SR:!2024-10-30,146,290!2025-02-17,221,354-->
 
 ## oversized data
@@ -504,7 +504,7 @@ teaming up with others
 - human behaviors→:::←management principles <!--SR:!2024-12-25,139,300!2024-11-04,95,260-->
 - management principles→:::←strong communication skills <!--SR:!2025-03-22,222,301!2024-09-05,96,320-->
 - strong communication skills→:::←teaming up with others <!--SR:!2024-11-07,138,340!2025-08-04,345,380-->
-- teaming up with others→:::←_(end)_ <!--SR:!2025-05-28,321,375!2024-08-31,73,272-->
+- teaming up with others→:::←_(end)_ <!--SR:!2025-05-28,321,375!2025-03-17,198,272-->
 
 <!--/pytextgen-->
 
@@ -778,7 +778,7 @@ levee
 - canal→:::←channel <!--SR:!2024-11-27,174,357!2024-12-06,168,352-->
 - channel→:::←dam <!--SR:!2024-10-21,128,327!2025-02-10,240,290-->
 - dam→:::←levee <!--SR:!2024-12-18,169,340!2024-11-04,141,332-->
-- levee→:::←_(end)_ <!--SR:!2025-11-22,467,395!2024-08-31,25,238-->
+- levee→:::←_(end)_ <!--SR:!2025-11-22,467,395!2024-10-26,56,238-->
 
 <!--/pytextgen-->
 
@@ -848,7 +848,7 @@ Tsing Ma Bridge
 - Akashi Kaikyo Bridge→:::←Hong Kong–Zhuhai–Macau Bridge <!--SR:!2025-06-20,300,327!2024-10-02,105,307-->
 - Hong Kong–Zhuhai–Macau Bridge→:::←Stonecutters Bridge <!--SR:!2024-11-20,100,320!2025-01-08,149,300-->
 - Stonecutters Bridge→:::←Sutong Yangtze River Bridge <!--SR:!2024-10-08,130,337!2024-11-17,147,340-->
-- Sutong Yangtze River Bridge→:::←Tsing Ma Bridge <!--SR:!2024-11-23,155,335!2024-08-31,93,307-->
+- Sutong Yangtze River Bridge→:::←Tsing Ma Bridge <!--SR:!2024-11-23,155,335!2025-06-09,282,307-->
 - Tsing Ma Bridge→:::←_(end)_ <!--SR:!2025-05-31,301,364!2025-12-04,479,330-->
 
 <!--/pytextgen-->
@@ -913,7 +913,7 @@ polypropylene fiber reinforced concrete
 <!--pytextgen generate section="eee1"--><!-- The following content is generated at 2024-02-16T21:59:47.859581+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←artificial stone <!--SR:!2024-10-13,66,277!2025-07-31,398,365-->
-- artificial stone→:::←cellular concrete <!--SR:!2024-11-12,128,300!2024-08-31,99,335-->
+- artificial stone→:::←cellular concrete <!--SR:!2024-11-12,128,300!2025-07-28,331,335-->
 - cellular concrete→:::←engineered cement composite <!--SR:!2024-10-24,153,270!2024-12-05,166,330-->
 - engineered cement composite→:::←fly ash concrete <!--SR:!2024-11-02,143,337!2024-09-26,107,320-->
 - fly ash concrete→:::←polypropylene fiber reinforced concrete <!--SR:!2024-09-03,75,280!2024-09-04,103,335-->
@@ -1147,7 +1147,7 @@ and the Structural Engineering Institute (SEI).
 - Main culprit is degradation of reinforced concrete structural support in ground-level parking garage, due to water penetration and corrosion of the reinforcing steel.→:::←Other possible factors include corruption, insufficient reinforcing steel, and land subsidence. <!--SR:!2024-12-08,194,290!2024-09-13,102,317-->
 - Other possible factors include corruption, insufficient reinforcing steel, and land subsidence.→:::←The problems had been reported in 2018 and a US$15M program of remedial work has been approved, though no main structural work has taken place. <!--SR:!2024-11-08,131,294!2025-05-18,271,316-->
 - The problems had been reported in 2018 and a US$15M program of remedial work has been approved, though no main structural work has taken place.→:::←On 25 August 2021, the National Institute of Standards and Technology (NIST) has been tasked with investigation, <!--SR:!2024-11-12,149,337!2024-09-28,123,335-->
-- On 25 August 2021, the National Institute of Standards and Technology (NIST) has been tasked with investigation,→:::←with investigators coming from the American Concrete Institute (ACI), <!--SR:!2024-10-26,144,327!2024-08-31,91,307-->
+- On 25 August 2021, the National Institute of Standards and Technology (NIST) has been tasked with investigation,→:::←with investigators coming from the American Concrete Institute (ACI), <!--SR:!2024-10-26,144,327!2025-06-05,278,307-->
 - with investigators coming from the American Concrete Institute (ACI),→:::←the American Society of Civil Engineers (ASCE), <!--SR:!2024-11-25,156,334!2025-05-18,269,310-->
 - the American Society of Civil Engineers (ASCE),→:::←the Geode Institute (GI), <!--SR:!2025-02-04,190,290!2024-10-09,130,337-->
 - the Geode Institute (GI),→:::←and the Structural Engineering Institute (SEI). <!--SR:!2025-10-29,426,357!2024-12-11,201,330-->

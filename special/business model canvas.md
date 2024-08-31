@@ -67,7 +67,7 @@ C$: [cost structure](#cost%20structure)
 - R$: [revenue streams](#revenue%20streams)→:::←KR: [key resources](#key%20resources) <!--SR:!2024-10-20,115,257!2024-09-26,101,257-->
 - KR: [key resources](#key%20resources)→:::←KA: [key activities](#key%20activities) <!--SR:!2024-11-16,128,257!2025-03-14,218,274-->
 - KA: [key activities](#key%20activities)→:::←KP: [key partnerships](#key%20partnerships) <!--SR:!2024-12-02,139,257!2024-09-14,28,234-->
-- KP: [key partnerships](#key%20partnerships)→:::←C$: [cost structure](#cost%20structure) <!--SR:!2024-09-08,27,237!2024-08-31,98,274-->
+- KP: [key partnerships](#key%20partnerships)→:::←C$: [cost structure](#cost%20structure) <!--SR:!2024-09-08,27,237!2025-05-26,268,274-->
 - C$: [cost structure](#cost%20structure)→:::←_(end)_ <!--SR:!2025-01-30,219,314!2025-01-14,207,314-->
 
 <!--/pytextgen-->
@@ -268,7 +268,7 @@ subscription fee
 - asset sale→:::←brokerage fee <!--SR:!2024-12-04,152,274!2025-02-22,177,274-->
 - brokerage fee→:::←lending, renting, or leasing <!--SR:!2024-09-01,14,217!2024-10-31,121,254-->
 - lending, renting, or leasing→:::←licensing <!--SR:!2025-04-03,223,257!2024-09-05,35,254-->
-- licensing→:::←usage fee <!--SR:!2025-03-07,207,274!2024-08-31,30,254-->
+- licensing→:::←usage fee <!--SR:!2025-03-07,207,274!2024-11-17,78,254-->
 - usage fee→:::←subscription fee <!--SR:!2024-10-16,111,254!2025-02-26,206,277-->
 - subscription fee→:::←_(end)_ <!--SR:!2024-11-06,142,294!2024-10-29,132,277-->
 

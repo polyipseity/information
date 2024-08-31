@@ -27,7 +27,7 @@ Below, _u_, also called {{the _net input_}}, is {{the weighted sum of all inputs
 
 The output of _y_ is {{binary depending on whether the net input meets a specified threshold, _θ_}}: {{$$y = \begin{cases} 1 & \text{if }u \ge \theta \\ 0 & \text{if }u < \theta \end{cases}$$}}. <!--SR:!2025-04-10,227,330!2024-09-09,67,310-->
 
-Usually, the threshold _θ_ is {{chosen to be 0}}. <!--SR:!2024-08-31,60,310-->
+Usually, the threshold _θ_ is {{chosen to be 0}}. <!--SR:!2025-05-16,258,330-->
 
 ### linear combination
 
@@ -43,7 +43,7 @@ In this case, the output _y_ is {{simply the net input _u_ multiplied by a const
 
 - see: [rectifier](rectifier%20(neural%20networks).md)
 
-The __rectifier__ or {{__ReLU__ (__rectified linear unit__)}} is an activation function defined as {{the positive part of its argument}}: {{$$y = u^+ = \max(0, u) = \frac {u + \lvert u \rvert} 2 = \begin{cases} u & \text{if }u > 0 \\ 0 & \text{otherwise} \end{cases}$$}}. <!--SR:!2024-08-31,59,310!2025-04-07,226,330!2025-01-25,170,310-->
+The __rectifier__ or {{__ReLU__ (__rectified linear unit__)}} is an activation function defined as {{the positive part of its argument}}: {{$$y = u^+ = \max(0, u) = \frac {u + \lvert u \rvert} 2 = \begin{cases} u & \text{if }u > 0 \\ 0 & \text{otherwise} \end{cases}$$}}. <!--SR:!2025-05-14,256,330!2025-04-07,226,330!2025-01-25,170,310-->
 
 ## references
 

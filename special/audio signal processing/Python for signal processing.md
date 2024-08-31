@@ -14,7 +14,7 @@ tags:
 
 ## numpy
 
-`numpy` is {{a Python library allowing one to manipulate arrays of numbers}}. Its documentation is available on {{<https://numpy.org/doc/>}}. <!--SR:!2024-08-31,15,299!2024-08-31,15,299-->
+`numpy` is {{a Python library allowing one to manipulate arrays of numbers}}. Its documentation is available on {{<https://numpy.org/doc/>}}. <!--SR:!2024-10-29,59,319!2024-11-02,63,319-->
 
 ### useful functions
 
@@ -25,7 +25,7 @@ tags:
 
 ## matplotlib
 
-`matplotlib` is {{a Python library allowing one to visualize numbers}}. Its documentation is available on {{<https://matplotlib.org/stable/api/>}}. <!--SR:!2024-10-25,56,319!2024-08-31,15,299-->
+`matplotlib` is {{a Python library allowing one to visualize numbers}}. Its documentation is available on {{<https://matplotlib.org/stable/api/>}}. <!--SR:!2024-10-25,56,319!2024-11-01,62,319-->
 
 ## complex number
 

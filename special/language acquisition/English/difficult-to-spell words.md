@@ -33,7 +33,7 @@ English
 - [complimentary](https://en.wiktionary.org/wiki/complimentary) ::: (c\_y) In the nature of a [compliment](../../../general/compliment.md); or free, provided at no charge. <!--SR:!2024-12-08,118,244!2024-09-26,192,324-->
 - [consequent](https://en.wiktionary.org/wiki/consequent) ::: (c\_t) Following as a result, inference, or natural effect. <!--SR:!2025-04-16,335,392!2026-03-20,567,392-->
 - [criterion](https://en.wiktionary.org/wiki/criterion) ::: (c\_n) A standard or test to judge and compare things. <!--SR:!2024-09-04,175,410!2025-08-27,409,350-->
-- [deliver](https://en.wiktionary.org/wiki/deliver) ::: (d\_r) To bring or transport something to its destination. <!--SR:!2025-10-25,473,396!2024-08-31,138,396-->
+- [deliver](https://en.wiktionary.org/wiki/deliver) ::: (d\_r) To bring or transport something to its destination. <!--SR:!2025-10-25,473,396!2026-09-15,745,416-->
 - [diagnosis](https://en.wiktionary.org/wiki/diagnosis) ::: (d\_s) The process, or an instance of, of identification of the cause and nature of something. <!--SR:!2025-11-18,485,392!2026-11-28,838,433-->
 - [differentiate](https://en.wiktionary.org/wiki/differentiate) ::: (d\_e) To make different. <!--SR:!2025-03-02,328,344!2024-12-14,248,324-->
 - [dissipative](https://en.wiktionary.org/wiki/dissipative) ::: (d\_e) That dissipates or causes dissipation. <!--SR:!2025-04-06,356,344!2025-02-04,305,344-->
@@ -52,7 +52,7 @@ English
 - [infimum](https://en.wiktionary.org/wiki/infimum) ::: (i\_m) Given a [subset](../../../general/subset.md) $X$ of a [partially ordered set](../../../general/partially%20ordered%20set.md) $P$ with partial order $\ge$, the greatest element $y$ of $P$ such that every $x$ in $X$ satisfies $x \ge y$. <!--SR:!2025-06-30,389,390!2025-05-08,282,330-->
 - [intuition](https://en.wiktionary.org/wiki/intuition) ::: (i\_n) Acquiring [knowledge](../../../general/knowledge.md) without using conscious [reasoning](../../../general/reason.md). <!--SR:!2025-02-11,312,344!2025-03-05,334,344-->
 - [laryngeal](https://en.wiktionary.org/wiki/laryngeal) ::: (l\_l) Of or pertaining to the [larynx](../../../general/larynx.md). <!--SR:!2025-02-23,324,344!2025-03-08,334,344-->
-- [larynx](https://en.wiktionary.org/wiki/larynx) ::: (l\_x) An [organ](../../../general/organ%20(anatomy).md) involved in [breathing](../../../general/breathing.md), [sound](../../../general/sound.md) production, and protection of the [trachea](../../../general/trachea.md). <!--SR:!2024-08-31,63,284!2024-11-14,223,324-->
+- [larynx](https://en.wiktionary.org/wiki/larynx) ::: (l\_x) An [organ](../../../general/organ%20(anatomy).md) involved in [breathing](../../../general/breathing.md), [sound](../../../general/sound.md) production, and protection of the [trachea](../../../general/trachea.md). <!--SR:!2025-02-25,178,284!2024-11-14,223,324-->
 - [narcissism](https://en.wiktionary.org/wiki/narcissism) ::: (n\_m) Excessive [love](../../../general/love.md) of oneself. <!--SR:!2027-03-19,939,428!2025-02-10,182,328-->
 - [negligible](https://en.wiktionary.org/wiki/negligible) ::: (n\_e) Can be not considered as it is too small or unimportant. <!--SR:!2025-02-26,324,344!2024-10-03,181,284-->
 - [nondimensionalization](https://en.wiktionary.org/wiki/nondimensionalization) ::: (n\_n) The partial of full removal of [units](../../../general/unit%20of%20measurement.md) from an [equation](../../../general/equation.md) by a [change of variables](../../../general/change%20of%20variables.md). <!--SR:!2025-03-03,329,344!2025-10-13,440,304-->

@@ -24,4 +24,4 @@ Revenues may be {{one-time or recurring}}, such as {{asset sales and support off
 
 Using the profitability framework, we can {{find levers for profit growth}}. <!--SR:!2024-09-09,66,310-->
 
-The variable profit and variable cost of profitability framework can be visualized {{using a table}}. The table list out {{a product segment for each row with the total as the final additional row, and the columns are revenue, units, revenue per unit, cost per unit, profit per unit, and net profit}}. <!--SR:!2024-08-31,60,310!2024-09-06,52,250-->
+The variable profit and variable cost of profitability framework can be visualized {{using a table}}. The table list out {{a product segment for each row with the total as the final additional row, and the columns are revenue, units, revenue per unit, cost per unit, profit per unit, and net profit}}. <!--SR:!2025-05-21,263,330!2024-09-06,52,250-->
