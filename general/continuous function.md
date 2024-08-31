@@ -90,6 +90,8 @@ The set of continuous functions is closed under {{addition, subtraction, multipl
 
 > [!info]- proof of the set of continuous functions being closed under basic arithmetic operations
 >
+> - proof of the set of continuous functions being closed under basic arithmetic operations / strategy ::: For a continuous function $f(x)$, $\lvert f(x) - f(c) \rvert$ can be made to be smaller than an arbitrary small real $\epsilon$ for inputs in an interval around $c$. So setup the required inequalities, transform them, and identify expressions like $\lvert f(x) - f(c) \rvert$ in said inequalities. Claim that such expressions can be made arbitrarily small.
+>
 > Using the above definitions...
 >
 > $f \pm g$: Let $\epsilon > 0$ be an arbitrary real. Choose any $c$ in $D$. By continuity, there is a $\delta_f > 0$ such that $0 < \lvert f(x) - f(c) \rvert < \epsilon / 2$ for all $x$ in $D$ that satisfies $0 < \lvert x - c \rvert < \delta_f$. Similarly, there is a $\delta_g > 0$ such that $0 < \lvert g(x) - g(c) \rvert < \epsilon / 2$ for all $x$ in $D$ that satisfies $0 < \lvert x - c \rvert < \delta_g$. Let $\delta > 0$ be the minimum of $\delta_f$ and $\delta_g$. Then for all $x$ in $D$ that satisfies $0 < \lvert x - c \rvert < \delta$, we have $$\begin{aligned}
@@ -121,13 +123,15 @@ The set of continuous functions is closed under {{addition, subtraction, multipl
 > \in \mathbb{R}, \epsilon (g'(c))^2 > 0 & \text{if } 1 - \epsilon \lvert g'(c) \rvert = 0 \\
 > {>} \frac {\epsilon (g'(c))^2} {1 - \epsilon \lvert g'(c) \rvert} & \text{if } 1 - \epsilon \lvert g'(c) \rvert < 0
 > \end{cases}
-> \end{aligned}$$. Note that the above $\epsilon'$ only depends on $\epsilon$ and $c$ but not $x$. So by the continuity of $g'$, we can choose $\epsilon' > 0$ arbitrarily small (or large) for all $x$ near $c$ in $D'$. The first case can always be satisfied by choosing $\epsilon'$ small enough. The second case can always be satisfied as $\epsilon (g'(c))^2 > 0$. The third case can always be satisfied as the expression on the right is always negative. So $0 < \lvert 1 / g'(x) - 1 / g'(c) \rvert < \epsilon$, as required.
+> \end{aligned}$$. Note that the above $\epsilon'$ is only required to respect an inequality that depends on $\epsilon$ and $c$ but not $x$. So by the continuity of $g'$, we can choose $\epsilon' > 0$ arbitrarily small (or large) for all $x$ near $c$ in $D'$. The first case can always be satisfied by choosing $\epsilon'$ small enough. The second case can always be satisfied as $\epsilon (g'(c))^2 > 0$. The third case can always be satisfied as the expression on the right is always negative. So $0 < \lvert 1 / g'(x) - 1 / g'(c) \rvert < \epsilon$, as required.
 >
 > $f / g$: Let $f'$ and $g'$ be the restriction of respectively $f$ and $g$ to $D' := \set{x \in D : g(x) \ne 0}$. Let $h := 1 / g'$. Then $h$ is continuous by above. Let $f' / g' := f' \cdot h$. Then $f' / g'$ is continuous by above, as required.
 
 Apart from basic arithmetic operations, the set of continuous functions is also closed under {{[function composition](function%20composition.md)}}. That is, {{given two continuous functions $g: D_g \subseteq \mathbb{R} \to \mathbb{R}, f: D_f \subseteq \mathbb{R} \to R_f \subseteq D_g$, then their composition $c(x): D_f \to \mathbb{R} := (g \circ f)(x) \equiv g(f(x))$ is continuous}}. The [converse](converse%20(logic).md) {{is not necessarily true, however}}. For example, {{given a discontinuous [real-valued function](real-valued%20function.md) $f$, one can let $g$ be a [constant function](constant%20function.md). Then $g \circ f$ is continuous. So the antecedent and the consequent cannot be swapped}}. <!--SR:!2025-04-28,293,353!2024-09-09,102,313!2024-11-24,162,333!2024-11-04,143,313-->
 
 > [!info]- proof of the set of continuous functions being closed under function composition
+>
+> - proof of the set of continuous functions being closed under function composition / strategy ::: Chain the two inequalities together to produce the required inequality.
 >
 > Using the above definitions...
 >

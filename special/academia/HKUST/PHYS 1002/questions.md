@@ -81,7 +81,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 
 <!-- markdownlint MD028 -->
 
-> Q3. (derived) At what location(s) on the Earth will one see the stars, the Sun, and the Moon move horizontally (viz. parallel to the horizon)?
+> Q3. (derived) At what location(s) on the Earth will one see the stars, the Sun, and the Moon move almost horizontally (viz. almost parallel to the horizon) all the time?
 >
 > 1. at the North Pole
 > 2. at the South Pole
@@ -351,8 +351,8 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 1. 2.5 km
 > 2. 25 km
 > 3. 250 km
-> 4. 25000 km
-> 5. 2500000 km
+> 4. 25&nbsp;000 km
+> 5. 2500&nbsp;000 km
 >
 > - solution: {{2}}
 > - explanation: {{Using the Rayleigh criterion, the angular resolution in radians is $$\theta = 1.22 \frac {500 \times 10^{-9} } {3 \times 10^{-3} } \approx 0.000203333333~\mathrm{rad}$$. Setup a trigonometric equation: $$\tan (\theta / 2) = \frac {5 / 2} d$$, where $d$ is the distance to the Great Wall (in meters). Since the angle is small, we can use small angle approximation to save work: $$\theta / 2 \approx \frac {5 / 2} d \implies \theta \approx \frac 5 d \implies d \approx \frac 5 \theta = \frac 5 {0.000203333333} \approx 24590.16~\mathrm{m} \approx 24.6~\mathrm{km}$$. So the answer is 25 km.}} <!--SR:!2024-11-12,87,351!2024-09-26,45,311-->

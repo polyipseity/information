@@ -47,8 +47,13 @@ tags:
 
 ### 2024 summer
 
+- HUMA 1000HMCC (transferred): Korea University, ISC117, Introduction to Korean Studies
 - [PHYS 1002](PHYS%201002/index.md)
 - UROP 1000
+
+#### 2024 fall
+
+- [MATH 2411](MATH%202411/index.md)
 
 ## groups
 

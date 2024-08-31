@@ -48,16 +48,18 @@ async def _which2(cmd: str) -> str:
 
 
 @wraps(create_subprocess_exec)
-async def _exec(*args: Any, **kwargs: Any) -> tuple[str, str]:
+async def _exec(
+    *args: Any, input: bytes | bytearray | memoryview | None = None, **kwargs: Any
+) -> tuple[str, str]:
     async with _SUBPROCESS_SEMAPHORE:
         proc = await create_subprocess_exec(
             *args,
-            stdin=DEVNULL,
+            stdin=DEVNULL if input is None else PIPE,
             stdout=PIPE,
             stderr=PIPE,
             **kwargs,
         )
-        stdout, stderr = await proc.communicate()
+        stdout, stderr = await proc.communicate(input=input)
     stdout, stderr = (
         stdout.decode(errors="backslashreplace"),
         stderr.decode(errors="backslashreplace"),
@@ -102,16 +104,21 @@ async def main(args: Arguments) -> None:
         await _exec(git_exe, "-C", tmp_repo, "filter-repo", "--analyze")
 
         renames_backward = defaultdict[str, MutableSet[str]](set)
-        rename_target = ""
+        current_equivalence_group = set[str]()
         for line in (
             await (tmp_repo / ".git/filter-repo/analysis/renames.txt").read_text()
-        ).splitlines():
+        ).splitlines():  # The arrow is stupidly misleading, it represents equivalence classes, not maps
             if line.endswith(" ->"):
-                rename_target = line[: -len(" ->")]
-                continue
-            assert line.startswith("    ")
-            assert rename_target
-            renames_backward[line[len("    ") :]].add(rename_target)
+                for name in current_equivalence_group:
+                    renames_backward[name] = current_equivalence_group
+                current_equivalence_group = set[str]()
+                line = line[:-3]
+            else:
+                assert line.startswith("    ")
+                line = line[4:]
+            current_equivalence_group.add(line)
+        for name in current_equivalence_group:
+            renames_backward[name] = current_equivalence_group
 
         paths_len = 0
         while paths_len != len(paths):
@@ -149,6 +156,10 @@ commit.message += b"\n" + _MESSAGE_PROPERTY_KEY + b": " + commit.original_id
                 tmp_path_file.name,
             )
 
+        branch_name = (
+            await _exec(git_exe, "-C", tmp_repo, "branch", "--show-current")
+        )[0].strip()
+        remote_name = tmp_repo.name.replace(" ", "_")
         await _exec(
             git_exe,
             "-C",
@@ -159,28 +170,16 @@ commit.message += b"\n" + _MESSAGE_PROPERTY_KEY + b": " + commit.original_id
             "--root",
         )
 
-        async def get_branch_name():
-            return (await _exec(git_exe, "-C", tmp_repo, "branch", "--show-current"))[
-                0
-            ].strip()
-
-        async def add_remote():
-            remote_name = tmp_repo.name.replace(" ", "_")
-            await _exec(
-                git_exe,
-                "--git-dir",
-                pub_git_dir,
-                "remote",
-                "add",
-                remote_name,
-                tmp_repo,
-            )
-            await _exec(
-                git_exe, "--git-dir", pub_git_dir, "remote", "update", remote_name
-            )
-            return remote_name
-
-        branch_name, remote_name = await gather(get_branch_name(), add_remote())
+        await _exec(
+            git_exe,
+            "--git-dir",
+            pub_git_dir,
+            "remote",
+            "add",
+            remote_name,
+            tmp_repo,
+        )
+        await _exec(git_exe, "--git-dir", pub_git_dir, "remote", "update", remote_name)
 
     info(
         f"""Merge commits from the temporary remote:

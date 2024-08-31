@@ -21,3 +21,27 @@ tags:
 The content is in teaching order.
 
 ## week 1 lecture
+
+- time: 2024-02-02T18:00:00+08:00/2024-02-02T22:00:00+08:00
+- [information](information.md)
+  - [§ logistics](information.md#logistics)
+  - [§ assessment](information.md#assessment)
+  - [§ ethical hacking](information.md#ethical%20hacking)
+
+## week 2 lecture
+
+- time: 2024-02-09T18:00:00+08:00/2024-02-09T22:00:00+08:00
+- public holiday
+
+## week 3 lecture
+
+- time: 2024-02-16T18:00:00+08:00/2024-02-16T22:00:00+08:00
+- [memory safety](../../../../general/memory%20safety.md)
+  - [§ types of memory errors](../../../../general/memory%20safety.md#types%20of%20memory%20errors)
+- [heap vulnerability](heap%20vulnerability.md)
+  - [§ user perspective](heap%20vulnerability.md#user%20perspective)
+  - [§ `pwndbg`](heap%20vulnerability.md#`pwndbg`)
+  - [§ heap](heap%20vulnerability.md#heap)
+  - [§ inspecting the heap](heap%20vulnerability.md#inspecting%20the%20heap)
+  - [§ heap allocator](heap%20vulnerability.md#heap%20allocator)
+  - [§ `ptmalloc2`](heap%20vulnerability.md#`ptmalloc2`)
