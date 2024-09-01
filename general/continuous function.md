@@ -90,7 +90,7 @@ The set of continuous functions is closed under {{addition, subtraction, multipl
 
 > [!info]- proof of the set of continuous functions being closed under basic arithmetic operations
 >
-> - proof of the set of continuous functions being closed under basic arithmetic operations / strategy ::: For a continuous function $f(x)$, $\lvert f(x) - f(c) \rvert$ can be made to be smaller than an arbitrary small real $\epsilon$ for inputs in an interval around $c$. So setup the required inequalities, transform them, and identify expressions like $\lvert f(x) - f(c) \rvert$ in said inequalities. Claim that such expressions can be made arbitrarily small.
+> - proof of the set of continuous functions being closed under basic arithmetic operations / strategy ::: For a continuous function $f(x)$, $\lvert f(x) - f(c) \rvert$ can be made to be smaller than an arbitrary small real $\epsilon$ for inputs in an interval around $c$. So setup the required inequalities, transform them, and identify expressions like $\lvert f(x) - f(c) \rvert$ in said inequalities. Claim that such expressions can be made arbitrarily small. <!--SR:!2024-09-04,4,330!2024-09-04,4,330-->
 >
 > Using the above definitions...
 >
@@ -131,7 +131,7 @@ Apart from basic arithmetic operations, the set of continuous functions is also 
 
 > [!info]- proof of the set of continuous functions being closed under function composition
 >
-> - proof of the set of continuous functions being closed under function composition / strategy ::: Chain the two inequalities together to produce the required inequality.
+> - proof of the set of continuous functions being closed under function composition / strategy ::: Chain the two inequalities together to produce the required inequality. <!--SR:!2024-09-04,4,330!2024-09-03,3,310-->
 >
 > Using the above definitions...
 >
