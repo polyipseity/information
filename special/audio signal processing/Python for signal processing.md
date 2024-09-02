@@ -21,7 +21,7 @@ tags:
 - DFT matrix ::: [`numpy.matmul`](https://numpy.org/doc/stable/reference/generated/numpy.matmul.html), [`numpy.meshgrid`](https://numpy.org/doc/stable/reference/generated/numpy.meshgrid.html) <!--SR:!2024-09-14,16,320!2024-09-13,15,320-->
 - general ::: [`numpy.arange`](https://numpy.org/doc/stable/reference/generated/numpy.arange.html), [`numpy.cos`](https://numpy.org/doc/stable/reference/generated/numpy.cos.html) <!--SR:!2024-10-03,35,299!2024-10-26,57,319-->
 - spectrum ::: [`numpy.absolute`](https://numpy.org/doc/stable/reference/generated/numpy.absolute.html), [`numpy.angle`](https://numpy.org/doc/stable/reference/generated/numpy.angle.html) <!--SR:!2024-09-15,17,320!2024-09-17,19,320-->
-- window ::: [`numpy.hamming`](https://numpy.org/doc/stable/reference/generated/numpy.hamming.html) <!--SR:!2024-09-01,16,299!2024-09-02,17,299-->
+- window ::: [`numpy.hamming`](https://numpy.org/doc/stable/reference/generated/numpy.hamming.html) <!--SR:!2024-10-19,47,299!2024-11-10,69,319-->
 
 ## matplotlib
 
@@ -29,4 +29,4 @@ tags:
 
 ## complex number
 
-Python has {{builtin support (no libraries needed) for complex numbers}}. The imaginary unit is {{denoted `j`}}. To create a complex number, write code {{as if you are writing the complex number in other contexts (e.g. `4 + 2j`)}}. It can be used with {{[`numpy`](#numpy) and [`matplotlib`](#matplotlib)}}. <!--SR:!2024-09-02,17,299!2024-09-03,18,299!2024-09-01,16,299!2024-09-02,17,299-->
+Python has {{builtin support (no libraries needed) for complex numbers}}. The imaginary unit is {{denoted `j`}}. To create a complex number, write code {{as if you are writing the complex number in other contexts (e.g. `4 + 2j`)}}. It can be used with {{[`numpy`](#numpy) and [`matplotlib`](#matplotlib)}}. <!--SR:!2024-11-11,70,319!2024-09-03,18,299!2024-11-07,66,319!2024-11-09,68,319-->

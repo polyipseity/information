@@ -48,7 +48,7 @@ The combination of natural constants in the energy formula is the {{Rydberg ener
 
 The energy of a photon emitted by a hydrogen atom is:
 {{$$E=E_i-E_f=R_\mathrm{E}\left(\frac1{n_f^2}-\frac1{n_i^2}\right)$$}}, where {{$n_f$ is the final energy level and $n_i$ is the initial energy level}}. Since the energy of a photon is $E=\frac{hc}\lambda$, by {{making inverse of the wavelength $\frac1\lambda$ the subject}}, the resulting constant is the {{[Rydberg constant](Rydberg%20constant.md) $R_\infty$}}:
-{{$$\frac1\lambda=R_\infty\left(\frac1{n_f^2}-\frac1{n_i^2}\right)$$}} The constant is {{$R_\infty=\frac{R_\mathrm{E} }{hc}=10\,973\,731.568\,157(12)~\mathrm{m}^{-1}$}}. <!--SR:!2028-04-21,1338,302!2025-10-09,763,322!2026-01-26,836,322!2025-05-02,580,302!2024-12-12,493,302!2024-09-02,4,130-->
+{{$$\frac1\lambda=R_\infty\left(\frac1{n_f^2}-\frac1{n_i^2}\right)$$}} The constant is {{$R_\infty=\frac{R_\mathrm{E} }{hc}=10\,973\,731.568\,157(12)~\mathrm{m}^{-1}$}}. <!--SR:!2028-04-21,1338,302!2025-10-09,763,322!2026-01-26,836,322!2025-05-02,580,302!2024-12-12,493,302!2024-09-06,4,130-->
 
 ## limitations
 
@@ -86,7 +86,7 @@ The Bohr model fails to explain:
 - brightness→:::←multiple [electrons](electron.md) <!--SR:!2025-03-14,374,284!2025-04-07,228,273-->
 - multiple [electrons](electron.md)→:::←naturalness <!--SR:!2026-06-05,837,324!2025-09-03,414,313-->
 - naturalness→:::←structures <!--SR:!2027-02-11,981,324!2024-09-28,130,273-->
-- structures→:::←_(end)_ <!--SR:!2024-12-18,219,333!2024-09-01,101,313-->
+- structures→:::←_(end)_ <!--SR:!2024-12-18,219,333!2025-11-11,436,333-->
 
 <!--/pytextgen-->
 

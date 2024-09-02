@@ -218,7 +218,7 @@ The steps for naming an organic compound are:
 <!--pytextgen generate section="abacdf"--><!-- The following content is generated at 2024-01-04T20:17:52.021214+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←smallest locant for the suffix functional group <!--SR:!2028-06-26,1449,266!2030-03-25,2149,382-->
-- smallest locant for the suffix functional group→:::←smallest locant for multiple bonds <!--SR:!2029-12-14,1996,286!2024-09-02,481,322-->
+- smallest locant for the suffix functional group→:::←smallest locant for multiple bonds <!--SR:!2029-12-14,1996,286!2030-07-11,2138,342-->
 - smallest locant for multiple bonds→:::←smallest locant for prefixes <!--SR:!2028-02-06,1523,286!2026-02-13,908,345-->
 - smallest locant for prefixes→:::←_(end)_ <!--SR:!2029-03-04,1841,382!2027-07-26,1161,305-->
 

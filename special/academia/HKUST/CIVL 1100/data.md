@@ -45,7 +45,7 @@ See [Beijing National Stadium](../../../../general/Beijing%20National%20Stadium)
 See [Burj Al Arab](../../../../general/Burj%20Al%20Arab.md).
 
 - description ::: luxury hotel in Dubai, United Arab Emirates <!--SR:!2024-09-19,106,307!2026-03-07,555,397-->
-- height ::: architectural: 321 m, top floor: 197.5 m <!--SR:!2024-09-02,60,220!2025-07-14,334,365-->
+- height ::: architectural: 321 m, top floor: 197.5 m <!--SR:!2025-01-11,131,220!2025-07-14,334,365-->
 - image ::: ![Burj Al Arab image](../../../../archives/Wikimedia%20Commons/Burj%20Al%20Arab,%20Dubai,%20by%20Joi%20Ito%20Dec2007.jpg) <!--SR:!2024-09-11,107,380!2026-01-10,498,400-->
 - shape ::: sail of a ship <!--SR:!2025-04-03,254,357!2025-04-27,278,372-->
 
@@ -251,7 +251,7 @@ See [Panama Canal](../../../../general/Panama%20Canal.md).
 
 See [Parthenon](../../../../general/Parthenon.md).
 
-- construction period ::: 447 BC to 438 BC, 9 years <!--SR:!2024-09-01,10,196!2024-12-01,159,396-->
+- construction period ::: 447 BC to 438 BC, 9 years <!--SR:!2024-09-20,18,196!2024-12-01,159,396-->
 - dedication ::: Greek goddess Athena <!--SR:!2024-12-08,166,396!2024-11-08,141,396-->
 - description ::: temple on the Athenian Acropolis, Greece, dedicated to the Greek goddess Athena <!--SR:!2024-11-21,135,356!2024-11-06,139,396-->
 - geographic location ::: Athenian Acropolis, Greece <!--SR:!2024-11-29,138,356!2024-10-16,122,396-->
@@ -323,5 +323,5 @@ See [Two Prudential Plaza](../../../../general/Two%20Prudential%20Plaza.md).
 See [Water Cube](../../../../general/Water%20Cube.md).
 
 - description ::: swimming center in Beijing, China <!--SR:!2025-04-14,290,346!2025-11-30,475,394-->
-- image ::: ![Water Cube image](../../../../archives/Wikimedia%20Commons/国家游泳中心夜景.jpg) <!--SR:!2024-09-02,99,380!2024-09-12,108,380-->
+- image ::: ![Water Cube image](../../../../archives/Wikimedia%20Commons/国家游泳中心夜景.jpg) <!--SR:!2026-01-29,514,400!2024-09-12,108,380-->
 - shape ::: cube covered with bubbles <!--SR:!2025-03-19,264,370!2024-12-31,207,330-->

@@ -145,13 +145,13 @@ quantity surveyor
 - _(begin)_→:::←building services engineer <!--SR:!2024-09-15,113,335!2026-01-31,525,397-->
 - building services engineer→:::←consulting civil engineer <!--SR:!2024-12-13,168,337!2025-07-07,312,337-->
 - consulting civil engineer→:::←consulting environmental engineer <!--SR:!2024-12-25,183,347!2025-02-05,221,360-->
-- consulting environmental engineer→:::←consulting geo-technical engineer <!--SR:!2024-10-16,105,265!2024-09-02,112,306-->
+- consulting environmental engineer→:::←consulting geo-technical engineer <!--SR:!2024-10-16,105,265!2025-08-10,342,306-->
 - consulting geo-technical engineer→:::←consulting structural engineer <!--SR:!2025-01-06,179,315!2025-04-26,255,317-->
 - consulting structural engineer→:::←contracting civil engineer <!--SR:!2024-09-11,108,335!2025-05-27,276,315-->
 - contracting civil engineer→:::←engineering geologist <!--SR:!2024-09-28,102,297!2024-09-04,34,295-->
 - engineering geologist→:::←environmental consultant <!--SR:!2024-10-25,125,305!2025-05-31,280,305-->
 - environmental consultant→:::←quantity surveyor <!--SR:!2024-09-19,21,280!2025-01-22,163,280-->
-- quantity surveyor→:::←_(end)_ <!--SR:!2025-01-10,187,340!2024-09-02,35,340-->
+- quantity surveyor→:::←_(end)_ <!--SR:!2025-01-10,187,340!2024-12-31,120,340-->
 
 <!--/pytextgen-->
 
@@ -198,8 +198,8 @@ water and sewage treatment system
 - pipeline→:::←power plant <!--SR:!2025-01-13,152,260!2024-10-22,107,281-->
 - power plant→:::←reservoir <!--SR:!2025-01-10,164,275!2024-09-05,91,320-->
 - reservoir→:::←sewage treatment <!--SR:!2024-09-21,62,197!2024-09-05,75,261-->
-- sewage treatment→:::←transport <!--SR:!2024-09-01,13,190!2024-12-13,152,301-->
-- transport→:::←water and sewage treatment system <!--SR:!2024-11-05,137,340!2024-09-02,9,130-->
+- sewage treatment→:::←transport <!--SR:!2024-09-24,22,190!2024-12-13,152,301-->
+- transport→:::←water and sewage treatment system <!--SR:!2024-11-05,137,340!2024-09-16,14,130-->
 - water and sewage treatment system→:::←_(end)_ <!--SR:!2025-12-24,482,401!2025-04-10,252,361-->
 
 <!--/pytextgen-->
@@ -278,7 +278,7 @@ workmanship
 <!--pytextgen generate section="1e12"--><!-- The following content is generated at 2024-05-01T19:22:34.848790+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←budgeting <!--SR:!2025-01-11,187,341!2024-09-06,105,380-->
-- budgeting→:::←construction management <!--SR:!2024-09-02,35,300!2025-11-24,451,355-->
+- budgeting→:::←construction management <!--SR:!2025-01-31,151,320!2025-11-24,451,355-->
 - construction management→:::←economics <!--SR:!2024-10-17,98,235!2025-04-19,240,300-->
 - economics→:::←impacts to surrounding <!--SR:!2025-03-15,215,300!2024-10-17,54,240-->
 - impacts to surrounding→:::←lifecycle <!--SR:!2025-04-01,238,320!2025-05-10,261,320-->
@@ -359,7 +359,7 @@ transportation
 - _(begin)_→:::←construction <!--SR:!2025-01-13,207,355!2024-11-13,161,375-->
 - construction→:::←environmental <!--SR:!2024-09-04,96,340!2025-12-22,480,400-->
 - environmental→:::←geo-technical <!--SR:!2024-10-04,127,327!2025-01-07,205,345-->
-- geo-technical→:::←hydraulic <!--SR:!2024-11-21,149,340!2024-09-01,33,340-->
+- geo-technical→:::←hydraulic <!--SR:!2024-11-21,149,340!2024-12-23,112,340-->
 - hydraulic→:::←material <!--SR:!2024-10-03,119,340!2024-10-30,135,340-->
 - material→:::←structural <!--SR:!2024-09-30,44,297!2025-01-26,167,260-->
 - structural→:::←transportation <!--SR:!2024-12-22,171,340!2024-12-03,160,327-->
@@ -402,7 +402,7 @@ Water Cube
 - _(begin)_→:::←Beijing National Stadium <!--SR:!2025-08-26,362,380!2025-03-11,257,367-->
 - Beijing National Stadium→:::←Burj Al Arab <!--SR:!2025-05-14,263,304!2024-11-12,158,350-->
 - Burj Al Arab→:::←Burj Khalifa <!--SR:!2024-10-15,141,270!2024-12-22,190,352-->
-- Burj Khalifa→:::←CCTV Headquarters <!--SR:!2024-09-02,89,320!2025-04-25,256,270-->
+- Burj Khalifa→:::←CCTV Headquarters <!--SR:!2025-06-15,286,320!2025-04-25,256,270-->
 - CCTV Headquarters→:::←Eiffel Tower <!--SR:!2024-09-28,103,285!2024-12-11,149,292-->
 - Eiffel Tower→:::←Hong Kong Convention and Exhibition Centre <!--SR:!2024-10-13,114,294!2024-09-03,60,305-->
 - Hong Kong Convention and Exhibition Centre→:::←Water Cube <!--SR:!2025-05-22,266,337!2025-05-09,258,320-->
@@ -952,7 +952,7 @@ wave
 - _(begin)_→:::←earthquake <!--SR:!2024-11-11,142,340!2025-02-25,240,357-->
 - earthquake→:::←fire <!--SR:!2024-09-28,117,335!2025-04-04,255,360-->
 - fire→:::←flood <!--SR:!2024-11-25,155,324!2024-09-05,104,266-->
-- flood→:::←strong wind <!--SR:!2024-09-01,31,300!2024-11-10,112,297-->
+- flood→:::←strong wind <!--SR:!2024-12-03,92,300!2024-11-10,112,297-->
 - strong wind→:::←wave <!--SR:!2025-01-11,218,290!2024-10-07,107,294-->
 - wave→:::←_(end)_ <!--SR:!2025-01-03,199,357!2025-02-17,210,315-->
 
@@ -1051,7 +1051,7 @@ Hong Kong Code
 
 <!--pytextgen generate section="2ff2"--><!-- The following content is generated at 2024-04-23T18:07:51.798230+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←American Code <!--SR:!2024-09-02,101,380!2025-09-03,403,394-->
+- _(begin)_→:::←American Code <!--SR:!2025-09-20,383,380!2025-09-03,403,394-->
 - American Code→:::←Australian Standard <!--SR:!2024-12-27,193,355!2025-12-14,487,395-->
 - Australian Standard→:::←Chinese Code <!--SR:!2024-12-05,160,327!2025-02-16,233,357-->
 - Chinese Code→:::←Eurocode <!--SR:!2024-10-14,128,335!2025-03-30,252,357-->
@@ -1099,9 +1099,9 @@ water tower
 - building→:::←dam <!--SR:!2025-05-03,277,361!2025-01-17,198,361-->
 - dam→:::←power plant <!--SR:!2024-09-08,33,281!2024-10-17,82,238-->
 - power plant→:::←storage facility <!--SR:!2025-01-30,185,300!2024-09-12,111,334-->
-- storage facility→:::←tunnel <!--SR:!2024-09-09,37,280!2024-09-01,89,320-->
+- storage facility→:::←tunnel <!--SR:!2024-09-09,37,280!2025-09-29,392,340-->
 - tunnel→:::←unusual structure <!--SR:!2024-09-19,83,247!2024-10-17,121,320-->
-- unusual structure→:::←water tower <!--SR:!2024-09-02,37,290!2024-09-06,34,290-->
+- unusual structure→:::←water tower <!--SR:!2024-12-19,108,290!2024-09-06,34,290-->
 - water tower→:::←_(end)_ <!--SR:!2025-11-24,467,387!2024-09-08,55,281-->
 
 <!--/pytextgen-->

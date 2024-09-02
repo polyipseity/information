@@ -34,7 +34,7 @@ User desirability describes {{how much people want the product, depending on the
 
 Technology feasibility describes {{the possibility of producing a product within allocated budget and time}}. Three important factors to consider are {{science and engineering, money, and time}}. <!--SR:!2024-10-30,127,290!2025-03-26,247,330-->
 
-Business viability describes {{how the business can survive}}. The three important factors to consider are {{competition, market size, and target audience}}. <!--SR:!2025-03-25,229,290!2024-09-01,75,270-->
+Business viability describes {{how the business can survive}}. The three important factors to consider are {{competition, market size, and target audience}}. <!--SR:!2025-03-25,229,290!2025-03-22,202,270-->
 
 The three factors above are {{interdependent and must be balanced for a successful business}}. Deep understanding of {{the business model, market, and technology}} is required. <!--SR:!2025-04-28,255,290!2025-01-05,155,270-->
 

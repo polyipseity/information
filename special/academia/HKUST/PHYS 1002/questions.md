@@ -181,7 +181,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 5. 3 hours
 >
 > - solution: {{3}}
-> - explanation: {{Recall that the moonrise time corresponds to the lunar phase cycle. As the cycle resets every 29.5 days, the moonrise time also resets 29.5 days. A moonrise time "reset" happens when the moon rises later by a cumulative time of 1 day. Thus the answer is: $$\frac {24} {29.5} \approx 0.813\,559\,322 \approx 1\text{ hour}$$.}} <!--SR:!2024-09-01,42,312!2024-10-11,75,332-->
+> - explanation: {{Recall that the moonrise time corresponds to the lunar phase cycle. As the cycle resets every 29.5 days, the moonrise time also resets 29.5 days. A moonrise time "reset" happens when the moon rises later by a cumulative time of 1 day. Thus the answer is: $$\frac {24} {29.5} \approx 0.813\,559\,322 \approx 1\text{ hour}$$.}} <!--SR:!2025-01-11,131,312!2024-10-11,75,332-->
 
 <!-- markdownlint MD028 -->
 
@@ -261,7 +261,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 5. 11 km/s
 >
 > - solution: {{2}}
-> - explanation: {{Recall that the acceleration due to gravity is inversely proportional to the square of distance: $g \propto \frac 1 {r^2}$. Therefore, the acceleration due to gravity 400 km above the surface is: $$g = 9.8 \cdot \frac {6400^2} {6800^2} \approx 8.68096886\text{ m/s}$$. Now, equate circular acceleration to gravitational acceleration: $$a = g \implies \frac {v^2} r = g \implies v^2 = gr \implies v = \sqrt{gr}$$. Plug in the numbers: $$v = \sqrt{\frac {8.68096886} {1000} \cdot 6800} \approx 7.6831366\text{ km/s}$$. Therefore, the answer is 7.7 km/s.}} <!--SR:!2024-12-14,107,321!2024-09-01,31,301-->
+> - explanation: {{Recall that the acceleration due to gravity is inversely proportional to the square of distance: $g \propto \frac 1 {r^2}$. Therefore, the acceleration due to gravity 400 km above the surface is: $$g = 9.8 \cdot \frac {6400^2} {6800^2} \approx 8.68096886\text{ m/s}$$. Now, equate circular acceleration to gravitational acceleration: $$a = g \implies \frac {v^2} r = g \implies v^2 = gr \implies v = \sqrt{gr}$$. Plug in the numbers: $$v = \sqrt{\frac {8.68096886} {1000} \cdot 6800} \approx 7.6831366\text{ km/s}$$. Therefore, the answer is 7.7 km/s.}} <!--SR:!2024-12-14,107,321!2024-11-30,89,301-->
 
 <!-- markdownlint MD028 -->
 
@@ -274,7 +274,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 5. 1 trillion years
 >
 > - solution: {{3}}
-> - explanation: {{Apply Albert Einstein's famous formula: $$E = mc^2$$. Calculate the total emitted energy over the Sun's lifetime: $$E = 2 \times 10^{30} \cdot 0.001 \cdot (3 \times 10^8)^2 = 1.8 \times 10^{44}\text{ J}$$. Then calculate the Sun's lifetime by dividing it by the power of the Sun: $$t = \frac {1.8 \times 10^{44} } {3.8 \times 10^{26} } \approx 4.73684211 \times 10^{17}\text{ s} \approx 1.5010468 \times 10^{10}\text{ yrs} \approx 15\text{ billion years}$$. Therefore, the answer is 10 billion years.}} <!--SR:!2025-01-02,126,321!2024-09-02,32,301-->
+> - explanation: {{Apply Albert Einstein's famous formula: $$E = mc^2$$. Calculate the total emitted energy over the Sun's lifetime: $$E = 2 \times 10^{30} \cdot 0.001 \cdot (3 \times 10^8)^2 = 1.8 \times 10^{44}\text{ J}$$. Then calculate the Sun's lifetime by dividing it by the power of the Sun: $$t = \frac {1.8 \times 10^{44} } {3.8 \times 10^{26} } \approx 4.73684211 \times 10^{17}\text{ s} \approx 1.5010468 \times 10^{10}\text{ yrs} \approx 15\text{ billion years}$$. Therefore, the answer is 10 billion years.}} <!--SR:!2025-01-02,126,321!2024-12-06,95,301-->
 
 ## 2024-07-16
 
@@ -575,7 +575,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 5. 27 Gpc
 >
 > - solution: {{4}}
-> - explanation: {{70% the speed of light (~300&nbsp;000 km/s) is approximately 210&nbsp;000 km/s. Divide this by the Hubble's constant: $$\frac {210\,000~\mathrm{km/s} } {64~\mathrm{(km/s)/Mpc} } = 3281.25~\mathrm{Mpc} = 3.28125~\mathrm{Gpc}$$. So the answer is 3.3 Gpc.}} <!--SR:!2024-09-11,20,355!2024-09-02,11,335-->
+> - explanation: {{70% the speed of light (~300&nbsp;000 km/s) is approximately 210&nbsp;000 km/s. Divide this by the Hubble's constant: $$\frac {210\,000~\mathrm{km/s} } {64~\mathrm{(km/s)/Mpc} } = 3281.25~\mathrm{Mpc} = 3.28125~\mathrm{Gpc}$$. So the answer is 3.3 Gpc.}} <!--SR:!2024-09-11,20,355!2024-10-10,38,335-->
 
 <!-- markdownlint MD028 -->
 

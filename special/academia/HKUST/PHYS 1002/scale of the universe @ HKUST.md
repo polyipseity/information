@@ -14,7 +14,7 @@ tags:
 # import ../../../../../tools/utility.py.md
 ```
 
-Since the [universe](../../../../general/universe.md) is {{so big, the scale of it is hard to comprehend}}. Instead, we can make a {{1:_X_ model, i.e. all lengths are reduced by a factor of _X_ billion}}. For example, the [Sun](../../../../general/Sun.md) has {{a radius of about 6.96 × 10<sup>8</sup> m}}. In the 1:10<sup>10</sup> scale model, its {{radius would be about 7 cm instead}}. <!--SR:!2024-09-07,55,310!2025-03-13,198,326!2024-12-28,123,298!2024-09-02,48,298-->
+Since the [universe](../../../../general/universe.md) is {{so big, the scale of it is hard to comprehend}}. Instead, we can make a {{1:_X_ model, i.e. all lengths are reduced by a factor of _X_ billion}}. For example, the [Sun](../../../../general/Sun.md) has {{a radius of about 6.96 × 10<sup>8</sup> m}}. In the 1:10<sup>10</sup> scale model, its {{radius would be about 7 cm instead}}. <!--SR:!2024-09-07,55,310!2025-03-13,198,326!2024-12-28,123,298!2025-01-22,142,298-->
 
 A scale model preserves {{all size ratios between different objects}}, while making the distance {{familiar to us}}. For example, also take {{[Earth](../../../../general/Earth.md)'s radius: 6.371 × 10<sup>6</sup> m}}. The ratio of {{Earth's radius over the Sun's radius}} is {{about 6.371 × 10<sup>6</sup> m / 6.963 × 10<sup>8</sup> m ≈ 0.00915}}. Such ratios are {{preserved in the scaled model}}. The ratios can also {{provide easier comparison}}. For instance, additionally take the ratio of [Jupiter](../../../../general/Jupiter.md) over the Sun's radius: {{0.100}}. Then we know {{Jupiter is about 0.100 / 0.00915 ≈ 10.9 times as large as Earth in radius}}. <!--SR:!2024-09-13,60,318!2024-09-24,65,310!2024-09-26,60,266!2024-10-08,79,330!2024-10-06,50,230!2024-09-10,58,318!2024-10-07,78,331!2025-01-07,130,290!2025-01-04,138,298-->
 
@@ -67,7 +67,7 @@ return await memorize_seq(
 - [Uranus](../../../../general/Uranus.md): radius of 0.25 cm, distance of 287 m→:::←[Neptune](../../../../general/Neptune.md): radius of 0.24 cm, distance of 449 m <!--SR:!2024-10-30,72,250!2024-09-08,34,230-->
 - [Neptune](../../../../general/Neptune.md): radius of 0.24 cm, distance of 449 m→:::←[Pluto](../../../../general/Pluto.md): radius of 0.01 cm, distance of 590 m <!--SR:!2024-10-12,44,226!2024-10-25,78,266-->
 - [Pluto](../../../../general/Pluto.md): radius of 0.01 cm, distance of 590 m→:::←[Alpha Centauri](../../../../general/Alpha%20Centauri.md): distance of 4400 km (4.4 ly; Kabul, Afghanistan or Siberia, Russia) <!--SR:!2024-10-01,61,250!2024-10-24,79,286-->
-- [Alpha Centauri](../../../../general/Alpha%20Centauri.md): distance of 4400 km (4.4 ly; Kabul, Afghanistan or Siberia, Russia)→:::←[Milky Way](../../../../general/Milky%20Way.md): radius of 0.5 AU (half of the unscaled distance between the Sun and Earth) <!--SR:!2024-11-03,92,298!2024-09-02,49,298-->
+- [Alpha Centauri](../../../../general/Alpha%20Centauri.md): distance of 4400 km (4.4 ly; Kabul, Afghanistan or Siberia, Russia)→:::←[Milky Way](../../../../general/Milky%20Way.md): radius of 0.5 AU (half of the unscaled distance between the Sun and Earth) <!--SR:!2024-11-03,92,298!2025-03-27,206,318-->
 - [Milky Way](../../../../general/Milky%20Way.md): radius of 0.5 AU (half of the unscaled distance between the Sun and Earth)→:::←_(end)_ <!--SR:!2024-09-14,62,318!2024-09-15,61,310-->
 
 <!--/pytextgen-->

@@ -20,7 +20,7 @@ Buildings can be {{categorized by height}}: {{single-storey, multi-storey with h
 
 The structural system of a building only {{consists of members designed to carry loads}}, and all others are {{non-structural}}. <!--SR:!2024-11-15,123,290!2025-04-17,259,335-->
 
-The structural system of a high-rise building should support {{vertical loads such as gravity and foundation settlement, and also lateral loads such as earthquake, wind}}. The latter, {{lateral loads, are especially important for tall buildings}}. Otherwise, tall buildings may {{slide (horizontal translation) or overturn (rotation about the base)}}. Generally the higher up, {{the larger the load}}. <!--SR:!2024-09-02,69,270!2024-11-26,131,295!2025-01-15,183,315!2025-03-04,204,310-->
+The structural system of a high-rise building should support {{vertical loads such as gravity and foundation settlement, and also lateral loads such as earthquake, wind}}. The latter, {{lateral loads, are especially important for tall buildings}}. Otherwise, tall buildings may {{slide (horizontal translation) or overturn (rotation about the base)}}. Generally the higher up, {{the larger the load}}. <!--SR:!2025-05-19,259,290!2024-11-26,131,295!2025-01-15,183,315!2025-03-04,204,310-->
 
 Hence, foundation-wise, low-rise buildings are {{supported by shallow foundations (footings)}}, while high-rise buildings are {{supported by deep foundations (pipes), which may even reach the bedrock}}. <!--SR:!2025-02-07,195,315!2024-11-21,126,295-->
 
@@ -64,7 +64,7 @@ The following interior structures are possible.
 <!--pytextgen generate section="ab92"--><!-- The following content is generated at 2024-05-14T21:11:05.318372+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←[braced frame](braced%20frame.md) <!--SR:!2024-10-03,61,270!2025-01-16,172,315-->
-- [braced frame](braced%20frame.md)→:::←[hinged frame](hinged%20frame.md) <!--SR:!2024-09-30,45,235!2024-09-02,13,195-->
+- [braced frame](braced%20frame.md)→:::←[hinged frame](hinged%20frame.md) <!--SR:!2024-09-30,45,235!2024-10-07,35,215-->
 - [hinged frame](hinged%20frame.md)→:::←[outrigger](#outrigger) <!--SR:!2024-09-05,7,150!2024-09-16,27,195-->
 - [outrigger](#outrigger)→:::←[rigid frame](rigid%20frame.md) <!--SR:!2024-09-29,87,275!2024-09-18,20,195-->
 - [rigid frame](rigid%20frame.md)→:::←[shear-walled frame](#sheared-walled%20frame): [rigid frame](rigid%20frame.md) + [shear wall](shear%20wall.md) <!--SR:!2024-12-09,126,255!2024-11-02,103,255-->

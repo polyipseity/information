@@ -76,7 +76,7 @@ value proposition canvas
 - competitor analysis→:::←customer discovery <!--SR:!2024-09-12,31,190!2025-05-01,245,270-->
 - customer discovery→:::←customer segmentation <!--SR:!2024-10-15,123,290!2024-10-16,129,290-->
 - customer segmentation→:::←customer validation <!--SR:!2025-04-06,220,270!2024-12-11,148,270-->
-- customer validation→:::←design thinking <!--SR:!2024-09-02,15,190!2024-09-03,88,270-->
+- customer validation→:::←design thinking <!--SR:!2024-10-01,29,190!2024-09-03,88,270-->
 - design thinking→:::←idea generation: Put oneself in customers' shoes. For example, examine old mousetraps and build a better one. <!--SR:!2024-10-13,52,170!2024-09-26,41,230-->
 - idea generation: Put oneself in customers' shoes. For example, examine old mousetraps and build a better one.→:::←product validation <!--SR:!2024-11-23,96,230!2024-10-18,57,210-->
 - product validation→:::←value proposition canvas <!--SR:!2024-10-07,50,170!2024-10-08,100,250-->
@@ -142,7 +142,7 @@ root cause analysis, 5 whys
 - PPTG: people, process, technology, governance framework→:::←blue ocean strategy <!--SR:!2024-12-27,137,301!2024-12-12,130,301-->
 - blue ocean strategy→:::←interview note-taking in an 1-page memo <!--SR:!2024-10-18,89,281!2024-09-30,53,221-->
 - interview note-taking in an 1-page memo→:::←profitability framework <!--SR:!2024-09-11,62,261!2024-11-22,90,221-->
-- profitability framework→:::←root cause analysis, 5 whys <!--SR:!2024-09-01,35,261!2024-09-27,62,241-->
+- profitability framework→:::←root cause analysis, 5 whys <!--SR:!2024-12-02,91,261!2024-09-27,62,241-->
 - root cause analysis, 5 whys→:::←_(end)_ <!--SR:!2025-03-25,220,321!2025-01-11,150,301-->
 
 <!--/pytextgen-->

@@ -216,7 +216,7 @@ The content is in teaching order.
   - cause mapping § arrow direction ::: cause to effect <!--SR:!2024-09-14,80,361!2024-09-17,83,361-->
   - cause mapping § evidences ::: below the cause, pink background <!--SR:!2024-10-16,92,321!2024-09-03,67,341-->
   - cause mapping § operators ::: AND, OR <!--SR:!2024-09-29,93,361!2024-09-07,74,361-->
-  - cause mapping § solutions ::: above the cause, green background <!--SR:!2025-06-10,285,361!2024-09-01,65,341-->
+  - cause mapping § solutions ::: above the cause, green background <!--SR:!2025-06-10,285,361!2025-07-05,306,361-->
   - cause mapping § symptom ::: red background <!--SR:!2024-09-22,87,361!2024-10-02,96,361-->
 - [5-step persuasive selling](../../../5-step%20persuasive%20selling.md)
   - [§ format](../../../5-step%20persuasive%20selling.md#format)

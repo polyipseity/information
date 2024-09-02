@@ -63,7 +63,7 @@ C$: [cost structure](#cost%20structure)
 - CS: [customer segments](#customer%20segments)→:::←VP: [value propositions](#value%20propositions) <!--SR:!2024-09-04,92,274!2024-09-03,57,277-->
 - VP: [value propositions](#value%20propositions)→:::←CH: [channels](#channels) <!--SR:!2024-11-18,146,294!2025-05-23,274,297-->
 - CH: [channels](#channels)→:::←CR: [customer relationships](#customer%20relationships) <!--SR:!2025-01-16,193,314!2025-02-24,242,334-->
-- CR: [customer relationships](#customer%20relationships)→:::←R$: [revenue streams](#revenue%20streams) <!--SR:!2024-09-14,39,254!2024-09-02,100,292-->
+- CR: [customer relationships](#customer%20relationships)→:::←R$: [revenue streams](#revenue%20streams) <!--SR:!2024-09-14,39,254!2025-06-17,288,292-->
 - R$: [revenue streams](#revenue%20streams)→:::←KR: [key resources](#key%20resources) <!--SR:!2024-10-20,115,257!2024-09-26,101,257-->
 - KR: [key resources](#key%20resources)→:::←KA: [key activities](#key%20activities) <!--SR:!2024-11-16,128,257!2025-03-14,218,274-->
 - KA: [key activities](#key%20activities)→:::←KP: [key partnerships](#key%20partnerships) <!--SR:!2024-12-02,139,257!2024-09-14,28,234-->
@@ -167,7 +167,7 @@ risk reduction
 - accessibility→:::←brand or status <!--SR:!2024-10-01,103,254!2025-02-15,196,274-->
 - brand or status→:::←convenience or usability <!--SR:!2024-09-10,29,214!2024-09-03,44,214-->
 - convenience or usability→:::←cost reduction <!--SR:!2024-10-11,108,254!2024-12-02,101,237-->
-- cost reduction→:::←customization <!--SR:!2025-05-10,254,274!2024-09-01,29,157-->
+- cost reduction→:::←customization <!--SR:!2025-05-10,254,274!2024-10-17,45,157-->
 - customization→:::←design <!--SR:!2024-09-20,39,257!2024-11-27,129,234-->
 - design→:::←newness <!--SR:!2024-09-10,89,257!2024-09-15,54,254-->
 - newness→:::←performance <!--SR:!2024-12-31,168,277!2024-09-26,99,257-->
@@ -266,7 +266,7 @@ subscription fee
 - _(begin)_→:::←advertising <!--SR:!2025-05-02,251,274!2025-02-25,224,317-->
 - advertising→:::←asset sale <!--SR:!2024-10-07,130,294!2024-11-28,167,317-->
 - asset sale→:::←brokerage fee <!--SR:!2024-12-04,152,274!2025-02-22,177,274-->
-- brokerage fee→:::←lending, renting, or leasing <!--SR:!2024-09-01,14,217!2024-10-31,121,254-->
+- brokerage fee→:::←lending, renting, or leasing <!--SR:!2024-10-01,29,217!2024-10-31,121,254-->
 - lending, renting, or leasing→:::←licensing <!--SR:!2025-04-03,223,257!2024-09-05,35,254-->
 - licensing→:::←usage fee <!--SR:!2025-03-07,207,274!2024-11-17,78,254-->
 - usage fee→:::←subscription fee <!--SR:!2024-10-16,111,254!2025-02-26,206,277-->

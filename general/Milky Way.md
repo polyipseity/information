@@ -17,7 +17,7 @@ The Milky Way is {{a [barred spiral galaxy](barred%20spiral%20galaxy.md)}} with 
 
 - see: [Local Group](Local%20Group.md)
 
-Current measurements suggest the [Andromeda Galaxy](Andromeda%20Galaxy.md) is {{approaching the Milky Way at 100 to 140 km/s (220&nbsp;000 to 310&nbsp;000 mph)}}. In {{4.3 billion years}}, there {{may be an [Andromeda–Milky Way collision](Andromeda–Milky%20Way%20collision.md), depending on the importance of unknown lateral components to the galaxies' relative motion}}. <!--SR:!2024-09-01,20,230!2024-09-03,47,290!2024-09-21,67,310-->
+Current measurements suggest the [Andromeda Galaxy](Andromeda%20Galaxy.md) is {{approaching the Milky Way at 100 to 140 km/s (220&nbsp;000 to 310&nbsp;000 mph)}}. In {{4.3 billion years}}, there {{may be an [Andromeda–Milky Way collision](Andromeda–Milky%20Way%20collision.md), depending on the importance of unknown lateral components to the galaxies' relative motion}}. <!--SR:!2024-10-19,47,230!2024-09-03,47,290!2024-09-21,67,310-->
 
 ## references
 
