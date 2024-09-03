@@ -159,7 +159,7 @@ mix: mixing products and services with pain relievers and gain creators
 - _(begin)_→:::←all: addressing all customer pains and gains <!--SR:!2024-10-06,108,269!2025-07-05,348,349-->
 - all: addressing all customer pains and gains→:::←irrelevance: listing all products and services without considering the customer segment <!--SR:!2024-12-30,140,229!2024-09-18,31,229-->
 - irrelevance: listing all products and services without considering the customer segment→:::←irrelevance: offer irrelevant pain relievers and gain creators <!--SR:!2024-11-17,76,209!2024-09-16,42,269-->
-- irrelevance: offer irrelevant pain relievers and gain creators→:::←mix: mixing products and services with pain relievers and gain creators <!--SR:!2024-09-03,12,209!2025-01-16,173,269-->
+- irrelevance: offer irrelevant pain relievers and gain creators→:::←mix: mixing products and services with pain relievers and gain creators <!--SR:!2024-09-27,24,209!2025-01-16,173,269-->
 - mix: mixing products and services with pain relievers and gain creators→:::←_(end)_ <!--SR:!2024-10-03,115,289!2024-09-15,34,169-->
 
 <!--/pytextgen-->

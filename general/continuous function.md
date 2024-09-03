@@ -131,7 +131,7 @@ Apart from basic arithmetic operations, the set of continuous functions is also 
 
 > [!info]- proof of the set of continuous functions being closed under function composition
 >
-> - proof of the set of continuous functions being closed under function composition / strategy ::: Chain the two inequalities together to produce the required inequality. <!--SR:!2024-09-04,4,330!2024-09-03,3,310-->
+> - proof of the set of continuous functions being closed under function composition / strategy ::: Chain the two inequalities together to produce the required inequality. <!--SR:!2024-09-04,4,330!2024-09-18,15,330-->
 >
 > Using the above definitions...
 >

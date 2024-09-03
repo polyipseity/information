@@ -23,7 +23,7 @@ double a_double(3.14);
 int an_int(int(a_double));
 ```
 
-The intuitive interpretation of line 2 is {{declaring a variable `an_int`, initializing it by converting `a_double` into an `int` first}}. However, since {{C allows superfluous parentheses around function parameter names, the above can also be interpreted as a function declaration, equivalent to}}: <!--SR:!2024-11-24,188,310!2024-09-03,118,290-->
+The intuitive interpretation of line 2 is {{declaring a variable `an_int`, initializing it by converting `a_double` into an `int` first}}. However, since {{C allows superfluous parentheses around function parameter names, the above can also be interpreted as a function declaration, equivalent to}}: <!--SR:!2024-11-24,188,310!2025-12-22,475,310-->
 
 ```C++
 int an_int(int a_double);

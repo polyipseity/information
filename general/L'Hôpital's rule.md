@@ -95,7 +95,7 @@ The following table lists out transformation from other [indeterminate forms](in
 
 <!--pytextgen generate section="dd11"--><!-- The following content is generated at 2024-01-04T20:17:52.125767+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←$\frac00$ <!--SR:!2024-10-28,256,330!2024-09-03,214,330-->
+- _(begin)_→:::←$\frac00$ <!--SR:!2024-10-28,256,330!2027-05-04,973,350-->
 - $\frac00$→:::←$\frac\infty\infty$ <!--SR:!2024-12-05,286,330!2024-10-07,239,330-->
 - $\frac\infty\infty$→:::←$0\cdot\infty$ <!--SR:!2025-08-28,445,310!2025-09-28,466,310-->
 - $0\cdot\infty$→:::←$\infty-\infty$ <!--SR:!2025-07-29,411,290!2024-09-23,212,310-->

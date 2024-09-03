@@ -17,7 +17,7 @@ tags:
 
 ### common commands
 
-- `apropos <topic>` ::: find information about topic <!--SR:!2024-09-04,4,270!2024-09-03,3,250-->
+- `apropos <topic>` ::: find information about topic <!--SR:!2024-09-04,4,270!2024-09-15,12,270-->
 - `backtrace` ::: print backtrace or call stack <!--SR:!2024-09-04,4,270!2024-09-04,4,270-->
 - `break <where>` ::: set a breakpoint <!--SR:!2024-09-04,4,270!2024-09-04,4,270-->
 - `continue` ::: continue program execution <!--SR:!2024-09-04,4,270!2024-09-04,4,270-->
@@ -25,13 +25,13 @@ tags:
 - `down` ::: move down the backtrace or call stack <!--SR:!2024-09-04,4,270!2024-09-04,4,270-->
 - `file <path>` ::: load binary file to debug <!--SR:!2024-09-04,4,270!2024-09-04,4,270-->
 - `finish` ::: run until the current function returns <!--SR:!2024-09-04,4,270!2024-09-04,4,270-->
-- `info breakpoints|regs|threads`::: list breakpoints, register values, or threads <!--SR:!2024-09-04,4,270!2024-09-03,3,250-->
-- `next` ::: go to the next (source) line <!--SR:!2024-09-04,4,270!2024-09-03,3,250-->
+- `info breakpoints|regs|threads`::: list breakpoints, register values, or threads <!--SR:!2024-09-04,4,270!2024-09-14,11,270-->
+- `next` ::: go to the next (source) line <!--SR:!2024-09-04,4,270!2024-09-15,12,270-->
 - `ni` ::: go to the next instruction <!--SR:!2024-09-04,4,270!2024-09-04,4,270-->
-- `print <expression>` ::: evaluate and print an expression <!--SR:!2024-09-03,3,250!2024-09-04,4,270-->
+- `print <expression>` ::: evaluate and print an expression <!--SR:!2024-09-16,13,270!2024-09-04,4,270-->
 - `run [<args>...]` ::: run program (with args) <!--SR:!2024-09-04,4,270!2024-09-04,4,270-->
 - `set args <args>...` ::: set program args <!--SR:!2024-09-04,4,270!2024-09-04,4,270-->
-- `si` ::: go to the next instruction stepping into functions <!--SR:!2024-09-04,4,270!2024-09-03,3,250-->
+- `si` ::: go to the next instruction stepping into functions <!--SR:!2024-09-04,4,270!2024-09-11,8,250-->
 - `starti [<args>...]` ::: start program and stop at its first instruction <!--SR:!2024-09-04,4,270!2024-09-04,4,270-->
 - `step` ::: go to the next (source) line stepping into functions <!--SR:!2024-09-04,4,270!2024-09-04,4,270-->
 - `up` ::: move up the backtrace or call stack <!--SR:!2024-09-04,4,270!2024-09-04,4,270-->

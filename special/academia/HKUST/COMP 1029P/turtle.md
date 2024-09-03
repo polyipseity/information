@@ -9,7 +9,7 @@ tags:
 
 # Python turtle
 
-Turtle graphics is about {{controlling a "turtle" using code and the "turtle" draws as it moves}}. To get started, run {{`import turtle`}}. <!--SR:!2024-09-03,148,310!2025-01-13,266,330-->
+Turtle graphics is about {{controlling a "turtle" using code and the "turtle" draws as it moves}}. To get started, run {{`import turtle`}}. <!--SR:!2026-05-30,634,330!2025-01-13,266,330-->
 
 ## functions
 

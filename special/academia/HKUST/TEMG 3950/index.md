@@ -98,7 +98,7 @@ The content is in teaching order.
 - jobs to be done theory history ::: Alex Osterwalder adopted the idea from Prof. Clayton Christensen of Harvard University. <!--SR:!2024-10-24,114,295!2024-12-09,147,315-->
 - [value proposition canvas](../../../value%20proposition%20canvas.md)
   - [§ customer profile](../../../value%20proposition%20canvas.md#customer%20profile)
-    - filling in a customer profile ::: customer segmentation, then empathy map, then customer profile <!--SR:!2024-09-03,78,295!2025-05-24,294,355-->
+    - filling in a customer profile ::: customer segmentation, then empathy map, then customer profile <!--SR:!2025-04-20,229,295!2025-05-24,294,355-->
   - [§ value map](../../../value%20proposition%20canvas.md#value%20map)
   - [§ fit](../../../value%20proposition%20canvas.md#fit)
 - [business model canvas](../../../business%20model%20canvas.md)
@@ -165,7 +165,7 @@ The content is in teaching order.
 - [consultant](../../../../general/consultant.md)
   - consultant job prospects
     - consultant after 1 to 2 years ::: Analyst, Associate, Specialist: doing the work; enter from BA, BS, MPhil, or MSc <!--SR:!2025-01-11,152,321!2025-03-17,200,341-->
-    - consultant after 2 to 4 years ::: As. Consultant, Consultant, Sr. Consultant: doing the work; enter from JD, MBA, MD, or PhD, exit to project member of big firms or manager in small firms, and further top MBA <!--SR:!2024-09-03,67,341!2024-12-30,144,321-->
+    - consultant after 2 to 4 years ::: As. Consultant, Consultant, Sr. Consultant: doing the work; enter from JD, MBA, MD, or PhD, exit to project member of big firms or manager in small firms, and further top MBA <!--SR:!2025-04-17,226,341!2024-12-30,144,321-->
     - consultant after 4 to 6 years ::: Eng. Manager, Mg. Consultant, Project Leader: managing the work; exit to manager of big firms or director of small firms, and further top EMBA <!--SR:!2024-09-21,44,281!2024-09-28,93,361-->
     - consultant after 6 to 9 years ::: As. Partner, Principal: selling the work; exit to director of big firms or general manager (GM) of small firms, and further top EMBA <!--SR:!2024-10-27,98,301!2025-01-04,149,321-->
     - consultant after 9 years or more ::: Director, Partner, VP: managing the business; exit to CEO or retire rich <!--SR:!2025-03-10,199,341!2024-09-24,89,361-->
@@ -214,7 +214,7 @@ The content is in teaching order.
 - cause mapping notation (at least for this course)
   - cause mapping + MECE dimensions ::: Choose a MECE framework. For one of the causes, split the further causes by MECE dimensions. Label the further causes by their corresponding dimensions. Explain why, if some dimensions are irrelevant and thus has no further causes. <!--SR:!2024-09-28,79,321!2024-09-07,71,341-->
   - cause mapping § arrow direction ::: cause to effect <!--SR:!2024-09-14,80,361!2024-09-17,83,361-->
-  - cause mapping § evidences ::: below the cause, pink background <!--SR:!2024-10-16,92,321!2024-09-03,67,341-->
+  - cause mapping § evidences ::: below the cause, pink background <!--SR:!2024-10-16,92,321!2025-07-13,313,361-->
   - cause mapping § operators ::: AND, OR <!--SR:!2024-09-29,93,361!2024-09-07,74,361-->
   - cause mapping § solutions ::: above the cause, green background <!--SR:!2025-06-10,285,361!2025-07-05,306,361-->
   - cause mapping § symptom ::: red background <!--SR:!2024-09-22,87,361!2024-10-02,96,361-->

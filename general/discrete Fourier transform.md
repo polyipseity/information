@@ -16,7 +16,7 @@ In [mathematics](mathematics.md), {{the __discrete Fourier transform__ (__DFT__)
 
 > [!tip] tips
 >
-> - interpretation of the DFT of a sequence ::: The modulus (length) of the complex number for each frequency is the amplitude (e.g. loudness) of that frequency. The argument (angle) of the complex number for each frequency is the phase (e.g. time offset) of that frequency. <!--SR:!2024-09-09,18,326!2024-09-03,12,306-->
+> - interpretation of the DFT of a sequence ::: The modulus (length) of the complex number for each frequency is the amplitude (e.g. loudness) of that frequency. The argument (angle) of the complex number for each frequency is the phase (e.g. time offset) of that frequency. <!--SR:!2024-09-09,18,326!2024-10-24,51,326-->
 
 ## definition
 
@@ -41,7 +41,7 @@ The inverse transform is given by:
 
 > {{__inverse discrete Fourier transform (Eq.2)__}}
 >
-> {{$$x_n = \frac 1 N \sum_{k = 0}^{N - 1} X_k \cdot e^{i 2\pi \frac k N n}$$}} <!--SR:!2024-09-03,17,250!2024-09-12,24,270-->
+> {{$$x_n = \frac 1 N \sum_{k = 0}^{N - 1} X_k \cdot e^{i 2\pi \frac k N n}$$}} <!--SR:!2024-11-03,61,270!2024-09-12,24,270-->
 
 __Eq.2__ is {{also $N$-periodic (in index $n$)}}. In __Eq.2__, each $X_k$ is {{a complex number whose polar coordinates are the amplitude and phase of a complex sinusoidal component $\left(e^{i 2\pi \frac k N n}\right)$ of function $x_n$}}. (see [discrete Fourier series](discrete%20Fourier%20series.md)) The sinusoid's [frequency](frequency.md) is {{$k$ cycles per $N$ samples}}. <!--SR:!2024-10-28,63,310!2024-10-04,42,290!2024-11-02,66,310-->
 
@@ -51,11 +51,11 @@ __Eq.2__ is {{also $N$-periodic (in index $n$)}}. In __Eq.2__, each $X_k$ is {{a
 
 ### linearity
 
-The DFT is {{a linear transform}}, i.e. if {{${\mathcal {F} }(\{x_{n}\})_{k}=X_{k}$ and ${\mathcal {F} }(\{y_{n}\})_{k}=Y_{k}$}}, then {{for any complex numbers $a,b$: $${\mathcal {F} }(\{ax_{n}+by_{n}\})_{k}=aX_{k}+bY_{k}$$}}. <!--SR:!2024-11-03,64,336!2024-11-15,74,336!2024-09-03,18,316-->
+The DFT is {{a linear transform}}, i.e. if {{${\mathcal {F} }(\{x_{n}\})_{k}=X_{k}$ and ${\mathcal {F} }(\{y_{n}\})_{k}=Y_{k}$}}, then {{for any complex numbers $a,b$: $${\mathcal {F} }(\{ax_{n}+by_{n}\})_{k}=aX_{k}+bY_{k}$$}}. <!--SR:!2024-11-03,64,336!2024-11-15,74,336!2024-11-17,75,336-->
 
 ### time and frequency reversal
 
-Reversing the time (i.e. {{replacing $n$ by $N-n$}}) in $x_{n}$ corresponds to {{reversing the frequency (i.e. $k$ by $N-k$)}}. Mathematically, if $\{x_{n}\}$ represents the vector __x__ then {{$${\mathcal {F} }(\{x_{n}\})_{k}=X_{k} \implies {\mathcal {F} }(\{x_{N-n}\})_{k}=X_{N-k}$$}}. <!--SR:!2024-10-21,53,316!2024-10-25,56,316!2024-09-03,18,316-->
+Reversing the time (i.e. {{replacing $n$ by $N-n$}}) in $x_{n}$ corresponds to {{reversing the frequency (i.e. $k$ by $N-k$)}}. Mathematically, if $\{x_{n}\}$ represents the vector __x__ then {{$${\mathcal {F} }(\{x_{n}\})_{k}=X_{k} \implies {\mathcal {F} }(\{x_{N-n}\})_{k}=X_{N-k}$$}}. <!--SR:!2024-10-21,53,316!2024-10-25,56,316!2024-11-23,81,336-->
 
 ### conjugation in time
 
@@ -73,7 +73,7 @@ This table shows {{some mathematical operations on $x_{n}$ in the time domain an
 | imaginary part in frequency | $${\frac {1}{2i} }\left(x_{n}-x_{N-n}^{*}\right)$$ | $$\operatorname {Im} {\left(X_{k}\right)}$$        |
 
 - real part in time ::: frequency: $$\frac 1 2 (X_k + X^*_{N - k})$$ <!--SR:!2024-10-24,55,316!2024-10-26,57,316-->
-- imaginary part in time ::: frequency: $$\frac 1 {2i} (X_k - X^*_{N - k})$$ <!--SR:!2024-09-12,19,276!2024-09-03,18,316-->
+- imaginary part in time ::: frequency: $$\frac 1 {2i} (X_k - X^*_{N - k})$$ <!--SR:!2024-09-12,19,276!2024-11-20,78,336-->
 - real part in frequency ::: time: $$\frac 1 2 (x_n + x^*_{N - n})$$ <!--SR:!2024-09-19,24,276!2024-11-08,69,336-->
 - imaginary part in frequency ::: time: $$\frac 1 {2i} (x_n - x^*_{N - n})$$ <!--SR:!2024-10-12,45,316!2024-10-30,61,336-->
 
@@ -95,11 +95,11 @@ Similarly, it can be {{shown that the IDFT formula leads to a periodic extension
 
 ### shift theorem
 
-Multiplying {{$x_{n}$ by a _linear phase_ $e^{ {\frac {i2\pi }{N} }nm}$ for some integer _m_}} corresponds to {{a _circular shift_ of the output $X_{k}$: $X_{k}$ is replaced by $X_{k-m}$ (shifted to the right, with warping, by _m_)}}, where {{the subscript is interpreted [modulo](modular%20arithmetic.md) _N_ (i.e., periodically)}}. Similarly, {{a circular shift of the input $x_{n}$ (e.g. shifted to the right, with warping, by _m_) corresponds to multiplying the output $X_{k}$ by a linear phase (with an opposite exponent sign, e.g. $e^{-\frac {i 2\pi} N km}$)}}. Mathematically, if $\{x_{n}\}$ represents the vector __x__ then {{$$\begin{aligned} {\mathcal {F} }(\{x_{n}\})_{k}=X_{k} & \implies {\mathcal {F} }\left(\left\{x_{n}\cdot e^{ {\frac {i2\pi }{N} }nm}\right\}\right)_{k}=X_{k-m} \\ \cdots & \implies {\mathcal {F} }\left(\left\{x_{n-m}\right\}\right)_{k}=X_{k}\cdot e^{-{\frac {i2\pi }{N} }km} \end{aligned}$$}}. <!--SR:!2024-10-14,47,316!2024-09-19,24,276!2024-09-03,18,316!2024-09-22,27,276!2024-09-21,26,276-->
+Multiplying {{$x_{n}$ by a _linear phase_ $e^{ {\frac {i2\pi }{N} }nm}$ for some integer _m_}} corresponds to {{a _circular shift_ of the output $X_{k}$: $X_{k}$ is replaced by $X_{k-m}$ (shifted to the right, with warping, by _m_)}}, where {{the subscript is interpreted [modulo](modular%20arithmetic.md) _N_ (i.e., periodically)}}. Similarly, {{a circular shift of the input $x_{n}$ (e.g. shifted to the right, with warping, by _m_) corresponds to multiplying the output $X_{k}$ by a linear phase (with an opposite exponent sign, e.g. $e^{-\frac {i 2\pi} N km}$)}}. Mathematically, if $\{x_{n}\}$ represents the vector __x__ then {{$$\begin{aligned} {\mathcal {F} }(\{x_{n}\})_{k}=X_{k} & \implies {\mathcal {F} }\left(\left\{x_{n}\cdot e^{ {\frac {i2\pi }{N} }nm}\right\}\right)_{k}=X_{k-m} \\ \cdots & \implies {\mathcal {F} }\left(\left\{x_{n-m}\right\}\right)_{k}=X_{k}\cdot e^{-{\frac {i2\pi }{N} }km} \end{aligned}$$}}. <!--SR:!2024-10-14,47,316!2024-09-19,24,276!2024-10-29,56,316!2024-09-22,27,276!2024-09-21,26,276-->
 
 > [!tip] tips
 >
-> - interpretation of the shift theorem ::: The Fourier shift theorem from the time domain to the frequency domain has an intuitive interpretation. Interpret the argument (angle) of the complex number for each frequency as its time offset. Shifting a signal to the right (with warping) in the time domain increases the time offset for all frequencies. This means the complex number for each frequency is multiplied (rotated) by $e^{-\frac {i 2\pi} N km}$, changing its argument (angle) while keeping its modulus (length) unchanged. This corresponds to shifting its corresponding complex sinusoid in the time domain to the right (with warping). <!--SR:!2024-09-24,24,287!2024-09-03,12,307-->
+> - interpretation of the shift theorem ::: The Fourier shift theorem from the time domain to the frequency domain has an intuitive interpretation. Interpret the argument (angle) of the complex number for each frequency as its time offset. Shifting a signal to the right (with warping) in the time domain increases the time offset for all frequencies. This means the complex number for each frequency is multiplied (rotated) by $e^{-\frac {i 2\pi} N km}$, changing its argument (angle) while keeping its modulus (length) unchanged. This corresponds to shifting its corresponding complex sinusoid in the time domain to the right (with warping). <!--SR:!2024-09-24,24,287!2024-10-25,52,327-->
 
 ### circular convolution theorem
 
@@ -120,7 +120,7 @@ In practice, {{the $x$ sequence is usually length _N_ or less}}, and $y_{_{N} }$
 
 ### cross-correlation theorem
 
-Similar to above, by {{applying the [circular convolution theorem](#ciruclar%20convolution%20theorem)}}, {{the [cross-correlation](cross-correlation.md) of $x$ and $y_{_{N} }$}} is given by: {{$$(x\star y_{_{N} })_{n}\triangleq \sum _{\ell =-\infty }^{\infty }x_{\ell }^{*}\cdot (y_{_{N} })_{n+\ell } = \sum_{\ell =-\infty }^{\infty} x_{-\ell }^{*} \cdot (y_{_N })_{n-\ell} = (x^*_{-n} * y_{_N })_n ={\mathcal {F} }^{-1}\left\{X^{*}\cdot Y\right\}_{n}$$}}, considering that {{the DFT of $\{x^*_{-n} \}$ is $X^*$ by [time and frequency reversal](#time%20and%20frequency%20reversal), and [conjugation in time](#conjugation%20in%20time)}}. <!--SR:!2024-10-05,33,307!2024-09-03,11,307!2024-09-10,18,327!2024-09-11,16,332-->
+Similar to above, by {{applying the [circular convolution theorem](#ciruclar%20convolution%20theorem)}}, {{the [cross-correlation](cross-correlation.md) of $x$ and $y_{_{N} }$}} is given by: {{$$(x\star y_{_{N} })_{n}\triangleq \sum _{\ell =-\infty }^{\infty }x_{\ell }^{*}\cdot (y_{_{N} })_{n+\ell } = \sum_{\ell =-\infty }^{\infty} x_{-\ell }^{*} \cdot (y_{_N })_{n-\ell} = (x^*_{-n} * y_{_N })_n ={\mathcal {F} }^{-1}\left\{X^{*}\cdot Y\right\}_{n}$$}}, considering that {{the DFT of $\{x^*_{-n} \}$ is $X^*$ by [time and frequency reversal](#time%20and%20frequency%20reversal), and [conjugation in time](#conjugation%20in%20time)}}. <!--SR:!2024-10-05,33,307!2024-10-20,47,327!2024-09-10,18,327!2024-09-11,16,332-->
 
 ### uniqueness of the discrete Fourier transform
 
@@ -142,7 +142,7 @@ Second, one can also {{conjugate the inputs and outputs}}: {{$$\mathcal F^{-1}(\
 
 Third, {{a variant of this conjugation trick}}, which is {{sometimes preferable because it requires no modification of the data values}}, involves {{swapping real and imaginary parts (which can be done on a computer simply by modifying [pointers](pointer%20(computer%20programming).md))}}. Define {{$\operatorname {swap} (x_{n})$ as $x_{n}$ with its real and imaginary parts swapped—that is, if $x_{n}=a+bi$ then $\operatorname {swap} (x_{n})$ is $b+ai$}}. Equivalently, {{$\operatorname {swap} (x_{n})$ equals $ix_{n}^{*}$}}. Then {{$${\mathcal {F} }^{-1}(\mathbf {x} )={\frac {1}{N} }\operatorname {swap} ({\mathcal {F} }(\operatorname {swap} (\mathbf {x} )))$$}}. That is, the inverse transform is {{the same as the forward transform with the real and imaginary parts swapped for both input and output, up to a normalization (Duhamel _et al._, 1988)}}. <!--SR:!2024-10-13,51,310!2024-11-05,69,310!2024-10-07,46,290!2024-09-30,39,290!2024-10-25,58,310!2024-11-03,66,310!2024-09-22,31,270-->
 
-The conjugation trick can also be used to {{define a new transform, closely related to the DFT, that is [involutory](involution%20(mathematics).md)—that is, which is its own inverse}}. In particular, {{$T(\mathbf {x} )={\mathcal {F} }\left(\mathbf {x} ^{*}\right)/{\sqrt {N} }$ is clearly its own inverse: $T(T(\mathbf {x} ))=\mathbf {x}$}}. A closely related involutory transformation {{(by a factor of $\frac {1+i}{\sqrt {2} }$) is $H(\mathbf {x} )={\mathcal {F} }\left((1+i)\mathbf {x} ^{*}\right)/{\sqrt {2N} }$}}, since {{the $(1+i)$ factors in $H(H(\mathbf {x} ))$ cancel the 2}}. For {{real inputs $\mathbf {x}$}}, {{the real part of $H(\mathbf {x} )$ is none other than the [discrete Hartley transform](discrete%20Hartley%20transform.md), which is also involutory}}. <!--SR:!2024-09-21,30,270!2024-10-07,37,250!2024-09-15,28,270!2024-09-24,33,290!2024-09-26,31,250!2024-09-03,16,250-->
+The conjugation trick can also be used to {{define a new transform, closely related to the DFT, that is [involutory](involution%20(mathematics).md)—that is, which is its own inverse}}. In particular, {{$T(\mathbf {x} )={\mathcal {F} }\left(\mathbf {x} ^{*}\right)/{\sqrt {N} }$ is clearly its own inverse: $T(T(\mathbf {x} ))=\mathbf {x}$}}. A closely related involutory transformation {{(by a factor of $\frac {1+i}{\sqrt {2} }$) is $H(\mathbf {x} )={\mathcal {F} }\left((1+i)\mathbf {x} ^{*}\right)/{\sqrt {2N} }$}}, since {{the $(1+i)$ factors in $H(H(\mathbf {x} ))$ cancel the 2}}. For {{real inputs $\mathbf {x}$}}, {{the real part of $H(\mathbf {x} )$ is none other than the [discrete Hartley transform](discrete%20Hartley%20transform.md), which is also involutory}}. <!--SR:!2024-09-21,30,270!2024-10-07,37,250!2024-09-15,28,270!2024-09-24,33,290!2024-09-26,31,250!2024-10-14,41,250-->
 
 ### DFT of real and purely imaginary signals
 

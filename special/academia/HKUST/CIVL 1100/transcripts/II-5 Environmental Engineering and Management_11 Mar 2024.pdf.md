@@ -61,7 +61,7 @@ return await memorize_seq(
 
 - _(begin)_→:::←air pollution <!--SR:!2025-01-11,166,310!2025-03-07,222,330-->
 - air pollution→:::←land contamination <!--SR:!2024-09-23,82,270!2025-04-15,255,330-->
-- land contamination→:::←noise pollution <!--SR:!2024-09-19,53,270!2024-09-03,68,270-->
+- land contamination→:::←noise pollution <!--SR:!2024-09-19,53,270!2025-05-16,255,290-->
 - noise pollution→:::←solid waste disposal <!--SR:!2024-09-16,76,270!2024-11-18,126,290-->
 - solid waste disposal→:::←water pollution <!--SR:!2024-12-15,140,290!2024-10-05,35,190-->
 - water pollution→:::←_(end)_ <!--SR:!2024-12-20,145,310!2025-01-11,174,310-->
@@ -216,7 +216,7 @@ MSW Waste Charging Scheme
 
 - MSW waste charging scheme passing date ::: 2021-09-26 by Legco <!--SR:!2024-11-23,112,250!2024-09-14,77,270-->
   - MSW waste charging scheme preparation period ::: 18 months <!--SR:!2025-03-03,203,310!2024-11-24,140,310-->
-  - MSW waste charging scheme details ::: buy designated bags (0.11 HKD/L) at ~4000 selling points <!--SR:!2024-09-03,67,270!2025-04-05,245,330-->
+  - MSW waste charging scheme details ::: buy designated bags (0.11 HKD/L) at ~4000 selling points <!--SR:!2025-03-02,180,270!2025-04-05,245,330-->
   - MSW waste charging scheme penalty ::: max HK$25&nbsp;000 fine and 6 months in prison <!--SR:!2024-11-19,82,290!2025-01-26,187,310-->
 
 Will this waste charging scheme waste generation?

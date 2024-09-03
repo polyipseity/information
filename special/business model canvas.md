@@ -60,7 +60,7 @@ C$: [cost structure](#cost%20structure)
 <!--pytextgen generate section="e441"--><!-- The following content is generated at 2024-03-22T20:40:48.930507+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←CS: [customer segments](#customer%20segments) <!--SR:!2024-09-08,105,297!2025-03-04,249,337-->
-- CS: [customer segments](#customer%20segments)→:::←VP: [value propositions](#value%20propositions) <!--SR:!2024-09-04,92,274!2024-09-03,57,277-->
+- CS: [customer segments](#customer%20segments)→:::←VP: [value propositions](#value%20propositions) <!--SR:!2024-09-04,92,274!2024-10-02,29,257-->
 - VP: [value propositions](#value%20propositions)→:::←CH: [channels](#channels) <!--SR:!2024-11-18,146,294!2025-05-23,274,297-->
 - CH: [channels](#channels)→:::←CR: [customer relationships](#customer%20relationships) <!--SR:!2025-01-16,193,314!2025-02-24,242,334-->
 - CR: [customer relationships](#customer%20relationships)→:::←R$: [revenue streams](#revenue%20streams) <!--SR:!2024-09-14,39,254!2025-06-17,288,292-->
@@ -165,13 +165,13 @@ risk reduction
 
 - _(begin)_→:::←accessibility <!--SR:!2024-09-07,100,277!2025-04-18,281,334-->
 - accessibility→:::←brand or status <!--SR:!2024-10-01,103,254!2025-02-15,196,274-->
-- brand or status→:::←convenience or usability <!--SR:!2024-09-10,29,214!2024-09-03,44,214-->
+- brand or status→:::←convenience or usability <!--SR:!2024-09-10,29,214!2024-12-05,93,214-->
 - convenience or usability→:::←cost reduction <!--SR:!2024-10-11,108,254!2024-12-02,101,237-->
 - cost reduction→:::←customization <!--SR:!2025-05-10,254,274!2024-10-17,45,157-->
 - customization→:::←design <!--SR:!2024-09-20,39,257!2024-11-27,129,234-->
 - design→:::←newness <!--SR:!2024-09-10,89,257!2024-09-15,54,254-->
 - newness→:::←performance <!--SR:!2024-12-31,168,277!2024-09-26,99,257-->
-- performance→:::←performing the job well <!--SR:!2024-10-23,129,297!2024-09-03,92,274-->
+- performance→:::←performing the job well <!--SR:!2024-10-23,129,297!2025-08-20,351,294-->
 - performing the job well→:::←price <!--SR:!2024-10-20,139,294!2024-12-24,166,274-->
 - price→:::←risk reduction <!--SR:!2025-02-24,204,274!2025-03-28,228,274-->
 - risk reduction→:::←_(end)_ <!--SR:!2024-10-03,123,297!2024-12-01,138,257-->
@@ -284,7 +284,7 @@ The key activities building block shows {{important activities required for the 
 
 #### key partnerships
 
-The key partnerships building block shows {{important suppliers and networks required for the business model}}. They can be categorized into {{buyer–seller relationships, coopetitions, joint ventures, and strategic alliances between non-competitors}}. Partnerships can {{acquire particular activities and resources, optimize for economy of scale, and reduce risk and uncertainty}}. <!--SR:!2024-11-21,149,274!2024-09-03,31,217!2025-02-05,170,237-->
+The key partnerships building block shows {{important suppliers and networks required for the business model}}. They can be categorized into {{buyer–seller relationships, coopetitions, joint ventures, and strategic alliances between non-competitors}}. Partnerships can {{acquire particular activities and resources, optimize for economy of scale, and reduce risk and uncertainty}}. <!--SR:!2024-11-21,149,274!2024-11-09,67,217!2025-02-05,170,237-->
 
 #### cost structure
 

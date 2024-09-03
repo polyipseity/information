@@ -34,7 +34,7 @@ Psychographic segmentation divides the market by {{interests, lifestyles, motive
 
 #### behavioral segmentation
 
-Behavioral segmentation divides the market by {{individual purchase behaviors}}. <!--SR:!2024-09-03,112,290-->
+Behavioral segmentation divides the market by {{individual purchase behaviors}}. <!--SR:!2025-11-27,450,310-->
 
 #### product-specific segmentation
 
