@@ -126,6 +126,6 @@ Below are common data types:
 - `int` :: An integer. Example: `42`.
 - `str` :: A piece of text. Example: `"Hello"`.
 
-Some interesting facts about `float`s:  `print` {{always output at least 1 decimal place for `float`s, and outputs at most as many digits as needed to represent the number exactly}}. `1` {{is an `int` while `1.` and `1.0` are `float` representing the same value `1`}}.
+Some interesting facts about `float`s:  `print` {{always output at least 1 decimal place for `float`s, and outputs at most as many digits as needed to represent the number exactly}}. `1` {{is an `int` while `1.` and `1.0` are `float`s representing the same value `1`}}.
 
 To get the type of a value, {{use `type(<any>)`, which will return the type of `<any>`}}. Note that the return type is {{a special type called classes, which we will not go into detail here}}. On Jupyter, {{without using `print` (i.e. placing `type(<any>)` as the last expression), it will simply print out the type name, e.g. `float`, `int`, etc.}}. In most other situations, including {{evaluating `type(<any>)` in your local Python installation instead of Jupyter}}, it will {{print out `<class '<type>'>`, with `<type>` replaced by the type name, e.g. `<class 'float'>`, `<class 'int'>`, etc.}}
