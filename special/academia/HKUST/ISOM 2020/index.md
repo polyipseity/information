@@ -28,11 +28,11 @@ The content is in teaching order.
 - time: 2024-09-01+08:00
 - [basics](basics.md)
   - [§ arithmetic operators](basics.md#arithmetic%20operators)
-    - [basics § arithmetic operators](basics.md#arithmetic%20operators) / note ::: They really like testing you on the return type of operators... for a somewhat obvious reason.
+    - [basics § arithmetic operators](basics.md#arithmetic%20operators) / note ::: They really like testing you on the return type of operators... for a somewhat obvious reason. <!--SR:!2024-09-07,4,278!2024-09-07,4,270-->
   - [§ mathematics](basics.md#mathematics)
   - [§ output](basics.md#output)
-    - [basics § output](basics.md#output) / note ::: They teach `'''` but not `"""` for some reason...
+    - [basics § output](basics.md#output) / note ::: They teach `'''` but not `"""` for some reason... <!--SR:!2024-09-07,4,272!2024-09-06,3,250-->
   - [§ variable](basics.md#variable)
-    - [basics § variable](basics.md#variable) / note ::: In a quiz question, they use the word "save", which means storing a value to a variable.
+    - [basics § variable](basics.md#variable) / note ::: In a quiz question, they use the word "save", which means storing a value to a variable. <!--SR:!2024-09-07,4,272!2024-09-07,4,272-->
   - [§ data types](basics.md#data%20types)
-    - [basics § data types](basics.md#data%20types) / note ::: They have not taught `None` and `NoneType` up to this point.
+    - [basics § data types](basics.md#data%20types) / note ::: They have not taught `None` and `NoneType` up to this point. <!--SR:!2024-09-06,3,252!2024-09-07,4,272-->
