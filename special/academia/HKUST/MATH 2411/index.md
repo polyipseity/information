@@ -128,7 +128,7 @@ The content is in teaching order.
     - box plot / outliers ::: They $x$ are points that are $x \le Q_1 - 1.5 \cdot \text{IQR}$ or $x \ge Q_3 + 1.5 \cdot \text{IQR}$. Usually they are far away from the majority of the data and are _likely_ produced by measurement errors. Assuming a normal distribution, outliers are expected to appear rarely (~0.007).
     - box plot / _R_ ::: use `boxplot(...)`
   - sample size / _R_ ::: use `length(...)`
-  - first _n_ observations / _R_ ::: use `head(...)
+  - first _n_ observations / _R_ ::: use `head(...)`
   - scatter plot ::: Plots data that comes as pairs. Good for visualizing relationship between two variables (e.g. regression).
     - scatter plot / _R_ ::: use `plot(...)`
   - frequency table (categorical) ::: Categorical data is already pre-grouped. Then a _summary table_ is drawn based on the categories. This condenses the data and allows for quicker data interpretation.
