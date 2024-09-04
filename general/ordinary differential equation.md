@@ -54,7 +54,7 @@ Ordinary differential equations are furthered classified:
 - [autonomous](#^autonomous)→:::←[homogeneous](#^homogeneous) <!--SR:!2025-11-02,526,310!2024-10-21,293,330-->
 - [homogeneous](#^homogeneous)→:::←[linear](#^linear) <!--SR:!2024-09-21,269,330!2025-03-17,228,290-->
 - [linear](#^linear)→:::←[nonhomogeneous](#^nonhomogeneous)/inhomogeneous <!--SR:!2026-07-30,742,330!2027-01-16,900,330-->
-- [nonhomogeneous](#^nonhomogeneous)/inhomogeneous→:::←[nonlinear](#^nonlinear) <!--SR:!2024-09-16,265,330!2024-09-04,255,330-->
+- [nonhomogeneous](#^nonhomogeneous)/inhomogeneous→:::←[nonlinear](#^nonlinear) <!--SR:!2024-09-16,265,330!2027-11-07,1159,350-->
 - [nonlinear](#^nonlinear)→:::←_(end)_ <!--SR:!2026-05-24,728,330!2026-04-18,698,330-->
 
 <!--/pytextgen-->

@@ -106,7 +106,7 @@ return _chain.from_iterable(await _gather(
 - [jet fuel](jet%20fuel.md)::150 to 205 °C <!--SR:!2024-09-24,29,130-->
 - [kerosene](kerosene.md)::205 to 260 °C <!--SR:!2024-10-20,55,130-->
 - [fuel oil](fuel%20oil.md)::205 to 290 °C <!--SR:!2024-09-10,8,130-->
-- [diesel fuel](diesel%20fuel.md)::260 to 315 °C <!--SR:!2024-09-04,6,130-->
+- [diesel fuel](diesel%20fuel.md)::260 to 315 °C <!--SR:!2024-09-11,7,130-->
 - [paraffin wax](paraffin%20wax.md)::370 °C or above <!--SR:!2024-10-12,55,174-->
 - [bitumen](bitumen.md)::500 °C or above <!--SR:!2025-01-06,205,294-->
 

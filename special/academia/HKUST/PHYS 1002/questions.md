@@ -17,7 +17,7 @@ tags:
 
 - HKUST PHYS 1002
 
-The parenthesized text at the beginning of of each question is {{the location the question appears in}}. Questions beginning with `(derived)` are {{derived from other questions and only appear here}}. <!--SR:!2024-09-04,51,297!2025-03-16,198,317-->
+The parenthesized text at the beginning of of each question is {{the location the question appears in}}. Questions beginning with `(derived)` are {{derived from other questions and only appear here}}. <!--SR:!2025-04-01,209,317!2025-03-16,198,317-->
 
 Marking is done as follows. iPRS and MCQ questions are considered separately. For each type of questions, the best 80% are counted. Then the percentage is linearly scaled onto a 10-mark scale for iPRS and 15-mark scale for MCQ.
 
@@ -235,7 +235,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 5. 11 km/s
 >
 > - solution: {{3}}
-> - explanation: {{Equate circular acceleration to gravitational acceleration: $$a = g \implies \frac {v^2} r = g \implies v^2 = gr \implies v = \sqrt{gr}$$. Plug in the numbers: $$v = \sqrt{\frac {9.8} {1000} \cdot 6400} = \sqrt{62.72} \approx 7.91959595\text{ km/s}$$. Therefore, the answer is 7.9 km/s.}} <!--SR:!2024-10-19,66,301!2024-09-04,36,301-->
+> - explanation: {{Equate circular acceleration to gravitational acceleration: $$a = g \implies \frac {v^2} r = g \implies v^2 = gr \implies v = \sqrt{gr}$$. Plug in the numbers: $$v = \sqrt{\frac {9.8} {1000} \cdot 6400} = \sqrt{62.72} \approx 7.91959595\text{ km/s}$$. Therefore, the answer is 7.9 km/s.}} <!--SR:!2024-10-19,66,301!2025-01-31,149,321-->
 
 <!-- markdownlint MD028 -->
 
@@ -549,7 +549,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 4. (1) and (3)
 > 5. (2) and (3)
 >
-> - solution: {{5}} <!--SR:!2024-09-04,13,335-->
+> - solution: {{5}} <!--SR:!2024-11-02,59,355-->
 
 <!-- markdownlint MD028 -->
 

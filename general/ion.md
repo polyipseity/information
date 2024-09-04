@@ -342,7 +342,7 @@ return chain.from_iterable(await gather(
 - mercury(II) ion::_(n/a)_ <!--SR:!2028-01-30,1312,276-->
 - cobalt(II) ion::<span style="color: pink;">pink</span> <!--SR:!2027-03-09,1101,239-->
 - aluminium ion::colorless <!--SR:!2031-11-29,2704,334-->
-- iron(III) ion::<span style="color: yellow; background-color: black;">yellow</span> (dilute), <span style="color: brown; background-color: white;">brown</span> (concentrated) <!--SR:!2024-09-04,414,190-->
+- iron(III) ion::<span style="color: yellow; background-color: black;">yellow</span> (dilute), <span style="color: brown; background-color: white;">brown</span> (concentrated) <!--SR:!2026-10-30,786,190-->
 - chromium(III) ion::<span style="color: green;">green</span> <!--SR:!2027-08-09,1347,258-->
 - scandium(III) ion::colorless <!--SR:!2024-10-05,58,262-->
 - titanium(III) ion::<span style="color: purple; background-color: white;">purple</span> <!--SR:!2024-10-11,66,150-->

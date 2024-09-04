@@ -39,7 +39,7 @@ There are {{2 variants of the algorithm}}: {{async iteration and sync iteration}
 4. __normalization__ ::: Optionally, normalize the values for convergence. Treat the authority values and hub values of all nodes as 2 vectors. Normalize their lengths ([norms](norm%20(mathematics).md)) to either 1 or the number of nodes. One could use the [taxicab norm](norm%20(mathematics).md#taxicab%20norm%20or%20Manhattan%20norm) (_p_ = 1), the conventional [Euclidean norm](norm%20(mathematics).md#Euclidean%20norm) (_p_ = 2), or the very general [_p_-norm](norm%20(mathematics).md#_p_-norm). <!--SR:!2024-09-28,76,294!2025-04-03,223,334-->
 5. __repeat__ ::: Repeat from the 2nd step as necessary. <!--SR:!2025-04-27,241,334!2025-05-16,259,334-->
 
-Finally, after {{the values have converged or after a predetermined number of iterations}}, the authority values and hub values are {{used for ranking}}. Note that HITS {{does not specify how the values are used}}. Possible ways to use the values are {{rank in descending authority value only, rank in descending hub value only, or rank in descending sum of authority value and hub value, etc.}} {{This rather arbitrary usage of authority and hub values}} is one of the disadvantages of HITS, which is resolved by {{[PageRank](PageRank.md)}}. <!--SR:!2024-09-09,66,314!2025-01-27,172,314!2025-04-04,224,334!2024-09-10,67,314!2024-09-06,65,314!2024-09-04,63,314-->
+Finally, after {{the values have converged or after a predetermined number of iterations}}, the authority values and hub values are {{used for ranking}}. Note that HITS {{does not specify how the values are used}}. Possible ways to use the values are {{rank in descending authority value only, rank in descending hub value only, or rank in descending sum of authority value and hub value, etc.}} {{This rather arbitrary usage of authority and hub values}} is one of the disadvantages of HITS, which is resolved by {{[PageRank](PageRank.md)}}. <!--SR:!2024-09-09,66,314!2025-01-27,172,314!2025-04-04,224,334!2024-09-10,67,314!2024-09-06,65,314!2025-06-04,273,334-->
 
 ## in detail
 
@@ -51,7 +51,7 @@ Let $k$ be {{the current number of iterations}}, and $\mathbf{A}_k$ and $\mathbf
 
 ### authority update rule
 
-For each $p$, we {{update $a(p)$ to $a(p) = \sum_{q \in p_{\text{to} } } h(q)$ where $p_{\text{to} }$ are all pages linking to $p$}}. That is, a page's authority value is {{the sum of the hub values of nodes pointing to it}}. This can also be expressed {{using [matrix multiplication](matrix%20multiplication.md)}}: {{$\mathbf{A}_k \gets \mathbf{M}^\intercal \mathbf{H}_{k - 1}$}}. <!--SR:!2025-03-11,205,314!2025-01-25,156,310!2024-09-04,62,314!2025-02-15,185,314-->
+For each $p$, we {{update $a(p)$ to $a(p) = \sum_{q \in p_{\text{to} } } h(q)$ where $p_{\text{to} }$ are all pages linking to $p$}}. That is, a page's authority value is {{the sum of the hub values of nodes pointing to it}}. This can also be expressed {{using [matrix multiplication](matrix%20multiplication.md)}}: {{$\mathbf{A}_k \gets \mathbf{M}^\intercal \mathbf{H}_{k - 1}$}}. <!--SR:!2025-03-11,205,314!2025-01-25,156,310!2025-05-29,267,334!2025-02-15,185,314-->
 
 Consider the authority vector after several updates (without normalization):
 

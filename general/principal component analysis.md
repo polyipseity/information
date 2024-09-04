@@ -29,7 +29,7 @@ PCA can be thought of {{fitting an (hyper)[ellipsoid](ellipsoid.md) (a (hyper)[s
 
 The following is a detailed description of PCA using {{the covariance method as opposed to the correlation method}}. <!--SR:!2025-01-11,152,310-->
 
-The goal is to {{transform a given data set __X__ of dimension _p_ to another data set __Y__ of dimension _l_, where $p \ge l$}}. Equivalently, matrix __Y__ is {{the [Karhunen–Loève transform](Kosambi–Karhunen–Loève%20theorem.md) (KLT) of matrix __X__}}: {{$$\mathbf{Y} = \mathbb{KLT}\{\mathbf{X}\}$$}} <!--SR:!2024-12-24,130,290!2024-09-09,67,310!2024-09-04,63,310-->
+The goal is to {{transform a given data set __X__ of dimension _p_ to another data set __Y__ of dimension _l_, where $p \ge l$}}. Equivalently, matrix __Y__ is {{the [Karhunen–Loève transform](Kosambi–Karhunen–Loève%20theorem.md) (KLT) of matrix __X__}}: {{$$\mathbf{Y} = \mathbb{KLT}\{\mathbf{X}\}$$}} <!--SR:!2024-12-24,130,290!2024-09-09,67,310!2025-05-29,267,330-->
 
 ```Python
 # pytextgen generate data

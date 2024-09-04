@@ -45,7 +45,7 @@ Principles of ethical hacking include {{complying with laws, seeking approval, a
 
 For example:
 
-- after hacking ::: Cleanup all traces of hacking so that other malicious hackers cannot identify the vulnerabilities easily. <!--SR:!2024-09-04,4,270!2024-09-04,4,270-->
-- anomalies found ::: Report all found security breaches and vulnerabilities to the system administrators. <!--SR:!2024-09-04,4,270!2024-09-04,4,270-->
-- before hacking ::: Seek authorization and approval from the system administrators, and state the scope of your assessment and your plan clearly to them. <!--SR:!2024-09-04,4,270!2024-09-04,4,270-->
-- confidentiality ::: Keep all learnt vulnerabilities confidential and do not utilize them detrimentally to the system owners. <!--SR:!2024-09-04,4,270!2024-09-04,4,270-->
+- after hacking ::: Cleanup all traces of hacking so that other malicious hackers cannot identify the vulnerabilities easily. <!--SR:!2024-09-19,15,290!2024-09-18,14,290-->
+- anomalies found ::: Report all found security breaches and vulnerabilities to the system administrators. <!--SR:!2024-09-17,13,290!2024-09-19,15,290-->
+- before hacking ::: Seek authorization and approval from the system administrators, and state the scope of your assessment and your plan clearly to them. <!--SR:!2024-09-17,13,290!2024-09-18,14,290-->
+- confidentiality ::: Keep all learnt vulnerabilities confidential and do not utilize them detrimentally to the system owners. <!--SR:!2024-09-20,16,290!2024-09-21,17,290-->

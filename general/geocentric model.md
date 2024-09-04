@@ -68,7 +68,7 @@ return await memorize_seq(
 <!--pytextgen generate section="dbad"--><!-- The following content is generated at 2024-06-25T18:12:42.998219+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←(near center) [Earth](Earth.md) <!--SR:!2024-09-09,56,310!2024-09-22,68,310-->
-- (near center) [Earth](Earth.md)→:::←[Moon](Moon.md) <!--SR:!2024-09-04,52,310!2024-09-28,72,310-->
+- (near center) [Earth](Earth.md)→:::←[Moon](Moon.md) <!--SR:!2025-04-14,222,330!2024-09-28,72,310-->
 - [Moon](Moon.md)→:::←[Mercury](Mercury%20(planet).md) <!--SR:!2025-02-19,176,310!2024-09-13,60,310-->
 - [Mercury](Mercury%20(planet).md)→:::←[Venus](Venus.md) <!--SR:!2024-09-09,57,310!2024-09-29,73,310-->
 - [Venus](Venus.md)→:::←[Sun](Sun.md) <!--SR:!2024-09-25,57,250!2024-09-24,68,310-->
