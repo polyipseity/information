@@ -1176,8 +1176,22 @@ The content is in teaching order. Extra information and corrections are included
 - [questions § 2024-08-06](questions.md#2024-08-06)
   - Finally, a question (Q.4, the last question) that everyone (who answered) got correctly! The teacher gave away the answer.
 - [questions](questions.md): 25/25
-  - iPRS: 10/10 (12/12, before add-drop period: 0/1)
-  - MCQ: 15/15 (11.25/12, before add-drop period: 0/1)
+  - iPRS: 9/9, scaled to 10/10 (12/12, before add-drop period: 0/1)
+    - statistics
+      - mean: 7.81
+      - high: 9
+      - low: 0
+      - median: 9
+      - upper quartile: 9
+      - lower quartile: 7.31
+  - MCQ: 9/9, scaled to 15/15 (11.25/12, before add-drop period: 0/1)
+    - statistics
+      - mean: 8.04
+      - high: 9
+      - low: 0
+      - median: 9
+      - upper quartile: 9
+      - lower quartile: 8.25
 
 ## week 8 lecture 2
 
@@ -1325,9 +1339,39 @@ The content is in teaching order. Extra information and corrections are included
 
 ## aftermath
 
-- [student-generated question](student-generated%20question.md): ?/1
-- [open-ended question report](open-ended%20question%20report.md): ?/20
 - [paper-checking session](#paper-checking%20session)
+- [student-generated question](student-generated%20question.md): 10/10, scaled to 1/1
+  - statistics
+    - mean: 7.65
+    - high: 10
+    - low: 0
+    - median: 8.5
+    - upper quartile: 8.75
+    - lower quartile: 7.5
+- [open-ended question report](open-ended%20question%20report.md): 96/100, scaled to 19.2/20
+  - statistics
+    - mean: 85.94
+    - high: 98
+    - low: 0
+    - median: 89
+    - upper quartile: 94
+    - lower quartile: 84.25
+- course total: 98.5/100
+  - statistics
+    - mean: 71.3
+    - high: 98.5
+    - low: 0
+    - median: 75.66
+    - upper quartile: 83.1
+    - lower quartile: 64.28
+- sub-competencies (for reference only): 12/15
+  - statistics
+    - mean: 11.45
+    - high: 14
+    - low: 3
+    - median: 12
+    - upper quartile: 12
+    - lower quartile: 11
 
 ### paper-checking session
 
