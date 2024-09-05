@@ -12,14 +12,14 @@ async def main() -> None:
     template = await Path(__file__).with_suffix(".md.txt").read_text()
 
     tag_replacements = {"–": "-", "—": "-"}
-    tag_name = compile(r"[^A-Za-z0-9_/-]").sub(
+    tag_name = compile(r"[^A-Za-z0-9_-]").sub(
         lambda match: tag_replacements.get(match[0], "_"), name
     )  # https://help.obsidian.md/Editing+and+formatting/Tags#Tag+format
     if not tag_name or tag_name.isnumeric():
         tag_name += "_"
     replacements: Mapping[Pattern[str], Callable[[str], str]] = {
         compile(escape("(Wikipedia name)")): lambda _, ret=name.replace(" ", "_"): ret,
-        compile(escape("(name)")): lambda _, ret=compile(r"\([^\(]+\)$").sub(
+        compile(escape("(name)")): lambda _, ret=compile(r" \([^\(]+\)$").sub(
             "", name
         ): ret,
         compile(escape("(tag name)")): lambda _: tag_name,
