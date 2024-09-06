@@ -20,9 +20,6 @@ tags:
 
 The content is in teaching order.
 
-## week 1 lecture
-
-- time: 2024-09-02T10:30:00+08:00/2024-09-02T11:50:00+08:00
 - grading schemes: take highest
   1. homework 10%, midterm exam 25%, final exam 65%
   2. homework 10%, midterm exam 0%, final exam 90%
@@ -37,6 +34,11 @@ The content is in teaching order.
   - syllabus / descriptive statistics: descriptive statistics
   - syllabus / probability theory: introduction to probability theory → discrete random variable, discrete probability distribution → continuous random variable, continuous probability distribution
   - syllabus / inferential statistics: estimation of parameters: point estimation, interval estimation → hypothesis testing → simple linear regression → other topics: goodness of fit test, etc.
+
+## week 1 lecture
+
+- time: 2024-09-02T10:30:00+08:00/2024-09-02T11:50:00+08:00
+- course logistics
 - [statistics](../../../../general/statistics.md)
   - statistics / definition (data) ::: a mathematical science that pertains to the _data_ collection, analysis, interpretation, explanation, and presentation
     - statistics / definition (data) / examples ::: Almost all fields of studies make use of data and statistics. _Statistical literacy_ has become a very important thing.
@@ -65,10 +67,6 @@ The content is in teaching order.
   - _R_ / website ::: <https://r-project.org/>
   - _R_ / components ::: _R_, _R_ console, RStudio
   - _R_ / help commands ::: `help.start()`: general help, `help(<foo>)`, `?<foo>`: help about `<foo>`, `apropos("<foo>")`: list all functions containing the string `<foo>`, `example(<foo>)`: show an example of the function `<foo>`
-
-## week 1 lecture 2
-
-- time: 2024-09-02T10:30:00+08:00/2024-09-02T11:50:00+08:00
 - [descriptive statistics](../../../../general/descriptive%20statistics.md)
   - descriptive statistics / why ::: communicate data and support your reasoning from data
   - descriptive statistics / methodologies
@@ -90,6 +88,11 @@ The content is in teaching order.
     - sample mean vs sample median / details ::: The former is used if the distribution is symmetric, unimodal and there are no outliers. Otherwise the latter is usually better.
     - sample mean vs sample median / trimmed (sample) mean ::: It is found by removing a certain percent of both the least and greatest values of the observations before computing its mean.
       - sample mean vs sample median / trimmed (sample) mean / notation (examples) ::: For example, $\bar x_{\operatorname{tr}(10)}$, called _10% trimmed mean_, is the mean after trimming the least 10% and greatest 10% of the observations.
+
+## week 1 lecture 2
+
+- time: 2024-09-02T10:30:00+08:00/2024-09-02T11:50:00+08:00
+- [descriptive statistics](../../../../general/descriptive%20statistics.md)
   - sample [variance](../../../../general/variance.md) ::: Suppose we have $n$ _samples_ (with replacement) of a random variable $x$, labeled $x_1, \ldots, x_n$. Then its _unbiased sample variance_ is $$s^2_{n - 1} = \frac 1 {n - 1} \sum_{i = 1}^n (x_i - \bar x)^2$$. The _biased sample variance_, denoted $s^2_n$, replaces the factor $\frac 1 {n - 1}$ with $\frac 1 n$ in the above equation. Unless otherwise specified, the unbiased sample variance is used in this course.
     - sample [variance](../../../../general/variance.md) / dividing by $n - 1$ ::: $n - 1$ is also the _degree of freedom associated with the variance estimate_, which is the number of independent information pieces available for computing variability. Since $\bar x$ is usually the sample mean, which is determined from the sample mean, a degree of freedom is lost, as $\sum_{i = 1}^n (x_i - \bar x)$ is always forced to be zero. So the degree of freedom is $n - 1$. The original $n$ degrees of freedom comes from the $n$ observations being independent. This explains why dividing $n - 1$ instead of $n$ is _unbiased_. (If the $n$ observations are the entire population, then we divide by $n$ to get the _population variance_ instead.)
     - sample [variance](../../../../general/variance.md) / dividing by $n$ ::: However, if $\bar x$ is the population mean, then $\sum_{i = 1}^n (x_i - \bar x)$ is not forced to be zero, so the degree of freedom is still $n$ (from $n$ independent observations) instead. In this case, we divide by $n$ instead of $n - 1$ to get an _unbiased_ (sample/population) variance. This is regardless if the $n$ observations are a sample or the entire population.
@@ -127,6 +130,16 @@ The content is in teaching order.
   - box plot ::: A box plot labels the least data that is not an outlier (instead of the value $Q_1 - 1.5 \cdot \text{IQR}$), the lower quartile (Q1), median (Q2), upper quartile (Q3), and the greatest data that is not an outlier (instead of the value $Q_3 + 1.5 \cdot \text{IQR}$) as lines; and outliers as dots (with "min" and "max" labels on 2 of them). Additional lines are added so that the lines of Q1 and Q3 forms a rectangle (box). (See that thing on Canvas grade stats...?)
     - box plot / outliers ::: They $x$ are points that are $x \le Q_1 - 1.5 \cdot \text{IQR}$ or $x \ge Q_3 + 1.5 \cdot \text{IQR}$. Usually they are far away from the majority of the data and are _likely_ produced by measurement errors. Assuming a normal distribution, outliers are expected to appear rarely (~0.007).
     - box plot / _R_ ::: use `boxplot(...)`
+
+## week 1 tutorial
+
+- time: 2024-09-06T09:30:00+08:00/2024-09-06T10:20:00+08:00
+- unscheduled
+
+## week 2 lecture 1
+
+- time: 2024-09-09T10:30:00+08:00/2024-09-09T11:50:00+08:00
+- [data presentation](../../../../general/data%20and%20information%20visualization.md)
   - sample size / _R_ ::: use `length(...)`
   - first _n_ observations / _R_ ::: use `head(...)`
   - scatter plot ::: Plots data that comes as pairs. Good for visualizing relationship between two variables (e.g. regression).
