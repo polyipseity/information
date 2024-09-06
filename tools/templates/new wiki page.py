@@ -2,7 +2,7 @@ from itertools import chain
 from typing import Callable, Mapping
 from anyio import Path
 from asyncio import run
-from pyperclip import copy
+from pyperclip import copy  # type: ignore
 from re import Pattern, compile, escape
 
 
