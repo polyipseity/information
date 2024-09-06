@@ -54,6 +54,7 @@ tags:
 #### 2024 fall
 
 - [COMP 2633](COMP%202633/index.md) (not taken)
+- [COMP 2711H](COMP%202711H/index.md)
 - [ISOM 2020](ISOM%202020/index.md)
 - [MATH 2411](MATH%202411/index.md)
 
