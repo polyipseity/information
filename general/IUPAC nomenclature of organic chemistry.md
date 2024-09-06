@@ -630,7 +630,7 @@ return (
 - _(highest)_→:::←cation <!--SR:!2025-04-25,813,324!2028-10-09,1910,372-->
 - cation→:::←carboxylic acid <!--SR:!2028-03-22,1421,275!2026-01-18,914,276-->
 - carboxylic acid→:::←carboxylic acid derivative <!--SR:!2028-08-04,1590,306!2026-10-25,1301,346-->
-- carboxylic acid derivative→:::←nitrile <!--SR:!2024-12-29,427,210!2024-09-05,585,267-->
+- carboxylic acid derivative→:::←nitrile <!--SR:!2024-12-29,427,210!2025-06-24,292,247-->
 - nitrile→:::←aldehyde <!--SR:!2024-10-10,52,170!2024-09-22,43,190-->
 - aldehyde→:::←ketone <!--SR:!2026-12-29,1065,252!2024-12-06,598,250-->
 - ketone→:::←alcohol <!--SR:!2026-06-11,743,250!2024-09-16,17,150-->

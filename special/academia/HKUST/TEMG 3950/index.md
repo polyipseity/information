@@ -177,14 +177,14 @@ The content is in teaching order.
 - modeling key concepts ::: abstraction, framework, model <!--SR:!2025-06-11,286,361!2024-10-04,98,361-->
   - modeling key concept: abstraction ::: filter for elements relevant to some specific purpose <!--SR:!2024-09-17,83,361!2024-10-02,96,361-->
   - modeling key concept: framework ::: a support structure around which something can be built <!--SR:!2024-09-25,90,361!2025-05-29,273,361-->
-  - modeling key concept: model ::: an abstraction of the real world for some specific purpose <!--SR:!2024-09-05,72,361!2024-11-03,105,341-->
+  - modeling key concept: model ::: an abstraction of the real world for some specific purpose <!--SR:!2025-08-27,356,381!2024-11-03,105,341-->
 - Aguilar's PESTLE framework ::: business environment analysis <!--SR:!2024-09-27,92,361!2024-09-15,81,361-->
   - [PEST analysis § composition](../../../../general/PEST%20analysis.md#composition)
 - Porter's 5 forces framework ::: industry profitability analysis <!--SR:!2025-06-24,299,361!2025-06-28,303,361-->
   - [Porter's five forces analysis](../../../../general/Porter's%20five%20forces%20analysis.md)
     - [§ five forces that shape competition](../../../../general/Porter's%20five%20forces%20analysis.md#five%20forcs%20that%20shape%20competition)
     - [§ usage](../../../../general/Porter's%20five%20forces%20analysis.md#usage)
-- Chernev's 5C framework ::: market & business analysis <!--SR:!2024-09-28,92,361!2024-09-05,69,341-->
+- Chernev's 5C framework ::: market & business analysis <!--SR:!2024-09-28,92,361!2025-04-27,234,341-->
   - [situation analysis § 5C analysis](../../../../general/situation%20analysis.md#5C%20analysis)
   - 5C analysis & ancient Chinese philosophy ::: 天時·地利·人和 <!--SR:!2024-09-19,85,361!2024-09-18,84,361-->
   - Chernev's 5C framework § competitor ::: The competitor aspect can use [competitor analysis](../../../../general/competitor%20analysis.md). <!--SR:!2024-09-23,88,361!2024-10-04,98,361-->

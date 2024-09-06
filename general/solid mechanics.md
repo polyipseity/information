@@ -49,7 +49,7 @@ Solid mechanics are concerned with several types of forces specific to solids. F
 - _(begin)_→:::←[bending](bending.md) <!--SR:!2025-03-15,231,330!2025-03-18,234,330-->
 - [bending](bending.md)→:::←[compression](compression%20(physics).md): pushing along the axial direction or towards object inward <!--SR:!2024-09-07,32,290!2024-10-02,95,290-->
 - [compression](compression%20(physics).md): pushing along the axial direction or towards object inward→:::←[shear](shear%20force.md): cutting or tearing <!--SR:!2025-01-04,141,250!2024-12-03,135,290-->
-- [shear](shear%20force.md): cutting or tearing→:::←[tension](tension%20(physics).md): pulling along the axial direction or away from object inward <!--SR:!2024-11-13,87,250!2024-09-05,67,250-->
+- [shear](shear%20force.md): cutting or tearing→:::←[tension](tension%20(physics).md): pulling along the axial direction or away from object inward <!--SR:!2024-11-13,87,250!2025-04-27,234,270-->
 - [tension](tension%20(physics).md): pulling along the axial direction or away from object inward→:::←[torsion](torsion%20(mechanics).md): twisting <!--SR:!2025-02-08,172,270!2024-12-10,140,290-->
 - [torsion](torsion%20(mechanics).md): twisting→:::←_(end)_ <!--SR:!2025-02-25,218,330!2024-11-07,121,290-->
 

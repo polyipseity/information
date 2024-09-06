@@ -72,7 +72,7 @@ The content is in teaching order.
     - [hydraulic engineering structure examples](#hydraulic%20engineering%20structure%20examples)
   - hydraulic engineering systems ::: planning, development, and management of discharge systems and water resources <!--SR:!2024-09-10,94,320!2025-01-16,209,352-->
     - [hydraulic engineering system examples](#hydraulic%20engineering%20system%20examples)
-- environmental engineering ::: application of engineering and science to improve the natural environment and minimize environmental impact <!--SR:!2024-09-05,90,321!2025-03-22,268,376-->
+- environmental engineering ::: application of engineering and science to improve the natural environment and minimize environmental impact <!--SR:!2025-10-08,398,341!2025-03-22,268,376-->
   - [environmental engineering areas](#environmental%20engineering%20areas)
     - air engineering ::: air pollution control, air quality monitoring, ozone layer protection <!--SR:!2025-11-09,437,355!2025-09-12,410,390-->
     - waste engineering ::: methods of disposal (e.g. landfills and incineration), site investigation and remediation, solid waste management <!--SR:!2024-11-06,131,295!2025-06-19,318,372-->
@@ -196,8 +196,8 @@ water and sewage treatment system
 - building→:::←dam <!--SR:!2024-12-12,167,340!2024-09-06,105,380-->
 - dam→:::←pipeline <!--SR:!2024-10-11,66,204!2024-10-09,117,321-->
 - pipeline→:::←power plant <!--SR:!2025-01-13,152,260!2024-10-22,107,281-->
-- power plant→:::←reservoir <!--SR:!2025-01-10,164,275!2024-09-05,91,320-->
-- reservoir→:::←sewage treatment <!--SR:!2024-09-21,62,197!2024-09-05,75,261-->
+- power plant→:::←reservoir <!--SR:!2025-01-10,164,275!2024-10-24,49,300-->
+- reservoir→:::←sewage treatment <!--SR:!2024-09-21,62,197!2025-03-13,189,261-->
 - sewage treatment→:::←transport <!--SR:!2024-09-24,22,190!2024-12-13,152,301-->
 - transport→:::←water and sewage treatment system <!--SR:!2024-11-05,137,340!2024-09-16,14,130-->
 - water and sewage treatment system→:::←_(end)_ <!--SR:!2025-12-24,482,401!2025-04-10,252,361-->
@@ -502,7 +502,7 @@ teaming up with others
 - business procedures→:::←economics <!--SR:!2024-11-19,82,261!2025-02-10,193,285-->
 - economics→:::←human behaviors <!--SR:!2024-09-28,42,300!2024-10-23,131,340-->
 - human behaviors→:::←management principles <!--SR:!2024-12-25,139,300!2024-11-04,95,260-->
-- management principles→:::←strong communication skills <!--SR:!2025-03-22,222,301!2024-09-05,96,320-->
+- management principles→:::←strong communication skills <!--SR:!2025-03-22,222,301!2025-07-08,306,320-->
 - strong communication skills→:::←teaming up with others <!--SR:!2024-11-07,138,340!2025-08-04,345,380-->
 - teaming up with others→:::←_(end)_ <!--SR:!2025-05-28,321,375!2025-03-17,198,272-->
 
@@ -879,7 +879,7 @@ developing strengthening techniques for damaged structures or structural members
 
 - _(begin)_→:::←choosing suitable materials to resurface a road like asphalt pavement <!--SR:!2025-06-24,304,335!2025-05-03,280,370-->
 - choosing suitable materials to resurface a road like asphalt pavement→:::←designing a concrete mix for a large building <!--SR:!2025-01-17,192,340!2024-10-11,133,327-->
-- designing a concrete mix for a large building→:::←developing strengthening techniques for damaged structures or structural members like a damaged column <!--SR:!2024-09-05,104,335!2024-09-26,39,297-->
+- designing a concrete mix for a large building→:::←developing strengthening techniques for damaged structures or structural members like a damaged column <!--SR:!2025-08-18,347,335!2024-09-26,39,297-->
 - developing strengthening techniques for damaged structures or structural members like a damaged column→:::←_(end)_ <!--SR:!2025-03-02,231,345!2025-07-13,317,324-->
 
 <!--/pytextgen-->
@@ -951,7 +951,7 @@ wave
 
 - _(begin)_→:::←earthquake <!--SR:!2024-11-11,142,340!2025-02-25,240,357-->
 - earthquake→:::←fire <!--SR:!2024-09-28,117,335!2025-04-04,255,360-->
-- fire→:::←flood <!--SR:!2024-11-25,155,324!2024-09-05,104,266-->
+- fire→:::←flood <!--SR:!2024-11-25,155,324!2025-06-11,279,266-->
 - flood→:::←strong wind <!--SR:!2024-12-03,92,300!2024-11-10,112,297-->
 - strong wind→:::←wave <!--SR:!2025-01-11,218,290!2024-10-07,107,294-->
 - wave→:::←_(end)_ <!--SR:!2025-01-03,199,357!2025-02-17,210,315-->

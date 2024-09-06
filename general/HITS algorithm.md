@@ -31,7 +31,7 @@ The algorithm performs {{a series of iterations}}, consisting of {{2 main steps,
 1. __authority update__ ::: Update each node's authority value to the sum of the hub values of nodes pointing to it. <!--SR:!2025-01-17,162,314!2024-09-08,66,314-->
 2. __hub update__ ::: Update each node's hub value to the sum of the authority values of nodes it points to. <!--SR:!2025-01-08,153,314!2024-09-08,65,314-->
 
-There are {{2 variants of the algorithm}}: {{async iteration and sync iteration}}, with the former being more common. Both variants with other steps are described below: <!--SR:!2025-05-23,262,334!2024-09-05,63,314-->
+There are {{2 variants of the algorithm}}: {{async iteration and sync iteration}}, with the former being more common. Both variants with other steps are described below: <!--SR:!2025-05-23,262,334!2025-06-05,273,334-->
 
 1. __initialization__ ::: Start with each node having an authority value and hub value of 1. Optionally, normalize the values like in step 4 for convergence. <!--SR:!2025-04-05,225,334!2025-04-25,241,334-->
 2. __authority update__ ::: Run the authority update rule. <!--SR:!2025-06-03,274,334!2025-02-14,172,314-->

@@ -351,7 +351,7 @@ The content is in teaching order.
 - [sensitivity and specificity § specificity](../../../../general/sensitivity%20and%20specificity.md#specificity)
 - [false positives and false negatives](../../../../general/false%20positives%20and%20false%20negatives.md)
 - [training, validation, and test data sets](../../../../general/training,%20validation,%20and%20test%20data%20sets.md)
-  - new data set ::: The data set to be predicted that does not have the actual values of the predicted attributes to compare against. Essentially, the model is being put into practical use. <!--SR:!2024-09-08,68,357!2024-09-05,65,357-->
+  - new data set ::: The data set to be predicted that does not have the actual values of the predicted attributes to compare against. Essentially, the model is being put into practical use. <!--SR:!2024-09-08,68,357!2025-07-20,318,377-->
 
 ## week 12 lab
 
