@@ -56,7 +56,7 @@ ffmpeg -i "$input_" -map 0 -vf "fps=fps=$fps,scale=in_color_matrix=auto:out_colo
 
 - parameters
   - `$audio_bitrate` = `320000`: audio bitrate in bits per second (bps)
-  - `$color_range` = `full`: `full` or `limited`; color range
+  - `$color_range` = `pc`: `pc` or `tv`; color range
   - `$fps` = `60`: frames per second
   - `$input_`: input filename
   - `$output`: output filename without extension
@@ -70,7 +70,7 @@ ffmpeg -i "$input_" -map 0 -vf "fps=fps=$fps,scale=in_color_matrix=auto:out_colo
 
 - parameters
   - `$audio_bitrate` = `320000`: audio bitrate in bits per second (bps)
-  - `$color_range` = `full`: `full` or `limited`; color range
+  - `$color_range` = `pc`: `pc` or `tv`; color range
   - `$fps` = `60`: frames per second
   - `$input_`: input filename
   - `$output`: output filename without extension
