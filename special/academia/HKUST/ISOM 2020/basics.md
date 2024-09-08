@@ -127,3 +127,15 @@ Below are common data types:
 Some interesting facts about `float`s:  `print` {{always output at least 1 decimal place for `float`s, and outputs at most as many digits as needed to represent the number exactly}}. `1` {{is an `int` while `1.` and `1.0` are `float`s representing the same value `1`}}.
 
 To get the type of a value, {{use `type(<any>)`, which will return the type of `<any>`}}. Note that the return type is {{a special type called classes, which we will not go into detail here}}. On Jupyter, {{without using `print` (i.e. placing `type(<any>)` as the last expression), it will simply print out the type name, e.g. `float`, `int`, etc.}}. In most other situations, including {{evaluating `type(<any>)` in your local Python installation instead of Jupyter}}, it will {{print out `<class '<type>'>`, with `<type>` replaced by the type name, e.g. `<class 'float'>`, `<class 'int'>`, etc.}}
+
+### data type conversion
+
+We can convert a value (`value`) into other data types using {{`float(value)`, `int(value)`, and `str(value)`}}. If {{the data type of `value` and the resulting data type are the same}}, {{the same value is simply returned}}. Note that not all {{conversions are valid, and will throw a `ValueError` if it is invalid}}.
+
+- `float(value)` ::: Converts `value` to a `float`. If it is an `int`, the same value but in `float` is returned. If it is a `str`, it removes whitespaces (spaces) surrounding the string and then parse it as a `float`, and throws a `ValueError` if it is invalid, e.g. an empty string, the string `.` (but not `0.`, `.0`, etc.), contains alphabets, etc. (But `float("1.")`, `float(".1")`, `float("  4.2  ")`, etc. are valid.)
+- `int(value)` ::: Converts `value` to a `int`. If it is an `float`, the numbers behind the decimal point `.` is removed and then the rest is returned as an `int`. If it is a `str`, it removes whitespaces (spaces) surrounding the string and then parse it as a `int`, and throws a `ValueError` if it is invalid, e.g. an empty string, contains a decimal point `.`, contains alphabets, etc. (But `int("  4  ")` is valid.)
+- `str(value)` ::: Converts `value` to a `str`. (Almost) anything can be converted into a `str`. The resulting string is the same as that outputted by `print(value)`.
+
+## input
+
+We can request user input {{using `input(prompt)`, where `prompt` is an (optional) value (not necessarily a `str`) to be printed (like `print(...)`, but without automatically printing a newline and only accepts a single argument) before asking for input}}. Note that some Juypter notebooks {{automatically adds a space after printing the string, while other environment do not}}. The user input ends when {{user enters a newline to confirm the input, i.e. presses enter}}. Then, it will {{return a string, keeping any leading or trailing spaces, but not the newline the user typed at the end to confirm the input}}.
