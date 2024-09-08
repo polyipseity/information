@@ -14,13 +14,13 @@ tags:
 # import ../../../../../tools/utility.py.md
 ```
 
-Since the [universe](../../../../general/universe.md) is {{so big, the scale of it is hard to comprehend}}. Instead, we can make a {{1:_X_ model, i.e. all lengths are reduced by a factor of _X_ billion}}. For example, the [Sun](../../../../general/Sun.md) has {{a radius of about 6.96 × 10<sup>8</sup> m}}. In the 1:10<sup>10</sup> scale model, its {{radius would be about 7 cm instead}}. <!--SR:!2024-09-07,55,310!2025-03-13,198,326!2024-12-28,123,298!2025-01-22,142,298-->
+Since the [universe](../../../../general/universe.md) is {{so big, the scale of it is hard to comprehend}}. Instead, we can make a {{1:_X_ model, i.e. all lengths are reduced by a factor of _X_ billion}}. For example, the [Sun](../../../../general/Sun.md) has {{a radius of about 6.96 × 10<sup>8</sup> m}}. In the 1:10<sup>10</sup> scale model, its {{radius would be about 7 cm instead}}. <!--SR:!2025-04-30,235,330!2025-03-13,198,326!2024-12-28,123,298!2025-01-22,142,298-->
 
 A scale model preserves {{all size ratios between different objects}}, while making the distance {{familiar to us}}. For example, also take {{[Earth](../../../../general/Earth.md)'s radius: 6.371 × 10<sup>6</sup> m}}. The ratio of {{Earth's radius over the Sun's radius}} is {{about 6.371 × 10<sup>6</sup> m / 6.963 × 10<sup>8</sup> m ≈ 0.00915}}. Such ratios are {{preserved in the scaled model}}. The ratios can also {{provide easier comparison}}. For instance, additionally take the ratio of [Jupiter](../../../../general/Jupiter.md) over the Sun's radius: {{0.100}}. Then we know {{Jupiter is about 0.100 / 0.00915 ≈ 10.9 times as large as Earth in radius}}. <!--SR:!2024-09-13,60,318!2024-09-24,65,310!2024-09-26,60,266!2024-10-08,79,330!2024-10-06,50,230!2024-09-10,58,318!2024-10-07,78,331!2025-01-07,130,290!2025-01-04,138,298-->
 
 ## scale factor of 10 billion
 
-To comprehend {{the [Solar System](../../../../general/Solar%20System.md)}}, the scale factor can be {{10<sup>10</sup>, i.e. 10 billion}}. Consider the Sun {{to be the center and placed at the large sundial of HKUST}}. Distance, if provided, is {{the distance to the center}}. <!--SR:!2024-09-06,54,310!2024-09-28,69,318!2024-09-15,62,318!2024-09-22,68,318-->
+To comprehend {{the [Solar System](../../../../general/Solar%20System.md)}}, the scale factor can be {{10<sup>10</sup>, i.e. 10 billion}}. Consider the Sun {{to be the center and placed at the large sundial of HKUST}}. Distance, if provided, is {{the distance to the center}}. <!--SR:!2025-04-26,231,330!2024-09-28,69,318!2024-09-15,62,318!2024-09-22,68,318-->
 
 ```Python
 # pytextgen generate data

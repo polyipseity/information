@@ -163,7 +163,7 @@ risk reduction
 
 <!--pytextgen generate section="c321"--><!-- The following content is generated at 2024-03-18T19:56:56.570256+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←accessibility <!--SR:!2024-09-07,100,277!2025-04-18,281,334-->
+- _(begin)_→:::←accessibility <!--SR:!2025-06-10,276,277!2025-04-18,281,334-->
 - accessibility→:::←brand or status <!--SR:!2024-10-01,103,254!2025-02-15,196,274-->
 - brand or status→:::←convenience or usability <!--SR:!2024-09-10,29,214!2024-12-05,93,214-->
 - convenience or usability→:::←cost reduction <!--SR:!2024-10-11,108,254!2024-12-02,101,237-->
@@ -184,7 +184,7 @@ The channels building block shows {{the ways to reach customers and deliver valu
 
 #### customer relationships
 
-The customer relationships building block shows {{the types of relationships with customer segments}}. Proper customer relationships help with {{customer acquisition, customer retention, and upselling}}. <!--SR:!2025-09-29,389,294!2024-09-07,97,277-->
+The customer relationships building block shows {{the types of relationships with customer segments}}. Proper customer relationships help with {{customer acquisition, customer retention, and upselling}}. <!--SR:!2025-09-29,389,294!2025-06-02,268,277-->
 
 ##### customer relationship examples
 
@@ -280,7 +280,7 @@ The key resources building block shows {{important assets required for the busin
 
 #### key activities
 
-The key activities building block shows {{important activities required for the business model}}. They can be categorized into {{platform or network, problem solving, and production}} activities. <!--SR:!2024-09-06,98,294!2024-10-20,116,257-->
+The key activities building block shows {{important activities required for the business model}}. They can be categorized into {{platform or network, problem solving, and production}} activities. <!--SR:!2025-10-11,399,314!2024-10-20,116,257-->
 
 #### key partnerships
 

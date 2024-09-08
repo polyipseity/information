@@ -118,7 +118,7 @@ return await memorize_map(
 
 <!--pytextgen generate section="394a"--><!-- The following content is generated at 2024-07-10T23:14:21.914301+08:00. Any edits will be overridden! -->
 
-- sine::$$\sin(\alpha\pm\beta)=\sin\alpha\cos\beta\pm\cos\alpha\sin\beta$$ <!--SR:!2024-09-06,172,230-->
+- sine::$$\sin(\alpha\pm\beta)=\sin\alpha\cos\beta\pm\cos\alpha\sin\beta$$ <!--SR:!2026-03-18,558,250-->
 - cosine::$$\cos(\alpha\pm\beta)=\cos\alpha\cos\beta\mp\sin\alpha\sin\beta$$ <!--SR:!2025-03-23,527,310-->
 - tangent::$$\tan(\alpha\pm\beta)=\frac{\tan\alpha\pm\tan\beta}{1\mp\tan\alpha\tan\beta}$$ <!--SR:!2024-09-28,230,250-->
 
@@ -156,7 +156,7 @@ return await memorize_map(
 
 <!--pytextgen generate section="ab2d"--><!-- The following content is generated at 2024-07-10T23:14:22.112551+08:00. Any edits will be overridden! -->
 
-- sine::$$\sin(2\theta)=2\sin\theta\cos\theta=(\sin\theta+\cos\theta)^2-1=\frac{2\tan\theta}{1+\tan^2\theta}$$ <!--SR:!2024-09-06,312,250-->
+- sine::$$\sin(2\theta)=2\sin\theta\cos\theta=(\sin\theta+\cos\theta)^2-1=\frac{2\tan\theta}{1+\tan^2\theta}$$ <!--SR:!2026-10-25,779,250-->
 - cosine::$$\cos(2\theta)=\cos^2\theta-\sin^2\theta=2\cos^2\theta-1=1-2\sin^2\theta=\frac{1-\tan^2\theta}{1+\tan^2\theta}$$ <!--SR:!2026-11-26,847,270-->
 - tangent::$$\tan(2\theta)=\frac{2\tan\theta}{1-\tan^2\theta}$$ <!--SR:!2025-04-12,474,250-->
 
@@ -229,7 +229,7 @@ return await memorize_map(
 > - $\tan (-4.96)$ (tangent) ::: $\frac {1 - \operatorname{sgn}(\cos 9.92) \sqrt{1 + \tan^2 9.92} } {\tan 9.92}$ <!--SR:!2024-11-08,82,296!2024-11-01,76,296-->
 > - $\sec (-7.24)$ ::: $\operatorname{sgn}(\cos 7.24) \sqrt{\frac 2 {1 + \cos 14.48} }$ <!--SR:!2024-11-28,94,316!2024-09-16,49,336-->
 > - $\csc (-1.7)$ ::: $-\operatorname{sgn}(\sin 1.7) \sqrt{\frac 2 {1 - \cos 3.4} }$ <!--SR:!2024-09-13,17,296!2024-12-21,111,316-->
-> - $\cot 3.14$ (sine and cosine) ::: $\frac {1 + \cos 6.28} {\sin 6.28} = \frac {\sin 6.28} {1 - \cos 6.28}$ <!--SR:!2024-09-06,40,296!2024-11-25,95,316-->
+> - $\cot 3.14$ (sine and cosine) ::: $\frac {1 + \cos 6.28} {\sin 6.28} = \frac {\sin 6.28} {1 - \cos 6.28}$ <!--SR:!2025-01-03,119,296!2024-11-25,95,316-->
 > - $\cot (-69)$ (cosine) ::: $-\operatorname{sgn}(\sin 138) \sqrt{\frac {1 + \cos 138} {1 - \cos 138} }$ <!--SR:!2024-10-07,56,296!2024-09-29,59,336-->
 > - $\cot 17$ (addition) ::: $\csc 34 + \cot 34$ <!--SR:!2024-12-23,113,316!2024-10-10,68,336-->
 

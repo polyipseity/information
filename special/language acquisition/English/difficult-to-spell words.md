@@ -84,13 +84,13 @@ English
 - [supremum](https://en.wiktionary.org/wiki/supremum) ::: (s\_m) Given a [subset](../../../general/subset.md) $X$ of a [partially ordered set](../../../general/partially%20ordered%20set.md) $P$ with partial order $\le$, the least element $y$ of $P$ such that every $x$ in $X$ satisfies $x \le y$. <!--SR:!2026-05-25,647,410!2025-01-18,257,370-->
 - [tennessine](https://en.wiktionary.org/wiki/tennessine) ::: (t\_e) A [chemical element](../../../general/chemical%20element.md) (_symbol_ Ts) of [atomic number](../../../general/atomic%20number.md) 117. <!--SR:!2024-12-13,205,332!2025-06-17,391,392-->
 - [theoretical](https://en.wiktionary.org/wiki/theoretical) ::: (t\_l) Of or relating to theory rather than practice. <!--SR:!2024-11-10,250,330!2026-02-02,521,290-->
-- [trachea](https://en.wiktionary.org/wiki/trachea) ::: (t\_a) A thin [cartilaginous](../../../general/cartilage.md) tube that connects the [larynx](../../../general/larynx.md) to the [bronchi](../../../general/bronchus.md). <!--SR:!2024-11-25,215,284!2024-09-06,179,324-->
+- [trachea](https://en.wiktionary.org/wiki/trachea) ::: (t\_a) A thin [cartilaginous](../../../general/cartilage.md) tube that connects the [larynx](../../../general/larynx.md) to the [bronchi](../../../general/bronchus.md). <!--SR:!2024-11-25,215,284!2026-11-15,799,344-->
 - [transmissibility](https://en.wiktionary.org/wiki/transmissibility) ::: (t\_y) The extent to which something is transmissible. <!--SR:!2024-12-26,281,344!2024-11-10,219,324-->
 - [trigonometry](https://en.wiktionary.org/wiki/trigonometry) ::: (t\_y) The branch of [mathematics](../../../general/mathematics.md) concerned with the relations between angles and ratios of sides. <!--SR:!2024-09-14,195,290!2024-11-11,217,290-->
 - [ubiquitous](https://en.wiktionary.org/wiki/ubiquitous) ::: (u\_s) Widespread. <!--SR:!2025-02-23,300,388!2024-10-29,192,348-->
 - [vacuous](https://en.wiktionary.org/wiki/vacuous) ::: (v\_s) Empty, void. <!--SR:!2024-12-03,263,344!2025-12-24,514,324-->
 - [vacuum](https://en.wiktionary.org/wiki/vacuum) ::: (v\_m) A region of [space](../../../general/space.md) containing no [matter](../../../general/matter.md). <!--SR:!2025-01-20,290,344!2024-12-12,269,344-->
-- [vehicle](https://en.wiktionary.org/wiki/vehicle) ::: (v\_e) A spacious device for transporting things. <!--SR:!2024-09-07,145,396!2025-06-08,334,376-->
+- [vehicle](https://en.wiktionary.org/wiki/vehicle) ::: (v\_e) A spacious device for transporting things. <!--SR:!2026-10-30,783,416!2025-06-08,334,376-->
 - [viscous](https://en.wiktionary.org/wiki/viscous) ::: (v\_s) Having a thick and stick consistency between [solid](../../../general/solid.md) and [liquid](../../../general/liquid.md). <!--SR:!2024-11-22,254,344!2025-09-01,433,324-->
 - [volunteer](https://en.wiktionary.org/wiki/volunteer) ::: (v\_r) To do or offer to do something voluntarily. <!--SR:!2025-03-28,357,372!2025-04-09,369,372-->
 

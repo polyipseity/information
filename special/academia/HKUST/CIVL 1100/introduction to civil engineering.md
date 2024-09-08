@@ -48,7 +48,7 @@ The content is in teaching order.
   - [civil engineering new challenges](#civil%20engineering%20new%20challenges)
     - climate change engineering examples ::: Project MOSE (2003–2025) in Venice, Thames Barrier (1974–1982) <!--SR:!2024-11-02,120,287!2025-09-10,376,380-->
       - Thames Barrier (1974–1982) mechanism ::: The gate is a chord of a circle. It rotates along the circumference of the circle. When open, it acts like the river floor. When closing, the chord rotates about the circle center and becomes a barrier. <!--SR:!2024-09-13,110,337!2024-11-22,149,340-->
-- civil engineering solutions ::: smart cities <!--SR:!2024-09-06,105,380!2025-09-01,375,376-->
+- civil engineering solutions ::: smart cities <!--SR:!2026-03-06,545,400!2025-09-01,375,376-->
   - smart cities examples ::: Using technology to gather information, predict events, and notify people. <!--SR:!2025-03-24,304,335!2026-01-13,502,400-->
 - [civil engineering subdisciplines](#civil%20engineering%20subdisciplines)
 - structural engineering ::: analysis, design, and planning of structures to resist various loading and natural disasters <!--SR:!2024-10-08,126,340!2024-12-22,188,347-->
@@ -91,7 +91,7 @@ The content is in teaching order.
   - materials engineering materials ::: development of improved or new materials <!--SR:!2025-01-21,201,317!2025-06-04,348,350-->
     - [materials engineering material examples](#materials%20engineering%20material%20examples)
   - materials engineering repair ::: design of materials and methods to repair <!--SR:!2025-05-24,339,350!2025-11-16,461,395-->
-    - materials engineering repair examples ::: fiber reinforced polymer retrofit system, retrofit using damper, slab retrofit using steel plate and carbon fiber reinforced polymer <!--SR:!2024-09-07,92,320!2024-10-17,135,332-->
+    - materials engineering repair examples ::: fiber reinforced polymer retrofit system, retrofit using damper, slab retrofit using steel plate and carbon fiber reinforced polymer <!--SR:!2025-06-27,293,320!2024-10-17,135,332-->
 - construction engineering ::: planning and execution of the designs from other fields of engineers <!--SR:!2025-09-30,397,337!2025-10-04,429,394-->
   - [construction engineer skills](#construction%20engineer%20skills)
   - [construction engineer jobs](#construction%20engineer%20jobs)
@@ -193,7 +193,7 @@ water and sewage treatment system
 
 - _(begin)_→:::←bridge <!--SR:!2025-09-15,412,397!2025-11-25,470,394-->
 - bridge→:::←building <!--SR:!2025-05-05,282,372!2025-04-22,268,360-->
-- building→:::←dam <!--SR:!2024-12-12,167,340!2024-09-06,105,380-->
+- building→:::←dam <!--SR:!2024-12-12,167,340!2026-03-05,544,400-->
 - dam→:::←pipeline <!--SR:!2024-10-11,66,204!2024-10-09,117,321-->
 - pipeline→:::←power plant <!--SR:!2025-01-13,152,260!2024-10-22,107,281-->
 - power plant→:::←reservoir <!--SR:!2025-01-10,164,275!2024-10-24,49,300-->
@@ -277,13 +277,13 @@ workmanship
 
 <!--pytextgen generate section="1e12"--><!-- The following content is generated at 2024-05-01T19:22:34.848790+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←budgeting <!--SR:!2025-01-11,187,341!2024-09-06,105,380-->
+- _(begin)_→:::←budgeting <!--SR:!2025-01-11,187,341!2026-03-04,543,400-->
 - budgeting→:::←construction management <!--SR:!2025-01-31,151,320!2025-11-24,451,355-->
 - construction management→:::←economics <!--SR:!2024-10-17,98,235!2025-04-19,240,300-->
 - economics→:::←impacts to surrounding <!--SR:!2025-03-15,215,300!2024-10-17,54,240-->
 - impacts to surrounding→:::←lifecycle <!--SR:!2025-04-01,238,320!2025-05-10,261,320-->
 - lifecycle→:::←maintenance <!--SR:!2024-10-13,106,297!2024-09-16,39,292-->
-- maintenance→:::←politics <!--SR:!2024-09-07,21,221!2025-04-18,249,312-->
+- maintenance→:::←politics <!--SR:!2024-11-14,68,241!2025-04-18,249,312-->
 - politics→:::←social <!--SR:!2025-03-24,246,360!2025-05-03,262,337-->
 - social→:::←workmanship <!--SR:!2025-04-30,244,300!2025-01-23,141,210-->
 - workmanship→:::←_(end)_ <!--SR:!2025-09-26,419,385!2025-04-05,258,355-->
@@ -455,7 +455,7 @@ testing materials
 - _(begin)_→:::←budgeting <!--SR:!2024-10-31,140,327!2025-04-08,277,375-->
 - budgeting→:::←contracting <!--SR:!2025-09-10,377,334!2024-11-08,146,327-->
 - contracting→:::←designing temporary structures <!--SR:!2025-01-10,173,215!2025-04-22,236,295-->
-- designing temporary structures→:::←logistics <!--SR:!2024-10-03,124,340!2024-09-07,37,277-->
+- designing temporary structures→:::←logistics <!--SR:!2024-10-03,124,340!2024-09-27,20,257-->
 - logistics→:::←planning <!--SR:!2024-10-13,62,274!2024-09-28,120,335-->
 - planning→:::←procuring materials <!--SR:!2025-01-24,186,317!2025-02-03,175,277-->
 - procuring materials→:::←quality assurance <!--SR:!2025-01-23,173,300!2025-03-23,213,281-->
@@ -1101,7 +1101,7 @@ water tower
 - power plant→:::←storage facility <!--SR:!2025-01-30,185,300!2024-09-12,111,334-->
 - storage facility→:::←tunnel <!--SR:!2024-09-09,37,280!2025-09-29,392,340-->
 - tunnel→:::←unusual structure <!--SR:!2024-09-19,83,247!2024-10-17,121,320-->
-- unusual structure→:::←water tower <!--SR:!2024-12-19,108,290!2024-09-06,34,290-->
+- unusual structure→:::←water tower <!--SR:!2024-12-19,108,290!2024-09-26,19,270-->
 - water tower→:::←_(end)_ <!--SR:!2025-11-24,467,387!2024-09-08,55,281-->
 
 <!--/pytextgen-->

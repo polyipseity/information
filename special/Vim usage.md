@@ -27,7 +27,7 @@ See also [Vim help files](https://vimhelp.org/).
 
 - left:::\[[repeat N](#^repeatN)\]h <!--SR:!2029-07-28,1874,368!2025-04-06,588,308-->
 - down:::\[[repeat N](#^repeatN)\]j <!--SR:!2028-11-22,1658,353!2025-12-17,775,328-->
-- up:::\[[repeat N](#^repeatN)\]k <!--SR:!2024-09-14,423,290!2024-09-07,440,307-->
+- up:::\[[repeat N](#^repeatN)\]k <!--SR:!2024-09-14,423,290!2028-05-19,1350,307-->
 - right:::\[[repeat N](#^repeatN)\]l <!--SR:!2027-07-12,1243,348!2026-08-08,904,328-->
 - before next word:::\[[repeat N](#^repeatN)\]w <!--SR:!2025-02-08,290,253!2027-04-26,1016,288-->
 - end of current word:::\[[repeat N](#^repeatN)\]e <!--SR:!2025-10-12,508,313!2028-09-16,1605,353-->

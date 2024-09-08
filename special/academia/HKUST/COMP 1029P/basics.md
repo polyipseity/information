@@ -80,7 +80,7 @@ return _chain.from_iterable(await _gather(
 - `*`::multiplication <!--SR:!2025-02-12,289,330-->
 - `/`::division <!--SR:!2024-12-10,220,310-->
 - `//`::floor division <!--SR:!2025-01-24,276,330-->
-- `%`::remainder; the resulting sign is the same as the divider, i.e. the number after the operator <!--SR:!2024-09-07,152,310-->
+- `%`::remainder; the resulting sign is the same as the divider, i.e. the number after the operator <!--SR:!2026-06-20,651,330-->
 - `+`::addition <!--SR:!2025-01-25,276,330-->
 - `-`::subtraction <!--SR:!2024-12-06,235,330-->
 

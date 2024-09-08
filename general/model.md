@@ -9,7 +9,7 @@ tags:
 
 # model
 
-A __model__ is {{an informative representation of an object, person or system}}. <!--SR:!2024-09-07,48,290-->
+A __model__ is {{an informative representation of an object, person or system}}. <!--SR:!2025-03-18,192,310-->
 
 ## references
 

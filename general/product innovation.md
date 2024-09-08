@@ -12,7 +12,7 @@ tags:
 
 Product innovation can be {{an invention or an improvement over existing products}}. Making an invention is {{costly, risky, and requires extensive research}}. {{95% of new inventions}} fail. In contrast, improving existing products is {{cheaper, safer, and requires limited research}}. {{98% of innovations}} are of this kind. <!--SR:!2025-07-13,329,310!2025-01-25,194,310!2024-09-13,91,270!2024-09-21,107,290!2024-09-08,97,290-->
 
-Improving existing products can include {{adding or modifying features, to align with current culture, market desirability, or trends}}. <!--SR:!2024-09-06,87,250-->
+Improving existing products can include {{adding or modifying features, to align with current culture, market desirability, or trends}}. <!--SR:!2025-07-07,304,270-->
 
 ## references
 

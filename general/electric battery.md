@@ -158,7 +158,7 @@ return chain.from_iterable(await gather(
 
 - [alkaline](alkaline%20battery.md)::1.15 V, 1.5 V <!--SR:!2024-11-09,154,303-->
 - [silver oxide](silver%20oxide%20battery.md)::1.5 V, 1.6 V <!--SR:!2024-12-28,213,323-->
-- [zinc–carbon](zinc–carbon%20battery.md)/zinc–chloride::1.2 V, 1.5 V <!--SR:!2024-09-07,122,303-->
+- [zinc–carbon](zinc–carbon%20battery.md)/zinc–chloride::1.2 V, 1.5 V <!--SR:!2025-09-11,369,303-->
 
 <!--/pytextgen-->
 

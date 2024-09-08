@@ -101,7 +101,7 @@ return await memorize_seq(
 - (Cap. 311) Air Pollution Control Ordinance→:::←(Cap. 354) Waste Disposal Ordinance <!--SR:!2024-11-21,84,275!2024-10-08,40,275-->
 - (Cap. 354) Waste Disposal Ordinance→:::←(Cap. 358) Water Pollution Control Ordinance <!--SR:!2024-09-08,55,295!2024-10-20,52,315-->
 - (Cap. 358) Water Pollution Control Ordinance→:::←(Cap. 400) Noise Pollution Control Ordinance <!--SR:!2024-09-11,20,255!2024-10-12,42,255-->
-- (Cap. 400) Noise Pollution Control Ordinance→:::←(Cap. 499) Environmental Impact Ordinance <!--SR:!2024-09-10,50,295!2024-09-06,21,295-->
+- (Cap. 400) Noise Pollution Control Ordinance→:::←(Cap. 499) Environmental Impact Ordinance <!--SR:!2024-09-10,50,295!2024-11-09,63,295-->
 - (Cap. 499) Environmental Impact Ordinance→:::←_(end)_ <!--SR:!2024-10-02,87,355!2024-10-07,92,355-->
 
 <!--/pytextgen-->
@@ -229,7 +229,7 @@ Environmental Levy Scheme (Plastic Shopping Bags)
   - Environmental Levy Scheme launch time ::: launched in 2009 <!--SR:!2024-10-05,83,290!2025-04-21,256,330-->
   - Environmental Levy Scheme coverage ::: 40 registered retailers with ~3100 retail outlets <!--SR:!2024-09-28,85,270!2024-12-16,146,310-->
   - Environmental Levy Scheme effect ::: -90% from registered retailers after 1 year. -25% in overall plastic bag consumption after covering all retail shops in 2015 <!--SR:!2025-03-07,183,270!2024-12-27,150,290-->
-  - Environmental Levy Scheme income ::: HK$25.5 million in 2009 <!--SR:!2024-09-06,71,270!2024-11-08,115,290-->
+  - Environmental Levy Scheme income ::: HK$25.5 million in 2009 <!--SR:!2025-03-17,191,270!2024-11-08,115,290-->
 
 ## page 16
 
@@ -347,7 +347,7 @@ Indoor Air Quality
 - common indoor air pollutant ::: 12 parameters <!--SR:!2024-10-27,105,290!2025-05-05,266,330-->
   - common indoor air pollutant examples ::: carbon dioxide (CO<sub>2</sub>), carbon monoxide (CO), respirable suspended particulate (RSP/PM<sub>10</sub>) <!--SR:!2024-09-20,80,270!2025-01-01,157,310-->
     - carbon dioxide limits ::: excellent: < 800 ppmv; good: < 1000 ppmv <!--SR:!2024-09-25,84,270!2024-12-28,153,310-->
-    - carbon monoxide limits ::: excellent: < 2000 μg/m<sup>3</sup>, < 1.7 ppmv; good: < 10000 μg/m<sup>3</sup>, < 8.7 ppmv <!--SR:!2024-09-06,25,230!2025-01-17,167,310-->
+    - carbon monoxide limits ::: excellent: < 2000 μg/m<sup>3</sup>, < 1.7 ppmv; good: < 10000 μg/m<sup>3</sup>, < 8.7 ppmv <!--SR:!2024-09-21,14,210!2025-01-17,167,310-->
     - respirable suspended particulate limits ::: excellent: < 20 μg/m<sup>3</sup>; good: < 180 μg/m<sup>3</sup> <!--SR:!2024-09-27,82,270!2024-10-06,62,270-->
 
 ## page 30
@@ -392,8 +392,8 @@ return await memorize_seq(
 - carbon dioxide (CO<sub>2</sub>)→:::←hydroflurocarbons (HFCs) <!--SR:!2024-10-09,79,230!2024-09-25,83,270-->
 - hydroflurocarbons (HFCs)→:::←methane (CH<sub>4</sub>) <!--SR:!2024-10-22,99,270!2024-09-25,73,230-->
 - methane (CH<sub>4</sub>)→:::←nitrous oxide (N<sub>2</sub>O) <!--SR:!2024-10-27,91,250!2024-12-09,134,290-->
-- nitrous oxide (N<sub>2</sub>O)→:::←perflurocarbons (PFCs) <!--SR:!2024-09-20,54,230!2024-09-07,16,150-->
-- perflurocarbons (PFCs)→:::←sulfur hexafluoride (SF<sub>6</sub>) <!--SR:!2024-11-01,70,270!2024-09-06,69,270-->
+- nitrous oxide (N<sub>2</sub>O)→:::←perflurocarbons (PFCs) <!--SR:!2024-09-20,54,230!2024-09-17,10,130-->
+- perflurocarbons (PFCs)→:::←sulfur hexafluoride (SF<sub>6</sub>) <!--SR:!2024-11-01,70,270!2025-03-13,187,270-->
 - sulfur hexafluoride (SF<sub>6</sub>)→:::←_(end)_ <!--SR:!2025-02-14,186,310!2025-03-30,222,310-->
 
 <!--/pytextgen-->

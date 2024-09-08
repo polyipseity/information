@@ -86,7 +86,7 @@ return chain(
 - find the covariance matrix→:::←find the eigenvectors and eigenvalues of the covariance matrix <!--SR:!2024-11-23,109,290!2024-11-29,124,310-->
 - find the eigenvectors and eigenvalues of the covariance matrix→:::←rearrange the eigenvectors and eigenvalues <!--SR:!2025-03-08,186,270!2024-09-20,69,290-->
 - rearrange the eigenvectors and eigenvalues→:::←compute the cumulative variance for each eigenvector <!--SR:!2025-02-19,184,310!2025-01-20,147,290-->
-- compute the cumulative variance for each eigenvector→:::←select a subset of the eigenvectors as the new basis vectors <!--SR:!2024-09-07,58,270!2024-09-13,62,270-->
+- compute the cumulative variance for each eigenvector→:::←select a subset of the eigenvectors as the new basis vectors <!--SR:!2025-04-13,218,290!2024-09-13,62,270-->
 - select a subset of the eigenvectors as the new basis vectors→:::←project the data onto the new basis <!--SR:!2024-10-18,82,270!2025-01-13,158,310-->
 - project the data onto the new basis→:::←_(end)_ <!--SR:!2025-01-31,172,310!2025-01-21,166,310-->
 
@@ -117,7 +117,7 @@ return chain(
     - Use the cumulative variances as {{a guide for choosing an appropriate value for the number of reduced dimensions _l_}}. The goal is to {{choose the smallest _l_ possible while ensuring the _l_-th cumulative variance _g<sub>l</sub>_ is reasonably high on a percentage basis}}. For example, {{one can choose the smallest _l_ such that $\frac {g_l} {g_p} \ge 0.9$}}.
     - After choosing _l_ (or _l_ is given beforehand), only keep {{the first _l_ columns of the eigenvector _V_ to make a _p_ × _l_ matrix __W__ and discard the rest}}.
 9. __<!--pytextgen generate section="f098"--><!-- The following content is generated at 2024-06-11T22:43:08.510681+08:00. Any edits will be overridden! -->project the data onto the new basis<!--/pytextgen-->__
-    - The projected data points are {{the rows of the _n_ × _l_ matrix __T__}}, computed by {{$$\mathbf{T} = \mathbf{B} \mathbf{W}$$}}. <!--SR:!2025-04-06,227,330!2025-03-16,209,330!2025-05-03,247,330!2024-12-14,133,290!2024-09-20,67,270!2024-09-11,68,310!2025-03-01,182,310!2024-10-23,85,270!2025-02-15,176,290!2024-10-04,78,270!2024-09-14,71,310!2025-01-10,146,290!2024-09-15,64,270!2024-11-09,98,290!2025-01-07,138,290!2025-02-26,190,310!2025-01-21,164,310!2025-03-11,204,330!2024-11-02,95,290!2024-12-06,104,250!2024-11-01,97,290!2024-10-24,82,270!2024-09-07,65,310!2025-01-03,151,310!2024-10-14,79,270!2024-12-06,127,290!2024-12-17,136,290!2024-09-27,76,290!2024-12-15,136,310!2024-12-01,120,290!2024-09-13,57,250!2024-09-17,65,270!2024-10-17,80,270-->
+    - The projected data points are {{the rows of the _n_ × _l_ matrix __T__}}, computed by {{$$\mathbf{T} = \mathbf{B} \mathbf{W}$$}}. <!--SR:!2025-04-06,227,330!2025-03-16,209,330!2025-05-03,247,330!2024-12-14,133,290!2024-09-20,67,270!2024-09-11,68,310!2025-03-01,182,310!2024-10-23,85,270!2025-02-15,176,290!2024-10-04,78,270!2024-09-14,71,310!2025-01-10,146,290!2024-09-15,64,270!2024-11-09,98,290!2025-01-07,138,290!2025-02-26,190,310!2025-01-21,164,310!2025-03-11,204,330!2024-11-02,95,290!2024-12-06,104,250!2024-11-01,97,290!2024-10-24,82,270!2025-06-08,274,330!2025-01-03,151,310!2024-10-14,79,270!2024-12-06,127,290!2024-12-17,136,290!2024-09-27,76,290!2024-12-15,136,310!2024-12-01,120,290!2024-09-13,57,250!2024-09-17,65,270!2024-10-17,80,270-->
 
 ## references
 

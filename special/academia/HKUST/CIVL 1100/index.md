@@ -76,7 +76,7 @@ The content is in teaching order.
   - [§ principles of moments](../../../../general/torque.md#principles%20of%20moments)
     - application of principles of moments ::: This means when the moment arm of a force is difficult to find for calculating the moment, instead decompose the force into 2 or more forces (usually horizontal and vertical). Summing the torques from those forces gives the moment. <!--SR:!2024-11-16,125,310!2025-03-05,221,330-->
 - [bending](../../../../general/bending.md)
-  - bending conditions ::: For a pinned support, an object subject to a moment rotates about the support. For a fixed support, an object subject to a moment bends. <!--SR:!2024-09-07,81,301!2025-05-16,277,341-->
+  - bending conditions ::: For a pinned support, an object subject to a moment rotates about the support. For a fixed support, an object subject to a moment bends. <!--SR:!2025-08-10,337,321!2025-05-16,277,341-->
   - [§ quasi-static bending of beams](../../../../general/bending.md#quasi-static%20bending%20of%20beams)
 - [cantilever](../../../../general/cantilever.md) ::: a overhanging structure with only 1 support on 1 end; should be a fixed support to prevent rotation <!--SR:!2024-10-30,114,310!2025-07-06,322,350-->
 - simply supported beam ::: a beam with 2 supports on its 2 ends; should be a pinned support and a roller support to get a statically determinate structure <!--SR:!2024-09-22,82,290!2025-03-22,220,330-->

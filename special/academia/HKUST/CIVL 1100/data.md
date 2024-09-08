@@ -148,7 +148,7 @@ See [Great Wall of China](../../../../general/Great%20Wall%20of%20China.md).
 - component ::: fortress, horse track, pass, shelter, wall, watch tower <!--SR:!2024-09-26,86,316!2024-11-01,135,396-->
 - construction period ::: 220 BC under Qin Shi Huang, and continued up to the Ming dynasty (1368–1644) <!--SR:!2025-02-20,200,356!2024-12-01,159,396-->
 - geographic locations ::: begins in the east at Shanhaiguan (山海關), Hebei; and ends in the west at Jiayuguan (嘉峪關), Gansu <!--SR:!2025-02-23,202,356!2024-10-14,114,376-->
-- length ::: 21196.18 km <!--SR:!2024-09-06,6,256!2024-11-15,147,396-->
+- length ::: 21196.18 km <!--SR:!2024-09-21,14,256!2024-11-15,147,396-->
 
 ## HSBC Main Building
 
@@ -225,7 +225,7 @@ See [Millau Viaduct](../../../../general/Millau%20Viaduct.md).
   - height record ::: as of October 2023, tallest bridge in the world <!--SR:!2024-10-22,126,396!2024-10-22,127,396-->
 - length ::: 2450 m = 204 m + 342 m × 6 + 204 m, longest span: 342 m <!--SR:!2024-09-16,24,316!2024-10-12,118,396-->
 - image ::: ![Millau Viaduct image](../../../../archives/Wikimedia%20Commons/ViaducdeMillau.jpg) <!--SR:!2024-11-04,137,396!2025-10-14,411,396-->
-- opening time ::: 2004-12-16, 09:00 <!--SR:!2024-09-07,15,276!2025-05-30,281,376-->
+- opening time ::: 2004-12-16, 09:00 <!--SR:!2024-10-17,40,276!2025-05-30,281,376-->
 - width ::: 32.05 m <!--SR:!2024-09-09,86,376!2024-09-10,87,376-->
 
 ## Mont Cenis Base Tunnel
@@ -280,7 +280,7 @@ See [Sutong Yangtze River Bridge](../../../../general/Sutong%20Yangtze%20River%2
 See [Taipei 101](Taipei%20101.md).
 
 - description ::: skyscraper in Taipei, Taiwan <!--SR:!2025-03-31,295,350!2026-02-21,535,400-->
-- height ::: architectural: 508.2 m, tip: 509.2 m, top floor: 438 m <!--SR:!2024-09-07,9,130!2024-11-19,179,330-->
+- height ::: architectural: 508.2 m, tip: 509.2 m, top floor: 438 m <!--SR:!2024-09-18,11,130!2024-11-19,179,330-->
 - image ::: ![Taipei 101 image](../../../../archives/Wikimedia%20Commons/Tower%20of%20Taipei%20101(cropped).jpg) <!--SR:!2025-02-07,201,360!2025-07-04,321,380-->
 - [structural system](../../../../general/structural%20system.md) ::: concrete–steel composite<!-- flashcard 16556e6f-00ca-4a87-845c-f0ea2f56807a --> <!--SR:!2024-09-10,92,320!2025-08-01,343,380-->
 
@@ -316,7 +316,7 @@ See [Two Prudential Plaza](../../../../general/Two%20Prudential%20Plaza.md).
 - description ::: 64-story skyscraper located in the Loop area of Chicago, Illinois <!--SR:!2025-06-20,290,320!2025-08-31,399,385-->
 - height ::: architectural: 303 m, top floor: 250 m <!--SR:!2024-09-16,18,181!2025-12-20,488,384-->
 - image ::: ![Two Prudential Plaza image](../../../../archives/Wikimedia%20Commons/Two%20Prudential%20Plaza%20Chicago%20in%20May%202016.jpg) <!--SR:!2025-06-04,294,360!2024-09-14,39,340-->
-- [structural system](../../../../general/structural%20system.md) ::: reinforced concrete<!-- flashcard ecbdac25-22dc-429d-9976-d49408b1478d --> <!--SR:!2024-09-06,38,340!2025-12-30,488,400-->
+- [structural system](../../../../general/structural%20system.md) ::: reinforced concrete<!-- flashcard ecbdac25-22dc-429d-9976-d49408b1478d --> <!--SR:!2025-01-13,128,340!2025-12-30,488,400-->
 
 ## Water Cube
 

@@ -212,16 +212,16 @@ The content is in teaching order.
 - [five whys](../../../../general/five%20whys.md)
 - cause mapping process ::: define the issue by its impact to business goals, visualize the problem, and prevent or mitigate negative impacts <!--SR:!2024-10-08,86,321!2025-03-06,200,341-->
 - cause mapping notation (at least for this course)
-  - cause mapping + MECE dimensions ::: Choose a MECE framework. For one of the causes, split the further causes by MECE dimensions. Label the further causes by their corresponding dimensions. Explain why, if some dimensions are irrelevant and thus has no further causes. <!--SR:!2024-09-28,79,321!2024-09-07,71,341-->
+  - cause mapping + MECE dimensions ::: Choose a MECE framework. For one of the causes, split the further causes by MECE dimensions. Label the further causes by their corresponding dimensions. Explain why, if some dimensions are irrelevant and thus has no further causes. <!--SR:!2024-09-28,79,321!2025-08-05,332,361-->
   - cause mapping § arrow direction ::: cause to effect <!--SR:!2024-09-14,80,361!2024-09-17,83,361-->
   - cause mapping § evidences ::: below the cause, pink background <!--SR:!2024-10-16,92,321!2025-07-13,313,361-->
-  - cause mapping § operators ::: AND, OR <!--SR:!2024-09-29,93,361!2024-09-07,74,361-->
+  - cause mapping § operators ::: AND, OR <!--SR:!2024-09-29,93,361!2025-05-31,266,361-->
   - cause mapping § solutions ::: above the cause, green background <!--SR:!2025-06-10,285,361!2025-07-05,306,361-->
   - cause mapping § symptom ::: red background <!--SR:!2024-09-22,87,361!2024-10-02,96,361-->
 - [5-step persuasive selling](../../../5-step%20persuasive%20selling.md)
   - [§ format](../../../5-step%20persuasive%20selling.md#format)
 - more trees (for TEMG 4950) ::: issue tree and hypothesis tree <!--SR:!2025-04-27,252,361!2024-09-11,78,361-->
-- cause mapping extensions ::: facts table, solutions table <!--SR:!2024-09-06,73,361!2024-09-22,87,361-->
+- cause mapping extensions ::: facts table, solutions table <!--SR:!2025-09-03,361,381!2024-09-22,87,361-->
   - facts table ::: what, when, where, impact <!--SR:!2024-09-19,85,361!2025-02-07,175,341-->
   - solutions table ::: no., cause, solution; optionally, time, persons responsible, budget <!--SR:!2025-02-22,187,341!2024-09-22,87,361-->
 - interview note-taking technique using 1 sheet of A4 paper ::: facts, key question (only 1), analysis <!--SR:!2024-09-26,91,361!2024-10-04,98,361-->

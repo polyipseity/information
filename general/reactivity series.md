@@ -138,7 +138,7 @@ return _chain.from_iterable(await _gather(
 - [calcium](calcium.md)→:::←[magnesium](magnesium.md) <!--SR:!2025-01-25,377,270!2024-10-25,87,230-->
 - [magnesium](magnesium.md)→:::←[beryllium](beryllium.md) <!--SR:!2024-11-19,263,290!2027-04-07,988,290-->
 - [beryllium](beryllium.md)→:::←[aluminium](aluminium.md) <!--SR:!2025-05-07,293,230!2024-09-18,16,150-->
-- [aluminium](aluminium.md)→:::←[titanium](titanium.md) <!--SR:!2024-09-07,56,210!2024-10-14,117,230-->
+- [aluminium](aluminium.md)→:::←[titanium](titanium.md) <!--SR:!2025-01-02,117,210!2024-10-14,117,230-->
 - [titanium](titanium.md)→:::←[manganese](manganese.md) <!--SR:!2024-12-07,372,250!2024-11-21,145,250-->
 - [manganese](manganese.md)→:::←[zinc](zinc.md) <!--SR:!2024-09-13,34,130!2025-04-10,266,210-->
 - [zinc](zinc.md)→:::←[chromium](chromium.md) <!--SR:!2025-03-15,226,210!2025-05-06,383,230-->
@@ -246,7 +246,7 @@ return _chain.from_iterable(await _gather(
 - [beryllium](beryllium.md)::reacts with [steam](steam.md) and [acids](acid.md) <!--SR:!2024-11-06,97,150-->
 - [aluminium](aluminium.md)::reacts with [steam](steam.md) and [acids](acid.md) <!--SR:!2024-10-16,54,150-->
 - [titanium](titanium.md)::reacts with concentrated [mineral acids](mineral%20acid.md) <!--SR:!2025-02-22,417,250-->
-- [manganese](manganese.md)::reacts with [acids](acid.md), poorly with [steam](steam.md) <!--SR:!2024-09-06,33,150-->
+- [manganese](manganese.md)::reacts with [acids](acid.md), poorly with [steam](steam.md) <!--SR:!2024-10-28,52,150-->
 - [zinc](zinc.md)::reacts with [acids](acid.md), poorly with [steam](steam.md) <!--SR:!2027-07-15,1110,290-->
 - [chromium](chromium.md)::reacts with [acids](acid.md), poorly with [steam](steam.md) <!--SR:!2025-07-11,312,250-->
 - [iron](iron.md)::reacts with [acids](acid.md), poorly with [steam](steam.md) <!--SR:!2024-12-06,399,290-->
@@ -294,7 +294,7 @@ return _chain.from_iterable(await _gather(
 - [beryllium](beryllium.md)::[electrolysis](electrolysis.md) <!--SR:!2025-09-02,411,310-->
 - [aluminium](aluminium.md)::[electrolysis](electrolysis.md) <!--SR:!2024-10-07,250,230-->
 - [titanium](titanium.md)::[pyrometallurgical](pyrometallurgy.md) extraction using [magnesium](magnesium.md) <!--SR:!2024-09-24,38,150-->
-- [manganese](manganese.md)::[smelting](smelting.md) with [coke](coke%20(fuel).md) <!--SR:!2024-09-07,62,150-->
+- [manganese](manganese.md)::[smelting](smelting.md) with [coke](coke%20(fuel).md) <!--SR:!2024-10-07,30,130-->
 - [zinc](zinc.md)::[smelting](smelting.md) with [coke](coke%20(fuel).md) <!--SR:!2024-11-16,379,290-->
 - [chromium](chromium.md)::[aluminothermic reaction](aluminothermic%20reaction.md) <!--SR:!2025-09-11,558,270-->
 - [iron](iron.md)::[smelting](smelting.md) with [coke](coke%20(fuel).md) <!--SR:!2026-05-18,777,310-->

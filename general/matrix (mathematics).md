@@ -23,7 +23,7 @@ The _product_ of {{a [scalar](scalar%20(mathematics).md) _c_ and a matrix __A__ 
 
 #### subtraction
 
-The subtraction of {{a matrix __A__ by another matrix __B__ of the same size}} is denoted {{__A__ - __B__}}. It is defined by {{[addition](#addition) of __A__ and __B__ that is scalar multiplied by -1}}: {{$$\mathbf{A} - \mathbf{B} = \mathbf{A} + (-1) \cdot \mathbf{B}$$}} <!--SR:!2025-05-12,252,330!2025-05-31,269,330!2025-01-07,156,310!2024-09-07,65,310-->
+The subtraction of {{a matrix __A__ by another matrix __B__ of the same size}} is denoted {{__A__ - __B__}}. It is defined by {{[addition](#addition) of __A__ and __B__ that is scalar multiplied by -1}}: {{$$\mathbf{A} - \mathbf{B} = \mathbf{A} + (-1) \cdot \mathbf{B}$$}} <!--SR:!2025-05-12,252,330!2025-05-31,269,330!2025-01-07,156,310!2025-06-07,273,330-->
 
 #### transposition
 
@@ -39,7 +39,7 @@ _Multiplication_ of two matrices is defined iff {{the number of columns in the l
 
 - see: [linear equation](linear%20equation.md), [system of linear equations](system%20of%20linear%20equations.md)
 
-Matrices can {{compactly write and work with multiple [linear equations](linear%20equation.md), that is, a [system of linear equations](system%20of%20linear%20equations.md)}}. Let {{__A__ be a _m_-by-_n_ matrix, __x__ be a _n_-by-1 column vector of _n_ variables _x_<sub>1</sub>, _x_<sub>2</sub>, ..., _x_<sub>n</sub>, and __b__ be a _m_-by-1 column vector}}. Then the matrix equation {{$$\mathbf{A} \mathbf{x} = \mathbf{b}$$}} is equivalent to the system of linear equations {{$$\begin{cases} \mathbf{A}_{1, 1} x_1 + \mathbf{A}_{1, 2} x_2 + \cdots + \mathbf{A}_{1, n} x_n & = b_1 \\ \mathbf{A}_{2, 1} x_1 + \mathbf{A}_{2, 2} x_2 + \cdots + \mathbf{A}_{2, n} x_n & = b_2 \\ & \vdots \\ \mathbf{A}_{m, 1} x_1 + \mathbf{A}_{m, 2} x_2 + \cdots + \mathbf{A}_{m, n} x_n & = b_m \end{cases}$$}}. <!--SR:!2025-02-14,182,310!2024-09-06,64,310!2024-09-17,65,270!2024-09-18,66,270-->
+Matrices can {{compactly write and work with multiple [linear equations](linear%20equation.md), that is, a [system of linear equations](system%20of%20linear%20equations.md)}}. Let {{__A__ be a _m_-by-_n_ matrix, __x__ be a _n_-by-1 column vector of _n_ variables _x_<sub>1</sub>, _x_<sub>2</sub>, ..., _x_<sub>n</sub>, and __b__ be a _m_-by-1 column vector}}. Then the matrix equation {{$$\mathbf{A} \mathbf{x} = \mathbf{b}$$}} is equivalent to the system of linear equations {{$$\begin{cases} \mathbf{A}_{1, 1} x_1 + \mathbf{A}_{1, 2} x_2 + \cdots + \mathbf{A}_{1, n} x_n & = b_1 \\ \mathbf{A}_{2, 1} x_1 + \mathbf{A}_{2, 2} x_2 + \cdots + \mathbf{A}_{2, n} x_n & = b_2 \\ & \vdots \\ \mathbf{A}_{m, 1} x_1 + \mathbf{A}_{m, 2} x_2 + \cdots + \mathbf{A}_{m, n} x_n & = b_m \end{cases}$$}}. <!--SR:!2025-02-14,182,310!2025-06-06,273,330!2024-09-17,65,270!2024-09-18,66,270-->
 
 ## references
 

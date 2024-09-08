@@ -114,7 +114,7 @@ The content is in teaching order.
 - [hierarchial clustering § cluster linkage](../../../../general/hierarchical%20clustering.md#cluster%20linkage)
 - [hierarchial clustering § agglomerative clustering](../../../../general/hierarchical%20clustering.md#agglomerative%20clustering)
 - [hierarchial clustering § divisive clustering](../../../../general/hierarchical%20clustering.md#divisive%20clustering)
-  - divisive clustering ::: We prefer divisive clustering to stop after a certain amount of clusters are created instead of using the [dendrogram](../../../../general/dendrogram.md). <!--SR:!2024-09-06,107,311!2025-02-07,234,347-->
+  - divisive clustering ::: We prefer divisive clustering to stop after a certain amount of clusters are created instead of using the [dendrogram](../../../../general/dendrogram.md). <!--SR:!2025-08-05,332,311!2025-02-07,234,347-->
 - [hierarchial clustering § monothetic clustering](../../../../general/hierarchical%20clustering.md#monothetic%20clustering)
 - [hierarchial clustering § chi-squared monothetic clustering](../../../../general/hierarchical%20clustering.md#chi-squared%20monothetic%20clustering)
 
@@ -404,7 +404,7 @@ The content is in teaching order.
   - [§ algorithms](../../../../general/materialized%20view.md#algorithms)
   - [§ terminology](../../../../general/materialized%20view.md#terminology)
   - [§ greedy algorithm](../../../../general/materialized%20view.md#greedy%20algorithm)
-- web database ranking considerations ::: When searching for something using a search engine, apart from matching terms, incoming and outgoing links are also considered. <!--SR:!2024-09-07,67,357!2024-10-18,101,377-->
+- web database ranking considerations ::: When searching for something using a search engine, apart from matching terms, incoming and outgoing links are also considered. <!--SR:!2025-07-31,327,377!2024-10-18,101,377-->
 - [HITS algorithm](../../../../general/HITS%20algorithm.md)
   - [§ steps](../../../../general/HITS%20algorithm.md#steps)
     - HITS algorithm variant ::: It does not matter because we only use the recursive expressions to calculate the new authority and hub values. <!--SR:!2024-10-15,99,377!2024-10-12,96,377-->
