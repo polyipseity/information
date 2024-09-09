@@ -21,11 +21,11 @@ The __Hertzsprung–Russell diagram__ (abbreviated as __H–R diagram__, __HR di
 
 ## forms of diagram
 
-There are {{several forms of the Hertzsprung–Russell diagram, and the [nomenclature](nomenclature.md) is not very well defined}}. All forms share the same general layout: {{[stars](star.md) of greater [luminosity](luminosity.md) are toward the top of the diagram, and stars with higher surface [temperature](temperature.md) are toward the left side of the diagram}}. <!--SR:!2024-10-12,61,310!2024-09-09,35,290-->
+There are {{several forms of the Hertzsprung–Russell diagram, and the [nomenclature](nomenclature.md) is not very well defined}}. All forms share the same general layout: {{[stars](star.md) of greater [luminosity](luminosity.md) are toward the top of the diagram, and stars with higher surface [temperature](temperature.md) are toward the left side of the diagram}}. <!--SR:!2024-10-12,61,310!2025-01-27,140,310-->
 
 The original diagram displayed {{the [spectral type](stellar%20classification.md#spectral%20type) of [stars](star.md) on the horizontal axis and the [absolute visual magnitude](absolute%20magnitude.md) on the vertical axis}}. <!--SR:!2024-10-14,52,250-->
 
-Another form of the diagram plots {{the effective surface [temperature](temperature.md) of the [star](star.md) on one axis and the [luminosity](luminosity.md) of the star on the other}}, almost invariably {{in a [log–log plot](log–log%20plot.md)}}. <!--SR:!2024-09-08,34,290!2024-09-09,34,290-->
+Another form of the diagram plots {{the effective surface [temperature](temperature.md) of the [star](star.md) on one axis and the [luminosity](luminosity.md) of the star on the other}}, almost invariably {{in a [log–log plot](log–log%20plot.md)}}. <!--SR:!2025-01-26,139,310!2025-01-25,138,310-->
 
 ## interpretation
 

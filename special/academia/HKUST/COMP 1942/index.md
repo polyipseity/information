@@ -347,11 +347,11 @@ The content is in teaching order.
   - [§ nonlinear kernels](../../../../general/support%20vector%20machine.md#nonlinear%20kernels)
 - accuracy ::: [accuracy and precision § in binary classification](../../../../general/accuracy%20and%20precision.md#in%20binary%20classification) <!--SR:!2024-09-16,70,357!2024-09-20,73,357-->
 - [precision and recall](../../../../general/precision%20and%20recall.md), [sensitivity and specificity § sensitivity](../../../../general/sensitivity%20and%20specificity.md#sensitivity)
-- F-measure ::: [F-score § definition](../../../../general/F-score.md#definition) <!--SR:!2024-10-12,97,377!2024-09-09,64,357-->
+- F-measure ::: [F-score § definition](../../../../general/F-score.md#definition) <!--SR:!2024-10-12,97,377!2025-07-19,313,377-->
 - [sensitivity and specificity § specificity](../../../../general/sensitivity%20and%20specificity.md#specificity)
 - [false positives and false negatives](../../../../general/false%20positives%20and%20false%20negatives.md)
 - [training, validation, and test data sets](../../../../general/training,%20validation,%20and%20test%20data%20sets.md)
-  - new data set ::: The data set to be predicted that does not have the actual values of the predicted attributes to compare against. Essentially, the model is being put into practical use. <!--SR:!2024-09-08,68,357!2025-07-20,318,377-->
+  - new data set ::: The data set to be predicted that does not have the actual values of the predicted attributes to compare against. Essentially, the model is being put into practical use. <!--SR:!2025-08-07,332,377!2025-07-20,318,377-->
 
 ## week 12 lab
 

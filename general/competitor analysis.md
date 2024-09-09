@@ -72,7 +72,7 @@ why: Why are people using competitors' products?
 - _(begin)_→:::←compare: Identify similarities and differences between our and their products. <!--SR:!2025-01-27,145,261!2025-04-15,260,334-->
 - compare: Identify similarities and differences between our and their products.→:::←copy: Identify advantages and capabilities our products lack compared to others. <!--SR:!2025-03-05,191,274!2025-06-06,281,301-->
 - copy: Identify advantages and capabilities our products lack compared to others.→:::←discover: Identify unmet needs. <!--SR:!2024-10-18,49,221!2024-09-10,70,241-->
-- discover: Identify unmet needs.→:::←how: What is our strategy? <!--SR:!2024-10-15,57,201!2024-09-09,16,221-->
+- discover: Identify unmet needs.→:::←how: What is our strategy? <!--SR:!2024-10-15,57,201!2024-10-13,34,221-->
 - how: What is our strategy?→:::←pricing: Compare prices. <!--SR:!2024-09-12,8,150!2024-10-03,52,241-->
 - pricing: Compare prices.→:::←who: Who are the competitors? 3 to 5 is usually enough. <!--SR:!2024-09-27,50,241!2025-01-23,158,261-->
 - who: Who are the competitors? 3 to 5 is usually enough.→:::←why: Why are people using competitors' products? <!--SR:!2024-10-13,103,281!2024-09-15,73,241-->
@@ -173,7 +173,7 @@ number of features
 - durability→:::←service <!--SR:!2024-12-24,150,301!2024-09-29,32,221-->
 - service→:::←convenience <!--SR:!2024-09-24,20,181!2024-11-18,75,281-->
 - convenience→:::←ease of use <!--SR:!2024-10-26,103,261!2025-01-10,172,314-->
-- ease of use→:::←number of features <!--SR:!2024-09-16,51,261!2024-09-08,47,254-->
+- ease of use→:::←number of features <!--SR:!2024-09-16,51,261!2024-10-02,23,234-->
 - number of features→:::←_(least important)_ <!--SR:!2025-06-03,299,334!2025-06-29,318,341-->
 
 <!--/pytextgen-->

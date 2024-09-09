@@ -237,7 +237,7 @@ The steps for naming an organic compound are:
 
 - _(begin)_→:::←bond order: single bond, double bond, triple bond, ... <!--SR:!2026-03-04,917,292!2025-06-20,387,287-->
 - bond order: single bond, double bond, triple bond, ...→:::←prefix order: alphabetical order ignoring prefixes for type count <!--SR:!2026-05-03,802,250!2024-11-29,563,322-->
-- prefix order: alphabetical order ignoring prefixes for type count→:::←_(end)_ <!--SR:!2026-01-10,880,340!2024-09-08,441,322-->
+- prefix order: alphabetical order ignoring prefixes for type count→:::←_(end)_ <!--SR:!2026-01-10,880,340!2025-04-17,220,302-->
 
 <!--/pytextgen-->
 
@@ -677,7 +677,7 @@ return await memorize_table(
 - [acetone](acetone.md)→:::←[chloroform](chloroform.md) <!--SR:!2027-03-26,1038,344!2025-11-25,553,364-->
 - [chloroform](chloroform.md)→:::←[formaldehyde](formaldehyde.md) <!--SR:!2024-11-25,140,344!2025-01-11,242,304-->
 - [formaldehyde](formaldehyde.md)→:::←[isopropyl alcohol](isopropyl%20alochol.md) <!--SR:!2025-04-07,336,324!2025-01-11,177,344-->
-- [isopropyl alcohol](isopropyl%20alochol.md)→:::←_(end)_ <!--SR:!2024-09-09,418,384!2024-09-20,233,304-->
+- [isopropyl alcohol](isopropyl%20alochol.md)→:::←_(end)_ <!--SR:!2029-01-30,1604,384!2024-09-20,233,304-->
 
 <!--/pytextgen-->
 

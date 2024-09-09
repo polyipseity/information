@@ -21,11 +21,11 @@ The output of the _k_-th neuron is: {{$$y_k = \varphi\left(\sum_{j = 0}^m w_{kj}
 
 The [activation function](activation%20function.md) of a neurons is chosen {{to have properties enhancing or simplifying the network}}. Crucially, {{any [multilayer perceptron](multilayer%20perceptron.md) using a _linear_ activation function has a equivalent single-layer network, which can be proved mathematically; thus, a non-linear function is needed to leverage the full power of a multilayer network}}. <!--SR:!2024-09-10,68,310!2025-01-09,152,310-->
 
-Below, _u_, also called {{the _net input_}}, is {{the weighted sum of all inputs to the neuron, including the bias}}. For _m + 1_ inputs as described above: {{$$u = \sum_{j = 0}^m w_{kj} x_j = b_k + \sum_{j = 1}^m w_{kj} x_j$$}}. <!--SR:!2025-04-27,241,330!2024-09-08,66,310!2024-12-04,127,290-->
+Below, _u_, also called {{the _net input_}}, is {{the weighted sum of all inputs to the neuron, including the bias}}. For _m + 1_ inputs as described above: {{$$u = \sum_{j = 0}^m w_{kj} x_j = b_k + \sum_{j = 1}^m w_{kj} x_j$$}}. <!--SR:!2025-04-27,241,330!2025-06-18,282,330!2024-12-04,127,290-->
 
 ### step function
 
-The output of _y_ is {{binary depending on whether the net input meets a specified threshold, _θ_}}: {{$$y = \begin{cases} 1 & \text{if }u \ge \theta \\ 0 & \text{if }u < \theta \end{cases}$$}}. <!--SR:!2025-04-10,227,330!2024-09-09,67,310-->
+The output of _y_ is {{binary depending on whether the net input meets a specified threshold, _θ_}}: {{$$y = \begin{cases} 1 & \text{if }u \ge \theta \\ 0 & \text{if }u < \theta \end{cases}$$}}. <!--SR:!2025-04-10,227,330!2025-06-21,285,330-->
 
 Usually, the threshold _θ_ is {{chosen to be 0}}. <!--SR:!2025-05-16,258,330-->
 

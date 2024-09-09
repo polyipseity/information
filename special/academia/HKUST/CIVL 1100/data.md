@@ -95,7 +95,7 @@ See [CITIC Plaza](../../../../general/CITIC%20Plaza.md).
 
 - description ::: super tall skyscraper in Guangzhou, Guangdong, China <!--SR:!2025-02-22,203,292!2025-11-09,454,387-->
 - height ::: architectural: 390.2 m, top floor: 296.9 m <!--SR:!2024-11-15,78,181!2025-02-27,231,352-->
-- image ::: ![China International Trust and Investment Plaza image](../../../../archives/Wikimedia%20Commons/CITIC%20Plaza%202017.jpg) <!--SR:!2025-05-22,283,360!2024-09-08,104,380-->
+- image ::: ![China International Trust and Investment Plaza image](../../../../archives/Wikimedia%20Commons/CITIC%20Plaza%202017.jpg) <!--SR:!2025-05-22,283,360!2026-03-05,542,400-->
 - [structural system](../../../../general/structural%20system.md) ::: reinforced concrete<!-- flashcard ebde3927-b7ca-4808-9e3c-bf6078be3654 --> <!--SR:!2024-09-18,41,340!2025-12-04,469,400-->
 
 ## Colosseum
@@ -115,7 +115,7 @@ See [Eiffel Tower](../../../../general/Eiffel%20Tower.md).
 
 - description ::: tower on the Champ de Mars in Paris, France <!--SR:!2025-02-02,220,347!2024-12-15,205,330-->
 - height ::: architectural: 300 m, tip, 330 m, top floor: 276 m <!--SR:!2025-06-06,281,317!2025-01-31,244,330-->
-- image ::: ![Eiffel Tower image](../../../../archives/Wikimedia%20Commons/Tour%20Eiffel%20Wikimedia%20Commons%20(cropped).jpg) <!--SR:!2024-09-09,105,380!2024-09-10,106,380-->
+- image ::: ![Eiffel Tower image](../../../../archives/Wikimedia%20Commons/Tour%20Eiffel%20Wikimedia%20Commons%20(cropped).jpg) <!--SR:!2026-03-07,544,400!2024-09-10,106,380-->
 - shape ::: exponential <!--SR:!2025-03-03,272,350!2025-01-16,252,335-->
 
 ## Empire State Building
@@ -206,12 +206,12 @@ See [John Hancock Center](John%20Hancock%20Center.md).
 
 - description ::: skyscraper in Chicago, Illinois <!--SR:!2025-04-12,235,295!2025-08-03,376,387-->
 - height ::: architectural: 344 m, tip: 457 m, top floor: 321 m <!--SR:!2024-10-15,56,197!2025-01-14,230,330-->
-- image ::: ![John Hancock Center image](../../../../archives/Wikimedia%20Commons/Chicago%20(22332583569).jpg) <!--SR:!2025-10-20,430,400!2024-09-08,104,380-->
+- image ::: ![John Hancock Center image](../../../../archives/Wikimedia%20Commons/Chicago%20(22332583569).jpg) <!--SR:!2025-10-20,430,400!2025-10-08,394,380-->
 - [structural system](../../../../general/structural%20system.md) ::: steel<!-- flashcard cdb6c7b6-65ec-475e-8c89-c66ec42bacd2 --> <!--SR:!2024-09-26,106,300!2025-11-19,456,400-->
 
 ## MOSE
 
-- image ::: ![MOSE image](../../../../archives/Wikimedia%20Commons/05%20bocca%20di%20lido.jpg) <!--SR:!2025-05-09,274,360!2024-09-09,105,380-->
+- image ::: ![MOSE image](../../../../archives/Wikimedia%20Commons/05%20bocca%20di%20lido.jpg) <!--SR:!2025-05-09,274,360!2026-03-08,545,400-->
 - type ::: mobile gates <!--SR:!2024-09-16,113,337!2025-04-23,290,367-->
 
 ## Millau Viaduct
@@ -226,7 +226,7 @@ See [Millau Viaduct](../../../../general/Millau%20Viaduct.md).
 - length ::: 2450 m = 204 m + 342 m × 6 + 204 m, longest span: 342 m <!--SR:!2024-09-16,24,316!2024-10-12,118,396-->
 - image ::: ![Millau Viaduct image](../../../../archives/Wikimedia%20Commons/ViaducdeMillau.jpg) <!--SR:!2024-11-04,137,396!2025-10-14,411,396-->
 - opening time ::: 2004-12-16, 09:00 <!--SR:!2024-10-17,40,276!2025-05-30,281,376-->
-- width ::: 32.05 m <!--SR:!2024-09-09,86,376!2024-09-10,87,376-->
+- width ::: 32.05 m <!--SR:!2024-10-21,42,356!2024-09-10,87,376-->
 
 ## Mont Cenis Base Tunnel
 

@@ -15,7 +15,7 @@ tags:
 
 __Newton's laws of motion__ are {{three [physical laws](scientific%20law.md) that describe the relationship between the [motion](motion.md) of an object and the [forces](force.md) acting on it}}. These laws, which provide {{the basis for __Newtonian mechanics__}}, can be paraphrased as follows: <!--SR:!2024-09-26,54,310!2024-09-23,53,310-->
 
-1. [first law](#first%20law) ::: A body remains at rest, or in [motion](motion.md) at a constant [speed](speed.md) in a straight line, except insofar as it is acted upon by a [force](force.md). <!--SR:!2024-09-08,40,290!2025-02-18,164,310-->
+1. [first law](#first%20law) ::: A body remains at rest, or in [motion](motion.md) at a constant [speed](speed.md) in a straight line, except insofar as it is acted upon by a [force](force.md). <!--SR:!2025-02-16,160,310!2025-02-18,164,310-->
 2. [second law](#second%20law) ::: At any instant of [time](time.md), the [net force](net%20force.md) on a body is equal to the body's [acceleration](acceleration.md) multiplied by its [mass](mass.md) or, equivalently, the rate at which the body's [momentum](momentum.md) is changing with time. <!--SR:!2024-09-14,44,290!2025-02-08,156,310-->
 3. [third law](#third%20law.md) ::: If two bodies exert [forces](force.md) on each other, these forces have the same [magnitude](magnitude%20(mathematics).md) but opposite directions. <!--SR:!2025-01-26,146,310!2024-10-06,63,310-->
 

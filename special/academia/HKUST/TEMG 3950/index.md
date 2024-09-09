@@ -234,7 +234,7 @@ The content is in teaching order.
 
 - time: 2024-04-16T18:00:00+08:00/2024-04-16T20:30:00+08:00
 - [assignment W11](assignment%20W11/assignment%20W11.md) takeaways
-  - general case analysis reading takeaways ::: read twice, first fast, then slow and take notes <!--SR:!2024-09-08,72,357!2024-10-10,102,377-->
+  - general case analysis reading takeaways ::: read twice, first fast, then slow and take notes <!--SR:!2025-08-27,352,377!2024-10-10,102,377-->
 - McKinsey 7Ss framework ::: organization analysis <!--SR:!2025-04-14,245,377!2024-10-05,98,377-->
   - [McKinsey 7S Framework](../../../../general/McKinsey%207S%20Framework.md)
     - [§ objective](../../../../general/McKinsey%207S%20Framework.md#objective)

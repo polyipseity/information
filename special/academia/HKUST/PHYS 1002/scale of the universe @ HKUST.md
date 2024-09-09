@@ -64,7 +64,7 @@ return await memorize_seq(
 - [Mars](../../../../general/Mars.md): radius of 0.03 cm, distance of 23 m→:::←[Jupiter](../../../../general/Jupiter.md): radius of 0.7 cm, distance of 78 m (atrium center) <!--SR:!2024-10-21,48,218!2024-09-22,55,250-->
 - [Jupiter](../../../../general/Jupiter.md): radius of 0.7 cm, distance of 78 m (atrium center)→:::←[Saturn](../../../../general/Saturn.md): radius of 0.6 cm, distance of 142 m <!--SR:!2024-11-23,97,278!2024-10-02,51,250-->
 - [Saturn](../../../../general/Saturn.md): radius of 0.6 cm, distance of 142 m→:::←[Uranus](../../../../general/Uranus.md): radius of 0.25 cm, distance of 287 m <!--SR:!2024-09-27,41,198!2024-09-21,25,210-->
-- [Uranus](../../../../general/Uranus.md): radius of 0.25 cm, distance of 287 m→:::←[Neptune](../../../../general/Neptune.md): radius of 0.24 cm, distance of 449 m <!--SR:!2024-10-30,72,250!2024-09-08,34,230-->
+- [Uranus](../../../../general/Uranus.md): radius of 0.25 cm, distance of 287 m→:::←[Neptune](../../../../general/Neptune.md): radius of 0.24 cm, distance of 449 m <!--SR:!2024-10-30,72,250!2024-11-25,77,230-->
 - [Neptune](../../../../general/Neptune.md): radius of 0.24 cm, distance of 449 m→:::←[Pluto](../../../../general/Pluto.md): radius of 0.01 cm, distance of 590 m <!--SR:!2024-10-12,44,226!2024-10-25,78,266-->
 - [Pluto](../../../../general/Pluto.md): radius of 0.01 cm, distance of 590 m→:::←[Alpha Centauri](../../../../general/Alpha%20Centauri.md): distance of 4400 km (4.4 ly; Kabul, Afghanistan or Siberia, Russia) <!--SR:!2024-10-01,61,250!2024-10-24,79,286-->
 - [Alpha Centauri](../../../../general/Alpha%20Centauri.md): distance of 4400 km (4.4 ly; Kabul, Afghanistan or Siberia, Russia)→:::←[Milky Way](../../../../general/Milky%20Way.md): radius of 0.5 AU (half of the unscaled distance between the Sun and Earth) <!--SR:!2024-11-03,92,298!2025-03-27,206,318-->
@@ -74,7 +74,7 @@ return await memorize_seq(
 
 The scale model shows that {{the [Solar System](../../../../general/Solar%20System.md) consists of mostly empty space}}. <!--SR:!2024-10-04,75,326-->
 
-A real model of this scale factor currently exists in {{Washington DC, with the gold sphere as the [Sun](../../../../general/Sun.md)}}. <!--SR:!2024-09-09,56,310-->
+A real model of this scale factor currently exists in {{Washington DC, with the gold sphere as the [Sun](../../../../general/Sun.md)}}. <!--SR:!2025-05-06,239,330-->
 
 ## scale factor of 10 quintillion
 

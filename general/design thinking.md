@@ -30,7 +30,7 @@ Convergent thinking is supposed to {{find the best and the most concrete solutio
 
 Design thinking can integrate {{human values like usability and desirability, technology feasibility, and business viability}} together for innovation. Innovation depends on {{the context. For example, commercialization of creative ideas is the definition for venture capitalists}}. <!--SR:!2024-11-16,132,270!2025-04-09,256,330-->
 
-User desirability describes {{how much people want the product, depending on their needs and desires}}. This can be achieved by {{deeply understanding users via an empathetic design process, such as putting ourselves in the shoes of the customers}}. <!--SR:!2024-09-08,80,270!2025-03-11,200,270-->
+User desirability describes {{how much people want the product, depending on their needs and desires}}. This can be achieved by {{deeply understanding users via an empathetic design process, such as putting ourselves in the shoes of the customers}}. <!--SR:!2025-07-07,301,290!2025-03-11,200,270-->
 
 Technology feasibility describes {{the possibility of producing a product within allocated budget and time}}. Three important factors to consider are {{science and engineering, money, and time}}. <!--SR:!2024-10-30,127,290!2025-03-26,247,330-->
 

@@ -46,7 +46,7 @@ The content is in teaching order.
   - statistics / branches ::: descriptive statistics, inferential statistics <!--SR:!2024-09-14,11,270!2024-09-19,15,290-->
 - [descriptive statistics](../../../../general/descriptive%20statistics.md) ::: data collection, summarization, and presentation <!--SR:!2024-09-18,14,290!2024-09-17,13,290-->
   - descriptive statistics / methodologies ::: graphical (e.g. box plot, histogram), numerical (e.g. sample mean, sample median, sample quartile, sample variance), tabular (e.g. frequency table) <!--SR:!2024-09-17,13,290!2024-09-19,15,290-->
-  - descriptive statistics / steps ::: collect (e.g. sampling, surveying) → classify (e.g. grouping) → characterize (e.g. sample mean) → present (e.g. box plot, table) <!--SR:!2024-09-09,6,250!2024-09-21,17,290-->
+  - descriptive statistics / steps ::: collect (e.g. sampling, surveying) → classify (e.g. grouping) → characterize (e.g. sample mean) → present (e.g. box plot, table) <!--SR:!2024-09-23,14,250!2024-09-21,17,290-->
 - [inferential statistics](../../../../general/statistical%20inference.md) ::: statistical procedures that use data from an observed _sample_ to make a conclusion about a _population_ <!--SR:!2024-09-17,13,290!2024-09-20,16,290-->
   - inferential statistics / key terms ::: _population_: a collection of all objects of interest, _sample_: an analyzed part of the _population_; _parameter_: a numerical measure describing a _population_, _statistic_: a numerical measure describing a _sample_ <!--SR:!2024-09-17,13,290!2024-09-20,16,290-->
   - inferential statistics / reasons for sampling ::: cost-effectiveness, practicality <!--SR:!2024-09-15,12,270!2024-09-18,14,290-->
@@ -64,7 +64,7 @@ The content is in teaching order.
 - [_R_](../../../../general/R%20(programming%20language).md) ::: a programming language for statistical computing and data visualization <!--SR:!2024-09-21,17,290!2024-09-21,17,290-->
   - _R_ / website ::: <https://r-project.org/> <!--SR:!2024-09-18,14,290!2024-09-18,14,290-->
   - _R_ / components ::: _R_, _R_ console, RStudio <!--SR:!2024-09-21,17,290!2024-09-17,13,290-->
-  - _R_ / help commands ::: `help.start()`: general help, `help(<foo>)`, `?<foo>`: help about `<foo>`, `apropos("<foo>")`: list all functions containing the string `<foo>`, `example(<foo>)`: show an example of the function `<foo>` <!--SR:!2024-09-09,6,250!2024-09-20,16,290-->
+  - _R_ / help commands ::: `help.start()`: general help, `help(<foo>)`, `?<foo>`: help about `<foo>`, `apropos("<foo>")`: list all functions containing the string `<foo>`, `example(<foo>)`: show an example of the function `<foo>` <!--SR:!2024-09-22,13,250!2024-09-20,16,290-->
 
 ## week 1 lecture 2
 

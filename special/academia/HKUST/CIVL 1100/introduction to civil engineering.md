@@ -233,7 +233,7 @@ water security
 <!--pytextgen generate section="9f12"--><!-- The following content is generated at 2024-02-16T21:59:47.097705+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←climate change <!--SR:!2024-10-25,164,325!2025-02-24,228,350-->
-- climate change→:::←extreme weather <!--SR:!2024-09-09,102,337!2025-01-04,199,350-->
+- climate change→:::←extreme weather <!--SR:!2025-08-18,343,337!2025-01-04,199,350-->
 - extreme weather→:::←food security <!--SR:!2024-11-12,150,330!2025-03-06,235,347-->
 - food security→:::←mega-cities <!--SR:!2025-12-02,460,372!2024-09-18,100,320-->
 - mega-cities→:::←water security <!--SR:!2025-03-02,229,360!2024-12-30,187,354-->
@@ -498,7 +498,7 @@ teaming up with others
 
 <!--pytextgen generate section="ee20"--><!-- The following content is generated at 2024-02-16T21:59:47.378182+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←business procedures <!--SR:!2024-11-02,111,252!2024-09-08,107,381-->
+- _(begin)_→:::←business procedures <!--SR:!2024-11-02,111,252!2026-03-19,557,401-->
 - business procedures→:::←economics <!--SR:!2024-11-19,82,261!2025-02-10,193,285-->
 - economics→:::←human behaviors <!--SR:!2024-09-28,42,300!2024-10-23,131,340-->
 - human behaviors→:::←management principles <!--SR:!2024-12-25,139,300!2024-11-04,95,260-->
@@ -635,8 +635,8 @@ water
 <!--pytextgen generate section="736f"--><!-- The following content is generated at 2024-02-16T21:59:47.573916+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←air <!--SR:!2025-01-07,182,341!2025-12-28,486,401-->
-- air→:::←environmental impact assessment (EIA) <!--SR:!2024-12-08,168,318!2024-09-09,108,338-->
-- environmental impact assessment (EIA)→:::←noise <!--SR:!2024-09-08,107,327!2026-01-08,497,400-->
+- air→:::←environmental impact assessment (EIA) <!--SR:!2024-12-08,168,318!2025-09-08,364,338-->
+- environmental impact assessment (EIA)→:::←noise <!--SR:!2025-08-23,349,327!2026-01-08,497,400-->
 - noise→:::←waste <!--SR:!2024-11-15,95,340!2024-12-23,190,355-->
 - waste→:::←water <!--SR:!2025-01-20,202,357!2025-03-30,251,360-->
 - water→:::←_(end)_ <!--SR:!2025-11-18,455,400!2025-07-31,343,380-->
@@ -984,7 +984,7 @@ Two Prudential Plaza
 
 - _(begin)_→:::←Central Plaza (Hong Kong) <!--SR:!2025-05-25,278,317!2025-12-02,475,387-->
 - Central Plaza (Hong Kong)→:::←China International Trust and Investment (CITIC) Plaza <!--SR:!2025-06-18,300,334!2024-09-17,101,340-->
-- China International Trust and Investment (CITIC) Plaza→:::←Two Prudential Plaza <!--SR:!2024-10-29,131,340!2024-09-09,20,240-->
+- China International Trust and Investment (CITIC) Plaza→:::←Two Prudential Plaza <!--SR:!2024-10-29,131,340!2024-10-24,45,240-->
 - Two Prudential Plaza→:::←_(end)_ <!--SR:!2025-02-26,248,375!2024-09-15,101,320-->
 
 <!--/pytextgen-->
@@ -1097,12 +1097,12 @@ water tower
 - _(begin)_→:::←bridge <!--SR:!2024-10-23,142,335!2025-11-12,457,400-->
 - bridge→:::←building <!--SR:!2025-01-24,203,350!2026-01-07,496,400-->
 - building→:::←dam <!--SR:!2025-05-03,277,361!2025-01-17,198,361-->
-- dam→:::←power plant <!--SR:!2024-09-08,33,281!2024-10-17,82,238-->
+- dam→:::←power plant <!--SR:!2024-12-09,92,281!2024-10-17,82,238-->
 - power plant→:::←storage facility <!--SR:!2025-01-30,185,300!2024-09-12,111,334-->
-- storage facility→:::←tunnel <!--SR:!2024-09-09,37,280!2025-09-29,392,340-->
+- storage facility→:::←tunnel <!--SR:!2024-12-21,103,280!2025-09-29,392,340-->
 - tunnel→:::←unusual structure <!--SR:!2024-09-19,83,247!2024-10-17,121,320-->
 - unusual structure→:::←water tower <!--SR:!2024-12-19,108,290!2024-09-26,19,270-->
-- water tower→:::←_(end)_ <!--SR:!2025-11-24,467,387!2024-09-08,55,281-->
+- water tower→:::←_(end)_ <!--SR:!2025-11-24,467,387!2025-04-10,214,301-->
 
 <!--/pytextgen-->
 

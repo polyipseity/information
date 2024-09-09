@@ -21,7 +21,7 @@ Audacity can show {{the spectrogram of a signal}}. <!--SR:!2024-11-09,68,329-->
 
 ### generating periodic signals
 
-Audacity can generate {{real sine signals of any frequency and amplitude}}. The signals can also be {{non-sinusoidal, such as _sawtooth_-shaped and _triangle_-shaped}}, which have {{more complex frequency components}}. It can even generate signals that {{increases in frequency over time (increasing pitch)}}, called {{_chirp_}}. <!--SR:!2024-09-15,17,318!2024-09-08,10,298!2024-09-15,17,318!2024-09-13,15,318!2024-09-14,16,318-->
+Audacity can generate {{real sine signals of any frequency and amplitude}}. The signals can also be {{non-sinusoidal, such as _sawtooth_-shaped and _triangle_-shaped}}, which have {{more complex frequency components}}. It can even generate signals that {{increases in frequency over time (increasing pitch)}}, called {{_chirp_}}. <!--SR:!2024-09-15,17,318!2024-10-22,43,318!2024-09-15,17,318!2024-09-13,15,318!2024-09-14,16,318-->
 
 ## SonicVisualiser
 
