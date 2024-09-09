@@ -17,6 +17,7 @@ tags:
 # index
 
 - HKUST CIVL 1100
+- name: Discovering Civil and Environmental Engineering
 
 The content is in teaching order.
 

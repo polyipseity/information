@@ -1,6 +1,6 @@
 ---
 aliases:
-  - augmented matrix, system of linear equations, and row equivalence
+  - augmented matrix, row equivalence, and system of linear equations
 tags:
   - date/2024/09/08
   - flashcard/active/special/questions/augmented_matrix__system_of_linear_equations__and_row_equivalence
@@ -8,7 +8,7 @@ tags:
   - question/mathematics/linear_algebra
 ---
 
-# augmented matrix, system of linear equations, and row equivalence
+# augmented matrix, row equivalence, and system of linear equations
 
 - time: 2024-09-08T18:33:38+08:00
 
@@ -20,7 +20,7 @@ Note: The above still applies even if there are less than 2 equations and 1 vari
 
 ## strategy
 
-- Is the converse, equivalent systems have row equivalent augmented matrices true? ::: Intuitively, this is true... But actually this is false. So intuition does not work well if the question is asking if a general statement is correct. (This happened while designing this question, causing the question to be changed to this weird form.) <!--SR:!2024-09-13,4,270!2024-09-13,4,270-->
+- Is the converse, equivalent systems have row equivalent augmented matrices true? ::: Intuitively, this is true... But actually this is false. So intuition does not work well if the question is asking if a general statement is correct. (This happened while designing this question, causing the question to be changed into this weird form.) <!--SR:!2024-09-13,4,270!2024-09-13,4,270-->
 - manipulating augmented matrices ::: Treat augmented matrices as normal matrices, and see what you can do with it... <!--SR:!2024-09-13,4,270!2024-09-13,4,270-->
 - proving the row equivalence of two matrices ::: If the (right) nullspaces of two matrices are equal, then their row spaces are equal as they are orthogonal complements of the nullspaces. Then, the matrices are row equivalent, because elementary row operations can generate all other bases in the row space given one basis. <!--SR:!2024-09-13,4,270!2024-09-13,4,270-->
 
@@ -78,7 +78,7 @@ It is impossible for a homogeneous system and an inhomogeneous one to be equival
 
 If the two systems are originally both inhomogeneous, equality cannot be proved, so we need to introduce a mild condition. (This was the problem encountered while trying to prove the converse is true, which is not.) The mild condition is that __the two original systems of linear equations are consistent, or equivalently, have a _nonempty_ set of solution__. Then, we can prove it: Assume there exists two equivalent inhomogeneous systems, but their corresponding homogeneous systems are not equivalent. Then we can take any solution A from the _nonempty_ set of solution for the two equivalent inhomogeneous systems. Then also take a solution B that is a solution to one of the homogeneous system but not the other (this must exist because a homogeneous system must have the zero solution). Add the inhomogeneous solution A and the homogeneous solution B together to produce a new solution C for the two equivalent inhomogeneous systems. This creates a contradiction. The solution C could not have been a solution for both inhomogeneous systems, otherwise their corresponding homogeneous systems would have had the solution B. So we conclude that their corresponding homogeneous systems are also equivalent.
 
-This proves that the (right) nullspace of the augmented matrix, treated as a normal matrix, are the same for two equivalent systems, under the mild condition that the systems are consistent. Then, this implies the row space of the augmented matrix are the same for both, since the row space is the (unique) orthogonal complement of the nullspace. Finally, since elementary row operations can generate any bases of a row space from one basis, the augmented matrices are row equivalent. Q.E.D.
+This proves that the (right) nullspace of the augmented matrix, treated as a normal matrix, are the same for two equivalent systems, under the mild condition that the systems are consistent. Then, this implies the row space of the augmented matrix are the same for both, since the row space is the (unique) orthogonal complement of the nullspace. Finally, since elementary row operations can generate all other bases of a row space from one basis, the augmented matrices are row equivalent. Q.E.D.
 
 As for the counterexample, consider two inconsistent (and thus inhomogeneous) systems. They are equivalent as they have an empty solution set. Then, make the row spaces of the two systems different. A counterexample is:
 

@@ -17,6 +17,7 @@ tags:
 # index
 
 - HKUST GNED 2510
+- name: Career Building
 
 - [cover letter](../../../cover%20letter.md)
 - [name tag](../../../name%20tag.md)

@@ -17,6 +17,7 @@ tags:
 # index
 
 - HKUST MATH 2411
+- name: Applied Statistics
 
 The content is in teaching order.
 

@@ -17,6 +17,7 @@ tags:
 # index
 
 - HKUST MATH 1014
+- name: Calculus II
 
 - prerequisite: [MATH 1013](../MATH%201013/index.md)
 

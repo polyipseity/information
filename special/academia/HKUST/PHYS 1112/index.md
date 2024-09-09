@@ -17,6 +17,7 @@ tags:
 # index
 
 - HKUST PHYS 1112
+- name: General Physics I with Calculus
 
 ## astronomy
 

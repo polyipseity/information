@@ -13,9 +13,9 @@ In [mathematical logic](mathematical%20logic.md), the __Peano axioms__ (/piˈɑ�
 
 The [axiomatization](axiomatic%20system.md#axiomatization) of [arithmetic](arithmetic.md) provided by Peano axioms is commonly called {{__Peano arithmetic__}}. <!--SR:!2024-09-13,4,285-->
 
-The importance of formalizing [arithmetic](arithmetic.md) was not well appreciated until {{the work of [Hermann Grassmann](Hermann%20Grassmann.md)}}, who showed {{in the 1860s that many facts in arithmetic could be derived from more basic facts about the [successor operation](successor%20function.md) and [induction](mathematical%20induction.md)}}. In {{1881, [Charles Sanders Peirce](Charles%20Sanders%20Peirce.md)}} provided {{an [axiomatization](axiomatic%20system.md#axiomatization) of natural-number arithmetic}}. In {{1888, [Richard Dedekind]}}(Richard%20Dedekind.md) proposed {{another axiomatization of natural-number arithmetic}}, and in {{1889, Peano}} published {{a simplified version of them as a collection of axioms in his book _The principles of arithmetic presented by a new method_ ([Latin](Latin.md): _[Arithmetices principia, nova methodo exposita](arithmetices%20principia,%20nova%20methodo%20exposita.md)_)}}. <!--SR:!2024-09-13,4,285!2024-09-12,3,265!2024-09-12,3,265!2024-09-13,4,285!2024-09-12,3,265!2024-09-13,4,285!2024-09-12,3,265!2024-09-12,3,265-->
+The importance of formalizing [arithmetic](arithmetic.md) was not well appreciated until {{the work of [Hermann Grassmann](Hermann%20Grassmann.md)}}, who showed {{in the 1860s that many facts in arithmetic could be derived from more basic facts about the [successor operation](successor%20function.md) and [induction](mathematical%20induction.md)}}. In {{1881, [Charles Sanders Peirce](Charles%20Sanders%20Peirce.md)}} provided {{an [axiomatization](axiomatic%20system.md#axiomatization) of natural-number arithmetic}}. In {{1888, [Richard Dedekind](Richard%20Dedekind.md)}} proposed {{another axiomatization of natural-number arithmetic}}, and in {{1889, Peano}} published {{a simplified version of them as a collection of axioms in his book _The principles of arithmetic presented by a new method_ ([Latin](Latin.md): _[Arithmetices principia, nova methodo exposita](arithmetices%20principia,%20nova%20methodo%20exposita.md)_)}}. <!--SR:!2024-09-13,4,285!2024-09-12,3,265!2024-09-12,3,265!2024-09-13,4,285!2024-09-12,3,265!2024-09-13,4,285!2024-09-12,3,265!2024-09-12,3,265-->
 
-{{The nine Peano axioms}} contain {{three types of statements}}. The first axiom {{asserts the existence of at least one member of the set of natural numbers}}. The next {{four are general statements about [equality](equality%20(mathematics).md)}}; in modern treatments {{these are often not taken as part of the Peano axioms, but rather as axioms of the "underlying logic"}}. The next three axioms are {{[first-order](first-order%20logic.md) statements about natural numbers expressing the fundamental properties of the successor operation}}. The ninth, final axiom is {{a [second-order](second-order%20logic.md) statement of the principle of mathematical induction over the natural numbers, which makes this formulation close to [second-order arithmetic](second-order%20arithmetic.md)}}. {{A weaker first-order system}} is obtained by {{explicitly adding the addition and multiplication operation symbols and replacing the [second-order induction](second-order%20arithmetic.md#induction%20and%20comprehension%20schema) axiom with a first-order [axiom schema](https://en.wikipedia.org/wiki/Axiom_schema)}}. The term _Peano arithmetic_ is sometimes used for {{specifically naming this restricted system}}. <!--SR:!2024-09-13,4,270!2024-09-13,4,270!2024-09-12,3,265!2024-09-13,4,270!2024-09-13,4,285!2024-09-13,4,285!2024-09-13,4,285!2024-09-13,4,285!2024-09-13,4,285!2024-09-13,4,270-->
+{{The nine Peano axioms}} contain {{three types of statements}}. The first axiom {{asserts the existence of at least one member of the set of natural numbers}}. The next {{four are general statements about [equality](equality%20(mathematics).md)}}; in modern treatments {{these are often not taken as part of the Peano axioms, but rather as axioms of the "underlying logic"}}. The next three axioms are {{[first-order](first-order%20logic.md) statements about natural numbers expressing the fundamental properties of the successor operation}}. The ninth, final axiom is {{a [second-order](second-order%20logic.md) statement of the principle of mathematical induction over the natural numbers, which makes this formulation close to [second-order arithmetic](second-order%20arithmetic.md)}}. {{A weaker first-order system}} is obtained by {{explicitly adding the addition and multiplication operation symbols and replacing the [second-order induction](second-order%20arithmetic.md#induction%20and%20comprehension%20schema) axiom with a first-order [axiom schema](axiom%20schema.md)}}. The term _Peano arithmetic_ is sometimes used for {{specifically naming this restricted system}}. <!--SR:!2024-09-13,4,270!2024-09-13,4,270!2024-09-12,3,265!2024-09-13,4,270!2024-09-13,4,285!2024-09-13,4,285!2024-09-13,4,285!2024-09-13,4,285!2024-09-13,4,285!2024-09-13,4,270-->
 
 ## historical second-order formulation
 
@@ -54,19 +54,15 @@ The intuitive notion that {{each natural number can be obtained by applying _suc
 
 <!-- markdownlint-capture -->
 <!-- markdownlint-disable MD029 -->
-9. 9th axiom condition (set) ::: If _K_ is a set such that: 0 is in _K_, and for every natural number _n_, _n_ being in _K_ implies that _S_(_n_) is in _K_, <!--SR:!2024-09-13,4,282!2024-09-13,4,270-->
+9. 9th axiom condition (set) ::: If _K_ is a set such that: 0 is in _K_, and for every natural number _n_, _n_ being in _K_ implies that _S_(_n_) is in _K_, then _K_ contains every natural number. <!--SR:!2024-09-13,4,282!2024-09-13,4,270-->
 <!-- markdownlint-restore -->
-
-then _K_ contains {{every natural number}}. <!--SR:!2024-09-12,3,265-->
 
 The induction axiom is sometimes stated in the following form:
 
 <!-- markdownlint-capture -->
 <!-- markdownlint-disable MD029 -->
-9. 9th axiom condition (predicate) ::: If _φ_ is a unary [predicate](predicate%20(mathematical%20logic).md) such that: _φ_(0) is true, and for every natural number _n_, _φ_(_n_) being true implies that _φ_(_S_(_n_)) is true, <!--SR:!2024-09-13,4,285!2024-09-13,4,282-->
+9. 9th axiom condition (predicate) ::: If _φ_ is a unary [predicate](predicate%20(mathematical%20logic).md) such that: _φ_(0) is true, and for every natural number _n_, _φ_(_n_) being true implies that _φ_(_S_(_n_)) is true, then _φ_(_n_) is true for every natural number _n_. <!--SR:!2024-09-13,4,285!2024-09-13,4,282-->
 <!-- markdownlint-restore -->
-
-then _φ_(_n_) is {{true for every natural number _n_}}. <!--SR:!2024-09-13,4,285-->
 
 In Peano's original formulation, the induction axiom is {{a [second-order axiom](second-order%20logic.md)}}. It is now common to {{replace this second-order principle with a weaker [first-order](first-order%20logic.md) induction scheme}}. There are {{important differences between the second-order and first-order formulations, as discussed in the section [§ Peano arithmetic as first-order theory](#peano%20arithmetic%20as%20first-order%20theory) below}}. <!--SR:!2024-09-13,4,285!2024-09-13,4,270!2024-09-13,4,285-->
 
@@ -86,7 +82,7 @@ To {{prove commutativity of addition}}, first {{prove $0+b=b$ and $S(a)+b=S(a+b)
 
 > [!tip] tips
 >
-> - intuition of the definition ::: The 1st statement defines the base case, and the 2nd statement unwraps (decrements) the 2nd argument, i.e. $a + c \mapsto a + S(b)$. The 2nd statement can be applied recursively until the 2nd argument becomes $0$, at which point the 1st statement can be applied to terminate the addition chain. <!--SR:!2024-09-13,4,270!2024-09-13,4,270-->
+> - intuition of the definition ::: The 1st statement defines the base case, and the 2nd statement unwraps (decrements) the 2nd argument, i.e. $a + b \mapsto a + S(b - 1) \mapsto S(a + (b - 1))$. The 2nd statement can be applied recursively until the 2nd argument becomes $0$, at which point the 1st statement can be applied to terminate the addition chain. <!--SR:!2024-09-13,4,270!2024-09-13,4,270-->
 
 #### multiplication
 
@@ -96,8 +92,8 @@ It is easy to see that $S(0)$ is {{the multiplicative [right identity](identity%
 
 To show that $S(0)$ is {{also the multiplicative left identity requires the induction axiom due to the way multiplication is defined}}: <!--SR:!2024-09-13,4,285-->
 
-- multiplicative left identity / proof base case ::: $S(0)$ is the left identity of 0: $S(0)\cdot 0=0$. <!--SR:!2024-09-13,4,285!2024-09-13,4,285-->
-- multiplication left identity / proof induction ::: If $S(0)$ is the left identity of $a$ (that is $S(0)\cdot a=a$), then $S(0)$ is also the left identity of $S(a)$: $S(0)\cdot S(a)=S(0)+S(0)\cdot a=S(0)+a=a+S(0)=S(a+0)=S(a)$, using commutativity of addition. <!--SR:!2024-09-12,3,265!2024-09-13,4,282-->
+- multiplicative left identity / base case ::: $S(0)$ is the left identity of 0: $S(0)\cdot 0=0$. <!--SR:!2024-09-13,4,285!2024-09-13,4,285-->
+- multiplication left identity / induction ::: If $S(0)$ is the left identity of $a$ (that is $S(0)\cdot a=a$), then $S(0)$ is also the left identity of $S(a)$: $S(0)\cdot S(a)=S(0)+S(0)\cdot a=S(0)+a=a+S(0)=S(a+0)=S(a)$, using commutativity of addition. <!--SR:!2024-09-12,3,265!2024-09-13,4,282-->
 
 Therefore, by {{the induction axiom $S(0)$ is the multiplicative left identity of all natural numbers}}. Moreover, it can be shown that {{multiplication is commutative and [distributes over](distributive%20property.md) addition: $$a\cdot (b+c)=(a\cdot b)+(a\cdot c)$$}}. <!--SR:!2024-09-13,4,285!2024-09-13,4,270-->
 
@@ -105,7 +101,7 @@ Thus, {{$(\mathbb {N} ,+,0,\cdot ,S(0))$}} is {{a commutative [semiring](semirin
 
 > [!tip] tips
 >
-> - intuition of the definition ::: The 1st statement defines the base case, and the 2nd statement unwraps (decrements) the 2nd argument, i.e. $a + c \mapsto a + S(b)$. The 2nd statement can be applied recursively until the 2nd argument becomes $0$, at which point the 1st statement can be applied to terminate the multiplication chain. <!--SR:!2024-09-13,4,285!2024-09-13,4,285-->
+> - intuition of the definition ::: The 1st statement defines the base case, and the 2nd statement unwraps (decrements) the 2nd argument, i.e. $a \cdot b \mapsto a \cdot S(b - 1) \mapsto a + (a \cdot (b - 1))$. The 2nd statement can be applied recursively until the 2nd argument becomes $0$, at which point the 1st statement can be applied to terminate the multiplication chain. <!--SR:!2024-09-13,4,285!2024-09-13,4,285-->
 
 #### inequalities
 
@@ -126,10 +122,10 @@ For any [predicate](predicate%20(mathematical%20logic).md) _φ_, if
 - axiom of induction condition with inequalities ::: for every _n_ ∈ __N__, if _φ_(_k_) is true for every _k_ ∈ __N__ such that _k_ ≤ _n_, then _φ_(_S_(_n_)) is true, <!--SR:!2024-09-13,4,285!2024-09-13,4,285-->
 - then for every _n_ ∈ __N__, _φ_(_n_) is true.
 
-This form of the induction axiom, called {{_strong induction_, is a consequence of the standard formulation}}, but is {{often better suited for reasoning about the ≤ order}}. For example, to {{show that the naturals are [well-ordered](well-order.md)—every [nonempty](empty%20set.md) [subset](subset.md) of __N__ has a [least element](greatest%20element%20and%20least%20element.md)}}—one can reason as follows. Let a nonempty _X_ ⊆ __N__ be given and assume _X_ has no least element. <!--SR:!2024-09-13,4,285!2024-09-13,4,285!2024-09-13,4,285-->
+This form of the induction axiom, called {{_strong induction_, is a consequence of the standard formulation}}, but is {{often better suited for reasoning about the ≤ order}}. For example, to {{show that the naturals are [well-ordered](well-order.md)—every [nonempty](empty%20set.md) [subset](subset.md) of __N__ has a [least element](greatest%20element%20and%20least%20element.md)}}—one can reason as follows. <!--SR:!2024-09-13,4,285!2024-09-13,4,285!2024-09-13,4,285-->
 
-- the naturals are well-ordered / proof base case ::: Because 0 is the least element of __N__, it must be that 0 ∉ _X_. <!--SR:!2024-09-12,3,265!2024-09-13,4,270-->
-- the naturals are well-ordered / proof induction ::: For any _n_ ∈ __N__, suppose for every _k_ ≤ _n_, _k_ ∉ _X_. Then _S_(_n_) ∉ _X_, for otherwise it would be the least element of _X_. <!--SR:!2024-09-12,3,265!2024-09-12,3,265-->
+- proving the naturals are well-ordered / base case ::: Let a nonempty _X_ ⊆ __N__ be given and assume _X_ has no least element. Because 0 is the least element of __N__, it must be that 0 ∉ _X_. <!--SR:!2024-09-12,3,265!2024-09-13,4,270-->
+- proving the naturals are well-ordered / induction ::: For any _n_ ∈ __N__, suppose for every _k_ ≤ _n_, _k_ ∉ _X_. Then _S_(_n_) ∉ _X_, for otherwise it would be the least element of _X_. <!--SR:!2024-09-12,3,265!2024-09-12,3,265-->
 
 Thus, by {{the strong induction principle, for every _n_ ∈ __N__, _n_ ∉ _X_. Thus, _X_ ∩ __N__ = ∅, which [contradicts](contradiction.md) _X_ being a nonempty subset of __N__}}. Thus {{_X_ has a least element}}. <!--SR:!2024-09-12,3,265!2024-09-12,3,265-->
 

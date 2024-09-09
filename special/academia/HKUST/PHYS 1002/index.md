@@ -21,6 +21,7 @@ tags:
 # index
 
 - HKUST PHYS 1002
+- name: Introduction to Astrophysics and Astronomy
 
 The content is in teaching order. Extra information and corrections are included, but they are not recommended to be used for exams.
 

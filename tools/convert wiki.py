@@ -221,7 +221,11 @@ async def wiki_html_to_plaintext(
                 if len(alt_text) <= alt_text_len:
                     alt_text = alt_text.removesuffix(R"}")
                 alt_text = (
-                    alt_text.replace(R"{{", R"{ {").replace(R"}}", R"} }").strip()
+                    alt_text.replace(R"{{", R"{ {")
+                    .replace(R"}}", R"} }")
+                    .replace(R":::", R": : :")
+                    .replace(R"::", R": :")
+                    .strip()
                 )
 
                 inline = (

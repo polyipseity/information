@@ -17,6 +17,7 @@ tags:
 # index
 
 - HKUST COMP 2012
+- name: Object-Oriented Programming and Data Structures
 
 The content is in teaching order.
 

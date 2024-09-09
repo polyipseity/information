@@ -17,6 +17,7 @@ tags:
 # index
 
 - HKUST COMP 4321
+- name: Search Engines for Web and Enterprise Data
 
 The content is in teaching order.
 

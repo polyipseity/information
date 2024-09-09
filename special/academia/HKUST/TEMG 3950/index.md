@@ -17,6 +17,7 @@ tags:
 # index
 
 - HKUST TEMG 3950
+- name: T&M Case Analysis and Product Innovation
 
 The content is in teaching order.
 
