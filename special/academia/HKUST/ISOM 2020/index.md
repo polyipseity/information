@@ -28,6 +28,7 @@ The content is in teaching order.
   - format: pre-lecture videos → weekly exercise (graded, infinite attempts) → lecture → lab (graded, attendance required) → practice question set (ungraded, optional)
   - grading scheme: weekly exercise 10%, lab submissions 20%, final exam 70% (basic programming test 45%, free coding exam 25%)
   - course intended learning outcomes (CILOs): understand coding logic, Python basics, and hands-on guidance
+- [assignments](assignments/)
 - final exam: 2024-10-19T14:30:00+08:00/2024-10-19T17:30:00+08:00 (PT3H)
 
 ## week 1 pre-lecture
