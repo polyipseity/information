@@ -21,7 +21,7 @@ tags:
 
 The content is in teaching order.
 
-- general recommendations ::: Do NOT use techniques not learnt in lectures! Also, if you have learnt Python before well, you would find some quiz questions extremely ambiguous with imprecise wordings. Good luck guessing the answer!
+- general recommendations ::: Do NOT use techniques not learnt in lectures! Also, if you have learnt Python before well, you would find a few quiz questions ambiguous with imprecise wordings. Good luck guessing the answer...
 - course logistics
   - pathway: ISOM 2020 → ISOM 2600
   - duration: 7 weeks, for the first half of the semester
@@ -62,7 +62,7 @@ The content is in teaching order.
 - [basics](basics.md)
   - [§ data type conversion](basics.md#data%20type%20conversion)
   - [§ input](basics.md#input)
-    - [basics § input](basics.md#input) / note ::: It seems like Juypter automatically adds a space after the prompt... But other environments do not. Also, the prompt is optional (i.e. `input()` is okay and does not prints anything before asking for user input). Lastly, `prompt` does not need to be a `str`, and other objects are accepted. This is similar to `print(...)`, except that a newline is NOT automatically printed, and it only accepts a single argument (i.e. `input("a", "b")` is NOT okay).
+    - [basics § input](basics.md#input) / note ::: It seems like Jupyter automatically adds a space after the prompt... But other environments do not. Also, the prompt is optional (i.e. `input()` is okay and does not print anything before asking for user input). Lastly, `prompt` does not need to be a `str`, and other objects are accepted. This is similar to `print(...)`, except that a newline is NOT automatically printed, and it only accepts a single argument (i.e. `input("a", "b")` is NOT okay).
 - [list](list.md)
   - [§ syntax](list.md#syntax)
   - [§ indexing](list.md#indexing)

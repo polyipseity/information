@@ -25,7 +25,7 @@ Marking is done as follows. Only homework counts.
 
 Prove that {{$$1 + 2 + \cdots + n = \frac {n (n + 1)} 2 \qquad \forall n \in \mathbb N_0$$}}.
 
-- strategy ::: Induction, obviously.
+- strategy ::: Induction, obviously. But you could also use the well-ordering principle here if you so desire...
 
 1. base case ::: The statement obviously holds when $n = 0$.
 2. induction ::: Assume $$\sum_{k = 1}^n k = \frac {n (n + 1)} 2$$ is true. Then $$\sum_{k = 1}^{n + 1} k = \sum_{k = 1}^n k + (n + 1) = \frac {n(n + 1)} 2 + (n + 1) = \frac{(n + 2)(n + 1)} 2$$. By induction, this holds for all natural numbers $\mathbb N_0$.
@@ -37,17 +37,17 @@ Prove that {{$$\sqrt 2$$ is irrational}}.
 - strategy ::: Assume $\sqrt 2$ is rational. Create an infinite descent of natural numbers. Then prove the opposite by contradiction.
 
 1. assumption ::: Assume $\sqrt 2$ is rational. Then $\sqrt 2 = a / b$, where $a, b \in \mathbb N_0$.
-2. manipulation ::: $$\begin{aligned} \sqrt 2 & = \frac a b \\ 2 & = \frac {a^2} {b^2} \\ 2b^2 & = a^2 \\ & \implies 2 \mid a \\ a & := 2c && c \in \mathbb N_0 \\ \\ 2b^2 & = 4c^2 \\ b^2 & = 2c^2 \\ & \implies 2 \mid b \\ b & := 2d && d \in \mathbb N_0 \\ \\ \sqrt 2 & = \frac a b = \frac {2c} {2d} = \frac c d \end{aligned}$$
+2. construction ::: $$\begin{aligned} \sqrt 2 & = \frac a b \\ 2 & = \frac {a^2} {b^2} \\ 2b^2 & = a^2 \\ & \implies 2 \mid a \\ a & := 2c && c \in \mathbb N_0 \\ \\ 2b^2 & = 4c^2 \\ b^2 & = 2c^2 \\ & \implies 2 \mid b \\ b & := 2d && d \in \mathbb N_0 \\ \\ \sqrt 2 & = \frac a b = \frac {2c} {2d} = \frac c d \end{aligned}$$
 3. conclusion ::: From $\sqrt 2 = a / b$, we have derived that $\sqrt 2 = c / d$. Note that $c$ and $d$ are natural numbers smaller than $a$ and $b$ respectively. That means if we can write $\sqrt 2$ as a ratio of two natural numbers, we can always find smaller natural numbers representing the same $\sqrt 2$. This process can be applied recursively to get an infinite descent of natural numbers. But such an sequence cannot exist, so our premise that $\sqrt 2$ is rational is false, so $\sqrt 2$ is irrational.
 
 ### infinitely many prime numbers
 
 Prove that {{there are infinitely many prime numbers}}.
 
-- strategy ::: Assume there are finitely many prime numbers. Consider the product of all prime numbers plus 1. Prove the opposite by constructing an infinite descent, and thus contradiction.
+- strategy ::: Assume there are finitely many prime numbers. Consider the product of all prime numbers plus one. Prove the opposite by constructing an infinite descent, and thus contradiction.
 
 1. assumption ::: Assume there are finitely many prime numbers $p_1, \ldots p_n$.
-2. construction :::　Consider the product of all prime numbers plus 1 $$n = \prod_{k = 1}^n p_k + 1$$. $n$ cannot be prime because $n$ is not in the set of all prime numbers. Hence, $n$ is composite and $n = ab$, where $a$ and $b$ are natural numbers that are greater than $1$. But $a$ and $b$ cannot be any of the prime numbers because no prime numbers divide $n$ evenly. So they are also composite, and we can decompose them like how we decompose $n$. Recursively apply this process. Nowhere in the process can any prime numbers appear because if it were to appear, then said prime number could have divided $n$. So the process will never terminate.
+2. construction :::　Consider the product of all prime numbers plus one: $$n = \prod_{k = 1}^n p_k + 1$$. $n$ cannot be prime because $n$ is not in the set of all prime numbers. Hence, $n$ is composite and $n = ab$, where $a$ and $b$ are natural numbers that are greater than $1$. But $a$ and $b$ cannot be any of the prime numbers because no prime numbers divide $n$ evenly. So they are also composite, and we can decompose them like how we decompose $n$. Recursively apply this process. Nowhere in the process can any prime numbers appear because if it were to appear, then said prime number could have divided $n$. So the process will never terminate.
 3. conclusion ::: Note that decomposing a natural number into a product of two natural numbers both greater than 1 produce a sequence of strictly decreasing natural numbers. This is an infinite descent, and thus impossible. So the original assumption that there are finitely many prime numbers is false. So there are infinitely many prime numbers.
 
 ### pigeonhole principle
@@ -56,20 +56,21 @@ Prove {{the pigeonhole principle: if we have $n \ge 1$ "holes" and $n + 1$ or mo
 
 - strategy ::: This is intuitive. But we want to use induction here...
 
-1. base case ::: When $n = 1$, there are 2 or more "pigeons". There is only 1 "hole" to put them into.
+1. base case ::: When $n = 1$, there are 2 or more "pigeons". There is only 1 "hole" to put them into, so the 1 "hole" contains 2 or more "pigeons". This proves the base case.
 2. induction ::: Assume the pigeonhole principle is true for $n$ "holes". Consider $n + 1$ "holes" and $n + 2$ or more "pigeons". If we put 2 or more "pigeons" into 1 "hole" then the pigeonhole principle is automatically proved. So consider putting 0 and 1 "pigeon" into the new extra "hole". If we put 0, then there are $n + 2$ or more "pigeons" for the remaining $n$ "holes", for which we know the pigeonhole principle is true. If we put 1, then there are $n + 1$ or more "pigeons" for the remaining $n$ "holes", for which we also know the pigeonhole principle is true. So the pigeonhole principle is true no matter how many "pigeons" we put into the new extra "hole", proving the pigeonhole principle. By induction, this is true for all $n \ge 1$.
 
 ### all cars are of the same color
 
 What is wrong with the following proof? ::: When there is 1 car, it has the same color obviously. Assume $n$ cars have the same color. Now consider $n + 1$ cars. The first $n$ cars have the same color, and the last $n$ cars also have the same color. There are $n - 1$ cars in common between them, so the colors of the two sets of car are the same.
 
-- strategy ::: Consider $n = 2$.
+- strategy ::: Consider when there are exactly 2 cars ($n = 2$).
+- takeaways ::: This is a pretty silly example, but the same thing may occur in a much less obvious way when doing induction. To avoid this, it is best to check that induction works for small $n$ (at least do so in your mind).
 
-1. solution ::: The induction argument fails prove the above proposition for $n = 2$. When $n = 2$, we say the first $n - 1 = 1$ car have the same color, and the last $1$ car also have the same color. But they have $0$ cars in common, so we cannot say the two sets of cars have the same colors.
+1. solution ::: The induction argument fails to prove the above proposition for $n = 2$. When $n = 2$, we say the first $n - 1 = 1$ car has the same color, and the last $1$ car also has the same color. But they have $0$ cars in common, so we cannot say the two sets of cars have the same colors.
 
 ### ranking players in a tournament
 
-Prove that {{in a tournament where each player plays against another player exactly once and every game has exactly one winner, we can always rank the $n$ players $p_1, \ldots, p_n$ such that $p_i$ has lost to $p_{k + 1}$ for all $1 \le k \le n + 1$}}.
+Prove that {{in a tournament where each player plays against another player exactly once and every game has exactly one winner, we can always rank the $n$ players $p_1, \ldots, p_n$ such that $p_k$ has lost to $p_{k + 1}$ for all $1 \le k \le n - 1$}}.
 
 - strategy ::: Use induction here. In particular, design an algorithm that solves the problem for 0 players (trivial), then incrementally adds 1 player while satisfying the ranking requirement above, until all $n$ players are added. If such an algorithm exists, it corresponds to a mathematical proof by the Curry–Howard correspondence.
 - note ::: This is also a graph theory problem. Let each player $p_k$ be a node. An arrow connects $p_a$ to $p_b$ if $p_a$ loses to $p_b$. The problem then becomes if we can visit all nodes exactly once by following the arrows.
@@ -81,8 +82,8 @@ Prove that {{in a tournament where each player plays against another player exac
 
 Prove {{the well-ordering principle from infinite descent}}.
 
-- strategy ::: Prove by contradiction. Think of ways to relate the well-ordering principle to natural numbers. One way they are related is that the well-ordering principle says any _nonempty_ set of natural numbers has a least natural number. So assume that the well-ordering principle does not hold and there is an _nonempty_ set of natural numbers that does not have a least natural number.
-- note ::: Induction, well-ordering principle, and infinite descent are logically equivalent, so it is possible to prove any one of them from any other.
+- strategy ::: Prove by contradiction. Think of ways to relate the well-ordering principle to natural numbers. One way they are related is that the well-ordering principle says any _nonempty_ set of natural numbers has a least natural number. So assume that the well-ordering principle does not hold, and there is an _nonempty_ set of natural numbers that does not have a least natural number.
+- note<!-- flashcard e2c26204-5570-47a0-aac4-6fd475eb16f7 --> ::: Induction, well-ordering principle, and infinite descent are logically equivalent, so it is possible to prove any one of them from any other.
 
 1. assumption ::: Assume infinite descent holds but not the well-ordering principle.
 2. construction ::: Let $A$ be an nonempty set of natural numbers without a least natural number, which is permitted because the well-ordering principle does not hold. Choose an arbitrary natural number $a$ from $A$. Consider the subset of $A$ that is smaller than $a$. The subset must not be empty, or otherwise $a$ would be the least natural number of $A$. Now repeat the process again, but for the subset. Recursively apply this process.
@@ -93,7 +94,7 @@ Prove {{the well-ordering principle from infinite descent}}.
 Prove {{induction from the well-ordering principle}}.
 
 - strategy ::: Prove by contradiction. Assume induction fails by assuming there is a set that satisfies the induction conditions but not its conclusion.
-- note ::: Induction, well-ordering principle, and infinite descent are logically equivalent, so it is possible to prove any one of them from any other.
+- note<!-- flashcard 1f354247-234f-417b-ad89-a3040c04715f --> ::: Induction, well-ordering principle, and infinite descent are logically equivalent, so it is possible to prove any one of them from any other.
 
 1. assumption ::: Assume the well-ordering principle holds but not induction.
 2. construction ::: Let $K$ be a set of natural numbers such that $0 \in K$ and $n \in K \rightarrow S(n) \in K$ (induction conditions), but $K \ne \mathbb{N}_0$ (induction conclusion). Consider the set $A := \mathbb{N}_0 - K$, i.e. numbers in the natural numbers but not in $K$. This set is _nonempty_ because $K$ is a subset of the natural numbers (all of its elements are natural numbers) but does not equal the natural numbers. By the well-ordering principle, $A$ has an least element $a \in \mathbb{N}_0$.
@@ -107,27 +108,25 @@ Prove {{induction from the well-ordering principle}}.
 
 For all natural numbers $a$ and $b$, prove that {{addition as defined in the (second-order formulation of) Peano axioms commutates, i.e. $$a + b = b + a$$. Then, given that addition associates (i.e. $(a + b) + c = a + (b + c)$) and commutates, prove that multiplication commutates, i.e. $$a \cdot b = b \cdot a$$}}.
 
-- strategy ::: Apply induction several times. Also, prove commutativity for more specific cases. Then apply induction to generalize it.
+- strategy ::: Apply induction to prove commutativity for more specific cases. Then apply induction again to generalize the results.
 
 1. definitions ::: For all natural numbers $a$ and $b$, $$\begin{aligned} a + 0 & = a && \text{definition 1} \\ a + S(b) & = S(a + b) && \text{definition 2} \\ a \cdot 0 & = a && \text{definition 3} \\ a \cdot S(b) & = a + a \cdot b && \text{definition 4} \end{aligned}$$.
-2. commutativity of addition / lemma 1 ::: Lemma 1: $$0 + b = b$$ holds for all $b \in \mathbb N_0$. When $b = 0$, $0 + 0 = 0$ by definition 1. Assume the lemma holds for $b$. Consider $S(b)$: $$\begin{aligned} 0 + b & = b && \text{assumption} \\ S(0 + b) & = S(b) && S\text{ is a function} \\ 0 + S(b) & = S(b) && \text{definition 2} \end{aligned}$$. So the lemma holds for $S(a)$. By induction, the lemma is proved for all natural numbers.
-3. commutativity of addition / lemma 2 ::: Lemma 2: $$S(a) + b = S(a + b)$$ holds for all $a, b \in \mathbb N_0$. Without loss of generality, fix $a$. When $b = 0$, $$\begin{aligned} S(a) + 0 & = S(a) && \text{definition 1} \\ & = S(a + 0) && \text{definition 1} \end{aligned}$$. So the lemma holds for $0$. Assume the lemma holds for $b$. Consider $S(b)$: $$\begin{aligned} S(a) + b & = S(a + b) && \text{assumption} \\ S(S(a) + b) & = S(S(a + b)) && S\text{ is a function} \\ S(a) + S(b) & = S(a + S(b)) && \text{definition 1, 2} \end{aligned}$$. So the lemma holds for $S(b)$. By induction, the lemma is proved for all natural numbers.
+2. commutativity of addition / lemma 1 (commutativity of definition 1) ::: Lemma 1 (commutativity of definition 1): $$0 + b = b$$ holds for all $b \in \mathbb N_0$. When $b = 0$, $0 + 0 = 0$ by definition 1. Assume the lemma holds for $b$. Consider $S(b)$: $$\begin{aligned} 0 + b & = b && \text{assumption} \\ S(0 + b) & = S(b) && S\text{ is a function} \\ 0 + S(b) & = S(b) && \text{definition 2} \end{aligned}$$. So the lemma holds for $S(a)$. By induction, the lemma is proved for all natural numbers.
+3. commutativity of addition / lemma 2 (commutativity of definition 2) ::: Lemma 2 (commutativity of definition 2): $$S(a) + b = S(a + b)$$ holds for all $a, b \in \mathbb N_0$. Without loss of generality, fix $a$. When $b = 0$, $$\begin{aligned} S(a) + 0 & = S(a) && \text{definition 1} \\ & = S(a + 0) && \text{definition 1} \end{aligned}$$. So the lemma holds for $0$. Assume the lemma holds for $b$. Consider $S(b)$: $$\begin{aligned} S(a) + b & = S(a + b) && \text{assumption} \\ S(S(a) + b) & = S(S(a + b)) && S\text{ is a function} \\ S(a) + S(b) & = S(a + S(b)) && \text{definition 1, 2} \end{aligned}$$. So the lemma holds for $S(b)$. By induction, the lemma is proved for all natural numbers.
 4. commutativity of addition ::: Theorem: $$a + b = b + a$$ for all $a, b \in \mathbb N_0$. Without loss of generality, fix $a$. When $b = 0$, $$\begin{aligned} a + 0 & = a && \text{definition 1} \\ & = 0 + a && \text{lemma 1} \end{aligned}$$. So the theorem is proved for $0$. Assume the theorem is true for $b$. Consider $S(b)$: $$\begin{aligned} a + b & = b + a && \text{assumption} \\ S(a + b) & = S(b + a) && S\text{ is a function} \\ a + S(b) & = S(b) + a && \text{definition 2, lemma 2} \\  \end{aligned}$$. So the theorem is proved for $S(b)$. By induction, the theorem is proved for all natural numbers.
-5. commutativity of multiplication / lemma 3 ::: Lemma 3: $$0 \cdot b = 0$$ for all $b \in \mathbb N_0$. When $b = 0$, $0 \cdot 0 = 0$ by definition 3. Assume the lemma is true for $b$. Consider $S(b)$: $$\begin{aligned} 0 \cdot S(b) & = 0 + 0 \cdot b && \text{definition 4} \\ & = 0 \cdot b && \text{lemma 1} \\ & = 0 && \text{assumption} \end{aligned}$$. So the lemma is true for $S(b)$. By induction, the lemma is true for all natural numbers.
-6. commutativity of multiplication / lemma 4 ::: Lemma 4: $$S(a) \cdot b = b + a \cdot b$$ for all $a, b \in \mathbb N_0$. Without loss of generality, fix $a$. When $b = 0$, $$\begin{aligned} S(a) \cdot 0 & = 0 && \text{definition 3} \\ & = 0 + 0 && \text{definition 1} \\ & = 0 + a \cdot 0 && \text{definition 3} \end{aligned}$$. So the lemma is true for $0$. Assume the lemma is true for $b$. Consider $S(b)$: $$\begin{aligned} S(a) \cdot S(b) & = S(a) + S(a) \cdot b && \text{definition 4} \\ & = S(a) + (b + a \cdot b) && \text{assumption} \\ & = S(a) + b + a \cdot b && \text{addition associates} \\ & = a + S(b) + a \cdot b && \text{lemma 2, definition 2} \\
-& = S(b) + a + a \cdot b && \text{addition commutates} \\
-& = S(b) + a \cdot S(b) && \text{definition 4} \end{aligned}$$. So the lemma is true for $S(b)$. By induction, the lemma is true for all natural numbers.
+5. commutativity of multiplication / lemma 3 (commutativity of definition 3) ::: Lemma 3 (commutativity of definition 3): $$0 \cdot b = 0$$ for all $b \in \mathbb N_0$. When $b = 0$, $0 \cdot 0 = 0$ by definition 3. Assume the lemma is true for $b$. Consider $S(b)$: $$\begin{aligned} 0 \cdot S(b) & = 0 + 0 \cdot b && \text{definition 4} \\ & = 0 \cdot b && \text{lemma 1} \\ & = 0 && \text{assumption} \end{aligned}$$. So the lemma is true for $S(b)$. By induction, the lemma is true for all natural numbers.
+6. commutativity of multiplication / lemma 4 (commutativity of definition 4) ::: Lemma 4 (commutativity of definition 4): $$S(a) \cdot b = b + a \cdot b$$ for all $a, b \in \mathbb N_0$. Without loss of generality, fix $a$. When $b = 0$, $$\begin{aligned} S(a) \cdot 0 & = 0 && \text{definition 3} \\ & = 0 + 0 && \text{definition 1} \\ & = 0 + a \cdot 0 && \text{definition 3} \end{aligned}$$. So the lemma is true for $0$. Assume the lemma is true for $b$. Consider $S(b)$: $$\begin{aligned} S(a) \cdot S(b) & = S(a) + S(a) \cdot b && \text{definition 4} \\ & = S(a) + (b + a \cdot b) && \text{assumption} \\ & = S(a) + b + a \cdot b && \text{addition associates} \\ & = a + S(b) + a \cdot b && \text{lemma 2, definition 2} \\ & = S(b) + a + a \cdot b && \text{addition commutates} \\ & = S(b) + a \cdot S(b) && \text{definition 4} \end{aligned}$$. So the lemma is true for $S(b)$. By induction, the lemma is true for all natural numbers.
 7. commutativity of multiplication ::: Theorem: $$a \cdot b = b \cdot a$$ for all $a, b \in \mathbb N_0$. Without loss of generality, fix $a$. When $b = 0$, $$\begin{aligned} a \cdot 0 & = 0 && \text{definition 3} \\ & = 0 \cdot a && \text{lemma 3} \end{aligned}$$. So the theorem is true for $0$. Assume the theorem is true for $b$. Consider $S(b)$: $$\begin{aligned} a \cdot S(b) & = a + a \cdot b && \text{definition 4} \\ & = a + b \cdot a && \text{assumption} \\ & = S(b) \cdot a && \text{lemma 4} \end{aligned}$$. So the theorem is true for $S(b)$. By induction, the theorem is true for all natural numbers. Q.E.D.
 
 #### existence and uniqueness of quotient and remainder
 
 Let $a, b \in \mathbb N_0$ and {{$b \ne 0$. Prove that there exists two natural numbers $q, r \in \mathbb N_0$ such that $$a = b \cdot q + r \qquad r < b$$. Then prove that $q, r$ are unique, i.e. there is only one possible pair of values $q, r$}}. (The associativity and commutativity of addition and multiplication are given. The distributive law is also given.)
 
-- strategy / existence ::: For existence, use induction (induction is usually more suitable for existence).
+- strategy / existence ::: Use induction, as it is usually more suitable for proving existence.
 - strategy / uniqueness ::: For uniqueness, prove by contradiction via the well-ordering principle. Assert the existence of a least natural number that admits two or more distinct pairs of quotient and remainder. Then reverse the process used in induction to prove the existence of a smaller natural number that admits two or more distinct pairs of quotient and remainder.
 
 1. setup ::: Without loss of generality, fix $b \ne 0$. Theorem: $$a = b \cdot q + r \qquad \exists q,r \in \mathbb N_0, r < b$$ for all $a, b \in \mathbb N_0$.
-2. existence / lemma 1 ::: Lemma 1: $$r < b \rightarrow S(r) \le b \qquad b \ne 0$$. Define $r < b \equiv (r \le b) \land \lnot(r = b)$. Then, $$\begin{aligned} r < b & \rightarrow (r \le b) \land \lnot(r = b) \\ & \rightarrow (\exists x \in \mathbb N_0; r + x = b) \land \lnot (r + 0 = b) \\ & \rightarrow \exists x \ge 1; r + x = b && x\text{ exist even if }x = 0\text{ is eliminated, since }b \ne 0 \\ & \rightarrow \exists y \in \mathbb N_0; r + S(y) = b && x := S(y) \\ & \rightarrow \exists y \in \mathbb N_0; S(r + y) = b \\ & \rightarrow \exists y \in \mathbb N_0; S(r) + y = b \\ & \rightarrow S(r) \le b \end{aligned}$$. Thus it is proved.
+2. existence / lemma 1 ($<$ to $\le$) ::: Lemma 1 ($<$ to $\le$): $$r < b \rightarrow S(r) \le b \qquad b \ne 0$$. Define $r < b \equiv (r \le b) \land \lnot(r = b)$. Then, $$\begin{aligned} r < b & \rightarrow (r \le b) \land \lnot(r = b) \\ & \rightarrow (\exists x \in \mathbb N_0; r + x = b) \land \lnot (r + 0 = b) \\ & \rightarrow \exists x \ge 1; r + x = b && x\text{ exist even if }x = 0\text{ is eliminated, since }b \ne 0 \\ & \rightarrow \exists y \in \mathbb N_0; r + S(y) = b && x := S(y) \\ & \rightarrow \exists y \in \mathbb N_0; S(r + y) = b \\ & \rightarrow \exists y \in \mathbb N_0; S(r) + y = b \\ & \rightarrow S(r) \le b \end{aligned}$$. Thus it is proved.
 3. existence / base case ::: When $a = 0$, $$\begin{aligned} 0 & = 0 + 0 && \text{addition} \\ & = b \cdot 0 + 0 && \text{multiplication} \end{aligned}$$. Then $q = 0, r = 0$. Validate that $r = 0 \le 1 \le b$. So the theorem is proved for $a = 0$.
 4. existence / induction ::: Assuming the theorem is true for $a$. Consider $S(a)$: $$\begin{aligned} a & = b \cdot q + r && \text{assumption} \\ S(a) & = S(b \cdot q + r) && S\text{ is a function} \\ & = b \cdot q + S(r) && \text{addition} \\ & = \begin{cases} b \cdot q + b & \text{if }S(r) = b \\ b \cdot q + S(r) & \text{if }S(r) < b \end{cases} && \text{lemma 1} \\ & = \begin{cases} b \cdot S(q) + 0 & \text{if }S(r) = b \\ b \cdot q + S(r) & \text{if }S(r) < b \end{cases} && \text{addition, multiplication} \end{aligned}$$. Then $(q', r') = \begin{cases} (S(q), 0) &\text{if }S(r) = b \\ (q, S(r)) & \text{if }S(r) < b \end{cases}$. Validate that $r' < b$ for both cases. So the theorem is proved for $S(a)$. By induction, $q, r$ exists for all natural numbers $a$.
 5. uniqueness / setup ::: Without loss of generality, fix $b \ne 0$. Assume there is an _nonempty_ set of natural numbers $A$ admitting two or more different values of the pair $(q, r)$. Let $a$ be the least natural number of $A$ by the well-ordering principle.
@@ -138,7 +137,7 @@ Let $a, b \in \mathbb N_0$ and {{$b \ne 0$. Prove that there exists two natural 
 
 Prove that {{any two consecutive elements of the Fibonacci sequence are relatively prime. The Fibonacci sequence is defined recursively as $F_0 = 0, F_1 = 1, F_n = F_{n - 2} + F_{n - 1}$}}.
 
-- strategy ::: Since the Fibonacci sequence is recursively defined, it is likely best to use induction. But proving the induction can use contradiction.
+- strategy ::: Since the Fibonacci sequence is recursively defined, it is likely best to use induction. Contradiction can be used to prove the conditions for induction.
 
 1. base case ::: $F_0 = 0, F_1 = 1, F_2 = 0 + 1 = 1, F_3 = 1 + 1 = 2, F_4 = 1 + 2 = 3$. $F_0$ and $F_1$, $F_1$ and $F_2$, and $F_2$ and $F_3$ are co-prime (in a weird way) because their common divisor only contains $1$. $F_3$ and $F_4$ are co-prime in a much more normal way, and we will start our induction here.
 2. induction ::: Assume $F_n \ge 2$ and $F_{n + 1} \ge 2$ are co-prime. Consider $F_{n + 2} = F_n + F_{n + 1}$. If $F_{n + 1}$ is not co-prime with $F_{n + 2}$ then there is a common factor $a \ge 2$ that $a \mid F_{n + 1}, F_{n + 2}$. Then we can re-express $F_{n + 1} = ab, F_{n + 2} = ac$, where $b, c \in \mathbb N_0$, and $b < c$ because $F_{n + 1} < F_{n + 2}$. Now consider $F_n$: $$\begin{aligned} F_n + F_{n + 1} & = F_{n + 2} \\ F_n & = F_{n + 2} - F_{n + 1} \\ & = ac - ab \\ & = a(c - b) \end{aligned}$$. Since $a \ge 2$ and $c - b > 0$, that means $a \mid F_n$ also. But this would mean $F_n$ and $F_{n + 1}$ have a common divisor of $a \ge 2$ and thus are not co-prime. This creates a contradiction, and thus $F_{n + 1}$ and $F_{n + 2}$ must be co-prime if $F_n$ and $F_{n + 1}$ are co-prime. By induction, consecutive elements of the Fibonacci sequence are relatively prime.
@@ -169,19 +168,19 @@ We say a natural number $n$ is prime if $\ge 2$ and it is impossible to write $n
 
 - strategy ::: It is easier to prove this using contradiction than using induction.
 
-1. assumption ::: Assume there exists a nonempty set of natural number at least 2 $A$ that cannot be written as a product of prime numbers. Then by the well-ordering principle, there exists a least natural number $n \ge 2$ that cannot be written as a product of prime numbers.
+1. assumption ::: Assume there exists a nonempty set of natural number not less than 2 $A$ that cannot be written as a product of prime numbers. Then by the well-ordering principle, there exists a least natural number $n \ge 2$ that cannot be written as a product of prime numbers.
 2. construction ::: $n \ge 2$ is either prime or composite. If $n$ is a prime, then it is a product of itself, a prime number. So $n$ cannot be prime and is composite. Then there exists two natural numbers $1 < a, b < n$ such that $n = a \cdot b$. $a, b$ are both smaller than $n$, so they must not belong to $A$, or otherwise $n$ would not be the least natural number that cannot be written as a product of prime numbers. So $a$ and $b$ can be written as a product of prime numbers. But then this implies $n$ CAN be written as a product of prime numbers, as a product of two numbers that can be written as a product of prime numbers.
-3. conclusion ::: That $n$ CAN be written as sa product of prime numbers contradicts that $n$ belongs to the set of natural numbmers $A$ that cannot be written as a product of prime numbers. By contradiction, the set $A$ must be empty, so every natural number $n \ge 2$ can be written as a product of prime numbers.
+3. conclusion ::: That $n$ CAN be written as sa product of prime numbers contradicts that $n$ belongs to the set of natural numbers $A$ that CANNOT be written as a product of prime numbers. By contradiction, the set $A$ must be empty, so every natural number $n \ge 2$ can be written as a product of prime numbers.
 
 ### closed knight's tour
 
 Consider an 8×8 chessboard with a knight at the top right corner. Is it {{possible for us to move the knight in accordance with chess rules such that it visits every square in the board exactly once and then returns to the top right corner? What if we have a 9×9 chessboard?}}
 
-Note that a knight can {{move two squares vertically and one square horizontally, or two squares horizontally and one square vertically}}.
+Note that a knight can move {{two squares vertically and one square horizontally, or two squares horizontally and one square vertically}}.
 
-- strategy ::: For 8×8, one will need to guess that the answer is yes and construct such a closed path... So good luck. But for 9×9, there is a simple way. Draw the move pattern of a knight and notice the checker pattern of a chessboard.
+- strategy ::: For 8×8, one will need to guess that the answer is yes and construct such a closed path... So good luck! But for 9×9, there is a simple way. Draw the move pattern of a knight and notice the checker pattern of a chessboard.
 - possibility of _closed_ knight's tours ::: Let there be a _m_ × _n_ board with _m_ ≤ _n_. A _closed_ knight's tour is always possible unless _m_ and _n_ are both odd; _m_ = 1, 2, or 4; or _m_ = 3 and _n_ = 4, 6, or 8.
-- possibility of knight's tours ::: Let there be a _m_ × _n_ board with _m_ ≤ _n_. A knight's tour (possibly _open_) is always possible unless _m_ = 1 or 2; _m_ = 3 and _n_ = 3, 5, or 6; and _m_ = 4 and _n_ = 4.
+- possibility of knight's tours ::: Let there be a _m_ × _n_ board with _m_ ≤ _n_. A knight's tour (possibly _open_) is always possible unless _m_ = 1 or 2; _m_ = 3 and _n_ = 3, 5, or 6; or _m_ = 4 and _n_ = 4.
 
 1. 8×8 chessboard ::: It is possible. Prove by constructing such a closed path...
 2. 9×9 chessboard ::: It is impossible. If such a closed path exists, then the knight needs to move 81 times to go back to the starting position. Now, notice the checker pattern of the chessboard. In a move, a knight must go from a square to a square of different color (black to white, white to black). Assuming the starting position is white. After moving 81 times, the ending position must be black. But this implies the starting position and the ending position cannot be the same after 81 moves. So the closed path does not exist.
@@ -190,7 +189,7 @@ Note that a knight can {{move two squares vertically and one square horizontally
 
 Let {{$a, b \in \mathbb N$ and $b \ne 0$. Prove that $a \cdot b \ge a$}}.
 
-- strategy ::: Prove by induction. Use the defintion of $\ge$.
+- strategy ::: Prove by induction. Use the definition of $\ge$.
 
 1. base case ::: Without loss of generality, fix $a \in \mathbb N$. When $b = 1$. then $$a \cdot b = a \cdot 1 = a \cdot S(0) = a + a \cdot 0 = a + 0 = a$$. Thus the theorem is proved when $b = 1$.
 2. induction ::: Assume $a \cdot b \ge a$ for some $b \in \mathbb N_{\ne 0}$. Consider $S(b)$: $$\begin{aligned} a \cdot S(b) & = a + a \cdot b \\ & \ge a \cdot b && \text{definition of }\ge \\ & \ge a && \text{transitivity of }\ge \end{aligned}$$. Thus if the theorem is true for $b$, then it is also true for $S(b)$. By induction, the theorem is true for all $b \in \mathbb N_{\ne 0}$.
@@ -202,12 +201,12 @@ We have {{an equilateral triangle of side length 2. Amir chooses five points ins
 - strategy ::: Think of a way to make "pigeonholes" for the 5 points...
 - generalization ::: This can be applied to other shapes: Any two points on a circle, including the boundary, have a distance of at most its diameter.
 
-1. solution ::: Split the equilateral triangle into 4 equal equilateral triangles of side length 1. Then any two points in the same equilateral triangle of side length 1, including the boundary have a distance of at most 1. Put 5 points into the large equilateral triangle. By the pigeonhole principle, there is at least one equilaterial triangle of side length 1 with two points on it. Thus there is at least two points that have a distance of at most 1.
+1. solution ::: Split the equilateral triangle into 4 equal equilateral triangles of side length 1. Then any two points in the same equilateral triangle of side length 1, including the boundary have a distance of at most 1. Put 5 points into the large equilateral triangle. By the pigeonhole principle, there are at least one equilateral triangle of side length 1 with two points on it. Thus there are at least two points that have a distance of at most 1.
 
 ### pigeonhole principle: birthday
 
 Prove that {{there are 3 students in COMP 2711H whose birthday is on the same day of the month}}. We currently have 64 students.
 
-- strategy ::: A trivial application of the pigeonhole principle. Of course, if Amir wants you to prove the slightly more generealized pigeonhole principle, just use induction (which will not be shown here).
+- strategy ::: A trivial application of the pigeonhole principle. Of course, if Amir wants you to prove the slightly more generalized pigeonhole principle, use induction, which will not be shown here.
 
-1. solution ::: There are at most 31 days in a month. By the pigeonhole principle, there is at least a day with $\lceil 64 / 31 \rceil = 3$ students whose birthdays are on that day (ignoring the month).
+1. solution ::: There are at most 31 days in a month. By the pigeonhole principle, there is at least a day with $\lceil 64 / 31 \rceil = 3$ students whose birthdays are on that day (ignoring the month). (If Amir wants you to prove the slightly more generalized pigeonhole principle, use induction, which will not be shown here.)
