@@ -53,6 +53,7 @@ tags:
 
 #### 2024 fall
 
+- [ACCT 2010](ACCT%202010/index.md)
 - [COMP 2633](COMP%202633/index.md) (not taken)
 - [COMP 2711H](COMP%202711H/index.md)
 - [ISOM 2020](ISOM%202020/index.md)
