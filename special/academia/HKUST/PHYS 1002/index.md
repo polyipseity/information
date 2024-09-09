@@ -843,7 +843,7 @@ The content is in teaching order. Extra information and corrections are included
       - [stellar nucleosynthesis](../../../../general/stellar%20nucleosynthesis.md) / multiple shell fusion / [helium fusion](../../../../general/triple-alpha%20process.md) ::: main processes: __He__ → __C__, __O__; last for ~700 thousand years in a 25 solar mass star <!--SR:!2024-12-03,87,344!2025-01-13,126,384-->
       - [stellar nucleosynthesis](../../../../general/stellar%20nucleosynthesis.md) / multiple shell fusion / [carbon-burning process](../../../../general/carbon-burning%20process.md) ::: main processes: __C__ → __Ne__, __O__; last for ~600 years in a 25 solar mass star <!--SR:!2024-09-16,35,345!2024-10-04,48,365-->
       - [stellar nucleosynthesis](../../../../general/stellar%20nucleosynthesis.md) / multiple shell fusion / [neon-burning process](../../../../general/neon-burning%20process.md) (detailed) ::: main processes: __Ne-20__ + gamma ray → __O-16__ + He-4, __Ne-20__ + He-4 → __Mg-24__ + gamma ray; last for ~1 year in a 25 solar mass star <!--SR:!2024-09-13,32,344!2025-02-01,151,405-->
-        - [photodisintegration](../../../../general/photodistingration.md) ::: Effectively, a high-energy gamma rays knocks one or more neutrons, protons, or an alpha particle out of a nucleus. <!--SR:!2025-02-12,160,404!2025-02-20,166,405-->
+        - [photodisintegration](../../../../general/photodistingration.md) ::: Effectively, a high-energy gamma ray knocks one or more neutrons, protons, or an alpha particle out of a nucleus. <!--SR:!2025-02-12,160,404!2025-02-20,166,405-->
       - [stellar nucleosynthesis](../../../../general/stellar%20nucleosynthesis.md) / multiple shell fusion / [oxygen-burning process](../../../../general/oxygen-burning%20process.md) ::: main processes: __O__ → __S__, __Si__, __Ar__; last for ~6 months in a 25 solar mass star <!--SR:!2024-09-12,31,345!2024-11-02,72,385-->
       - [stellar nucleosynthesis](../../../../general/stellar%20nucleosynthesis.md) / multiple shell fusion / [silicon-burning process](../../../../general/silicon-burning%20process.md) ::: main processes: __Si__ → __Fe__, __Cr__; last for ~1 day in a 25 solar mass star <!--SR:!2024-10-12,54,365!2024-11-12,80,385-->
       - [stellar nucleosynthesis](../../../../general/stellar%20nucleosynthesis.md) / multiple shell fusion / Why fusion stops at iron? ::: It is because iron-56 (Fe-56) has the _lowest mass_ per nucleon (not _highest binding energy_ per nucleon). It is a dead end for fusion as fusing Fe-56 into even heavier nuclei takes energy instead of releasing energy. <!--SR:!2024-10-23,67,385!2024-12-24,116,405-->
@@ -1050,7 +1050,7 @@ The content is in teaching order. Extra information and corrections are included
 - [cosmic distance ladder](../../../../general/cosmic%20distance%20ladder.md) ::: This is used because there are many methods to measure distances, each suitable for different distances and situations. Combining and calibrating them against each other leads to a "ladder" to measure distances at all scales of the universe. <!--SR:!2024-11-29,91,387!2024-09-11,30,387-->
   - [cosmic distance ladder § direct measurement](../../../../general/cosmic%20distance%20ladder.md#direct%20measurement) ::: small distances (up to about 200 pc) can be measured directly <!--SR:!2024-09-24,38,347!2024-10-24,63,367-->
     - [cosmic distance ladder § astronomical unit](../../../../general/cosmic%20distance%20ladder.md#astronomical%20unit) ::: Distances within our Solar System can be determined accurately using radar methods. <!--SR:!2024-12-25,117,407!2024-12-19,111,407-->
-      - [cosmic distance ladder § astronomical unit](../../../../general/cosmic%20distance%20ladder.md#astronomical%20unit) / limit ::: within our Solar System, otherwise power needed is too large, and Earth would have moved too much while waiting for the signal to come back for a long time <!--SR:!2025-01-18,133,391!2024-09-14,33,391-->
+      - [cosmic distance ladder § astronomical unit](../../../../general/cosmic%20distance%20ladder.md#astronomical%20unit) / limit ::: within our Solar System, otherwise the power needed is too large, and Earth would have moved too much while waiting for the signal to come back for a long time <!--SR:!2025-01-18,133,391!2024-09-14,33,391-->
     - [cosmic distance ladder § parallax](../../../../general/cosmic%20distance%20ladder.md#parallax) ::: Stellar parallax is useful for measuring distances up to ~200 pc. (Complex ways of using parallax can increase this distance.) <!--SR:!2024-10-08,50,367!2024-12-24,116,407-->
       - [cosmic distance ladder § parallax](../../../../general/cosmic%20distance%20ladder.md#parallax) / limit ::: <~200 pc, because the parallax is too small to be detected (accurately) <!--SR:!2024-09-14,33,391!2024-12-03,95,391-->
       - [stellar parallax](../../../../general/stellar%20parallax.md)
@@ -1177,8 +1177,22 @@ The content is in teaching order. Extra information and corrections are included
 - [questions § 2024-08-06](questions.md#2024-08-06)
   - Finally, a question (Q.4, the last question) that everyone (who answered) got correctly! The teacher gave away the answer.
 - [questions](questions.md): 25/25
-  - iPRS: 10/10 (12/12, before add-drop period: 0/1)
-  - MCQ: 15/15 (11.25/12, before add-drop period: 0/1)
+  - iPRS: 9/9, scaled to 10/10 (12/12, before add-drop period: 0/1)
+    - statistics
+      - mean: 7.81
+      - high: 9
+      - low: 0
+      - median: 9
+      - upper quartile: 9
+      - lower quartile: 7.31
+  - MCQ: 9/9, scaled to 15/15 (11.25/12, before add-drop period: 0/1)
+    - statistics
+      - mean: 8.04
+      - high: 9
+      - low: 0
+      - median: 9
+      - upper quartile: 9
+      - lower quartile: 8.25
 
 ## week 8 lecture 2
 
@@ -1326,9 +1340,39 @@ The content is in teaching order. Extra information and corrections are included
 
 ## aftermath
 
-- [student-generated question](student-generated%20question.md): ?/1
-- [open-ended question report](open-ended%20question%20report.md): ?/20
 - [paper-checking session](#paper-checking%20session)
+- [student-generated question](student-generated%20question.md): 10/10, scaled to 1/1
+  - statistics
+    - mean: 7.65
+    - high: 10
+    - low: 0
+    - median: 8.5
+    - upper quartile: 8.75
+    - lower quartile: 7.5
+- [open-ended question report](open-ended%20question%20report.md): 96/100, scaled to 19.2/20
+  - statistics
+    - mean: 85.94
+    - high: 98
+    - low: 0
+    - median: 89
+    - upper quartile: 94
+    - lower quartile: 84.25
+- course total: 98.5/100
+  - statistics
+    - mean: 71.3
+    - high: 98.5
+    - low: 0
+    - median: 75.66
+    - upper quartile: 83.1
+    - lower quartile: 64.28
+- sub-competencies (for reference only): 12/15
+  - statistics
+    - mean: 11.45
+    - high: 14
+    - low: 3
+    - median: 12
+    - upper quartile: 12
+    - lower quartile: 11
 
 ### paper-checking session
 

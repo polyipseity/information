@@ -1,9 +1,10 @@
 from glob import iglob
 from pathlib import PurePath
 from re import DOTALL, compile
+from urllib.parse import quote
 from aiohttp import ClientSession, TCPConnector
 from asyncio import gather, run
-from typing import Callable, Mapping, MutableSequence
+from typing import Callable, Mapping
 from bs4 import BeautifulSoup, NavigableString, PageElement, Tag
 from bs4.element import PreformattedString
 from jaraco.clipboard import paste_html  # type: ignore
@@ -20,7 +21,10 @@ AUTHORS = (
 )
 VERSION = "∞"
 USER_AGENT = f"{NAME}/{VERSION} ({AUTHORS[0]['email']}) Python/{version}"
+_LIST_INDENT = "    "
 _MAX_CONCURRENT_REQUESTS_PER_HOST = 2
+_IGNORED_NAME_PREFIXES = frozenset({"Help:"})
+_PRESERVED_PAGE_PREFIXES = frozenset({"Special:"})
 
 _names_map = {
     filename[:-3]: filename[:-3]
@@ -64,11 +68,16 @@ def _fix_name_maybe(name: str) -> str:
 
 
 def _markdown_fragment(fragment: str) -> str:
-    return fragment and f"#{fragment.replace(':', '').replace(' ', '%20')}"
+    return (
+        fragment
+        and f"#{fragment.replace(':', '').replace(' ', '%20').replace('/', '%2F')}"
+    )
 
 
 def _markdown_link_target(page: str, fragment: str) -> str:
-    return f"{page.replace(' ', '%20')}.md{_markdown_fragment(fragment)}"
+    return (
+        f"{page.replace('/', '_').replace(' ', '%20')}.md{_markdown_fragment(fragment)}"
+    )
 
 
 def _markdown_link_name(name: str) -> str:
@@ -84,7 +93,7 @@ async def wiki_html_to_plaintext(
     *,
     session: ClientSession,
     refs: bool,
-    list_stack: MutableSequence[int] = [],
+    list_stack: tuple[int, ...] = (),
 ) -> str:
     if not isinstance(ele, Tag):
         return (
@@ -95,7 +104,11 @@ async def wiki_html_to_plaintext(
             else ""
         )
 
-    if "reference" in ele.get_attribute_list("class"):
+    classes = frozenset(ele.get_attribute_list("class"))
+    if {"mw-cite-backlink", "mw-editsection"} & classes:
+        return ""
+
+    if "reference" in classes:
         if refs:
             ref_idx = compile(r"\d+").search("".join(ele.stripped_strings))
             ref_idx = int(ref_idx[0]) if ref_idx else 0
@@ -104,7 +117,6 @@ async def wiki_html_to_plaintext(
 
     process_strings: Callable[[str], str] = lambda strings: strings
     prefix, suffix = "", ""
-    pop_list_stack = False
     match ele.name:
         case "p":
             suffix = "\n\n"
@@ -155,10 +167,18 @@ async def wiki_html_to_plaintext(
                     to = redirect.get("to", title)
                     if not to_fragment:
                         to_fragment = redirect.get("tofragment", "")
-                prefix, suffix = (
-                    "[",
-                    f"]({_markdown_link_target(_fix_name_maybe(to), _fix_name_maybe(to_fragment))})",
-                )
+                if any(to.startswith(prefix) for prefix in _PRESERVED_PAGE_PREFIXES):
+                    prefix, suffix = (
+                        "[",
+                        f"](https://en.wikipedia.org/wiki/{quote(to)}{to_fragment and '#'}{quote(to_fragment, safe='')})",
+                    )
+                elif not any(
+                    to.startswith(prefix) for prefix in _IGNORED_NAME_PREFIXES
+                ):
+                    prefix, suffix = (
+                        "[",
+                        f"]({_markdown_link_target(_fix_name_maybe(to), _fix_name_maybe(to_fragment))})",
+                    )
             elif href := ele.get("href"):
                 href = str(href)
                 if href.startswith("https://en.wikipedia.org/wiki/") and "#" in href:
@@ -170,22 +190,27 @@ async def wiki_html_to_plaintext(
                 process = False
             if process:
                 process_strings = _markdown_link_name
+        case "dl":
+            suffix = "\n\n"
         case "ol":
+            if list_stack:
+                prefix = "\n"
             suffix = "\n\n"
-            pop_list_stack = True
-            list_stack.append(0)
+            list_stack += (0,)
         case "ul":
+            if list_stack:
+                prefix = "\n"
             suffix = "\n\n"
-            pop_list_stack = True
-            list_stack.append(-1)
+            list_stack += (-1,)
+        case "dd":
+            suffix = "\n"
         case "li":
-            if list_stack and (item := list_stack[-1] + 1) >= 1:
-                list_stack[-1] = item
-                prefix = f"{'  ' * (len(list_stack) - 1)}{item}. "
+            if list_stack and (item := list_stack[-1]) >= 1:
+                prefix, suffix = f"{_LIST_INDENT * (len(list_stack) - 1)}{item}. ", "\n"
                 if str(ele.get("id", "")).startswith("cite_"):
-                    suffix = f' <a id="^ref-{item}"></a>^ref-{item}\n'
+                    suffix = f' <a id="^ref-{item}"></a>^ref-{item}{suffix}'
             else:
-                prefix, suffix = f"{'  ' * (len(list_stack) - 1)}- ", "\n"
+                prefix, suffix = f"{_LIST_INDENT * (len(list_stack) - 1)}- ", "\n"
         case "math":
             if alt_text := ele.get("alttext"):
                 alt_text = str(alt_text)
@@ -208,6 +233,12 @@ async def wiki_html_to_plaintext(
 
                 prefix, suffix = "$" if inline else "$$", "$" if inline else "$$\n\n"
 
+                for char in ".,":
+                    if alt_text.endswith(char):
+                        suffix += alt_text[-1]
+                        alt_text = alt_text[:-1]
+                alt_text = alt_text.strip()
+
                 ele.clear()
                 ele.append(alt_text)
         case name if (header_match := compile(r"h(\d?)").match(name)):
@@ -216,20 +247,26 @@ async def wiki_html_to_plaintext(
         case _:
             pass
 
-    strings = "".join(
-        await gather(
-            *(
-                wiki_html_to_plaintext(
-                    child, session=session, refs=refs, list_stack=list_stack
-                )
-                for child in ele.children
-            )
-        )
-    )
-    strings = process_strings(strings)
+    if "hatnote" in classes:
+        prefix = f"- {prefix.removesuffix('_')}"
+        suffix = f"{suffix.removeprefix('_')}\n\n"
 
-    if pop_list_stack:
-        list_stack.pop()
+    def process_children():
+        nonlocal list_stack
+        for child in ele.children:
+            if (
+                list_stack
+                and list_stack[-1] >= 0
+                and isinstance(child, Tag)
+                and child.name == "li"
+            ):
+                list_stack = (*list_stack[:-1], list_stack[-1] + 1)
+            yield wiki_html_to_plaintext(
+                child, session=session, refs=refs, list_stack=list_stack
+            )
+
+    strings = "".join(await gather(*process_children()))
+    strings = process_strings(strings)
 
     return strings and f"{prefix}{strings}{suffix}"
 
