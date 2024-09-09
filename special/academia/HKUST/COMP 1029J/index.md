@@ -17,6 +17,7 @@ tags:
 # index
 
 - HKUST COMP 1029J
+- name: Java Programming Bridging Course
 
 The content is in teaching order.
 

@@ -17,6 +17,7 @@ tags:
 # index
 
 - HKUST ISOM 2020
+- name: Coding for Business
 
 The content is in teaching order.
 

@@ -17,6 +17,7 @@ tags:
 # index
 
 - HKUST MATH 1013
+- name: Calculus IB
 
 - [L'Hôpital's rule](../../../../general/L'Hôpital's%20rule.md)
   - [other indeterminate forms](../../../../general/L'Hôpital's%20rule.md#other%20indeterminate%20forms)

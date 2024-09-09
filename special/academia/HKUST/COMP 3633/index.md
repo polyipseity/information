@@ -17,6 +17,7 @@ tags:
 # index
 
 - HKUST COMP 3633
+- name: Competitive Programming in Cybersecurity II
 
 The content is in teaching order.
 

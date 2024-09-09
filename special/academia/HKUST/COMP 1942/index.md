@@ -17,6 +17,7 @@ tags:
 # index
 
 - HKUST COMP 1942
+- name: Exploring and Visualizing Data
 
 The content is in teaching order.
 

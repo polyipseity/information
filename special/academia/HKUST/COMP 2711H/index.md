@@ -17,6 +17,7 @@ tags:
 # index
 
 - HKUST COMP 2711H
+- name: Honors Discrete Mathematical Tools for Computer Science
 
 The content is in teaching order.
 

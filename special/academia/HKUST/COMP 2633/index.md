@@ -17,6 +17,7 @@ tags:
 # index
 
 - HKUST COMP 2633
+- name: Competitive Programming in Cybersecurity I
 
 The content is in teaching order.
 
