@@ -9,7 +9,7 @@ tags:
 
 # logical equivalence
 
-In [logic](logic.md) and [mathematics](mathematics.md), statements $p$ and $q$ are {{said to be __logically equivalent__ if they have the same [truth value](truth%20value.md) in every [model](structure%20(mathematical%20logic).md)}}. The logical equivalence of $p$ and $q$ is sometimes expressed as {{$p\equiv q$, $p : : q$, ${\textsf {E} }pq$, or $p\iff q$, depending on the notation being used}}. However, these symbols are {{also used for [material equivalence](if%20and%20only%20if.md), so proper interpretation would depend on the context}}. Logical equivalence is {{different from material equivalence, although the two concepts are intrinsically related}}. <!--SR:!2024-09-10,1,230-->
+In [logic](logic.md) and [mathematics](mathematics.md), statements $p$ and $q$ are {{said to be __logically equivalent__ if they have the same [truth value](truth%20value.md) in every [model](structure%20(mathematical%20logic).md)}}. The logical equivalence of $p$ and $q$ is sometimes expressed as {{$p\equiv q$, $p : : q$, ${\textsf {E} }pq$, or $p\iff q$, depending on the notation being used}}. However, these symbols are {{also used for [material equivalence](if%20and%20only%20if.md), so proper interpretation would depend on the context}}. Logical equivalence is {{different from material equivalence, although the two concepts are intrinsically related}}. <!--SR:!2024-09-10,1,230!2024-09-13,4,290!2024-09-13,4,290!2024-09-13,4,290-->
 
 ## logical equivalences
 
@@ -31,20 +31,20 @@ $p\vee (p\wedge q)\equiv p$$p\wedge (p\vee q)\equiv p$
 
 ### logical equivalences involving conditional statements
 
-- [material implication](material%20implication%20(rule%20of%20inference).md) & primitives ::: $$p\implies q\equiv \neg p\vee q$$
-- [transposition](contraposition.md) ::: $$p\implies q\equiv \neg q\implies \neg p$$
-- [material implication](material%20implication%20(rule%20of%20inference).md) & [disjunction](logical%20disjunction.md) ::: $$p\vee q\equiv \neg p\implies q$$
-- [material implication](material%20implication%20(rule%20of%20inference).md) & [conjunction](logical%20conjunction.md) ::: $$p\wedge q\equiv \neg (p\implies \neg q)$$
-- [material implication](material%20implication%20(rule%20of%20inference).md) & [negation](negation.md) ::: $$\neg (p\implies q)\equiv p\wedge \neg q$$
-- [distributive laws](distributive%20property.md) ::: $$\begin{aligned} (p\implies q)\wedge (p\implies r) & \equiv p\implies (q\wedge r) \\ (p\implies q)\vee (p\implies r) & \equiv p\implies (q\vee r) \end{aligned}$$
-- [antidistributive laws](distributive%20property.md) ::: $$\begin{aligned} (p\implies r)\wedge (q\implies r) & \equiv (p\vee q)\implies r \\ (p\implies r)\vee (q\implies r) & \equiv (p\wedge q)\implies r \end{aligned}$$
+- [material implication](material%20implication%20(rule%20of%20inference).md) & primitives ::: $$p\implies q\equiv \neg p\vee q$$ <!--SR:!2024-09-13,4,290!2024-09-13,4,290-->
+- [transposition](contraposition.md) ::: $$p\implies q\equiv \neg q\implies \neg p$$ <!--SR:!2024-09-13,4,290!2024-09-13,4,290-->
+- [material implication](material%20implication%20(rule%20of%20inference).md) & [disjunction](logical%20disjunction.md) ::: $$p\vee q\equiv \neg p\implies q$$ <!--SR:!2024-09-13,4,290!2024-09-12,3,270-->
+- [material implication](material%20implication%20(rule%20of%20inference).md) & [conjunction](logical%20conjunction.md) ::: $$p\wedge q\equiv \neg (p\implies \neg q)$$ <!--SR:!2024-09-13,4,290!2024-09-13,4,290-->
+- [material implication](material%20implication%20(rule%20of%20inference).md) & [negation](negation.md) ::: $$\neg (p\implies q)\equiv p\wedge \neg q$$ <!--SR:!2024-09-13,4,290!2024-09-13,4,290-->
+- [distributive laws](distributive%20property.md) ::: $$\begin{aligned} (p\implies q)\wedge (p\implies r) & \equiv p\implies (q\wedge r) \\ (p\implies q)\vee (p\implies r) & \equiv p\implies (q\vee r) \end{aligned}$$ <!--SR:!2024-09-13,4,290!2024-09-13,4,290-->
+- [antidistributive laws](distributive%20property.md) ::: $$\begin{aligned} (p\implies r)\wedge (q\implies r) & \equiv (p\vee q)\implies r \\ (p\implies r)\vee (q\implies r) & \equiv (p\wedge q)\implies r \end{aligned}$$ <!--SR:!2024-09-13,4,290!2024-09-13,4,290-->
 
 ### logical equivalences involving biconditionals
 
-- [material equivalence](if%20and%20only%20if.md) & [material implication](material%20implication%20(rule%20of%20inference).md) ::: $$p\iff q\equiv (p\implies q)\wedge (q\implies p)$$
-- [material equivalence](if%20and%20only%20if.md) & inner [negation](negation.md) ::: $$p\iff q\equiv \neg p\iff \neg q$$
-- [material equivalence](if%20and%20only%20if.md) & primitives ::: $$p\iff q\equiv (p\wedge q)\vee (\neg p\wedge \neg q)$$
-- [material equivalence](if%20and%20only%20if.md) & outer [negation](negation.md) ::: $$\neg (p\iff q)\equiv p\iff \neg q\equiv p\oplus q$$
+- [material equivalence](if%20and%20only%20if.md) & [material implication](material%20implication%20(rule%20of%20inference).md) ::: $$p\iff q\equiv (p\implies q)\wedge (q\implies p)$$ <!--SR:!2024-09-13,4,290!2024-09-13,4,290-->
+- [material equivalence](if%20and%20only%20if.md) & inner [negation](negation.md) ::: $$p\iff q\equiv \neg p\iff \neg q$$ <!--SR:!2024-09-13,4,290!2024-09-13,4,290-->
+- [material equivalence](if%20and%20only%20if.md) & primitives ::: $$p\iff q\equiv (p\wedge q)\vee (\neg p\wedge \neg q)$$ <!--SR:!2024-09-13,4,290!2024-09-13,4,290-->
+- [material equivalence](if%20and%20only%20if.md) & outer [negation](negation.md) ::: $$\neg (p\iff q)\equiv p\iff \neg q\equiv p\oplus q$$ <!--SR:!2024-09-13,4,290!2024-09-13,4,290-->
 
 where $\oplus$ {{represents [XOR](exclusive%20or.md)}}. <!--SR:!2024-09-13,4,281-->
 
