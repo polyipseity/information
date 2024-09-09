@@ -64,7 +64,8 @@ Prove {{the pigeonhole principle: if we have $n \ge 1$ "holes" and $n + 1$ or mo
 What is wrong with the following proof? ::: When there is 1 car, it has the same color obviously. Assume $n$ cars have the same color. Now consider $n + 1$ cars. The first $n$ cars have the same color, and the last $n$ cars also have the same color. There are $n - 1$ cars in common between them, so the colors of the two sets of car are the same.
 
 - strategy ::: Consider $n = 2$.
-- solution ::: The induction argument fails prove the above proposition for $n = 2$. When $n = 2$, we say the first $n - 1 = 1$ car have the same color, and the last $1$ car also have the same color. But they have $0$ cars in common, so we cannot say the two sets of cars have the same colors.
+
+1. solution ::: The induction argument fails prove the above proposition for $n = 2$. When $n = 2$, we say the first $n - 1 = 1$ car have the same color, and the last $1$ car also have the same color. But they have $0$ cars in common, so we cannot say the two sets of cars have the same colors.
 
 ### ranking players in a tournament
 
@@ -161,3 +162,52 @@ We know that $\sqrt p$ is irrational from [above](#irrationality%20of%20square%2
 
 1. assumption ::: The assumption is that square roots of natural numbers are rational and thus can be written as $a / b$ for $a, b \in \mathbb N_0$. $a$ and $b$ are co-prime.
 2. proof ::: $\sqrt n = a / b$ implies $n = a^2 / b^2$, which implies $nb^2 = a^2$. If $b$ has a prime factor, then $a$ must have have it by this relation. However, since $a$ and $b$ are co-prime, their $\gcd(a, b) = 1$. So $b$ must not have any prime factors at all, as the least prime is 2. The only way this is possible is if $b = 1$. Then $n = a^2$. A solution for $n$ only exists if $n$ is a perfect square, as $a$ is an integer. Otherwise, this is impossible, meaning $\sqrt n$ is irrational by contradiction. And in the other case where $n$ is a perfect square, $b = 1$, so $\sqrt n = a / 1 = a$, an integer. So $\sqrt n$ is either a natural number or irrational.
+
+### fundamental theorem of arithmetic (existence)
+
+We say a natural number $n$ is prime if $\ge 2$ and it is impossible to write $n = a \cdot b$ where $1 < a, b < n$. Prove that {{every natural number $n \ge 2$ can be written as a product of prime numbers}}.
+
+- strategy ::: It is easier to prove this using contradiction than using induction.
+
+1. assumption ::: Assume there exists a nonempty set of natural number at least 2 $A$ that cannot be written as a product of prime numbers. Then by the well-ordering principle, there exists a least natural number $n \ge 2$ that cannot be written as a product of prime numbers.
+2. construction ::: $n \ge 2$ is either prime or composite. If $n$ is a prime, then it is a product of itself, a prime number. So $n$ cannot be prime and is composite. Then there exists two natural numbers $1 < a, b < n$ such that $n = a \cdot b$. $a, b$ are both smaller than $n$, so they must not belong to $A$, or otherwise $n$ would not be the least natural number that cannot be written as a product of prime numbers. So $a$ and $b$ can be written as a product of prime numbers. But then this implies $n$ CAN be written as a product of prime numbers, as a product of two numbers that can be written as a product of prime numbers.
+3. conclusion ::: That $n$ CAN be written as sa product of prime numbers contradicts that $n$ belongs to the set of natural numbmers $A$ that cannot be written as a product of prime numbers. By contradiction, the set $A$ must be empty, so every natural number $n \ge 2$ can be written as a product of prime numbers.
+
+### closed knight's tour
+
+Consider an 8×8 chessboard with a knight at the top right corner. Is it {{possible for us to move the knight in accordance with chess rules such that it visits every square in the board exactly once and then returns to the top right corner? What if we have a 9×9 chessboard?}}
+
+Note that a knight can {{move two squares vertically and one square horizontally, or two squares horizontally and one square vertically}}.
+
+- strategy ::: For 8×8, one will need to guess that the answer is yes and construct such a closed path... So good luck. But for 9×9, there is a simple way. Draw the move pattern of a knight and notice the checker pattern of a chessboard.
+- possibility of _closed_ knight's tours ::: Let there be a _m_ × _n_ board with _m_ ≤ _n_. A _closed_ knight's tour is always possible unless _m_ and _n_ are both odd; _m_ = 1, 2, or 4; or _m_ = 3 and _n_ = 4, 6, or 8.
+- possibility of knight's tours ::: Let there be a _m_ × _n_ board with _m_ ≤ _n_. A knight's tour (possibly _open_) is always possible unless _m_ = 1 or 2; _m_ = 3 and _n_ = 3, 5, or 6; and _m_ = 4 and _n_ = 4.
+
+1. 8×8 chessboard ::: It is possible. Prove by constructing such a closed path...
+2. 9×9 chessboard ::: It is impossible. If such a closed path exists, then the knight needs to move 81 times to go back to the starting position. Now, notice the checker pattern of the chessboard. In a move, a knight must go from a square to a square of different color (black to white, white to black). Assuming the starting position is white. After moving 81 times, the ending position must be black. But this implies the starting position and the ending position cannot be the same after 81 moves. So the closed path does not exist.
+
+### product of natural numbers cannot be lesser than the natural numbers themselves
+
+Let {{$a, b \in \mathbb N$ and $b \ne 0$. Prove that $a \cdot b \ge a$}}.
+
+- strategy ::: Prove by induction. Use the defintion of $\ge$.
+
+1. base case ::: Without loss of generality, fix $a \in \mathbb N$. When $b = 1$. then $$a \cdot b = a \cdot 1 = a \cdot S(0) = a + a \cdot 0 = a + 0 = a$$. Thus the theorem is proved when $b = 1$.
+2. induction ::: Assume $a \cdot b \ge a$ for some $b \in \mathbb N_{\ne 0}$. Consider $S(b)$: $$\begin{aligned} a \cdot S(b) & = a + a \cdot b \\ & \ge a \cdot b && \text{definition of }\ge \\ & \ge a && \text{transitivity of }\ge \end{aligned}$$. Thus if the theorem is true for $b$, then it is also true for $S(b)$. By induction, the theorem is true for all $b \in \mathbb N_{\ne 0}$.
+
+### pigeonhole principle: distance and equilateral triangle
+
+We have {{an equilateral triangle of side length 2. Amir chooses five points inside this triangle. Prove that two of the points have a distance of at most 1}}.
+
+- strategy ::: Think of a way to make "pigeonholes" for the 5 points...
+- generalization ::: This can be applied to other shapes: Any two points on a circle, including the boundary, have a distance of at most its diameter.
+
+1. solution ::: Split the equilateral triangle into 4 equal equilateral triangles of side length 1. Then any two points in the same equilateral triangle of side length 1, including the boundary have a distance of at most 1. Put 5 points into the large equilateral triangle. By the pigeonhole principle, there is at least one equilaterial triangle of side length 1 with two points on it. Thus there is at least two points that have a distance of at most 1.
+
+### pigeonhole principle: birthday
+
+Prove that {{there are 3 students in COMP 2711H whose birthday is on the same day of the month}}. We currently have 64 students.
+
+- strategy ::: A trivial application of the pigeonhole principle. Of course, if Amir wants you to prove the slightly more generealized pigeonhole principle, just use induction (which will not be shown here).
+
+1. solution ::: There are at most 31 days in a month. By the pigeonhole principle, there is at least a day with $\lceil 64 / 31 \rceil = 3$ students whose birthdays are on that day (ignoring the month).
