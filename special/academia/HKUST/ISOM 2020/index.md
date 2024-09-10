@@ -29,6 +29,7 @@ The content is in teaching order.
   - format: pre-lecture videos → weekly exercise (graded, infinite attempts) → lecture → lab (graded, attendance required) → practice question set (ungraded, optional)
   - grading scheme: weekly exercise 10%, lab submissions 20%, final exam 70% (basic programming test 45%, free coding exam 25%)
   - course intended learning outcomes (CILOs): understand coding logic, Python basics, and hands-on guidance
+  - lab: attendance required, can be waived by doing a challenging exercise and demonstrate it to lab helpers at the start of the lab to be waived
 - [assignments](assignments/)
 - final exam: 2024-10-19T14:30:00+08:00/2024-10-19T17:30:00+08:00 (PT3H)
 
@@ -39,12 +40,13 @@ The content is in teaching order.
   - [§ arithmetic operators](basics.md#arithmetic%20operators)
     - [basics § arithmetic operators](basics.md#arithmetic%20operators) / note ::: They really like testing you on the return type of operators... for a somewhat obvious reason. <!--SR:!2024-09-20,13,298!2024-09-20,13,290-->
   - [§ mathematics](basics.md#mathematics)
+  - [§ string](basics.md#string)
+    - [basics § string](basics.md#string) / note ::: They taught `'''` but not `"""` for some reason... But it was later taught in the [week 2 lab](#week%202%20lab) (lab 1). <!--SR:!2024-09-20,13,292!2024-09-17,10,270-->
   - [§ output](basics.md#output)
-    - [basics § output](basics.md#output) / note ::: They teach `'''` but not `"""` for some reason... <!--SR:!2024-09-20,13,292!2024-09-17,10,270-->
   - [§ variable](basics.md#variable)
     - [basics § variable](basics.md#variable) / note ::: In a quiz question, they use the word "save", which means storing a value to a variable. <!--SR:!2024-09-21,14,292!2024-09-20,13,292-->
   - [§ data types](basics.md#data%20types)
-    - [basics § data types](basics.md#data%20types) / note ::: They have not taught `None` and `NoneType` up to this point. <!--SR:!2024-09-16,9,272!2024-09-22,15,292-->
+    - [basics § data types](basics.md#data%20types) / note ::: They have not taught `bool` (values: `True`, `False`) and `NoneType` (value: `None`) up to this point... <!--SR:!2024-09-16,9,272!2024-09-22,15,292-->
 - week 1 exercise
 
 ## week 1 lecture
@@ -71,3 +73,16 @@ The content is in teaching order.
   - [§ length](list.md#length)
   - [§ aggregate functions](list.md#aggregate%20functions)
 - week 2 exercise
+
+## week 2 lab
+
+- time: 2024-09-10T11:00:00+08:00/2024-09-10T12:50:00+08:00
+- course logistics
+- [basics](basics.md)
+  - [§ arithmetic operators](basics.md#arithmetic%20operators)
+  - [§ mathematics](basics.md#mathematics)
+  - [§ string](basics.md#string)
+  - [§ output](basics.md#output)
+  - [§ variable](basics.md#variable)
+  - [§ data types](basics.md#data%20types)
+- week 2 lab tasks

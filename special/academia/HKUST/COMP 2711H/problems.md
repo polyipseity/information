@@ -64,7 +64,7 @@ Prove {{the pigeonhole principle: if we have $n \ge 1$ "holes" and $n + 1$ or mo
 What is wrong with the following proof? ::: When there is 1 car, it has the same color obviously. Assume $n$ cars have the same color. Now consider $n + 1$ cars. The first $n$ cars have the same color, and the last $n$ cars also have the same color. There are $n - 1$ cars in common between them, so the colors of the two sets of car are the same. <!--SR:!2024-09-13,4,280!2024-09-13,4,280-->
 
 - strategy ::: Consider when there are exactly 2 cars ($n = 2$). <!--SR:!2024-09-13,4,280!2024-09-13,4,280-->
-- takeaways ::: This is a pretty silly example, but the same thing may occur in a much less obvious way when doing induction. To avoid this, it is best to check that induction works for small $n$ (at least do so in your mind). <!--SR:!2024-09-13,4,298!2024-09-13,4,298-->
+- takeaway ::: This is a pretty silly example, but the same thing may occur in a much less obvious way when doing induction. To avoid this, it is best to check that induction works for small $n$ (at least do so in your mind). <!--SR:!2024-09-13,4,298!2024-09-13,4,298-->
 
 1. solution ::: The induction argument fails to prove the above proposition for $n = 2$. When $n = 2$, we say the first $n - 1 = 1$ car has the same color, and the last $1$ car also has the same color. But they have $0$ cars in common, so we cannot say the two sets of cars have the same colors. <!--SR:!2024-09-13,4,280!2024-09-13,4,280-->
 
