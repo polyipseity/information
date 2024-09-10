@@ -15,7 +15,7 @@ Arrays are declared like {{[variables](basics.md#variable) but with extra syntax
 
 ## indexing
 
-To index into an array, write {{`Array(Index)`}}. Assignment uses the same syntax. <!--SR:!2024-09-10,154,310-->
+To index into an array, write {{`Array(Index)`}}. Assignment uses the same syntax. <!--SR:!2026-01-01,478,310-->
 
 ## multidimensional
 

@@ -112,7 +112,7 @@ This relation is {{stable under addition and multiplication}}: for $a,b,c\in \ma
 - _a_ + _c_ ≤ _b_ + _c_, and
 - _a_ · _c_ ≤ _b_ · _c_.
 
-Thus, {{the structure (__N__, +, ·, 1, 0, ≤)}} is {{an [ordered semiring](ordered%20ring.md); because there is no natural number between 0 and 1, it is a discrete ordered semiring}}. <!--SR:!2024-09-13,4,285!2024-09-10,1,230-->
+Thus, {{the structure (__N__, +, ·, 1, 0, ≤)}} is {{an [ordered semiring](ordered%20ring.md); because there is no natural number between 0 and 1, it is a discrete ordered semiring}}. <!--SR:!2024-09-13,4,285!2024-09-12,2,230-->
 
 The axiom of induction is {{sometimes stated in the following form that uses a stronger hypothesis, making use of the order relation "≤"}}: <!--SR:!2024-09-13,4,285-->
 

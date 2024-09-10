@@ -41,7 +41,7 @@ The content is in teaching order.
 - time: 2024-09-02T10:30:00+08:00/2024-09-02T11:50:00+08:00
 - course logistics
 - [statistics](../../../../general/statistics.md)
-  - statistics / definition (data) ::: a mathematical science that pertains to the _data_ collection, analysis, interpretation, explanation, and presentation <!--SR:!2024-09-20,16,290!2024-09-10,7,250-->
+  - statistics / definition (data) ::: a mathematical science that pertains to the _data_ collection, analysis, interpretation, explanation, and presentation <!--SR:!2024-09-20,16,290!2024-10-08,28,270-->
     - statistics / definition (data) / examples ::: Almost all fields of studies make use of data and statistics. _Statistical literacy_ has become a very important thing. <!--SR:!2024-09-13,9,270!2024-09-17,13,290-->
   - statistics / definition (decision making) ::: a method for processing and analyzing the collected data so as to help reduce the uncertainty inherent in _decision making_ <!--SR:!2024-09-17,13,290!2024-09-21,17,290-->
     - statistics / definition (decision making) / examples ::: choosing the best medication, driving to work in the shortest time, marketing (and choosing good grade courses) <!--SR:!2024-09-19,15,290!2024-09-20,16,290-->
@@ -160,7 +160,7 @@ The content is in teaching order.
     - [sampling § sampling errors and biases](../../../../general/sampling%20(statistics).md#sampling%20errors%20and%20biases)
     - [sampling § non-sampling errors](../../../../general/sampling%20(statistics).md#non-sampling%20errors)
   - [probability sampling](../../../../general/sampling%20(statistics).md#sampling%20frame) ::: It supports strong statistical inferences from a sample to the population, minimizing selection bias. It involves random selection: any individual has a nonzero probability being picked, and said probability can be determined. <!--SR:!2024-09-21,17,290!2024-09-18,14,290-->
-    - probability sampling / examples ::: cluster sampling. simple random sampling, stratified sampling, systematic sampling, stratified sampling, ... <!--SR:!2024-09-10,7,250!2024-09-18,14,290-->
+    - probability sampling / examples ::: cluster sampling. simple random sampling, stratified sampling, systematic sampling, stratified sampling, ... <!--SR:!2024-09-29,19,250!2024-09-18,14,290-->
     - probability sampling / simple random sampling ::: All individual in a population has equal probability of being selected. <!--SR:!2024-09-19,15,290!2024-09-21,17,290-->
     - probability sampling / systematic sampling ::: A _probabilistic_ method is used to select individuals of a population, such as sampling every third person. <!--SR:!2024-09-19,15,290!2024-09-21,17,290-->
     - probability sampling / stratified sampling ::: Individuals are split into groups based on certain characters. Then simple random sampling is applied on each group. <!--SR:!2024-09-18,14,290!2024-09-12,9,270-->

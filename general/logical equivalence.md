@@ -9,7 +9,7 @@ tags:
 
 # logical equivalence
 
-In [logic](logic.md) and [mathematics](mathematics.md), statements $p$ and $q$ are {{said to be __logically equivalent__ if they have the same [truth value](truth%20value.md) in every [model](structure%20(mathematical%20logic).md)}}. The logical equivalence of $p$ and $q$ is sometimes expressed as {{$p\equiv q$, $p : : q$, ${\textsf {E} }pq$, or $p\iff q$, depending on the notation being used}}. However, these symbols are {{also used for [material equivalence](if%20and%20only%20if.md), so proper interpretation would depend on the context}}. Logical equivalence is {{different from material equivalence, although the two concepts are intrinsically related}}. <!--SR:!2024-09-10,1,230!2024-09-13,4,290!2024-09-13,4,290!2024-09-13,4,290-->
+In [logic](logic.md) and [mathematics](mathematics.md), statements $p$ and $q$ are {{said to be __logically equivalent__ if they have the same [truth value](truth%20value.md) in every [model](structure%20(mathematical%20logic).md)}}. The logical equivalence of $p$ and $q$ is sometimes expressed as {{$p\equiv q$, $p : : q$, ${\textsf {E} }pq$, or $p\iff q$, depending on the notation being used}}. However, these symbols are {{also used for [material equivalence](if%20and%20only%20if.md), so proper interpretation would depend on the context}}. Logical equivalence is {{different from material equivalence, although the two concepts are intrinsically related}}. <!--SR:!2024-09-13,3,250!2024-09-13,4,290!2024-09-13,4,290!2024-09-13,4,290-->
 
 ## logical equivalences
 
@@ -22,7 +22,7 @@ In logic, many common logical equivalences {{exist and are often listed as laws 
 - idempotent or tautology laws ::: $$\begin{aligned} p \lor p & \equiv p \\ p \land p & \equiv p \end{aligned}$$ <!--SR:!2024-09-13,4,281!2024-09-13,4,270-->
 - [double negation](double%20negation.md) law ::: $$\neg (\neg p)\equiv p$$ <!--SR:!2024-09-13,4,270!2024-09-13,4,281-->
 - [commutative laws](commutative%20property.md) ::: $$\begin{aligned} p\vee q & \equiv q\vee p \\ p\wedge q &\equiv q\wedge p \end{aligned}$$ <!--SR:!2024-09-13,4,281!2024-09-13,4,270-->
-- [associative laws](associative%20property.md) ::: $$\begin{aligned} (p \lor q) \lor r & \equiv p \lor (q \lor r) \\ (p \land q) \land r & \equiv p \land (q \land r) \end{aligned}$$ <!--SR:!2024-09-13,4,289!2024-09-10,1,230-->
+- [associative laws](associative%20property.md) ::: $$\begin{aligned} (p \lor q) \lor r & \equiv p \lor (q \lor r) \\ (p \land q) \land r & \equiv p \land (q \land r) \end{aligned}$$ <!--SR:!2024-09-13,4,289!2024-09-13,3,250-->
 - [distributive laws](distributive%20property.md) ::: $$\begin{aligned} p \lor (q \land r) & \equiv (p \lor q) \land (p \lor r) \\ p \land (q \lor r) & \equiv (p \land q) \lor (p \land r) \end{aligned}$$ <!--SR:!2024-09-13,4,281!2024-09-12,3,261-->
 - [De Morgan's laws](De%20Morgan's%20laws.md) ::: $$\begin{aligned} \lnot (p \land q) & \equiv \lnot p \lor \lnot q \\ \lnot (p \lor q) & \equiv \lnot p \land \lnot q \end{aligned}$$ <!--SR:!2024-09-13,4,281!2024-09-13,4,276-->
 - [absorption laws](absorption%20law.md) ::: $$\begin{aligned} p \lor (p \land q) & \equiv p \\ p \land (p \lor q) & \equiv p \end{aligned}$$ <!--SR:!2024-09-13,4,270!2024-09-13,4,276-->

@@ -20,7 +20,7 @@ tags:
 {{Two objects, _A_ and _B_, each with _n_ [binary](binary%20number.md) attributes}} are given. Define: <!--SR:!2025-05-18,261,330-->
 
 - $M_{00}$ ::: number of attributes where _A_ has value 0 and _B_ has value 0 <!--SR:!2025-05-21,261,330!2025-04-25,241,330-->
-- $M_{01}$ ::: number of attributes where _A_ has value 0 and _B_ has value 1 <!--SR:!2024-09-10,67,310!2024-09-11,68,310-->
+- $M_{01}$ ::: number of attributes where _A_ has value 0 and _B_ has value 1 <!--SR:!2025-06-23,286,330!2024-09-11,68,310-->
 - $M_{10}$ ::: number of attributes where _A_ has value 1 and _B_ has value 0 <!--SR:!2025-03-12,205,330!2025-05-25,263,330-->
 - $M_{11}$ ::: number of attributes where _A_ has value 1 and _B_ has value 1 <!--SR:!2025-05-21,260,330!2025-05-30,267,330-->
 

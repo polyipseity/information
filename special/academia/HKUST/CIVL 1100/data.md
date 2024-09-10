@@ -115,7 +115,7 @@ See [Eiffel Tower](../../../../general/Eiffel%20Tower.md).
 
 - description ::: tower on the Champ de Mars in Paris, France <!--SR:!2025-02-02,220,347!2024-12-15,205,330-->
 - height ::: architectural: 300 m, tip, 330 m, top floor: 276 m <!--SR:!2025-06-06,281,317!2025-01-31,244,330-->
-- image ::: ![Eiffel Tower image](../../../../archives/Wikimedia%20Commons/Tour%20Eiffel%20Wikimedia%20Commons%20(cropped).jpg) <!--SR:!2026-03-07,544,400!2024-09-10,106,380-->
+- image ::: ![Eiffel Tower image](../../../../archives/Wikimedia%20Commons/Tour%20Eiffel%20Wikimedia%20Commons%20(cropped).jpg) <!--SR:!2026-03-07,544,400!2026-03-13,549,400-->
 - shape ::: exponential <!--SR:!2025-03-03,272,350!2025-01-16,252,335-->
 
 ## Empire State Building
@@ -173,7 +173,7 @@ See [Hong Kong–Zhuhai–Macau Bridge](../../../../general/Hong%20Kong–Zhuhai
 
 - bridge type ::: [bridge–tunnel](../../../../general/bridge–tunnel.md)<!-- flashcard 981d3cc6-47b4-4aad-8a99-bdeea2975b92 --> <!--SR:!2025-04-16,286,374!2025-09-03,402,394-->
 - description ::: fixed link consisting of tunnels and multiple bridges <!--SR:!2025-08-21,367,375!2024-12-19,209,330-->
-- image ::: ![Hong Kong–Zhuhai–Macau Bridge image](../../../../archives/Wikimedia%20Commons/West%20section%20of%20Hong%20Kong-Zhuhai-Macau%20Bridge%20(20180902174105).jpg) <!--SR:!2024-09-10,106,380!2025-11-13,451,400-->
+- image ::: ![Hong Kong–Zhuhai–Macau Bridge image](../../../../archives/Wikimedia%20Commons/West%20section%20of%20Hong%20Kong-Zhuhai-Macau%20Bridge%20(20180902174105).jpg) <!--SR:!2026-03-14,550,400!2025-11-13,451,400-->
 - length: 55 km
 
 ## Hoover Dam
@@ -226,7 +226,7 @@ See [Millau Viaduct](../../../../general/Millau%20Viaduct.md).
 - length ::: 2450 m = 204 m + 342 m × 6 + 204 m, longest span: 342 m <!--SR:!2024-09-16,24,316!2024-10-12,118,396-->
 - image ::: ![Millau Viaduct image](../../../../archives/Wikimedia%20Commons/ViaducdeMillau.jpg) <!--SR:!2024-11-04,137,396!2025-10-14,411,396-->
 - opening time ::: 2004-12-16, 09:00 <!--SR:!2024-10-17,40,276!2025-05-30,281,376-->
-- width ::: 32.05 m <!--SR:!2024-10-21,42,356!2024-09-10,87,376-->
+- width ::: 32.05 m <!--SR:!2024-10-21,42,356!2025-08-02,326,376-->
 
 ## Mont Cenis Base Tunnel
 
@@ -282,14 +282,14 @@ See [Taipei 101](Taipei%20101.md).
 - description ::: skyscraper in Taipei, Taiwan <!--SR:!2025-03-31,295,350!2026-02-21,535,400-->
 - height ::: architectural: 508.2 m, tip: 509.2 m, top floor: 438 m <!--SR:!2024-09-18,11,130!2024-11-19,179,330-->
 - image ::: ![Taipei 101 image](../../../../archives/Wikimedia%20Commons/Tower%20of%20Taipei%20101(cropped).jpg) <!--SR:!2025-02-07,201,360!2025-07-04,321,380-->
-- [structural system](../../../../general/structural%20system.md) ::: concrete–steel composite<!-- flashcard 16556e6f-00ca-4a87-845c-f0ea2f56807a --> <!--SR:!2024-09-10,92,320!2025-08-01,343,380-->
+- [structural system](../../../../general/structural%20system.md) ::: concrete–steel composite<!-- flashcard 16556e6f-00ca-4a87-845c-f0ea2f56807a --> <!--SR:!2024-10-25,45,300!2025-08-01,343,380-->
 
 ## Thames Barrier
 
 See [Thames Barrier](../../../../general/Thames%20Barrier.md).
 
 - [dam type](../../../../general/dam.md#types) ::: [barrage](barrage%20(dam).md) <!--SR:!2024-10-21,135,341!2025-10-10,433,397-->
-- height ::: 20.1 m <!--SR:!2024-09-10,51,261!2025-09-05,371,380-->
+- height ::: 20.1 m <!--SR:!2025-01-21,133,261!2025-09-05,371,380-->
 - image ::: ![Thames Barrier image](../../../../archives/Wikimedia%20Commons/Thames%20Barrier%2003.jpg) <!--SR:!2025-02-16,228,360!2025-12-19,477,400-->
 - length ::: 520 m <!--SR:!2024-10-17,107,280!2024-12-06,196,330-->
 

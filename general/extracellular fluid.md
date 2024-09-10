@@ -9,7 +9,7 @@ tags:
 
 # extracellular fluid
 
-__Extracellular fluid__ (__ECF__) is {{all [body fluid](body%20fluid.md) outside the cells of a [multicellular organism](multicellular%20organism.md)}}. <!--SR:!2024-09-10,312,270-->
+__Extracellular fluid__ (__ECF__) is {{all [body fluid](body%20fluid.md) outside the cells of a [multicellular organism](multicellular%20organism.md)}}. <!--SR:!2027-11-29,1175,290-->
 
 ## components
 

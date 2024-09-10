@@ -72,11 +72,11 @@ return chain.from_iterable(await gather(
 
 <!--pytextgen generate section="652a"--><!-- The following content is generated at 2024-07-04T10:16:44.272591+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←[new moon](new%20moon.md) <!--SR:!2024-09-13,53,310!2024-09-10,51,310-->
+- _(begin)_→:::←[new moon](new%20moon.md) <!--SR:!2024-09-13,53,310!2025-04-15,217,330-->
 - [new moon](new%20moon.md)→:::←waxing [crescent](crescent.md) <!--SR:!2024-09-14,54,310!2024-09-29,64,310-->
 - waxing [crescent](crescent.md)→:::←first quarter <!--SR:!2024-09-24,63,310!2024-10-04,69,310-->
 - first quarter→:::←waxing gibbous <!--SR:!2025-01-26,152,310!2024-09-27,62,310-->
-- waxing gibbous→:::←[full moon](full%20moon.md) <!--SR:!2024-09-23,62,310!2024-09-10,51,310-->
+- waxing gibbous→:::←[full moon](full%20moon.md) <!--SR:!2024-09-23,62,310!2025-04-16,218,330-->
 - [full moon](full%20moon.md)→:::←waning gibbous <!--SR:!2024-09-14,55,310!2024-10-03,68,310-->
 - waning gibbous→:::←last quarter <!--SR:!2024-09-12,52,310!2024-10-07,72,310-->
 - last quarter→:::←waning [crescent](cresceent.md) <!--SR:!2024-09-11,52,290!2024-09-28,63,310-->

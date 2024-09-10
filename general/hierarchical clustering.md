@@ -17,7 +17,7 @@ tags:
 
 In [data mining](data%20mining.md) and [statistics](statistics.md), __hierarchical clustering__ is {{a method of [cluster analysis](cluster%20analysis.md) that builds a [hierarchy](hierarchy.md) of clusters}}. The methods can be classified into two main types: {{__agglomerative__, a [bottom-up](bottom–up%20and%20top–down%20design.md) approach that starts by making a cluster for each point, and then merge pairs of clusters repeatedly}}; and {{__divisive__, a [top-down](bottom–up%20and%20top–down%20design.md) approach that starts by making a cluster containing every point, and then splitting the cluster into two clusters repeatedly}}. <!--SR:!2024-09-29,122,295!2025-06-27,300,295!2024-12-28,178,275-->
 
-The merges and splits are {{usually [greedy](greedy%20algorithm.md)}}. The results of hierarchical clustering can be represented as {{a [dendrogram](dendrogram.md), a [tree](tree.md)-shaped diagram, with a horizontal ruler at the bottom indicating the distance when the clusters are merged or split}}. <!--SR:!2024-09-10,103,275!2025-07-14,312,295-->
+The merges and splits are {{usually [greedy](greedy%20algorithm.md)}}. The results of hierarchical clustering can be represented as {{a [dendrogram](dendrogram.md), a [tree](tree.md)-shaped diagram, with a horizontal ruler at the bottom indicating the distance when the clusters are merged or split}}. <!--SR:!2025-10-09,394,295!2025-07-14,312,295-->
 
 ## cluster linkage
 
@@ -118,7 +118,7 @@ return chain.from_iterable(await gather(
 - [Ward's method](Ward's%20method.md)::$d(A, B) = \frac {\lvert A \rvert \cdot \lvert B \rvert} {\lvert A \cup B \rvert} \lVert \mu_A - \mu_B \rVert^2 = \sum_{x \in A \cup B} \lVert x - \mu_{A \cup B} \rVert^2 - \sum_{x \in A} \lVert x - \mu_A \rVert^2 - \sum_{x \in B} \lVert x - \mu_B \rVert^2$, where $\mu_*$ is the [centroid](centroid.md) of the cluster $*$ <!--SR:!2024-12-26,164,275-->
 - centroid linkage clustering::$d(A, B) = \lVert \mu_A - \mu_B \rVert^2$, where $\mu_*$ is the [centroid](centroid.md) of the cluster $*$ <!--SR:!2024-09-27,114,295-->
 - [complete-linkage clustering](complete-linkage%20clustering.md)::$d(A, B) = \max_{a \in A, b \in B} d(a, b)$ <!--SR:!2025-03-06,252,335-->
-- median linkage clustering::$d(A \cup B, *) = d\left( \frac {m_A + m_B} 2, m_* \right)$, where $m_*$ is the [medoid](medoid.md) of the cluster $*$ <!--SR:!2024-09-10,100,275-->
+- median linkage clustering::$d(A \cup B, *) = d\left( \frac {m_A + m_B} 2, m_* \right)$, where $m_*$ is the [medoid](medoid.md) of the cluster $*$ <!--SR:!2025-06-11,274,275-->
 - [single-linkage clustering](single-linkage%20clustering.md)::$d(A, B) = \min_{a \in A, b \in B} d(a, b)$ <!--SR:!2025-02-23,243,335-->
 - unweighted average linkage clustering::$d(A, B) = \frac 1 {\lvert A \rvert \cdot \lvert B \rvert} \sum_{a \in A} \sum_{b \in B} d(a, b)$ <!--SR:!2024-11-06,127,255-->
 - weighted average linkage clustering::$d(A \cup B, *) = \frac {d(A, *) + d(B, *)} 2$ <!--SR:!2024-10-15,136,295-->

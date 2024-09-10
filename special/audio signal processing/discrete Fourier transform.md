@@ -33,7 +33,7 @@ The original sequence is {{treated as $N$-periodic}} by DFT. The transformed seq
 
 - see: [general/discrete Fourier transform § expressing the inverse DFT in terms of the DFT](../../general/discrete%20Fourier%20transform.md#expressing%20the%20inverse%20DFT%20in%20terms%20of%20the%20DFT)
 
-Note that the formulas for DFT and IDFT are {{extremely similar}}. Indeed, one can {{write the IDFT in terms of the DFT}}. <!--SR:!2024-10-30,62,310!2024-09-10,18,326-->
+Note that the formulas for DFT and IDFT are {{extremely similar}}. Indeed, one can {{write the IDFT in terms of the DFT}}. <!--SR:!2024-10-30,62,310!2024-11-29,80,346-->
 
 ### linearity
 
@@ -47,7 +47,7 @@ The DFT is {{a linear transform}}. That is, {{$$\mathcal{F}(\{a x_n + b y_n\})_k
 
 {{Shifting the signal in the time domain to the right by $n_0$ samples}} corresponds to {{multiplying the signal in the frequency domain by $e^{-\frac{j 2\pi} N kn_0}$}}. This can be shown {{directly from the definition}}. <!--SR:!2024-11-12,66,346!2024-10-27,52,326!2024-11-13,67,346-->
 
-This shift from the time domain to the frequency domain has an intuitive interpretation. Interpret the argument (angle) of the complex number for each frequency as {{its time offset}}. Shifting a signal to the right (with warping) in the time domain {{increases the time offset for all frequencies}}. This means the complex number for each frequency is {{multiplied (rotated) by $e^{-\frac {j 2\pi} N k n_0}$, changing its argument (angle) while keeping its modulus (length) unchanged}}. This corresponds to {{shifting its corresponding complex sinusoid in the time domain to the right (with warping)}}. <!--SR:!2024-11-12,66,346!2024-10-21,48,326!2024-09-10,18,326!2024-11-07,59,326-->
+This shift from the time domain to the frequency domain has an intuitive interpretation. Interpret the argument (angle) of the complex number for each frequency as {{its time offset}}. Shifting a signal to the right (with warping) in the time domain {{increases the time offset for all frequencies}}. This means the complex number for each frequency is {{multiplied (rotated) by $e^{-\frac {j 2\pi} N k n_0}$, changing its argument (angle) while keeping its modulus (length) unchanged}}. This corresponds to {{shifting its corresponding complex sinusoid in the time domain to the right (with warping)}}. <!--SR:!2024-11-12,66,346!2024-10-21,48,326!2024-11-09,60,326!2024-11-07,59,326-->
 
 By duality, {{shifting the signal in the frequency to the right by $k_0$ samples}} corresponds to {{multiplying the signal in the time domain by $e^{\frac{j 2\pi} N n k_0}$ (notice there is no negative sign)}}. This can also be shown {{directly from the definition}}. <!--SR:!2024-11-10,64,346!2024-09-22,24,306!2024-09-11,13,313-->
 
@@ -55,9 +55,9 @@ By duality, {{shifting the signal in the frequency to the right by $k_0$ samples
 
 - see: [general/discrete Fourier transform § DFT of real and purely imaginary signals](../../general/discrete%20Fourier%20transform.md#DFT%20of%20real%20and%20purely%20imaginary%20signals)
 
-If {{the signal in the time domain is purely real}}, then {{the signal in the frequency domain is even conjugate symmetric, i.e. $$X[k] = X^*[-k]$$}}. Interpreting this in {{rectangular form}}, {{the real part is even symmetric while the imaginary part is odd symmetric (up to mod $2\pi$)}}. Interpreting this in {{polar form}}, {{the modulus (length) is even symmetric while the argument (angle) is odd symmetric (up to mod $2\pi$)}}. <!--SR:!2024-09-11,19,326!2024-11-22,74,346!2024-11-18,70,346!2024-10-29,50,326!2024-09-10,18,326!2024-10-15,43,326-->
+If {{the signal in the time domain is purely real}}, then {{the signal in the frequency domain is even conjugate symmetric, i.e. $$X[k] = X^*[-k]$$}}. Interpreting this in {{rectangular form}}, {{the real part is even symmetric while the imaginary part is odd symmetric (up to mod $2\pi$)}}. Interpreting this in {{polar form}}, {{the modulus (length) is even symmetric while the argument (angle) is odd symmetric (up to mod $2\pi$)}}. <!--SR:!2024-09-11,19,326!2024-11-22,74,346!2024-11-18,70,346!2024-10-29,50,326!2024-11-04,55,326!2024-10-15,43,326-->
 
-Furthermore, if {{the signal in the time domain is _additionally_ even symmetric}}, then {{the frequency domain is _additionally_ even symmetric}}. Interpreting this in {{rectangular form}}, {{the real part is even symmetric while the imaginary part is always zero}}. Interpreting this in {{polar form}}, {{the modulus (length) is even symmetric while the argument (angle) is always an integer multiple of $\pi$}}. <!--SR:!2024-11-27,79,346!2024-11-08,62,326!2024-10-30,51,326!2024-11-23,75,346!2024-09-10,18,326!2024-11-11,65,346-->
+Furthermore, if {{the signal in the time domain is _additionally_ even symmetric}}, then {{the frequency domain is _additionally_ even symmetric}}. Interpreting this in {{rectangular form}}, {{the real part is even symmetric while the imaginary part is always zero}}. Interpreting this in {{polar form}}, {{the modulus (length) is even symmetric while the argument (angle) is always an integer multiple of $\pi$}}. <!--SR:!2024-11-27,79,346!2024-11-08,62,326!2024-10-30,51,326!2024-11-23,75,346!2024-12-01,82,346!2024-11-11,65,346-->
 
 ### convolution
 
@@ -133,4 +133,4 @@ The most common form of FFT is {{the Cooley–Tukey algorithm}} that {{divides t
 
 Note that when {{zero padding a signal for FFT}}, it is important to {{apply the zero-centered variant instead of the causal one}}. <!--SR:!2024-09-14,18,333!2024-09-17,19,333-->
 
-Note that FFT is fundamentally {{the same thing as DFT}}, with the only difference being {{how the values are actually computed}}. <!--SR:!2024-11-04,56,333!2024-09-10,12,313-->
+Note that FFT is fundamentally {{the same thing as DFT}}, with the only difference being {{how the values are actually computed}}. <!--SR:!2024-11-04,56,333!2024-10-18,38,313-->

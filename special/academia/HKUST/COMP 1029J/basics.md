@@ -129,7 +129,7 @@ int anInteger = (int) -3.14; // the `double` of value -3.14 is explicitly conver
 assert anInteger == 3;
 ```
 
-The above explicit conversion is called {{casting. A value can be casted to any type without any compilation error. However, only casting that makes sense will not result in a runtime error}}: <!--SR:!2024-09-10,158,310-->
+The above explicit conversion is called {{casting. A value can be casted to any type without any compilation error. However, only casting that makes sense will not result in a runtime error}}: <!--SR:!2026-07-19,677,330-->
 
 ```Java
 int anInteger = (int) -3.14; // no compilation error and runtime error

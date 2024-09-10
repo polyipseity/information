@@ -101,7 +101,7 @@ return await memorize_seq(
 - (Cap. 311) Air Pollution Control Ordinance→:::←(Cap. 354) Waste Disposal Ordinance <!--SR:!2024-11-21,84,275!2024-10-08,40,275-->
 - (Cap. 354) Waste Disposal Ordinance→:::←(Cap. 358) Water Pollution Control Ordinance <!--SR:!2024-10-08,29,275!2024-10-20,52,315-->
 - (Cap. 358) Water Pollution Control Ordinance→:::←(Cap. 400) Noise Pollution Control Ordinance <!--SR:!2024-09-11,20,255!2024-10-12,42,255-->
-- (Cap. 400) Noise Pollution Control Ordinance→:::←(Cap. 499) Environmental Impact Ordinance <!--SR:!2024-09-10,50,295!2024-11-09,63,295-->
+- (Cap. 400) Noise Pollution Control Ordinance→:::←(Cap. 499) Environmental Impact Ordinance <!--SR:!2025-02-06,149,295!2024-11-09,63,295-->
 - (Cap. 499) Environmental Impact Ordinance→:::←_(end)_ <!--SR:!2024-10-02,87,355!2024-10-07,92,355-->
 
 <!--/pytextgen-->
@@ -184,7 +184,7 @@ Daily Domestic Waste Generation Rates per Capita Compared
 
 Landfills in Hong Kong
 
-- main landfills in Hong Kong (and saturation time) ::: North East New Territories Landfill (2024), South East New Territories Landfill (2022), West New Territories Landfill (2024) <!--SR:!2024-09-10,72,270!2024-12-28,154,310-->
+- main landfills in Hong Kong (and saturation time) ::: North East New Territories Landfill (2024), South East New Territories Landfill (2022), West New Territories Landfill (2024) <!--SR:!2025-03-25,196,270!2024-12-28,154,310-->
 
 ## page 11
 
