@@ -66,7 +66,7 @@ The statement of cash flows {{considers the inputs and outputs in concrete cash 
 > - {{cash inflow}}: {{$50 - _How much WikiTables received in cash for the first table. They didn't receive cash for the second table (sold in credit terms)._}}
 > - {{cash outflow}}: {{$50 - _How much they'd originally bought the 2 tables for._}}
 > - {{opening balance}}: {{$0}}
-> - {{__closing balance__}}: {{__$50 – 2 \* $25 + $0 = $50 – 50 = $0__ - _Indeed, the cash flow for the month of June for WikiTables amounts to $0 and not $50._}}
+> - {{__closing balance__}}: {{__$50 – 2 \* $25 + $0 = $50 – $50 = $0__ - _Indeed, the cash flow for the month of June for WikiTables amounts to $0 and not $50._}}
 
 Important: the cash flow statement {{only considers the exchange of __actual__ cash, and ignores what the person in question owes or is owed}}.
 
@@ -163,9 +163,9 @@ When {{the same thing is done to an account as its normal balance}} it {{increas
 
 However, there are {{instances of accounts, known as contra-accounts (contra-asset, contra-revenue, and contra-equity accounts), which have a normal balance opposite that listed above}}. Examples include:
 
-- contra-asset accounts ::: (such as [accumulated depreciation](depreciation.md#accumulated%20depreciation) and allowances for bad debt or obsolete inventory)
-- contra-revenue accounts ::: (such as sales allowances)
-- contra-equity accounts ::: (such as [treasury stock](treasury%20stock.md))
+- contra-asset accounts, such as... ::: [accumulated depreciation](depreciation.md#accumulated%20depreciation) and allowances for bad debt or obsolete inventory
+- contra-revenue accounts, such as... ::: sales allowances
+- contra-equity accounts, such as... ::: [treasury stock](treasury%20stock.md)
 
 ## financial accounting versus cost accounting
 
@@ -200,14 +200,14 @@ However, there are {{instances of accounts, known as contra-accounts (contra-ass
 
 This text incorporates [content](https://en.wikipedia.org/wiki/financial_accounting) from [Wikipedia](Wikipedia.md) available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.
 
-1.  ["Financial Accounting - Definition from KWHS"](http://kwhs.wharton.upenn.edu/term/financial-accounting/). The Wharton School. 28 February 2011. Retrieved 13 July 2018. <a id="^ref-1"></a>^ref-1
-2.  ["Who We Are - January 2015"](https://web.archive.org/web/20150501111412/http://www.ifrs.org/The-organisation/Documents/2015/Who-We-Are-January-2015.pdf) (PDF). _IFRS.org_. IFRS Foundation. Archived from [the original](http://www.ifrs.org/The-organisation/Documents/2015/Who-We-Are-January-2015.pdf) (PDF) on 1 May 2015. Retrieved 28 April 2015. <a id="^ref-2"></a>^ref-2
-3.  [IFRS Conceptual Framework(2010) Par. OB2](http://www.ifrs.org/IFRSs/Pages/IFRS.aspx) <a id="^ref-3"></a>^ref-3
-4.  [European Accounting Association, Response to Question 26, Comment Letter to the Discussion Paper regarding the Review of the Conceptual Framework, on Page 2 of comment letters, dated 2014-01-24](http://www.ifrs.org/Current-Projects/IASB-Projects/Conceptual-Framework/Discussion-Paper-July-2013/Pages/Comment-letters.aspx) [Archived](https://web.archive.org/web/20140729084444/http://www.ifrs.org/Current-Projects/IASB-Projects/Conceptual-Framework/Discussion-Paper-July-2013/Pages/Comment-letters.aspx) 2014-07-29 at the [Wayback Machine](Wayback%20Machine.md) <a id="^ref-4"></a>^ref-4
-5.  ["IAS 1 - Presentation of Financial Statements"](https://www.iasplus.com/en-gb/standards/ias/ias1). [Deloitte Global](deloitte.md). Retrieved May 9, 2017. <a id="^ref-5"></a>^ref-5
-6.  Larry M. Walther, Christopher J. Skousen, "Long-Term Assets", Ventus Publishing ApS, 2009 <a id="^ref-6"></a>^ref-6
-7.  Gavin, Matt (30 August 2019). ["GAAP VS. IFRS: WHAT ARE THE KEY DIFFERENCES AND WHICH SHOULD YOU USE?"](https://online.hbs.edu/blog/post/gaap-vs-ifrs). _Harvard Business School Online_. Retrieved 2 November 2020. <a id="^ref-7"></a>^ref-7
-8.  Malhotra, DK; Poteau, Ray (2016). _Financial Accounting I_. Academic Publishing. [ISBN](ISBN.md) [978-1627517300](https://en.wikipedia.org/wiki/Special%3ABookSources/978-1627517300). <a id="^ref-8"></a>^ref-8
-9.  Fred., Phillips (2011). _Fundamentals of financial accounting_. Libby, Robert., Libby, Patricia A. (3rd ed.). Boston: McGraw-Hill Irwin. [ISBN](ISBN.md) [9780073527109](https://en.wikipedia.org/wiki/Special%3ABookSources/9780073527109). [OCLC](OCLC.md#OCLC) [457010553](https://search.worldcat.org/oclc/457010553). <a id="^ref-9"></a>^ref-9
-10.  Paul H. Walgenbach, Norman E. Dittrich and Ernest I. Hanson, (1973), New York: Harcourt Grace Javonovich, Inc. Page 429. <a id="^ref-10"></a>^ref-10
-11.  _Cost and Management Accounting. Intermediate_. The Institute of Cost Accountants of India. p. 17. <a id="^ref-11"></a>^ref-11
+1. ["Financial Accounting - Definition from KWHS"](http://kwhs.wharton.upenn.edu/term/financial-accounting/). The Wharton School. 28 February 2011. Retrieved 13 July 2018. <a id="^ref-1"></a>^ref-1
+2. ["Who We Are - January 2015"](https://web.archive.org/web/20150501111412/http://www.ifrs.org/The-organisation/Documents/2015/Who-We-Are-January-2015.pdf) (PDF). _IFRS.org_. IFRS Foundation. Archived from [the original](http://www.ifrs.org/The-organisation/Documents/2015/Who-We-Are-January-2015.pdf) (PDF) on 1 May 2015. Retrieved 28 April 2015. <a id="^ref-2"></a>^ref-2
+3. [IFRS Conceptual Framework(2010) Par. OB2](http://www.ifrs.org/IFRSs/Pages/IFRS.aspx) <a id="^ref-3"></a>^ref-3
+4. [European Accounting Association, Response to Question 26, Comment Letter to the Discussion Paper regarding the Review of the Conceptual Framework, on Page 2 of comment letters, dated 2014-01-24](http://www.ifrs.org/Current-Projects/IASB-Projects/Conceptual-Framework/Discussion-Paper-July-2013/Pages/Comment-letters.aspx) [Archived](https://web.archive.org/web/20140729084444/http://www.ifrs.org/Current-Projects/IASB-Projects/Conceptual-Framework/Discussion-Paper-July-2013/Pages/Comment-letters.aspx) 2014-07-29 at the [Wayback Machine](Wayback%20Machine.md) <a id="^ref-4"></a>^ref-4
+5. ["IAS 1 - Presentation of Financial Statements"](https://www.iasplus.com/en-gb/standards/ias/ias1). [Deloitte Global](deloitte.md). Retrieved May 9, 2017. <a id="^ref-5"></a>^ref-5
+6. Larry M. Walther, Christopher J. Skousen, "Long-Term Assets", Ventus Publishing ApS, 2009 <a id="^ref-6"></a>^ref-6
+7. Gavin, Matt (30 August 2019). ["GAAP VS. IFRS: WHAT ARE THE KEY DIFFERENCES AND WHICH SHOULD YOU USE?"](https://online.hbs.edu/blog/post/gaap-vs-ifrs). _Harvard Business School Online_. Retrieved 2 November 2020. <a id="^ref-7"></a>^ref-7
+8. Malhotra, DK; Poteau, Ray (2016). _Financial Accounting I_. Academic Publishing. [ISBN](ISBN.md) [978-1627517300](https://en.wikipedia.org/wiki/Special%3ABookSources/978-1627517300). <a id="^ref-8"></a>^ref-8
+9. Fred., Phillips (2011). _Fundamentals of financial accounting_. Libby, Robert., Libby, Patricia A. (3rd ed.). Boston: McGraw-Hill Irwin. [ISBN](ISBN.md) [9780073527109](https://en.wikipedia.org/wiki/Special%3ABookSources/9780073527109). [OCLC](OCLC.md#OCLC) [457010553](https://search.worldcat.org/oclc/457010553). <a id="^ref-9"></a>^ref-9
+10. Paul H. Walgenbach, Norman E. Dittrich and Ernest I. Hanson, (1973), New York: Harcourt Grace Javonovich, Inc. Page 429. <a id="^ref-10"></a>^ref-10
+11. _Cost and Management Accounting. Intermediate_. The Institute of Cost Accountants of India. p. 17. <a id="^ref-11"></a>^ref-11
