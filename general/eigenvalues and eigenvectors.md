@@ -213,7 +213,7 @@ A somewhat similar idea can also be applied to {{solving simple [ordinary differ
 
 #### eigenvalues
 
-The eigenvalues of a matrix $A$ can be determined by {{finding the roots of the [characteristic polynomial](characteristic%20polynomial.md) ($\det(tI - A) = 0$)}}. This is {{easy for $2 \times 2$ matrices, but the difficulty increases rapidly with the size of the matrix}}. <!--SR:!2024-12-04,114,290!2024-09-11,68,310-->
+The eigenvalues of a matrix $A$ can be determined by {{finding the roots of the [characteristic polynomial](characteristic%20polynomial.md) ($\det(tI - A) = 0$)}}. This is {{easy for $2 \times 2$ matrices, but the difficulty increases rapidly with the size of the matrix}}. <!--SR:!2024-12-04,114,290!2025-06-26,288,330-->
 
 #### eigenvectors
 

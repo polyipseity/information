@@ -31,7 +31,7 @@ tags:
 - `print <expression>` ::: evaluate and print an expression <!--SR:!2024-09-16,13,270!2024-09-21,17,290-->
 - `run [<args>...]` ::: run program (with args) <!--SR:!2024-09-19,15,290!2024-09-19,15,290-->
 - `set args <args>...` ::: set program args <!--SR:!2024-09-21,17,290!2024-09-17,13,290-->
-- `si` ::: go to the next instruction stepping into functions <!--SR:!2024-09-18,14,290!2024-09-11,8,250-->
+- `si` ::: go to the next instruction stepping into functions <!--SR:!2024-09-18,14,290!2024-10-01,20,250-->
 - `starti [<args>...]` ::: start program and stop at its first instruction <!--SR:!2024-09-21,17,290!2024-09-20,16,290-->
 - `step` ::: go to the next (source) line stepping into functions <!--SR:!2024-09-18,14,290!2024-09-16,12,270-->
 - `up` ::: move up the backtrace or call stack <!--SR:!2024-09-17,13,290!2024-09-20,16,290-->

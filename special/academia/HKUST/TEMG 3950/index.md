@@ -221,7 +221,7 @@ The content is in teaching order.
   - cause mapping § symptom ::: red background <!--SR:!2024-09-22,87,361!2024-10-02,96,361-->
 - [5-step persuasive selling](../../../5-step%20persuasive%20selling.md)
   - [§ format](../../../5-step%20persuasive%20selling.md#format)
-- more trees (for TEMG 4950) ::: issue tree and hypothesis tree <!--SR:!2025-04-27,252,361!2024-09-11,78,361-->
+- more trees (for TEMG 4950) ::: issue tree and hypothesis tree <!--SR:!2025-04-27,252,361!2025-10-01,385,381-->
 - cause mapping extensions ::: facts table, solutions table <!--SR:!2025-09-03,361,381!2024-09-22,87,361-->
   - facts table ::: what, when, where, impact <!--SR:!2024-09-19,85,361!2025-02-07,175,341-->
   - solutions table ::: no., cause, solution; optionally, time, persons responsible, budget <!--SR:!2025-02-22,187,341!2024-09-22,87,361-->

@@ -80,7 +80,7 @@ The parameter types indicates {{the types of the method inputs}}. It is possible
 
 ### constructor
 
-A constructor is {{a special method that is called when you create an object of that class using `new`}}. It consists of {{a name that must be the same as the class name, parameter types, parameter names, and statements}}: <!--SR:!2024-09-11,153,310!2024-09-28,166,310-->
+A constructor is {{a special method that is called when you create an object of that class using `new`}}. It consists of {{a name that must be the same as the class name, parameter types, parameter names, and statements}}: <!--SR:!2025-12-28,473,310!2024-09-28,166,310-->
 
 ```Java
 ClassName(ParameterTypes parameterNames) {

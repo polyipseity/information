@@ -147,7 +147,7 @@ quantity surveyor
 - consulting civil engineer→:::←consulting environmental engineer <!--SR:!2024-12-25,183,347!2025-02-05,221,360-->
 - consulting environmental engineer→:::←consulting geo-technical engineer <!--SR:!2024-10-16,105,265!2025-08-10,342,306-->
 - consulting geo-technical engineer→:::←consulting structural engineer <!--SR:!2025-01-06,179,315!2025-04-26,255,317-->
-- consulting structural engineer→:::←contracting civil engineer <!--SR:!2024-09-11,108,335!2025-05-27,276,315-->
+- consulting structural engineer→:::←contracting civil engineer <!--SR:!2025-09-07,361,335!2025-05-27,276,315-->
 - contracting civil engineer→:::←engineering geologist <!--SR:!2024-09-28,102,297!2024-09-23,19,275-->
 - engineering geologist→:::←environmental consultant <!--SR:!2024-10-25,125,305!2025-05-31,280,305-->
 - environmental consultant→:::←quantity surveyor <!--SR:!2024-09-19,21,280!2025-01-22,163,280-->
@@ -599,7 +599,7 @@ nuclear
 - civil→:::←computer <!--SR:!2024-11-15,163,354!2024-12-17,189,352-->
 - computer→:::←electrical <!--SR:!2024-11-07,142,327!2025-01-18,142,315-->
 - electrical→:::←industrial <!--SR:!2024-09-29,41,301!2024-10-31,68,250-->
-- industrial→:::←manufacturing <!--SR:!2024-10-02,125,337!2024-09-11,103,332-->
+- industrial→:::←manufacturing <!--SR:!2024-10-02,125,337!2025-08-18,341,332-->
 - manufacturing→:::←mechanical <!--SR:!2025-09-08,380,377!2024-10-23,134,337-->
 - mechanical→:::←nuclear <!--SR:!2025-07-18,340,377!2024-12-14,168,335-->
 - nuclear→:::←_(end)_ <!--SR:!2025-06-17,317,374!2025-07-25,393,365-->
@@ -1142,7 +1142,7 @@ and the Structural Engineering Institute (SEI).
 
 <!--pytextgen generate section="34aa"--><!-- The following content is generated at 2024-05-16T15:46:41.750298+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←On 24 June 2021, a 12-story beachfront condominium, Champlain Towers South, in Miami suburb, Florida, United States partially collapsed, killing 98 people. <!--SR:!2024-09-11,95,320!2025-06-05,349,350-->
+- _(begin)_→:::←On 24 June 2021, a 12-story beachfront condominium, Champlain Towers South, in Miami suburb, Florida, United States partially collapsed, killing 98 people. <!--SR:!2025-07-11,303,320!2025-06-05,349,350-->
 - On 24 June 2021, a 12-story beachfront condominium, Champlain Towers South, in Miami suburb, Florida, United States partially collapsed, killing 98 people.→:::←Main culprit is degradation of reinforced concrete structural support in ground-level parking garage, due to water penetration and corrosion of the reinforcing steel. <!--SR:!2025-04-16,247,315!2025-04-10,241,315-->
 - Main culprit is degradation of reinforced concrete structural support in ground-level parking garage, due to water penetration and corrosion of the reinforcing steel.→:::←Other possible factors include corruption, insufficient reinforcing steel, and land subsidence. <!--SR:!2024-12-08,194,290!2024-09-13,102,317-->
 - Other possible factors include corruption, insufficient reinforcing steel, and land subsidence.→:::←The problems had been reported in 2018 and a US$15M program of remedial work has been approved, though no main structural work has taken place. <!--SR:!2024-11-08,131,294!2025-05-18,271,316-->
@@ -1194,7 +1194,7 @@ water transport
 - pier→:::←pipeline <!--SR:!2025-01-24,136,360!2025-02-06,194,314-->
 - pipeline→:::←railroad <!--SR:!2024-11-15,111,255!2024-09-15,38,295-->
 - railroad→:::←water transport <!--SR:!2024-10-11,127,340!2025-04-24,255,315-->
-- water transport→:::←_(end)_ <!--SR:!2024-09-11,107,380!2025-07-05,322,380-->
+- water transport→:::←_(end)_ <!--SR:!2026-03-20,555,400!2025-07-05,322,380-->
 
 <!--/pytextgen-->
 

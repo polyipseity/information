@@ -41,7 +41,7 @@ Lectures are 3 hours 50 minutes long officially, but can be longer in practice. 
 
 ## ethical hacking
 
-Principles of ethical hacking include {{complying with laws, seeking approval, and investigate system vulnerabilities for fixing them only}}. <!--SR:!2024-09-11,8,250-->
+Principles of ethical hacking include {{complying with laws, seeking approval, and investigate system vulnerabilities for fixing them only}}. <!--SR:!2024-09-30,19,250-->
 
 For example:
 

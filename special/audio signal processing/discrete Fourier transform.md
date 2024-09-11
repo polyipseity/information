@@ -39,7 +39,7 @@ Note that the formulas for DFT and IDFT are {{extremely similar}}. Indeed, one c
 
 - see: [general/discrete Fourier transform § linearity](../../general/discrete%20Fourier%20transform.md#linearity)
 
-The DFT is {{a linear transform}}. That is, {{$$\mathcal{F}(\{a x_n + b y_n\})_k= a \mathcal{F}(\{x_n\})_k + b \mathcal{F}(\{y_n\})_k$$ for any complex numbers $a$ and $b$}}. This can be shown {{directly from the definition}}. <!--SR:!2024-11-05,59,326!2024-09-11,19,326!2024-11-19,71,346-->
+The DFT is {{a linear transform}}. That is, {{$$\mathcal{F}(\{a x_n + b y_n\})_k= a \mathcal{F}(\{x_n\})_k + b \mathcal{F}(\{y_n\})_k$$ for any complex numbers $a$ and $b$}}. This can be shown {{directly from the definition}}. <!--SR:!2024-11-05,59,326!2024-11-10,60,326!2024-11-19,71,346-->
 
 ### shift
 
@@ -49,13 +49,13 @@ The DFT is {{a linear transform}}. That is, {{$$\mathcal{F}(\{a x_n + b y_n\})_k
 
 This shift from the time domain to the frequency domain has an intuitive interpretation. Interpret the argument (angle) of the complex number for each frequency as {{its time offset}}. Shifting a signal to the right (with warping) in the time domain {{increases the time offset for all frequencies}}. This means the complex number for each frequency is {{multiplied (rotated) by $e^{-\frac {j 2\pi} N k n_0}$, changing its argument (angle) while keeping its modulus (length) unchanged}}. This corresponds to {{shifting its corresponding complex sinusoid in the time domain to the right (with warping)}}. <!--SR:!2024-11-12,66,346!2024-10-21,48,326!2024-11-09,60,326!2024-11-07,59,326-->
 
-By duality, {{shifting the signal in the frequency to the right by $k_0$ samples}} corresponds to {{multiplying the signal in the time domain by $e^{\frac{j 2\pi} N n k_0}$ (notice there is no negative sign)}}. This can also be shown {{directly from the definition}}. <!--SR:!2024-11-10,64,346!2024-09-22,24,306!2024-09-11,13,313-->
+By duality, {{shifting the signal in the frequency to the right by $k_0$ samples}} corresponds to {{multiplying the signal in the time domain by $e^{\frac{j 2\pi} N n k_0}$ (notice there is no negative sign)}}. This can also be shown {{directly from the definition}}. <!--SR:!2024-11-10,64,346!2024-09-22,24,306!2024-10-21,40,313-->
 
 ### symmetry
 
 - see: [general/discrete Fourier transform § DFT of real and purely imaginary signals](../../general/discrete%20Fourier%20transform.md#DFT%20of%20real%20and%20purely%20imaginary%20signals)
 
-If {{the signal in the time domain is purely real}}, then {{the signal in the frequency domain is even conjugate symmetric, i.e. $$X[k] = X^*[-k]$$}}. Interpreting this in {{rectangular form}}, {{the real part is even symmetric while the imaginary part is odd symmetric (up to mod $2\pi$)}}. Interpreting this in {{polar form}}, {{the modulus (length) is even symmetric while the argument (angle) is odd symmetric (up to mod $2\pi$)}}. <!--SR:!2024-09-11,19,326!2024-11-22,74,346!2024-11-18,70,346!2024-10-29,50,326!2024-11-04,55,326!2024-10-15,43,326-->
+If {{the signal in the time domain is purely real}}, then {{the signal in the frequency domain is even conjugate symmetric, i.e. $$X[k] = X^*[-k]$$}}. Interpreting this in {{rectangular form}}, {{the real part is even symmetric while the imaginary part is odd symmetric (up to mod $2\pi$)}}. Interpreting this in {{polar form}}, {{the modulus (length) is even symmetric while the argument (angle) is odd symmetric (up to mod $2\pi$)}}. <!--SR:!2024-12-06,86,346!2024-11-22,74,346!2024-11-18,70,346!2024-10-29,50,326!2024-11-04,55,326!2024-10-15,43,326-->
 
 Furthermore, if {{the signal in the time domain is _additionally_ even symmetric}}, then {{the frequency domain is _additionally_ even symmetric}}. Interpreting this in {{rectangular form}}, {{the real part is even symmetric while the imaginary part is always zero}}. Interpreting this in {{polar form}}, {{the modulus (length) is even symmetric while the argument (angle) is always an integer multiple of $\pi$}}. <!--SR:!2024-11-27,79,346!2024-11-08,62,326!2024-10-30,51,326!2024-11-23,75,346!2024-12-01,82,346!2024-11-11,65,346-->
 
@@ -65,7 +65,7 @@ Furthermore, if {{the signal in the time domain is _additionally_ even symmetric
 
 {{Convoluting two signals in the time domain}} corresponds to {{multiplying the two signals in the frequency domain}}. That is, {{$$\mathcal{F}(x * y) = XY \qquad x * y = \mathcal{F}^{-1}(XY)$$}}. This is also easily shown {{from the definition}}. <!--SR:!2024-11-11,65,346!2024-11-23,75,346!2024-11-10,64,346!2024-11-16,68,346-->
 
-To understand this convolution theorem, imagine two $N$-length signals {{decomposed into two linear combinations of complex sinusoids $e^{-\frac {j 2\pi} N kn}$ with different frequency indices $k$}}. Convolution of the two signals can also be {{expressed as the _sliding dot product_ of one signal and the other signal going backwards in time}}. That means the complex sinusoids are {{multiplied into terms like $A_0 A_1 \sum_{n = 0}^{N - 1} e^{\frac{j 2\pi} N k_0 n} e^{\frac{j 2\pi} N k_1 (n' - n)}$}}. Notice said terms can be rewritten as: {{$$\begin{aligned} A_0 A_1 \sum_{n = 0}^{N - 1} e^{\frac{j 2\pi} N k_0 n} e^{\frac{j 2\pi} N k_1 (n' - n)} & = A_0 A_1 e^{\frac{j 2\pi } N k_1 n'} \sum_{n = 0}^{N - 1} e^{\frac{j 2\pi} N k_0 n} e^{-\frac{j 2\pi} N k_1 n} \\ & = A_0 A_1 e^{\frac{j 2\pi } N k_1 n'} \sum_{n = 0}^{N - 1} e^{\frac{j 2\pi} N k_0 n} \left( e^{\frac{j 2\pi} N k_1 n} \right)^* \\ & = A_0 A_1 e^{\frac{j 2\pi } N k_1 n'} \left\langle e^{\frac{j 2\pi} N k_0 n}, e^{\frac{j 2\pi} N k_1 n} \right\rangle && (\text{using the dot product that is linear in the 1st argument}) \end{aligned}$$}}. Intuitively ({{__rigorous in this case__}}; left as an exercise), the dot product {{between two complex sinusoids of different frequency indices ($k_0 \ne k_1$) cancels out while that of the same frequency index ($k_0 = k_1$) has their amplitudes multiplied together ($A_0 A_1$; $e^{\frac{j 2\pi } N k_1 n'}$ modifies the phase only)}}. So {{the product of the two signals in the frequency domain is the DFT of their convolution in the time domain}}. <!--SR:!2024-11-09,63,346!2024-10-14,42,326!2024-09-11,19,326!2024-11-18,70,346!2024-09-11,19,326!2024-11-06,60,326!2024-11-03,59,326-->
+To understand this convolution theorem, imagine two $N$-length signals {{decomposed into two linear combinations of complex sinusoids $e^{-\frac {j 2\pi} N kn}$ with different frequency indices $k$}}. Convolution of the two signals can also be {{expressed as the _sliding dot product_ of one signal and the other signal going backwards in time}}. That means the complex sinusoids are {{multiplied into terms like $A_0 A_1 \sum_{n = 0}^{N - 1} e^{\frac{j 2\pi} N k_0 n} e^{\frac{j 2\pi} N k_1 (n' - n)}$}}. Notice said terms can be rewritten as: {{$$\begin{aligned} A_0 A_1 \sum_{n = 0}^{N - 1} e^{\frac{j 2\pi} N k_0 n} e^{\frac{j 2\pi} N k_1 (n' - n)} & = A_0 A_1 e^{\frac{j 2\pi } N k_1 n'} \sum_{n = 0}^{N - 1} e^{\frac{j 2\pi} N k_0 n} e^{-\frac{j 2\pi} N k_1 n} \\ & = A_0 A_1 e^{\frac{j 2\pi } N k_1 n'} \sum_{n = 0}^{N - 1} e^{\frac{j 2\pi} N k_0 n} \left( e^{\frac{j 2\pi} N k_1 n} \right)^* \\ & = A_0 A_1 e^{\frac{j 2\pi } N k_1 n'} \left\langle e^{\frac{j 2\pi} N k_0 n}, e^{\frac{j 2\pi} N k_1 n} \right\rangle && (\text{using the dot product that is linear in the 1st argument}) \end{aligned}$$}}. Intuitively ({{__rigorous in this case__}}; left as an exercise), the dot product {{between two complex sinusoids of different frequency indices ($k_0 \ne k_1$) cancels out while that of the same frequency index ($k_0 = k_1$) has their amplitudes multiplied together ($A_0 A_1$; $e^{\frac{j 2\pi } N k_1 n'}$ modifies the phase only)}}. So {{the product of the two signals in the frequency domain is the DFT of their convolution in the time domain}}. <!--SR:!2024-11-09,63,346!2024-10-14,42,326!2024-12-04,84,346!2024-11-18,70,346!2024-12-08,88,346!2024-11-06,60,326!2024-11-03,59,326-->
 
 ### energy conservation
 
@@ -107,7 +107,7 @@ It is often more helpful to plot the magnitude spectrum in {{a logarithmic scale
 
 - see: [`np.unwrap`](https://numpy.org/doc/stable/reference/generated/numpy.unwrap.html)
 
-To make the phase spectrum {{less jumpy (more continuous)}}, the phase may be {{wrapped around $2\pi$ such that the difference from the previous phase is not more than $\pi$ (see [`np.unwrap`](https://numpy.org/doc/stable/reference/generated/numpy.unwrap.html))}}. <!--SR:!2024-09-11,15,333!2024-09-13,17,333-->
+To make the phase spectrum {{less jumpy (more continuous)}}, the phase may be {{wrapped around $2\pi$ such that the difference from the previous phase is not more than $\pi$ (see [`np.unwrap`](https://numpy.org/doc/stable/reference/generated/numpy.unwrap.html))}}. <!--SR:!2024-11-19,69,353!2024-09-13,17,333-->
 
 ## zero padding
 
@@ -125,7 +125,7 @@ Zero padding can {{make the input size suitable}} for {{[fast Fourier transform]
 
 - see: [general/fast Fourier transform](../../general/fast%20Fourier%20transform.md)
 
-Fast Fourier transform (__FFT__) is {{a fast algorithm for computing the DFT of a signal}}. It works by {{breaking down DFT of a long signal into several DFTs of shorter signals recursively}}. <!--SR:!2024-09-11,15,333!2024-09-14,18,333-->
+Fast Fourier transform (__FFT__) is {{a fast algorithm for computing the DFT of a signal}}. It works by {{breaking down DFT of a long signal into several DFTs of shorter signals recursively}}. <!--SR:!2024-11-17,67,353!2024-09-14,18,333-->
 
 Its time complexity, that is {{how the running time grows with input size}}, is {{$O(n \log n)$, instead of $O(n^2)$ for DFT computed by its definition}}. This means {{for large input sizes, much time can be saved}}. So in practice, {{FFT is used over the traditional DFT}}. <!--SR:!2024-09-17,19,333!2024-09-15,19,333!2024-09-13,17,333!2024-09-13,15,333-->
 
