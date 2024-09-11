@@ -17,9 +17,7 @@ tags:
 
 # reverse 101: world of binaries
 
-## introduction
-
-- Why do reverse engineering, apart from CTFs? ::: You can analyze malware, ensuring interoperability with closed-source programs, or find vulnerabilities in them. What they have in common is that the program source is not readily available.
+Why do reverse engineering, apart from CTFs? ::: You can analyze malware, ensuring interoperability with closed-source programs, or find vulnerabilities in them. What they have in common is that the program source is not readily available.
 
 ## compiling a program
 
