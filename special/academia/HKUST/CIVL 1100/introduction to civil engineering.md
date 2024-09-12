@@ -774,7 +774,7 @@ levee
 
 <!--pytextgen generate section="234f"--><!-- The following content is generated at 2024-05-01T19:22:35.207913+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←canal <!--SR:!2024-09-12,106,340!2025-06-19,333,367-->
+- _(begin)_→:::←canal <!--SR:!2025-09-06,359,340!2025-06-19,333,367-->
 - canal→:::←channel <!--SR:!2024-11-27,174,357!2024-12-06,168,352-->
 - channel→:::←dam <!--SR:!2024-10-21,128,327!2025-02-10,240,290-->
 - dam→:::←levee <!--SR:!2024-12-18,169,340!2024-11-04,141,332-->
@@ -1019,7 +1019,7 @@ Taipei 101
 - HSBC Main Building→:::←International Commerce Centre <!--SR:!2024-09-19,88,297!2024-10-09,48,314-->
 - International Commerce Centre→:::←John Hancock Center <!--SR:!2024-10-04,113,320!2024-12-24,105,297-->
 - John Hancock Center→:::←Taipei 101 <!--SR:!2024-11-02,137,341!2024-10-07,120,312-->
-- Taipei 101→:::←_(end)_ <!--SR:!2025-04-10,280,367!2024-09-12,99,321-->
+- Taipei 101→:::←_(end)_ <!--SR:!2025-04-10,280,367!2024-10-28,46,301-->
 
 <!--/pytextgen-->
 
@@ -1098,7 +1098,7 @@ water tower
 - bridge→:::←building <!--SR:!2025-01-24,203,350!2026-01-07,496,400-->
 - building→:::←dam <!--SR:!2025-05-03,277,361!2025-01-17,198,361-->
 - dam→:::←power plant <!--SR:!2024-12-09,92,281!2024-10-17,82,238-->
-- power plant→:::←storage facility <!--SR:!2025-01-30,185,300!2024-09-12,111,334-->
+- power plant→:::←storage facility <!--SR:!2025-01-30,185,300!2024-11-06,55,314-->
 - storage facility→:::←tunnel <!--SR:!2024-12-21,103,280!2025-09-29,392,340-->
 - tunnel→:::←unusual structure <!--SR:!2024-09-19,83,247!2024-10-17,121,320-->
 - unusual structure→:::←water tower <!--SR:!2024-12-19,108,290!2024-09-26,19,270-->

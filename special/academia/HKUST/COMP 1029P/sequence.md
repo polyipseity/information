@@ -39,7 +39,7 @@ assert "asd"[-1] == "d"
 assert [39, "omg", 'asd', 3.4][-2] == "asd"
 ```
 
-One can obtain subsequences, i.e. smaller sequences, via {{slicing}}. To obtain a subsequence from the a-th item to the b-th item, write {{`sequence[a-1:b]`}}: <!--SR:!2024-09-12,154,310!2024-12-18,245,330-->
+One can obtain subsequences, i.e. smaller sequences, via {{slicing}}. To obtain a subsequence from the a-th item to the b-th item, write {{`sequence[a-1:b]`}}: <!--SR:!2026-01-01,476,310!2024-12-18,245,330-->
 
 ```Python
 assert "asd"[1:3] == 'sd'
@@ -55,7 +55,7 @@ assert [39, "omg", 'asd', 3.4][1:] == ["omg", 'asd', 3.4]
 assert [39, "omg", 'asd', 3.4][:] == [39, "omg", 'asd', 3.4]
 ```
 
-Lastly, slicing accepts {{a third parameter called step}}. When omitted, it is {{by default 1}}. It determines {{how many items to move forward after slicing an element}}, and hence called step. For example, setting step to 3 means {{every third element is sliced starting from the starting point}}. Negative steps are also allowed, which simply means {{going backwards}}. Here are some more examples: <!--SR:!2024-09-12,156,310!2025-01-12,263,330!2026-01-03,480,310!2025-08-28,379,290!2025-01-05,260,330-->
+Lastly, slicing accepts {{a third parameter called step}}. When omitted, it is {{by default 1}}. It determines {{how many items to move forward after slicing an element}}, and hence called step. For example, setting step to 3 means {{every third element is sliced starting from the starting point}}. Negative steps are also allowed, which simply means {{going backwards}}. Here are some more examples: <!--SR:!2026-01-08,483,310!2025-01-12,263,330!2026-01-03,480,310!2025-08-28,379,290!2025-01-05,260,330-->
 
 ```Python
 assert "abcdefg"[::2] == "aceg"

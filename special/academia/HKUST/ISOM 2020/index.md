@@ -21,7 +21,7 @@ tags:
 
 The content is in teaching order.
 
-- general recommendations ::: Do NOT use techniques not learnt in lectures! Also, if you have learnt Python before well, you would find a few quiz questions ambiguous with imprecise wordings. Good luck guessing the answer... <!--SR:!2024-09-12,3,269!2024-09-13,4,289-->
+- general recommendations ::: Do NOT use techniques not learnt in lectures! Also, if you have learnt Python before well, you would find a few quiz questions ambiguous with imprecise wordings. Good luck guessing the answer... <!--SR:!2024-09-24,12,289!2024-09-13,4,289-->
 - course logistics
   - pathway: ISOM 2020 → ISOM 2600
   - duration: 7 weeks, for the first half of the semester

@@ -58,7 +58,7 @@ return await memorize_seq(
 
 <!--pytextgen generate section="dbad"--><!-- The following content is generated at 2024-07-03T20:50:02.445266+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←(center) [Sun](../../../../general/Sun.md): radius of 7 cm (large grapefruit), distance of 0 m <!--SR:!2024-09-12,60,310!2024-09-14,62,318-->
+- _(begin)_→:::←(center) [Sun](../../../../general/Sun.md): radius of 7 cm (large grapefruit), distance of 0 m <!--SR:!2025-03-18,187,310!2024-09-14,62,318-->
 - (center) [Sun](../../../../general/Sun.md): radius of 7 cm (large grapefruit), distance of 0 m→:::←[Earth](../../../../general/Earth.md): radius of 0.06 cm (ballpoint pen pin), distance of 15 m (road surrounding the sundial); [Moon](../../../../general/Moon.md): radius of 0.02 cm, distance from Earth of 3.8 cm <!--SR:!2024-09-26,35,258!2024-09-15,56,310-->
 - [Earth](../../../../general/Earth.md): radius of 0.06 cm (ballpoint pen pin), distance of 15 m (road surrounding the sundial); [Moon](../../../../general/Moon.md): radius of 0.02 cm, distance from Earth of 3.8 cm→:::←[Mars](../../../../general/Mars.md): radius of 0.03 cm, distance of 23 m <!--SR:!2024-10-17,72,250!2024-11-11,91,286-->
 - [Mars](../../../../general/Mars.md): radius of 0.03 cm, distance of 23 m→:::←[Jupiter](../../../../general/Jupiter.md): radius of 0.7 cm, distance of 78 m (atrium center) <!--SR:!2024-10-21,48,218!2024-09-22,55,250-->

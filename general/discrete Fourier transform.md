@@ -41,7 +41,7 @@ The inverse transform is given by:
 
 > {{__inverse discrete Fourier transform (Eq.2)__}}
 >
-> {{$$x_n = \frac 1 N \sum_{k = 0}^{N - 1} X_k \cdot e^{i 2\pi \frac k N n}$$}} <!--SR:!2024-11-03,61,270!2024-09-12,24,270-->
+> {{$$x_n = \frac 1 N \sum_{k = 0}^{N - 1} X_k \cdot e^{i 2\pi \frac k N n}$$}} <!--SR:!2024-11-03,61,270!2024-11-16,65,270-->
 
 __Eq.2__ is {{also $N$-periodic (in index $n$)}}. In __Eq.2__, each $X_k$ is {{a complex number whose polar coordinates are the amplitude and phase of a complex sinusoidal component $\left(e^{i 2\pi \frac k N n}\right)$ of function $x_n$}}. (see [discrete Fourier series](discrete%20Fourier%20series.md)) The sinusoid's [frequency](frequency.md) is {{$k$ cycles per $N$ samples}}. <!--SR:!2024-10-28,63,310!2024-10-04,42,290!2024-11-02,66,310-->
 
@@ -73,7 +73,7 @@ This table shows {{some mathematical operations on $x_{n}$ in the time domain an
 | imaginary part in frequency | $${\frac {1}{2i} }\left(x_{n}-x_{N-n}^{*}\right)$$ | $$\operatorname {Im} {\left(X_{k}\right)}$$        |
 
 - real part in time ::: frequency: $$\frac 1 2 (X_k + X^*_{N - k})$$ <!--SR:!2024-10-24,55,316!2024-10-26,57,316-->
-- imaginary part in time ::: frequency: $$\frac 1 {2i} (X_k - X^*_{N - k})$$ <!--SR:!2024-09-12,19,276!2024-11-20,78,336-->
+- imaginary part in time ::: frequency: $$\frac 1 {2i} (X_k - X^*_{N - k})$$ <!--SR:!2024-11-04,53,276!2024-11-20,78,336-->
 - real part in frequency ::: time: $$\frac 1 2 (x_n + x^*_{N - n})$$ <!--SR:!2024-09-19,24,276!2024-11-08,69,336-->
 - imaginary part in frequency ::: time: $$\frac 1 {2i} (x_n - x^*_{N - n})$$ <!--SR:!2024-10-12,45,316!2024-10-30,61,336-->
 
@@ -124,7 +124,7 @@ Similar to above, by {{applying the [circular convolution theorem](#ciruclar%20c
 
 ### uniqueness of the discrete Fourier transform
 
-As seen above, the discrete Fourier transform has {{the fundamental property of carrying convolution into componentwise product}}. A natural question is {{whether it is the only one with this ability}}. It has been shown that {{any linear transform that turns convolution into pointwise product is the DFT up to a permutation of coefficients}}. Since {{the number of permutations of n elements equals n!}}, there exists {{exactly n! linear and invertible maps with the same fundamental property as the DFT with respect to convolution}}. <!--SR:!2024-11-07,59,332!2024-09-14,19,332!2024-09-12,17,332!2024-10-14,37,312!2024-09-13,18,332-->
+As seen above, the discrete Fourier transform has {{the fundamental property of carrying convolution into componentwise product}}. A natural question is {{whether it is the only one with this ability}}. It has been shown that {{any linear transform that turns convolution into pointwise product is the DFT up to a permutation of coefficients}}. Since {{the number of permutations of n elements equals n!}}, there exists {{exactly n! linear and invertible maps with the same fundamental property as the DFT with respect to convolution}}. <!--SR:!2024-11-07,59,332!2024-09-14,19,332!2024-11-06,55,332!2024-10-14,37,312!2024-09-13,18,332-->
 
 ### convolution theorem duality
 
