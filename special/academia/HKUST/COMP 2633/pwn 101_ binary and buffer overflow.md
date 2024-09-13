@@ -23,21 +23,22 @@ A quick recap of types of tools used for reverse: {{static analysis, dynamic ana
 
 What is a memory model? It refers to how {{memory in a program is modelled by the OS}}. In {{the good o' days of computing}}, memory address is {{really the address of the physical memory}}. But modern OSes do not do that. One of the many reasons is security: {{consider that the physical memory is shared by all processes, it is insecure for one process to be able to access the memory of any other process, e.g. a password manager}}.
 
-Instead, modern OSes has the concept of {{virtual memory}}. To any single process, it looks like {{there is still a "physical" memory}}, but {{the OS maps different parts of the "physical" memory to different parts of the actual physical memory, or even files on storage devices}}! Some parts {{may not be mapped (unmapped) at all, and accessing them will likely crash the program}}. The mapping is {{usually private to a single process, that is, that mapping is only used by that process and no other processes}}. This is {{good for security as a process can only access the memory of itself but not other processes}}.
+Instead, modern OSes has the concept of {{virtual memory}}, which is managed by {{a hardware called the memory management unit (MMU)}}. To any single process, it looks like {{there is still a "physical" memory}}, but {{the OS maps different parts of the "physical" memory to different parts of the actual physical memory, or even files on storage devices}}! Some parts {{may not be mapped (unmapped) at all, and accessing them will likely crash the program  (receive `SIGSEGV` signal)}}. The mapping is {{usually private to a single process, that is, that mapping is only used by that process and no other processes}}. This is {{good for security as a process can only access the memory of itself but not other processes}}.
 
 However, further knowledge memory model is {{not exactly important in basic pwn}}. All one needs to know is that {{parts of memory in a program are mapped to different parts of the actual physical memory or some files on storage devices}}.
 
 ### memory mapping
 
-For pwn, it is more important to know {{the typical memory mapping for a process}}. We will learn about {{5 mappings, in the order of low (small) address to high (large) address: text segment, data segment, BSS segment, heap, and stack}}. There may {{or may not be unmapped space in between the segments}}. Ignoring those space, {{text segment, data segment, BSS segment, and heap are very close together}}. The heap {{can dynamically grow upwards (increasing address) at runtime}}, while others {{usually cannot grow}}. The stack {{is very close to the highest address and can dynamically grow downwards (decreasing address) at runtime}}.
+For pwn, it is more important to know {{the typical memory mapping for a process}}. A memory mapping is {{called a segment, not to be confused with sections, as a segment can contain multiple sections}}. We will learn about {{4 segments, in the order of low (small) address to high (large) address: read-execute segment, read-write segment, heap, and stack}}. There may {{or may not be unmapped space in between the segments}}. Ignoring those space, {{read-execute segment, read-write segment, and heap are very close together}}. The heap {{can dynamically grow upwards (increasing address) at runtime}}, while others {{usually cannot grow}}. The stack {{is very close to the highest address and can dynamically grow downwards (decreasing address) at runtime}}.
 
-The meanings of the 5 segments are:
+The meanings of the 4 segments are:
 
-- text segment ::: Despite its name, it contains the code of the program. It usually corresponds to the `.text` and `.rodata` (read-only data) section in assembly.
-- data segment ::: It contains _initialized_ global or static variables. It usually corresponds to the `.data` section in assembly.
-- BSS segment ::: It is a segment reserved for _uninitialized_ global or static variables to be initialized by the program. It usually corresponds to the `.bss` section in assembly. All modern OSes zero-initialize this segment (all data in the segment is initially zero).
+- read-execute segment ::: The segment that the program can read from and execute code on it. It usually contains the ELF header, `.rodata` (read-only data) and `.text` (code) sections in assembly.
+- read-write segment ::: The segment that the program and read from and write to. It usually contains the `.bss` and `.data` sections in assembly.
 - heap ::: It contains memory allocated at runtime. Usually, it is allocated for manual memory management (e.g. `malloc`, `new`). It grows upwards (increasing address).
 - stack ::: It also contains memory allocated at runtime, but for small data (e.g., local variables) and also function-related data. Usually, it is allocated for automatic memory management (e.g. local variables). It grows downwards (decreasing address).
+
+Note that the `.rodata` (read-only data) section is located on the read-execute segment. This means {{the program can execute the data in `.rodata` section as code, which makes it less secure}}. The linkers of some newer Linux distributions {{add an additional one or two read segments (the program can only read from it) for the ELF header and `.rodata` section to improve security}}.
 
 ## executable and linkable format
 
@@ -45,7 +46,7 @@ For pwn, it is also important to know {{the overall structure of an executable a
 
 Like {{many file formats}}, an ELF file has {{a ELF header indicating that it is an ELF file and the properties of it (32 or 64 bit, offsets, ...)}}. Its magic number, i.e. {{the bytes an ELF file must start with}}, is {{`0x7F 'E' 'L' 'F'`}}. Additionally, an ELF file has {{a program header table at the beginning of the file right after the ELF header, and a section header table at the end of the file}}.
 
-The program header table {{specifies how the process image is created, i.e. how the OS should map the memory of the new process to the ELF}}. The section header table {{identifies all the sections in an ELF file}}. Examples of sections are: {{`.text`, `.data`, `.bss`, `.rodata` (read-only data), etc.}}
+The program header table {{specifies how the process image is created, i.e. how the OS should map the memory of the new process to the ELF, i.e. segment (not section) information}}. The section header table {{identifies all the sections in an ELF file}}. Examples of sections are: {{`.text`, `.data`, `.bss`, `.rodata` (read-only data), etc.}}
 
 ## stack in x86 and x86-64 assembly
 
@@ -95,7 +96,7 @@ To {{see the registers and the stack while running a program}}, we will use {{th
 
 Let's learn some basic `gdb` commands (not exclusive to `pwndbg`):
 
-- `apropos <regex>` ::: find text matching `<regex>`
+- `apropos <regex>` ::: find text matching `<regex>` in the manual
 - `help [<topic>]` ::: find information about topic; if topic is not specified, then prints general help
 - `file <path>` ::: load binary file to debug
 - `run [<args>...]` ::: run program (with args)
@@ -127,11 +128,11 @@ Let's also learn some basic `pwndbg` commands:
 - `stack <count> <offset>` ::: prints stack data with the specified count and offset
 - `vmmap [<address|name>]` ::: display memory mappings information (filtered binary address or name)
 
-Commands names can be {{truncated at the end to produce an abbreviation if the abbreviation is unambiguous, i.e. there is only exactly one command name starting with the abbreviation}}. For example, `disassemble` can be {{abbreviated to `disass` or even the more ugly `disassem`}}.
+Commands names can be {{truncated at the end to produce an abbreviation if the abbreviation is unambiguous, i.e. there is only exactly one command name starting with the abbreviation}}. For example, `disassemble` can be {{abbreviated to `disass` or the uglier `disassem`}}.
 
 ## buffer overflow
 
-A buffer is {{simply a portion of the memory used to store the data}}. As {{real computers have limited memory}}, the buffer is {{also limited in its size}}. The buffer may be on {{the stack, the heap, data segment (`.data`), code segment (`.code`), or really anywhere the memory is mapped by the OS}}. A buffer is {{usually contagious, that is, it is a continuous portion of the memory}}, so we can identify a buffer by {{its low (start) address (inclusive) and high (end) address (exclusive)}}.
+A buffer is {{simply a portion of the memory used to store the data}}. As {{real computers have limited memory}}, the buffer is {{also limited in its size}}. The buffer may be on {{the stack, the heap, read-write segment, read-execute segment, or really anywhere the memory is mapped by the OS}}. A buffer is {{usually contagious, that is, it is a continuous portion of the memory}}, so we can identify a buffer by {{its low (start) address (inclusive) and high (end) address (exclusive)}}.
 
 The buffers we are usually interested in exploiting is {{usually on the first three because we can write to the buffer}}. We will only {{focus on buffers on the stack because they are the easiest to exploit}}.
 
@@ -187,3 +188,58 @@ $ ldd 'my_elf'
 ```
 
 If so, you are good to go! Otherwise, try harder.
+
+## protection
+
+There are {{protection schemes to inhibit exploitation of buffer overflow even if they exist}}. We will talk about {{two of them: [stack canaries](#stack%20canaries) and [address randomization](#address%20randomization)}}. Of course, there is always the solution of {{[avoiding buffer overflows](#avoiding%20buffer%20overflows) in the first place}}.
+
+We should know these protection so that {{we can bypass them in pwn challenges}}. To see what protections has been enabled for an executale, {{run the `pwndbg` command `checksec`}}. It will print {{a list of protections and their status, some of which are not introduced here and you will need to look them up yourself}}. For example:
+
+```shell
+pwndbg> checksec
+[*] '/home/example/a folder/my_elf'
+    Arch:     amd64-64-little
+    RELRO:    Partial RELRO
+    Stack:    Canary found
+    NX:       NX enabled
+    PIE:      PIE enabled
+```
+
+### avoiding buffer overflows
+
+The best way to avoid buffer overflows being exploited is {{simply not have buffer overflows in the first place}}.
+
+Recall unsafe C functions can lead to buffer overflows. There are {{safe versions of them, usually named by appending `_s`, e.g. `gets_s`, `scanf_s`, `strcpy_s`}}. They are safe because {{they require an additional argument stating the buffer size (including the null terminator), and they will not attempt to write beyond the specified size}}. However, if {{the provided buffer size is larger than the actual buffer size}}, then {{buffer overflow is still possible}}. For example:
+
+```C
+int buffer[4];
+gets_s(buffer, 4); // Not vulnerable to buffer overflow.
+gets_s(buffer, 3); // Still not vulnerable to buffer overflow.
+gets_s(buffer, 5); // Vulnerable to buffer overflow, but you can only overflow by 1 byte.
+```
+
+### stack canaries
+
+In the real world, canaries are birds used {{to detect toxic gases in coal mines}}. As {{they are more sensitive to the toxic gases before humans}}, {{the birds would get sick before the humans}}, allowing {{the humans to avoid the toxic gases}}.
+
+In buffer overflow, stack canary is {{a 32 or 64-bit value on top of the old `rip` and `rbp` but below the local variables in the stack}}. The stack canary is {{checked to be unmodified before returning from the function, printing an error and terminating the program if modified}}. This inhibits {{exploitation of buffer overflow because overwriting the old `rip` and `rbp` also involves overwriting the stack canary}}.
+
+Usually, the stack canary is {{random, so that the attacker cannot know the stack canary and very likely modifies the stack canary}}. It is {{unlikely the attacker can guess the canary as the stack canary has 64 or 56 of its bits random}}. The stack canary can be {{either fully random (_random canary_); or fully random except that its least significant bit (low address) is always the zero byte `\x00`, i.e. the null terminator (_terminator canary_); or XOR-ed with a piece of control data (_random XOR canary_)}}.
+
+We will only discuss _terminator canary_ in more details. In particular, {{many C string functions treat the null terminator as the end of string}}. So if {{an attacker were to read the canary value for exploitation}}, {{C string reading functions would read the null terminator at the low address and then stop, so the more significant bits of the canary value are unleaked}}. Even if {{the attacker knows the canary value to be written and include it in the payload}}, {{C string writing functions cannot write past the canary value because it thought the payload ended at the null terminator}}. However, {{non-string functions are not affected by the above, as they do not treat the null terminator specially}}.
+
+As mentioned above, stack canary can be bypassed {{if you know the canary value and is able to write past the canary}}. The canary value {{may be obtained by another buffer overflow that causes the canary value to be leaked}}.
+
+### address randomization
+
+Buffer overflow is often used to {{jump to a particular function}}. This can be inhibited if {{the function addresses are randomized each time the program is executed}}. Then {{the attacker will need to find out the address of that particular function during that one program execution (does not work across execution)}}.
+
+To do so, the executable must {{consists of position-independent code (PIC), making the executable a position-independent executable (PIE)}}. Said code {{can work properly regardless of the code's base (start) address (thus does not refer to absolute addresses)}}. Then the technique of {{address space layout randomization (ASLR)}} can be applied. Usually, it will {{randomize the base (start) address of the program (read-execute and read-write segment are treated as one segment for ASLR), the heap, and the stack}}. However, {{as only the base (start) address of segments are randomized}}, {{functions and data inside the same segment still have the same relative offset to each other}}.
+
+To bypass address randomization, we need to {{know the exact versions of programs and libraries used}}. Then, we {{leak (obtain) the absolute address of any function or data in the same segment as the function we wanted to jump to}}, perhaps {{using another vulnerability}}. Finally, {{calculate the absolute address of the function we wanted to jump to using the relative offset, which can be found on the local machine, given the exact versions of programs and libraries are used}}.
+
+## next week notes
+
+Next week, we will be teaching {{decompilers. In particular, we will use Ghidra (URL: <https://github.com/NationalSecurityAgency/ghidra/releases>)}}.
+
+Also, a general recommendation when analyzing a unknown executable is {{analyze it in a virtual machine}}, because {{the unknown executable may be a malware}}.

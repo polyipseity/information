@@ -63,3 +63,8 @@ The content is in teaching order.
   - [§ buffer overflow](pwn%20101_%20binary%20and%20buffer%20overflow.md#buffer%20overflow)
   - [§ finding buffer overflows](pwn%20101_%20binary%20and%20buffer%20overflow.md#finding%20buffer%20overflows)
   - [§ exploiting buffer overflows](pwn%20101_%20binary%20and%20buffer%20overflow.md#exploiting%20buffer%20overflows)
+  - [§ protection](pwn%20101_%20binary%20and%20buffer%20overflow.md#protection)
+  - [§ avoiding buffer overflows](pwn%20101_%20binary%20and%20buffer%20overflow.md#avoiding%20buffer%20overflows)
+  - [§ stack canaries](pwn%20101_%20binary%20and%20buffer%20overflow.md#stack%20canaries)
+  - [§ address randomization](pwn%20101_%20binary%20and%20buffer%20overflow.md#address%20randomization)
+  - [§ next week notes](pwn%20101_%20binary%20and%20buffer%20overflow.md#next%20week%20notes)
