@@ -16,7 +16,7 @@ tags:
 
 Since the [universe](../../../../general/universe.md) is {{so big, the scale of it is hard to comprehend}}. Instead, we can make a {{1:_X_ model, i.e. all lengths are reduced by a factor of _X_ billion}}. For example, the [Sun](../../../../general/Sun.md) has {{a radius of about 6.96 × 10<sup>8</sup> m}}. In the 1:10<sup>10</sup> scale model, its {{radius would be about 7 cm instead}}. <!--SR:!2025-04-30,235,330!2025-03-13,198,326!2024-12-28,123,298!2025-01-22,142,298-->
 
-A scale model preserves {{all size ratios between different objects}}, while making the distance {{familiar to us}}. For example, also take {{[Earth](../../../../general/Earth.md)'s radius: 6.371 × 10<sup>6</sup> m}}. The ratio of {{Earth's radius over the Sun's radius}} is {{about 6.371 × 10<sup>6</sup> m / 6.963 × 10<sup>8</sup> m ≈ 0.00915}}. Such ratios are {{preserved in the scaled model}}. The ratios can also {{provide easier comparison}}. For instance, additionally take the ratio of [Jupiter](../../../../general/Jupiter.md) over the Sun's radius: {{0.100}}. Then we know {{Jupiter is about 0.100 / 0.00915 ≈ 10.9 times as large as Earth in radius}}. <!--SR:!2024-09-13,60,318!2024-09-24,65,310!2024-09-26,60,266!2024-10-08,79,330!2024-10-06,50,230!2025-05-22,254,338!2024-10-07,78,331!2025-01-07,130,290!2025-01-04,138,298-->
+A scale model preserves {{all size ratios between different objects}}, while making the distance {{familiar to us}}. For example, also take {{[Earth](../../../../general/Earth.md)'s radius: 6.371 × 10<sup>6</sup> m}}. The ratio of {{Earth's radius over the Sun's radius}} is {{about 6.371 × 10<sup>6</sup> m / 6.963 × 10<sup>8</sup> m ≈ 0.00915}}. Such ratios are {{preserved in the scaled model}}. The ratios can also {{provide easier comparison}}. For instance, additionally take the ratio of [Jupiter](../../../../general/Jupiter.md) over the Sun's radius: {{0.100}}. Then we know {{Jupiter is about 0.100 / 0.00915 ≈ 10.9 times as large as Earth in radius}}. <!--SR:!2025-06-07,266,338!2024-09-24,65,310!2024-09-26,60,266!2024-10-08,79,330!2024-10-06,50,230!2025-05-22,254,338!2024-10-07,78,331!2025-01-07,130,290!2025-01-04,138,298-->
 
 ## scale factor of 10 billion
 
@@ -58,7 +58,7 @@ return await memorize_seq(
 
 <!--pytextgen generate section="dbad"--><!-- The following content is generated at 2024-07-03T20:50:02.445266+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←(center) [Sun](../../../../general/Sun.md): radius of 7 cm (large grapefruit), distance of 0 m <!--SR:!2025-03-18,187,310!2024-09-14,62,318-->
+- _(begin)_→:::←(center) [Sun](../../../../general/Sun.md): radius of 7 cm (large grapefruit), distance of 0 m <!--SR:!2025-03-18,187,310!2025-06-14,273,338-->
 - (center) [Sun](../../../../general/Sun.md): radius of 7 cm (large grapefruit), distance of 0 m→:::←[Earth](../../../../general/Earth.md): radius of 0.06 cm (ballpoint pen pin), distance of 15 m (road surrounding the sundial); [Moon](../../../../general/Moon.md): radius of 0.02 cm, distance from Earth of 3.8 cm <!--SR:!2024-09-26,35,258!2024-09-15,56,310-->
 - [Earth](../../../../general/Earth.md): radius of 0.06 cm (ballpoint pen pin), distance of 15 m (road surrounding the sundial); [Moon](../../../../general/Moon.md): radius of 0.02 cm, distance from Earth of 3.8 cm→:::←[Mars](../../../../general/Mars.md): radius of 0.03 cm, distance of 23 m <!--SR:!2024-10-17,72,250!2024-11-11,91,286-->
 - [Mars](../../../../general/Mars.md): radius of 0.03 cm, distance of 23 m→:::←[Jupiter](../../../../general/Jupiter.md): radius of 0.7 cm, distance of 78 m (atrium center) <!--SR:!2024-10-21,48,218!2024-09-22,55,250-->
@@ -68,7 +68,7 @@ return await memorize_seq(
 - [Neptune](../../../../general/Neptune.md): radius of 0.24 cm, distance of 449 m→:::←[Pluto](../../../../general/Pluto.md): radius of 0.01 cm, distance of 590 m <!--SR:!2024-10-12,44,226!2024-10-25,78,266-->
 - [Pluto](../../../../general/Pluto.md): radius of 0.01 cm, distance of 590 m→:::←[Alpha Centauri](../../../../general/Alpha%20Centauri.md): distance of 4400 km (4.4 ly; Kabul, Afghanistan or Siberia, Russia) <!--SR:!2024-10-01,61,250!2024-10-24,79,286-->
 - [Alpha Centauri](../../../../general/Alpha%20Centauri.md): distance of 4400 km (4.4 ly; Kabul, Afghanistan or Siberia, Russia)→:::←[Milky Way](../../../../general/Milky%20Way.md): radius of 0.5 AU (half of the unscaled distance between the Sun and Earth) <!--SR:!2024-11-03,92,298!2025-03-27,206,318-->
-- [Milky Way](../../../../general/Milky%20Way.md): radius of 0.5 AU (half of the unscaled distance between the Sun and Earth)→:::←_(end)_ <!--SR:!2024-09-14,62,318!2024-09-15,61,310-->
+- [Milky Way](../../../../general/Milky%20Way.md): radius of 0.5 AU (half of the unscaled distance between the Sun and Earth)→:::←_(end)_ <!--SR:!2025-03-29,196,318!2024-09-15,61,310-->
 
 <!--/pytextgen-->
 
@@ -78,7 +78,7 @@ A real model of this scale factor currently exists in {{Washington DC, with the 
 
 ## scale factor of 10 quintillion
 
-To comprehend {{the [Milky Way](../../../../general/Milky%20Way.md)}}, the scale factor can be {{10<sup>19</sup>, i.e. 10 quintillion}}. Consider the Sun {{to be the center and placed at the large sundial of HKUST}}. Distance, if provided, is {{the distance to the center}}. <!--SR:!2025-02-11,168,310!2024-09-13,54,306!2025-02-03,164,318!2024-09-28,69,318-->
+To comprehend {{the [Milky Way](../../../../general/Milky%20Way.md)}}, the scale factor can be {{10<sup>19</sup>, i.e. 10 quintillion}}. Consider the Sun {{to be the center and placed at the large sundial of HKUST}}. Distance, if provided, is {{the distance to the center}}. <!--SR:!2025-02-11,168,310!2025-02-20,159,306!2025-02-03,164,318!2024-09-28,69,318-->
 
 ```Python
 # pytextgen generate data

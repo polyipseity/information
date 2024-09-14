@@ -141,7 +141,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 6. 60 years
 >
 > - solution: {{2}}
-> - explanation: {{Since the relative orbital motion between the planet and the satellite is prograde, apply the equation: $$\frac 1 {T_\text{syn} } = \frac 1 {T_1} - \frac 1 {T_2} \quad T_1 < T_2$$. Thus we have $T_\text{syn} = \frac 1 {\frac 1 {T_1} - \frac 1 {T_2} } = \frac 1 {\frac 1 {69} - \frac 1 {420} } \approx 82.564\,1026 \approx 83\text{ years}$.}} <!--SR:!2024-09-14,44,270!2024-12-30,112,270-->
+> - explanation: {{Since the relative orbital motion between the planet and the satellite is prograde, apply the equation: $$\frac 1 {T_\text{syn} } = \frac 1 {T_1} - \frac 1 {T_2} \quad T_1 < T_2$$. Thus we have $T_\text{syn} = \frac 1 {\frac 1 {T_1} - \frac 1 {T_2} } = \frac 1 {\frac 1 {69} - \frac 1 {420} } \approx 82.564\,1026 \approx 83\text{ years}$.}} <!--SR:!2025-01-10,118,270!2024-12-30,112,270-->
 
 <!-- markdownlint MD028 -->
 
@@ -385,7 +385,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 4. 24 AU
 >
 > - solution: {{3}}
-> - explanation: {{Find the factor the Sun needs to be dimmer to have an apparent magnitude of 1.98: $$f_B = 100^{-\frac {1.98 - (-26.832)} 5} = 100^{-5.7624} \approx 2.98675776 \times 10^{-12}$$. As the apparent brightness is inversely proportional to the square of distance, the factor the Sun needs to be farther away is $$f_d = 1 / \sqrt{2.98675776 \times 10^{-12} } \approx 578628.74$$. As the Sun is 1 AU away, the answer is about 5.8×10<sup>5</sup> AU.}} <!--SR:!2024-09-14,21,271!2024-10-27,59,291-->
+> - explanation: {{Find the factor the Sun needs to be dimmer to have an apparent magnitude of 1.98: $$f_B = 100^{-\frac {1.98 - (-26.832)} 5} = 100^{-5.7624} \approx 2.98675776 \times 10^{-12}$$. As the apparent brightness is inversely proportional to the square of distance, the factor the Sun needs to be farther away is $$f_d = 1 / \sqrt{2.98675776 \times 10^{-12} } \approx 578628.74$$. As the Sun is 1 AU away, the answer is about 5.8×10<sup>5</sup> AU.}} <!--SR:!2024-11-09,56,271!2024-10-27,59,291-->
 
 <!-- markdownlint MD028 -->
 
@@ -414,7 +414,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 5. 5400 solar masses
 >
 > - solution: {{4}}
-> - explanation: {{Assuming the fuel burnt is proportional to luminosity. Then, the lifetime of a star is: $$\tau = M / L \propto M^{-3}$$. Derive the proportionality between mass and luminosity: $$M / L \propto M^{-3} \implies M^4 \propto L \implies M \propto L^{0.25}$$. So the star mass is predicted to be: $$(2147\,483\,647)^{0.25} \approx 215.269482~\mathrm{solar\ masses}$$. So the answer is 220 solar masses.}} <!--SR:!2024-09-20,39,311!2024-09-13,36,311-->
+> - explanation: {{Assuming the fuel burnt is proportional to luminosity. Then, the lifetime of a star is: $$\tau = M / L \propto M^{-3}$$. Derive the proportionality between mass and luminosity: $$M / L \propto M^{-3} \implies M^4 \propto L \implies M \propto L^{0.25}$$. So the star mass is predicted to be: $$(2147\,483\,647)^{0.25} \approx 215.269482~\mathrm{solar\ masses}$$. So the answer is 220 solar masses.}} <!--SR:!2024-09-20,39,311!2025-01-03,111,311-->
 
 ## 2024-07-25
 

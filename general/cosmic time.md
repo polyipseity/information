@@ -12,7 +12,7 @@ tags:
 
 ## reference point
 
-There are {{two main ways}} for establishing a reference point for cosmic time. <!--SR:!2024-09-14,58,310-->
+There are {{two main ways}} for establishing a reference point for cosmic time. <!--SR:!2025-03-14,181,310-->
 
 ### lookback time
 

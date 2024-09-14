@@ -140,7 +140,7 @@ return _chain.from_iterable(await _gather(
 - [beryllium](beryllium.md)→:::←[aluminium](aluminium.md) <!--SR:!2025-05-07,293,230!2024-09-18,16,150-->
 - [aluminium](aluminium.md)→:::←[titanium](titanium.md) <!--SR:!2025-01-02,117,210!2024-10-14,117,230-->
 - [titanium](titanium.md)→:::←[manganese](manganese.md) <!--SR:!2024-12-07,372,250!2024-11-21,145,250-->
-- [manganese](manganese.md)→:::←[zinc](zinc.md) <!--SR:!2024-09-13,34,130!2025-04-10,266,210-->
+- [manganese](manganese.md)→:::←[zinc](zinc.md) <!--SR:!2024-10-03,19,130!2025-04-10,266,210-->
 - [zinc](zinc.md)→:::←[chromium](chromium.md) <!--SR:!2025-03-15,226,210!2025-05-06,383,230-->
 - [chromium](chromium.md)→:::←[iron](iron.md) <!--SR:!2026-09-04,811,290!2025-04-19,242,190-->
 - [iron](iron.md)→:::←[cadmium](cadmium.md) <!--SR:!2024-10-08,368,290!2024-10-04,59,230-->
@@ -318,7 +318,7 @@ return _chain.from_iterable(await _gather(
 
 - [electrolysis](electrolysis.md)::[caesium](caesium.md), [rubidium](rubidium.md), [potassium](potassium.md), [sodium](sodium.md), [lithium](lithium.md), [barium](barium.md), [strontium](strontium.md), [calcium](calcium.md), [magnesium](magnesium.md), [beryllium](beryllium.md), [aluminium](aluminium.md) <!--SR:!2024-10-01,19,130-->
 - [pyrometallurgical](pyrometallurgy.md) extraction using [magnesium](magnesium.md)::[titanium](titanium.md) <!--SR:!2025-05-16,266,267-->
-- [smelting](smelting.md) with [coke](coke%20(fuel).md)::[manganese](manganese.md), [zinc](zinc.md), [iron](iron.md), [cadmium](cadmium.md), [cobalt](cobalt.md), [nickel](nickel.md), [tin](tin.md), [lead](lead.md) <!--SR:!2024-09-14,15,130-->
+- [smelting](smelting.md) with [coke](coke%20(fuel).md)::[manganese](manganese.md), [zinc](zinc.md), [iron](iron.md), [cadmium](cadmium.md), [cobalt](cobalt.md), [nickel](nickel.md), [tin](tin.md), [lead](lead.md) <!--SR:!2024-10-04,20,130-->
 - [aluminothermic reaction](aluminothermic%20reaction.md)::[chromium](chromium.md) <!--SR:!2025-04-13,216,247-->
 - heat or physical extraction::[antimony](antimony.md), [bismuth](bismuth.md), [copper](copper.md), [tungsten](tungsten.md), [mercury](mercury%20(element).md), [silver](silver.md), [gold](gold.md), [platinum](platinum.md) <!--SR:!2025-02-09,233,285-->
 

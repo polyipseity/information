@@ -63,10 +63,10 @@ C$: [cost structure](#cost%20structure)
 - CS: [customer segments](#customer%20segments)→:::←VP: [value propositions](#value%20propositions) <!--SR:!2025-08-21,351,294!2024-10-02,29,257-->
 - VP: [value propositions](#value%20propositions)→:::←CH: [channels](#channels) <!--SR:!2024-11-18,146,294!2025-05-23,274,297-->
 - CH: [channels](#channels)→:::←CR: [customer relationships](#customer%20relationships) <!--SR:!2025-01-16,193,314!2025-02-24,242,334-->
-- CR: [customer relationships](#customer%20relationships)→:::←R$: [revenue streams](#revenue%20streams) <!--SR:!2024-09-14,39,254!2025-06-17,288,292-->
+- CR: [customer relationships](#customer%20relationships)→:::←R$: [revenue streams](#revenue%20streams) <!--SR:!2024-10-07,23,234!2025-06-17,288,292-->
 - R$: [revenue streams](#revenue%20streams)→:::←KR: [key resources](#key%20resources) <!--SR:!2024-10-20,115,257!2024-09-26,101,257-->
 - KR: [key resources](#key%20resources)→:::←KA: [key activities](#key%20activities) <!--SR:!2024-11-16,128,257!2025-03-14,218,274-->
-- KA: [key activities](#key%20activities)→:::←KP: [key partnerships](#key%20partnerships) <!--SR:!2024-12-02,139,257!2024-09-14,28,234-->
+- KA: [key activities](#key%20activities)→:::←KP: [key partnerships](#key%20partnerships) <!--SR:!2024-12-02,139,257!2024-11-18,65,234-->
 - KP: [key partnerships](#key%20partnerships)→:::←C$: [cost structure](#cost%20structure) <!--SR:!2024-11-13,65,237!2025-05-26,268,274-->
 - C$: [cost structure](#cost%20structure)→:::←_(end)_ <!--SR:!2025-01-30,219,314!2025-01-14,207,314-->
 

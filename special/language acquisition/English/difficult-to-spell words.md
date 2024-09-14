@@ -14,7 +14,7 @@ English
 
 - [Brønsted-Lowry acid](https://en.wiktionary.org/wiki/Brønsted-Lowry_acid) ::: (B\_y a\_d) A [chemical species](../../../general/chemical%20species.md) that can act as a donor of [protons](../../../general/proton.md). <!--SR:!2025-02-16,297,363!2024-11-27,229,343-->
 - [Brønsted-Lowry base](https://en.wiktionary.org/wiki/Brønsted-Lowry_base) ::: (B\_y b\_e) A [chemical species](../../../general/chemical%20species.md) that can act as an acceptor of [protons](../../../general/proton.md). <!--SR:!2024-12-15,254,363!2024-11-02,208,343-->
-- [Thursday](https://en.wiktionary.org/wiki/Thursday) ::: (T\_y) The 5th day of the week in many religious traditions, and the 4th day of the ISO 8601 week. <!--SR:!2024-09-14,151,396!2025-03-05,234,356-->
+- [Thursday](https://en.wiktionary.org/wiki/Thursday) ::: (T\_y) The 5th day of the week in many religious traditions, and the 4th day of the ISO 8601 week. <!--SR:!2026-05-03,596,396!2025-03-05,234,356-->
 - [Wronskian](https://en.wiktionary.org/wiki/Wronskian) ::: (W\_n) The [determinant](../../../general/deteriminant.md) formed from $n$ [functions](../../../general/function%20(mathematics).md) and their first $n - 1$ [derivatives](../../../general/derivative.md). <!--SR:!2025-03-03,332,344!2025-01-28,298,344-->
 - [accommodate](https://en.wiktionary.org/wiki/accommodate) ::: (a\_e) To adapt. <!--SR:!2025-01-23,293,344!2024-11-05,167,284-->
 - [accumulate](https://en.wiktionary.org/wiki/accumulate) ::: (a\_e) To gradually increase in quantity. <!--SR:!2025-10-26,467,332!2025-06-10,417,374-->
@@ -68,7 +68,7 @@ English
 - [polynomial](https://en.wiktionary.org/wiki/polynomial) ::: (p\_l) A [mathematical expression](../../../general/expression%20(mathematics).md) that is a [sum](../../../general/summation.md) of [constant](../../../general/constant%20(mathematics).md) [coefficients](../../../general/coefficient.md) multipled with [indeterminates](../../../general/indeterminate%20(variable).md) raised to a nonnegative [integer](../../../general/integer.md) [power](../../../general/exponentiation.md). <!--SR:!2024-11-20,229,324!2024-09-24,205,324-->
 - [preamble](https://en.wiktionary.org/wiki/preamble) ::: (p\_e) An introduction to a [document](../../../general/document.md). <!--SR:!2025-06-02,410,372!2025-01-24,284,352-->
 - [precedence](https://en.wiktionary.org/wiki/precedence) ::: (p\_e) The state of preceding in importance or priority. <!--SR:!2026-08-30,770,430!2025-01-08,254,370-->
-- [proprietary](https://en.wiktionary.org/wiki/proprietary) ::: (p\_y) Of or relating to [property](../../../general/property.md) or ownership. <!--SR:!2026-03-31,596,396!2024-09-14,9,156-->
+- [proprietary](https://en.wiktionary.org/wiki/proprietary) ::: (p\_y) Of or relating to [property](../../../general/property.md) or ownership. <!--SR:!2026-03-31,596,396!2024-09-30,16,156-->
 - [receipt](https://en.wiktionary.org/wiki/receipt) ::: (r\_t) The act of receiving or having been received. <!--SR:!2025-12-05,507,388!2025-04-25,238,288-->
 - [recipe](https://en.wiktionary.org/wiki/recipe) ::: (r\_e) A set of instructions for making [food](../../../general/food.md). <!--SR:!2025-07-06,423,408!2025-01-24,266,388-->
 - [recipient](https://en.wiktionary.org/wiki/recipient) ::: (r\_t) One who receives. <!--SR:!2026-01-23,558,408!2024-09-23,116,308-->
@@ -86,7 +86,7 @@ English
 - [theoretical](https://en.wiktionary.org/wiki/theoretical) ::: (t\_l) Of or relating to theory rather than practice. <!--SR:!2024-11-10,250,330!2026-02-02,521,290-->
 - [trachea](https://en.wiktionary.org/wiki/trachea) ::: (t\_a) A thin [cartilaginous](../../../general/cartilage.md) tube that connects the [larynx](../../../general/larynx.md) to the [bronchi](../../../general/bronchus.md). <!--SR:!2024-11-25,215,284!2026-11-15,799,344-->
 - [transmissibility](https://en.wiktionary.org/wiki/transmissibility) ::: (t\_y) The extent to which something is transmissible. <!--SR:!2024-12-26,281,344!2024-11-10,219,324-->
-- [trigonometry](https://en.wiktionary.org/wiki/trigonometry) ::: (t\_y) The branch of [mathematics](../../../general/mathematics.md) concerned with the relations between angles and ratios of sides. <!--SR:!2024-09-14,195,290!2024-11-11,217,290-->
+- [trigonometry](https://en.wiktionary.org/wiki/trigonometry) ::: (t\_y) The branch of [mathematics](../../../general/mathematics.md) concerned with the relations between angles and ratios of sides. <!--SR:!2026-04-02,565,290!2024-11-11,217,290-->
 - [ubiquitous](https://en.wiktionary.org/wiki/ubiquitous) ::: (u\_s) Widespread. <!--SR:!2025-02-23,300,388!2024-10-29,192,348-->
 - [vacuous](https://en.wiktionary.org/wiki/vacuous) ::: (v\_s) Empty, void. <!--SR:!2024-12-03,263,344!2025-12-24,514,324-->
 - [vacuum](https://en.wiktionary.org/wiki/vacuum) ::: (v\_m) A region of [space](../../../general/space.md) containing no [matter](../../../general/matter.md). <!--SR:!2025-01-20,290,344!2024-12-12,269,344-->

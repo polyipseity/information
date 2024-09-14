@@ -37,7 +37,7 @@ The content is in teaching order.
   - [civil engineering slogans in Hong Kong](#civil%20engineering%20slogans%20in%20Hong%20Kong)
 - civil engineering challenges
   - [civil engineering non-technical issues](#civil%20engineering%20non-technical%20issues)
-  - poor construction management consequences ::: Poor quality control and workmanship leads to high maintenance cost. Structural failure leads to loss of lives. <!--SR:!2024-09-13,95,300!2024-12-21,179,352-->
+  - poor construction management consequences ::: Poor quality control and workmanship leads to high maintenance cost. Structural failure leads to loss of lives. <!--SR:!2025-06-25,284,300!2024-12-21,179,352-->
     - poor quality control and workmanship consequences ::: cracks, stinky smell, water leakage <!--SR:!2025-01-12,193,352!2025-06-29,343,367-->
     - structural failure consequences ::: building toppling over, killing workers, prosecution <!--SR:!2024-12-31,189,270!2025-07-26,364,374-->
     - [structural failure example](#structural%20failure%20example)
@@ -47,7 +47,7 @@ The content is in teaching order.
     - underground structure examples ::: Turin–Lyon high-speed railway (2002–2032), 271 km long, has the Mont Cenis base tunnel that is 57.5 km long with up to 4 km long access tunnels <!--SR:!2024-09-16,99,321!2024-10-26,147,352-->
   - [civil engineering new challenges](#civil%20engineering%20new%20challenges)
     - climate change engineering examples ::: Project MOSE (2003–2025) in Venice, Thames Barrier (1974–1982) <!--SR:!2024-11-02,120,287!2025-09-10,376,380-->
-      - Thames Barrier (1974–1982) mechanism ::: The gate is a chord of a circle. It rotates along the circumference of the circle. When open, it acts like the river floor. When closing, the chord rotates about the circle center and becomes a barrier. <!--SR:!2024-09-13,110,337!2024-11-22,149,340-->
+      - Thames Barrier (1974–1982) mechanism ::: The gate is a chord of a circle. It rotates along the circumference of the circle. When open, it acts like the river floor. When closing, the chord rotates about the circle center and becomes a barrier. <!--SR:!2025-09-21,372,337!2024-11-22,149,340-->
 - civil engineering solutions ::: smart cities <!--SR:!2026-03-06,545,400!2025-09-01,375,376-->
   - smart cities examples ::: Using technology to gather information, predict events, and notify people. <!--SR:!2025-03-24,304,335!2026-01-13,502,400-->
 - [civil engineering subdisciplines](#civil%20engineering%20subdisciplines)
@@ -460,7 +460,7 @@ testing materials
 - planning→:::←procuring materials <!--SR:!2025-01-24,186,317!2025-02-03,175,277-->
 - procuring materials→:::←quality assurance <!--SR:!2025-01-23,173,300!2025-03-23,213,281-->
 - quality assurance→:::←quality control <!--SR:!2024-10-31,150,357!2025-01-13,182,352-->
-- quality control→:::←safety engineering <!--SR:!2025-02-12,195,301!2024-09-14,31,235-->
+- quality control→:::←safety engineering <!--SR:!2025-02-12,195,301!2024-11-24,71,235-->
 - safety engineering→:::←scheduling <!--SR:!2025-05-17,261,320!2024-10-01,120,340-->
 - scheduling→:::←surveying building site <!--SR:!2025-01-14,149,241!2024-10-16,116,300-->
 - surveying building site→:::←testing materials <!--SR:!2024-09-26,37,240!2024-10-25,74,272-->
@@ -542,7 +542,7 @@ wood
 - brick→:::←concrete <!--SR:!2025-03-03,185,305!2026-02-28,548,397-->
 - concrete→:::←new synthetic materials <!--SR:!2024-11-09,127,301!2024-12-07,161,341-->
 - new synthetic materials→:::←steel <!--SR:!2024-11-20,155,332!2025-09-08,375,340-->
-- steel→:::←stone <!--SR:!2024-09-13,64,320!2024-12-03,159,340-->
+- steel→:::←stone <!--SR:!2025-04-04,202,320!2024-12-03,159,340-->
 - stone→:::←wood <!--SR:!2025-04-11,240,321!2025-09-06,361,332-->
 - wood→:::←_(end)_ <!--SR:!2026-01-17,513,394!2025-01-05,144,360-->
 
@@ -1144,7 +1144,7 @@ and the Structural Engineering Institute (SEI).
 
 - _(begin)_→:::←On 24 June 2021, a 12-story beachfront condominium, Champlain Towers South, in Miami suburb, Florida, United States partially collapsed, killing 98 people. <!--SR:!2025-07-11,303,320!2025-06-05,349,350-->
 - On 24 June 2021, a 12-story beachfront condominium, Champlain Towers South, in Miami suburb, Florida, United States partially collapsed, killing 98 people.→:::←Main culprit is degradation of reinforced concrete structural support in ground-level parking garage, due to water penetration and corrosion of the reinforcing steel. <!--SR:!2025-04-16,247,315!2025-04-10,241,315-->
-- Main culprit is degradation of reinforced concrete structural support in ground-level parking garage, due to water penetration and corrosion of the reinforcing steel.→:::←Other possible factors include corruption, insufficient reinforcing steel, and land subsidence. <!--SR:!2024-12-08,194,290!2024-09-13,102,317-->
+- Main culprit is degradation of reinforced concrete structural support in ground-level parking garage, due to water penetration and corrosion of the reinforcing steel.→:::←Other possible factors include corruption, insufficient reinforcing steel, and land subsidence. <!--SR:!2024-12-08,194,290!2025-08-02,322,317-->
 - Other possible factors include corruption, insufficient reinforcing steel, and land subsidence.→:::←The problems had been reported in 2018 and a US$15M program of remedial work has been approved, though no main structural work has taken place. <!--SR:!2024-11-08,131,294!2025-05-18,271,316-->
 - The problems had been reported in 2018 and a US$15M program of remedial work has been approved, though no main structural work has taken place.→:::←On 25 August 2021, the National Institute of Standards and Technology (NIST) has been tasked with investigation, <!--SR:!2024-11-12,149,337!2024-09-28,123,335-->
 - On 25 August 2021, the National Institute of Standards and Technology (NIST) has been tasked with investigation,→:::←with investigators coming from the American Concrete Institute (ACI), <!--SR:!2024-10-26,144,327!2025-06-05,278,307-->

@@ -9,7 +9,7 @@ tags:
 
 # unimodality
 
-In [mathematics](mathematics.md), __unimodality__ means {{possessing a unique [mode](mode%20(statistics).md)}}. More generally, unimodality means there is {{only a single highest value, somehow defined, of some [mathematical object](mathematical%20object.md)}}. <!--SR:!2024-09-19,15,290!2024-09-14,10,270-->
+In [mathematics](mathematics.md), __unimodality__ means {{possessing a unique [mode](mode%20(statistics).md)}}. More generally, unimodality means there is {{only a single highest value, somehow defined, of some [mathematical object](mathematical%20object.md)}}. <!--SR:!2024-09-19,15,290!2024-10-25,41,290-->
 
 ## unimodal probability distribution
 

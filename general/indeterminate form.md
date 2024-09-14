@@ -65,7 +65,7 @@ return await memorize_map(
 - $\sin{x}$::$x$ <!--SR:!2024-12-04,285,330-->
 - $\arcsin{x}$::$x$ <!--SR:!2024-11-12,269,330-->
 - $\sinh{x}$::$x$ <!--SR:!2024-11-07,265,330-->
-- $\tan{x}$::$x$ <!--SR:!2024-09-13,222,330-->
+- $\tan{x}$::$x$ <!--SR:!2027-06-22,1011,350-->
 - $\arctan{x}$::$x$ <!--SR:!2025-01-06,312,330-->
 - $\ln(1+x)$::$x$ <!--SR:!2024-11-08,265,330-->
 - $1-\cos{x}$::$\frac{x^2}2$ <!--SR:!2026-08-15,754,330-->
@@ -78,7 +78,7 @@ return await memorize_map(
 
 <!--pytextgen generate section="f234"--><!-- The following content is generated at 2024-01-04T20:17:52.183338+08:00. Any edits will be overridden! -->
 
-- $x$::$\sin{x}$, $\arcsin{x}$, $\sinh{x}$, $\tan{x}$, $\arctan{x}$, $\ln(1+x)$, $e^x-1$ <!--SR:!2024-09-14,62,190-->
+- $x$::$\sin{x}$, $\arcsin{x}$, $\sinh{x}$, $\tan{x}$, $\arctan{x}$, $\ln(1+x)$, $e^x-1$ <!--SR:!2025-01-09,117,190-->
 - $\frac{x^2}2$::$1-\cos{x}$, $\cosh{x}-1$ <!--SR:!2024-11-05,180,270-->
 - $x\ln{a}$::$a^x-1$ <!--SR:!2024-10-24,54,250-->
 - $ax$::$(1+x)^a-1$ <!--SR:!2024-10-09,205,290-->

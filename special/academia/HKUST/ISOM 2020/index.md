@@ -21,7 +21,7 @@ tags:
 
 The content is in teaching order.
 
-- general recommendations ::: Do NOT use techniques not learnt in lectures! Also, if you have learnt Python before well, you would find a few quiz questions ambiguous with imprecise wordings. Good luck guessing the answer... <!--SR:!2024-09-24,12,289!2024-09-13,4,289-->
+- general recommendations ::: Do NOT use techniques not learnt in lectures! Also, if you have learnt Python before well, you would find a few quiz questions ambiguous with imprecise wordings. Good luck guessing the answer... <!--SR:!2024-09-24,12,289!2024-09-24,10,289-->
 - course logistics
   - pathway: ISOM 2020 → ISOM 2600
   - duration: 7 weeks, for the first half of the semester
@@ -53,8 +53,8 @@ The content is in teaching order.
 
 - time: 2024-09-06T16:00:00+08:00/2024-09-09T17:50:00+08:00
 - course logistics
-- [Python](../../../../general/Python.md) ::: It is a high-level, interpreted, and general-purpose dynamic programming language that focuses on code readability. <!--SR:!2024-09-13,4,289!2024-09-13,4,289-->
-  - Python / why ::: beginner-friendly (simple, elegant), free and open-source, runs anywhere, supported by a large community, extensible with libraries (flexible), "batteries included": many standard libraries <!--SR:!2024-09-13,4,289!2024-09-13,4,289-->
+- [Python](../../../../general/Python.md) ::: It is a high-level, interpreted, and general-purpose dynamic programming language that focuses on code readability. <!--SR:!2024-09-30,16,309!2024-10-01,17,309-->
+  - Python / why ::: beginner-friendly (simple, elegant), free and open-source, runs anywhere, supported by a large community, extensible with libraries (flexible), "batteries included": many standard libraries <!--SR:!2024-09-26,12,289!2024-09-28,14,289-->
 - [§ week 1 pre-lecture](#week%201%20pre-lecture)
 - week 1 practice question set
 
@@ -64,11 +64,11 @@ The content is in teaching order.
 - [basics](basics.md)
   - [§ data type conversion](basics.md#data%20type%20conversion)
   - [§ input](basics.md#input)
-    - [basics § input](basics.md#input) / note ::: It seems like Jupyter automatically adds a space after the prompt... But other environments do not. Also, the prompt is optional (i.e. `input()` is okay and does not print anything before asking for user input). Lastly, `prompt` does not need to be a `str`, and other objects are accepted. This is similar to `print(...)`, except that a newline is NOT automatically printed, and it only accepts a single argument (i.e. `input("a", "b")` is NOT okay). <!--SR:!2024-09-13,4,289!2024-09-13,4,289-->
+    - [basics § input](basics.md#input) / note ::: It seems like Jupyter automatically adds a space after the prompt... But other environments do not. Also, the prompt is optional (i.e. `input()` is okay and does not print anything before asking for user input). Lastly, `prompt` does not need to be a `str`, and other objects are accepted. This is similar to `print(...)`, except that a newline is NOT automatically printed, and it only accepts a single argument (i.e. `input("a", "b")` is NOT okay). <!--SR:!2024-09-26,12,289!2024-10-02,18,309-->
 - [list](list.md)
   - [§ syntax](list.md#syntax)
   - [§ indexing](list.md#indexing)
-    - [list § indexing](list.md#indexing) / note ::: We have not learnt slicing so far, so do not use it. <!--SR:!2024-09-13,4,289!2024-09-13,4,289-->
+    - [list § indexing](list.md#indexing) / note ::: We have not learnt slicing so far, so do not use it. <!--SR:!2024-10-02,18,309!2024-10-01,17,309-->
   - [§ manipulation](list.md#manipulation)
   - [§ length](list.md#length)
   - [§ aggregate functions](list.md#aggregate%20functions)

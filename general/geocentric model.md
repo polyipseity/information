@@ -69,14 +69,14 @@ return await memorize_seq(
 
 - _(begin)_→:::←(near center) [Earth](Earth.md) <!--SR:!2025-05-01,234,330!2024-09-22,68,310-->
 - (near center) [Earth](Earth.md)→:::←[Moon](Moon.md) <!--SR:!2025-04-14,222,330!2024-09-28,72,310-->
-- [Moon](Moon.md)→:::←[Mercury](Mercury%20(planet).md) <!--SR:!2025-02-19,176,310!2024-09-13,60,310-->
+- [Moon](Moon.md)→:::←[Mercury](Mercury%20(planet).md) <!--SR:!2025-02-19,176,310!2025-05-28,256,330-->
 - [Mercury](Mercury%20(planet).md)→:::←[Venus](Venus.md) <!--SR:!2025-05-10,243,330!2024-09-29,73,310-->
 - [Venus](Venus.md)→:::←[Sun](Sun.md) <!--SR:!2024-09-25,57,250!2024-09-24,68,310-->
-- [Sun](Sun.md)→:::←[Mars](Mars.md) <!--SR:!2025-03-04,175,310!2024-09-14,61,310-->
+- [Sun](Sun.md)→:::←[Mars](Mars.md) <!--SR:!2025-03-04,175,310!2024-10-14,30,290-->
 - [Mars](Mars.md)→:::←[Jupiter](Jupiter.md) <!--SR:!2024-12-29,127,290!2024-09-23,67,310-->
 - [Jupiter](Jupiter.md)→:::←[Saturn](Saturn.md) <!--SR:!2025-01-01,140,310!2025-03-06,188,310-->
 - [Saturn](Saturn.md)→:::←[fixed stars](fixed%20stars.md) <!--SR:!2025-05-06,239,330!2024-09-27,71,310-->
-- [fixed stars](fixed%20stars.md)→:::←[_Primum Mobile_](Primum%20Mobile.md) ("first moveable"), outermost [celestial sphere](celestial%20sphere.md) <!--SR:!2024-09-14,60,310!2024-09-22,66,310-->
+- [fixed stars](fixed%20stars.md)→:::←[_Primum Mobile_](Primum%20Mobile.md) ("first moveable"), outermost [celestial sphere](celestial%20sphere.md) <!--SR:!2025-03-20,187,310!2024-09-22,66,310-->
 - [_Primum Mobile_](Primum%20Mobile.md) ("first moveable"), outermost [celestial sphere](celestial%20sphere.md)→:::←_(end)_ <!--SR:!2025-05-09,242,330!2024-11-26,101,290-->
 
 <!--/pytextgen-->

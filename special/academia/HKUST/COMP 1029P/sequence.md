@@ -17,15 +17,15 @@ To define a string in Python, {{enclose the string in either double quotes `"exa
 
 ## list
 
-To define a list in Python, {{enclose all items in square brackets `[]` and separate each item by a comma `,`, like `[1, 2, "item", 4.2, "ok", 'hey', False]`}}. A trailing comma is {{allowed and optional after the last item (but not if there are no items, i.e. `[,]` is invalid)}}. Note that a list can {{contain items of different types (including lists) like the example just now, though usually it is more useful for them to be of the same type}}. <!--SR:!2024-12-02,231,330!2025-01-05,258,330!2024-09-13,4,326-->
+To define a list in Python, {{enclose all items in square brackets `[]` and separate each item by a comma `,`, like `[1, 2, "item", 4.2, "ok", 'hey', False]`}}. A trailing comma is {{allowed and optional after the last item (but not if there are no items, i.e. `[,]` is invalid)}}. Note that a list can {{contain items of different types (including lists) like the example just now, though usually it is more useful for them to be of the same type}}. <!--SR:!2024-12-02,231,330!2025-01-05,258,330!2024-10-03,19,346-->
 
 ## length
 
-{{The length of a sequence}} can be determined by {{`len(sequence)`}}. <!--SR:!2025-01-11,263,330!2024-09-13,4,326-->
+{{The length of a sequence}} can be determined by {{`len(sequence)`}}. <!--SR:!2025-01-11,263,330!2024-10-03,19,346-->
 
 ## indexing
 
-To {{access or replace the n-th item}}, simply write {{`sequence[n-1]`}}: <!--SR:!2024-12-06,235,330!2024-09-13,4,326-->
+To {{access or replace the n-th item}}, simply write {{`sequence[n-1]`}}: <!--SR:!2024-12-06,235,330!2024-10-03,19,346-->
 
 ```Python
 assert "asd"[2] == "d"
@@ -64,7 +64,7 @@ assert 'abcdefg'[::-1] == 'gfedcba'
 assert "abcdefg"[:0:-1] == "gfedcb"
 ```
 
-If {{the index (but not slicing) is out of range (regardless if it is positive or negative)}}, then {{an `IndexError` will be raised}}. For {{slicing (but not indexing)}}, {{no errors will be thrown, and the slicing range will be truncated to be within the sequence range}}. <!--SR:!2024-09-13,4,326!2024-09-13,4,326!2024-09-13,4,326!2024-09-13,4,326-->
+If {{the index (but not slicing) is out of range (regardless if it is positive or negative)}}, then {{an `IndexError` will be raised}}. For {{slicing (but not indexing)}}, {{no errors will be thrown, and the slicing range will be truncated to be within the sequence range}}. <!--SR:!2024-10-03,19,346!2024-10-03,19,346!2024-09-27,13,326!2024-09-28,14,326-->
 
 ## concatenation
 

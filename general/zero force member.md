@@ -18,7 +18,7 @@ Zero force members are found {{at joints where three or fewer truss members meet
 - 2 truss members ::: If they are non-collinear and meet in an unloaded (or the load, when treated as a truss member, acts in a similar manner) joint, they are both zero force members. <!--SR:!2025-01-10,166,310!2025-02-20,182,290-->
 - 3 truss members ::: If they meet in an unloaded (or the load, when treated as a truss member, acts in a similar manner) joint and two of them are collinear, then the non-collinear member is a zero force member. <!--SR:!2025-02-25,217,330!2024-10-16,103,290-->
 
-The above can be proved {{using [vectors](vector%20(mathematics%20and%20physics).md)}}. <!--SR:!2024-09-14,80,332-->
+The above can be proved {{using [vectors](vector%20(mathematics%20and%20physics).md)}}. <!--SR:!2025-09-14,365,352-->
 
 ## references
 

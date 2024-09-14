@@ -467,11 +467,11 @@ The content is in teaching order.
 - [chain rule (probability)](../../../../general/chain%20rule%20(probability).md)
   - [§ two events](../../../../general/chain%20rule%20(probability).md#two%20events)
   - [§ finitely many events](../../../../general/chain%20rule%20(probability).md#finitely%20many%20events)
-- common core requirements ::: mathematical models, quantitative data, quantitative methods <!--SR:!2024-09-13,73,357!2024-10-12,96,377-->
+- common core requirements ::: mathematical models, quantitative data, quantitative methods <!--SR:!2025-05-30,258,357!2024-10-12,96,377-->
 - other topics
   - association thresholding ::: Instead of thresholding by frequency, we can threshold by number of frequent item sets found, which may be easier to choose. <!--SR:!2025-06-03,278,377!2025-01-27,161,337-->
   - [clustering high-dimensional data § subspace clustering](../../../../general/clustering%20high-dimensional%20data.md#subspace%20clustering) ::: By removing some dimensions of the data, more interesting clusters may be found. It mitigates [curse of dimensionality](../../../../general/curse%20of%20dimensionality.md), where [distances between different pairs of points become similar](../../../../general/curse%20of%20dimensionality.md#distance%20function). <!--SR:!2024-12-09,135,337!2025-06-18,293,377-->
-  - ensemble of classifiers ::: We can output the prediction based on the majority prediction of the classifiers. <!--SR:!2025-08-24,347,377!2024-09-13,73,357-->
+  - ensemble of classifiers ::: We can output the prediction based on the majority prediction of the classifiers. <!--SR:!2025-08-24,347,377!2025-05-28,256,357-->
   - data warehouse questions ::: How to create the data warehouse over different types of data, such as a graph? <!--SR:!2024-10-06,91,377!2024-09-26,79,357-->
   - [word-sense disambiguation](word-sense%20disambiguation.md) ::: How to disambiguate between different entities of the same name on the Internet? <!--SR:!2024-10-07,92,377!2024-10-06,91,377-->
   - social networks ::: How are people connected? <!--SR:!2024-10-15,99,377!2024-10-11,95,377-->

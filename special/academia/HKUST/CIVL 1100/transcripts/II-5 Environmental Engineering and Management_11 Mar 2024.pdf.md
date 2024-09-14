@@ -214,7 +214,7 @@ How to provide motivation for waste reduction, reuse and recycling?
 
 MSW Waste Charging Scheme
 
-- MSW waste charging scheme passing date ::: 2021-09-26 by Legco <!--SR:!2024-11-23,112,250!2024-09-14,77,270-->
+- MSW waste charging scheme passing date ::: 2021-09-26 by Legco <!--SR:!2024-11-23,112,250!2025-04-16,214,270-->
   - MSW waste charging scheme preparation period ::: 18 months <!--SR:!2025-03-03,203,310!2024-11-24,140,310-->
   - MSW waste charging scheme details ::: buy designated bags (0.11 HKD/L) at ~4000 selling points <!--SR:!2025-03-02,180,270!2025-04-05,245,330-->
   - MSW waste charging scheme penalty ::: max HK$25&nbsp;000 fine and 6 months in prison <!--SR:!2024-11-19,82,290!2025-01-26,187,310-->

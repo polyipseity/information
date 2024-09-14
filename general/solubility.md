@@ -105,7 +105,7 @@ return (
 > group I compounds
 >
 > - general solubility: {{<span style="color: green;">soluble</span>}}
-> - exception(s): {{([Li<sub>3</sub>PO<sub>4</sub>](lithium%20phosphate.md) is slightly soluble)}} <!--SR:!2025-05-11,700,230!2024-09-14,365,210-->
+> - exception(s): {{([Li<sub>3</sub>PO<sub>4</sub>](lithium%20phosphate.md) is slightly soluble)}} <!--SR:!2025-05-11,700,230!2025-03-15,182,190-->
 
 <!-- markdownlint MD028 -->
 
@@ -348,7 +348,7 @@ return await memorize_map(
 - [ammonium sulfite](ammonium%20sulfite.md)::<span style="color: green;">soluble</span> <!--SR:!2026-12-15,887,338-->
 - [barium hydroxide](barium%20hydroxide.md)::<span style="color: green;">soluble</span> <!--SR:!2024-11-04,229,258-->
 - [barium oxide](barium%20oxide.md)::<span style="color: violet;">reacts</span> <!--SR:!2024-10-25,241,278-->
-- [barium sulfate](barium%20sulfate.md)::<span style="color: red;">insoluble</span> <!--SR:!2024-09-14,3,130-->
+- [barium sulfate](barium%20sulfate.md)::<span style="color: red;">insoluble</span> <!--SR:!2024-09-16,2,130-->
 - [calcium hydroxide](calcium%20hydroxide.md)::<span style="background-color: black; color: yellow;">slightly soluble</span> <!--SR:!2025-09-23,470,298-->
 - [calcium oxide](calcium%20oxide.md)::<span style="color: violet;">reacts</span> <!--SR:!2025-01-01,216,258-->
 - [calcium sulfate](calcium%20sulfate.md)::<span style="background-color: black; color: yellow;">slightly soluble</span> <!--SR:!2024-11-11,153,198-->

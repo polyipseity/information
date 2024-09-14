@@ -43,7 +43,7 @@ Finally, after {{the values have converged or after a predetermined number of it
 
 ## in detail
 
-After obtaining {{the base set}}, let the _n_ pages be {{$p_1, \ldots, p_n$}}. Store the authority values $a(p)$ and node values $h(p)$ {{in an authority column vector $\mathbf{A} = \begin{bmatrix} a(p_1) & \cdots & a(p_n) \end{bmatrix}^\intercal$ and a hub column vector $\mathbf{H} = \begin{bmatrix} h(p_1) & \cdots & h(p_n) \end{bmatrix}^\intercal$ respectively}}. Initialize {{the 2 column vectors to either all 1}}. Optionally, {{[normalize](#normalization) the initial values}}. <!--SR:!2024-09-13,70,314!2025-04-19,236,334!2024-09-14,71,314!2025-06-14,280,334!2024-09-13,70,314-->
+After obtaining {{the base set}}, let the _n_ pages be {{$p_1, \ldots, p_n$}}. Store the authority values $a(p)$ and node values $h(p)$ {{in an authority column vector $\mathbf{A} = \begin{bmatrix} a(p_1) & \cdots & a(p_n) \end{bmatrix}^\intercal$ and a hub column vector $\mathbf{H} = \begin{bmatrix} h(p_1) & \cdots & h(p_n) \end{bmatrix}^\intercal$ respectively}}. Initialize {{the 2 column vectors to either all 1}}. Optionally, {{[normalize](#normalization) the initial values}}. <!--SR:!2025-04-20,218,314!2025-04-19,236,334!2025-07-18,307,334!2025-06-14,280,334!2025-04-17,215,314-->
 
 To help with the update rules, construct {{a [directed adjacency matrix](adjacency%20matrix.md#directed%20graphs) $\mathbf{M}$ representing links between the pages}}. The matrix element $\mathbf{M}_{i, j}$ {{is 1 iff $p_i$ is linked to $p_j$, and otherwise 0}}. <!--SR:!2024-10-19,81,274!2025-02-16,174,314-->
 

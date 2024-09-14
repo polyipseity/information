@@ -24,11 +24,11 @@ $$\begin{aligned}
 
 - mass thresholds ::: $0.43M_\odot, 2M_\odot, 55M_\odot$ <!--SR:!2024-10-27,74,321!2024-10-31,78,321-->
 - $M \le 0.43M_{\odot}$ ::: $a = 2.3, C = 0.23$ <!--SR:!2024-11-24,78,270!2024-09-22,41,290-->
-- $0.43M_{\odot} \le M \le 2M_{\odot}$ ::: $a = 4, C = 1$ <!--SR:!2024-09-14,39,290!2024-10-11,58,301-->
+- $0.43M_{\odot} \le M \le 2M_{\odot}$ ::: $a = 4, C = 1$ <!--SR:!2025-01-04,112,290!2024-10-11,58,301-->
 - $2M_{\odot} \le M \le 55M_{\odot}$ ::: $a = 3.5, C = 1.4$ <!--SR:!2024-11-02,65,261!2024-09-21,35,250-->
-- $M \ge 55M_{\odot}$ ::: $a = 1, C = 32\,000$ <!--SR:!2024-09-14,37,281!2024-10-06,53,290-->
+- $M \ge 55M_{\odot}$ ::: $a = 1, C = 32\,000$ <!--SR:!2024-12-26,103,281!2024-10-06,53,290-->
 
-The mass/luminosity relationship can also be used to {{determine the lifetime of [stars](star.md)}} by {{noting that lifetime is approximately proportional to _M_/_L_}} although {{one finds that more massive stars have shorter lifetimes than that which the _M_/_L_ relationship predicts}}. A more sophisticated calculation factors in {{a star's [loss of mass](stellar%20mass%20loss.md) over [time](time.md)}}. <!--SR:!2024-09-13,35,290!2024-10-29,76,321!2024-09-17,38,290!2024-10-14,63,310-->
+The mass/luminosity relationship can also be used to {{determine the lifetime of [stars](star.md)}} by {{noting that lifetime is approximately proportional to _M_/_L_}} although {{one finds that more massive stars have shorter lifetimes than that which the _M_/_L_ relationship predicts}}. A more sophisticated calculation factors in {{a star's [loss of mass](stellar%20mass%20loss.md) over [time](time.md)}}. <!--SR:!2025-02-01,140,310!2024-10-29,76,321!2024-09-17,38,290!2024-10-14,63,310-->
 
 ## references
 

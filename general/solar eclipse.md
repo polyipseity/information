@@ -36,17 +36,17 @@ A total eclipse occurs on average {{every 18 months}} when {{the dark silhouette
 
 ### annular eclipse
 
-An annular eclipse, like a total eclipse, occurs when {{the [Sun](Sun.md) and [Moon](Moon.md) are exactly in line with [Earth](Earth.md)}}. During an annular eclipse, however, {{the [apparent size](angular%20diameter.md) of the Moon is not large enough to completely block out the Sun}}. Totality thus {{does not occur; the Sun instead appears as a very bright ring, or [annulus](annulus%20(mathematics).md), surrounding the dark disk of the Moon}}. Annular eclipses occur {{once every one or two years, not annually}}. Their name comes from {{the [Latin](Latin.md) [root word](root%20(linguistics).md) _anulus_, meaning "ring", rather than _annus_, for "year"}}. <!--SR:!2025-01-11,138,310!2024-09-14,54,310!2024-09-13,52,310!2025-02-05,160,310!2024-10-27,78,290-->
+An annular eclipse, like a total eclipse, occurs when {{the [Sun](Sun.md) and [Moon](Moon.md) are exactly in line with [Earth](Earth.md)}}. During an annular eclipse, however, {{the [apparent size](angular%20diameter.md) of the Moon is not large enough to completely block out the Sun}}. Totality thus {{does not occur; the Sun instead appears as a very bright ring, or [annulus](annulus%20(mathematics).md), surrounding the dark disk of the Moon}}. Annular eclipses occur {{once every one or two years, not annually}}. Their name comes from {{the [Latin](Latin.md) [root word](root%20(linguistics).md) _anulus_, meaning "ring", rather than _annus_, for "year"}}. <!--SR:!2025-01-11,138,310!2025-05-03,231,330!2025-04-24,222,330!2025-02-05,160,310!2024-10-27,78,290-->
 
 ### partial eclipse
 
-A partial eclipse occurs {{about twice a year}}, when {{the [Sun](Sun.md) and [Moon](Moon.md) are not exactly in line with [Earth](Earth.md)}} and {{the Moon only partially obscures the Sun}}. This phenomenon can usually be seen from {{a large part of Earth outside of the track of an annular or total eclipse}}. However, some eclipses can be seen {{only as a partial eclipse}}, because {{the [umbra](umbra,%20penumbra%20and%20antumbra.md#umbra) passes above [Earth's polar regions](polar%20regions%20of%20Earth.md) and never intersects [Earth's surface](geoid.md)}}. Partial eclipses are {{virtually unnoticeable in terms of the Sun's brightness}}, as {{it takes well over 90% coverage to notice any darkening at all}}. Even at 99%, it would be {{no darker than [civil twilight](twilight.md#civil%20twilight)}}. <!--SR:!2025-01-24,151,310!2024-09-15,54,310!2024-09-13,53,310!2024-09-17,56,310!2024-11-23,93,270!2024-09-22,57,310!2024-12-02,101,290!2025-02-12,160,310!2024-09-30,65,310-->
+A partial eclipse occurs {{about twice a year}}, when {{the [Sun](Sun.md) and [Moon](Moon.md) are not exactly in line with [Earth](Earth.md)}} and {{the Moon only partially obscures the Sun}}. This phenomenon can usually be seen from {{a large part of Earth outside of the track of an annular or total eclipse}}. However, some eclipses can be seen {{only as a partial eclipse}}, because {{the [umbra](umbra,%20penumbra%20and%20antumbra.md#umbra) passes above [Earth's polar regions](polar%20regions%20of%20Earth.md) and never intersects [Earth's surface](geoid.md)}}. Partial eclipses are {{virtually unnoticeable in terms of the Sun's brightness}}, as {{it takes well over 90% coverage to notice any darkening at all}}. Even at 99%, it would be {{no darker than [civil twilight](twilight.md#civil%20twilight)}}. <!--SR:!2025-01-24,151,310!2024-09-15,54,310!2025-04-28,226,330!2024-09-17,56,310!2024-11-23,93,270!2024-09-22,57,310!2024-12-02,101,290!2025-02-12,160,310!2024-09-30,65,310-->
 
 ## terminology
 
 ### eclipse phases
 
-During {{a [total eclipse](#total%20eclipse)}}, there are {{4 visual phases (excluding totality)}}, which are called: <!--SR:!2024-09-14,53,310!2024-10-03,68,310-->
+During {{a [total eclipse](#total%20eclipse)}}, there are {{4 visual phases (excluding totality)}}, which are called: <!--SR:!2025-04-27,225,330!2024-10-03,68,310-->
 
 ```Python
 # pytextgen generate data

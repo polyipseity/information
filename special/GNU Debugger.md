@@ -25,7 +25,7 @@ tags:
 - `down` ::: move down the backtrace or call stack <!--SR:!2024-09-18,14,290!2024-09-19,15,290-->
 - `file <path>` ::: load binary file to debug <!--SR:!2024-09-20,16,290!2024-09-19,15,290-->
 - `finish` ::: run until the current function returns <!--SR:!2024-09-21,17,290!2024-09-20,16,290-->
-- `info breakpoints|regs|threads`::: list breakpoints, register values, or threads <!--SR:!2024-09-18,14,290!2024-09-14,11,270-->
+- `info breakpoints|regs|threads`::: list breakpoints, register values, or threads <!--SR:!2024-09-18,14,290!2024-10-29,45,290-->
 - `next` ::: go to the next (source) line <!--SR:!2024-09-17,13,290!2024-09-15,12,270-->
 - `ni` ::: go to the next instruction <!--SR:!2024-09-18,14,290!2024-09-19,15,290-->
 - `print <expression>` ::: evaluate and print an expression <!--SR:!2024-09-16,13,270!2024-09-21,17,290-->

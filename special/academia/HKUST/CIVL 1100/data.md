@@ -87,7 +87,7 @@ See [Central Plaza (Hong Kong)](../../../../general/Central%20Plaza%20(Hong%20Ko
 See [Channel Tunnel](../../../../general/Channel%20Tunnel.md).
 
 - completion time ::: 1994 <!--SR:!2024-10-05,44,296!2024-10-10,110,376-->
-- rail tunnel length ::: 50.5 km (37.9 km underseas) <!--SR:!2024-09-14,23,256!2024-10-20,125,396-->
+- rail tunnel length ::: 50.5 km (37.9 km underseas) <!--SR:!2024-09-28,14,236!2024-10-20,125,396-->
 
 ## China International Trust and Investment Plaza
 
@@ -138,7 +138,7 @@ See [Great Pyramid of Giza](../../../../general/Great%20Pyramid%20of%20Giza.md).
 - construction period ::: 10~20 years around 2560 BC <!--SR:!2024-09-24,13,216!2024-10-14,120,396-->
 - description ::: largest pyramid in the Giza Necropolis, Egypt <!--SR:!2024-10-05,112,396!2024-10-31,134,396-->
 - height ::: current: 138.5 m, original: 146.6 m <!--SR:!2024-12-03,141,356!2024-11-02,136,396-->
-- weight ::: 5.9 million tonnes <!--SR:!2024-09-14,89,376!2024-11-10,142,396-->
+- weight ::: 5.9 million tonnes <!--SR:!2024-10-31,47,356!2024-11-10,142,396-->
 - tomb for ::: Egypt's 4th dynasty pharaoh Khufu <!--SR:!2024-10-21,118,376!2025-05-07,264,376-->
 
 ## Great Wall of China
@@ -155,7 +155,7 @@ See [Great Wall of China](../../../../general/Great%20Wall%20of%20China.md).
 See [HSBC Building (Hong Kong)](HSBC%20Building%20(Hong%20Kong).md).
 
 - description ::: headquarters building of [The Hongkong and Shanghai Banking Corporation](HSBC%20(Hong%20Kong).md) <!--SR:!2025-01-15,197,354!2025-03-05,256,330-->
-- height ::: roof: 178.8 m <!--SR:!2024-09-14,26,241!2025-05-07,325,350-->
+- height ::: roof: 178.8 m <!--SR:!2024-09-29,15,221!2025-05-07,325,350-->
 - image ::: ![HSBC Main Building image](../../../../archives/Wikimedia%20Commons/HK%20HSBC%20Main%20Building%202008%20(cropped).jpg) <!--SR:!2025-06-05,312,380!2026-02-04,519,400-->
 - [structural system](../../../../general/structural%20system.md) ::: steel [suspended structure](../../../../general/suspended%20structure.md)<!-- flashcard b5c46b64-11cf-4605-a97e-3a159f12185f --> <!--SR:!2024-10-21,130,321!2025-10-22,432,401-->
 
@@ -221,7 +221,7 @@ See [Millau Viaduct](../../../../general/Millau%20Viaduct.md).
 - bridge type ::: cable-stayed road bridge <!--SR:!2024-10-22,119,376!2024-10-23,127,396-->
 - designers ::: Michel Virlogeux, Norman Foster <!--SR:!2025-06-16,291,376!2024-11-16,148,396-->
 - geographic location ::: across the gorge valley of the Tarn near Millau in southern France <!--SR:!2025-05-01,258,376!2025-05-29,280,376-->
-- height ::: max pylon above base: 343 m, structural: 336.4 m <!--SR:!2024-09-13,76,316!2024-11-07,140,396-->
+- height ::: max pylon above base: 343 m, structural: 336.4 m <!--SR:!2024-10-21,37,296!2024-11-07,140,396-->
   - height record ::: as of October 2023, tallest bridge in the world <!--SR:!2024-10-22,126,396!2024-10-22,127,396-->
 - length ::: 2450 m = 204 m + 342 m × 6 + 204 m, longest span: 342 m <!--SR:!2024-09-16,24,316!2024-10-12,118,396-->
 - image ::: ![Millau Viaduct image](../../../../archives/Wikimedia%20Commons/ViaducdeMillau.jpg) <!--SR:!2024-11-04,137,396!2025-10-14,411,396-->
@@ -315,7 +315,7 @@ See [Two Prudential Plaza](../../../../general/Two%20Prudential%20Plaza.md).
 
 - description ::: 64-story skyscraper located in the Loop area of Chicago, Illinois <!--SR:!2025-06-20,290,320!2025-08-31,399,385-->
 - height ::: architectural: 303 m, top floor: 250 m <!--SR:!2024-09-16,18,181!2025-12-20,488,384-->
-- image ::: ![Two Prudential Plaza image](../../../../archives/Wikimedia%20Commons/Two%20Prudential%20Plaza%20Chicago%20in%20May%202016.jpg) <!--SR:!2025-06-04,294,360!2024-09-14,39,340-->
+- image ::: ![Two Prudential Plaza image](../../../../archives/Wikimedia%20Commons/Two%20Prudential%20Plaza%20Chicago%20in%20May%202016.jpg) <!--SR:!2025-06-04,294,360!2024-10-05,21,320-->
 - [structural system](../../../../general/structural%20system.md) ::: reinforced concrete<!-- flashcard ecbdac25-22dc-429d-9976-d49408b1478d --> <!--SR:!2025-01-13,128,340!2025-12-30,488,400-->
 
 ## Water Cube

@@ -208,13 +208,13 @@ The content is in teaching order.
 - nature of problems ::: Problems are caused by a network of causes. If the causes are not removed, the problems may recur. <!--SR:!2025-02-24,177,321!2024-09-25,90,361-->
 - casual relationship ::: Event A, called the _cause_, causes event B, called the _effect_. <!--SR:!2025-05-24,275,361!2024-09-20,86,361-->
 - correlation ::: Measure of relationship between 2 variables. They can be positively correlated, negatively correlated, or uncorrelated. <!--SR:!2025-03-13,207,361!2025-01-08,164,341-->
-- casual relationship & correlation ::: Correlation does not imply causation. <!--SR:!2024-09-14,80,361!2024-09-20,86,361-->
+- casual relationship & correlation ::: Correlation does not imply causation. <!--SR:!2025-06-29,288,361!2024-09-20,86,361-->
 - [root cause analysis](../../../../general/root%20cause%20analysis.md) ::: discovery of casual relationships <!--SR:!2025-02-23,199,341!2025-04-16,243,361-->
 - [five whys](../../../../general/five%20whys.md)
 - cause mapping process ::: define the issue by its impact to business goals, visualize the problem, and prevent or mitigate negative impacts <!--SR:!2024-10-08,86,321!2025-03-06,200,341-->
 - cause mapping notation (at least for this course)
   - cause mapping + MECE dimensions ::: Choose a MECE framework. For one of the causes, split the further causes by MECE dimensions. Label the further causes by their corresponding dimensions. Explain why, if some dimensions are irrelevant and thus has no further causes. <!--SR:!2024-09-28,79,321!2025-08-05,332,361-->
-  - cause mapping § arrow direction ::: cause to effect <!--SR:!2024-09-14,80,361!2024-09-17,83,361-->
+  - cause mapping § arrow direction ::: cause to effect <!--SR:!2025-07-02,291,361!2024-09-17,83,361-->
   - cause mapping § evidences ::: below the cause, pink background <!--SR:!2024-10-16,92,321!2025-07-13,313,361-->
   - cause mapping § operators ::: AND, OR <!--SR:!2024-09-29,93,361!2025-05-31,266,361-->
   - cause mapping § solutions ::: above the cause, green background <!--SR:!2025-06-10,285,361!2025-07-05,306,361-->
@@ -248,7 +248,7 @@ The content is in teaching order.
 ## week 13 lecture
 
 - time: 2024-04-23T18:00:00+08:00/2024-04-23T20:30:00+08:00
-- To be successful in business, you need to eat/kill the competition. Right? ::: Or you could make the competition irrelevant instead by creating uncontested market space... <!--SR:!2024-09-14,80,377!2025-07-28,327,377-->
+- To be successful in business, you need to eat/kill the competition. Right? ::: Or you could make the competition irrelevant instead by creating uncontested market space... <!--SR:!2025-10-31,412,397!2025-07-28,327,377-->
 - [blue ocean strategy](../../../blue%20ocean%20strategy.md)
   - [general/Blue Ocean Strategy](../../../../general/Blue%20Ocean%20Strategy.md)
   - [§ red ocean vs. blue ocean](../../../blue%20ocean%20strategy.md#red%20ocean%20vs.%20blue%20ocean)

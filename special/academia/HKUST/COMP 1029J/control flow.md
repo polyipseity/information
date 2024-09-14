@@ -18,7 +18,7 @@ if (condition)
   statement_block
 ```
 
-The semantics of `if` is obvious: {{If the condition is `true`, then the statement block is executed. Otherwise, it is not executed. Note that the condition itself is always executed.}} <!--SR:!2024-09-13,158,310-->
+The semantics of `if` is obvious: {{If the condition is `true`, then the statement block is executed. Otherwise, it is not executed. Note that the condition itself is always executed.}} <!--SR:!2026-07-23,677,330-->
 
 An `if...else` statement consists of {{a condition and two statement blocks}}: <!--SR:!2025-02-09,288,330-->
 
