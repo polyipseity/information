@@ -14,7 +14,9 @@ tags:
 # import ../../../../../tools/utility.py.md
 ```
 
-## arithmetic operators
+## operators
+
+### arithmetic operators
 
 Below are common arithmetic operators. Brackets have {{the highest precedence (very intuitive)}}. Operators have higher precedence than or same precedence as operators below it in the list:
 
@@ -88,6 +90,134 @@ For the return type of operators, all of above (if only `float` and `int` are co
 
 A note regarding accuracy is that {{there may be some inaccuracies involved when `float`s are involved, such as `0.1 + 0.2` is `0.30000000000000004` instead of `0.3`}}. Also, regarding zeros, {{`0.0` and `-0.0` are technically different `float`s, but they are equivalent for most purposes and even compare the same, i.e. `0.0 == -0.0` is `True`}}. Finally, a notable error (raising an error causes {{the program to stop and print out error messages}}) is that {{`/` (division), `//` (floor division), and `%` (remainder) raises `ZeroDivisionError` if the second operand is zero}}. However, `0 ** 0` (power) {{returns `1` instead of being undefined or raising an error}}.
 
+### comparison operators
+
+Below are common comparison operators, all of which returns {{a boolean}}. Operators have higher precedence than or same precedence as operators below it in the list:
+
+```Python
+# pytextgen generate data
+from asyncio import gather as _gather
+from itertools import chain as _chain
+headers = "operator", "description"
+table = (
+  ("`in`", "membership test",),
+  ("`<`", "lesser than",),
+  ("`<=`", "lesser than or equal to",),
+  ("`>`", "greater than",),
+  ("`>=`", "greater than or equal to",),
+  ("`!=`", "not equal to",),
+  ("`==`", "equal to",),
+)
+return _chain.from_iterable(await _gather(
+  memorize_table(
+    __env__.cwf_sects("bd23", "d123",),
+    headers,
+    table,
+  ),
+  memorize_map(
+    __env__.cwf_sects(None, "cc23", None,),
+    items_to_map(*table),
+  )
+))
+```
+
+<!--pytextgen generate section="bd23"--><!-- The following content is generated at 2024-01-30T13:35:46.650809+08:00. Any edits will be overridden! -->
+
+> | operator | description |
+> |-|-|
+> | `in` | membership test |
+> | `<` | lesser than |
+> | `<=` | lesser than or equal to |
+> | `>` | greater than |
+> | `>=` | greater than or equal to |
+> | `!=` | not equal to |
+> | `==` | equal to |
+
+<!--/pytextgen-->
+
+<!--pytextgen generate section="d123"--><!-- The following content is generated at 2024-01-30T13:35:46.633801+08:00. Any edits will be overridden! -->
+
+- _(begin)_→:::←`in`
+- `in`→:::←`<`
+- `<`→:::←`<=`
+- `<=`→:::←`>`
+- `>`→:::←`>=`
+- `>=`→:::←`!=`
+- `!=`→:::←`==`
+- `==`→:::←_(end)_
+
+<!--/pytextgen-->
+
+<!--pytextgen generate section="cc23"--><!-- The following content is generated at 2024-01-30T13:35:46.619801+08:00. Any edits will be overridden! -->
+
+- `in`::membership test
+- `<`::lesser than
+- `<=`::lesser than or equal to
+- `>`::greater than
+- `>=`::greater than or equal to
+- `!=`::not equal to
+- `==`::equal to
+
+<!--/pytextgen-->
+
+Do not mix up the equal to operator `==` and {{the assignment operator `=`}}.
+
+Also, one cannot chain {{comparison operators, like `2 <= aNumber <= 5`. [Logic operators](#logic%20operators) are needed instead, like `2 <= aNumber and aNumber <= 5`}}.
+
+### logic operators
+
+Below are common logic operators, all of which {{accept two booleans and return a boolean}}. Operators have higher precedence than or same precedence as operators below it in the list:
+
+```Python
+# pytextgen generate data
+from asyncio import gather as _gather
+from itertools import chain as _chain
+headers = "operator", "description"
+table = (
+  ("`not`", "negate",),
+  ("`and`", "and",),
+  ("`or`", "or",),
+)
+return _chain.from_iterable(await _gather(
+  memorize_table(
+    __env__.cwf_sects("2856", "d882",),
+    headers,
+    table,
+  ),
+  memorize_map(
+    __env__.cwf_sects(None, "ee13", None,),
+    items_to_map(*table),
+  )
+))
+```
+
+<!--pytextgen generate section="2856"--><!-- The following content is generated at 2024-01-30T13:35:46.667324+08:00. Any edits will be overridden! -->
+
+> | operator | description |
+> |-|-|
+> | `not` | negate |
+> | `and` | and |
+> | `or` | or |
+
+<!--/pytextgen-->
+
+<!--pytextgen generate section="d882"--><!-- The following content is generated at 2024-01-30T13:35:46.722323+08:00. Any edits will be overridden! -->
+
+- _(begin)_→:::←`not`
+- `not`→:::←`and`
+- `and`→:::←`or`
+- `or`→:::←_(end)_
+
+<!--/pytextgen-->
+
+<!--pytextgen generate section="ee13"--><!-- The following content is generated at 2024-01-30T13:35:46.696328+08:00. Any edits will be overridden! -->
+
+- `not`::negate
+- `and`::and
+- `or`::or
+
+<!--/pytextgen-->
+
 ## mathematics
 
 - `abs(<int/float>)` ::: Returns the absolute value of the first argument. The return type is the same as the input type. (Note that the two `float`s, `-0.0` and `0.0`, are technically different, and `abs` turns both of them into `0.0`.)
@@ -101,6 +231,8 @@ A note regarding accuracy is that {{there may be some inaccuracies involved when
 To define a string in Python, {{enclose the string in either double quotes `"example"` or single quotes `'example'`. Both are equivalent except that you need to escape double quotes in the strings for the first one and single quotes for the second one}}. Note that the enclosing quotes are {{not part of the string}}. To escape a character, {{precede the character with a backslash `\`, like `"quo'te \"example\" un'quote"` and `'quo\'te "example" un\'quote'`}}. Note that you cannot {{add literal new lines inside a string if you use the above format}}. Instead, you need to {{use `\n` to represent newlines}}. However, you can {{add literal new lines you enclose the strings in 3 double quotes `"""example"""` or 3 single quotes `'''example'''`}}. Additionally with this format, {{you only need to escape quotes if there are 3 consecutive quotes of the same type as the enclosing quotes}}.
 
 `\` is {{the escape character}}. Apart from {{escaping quotes (`\"`, `\'`) and itself (`\\`)}}, it can also {{represent a newline using `\n` and a tab character using `\t`}}.
+
+To {{concatenate/join two strings}}, use {{the `+` operator}}. If {{the `+` operator is applied between a `str` and another (incompatible) type}}, then {{a `TypeError` will be raised}}.
 
 ## output
 
