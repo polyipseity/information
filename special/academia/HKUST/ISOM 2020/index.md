@@ -35,7 +35,7 @@ The content is in teaching order.
 
 ## week 1 pre-lecture
 
-- time: 2024-09-01+08:00T12:00:00+08:00
+- time: 2024-09-01T12:00:00+08:00
 - [basics](basics.md)
   - [§ arithmetic operators](basics.md#arithmetic%20operators)
     - [basics § arithmetic operators](basics.md#arithmetic%20operators) / note ::: They really like testing you on the return type of operators... for a somewhat obvious reason.
@@ -60,7 +60,7 @@ The content is in teaching order.
 
 ## week 2 pre-lecture
 
-- time: 2024-09-09+08:00T12:00:00+08:00
+- time: 2024-09-09T12:00:00+08:00
 - [basics](basics.md)
   - [§ data type conversion](basics.md#data%20type%20conversion)
   - [§ input](basics.md#input)
