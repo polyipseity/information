@@ -21,9 +21,8 @@ tags:
 
 The content is in teaching order.
 
-- [assignments](assignments/)
 - grading scheme
-  - all: 0.1
+  - all: 1
     - written assignments: 0.3
       - assignment 1 worldview writing: 0.05
       - assignment 2 workview writing: 0.05
@@ -34,13 +33,14 @@ The content is in teaching order.
     - course participation: 0.1, must not miss more than 1 class
     - attendance: 0.4, must not miss more than 1 class
   - passing mark: 0.6
+- [assignments](assignments/)
 
-## week 1 lecture
+## week 1 tutorial
 
 - time: 2024-09-05T10:30:00+08:00/2024-09-05T12:20:00+08:00
 - unscheduled
 
-## week 2 lecture
+## week 2 tutorial
 
 - time: 2024-09-12T10:30:00+08:00/2024-09-12T12:20:00+08:00
 - course logistics
