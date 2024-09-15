@@ -15,7 +15,7 @@ tags:
 
 ## commands
 
-Commands names can be {{truncated at the end to produce an abbreviation if the abbreviation is unambiguous, i.e. there is only exactly one command name starting with the abbreviation}}. For example, `disassemble` can be {{abbreviated to `disass` or even the more ugly `disassem`}}.
+Command names can be {{truncated at the end to produce an abbreviation if the abbreviation is unambiguous, i.e. there is only exactly one command name starting with the abbreviation}}. For example, `disassemble` can be {{abbreviated to `disass` or even the more ugly `disassem`}}.
 
 ### common commands
 
