@@ -44,7 +44,11 @@ __Enhancing Qualitative Characteristics__ ::: verifiability, comparability, unde
 
 The three components of financial statements are {{[statement of cash flows](cash%20flow%20statement.md) (cash flow statement), [statement of financial performance](income%20statement.md) (income statement), and [statement of financial position](balance%20sheet.md) (balance sheet); additionally, the last one is related to statement of retained earnings (statement of changes in equity)}}.
 
-### [statement of cash flows](cash%20flow%20statement.md) (cash flow statement)
+### statement of cash flows
+
+- see: [cash flow statement](cash%20flow%20statement.md)
+
+The statement of cash flows is also called {{cash flow statement}}.
 
 The statement of cash flows {{considers the inputs and outputs in concrete cash within a stated period}}. The general template of a cash flow statement is as follows: {{_Cash Inflow - Cash Outflow + Opening Balance = Closing Balance_}}
 
@@ -70,13 +74,21 @@ The statement of cash flows {{considers the inputs and outputs in concrete cash 
 
 Important: the cash flow statement {{only considers the exchange of __actual__ cash, and ignores what the person in question owes or is owed}}.
 
-### [statement of financial performance](income%20statement.md) (income statement, profit & loss (p&l) statement, or statement of operations)
+### statement of financial performance
+
+- see: [income statement](income%20statement.md)
+
+The statement of financial performance is also called {{income statement, profit & loss (p&l) statement, or statement of operations}}.
 
 The statement of profit or income statement represents {{the changes in value of a company's [accounts](account%20(bookkeeping).md) over a set period (most commonly one [fiscal year](fiscal%20year.md))}}, and may {{compare the changes to changes in the same accounts over the previous period}}. All changes are {{summarized on the "bottom line" as [net income](net%20income.md), often reported as "net loss" when income is less than zero}}.
 
 The net profit or loss is determined by: <br/> {{sales (revenue) <br/> – [cost of goods sold](cost%20of%20goods%20sold.md) <br/> – selling, general, administrative expenses (SGA) <br/> – [depreciation](depreciation.md)/amortization <br/> = earnings before interest and taxes ([EBIT](earnings%20before%20interest,%20taxes,%20depreciation%20and%20amortization.md)) <br/> – interest and tax expenses <br/> = profit/loss}}
 
-### [statement of financial position](balance%20sheet.md) (balance sheet)
+### statement of financial position
+
+- see: [balance sheet](balance%20sheet.md)
+
+The statement of financial position is also called {{balance sheet}}.
 
 The balance sheet is {{the financial statement showing a firm's [assets](asset.md), [liabilities](liability%20(financial%20accounting).md) and [equity](equity%20(finance).md) (capital) at a set point in time, usually the end of the fiscal year reported on the accompanying income statement}}. The total assets {{always equal the total combined liabilities and equity}}. This statement best demonstrates {{the basic accounting equation: _Assets = Liabilities + Equity_}}.
 
@@ -104,7 +116,9 @@ Liabilities include {{current liabilities and long-term liabilities}}:
 
 {{Owner's equity, sometimes referred to as net assets}}, is {{represented differently depending on the type of business ownership}}. Business ownership can be in the form of {{a sole proprietorship, partnership, or a [corporation](corporation.md)}}. For {{a corporation}}, the owner's equity portion {{usually shows common stock, and retained earnings (earnings kept in the company)}}. Retained earnings come from {{the retained earnings statement, prepared prior to the balance sheet}}.<sup>[\[8\]](#^ref-8)</sup>
 
-#### statement of retained earnings (statement of changes in equity)
+#### statement of retained earnings
+
+The statement of retained earnings is also called {{statement of changes in equity}}.
 
 This statement is {{additional to the three main statements described above}}. It shows {{how the distribution of income and transfer of dividends affects the wealth of shareholders in the company}}. The concept of retained earnings means {{profits of previous years that are accumulated till current period}}. Basic proforma for this statement is as follows: <p> {{retained earnings at the beginning of period <br/> + net income for the period <br/> – dividends <br/> = retained earnings at the end of period}}.<sup>[\[9\]](#^ref-9)</sup>
 
