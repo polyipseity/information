@@ -13,7 +13,7 @@ tags:
 
 ### steps
 
-1. initialization ::: Initialize the weights arbitrary. Weights may be initialized to 0 or small random values. <!--SR:!2025-03-02,192,310!2024-09-15,72,310-->
+1. initialization ::: Initialize the weights arbitrary. Weights may be initialized to 0 or small random values. <!--SR:!2025-03-02,192,310!2025-05-02,229,310-->
 2. training ::: For each sample $j$ in the training dataset, perform the following steps over the input $\mathbf{x}_j$ and the desired output $d_j$: <!--SR:!2024-10-17,82,270!2025-05-10,252,330-->
     1. training: forward ::: Calculate the actual output: $$y_j(t) = f(\mathbf{w}(t) \cdot \mathbf{x}_j) = f(w_0(t) x_{j, 0} + w_1(t) x_{j, 1} + \cdots + w_n(t) x_{j, n})$$. <!--SR:!2024-11-20,108,290!2025-01-23,168,310-->
     2. training: backward ::: Update the weights: $$w_i(t + 1) = w_i(t) + r (d_j - y_j(t)) x_{j, i}$$ for all features $0 \le i \le n$. $r$ is the [learning rate](learning%20rate.md). <!--SR:!2024-12-13,109,250!2025-01-12,143,290-->

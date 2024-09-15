@@ -13,7 +13,7 @@ tags:
 
 ### ascending the red-giant branch
 
-Stars at {{the foot of the red-giant branch}} all have {{a similar temperature around 5&nbsp;000 [K](Kelvin.md), corresponding to an early to mid-K spectral type}}. Their luminosities {{range from a few times the luminosity of the sun for the least massive red giants to several thousand times as luminous for stars around 8 M<sub>☉</sub>}}. <!--SR:!2024-09-26,43,290!2024-09-15,32,270!2024-10-02,34,230-->
+Stars at {{the foot of the red-giant branch}} all have {{a similar temperature around 5&nbsp;000 [K](Kelvin.md), corresponding to an early to mid-K spectral type}}. Their luminosities {{range from a few times the luminosity of the sun for the least massive red giants to several thousand times as luminous for stars around 8 M<sub>☉</sub>}}. <!--SR:!2024-09-26,43,290!2025-01-12,119,290!2024-10-02,34,230-->
 
 As {{their hydrogen shells continue to produce more helium}}, the cores of RGB stars {{increase in mass and temperature}}. This causes {{the hydrogen shell to fuse more rapidly}}. Stars become {{more luminous, larger and somewhat cooler on the surface. They are described as ascending the RGB}}. <!--SR:!2024-09-20,37,290!2024-10-07,48,290!2024-12-05,82,270!2024-10-01,46,290-->
 

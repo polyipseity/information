@@ -75,7 +75,7 @@ why: Why are people using competitors' products?
 - discover: Identify unmet needs.→:::←how: What is our strategy? <!--SR:!2024-10-15,57,201!2024-10-13,34,221-->
 - how: What is our strategy?→:::←pricing: Compare prices. <!--SR:!2024-09-26,14,150!2024-10-03,52,241-->
 - pricing: Compare prices.→:::←who: Who are the competitors? 3 to 5 is usually enough. <!--SR:!2024-09-27,50,241!2025-01-23,158,261-->
-- who: Who are the competitors? 3 to 5 is usually enough.→:::←why: Why are people using competitors' products? <!--SR:!2024-10-13,103,281!2024-09-15,73,241-->
+- who: Who are the competitors? 3 to 5 is usually enough.→:::←why: Why are people using competitors' products? <!--SR:!2024-10-13,103,281!2025-03-09,175,241-->
 - why: Why are people using competitors' products?→:::←_(end)_ <!--SR:!2025-06-08,300,341!2024-09-16,83,281-->
 
 <!--/pytextgen-->

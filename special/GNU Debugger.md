@@ -17,7 +17,7 @@ tags:
 
 ### common commands
 
-- `apropos <topic>` ::: find information about topic <!--SR:!2024-09-17,13,290!2024-09-15,12,270-->
+- `apropos <topic>` ::: find information about topic <!--SR:!2024-09-17,13,290!2024-10-16,31,270-->
 - `backtrace` ::: print backtrace or call stack <!--SR:!2024-09-18,14,290!2024-09-17,13,290-->
 - `break <where>` ::: set a breakpoint <!--SR:!2024-09-17,13,290!2024-09-21,17,290-->
 - `continue` ::: continue program execution <!--SR:!2024-09-19,15,290!2024-09-17,13,290-->
@@ -26,7 +26,7 @@ tags:
 - `file <path>` ::: load binary file to debug <!--SR:!2024-09-20,16,290!2024-09-19,15,290-->
 - `finish` ::: run until the current function returns <!--SR:!2024-09-21,17,290!2024-09-20,16,290-->
 - `info breakpoints|regs|threads`::: list breakpoints, register values, or threads <!--SR:!2024-09-18,14,290!2024-10-29,45,290-->
-- `next` ::: go to the next (source) line <!--SR:!2024-09-17,13,290!2024-09-15,12,270-->
+- `next` ::: go to the next (source) line <!--SR:!2024-09-17,13,290!2024-10-31,46,290-->
 - `ni` ::: go to the next instruction <!--SR:!2024-09-18,14,290!2024-09-19,15,290-->
 - `print <expression>` ::: evaluate and print an expression <!--SR:!2024-09-16,13,270!2024-09-21,17,290-->
 - `run [<args>...]` ::: run program (with args) <!--SR:!2024-09-19,15,290!2024-09-19,15,290-->

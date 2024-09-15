@@ -66,7 +66,7 @@ Ideate is {{generating _radical_ design alternatives, going wild with your imagi
 
 ### prototype
 
-Prototype is {{making your idea physical}}. In early stages, {{keep the prototypes inexpensive to reiterate quickly}}. Ideally, the prototypes are {{interactive}}. <!--SR:!2025-01-06,176,270!2024-09-15,116,290!2025-03-01,256,330-->
+Prototype is {{making your idea physical}}. In early stages, {{keep the prototypes inexpensive to reiterate quickly}}. Ideally, the prototypes are {{interactive}}. <!--SR:!2025-01-06,176,270!2025-08-16,335,290!2025-03-01,256,330-->
 
 ### test
 

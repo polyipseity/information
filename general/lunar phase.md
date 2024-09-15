@@ -22,7 +22,7 @@ A __lunar phase__ or __Moon phase__ is {{the apparent shape of the [Moon](Moon.m
 
 The appearance of the [Moon](Moon.md) (its phase) depends on {{the relative orbital positions of the Moon, [Earth](Earth.md), and the [Sun](Sun.md)}}. It gradually {{changes over a [lunar month](lunar%20month.md) as the Moon orbits around Earth and Earth orbits around the Sun}}. Half of the Moon is {{always sunlit (the side facing the Sun), but as the visible side (the side facing the Earth) shifts relative to the sunlit side, so the portion of visible side that is sunlit changes}}, varying from {{0% at [new moon](new%20moon.md) to nearly 100% at [full moon](full%20moon.md)}}. The rotation of Earth {{has only little effect on the phase}} because {{the [lunar distance](lunar%20distance.md) is about 30 times the diameter of Earth, so the perspective of observers on Earth changes only very slightly}}. This partially contributes to {{[lunar libration](libration.md) slightly}}. <!--SR:!2025-02-12,156,310!2025-02-20,174,310!2024-09-20,59,310!2025-04-27,225,330!2025-02-08,147,290!2025-03-29,196,310!2024-10-02,67,310-->
 
-As different [Moon](Moon.md) phases represent {{different relative orbital positions of the Moon relative to [Earth](Earth.md)}}, this also means the corresponding {{moonrise and moonset are at different times of the day}}. In particular, the Moon rises and sets {{about 50 minutes later each day}}. <!--SR:!2024-09-15,56,310!2024-10-01,66,310!2024-10-17,64,285-->
+As different [Moon](Moon.md) phases represent {{different relative orbital positions of the Moon relative to [Earth](Earth.md)}}, this also means the corresponding {{moonrise and moonset are at different times of the day}}. In particular, the Moon rises and sets {{about 50 minutes later each day}}. <!--SR:!2025-05-17,244,330!2024-10-01,66,310!2024-10-17,64,285-->
 
 ## principal and intermediate phases of the Moon
 
@@ -80,7 +80,7 @@ return chain.from_iterable(await gather(
 - [full moon](full%20moon.md)→:::←waning gibbous <!--SR:!2025-03-03,170,310!2024-10-03,68,310-->
 - waning gibbous→:::←last quarter <!--SR:!2025-04-24,224,330!2024-10-07,72,310-->
 - last quarter→:::←waning [crescent](cresceent.md) <!--SR:!2025-02-08,150,290!2024-09-28,63,310-->
-- waning [crescent](cresceent.md)→:::←_(end)_ <!--SR:!2025-04-11,214,330!2024-09-15,55,310-->
+- waning [crescent](cresceent.md)→:::←_(end)_ <!--SR:!2025-04-11,214,330!2025-03-04,170,310-->
 
 <!--/pytextgen-->
 

@@ -31,7 +31,7 @@ The [positron](positron.md) will {{[annihilate](annihilation.md) with an [electr
 
 After it is formed, the [deuteron](deuteron.md) produced in the first stage can {{fuse with another [proton](proton.md) to produce the stable, light [isotope](isotope.md) of [helium](helium.md), <sup>3</sup>He}}: {{$${}_1^2 \mathrm{D} + {}_1^1 \mathrm{H} \to {}_2^3 \mathrm{He} + \gamma + 5.493\text{ MeV}$$}}. <!--SR:!2024-09-24,39,295!2024-10-09,42,255-->
 
-- 2nd step / energy release ::: 5.493 MeV <!--SR:!2024-09-15,1,150!2024-09-24,22,230-->
+- 2nd step / energy release ::: 5.493 MeV <!--SR:!2024-09-17,2,150!2024-09-24,22,230-->
 
 The overall reaction (noting that the elements are [ionized](ionization.md)) is: {{$$4\, {}^1\mathrm{H}^+ + 2\,\mathrm{e}^- \to {}^4\mathrm{He}^{2+} + 2\,\nu_{\mathrm{e} } + n\, \gamma + 26.732\text{ MeV}$$, releasing 26.732&nbsp;[MeV](electronvolt.md) of [energy](energy.md)}}. Some energy is {{lost to the neutrinos, and various number of [gamma rays](gamma%20ray.md) depending on the branch taken}}. <!--SR:!2024-11-06,67,270!2025-01-17,129,290-->
 

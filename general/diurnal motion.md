@@ -13,7 +13,7 @@ tags:
 
 ## relative motion
 
-The relative motion of diurnal motion depends {{on the [latitude](latitude.md) but not the [longitude](longitude.md)}}. The latter only affects {{the time we see the [stars](star.md)}}. Stars that {{do not set below the [horizon](horizon.md)}} are called {{[circumpolar stars](circumpolar%20star.md)}}. <!--SR:!2024-09-17,61,317!2024-09-19,63,317!2024-09-15,61,317!2025-01-08,133,297-->
+The relative motion of diurnal motion depends {{on the [latitude](latitude.md) but not the [longitude](longitude.md)}}. The latter only affects {{the time we see the [stars](star.md)}}. Stars that {{do not set below the [horizon](horizon.md)}} are called {{[circumpolar stars](circumpolar%20star.md)}}. <!--SR:!2024-09-17,61,317!2024-09-19,63,317!2025-06-10,268,337!2025-01-08,133,297-->
 
 From {{the [Northern celestial sphere](Northern%20celestial%20sphere.md)}}, the [stars](star.md) moves {{[counterclockwise](clockwise.md) around [Polaris](Polaris.md), the North [pole star](pole%20star.md)}}. At the [North Pole](North%20Pole.md), all the [stars](star.md) can also be described as {{moving right as Polaris is around the [zenith](zenith.md)}}. <!--SR:!2024-11-26,99,277!2025-01-16,136,297!2024-11-29,101,277-->
 
@@ -21,7 +21,7 @@ From {{the [Southern celestial sphere](Southern%20celestial%20sphere.md)}}, the 
 
 From {{anywhere on the [equator](equator.md)}}, the two [celestial poles](celestial%20pole.md) are {{on the horizon due [north](north.md) and [south](south.md), and appears fixed}}. The [stars](star.md) moves {{[westward](west.md), vertically from and into the [horizon](horizon.md)}}. <!--SR:!2024-12-21,131,317!2024-10-07,65,270!2024-11-30,106,297-->
 
-For anywhere {{in between the [equator](equator.md) and the [celestial poles](celestial%20pole.md)}}, the motion is {{tilted}} and can be {{interpolated from the above description using the current location's [latitude](latitude.md)}}. <!--SR:!2024-09-15,59,310!2025-01-15,148,310!2024-09-28,71,310-->
+For anywhere {{in between the [equator](equator.md) and the [celestial poles](celestial%20pole.md)}}, the motion is {{tilted}} and can be {{interpolated from the above description using the current location's [latitude](latitude.md)}}. <!--SR:!2025-05-28,255,330!2025-01-15,148,310!2024-09-28,71,310-->
 
 ## references
 

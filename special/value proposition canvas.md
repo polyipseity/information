@@ -114,7 +114,7 @@ vagueness: vague jobs, pains, and gains
 - insufficiency: not enough jobs, pains, and gains→:::←mix: mixing customer segments <!--SR:!2024-11-12,96,189!2024-09-20,13,130-->
 - mix: mixing customer segments→:::←mix: mixing jobs and outcomes <!--SR:!2024-09-29,112,289!2024-09-19,47,249-->
 - mix: mixing jobs and outcomes→:::←opposite: gains and pains are not opposite, gains are beyond expectation while pains are falling short of expectation <!--SR:!2024-10-24,43,225!2024-09-20,87,285-->
-- opposite: gains and pains are not opposite, gains are beyond expectation while pains are falling short of expectation→:::←reversed: listing jobs, pains, and gains from your product value propositions <!--SR:!2025-01-17,174,269!2024-09-15,6,189-->
+- opposite: gains and pains are not opposite, gains are beyond expectation while pains are falling short of expectation→:::←reversed: listing jobs, pains, and gains from your product value propositions <!--SR:!2025-01-17,174,269!2024-09-25,10,189-->
 - reversed: listing jobs, pains, and gains from your product value propositions→:::←vagueness: vague jobs, pains, and gains <!--SR:!2024-11-16,72,169!2024-11-05,68,229-->
 - vagueness: vague jobs, pains, and gains→:::←_(end)_ <!--SR:!2025-03-14,236,329!2025-04-19,242,289-->
 
@@ -160,7 +160,7 @@ mix: mixing products and services with pain relievers and gain creators
 - all: addressing all customer pains and gains→:::←irrelevance: listing all products and services without considering the customer segment <!--SR:!2024-12-30,140,229!2024-09-18,31,229-->
 - irrelevance: listing all products and services without considering the customer segment→:::←irrelevance: offer irrelevant pain relievers and gain creators <!--SR:!2024-11-17,76,209!2024-09-16,42,269-->
 - irrelevance: offer irrelevant pain relievers and gain creators→:::←mix: mixing products and services with pain relievers and gain creators <!--SR:!2024-09-27,24,209!2025-01-16,173,269-->
-- mix: mixing products and services with pain relievers and gain creators→:::←_(end)_ <!--SR:!2024-10-03,115,289!2024-09-15,34,169-->
+- mix: mixing products and services with pain relievers and gain creators→:::←_(end)_ <!--SR:!2024-10-03,115,289!2024-11-10,56,169-->
 
 <!--/pytextgen-->
 

@@ -169,7 +169,7 @@ risk reduction
 - convenience or usability→:::←cost reduction <!--SR:!2024-10-11,108,254!2024-12-02,101,237-->
 - cost reduction→:::←customization <!--SR:!2025-05-10,254,274!2024-10-17,45,157-->
 - customization→:::←design <!--SR:!2024-09-20,39,257!2024-11-27,129,234-->
-- design→:::←newness <!--SR:!2025-04-26,228,257!2024-09-15,54,254-->
+- design→:::←newness <!--SR:!2025-04-26,228,257!2024-10-11,26,234-->
 - newness→:::←performance <!--SR:!2024-12-31,168,277!2024-09-26,99,257-->
 - performance→:::←performing the job well <!--SR:!2024-10-23,129,297!2025-08-20,351,294-->
 - performing the job well→:::←price <!--SR:!2024-10-20,139,294!2024-12-24,166,274-->

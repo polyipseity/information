@@ -11,7 +11,7 @@ tags:
 
 ## dynamics
 
-The [ordinary differential equation](ordinary%20differential%20equation.md) for simple harmonic motion can be derived from {{[Newton's second law](Newton's%20laws%20of%20motion.md#second%20law) and [Hooke's law](Hooke's%20law.md)}}: <!--SR:!2024-09-15,208,349-->
+The [ordinary differential equation](ordinary%20differential%20equation.md) for simple harmonic motion can be derived from {{[Newton's second law](Newton's%20laws%20of%20motion.md#second%20law) and [Hooke's law](Hooke's%20law.md)}}: <!--SR:!2026-09-10,725,349-->
 
 > __ordinary differential equation__
 >
