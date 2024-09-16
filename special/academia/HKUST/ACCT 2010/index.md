@@ -72,7 +72,7 @@ The content is in teaching order.
 
 - time: 2024-09-12T13:30:00+08:00/2024-09-12T14:50:00+08:00
 - [financial accounting](../../../../general/financial%20accounting.md)
-  - [financial accounting § principles](../../../../general/financial%20accounting.md#principles) ::: relevant and timely information, faithful representation, separate entity, time period, going-concern, stable monetary unit, mixed-attribute measurement
+  - [financial accounting § principles](../../../../general/financial%20accounting.md#principles) ::: relevant and timely information, faithful representation, separate entity, time period, going concern, stable monetary unit, mixed-attribute measurement
   - [financial accounting](../../../../general/financial%20accounting.md) / relevant and timely information ::: Record only information that affects decision, and before a decision that is relevant to said information is to be made.
   - [financial accounting](../../../../general/financial%20accounting.md) / faithful representation ::: The record is complete, neutral, and accurate. This is a cornerstone of financial reporting and professional ethics.
   - [financial accounting](../../../../general/financial%20accounting.md) / separate entity ::: Financial reporting is for the entity (the company), not owners of it. Managers are the _agents_ who operate the entity, a _legal person_, which is owned by the stockholders, the _principal_.
