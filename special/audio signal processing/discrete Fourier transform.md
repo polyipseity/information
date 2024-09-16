@@ -111,7 +111,7 @@ To make the phase spectrum {{less jumpy (more continuous)}}, the phase may be {{
 
 ## zero padding
 
-Zero padding refers to {{adding an arbitrary number of zero values to a signal in the time or frequency domain in the middle, assuming the indices are from $0$ to $N - 1$; or on both ends symmetrically, assuming the indices are centered around $0$}}. This is the {{_zero-centered_ variant}}, which is {{more natural with respect to the mathematics of DFT}} and {{can be applied to the [spectrum](#spectrums) of a real signal (the other variant makes the signal have imaginary components)}}. The resulting phase (angle) spectrum of the signal is also {{not offsetted}}, allowing us to {{obtain a very smooth phase spectrum after [unwrapping](#phase%20unwrapping)}}.
+Zero padding refers to {{adding an arbitrary number of zero values to a signal in the time or frequency domain in the middle, assuming the indices are from $0$ to $N - 1$; or on both ends symmetrically, assuming the indices are centered around $0$}}. This is the {{_zero-centered_ variant}}, which is {{more natural with respect to the mathematics of DFT}} and {{can be applied to the frequency [spectrum](#spectrums) of a real signal (the other variant makes the originally real signal have imaginary components)}}. The resulting phase (angle) spectrum of the signal is also {{not offsetted}}, allowing us to {{obtain a very smooth phase spectrum after [unwrapping](#phase%20unwrapping)}}.
 
 The other variant is {{the _causal_ variant}}, which {{adds an arbitrary number of zero values to a signal in the time or frequency domain at the end, assuming the indices are from $0$ to $N - 1$}}.
 
