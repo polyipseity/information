@@ -92,7 +92,7 @@ A note regarding accuracy is that {{there may be some inaccuracies involved when
 
 ### comparison operators
 
-Below are common comparison operators, all of which returns {{a boolean}}. Operators have higher precedence than or same precedence as operators below it in the list:
+Below are common comparison operators, all of which returns {{a boolean}}. Operators have higher precedence than or same precedence as operators below it in the list: <!--SR:!2024-09-20,4,329-->
 
 ```Python
 # pytextgen generate data
@@ -137,36 +137,36 @@ return _chain.from_iterable(await _gather(
 
 <!--pytextgen generate section="d123"--><!-- The following content is generated at 2024-01-30T13:35:46.633801+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←`in`
-- `in`→:::←`<`
-- `<`→:::←`<=`
-- `<=`→:::←`>`
-- `>`→:::←`>=`
-- `>=`→:::←`!=`
-- `!=`→:::←`==`
-- `==`→:::←_(end)_
+- _(begin)_→:::←`in` <!--SR:!2024-09-20,4,329!2024-09-20,4,329-->
+- `in`→:::←`<` <!--SR:!2024-09-19,3,309!2024-09-20,4,329-->
+- `<`→:::←`<=` <!--SR:!2024-09-19,3,309!2024-09-19,3,309-->
+- `<=`→:::←`>` <!--SR:!2024-09-20,4,329!2024-09-19,3,309-->
+- `>`→:::←`>=` <!--SR:!2024-09-20,4,329!2024-09-20,4,329-->
+- `>=`→:::←`!=` <!--SR:!2024-09-20,4,329!2024-09-19,3,309-->
+- `!=`→:::←`==` <!--SR:!2024-09-19,3,309!2024-09-20,4,329-->
+- `==`→:::←_(end)_ <!--SR:!2024-09-20,4,329!2024-09-20,4,329-->
 
 <!--/pytextgen-->
 
 <!--pytextgen generate section="cc23"--><!-- The following content is generated at 2024-01-30T13:35:46.619801+08:00. Any edits will be overridden! -->
 
-- `in`::membership test
-- `<`::lesser than
-- `<=`::lesser than or equal to
-- `>`::greater than
-- `>=`::greater than or equal to
-- `!=`::not equal to
-- `==`::equal to
+- `in`::membership test <!--SR:!2024-09-20,4,329-->
+- `<`::lesser than <!--SR:!2024-09-20,4,329-->
+- `<=`::lesser than or equal to <!--SR:!2024-09-20,4,329-->
+- `>`::greater than <!--SR:!2024-09-20,4,329-->
+- `>=`::greater than or equal to <!--SR:!2024-09-20,4,329-->
+- `!=`::not equal to <!--SR:!2024-09-20,4,329-->
+- `==`::equal to <!--SR:!2024-09-20,4,329-->
 
 <!--/pytextgen-->
 
-Do not mix up the equal to operator `==` and {{the assignment operator `=`}}.
+Do not mix up the equal to operator `==` and {{the assignment operator `=`}}. <!--SR:!2024-09-20,4,329-->
 
-Also, one cannot chain {{comparison operators, like `2 <= aNumber <= 5`. [Logic operators](#logic%20operators) are needed instead, like `2 <= aNumber and aNumber <= 5`}}.
+Also, one cannot chain {{comparison operators, like `2 <= aNumber <= 5`. [Logic operators](#logic%20operators) are needed instead, like `2 <= aNumber and aNumber <= 5`}}. <!--SR:!2024-09-20,4,329-->
 
 ### logic operators
 
-Below are common logic operators, all of which {{accept two booleans and return a boolean}}. Operators have higher precedence than or same precedence as operators below it in the list:
+Below are common logic operators, all of which {{accept two booleans and return a boolean}}. Operators have higher precedence than or same precedence as operators below it in the list: <!--SR:!2024-09-20,4,329-->
 
 ```Python
 # pytextgen generate data
@@ -203,18 +203,18 @@ return _chain.from_iterable(await _gather(
 
 <!--pytextgen generate section="d882"--><!-- The following content is generated at 2024-01-30T13:35:46.722323+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←`not`
-- `not`→:::←`and`
-- `and`→:::←`or`
-- `or`→:::←_(end)_
+- _(begin)_→:::←`not` <!--SR:!2024-09-20,4,329!2024-09-20,4,329-->
+- `not`→:::←`and` <!--SR:!2024-09-20,4,329!2024-09-20,4,329-->
+- `and`→:::←`or` <!--SR:!2024-09-20,4,329!2024-09-20,4,329-->
+- `or`→:::←_(end)_ <!--SR:!2024-09-20,4,329!2024-09-20,4,329-->
 
 <!--/pytextgen-->
 
 <!--pytextgen generate section="ee13"--><!-- The following content is generated at 2024-01-30T13:35:46.696328+08:00. Any edits will be overridden! -->
 
-- `not`::negate
-- `and`::and
-- `or`::or
+- `not`::negate <!--SR:!2024-09-20,4,329-->
+- `and`::and <!--SR:!2024-09-20,4,329-->
+- `or`::or <!--SR:!2024-09-20,4,329-->
 
 <!--/pytextgen-->
 
@@ -232,7 +232,7 @@ To define a string in Python, {{enclose the string in either double quotes `"exa
 
 `\` is {{the escape character}}. Apart from {{escaping quotes (`\"`, `\'`) and itself (`\\`)}}, it can also {{represent a newline using `\n` and a tab character using `\t`}}. <!--SR:!2024-10-04,20,343!2024-10-04,20,343!2024-09-27,13,323-->
 
-To {{concatenate/join two strings}}, use {{the `+` operator}}. If {{the `+` operator is applied between a `str` and another (incompatible) type}}, then {{a `TypeError` will be raised}}.
+To {{concatenate/join two strings}}, use {{the `+` operator}}. If {{the `+` operator is applied between a `str` and another (incompatible) type}}, then {{a `TypeError` will be raised}}. <!--SR:!2024-09-20,4,329!2024-09-20,4,329!2024-09-20,4,329!2024-09-20,4,329-->
 
 ## output
 

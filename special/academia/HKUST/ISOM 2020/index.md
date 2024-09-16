@@ -116,7 +116,7 @@ The content is in teaching order.
 - [control flow](control%20flow.md)
   - [§ Python control flow](control%20flow.md#Python%20control%20flow)
   - [§ branching](control%20flow.md#branching)
-    - [control flow § branching](control%20flow.md#branching) / note ::: If there are no statements to be executed in a branch, you must still put a properly indented `pass` statement, which does nothing, for that branch.
+    - [control flow § branching](control%20flow.md#branching) / note ::: If there are no statements to be executed in a branch, you must still put a properly indented `pass` statement, which does nothing, for that branch. <!--SR:!2024-09-20,4,301!2024-09-20,4,301-->
 - [basics](basics.md)
   - [§ logic operators](basics.md#logic%20operators)
 - week 3 exercise: 1/1, graded

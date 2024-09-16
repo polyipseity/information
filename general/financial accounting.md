@@ -48,7 +48,7 @@ The three components of financial statements are {{[statement of cash flows](cas
 
 - see: [cash flow statement](cash%20flow%20statement.md)
 
-The statement of cash flows is also called {{cash flow statement}}.
+The statement of cash flows is also called {{cash flow statement}}. <!--SR:!2024-09-20,4,295-->
 
 The statement of cash flows {{considers the inputs and outputs in concrete cash within a stated period}}. The general template of a cash flow statement is as follows: {{_Cash Inflow - Cash Outflow + Opening Balance = Closing Balance_}} <!--SR:!2024-09-25,11,270!2024-09-24,10,270-->
 
@@ -78,7 +78,7 @@ Important: the cash flow statement {{only considers the exchange of __actual__ c
 
 - see: [income statement](income%20statement.md)
 
-The statement of financial performance is also called {{income statement, profit & loss (p&l) statement, or statement of operations}}.
+The statement of financial performance is also called {{income statement, profit & loss (p&l) statement, or statement of operations}}. <!--SR:!2024-09-20,4,295-->
 
 The statement of profit or income statement represents {{the changes in value of a company's [accounts](account%20(bookkeeping).md) over a set period (most commonly one [fiscal year](fiscal%20year.md))}}, and may {{compare the changes to changes in the same accounts over the previous period}}. All changes are {{summarized on the "bottom line" as [net income](net%20income.md), often reported as "net loss" when income is less than zero}}. <!--SR:!2024-09-30,16,290!2024-09-27,13,270!2024-09-25,11,270-->
 
@@ -88,7 +88,7 @@ The net profit or loss is determined by: <br/> {{sales (revenue) <br/> – [cost
 
 - see: [balance sheet](balance%20sheet.md)
 
-The statement of financial position is also called {{balance sheet}}.
+The statement of financial position is also called {{balance sheet}}. <!--SR:!2024-09-20,4,295-->
 
 The balance sheet is {{the financial statement showing a firm's [assets](asset.md), [liabilities](liability%20(financial%20accounting).md) and [equity](equity%20(finance).md) (capital) at a set point in time, usually the end of the fiscal year reported on the accompanying income statement}}. The total assets {{always equal the total combined liabilities and equity}}. This statement best demonstrates {{the basic accounting equation: _Assets = Liabilities + Equity_}}. <!--SR:!2024-09-24,10,270!2024-10-01,17,290!2024-09-30,16,290-->
 
@@ -118,7 +118,7 @@ Liabilities include {{current liabilities and long-term liabilities}}: <!--SR:!2
 
 #### statement of retained earnings
 
-The statement of retained earnings is also called {{statement of changes in equity}}.
+The statement of retained earnings is also called {{statement of changes in equity}}. <!--SR:!2024-09-20,4,295-->
 
 This statement is {{additional to the three main statements described above}}. It shows {{how the distribution of income and transfer of dividends affects the wealth of shareholders in the company}}. The concept of retained earnings means {{profits of previous years that are accumulated till current period}}. Basic proforma for this statement is as follows: <p> {{retained earnings at the beginning of period <br/> + net income for the period <br/> – dividends <br/> = retained earnings at the end of period}}.<sup>[\[9\]](#^ref-9)</sup> <!--SR:!2024-10-01,17,290!2024-10-01,17,290!2024-09-28,14,290!2024-09-27,13,270-->
 
