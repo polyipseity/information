@@ -11,7 +11,7 @@ tags:
 
 A Java class is never complete without teaching objects!
 
-To help with debugging objects, one can use {{the [object bench](BlueJ.md#object%20bench)}} in BlueJ. <!--SR:!2024-09-15,157,310-->
+To help with debugging objects, one can use {{the [object bench](BlueJ.md#object%20bench)}} in BlueJ. <!--SR:!2026-07-21,673,330-->
 
 ## almost everything is an object
 

@@ -194,7 +194,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 5. 366 days
 >
 > - solution: {{4}}
-> - explanation: {{Recall that the eclipse season depends on the line of lunar nodes. Consider that the lunar nodes rotates retrograde (clockwise) once about 18.6 years. The answer is: $$\frac {365.25} {18.6} \approx 19.637\,0967 \approx 20\text{ days}$$.}} <!--SR:!2024-09-20,54,312!2024-09-15,45,272-->
+> - explanation: {{Recall that the eclipse season depends on the line of lunar nodes. Consider that the lunar nodes rotates retrograde (clockwise) once about 18.6 years. The answer is: $$\frac {365.25} {18.6} \approx 19.637\,0967 \approx 20\text{ days}$$.}} <!--SR:!2024-09-20,54,312!2025-01-15,121,272-->
 
 ## 2024-07-09
 

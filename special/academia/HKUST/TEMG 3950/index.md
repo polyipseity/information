@@ -137,7 +137,7 @@ The content is in teaching order.
     - individual presentation
 - presentation skills
 - [executive summary](../../../../general/executive%20summary.md)
-  - executive summary for startup investment ::: company name, one-line pitch, problem, solution and product, market and market size, marketing strategy, business model, competition and advantage, team <!--SR:!2024-09-15,30,235!2024-10-03,96,295-->
+  - executive summary for startup investment ::: company name, one-line pitch, problem, solution and product, market and market size, marketing strategy, business model, competition and advantage, team <!--SR:!2024-10-01,15,215!2024-10-03,96,295-->
 - [assignment W7](assignment%20W7/assignment%20W7.md)
 
 ## week 8 lecture
@@ -179,7 +179,7 @@ The content is in teaching order.
   - modeling key concept: abstraction ::: filter for elements relevant to some specific purpose <!--SR:!2024-09-17,83,361!2024-10-02,96,361-->
   - modeling key concept: framework ::: a support structure around which something can be built <!--SR:!2024-09-25,90,361!2025-05-29,273,361-->
   - modeling key concept: model ::: an abstraction of the real world for some specific purpose <!--SR:!2025-08-27,356,381!2024-11-03,105,341-->
-- Aguilar's PESTLE framework ::: business environment analysis <!--SR:!2024-09-27,92,361!2024-09-15,81,361-->
+- Aguilar's PESTLE framework ::: business environment analysis <!--SR:!2024-09-27,92,361!2025-07-04,291,361-->
   - [PEST analysis § composition](../../../../general/PEST%20analysis.md#composition)
 - Porter's 5 forces framework ::: industry profitability analysis <!--SR:!2025-06-24,299,361!2025-06-28,303,361-->
   - [Porter's five forces analysis](../../../../general/Porter's%20five%20forces%20analysis.md)
@@ -270,7 +270,7 @@ The content is in teaching order.
     - R&D ::: research & development <!--SR:!2024-11-25,133,390!2024-12-30,161,390-->
     - S&M ::: sales & marketing <!--SR:!2025-01-07,168,390!2024-10-30,111,390-->
     - G&A ::: general & administration <!--SR:!2024-10-22,103,390!2024-11-09,118,390-->
-    - CAGR ::: compound average growth rate; $$\text{CAGR} = \left(\frac {V_{\text{end} } } {V_{\text{start} } } \right)^{\frac 1 t} - 1$$ <!--SR:!2024-09-15,74,370!2024-11-08,117,390-->
+    - CAGR ::: compound average growth rate; $$\text{CAGR} = \left(\frac {V_{\text{end} } } {V_{\text{start} } } \right)^{\frac 1 t} - 1$$ <!--SR:!2025-09-25,374,390!2024-11-08,117,390-->
 - interview note-taking technique using 1 sheet of A4 paper
 - exam for part 2 review
 

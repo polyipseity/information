@@ -46,7 +46,7 @@ The content is in teaching order.
   - [§ variable](basics.md#variable)
     - [basics § variable](basics.md#variable) / note ::: In a quiz question, they use the word "save", which means storing a value to a variable. <!--SR:!2024-09-21,14,292!2024-09-20,13,292-->
   - [§ data types](basics.md#data%20types)
-    - [basics § data types](basics.md#data%20types) / note ::: They have not taught `bool` (values: `True`, `False`) and `NoneType` (value: `None`) up to this point... <!--SR:!2024-09-16,9,272!2024-09-22,15,292-->
+    - [basics § data types](basics.md#data%20types) / note ::: They have not taught `bool` (values: `True`, `False`) and `NoneType` (value: `None`) up to this point... <!--SR:!2024-10-10,24,272!2024-09-22,15,292-->
 - week 1 exercise
 
 ## week 1 lecture

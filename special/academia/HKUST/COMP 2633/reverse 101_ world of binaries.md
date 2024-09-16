@@ -31,7 +31,7 @@ Instead, we are more interested in {{the compilation process itself}}. We like t
 
 Preprocessing {{transforms source program (text) into modified source program (still text)}}. GCC internally {{uses the program `cpp`, which we can use by itself}}, for this step. To only run this step with GCC, the command is {{`gcc -E <input>.c > <output>.i`, which writes to `<output>.i`}}. <!--SR:!2024-09-24,17,325!2024-09-20,13,305!2024-09-18,11,283-->
 
-Compilation {{transforms modified source program (text) into assembly program (still text)}}. GCC internally {{uses the program `cc1`, part of the GCC}}, for this step. To only run this step, the command is {{`gcc -S <input>.i`, which outputs a `.s` file}}. <!--SR:!2024-09-21,14,317!2024-09-21,14,303!2024-09-16,9,283-->
+Compilation {{transforms modified source program (text) into assembly program (still text)}}. GCC internally {{uses the program `cc1`, part of the GCC}}, for this step. To only run this step, the command is {{`gcc -S <input>.i`, which outputs a `.s` file}}. <!--SR:!2024-09-21,14,317!2024-09-21,14,303!2024-10-11,25,283-->
 
 Assembly {{transforms assembly program (text) into relocatable object (binary)}}. GCC internally {{uses the program `as`, which we can use by itself}}, for this step. To only run this step, the command is {{`gcc -c <input>.s`, which outputs a `.o` file}}. <!--SR:!2024-09-24,17,303!2024-09-21,14,290!2024-09-22,15,317-->
 
@@ -105,9 +105,9 @@ A key idea in assembly that {{code and data are treated the same}}. Indeed, data
 - `resb <size>` ::: Reserve `<size>` number of bytes. All modern operating systems will also fill it with zeros. It is commonly used in `.bss`. <!--SR:!2024-09-26,19,325!2024-09-23,16,325-->
 - `resd <size>` ::: Reserve `<size>` number of dwords (4 bytes, double word). All modern operating systems will also fill it with zeros. It is commonly used in `.bss`. <!--SR:!2024-09-26,19,325!2024-09-24,17,325-->
 - `resq <size>` ::: Reserve `<size>` number of qwords (8 bytes, quadruple word). All modern operating systems will also fill it with zeros. It is commonly used in `.bss`. <!--SR:!2024-09-24,17,325!2024-09-26,19,325-->
-- `resw <size>` ::: Reserve `<size>` number of word (2 bytes). All modern operating systems will also fill it with zeros. It is commonly used in `.bss`. <!--SR:!2024-09-16,9,283!2024-09-21,14,317-->
+- `resw <size>` ::: Reserve `<size>` number of word (2 bytes). All modern operating systems will also fill it with zeros. It is commonly used in `.bss`. <!--SR:!2024-10-23,37,303!2024-09-21,14,317-->
 
-Since {{a program requires a starting point}}, usually we are required to {{[label](#labels) the starting instruction with the name `_start`, and make it global by prepending the line `global _start` before the line with the `_start` label}}. <!--SR:!2024-09-16,9,283!2024-09-22,15,325-->
+Since {{a program requires a starting point}}, usually we are required to {{[label](#labels) the starting instruction with the name `_start`, and make it global by prepending the line `global _start` before the line with the `_start` label}}. <!--SR:!2024-10-12,26,283!2024-09-22,15,325-->
 
 ### labels
 
@@ -121,7 +121,7 @@ To assemble an assembly program as an ELF with {{NASM}}, run {{`nasm -f elf64 <i
 
 ### stack and functions in assembly
 
-x86 and x86-64 makes it easy {{to enumerate stacks (in both the data structure and memory allocation sense) and functions}} by {{providing the instructions `push`, `pop`, `call`, and `ret`}}. Remember that the stack grows {{in the negative direction (decreasing address)}}. <!--SR:!2024-09-23,16,317!2024-09-24,17,323!2024-09-16,9,270-->
+x86 and x86-64 makes it easy {{to enumerate stacks (in both the data structure and memory allocation sense) and functions}} by {{providing the instructions `push`, `pop`, `call`, and `ret`}}. Remember that the stack grows {{in the negative direction (decreasing address)}}. <!--SR:!2024-09-23,16,317!2024-09-24,17,323!2024-10-21,35,290-->
 
 - `push <data>` ::: Copy `<data>` to the address pointed by `esp`/`rsp` and then decrement `esp`/`rsp` by the data size. The data size is either 4 or 8 bytes depending on the architecture (but not `<data>`). It can also be 2 bytes if explicitly specified (`push word <data>`), Note that flags are also manipulated. <!--SR:!2024-09-21,14,290!2024-09-22,15,325-->
 - `pop <dest>` ::: Copy the value at the address pointed by `esp`/`rsp` to `<dest>` and then increment `esp`/`rsp` by the data size. The data size is either 4 or 8 bytes depending on the architecture (but not the value at the stack top). It can also be 2 bytes if explicitly specified (`pop word <dest>`). Note that flags are also manipulated. <!--SR:!2024-09-24,17,325!2024-09-24,17,303-->
@@ -130,7 +130,7 @@ x86 and x86-64 makes it easy {{to enumerate stacks (in both the data structure a
 
 ## tools
 
-There are many types of tools to help us with reversing a program. The three types we will talk about are {{static analysis, dynamic analysis, and patching}}. <!--SR:!2024-09-16,9,270-->
+There are many types of tools to help us with reversing a program. The three types we will talk about are {{static analysis, dynamic analysis, and patching}}. <!--SR:!2024-10-09,23,270-->
 
 Apart from the above, below are some tools useful in general:
 
@@ -142,7 +142,7 @@ Static analysis is {{analyzing the program without actually executing it}}. Of c
 
 Some common tools are:
 
-- `objdump` ::: Dump information from object files (`.o`). Use `-d <file>` for disassembly, `-h <file>` for section headers, and add `-M intel` for outputting in the Intel syntax. <!--SR:!2024-09-16,7,305!2024-09-22,15,325-->
+- `objdump` ::: Dump information from object files (`.o`). Use `-d <file>` for disassembly, `-h <file>` for section headers, and add `-M intel` for outputting in the Intel syntax. <!--SR:!2024-10-09,23,305!2024-09-22,15,325-->
 - Radare2 (`r2`) ::: Display information from object files (`.o`). To use it interactively, simply pass the filepath to the program. To use it non-interactively, pass `-c "aaaa; pdf @ sym.main; q!"` before the filepath. Common useful commands include `aaaa`, `pdf @ sym.main`, `?`, `<command>?`, etc. <!--SR:!2024-10-03,19,250!2024-09-20,13,290-->
 - Ghidra ::: An open-source powerful decompiler and disassembler developed by the National Security Agency (NSA). <!--SR:!2024-09-25,18,323!2024-09-22,15,317-->
 - `file <file>` ::: Determine possible file types of `<file>`. <!--SR:!2024-09-25,18,317!2024-09-21,14,290-->

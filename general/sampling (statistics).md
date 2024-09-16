@@ -35,7 +35,7 @@ In the above example, {{not everybody has the same probability of selection; wha
 Probability sampling includes: {{[simple random sampling](simple%20random%20sample.md), [systematic sampling](systematic%20sampling.md), [stratified sampling](stratified%20sampling.md), probability-proportional-to-size sampling, and [cluster](cluster%20sampling.md) or [multistage sampling](multistage%20sampling.md)}}. These various ways of probability sampling have two things in common: <!--SR:!2024-09-30,19,250-->
 
 1. (probability sampling) every element ::: Every element has a known nonzero probability of being sampled and <!--SR:!2024-09-20,16,290!2024-09-17,13,290-->
-2. (probability sampling) at some point ::: involves random selection at some point. <!--SR:!2024-09-20,16,290!2024-09-16,12,270-->
+2. (probability sampling) at some point ::: involves random selection at some point. <!--SR:!2024-09-20,16,290!2024-10-17,31,270-->
 
 ### nonprobability sampling
 
@@ -47,7 +47,7 @@ __Nonprobability sampling__ is {{any sampling method where some elements of the 
 >
 > We visit every household in a given street, and interview the first person to answer the door. In any household with more than one occupant, this is {{a nonprobability sample}}, because {{some people are more likely to answer the door (e.g. an unemployed person who spends most of their time at home is more likely to answer than an employed housemate who might be at work when the interviewer calls)}} and {{it's not practical to calculate these probabilities}}. <!--SR:!2024-09-21,17,290!2024-09-18,14,290!2024-09-17,13,290-->
 
-Nonprobability sampling methods include {{[convenience sampling](convenience%20sampling.md), [quota sampling](quota%20sampling.md), and [purposive sampling](nonprobability%20sampling.md)}}. In addition, nonresponse effects {{may turn _any_ probability design into a nonprobability design if the characteristics of nonresponse are not well understood}}, since {{nonresponse effectively modifies each element's probability of being sampled}}. <!--SR:!2024-09-20,16,290!2024-09-16,13,270!2024-09-20,16,290-->
+Nonprobability sampling methods include {{[convenience sampling](convenience%20sampling.md), [quota sampling](quota%20sampling.md), and [purposive sampling](nonprobability%20sampling.md)}}. In addition, nonresponse effects {{may turn _any_ probability design into a nonprobability design if the characteristics of nonresponse are not well understood}}, since {{nonresponse effectively modifies each element's probability of being sampled}}. <!--SR:!2024-09-20,16,290!2024-10-19,33,270!2024-09-20,16,290-->
 
 ## errors in sample surveys
 

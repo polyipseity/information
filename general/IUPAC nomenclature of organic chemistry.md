@@ -165,7 +165,7 @@ The steps for naming an organic compound are:
 <!--pytextgen generate section="48dca2"--><!-- The following content is generated at 2024-01-04T20:17:52.046217+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←[identify parent hydrocarbon chain](#identify%20parent%20hydrocarbon%20chain) <!--SR:!2027-04-01,991,255!2026-02-20,924,345-->
-- [identify parent hydrocarbon chain](#identify%20parent%20hydrocarbon%20chain)→:::←identify parent functional group of [highest group precedence](#precedence%20of%20functional%20groups) <!--SR:!2024-10-23,610,262!2024-09-16,507,325-->
+- [identify parent hydrocarbon chain](#identify%20parent%20hydrocarbon%20chain)→:::←identify parent functional group of [highest group precedence](#precedence%20of%20functional%20groups) <!--SR:!2024-10-23,610,262!2029-03-21,1647,325-->
 - identify parent functional group of [highest group precedence](#precedence%20of%20functional%20groups)→:::←identify side-chains <!--SR:!2027-04-28,1021,264!2024-10-21,56,130-->
 - identify side-chains→:::←identify remaining functional groups <!--SR:!2026-06-02,852,230!2025-02-25,243,207-->
 - identify remaining functional groups→:::←identify multiple bonds <!--SR:!2025-02-08,275,190!2026-06-27,690,207-->
@@ -633,7 +633,7 @@ return (
 - carboxylic acid derivative→:::←nitrile <!--SR:!2024-12-29,427,210!2025-06-24,292,247-->
 - nitrile→:::←aldehyde <!--SR:!2024-10-10,52,170!2024-09-22,43,190-->
 - aldehyde→:::←ketone <!--SR:!2026-12-29,1065,252!2024-12-06,598,250-->
-- ketone→:::←alcohol <!--SR:!2026-06-11,743,250!2024-09-16,17,150-->
+- ketone→:::←alcohol <!--SR:!2026-06-11,743,250!2024-10-11,25,150-->
 - alcohol→:::←hydroperoxide <!--SR:!2027-05-18,1057,226!2026-10-20,1068,272-->
 - hydroperoxide→:::←amine <!--SR:!2025-04-21,219,224!2025-02-02,257,252-->
 - amine→:::←_(lowest)_ <!--SR:!2025-04-28,532,236!2025-10-24,421,247-->

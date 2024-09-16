@@ -346,7 +346,7 @@ The content is in teaching order.
 - [support vector machine](../../../../general/support%20vector%20machine.md)
   - [§ hard-margin](../../../../general/support%20vector%20machine.md#hard-margin)
   - [§ nonlinear kernels](../../../../general/support%20vector%20machine.md#nonlinear%20kernels)
-- accuracy ::: [accuracy and precision § in binary classification](../../../../general/accuracy%20and%20precision.md#in%20binary%20classification) <!--SR:!2024-09-16,70,357!2024-09-20,73,357-->
+- accuracy ::: [accuracy and precision § in binary classification](../../../../general/accuracy%20and%20precision.md#in%20binary%20classification) <!--SR:!2025-05-23,249,357!2024-09-20,73,357-->
 - [precision and recall](../../../../general/precision%20and%20recall.md), [sensitivity and specificity § sensitivity](../../../../general/sensitivity%20and%20specificity.md#sensitivity)
 - F-measure ::: [F-score § definition](../../../../general/F-score.md#definition) <!--SR:!2024-10-12,97,377!2025-07-19,313,377-->
 - [sensitivity and specificity § specificity](../../../../general/sensitivity%20and%20specificity.md#specificity)
@@ -459,7 +459,7 @@ The content is in teaching order.
   - [§ Bayes' theorem for 3 events](../../../../general/Bayes'%20theorem.md#Bayes'%20theorem%20for%203%20events)
 - [Bayesian belief network](../../../../general/Bayesian%20network.md)
   - [§ graphical model](../../../../general/Bayesian%20network.md#graphical%20model)
-  - Bayesian belief network inference setup ::: Identify the node for which the conditional probability is calculated. Then identify all node parents and children, whether direct or indirect. Discard conditions that are conditionally independent of the calculated probability (search for "_d_-separation"). <!--SR:!2024-10-25,90,317!2024-09-16,71,357-->
+  - Bayesian belief network inference setup ::: Identify the node for which the conditional probability is calculated. Then identify all node parents and children, whether direct or indirect. Discard conditions that are conditionally independent of the calculated probability (search for "_d_-separation"). <!--SR:!2024-10-25,90,317!2025-05-28,254,357-->
   - Bayesian belief network inference process ::: Decompose joint probabilities into separate probabilities if they are conditionally independent of each other. Apply Bayes' theorem (for 3 events) to invert the conditional probability so that the resulting conditional probabilities follow the network arrows. Use the probability chain rule if necessary. Sum up over all possible values of a node (recursively) if necessary. Finally, substitute the known probabilities to calculate the results. <!--SR:!2024-11-02,104,337!2025-02-05,171,337-->
   - Bayesian belief network inference answering ::: Also calculate the complement of the conditional probability (which is _usually_ done by subtracting from 1). Compare the 2 conditional probabilities, and state that the higher conditional probability is the most likely outcome. <!--SR:!2024-10-16,100,377!2025-04-10,231,357-->
 - [conditional dependence](../../../../general/conditional%20dependence.md)

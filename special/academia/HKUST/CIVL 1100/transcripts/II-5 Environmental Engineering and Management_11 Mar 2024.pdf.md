@@ -62,7 +62,7 @@ return await memorize_seq(
 - _(begin)_→:::←air pollution <!--SR:!2025-01-11,166,310!2025-03-07,222,330-->
 - air pollution→:::←land contamination <!--SR:!2024-09-23,82,270!2025-04-15,255,330-->
 - land contamination→:::←noise pollution <!--SR:!2024-09-19,53,270!2025-05-16,255,290-->
-- noise pollution→:::←solid waste disposal <!--SR:!2024-09-16,76,270!2024-11-18,126,290-->
+- noise pollution→:::←solid waste disposal <!--SR:!2025-04-13,209,270!2024-11-18,126,290-->
 - solid waste disposal→:::←water pollution <!--SR:!2024-12-15,140,290!2024-10-05,35,190-->
 - water pollution→:::←_(end)_ <!--SR:!2024-12-20,145,310!2025-01-11,174,310-->
 
@@ -245,7 +245,7 @@ Hong Kong Harbour Area Treatment Scheme Stage I (HATS)
   - HATS Stage 1 scheme period ::: 1994 to 2001 <!--SR:!2024-11-10,117,290!2024-11-16,84,250-->
   - HATS Stage 1 scheme cost ::: HK$8.2 billion <!--SR:!2024-10-20,101,290!2024-10-01,85,270-->
   - HATS Stage 1 details ::: Stonecutters Island Sewage Treatment Works (SCISTW), sewage tunnel of 23.6 km, upgrade 8 preliminary treatment works (PTWs) <!--SR:!2024-10-10,93,270!2025-02-01,181,310-->
-  - HATS Stage 1 geographic coverage ::: collect sewage from Kowloon, Kwai Tsing, Tseung Kwan O, and north-eastern Hong Kong Island to SCISTW <!--SR:!2024-09-15,75,270!2024-12-09,148,310-->
+  - HATS Stage 1 geographic coverage ::: collect sewage from Kowloon, Kwai Tsing, Tseung Kwan O, and north-eastern Hong Kong Island to SCISTW <!--SR:!2025-04-15,211,270!2024-12-09,148,310-->
   - HATS Stage 1 coverage in numbers ::: 3.5 million people, 75% from harbour area <!--SR:!2024-11-30,132,290!2024-09-26,86,290-->
   - HATS Stage 1 capacities :::: current ~1.4M m<sup>3</sup>/d, max: 1.7M m<sup>3</sup>/d <!--SR:!2024-11-05,114,290!2024-11-17,124,290-->
 

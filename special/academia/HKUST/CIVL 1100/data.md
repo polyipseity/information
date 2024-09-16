@@ -192,7 +192,7 @@ See [International Commerce Centre](International%20Commerce%20Centre.md).
 - description ::: tallest building in [Hong Kong](../../../../general/Hong%20Kong.md) <!--SR:!2024-12-25,214,330!2025-11-28,471,390-->
 - height ::: architectural: 484 m, tip: 484 m, top floor: 468 m, roof: 484 m <!--SR:!2025-01-22,140,301!2025-01-15,231,330-->
 - image ::: ![International Commerce Centre image](../../../../archives/Wikimedia%20Commons/International%20Commerce%20Centre%20201008.jpg) <!--SR:!2025-03-17,232,360!2025-12-14,472,400-->
-- [structural system](../../../../general/structural%20system.md) ::: concrete–steel composite <!--SR:!2024-09-15,16,281!2026-02-24,538,401-->
+- [structural system](../../../../general/structural%20system.md) ::: concrete–steel composite <!--SR:!2024-09-22,6,261!2026-02-24,538,401-->
 
 ## Itaipu Dam
 
@@ -212,7 +212,7 @@ See [John Hancock Center](John%20Hancock%20Center.md).
 ## MOSE
 
 - image ::: ![MOSE image](../../../../archives/Wikimedia%20Commons/05%20bocca%20di%20lido.jpg) <!--SR:!2025-05-09,274,360!2026-03-08,545,400-->
-- type ::: mobile gates <!--SR:!2024-09-16,113,337!2025-04-23,290,367-->
+- type ::: mobile gates <!--SR:!2025-10-01,380,337!2025-04-23,290,367-->
 
 ## Millau Viaduct
 
@@ -223,7 +223,7 @@ See [Millau Viaduct](../../../../general/Millau%20Viaduct.md).
 - geographic location ::: across the gorge valley of the Tarn near Millau in southern France <!--SR:!2025-05-01,258,376!2025-05-29,280,376-->
 - height ::: max pylon above base: 343 m, structural: 336.4 m <!--SR:!2024-10-21,37,296!2024-11-07,140,396-->
   - height record ::: as of October 2023, tallest bridge in the world <!--SR:!2024-10-22,126,396!2024-10-22,127,396-->
-- length ::: 2450 m = 204 m + 342 m × 6 + 204 m, longest span: 342 m <!--SR:!2024-09-16,24,316!2024-10-12,118,396-->
+- length ::: 2450 m = 204 m + 342 m × 6 + 204 m, longest span: 342 m <!--SR:!2024-09-30,14,296!2024-10-12,118,396-->
 - image ::: ![Millau Viaduct image](../../../../archives/Wikimedia%20Commons/ViaducdeMillau.jpg) <!--SR:!2024-11-04,137,396!2025-10-14,411,396-->
 - opening time ::: 2004-12-16, 09:00 <!--SR:!2024-10-17,40,276!2025-05-30,281,376-->
 - width ::: 32.05 m <!--SR:!2024-10-21,42,356!2025-08-02,326,376-->
@@ -314,7 +314,7 @@ See [Turin–Lyon high-speed railway](../../../../general/Turin–Lyon%20high-sp
 See [Two Prudential Plaza](../../../../general/Two%20Prudential%20Plaza.md).
 
 - description ::: 64-story skyscraper located in the Loop area of Chicago, Illinois <!--SR:!2025-06-20,290,320!2025-08-31,399,385-->
-- height ::: architectural: 303 m, top floor: 250 m <!--SR:!2024-09-16,18,181!2025-12-20,488,384-->
+- height ::: architectural: 303 m, top floor: 250 m <!--SR:!2024-10-17,31,181!2025-12-20,488,384-->
 - image ::: ![Two Prudential Plaza image](../../../../archives/Wikimedia%20Commons/Two%20Prudential%20Plaza%20Chicago%20in%20May%202016.jpg) <!--SR:!2025-06-04,294,360!2024-10-05,21,320-->
 - [structural system](../../../../general/structural%20system.md) ::: reinforced concrete<!-- flashcard ecbdac25-22dc-429d-9976-d49408b1478d --> <!--SR:!2025-01-13,128,340!2025-12-30,488,400-->
 

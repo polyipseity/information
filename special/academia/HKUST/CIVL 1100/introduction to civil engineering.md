@@ -44,7 +44,7 @@ The content is in teaching order.
   - civil engineering design challenges ::: complex shapes, long-span structures, underground structures <!--SR:!2024-10-25,138,340!2025-08-06,374,377-->
     - [complex shape examples](#complex%20shape%20examples)
     - [long-span structure examples](#long%20span%20structure%20examples)
-    - underground structure examples ::: Turin–Lyon high-speed railway (2002–2032), 271 km long, has the Mont Cenis base tunnel that is 57.5 km long with up to 4 km long access tunnels <!--SR:!2024-09-16,99,321!2024-10-26,147,352-->
+    - underground structure examples ::: Turin–Lyon high-speed railway (2002–2032), 271 km long, has the Mont Cenis base tunnel that is 57.5 km long with up to 4 km long access tunnels <!--SR:!2025-07-30,317,321!2024-10-26,147,352-->
   - [civil engineering new challenges](#civil%20engineering%20new%20challenges)
     - climate change engineering examples ::: Project MOSE (2003–2025) in Venice, Thames Barrier (1974–1982) <!--SR:!2024-11-02,120,287!2025-09-10,376,380-->
       - Thames Barrier (1974–1982) mechanism ::: The gate is a chord of a circle. It rotates along the circumference of the circle. When open, it acts like the river floor. When closing, the chord rotates about the circle center and becomes a barrier. <!--SR:!2025-09-21,372,337!2024-11-22,149,340-->
@@ -142,7 +142,7 @@ quantity surveyor
 
 <!--pytextgen generate section="9281"--><!-- The following content is generated at 2024-02-16T21:59:46.960790+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←building services engineer <!--SR:!2024-09-15,113,335!2026-01-31,525,397-->
+- _(begin)_→:::←building services engineer <!--SR:!2025-09-29,378,335!2026-01-31,525,397-->
 - building services engineer→:::←consulting civil engineer <!--SR:!2024-12-13,168,337!2025-07-07,312,337-->
 - consulting civil engineer→:::←consulting environmental engineer <!--SR:!2024-12-25,183,347!2025-02-05,221,360-->
 - consulting environmental engineer→:::←consulting geo-technical engineer <!--SR:!2024-10-16,105,265!2025-08-10,342,306-->
@@ -199,7 +199,7 @@ water and sewage treatment system
 - power plant→:::←reservoir <!--SR:!2025-01-10,164,275!2024-10-24,49,300-->
 - reservoir→:::←sewage treatment <!--SR:!2024-09-21,62,197!2025-03-13,189,261-->
 - sewage treatment→:::←transport <!--SR:!2024-09-24,22,190!2024-12-13,152,301-->
-- transport→:::←water and sewage treatment system <!--SR:!2024-11-05,137,340!2024-09-16,14,130-->
+- transport→:::←water and sewage treatment system <!--SR:!2024-11-05,137,340!2024-10-03,17,130-->
 - water and sewage treatment system→:::←_(end)_ <!--SR:!2025-12-24,482,401!2025-04-10,252,361-->
 
 <!--/pytextgen-->
@@ -282,7 +282,7 @@ workmanship
 - construction management→:::←economics <!--SR:!2024-10-17,98,235!2025-04-19,240,300-->
 - economics→:::←impacts to surrounding <!--SR:!2025-03-15,215,300!2024-10-17,54,240-->
 - impacts to surrounding→:::←lifecycle <!--SR:!2025-04-01,238,320!2025-05-10,261,320-->
-- lifecycle→:::←maintenance <!--SR:!2024-10-13,106,297!2024-09-16,39,292-->
+- lifecycle→:::←maintenance <!--SR:!2024-10-13,106,297!2024-10-07,21,272-->
 - maintenance→:::←politics <!--SR:!2024-11-14,68,241!2025-04-18,249,312-->
 - politics→:::←social <!--SR:!2025-03-24,246,360!2025-05-03,262,337-->
 - social→:::←workmanship <!--SR:!2025-04-30,244,300!2025-01-23,141,210-->
@@ -985,7 +985,7 @@ Two Prudential Plaza
 - _(begin)_→:::←Central Plaza (Hong Kong) <!--SR:!2025-05-25,278,317!2025-12-02,475,387-->
 - Central Plaza (Hong Kong)→:::←China International Trust and Investment (CITIC) Plaza <!--SR:!2025-06-18,300,334!2024-09-17,101,340-->
 - China International Trust and Investment (CITIC) Plaza→:::←Two Prudential Plaza <!--SR:!2024-10-29,131,340!2024-10-24,45,240-->
-- Two Prudential Plaza→:::←_(end)_ <!--SR:!2025-02-26,248,375!2024-09-15,101,320-->
+- Two Prudential Plaza→:::←_(end)_ <!--SR:!2025-02-26,248,375!2025-08-04,322,320-->
 
 <!--/pytextgen-->
 
@@ -1192,7 +1192,7 @@ water transport
 - bicycle path→:::←highway <!--SR:!2025-01-20,199,360!2025-03-05,232,360-->
 - highway→:::←pier <!--SR:!2024-10-06,114,320!2025-03-17,217,300-->
 - pier→:::←pipeline <!--SR:!2025-01-24,136,360!2025-02-06,194,314-->
-- pipeline→:::←railroad <!--SR:!2024-11-15,111,255!2024-09-15,38,295-->
+- pipeline→:::←railroad <!--SR:!2024-11-15,111,255!2025-01-06,112,295-->
 - railroad→:::←water transport <!--SR:!2024-10-11,127,340!2025-04-24,255,315-->
 - water transport→:::←_(end)_ <!--SR:!2026-03-20,555,400!2025-07-05,322,380-->
 

@@ -13,7 +13,7 @@ tags:
 
 ## two by two matrices
 
-The determinant of {{a 2 × 2 matrix $\begin{pmatrix} a & b \\ c & d \end{pmatrix}$}} is denoted by {{either "$\det$" or vertical bars surrounding the matrix values}}, and is defined as {{$$\det \begin{pmatrix} a & b \\ c & d \end{pmatrix} = \begin{vmatrix} a & b \\ c & d \end{vmatrix} = ad - bc$$}}. <!--SR:!2024-09-16,73,310!2025-06-22,286,330!2024-10-15,89,290-->
+The determinant of {{a 2 × 2 matrix $\begin{pmatrix} a & b \\ c & d \end{pmatrix}$}} is denoted by {{either "$\det$" or vertical bars surrounding the matrix values}}, and is defined as {{$$\det \begin{pmatrix} a & b \\ c & d \end{pmatrix} = \begin{vmatrix} a & b \\ c & d \end{vmatrix} = ad - bc$$}}. <!--SR:!2025-07-22,309,330!2025-06-22,286,330!2024-10-15,89,290-->
 
 ## definition
 

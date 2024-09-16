@@ -12,7 +12,7 @@ tags:
 
 - `ALTER TABLE table_name [alter_option[, ...]]` ::: Modify the table named `table_name` by the options `alter_option`. <!--SR:!2024-10-18,278,310!2025-05-12,451,330-->
 - `CREATE DATABASE database_name` ::: Create a database named `database_name`. <!--SR:!2025-01-19,374,330!2025-02-17,397,330-->
-- `CREATE TABLE table_name (create_definition, ...)` ::: Create the table named `table_name` defined by the definitions `create_definition`. <!--SR:!2026-02-19,594,299!2024-09-16,273,319-->
+- `CREATE TABLE table_name (create_definition, ...)` ::: Create the table named `table_name` defined by the definitions `create_definition`. <!--SR:!2026-02-19,594,299!2027-02-03,870,319-->
 - `DELETE FROM table_name [WHERE where_expression]` ::: Delete rows from the table named `table_name`. Optionally filter rows for which `where_expression` is true. <!--SR:!2024-10-29,291,319!2025-11-27,540,299-->
 - `DESCRIBE table_name` ::: Show the table named `table_name`. <!--SR:!2025-07-09,399,299!2025-03-04,413,339-->
 - `INSERT INTO table_name (column_name[, ...]) VALUE[S] (value[, ...])[, ...]` ::: Add rows with the _n_-th `value` corresponding to the _n_-th column named `column_name` into the table named `table_name`. <!--SR:!2025-06-15,364,299!2024-12-28,334,319-->

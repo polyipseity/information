@@ -52,7 +52,7 @@ disposal
 - purchase→:::←delivery <!--SR:!2025-04-28,281,330!2024-12-29,175,310-->
 - delivery→:::←use <!--SR:!2025-02-20,213,310!2024-12-05,155,290-->
 - use→:::←supplements <!--SR:!2025-02-03,183,279!2025-05-11,294,339-->
-- supplements→:::←maintenance <!--SR:!2024-10-21,121,290!2024-09-16,94,279-->
+- supplements→:::←maintenance <!--SR:!2024-10-21,121,290!2025-06-02,259,279-->
 - maintenance→:::←disposal <!--SR:!2025-01-21,191,310!2025-05-19,302,339-->
 - disposal→:::←_(end)_ <!--SR:!2025-05-05,288,339!2025-05-16,299,339-->
 
@@ -60,7 +60,7 @@ disposal
 
 ## 6 utility levers
 
-The {{6 utility levers}} are the {{map row headers}}. <!--SR:!2024-11-04,51,279!2024-09-16,96,279-->
+The {{6 utility levers}} are the {{map row headers}}. <!--SR:!2024-11-04,51,279!2025-06-19,276,279-->
 
 ```Python
 # pytextgen generate data
