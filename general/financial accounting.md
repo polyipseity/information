@@ -44,7 +44,11 @@ __Enhancing Qualitative Characteristics__ ::: verifiability, comparability, unde
 
 The three components of financial statements are {{[statement of cash flows](cash%20flow%20statement.md) (cash flow statement), [statement of financial performance](income%20statement.md) (income statement), and [statement of financial position](balance%20sheet.md) (balance sheet); additionally, the last one is related to statement of retained earnings (statement of changes in equity)}}. <!--SR:!2024-09-27,13,270-->
 
-### [statement of cash flows](cash%20flow%20statement.md) (cash flow statement)
+### statement of cash flows
+
+- see: [cash flow statement](cash%20flow%20statement.md)
+
+The statement of cash flows is also called {{cash flow statement}}.
 
 The statement of cash flows {{considers the inputs and outputs in concrete cash within a stated period}}. The general template of a cash flow statement is as follows: {{_Cash Inflow - Cash Outflow + Opening Balance = Closing Balance_}} <!--SR:!2024-09-25,11,270!2024-09-24,10,270-->
 
@@ -66,17 +70,25 @@ The statement of cash flows {{considers the inputs and outputs in concrete cash 
 > - {{cash inflow}}: {{$50 - _How much WikiTables received in cash for the first table. They didn't receive cash for the second table (sold in credit terms)._}}
 > - {{cash outflow}}: {{$50 - _How much they'd originally bought the 2 tables for._}}
 > - {{opening balance}}: {{$0}}
-> - {{__closing balance__}}: {{__$50 – 2 \* $25 + $0 = $50 – 50 = $0__ - _Indeed, the cash flow for the month of June for WikiTables amounts to $0 and not $50._}} <!--SR:!2024-09-25,11,270!2024-09-29,15,290!2024-10-01,17,290!2024-09-25,11,270!2024-09-28,14,290!2024-10-01,17,290!2024-09-29,15,290!2024-09-28,14,290-->
+> - {{__closing balance__}}: {{__$50 – 2 \* $25 + $0 = $50 – $50 = $0__ - _Indeed, the cash flow for the month of June for WikiTables amounts to $0 and not $50._}} <!--SR:!2024-09-25,11,270!2024-09-29,15,290!2024-10-01,17,290!2024-09-25,11,270!2024-09-28,14,290!2024-10-01,17,290!2024-09-29,15,290!2024-09-28,14,290-->
 
 Important: the cash flow statement {{only considers the exchange of __actual__ cash, and ignores what the person in question owes or is owed}}. <!--SR:!2024-09-27,13,290-->
 
-### [statement of financial performance](income%20statement.md) (income statement, profit & loss (p&l) statement, or statement of operations)
+### statement of financial performance
+
+- see: [income statement](income%20statement.md)
+
+The statement of financial performance is also called {{income statement, profit & loss (p&l) statement, or statement of operations}}.
 
 The statement of profit or income statement represents {{the changes in value of a company's [accounts](account%20(bookkeeping).md) over a set period (most commonly one [fiscal year](fiscal%20year.md))}}, and may {{compare the changes to changes in the same accounts over the previous period}}. All changes are {{summarized on the "bottom line" as [net income](net%20income.md), often reported as "net loss" when income is less than zero}}. <!--SR:!2024-09-30,16,290!2024-09-27,13,270!2024-09-25,11,270-->
 
 The net profit or loss is determined by: <br/> {{sales (revenue) <br/> – [cost of goods sold](cost%20of%20goods%20sold.md) <br/> – selling, general, administrative expenses (SGA) <br/> – [depreciation](depreciation.md)/amortization <br/> = earnings before interest and taxes ([EBIT](earnings%20before%20interest,%20taxes,%20depreciation%20and%20amortization.md)) <br/> – interest and tax expenses <br/> = profit/loss}} <!--SR:!2024-09-18,4,230-->
 
-### [statement of financial position](balance%20sheet.md) (balance sheet)
+### statement of financial position
+
+- see: [balance sheet](balance%20sheet.md)
+
+The statement of financial position is also called {{balance sheet}}.
 
 The balance sheet is {{the financial statement showing a firm's [assets](asset.md), [liabilities](liability%20(financial%20accounting).md) and [equity](equity%20(finance).md) (capital) at a set point in time, usually the end of the fiscal year reported on the accompanying income statement}}. The total assets {{always equal the total combined liabilities and equity}}. This statement best demonstrates {{the basic accounting equation: _Assets = Liabilities + Equity_}}. <!--SR:!2024-09-24,10,270!2024-10-01,17,290!2024-09-30,16,290-->
 
@@ -104,7 +116,9 @@ Liabilities include {{current liabilities and long-term liabilities}}: <!--SR:!2
 
 {{Owner's equity, sometimes referred to as net assets}}, is {{represented differently depending on the type of business ownership}}. Business ownership can be in the form of {{a sole proprietorship, partnership, or a [corporation](corporation.md)}}. For {{a corporation}}, the owner's equity portion {{usually shows common stock, and retained earnings (earnings kept in the company)}}. Retained earnings come from {{the retained earnings statement, prepared prior to the balance sheet}}.<sup>[\[8\]](#^ref-8)</sup> <!--SR:!2024-09-28,14,290!2024-09-27,13,270!2024-09-29,15,290!2024-09-27,13,270!2024-09-26,12,270!2024-09-26,12,270-->
 
-#### statement of retained earnings (statement of changes in equity)
+#### statement of retained earnings
+
+The statement of retained earnings is also called {{statement of changes in equity}}.
 
 This statement is {{additional to the three main statements described above}}. It shows {{how the distribution of income and transfer of dividends affects the wealth of shareholders in the company}}. The concept of retained earnings means {{profits of previous years that are accumulated till current period}}. Basic proforma for this statement is as follows: <p> {{retained earnings at the beginning of period <br/> + net income for the period <br/> – dividends <br/> = retained earnings at the end of period}}.<sup>[\[9\]](#^ref-9)</sup> <!--SR:!2024-10-01,17,290!2024-10-01,17,290!2024-09-28,14,290!2024-09-27,13,270-->
 
@@ -163,9 +177,9 @@ When {{the same thing is done to an account as its normal balance}} it {{increas
 
 However, there are {{instances of accounts, known as contra-accounts (contra-asset, contra-revenue, and contra-equity accounts), which have a normal balance opposite that listed above}}. Examples include: <!--SR:!2024-09-29,15,290-->
 
-- contra-asset accounts ::: (such as [accumulated depreciation](depreciation.md#accumulated%20depreciation) and allowances for bad debt or obsolete inventory) <!--SR:!2024-09-30,16,290!2024-09-25,11,270-->
-- contra-revenue accounts ::: (such as sales allowances) <!--SR:!2024-09-29,15,290!2024-09-28,14,290-->
-- contra-equity accounts ::: (such as [treasury stock](treasury%20stock.md)) <!--SR:!2024-09-23,9,270!2024-10-01,17,290-->
+- contra-asset accounts, such as... ::: [accumulated depreciation](depreciation.md#accumulated%20depreciation) and allowances for bad debt or obsolete inventory <!--SR:!2024-09-30,16,290!2024-09-25,11,270-->
+- contra-revenue accounts, such as... ::: sales allowances <!--SR:!2024-09-29,15,290!2024-09-28,14,290-->
+- contra-equity accounts, such as... ::: [treasury stock](treasury%20stock.md) <!--SR:!2024-09-23,9,270!2024-10-01,17,290-->
 
 ## financial accounting versus cost accounting
 
@@ -200,14 +214,14 @@ However, there are {{instances of accounts, known as contra-accounts (contra-ass
 
 This text incorporates [content](https://en.wikipedia.org/wiki/financial_accounting) from [Wikipedia](Wikipedia.md) available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.
 
-1.  ["Financial Accounting - Definition from KWHS"](http://kwhs.wharton.upenn.edu/term/financial-accounting/). The Wharton School. 28 February 2011. Retrieved 13 July 2018. <a id="^ref-1"></a>^ref-1
-2.  ["Who We Are - January 2015"](https://web.archive.org/web/20150501111412/http://www.ifrs.org/The-organisation/Documents/2015/Who-We-Are-January-2015.pdf) (PDF). _IFRS.org_. IFRS Foundation. Archived from [the original](http://www.ifrs.org/The-organisation/Documents/2015/Who-We-Are-January-2015.pdf) (PDF) on 1 May 2015. Retrieved 28 April 2015. <a id="^ref-2"></a>^ref-2
-3.  [IFRS Conceptual Framework(2010) Par. OB2](http://www.ifrs.org/IFRSs/Pages/IFRS.aspx) <a id="^ref-3"></a>^ref-3
-4.  [European Accounting Association, Response to Question 26, Comment Letter to the Discussion Paper regarding the Review of the Conceptual Framework, on Page 2 of comment letters, dated 2014-01-24](http://www.ifrs.org/Current-Projects/IASB-Projects/Conceptual-Framework/Discussion-Paper-July-2013/Pages/Comment-letters.aspx) [Archived](https://web.archive.org/web/20140729084444/http://www.ifrs.org/Current-Projects/IASB-Projects/Conceptual-Framework/Discussion-Paper-July-2013/Pages/Comment-letters.aspx) 2014-07-29 at the [Wayback Machine](Wayback%20Machine.md) <a id="^ref-4"></a>^ref-4
-5.  ["IAS 1 - Presentation of Financial Statements"](https://www.iasplus.com/en-gb/standards/ias/ias1). [Deloitte Global](deloitte.md). Retrieved May 9, 2017. <a id="^ref-5"></a>^ref-5
-6.  Larry M. Walther, Christopher J. Skousen, "Long-Term Assets", Ventus Publishing ApS, 2009 <a id="^ref-6"></a>^ref-6
-7.  Gavin, Matt (30 August 2019). ["GAAP VS. IFRS: WHAT ARE THE KEY DIFFERENCES AND WHICH SHOULD YOU USE?"](https://online.hbs.edu/blog/post/gaap-vs-ifrs). _Harvard Business School Online_. Retrieved 2 November 2020. <a id="^ref-7"></a>^ref-7
-8.  Malhotra, DK; Poteau, Ray (2016). _Financial Accounting I_. Academic Publishing. [ISBN](ISBN.md) [978-1627517300](https://en.wikipedia.org/wiki/Special%3ABookSources/978-1627517300). <a id="^ref-8"></a>^ref-8
-9.  Fred., Phillips (2011). _Fundamentals of financial accounting_. Libby, Robert., Libby, Patricia A. (3rd ed.). Boston: McGraw-Hill Irwin. [ISBN](ISBN.md) [9780073527109](https://en.wikipedia.org/wiki/Special%3ABookSources/9780073527109). [OCLC](OCLC.md#OCLC) [457010553](https://search.worldcat.org/oclc/457010553). <a id="^ref-9"></a>^ref-9
-10.  Paul H. Walgenbach, Norman E. Dittrich and Ernest I. Hanson, (1973), New York: Harcourt Grace Javonovich, Inc. Page 429. <a id="^ref-10"></a>^ref-10
-11.  _Cost and Management Accounting. Intermediate_. The Institute of Cost Accountants of India. p. 17. <a id="^ref-11"></a>^ref-11
+1. ["Financial Accounting - Definition from KWHS"](http://kwhs.wharton.upenn.edu/term/financial-accounting/). The Wharton School. 28 February 2011. Retrieved 13 July 2018. <a id="^ref-1"></a>^ref-1
+2. ["Who We Are - January 2015"](https://web.archive.org/web/20150501111412/http://www.ifrs.org/The-organisation/Documents/2015/Who-We-Are-January-2015.pdf) (PDF). _IFRS.org_. IFRS Foundation. Archived from [the original](http://www.ifrs.org/The-organisation/Documents/2015/Who-We-Are-January-2015.pdf) (PDF) on 1 May 2015. Retrieved 28 April 2015. <a id="^ref-2"></a>^ref-2
+3. [IFRS Conceptual Framework(2010) Par. OB2](http://www.ifrs.org/IFRSs/Pages/IFRS.aspx) <a id="^ref-3"></a>^ref-3
+4. [European Accounting Association, Response to Question 26, Comment Letter to the Discussion Paper regarding the Review of the Conceptual Framework, on Page 2 of comment letters, dated 2014-01-24](http://www.ifrs.org/Current-Projects/IASB-Projects/Conceptual-Framework/Discussion-Paper-July-2013/Pages/Comment-letters.aspx) [Archived](https://web.archive.org/web/20140729084444/http://www.ifrs.org/Current-Projects/IASB-Projects/Conceptual-Framework/Discussion-Paper-July-2013/Pages/Comment-letters.aspx) 2014-07-29 at the [Wayback Machine](Wayback%20Machine.md) <a id="^ref-4"></a>^ref-4
+5. ["IAS 1 - Presentation of Financial Statements"](https://www.iasplus.com/en-gb/standards/ias/ias1). [Deloitte Global](deloitte.md). Retrieved May 9, 2017. <a id="^ref-5"></a>^ref-5
+6. Larry M. Walther, Christopher J. Skousen, "Long-Term Assets", Ventus Publishing ApS, 2009 <a id="^ref-6"></a>^ref-6
+7. Gavin, Matt (30 August 2019). ["GAAP VS. IFRS: WHAT ARE THE KEY DIFFERENCES AND WHICH SHOULD YOU USE?"](https://online.hbs.edu/blog/post/gaap-vs-ifrs). _Harvard Business School Online_. Retrieved 2 November 2020. <a id="^ref-7"></a>^ref-7
+8. Malhotra, DK; Poteau, Ray (2016). _Financial Accounting I_. Academic Publishing. [ISBN](ISBN.md) [978-1627517300](https://en.wikipedia.org/wiki/Special%3ABookSources/978-1627517300). <a id="^ref-8"></a>^ref-8
+9. Fred., Phillips (2011). _Fundamentals of financial accounting_. Libby, Robert., Libby, Patricia A. (3rd ed.). Boston: McGraw-Hill Irwin. [ISBN](ISBN.md) [9780073527109](https://en.wikipedia.org/wiki/Special%3ABookSources/9780073527109). [OCLC](OCLC.md#OCLC) [457010553](https://search.worldcat.org/oclc/457010553). <a id="^ref-9"></a>^ref-9
+10. Paul H. Walgenbach, Norman E. Dittrich and Ernest I. Hanson, (1973), New York: Harcourt Grace Javonovich, Inc. Page 429. <a id="^ref-10"></a>^ref-10
+11. _Cost and Management Accounting. Intermediate_. The Institute of Cost Accountants of India. p. 17. <a id="^ref-11"></a>^ref-11

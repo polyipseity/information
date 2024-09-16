@@ -14,7 +14,9 @@ tags:
 # import ../../../../../tools/utility.py.md
 ```
 
-## arithmetic operators
+## operators
+
+### arithmetic operators
 
 Below are common arithmetic operators. Brackets have {{the highest precedence (very intuitive)}}. Operators have higher precedence than or same precedence as operators below it in the list: <!--SR:!2024-09-23,16,302-->
 
@@ -88,6 +90,134 @@ For the return type of operators, all of above (if only `float` and `int` are co
 
 A note regarding accuracy is that {{there may be some inaccuracies involved when `float`s are involved, such as `0.1 + 0.2` is `0.30000000000000004` instead of `0.3`}}. Also, regarding zeros, {{`0.0` and `-0.0` are technically different `float`s, but they are equivalent for most purposes and even compare the same, i.e. `0.0 == -0.0` is `True`}}. Finally, a notable error (raising an error causes {{the program to stop and print out error messages}}) is that {{`/` (division), `//` (floor division), and `%` (remainder) raises `ZeroDivisionError` if the second operand is zero}}. However, `0 ** 0` (power) {{returns `1` instead of being undefined or raising an error}}. <!--SR:!2024-09-25,18,302!2024-09-21,14,302!2024-09-23,16,302!2024-09-22,15,302!2024-09-25,11,320-->
 
+### comparison operators
+
+Below are common comparison operators, all of which returns {{a boolean}}. Operators have higher precedence than or same precedence as operators below it in the list:
+
+```Python
+# pytextgen generate data
+from asyncio import gather as _gather
+from itertools import chain as _chain
+headers = "operator", "description"
+table = (
+  ("`in`", "membership test",),
+  ("`<`", "lesser than",),
+  ("`<=`", "lesser than or equal to",),
+  ("`>`", "greater than",),
+  ("`>=`", "greater than or equal to",),
+  ("`!=`", "not equal to",),
+  ("`==`", "equal to",),
+)
+return _chain.from_iterable(await _gather(
+  memorize_table(
+    __env__.cwf_sects("bd23", "d123",),
+    headers,
+    table,
+  ),
+  memorize_map(
+    __env__.cwf_sects(None, "cc23", None,),
+    items_to_map(*table),
+  )
+))
+```
+
+<!--pytextgen generate section="bd23"--><!-- The following content is generated at 2024-01-30T13:35:46.650809+08:00. Any edits will be overridden! -->
+
+> | operator | description |
+> |-|-|
+> | `in` | membership test |
+> | `<` | lesser than |
+> | `<=` | lesser than or equal to |
+> | `>` | greater than |
+> | `>=` | greater than or equal to |
+> | `!=` | not equal to |
+> | `==` | equal to |
+
+<!--/pytextgen-->
+
+<!--pytextgen generate section="d123"--><!-- The following content is generated at 2024-01-30T13:35:46.633801+08:00. Any edits will be overridden! -->
+
+- _(begin)_→:::←`in`
+- `in`→:::←`<`
+- `<`→:::←`<=`
+- `<=`→:::←`>`
+- `>`→:::←`>=`
+- `>=`→:::←`!=`
+- `!=`→:::←`==`
+- `==`→:::←_(end)_
+
+<!--/pytextgen-->
+
+<!--pytextgen generate section="cc23"--><!-- The following content is generated at 2024-01-30T13:35:46.619801+08:00. Any edits will be overridden! -->
+
+- `in`::membership test
+- `<`::lesser than
+- `<=`::lesser than or equal to
+- `>`::greater than
+- `>=`::greater than or equal to
+- `!=`::not equal to
+- `==`::equal to
+
+<!--/pytextgen-->
+
+Do not mix up the equal to operator `==` and {{the assignment operator `=`}}.
+
+Also, one cannot chain {{comparison operators, like `2 <= aNumber <= 5`. [Logic operators](#logic%20operators) are needed instead, like `2 <= aNumber and aNumber <= 5`}}.
+
+### logic operators
+
+Below are common logic operators, all of which {{accept two booleans and return a boolean}}. Operators have higher precedence than or same precedence as operators below it in the list:
+
+```Python
+# pytextgen generate data
+from asyncio import gather as _gather
+from itertools import chain as _chain
+headers = "operator", "description"
+table = (
+  ("`not`", "negate",),
+  ("`and`", "and",),
+  ("`or`", "or",),
+)
+return _chain.from_iterable(await _gather(
+  memorize_table(
+    __env__.cwf_sects("2856", "d882",),
+    headers,
+    table,
+  ),
+  memorize_map(
+    __env__.cwf_sects(None, "ee13", None,),
+    items_to_map(*table),
+  )
+))
+```
+
+<!--pytextgen generate section="2856"--><!-- The following content is generated at 2024-01-30T13:35:46.667324+08:00. Any edits will be overridden! -->
+
+> | operator | description |
+> |-|-|
+> | `not` | negate |
+> | `and` | and |
+> | `or` | or |
+
+<!--/pytextgen-->
+
+<!--pytextgen generate section="d882"--><!-- The following content is generated at 2024-01-30T13:35:46.722323+08:00. Any edits will be overridden! -->
+
+- _(begin)_→:::←`not`
+- `not`→:::←`and`
+- `and`→:::←`or`
+- `or`→:::←_(end)_
+
+<!--/pytextgen-->
+
+<!--pytextgen generate section="ee13"--><!-- The following content is generated at 2024-01-30T13:35:46.696328+08:00. Any edits will be overridden! -->
+
+- `not`::negate
+- `and`::and
+- `or`::or
+
+<!--/pytextgen-->
+
 ## mathematics
 
 - `abs(<int/float>)` ::: Returns the absolute value of the first argument. The return type is the same as the input type. (Note that the two `float`s, `-0.0` and `0.0`, are technically different, and `abs` turns both of them into `0.0`.) <!--SR:!2024-09-21,14,302!2024-09-22,15,302-->
@@ -101,6 +231,8 @@ A note regarding accuracy is that {{there may be some inaccuracies involved when
 To define a string in Python, {{enclose the string in either double quotes `"example"` or single quotes `'example'`. Both are equivalent except that you need to escape double quotes in the strings for the first one and single quotes for the second one}}. Note that the enclosing quotes are {{not part of the string}}. To escape a character, {{precede the character with a backslash `\`, like `"quo'te \"example\" un'quote"` and `'quo\'te "example" un\'quote'`}}. Note that you cannot {{add literal new lines inside a string if you use the above format}}. Instead, you need to {{use `\n` to represent newlines}}. However, you can {{add literal new lines you enclose the strings in 3 double quotes `"""example"""` or 3 single quotes `'''example'''`}}. Additionally with this format, {{you only need to escape quotes if there are 3 consecutive quotes of the same type as the enclosing quotes}}. <!--SR:!2024-09-20,13,290!2024-09-25,18,302!2024-09-22,15,302!2024-09-21,14,302!2024-09-21,14,302!2024-09-23,16,302!2024-09-20,13,290-->
 
 `\` is {{the escape character}}. Apart from {{escaping quotes (`\"`, `\'`) and itself (`\\`)}}, it can also {{represent a newline using `\n` and a tab character using `\t`}}. <!--SR:!2024-10-04,20,343!2024-10-04,20,343!2024-09-27,13,323-->
+
+To {{concatenate/join two strings}}, use {{the `+` operator}}. If {{the `+` operator is applied between a `str` and another (incompatible) type}}, then {{a `TypeError` will be raised}}.
 
 ## output
 
@@ -138,8 +270,8 @@ To get the type of a value, {{use `type(<any>)`, which will return the type of `
 
 We can convert a value (`value`) into other data types using {{`float(value)`, `int(value)`, and `str(value)`}}. If {{the data type of `value` and the resulting data type are the same}}, {{the same value is simply returned}}. Note that not all {{conversions are valid, and will throw a `ValueError` if it is invalid}}. <!--SR:!2024-10-04,20,340!2024-10-04,20,340!2024-09-29,15,320!2024-09-28,14,320-->
 
-- `float(value)` ::: Converts `value` to a `float`. If it is an `int`, the same value but in `float` is returned. If it is a `str`, it removes whitespaces (spaces) surrounding the string and then parse it as a `float`, and throws a `ValueError` if it is invalid, e.g. an empty string, the string `.` (but not `0.`, `.0`, etc.), contains alphabets (except for `e` as used in exponential notation, e.g. `1e+100` and `1.2e-100` are valid), etc. (But `float("1.")`, `float(".1")`, `float("  4.2  ")`, etc. are valid.) <!--SR:!2024-09-29,15,320!2024-09-23,11,300-->
-- `int(value)` ::: Converts `value` to a `int`. If it is an `float`, the numbers behind the decimal point `.` is removed and then the rest is returned as an `int`. If it is a `str`, it removes whitespaces (spaces) surrounding the string and then parse it as a `int`, and throws a `ValueError` if it is invalid, e.g. an empty string, contains a decimal point `.`, contains alphabets, etc. (But `int("  4  ")` is valid.) <!--SR:!2024-09-26,14,320!2024-09-28,14,320-->
+- `float(value)` ::: Converts `value` to a `float`. If it is an `int`, the same value but in `float` is returned. If it is a `str`, it removes whitespaces (spaces) surrounding the string and then parse it as a `float`, and throws a `ValueError` if it is invalid, e.g. an empty string, the string `.` (but not `0.`, `.0`, etc.), contains alphabets (except for `e` as used in exponential notation, e.g. `1e+100` and `1.2e-100` are valid), etc. (But `float("1.")`, `float(".1")`, `float("  4.2  ")`, etc. are valid. In general, if the string is a valid `float` when treated as Python code, the string is valid.) <!--SR:!2024-09-29,15,320!2024-09-23,11,300-->
+- `int(value)` ::: Converts `value` to a `int`. If it is an `float`, the numbers behind the decimal point `.` is removed and then the rest is returned as an `int`. If it is a `str`, it removes whitespaces (spaces) surrounding the string and then parse it as a `int`, and throws a `ValueError` if it is invalid, e.g. an empty string, contains a decimal point `.`, contains alphabets, etc. (But `int("  4  ")` is valid. In general, if the string is a valid `int` when treated as Python code, the string is valid.) <!--SR:!2024-09-26,14,320!2024-09-28,14,320-->
 - `str(value)` ::: Converts `value` to a `str`. (Almost) anything can be converted into a `str`. The resulting string is the same as that outputted by `print(value)`. <!--SR:!2024-09-29,15,320!2024-10-03,19,340-->
 
 ## input

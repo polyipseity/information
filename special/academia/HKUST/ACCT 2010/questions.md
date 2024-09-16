@@ -1,0 +1,161 @@
+---
+aliases:
+  - ACCT 2010 question
+  - ACCT 2010 questions
+  - ACCT2010 question
+  - ACCT2010 questions
+  - HKUST ACCT 2010 question
+  - HKUST ACCT 2010 questions
+  - HKUST ACCT2010 question
+  - HKUST ACCT2010 questions
+tags:
+  - flashcard/active/special/academia/HKUST/ACCT_2010/questions
+  - language/in/English
+---
+
+# questions
+
+- HKUST ACCT 2010
+
+## week 1 review
+
+> Q1. What is the most important value of financial reporting?
+>
+> 1. Let readers know the operations of the reporting entity.
+> 2. Let readers know the financial positions of the reporting entity.
+> 3. Let readers make informed business decisions.
+>
+> - solution: {{3}}
+> - explanation: {{The ultimate goal of both 1 and 2 is 3.}}
+
+<!-- markdownlint MD028 -->
+
+> Q2. Why are Certified Public Accountants (CPA)/Chartered Accountants (CA) professionals?
+>
+> 1. They are members of one or more professional bodies.
+> 2. People rely on and trust their services and work done.
+> 3. They have passed professional examinations.
+>
+> - solution: {{3}}
+> - explanation: {{One essential property of professions is that there are barriers to entry. 3 is a barrier to entry, while 1 and 2 are consequences of 3.}}
+
+<!-- markdownlint MD028 -->
+
+> Q3. What is/are important attribute(s) of professional CPAs/CAs?
+>
+> 1. technical competence
+> 2. ethical behavior
+> 3. both of them are
+>
+> - solution: {{3}}
+
+<!-- markdownlint MD028 -->
+
+> Q4. Which financial statements below would give readers the __financial performance__ of a company?
+>
+> 1. income statement
+> 2. balance sheet
+> 3. statement of cash flow
+>
+> - solution: {{1}}
+
+<!-- markdownlint MD028 -->
+
+> Q5. Which financial statements below would give readers the __financial positions__ of a company?
+>
+> 1. income statement
+> 2. balance sheet
+> 3. statement of cash flow
+>
+> - solution: {{2}}
+
+<!-- markdownlint MD028 -->
+
+> Q6. Which financial statements below would give readers the __sources and applications of cash__ during a reporting period of a company?
+>
+> 1. income statement
+> 2. balance sheet
+> 3. statement of cash flow
+>
+> - solution: {{3}}
+
+<!-- markdownlint MD028 -->
+
+> Q7. Liabilities, e.g., accounts payable, unearned revenue, would go to?
+>
+> 1. income statement
+> 2. balance sheet
+> 3. statement of cash flow
+>
+> - solution: {{2}}
+
+<!-- markdownlint MD028 -->
+
+> Q8. Investing activities, e.g., lending out loans, purchase of machinery, building amusement parks or holiday resorts, would go to?
+>
+> 1. income statement
+> 2. balance sheet
+> 3. statement of cash flow
+>
+> - solution: {{1, and also 3 if the activities involve instantaneous transfer of cash}}
+
+<!-- markdownlint MD028 -->
+
+> Q9. Assets, e.g., value of machinery, value of "Sleeping Beauty Castle", value of "Water World Ocean Park", would go to?
+>
+> 1. income statement
+> 2. balance sheet
+> 3. statement of cash flow
+>
+> - solution: {{2}}
+
+<!-- markdownlint MD028 -->
+
+> Q10. __Procurement__ of factory and equipment during the reporting period, would go to?
+>
+> 1. income statement
+> 2. balance sheet
+> 3. statement of cash flow
+>
+> - solution: {{1, and also 3 if the procurement involve instantaneous transfer of cash}}
+
+<!-- markdownlint MD028 -->
+
+> Q11. __Revenues earned__ during the reporting period, would go to?
+>
+> 1. income statement
+> 2. balance sheet
+> 3. statement of cash flow
+>
+> - solution: {{1, and also 3 if the revenue involve instantaneous transfer of cash}}
+
+<!-- markdownlint MD028 -->
+
+> Q12. __Unearned revenue__ recorded during the reporting period, would go to?
+>
+> 1. income statement
+> 2. balance sheet
+> 3. statement of cash flow
+>
+> - solution: {{1}}
+
+<!-- markdownlint MD028 -->
+
+> Q13. __Cash obtained__ from termed loan downloaded from financial institutions, would go to?
+>
+> 1. income statement
+> 2. balance sheet
+> 3. statement of cash flow
+>
+> - solution: {{3}}
+> - explanation: {{1 is not included in the answer because lending money from others is neither a revenue nor an expense, so it is definitely not included in the income statement.}}
+
+<!-- markdownlint MD028 -->
+
+> Q14. Cash dividends paid to shareholders, would go to?
+>
+> 1. statement of stockholders' equity
+> 2. statement of cash flow
+> 3. both of them
+>
+> - solution: {{3}}
