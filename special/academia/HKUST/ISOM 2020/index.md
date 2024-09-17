@@ -44,6 +44,7 @@ The content is in teaching order.
   - [§ string](basics.md#string)
     - [basics § string](basics.md#string) / note ::: They taught `'''` but not `"""` for some reason... But it was later taught in the [week 2 lab](#week%202%20lab) (lab 1).
   - [§ output](basics.md#output)
+    - [basics § output](basics.md#output) / note ::: Jupyter notebooks automatically outputting the value of the last statement without using `print` is also considered "output". Note that strings are outputted, escaped with `\` properly (without unnecessary escapes), and preferably wrapped in `'`, and only uses `"` if there is at least 1 `'` in the string but not any `"`.
   - [§ variable](basics.md#variable)
     - [basics § variable](basics.md#variable) / note ::: In a quiz question, they use the word "save", which means storing a value to a variable.
   - [§ data types](basics.md#data%20types)
@@ -79,7 +80,7 @@ The content is in teaching order.
   - [§ length](list.md#length)
   - [§ aggregate functions](list.md#aggregate%20functions)
 - week 2 exercise: 1/1, graded
-- week 3 lab attendance waiver
+- [week 3 lab attendance waiver](assignments/lab%202/lab%202%20waiver%20submission.ipynb): 1/1, graded
 
 ## week 2 lab
 
@@ -92,7 +93,7 @@ The content is in teaching order.
   - [§ output](basics.md#output)
   - [§ variable](basics.md#variable)
   - [§ data types](basics.md#data%20types)
-- week 2 lab tasks: 1/1, graded
+- [week 2 lab tasks](assignments/lab%201/lab%201%20submission.ipynb): 1/1, graded
 
 ## week 2 lecture
 
@@ -121,3 +122,21 @@ The content is in teaching order.
   - [§ logic operators](basics.md#logic%20operators)
 - week 3 exercise: 1/1, graded
 - week 4 lab attendance waiver
+
+## week 3 lab
+
+- time: 2024-09-17T11:00:00+08:00/2024-09-17T12:50:00+08:00
+- [basics](basics.md)
+  - [§ data types](basics.md#data%20types)
+  - [§ data type conversion](basics.md#data%20type%20conversion)
+  - [§ output](basics.md#output)
+  - [§ input](basics.md#input)
+- [list](list.md)
+  - [§ Python list](list.md#Python%20list)
+  - [§ syntax](list.md#syntax)
+  - [§ indexing](list.md#indexing)
+    - [list § indexing](list.md#indexing) / note ::: We have not learnt slicing so far, so do not use it.
+  - [§ manipulation](list.md#manipulation)
+  - [§ length](list.md#length)
+  - [§ aggregate functions](list.md#aggregate%20functions)
+- week 3 lab tasks: ?/1, waived

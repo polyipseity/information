@@ -104,6 +104,10 @@ The content is in teaching order.
   - accounting evolution / classification approach ::: There are 2 main types called _operating leases_ and _finance leases_ (and a related type called as _sale-leasebacks_). The former may not appear in the balance sheet, while the latter allows the lessee (the entity who has the temporary right to use) to claim depreciation.
   - accounting evolution / recognition approach ::: Now, most leases are required to be recorded. At commencement, the asset "right-of-use" is debited while the liability "lease liabilities" is credited. At year end, "lease liability" is debited while the asset "cash/bank" is credited.
     - accounting evolution / recognition approach / [income statement](../../../../general/income%20statement.md) ::: At year end, the expense "depreciation" is recorded (and debited in the balance sheet) while the asset "accumulated depreciation" is credited in the balance sheet. This depreciates the asset "right-of-use".
+
+## week 3 lecture
+
+- time: 2024-09-17T13:30:00+08:00/2024-09-17T14:50:00+08:00
 - [financial transaction](../../../../general/financial%20transaction.md)
   - [accounting equation](../../../../general/accounting%20equation.md) ::: assets (A) = liabilities (L) + stockholders' equity (SE)
   - [financial transaction](../../../../general/financial%20transaction.md) / principles ::: Each transaction affects _at least_ two accounts. The account names and change direction (debit or credit) are identified. Ensure that the account equation holds after a transaction.
@@ -116,3 +120,35 @@ The content is in teaching order.
   - [chart of accounts](../../../../general/chart%20of%20accounts.md) / revenues ::: Account titles are typically formed by joining their source and then the word "revenue".
   - [chart of accounts](../../../../general/chart%20of%20accounts.md) / expenses ::: Account titles are typically formed by joining their source and then the word "expense". The account for inventory sold is typically titled "Cost of Goods Sold".
 - [financial transaction](../../../../general/financial%20transaction.md)
+  - [financial transaction](../../../../general/financial%20transaction.md) / steps to record ::: Identify accounts affected. Determine the directions (debit or credit) of the impact. Verify if the accounting equation is still satisfied afterwards.
+  - [financial transaction](../../../../general/financial%20transaction.md) / steps to record for companies ::: Analyze transactions. Record them as journal entries in a general journal. Post the amounts to a general ledger. Verify if the accounting equation is still satisfied afterwards.
+- [general journal](../../../../general/general%20journal.md) ::: a log of all transactions affecting any account (within a reporting period); in manual processing, there may be specialized journals for specific transactions, then transactions in those journals will not be in the general transaction
+  - [§ general journal](../../../../general/general%20journal.md#general%20journal)
+- [general ledger](../../../../general/general%20ledger.md) ::: a collection of several logs, with a log for each account, showing the changes in the account amount
+  - [§ general ledger](../../../../general/general%20ledger.md#general%20ledger)
+- [financial transaction](../../../../general/financial%20transaction.md)
+  - [financial transaction](../../../../general/financial%20transaction.md) / steps to end a reporting period for companies ::: Prepare an _unadjusted_ trial balance to check if debit amount equals credit amount. Adjust revenues and expenses on the trial balance. Prepare financial statements from the trial balance. Close (zero) the revenues, expenses, gains, and losses to retained earnings (or dividends).
+- [trial balance](../../../../general/trial%20balance.md) ::: an _internal_ financial statement that lists the _adjusted closing balances_ of all the general ledger accounts, used to check if the accounting equation holds, and uses the classic 'T' account format
+  - [§ trial balance](../../../../general/trial%20balance.md#trial%20balance)
+  - [§ normal balances](../../../../general/trial%20balance.md#normal%20balances)
+- [adjusting entries](../../../../general/adjusting%20entries.md) ::: journal entries usually made at the end of an accounting period to allocate income and expenditure to the period in which they actually occurred
+  - [§ adjusting entries](../../../../general/adjusting%20entries.md#adjusting%20entries)
+- [retained earnings](../../../../general/retained%20earnings.md) ::: accumulated net income of the corporation that is retained by the corporation at a particular point in time
+  - [§ retained earnings](../../../../general/retained%20earnings.md#retained%20earnings)
+
+## week 3 lecture 2
+
+- time: 2024-09-19T13:30:00+08:00/2024-09-19T14:50:00+08:00
+- [financial statement analysis](../../../../general/financial%20statement%20analysis.md) ::: analyzing a company's financial statements to make better economic decisions, commonly using financial ratios
+  - [§ financial statement analysis](../../../../general/financial%20statement%20analysis.md#financial%20statement%20analysis)
+  - [§ financial ratio analysis](../../../../general/financial%20statement%20analysis.md#financial%20ratio%20analysis) ::: ratios that show the relationship between two financial variables
+  - [financial statement analysis](../../../../general/financial%20statement%20analysis.md) / time series ::: analyze over time to see if an entity is getting better or worse, i.e. trend analysis
+  - [financial statement analysis](../../../../general/financial%20statement%20analysis.md) / cross sectional ::: analyze at a single point of time across competitors to see if an entity is better or worse than others, i.e. relative strength
+- [current ratio](../../../../general/current%20ratio.md) ::: an liquidity ratio that measures whether a firm has enough resources to meet its short-term obligations
+  - [§ current ratio](../../../../general/current%20ratio.md#current%20ratio)
+  - [current ratio](../../../../general/current%20ratio.md) / equation ::: current ratio (CR) = current assets (CA) / current liabilities (CL) 
+- [quick ratio](../../../../general/quick%20ratio.md) ::: a liquidity ratio that measures the ability of a company to use near-cash assets (or 'quick' assets) to extinguish or retire current liabilities immediately; more conservative than the current ratio as it excludes inventory and prepaid expenses
+  - [§ quick ratio](../../../../general/quick%20ratio.md#quick%20ratio)
+  - [quick ratio § formula](../../../../general/quick%20ratio.md#formula) ::: quick ratio (QR) = quick assets (QA) / current liabilities (CL), where quick assets (QA) = current assets (CA) - inventory (I) - prepaid expenses (PE)
+- use of ratios ::: Be careful... No single financial ratio does it all! They can also be manipulated, such as selling all revenue-generating fixed assets to increase the current ratio artificially, but this clearly kills the business. Therefore, financial analysts look at multiple ratios and other numbers, such as movement of fixed assets, fixed asset turnover ratio, etc.
+- [§ week 2 review](questions.md#week%202%20review)
