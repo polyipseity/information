@@ -68,7 +68,7 @@ The content is in teaching order.
   - [geo-technical engineering risks](#geo-technical%20engineering%20risks)
     - geo-technical engineering risk migration ::: soil improvement or retaining structures can migrate risk to society <!--SR:!2024-12-05,162,340!2025-07-09,335,377-->
 - hydraulic engineering ::: conveyance and flow of fluids, principally sewage and water <!--SR:!2024-11-09,159,285!2025-05-07,300,365-->
-  - hydraulic engineering structures ::: design and construction of hydraulic structures <!--SR:!2024-09-17,115,324!2025-04-26,293,365-->
+  - hydraulic engineering structures ::: design and construction of hydraulic structures <!--SR:!2025-09-24,372,324!2025-04-26,293,365-->
     - [hydraulic engineering structure examples](#hydraulic%20engineering%20structure%20examples)
   - hydraulic engineering systems ::: planning, development, and management of discharge systems and water resources <!--SR:!2025-07-09,302,320!2025-01-16,209,352-->
     - [hydraulic engineering system examples](#hydraulic%20engineering%20system%20examples)
@@ -983,7 +983,7 @@ Two Prudential Plaza
 <!--pytextgen generate section="daaf"--><!-- The following content is generated at 2024-02-16T21:59:47.894677+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←Central Plaza (Hong Kong) <!--SR:!2025-05-25,278,317!2025-12-02,475,387-->
-- Central Plaza (Hong Kong)→:::←China International Trust and Investment (CITIC) Plaza <!--SR:!2025-06-18,300,334!2024-09-17,101,340-->
+- Central Plaza (Hong Kong)→:::←China International Trust and Investment (CITIC) Plaza <!--SR:!2025-06-18,300,334!2025-08-25,342,340-->
 - China International Trust and Investment (CITIC) Plaza→:::←Two Prudential Plaza <!--SR:!2024-10-29,131,340!2024-10-24,45,240-->
 - Two Prudential Plaza→:::←_(end)_ <!--SR:!2025-02-26,248,375!2025-08-04,322,320-->
 

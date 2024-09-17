@@ -23,11 +23,11 @@ There are 3 steps to creating blue oceans: {{understand "as-is", imagine "to be"
 
 In the 1st step, understand "as-is", the goal is to {{understand where we are now}}. You should {{mobilize your team and understand your industry}}. <!--SR:!2024-09-25,80,324!2024-09-21,76,324-->
 
-To visualize the industry, one can make use of a {{capture strategy canvas}}. It is {{a line chart}} showing the {{feature qualities of various offerings of your industry}}. Ideally, after finishing all the 3 steps, you should also plot {{your own blue ocean offering}}, of which {{some of the features should be respectively eliminated, reduced, raise, or create}}. This will be mentioned in [§ create "gap"](#create%20"gap") again. <!--SR:!2024-10-21,86,284!2024-09-19,74,324!2025-02-21,172,304!2024-10-10,79,284!2024-09-17,72,324-->
+To visualize the industry, one can make use of a {{capture strategy canvas}}. It is {{a line chart}} showing the {{feature qualities of various offerings of your industry}}. Ideally, after finishing all the 3 steps, you should also plot {{your own blue ocean offering}}, of which {{some of the features should be respectively eliminated, reduced, raise, or create}}. This will be mentioned in [§ create "gap"](#create%20"gap") again. <!--SR:!2024-10-21,86,284!2024-09-19,74,324!2025-02-21,172,304!2024-10-10,79,284!2025-05-07,232,324-->
 
 ### imagine "to be"
 
-In the 2nd step, imagine "to be", the goal is to {{imagine where we could be}}. You should {{understand pains and look for non-customers}}. <!--SR:!2024-09-17,72,324!2025-02-01,156,304-->
+In the 2nd step, imagine "to be", the goal is to {{imagine where we could be}}. You should {{understand pains and look for non-customers}}. <!--SR:!2025-08-07,324,344!2025-02-01,156,304-->
 
 To understand pains, we can use {{a customer journey map, which is similar to a [buyer utility map](buyer%20utility%20map.md) but with the column headers replaced with custom steps}}. Only {{note down the customer pains}} on the map, and then {{prioritize some customer pains by making them red}}. Finally, {{decide which pains are worth-solving by reducing or eliminating existing features}}. <!--SR:!2024-10-01,72,284!2024-09-25,53,284!2024-11-18,104,284!2024-09-24,79,324-->
 

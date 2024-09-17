@@ -42,7 +42,7 @@ The content is in teaching order.
     - [basics § arithmetic operators](basics.md#arithmetic%20operators) / note ::: They really like testing you on the return type of operators... for a somewhat obvious reason. <!--SR:!2024-09-20,13,298!2024-09-20,13,290-->
   - [§ mathematics](basics.md#mathematics)
   - [§ string](basics.md#string)
-    - [basics § string](basics.md#string) / note ::: They taught `'''` but not `"""` for some reason... But it was later taught in the [week 2 lab](#week%202%20lab) (lab 1). <!--SR:!2024-09-20,13,292!2024-09-17,10,270-->
+    - [basics § string](basics.md#string) / note ::: They taught `'''` but not `"""` for some reason... But it was later taught in the [week 2 lab](#week%202%20lab) (lab 1). <!--SR:!2024-09-20,13,292!2024-10-24,37,290-->
   - [§ output](basics.md#output)
   - [§ variable](basics.md#variable)
     - [basics § variable](basics.md#variable) / note ::: In a quiz question, they use the word "save", which means storing a value to a variable. <!--SR:!2024-09-21,14,292!2024-09-20,13,292-->

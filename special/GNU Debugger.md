@@ -19,10 +19,10 @@ Command names can be {{truncated at the end to produce an abbreviation if the ab
 
 ### common commands
 
-- `apropos <regex>` ::: find text matching `<regex>` <!--SR:!2024-09-17,13,290!2024-10-16,31,270-->
-- `backtrace` ::: print backtrace or call stack <!--SR:!2024-09-18,14,290!2024-09-17,13,290-->
-- `break <where>` ::: set a breakpoint <!--SR:!2024-09-17,13,290!2024-09-21,17,290-->
-- `continue` ::: continue program execution <!--SR:!2024-09-19,15,290!2024-09-17,13,290-->
+- `apropos <regex>` ::: find text matching `<regex>` <!--SR:!2024-11-08,52,310!2024-10-16,31,270-->
+- `backtrace` ::: print backtrace or call stack <!--SR:!2024-09-18,14,290!2024-11-10,54,310-->
+- `break <where>` ::: set a breakpoint <!--SR:!2024-11-06,50,310!2024-09-21,17,290-->
+- `continue` ::: continue program execution <!--SR:!2024-09-19,15,290!2024-11-04,48,310-->
 - `delete [<breakpoint>]` ::: delete a breakpoint; if breakpoint is not specified, then delete all breakpoints <!--SR:!2024-09-19,15,290!2024-09-18,14,290-->
 - `disassemble <address|function>` ::: disassemble a specified address or function <!--SR:!2024-09-20,4,305!2024-09-20,4,305-->
 - `file <path>` ::: load binary file to debug <!--SR:!2024-09-20,16,290!2024-09-19,15,290-->
@@ -30,12 +30,12 @@ Command names can be {{truncated at the end to produce an abbreviation if the ab
 - `help [<topic>]` ::: find information about topic; if topic is not specified, then prints general help <!--SR:!2024-09-20,4,305!2024-09-20,4,305-->
 - `info address <symbol>` ::: print the `<symbol>`, its type, and its address <!--SR:!2024-09-20,4,305!2024-09-20,4,305-->
 - `info breakpoints|regs|threads`::: list breakpoints, register values, or threads <!--SR:!2024-09-18,14,290!2024-10-29,45,290-->
-- `next` ::: go to the next (source) line <!--SR:!2024-09-17,13,290!2024-10-31,46,290-->
+- `next` ::: go to the next (source) line <!--SR:!2024-11-05,49,310!2024-10-31,46,290-->
 - `ni` ::: go to the next instruction <!--SR:!2024-09-18,14,290!2024-09-19,15,290-->
 - `print <expression>` ::: evaluate and print an expression <!--SR:!2024-10-21,35,270!2024-09-21,17,290-->
 - `run [<args>...]` ::: run program (with args) <!--SR:!2024-09-19,15,290!2024-09-19,15,290-->
 - `set <storage> = <value>` ::: set storage to value <!--SR:!2024-09-20,4,305!2024-09-20,4,305-->
-- `set args <args>...` ::: set program args <!--SR:!2024-09-21,17,290!2024-09-17,13,290-->
+- `set args <args>...` ::: set program args <!--SR:!2024-09-21,17,290!2024-11-07,51,310-->
 - `si` ::: go to the next instruction stepping into functions <!--SR:!2024-09-18,14,290!2024-10-01,20,250-->
 - `starti [<args>...]` ::: start program and stop at its first instruction <!--SR:!2024-09-21,17,290!2024-09-20,16,290-->
 - `step` ::: go to the next (source) line stepping into functions <!--SR:!2024-09-18,14,290!2024-10-18,32,270-->
@@ -52,10 +52,10 @@ Command names can be {{truncated at the end to produce an abbreviation if the ab
 
 ### `pwndbg`
 
-- `pwndbg>` color (may differ depending on your configuration) ::: cyan: program is running; red: program is not running <!--SR:!2024-09-17,13,290!2024-09-20,16,290-->
+- `pwndbg>` color (may differ depending on your configuration) ::: cyan: program is running; red: program is not running <!--SR:!2024-11-09,53,310!2024-09-20,16,290-->
 - `checksec` ::: print the binary security settings <!--SR:!2024-09-20,4,305!2024-09-20,4,305-->
 - `down` ::: move down the backtrace or call stack <!--SR:!2024-09-18,14,290!2024-09-19,15,290-->
-- `up` ::: move up the backtrace or call stack <!--SR:!2024-09-17,13,290!2024-09-20,16,290-->
+- `up` ::: move up the backtrace or call stack <!--SR:!2024-11-11,55,310!2024-09-20,16,290-->
 
 #### `pwndbg` heap
 

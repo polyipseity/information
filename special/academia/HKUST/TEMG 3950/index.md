@@ -176,7 +176,7 @@ The content is in teaching order.
 - "less is more" ::: In the digital age, there is too much information (digital garbage), so they need to be distilled. Also see [DIKW pyramid](../../../../general/DIKW%20pyramid.md). <!--SR:!2025-05-26,276,361!2024-09-21,86,361-->
 - [MECE principle](../../../../general/MECE%20principle.md)
 - modeling key concepts ::: abstraction, framework, model <!--SR:!2025-06-11,286,361!2024-10-04,98,361-->
-  - modeling key concept: abstraction ::: filter for elements relevant to some specific purpose <!--SR:!2024-09-17,83,361!2024-10-02,96,361-->
+  - modeling key concept: abstraction ::: filter for elements relevant to some specific purpose <!--SR:!2025-07-15,301,361!2024-10-02,96,361-->
   - modeling key concept: framework ::: a support structure around which something can be built <!--SR:!2024-09-25,90,361!2025-05-29,273,361-->
   - modeling key concept: model ::: an abstraction of the real world for some specific purpose <!--SR:!2025-08-27,356,381!2024-11-03,105,341-->
 - Aguilar's PESTLE framework ::: business environment analysis <!--SR:!2024-09-27,92,361!2025-07-04,291,361-->
@@ -214,7 +214,7 @@ The content is in teaching order.
 - cause mapping process ::: define the issue by its impact to business goals, visualize the problem, and prevent or mitigate negative impacts <!--SR:!2024-10-08,86,321!2025-03-06,200,341-->
 - cause mapping notation (at least for this course)
   - cause mapping + MECE dimensions ::: Choose a MECE framework. For one of the causes, split the further causes by MECE dimensions. Label the further causes by their corresponding dimensions. Explain why, if some dimensions are irrelevant and thus has no further causes. <!--SR:!2024-09-28,79,321!2025-08-05,332,361-->
-  - cause mapping § arrow direction ::: cause to effect <!--SR:!2025-07-02,291,361!2024-09-17,83,361-->
+  - cause mapping § arrow direction ::: cause to effect <!--SR:!2025-07-02,291,361!2025-11-01,410,381-->
   - cause mapping § evidences ::: below the cause, pink background <!--SR:!2024-10-16,92,321!2025-07-13,313,361-->
   - cause mapping § operators ::: AND, OR <!--SR:!2024-09-29,93,361!2025-05-31,266,361-->
   - cause mapping § solutions ::: above the cause, green background <!--SR:!2025-06-10,285,361!2025-07-05,306,361-->

@@ -95,7 +95,7 @@ Note that if {{you try to use Python to repeat the above mathematical proofs}}, 
 
 {{The magnitude spectrum}} is {{the transformed signal under the modulus operation $\lvert X \rvert$ (length of the complex amplitude)}}. For easier visualization, the magnitude may be {{in logarithm scale}}. The magnitude, intuitively, represents {{the loudness of the complex sinusoid of a given frequency}}. <!--SR:!2024-11-07,70,310!2024-11-04,67,310!2024-11-04,67,310!2024-10-10,42,290-->
 
-{{The phase spectrum}} is {{the transformed signal under the argument operation $\operatorname{arg}(X)$ (angle of the complex amplitude)}}. The phase, intuitively, represents {{the time offset of the complex sinusoid of a given frequency}}. <!--SR:!2024-11-18,63,333!2024-11-15,62,333!2024-09-17,19,333-->
+{{The phase spectrum}} is {{the transformed signal under the argument operation $\operatorname{arg}(X)$ (angle of the complex amplitude)}}. The phase, intuitively, represents {{the time offset of the complex sinusoid of a given frequency}}. <!--SR:!2024-11-18,63,333!2024-11-15,62,333!2024-12-12,86,353-->
 
 ### decibel
 
@@ -113,7 +113,7 @@ To make the phase spectrum {{less jumpy (more continuous)}}, the phase may be {{
 
 Zero padding refers to {{adding an arbitrary number of zero values to a signal in the time or frequency domain in the middle, assuming the indices are from $0$ to $N - 1$; or on both ends symmetrically, assuming the indices are centered around $0$}}. This is the {{_zero-centered_ variant}}, which is {{more natural with respect to the mathematics of DFT}} and {{can be applied to the frequency [spectrum](#spectrums) of a real signal (the other variant makes the originally real signal have imaginary components)}}. The resulting phase (angle) spectrum of the signal is also {{not offsetted}}, allowing us to {{obtain a very smooth phase spectrum after [unwrapping](#phase%20unwrapping)}}. <!--SR:!2024-11-08,53,333!2024-11-11,56,333!2024-12-06,81,353!2024-11-14,59,333!2024-11-06,53,333!2024-11-07,54,333-->
 
-The other variant is {{the _causal_ variant}}, which {{adds an arbitrary number of zero values to a signal in the time or frequency domain at the end, assuming the indices are from $0$ to $N - 1$}}. <!--SR:!2024-09-17,19,333!2024-12-02,77,353-->
+The other variant is {{the _causal_ variant}}, which {{adds an arbitrary number of zero values to a signal in the time or frequency domain at the end, assuming the indices are from $0$ to $N - 1$}}. <!--SR:!2024-12-11,85,353!2024-12-02,77,353-->
 
 The effect of {{zero padding a signal in the time domain}} is that {{its corresponding DFT has its values interpolated such that it has the same number of values as the signal in the time domain, similar to scaling up an image}}. Common reasons for zero padding the signal in the time domain include {{interpolating the signal in the frequency domain and making the number of signal samples a power of two so that fast Fourier transform (FFT) can be applied to it}}. <!--SR:!2024-10-31,47,333!2024-10-19,40,313!2024-10-28,49,333-->
 
@@ -127,10 +127,10 @@ Zero padding can {{make the input size suitable}} for {{[fast Fourier transform]
 
 Fast Fourier transform (__FFT__) is {{a fast algorithm for computing the DFT of a signal}}. It works by {{breaking down DFT of a long signal into several DFTs of shorter signals recursively}}. <!--SR:!2024-11-17,67,353!2024-11-13,60,333-->
 
-Its time complexity, that is {{how the running time grows with input size}}, is {{$O(n \log n)$, instead of $O(n^2)$ for DFT computed by its definition}}. This means {{for large input sizes, much time can be saved}}. So in practice, {{FFT is used over the traditional DFT}}. <!--SR:!2024-09-17,19,333!2024-11-17,62,333!2024-11-09,56,333!2024-11-04,51,333-->
+Its time complexity, that is {{how the running time grows with input size}}, is {{$O(n \log n)$, instead of $O(n^2)$ for DFT computed by its definition}}. This means {{for large input sizes, much time can be saved}}. So in practice, {{FFT is used over the traditional DFT}}. <!--SR:!2024-12-10,84,353!2024-11-17,62,333!2024-11-09,56,333!2024-11-04,51,333-->
 
 The most common form of FFT is {{the Cooley–Tukey algorithm}} that {{divides the signal into 2 equal-length signals recursively}}, so {{it requires the input size to be a power of 2}}. This can be fixed using {{[zero padding](#zero%20padding)}}. This algorithm also {{has other variants that divide the signal into arbitrary many equal-length signals recursively}}, but this will not be discussed here. <!--SR:!2024-10-30,46,333!2024-11-16,61,333!2024-11-07,54,333!2024-11-03,50,333!2024-11-13,58,333-->
 
-Note that when {{zero padding a signal for FFT}}, it is important to {{apply the zero-centered variant instead of the causal one}}. <!--SR:!2024-11-16,63,333!2024-09-17,19,333-->
+Note that when {{zero padding a signal for FFT}}, it is important to {{apply the zero-centered variant instead of the causal one}}. <!--SR:!2024-11-16,63,333!2024-12-09,83,353-->
 
 Note that FFT is fundamentally {{the same thing as DFT}}, with the only difference being {{how the values are actually computed}}. <!--SR:!2024-11-04,56,333!2024-10-18,38,313-->

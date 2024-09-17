@@ -91,7 +91,7 @@ As VBA is intended to be English like, it also provides the unconventional {{`Do
 
 ### `For`
 
-VBA also has for-loops. A `For...To...Step...Next` statement consists of {{a loop variable, a starting point, a stopping point, a step (optional, by default 1), and a statement block to execute}}: <!--SR:!2024-09-17,155,301-->
+VBA also has for-loops. A `For...To...Step...Next` statement consists of {{a loop variable, a starting point, a stopping point, a step (optional, by default 1), and a statement block to execute}}: <!--SR:!2025-12-27,466,301-->
 
 ```VB
 For LoopVariable = start To end Step step ' `Step step` optional
