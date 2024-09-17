@@ -131,6 +131,6 @@ Its time complexity, that is {{how the running time grows with input size}}, is 
 
 The most common form of FFT is {{the Cooley–Tukey algorithm}} that {{divides the signal into 2 equal-length signals recursively}}, so {{it requires the input size to be a power of 2}}. This can be fixed using {{[zero padding](#zero%20padding)}}. This algorithm also {{has other variants that divide the signal into arbitrary many equal-length signals recursively}}, but this will not be discussed here. <!--SR:!2024-10-30,46,333!2024-11-16,61,333!2024-11-07,54,333!2024-11-03,50,333!2024-11-13,58,333-->
 
-Note that when {{zero padding a signal for FFT}}, it is important to {{apply the zero-centered variant instead of the causal one}}. <!--SR:!2024-11-16,63,333!2024-12-09,83,353-->
+Note that when {{zero padding a signal for FFT}}, it is important to {{apply the zero-centered variant instead of the causal one}}. (The reason is mentioned above already.) <!--SR:!2024-11-16,63,333!2024-12-09,83,353-->
 
 Note that FFT is fundamentally {{the same thing as DFT}}, with the only difference being {{how the values are actually computed}}. <!--SR:!2024-11-04,56,333!2024-10-18,38,313-->

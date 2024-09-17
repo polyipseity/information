@@ -159,3 +159,67 @@ tags:
 > 3. both of them
 >
 > - solution: {{3}} <!--SR:!2024-09-20,4,270-->
+
+## week 2 review
+
+> Q1. Among all the eight fundamental accounting concepts, which one of the following is the most critical to accounting profession?
+>
+> 1. going concern
+> 2. faithful representation of underlying transaction
+> 3. separate entity
+>
+> - solution: {{2}}
+> - explanation: {{1 is important, but not satisfying it only changes the accounting basis. 3 is also important, but not satisfying it only makes it impossible to make financial statements. 2 is the most important one, as not satisfying it means financial statements can be deceptive.}}
+
+<!-- markdownlint MD028 -->
+
+> Q2. On a balance sheet, assets are presented according to certain order, which is...
+>
+> 1. date of transaction settled
+> 2. liquidity preference
+> 3. alphabetical order of asset captions
+>
+> - solution: {{2}}
+> - explanation: {{The standards require it. Note that GAAP generally requires decreasing liquidity, while IFRS requires increasing liquidity.}}
+
+<!-- markdownlint MD028 -->
+
+> Q3. On a balance sheet, liabilities are presented according to certain order, which is...
+>
+> 1. date liabilities were arisen
+> 2. alphabetical order of liability account captions
+> 3. maturity preference
+>
+> - solution: {{3}}
+> - explanation: {{The standards require it. Maturity is a measure of how soon the liability is due, analogous to how mature crops are then harvested.}}
+
+<!-- markdownlint MD028 -->
+
+> Q4. Concerning basic accounting equation, which one of the following is incorrect...
+>
+> 1. Asset = Liabilities + Stockholders' Equity
+> 2. Asset + Liabilities = Stockholders' Equity
+> 3. Asset - Liabilities = Stockholders' Equity
+>
+> - solution: {{2}}
+
+<!-- markdownlint MD028 -->
+
+> Q5. Which is the correct sequential order of steps involved in an accounting cycle?
+>
+> 1. transaction analysis → posting to the ledger → add journal entries
+> 2. transaction analysis → posting to the ledger → adjusting the accounts
+> 3. transaction analysis → add journal entries → posting to the ledger
+>
+> - solution: {{3}}
+> - explanation: {{Note that for 2, adjusting the accounts is only done at the end of a reporting period, but an accounting cycle is simply recording the transactions after a much shorter period.}}
+
+<!-- markdownlint MD028 -->
+
+> Q6. Current ratio expresses itself in the following manner, which one is correct...
+>
+> 1. Sales / Current Assets
+> 2. Current Assets / Current Liabilities
+> 3. Net Income / Current Assets
+>
+> - solution: {{2}}
