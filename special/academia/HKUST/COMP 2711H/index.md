@@ -109,5 +109,5 @@ The content is in teaching order.
   - [§ well-ordering principle](../../../../general/well-ordering%20principle.md#well-ordering%20principle)
 - [proof by infinite descent](../../../../general/proof%20by%20infinite%20descent.md) ::: There are no infinite strictly decreasing sequences of natural numbers. Proofs using this are generally by contradiction, and involve constructing an infinite descent of natural numbers, which contradicts this. Another way is assuming a minimal solution to a problem exists, but then prove that it would lead to a smaller solution. This, induction (from Peano axioms), and well-ordering principle are equivalent to each other.
   - [§ proof by infinite descent](../../../../general/proof%20by%20infinite%20descent.md#proof%20by%20infinite%20descent)
-- [questions § 2024-09-04](questions/questions.md#2024-09-04)
-- [questions § week 1](questions/questions.md#week%201) (to be done out-of-class, but is not homework)
+- [questions/2024-09-04](questions/2024-09-04.md)
+- [week 1 problem set](questions/week%201%20problem%20set.md)
