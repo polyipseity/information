@@ -84,5 +84,5 @@ return await memorize_table(
 
 ## return value
 
-- 1) {{If successful, a pointer to the new file stream. On error, `NULL`.}}
-- 2) {{If successful, `0` and writes a pointer to the new file stream into `*streamptr`. On error, non-zero error code and writes `NULL` into `*streamptr` unless `streamptr` is `NULL`.}}
+- (1) :: If successful, a pointer to the new file stream. On error, `NULL`.
+- (2) :: If successful, `0` and writes a pointer to the new file stream into `*streamptr`. On error, non-zero error code and writes `NULL` into `*streamptr` unless `streamptr` is `NULL`.

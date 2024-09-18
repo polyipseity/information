@@ -52,5 +52,5 @@ See [`scanf` § placeholder](../../../general/scanf.md#placeholder).
 
 ## return value
 
-- 1-3) {{Number of arguments assigned, or [`EOF`](../file%20input_output.md) if input failure occurs before assigning the first argument.}}
-- 4-6) {{Same as (1-3), returning [`EOF`](../file%20input_output.md) also on runtime constraint violation.}}
+- (1-3) :: Number of arguments assigned, or [`EOF`](../file%20input_output.md) if input failure occurs before assigning the first argument.
+- (4-6) :: Same as (1-3), returning [`EOF`](../file%20input_output.md) also on runtime constraint violation.

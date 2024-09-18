@@ -169,7 +169,7 @@ tags:
 > 3. separate entity
 >
 > - solution: {{2}}
-> - explanation: {{1 is important, but not satisfying it only changes the accounting basis. 3 is also important, but not satisfying it only makes it impossible to make financial statements. 2 is the most important one, as not satisfying it means financial statements can be deceptive.}}
+> - explanation: {{1 is important, but not satisfying it only changes the accounting basis. 3 is also important, but not satisfying it only makes the financial statement improper. 2 is the most important one, as not satisfying it means financial statements can be deceptive, misleading others in their decision making.}}
 
 <!-- markdownlint MD028 -->
 
