@@ -9,7 +9,7 @@ aliases:
   - HKUST COMP2711H question
   - HKUST COMP2711H questions
 tags:
-  - flashcard/active/special/academia/HKUST/COMP_2711H/questions
+  - flashcard/active/special/academia/HKUST/COMP_2711H/questions/questions
   - language/in/English
 ---
 
