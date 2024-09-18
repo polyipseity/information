@@ -18,7 +18,7 @@ tags:
 
 ## the rules
 
-In the following, $f(t)$ is {{a [rational expression](rational%20function.md) in $\sin t$ and $\cos t$}}. To calculate $\int \! f(t) \,\mathrm{d}t$, consider $\omega(t)$, defined as {{the integrand $\omega(t) = f(t) \,\mathrm{d}t$}}. <!--SR:!2025-02-06,160,310!2024-09-18,59,310-->
+In the following, $f(t)$ is {{a [rational expression](rational%20function.md) in $\sin t$ and $\cos t$}}. To calculate $\int \! f(t) \,\mathrm{d}t$, consider $\omega(t)$, defined as {{the integrand $\omega(t) = f(t) \,\mathrm{d}t$}}. <!--SR:!2025-02-06,160,310!2025-06-01,256,330-->
 
 ```Python
 # pytextgen generate data

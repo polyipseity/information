@@ -137,7 +137,7 @@ return _chain.from_iterable(await _gather(
 - [strontium](strontium.md)→:::←[calcium](calcium.md) <!--SR:!2025-01-09,360,230!2024-10-15,347,270-->
 - [calcium](calcium.md)→:::←[magnesium](magnesium.md) <!--SR:!2025-01-25,377,270!2024-10-25,87,230-->
 - [magnesium](magnesium.md)→:::←[beryllium](beryllium.md) <!--SR:!2024-11-19,263,290!2027-04-07,988,290-->
-- [beryllium](beryllium.md)→:::←[aluminium](aluminium.md) <!--SR:!2025-05-07,293,230!2024-09-18,16,150-->
+- [beryllium](beryllium.md)→:::←[aluminium](aluminium.md) <!--SR:!2025-05-07,293,230!2024-09-26,8,130-->
 - [aluminium](aluminium.md)→:::←[titanium](titanium.md) <!--SR:!2025-01-02,117,210!2024-10-14,117,230-->
 - [titanium](titanium.md)→:::←[manganese](manganese.md) <!--SR:!2024-12-07,372,250!2024-11-21,145,250-->
 - [manganese](manganese.md)→:::←[zinc](zinc.md) <!--SR:!2024-10-03,19,130!2025-04-10,266,210-->
@@ -290,7 +290,7 @@ return _chain.from_iterable(await _gather(
 - [barium](barium.md)::[electrolysis](electrolysis.md) <!--SR:!2027-02-27,1025,330-->
 - [strontium](strontium.md)::[electrolysis](electrolysis.md) <!--SR:!2024-09-29,153,310-->
 - [calcium](calcium.md)::[electrolysis](electrolysis.md) <!--SR:!2026-10-03,916,330-->
-- [magnesium](magnesium.md)::[electrolysis](electrolysis.md) <!--SR:!2024-09-18,130,250-->
+- [magnesium](magnesium.md)::[electrolysis](electrolysis.md) <!--SR:!2025-08-08,324,250-->
 - [beryllium](beryllium.md)::[electrolysis](electrolysis.md) <!--SR:!2025-09-02,411,310-->
 - [aluminium](aluminium.md)::[electrolysis](electrolysis.md) <!--SR:!2024-10-07,250,230-->
 - [titanium](titanium.md)::[pyrometallurgical](pyrometallurgy.md) extraction using [magnesium](magnesium.md) <!--SR:!2024-09-24,38,150-->

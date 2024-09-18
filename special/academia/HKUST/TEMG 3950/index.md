@@ -187,7 +187,7 @@ The content is in teaching order.
     - [§ usage](../../../../general/Porter's%20five%20forces%20analysis.md#usage)
 - Chernev's 5C framework ::: market & business analysis <!--SR:!2024-09-28,92,361!2025-04-27,234,341-->
   - [situation analysis § 5C analysis](../../../../general/situation%20analysis.md#5C%20analysis)
-  - 5C analysis & ancient Chinese philosophy ::: 天時·地利·人和 <!--SR:!2024-09-19,85,361!2024-09-18,84,361-->
+  - 5C analysis & ancient Chinese philosophy ::: 天時·地利·人和 <!--SR:!2024-09-19,85,361!2025-07-17,302,361-->
   - Chernev's 5C framework § competitor ::: The competitor aspect can use [competitor analysis](../../../../general/competitor%20analysis.md). <!--SR:!2024-09-23,88,361!2024-10-04,98,361-->
   - Chernev's 5C framework § context ::: The context aspect can use Anguilar's PESTLE framework. <!--SR:!2024-09-27,92,361!2024-09-23,88,361-->
 - McCarthy's 4P framework ::: market-related analysis <!--SR:!2024-09-29,93,361!2024-09-28,93,361-->

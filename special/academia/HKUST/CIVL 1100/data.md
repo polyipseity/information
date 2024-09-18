@@ -96,7 +96,7 @@ See [CITIC Plaza](../../../../general/CITIC%20Plaza.md).
 - description ::: super tall skyscraper in Guangzhou, Guangdong, China <!--SR:!2025-02-22,203,292!2025-11-09,454,387-->
 - height ::: architectural: 390.2 m, top floor: 296.9 m <!--SR:!2024-11-15,78,181!2025-02-27,231,352-->
 - image ::: ![China International Trust and Investment Plaza image](../../../../archives/Wikimedia%20Commons/CITIC%20Plaza%202017.jpg) <!--SR:!2025-05-22,283,360!2026-03-05,542,400-->
-- [structural system](../../../../general/structural%20system.md) ::: reinforced concrete<!-- flashcard ebde3927-b7ca-4808-9e3c-bf6078be3654 --> <!--SR:!2024-09-18,41,340!2025-12-04,469,400-->
+- [structural system](../../../../general/structural%20system.md) ::: reinforced concrete<!-- flashcard ebde3927-b7ca-4808-9e3c-bf6078be3654 --> <!--SR:!2025-02-05,140,340!2025-12-04,469,400-->
 
 ## Colosseum
 
@@ -245,7 +245,7 @@ See [Delta Works](../../../../general/Delat%20Works.md) and [Zuiderzee Works](..
 
 See [Panama Canal](../../../../general/Panama%20Canal.md).
 
-- image ::: ![Panama Canal image](../../../../archives/Wikimedia%20Commons/Panama%20canal%20panoramic%20view%20from%20the%20top%20of%20Ancon%20hill.jpg) <!--SR:!2024-09-18,93,376!2024-12-08,165,396-->
+- image ::: ![Panama Canal image](../../../../archives/Wikimedia%20Commons/Panama%20canal%20panoramic%20view%20from%20the%20top%20of%20Ancon%20hill.jpg) <!--SR:!2025-09-02,349,376!2024-12-08,165,396-->
 
 ## Parthenon
 
@@ -280,7 +280,7 @@ See [Sutong Yangtze River Bridge](../../../../general/Sutong%20Yangtze%20River%2
 See [Taipei 101](Taipei%20101.md).
 
 - description ::: skyscraper in Taipei, Taiwan <!--SR:!2025-03-31,295,350!2026-02-21,535,400-->
-- height ::: architectural: 508.2 m, tip: 509.2 m, top floor: 438 m <!--SR:!2024-09-18,11,130!2024-11-19,179,330-->
+- height ::: architectural: 508.2 m, tip: 509.2 m, top floor: 438 m <!--SR:!2024-10-02,14,130!2024-11-19,179,330-->
 - image ::: ![Taipei 101 image](../../../../archives/Wikimedia%20Commons/Tower%20of%20Taipei%20101(cropped).jpg) <!--SR:!2025-02-07,201,360!2025-07-04,321,380-->
 - [structural system](../../../../general/structural%20system.md) ::: concrete–steel composite<!-- flashcard 16556e6f-00ca-4a87-845c-f0ea2f56807a --> <!--SR:!2024-10-25,45,300!2025-08-01,343,380-->
 

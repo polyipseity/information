@@ -23,7 +23,7 @@ When $f$ is {{$f: \mathbb{R} \to \mathbb{R}_{\ne 0}$, then the logarithmic deriv
 - [power rule](power%20rule.md) ::: $$\frac {(u^k)'} {u^k} = k \frac {u'} u \qquad u > 0, k = \mathrm{const} $$ <!--SR:!2026-06-27,660,330!2024-12-28,256,330-->
 - [product rule](product%20rule.md) ::: $$\frac {(\prod _{i = 1} ^n x_i)'} {\prod _{i = 1} ^n x_i} = \sum _{i = 1} ^n \frac {x_i'} {x_i}$$ <!--SR:!2024-12-19,248,330!2024-10-25,205,330-->
 - [quotient rule](quotient%20rule.md) ::: $$\frac {(u / v)'} {u / v} = \frac {u'} u - \frac {v'} v$$ <!--SR:!2024-12-10,224,310!2025-01-09,265,330-->
-- [reciprocal rule](reciprocal%20rule.md) ::: $$\frac {(1 / f)'} {1 / f} = -\frac {f'} f$$ <!--SR:!2024-09-18,163,310!2024-10-16,184,310-->
+- [reciprocal rule](reciprocal%20rule.md) ::: $$\frac {(1 / f)'} {1 / f} = -\frac {f'} f$$ <!--SR:!2026-08-17,698,330!2024-10-16,184,310-->
 
 > [!example] examples
 >

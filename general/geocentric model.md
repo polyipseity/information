@@ -23,7 +23,7 @@ In {{the 4th century BC}}, two influential Greek philosophers, {{[Plato](Plato.m
 
 ## Ptolemaic model
 
-Although {{the basic tenets of Greek geocentrism were established by the time of Aristotle}}, {{the details of his system did not become standard}}. The {{Ptolemaic system}}, developed by {{the [Hellenistic](Hellenization.md) astronomer [Claudius Ptolemy](Ptolemy.md) in the 2nd century AD (~100 AD)}}, finally {{standardized geocentrism}}. <!--SR:!2024-12-07,109,290!2024-09-18,64,310!2025-01-29,151,310!2024-09-27,50,230!2025-06-03,261,330-->
+Although {{the basic tenets of Greek geocentrism were established by the time of Aristotle}}, {{the details of his system did not become standard}}. The {{Ptolemaic system}}, developed by {{the [Hellenistic](Hellenization.md) astronomer [Claudius Ptolemy](Ptolemy.md) in the 2nd century AD (~100 AD)}}, finally {{standardized geocentrism}}. <!--SR:!2024-12-07,109,290!2025-04-01,195,310!2025-01-29,151,310!2024-09-27,50,230!2025-06-03,261,330-->
 
 ### Ptolemaic system
 
