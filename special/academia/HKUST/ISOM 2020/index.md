@@ -135,7 +135,6 @@ The content is in teaching order.
   - [§ Python list](list.md#Python%20list)
   - [§ syntax](list.md#syntax)
   - [§ indexing](list.md#indexing)
-    - [list § indexing](list.md#indexing) / note ::: We have not learnt slicing so far, so do not use it.
   - [§ manipulation](list.md#manipulation)
   - [§ length](list.md#length)
   - [§ aggregate functions](list.md#aggregate%20functions)
