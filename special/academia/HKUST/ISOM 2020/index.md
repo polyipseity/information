@@ -44,7 +44,7 @@ The content is in teaching order.
   - [§ string](basics.md#string)
     - [basics § string](basics.md#string) / note ::: They taught `'''` but not `"""` for some reason... But it was later taught in the [week 2 lab](#week%202%20lab) (lab 1). <!--SR:!2024-09-20,13,292!2024-10-24,37,290-->
   - [§ output](basics.md#output)
-    - [basics § output](basics.md#output) / note ::: Jupyter notebooks automatically outputting the value of the last statement without using `print` is also considered "output". Note that strings are outputted, escaped with `\` properly (without unnecessary escapes), and preferably wrapped in `'`, and only uses `"` if there is at least 1 `'` in the string but not any `"`.
+    - [basics § output](basics.md#output) / note ::: Jupyter notebooks automatically outputting the value of the last statement without using `print` is also considered "output". Note that strings are outputted, escaped with `\` properly (without unnecessary escapes), and preferably wrapped in `'`, and only uses `"` if there is at least 1 `'` in the string but not any `"`. <!--SR:!2024-09-21,4,303!2024-09-21,4,303-->
   - [§ variable](basics.md#variable)
     - [basics § variable](basics.md#variable) / note ::: In a quiz question, they use the word "save", which means storing a value to a variable. <!--SR:!2024-09-21,14,292!2024-09-20,13,292-->
   - [§ data types](basics.md#data%20types)
@@ -75,7 +75,7 @@ The content is in teaching order.
   - [§ Python list](list.md#Python%20list)
   - [§ syntax](list.md#syntax)
   - [§ indexing](list.md#indexing)
-    - [list § indexing](list.md#indexing) / note ::: We have not learnt slicing so far, so do not use it. <!--SR:!2024-10-02,18,309!2024-10-01,17,309-->
+    - [list § indexing](list.md#indexing) / note ::: We have not learnt slicing so far, so do not use it. <!--SR:!2024-09-22,4,304!2024-09-22,4,304-->
   - [§ manipulation](list.md#manipulation)
   - [§ length](list.md#length)
   - [§ aggregate functions](list.md#aggregate%20functions)

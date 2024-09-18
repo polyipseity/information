@@ -169,7 +169,7 @@ tags:
 > 3. separate entity
 >
 > - solution: {{2}}
-> - explanation: {{1 is important, but not satisfying it only changes the accounting basis. 3 is also important, but not satisfying it only makes it impossible to make financial statements. 2 is the most important one, as not satisfying it means financial statements can be deceptive.}}
+> - explanation: {{1 is important, but not satisfying it only changes the accounting basis. 3 is also important, but not satisfying it only makes it impossible to make financial statements. 2 is the most important one, as not satisfying it means financial statements can be deceptive.}} <!--SR:!2024-09-21,4,282!2024-09-21,4,282-->
 
 <!-- markdownlint MD028 -->
 
@@ -180,7 +180,7 @@ tags:
 > 3. alphabetical order of asset captions
 >
 > - solution: {{2}}
-> - explanation: {{The standards require it. Note that GAAP generally requires decreasing liquidity, while IFRS requires increasing liquidity.}}
+> - explanation: {{The standards require it. Note that GAAP generally requires decreasing liquidity, while IFRS requires increasing liquidity.}} <!--SR:!2024-09-21,4,282!2024-09-21,4,282-->
 
 <!-- markdownlint MD028 -->
 
@@ -191,7 +191,7 @@ tags:
 > 3. maturity preference
 >
 > - solution: {{3}}
-> - explanation: {{The standards require it. Maturity is a measure of how soon the liability is due, analogous to how mature crops are then harvested.}}
+> - explanation: {{The standards require it. Maturity is a measure of how soon the liability is due, analogous to how mature crops are then harvested.}} <!--SR:!2024-09-21,4,282!2024-09-21,4,282-->
 
 <!-- markdownlint MD028 -->
 
@@ -201,7 +201,7 @@ tags:
 > 2. Asset + Liabilities = Stockholders' Equity
 > 3. Asset - Liabilities = Stockholders' Equity
 >
-> - solution: {{2}}
+> - solution: {{2}} <!--SR:!2024-09-21,4,282-->
 
 <!-- markdownlint MD028 -->
 
@@ -212,7 +212,7 @@ tags:
 > 3. transaction analysis → add journal entries → posting to the ledger
 >
 > - solution: {{3}}
-> - explanation: {{Note that for 2, adjusting the accounts is only done at the end of a reporting period, but an accounting cycle is simply recording the transactions after a much shorter period.}}
+> - explanation: {{Note that for 2, adjusting the accounts is only done at the end of a reporting period, but an accounting cycle is simply recording the transactions after a much shorter period.}} <!--SR:!2024-09-21,4,282!2024-09-20,3,262-->
 
 <!-- markdownlint MD028 -->
 
@@ -222,4 +222,4 @@ tags:
 > 2. Current Assets / Current Liabilities
 > 3. Net Income / Current Assets
 >
-> - solution: {{2}}
+> - solution: {{2}} <!--SR:!2024-09-21,4,282-->
