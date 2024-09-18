@@ -1,19 +1,19 @@
 ---
 aliases:
-  - COMP 2711H problem
-  - COMP 2711H problems
-  - COMP2711H problem
-  - COMP2711H problems
-  - HKUST COMP 2711H problem
-  - HKUST COMP 2711H problems
-  - HKUST COMP2711H problem
-  - HKUST COMP2711H problems
+  - COMP 2711H question
+  - COMP 2711H questions
+  - COMP2711H question
+  - COMP2711H questions
+  - HKUST COMP 2711H question
+  - HKUST COMP 2711H questions
+  - HKUST COMP2711H question
+  - HKUST COMP2711H questions
 tags:
-  - flashcard/active/special/academia/HKUST/COMP_2711H/problems
+  - flashcard/active/special/academia/HKUST/COMP_2711H/questions
   - language/in/English
 ---
 
-# problems
+# questions
 
 - HKUST COMP 2711H
 
