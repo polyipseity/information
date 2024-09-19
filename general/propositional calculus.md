@@ -27,7 +27,7 @@ Propositional logic is typically studied with {{a [formal language](formal%20lan
 > - [NOT](negation.md) ::: $\neg A$, $-A$, ${\overline {A} }$, $\sim A$ <!--SR:!2024-09-27,13,290!2024-09-27,13,290-->
 > - [OR](logical%20disjunction.md) ::: $A\lor B$, $A+B$, $A\mid B$, $A\parallel B$ <!--SR:!2024-09-27,13,290!2024-10-01,17,290-->
 > - [XNOR](XNOR%20gate.md) ::: $A\odot B$ <!--SR:!2024-09-22,10,250!2024-09-20,6,250-->
-> - [XOR](exclusive%20or.md) ::: $A{\underline {\lor } }B$, $A\oplus B$ <!--SR:!2024-09-19,7,250!2024-09-19,7,250-->
+> - [XOR](exclusive%20or.md) ::: $A{\underline {\lor } }B$, $A\oplus B$ <!--SR:!2024-10-17,28,270!2024-10-13,24,270-->
 
 The most thoroughly researched branch of propositional logic is {{__classical truth-functional propositional logic__, in which formulas are interpreted as having precisely one of two possible [truth values](truth%20value.md), the truth value of _true_ or the truth value of _false_}}. {{The [principle of bivalence](principle%20of%20bivalence.md) and the [law of excluded middle](law%20of%20excluded%20middle.md)}} are upheld. By comparison with [first-order logic](first-order%20logic.md), {{truth-functional propositional logic is considered to be _zeroth-order logic_}}. <!--SR:!2024-09-23,9,270!2024-09-29,15,290!2024-09-24,10,270-->
 

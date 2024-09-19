@@ -61,7 +61,7 @@ return await memorize_seq(
 
 - _(begin)_→:::←air pollution <!--SR:!2025-01-11,166,310!2025-03-07,222,330-->
 - air pollution→:::←land contamination <!--SR:!2024-09-23,82,270!2025-04-15,255,330-->
-- land contamination→:::←noise pollution <!--SR:!2024-09-19,53,270!2025-05-16,255,290-->
+- land contamination→:::←noise pollution <!--SR:!2025-02-07,141,270!2025-05-16,255,290-->
 - noise pollution→:::←solid waste disposal <!--SR:!2025-04-13,209,270!2024-11-18,126,290-->
 - solid waste disposal→:::←water pollution <!--SR:!2024-12-15,140,290!2024-10-05,35,190-->
 - water pollution→:::←_(end)_ <!--SR:!2024-12-20,145,310!2025-01-11,174,310-->

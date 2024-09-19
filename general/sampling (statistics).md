@@ -10,7 +10,7 @@ tags:
 
 # sampling
 
-In [statistics](statistics.md), [quality assurance](quality%20assurance.md), and [survey methodology](survey%20methodology.md), __sampling__ is {{the selection of a subset or a __statistical sample__ (termed __sample__ for short) of individuals from within a [statistical population](statistical%20population.md) to estimate characteristics of the whole population}}. The subset is {{meant to reflect the whole population and statisticians attempt to collect samples that are representative of the population}}. Sampling has {{lower costs and faster data collection compared to recording data from the entire population}}, and thus, it can {{provide insights in cases where it is infeasible to measure an entire population}}. <!--SR:!2024-11-10,54,310!2024-09-19,15,290!2024-09-29,18,250!2024-11-14,57,310-->
+In [statistics](statistics.md), [quality assurance](quality%20assurance.md), and [survey methodology](survey%20methodology.md), __sampling__ is {{the selection of a subset or a __statistical sample__ (termed __sample__ for short) of individuals from within a [statistical population](statistical%20population.md) to estimate characteristics of the whole population}}. The subset is {{meant to reflect the whole population and statisticians attempt to collect samples that are representative of the population}}. Sampling has {{lower costs and faster data collection compared to recording data from the entire population}}, and thus, it can {{provide insights in cases where it is infeasible to measure an entire population}}. <!--SR:!2024-11-10,54,310!2024-11-19,61,310!2024-09-29,18,250!2024-11-14,57,310-->
 
 Each [observation](observation.md) measures {{one or more properties (such as weight, location, colour or mass) of independent objects or individuals}}. In [survey sampling](survey%20sampling.md), {{weights can be applied to the data to adjust for the sample design, particularly in [stratified sampling](stratified%20sampling.md)}}. Results from {{[probability theory](probability%20theory.md) and [statistical theory](statistical%20theory.md) are employed to guide the practice}}. In business and medical research, sampling is widely used {{for gathering information about a population}}. [Acceptance sampling](acceptance%20sampling.md) is {{used to determine if a production lot of material meets the governing [specifications](specification%20(technical%20standard).md)}}. <!--SR:!2024-10-16,32,270!2024-09-21,17,290!2024-09-21,17,290!2024-11-17,60,310!2024-09-21,17,290-->
 
@@ -18,11 +18,11 @@ Each [observation](observation.md) measures {{one or more properties (such as we
 
 - see: [sampling frame](sampling%20frame.md)
 
-In {{the most straightforward case, such as the sampling of a batch of material from production (acceptance sampling by lots)}}, it would be {{most desirable to identify and measure every single item in the population and to include any one of them in our sample}}. However, in {{the more general case this is not usually possible or practical}}. There is {{no way to identify all rats}} in the set of all rats. Where voting is not compulsory, {{there is no way to identify which people will vote at a forthcoming election (in advance of the election)}}. These imprecise populations are {{not amenable to sampling in any of the ways below and to which we could apply statistical theory}}. <!--SR:!2024-09-19,15,290!2024-11-09,53,310!2024-11-15,58,310!2024-09-19,15,290!2024-11-10,53,310!2024-09-20,16,290-->
+In {{the most straightforward case, such as the sampling of a batch of material from production (acceptance sampling by lots)}}, it would be {{most desirable to identify and measure every single item in the population and to include any one of them in our sample}}. However, in {{the more general case this is not usually possible or practical}}. There is {{no way to identify all rats}} in the set of all rats. Where voting is not compulsory, {{there is no way to identify which people will vote at a forthcoming election (in advance of the election)}}. These imprecise populations are {{not amenable to sampling in any of the ways below and to which we could apply statistical theory}}. <!--SR:!2024-11-19,61,310!2024-11-09,53,310!2024-11-15,58,310!2024-11-16,58,310!2024-11-10,53,310!2024-09-20,16,290-->
 
 As a remedy, {{we seek a [sampling frame](sampling%20frame.md) which has the property that we can identify every single element and include any in our sample}}. The most straightforward type of frame is {{a list of elements of the population (preferably the entire population) with appropriate contact information}}. For example, in an [opinion poll](opinion%20poll.md), possible sampling frames include {{an [electoral register](electoral%20roll.md) and a [telephone directory](telephone%20directory.md)}}. <!--SR:!2024-10-05,23,270!2024-11-11,55,310!2024-10-24,40,290-->
 
-A __probability sample__ is {{a sample in which every unit in the population has a chance (greater than zero) of being selected in the sample, and this probability can be accurately determined}}. The combination of these traits makes it possible to {{produce unbiased estimates of population totals, by weighting sampled units according to their probability of selection}}. <!--SR:!2024-11-11,54,310!2024-09-19,15,290-->
+A __probability sample__ is {{a sample in which every unit in the population has a chance (greater than zero) of being selected in the sample, and this probability can be accurately determined}}. The combination of these traits makes it possible to {{produce unbiased estimates of population totals, by weighting sampled units according to their probability of selection}}. <!--SR:!2024-11-11,54,310!2024-10-30,41,290-->
 
 > [!example] example
 >
@@ -41,7 +41,7 @@ Probability sampling includes: {{[simple random sampling](simple%20random%20samp
 
 - see: [nonprobability sampling](nonprobability%20sampling.md)
 
-__Nonprobability sampling__ is {{any sampling method where some elements of the population have _no_ chance of selection (these are sometimes referred to as 'out of coverage'/'undercovered')}}, or {{where the probability of selection cannot be accurately determined}}. It involves {{the selection of elements based on assumptions regarding the population of interest, which forms the criteria for selection}}. Hence, because {{the selection of elements is nonrandom}}, nonprobability sampling {{does not allow the estimation of sampling errors}}. These conditions give rise to {{[exclusion bias](selection%20bias.md), placing limits on how much information a sample can provide about the population}}. Information about {{the relationship between sample and population is limited}}, making it difficult to {{extrapolate from the sample to the population}}. <!--SR:!2024-09-20,16,290!2024-09-21,17,290!2024-09-19,15,290!2024-11-11,55,310!2024-10-28,41,290!2024-10-03,19,270!2024-09-19,15,290!2024-09-19,15,290-->
+__Nonprobability sampling__ is {{any sampling method where some elements of the population have _no_ chance of selection (these are sometimes referred to as 'out of coverage'/'undercovered')}}, or {{where the probability of selection cannot be accurately determined}}. It involves {{the selection of elements based on assumptions regarding the population of interest, which forms the criteria for selection}}. Hence, because {{the selection of elements is nonrandom}}, nonprobability sampling {{does not allow the estimation of sampling errors}}. These conditions give rise to {{[exclusion bias](selection%20bias.md), placing limits on how much information a sample can provide about the population}}. Information about {{the relationship between sample and population is limited}}, making it difficult to {{extrapolate from the sample to the population}}. <!--SR:!2024-09-20,16,290!2024-09-21,17,290!2024-11-18,60,310!2024-11-11,55,310!2024-10-28,41,290!2024-10-03,19,270!2024-11-20,62,310!2024-11-14,56,310-->
 
 > [!example] example
 >
@@ -53,7 +53,7 @@ Nonprobability sampling methods include {{[convenience sampling](convenience%20s
 
 - see: [sampling error](sampling%20error.md)
 
-Survey results are {{typically subject to some error}}. Total errors can be classified into {{sampling errors and non-sampling errors}}. The term "error" here includes {{systematic biases as well as random errors}}. <!--SR:!2024-11-15,58,310!2024-10-23,36,290!2024-09-19,15,290-->
+Survey results are {{typically subject to some error}}. Total errors can be classified into {{sampling errors and non-sampling errors}}. The term "error" here includes {{systematic biases as well as random errors}}. <!--SR:!2024-11-15,58,310!2024-10-23,36,290!2024-11-22,64,310-->
 
 ### sampling errors and biases
 
@@ -69,17 +69,17 @@ Sampling errors and biases are {{induced by the sample design}}. They include {{
 Non-sampling errors are other errors which can impact final survey estimates, caused by problems in data collection, processing, or sample design. Such errors may include {{over-coverage, under-coverage, measurement error, processing error, participation bias, etc.}}: <!--SR:!2024-10-13,28,270-->
 
 - over-coverage ::: inclusion of data from outside of the population <!--SR:!2024-09-21,17,290!2024-09-21,17,290-->
-- under-coverage ::: sampling frame does not include elements in the population <!--SR:!2024-09-19,15,290!2024-09-19,15,290-->
+- under-coverage ::: sampling frame does not include elements in the population <!--SR:!2024-11-05,47,290!2024-11-20,62,310-->
 - measurement error ::: e.g. when respondents misunderstand a question, or find it difficult to answer <!--SR:!2024-09-21,17,290!2024-09-21,17,290-->
-- processing error ::: mistakes in data coding <!--SR:!2024-09-20,16,290!2024-09-19,15,290-->
-- [non-response or participation bias](participation%20bias.md) ::: failure to obtain complete data from all selected individuals <!--SR:!2024-11-04,48,310!2024-09-19,15,290-->
+- processing error ::: mistakes in data coding <!--SR:!2024-09-20,16,290!2024-11-21,63,310-->
+- [non-response or participation bias](participation%20bias.md) ::: failure to obtain complete data from all selected individuals <!--SR:!2024-11-04,48,310!2024-11-17,59,310-->
 
 After sampling, {{a review is held of the exact process followed in sampling, rather than that intended}}, in order to {{study any effects that any divergences might have on subsequent analysis}}. <!--SR:!2024-09-20,16,290!2024-09-20,16,290-->
 
 A particular problem involves {{_non-response_}}. Two major types of non-response exist: {{unit non-response and item non-response}}. <!--SR:!2024-09-21,17,290!2024-09-20,16,290-->
 
 - unit non-response ::: lack of completion of any part of the survey <!--SR:!2024-11-13,56,310!2024-09-21,17,290-->
-- item non-response ::: submission or participation in survey but failing to complete one or more components/questions of the survey <!--SR:!2024-10-27,40,290!2024-09-19,15,290-->
+- item non-response ::: submission or participation in survey but failing to complete one or more components/questions of the survey <!--SR:!2024-10-27,40,290!2024-11-21,63,310-->
 
 In [survey sampling](survey%20sampling.md), many of the individuals identified as part of the sample {{may be unwilling to participate, not have the time to participate ([opportunity cost](opportunity%20cost.md)), or survey administrators may not have been able to contact them}}. In this case, there is {{a risk of differences between respondents and nonrespondents, leading to biased estimates of population parameters}}. This is often addressed by {{improving survey design, offering incentives, and conducting follow-up studies which make a repeated attempt to contact the unresponsive and to characterize their similarities and differences with the rest of the frame}}. The effects can also be mitigated by {{weighting the data (when population benchmarks are available) or by imputing data based on answers to other questions}}. Non-response is {{particularly a problem in internet sampling}}. Reasons for this problem may include {{improperly designed surveys, over-surveying (or survey fatigue), and the fact that potential participants may have multiple e-mail addresses, which they do not use anymore or do not check regularly}}. <!--SR:!2024-09-21,17,290!2024-10-18,33,270!2024-10-10,26,270!2024-09-20,16,290!2024-11-09,52,310!2024-09-20,16,290-->
 

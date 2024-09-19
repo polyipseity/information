@@ -13,7 +13,7 @@ tags:
 
 Red ocean is about {{competing in existing market space and exploiting existing demand}}. {{Either differentiation or low cost}} can be satisfied. <!--SR:!2024-12-12,126,290!2024-12-20,130,290-->
 
-Blue ocean is about {{creating uncontested market space and capturing new demand}}. {{Both differentiation and low cost, i.e. value innovation}}, can be satisfied simultaneously. Value innovation can be represented by {{2 triangles pointing towards each other, with the 2 triangle tips overlapping in the middle}}. The upper triangle represents {{cost reduction while the lower triangle represents value creation}}, with the overlap {{representing satisfying both at the same time, hence value creation}}. <!--SR:!2025-02-07,173,310!2024-12-30,138,290!2024-09-24,79,324!2024-09-21,76,324!2024-09-19,74,324-->
+Blue ocean is about {{creating uncontested market space and capturing new demand}}. {{Both differentiation and low cost, i.e. value innovation}}, can be satisfied simultaneously. Value innovation can be represented by {{2 triangles pointing towards each other, with the 2 triangle tips overlapping in the middle}}. The upper triangle represents {{cost reduction while the lower triangle represents value creation}}, with the overlap {{representing satisfying both at the same time, hence value creation}}. <!--SR:!2025-02-07,173,310!2024-12-30,138,290!2024-09-24,79,324!2024-09-21,76,324!2025-08-15,330,344-->
 
 ## blue ocean shift
 
@@ -23,7 +23,7 @@ There are 3 steps to creating blue oceans: {{understand "as-is", imagine "to be"
 
 In the 1st step, understand "as-is", the goal is to {{understand where we are now}}. You should {{mobilize your team and understand your industry}}. <!--SR:!2024-09-25,80,324!2024-09-21,76,324-->
 
-To visualize the industry, one can make use of a {{capture strategy canvas}}. It is {{a line chart}} showing the {{feature qualities of various offerings of your industry}}. Ideally, after finishing all the 3 steps, you should also plot {{your own blue ocean offering}}, of which {{some of the features should be respectively eliminated, reduced, raise, or create}}. This will be mentioned in [§ create "gap"](#create%20"gap") again. <!--SR:!2024-10-21,86,284!2024-09-19,74,324!2025-02-21,172,304!2024-10-10,79,284!2025-05-07,232,324-->
+To visualize the industry, one can make use of a {{capture strategy canvas}}. It is {{a line chart}} showing the {{feature qualities of various offerings of your industry}}. Ideally, after finishing all the 3 steps, you should also plot {{your own blue ocean offering}}, of which {{some of the features should be respectively eliminated, reduced, raise, or create}}. This will be mentioned in [§ create "gap"](#create%20"gap") again. <!--SR:!2024-10-21,86,284!2025-05-19,242,324!2025-02-21,172,304!2024-10-10,79,284!2025-05-07,232,324-->
 
 ### imagine "to be"
 
@@ -35,7 +35,7 @@ To look for non-customers, we can {{separate the non-customers into 3 tiers: soo
 
 ### create "gap"
 
-In the 3rd step, create "gap", the goal is to {{create your new strategic move}}. You should use {{6 paths to reconstruct and create a new business model using ERRC}}. <!--SR:!2024-09-19,74,324!2025-05-14,238,324-->
+In the 3rd step, create "gap", the goal is to {{create your new strategic move}}. You should use {{6 paths to reconstruct and create a new business model using ERRC}}. <!--SR:!2025-08-18,333,344!2025-05-14,238,324-->
 
 The 6 paths to reconstruct market boundaries are {{considering alternative industries, considering strategic groups in the current industry, finding buyers across the value chain or redefining buyers, considering complementary offerings, functional-emotional reorientation, and participating in industry trends}}. <!--SR:!2024-12-23,98,244-->
 

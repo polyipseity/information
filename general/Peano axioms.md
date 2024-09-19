@@ -9,7 +9,7 @@ tags:
 
 # Peano axioms
 
-In [mathematical logic](mathematical%20logic.md), the __Peano axioms__ (/piˈɑːnoʊ/, \[peˈaːno\]), also known as {{the __Dedekind–Peano axioms__ or the __Peano postulates__}}, are {{[axioms](axiom.md) for the [natural numbers](natural%20number.md) presented by the 19th-century Italian mathematician [Giuseppe Peano](Giuseppe%20Peano.md)}}. These axioms have been used {{nearly unchanged in a number of [metamathematical](metamathematics.md) investigations, including research into fundamental questions of whether [number theory](number%20theory.md) is [consistent](consistency.md) and [complete](completeness%20(logic).md)}}. <!--SR:!2024-09-21,9,250!2024-09-20,8,265!2024-09-19,7,265-->
+In [mathematical logic](mathematical%20logic.md), the __Peano axioms__ (/piˈɑːnoʊ/, \[peˈaːno\]), also known as {{the __Dedekind–Peano axioms__ or the __Peano postulates__}}, are {{[axioms](axiom.md) for the [natural numbers](natural%20number.md) presented by the 19th-century Italian mathematician [Giuseppe Peano](Giuseppe%20Peano.md)}}. These axioms have been used {{nearly unchanged in a number of [metamathematical](metamathematics.md) investigations, including research into fundamental questions of whether [number theory](number%20theory.md) is [consistent](consistency.md) and [complete](completeness%20(logic).md)}}. <!--SR:!2024-09-21,9,250!2024-09-20,8,265!2024-10-16,27,285-->
 
 The [axiomatization](axiomatic%20system.md#axiomatization) of [arithmetic](arithmetic.md) provided by Peano axioms is commonly called {{__Peano arithmetic__}}. <!--SR:!2024-10-02,18,305-->
 
@@ -78,7 +78,7 @@ For example:
 
 $${\begin{aligned}a+1&=a+S(0)&{\text{by definition} }\\&=S(a+0)&{\text{using (2)} }\\&=S(a),&{\text{using (1)} }\\\\a+2&=a+S(1)&{\text{by definition} }\\&=S(a+1)&{\text{using (2)} }\\&=S(S(a))&{\text{using } }a+1=S(a)\\\\a+3&=a+S(2)&{\text{by definition} }\\&=S(a+2)&{\text{using (2)} }\\&=S(S(S(a)))&{\text{using } }a+2=S(S(a)) \\ {\text{etc.} }&\\\end{aligned} }$$
 
-To {{prove commutativity of addition}}, first {{prove $0+b=b$ and $S(a)+b=S(a+b)$, each by induction on $b$. Using both results, then prove $a+b=b+a$ by induction on $b$}}. The [structure](mathematical%20structure.md) (__N__, +) is {{a [commutative](commutative%20property.md) [monoid](monoid.md) with identity element 0. (__N__, +) is also a [cancellative](cancellation%20property.md) [magma](magma%20(algebra).md), and thus [embeddable](embedding.md) in a [group](group%20(mathematics).md)}}. The smallest group embedding __N__ is {{the [integers](integer.md)}}. <!--SR:!2024-09-23,9,285!2024-09-30,16,290!2024-09-19,7,250!2024-09-24,10,270-->
+To {{prove commutativity of addition}}, first {{prove $0+b=b$ and $S(a)+b=S(a+b)$, each by induction on $b$. Using both results, then prove $a+b=b+a$ by induction on $b$}}. The [structure](mathematical%20structure.md) (__N__, +) is {{a [commutative](commutative%20property.md) [monoid](monoid.md) with identity element 0. (__N__, +) is also a [cancellative](cancellation%20property.md) [magma](magma%20(algebra).md), and thus [embeddable](embedding.md) in a [group](group%20(mathematics).md)}}. The smallest group embedding __N__ is {{the [integers](integer.md)}}. <!--SR:!2024-09-23,9,285!2024-09-30,16,290!2024-10-06,17,250!2024-09-24,10,270-->
 
 > [!tip] tips
 >
@@ -97,7 +97,7 @@ To show that $S(0)$ is {{also the multiplicative left identity requires the indu
 
 Therefore, by {{the induction axiom $S(0)$ is the multiplicative left identity of all natural numbers}}. Moreover, it can be shown that {{multiplication is commutative and [distributes over](distributive%20property.md) addition: $$a\cdot (b+c)=(a\cdot b)+(a\cdot c)$$}}. <!--SR:!2024-10-02,18,305!2024-10-01,17,290-->
 
-Thus, {{$(\mathbb {N} ,+,0,\cdot ,S(0))$}} is {{a commutative [semiring](semiring.md)}}. <!--SR:!2024-09-22,10,265!2024-09-19,7,265-->
+Thus, {{$(\mathbb {N} ,+,0,\cdot ,S(0))$}} is {{a commutative [semiring](semiring.md)}}. <!--SR:!2024-09-22,10,265!2024-10-08,19,265-->
 
 > [!tip] tips
 >
@@ -125,7 +125,7 @@ For any [predicate](predicate%20(mathematical%20logic).md) _φ_, if
 This form of the induction axiom, called {{_strong induction_, is a consequence of the standard formulation}}, but is {{often better suited for reasoning about the ≤ order}}. For example, to {{show that the naturals are [well-ordered](well-order.md)—every [nonempty](empty%20set.md) [subset](subset.md) of __N__ has a [least element](greatest%20element%20and%20least%20element.md)}}—one can reason as follows. <!--SR:!2024-09-28,14,305!2024-09-26,12,285!2024-10-01,17,305-->
 
 - proving the naturals are well-ordered / base case ::: Let a nonempty _X_ ⊆ __N__ be given and assume _X_ has no least element. Because 0 is the least element of __N__, it must be that 0 ∉ _X_. <!--SR:!2024-09-23,11,285!2024-09-26,12,270-->
-- proving the naturals are well-ordered / induction ::: For any _n_ ∈ __N__, suppose for every _k_ ≤ _n_, _k_ ∉ _X_. Then _S_(_n_) ∉ _X_, for otherwise it would be the least element of _X_. <!--SR:!2024-09-19,7,265!2024-09-20,8,265-->
+- proving the naturals are well-ordered / induction ::: For any _n_ ∈ __N__, suppose for every _k_ ≤ _n_, _k_ ∉ _X_. Then _S_(_n_) ∉ _X_, for otherwise it would be the least element of _X_. <!--SR:!2024-10-17,28,285!2024-09-20,8,265-->
 
 Thus, by {{the strong induction principle, for every _n_ ∈ __N__, _n_ ∉ _X_. Thus, _X_ ∩ __N__ = ∅, which [contradicts](contradiction.md) _X_ being a nonempty subset of __N__}}. Thus {{_X_ has a least element}}. <!--SR:!2024-09-21,9,265!2024-09-24,12,285-->
 

@@ -21,7 +21,7 @@ The __CNO cycle__ (for {{[carbon](carbon.md)–[nitrogen](nitrogen.md)–[oxygen
 
 ## cold CNO cycles
 
-Under {{typical conditions found in stars}}, catalytic hydrogen burning by the CNO cycles is {{limited by [proton captures](proton%20capture.md)}}. Specifically, {{the timescale for [beta decay](beta%20decay.md) of the [radioactive nuclei](radionuclide.md) produced is faster than the timescale for fusion}}. Because of the long timescales involved, the cold CNO cycles {{convert hydrogen to helium slowly, allowing them to power stars in quiescent equilibrium for many years}}. <!--SR:!2024-10-21,64,310!2024-10-25,67,310!2024-09-19,34,270!2024-10-16,59,310-->
+Under {{typical conditions found in stars}}, catalytic hydrogen burning by the CNO cycles is {{limited by [proton captures](proton%20capture.md)}}. Specifically, {{the timescale for [beta decay](beta%20decay.md) of the [radioactive nuclei](radionuclide.md) produced is faster than the timescale for fusion}}. Because of the long timescales involved, the cold CNO cycles {{convert hydrogen to helium slowly, allowing them to power stars in quiescent equilibrium for many years}}. <!--SR:!2024-10-21,64,310!2024-10-25,67,310!2024-12-18,90,270!2024-10-16,59,310-->
 
 ### CNO-I
 

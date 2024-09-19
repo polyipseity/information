@@ -9,7 +9,7 @@ tags:
 
 # nebula
 
-A __nebula__ ([Latin](Latin.md) for {{'cloud, fog'}}; pl.: {{__nebulae__, __nebulæ__, or __nebulas__}}) is {{a distinct luminescent part of [interstellar medium](interstellar%20medium.md), which can consist of ionized, neutral, or molecular [hydrogen](hydrogen.md) and also [cosmic dust](cosmic%20dust.md)}}. <!--SR:!2024-09-25,69,310!2024-09-19,65,310!2024-10-15,70,270-->
+A __nebula__ ([Latin](Latin.md) for {{'cloud, fog'}}; pl.: {{__nebulae__, __nebulæ__, or __nebulas__}}) is {{a distinct luminescent part of [interstellar medium](interstellar%20medium.md), which can consist of ionized, neutral, or molecular [hydrogen](hydrogen.md) and also [cosmic dust](cosmic%20dust.md)}}. <!--SR:!2024-09-25,69,310!2025-06-24,278,330!2024-10-15,70,270-->
 
 ## references
 

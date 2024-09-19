@@ -187,7 +187,7 @@ The content is in teaching order.
     - [§ usage](../../../../general/Porter's%20five%20forces%20analysis.md#usage)
 - Chernev's 5C framework ::: market & business analysis <!--SR:!2024-09-28,92,361!2025-04-27,234,341-->
   - [situation analysis § 5C analysis](../../../../general/situation%20analysis.md#5C%20analysis)
-  - 5C analysis & ancient Chinese philosophy ::: 天時·地利·人和 <!--SR:!2024-09-19,85,361!2025-07-17,302,361-->
+  - 5C analysis & ancient Chinese philosophy ::: 天時·地利·人和 <!--SR:!2025-07-25,309,361!2025-07-17,302,361-->
   - Chernev's 5C framework § competitor ::: The competitor aspect can use [competitor analysis](../../../../general/competitor%20analysis.md). <!--SR:!2024-09-23,88,361!2024-10-04,98,361-->
   - Chernev's 5C framework § context ::: The context aspect can use Anguilar's PESTLE framework. <!--SR:!2024-09-27,92,361!2024-09-23,88,361-->
 - McCarthy's 4P framework ::: market-related analysis <!--SR:!2024-09-29,93,361!2024-09-28,93,361-->
@@ -201,7 +201,7 @@ The content is in teaching order.
 ## week 11 lecture
 
 - time: 2024-04-09T18:00:00+08:00/2024-04-09T20:30:00+08:00
-- critical thinking pop quiz takeaways ::: cannot blindly trust given premises, case analysis needs to consider human behaviors, possess general knowledge <!--SR:!2025-03-08,197,341!2024-09-19,85,361-->
+- critical thinking pop quiz takeaways ::: cannot blindly trust given premises, case analysis needs to consider human behaviors, possess general knowledge <!--SR:!2025-03-08,197,341!2025-07-24,308,361-->
 - [assignment W9](assignment%20W9/assignment%20W9.md) takeaways
   - general case analysis question takeaways ::: Identify key questions. Choose the question that is most precise and involves least work. <!--SR:!2025-05-25,275,361!2024-09-20,85,361-->
   - use of framework takeaways ::: Consider relevant dimensions of each framework and select the framework with the most relevant dimensions. Add a total at the end to sum up all the dimensions. <!--SR:!2025-04-10,223,341!2024-10-01,95,361-->
@@ -223,7 +223,7 @@ The content is in teaching order.
   - [§ format](../../../5-step%20persuasive%20selling.md#format)
 - more trees (for TEMG 4950) ::: issue tree and hypothesis tree <!--SR:!2025-04-27,252,361!2025-10-01,385,381-->
 - cause mapping extensions ::: facts table, solutions table <!--SR:!2025-09-03,361,381!2024-09-22,87,361-->
-  - facts table ::: what, when, where, impact <!--SR:!2024-09-19,85,361!2025-02-07,175,341-->
+  - facts table ::: what, when, where, impact <!--SR:!2025-11-13,420,381!2025-02-07,175,341-->
   - solutions table ::: no., cause, solution; optionally, time, persons responsible, budget <!--SR:!2025-02-22,187,341!2024-09-22,87,361-->
 - interview note-taking technique using 1 sheet of A4 paper ::: facts, key question (only 1), analysis <!--SR:!2024-09-26,91,361!2024-10-04,98,361-->
   - interview note § layout ::: split the paper into 2, the left side is thinner and holds the facts and key question, and the right side is the analysis <!--SR:!2024-12-13,134,321!2024-10-03,97,361-->
@@ -242,7 +242,7 @@ The content is in teaching order.
 - [PPTG change impact framework](../../../PPTG%20change%20impact%20framework.md)
   - [§ the framework](../../../PPTG%20change%20impact%20framework.md#the%20framework)
   - [§ extensions](../../../PPTG%20change%20impact%20framework.md#extensions)
-- drawbridge drama ::: an analogy to an office drama <!--SR:!2024-09-19,84,377!2024-10-09,101,377-->
+- drawbridge drama ::: an analogy to an office drama <!--SR:!2025-08-01,316,377!2024-10-09,101,377-->
 - [assignment W12](assignment%20W12/assignment%20W12.md): Organizational Analysis (DRW Technologies)
 
 ## week 13 lecture

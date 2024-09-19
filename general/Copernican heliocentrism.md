@@ -26,7 +26,7 @@ The model has several advantages: {{simpler and more elegant}}, and naturally ex
 
 ## Copernican theory
 
-The Copernican order of spheres {{from the [Sun](Sun.md) outward}} is: <!--SR:!2024-09-19,65,310-->
+The Copernican order of spheres {{from the [Sun](Sun.md) outward}} is: <!--SR:!2025-06-24,278,330-->
 
 ```Python
 # pytextgen generate data

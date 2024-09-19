@@ -55,4 +55,4 @@ The seed option present in various interfaces is {{simply the random seed to gen
 
 ### rescaling
 
-XLMiner can rescale the dataset {{in 4 ways}}: {{standardization, normalization, adjusted normalization, and unit-norm}}. The first option {{replaces the values with their standard scores}}. <!--SR:!2024-09-19,74,335!2024-09-22,77,335!2025-01-22,163,315-->
+XLMiner can rescale the dataset {{in 4 ways}}: {{standardization, normalization, adjusted normalization, and unit-norm}}. The first option {{replaces the values with their standard scores}}. <!--SR:!2025-08-26,341,355!2024-09-22,77,335!2025-01-22,163,315-->

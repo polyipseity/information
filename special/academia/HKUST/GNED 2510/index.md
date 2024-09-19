@@ -36,11 +36,11 @@ The content is in teaching order.
 - time: 2023-09-06T17:00:00+08:00/2023-09-06T18:50:00+08:00
 - topic: Innerview (I): Breaking your Mental Model
 - course logistics
-- SCARF (good) ::: sense of urgency, courage to try, awesomeness, relatedness, fresh perspective <!--SR:!2024-09-19,3,250!2024-09-20,4,270-->
+- SCARF (good) ::: sense of urgency, courage to try, awesomeness, relatedness, fresh perspective <!--SR:!2024-09-25,6,250!2024-09-20,4,270-->
 - hard skills, soft skills ::: Many jobs typically require a combination of them. <!--SR:!2024-09-20,4,270!2024-09-20,4,270-->
   - hard skills ::: Skills acquired through formal education and training programs. <!--SR:!2024-09-20,4,270!2024-09-20,4,270-->
   - soft skills ::: Skills that promote productivity, efficiency, effective communication, etc. <!--SR:!2024-09-20,4,270!2024-09-20,4,270-->
-- How many jobs should you include on your resume? ::: all of your previous jobs <!--SR:!2024-09-19,3,250!2024-09-20,4,270-->
+- How many jobs should you include on your resume? ::: all of your previous jobs <!--SR:!2024-10-02,13,270!2024-09-20,4,270-->
 - [name tag](../../../name%20tag.md)
   - For easy reading, one’s name badge should be worn... ::: ... on the right chest near shoulder. <!--SR:!2024-09-20,4,270!2024-09-20,4,270-->
 
@@ -82,7 +82,7 @@ The content is in teaching order.
 - time: 2023-10-04T17:00:00+08:00/2023-10-04T18:50:00+08:00
 - topic: Portfolio Building (II)
 - [cover letter](../../../cover%20letter.md)
-  - cover letter advantage ::: positive impression, include extra information, mention referrer, emphasize your knowledge of the company <!--SR:!2024-09-19,3,250!2024-09-20,4,270-->
+  - cover letter advantage ::: positive impression, include extra information, mention referrer, emphasize your knowledge of the company <!--SR:!2024-10-01,12,270!2024-09-20,4,270-->
 - transferrable skills, portable skills
 - professional social media ::: LinkedIn <!--SR:!2024-09-20,4,270!2024-09-20,4,270-->
 - elevator pitch ::: self-introduce yourself in 60 seconds to impress potential employers <!--SR:!2024-09-20,4,270!2024-09-20,4,270-->
@@ -127,11 +127,11 @@ The content is in teaching order.
   - networking etiquette
   - dining etiquette
 - work cultures
-- How is a work offer properly confirmed? ::: confirmed the draft employment contract <!--SR:!2024-09-20,4,270!2024-09-19,3,250-->
+- How is a work offer properly confirmed? ::: confirmed the draft employment contract <!--SR:!2024-09-20,4,270!2024-09-27,8,250-->
 - What if you need more time to consider a work offer? ::: Sincerely ask for more time to consider and state your expected reply time to the employer. <!--SR:!2024-09-20,4,270!2024-09-20,4,270-->
 - What to do after confirming an offer? ::: stop interviewing, nicely decline other work offers <!--SR:!2024-09-20,4,270!2024-09-20,4,270-->
 - job offer ::: Check if it is legitimate and is not missing any crucial information! <!--SR:!2024-09-20,4,270!2024-09-20,4,270-->
-  - job offer crucial information ::: company logo, contact information, job title, job details, salary/compensation, benefits, expiration date <!--SR:!2024-09-19,3,250!2024-09-19,3,250-->
+  - job offer crucial information ::: company logo, contact information, job title, job details, salary/compensation, benefits, expiration date <!--SR:!2024-09-29,10,250!2024-09-28,9,250-->
   - declining a job offer ::: act quick, communicate professionally, express appreciation <!--SR:!2024-09-20,4,270!2024-09-20,4,270-->
 
 ## week 8 tutorial
@@ -148,7 +148,7 @@ The content is in teaching order.
 - topic: Interview (I): Interview Like a PRO
 - first impressions ::: Interviewers are busy people and likely make generalizations. <!--SR:!2024-09-20,4,270!2024-09-20,4,270-->
 - video interview
-  - video interview notes ::: cheatsheets stuck on screen (be aware of glasses reflection), correct angle, natural eye contact, smile <!--SR:!2024-09-20,4,270!2024-09-19,3,250-->
+  - video interview notes ::: cheatsheets stuck on screen (be aware of glasses reflection), correct angle, natural eye contact, smile <!--SR:!2024-09-20,4,270!2024-10-02,13,270-->
 - self-introduction
 - interview questions
 - Any questions? ::: Try to ask a question if you really do not have any to show that you care. <!--SR:!2024-09-20,4,270!2024-09-20,4,270-->
@@ -161,18 +161,18 @@ The content is in teaching order.
 - topic: Interview (II): Group Discussion Skills
 - activity: leadership exercise
 - leadership
-  - leadership tips ::: lead with vision, determined/delegation/communication, problem solving, trust, appreciation <!--SR:!2024-09-19,3,250!2024-09-19,3,250-->
-  - teamwork tips ::: strategic thinking, determined/delegation/communication, remain calm under pressure, trust, win-win cooperation with other teams <!--SR:!2024-09-19,3,250!2024-09-19,3,250-->
+  - leadership tips ::: lead with vision, determined/delegation/communication, problem solving, trust, appreciation <!--SR:!2024-09-26,7,250!2024-09-30,11,270-->
+  - teamwork tips ::: strategic thinking, determined/delegation/communication, remain calm under pressure, trust, win-win cooperation with other teams <!--SR:!2024-09-28,9,250!2024-10-01,12,270-->
 - structured group discussion
 - presentation
-  - presentation tips ::: greeting, no need to repeat the known problem, T-style presentation (depth not breadth), set reasonable assumptions, rehearse!! <!--SR:!2024-09-19,3,250!2024-09-20,4,270-->
+  - presentation tips ::: greeting, no need to repeat the known problem, T-style presentation (depth not breadth), set reasonable assumptions, rehearse!! <!--SR:!2024-10-01,12,270!2024-09-20,4,270-->
 
 ## week 11 tutorial
 
 - time: 2023-11-15T17:00:00+08:00/2023-11-15T18:50:00+08:00
 - topic: Interview (III): Final Drilling of Mock Interview
 - interview goals ::: impress, express, tell stories (STAR-r) <!--SR:!2024-09-20,4,270!2024-09-20,4,270-->
-- STAR-r ::: situation, task, action, result, reflection <!--SR:!2024-09-19,3,250!2024-09-20,4,270-->
+- STAR-r ::: situation, task, action, result, reflection <!--SR:!2024-09-30,11,270!2024-09-20,4,270-->
   - STAR-r / situation ::: set the scene <!--SR:!2024-09-20,4,270!2024-09-20,4,270-->
   - STAR-r / task ::: describe the purpose <!--SR:!2024-09-20,4,270!2024-09-20,4,270-->
   - STAR-r / action ::: explain what you did <!--SR:!2024-09-20,4,270!2024-09-20,4,270-->

@@ -87,7 +87,7 @@ tags:
 > 2. balance sheet
 > 3. statement of cash flow
 >
-> - solution: {{2}} <!--SR:!2024-09-19,3,250-->
+> - solution: {{2}} <!--SR:!2024-10-01,12,270-->
 
 <!-- markdownlint MD028 -->
 
@@ -117,7 +117,7 @@ tags:
 > 2. balance sheet
 > 3. statement of cash flow
 >
-> - solution: {{1, and also 3 if the procurement involve instantaneous transfer of cash}} <!--SR:!2024-09-19,3,250-->
+> - solution: {{1, and also 3 if the procurement involve instantaneous transfer of cash}} <!--SR:!2024-09-29,10,250-->
 
 <!-- markdownlint MD028 -->
 

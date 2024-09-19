@@ -279,7 +279,7 @@ return chain.from_iterable(await gather(
 - iron(III) ion:::Fe<sup>3+</sup> <!--SR:!2027-04-21,1525,370!2026-10-29,1391,374-->
 - chromium(III) ion:::Cr<sup>3+</sup> <!--SR:!2028-01-18,1745,374!2026-02-20,1123,314-->
 - scandium(III) ion:::Sc<sup>3+</sup> <!--SR:!2024-09-26,427,382!2024-11-29,480,382-->
-- titanium(III) ion:::Ti<sup>3+</sup> <!--SR:!2024-09-19,422,382!2024-11-26,477,382-->
+- titanium(III) ion:::Ti<sup>3+</sup> <!--SR:!2030-10-02,2204,402!2024-11-26,477,382-->
 - vanadium(II) ion:::V<sup>2+</sup> <!--SR:!2024-11-07,463,382!2024-12-10,489,382-->
 - vanadium(III) ion:::V<sup>3+</sup> <!--SR:!2024-11-10,464,382!2024-10-28,455,382-->
 - manganese(III) ion:::Mn<sup>3+</sup> <!--SR:!2024-10-19,449,382!2024-11-27,478,382-->
@@ -336,7 +336,7 @@ return chain.from_iterable(await gather(
 - lead(II) ion::colorless <!--SR:!2024-12-02,597,253-->
 - iron(II) ion::<span style="color: green;">green</span> <!--SR:!2027-07-17,1228,254-->
 - nickel(II) ion::<span style="color: green;">green</span> <!--SR:!2025-03-26,423,207-->
-- copper(II) ion::<span style="color: blue; background-color: white;">blue</span>, <span style="color: green;">green</span> <!--SR:!2024-09-19,28,130-->
+- copper(II) ion::<span style="color: blue; background-color: white;">blue</span>, <span style="color: green;">green</span> <!--SR:!2024-10-24,35,130-->
 - zinc ion::colorless <!--SR:!2030-07-03,2322,334-->
 - manganese(II) ion::<span style="color: lightPink;">very pale pink</span> <!--SR:!2026-07-30,1000,250-->
 - mercury(II) ion::_(n/a)_ <!--SR:!2028-01-30,1312,276-->
@@ -472,7 +472,7 @@ return chain.from_iterable(await gather(
 - hydrogencarbonate ion::colorless <!--SR:!2031-06-28,2573,330-->
 - hydrogensulfite ion::colorless <!--SR:!2026-11-15,1203,270-->
 - hydrogensulfate ion::colorless <!--SR:!2027-11-01,1341,270-->
-- permanganate ion::<span style="color: darkViolet; background-color: white;">deep purple</span> <!--SR:!2024-09-19,216,230-->
+- permanganate ion::<span style="color: darkViolet; background-color: white;">deep purple</span> <!--SR:!2026-01-28,496,230-->
 - oxide ion::_(n/a)_ <!--SR:!2029-04-28,1684,296-->
 - sulfide ion::_(n/a)_ <!--SR:!2025-04-24,452,256-->
 - sulfate ion::colorless <!--SR:!2026-08-20,1076,274-->
