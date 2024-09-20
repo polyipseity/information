@@ -62,6 +62,7 @@ The content is in teaching order.
 ## week 3 tutorial
 
 - time: 2024-09-19T10:30:00+08:00/2024-09-19T12:20:00+08:00
+- work motivations ::: autonomy, mastery, purpose
 - relationship between workview & worldview ::: If they integrate with each other, great! If they do not, then you may find jobs unfulfilling and want to quit it.
 - course framework ::: design thinking, meaning-making, discovery & support
 - warm-up activity: Choose a person from the picture that resonate with you the most. Explain why.
@@ -72,5 +73,5 @@ The content is in teaching order.
 - activity 1: social identity exercise + reflection by drawing
   - social identity exercise + reflection by drawing / debrief ::: Try identify your own social identities. You may discover how you are made from your past experiences.
 - activity 2: life wheel
-  - life wheel / debrief ::: Evaluate your life in 10 categories from 1 to 10. Think of 3 categories to improve and imagine it.
-- EQ-i<sup>2.0</sup>
+  - life wheel / debrief ::: Evaluate your life in 10 categories from 1 to 10. Think of 3 categories to improve and imagine it. Finally, think of 1 action that you can do now to balance the wheel.
+- psychometric assessments ::: EQ-i<sup>2.0</sup>, STRONG
