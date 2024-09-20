@@ -49,7 +49,7 @@ The content is in teaching order. Extra information and corrections are included
 - [Kepler's laws of planetary motion](../../../../general/Kepler's%20laws%20of%20planetary%20motion.md)
   - [§ history](../../../../general/Kepler's%20laws%20of%20planetary%20motion.md#history)
 - [list of Nobel laureates in Astronomy](../../../list%20of%20Nobel%20laureates%20in%20Astronomy.md)
-  - 2006 Nobel Prize in Physics: [George Smoot](../../../../general/George%20Smoot.md) ::: a Nobel laureate affiliated with HKUST (IAS Professor)
+  - 2006 Nobel Prize in Physics: [George Smoot](../../../../general/George%20Smoot.md) ::: a Nobel laureate affiliated with HKUST, currently an IAS professor
 - [Hubble Ultra-Deep Field](../../../../general/Hubble%20Ultra-Deep%20Field.md)
 - HKUST in the universe ::: HKUST is a very small place compared to the universe
 - observing HKUST ::: different views depending on where we are and where we look, so multiple observations are required to reveal the true HKUST

@@ -97,7 +97,7 @@ tags:
 > 2. balance sheet
 > 3. statement of cash flow
 >
-> - solution: {{1, and also 3 if the activities involve instantaneous transfer of cash}}
+> - solution: {{1, and also 3 if the investing activities involve instantaneous transfer of cash}}
 
 <!-- markdownlint MD028 -->
 
@@ -117,7 +117,7 @@ tags:
 > 2. balance sheet
 > 3. statement of cash flow
 >
-> - solution: {{1, and also 3 if the procurement involve instantaneous transfer of cash}}
+> - solution: {{1, and also 3 if the procurement involves instantaneous transfer of cash}}
 
 <!-- markdownlint MD028 -->
 
@@ -127,7 +127,7 @@ tags:
 > 2. balance sheet
 > 3. statement of cash flow
 >
-> - solution: {{1, and also 3 if the revenue involve instantaneous transfer of cash}}
+> - solution: {{1, and also 3 if the revenues earned involve instantaneous transfer of cash}}
 
 <!-- markdownlint MD028 -->
 
