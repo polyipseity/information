@@ -54,3 +54,27 @@ if condition:
 ```
 
 Python has {{no `switch` statements before Python 3.10. Since Python 3.10, Python has `match...case` statement, but it will not be described here}}.
+
+## iteration
+
+You can of course {{put branches and loops}} inside loops.
+
+### for-iteration
+
+In Python, iteration is done through using `for...in`. A `for...in` statement consists of {{loop variables, iterable, and a statement block}}:
+
+```Python
+for loop_variables in iterable:
+  statement_block
+```
+
+Iterables can be {{ranges, strings, lists, and many more not mentioned here}}. The semantics of `for...in` is that {{for each element in the iterable, the loop variables are assigned that element and then the statement block is executed}}.
+
+To emulate the traditional `for` loop, one uses {{`range` and specifies the starting point (inclusive), ending point (exclusive), and step}}. A `for` loop with code in the form of `for (int idx = begin; idx < end; idx += step)` translates to {{`for idx in range(begin, end, step):` (if `step` is negative, then `idx < end` becomes `idx > end`)}}. `range(begin, end, step)` has shorter forms: {{`range(begin, end)` is equivalent to `range(begin, end, 1)` and `range(end)` is equivalent to `range(0, end, 1)`}}.
+
+If {{there are no statements to be executed in an iteration}}, you {{must still put a properly indented `pass` statement, which does nothing, for that iteration}}. For example:
+
+```Python
+for loop_variables in iterable:
+  pass # required, otherwise error
+```
