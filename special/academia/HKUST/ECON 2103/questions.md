@@ -88,3 +88,36 @@ tags:
 > - Commercial fishing for tuna kills dolphins. Let's require domestic fisheries to use more expensive nets that lets dolphins escape. ::: It may protect the dolphins. However, the price of domestic tuna may increase relative to foreign tuna. This means domestic fisheries may be harmed. Also, the average price of (domestic and imported) tuna may rise, so consumers may need to pay more. (The effects are similar to a _tariff_ (like above) but imposed on domestic producers instead.)
 > - Drug addiction is a problem. Let's make it a non-problem by legalizing the use of drugs. ::: Drugs become more available. This lowers drug prices. People may get addicted to drugs more easily. However, it may decrease enforcement costs, regulate the drug market, and make rehabilitating drug addicts easier.
 > - Drug addiction is a problem. Let's enforce drug laws more strictly. ::: Drugs become less available. This increases drug prices. People may get addicted to drugs less easily. However, it may increase drug trafficking activity due to increased profits if succeeded, increasing enforcement costs. Drug addicts may also commit more crimes in order to get money for drugs.
+
+### chapter 2 lecture notes
+
+> Q1. Which of the following is correct about this statement? "Not every citizen has their own housing. Building more government subsidized housing helps more citizens have their own housing. So building more government subsidized housing would be top priority."
+>
+> 1. It is a normative statement.
+> 2. It is a positive statement.
+> 3. It is neither a normative statement nor a positive statement.
+> 4. It is both a normative and a positive statement.
+> 5. It contains both normative and positive statements.
+> 6. We need more information to decide.
+> 7. None of the above.
+>
+> - solution: {{5}}
+> - explanation: {{The first two sentences are positive. The last sentence is normative.}}
+
+<!-- markdownlint MD028 -->
+
+> Q2. (2021 fall final exam) A salesperson introduces a mobile-data plan to Randy, which allows him to pay HK$800 per month and enjoy unlimited data usage. Randy said he is happy with the plan and is willing to subscribe to it.
+>
+> Explain the above Randy's decision by using a graph/graphs based on the concept of marginal utility/happiness, consumer surplus and marginal cost that we discussed in lectures. (5 points)
+>
+> - graph: {{![graph](attachments/Pasted%20image%2020240922170908.png)}}
+> - solution: {{Assume Randy has bought the plan for a month. Then his marginal utility curve and marginal cost curve is as in the graph. The marginal cost is zero because he can enjoy unlimited data usage. The marginal utility decreases by assuming the law of diminishing utility. This corresponds to him using the mobile-data on urgent uses first, and then less urgent uses, and continue. The marginal utility stops at zero because (I believe) extra data usage cannot have negative marginal utility, but it does not matter for this analysis. The consumer surplus is the area between marginal utility and marginal cost, and represents the benefit of the mobile-data plan to him before he makes the decision of buying the plan. So we can infer the reason he is happy with the plan is because his consumer surplus in a month exceeds HK$800.}}
+
+<!-- markdownlint MD028 -->
+
+> Q3. (2021 fall final exam) A salesperson introduces a mobile-data plan to Michael, which allows him to pay HK$200 per month and enjoy 20G of data usage. Michael said he is happy with the plan and is willing to subscribe to it. Note that Michael will use more than 20G of data when it is free-of-charge.
+>
+> Explain the above Michael's decision by using a graph/graphs based on the concept of marginal utility/happiness, consumer surplus and marginal cost that we discussed in lectures. (5 points)
+>
+> - graph: {{![graph](attachments/Pasted%20image%2020240922172124.png)}}
+> - solution: {{Assume Michael has bought the plan for a month. Then his marginal utility curve and marginal cost curve is as in the graph. The marginal cost is zero until 20 GB when he uses up all his data usage, after which there is a nonzero cost (that we do not know, but assume to be flat rate). The marginal utility decreases by assuming the law of diminishing utility. This corresponds to him using the mobile-data on urgent uses first, and then less urgent uses, and continue. The marginal utility reaches zero after but not before or on 20 GB because he will use more than 20 GB data if data is free. The marginal utility stops at zero because (I believe) extra data usage cannot have negative marginal utility, but it does not matter for this analysis. The consumer surplus is the area between marginal utility and marginal cost, and represents the benefit of the mobile-data plan to him before he makes the decision of buying the plan. So we can infer the reason he is happy with the plan is because his consumer surplus in a month exceeds HK$200.}}

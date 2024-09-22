@@ -111,6 +111,22 @@ The content is in teaching order.
 ## week 2 lecture 2
 
 - time: 2024-09-13T12:00:00+08:00/2024-09-13T13:20:00+08:00
+- announcements
+  - assigned reading: textbook chapter 2, [Hong Kong's waste problem: what is the new charging scheme and how can it clean up the issue?](https://sc.mp/y4w9)
+  - assignment: [problem set 2](assignments/problem%20set%202/submission.md)
+- [correlation](../../../../general/correlation.md) ::: Two things (more likely than expected to) appear at the same time, i.e. you can see A and B happening together.
+  - [§ correlation](../../../../general/correlation.md#correlation)
+- [causality](../../../../general/causality.md) ::: A causes B. A must happen before B in time. Correlation is not necessarily causation. We also need the additional two requirements of keeping everything else the same, and A happens before B, to conclude a correlation is also a causation.
+  - [§ causality](../../../../general/causality.md#causality)
+- omitted variable ::: They are variables that exist but not considered in your causation analysis. Assume A correlates with B, and B causes C. Omitting A may lead us to erroneously assume that A causes C.
+- reverse causality ::: Assume A causes B. You observe that A correlates with B. You may erroneously conclude that B causes A. This is because regardless if A causes B or B causes A, A correlates with B.
+- scientific method ::: observe, explain using a (simplified) model, test by real-world observations
+  - scientific method / economics ::: It is rare to do _control experiments_ because the conditions are almost impossible to be set like those in the model.
+  - scientific method / economic models (examples) ::: circular-flow model, production possibilities frontier
+  - scientific method / models ::: Models usually have many assumptions to keep it simple. The assumptions can be almost real, or completely out-of-reality. However, the usefulness of a model depends on its explanatory and predictive power.
+- [positive and normative economics](../../../../general/positive%20and%20normative%20economics.md) ::: Positive: What is? We simply describe economics as-is. These statements are testable. Normative: What should be? We apply our own value judgement, which may differ from individuals to individuals.
+  - Why do economists disagree with each other? ::: Economists can disagree with each other! \*grasp\* This could be a difference of scientific judgement, such as different economics schools of thought. The schools of thought predict different things with different theories, and it is difficult to create natural experiments to test them and see which are better. Another source is value judgement, such as the ultimate goal of studying economics.
+- [questions § chapter 2 lecture notes](questions.md#chapter%202%20lecture%20notes)
 
 ## week 3 lecture
 
