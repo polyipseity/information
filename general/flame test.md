@@ -82,7 +82,7 @@ return await memorize_map(
 <!--pytextgen generate section="2837ca"--><!-- The following content is generated at 2024-01-04T20:17:51.882656+08:00. Any edits will be overridden! -->
 
 - [calcium](calcium.md)::brick red, light green (through [cobalt blue glass](cobalt%20glass.md)) <!--SR:!2024-11-05,61,150-->
-- [copper](copper.md)(I)::blue-green <!--SR:!2024-09-23,21,130-->
+- [copper](copper.md)(I)::blue-green <!--SR:!2024-10-02,9,130-->
 - [copper](copper.md)(II)::green (non-halide), blue-green (halide) <!--SR:!2024-12-17,161,190-->
 - [iron](iron.md)(II)::blue (very hot), gold, green to orange-brown, sparks <!--SR:!2024-10-06,40,150-->
 - [iron](iron.md)(III)::orange-brown <!--SR:!2024-11-22,71,170-->
@@ -102,7 +102,7 @@ return await memorize_map(
 - blue (very hot)::[iron](iron.md)(II) <!--SR:!2024-10-19,406,290-->
 - gold::[iron](iron.md)(II) <!--SR:!2024-10-22,420,310-->
 - green to orange-brown::[iron](iron.md)(II) <!--SR:!2025-04-21,526,310-->
-- sparks::[iron](iron.md)(II) <!--SR:!2024-09-21,388,290-->
+- sparks::[iron](iron.md)(II) <!--SR:!2027-10-21,1124,290-->
 - orange-brown::[iron](iron.md)(III) <!--SR:!2024-10-08,374,290-->
 - intense white::[magnesium](magnesium.md) <!--SR:!2024-12-08,362,250-->
 - lilac::[potassium](potassium.md) <!--SR:!2025-04-16,539,310-->

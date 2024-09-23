@@ -388,7 +388,7 @@ The content is in teaching order.
 - [fact table § examples](../../../../general/fact%20table.md) ::: see the transactional fact table example <!--SR:!2025-04-29,231,357!2024-10-25,108,377-->
 - data cube ::: [OLAP cube](../../../../general/OLAP%20cube.md) <!--SR:!2024-10-18,101,377!2024-10-19,102,377-->
   - [§ operations](../../../../general/OLAP%20cube.md#operations)
-    - data cube > operations ::: drill down, rollup <!--SR:!2024-09-20,73,357!2024-10-16,100,377-->
+    - data cube > operations ::: drill down, rollup <!--SR:!2025-09-14,357,377!2024-10-16,100,377-->
 
 ## week 13 tutorial
 

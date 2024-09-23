@@ -25,7 +25,7 @@ A pinned support prevents {{translation in any direction}}, but not {{rotation}}
 
 A pinned support is drawn as {{a triangle or a square with a circle in the middle}}. <!--SR:!2024-12-06,152,310-->
 
-Examples include {{a table leg pinned by a single screw only, joints of a truss}}. <!--SR:!2024-09-23,83,270-->
+Examples include {{a table leg pinned by a single screw only, joints of a truss}}. <!--SR:!2025-05-04,223,270-->
 
 ### fixed support
 

@@ -39,14 +39,14 @@ The content is in teaching order.
 - [basics](basics.md)
   - [§ Python basics](basics.md#Python%20basics)
   - [§ arithmetic operators](basics.md#arithmetic%20operators)
-    - [basics § arithmetic operators](basics.md#arithmetic%20operators) / note ::: They really like testing you on the return type of operators... for a somewhat obvious reason. <!--SR:!2024-09-20,13,298!2024-09-20,13,290-->
+    - [basics § arithmetic operators](basics.md#arithmetic%20operators) / note ::: They really like testing you on the return type of operators... for a somewhat obvious reason. <!--SR:!2024-11-16,56,318!2024-11-10,50,310-->
   - [§ mathematics](basics.md#mathematics)
   - [§ string](basics.md#string)
-    - [basics § string](basics.md#string) / note ::: They taught `'''` but not `"""` for some reason... But it was later taught in the [week 2 lab](#week%202%20lab) (lab 1). <!--SR:!2024-09-20,13,292!2024-10-24,37,290-->
+    - [basics § string](basics.md#string) / note ::: They taught `'''` but not `"""` for some reason... But it was later taught in the [week 2 lab](#week%202%20lab) (lab 1). <!--SR:!2024-11-12,52,312!2024-10-24,37,290-->
   - [§ output](basics.md#output)
-    - [basics § output](basics.md#output) / note ::: Jupyter notebooks automatically outputting the value of the last statement without using `print` is also considered "output". Note that strings are outputted, escaped with `\` properly (without unnecessary escapes), and preferably wrapped in `'`, and only uses `"` if there is at least 1 `'` in the string but not any `"`. <!--SR:!2024-09-21,4,303!2024-09-21,4,303-->
+    - [basics § output](basics.md#output) / note ::: Jupyter notebooks automatically outputting the value of the last statement without using `print` is also considered "output". Note that strings are outputted, escaped with `\` properly (without unnecessary escapes), and preferably wrapped in `'`, and only uses `"` if there is at least 1 `'` in the string but not any `"`. <!--SR:!2024-10-02,11,303!2024-10-06,15,323-->
   - [§ variable](basics.md#variable)
-    - [basics § variable](basics.md#variable) / note ::: In a quiz question, they use the word "save", which means storing a value to a variable. <!--SR:!2024-09-21,14,292!2024-09-20,13,292-->
+    - [basics § variable](basics.md#variable) / note ::: In a quiz question, they use the word "save", which means storing a value to a variable. <!--SR:!2024-10-31,40,292!2024-10-27,36,292-->
   - [§ data types](basics.md#data%20types)
     - [basics § data types](basics.md#data%20types) / note ::: They have not taught `bool` (values: `True`, `False`) and `NoneType` (value: `None`) up to this point... <!--SR:!2024-10-10,24,272!2024-09-22,15,292-->
 - week 1 exercise: 1/1, graded
@@ -117,7 +117,7 @@ The content is in teaching order.
 - [control flow](control%20flow.md)
   - [§ Python control flow](control%20flow.md#Python%20control%20flow)
   - [§ branching](control%20flow.md#branching)
-    - [control flow § branching](control%20flow.md#branching) / note ::: If there are no statements to be executed in a branch, you must still put a properly indented `pass` statement, which does nothing, for that branch. <!--SR:!2024-09-20,4,301!2024-09-20,4,301-->
+    - [control flow § branching](control%20flow.md#branching) / note ::: If there are no statements to be executed in a branch, you must still put a properly indented `pass` statement, which does nothing, for that branch. <!--SR:!2024-10-08,17,321!2024-10-09,18,321-->
 - [basics](basics.md)
   - [§ logic operators](basics.md#logic%20operators)
 - week 3 exercise: 1/1, graded

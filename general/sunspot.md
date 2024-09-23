@@ -9,7 +9,7 @@ tags:
 
 # sunspot
 
-__Sunspots__ are {{temporary spots on the [Sun's surface](photosphere.md) that are darker than the surrounding area}}. They are regions of {{reduced surface [temperature](temperature.md) (3000–4500&nbsp;K) caused by concentrations of [magnetic flux](magnetic%20flux.md) that inhibit [convection](convection%20(heat%20transfer).md)}}. <!--SR:!2024-09-21,44,290!2024-10-14,63,310-->
+__Sunspots__ are {{temporary spots on the [Sun's surface](photosphere.md) that are darker than the surrounding area}}. They are regions of {{reduced surface [temperature](temperature.md) (3000–4500&nbsp;K) caused by concentrations of [magnetic flux](magnetic%20flux.md) that inhibit [convection](convection%20(heat%20transfer).md)}}. <!--SR:!2025-03-16,176,310!2024-10-14,63,310-->
 
 ## references
 

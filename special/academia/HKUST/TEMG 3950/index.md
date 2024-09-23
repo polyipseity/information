@@ -32,7 +32,7 @@ The content is in teaching order.
 - good business opportunities ::: meet a need (most important), sufficient resources, right location, right price, right time <!--SR:!2024-12-08,126,230!2025-03-05,243,330-->
 - [buyer utility map](../../../buyer%20utility%20map.md)
 - [_Blue Ocean Strategy_ § concept](../../../../general/Blue%20Ocean%20Strategy.md#concept)
-  - blue ocean strategy example ::: [inventing the air fryer from observing French fries](../../../examples/inventing%20the%20air%20fryer%20from%20observing%20French%20fries.md) <!--SR:!2024-09-23,112,290!2025-01-05,182,310-->
+  - blue ocean strategy example ::: [inventing the air fryer from observing French fries](../../../examples/inventing%20the%20air%20fryer%20from%20observing%20French%20fries.md) <!--SR:!2025-08-13,324,290!2025-01-05,182,310-->
 - International Business Plan Competition ::: IBPC <!--SR:!2025-02-22,234,330!2025-04-24,282,330-->
 - transferrable technology ::: Technology that can potentially target multiple market segments. <!--SR:!2025-04-09,269,330!2025-01-04,181,310-->
 - reading assignment: [IBM prioritization grid](../../../IBM%20prioritization%20grid.md), [market segmentation](../../../market%20segmentation.md)
@@ -153,10 +153,10 @@ The content is in teaching order.
 - [information § context](information.md#context)
 - [information § part 2: case analysis](information.md#part%202%20case%20analysis)
 - thinking processes ::: deduction, evaluation, inference, interpretation <!--SR:!2025-05-26,270,361!2025-05-09,262,361-->
-  - deduction ::: application; arrive at conclusions based on given premises and rules <!--SR:!2025-06-30,304,361!2024-09-20,85,361-->
+  - deduction ::: application; arrive at conclusions based on given premises and rules <!--SR:!2025-06-30,304,361!2025-07-22,302,361-->
   - evaluation ::: unbiased, unemotional; systematically assess, determine, or examine the effectiveness, quality, or value of something <!--SR:!2024-10-09,86,301!2024-10-02,96,361-->
-  - inference ::: generalize; draw rules or predictions based on observed examples <!--SR:!2024-09-24,89,361!2024-09-21,86,361-->
-  - interpretation ::: explain or understand meaning, implications, or significance of something <!--SR:!2025-01-01,137,301!2024-09-21,86,361-->
+  - inference ::: generalize; draw rules or predictions based on observed examples <!--SR:!2024-09-24,89,361!2025-07-31,311,361-->
+  - interpretation ::: explain or understand meaning, implications, or significance of something <!--SR:!2025-01-01,137,301!2025-07-27,307,361-->
 - critical thinking pop quiz
   - content: 10 4-choice questions
   - effect: 0.5% of course grade
@@ -167,13 +167,13 @@ The content is in teaching order.
   - consultant job prospects
     - consultant after 1 to 2 years ::: Analyst, Associate, Specialist: doing the work; enter from BA, BS, MPhil, or MSc <!--SR:!2025-01-11,152,321!2025-03-17,200,341-->
     - consultant after 2 to 4 years ::: As. Consultant, Consultant, Sr. Consultant: doing the work; enter from JD, MBA, MD, or PhD, exit to project member of big firms or manager in small firms, and further top MBA <!--SR:!2025-04-17,226,341!2024-12-30,144,321-->
-    - consultant after 4 to 6 years ::: Eng. Manager, Mg. Consultant, Project Leader: managing the work; exit to manager of big firms or director of small firms, and further top EMBA <!--SR:!2024-09-21,44,281!2024-09-28,93,361-->
+    - consultant after 4 to 6 years ::: Eng. Manager, Mg. Consultant, Project Leader: managing the work; exit to manager of big firms or director of small firms, and further top EMBA <!--SR:!2025-01-24,123,281!2024-09-28,93,361-->
     - consultant after 6 to 9 years ::: As. Partner, Principal: selling the work; exit to director of big firms or general manager (GM) of small firms, and further top EMBA <!--SR:!2024-10-27,98,301!2025-01-04,149,321-->
     - consultant after 9 years or more ::: Director, Partner, VP: managing the business; exit to CEO or retire rich <!--SR:!2025-03-10,199,341!2024-09-24,89,361-->
 - nature of complex problems ::: modeled by time-varying multi-variable optimization problems with constraints <!--SR:!2025-02-13,185,361!2024-09-26,91,361-->
-  - solving complex problems ::: MECE frameworks for patterns, 5-step persuasive selling for presentation <!--SR:!2024-09-21,87,361!2024-11-23,119,321-->
+  - solving complex problems ::: MECE frameworks for patterns, 5-step persuasive selling for presentation <!--SR:!2025-11-29,432,381!2024-11-23,119,321-->
 - [Pareto principle](../../../../general/Pareto%20principle.md)
-- "less is more" ::: In the digital age, there is too much information (digital garbage), so they need to be distilled. Also see [DIKW pyramid](../../../../general/DIKW%20pyramid.md). <!--SR:!2025-05-26,276,361!2024-09-21,86,361-->
+- "less is more" ::: In the digital age, there is too much information (digital garbage), so they need to be distilled. Also see [DIKW pyramid](../../../../general/DIKW%20pyramid.md). <!--SR:!2025-05-26,276,361!2025-11-20,423,381-->
 - [MECE principle](../../../../general/MECE%20principle.md)
 - modeling key concepts ::: abstraction, framework, model <!--SR:!2025-06-11,286,361!2024-10-04,98,361-->
   - modeling key concept: abstraction ::: filter for elements relevant to some specific purpose <!--SR:!2025-07-15,301,361!2024-10-02,96,361-->
@@ -188,8 +188,8 @@ The content is in teaching order.
 - Chernev's 5C framework ::: market & business analysis <!--SR:!2024-09-28,92,361!2025-04-27,234,341-->
   - [situation analysis § 5C analysis](../../../../general/situation%20analysis.md#5C%20analysis)
   - 5C analysis & ancient Chinese philosophy ::: 天時·地利·人和 <!--SR:!2025-07-25,309,361!2025-07-17,302,361-->
-  - Chernev's 5C framework § competitor ::: The competitor aspect can use [competitor analysis](../../../../general/competitor%20analysis.md). <!--SR:!2024-09-23,88,361!2024-10-04,98,361-->
-  - Chernev's 5C framework § context ::: The context aspect can use Anguilar's PESTLE framework. <!--SR:!2024-09-27,92,361!2024-09-23,88,361-->
+  - Chernev's 5C framework § competitor ::: The competitor aspect can use [competitor analysis](../../../../general/competitor%20analysis.md). <!--SR:!2025-12-02,435,381!2024-10-04,98,361-->
+  - Chernev's 5C framework § context ::: The context aspect can use Anguilar's PESTLE framework. <!--SR:!2024-09-27,92,361!2025-08-15,326,361-->
 - McCarthy's 4P framework ::: market-related analysis <!--SR:!2024-09-29,93,361!2024-09-28,93,361-->
   - [marketing mix § McCarthy's 4 Ps](../../../../general/marketing%20mix.md#McCarthy's%204%20Ps)
 - [assignment W9](assignment%20W9/assignment%20W9.md): MECE for Situation Analysis
@@ -203,12 +203,12 @@ The content is in teaching order.
 - time: 2024-04-09T18:00:00+08:00/2024-04-09T20:30:00+08:00
 - critical thinking pop quiz takeaways ::: cannot blindly trust given premises, case analysis needs to consider human behaviors, possess general knowledge <!--SR:!2025-03-08,197,341!2025-07-24,308,361-->
 - [assignment W9](assignment%20W9/assignment%20W9.md) takeaways
-  - general case analysis question takeaways ::: Identify key questions. Choose the question that is most precise and involves least work. <!--SR:!2025-05-25,275,361!2024-09-20,85,361-->
+  - general case analysis question takeaways ::: Identify key questions. Choose the question that is most precise and involves least work. <!--SR:!2025-05-25,275,361!2025-11-16,419,381-->
   - use of framework takeaways ::: Consider relevant dimensions of each framework and select the framework with the most relevant dimensions. Add a total at the end to sum up all the dimensions. <!--SR:!2025-04-10,223,341!2024-10-01,95,361-->
 - nature of problems ::: Problems are caused by a network of causes. If the causes are not removed, the problems may recur. <!--SR:!2025-02-24,177,321!2024-09-25,90,361-->
-- casual relationship ::: Event A, called the _cause_, causes event B, called the _effect_. <!--SR:!2025-05-24,275,361!2024-09-20,86,361-->
+- casual relationship ::: Event A, called the _cause_, causes event B, called the _effect_. <!--SR:!2025-05-24,275,361!2025-11-18,421,381-->
 - correlation ::: Measure of relationship between 2 variables. They can be positively correlated, negatively correlated, or uncorrelated. <!--SR:!2025-03-13,207,361!2025-01-08,164,341-->
-- casual relationship & correlation ::: Correlation does not imply causation. <!--SR:!2025-06-29,288,361!2024-09-20,86,361-->
+- casual relationship & correlation ::: Correlation does not imply causation. <!--SR:!2025-06-29,288,361!2025-11-22,425,381-->
 - [root cause analysis](../../../../general/root%20cause%20analysis.md) ::: discovery of casual relationships <!--SR:!2025-02-23,199,341!2025-04-16,243,361-->
 - [five whys](../../../../general/five%20whys.md)
 - cause mapping process ::: define the issue by its impact to business goals, visualize the problem, and prevent or mitigate negative impacts <!--SR:!2024-10-08,86,321!2025-03-06,200,341-->
@@ -218,16 +218,16 @@ The content is in teaching order.
   - cause mapping § evidences ::: below the cause, pink background <!--SR:!2024-10-16,92,321!2025-07-13,313,361-->
   - cause mapping § operators ::: AND, OR <!--SR:!2024-09-29,93,361!2025-05-31,266,361-->
   - cause mapping § solutions ::: above the cause, green background <!--SR:!2025-06-10,285,361!2025-07-05,306,361-->
-  - cause mapping § symptom ::: red background <!--SR:!2024-09-22,87,361!2024-10-02,96,361-->
+  - cause mapping § symptom ::: red background <!--SR:!2025-08-01,312,361!2024-10-02,96,361-->
 - [5-step persuasive selling](../../../5-step%20persuasive%20selling.md)
   - [§ format](../../../5-step%20persuasive%20selling.md#format)
 - more trees (for TEMG 4950) ::: issue tree and hypothesis tree <!--SR:!2025-04-27,252,361!2025-10-01,385,381-->
-- cause mapping extensions ::: facts table, solutions table <!--SR:!2025-09-03,361,381!2024-09-22,87,361-->
+- cause mapping extensions ::: facts table, solutions table <!--SR:!2025-09-03,361,381!2025-08-07,318,361-->
   - facts table ::: what, when, where, impact <!--SR:!2025-11-13,420,381!2025-02-07,175,341-->
-  - solutions table ::: no., cause, solution; optionally, time, persons responsible, budget <!--SR:!2025-02-22,187,341!2024-09-22,87,361-->
+  - solutions table ::: no., cause, solution; optionally, time, persons responsible, budget <!--SR:!2025-02-22,187,341!2025-08-10,321,361-->
 - interview note-taking technique using 1 sheet of A4 paper ::: facts, key question (only 1), analysis <!--SR:!2024-09-26,91,361!2024-10-04,98,361-->
   - interview note § layout ::: split the paper into 2, the left side is thinner and holds the facts and key question, and the right side is the analysis <!--SR:!2024-12-13,134,321!2024-10-03,97,361-->
-  - interview note § analysis ::: use a MECE framework suitable for the case in the interview <!--SR:!2024-09-27,91,361!2024-09-23,88,361-->
+  - interview note § analysis ::: use a MECE framework suitable for the case in the interview <!--SR:!2024-09-27,91,361!2025-12-06,439,381-->
   - interview note § facts ::: do not be afraid to ask probing questions, probe for the real question, quantify, summarize, verify <!--SR:!2025-03-14,206,341!2024-09-29,93,361-->
 - [assignment W11](assignment%20W11/assignment%20W11.md): Root Cause Analysis (Starbucks)
 

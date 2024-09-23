@@ -67,7 +67,7 @@ The _one-sided first derivative test_ is {{a variant of the first derivative tes
 >
 > 1. {{Let $f:I\to\mathbb{R}$ be a [real-valued function](real-valued%20function.md). $I$ is an [interval](interval%20(mathematics).md) containing $c$. $f$ is [right/left-differentiable](differentiable%20function.md) at $c$, i.e. $f'_\pm(c)$ exists. (Choose either right (`+`) or left (`-`).)}}
 > 2. {{then:<ul><li>If $f'_-(c)<0$, then $f$ has a [strict local minimum](maximum%20and%20minimum.md) at $c$ from the left.</li><li>If $f'_-(c)>0$, then $f$ has a [strict local maximum](maximum%20and%20minimum.md) at $c$ from the left.</li><li>If $f'_+(c)<0$, then $f$ has a [strict local maximum](maximum%20and%20minimum.md) at $c$ from the right.</li><li>If $f'_+(c)>0$, then $f$ has a [strict local minimum](maximum%20and%20minimum.md) at $c$ from the right.</li><li>Otherwise, the test is inconclusive.</li></ul>}}
-> 3. {{If needed, combine the above conclusions from both sides. Strictness of [extremum](maximum%20and%20minimum.md) at $c$ is preserved if and only if both sides are [strict local maxima](maximum%20and%20minimum.md) or both sides are [strict local minima](maximum%20and%20minimum.md).}} <!--SR:!2024-09-20,169,239!2024-11-19,230,279!2026-01-03,493,329-->
+> 3. {{If needed, combine the above conclusions from both sides. Strictness of [extremum](maximum%20and%20minimum.md) at $c$ is preserved if and only if both sides are [strict local maxima](maximum%20and%20minimum.md) or both sides are [strict local minima](maximum%20and%20minimum.md).}} <!--SR:!2025-10-29,403,239!2024-11-19,230,279!2026-01-03,493,329-->
 
 <!-- markdownlint MD028 -->
 

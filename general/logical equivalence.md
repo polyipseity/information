@@ -17,13 +17,13 @@ In logic, many common logical equivalences {{exist and are often listed as laws 
 
 ### general logical equivalences
 
-- identity laws ::: $$\begin{aligned} p \land \top & \equiv p \\ p \lor \bot & \equiv p \end{aligned}$$ <!--SR:!2024-09-23,9,281!2024-10-01,17,301-->
-- domination laws ::: $$\begin{aligned} p \lor \top & \equiv \top \\ p \land \bot & \equiv \bot \end{aligned}$$ <!--SR:!2024-09-23,9,281!2024-09-28,14,290-->
+- identity laws ::: $$\begin{aligned} p \land \top & \equiv p \\ p \lor \bot & \equiv p \end{aligned}$$ <!--SR:!2024-10-31,38,301!2024-10-01,17,301-->
+- domination laws ::: $$\begin{aligned} p \lor \top & \equiv \top \\ p \land \bot & \equiv \bot \end{aligned}$$ <!--SR:!2024-10-18,25,281!2024-09-28,14,290-->
 - idempotent or tautology laws ::: $$\begin{aligned} p \lor p & \equiv p \\ p \land p & \equiv p \end{aligned}$$ <!--SR:!2024-10-02,18,301!2024-09-27,13,290-->
 - [double negation](double%20negation.md) law ::: $$\neg (\neg p)\equiv p$$ <!--SR:!2024-09-28,14,290!2024-10-01,17,301-->
 - [commutative laws](commutative%20property.md) ::: $$\begin{aligned} p\vee q & \equiv q\vee p \\ p\wedge q &\equiv q\wedge p \end{aligned}$$ <!--SR:!2024-10-01,17,301!2024-09-28,14,290-->
 - [associative laws](associative%20property.md) ::: $$\begin{aligned} (p \lor q) \lor r & \equiv p \lor (q \lor r) \\ (p \land q) \land r & \equiv p \land (q \land r) \end{aligned}$$ <!--SR:!2024-09-29,15,309!2024-09-27,13,270-->
-- [distributive laws](distributive%20property.md) ::: $$\begin{aligned} p \lor (q \land r) & \equiv (p \lor q) \land (p \lor r) \\ p \land (q \lor r) & \equiv (p \land q) \lor (p \land r) \end{aligned}$$ <!--SR:!2024-09-23,9,281!2024-09-22,10,261-->
+- [distributive laws](distributive%20property.md) ::: $$\begin{aligned} p \lor (q \land r) & \equiv (p \lor q) \land (p \lor r) \\ p \land (q \lor r) & \equiv (p \land q) \lor (p \land r) \end{aligned}$$ <!--SR:!2024-11-01,39,301!2024-10-28,36,281-->
 - [De Morgan's laws](De%20Morgan's%20laws.md) ::: $$\begin{aligned} \lnot (p \land q) & \equiv \lnot p \lor \lnot q \\ \lnot (p \lor q) & \equiv \lnot p \land \lnot q \end{aligned}$$ <!--SR:!2024-09-24,10,281!2024-10-01,17,296-->
 - [absorption laws](absorption%20law.md) ::: $$\begin{aligned} p \lor (p \land q) & \equiv p \\ p \land (p \lor q) & \equiv p \end{aligned}$$ <!--SR:!2024-09-25,11,270!2024-09-28,14,296-->
 $p\vee (p\wedge q)\equiv p$$p\wedge (p\vee q)\equiv p$
@@ -33,7 +33,7 @@ $p\vee (p\wedge q)\equiv p$$p\wedge (p\vee q)\equiv p$
 
 - [material implication](material%20implication%20(rule%20of%20inference).md) & primitives ::: $$p\implies q\equiv \neg p\vee q$$ <!--SR:!2024-09-26,10,290!2024-09-26,12,290-->
 - [transposition](contraposition.md) ::: $$p\implies q\equiv \neg q\implies \neg p$$ <!--SR:!2024-10-02,18,310!2024-09-30,16,310-->
-- [material implication](material%20implication%20(rule%20of%20inference).md) & [disjunction](logical%20disjunction.md) ::: $$p\vee q\equiv \neg p\implies q$$ <!--SR:!2024-09-26,12,290!2024-09-21,9,270-->
+- [material implication](material%20implication%20(rule%20of%20inference).md) & [disjunction](logical%20disjunction.md) ::: $$p\vee q\equiv \neg p\implies q$$ <!--SR:!2024-09-26,12,290!2024-10-24,32,290-->
 - [material implication](material%20implication%20(rule%20of%20inference).md) & [conjunction](logical%20conjunction.md) ::: $$p\wedge q\equiv \neg (p\implies \neg q)$$ <!--SR:!2024-09-25,11,290!2024-09-25,11,290-->
 - [material implication](material%20implication%20(rule%20of%20inference).md) & [negation](negation.md) ::: $$\neg (p\implies q)\equiv p\wedge \neg q$$ <!--SR:!2024-09-27,13,290!2024-09-24,10,290-->
 - [distributive laws](distributive%20property.md) ::: $$\begin{aligned} (p\implies q)\wedge (p\implies r) & \equiv p\implies (q\wedge r) \\ (p\implies q)\vee (p\implies r) & \equiv p\implies (q\vee r) \end{aligned}$$ <!--SR:!2024-09-28,14,310!2024-10-02,18,310-->
@@ -52,9 +52,9 @@ where $\oplus$ {{represents [XOR](exclusive%20or.md)}}. <!--SR:!2024-10-01,17,30
 
 Logical equivalence is {{different from material equivalence}}. Formulas $p$ and $q$ are {{logically equivalent if and only if the statement of their material equivalence ($p\leftrightarrow q$) is a tautology}}. <!--SR:!2024-09-28,14,290!2024-09-25,11,281-->
 
-The material equivalence of $p$ and $q$ (often written as {{$p\leftrightarrow q$}}) is {{itself another statement in the same [object language](formal%20system.md) as $p$ and $q$}}. This statement {{expresses the idea "'$p$ if and only if $q$'". In particular, the truth value of $p\leftrightarrow q$ can change from one model to another}}. <!--SR:!2024-09-23,9,270!2024-09-27,13,276!2024-09-23,9,281-->
+The material equivalence of $p$ and $q$ (often written as {{$p\leftrightarrow q$}}) is {{itself another statement in the same [object language](formal%20system.md) as $p$ and $q$}}. This statement {{expresses the idea "'$p$ if and only if $q$'". In particular, the truth value of $p\leftrightarrow q$ can change from one model to another}}. <!--SR:!2024-10-14,21,270!2024-09-27,13,276!2024-10-29,36,301-->
 
-On the other hand, the claim that two formulas are logically equivalent is {{a statement in [metalanguage](metalanguage.md), which expresses a relationship between two statements $p$ and $q$}}. The statements are {{logically equivalent if, in every model, they have the same truth value}}. <!--SR:!2024-09-25,11,289!2024-09-23,9,276-->
+On the other hand, the claim that two formulas are logically equivalent is {{a statement in [metalanguage](metalanguage.md), which expresses a relationship between two statements $p$ and $q$}}. The statements are {{logically equivalent if, in every model, they have the same truth value}}. <!--SR:!2024-09-25,11,289!2024-10-20,27,276-->
 
 ## references
 

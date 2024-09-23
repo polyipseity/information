@@ -153,7 +153,7 @@ return _chain.from_iterable(await _gather(
 - [bismuth](bismuth.md)→:::←[copper](copper.md) <!--SR:!2024-12-04,97,210!2025-01-25,397,250-->
 - [copper](copper.md)→:::←[tungsten](tungsten.md) <!--SR:!2025-10-22,593,270!2025-02-02,436,270-->
 - [tungsten](tungsten.md)→:::←[mercury](mercury%20(element).md) <!--SR:!2025-01-07,130,230!2024-10-06,77,190-->
-- [mercury](mercury%20(element).md)→:::←[silver](silver.md) <!--SR:!2026-08-12,877,330!2024-09-21,150,310-->
+- [mercury](mercury%20(element).md)→:::←[silver](silver.md) <!--SR:!2026-08-12,877,330!2025-12-30,464,310-->
 - [silver](silver.md)→:::←[gold](gold.md) <!--SR:!2026-06-26,904,330!2028-04-01,1423,350-->
 - [gold](gold.md)→:::←[platinum](platinum.md) <!--SR:!2028-01-27,1369,350!2027-04-17,1146,350-->
 - [platinum](platinum.md)→:::←_(least reactive)_ <!--SR:!2027-03-09,1114,350!2026-08-30,892,330-->
@@ -270,7 +270,7 @@ return _chain.from_iterable(await _gather(
 
 - reacts with cold [water](water.md)::[caesium](caesium.md), [rubidium](rubidium.md), [potassium](potassium.md), [sodium](sodium.md), [lithium](lithium.md), [barium](barium.md), [strontium](strontium.md), [calcium](calcium.md) <!--SR:!2024-11-28,88,165-->
 - reacts very slowly with cold [water](water.md), rapidly with boiling water, and very vigorously with [acids](acid.md)::[magnesium](magnesium.md) <!--SR:!2024-10-26,175,325-->
-- reacts with [steam](steam.md) and [acids](acid.md)::[beryllium](beryllium.md), [aluminium](aluminium.md) <!--SR:!2024-09-22,11,150-->
+- reacts with [steam](steam.md) and [acids](acid.md)::[beryllium](beryllium.md), [aluminium](aluminium.md) <!--SR:!2024-10-15,23,170-->
 - reacts with concentrated [mineral acids](mineral%20acid.md)::[titanium](titanium.md) <!--SR:!2026-01-01,477,325-->
 - reacts with [acids](acid.md), poorly with [steam](steam.md)::[manganese](manganese.md), [zinc](zinc.md), [chromium](chromium.md), [iron](iron.md), [cadmium](cadmium.md), [cobalt](cobalt.md), [nickel](nickel.md), [tin](tin.md), [lead](lead.md) <!--SR:!2024-10-04,24,165-->
 - may react with some strong [oxidizing agents](oxidizing%20agent.md)::[antimony](antimony.md), [bismuth](bismuth.md), [tungsten](tungsten.md), [mercury](mercury%20(element).md), [silver](silver.md), [gold](gold.md), [platinum](platinum.md) <!--SR:!2024-12-09,192,285-->

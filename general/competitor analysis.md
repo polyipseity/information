@@ -117,7 +117,7 @@ pricing: Find suitable prices catering to different market segment and economies
 - discover: Find holes in existing products.→:::←know ourselves: See if our products are sticky. <!--SR:!2025-01-04,129,221!2024-09-30,49,241-->
 - know ourselves: See if our products are sticky.→:::←know them: See how big of a threat competitors pose. <!--SR:!2024-12-30,156,301!2025-02-15,196,314-->
 - know them: See how big of a threat competitors pose.→:::←pricing: Find suitable prices catering to different market segment and economies. <!--SR:!2024-11-02,59,241!2024-12-26,140,261-->
-- pricing: Find suitable prices catering to different market segment and economies.→:::←_(end)_ <!--SR:!2025-04-24,264,341!2024-09-20,37,261-->
+- pricing: Find suitable prices catering to different market segment and economies.→:::←_(end)_ <!--SR:!2025-04-24,264,341!2024-12-30,99,261-->
 
 <!--/pytextgen-->
 

@@ -332,7 +332,7 @@ return chain.from_iterable(await gather(
 - ammonium ion::colorless <!--SR:!2026-05-12,1149,339-->
 - magnesium ion::colorless <!--SR:!2024-11-07,660,274-->
 - calcium ion::colorless <!--SR:!2029-05-08,1893,292-->
-- barium ion::colorless <!--SR:!2024-09-20,630,274-->
+- barium ion::colorless <!--SR:!2031-04-27,2407,294-->
 - lead(II) ion::colorless <!--SR:!2024-12-02,597,253-->
 - iron(II) ion::<span style="color: green;">green</span> <!--SR:!2027-07-17,1228,254-->
 - nickel(II) ion::<span style="color: green;">green</span> <!--SR:!2025-03-26,423,207-->
@@ -346,7 +346,7 @@ return chain.from_iterable(await gather(
 - chromium(III) ion::<span style="color: green;">green</span> <!--SR:!2027-08-09,1347,258-->
 - scandium(III) ion::colorless <!--SR:!2024-10-05,58,262-->
 - titanium(III) ion::<span style="color: purple; background-color: white;">purple</span> <!--SR:!2024-10-11,66,150-->
-- vanadium(II) ion::<span style="color: violet;">violet</span> <!--SR:!2024-09-20,15,130-->
+- vanadium(II) ion::<span style="color: violet;">violet</span> <!--SR:!2024-10-14,21,130-->
 - vanadium(III) ion::<span style="color: green;">green</span> <!--SR:!2024-10-29,82,170-->
 - manganese(III) ion::<span style="color: red;">red</color> <!--SR:!2025-10-25,509,250-->
 

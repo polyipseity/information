@@ -9,7 +9,7 @@ tags:
 
 # Galilean invariance
 
-{{__Galilean invariance__ or __Galilean relativity__}} states that {{the laws of motion are the same in all [inertial frames of reference](inertial%20frame%20of%20reference.md)}}. <!--SR:!2024-09-20,50,310!2024-10-01,59,310-->
+{{__Galilean invariance__ or __Galilean relativity__}} states that {{the laws of motion are the same in all [inertial frames of reference](inertial%20frame%20of%20reference.md)}}. <!--SR:!2025-04-23,213,330!2024-10-01,59,310-->
 
 ## references
 

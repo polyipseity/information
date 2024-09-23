@@ -27,4 +27,4 @@ One can make a worksheet active using {{the `Activate` method, like `Worksheets(
 
 ## selection
 
-You can get the currently selected cell or range using {{`Selection`}}. You can change the currently selected cell or range by doing {{`CellOrRange.Select`. Note that the worksheet the cell or range is on must be active, otherwise you get an error}}. <!--SR:!2025-05-14,284,310!2024-09-21,163,310-->
+You can get the currently selected cell or range using {{`Selection`}}. You can change the currently selected cell or range by doing {{`CellOrRange.Select`. Note that the worksheet the cell or range is on must be active, otherwise you get an error}}. <!--SR:!2025-05-14,284,310!2026-08-22,698,330-->

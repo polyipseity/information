@@ -68,7 +68,7 @@ return chain.from_iterable(await gather(
 > | median linkage clustering | WPGMC, weighted centroid clustering | $d(A \cup B, *) = d\left( \frac {m_A + m_B} 2, m_* \right)$, where $m_*$ is the [medoid](medoid.md) of the cluster $*$ | {{Median linkage clustering can better preserve small clusters that are merged into large clusters.}} |
 > | [single-linkage clustering](single-linkage%20clustering.md) | minimum linkage clustering, nearest neighbor technique | $d(A, B) = \min_{a \in A, b \in B} d(a, b)$ |  |
 > | unweighted average linkage clustering | [UPGMA](UPGMA.md), group average linkage clustering | $d(A, B) = \frac 1 {\lvert A \rvert \cdot \lvert B \rvert} \sum_{a \in A} \sum_{b \in B} d(a, b)$ |  |
-> | weighted average linkage clustering | McQuitty's Method, [WPGMA](WPGMA.md) | $d(A \cup B, *) = \frac {d(A, *) + d(B, *)} 2$ |  | <!--SR:!2025-07-27,318,290!2025-12-02,449,315!2024-09-23,109,289-->
+> | weighted average linkage clustering | McQuitty's Method, [WPGMA](WPGMA.md) | $d(A \cup B, *) = \frac {d(A, *) + d(B, *)} 2$ |  | <!--SR:!2025-07-27,318,290!2025-12-02,449,315!2025-08-03,314,289-->
 
 <!--/pytextgen-->
 
@@ -94,7 +94,7 @@ return chain.from_iterable(await gather(
 - [complete-linkage clustering](complete-linkage%20clustering.md)::maximum linkage clustering <!--SR:!2024-11-26,171,315-->
 - median linkage clustering::WPGMC, weighted centroid clustering <!--SR:!2024-10-13,110,255-->
 - [single-linkage clustering](single-linkage%20clustering.md)::minimum linkage clustering, nearest neighbor technique <!--SR:!2025-02-28,247,335-->
-- unweighted average linkage clustering::[UPGMA](UPGMA.md), group average linkage clustering <!--SR:!2024-09-23,118,295-->
+- unweighted average linkage clustering::[UPGMA](UPGMA.md), group average linkage clustering <!--SR:!2025-09-05,347,295-->
 - weighted average linkage clustering::McQuitty's Method, [WPGMA](WPGMA.md) <!--SR:!2025-05-06,236,255-->
 
 <!--/pytextgen-->
@@ -174,11 +174,11 @@ We define the _chi-squared measure_ between two binary variables $A$ and $B$, de
 > | __1__     | $a$   | $b$   |
 > | __0__     | $c$   | $d$   |
 >
-> The _chi-squared measure_ of $A$ and $B$ (symbol: $\chi_{AB}^2$ or $\chi_{BA}^2$) is defined as {{$$\chi_{AB}^2 = \chi_{BA}^2 = \frac {(a + b + c + d)(ad - bc)^2} {(a + b)(b + d)(d + c)(c + a)}$$}}. The equation in words, which may be easier to remember, is {{$$\chi_{AB}^2 = \chi_{BA}^2 = \frac {(\text{total})((\text{true positive})(\text{true negative}) - (\text{false positive})(\text{false negative}))^2} {(A\text{ is true})(A\text{ is false})(B\text{ is true})(B\text{ is false})} $$}}. <!--SR:!2024-10-05,120,295!2024-09-21,118,295!2024-10-21,109,235-->
+> The _chi-squared measure_ of $A$ and $B$ (symbol: $\chi_{AB}^2$ or $\chi_{BA}^2$) is defined as {{$$\chi_{AB}^2 = \chi_{BA}^2 = \frac {(a + b + c + d)(ad - bc)^2} {(a + b)(b + d)(d + c)(c + a)}$$}}. The equation in words, which may be easier to remember, is {{$$\chi_{AB}^2 = \chi_{BA}^2 = \frac {(\text{total})((\text{true positive})(\text{true negative}) - (\text{false positive})(\text{false negative}))^2} {(A\text{ is true})(A\text{ is false})(B\text{ is true})(B\text{ is false})} $$}}. <!--SR:!2024-10-05,120,295!2024-11-19,58,275!2024-10-21,109,235-->
 
 The chi-squared measure describes {{the degree of correlation between two variables}}. <!--SR:!2024-11-14,163,315-->
 
-Now, for each variable, denoted $A$ here, calculate {{the sum of all chi-squared measure with other variables except itself: $$\text{chi-squared measure sum of }A = \sum_{B \in \text{all variables except }A} \chi_{AB}^2$$}}. Find {{the variable with the largest sum (arbitrarily choose one if there are multiple variables with the largest sum)}}. Finally, {{split the observations into two clusters by the value of that variable and ignore that variable thereafter if further clustering is performed}}. Repeat {{this process recursively until you are satisfied with the clustering result}}. <!--SR:!2024-10-28,137,295!2025-01-12,208,315!2024-09-23,98,255!2024-10-21,123,275-->
+Now, for each variable, denoted $A$ here, calculate {{the sum of all chi-squared measure with other variables except itself: $$\text{chi-squared measure sum of }A = \sum_{B \in \text{all variables except }A} \chi_{AB}^2$$}}. Find {{the variable with the largest sum (arbitrarily choose one if there are multiple variables with the largest sum)}}. Finally, {{split the observations into two clusters by the value of that variable and ignore that variable thereafter if further clustering is performed}}. Repeat {{this process recursively until you are satisfied with the clustering result}}. <!--SR:!2024-10-28,137,295!2025-01-12,208,315!2024-11-10,48,235!2024-10-21,123,275-->
 
 ## references
 

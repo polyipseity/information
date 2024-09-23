@@ -13,7 +13,7 @@ tags:
 >
 > {{[crystal structure](crystal%20structure.md) of ice I<sub>h</sub>}} <!--SR:!2025-04-09,517,316!2026-01-29,790,336-->
 
-__Ice I<sub>h</sub>__ is {{the hexagonal [crystal](crystal.md) form of [ice](ice.md)}}, which is the most common on [Earth](Earth.md). <!--SR:!2024-09-22,389,290-->
+__Ice I<sub>h</sub>__ is {{the hexagonal [crystal](crystal.md) form of [ice](ice.md)}}, which is the most common on [Earth](Earth.md). <!--SR:!2029-01-06,1567,310-->
 
 It is charaterized by {{the [hexagonal arrangement](hexagonal%20crystal%20family.md) of [oxygen](oxygen.md) atoms and [tetrahedral](tetrahedron.md) bond angles}}. <!--SR:!2024-10-18,405,290-->
 

@@ -109,7 +109,7 @@ segmented: splitting slightly different customer segments
 <!--pytextgen generate section="9b8a"--><!-- The following content is generated at 2024-03-22T20:40:48.955505+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←diversified: serving unrelated customer segments <!--SR:!2025-03-25,207,257!2025-02-16,217,317-->
-- diversified: serving unrelated customer segments→:::←mass market: not distinguishing between customer segments <!--SR:!2025-03-28,199,237!2024-09-21,96,254-->
+- diversified: serving unrelated customer segments→:::←mass market: not distinguishing between customer segments <!--SR:!2025-03-28,199,237!2025-05-24,243,254-->
 - mass market: not distinguishing between customer segments→:::←multi-sided platforms: serving interdependent customer segments <!--SR:!2024-11-24,80,254!2024-11-05,54,277-->
 - multi-sided platforms: serving interdependent customer segments→:::←niche market: focusing on specific, specialized customer segments <!--SR:!2024-10-27,120,257!2025-03-31,200,254-->
 - niche market: focusing on specific, specialized customer segments→:::←segmented: splitting slightly different customer segments <!--SR:!2024-09-30,100,254!2024-09-27,15,157-->
@@ -168,7 +168,7 @@ risk reduction
 - brand or status→:::←convenience or usability <!--SR:!2024-11-12,63,214!2024-12-05,93,214-->
 - convenience or usability→:::←cost reduction <!--SR:!2024-10-11,108,254!2024-12-02,101,237-->
 - cost reduction→:::←customization <!--SR:!2025-05-10,254,274!2024-10-17,45,157-->
-- customization→:::←design <!--SR:!2024-09-20,39,257!2024-11-27,129,234-->
+- customization→:::←design <!--SR:!2024-12-31,99,257!2024-11-27,129,234-->
 - design→:::←newness <!--SR:!2025-04-26,228,257!2024-10-11,26,234-->
 - newness→:::←performance <!--SR:!2024-12-31,168,277!2024-09-26,99,257-->
 - performance→:::←performing the job well <!--SR:!2024-10-23,129,297!2025-08-20,351,294-->

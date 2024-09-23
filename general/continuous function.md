@@ -82,15 +82,15 @@ Note that for endpoints of the [function domain](domain%20of%20a%20function.md),
 > - function at an [isolated point](isolated%20point.md): $f(x \in \set{0}) = 0$ at $0$ :: It is continuous at $0$. <!--SR:!2024-12-21,214,324-->
 > - $f(x \in [0, +\infty)) = \sqrt{x}$ at $0$ :: It is continuous at $0$. <!--SR:!2025-02-18,263,330-->
 > - $f(x \in (0, +\infty)) = \sqrt{x}$ at $0$ :: It is not continuous at $0$. <!--SR:!2024-10-30,172,310-->
-> - $f(x \in [0, +\infty)) = \sqrt{x}$ at $-1$ :: It is not continuous at $-1$. <!--SR:!2024-09-22,148,310-->
+> - $f(x \in [0, +\infty)) = \sqrt{x}$ at $-1$ :: It is not continuous at $-1$. <!--SR:!2026-06-18,634,330-->
 
 ### construction of continuous functions
 
-The set of continuous functions is closed under {{addition, subtraction, multiplication; and reciprocal and division when restricting the domain to where the divisor is nonzero}}. That is, given two continuous functions $f, g: D \subseteq \mathbb{R} \to \mathbb{R}$, {{$f + g$, $f - g$, $f \cdot g$ are continuous in $D$, and $1 / g$ and $f / g$ are continuous in $D \setminus \set{x: g(x) \ne 0}$}}. The [converse](converse%20(logic).md) {{is not necessarily true, however}}. For example, {{given a discontinuous [real-valued function](real-valued%20function.md) $f$, $f + (-f) = f - f = 0$ and $f \cdot (f)^{-1} = f / f = 1$ are continuous. So the antecedent and the consequent cannot be swapped}}. <!--SR:!2024-09-29,117,313!2024-10-27,137,313!2024-12-02,176,333!2024-09-23,112,313-->
+The set of continuous functions is closed under {{addition, subtraction, multiplication; and reciprocal and division when restricting the domain to where the divisor is nonzero}}. That is, given two continuous functions $f, g: D \subseteq \mathbb{R} \to \mathbb{R}$, {{$f + g$, $f - g$, $f \cdot g$ are continuous in $D$, and $1 / g$ and $f / g$ are continuous in $D \setminus \set{x: g(x) \ne 0}$}}. The [converse](converse%20(logic).md) {{is not necessarily true, however}}. For example, {{given a discontinuous [real-valued function](real-valued%20function.md) $f$, $f + (-f) = f - f = 0$ and $f \cdot (f)^{-1} = f / f = 1$ are continuous. So the antecedent and the consequent cannot be swapped}}. <!--SR:!2024-09-29,117,313!2024-10-27,137,313!2024-12-02,176,333!2026-01-20,484,333-->
 
 > [!info]- proof of the set of continuous functions being closed under basic arithmetic operations
 >
-> - proof of the set of continuous functions being closed under basic arithmetic operations / strategy ::: For a continuous function $f(x)$, $\lvert f(x) - f(c) \rvert$ can be made to be smaller than an arbitrary small real $\epsilon$ for inputs in an interval around $c$. So setup the required inequalities, transform them, and identify expressions like $\lvert f(x) - f(c) \rvert$ in said inequalities. Claim that such expressions can be made arbitrarily small. <!--SR:!2024-09-20,16,350!2024-09-21,17,350-->
+> - proof of the set of continuous functions being closed under basic arithmetic operations / strategy ::: For a continuous function $f(x)$, $\lvert f(x) - f(c) \rvert$ can be made to be smaller than an arbitrary small real $\epsilon$ for inputs in an interval around $c$. So setup the required inequalities, transform them, and identify expressions like $\lvert f(x) - f(c) \rvert$ in said inequalities. Claim that such expressions can be made arbitrarily small. <!--SR:!2024-11-16,55,350!2024-12-12,81,370-->
 >
 > Using the above definitions...
 >
@@ -131,7 +131,7 @@ Apart from basic arithmetic operations, the set of continuous functions is also 
 
 > [!info]- proof of the set of continuous functions being closed under function composition
 >
-> - proof of the set of continuous functions being closed under function composition / strategy ::: Chain the two inequalities together to produce the required inequality. <!--SR:!2024-09-22,18,350!2024-11-23,66,350-->
+> - proof of the set of continuous functions being closed under function composition / strategy ::: Chain the two inequalities together to produce the required inequality. <!--SR:!2024-12-17,86,370!2024-11-23,66,350-->
 >
 > Using the above definitions...
 >

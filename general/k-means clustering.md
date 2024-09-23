@@ -20,7 +20,7 @@ Assuming that we have $k$ clusters, {{make $k$ initial means}}. Repeat the follo
 
 The algorithm has converged {{when the assignments no longer change}}, but the resulting clusters are {{not guaranteed to be the optimum}}. <!--SR:!2024-12-14,182,313!2024-12-18,188,310-->
 
-The algorithm may not converge if {{using a distance function other than the (squared) [Euclidean distance](Euclidean%20distance.md)}}. <!--SR:!2024-09-23,117,293-->
+The algorithm may not converge if {{using a distance function other than the (squared) [Euclidean distance](Euclidean%20distance.md)}}. <!--SR:!2026-01-11,475,313-->
 
 #### initialization methods
 

@@ -27,7 +27,7 @@ tags:
 >   - $k$ is {{angular wavenumber or angular spatial frequency}}.
 >   - $\omega$ is {{angular frequency, which equals 2 pi times normal (linear) frequency $\omega = 2\pi f$}}.
 >   - $\phi$ is {{initial phase offset}}.
->   - $D$ is {{equilibrium offset}}. <!--SR:!2024-09-21,44,290!2024-10-03,52,310!2024-10-10,59,310!2024-10-15,64,310!2024-10-04,53,310!2024-10-05,54,310!2024-10-16,65,310-->
+>   - $D$ is {{equilibrium offset}}. <!--SR:!2025-01-30,129,290!2024-10-03,52,310!2024-10-10,59,310!2024-10-15,64,310!2024-10-04,53,310!2024-10-05,54,310!2024-10-16,65,310-->
 
 In signal processing, apart from analog signals (continuous signals), we also deal with {{digital signals (discrete signals)}}. In that case, usually {{the time is discretized}}. So the equation becomes: <!--SR:!2024-10-08,57,310!2024-10-15,64,310-->
 
@@ -42,7 +42,7 @@ In signal processing, apart from analog signals (continuous signals), we also de
 >   - $k$ is {{angular wavenumber or angular spatial frequency}}.
 >   - $\omega$ is {{angular frequency, which equals 2 pi times normal (linear) frequency $\omega = 2\pi f$}}.
 >   - $\phi$ is {{initial phase offset}}.
->   - $D$ is {{equilibrium offset}}. <!--SR:!2024-10-05,54,310!2024-10-21,68,310!2024-10-19,66,310!2024-10-06,55,310!2024-10-20,67,310!2024-10-03,52,310!2024-10-04,53,310!2024-09-20,43,290-->
+>   - $D$ is {{equilibrium offset}}. <!--SR:!2024-10-05,54,310!2024-10-21,68,310!2024-10-19,66,310!2024-10-06,55,310!2024-10-20,67,310!2024-10-03,52,310!2024-10-04,53,310!2025-03-16,174,310-->
 
 For the two equations above, we will ignore {{the $kx$ term and the $\pm$ operator as we care about time more}}. <!--SR:!2024-10-20,67,310-->
 

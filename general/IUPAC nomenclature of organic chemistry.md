@@ -631,7 +631,7 @@ return (
 - cation→:::←carboxylic acid <!--SR:!2028-03-22,1421,275!2026-01-18,914,276-->
 - carboxylic acid→:::←carboxylic acid derivative <!--SR:!2028-08-04,1590,306!2026-10-25,1301,346-->
 - carboxylic acid derivative→:::←nitrile <!--SR:!2024-12-29,427,210!2025-06-24,292,247-->
-- nitrile→:::←aldehyde <!--SR:!2024-10-10,52,170!2024-09-22,43,190-->
+- nitrile→:::←aldehyde <!--SR:!2024-10-10,52,170!2024-12-11,80,190-->
 - aldehyde→:::←ketone <!--SR:!2026-12-29,1065,252!2024-12-06,598,250-->
 - ketone→:::←alcohol <!--SR:!2026-06-11,743,250!2024-10-11,25,150-->
 - alcohol→:::←hydroperoxide <!--SR:!2027-05-18,1057,226!2026-10-20,1068,272-->
@@ -677,7 +677,7 @@ return await memorize_table(
 - [acetone](acetone.md)→:::←[chloroform](chloroform.md) <!--SR:!2027-03-26,1038,344!2025-11-25,553,364-->
 - [chloroform](chloroform.md)→:::←[formaldehyde](formaldehyde.md) <!--SR:!2024-11-25,140,344!2025-01-11,242,304-->
 - [formaldehyde](formaldehyde.md)→:::←[isopropyl alcohol](isopropyl%20alochol.md) <!--SR:!2025-04-07,336,324!2025-01-11,177,344-->
-- [isopropyl alcohol](isopropyl%20alochol.md)→:::←_(end)_ <!--SR:!2029-01-30,1604,384!2024-09-20,233,304-->
+- [isopropyl alcohol](isopropyl%20alochol.md)→:::←_(end)_ <!--SR:!2029-01-30,1604,384!2026-08-30,707,304-->
 
 <!--/pytextgen-->
 

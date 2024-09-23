@@ -15,7 +15,7 @@ The north and south __celestial poles__ are {{the two points in the [sky](sky.md
 
 The [north](north.md) celestial pole currently is {{within one degree of the bright star [Polaris](Polaris.md) (named from the [Latin](Latin.md) _stella polaris_, meaning "pole star")}}. <!--SR:!2025-06-12,267,332-->
 
-To {{find [Polaris](Polaris.md)}}, from {{a point in the [Northern Hemisphere](Northern%20Hemisphere.md), face [north](north.md)}} and locate the [Big Dipper](Big%20Dipper.md) (Plough) and [Little Dipper](Ursa%20Minor.md) [asterisms](asterism%20(astronomy).md)}}. Looking at {{the "cup" part of the Big Dipper, imagine that the two stars at the outside edge of the cup form a line pointing upward out of the cup}}. This line points directly at {{the [star](star.md) at the tip of the Little Dipper's handle, which is Polaris}}. <!--SR:!2024-09-25,69,312!2024-09-20,64,312!2024-11-06,82,272!2024-11-13,89,272-->
+To {{find [Polaris](Polaris.md)}}, from {{a point in the [Northern Hemisphere](Northern%20Hemisphere.md), face [north](north.md)}} and locate the [Big Dipper](Big%20Dipper.md) (Plough) and [Little Dipper](Ursa%20Minor.md) [asterisms](asterism%20(astronomy).md)}}. Looking at {{the "cup" part of the Big Dipper, imagine that the two stars at the outside edge of the cup form a line pointing upward out of the cup}}. This line points directly at {{the [star](star.md) at the tip of the Little Dipper's handle, which is Polaris}}. <!--SR:!2024-09-25,69,312!2025-04-09,199,312!2024-11-06,82,272!2024-11-13,89,272-->
 
 ## finding the south celestial pole
 
@@ -23,7 +23,7 @@ To {{find [Polaris](Polaris.md)}}, from {{a point in the [Northern Hemisphere](N
 
 ### method one: the Southern Cross
 
-The [south](south.md) celestial pole can be located from {{the [Southern Cross](Crux.md) (Crux)}}. Draw {{an imaginary line from [γ Crucis](Gacrux.md) to [α Crucis](Acrux.md)—the two stars at the extreme ends of the long axis of the cross}}—and {{follow this line through the sky. Go four-and-a-half times the distance of the long axis in the direction the narrow end of the cross points (the foot of the crucifix)}}. This point is {{5 or 6 degrees}} from the south celestial pole. <!--SR:!2025-03-10,177,312!2024-11-05,83,272!2025-01-13,133,292!2024-09-23,67,312-->
+The [south](south.md) celestial pole can be located from {{the [Southern Cross](Crux.md) (Crux)}}. Draw {{an imaginary line from [γ Crucis](Gacrux.md) to [α Crucis](Acrux.md)—the two stars at the extreme ends of the long axis of the cross}}—and {{follow this line through the sky. Go four-and-a-half times the distance of the long axis in the direction the narrow end of the cross points (the foot of the crucifix)}}. This point is {{5 or 6 degrees}} from the south celestial pole. <!--SR:!2025-03-10,177,312!2024-11-05,83,272!2025-01-13,133,292!2025-04-19,208,312-->
 
 ## references
 
