@@ -75,10 +75,10 @@ The content is in teaching order.
       - [§ concept](../../../../general/scarcity.md#concept)
       - [§ scarce goods](../../../../general/scarcity.md#scarce%20goods)
       - [§ nonscarce goods](../../../../general/scarcity.md#nonscarce%20goods)
-  - 10 principles of economics / (2) opportunity cost (choices and opportunity cost) ::: __Opportunity cost__ is the "cost" we usually talk about in economics. It is the the value of the best alternative forgone (this includes the _explicit cost_ of the selected choice), given that you have to make a choice. There is __explicit opportunity cost__, which is opportunity cost that requires either a cash transaction or a physical transfer of resources, and thus is easily identifiable. But there is also __implicit opportunity cost__, which is opportunity cost that involves neither a cash transaction nor a physical transfer of resources.
-    - 10 principles of economics / opportunity cost / definitions ::: __Economic cost__ is sometimes used in place of _opportunity cost_, but it can also refer to _the sum of accounting cost and opportunity cost_. Opportunity cost may _rarely_ only refer to _implicit opportunity cost_. In this course, __opportunity cost__ includes _both_ explicit and implicit opportunity cost.
+  - 10 principles of economics / (2) opportunity cost (choices and opportunity cost) ::: __Opportunity cost__ is the "cost" we usually talk about in economics. Unless otherwise specified or inferred, the word "cost" refers to _opportunity cost_. It is the the value of the best alternative forgone (this includes the _explicit cost_ of the selected choice), given that you have to make a choice. There is __explicit opportunity cost__, which is opportunity cost that requires either a cash transaction or a physical transfer of resources, and thus is easily identifiable. But there is also __implicit opportunity cost__, which is opportunity cost that involves neither a cash transaction nor a physical transfer of resources.
+    - 10 principles of economics / opportunity cost / definitions ::: Opportunity cost may _rarely_ only refer to _implicit opportunity cost_. In that case, __economic cost__ is sometimes used to refer the _sum_ of explicit (also called __accounting cost__) and implicit opportunity cost. In this course, __opportunity cost__ includes _both_ explicit and implicit opportunity cost.
     - 10 principles of economics / opportunity cost / choice ::: If there is no choice to be made, either because there is _one and only one available option_ (e.g. food, sleep; which you cannot decide to NOT do) or _all options can be chosen_ (e.g. you can buy everything you want if you are a billionaire), then there is _no opportunity cost_. Opportunity cost can change as new choices (information) become available (e.g. suddenly finding gold/oil under your business's hotel).
-    - 10 principles of economics / opportunity cost / reason for including the _explicit opportunity cost_ ::: This is a frequent confusion. It would seem like the _explicit opportunity cost_ should be not included because it is _usually_ a direct cost of the choice being made and should not belong to the value of the _best alternative forgone_. However, if you consider that the direct cost of the current choice can also have _alternative uses_, then it is clear why the direct cost should also be included.
+    - 10 principles of economics / opportunity cost / reason for including the _explicit opportunity cost_ ::: This is a frequent point of confusion. It would seem like the _explicit opportunity cost_ should be not included because it is _usually_ a direct cost of the choice being made and should not belong to the value of the _best alternative forgone_. However, if you consider that the direct cost of the current choice itself also have _alternative uses_, then it is clear why the direct cost should also be included.
     - 10 principles of economics / opportunity cost / sunk cost ::: Opportunity cost is a _forward-looking_ concept, because _previously incurred and irreversible_ costs should be ignored when making decisions _now_. This cost is known as __sunk cost__. Why should we ignore it when making decisions? This is because no matter what decision you make right now, it will not affect sunk costs. Hence the name "_sunk_ cost".
     - [opportunity cost](../../../../general/opportunity%20cost.md)
       - [§ opportunity cost](../../../../general/opportunity%20cost.md#opportunity%20cost)
@@ -96,12 +96,7 @@ The content is in teaching order.
       - [§ marginal utility](../../../../general/marginalism.md#marginal-utility)
       - [§ quantified marginal utility](../../../../general/marginalism.md#quantified%20marginal%20utility)
       - [§ law of diminishing marginal utility](../../../../general/marginalism.md#law%20of%20diminishing%20marginal%20utility)
-    - 10 principles of economics / (4) incentive (people respond to incentives) ::: People are not machines and you (usually :/) cannot just order people to do something. However, you can use __incentives__ to guide people's behaviors _significantly_. Incentives lead to intended consequences, but may also lead to __unintended consequences__, because people react to incentives _smartly_ (for perfectly rational people, this is maximizing their benefits given the incentives).
-      - 10 principles of economics / incentive / rent regulation ::: Can rent regulation protect poor people from rent increase? Maybe... but also maybe not. Landlords may decide to not rent, spend less money on maintaining the rental units, etc. This is an example of _unintended consequences_. Indeed, the consensus of many economists is that rent regulation reduces the quantity and quality of rental units.
-    - 10 principles of economics / (5) trade ::: It can make everyone better off. This will be explained in chapter 3. (Or see _comparative advantage_...)
-      - [opportunity cost § comparative advantage versus absolute advantage](../../../../general/opportunity%20cost.md#comparative%20advantage%20versus%20absolute%20advantage)
-    - 10 principles of economics / (6) market economy ::: __Markets__ (__market economy__) are _usually_ a good way, in terms of efficiency to the society, to organize economic activities. Under __perfect competition__, this is true. However, in real life situations where perfect competition may not hold, markets may fail to be most efficient for the society, and this is known as __market failure__.
-- [questions § chapter 1 lecture notes](questions.md#chapter%201%20lecture%20notes)
+- [questions § chapter 1 lecture](questions.md#chapter%201%20lecture)
 
 ## week 2 tutorial
 
@@ -111,6 +106,12 @@ The content is in teaching order.
 ## week 2 lecture 2
 
 - time: 2024-09-13T12:00:00+08:00/2024-09-13T13:20:00+08:00
+- 10 principles of economics
+  - 10 principles of economics / (4) incentive (people respond to incentives) ::: People are not machines and you (usually :/) cannot just order people to do something. However, you can use __incentives__ to guide people's behaviors _significantly_. Incentives lead to intended consequences, but may also lead to __unintended consequences__, because people react to incentives _smartly_ (for perfectly rational people, this is maximizing their benefits given the incentives).
+    - 10 principles of economics / incentive / rent regulation ::: Can rent regulation protect poor people from rent increase? Maybe... but also maybe not. Landlords may decide to not rent, spend less money on maintaining the rental units, etc. This is an example of _unintended consequences_. Indeed, the consensus of many economists is that rent regulation reduces the quantity and quality of rental units.
+  - 10 principles of economics / (5) trade ::: It can make everyone better off. This will be explained in chapter 3. (Or see _comparative advantage_...)
+    - [opportunity cost § comparative advantage versus absolute advantage](../../../../general/opportunity%20cost.md#comparative%20advantage%20versus%20absolute%20advantage)
+  - 10 principles of economics / (6) market economy ::: __Markets__ (__market economy__) are _usually_ a good way, in terms of efficiency to the society, to organize economic activities. Under __perfect competition__, this is true. However, in real life situations where perfect competition may not hold, markets may fail to be most efficient for the society, and this is known as __market failure__.
 - announcements
   - assigned reading: textbook chapter 2, [Hong Kong's waste problem: what is the new charging scheme and how can it clean up the issue?](https://sc.mp/y4w9)
   - assignment: [problem set 2](assignments/problem%20set%202/submission.md)
@@ -126,16 +127,98 @@ The content is in teaching order.
   - scientific method / models ::: Models usually have many assumptions to keep it simple. The assumptions can be almost real, or completely out-of-reality. However, the usefulness of a model depends on its explanatory and predictive power.
 - [positive and normative economics](../../../../general/positive%20and%20normative%20economics.md) ::: Positive: What is? We simply describe economics as-is. These statements are testable. Normative: What should be? We apply our own value judgement, which may differ from individuals to individuals.
   - Why do economists disagree with each other? ::: Economists can disagree with each other! \*grasp\* This could be a difference of scientific judgement, such as different economics schools of thought. The schools of thought predict different things with different theories, and it is difficult to create natural experiments to test them and see which are better. Another source is value judgement, such as the ultimate goal of studying economics.
-- [questions § chapter 2 lecture notes](questions.md#chapter%202%20lecture%20notes)
+- [questions § chapter 2 lecture](questions.md#chapter%202%20lecture)
 
 ## week 3 lecture
 
 - time: 2024-09-16T16:30:00+08:00/2024-09-16T17:50:00+08:00
+- announcements
+  - assigned reading: textbook chapter 3
+  - assignment: [problem set 3](assignments/problem%20set%203/submission.md)
+- exchange ::: It is transferring things with economic value to others, with said others giving back other things with economic value, usually money.
+  - exchange / When? ::: The first scenario is maybe we have the same item, but said item has different economic values to us. Or I have more of the item so its marginal utility to me is low due to the law of diminishing marginal utility. The second scenario is we produce different items, and we produce our own item at a lower cost (= opportunity cost) than anyone can. The second one is more significant. In both cases, both parties benefit from exchange. In the latter case, it also leads to specialization of production.
+- [factors of production](../../../../general/factors%20of%20production.md) ::: labor, capital, land, and entrepreneur/enterprise
+  - [§ factors of production](../../../../general/factors%20of%20production.md#factors%20of%20production)
+  - [factors of production](../../../../general/factors%20of%20production.md) / substitution ::: The factors of production may be able to substitute each other. For example, if a work can be done by either labor or machine, then labor and capital substitutes each other.
+  - [factors of production](../../../../general/factors%20of%20production.md) / labor :: Labor does not refer to _person_, but rather _effort_. Many people, but none working at all, contributes no labor. Thus, incentives to work are also important, such as institution and compensation systems. Additionally, machinery or tools can improve labor productivity (amount of production per person). Developed countries usually have good incentive systems and many machinery and tools, which can be measured by capital per capita.
+  - [factors of production](../../../../general/factors%20of%20production.md) / entrepreneur ::: It refers to how the other three factors are combined by entrepreneurs by make a profit. It distinguishes _labor effort_ and _risk-taking behavior_.
+  - [factors of production](../../../../general/factors%20of%20production.md) / land ::: Land not only includes the site of production but also its natural resources. Land is mostly created by nature, but nowadays can be changed _slightly_ by humans.
+  - [factors of production](../../../../general/factors%20of%20production.md) / capital ::: __Capital creation__ is interesting. We can invest capital to get more capital back in the future. This is known as a __trade-off__ of current and future consumption.
+  - [factors of production](../../../../general/factors%20of%20production.md) / examples ::: For example, a fisherman buying (has (opportunity) cost, sacrificing current consumption) a fish net (__investment__) to better catch fish (__return to capital__) is a trade-off. The fisherman is using his/her _capital_. Also, note that the fisherman is providing _labor_ himself/herself. Finally, also note that the fisherman also has _entrepreneurship_, because he/she needs to bear the risk of not recovering all the cost of his/her initial investment (_risk-taking behavior_). The _land_ is the location he/she fishes in and provides fish, a natural resource.
+- [division of labour](../../../../general/division%20of%20labour.md) ::: separation of tasks by different entities, _may_ increase the total output of all entities, benefiting everyone via trade
+  - [§ division of labour](../../../../general/division%20of%20labour.md#division%20of%20labour)
+- [production–possibility frontier](../../../../general/production–possibility%20frontier.md) (PPF) ::: A graphical representation showing all the possible options of output for two goods that can be produced using all factors of production. It is an awesome tool to visualize the gain from economic specialization.
+  - [production–possibility frontier](../../../../general/production–possibility%20frontier.md) / model ::: It is a good model. A scenario with 2 goods can be described by a diagram, and scenarios with 2 or more goods can be described using mathematical equations. A scenario with 1 good is not considered because there is no _trade-off_ and does not show how specialization benefits everyone. So the model is good because it can explain how specialization benefits everyone well.
+  - [production–possibility frontier](../../../../general/production–possibility%20frontier.md) / diagram ::: The diagram is a graph between two goods produced. The order does not matter. Graph the resulting curve by evaluating, given that we have limited resources (factors of production) and we produce a certain amount of a good, the maximum amount of the other good that can be produced.
+    - [production–possibility frontier](../../../../general/production–possibility%20frontier.md) / diagram / interpretation ::: The curve border is known as the __frontier__. The area inside the frontier (including the frontier) is feasible given limited resources (factors of production), while outside the frontier (excluding the frontier) is infeasible given limited resources. A _rational_ person would only produce on the frontier as it is _efficient_, because being inside the frontier (excluding the frontier) means there are unused capacity (__production inefficiency__), while being outside the frontier (excluding the frontier) is impossible. The slope (derivative multiplied by -1) at any point represents the producer __marginal rate of transformation__, i.e. how much of one good needs to be given up to produce a certain amount of the other good. This is also the _marginal (opportunity) cost_ of producing one good, given only these two goods can be produced.
+  - [§ production–possibility frontier](../../../../general/production–possibility%20frontier.md#production–possibility%20frontier)
+  - [§ properties](../../../../general/production–possibility%20frontier.md#properties)
+  - [§ efficiency](../../../../general/production–possibility%20frontier.md#efficiency)
+  - [§ marginal rate of transformation](../../../../general/production–possibility%20frontier.md#marginal%20rate%20of%20transformation)
+  - [§ opportunity cost](../../../../general/production–possibility%20frontier.md#opportunity%20cost)
+- [absolute advantage](../../../../general/absolute%20advantage.md) (AA) ::: the ability of a party (an individual, or firm, or country) to produce a good or service more efficiently than its competitors (≈ compare (value / _explicit_ opportunity cost) and see which is higher)
+  - [§ absolute advantage](../../../../general/absolute%20advantage.md#absolute%20advantage)
+  - [absolute advantage](../../../../general/absolute%20advantage.md) / specialization ::: Absolute advantage should NOT be used to judge whether specialization will be beneficial. Instead use comparative advantage.
+  - [§ origin of the theory](../../../../general/absolute%20advantage.md#origin%20of%20the%20theory)
+- [comparative advantage](../../../../general/comparative%20advantage.md) (CA) ::: the ability of a party (an individual, or firm, or country) to produce a good can be produced at a lower relative opportunity cost or autarky price, i.e. at a lower relative marginal cost prior to trade, than its competitors (≈ compare (opportunity cost / value) and see which is lower)
+  - [§ comparative advantage](../../../../general/comparative%20advantage.md#comparative%20advantage)
+  - [comparative advantage](../../../../general/comparative%20advantage.md) / specialization ::: Comparative advantage should be used to judge whether specialization will be beneficial. In particular, this will result in maximizing the total output.
+  - [§ classical theory and David Ricardo's formulation](../../../../general/comparative%20advantage.md#classical%20theory%20and%20David%20Ricardo's%20formulation)
+- [production–possibility frontier](../../../../general/production–possibility%20frontier.md)
+  - joint [production–possibility frontier](../../../../general/production–possibility%20frontier.md) (joint PPF) ::: The joint PPF represents the total outputs of multiple producers producing multiple goods. Usually we have two producers producing two goods.
+    - joint [production–possibility frontier](../../../../general/production–possibility%20frontier.md) / diagram ::: Assume we have two producers producing two goods. To graph it as a diagram, we need to add some constraints, or otherwise a 4D diagram is needed.
+      - joint [production–possibility frontier](../../../../general/production–possibility%20frontier.md) / diagram / constraints ::: To graph it as a diagram, we need to add some constraints, or otherwise a 4D diagram is needed. There are three common constraints. Assume A better _fully_ specializes in X and B better _fully_ specializes Y, using comparative advantages to determine the better specialization.
+        - joint [production–possibility frontier](../../../../general/production–possibility%20frontier.md) / diagram / constraints / best full specialization ::: The first constraint is the curve joined by two curves, with one curve being the PPF of B assuming A fully specializes in X, and the other curve being the PPF of A assuming B fully specializes in Y. They should meet at a point, representing A fully specializing in X and B fully specializing in Y, the best scenario. The final curve should also curve outward.
+        - joint [production–possibility frontier](../../../../general/production–possibility%20frontier.md) / diagram / constraints / worst full specialization ::: The first constraint is the curve joined by two curves, with one curve being the PPF of B assuming A fully specializes in Y, and the other curve being the PPF of A assuming B fully specializes in X. They should meet at a point, representing A fully specializing in Y and B fully specializing in X, the worst scenario. The final curve should also curve inward.
+        - joint [production–possibility frontier](../../../../general/production–possibility%20frontier.md) / diagram / constraints / unspecialized ::: Assume the PPFs of both producers are _linear_. When they are not both linear, this constraint does not make much sense. The constraint is the percentages of actual X produced divided by maximum X produced are the same for both producers. This is also equivalent to the percentages of actual Y produced divided by maximum Y produced are the same for both producers. The resulting curve should be a _straight line_ in between the two curves constrained as above (best and worst full specialization), and meeting the two curves at the two endpoints (x-axis and y-axis). It represents the _joint PPF without specialization_.
+      - joint [production–possibility frontier](../../../../general/production–possibility%20frontier.md) / diagram / interpretation ::: Assume the PPFs are _linear_ and the three curves constrained as above are drawn. The curved outward curve should be the "best full specialization" curve. The curved inward curve should be the "worst full specialization" curve. The straight line curve in between should be the "unspecialized" curve, meeting the two curves above at the two endpoints (x-axis and y-axis). The outward point on the curved outward curve represents both producers fully specialize in their own best-specialized goods, thus producing the most total output. The two endpoints represent both producers producing one good only. Lastly, the "unspecialized" curve represents the producers not specializing in anything. The area in between the "best full specialization" and "unspecialized" curve is the _gain from specialization_.
+  - nonlinear [production–possibility frontier](../../../../general/production–possibility%20frontier.md) ::: Note that _nonlinear_ PPFs may make _full_ specialization no longer maximizes the total output.
+- [questions § chapter 3 lecture](questions.md#chapter%203%20lecture)
 
 ## week 3 tutorial
 
 - time: 2024-09-17T17:00:00+08:00/2024-09-17T17:50:00+08:00
+- [§ week 1 lecture](#week%201%20lecture)
+- [§ week 1 lecture 2](#week%201%20lecture%202)
+- [§ week 2 lecture](#week%202%20lecture)
+- [§ week 2 lecture 2](#week%202%20lecture%202)
+- [§ week 3 lecture](#week%203%20lecture)
+- [Hong Kong's waste problem: what is the new charging scheme and how can it clean up the issue?](https://sc.mp/y4w9)
+- [questions § waste charging](questions.md#waste%20charging)
 
 ## week 3 lecture 2
 
 - time: 2024-09-20T12:00:00+08:00/2024-09-20T13:20:00+08:00
+- [production–possibility frontier](../../../../general/production–possibility%20frontier.md)
+  - [production–possibility frontier](../../../../general/production–possibility%20frontier.md) / division of total output ::: However, note that while specialization _may_ maximize the total output, both parties only benefit from this when the total output can be _divided fairly_ among the two producers. If there is no way to do so, specialization will not happen. One way to divide the total output fairly is _trade_.
+  - [production–possibility frontier](../../../../general/production–possibility%20frontier.md) / trade ::: One simple way to think about trade is the _exchange ratio_. It is very simple actually. If the marginal (opportunity) cost of producing a good is lower than its marginal benefit (from the exchange ratio), then the producer is willing to trade. If this is the case for both producers producing in their own better specialized products, then they will trade with each other. This is how trade can divide the total output fairly.
+    - [production–possibility frontier](../../../../general/production–possibility%20frontier.md) / trade / exchange ratio ::: But how is the ratio determined? This is where supply and demand comes in, which we will learn soon. In a market, the ratio is also known as the _market price_. To conclude, PPF provides information on the supply side, but we also need to know the demand side to known the ratio, i.e. _price_ if in a market.
+  - [production–possibility frontier § shape](../../../../general/production–possibility%20frontier.md#shape) ::: If the PPF bows outwards, this imply the marginal cost of a good increases as more of that good is produced. A way to see this compare the slopes. As you increase production of the good in the x-axis, the slope becomes increasingly steep, so the marginal (opportunity) cost of said good increases. (There are also other possible shapes.)
+    - [production–possibility frontier § shape](../../../../general/production–possibility%20frontier.md#shape) / specialization ::: Note how joint PPF also bows outwards for the "best full specialization" curve. Perhaps we can then imagine a society where everyone has their own strengths. Then their joint PPF would also bow outwards, and everyone specializing on their own strengths would yield the most total output. (This explanation is a quite not strict though...)
+  - [production–possibility frontier](../../../../general/production–possibility%20frontier.md) / growth ::: With additional resources or better technology (improved efficiency), we can produce more. As a result, the PPF curve would shift outwards. For resources, the PPF curve would shift outwards evenly. But for better technology, it can also shift outwards evenly, but can also shift outwards unevenly if better technology impacts one good more than the other.
+  - [§ position](../../../../general/production–possibility%20frontier.md#position)
+- trade & policy
+  - trade & policy / Does free trade benefit everyone? ::: Free trade seems to benefit everyone, since the total output increases by specialization. However, in real world, this is much more complicated. Consider workers in different countries. If a country has lower opportunity cost for a good because the good is labor-intensive and said country pays lower wages, then workers of other countries may go out of work. In a way, the workers are competing across countries due to free trade instead of in their own country only. Workers may get lower wages as a result. Yet, since free trade lowers the marginal (opportunity) cost of goods, the workers can buy goods for cheaper. So it is hard to definitively say if the workers benefit from free trade. For an example, compare China and the United States.
+- announcements
+  - assigned reading: textbook chapter 4
+  - assignment: [problem set 4](assignments/problem%20set%204/submission.md)
+- [market economy](../../../../general/market%20economy.md)
+  - [§ market economy](../../../../general/market%20economy.md#market%20economy)
+  - [market economy](../../../../general/market%20economy.md) / market ::: What is a market? (Not in the sense of markets nearby you!) It is a place for _voluntary exchanges_. It can be physical or virtual, organized or less organized, etc. There are, however, costs associated with running a market, such as setup, deal making, legal systems, etc., which may affect the prevalence of markets in a country, like developing countries.
+  - [§ characteristics](../../../../general/market%20economy.md#characteristics)
+  - [§ property rights](../../../../general/market%20economy.md#property%20rights)
+- [questions § chapter 3 lecture](questions.md#chapter%203%20lecture)
+
+## week 4 lecture
+
+- time: 2024-09-23T16:30:00+08:00/2024-09-23T17:50:00+08:00
+
+## week 4 tutorial
+
+- time: 2024-09-24T17:00:00+08:00/2024-09-24T17:50:00+08:00
+- [§ week 3 lecture 2](#week%203%20lecture%202)
+- [§ week 4 lecture](#week%204%20lecture)
+
+## week 4 lecture 2
+
+- time: 2024-09-27T12:00:00+08:00/2024-09-27T13:20:00+08:00

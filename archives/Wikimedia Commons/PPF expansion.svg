@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   version="1.0"
+   width="470"
+   height="475"
+   id="svg2">
+  <defs
+     id="defs4">
+    <marker
+       refX="0"
+       refY="0"
+       orient="auto"
+       id="Arrow1Lend"
+       style="overflow:visible">
+      <path
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         id="path4086"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none" />
+    </marker>
+    <marker
+       refX="0"
+       refY="0"
+       orient="auto"
+       id="Arrow1Mend"
+       style="overflow:visible">
+      <path
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         id="path4092"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none" />
+    </marker>
+    <marker
+       refX="0"
+       refY="0"
+       orient="auto"
+       id="Arrow2Mend"
+       style="overflow:visible">
+      <path
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="matrix(-0.6,0,0,-0.6,3,0)"
+         id="path3596"
+         style="font-size:12px;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round" />
+    </marker>
+    <marker
+       refX="0"
+       refY="0"
+       orient="auto"
+       id="Arrow1Lstart"
+       style="overflow:visible">
+      <path
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         transform="scale(0.8,0.8)"
+         id="path3607"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none" />
+    </marker>
+    <marker
+       refX="0"
+       refY="0"
+       orient="auto"
+       id="TriangleOutL"
+       style="overflow:visible">
+      <path
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         transform="scale(0.8,0.8)"
+         id="path3534"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none" />
+    </marker>
+    <marker
+       refX="0"
+       refY="0"
+       orient="auto"
+       id="Arrow2Lend"
+       style="overflow:visible">
+      <path
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="matrix(-1.1,0,0,-1.1,5.5,0)"
+         id="path3599"
+         style="font-size:12px;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round" />
+    </marker>
+    <linearGradient
+       id="linearGradient3455">
+      <stop
+         id="stop3457"
+         style="stop-color:#d7f0f0;stop-opacity:1"
+         offset="0" />
+      <stop
+         id="stop3463"
+         style="stop-color:#d7f0f0;stop-opacity:0.73469388"
+         offset="0.5" />
+      <stop
+         id="stop3459"
+         style="stop-color:#d7f0f0;stop-opacity:0"
+         offset="1" />
+    </linearGradient>
+    <linearGradient
+       x1="380"
+       y1="190"
+       x2="380"
+       y2="516"
+       id="linearGradient3461"
+       xlink:href="#linearGradient3455"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.124224,0,0,1.026846,-83.25479,-27.36183)" />
+  </defs>
+  <path
+     d="M 446.35451,437.66761 44.167834,436.7118 42.216115,24.756564"
+     id="path1326"
+     style="fill:none;stroke:#000000;stroke-width:0.96578413px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:none;marker-end:none" />
+  <path
+     d="m 42.82532,174.52316 c 101.98561,2.29612 156.53549,47.65198 194.21793,90.47929 67.84191,77.10454 64.11211,171.36235 64.11211,171.36235"
+     id="path3472"
+     style="fill:none;stroke:#4040ff;stroke-width:2.20000005;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+  <text
+     x="-379.74393"
+     y="29.706486"
+     transform="matrix(0,-0.98782898,1.012321,0,0,0)"
+     id="text3657"
+     xml:space="preserve"
+     style="font-size:25.40434265px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"><tspan
+       x="-379.74393"
+       y="29.706486"
+       id="tspan3659"
+       style="font-size:20px">Quantity of Guns Produced</tspan></text>
+  <text
+     x="96.939789"
+     y="455.90106"
+     transform="scale(0.98782898,1.012321)"
+     id="text3653"
+     xml:space="preserve"
+     style="font-size:23.49279404px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"><tspan
+       x="96.939789"
+       y="455.90106"
+       id="tspan3655"
+       style="font-size:20px">Quantity of Butter Produced</tspan></text>
+  <path
+     d="m 42.004623,13.377506 6.925724,17.257364 c 0,0 -5.9813,-8.428014 -13.221829,0 l 6.296105,-17.257364 z"
+     id="path2180"
+     style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+  <path
+     d="m 459.62326,437.7438 -17.25736,6.92573 c 0,0 8.42801,-5.98131 0,-13.22183 l 17.25736,6.2961 z"
+     id="path2186"
+     style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+  <text
+     x="250.18028"
+     y="125.59825"
+     id="text1983"
+     xml:space="preserve"
+     style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"><tspan
+       x="250.18028"
+       y="125.59825"
+       id="tspan1985" /></text>
+  <path
+     d="M 43.335984,45.795553 C 195.6506,49.224789 277.12037,116.96337 333.39876,180.92558 c 101.3213,115.15496 95.75088,255.92817 95.75088,255.92817"
+     id="path3472-0"
+     style="fill:none;stroke:#4040ff;stroke-width:3.28568077;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+  <path
+     d="m 310.43728,185.89999 -8.14745,12.05023 c 0,0 2.92163,-7.27342 -5.37909,-7.06341 l 13.52654,-4.98682 z"
+     id="path2180-1"
+     style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+  <path
+     d="m 307.29718,188.43598 c -65.2692,46.55795 -65.49373,47.40967 -65.49373,47.40967 l 0.44905,-1.70344"
+     id="path5409"
+     style="fill:none;stroke:#000000;stroke-width:1.80700004;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+</svg>

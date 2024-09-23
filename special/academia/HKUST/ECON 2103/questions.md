@@ -17,9 +17,9 @@ tags:
 
 - HKUST ECON 2103
 
-## lecture notes
+## lectures
 
-### chapter 1 lecture notes
+### chapter 1 lecture
 
 > Q1. What is the opportunity cost of attending a concert?
 >
@@ -89,7 +89,7 @@ tags:
 > - Drug addiction is a problem. Let's make it a non-problem by legalizing the use of drugs. ::: Drugs become more available. This lowers drug prices. People may get addicted to drugs more easily. However, it may decrease enforcement costs, regulate the drug market, and make rehabilitating drug addicts easier.
 > - Drug addiction is a problem. Let's enforce drug laws more strictly. ::: Drugs become less available. This increases drug prices. People may get addicted to drugs less easily. However, it may increase drug trafficking activity due to increased profits if succeeded, increasing enforcement costs. Drug addicts may also commit more crimes in order to get money for drugs.
 
-### chapter 2 lecture notes
+### chapter 2 lecture
 
 > Q1. Which of the following is correct about this statement? "Not every citizen has their own housing. Building more government subsidized housing helps more citizens have their own housing. So building more government subsidized housing would be top priority."
 >
@@ -121,3 +121,111 @@ tags:
 >
 > - graph: {{![graph](attachments/Pasted%20image%2020240922172124.png)}}
 > - solution: {{Assume Michael has bought the plan for a month. Then his marginal utility curve and marginal cost curve is as in the graph. The marginal cost is zero until 20 GB when he uses up all his data usage, after which there is a nonzero cost (that we do not know, but assume to be flat rate). The marginal utility decreases by assuming the law of diminishing utility. This corresponds to him using the mobile-data on urgent uses first, and then less urgent uses, and continue. The marginal utility reaches zero after but not before or on 20 GB because he will use more than 20 GB data if data is free. The marginal utility stops at zero because (I believe) extra data usage cannot have negative marginal utility, but it does not matter for this analysis. The consumer surplus is the area between marginal utility and marginal cost, and represents the benefit of the mobile-data plan to him before he makes the decision of buying the plan. So we can infer the reason he is happy with the plan is because his consumer surplus in a month exceeds HK$200.}}
+
+### chapter 3 lecture
+
+> Q1. In the capital creation process, one will need to take into account:
+>
+> 1. how much current consumption he has to
+> 2. how much future consumption is expected to gain
+> 3. his patience on consumption across time
+> 4. all of the above
+>
+> - solution: {{4}}
+> - explanation: {{When making an investment, one will consider its cost (1), its return (2), its risk (3), and its time needed (3). Time needed affects the _present value_ (PV) of return in the future. For example, high political instability will severely affect (3).}}
+
+<!-- markdownlint MD028 -->
+
+> Q2. Under which of the following condition(s) will specialization between A and B leads to a larger total output for them?
+>
+> 1. A is good at producing X and B is good at producing Y
+> 2. A is good at producing both X and Y
+> 3. B is good at producing both X and Y
+> 4. all of the above
+>
+> - solution: {{}}
+> - explanation: {{}}
+
+<!-- markdownlint MD028 -->
+
+> Q3. Which of the following statement is correct, given the below tables?
+>
+> |        | A                 | B                 |
+> | ------ | ----------------- | ----------------- |
+> | Teresa | 60&nbsp;mins/unit | 30&nbsp;mins/unit |
+> | Astor  | 20&nbsp;mins/unit | 20&nbsp;mins/unit |
+>
+> |        | A                         | B                         |
+> | ------ | ------------------------- | ------------------------- |
+> | Teresa | 10&nbsp;units/10&nbsp;hrs | 20&nbsp;units/10&nbsp;hrs |
+> | Astor  | 30&nbsp;units/10&nbsp;hrs | 30&nbsp;units/10&nbsp;hrs |
+>
+> 1. Astor has AA in B and better specializes in B
+> 2. Astor has CA in B and better specializes in B
+> 3. Teresa has AA in B and better specializes in B
+> 4. Teresa has CA in B and better specializes in B
+>
+> - solution: {{4}}
+> - explanation: {{We only consider CA when thinking what to specialize. For Teresa, his/her opportunity cost for B is $$10 / 20 = 0.5~\text{A/B}$$, while that for Astor is $$30 / 30 = 1~\text{A/B}$$. So Teresa has CA in B and better specializes in B.}}
+
+<!-- markdownlint MD028 -->
+
+> Q4. If 1 potato can be exchange for 1 meat (both directions are possible) in the market...
+>
+> |        | meat                  | potato                |
+> | ------ | --------------------- | --------------------- |
+> | Wing   | 60&nbsp;mins/oz       | 15&nbsp;mins/oz       |
+> | Albert | 20&nbsp;mins/oz       | 30&nbsp;mins/oz       |
+>
+> |        | meat                  | potato                |
+> | ------ | --------------------- | --------------------- |
+> | Wing   | 8&nbsp;oz/8&nbsp;hrs  | 32&nbsp;oz/8&nbsp;hrs |
+> | Albert | 24&nbsp;oz/8&nbsp;hrs | 16&nbsp;oz/8&nbsp;hrs |
+>
+> 1. Albert refuses exchange and choose self-sufficiency
+> 2. Albert likes exchange and specialize in meat
+> 3. Albert likes exchange and specialize in potato
+> 4. none of the above
+>
+> - solution: {{2}}
+> - explanation: {{Consider the marginal (opportunity) costs for Albert if he specializes in meat: $$16 / 24 = 2 / 3~\mathrm{potato/meat}$$. Also consider that if he specializes in potato: $$24 / 16 = 1.5~\mathrm{meat/potato}$$. If the marginal cost is lower than the marginal benefit, then Albert will exchange. In this case, if he specializes in meat, his marginal cost of meat is 2/3 potatoes per meat, which is lower than the marginal benefit of 1 potato per meat (market price) in the market. So he will specialize in meat and likes exchange.}}
+
+<!-- markdownlint MD028 -->
+
+> Q5. Assume for the United States that the opportunity cost of each airplane is 100 cars. Which of these pairs of points could be on the United States' production possibilities frontier?
+>
+> 1. (200 airplanes, 10000 cars) and (150 airplanes, 20000 cars)
+> 2. (300 airplanes, 15000 cars) and (200 airplanes, 25000 cars)
+> 3. (200 airplanes, 5000 cars) and (150 airplanes, 4000 cars)
+> 4. (300 airplanes, 25000 cars) and (200 airplanes, 40000 cars)
+>
+> - solution: {{2}}
+> - explanation: {{Note that 100 cars is the marginal (opportunity) cost of an airplane. Thus, simply check if the change in airplane multiplied by -100 equals the change in cars.}}
+
+## tutorials
+
+### waste charging
+
+See [Hong Kong's waste problem: what is the new charging scheme and how can it clean up the issue?](https://sc.mp/y4w9).
+
+> Q1. How would waste charging based on the amount of waste work?
+>
+> - solution: {{It increases the marginal cost of disposing waste from zero to a nonzero positive number. As a result, the marginal utility curve of disposing waste meets its marginal cost curve earlier, assuming the law of decreasing marginal utility holds. A rational person would dispose less waste.}}
+
+<!-- markdownlint MD028 -->
+
+> Q2. How would waste charging by imposing a fixed fee work?
+>
+> - solution: {{It would not work. It does not increase the marginal cost of disposing waste from zero. As a result, unless the total utility of disposing waste does not exceed the initial fixed fee, a rational person would pay the fixed fee and still dispose as much as before.}}
+
+<!-- markdownlint MD028 -->
+
+> Q3. What could the problems with a waste charging scheme?
+>
+> - solution (for reference): {{Environmentally, perhaps the designated waste bags are not biodegradable. They may add to the waste instead. Operationally, it requires a lot of setup and the cooperation of citizens to implement. Socially, citizens may not like the charge and become discontent. There are many more unmentioned here...}}
+
+<!-- markdownlint MD028 -->
+
+> Q4. What can the Hong Kong government do to ensure successful implementation of the waste charging scheme?
+>
+> - solution (for reference): {{Introduce legislation against over-packaging and disposable utensils. Redesign public rubbish bins to discourage citizens from disposing their waste there to avoid the charge. Increase effort on education and enforcement. There are many more unmentioned here...}}
