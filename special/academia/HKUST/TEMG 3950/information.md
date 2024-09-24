@@ -30,7 +30,7 @@ _Previously, case analysis was part 1._
 
 Prepares for TEMG 4970: T&M startup business plan.
 
-The product for the project of this part needs to be {{realistic, might be successful, and could be developed in about 2 years. High technology is not necessary}}. <!--SR:!2024-09-22,110,290-->
+The product for the project of this part needs to be {{realistic, might be successful, and could be developed in about 2 years. High technology is not necessary}}. <!--SR:!2025-08-08,318,290-->
 
 ### product innovation elements
 

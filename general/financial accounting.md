@@ -11,7 +11,7 @@ tags:
 
 # financial accounting
 
-__Financial accounting__ is {{a branch of [accounting](accounting.md) concerned with the summary, analysis and reporting of financial transactions related to a business}}.<sup>[\[1\]](#^ref-1)</sup> This involves {{the preparation of [financial statements](financial%20audit.md) available for public use}}. {{[Stockholders](shareholder.md), [suppliers](vendor.md), [banks](bank.md), [employees](employment.md#employee), [government agencies](government%20agency.md), [business owners](businessperson.md), and other [stakeholders](stakeholder%20(corporate).md)}} are examples of people {{interested in receiving such information for decision making purposes}}. <!--SR:!2024-09-30,16,290!2024-09-24,10,270!2024-09-26,12,270!2024-10-01,17,290-->
+__Financial accounting__ is {{a branch of [accounting](accounting.md) concerned with the summary, analysis and reporting of financial transactions related to a business}}.<sup>[\[1\]](#^ref-1)</sup> This involves {{the preparation of [financial statements](financial%20audit.md) available for public use}}. {{[Stockholders](shareholder.md), [suppliers](vendor.md), [banks](bank.md), [employees](employment.md#employee), [government agencies](government%20agency.md), [business owners](businessperson.md), and other [stakeholders](stakeholder%20(corporate).md)}} are examples of people {{interested in receiving such information for decision making purposes}}. <!--SR:!2024-09-30,16,290!2024-10-25,31,270!2024-09-26,12,270!2024-10-01,17,290-->
 
 Financial accountancy is governed by {{both local and international accounting standards}}. {{[Generally Accepted Accounting Principles](accounting%20standard.md) (GAAP)}} is {{the standard framework of guidelines for financial accounting used in any given jurisdiction}}. It includes {{the standards, conventions and rules that accountants follow in recording and summarizing and in the preparation of financial statements}}. <!--SR:!2024-09-28,14,290!2024-09-25,11,270!2024-09-26,12,270!2024-09-26,12,270-->
 
@@ -31,7 +31,7 @@ Financial accounting is {{the preparation of financial statements that can be co
 __Fundamental Qualitative Characteristics__ ::: relevance, faithful representation <!--SR:!2024-09-28,14,290!2024-09-26,12,270-->
 
 - __Relevance__ ::: Relevance is the capacity of the financial information to influence the decision of its users. The ingredients of relevance are the predictive value and confirmatory value. Materiality is a sub-quality of relevance. Information is considered material if its omission or misstatement could influence the economic decisions of users taken on the basis of the financial statements. <!--SR:!2024-10-13,21,250!2024-10-17,24,270-->
-- __Faithful Representation__ ::: Faithful representation means that the actual effects of the transactions shall be properly accounted for and reported in the financial statements. The words and numbers must match what really happened in the transaction. The ingredients of faithful representation are completeness, neutrality and free from error. It signifies that the accountants have acted in [good faith](good%20faith.md) during the process of representation. <!--SR:!2024-10-14,22,250!2024-09-24,10,270-->
+- __Faithful Representation__ ::: Faithful representation means that the actual effects of the transactions shall be properly accounted for and reported in the financial statements. The words and numbers must match what really happened in the transaction. The ingredients of faithful representation are completeness, neutrality and free from error. It signifies that the accountants have acted in [good faith](good%20faith.md) during the process of representation. <!--SR:!2024-10-14,22,250!2024-10-20,26,270-->
 
 __Enhancing Qualitative Characteristics__ ::: verifiability, comparability, understandability, timeliness <!--SR:!2024-10-17,26,270!2024-09-27,13,290-->
 
@@ -50,7 +50,7 @@ The three components of financial statements are {{[statement of cash flows](cas
 
 The statement of cash flows is also called {{cash flow statement}}. <!--SR:!2024-10-07,16,315-->
 
-The statement of cash flows {{considers the inputs and outputs in concrete cash within a stated period}}. The general template of a cash flow statement is as follows: {{_Cash Inflow - Cash Outflow + Opening Balance = Closing Balance_}} <!--SR:!2024-09-25,11,270!2024-09-24,10,270-->
+The statement of cash flows {{considers the inputs and outputs in concrete cash within a stated period}}. The general template of a cash flow statement is as follows: {{_Cash Inflow - Cash Outflow + Opening Balance = Closing Balance_}} <!--SR:!2024-09-25,11,270!2024-10-31,37,290-->
 
 > [!example] example 1
 >
@@ -90,19 +90,19 @@ The net profit or loss is determined by: <br/> {{sales (revenue) <br/> – [cost
 
 The statement of financial position is also called {{balance sheet}}. <!--SR:!2024-10-06,15,315-->
 
-The balance sheet is {{the financial statement showing a firm's [assets](asset.md), [liabilities](liability%20(financial%20accounting).md) and [equity](equity%20(finance).md) (capital) at a set point in time, usually the end of the fiscal year reported on the accompanying income statement}}. The total assets {{always equal the total combined liabilities and equity}}. This statement best demonstrates {{the basic accounting equation: _Assets = Liabilities + Equity_}}. <!--SR:!2024-09-24,10,270!2024-10-01,17,290!2024-09-30,16,290-->
+The balance sheet is {{the financial statement showing a firm's [assets](asset.md), [liabilities](liability%20(financial%20accounting).md) and [equity](equity%20(finance).md) (capital) at a set point in time, usually the end of the fiscal year reported on the accompanying income statement}}. The total assets {{always equal the total combined liabilities and equity}}. This statement best demonstrates {{the basic accounting equation: _Assets = Liabilities + Equity_}}. <!--SR:!2024-11-01,38,290!2024-10-01,17,290!2024-09-30,16,290-->
 
 The statement can be used to {{help show the financial position of a company}} because {{liability accounts are external claims on the firm's assets while equity accounts are internal claims on the firm's assets}}. <!--SR:!2024-09-27,13,270!2024-09-30,16,290-->
 
-Accounting standards often {{set out a general format that companies are expected to follow when presenting their balance sheets}}. [International Financial Reporting Standards](International%20Financial%20Reporting%20Standards.md) (IFRS) normally require that {{companies report [current](current%20asset.md) assets and liabilities separately from non-current amounts}}.<sup>[\[5\]](#^ref-5)</sup><sup>[\[6\]](#^ref-6)</sup> A GAAP-compliant balance sheet must {{list assets and liabilities based on decreasing liquidity, from most liquid to least liquid. As a result, current assets/liabilities are listed first followed by non-current assets/liabilities}}. However, an IFRS-compliant balance sheet must {{list assets/liabilities based on increasing liquidity, from least liquid to most liquid. As a result, non-current assets/liabilities are listed first followed by current assets/liabilities}}.<sup>[\[7\]](#^ref-7)</sup> <!--SR:!2024-10-22,30,270!2024-09-24,10,270!2024-10-01,13,250!2024-09-27,13,270-->
+Accounting standards often {{set out a general format that companies are expected to follow when presenting their balance sheets}}. [International Financial Reporting Standards](International%20Financial%20Reporting%20Standards.md) (IFRS) normally require that {{companies report [current](current%20asset.md) assets and liabilities separately from non-current amounts}}.<sup>[\[5\]](#^ref-5)</sup><sup>[\[6\]](#^ref-6)</sup> A GAAP-compliant balance sheet must {{list assets and liabilities based on decreasing liquidity, from most liquid to least liquid. As a result, current assets/liabilities are listed first followed by non-current assets/liabilities}}. However, an IFRS-compliant balance sheet must {{list assets/liabilities based on increasing liquidity, from least liquid to most liquid. As a result, non-current assets/liabilities are listed first followed by current assets/liabilities}}.<sup>[\[7\]](#^ref-7)</sup> <!--SR:!2024-10-22,30,270!2024-11-01,38,290!2024-10-01,13,250!2024-09-27,13,270-->
 
 Current assets are {{the most liquid assets of a firm, which are expected to be realized within a 12-month period}}. Current assets include: {{[cash](cash.md), [accounts receivable](accounts%20receivable.md), merchandise inventory, [investee companies](company.md) (held less than a financial period), [prepaid expenses](deferral.md) (for use during the current financial period), etc.}} <!--SR:!2024-09-30,16,290!2024-10-05,14,250-->
 
 - [cash](cash.md) ::: physical money <!--SR:!2024-09-25,11,270!2024-09-27,13,270-->
 - [accounts receivable](accounts%20receivable.md) ::: revenues earned but not yet collected <!--SR:!2024-09-26,12,270!2024-09-26,12,270-->
-- merchandise inventory ::: consists of goods and services a firm currently owns until it ends up getting sold <!--SR:!2024-09-27,13,270!2024-09-24,10,270-->
-- [investee companies](company.md) ::: expected to be held less than one financial period <!--SR:!2024-09-27,13,270!2024-09-24,10,270-->
-- [prepaid expenses](deferral.md) ::: expenses paid for in advance for use during that year <!--SR:!2024-09-24,10,270!2024-10-01,17,290-->
+- merchandise inventory ::: consists of goods and services a firm currently owns until it ends up getting sold <!--SR:!2024-09-27,13,270!2024-10-21,27,270-->
+- [investee companies](company.md) ::: expected to be held less than one financial period <!--SR:!2024-09-27,13,270!2024-10-29,35,290-->
+- [prepaid expenses](deferral.md) ::: expenses paid for in advance for use during that year <!--SR:!2024-10-30,36,290!2024-10-01,17,290-->
 
 Non-current assets include {{[fixed](fixed%20asset.md) or long-term assets and [intangible assets](intangible%20asset.md)}}: <!--SR:!2024-09-26,12,270-->
 
@@ -132,7 +132,7 @@ This basic principle gives rise to the commonly used {{[historical cost accounti
 
 ### units of constant purchasing power
 
-The stable monetary unit assumption is {{not applied during hyperinflation}}. {{IFRS}} requires {{entities to implement capital maintenance in units of constant purchasing power in terms of IAS 29 Financial Reporting in Hyperinflationary Economies}}. <!--SR:!2024-09-26,12,270!2024-09-30,16,290!2024-09-24,10,270-->
+The stable monetary unit assumption is {{not applied during hyperinflation}}. {{IFRS}} requires {{entities to implement capital maintenance in units of constant purchasing power in terms of IAS 29 Financial Reporting in Hyperinflationary Economies}}. <!--SR:!2024-09-26,12,270!2024-09-30,16,290!2024-10-24,30,270-->
 
 ## objectives
 
@@ -152,7 +152,7 @@ Objectives include:
 
 The {{[accounting equation](accounting%20equation.md) ([Assets](asset.md) = [Liabilities](liability%20(financial%20accounting).md) + [Owners' Equity](equity%20(finance).md)) and financial statements}} are the main topics of financial accounting. <!--SR:!2024-09-30,16,290-->
 
-{{The [trial balance](trial%20balance.md) (i.e. finding the current balances of all accounts), which is usually prepared using the [double-entry accounting system](double-entry%20bookkeeping.md)}}, forms {{the basis for preparing the financial statements}}. All the figures in the trial balance are {{rearranged to prepare a [profit & loss statement](income%20statement.md) and [balance sheet](balance%20sheet.md)}}. Accounting standards {{determine the format for these accounts ([SSAP](Generally%20Accepted%20Accounting%20Practice%20(UK).md), FRS, [IFRS](International%20Financial%20Reporting%20Standards.md))}}. Financial statements {{display the income and expenditure for the company and a summary of the assets, liabilities, and shareholders' or owners' equity of the company on the date to which the accounts were prepared}}. <!--SR:!2024-09-28,14,290!2024-10-21,29,270!2024-09-25,11,270!2024-09-24,10,270!2024-10-09,18,250-->
+{{The [trial balance](trial%20balance.md) (i.e. finding the current balances of all accounts), which is usually prepared using the [double-entry accounting system](double-entry%20bookkeeping.md)}}, forms {{the basis for preparing the financial statements}}. All the figures in the trial balance are {{rearranged to prepare a [profit & loss statement](income%20statement.md) and [balance sheet](balance%20sheet.md)}}. Accounting standards {{determine the format for these accounts ([SSAP](Generally%20Accepted%20Accounting%20Practice%20(UK).md), FRS, [IFRS](International%20Financial%20Reporting%20Standards.md))}}. Financial statements {{display the income and expenditure for the company and a summary of the assets, liabilities, and shareholders' or owners' equity of the company on the date to which the accounts were prepared}}. <!--SR:!2024-09-28,14,290!2024-10-21,29,270!2024-09-25,11,270!2024-10-28,34,290!2024-10-09,18,250-->
 
 {{[Asset](asset.md), [expense](expense.md), and [dividend](dividend.md) accounts}} have {{normal debit balances (i.e., debiting these types of accounts increases them)}}. <!--SR:!2024-09-30,16,290!2024-10-23,30,290-->
 
@@ -185,8 +185,8 @@ However, there are {{instances of accounts, known as contra-accounts (contra-ass
 
 - see: [cost accounting](cost%20accounting.md)
 
-1. objectives ::: Financial accounting aims at presenting 'true and fair' view of transactions, profit and loss for a period and statement of financial position (balance sheet) on a given date. It aims at computing 'true and fair' view of the cost of production/services offered by the firm.<sup>[\[11\]](#^ref-11)</sup> Cost accounting aims at computing cost of production/service in a scientific manner and facilitate cost control and cost reduction. <!--SR:!2024-09-26,12,270!2024-09-24,10,270-->
-2. audiences ::: Financial accounting reports the results and position of business to government, creditors, investors, and external parties. Cost accounting is an internal reporting system for an organisation's own management for decision making. <!--SR:!2024-10-14,21,270!2024-09-24,10,270-->
+1. objectives ::: Financial accounting aims at presenting 'true and fair' view of transactions, profit and loss for a period and statement of financial position (balance sheet) on a given date. It aims at computing 'true and fair' view of the cost of production/services offered by the firm.<sup>[\[11\]](#^ref-11)</sup> Cost accounting aims at computing cost of production/service in a scientific manner and facilitate cost control and cost reduction. <!--SR:!2024-09-26,12,270!2024-10-23,29,270-->
+2. audiences ::: Financial accounting reports the results and position of business to government, creditors, investors, and external parties. Cost accounting is an internal reporting system for an organisation's own management for decision making. <!--SR:!2024-10-14,21,270!2024-10-29,35,290-->
 3. classification ::: In financial accounting, cost classification is based on type of transactions, e.g. salaries, repairs, insurance, stores etc. In cost accounting, classification is basically on the basis of functions, activities, products, process and on internal planning and control and information needs of the organization. <!--SR:!2024-09-25,11,270!2024-10-20,28,270-->
 
 ## related qualification
@@ -199,7 +199,7 @@ However, there are {{instances of accounts, known as contra-accounts (contra-ass
 - [DIRTI 5](DIRTI%205.md)
 - [historical cost accounting](historical%20cost.md)
 - [philosophy of accounting](philosophy%20of%20accounting.md)
-- [accounting analyst](accounting%20analyst.md), ... ::: whose job involves evaluating public company financial statements <!--SR:!2024-09-24,10,270!2024-09-26,12,270-->
+- [accounting analyst](accounting%20analyst.md), ... ::: whose job involves evaluating public company financial statements <!--SR:!2024-10-24,30,270!2024-09-26,12,270-->
 - [management accounting](management%20accounting.md), ... ::: the other main division of accounting <!--SR:!2024-09-28,14,290!2024-10-01,17,290-->
 - [bookkeeping](bookkeeping.md)
 

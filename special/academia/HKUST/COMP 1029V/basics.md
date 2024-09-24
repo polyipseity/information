@@ -67,7 +67,7 @@ return _chain.from_iterable(await _gather(
 - `Boolean`→:::←`Double` <!--SR:!2025-01-19,272,330!2025-02-24,300,330-->
 - `Double`→:::←`Integer` <!--SR:!2024-10-16,132,310!2024-11-08,199,310-->
 - `Integer`→:::←`Long` <!--SR:!2025-07-31,359,290!2024-12-25,233,325-->
-- `Long`→:::←`Single` <!--SR:!2024-09-23,103,305!2024-12-24,232,325-->
+- `Long`→:::←`Single` <!--SR:!2025-08-03,313,305!2024-12-24,232,325-->
 - `Single`→:::←_(end)_ <!--SR:!2024-12-28,253,330!2025-02-25,299,330-->
 
 <!--/pytextgen-->
@@ -110,4 +110,4 @@ To accept user input, we can use {{an input box by calling `Input = InputBox(pro
 
 ## parentheses
 
-When calling subroutines or functions, sometimes we {{use parentheses `()`, sometimes we do not}}. We only use parentheses when {{we need to use the output of the called function, otherwise we do not}}. As subroutines have no output, {{calling them never needs parentheses}}. The only exception is when you need to {{use the output of a function providing no arguments (so includes having optional arguments only), then having parentheses or not are both okay}}. <!--SR:!2024-09-30,168,310!2026-06-26,655,330!2026-01-02,479,310!2024-09-20,158,305-->
+When calling subroutines or functions, sometimes we {{use parentheses `()`, sometimes we do not}}. We only use parentheses when {{we need to use the output of the called function, otherwise we do not}}. As subroutines have no output, {{calling them never needs parentheses}}. The only exception is when you need to {{use the output of a function providing no arguments (so includes having optional arguments only), then having parentheses or not are both okay}}. <!--SR:!2024-09-30,168,310!2026-06-26,655,330!2026-01-02,479,310!2026-01-18,481,305-->

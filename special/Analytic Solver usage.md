@@ -19,13 +19,13 @@ Eventually you should figure it out with online searching... Also, get familiar 
 
 ### category reduction
 
-There are {{some restrictions on the distinct values of an attribute}} depending on the XLMiner edition. One way to resolve this is {{merging some values into the same value}}. Funny enough, the category reduction, which is designed for this workload, also has {{restrictions on the distinct values depending on the XLMiner edition}}. So {{multiple category reductions on a subset of distinct values}} may be needed if there are too many distinct values. <!--SR:!2024-09-20,75,335!2024-09-24,79,335!2024-09-27,82,335!2025-05-26,266,335-->
+There are {{some restrictions on the distinct values of an attribute}} depending on the XLMiner edition. One way to resolve this is {{merging some values into the same value}}. Funny enough, the category reduction, which is designed for this workload, also has {{restrictions on the distinct values depending on the XLMiner edition}}. So {{multiple category reductions on a subset of distinct values}} may be needed if there are too many distinct values. <!--SR:!2025-09-04,345,355!2025-09-23,364,355!2024-09-27,82,335!2025-05-26,266,335-->
 
-XLMiner offers {{2 ways}} to reduce categories: {{automatically by frequency and manually}}. The first option {{reduces the values with the smallest frequencies into one value and leave the rest intact}}. The second option {{reduces the values using a user-specified table mapping current values to new values}}. <!--SR:!2024-09-21,76,335!2025-04-02,225,335!2024-09-27,82,335!2024-09-25,80,335-->
+XLMiner offers {{2 ways}} to reduce categories: {{automatically by frequency and manually}}. The first option {{reduces the values with the smallest frequencies into one value and leave the rest intact}}. The second option {{reduces the values using a user-specified table mapping current values to new values}}. <!--SR:!2025-09-08,349,355!2025-04-02,225,335!2024-09-27,82,335!2024-09-25,80,335-->
 
 ### common parameters
 
-- success probability cutoff ::: The minimum percentage of values being the "success" value for a set of values to be considered as "success" overall. The cutoff is `>=`, so the percentage equalling the threshold means the set is considered as "success". <!--SR:!2024-09-22,77,335!2025-01-14,159,315-->
+- success probability cutoff ::: The minimum percentage of values being the "success" value for a set of values to be considered as "success" overall. The cutoff is `>=`, so the percentage equalling the threshold means the set is considered as "success". <!--SR:!2025-06-20,269,335!2025-01-14,159,315-->
 
 ### decision tree
 
@@ -39,11 +39,11 @@ The decision tree threshold are used as follows: {{If the attribute value is sma
 
 ### input formats
 
-For inputting item lists, XLMiner provides 2 input formats: {{binary matrix and item list}}. The former is a table {{with the column headers being the items and values (0 or 1) representing whether an item is in a transaction}}. The latter is a table {{with no column headers and values (string) representing the items themselves}}. <!--SR:!2024-11-12,103,295!2024-09-20,75,335!2024-09-23,78,335-->
+For inputting item lists, XLMiner provides 2 input formats: {{binary matrix and item list}}. The former is a table {{with the column headers being the items and values (0 or 1) representing whether an item is in a transaction}}. The latter is a table {{with no column headers and values (string) representing the items themselves}}. <!--SR:!2024-11-12,103,295!2025-09-07,348,355!2025-09-18,359,355-->
 
 ### partitioning
 
-XLMiner can partition the dataset into {{3 datasets}}: {{training set, validation set, and test set}}. <!--SR:!2024-09-21,76,335!2025-02-15,183,315-->
+XLMiner can partition the dataset into {{3 datasets}}: {{training set, validation set, and test set}}. <!--SR:!2025-09-09,350,355!2025-02-15,183,315-->
 
 ### random seed
 
@@ -55,4 +55,4 @@ The seed option present in various interfaces is {{simply the random seed to gen
 
 ### rescaling
 
-XLMiner can rescale the dataset {{in 4 ways}}: {{standardization, normalization, adjusted normalization, and unit-norm}}. The first option {{replaces the values with their standard scores}}. <!--SR:!2025-08-26,341,355!2024-09-22,77,335!2025-01-22,163,315-->
+XLMiner can rescale the dataset {{in 4 ways}}: {{standardization, normalization, adjusted normalization, and unit-norm}}. The first option {{replaces the values with their standard scores}}. <!--SR:!2025-08-26,341,355!2025-06-08,257,335!2025-01-22,163,315-->

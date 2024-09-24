@@ -15,7 +15,7 @@ The [axiomatization](axiomatic%20system.md#axiomatization) of [arithmetic](arith
 
 The importance of formalizing [arithmetic](arithmetic.md) was not well appreciated until {{the work of [Hermann Grassmann](Hermann%20Grassmann.md)}}, who showed {{in the 1860s that many facts in arithmetic could be derived from more basic facts about the [successor operation](successor%20function.md) and [induction](mathematical%20induction.md)}}. In {{1881, [Charles Sanders Peirce](Charles%20Sanders%20Peirce.md)}} provided {{an [axiomatization](axiomatic%20system.md#axiomatization) of natural-number arithmetic}}. In {{1888, [Richard Dedekind](Richard%20Dedekind.md)}} proposed {{another axiomatization of natural-number arithmetic}}, and in {{1889, Peano}} published {{a simplified version of them as a collection of axioms in his book _The principles of arithmetic presented by a new method_ ([Latin](Latin.md): _[Arithmetices principia, nova methodo exposita](arithmetices%20principia,%20nova%20methodo%20exposita.md)_)}}. <!--SR:!2024-09-26,12,285!2024-10-26,34,285!2024-10-13,25,285!2024-10-02,18,305!2024-10-09,21,285!2024-10-29,36,305!2024-10-20,28,285!2024-10-15,23,265-->
 
-{{The nine Peano axioms}} contain {{three types of statements}}. The first axiom {{asserts the existence of at least one member of the set of natural numbers}}. The next {{four are general statements about [equality](equality%20(mathematics).md)}}; in modern treatments {{these are often not taken as part of the Peano axioms, but rather as axioms of the "underlying logic"}}. The next three axioms are {{[first-order](first-order%20logic.md) statements about natural numbers expressing the fundamental properties of the successor operation}}. The ninth, final axiom is {{a [second-order](second-order%20logic.md) statement of the principle of mathematical induction over the natural numbers, which makes this formulation close to [second-order arithmetic](second-order%20arithmetic.md)}}. {{A weaker first-order system}} is obtained by {{explicitly adding the addition and multiplication operation symbols and replacing the [second-order induction](second-order%20arithmetic.md#induction%20and%20comprehension%20schema) axiom with a first-order [axiom schema](axiom%20schema.md)}}. The term _Peano arithmetic_ is sometimes used for {{specifically naming this restricted system}}. <!--SR:!2024-09-28,14,290!2024-09-28,14,290!2024-09-24,12,285!2024-09-29,15,290!2024-10-02,18,305!2024-10-01,17,305!2024-10-02,18,305!2024-10-02,18,305!2024-09-30,16,305!2024-10-01,17,290-->
+{{The nine Peano axioms}} contain {{three types of statements}}. The first axiom {{asserts the existence of at least one member of the set of natural numbers}}. The next {{four are general statements about [equality](equality%20(mathematics).md)}}; in modern treatments {{these are often not taken as part of the Peano axioms, but rather as axioms of the "underlying logic"}}. The next three axioms are {{[first-order](first-order%20logic.md) statements about natural numbers expressing the fundamental properties of the successor operation}}. The ninth, final axiom is {{a [second-order](second-order%20logic.md) statement of the principle of mathematical induction over the natural numbers, which makes this formulation close to [second-order arithmetic](second-order%20arithmetic.md)}}. {{A weaker first-order system}} is obtained by {{explicitly adding the addition and multiplication operation symbols and replacing the [second-order induction](second-order%20arithmetic.md#induction%20and%20comprehension%20schema) axiom with a first-order [axiom schema](axiom%20schema.md)}}. The term _Peano arithmetic_ is sometimes used for {{specifically naming this restricted system}}. <!--SR:!2024-09-28,14,290!2024-09-28,14,290!2024-10-29,35,285!2024-09-29,15,290!2024-10-02,18,305!2024-10-01,17,305!2024-10-02,18,305!2024-10-02,18,305!2024-09-30,16,305!2024-10-01,17,290-->
 
 ## historical second-order formulation
 
@@ -33,7 +33,7 @@ The next four axioms describe {{the [equality](equality%20(mathematics).md) [rel
 
 <!-- markdownlint-capture -->
 <!-- markdownlint-disable MD029 -->
-2. 2nd axiom ::: For every natural number _x_, _x_ = _x_. That is, equality is [reflexive](reflexive%20relation.md). <!--SR:!2024-09-24,10,285!2024-10-02,18,305-->
+2. 2nd axiom ::: For every natural number _x_, _x_ = _x_. That is, equality is [reflexive](reflexive%20relation.md). <!--SR:!2024-11-07,44,305!2024-10-02,18,305-->
 3. 3rd axiom ::: For all natural numbers _x_ and _y_, if _x_ = _y_, then _y_ = _x_. That is, equality is [symmetric](symmetric%20relation.md). <!--SR:!2024-10-30,37,305!2024-09-28,14,305-->
 4. 4th axiom ::: For all natural numbers _x_, _y_ and _z_, if _x_ = _y_ and _y_ = _z_, then _x_ = _z_. That is, equality is [transitive](transitive%20relation.md). <!--SR:!2024-09-30,16,305!2024-10-02,18,305-->
 5. 5th axiom ::: For all _a_ and _b_, if _b_ is a natural number and _a_ = _b_, then _a_ is also a natural number. That is, the natural numbers are [closed](closure%20(mathematics).md) under equality. <!--SR:!2024-09-28,14,305!2024-10-01,17,305-->
@@ -78,7 +78,7 @@ For example:
 
 $${\begin{aligned}a+1&=a+S(0)&{\text{by definition} }\\&=S(a+0)&{\text{using (2)} }\\&=S(a),&{\text{using (1)} }\\\\a+2&=a+S(1)&{\text{by definition} }\\&=S(a+1)&{\text{using (2)} }\\&=S(S(a))&{\text{using } }a+1=S(a)\\\\a+3&=a+S(2)&{\text{by definition} }\\&=S(a+2)&{\text{using (2)} }\\&=S(S(S(a)))&{\text{using } }a+2=S(S(a)) \\ {\text{etc.} }&\\\end{aligned} }$$
 
-To {{prove commutativity of addition}}, first {{prove $0+b=b$ and $S(a)+b=S(a+b)$, each by induction on $b$. Using both results, then prove $a+b=b+a$ by induction on $b$}}. The [structure](mathematical%20structure.md) (__N__, +) is {{a [commutative](commutative%20property.md) [monoid](monoid.md) with identity element 0. (__N__, +) is also a [cancellative](cancellation%20property.md) [magma](magma%20(algebra).md), and thus [embeddable](embedding.md) in a [group](group%20(mathematics).md)}}. The smallest group embedding __N__ is {{the [integers](integer.md)}}. <!--SR:!2024-11-01,39,305!2024-09-30,16,290!2024-10-06,17,250!2024-09-24,10,270-->
+To {{prove commutativity of addition}}, first {{prove $0+b=b$ and $S(a)+b=S(a+b)$, each by induction on $b$. Using both results, then prove $a+b=b+a$ by induction on $b$}}. The [structure](mathematical%20structure.md) (__N__, +) is {{a [commutative](commutative%20property.md) [monoid](monoid.md) with identity element 0. (__N__, +) is also a [cancellative](cancellation%20property.md) [magma](magma%20(algebra).md), and thus [embeddable](embedding.md) in a [group](group%20(mathematics).md)}}. The smallest group embedding __N__ is {{the [integers](integer.md)}}. <!--SR:!2024-11-01,39,305!2024-09-30,16,290!2024-10-06,17,250!2024-10-21,27,270-->
 
 > [!tip] tips
 >
@@ -93,7 +93,7 @@ It is easy to see that $S(0)$ is {{the multiplicative [right identity](identity%
 To show that $S(0)$ is {{also the multiplicative left identity requires the induction axiom due to the way multiplication is defined}}: <!--SR:!2024-10-02,18,305-->
 
 - multiplicative left identity / base case ::: $S(0)$ is the left identity of 0: $S(0)\cdot 0=0$. <!--SR:!2024-09-25,11,285!2024-09-29,15,305-->
-- multiplication left identity / induction ::: If $S(0)$ is the left identity of $a$ (that is $S(0)\cdot a=a$), then $S(0)$ is also the left identity of $S(a)$: $S(0)\cdot S(a)=S(0)+S(0)\cdot a=S(0)+a=a+S(0)=S(a+0)=S(a)$, using commutativity of addition. <!--SR:!2024-10-14,22,265!2024-09-24,10,282-->
+- multiplication left identity / induction ::: If $S(0)$ is the left identity of $a$ (that is $S(0)\cdot a=a$), then $S(0)$ is also the left identity of $S(a)$: $S(0)\cdot S(a)=S(0)+S(0)\cdot a=S(0)+a=a+S(0)=S(a+0)=S(a)$, using commutativity of addition. <!--SR:!2024-10-14,22,265!2024-10-25,31,282-->
 
 Therefore, by {{the induction axiom $S(0)$ is the multiplicative left identity of all natural numbers}}. Moreover, it can be shown that {{multiplication is commutative and [distributes over](distributive%20property.md) addition: $$a\cdot (b+c)=(a\cdot b)+(a\cdot c)$$}}. <!--SR:!2024-10-02,18,305!2024-10-01,17,290-->
 
@@ -112,7 +112,7 @@ This relation is {{stable under addition and multiplication}}: for $a,b,c\in \ma
 - _a_ + _c_ ≤ _b_ + _c_, and
 - _a_ · _c_ ≤ _b_ · _c_.
 
-Thus, {{the structure (__N__, +, ·, 1, 0, ≤)}} is {{an [ordered semiring](ordered%20ring.md); because there is no natural number between 0 and 1, it is a discrete ordered semiring}}. <!--SR:!2024-09-24,10,285!2024-09-28,11,250-->
+Thus, {{the structure (__N__, +, ·, 1, 0, ≤)}} is {{an [ordered semiring](ordered%20ring.md); because there is no natural number between 0 and 1, it is a discrete ordered semiring}}. <!--SR:!2024-10-22,28,285!2024-09-28,11,250-->
 
 The axiom of induction is {{sometimes stated in the following form that uses a stronger hypothesis, making use of the order relation "≤"}}: <!--SR:!2024-09-30,16,305-->
 
@@ -127,7 +127,7 @@ This form of the induction axiom, called {{_strong induction_, is a consequence 
 - proving the naturals are well-ordered / base case ::: Let a nonempty _X_ ⊆ __N__ be given and assume _X_ has no least element. Because 0 is the least element of __N__, it must be that 0 ∉ _X_. <!--SR:!2024-10-24,31,285!2024-09-26,12,270-->
 - proving the naturals are well-ordered / induction ::: For any _n_ ∈ __N__, suppose for every _k_ ≤ _n_, _k_ ∉ _X_. Then _S_(_n_) ∉ _X_, for otherwise it would be the least element of _X_. <!--SR:!2024-10-17,28,285!2024-10-12,20,265-->
 
-Thus, by {{the strong induction principle, for every _n_ ∈ __N__, _n_ ∉ _X_. Thus, _X_ ∩ __N__ = ∅, which [contradicts](contradiction.md) _X_ being a nonempty subset of __N__}}. Thus {{_X_ has a least element}}. <!--SR:!2024-10-17,25,265!2024-09-24,12,285-->
+Thus, by {{the strong induction principle, for every _n_ ∈ __N__, _n_ ∉ _X_. Thus, _X_ ∩ __N__ = ∅, which [contradicts](contradiction.md) _X_ being a nonempty subset of __N__}}. Thus {{_X_ has a least element}}. <!--SR:!2024-10-17,25,265!2024-11-13,50,305-->
 
 ## references
 

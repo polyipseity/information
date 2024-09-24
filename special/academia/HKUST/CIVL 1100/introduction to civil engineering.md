@@ -77,7 +77,7 @@ The content is in teaching order.
     - air engineering ::: air pollution control, air quality monitoring, ozone layer protection <!--SR:!2025-11-09,437,355!2025-09-12,410,390-->
     - waste engineering ::: methods of disposal (e.g. landfills and incineration), site investigation and remediation, solid waste management <!--SR:!2024-11-06,131,295!2025-06-19,318,372-->
     - [water engineering](#water%20engineering)
-    - noise engineering ::: noise mitigation measures (e.g. noise barriers), noise monitoring (e.g. construction noise, traffic noise) <!--SR:!2024-09-22,119,327!2025-06-14,328,370-->
+    - noise engineering ::: noise mitigation measures (e.g. noise barriers), noise monitoring (e.g. construction noise, traffic noise) <!--SR:!2025-10-17,388,327!2025-06-14,328,370-->
     - environmental impact assessment (EIA) ::: a systematic identification and evaluation process to assess the potential impacts of a proposed project so that mitigation measures can be developed <!--SR:!2025-01-06,147,230!2024-12-04,162,332-->
       - [environmental impact components](#environmental%20impact%20components)
       - environmental impact assessment in [Hong Kong](../../../../general/Hong%20Kong.md) ::: regulated by the Environmental Impact Assessment (Cap. 499) 1997 <!--SR:!2025-02-20,208,314!2025-03-13,235,352-->
@@ -148,7 +148,7 @@ quantity surveyor
 - consulting environmental engineer→:::←consulting geo-technical engineer <!--SR:!2024-10-16,105,265!2025-08-10,342,306-->
 - consulting geo-technical engineer→:::←consulting structural engineer <!--SR:!2025-01-06,179,315!2025-04-26,255,317-->
 - consulting structural engineer→:::←contracting civil engineer <!--SR:!2025-09-07,361,335!2025-05-27,276,315-->
-- contracting civil engineer→:::←engineering geologist <!--SR:!2024-09-28,102,297!2024-09-23,19,275-->
+- contracting civil engineer→:::←engineering geologist <!--SR:!2024-09-28,102,297!2024-11-19,56,275-->
 - engineering geologist→:::←environmental consultant <!--SR:!2024-10-25,125,305!2025-05-31,280,305-->
 - environmental consultant→:::←quantity surveyor <!--SR:!2024-11-13,55,280!2025-01-22,163,280-->
 - quantity surveyor→:::←_(end)_ <!--SR:!2025-01-10,187,340!2024-12-31,120,340-->
@@ -197,8 +197,8 @@ water and sewage treatment system
 - dam→:::←pipeline <!--SR:!2024-10-11,66,204!2024-10-09,117,321-->
 - pipeline→:::←power plant <!--SR:!2025-01-13,152,260!2024-10-22,107,281-->
 - power plant→:::←reservoir <!--SR:!2025-01-10,164,275!2024-10-24,49,300-->
-- reservoir→:::←sewage treatment <!--SR:!2024-09-21,62,197!2025-03-13,189,261-->
-- sewage treatment→:::←transport <!--SR:!2024-09-24,22,190!2024-12-13,152,301-->
+- reservoir→:::←sewage treatment <!--SR:!2025-01-24,122,197!2025-03-13,189,261-->
+- sewage treatment→:::←transport <!--SR:!2024-11-09,46,190!2024-12-13,152,301-->
 - transport→:::←water and sewage treatment system <!--SR:!2024-11-05,137,340!2024-10-03,17,130-->
 - water and sewage treatment system→:::←_(end)_ <!--SR:!2025-12-24,482,401!2025-04-10,252,361-->
 
@@ -590,11 +590,11 @@ nuclear
 
 <!--pytextgen generate section="ee13"--><!-- The following content is generated at 2024-04-23T18:07:51.639356+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←agricultural <!--SR:!2024-09-22,136,310!2025-12-04,477,392-->
+- _(begin)_→:::←agricultural <!--SR:!2025-11-19,421,310!2025-12-04,477,392-->
 - agricultural→:::←architectural <!--SR:!2025-01-31,212,357!2025-06-08,311,372-->
 - architectural→:::←biomedical <!--SR:!2024-11-04,144,337!2024-11-25,152,340-->
 - biomedical→:::←ceramic <!--SR:!2024-11-05,133,320!2024-09-25,114,337-->
-- ceramic→:::←chemical <!--SR:!2024-12-15,154,320!2024-09-24,119,335-->
+- ceramic→:::←chemical <!--SR:!2024-12-15,154,320!2025-10-27,398,335-->
 - chemical→:::←civil <!--SR:!2024-10-21,133,337!2024-12-24,194,357-->
 - civil→:::←computer <!--SR:!2024-11-15,163,354!2024-12-17,189,352-->
 - computer→:::←electrical <!--SR:!2024-11-07,142,327!2025-01-18,142,315-->
@@ -676,7 +676,7 @@ socioeconomic
 - chemical→:::←cultural <!--SR:!2024-11-18,119,280!2024-11-27,173,357-->
 - cultural→:::←physical <!--SR:!2024-10-14,138,345!2025-01-14,132,300-->
 - physical→:::←socioeconomic <!--SR:!2024-12-01,94,277!2025-04-02,244,361-->
-- socioeconomic→:::←_(end)_ <!--SR:!2024-12-29,187,354!2024-09-24,90,277-->
+- socioeconomic→:::←_(end)_ <!--SR:!2024-12-29,187,354!2025-05-29,247,277-->
 
 <!--/pytextgen-->
 
@@ -808,7 +808,7 @@ water distribution network
 
 <!--pytextgen generate section="019b"--><!-- The following content is generated at 2024-05-01T19:22:35.271947+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←sewage collection network <!--SR:!2024-09-22,113,341!2025-04-21,252,317-->
+- _(begin)_→:::←sewage collection network <!--SR:!2024-11-19,56,321!2025-04-21,252,317-->
 - sewage collection network→:::←storm water management <!--SR:!2024-10-26,114,267!2025-09-27,374,341-->
 - storm water management→:::←water collection network <!--SR:!2025-09-05,372,340!2025-08-07,322,320-->
 - water collection network→:::←water distribution network <!--SR:!2026-01-24,512,400!2024-12-24,181,352-->
@@ -1230,7 +1230,7 @@ water treatment
 - groundwater quality control→:::←wastewater recycling <!--SR:!2024-11-26,89,275!2024-09-25,37,260-->
 - wastewater recycling→:::←wastewater treatment <!--SR:!2024-11-03,131,315!2025-01-16,186,317-->
 - wastewater treatment→:::←water quality monitoring <!--SR:!2024-12-21,142,280!2024-12-07,157,315-->
-- water quality monitoring→:::←water treatment <!--SR:!2024-11-12,148,324!2024-09-20,117,334-->
+- water quality monitoring→:::←water treatment <!--SR:!2024-11-12,148,324!2025-10-19,390,334-->
 - water treatment→:::←_(end)_ <!--SR:!2025-03-13,240,354!2024-12-09,141,266-->
 
 <!--/pytextgen-->

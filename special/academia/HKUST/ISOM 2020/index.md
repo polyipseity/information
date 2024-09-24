@@ -21,7 +21,7 @@ tags:
 
 The content is in teaching order.
 
-- general recommendations ::: Do NOT use techniques not learnt in lectures! Also, if you have learnt Python before well, you would find a few quiz questions ambiguous with imprecise wordings. Good luck guessing the answer... <!--SR:!2024-09-24,12,289!2024-09-24,10,289-->
+- general recommendations ::: Do NOT use techniques not learnt in lectures! Also, if you have learnt Python before well, you would find a few quiz questions ambiguous with imprecise wordings. Good luck guessing the answer... <!--SR:!2024-11-13,50,309!2024-11-06,43,309-->
 - course logistics
   - pathway: ISOM 2020 → ISOM 2600
   - duration: 7 weeks, for the first half of the semester
@@ -48,7 +48,7 @@ The content is in teaching order.
   - [§ variable](basics.md#variable)
     - [basics § variable](basics.md#variable) / note ::: In a quiz question, they use the word "save", which means storing a value to a variable. <!--SR:!2024-10-31,40,292!2024-10-27,36,292-->
   - [§ data types](basics.md#data%20types)
-    - [basics § data types](basics.md#data%20types) / note ::: They have not taught `bool` (values: `True`, `False`) and `NoneType` (value: `None`) up to this point... <!--SR:!2024-10-10,24,272!2024-09-22,15,292-->
+    - [basics § data types](basics.md#data%20types) / note ::: They have not taught `bool` (values: `True`, `False`) and `NoneType` (value: `None`) up to this point... <!--SR:!2024-10-10,24,272!2024-11-22,59,312-->
 - week 1 exercise: 1/1, graded
 
 ## week 1 lecture
@@ -75,7 +75,7 @@ The content is in teaching order.
   - [§ Python list](list.md#Python%20list)
   - [§ syntax](list.md#syntax)
   - [§ indexing](list.md#indexing)
-    - [list § indexing](list.md#indexing) / note ::: We have not learnt slicing so far, so do not use it. <!--SR:!2024-09-22,4,304!2024-09-22,4,304-->
+    - [list § indexing](list.md#indexing) / note ::: We have not learnt slicing so far, so do not use it. <!--SR:!2024-10-11,17,324!2024-10-12,18,324-->
   - [§ manipulation](list.md#manipulation)
   - [§ length](list.md#length)
   - [§ aggregate functions](list.md#aggregate%20functions)
