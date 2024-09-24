@@ -115,6 +115,7 @@ The content is in teaching order.
   - [§ data types](basics.md#data%20types)
     - addition: type `bool`
   - [§ comparison operators](basics.md#comparison%20operators)
+    - [basics § comparison operators](basics.md#comparison%20operators) / note ::: One CAN chain comparison operators in Python, unlike other languages. See contents inside.
 - [control flow](control%20flow.md)
   - [§ Python control flow](control%20flow.md#Python%20control%20flow)
   - [§ branching](control%20flow.md#branching)
@@ -122,7 +123,7 @@ The content is in teaching order.
 - [basics](basics.md)
   - [§ logic operators](basics.md#logic%20operators)
 - week 3 exercise: 1/1, graded
-- week 4 lab attendance waiver
+- [week 4 lab attendance waiver](assignments/lab%203/lab%203%20waiver%20submission.ipynb): 1/1, graded
 
 ## week 3 lab
 
@@ -165,4 +166,21 @@ The content is in teaching order.
   - [§ iteration](control%20flow.md#iteration)
     - [control flow § iteration](control%20flow.md#iteration) / note ::: Yes, did you know you can put branches (`if`) and loops (`for`) inside branches (`if`) and loops (`for`)?
 - week 4 exercise: 1/1, graded
-- week 5 lab attendance waiver
+- [week 5 lab attendance waiver](assignments/lab%204/lab%204%20waiver%20submission.ipynb)
+
+## week 4 lab
+
+- time: 2024-09-24T11:00:00+08:00/2024-09-24T12:50:00+08:00
+- [§ week 3 pre-lecture](#week%203%20pre-lecture)
+- [basics](basics.md)
+  - [§ data types](basics.md#data%20types)
+    - addition: type `bool`
+  - [§ data type conversion](basics.md#data%20type%20conversion)
+    - addition: `bool(value)`
+  - [§ comparison operators](basics.md#comparison%20operators)
+- [control flow](control%20flow.md)
+  - [§ Python control flow](control%20flow.md#Python%20control%20flow)
+  - [§ branching](control%20flow.md#branching)
+- [basics](basics.md)
+  - [§ logic operators](basics.md#logic%20operators)
+- week 4 lab tasks: ?/1, waived
