@@ -136,15 +136,15 @@ tags:
 
 <!-- markdownlint MD028 -->
 
-> Q2. Under which of the following condition(s) will specialization between A and B leads to a larger total output for them?
+> Q2. Assuming the production–possibility frontiers (PPFs) for X and Y are both linear, under which of the following condition(s) will specialization between A and B leads to the _largest_ total output for them?
 >
 > 1. A is good at producing X and B is good at producing Y
 > 2. A is good at producing both X and Y
 > 3. B is good at producing both X and Y
 > 4. all of the above
 >
-> - solution: {{}}
-> - explanation: {{}}
+> - solution: {{4}}
+> - explanation: {{If the production–possibility frontiers (PPFs) for X and Y are both linear, then full specialization in one of the goods will always lead to the lowest marginal (or equal) opportunity cost for both A and B. Their total output will be the _largest_. <p> Note that if the PPFs are nonlinear, then full specialization may not always produce the _largest_ total output, and may or may not lead to a _larger_ total output.}}
 
 <!-- markdownlint MD028 -->
 
