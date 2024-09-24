@@ -76,8 +76,8 @@ Assets are {{all the things the business owns}}. This will include {{property, t
 2. [cash and cash equivalents](cash%20and%20cash%20equivalents.md) ::: the most liquid current assets found on a business's balance sheet
 3. [inventories](inventory.md) ::: goods and materials that a business holds for the ultimate goal of resale, production or utilization
 4. cash at bank, [petty cash](petty%20cash.md), cash on hand ::: small amount of discretionary funds in the form of cash used for minor expenditures
-5. [prepaid expenses](deferral.md) for future services that will be used within a year ::: cash paid in advance for goods or services that will be consumed within a year
-6. revenue earned in arrears ([accrued revenue](accrual.md)) for services done but not yet received for the year ::: income that is recognized at the time a company delivers a service or good, even though the company has not yet been paid, and will pay within a year
+5. [prepaid expenses](deferral.md) for future services that will be used within one financial period ::: cash paid in advance for goods or services that will be consumed within one financial period
+6. revenue earned in arrears ([accrued revenue](accrual.md)) for services done but not yet received for the financial period ::: income that is recognized at the time a company delivers a service or good, even though the company has not yet been paid, and will pay within one financial period
 7. [loan](loan.md) to (less than one financial period) ::: transfer of money by us to another with an agreement to pay it back within one financial period
 
 #### non-current assets
