@@ -26,7 +26,7 @@ tags:
 > 3. Let readers make informed business decisions.
 >
 > - solution: {{3}}
-> - explanation: {{The ultimate goal of both 1 and 2 is 3.}} <!--SR:!2024-09-20,4,270!2024-09-20,4,270-->
+> - explanation: {{The ultimate goal of both 1 and 2 is 3.}} <!--SR:!2024-10-04,10,270!2024-10-11,17,290-->
 
 <!-- markdownlint MD028 -->
 
@@ -37,7 +37,7 @@ tags:
 > 3. They have passed professional examinations.
 >
 > - solution: {{3}}
-> - explanation: {{One essential property of professions is that there are barriers to entry. 3 is a barrier to entry, while 1 and 2 are consequences of 3.}} <!--SR:!2024-09-20,4,270!2024-09-20,4,270-->
+> - explanation: {{One essential property of professions is that there are barriers to entry. 3 is a barrier to entry, while 1 and 2 are consequences of 3.}} <!--SR:!2024-10-10,16,290!2024-10-08,14,290-->
 
 <!-- markdownlint MD028 -->
 
@@ -47,7 +47,7 @@ tags:
 > 2. ethical behavior
 > 3. both of them are
 >
-> - solution: {{3}} <!--SR:!2024-09-20,4,270-->
+> - solution: {{3}} <!--SR:!2024-10-08,14,290-->
 
 <!-- markdownlint MD028 -->
 
@@ -57,7 +57,7 @@ tags:
 > 2. balance sheet
 > 3. statement of cash flow
 >
-> - solution: {{1}} <!--SR:!2024-09-20,4,270-->
+> - solution: {{1}} <!--SR:!2024-10-09,15,290-->
 
 <!-- markdownlint MD028 -->
 
@@ -67,7 +67,7 @@ tags:
 > 2. balance sheet
 > 3. statement of cash flow
 >
-> - solution: {{2}} <!--SR:!2024-09-20,4,270-->
+> - solution: {{2}} <!--SR:!2024-10-10,16,290-->
 
 <!-- markdownlint MD028 -->
 
@@ -77,7 +77,7 @@ tags:
 > 2. balance sheet
 > 3. statement of cash flow
 >
-> - solution: {{3}} <!--SR:!2024-09-20,4,270-->
+> - solution: {{3}} <!--SR:!2024-10-07,13,290-->
 
 <!-- markdownlint MD028 -->
 
@@ -97,7 +97,7 @@ tags:
 > 2. balance sheet
 > 3. statement of cash flow
 >
-> - solution: {{1, and also 3 if the activities involve instantaneous transfer of cash}} <!--SR:!2024-09-20,4,270-->
+> - solution: {{1, and also 3 if the activities involve instantaneous transfer of cash}} <!--SR:!2024-10-05,11,270-->
 
 <!-- markdownlint MD028 -->
 
@@ -107,7 +107,7 @@ tags:
 > 2. balance sheet
 > 3. statement of cash flow
 >
-> - solution: {{2}} <!--SR:!2024-09-20,4,270-->
+> - solution: {{2}} <!--SR:!2024-10-11,17,290-->
 
 <!-- markdownlint MD028 -->
 
@@ -127,7 +127,7 @@ tags:
 > 2. balance sheet
 > 3. statement of cash flow
 >
-> - solution: {{1, and also 3 if the revenue involve instantaneous transfer of cash}} <!--SR:!2024-09-20,4,270-->
+> - solution: {{1, and also 3 if the revenue involve instantaneous transfer of cash}} <!--SR:!2024-10-10,16,290-->
 
 <!-- markdownlint MD028 -->
 
@@ -137,7 +137,7 @@ tags:
 > 2. balance sheet
 > 3. statement of cash flow
 >
-> - solution: {{1}} <!--SR:!2024-09-20,4,270-->
+> - solution: {{1}} <!--SR:!2024-10-07,13,290-->
 
 <!-- markdownlint MD028 -->
 
@@ -148,7 +148,7 @@ tags:
 > 3. statement of cash flow
 >
 > - solution: {{3}}
-> - explanation: {{1 is not included in the answer because lending money from others is neither a revenue nor an expense, so it is definitely not included in the income statement.}} <!--SR:!2024-09-20,4,270!2024-09-20,4,270-->
+> - explanation: {{1 is not included in the answer because lending money from others is neither a revenue nor an expense, so it is definitely not included in the income statement.}} <!--SR:!2024-10-09,15,290!2024-10-07,13,290-->
 
 <!-- markdownlint MD028 -->
 
@@ -158,7 +158,7 @@ tags:
 > 2. statement of cash flow
 > 3. both of them
 >
-> - solution: {{3}} <!--SR:!2024-09-20,4,270-->
+> - solution: {{3}} <!--SR:!2024-10-09,15,290-->
 
 ## week 2 review
 
@@ -169,7 +169,7 @@ tags:
 > 3. separate entity
 >
 > - solution: {{2}}
-> - explanation: {{1 is important, but not satisfying it only changes the accounting basis. 3 is also important, but not satisfying it only makes the financial statement improper. 2 is the most important one, as not satisfying it means financial statements can be deceptive, misleading others in their decision making.}} <!--SR:!2024-09-21,4,282!2024-09-21,4,282-->
+> - explanation: {{1 is important, but not satisfying it only changes the accounting basis. 3 is also important, but not satisfying it only makes the financial statement improper. 2 is the most important one, as not satisfying it means financial statements can be deceptive, misleading others in their decision making.}} <!--SR:!2024-10-12,18,302!2024-10-11,17,302-->
 
 <!-- markdownlint MD028 -->
 
@@ -180,7 +180,7 @@ tags:
 > 3. alphabetical order of asset captions
 >
 > - solution: {{2}}
-> - explanation: {{The standards require it. Note that GAAP generally requires decreasing liquidity, while IFRS requires increasing liquidity.}} <!--SR:!2024-09-21,4,282!2024-09-21,4,282-->
+> - explanation: {{The standards require it. Note that GAAP generally requires decreasing liquidity, while IFRS requires increasing liquidity.}} <!--SR:!2024-10-11,17,302!2024-10-08,14,302-->
 
 <!-- markdownlint MD028 -->
 
@@ -191,7 +191,7 @@ tags:
 > 3. maturity preference
 >
 > - solution: {{3}}
-> - explanation: {{The standards require it. Maturity is a measure of how soon the liability is due, analogous to how mature crops are then harvested.}} <!--SR:!2024-09-21,4,282!2024-09-21,4,282-->
+> - explanation: {{The standards require it. Maturity is a measure of how soon the liability is due, analogous to how mature crops are then harvested.}} <!--SR:!2024-10-10,16,302!2024-10-12,18,302-->
 
 <!-- markdownlint MD028 -->
 
@@ -201,7 +201,7 @@ tags:
 > 2. Asset + Liabilities = Stockholders' Equity
 > 3. Asset - Liabilities = Stockholders' Equity
 >
-> - solution: {{2}} <!--SR:!2024-09-21,4,282-->
+> - solution: {{2}} <!--SR:!2024-10-12,18,302-->
 
 <!-- markdownlint MD028 -->
 
@@ -212,7 +212,7 @@ tags:
 > 3. transaction analysis → add journal entries → posting to the ledger
 >
 > - solution: {{3}}
-> - explanation: {{Note that for 2, adjusting the accounts is only done at the end of a reporting period, but an accounting cycle is simply recording the transactions after a much shorter period.}} <!--SR:!2024-09-21,4,282!2024-09-20,3,262-->
+> - explanation: {{Note that for 2, adjusting the accounts is only done at the end of a reporting period, but an accounting cycle is simply recording the transactions after a much shorter period.}} <!--SR:!2024-10-12,18,302!2024-10-01,7,262-->
 
 <!-- markdownlint MD028 -->
 
@@ -222,4 +222,4 @@ tags:
 > 2. Current Assets / Current Liabilities
 > 3. Net Income / Current Assets
 >
-> - solution: {{2}} <!--SR:!2024-09-21,4,282-->
+> - solution: {{2}} <!--SR:!2024-10-09,15,302-->

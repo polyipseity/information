@@ -88,7 +88,7 @@ return _chain.from_iterable(await _gather(
 - `String`→:::←`boolean` <!--SR:!2024-10-07,175,310!2025-01-14,269,330-->
 - `boolean`→:::←`char` <!--SR:!2025-02-03,281,330!2025-02-21,296,330-->
 - `char`→:::←`double` <!--SR:!2025-08-13,366,290!2024-10-28,189,310-->
-- `double`→:::←`float` <!--SR:!2025-11-29,483,310!2024-09-24,166,310-->
+- `double`→:::←`float` <!--SR:!2025-11-29,483,310!2026-09-05,711,330-->
 - `float`→:::←`int` <!--SR:!2025-04-29,289,290!2024-11-28,212,310-->
 - `int`→:::←_(end)_ <!--SR:!2025-01-06,264,330!2025-12-28,475,310-->
 
@@ -287,7 +287,7 @@ Also, one cannot chain {{comparison operators, like `2 <= aNumber <= 5`. [logic 
 
 ### logic operators
 
-Below are common logic operators, all of which {{accept two booleans and return a boolean}}. Operators have higher precedence than or same precedence as operators below it in the list: <!--SR:!2024-09-23,165,310-->
+Below are common logic operators, all of which {{accept two booleans and return a boolean}}. Operators have higher precedence than or same precedence as operators below it in the list: <!--SR:!2026-09-01,707,330-->
 
 ```Python
 # pytextgen generate data
