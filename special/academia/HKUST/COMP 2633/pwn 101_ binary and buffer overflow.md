@@ -66,7 +66,7 @@ There are {{several instructions that modify the stack memory and the `rsp` and 
 
 A related instruction is {{`lea`}}:
 
-- `lea <dest>, <src>` ::: <u>L</u>oad <u>e</u>ffective <u>a</u>ddress. This sets `<dest>` to the memory address of `<src>` (instead of the value at `<src>`). It can be used with memory references to perform arithmetic operations on memory addresses. (In fact, `lea` can be exploited to do addition and multiplication of any number.)
+- `lea <dest>, <src>` ::: <u>L</u>oad <u>e</u>ffective <u>a</u>ddress. This sets `<dest>` to the memory address of `<src>` (instead of the value at `<src>`). It can be used with memory references to perform arithmetic operations on memory addresses. (In fact, `lea` can be exploited to do addition and multiplication of unsigned integers.)
 
 Since `lea` can {{mostly be replaced with `add` and `imul` (with the exception of flags)}}, a natural question is {{why is there a `lea` instruction in the first place}}? Apart from {{`lea` not setting some flags}}, it is also {{convenient for implementing array access}}. Further reading: <https://stackoverflow.com/q/1658294>.
 

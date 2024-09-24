@@ -102,7 +102,7 @@ The content is in teaching order.
       - [balance sheet](../../../../general/balance%20sheet.md) / missing elements / unrecorded liabilities / examples ::: off-balance-sheet financing, i.e., obligations that are not reported as liabilities on the balance sheet; e.g., cash outflows of aircraft operating leases were not reported as debt on balance sheet
 - accounting evolution ::: Accounting practices are always updating. For example, lease transactions have moved from a classification approach to a recognition approach.
   - accounting evolution / classification approach ::: There are 2 main types called _operating leases_ and _finance leases_ (and a related type called as _sale-leasebacks_). The former may not appear in the balance sheet, while the latter allows the lessee (the entity who has the temporary right to use) to claim depreciation.
-  - accounting evolution / recognition approach ::: Now, most leases are required to be recorded. At commencement, the asset "right-of-use" is debited while the liability "lease liabilities" is credited. At year end, "lease liability" is debited while the asset "cash/bank" is credited.
+  - accounting evolution / recognition approach ::: Now, most leases are required to be recorded. At commencement, the asset "right-of-use" is debited while the liability "lease liability" is credited. At year end, "lease liability" is debited while the asset "cash/bank" is credited.
     - accounting evolution / recognition approach / [income statement](../../../../general/income%20statement.md) ::: At year end, the expense "depreciation" is recorded (and debited in the balance sheet) while the asset "accumulated depreciation" is credited in the balance sheet. This depreciates the asset "right-of-use".
 
 ## week 3 lecture
