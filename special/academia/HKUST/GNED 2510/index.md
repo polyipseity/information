@@ -36,7 +36,7 @@ The content is in teaching order.
 - time: 2023-09-06T17:00:00+08:00/2023-09-06T18:50:00+08:00
 - topic: Innerview (I): Breaking your Mental Model
 - course logistics
-- SCARF (good) ::: sense of urgency, courage to try, awesomeness, relatedness, fresh perspective <!--SR:!2024-09-25,6,250!2024-10-09,15,290-->
+- SCARF (good) ::: sense of urgency, courage to try, awesomeness, relatedness, fresh perspective <!--SR:!2024-10-15,20,270!2024-10-09,15,290-->
 - hard skills, soft skills ::: Many jobs typically require a combination of them. <!--SR:!2024-10-09,15,290!2024-10-09,15,290-->
   - hard skills ::: Skills acquired through formal education and training programs. <!--SR:!2024-10-10,16,290!2024-10-07,13,290-->
   - soft skills ::: Skills that promote productivity, efficiency, effective communication, etc. <!--SR:!2024-10-11,17,290!2024-10-08,14,290-->

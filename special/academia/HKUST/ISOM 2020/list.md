@@ -11,7 +11,7 @@ tags:
 
 A Python list is {{a collection of values, and you can treat it like a collective of variables}}. <!--SR:!2024-09-27,13,274-->
 
-If you try to {{get the type of a list using `type(list)`}}, {{the returned type name is either `list` or `<class 'list'>`}}, regardless of {{the contents contained inside the list}}. <!--SR:!2024-09-26,12,274!2024-09-25,11,274!2024-09-30,16,294-->
+If you try to {{get the type of a list using `type(list)`}}, {{the returned type name is either `list` or `<class 'list'>`}}, regardless of {{the contents contained inside the list}}. <!--SR:!2024-09-26,12,274!2024-11-09,45,294!2024-09-30,16,294-->
 
 ## syntax
 
@@ -41,7 +41,7 @@ You can {{use the [indexing](#indexing) notation to replace the _n_-th item of a
 
 To {{add a new item (not replace existing items) to the back of a list}}, use {{`list.append(value)`}}. Its return value is {{nothing (`None`)}}. <!--SR:!2024-10-23,29,274!2024-09-30,16,294!2024-10-19,25,274-->
 
-To {{remove an the _n_-th existing item}}. use {{`list.pop(index)`, with `index` being _n_ - 1}}. Note that `index` accepts {{numbers in the same ways as in the [indexing](#indexing) notation, i.e. negative indices are accepted and have the same meaning}}. Likewise, if {{the index is out of range}}, then {{an `IndexError` will be raised}}. Not specifying {{the `index` is also okay (`list.pop()`), and `index` will be set to `-1` by default, meaning the last item will be removed}}. After removing the item, it will {{return the removed item}}. <!--SR:!2024-09-25,11,274!2024-10-31,37,294!2024-09-26,12,274!2024-09-30,16,294!2024-10-25,31,294!2024-10-01,17,294!2024-09-29,15,290-->
+To {{remove an the _n_-th existing item}}. use {{`list.pop(index)`, with `index` being _n_ - 1}}. Note that `index` accepts {{numbers in the same ways as in the [indexing](#indexing) notation, i.e. negative indices are accepted and have the same meaning}}. Likewise, if {{the index is out of range}}, then {{an `IndexError` will be raised}}. Not specifying {{the `index` is also okay (`list.pop()`), and `index` will be set to `-1` by default, meaning the last item will be removed}}. After removing the item, it will {{return the removed item}}. <!--SR:!2024-11-08,44,294!2024-10-31,37,294!2024-09-26,12,274!2024-09-30,16,294!2024-10-25,31,294!2024-10-01,17,294!2024-09-29,15,290-->
 
 To {{concatenate/join two lists (or strings)}}, use {{the `+` operator}}. Note that {{the resulting list is different from the original 2 lists, i.e. modifying the resulting list will not modify the original 2 lists}}. Since {{`str`s cannot be modified}}, the above is irrelevant for strings. If {{the `+` operator is applied between different types}}, then {{a `TypeError` will be raised}}. <!--SR:!2024-10-12,18,316!2024-10-12,18,316!2024-10-12,18,316!2024-10-12,18,316!2024-10-12,18,316!2024-10-12,18,316-->
 
@@ -55,7 +55,7 @@ Aggregate functions {{summarize a result from a list}}. <!--SR:!2024-10-28,34,29
 
 - `max(list)` ::: Returns the maximum item. If `list` is empty, a `ValueError` is raised. If `list` consists of `float`s and `int`s only, the largest item (the originally leftmost one is returned if there are multiple largest items) will be returned, and no type conversion is done. If `list` consists of `str`s only, then the last string, ordered lexicographically (the originally leftmost one is returned if there are multiple first strings), is returned. If `list` mixes incompatible types (e.g. `int` and `str`), then a `TypeError` is raised. <!--SR:!2024-10-19,25,274!2024-10-27,33,274-->
 - `min(list)` ::: Returns the maximum item. If `list` is empty, a `ValueError` is raised. If the `list` consists of `float`s and `int`s only, the smallest item (the originally leftmost one is returned if there are multiple largest items) will be returned, and no type conversion is done. If `list` consists of `str`s only, then the first string, ordered lexicographically (the originally leftmost one is returned if there are multiple first strings), is returned. If `list` mixes incompatible types (e.g. `int` and `str`), then a `TypeError` is raised. <!--SR:!2024-10-24,30,294!2024-09-26,12,274-->
-- `sum(list)` ::: Returns the sum of elements in the list. If the `list` is empty, an `int`, `0`, is returned. If `list` consists of `float`s and `int`s only, the sum is returned. The return type is `float` if there is at least one `float` in `list`, otherwise the return type is `int`. If `list` contains incompatible types (e.g. `str`), then a `TypeError` is raised. <!--SR:!2024-09-25,11,274!2024-10-20,26,274-->
+- `sum(list)` ::: Returns the sum of elements in the list. If the `list` is empty, an `int`, `0`, is returned. If `list` consists of `float`s and `int`s only, the sum is returned. The return type is `float` if there is at least one `float` in `list`, otherwise the return type is `int`. If `list` contains incompatible types (e.g. `str`), then a `TypeError` is raised. <!--SR:!2024-10-23,28,274!2024-10-20,26,274-->
 
 ## search functions
 

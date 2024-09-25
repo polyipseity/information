@@ -67,7 +67,7 @@ return await memorize_seq(
 - [Earth](Earth.md), with the [Moon](Moon.md) orbiting around it→:::←[Mars](Mars.md) <!--SR:!2025-03-25,192,310!2024-11-08,85,270-->
 - [Mars](Mars.md)→:::←[Jupiter](Jupiter.md) <!--SR:!2025-06-27,278,330!2024-12-09,109,290-->
 - [Jupiter](Jupiter.md)→:::←[Saturn](Saturn.md) <!--SR:!2025-01-10,148,310!2025-06-07,265,330-->
-- [Saturn](Saturn.md)→:::←[fixed stars](fixed%20stars.md) <!--SR:!2025-06-19,274,330!2024-09-25,69,310-->
+- [Saturn](Saturn.md)→:::←[fixed stars](fixed%20stars.md) <!--SR:!2025-06-19,274,330!2025-07-17,295,330-->
 - [fixed stars](fixed%20stars.md)→:::←_(end)_ <!--SR:!2025-04-30,235,330!2025-04-19,226,330-->
 
 <!--/pytextgen-->

@@ -15,7 +15,7 @@ The __Sun__ is {{the [star](star.md) at the center of the [Solar System](Solar%2
 
 - equatorial [radius](radius.md) ::: 696&nbsp;300&nbsp;[km](kilometre.md), 432&nbsp;700&nbsp;[mi](mile.md), 109&nbsp;[Earth radii](Earth%20radius.md) <!--SR:!2024-10-08,21,200!2024-12-05,89,280-->
 - [luminosity](luminosity.md) ::: 3.828×10<sup>26</sup>&nbsp;[W](watt.md), 3.75×10<sup>28</sup>&nbsp;[lm](lumen%20(unit).md), 98&nbsp;lm/W [efficacy](luminous%20efficacy.md) <!--SR:!2024-11-18,65,240!2024-10-12,53,280-->
-- [mass](mass.md) ::: 1.9885×10<sup>30</sup>&nbsp;[kg](kilogram.md), 4.3839×10<sup>30</sup>&nbsp;[lbs](pound%20(mass).md), 332&nbsp;950&nbsp;[Earths](Earth%20mass.md) <!--SR:!2024-09-25,22,220!2024-11-18,77,280-->
+- [mass](mass.md) ::: 1.9885×10<sup>30</sup>&nbsp;[kg](kilogram.md), 4.3839×10<sup>30</sup>&nbsp;[lbs](pound%20(mass).md), 332&nbsp;950&nbsp;[Earths](Earth%20mass.md) <!--SR:!2024-11-12,48,220!2024-11-18,77,280-->
 
 ## structure and fusion
 
@@ -27,7 +27,7 @@ From the outside to inside, significant structures of the Sun are: {{[solar wind
 
 - see: [solar core](solar%20core.md)
 
-The core of the Sun extends {{from the center to about 20–25% of the [solar radius](solar%20radius.md)}}. It has a [density](density.md) of {{up to 150 g/cm<sup>3</sup> (about 150 times the density of [water](water.md))}} and a temperature of {{close to 15.7 million [kelvin](Kelvin.md) (K)}}. <!--SR:!2024-10-11,58,300!2024-09-25,48,300!2024-11-28,83,280-->
+The core of the Sun extends {{from the center to about 20–25% of the [solar radius](solar%20radius.md)}}. It has a [density](density.md) of {{up to 150 g/cm<sup>3</sup> (about 150 times the density of [water](water.md))}} and a temperature of {{close to 15.7 million [kelvin](Kelvin.md) (K)}}. <!--SR:!2024-10-11,58,300!2025-02-15,143,300!2024-11-28,83,280-->
 
 The core is the only region of the Sun that {{produces an appreciable amount of [thermal energy](thermal%20energy.md) through [nuclear fusion](nuclear%20fusion.md)}}; {{99% of the power is generated within 24% of the Sun's radius, and by 30% of the radius}}, fusion has stopped nearly entirely. Through most of the Sun's life, energy has been produced by {{nuclear fusion in the core region through the [proton–proton chain](proton–proton%20chain.md); this process converts [hydrogen](hydrogen.md) into [helium](helium.md)}}. Currently, only about 0.8% of the energy generated in the Sun {{comes from another sequence of fusion reactions called the [CNO cycle](CNO%20cycle.md), though this proportion is expected to increase as the Sun becomes older and more luminous}}. <!--SR:!2024-09-27,50,300!2024-10-06,53,300!2025-01-03,113,300!2024-10-08,55,300-->
 

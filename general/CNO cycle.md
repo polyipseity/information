@@ -25,14 +25,14 @@ Under {{typical conditions found in stars}}, catalytic hydrogen burning by the C
 
 ### CNO-I
 
-The CN-cycle, named as {{it contains no stable isotope of oxygen}}, involves the following cycle of transformations: {{$${}_{\phantom{0}6}^{12}\mathrm{C} \rightarrow {}_{\phantom{0}7}^{13}\mathrm{N} \rightarrow {}_{\phantom{0}6}^{13}\mathrm{C} \rightarrow {}_{\phantom{0}7}^{14}\mathrm{N} \rightarrow {}_{\phantom{0}8}^{15}\mathrm{O} \rightarrow {}_{\phantom{0}7}^{15}\mathrm{N} \rightarrow {}_{\phantom{0}6}^{12}\mathrm{C}$$}}. <!--SR:!2024-09-25,39,290!2024-10-04,45,290-->
+The CN-cycle, named as {{it contains no stable isotope of oxygen}}, involves the following cycle of transformations: {{$${}_{\phantom{0}6}^{12}\mathrm{C} \rightarrow {}_{\phantom{0}7}^{13}\mathrm{N} \rightarrow {}_{\phantom{0}6}^{13}\mathrm{C} \rightarrow {}_{\phantom{0}7}^{14}\mathrm{N} \rightarrow {}_{\phantom{0}8}^{15}\mathrm{O} \rightarrow {}_{\phantom{0}7}^{15}\mathrm{N} \rightarrow {}_{\phantom{0}6}^{12}\mathrm{C}$$}}. <!--SR:!2025-02-28,156,310!2024-10-04,45,290-->
 
 This cycle is now understood as {{being the first part of a larger process, the CNO-cycle}}, and the main reactions in this part of the cycle (CNO-I) are: <!--SR:!2024-10-15,58,310-->
 
 - 1st step ::: $${}_{\phantom{0}6}^{12}\mathrm{C} + {}_1^1\mathrm{H} \rightarrow {}_{\phantom{0}7}^{13}\mathrm{N} + \gamma + 1.95~\mathrm{MeV}$$ <!--SR:!2024-11-12,67,270!2024-10-07,48,290-->
   - 1st step / energy release (& half-life if available) ::: 1.95 MeV <!--SR:!2024-10-13,44,250!2024-10-16,50,270-->
 - 2nd step ::: $${}_{\phantom{0}7}^{13}\mathrm{N} \rightarrow {}_{\phantom{0}6}^{13}\mathrm{C} + \mathrm{e}^+ + \nu_{\mathrm{e} } + 1.20~\mathrm{MeV} \quad (\text{half life of 9.965 minutes})$$ <!--SR:!2024-10-05,26,190!2024-10-20,62,310-->
-  - 2nd step / energy release (& half-life if available) ::: 1.20 Mev, 9.965 minutes <!--SR:!2024-09-25,10,170!2025-01-13,111,290-->
+  - 2nd step / energy release (& half-life if available) ::: 1.20 Mev, 9.965 minutes <!--SR:!2024-10-13,18,170!2025-01-13,111,290-->
 - 3rd step ::: $${}_{\phantom{0}6}^{13}\mathrm{C} + {}_1^1\mathrm{H} \rightarrow {}_{\phantom{0}7}^{14}\mathrm{N} + \gamma + 7.54~\mathrm{MeV}$$ <!--SR:!2024-11-19,71,270!2024-10-14,57,310-->
   - 3rd step / energy release (& half-life if available) ::: 7.54 MeV <!--SR:!2024-12-06,85,270!2024-10-03,36,250-->
 - 4th step ::: $${}_{\phantom{0}7}^{14}\mathrm{N} + {}_1^1\mathrm{H} \rightarrow {}_{\phantom{0}8}^{15}\mathrm{O} + \gamma + 7.35~\mathrm{MeV}$$ <!--SR:!2024-10-05,33,230!2024-10-21,63,310-->

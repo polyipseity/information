@@ -106,7 +106,7 @@ See [Colosseum](../../../../general/Colosseum.md).
 - construction period ::: AD 72 to AD 80, 8 years <!--SR:!2024-09-26,28,216!2024-12-11,168,396-->
 - description ::: elliptical amphitheater in the center of Rome <!--SR:!2025-05-13,268,376!2024-10-13,113,376-->
 - geographic location ::: Rome <!--SR:!2024-10-13,119,396!2024-10-29,133,396-->
-- height ::: 48 m (4 storeys) <!--SR:!2024-09-25,40,276!2024-11-11,143,396-->
+- height ::: 48 m (4 storeys) <!--SR:!2025-01-13,110,276!2024-11-11,143,396-->
 - importance ::: largest amphitheater in the Roman Empire, greatest works of Roman architecture and engineering <!--SR:!2024-10-25,122,376!2024-10-08,108,376-->
 
 ## Eiffel Tower

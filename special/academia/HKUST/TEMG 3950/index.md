@@ -177,7 +177,7 @@ The content is in teaching order.
 - [MECE principle](../../../../general/MECE%20principle.md)
 - modeling key concepts ::: abstraction, framework, model <!--SR:!2025-06-11,286,361!2024-10-04,98,361-->
   - modeling key concept: abstraction ::: filter for elements relevant to some specific purpose <!--SR:!2025-07-15,301,361!2024-10-02,96,361-->
-  - modeling key concept: framework ::: a support structure around which something can be built <!--SR:!2024-09-25,90,361!2025-05-29,273,361-->
+  - modeling key concept: framework ::: a support structure around which something can be built <!--SR:!2025-12-13,444,381!2025-05-29,273,361-->
   - modeling key concept: model ::: an abstraction of the real world for some specific purpose <!--SR:!2025-08-27,356,381!2024-11-03,105,341-->
 - Aguilar's PESTLE framework ::: business environment analysis <!--SR:!2024-09-27,92,361!2025-07-04,291,361-->
   - [PEST analysis § composition](../../../../general/PEST%20analysis.md#composition)
@@ -205,7 +205,7 @@ The content is in teaching order.
 - [assignment W9](assignment%20W9/assignment%20W9.md) takeaways
   - general case analysis question takeaways ::: Identify key questions. Choose the question that is most precise and involves least work. <!--SR:!2025-05-25,275,361!2025-11-16,419,381-->
   - use of framework takeaways ::: Consider relevant dimensions of each framework and select the framework with the most relevant dimensions. Add a total at the end to sum up all the dimensions. <!--SR:!2025-04-10,223,341!2024-10-01,95,361-->
-- nature of problems ::: Problems are caused by a network of causes. If the causes are not removed, the problems may recur. <!--SR:!2025-02-24,177,321!2024-09-25,90,361-->
+- nature of problems ::: Problems are caused by a network of causes. If the causes are not removed, the problems may recur. <!--SR:!2025-02-24,177,321!2025-12-14,445,381-->
 - casual relationship ::: Event A, called the _cause_, causes event B, called the _effect_. <!--SR:!2025-05-24,275,361!2025-11-18,421,381-->
 - correlation ::: Measure of relationship between 2 variables. They can be positively correlated, negatively correlated, or uncorrelated. <!--SR:!2025-03-13,207,361!2025-01-08,164,341-->
 - casual relationship & correlation ::: Correlation does not imply causation. <!--SR:!2025-06-29,288,361!2025-11-22,425,381-->

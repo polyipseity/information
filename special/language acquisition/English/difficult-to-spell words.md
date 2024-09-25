@@ -62,7 +62,7 @@ English
 - [perspective](https://en.wiktionary.org/wiki/perspective) ::: (p\_e) The technique of representing [three-dimensional space](../../../general/three-dimensional%20space.md) in [two-dimensional space](../../../general/two-dimensional%20space.md). <!--SR:!2025-02-05,294,352!2025-07-01,434,372-->
 - [pharyngeal](https://en.wiktionary.org/wiki/pharyngeal) ::: (p\_l) Of or pertaining to the [pharynx](../../../general/pharynx.md). <!--SR:!2025-02-09,310,344!2024-11-17,226,324-->
 - [pharynx](https://en.wiktionary.org/wiki/pharynx) ::: (p\_x) Part of the [throat](../../../general/throat.md) extending from the back of the [mouth](../../../general/mouth.md) and [nasal cavity](../../../general/nasal%20cavity.md) to the [esophagus](../../../general/esophagus.md) and [trachea](../../../general/trachea.md). <!--SR:!2025-03-19,276,264!2025-07-15,391,304-->
-- [phenomenon](https://en.wiktionary.org/wiki/phenomenon) ::: (p\_n) An [observable](../../../general/observable.md) [event](../../../general/event%20(philosophy).md). <!--SR:!2025-02-22,300,363!2024-09-25,26,243-->
+- [phenomenon](https://en.wiktionary.org/wiki/phenomenon) ::: (p\_n) An [observable](../../../general/observable.md) [event](../../../general/event%20(philosophy).md). <!--SR:!2025-02-22,300,363!2024-11-26,62,243-->
 - [plagiarism](https://en.wiktionary.org/wiki/plagiarism) ::: (p\_m) Copying of others' work and presenting it as one's own. <!--SR:!2024-11-29,235,324!2025-03-17,308,304-->
 - [plagiarize](https://en.wiktionary.org/wiki/plagiarize) ::: (p\_e) To copy others' work and present it as one's own. <!--SR:!2025-01-29,299,344!2024-12-03,242,304-->
 - [polynomial](https://en.wiktionary.org/wiki/polynomial) ::: (p\_l) A [mathematical expression](../../../general/expression%20(mathematics).md) that is a [sum](../../../general/summation.md) of [constant](../../../general/constant%20(mathematics).md) [coefficients](../../../general/coefficient.md) multipled with [indeterminates](../../../general/indeterminate%20(variable).md) raised to a nonnegative [integer](../../../general/integer.md) [power](../../../general/exponentiation.md). <!--SR:!2024-11-20,229,324!2027-03-29,916,344-->
@@ -75,7 +75,7 @@ English
 - [reciprocity](https://en.wiktionary.org/wiki/reciprocity) ::: (r\_y) Mutual dependence, action, or influence. <!--SR:!2025-11-01,493,408!2025-08-24,406,348-->
 - [recruit](https://en.wiktionary.org/wiki/recruit) ::: (r\_t) Enroll new [employees](../../../general/employment.md#employee). <!--SR:!2025-02-26,327,372!2025-03-18,347,372-->
 - [reservoir](https://en.wiktionary.org/wiki/reservoir) ::: (r\_r) A source or sink of something. <!--SR:!2025-01-20,304,330!2025-01-21,269,290-->
-- [rudimentary](https://en.wiktionary.org/wiki/rudimentary) ::: (r\_y) Basic, minimal. <!--SR:!2025-04-28,381,372!2024-09-25,209,352-->
+- [rudimentary](https://en.wiktionary.org/wiki/rudimentary) ::: (r\_y) Basic, minimal. <!--SR:!2025-04-28,381,372!2027-07-02,1010,372-->
 - [sacred](https://en.wiktionary.org/wiki/sacred) ::: (s\_d) Not to be profaned or violated; inviolable. <!--SR:!2025-10-14,428,376!2025-07-01,288,336-->
 - [scarce](https://en.wiktionary.org/wiki/scarce) ::: (s\_e) Uncommon, rare. <!--SR:!2025-08-20,394,376!2025-07-28,345,336-->
 - [scared](https://en.wiktionary.org/wiki/scared) ::: (s\_d) Feeling fear; afraid, frightened. <!--SR:!2026-01-07,529,396!2026-08-18,718,416-->

@@ -24,7 +24,7 @@ After finding the [roots](zero%20of%20a%20function.md) of the characteristic equ
 
 ### distinct real roots
 
-For a distinct real root $r_n$, its corresponding solution is {{$y_n(x)=c_ne^{r_nx}$}}. <!--SR:!2024-09-25,231,330-->
+For a distinct real root $r_n$, its corresponding solution is {{$y_n(x)=c_ne^{r_nx}$}}. <!--SR:!2026-10-26,761,330-->
 
 ### repeated real roots
 

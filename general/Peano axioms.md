@@ -29,7 +29,7 @@ The first axiom states {{that the constant 0 is a natural number}}: <!--SR:!2024
 
 Peano's original formulation of the axioms {{used 1 instead of 0 as the "first" natural number, while the axioms in _[Formulario mathematico](formulario%20mathematico.md)_ include zero}}. <!--SR:!2024-09-30,16,305-->
 
-The next four axioms describe {{the [equality](equality%20(mathematics).md) [relation](relation%20(mathematics).md)}}. Since {{they are logically valid in first-order logic with equality}}, they are {{not considered to be part of "the Peano axioms" in modern treatments}}. <!--SR:!2024-10-02,18,305!2024-09-30,16,305!2024-09-25,11,285-->
+The next four axioms describe {{the [equality](equality%20(mathematics).md) [relation](relation%20(mathematics).md)}}. Since {{they are logically valid in first-order logic with equality}}, they are {{not considered to be part of "the Peano axioms" in modern treatments}}. <!--SR:!2024-10-02,18,305!2024-09-30,16,305!2024-11-07,43,305-->
 
 <!-- markdownlint-capture -->
 <!-- markdownlint-disable MD029 -->
@@ -45,10 +45,10 @@ The remaining axioms {{define the arithmetical properties of the natural numbers
 <!-- markdownlint-disable MD029 -->
 6. 6th axiom ::: For every natural number _n_, _S_(_n_) is a natural number. That is, the natural numbers are [closed](closure%20(mathematics).md) under _S_. <!--SR:!2024-09-27,13,282!2024-09-30,16,290-->
 7. 7th axiom ::: For all natural numbers _m_ and _n_, if _S_(_m_) = _S_(_n_), then _m_ = _n_. That is, _S_ is an [injection](injective%20function.md). <!--SR:!2024-10-02,18,305!2024-10-23,31,285-->
-8. 8th axiom ::: For every natural number _n_, _S_(_n_) = 0 is false. That is, there is no natural number whose successor is 0. <!--SR:!2024-09-25,11,285!2024-09-29,15,305-->
+8. 8th axiom ::: For every natural number _n_, _S_(_n_) = 0 is false. That is, there is no natural number whose successor is 0. <!--SR:!2024-11-10,46,305!2024-09-29,15,305-->
 <!-- markdownlint-restore -->
 
-The chain of light dominoes on the right, starting with the nearest, can {{represent the set __N__ of natural numbers}}. However, axioms 1–8 are {{_also_ satisfied by the set of all dominoes — whether light (am infinite chain of dominoes) or dark (a finite circular chain of dominoes) — taken together}}. The 9th axiom {{([induction](mathematical%20induction.md)) limits __N__ to the chain of light pieces ("no junk") as only light dominoes will fall when the nearest is toppled}}. {{Axioms 1, 6, 7, 8}} define {{a [unary representation](unary%20numeral%20system.md) of the intuitive notion of natural numbers: the number 1 can be defined as _S_(0), 2 as _S_(_S_(0)), etc.}} However, considering {{the notion of natural numbers as being defined by these axioms}}, axioms 1, 6, 7, 8 {{do not imply that the successor function generates all the natural numbers different from 0}}. <!--SR:!2024-09-29,15,290!2024-09-26,12,285!2024-09-25,11,285!2024-10-05,17,265!2024-10-17,24,285!2024-09-28,14,290!2024-09-29,15,305-->
+The chain of light dominoes on the right, starting with the nearest, can {{represent the set __N__ of natural numbers}}. However, axioms 1–8 are {{_also_ satisfied by the set of all dominoes — whether light (am infinite chain of dominoes) or dark (a finite circular chain of dominoes) — taken together}}. The 9th axiom {{([induction](mathematical%20induction.md)) limits __N__ to the chain of light pieces ("no junk") as only light dominoes will fall when the nearest is toppled}}. {{Axioms 1, 6, 7, 8}} define {{a [unary representation](unary%20numeral%20system.md) of the intuitive notion of natural numbers: the number 1 can be defined as _S_(0), 2 as _S_(_S_(0)), etc.}} However, considering {{the notion of natural numbers as being defined by these axioms}}, axioms 1, 6, 7, 8 {{do not imply that the successor function generates all the natural numbers different from 0}}. <!--SR:!2024-09-29,15,290!2024-09-26,12,285!2024-10-27,32,285!2024-10-05,17,265!2024-10-17,24,285!2024-09-28,14,290!2024-09-29,15,305-->
 
 The intuitive notion that {{each natural number can be obtained by applying _successor_ sufficiently many times to zero}} requires {{an additional axiom, which is sometimes called the _[axiom of induction](mathematical%20induction.md#axiom%20of%20induction)_}}. <!--SR:!2024-09-29,15,305!2024-10-31,38,305-->
 
@@ -64,11 +64,11 @@ The induction axiom is sometimes stated in the following form:
 9. 9th axiom condition (predicate) ::: If _φ_ is a unary [predicate](predicate%20(mathematical%20logic).md) such that: _φ_(0) is true, and for every natural number _n_, _φ_(_n_) being true implies that _φ_(_S_(_n_)) is true, then _φ_(_n_) is true for every natural number _n_. <!--SR:!2024-10-02,18,305!2024-10-24,31,302-->
 <!-- markdownlint-restore -->
 
-In Peano's original formulation, the induction axiom is {{a [second-order axiom](second-order%20logic.md)}}. It is now common to {{replace this second-order principle with a weaker [first-order](first-order%20logic.md) induction scheme}}. There are {{important differences between the second-order and first-order formulations, as discussed in the section [§ Peano arithmetic as first-order theory](#peano%20arithmetic%20as%20first-order%20theory) below}}. <!--SR:!2024-09-25,11,285!2024-09-27,13,270!2024-10-02,18,305-->
+In Peano's original formulation, the induction axiom is {{a [second-order axiom](second-order%20logic.md)}}. It is now common to {{replace this second-order principle with a weaker [first-order](first-order%20logic.md) induction scheme}}. There are {{important differences between the second-order and first-order formulations, as discussed in the section [§ Peano arithmetic as first-order theory](#peano%20arithmetic%20as%20first-order%20theory) below}}. <!--SR:!2024-11-08,44,305!2024-09-27,13,270!2024-10-02,18,305-->
 
 ### defining arithmetic operations and relations
 
-If we use the second-order induction axiom, it is {{possible to define [addition](addition.md), [multiplication](multiplication.md), and [total (linear) ordering](total%20order.md) on [__N__](natural%20number.md#notation) directly using the axioms}}. However, with first-order induction, this is {{not possible and addition and multiplication are often added as axioms}}. The respective functions and relations are {{constructed in [set theory](set%20theory.md) or [second-order logic](second-order%20logic.md), and can be shown to be unique using the Peano axioms}}. <!--SR:!2024-09-25,13,285!2024-09-30,16,305!2024-10-22,30,285-->
+If we use the second-order induction axiom, it is {{possible to define [addition](addition.md), [multiplication](multiplication.md), and [total (linear) ordering](total%20order.md) on [__N__](natural%20number.md#notation) directly using the axioms}}. However, with first-order induction, this is {{not possible and addition and multiplication are often added as axioms}}. The respective functions and relations are {{constructed in [set theory](set%20theory.md) or [second-order logic](second-order%20logic.md), and can be shown to be unique using the Peano axioms}}. <!--SR:!2024-10-31,36,285!2024-09-30,16,305!2024-10-22,30,285-->
 
 #### addition
 
@@ -92,7 +92,7 @@ It is easy to see that $S(0)$ is {{the multiplicative [right identity](identity%
 
 To show that $S(0)$ is {{also the multiplicative left identity requires the induction axiom due to the way multiplication is defined}}: <!--SR:!2024-10-02,18,305-->
 
-- multiplicative left identity / base case ::: $S(0)$ is the left identity of 0: $S(0)\cdot 0=0$. <!--SR:!2024-09-25,11,285!2024-09-29,15,305-->
+- multiplicative left identity / base case ::: $S(0)$ is the left identity of 0: $S(0)\cdot 0=0$. <!--SR:!2024-11-09,45,305!2024-09-29,15,305-->
 - multiplication left identity / induction ::: If $S(0)$ is the left identity of $a$ (that is $S(0)\cdot a=a$), then $S(0)$ is also the left identity of $S(a)$: $S(0)\cdot S(a)=S(0)+S(0)\cdot a=S(0)+a=a+S(0)=S(a+0)=S(a)$, using commutativity of addition. <!--SR:!2024-10-14,22,265!2024-10-25,31,282-->
 
 Therefore, by {{the induction axiom $S(0)$ is the multiplicative left identity of all natural numbers}}. Moreover, it can be shown that {{multiplication is commutative and [distributes over](distributive%20property.md) addition: $$a\cdot (b+c)=(a\cdot b)+(a\cdot c)$$}}. <!--SR:!2024-10-02,18,305!2024-10-01,17,290-->
@@ -119,7 +119,7 @@ The axiom of induction is {{sometimes stated in the following form that uses a s
 For any [predicate](predicate%20(mathematical%20logic).md) _φ_, if
 
 - _φ_(0) is true, and
-- axiom of induction condition with inequalities ::: for every _n_ ∈ __N__, if _φ_(_k_) is true for every _k_ ∈ __N__ such that _k_ ≤ _n_, then _φ_(_S_(_n_)) is true, <!--SR:!2024-09-25,11,285!2024-10-01,17,305-->
+- axiom of induction condition with inequalities ::: for every _n_ ∈ __N__, if _φ_(_k_) is true for every _k_ ∈ __N__ such that _k_ ≤ _n_, then _φ_(_S_(_n_)) is true, <!--SR:!2024-11-11,47,305!2024-10-01,17,305-->
 - then for every _n_ ∈ __N__, _φ_(_n_) is true.
 
 This form of the induction axiom, called {{_strong induction_, is a consequence of the standard formulation}}, but is {{often better suited for reasoning about the ≤ order}}. For example, to {{show that the naturals are [well-ordered](well-order.md)—every [nonempty](empty%20set.md) [subset](subset.md) of __N__ has a [least element](greatest%20element%20and%20least%20element.md)}}—one can reason as follows. <!--SR:!2024-09-28,14,305!2024-09-26,12,285!2024-10-01,17,305-->

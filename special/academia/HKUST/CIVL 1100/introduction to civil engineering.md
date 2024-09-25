@@ -99,7 +99,7 @@ The content is in teaching order.
   - civil engineer demand ::: Civil engineer are always in demand due to new infrastructure and maintenance and monitoring of existing ones. <!--SR:!2025-08-20,384,380!2025-09-09,407,397-->
   - [civil engineer prospect examples](#civil%20engineer%20prospect%20examples)
   - civil engineer organization examples ::: contractors or construction companies, engineering consulting firms, government (working as civil servants) <!--SR:!2025-03-25,247,285!2025-03-18,266,330-->
-    - civil government departments in [Hong Kong](../../../../general/Hong%20Kong.md) ::: Architectural Services Department (ArchSD), Buildings Department (BD), Housing Department (HD) <!--SR:!2024-09-25,120,332!2026-01-22,518,395-->
+    - civil government departments in [Hong Kong](../../../../general/Hong%20Kong.md) ::: Architectural Services Department (ArchSD), Buildings Department (BD), Housing Department (HD) <!--SR:!2025-10-27,397,332!2026-01-22,518,395-->
       - Architectural Services Department (ArchSD) ::: governmental structures, markets, playgrounds, public schools <!--SR:!2024-11-07,154,337!2024-12-06,196,330-->
       - Buildings Department (BD) ::: illegal structures, private buildings <!--SR:!2025-09-23,388,295!2025-07-11,349,374-->
       - Housing Department (HD) ::: home ownership scheme, public housing <!--SR:!2024-10-30,146,290!2025-02-17,221,354-->
@@ -593,7 +593,7 @@ nuclear
 - _(begin)_→:::←agricultural <!--SR:!2025-11-19,421,310!2025-12-04,477,392-->
 - agricultural→:::←architectural <!--SR:!2025-01-31,212,357!2025-06-08,311,372-->
 - architectural→:::←biomedical <!--SR:!2024-11-04,144,337!2024-11-25,152,340-->
-- biomedical→:::←ceramic <!--SR:!2024-11-05,133,320!2024-09-25,114,337-->
+- biomedical→:::←ceramic <!--SR:!2024-11-05,133,320!2026-03-07,528,357-->
 - ceramic→:::←chemical <!--SR:!2024-12-15,154,320!2025-10-27,398,335-->
 - chemical→:::←civil <!--SR:!2024-10-21,133,337!2024-12-24,194,357-->
 - civil→:::←computer <!--SR:!2024-11-15,163,354!2024-12-17,189,352-->
@@ -1227,7 +1227,7 @@ water treatment
 <!--pytextgen generate section="1123"--><!-- The following content is generated at 2024-02-16T21:59:48.139738+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←groundwater quality control <!--SR:!2024-10-04,123,340!2024-11-29,175,357-->
-- groundwater quality control→:::←wastewater recycling <!--SR:!2024-11-26,89,275!2024-09-25,37,260-->
+- groundwater quality control→:::←wastewater recycling <!--SR:!2024-11-26,89,275!2024-12-26,92,260-->
 - wastewater recycling→:::←wastewater treatment <!--SR:!2024-11-03,131,315!2025-01-16,186,317-->
 - wastewater treatment→:::←water quality monitoring <!--SR:!2024-12-21,142,280!2024-12-07,157,315-->
 - water quality monitoring→:::←water treatment <!--SR:!2024-11-12,148,324!2025-10-19,390,334-->

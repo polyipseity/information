@@ -58,7 +58,7 @@ Empathy is {{the foundation of human-centered design}}. To empathize: {{observe,
 
 ### define
 
-Define is {{unpacking your findings from empathize into insights, and coming up with your _Point of View_}}. A _Point of View_ should {{preserve emotions and the individuals you are designing for. Language should be strong but sensible. The goal is to generate many possibilities}}. <!--SR:!2024-11-24,142,250!2024-09-25,126,290-->
+Define is {{unpacking your findings from empathize into insights, and coming up with your _Point of View_}}. A _Point of View_ should {{preserve emotions and the individuals you are designing for. Language should be strong but sensible. The goal is to generate many possibilities}}. <!--SR:!2024-11-24,142,250!2026-02-16,509,310-->
 
 ### ideate
 

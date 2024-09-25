@@ -13,20 +13,20 @@ tags:
 
 __Financial accounting__ is {{a branch of [accounting](accounting.md) concerned with the summary, analysis and reporting of financial transactions related to a business}}.<sup>[\[1\]](#^ref-1)</sup> This involves {{the preparation of [financial statements](financial%20audit.md) available for public use}}. {{[Stockholders](shareholder.md), [suppliers](vendor.md), [banks](bank.md), [employees](employment.md#employee), [government agencies](government%20agency.md), [business owners](businessperson.md), and other [stakeholders](stakeholder%20(corporate).md)}} are examples of people {{interested in receiving such information for decision making purposes}}. <!--SR:!2024-09-30,16,290!2024-10-25,31,270!2024-09-26,12,270!2024-10-01,17,290-->
 
-Financial accountancy is governed by {{both local and international accounting standards}}. {{[Generally Accepted Accounting Principles](accounting%20standard.md) (GAAP)}} is {{the standard framework of guidelines for financial accounting used in any given jurisdiction}}. It includes {{the standards, conventions and rules that accountants follow in recording and summarizing and in the preparation of financial statements}}. <!--SR:!2024-09-28,14,290!2024-09-25,11,270!2024-09-26,12,270!2024-09-26,12,270-->
+Financial accountancy is governed by {{both local and international accounting standards}}. {{[Generally Accepted Accounting Principles](accounting%20standard.md) (GAAP)}} is {{the standard framework of guidelines for financial accounting used in any given jurisdiction}}. It includes {{the standards, conventions and rules that accountants follow in recording and summarizing and in the preparation of financial statements}}. <!--SR:!2024-09-28,14,290!2024-11-07,43,290!2024-09-26,12,270!2024-09-26,12,270-->
 
 On the other hand, {{[International Financial Reporting Standards](International%20Financial%20Reporting%20Standards.md) (IFRS)}} is {{a set of accounting standards stating how particular types of transactions and other events should be reported in financial statements}}. IFRS are issued by {{the [International Accounting Standards Board](International%20Accounting%20Standards%20Board.md) (IASB)}}.<sup>[\[2\]](#^ref-2)</sup> With {{IFRS becoming more widespread on the international scene}}, {{_consistency_ in financial reporting has become more prevalent between global organizations}}. <!--SR:!2024-09-27,13,270!2024-09-30,16,290!2024-09-28,14,290!2024-10-01,17,290!2024-09-28,14,290-->
 
-While financial accounting is {{used to prepare accounting information for people outside the organization or not involved in the day-to-day running of the company}}, [managerial accounting](management%20accounting.md) {{provides accounting information to help managers make decisions to manage the business}}. <!--SR:!2024-09-25,11,270!2024-09-28,14,290-->
+While financial accounting is {{used to prepare accounting information for people outside the organization or not involved in the day-to-day running of the company}}, [managerial accounting](management%20accounting.md) {{provides accounting information to help managers make decisions to manage the business}}. <!--SR:!2024-10-29,34,270!2024-09-28,14,290-->
 
 ## principles
 
 {{Financial accounting and financial reporting}} are often used as synonyms. <!--SR:!2024-10-01,17,290-->
 
-1. According to International Financial Reporting Standards: the objective of financial reporting is ... ::: To provide financial information that is useful to existing and potential investors, lenders and other creditors in making decisions about providing resources to the reporting entity.<sup>[\[3\]](#^ref-3)</sup> <!--SR:!2024-09-25,11,270!2024-09-25,11,270-->
-2. According to the European Accounting Association: ... ::: Capital maintenance is a competing objective of financial reporting.<sup>[\[4\]](#^ref-4)</sup> <!--SR:!2024-09-25,11,270!2024-09-27,13,270-->
+1. According to International Financial Reporting Standards: the objective of financial reporting is ... ::: To provide financial information that is useful to existing and potential investors, lenders and other creditors in making decisions about providing resources to the reporting entity.<sup>[\[3\]](#^ref-3)</sup> <!--SR:!2024-11-06,42,290!2024-10-27,32,270-->
+2. According to the European Accounting Association: ... ::: Capital maintenance is a competing objective of financial reporting.<sup>[\[4\]](#^ref-4)</sup> <!--SR:!2024-10-29,34,270!2024-09-27,13,270-->
 
-Financial accounting is {{the preparation of financial statements that can be consumed by the public and the relevant stakeholders}}. Financial information {{would be useful to users if such qualitative characteristics are present}}. When producing financial statements, the following must be complied with: {{fundamental qualitative characteristics and enhancing qualitative characteristics}}. <!--SR:!2024-10-27,34,290!2024-10-01,17,290!2024-09-25,11,270-->
+Financial accounting is {{the preparation of financial statements that can be consumed by the public and the relevant stakeholders}}. Financial information {{would be useful to users if such qualitative characteristics are present}}. When producing financial statements, the following must be complied with: {{fundamental qualitative characteristics and enhancing qualitative characteristics}}. <!--SR:!2024-10-27,34,290!2024-10-01,17,290!2024-10-23,28,270-->
 
 __Fundamental Qualitative Characteristics__ ::: relevance, faithful representation <!--SR:!2024-09-28,14,290!2024-09-26,12,270-->
 
@@ -50,7 +50,7 @@ The three components of financial statements are {{[statement of cash flows](cas
 
 The statement of cash flows is also called {{cash flow statement}}. <!--SR:!2024-10-07,16,315-->
 
-The statement of cash flows {{considers the inputs and outputs in concrete cash within a stated period}}. The general template of a cash flow statement is as follows: {{_Cash Inflow - Cash Outflow + Opening Balance = Closing Balance_}} <!--SR:!2024-09-25,11,270!2024-10-31,37,290-->
+The statement of cash flows {{considers the inputs and outputs in concrete cash within a stated period}}. The general template of a cash flow statement is as follows: {{_Cash Inflow - Cash Outflow + Opening Balance = Closing Balance_}} <!--SR:!2024-11-08,44,290!2024-10-31,37,290-->
 
 > [!example] example 1
 >
@@ -59,7 +59,7 @@ The statement of cash flows {{considers the inputs and outputs in concrete cash 
 > - {{cash inflow}}: {{$20}}
 > - {{cash outflow}}: {{$7}}
 > - {{opening balance}}: {{$5}}
-> - {{__closing balance__}}: {{__$20 – $7 + $5 = $18__}} <!--SR:!2024-09-28,14,290!2024-10-01,17,290!2024-09-30,16,290!2024-10-28,35,290!2024-10-27,34,290!2024-09-25,11,270!2024-09-30,16,290!2024-09-29,15,290-->
+> - {{__closing balance__}}: {{__$20 – $7 + $5 = $18__}} <!--SR:!2024-09-28,14,290!2024-10-01,17,290!2024-09-30,16,290!2024-10-28,35,290!2024-10-27,34,290!2024-11-07,43,290!2024-09-30,16,290!2024-09-29,15,290-->
 
 <!-- markdownlint MD028 -->
 
@@ -70,7 +70,7 @@ The statement of cash flows {{considers the inputs and outputs in concrete cash 
 > - {{cash inflow}}: {{$50 - _How much WikiTables received in cash for the first table. They didn't receive cash for the second table (sold in credit terms)._}}
 > - {{cash outflow}}: {{$50 - _How much they'd originally bought the 2 tables for._}}
 > - {{opening balance}}: {{$0}}
-> - {{__closing balance__}}: {{__$50 – 2 \* $25 + $0 = $50 – $50 = $0__ - _Indeed, the cash flow for the month of June for WikiTables amounts to $0 and not $50._}} <!--SR:!2024-09-25,11,270!2024-09-29,15,290!2024-10-01,17,290!2024-09-25,11,270!2024-09-28,14,290!2024-10-01,17,290!2024-09-29,15,290!2024-09-28,14,290-->
+> - {{__closing balance__}}: {{__$50 – 2 \* $25 + $0 = $50 – $50 = $0__ - _Indeed, the cash flow for the month of June for WikiTables amounts to $0 and not $50._}} <!--SR:!2024-11-01,37,290!2024-09-29,15,290!2024-10-01,17,290!2024-10-26,31,270!2024-09-28,14,290!2024-10-01,17,290!2024-09-29,15,290!2024-09-28,14,290-->
 
 Important: the cash flow statement {{only considers the exchange of __actual__ cash, and ignores what the person in question owes or is owed}}. <!--SR:!2024-09-27,13,290-->
 
@@ -80,7 +80,7 @@ Important: the cash flow statement {{only considers the exchange of __actual__ c
 
 The statement of financial performance is also called {{income statement, profit & loss (p&l) statement, or statement of operations}}. <!--SR:!2024-10-07,16,315-->
 
-The statement of profit or income statement represents {{the changes in value of a company's [accounts](account%20(bookkeeping).md) over a set period (most commonly one [fiscal year](fiscal%20year.md))}}, and may {{compare the changes to changes in the same accounts over the previous period}}. All changes are {{summarized on the "bottom line" as [net income](net%20income.md), often reported as "net loss" when income is less than zero}}. <!--SR:!2024-09-30,16,290!2024-09-27,13,270!2024-09-25,11,270-->
+The statement of profit or income statement represents {{the changes in value of a company's [accounts](account%20(bookkeeping).md) over a set period (most commonly one [fiscal year](fiscal%20year.md))}}, and may {{compare the changes to changes in the same accounts over the previous period}}. All changes are {{summarized on the "bottom line" as [net income](net%20income.md), often reported as "net loss" when income is less than zero}}. <!--SR:!2024-09-30,16,290!2024-09-27,13,270!2024-10-24,29,270-->
 
 The net profit or loss is determined by: <br/> {{sales (revenue) <br/> – [cost of goods sold](cost%20of%20goods%20sold.md) <br/> – selling, general, administrative expenses (SGA) <br/> – [depreciation](depreciation.md)/amortization <br/> = earnings before interest and taxes ([EBIT](earnings%20before%20interest,%20taxes,%20depreciation%20and%20amortization.md)) <br/> – interest and tax expenses <br/> = profit/loss}} <!--SR:!2024-09-28,10,230-->
 
@@ -98,7 +98,7 @@ Accounting standards often {{set out a general format that companies are expecte
 
 Current assets are {{the most liquid assets of a firm, which are expected to be realized within a 12-month period}}. Current assets include: {{[cash](cash.md), [accounts receivable](accounts%20receivable.md), merchandise inventory, [investee companies](company.md) (held less than a financial period), [prepaid expenses](deferral.md) (for use during the current financial period), etc.}} <!--SR:!2024-09-30,16,290!2024-10-05,14,250-->
 
-- [cash](cash.md) ::: physical money <!--SR:!2024-09-25,11,270!2024-09-27,13,270-->
+- [cash](cash.md) ::: physical money <!--SR:!2024-11-05,41,290!2024-09-27,13,270-->
 - [accounts receivable](accounts%20receivable.md) ::: revenues earned but not yet collected <!--SR:!2024-09-26,12,270!2024-09-26,12,270-->
 - merchandise inventory ::: consists of goods and services a firm currently owns until it ends up getting sold <!--SR:!2024-09-27,13,270!2024-10-21,27,270-->
 - [investee companies](company.md) ::: expected to be held less than one financial period <!--SR:!2024-09-27,13,270!2024-10-29,35,290-->
@@ -107,7 +107,7 @@ Current assets are {{the most liquid assets of a firm, which are expected to be 
 Non-current assets include {{[fixed](fixed%20asset.md) or long-term assets and [intangible assets](intangible%20asset.md)}}: <!--SR:!2024-09-26,12,270-->
 
 - _fixed (long-term) assets_ ::: property, building, equipment (such as factory machinery) <!--SR:!2024-09-29,15,290!2024-10-01,17,290-->
-- _intangible assets_ ::: copyrights, trademarks, patents, goodwill <!--SR:!2024-09-26,12,270!2024-09-25,11,270-->
+- _intangible assets_ ::: copyrights, trademarks, patents, goodwill <!--SR:!2024-09-26,12,270!2024-11-08,44,290-->
 
 Liabilities include {{current liabilities and long-term liabilities}}: <!--SR:!2024-10-01,17,290-->
 
@@ -152,11 +152,11 @@ Objectives include:
 
 The {{[accounting equation](accounting%20equation.md) ([Assets](asset.md) = [Liabilities](liability%20(financial%20accounting).md) + [Owners' Equity](equity%20(finance).md)) and financial statements}} are the main topics of financial accounting. <!--SR:!2024-09-30,16,290-->
 
-{{The [trial balance](trial%20balance.md) (i.e. finding the current balances of all accounts), which is usually prepared using the [double-entry accounting system](double-entry%20bookkeeping.md)}}, forms {{the basis for preparing the financial statements}}. All the figures in the trial balance are {{rearranged to prepare a [profit & loss statement](income%20statement.md) and [balance sheet](balance%20sheet.md)}}. Accounting standards {{determine the format for these accounts ([SSAP](Generally%20Accepted%20Accounting%20Practice%20(UK).md), FRS, [IFRS](International%20Financial%20Reporting%20Standards.md))}}. Financial statements {{display the income and expenditure for the company and a summary of the assets, liabilities, and shareholders' or owners' equity of the company on the date to which the accounts were prepared}}. <!--SR:!2024-09-28,14,290!2024-10-21,29,270!2024-09-25,11,270!2024-10-28,34,290!2024-10-09,18,250-->
+{{The [trial balance](trial%20balance.md) (i.e. finding the current balances of all accounts), which is usually prepared using the [double-entry accounting system](double-entry%20bookkeeping.md)}}, forms {{the basis for preparing the financial statements}}. All the figures in the trial balance are {{rearranged to prepare a [profit & loss statement](income%20statement.md) and [balance sheet](balance%20sheet.md)}}. Accounting standards {{determine the format for these accounts ([SSAP](Generally%20Accepted%20Accounting%20Practice%20(UK).md), FRS, [IFRS](International%20Financial%20Reporting%20Standards.md))}}. Financial statements {{display the income and expenditure for the company and a summary of the assets, liabilities, and shareholders' or owners' equity of the company on the date to which the accounts were prepared}}. <!--SR:!2024-09-28,14,290!2024-10-21,29,270!2024-11-02,38,290!2024-10-28,34,290!2024-10-09,18,250-->
 
 {{[Asset](asset.md), [expense](expense.md), and [dividend](dividend.md) accounts}} have {{normal debit balances (i.e., debiting these types of accounts increases them)}}. <!--SR:!2024-09-30,16,290!2024-10-23,30,290-->
 
-{{[Liability](liability%20(financial%20accounting).md), [revenue](revenue.md), and [equity](equity%20(finance).md) accounts}} have {{normal credit balances (i.e., crediting these types of accounts increases them)}}. <!--SR:!2024-09-25,11,270!2024-09-27,13,270-->
+{{[Liability](liability%20(financial%20accounting).md), [revenue](revenue.md), and [equity](equity%20(finance).md) accounts}} have {{normal credit balances (i.e., crediting these types of accounts increases them)}}. <!--SR:!2024-11-06,42,290!2024-09-27,13,270-->
 
 ```text
 0 = Dr Assets                            Cr Owners' Equity                Cr Liabilities  
@@ -177,7 +177,7 @@ When {{the same thing is done to an account as its normal balance}} it {{increas
 
 However, there are {{instances of accounts, known as contra-accounts (contra-asset, contra-revenue, and contra-equity accounts), which have a normal balance opposite that listed above}}. Examples include: <!--SR:!2024-09-29,15,290-->
 
-- contra-asset accounts, such as... ::: [accumulated depreciation](depreciation.md#accumulated%20depreciation) and allowances for bad debt or obsolete inventory <!--SR:!2024-09-30,16,290!2024-09-25,11,270-->
+- contra-asset accounts, such as... ::: [accumulated depreciation](depreciation.md#accumulated%20depreciation) and allowances for bad debt or obsolete inventory <!--SR:!2024-09-30,16,290!2024-11-04,40,290-->
 - contra-revenue accounts, such as... ::: sales allowances <!--SR:!2024-09-29,15,290!2024-09-28,14,290-->
 - contra-equity accounts, such as... ::: [treasury stock](treasury%20stock.md) <!--SR:!2024-10-25,32,290!2024-10-01,17,290-->
 
@@ -187,7 +187,7 @@ However, there are {{instances of accounts, known as contra-accounts (contra-ass
 
 1. objectives ::: Financial accounting aims at presenting 'true and fair' view of transactions, profit and loss for a period and statement of financial position (balance sheet) on a given date. It aims at computing 'true and fair' view of the cost of production/services offered by the firm.<sup>[\[11\]](#^ref-11)</sup> Cost accounting aims at computing cost of production/service in a scientific manner and facilitate cost control and cost reduction. <!--SR:!2024-09-26,12,270!2024-10-23,29,270-->
 2. audiences ::: Financial accounting reports the results and position of business to government, creditors, investors, and external parties. Cost accounting is an internal reporting system for an organisation's own management for decision making. <!--SR:!2024-10-14,21,270!2024-10-29,35,290-->
-3. classification ::: In financial accounting, cost classification is based on type of transactions, e.g. salaries, repairs, insurance, stores etc. In cost accounting, classification is basically on the basis of functions, activities, products, process and on internal planning and control and information needs of the organization. <!--SR:!2024-09-25,11,270!2024-10-20,28,270-->
+3. classification ::: In financial accounting, cost classification is based on type of transactions, e.g. salaries, repairs, insurance, stores etc. In cost accounting, classification is basically on the basis of functions, activities, products, process and on internal planning and control and information needs of the organization. <!--SR:!2024-10-25,30,270!2024-10-20,28,270-->
 
 ## related qualification
 
