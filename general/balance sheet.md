@@ -76,8 +76,8 @@ Assets are {{all the things the business owns}}. This will include {{property, t
 2. [cash and cash equivalents](cash%20and%20cash%20equivalents.md) ::: the most liquid current assets found on a business's balance sheet <!--SR:!2024-10-08,16,290!2024-10-03,11,270-->
 3. [inventories](inventory.md) ::: goods and materials that a business holds for the ultimate goal of resale, production or utilization <!--SR:!2024-10-09,17,290!2024-10-08,16,290-->
 4. cash at bank, [petty cash](petty%20cash.md), cash on hand ::: small amount of discretionary funds in the form of cash used for minor expenditures <!--SR:!2024-10-08,16,290!2024-10-07,15,290-->
-5. [prepaid expenses](deferral.md) for future services that will be used within a year ::: cash paid in advance for goods or services that will be consumed within a year <!--SR:!2024-10-05,13,290!2024-10-09,17,290-->
-6. revenue earned in arrears ([accrued revenue](accrual.md)) for services done but not yet received for the year ::: income that is recognized at the time a company delivers a service or good, even though the company has not yet been paid, and will pay within a year <!--SR:!2024-10-05,13,290!2024-10-07,15,290-->
+5. [prepaid expenses](deferral.md) for future services that will be used within one financial period ::: cash paid in advance for goods or services that will be consumed within one financial period <!--SR:!2024-10-05,13,290!2024-10-09,17,290-->
+6. revenue earned in arrears ([accrued revenue](accrual.md)) for services done but not yet received for the financial period ::: income that is recognized at the time a company delivers a service or good, even though the company has not yet been paid, and will pay within one financial period <!--SR:!2024-10-05,13,290!2024-10-07,15,290-->
 7. [loan](loan.md) to (less than one financial period) ::: transfer of money by us to another with an agreement to pay it back within one financial period <!--SR:!2024-10-08,16,290!2024-10-05,13,290-->
 
 #### non-current assets
@@ -90,7 +90,7 @@ Assets are {{all the things the business owns}}. This will include {{property, t
 2. investment property, such as [real estate](real%20estate.md) held for investment purposes ::: the purchase, management and sale or rental of real estate for profit <!--SR:!2024-10-08,16,290!2024-09-28,9,250-->
 3. [intangible assets](intangible%20asset.md), such as patents, copyrights and goodwill ::: assets that lacks physical substance <!--SR:!2024-10-05,13,290!2024-10-07,15,290-->
 4. financial assets (excluding investments accounted for using the equity method, [accounts receivables](accounts%20receivable.md), and cash and [cash equivalents](cash%20and%20cash%20equivalents.md)), such as [notes receivables](notes%20receivable.md) ::: non-physical assets whose value is derived from a contractual claim <!--SR:!2024-10-01,9,270!2024-10-01,9,270-->
-5. [investments](investment.md#finance) accounted for using the [equity method](equity%20method.md) ::: the process of treating investments in associate companies <!--SR:!2024-10-05,13,290!2024-10-07,15,290-->
+5. [investments](investment.md#finance) accounted for using the [equity method](equity%20method.md) ::: the process of treating investments in associate companies (usually companies that we are holding 20%–50% (inclusive) of the shares) <!--SR:!2024-10-05,13,290!2024-10-07,15,290-->
 6. biological assets, which are living plants or animals; bearer biological assets are plants or animals which bear agricultural produce for harvest, such as apple trees grown to produce apples and sheep raised to produce wool<sup>[\[18\]](#^ref-18)</sup> ::: assets that are living plants or animals <!--SR:!2024-10-06,14,290!2024-10-08,16,290-->
 7. [loan](loan.md) to (more than one financial period) ::: transfer of money by us to another with an agreement to pay it back beyond one financial period <!--SR:!2024-10-05,13,290!2024-10-06,14,290-->
 
@@ -218,7 +218,6 @@ TOTAL LIABILITIES and EQUITY (this will match/balance the total for Assets above
 - [national accounts](national%20accounts.md)
 - [off-balance-sheet](off-balance-sheet.md)
 - [reformatted balance sheet](net%20operating%20assets.md)
-- [sheet](wikt:sheet.md)
 - [statement of changes in equity](statement%20of%20changes%20in%20equity.md)
 
 ## references

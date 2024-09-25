@@ -220,13 +220,13 @@ async def wiki_html_to_plaintext(
                     alt_text = alt_text.removeprefix(R"{\textstyle ")
                 if len(alt_text) <= alt_text_len:
                     alt_text = alt_text.removesuffix(R"}")
-                alt_text = (
-                    alt_text.replace(R"{{", R"{ {")
+                while (
+                    alt_text2 := alt_text.replace(R"{{", R"{ {")
                     .replace(R"}}", R"} }")
-                    .replace(R":::", R": : :")
                     .replace(R"::", R": :")
-                    .strip()
-                )
+                ) != alt_text:
+                    alt_text = alt_text2
+                alt_text = alt_text.strip()
 
                 inline = (
                     (parent := ele.parent)
@@ -276,7 +276,7 @@ async def wiki_html_to_plaintext(
 
 
 async def main() -> None:
-    refs = "refs" in argv[1:]
+    refs = "--no-refs" not in argv[1:]
 
     input("HTML? (will read from clipboard)")
     html_text = paste_html()  # type: ignore

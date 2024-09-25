@@ -16,6 +16,8 @@ tags:
 
 ## operators
 
+The operator precedence for the 3 types of operators introduced below is {{[arithmetic operators](#arithmetic%20operators), [comparison operators](#comparison%20operators), and finally [logic operators](#logic%20operators)}}. Note that this only considers operators mentioned below and not any others omitted.
+
 ### arithmetic operators
 
 Below are common arithmetic operators. Operators have higher precedence than or same precedence as operators below it in the list:
@@ -158,7 +160,7 @@ return _chain.from_iterable(await _gather(
 
 Do not mix up the equal to operator `==` and {{the assignment operator `=`}}. <!--SR:!2024-11-26,225,330-->
 
-Also, one cannot chain {{comparison operators, like `2 <= aNumber <= 5`. [Logic operators](#logic%20operators) are needed instead, like `2 <= aNumber and aNumber <= 5`}}. <!--SR:!2024-11-30,229,330-->
+Also, one CAN chain {{comparison operators in Python, unlike other languages. For example, `2 <= aNumber <= 5` is equivalent to `2 <= aNumber and aNumber <= 5` except that `aNumber` is evaluated only once. In fact, you can chain any numbers of comparison operators together, even if they together does not make sense, such as `2 <= aNumber >= 2` being equivalent to `2 <= aNumber and aNumber >= 2` except that `aNumber` is evaluated only once}}. See <https://docs.python.org/3/reference/expressions.html#comparisons>. <!--SR:!2024-11-30,229,330-->
 
 ### logic operators
 

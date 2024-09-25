@@ -47,7 +47,7 @@ To {{concatenate/join two lists (or strings)}}, use {{the `+` operator}}. Note t
 
 ## length
 
-{{The length (`int`) of a sequence}} can be determined by {{`len(list)` (but not `list.len()`)}}. <!--SR:!2024-09-28,14,294!2024-10-01,17,294-->
+{{The length (`int`) of a sequence, including but not limited to `list` and `str`}}, can be determined by {{`len(list)` (but not `list.len()`)}}. <!--SR:!2024-09-28,14,294!2024-10-01,17,294-->
 
 ## aggregate functions
 

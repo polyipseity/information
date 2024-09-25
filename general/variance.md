@@ -49,6 +49,10 @@ Since {{the _Y_<sub>_i_</sub> are selected randomly}}, both ${\overline {Y} }$ a
 
 Hence ${\tilde {S} }_{Y}^{2}$ gives {{an estimate of the population variance that is biased by a factor of ${\frac {n-1}{n} }$}} as {{the expectation value of ${\tilde {S} }_{Y}^{2}$ is smaller than the population variance (true variance) by that factor}}. For this reason, {{${\tilde {S} }_{Y}^{2}$ is referred to as the _biased sample variance_}}. <!--SR:!2024-12-04,73,318!2024-11-06,48,298!2024-10-17,31,278-->
 
+> [!tip] tips
+>
+> - strategy for deriving Bessel's correction ::: Assume we are sampling $n$ individuals $Y_1, \ldots Y_n$ with replacement from a population of more than $n$ individuals. Since we are sampling with replacement, each sampled individual $Y_i$ is a random variable. Its expected value is $$\operatorname{E}[Y_i] = \mu$$. Further, remember the well-known identity $$\operatorname{E}\left[Y_i^2\right] = \mu^2 + \sigma^2$$. As for others, note that the expected value operator is linear, i.e. $$\operatorname{E}[aA + bB] = a \operatorname{E}[A] + b \operatorname{E}[B]$$ for two random variables $A$ and $B$ and two constants $a$ and $b$. Finally, to make it easier to simplify, extract $\operatorname{E}\left[Y_i^2\right]$ as much as possible before replacing expressions with $\mu$ and $\sigma$.
+
 #### unbiased sample variance
 
 Correcting for this bias yields {{the _unbiased sample variance_, denoted $S^{2}$}}: {{$$S^{2}={\frac {n}{n-1} }{\tilde {S} }_{Y}^{2}={\frac {n}{n-1} }\left[{\frac {1}{n} }\sum _{i=1}^{n}\left(Y_{i}-{\overline {Y} }\right)^{2}\right]={\frac {1}{n-1} }\sum _{i=1}^{n}\left(Y_{i}-{\overline {Y} }\right)^{2}$$}}. Either estimator may be {{simply referred to as the _sample variance_ when the version can be determined by context}}. The same proof is {{also applicable for samples taken from a continuous probability distribution}}. <!--SR:!2024-11-09,52,310!2024-10-30,42,298!2024-10-28,40,290!2024-11-12,51,298-->

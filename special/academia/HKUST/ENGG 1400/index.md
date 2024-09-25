@@ -52,9 +52,26 @@ The content is in teaching order.
   - design thinking use ::: Good for _wicked problems_, which are problems with little data and unclear outcome. <!--SR:!2024-10-07,13,290!2024-10-03,9,270-->
 - class culture ::: We come to class not to just _attend_ it, but participate with others. <!--SR:!2024-10-08,14,290!2024-10-09,15,290-->
 - activity 1: art to building community
-  - art to building community debrief ::: Our story makes us unique. Approach situations with a "yes and"! <!--SR:!2024-10-08,14,290!2024-10-07,13,290-->
+  - art to building community / debrief ::: Our story makes us unique. Approach situations with a "yes and"! <!--SR:!2024-10-08,14,290!2024-10-07,13,290-->
 - activity 2: workview sharing, activity 3: worldview sharing
-  - workview & worldview sharing debrief ::: How is what you are currently doing coherent with your workview and worldview? <!--SR:!2024-10-11,17,290!2024-10-09,15,290-->
+  - workview & worldview sharing / debrief ::: How is what you are currently doing coherent with your workview and worldview? <!--SR:!2024-10-11,17,290!2024-10-09,15,290-->
 - assignments
   - [workview](assignments/workview.md)
   - [worldview & journal](assignments/worldview%20&%20journal.md)
+
+## week 3 tutorial
+
+- time: 2024-09-19T10:30:00+08:00/2024-09-19T12:20:00+08:00
+- work motivations ::: autonomy, mastery, purpose
+- relationship between workview & worldview ::: If they integrate with each other, great! If they do not, then you may find jobs unfulfilling and want to quit it.
+- course framework ::: design thinking, meaning-making, discovery & support
+- warm-up activity: Choose a person from the picture that resonate with you the most. Explain why.
+- society identity theory ::: Groups are part of our identity and self-esteem (Tajfel, 1970). 3 mental processes involved are social categorization, social identification, and social comparison.
+  - social categorization ::: Characterize people by their groups. Leads to prejudice.
+  - social identification ::: Modify yourself to match the beliefs you have on your own groups.
+  - social comparison ::: Compare your groups with other groups. This maintains group differences.
+- activity 1: social identity exercise + reflection by drawing
+  - social identity exercise + reflection by drawing / debrief ::: Try identify your own social identities. You may discover how you are made from your past experiences.
+- activity 2: life wheel
+  - life wheel / debrief ::: Evaluate your life in 10 categories from 1 to 10. Think of 3 categories to improve and imagine it. Finally, think of 1 action that you can do now to balance the wheel.
+- psychometric assessments ::: EQ-i<sup>2.0</sup>, STRONG

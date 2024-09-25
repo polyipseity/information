@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   version="1.0"
+   width="480"
+   height="490"
+   id="svg2">
+  <defs
+     id="defs4">
+    <marker
+       refX="0"
+       refY="0"
+       orient="auto"
+       id="Arrow2Mend"
+       style="overflow:visible">
+      <path
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="matrix(-0.6,0,0,-0.6,3,0)"
+         id="path3596"
+         style="font-size:12px;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round" />
+    </marker>
+    <marker
+       refX="0"
+       refY="0"
+       orient="auto"
+       id="Arrow1Lstart"
+       style="overflow:visible">
+      <path
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         transform="scale(0.8,0.8)"
+         id="path3607"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none" />
+    </marker>
+    <marker
+       refX="0"
+       refY="0"
+       orient="auto"
+       id="TriangleOutL"
+       style="overflow:visible">
+      <path
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         transform="scale(0.8,0.8)"
+         id="path3534"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none" />
+    </marker>
+    <marker
+       refX="0"
+       refY="0"
+       orient="auto"
+       id="Arrow2Lend"
+       style="overflow:visible">
+      <path
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="matrix(-1.1,0,0,-1.1,5.5,0)"
+         id="path3599"
+         style="font-size:12px;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round" />
+    </marker>
+    <linearGradient
+       id="linearGradient3455">
+      <stop
+         id="stop3457"
+         style="stop-color:#d7f0f0;stop-opacity:1"
+         offset="0" />
+      <stop
+         id="stop3463"
+         style="stop-color:#d7f0f0;stop-opacity:0.73469388"
+         offset="0.5" />
+      <stop
+         id="stop3459"
+         style="stop-color:#d7f0f0;stop-opacity:0"
+         offset="1" />
+    </linearGradient>
+    <linearGradient
+       x1="380"
+       y1="190"
+       x2="380"
+       y2="516"
+       id="linearGradient3461"
+       xlink:href="#linearGradient3455"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.124224,0,0,1.026846,-83.25479,-27.36183)" />
+  </defs>
+  <path
+     d="M 466.35451,437.66761 64.167834,436.7118 62.216115,24.756564"
+     id="path1326"
+     style="fill:none;stroke:#000000;stroke-width:0.96578413px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:none;marker-end:none" />
+  <path
+     d="M 452.35163,436.6986 C 298.85955,433.5286 216.75998,370.91 160.04652,311.78237 57.941952,205.33137 63.555439,75.198465 63.555439,75.198465"
+     id="path3472"
+     style="fill:none;stroke:#4040ff;stroke-width:2.29383016;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+  <text
+     x="-371.64542"
+     y="25.755175"
+     transform="matrix(0,-0.987829,1.012321,0,0,0)"
+     id="text3657"
+     xml:space="preserve"
+     style="font-size:25.40434265px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"><tspan
+       x="-371.64542"
+       y="25.755175"
+       id="tspan3659"
+       style="font-size:20px">Quantity of Guns Produced</tspan></text>
+  <text
+     x="133.38336"
+     y="475.6579"
+     transform="scale(0.987829,1.012321)"
+     id="text3653"
+     xml:space="preserve"
+     style="font-size:23.49279404px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"><tspan
+       x="133.38336"
+       y="475.6579"
+       id="tspan3655"
+       style="font-size:20px">Quantity of Butter Produced</tspan></text>
+  <path
+     d="m 62.004623,13.377506 6.925724,17.257364 c 0,0 -5.9813,-8.428014 -13.221829,0 l 6.296105,-17.257364 z"
+     id="path2180"
+     style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+  <path
+     d="m 479.62326,437.7438 -17.25736,6.92573 c 0,0 8.42801,-5.98131 0,-13.22183 l 17.25736,6.2961 z"
+     id="path2186"
+     style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+  <path
+     d="m 328.36163,171.63837 a 4.3434076,4.3434076 0 1 1 -8.68682,0 4.3434076,4.3434076 0 1 1 8.68682,0 z"
+     transform="translate(52.060449,256.92861)"
+     id="path1923"
+     style="fill:#000000" />
+  <path
+     d="m 328.36163,171.63837 a 4.3434076,4.3434076 0 1 1 -8.68682,0 4.3434076,4.3434076 0 1 1 8.68682,0 z"
+     transform="translate(92.888478,261.93795)"
+     id="path1931"
+     style="fill:#000000" />
+  <path
+     d="m 328.36163,171.63837 a 4.3434076,4.3434076 0 1 1 -8.68682,0 4.3434076,4.3434076 0 1 1 8.68682,0 z"
+     transform="translate(-206.80658,85.030797)"
+     id="path1933"
+     style="fill:#000000" />
+  <path
+     d="m 110.86768,256.66913 -47.251191,0"
+     id="path1943"
+     style="fill:none;stroke:#000000;stroke-width:1.26148009;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:7.56888043, 7.56888043;stroke-dashoffset:0" />
+  <path
+     d="m 413.95153,434.70767 -350.249004,0"
+     id="path1947"
+     style="fill:none;stroke:#000000;stroke-width:1.05796659;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:6.34779936, 6.34779936;stroke-dashoffset:0" />
+  <path
+     d="m 158.0396,310.00674 0,125.94767"
+     id="path1949"
+     style="fill:none;stroke:#000000;stroke-width:0.82990229;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:6.63921827, 6.63921827;stroke-dashoffset:8.29902283" />
+  <path
+     d="m 371.47456,427.6983 -308.729247,0"
+     id="path1951"
+     style="fill:none;stroke:#000000;stroke-width:1.17998827;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:7.07993009, 7.07993009;stroke-dashoffset:0" />
+  <text
+     x="421.85614"
+     y="428.88953"
+     id="text1953"
+     xml:space="preserve"
+     style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"><tspan
+       x="421.85614"
+       y="428.88953"
+       id="tspan1955"
+       style="font-size:16px">D</tspan></text>
+  <text
+     x="121.42376"
+     y="250.7841"
+     id="text1963"
+     xml:space="preserve"
+     style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"><tspan
+       x="121.42376"
+       y="250.7841"
+       id="tspan1965"
+       style="font-size:16px">A</tspan></text>
+  <text
+     x="379.90277"
+     y="423.10614"
+     id="text1979"
+     xml:space="preserve"
+     style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"><tspan
+       x="379.90277"
+       y="423.10614"
+       id="tspan1981"
+       style="font-size:16px">C</tspan></text>
+  <text
+     x="250.18028"
+     y="125.59825"
+     id="text1983"
+     xml:space="preserve"
+     style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"><tspan
+       x="250.18028"
+       y="125.59825"
+       id="tspan1985" /></text>
+  <path
+     d="m 328.36163,171.63837 a 4.3434076,4.3434076 0 1 1 -8.68682,0 4.3434076,4.3434076 0 1 1 8.68682,0 z"
+     transform="translate(-167.39195,136.60891)"
+     id="path2426"
+     style="fill:#000000" />
+  <text
+     x="157.70708"
+     y="301.00732"
+     id="text2428"
+     xml:space="preserve"
+     style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"><tspan
+       x="157.70708"
+       y="301.00732"
+       id="tspan2430"
+       style="font-size:16px">B</tspan></text>
+  <path
+     d="m 152.52606,308.17406 -88.709757,0"
+     id="path2432"
+     style="fill:none;stroke:#000000;stroke-width:1.7284615;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:10.37076895, 10.37076895;stroke-dashoffset:0" />
+  <text
+     x="-306.28757"
+     y="54.691536"
+     transform="matrix(0,-0.98782896,1.012321,0,0,0)"
+     id="text2436"
+     xml:space="preserve"
+     style="font-size:25.40434265px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"><tspan
+       x="-306.28757"
+       y="54.691536"
+       id="tspan2438"
+       style="font-size:20px">- 50</tspan></text>
+  <text
+     x="-444.52539"
+     y="58.033092"
+     transform="matrix(0,-0.98782898,1.012321,0,0,0)"
+     id="text2440"
+     xml:space="preserve"
+     style="font-size:25.40434265px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"><tspan
+       x="-444.52539"
+       y="58.033092"
+       id="tspan2442"
+       style="font-size:20px">- 5</tspan></text>
+  <text
+     x="119.61542"
+     y="457.25275"
+     id="text2444"
+     xml:space="preserve"
+     style="font-size:40px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"><tspan
+       x="119.61542"
+       y="457.25275"
+       id="tspan2446"
+       style="font-size:20px">+10</tspan></text>
+  <text
+     x="377.33554"
+     y="456.84341"
+     id="text2448"
+     xml:space="preserve"
+     style="font-size:40px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"><tspan
+       x="377.33554"
+       y="456.84341"
+       id="tspan2450"
+       style="font-size:20px">+10</tspan></text>
+  <path
+     d="m 71.229924,262.70127 0,36.4289"
+     id="path2454"
+     style="fill:none;stroke:#000000;stroke-width:1.21806371;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:none;marker-mid:none;marker-end:url(#Arrow2Mend)" />
+  <path
+     d="m 120.4841,428.32361 26.92913,-0.86868"
+     id="path2456"
+     style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2Mend)" />
+  <path
+     d="m 383.97639,430.81826 22.97549,-0.88417"
+     id="path5961"
+     style="fill:none;stroke:#000000;stroke-width:1.86376238;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2Mend)" />
+  <path
+     d="m 116.92808,253.74026 0,182.05674"
+     id="path1949-1"
+     style="fill:none;stroke:#000000;stroke-width:0.9977811;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:7.98224904, 7.98224904;stroke-dashoffset:9.97781129" />
+</svg>

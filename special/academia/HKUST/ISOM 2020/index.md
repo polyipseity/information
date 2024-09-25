@@ -86,6 +86,7 @@ The content is in teaching order.
 
 - time: 2024-09-10T11:00:00+08:00/2024-09-10T12:50:00+08:00
 - course logistics
+- [§ week 1 pre-lecture](#week%201%20pre-lecture)
 - [basics](basics.md)
   - [§ arithmetic operators](basics.md#arithmetic%20operators)
   - [§ mathematics](basics.md#mathematics)
@@ -114,6 +115,7 @@ The content is in teaching order.
   - [§ data types](basics.md#data%20types)
     - addition: type `bool`
   - [§ comparison operators](basics.md#comparison%20operators)
+    - [basics § comparison operators](basics.md#comparison%20operators) / note ::: One CAN chain comparison operators in Python, unlike other languages. See contents inside.
 - [control flow](control%20flow.md)
   - [§ Python control flow](control%20flow.md#Python%20control%20flow)
   - [§ branching](control%20flow.md#branching)
@@ -121,11 +123,12 @@ The content is in teaching order.
 - [basics](basics.md)
   - [§ logic operators](basics.md#logic%20operators)
 - week 3 exercise: 1/1, graded
-- week 4 lab attendance waiver
+- [week 4 lab attendance waiver](assignments/lab%203/lab%203%20waiver%20submission.ipynb): 1/1, graded
 
 ## week 3 lab
 
 - time: 2024-09-17T11:00:00+08:00/2024-09-17T12:50:00+08:00
+- [§ week 2 pre-lecture](#week%202%20pre-lecture)
 - [basics](basics.md)
   - [§ data types](basics.md#data%20types)
   - [§ data type conversion](basics.md#data%20type%20conversion)
@@ -139,3 +142,45 @@ The content is in teaching order.
   - [§ length](list.md#length)
   - [§ aggregate functions](list.md#aggregate%20functions)
 - week 3 lab tasks: ?/1, waived
+
+## week 3 lecture
+
+- time: 2024-09-20T16:00:00+08:00/2024-09-20T17:50:00+08:00
+- [§ week 3 pre-lecture](#week%203%20pre-lecture)
+- [basics](basics.md)
+  - [§ operators](basics.md#operators)
+    - additional: operator group precedence
+- week 3 lecture materials
+- week 3 practice question set: 10/10, ungraded
+
+## week 4 pre-lecture
+
+- time: 2024-09-23T12:00:00+08:00
+- [control flow](control%20flow.md)
+  - [§ for-iteration](control%20flow.md#for-iteration)
+    - [control flow § for-iteration](control%20flow.md#for-iteration) / note ::: First, we have only learnt about `range(end)` and `list(range(end))`. So do not use the other ways of using `range(...)` in your exams. Second, if there are no statements to be executed in an iteration, you must still put a properly indented `pass` statement, which does nothing, for that iteration.
+- [basics](basics.md)
+  - [§ data type conversion](basics.md#data%20type%20conversion)
+    - addition: `list(value)`
+- [control flow](control%20flow.md)
+  - [§ iteration](control%20flow.md#iteration)
+    - [control flow § iteration](control%20flow.md#iteration) / note ::: Yes, did you know you can put branches (`if`) and loops (`for`) inside branches (`if`) and loops (`for`)?
+- week 4 exercise: 1/1, graded
+- [week 5 lab attendance waiver](assignments/lab%204/lab%204%20waiver%20submission.ipynb)
+
+## week 4 lab
+
+- time: 2024-09-24T11:00:00+08:00/2024-09-24T12:50:00+08:00
+- [§ week 3 pre-lecture](#week%203%20pre-lecture)
+- [basics](basics.md)
+  - [§ data types](basics.md#data%20types)
+    - addition: type `bool`
+  - [§ data type conversion](basics.md#data%20type%20conversion)
+    - addition: `bool(value)`
+  - [§ comparison operators](basics.md#comparison%20operators)
+- [control flow](control%20flow.md)
+  - [§ Python control flow](control%20flow.md#Python%20control%20flow)
+  - [§ branching](control%20flow.md#branching)
+- [basics](basics.md)
+  - [§ logic operators](basics.md#logic%20operators)
+- week 4 lab tasks: ?/1, waived

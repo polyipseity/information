@@ -96,13 +96,13 @@ The statement can be used to {{help show the financial position of a company}} b
 
 Accounting standards often {{set out a general format that companies are expected to follow when presenting their balance sheets}}. [International Financial Reporting Standards](International%20Financial%20Reporting%20Standards.md) (IFRS) normally require that {{companies report [current](current%20asset.md) assets and liabilities separately from non-current amounts}}.<sup>[\[5\]](#^ref-5)</sup><sup>[\[6\]](#^ref-6)</sup> A GAAP-compliant balance sheet must {{list assets and liabilities based on decreasing liquidity, from most liquid to least liquid. As a result, current assets/liabilities are listed first followed by non-current assets/liabilities}}. However, an IFRS-compliant balance sheet must {{list assets/liabilities based on increasing liquidity, from least liquid to most liquid. As a result, non-current assets/liabilities are listed first followed by current assets/liabilities}}.<sup>[\[7\]](#^ref-7)</sup> <!--SR:!2024-10-22,30,270!2024-11-01,38,290!2024-10-01,13,250!2024-09-27,13,270-->
 
-Current assets are {{the most liquid assets of a firm, which are expected to be realized within a 12-month period}}. Current assets include: {{[cash](cash.md), [accounts receivable](accounts%20receivable.md), merchandise inventory, [investee companies](company.md) (held less than a financial period), [prepaid expenses](deferral.md) (for use during the current financial period), etc.}} <!--SR:!2024-09-30,16,290!2024-10-05,14,250-->
+Current assets are {{the most liquid assets of a firm, which are expected to be realized within a 12-month period, or the firm's operating cycle, whichever is longer}}. Current assets include: {{[cash](cash.md), [accounts receivable](accounts%20receivable.md), merchandise inventory, [investee companies](company.md) (held less than a financial period), [prepaid expenses](deferral.md) (for use during the current financial period), etc.}} <!--SR:!2024-09-30,16,290!2024-10-05,14,250-->
 
 - [cash](cash.md) ::: physical money <!--SR:!2024-11-05,41,290!2024-09-27,13,270-->
 - [accounts receivable](accounts%20receivable.md) ::: revenues earned but not yet collected <!--SR:!2024-09-26,12,270!2024-09-26,12,270-->
 - merchandise inventory ::: consists of goods and services a firm currently owns until it ends up getting sold <!--SR:!2024-09-27,13,270!2024-10-21,27,270-->
 - [investee companies](company.md) ::: expected to be held less than one financial period <!--SR:!2024-09-27,13,270!2024-10-29,35,290-->
-- [prepaid expenses](deferral.md) ::: expenses paid for in advance for use during that year <!--SR:!2024-10-30,36,290!2024-10-01,17,290-->
+- [prepaid expenses](deferral.md) ::: expenses paid for in advance for use during that financial period <!--SR:!2024-10-30,36,290!2024-10-01,17,290-->
 
 Non-current assets include {{[fixed](fixed%20asset.md) or long-term assets and [intangible assets](intangible%20asset.md)}}: <!--SR:!2024-09-26,12,270-->
 
