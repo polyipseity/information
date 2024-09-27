@@ -115,7 +115,7 @@ The content is in teaching order.
   - [§ data types](basics.md#data%20types)
     - addition: type `bool`
   - [§ comparison operators](basics.md#comparison%20operators)
-    - [basics § comparison operators](basics.md#comparison%20operators) / note ::: One CAN chain comparison operators in Python, unlike other languages. See contents inside.
+    - [basics § comparison operators](basics.md#comparison%20operators) / note ::: One CAN chain comparison operators in Python, unlike other languages. See contents inside. <!--SR:!2024-09-30,4,312!2024-09-30,4,312-->
 - [control flow](control%20flow.md)
   - [§ Python control flow](control%20flow.md#Python%20control%20flow)
   - [§ branching](control%20flow.md#branching)
@@ -158,13 +158,13 @@ The content is in teaching order.
 - time: 2024-09-23T12:00:00+08:00
 - [control flow](control%20flow.md)
   - [§ for-iteration](control%20flow.md#for-iteration)
-    - [control flow § for-iteration](control%20flow.md#for-iteration) / note ::: First, we have only learnt about `range(end)` and `list(range(end))`. So do not use the other ways of using `range(...)` in your exams. Second, if there are no statements to be executed in an iteration, you must still put a properly indented `pass` statement, which does nothing, for that iteration.
+    - [control flow § for-iteration](control%20flow.md#for-iteration) / note ::: First, we have only learnt about `range(end)` and `list(range(end))`. So do not use the other ways of using `range(...)` in your exams. Second, if there are no statements to be executed in an iteration, you must still put a properly indented `pass` statement, which does nothing, for that iteration. <!--SR:!2024-09-30,4,312!2024-09-30,4,312-->
 - [basics](basics.md)
   - [§ data type conversion](basics.md#data%20type%20conversion)
     - addition: `list(value)`
 - [control flow](control%20flow.md)
   - [§ iteration](control%20flow.md#iteration)
-    - [control flow § iteration](control%20flow.md#iteration) / note ::: Yes, did you know you can put branches (`if`) and loops (`for`) inside branches (`if`) and loops (`for`)?
+    - [control flow § iteration](control%20flow.md#iteration) / note ::: Yes, did you know you can put branches (`if`) and loops (`for`) inside branches (`if`) and loops (`for`)? <!--SR:!2024-09-30,4,312!2024-09-30,4,312-->
 - week 4 exercise: 1/1, graded
 - [week 5 lab attendance waiver](assignments/lab%204/lab%204%20waiver%20submission.ipynb)
 

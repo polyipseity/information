@@ -62,16 +62,16 @@ The content is in teaching order.
 ## week 3 tutorial
 
 - time: 2024-09-19T10:30:00+08:00/2024-09-19T12:20:00+08:00
-- work motivations ::: autonomy, mastery, purpose
-- relationship between workview & worldview ::: If they integrate with each other, great! If they do not, then you may find jobs unfulfilling and want to quit it.
-- course framework ::: design thinking, meaning-making, discovery & support
+- work motivations ::: autonomy, mastery, purpose <!--SR:!2024-09-30,4,292!2024-09-30,4,292-->
+- relationship between workview & worldview ::: If they integrate with each other, great! If they do not, then you may find jobs unfulfilling and want to quit it. <!--SR:!2024-09-30,4,292!2024-09-30,4,292-->
+- course framework ::: design thinking, meaning-making, discovery & support <!--SR:!2024-09-30,4,292!2024-09-30,4,292-->
 - warm-up activity: Choose a person from the picture that resonate with you the most. Explain why.
-- society identity theory ::: Groups are part of our identity and self-esteem (Tajfel, 1970). 3 mental processes involved are social categorization, social identification, and social comparison.
-  - social categorization ::: Characterize people by their groups. Leads to prejudice.
-  - social identification ::: Modify yourself to match the beliefs you have on your own groups.
-  - social comparison ::: Compare your groups with other groups. This maintains group differences.
+- society identity theory ::: Groups are part of our identity and self-esteem (Tajfel, 1970). 3 mental processes involved are social categorization, social identification, and social comparison. <!--SR:!2024-09-29,3,272!2024-09-29,3,272-->
+  - social categorization ::: Characterize people by their groups. Leads to prejudice. <!--SR:!2024-09-30,4,292!2024-09-30,4,292-->
+  - social identification ::: Modify yourself to match the beliefs you have on your own groups. <!--SR:!2024-09-29,3,272!2024-09-30,4,292-->
+  - social comparison ::: Compare your groups with other groups. This maintains group differences. <!--SR:!2024-09-30,4,292!2024-09-30,4,292-->
 - activity 1: social identity exercise + reflection by drawing
-  - social identity exercise + reflection by drawing / debrief ::: Try identify your own social identities. You may discover how you are made from your past experiences.
+  - social identity exercise + reflection by drawing / debrief ::: Try identify your own social identities. You may discover how you are made from your past experiences. <!--SR:!2024-09-30,4,292!2024-09-30,4,292-->
 - activity 2: life wheel
-  - life wheel / debrief ::: Evaluate your life in 10 categories from 1 to 10. Think of 3 categories to improve and imagine it. Finally, think of 1 action that you can do now to balance the wheel.
-- psychometric assessments ::: EQ-i<sup>2.0</sup>, STRONG
+  - life wheel / debrief ::: Evaluate your life in 10 categories from 1 to 10. Think of 3 categories to improve and imagine it. Finally, think of 1 action that you can do now to balance the wheel. <!--SR:!2024-09-30,4,292!2024-09-30,4,292-->
+- psychometric assessments ::: EQ-i<sup>2.0</sup>, STRONG <!--SR:!2024-09-30,4,292!2024-09-30,4,292-->

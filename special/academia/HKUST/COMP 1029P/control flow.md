@@ -77,7 +77,7 @@ while condition:
 
 The semantics of `while` is {{that the condition is executed first. If the condition is `true`, the statement block is executed and then we repeat the above process again. If the condition is `false`, the `while` statement ends its execution}}. <!--SR:!2025-01-26,274,330-->
 
-If {{there are no statements to be executed in an iteration}}, you {{must still put a properly indented `pass` statement, which does nothing, for that iteration}}. For example:
+If {{there are no statements to be executed in an iteration}}, you {{must still put a properly indented `pass` statement, which does nothing, for that iteration}}. For example: <!--SR:!2024-09-30,4,325!2024-09-30,4,325-->
 
 ```Python
 for loop_variables in iterable:
@@ -89,4 +89,4 @@ while condition:
   pass # required, otherwise error
 ```
 
-You can of course {{put branches and loops}} inside loops.
+You can of course {{put branches and loops}} inside loops. <!--SR:!2024-09-30,4,325-->
