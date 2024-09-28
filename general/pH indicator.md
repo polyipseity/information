@@ -192,7 +192,7 @@ return (
 <!--pytextgen generate section="0245d8"--><!-- The following content is generated at 2024-01-04T20:17:52.306888+08:00. Any edits will be overridden! -->
 
 - ~8.3:::colorless <!--SR:!2026-06-26,802,230!2026-08-06,788,230-->
-- 8.3~10:::<span style="color: lightPink;">very pale pink</span> <!--SR:!2026-04-27,906,250!2024-09-28,357,210-->
+- 8.3~10:::<span style="color: lightPink;">very pale pink</span> <!--SR:!2026-04-27,906,250!2026-10-17,749,210-->
 - 10~:::<span style="color: pink;">pink</span> <!--SR:!2024-11-14,195,230!2028-06-29,1596,270-->
 
 <!--/pytextgen-->

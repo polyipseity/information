@@ -21,7 +21,7 @@ The __proton–proton chain__, also commonly referred to as the __p–p chain__,
 
 (Note that elements in the chemical equations are {{[ionized](ionization.md), so they are bare [nuclei](atomic%20nucleus.md)}}.) <!--SR:!2024-10-25,68,313-->
 
-The first step in all the branches is {{the fusion of two [protons](proton.md) ([hydrogen](hydrogen.md)) into a [deuteron](deuteron.md)}}. As the protons fuse, {{one of them undergoes [β+ decay](positron%20emission.md), converting into a [neutron](neutron.md) by emitting a [positron](positron.md) and an [electron neutrino](electron%20neutrino.md)}} (though a small amount of deuterium nuclei is produced by the [PEP reaction](#the%20PEP%20reaction)): {{$$\mathrm{p} + \mathrm{p} \to {}_1^2 \mathrm{D} + \mathrm{e}^+ + \nu_{\mathrm{e} } + 0.42\text{ MeV}$$}}. <!--SR:!2024-09-27,40,295!2024-09-28,42,295!2024-12-17,91,275-->
+The first step in all the branches is {{the fusion of two [protons](proton.md) ([hydrogen](hydrogen.md)) into a [deuteron](deuteron.md)}}. As the protons fuse, {{one of them undergoes [β+ decay](positron%20emission.md), converting into a [neutron](neutron.md) by emitting a [positron](positron.md) and an [electron neutrino](electron%20neutrino.md)}} (though a small amount of deuterium nuclei is produced by the [PEP reaction](#the%20PEP%20reaction)): {{$$\mathrm{p} + \mathrm{p} \to {}_1^2 \mathrm{D} + \mathrm{e}^+ + \nu_{\mathrm{e} } + 0.42\text{ MeV}$$}}. <!--SR:!2025-01-22,117,295!2025-01-29,123,295!2024-12-17,91,275-->
 
 - 1st step / energy release ::: 0.42 MeV <!--SR:!2025-01-18,118,290!2024-12-09,101,290-->
 
@@ -35,7 +35,7 @@ After it is formed, the [deuteron](deuteron.md) produced in the first stage can 
 
 The overall reaction (noting that the elements are [ionized](ionization.md)) is: {{$$4\, {}^1\mathrm{H}^+ + 2\,\mathrm{e}^- \to {}^4\mathrm{He}^{2+} + 2\,\nu_{\mathrm{e} } + n\, \gamma + 26.732\text{ MeV}$$, releasing 26.732&nbsp;[MeV](electronvolt.md) of [energy](energy.md)}}. Some energy is {{lost to the neutrinos, and various number of [gamma rays](gamma%20ray.md) depending on the branch taken}}. <!--SR:!2024-11-06,67,270!2025-01-17,129,290-->
 
-- overall reaction (including annihilation) / energy release ::: 26.732 MeV <!--SR:!2024-09-27,42,295!2024-10-28,70,315-->
+- overall reaction (including annihilation) / energy release ::: 26.732 MeV <!--SR:!2025-01-28,123,295!2024-10-28,70,315-->
 
 ### the p–p I branch
 

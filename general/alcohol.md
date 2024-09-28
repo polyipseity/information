@@ -22,7 +22,7 @@ Due to [hydrogen bonding](hydrogen%20bond.md), alcohols have {{higher [boiling p
 
 ### density
 
-Most alcohols are {{less [dense](density.md) than [water](water.md). Alcohols with multiple [hydroxyl groups](hydroxyl%20group.md) are more dense than water}}. <!--SR:!2024-09-28,379,270-->
+Most alcohols are {{less [dense](density.md) than [water](water.md). Alcohols with multiple [hydroxyl groups](hydroxyl%20group.md) are more dense than water}}. <!--SR:!2028-08-26,1428,290-->
 
 ### solubility
 

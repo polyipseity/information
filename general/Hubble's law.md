@@ -11,7 +11,7 @@ tags:
 
 # Hubble's law
 
-__Hubble's law__, also known as {{the __Hubble–Lemaître law__}}, is {{the observation in [physical cosmology](physical%20cosmology.md) that [galaxies](galaxy.md) are moving away from [Earth](Earth.md) at speeds proportional to their distance}}. In other words, {{the farther they are, the faster they are moving away from [Earth](Earth.md)}}. <!--SR:!2025-07-05,286,330!2024-09-28,72,310!2024-12-11,115,290-->
+__Hubble's law__, also known as {{the __Hubble–Lemaître law__}}, is {{the observation in [physical cosmology](physical%20cosmology.md) that [galaxies](galaxy.md) are moving away from [Earth](Earth.md) at speeds proportional to their distance}}. In other words, {{the farther they are, the faster they are moving away from [Earth](Earth.md)}}. <!--SR:!2025-07-05,286,330!2025-08-01,307,330!2024-12-11,115,290-->
 
 ## interpretation
 
@@ -21,7 +21,7 @@ where
 
 - _v_ is {{the recessional velocity, typically expressed in km/s}}.
 - _H_<sub>0</sub> is {{Hubble's constant}} and corresponds to {{the value of _H_ (often termed the __Hubble parameter__ which is a value that is [time dependent](time-variant%20system.md) and which can be expressed in terms of the [scale factor](scale%20factor%20(cosmology).md)) in the Friedmann equations taken at the time of observation denoted by the subscript 0}}. This value is {{the same throughout the universe for a given [comoving time](comoving%20and%20proper%20distances.md#comoving%20coordinates)}}.
-- _D_ is {{the proper distance (which can change over time, unlike the [comoving distance](comoving%20and%20proper%20distances.md), which is constant) from the [galaxy](galaxy.md) to the observer}}, measured in {{[mega](mega-.md) [parsecs](parsec.md) (Mpc), in the 3-space defined by given [cosmological time](cosmic%20time.md)}}. (Recession velocity is {{just _v_ = _dD/dt_}}.) <!--SR:!2024-11-11,74,326!2024-11-08,71,326!2024-10-02,41,306!2024-09-27,35,286!2024-10-08,42,306!2024-11-27,73,286!2024-11-06,69,326-->
+- _D_ is {{the proper distance (which can change over time, unlike the [comoving distance](comoving%20and%20proper%20distances.md), which is constant) from the [galaxy](galaxy.md) to the observer}}, measured in {{[mega](mega-.md) [parsecs](parsec.md) (Mpc), in the 3-space defined by given [cosmological time](cosmic%20time.md)}}. (Recession velocity is {{just _v_ = _dD/dt_}}.) <!--SR:!2024-11-11,74,326!2024-11-08,71,326!2024-10-02,41,306!2025-01-04,99,286!2024-10-08,42,306!2024-11-27,73,286!2024-11-06,69,326-->
 
 Hubble's law is considered {{a fundamental relation between recessional velocity and distance}}. However, the relation between {{recessional velocity and redshift depends on the cosmological model adopted and is not established except for small redshifts}}. <!--SR:!2024-10-26,60,326!2024-09-29,36,286-->
 

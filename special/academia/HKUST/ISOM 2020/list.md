@@ -9,24 +9,24 @@ tags:
 
 # Python list
 
-A Python list is {{a collection of values, and you can treat it like a collective of variables}}. <!--SR:!2024-09-27,13,274-->
+A Python list is {{a collection of values, and you can treat it like a collective of variables}}. <!--SR:!2024-11-17,50,294-->
 
 If you try to {{get the type of a list using `type(list)`}}, {{the returned type name is either `list` or `<class 'list'>`}}, regardless of {{the contents contained inside the list}}. <!--SR:!2024-11-14,49,294!2024-11-09,45,294!2024-09-30,16,294-->
 
 ## syntax
 
-To define a list in Python, {{enclose all items in square brackets `[]` and separate each item by a comma `,`, like `[1, 2, "item", 4.2, "ok", 'hey', False]`}}. An empty list is {{allowed and created using `[]`, and can be expanded later}}. A trailing comma is {{allowed and optional after the last item (but not if there are no items, i.e. `[,]` is invalid)}}. Note that a list can {{contain items of different types (including lists) like the example just now, though usually it is more useful for them to be the same type}}. <!--SR:!2024-10-29,35,294!2024-10-26,32,294!2024-10-27,33,294!2024-09-28,14,294-->
+To define a list in Python, {{enclose all items in square brackets `[]` and separate each item by a comma `,`, like `[1, 2, "item", 4.2, "ok", 'hey', False]`}}. An empty list is {{allowed and created using `[]`, and can be expanded later}}. A trailing comma is {{allowed and optional after the last item (but not if there are no items, i.e. `[,]` is invalid)}}. Note that a list can {{contain items of different types (including lists) like the example just now, though usually it is more useful for them to be the same type}}. <!--SR:!2024-10-29,35,294!2024-10-26,32,294!2024-10-27,33,294!2024-11-06,39,294-->
 
 ## indexing
 
-To {{access or replace the n-th item}}, simply write {{`sequence[n-1]`}}: <!--SR:!2024-09-28,14,294!2024-09-30,16,290-->
+To {{access or replace the n-th item}}, simply write {{`sequence[n-1]`}}: <!--SR:!2024-11-28,61,314!2024-09-30,16,290-->
 
 ```Python
 assert "asd"[2] == "d"
 assert [39, "omg", 'asd', 3.4][2] == "asd"
 ```
 
-Indices can be {{negative, in which case it counts from the back}}: <!--SR:!2024-09-27,13,274-->
+Indices can be {{negative, in which case it counts from the back}}: <!--SR:!2024-11-18,51,294-->
 
 ```Python
 assert "asd"[-1] == "d"
@@ -47,7 +47,7 @@ To {{concatenate/join two lists (or strings)}}, use {{the `+` operator}}. Note t
 
 ## length
 
-{{The length (`int`) of a sequence, including but not limited to `list` and `str`}}, can be determined by {{`len(list)` (but not `list.len()`)}}. <!--SR:!2024-09-28,14,294!2024-10-01,17,294-->
+{{The length (`int`) of a sequence, including but not limited to `list` and `str`}}, can be determined by {{`len(list)` (but not `list.len()`)}}. <!--SR:!2024-11-28,61,314!2024-10-01,17,294-->
 
 ## aggregate functions
 

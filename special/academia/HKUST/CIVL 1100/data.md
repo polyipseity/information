@@ -27,7 +27,7 @@ Things to memorize. Yes... 🫠
 
 See [Akashi Kaikyo Bridge](../../../../general/Akashi%20Kaikyo%20Bridge.md).
 
-- bridge type ::: [suspension bridge](../../../../general/suspension%20bridge.md)<!-- flashcard 30fd6583-3351-4146-9125-522db98579b7 --> <!--SR:!2024-09-27,61,274!2025-08-31,367,380-->
+- bridge type ::: [suspension bridge](../../../../general/suspension%20bridge.md)<!-- flashcard 30fd6583-3351-4146-9125-522db98579b7 --> <!--SR:!2025-05-18,232,294!2025-08-31,367,380-->
 - description ::: suspension bridge in Kobe, Japan <!--SR:!2025-03-15,237,347!2025-05-16,292,375-->
 - image ::: ![Akashi Kaikyo Bridge image](../../../../archives/Wikimedia%20Commons/Akashi%20Bridge.JPG) <!--SR:!2025-04-28,265,360!2025-10-26,436,400-->
 - length ::: 3911 m, longest span: 1991 m <!--SR:!2025-02-18,190,281!2025-06-20,319,372-->
@@ -87,7 +87,7 @@ See [Central Plaza (Hong Kong)](../../../../general/Central%20Plaza%20(Hong%20Ko
 See [Channel Tunnel](../../../../general/Channel%20Tunnel.md).
 
 - completion time ::: 1994 <!--SR:!2024-10-05,44,296!2024-10-10,110,376-->
-- rail tunnel length ::: 50.5 km (37.9 km underseas) <!--SR:!2024-09-28,14,236!2024-10-20,125,396-->
+- rail tunnel length ::: 50.5 km (37.9 km underseas) <!--SR:!2024-10-31,33,236!2024-10-20,125,396-->
 
 ## China International Trust and Investment Plaza
 
@@ -192,7 +192,7 @@ See [International Commerce Centre](International%20Commerce%20Centre.md).
 - description ::: tallest building in [Hong Kong](../../../../general/Hong%20Kong.md) <!--SR:!2024-12-25,214,330!2025-11-28,471,390-->
 - height ::: architectural: 484 m, tip: 484 m, top floor: 468 m, roof: 484 m <!--SR:!2025-01-22,140,301!2025-01-15,231,330-->
 - image ::: ![International Commerce Centre image](../../../../archives/Wikimedia%20Commons/International%20Commerce%20Centre%20201008.jpg) <!--SR:!2025-03-17,232,360!2025-12-14,472,400-->
-- [structural system](../../../../general/structural%20system.md) ::: concrete–steel composite <!--SR:!2024-09-27,3,241!2026-02-24,538,401-->
+- [structural system](../../../../general/structural%20system.md) ::: concrete–steel composite <!--SR:!2024-10-06,8,241!2026-02-24,538,401-->
 
 ## Itaipu Dam
 
@@ -233,7 +233,7 @@ See [Millau Viaduct](../../../../general/Millau%20Viaduct.md).
 See [Mont d'Ambin Base Tunnel](../../../../general/Mont%20d'Ambin%20Base%20Tunnel.md).
 
 - access tunnel lengths ::: up to 4 km <!--SR:!2025-08-27,372,377!2025-03-22,267,365-->
-- length ::: 57.5 km <!--SR:!2024-09-27,106,337!2025-06-26,324,374-->
+- length ::: 57.5 km <!--SR:!2024-11-17,50,317!2025-06-26,324,374-->
 
 ## Netherlands North Sea Protection Works
 

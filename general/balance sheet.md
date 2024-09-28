@@ -29,7 +29,7 @@ A balance sheet {{summarizes an organization's or individual's assets, [equity](
 
 ### personal
 
-A personal balance sheet lists {{current [assets](asset.md) such as cash in [checking accounts](transaction%20account.md) and [savings accounts](savings%20account.md)}}, {{long-term assets such as [common stock](common%20stock.md) and [real estate](real%20estate.md)}}, {{current liabilities such as [loan](loan.md) debt and [mortgage](mortgage.md) debt due, or overdue}}, {{long-term liabilities such as [mortgage](mortgage.md) and other loan debt}}. {{Securities and real estate values}} are {{listed at [market value](market%20value.md) rather than at [historical cost](historical%20cost.md) or [cost basis](cost%20basis.md)}}. Personal [net worth](net%20worth.md) is {{the difference between an individual's total assets and total liabilities}}.<sup>[\[10\]](#^ref-10)</sup> <!--SR:!2024-10-07,15,290!2024-09-27,8,250!2024-10-05,13,290!2024-10-02,10,270!2024-09-28,6,250!2024-10-07,15,290!2024-10-08,16,290-->
+A personal balance sheet lists {{current [assets](asset.md) such as cash in [checking accounts](transaction%20account.md) and [savings accounts](savings%20account.md)}}, {{long-term assets such as [common stock](common%20stock.md) and [real estate](real%20estate.md)}}, {{current liabilities such as [loan](loan.md) debt and [mortgage](mortgage.md) debt due, or overdue}}, {{long-term liabilities such as [mortgage](mortgage.md) and other loan debt}}. {{Securities and real estate values}} are {{listed at [market value](market%20value.md) rather than at [historical cost](historical%20cost.md) or [cost basis](cost%20basis.md)}}. Personal [net worth](net%20worth.md) is {{the difference between an individual's total assets and total liabilities}}.<sup>[\[10\]](#^ref-10)</sup> <!--SR:!2024-10-07,15,290!2024-10-24,27,270!2024-10-05,13,290!2024-10-02,10,270!2024-10-16,18,270!2024-10-07,15,290!2024-10-08,16,290-->
 
 ### US small business
 
@@ -87,7 +87,7 @@ Assets are {{all the things the business owns}}. This will include {{property, t
 <!-- list separator -->
 
 1. [property, plant and equipment](fixed%20asset.md) ::: assets and property that may not easily be converted into cash <!--SR:!2024-10-06,14,290!2024-10-08,16,290-->
-2. investment property, such as [real estate](real%20estate.md) held for investment purposes ::: the purchase, management and sale or rental of real estate for profit <!--SR:!2024-10-08,16,290!2024-09-28,9,250-->
+2. investment property, such as [real estate](real%20estate.md) held for investment purposes ::: the purchase, management and sale or rental of real estate for profit <!--SR:!2024-10-08,16,290!2024-10-23,25,250-->
 3. [intangible assets](intangible%20asset.md), such as patents, copyrights and goodwill ::: assets that lacks physical substance <!--SR:!2024-10-05,13,290!2024-10-07,15,290-->
 4. financial assets (excluding investments accounted for using the equity method, [accounts receivables](accounts%20receivable.md), and cash and [cash equivalents](cash%20and%20cash%20equivalents.md)), such as [notes receivables](notes%20receivable.md) ::: non-physical assets whose value is derived from a contractual claim <!--SR:!2024-10-01,9,270!2024-10-01,9,270-->
 5. [investments](investment.md#finance) accounted for using the [equity method](equity%20method.md) ::: the process of treating investments in associate companies (usually companies that we are holding 20%–50% (inclusive) of the shares) <!--SR:!2024-10-05,13,290!2024-10-07,15,290-->
@@ -130,7 +130,7 @@ Regarding {{the items in the equity section}}, the following disclosures are req
 
 ## substantiation
 
-__Balance sheet substantiation__ is {{the [accounting](accounting.md) process conducted by [businesses](business.md) on a regular basis}} to {{confirm that the balances held in the primary accounting [system of record](system%20of%20record.md) (e.g. [SAP](SAP%20ERP.md), [Oracle](Oracle%20Database.md), other ERP system's General Ledger) are reconciled (in balance with) with the balance and transaction records held in the same or supporting sub-systems}}. <!--SR:!2024-10-02,10,270!2024-09-27,8,250-->
+__Balance sheet substantiation__ is {{the [accounting](accounting.md) process conducted by [businesses](business.md) on a regular basis}} to {{confirm that the balances held in the primary accounting [system of record](system%20of%20record.md) (e.g. [SAP](SAP%20ERP.md), [Oracle](Oracle%20Database.md), other ERP system's General Ledger) are reconciled (in balance with) with the balance and transaction records held in the same or supporting sub-systems}}. <!--SR:!2024-10-02,10,270!2024-10-22,25,270-->
 
 Balance sheet substantiation includes {{multiple processes including [reconciliation](bank%20reconciliation.md) (at a transactional or at a balance level) of the account, a process of review of the reconciliation and any pertinent supporting documentation}}, and {{a formal [certification](certification.md) (sign-off) of the account in a predetermined form driven by corporate policy}}. <!--SR:!2024-10-10,15,250!2024-10-09,17,290-->
 
@@ -144,7 +144,7 @@ Balance sheet substantiation is {{a key control process in the [SOX 404 top-down
 
 The following balance sheet is a very brief example prepared in accordance with [IFRS](International%20Financial%20Reporting%20Standards.md). It does not show all possible kinds of assets, liabilities and equity, but it shows the most usual ones. Because {{it shows [goodwill](goodwill%20(accounting).md)}}, it could be {{a [consolidated](consolidated%20financial%20statement.md) balance sheet}}. Monetary values are not shown, summary (subtotal) rows are missing as well. <!--SR:!2024-10-05,13,290!2024-10-06,14,290-->
 
-{{Under IFRS}} items are {{always shown based on liquidity from the least liquid assets at the top, usually land and buildings to the most liquid, i.e. cash}}. Then liabilities and equity {{continue from the most immediate liability to be paid (usual account payable) to the least i.e. long-term debt such as mortgages and owner's equity at the very bottom}}.<sup>[\[20\]](#^ref-20)</sup> <!--SR:!2024-10-06,14,290!2024-09-28,9,270!2024-09-30,4,230-->
+{{Under IFRS}} items are {{always shown based on liquidity from the least liquid assets at the top, usually land and buildings to the most liquid, i.e. cash}}. Then liabilities and equity {{continue from the most immediate liability to be paid (usual account payable) to the least i.e. long-term debt such as mortgages and owner's equity at the very bottom}}.<sup>[\[20\]](#^ref-20)</sup> <!--SR:!2024-10-06,14,290!2024-10-31,33,290!2024-09-30,4,230-->
 
 ```text
 Consolidated Statement of Finance Position of XYZ, Ltd.

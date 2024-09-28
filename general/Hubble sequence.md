@@ -13,7 +13,7 @@ tags:
 
 # Hubble sequence
 
-The __Hubble sequence__ is {{a [morphological classification scheme](galaxy%20morphological%20classification.md) for [galaxies](galaxy.md) published by [Edwin Hubble](Edwin%20Hubble.md) in 1926}}. It is often colloquially known as {{the __Hubble tuning-fork diagram__ because the shape in which it is traditionally represented resembles a [tuning fork](tuning%20fork.md)}}. It was invented by {{John Henry Reynolds and Sir James Jeans}}. <!--SR:!2024-11-07,66,270!2024-10-19,58,310!2024-09-28,32,250-->
+The __Hubble sequence__ is {{a [morphological classification scheme](galaxy%20morphological%20classification.md) for [galaxies](galaxy.md) published by [Edwin Hubble](Edwin%20Hubble.md) in 1926}}. It is often colloquially known as {{the __Hubble tuning-fork diagram__ because the shape in which it is traditionally represented resembles a [tuning fork](tuning%20fork.md)}}. It was invented by {{John Henry Reynolds and Sir James Jeans}}. <!--SR:!2024-11-07,66,270!2024-10-19,58,310!2025-01-17,111,270-->
 
 The tuning fork scheme divided regular galaxies into {{three broad classes – [ellipticals](elliptical%20galaxy.md), [lenticulars](lenticular%20galaxy.md) and [spirals](spiral%20galaxy.md)}} – based on {{their visual appearance (originally on [photographic plates](photographic%20plate.md))}}. A fourth class contains {{galaxies with an [irregular](irregular%20galaxy.md) appearance}}. The Hubble sequence is {{the most commonly used system for classifying galaxies, both in professional astronomical research and in [amateur astronomy](amateur%20astronomy.md)}}. <!--SR:!2024-11-08,73,310!2024-10-30,67,310!2024-10-09,48,310!2024-10-22,60,310-->
 
