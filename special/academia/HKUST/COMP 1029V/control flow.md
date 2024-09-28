@@ -33,7 +33,7 @@ End If
 
 The semantics of `If...Then...Else...End If` is also obvious: {{If the condition is `True`, then the first statement block is executed. Otherwise, the second statement block is executed. Note that the condition itself is always executed.}} <!--SR:!2025-01-05,244,321-->
 
-In VBA, one usually does not chain `If...Then...Else...End If`. Instead, VBA provides {{the keyword `ElseIf...Then` so that `If...Then...ElseIf...Then...Else...End If` represents the chained `if...else if...else` in most programming languages}}: <!--SR:!2024-09-26,162,301-->
+In VBA, one usually does not chain `If...Then...Else...End If`. Instead, VBA provides {{the keyword `ElseIf...Then` so that `If...Then...ElseIf...Then...Else...End If` represents the chained `if...else if...else` in most programming languages}}: <!--SR:!2026-01-26,487,301-->
 
 ```VB
 If condition1 Then

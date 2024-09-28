@@ -25,7 +25,7 @@ tags:
     - `SMALLINT` ::: Signed is from -2<sup>15</sup> to 2<sup>15</sup> - 1 and unsigned is 0 to 2<sup>16</sup> - 1. <!--SR:!2025-02-27,405,330!2024-12-31,361,330-->
     - `INT`, `INTEGER` ::: Signed is from -2<sup>23</sup> to 2<sup>23</sup> - 1 and unsigned is from 0 to 2<sup>24</sup> - 1. <!--SR:!2025-04-08,422,330!2026-01-25,567,290-->
     - `MEDIUMINT` ::: Signed is from -2<sup>31</sup> to 2<sup>31</sup> - 1 and unsigned is from 0 to 2<sup>32</sup> - 1. <!--SR:!2026-11-25,809,310!2025-01-28,381,330-->
-    - `BIGINT` ::: Signed is from -2<sup>63</sup> to 2<sup>63</sup> - 1 and unsigned is from 0 to 2<sup>64</sup> - 1. <!--SR:!2024-09-26,277,310!2025-04-06,422,330-->
+    - `BIGINT` ::: Signed is from -2<sup>63</sup> to 2<sup>63</sup> - 1 and unsigned is from 0 to 2<sup>64</sup> - 1. <!--SR:!2027-12-27,1187,330!2025-04-06,422,330-->
 - string data types ::: `BINARY`, `BLOB`, `CHAR`, `ENUM`, `SET`, `TEXT`, `VARBINARY`, `VARCHAR` <!--SR:!2024-10-20,281,310!2026-03-22,594,290-->
   - `BINARY`, `VARBINARY` ::: Binary strings. Length of the former is fixed and of the latter is variable. <!--SR:!2024-12-13,346,330!2025-05-16,454,330-->
     - `BINARY` ::: Up to 2<sup>8</sup> - 1 bytes of fixed-size binary string. <!--SR:!2025-02-18,398,330!2025-01-21,376,330-->

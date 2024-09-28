@@ -103,7 +103,7 @@ See [CITIC Plaza](../../../../general/CITIC%20Plaza.md).
 See [Colosseum](../../../../general/Colosseum.md).
 
 - base widths ::: length: 189 m, width: 156 m <!--SR:!2024-11-25,134,336!2024-10-12,112,376-->
-- construction period ::: AD 72 to AD 80, 8 years <!--SR:!2024-09-26,28,216!2024-12-11,168,396-->
+- construction period ::: AD 72 to AD 80, 8 years <!--SR:!2024-11-24,59,216!2024-12-11,168,396-->
 - description ::: elliptical amphitheater in the center of Rome <!--SR:!2025-05-13,268,376!2024-10-13,113,376-->
 - geographic location ::: Rome <!--SR:!2024-10-13,119,396!2024-10-29,133,396-->
 - height ::: 48 m (4 storeys) <!--SR:!2025-01-13,110,276!2024-11-11,143,396-->
@@ -145,7 +145,7 @@ See [Great Pyramid of Giza](../../../../general/Great%20Pyramid%20of%20Giza.md).
 
 See [Great Wall of China](../../../../general/Great%20Wall%20of%20China.md).
 
-- component ::: fortress, horse track, pass, shelter, wall, watch tower <!--SR:!2024-09-26,86,316!2024-11-01,135,396-->
+- component ::: fortress, horse track, pass, shelter, wall, watch tower <!--SR:!2025-06-24,271,316!2024-11-01,135,396-->
 - construction period ::: 220 BC under Qin Shi Huang, and continued up to the Ming dynasty (1368–1644) <!--SR:!2025-02-20,200,356!2024-12-01,159,396-->
 - geographic locations ::: begins in the east at Shanhaiguan (山海關), Hebei; and ends in the west at Jiayuguan (嘉峪關), Gansu <!--SR:!2025-02-23,202,356!2024-10-14,114,376-->
 - length ::: 21196.18 km <!--SR:!2024-10-30,36,256!2024-11-15,147,396-->
@@ -207,7 +207,7 @@ See [John Hancock Center](John%20Hancock%20Center.md).
 - description ::: skyscraper in Chicago, Illinois <!--SR:!2025-04-12,235,295!2025-08-03,376,387-->
 - height ::: architectural: 344 m, tip: 457 m, top floor: 321 m <!--SR:!2024-10-15,56,197!2025-01-14,230,330-->
 - image ::: ![John Hancock Center image](../../../../archives/Wikimedia%20Commons/Chicago%20(22332583569).jpg) <!--SR:!2025-10-20,430,400!2025-10-08,394,380-->
-- [structural system](../../../../general/structural%20system.md) ::: steel<!-- flashcard cdb6c7b6-65ec-475e-8c89-c66ec42bacd2 --> <!--SR:!2024-09-26,106,300!2025-11-19,456,400-->
+- [structural system](../../../../general/structural%20system.md) ::: steel<!-- flashcard cdb6c7b6-65ec-475e-8c89-c66ec42bacd2 --> <!--SR:!2025-08-09,317,300!2025-11-19,456,400-->
 
 ## MOSE
 

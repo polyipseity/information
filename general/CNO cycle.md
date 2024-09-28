@@ -17,7 +17,7 @@ tags:
 
 # CNO cycle
 
-The __CNO cycle__ (for {{[carbon](carbon.md)–[nitrogen](nitrogen.md)–[oxygen](oxygen.md)}}; sometimes called {{__Bethe–Weizsäcker cycle__}} after {{[Hans Albrecht Bethe](Hans%20Bethe.md) and [Carl Friedrich von Weizsäcker](Carl%20Friedrich%20von%20Weizsäcker.md)}}) is {{one of the two known sets of [fusion](nuclear%20fusion.md) [reactions](nuclear%20reaction.md) by which [stars](star.md) convert [hydrogen](hydrogen.md) to [helium](helium.md)}}, the other being {{the [proton–proton chain reaction](proton–proton%20chain.md) (p–p cycle), which is more efficient at the [Sun](Sun.md)'s core temperature}}. The CNO cycle is {{hypothesized to be dominant in stars that are more than 1.3 times as [massive as the Sun](solar%20mass.md)}}. <!--SR:!2024-10-06,51,310!2024-09-26,40,290!2024-09-29,33,250!2024-09-30,42,290!2024-09-28,41,290!2024-10-06,47,290-->
+The __CNO cycle__ (for {{[carbon](carbon.md)–[nitrogen](nitrogen.md)–[oxygen](oxygen.md)}}; sometimes called {{__Bethe–Weizsäcker cycle__}} after {{[Hans Albrecht Bethe](Hans%20Bethe.md) and [Carl Friedrich von Weizsäcker](Carl%20Friedrich%20von%20Weizsäcker.md)}}) is {{one of the two known sets of [fusion](nuclear%20fusion.md) [reactions](nuclear%20reaction.md) by which [stars](star.md) convert [hydrogen](hydrogen.md) to [helium](helium.md)}}, the other being {{the [proton–proton chain reaction](proton–proton%20chain.md) (p–p cycle), which is more efficient at the [Sun](Sun.md)'s core temperature}}. The CNO cycle is {{hypothesized to be dominant in stars that are more than 1.3 times as [massive as the Sun](solar%20mass.md)}}. <!--SR:!2024-10-06,51,310!2025-03-03,158,310!2024-09-29,33,250!2024-09-30,42,290!2024-09-28,41,290!2024-10-06,47,290-->
 
 ## cold CNO cycles
 

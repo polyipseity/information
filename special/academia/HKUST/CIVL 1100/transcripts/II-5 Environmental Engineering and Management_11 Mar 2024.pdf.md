@@ -154,7 +154,7 @@ return await memorize_seq(
 - _(begin)_→:::←air sparging <!--SR:!2024-10-02,87,355!2024-10-01,86,355-->
 - air sparging→:::←bioremediation <!--SR:!2024-11-22,111,315!2025-02-15,177,335-->
 - bioremediation→:::←catalytic oxidation <!--SR:!2024-11-29,116,315!2025-03-14,197,335-->
-- catalytic oxidation→:::←ex-situ biopile <!--SR:!2024-09-26,67,295!2025-01-14,153,335-->
+- catalytic oxidation→:::←ex-situ biopile <!--SR:!2025-04-11,197,295!2025-01-14,153,335-->
 - ex-situ biopile→:::←ex-situ solidification or stabilization <!--SR:!2025-03-04,187,335!2025-01-12,153,335-->
 - ex-situ solidification or stabilization→:::←_(end)_ <!--SR:!2024-09-30,85,355!2025-02-09,173,335-->
 
@@ -246,7 +246,7 @@ Hong Kong Harbour Area Treatment Scheme Stage I (HATS)
   - HATS Stage 1 scheme cost ::: HK$8.2 billion <!--SR:!2024-10-20,101,290!2024-10-01,85,270-->
   - HATS Stage 1 details ::: Stonecutters Island Sewage Treatment Works (SCISTW), sewage tunnel of 23.6 km, upgrade 8 preliminary treatment works (PTWs) <!--SR:!2024-10-10,93,270!2025-02-01,181,310-->
   - HATS Stage 1 geographic coverage ::: collect sewage from Kowloon, Kwai Tsing, Tseung Kwan O, and north-eastern Hong Kong Island to SCISTW <!--SR:!2025-04-15,211,270!2024-12-09,148,310-->
-  - HATS Stage 1 coverage in numbers ::: 3.5 million people, 75% from harbour area <!--SR:!2024-11-30,132,290!2024-09-26,86,290-->
+  - HATS Stage 1 coverage in numbers ::: 3.5 million people, 75% from harbour area <!--SR:!2024-11-30,132,290!2025-06-01,248,290-->
   - HATS Stage 1 capacities :::: current ~1.4M m<sup>3</sup>/d, max: 1.7M m<sup>3</sup>/d <!--SR:!2024-11-05,114,290!2024-11-17,124,290-->
 
 ## page 18

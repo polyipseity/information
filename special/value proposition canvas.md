@@ -53,7 +53,7 @@ value: overwhelmed by true value creation vs. understand patterns of value creat
 
 Value proposition design starts from {{tools, value proposition canvas; design and test; and evolve}}. It is important to note that value proposition design is {{a nonlinear and messy process that gets more linear and clean over time}}. <!--SR:!2025-02-12,172,230!2025-08-20,340,307-->
 
-Value proposition design works for {{both new ventures and established organizations}}. <!--SR:!2024-09-26,127,290-->
+Value proposition design works for {{both new ventures and established organizations}}. <!--SR:!2025-09-28,367,290-->
 
 ## canvas
 

@@ -26,7 +26,7 @@ _Cis_–_trans_ isomers have {{different [polarities](chemical%20polarity.md), w
 
 ### enantiomers
 
-Enantiomers are {{optically active as they rotate the [plane of polarization](plane%20of%20polarization.md) of [polarized](polarization%20(physics).md) [light](light.md)}} and can be measured by a {{[polarimeter](polarimeter.md)}}. <!--SR:!2024-09-26,383,290!2028-09-09,1541,350-->
+Enantiomers are {{optically active as they rotate the [plane of polarization](plane%20of%20polarization.md) of [polarized](polarization%20(physics).md) [light](light.md)}} and can be measured by a {{[polarimeter](polarimeter.md)}}. <!--SR:!2028-12-16,1542,310!2028-09-09,1541,350-->
 
 ## references
 

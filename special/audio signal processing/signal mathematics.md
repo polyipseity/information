@@ -70,7 +70,7 @@ We can {{convert}} in between rectangular form and polar form. From rectangular 
 
 - see: [general/Euler's formula](../../general/Euler's%20formula.md)
 
-[Euler's formula](../../general/Euler's%20formula.md) is: {{$$e^{j\varphi} = \cos \varphi + j \sin \varphi$$, where $\varphi$ is a [complex number](#complex%20number)}}. The above implies alternative formulas for {{$\sin$ and $\cos$}}: {{$$\begin{aligned} \cos \varphi & = \frac {e^{j\varphi} + e^{-j\varphi} } 2 \\ \sin \varphi & = \frac {e^{j\varphi} - e^{-j\varphi} } {2j} \end{aligned}$$}}. <!--SR:!2024-10-18,67,310!2024-10-11,60,310!2024-09-26,49,290-->
+[Euler's formula](../../general/Euler's%20formula.md) is: {{$$e^{j\varphi} = \cos \varphi + j \sin \varphi$$, where $\varphi$ is a [complex number](#complex%20number)}}. The above implies alternative formulas for {{$\sin$ and $\cos$}}: {{$$\begin{aligned} \cos \varphi & = \frac {e^{j\varphi} + e^{-j\varphi} } 2 \\ \sin \varphi & = \frac {e^{j\varphi} - e^{-j\varphi} } {2j} \end{aligned}$$}}. <!--SR:!2024-10-18,67,310!2024-10-11,60,310!2025-04-10,196,310-->
 
 Using Euler's formula, we can express waves {{using exponentiation instead}}. For example, the discrete sine wave {{$$f(x) [n] = A \cos(kx \pm \omega T n + \phi) + D$$}} can also be expressed as {{$$f(x) [n] = \operatorname{Re}\left(A e^{j(kx \pm \omega Tn + \phi)}\right) + D = \operatorname{Re}\left(A e^{j \phi} e^{j(kx \pm \omega Tn)}\right) + D = \operatorname{Re}\left(X e^{j(kx \pm \omega Tn)} \right) + D \qquad X := A e^{j \phi}$$}}. The latter expression has the advantage that {{exponentiation is much easier to manipulate than trigonometric functions}}. <!--SR:!2024-11-26,87,341!2024-10-12,50,321!2024-10-23,54,321!2024-11-22,83,341-->
 

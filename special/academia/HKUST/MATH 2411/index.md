@@ -146,7 +146,7 @@ The content is in teaching order.
   - scatter plot ::: Plots data that comes as pairs. Good for visualizing relationship between two variables (e.g. regression). <!--SR:!2024-12-04,71,310!2024-10-07,25,270-->
     - scatter plot / _R_ ::: use `plot(...)` <!--SR:!2024-11-17,59,310!2024-11-11,54,310-->
   - frequency table (categorical) ::: Categorical data is already pre-grouped. Then a _summary table_ is drawn based on the categories. This condenses the data and allows for quicker data interpretation. <!--SR:!2024-11-15,58,310!2024-10-17,31,270-->
-    - frequency table (categorical) / table headers ::: \<variable name\>, count, cumulative count (if ordinal), percent, cumulative percent (if ordinal), ... <!--SR:!2024-09-26,9,270!2024-10-23,37,270-->
+    - frequency table (categorical) / table headers ::: \<variable name\>, count, cumulative count (if ordinal), percent, cumulative percent (if ordinal), ... <!--SR:!2024-10-19,23,270!2024-10-23,37,270-->
   - pie chart ::: A filled circle showing proportions of different categories. <!--SR:!2024-11-16,58,310!2024-10-29,41,290-->
     - pie chart / _R_ ::: use `pie(...)` <!--SR:!2024-11-14,56,310!2024-11-09,53,310-->
   - bar chart ::: Bars showing counts of different categories. <!--SR:!2024-11-07,51,310!2024-11-21,63,310-->

@@ -170,7 +170,7 @@ The content is in teaching order.
     - consultant after 4 to 6 years ::: Eng. Manager, Mg. Consultant, Project Leader: managing the work; exit to manager of big firms or director of small firms, and further top EMBA <!--SR:!2025-01-24,123,281!2024-09-28,93,361-->
     - consultant after 6 to 9 years ::: As. Partner, Principal: selling the work; exit to director of big firms or general manager (GM) of small firms, and further top EMBA <!--SR:!2024-10-27,98,301!2025-01-04,149,321-->
     - consultant after 9 years or more ::: Director, Partner, VP: managing the business; exit to CEO or retire rich <!--SR:!2025-03-10,199,341!2025-08-10,320,361-->
-- nature of complex problems ::: modeled by time-varying multi-variable optimization problems with constraints <!--SR:!2025-02-13,185,361!2024-09-26,91,361-->
+- nature of complex problems ::: modeled by time-varying multi-variable optimization problems with constraints <!--SR:!2025-02-13,185,361!2025-12-20,450,381-->
   - solving complex problems ::: MECE frameworks for patterns, 5-step persuasive selling for presentation <!--SR:!2025-11-29,432,381!2024-11-23,119,321-->
 - [Pareto principle](../../../../general/Pareto%20principle.md)
 - "less is more" ::: In the digital age, there is too much information (digital garbage), so they need to be distilled. Also see [DIKW pyramid](../../../../general/DIKW%20pyramid.md). <!--SR:!2025-05-26,276,361!2025-11-20,423,381-->
@@ -225,7 +225,7 @@ The content is in teaching order.
 - cause mapping extensions ::: facts table, solutions table <!--SR:!2025-09-03,361,381!2025-08-07,318,361-->
   - facts table ::: what, when, where, impact <!--SR:!2025-11-13,420,381!2025-02-07,175,341-->
   - solutions table ::: no., cause, solution; optionally, time, persons responsible, budget <!--SR:!2025-02-22,187,341!2025-08-10,321,361-->
-- interview note-taking technique using 1 sheet of A4 paper ::: facts, key question (only 1), analysis <!--SR:!2024-09-26,91,361!2024-10-04,98,361-->
+- interview note-taking technique using 1 sheet of A4 paper ::: facts, key question (only 1), analysis <!--SR:!2025-08-22,330,361!2024-10-04,98,361-->
   - interview note § layout ::: split the paper into 2, the left side is thinner and holds the facts and key question, and the right side is the analysis <!--SR:!2024-12-13,134,321!2024-10-03,97,361-->
   - interview note § analysis ::: use a MECE framework suitable for the case in the interview <!--SR:!2024-09-27,91,361!2025-12-06,439,381-->
   - interview note § facts ::: do not be afraid to ask probing questions, probe for the real question, quantify, summarize, verify <!--SR:!2025-03-14,206,341!2024-09-29,93,361-->

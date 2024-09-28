@@ -70,16 +70,16 @@ We know that $\sqrt 2$ is irrational from [above](#irrationality%20of%20the%20sq
 
 We know that $\sqrt p$ is irrational from [above](#irrationality%20of%20square%20roots%20of%20prime%20numbers). Prove a even stronger result: {{the square root of any natural number $n$, i.e. $\sqrt n$, is either a natural number or irrational}}. <!--SR:!2024-09-29,15,290-->
 
-- strategy ::: Prove by contradiction. Assume the rational fraction is in its most simplest form, i.e. co-prime. <!--SR:!2024-10-15,22,280!2024-09-26,12,280-->
+- strategy ::: Prove by contradiction. Assume the rational fraction is in its most simplest form, i.e. co-prime. <!--SR:!2024-10-15,22,280!2024-11-12,47,300-->
 
 1. assumption ::: The assumption is that square roots of natural numbers are rational and thus can be written as $a / b$ for $a, b \in \mathbb N_0$. $a$ and $b$ are co-prime. <!--SR:!2024-09-30,16,300!2024-10-02,18,300-->
-2. proof ::: $\sqrt n = a / b$ implies $n = a^2 / b^2$, which implies $nb^2 = a^2$. If $b$ has a prime factor, then $a$ must have have it by this relation. However, since $a$ and $b$ are co-prime, their $\gcd(a, b) = 1$. So $b$ must not have any prime factors at all, as the least prime is 2. The only way this is possible is if $b = 1$. Then $n = a^2$. A solution for $n$ only exists if $n$ is a perfect square, as $a$ is an integer. Otherwise, this is impossible, meaning $\sqrt n$ is irrational by contradiction. And in the other case where $n$ is a perfect square, $b = 1$, so $\sqrt n = a / 1 = a$, an integer. So $\sqrt n$ is either a natural number or irrational. <!--SR:!2024-09-29,15,300!2024-09-26,12,280-->
+2. proof ::: $\sqrt n = a / b$ implies $n = a^2 / b^2$, which implies $nb^2 = a^2$. If $b$ has a prime factor, then $a$ must have have it by this relation. However, since $a$ and $b$ are co-prime, their $\gcd(a, b) = 1$. So $b$ must not have any prime factors at all, as the least prime is 2. The only way this is possible is if $b = 1$. Then $n = a^2$. A solution for $n$ only exists if $n$ is a perfect square, as $a$ is an integer. Otherwise, this is impossible, meaning $\sqrt n$ is irrational by contradiction. And in the other case where $n$ is a perfect square, $b = 1$, so $\sqrt n = a / 1 = a$, an integer. So $\sqrt n$ is either a natural number or irrational. <!--SR:!2024-09-29,15,300!2024-10-30,34,280-->
 
 ## fundamental theorem of arithmetic (existence)
 
 We say a natural number $n$ is prime if $\ge 2$ and it is impossible to write $n = a \cdot b$ where $1 < a, b < n$. Prove that {{every natural number $n \ge 2$ can be written as a product of prime numbers}}. <!--SR:!2024-10-02,18,300-->
 
-- strategy ::: It is easier to prove this using contradiction than using induction. <!--SR:!2024-09-26,12,280!2024-09-26,12,280-->
+- strategy ::: It is easier to prove this using contradiction than using induction. <!--SR:!2024-10-01,5,260!2024-10-03,7,260-->
 
 1. assumption ::: Assume there exists a nonempty set of natural number not less than 2 $A$ that cannot be written as a product of prime numbers. Then by the well-ordering principle, there exists a least natural number $n \ge 2$ that cannot be written as a product of prime numbers. <!--SR:!2024-10-21,28,280!2024-10-02,18,300-->
 2. construction ::: $n \ge 2$ is either prime or composite. If $n$ is a prime, then it is a product of itself, a prime number. So $n$ cannot be prime and is composite. Then there exists two natural numbers $1 < a, b < n$ such that $n = a \cdot b$. $a, b$ are both smaller than $n$, so they must not belong to $A$, or otherwise $n$ would not be the least natural number that cannot be written as a product of prime numbers. So $a$ and $b$ can be written as a product of prime numbers. But then this implies $n$ CAN be written as a product of prime numbers, as a product of two numbers that can be written as a product of prime numbers. <!--SR:!2024-09-28,14,300!2024-09-27,13,280-->
@@ -92,7 +92,7 @@ Consider an 8×8 chessboard with a knight at the top right corner. Is it {{possi
 Note that a knight can move {{two squares vertically and one square horizontally, or two squares horizontally and one square vertically}}. <!--SR:!2024-10-01,17,290-->
 
 - strategy ::: For 8×8, one will need to guess that the answer is yes and construct such a closed path... So good luck! But for 9×9, there is a simple way. Draw the move pattern of a knight and notice the checker pattern of a chessboard. <!--SR:!2024-09-27,13,280!2024-10-01,17,290-->
-- possibility of _closed_ knight's tours ::: Let there be a _m_ × _n_ board with _m_ ≤ _n_. A _closed_ knight's tour is always possible unless _m_ and _n_ are both odd; _m_ = 1, 2, or 4; or _m_ = 3 and _n_ = 4, 6, or 8. <!--SR:!2024-09-28,12,240!2024-09-26,10,240-->
+- possibility of _closed_ knight's tours ::: Let there be a _m_ × _n_ board with _m_ ≤ _n_. A _closed_ knight's tour is always possible unless _m_ and _n_ are both odd; _m_ = 1, 2, or 4; or _m_ = 3 and _n_ = 4, 6, or 8. <!--SR:!2024-09-28,12,240!2024-10-20,24,240-->
 - possibility of knight's tours ::: Let there be a _m_ × _n_ board with _m_ ≤ _n_. A knight's tour (possibly _open_) is always possible unless _m_ = 1 or 2; _m_ = 3 and _n_ = 3, 5, or 6; or _m_ = 4 and _n_ = 4. <!--SR:!2024-09-27,13,280!2024-10-03,10,210-->
 
 1. 8×8 chessboard ::: It is possible. Prove by constructing such a closed path... <!--SR:!2024-10-02,18,300!2024-10-01,17,300-->
@@ -111,7 +111,7 @@ Let {{$a, b \in \mathbb N$ and $b \ne 0$. Prove that $a \cdot b \ge a$}}. <!--SR
 
 We have {{an equilateral triangle of side length 2. Amir chooses five points inside this triangle. Prove that two of the points have a distance of at most 1}}. <!--SR:!2024-10-31,37,300-->
 
-- strategy ::: Think of a way to make "pigeonholes" for the 5 points... <!--SR:!2024-09-26,12,280!2024-09-30,16,300-->
+- strategy ::: Think of a way to make "pigeonholes" for the 5 points... <!--SR:!2024-11-13,48,300!2024-09-30,16,300-->
 - generalization ::: This can be applied to other shapes: Any two points on a circle, including the boundary, have a distance of at most its diameter. <!--SR:!2024-10-02,18,300!2024-10-02,18,300-->
 
 1. solution ::: Split the equilateral triangle into 4 equal equilateral triangles of side length 1. Then any two points in the same equilateral triangle of side length 1, including the boundary have a distance of at most 1. Put 5 points into the large equilateral triangle. By the pigeonhole principle, there are at least one equilateral triangle of side length 1 with two points on it. Thus there are at least two points that have a distance of at most 1. <!--SR:!2024-10-19,25,270!2024-10-01,17,300-->
@@ -122,4 +122,4 @@ Prove that {{there are 3 students in COMP 2711H whose birthday is on the same da
 
 - strategy ::: A trivial application of the pigeonhole principle. Of course, if Amir wants you to prove the slightly more generalized pigeonhole principle, use induction, which will not be shown here. <!--SR:!2024-09-30,16,300!2024-09-30,16,300-->
 
-1. solution ::: There are at most 31 days in a month. By the pigeonhole principle, there is at least a day with $\lceil 64 / 31 \rceil = 3$ students whose birthdays are on that day (ignoring the month).  (If Amir wants you to prove the slightly more generalized pigeonhole principle, use induction, which will not be shown here.) <!--SR:!2024-09-26,12,280!2024-10-30,37,300-->
+1. solution ::: There are at most 31 days in a month. By the pigeonhole principle, there is at least a day with $\lceil 64 / 31 \rceil = 3$ students whose birthdays are on that day (ignoring the month).  (If Amir wants you to prove the slightly more generalized pigeonhole principle, use induction, which will not be shown here.) <!--SR:!2024-11-01,36,280!2024-10-30,37,300-->

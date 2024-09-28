@@ -30,7 +30,7 @@ English
 - [buoyancy](https://en.wiktionary.org/wiki/buoyancy) ::: (b\_y) The upward [force](../../../general/force.md) exerted by a [fluid](../../../general/fluid.md) on a partly or fully immersed body. <!--SR:!2026-04-09,627,324!2024-12-08,244,324-->
 - [collinear](https://en.wiktionary.org/wiki/collinear) ::: (c\_r) Lying on the same [line](../../../general/line%20(geometry).md). <!--SR:!2024-12-20,276,344!2025-01-06,290,344-->
 - [complementary](https://en.wiktionary.org/wiki/complementary) ::: (c\_y) Acting as a complement to make something else whole. <!--SR:!2024-12-31,285,344!2024-11-17,249,344-->
-- [complimentary](https://en.wiktionary.org/wiki/complimentary) ::: (c\_y) In the nature of a [compliment](../../../general/compliment.md); or free, provided at no charge. <!--SR:!2024-12-08,118,244!2024-09-26,192,324-->
+- [complimentary](https://en.wiktionary.org/wiki/complimentary) ::: (c\_y) In the nature of a [compliment](../../../general/compliment.md); or free, provided at no charge. <!--SR:!2024-12-08,118,244!2026-06-09,621,324-->
 - [consequent](https://en.wiktionary.org/wiki/consequent) ::: (c\_t) Following as a result, inference, or natural effect. <!--SR:!2025-04-16,335,392!2026-03-20,567,392-->
 - [criterion](https://en.wiktionary.org/wiki/criterion) ::: (c\_n) A standard or test to judge and compare things. <!--SR:!2027-05-09,977,430!2025-08-27,409,350-->
 - [deliver](https://en.wiktionary.org/wiki/deliver) ::: (d\_r) To bring or transport something to its destination. <!--SR:!2025-10-25,473,396!2026-09-15,745,416-->

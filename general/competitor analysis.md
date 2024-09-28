@@ -73,7 +73,7 @@ why: Why are people using competitors' products?
 - compare: Identify similarities and differences between our and their products.→:::←copy: Identify advantages and capabilities our products lack compared to others. <!--SR:!2025-03-05,191,274!2025-06-06,281,301-->
 - copy: Identify advantages and capabilities our products lack compared to others.→:::←discover: Identify unmet needs. <!--SR:!2024-10-18,49,221!2025-02-25,168,241-->
 - discover: Identify unmet needs.→:::←how: What is our strategy? <!--SR:!2024-10-15,57,201!2024-10-13,34,221-->
-- how: What is our strategy?→:::←pricing: Compare prices. <!--SR:!2024-09-26,14,150!2024-10-03,52,241-->
+- how: What is our strategy?→:::←pricing: Compare prices. <!--SR:!2024-10-16,20,150!2024-10-03,52,241-->
 - pricing: Compare prices.→:::←who: Who are the competitors? 3 to 5 is usually enough. <!--SR:!2024-09-27,50,241!2025-01-23,158,261-->
 - who: Who are the competitors? 3 to 5 is usually enough.→:::←why: Why are people using competitors' products? <!--SR:!2024-10-13,103,281!2025-03-09,175,241-->
 - why: Why are people using competitors' products?→:::←_(end)_ <!--SR:!2025-06-08,300,341!2025-05-06,232,281-->

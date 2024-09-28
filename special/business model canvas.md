@@ -64,7 +64,7 @@ C$: [cost structure](#cost%20structure)
 - VP: [value propositions](#value%20propositions)→:::←CH: [channels](#channels) <!--SR:!2024-11-18,146,294!2025-05-23,274,297-->
 - CH: [channels](#channels)→:::←CR: [customer relationships](#customer%20relationships) <!--SR:!2025-01-16,193,314!2025-02-24,242,334-->
 - CR: [customer relationships](#customer%20relationships)→:::←R$: [revenue streams](#revenue%20streams) <!--SR:!2024-10-07,23,234!2025-06-17,288,292-->
-- R$: [revenue streams](#revenue%20streams)→:::←KR: [key resources](#key%20resources) <!--SR:!2024-10-20,115,257!2024-09-26,101,257-->
+- R$: [revenue streams](#revenue%20streams)→:::←KR: [key resources](#key%20resources) <!--SR:!2024-10-20,115,257!2025-06-12,259,257-->
 - KR: [key resources](#key%20resources)→:::←KA: [key activities](#key%20activities) <!--SR:!2024-11-16,128,257!2025-03-14,218,274-->
 - KA: [key activities](#key%20activities)→:::←KP: [key partnerships](#key%20partnerships) <!--SR:!2024-12-02,139,257!2024-11-18,65,234-->
 - KP: [key partnerships](#key%20partnerships)→:::←C$: [cost structure](#cost%20structure) <!--SR:!2024-11-13,65,237!2025-05-26,268,274-->
@@ -170,7 +170,7 @@ risk reduction
 - cost reduction→:::←customization <!--SR:!2025-05-10,254,274!2024-10-17,45,157-->
 - customization→:::←design <!--SR:!2024-12-31,99,257!2024-11-27,129,234-->
 - design→:::←newness <!--SR:!2025-04-26,228,257!2024-10-11,26,234-->
-- newness→:::←performance <!--SR:!2024-12-31,168,277!2024-09-26,99,257-->
+- newness→:::←performance <!--SR:!2024-12-31,168,277!2025-06-06,253,257-->
 - performance→:::←performing the job well <!--SR:!2024-10-23,129,297!2025-08-20,351,294-->
 - performing the job well→:::←price <!--SR:!2024-10-20,139,294!2024-12-24,166,274-->
 - price→:::←risk reduction <!--SR:!2025-02-24,204,274!2025-03-28,228,274-->

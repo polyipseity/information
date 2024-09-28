@@ -56,7 +56,7 @@ The content is in teaching order.
 - time: 2024-09-06T16:00:00+08:00/2024-09-06T17:50:00+08:00
 - course logistics
 - [Python](../../../../general/Python.md) ::: It is a high-level, interpreted, and general-purpose dynamic programming language that focuses on code readability. <!--SR:!2024-09-30,16,309!2024-10-01,17,309-->
-  - Python / why ::: beginner-friendly (simple, elegant), free and open-source, runs anywhere, supported by a large community, extensible with libraries (flexible), "batteries included": many standard libraries <!--SR:!2024-09-26,12,289!2024-09-28,14,289-->
+  - Python / why ::: beginner-friendly (simple, elegant), free and open-source, runs anywhere, supported by a large community, extensible with libraries (flexible), "batteries included": many standard libraries <!--SR:!2024-11-04,39,289!2024-09-28,14,289-->
 - [§ week 1 pre-lecture](#week%201%20pre-lecture)
 - [basics](basics.md)
   - [§ string](basics.md#string)
@@ -70,7 +70,7 @@ The content is in teaching order.
 - [basics](basics.md)
   - [§ data type conversion](basics.md#data%20type%20conversion)
   - [§ input](basics.md#input)
-    - [basics § input](basics.md#input) / note ::: It seems like Jupyter automatically adds a space after the prompt... But other environments do not. Also, the prompt is optional (i.e. `input()` is okay and does not print anything before asking for user input). Lastly, `prompt` does not need to be a `str`, and other objects are accepted. This is similar to `print(...)`, except that a newline is NOT automatically printed, and it only accepts a single argument (i.e. `input("a", "b")` is NOT okay). <!--SR:!2024-09-26,12,289!2024-10-02,18,309-->
+    - [basics § input](basics.md#input) / note ::: It seems like Jupyter automatically adds a space after the prompt... But other environments do not. Also, the prompt is optional (i.e. `input()` is okay and does not print anything before asking for user input). Lastly, `prompt` does not need to be a `str`, and other objects are accepted. This is similar to `print(...)`, except that a newline is NOT automatically printed, and it only accepts a single argument (i.e. `input("a", "b")` is NOT okay). <!--SR:!2024-10-30,34,289!2024-10-02,18,309-->
 - [list](list.md)
   - [§ Python list](list.md#Python%20list)
   - [§ syntax](list.md#syntax)
