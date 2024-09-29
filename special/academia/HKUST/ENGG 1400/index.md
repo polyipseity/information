@@ -56,8 +56,8 @@ The content is in teaching order.
 - activity 2: workview sharing, activity 3: worldview sharing
   - workview & worldview sharing / debrief ::: How is what you are currently doing coherent with your workview and worldview?
 - assignments
-  - [workview](assignments/workview.md)
-  - [worldview & journal](assignments/worldview%20&%20journal.md)
+  - [workview](assignments/workview/submission.md)
+  - [worldview & journal](assignments/worldview%20&%20journal/submission.md)
 
 ## week 3 tutorial
 
@@ -75,3 +75,21 @@ The content is in teaching order.
 - activity 2: life wheel
   - life wheel / debrief ::: Evaluate your life in 10 categories from 1 to 10. Think of 3 categories to improve and imagine it. Finally, think of 1 action that you can do now to balance the wheel.
 - psychometric assessments ::: EQ-i<sup>2.0</sup>, STRONG
+
+## week 4 tutorial
+
+- time: 2024-09-26T10:30:00+08:00/2024-09-26T12:20:00+08:00
+- positive psychology ::: happiness, well-being, etc.
+- PERMA ::: a portfolio approach to well-being: positive emotion, engagement (& motivation), relationships, meaning & purposes, accomplishment
+  - PERMA element properties ::: contributes to well-being, being pursued for their own sakes, independent of other elements
+  - positive emotion ::: hedonic treadmill, happiness returns to its baseline level
+  - engagement (& motivation) ::: They drive you to do the things you want.
+  - relationships ::: According to a Harvard study of adult development, the people who were the most satisfied in their relationships at age 50 were the healthiest at age 80.
+  - meaning & purpose ::: For example, you probably want to have a job or two jobs that makes both meaning and money.
+  - accomplishment ::: Accomplishment could be physical or emotional ones, which are obtained after successfully doing certain things.
+  - PERMA limitations ::: Maybe there are other things that you feel are important to your own well-being but are not included... So feel free to add your own ones.
+- activity 1: PERMA assessment and reflection ::: PERMA assessment, energy engagement map (& flow), incremental changes, sharing with others
+- activity 2: STRONG debriefing
+  - STRONG debriefing / debrief ::: STRONG assess your job interests, NOT your job skills!
+- assignments
+  - [PERMA assessment and reflection](assignments/PERMA%20assessment%20and%20reflection/submission.md)
