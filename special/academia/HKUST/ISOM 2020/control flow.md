@@ -57,7 +57,7 @@ Python has {{no `switch` statements before Python 3.10. Since Python 3.10, Pytho
 
 ## iteration
 
-You can of course {{put branches and loops}} inside loops.
+You can of course {{put branches (`if`) and loops (`for`, `while`)}} inside loops.
 
 ### for-iteration
 
@@ -78,3 +78,27 @@ If {{there are no statements to be executed in an iteration}}, you {{must still 
 for loop_variables in iterable:
   pass # required, otherwise error
 ```
+
+If {{you want to stop a `for` loop early}}, use {{the `break` statement}}. This will {{stop the innermost `for` or `while` loop}}.
+
+### while-iteration
+
+In Python, `while` can also perform iteration. A `while` statement consists of {{a condition and a statement block}}:
+
+```Python
+while condition:
+  statement_block
+```
+
+The semantics of `while` is {{that the condition is executed first. If the condition is `true`, the statement block is executed and then we repeat the above process again. If the condition is `false`, the `while` statement ends its execution}}.
+
+If {{there are no statements to be executed in an iteration}}, you {{must still put a properly indented `pass` statement, which does nothing, for that iteration}}. For example:
+
+```Python
+while condition:
+  pass # required, otherwise error
+```
+
+If {{you want to stop a `while` loop early in the loop}}, use {{the `break` statement}}. This will {{stop the innermost `for` or `while` loop}}.
+
+ISOM 2020 note: {{We have only learnt `while True`. ONLY USE `while True` in your exercises, labs, and exams.}} If {{you really need a condition to stop the loop}}, use {{`break` under an `if` statement checking for said condition}}.
