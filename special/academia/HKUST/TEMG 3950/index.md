@@ -76,7 +76,7 @@ The content is in teaching order.
 ## week 5 lecture
 
 - time: 2024-02-27T18:00:00+08:00/2024-02-27T20:30:00+08:00
-- How to build a user-centric product? ::: idea generation, then customer segmentation, then [design thinking](../../../../general/design%20thinking.md), then customer profile, then value proposition canvas, then business model canvas
+- How to build a user-centric product? ::: idea generation → customer segmentation → [design thinking](../../../../general/design%20thinking.md) → customer profile → value proposition canvas → business model canvas
 - [design thinking § in business](../../../../general/design%20thinking.md#in%20business)
 - [d.school design thinking bootleg § process modules](../../../d.school%20design%20thinking%20bootleg.md#process%20modules)
 - [design thinking § ideation: divergent and convergent thinking](../../../../general/design%20thinking.md#ideation%20divergent%20and%20convergent%20thinking)
