@@ -20,7 +20,7 @@ A scale model preserves {{all size ratios between different objects}}, while mak
 
 ## scale factor of 10 billion
 
-To comprehend {{the [Solar System](../../../../general/Solar%20System.md)}}, the scale factor can be {{10<sup>10</sup>, i.e. 10 billion}}. Consider the Sun {{to be the center and placed at the large sundial of HKUST}}. Distance, if provided, is {{the distance to the center}}. <!--SR:!2025-04-26,231,330!2024-09-28,69,318!2025-06-17,274,338!2025-07-19,298,338-->
+To comprehend {{the [Solar System](../../../../general/Solar%20System.md)}}, the scale factor can be {{10<sup>10</sup>, i.e. 10 billion}}. Consider the Sun {{to be the center and placed at the large sundial of HKUST}}. Distance, if provided, is {{the distance to the center}}. <!--SR:!2025-04-26,231,330!2025-07-29,302,338!2025-06-17,274,338!2025-07-19,298,338-->
 
 ```Python
 # pytextgen generate data
@@ -66,7 +66,7 @@ return await memorize_seq(
 - [Saturn](../../../../general/Saturn.md): radius of 0.6 cm, distance of 142 m→:::←[Uranus](../../../../general/Uranus.md): radius of 0.25 cm, distance of 287 m <!--SR:!2024-10-17,20,178!2024-11-15,52,210-->
 - [Uranus](../../../../general/Uranus.md): radius of 0.25 cm, distance of 287 m→:::←[Neptune](../../../../general/Neptune.md): radius of 0.24 cm, distance of 449 m <!--SR:!2024-10-30,72,250!2024-11-25,77,230-->
 - [Neptune](../../../../general/Neptune.md): radius of 0.24 cm, distance of 449 m→:::←[Pluto](../../../../general/Pluto.md): radius of 0.01 cm, distance of 590 m <!--SR:!2024-10-12,44,226!2024-10-25,78,266-->
-- [Pluto](../../../../general/Pluto.md): radius of 0.01 cm, distance of 590 m→:::←[Alpha Centauri](../../../../general/Alpha%20Centauri.md): distance of 4400 km (4.4 ly; Kabul, Afghanistan or Siberia, Russia) <!--SR:!2024-10-01,61,250!2024-10-24,79,286-->
+- [Pluto](../../../../general/Pluto.md): radius of 0.01 cm, distance of 590 m→:::←[Alpha Centauri](../../../../general/Alpha%20Centauri.md): distance of 4400 km (4.4 ly; Kabul, Afghanistan or Siberia, Russia) <!--SR:!2025-03-02,152,250!2024-10-24,79,286-->
 - [Alpha Centauri](../../../../general/Alpha%20Centauri.md): distance of 4400 km (4.4 ly; Kabul, Afghanistan or Siberia, Russia)→:::←[Milky Way](../../../../general/Milky%20Way.md): radius of 0.5 AU (half of the unscaled distance between the Sun and Earth) <!--SR:!2024-11-03,92,298!2025-03-27,206,318-->
 - [Milky Way](../../../../general/Milky%20Way.md): radius of 0.5 AU (half of the unscaled distance between the Sun and Earth)→:::←_(end)_ <!--SR:!2025-03-29,196,318!2025-03-25,190,310-->
 
@@ -78,7 +78,7 @@ A real model of this scale factor currently exists in {{Washington DC, with the 
 
 ## scale factor of 10 quintillion
 
-To comprehend {{the [Milky Way](../../../../general/Milky%20Way.md)}}, the scale factor can be {{10<sup>19</sup>, i.e. 10 quintillion}}. Consider the Sun {{to be the center and placed at the large sundial of HKUST}}. Distance, if provided, is {{the distance to the center}}. <!--SR:!2025-02-11,168,310!2025-02-20,159,306!2025-02-03,164,318!2024-09-28,69,318-->
+To comprehend {{the [Milky Way](../../../../general/Milky%20Way.md)}}, the scale factor can be {{10<sup>19</sup>, i.e. 10 quintillion}}. Consider the Sun {{to be the center and placed at the large sundial of HKUST}}. Distance, if provided, is {{the distance to the center}}. <!--SR:!2025-02-11,168,310!2025-02-20,159,306!2025-02-03,164,318!2025-07-28,301,338-->
 
 ```Python
 # pytextgen generate data
@@ -102,6 +102,6 @@ return await memorize_seq(
 
 - _(begin)_→:::←[Alpha Centauri](../../../../general/Alpha%20Centauri.md): distance of 4 mm (4.4 ly) <!--SR:!2025-02-16,158,306!2024-10-03,74,326-->
 - [Alpha Centauri](../../../../general/Alpha%20Centauri.md): distance of 4 mm (4.4 ly)→:::←[Milky Way](../../../../general/Milky%20Way.md): radius of 75 m (size of a soccer field) <!--SR:!2024-10-09,80,326!2025-04-17,204,310-->
-- [Milky Way](../../../../general/Milky%20Way.md): radius of 75 m (size of a soccer field)→:::←_(end)_ <!--SR:!2024-09-27,68,318!2024-10-11,64,290-->
+- [Milky Way](../../../../general/Milky%20Way.md): radius of 75 m (size of a soccer field)→:::←_(end)_ <!--SR:!2025-07-25,298,338!2024-10-11,64,290-->
 
 <!--/pytextgen-->

@@ -28,7 +28,7 @@ tags:
 > 3. the value of your time, but not the price you pay for the ticket
 > 4. neither the price of the ticket nor the value of your time
 >
-> - solution: {{1}} <!--SR:!2024-09-30,4,270-->
+> - solution: {{1}} <!--SR:!2024-10-16,16,290-->
 
 <!-- markdownlint MD028 -->
 
@@ -39,7 +39,7 @@ tags:
 > 3. the $45&nbsp;000 salary that you will be able to earn after having completed your graduate program
 > 4. the value of insurance coverage and other employee benefits you would have received if you retain your job
 >
-> - solution: {{3}} <!--SR:!2024-09-30,4,270-->
+> - solution: {{3}} <!--SR:!2024-10-14,14,290-->
 
 <!-- markdownlint MD028 -->
 
@@ -49,13 +49,13 @@ tags:
 > 2. The selling price is $60&nbsp;000 if the transmission works, otherwise $55&nbsp;000.
 >
 > - solution: {{1: repair and sell; 2: sell}}
-> - explanation: {{Do not consider the already spent $10&nbsp;000 as it is a sunk cost. Only consider the marginal profit, which is the selling price, perhaps subtracted by the repair cost if you decide to repair the transmission. The decision for which the marginal profit is higher is what you should do.}} <!--SR:!2024-09-29,3,250!2024-09-30,4,270-->
+> - explanation: {{Do not consider the already spent $10&nbsp;000 as it is a sunk cost. Only consider the marginal profit, which is the selling price, perhaps subtracted by the repair cost if you decide to repair the transmission. The decision for which the marginal profit is higher is what you should do.}} <!--SR:!2024-10-10,10,270!2024-10-15,15,290-->
 
 <!-- markdownlint MD028 -->
 
 > Q4. How many chicken wings should a perfectly rational person buy and eat? The chicken wings cost $5 each.
 >
-> - solution: {{The person should keep buying and eating chicken wings until the satisfaction the person gets from buying and eating an extra chicken wing (_marginal benefit_) is lower than its cost $5 (_marginal cost_). We assume that the _marginal benefit_ decreases the more chicken wings the person eats, because the person will get increasingly full. <p> By following the above, this maximizes the _net benefit_, i.e. _total benefit_ subtracted by _total cost_.}} <!--SR:!2024-09-30,4,270-->
+> - solution: {{The person should keep buying and eating chicken wings until the satisfaction the person gets from buying and eating an extra chicken wing (_marginal benefit_) is lower than its cost $5 (_marginal cost_). We assume that the _marginal benefit_ decreases the more chicken wings the person eats, because the person will get increasingly full. <p> By following the above, this maximizes the _net benefit_, i.e. _total benefit_ subtracted by _total cost_.}} <!--SR:!2024-10-17,17,290-->
 
 <!-- markdownlint MD028 -->
 
@@ -64,7 +64,7 @@ tags:
 > 1. How much food should you eat, given that you have paid?
 > 2. Should you pay for the buffet in the first place?
 >
-> - solution: {{For (1), you should still eat the same amount of food. The price you have paid for the buffet is sunk cost and should be ignored when analyzing how much food should you eat. The _marginal cost_ of food is the same, i.e, $0, and your _marginal benefit_ as a function of food consumed is also the same. The result is that you should eat the same amount of food, i.e. the amount where the _marginal benefit_ curve crosses the _marginal cost_ curve. For (2), you may change your decision. In this case, the _marginal unit_ becomes the buffet instead of its food. The _marginal benefit_ becomes the benefit of an extra buffet, which equals to the _total benefit_ of food you get in (1). The _marginal cost_ becomes the cost of an buffet (plus the _total cost_ of food in (1), but this is $0). If you change the price, the _marginal benefit_ does not change by (1), but the _marginal cost_ changes. So you may change your decision.}} <!--SR:!2024-09-29,3,250-->
+> - solution: {{For (1), you should still eat the same amount of food. The price you have paid for the buffet is sunk cost and should be ignored when analyzing how much food should you eat. The _marginal cost_ of food is the same, i.e, $0, and your _marginal benefit_ as a function of food consumed is also the same. The result is that you should eat the same amount of food, i.e. the amount where the _marginal benefit_ curve crosses the _marginal cost_ curve. For (2), you may change your decision. In this case, the _marginal unit_ becomes the buffet instead of its food. The _marginal benefit_ becomes the benefit of an extra buffet, which equals to the _total benefit_ of food you get in (1). The _marginal cost_ becomes the cost of an buffet (plus the _total cost_ of food in (1), but this is $0). If you change the price, the _marginal benefit_ does not change by (1), but the _marginal cost_ changes. So you may change your decision.}} <!--SR:!2024-10-10,10,270-->
 
 <!-- markdownlint MD028 -->
 
@@ -76,18 +76,18 @@ tags:
 > 4. none of the above
 >
 > - solution: {{3 (_theoretically_, and 1 from _empirical_ studies)}}
-> - explanation: {{Seat belt makes one less likely to be seriously injured in accidents, but the drivers may drive faster because they feel "safer", compensating for the risk reduction. We do not know if the resulting risk is lower or higher than the resulting one _theoretically_. But from our _empirical_ studies (studies of having seat belt laws vs. not having seat belt laws in the real world), compulsory use of seat belt does reduce the no. of causality.}} <!--SR:!2024-09-30,4,270!2024-09-30,4,270-->
+> - explanation: {{Seat belt makes one less likely to be seriously injured in accidents, but the drivers may drive faster because they feel "safer", compensating for the risk reduction. We do not know if the resulting risk is lower or higher than the resulting one _theoretically_. But from our _empirical_ studies (studies of having seat belt laws vs. not having seat belt laws in the real world), compulsory use of seat belt does reduce the no. of causality.}} <!--SR:!2024-10-15,15,290!2024-10-13,13,290-->
 
 <!-- markdownlint MD028 -->
 
 > Q7. Think of possible (intended or unintended) consequences for each of the following problem-and-solution pair.
 >
-> - Domestic (local) steel producers are threatened by foreign competition (imports). Let's impose a _tariff_ (fee) on importing steel. ::: The price of foreign steel may increase relative to domestic steel. Domestic steel producers may benefit from it. However, the average price of (domestic and imported) steel may rise, so downstream industries may have increased production cost and may pass them to consumers. <!--SR:!2024-09-30,4,270!2024-09-30,4,270-->
-> - Rents are increasing. Let's freeze rents (a form of rent control). ::: In the short term, poor people may be less likely to be evicted due to not being able to pay rent. However, landlords may reduce maintenance on rental units to adapt to decreased rents. They may, in the long term, also construct fewer rental units because they are less profitable. <!--SR:!2024-09-30,4,270!2024-09-30,4,270-->
-> - Medical costs are high. The government decides to offset everyone's medical costs, especially for poor people. ::: People, especially the poor, may be able to benefit from more healthcare. However, medical cost may increase further due to increased demand. Taxes may go up to subsidize this increased spending, so people have less income after taxes. <!--SR:!2024-09-30,4,270!2024-09-30,4,270-->
-> - Commercial fishing for tuna kills dolphins. Let's require domestic fisheries to use more expensive nets that lets dolphins escape. ::: It may protect the dolphins. However, the price of domestic tuna may increase relative to foreign tuna. This means domestic fisheries may be harmed. Also, the average price of (domestic and imported) tuna may rise, so consumers may need to pay more. (The effects are similar to a _tariff_ (like above) but imposed on domestic producers instead.) <!--SR:!2024-09-30,4,270!2024-09-30,4,270-->
-> - Drug addiction is a problem. Let's make it a non-problem by legalizing the use of drugs. ::: Drugs become more available. This lowers drug prices. People may get addicted to drugs more easily. However, it may decrease enforcement costs, regulate the drug market, and make rehabilitating drug addicts easier. <!--SR:!2024-09-30,4,270!2024-09-30,4,270-->
-> - Drug addiction is a problem. Let's enforce drug laws more strictly. ::: Drugs become less available. This increases drug prices. People may get addicted to drugs less easily. However, it may increase drug trafficking activity due to increased profits if succeeded, increasing enforcement costs. Drug addicts may also commit more crimes in order to get money for drugs. <!--SR:!2024-09-30,4,270!2024-09-30,4,270-->
+> - Domestic (local) steel producers are threatened by foreign competition (imports). Let's impose a _tariff_ (fee) on importing steel. ::: The price of foreign steel may increase relative to domestic steel. Domestic steel producers may benefit from it. However, the average price of (domestic and imported) steel may rise, so downstream industries may have increased production cost and may pass them to consumers. <!--SR:!2024-10-16,16,290!2024-10-16,16,290-->
+> - Rents are increasing. Let's freeze rents (a form of rent control). ::: In the short term, poor people may be less likely to be evicted due to not being able to pay rent. However, landlords may reduce maintenance on rental units to adapt to decreased rents. They may, in the long term, also construct fewer rental units because they are less profitable. <!--SR:!2024-10-13,13,290!2024-10-17,17,290-->
+> - Medical costs are high. The government decides to offset everyone's medical costs, especially for poor people. ::: People, especially the poor, may be able to benefit from more healthcare. However, medical cost may increase further due to increased demand. Taxes may go up to subsidize this increased spending, so people have less income after taxes. <!--SR:!2024-10-14,14,290!2024-10-15,15,290-->
+> - Commercial fishing for tuna kills dolphins. Let's require domestic fisheries to use more expensive nets that lets dolphins escape. ::: It may protect the dolphins. However, the price of domestic tuna may increase relative to foreign tuna. This means domestic fisheries may be harmed. Also, the average price of (domestic and imported) tuna may rise, so consumers may need to pay more. (The effects are similar to a _tariff_ (like above) but imposed on domestic producers instead.) <!--SR:!2024-10-15,15,290!2024-10-13,13,290-->
+> - Drug addiction is a problem. Let's make it a non-problem by legalizing the use of drugs. ::: Drugs become more available. This lowers drug prices. People may get addicted to drugs more easily. However, it may decrease enforcement costs, regulate the drug market, and make rehabilitating drug addicts easier. <!--SR:!2024-10-13,13,290!2024-10-13,13,290-->
+> - Drug addiction is a problem. Let's enforce drug laws more strictly. ::: Drugs become less available. This increases drug prices. People may get addicted to drugs less easily. However, it may increase drug trafficking activity due to increased profits if succeeded, increasing enforcement costs. Drug addicts may also commit more crimes in order to get money for drugs. <!--SR:!2024-10-14,14,290!2024-10-15,15,290-->
 
 ### chapter 2 lecture
 
@@ -102,7 +102,7 @@ tags:
 > 7. None of the above.
 >
 > - solution: {{5}}
-> - explanation: {{The first two sentences are positive. The last sentence is normative.}} <!--SR:!2024-09-30,4,270!2024-09-30,4,270-->
+> - explanation: {{The first two sentences are positive. The last sentence is normative.}} <!--SR:!2024-10-14,14,290!2024-10-17,17,290-->
 
 <!-- markdownlint MD028 -->
 
@@ -111,7 +111,7 @@ tags:
 > Explain the above Randy's decision by using a graph/graphs based on the concept of marginal utility/happiness, consumer surplus and marginal cost that we discussed in lectures. (5 points)
 >
 > - graph: {{![graph](attachments/Pasted%20image%2020240922170908.png)}}
-> - solution: {{Assume Randy has bought the plan for a month. Then his marginal utility curve and marginal cost curve is as in the graph. The marginal cost is zero because he can enjoy unlimited data usage. The marginal utility decreases by assuming the law of diminishing utility. This corresponds to him using the mobile-data on urgent uses first, and then less urgent uses, and continue. The marginal utility stops at zero because (I believe) extra data usage cannot have negative marginal utility, but it does not matter for this analysis. The consumer surplus is the area between marginal utility and marginal cost, and represents the benefit of the mobile-data plan to him before he makes the decision of buying the plan. So we can infer the reason he is happy with the plan is because his consumer surplus in a month exceeds HK$800.}} <!--SR:!2024-09-30,4,270!2024-09-29,3,250-->
+> - solution: {{Assume Randy has bought the plan for a month. Then his marginal utility curve and marginal cost curve is as in the graph. The marginal cost is zero because he can enjoy unlimited data usage. The marginal utility decreases by assuming the law of diminishing utility. This corresponds to him using the mobile-data on urgent uses first, and then less urgent uses, and continue. The marginal utility stops at zero because (I believe) extra data usage cannot have negative marginal utility, but it does not matter for this analysis. The consumer surplus is the area between marginal utility and marginal cost, and represents the benefit of the mobile-data plan to him before he makes the decision of buying the plan. So we can infer the reason he is happy with the plan is because his consumer surplus in a month exceeds HK$800.}} <!--SR:!2024-10-14,14,290!2024-10-11,11,270-->
 
 <!-- markdownlint MD028 -->
 
@@ -120,7 +120,7 @@ tags:
 > Explain the above Michael's decision by using a graph/graphs based on the concept of marginal utility/happiness, consumer surplus and marginal cost that we discussed in lectures. (5 points)
 >
 > - graph: {{![graph](attachments/Pasted%20image%2020240922172124.png)}}
-> - solution: {{Assume Michael has bought the plan for a month. Then his marginal utility curve and marginal cost curve is as in the graph. The marginal cost is zero until 20 GB when he uses up all his data usage, after which there is a nonzero cost (that we do not know, but assume to be flat rate). The marginal utility decreases by assuming the law of diminishing utility. This corresponds to him using the mobile-data on urgent uses first, and then less urgent uses, and continue. The marginal utility reaches zero after but not before or on 20 GB because he will use more than 20 GB data if data is free. The marginal utility stops at zero because (I believe) extra data usage cannot have negative marginal utility, but it does not matter for this analysis. The consumer surplus is the area between marginal utility and marginal cost, and represents the benefit of the mobile-data plan to him before he makes the decision of buying the plan. So we can infer the reason he is happy with the plan is because his consumer surplus in a month exceeds HK$200.}} <!--SR:!2024-09-30,4,270!2024-09-29,3,250-->
+> - solution: {{Assume Michael has bought the plan for a month. Then his marginal utility curve and marginal cost curve is as in the graph. The marginal cost is zero until 20 GB when he uses up all his data usage, after which there is a nonzero cost (that we do not know, but assume to be flat rate). The marginal utility decreases by assuming the law of diminishing utility. This corresponds to him using the mobile-data on urgent uses first, and then less urgent uses, and continue. The marginal utility reaches zero after but not before or on 20 GB because he will use more than 20 GB data if data is free. The marginal utility stops at zero because (I believe) extra data usage cannot have negative marginal utility, but it does not matter for this analysis. The consumer surplus is the area between marginal utility and marginal cost, and represents the benefit of the mobile-data plan to him before he makes the decision of buying the plan. So we can infer the reason he is happy with the plan is because his consumer surplus in a month exceeds HK$200.}} <!--SR:!2024-10-13,13,290!2024-10-09,9,270-->
 
 ### chapter 3 lecture
 
@@ -132,7 +132,7 @@ tags:
 > 4. all of the above
 >
 > - solution: {{4}}
-> - explanation: {{When making an investment, one will consider its cost (1), its return (2), its risk (3), and its time needed (3). Time needed affects the _present value_ (PV) of return in the future. For example, high political instability will severely affect (3).}} <!--SR:!2024-09-30,4,270!2024-09-30,4,270-->
+> - explanation: {{When making an investment, one will consider its cost (1), its return (2), its risk (3), and its time needed (3). Time needed affects the _present value_ (PV) of return in the future. For example, high political instability will severely affect (3).}} <!--SR:!2024-10-16,16,290!2024-10-15,15,290-->
 
 <!-- markdownlint MD028 -->
 
@@ -144,7 +144,7 @@ tags:
 > 4. all of the above
 >
 > - solution: {{4}}
-> - explanation: {{If the production–possibility frontiers (PPFs) for X and Y are both linear, then full specialization in one of the goods will always lead to the lowest marginal (or equal) opportunity cost for both A and B. Their total output will be the _largest_. <p> Note that if the PPFs are nonlinear, then full specialization may not always produce the _largest_ total output, and may or may not lead to a _larger_ total output.}} <!--SR:!2024-09-30,4,270!2024-09-30,4,270-->
+> - explanation: {{If the production–possibility frontiers (PPFs) for X and Y are both linear, then full specialization in one of the goods will always lead to the lowest marginal (or equal) opportunity cost for both A and B. Their total output will be the _largest_. <p> Note that if the PPFs are nonlinear, then full specialization may not always produce the _largest_ total output, and may or may not lead to a _larger_ total output.}} <!--SR:!2024-10-16,16,290!2024-10-17,17,290-->
 
 <!-- markdownlint MD028 -->
 
@@ -166,7 +166,7 @@ tags:
 > 4. Teresa has CA in B and better specializes in B
 >
 > - solution: {{4}}
-> - explanation: {{We only consider CA when thinking what to specialize. For Teresa, his/her opportunity cost for B is $$10 / 20 = 0.5~\text{A/B}$$, while that for Astor is $$30 / 30 = 1~\text{A/B}$$. So Teresa has CA in B and better specializes in B.}} <!--SR:!2024-09-30,4,270!2024-09-30,4,270-->
+> - explanation: {{We only consider CA when thinking what to specialize. For Teresa, his/her opportunity cost for B is $$10 / 20 = 0.5~\text{A/B}$$, while that for Astor is $$30 / 30 = 1~\text{A/B}$$. So Teresa has CA in B and better specializes in B.}} <!--SR:!2024-10-14,14,290!2024-10-17,17,290-->
 
 <!-- markdownlint MD028 -->
 
@@ -188,7 +188,7 @@ tags:
 > 4. none of the above
 >
 > - solution: {{2}}
-> - explanation: {{Consider the marginal (opportunity) costs for Albert if he specializes in meat: $$16 / 24 = 2 / 3~\mathrm{potato/meat}$$. Also consider that if he specializes in potato: $$24 / 16 = 1.5~\mathrm{meat/potato}$$. If the marginal cost is lower than the marginal benefit, then Albert will exchange. In this case, if he specializes in meat, his marginal cost of meat is 2/3 potatoes per meat, which is lower than the marginal benefit of 1 potato per meat (market price) in the market. So he will specialize in meat and likes exchange.}} <!--SR:!2024-09-30,4,270!2024-09-30,4,270-->
+> - explanation: {{Consider the marginal (opportunity) costs for Albert if he specializes in meat: $$16 / 24 = 2 / 3~\mathrm{potato/meat}$$. Also consider that if he specializes in potato: $$24 / 16 = 1.5~\mathrm{meat/potato}$$. If the marginal cost is lower than the marginal benefit, then Albert will exchange. In this case, if he specializes in meat, his marginal cost of meat is 2/3 potatoes per meat, which is lower than the marginal benefit of 1 potato per meat (market price) in the market. So he will specialize in meat and likes exchange.}} <!--SR:!2024-10-17,17,290!2024-10-16,16,290-->
 
 <!-- markdownlint MD028 -->
 
@@ -200,7 +200,7 @@ tags:
 > 4. (300 airplanes, 25000 cars) and (200 airplanes, 40000 cars)
 >
 > - solution: {{2}}
-> - explanation: {{Note that 100 cars is the marginal (opportunity) cost of an airplane. Thus, simply check if the change in airplane multiplied by -100 equals the change in cars.}} <!--SR:!2024-09-30,4,270!2024-09-30,4,270-->
+> - explanation: {{Note that 100 cars is the marginal (opportunity) cost of an airplane. Thus, simply check if the change in airplane multiplied by -100 equals the change in cars.}} <!--SR:!2024-10-16,16,290!2024-10-17,17,290-->
 
 ## tutorials
 
@@ -210,22 +210,22 @@ See [Hong Kong's waste problem: what is the new charging scheme and how can it c
 
 > Q1. How would waste charging based on the amount of waste work?
 >
-> - solution: {{It increases the marginal cost of disposing waste from zero to a nonzero positive number. As a result, the marginal utility curve of disposing waste meets its marginal cost curve earlier, assuming the law of decreasing marginal utility holds. A rational person would dispose less waste.}} <!--SR:!2024-09-30,4,270-->
+> - solution: {{It increases the marginal cost of disposing waste from zero to a nonzero positive number. As a result, the marginal utility curve of disposing waste meets its marginal cost curve earlier, assuming the law of decreasing marginal utility holds. A rational person would dispose less waste.}} <!--SR:!2024-10-14,14,290-->
 
 <!-- markdownlint MD028 -->
 
 > Q2. How would waste charging by imposing a fixed fee work?
 >
-> - solution: {{It would not work. It does not increase the marginal cost of disposing waste from zero. As a result, unless the total utility of disposing waste does not exceed the initial fixed fee, a rational person would pay the fixed fee and still dispose as much as before.}} <!--SR:!2024-09-30,4,270-->
+> - solution: {{It would not work. It does not increase the marginal cost of disposing waste from zero. As a result, unless the total utility of disposing waste does not exceed the initial fixed fee, a rational person would pay the fixed fee and still dispose as much as before.}} <!--SR:!2024-10-14,14,290-->
 
 <!-- markdownlint MD028 -->
 
 > Q3. What could the problems with a waste charging scheme?
 >
-> - solution (for reference): {{Environmentally, perhaps the designated waste bags are not biodegradable. They may add to the waste instead. Operationally, it requires a lot of setup and the cooperation of citizens to implement. Socially, citizens may not like the charge and become discontent. There are many more unmentioned here...}} <!--SR:!2024-09-30,4,270-->
+> - solution (for reference): {{Environmentally, perhaps the designated waste bags are not biodegradable. They may add to the waste instead. Operationally, it requires a lot of setup and the cooperation of citizens to implement. Socially, citizens may not like the charge and become discontent. There are many more unmentioned here...}} <!--SR:!2024-10-15,15,290-->
 
 <!-- markdownlint MD028 -->
 
 > Q4. What can the Hong Kong government do to ensure successful implementation of the waste charging scheme?
 >
-> - solution (for reference): {{Introduce legislation against over-packaging and disposable utensils. Redesign public rubbish bins to discourage citizens from disposing their waste there to avoid the charge. Increase effort on education and enforcement. There are many more unmentioned here...}} <!--SR:!2024-09-30,4,270-->
+> - solution (for reference): {{Introduce legislation against over-packaging and disposable utensils. Redesign public rubbish bins to discourage citizens from disposing their waste there to avoid the charge. Increase effort on education and enforcement. There are many more unmentioned here...}} <!--SR:!2024-10-13,13,290-->

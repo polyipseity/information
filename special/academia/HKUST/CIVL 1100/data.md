@@ -155,7 +155,7 @@ See [Great Wall of China](../../../../general/Great%20Wall%20of%20China.md).
 See [HSBC Building (Hong Kong)](HSBC%20Building%20(Hong%20Kong).md).
 
 - description ::: headquarters building of [The Hongkong and Shanghai Banking Corporation](HSBC%20(Hong%20Kong).md) <!--SR:!2025-01-15,197,354!2025-03-05,256,330-->
-- height ::: roof: 178.8 m <!--SR:!2024-09-29,15,221!2025-05-07,325,350-->
+- height ::: roof: 178.8 m <!--SR:!2024-11-01,32,221!2025-05-07,325,350-->
 - image ::: ![HSBC Main Building image](../../../../archives/Wikimedia%20Commons/HK%20HSBC%20Main%20Building%202008%20(cropped).jpg) <!--SR:!2025-06-05,312,380!2026-02-04,519,400-->
 - [structural system](../../../../general/structural%20system.md) ::: steel [suspended structure](../../../../general/suspended%20structure.md)<!-- flashcard b5c46b64-11cf-4605-a97e-3a159f12185f --> <!--SR:!2024-10-21,130,321!2025-10-22,432,401-->
 
@@ -181,7 +181,7 @@ See [Hong Kong–Zhuhai–Macau Bridge](../../../../general/Hong%20Kong–Zhuhai
 See [Hoover Dam](../../../../general/Hoover%20Dam.md).
 
 - [dam type](../../../../general/dam.md#types) ::: concrete gravity-arch <!--SR:!2025-06-30,300,320!2025-12-26,497,395-->
-- height ::: 221.4 m <!--SR:!2024-09-29,95,281!2025-02-27,247,367-->
+- height ::: 221.4 m <!--SR:!2025-06-23,266,281!2025-02-27,247,367-->
 - image ::: ![Hoover Dam image](../../../../archives/Wikimedia%20Commons/Ansel%20Adams%20-%20National%20Archives%2079-AAB-01.jpg) <!--SR:!2025-08-26,379,380!2025-09-03,368,380-->
 - length ::: 379 m <!--SR:!2024-11-10,47,201!2025-02-11,235,370-->
 
@@ -223,7 +223,7 @@ See [Millau Viaduct](../../../../general/Millau%20Viaduct.md).
 - geographic location ::: across the gorge valley of the Tarn near Millau in southern France <!--SR:!2025-05-01,258,376!2025-05-29,280,376-->
 - height ::: max pylon above base: 343 m, structural: 336.4 m <!--SR:!2024-10-21,37,296!2024-11-07,140,396-->
   - height record ::: as of October 2023, tallest bridge in the world <!--SR:!2024-10-22,126,396!2024-10-22,127,396-->
-- length ::: 2450 m = 204 m + 342 m × 6 + 204 m, longest span: 342 m <!--SR:!2024-09-30,14,296!2024-10-12,118,396-->
+- length ::: 2450 m = 204 m + 342 m × 6 + 204 m, longest span: 342 m <!--SR:!2024-11-08,39,296!2024-10-12,118,396-->
 - image ::: ![Millau Viaduct image](../../../../archives/Wikimedia%20Commons/ViaducdeMillau.jpg) <!--SR:!2024-11-04,137,396!2025-10-14,411,396-->
 - opening time ::: 2004-12-16, 09:00 <!--SR:!2024-10-17,40,276!2025-05-30,281,376-->
 - width ::: 32.05 m <!--SR:!2024-10-21,42,356!2025-08-02,326,376-->

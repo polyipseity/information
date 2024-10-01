@@ -82,7 +82,7 @@ The content is in teaching order.
 - time: 2023-10-04T17:00:00+08:00/2023-10-04T18:50:00+08:00
 - topic: Portfolio Building (II)
 - [cover letter](../../../cover%20letter.md)
-  - cover letter advantage ::: positive impression, include extra information, mention referrer, emphasize your knowledge of the company <!--SR:!2024-10-01,12,270!2024-10-11,17,290-->
+  - cover letter advantage ::: positive impression, include extra information, mention referrer, emphasize your knowledge of the company <!--SR:!2024-11-04,34,270!2024-10-11,17,290-->
 - transferrable skills, portable skills
 - professional social media ::: LinkedIn <!--SR:!2024-10-10,16,290!2024-10-09,15,290-->
 - elevator pitch ::: self-introduce yourself in 60 seconds to impress potential employers <!--SR:!2024-10-11,17,290!2024-10-09,15,290-->
@@ -127,11 +127,11 @@ The content is in teaching order.
   - networking etiquette
   - dining etiquette
 - work cultures
-- How is a work offer properly confirmed? ::: confirmed the draft employment contract <!--SR:!2024-10-08,14,290!2024-09-27,8,250-->
+- How is a work offer properly confirmed? ::: confirmed the draft employment contract <!--SR:!2024-10-08,14,290!2024-10-27,27,270-->
 - What if you need more time to consider a work offer? ::: Sincerely ask for more time to consider and state your expected reply time to the employer. <!--SR:!2024-10-07,13,290!2024-10-09,15,290-->
 - What to do after confirming an offer? ::: stop interviewing, nicely decline other work offers <!--SR:!2024-10-03,9,270!2024-10-11,17,290-->
 - job offer ::: Check if it is legitimate and is not missing any crucial information! <!--SR:!2024-10-10,16,290!2024-10-10,16,290-->
-  - job offer crucial information ::: company logo, contact information, job title, job details, salary/compensation, benefits, expiration date <!--SR:!2024-09-29,10,250!2024-09-28,9,250-->
+  - job offer crucial information ::: company logo, contact information, job title, job details, salary/compensation, benefits, expiration date <!--SR:!2024-10-24,24,250!2024-11-05,36,270-->
   - declining a job offer ::: act quick, communicate professionally, express appreciation <!--SR:!2024-10-07,13,290!2024-10-08,14,290-->
 
 ## week 8 tutorial
@@ -161,18 +161,18 @@ The content is in teaching order.
 - topic: Interview (II): Group Discussion Skills
 - activity: leadership exercise
 - leadership
-  - leadership tips ::: lead with vision, determined/delegation/communication, problem solving, trust, appreciation <!--SR:!2024-10-12,16,250!2024-09-30,11,270-->
-  - teamwork tips ::: strategic thinking, determined/delegation/communication, remain calm under pressure, trust, win-win cooperation with other teams <!--SR:!2024-09-28,9,250!2024-10-01,12,270-->
+  - leadership tips ::: lead with vision, determined/delegation/communication, problem solving, trust, appreciation <!--SR:!2024-10-12,16,250!2024-11-02,33,270-->
+  - teamwork tips ::: strategic thinking, determined/delegation/communication, remain calm under pressure, trust, win-win cooperation with other teams <!--SR:!2024-10-22,22,250!2024-11-03,33,270-->
 - structured group discussion
 - presentation
-  - presentation tips ::: greeting, no need to repeat the known problem, T-style presentation (depth not breadth), set reasonable assumptions, rehearse!! <!--SR:!2024-10-01,12,270!2024-10-04,10,270-->
+  - presentation tips ::: greeting, no need to repeat the known problem, T-style presentation (depth not breadth), set reasonable assumptions, rehearse!! <!--SR:!2024-11-12,42,290!2024-10-04,10,270-->
 
 ## week 11 tutorial
 
 - time: 2023-11-15T17:00:00+08:00/2023-11-15T18:50:00+08:00
 - topic: Interview (III): Final Drilling of Mock Interview
 - interview goals ::: impress, express, tell stories (STAR-r) <!--SR:!2024-10-11,17,290!2024-10-09,15,290-->
-- STAR-r ::: situation, task, action, result, reflection <!--SR:!2024-09-30,11,270!2024-10-08,14,290-->
+- STAR-r ::: situation, task, action, result, reflection <!--SR:!2024-11-07,38,290!2024-10-08,14,290-->
   - STAR-r / situation ::: set the scene <!--SR:!2024-10-09,15,290!2024-10-11,17,290-->
   - STAR-r / task ::: describe the purpose <!--SR:!2024-10-10,16,290!2024-10-07,13,290-->
   - STAR-r / action ::: explain what you did <!--SR:!2024-10-08,14,290!2024-10-10,16,290-->

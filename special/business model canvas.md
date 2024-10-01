@@ -112,14 +112,14 @@ segmented: splitting slightly different customer segments
 - diversified: serving unrelated customer segments→:::←mass market: not distinguishing between customer segments <!--SR:!2025-03-28,199,237!2025-05-24,243,254-->
 - mass market: not distinguishing between customer segments→:::←multi-sided platforms: serving interdependent customer segments <!--SR:!2024-11-24,80,254!2024-11-05,54,277-->
 - multi-sided platforms: serving interdependent customer segments→:::←niche market: focusing on specific, specialized customer segments <!--SR:!2024-10-27,120,257!2025-03-31,200,254-->
-- niche market: focusing on specific, specialized customer segments→:::←segmented: splitting slightly different customer segments <!--SR:!2024-09-30,100,254!2024-09-27,15,157-->
+- niche market: focusing on specific, specialized customer segments→:::←segmented: splitting slightly different customer segments <!--SR:!2025-06-10,253,254!2024-10-22,22,157-->
 - segmented: splitting slightly different customer segments→:::←_(end)_ <!--SR:!2025-01-22,185,274!2024-10-31,116,254-->
 
 <!--/pytextgen-->
 
 #### value propositions
 
-The value propositions building block shows {{products and services that create value for customer segments}}. Value propositions can be {{disruptive or an improvement over existing products}}. <!--SR:!2024-09-30,112,274!2024-10-02,103,254-->
+The value propositions building block shows {{products and services that create value for customer segments}}. Value propositions can be {{disruptive or an improvement over existing products}}. <!--SR:!2025-08-02,306,274!2024-10-02,103,254-->
 
 ##### value sources
 
@@ -164,7 +164,7 @@ risk reduction
 <!--pytextgen generate section="c321"--><!-- The following content is generated at 2024-03-18T19:56:56.570256+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←accessibility <!--SR:!2025-06-10,276,277!2025-04-18,281,334-->
-- accessibility→:::←brand or status <!--SR:!2024-10-01,103,254!2025-02-15,196,274-->
+- accessibility→:::←brand or status <!--SR:!2025-06-19,261,254!2025-02-15,196,274-->
 - brand or status→:::←convenience or usability <!--SR:!2024-11-12,63,214!2024-12-05,93,214-->
 - convenience or usability→:::←cost reduction <!--SR:!2024-10-11,108,254!2024-12-02,101,237-->
 - cost reduction→:::←customization <!--SR:!2025-05-10,254,274!2024-10-17,45,157-->
@@ -266,7 +266,7 @@ subscription fee
 - _(begin)_→:::←advertising <!--SR:!2025-05-02,251,274!2025-02-25,224,317-->
 - advertising→:::←asset sale <!--SR:!2024-10-07,130,294!2024-11-28,167,317-->
 - asset sale→:::←brokerage fee <!--SR:!2024-12-04,152,274!2025-02-22,177,274-->
-- brokerage fee→:::←lending, renting, or leasing <!--SR:!2024-10-01,29,217!2024-10-31,121,254-->
+- brokerage fee→:::←lending, renting, or leasing <!--SR:!2024-12-02,62,217!2024-10-31,121,254-->
 - lending, renting, or leasing→:::←licensing <!--SR:!2025-04-03,223,257!2024-12-05,91,254-->
 - licensing→:::←usage fee <!--SR:!2025-03-07,207,274!2024-11-17,78,254-->
 - usage fee→:::←subscription fee <!--SR:!2024-10-16,111,254!2025-02-26,206,277-->

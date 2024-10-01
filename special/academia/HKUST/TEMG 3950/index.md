@@ -76,7 +76,7 @@ The content is in teaching order.
 ## week 5 lecture
 
 - time: 2024-02-27T18:00:00+08:00/2024-02-27T20:30:00+08:00
-- How to build a user-centric product? ::: idea generation, then customer segmentation, then [design thinking](../../../../general/design%20thinking.md), then customer profile, then value proposition canvas, then business model canvas <!--SR:!2024-09-30,93,275!2024-11-01,117,295-->
+- How to build a user-centric product? ::: idea generation, then customer segmentation, then [design thinking](../../../../general/design%20thinking.md), then customer profile, then value proposition canvas, then business model canvas <!--SR:!2025-06-12,255,275!2024-11-01,117,295-->
 - [design thinking § in business](../../../../general/design%20thinking.md#in%20business)
 - [d.school design thinking bootleg § process modules](../../../d.school%20design%20thinking%20bootleg.md#process%20modules)
 - [design thinking § ideation: divergent and convergent thinking](../../../../general/design%20thinking.md#ideation%20divergent%20and%20convergent%20thinking)
@@ -137,7 +137,7 @@ The content is in teaching order.
     - individual presentation
 - presentation skills
 - [executive summary](../../../../general/executive%20summary.md)
-  - executive summary for startup investment ::: company name, one-line pitch, problem, solution and product, market and market size, marketing strategy, business model, competition and advantage, team <!--SR:!2024-10-01,15,215!2024-10-03,96,295-->
+  - executive summary for startup investment ::: company name, one-line pitch, problem, solution and product, market and market size, marketing strategy, business model, competition and advantage, team <!--SR:!2024-11-02,32,215!2024-10-03,96,295-->
 - [assignment W7](assignment%20W7/assignment%20W7.md)
 
 ## week 8 lecture
@@ -167,7 +167,7 @@ The content is in teaching order.
   - consultant job prospects
     - consultant after 1 to 2 years ::: Analyst, Associate, Specialist: doing the work; enter from BA, BS, MPhil, or MSc <!--SR:!2025-01-11,152,321!2025-03-17,200,341-->
     - consultant after 2 to 4 years ::: As. Consultant, Consultant, Sr. Consultant: doing the work; enter from JD, MBA, MD, or PhD, exit to project member of big firms or manager in small firms, and further top MBA <!--SR:!2025-04-17,226,341!2024-12-30,144,321-->
-    - consultant after 4 to 6 years ::: Eng. Manager, Mg. Consultant, Project Leader: managing the work; exit to manager of big firms or director of small firms, and further top EMBA <!--SR:!2025-01-24,123,281!2024-09-28,93,361-->
+    - consultant after 4 to 6 years ::: Eng. Manager, Mg. Consultant, Project Leader: managing the work; exit to manager of big firms or director of small firms, and further top EMBA <!--SR:!2025-01-24,123,281!2025-08-30,334,361-->
     - consultant after 6 to 9 years ::: As. Partner, Principal: selling the work; exit to director of big firms or general manager (GM) of small firms, and further top EMBA <!--SR:!2024-10-27,98,301!2025-01-04,149,321-->
     - consultant after 9 years or more ::: Director, Partner, VP: managing the business; exit to CEO or retire rich <!--SR:!2025-03-10,199,341!2025-08-10,320,361-->
 - nature of complex problems ::: modeled by time-varying multi-variable optimization problems with constraints <!--SR:!2025-02-13,185,361!2025-12-20,450,381-->
@@ -179,18 +179,18 @@ The content is in teaching order.
   - modeling key concept: abstraction ::: filter for elements relevant to some specific purpose <!--SR:!2025-07-15,301,361!2024-10-02,96,361-->
   - modeling key concept: framework ::: a support structure around which something can be built <!--SR:!2025-12-13,444,381!2025-05-29,273,361-->
   - modeling key concept: model ::: an abstraction of the real world for some specific purpose <!--SR:!2025-08-27,356,381!2024-11-03,105,341-->
-- Aguilar's PESTLE framework ::: business environment analysis <!--SR:!2024-09-27,92,361!2025-07-04,291,361-->
+- Aguilar's PESTLE framework ::: business environment analysis <!--SR:!2025-12-26,452,381!2025-07-04,291,361-->
   - [PEST analysis § composition](../../../../general/PEST%20analysis.md#composition)
 - Porter's 5 forces framework ::: industry profitability analysis <!--SR:!2025-06-24,299,361!2025-06-28,303,361-->
   - [Porter's five forces analysis](../../../../general/Porter's%20five%20forces%20analysis.md)
     - [§ five forces that shape competition](../../../../general/Porter's%20five%20forces%20analysis.md#five%20forcs%20that%20shape%20competition)
     - [§ usage](../../../../general/Porter's%20five%20forces%20analysis.md#usage)
-- Chernev's 5C framework ::: market & business analysis <!--SR:!2024-09-28,92,361!2025-04-27,234,341-->
+- Chernev's 5C framework ::: market & business analysis <!--SR:!2025-12-29,455,381!2025-04-27,234,341-->
   - [situation analysis § 5C analysis](../../../../general/situation%20analysis.md#5C%20analysis)
   - 5C analysis & ancient Chinese philosophy ::: 天時·地利·人和 <!--SR:!2025-07-25,309,361!2025-07-17,302,361-->
   - Chernev's 5C framework § competitor ::: The competitor aspect can use [competitor analysis](../../../../general/competitor%20analysis.md). <!--SR:!2025-12-02,435,381!2024-10-04,98,361-->
-  - Chernev's 5C framework § context ::: The context aspect can use Anguilar's PESTLE framework. <!--SR:!2024-09-27,92,361!2025-08-15,326,361-->
-- McCarthy's 4P framework ::: market-related analysis <!--SR:!2024-09-29,93,361!2024-09-28,93,361-->
+  - Chernev's 5C framework § context ::: The context aspect can use Anguilar's PESTLE framework. <!--SR:!2025-12-28,454,381!2025-08-15,326,361-->
+- McCarthy's 4P framework ::: market-related analysis <!--SR:!2026-01-02,459,381!2026-01-03,460,381-->
   - [marketing mix § McCarthy's 4 Ps](../../../../general/marketing%20mix.md#McCarthy's%204%20Ps)
 - [assignment W9](assignment%20W9/assignment%20W9.md): MECE for Situation Analysis
 
@@ -204,7 +204,7 @@ The content is in teaching order.
 - critical thinking pop quiz takeaways ::: cannot blindly trust given premises, case analysis needs to consider human behaviors, possess general knowledge <!--SR:!2025-03-08,197,341!2025-07-24,308,361-->
 - [assignment W9](assignment%20W9/assignment%20W9.md) takeaways
   - general case analysis question takeaways ::: Identify key questions. Choose the question that is most precise and involves least work. <!--SR:!2025-05-25,275,361!2025-11-16,419,381-->
-  - use of framework takeaways ::: Consider relevant dimensions of each framework and select the framework with the most relevant dimensions. Add a total at the end to sum up all the dimensions. <!--SR:!2025-04-10,223,341!2024-10-01,95,361-->
+  - use of framework takeaways ::: Consider relevant dimensions of each framework and select the framework with the most relevant dimensions. Add a total at the end to sum up all the dimensions. <!--SR:!2025-04-10,223,341!2026-01-14,470,381-->
 - nature of problems ::: Problems are caused by a network of causes. If the causes are not removed, the problems may recur. <!--SR:!2025-02-24,177,321!2025-12-14,445,381-->
 - casual relationship ::: Event A, called the _cause_, causes event B, called the _effect_. <!--SR:!2025-05-24,275,361!2025-11-18,421,381-->
 - correlation ::: Measure of relationship between 2 variables. They can be positively correlated, negatively correlated, or uncorrelated. <!--SR:!2025-03-13,207,361!2025-01-08,164,341-->
@@ -213,10 +213,10 @@ The content is in teaching order.
 - [five whys](../../../../general/five%20whys.md)
 - cause mapping process ::: define the issue by its impact to business goals, visualize the problem, and prevent or mitigate negative impacts <!--SR:!2024-10-08,86,321!2025-03-06,200,341-->
 - cause mapping notation (at least for this course)
-  - cause mapping + MECE dimensions ::: Choose a MECE framework. For one of the causes, split the further causes by MECE dimensions. Label the further causes by their corresponding dimensions. Explain why, if some dimensions are irrelevant and thus has no further causes. <!--SR:!2024-09-28,79,321!2025-08-05,332,361-->
+  - cause mapping + MECE dimensions ::: Choose a MECE framework. For one of the causes, split the further causes by MECE dimensions. Label the further causes by their corresponding dimensions. Explain why, if some dimensions are irrelevant and thus has no further causes. <!--SR:!2025-06-10,253,321!2025-08-05,332,361-->
   - cause mapping § arrow direction ::: cause to effect <!--SR:!2025-07-02,291,361!2025-11-01,410,381-->
   - cause mapping § evidences ::: below the cause, pink background <!--SR:!2024-10-16,92,321!2025-07-13,313,361-->
-  - cause mapping § operators ::: AND, OR <!--SR:!2024-09-29,93,361!2025-05-31,266,361-->
+  - cause mapping § operators ::: AND, OR <!--SR:!2026-01-07,464,381!2025-05-31,266,361-->
   - cause mapping § solutions ::: above the cause, green background <!--SR:!2025-06-10,285,361!2025-07-05,306,361-->
   - cause mapping § symptom ::: red background <!--SR:!2025-08-01,312,361!2024-10-02,96,361-->
 - [5-step persuasive selling](../../../5-step%20persuasive%20selling.md)
@@ -227,8 +227,8 @@ The content is in teaching order.
   - solutions table ::: no., cause, solution; optionally, time, persons responsible, budget <!--SR:!2025-02-22,187,341!2025-08-10,321,361-->
 - interview note-taking technique using 1 sheet of A4 paper ::: facts, key question (only 1), analysis <!--SR:!2025-08-22,330,361!2024-10-04,98,361-->
   - interview note § layout ::: split the paper into 2, the left side is thinner and holds the facts and key question, and the right side is the analysis <!--SR:!2024-12-13,134,321!2024-10-03,97,361-->
-  - interview note § analysis ::: use a MECE framework suitable for the case in the interview <!--SR:!2024-09-27,91,361!2025-12-06,439,381-->
-  - interview note § facts ::: do not be afraid to ask probing questions, probe for the real question, quantify, summarize, verify <!--SR:!2025-03-14,206,341!2024-09-29,93,361-->
+  - interview note § analysis ::: use a MECE framework suitable for the case in the interview <!--SR:!2025-12-24,450,381!2025-12-06,439,381-->
+  - interview note § facts ::: do not be afraid to ask probing questions, probe for the real question, quantify, summarize, verify <!--SR:!2025-03-14,206,341!2025-09-05,340,361-->
 - [assignment W11](assignment%20W11/assignment%20W11.md): Root Cause Analysis (Starbucks)
 
 ## week 12 lecture

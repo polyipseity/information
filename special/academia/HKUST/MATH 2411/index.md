@@ -160,7 +160,7 @@ The content is in teaching order.
     - [sampling § sampling errors and biases](../../../../general/sampling%20(statistics).md#sampling%20errors%20and%20biases)
     - [sampling § non-sampling errors](../../../../general/sampling%20(statistics).md#non-sampling%20errors)
   - [probability sampling](../../../../general/sampling%20(statistics).md#sampling%20frame) ::: It supports strong statistical inferences from a sample to the population, minimizing selection bias. It involves random selection: any individual has a nonzero probability being picked, and said probability can be determined. <!--SR:!2024-11-13,50,290!2024-11-17,60,310-->
-    - probability sampling / examples ::: cluster sampling, simple random sampling, stratified sampling, systematic sampling, stratified sampling, ... <!--SR:!2024-09-29,19,250!2024-11-02,45,290-->
+    - probability sampling / examples ::: cluster sampling, simple random sampling, stratified sampling, systematic sampling, stratified sampling, ... <!--SR:!2024-11-16,47,250!2024-11-02,45,290-->
     - probability sampling / simple random sampling ::: All individual in a population has equal probability of being selected. <!--SR:!2024-11-18,60,310!2024-11-28,65,310-->
     - probability sampling / systematic sampling ::: A _probabilistic_ method is used to select individuals of a population, such as sampling every third person. <!--SR:!2024-11-04,46,290!2024-12-02,69,310-->
     - probability sampling / stratified sampling ::: Individuals are split into groups based on certain characters. Then simple random sampling is applied on each group. <!--SR:!2024-11-12,55,310!2024-10-07,25,270-->

@@ -87,7 +87,7 @@ tags:
 > 2. balance sheet
 > 3. statement of cash flow
 >
-> - solution: {{2}} <!--SR:!2024-10-01,12,270-->
+> - solution: {{2}} <!--SR:!2024-11-11,41,290-->
 
 <!-- markdownlint MD028 -->
 
@@ -117,7 +117,7 @@ tags:
 > 2. balance sheet
 > 3. statement of cash flow
 >
-> - solution: {{1, and also 3 if the procurement involves instantaneous transfer of cash}} <!--SR:!2024-09-29,10,250-->
+> - solution: {{1, and also 3 if the procurement involves instantaneous transfer of cash}} <!--SR:!2024-11-03,34,270-->
 
 <!-- markdownlint MD028 -->
 
@@ -212,7 +212,7 @@ tags:
 > 3. transaction analysis → add journal entries → posting to the ledger
 >
 > - solution: {{3}}
-> - explanation: {{Note that for 2, adjusting the accounts is only done at the end of a reporting period, but an accounting cycle is simply recording the transactions after a much shorter period.}} <!--SR:!2024-10-12,18,302!2024-10-01,7,262-->
+> - explanation: {{Note that for 2, adjusting the accounts is only done at the end of a reporting period, but an accounting cycle is simply recording the transactions after a much shorter period.}} <!--SR:!2024-10-12,18,302!2024-10-29,28,282-->
 
 <!-- markdownlint MD028 -->
 

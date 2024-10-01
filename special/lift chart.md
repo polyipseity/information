@@ -21,13 +21,13 @@ A __decile-wise lift chart__ is a variant of the lift chart that {{visualizes th
 
 ## construction
 
-To construct a lift chart, first select {{an attribute as the outcome attribute to predict}}. Then, {{choose a possible value of that attribute as "success"}}. The attribute is {{usually discrete, but can be continuous if a "success" value can be defined at an endpoint of the attribute range}}. Then, {{choose a possible value of that attribute as "success". For continuous attributes, this means the closer a datum is to the "success" value, the more "successful" the data is}}. Then have your model {{predict the outcome attribute}}. The prediction outcome is {{usually discrete, but can be continuous if it can be ordered consistent with the discretized attribute, like the prediction outcome is a confidence of the attribute being the "success" value}}. Now order the entire dataset {{according to the predicted outcome, then the actual outcome, and then arbitrarily if there is still a tie. "Success" value must have the highest priority}}. Finally, inspect the dataset {{following the above order. Plot the cumulative number of observations that have the "success" value as the actual outcome (_y_-axis, labeled "cumulative") against the number of observations inspected (_x_-axis, labeled "# cases") using a curve graph. This is the _lift curve_}}. Also plot {{the _baseline curve_ representing the average performance of all possible classifiers, which is simply a line between the start of the lift curve and the end of the lift curve}}. <!--SR:!2024-10-15,127,290!2024-11-26,153,270!2025-09-02,348,298!2024-09-30,114,270!2024-10-13,125,278!2025-06-25,283,278!2025-01-31,185,270!2025-01-06,168,280!2025-02-23,201,280-->
+To construct a lift chart, first select {{an attribute as the outcome attribute to predict}}. Then, {{choose a possible value of that attribute as "success"}}. The attribute is {{usually discrete, but can be continuous if a "success" value can be defined at an endpoint of the attribute range}}. Then, {{choose a possible value of that attribute as "success". For continuous attributes, this means the closer a datum is to the "success" value, the more "successful" the data is}}. Then have your model {{predict the outcome attribute}}. The prediction outcome is {{usually discrete, but can be continuous if it can be ordered consistent with the discretized attribute, like the prediction outcome is a confidence of the attribute being the "success" value}}. Now order the entire dataset {{according to the predicted outcome, then the actual outcome, and then arbitrarily if there is still a tie. "Success" value must have the highest priority}}. Finally, inspect the dataset {{following the above order. Plot the cumulative number of observations that have the "success" value as the actual outcome (_y_-axis, labeled "cumulative") against the number of observations inspected (_x_-axis, labeled "# cases") using a curve graph. This is the _lift curve_}}. Also plot {{the _baseline curve_ representing the average performance of all possible classifiers, which is simply a line between the start of the lift curve and the end of the lift curve}}. <!--SR:!2024-10-15,127,290!2024-11-26,153,270!2025-09-02,348,298!2025-08-07,311,270!2024-10-13,125,278!2025-06-25,283,278!2025-01-31,185,270!2025-01-06,168,280!2025-02-23,201,280-->
 
 > [!example] examples
 >
 > {{A quick example}} below.
 >
-> ![lift chart example](attachments/Pasted%20image%2020240322145601.png) <!--SR:!2024-09-29,113,270-->
+> ![lift chart example](attachments/Pasted%20image%2020240322145601.png) <!--SR:!2025-11-29,425,290-->
 
 ### decile-wise
 
@@ -37,10 +37,10 @@ To construct a decile-wise lift chart, {{follow the same [instructions above](#c
 >
 > {{A quick example}} below, using the same data as above.
 >
-> ![decile-wise lift chart example](attachments/Pasted%20image%2020240322164126.png) <!--SR:!2024-09-28,114,270-->
+> ![decile-wise lift chart example](attachments/Pasted%20image%2020240322164126.png) <!--SR:!2025-08-05,309,270-->
 
 ## interpretation
 
-For the normal lift chart, the baseline curve represents {{the average lift curve of all possible classifiers}}. Consider {{the area enclosed between the model curve and the baseline curve}}. Treat {{all enclosed areas above the baseline curve as positive and below the baseline curve as negative, which we will call the _signed area_ here}}. Add {{the signed areas together}}. The larger the signed area, {{the better the model at predicting the "success" value, and vice versa}}. <!--SR:!2025-07-09,309,298!2024-11-04,156,310!2024-09-27,115,290!2024-12-07,181,310!2024-11-02,152,310-->
+For the normal lift chart, the baseline curve represents {{the average lift curve of all possible classifiers}}. Consider {{the area enclosed between the model curve and the baseline curve}}. Treat {{all enclosed areas above the baseline curve as positive and below the baseline curve as negative, which we will call the _signed area_ here}}. Add {{the signed areas together}}. The larger the signed area, {{the better the model at predicting the "success" value, and vice versa}}. <!--SR:!2025-07-09,309,298!2024-11-04,156,310!2025-08-29,333,290!2024-12-07,181,310!2024-11-02,152,310-->
 
 For the decile-wise lift chart, the classifier is ideal when {{the bars are maximum starting from the first decile, dropping off suddenly in one of the decile, and then zero for the rest of the deciles}}. <!--SR:!2024-12-17,172,278-->

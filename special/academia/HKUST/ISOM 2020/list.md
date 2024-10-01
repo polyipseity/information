@@ -11,7 +11,7 @@ tags:
 
 A Python list is {{a collection of values, and you can treat it like a collective of variables}}. <!--SR:!2024-11-17,50,294-->
 
-If you try to {{get the type of a list using `type(list)`}}, {{the returned type name is either `list` or `<class 'list'>`}}, regardless of {{the contents contained inside the list}}. <!--SR:!2024-11-14,49,294!2024-11-09,45,294!2024-09-30,16,294-->
+If you try to {{get the type of a list using `type(list)`}}, {{the returned type name is either `list` or `<class 'list'>`}}, regardless of {{the contents contained inside the list}}. <!--SR:!2024-11-14,49,294!2024-11-09,45,294!2024-12-05,66,314-->
 
 ## syntax
 
@@ -19,7 +19,7 @@ To define a list in Python, {{enclose all items in square brackets `[]` and sepa
 
 ## indexing
 
-To {{access or replace the n-th item}}, simply write {{`sequence[n-1]`}}: <!--SR:!2024-11-28,61,314!2024-09-30,16,290-->
+To {{access or replace the n-th item}}, simply write {{`sequence[n-1]`}}: <!--SR:!2024-11-28,61,314!2024-12-02,63,310-->
 
 ```Python
 assert "asd"[2] == "d"
@@ -37,17 +37,17 @@ If {{the index (but not slicing) is out of range (regardless if it is positive o
 
 ## manipulation
 
-You can {{use the [indexing](#indexing) notation to replace the _n_-th item of a list}}. <!--SR:!2024-10-01,17,294-->
+You can {{use the [indexing](#indexing) notation to replace the _n_-th item of a list}}. <!--SR:!2024-12-08,68,314-->
 
-To {{add a new item (not replace existing items) to the back of a list}}, use {{`list.append(value)`}}. Its return value is {{nothing (`None`)}}. <!--SR:!2024-10-23,29,274!2024-09-30,16,294!2024-10-19,25,274-->
+To {{add a new item (not replace existing items) to the back of a list}}, use {{`list.append(value)`}}. Its return value is {{nothing (`None`)}}. <!--SR:!2024-10-23,29,274!2024-12-01,62,314!2024-10-19,25,274-->
 
-To {{remove an the _n_-th existing item}}. use {{`list.pop(index)`, with `index` being _n_ - 1}}. Note that `index` accepts {{numbers in the same ways as in the [indexing](#indexing) notation, i.e. negative indices are accepted and have the same meaning}}. Likewise, if {{the index is out of range}}, then {{an `IndexError` will be raised}}. Not specifying {{the `index` is also okay (`list.pop()`), and `index` will be set to `-1` by default, meaning the last item will be removed}}. After removing the item, it will {{return the removed item}}. <!--SR:!2024-11-08,44,294!2024-10-31,37,294!2024-11-09,44,294!2024-09-30,16,294!2024-10-25,31,294!2024-10-01,17,294!2024-09-29,15,290-->
+To {{remove an the _n_-th existing item}}. use {{`list.pop(index)`, with `index` being _n_ - 1}}. Note that `index` accepts {{numbers in the same ways as in the [indexing](#indexing) notation, i.e. negative indices are accepted and have the same meaning}}. Likewise, if {{the index is out of range}}, then {{an `IndexError` will be raised}}. Not specifying {{the `index` is also okay (`list.pop()`), and `index` will be set to `-1` by default, meaning the last item will be removed}}. After removing the item, it will {{return the removed item}}. <!--SR:!2024-11-08,44,294!2024-10-31,37,294!2024-11-09,44,294!2024-11-30,61,314!2024-10-25,31,294!2024-12-07,67,314!2024-11-28,59,310-->
 
 To {{concatenate/join two lists (or strings)}}, use {{the `+` operator}}. Note that {{the resulting list is different from the original 2 lists, i.e. modifying the resulting list will not modify the original 2 lists}}. Since {{`str`s cannot be modified}}, the above is irrelevant for strings. If {{the `+` operator is applied between different types}}, then {{a `TypeError` will be raised}}. <!--SR:!2024-10-12,18,316!2024-10-12,18,316!2024-10-12,18,316!2024-10-12,18,316!2024-10-12,18,316!2024-10-12,18,316-->
 
 ## length
 
-{{The length (`int`) of a sequence, including but not limited to `list` and `str`}}, can be determined by {{`len(list)` (but not `list.len()`)}}. <!--SR:!2024-11-28,61,314!2024-10-01,17,294-->
+{{The length (`int`) of a sequence, including but not limited to `list` and `str`}}, can be determined by {{`len(list)` (but not `list.len()`)}}. <!--SR:!2024-11-28,61,314!2024-12-06,66,314-->
 
 ## aggregate functions
 

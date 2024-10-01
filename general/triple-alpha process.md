@@ -21,11 +21,11 @@ The __triple-alpha process__ is {{a set of [nuclear fusion](nuclear%20fusion.md)
 Nuclear fusion reaction of two helium-4 nuclei {{produces [beryllium-8](beryllium-8.md), which is highly unstable, and decays back into smaller nuclei}} with {{a half-life of 8.19×10<sup>−17</sup> s}}, unless {{within that time a third alpha particle fuses with the beryllium-8 nucleus to produce an excited [resonance](resonance%20(particle%20physics).md) state of [carbon-12](carbon-12.md), called the [Hoyle state](carbon-12.md#hoyle%20state)}}, which {{nearly always decays back into three alpha particles}}, but {{once in about 2421.3 times releases energy and changes into the stable base form of carbon-12}}. When a star {{runs out of [hydrogen](hydrogen.md) to fuse in its core}}, it {{begins to contract and heat up}}. If the central temperature {{rises to 10<sup>8</sup> K, six times hotter than the Sun's core}}, alpha particles can {{fuse fast enough to get past the beryllium-8 barrier and produce significant amounts of stable carbon-12}}. <!--SR:!2024-10-27,68,310!2024-10-19,39,210!2024-10-30,60,270!2024-10-02,45,290!2024-10-14,46,250!2024-10-25,57,270!2025-01-17,115,290!2024-10-11,55,310!2024-10-17,60,310-->
 
 - 1st step ::: $${}_2^4\mathrm{He} + {}_2^4\mathrm{He} \rightarrow {}_4^8\mathrm{Be} \quad (-0.0918\mathrm{\ MeV})$$ <!--SR:!2025-01-24,120,290!2024-10-16,60,310-->
-  - 1st step / energy release ::: -0.0918 MeV <!--SR:!2024-12-08,83,270!2024-09-30,45,290-->
+  - 1st step / energy release ::: -0.0918 MeV <!--SR:!2024-12-08,83,270!2025-02-04,127,290-->
 - 2nd step ::: $${}_4^8\mathrm{Be} + {}_2^4\mathrm{He} \rightarrow {}_{\phantom{0}6}^{12}\mathrm{C} + 2 \gamma \quad (+7.367\mathrm{\ MeV})$$ <!--SR:!2024-10-07,33,210!2024-12-31,110,290-->
   - 2nd step / energy release ::: +7.367 MeV <!--SR:!2024-10-04,39,250!2024-10-28,49,250-->
 
-The net energy release of the process is {{7.275 MeV}}. <!--SR:!2024-09-29,31,250-->
+The net energy release of the process is {{7.275 MeV}}. <!--SR:!2025-01-15,108,270-->
 
 As a side effect of the process, {{some carbon nuclei fuse with additional helium to produce a stable isotope of oxygen and energy (in the form of 1 gamma ray)}} when {{the temperature rises above 2×10<sup>8</sup> K}}, called {{[_alpha capture_](alpha%20process.md)}}: <!--SR:!2025-01-04,103,290!2024-10-22,64,310!2024-10-03,45,290-->
 

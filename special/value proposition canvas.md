@@ -112,7 +112,7 @@ vagueness: vague jobs, pains, and gains
 - _(begin)_→:::←hyperfocus: focusing on functional jobs only <!--SR:!2025-01-05,146,229!2025-04-22,289,349-->
 - hyperfocus: focusing on functional jobs only→:::←insufficiency: not enough jobs, pains, and gains <!--SR:!2024-10-17,111,249!2025-01-01,163,269-->
 - insufficiency: not enough jobs, pains, and gains→:::←mix: mixing customer segments <!--SR:!2024-11-12,96,189!2024-10-03,9,130-->
-- mix: mixing customer segments→:::←mix: mixing jobs and outcomes <!--SR:!2024-09-29,112,289!2024-10-12,23,229-->
+- mix: mixing customer segments→:::←mix: mixing jobs and outcomes <!--SR:!2025-08-19,323,289!2024-10-12,23,229-->
 - mix: mixing jobs and outcomes→:::←opposite: gains and pains are not opposite, gains are beyond expectation while pains are falling short of expectation <!--SR:!2024-10-24,43,225!2025-05-29,247,285-->
 - opposite: gains and pains are not opposite, gains are beyond expectation while pains are falling short of expectation→:::←reversed: listing jobs, pains, and gains from your product value propositions <!--SR:!2025-01-17,174,269!2024-10-15,20,189-->
 - reversed: listing jobs, pains, and gains from your product value propositions→:::←vagueness: vague jobs, pains, and gains <!--SR:!2024-11-16,72,169!2024-11-05,68,229-->
@@ -159,7 +159,7 @@ mix: mixing products and services with pain relievers and gain creators
 - _(begin)_→:::←all: addressing all customer pains and gains <!--SR:!2024-10-06,108,269!2025-07-05,348,349-->
 - all: addressing all customer pains and gains→:::←irrelevance: listing all products and services without considering the customer segment <!--SR:!2024-12-30,140,229!2024-11-30,73,229-->
 - irrelevance: listing all products and services without considering the customer segment→:::←irrelevance: offer irrelevant pain relievers and gain creators <!--SR:!2024-11-17,76,209!2025-01-06,112,269-->
-- irrelevance: offer irrelevant pain relievers and gain creators→:::←mix: mixing products and services with pain relievers and gain creators <!--SR:!2024-09-27,24,209!2025-01-16,173,269-->
+- irrelevance: offer irrelevant pain relievers and gain creators→:::←mix: mixing products and services with pain relievers and gain creators <!--SR:!2024-12-09,70,229!2025-01-16,173,269-->
 - mix: mixing products and services with pain relievers and gain creators→:::←_(end)_ <!--SR:!2024-10-03,115,289!2024-11-10,56,169-->
 
 <!--/pytextgen-->
@@ -211,11 +211,11 @@ find customer patterns
 <!--pytextgen generate section="49ba"--><!-- The following content is generated at 2024-03-13T22:31:33.738010+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←create a customer profile <!--SR:!2024-10-25,144,309!2025-06-21,335,349-->
-- create a customer profile→:::←outline the interview <!--SR:!2024-12-26,170,289!2024-09-29,114,289-->
+- create a customer profile→:::←outline the interview <!--SR:!2024-12-26,170,289!2025-12-31,457,309-->
 - outline the interview→:::←interview <!--SR:!2025-07-15,353,349!2025-02-20,239,329-->
 - interview→:::←capture new customer profile <!--SR:!2025-04-16,268,309!2025-02-14,230,329-->
 - capture new customer profile→:::←review interview, and repeat from "outline the interview" several times, like 10 times <!--SR:!2025-02-21,207,270!2025-03-25,254,309-->
-- review interview, and repeat from "outline the interview" several times, like 10 times→:::←find customer patterns <!--SR:!2024-09-29,104,269!2025-04-09,262,309-->
+- review interview, and repeat from "outline the interview" several times, like 10 times→:::←find customer patterns <!--SR:!2025-07-06,279,269!2025-04-09,262,309-->
 - find customer patterns→:::←_(end)_ <!--SR:!2025-06-26,339,349!2025-01-10,203,329-->
 
 <!--/pytextgen-->
@@ -259,11 +259,11 @@ conclusion: make progress
 - _(begin)_→:::←hypothesis: extract hypotheses <!--SR:!2025-08-23,359,309!2025-05-08,298,347-->
 - hypothesis: extract hypotheses→:::←hypothesis: prioritize hypotheses <!--SR:!2025-07-29,366,349!2024-11-12,147,309-->
 - hypothesis: prioritize hypotheses→:::←test: design tests <!--SR:!2025-01-02,184,309!2025-02-05,199,270-->
-- test: design tests→:::←test: prioritize tests <!--SR:!2024-09-28,91,309!2025-11-28,450,310-->
+- test: design tests→:::←test: prioritize tests <!--SR:!2025-07-09,282,309!2025-11-28,450,310-->
 - test: prioritize tests→:::←test: run tests <!--SR:!2025-01-18,213,329!2024-11-25,166,310-->
 - test: run tests→:::←conclusion: capture findings <!--SR:!2024-10-17,107,269!2024-10-22,129,309-->
 - conclusion: capture findings→:::←conclusion: make progress <!--SR:!2025-02-09,213,329!2024-10-08,131,309-->
-- conclusion: make progress→:::←_(end)_ <!--SR:!2025-02-14,218,329!2024-10-01,112,270-->
+- conclusion: make progress→:::←_(end)_ <!--SR:!2025-02-14,218,329!2025-07-29,301,270-->
 
 <!--/pytextgen-->
 

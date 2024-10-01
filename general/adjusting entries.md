@@ -11,7 +11,7 @@ tags:
 
 # adjusting entries
 
-In [accounting](accounting.md), __adjusting entries__ are {{[journal](general%20journal.md) entries usually made at the end of an accounting period to allocate [income](income.md) and [expenditure](expense.md) to the period in which they actually occurred}}. {{The [revenue recognition principle](revenue%20recognition.md)}} is {{the basis of making adjusting entries that pertain to unearned and accrued revenues under [accrual-basis accounting](accrual.md)}}. They are sometimes called {{Balance Day adjustments because they are made on balance day}}. <!--SR:!2024-10-02,10,270!2024-10-09,17,290!2024-09-30,8,250!2024-10-01,9,270-->
+In [accounting](accounting.md), __adjusting entries__ are {{[journal](general%20journal.md) entries usually made at the end of an accounting period to allocate [income](income.md) and [expenditure](expense.md) to the period in which they actually occurred}}. {{The [revenue recognition principle](revenue%20recognition.md)}} is {{the basis of making adjusting entries that pertain to unearned and accrued revenues under [accrual-basis accounting](accrual.md)}}. They are sometimes called {{Balance Day adjustments because they are made on balance day}}. <!--SR:!2024-10-02,10,270!2024-10-09,17,290!2024-10-27,27,270!2024-11-05,35,290-->
 
 Based on {{the [matching principle](matching%20principle.md) of [accrual accounting](accrual.md)}}, {{[revenues](revenue.md) and associated [costs](cost.md) are recognized in the same accounting period}}. However {{the actual cash may be received or paid at a different time}}. <!--SR:!2024-10-08,16,290!2024-10-03,11,270!2024-10-06,14,290-->
 
@@ -27,7 +27,7 @@ Most adjusting entries could be classified this way: {{prepaid expenses, accrued
 - prepaid expenses ::: for expenses paid in cash and recorded as assets before they are used <!--SR:!2024-10-09,17,290!2024-10-09,17,290-->
 - accrued expenses ::: for expenses incurred but not yet paid in cash and not yet recorded <!--SR:!2024-10-06,14,290!2024-10-06,14,290-->
 - unearned revenues ::: for revenues received in cash and recorded as liabilities before they are earned <!--SR:!2024-10-07,15,290!2024-10-06,14,290-->
-- accrued revenues ::: for revenues earned but not yet recorded and not yet received in cash <!--SR:!2024-10-01,9,270!2024-10-08,16,290-->
+- accrued revenues ::: for revenues earned but not yet recorded and not yet received in cash <!--SR:!2024-11-02,32,290!2024-10-08,16,290-->
 
 ### prepayments
 
@@ -61,7 +61,7 @@ The unearned revenue after the first month is {{therefore $11 and revenue report
 
 ### accruals
 
-Accrued revenues are {{revenues that have been recognized (that is, services have been performed or goods have been delivered), but their cash payment have not yet been recorded or received}}. When the revenue is recognized, it is recorded as {{a receivable}}. <!--SR:!2024-10-01,9,270!2024-10-05,13,290-->
+Accrued revenues are {{revenues that have been recognized (that is, services have been performed or goods have been delivered), but their cash payment have not yet been recorded or received}}. When the revenue is recognized, it is recorded as {{a receivable}}. <!--SR:!2024-11-08,38,290!2024-10-05,13,290-->
 
 Accrued expenses {{have not yet been paid for, so they are recorded in a payable account}}. {{Expenses for interest, taxes, rent, and salaries}} are commonly accrued for reporting purposes. <!--SR:!2024-10-06,14,290!2024-10-02,10,270-->
 
@@ -69,7 +69,7 @@ Accrued expenses {{have not yet been paid for, so they are recorded in a payable
 
 ### estimates
 
-A third classification of adjusting entry occurs {{where the exact amount of an expense cannot easily be determined}}. {{The [depreciation](depreciation.md) of fixed assets}}, for example, is {{an expense which has to be estimated}}. <!--SR:!2024-10-01,9,270!2024-10-08,16,290!2024-10-08,16,290-->
+A third classification of adjusting entry occurs {{where the exact amount of an expense cannot easily be determined}}. {{The [depreciation](depreciation.md) of fixed assets}}, for example, is {{an expense which has to be estimated}}. <!--SR:!2024-11-03,33,290!2024-10-08,16,290!2024-10-08,16,290-->
 
 The entry for bad debt expense can also be classified as an estimate.
 

@@ -36,7 +36,7 @@ For complex roots, they always come in [complex conjugate](complex%20conjugate.m
 
 Since $y(x)$ is [real-valued](real-valued%20function.md), {{$c_1+c_2$ must be [real](real%20number.md) and $c_1-c_2$ must be [imaginary](imaginary%20number.md) so that $y_1(x)$ and $y_2(x)$ are both [real-valued](real-valued%20function.md). Therefore, $c_1=\frac{C_1}2+i\frac{C_2}2$ and $c_2=\frac{C_1}2-i\frac{C_2}2$ are [complex conjugate](complex%20conjugate.md), where $C_1$ and $C_2$ are arbitrary [reals](real%20number.md). Putting $c_1$ and $c_2$ into the above solution, we obtain a solution without [imaginaries](imaginary%20number.md): $$\begin{aligned}y_1(x)+y_2(x)&=(c_1+c_2)e^{ax}\cos{bx}+i(c_1-c_2)e^{ax}\sin{bx}\\&=C_1e^{ax}\cos{bx}+C_2e^{ax}\sin{b}x\end{aligned}$$}} <!--SR:!2025-11-21,531,310-->
 
-If the complex roots are [repeated](multiplicity%20(mathematics).md#multiplicity%20of%20a%20root%20of%20a%20polynomial.md), {{multiply it by powers of $x$ similar to [repeated real roots](#repeated%20real%20roots)}}. <!--SR:!2024-09-30,235,330-->
+If the complex roots are [repeated](multiplicity%20(mathematics).md#multiplicity%20of%20a%20root%20of%20a%20polynomial.md), {{multiply it by powers of $x$ similar to [repeated real roots](#repeated%20real%20roots)}}. <!--SR:!2027-09-03,1068,350-->
 
 ## see also
 

@@ -18,7 +18,7 @@ Carbon dioxide can be tested using {{calcium compounds or [hydrogencarbonate ind
 
 #### calcium compounds
 
-When carbon dioxide is {{passed into aqueous [calcium hydroxide](calcium%20hydroxide.md) solution}}, {{solid [calcium carbonate](calcium%20carbonate.md) and [water](water.md)}} is formed. {{Formation of white precipitates}} can be observed. When {{excess}} carbon dioxide is passed into the solution, {{calcium carbonate reacts with carbon dioxide and water}} to give {{[calcium hydrogencarbonate](calcium%20hydrogencarbonate.md)}}. {{Dissolution of white precipitates}} can be observed: <!--SR:!2024-09-29,460,230!2025-06-18,597,230!2026-05-29,910,226!2025-07-03,716,266!2026-09-14,1103,266!2026-05-26,1019,266!2026-03-15,720,226-->
+When carbon dioxide is {{passed into aqueous [calcium hydroxide](calcium%20hydroxide.md) solution}}, {{solid [calcium carbonate](calcium%20carbonate.md) and [water](water.md)}} is formed. {{Formation of white precipitates}} can be observed. When {{excess}} carbon dioxide is passed into the solution, {{calcium carbonate reacts with carbon dioxide and water}} to give {{[calcium hydrogencarbonate](calcium%20hydrogencarbonate.md)}}. {{Dissolution of white precipitates}} can be observed: <!--SR:!2028-11-01,1494,250!2025-06-18,597,230!2026-05-29,910,226!2025-07-03,716,266!2026-09-14,1103,266!2026-05-26,1019,266!2026-03-15,720,226-->
 
 > test for carbon dioxide with calcium compouunds
 >

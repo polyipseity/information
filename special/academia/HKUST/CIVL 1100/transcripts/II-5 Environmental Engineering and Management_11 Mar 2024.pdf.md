@@ -97,7 +97,7 @@ return await memorize_seq(
 
 <!--pytextgen generate section="a92d"--><!-- The following content is generated at 2024-06-09T06:29:24.057662+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←(Cap. 311) Air Pollution Control Ordinance <!--SR:!2024-12-31,104,255!2024-09-29,84,355-->
+- _(begin)_→:::←(Cap. 311) Air Pollution Control Ordinance <!--SR:!2024-12-31,104,255!2025-11-13,409,375-->
 - (Cap. 311) Air Pollution Control Ordinance→:::←(Cap. 354) Waste Disposal Ordinance <!--SR:!2024-11-21,84,275!2024-10-08,40,275-->
 - (Cap. 354) Waste Disposal Ordinance→:::←(Cap. 358) Water Pollution Control Ordinance <!--SR:!2024-10-08,29,275!2024-10-20,52,315-->
 - (Cap. 358) Water Pollution Control Ordinance→:::←(Cap. 400) Noise Pollution Control Ordinance <!--SR:!2024-10-31,50,255!2024-10-12,42,255-->
@@ -151,12 +151,12 @@ return await memorize_seq(
 
 <!--pytextgen generate section="ee23"--><!-- The following content is generated at 2024-06-09T06:29:24.079979+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←air sparging <!--SR:!2024-10-02,87,355!2024-10-01,86,355-->
+- _(begin)_→:::←air sparging <!--SR:!2024-10-02,87,355!2025-11-23,418,375-->
 - air sparging→:::←bioremediation <!--SR:!2024-11-22,111,315!2025-02-15,177,335-->
 - bioremediation→:::←catalytic oxidation <!--SR:!2024-11-29,116,315!2025-03-14,197,335-->
 - catalytic oxidation→:::←ex-situ biopile <!--SR:!2025-04-11,197,295!2025-01-14,153,335-->
 - ex-situ biopile→:::←ex-situ solidification or stabilization <!--SR:!2025-03-04,187,335!2025-01-12,153,335-->
-- ex-situ solidification or stabilization→:::←_(end)_ <!--SR:!2024-09-30,85,355!2025-02-09,173,335-->
+- ex-situ solidification or stabilization→:::←_(end)_ <!--SR:!2025-11-17,413,375!2025-02-09,173,335-->
 
 <!--/pytextgen-->
 
@@ -190,7 +190,7 @@ Landfills in Hong Kong
 
 Sustainable Waste Management
 
-- sustainable waste management triangle ::: top: waste avoidance + 3Rs, left: incineration (waste-to-energy), right: landfill (methane (CH<sub>4</sub>) to energy) <!--SR:!2024-09-29,89,290!2024-09-28,88,290-->
+- sustainable waste management triangle ::: top: waste avoidance + 3Rs, left: incineration (waste-to-energy), right: landfill (methane (CH<sub>4</sub>) to energy) <!--SR:!2025-06-14,257,290!2025-09-19,354,310-->
   - sustainable waste management triangle arrows ::: top -> left, right; left -> right <!--SR:!2024-12-17,147,310!2025-02-06,198,310-->
 
 ## page 12
@@ -227,7 +227,7 @@ Environmental Levy Scheme (Plastic Shopping Bags)
 
 - Environmental Levy Scheme ::: scheme to reduce plastic shopping bags <!--SR:!2025-03-28,239,330!2025-02-28,198,310-->
   - Environmental Levy Scheme launch time ::: launched in 2009 <!--SR:!2024-10-05,83,290!2025-04-21,256,330-->
-  - Environmental Levy Scheme coverage ::: 40 registered retailers with ~3100 retail outlets <!--SR:!2024-09-28,85,270!2024-12-16,146,310-->
+  - Environmental Levy Scheme coverage ::: 40 registered retailers with ~3100 retail outlets <!--SR:!2025-08-10,314,290!2024-12-16,146,310-->
   - Environmental Levy Scheme effect ::: -90% from registered retailers after 1 year. -25% in overall plastic bag consumption after covering all retail shops in 2015 <!--SR:!2025-03-07,183,270!2024-12-27,150,290-->
   - Environmental Levy Scheme income ::: HK$25.5 million in 2009 <!--SR:!2025-03-17,191,270!2024-11-08,115,290-->
 
@@ -243,7 +243,7 @@ Hong Kong Harbour Area Treatment Scheme Stage I (HATS)
 
 - Hong Kong Harbour Area Treatment Scheme Stage I ::: HATS Stage 1 <!--SR:!2025-03-26,237,330!2025-04-16,251,330-->
   - HATS Stage 1 scheme period ::: 1994 to 2001 <!--SR:!2024-11-10,117,290!2024-11-16,84,250-->
-  - HATS Stage 1 scheme cost ::: HK$8.2 billion <!--SR:!2024-10-20,101,290!2024-10-01,85,270-->
+  - HATS Stage 1 scheme cost ::: HK$8.2 billion <!--SR:!2024-10-20,101,290!2025-05-18,229,270-->
   - HATS Stage 1 details ::: Stonecutters Island Sewage Treatment Works (SCISTW), sewage tunnel of 23.6 km, upgrade 8 preliminary treatment works (PTWs) <!--SR:!2024-10-10,93,270!2025-02-01,181,310-->
   - HATS Stage 1 geographic coverage ::: collect sewage from Kowloon, Kwai Tsing, Tseung Kwan O, and north-eastern Hong Kong Island to SCISTW <!--SR:!2025-04-15,211,270!2024-12-09,148,310-->
   - HATS Stage 1 coverage in numbers ::: 3.5 million people, 75% from harbour area <!--SR:!2024-11-30,132,290!2025-06-01,248,290-->
@@ -315,7 +315,7 @@ Properties of Sound Waves
 
 Air Pollution: A serious problem in Hong Kong?
 
-- regional air pollution concerns ::: outdoor and indoor air pollution <!--SR:!2024-09-29,94,290!2025-03-04,202,310-->
+- regional air pollution concerns ::: outdoor and indoor air pollution <!--SR:!2025-10-16,381,310!2025-03-04,202,310-->
 - global air pollution concerns ::: acid rain and climate change <!--SR:!2025-05-16,275,330!2025-01-13,168,310-->
 - 3 major reasons causing air pollution in Hong Kong: <https://youtube.com/watch?v=XVvsQyyZHVg&feature=related>
   - industrial activities in China's Pearl River Delta
@@ -348,7 +348,7 @@ Indoor Air Quality
   - common indoor air pollutant examples ::: carbon dioxide (CO<sub>2</sub>), carbon monoxide (CO), respirable suspended particulate (RSP/PM<sub>10</sub>) <!--SR:!2025-04-29,217,270!2025-01-01,157,310-->
     - carbon dioxide limits ::: excellent: < 800 ppmv; good: < 1000 ppmv <!--SR:!2025-05-09,226,270!2024-12-28,153,310-->
     - carbon monoxide limits ::: excellent: < 2000 μg/m<sup>3</sup>, < 1.7 ppmv; good: < 10000 μg/m<sup>3</sup>, < 8.7 ppmv <!--SR:!2024-10-22,28,210!2025-01-17,167,310-->
-    - respirable suspended particulate limits ::: excellent: < 20 μg/m<sup>3</sup>; good: < 180 μg/m<sup>3</sup> <!--SR:!2024-09-27,82,270!2024-10-06,62,270-->
+    - respirable suspended particulate limits ::: excellent: < 20 μg/m<sup>3</sup>; good: < 180 μg/m<sup>3</sup> <!--SR:!2025-05-10,222,270!2024-10-06,62,270-->
 
 ## page 30
 
@@ -392,7 +392,7 @@ return await memorize_seq(
 - carbon dioxide (CO<sub>2</sub>)→:::←hydroflurocarbons (HFCs) <!--SR:!2024-10-09,79,230!2025-05-06,223,270-->
 - hydroflurocarbons (HFCs)→:::←methane (CH<sub>4</sub>) <!--SR:!2024-10-22,99,270!2025-03-10,166,230-->
 - methane (CH<sub>4</sub>)→:::←nitrous oxide (N<sub>2</sub>O) <!--SR:!2024-10-27,91,250!2024-12-09,134,290-->
-- nitrous oxide (N<sub>2</sub>O)→:::←perflurocarbons (PFCs) <!--SR:!2025-01-25,123,230!2024-09-30,13,130-->
+- nitrous oxide (N<sub>2</sub>O)→:::←perflurocarbons (PFCs) <!--SR:!2025-01-25,123,230!2024-10-16,16,130-->
 - perflurocarbons (PFCs)→:::←sulfur hexafluoride (SF<sub>6</sub>) <!--SR:!2024-11-01,70,270!2025-03-13,187,270-->
 - sulfur hexafluoride (SF<sub>6</sub>)→:::←_(end)_ <!--SR:!2025-02-14,186,310!2025-03-30,222,310-->
 

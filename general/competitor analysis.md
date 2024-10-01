@@ -114,7 +114,7 @@ pricing: Find suitable prices catering to different market segment and economies
 
 - _(begin)_→:::←differentiate: Differentiate our products to make it a hit with customers. <!--SR:!2024-12-20,150,301!2024-11-29,137,301-->
 - differentiate: Differentiate our products to make it a hit with customers.→:::←discover: Find holes in existing products. <!--SR:!2025-01-16,154,281!2025-03-27,225,321-->
-- discover: Find holes in existing products.→:::←know ourselves: See if our products are sticky. <!--SR:!2025-01-04,129,221!2024-09-30,49,241-->
+- discover: Find holes in existing products.→:::←know ourselves: See if our products are sticky. <!--SR:!2025-01-04,129,221!2025-01-24,116,241-->
 - know ourselves: See if our products are sticky.→:::←know them: See how big of a threat competitors pose. <!--SR:!2024-12-30,156,301!2025-02-15,196,314-->
 - know them: See how big of a threat competitors pose.→:::←pricing: Find suitable prices catering to different market segment and economies. <!--SR:!2024-11-02,59,241!2024-12-26,140,261-->
 - pricing: Find suitable prices catering to different market segment and economies.→:::←_(end)_ <!--SR:!2025-04-24,264,341!2024-12-30,99,261-->
@@ -170,7 +170,7 @@ number of features
 - price→:::←benefit <!--SR:!2024-11-27,150,314!2025-07-14,290,301-->
 - benefit→:::←quality <!--SR:!2025-02-16,183,274!2024-11-24,134,301-->
 - quality→:::←durability <!--SR:!2024-12-04,68,181!2024-12-31,124,321-->
-- durability→:::←service <!--SR:!2024-12-24,150,301!2024-09-29,32,221-->
+- durability→:::←service <!--SR:!2024-12-24,150,301!2024-12-10,72,221-->
 - service→:::←convenience <!--SR:!2024-10-30,36,181!2024-11-18,75,281-->
 - convenience→:::←ease of use <!--SR:!2024-10-26,103,261!2025-01-10,172,314-->
 - ease of use→:::←number of features <!--SR:!2025-01-26,132,261!2024-10-02,23,234-->

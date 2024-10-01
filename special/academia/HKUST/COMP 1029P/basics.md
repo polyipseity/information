@@ -16,7 +16,7 @@ tags:
 
 ## operators
 
-The operator precedence for the 3 types of operators introduced below is {{[arithmetic operators](#arithmetic%20operators), [comparison operators](#comparison%20operators), and finally [logic operators](#logic%20operators)}}. Note that this only considers operators mentioned below and not any others omitted. <!--SR:!2024-09-29,4,338-->
+The operator precedence for the 3 types of operators introduced below is {{[arithmetic operators](#arithmetic%20operators), [comparison operators](#comparison%20operators), and finally [logic operators](#logic%20operators)}}. Note that this only considers operators mentioned below and not any others omitted. <!--SR:!2024-10-20,20,358-->
 
 ### arithmetic operators
 

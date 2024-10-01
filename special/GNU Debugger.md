@@ -36,7 +36,7 @@ Command names can be {{truncated at the end to produce an abbreviation if the ab
 - `run [<args>...]` ::: run program (with args) <!--SR:!2024-11-14,56,310!2024-11-21,63,310-->
 - `set <storage> = <value>` ::: set storage to value <!--SR:!2024-10-13,19,325!2024-10-13,19,325-->
 - `set args <args>...` ::: set program args <!--SR:!2024-12-05,72,310!2024-11-07,51,310-->
-- `si` ::: go to the next instruction stepping into functions <!--SR:!2024-11-17,60,310!2024-10-01,20,250-->
+- `si` ::: go to the next instruction stepping into functions <!--SR:!2024-11-17,60,310!2024-11-24,54,250-->
 - `starti [<args>...]` ::: start program and stop at its first instruction <!--SR:!2024-12-02,69,310!2024-11-10,47,290-->
 - `step` ::: go to the next (source) line stepping into functions <!--SR:!2024-11-11,54,310!2024-10-18,32,270-->
 - `x/<format> <address>` ::: examine memory at the given address in the given format (see `help x`) <!--SR:!2024-12-03,70,310!2024-11-06,48,290-->
@@ -68,8 +68,8 @@ Command names can be {{truncated at the end to produce an abbreviation if the ab
 
 #### `pwndbg` stack
 
-- `stack <count> <offset>` ::: prints stack data with the specified count and offset <!--SR:!2024-10-13,19,325!2024-09-30,11,285-->
-- `stackf <count> <offset>` ::: prints entire stack frame with the specified count and offset <!--SR:!2024-10-03,14,305!2024-09-29,10,285-->
+- `stack <count> <offset>` ::: prints stack data with the specified count and offset <!--SR:!2024-10-13,19,325!2024-11-12,43,305-->
+- `stackf <count> <offset>` ::: prints entire stack frame with the specified count and offset <!--SR:!2024-10-03,14,305!2024-11-08,39,305-->
 
 ## miscellaneous
 

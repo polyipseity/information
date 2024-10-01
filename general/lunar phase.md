@@ -22,7 +22,7 @@ A __lunar phase__ or __Moon phase__ is {{the apparent shape of the [Moon](Moon.m
 
 The appearance of the [Moon](Moon.md) (its phase) depends on {{the relative orbital positions of the Moon, [Earth](Earth.md), and the [Sun](Sun.md)}}. It gradually {{changes over a [lunar month](lunar%20month.md) as the Moon orbits around Earth and Earth orbits around the Sun}}. Half of the Moon is {{always sunlit (the side facing the Sun), but as the visible side (the side facing the Earth) shifts relative to the sunlit side, so the portion of visible side that is sunlit changes}}, varying from {{0% at [new moon](new%20moon.md) to nearly 100% at [full moon](full%20moon.md)}}. The rotation of Earth {{has only little effect on the phase}} because {{the [lunar distance](lunar%20distance.md) is about 30 times the diameter of Earth, so the perspective of observers on Earth changes only very slightly}}. This partially contributes to {{[lunar libration](libration.md) slightly}}. <!--SR:!2025-02-12,156,310!2025-02-20,174,310!2025-05-31,252,330!2025-04-27,225,330!2025-02-08,147,290!2025-03-29,196,310!2024-10-02,67,310-->
 
-As different [Moon](Moon.md) phases represent {{different relative orbital positions of the Moon relative to [Earth](Earth.md)}}, this also means the corresponding {{moonrise and moonset are at different times of the day}}. In particular, the Moon rises and sets {{about 50 minutes later each day}}. <!--SR:!2025-05-17,244,330!2024-10-01,66,310!2024-10-17,64,285-->
+As different [Moon](Moon.md) phases represent {{different relative orbital positions of the Moon relative to [Earth](Earth.md)}}, this also means the corresponding {{moonrise and moonset are at different times of the day}}. In particular, the Moon rises and sets {{about 50 minutes later each day}}. <!--SR:!2025-05-17,244,330!2025-07-10,282,330!2024-10-17,64,285-->
 
 ## principal and intermediate phases of the Moon
 
@@ -73,7 +73,7 @@ return chain.from_iterable(await gather(
 <!--pytextgen generate section="652a"--><!-- The following content is generated at 2024-07-04T10:16:44.272591+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←[new moon](new%20moon.md) <!--SR:!2025-04-28,226,330!2025-04-15,217,330-->
-- [new moon](new%20moon.md)→:::←waxing [crescent](crescent.md) <!--SR:!2025-05-04,232,330!2024-09-29,64,310-->
+- [new moon](new%20moon.md)→:::←waxing [crescent](crescent.md) <!--SR:!2025-05-04,232,330!2025-07-01,274,330-->
 - waxing [crescent](crescent.md)→:::←first quarter <!--SR:!2024-10-26,32,290!2024-10-04,69,310-->
 - first quarter→:::←waxing gibbous <!--SR:!2025-01-26,152,310!2024-10-28,31,290-->
 - waxing gibbous→:::←[full moon](full%20moon.md) <!--SR:!2025-06-23,273,330!2025-04-16,218,330-->

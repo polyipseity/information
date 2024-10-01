@@ -11,7 +11,7 @@ tags:
 
 # Herbig–Haro object
 
-__Herbig–Haro__(__HH__) __objects__ are {{bright patches of [nebulosity](nebula.md) associated with newborn [stars](star.md)}}. They are formed when {{narrow jets of partially [ionised gas](plasma%20(physics).md) ejected by stars collide with nearby clouds of gas and dust at several hundred kilometers per second}}. <!--SR:!2024-10-15,58,310!2024-09-30,42,290-->
+__Herbig–Haro__(__HH__) __objects__ are {{bright patches of [nebulosity](nebula.md) associated with newborn [stars](star.md)}}. They are formed when {{narrow jets of partially [ionised gas](plasma%20(physics).md) ejected by stars collide with nearby clouds of gas and dust at several hundred kilometers per second}}. <!--SR:!2024-10-15,58,310!2025-03-16,167,310-->
 
 ## formation
 

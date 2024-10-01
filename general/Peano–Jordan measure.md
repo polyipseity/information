@@ -17,7 +17,7 @@ tags:
 
 ## simple sets
 
-Consider {{$n$-dimensional [Euclidean space](Euclidean%20space.md) $\mathbb{R}^n$}}. Jordan measure is first defined on {{_<!-- LaTeX separator -->$n$-dimensional rectangles_ that are [Cartesian products](Cartesian%20product.md) of [bounded](bounded%20set.md) closed-on-the-left open-on-the-right [intervals](interval%20(mathematics).md)}}: <!--SR:!2026-01-13,486,310!2024-09-30,168,310-->
+Consider {{$n$-dimensional [Euclidean space](Euclidean%20space.md) $\mathbb{R}^n$}}. Jordan measure is first defined on {{_<!-- LaTeX separator -->$n$-dimensional rectangles_ that are [Cartesian products](Cartesian%20product.md) of [bounded](bounded%20set.md) closed-on-the-left open-on-the-right [intervals](interval%20(mathematics).md)}}: <!--SR:!2026-01-13,486,310!2026-03-04,520,310-->
 
 $$R := [a_1, b_1) \times [a_2, b_2) \times \cdots \times [a_n, b_n) \qquad a_i, b_i \in \mathbb{R}, a_i < b_i$$
 
@@ -49,7 +49,7 @@ One can show the above definition of Jordan measure for simple set is {{independ
 
 Using the above definition with half-open rectangles, {{notice that a closed rectangle is not a simple set, and neither is a $n$-dimensional ball}}. This shows {{the set of Jordan measurable sets, as currently defined, is very limited}}. <!--SR:!2025-10-11,427,310!2024-11-30,213,310-->
 
-We can extend the above restricted definition by defining {{a bounded set to be _Jordan measurable_ if it is "well-approximated" by simple sets}}. <!--SR:!2024-09-30,180,310-->
+We can extend the above restricted definition by defining {{a bounded set to be _Jordan measurable_ if it is "well-approximated" by simple sets}}. <!--SR:!2026-04-10,557,310-->
 
 Formally, {{for a bounded set $B$, define its _inner Jordan measure_ as the [supremum](infimum%20and%20supremum.md) of simple sets that are subsets of $B$ and _outer Jordan measure_ as the [infimum](infimum%20and%20supremum.md) of simple sets that are supersets of $B$}}: <!--SR:!2025-03-25,280,290-->
 
@@ -62,7 +62,7 @@ m^*(B) := \inf_{S \supseteq B} m(S)
 >
 > {{squeezing a bounded set by simple sets}} <!--SR:!2024-10-27,188,310!2025-03-22,310,363-->
 
-If the inner Jordan measure equals the outer Jordan measure, then {{$B$ is said to be _Jordan measurable_ and its _Jordan measure_ is simply the common value of the inner and outer Jordan measures}}. Then the _Jordan measure_ is {{the [set function](set%20function.md) that maps Jordan measurable sets to their Jordan measures}}. <!--SR:!2024-11-20,222,330!2024-10-01,169,310-->
+If the inner Jordan measure equals the outer Jordan measure, then {{$B$ is said to be _Jordan measurable_ and its _Jordan measure_ is simply the common value of the inner and outer Jordan measures}}. Then the _Jordan measure_ is {{the [set function](set%20function.md) that maps Jordan measurable sets to their Jordan measures}}. <!--SR:!2024-11-20,222,330!2026-09-25,724,330-->
 
 ## references
 
