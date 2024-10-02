@@ -62,7 +62,7 @@ There are {{several instructions that modify the stack memory and the `rsp` and 
 - `pop <dest>` ::: Pop the top of the stack and write it to `<dest>`. This reads a value at the address pointed by `rsp` and increments `rsp`. <!--SR:!2024-10-10,16,290!2024-10-10,16,290-->
 - `call <address>` ::: This pushes (`push`) the `rip` (instruction pointer, pointing to the currently executing instruction) onto the stack, and then jumps (`jmp`) to `<address>`. `<address>`. This is usually used to call a function, in conjunction with `ret`. <!--SR:!2024-10-11,17,290!2024-10-09,15,290-->
 - `ret`::: This pops (`pop`) a value off from the stack and jumps (`jmp`) to it. (Note that this is similar to `pop rip`, but `pop rip` is invalid because `rip` cannot be modified directly.) This is usually used to return from a function, in conjunction with `call`. <!--SR:!2024-10-09,15,290!2024-10-03,9,270-->
-- `leave` ::: This sets `rsp` to `rbp`, effectively clearing the current stack frame. Then it pops (`pop`) a value off from the stack to `rbp`. This effectively restores the previous stack frame (the state right before the current function is called (`call`)). This is usually used to cleanup the stack and registers just before returning from a function (`ret`). <!--SR:!2024-10-02,13,270!2024-10-03,9,270-->
+- `leave` ::: This sets `rsp` to `rbp`, effectively clearing the current stack frame. Then it pops (`pop`) a value off from the stack to `rbp`. This effectively restores the previous stack frame (the state right before the current function is called (`call`)). This is usually used to cleanup the stack and registers just before returning from a function (`ret`). <!--SR:!2024-11-18,47,290!2024-10-03,9,270-->
 
 A related instruction is {{`lea`}}: <!--SR:!2024-10-10,16,290-->
 
@@ -125,14 +125,14 @@ Let's also learn some basic `pwndbg` commands:
 - `down` ::: move down the backtrace or call stack <!--SR:!2024-10-09,15,290!2024-10-07,13,290-->
 - `up` ::: move up the backtrace or call stack <!--SR:!2024-10-08,14,290!2024-10-09,15,290-->
 - `checksec` ::: print the binary security settings <!--SR:!2024-10-09,15,290!2024-10-08,14,290-->
-- `stack <count> <offset>` ::: prints stack data with the specified count and offset <!--SR:!2024-10-10,16,290!2024-10-02,13,270-->
-- `vmmap [<address|name>]` ::: display memory mappings information (filtered binary address or name) <!--SR:!2024-10-10,16,290!2024-10-02,13,270-->
+- `stack <count> <offset>` ::: prints stack data with the specified count and offset <!--SR:!2024-10-10,16,290!2024-11-16,45,290-->
+- `vmmap [<address|name>]` ::: display memory mappings information (filtered binary address or name) <!--SR:!2024-10-10,16,290!2024-11-08,37,270-->
 
 Commands names can be {{truncated at the end to produce an abbreviation if the abbreviation is unambiguous, i.e. there is only exactly one command name starting with the abbreviation}}. For example, `disassemble` can be {{abbreviated to `disass` or the uglier `disassem`}}. <!--SR:!2024-10-09,15,290!2024-10-11,17,290-->
 
 ## buffer overflow
 
-A buffer is {{simply a portion of the memory used to store the data}}. As {{real computers have limited memory}}, the buffer is {{also limited in its size}}. The buffer may be on {{the stack, the heap, read-write segment, read-execute segment, or really anywhere the memory is mapped by the OS}}. A buffer is {{usually contagious, that is, it is a continuous portion of the memory}}, so we can identify a buffer by {{its low (start) address (inclusive) and high (end) address (exclusive)}}. <!--SR:!2024-10-11,17,290!2024-10-02,13,270!2024-10-11,17,290!2024-10-03,9,270!2024-10-08,14,290!2024-10-07,13,290-->
+A buffer is {{simply a portion of the memory used to store the data}}. As {{real computers have limited memory}}, the buffer is {{also limited in its size}}. The buffer may be on {{the stack, the heap, read-write segment, read-execute segment, or really anywhere the memory is mapped by the OS}}. A buffer is {{usually contagious, that is, it is a continuous portion of the memory}}, so we can identify a buffer by {{its low (start) address (inclusive) and high (end) address (exclusive)}}. <!--SR:!2024-10-11,17,290!2024-11-19,48,290!2024-10-11,17,290!2024-10-03,9,270!2024-10-08,14,290!2024-10-07,13,290-->
 
 The buffers we are usually interested in exploiting is {{usually on the first three because we can write to the buffer}}. We will only {{focus on buffers on the stack because they are the easiest to exploit}}. <!--SR:!2024-10-10,16,290!2024-10-09,15,290-->
 

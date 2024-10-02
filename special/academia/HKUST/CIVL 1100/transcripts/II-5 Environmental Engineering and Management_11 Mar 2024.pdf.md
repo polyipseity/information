@@ -102,7 +102,7 @@ return await memorize_seq(
 - (Cap. 354) Waste Disposal Ordinance→:::←(Cap. 358) Water Pollution Control Ordinance <!--SR:!2024-10-08,29,275!2024-10-20,52,315-->
 - (Cap. 358) Water Pollution Control Ordinance→:::←(Cap. 400) Noise Pollution Control Ordinance <!--SR:!2024-10-31,50,255!2024-10-12,42,255-->
 - (Cap. 400) Noise Pollution Control Ordinance→:::←(Cap. 499) Environmental Impact Ordinance <!--SR:!2025-02-06,149,295!2024-11-09,63,295-->
-- (Cap. 499) Environmental Impact Ordinance→:::←_(end)_ <!--SR:!2024-10-02,87,355!2024-10-07,92,355-->
+- (Cap. 499) Environmental Impact Ordinance→:::←_(end)_ <!--SR:!2025-11-29,423,375!2024-10-07,92,355-->
 
 <!--/pytextgen-->
 
@@ -151,7 +151,7 @@ return await memorize_seq(
 
 <!--pytextgen generate section="ee23"--><!-- The following content is generated at 2024-06-09T06:29:24.079979+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←air sparging <!--SR:!2024-10-02,87,355!2025-11-23,418,375-->
+- _(begin)_→:::←air sparging <!--SR:!2025-08-08,310,355!2025-11-23,418,375-->
 - air sparging→:::←bioremediation <!--SR:!2024-11-22,111,315!2025-02-15,177,335-->
 - bioremediation→:::←catalytic oxidation <!--SR:!2024-11-29,116,315!2025-03-14,197,335-->
 - catalytic oxidation→:::←ex-situ biopile <!--SR:!2025-04-11,197,295!2025-01-14,153,335-->

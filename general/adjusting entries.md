@@ -11,7 +11,7 @@ tags:
 
 # adjusting entries
 
-In [accounting](accounting.md), __adjusting entries__ are {{[journal](general%20journal.md) entries usually made at the end of an accounting period to allocate [income](income.md) and [expenditure](expense.md) to the period in which they actually occurred}}. {{The [revenue recognition principle](revenue%20recognition.md)}} is {{the basis of making adjusting entries that pertain to unearned and accrued revenues under [accrual-basis accounting](accrual.md)}}. They are sometimes called {{Balance Day adjustments because they are made on balance day}}. <!--SR:!2024-10-02,10,270!2024-10-09,17,290!2024-10-27,27,270!2024-11-05,35,290-->
+In [accounting](accounting.md), __adjusting entries__ are {{[journal](general%20journal.md) entries usually made at the end of an accounting period to allocate [income](income.md) and [expenditure](expense.md) to the period in which they actually occurred}}. {{The [revenue recognition principle](revenue%20recognition.md)}} is {{the basis of making adjusting entries that pertain to unearned and accrued revenues under [accrual-basis accounting](accrual.md)}}. They are sometimes called {{Balance Day adjustments because they are made on balance day}}. <!--SR:!2024-10-31,29,270!2024-10-09,17,290!2024-10-27,27,270!2024-11-05,35,290-->
 
 Based on {{the [matching principle](matching%20principle.md) of [accrual accounting](accrual.md)}}, {{[revenues](revenue.md) and associated [costs](cost.md) are recognized in the same accounting period}}. However {{the actual cash may be received or paid at a different time}}. <!--SR:!2024-10-08,16,290!2024-10-03,11,270!2024-10-06,14,290-->
 
@@ -31,7 +31,7 @@ Most adjusting entries could be classified this way: {{prepaid expenses, accrued
 
 ### prepayments
 
-{{Adjusting entries for prepayments}} are necessary to {{account for cash that has been received prior to delivery of goods or completion of services}}. When {{this cash is paid, it is first recorded in a prepaid expense asset account}}; the account is {{to be expensed either with the passage of time (e.g. rent, insurance) or through use and consumption (e.g. supplies)}}. <!--SR:!2024-10-06,14,290!2024-10-04,12,270!2024-10-02,10,270!2024-10-05,13,290-->
+{{Adjusting entries for prepayments}} are necessary to {{account for cash that has been received prior to delivery of goods or completion of services}}. When {{this cash is paid, it is first recorded in a prepaid expense asset account}}; the account is {{to be expensed either with the passage of time (e.g. rent, insurance) or through use and consumption (e.g. supplies)}}. <!--SR:!2024-10-06,14,290!2024-10-04,12,270!2024-10-28,26,270!2024-10-05,13,290-->
 
 {{A company receiving the cash for benefits yet to be delivered}} will have to {{record the amount in an unearned revenue [liability](liability%20(financial%20accounting).md) account}}. Then, {{an adjusting entry to recognize the revenue is used as necessary}}. <!--SR:!2024-10-04,12,270!2024-10-09,17,290!2024-10-07,15,290-->
 
@@ -63,7 +63,7 @@ The unearned revenue after the first month is {{therefore $11 and revenue report
 
 Accrued revenues are {{revenues that have been recognized (that is, services have been performed or goods have been delivered), but their cash payment have not yet been recorded or received}}. When the revenue is recognized, it is recorded as {{a receivable}}. <!--SR:!2024-11-08,38,290!2024-10-05,13,290-->
 
-Accrued expenses {{have not yet been paid for, so they are recorded in a payable account}}. {{Expenses for interest, taxes, rent, and salaries}} are commonly accrued for reporting purposes. <!--SR:!2024-10-06,14,290!2024-10-02,10,270-->
+Accrued expenses {{have not yet been paid for, so they are recorded in a payable account}}. {{Expenses for interest, taxes, rent, and salaries}} are commonly accrued for reporting purposes. <!--SR:!2024-10-06,14,290!2024-11-10,39,290-->
 
 {{An income which has been earned but it has not been received yet during the accounting period}}, like {{rent, interest on investments, commission etc.}} are examples of accrued income. <!--SR:!2024-10-05,13,290!2024-10-05,13,290-->
 
@@ -75,7 +75,7 @@ The entry for bad debt expense can also be classified as an estimate.
 
 ### inventory
 
-In {{a periodic [inventory](inventory.md) system}}, an adjusting entry is used to {{determine the [cost of goods sold](cost%20of%20goods%20sold.md) expense}}. This entry is {{not necessary for a company using [perpetual inventory](perpetual%20inventory.md)}}. <!--SR:!2024-10-02,10,270!2024-10-02,10,270!2024-10-03,11,270-->
+In {{a periodic [inventory](inventory.md) system}}, an adjusting entry is used to {{determine the [cost of goods sold](cost%20of%20goods%20sold.md) expense}}. This entry is {{not necessary for a company using [perpetual inventory](perpetual%20inventory.md)}}. <!--SR:!2024-11-09,38,290!2024-10-28,26,270!2024-10-03,11,270-->
 
 ## see also
 

@@ -16,7 +16,7 @@ tags:
 # import ../../tools/utility.py.md
 ```
 
-__Titration__ is {{[quantitative](quantitative%20research.md) [chemical method](analytical%20chemistry.md) to determine the [concentration](concentration.md) of an [analyte](analyte.md)}}. <!--SR:!2024-10-02,376,270-->
+__Titration__ is {{[quantitative](quantitative%20research.md) [chemical method](analytical%20chemistry.md) to determine the [concentration](concentration.md) of an [analyte](analyte.md)}}. <!--SR:!2027-07-13,1014,270-->
 
 ## types
 

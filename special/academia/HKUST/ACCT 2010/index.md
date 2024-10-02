@@ -122,7 +122,7 @@ The content is in teaching order.
 - [financial transaction](../../../../general/financial%20transaction.md)
   - [financial transaction](../../../../general/financial%20transaction.md) / steps to record ::: Identify accounts affected. Determine the directions (debit or credit) of the impact. Verify if the accounting equation is still satisfied afterwards. <!--SR:!2024-10-12,18,314!2024-10-12,18,314-->
   - [financial transaction](../../../../general/financial%20transaction.md) / steps to record for companies ::: Analyze transactions. Record them as journal entries in a general journal. Post the amounts to a general ledger. Verify if the accounting equation is still satisfied afterwards. <!--SR:!2024-10-12,18,314!2024-10-04,10,294-->
-- [general journal](../../../../general/general%20journal.md) ::: a log of all transactions affecting any account (within a reporting period); in manual processing, there may be other special journals for specific transactions, then transactions in those journals will not be in the general journal <!--SR:!2024-10-11,17,314!2024-10-02,8,274-->
+- [general journal](../../../../general/general%20journal.md) ::: a log of all transactions affecting any account (within a reporting period); in manual processing, there may be other special journals for specific transactions, then transactions in those journals will not be in the general journal <!--SR:!2024-10-11,17,314!2024-10-26,24,274-->
   - [§ general journal](../../../../general/general%20journal.md#general%20journal)
 - [general ledger](../../../../general/general%20ledger.md) ::: a collection of several logs, with a log for each account, showing the changes in the account amount <!--SR:!2024-10-04,10,294!2024-10-05,11,294-->
   - [§ general ledger](../../../../general/general%20ledger.md#general%20ledger)
@@ -142,7 +142,7 @@ The content is in teaching order.
 - [financial statement analysis](../../../../general/financial%20statement%20analysis.md) ::: analyzing a company's financial statements to make better economic decisions, commonly using financial ratios <!--SR:!2024-10-12,18,314!2024-10-03,9,294-->
   - [§ financial statement analysis](../../../../general/financial%20statement%20analysis.md#financial%20statement%20analysis)
   - [§ financial ratio analysis](../../../../general/financial%20statement%20analysis.md#financial%20ratio%20analysis) ::: ratios that show the relationship between two financial variables <!--SR:!2024-10-12,18,314!2024-10-04,10,294-->
-  - [financial statement analysis](../../../../general/financial%20statement%20analysis.md) / time series ::: analyze over time to see if an entity is getting better or worse, i.e. trend analysis <!--SR:!2024-10-02,8,274!2024-10-12,18,314-->
+  - [financial statement analysis](../../../../general/financial%20statement%20analysis.md) / time series ::: analyze over time to see if an entity is getting better or worse, i.e. trend analysis <!--SR:!2024-10-23,21,274!2024-10-12,18,314-->
   - [financial statement analysis](../../../../general/financial%20statement%20analysis.md) / cross sectional ::: analyze at a single point of time across competitors to see if an entity is better or worse than others, i.e. relative strength <!--SR:!2024-10-03,9,294!2024-10-12,18,314-->
 - [current ratio](../../../../general/current%20ratio.md) ::: an liquidity ratio that measures whether a firm has enough resources to meet its short-term obligations <!--SR:!2024-10-12,18,314!2024-10-10,16,314-->
   - [§ current ratio](../../../../general/current%20ratio.md#current%20ratio)

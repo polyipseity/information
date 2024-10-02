@@ -173,7 +173,7 @@ number of features
 - durability→:::←service <!--SR:!2024-12-24,150,301!2024-12-10,72,221-->
 - service→:::←convenience <!--SR:!2024-10-30,36,181!2024-11-18,75,281-->
 - convenience→:::←ease of use <!--SR:!2024-10-26,103,261!2025-01-10,172,314-->
-- ease of use→:::←number of features <!--SR:!2025-01-26,132,261!2024-10-02,23,234-->
+- ease of use→:::←number of features <!--SR:!2025-01-26,132,261!2024-11-26,55,234-->
 - number of features→:::←_(least important)_ <!--SR:!2025-06-03,299,334!2025-06-29,318,341-->
 
 <!--/pytextgen-->

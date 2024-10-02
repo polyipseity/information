@@ -40,7 +40,7 @@ The content is in teaching order.
 - hard skills, soft skills ::: Many jobs typically require a combination of them. <!--SR:!2024-10-09,15,290!2024-10-09,15,290-->
   - hard skills ::: Skills acquired through formal education and training programs. <!--SR:!2024-10-10,16,290!2024-10-07,13,290-->
   - soft skills ::: Skills that promote productivity, efficiency, effective communication, etc. <!--SR:!2024-10-11,17,290!2024-10-08,14,290-->
-- How many jobs should you include on your resume? ::: all of your previous jobs <!--SR:!2024-10-02,13,270!2024-10-07,13,290-->
+- How many jobs should you include on your resume? ::: all of your previous jobs <!--SR:!2024-11-19,48,290!2024-10-07,13,290-->
 - [name tag](../../../name%20tag.md)
   - For easy reading, one’s name badge should be worn... ::: ... on the right chest near shoulder. <!--SR:!2024-10-11,17,290!2024-10-11,17,290-->
 
@@ -148,7 +148,7 @@ The content is in teaching order.
 - topic: Interview (I): Interview Like a PRO
 - first impressions ::: Interviewers are busy people and likely make generalizations. <!--SR:!2024-10-11,17,290!2024-10-07,13,290-->
 - video interview
-  - video interview notes ::: cheatsheets stuck on screen (be aware of glasses reflection), correct angle, natural eye contact, smile <!--SR:!2024-10-10,16,290!2024-10-02,13,270-->
+  - video interview notes ::: cheatsheets stuck on screen (be aware of glasses reflection), correct angle, natural eye contact, smile <!--SR:!2024-10-10,16,290!2024-11-18,47,290-->
 - self-introduction
 - interview questions
 - Any questions? ::: Try to ask a question if you really do not have any to show that you care. <!--SR:!2024-10-07,13,290!2024-10-11,17,290-->

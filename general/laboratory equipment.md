@@ -145,7 +145,7 @@ return _chain.from_iterable(await _gather(
 - [Liebig condenser](Liebig%20condenser.md)→:::←[beaker](beaker.md) <!--SR:!2025-06-11,595,310!2028-01-26,1368,350-->
 - [beaker](beaker.md)→:::←[burette](burette.md) <!--SR:!2024-11-29,141,210!2026-11-03,942,330-->
 - [burette](burette.md)→:::←[burette clamp](burette%20clamp.md) <!--SR:!2025-11-30,444,310!2027-05-07,1162,350-->
-- [burette clamp](burette%20clamp.md)→:::←[clamp](clamp.md) <!--SR:!2024-10-02,152,310!2024-11-11,164,310-->
+- [burette clamp](burette%20clamp.md)→:::←[clamp](clamp.md) <!--SR:!2026-01-15,470,310!2024-11-11,164,310-->
 - [clamp](clamp.md)→:::←[conical flask/Erlenmeyer flask/titration flask](Erlenmeyer%20flask.md) <!--SR:!2026-02-06,623,250!2024-11-09,43,190-->
 - [conical flask/Erlenmeyer flask/titration flask](Erlenmeyer%20flask.md)→:::←[crucible](crucible.md) <!--SR:!2025-04-10,231,150!2026-08-16,782,270-->
 - [crucible](crucible.md)→:::←[crucible tongs](crucible%20tongs.md) <!--SR:!2026-09-07,902,330!2027-08-07,1237,350-->
@@ -176,7 +176,7 @@ return _chain.from_iterable(await _gather(
 - [test tube holder](test%20tube%20holder.md)→:::←[test tube rack](test%20tube%20rack.md) <!--SR:!2027-06-05,1029,290!2025-01-07,428,290-->
 - [test tube rack](test%20tube%20rack.md)→:::←[thermometer](thermometer.md) <!--SR:!2024-10-05,10,130!2024-11-01,133,210-->
 - [thermometer](thermometer.md)→:::←[tripod](tripod.md) <!--SR:!2025-05-10,354,270!2027-06-03,1008,290-->
-- [tripod](tripod.md)→:::←[volumetric flask](volumetric%20flask.md) <!--SR:!2024-10-02,15,130!2025-04-05,511,310-->
+- [tripod](tripod.md)→:::←[volumetric flask](volumetric%20flask.md) <!--SR:!2024-10-21,19,130!2025-04-05,511,310-->
 - [volumetric flask](volumetric%20flask.md)→:::←[volumetric pipette/bulb pipette/belly pipette](volumetric%20pipette.md) <!--SR:!2024-12-19,123,230!2025-07-22,447,270-->
 - [volumetric pipette/bulb pipette/belly pipette](volumetric%20pipette.md)→:::←[wash bottle](wash%20bottle.md) <!--SR:!2027-07-31,1052,290!2024-12-08,401,270-->
 - [wash bottle](wash%20bottle.md)→:::←[watch glass](watch%20glass.md) <!--SR:!2026-03-12,682,270!2025-03-01,272,250-->
