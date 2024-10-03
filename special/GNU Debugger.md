@@ -45,7 +45,7 @@ Command names can be {{truncated at the end to produce an abbreviation if the ab
 
 - `rc` ::: reverse continue <!--SR:!2024-10-13,19,325!2024-10-13,19,325-->
 - `record` ::: record execution of every instruction; can make the process run slowly <!--SR:!2024-10-04,10,305!2024-10-13,19,325-->
-- `rn` ::: rewind to the previous (source) line <!--SR:!2024-10-13,19,325!2024-10-03,14,305-->
+- `rn` ::: rewind to the previous (source) line <!--SR:!2024-10-13,19,325!2024-11-30,58,325-->
 - `rni` ::: rewind to the previous instruction <!--SR:!2024-10-13,19,325!2024-10-13,19,325-->
 - `rs` ::: rewind to the previous (source) line stepping into functions <!--SR:!2024-10-04,10,305!2024-10-12,18,325-->
 - `rsi` ::: rewind to the previous instruction stepping into functions <!--SR:!2024-10-06,12,305!2024-10-13,19,325-->
@@ -69,7 +69,7 @@ Command names can be {{truncated at the end to produce an abbreviation if the ab
 #### `pwndbg` stack
 
 - `stack <count> <offset>` ::: prints stack data with the specified count and offset <!--SR:!2024-10-13,19,325!2024-11-12,43,305-->
-- `stackf <count> <offset>` ::: prints entire stack frame with the specified count and offset <!--SR:!2024-10-03,14,305!2024-11-08,39,305-->
+- `stackf <count> <offset>` ::: prints entire stack frame with the specified count and offset <!--SR:!2024-11-18,46,305!2024-11-08,39,305-->
 
 ## miscellaneous
 

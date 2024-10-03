@@ -23,7 +23,7 @@ The merges and splits are {{usually [greedy](greedy%20algorithm.md)}}. The resul
 
 To determine the distance between two observations, {{a _[metric](metric%20(mathematics).md)_, usually the [Euclidean distance](Euclidean%20distance.md)}} is needed. To decide how to merge or split clusters, {{a measure of _dissimilarity_ between clusters}} is required. The metric is {{insufficient, and a linkage criterion is also needed, which specifies the _dissimilarity_ of clusters as a function of the pairwise distances of observations in the clusters, or a function of the properties of the clusters before being combined}}. <!--SR:!2025-04-25,291,335!2024-11-06,155,315!2025-08-01,324,295-->
 
-Both the choice of the metric and the linkage criterion {{affects the clustering results significantly}}. The metric affects {{which observations are similar}} more, while the linkage affects {{the cluster shapes}} more. <!--SR:!2024-10-29,135,295!2024-10-03,126,295!2025-06-01,321,335-->
+Both the choice of the metric and the linkage criterion {{affects the clustering results significantly}}. The metric affects {{which observations are similar}} more, while the linkage affects {{the cluster shapes}} more. <!--SR:!2024-10-29,135,295!2026-03-02,515,315!2025-06-01,321,335-->
 
 Some commonly used linkage criterion given two clusters _A_ and _B_ and a _[distance](distance.md)_ function $d$ are:
 

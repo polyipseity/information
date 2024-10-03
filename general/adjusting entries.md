@@ -13,7 +13,7 @@ tags:
 
 In [accounting](accounting.md), __adjusting entries__ are {{[journal](general%20journal.md) entries usually made at the end of an accounting period to allocate [income](income.md) and [expenditure](expense.md) to the period in which they actually occurred}}. {{The [revenue recognition principle](revenue%20recognition.md)}} is {{the basis of making adjusting entries that pertain to unearned and accrued revenues under [accrual-basis accounting](accrual.md)}}. They are sometimes called {{Balance Day adjustments because they are made on balance day}}. <!--SR:!2024-10-31,29,270!2024-10-09,17,290!2024-10-27,27,270!2024-11-05,35,290-->
 
-Based on {{the [matching principle](matching%20principle.md) of [accrual accounting](accrual.md)}}, {{[revenues](revenue.md) and associated [costs](cost.md) are recognized in the same accounting period}}. However {{the actual cash may be received or paid at a different time}}. <!--SR:!2024-10-08,16,290!2024-10-03,11,270!2024-10-06,14,290-->
+Based on {{the [matching principle](matching%20principle.md) of [accrual accounting](accrual.md)}}, {{[revenues](revenue.md) and associated [costs](cost.md) are recognized in the same accounting period}}. However {{the actual cash may be received or paid at a different time}}. <!--SR:!2024-10-08,16,290!2024-11-17,45,290!2024-10-06,14,290-->
 
 ## types of adjusting entries
 
@@ -75,7 +75,7 @@ The entry for bad debt expense can also be classified as an estimate.
 
 ### inventory
 
-In {{a periodic [inventory](inventory.md) system}}, an adjusting entry is used to {{determine the [cost of goods sold](cost%20of%20goods%20sold.md) expense}}. This entry is {{not necessary for a company using [perpetual inventory](perpetual%20inventory.md)}}. <!--SR:!2024-11-09,38,290!2024-10-28,26,270!2024-10-03,11,270-->
+In {{a periodic [inventory](inventory.md) system}}, an adjusting entry is used to {{determine the [cost of goods sold](cost%20of%20goods%20sold.md) expense}}. This entry is {{not necessary for a company using [perpetual inventory](perpetual%20inventory.md)}}. <!--SR:!2024-11-09,38,290!2024-10-28,26,270!2024-11-16,44,290-->
 
 ## see also
 

@@ -34,7 +34,7 @@ This cycle is now understood as {{being the first part of a larger process, the 
 - 2nd step ::: $${}_{\phantom{0}7}^{13}\mathrm{N} \rightarrow {}_{\phantom{0}6}^{13}\mathrm{C} + \mathrm{e}^+ + \nu_{\mathrm{e} } + 1.20~\mathrm{MeV} \quad (\text{half life of 9.965 minutes})$$ <!--SR:!2024-10-05,26,190!2024-10-20,62,310-->
   - 2nd step / energy release (& half-life if available) ::: 1.20 Mev, 9.965 minutes <!--SR:!2024-10-13,18,170!2025-01-13,111,290-->
 - 3rd step ::: $${}_{\phantom{0}6}^{13}\mathrm{C} + {}_1^1\mathrm{H} \rightarrow {}_{\phantom{0}7}^{14}\mathrm{N} + \gamma + 7.54~\mathrm{MeV}$$ <!--SR:!2024-11-19,71,270!2024-10-14,57,310-->
-  - 3rd step / energy release (& half-life if available) ::: 7.54 MeV <!--SR:!2024-12-06,85,270!2024-10-03,36,250-->
+  - 3rd step / energy release (& half-life if available) ::: 7.54 MeV <!--SR:!2024-12-06,85,270!2025-02-05,125,270-->
 - 4th step ::: $${}_{\phantom{0}7}^{14}\mathrm{N} + {}_1^1\mathrm{H} \rightarrow {}_{\phantom{0}8}^{15}\mathrm{O} + \gamma + 7.35~\mathrm{MeV}$$ <!--SR:!2024-10-05,33,230!2024-10-21,63,310-->
   - 4th step / energy release (& half-life if available) ::: 7.35 MeV <!--SR:!2024-10-06,40,250!2024-12-30,99,270-->
 - 5th step ::: $${}_{\phantom{0}8}^{15}\mathrm{O} \rightarrow {}_{\phantom{0}7}^{15}\mathrm{N} + \mathrm{e}^+ + \nu_{\mathrm{e} } + 1.73~\mathrm{MeV} \quad (\text{half life of 122.24 seconds})$$ <!--SR:!2024-10-18,48,250!2024-12-19,100,290-->
@@ -42,7 +42,7 @@ This cycle is now understood as {{being the first part of a larger process, the 
 - 6th step ::: $${}_{\phantom{0}7}^{15}\mathrm{N} + {}_1^1\mathrm{H} \rightarrow {}_{\phantom{0}6}^{12}\mathrm{C} + {}_2^4\mathrm{He} + 4.96~\mathrm{MeV}$$ <!--SR:!2024-10-23,44,230!2024-10-25,66,310-->
   - 6th step / energy release (& half-life if available) ::: 4.96 MeV <!--SR:!2025-01-25,130,290!2024-10-22,64,310-->
 
-...where {{the carbon-12 nucleus used in the first reaction is regenerated in the last reaction}}. After {{the two [positrons emitted](positron%20emission.md) [annihilate](annihilation.md) with two ambient electrons producing an additional 2.04 MeV}}, the total energy released in one cycle is {{26.73 MeV}}. <!--SR:!2024-10-03,45,290!2025-01-15,113,270!2024-11-28,85,290-->
+...where {{the carbon-12 nucleus used in the first reaction is regenerated in the last reaction}}. After {{the two [positrons emitted](positron%20emission.md) [annihilate](annihilation.md) with two ambient electrons producing an additional 2.04 MeV}}, the total energy released in one cycle is {{26.73 MeV}}. <!--SR:!2025-04-01,180,310!2025-01-15,113,270!2024-11-28,85,290-->
 
 ## references
 

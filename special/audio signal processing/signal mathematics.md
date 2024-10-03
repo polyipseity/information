@@ -15,7 +15,7 @@ tags:
 
 - see: [general/sine wave](../../general/sine%20wave.md)
 
-{{A continuous [sine wave](../../general/sine%20wave.md)}} (cosine in the below equation) in its most general form has the equation: <!--SR:!2024-10-03,52,310-->
+{{A continuous [sine wave](../../general/sine%20wave.md)}} (cosine in the below equation) in its most general form has the equation: <!--SR:!2025-05-09,218,330-->
 
 > __continuous (co)sine wave__
 >
@@ -27,7 +27,7 @@ tags:
 >   - $k$ is {{angular wavenumber or angular spatial frequency}}.
 >   - $\omega$ is {{angular frequency, which equals 2 pi times normal (linear) frequency $\omega = 2\pi f$}}.
 >   - $\phi$ is {{initial phase offset}}.
->   - $D$ is {{equilibrium offset}}. <!--SR:!2025-01-30,129,290!2024-10-03,52,310!2024-10-10,59,310!2024-10-15,64,310!2024-10-04,53,310!2024-10-05,54,310!2024-10-16,65,310-->
+>   - $D$ is {{equilibrium offset}}. <!--SR:!2025-01-30,129,290!2025-05-13,222,330!2024-10-10,59,310!2024-10-15,64,310!2024-10-04,53,310!2024-10-05,54,310!2024-10-16,65,310-->
 
 In signal processing, apart from analog signals (continuous signals), we also deal with {{digital signals (discrete signals)}}. In that case, usually {{the time is discretized}}. So the equation becomes: <!--SR:!2024-10-08,57,310!2024-10-15,64,310-->
 
@@ -42,7 +42,7 @@ In signal processing, apart from analog signals (continuous signals), we also de
 >   - $k$ is {{angular wavenumber or angular spatial frequency}}.
 >   - $\omega$ is {{angular frequency, which equals 2 pi times normal (linear) frequency $\omega = 2\pi f$}}.
 >   - $\phi$ is {{initial phase offset}}.
->   - $D$ is {{equilibrium offset}}. <!--SR:!2024-10-05,54,310!2024-10-21,68,310!2024-10-19,66,310!2024-10-06,55,310!2024-10-20,67,310!2024-10-03,52,310!2024-10-04,53,310!2025-03-16,174,310-->
+>   - $D$ is {{equilibrium offset}}. <!--SR:!2024-10-05,54,310!2024-10-21,68,310!2024-10-19,66,310!2024-10-06,55,310!2024-10-20,67,310!2025-05-12,221,330!2024-10-04,53,310!2025-03-16,174,310-->
 
 For the two equations above, we will ignore {{the $kx$ term and the $\pm$ operator as we care about time more}}. <!--SR:!2024-10-20,67,310-->
 
@@ -64,7 +64,7 @@ The numbers (with decimals) we are familiar are {{the _real numbers_}}. Now, we 
 
 With the point on a 2D plane visualization in mind, we call the $a + bj$ form {{the _rectangular form_, because the coordinates specify a rectangle from the origin to the 2D point}}. An alternative form is {{the _polar form_ $(A, \phi)$, where $A$ is the distance from the origin to the 2D point and $\phi$ is the angle formed with the right direction, increasing counterclockwise}}. <!--SR:!2024-10-10,59,310!2024-10-21,68,310-->
 
-We can {{convert}} in between rectangular form and polar form. From rectangular form to polar form: {{$$(A, \phi) = \left( \sqrt{a^2 + b^2}, \operatorname{atan2}\left(b, a\right) \right)$$}}, where [`atan2`](../../general/atan2.md) produces the angle formed with the right direction, constrained between {{$(-\pi, \pi]$}}, and is defined as: {{$$\operatorname{atan2}(y, x) = \begin{cases} \arctan\left(\frac y x \right) & \text{if }x > 0 \\ \arctan\left(\frac y x \right) + \pi & \text{if }x < 0\text{ and }y \ge 0 \\ \arctan\left(\frac y x \right) - \pi & \text{if }x < 0\text{ and }y < 0 \\ \text{(3 special values omitted; use intuition)} & \text{otherwise} \end{cases}$$}}. From polar form to rectangular form: {{$$a + bj = A \cos \phi + j A \sin \phi$$}}. <!--SR:!2024-10-09,58,310!2024-10-07,56,310!2024-10-07,56,310!2024-12-03,66,210!2024-10-03,52,310-->
+We can {{convert}} in between rectangular form and polar form. From rectangular form to polar form: {{$$(A, \phi) = \left( \sqrt{a^2 + b^2}, \operatorname{atan2}\left(b, a\right) \right)$$}}, where [`atan2`](../../general/atan2.md) produces the angle formed with the right direction, constrained between {{$(-\pi, \pi]$}}, and is defined as: {{$$\operatorname{atan2}(y, x) = \begin{cases} \arctan\left(\frac y x \right) & \text{if }x > 0 \\ \arctan\left(\frac y x \right) + \pi & \text{if }x < 0\text{ and }y \ge 0 \\ \arctan\left(\frac y x \right) - \pi & \text{if }x < 0\text{ and }y < 0 \\ \text{(3 special values omitted; use intuition)} & \text{otherwise} \end{cases}$$}}. From polar form to rectangular form: {{$$a + bj = A \cos \phi + j A \sin \phi$$}}. <!--SR:!2024-10-09,58,310!2024-10-07,56,310!2024-10-07,56,310!2024-12-03,66,210!2025-05-11,220,330-->
 
 ## Euler's formula
 

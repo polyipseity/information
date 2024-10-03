@@ -79,7 +79,7 @@ We know that $\sqrt p$ is irrational from [above](#irrationality%20of%20square%2
 
 We say a natural number $n$ is prime if $\ge 2$ and it is impossible to write $n = a \cdot b$ where $1 < a, b < n$. Prove that {{every natural number $n \ge 2$ can be written as a product of prime numbers}}. <!--SR:!2024-12-16,75,320-->
 
-- strategy ::: It is easier to prove this using contradiction than using induction. <!--SR:!2024-10-18,17,280!2024-10-03,7,260-->
+- strategy ::: It is easier to prove this using contradiction than using induction. <!--SR:!2024-10-18,17,280!2024-10-29,26,280-->
 
 1. assumption ::: Assume there exists a nonempty set of natural number not less than 2 $A$ that cannot be written as a product of prime numbers. Then by the well-ordering principle, there exists a least natural number $n \ge 2$ that cannot be written as a product of prime numbers. <!--SR:!2024-10-21,28,280!2024-11-28,57,300-->
 2. construction ::: $n \ge 2$ is either prime or composite. If $n$ is a prime, then it is a product of itself, a prime number. So $n$ cannot be prime and is composite. Then there exists two natural numbers $1 < a, b < n$ such that $n = a \cdot b$. $a, b$ are both smaller than $n$, so they must not belong to $A$, or otherwise $n$ would not be the least natural number that cannot be written as a product of prime numbers. So $a$ and $b$ can be written as a product of prime numbers. But then this implies $n$ CAN be written as a product of prime numbers, as a product of two numbers that can be written as a product of prime numbers. <!--SR:!2024-11-10,41,300!2024-11-24,55,300-->
@@ -93,7 +93,7 @@ Note that a knight can move {{two squares vertically and one square horizontally
 
 - strategy ::: For 8×8, one will need to guess that the answer is yes and construct such a closed path... So good luck! But for 9×9, there is a simple way. Draw the move pattern of a knight and notice the checker pattern of a chessboard. <!--SR:!2024-11-22,53,300!2024-12-08,68,310-->
 - possibility of _closed_ knight's tours ::: Let there be a _m_ × _n_ board with _m_ ≤ _n_. A _closed_ knight's tour is always possible unless _m_ and _n_ are both odd; _m_ = 1, 2, or 4; or _m_ = 3 and _n_ = 4, 6, or 8. <!--SR:!2024-10-28,28,240!2024-10-20,24,240-->
-- possibility of knight's tours ::: Let there be a _m_ × _n_ board with _m_ ≤ _n_. A knight's tour (possibly _open_) is always possible unless _m_ = 1 or 2; _m_ = 3 and _n_ = 3, 5, or 6; or _m_ = 4 and _n_ = 4. <!--SR:!2024-11-04,35,280!2024-10-03,10,210-->
+- possibility of knight's tours ::: Let there be a _m_ × _n_ board with _m_ ≤ _n_. A knight's tour (possibly _open_) is always possible unless _m_ = 1 or 2; _m_ = 3 and _n_ = 3, 5, or 6; or _m_ = 4 and _n_ = 4. <!--SR:!2024-11-04,35,280!2024-10-22,19,210-->
 
 1. 8×8 chessboard ::: It is possible. Prove by constructing such a closed path... <!--SR:!2024-12-14,73,320!2024-12-14,74,320-->
 2. 9×9 chessboard ::: It is impossible. If such a closed path exists, then the knight needs to move exactly 81 times to visit every square and go back to the starting position. Now, notice the checker pattern of the chessboard. In a move, a knight must go from a square to a square of different color (black to white, white to black). Without loss of generality, assume the starting position is white. After moving exactly 81 times, the ending position must be black. But this implies the starting position and the ending position cannot be the same after 81 moves. So the closed path does not exist. <!--SR:!2024-11-24,53,300!2024-11-11,47,300-->

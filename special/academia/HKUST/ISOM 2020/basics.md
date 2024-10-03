@@ -140,12 +140,12 @@ return _chain.from_iterable(await _gather(
 <!--pytextgen generate section="d123"--><!-- The following content is generated at 2024-01-30T13:35:46.633801+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←`in` <!--SR:!2024-10-13,19,349!2024-10-14,20,349-->
-- `in`→:::←`<` <!--SR:!2024-10-03,14,329!2024-10-13,19,349-->
-- `<`→:::←`<=` <!--SR:!2024-10-03,14,329!2024-10-03,14,329-->
-- `<=`→:::←`>` <!--SR:!2024-10-07,13,329!2024-10-03,14,329-->
+- `in`→:::←`<` <!--SR:!2024-12-09,67,349!2024-10-13,19,349-->
+- `<`→:::←`<=` <!--SR:!2024-12-05,63,349!2024-12-02,60,349-->
+- `<=`→:::←`>` <!--SR:!2024-10-07,13,329!2024-12-03,61,349-->
 - `>`→:::←`>=` <!--SR:!2024-10-06,12,329!2024-10-14,20,349-->
 - `>=`→:::←`!=` <!--SR:!2024-10-05,11,329!2024-10-30,30,309-->
-- `!=`→:::←`==` <!--SR:!2024-10-03,14,329!2024-10-13,19,349-->
+- `!=`→:::←`==` <!--SR:!2024-12-04,62,349!2024-10-13,19,349-->
 - `==`→:::←_(end)_ <!--SR:!2024-10-05,11,329!2024-10-14,20,349-->
 
 <!--/pytextgen-->
@@ -238,7 +238,7 @@ To {{find the length of a string}}, use {{`len(str)`, which returns an `int` rep
 
 ## output
 
-In {{a Jupyter notebook}}, it outputs {{the value of the last expression (and prints nothing if the last expression is `None`)}}. Note that {{assignments are not expressions, and do not produce output as the last expression}}. To get it to print more things, {{use `print(<any>...)`}}. It can {{print anything (and prints `None` if the last expression is `None`)}}. Note that it automatically {{adds a newline after the printed content, so each `print` outputs on a new line instead of being glued together in a single line}}. Also, when multiple arguments are passed, {{each argument is joined into a single string, separated by a space in between}}. When {{no arguments are passed, only a newline is printed}}. <!--SR:!2024-10-04,20,343!2024-10-04,20,343!2024-10-04,20,343!2024-10-03,19,343!2024-12-05,66,343!2024-11-20,55,343!2024-11-19,54,343!2024-10-04,20,343-->
+In {{a Jupyter notebook}}, it outputs {{the value of the last expression (and prints nothing if the last expression is `None`)}}. Note that {{assignments are not expressions, and do not produce output as the last expression}}. To get it to print more things, {{use `print(<any>...)`}}. It can {{print anything (and prints `None` if the last expression is `None`)}}. Note that it automatically {{adds a newline after the printed content, so each `print` outputs on a new line instead of being glued together in a single line}}. Also, when multiple arguments are passed, {{each argument is joined into a single string, separated by a space in between}}. When {{no arguments are passed, only a newline is printed}}. <!--SR:!2024-10-04,20,343!2024-10-04,20,343!2024-10-04,20,343!2025-01-03,92,363!2024-12-05,66,343!2024-11-20,55,343!2024-11-19,54,343!2024-10-04,20,343-->
 
 Note that strings are outputted, escaped {{with `\` properly (without unnecessary escapes)}}, and preferably {{wrapped in `'`, and only uses `"` if there is at least 1 `'` in the string but not any `"`}}. <!--SR:!2024-10-14,20,354!2024-10-13,19,354-->
 
@@ -278,7 +278,7 @@ We can convert a value (`value`) into other data types using {{`float(value)`, `
 - `float(value)` ::: Converts `value` to a `float`. If it is an `int`, the same value but in `float` is returned. If it is a `str`, it removes whitespaces (spaces) surrounding the string and then parse it as a `float`, and raises a `ValueError` if it is invalid, e.g. an empty string, the string `.` (but not `0.`, `.0`, etc.), contains alphabets (except for `e` as used in exponential notation, e.g. `1e+100` and `1.2e-100` are valid), etc. (But `float("1.")`, `float(".1")`, `float("  4.2  ")`, etc. are valid. In general, if the string is a valid `float` when treated as Python code, the string is valid.) <!--SR:!2024-11-17,47,320!2024-10-24,30,300-->
 - `int(value)` ::: Converts `value` to a `int`. If it is an `float`, the numbers behind the decimal point `.` is removed and then the rest is returned as an `int`. If it is a `str`, it removes whitespaces (spaces) surrounding the string and then parse it as a `int`, and raises a `ValueError` if it is invalid, e.g. an empty string, contains a decimal point `.`, contains alphabets, etc. (But `int("  4  ")` is valid. In general, if the string is a valid `int` when treated as Python code, the string is valid.) <!--SR:!2024-11-06,41,320!2024-11-29,60,340-->
 - `list(value)` ::: Converts `value` to a `list`. If it is a `str`, then the resulting list consists of its individual characters (but note each individual character is still a `str`). If it is a `range(n)`, then the resulting list consists of `int`s from `0` (inclusive) to `n - 1` (inclusive). There are some other valid conversions not mentioned here. If the conversion is invalid (e.g. `value` is `int`), then it raises a `TypeError`. <br/> additional information: Technically speaking, if `value` is _iterable_, then the resulting list consists of elements of that iterable. Otherwise, it raises a `TypeError`. <!--SR:!2024-10-13,12,346!2024-10-15,14,346-->
-- `str(value)` ::: Converts `value` to a `str`. (Almost) anything can be converted into a `str`. The resulting string is the same as that outputted by `print(value)`. <!--SR:!2024-12-03,64,340!2024-10-03,19,340-->
+- `str(value)` ::: Converts `value` to a `str`. (Almost) anything can be converted into a `str`. The resulting string is the same as that outputted by `print(value)`. <!--SR:!2024-12-03,64,340!2024-12-29,87,360-->
 
 ## input
 

@@ -13,7 +13,7 @@ tags:
 
 # quick ratio
 
-In [finance](finance.md), the __quick ratio__, also known as {{the __acid-test ratio__}}, is {{a [liquidity ratio](accounting%20liquidity.md) that measures the ability of a company to use [near-cash assets](cash%20and%20cash%20equivalents.md) (or 'quick' assets) to extinguish or retire [current liabilities](current%20liability.md) immediately}}. It is {{the [ratio](financial%20ratio.md) between quick assets and current liabilities}}. <!--SR:!2024-10-09,16,290!2024-10-06,13,290!2024-10-03,10,270-->
+In [finance](finance.md), the __quick ratio__, also known as {{the __acid-test ratio__}}, is {{a [liquidity ratio](accounting%20liquidity.md) that measures the ability of a company to use [near-cash assets](cash%20and%20cash%20equivalents.md) (or 'quick' assets) to extinguish or retire [current liabilities](current%20liability.md) immediately}}. It is {{the [ratio](financial%20ratio.md) between quick assets and current liabilities}}. <!--SR:!2024-10-09,16,290!2024-10-06,13,290!2024-11-11,39,290-->
 
 A normal liquid ratio is {{considered to be 1:1}}. {{A company with a quick ratio of less than 1}} cannot {{currently fully pay back its current liabilities}}. <!--SR:!2024-11-07,36,290!2024-10-06,13,290!2024-10-05,12,270-->
 

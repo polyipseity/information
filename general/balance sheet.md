@@ -64,7 +64,7 @@ If applicable to the business, summary values for the following items should be 
 
 ### assets
 
-Assets are {{all the things the business owns}}. This will include {{property, tools, vehicles, furniture, machinery, and so on}}. <!--SR:!2024-10-09,17,290!2024-10-03,11,270-->
+Assets are {{all the things the business owns}}. This will include {{property, tools, vehicles, furniture, machinery, and so on}}. <!--SR:!2024-10-09,17,290!2024-11-11,39,290-->
 
 #### current assets
 
@@ -73,7 +73,7 @@ Assets are {{all the things the business owns}}. This will include {{property, t
 <!-- list separator -->
 
 1. [accounts receivable](accounts%20receivable.md) ::: legally enforceable claims for payment held by a business for goods supplied or services rendered that customers have ordered but not paid for <!--SR:!2024-10-04,12,270!2024-11-11,40,290-->
-2. [cash and cash equivalents](cash%20and%20cash%20equivalents.md) ::: the most liquid current assets found on a business's balance sheet <!--SR:!2024-10-08,16,290!2024-10-03,11,270-->
+2. [cash and cash equivalents](cash%20and%20cash%20equivalents.md) ::: the most liquid current assets found on a business's balance sheet <!--SR:!2024-10-08,16,290!2024-11-12,40,290-->
 3. [inventories](inventory.md) ::: goods and materials that a business holds for the ultimate goal of resale, production or utilization <!--SR:!2024-10-09,17,290!2024-10-08,16,290-->
 4. cash at bank, [petty cash](petty%20cash.md), cash on hand ::: small amount of discretionary funds in the form of cash used for minor expenditures <!--SR:!2024-10-08,16,290!2024-10-07,15,290-->
 5. [prepaid expenses](deferral.md) for future services that will be used within one financial period ::: cash paid in advance for goods or services that will be consumed within one financial period <!--SR:!2024-10-05,13,290!2024-10-09,17,290-->
@@ -102,7 +102,7 @@ Assets are {{all the things the business owns}}. This will include {{property, t
 4. liabilities and assets for current [tax](tax.md) ::: mandatory financial charges or some other types of levy imposed on a taxpayer (an individual or legal entity) by a governmental organization <!--SR:!2024-10-06,14,290!2024-11-03,33,290-->
 5. [deferred tax](deferred%20tax.md) liabilities and deferred tax assets ::: notional assets or liabilities to reflect corporate income taxation on a basis that is the same or more similar to recognition of profits than the taxation treatment (≈ the matching principle vs. tax laws) <!--SR:!2024-10-29,29,270!2024-10-04,12,270-->
 6. [unearned revenue](deferral.md) for services paid for by customers but not yet provided ::: liabilities that arise when payment is received for goods or services that have yet to be delivered or fulfilled <!--SR:!2024-11-14,44,290!2024-10-11,16,250-->
-7. interests on [loan stock](debenture.md) ::: medium- to long-term debt instruments used by large companies to borrow money, at a fixed rate of interest <!--SR:!2024-10-09,17,290!2024-10-03,11,270-->
+7. interests on [loan stock](debenture.md) ::: medium- to long-term debt instruments used by large companies to borrow money, at a fixed rate of interest <!--SR:!2024-10-09,17,290!2024-11-17,45,290-->
 8. creditors' equity ::: equivalent to liabilities (that excludes stockholders' equity), includes liabilities mentioned and not mentioned above (excluding stockholders' equity) <!--SR:!2024-11-06,36,290!2024-10-08,16,290-->
 
 ### net current assets

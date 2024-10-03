@@ -52,7 +52,7 @@ The program header table {{specifies how the process image is created, i.e. how 
 
 Revisiting reverse 101... We will use {{the Intel syntax}} here. <!--SR:!2024-10-08,14,290-->
 
-In x86 and x86-64, there are {{two registers related to the stack: `esp`/`rsp` and `ebp`/`rbp`}}. (We will use the x86-64 registers thereafter.) <!--SR:!2024-10-03,9,270-->
+In x86 and x86-64, there are {{two registers related to the stack: `esp`/`rsp` and `ebp`/`rbp`}}. (We will use the x86-64 registers thereafter.) <!--SR:!2024-11-06,34,290-->
 
 `rsp` is {{the stack pointer, which points to the top (low address) of the stack memory}}. This is easy to understand. The more difficult one is {{`rbp`, which is the stack/function frame base pointer, which points to the bottom (high address) of the current stack/function frame}}. Yet we do not know {{what a stack/function frame is, and this will be introduced later}}. <!--SR:!2024-10-08,14,290!2024-10-05,11,270!2024-10-07,13,290-->
 
@@ -61,8 +61,8 @@ There are {{several instructions that modify the stack memory and the `rsp` and 
 - `push <src>` ::: Push `<src>` on top of the stack. This writes a value right below the address pointed by `rsp` and decrements `rsp`. <!--SR:!2024-10-09,15,290!2024-10-07,13,290-->
 - `pop <dest>` ::: Pop the top of the stack and write it to `<dest>`. This reads a value at the address pointed by `rsp` and increments `rsp`. <!--SR:!2024-10-10,16,290!2024-10-10,16,290-->
 - `call <address>` ::: This pushes (`push`) the `rip` (instruction pointer, pointing to the currently executing instruction) onto the stack, and then jumps (`jmp`) to `<address>`. `<address>`. This is usually used to call a function, in conjunction with `ret`. <!--SR:!2024-10-11,17,290!2024-10-09,15,290-->
-- `ret`::: This pops (`pop`) a value off from the stack and jumps (`jmp`) to it. (Note that this is similar to `pop rip`, but `pop rip` is invalid because `rip` cannot be modified directly.) This is usually used to return from a function, in conjunction with `call`. <!--SR:!2024-10-09,15,290!2024-10-03,9,270-->
-- `leave` ::: This sets `rsp` to `rbp`, effectively clearing the current stack frame. Then it pops (`pop`) a value off from the stack to `rbp`. This effectively restores the previous stack frame (the state right before the current function is called (`call`)). This is usually used to cleanup the stack and registers just before returning from a function (`ret`). <!--SR:!2024-11-18,47,290!2024-10-03,9,270-->
+- `ret`::: This pops (`pop`) a value off from the stack and jumps (`jmp`) to it. (Note that this is similar to `pop rip`, but `pop rip` is invalid because `rip` cannot be modified directly.) This is usually used to return from a function, in conjunction with `call`. <!--SR:!2024-10-09,15,290!2024-10-24,21,270-->
+- `leave` ::: This sets `rsp` to `rbp`, effectively clearing the current stack frame. Then it pops (`pop`) a value off from the stack to `rbp`. This effectively restores the previous stack frame (the state right before the current function is called (`call`)). This is usually used to cleanup the stack and registers just before returning from a function (`ret`). <!--SR:!2024-11-18,47,290!2024-11-10,38,290-->
 
 A related instruction is {{`lea`}}: <!--SR:!2024-10-10,16,290-->
 
@@ -92,7 +92,7 @@ To summarize, the process of calling a function is: {{passing the arguments, cal
 
 ## GNU Debugger and pwndbg
 
-To {{see the registers and the stack while running a program}}, we will use {{the GNU Debugger (`gdb`), which is only available on Linux}}. But {{the debugger is sometimes rather inconvenient to use for pwn}}, so we will also use {{a `gdb` plugin called `pwndbg` (URL: <https://github.com/pwndbg/pwndbg>)}}. It {{adds additional commands, and improve existing commands and views. These should make it easier to solve pwn challenges}}. Install both of them first. <!--SR:!2024-10-10,16,290!2024-10-03,9,270!2024-10-08,14,290!2024-10-11,17,290!2024-10-07,13,290-->
+To {{see the registers and the stack while running a program}}, we will use {{the GNU Debugger (`gdb`), which is only available on Linux}}. But {{the debugger is sometimes rather inconvenient to use for pwn}}, so we will also use {{a `gdb` plugin called `pwndbg` (URL: <https://github.com/pwndbg/pwndbg>)}}. It {{adds additional commands, and improve existing commands and views. These should make it easier to solve pwn challenges}}. Install both of them first. <!--SR:!2024-10-10,16,290!2024-10-26,23,270!2024-10-08,14,290!2024-10-11,17,290!2024-10-07,13,290-->
 
 Let's learn some basic `gdb` commands (not exclusive to `pwndbg`):
 
@@ -132,7 +132,7 @@ Commands names can be {{truncated at the end to produce an abbreviation if the a
 
 ## buffer overflow
 
-A buffer is {{simply a portion of the memory used to store the data}}. As {{real computers have limited memory}}, the buffer is {{also limited in its size}}. The buffer may be on {{the stack, the heap, read-write segment, read-execute segment, or really anywhere the memory is mapped by the OS}}. A buffer is {{usually contagious, that is, it is a continuous portion of the memory}}, so we can identify a buffer by {{its low (start) address (inclusive) and high (end) address (exclusive)}}. <!--SR:!2024-10-11,17,290!2024-11-19,48,290!2024-10-11,17,290!2024-10-03,9,270!2024-10-08,14,290!2024-10-07,13,290-->
+A buffer is {{simply a portion of the memory used to store the data}}. As {{real computers have limited memory}}, the buffer is {{also limited in its size}}. The buffer may be on {{the stack, the heap, read-write segment, read-execute segment, or really anywhere the memory is mapped by the OS}}. A buffer is {{usually contagious, that is, it is a continuous portion of the memory}}, so we can identify a buffer by {{its low (start) address (inclusive) and high (end) address (exclusive)}}. <!--SR:!2024-10-11,17,290!2024-11-19,48,290!2024-10-11,17,290!2024-11-02,30,290!2024-10-08,14,290!2024-10-07,13,290-->
 
 The buffers we are usually interested in exploiting is {{usually on the first three because we can write to the buffer}}. We will only {{focus on buffers on the stack because they are the easiest to exploit}}. <!--SR:!2024-10-10,16,290!2024-10-09,15,290-->
 
@@ -178,7 +178,7 @@ patchelf --set-interpreter 'ld-<version>.so' 'my_elf' # This sets the dynamic lo
 patchelf --set-rpath './' 'my_elf' # This sets the path to be searched for `glibc` to the current directory, so the `libc.so.6` in the current directory will be used isntead of the system one.
 ```
 
-To {{verify `patchelf` has successfully patched the executable}}, run {{`ldd <patched ELF file>`}}. You should see {{`libc.so.6` being linked (`=>`) to the one in the current directory, and `ld-<version>.so` in the current directory replacing (`=>`) the system one}}. For example: <!--SR:!2024-10-04,10,270!2024-10-07,13,290!2024-10-03,9,270-->
+To {{verify `patchelf` has successfully patched the executable}}, run {{`ldd <patched ELF file>`}}. You should see {{`libc.so.6` being linked (`=>`) to the one in the current directory, and `ld-<version>.so` in the current directory replacing (`=>`) the system one}}. For example: <!--SR:!2024-10-04,10,270!2024-10-07,13,290!2024-11-05,33,290-->
 
 ```shell
 $ ldd 'my_elf'
@@ -226,13 +226,13 @@ In buffer overflow, stack canary is {{a 32 or 64-bit value on top of the old `ri
 
 Usually, the stack canary is {{random, so that the attacker cannot know the stack canary and very likely modifies the stack canary}}. It is {{unlikely the attacker can guess the canary as the stack canary has 64 or 56 of its bits random}}. The stack canary can be {{either fully random (_random canary_); or fully random except that its least significant bit (low address) is always the zero byte `\x00`, i.e. the null terminator (_terminator canary_); or XOR-ed with a piece of control data (_random XOR canary_)}}. <!--SR:!2024-10-04,10,270!2024-10-10,16,290!2024-10-07,13,290-->
 
-We will only discuss _terminator canary_ in more details. In particular, {{many C string functions treat the null terminator as the end of string}}. So if {{an attacker were to read the canary value for exploitation}}, {{C string reading functions would read the null terminator at the low address and then stop, so the more significant bits of the canary value are unleaked}}. Even if {{the attacker knows the canary value to be written and include it in the payload}}, {{C string writing functions cannot write past the canary value because they would think the payload ends at the null terminator}}. However, {{non-string functions are not affected by the above, as they do not treat the null terminator specially}}. <!--SR:!2024-10-03,9,270!2024-10-09,15,290!2024-10-11,17,290!2024-10-08,14,290!2024-10-06,12,270!2024-10-10,16,290-->
+We will only discuss _terminator canary_ in more details. In particular, {{many C string functions treat the null terminator as the end of string}}. So if {{an attacker were to read the canary value for exploitation}}, {{C string reading functions would read the null terminator at the low address and then stop, so the more significant bits of the canary value are unleaked}}. Even if {{the attacker knows the canary value to be written and include it in the payload}}, {{C string writing functions cannot write past the canary value because they would think the payload ends at the null terminator}}. However, {{non-string functions are not affected by the above, as they do not treat the null terminator specially}}. <!--SR:!2024-11-04,32,290!2024-10-09,15,290!2024-10-11,17,290!2024-10-08,14,290!2024-10-06,12,270!2024-10-10,16,290-->
 
 As mentioned above, stack canary can be bypassed {{if you know the canary value and is able to write past the canary}}. The canary value {{may be obtained by another buffer overflow that causes the canary value to be leaked}}. <!--SR:!2024-10-07,13,290!2024-10-08,14,290-->
 
 ### address randomization
 
-Buffer overflow is often used to {{jump to a particular function}}. This can be inhibited if {{the function addresses are randomized each time the program is executed}}. Then {{the attacker will need to find out the address of that particular function during that one program execution (does not work across execution)}}. <!--SR:!2024-10-09,15,290!2024-10-09,15,290!2024-10-03,9,270-->
+Buffer overflow is often used to {{jump to a particular function}}. This can be inhibited if {{the function addresses are randomized each time the program is executed}}. Then {{the attacker will need to find out the address of that particular function during that one program execution (does not work across execution)}}. <!--SR:!2024-10-09,15,290!2024-10-09,15,290!2024-11-03,31,290-->
 
 To do so, the executable must {{consists of position-independent code (PIC), making the executable a position-independent executable (PIE)}}. Said code {{can work properly regardless of the code's base (start) address (thus cannot refer to absolute addresses)}}. Then the technique of {{address space layout randomization (ASLR)}} can be applied. Usually, it will {{randomize the base (start) address of the program (read-execute and read-write segment are treated as one segment for ASLR), the heap, and the stack}}. However, {{as only the base (start) address of segments are randomized}}, {{functions and data inside the same segment still have the same relative offset to each other}}. <!--SR:!2024-10-09,15,290!2024-10-11,17,290!2024-10-09,15,290!2024-10-11,17,290!2024-10-08,14,290!2024-10-11,17,290-->
 

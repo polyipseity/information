@@ -46,7 +46,7 @@ A partial eclipse occurs {{about twice a year}}, when {{the [Sun](Sun.md) and [M
 
 ### eclipse phases
 
-During {{a [total eclipse](#total%20eclipse)}}, there are {{4 visual phases (excluding totality)}}, which are called: <!--SR:!2025-04-27,225,330!2024-10-03,68,310-->
+During {{a [total eclipse](#total%20eclipse)}}, there are {{4 visual phases (excluding totality)}}, which are called: <!--SR:!2025-04-27,225,330!2025-07-19,289,330-->
 
 ```Python
 # pytextgen generate data

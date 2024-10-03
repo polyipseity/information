@@ -77,7 +77,7 @@ return chain.from_iterable(await gather(
 - waxing [crescent](crescent.md)→:::←first quarter <!--SR:!2024-10-26,32,290!2024-10-04,69,310-->
 - first quarter→:::←waxing gibbous <!--SR:!2025-01-26,152,310!2024-10-28,31,290-->
 - waxing gibbous→:::←[full moon](full%20moon.md) <!--SR:!2025-06-23,273,330!2025-04-16,218,330-->
-- [full moon](full%20moon.md)→:::←waning gibbous <!--SR:!2025-03-03,170,310!2024-10-03,68,310-->
+- [full moon](full%20moon.md)→:::←waning gibbous <!--SR:!2025-03-03,170,310!2025-07-21,291,330-->
 - waning gibbous→:::←last quarter <!--SR:!2025-04-24,224,330!2024-10-07,72,310-->
 - last quarter→:::←waning [crescent](cresceent.md) <!--SR:!2025-02-08,150,290!2025-06-23,268,330-->
 - waning [crescent](cresceent.md)→:::←_(end)_ <!--SR:!2025-04-11,214,330!2025-03-04,170,310-->

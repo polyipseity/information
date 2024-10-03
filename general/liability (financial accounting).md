@@ -26,7 +26,7 @@ The [accounting equation](accounting%20equation.md) {{relates [assets](asset.md)
 
 {{The accounting equation}} is {{the mathematical structure of the [balance sheet](balance%20sheet.md)}}. <!--SR:!2024-10-07,14,290!2024-10-10,17,290-->
 
-Probably the most accepted accounting definition of liability is {{the one used by the [International Accounting Standards Board](International%20Accounting%20Standards%20Board.md) (IASB)}}. The following is a quotation from IFRS Framework: <!--SR:!2024-10-03,10,270-->
+Probably the most accepted accounting definition of liability is {{the one used by the [International Accounting Standards Board](International%20Accounting%20Standards%20Board.md) (IASB)}}. The following is a quotation from IFRS Framework: <!--SR:!2024-11-10,38,290-->
 
 > A liability is {{a present obligation of the enterprise arising from past events, the settlement of which is expected to result in an outflow from the enterprise of resources embodying economic benefits}}
 >

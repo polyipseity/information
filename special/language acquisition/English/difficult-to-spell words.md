@@ -54,7 +54,7 @@ English
 - [laryngeal](https://en.wiktionary.org/wiki/laryngeal) ::: (l\_l) Of or pertaining to the [larynx](../../../general/larynx.md). <!--SR:!2025-02-23,324,344!2025-03-08,334,344-->
 - [larynx](https://en.wiktionary.org/wiki/larynx) ::: (l\_x) An [organ](../../../general/organ%20(anatomy).md) involved in [breathing](../../../general/breathing.md), [sound](../../../general/sound.md) production, and protection of the [trachea](../../../general/trachea.md). <!--SR:!2025-02-25,178,284!2024-11-14,223,324-->
 - [narcissism](https://en.wiktionary.org/wiki/narcissism) ::: (n\_m) Excessive [love](../../../general/love.md) of oneself. <!--SR:!2027-03-19,939,428!2025-02-10,182,328-->
-- [negligible](https://en.wiktionary.org/wiki/negligible) ::: (n\_e) Can be not considered as it is too small or unimportant. <!--SR:!2025-02-26,324,344!2024-10-03,181,284-->
+- [negligible](https://en.wiktionary.org/wiki/negligible) ::: (n\_e) Can be not considered as it is too small or unimportant. <!--SR:!2025-02-26,324,344!2026-02-28,513,284-->
 - [nondimensionalization](https://en.wiktionary.org/wiki/nondimensionalization) ::: (n\_n) The partial of full removal of [units](../../../general/unit%20of%20measurement.md) from an [equation](../../../general/equation.md) by a [change of variables](../../../general/change%20of%20variables.md). <!--SR:!2025-03-03,329,344!2025-10-13,440,304-->
 - [occupation](https://en.wiktionary.org/wiki/occupation) ::: (o\_n) An activity or task one usually occupies oneself. <!--SR:!2026-01-01,535,412!2025-04-22,351,392-->
 - [occurrence](https://en.wiktionary.org/wiki/occurrence) ::: (o\_e) An event or happening. <!--SR:!2027-04-06,949,430!2025-02-01,285,370-->

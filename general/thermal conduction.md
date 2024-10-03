@@ -31,7 +31,7 @@ For simple applications, Fourier's law is used in its one-dimensional form:
 > - where
 >   - {{$\phi_\text{q,x}$ is the [heat flux](heat%20flux.md) along the $x$-direction, in W⋅m<sup>-2</sup>}}
 >   - {{$k$ is the [thermal conductivity](thermal%20conductivity%20and%20resistivity.md), in W⋅m<sup>-1</sup>⋅K<sup>-1</sup>}}
->   - {{$\frac{\partial T}{\partial x}$ is the [temperature gradient](temperature%20gradient.md) along the $x$-direction, in K⋅m<sup>-1</sup>}} <!--SR:!2024-12-09,274,330!2025-10-19,458,310!2024-10-06,185,270!2024-10-17,233,330!2024-10-03,222,330-->
+>   - {{$\frac{\partial T}{\partial x}$ is the [temperature gradient](temperature%20gradient.md) along the $x$-direction, in K⋅m<sup>-1</sup>}} <!--SR:!2024-12-09,274,330!2025-10-19,458,310!2024-10-06,185,270!2024-10-17,233,330!2026-10-07,734,330-->
 
 ### integral form
 
@@ -43,7 +43,7 @@ For simple applications, Fourier's law is used in its one-dimensional form:
 >   - {{$\frac{\partial Q}{\partial t}$ is the [heat](heat.md) transferred per unit [time](time.md), in W}}
 >   - {{$k$ is the [thermal conductivity](thermal%20conductivity%20and%20resistivity.md), in W⋅m<sup>-1</sup>⋅K<sup>-1</sup>}}
 >   - {{$\nabla T$ is the [temperature gradient](temperature%20gradient.md), in K⋅m<sup>-1</sup>}}
->   - {{$\mathrm{d}\mathbf{S}$ is a [vector area](vector%20area.md) element, in m<sup>2</sup>}} <!--SR:!2024-12-27,222,250!2024-12-25,286,330!2024-11-20,244,290!2025-11-25,495,310!2024-10-03,221,330-->
+>   - {{$\mathrm{d}\mathbf{S}$ is a [vector area](vector%20area.md) element, in m<sup>2</sup>}} <!--SR:!2024-12-27,222,250!2024-12-25,286,330!2024-11-20,244,290!2025-11-25,495,310!2026-10-01,728,330-->
 
 For simple applications where the material is [homogeneous](homogeneity%20and%20heterogeneity.md) between two endpoints at constant [temperature](temperature.md), the above can be [integrated](integral.md) to give:
 

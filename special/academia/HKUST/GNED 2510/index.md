@@ -122,14 +122,14 @@ The content is in teaching order.
 - After chatting with the guests in the upcoming networking practicum, you should... ::: Send a thank you note on the same day. <!--SR:!2024-10-10,16,290!2024-10-07,13,290-->
   - thank-you note (after networking)
 - interview preparation ::: prepare questions, "stalk" (gather information) on LinkedIn <!--SR:!2024-10-09,15,290!2024-10-10,16,290-->
-- etiquettes ::: social etiquette, networking etiquette, dining etiquette <!--SR:!2024-10-09,15,290!2024-10-03,9,270-->
+- etiquettes ::: social etiquette, networking etiquette, dining etiquette <!--SR:!2024-10-09,15,290!2024-11-06,34,290-->
   - social etiquette
   - networking etiquette
   - dining etiquette
 - work cultures
 - How is a work offer properly confirmed? ::: confirmed the draft employment contract <!--SR:!2024-10-08,14,290!2024-10-27,27,270-->
 - What if you need more time to consider a work offer? ::: Sincerely ask for more time to consider and state your expected reply time to the employer. <!--SR:!2024-10-07,13,290!2024-10-09,15,290-->
-- What to do after confirming an offer? ::: stop interviewing, nicely decline other work offers <!--SR:!2024-10-03,9,270!2024-10-11,17,290-->
+- What to do after confirming an offer? ::: stop interviewing, nicely decline other work offers <!--SR:!2024-11-07,35,290!2024-10-11,17,290-->
 - job offer ::: Check if it is legitimate and is not missing any crucial information! <!--SR:!2024-10-10,16,290!2024-10-10,16,290-->
   - job offer crucial information ::: company logo, contact information, job title, job details, salary/compensation, benefits, expiration date <!--SR:!2024-10-24,24,250!2024-11-05,36,270-->
   - declining a job offer ::: act quick, communicate professionally, express appreciation <!--SR:!2024-10-07,13,290!2024-10-08,14,290-->
