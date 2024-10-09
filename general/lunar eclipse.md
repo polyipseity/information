@@ -31,7 +31,7 @@ When the [Moon](Moon.md) {{penetrates partially into the [Earth](Earth.md)'s [um
 
 ### total lunar eclipse
 
-If the [Moon](Moon.md) {{entirely passes into the [Earth](Earth.md)'s [umbra](umbra,%20penumbra%20and%20antumbra.md#umbra)}}, a total lunar eclipse occurs. <!--SR:!2024-10-04,69,310-->
+If the [Moon](Moon.md) {{entirely passes into the [Earth](Earth.md)'s [umbra](umbra,%20penumbra%20and%20antumbra.md#umbra)}}, a total lunar eclipse occurs. <!--SR:!2025-07-30,295,330-->
 
 ## blood moon
 

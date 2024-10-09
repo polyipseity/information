@@ -67,7 +67,7 @@ return (
 - group II metal: +2→:::←metallic hydride: -1 <!--SR:!2024-11-03,34,190!2024-11-16,197,270-->
 - metallic hydride: -1→:::←hydrogen: +1 <!--SR:!2025-04-16,661,310!2024-12-10,576,310-->
 - hydrogen: +1→:::←(if not bonded to oxygen or flourine) oxygen: -2 <!--SR:!2025-03-30,541,250!2024-11-23,77,210-->
-- (if not bonded to oxygen or flourine) oxygen: -2→:::←_(end)_ <!--SR:!2024-10-08,197,310!2025-01-08,165,230-->
+- (if not bonded to oxygen or flourine) oxygen: -2→:::←_(end)_ <!--SR:!2026-06-10,610,310!2025-01-08,165,230-->
 
 <!--/pytextgen-->
 

@@ -23,7 +23,7 @@ Ignoring {{blurring of the image by turbulence in the atmosphere ([atmospheric s
 
 The light-gathering power of an optical telescope, also referred to as {{light grasp or aperture gain}}, is {{the ability of a telescope to collect a lot more [light](light.md) than the [human eye](human%20eye.md)}}. <!--SR:!2025-03-09,168,310!2024-11-22,77,270-->
 
-It is proportional to {{square of the aperture $D$}}. <!--SR:!2024-10-08,58,310-->
+It is proportional to {{square of the aperture $D$}}. <!--SR:!2025-06-13,248,330-->
 
 ## references
 

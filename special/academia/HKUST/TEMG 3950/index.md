@@ -175,7 +175,7 @@ The content is in teaching order.
 - [Pareto principle](../../../../general/Pareto%20principle.md)
 - "less is more" ::: In the digital age, there is too much information (digital garbage), so they need to be distilled. Also see [DIKW pyramid](../../../../general/DIKW%20pyramid.md). <!--SR:!2025-05-26,276,361!2025-11-20,423,381-->
 - [MECE principle](../../../../general/MECE%20principle.md)
-- modeling key concepts ::: abstraction, framework, model <!--SR:!2025-06-11,286,361!2024-10-04,98,361-->
+- modeling key concepts ::: abstraction, framework, model <!--SR:!2025-06-11,286,361!2026-02-03,483,381-->
   - modeling key concept: abstraction ::: filter for elements relevant to some specific purpose <!--SR:!2025-07-15,301,361!2026-01-18,473,381-->
   - modeling key concept: framework ::: a support structure around which something can be built <!--SR:!2025-12-13,444,381!2025-05-29,273,361-->
   - modeling key concept: model ::: an abstraction of the real world for some specific purpose <!--SR:!2025-08-27,356,381!2024-11-03,105,341-->
@@ -188,7 +188,7 @@ The content is in teaching order.
 - Chernev's 5C framework ::: market & business analysis <!--SR:!2025-12-29,455,381!2025-04-27,234,341-->
   - [situation analysis § 5C analysis](../../../../general/situation%20analysis.md#5C%20analysis)
   - 5C analysis & ancient Chinese philosophy ::: 天時·地利·人和 <!--SR:!2025-07-25,309,361!2025-07-17,302,361-->
-  - Chernev's 5C framework § competitor ::: The competitor aspect can use [competitor analysis](../../../../general/competitor%20analysis.md). <!--SR:!2025-12-02,435,381!2024-10-04,98,361-->
+  - Chernev's 5C framework § competitor ::: The competitor aspect can use [competitor analysis](../../../../general/competitor%20analysis.md). <!--SR:!2025-12-02,435,381!2026-02-02,482,381-->
   - Chernev's 5C framework § context ::: The context aspect can use Anguilar's PESTLE framework. <!--SR:!2025-12-28,454,381!2025-08-15,326,361-->
 - McCarthy's 4P framework ::: market-related analysis <!--SR:!2026-01-02,459,381!2026-01-03,460,381-->
   - [marketing mix § McCarthy's 4 Ps](../../../../general/marketing%20mix.md#McCarthy's%204%20Ps)
@@ -211,7 +211,7 @@ The content is in teaching order.
 - casual relationship & correlation ::: Correlation does not imply causation. <!--SR:!2025-06-29,288,361!2025-11-22,425,381-->
 - [root cause analysis](../../../../general/root%20cause%20analysis.md) ::: discovery of casual relationships <!--SR:!2025-02-23,199,341!2025-04-16,243,361-->
 - [five whys](../../../../general/five%20whys.md)
-- cause mapping process ::: define the issue by its impact to business goals, visualize the problem, and prevent or mitigate negative impacts <!--SR:!2024-10-08,86,321!2025-03-06,200,341-->
+- cause mapping process ::: define the issue by its impact to business goals, visualize the problem, and prevent or mitigate negative impacts <!--SR:!2025-10-23,380,341!2025-03-06,200,341-->
 - cause mapping notation (at least for this course)
   - cause mapping + MECE dimensions ::: Choose a MECE framework. For one of the causes, split the further causes by MECE dimensions. Label the further causes by their corresponding dimensions. Explain why, if some dimensions are irrelevant and thus has no further causes. <!--SR:!2025-06-10,253,321!2025-08-05,332,361-->
   - cause mapping § arrow direction ::: cause to effect <!--SR:!2025-07-02,291,361!2025-11-01,410,381-->
@@ -225,7 +225,7 @@ The content is in teaching order.
 - cause mapping extensions ::: facts table, solutions table <!--SR:!2025-09-03,361,381!2025-08-07,318,361-->
   - facts table ::: what, when, where, impact <!--SR:!2025-11-13,420,381!2025-02-07,175,341-->
   - solutions table ::: no., cause, solution; optionally, time, persons responsible, budget <!--SR:!2025-02-22,187,341!2025-08-10,321,361-->
-- interview note-taking technique using 1 sheet of A4 paper ::: facts, key question (only 1), analysis <!--SR:!2025-08-22,330,361!2024-10-04,98,361-->
+- interview note-taking technique using 1 sheet of A4 paper ::: facts, key question (only 1), analysis <!--SR:!2025-08-22,330,361!2026-02-04,484,381-->
   - interview note § layout ::: split the paper into 2, the left side is thinner and holds the facts and key question, and the right side is the analysis <!--SR:!2024-12-13,134,321!2025-09-17,349,361-->
   - interview note § analysis ::: use a MECE framework suitable for the case in the interview <!--SR:!2025-12-24,450,381!2025-12-06,439,381-->
   - interview note § facts ::: do not be afraid to ask probing questions, probe for the real question, quantify, summarize, verify <!--SR:!2025-03-14,206,341!2025-09-05,340,361-->
@@ -236,7 +236,7 @@ The content is in teaching order.
 - time: 2024-04-16T18:00:00+08:00/2024-04-16T20:30:00+08:00
 - [assignment W11](assignment%20W11/assignment%20W11.md) takeaways
   - general case analysis reading takeaways ::: read twice, first fast, then slow and take notes <!--SR:!2025-08-27,352,377!2024-10-10,102,377-->
-- McKinsey 7Ss framework ::: organization analysis <!--SR:!2025-04-14,245,377!2024-10-05,98,377-->
+- McKinsey 7Ss framework ::: organization analysis <!--SR:!2025-04-14,245,377!2026-02-25,505,397-->
   - [McKinsey 7S Framework](../../../../general/McKinsey%207S%20Framework.md)
     - [§ objective](../../../../general/McKinsey%207S%20Framework.md#objective)
 - [PPTG change impact framework](../../../PPTG%20change%20impact%20framework.md)
@@ -252,7 +252,7 @@ The content is in teaching order.
 - [blue ocean strategy](../../../blue%20ocean%20strategy.md)
   - [general/Blue Ocean Strategy](../../../../general/Blue%20Ocean%20Strategy.md)
   - [§ red ocean vs. blue ocean](../../../blue%20ocean%20strategy.md#red%20ocean%20vs.%20blue%20ocean)
-  - blue ocean strategy example companies ::: CitizenM, Drybar, Johann Strauss Orchestra (André Rieu), Nintendo (Wii), Yellow Tail <!--SR:!2024-11-30,126,337!2024-10-08,101,377-->
+  - blue ocean strategy example companies ::: CitizenM, Drybar, Johann Strauss Orchestra (André Rieu), Nintendo (Wii), Yellow Tail <!--SR:!2024-11-30,126,337!2025-10-22,379,377-->
   - [§ blue ocean shift](../../../blue%20ocean%20strategy.md#blue%20ocean%20shift)
   - [§ understand "as-is"](../../../blue%20ocean%20strategy.md#understand%20"as-is")
   - [§ imagine "to be"](../../../blue%20ocean%20strategy.md#imagine%20"to%20be")

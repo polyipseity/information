@@ -44,7 +44,7 @@ return await memorize_seq(
 - _(begin)_→:::←create positive first impression <!--SR:!2025-07-13,396,310!2024-10-27,290,330-->
 - create positive first impression→:::←emphasize your knowledge of the company <!--SR:!2024-11-12,257,290!2027-03-06,887,330-->
 - emphasize your knowledge of the company→:::←include extra information not in the [résumé](résumé.md) <!--SR:!2024-12-19,191,250!2025-05-13,301,270-->
-- include extra information not in the [résumé](résumé.md)→:::←mention your referees <!--SR:!2024-10-07,195,270!2025-03-03,225,250-->
+- include extra information not in the [résumé](résumé.md)→:::←mention your referees <!--SR:!2026-03-18,526,270!2025-03-03,225,250-->
 - mention your referees→:::←_(end)_ <!--SR:!2025-03-03,309,310!2025-04-09,322,270-->
 
 <!--/pytextgen-->
@@ -88,8 +88,8 @@ return await memorize_seq(
 
 - _(begin)_→:::←your address, date, name and address of the company, recipient, and title <!--SR:!2024-10-16,212,250!2024-11-12,304,330-->
 - your address, date, name and address of the company, recipient, and title→:::←why me (the company): opening paragraph: introduce yourself and explain why you are excited about the job <!--SR:!2025-11-07,514,310!2024-11-10,244,290-->
-- why me (the company): opening paragraph: introduce yourself and explain why you are excited about the job→:::←why you: [DISC](DISC%20assessment.md) selling points, transferable skills, and achievements; 2 to 3 paragraphs, each paragraph has 1 selling point and is 6 to 7 lines long <!--SR:!2025-03-05,273,230!2024-10-07,185,270-->
-- why you: [DISC](DISC%20assessment.md) selling points, transferable skills, and achievements; 2 to 3 paragraphs, each paragraph has 1 selling point and is 6 to 7 lines long→:::←together we: closing paragraph: be humble, state attitude, skills, and knowledge (A.S.K.), call to action, and follow up <!--SR:!2026-01-29,492,250!2024-10-06,223,270-->
+- why me (the company): opening paragraph: introduce yourself and explain why you are excited about the job→:::←why you: [DISC](DISC%20assessment.md) selling points, transferable skills, and achievements; 2 to 3 paragraphs, each paragraph has 1 selling point and is 6 to 7 lines long <!--SR:!2025-03-05,273,230!2026-09-04,696,290-->
+- why you: [DISC](DISC%20assessment.md) selling points, transferable skills, and achievements; 2 to 3 paragraphs, each paragraph has 1 selling point and is 6 to 7 lines long→:::←together we: closing paragraph: be humble, state attitude, skills, and knowledge (A.S.K.), call to action, and follow up <!--SR:!2026-01-29,492,250!2026-06-01,601,270-->
 - together we: closing paragraph: be humble, state attitude, skills, and knowledge (A.S.K.), call to action, and follow up→:::←from or signature <!--SR:!2025-11-23,526,310!2024-12-18,142,210-->
 - from or signature→:::←_(end)_ <!--SR:!2027-12-25,1187,350!2026-02-10,504,290-->
 

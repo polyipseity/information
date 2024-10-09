@@ -107,7 +107,7 @@ name.aMethod("42", 42);
 Name.aStaticMethod();
 ```
 
-Importantly, {{the `main` method}} is `static` and has the following form: <!--SR:!2024-10-05,173,310-->
+Importantly, {{the `main` method}} is `static` and has the following form: <!--SR:!2026-10-18,740,330-->
 
 ```Java
 public static void main(String[] args) {

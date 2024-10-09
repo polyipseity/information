@@ -23,7 +23,7 @@ Petroleum is {{a [heterogeneous mixture](mixture.md#heterogeneous%20mixture) of 
 
 ## uses
 
-Petroleum is {{separated by [fractional distillation](fractional%20distillation.md) in [fractionating columns](fractionating%20column.md)}}. Fractions that {{have lower [boiling points](boiling%20point.md) are collected at the top}}. It is used for {{making [fuels](#fuels) and derivatives}}. <!--SR:!2025-12-23,583,254!2025-11-02,602,274!2024-10-06,347,294-->
+Petroleum is {{separated by [fractional distillation](fractional%20distillation.md) in [fractionating columns](fractionating%20column.md)}}. Fractions that {{have lower [boiling points](boiling%20point.md) are collected at the top}}. It is used for {{making [fuels](#fuels) and derivatives}}. <!--SR:!2025-12-23,583,254!2025-11-02,602,274!2027-07-24,1019,294-->
 
 ### fuels
 
@@ -85,7 +85,7 @@ return _chain.from_iterable(await _gather(
 - [liqueified petroleum gas](liqueified%20petroleum%20gas.md)→:::←[butane](butane.md) <!--SR:!2026-10-09,928,334!2026-10-02,924,334-->
 - [butane](butane.md)→:::←[gasoline/petrol](gasoline.md) <!--SR:!2024-10-26,413,294!2025-12-26,470,314-->
 - [gasoline/petrol](gasoline.md)→:::←[naphtha](naphtha.md) <!--SR:!2026-01-03,643,274!2024-10-10,18,130-->
-- [naphtha](naphtha.md)→:::←[jet fuel](jet%20fuel.md) <!--SR:!2024-10-06,5,130!2025-05-27,288,214-->
+- [naphtha](naphtha.md)→:::←[jet fuel](jet%20fuel.md) <!--SR:!2024-10-15,7,130!2025-05-27,288,214-->
 - [jet fuel](jet%20fuel.md)→:::←[kerosene](kerosene.md) <!--SR:!2025-01-24,437,274!2025-04-13,375,194-->
 - [kerosene](kerosene.md)→:::←[fuel oil](fuel%20oil.md) <!--SR:!2024-12-23,179,214!2024-10-17,14,130-->
 - [fuel oil](fuel%20oil.md)→:::←[diesel fuel](diesel%20fuel.md) <!--SR:!2024-10-30,417,294!2024-11-12,225,254-->
@@ -105,7 +105,7 @@ return _chain.from_iterable(await _gather(
 - [naphtha](naphtha.md)::30 to 200 °C <!--SR:!2024-11-06,56,190-->
 - [jet fuel](jet%20fuel.md)::150 to 205 °C <!--SR:!2024-11-02,39,130-->
 - [kerosene](kerosene.md)::205 to 260 °C <!--SR:!2024-10-20,55,130-->
-- [fuel oil](fuel%20oil.md)::205 to 290 °C <!--SR:!2024-10-05,4,130-->
+- [fuel oil](fuel%20oil.md)::205 to 290 °C <!--SR:!2024-10-14,6,130-->
 - [diesel fuel](diesel%20fuel.md)::260 to 315 °C <!--SR:!2024-10-16,15,130-->
 - [paraffin wax](paraffin%20wax.md)::370 °C or above <!--SR:!2024-10-12,55,174-->
 - [bitumen](bitumen.md)::500 °C or above <!--SR:!2025-01-06,205,294-->

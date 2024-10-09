@@ -63,7 +63,7 @@ The value map itself has three parts: {{products and services, pain relievers, a
 
 ### customer profile
 
-Customer jobs can be split into three categories: {{functional jobs; social jobs, seek to be perceived in a certain way by others; and personal or emotional jobs, seek to feel a certain way}}. There are also supporting jobs arising from three different roles: {{buyer of value, buying value; co-creator of value, participating in creating value; and transferrer of value, end of lifecycle}}. Note that jobs {{have different priorities}}.  The jobs can be improved by {{asking why repeatedly until you find the root job}}. <!--SR:!2025-03-09,216,289!2025-02-17,205,289!2024-10-07,122,309!2024-10-30,130,325-->
+Customer jobs can be split into three categories: {{functional jobs; social jobs, seek to be perceived in a certain way by others; and personal or emotional jobs, seek to feel a certain way}}. There are also supporting jobs arising from three different roles: {{buyer of value, buying value; co-creator of value, participating in creating value; and transferrer of value, end of lifecycle}}. Note that jobs {{have different priorities}}.  The jobs can be improved by {{asking why repeatedly until you find the root job}}. <!--SR:!2025-03-09,216,289!2025-02-17,205,289!2025-10-19,376,309!2024-10-30,130,325-->
 
 Since customer jobs has {{functional and non-functional aspects}}, the resulting products can be categorized by {{functional complexity and emotional complexity}}. It is important that non-functional aspects are {{not ignored}}. For example, a hunching old person needs a stick, but {{the person also wants to not feel bad while using the stick}}. Sometimes, non-functional aspects are {{more important than functional ones}}, such as {{an extremely expensive sports car, which is mainly for showing status instead of driving on it}}. So a {{deep understanding}} of customer jobs is required. <!--SR:!2025-10-17,414,365!2025-09-26,393,365!2024-12-30,167,325!2025-03-11,233,345!2025-09-07,381,365!2025-02-27,206,325!2025-07-23,345,365-->
 
@@ -156,7 +156,7 @@ mix: mixing products and services with pain relievers and gain creators
 
 <!--pytextgen generate section="8ba2"--><!-- The following content is generated at 2024-03-22T20:40:48.908986+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←all: addressing all customer pains and gains <!--SR:!2024-10-06,108,269!2025-07-05,348,349-->
+- _(begin)_→:::←all: addressing all customer pains and gains <!--SR:!2025-07-25,290,269!2025-07-05,348,349-->
 - all: addressing all customer pains and gains→:::←irrelevance: listing all products and services without considering the customer segment <!--SR:!2024-12-30,140,229!2024-11-30,73,229-->
 - irrelevance: listing all products and services without considering the customer segment→:::←irrelevance: offer irrelevant pain relievers and gain creators <!--SR:!2024-11-17,76,209!2025-01-06,112,269-->
 - irrelevance: offer irrelevant pain relievers and gain creators→:::←mix: mixing products and services with pain relievers and gain creators <!--SR:!2024-12-09,70,229!2025-01-16,173,269-->
@@ -262,7 +262,7 @@ conclusion: make progress
 - test: design tests→:::←test: prioritize tests <!--SR:!2025-07-09,282,309!2025-11-28,450,310-->
 - test: prioritize tests→:::←test: run tests <!--SR:!2025-01-18,213,329!2024-11-25,166,310-->
 - test: run tests→:::←conclusion: capture findings <!--SR:!2024-10-17,107,269!2024-10-22,129,309-->
-- conclusion: capture findings→:::←conclusion: make progress <!--SR:!2025-02-09,213,329!2024-10-08,131,309-->
+- conclusion: capture findings→:::←conclusion: make progress <!--SR:!2025-02-09,213,329!2025-11-16,404,309-->
 - conclusion: make progress→:::←_(end)_ <!--SR:!2025-02-14,218,329!2025-07-29,301,270-->
 
 <!--/pytextgen-->

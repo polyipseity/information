@@ -63,7 +63,7 @@ return await memorize_seq(
 - air pollution→:::←land contamination <!--SR:!2025-05-05,223,270!2025-04-15,255,330-->
 - land contamination→:::←noise pollution <!--SR:!2025-02-07,141,270!2025-05-16,255,290-->
 - noise pollution→:::←solid waste disposal <!--SR:!2025-04-13,209,270!2024-11-18,126,290-->
-- solid waste disposal→:::←water pollution <!--SR:!2024-12-15,140,290!2024-10-05,35,190-->
+- solid waste disposal→:::←water pollution <!--SR:!2024-12-15,140,290!2025-01-16,100,210-->
 - water pollution→:::←_(end)_ <!--SR:!2024-12-20,145,310!2025-01-11,174,310-->
 
 <!--/pytextgen-->
@@ -98,11 +98,11 @@ return await memorize_seq(
 <!--pytextgen generate section="a92d"--><!-- The following content is generated at 2024-06-09T06:29:24.057662+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←(Cap. 311) Air Pollution Control Ordinance <!--SR:!2024-12-31,104,255!2025-11-13,409,375-->
-- (Cap. 311) Air Pollution Control Ordinance→:::←(Cap. 354) Waste Disposal Ordinance <!--SR:!2024-11-21,84,275!2024-10-08,40,275-->
-- (Cap. 354) Waste Disposal Ordinance→:::←(Cap. 358) Water Pollution Control Ordinance <!--SR:!2024-10-08,29,275!2024-10-20,52,315-->
+- (Cap. 311) Air Pollution Control Ordinance→:::←(Cap. 354) Waste Disposal Ordinance <!--SR:!2024-11-21,84,275!2025-01-27,111,275-->
+- (Cap. 354) Waste Disposal Ordinance→:::←(Cap. 358) Water Pollution Control Ordinance <!--SR:!2024-12-29,82,275!2024-10-20,52,315-->
 - (Cap. 358) Water Pollution Control Ordinance→:::←(Cap. 400) Noise Pollution Control Ordinance <!--SR:!2024-10-31,50,255!2024-10-12,42,255-->
 - (Cap. 400) Noise Pollution Control Ordinance→:::←(Cap. 499) Environmental Impact Ordinance <!--SR:!2025-02-06,149,295!2024-11-09,63,295-->
-- (Cap. 499) Environmental Impact Ordinance→:::←_(end)_ <!--SR:!2025-11-29,423,375!2024-10-07,92,355-->
+- (Cap. 499) Environmental Impact Ordinance→:::←_(end)_ <!--SR:!2025-11-29,423,375!2025-08-30,326,355-->
 
 <!--/pytextgen-->
 
@@ -208,7 +208,7 @@ Sustainable Waste Management
 How to provide motivation for waste reduction, reuse and recycling?
 
 - How to charge your MSW? ::: fixed charge, proxy system, quantity-based system <!--SR:!2025-01-19,182,310!2024-12-08,147,310-->
-  - quantity-based system example ::: Taipei (not Taiwan as a whole) implemented MSW charging by bag in 2000. Compared to before, -37% after 1 year and -62% after 7 years. <!--SR:!2024-10-06,91,270!2024-11-13,120,290-->
+  - quantity-based system example ::: Taipei (not Taiwan as a whole) implemented MSW charging by bag in 2000. Compared to before, -37% after 1 year and -62% after 7 years. <!--SR:!2025-06-10,245,270!2024-11-13,120,290-->
 
 ## page 14
 
@@ -226,7 +226,7 @@ Will this waste charging scheme waste generation?
 Environmental Levy Scheme (Plastic Shopping Bags)
 
 - Environmental Levy Scheme ::: scheme to reduce plastic shopping bags <!--SR:!2025-03-28,239,330!2025-02-28,198,310-->
-  - Environmental Levy Scheme launch time ::: launched in 2009 <!--SR:!2024-10-05,83,290!2025-04-21,256,330-->
+  - Environmental Levy Scheme launch time ::: launched in 2009 <!--SR:!2025-09-06,333,310!2025-04-21,256,330-->
   - Environmental Levy Scheme coverage ::: 40 registered retailers with ~3100 retail outlets <!--SR:!2025-08-10,314,290!2024-12-16,146,310-->
   - Environmental Levy Scheme effect ::: -90% from registered retailers after 1 year. -25% in overall plastic bag consumption after covering all retail shops in 2015 <!--SR:!2025-03-07,183,270!2024-12-27,150,290-->
   - Environmental Levy Scheme income ::: HK$25.5 million in 2009 <!--SR:!2025-03-17,191,270!2024-11-08,115,290-->
@@ -348,7 +348,7 @@ Indoor Air Quality
   - common indoor air pollutant examples ::: carbon dioxide (CO<sub>2</sub>), carbon monoxide (CO), respirable suspended particulate (RSP/PM<sub>10</sub>) <!--SR:!2025-04-29,217,270!2025-01-01,157,310-->
     - carbon dioxide limits ::: excellent: < 800 ppmv; good: < 1000 ppmv <!--SR:!2025-05-09,226,270!2024-12-28,153,310-->
     - carbon monoxide limits ::: excellent: < 2000 μg/m<sup>3</sup>, < 1.7 ppmv; good: < 10000 μg/m<sup>3</sup>, < 8.7 ppmv <!--SR:!2024-10-22,28,210!2025-01-17,167,310-->
-    - respirable suspended particulate limits ::: excellent: < 20 μg/m<sup>3</sup>; good: < 180 μg/m<sup>3</sup> <!--SR:!2025-05-10,222,270!2024-10-06,62,270-->
+    - respirable suspended particulate limits ::: excellent: < 20 μg/m<sup>3</sup>; good: < 180 μg/m<sup>3</sup> <!--SR:!2025-05-10,222,270!2025-06-02,237,290-->
 
 ## page 30
 
@@ -417,7 +417,7 @@ Observed climate change in Hong Kong
 
 Concentration Units for Liquids
 
-- concentration units for liquids ::: mass of substance per unit mass of mixture, mass of substance per unit volume of mixture <!--SR:!2024-10-05,90,270!2024-11-22,124,290-->
+- concentration units for liquids ::: mass of substance per unit mass of mixture, mass of substance per unit volume of mixture <!--SR:!2025-06-07,242,270!2024-11-22,124,290-->
   - mass of substance per unit volume of mixture units for liquids ::: mol/L (mol is not strictly mass), mg/L <!--SR:!2024-11-24,138,310!2025-02-06,185,310-->
   - mass of substance per unit mass of mixture units for liquids ::: parts per billion (ppb) by weight, parts per million (ppm) by weight <!--SR:!2025-03-09,205,310!2025-06-21,306,330-->
 
@@ -459,4 +459,4 @@ Relationship between ppm<sub>v</sub> and mg/m<sup>3</sup>
 
 - relationship between ppm<sub>v</sub> and mg/m<sup>3</sup>
   - relationship between ppm<sub>v</sub> and mg/m<sup>3</sup> at 0 °C and 1 atm ::: $$\mathrm{conc.\ \left(mg/m^3\right)} = \frac {\mathrm{conc.\ (ppm_v)} \times \mathrm{mol.\ wt.\ (g/mol)} } {22.414\mathrm{\ (L/mol)} }$$ <!--SR:!2024-11-24,86,290!2024-11-07,116,290-->
-  - relationship between ppm<sub>v</sub> and mg/m<sup>3</sup> at other temperature and pressure ::: $$\mathrm{conc.\ \left(mg/m^3\right)} = \frac {\mathrm{conc.\ (ppm_v)} \times \mathrm{mol.\ wt.\ (g/mol)} } {\mathrm{22.414\ (L/mol)} } \times \frac {273.15\mathrm{\ K} } {T\mathrm{\ (K)} } \times \frac {p\mathrm{\ (atm)} } {1\mathrm{\ atm} }$$ <!--SR:!2024-10-11,94,270!2024-10-07,95,290-->
+  - relationship between ppm<sub>v</sub> and mg/m<sup>3</sup> at other temperature and pressure ::: $$\mathrm{conc.\ \left(mg/m^3\right)} = \frac {\mathrm{conc.\ (ppm_v)} \times \mathrm{mol.\ wt.\ (g/mol)} } {\mathrm{22.414\ (L/mol)} } \times \frac {273.15\mathrm{\ K} } {T\mathrm{\ (K)} } \times \frac {p\mathrm{\ (atm)} } {1\mathrm{\ atm} }$$ <!--SR:!2024-10-11,94,270!2025-07-12,277,290-->

@@ -78,7 +78,7 @@ See [CN Tower](../../../../general/CN%20Tower.md).
 See [Central Plaza (Hong Kong)](../../../../general/Central%20Plaza%20(Hong%20Kong).md).
 
 - description ::: super tall skyscraper in Wan Chai, Hong Kong <!--SR:!2024-11-26,170,355!2025-10-02,399,377-->
-- height ::: architectural: 373.9 m, top floor: 299 m <!--SR:!2024-10-08,51,241!2025-09-25,392,376-->
+- height ::: architectural: 373.9 m, top floor: 299 m <!--SR:!2024-11-02,25,221!2025-09-25,392,376-->
 - image ::: ![Central Plaza (Hong Kong) image](../../../../archives/Wikimedia%20Commons/Hong%20Kong%20Convention%20and%20Exhibition%20Centre%20200906(cropped).jpg) <!--SR:!2025-02-03,158,360!2025-11-07,446,400-->
 - [structural system](../../../../general/structural%20system.md) ::: reinforced concrete<!-- flashcard 90e284d1-1940-43c0-b5d7-1b8bea6e3c3e --> <!--SR:!2024-12-27,173,341!2025-07-15,330,381-->
 
@@ -86,7 +86,7 @@ See [Central Plaza (Hong Kong)](../../../../general/Central%20Plaza%20(Hong%20Ko
 
 See [Channel Tunnel](../../../../general/Channel%20Tunnel.md).
 
-- completion time ::: 1994 <!--SR:!2024-10-05,44,296!2024-10-10,110,376-->
+- completion time ::: 1994 <!--SR:!2025-04-03,177,316!2024-10-10,110,376-->
 - rail tunnel length ::: 50.5 km (37.9 km underseas) <!--SR:!2024-10-31,33,236!2024-10-20,125,396-->
 
 ## China International Trust and Investment Plaza
@@ -107,7 +107,7 @@ See [Colosseum](../../../../general/Colosseum.md).
 - description ::: elliptical amphitheater in the center of Rome <!--SR:!2025-05-13,268,376!2024-10-13,113,376-->
 - geographic location ::: Rome <!--SR:!2024-10-13,119,396!2024-10-29,133,396-->
 - height ::: 48 m (4 storeys) <!--SR:!2025-01-13,110,276!2024-11-11,143,396-->
-- importance ::: largest amphitheater in the Roman Empire, greatest works of Roman architecture and engineering <!--SR:!2024-10-25,122,376!2024-10-08,108,376-->
+- importance ::: largest amphitheater in the Roman Empire, greatest works of Roman architecture and engineering <!--SR:!2024-10-25,122,376!2026-04-16,555,396-->
 
 ## Eiffel Tower
 
@@ -128,7 +128,7 @@ See [Empire State Building](../../../../general/Empire%20State%20Building.md).
 
 See [Golden Gate Bridge](../../../../general/Golden%20Gate%20Bridge.md).
 
-- image ::: ![Golden Gate Bridge image](../../../../archives/Wikimedia%20Commons/Golden%20Gate%20Bridge%20as%20seen%20from%20Battery%20East.jpg) <!--SR:!2024-10-04,111,396!2024-11-02,136,396-->
+- image ::: ![Golden Gate Bridge image](../../../../archives/Wikimedia%20Commons/Golden%20Gate%20Bridge%20as%20seen%20from%20Battery%20East.jpg) <!--SR:!2026-05-30,599,416!2024-11-02,136,396-->
 
 ## Great Pyramid of Giza
 
@@ -136,7 +136,7 @@ See [Great Pyramid of Giza](../../../../general/Great%20Pyramid%20of%20Giza.md).
 
 - base width ::: 230.33 m <!--SR:!2024-10-17,114,376!2024-11-03,137,396-->
 - construction period ::: 10~20 years around 2560 BC <!--SR:!2024-10-25,31,216!2024-10-14,120,396-->
-- description ::: largest pyramid in the Giza Necropolis, Egypt <!--SR:!2024-10-05,112,396!2024-10-31,134,396-->
+- description ::: largest pyramid in the Giza Necropolis, Egypt <!--SR:!2026-06-05,605,416!2024-10-31,134,396-->
 - height ::: current: 138.5 m, original: 146.6 m <!--SR:!2024-12-03,141,356!2024-11-02,136,396-->
 - weight ::: 5.9 million tonnes <!--SR:!2024-10-31,47,356!2024-11-10,142,396-->
 - tomb for ::: Egypt's 4th dynasty pharaoh Khufu <!--SR:!2024-10-21,118,376!2025-05-07,264,376-->
@@ -192,7 +192,7 @@ See [International Commerce Centre](International%20Commerce%20Centre.md).
 - description ::: tallest building in [Hong Kong](../../../../general/Hong%20Kong.md) <!--SR:!2024-12-25,214,330!2025-11-28,471,390-->
 - height ::: architectural: 484 m, tip: 484 m, top floor: 468 m, roof: 484 m <!--SR:!2025-01-22,140,301!2025-01-15,231,330-->
 - image ::: ![International Commerce Centre image](../../../../archives/Wikimedia%20Commons/International%20Commerce%20Centre%20201008.jpg) <!--SR:!2025-03-17,232,360!2025-12-14,472,400-->
-- [structural system](../../../../general/structural%20system.md) ::: concrete–steel composite <!--SR:!2024-10-06,8,241!2026-02-24,538,401-->
+- [structural system](../../../../general/structural%20system.md) ::: concrete–steel composite <!--SR:!2024-10-31,23,261!2026-02-24,538,401-->
 
 ## Itaipu Dam
 
@@ -315,7 +315,7 @@ See [Two Prudential Plaza](../../../../general/Two%20Prudential%20Plaza.md).
 
 - description ::: 64-story skyscraper located in the Loop area of Chicago, Illinois <!--SR:!2025-06-20,290,320!2025-08-31,399,385-->
 - height ::: architectural: 303 m, top floor: 250 m <!--SR:!2024-10-17,31,181!2025-12-20,488,384-->
-- image ::: ![Two Prudential Plaza image](../../../../archives/Wikimedia%20Commons/Two%20Prudential%20Plaza%20Chicago%20in%20May%202016.jpg) <!--SR:!2025-06-04,294,360!2024-10-05,21,320-->
+- image ::: ![Two Prudential Plaza image](../../../../archives/Wikimedia%20Commons/Two%20Prudential%20Plaza%20Chicago%20in%20May%202016.jpg) <!--SR:!2025-06-04,294,360!2024-12-11,64,320-->
 - [structural system](../../../../general/structural%20system.md) ::: reinforced concrete<!-- flashcard ecbdac25-22dc-429d-9976-d49408b1478d --> <!--SR:!2025-01-13,128,340!2025-12-30,488,400-->
 
 ## Water Cube

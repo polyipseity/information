@@ -48,7 +48,7 @@ The three components of financial statements are {{[statement of cash flows](cas
 
 - see: [cash flow statement](cash%20flow%20statement.md)
 
-The statement of cash flows is also called {{cash flow statement}}. <!--SR:!2024-10-07,16,315-->
+The statement of cash flows is also called {{cash flow statement}}. <!--SR:!2024-12-15,68,335-->
 
 The statement of cash flows {{considers the inputs and outputs in concrete cash within a stated period}}. The general template of a cash flow statement is as follows: {{_Cash Inflow - Cash Outflow + Opening Balance = Closing Balance_}} <!--SR:!2024-11-08,44,290!2024-10-31,37,290-->
 
@@ -78,7 +78,7 @@ Important: the cash flow statement {{only considers the exchange of __actual__ c
 
 - see: [income statement](income%20statement.md)
 
-The statement of financial performance is also called {{income statement, profit & loss (p&l) statement, or statement of operations}}. <!--SR:!2024-10-07,16,315-->
+The statement of financial performance is also called {{income statement, profit & loss (p&l) statement, or statement of operations}}. <!--SR:!2024-12-16,69,335-->
 
 The statement of profit or income statement represents {{the changes in value of a company's [accounts](account%20(bookkeeping).md) over a set period (most commonly one [fiscal year](fiscal%20year.md))}}, and may {{compare the changes to changes in the same accounts over the previous period}}. All changes are {{summarized on the "bottom line" as [net income](net%20income.md), often reported as "net loss" when income is less than zero}}. <!--SR:!2024-12-05,66,310!2024-11-11,45,290!2024-10-24,29,270-->
 
@@ -88,7 +88,7 @@ The net profit or loss is determined by: <br/> {{sales (revenue) <br/> – [cost
 
 - see: [balance sheet](balance%20sheet.md)
 
-The statement of financial position is also called {{balance sheet}}. <!--SR:!2024-10-06,15,315-->
+The statement of financial position is also called {{balance sheet}}. <!--SR:!2024-11-23,46,315-->
 
 The balance sheet is {{the financial statement showing a firm's [assets](asset.md), [liabilities](liability%20(financial%20accounting).md) and [equity](equity%20(finance).md) (capital) at a set point in time, usually the end of the fiscal year reported on the accompanying income statement}}. The total assets {{always equal the total combined liabilities and equity}}. This statement best demonstrates {{the basic accounting equation: _Assets = Liabilities + Equity_}}. <!--SR:!2024-11-01,38,290!2024-12-06,66,310!2024-12-05,66,310-->
 
@@ -96,7 +96,7 @@ The statement can be used to {{help show the financial position of a company}} b
 
 Accounting standards often {{set out a general format that companies are expected to follow when presenting their balance sheets}}. [International Financial Reporting Standards](International%20Financial%20Reporting%20Standards.md) (IFRS) normally require that {{companies report [current](current%20asset.md) assets and liabilities separately from non-current amounts}}.<sup>[\[5\]](#^ref-5)</sup><sup>[\[6\]](#^ref-6)</sup> A GAAP-compliant balance sheet must {{list assets and liabilities based on decreasing liquidity, from most liquid to least liquid. As a result, current assets/liabilities are listed first followed by non-current assets/liabilities}}. However, an IFRS-compliant balance sheet must {{list assets/liabilities based on increasing liquidity, from least liquid to most liquid. As a result, non-current assets/liabilities are listed first followed by current assets/liabilities}}.<sup>[\[7\]](#^ref-7)</sup> <!--SR:!2024-10-22,30,270!2024-11-01,38,290!2024-11-16,46,270!2024-11-16,50,290-->
 
-Current assets are {{the most liquid assets of a firm, which are expected to be realized within a 12-month period, or the firm's operating cycle, whichever is longer}}. Current assets include: {{[cash](cash.md), [accounts receivable](accounts%20receivable.md), merchandise inventory, [investee companies](company.md) (held less than a financial period), [prepaid expenses](deferral.md) (for use during the current financial period), etc.}} <!--SR:!2024-12-06,67,310!2024-10-05,14,250-->
+Current assets are {{the most liquid assets of a firm, which are expected to be realized within a 12-month period, or the firm's operating cycle, whichever is longer}}. Current assets include: {{[cash](cash.md), [accounts receivable](accounts%20receivable.md), merchandise inventory, [investee companies](company.md) (held less than a financial period), [prepaid expenses](deferral.md) (for use during the current financial period), etc.}} <!--SR:!2024-12-06,67,310!2024-11-11,34,250-->
 
 - [cash](cash.md) ::: physical money <!--SR:!2024-11-05,41,290!2024-11-12,46,290-->
 - [accounts receivable](accounts%20receivable.md) ::: revenues earned but not yet collected <!--SR:!2024-11-07,42,290!2024-11-07,42,290-->
@@ -111,14 +111,14 @@ Non-current assets include {{[fixed](fixed%20asset.md) or long-term assets and [
 
 Liabilities include {{current liabilities and long-term liabilities}}: <!--SR:!2024-11-18,48,290-->
 
-- _current liabilities_ ::: trade accounts payable, dividends payable, employee salaries payable, interest (e.g. on debt) payable <!--SR:!2024-10-06,15,250!2024-10-15,22,270-->
+- _current liabilities_ ::: trade accounts payable, dividends payable, employee salaries payable, interest (e.g. on debt) payable <!--SR:!2024-11-29,52,270!2024-10-15,22,270-->
 - _long-term liabilities_ ::: mortgage notes payable, bonds payable <!--SR:!2024-11-27,58,310!2024-11-11,46,290-->
 
 {{Owner's equity, sometimes referred to as net assets}}, is {{represented differently depending on the type of business ownership}}. Business ownership can be in the form of {{a sole proprietorship, partnership, or a [corporation](corporation.md)}}. For {{a corporation}}, the owner's equity portion {{usually shows common stock, and retained earnings (earnings kept in the company)}}. Retained earnings come from {{the retained earnings statement, prepared prior to the balance sheet}}.<sup>[\[8\]](#^ref-8)</sup> <!--SR:!2024-11-09,42,290!2024-11-17,51,290!2024-11-28,59,310!2024-11-18,52,290!2024-11-06,41,290!2024-11-12,47,290-->
 
 #### statement of retained earnings
 
-The statement of retained earnings is also called {{statement of changes in equity}}. <!--SR:!2024-10-05,14,315-->
+The statement of retained earnings is also called {{statement of changes in equity}}. <!--SR:!2024-12-09,62,335-->
 
 This statement is {{additional to the three main statements described above}}. It shows {{how the distribution of income and transfer of dividends affects the wealth of shareholders in the company}}. The concept of retained earnings means {{profits of previous years that are accumulated till current period}}. Basic proforma for this statement is as follows: <p> {{retained earnings at the beginning of period <br/> + net income for the period <br/> – dividends <br/> = retained earnings at the end of period}}.<sup>[\[9\]](#^ref-9)</sup> <!--SR:!2024-11-18,48,290!2024-12-09,69,310!2024-11-26,59,310!2024-11-15,49,290-->
 
@@ -126,7 +126,7 @@ This statement is {{additional to the three main statements described above}}. I
 
 ### the stable measuring assumption
 
-One of the basic principles in accounting is {{"The Measuring Unit principle"}}: {{"The unit of measure in accounting shall be the base money unit of the most relevant currency. This principle also assumes the unit of measure is stable; that is, changes in its general purchasing power are not considered sufficiently important to require adjustments to the basic financial statements."}}<sup>[\[10\]](#^ref-10)</sup> <!--SR:!2024-12-05,65,310!2024-10-04,13,250-->
+One of the basic principles in accounting is {{"The Measuring Unit principle"}}: {{"The unit of measure in accounting shall be the base money unit of the most relevant currency. This principle also assumes the unit of measure is stable; that is, changes in its general purchasing power are not considered sufficiently important to require adjustments to the basic financial statements."}}<sup>[\[10\]](#^ref-10)</sup> <!--SR:!2024-12-05,65,310!2024-11-21,44,270-->
 
 This basic principle gives rise to the commonly used {{[historical cost accounting](historical%20cost.md), i.e., financial capital maintenance in nominal monetary units}}. It is based on {{the stable measuring unit assumption}} under which accountants {{simply assume that money, the monetary unit of measure, is perfectly stable in real value, for the purpose of measuring (1) monetary items not inflation-indexed daily in terms of the Daily CPI and (2) constant real value non-monetary items not updated daily in terms of the Daily CPI, during low and high inflation and deflation}}. <!--SR:!2024-11-16,50,290!2024-11-19,53,290!2024-10-31,34,270-->
 
@@ -138,13 +138,13 @@ The stable monetary unit assumption is {{not applied during hyperinflation}}. {{
 
 Financial accountants produce {{financial statements based on the accounting standards in a given jurisdiction}}. These standards may be {{the [Generally Accepted Accounting Principles](accounting%20standard.md) of a respective country, which are typically issued by a national standard setter}}, or {{[International Financial Reporting Standards](International%20Financial%20Reporting%20Standards.md) (IFRS), which are issued by the [International Accounting Standards Board](International%20Accounting%20Standards%20Board.md) (IASB)}}. <!--SR:!2024-11-15,49,290!2024-10-18,25,270!2024-10-23,31,270-->
 
-Financial accountants serves the following purposes: {{producing general purpose financial statements; producing information used by the management of a business entity for decision making, planning and performance evaluation; and producing financial statements for meeting regulatory requirements}}. <!--SR:!2024-10-06,15,250-->
+Financial accountants serves the following purposes: {{producing general purpose financial statements; producing information used by the management of a business entity for decision making, planning and performance evaluation; and producing financial statements for meeting regulatory requirements}}. <!--SR:!2024-11-16,39,250-->
 
 Objectives include:
 
-- __systematic recording of transactions__ ::: Basic objective of accounting is to systematically record the financial aspects of business transactions (i.e. book-keeping). These recorded transactions are later on classified and summarized logically for the preparation of financial statements and for their analysis and interpretation. <!--SR:!2024-10-07,16,250!2024-10-17,24,270-->
+- __systematic recording of transactions__ ::: Basic objective of accounting is to systematically record the financial aspects of business transactions (i.e. book-keeping). These recorded transactions are later on classified and summarized logically for the preparation of financial statements and for their analysis and interpretation. <!--SR:!2024-12-02,55,270!2024-10-17,24,270-->
 - __ascertainment of result of above recorded transactions__ ::: Accountant prepares profit and loss account to know the result of business operations for a particular period of time. If expenses exceed revenue then it is said that the business is running under loss. The profit and loss account helps the management and different stakeholders in taking rational decisions. For example, if business is not proved to be remunerative or profitable, the cause of such a state of affairs can be investigated by the management for taking remedial steps. <!--SR:!2024-10-09,18,250!2024-10-14,21,270-->
-- __ascertainment of the financial position of business__ ::: Businessman is not only interested in knowing the result of the business in terms of profits or loss for a particular period but is also anxious to know that what he owes (liability) to the outsiders and what he owns (assets) on a certain date. To know this, accountant prepares a financial position statement of assets and liabilities of the business at a particular point of time and helps in ascertaining the financial health of the business. <!--SR:!2024-10-08,17,250!2024-10-26,30,270-->
+- __ascertainment of the financial position of business__ ::: Businessman is not only interested in knowing the result of the business in terms of profits or loss for a particular period but is also anxious to know that what he owes (liability) to the outsiders and what he owns (assets) on a certain date. To know this, accountant prepares a financial position statement of assets and liabilities of the business at a particular point of time and helps in ascertaining the financial health of the business. <!--SR:!2024-11-19,42,250!2024-10-26,30,270-->
 - __providing information to the users for rational decision-making__ ::: Accounting as a 'language of business' communicates the financial result of an enterprise to various stakeholders by means of financial statements. Accounting aims to meet the financial information needs of the decision-makers and helps them in rational decision-making. <!--SR:!2024-10-25,32,290!2024-10-25,29,270-->
 - __to know the solvency position__ ::: By preparing the balance sheet, management not only reveals what is owned and owed by the enterprise, but also it gives the information regarding concern's ability to meet its liabilities in the short run (liquidity position) and also in the long-run (solvency position) as and when they fall due. <!--SR:!2024-12-11,71,310!2024-10-10,19,250-->
 

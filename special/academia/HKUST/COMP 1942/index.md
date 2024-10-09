@@ -316,7 +316,7 @@ The content is in teaching order.
 - [perceptron](../../../../general/perceptron.md)
   - [§ steps](../../../../general/perceptron.md#steps)
     - perceptron stopping conditions ::: We can limit the maximum number of epochs, i.e. number of passes over the entire training dataset. We can also prematurely stop the training when the percentage error reaches below a threshold. <!--SR:!2025-04-08,220,357!2025-05-24,273,377-->
-    - perceptron error trends ::: Generally, the error decreases, increasingly slowly. Eventually, the error stops decreasing. <!--SR:!2024-10-17,100,377!2024-10-07,92,377-->
+    - perceptron error trends ::: Generally, the error decreases, increasingly slowly. Eventually, the error stops decreasing. <!--SR:!2024-10-17,100,377!2026-01-24,473,397-->
   - [§ convergence of one perceptron on a linearly separable dataset](../../../../general/perceptron.md#convergence%20of%20one%20perceptron%20on%20a%20linearly%20separable%20dataset)
 - [multilayer perceptron](../../../../general/multilayer%20perceptron.md)
 - [Analytics Solver usage](../../../Analytic%20Solver%20usage.md): neural network
@@ -372,7 +372,7 @@ The content is in teaching order.
     - § computing PCA using the covariance method > eigenvalues and eigenvectors ::: The [classical method](../../../../general/eigenvalues%20and%20eigenvectors.md#classical%20method) is used to calculate. The eigenvalues _λ_ are found using $\det(\mathbf{\Sigma} - \lambda \mathbf{I})$ instead of $\det(\lambda \mathbf{I} - \mathbf{\Sigma})$. The eigenvectors are normalized. <!--SR:!2025-07-14,313,377!2025-04-15,236,357-->
       - [eigenvalues and eigenvectors § classical method](../../../../general/eigenvalues%20and%20eigenvectors.md#classical%20method)
         - eigenvalues and eigenvectors § classical method > eigenvector ::: The eigenvector is calculated from the eigenvalue using $(\mathbf{\Sigma} - \lambda \mathbf{I}) \mathbf{x} = \mathbf{0}$ instead of $\mathbf{\Sigma} \mathbf{x} = \lambda \mathbf{x}$. <!--SR:!2024-10-18,101,377!2025-08-18,342,377-->
-    - § computing PCA using the covariance method > eigenvector matrix ::: The eigenvector matrix uses the symbol __Φ__. Instead of selecting a subset of the eigenvectors as the basis vectors first, the whole matrix is kept, and then the redundant coordinates are only discarded after transforming the original data. <!--SR:!2024-10-05,90,377!2025-03-22,205,357-->
+    - § computing PCA using the covariance method > eigenvector matrix ::: The eigenvector matrix uses the symbol __Φ__. Instead of selecting a subset of the eigenvectors as the basis vectors first, the whole matrix is kept, and then the redundant coordinates are only discarded after transforming the original data. <!--SR:!2025-09-13,340,377!2025-03-22,205,357-->
     - § computing PCA using the covariance method > cumulative variance ::: Cumulative variance is ignored. So the step about computing the cumulative variance is ignored. Instead, the number of dimensions to be reduced to is specified beforehand instead of being chosen using the ignored step. <!--SR:!2025-04-04,217,357!2025-01-02,143,337-->
     - § computing PCA using the covariance method > data transformation ::: Also, instead of transforming the mean-subtracted data using $\mathbf{T} = \mathbf{B} \mathbf{\Phi}$, the original data $\mathbf{Y} = \mathbf{X}^\intercal$ is transformed, and in a different way: $\mathbf{T}' = \mathbf{\Phi}^\intercal \mathbf{Y}$. Each column instead of each row of $\mathbf{T}'$ is a data point. Even more specifically, the data points are transformed one by one: $\mathbf{T}'_i = \mathbf{\Phi}^\intercal \mathbf{Y}_i$. <!--SR:!2025-02-19,181,337!2025-02-02,166,337-->
 - [Analytics Solver usage](../../../Analytic%20Solver%20usage.md): principal components
@@ -472,11 +472,11 @@ The content is in teaching order.
   - association thresholding ::: Instead of thresholding by frequency, we can threshold by number of frequent item sets found, which may be easier to choose. <!--SR:!2025-06-03,278,377!2025-01-27,161,337-->
   - [clustering high-dimensional data § subspace clustering](../../../../general/clustering%20high-dimensional%20data.md#subspace%20clustering) ::: By removing some dimensions of the data, more interesting clusters may be found. It mitigates [curse of dimensionality](../../../../general/curse%20of%20dimensionality.md), where [distances between different pairs of points become similar](../../../../general/curse%20of%20dimensionality.md#distance%20function). <!--SR:!2024-12-09,135,337!2025-06-18,293,377-->
   - ensemble of classifiers ::: We can output the prediction based on the majority prediction of the classifiers. <!--SR:!2025-08-24,347,377!2025-05-28,256,357-->
-  - data warehouse questions ::: How to create the data warehouse over different types of data, such as a graph? <!--SR:!2024-10-06,91,377!2025-10-17,386,377-->
-  - [word-sense disambiguation](word-sense%20disambiguation.md) ::: How to disambiguate between different entities of the same name on the Internet? <!--SR:!2024-10-07,92,377!2024-10-06,91,377-->
+  - data warehouse questions ::: How to create the data warehouse over different types of data, such as a graph? <!--SR:!2026-01-23,472,397!2025-10-17,386,377-->
+  - [word-sense disambiguation](word-sense%20disambiguation.md) ::: How to disambiguate between different entities of the same name on the Internet? <!--SR:!2026-01-25,474,397!2026-01-22,471,397-->
   - social networks ::: How are people connected? <!--SR:!2024-10-15,99,377!2024-10-11,95,377-->
-  - privacy issues ::: How to preserve data privacy while data mining? Minimize information loss while protect individual privacy. <!--SR:!2024-10-04,89,377!2024-10-05,90,377-->
-  - graph data ::: How to analyze graphs? <!--SR:!2024-10-07,92,377!2024-10-10,94,377-->
+  - privacy issues ::: How to preserve data privacy while data mining? Minimize information loss while protect individual privacy. <!--SR:!2026-01-09,458,397!2025-09-09,336,377-->
+  - graph data ::: How to analyze graphs? <!--SR:!2026-01-29,478,397!2024-10-10,94,377-->
   - decision making
   - data streams ::: How to data mine over real-time and possibly unbounded data streams? <!--SR:!2024-10-23,106,377!2025-06-27,298,377-->
   - chatbot

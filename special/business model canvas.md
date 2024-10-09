@@ -63,7 +63,7 @@ C$: [cost structure](#cost%20structure)
 - CS: [customer segments](#customer%20segments)→:::←VP: [value propositions](#value%20propositions) <!--SR:!2025-08-21,351,294!2024-12-12,71,257-->
 - VP: [value propositions](#value%20propositions)→:::←CH: [channels](#channels) <!--SR:!2024-11-18,146,294!2025-05-23,274,297-->
 - CH: [channels](#channels)→:::←CR: [customer relationships](#customer%20relationships) <!--SR:!2025-01-16,193,314!2025-02-24,242,334-->
-- CR: [customer relationships](#customer%20relationships)→:::←R$: [revenue streams](#revenue%20streams) <!--SR:!2024-10-07,23,234!2025-06-17,288,292-->
+- CR: [customer relationships](#customer%20relationships)→:::←R$: [revenue streams](#revenue%20streams) <!--SR:!2024-10-21,13,214!2025-06-17,288,292-->
 - R$: [revenue streams](#revenue%20streams)→:::←KR: [key resources](#key%20resources) <!--SR:!2024-10-20,115,257!2025-06-12,259,257-->
 - KR: [key resources](#key%20resources)→:::←KA: [key activities](#key%20activities) <!--SR:!2024-11-16,128,257!2025-03-14,218,274-->
 - KA: [key activities](#key%20activities)→:::←KP: [key partnerships](#key%20partnerships) <!--SR:!2024-12-02,139,257!2024-11-18,65,234-->
@@ -264,7 +264,7 @@ subscription fee
 <!--pytextgen generate section="1942"--><!-- The following content is generated at 2024-03-18T19:56:56.640001+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←advertising <!--SR:!2025-05-02,251,274!2025-02-25,224,317-->
-- advertising→:::←asset sale <!--SR:!2024-10-07,130,294!2024-11-28,167,317-->
+- advertising→:::←asset sale <!--SR:!2025-10-24,381,294!2024-11-28,167,317-->
 - asset sale→:::←brokerage fee <!--SR:!2024-12-04,152,274!2025-02-22,177,274-->
 - brokerage fee→:::←lending, renting, or leasing <!--SR:!2024-12-02,62,217!2024-10-31,121,254-->
 - lending, renting, or leasing→:::←licensing <!--SR:!2025-04-03,223,257!2024-12-05,91,254-->
@@ -294,7 +294,7 @@ In cost structures, costs can be {{fixed costs or variable costs}}. Costs can be
 
 ### fit
 
-Business model fit can be achieved by {{reiteration between changing the value propositions and the rest of the business model}}, because these two {{are interdependent on each other: changing one entails changing the other}}. The changes can be {{big or small}}: pivot {{means making radical changes to the business model because your code idea requires more exploration}}, while iteration {{means reorienting the business model slightly but still closely related to the original}}. <!--SR:!2024-10-05,97,289!2024-11-26,138,309!2025-03-01,223,329!2025-01-02,179,329!2025-01-04,166,309-->
+Business model fit can be achieved by {{reiteration between changing the value propositions and the rest of the business model}}, because these two {{are interdependent on each other: changing one entails changing the other}}. The changes can be {{big or small}}: pivot {{means making radical changes to the business model because your code idea requires more exploration}}, while iteration {{means reorienting the business model slightly but still closely related to the original}}. <!--SR:!2025-07-14,279,289!2024-11-26,138,309!2025-03-01,223,329!2025-01-02,179,329!2025-01-04,166,309-->
 
 ## comparison with other models
 

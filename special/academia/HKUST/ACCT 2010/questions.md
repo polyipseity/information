@@ -26,7 +26,7 @@ tags:
 > 3. Let readers make informed business decisions.
 >
 > - solution: {{3}}
-> - explanation: {{The ultimate goal of both 1 and 2 is 3.}} <!--SR:!2024-10-04,10,270!2024-10-11,17,290-->
+> - explanation: {{The ultimate goal of both 1 and 2 is 3.}} <!--SR:!2024-11-02,25,270!2024-10-11,17,290-->
 
 <!-- markdownlint MD028 -->
 
@@ -37,7 +37,7 @@ tags:
 > 3. They have passed professional examinations.
 >
 > - solution: {{3}}
-> - explanation: {{One essential property of professions is that there are barriers to entry. 3 is a barrier to entry, while 1 and 2 are consequences of 3.}} <!--SR:!2024-10-10,16,290!2024-10-08,14,290-->
+> - explanation: {{One essential property of professions is that there are barriers to entry. 3 is a barrier to entry, while 1 and 2 are consequences of 3.}} <!--SR:!2024-10-10,16,290!2024-12-02,55,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -47,7 +47,7 @@ tags:
 > 2. ethical behavior
 > 3. both of them are
 >
-> - solution: {{3}} <!--SR:!2024-10-08,14,290-->
+> - solution: {{3}} <!--SR:!2024-12-07,60,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -77,7 +77,7 @@ tags:
 > 2. balance sheet
 > 3. statement of cash flow
 >
-> - solution: {{3}} <!--SR:!2024-10-07,13,290-->
+> - solution: {{3}} <!--SR:!2024-11-14,37,290-->
 
 <!-- markdownlint MD028 -->
 
@@ -97,7 +97,7 @@ tags:
 > 2. balance sheet
 > 3. statement of cash flow
 >
-> - solution: {{1, and also 3 if the investing activities involve instantaneous transfer of cash}} <!--SR:!2024-10-05,11,270-->
+> - solution: {{1, and also 3 if the investing activities involve instantaneous transfer of cash}} <!--SR:!2024-11-14,37,290-->
 
 <!-- markdownlint MD028 -->
 
@@ -137,7 +137,7 @@ tags:
 > 2. balance sheet
 > 3. statement of cash flow
 >
-> - solution: {{1}} <!--SR:!2024-10-07,13,290-->
+> - solution: {{1}} <!--SR:!2024-11-27,50,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -148,7 +148,7 @@ tags:
 > 3. statement of cash flow
 >
 > - solution: {{3}}
-> - explanation: {{1 is not included in the answer because lending money from others is neither a revenue nor an expense, so it is definitely not included in the income statement.}} <!--SR:!2024-10-09,15,290!2024-10-07,13,290-->
+> - explanation: {{1 is not included in the answer because lending money from others is neither a revenue nor an expense, so it is definitely not included in the income statement.}} <!--SR:!2024-10-09,15,290!2024-11-25,48,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -180,7 +180,7 @@ tags:
 > 3. alphabetical order of asset captions
 >
 > - solution: {{2}}
-> - explanation: {{The standards require it. Note that GAAP generally requires decreasing liquidity, while IFRS requires increasing liquidity.}} <!--SR:!2024-10-11,17,302!2024-10-08,14,302-->
+> - explanation: {{The standards require it. Note that GAAP generally requires decreasing liquidity, while IFRS requires increasing liquidity.}} <!--SR:!2024-10-11,17,302!2024-12-09,62,322-->
 
 <!-- markdownlint MD028 -->
 

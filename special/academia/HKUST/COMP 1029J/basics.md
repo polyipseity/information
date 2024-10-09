@@ -85,7 +85,7 @@ return _chain.from_iterable(await _gather(
 <!--pytextgen generate section="652a"--><!-- The following content is generated at 2024-01-29T08:31:35.198780+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←`String` <!--SR:!2025-01-20,275,330!2024-11-08,214,330-->
-- `String`→:::←`boolean` <!--SR:!2024-10-07,175,310!2025-01-14,269,330-->
+- `String`→:::←`boolean` <!--SR:!2026-10-27,749,330!2025-01-14,269,330-->
 - `boolean`→:::←`char` <!--SR:!2025-02-03,281,330!2025-02-21,296,330-->
 - `char`→:::←`double` <!--SR:!2025-08-13,366,290!2024-10-28,189,310-->
 - `double`→:::←`float` <!--SR:!2025-11-29,483,310!2026-09-05,711,330-->
@@ -107,7 +107,7 @@ return _chain.from_iterable(await _gather(
 
 ### conversion
 
-One cannot usually assign a value of a type to a variable {{declared with a different type}}: <!--SR:!2024-10-05,173,310-->
+One cannot usually assign a value of a type to a variable {{declared with a different type}}: <!--SR:!2026-10-23,745,330-->
 
 ```Java
 int anInteger = 3.14; // compilation error

@@ -8,7 +8,7 @@ tags:
 
 # Leibniz integral rule
 
-In [calculus](calculus.md), the __Leibniz integral rule__ is {{a rule that allows evaluation of [differentiating](derivative.md) an [integral](integral.md) in the form of $$\int_{a(x)}^{b(x)} \! f(x, t) \, \mathrm{d}t$$}}. <!--SR:!2024-10-07,231,330-->
+In [calculus](calculus.md), the __Leibniz integral rule__ is {{a rule that allows evaluation of [differentiating](derivative.md) an [integral](integral.md) in the form of $$\int_{a(x)}^{b(x)} \! f(x, t) \, \mathrm{d}t$$}}. <!--SR:!2027-08-24,1050,350-->
 
 > __Leibniz integral rule__
 >
@@ -291,7 +291,7 @@ Directly integrating the integral is very difficult and will result in a very lo
 
 > [!tip] tips
 >
-> - takeaway ::: The Leibniz integral rule can turn [integrands](integrand.md) with the [natural logarithm](natural%20logarithm) $\ln$ into [fractions](fraction.md), which may be much easier to evaluate. Also, considering the [evenness](even%20and%20odd%20functions.md), [oddness](even%20and%20odd%20functions.md), and [symmetries](symmetry.md) of [functions](function%20(mathematics).md) helps a lot when evaluating integrals. <!--SR:!2025-08-18,393,308!2024-10-06,148,324-->
+> - takeaway ::: The Leibniz integral rule can turn [integrands](integrand.md) with the [natural logarithm](natural%20logarithm) $\ln$ into [fractions](fraction.md), which may be much easier to evaluate. Also, considering the [evenness](even%20and%20odd%20functions.md), [oddness](even%20and%20odd%20functions.md), and [symmetries](symmetry.md) of [functions](function%20(mathematics).md) helps a lot when evaluating integrals. <!--SR:!2025-08-18,393,308!2026-01-30,479,324-->
 
 #### example 4: Green's theorem
 

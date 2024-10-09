@@ -48,7 +48,7 @@ The remaining axioms {{define the arithmetical properties of the natural numbers
 8. 8th axiom ::: For every natural number _n_, _S_(_n_) = 0 is false. That is, there is no natural number whose successor is 0. <!--SR:!2024-11-10,46,305!2024-12-05,67,325-->
 <!-- markdownlint-restore -->
 
-The chain of light dominoes on the right, starting with the nearest, can {{represent the set __N__ of natural numbers}}. However, axioms 1–8 are {{_also_ satisfied by the set of all dominoes — whether light (am infinite chain of dominoes) or dark (a finite circular chain of dominoes) — taken together}}. The 9th axiom {{([induction](mathematical%20induction.md)) limits __N__ to the chain of light pieces ("no junk") as only light dominoes will fall when the nearest is toppled}}. {{Axioms 1, 6, 7, 8}} define {{a [unary representation](unary%20numeral%20system.md) of the intuitive notion of natural numbers: the number 1 can be defined as _S_(0), 2 as _S_(_S_(0)), etc.}} However, considering {{the notion of natural numbers as being defined by these axioms}}, axioms 1, 6, 7, 8 {{do not imply that the successor function generates all the natural numbers different from 0}}. <!--SR:!2024-11-27,59,310!2024-11-17,52,305!2024-10-27,32,285!2024-10-05,17,265!2024-10-17,24,285!2024-11-06,39,290!2024-12-03,65,325-->
+The chain of light dominoes on the right, starting with the nearest, can {{represent the set __N__ of natural numbers}}. However, axioms 1–8 are {{_also_ satisfied by the set of all dominoes — whether light (am infinite chain of dominoes) or dark (a finite circular chain of dominoes) — taken together}}. The 9th axiom {{([induction](mathematical%20induction.md)) limits __N__ to the chain of light pieces ("no junk") as only light dominoes will fall when the nearest is toppled}}. {{Axioms 1, 6, 7, 8}} define {{a [unary representation](unary%20numeral%20system.md) of the intuitive notion of natural numbers: the number 1 can be defined as _S_(0), 2 as _S_(_S_(0)), etc.}} However, considering {{the notion of natural numbers as being defined by these axioms}}, axioms 1, 6, 7, 8 {{do not imply that the successor function generates all the natural numbers different from 0}}. <!--SR:!2024-11-27,59,310!2024-11-17,52,305!2024-10-27,32,285!2024-11-24,47,265!2024-10-17,24,285!2024-11-06,39,290!2024-12-03,65,325-->
 
 The intuitive notion that {{each natural number can be obtained by applying _successor_ sufficiently many times to zero}} requires {{an additional axiom, which is sometimes called the _[axiom of induction](mathematical%20induction.md#axiom%20of%20induction)_}}. <!--SR:!2024-12-05,67,325!2024-10-31,38,305-->
 
@@ -78,7 +78,7 @@ For example:
 
 $${\begin{aligned}a+1&=a+S(0)&{\text{by definition} }\\&=S(a+0)&{\text{using (2)} }\\&=S(a),&{\text{using (1)} }\\\\a+2&=a+S(1)&{\text{by definition} }\\&=S(a+1)&{\text{using (2)} }\\&=S(S(a))&{\text{using } }a+1=S(a)\\\\a+3&=a+S(2)&{\text{by definition} }\\&=S(a+2)&{\text{using (2)} }\\&=S(S(S(a)))&{\text{using } }a+2=S(S(a)) \\ {\text{etc.} }&\\\end{aligned} }$$
 
-To {{prove commutativity of addition}}, first {{prove $0+b=b$ and $S(a)+b=S(a+b)$, each by induction on $b$. Using both results, then prove $a+b=b+a$ by induction on $b$}}. The [structure](mathematical%20structure.md) (__N__, +) is {{a [commutative](commutative%20property.md) [monoid](monoid.md) with identity element 0. (__N__, +) is also a [cancellative](cancellation%20property.md) [magma](magma%20(algebra).md), and thus [embeddable](embedding.md) in a [group](group%20(mathematics).md)}}. The smallest group embedding __N__ is {{the [integers](integer.md)}}. <!--SR:!2024-11-01,39,305!2024-12-01,62,310!2024-10-06,17,250!2024-10-21,27,270-->
+To {{prove commutativity of addition}}, first {{prove $0+b=b$ and $S(a)+b=S(a+b)$, each by induction on $b$. Using both results, then prove $a+b=b+a$ by induction on $b$}}. The [structure](mathematical%20structure.md) (__N__, +) is {{a [commutative](commutative%20property.md) [monoid](monoid.md) with identity element 0. (__N__, +) is also a [cancellative](cancellation%20property.md) [magma](magma%20(algebra).md), and thus [embeddable](embedding.md) in a [group](group%20(mathematics).md)}}. The smallest group embedding __N__ is {{the [integers](integer.md)}}. <!--SR:!2024-11-01,39,305!2024-12-01,62,310!2024-10-19,11,230!2024-10-21,27,270-->
 
 > [!tip] tips
 >
@@ -97,7 +97,7 @@ To show that $S(0)$ is {{also the multiplicative left identity requires the indu
 
 Therefore, by {{the induction axiom $S(0)$ is the multiplicative left identity of all natural numbers}}. Moreover, it can be shown that {{multiplication is commutative and [distributes over](distributive%20property.md) addition: $$a\cdot (b+c)=(a\cdot b)+(a\cdot c)$$}}. <!--SR:!2024-12-16,75,325!2024-12-06,66,310-->
 
-Thus, {{$(\mathbb {N} ,+,0,\cdot ,S(0))$}} is {{a commutative [semiring](semiring.md)}}. <!--SR:!2024-10-29,37,285!2024-10-08,19,265-->
+Thus, {{$(\mathbb {N} ,+,0,\cdot ,S(0))$}} is {{a commutative [semiring](semiring.md)}}. <!--SR:!2024-10-29,37,285!2024-11-26,49,265-->
 
 > [!tip] tips
 >

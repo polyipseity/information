@@ -152,7 +152,7 @@ return _chain.from_iterable(await _gather(
 - [crucible tongs](crucible%20tongs.md)→:::←[desiccator](desiccator.md) <!--SR:!2025-10-07,631,310!2025-01-28,269,190-->
 - [desiccator](desiccator.md)→:::←[(eye) dropper/Pasteur pipette](eye%20dropper.md) <!--SR:!2025-01-18,175,270!2024-10-13,83,270-->
 - [(eye) dropper/Pasteur pipette](eye%20dropper.md)→:::←dropping bottle <!--SR:!2025-09-24,635,310!2026-11-04,940,330-->
-- dropping bottle→:::←[electronic balance](weighing%20scale.md) <!--SR:!2024-10-04,364,290!2024-10-31,59,150-->
+- dropping bottle→:::←[electronic balance](weighing%20scale.md) <!--SR:!2027-08-29,1055,290!2024-10-31,59,150-->
 - [electronic balance](weighing%20scale.md)→:::←[evaporating dish](evaporating%20dish.md) <!--SR:!2024-11-23,330,230!2024-11-27,181,250-->
 - [evaporating dish](evaporating%20dish.md)→:::←[filter funnel](filter%20funnel.md) <!--SR:!2025-10-03,383,230!2026-08-23,787,270-->
 - [filter funnel](filter%20funnel.md)→:::←[flat-bottom(ed) flask](flat-bottom%20flask.md) <!--SR:!2024-11-22,59,170!2025-07-15,581,310-->
@@ -164,7 +164,7 @@ return _chain.from_iterable(await _gather(
 - [measuring cylinder/graduated cylinder/mixing cylinder](graduated%20cylinder.md)→:::←[mortar and pestle](mortar%20and%20pestle.md) <!--SR:!2024-10-10,13,130!2026-07-27,697,250-->
 - [mortar and pestle](mortar%20and%20pestle.md)→:::←[pipeclay triangle](pipeclay%20triangle.md) <!--SR:!2025-06-25,356,230!2026-08-20,785,270-->
 - [pipeclay triangle](pipeclay%20triangle.md)→:::←[reagent bottle](reagent%20bottle.md) <!--SR:!2026-02-19,671,270!2024-10-17,38,130-->
-- [reagent bottle](reagent%20bottle.md)→:::←[round-bottom(ed) flask](round-bottom%20flask.md) <!--SR:!2025-01-09,329,250!2024-10-06,43,210-->
+- [reagent bottle](reagent%20bottle.md)→:::←[round-bottom(ed) flask](round-bottom%20flask.md) <!--SR:!2025-01-09,329,250!2025-02-15,130,230-->
 - [round-bottom(ed) flask](round-bottom%20flask.md)→:::←[rubber bulb](rubber%20bulb.md) <!--SR:!2025-03-23,190,170!2024-12-08,162,190-->
 - [rubber bulb](rubber%20bulb.md)→:::←[rubber stopper/rubber bung/rubber cork](rubber%20stopper.md) <!--SR:!2025-08-30,558,270!2027-07-08,1049,290-->
 - [rubber stopper/rubber bung/rubber cork](rubber%20stopper.md)→:::←[safety spectacles/safety glasses/goggles](goggles.md) <!--SR:!2024-11-25,60,130!2025-06-21,453,230-->
@@ -174,7 +174,7 @@ return _chain.from_iterable(await _gather(
 - [test tube](test%20tube.md), boiling tube→:::←[test tube brush](test%20tube%20brush.md) <!--SR:!2028-07-27,1514,350!2028-08-13,1528,350-->
 - [test tube brush](test%20tube%20brush.md)→:::←[test tube holder](test%20tube%20holder.md) <!--SR:!2026-02-24,631,270!2025-11-25,442,310-->
 - [test tube holder](test%20tube%20holder.md)→:::←[test tube rack](test%20tube%20rack.md) <!--SR:!2027-06-05,1029,290!2025-01-07,428,290-->
-- [test tube rack](test%20tube%20rack.md)→:::←[thermometer](thermometer.md) <!--SR:!2024-10-05,10,130!2024-11-01,133,210-->
+- [test tube rack](test%20tube%20rack.md)→:::←[thermometer](thermometer.md) <!--SR:!2024-10-22,14,130!2024-11-01,133,210-->
 - [thermometer](thermometer.md)→:::←[tripod](tripod.md) <!--SR:!2025-05-10,354,270!2027-06-03,1008,290-->
 - [tripod](tripod.md)→:::←[volumetric flask](volumetric%20flask.md) <!--SR:!2024-10-21,19,130!2025-04-05,511,310-->
 - [volumetric flask](volumetric%20flask.md)→:::←[volumetric pipette/bulb pipette/belly pipette](volumetric%20pipette.md) <!--SR:!2024-12-19,123,230!2025-07-22,447,270-->

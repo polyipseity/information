@@ -59,5 +59,5 @@ Aggregate functions {{summarize a result from a list}}. <!--SR:!2024-10-28,34,29
 
 ## search functions
 
-- `list.count(val)` ::: Count the number of `val`s in `list`. Returns `0` if `val` is not found in the list. Equality is compared using `==`, so `[0, 0.0].count(0.0)` is `2` instead of `1`. <!--SR:!2024-10-04,10,296!2024-10-12,18,316-->
+- `list.count(val)` ::: Count the number of `val`s in `list`. Returns `0` if `val` is not found in the list. Equality is compared using `==`, so `[0, 0.0].count(0.0)` is `2` instead of `1`. <!--SR:!2024-11-17,40,316!2024-10-12,18,316-->
 - `list.index(val)` ::: Returns the index of `val` in `list`. The index of the leftmost item is returned if there are multiple matching items. Raises `ValueError` if `val` is not found in the list. Equality is compared using `==`, so `[0, 0.0].index(0.0)` is `0` instead of `1`. <!--SR:!2024-10-12,18,316!2024-10-12,18,316-->

@@ -45,7 +45,7 @@ tags:
 >
 > - where
 >   - {{$\alpha$ is the coefficient of thermal expansion, with the subscripts $L$, $A$, and $V$ denoting respectively [length](length.md), [area](area.md), and [volume](volume.md)}}
-> - conditions: {{isotropic materials}} <!--SR:!2024-10-19,235,330!2024-10-08,225,330!2025-02-23,286,290-->
+> - conditions: {{isotropic materials}} <!--SR:!2024-10-19,235,330!2027-07-28,1023,350!2025-02-23,286,290-->
 
 We can derive the above equations for a $n$-dimensional coefficient:
 

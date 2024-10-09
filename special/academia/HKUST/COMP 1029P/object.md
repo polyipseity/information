@@ -35,7 +35,7 @@ The above object stored under `name_object` is also called {{an _instance_ of th
 
 ## attribute
 
-Note that Python attributes are not {{declared inside the class. Instead, they are assigned in the [constructor](#constructor)}}. <!--SR:!2024-10-04,172,310-->
+Note that Python attributes are not {{declared inside the class. Instead, they are assigned in the [constructor](#constructor)}}. <!--SR:!2026-10-15,737,330-->
 
 ## method
 

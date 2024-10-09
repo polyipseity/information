@@ -15,7 +15,7 @@ tags:
 
 Active galactic nuclei are {{the most luminous persistent sources of [electromagnetic radiation](electromagnetic%20radiation.md) in the universe and}}, as such, can be {{used as a means of discovering distant objects}}; their evolution {{as a function of cosmic time also puts constraints on [models of the cosmos](cosmology.md)}}. <!--SR:!2024-11-12,66,310!2024-10-30,55,310!2024-11-02,57,310-->
 
-The observed characteristics of an AGN depend on {{several properties such as the mass of the central black hole, the rate of gas accretion onto the black hole, the orientation of the [accretion disk](accretion%20disk.md), the degree of [obscuration](extinction%20(astronomy).md) of the nucleus by [dust](cosmic%20dust.md), and presence or absence of [jets](astrophysical%20jet.md)}}. <!--SR:!2024-10-07,32,250-->
+The observed characteristics of an AGN depend on {{several properties such as the mass of the central black hole, the rate of gas accretion onto the black hole, the orientation of the [accretion disk](accretion%20disk.md), the degree of [obscuration](extinction%20(astronomy).md) of the nucleus by [dust](cosmic%20dust.md), and presence or absence of [jets](astrophysical%20jet.md)}}. <!--SR:!2024-12-26,79,250-->
 
 {{Numerous subclasses of AGN}} have been defined on {{the basis of their observed characteristics}}; {{the most powerful AGN}} are classified as {{[quasars](quasar.md)}}. {{A [blazar](blazar.md)}} is {{an AGN with a jet pointed toward the Earth, in which radiation from the jet is enhanced by [relativistic beaming](relativistic%20beaming.md)}}. <!--SR:!2024-11-15,68,310!2024-10-16,44,290!2024-10-17,44,290!2024-11-14,67,310!2024-10-24,47,290!2024-10-18,45,290-->
 

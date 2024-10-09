@@ -32,7 +32,7 @@ The content is in teaching order.
   - civil engineering characteristics ::: Oldest engineering discipline. Takes place on all levels, from municipal to nationals in the public sector, from homeowners to international companies in the private sector. <!--SR:!2025-01-14,171,301!2025-05-20,310,380-->
   - built environment ::: man-made using materials and natural resources, benefiting mankind, with environment protection and prudent urban planning <!--SR:!2025-04-23,252,312!2024-12-30,218,330-->
     - built environment example ::: Hoover Dam, a hydroelectric and reservoir project constructed on the Colorado River from 1931 to 1936, affects Las Vegas, United States significantly to the present. <!--SR:!2024-12-30,162,297!2025-03-15,237,345-->
-- civil engineering importance ::: improving living environments, productivity, and working efficiency <!--SR:!2024-10-07,126,340!2024-12-06,179,352-->
+- civil engineering importance ::: improving living environments, productivity, and working efficiency <!--SR:!2025-12-11,429,340!2024-12-06,179,352-->
   - [civil engineering examples](#civil%20engineering%20examples)
   - [civil engineering slogans in Hong Kong](#civil%20engineering%20slogans%20in%20Hong%20Kong)
 - civil engineering challenges
@@ -51,7 +51,7 @@ The content is in teaching order.
 - civil engineering solutions ::: smart cities <!--SR:!2026-03-06,545,400!2025-09-01,375,376-->
   - smart cities examples ::: Using technology to gather information, predict events, and notify people. <!--SR:!2025-03-24,304,335!2026-01-13,502,400-->
 - [civil engineering subdisciplines](#civil%20engineering%20subdisciplines)
-- structural engineering ::: analysis, design, and planning of structures to resist various loading and natural disasters <!--SR:!2024-10-08,126,340!2024-12-22,188,347-->
+- structural engineering ::: analysis, design, and planning of structures to resist various loading and natural disasters <!--SR:!2026-05-20,589,360!2024-12-22,188,347-->
   - [structural engineering examples](#structural%20engineering%20examples)
   - [natural disasters examples](#natural%20disaster%20examples)
   - structural engineering goals ::: safety: no collapse without warning, serviceability: deformation does not disrupt use <!--SR:!2024-11-21,133,292!2025-06-28,368,350-->
@@ -282,7 +282,7 @@ workmanship
 - construction management→:::←economics <!--SR:!2024-10-17,98,235!2025-04-19,240,300-->
 - economics→:::←impacts to surrounding <!--SR:!2025-03-15,215,300!2024-10-17,54,240-->
 - impacts to surrounding→:::←lifecycle <!--SR:!2025-04-01,238,320!2025-05-10,261,320-->
-- lifecycle→:::←maintenance <!--SR:!2024-10-13,106,297!2024-10-07,21,272-->
+- lifecycle→:::←maintenance <!--SR:!2024-10-13,106,297!2024-12-03,56,272-->
 - maintenance→:::←politics <!--SR:!2024-11-14,68,241!2025-04-18,249,312-->
 - politics→:::←social <!--SR:!2025-03-24,246,360!2025-05-03,262,337-->
 - social→:::←workmanship <!--SR:!2025-04-30,244,300!2025-01-23,141,210-->
@@ -317,7 +317,7 @@ We Engineer Hong Kong’s Development
 <!--pytextgen generate section="e823"--><!-- The following content is generated at 2024-02-16T21:59:47.223693+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←興土木 利民生 齊拓展 創明天 <!--SR:!2025-04-12,243,314!2024-12-19,209,330-->
-- 興土木 利民生 齊拓展 創明天→:::←We Bring The Best Engineering To Life <!--SR:!2024-10-07,130,324!2024-12-03,62,287-->
+- 興土木 利民生 齊拓展 創明天→:::←We Bring The Best Engineering To Life <!--SR:!2025-12-02,420,324!2024-12-03,62,287-->
 - We Bring The Best Engineering To Life→:::←卓越工程 建設香港 <!--SR:!2025-03-21,227,312!2025-01-18,165,297-->
 - 卓越工程 建設香港→:::←We Engineer Hong Kong’s Development <!--SR:!2025-04-13,265,357!2024-10-22,134,330-->
 - We Engineer Hong Kong’s Development→:::←_(end)_ <!--SR:!2025-11-28,473,392!2025-08-08,349,380-->
@@ -358,7 +358,7 @@ transportation
 
 - _(begin)_→:::←construction <!--SR:!2025-01-13,207,355!2024-11-13,161,375-->
 - construction→:::←environmental <!--SR:!2025-07-26,325,340!2025-12-22,480,400-->
-- environmental→:::←geo-technical <!--SR:!2024-10-04,127,327!2025-01-07,205,345-->
+- environmental→:::←geo-technical <!--SR:!2025-11-28,416,327!2025-01-07,205,345-->
 - geo-technical→:::←hydraulic <!--SR:!2024-11-21,149,340!2024-12-23,112,340-->
 - hydraulic→:::←material <!--SR:!2026-04-12,556,360!2024-10-30,135,340-->
 - material→:::←structural <!--SR:!2025-02-07,130,297!2025-01-26,167,260-->
@@ -672,7 +672,7 @@ socioeconomic
 <!--pytextgen generate section="238a"--><!-- The following content is generated at 2024-02-16T21:59:47.593005+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←biological <!--SR:!2025-04-13,248,327!2025-09-04,404,394-->
-- biological→:::←chemical <!--SR:!2024-10-04,126,337!2025-03-18,247,357-->
+- biological→:::←chemical <!--SR:!2025-12-06,424,337!2025-03-18,247,357-->
 - chemical→:::←cultural <!--SR:!2024-11-18,119,280!2024-11-27,173,357-->
 - cultural→:::←physical <!--SR:!2024-10-14,138,345!2025-01-14,132,300-->
 - physical→:::←socioeconomic <!--SR:!2024-12-01,94,277!2025-04-02,244,361-->
@@ -743,7 +743,7 @@ tunnel
 - _(begin)_→:::←embankment <!--SR:!2025-09-25,357,320!2025-06-28,320,380-->
 - embankment→:::←pile foundation <!--SR:!2024-10-10,116,320!2025-02-18,218,360-->
 - pile foundation→:::←shallow foundation <!--SR:!2025-01-07,170,317!2025-01-04,191,355-->
-- shallow foundation→:::←tunnel <!--SR:!2024-10-08,104,321!2025-01-14,103,212-->
+- shallow foundation→:::←tunnel <!--SR:!2025-09-06,333,321!2025-01-14,103,212-->
 - tunnel→:::←_(end)_ <!--SR:!2025-01-15,195,350!2024-12-13,100,297-->
 
 <!--/pytextgen-->
@@ -847,7 +847,7 @@ Tsing Ma Bridge
 - _(begin)_→:::←Akashi Kaikyo Bridge <!--SR:!2025-02-01,124,298!2025-05-27,320,377-->
 - Akashi Kaikyo Bridge→:::←Hong Kong–Zhuhai–Macau Bridge <!--SR:!2025-06-20,300,327!2025-08-19,321,307-->
 - Hong Kong–Zhuhai–Macau Bridge→:::←Stonecutters Bridge <!--SR:!2024-11-20,100,320!2025-01-08,149,300-->
-- Stonecutters Bridge→:::←Sutong Yangtze River Bridge <!--SR:!2024-10-08,130,337!2024-11-17,147,340-->
+- Stonecutters Bridge→:::←Sutong Yangtze River Bridge <!--SR:!2025-12-19,437,337!2024-11-17,147,340-->
 - Sutong Yangtze River Bridge→:::←Tsing Ma Bridge <!--SR:!2024-11-23,155,335!2025-06-09,282,307-->
 - Tsing Ma Bridge→:::←_(end)_ <!--SR:!2025-05-31,301,364!2025-12-04,479,330-->
 
@@ -953,7 +953,7 @@ wave
 - earthquake→:::←fire <!--SR:!2025-10-26,391,335!2025-04-04,255,360-->
 - fire→:::←flood <!--SR:!2024-11-25,155,324!2025-06-11,279,266-->
 - flood→:::←strong wind <!--SR:!2024-12-03,92,300!2024-11-10,112,297-->
-- strong wind→:::←wave <!--SR:!2025-01-11,218,290!2024-10-07,107,294-->
+- strong wind→:::←wave <!--SR:!2025-01-11,218,290!2025-08-18,314,294-->
 - wave→:::←_(end)_ <!--SR:!2025-01-03,199,357!2025-02-17,210,315-->
 
 <!--/pytextgen-->
@@ -1017,8 +1017,8 @@ Taipei 101
 
 - _(begin)_→:::←HSBC Main Building <!--SR:!2024-10-17,88,297!2025-04-01,312,330-->
 - HSBC Main Building→:::←International Commerce Centre <!--SR:!2024-10-29,40,277!2024-10-09,48,314-->
-- International Commerce Centre→:::←John Hancock Center <!--SR:!2024-10-04,113,320!2024-12-24,105,297-->
-- John Hancock Center→:::←Taipei 101 <!--SR:!2024-11-02,137,341!2024-10-07,120,312-->
+- International Commerce Centre→:::←John Hancock Center <!--SR:!2025-10-04,361,320!2024-12-24,105,297-->
+- John Hancock Center→:::←Taipei 101 <!--SR:!2024-11-02,137,341!2025-10-16,373,312-->
 - Taipei 101→:::←_(end)_ <!--SR:!2025-04-10,280,367!2024-10-28,46,301-->
 
 <!--/pytextgen-->
@@ -1190,7 +1190,7 @@ water transport
 - _(begin)_→:::←airport <!--SR:!2025-01-22,179,290!2025-10-07,430,395-->
 - airport→:::←bicycle path <!--SR:!2025-03-09,237,355!2025-12-19,472,357-->
 - bicycle path→:::←highway <!--SR:!2025-01-20,199,360!2025-03-05,232,360-->
-- highway→:::←pier <!--SR:!2024-10-06,114,320!2025-03-17,217,300-->
+- highway→:::←pier <!--SR:!2025-10-07,364,320!2025-03-17,217,300-->
 - pier→:::←pipeline <!--SR:!2025-01-24,136,360!2025-02-06,194,314-->
 - pipeline→:::←railroad <!--SR:!2024-11-15,111,255!2025-01-06,112,295-->
 - railroad→:::←water transport <!--SR:!2024-10-11,127,340!2025-04-24,255,315-->
@@ -1226,7 +1226,7 @@ water treatment
 
 <!--pytextgen generate section="1123"--><!-- The following content is generated at 2024-02-16T21:59:48.139738+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←groundwater quality control <!--SR:!2024-10-04,123,340!2024-11-29,175,357-->
+- _(begin)_→:::←groundwater quality control <!--SR:!2025-11-29,417,340!2024-11-29,175,357-->
 - groundwater quality control→:::←wastewater recycling <!--SR:!2024-11-26,89,275!2024-12-26,92,260-->
 - wastewater recycling→:::←wastewater treatment <!--SR:!2024-11-03,131,315!2025-01-16,186,317-->
 - wastewater treatment→:::←water quality monitoring <!--SR:!2024-12-21,142,280!2024-12-07,157,315-->

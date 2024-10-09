@@ -15,7 +15,7 @@ tags:
 
 ## commands
 
-Command names can be {{truncated at the end to produce an abbreviation if the abbreviation is unambiguous, i.e. there is only exactly one command name starting with the abbreviation}}. For example, `disassemble` can be {{abbreviated to `disass` or even the more ugly `disassem`}}. <!--SR:!2024-10-04,10,305!2024-10-13,19,325-->
+Command names can be {{truncated at the end to produce an abbreviation if the abbreviation is unambiguous, i.e. there is only exactly one command name starting with the abbreviation}}. For example, `disassemble` can be {{abbreviated to `disass` or even the more ugly `disassem`}}. <!--SR:!2024-11-07,30,305!2024-10-13,19,325-->
 
 ### common commands
 
@@ -24,10 +24,10 @@ Command names can be {{truncated at the end to produce an abbreviation if the ab
 - `break <where>` ::: set a breakpoint <!--SR:!2024-11-06,50,310!2024-12-02,69,310-->
 - `continue` ::: continue program execution <!--SR:!2024-10-29,40,290!2024-11-04,48,310-->
 - `delete [<breakpoint>]` ::: delete a breakpoint; if breakpoint is not specified, then delete all breakpoints <!--SR:!2024-11-16,58,310!2024-11-12,55,310-->
-- `disassemble <address|function>` ::: disassemble a specified address or function <!--SR:!2024-10-05,11,305!2024-10-13,19,325-->
+- `disassemble <address|function>` ::: disassemble a specified address or function <!--SR:!2024-11-22,45,325!2024-10-13,19,325-->
 - `file <path>` ::: load binary file to debug <!--SR:!2024-11-27,64,310!2024-11-17,59,310-->
 - `finish` ::: run until the current function returns <!--SR:!2024-12-03,70,310!2024-11-11,48,290-->
-- `help [<topic>]` ::: find information about topic; if topic is not specified, then prints general help <!--SR:!2024-10-13,19,325!2024-10-06,12,305-->
+- `help [<topic>]` ::: find information about topic; if topic is not specified, then prints general help <!--SR:!2024-10-13,19,325!2024-11-29,52,325-->
 - `info address <symbol>` ::: print the `<symbol>`, its type, and its address <!--SR:!2024-10-13,19,325!2024-10-12,18,325-->
 - `info breakpoints|regs|threads`::: list breakpoints, register values, or threads <!--SR:!2024-11-12,55,310!2024-10-29,45,290-->
 - `next` ::: go to the next (source) line <!--SR:!2024-11-05,49,310!2024-10-31,46,290-->
@@ -44,11 +44,11 @@ Command names can be {{truncated at the end to produce an abbreviation if the ab
 ### reverse debugging
 
 - `rc` ::: reverse continue <!--SR:!2024-10-13,19,325!2024-10-13,19,325-->
-- `record` ::: record execution of every instruction; can make the process run slowly <!--SR:!2024-10-04,10,305!2024-10-13,19,325-->
+- `record` ::: record execution of every instruction; can make the process run slowly <!--SR:!2024-11-18,41,325!2024-10-13,19,325-->
 - `rn` ::: rewind to the previous (source) line <!--SR:!2024-10-13,19,325!2024-11-30,58,325-->
 - `rni` ::: rewind to the previous instruction <!--SR:!2024-10-13,19,325!2024-10-13,19,325-->
-- `rs` ::: rewind to the previous (source) line stepping into functions <!--SR:!2024-10-04,10,305!2024-10-12,18,325-->
-- `rsi` ::: rewind to the previous instruction stepping into functions <!--SR:!2024-10-06,12,305!2024-10-13,19,325-->
+- `rs` ::: rewind to the previous (source) line stepping into functions <!--SR:!2024-11-06,29,305!2024-10-12,18,325-->
+- `rsi` ::: rewind to the previous instruction stepping into functions <!--SR:!2024-11-30,53,325!2024-10-13,19,325-->
 
 ### `pwndbg`
 

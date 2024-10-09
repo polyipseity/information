@@ -17,7 +17,7 @@ __Newton's laws of motion__ are {{three [physical laws](scientific%20law.md) tha
 
 1. [first law](#first%20law) ::: A body remains at rest, or in [motion](motion.md) at a constant [speed](speed.md) in a straight line, except insofar as it is acted upon by a [force](force.md). <!--SR:!2025-02-16,160,310!2025-02-18,164,310-->
 2. [second law](#second%20law) ::: At any instant of [time](time.md), the [net force](net%20force.md) on a body is equal to the body's [acceleration](acceleration.md) multiplied by its [mass](mass.md) or, equivalently, the rate at which the body's [momentum](momentum.md) is changing with time. <!--SR:!2025-01-22,130,290!2025-02-08,156,310-->
-3. [third law](#third%20law.md) ::: If two bodies exert [forces](force.md) on each other, these forces have the same [magnitude](magnitude%20(mathematics).md) but opposite directions. <!--SR:!2025-01-26,146,310!2024-10-06,63,310-->
+3. [third law](#third%20law.md) ::: If two bodies exert [forces](force.md) on each other, these forces have the same [magnitude](magnitude%20(mathematics).md) but opposite directions. <!--SR:!2025-01-26,146,310!2025-07-03,268,330-->
 
 ## laws
 
@@ -27,7 +27,7 @@ Newton's first law expresses {{the principle of [inertia](inertia.md): the natur
 
 ### second law
 
-In modern notation, the [momentum](momentum.md) of a body is {{the product of its [mass](mass.md) and its [velocity](velocity.md): $$\mathbf p = m \mathbf v$$}}, where all 3 quantities {{can change over [time](time.md) $t$}}. Newton's second law, in modern form, states that {{the [derivative](derivative.md) of the momentum is the force: $$\mathbf F = \frac {\mathrm d \mathbf p} {\mathrm dt}$$}}. If {{mass $m$ does not change over time}}, then {{the derivative acts only on the velocity}}, and so {{the force equals the product of the mass and the time derivative of velocity, which is [acceleration](acceleration.md): $$\mathbf F = m \frac {\mathrm d \mathbf v} {\mathrm dt} = m \mathbf a$$}}. As acceleration is also {{the second time derivative of position}}, the above equation can also be written as: {{$$\mathbf F = m \frac {\mathrm d^2 \mathbf s} {\mathrm dt^2}$$}}. <!--SR:!2024-10-11,68,310!2024-10-10,66,310!2024-10-04,62,310!2024-10-05,63,310!2025-03-24,190,310!2025-03-24,188,310!2024-10-05,62,310!2025-05-12,230,330-->
+In modern notation, the [momentum](momentum.md) of a body is {{the product of its [mass](mass.md) and its [velocity](velocity.md): $$\mathbf p = m \mathbf v$$}}, where all 3 quantities {{can change over [time](time.md) $t$}}. Newton's second law, in modern form, states that {{the [derivative](derivative.md) of the momentum is the force: $$\mathbf F = \frac {\mathrm d \mathbf p} {\mathrm dt}$$}}. If {{mass $m$ does not change over time}}, then {{the derivative acts only on the velocity}}, and so {{the force equals the product of the mass and the time derivative of velocity, which is [acceleration](acceleration.md): $$\mathbf F = m \frac {\mathrm d \mathbf v} {\mathrm dt} = m \mathbf a$$}}. As acceleration is also {{the second time derivative of position}}, the above equation can also be written as: {{$$\mathbf F = m \frac {\mathrm d^2 \mathbf s} {\mathrm dt^2}$$}}. <!--SR:!2024-10-11,68,310!2024-10-10,66,310!2025-04-17,191,310!2025-07-04,269,330!2025-03-24,190,310!2025-03-24,188,310!2025-07-02,267,330!2025-05-12,230,330-->
 
 ### third law
 

@@ -9,7 +9,7 @@ tags:
 
 # asteroid
 
-An __asteroid__ is {{a [minor planet](minor%20planet.md)—an object that is neither a [true planet](planet.md) nor an [comet](comet.md)—that orbits within the [inner Solar System](Solar%20System.md#inner%20Solar%20System)}}. <!--SR:!2024-10-06,66,270-->
+An __asteroid__ is {{a [minor planet](minor%20planet.md)—an object that is neither a [true planet](planet.md) nor an [comet](comet.md)—that orbits within the [inner Solar System](Solar%20System.md#inner%20Solar%20System)}}. <!--SR:!2025-04-03,177,270-->
 
 ## references
 

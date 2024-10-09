@@ -11,7 +11,7 @@ tags:
 
 The __logarithmic derivative__ of a [function](function%20(mathematics).md) is defined by {{$\frac {f'} f$ when $f \ne 0$}}. Intuitively, this is the {{infinitesimal [relative change](relative%20change.md) in $f$}}. <!--SR:!2024-12-07,239,330!2025-01-04,261,330-->
 
-When $f$ is {{$f: \mathbb{R} \to \mathbb{R}_{\ne 0}$, then the logarithmic derivative equals the derivative of $\ln \lvert f \rvert$, and hence its name}}. This follows directly from {{the [chain rule](chain%20rule.md): $(\ln \lvert f \rvert)' = \frac 1 {\lvert f \rvert} \cdot \operatorname{sgn}(f) \cdot f' = \frac {f'} f$}}. <!--SR:!2024-10-08,176,310!2025-02-21,299,330-->
+When $f$ is {{$f: \mathbb{R} \to \mathbb{R}_{\ne 0}$, then the logarithmic derivative equals the derivative of $\ln \lvert f \rvert$, and hence its name}}. This follows directly from {{the [chain rule](chain%20rule.md): $(\ln \lvert f \rvert)' = \frac 1 {\lvert f \rvert} \cdot \operatorname{sgn}(f) \cdot f' = \frac {f'} f$}}. <!--SR:!2026-11-01,754,330!2025-02-21,299,330-->
 
 ## basic properties
 
@@ -33,7 +33,7 @@ When $f$ is {{$f: \mathbb{R} \to \mathbb{R}_{\ne 0}$, then the logarithmic deriv
 > - $f := -2.692u, \operatorname{Logder}(f) = ?$ :: $\operatorname{Logder} = \frac {u'} u$ <!--SR:!2026-07-27,681,330-->
 > - $f := -\frac {(78.38uvw)^{8.39}} {(59.2xy)^{9682} z^{-386}}, \operatorname{Logder}(f) = ?$ :: $\operatorname{Logder}(f) = 8.39 \frac {u'} u + 8.39 \frac {v'} v + 8.39 \frac {w'} w - 9682 \frac {x'} x - 9682 \frac {y'} y + 386 \frac {z'} z$ <!--SR:!2025-05-05,306,290-->
 > - $f := 4 x^{2y}, \operatorname{Logder}(f) = ?$ :: $\operatorname{Logder}(f) = 2y \frac {x'} x + 2y y' \ln 4x \qquad x > 0$ <!--SR:!2024-11-05,183,270-->
-> - $f := e^{x^{-2}} (x - 3)^2 \left(z^2 + 1\right)^{42} (y - 5)^{x^2}, \operatorname{Logder}(f) = ?$ :: $\operatorname{Logder}(f) = -2 x^{-3} x' + 2 \frac {x'} {x - 3} + 42 \frac {2zz'} {z^2 + 1} + x^2 \frac {y'} {y - 5} + 2xx' \ln (y - 5) \qquad y > 5$ <!--SR:!2024-10-04,57,230-->
+> - $f := e^{x^{-2}} (x - 3)^2 \left(z^2 + 1\right)^{42} (y - 5)^{x^2}, \operatorname{Logder}(f) = ?$ :: $\operatorname{Logder}(f) = -2 x^{-3} x' + 2 \frac {x'} {x - 3} + 42 \frac {2zz'} {z^2 + 1} + x^2 \frac {y'} {y - 5} + 2xx' \ln (y - 5) \qquad y > 5$ <!--SR:!2025-02-15,130,230-->
 
 ## references
 

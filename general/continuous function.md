@@ -65,7 +65,7 @@ A function is _discontinuous_ at a point {{if the point is in the [topological c
 > - empty function $\varnothing \to X$ :: It is not discontinuous at every [real](real%20number.md). However, it is discontinuous and it is not discontinuous at every point in its [domain](domain%20of%20a%20function.md) by [vacuous truth](vacuous%20truth.md). <!--SR:!2024-10-11,150,310-->
 > - function at an [isolated point](isolated%20point.md): $f(x \in \set{0}) = 0$ at $0$ :: It is not discontinuous at $0$. <!--SR:!2025-09-30,414,310-->
 > - $f(x \in [0, +\infty)) = \sqrt{x}$ at $0$ :: It is not discontinuous at $0$. <!--SR:!2024-11-20,191,324-->
-> - $f(x \in (0, +\infty)) = \sqrt{x}$ at $0$ :: It is discontinuous at $0$. <!--SR:!2024-10-06,156,310-->
+> - $f(x \in (0, +\infty)) = \sqrt{x}$ at $0$ :: It is discontinuous at $0$. <!--SR:!2026-08-07,668,330-->
 > - $f(x \in [0, +\infty)) = \sqrt{x}$ at $-1$ :: It is not discontinuous at $-1$. <!--SR:!2024-10-30,163,310-->
 
 #### definition in terms of limits of functions

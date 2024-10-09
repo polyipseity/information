@@ -12,7 +12,7 @@ tags:
 
 To understand the Apriori algorithm, notice that {{for any database and two item sets _A_ and _B_ where $A \subseteq B$, then $\operatorname{supp}(A) \ge \operatorname{supp}(B)$}}. This is easily seen by considering that {{any transaction that satisfies _B_ contains all the items of _B_, so must also satisfy _A_, as it contains all the items of _A_ as a subset of _B_}}. This is called the {{_downward closure lemma_}}. <!--SR:!2025-12-08,487,310!2024-12-31,232,319!2024-11-05,191,310-->
 
-Then the Apriori algorithm uses a {{"bottom up"}} approach. The frequent sets {{start from one item and then are extended one item at a time, called _candidate generation_}}. The generation can cover all possible frequent sets because of the downward closure lemma. Then, {{the candidates are tested against the support threshold and become the new frequent sets that are one item longer than the last generation}}. Repeat this process until {{there are no more candidates}}. The output is {{all frequent sets in all generations}}. <!--SR:!2024-11-20,203,319!2024-10-07,170,310!2025-03-09,282,290!2025-03-01,299,339!2026-07-18,668,330-->
+Then the Apriori algorithm uses a {{"bottom up"}} approach. The frequent sets {{start from one item and then are extended one item at a time, called _candidate generation_}}. The generation can cover all possible frequent sets because of the downward closure lemma. Then, {{the candidates are tested against the support threshold and become the new frequent sets that are one item longer than the last generation}}. Repeat this process until {{there are no more candidates}}. The output is {{all frequent sets in all generations}}. <!--SR:!2024-11-20,203,319!2026-10-06,728,330!2025-03-09,282,290!2025-03-01,299,339!2026-07-18,668,330-->
 
 Filtering the candidate, called the {{_count step_}}, is obvious, but candidate generation is not as obvious. For candidate generation, there are two steps: {{_join step_ and _prune step_}}. <!--SR:!2024-12-21,224,336!2025-05-11,310,363-->
 
@@ -22,7 +22,7 @@ For _prune step_, confirm the _possible_ candidate sets. For each _possible_ can
 
 Note that the above is a slower variant of the Apriori algorithm. There is a much more common variant that is also faster, but {{that additionally requires all sets above be lexicographically ordered sets}}. With this additional requirement in mind, the difference is in {{the join step}}. First, we define the _prefix set_ of an ordered set of size _n_ as {{the first _n_-1 items of the ordered set, itself in an ordered set}}. Now the join step instead becomes {{considering all possible pairs of sets that have the same prefix set, then the union of each pair is a _possible_ candidate set}}. <!--SR:!2026-04-22,602,336!2025-02-03,277,356!2026-05-31,628,336!2026-08-14,685,336-->
 
-If we consider each set is directionally linked from itself to the new candidate sets it has generated, {{a tree-like structure}} appears, and the Apriori algorithm is similar to {{[breadth-first search](breadth-first%20search.md)}}. <!--SR:!2024-10-06,170,310!2025-02-24,294,339-->
+If we consider each set is directionally linked from itself to the new candidate sets it has generated, {{a tree-like structure}} appears, and the Apriori algorithm is similar to {{[breadth-first search](breadth-first%20search.md)}}. <!--SR:!2026-10-05,727,330!2025-02-24,294,339-->
 
 Creation of association rules from the frequent item sets is {{not covered by this algorithm}}. <!--SR:!2025-05-04,301,363-->
 
