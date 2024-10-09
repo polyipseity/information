@@ -227,7 +227,7 @@ The content is in teaching order. Extra information and corrections are included
 ## week 3 lecture
 
 - time: 2024-07-02T10:00:00+08:00/2024-07-02T12:30:00+08:00
-- [equinox](../../../../general/equinox.md) ::: Axis tilt is sideways with regards to the Sun. The Sun on the celestial equator on the celestial sphere. Both hemisphere receives the same amount of sunlight.
+- [equinox](../../../../general/equinox.md) ::: Axis tilt is sideways with regards to the Sun. The Sun is on the celestial equator of the celestial sphere. Both hemisphere receives the same amount of sunlight.
   - equinox etymology ::: equi "equal" + nox "night"
   - equinox names ::: spring/vernal equinox, fall/autumnal equinox, March equinox, September equinox
     - spring/vernal equinox, fall/autumnal equinox vs. [March equinox](../../../../general/March%20equinox.md), [September equinox](../../../../general/September%20equinox.md) ::: The former depends on the hemisphere while the latter does not. For the Northern hemisphere, spring/vernal equinox is March equinox and fall/autumnal equinox is September equinox. This is reversed for the Southern hemisphere.

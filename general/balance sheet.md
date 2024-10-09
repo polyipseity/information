@@ -90,7 +90,7 @@ Assets are {{all the things the business owns}}. This will include {{property, t
 2. investment property, such as [real estate](real%20estate.md) held for investment purposes ::: the purchase, management and sale or rental of real estate for profit
 3. [intangible assets](intangible%20asset.md), such as patents, copyrights and goodwill ::: assets that lacks physical substance
 4. financial assets (excluding investments accounted for using the equity method, [accounts receivables](accounts%20receivable.md), and cash and [cash equivalents](cash%20and%20cash%20equivalents.md)), such as [notes receivables](notes%20receivable.md) ::: non-physical assets whose value is derived from a contractual claim
-5. [investments](investment.md#finance) accounted for using the [equity method](equity%20method.md) ::: the process of treating investments in associate companies (usually companies that we are holding 20%–50% (inclusive) of the shares)
+5. [investments](investment.md#finance) accounted for using the [equity method](equity%20method.md) ::: the process of treating investments in associate companies (usually companies that we are holding 20%–50% (both inclusive) of the shares)
 6. biological assets, which are living plants or animals; bearer biological assets are plants or animals which bear agricultural produce for harvest, such as apple trees grown to produce apples and sheep raised to produce wool<sup>[\[18\]](#^ref-18)</sup> ::: assets that are living plants or animals
 7. [loan](loan.md) to (more than one financial period) ::: transfer of money by us to another with an agreement to pay it back beyond one financial period
 

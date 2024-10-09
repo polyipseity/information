@@ -22,7 +22,7 @@ tags:
 The content is in teaching order.
 
 - grading scheme: 40% homework, 30% midterm examination, 30% final examination
-  - homework: 10% × 4. It must be written in LaTeX. After submitting the homework, the instructor and TAs will read the submission and give feedback. You can then resubmit once more. The highest out of the 2 submission wills be counted. Resubmission may be disallowed if the initial submission is low quality or lack effort.
+  - homework: 10% × 4. It must be written in LaTeX. After submitting the homework, the instructor and TAs will read the submission and give feedback. You can then resubmit once more. The highest out of the 2 submission wills be counted. Resubmission may be disallowed if the initial submission is low quality or lacks effort.
   - midterm examination: 30%.
   - final examination: 30%. It covers the entire course.
 - [questions](questions/questions.md)
@@ -60,6 +60,10 @@ The content is in teaching order.
     - rules of inference / _modus ponens_ ::: $$\begin{aligned} & p \rightarrow q \\ & \underline{p \phantom{\rightarrow q} } \\ & q & \end{aligned}$$
     - rules of inference / hypothetical syllogism ::: $$\begin{aligned} & p \rightarrow q \\ & \underline{q \rightarrow r} \\ & p \rightarrow r & \end{aligned}$$
     - rules of inference / _modus tollens_ (not to be confused with the related _contraposition_) ::: $$\begin{aligned} & p \rightarrow q \\ & \underline{\lnot q \!\!\!\! \phantom{\rightarrow q} } \\ & \lnot p & \end{aligned}$$
+- readings
+  - [lecture video](https://youtu.be/Iexw2Lg9BmI)
+  - Grimaldi/Chapter 2: Fundamentals of Logic
+  - [video: proofs](https://youtu.be/L3LMbpZIKhQ)
 
 ## week 1 tutorial
 
@@ -96,6 +100,10 @@ The content is in teaching order.
   - Peano axioms / 3rd axiom motivation ::: This makes the successor function injective (but not surjective, as $0$ is not in the image of the function).
   - Peano axioms / 4th axiom motivation ::: Coupled with the injective property, this makes the successor function never go back to the starting number $0$. Otherwise, the successor function can, at one point, loop back to $0$, and there will only be finitely many natural numbers.
   - Peano axioms / 5th axiom motivation ::: The 4 axioms above are insufficient to ensure that repeatedly applying $S$ on $0$ can generate all natural numbers. Indeed, an infinite successor chain starting from $0$ that does not contain all the natural numbers, with a finite circular successor chain, is compatible with the 4 axioms above. The 5th axiom simply states that the infinite successor chain starting from $0$ is the set of all natural numbers, excluding the situation above. This is also what makes mathematical induction possible.
+- readings
+  - [lecture video](https://youtu.be/X_SF_o9ZwmA)
+  - Grimaldi/Chapter 2: Fundamentals of Logic
+  - [video: Peano axioms](https://youtu.be/5zl2zBqNAHM)
 
 ## week 1 lecture 2
 
@@ -105,9 +113,74 @@ The content is in teaching order.
   - [§ addition](../../../../general/Peano%20axioms.md#addition) ::: 2 rules: $\forall n; n + 0 = n$, $\forall n, m; n + s(m) = s(n + m)$. All other rules that you know of everyday addition can be derived from these rules. From this we can prove that addition is commutative ($\forall n, m; n + m = m + n$) and associative ($\forall n, m, o; (n + m) + o = n + (m + o)$).
   - [§ multiplication](../../../../general/Peano%20axioms.md#multiplication) ::: Assuming addition is defined, 2 rules: $\forall n, n \cdot 0 = 0$, $\forall n, m; n \cdot s(m) = n + n \cdot m$. All other rules that you know of everyday multiplication can be derived from these rules. From this we can prove that multiplication is commutative ($\forall n, m; n \cdot m = m \cdot n$) and associative ($\forall n, m, o; (n \cdot m) \cdot o = n \cdot (m \cdot o)$).
   - [§ inequalities](../../../../general/Peano%20axioms.md#inequalities) ::: Assuming addition is defined, the inequality $\le$ is defined as $$n \le m \equiv \exists x; n + x = m$$.
-- [well-ordering principle](../../../../general/well-ordering%20principle.md) ::: Every _non-empty_ subset of the natural numbers (not integers) has a least element. Proofs using this are generally by contradiction. This, induction (from Peano axioms), and proof by infinite descent are equivalent to each other.
+- [mathematical induction](../../../../general/mathematical%20induction.md)
+  - [§ mathematical induction](../../../../general/mathematical%20induction.md#mathematical%20induction)
+  - [§ description](../../../../general/mathematical%20induction.md#description)
+  - [§ examples](../../../../general/mathematical%20induction.md#examples)
+  - [§ example of error in the induction step](../../../../general/mathematical%20induction.md#example%20of%20error%20in%20the%20induction%20step)
+  - [§ relationship to the well-ordering principle](../../../../general/mathematical%20induction.md#relationship%20to%20the%20well-ordering%20principle)
+- [well-ordering principle](../../../../general/well-ordering%20principle.md) ::: Every _non-empty_ subset of the natural numbers (not integers) has a least element. Proofs using this are generally by contradiction. This is implied from induction (from Peano axioms) or infinite descent. However, the well-ordering principle does not imply induction (under the other Peano axioms), and so is not equivalent to induction.
   - [§ well-ordering principle](../../../../general/well-ordering%20principle.md#well-ordering%20principle)
-- [proof by infinite descent](../../../../general/proof%20by%20infinite%20descent.md) ::: There are no infinite strictly decreasing sequences of natural numbers. Proofs using this are generally by contradiction, and involve constructing an infinite descent of natural numbers, which contradicts this. Another way is assuming a minimal solution to a problem exists, but then prove that it would lead to a smaller solution. This, induction (from Peano axioms), and well-ordering principle are equivalent to each other.
+- [proof by infinite descent](../../../../general/proof%20by%20infinite%20descent.md) ::: There are no infinite strictly decreasing sequences of natural numbers. Proofs using this are generally by contradiction, and involve constructing an infinite descent of natural numbers, which contradicts this. Another way is assuming a minimal solution to a problem exists, but then prove that it would lead to a smaller solution. This is equivalent to induction (from Peano axioms), and implies the well-ordering principle .
   - [§ proof by infinite descent](../../../../general/proof%20by%20infinite%20descent.md#proof%20by%20infinite%20descent)
 - [questions/2024-09-04](questions/2024-09-04.md)
 - [week 1 problem set](questions/week%201%20problem%20set.md)
+- readings
+  - [lecture video](https://youtu.be/xR3jmz5WdQ4)
+  - [video: induction](https://youtu.be/z8HKWUWS-lA)
+  - [video: 2+2=4](https://youtu.be/TQpHVtlXuyc)
+  - [Mathematical Induction](https://www.sydney.edu.au/content/dam/students/documents/mathematics-learning-centre/mathematical-induction.pdf)
+
+## week 2 lecture
+
+- time: 2024-09-09T10:30:00+08:00/2024-09-09T11:20:00+08:00
+- [mathematical induction](../../../../general/mathematical%20induction.md): even more induction problems, strong induction
+  - [§ variants](../../../../general/mathematical%20induction.md#variants)
+  - [§ complete (strong) induction](../../../../general/mathematical%20induction.md#complete%20(strong)%20induction)
+- [Nim](../../../../general/Nim.md)
+  - [§ Nim](../../../../general/Nim.md#Nim)
+  - [§ game play and illustration](../../../../general/Nim.md#game%20play%20and%20illustration)
+- [questions/2024-09-09 § lecture](questions/2024-09-09.md#lecture)
+- readings
+  - [lecture video](https://youtu.be/X6l72P9QW7A)
+  - [video: strong induction](https://youtu.be/NuGDkmwEObM)
+  - [video: proof by strong induction](https://youtu.be/USOsVbEbOIg)
+  - [video: strong induction examples](https://youtu.be/6O1s3_GsSHo)
+  - Engel/Chapter 3: The Extremal Principle
+  - Engel/Chapter 8: The Induction Principle
+- notes
+  - Pause the videos whenever a problem is posed and try to solve it on your own first, before watching the solution.
+  - It is really important that you give \*\*every\*\* problem an honest and serious attempt before reading its solution. You must reach mastery in using mathematical induction and its equivalent forms. All of the future modules in this course depend on such mastery.
+
+## week 2 tutorial
+
+- time: 2024-09-09T18:00:00+08:00/2024-09-09T18:50:00+08:00
+- [mathematical induction](../../../../general/mathematical%20induction.md): even more induction problems
+- [questions/2024-09-09 § tutorial](questions/2024-09-09.md#tutorial)
+- readings
+  - [lecture video](https://youtu.be/sTKBr2au1o4)
+  - [video: induction problems](https://youtu.be/tHNVX3e9zd0)
+  - [video: divisibility problems solved by induction](https://youtu.be/8J7Bft3BN0g)
+  - [video: epic induction](https://youtu.be/bylFzBxzQ9M)
+  - Engel/Chapter 3: The Extremal Principle
+  - Engel/Chapter 8: The Induction Principle
+
+## week 2 lecture 2
+
+- time: 2024-09-11T09:00:00+08:00/2024-09-11T11:20:00+08:00
+- [combinatorial principles](../../../../general/combinatorial%20principles.md) ::: principles commonly used to solve combinatorial problems: rule of sum, rule of product, permutation, combination, ...
+  - [§ combinatorial principles](../../../../general/combinatorial%20principles.md#combinatorial%20principles)
+  - [§ rule of sum](../../../../general/combinatorial%20principles.md#rule%20of%20sum) ::: Also known as the principle of addition or case work principle. If there are _A_ ways to do a thing and _B_ ways to do another thing, then there are _A_ + _B_ ways to do either one thing.
+  - [§ rule of product](../../../../general/combinatorial%20principles.md#rule%20of%20product) ::: Also known as the principle of multiplication. If there are _A_ ways to do a thing and _B_ ways to do another thing, then there are _A_ \* _B_ ways to do both things.
+- [permutation](../../../../general/permutation.md) ::: the arrangement of $k$ things from $n$ things (order matters), calculated by $$P(n, k) = \frac {n!} {(n - k)!}$$
+- [combination](../../../../general/combination.md) ::: choosing $k$ things from $n$ things (order does not matter), calculated by $$C(n, k) = \binom n k = \frac {n!} {(n - k)! k!}$$
+- [questions/2024-09-11](questions/2024-09-11.md)
+- [week 2 problem set](questions/week%202%20problem%20set.md)
+- readings
+  - [lecture video](https://youtu.be/zpeMfQT9JA0)
+  - Grimaldi/Chapter 1: Fundamental Principles of Counting
+  - Chen and Koh/Chapter 1: Permutations and Combinations (very important)
+  - Ross/Chapter 1: Combinatorial Analysis
+  - [fun to read: Which Rectangular Chessboards Have a Knight's Tour?](https://www.jstor.org/stable/2690649)
+- notes
+  - It is crucial that you solve \*\*every\*\* exercise at the end of these chapters.
