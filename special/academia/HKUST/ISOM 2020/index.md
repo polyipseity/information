@@ -164,9 +164,9 @@ The content is in teaching order.
     - addition: `list(value)`
 - [control flow](control%20flow.md)
   - [§ iteration](control%20flow.md#iteration)
-    - [control flow § iteration](control%20flow.md#iteration) / note ::: Yes, did you know you can put branches (`if`) and loops (`for`) inside branches (`if`) and loops (`for`)? <!--SR:!2024-10-19,19,332!2024-10-16,16,332-->
+    - [control flow § iteration](control%20flow.md#iteration) / note ::: Yes, did you know you can put branches (`if`) and loops (`for`, `while`) inside branches (`if`) and loops (`for`, `while`)? <!--SR:!2024-10-19,19,332!2024-10-16,16,332-->
 - week 4 exercise: 1/1, graded
-- [week 5 lab attendance waiver](assignments/lab%204/lab%204%20waiver%20submission.ipynb)
+- [week 5 lab attendance waiver](assignments/lab%204/lab%204%20waiver%20submission.ipynb): ?/1, ignored due to public holiday
 
 ## week 4 lab
 
@@ -184,3 +184,31 @@ The content is in teaching order.
 - [basics](basics.md)
   - [§ logic operators](basics.md#logic%20operators)
 - week 4 lab tasks: ?/1, waived
+
+## week 4 lecture
+
+- time: 2024-09-27T16:00:00+08:00/2024-09-27T17:50:00+08:00
+- [§ week 4 pre-lecture](#week%204%20pre-lecture)
+- [basics](basics.md)
+  - [§ output](basics.md#output)
+    - addition: `print(end=<str | None = None>)`
+- week 4 lecture materials
+- week 4 practice question set: 10/10, ungraded
+
+## week 5 pre-lecture
+
+- time: 2024-09-30T12:00:00+08:00
+- [control flow](control%20flow.md)
+  - [§ while-iteration](control%20flow.md#while-iteration)
+    - [control flow § while-iteration](control%20flow.md#while-iteration) / note : We have only learnt `while True`. ONLY USE `while True` in your exercises, labs, and exams. If you really need a condition to stop the loop, use `break` under an `if` statement.
+  - [§ iteration](control%20flow.md#iteration)
+- week 5 exercise: 1/1, graded
+
+## week 5 lab
+
+- time: 2024-10-01T11:00:00+08:00/2024-10-01T12:50:00+08:00
+- public holiday
+- [§ week 4 pre-lecture](#week%204%20pre-lecture)
+- [control flow](control%20flow.md)
+  - [§ for-iteration](control%20flow.md#for-iteration)
+- [week 5 lab tasks](assignments/lab%204/lab%204%20submission.ipynb): ?/1, graded

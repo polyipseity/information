@@ -237,11 +237,11 @@ async def wiki_html_to_plaintext(
 
                 prefix, suffix = "$" if inline else "$$", "$" if inline else "$$\n\n"
 
-                for char in ".,":
-                    if alt_text.endswith(char):
-                        suffix += alt_text[-1]
-                        alt_text = alt_text[:-1]
-                alt_text = alt_text.strip()
+                # for char in ".,":
+                #     if alt_text.endswith(char):
+                #         suffix += alt_text[-1]
+                #         alt_text = alt_text[:-1]
+                # alt_text = alt_text.strip()
 
                 ele.clear()
                 ele.append(alt_text)
