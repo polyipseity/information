@@ -9,11 +9,11 @@ tags:
 
 # Python control flow
 
-Keep in mind a thing mostly unique to Python: {{Indentation matters in Python, so do not omit the indentations shown below.}} <!--SR:!2024-10-09,15,290-->
+Keep in mind a thing mostly unique to Python: {{Indentation matters in Python, so do not omit the indentations shown below.}} <!--SR:!2024-11-27,48,290-->
 
 ## branching
 
-An `if` statement consists of {{a condition and a statement block}}: <!--SR:!2024-10-09,15,290-->
+An `if` statement consists of {{a condition and a statement block}}: <!--SR:!2024-12-08,59,310-->
 
 ```Python
 if condition:
@@ -46,7 +46,7 @@ else:
 
 The semantics of `if...elif...else` can be found by consider the semantics of chaining `if...else`: {{The statement after the first `true` condition is executed. If there are no `true` conditions, the statement block after `else` is executed if there is an `else`. Otherwise, nothing is executed}}. Note that {{the conditions up until the first `true` condition (inclusive) are themselves always executed in the appearance order, ignoring statement blocks along the way. If there are no `true` conditions, all conditions are always executed in the appearance order, followed by the `else` statement block if there is one}}. <!--SR:!2024-10-11,17,290!2024-11-19,42,290-->
 
-If {{there are no statements to be executed in a branch}}, you {{must still put a properly indented `pass` statement, which does nothing, for that branch}}. This is also {{true for other control flow constructs introduced below}}. For example: <!--SR:!2024-11-21,44,290!2024-11-16,45,290!2024-10-10,16,290-->
+If {{there are no statements to be executed in a branch}}, you {{must still put a properly indented `pass` statement, which does nothing, for that branch}}. This is also {{true for other control flow constructs introduced below}}. For example: <!--SR:!2024-11-21,44,290!2024-11-16,45,290!2024-12-13,64,310-->
 
 ```Python
 if condition:

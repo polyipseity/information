@@ -95,7 +95,7 @@ The content is in teaching order.
 - construction engineering ::: planning and execution of the designs from other fields of engineers <!--SR:!2025-09-30,397,337!2025-10-04,429,394-->
   - [construction engineer skills](#construction%20engineer%20skills)
   - [construction engineer jobs](#construction%20engineer%20jobs)
-- civil engineer prospects ::: A civil engineering degree prepares one for work in the construction industry and the broader business, financial, and management sectors. <!--SR:!2024-10-09,164,325!2025-03-14,281,350-->
+- civil engineer prospects ::: A civil engineering degree prepares one for work in the construction industry and the broader business, financial, and management sectors. <!--SR:!2026-10-15,735,345!2025-03-14,281,350-->
   - civil engineer demand ::: Civil engineer are always in demand due to new infrastructure and maintenance and monitoring of existing ones. <!--SR:!2025-08-20,384,380!2025-09-09,407,397-->
   - [civil engineer prospect examples](#civil%20engineer%20prospect%20examples)
   - civil engineer organization examples ::: contractors or construction companies, engineering consulting firms, government (working as civil servants) <!--SR:!2025-03-25,247,285!2025-03-18,266,330-->
@@ -194,7 +194,7 @@ water and sewage treatment system
 - _(begin)_→:::←bridge <!--SR:!2025-09-15,412,397!2025-11-25,470,394-->
 - bridge→:::←building <!--SR:!2025-05-05,282,372!2025-04-22,268,360-->
 - building→:::←dam <!--SR:!2024-12-12,167,340!2026-03-05,544,400-->
-- dam→:::←pipeline <!--SR:!2024-10-11,66,204!2024-10-09,117,321-->
+- dam→:::←pipeline <!--SR:!2024-10-11,66,204!2026-03-12,518,341-->
 - pipeline→:::←power plant <!--SR:!2025-01-13,152,260!2024-10-22,107,281-->
 - power plant→:::←reservoir <!--SR:!2025-01-10,164,275!2024-10-24,49,300-->
 - reservoir→:::←sewage treatment <!--SR:!2025-01-24,122,197!2025-03-13,189,261-->
@@ -741,7 +741,7 @@ tunnel
 <!--pytextgen generate section="11ab"--><!-- The following content is generated at 2024-05-01T19:22:35.163388+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←embankment <!--SR:!2025-09-25,357,320!2025-06-28,320,380-->
-- embankment→:::←pile foundation <!--SR:!2024-10-10,116,320!2025-02-18,218,360-->
+- embankment→:::←pile foundation <!--SR:!2026-03-06,512,340!2025-02-18,218,360-->
 - pile foundation→:::←shallow foundation <!--SR:!2025-01-07,170,317!2025-01-04,191,355-->
 - shallow foundation→:::←tunnel <!--SR:!2025-09-06,333,321!2025-01-14,103,212-->
 - tunnel→:::←_(end)_ <!--SR:!2025-01-15,195,350!2024-12-13,100,297-->
@@ -917,7 +917,7 @@ polypropylene fiber reinforced concrete
 - cellular concrete→:::←engineered cement composite <!--SR:!2024-10-24,153,270!2024-12-05,166,330-->
 - engineered cement composite→:::←fly ash concrete <!--SR:!2024-11-02,143,337!2025-09-02,341,320-->
 - fly ash concrete→:::←polypropylene fiber reinforced concrete <!--SR:!2025-03-31,209,280!2025-08-14,344,335-->
-- polypropylene fiber reinforced concrete→:::←_(end)_ <!--SR:!2025-06-10,311,372!2024-10-10,117,320-->
+- polypropylene fiber reinforced concrete→:::←_(end)_ <!--SR:!2025-06-10,311,372!2025-10-18,373,320-->
 
 <!--/pytextgen-->
 
@@ -1016,7 +1016,7 @@ Taipei 101
 <!--pytextgen generate section="938f"--><!-- The following content is generated at 2024-02-16T21:59:47.947997+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←HSBC Main Building <!--SR:!2024-10-17,88,297!2025-04-01,312,330-->
-- HSBC Main Building→:::←International Commerce Centre <!--SR:!2024-10-29,40,277!2024-10-09,48,314-->
+- HSBC Main Building→:::←International Commerce Centre <!--SR:!2024-10-29,40,277!2025-05-06,208,334-->
 - International Commerce Centre→:::←John Hancock Center <!--SR:!2025-10-04,361,320!2024-12-24,105,297-->
 - John Hancock Center→:::←Taipei 101 <!--SR:!2024-11-02,137,341!2025-10-16,373,312-->
 - Taipei 101→:::←_(end)_ <!--SR:!2025-04-10,280,367!2024-10-28,46,301-->
@@ -1149,7 +1149,7 @@ and the Structural Engineering Institute (SEI).
 - The problems had been reported in 2018 and a US$15M program of remedial work has been approved, though no main structural work has taken place.→:::←On 25 August 2021, the National Institute of Standards and Technology (NIST) has been tasked with investigation, <!--SR:!2024-11-12,149,337!2025-11-17,413,335-->
 - On 25 August 2021, the National Institute of Standards and Technology (NIST) has been tasked with investigation,→:::←with investigators coming from the American Concrete Institute (ACI), <!--SR:!2024-10-26,144,327!2025-06-05,278,307-->
 - with investigators coming from the American Concrete Institute (ACI),→:::←the American Society of Civil Engineers (ASCE), <!--SR:!2024-11-25,156,334!2025-05-18,269,310-->
-- the American Society of Civil Engineers (ASCE),→:::←the Geode Institute (GI), <!--SR:!2025-02-04,190,290!2024-10-09,130,337-->
+- the American Society of Civil Engineers (ASCE),→:::←the Geode Institute (GI), <!--SR:!2025-02-04,190,290!2026-06-04,602,357-->
 - the Geode Institute (GI),→:::←and the Structural Engineering Institute (SEI). <!--SR:!2025-10-29,426,357!2024-12-11,201,330-->
 - and the Structural Engineering Institute (SEI).→:::←_(end)_ <!--SR:!2025-05-08,326,350!2024-12-06,196,330-->
 

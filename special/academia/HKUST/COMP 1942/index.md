@@ -28,7 +28,7 @@ The content is in teaching order.
 - association ::: Finding frequent _patterns_, e.g. frequent items and _item sets_, and _association rules_, e.g. the likelihood of A implying B. <!--SR:!2026-02-11,531,310!2024-11-21,218,330-->
 - clustering ::: Finding all _clusters_, e.g. the clusters of items after graphing them in a 2D graph. <!--SR:!2024-11-05,191,310!2025-02-08,282,330-->
 - classification ::: _Predict_ results given some input data, e.g. decision trees. <!--SR:!2025-11-06,462,310!2025-02-16,286,330-->
-- data warehouse ::: Knowledge database containing _pre-computed_ results from data sources. <!--SR:!2024-10-09,180,310!2026-07-09,660,330-->
+- data warehouse ::: Knowledge database containing _pre-computed_ results from data sources. <!--SR:!2026-11-20,771,330!2026-07-09,660,330-->
 - dimension reduction ::: Reducing _dimensionality_ while minimizing _information loss_. One can visualize this by imagine many data points lying close to a line in a $xy$ graph. Then instead of representing each data point with two numbers, $x$ and $y$, we can represent each data point with one number representing the distance from the origin to the point on the line closest to the original data point. Information loss is the distance between the original point and the point on the line closest to the origin point. <!--SR:!2025-06-27,333,290!2024-11-16,199,310-->
 - web database ::: Using data from the web, e.g. ranking webpages. <!--SR:!2025-02-05,278,330!2025-02-28,295,330-->
 - [delimiter](../../../../general/delimiter.md) definition ::: The text each data point is separated by. For example, `column 1,column 2,column 3` is delimited by `,`. <!--SR:!2025-01-23,269,330!2025-01-13,261,330-->
@@ -476,7 +476,7 @@ The content is in teaching order.
   - [word-sense disambiguation](word-sense%20disambiguation.md) ::: How to disambiguate between different entities of the same name on the Internet? <!--SR:!2026-01-25,474,397!2026-01-22,471,397-->
   - social networks ::: How are people connected? <!--SR:!2024-10-15,99,377!2024-10-11,95,377-->
   - privacy issues ::: How to preserve data privacy while data mining? Minimize information loss while protect individual privacy. <!--SR:!2026-01-09,458,397!2025-09-09,336,377-->
-  - graph data ::: How to analyze graphs? <!--SR:!2026-01-29,478,397!2024-10-10,94,377-->
+  - graph data ::: How to analyze graphs? <!--SR:!2026-01-29,478,397!2026-02-09,487,397-->
   - decision making
   - data streams ::: How to data mine over real-time and possibly unbounded data streams? <!--SR:!2024-10-23,106,377!2025-06-27,298,377-->
   - chatbot

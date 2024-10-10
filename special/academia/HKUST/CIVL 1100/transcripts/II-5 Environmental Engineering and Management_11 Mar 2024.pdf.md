@@ -244,7 +244,7 @@ Hong Kong Harbour Area Treatment Scheme Stage I (HATS)
 - Hong Kong Harbour Area Treatment Scheme Stage I ::: HATS Stage 1 <!--SR:!2025-03-26,237,330!2025-04-16,251,330-->
   - HATS Stage 1 scheme period ::: 1994 to 2001 <!--SR:!2024-11-10,117,290!2024-11-16,84,250-->
   - HATS Stage 1 scheme cost ::: HK$8.2 billion <!--SR:!2024-10-20,101,290!2025-05-18,229,270-->
-  - HATS Stage 1 details ::: Stonecutters Island Sewage Treatment Works (SCISTW), sewage tunnel of 23.6 km, upgrade 8 preliminary treatment works (PTWs) <!--SR:!2024-10-10,93,270!2025-02-01,181,310-->
+  - HATS Stage 1 details ::: Stonecutters Island Sewage Treatment Works (SCISTW), sewage tunnel of 23.6 km, upgrade 8 preliminary treatment works (PTWs) <!--SR:!2025-06-09,242,270!2025-02-01,181,310-->
   - HATS Stage 1 geographic coverage ::: collect sewage from Kowloon, Kwai Tsing, Tseung Kwan O, and north-eastern Hong Kong Island to SCISTW <!--SR:!2025-04-15,211,270!2024-12-09,148,310-->
   - HATS Stage 1 coverage in numbers ::: 3.5 million people, 75% from harbour area <!--SR:!2024-11-30,132,290!2025-06-01,248,290-->
   - HATS Stage 1 capacities :::: current ~1.4M m<sup>3</sup>/d, max: 1.7M m<sup>3</sup>/d <!--SR:!2024-11-05,114,290!2024-11-17,124,290-->
@@ -255,7 +255,7 @@ HATS Stage 2 Overview
 
 - Hong Kong Harbour Area Treatment Scheme Stage II ::: HATS Stage 2 <!--SR:!2025-04-09,248,330!2025-05-13,274,330-->
   - HATS Stage 2 phases ::: 2 phases, stage 2A and stage 2B <!--SR:!2025-04-12,247,330!2025-04-29,260,330-->
-  - HATS Stage 2A ::: collect and treat the remaining 25% sewage from north and south-western Hong Kong Island and future development, and provide disinfection <!--SR:!2025-02-14,176,270!2024-10-10,97,290-->
+  - HATS Stage 2A ::: collect and treat the remaining 25% sewage from north and south-western Hong Kong Island and future development, and provide disinfection <!--SR:!2025-02-14,176,270!2025-07-13,276,290-->
   - HATS Stage 2B ::: biological treatment <!--SR:!2025-01-29,186,310!2025-01-07,163,310-->
 
 ## page 19
@@ -389,7 +389,7 @@ return await memorize_seq(
 <!--pytextgen generate section="ff34"--><!-- The following content is generated at 2024-05-16T15:50:24.139486+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←carbon dioxide (CO<sub>2</sub>) <!--SR:!2025-02-20,192,310!2025-02-16,188,310-->
-- carbon dioxide (CO<sub>2</sub>)→:::←hydroflurocarbons (HFCs) <!--SR:!2024-10-09,79,230!2025-05-06,223,270-->
+- carbon dioxide (CO<sub>2</sub>)→:::←hydroflurocarbons (HFCs) <!--SR:!2025-04-13,185,230!2025-05-06,223,270-->
 - hydroflurocarbons (HFCs)→:::←methane (CH<sub>4</sub>) <!--SR:!2024-10-22,99,270!2025-03-10,166,230-->
 - methane (CH<sub>4</sub>)→:::←nitrous oxide (N<sub>2</sub>O) <!--SR:!2024-10-27,91,250!2024-12-09,134,290-->
 - nitrous oxide (N<sub>2</sub>O)→:::←perflurocarbons (PFCs) <!--SR:!2025-01-25,123,230!2024-10-16,16,130-->

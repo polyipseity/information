@@ -31,7 +31,7 @@ The core of the Sun extends {{from the center to about 20–25% of the [solar ra
 
 The core is the only region of the Sun that {{produces an appreciable amount of [thermal energy](thermal%20energy.md) through [nuclear fusion](nuclear%20fusion.md)}}; {{99% of the power is generated within 24% of the Sun's radius, and by 30% of the radius}}, fusion has stopped nearly entirely. Through most of the Sun's life, energy has been produced by {{nuclear fusion in the core region through the [proton–proton chain](proton–proton%20chain.md); this process converts [hydrogen](hydrogen.md) into [helium](helium.md)}}. Currently, only about 0.8% of the energy generated in the Sun {{comes from another sequence of fusion reactions called the [CNO cycle](CNO%20cycle.md), though this proportion is expected to increase as the Sun becomes older and more luminous}}. <!--SR:!2025-04-22,207,320!2025-03-14,157,300!2025-01-03,113,300!2025-03-20,163,300-->
 
-The fusion rate in the core is {{in a self-correcting equilibrium}}: a slightly higher rate of fusion would {{cause the core to heat up more and [expand](thermal%20expansion.md) slightly against the weight of the outer layers, reducing the density and hence the fusion rate and correcting the perturbation}}; and {{a slightly lower rate would cause the core to cool and shrink slightly, increasing the density and increasing the fusion rate and again reverting it to its present rate}}. <!--SR:!2024-10-09,56,300!2024-10-31,78,320!2025-02-14,140,300-->
+The fusion rate in the core is {{in a self-correcting equilibrium}}: a slightly higher rate of fusion would {{cause the core to heat up more and [expand](thermal%20expansion.md) slightly against the weight of the outer layers, reducing the density and hence the fusion rate and correcting the perturbation}}; and {{a slightly lower rate would cause the core to cool and shrink slightly, increasing the density and increasing the fusion rate and again reverting it to its present rate}}. <!--SR:!2025-05-30,232,320!2024-10-31,78,320!2025-02-14,140,300-->
 
 ## radiative zone
 
@@ -43,7 +43,7 @@ The radiative zone is the thickest layer of the [Sun](sun.md), {{at 0.45 [solar 
 
 - see: [convection zone](convection%20zone.md)
 
-The Sun's convection zone extends {{from 0.7 [solar radii](solar%20radius.md) (500&nbsp;000 km) to near the surface}}. The temperature drops {{from approximately 1.5 million to 5700 [kelvins](Kelvin.md) with increasing distance from the [core](#core)}}. In this layer, the solar plasma is {{not dense or hot enough to transfer the heat energy of the interior outward via [radiation](thermal%20radiation.md)}}. Instead, the density of the plasma is {{low enough to allow convective currents to develop and move the Sun's energy outward towards its surface}}. <!--SR:!2024-11-01,66,280!2024-10-11,58,300!2024-12-06,93,300!2024-10-10,57,300-->
+The Sun's convection zone extends {{from 0.7 [solar radii](solar%20radius.md) (500&nbsp;000 km) to near the surface}}. The temperature drops {{from approximately 1.5 million to 5700 [kelvins](Kelvin.md) with increasing distance from the [core](#core)}}. In this layer, the solar plasma is {{not dense or hot enough to transfer the heat energy of the interior outward via [radiation](thermal%20radiation.md)}}. Instead, the density of the plasma is {{low enough to allow convective currents to develop and move the Sun's energy outward towards its surface}}. <!--SR:!2024-11-01,66,280!2024-10-11,58,300!2024-12-06,93,300!2025-06-03,236,320-->
 
 ## photosphere
 

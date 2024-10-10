@@ -15,16 +15,16 @@ In [financial accounting](financial%20accounting.md), a __liability__ is {{a qua
 
 A liability is defined by the following characteristics:
 
-- [loan](loan.md) ::: Any type of borrowing from persons or banks for improving a business or personal income that is payable during short or long time; <!--SR:!2024-12-01,54,310!2024-10-09,16,290-->
+- [loan](loan.md) ::: Any type of borrowing from persons or banks for improving a business or personal income that is payable during short or long time; <!--SR:!2024-12-01,54,310!2024-11-27,48,290-->
 - [deferral](deferral.md) :::  A duty or responsibility to others that entails settlement by future transfer or use of assets, provision of services, or other transaction yielding an economic benefit, at a specified or determinable date, on occurrence of a specified event, or on demand; <!--SR:!2024-10-20,22,250!2024-11-04,27,270-->
 - [obligtion](obligation.md) ::: A duty or responsibility that obligates the entity to another, leaving it little or no discretion to avoid settlement; and, <!--SR:!2024-10-16,19,250!2024-12-11,64,310-->
 - [accrual](accrual.md) ::: A transaction or event obligating the entity that has already occurred. <!--SR:!2024-11-30,53,310!2024-11-07,39,290-->
 
-Liabilities in financial accounting {{need not be legally enforceable; but can be based on equitable obligations or constructive obligations}}. An __equitable obligation__ is {{a duty based on ethical or moral considerations}}. A __constructive obligation__ is {{an obligation that is implied by a set of circumstances in a particular situation, as opposed to a contractually based obligation}}. <!--SR:!2024-10-09,16,290!2024-12-15,68,310!2024-11-08,31,250-->
+Liabilities in financial accounting {{need not be legally enforceable; but can be based on equitable obligations or constructive obligations}}. An __equitable obligation__ is {{a duty based on ethical or moral considerations}}. A __constructive obligation__ is {{an obligation that is implied by a set of circumstances in a particular situation, as opposed to a contractually based obligation}}. <!--SR:!2024-11-29,50,290!2024-12-15,68,310!2024-11-08,31,250-->
 
 The [accounting equation](accounting%20equation.md) {{relates [assets](asset.md), liabilities, and [owner's equity](equity%20(finance).md): <p> __Assets = Liabilities + Owner's Equity__}} <!--SR:!2024-12-11,64,310-->
 
-{{The accounting equation}} is {{the mathematical structure of the [balance sheet](balance%20sheet.md)}}. <!--SR:!2024-12-05,58,310!2024-10-10,17,290-->
+{{The accounting equation}} is {{the mathematical structure of the [balance sheet](balance%20sheet.md)}}. <!--SR:!2024-12-05,58,310!2024-12-22,73,310-->
 
 Probably the most accepted accounting definition of liability is {{the one used by the [International Accounting Standards Board](International%20Accounting%20Standards%20Board.md) (IASB)}}. The following is a quotation from IFRS Framework: <!--SR:!2024-11-10,38,290-->
 
@@ -34,26 +34,26 @@ Probably the most accepted accounting definition of liability is {{the one used 
 
 Regulations as to the recognition of liabilities are {{different all over the world, but are roughly similar to those of the IASB}}. <!--SR:!2024-12-06,59,310-->
 
-Examples of types of liabilities include: {{money owing on a loan, money owing on a mortgage, or an [IOU](IOU.md)}}. <!--SR:!2024-10-09,16,290-->
+Examples of types of liabilities include: {{money owing on a loan, money owing on a mortgage, or an [IOU](IOU.md)}}. <!--SR:!2024-11-24,45,290-->
 
 __Liabilities__ are {{debts and obligations of the business they represent as __creditor's claim__ on business assets}}. <!--SR:!2024-12-03,56,310-->
 
 ## classification
 
-Liabilities are reported on a [balance sheet](balance%20sheet.md) and are {{usually divided into two categories: [current liabilities](current%20liability.md) and [long-term liabilities](long-term%20liabilities.md)}}. <!--SR:!2024-10-10,17,290-->
+Liabilities are reported on a [balance sheet](balance%20sheet.md) and are {{usually divided into two categories: [current liabilities](current%20liability.md) and [long-term liabilities](long-term%20liabilities.md)}}. <!--SR:!2024-12-16,67,310-->
 
 - [current liabilities](current%20liability.md) ::: These liabilities are reasonably expected to be liquidated within a financial period (usually a year). They usually include payables such as [wages](wage.md), [accounts](account%20(bookkeeping).md), [taxes](tax.md), and [accounts payable](accounts%20payable.md), unearned revenue when [adjusting entries](adjusting%20entries.md), portions of long-term bonds to be paid this year, and short-term obligations (_e.g._ from purchase of equipment). Current liabilities are obligations whose liquidation is reasonably expected to require the use of current assets, the creation of other current liabilities, or the provision of services within the next year or operating cycle, whichever is longer. <!--SR:!2024-10-19,21,250!2024-10-20,24,270-->
-- [long-term liabilities](long-term%20liabilities.md) ::: These liabilities are reasonably expected _not_ to be liquidated within a financial period (usually a year). They usually include issued long-term [bonds](bond%20(finance).md), notes payable, long-term [leases](lease.md), [pension](pension.md) obligations, and long-term product [warranties](warranty.md). <!--SR:!2024-12-06,59,310!2024-10-10,17,290-->
+- [long-term liabilities](long-term%20liabilities.md) ::: These liabilities are reasonably expected _not_ to be liquidated within a financial period (usually a year). They usually include issued long-term [bonds](bond%20(finance).md), notes payable, long-term [leases](lease.md), [pension](pension.md) obligations, and long-term product [warranties](warranty.md). <!--SR:!2024-12-06,59,310!2024-11-30,51,290-->
 
-{{Liabilities of uncertain value or timing}} are called {{provisions ([contingent liabilities](contingent%20liability.md))}}. <!--SR:!2024-10-09,17,290!2024-10-09,16,290-->
+{{Liabilities of uncertain value or timing}} are called {{provisions ([contingent liabilities](contingent%20liability.md))}}. <!--SR:!2024-12-21,72,310!2024-12-13,64,310-->
 
-When {{a company [deposits](deposit%20account.md) cash with a [bank](bank.md)}}, the bank records {{a liability on its balance sheet, representing the obligation to repay the depositor, usually on demand}}. Simultaneously, in accordance with {{the [double-entry](double-entry%20bookkeeping.md) principle}}, the bank {{records the cash, itself, as an asset}}. The company, on the other hand, upon depositing the cash with the bank, records {{a decrease in its cash and a corresponding increase in its bank deposits (an asset)}}. <!--SR:!2024-12-09,62,310!2024-11-18,41,290!2024-10-10,17,290!2024-12-09,62,310!2024-10-09,16,290-->
+When {{a company [deposits](deposit%20account.md) cash with a [bank](bank.md)}}, the bank records {{a liability on its balance sheet, representing the obligation to repay the depositor, usually on demand}}. Simultaneously, in accordance with {{the [double-entry](double-entry%20bookkeeping.md) principle}}, the bank {{records the cash, itself, as an asset}}. The company, on the other hand, upon depositing the cash with the bank, records {{a decrease in its cash and a corresponding increase in its bank deposits (an asset)}}. <!--SR:!2024-12-09,62,310!2024-11-18,41,290!2024-12-17,68,310!2024-12-09,62,310!2024-12-11,62,310-->
 
 ## debits and credits
 
-A [debit](debits%20and%20credits.md) {{either increases an asset or decreases a liability}}; a [credit](debits%20and%20credits.md) {{either decreases an asset or increases a liability}}. According to {{the principle of [double-entry](double-entry%20bookkeeping.md)}}, {{every financial transaction corresponds to both a debit and a credit}}. <!--SR:!2024-12-04,57,310!2024-10-09,17,290!2024-10-10,17,290!2024-10-09,16,290-->
+A [debit](debits%20and%20credits.md) {{either increases an asset or decreases a liability}}; a [credit](debits%20and%20credits.md) {{either decreases an asset or increases a liability}}. According to {{the principle of [double-entry](double-entry%20bookkeeping.md)}}, {{every financial transaction corresponds to both a debit and a credit}}. <!--SR:!2024-12-04,57,310!2024-12-01,52,290!2024-11-27,48,290!2024-12-10,61,310-->
 
-When {{cash is deposited in a bank}}, the bank is said to {{"debit" its cash account, on the asset side, and "credit" its deposits account, on the liabilities side}}. In this case, the bank is {{debiting an asset and crediting a liability, which means that both increase}}. <!--SR:!2024-11-19,42,290!2024-10-10,17,290!2024-11-16,39,290-->
+When {{cash is deposited in a bank}}, the bank is said to {{"debit" its cash account, on the asset side, and "credit" its deposits account, on the liabilities side}}. In this case, the bank is {{debiting an asset and crediting a liability, which means that both increase}}. <!--SR:!2024-11-19,42,290!2024-11-26,47,290!2024-11-16,39,290-->
 
 When {{cash is withdrawn from a bank}}, {{the opposite happens: the bank "credits" its cash account and "debits" its deposits account}}. In this case, the bank is {{crediting an asset and debiting a liability, which means that both decrease}}. <!--SR:!2024-11-28,51,310!2024-12-03,56,310!2024-12-13,66,310-->
 

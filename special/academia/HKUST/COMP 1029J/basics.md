@@ -99,7 +99,7 @@ return _chain.from_iterable(await _gather(
 - `String`::A piece of text. Example: `"Hello"` <!--SR:!2024-12-22,249,330-->
 - `boolean`::Either true or false. Example: `true`, `false` <!--SR:!2024-12-11,240,330-->
 - `char`::A single character. Example: `'a'`, `'3'`, `' '` <!--SR:!2025-02-12,290,330-->
-- `double`::A floating point number with double precision (15 to 17 significant figures). One can effectively treat it as a decimal number for most purposes. Example: `42d`, `5.`, `6.29d`, `3.12D`, `3.14` <!--SR:!2024-10-09,177,310-->
+- `double`::A floating point number with double precision (15 to 17 significant figures). One can effectively treat it as a decimal number for most purposes. Example: `42d`, `5.`, `6.29d`, `3.12D`, `3.14` <!--SR:!2026-11-12,763,330-->
 - `float`::A floating point number with single precision (6 to 9 significant figures). One can effectively treat it as a decimal number for most purposes. Example: `42f`, `1.f`, `3.14f`, `9.20F` <!--SR:!2024-10-16,183,310-->
 - `int`::An integer. Example: `42` <!--SR:!2024-12-03,235,330-->
 

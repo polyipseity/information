@@ -315,7 +315,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 6. No width broadening but blue-shifted.
 >
 > - solution: {{1}}
-> - explanation: {{First, the star is not moving, so the spectral line should be unshifted. Now consider the surface of a very fast rotating star. In particular, consider the left and right sides of the rotating star. The surface of one side is approaching us very quickly, and that of the other side is moving away from us very quickly as well. This would mean part of the light from the star is blue-shifted and another part is red-shifted. The result is that the spectral line broadens.}} <!--SR:!2024-10-10,59,328!2024-11-09,84,348-->
+> - explanation: {{First, the star is not moving, so the spectral line should be unshifted. Now consider the surface of a very fast rotating star. In particular, consider the left and right sides of the rotating star. The surface of one side is approaching us very quickly, and that of the other side is moving away from us very quickly as well. This would mean part of the light from the star is blue-shifted and another part is red-shifted. The result is that the spectral line broadens.}} <!--SR:!2025-04-21,193,328!2024-11-09,84,348-->
 
 <!-- markdownlint MD028 -->
 
@@ -479,7 +479,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 6. 7.85×10<sup>16</sup> ly
 >
 > - solution: {{1}}
-> - explanation: {{Apply the equation for Schwarzschild radius: $$r_s = \frac {2 \cdot 6.674\,30 \times 10^{-11} \cdot 10^{53} } {299\,792\,458^2} \approx 1.485\,232\,05 \times 10^{27}~\mathrm{m} \approx 1.569\,9251 \times 10^{11}~\mathrm{ly}$$. So the answer is 1.57×10<sup>11</sup> ly.}} <!--SR:!2025-01-20,104,285!2024-10-09,51,345-->
+> - explanation: {{Apply the equation for Schwarzschild radius: $$r_s = \frac {2 \cdot 6.674\,30 \times 10^{-11} \cdot 10^{53} } {299\,792\,458^2} \approx 1.485\,232\,05 \times 10^{27}~\mathrm{m} \approx 1.569\,9251 \times 10^{11}~\mathrm{ly}$$. So the answer is 1.57×10<sup>11</sup> ly.}} <!--SR:!2025-01-20,104,285!2025-04-03,175,345-->
 
 ## 2024-08-01
 
@@ -575,7 +575,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 5. 27 Gpc
 >
 > - solution: {{4}}
-> - explanation: {{70% the speed of light (~300&nbsp;000 km/s) is approximately 210&nbsp;000 km/s. Divide this by the Hubble's constant: $$\frac {210\,000~\mathrm{km/s} } {64~\mathrm{(km/s)/Mpc} } = 3281.25~\mathrm{Mpc} = 3.28125~\mathrm{Gpc}$$. So the answer is 3.3 Gpc.}} <!--SR:!2024-11-20,70,355!2024-10-10,38,335-->
+> - explanation: {{70% the speed of light (~300&nbsp;000 km/s) is approximately 210&nbsp;000 km/s. Divide this by the Hubble's constant: $$\frac {210\,000~\mathrm{km/s} } {64~\mathrm{(km/s)/Mpc} } = 3281.25~\mathrm{Mpc} = 3.28125~\mathrm{Gpc}$$. So the answer is 3.3 Gpc.}} <!--SR:!2024-11-20,70,355!2025-02-13,126,335-->
 
 <!-- markdownlint MD028 -->
 

@@ -62,7 +62,7 @@ return _chain.from_iterable(await _gather(
 - [congruence](congruence%20(geometry).md)→:::←nonnegativity <!--SR:!2025-01-26,234,270!2024-10-29,158,230-->
 - nonnegativity→:::←rectangle <!--SR:!2025-06-02,292,250!2025-04-03,195,190-->
 - rectangle→:::←squeezing <!--SR:!2025-02-15,138,190!2025-01-17,116,230-->
-- squeezing→:::←subtraction <!--SR:!2024-10-09,80,150!2025-01-17,227,250-->
+- squeezing→:::←subtraction <!--SR:!2025-02-05,118,150!2025-01-17,227,250-->
 - subtraction→:::←union and intersection <!--SR:!2025-02-25,245,270!2025-02-11,259,270-->
 - union and intersection→:::←_(end)_ <!--SR:!2025-07-18,349,290!2025-03-08,269,290-->
 
@@ -72,7 +72,7 @@ return _chain.from_iterable(await _gather(
 
 - [congruence](congruence%20(geometry).md)::If a set $S$ in $M$ is congruent (same shape and size) to $T$, then $T$ is in $M$ and $a(T) = a(S)$. <!--SR:!2024-10-15,179,310-->
 - nonnegativity::For all set $S$ in $M$, $a(S) \ge 0$. <!--SR:!2024-12-28,252,330-->
-- rectangle::Every rectangle $R$ is in $M$ and a rectangle $R$ with width $w$ and height $h$ has area $a(R) = wh$. <!--SR:!2024-10-10,176,310-->
+- rectangle::Every rectangle $R$ is in $M$ and a rectangle $R$ with width $w$ and height $h$ has area $a(R) = wh$. <!--SR:!2026-11-02,753,330-->
 - squeezing::Let set $Q$ be squeezed in between two step regions $L$ and $U$, i.e. $L \subseteq Q \subseteq U$. A step region is a finite union of disjoint rectangles $R$, so $L$ and $U$ are in $M$ by the other axioms. If there exists an __unique__ number $c$ such that $a(L) \le c \le a(U)$ for all possible $L$ and $U$, then $Q$ is in $M$ and $a(Q) = M$. <!--SR:!2025-05-12,261,230-->
 - subtraction::If two sets $S$ and $T$ are in $M$ with $S \subseteq T$, then $T \setminus S$ is in $M$ and $a(T \setminus S) = a(T) - a(S)$. <!--SR:!2024-11-21,199,290-->
 - union and intersection::If two sets $S$ and $T$ are in $M$, then their union $S \cup T$ and their intersection $S \cap T$ are in $M$ and $a(S \cup T) = a(S) + a(T) - a(S \cap T).$ <!--SR:!2025-09-10,408,310-->

@@ -54,7 +54,7 @@ See [Burj Al Arab](../../../../general/Burj%20Al%20Arab.md).
 See [Burj Khalifa](../../../../general/Burj%20Khalifa.md).
 
 - description ::: skyscraper in Dubai, United Arab Emirates <!--SR:!2024-11-18,139,297!2025-08-07,356,374-->
-- height ::: architectural: 828 m, tip: 829.8 m, top floor: 585.4 m <!--SR:!2024-10-09,41,261!2025-09-17,384,377-->
+- height ::: architectural: 828 m, tip: 829.8 m, top floor: 585.4 m <!--SR:!2025-01-28,110,261!2025-09-17,384,377-->
 - image ::: ![Burj Khalifa image](../../../../archives/Wikimedia%20Commons/Burj%20Khalifa.jpg) <!--SR:!2025-07-08,324,380!2025-04-18,271,380-->
 - [structural system](../../../../general/structural%20system.md) ::: aluminum, reinforced concrete, steel<!-- flashcard e75e9185-3454-4c54-a9c9-5a05c6b26732 --> <!--SR:!2025-10-15,407,341!2025-02-01,232,330-->
 
@@ -86,7 +86,7 @@ See [Central Plaza (Hong Kong)](../../../../general/Central%20Plaza%20(Hong%20Ko
 
 See [Channel Tunnel](../../../../general/Channel%20Tunnel.md).
 
-- completion time ::: 1994 <!--SR:!2025-04-03,177,316!2024-10-10,110,376-->
+- completion time ::: 1994 <!--SR:!2025-04-03,177,316!2026-04-28,565,396-->
 - rail tunnel length ::: 50.5 km (37.9 km underseas) <!--SR:!2024-10-31,33,236!2024-10-20,125,396-->
 
 ## China International Trust and Investment Plaza

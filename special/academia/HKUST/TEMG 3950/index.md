@@ -154,7 +154,7 @@ The content is in teaching order.
 - [information § part 2: case analysis](information.md#part%202%20case%20analysis)
 - thinking processes ::: deduction, evaluation, inference, interpretation <!--SR:!2025-05-26,270,361!2025-05-09,262,361-->
   - deduction ::: application; arrive at conclusions based on given premises and rules <!--SR:!2025-06-30,304,361!2025-07-22,302,361-->
-  - evaluation ::: unbiased, unemotional; systematically assess, determine, or examine the effectiveness, quality, or value of something <!--SR:!2024-10-09,86,301!2025-09-17,350,361-->
+  - evaluation ::: unbiased, unemotional; systematically assess, determine, or examine the effectiveness, quality, or value of something <!--SR:!2025-10-01,356,321!2025-09-17,350,361-->
   - inference ::: generalize; draw rules or predictions based on observed examples <!--SR:!2025-08-09,319,361!2025-07-31,311,361-->
   - interpretation ::: explain or understand meaning, implications, or significance of something <!--SR:!2025-01-01,137,301!2025-07-27,307,361-->
 - critical thinking pop quiz
@@ -235,14 +235,14 @@ The content is in teaching order.
 
 - time: 2024-04-16T18:00:00+08:00/2024-04-16T20:30:00+08:00
 - [assignment W11](assignment%20W11/assignment%20W11.md) takeaways
-  - general case analysis reading takeaways ::: read twice, first fast, then slow and take notes <!--SR:!2025-08-27,352,377!2024-10-10,102,377-->
+  - general case analysis reading takeaways ::: read twice, first fast, then slow and take notes <!--SR:!2025-08-27,352,377!2026-03-19,525,397-->
 - McKinsey 7Ss framework ::: organization analysis <!--SR:!2025-04-14,245,377!2026-02-25,505,397-->
   - [McKinsey 7S Framework](../../../../general/McKinsey%207S%20Framework.md)
     - [§ objective](../../../../general/McKinsey%207S%20Framework.md#objective)
 - [PPTG change impact framework](../../../PPTG%20change%20impact%20framework.md)
   - [§ the framework](../../../PPTG%20change%20impact%20framework.md#the%20framework)
   - [§ extensions](../../../PPTG%20change%20impact%20framework.md#extensions)
-- drawbridge drama ::: an analogy to an office drama <!--SR:!2025-08-01,316,377!2024-10-09,101,377-->
+- drawbridge drama ::: an analogy to an office drama <!--SR:!2025-08-01,316,377!2026-03-14,520,397-->
 - [assignment W12](assignment%20W12/assignment%20W12.md): Organizational Analysis (DRW Technologies)
 
 ## week 13 lecture

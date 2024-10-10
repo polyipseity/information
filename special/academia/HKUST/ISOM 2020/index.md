@@ -48,7 +48,7 @@ The content is in teaching order.
   - [§ variable](basics.md#variable)
     - [basics § variable](basics.md#variable) / note ::: In a quiz question, they use the word "save", which means storing a value to a variable. <!--SR:!2024-10-31,40,292!2024-10-27,36,292-->
   - [§ data types](basics.md#data%20types)
-    - [basics § data types](basics.md#data%20types) / note ::: They have not taught `bool` (values: `True`, `False`) and `NoneType` (value: `None`) up to this point... <!--SR:!2024-10-10,24,272!2024-11-22,59,312-->
+    - [basics § data types](basics.md#data%20types) / note ::: They have not taught `bool` (values: `True`, `False`) and `NoneType` (value: `None`) up to this point... <!--SR:!2025-01-10,92,292!2024-11-22,59,312-->
 - week 1 exercise: 1/1, graded
 
 ## week 1 lecture
@@ -119,7 +119,7 @@ The content is in teaching order.
 - [control flow](control%20flow.md)
   - [§ Python control flow](control%20flow.md#Python%20control%20flow)
   - [§ branching](control%20flow.md#branching)
-    - [control flow § branching](control%20flow.md#branching) / note ::: If there are no statements to be executed in a branch, you must still put a properly indented `pass` statement, which does nothing, for that branch. <!--SR:!2024-12-22,75,341!2024-10-09,18,321-->
+    - [control flow § branching](control%20flow.md#branching) / note ::: If there are no statements to be executed in a branch, you must still put a properly indented `pass` statement, which does nothing, for that branch. <!--SR:!2024-12-22,75,341!2024-12-29,80,341-->
 - [basics](basics.md)
   - [§ logic operators](basics.md#logic%20operators)
 - week 3 exercise: 1/1, graded

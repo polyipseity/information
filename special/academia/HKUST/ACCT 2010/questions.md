@@ -37,7 +37,7 @@ tags:
 > 3. They have passed professional examinations.
 >
 > - solution: {{3}}
-> - explanation: {{One essential property of professions is that there are barriers to entry. 3 is a barrier to entry, while 1 and 2 are consequences of 3.}} <!--SR:!2024-10-10,16,290!2024-12-02,55,310-->
+> - explanation: {{One essential property of professions is that there are barriers to entry. 3 is a barrier to entry, while 1 and 2 are consequences of 3.}} <!--SR:!2024-12-13,64,310!2024-12-02,55,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -57,7 +57,7 @@ tags:
 > 2. balance sheet
 > 3. statement of cash flow
 >
-> - solution: {{1}} <!--SR:!2024-10-09,15,290-->
+> - solution: {{1}} <!--SR:!2024-11-24,45,290-->
 
 <!-- markdownlint MD028 -->
 
@@ -67,7 +67,7 @@ tags:
 > 2. balance sheet
 > 3. statement of cash flow
 >
-> - solution: {{2}} <!--SR:!2024-10-10,16,290-->
+> - solution: {{2}} <!--SR:!2024-12-16,67,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -127,7 +127,7 @@ tags:
 > 2. balance sheet
 > 3. statement of cash flow
 >
-> - solution: {{1, and also 3 if the revenues earned involve instantaneous transfer of cash}} <!--SR:!2024-10-10,16,290-->
+> - solution: {{1, and also 3 if the revenues earned involve instantaneous transfer of cash}} <!--SR:!2024-12-14,65,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -148,7 +148,7 @@ tags:
 > 3. statement of cash flow
 >
 > - solution: {{3}}
-> - explanation: {{1 is not included in the answer because lending money from others is neither a revenue nor an expense, so it is definitely not included in the income statement.}} <!--SR:!2024-10-09,15,290!2024-11-25,48,310-->
+> - explanation: {{1 is not included in the answer because lending money from others is neither a revenue nor an expense, so it is definitely not included in the income statement.}} <!--SR:!2024-12-05,56,310!2024-11-25,48,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -158,7 +158,7 @@ tags:
 > 2. statement of cash flow
 > 3. both of them
 >
-> - solution: {{3}} <!--SR:!2024-10-09,15,290-->
+> - solution: {{3}} <!--SR:!2024-11-23,44,290-->
 
 ## week 2 review
 
@@ -191,7 +191,7 @@ tags:
 > 3. maturity preference
 >
 > - solution: {{3}}
-> - explanation: {{The standards require it. Maturity is a measure of how soon the liability is due, analogous to how mature crops are then harvested.}} <!--SR:!2024-10-10,16,302!2024-10-12,18,302-->
+> - explanation: {{The standards require it. Maturity is a measure of how soon the liability is due, analogous to how mature crops are then harvested.}} <!--SR:!2024-12-18,69,322!2024-10-12,18,302-->
 
 <!-- markdownlint MD028 -->
 
@@ -222,4 +222,4 @@ tags:
 > 2. Current Assets / Current Liabilities
 > 3. Net Income / Current Assets
 >
-> - solution: {{2}} <!--SR:!2024-10-09,15,302-->
+> - solution: {{2}} <!--SR:!2024-12-10,61,322-->

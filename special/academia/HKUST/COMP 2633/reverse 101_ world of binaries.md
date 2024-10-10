@@ -128,7 +128,7 @@ x86 and x86-64 makes it easy {{to enumerate stacks (in both the data structure a
 
 ## tools
 
-There are many types of tools to help us with reversing a program. The three types we will talk about are {{static analysis, dynamic analysis, and patching}}. <!--SR:!2024-10-09,23,270-->
+There are many types of tools to help us with reversing a program. The three types we will talk about are {{static analysis, dynamic analysis, and patching}}. <!--SR:!2025-01-05,87,290-->
 
 Apart from the above, below are some tools useful in general:
 
@@ -140,7 +140,7 @@ Static analysis is {{analyzing the program without actually executing it}}. Of c
 
 Some common tools are:
 
-- `objdump` ::: Dump information from object files (`.o`). Use `-d <file>` for disassembly, `-h <file>` for section headers, and add `-M intel` for outputting in the Intel syntax. <!--SR:!2024-10-09,23,305!2024-11-13,51,325-->
+- `objdump` ::: Dump information from object files (`.o`). Use `-d <file>` for disassembly, `-h <file>` for section headers, and add `-M intel` for outputting in the Intel syntax. <!--SR:!2025-01-17,99,325!2024-11-13,51,325-->
 - Radare2 (`r2`) ::: Display information from object files (`.o`). To use it interactively, simply pass the filepath to the program. To use it non-interactively, pass `-c "aaaa; pdf @ sym.main; q!"` before the filepath. Common useful commands include `aaaa`, `pdf @ sym.main`, `?`, `<command>?`, etc. <!--SR:!2024-11-24,52,250!2024-11-01,39,290-->
 - Ghidra ::: An open-source powerful decompiler and disassembler developed by the National Security Agency (NSA). <!--SR:!2024-12-14,80,343!2024-12-01,69,337-->
 - `file <file>` ::: Determine possible file types of `<file>`. <!--SR:!2024-12-14,80,337!2024-11-19,57,310-->
