@@ -21,14 +21,14 @@
       \node (TREE) {root:14}
       child {node {$c$:5}
           child {node {$d$:1}
-              child {node {$b$:1}}}}
+              child {node {$b$:1} } } }
       child {node {$f$:6}
           child {node {$d$:2}
               child {node {$b$:1}}
-              child {node {$a$:1}}}}
+              child {node {$a$:1} } } }
       child {node {$d$:2}
           child {node {$a$:1}}
-          child {node {$b$:1}}}
+          child {node {$b$:1} } }
       child {node {$a$:1}};
       % Node links within the tree
       \draw[->, dashed] (TREE-1-1) -- (TREE-2-1);
