@@ -30,6 +30,7 @@ The content is in teaching order.
 ## week 1 lecture
 
 - time: 2024-09-02T10:30:00+08:00/2024-09-02T11:20:00+08:00
+- topic: propositional logic
 - course logistics
 - [propositional calculus](../../../../general/propositional%20calculus.md)
   - [§ propositional calculus](../../../../general/propositional%20calculus.md#propositional%20calculus)
@@ -60,7 +61,7 @@ The content is in teaching order.
     - rules of inference / _modus ponens_ ::: $$\begin{aligned} & p \rightarrow q \\ & \underline{p \phantom{\rightarrow q} } \\ & q & \end{aligned}$$
     - rules of inference / hypothetical syllogism ::: $$\begin{aligned} & p \rightarrow q \\ & \underline{q \rightarrow r} \\ & p \rightarrow r & \end{aligned}$$
     - rules of inference / _modus tollens_ (not to be confused with the related _contraposition_) ::: $$\begin{aligned} & p \rightarrow q \\ & \underline{\lnot q \!\!\!\! \phantom{\rightarrow q} } \\ & \lnot p & \end{aligned}$$
-- readings
+- materials
   - [lecture video](https://youtu.be/Iexw2Lg9BmI)
   - Grimaldi/Chapter 2: Fundamentals of Logic
   - [video: proofs](https://youtu.be/L3LMbpZIKhQ)
@@ -68,6 +69,7 @@ The content is in teaching order.
 ## week 1 tutorial
 
 - time: 2024-09-02T18:00:00+08:00/2024-09-02T18:50:00+08:00
+- topic: predicate logic, Peano's axioms
 - [propositional calculus](../../../../general/propositional%20calculus.md)
   - [§ list of classically valid argument forms](../../../../general/propositional%20calculus.md#list%20of%20classically%20valid%20argument%20forms)
   - [rules of inference](../../../../general/rules%20of%20inference.md_
@@ -100,7 +102,7 @@ The content is in teaching order.
   - Peano axioms / 3rd axiom motivation ::: This makes the successor function injective (but not surjective, as $0$ is not in the image of the function).
   - Peano axioms / 4th axiom motivation ::: Coupled with the injective property, this makes the successor function never go back to the starting number $0$. Otherwise, the successor function can, at one point, loop back to $0$, and there will only be finitely many natural numbers.
   - Peano axioms / 5th axiom motivation ::: The 4 axioms above are insufficient to ensure that repeatedly applying $S$ on $0$ can generate all natural numbers. Indeed, an infinite successor chain starting from $0$ that does not contain all the natural numbers, with a finite circular successor chain, is compatible with the 4 axioms above. The 5th axiom simply states that the infinite successor chain starting from $0$ is the set of all natural numbers, excluding the situation above. This is also what makes mathematical induction possible.
-- readings
+- materials
   - [lecture video](https://youtu.be/X_SF_o9ZwmA)
   - Grimaldi/Chapter 2: Fundamentals of Logic
   - [video: Peano axioms](https://youtu.be/5zl2zBqNAHM)
@@ -108,6 +110,7 @@ The content is in teaching order.
 ## week 1 lecture 2
 
 - time: 2024-09-04T09:00:00+08:00/2024-09-04T11:20:00+08:00
+- topic: induction, well-ordering, infinite descent
 - [Peano axioms](../../../../general/Peano%20axioms.md)
   - [§ defining arithmetic operations and relations](../../../../general/Peano%20axioms.md#defining%20arithmetic%20operations%20and%20relations)
   - [§ addition](../../../../general/Peano%20axioms.md#addition) ::: 2 rules: $\forall n; n + 0 = n$, $\forall n, m; n + s(m) = s(n + m)$. All other rules that you know of everyday addition can be derived from these rules. From this we can prove that addition is commutative ($\forall n, m; n + m = m + n$) and associative ($\forall n, m, o; (n + m) + o = n + (m + o)$).
@@ -125,7 +128,7 @@ The content is in teaching order.
   - [§ proof by infinite descent](../../../../general/proof%20by%20infinite%20descent.md#proof%20by%20infinite%20descent)
 - [questions/2024-09-04](questions/2024-09-04.md)
 - [week 1 problem set](questions/week%201%20problem%20set.md)
-- readings
+- materials
   - [lecture video](https://youtu.be/xR3jmz5WdQ4)
   - [video: induction](https://youtu.be/z8HKWUWS-lA)
   - [video: 2+2=4](https://youtu.be/TQpHVtlXuyc)
@@ -134,30 +137,31 @@ The content is in teaching order.
 ## week 2 lecture
 
 - time: 2024-09-09T10:30:00+08:00/2024-09-09T11:20:00+08:00
+- topic: induction problems, strong induction
 - [mathematical induction](../../../../general/mathematical%20induction.md): even more induction problems, strong induction
   - [§ variants](../../../../general/mathematical%20induction.md#variants)
   - [§ complete (strong) induction](../../../../general/mathematical%20induction.md#complete%20(strong)%20induction)
 - [Nim](../../../../general/Nim.md)
   - [§ Nim](../../../../general/Nim.md#Nim)
   - [§ game play and illustration](../../../../general/Nim.md#game%20play%20and%20illustration)
-- [questions/2024-09-09 § lecture](questions/2024-09-09.md#lecture)
-- readings
+- [questions/2024-09-09/lecture](questions/2024-09-09%20lecture.md)
+- materials
   - [lecture video](https://youtu.be/X6l72P9QW7A)
   - [video: strong induction](https://youtu.be/NuGDkmwEObM)
   - [video: proof by strong induction](https://youtu.be/USOsVbEbOIg)
+    - Pause the videos whenever a problem is posed and try to solve it on your own first, before watching the solution.
   - [video: strong induction examples](https://youtu.be/6O1s3_GsSHo)
   - Engel/Chapter 3: The Extremal Principle
+    - It is really important that you give \*\*every\*\* problem an honest and serious attempt before reading its solution. You must reach mastery in using mathematical induction and its equivalent forms. All of the future modules in this course depend on such mastery.
   - Engel/Chapter 8: The Induction Principle
-- notes
-  - Pause the videos whenever a problem is posed and try to solve it on your own first, before watching the solution.
-  - It is really important that you give \*\*every\*\* problem an honest and serious attempt before reading its solution. You must reach mastery in using mathematical induction and its equivalent forms. All of the future modules in this course depend on such mastery.
 
 ## week 2 tutorial
 
 - time: 2024-09-09T18:00:00+08:00/2024-09-09T18:50:00+08:00
+- topic: solving more induction problems
 - [mathematical induction](../../../../general/mathematical%20induction.md): even more induction problems
-- [questions/2024-09-09 § tutorial](questions/2024-09-09.md#tutorial)
-- readings
+- [questions/2024-09-09/tutorial](questions/2024-09-09%20tutorial.md)
+- materials
   - [lecture video](https://youtu.be/sTKBr2au1o4)
   - [video: induction problems](https://youtu.be/tHNVX3e9zd0)
   - [video: divisibility problems solved by induction](https://youtu.be/8J7Bft3BN0g)
@@ -168,6 +172,7 @@ The content is in teaching order.
 ## week 2 lecture 2
 
 - time: 2024-09-11T09:00:00+08:00/2024-09-11T11:20:00+08:00
+- topic: counting, permutations, combinations, balls and walls
 - [combinatorial principles](../../../../general/combinatorial%20principles.md) ::: principles commonly used to solve combinatorial problems: rule of sum, rule of product, permutation, combination, ...
   - [§ combinatorial principles](../../../../general/combinatorial%20principles.md#combinatorial%20principles)
   - [§ rule of sum](../../../../general/combinatorial%20principles.md#rule%20of%20sum) ::: Also known as the principle of addition or case work principle. If there are _A_ ways to do a thing and _B_ ways to do another thing, then there are _A_ + _B_ ways to do either one thing.
@@ -176,11 +181,220 @@ The content is in teaching order.
 - [combination](../../../../general/combination.md) ::: choosing $k$ things from $n$ things (order does not matter), calculated by $$C(n, k) = \binom n k = \frac {n!} {(n - k)! k!}$$
 - [questions/2024-09-11](questions/2024-09-11.md)
 - [week 2 problem set](questions/week%202%20problem%20set.md)
-- readings
+- materials
   - [lecture video](https://youtu.be/zpeMfQT9JA0)
   - Grimaldi/Chapter 1: Fundamental Principles of Counting
   - Chen and Koh/Chapter 1: Permutations and Combinations (very important)
   - Ross/Chapter 1: Combinatorial Analysis
+    - It is crucial that you solve \*\*every\*\* exercise at the end of these chapters.
   - [fun to read: Which Rectangular Chessboards Have a Knight's Tour?](https://www.jstor.org/stable/2690649)
-- notes
-  - It is crucial that you solve \*\*every\*\* exercise at the end of these chapters.
+
+## week 3 lecture
+
+- time: 2024-09-16T10:30:00+08:00/2024-09-16T11:20:00+08:00
+- topic: solving counting problems
+- [questions/2024-09-16/lecture](questions/2024-09-16%20lecture.md)
+- materials
+  - [lecture video](https://youtu.be/YyNe0mgrK1A)
+  - Chen and Koh/Chapter 1: Permutations and Combinations (very important)
+  - Andreescu and Feng: solve problem 1 to problem 24
+
+## week 3 tutorial
+
+- time: 2024-09-16T18:00:00+08:00/2024-09-16T18:50:00+08:00
+- topic: more counting
+- [questions/2024-09-16/tutorial](questions/2024-09-16%20tutorial.md)
+- [week 3 problem set](questions/week%203%20problem%20set.md)
+- materials
+  - [lecture video](https://youtu.be/p0Lb0odJCfU)
+  - Andreescu and Feng: solve problem 25 to problem 51
+- assignments: [homework 1](assignments/homework%201/submission.tex)
+
+## week 3 lecture 2
+
+- time: 2024-09-18T09:00:00+08:00/2024-09-18T11:20:00+08:00
+- public holiday: Day after Mid-Autumn Festival
+
+## week 3 TA session
+
+- time: 2024-09-20T19:00:00+08:00/2024-09-20T19:50:00+08:00
+- topic: solving weekly problem set 1
+- [questions/2024-09-20](questions/2024-09-20.md)
+- [week 1 problem set](questions/week%201%20problem%20set.md)
+- materials
+  - [lecture video](https://youtu.be/wbck_JlX9C4)
+
+## week 4 lecture
+
+- time: 2024-09-23T10:30:00+08:00/2024-09-23T11:20:00+08:00
+- topic: principle of inclusion and exclusion
+- [questions/2024-09-23/lecture](questions/2024-09-23%20lecture.md)
+- materials
+  - [lecture video](https://youtu.be/c0fb16fNpXY)
+  - Chen and Koh/Chapter 2: Binomial Coefficients
+  - Chen and Koh/Chapter 4: Inclusion–Exclusion
+  - [video: inclusion–exclusion example](https://youtu.be/51-b2mgZVNY)
+  - [video: 3-set PIE](https://youtu.be/VQmWJXeevfM)
+  - [video: counting using PIE](https://youtu.be/rBLuvLDutdY)
+
+## week 4 tutorial
+
+- time: 2024-09-23T18:00:00+08:00/2024-09-23T18:50:00+08:00
+- topic: generalized principle of inclusion and exclusion
+- [questions/2024-09-23/tutorial](questions/2024-09-23%20tutorial.md)
+- materials
+  - [lecture video](https://youtu.be/58cvEnENNYs)
+  - Chen and Koh/Chapter 2: Binomial Coefficients
+  - Chen and Koh/Chapter 4: Inclusion–Exclusion
+  - Grimaldi/Chapter 8: Inclusion–Exclusion
+  - [video: inclusion–exclusion](https://youtu.be/GS7dIWA6Hpo)
+  - [video: PIE problems](https://youtu.be/Y0CYHMqomgI)
+  - [video: generalized PIE](https://youtu.be/D1T3xy_vtxU)
+  - [video: derangements](https://youtu.be/BOFWLhH0Igo)
+
+## week 4 lecture 2
+
+- time: 2024-09-25T09:00:00+08:00/2024-09-25T11:20:00+08:00
+- topic: pigeonhole principle
+- [questions/2024-09-25](questions/2024-09-25.md)
+- [week 4 problem set](questions/week%204%20problem%20set.md)
+- materials
+  - [lecture video](https://youtu.be/Bryg6j3RExA)
+  - Chen and Koh/Chapter 3: Pigeonhole and Ramsey
+  - Engel/Chapter 4: Box Principle
+  - Andreescu and Feng: solve advanced problem 1 to advanced problem 15
+  - [video: pigeonhole principle](https://youtu.be/2-mxYrCNX60)
+  - [video: pigeonhole principle examples](https://youtu.be/pPuvnD4PYNE)
+  - [video: pigeonhole principle — establishing a pattern](https://youtu.be/YKsHlxnWylc)
+  - [video: pigeonhole principle — generalizing the cases](https://youtu.be/W6FDiVHMo_g)
+  - [playlist: more advanced pigeonhole principle problems](https://youtube.com/playlist?list=PLxdD-3GVlQSmC8gGQrRCh1VmlmAQikJ_Q)
+
+## week 4 TA session
+
+- time: 2024-09-27T17:00:00+08:00/2024-09-27T17:50:00+08:00
+- topic: solving weekly problem set 2
+- [questions/2024-09-27](questions/2024-09-27.md)
+- [week 2 problem set](questions/week%202%20problem%20set.md)
+- materials
+  - [lecture video](https://youtu.be/7VN1ZCUpKKk)
+
+## week 5 lecture
+
+- time: 2024-09-30T10:30:00+08:00/2024-09-30T11:20:00+08:00
+- topic: graphs, trees, paths, walks
+- [questions/2024-09-30/lecture](questions/2024-09-30%20lecture.md)
+- materials
+  - [lecture video](https://youtu.be/rmk2RCszCt4)
+  - West/Section 1.1: What is a Graph?
+    - Most of the theorems we proved in class were from these sections, but the proofs are often different. So, you should read the book and also solve the exercises.
+  - West/Section 1.2: Paths, Cycles, and Trails
+  - [video playlist: introduction to graph theory](https://youtu.be/C7YrMRdLkqo?list=PLHXZ9OQGMqxersk8fUxiUMSIx0DBqsKZS)
+  - [video playlist: watch lectures 1 to 4](https://youtube.com/playlist?list=PLoAxxVQYIwM73zRO5gZL0exCw70O8ZlvJ)
+
+## week 5 tutorial
+
+- time: 2024-09-30T18:00:00+08:00/2024-09-30T18:50:00+08:00
+- topic: more theorems on graphs and trees
+- [questions/2024-09-30/tutorial](questions/2024-09-30%20tutorial.md)
+- materials
+  - [lecture video](https://youtu.be/uwSD0woHeGU)
+  - West/Section 1.3: Vertex Degrees & Counting
+    - When reading this text, read each theorem but try to prove it yourself first before reading the proof. Also, make sure you solve all the exercises.
+  - West/Section 1.4: Directed Graphs
+  - Andreescu and Feng: solve advanced problem 16 to advanced problem 30
+  - [video playlist: watch from 10.1.1 to 11.1.1](https://youtu.be/QHmL0AnZ3Dc?list=PLl-gb0E4MII28GykmtuBXNUNoej-vY5Rz)
+  - [recommended to watch: graph theory background](https://youtu.be/SofC3dIhwRA)
+
+## week 5 lecture 2
+
+- time: 2024-10-02T09:00:00+08:00/2024-10-02T11:20:00+08:00
+- topic: even more theorems on graphs and trees
+- [questions/2024-10-02](questions/2024-10-02.md)
+- [week 5 problem set](questions/week%205%20problem%20set.md)
+- materials
+  - [lecture video](https://youtu.be/4vL3zgdP_D4)
+  - West/Section 2.1: Trees and Distance: Basic Properties
+  - West/Section 2.2: Spanning Trees
+  - [recommended to watch: DFS and BFS](https://youtu.be/MOlzncRyOL4)
+  - Grimaldi/Chapter 11: Graph Theory
+  - Grimaldi/Chapter 12: Trees
+
+## week 5 TA session
+
+- time: 2024-10-04T17:00:00+08:00/2024-10-04T17:50:00+08:00
+- topic: solving weekly problem set 3
+- [questions/2024-10-04](questions/2024-10-04.md)
+- [week 3 problem set](questions/week%203%20problem%20set.md)
+- materials
+  - [lecture video](https://youtu.be/VDPaNbb3KVo)
+  - [video: recurrence for number of partitions](https://youtu.be/F4zYDx-EfZI)
+
+## week 6 lecture
+
+- time: 2024-10-07T10:30:00+08:00/2024-10-07T11:20:00+08:00
+- topic: minimum spanning trees, directed graphs, DAGs
+- [questions/2024-10-07/lecture](questions/2024-10-07%20lecture.md)
+- materials
+  - [lecture video](https://youtu.be/97515nOWqAo)
+  - [video: Kruskal's algorithm](https://youtu.be/JZBQLXgSGfs)
+  - [video: Prim's algorithm](https://youtu.be/jsmMtJpPnhU)
+    - Before watching the next video, try to prove that Prim's algorithm is correct. Can you find a proof similar to the one we saw for Kruskal?
+  - [video: minimum spanning trees](https://youtu.be/aIlkwV-P4Kg?list=PLzZlJT-UOiwD1OSqOs00D0iW93BSJPjBR)
+  - West/Chapter 1: Fundamental Concepts
+    - You should read everything in these two chapters, including parts that are marked as "optional" in the book and solve all exercises.
+  - West/Chapter 2: Trees and Distance
+  - Andreescu and Feng: solve advanced problem 31 to advanced problem 40
+
+## week 6 tutorial
+
+- time: 2024-10-07T18:00:00+08:00/2024-10-07T18:50:00+08:00
+- topic: tree-based algorithms, Huffmman coding
+- [questions/2024-10-07/tutorial](questions/2024-10-07%20tutorial.md)
+- materials
+  - [lecture video](https://youtu.be/4CPfs1XUg_w)
+  - West/Section 2.3: Optimization and Trees
+  - [video: Huffman coding and Huffman trees](https://youtu.be/JsTptu56GM8)
+  - [video: Huffman coding example](https://youtu.be/apcCVfXfcqE)
+  - [recommended video: Huffman coding + code](https://youtu.be/AwsNoQKcHg0)
+  - [recommended video: dynamic programming on trees](https://youtu.be/tzuJeiGJvYY)
+
+## week 6 lecture 2
+
+- time: 2024-10-09T09:00:00+08:00/2024-10-09T11:20:00+08:00
+- [questions/2024-10-09](questions/2024-10-09.md)
+- [week 6 problem set](questions/week%206%20problem%20set.md)
+- materials
+  - [lecture video](https://youtu.be/wW0qSd3gQd8)
+  - [video: BFS visualized and explained](https://youtu.be/xlVX7dXLS64)
+  - [video: Dijkstra's algorithm](https://youtu.be/GazC3A4OQTE)
+  - [video: strongly connected components and Dijkstra's algorithm](https://youtu.be/GUQjzYOfTgY?list=PLzZlJT-UOiwD1OSqOs00D0iW93BSJPjBR)
+  - [video: matchings](https://youtu.be/chdr2aj4FUc)
+  - [video: maximal and maximum matchings](https://youtu.be/bOJC93XxoFc)
+  - [video: matchings and augmenting paths](https://youtu.be/IQZEURSSr30)
+  - [video: incremental improvement – matching](https://youtu.be/8C_T4iTzPCU)
+- assignments: [homework 6](assignments/homework%206/submission.tex)
+
+## week 6 TA session
+
+- time: 2024-10-11T19:00:00+08:00/2024-10-11T19:50:00+08:00
+- topic: solving weekly problem set 4
+- [questions/2024-10-11](questions/2024-10-11.md)
+- [week 4 problem set](questions/week%204%20problem%20set.md)
+- materials
+  - [lecture video](https://youtu.be/jIsRmWzacfI)
+
+## week 7 lecture
+
+- time: 2024-10-14T10:30:00+08:00/2024-10-14T11:20:00+08:00
+- [questions/2024-10-14/lecture](questions/2024-10-14%20lecture.md)
+
+## week 7 tutorial
+
+- time: 2024-10-14T18:00:00+08:00/2024-10-14T18:50:00+08:00
+- [questions/2024-10-14/tutorial](questions/2024-10-14%20tutorial.md)
+
+## week 7 lecture 2
+
+- time: 2024-10-16T09:00:00+08:00/2024-10-16T11:20:00+08:00
+- [questions/2024-10-16](questions/2024-10-16.md)
+- [week 7 problem set](questions/week%207%20problem%20set.md)
