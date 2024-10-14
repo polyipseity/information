@@ -92,7 +92,7 @@ while condition:
 
 The semantics of `while` is {{that the condition is executed first. If the condition is `true`, the statement block is executed and then we repeat the above process again. If the condition is `false`, the `while` statement ends its execution}}. <!--SR:!2024-10-14,4,311-->
 
-If {{there are no statements to be executed in a `while`-iteration}}, you {{must still put a properly indented `pass` statement, which does nothing, for that iteration}}. For example:
+If {{there are no statements to be executed in a `while`-iteration}}, you {{must still put a properly indented `pass` statement, which does nothing, for that iteration}}. For example: <!--SR:!2024-10-14,4,317!2024-10-14,4,317-->
 
 ```Python
 while condition:
