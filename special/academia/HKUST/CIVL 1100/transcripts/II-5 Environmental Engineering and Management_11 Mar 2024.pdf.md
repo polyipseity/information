@@ -247,7 +247,7 @@ Hong Kong Harbour Area Treatment Scheme Stage I (HATS)
   - HATS Stage 1 details ::: Stonecutters Island Sewage Treatment Works (SCISTW), sewage tunnel of 23.6 km, upgrade 8 preliminary treatment works (PTWs)
   - HATS Stage 1 geographic coverage ::: collect sewage from Kowloon, Kwai Tsing, Tseung Kwan O, and north-eastern Hong Kong Island to SCISTW
   - HATS Stage 1 coverage in numbers ::: 3.5 million people, 75% from harbour area
-  - HATS Stage 1 capacities :::: current ~1.4M m<sup>3</sup>/d, max: 1.7M m<sup>3</sup>/d
+  - HATS Stage 1 capacities ::: current: ~1.4M m<sup>3</sup>/d, max: 1.7M m<sup>3</sup>/d
 
 ## page 18
 
