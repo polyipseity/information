@@ -168,12 +168,12 @@ The content is in teaching order.
 ## week 2 lecture 2
 
 - time: 2024-09-11T09:00:00+08:00/2024-09-11T11:20:00+08:00
-- [combinatorial principles](../../../../general/combinatorial%20principles.md) ::: principles commonly used to solve combinatorial problems: rule of sum, rule of product, permutation, combination, ...
+- [combinatorial principles](../../../../general/combinatorial%20principles.md) ::: principles commonly used to solve combinatorial problems: rule of sum, rule of product, permutation, combination, ... <!--SR:!2024-10-14,4,333!2024-10-14,4,333-->
   - [§ combinatorial principles](../../../../general/combinatorial%20principles.md#combinatorial%20principles)
-  - [§ rule of sum](../../../../general/combinatorial%20principles.md#rule%20of%20sum) ::: Also known as the principle of addition or case work principle. If there are _A_ ways to do a thing and _B_ ways to do another thing, then there are _A_ + _B_ ways to do either one thing.
-  - [§ rule of product](../../../../general/combinatorial%20principles.md#rule%20of%20product) ::: Also known as the principle of multiplication. If there are _A_ ways to do a thing and _B_ ways to do another thing, then there are _A_ \* _B_ ways to do both things.
-- [permutation](../../../../general/permutation.md) ::: the arrangement of $k$ things from $n$ things (order matters), calculated by $$P(n, k) = \frac {n!} {(n - k)!}$$
-- [combination](../../../../general/combination.md) ::: choosing $k$ things from $n$ things (order does not matter), calculated by $$C(n, k) = \binom n k = \frac {n!} {(n - k)! k!}$$
+  - [§ rule of sum](../../../../general/combinatorial%20principles.md#rule%20of%20sum) ::: Also known as the principle of addition or case work principle. If there are _A_ ways to do a thing and _B_ ways to do another thing, then there are _A_ + _B_ ways to do either one thing. <!--SR:!2024-10-14,4,333!2024-10-14,4,333-->
+  - [§ rule of product](../../../../general/combinatorial%20principles.md#rule%20of%20product) ::: Also known as the principle of multiplication. If there are _A_ ways to do a thing and _B_ ways to do another thing, then there are _A_ \* _B_ ways to do both things. <!--SR:!2024-10-14,4,333!2024-10-14,4,333-->
+- [permutation](../../../../general/permutation.md) ::: the arrangement of $k$ things from $n$ things (order matters), calculated by $$P(n, k) = \frac {n!} {(n - k)!}$$ <!--SR:!2024-10-14,4,333!2024-10-14,4,333-->
+- [combination](../../../../general/combination.md) ::: choosing $k$ things from $n$ things (order does not matter), calculated by $$C(n, k) = \binom n k = \frac {n!} {(n - k)! k!}$$ <!--SR:!2024-10-14,4,333!2024-10-14,4,333-->
 - [questions/2024-09-11](questions/2024-09-11.md)
 - [week 2 problem set](questions/week%202%20problem%20set.md)
 - readings

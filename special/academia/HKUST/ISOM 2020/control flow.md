@@ -72,25 +72,25 @@ Iterables can be {{ranges, strings, lists, and many more not mentioned here}}. T
 
 To emulate the traditional `for` loop, one uses {{`range` and specifies the starting point (inclusive), ending point (exclusive), and step}}. A `for` loop with code in the form of `for (int idx = begin; idx < end; idx += step)` translates to {{`for idx in range(begin, end, step):` (if `step` is negative, then `idx < end` becomes `idx > end`)}}. `range(begin, end, step)` has shorter forms: {{`range(begin, end)` is equivalent to `range(begin, end, 1)` and `range(end)` is equivalent to `range(0, end, 1)`}}. <!--SR:!2024-10-18,18,312!2024-10-18,18,312!2024-10-18,18,312-->
 
-If {{there are no statements to be executed in an iteration}}, you {{must still put a properly indented `pass` statement, which does nothing, for that iteration}}. For example: <!--SR:!2024-10-18,18,312!2024-10-18,18,312-->
+If {{there are no statements to be executed in an iteration}}, you {{must still put a properly indented `pass` statement, which does nothing, for that iteration}}. For example: <!--SR:!2024-10-13,3,297!2024-10-13,3,297-->
 
 ```Python
 for loop_variables in iterable:
   pass # required, otherwise error
 ```
 
-If {{you want to stop a `for` loop early}}, use {{the `break` statement}}. This will {{stop the innermost `for` or `while` loop}}.
+If {{you want to stop a `for` loop early}}, use {{the `break` statement}}. This will {{stop the innermost `for` or `while` loop}}. <!--SR:!2024-10-14,4,311!2024-10-14,4,311!2024-10-14,4,311-->
 
 ### while-iteration
 
-In Python, `while` can also perform iteration. A `while` statement consists of {{a condition and a statement block}}:
+In Python, `while` can also perform iteration. A `while` statement consists of {{a condition and a statement block}}: <!--SR:!2024-10-14,4,311-->
 
 ```Python
 while condition:
   statement_block
 ```
 
-The semantics of `while` is {{that the condition is executed first. If the condition is `true`, the statement block is executed and then we repeat the above process again. If the condition is `false`, the `while` statement ends its execution}}.
+The semantics of `while` is {{that the condition is executed first. If the condition is `true`, the statement block is executed and then we repeat the above process again. If the condition is `false`, the `while` statement ends its execution}}. <!--SR:!2024-10-14,4,311-->
 
 If {{there are no statements to be executed in an iteration}}, you {{must still put a properly indented `pass` statement, which does nothing, for that iteration}}. For example:
 
@@ -99,6 +99,6 @@ while condition:
   pass # required, otherwise error
 ```
 
-If {{you want to stop a `while` loop early in the loop}}, use {{the `break` statement}}. This will {{stop the innermost `for` or `while` loop}}.
+If {{you want to stop a `while` loop early in the loop}}, use {{the `break` statement}}. This will {{stop the innermost `for` or `while` loop}}. <!--SR:!2024-10-14,4,311!2024-10-14,4,311!2024-10-14,4,311-->
 
-ISOM 2020 note: {{We have only learnt `while True`. ONLY USE `while True` in your exercises, labs, and exams.}} If {{you really need a condition to stop the loop}}, use {{`break` under an `if` statement checking for said condition}}.
+ISOM 2020 note: {{We have only learnt `while True`. ONLY USE `while True` in your exercises, labs, and exams.}} If {{you really need a condition to stop the loop}}, use {{`break` under an `if` statement checking for said condition}}. <!--SR:!2024-10-14,4,311!2024-10-14,4,311!2024-10-14,4,311-->

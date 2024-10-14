@@ -79,17 +79,17 @@ The content is in teaching order.
 ## week 4 tutorial
 
 - time: 2024-09-26T10:30:00+08:00/2024-09-26T12:20:00+08:00
-- positive psychology ::: happiness, well-being, etc.
-- PERMA ::: a portfolio approach to well-being: positive emotion, engagement (& motivation), relationships, meaning & purposes, accomplishment
-  - PERMA element properties ::: contributes to well-being, being pursued for their own sakes, independent of other elements
-  - positive emotion ::: hedonic treadmill, happiness returns to its baseline level
-  - engagement (& motivation) ::: They drive you to do the things you want.
-  - relationships ::: According to a Harvard study of adult development, the people who were the most satisfied in their relationships at age 50 were the healthiest at age 80.
-  - meaning & purpose ::: For example, you probably want to have a job or two jobs that makes both meaning and money.
-  - accomplishment ::: Accomplishment could be physical or emotional ones, which are obtained after successfully doing certain things.
-  - PERMA limitations ::: Maybe there are other things that you feel are important to your own well-being but are not included... So feel free to add your own ones.
-- activity 1: PERMA assessment and reflection ::: PERMA assessment, energy engagement map (& flow), incremental changes, sharing with others
+- positive psychology ::: happiness, well-being, etc. <!--SR:!2024-10-14,4,317!2024-10-14,4,317-->
+- PERMA ::: a portfolio approach to well-being: positive emotion, engagement (& motivation), relationships, meaning & purposes, accomplishment <!--SR:!2024-10-14,4,317!2024-10-14,4,317-->
+  - PERMA element properties ::: contributes to well-being, being pursued for their own sakes, independent of other elements <!--SR:!2024-10-14,4,317!2024-10-14,4,317-->
+  - positive emotion ::: hedonic treadmill, happiness returns to its baseline level <!--SR:!2024-10-14,4,317!2024-10-14,4,317-->
+  - engagement (& motivation) ::: They drive you to do the things you want. <!--SR:!2024-10-14,4,317!2024-10-14,4,317-->
+  - relationships ::: According to a Harvard study of adult development, the people who were the most satisfied in their relationships at age 50 were the healthiest at age 80. <!--SR:!2024-10-14,4,317!2024-10-14,4,317-->
+  - meaning & purpose ::: For example, you probably want to have a job or two jobs that makes both meaning and money. <!--SR:!2024-10-14,4,317!2024-10-14,4,317-->
+  - accomplishment ::: Accomplishment could be physical or emotional ones, which are obtained after successfully doing certain things. <!--SR:!2024-10-14,4,317!2024-10-14,4,317-->
+  - PERMA limitations ::: Maybe there are other things that you feel are important to your own well-being but are not included... So feel free to add your own ones. <!--SR:!2024-10-14,4,317!2024-10-14,4,317-->
+- activity 1: PERMA assessment and reflection ::: PERMA assessment, energy engagement map (& flow), incremental changes, sharing with others <!--SR:!2024-10-14,4,317!2024-10-14,4,317-->
 - activity 2: STRONG debriefing
-  - STRONG debriefing / debrief ::: STRONG assess your job interests, NOT your job skills!
+  - STRONG debriefing / debrief ::: STRONG assess your job interests, NOT your job skills! <!--SR:!2024-10-14,4,317!2024-10-14,4,317-->
 - assignments
   - [PERMA assessment and reflection](assignments/PERMA%20assessment%20and%20reflection/submission.md)
