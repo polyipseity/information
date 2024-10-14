@@ -8,10 +8,9 @@
   "updateThemesAtStartup": false,
   "enableAfterInstall": false,
   "loggingEnabled": false,
-  "loggingPath": "",
-  "loggingVerboseEnabled": true,
-  "debuggingMode": true,
+  "loggingPath": "BRAT-log",
+  "loggingVerboseEnabled": false,
+  "debuggingMode": false,
   "notificationsEnabled": true,
-  "personalAccessToken": "",
-  "ribbonIconEnabled": true
+  "personalAccessToken": ""
 }

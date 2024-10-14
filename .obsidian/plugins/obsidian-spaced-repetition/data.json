@@ -3,11 +3,11 @@
     "flashcardEasyText": "Easy",
     "flashcardGoodText": "Good",
     "flashcardHardText": "Hard",
+    "reviewButtonDelay": 0,
     "flashcardTags": [
       "#flashcard/active"
     ],
     "convertFoldersToDecks": false,
-    "cardCommentOnSameLine": true,
     "burySiblingCards": false,
     "showContextInCards": true,
     "flashcardHeightPercentage": 100,
@@ -18,32 +18,41 @@
     "convertHighlightsToClozes": false,
     "convertBoldTextToClozes": false,
     "convertCurlyBracketsToClozes": true,
+    "clozePatterns": [
+      "{{[123;;]answer[;;hint]}}"
+    ],
     "singleLineCardSeparator": "::",
     "singleLineReversedCardSeparator": ":::",
     "multilineCardSeparator": "??",
     "multilineReversedCardSeparator": "???",
+    "multilineCardEndMarker": "",
     "editLaterTag": "#edit-later",
     "enableNoteReviewPaneOnStartup": true,
     "tagsToReview": [
       "#review"
     ],
-    "noteFoldersToIgnore": [],
+    "noteFoldersToIgnore": [
+      "**/*.excalidraw.md"
+    ],
     "openRandomNote": false,
     "autoNextNote": true,
     "disableFileMenuReviewOptions": false,
     "maxNDaysNotesReviewQueue": 36524,
+    "showRibbonIcon": true,
+    "showStatusBar": true,
     "initiallyExpandAllSubdecksInTree": false,
+    "algorithm": "SM-2-OSR",
     "baseEase": 250,
     "lapsesIntervalChange": 0.5,
     "easyBonus": 1.3,
     "maximumInterval": 36524,
     "maxLinkFactor": 1,
-    "showDebugMessages": false,
-    "showFileNameInFileLink": true,
-    "singlelineCardSeparator": "::",
-    "singlelineReversedCardSeparator": ":::"
+    "dataStore": "NOTES",
+    "cardCommentOnSameLine": true,
+    "showSchedulingDebugMessages": false,
+    "showParserDebugMessages": false
   },
-  "buryDate": "2024-10-10",
+  "buryDate": "",
   "buryList": [],
   "historyDeck": null
 }
