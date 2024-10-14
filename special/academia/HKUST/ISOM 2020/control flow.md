@@ -72,7 +72,7 @@ Iterables can be {{ranges, strings, lists, and many more not mentioned here}}. T
 
 To emulate the traditional `for` loop, one uses {{`range` and specifies the starting point (inclusive), ending point (exclusive), and step}}. A `for` loop with code in the form of `for (int idx = begin; idx < end; idx += step)` translates to {{`for idx in range(begin, end, step):` (if `step` is negative, then `idx < end` becomes `idx > end`)}}. `range(begin, end, step)` has shorter forms: {{`range(begin, end)` is equivalent to `range(begin, end, 1)` and `range(end)` is equivalent to `range(0, end, 1)`}}.
 
-If {{there are no statements to be executed in an iteration}}, you {{must still put a properly indented `pass` statement, which does nothing, for that iteration}}. For example:
+If {{there are no statements to be executed in a `for`-iteration}}, you {{must still put a properly indented `pass` statement, which does nothing, for that iteration}}. For example:
 
 ```Python
 for loop_variables in iterable:
@@ -92,7 +92,7 @@ while condition:
 
 The semantics of `while` is {{that the condition is executed first. If the condition is `true`, the statement block is executed and then we repeat the above process again. If the condition is `false`, the `while` statement ends its execution}}.
 
-If {{there are no statements to be executed in an iteration}}, you {{must still put a properly indented `pass` statement, which does nothing, for that iteration}}. For example:
+If {{there are no statements to be executed in a `while`-iteration}}, you {{must still put a properly indented `pass` statement, which does nothing, for that iteration}}. For example:
 
 ```Python
 while condition:

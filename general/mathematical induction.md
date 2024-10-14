@@ -210,7 +210,7 @@ In {{__[second-order logic](second-order%20logic.md)__}}, one can {{write down t
 
 In words, {{the base case _P_(0) and the induction step (namely, that the induction hypothesis _P_(_k_) implies _P_(_k_ + 1)) together}} imply that {{_P_(_n_) for any natural number _n_}}. The axiom of induction {{asserts the validity of inferring that _P_(_n_) holds for any natural number _n_ from the base case and the induction step}}.
 
-The first quantifier in the axiom {{ranges over _predicates_ rather than over individual numbers}}. This is {{a second-order quantifier, which means that this axiom is stated in [second-order logic](second-order%20logic.md)}}. {{Axiomatizing arithmetic induction in [first-order logic]}}(first-order%20logic.md) requires {{an [axiom schema](axiom%20schema.md) containing a separate axiom for each possible predicate}}. The article [Peano axioms](Peano%20axioms.md) contains further discussion of this issue.
+The first quantifier in the axiom {{ranges over _predicates_ rather than over individual numbers}}. This is {{a second-order quantifier, which means that this axiom is stated in [second-order logic](second-order%20logic.md)}}. {{Axiomatizing arithmetic induction in [first-order logic](first-order%20logic.md)}} requires {{an [axiom schema](axiom%20schema.md) containing a separate axiom for each possible predicate}}. The article [Peano axioms](Peano%20axioms.md) contains further discussion of this issue.
 
 The axiom of structural induction for the natural numbers was first formulated by {{Peano}}, who {{used it to specify the natural numbers together with the following four other axioms}}:
 
