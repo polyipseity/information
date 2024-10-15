@@ -19,7 +19,7 @@ tags:
 
 ## Ancient Greece
 
-In {{the 4th century BC}}, two influential Greek philosophers, {{[Plato](Plato.md) and his student [Aristotle](Aristotle.md)}}, wrote works {{based on the geocentric model}}. <!--SR:!2024-11-11,77,260!2024-10-14,79,340!2025-09-20,345,360-->
+In {{the 4th century BC}}, two influential Greek philosophers, {{[Plato](Plato.md) and his student [Aristotle](Aristotle.md)}}, wrote works {{based on the geocentric model}}. <!--SR:!2024-11-11,77,260!2025-10-13,363,360!2025-09-20,345,360-->
 
 ## Ptolemaic model
 
@@ -27,7 +27,7 @@ Although {{the basic tenets of Greek geocentrism were established by the time of
 
 ### Ptolemaic system
 
-In the Ptolemaic system, each planet is {{moved by a system of [_deferent_ and _epicycle_](deferent%20and%20epicycle.md), along with an _eccentric_}}. The {{eccentric}} is {{a point distant from [Earth](Earth.md)}}. The {{deferent}} is {{a [celestial sphere](celestial%20sphere.md), represented by a thick circle and whose center is the eccentric}}. The {{epicycle}} is {{another celestial sphere embedded in the deferent sphere, represented by a smaller circle embedded in the deferent sphere}}. A given planet {{moves along the circular path marked by the epicycle}} at the same time {{the epicycle moves along the circular path marked by the deferent}}, both {{eastwards}}. The circles are {{perfect circles}}, and the motions are {{perfect uniform circular motions}}. Since the [inferior planets](inferior%20and%20superior%20planets.md), {{[Mercury](Mercury%20(planet).md) and [Venus](Venus.md)}}, always {{appear near the [Sun](Sun.md)}}, some models also {{constrain the centers of epicycles of these two planets to a line from [Earth](Earth.md) to the [Sun](Sun.md)}}. The combined movement of {{the deferent and epicycle of a planet explains [apparent retrograde motion](apparent%20retrograde%20motion.md)}}. <!--SR:!2025-02-10,168,310!2025-05-05,238,330!2025-06-15,271,330!2025-02-02,154,310!2025-02-06,157,310!2025-06-08,265,330!2024-10-11,69,270!2025-03-08,179,310!2024-12-21,117,290!2025-01-08,132,290!2025-08-18,312,370!2024-10-22,77,350!2025-03-22,177,330!2025-07-25,290,350!2025-06-23,267,350!2025-06-12,258,350-->
+In the Ptolemaic system, each planet is {{moved by a system of [_deferent_ and _epicycle_](deferent%20and%20epicycle.md), along with an _eccentric_}}. The {{eccentric}} is {{a point distant from [Earth](Earth.md)}}. The {{deferent}} is {{a [celestial sphere](celestial%20sphere.md), represented by a thick circle and whose center is the eccentric}}. The {{epicycle}} is {{another celestial sphere embedded in the deferent sphere, represented by a smaller circle embedded in the deferent sphere}}. A given planet {{moves along the circular path marked by the epicycle}} at the same time {{the epicycle moves along the circular path marked by the deferent}}, both {{eastwards}}. The circles are {{perfect circles}}, and the motions are {{perfect uniform circular motions}}. Since the [inferior planets](inferior%20and%20superior%20planets.md), {{[Mercury](Mercury%20(planet).md) and [Venus](Venus.md)}}, always {{appear near the [Sun](Sun.md)}}, some models also {{constrain the centers of epicycles of these two planets to a line from [Earth](Earth.md) to the [Sun](Sun.md)}}. The combined movement of {{the deferent and epicycle of a planet explains [apparent retrograde motion](apparent%20retrograde%20motion.md)}}. <!--SR:!2025-02-10,168,310!2025-05-05,238,330!2025-06-15,271,330!2025-02-02,154,310!2025-02-06,157,310!2025-06-08,265,330!2025-04-26,193,270!2025-03-08,179,310!2024-12-21,117,290!2025-01-08,132,290!2025-08-18,312,370!2024-10-22,77,350!2025-03-22,177,330!2025-07-25,290,350!2025-06-23,267,350!2025-06-12,258,350-->
 
 The Ptolemaic order of spheres {{from [Earth](Earth.md) outward}} is: <!--SR:!2025-05-04,239,330-->
 
@@ -72,7 +72,7 @@ return await memorize_seq(
 - [Moon](Moon.md)→:::←[Mercury](Mercury%20(planet).md) <!--SR:!2025-02-19,176,310!2025-05-28,256,330-->
 - [Mercury](Mercury%20(planet).md)→:::←[Venus](Venus.md) <!--SR:!2025-05-10,243,330!2025-08-07,312,330-->
 - [Venus](Venus.md)→:::←[Sun](Sun.md) <!--SR:!2025-04-14,201,270!2025-04-22,210,310-->
-- [Sun](Sun.md)→:::←[Mars](Mars.md) <!--SR:!2025-03-04,175,310!2024-10-14,30,290-->
+- [Sun](Sun.md)→:::←[Mars](Mars.md) <!--SR:!2025-03-04,175,310!2025-02-13,121,310-->
 - [Mars](Mars.md)→:::←[Jupiter](Jupiter.md) <!--SR:!2024-12-29,127,290!2025-04-21,210,310-->
 - [Jupiter](Jupiter.md)→:::←[Saturn](Saturn.md) <!--SR:!2025-01-01,140,310!2025-03-06,188,310-->
 - [Saturn](Saturn.md)→:::←[fixed stars](fixed%20stars.md) <!--SR:!2025-05-06,239,330!2025-07-28,304,330-->

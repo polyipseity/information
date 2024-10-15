@@ -32,7 +32,7 @@ Most alcohols are {{less [dense](density.md) than [water](water.md). Alcohols wi
 
 ### dehydration
 
-Alcohols {{react with strong [acids](acid.md) like concentrated [sulfuric acid](sulfuric%20acid.md) with heating to produce [alkenes](alkene.md)}}. It obeys {{[Zaitsev's rule](Zaitsev's%20rule.md), which states that the most stable alkene, which is usually the most substituted (more [hydrogen](hydrogen.md) is substituted on the [carbon](carbon.md)–carbon [double bond](double%20bond.md)), is formed}}. <!--SR:!2026-07-29,705,240!2024-10-11,56,200-->
+Alcohols {{react with strong [acids](acid.md) like concentrated [sulfuric acid](sulfuric%20acid.md) with heating to produce [alkenes](alkene.md)}}. It obeys {{[Zaitsev's rule](Zaitsev's%20rule.md), which states that the most stable alkene, which is usually the most substituted (more [hydrogen](hydrogen.md) is substituted on the [carbon](carbon.md)–carbon [double bond](double%20bond.md)), is formed}}. <!--SR:!2026-07-29,705,240!2025-02-04,112,200-->
 
 In catalytic dehydration, alcohols {{are dehydrated by passing their [vapors](vapor.md) over a heated [aluminum oxide](aluminium%20oxide.md) and then collected over [water](water.md)}}. <!--SR:!2025-05-03,445,240-->
 
@@ -72,7 +72,7 @@ return await memorize_seq(
 
 - _(begin)_→:::←[dehydration](#dehydration) <!--SR:!2025-05-04,466,255!2027-12-13,1243,340-->
 - [dehydration](#dehydration)→:::←[nucleophilic substitution](#nucleophilic%20substitution) <!--SR:!2025-02-23,153,195!2025-01-23,164,280-->
-- [nucleophilic substitution](#nucleophilic%20substitution)→:::←[oxidation](#oxidation) <!--SR:!2026-02-28,571,275!2024-10-13,20,130-->
+- [nucleophilic substitution](#nucleophilic%20substitution)→:::←[oxidation](#oxidation) <!--SR:!2026-02-28,571,275!2024-11-10,26,130-->
 - [oxidation](#oxidation)→:::←_(end)_ <!--SR:!2026-04-12,758,315!2028-11-21,1605,355-->
 
 <!--/pytextgen-->

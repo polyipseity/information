@@ -19,7 +19,7 @@ tags:
 
 #### continuity at a point
 
-There are {{several ways}} to define whether a function is _continuous_ at a point. The most common one {{is in terms of [limits](limit%20of%20a%20function.md). A function $f$ is continuous at a point $c$ if $\lim_{x \to c} f(x) = f(c)$ or $c$ is an [isolated point](isolated%20point.md) of the [domain](domain%20of%20a%20function.md) of $f$}}. <!--SR:!2025-12-05,462,310!2024-10-11,158,310-->
+There are {{several ways}} to define whether a function is _continuous_ at a point. The most common one {{is in terms of [limits](limit%20of%20a%20function.md). A function $f$ is continuous at a point $c$ if $\lim_{x \to c} f(x) = f(c)$ or $c$ is an [isolated point](isolated%20point.md) of the [domain](domain%20of%20a%20function.md) of $f$}}. <!--SR:!2025-12-05,462,310!2026-07-31,654,330-->
 
 > [!tip] tips
 >
@@ -40,7 +40,7 @@ A __discontinuous function__ is {{a function that is _not continuous_. By this d
 > [!tip] tips
 >
 > - [interior](interior%20(topology).md) of a real interval ::: For $a, b \in \mathbb{R}$, $(a, b)$ is the [interior](interior%20(topology).md) of $[a, b]$, $(a, b]$, $[a, b)$, and $(a, b)$. <!--SR:!2025-05-25,343,344!2024-12-13,213,330-->
-> - relation of definitions between open intervals and semi-closed or closed intervals ::: One can interpret the definition for the semi-closed or closed interval differently. The function is continuous on an interval if the function is continuous on the corresponding open interval, and the endpoints $a$ satisfies $\lim_{x \to a^\pm} f(x) = f(a)$, choosing the direction such that the limit approaches the endpoint from the interval. <!--SR:!2024-10-11,144,290!2025-01-21,239,324-->
+> - relation of definitions between open intervals and semi-closed or closed intervals ::: One can interpret the definition for the semi-closed or closed interval differently. The function is continuous on an interval if the function is continuous on the corresponding open interval, and the endpoints $a$ satisfies $\lim_{x \to a^\pm} f(x) = f(a)$, choosing the direction such that the limit approaches the endpoint from the interval. <!--SR:!2026-05-13,575,310!2025-01-21,239,324-->
 
 <!-- markdownlint MD028 -->
 
@@ -62,7 +62,7 @@ A function is _discontinuous_ at a point {{if the point is in the [topological c
 
 > [!example] examples
 >
-> - empty function $\varnothing \to X$ :: It is not discontinuous at every [real](real%20number.md). However, it is discontinuous and it is not discontinuous at every point in its [domain](domain%20of%20a%20function.md) by [vacuous truth](vacuous%20truth.md). <!--SR:!2024-10-11,150,310-->
+> - empty function $\varnothing \to X$ :: It is not discontinuous at every [real](real%20number.md). However, it is discontinuous and it is not discontinuous at every point in its [domain](domain%20of%20a%20function.md) by [vacuous truth](vacuous%20truth.md). <!--SR:!2026-07-31,654,330-->
 > - function at an [isolated point](isolated%20point.md): $f(x \in \set{0}) = 0$ at $0$ :: It is not discontinuous at $0$. <!--SR:!2025-09-30,414,310-->
 > - $f(x \in [0, +\infty)) = \sqrt{x}$ at $0$ :: It is not discontinuous at $0$. <!--SR:!2024-11-20,191,324-->
 > - $f(x \in (0, +\infty)) = \sqrt{x}$ at $0$ :: It is discontinuous at $0$. <!--SR:!2026-08-07,668,330-->

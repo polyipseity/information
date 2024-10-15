@@ -95,7 +95,7 @@ return await memorize_seq(
 - _(begin)_→:::←auxiliary heat and water source <!--SR:!2026-10-14,825,270!2028-04-27,1445,352-->
 - auxiliary heat and water source→:::←backup power source <!--SR:!2025-08-17,607,310!2026-05-20,875,332-->
 - backup power source→:::←[electricity](electricity.md) generation for [electric vehicles](electric%20vehicle.md) <!--SR:!2025-11-02,641,292!2025-11-01,660,312-->
-- [electricity](electricity.md) generation for [electric vehicles](electric%20vehicle.md)→:::←remote power source <!--SR:!2024-10-12,344,292!2026-01-29,486,312-->
+- [electricity](electricity.md) generation for [electric vehicles](electric%20vehicle.md)→:::←remote power source <!--SR:!2027-06-04,962,292!2026-01-29,486,312-->
 - remote power source→:::←_(end)_ <!--SR:!2028-07-10,1508,355!2025-03-18,480,295-->
 
 <!--/pytextgen-->

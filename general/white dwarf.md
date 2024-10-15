@@ -9,7 +9,7 @@ tags:
 
 # white dwarf
 
-A __white dwarf__ is {{a [stellar core remnant](compact%20object.md) composed mostly of [electron-degenerate matter](degenerate%20matter.md#degenerate%20gases)}}. A white dwarf is {{very [dense](density.md): its mass is comparable to the [Sun](Sun.md)'s, while its volume is comparable to [Earth](Earth.md)'s}}. A white dwarf's low [luminosity](luminosity.md) comes from {{the [emission](thermal%20radiation.md) of residual [thermal energy](heat.md); no fusion takes place in a white dwarf}}. <!--SR:!2024-10-15,54,310!2024-10-19,57,310!2025-01-26,126,290-->
+A __white dwarf__ is {{a [stellar core remnant](compact%20object.md) composed mostly of [electron-degenerate matter](degenerate%20matter.md#degenerate%20gases)}}. A white dwarf is {{very [dense](density.md): its mass is comparable to the [Sun](Sun.md)'s, while its volume is comparable to [Earth](Earth.md)'s}}. A white dwarf's low [luminosity](luminosity.md) comes from {{the [emission](thermal%20radiation.md) of residual [thermal energy](heat.md); no fusion takes place in a white dwarf}}. <!--SR:!2025-06-13,241,330!2024-10-19,57,310!2025-01-26,126,290-->
 
 ## formation
 
@@ -17,7 +17,7 @@ White dwarfs are thought to represent {{the end point of [stellar evolution](ste
 
 ### stars with very low mass
 
-If the mass of a main-sequence star is {{lower than approximately half a [solar mass](solar%20mass.md)}}, it will {{never become hot enough to ignite and fuse helium in its core}}. It is thought that, over {{a lifespan that considerably exceeds the age of the universe (c. 13.8 billion years)}}, such a star will {{eventually burn all its hydrogen, for a while becoming a [blue dwarf](blue%20dwarf%20(red-dwarf%20stage).md), and end its evolution as a helium white dwarf composed chiefly of [helium-4](helium-4.md) nuclei}}. Due to the very long time this process takes, it is {{not thought to be the origin of the observed helium white dwarfs. Rather, they are thought to be the product of mass loss in binary systems or mass loss due to a large planetary companion}}. <!--SR:!2025-01-12,107,270!2024-10-13,48,290!2025-02-17,148,310!2024-11-01,56,250!2025-03-11,164,310-->
+If the mass of a main-sequence star is {{lower than approximately half a [solar mass](solar%20mass.md)}}, it will {{never become hot enough to ignite and fuse helium in its core}}. It is thought that, over {{a lifespan that considerably exceeds the age of the universe (c. 13.8 billion years)}}, such a star will {{eventually burn all its hydrogen, for a while becoming a [blue dwarf](blue%20dwarf%20(red-dwarf%20stage).md), and end its evolution as a helium white dwarf composed chiefly of [helium-4](helium-4.md) nuclei}}. Due to the very long time this process takes, it is {{not thought to be the origin of the observed helium white dwarfs. Rather, they are thought to be the product of mass loss in binary systems or mass loss due to a large planetary companion}}. <!--SR:!2025-01-12,107,270!2025-02-28,136,290!2025-02-17,148,310!2024-11-01,56,250!2025-03-11,164,310-->
 
 ### stars with low to medium mass
 
@@ -29,7 +29,7 @@ If a star is {{massive enough}}, its core will {{eventually become sufficiently 
 
 ## binary stars and novae
 
-If {{a white dwarf is in a binary star system and is accreting matter from its companion}}, a variety of phenomena may occur, including {{[novae](nova.md) and Type Ia supernovae. It may also be a [super-soft X-ray source](super%20soft%20X-ray%20source.md) if it is able to take material from its companion fast enough to sustain fusion on its surface}}. On the other hand, phenomena in binary systems such as {{tidal interaction and star–disc interaction, moderated by magnetic fields or not}}, act on the rotation of accreting white dwarfs. In fact, the (securely known) fastest-spinning white dwarfs are {{members of binary systems}} (the fastest one being the white dwarf in CTCV J2056-3014). A close binary system of two white dwarfs can {{lose angular momentum and radiate energy in the form of [gravitational waves](gravitational%20wave.md), causing their mutual orbit to steadily shrink until the stars merge}}. <!--SR:!2024-11-03,69,310!2024-10-13,45,250!2024-11-13,69,270!2024-12-11,93,290!2025-04-02,176,310-->
+If {{a white dwarf is in a binary star system and is accreting matter from its companion}}, a variety of phenomena may occur, including {{[novae](nova.md) and Type Ia supernovae. It may also be a [super-soft X-ray source](super%20soft%20X-ray%20source.md) if it is able to take material from its companion fast enough to sustain fusion on its surface}}. On the other hand, phenomena in binary systems such as {{tidal interaction and star–disc interaction, moderated by magnetic fields or not}}, act on the rotation of accreting white dwarfs. In fact, the (securely known) fastest-spinning white dwarfs are {{members of binary systems}} (the fastest one being the white dwarf in CTCV J2056-3014). A close binary system of two white dwarfs can {{lose angular momentum and radiate energy in the form of [gravitational waves](gravitational%20wave.md), causing their mutual orbit to steadily shrink until the stars merge}}. <!--SR:!2024-11-03,69,310!2025-02-04,112,250!2024-11-13,69,270!2024-12-11,93,290!2025-04-02,176,310-->
 
 ## references
 

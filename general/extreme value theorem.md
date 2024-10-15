@@ -18,7 +18,7 @@ The extreme value theorem is more specific than the related {{__boundedness theo
 
 > __boundedness theorem__
 >
-> {{Given a [real](real%20number.md) closed [interval](interval%20(mathematics).md) $I = [a, b]$ and a [continuous function](continuous%20function.md) $f: I \to \mathbb{R}$, there exists $L, U \in \mathbb{R}$ such that $$L \le f(x) \le U \qquad \forall x \in I$$.}} <!--SR:!2024-10-11,225,310-->
+> {{Given a [real](real%20number.md) closed [interval](interval%20(mathematics).md) $I = [a, b]$ and a [continuous function](continuous%20function.md) $f: I \to \mathbb{R}$, there exists $L, U \in \mathbb{R}$ such that $$L \le f(x) \le U \qquad \forall x \in I$$.}} <!--SR:!2027-06-04,962,330-->
 
 ## references
 

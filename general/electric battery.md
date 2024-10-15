@@ -138,7 +138,7 @@ return chain.from_iterable(await gather(
 
 - [alkaline](alkaline%20battery.md)::[MnO<sub>2</sub>](manganese%20dioxide.md) <!--SR:!2024-12-12,176,283-->
 - [silver oxide](silver%20oxide%20battery.md)::[Ag<sub>2</sub>O](silver%20oxide.md) <!--SR:!2025-11-18,463,343-->
-- [zinc–carbon](zinc–carbon%20battery.md)/zinc–chloride::[C](carbon.md) ([graphite](graphite.md)) with [MnO<sub>2</sub>](manganese%20dioxide.md) <!--SR:!2024-10-15,155,323-->
+- [zinc–carbon](zinc–carbon%20battery.md)/zinc–chloride::[C](carbon.md) ([graphite](graphite.md)) with [MnO<sub>2</sub>](manganese%20dioxide.md) <!--SR:!2025-01-01,78,303-->
 
 <!--/pytextgen-->
 
@@ -235,7 +235,7 @@ return chain.from_iterable(await gather(
 
 <!--pytextgen generate section="863b"--><!-- The following content is generated at 2024-03-06T23:33:30.773973+08:00. Any edits will be overridden! -->
 
-- [NiMH](nickel–metal%20hydride%20battery.md)::[KOH](potassium%20hydroxide.md) <!--SR:!2024-10-12,133,323-->
+- [NiMH](nickel–metal%20hydride%20battery.md)::[KOH](potassium%20hydroxide.md) <!--SR:!2026-06-14,607,343-->
 - [lead–acid](lead–acid%20battery.md)::[H<sub>2</sub>SO<sub>4</sub>](sulfuric%20acid.md) <!--SR:!2025-07-28,363,343-->
 - [lithium-ion](lithium-ion%20battery.md)::[Li](lithium.md) [salt](salt%20(chemistry).md) in [organic compound](organic%20compound.md) [solvent](solvent.md) <!--SR:!2024-12-05,181,303-->
 
@@ -273,7 +273,7 @@ return chain.from_iterable(await gather(
 
 <!--pytextgen generate section="8c52"--><!-- The following content is generated at 2024-03-06T23:33:30.718238+08:00. Any edits will be overridden! -->
 
-- [NiMH](nickel–metal%20hydride%20battery.md)::Usually cylindrical. Suitable for high-drain devices. <!--SR:!2024-10-12,151,323-->
+- [NiMH](nickel–metal%20hydride%20battery.md)::Usually cylindrical. Suitable for high-drain devices. <!--SR:!2026-07-31,654,343-->
 - [lead–acid](lead–acid%20battery.md)::Usually box-shaped. Suitable for [car batteries](automotive%20battery.md) or [uninterruptible power supplies](uninterruptible%20power%20supply.md). <!--SR:!2025-03-14,287,363-->
 - [lithium-ion](lithium-ion%20battery.md)::Usually cylindrical or prismatic. Suitable for portable devices. <!--SR:!2025-05-16,322,363-->
 

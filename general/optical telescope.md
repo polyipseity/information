@@ -13,9 +13,9 @@ tags:
 
 ### angular resolution
 
-Ignoring {{blurring of the image by turbulence in the atmosphere ([atmospheric seeing](astronomical%20seeing.md)) and optical imperfections of the telescope}}, the [angular resolution](angular%20resolution.md) of an optical telescope is determined by {{the diameter of the [primary mirror](primary%20mirror.md) or lens gathering the light (also termed its "aperture")}}. <!--SR:!2025-01-28,127,290!2024-10-12,61,310-->
+Ignoring {{blurring of the image by turbulence in the atmosphere ([atmospheric seeing](astronomical%20seeing.md)) and optical imperfections of the telescope}}, the [angular resolution](angular%20resolution.md) of an optical telescope is determined by {{the diameter of the [primary mirror](primary%20mirror.md) or lens gathering the light (also termed its "aperture")}}. <!--SR:!2025-01-28,127,290!2025-07-12,270,330-->
 
-{{The [Rayleigh criterion](angular%20resolution.md#Rayleigh's%20criterion)}} for the resolution limit {{$\alpha_R$ (in radians)}} is given by {{$$\sin(\alpha_R) = 1.22 \frac \lambda D \qquad (\text{note that }\sin(\alpha_R) \approx \alpha_R\text{ for small }\alpha_R)$$}}, where {{$\lambda$ is the [wavelength](wavelength.md) and $D$ is the aperture}}. <!--SR:!2024-10-19,68,310!2025-02-09,148,310!2024-10-14,63,310!2024-10-13,62,310-->
+{{The [Rayleigh criterion](angular%20resolution.md#Rayleigh's%20criterion)}} for the resolution limit {{$\alpha_R$ (in radians)}} is given by {{$$\sin(\alpha_R) = 1.22 \frac \lambda D \qquad (\text{note that }\sin(\alpha_R) \approx \alpha_R\text{ for small }\alpha_R)$$}}, where {{$\lambda$ is the [wavelength](wavelength.md) and $D$ is the aperture}}. <!--SR:!2024-10-19,68,310!2025-02-09,148,310!2025-07-21,279,330!2025-07-21,279,330-->
 
 ### light-gathering power
 
