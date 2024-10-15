@@ -27,11 +27,11 @@ The content is in teaching order.
   - duration: 7 weeks, for the first half of the semester
   - time: 2 hour lectures, 2 hour labs
   - format: pre-lecture videos → weekly exercise (graded, infinite attempts) → lecture → lab (graded, attendance required) → practice question set (ungraded, optional)
-  - grading scheme: weekly exercise 10%, lab submissions 20%, final exam 70% (basic programming test 45%, free coding exam 25%)
+  - grading scheme: weekly exercise 10%, lab submissions 20%, final examination 70% (basic programming test 45%, free coding exam 25%)
   - course intended learning outcomes (CILOs): understand coding logic, Python basics, and hands-on guidance
   - lab: attendance required, can be waived by doing a challenging exercise and demonstrate it to lab helpers at the start of the lab to be waived
 - [assignments](assignments/)
-- final exam: 2024-10-19T14:30:00+08:00/2024-10-19T17:30:00+08:00 (PT3H)
+- final examination: 2024-10-19T15:00:00+08:00/2024-10-19T16:30:00+08:00 (PT1H30M)
 
 ## week 1 pre-lecture
 
@@ -46,10 +46,12 @@ The content is in teaching order.
   - [§ output](basics.md#output)
     - [basics § output](basics.md#output) / note ::: Jupyter notebooks automatically outputting the value of the last statement without using `print` is also considered "output". Note that strings are outputted, escaped with `\` properly (without unnecessary escapes), and preferably wrapped in `'`, and only uses `"` if there is at least 1 `'` in the string but not any `"`.
   - [§ variable](basics.md#variable)
-    - [basics § variable](basics.md#variable) / note ::: In a quiz question, they use the word "save", which means storing a value to a variable.
+    - [basics § variable](basics.md#variable) / note ::: In a quiz question, they use the word "save", which means storing a value to a variable. Also, `+=`, `-=`, `*=`, `/=`, etc. are not taught and should NOT be used in exercises or exams.
   - [§ data types](basics.md#data%20types)
     - [basics § data types](basics.md#data%20types) / note ::: They have not taught `bool` (values: `True`, `False`) and `NoneType` (value: `None`) up to this point...
 - week 1 exercise: 1/1, graded
+  - Can variables be used to save user input? ::: Yes, variables can be used to save user input (store in a variable).
+  - Can `print(...)` be used to save data? ::: No, `print(...)` cannot be used to save data (store in a variable), only display data.
 
 ## week 1 lecture
 
@@ -63,6 +65,7 @@ The content is in teaching order.
     - addition: string concatenation
 - week 1 lecture materials
 - week 1 practice question set: 10/10, ungraded
+  - Python becomes very popular due to the following reasons, except for... ::: It executes the fastest as compared to other programming languages.
 
 ## week 2 pre-lecture
 
@@ -80,6 +83,7 @@ The content is in teaching order.
   - [§ length](list.md#length)
   - [§ aggregate functions](list.md#aggregate%20functions)
 - week 2 exercise: 1/1, graded
+  - Can a list be sliced? ::: Yes! But you cannot use this in exercises or exams.
 - [week 3 lab attendance waiver](assignments/lab%202/lab%202%20waiver%20submission.ipynb): 1/1, graded
 
 ## week 2 lab
@@ -211,4 +215,48 @@ The content is in teaching order.
 - [§ week 4 pre-lecture](#week%204%20pre-lecture)
 - [control flow](control%20flow.md)
   - [§ for-iteration](control%20flow.md#for-iteration)
-- [week 5 lab tasks](assignments/lab%204/lab%204%20submission.ipynb): ?/1, graded
+- [week 5 lab tasks](assignments/lab%204/lab%204%20submission.ipynb): 1/1, graded
+
+## week 6 lecture
+
+- time: 2024-10-04T16:00:00+08:00/2024-10-04T17:50:00+08:00
+- [§ week 5 pre-lecture](#week%205%20pre-lecture)
+- [basics](basics.md)
+  - [§ mathematics](basics.md#mathematics)
+    - addition: `random.randint(a, b)`
+- week 6 lecture materials
+- week 6 practice question set: 10/10, ungraded
+  - How does a 'for' loop differ from a 'while' loop in Python? ::: 'for' loops iterate a fixed number of times.
+  - What can be a potential pitfall when using the 'while' loop? ::: It can lead to infinite loops if the loop termination condition is not met.
+  - In a 'while' loop, under what circumstances could an infinite loop occur? ::: When the loop condition is always 'True'.
+
+## week 6 lab
+
+- time: 2024-10-07T11:00:00+08:00/2024-10-07T12:50:00+08:00
+- [§ week 5 pre-lecture](#week%205%20pre-lecture)
+- [control flow](control%20flow.md)
+  - [§ while-iteration](control%20flow.md#while-iteration)
+  - [§ for-iteration](control%20flow.md#for-iteration)
+- challenging questions
+- exam dos, don'ts, and tips
+- [week 6 lab tasks](assignments/lab%205/lab%205%20submission.py): 1/1, graded
+
+## week 7 lecture
+
+- time: 2024-10-11T16:00:00+08:00/2024-10-11T17:50:00+08:00
+- public holiday
+- common mistakes
+  - `=` vs `==` ::: Do not mix up the assignment operator and comparison operator.
+  - `input(...)` return type ::: `input(...)` returns a `str` and may require further conversions.
+  - `//` vs `%` ::: Do not mix up the floor division operator and remainder operator.
+  - `print(...)` multiple arguments ::; Note that if multiple arguments are passed to `print(...)`, the outputted strings are separated by a space in between arguments.
+  - indentation ::: Indentation matters in Python!!!
+  - `break` notes ::: Do not forget to add `break` when needed to exit the loop. The indentation of `break` matters. Also, `break` only exits the innermost loop and does not affect outer loops.
+- week 7 lecture materials
+- integrated question set (week 7 practice question set): 0/0, ungraded
+
+## aftermath
+
+- final examination: 2024-10-19T15:00:00+08:00/2024-10-19T16:30:00+08:00 (PT1H30M)
+  - venue: Lecture Theater B, Lecture Theater C, Lecture Theater J, Lecture Theater L
+  - [cheatsheet](cheatsheet.md): provided during the examination
