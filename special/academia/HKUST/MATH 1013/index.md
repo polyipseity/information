@@ -19,6 +19,8 @@ tags:
 - HKUST MATH 1013
 - name: Calculus IB
 
+<!-- list separator -->
+
 - [L'Hôpital's rule](../../../../general/L'Hôpital's%20rule.md)
   - [other indeterminate forms](../../../../general/L'Hôpital's%20rule.md#other%20indeterminate%20forms)
 - [Leibniz integral rule](../../../../general/Leibniz%20integral%20rule.md)
