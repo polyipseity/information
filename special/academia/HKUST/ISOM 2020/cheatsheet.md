@@ -29,73 +29,73 @@ The cheatsheet is provided during the final examination.
 
 ## data types
 
-- `int` ::: integer
-- `float` ::: floating point
-- `bool` ::: `True` or `False`
-- `str` ::: string
-- `[...]` ::: list
+- `int` ::: integer <!--SR:!2024-10-21,4,270!2024-10-21,4,270-->
+- `float` ::: floating point <!--SR:!2024-10-21,4,270!2024-10-21,4,270-->
+- `bool` ::: `True` or `False` <!--SR:!2024-10-21,4,270!2024-10-21,4,270-->
+- `str` ::: string <!--SR:!2024-10-21,4,270!2024-10-21,4,270-->
+- `[...]` ::: list <!--SR:!2024-10-21,4,270!2024-10-21,4,270-->
 
 ## arithmetic operators
 
-- `+` ::: addition
-- `-` ::: subtraction
-- `*` ::: multiplication
-- `**` ::: to the power of
-- `/` ::: division
-- `//` ::: floor division
-- `%` ::: mod
+- `+` ::: addition <!--SR:!2024-10-21,4,270!2024-10-21,4,270-->
+- `-` ::: subtraction <!--SR:!2024-10-21,4,270!2024-10-21,4,270-->
+- `*` ::: multiplication <!--SR:!2024-10-21,4,270!2024-10-21,4,270-->
+- `**` ::: to the power of <!--SR:!2024-10-21,4,270!2024-10-21,4,270-->
+- `/` ::: division <!--SR:!2024-10-21,4,270!2024-10-21,4,270-->
+- `//` ::: floor division <!--SR:!2024-10-21,4,270!2024-10-21,4,270-->
+- `%` ::: mod <!--SR:!2024-10-21,4,270!2024-10-21,4,270-->
 
 ## input / output
 
-- `print()` ::: display the input value(s), optionally `end` with specific input
-- `input()` ::: ask user for input
-- `\n` ::: escape character: line break
-- `\t` ::: escape character: tab
+- `print()` ::: display the input value(s), optionally `end` with specific input <!--SR:!2024-10-21,4,270!2024-10-21,4,270-->
+- `input()` ::: ask user for input <!--SR:!2024-10-21,4,270!2024-10-21,4,270-->
+- `\n` ::: escape character: line break <!--SR:!2024-10-21,4,270!2024-10-21,4,270-->
+- `\t` ::: escape character: tab <!--SR:!2024-10-21,4,270!2024-10-21,4,270-->
 
 ## math functions / conversion
 
-- `abs()` ::: absolute value
-- `math.sqrt()` ::: square root of
-- `round()` ::: round off the input value
-- `type()` ::: return data type of input
-- `int()` ::: convert input to integer
-- `float()` ::: convert input to float
-- `str()` ::: convert input to str
+- `abs()` ::: absolute value <!--SR:!2024-10-21,4,270!2024-10-21,4,270-->
+- `math.sqrt()` ::: square root of <!--SR:!2024-10-21,4,270!2024-10-21,4,270-->
+- `round()` ::: round off the input value <!--SR:!2024-10-21,4,270!2024-10-21,4,270-->
+- `type()` ::: return data type of input <!--SR:!2024-10-21,4,270!2024-10-21,4,270-->
+- `int()` ::: convert input to integer <!--SR:!2024-10-21,4,270!2024-10-21,4,270-->
+- `float()` ::: convert input to float <!--SR:!2024-10-21,4,270!2024-10-21,4,270-->
+- `str()` ::: convert input to str <!--SR:!2024-10-21,4,270!2024-10-21,4,270-->
 
 ## list / string operations
 
-- `list[...]` ::: locate an item at the specific index in a list
-- `+` ::: combine two lists / strings
-- `in` ::: check existence in a list / string
-- `not in` ::: check if not exists in a list / string
-- `list.append()` ::: add a new element in the list
-- `list.pop()` ::: remove and return an item at a specific index
-- `list.count()` ::: count the occurrence of the input item
-- `list.index()` ::: find the index of the input item
-- `len()` ::: return the number of elements in the input list
-- `max()` ::: find the biggest element in the input list
-- `min()` ::: find the smallest element in the input list
-- `sum()` ::: find the sum of all elements of the input list
-- `range()` ::: create a number sequence starting from zero
+- `list[...]` ::: locate an item at the specific index in a list <!--SR:!2024-10-21,4,270!2024-10-21,4,270-->
+- `+` ::: combine two lists / strings <!--SR:!2024-10-21,4,270!2024-10-21,4,270-->
+- `in` ::: check existence in a list / string <!--SR:!2024-10-21,4,270!2024-10-21,4,270-->
+- `not in` ::: check if not exists in a list / string <!--SR:!2024-10-21,4,270!2024-10-21,4,270-->
+- `list.append()` ::: add a new element in the list <!--SR:!2024-10-21,4,270!2024-10-21,4,270-->
+- `list.pop()` ::: remove and return an item at a specific index <!--SR:!2024-10-21,4,270!2024-10-21,4,270-->
+- `list.count()` ::: count the occurrence of the input item <!--SR:!2024-10-21,4,270!2024-10-21,4,270-->
+- `list.index()` ::: find the index of the input item <!--SR:!2024-10-21,4,270!2024-10-21,4,270-->
+- `len()` ::: return the number of elements in the input list <!--SR:!2024-10-21,4,270!2024-10-21,4,270-->
+- `max()` ::: find the biggest element in the input list <!--SR:!2024-10-21,4,270!2024-10-21,4,270-->
+- `min()` ::: find the smallest element in the input list <!--SR:!2024-10-21,4,270!2024-10-21,4,270-->
+- `sum()` ::: find the sum of all elements of the input list <!--SR:!2024-10-21,4,270!2024-10-21,4,270-->
+- `range()` ::: create a number sequence starting from zero <!--SR:!2024-10-21,4,270!2024-10-21,4,270-->
 
 ## relational operators
 
-- `==` ::: is equal?
-- `!=` ::: is not equal?
-- `<` ::: is less than?
-- `>` ::: is greater than?
-- `<=` ::: is less than or equal to?
-- `>=` ::: is greater than or equal to?
+- `==` ::: is equal? <!--SR:!2024-10-21,4,270!2024-10-21,4,270-->
+- `!=` ::: is not equal? <!--SR:!2024-10-21,4,270!2024-10-21,4,270-->
+- `<` ::: is less than? <!--SR:!2024-10-21,4,270!2024-10-21,4,270-->
+- `>` ::: is greater than? <!--SR:!2024-10-21,4,270!2024-10-21,4,270-->
+- `<=` ::: is less than or equal to? <!--SR:!2024-10-21,4,270!2024-10-21,4,270-->
+- `>=` ::: is greater than or equal to? <!--SR:!2024-10-21,4,270!2024-10-21,4,270-->
 
 ## boolean operators
 
-- `and` ::: are both operands `True`?
-- `or` ::: is/are either (or both) of the operands `True`?
-- `not` ::: flip `True`/`False` to one another
+- `and` ::: are both operands `True`? <!--SR:!2024-10-21,4,270!2024-10-21,4,270-->
+- `or` ::: is/are either (or both) of the operands `True`? <!--SR:!2024-10-21,4,270!2024-10-21,4,270-->
+- `not` ::: flip `True`/`False` to one another <!--SR:!2024-10-21,4,270!2024-10-21,4,270-->
 
 ## conditional statement
 
-- keywords ::: `if ...: ... [elif ...: ...] [else: ...]`
+- keywords ::: `if ...: ... [elif ...: ...] [else: ...]` <!--SR:!2024-10-21,4,270!2024-10-21,4,270-->
 
 ```Python
 if <caseA>:
@@ -108,8 +108,8 @@ else:
 
 ## loop
 
-- keywords ::: `for ... in ...: ...`, `while True: ...`
-- `break` ::: terminate a loop
+- keywords ::: `for ... in ...: ...`, `while True: ...` <!--SR:!2024-10-21,4,270!2024-10-21,4,270-->
+- `break` ::: terminate a loop <!--SR:!2024-10-21,4,270!2024-10-21,4,270-->
 
 ```Python
 for <variable> in <iterable>:
@@ -123,4 +123,4 @@ while True:
 
 ## random function
 
-- `random.randint(a, b)` ::: return a number between `a` and `b`
+- `random.randint(a, b)` ::: return a number between `a` and `b` <!--SR:!2024-10-21,4,270!2024-10-21,4,270-->
