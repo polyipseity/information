@@ -249,7 +249,7 @@ The content is in teaching order.
   - `=` vs `==` ::: Do not mix up the assignment operator and comparison operator. <!--SR:!2024-10-21,4,326!2024-10-21,4,326-->
   - `input(...)` return type ::: `input(...)` returns a `str` and may require further conversions. <!--SR:!2024-10-21,4,326!2024-10-21,4,326-->
   - `//` vs `%` ::: Do not mix up the floor division operator and remainder operator. <!--SR:!2024-10-21,4,326!2024-10-21,4,326-->
-  - `print(...)` multiple arguments ::; Note that if multiple arguments are passed to `print(...)`, the outputted strings are separated by a space in between arguments. <!--SR:!2024-10-21,4,326-->
+  - `print(...)` multiple arguments ::: Note that if multiple arguments are passed to `print(...)`, the outputted strings are separated by a space in between arguments. <!--SR:!2024-10-21,4,326-->
   - indentation ::: Indentation matters in Python!!! <!--SR:!2024-10-21,4,326!2024-10-21,4,326-->
   - `break` notes ::: Do not forget to add `break` when needed to exit the loop. The indentation of `break` matters. Also, `break` only exits the innermost loop and does not affect outer loops. <!--SR:!2024-10-21,4,326!2024-10-21,4,326-->
 - week 7 lecture materials
