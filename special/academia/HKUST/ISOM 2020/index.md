@@ -75,7 +75,7 @@ The content is in teaching order.
   - [§ Python list](list.md#Python%20list)
   - [§ syntax](list.md#syntax)
   - [§ indexing](list.md#indexing)
-    - [list § indexing](list.md#indexing) / note ::: We have not learnt slicing so far, so do not use it. <!--SR:!2024-10-11,17,324!2024-10-12,18,324-->
+    - [list § indexing](list.md#indexing) / note ::: We have not learnt slicing so far, so do not use it. <!--SR:!2025-01-02,77,344!2025-01-02,77,344-->
   - [§ manipulation](list.md#manipulation)
   - [§ length](list.md#length)
   - [§ aggregate functions](list.md#aggregate%20functions)
@@ -115,7 +115,7 @@ The content is in teaching order.
   - [§ data types](basics.md#data%20types)
     - addition: type `bool`
   - [§ comparison operators](basics.md#comparison%20operators)
-    - [basics § comparison operators](basics.md#comparison%20operators) / note ::: One CAN chain comparison operators in Python, unlike other languages. See contents inside. <!--SR:!2024-10-17,17,332!2024-10-18,18,332-->
+    - [basics § comparison operators](basics.md#comparison%20operators) / note ::: One CAN chain comparison operators in Python, unlike other languages. See contents inside. <!--SR:!2025-01-02,77,352!2024-10-18,18,332-->
 - [control flow](control%20flow.md)
   - [§ Python control flow](control%20flow.md#Python%20control%20flow)
   - [§ branching](control%20flow.md#branching)
@@ -158,13 +158,13 @@ The content is in teaching order.
 - time: 2024-09-23T12:00:00+08:00
 - [control flow](control%20flow.md)
   - [§ for-iteration](control%20flow.md#for-iteration)
-    - [control flow § for-iteration](control%20flow.md#for-iteration) / note ::: First, we have only learnt about `range(end)` and `list(range(end))`. So do not use the other ways of using `range(...)` in your exams. Second, if there are no statements to be executed in an iteration, you must still put a properly indented `pass` statement, which does nothing, for that iteration. <!--SR:!2024-10-15,15,332!2024-10-15,15,332-->
+    - [control flow § for-iteration](control%20flow.md#for-iteration) / note ::: First, we have only learnt about `range(end)` and `list(range(end))`. So do not use the other ways of using `range(...)` in your exams. Second, if there are no statements to be executed in an iteration, you must still put a properly indented `pass` statement, which does nothing, for that iteration. <!--SR:!2024-12-28,72,352!2024-12-28,72,352-->
 - [basics](basics.md)
   - [§ data type conversion](basics.md#data%20type%20conversion)
     - addition: `list(value)`
 - [control flow](control%20flow.md)
   - [§ iteration](control%20flow.md#iteration)
-    - [control flow § iteration](control%20flow.md#iteration) / note ::: Yes, did you know you can put branches (`if`) and loops (`for`, `while`) inside branches (`if`) and loops (`for`, `while`)? <!--SR:!2024-10-19,19,332!2024-10-16,16,332-->
+    - [control flow § iteration](control%20flow.md#iteration) / note ::: Yes, did you know you can put branches (`if`) and loops (`for`, `while`) inside branches (`if`) and loops (`for`, `while`)? <!--SR:!2024-10-19,19,332!2024-12-29,74,352-->
 - week 4 exercise: 1/1, graded
 - [week 5 lab attendance waiver](assignments/lab%204/lab%204%20waiver%20submission.ipynb): ?/1, ignored due to public holiday
 

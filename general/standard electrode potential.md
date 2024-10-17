@@ -206,7 +206,7 @@ return (
 - Na<sup>+</sup>(aq) + e<sup>-</sup> ⇌ Na(s)::-2.71 <!--SR:!2025-01-01,78,130-->
 - Mg<sup>2+</sup>(aq) + 2e<sup>-</sup> ⇌ Mg(s)::-2.372 <!--SR:!2024-10-27,24,130-->
 - Al<sup>3+</sup>(aq) + 3e<sup>-</sup> ⇌ Al(s)::-1.662 <!--SR:!2024-11-10,26,130-->
-- 2H<sub>2</sub>O(l) + 2e<sup>-</sup> ⇌ H<sub>2</sub>(g) + 2OH<sup>-</sup>::-0.8277 <!--SR:!2024-10-17,48,130-->
+- 2H<sub>2</sub>O(l) + 2e<sup>-</sup> ⇌ H<sub>2</sub>(g) + 2OH<sup>-</sup>::-0.8277 <!--SR:!2024-11-10,24,130-->
 - Zn<sup>2+</sup>(aq) + 2e<sup>-</sup> ⇌ Zn(s)::-0.7618 <!--SR:!2024-11-18,34,150-->
 - Cr<sup>3+</sup>(aq) + 3e<sup>-</sup> ⇌ Cr(s)::-0.744 <!--SR:!2025-03-02,167,156-->
 - Fe<sup>2+</sup>(aq) + 2e<sup>-</sup> ⇌ Fe(s)::-0.44 <!--SR:!2024-11-27,50,130-->
@@ -217,7 +217,7 @@ return (
 - Pb<sup>2+</sup>(aq) + 2e<sup>-</sup> ⇌ Pb(s)::-0.126 <!--SR:!2024-10-31,23,130-->
 - CO<sub>2</sub>(g) + 2H<sup>+</sup>(aq) + 2e<sup>-</sup> ⇌ CO(g) + H<sub>2</sub>O(l)::-0.11 <!--SR:!2025-02-17,237,230-->
 - 2H<sup>+</sup>(aq) + 2e<sup>-</sup> ⇌ H<sub>2</sub>(g)::0 <!--SR:!2026-06-10,899,336-->
-- S<sub>4</sub>O<sub>6</sub><sup>2-</sup>(aq) + 2e<sup>-</sup> ⇌ 2S<sub>2</sub>O<sub>3</sub><sup>2-</sup>(aq)::0.08 <!--SR:!2024-10-16,39,170-->
+- S<sub>4</sub>O<sub>6</sub><sup>2-</sup>(aq) + 2e<sup>-</sup> ⇌ 2S<sub>2</sub>O<sub>3</sub><sup>2-</sup>(aq)::0.08 <!--SR:!2024-12-26,70,170-->
 - Sn<sup>4+</sup>(aq) + 2e<sup>-</sup> ⇌ Sn<sup>2+</sup>(aq)::0.151 <!--SR:!2024-10-21,6,130-->
 - HSO<sub>4</sub><sup>-</sup>(aq) + 3H<sup>+</sup>(aq) + 2e<sup>-</sup> ⇌ SO<sub>2</sub>(aq) + 2H<sub>2</sub>O(l)::0.16 <!--SR:!2024-12-08,69,130-->
 - SO<sub>4</sub><sup>2-</sup>(aq) + 4H<sup>+</sup>(aq) + 2e<sup>-</sup> ⇌ SO<sub>2</sub>(aq) + 2H<sub>2</sub>O(l)::0.17 <!--SR:!2025-01-23,204,210-->
@@ -227,7 +227,7 @@ return (
 - CO(g) + 2H<sup>+</sup>(aq) + 2e<sup>-</sup> ⇌ C(s) + H<sub>2</sub>O(l)::0.52 <!--SR:!2024-11-01,22,130-->
 - I<sub>3</sub><sup>-</sup>(aq) + 2e<sup>-</sup> ⇌ 3I<sup>-</sup>(aq)::0.53 <!--SR:!2026-04-14,564,199-->
 - I<sub>2</sub>(s) + 2e<sup>-</sup> ⇌ 2I<sup>-</sup>(aq)::0.54 <!--SR:!2024-10-21,77,130-->
-- S<sub>2</sub>O<sub>3</sub><sup>2-</sup>(aq) + 6H<sup>+</sup>(aq) + 4e<sup>-</sup> ⇌ 2S(s) + 3H<sub>2</sub>O(l)::0.6 <!--SR:!2024-10-17,2,130-->
+- S<sub>2</sub>O<sub>3</sub><sup>2-</sup>(aq) + 6H<sup>+</sup>(aq) + 4e<sup>-</sup> ⇌ 2S(s) + 3H<sub>2</sub>O(l)::0.6 <!--SR:!2024-10-18,1,130-->
 - Fe<sup>3+</sup>(aq) + e<sup>-</sup> ⇌ Fe<sup>2+</sup>(aq)::0.77 <!--SR:!2026-04-03,683,190-->
 - Ag<sup>+</sup>(aq) + e<sup>-</sup> ⇌ Ag(s)::0.7996 <!--SR:!2024-12-05,155,150-->
 - NO<sub>3</sub><sup>-</sup>(aq) + 2H<sup>+</sup>(aq) + e<sup>-</sup> ⇌ NO<sub>2</sub>(g) + H<sub>2</sub>O(l)::0.8 <!--SR:!2026-11-09,843,230-->

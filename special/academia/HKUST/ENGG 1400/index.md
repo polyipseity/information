@@ -48,13 +48,13 @@ The content is in teaching order.
 - 4 typical kinds of thinking ::: business thinking (optimize), design thinking (build), engineering thinking (solve), research thinking (analyze) <!--SR:!2024-11-30,53,310!2024-12-11,62,310-->
 - design thinking
   - design thinking video: <https://youtu.be/_r0VX-aU_T8>
-  - design thinking processes ::: accept, empathize, define, ideate, prototype, test <!--SR:!2024-11-08,31,270!2024-10-11,17,290-->
+  - design thinking processes ::: accept, empathize, define, ideate, prototype, test <!--SR:!2024-11-08,31,270!2024-12-25,69,310-->
   - design thinking use ::: Good for _wicked problems_, which are problems with little data and unclear outcome. <!--SR:!2024-11-27,50,310!2024-11-07,35,290-->
 - class culture ::: We come to class not to just _attend_ it, but participate with others. <!--SR:!2024-11-22,45,290!2024-12-07,58,310-->
 - activity 1: art to building community
   - art to building community / debrief ::: Our story makes us unique. Approach situations with a "yes and"! <!--SR:!2024-12-03,56,310!2024-11-29,52,310-->
 - activity 2: workview sharing, activity 3: worldview sharing
-  - workview & worldview sharing / debrief ::: How is what you are currently doing coherent with your workview and worldview? <!--SR:!2024-10-11,17,290!2024-12-08,59,310-->
+  - workview & worldview sharing / debrief ::: How is what you are currently doing coherent with your workview and worldview? <!--SR:!2024-12-25,69,310!2024-12-08,59,310-->
 - assignments
   - [workview](assignments/workview/submission.md)
   - [worldview & journal](assignments/worldview%20&%20journal/submission.md)
@@ -79,17 +79,17 @@ The content is in teaching order.
 ## week 4 tutorial
 
 - time: 2024-09-26T10:30:00+08:00/2024-09-26T12:20:00+08:00
-- positive psychology ::: happiness, well-being, etc. <!--SR:!2024-10-14,4,317!2024-10-14,4,317-->
-- PERMA ::: a portfolio approach to well-being: positive emotion, engagement (& motivation), relationships, meaning & purposes, accomplishment <!--SR:!2024-10-14,4,317!2024-10-14,4,317-->
-  - PERMA element properties ::: contributes to well-being, being pursued for their own sakes, independent of other elements <!--SR:!2024-10-14,4,317!2024-10-14,4,317-->
-  - positive emotion ::: hedonic treadmill, happiness returns to its baseline level <!--SR:!2024-10-14,4,317!2024-10-14,4,317-->
-  - engagement (& motivation) ::: They drive you to do the things you want. <!--SR:!2024-10-14,4,317!2024-10-14,4,317-->
-  - relationships ::: According to a Harvard study of adult development, the people who were the most satisfied in their relationships at age 50 were the healthiest at age 80. <!--SR:!2024-10-14,4,317!2024-10-14,4,317-->
-  - meaning & purpose ::: For example, you probably want to have a job or two jobs that makes both meaning and money. <!--SR:!2024-10-14,4,317!2024-10-14,4,317-->
-  - accomplishment ::: Accomplishment could be physical or emotional ones, which are obtained after successfully doing certain things. <!--SR:!2024-10-14,4,317!2024-10-14,4,317-->
-  - PERMA limitations ::: Maybe there are other things that you feel are important to your own well-being but are not included... So feel free to add your own ones. <!--SR:!2024-10-14,4,317!2024-10-14,4,317-->
-- activity 1: PERMA assessment and reflection ::: PERMA assessment, energy engagement map (& flow), incremental changes, sharing with others <!--SR:!2024-10-14,4,317!2024-10-14,4,317-->
+- positive psychology ::: happiness, well-being, etc. <!--SR:!2024-11-05,19,337!2024-11-05,19,337-->
+- PERMA ::: a portfolio approach to well-being: positive emotion, engagement (& motivation), relationships, meaning & purposes, accomplishment <!--SR:!2024-11-05,19,337!2024-11-05,19,337-->
+  - PERMA element properties ::: contributes to well-being, being pursued for their own sakes, independent of other elements <!--SR:!2024-11-05,19,337!2024-11-05,19,337-->
+  - positive emotion ::: hedonic treadmill, happiness returns to its baseline level <!--SR:!2024-11-05,19,337!2024-11-05,19,337-->
+  - engagement (& motivation) ::: They drive you to do the things you want. <!--SR:!2024-11-05,19,337!2024-11-05,19,337-->
+  - relationships ::: According to a Harvard study of adult development, the people who were the most satisfied in their relationships at age 50 were the healthiest at age 80. <!--SR:!2024-11-05,19,337!2024-11-05,19,337-->
+  - meaning & purpose ::: For example, you probably want to have a job or two jobs that makes both meaning and money. <!--SR:!2024-11-05,19,337!2024-11-05,19,337-->
+  - accomplishment ::: Accomplishment could be physical or emotional ones, which are obtained after successfully doing certain things. <!--SR:!2024-11-05,19,337!2024-11-05,19,337-->
+  - PERMA limitations ::: Maybe there are other things that you feel are important to your own well-being but are not included... So feel free to add your own ones. <!--SR:!2024-11-05,19,337!2024-11-05,19,337-->
+- activity 1: PERMA assessment and reflection ::: PERMA assessment, energy engagement map (& flow), incremental changes, sharing with others <!--SR:!2024-11-05,19,337!2024-11-05,19,337-->
 - activity 2: STRONG debriefing
-  - STRONG debriefing / debrief ::: STRONG assess your job interests, NOT your job skills! <!--SR:!2024-10-14,4,317!2024-10-14,4,317-->
+  - STRONG debriefing / debrief ::: STRONG assess your job interests, NOT your job skills! <!--SR:!2024-11-05,19,337!2024-11-05,19,337-->
 - assignments
   - [PERMA assessment and reflection](assignments/PERMA%20assessment%20and%20reflection/submission.md)

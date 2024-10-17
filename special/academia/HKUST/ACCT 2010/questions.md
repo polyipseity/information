@@ -26,7 +26,7 @@ tags:
 > 3. Let readers make informed business decisions.
 >
 > - solution: {{3}}
-> - explanation: {{The ultimate goal of both 1 and 2 is 3.}} <!--SR:!2024-11-02,25,270!2024-10-11,17,290-->
+> - explanation: {{The ultimate goal of both 1 and 2 is 3.}} <!--SR:!2024-11-02,25,270!2024-12-28,72,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -107,7 +107,7 @@ tags:
 > 2. balance sheet
 > 3. statement of cash flow
 >
-> - solution: {{2}} <!--SR:!2024-10-11,17,290-->
+> - solution: {{2}} <!--SR:!2024-12-28,72,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -169,7 +169,7 @@ tags:
 > 3. separate entity
 >
 > - solution: {{2}}
-> - explanation: {{1 is important, but not satisfying it only changes the accounting basis. 3 is also important, but not satisfying it only makes the financial statement improper. 2 is the most important one, as not satisfying it means financial statements can be deceptive, misleading others in their decision making.}} <!--SR:!2024-10-12,18,302!2024-10-11,17,302-->
+> - explanation: {{1 is important, but not satisfying it only changes the accounting basis. 3 is also important, but not satisfying it only makes the financial statement improper. 2 is the most important one, as not satisfying it means financial statements can be deceptive, misleading others in their decision making.}} <!--SR:!2025-01-02,77,322!2024-12-30,74,322-->
 
 <!-- markdownlint MD028 -->
 
@@ -180,7 +180,7 @@ tags:
 > 3. alphabetical order of asset captions
 >
 > - solution: {{2}}
-> - explanation: {{The standards require it. Note that GAAP generally requires decreasing liquidity, while IFRS requires increasing liquidity.}} <!--SR:!2024-10-11,17,302!2024-12-09,62,322-->
+> - explanation: {{The standards require it. Note that GAAP generally requires decreasing liquidity, while IFRS requires increasing liquidity.}} <!--SR:!2024-12-30,74,322!2024-12-09,62,322-->
 
 <!-- markdownlint MD028 -->
 
@@ -191,7 +191,7 @@ tags:
 > 3. maturity preference
 >
 > - solution: {{3}}
-> - explanation: {{The standards require it. Maturity is a measure of how soon the liability is due, analogous to how mature crops are then harvested.}} <!--SR:!2024-12-18,69,322!2024-10-12,18,302-->
+> - explanation: {{The standards require it. Maturity is a measure of how soon the liability is due, analogous to how mature crops are then harvested.}} <!--SR:!2024-12-18,69,322!2025-01-02,77,322-->
 
 <!-- markdownlint MD028 -->
 
@@ -201,7 +201,7 @@ tags:
 > 2. Asset + Liabilities = Stockholders' Equity
 > 3. Asset - Liabilities = Stockholders' Equity
 >
-> - solution: {{2}} <!--SR:!2024-10-12,18,302-->
+> - solution: {{2}} <!--SR:!2025-01-02,77,322-->
 
 <!-- markdownlint MD028 -->
 
@@ -212,7 +212,7 @@ tags:
 > 3. transaction analysis → add journal entries → posting to the ledger
 >
 > - solution: {{3}}
-> - explanation: {{Note that for 2, adjusting the accounts is only done at the end of a reporting period, but an accounting cycle is simply recording the transactions after a much shorter period.}} <!--SR:!2024-10-12,18,302!2024-10-29,28,282-->
+> - explanation: {{Note that for 2, adjusting the accounts is only done at the end of a reporting period, but an accounting cycle is simply recording the transactions after a much shorter period.}} <!--SR:!2024-12-13,57,302!2024-10-29,28,282-->
 
 <!-- markdownlint MD028 -->
 

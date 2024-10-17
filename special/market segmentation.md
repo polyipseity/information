@@ -14,7 +14,7 @@ Business {{may not be able to satisfy all of their customers}}. There are few pr
 
 ## how
 
-A market segment is {{a group of customers sharing the same interest, traits, and characteristics}}. Effective segmentation requires {{measurability, the ability to gather concrete information on the segment; substantiality, the profitability of the segment, affected by attractiveness or stickiness of products; accessibility, how reachable and servable the segment is; and actionability, feasibility for the company}}. <!--SR:!2024-10-17,119,250!2025-07-22,287,250-->
+A market segment is {{a group of customers sharing the same interest, traits, and characteristics}}. Effective segmentation requires {{measurability, the ability to gather concrete information on the segment; substantiality, the profitability of the segment, affected by attractiveness or stickiness of products; accessibility, how reachable and servable the segment is; and actionability, feasibility for the company}}. <!--SR:!2025-12-09,418,270!2025-07-22,287,250-->
 
 ### segmentation variables
 
@@ -26,7 +26,7 @@ Demographic segmentation divides the market by {{factual and physical data}}. <!
 
 #### geographic segmentation
 
-Geographic segmentation divides the market by {{location-related variables}}. <!--SR:!2024-10-13,132,290-->
+Geographic segmentation divides the market by {{location-related variables}}. <!--SR:!2026-04-02,532,310-->
 
 #### psychographic segmentation
 
@@ -46,6 +46,6 @@ By segmenting the market, business {{can clarify the requirements of their custo
 
 ## strategy
 
-It is necessary for the company to decide {{which segments to serve}}. It can be {{undifferentiated, ignoring segments; concentrated or focused, one segment; differentiated, two or more segments; or hypersegmented, thousands of or more segments}}. <!--SR:!2024-10-17,132,290!2025-01-18,167,250-->
+It is necessary for the company to decide {{which segments to serve}}. It can be {{undifferentiated, ignoring segments; concentrated or focused, one segment; differentiated, two or more segments; or hypersegmented, thousands of or more segments}}. <!--SR:!2026-04-02,532,310!2025-01-18,167,250-->
 
 Undifferentiated marketing is {{rare because customers are demanding nowadays}}. Differentiated marketing is {{used by most companies, but it incurs a greater cost than undifferentiated marketing}}. Some companies use focused marketing, which {{usually has high rate of return but also higher risk}}. For startups, {{focused marketing is more suitable as the cost is lower than differentiated marketing}}. Hypersegmented marketing is {{rather new and used by companies with data of individual customers. However, there are privacy concerns with this use of individual data}}. <!--SR:!2025-04-27,280,290!2025-08-31,346,290!2025-02-07,239,330!2024-11-22,172,310!2025-06-06,277,270-->

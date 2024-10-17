@@ -163,7 +163,7 @@ return _chain.from_iterable(await _gather(
 - [heat-resistant mat/heatproof mat](heatproof%20mat.md)→:::←[measuring cylinder/graduated cylinder/mixing cylinder](graduated%20cylinder.md) <!--SR:!2027-07-04,1046,290!2025-05-25,272,250-->
 - [measuring cylinder/graduated cylinder/mixing cylinder](graduated%20cylinder.md)→:::←[mortar and pestle](mortar%20and%20pestle.md) <!--SR:!2024-11-04,25,150!2026-07-27,697,250-->
 - [mortar and pestle](mortar%20and%20pestle.md)→:::←[pipeclay triangle](pipeclay%20triangle.md) <!--SR:!2025-06-25,356,230!2026-08-20,785,270-->
-- [pipeclay triangle](pipeclay%20triangle.md)→:::←[reagent bottle](reagent%20bottle.md) <!--SR:!2026-02-19,671,270!2024-10-17,38,130-->
+- [pipeclay triangle](pipeclay%20triangle.md)→:::←[reagent bottle](reagent%20bottle.md) <!--SR:!2026-02-19,671,270!2024-12-08,52,130-->
 - [reagent bottle](reagent%20bottle.md)→:::←[round-bottom(ed) flask](round-bottom%20flask.md) <!--SR:!2025-01-09,329,250!2025-02-15,130,230-->
 - [round-bottom(ed) flask](round-bottom%20flask.md)→:::←[rubber bulb](rubber%20bulb.md) <!--SR:!2025-03-23,190,170!2024-12-08,162,190-->
 - [rubber bulb](rubber%20bulb.md)→:::←[rubber stopper/rubber bung/rubber cork](rubber%20stopper.md) <!--SR:!2025-08-30,558,270!2027-07-08,1049,290-->

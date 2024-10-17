@@ -16,7 +16,7 @@ tags:
 - see: [Cantor set](../general/Cantor%20set.md)
 
 - integrability
-  - [Riemann integrability](../general/Riemann%20integral.md) ::: The function is Riemann integrable on $[0, 1]$. Pathologically, its set of points of discontinuity is the Cantor set, which is uncountably infinite but has [Lebesgue measure](../general/Lebesgue%20measure.md) zero. <!--SR:!2024-12-15,95,266!2024-10-16,125,306-->
+  - [Riemann integrability](../general/Riemann%20integral.md) ::: The function is Riemann integrable on $[0, 1]$. Pathologically, its set of points of discontinuity is the Cantor set, which is uncountably infinite but has [Lebesgue measure](../general/Lebesgue%20measure.md) zero. <!--SR:!2024-12-15,95,266!2025-11-15,394,306-->
 
 ### Dirichlet function
 
@@ -38,7 +38,7 @@ Volterra's function is constructed {{using increasingly smaller modified copies 
 
 - derivative
   - derivative integrability
-    - derivative [Riemann integrability](../general/Riemann%20integral.md) ::: The derivative is not Riemann integrable on $[0, 1]$. Pathologically, the derivative exists everywhere and is [bounded](bounded%20function.md). <!--SR:!2024-10-12,118,306!2024-12-03,169,326-->
+    - derivative [Riemann integrability](../general/Riemann%20integral.md) ::: The derivative is not Riemann integrable on $[0, 1]$. Pathologically, the derivative exists everywhere and is [bounded](bounded%20function.md). <!--SR:!2024-12-19,63,286!2024-12-03,169,326-->
 
 ### empty function
 
@@ -62,6 +62,6 @@ Volterra's function is constructed {{using increasingly smaller modified copies 
 
 The function is {{$$f(x) = \begin{cases} x^2 \sin \frac 1 {x^2}, & x \ne 0 \\ 0, & x = 0 \end{cases}$$}}. <!--SR:!2024-12-22,172,326-->
 
-- derivative ::: $$f'(x) = \begin{cases} 2x \sin \frac 1 {x^2} - \frac {2 \cos \frac 1 {x^2} } x, & x \ne 0 \\ 0, & x = 0 \end{cases}$$ <!--SR:!2024-10-14,121,306!2025-01-09,198,326-->
+- derivative ::: $$f'(x) = \begin{cases} 2x \sin \frac 1 {x^2} - \frac {2 \cos \frac 1 {x^2} } x, & x \ne 0 \\ 0, & x = 0 \end{cases}$$ <!--SR:!2025-10-31,379,306!2025-01-09,198,326-->
   - derivative integrability
     - derivative [Riemann integrability](../general/Riemann%20integral.md) ::: The derivative is not Riemann integrable on any interval containing 0, as it is [unbounded](../general/bounded%20function.md). The derivative is an example of an non-integrable function that has an [antiderivative](../general/antiderivative.md) everywhere. <!--SR:!2024-11-04,136,306!2025-03-28,260,346-->

@@ -171,7 +171,7 @@ The steps for naming an organic compound are:
 - identify remaining functional groups→:::←identify multiple bonds <!--SR:!2025-02-08,275,190!2026-06-27,690,207-->
 - identify multiple bonds→:::←[identify numbering direction](#identify%20numbering%20direction) <!--SR:!2025-11-26,549,230!2024-10-29,60,190-->
 - [identify numbering direction](#identify%20numbering%20direction)→:::←number and [prefix](#prefix%20for%20type%20count) substituents and bonds <!--SR:!2026-01-17,579,190!2026-03-01,749,265-->
-- number and [prefix](#prefix%20for%20type%20count) substituents and bonds→:::←[arrange](#arrange): prefix(es) + [prefix for carbon count](#prefix%20for%20carbon%20count) + bond(s) + suffix <!--SR:!2024-10-12,72,207!2024-12-25,360,230-->
+- number and [prefix](#prefix%20for%20type%20count) substituents and bonds→:::←[arrange](#arrange): prefix(es) + [prefix for carbon count](#prefix%20for%20carbon%20count) + bond(s) + suffix <!--SR:!2025-03-21,156,207!2024-12-25,360,230-->
 - [arrange](#arrange): prefix(es) + [prefix for carbon count](#prefix%20for%20carbon%20count) + bond(s) + suffix→:::←(optional) omit unnecessary locants <!--SR:!2024-12-01,451,230!2025-04-05,214,207-->
 - (optional) omit unnecessary locants→:::←[modify words for pronunciation](#modify%20words%20for%20pronunciation) <!--SR:!2026-09-17,770,230!2024-12-28,231,225-->
 - [modify words for pronunciation](#modify%20words%20for%20pronunciation)→:::←[modify punctuations](#modify%20punctuations) <!--SR:!2029-09-16,1877,312!2025-12-06,562,267-->
@@ -459,7 +459,7 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - formula: {{RCHO}}
 > - prefix: {{oxo- (=O), formyl- (-CHO)}}
 > - suffix: {{-al (=O), -carbaldehyde (-CHO)}}
-> - infix: {{(locant)}} <!--SR:!2029-03-22,1856,382!2028-01-06,1463,362!2025-01-20,605,322!2024-10-11,24,130!2025-09-10,677,285!2028-10-10,1730,387-->
+> - infix: {{(locant)}} <!--SR:!2029-03-22,1856,382!2028-01-06,1463,362!2025-01-20,605,322!2024-12-04,49,150!2025-09-10,677,285!2028-10-10,1730,387-->
 
 <!-- markdownlint MD028 -->
 
@@ -499,7 +499,7 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - formula: {{RCO}}
 > - prefix: {{(none)}}
 > - suffix: {{-yl (retained), -oyl}}
-> - infix: {{(locant)}} <!--SR:!2027-07-29,1137,281!2026-01-25,576,302!2030-07-17,2244,382!2024-10-16,314,222!2026-01-06,571,227!2028-07-25,1555,367-->
+> - infix: {{(locant)}} <!--SR:!2027-07-29,1137,281!2026-01-25,576,302!2030-07-17,2244,382!2027-07-06,993,242!2026-01-06,571,227!2028-07-25,1555,367-->
 
 <!-- markdownlint MD028 -->
 
@@ -633,7 +633,7 @@ return (
 - carboxylic acid derivative→:::←nitrile <!--SR:!2024-12-29,427,210!2025-06-24,292,247-->
 - nitrile→:::←aldehyde <!--SR:!2024-11-05,26,150!2024-12-11,80,190-->
 - aldehyde→:::←ketone <!--SR:!2026-12-29,1065,252!2024-12-06,598,250-->
-- ketone→:::←alcohol <!--SR:!2026-06-11,743,250!2024-10-11,25,150-->
+- ketone→:::←alcohol <!--SR:!2026-06-11,743,250!2024-11-20,35,150-->
 - alcohol→:::←hydroperoxide <!--SR:!2027-05-18,1057,226!2026-10-20,1068,272-->
 - hydroperoxide→:::←amine <!--SR:!2025-04-21,219,224!2025-02-02,257,252-->
 - amine→:::←_(lowest)_ <!--SR:!2025-04-28,532,236!2025-10-24,421,247-->

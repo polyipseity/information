@@ -27,9 +27,9 @@ tags:
 >   - $k$ is {{angular wavenumber or angular spatial frequency}}.
 >   - $\omega$ is {{angular frequency, which equals 2 pi times normal (linear) frequency $\omega = 2\pi f$}}.
 >   - $\phi$ is {{initial phase offset}}.
->   - $D$ is {{equilibrium offset}}. <!--SR:!2025-01-30,129,290!2025-05-13,222,330!2025-07-01,264,330!2024-10-15,64,310!2025-05-24,228,330!2025-05-30,234,330!2024-10-16,65,310-->
+>   - $D$ is {{equilibrium offset}}. <!--SR:!2025-01-30,129,290!2025-05-13,222,330!2025-07-01,264,330!2025-07-31,287,330!2025-05-24,228,330!2025-05-30,234,330!2025-07-31,287,330-->
 
-In signal processing, apart from analog signals (continuous signals), we also deal with {{digital signals (discrete signals)}}. In that case, usually {{the time is discretized}}. So the equation becomes: <!--SR:!2025-06-16,251,330!2024-10-15,64,310-->
+In signal processing, apart from analog signals (continuous signals), we also deal with {{digital signals (discrete signals)}}. In that case, usually {{the time is discretized}}. So the equation becomes: <!--SR:!2025-06-16,251,330!2025-07-31,287,330-->
 
 > __discrete (co)sine wave__
 >
@@ -60,7 +60,7 @@ wave = A * np.cos(w * T * np.arange(start, end, T) + phi) + D
 
 Note that the [complex number](../../general/complex%20number.md) described here is {{colloquial, and not necessarily mathematically rigorous}}. <!--SR:!2025-06-04,237,330-->
 
-The numbers (with decimals) we are familiar are {{the _real numbers_}}. Now, we extend it by {{defining the _imaginary unit_ $j = \sqrt{-1}$ ($j$ is more commonly used than $i$ in electrical engineering)}}. Then the _complex numbers_ are {{all numbers in the form of $a + bj$, where $a$ and $b$ are real numbers}}. Visually, we can think of each complex number as {{a point on a 2D plane, with the x-coordinate being the _real part_ ($x = \operatorname{Re}(a + bj) = a$) and the y-coordinate being the _imaginary part_ ($y = \operatorname{Im}(a + bj) = b$)}}. <!--SR:!2024-10-18,67,310!2024-10-16,65,310!2025-06-02,237,330!2025-05-27,231,330-->
+The numbers (with decimals) we are familiar are {{the _real numbers_}}. Now, we extend it by {{defining the _imaginary unit_ $j = \sqrt{-1}$ ($j$ is more commonly used than $i$ in electrical engineering)}}. Then the _complex numbers_ are {{all numbers in the form of $a + bj$, where $a$ and $b$ are real numbers}}. Visually, we can think of each complex number as {{a point on a 2D plane, with the x-coordinate being the _real part_ ($x = \operatorname{Re}(a + bj) = a$) and the y-coordinate being the _imaginary part_ ($y = \operatorname{Im}(a + bj) = b$)}}. <!--SR:!2024-10-18,67,310!2025-07-31,287,330!2025-06-02,237,330!2025-05-27,231,330-->
 
 With the point on a 2D plane visualization in mind, we call the $a + bj$ form {{the _rectangular form_, because the coordinates specify a rectangle from the origin to the 2D point}}. An alternative form is {{the _polar form_ $(A, \phi)$, where $A$ is the distance from the origin to the 2D point and $\phi$ is the angle formed with the right direction, increasing counterclockwise}}. <!--SR:!2025-06-20,253,330!2024-10-21,68,310-->
 
@@ -70,9 +70,9 @@ We can {{convert}} in between rectangular form and polar form. From rectangular 
 
 - see: [general/Euler's formula](../../general/Euler's%20formula.md)
 
-[Euler's formula](../../general/Euler's%20formula.md) is: {{$$e^{j\varphi} = \cos \varphi + j \sin \varphi$$, where $\varphi$ is a [complex number](#complex%20number)}}. The above implies alternative formulas for {{$\sin$ and $\cos$}}: {{$$\begin{aligned} \cos \varphi & = \frac {e^{j\varphi} + e^{-j\varphi} } 2 \\ \sin \varphi & = \frac {e^{j\varphi} - e^{-j\varphi} } {2j} \end{aligned}$$}}. <!--SR:!2024-10-18,67,310!2024-10-11,60,310!2025-04-10,196,310-->
+[Euler's formula](../../general/Euler's%20formula.md) is: {{$$e^{j\varphi} = \cos \varphi + j \sin \varphi$$, where $\varphi$ is a [complex number](#complex%20number)}}. The above implies alternative formulas for {{$\sin$ and $\cos$}}: {{$$\begin{aligned} \cos \varphi & = \frac {e^{j\varphi} + e^{-j\varphi} } 2 \\ \sin \varphi & = \frac {e^{j\varphi} - e^{-j\varphi} } {2j} \end{aligned}$$}}. <!--SR:!2024-10-18,67,310!2025-04-29,194,310!2025-04-10,196,310-->
 
-Using Euler's formula, we can express waves {{using exponentiation instead}}. For example, the discrete sine wave {{$$f(x) [n] = A \cos(kx \pm \omega T n + \phi) + D$$}} can also be expressed as {{$$f(x) [n] = \operatorname{Re}\left(A e^{j(kx \pm \omega Tn + \phi)}\right) + D = \operatorname{Re}\left(A e^{j \phi} e^{j(kx \pm \omega Tn)}\right) + D = \operatorname{Re}\left(X e^{j(kx \pm \omega Tn)} \right) + D \qquad X := A e^{j \phi}$$}}. The latter expression has the advantage that {{exponentiation is much easier to manipulate than trigonometric functions}}. <!--SR:!2024-11-26,87,341!2024-10-12,50,321!2024-10-23,54,321!2024-11-22,83,341-->
+Using Euler's formula, we can express waves {{using exponentiation instead}}. For example, the discrete sine wave {{$$f(x) [n] = A \cos(kx \pm \omega T n + \phi) + D$$}} can also be expressed as {{$$f(x) [n] = \operatorname{Re}\left(A e^{j(kx \pm \omega Tn + \phi)}\right) + D = \operatorname{Re}\left(A e^{j \phi} e^{j(kx \pm \omega Tn)}\right) + D = \operatorname{Re}\left(X e^{j(kx \pm \omega Tn)} \right) + D \qquad X := A e^{j \phi}$$}}. The latter expression has the advantage that {{exponentiation is much easier to manipulate than trigonometric functions}}. <!--SR:!2024-11-26,87,341!2025-05-28,223,341!2024-10-23,54,321!2024-11-22,83,341-->
 
 ## dot product
 

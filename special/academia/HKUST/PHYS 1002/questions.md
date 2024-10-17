@@ -52,7 +52,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 5. 3 hundred trillion years
 >
 > - solution: {{5}}
-> - explanation: {{Given there are about 10<sup>22</sup> stars, divide it by the number of seconds in a year: $$\frac {10^{22} } {86400 \times 365} \approx 3.17 \times 10^{14}\text{ years}$$ to get about 300 trillion (300 × 10<sup>12</sup>) years.}} <!--SR:!2025-04-08,209,310!2024-10-14,69,270-->
+> - explanation: {{Given there are about 10<sup>22</sup> stars, divide it by the number of seconds in a year: $$\frac {10^{22} } {86400 \times 365} \approx 3.17 \times 10^{14}\text{ years}$$ to get about 300 trillion (300 × 10<sup>12</sup>) years.}} <!--SR:!2025-04-08,209,310!2025-07-12,268,290-->
 
 ## 2024-06-27
 
@@ -103,19 +103,19 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 6. 44/43 solar days
 >
 > - solution: {{3}}
-> - explanation: {{The planet is in retrograde motion. Hence, the number of sidereal days per orbital period is $42 - 1 = 41\text{ sidereal days}$. Thus each sidereal day is $\frac {1 / 41} {1 / 42} = \frac {42} {41}\text{ solar days}$.}} <!--SR:!2024-10-12,68,277!2024-10-25,74,277-->
+> - explanation: {{The planet is in retrograde motion. Hence, the number of sidereal days per orbital period is $42 - 1 = 41\text{ sidereal days}$. Thus each sidereal day is $\frac {1 / 41} {1 / 42} = \frac {42} {41}\text{ solar days}$.}} <!--SR:!2025-07-20,276,297!2024-10-25,74,277-->
 
 ## 2024-07-02
 
 > Q1. (lecture) What would seasons be like for a planet with 90 degree axial tilt?
 >
-> - solution: {{There would be no seasons. Instead, every location is daytime for half the orbital period and nighttime for the other half, like the north and south pole on Earth. Likely unliveable.}} <!--SR:!2024-10-12,76,328-->
+> - solution: {{There would be no seasons. Instead, every location is daytime for half the orbital period and nighttime for the other half, like the north and south pole on Earth. Likely unliveable.}} <!--SR:!2025-09-25,343,348-->
 
 <!-- markdownlint MD028 -->
 
 > Q2. (lecture) When will the Sun rise exactly due east and set exactly due west?
 >
-> - solution: {{During the equinoxes.}} <!--SR:!2024-10-13,77,328-->
+> - solution: {{During the equinoxes.}} <!--SR:!2025-09-27,345,348-->
 
 <!-- markdownlint MD028 -->
 
@@ -127,7 +127,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 4. winter solstice
 > 5. 1 and 3
 >
-> - solution: {{5}} <!--SR:!2024-10-12,76,330-->
+> - solution: {{5}} <!--SR:!2025-09-27,345,350-->
 
 <!-- markdownlint MD028 -->
 
@@ -154,7 +154,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 5. 1 and 2
 > 6. 3 and 4
 >
-> - solution: {{5}} <!--SR:!2024-10-13,77,330-->
+> - solution: {{5}} <!--SR:!2025-09-27,345,350-->
 
 <!-- markdownlint MD028 -->
 
@@ -181,7 +181,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 5. 3 hours
 >
 > - solution: {{3}}
-> - explanation: {{Recall that the moonrise time corresponds to the lunar phase cycle. As the cycle resets every 29.5 days, the moonrise time also resets 29.5 days. A moonrise time "reset" happens when the moon rises later by a cumulative time of 1 day. Thus the answer is: $$\frac {24} {29.5} \approx 0.813\,559\,322 \approx 1\text{ hour}$$.}} <!--SR:!2025-01-11,131,312!2024-10-11,75,332-->
+> - explanation: {{Recall that the moonrise time corresponds to the lunar phase cycle. As the cycle resets every 29.5 days, the moonrise time also resets 29.5 days. A moonrise time "reset" happens when the moon rises later by a cumulative time of 1 day. Thus the answer is: $$\frac {24} {29.5} \approx 0.813\,559\,322 \approx 1\text{ hour}$$.}} <!--SR:!2025-01-11,131,312!2025-06-28,254,332-->
 
 <!-- markdownlint MD028 -->
 
@@ -401,7 +401,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 8. 1.5 m
 >
 > - solution: {{1}}
-> - explanation: {{To have a maximum error of 0.5 km, the measurement interval is twice that: 1 km (primary school things). Calculate the angular size of 1 km from 1 AU away, using the small angle approximation: $$\theta \approx \frac {1000} {149\,597\,870\,700} \approx 6.68458712 \times 10^{-9}$$. This is the angular resolution required. Calculate the minimum aperture required using the Rayleigh criterion: $$\theta \approx 1.22 \frac \lambda D \implies D \approx 1.22 \frac \lambda \theta = 1.22 \frac {500 \times 10^{-9} } {6.68458712 \times 10^{-9} } \approx 91.254701~\mathrm{m}$$. So the answer is 90 m. That is a giant telescope indeed.}} <!--SR:!2024-10-17,61,331!2024-10-20,64,331-->
+> - explanation: {{To have a maximum error of 0.5 km, the measurement interval is twice that: 1 km (primary school things). Calculate the angular size of 1 km from 1 AU away, using the small angle approximation: $$\theta \approx \frac {1000} {149\,597\,870\,700} \approx 6.68458712 \times 10^{-9}$$. This is the angular resolution required. Calculate the minimum aperture required using the Rayleigh criterion: $$\theta \approx 1.22 \frac \lambda D \implies D \approx 1.22 \frac \lambda \theta = 1.22 \frac {500 \times 10^{-9} } {6.68458712 \times 10^{-9} } \approx 91.254701~\mathrm{m}$$. So the answer is 90 m. That is a giant telescope indeed.}} <!--SR:!2025-07-31,287,351!2024-10-20,64,331-->
 
 <!-- markdownlint MD028 -->
 
@@ -465,7 +465,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 5. 10^(-10) m
 >
 > - solution: {{2}}
-> - explanation: {{Apply the equation for Schwarzschild radius: $$r_s = \frac {2 \cdot 6.67 \times 10^{-11} \cdot 70} {299\,792\,458^2} \approx 1.03899262 \times 10^{-25}~\mathrm{m}$$. So the answer is 10<sup>-25</sup> m.}} <!--SR:!2024-10-11,49,325!2025-01-24,122,325-->
+> - explanation: {{Apply the equation for Schwarzschild radius: $$r_s = \frac {2 \cdot 6.67 \times 10^{-11} \cdot 70} {299\,792\,458^2} \approx 1.03899262 \times 10^{-25}~\mathrm{m}$$. So the answer is 10<sup>-25</sup> m.}} <!--SR:!2025-05-28,223,345!2025-01-24,122,325-->
 
 <!-- markdownlint MD028 -->
 
@@ -601,7 +601,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 5. 100
 >
 > - solution: {{4}}
-> - explanation: {{Calculate the apparent magnitude of star B: $$m_B = 3 + 5 \log_{100} 15 \approx 5.940\,228\,15$$. Then apply the m & M equation: $$d = 10^{(m_B - M_B + 5) / 5} = 10^{(5.940\,228\,15 - 1 + 5) / 5} = 10^{1.988\,045\,62} \approx 97.28494~\mathrm{pc}$$. So the answer is 97.}} <!--SR:!2024-11-07,75,367!2024-10-11,52,347-->
+> - explanation: {{Calculate the apparent magnitude of star B: $$m_B = 3 + 5 \log_{100} 15 \approx 5.940\,228\,15$$. Then apply the m & M equation: $$d = 10^{(m_B - M_B + 5) / 5} = 10^{(5.940\,228\,15 - 1 + 5) / 5} = 10^{1.988\,045\,62} \approx 97.28494~\mathrm{pc}$$. So the answer is 97.}} <!--SR:!2024-11-07,75,367!2025-06-28,254,367-->
 
 <!-- markdownlint MD028 -->
 
@@ -683,4 +683,4 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 7. G
 >
 > - solution: {{4 → 2 → 1 → 6 → 7 → 3 → 5}}
-> - mnemonics: {{<u>O</u>h, <u>B</u>e <u>A</u> <u>F</u>ine <u>G</u>uy/<u>G</u>irl, <u>K</u>iss <u>M</u>e! <br/> <u>O</u>ur <u>B</u>right <u>A</u>stronomers <u>F</u>requently <u>G</u>enerate <u>K</u>iller <u>M</u>nemonics! <br/> <u>O</u>h, <u>B</u>e <u>A</u> <u>F</u>ool <u>G</u>uy, <u>K</u>ill <u>M</u>e! <br/> <u>O</u>h <u>B</u>oy, <u>A</u> <u>F</u> <u>G</u>rade <u>K</u>ills <u>M</u>e!}} <!--SR:!2024-10-12,53,347!2024-11-03,66,347-->
+> - mnemonics: {{<u>O</u>h, <u>B</u>e <u>A</u> <u>F</u>ine <u>G</u>uy/<u>G</u>irl, <u>K</u>iss <u>M</u>e! <br/> <u>O</u>ur <u>B</u>right <u>A</u>stronomers <u>F</u>requently <u>G</u>enerate <u>K</u>iller <u>M</u>nemonics! <br/> <u>O</u>h, <u>B</u>e <u>A</u> <u>F</u>ool <u>G</u>uy, <u>K</u>ill <u>M</u>e! <br/> <u>O</u>h <u>B</u>oy, <u>A</u> <u>F</u> <u>G</u>rade <u>K</u>ills <u>M</u>e!}} <!--SR:!2025-06-28,254,367!2024-11-03,66,347-->

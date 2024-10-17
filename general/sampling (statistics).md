@@ -12,7 +12,7 @@ tags:
 
 In [statistics](statistics.md), [quality assurance](quality%20assurance.md), and [survey methodology](survey%20methodology.md), __sampling__ is {{the selection of a subset or a __statistical sample__ (termed __sample__ for short) of individuals from within a [statistical population](statistical%20population.md) to estimate characteristics of the whole population}}. The subset is {{meant to reflect the whole population and statisticians attempt to collect samples that are representative of the population}}. Sampling has {{lower costs and faster data collection compared to recording data from the entire population}}, and thus, it can {{provide insights in cases where it is infeasible to measure an entire population}}. <!--SR:!2024-11-10,54,310!2024-11-19,61,310!2024-12-01,62,270!2024-11-14,57,310-->
 
-Each [observation](observation.md) measures {{one or more properties (such as weight, location, colour or mass) of independent objects or individuals}}. In [survey sampling](survey%20sampling.md), {{weights can be applied to the data to adjust for the sample design, particularly in [stratified sampling](stratified%20sampling.md)}}. Results from {{[probability theory](probability%20theory.md) and [statistical theory](statistical%20theory.md) are employed to guide the practice}}. In business and medical research, sampling is widely used {{for gathering information about a population}}. [Acceptance sampling](acceptance%20sampling.md) is {{used to determine if a production lot of material meets the governing [specifications](specification%20(technical%20standard).md)}}. <!--SR:!2024-10-16,32,270!2024-12-04,73,310!2024-12-03,72,310!2024-11-17,60,310!2024-11-28,67,310-->
+Each [observation](observation.md) measures {{one or more properties (such as weight, location, colour or mass) of independent objects or individuals}}. In [survey sampling](survey%20sampling.md), {{weights can be applied to the data to adjust for the sample design, particularly in [stratified sampling](stratified%20sampling.md)}}. Results from {{[probability theory](probability%20theory.md) and [statistical theory](statistical%20theory.md) are employed to guide the practice}}. In business and medical research, sampling is widely used {{for gathering information about a population}}. [Acceptance sampling](acceptance%20sampling.md) is {{used to determine if a production lot of material meets the governing [specifications](specification%20(technical%20standard).md)}}. <!--SR:!2025-02-14,121,290!2024-12-04,73,310!2024-12-03,72,310!2024-11-17,60,310!2024-11-28,67,310-->
 
 ## sampling frame
 
@@ -35,7 +35,7 @@ In the above example, {{not everybody has the same probability of selection; wha
 Probability sampling includes: {{[simple random sampling](simple%20random%20sample.md), [systematic sampling](systematic%20sampling.md), [stratified sampling](stratified%20sampling.md), probability-proportional-to-size sampling, and [cluster](cluster%20sampling.md) or [multistage sampling](multistage%20sampling.md)}}. These various ways of probability sampling have two things in common: <!--SR:!2024-12-05,66,270-->
 
 1. (probability sampling) every element ::: Every element has a known nonzero probability of being sampled and <!--SR:!2024-11-22,61,310!2024-11-10,54,310-->
-2. (probability sampling) at some point ::: involves random selection at some point. <!--SR:!2024-11-26,65,310!2024-10-17,31,270-->
+2. (probability sampling) at some point ::: involves random selection at some point. <!--SR:!2024-11-26,65,310!2025-02-16,122,290-->
 
 ### nonprobability sampling
 

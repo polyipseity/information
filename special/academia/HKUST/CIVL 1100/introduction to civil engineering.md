@@ -91,7 +91,7 @@ The content is in teaching order.
   - materials engineering materials ::: development of improved or new materials <!--SR:!2025-01-21,201,317!2025-06-04,348,350-->
     - [materials engineering material examples](#materials%20engineering%20material%20examples)
   - materials engineering repair ::: design of materials and methods to repair <!--SR:!2025-05-24,339,350!2025-11-16,461,395-->
-    - materials engineering repair examples ::: fiber reinforced polymer retrofit system, retrofit using damper, slab retrofit using steel plate and carbon fiber reinforced polymer <!--SR:!2025-06-27,293,320!2024-10-17,135,332-->
+    - materials engineering repair examples ::: fiber reinforced polymer retrofit system, retrofit using damper, slab retrofit using steel plate and carbon fiber reinforced polymer <!--SR:!2025-06-27,293,320!2026-01-19,459,332-->
 - construction engineering ::: planning and execution of the designs from other fields of engineers <!--SR:!2025-09-30,397,337!2025-10-04,429,394-->
   - [construction engineer skills](#construction%20engineer%20skills)
   - [construction engineer jobs](#construction%20engineer%20jobs)
@@ -145,7 +145,7 @@ quantity surveyor
 - _(begin)_→:::←building services engineer <!--SR:!2025-09-29,378,335!2026-01-31,525,397-->
 - building services engineer→:::←consulting civil engineer <!--SR:!2024-12-13,168,337!2025-07-07,312,337-->
 - consulting civil engineer→:::←consulting environmental engineer <!--SR:!2024-12-25,183,347!2025-02-05,221,360-->
-- consulting environmental engineer→:::←consulting geo-technical engineer <!--SR:!2024-10-16,105,265!2025-08-10,342,306-->
+- consulting environmental engineer→:::←consulting geo-technical engineer <!--SR:!2025-11-15,394,285!2025-08-10,342,306-->
 - consulting geo-technical engineer→:::←consulting structural engineer <!--SR:!2025-01-06,179,315!2025-04-26,255,317-->
 - consulting structural engineer→:::←contracting civil engineer <!--SR:!2025-09-07,361,335!2025-05-27,276,315-->
 - contracting civil engineer→:::←engineering geologist <!--SR:!2025-07-29,302,297!2024-11-19,56,275-->
@@ -194,7 +194,7 @@ water and sewage treatment system
 - _(begin)_→:::←bridge <!--SR:!2025-09-15,412,397!2025-11-25,470,394-->
 - bridge→:::←building <!--SR:!2025-05-05,282,372!2025-04-22,268,360-->
 - building→:::←dam <!--SR:!2024-12-12,167,340!2026-03-05,544,400-->
-- dam→:::←pipeline <!--SR:!2024-10-11,66,204!2026-03-12,518,341-->
+- dam→:::←pipeline <!--SR:!2025-04-29,194,224!2026-03-12,518,341-->
 - pipeline→:::←power plant <!--SR:!2025-01-13,152,260!2024-10-22,107,281-->
 - power plant→:::←reservoir <!--SR:!2025-01-10,164,275!2024-10-24,49,300-->
 - reservoir→:::←sewage treatment <!--SR:!2025-01-24,122,197!2025-03-13,189,261-->
@@ -279,10 +279,10 @@ workmanship
 
 - _(begin)_→:::←budgeting <!--SR:!2025-01-11,187,341!2026-03-04,543,400-->
 - budgeting→:::←construction management <!--SR:!2025-01-31,151,320!2025-11-24,451,355-->
-- construction management→:::←economics <!--SR:!2024-10-17,98,235!2025-04-19,240,300-->
-- economics→:::←impacts to surrounding <!--SR:!2025-03-15,215,300!2024-10-17,54,240-->
+- construction management→:::←economics <!--SR:!2025-09-15,333,255!2025-04-19,240,300-->
+- economics→:::←impacts to surrounding <!--SR:!2025-03-15,215,300!2025-04-26,191,260-->
 - impacts to surrounding→:::←lifecycle <!--SR:!2025-04-01,238,320!2025-05-10,261,320-->
-- lifecycle→:::←maintenance <!--SR:!2024-10-13,106,297!2024-12-03,56,272-->
+- lifecycle→:::←maintenance <!--SR:!2025-12-17,426,317!2024-12-03,56,272-->
 - maintenance→:::←politics <!--SR:!2024-11-14,68,241!2025-04-18,249,312-->
 - politics→:::←social <!--SR:!2025-03-24,246,360!2025-05-03,262,337-->
 - social→:::←workmanship <!--SR:!2025-04-30,244,300!2025-01-23,141,210-->
@@ -401,10 +401,10 @@ Water Cube
 
 - _(begin)_→:::←Beijing National Stadium <!--SR:!2025-08-26,362,380!2025-03-11,257,367-->
 - Beijing National Stadium→:::←Burj Al Arab <!--SR:!2025-05-14,263,304!2024-11-12,158,350-->
-- Burj Al Arab→:::←Burj Khalifa <!--SR:!2024-10-15,141,270!2024-12-22,190,352-->
+- Burj Al Arab→:::←Burj Khalifa <!--SR:!2026-03-31,530,290!2024-12-22,190,352-->
 - Burj Khalifa→:::←CCTV Headquarters <!--SR:!2025-06-15,286,320!2025-04-25,256,270-->
 - CCTV Headquarters→:::←Eiffel Tower <!--SR:!2025-11-11,407,305!2024-12-11,149,292-->
-- Eiffel Tower→:::←Hong Kong Convention and Exhibition Centre <!--SR:!2024-10-13,114,294!2025-03-04,182,305-->
+- Eiffel Tower→:::←Hong Kong Convention and Exhibition Centre <!--SR:!2025-09-15,333,294!2025-03-04,182,305-->
 - Hong Kong Convention and Exhibition Centre→:::←Water Cube <!--SR:!2025-05-22,266,337!2025-05-09,258,320-->
 - Water Cube→:::←_(end)_ <!--SR:!2025-10-12,432,401!2025-01-02,201,357-->
 
@@ -456,13 +456,13 @@ testing materials
 - budgeting→:::←contracting <!--SR:!2025-09-10,377,334!2024-11-08,146,327-->
 - contracting→:::←designing temporary structures <!--SR:!2025-01-10,173,215!2025-04-22,236,295-->
 - designing temporary structures→:::←logistics <!--SR:!2025-11-28,421,340!2024-12-10,71,277-->
-- logistics→:::←planning <!--SR:!2024-10-13,62,274!2025-11-05,401,335-->
+- logistics→:::←planning <!--SR:!2025-06-11,237,294!2025-11-05,401,335-->
 - planning→:::←procuring materials <!--SR:!2025-01-24,186,317!2025-02-03,175,277-->
 - procuring materials→:::←quality assurance <!--SR:!2025-01-23,173,300!2025-03-23,213,281-->
 - quality assurance→:::←quality control <!--SR:!2024-10-31,150,357!2025-01-13,182,352-->
 - quality control→:::←safety engineering <!--SR:!2025-02-12,195,301!2024-11-24,71,235-->
 - safety engineering→:::←scheduling <!--SR:!2025-05-17,261,320!2025-11-12,407,340-->
-- scheduling→:::←surveying building site <!--SR:!2025-01-14,149,241!2024-10-16,116,300-->
+- scheduling→:::←surveying building site <!--SR:!2025-01-14,149,241!2026-02-05,476,320-->
 - surveying building site→:::←testing materials <!--SR:!2024-12-20,85,240!2024-10-25,74,272-->
 - testing materials→:::←_(end)_ <!--SR:!2025-02-21,236,347!2025-04-14,245,307-->
 
@@ -674,7 +674,7 @@ socioeconomic
 - _(begin)_→:::←biological <!--SR:!2025-04-13,248,327!2025-09-04,404,394-->
 - biological→:::←chemical <!--SR:!2025-12-06,424,337!2025-03-18,247,357-->
 - chemical→:::←cultural <!--SR:!2024-11-18,119,280!2024-11-27,173,357-->
-- cultural→:::←physical <!--SR:!2024-10-14,138,345!2025-01-14,132,300-->
+- cultural→:::←physical <!--SR:!2026-07-28,649,365!2025-01-14,132,300-->
 - physical→:::←socioeconomic <!--SR:!2024-12-01,94,277!2025-04-02,244,361-->
 - socioeconomic→:::←_(end)_ <!--SR:!2024-12-29,187,354!2025-05-29,247,277-->
 
@@ -878,7 +878,7 @@ developing strengthening techniques for damaged structures or structural members
 <!--pytextgen generate section="198b"--><!-- The following content is generated at 2024-05-01T19:22:35.365059+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←choosing suitable materials to resurface a road like asphalt pavement <!--SR:!2025-06-24,304,335!2025-05-03,280,370-->
-- choosing suitable materials to resurface a road like asphalt pavement→:::←designing a concrete mix for a large building <!--SR:!2025-01-17,192,340!2024-10-11,133,327-->
+- choosing suitable materials to resurface a road like asphalt pavement→:::←designing a concrete mix for a large building <!--SR:!2025-01-17,192,340!2026-07-05,626,347-->
 - designing a concrete mix for a large building→:::←developing strengthening techniques for damaged structures or structural members like a damaged column <!--SR:!2025-08-18,347,335!2025-01-19,115,297-->
 - developing strengthening techniques for damaged structures or structural members like a damaged column→:::←_(end)_ <!--SR:!2025-03-02,231,345!2025-07-13,317,324-->
 
@@ -912,7 +912,7 @@ polypropylene fiber reinforced concrete
 
 <!--pytextgen generate section="eee1"--><!-- The following content is generated at 2024-02-16T21:59:47.859581+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←artificial stone <!--SR:!2024-10-13,66,277!2025-07-31,398,365-->
+- _(begin)_→:::←artificial stone <!--SR:!2025-07-09,265,297!2025-07-31,398,365-->
 - artificial stone→:::←cellular concrete <!--SR:!2024-11-12,128,300!2025-07-28,331,335-->
 - cellular concrete→:::←engineered cement composite <!--SR:!2024-10-24,153,270!2024-12-05,166,330-->
 - engineered cement composite→:::←fly ash concrete <!--SR:!2024-11-02,143,337!2025-09-02,341,320-->
@@ -1015,7 +1015,7 @@ Taipei 101
 
 <!--pytextgen generate section="938f"--><!-- The following content is generated at 2024-02-16T21:59:47.947997+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←HSBC Main Building <!--SR:!2024-10-17,88,297!2025-04-01,312,330-->
+- _(begin)_→:::←HSBC Main Building <!--SR:!2025-10-31,379,317!2025-04-01,312,330-->
 - HSBC Main Building→:::←International Commerce Centre <!--SR:!2024-10-29,40,277!2025-05-06,208,334-->
 - International Commerce Centre→:::←John Hancock Center <!--SR:!2025-10-04,361,320!2024-12-24,105,297-->
 - John Hancock Center→:::←Taipei 101 <!--SR:!2024-11-02,137,341!2025-10-16,373,312-->
@@ -1054,7 +1054,7 @@ Hong Kong Code
 - _(begin)_→:::←American Code <!--SR:!2025-09-20,383,380!2025-09-03,403,394-->
 - American Code→:::←Australian Standard <!--SR:!2024-12-27,193,355!2025-12-14,487,395-->
 - Australian Standard→:::←Chinese Code <!--SR:!2024-12-05,160,327!2025-02-16,233,357-->
-- Chinese Code→:::←Eurocode <!--SR:!2024-10-14,128,335!2025-03-30,252,357-->
+- Chinese Code→:::←Eurocode <!--SR:!2025-12-17,426,335!2025-03-30,252,357-->
 - Eurocode→:::←Hong Kong Code <!--SR:!2025-03-11,258,376!2024-11-26,168,357-->
 - Hong Kong Code→:::←_(end)_ <!--SR:!2025-09-17,412,387!2025-02-21,263,350-->
 
@@ -1097,10 +1097,10 @@ water tower
 - _(begin)_→:::←bridge <!--SR:!2024-10-23,142,335!2025-11-12,457,400-->
 - bridge→:::←building <!--SR:!2025-01-24,203,350!2026-01-07,496,400-->
 - building→:::←dam <!--SR:!2025-05-03,277,361!2025-01-17,198,361-->
-- dam→:::←power plant <!--SR:!2024-12-09,92,281!2024-10-17,82,238-->
+- dam→:::←power plant <!--SR:!2024-12-09,92,281!2025-07-27,283,258-->
 - power plant→:::←storage facility <!--SR:!2025-01-30,185,300!2024-11-06,55,314-->
 - storage facility→:::←tunnel <!--SR:!2024-12-21,103,280!2025-09-29,392,340-->
-- tunnel→:::←unusual structure <!--SR:!2025-04-13,206,247!2024-10-17,121,320-->
+- tunnel→:::←unusual structure <!--SR:!2025-04-13,206,247!2026-04-05,535,340-->
 - unusual structure→:::←water tower <!--SR:!2024-12-19,108,290!2024-11-18,53,270-->
 - water tower→:::←_(end)_ <!--SR:!2025-11-24,467,387!2025-04-10,214,301-->
 
@@ -1193,7 +1193,7 @@ water transport
 - highway→:::←pier <!--SR:!2025-10-07,364,320!2025-03-17,217,300-->
 - pier→:::←pipeline <!--SR:!2025-01-24,136,360!2025-02-06,194,314-->
 - pipeline→:::←railroad <!--SR:!2024-11-15,111,255!2025-01-06,112,295-->
-- railroad→:::←water transport <!--SR:!2024-10-11,127,340!2025-04-24,255,315-->
+- railroad→:::←water transport <!--SR:!2025-12-17,426,340!2025-04-24,255,315-->
 - water transport→:::←_(end)_ <!--SR:!2026-03-20,555,400!2025-07-05,322,380-->
 
 <!--/pytextgen-->

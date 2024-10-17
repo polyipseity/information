@@ -9,7 +9,7 @@ tags:
 
 # tide
 
-__Tides__ are {{the rise and fall of [sea levels](sea%20level.md)}} caused by {{the combined effects of the [gravitational](gravity.md) forces exerted by the [Moon](Moon.md) (and to a much lesser extent, the [Sun](Sun.md)) and are also caused by the [Earth](Earth.md) and [Moon](Moon.md) [orbiting](orbit.md) one another}}. <!--SR:!2024-10-12,62,310!2024-11-06,69,270-->
+__Tides__ are {{the rise and fall of [sea levels](sea%20level.md)}} caused by {{the combined effects of the [gravitational](gravity.md) forces exerted by the [Moon](Moon.md) (and to a much lesser extent, the [Sun](Sun.md)) and are also caused by the [Earth](Earth.md) and [Moon](Moon.md) [orbiting](orbit.md) one another}}. <!--SR:!2025-07-15,271,330!2024-11-06,69,270-->
 
 ## tidal constituents
 
@@ -27,9 +27,9 @@ When {{the [Moon](Moon.md) is at first quarter or third quarter, the [Sun](Sun.m
 
 ### equilibrium
 
-The {{__equilibrium tide__}} is {{the idealized tide assuming a landless Earth}}. The ocean would {{have a tidal bulge elongated towards the attracting body ([Moon](Moon.md) or [Sun](Sun.md))}}. Note that it is _not_ {{caused by the vertical pull or push nearest or farthest from the body, which is very weak compared to the opposing [gravity](gravity.md)}}; rather, it is caused by {{the tangential or [tractive](traction%20(mechanics).md) [tidal force](tidal%20force.md), strongest at about 45 degree from the body and does not need to oppose gravity}}, resulting in {{a horizontal tidal current}}. <!--SR:!2024-10-22,69,310!2025-02-10,148,310!2025-02-09,135,290!2025-04-30,214,330!2025-06-05,240,330!2024-10-16,65,310-->
+The {{__equilibrium tide__}} is {{the idealized tide assuming a landless Earth}}. The ocean would {{have a tidal bulge elongated towards the attracting body ([Moon](Moon.md) or [Sun](Sun.md))}}. Note that it is _not_ {{caused by the vertical pull or push nearest or farthest from the body, which is very weak compared to the opposing [gravity](gravity.md)}}; rather, it is caused by {{the tangential or [tractive](traction%20(mechanics).md) [tidal force](tidal%20force.md), strongest at about 45 degree from the body and does not need to oppose gravity}}, resulting in {{a horizontal tidal current}}. <!--SR:!2024-10-22,69,310!2025-02-10,148,310!2025-02-09,135,290!2025-04-30,214,330!2025-06-05,240,330!2025-08-01,288,330-->
 
-The rotation of [Earth](Earth.md) {{does not affect the equilibrium tide}}. Therefore, each day {{has about two tides}}. However, it does {{rotate the current tide eastward away from the equilibrium tide}}, causing {{the attracting body to pull the tide back to the equilibrium tide (or by [Newton's third law](Newton's%20laws%20of%20motion.md#third%20law) equivalently, the tide pulls the Moon ahead to orbit faster temporarily)}}, which is responsible for {{[tidal dissipation](#dissipation)}}. <!--SR:!2025-03-29,184,310!2024-10-17,66,310!2025-01-17,132,310!2025-03-12,171,310!2025-04-09,195,310-->
+The rotation of [Earth](Earth.md) {{does not affect the equilibrium tide}}. Therefore, each day {{has about two tides}}. However, it does {{rotate the current tide eastward away from the equilibrium tide}}, causing {{the attracting body to pull the tide back to the equilibrium tide (or by [Newton's third law](Newton's%20laws%20of%20motion.md#third%20law) equivalently, the tide pulls the Moon ahead to orbit faster temporarily)}}, which is responsible for {{[tidal dissipation](#dissipation)}}. <!--SR:!2025-03-29,184,310!2025-08-09,296,330!2025-01-17,132,310!2025-03-12,171,310!2025-04-09,195,310-->
 
 ### dissipation
 

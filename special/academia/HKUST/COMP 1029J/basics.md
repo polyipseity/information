@@ -100,7 +100,7 @@ return _chain.from_iterable(await _gather(
 - `boolean`::Either true or false. Example: `true`, `false` <!--SR:!2024-12-11,240,330-->
 - `char`::A single character. Example: `'a'`, `'3'`, `' '` <!--SR:!2025-02-12,290,330-->
 - `double`::A floating point number with double precision (15 to 17 significant figures). One can effectively treat it as a decimal number for most purposes. Example: `42d`, `5.`, `6.29d`, `3.12D`, `3.14` <!--SR:!2026-11-12,763,330-->
-- `float`::A floating point number with single precision (6 to 9 significant figures). One can effectively treat it as a decimal number for most purposes. Example: `42f`, `1.f`, `3.14f`, `9.20F` <!--SR:!2024-10-16,183,310-->
+- `float`::A floating point number with single precision (6 to 9 significant figures). One can effectively treat it as a decimal number for most purposes. Example: `42f`, `1.f`, `3.14f`, `9.20F` <!--SR:!2026-12-22,796,330-->
 - `int`::An integer. Example: `42` <!--SR:!2024-12-03,235,330-->
 
 <!--/pytextgen-->
@@ -195,7 +195,7 @@ return _chain.from_iterable(await _gather(
 - _(begin)_→:::←`++` <!--SR:!2025-03-17,318,330!2025-02-23,299,330-->
 - `++`→:::←`--` <!--SR:!2025-01-21,274,330!2025-01-30,277,330-->
 - `--`→:::←`*` <!--SR:!2025-02-18,253,310!2026-03-18,538,310-->
-- `*`→:::←`/` <!--SR:!2024-10-13,181,310!2024-12-22,251,330-->
+- `*`→:::←`/` <!--SR:!2026-12-22,796,330!2024-12-22,251,330-->
 - `/`→:::←`%` <!--SR:!2025-01-17,270,330!2025-05-23,306,290-->
 - `%`→:::←`+` <!--SR:!2025-03-14,314,330!2025-07-20,350,290-->
 - `+`→:::←`-` <!--SR:!2025-02-10,288,330!2025-02-04,282,330-->
@@ -263,9 +263,9 @@ return _chain.from_iterable(await _gather(
 - _(begin)_→:::←`<` <!--SR:!2025-01-03,107,190!2025-01-07,239,310-->
 - `<`→:::←`>` <!--SR:!2025-02-17,296,330!2025-01-28,275,330-->
 - `>`→:::←`<=` <!--SR:!2026-02-26,514,310!2024-11-27,210,290-->
-- `<=`→:::←`>=` <!--SR:!2024-10-12,179,310!2025-05-09,306,290-->
-- `>=`→:::←`==` <!--SR:!2024-10-13,132,310!2024-11-09,61,150-->
-- `==`→:::←`!=` <!--SR:!2025-01-27,279,330!2024-10-16,139,310-->
+- `<=`→:::←`>=` <!--SR:!2026-12-22,796,330!2025-05-09,306,290-->
+- `>=`→:::←`==` <!--SR:!2025-12-03,412,310!2024-11-09,61,150-->
+- `==`→:::←`!=` <!--SR:!2025-01-27,279,330!2026-07-04,625,330-->
 - `!=`→:::←_(end)_ <!--SR:!2025-01-29,280,330!2025-03-02,304,330-->
 
 <!--/pytextgen-->
@@ -325,7 +325,7 @@ return _chain.from_iterable(await _gather(
 <!--pytextgen generate section="d882"--><!-- The following content is generated at 2024-02-20T14:26:40.998968+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←`!` <!--SR:!2025-01-18,273,330!2026-02-19,570,330-->
-- `!`→:::←`&&` <!--SR:!2024-11-15,205,310!2024-10-14,181,310-->
+- `!`→:::←`&&` <!--SR:!2024-11-15,205,310!2026-12-22,796,330-->
 - `&&`→:::←<code>&#124;&#124;</code> <!--SR:!2025-01-24,277,330!2025-01-12,267,330-->
 - <code>&#124;&#124;</code>→:::←_(end)_ <!--SR:!2024-12-06,238,330!2026-06-07,643,330-->
 
@@ -335,6 +335,6 @@ return _chain.from_iterable(await _gather(
 
 - `!`::negate <!--SR:!2024-11-17,221,330-->
 - `&&`::and <!--SR:!2024-12-21,245,330-->
-- <code>&#124;&#124;</code>::or <!--SR:!2024-10-11,179,310-->
+- <code>&#124;&#124;</code>::or <!--SR:!2026-12-22,796,330-->
 
 <!--/pytextgen-->

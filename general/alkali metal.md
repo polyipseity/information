@@ -15,7 +15,7 @@ tags:
 # import ../../tools/utility.py.md
 ```
 
-The __alkali metals__ {{consist of the [chemical elements](chemical%20element.md) [lithium](lithium.md) (Li), [sodium](sodium.md) (Na), [potassium](potassium.md) (K), [rubidium](rubidium.md) (Rb), [caesium](caesium.md) (Cs), and [francium](francium.md) (Fr)}}. With {{[hydrogen](hydrogen.md) (H), they constitute [group 1](group%20(periodic%20table).md#^group-1)}}. The alkali metals are {{all shiny, soft, low-[density](density.md), and highly [reactive](reactivity%20(chemistry).md)}}. Because of their high reactivity, they {{must be stored under [mineral oil](mineral%20oil.md), e.g. [paraffin oil](paraffin%20oil.md), to prevent reaction with [air](air.md)}}. <!--SR:!2024-10-16,138,250!2026-12-31,1068,350!2025-07-24,441,230!2025-05-06,469,250-->
+The __alkali metals__ {{consist of the [chemical elements](chemical%20element.md) [lithium](lithium.md) (Li), [sodium](sodium.md) (Na), [potassium](potassium.md) (K), [rubidium](rubidium.md) (Rb), [caesium](caesium.md) (Cs), and [francium](francium.md) (Fr)}}. With {{[hydrogen](hydrogen.md) (H), they constitute [group 1](group%20(periodic%20table).md#^group-1)}}. The alkali metals are {{all shiny, soft, low-[density](density.md), and highly [reactive](reactivity%20(chemistry).md)}}. Because of their high reactivity, they {{must be stored under [mineral oil](mineral%20oil.md), e.g. [paraffin oil](paraffin%20oil.md), to prevent reaction with [air](air.md)}}. <!--SR:!2024-12-26,70,230!2026-12-31,1068,350!2025-07-24,441,230!2025-05-06,469,250-->
 
 ## representative reactions
 
@@ -51,7 +51,7 @@ return await memorize_map(
 
 <!--pytextgen generate section="938d"--><!-- The following content is generated at 2024-01-04T20:17:51.342355+08:00. Any edits will be overridden! -->
 
-- [lithium](lithium.md)::floats, producing hydrogen gas steadily <!--SR:!2024-10-16,352,250-->
+- [lithium](lithium.md)::floats, producing hydrogen gas steadily <!--SR:!2028-03-06,1236,270-->
 - [sodium](sodium.md)::melts to a silvery ball moving about quickly on water, producing hydrogen gas rapidly <!--SR:!2025-04-04,447,250-->
 - [potassium](potassium.md)::melts to a silvery ball moving about rapidly on water, producing hydrogen gas that spontaneously ignites <!--SR:!2026-11-24,850,270-->
 - [rubidium](rubidium.md)::explosive <!--SR:!2025-10-01,641,310-->

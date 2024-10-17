@@ -100,7 +100,7 @@ return await memorize_seq(
 - _(begin)_→:::←(Cap. 311) Air Pollution Control Ordinance <!--SR:!2024-12-31,104,255!2025-11-13,409,375-->
 - (Cap. 311) Air Pollution Control Ordinance→:::←(Cap. 354) Waste Disposal Ordinance <!--SR:!2024-11-21,84,275!2025-01-27,111,275-->
 - (Cap. 354) Waste Disposal Ordinance→:::←(Cap. 358) Water Pollution Control Ordinance <!--SR:!2024-12-29,82,275!2024-10-20,52,315-->
-- (Cap. 358) Water Pollution Control Ordinance→:::←(Cap. 400) Noise Pollution Control Ordinance <!--SR:!2024-10-31,50,255!2024-10-12,42,255-->
+- (Cap. 358) Water Pollution Control Ordinance→:::←(Cap. 400) Noise Pollution Control Ordinance <!--SR:!2024-10-31,50,255!2024-11-10,24,235-->
 - (Cap. 400) Noise Pollution Control Ordinance→:::←(Cap. 499) Environmental Impact Ordinance <!--SR:!2025-02-06,149,295!2024-11-09,63,295-->
 - (Cap. 499) Environmental Impact Ordinance→:::←_(end)_ <!--SR:!2025-11-29,423,375!2025-08-30,326,355-->
 
@@ -392,7 +392,7 @@ return await memorize_seq(
 - carbon dioxide (CO<sub>2</sub>)→:::←hydroflurocarbons (HFCs) <!--SR:!2025-04-13,185,230!2025-05-06,223,270-->
 - hydroflurocarbons (HFCs)→:::←methane (CH<sub>4</sub>) <!--SR:!2024-10-22,99,270!2025-03-10,166,230-->
 - methane (CH<sub>4</sub>)→:::←nitrous oxide (N<sub>2</sub>O) <!--SR:!2024-10-27,91,250!2024-12-09,134,290-->
-- nitrous oxide (N<sub>2</sub>O)→:::←perflurocarbons (PFCs) <!--SR:!2025-01-25,123,230!2024-10-16,16,130-->
+- nitrous oxide (N<sub>2</sub>O)→:::←perflurocarbons (PFCs) <!--SR:!2025-01-25,123,230!2024-10-25,8,130-->
 - perflurocarbons (PFCs)→:::←sulfur hexafluoride (SF<sub>6</sub>) <!--SR:!2024-11-01,70,270!2025-03-13,187,270-->
 - sulfur hexafluoride (SF<sub>6</sub>)→:::←_(end)_ <!--SR:!2025-02-14,186,310!2025-03-30,222,310-->
 
@@ -459,4 +459,4 @@ Relationship between ppm<sub>v</sub> and mg/m<sup>3</sup>
 
 - relationship between ppm<sub>v</sub> and mg/m<sup>3</sup>
   - relationship between ppm<sub>v</sub> and mg/m<sup>3</sup> at 0 °C and 1 atm ::: $$\mathrm{conc.\ \left(mg/m^3\right)} = \frac {\mathrm{conc.\ (ppm_v)} \times \mathrm{mol.\ wt.\ (g/mol)} } {22.414\mathrm{\ (L/mol)} }$$ <!--SR:!2024-11-24,86,290!2024-11-07,116,290-->
-  - relationship between ppm<sub>v</sub> and mg/m<sup>3</sup> at other temperature and pressure ::: $$\mathrm{conc.\ \left(mg/m^3\right)} = \frac {\mathrm{conc.\ (ppm_v)} \times \mathrm{mol.\ wt.\ (g/mol)} } {\mathrm{22.414\ (L/mol)} } \times \frac {273.15\mathrm{\ K} } {T\mathrm{\ (K)} } \times \frac {p\mathrm{\ (atm)} } {1\mathrm{\ atm} }$$ <!--SR:!2024-10-11,94,270!2025-07-12,277,290-->
+  - relationship between ppm<sub>v</sub> and mg/m<sup>3</sup> at other temperature and pressure ::: $$\mathrm{conc.\ \left(mg/m^3\right)} = \frac {\mathrm{conc.\ (ppm_v)} \times \mathrm{mol.\ wt.\ (g/mol)} } {\mathrm{22.414\ (L/mol)} } \times \frac {273.15\mathrm{\ K} } {T\mathrm{\ (K)} } \times \frac {p\mathrm{\ (atm)} } {1\mathrm{\ atm} }$$ <!--SR:!2025-07-09,265,270!2025-07-12,277,290-->

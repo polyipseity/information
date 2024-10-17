@@ -22,13 +22,13 @@ See also [Blender manual](https://docs.blender.org/manual/en/dev/interface/keyma
 - redo:::⇧Shift+Ctrl+Z <!--SR:!2025-06-06,662,330!2026-07-06,665,236-->
 - quit:::Ctrl+Q <!--SR:!2024-10-30,486,310!2028-02-25,1436,336-->
 - help:::F1 <!--SR:!2024-10-31,487,310!2025-01-29,322,270-->
-- rename active:::F2 <!--SR:!2026-05-10,876,296!2024-10-12,164,176-->
+- rename active:::F2 <!--SR:!2026-05-10,876,296!2025-08-15,302,176-->
 - menu search:::F3 <!--SR:!2025-02-09,571,316!2026-01-25,575,256-->
-- file context menu:::F4 <!--SR:!2024-10-14,85,170!2026-08-27,855,276-->
+- file context menu:::F4 <!--SR:!2025-03-18,152,170!2026-08-27,855,276-->
 - show render window:::F11 <!--SR:!2025-09-03,725,315!2026-02-08,678,276-->
 - render:::F12 <!--SR:!2024-10-25,494,316!2025-11-29,812,336-->
 - quick access:::Q <!--SR:!2025-11-25,753,290!2024-10-27,393,250-->
-- toggle maximize area:::Ctrl+Space <!--SR:!2024-10-28,75,150!2024-10-16,397,256-->
+- toggle maximize area:::Ctrl+Space <!--SR:!2024-10-28,75,150!2027-07-21,1007,256-->
 - toggle fullscreen area:::Ctrl+Alt+Space <!--SR:!2025-01-20,110,170!2025-06-03,434,196-->
 - cycle workspace:::Ctrl+PageUp/PageDown <!--SR:!2024-11-11,168,250!2024-12-01,513,316-->
 - play/tools/search:::Space <!--SR:!2025-05-04,643,316!2025-05-07,642,316-->
@@ -47,7 +47,7 @@ See also [Blender manual](https://docs.blender.org/manual/en/dev/interface/keyma
 - hide selection:::H <!--SR:!2025-10-25,645,270!2024-11-29,511,310-->
 - reveal hidden:::Alt+H <!--SR:!2025-04-09,565,270!2024-12-06,426,256-->
 - toggle toolbar:::T <!--SR:!2028-08-22,1422,310!2025-08-05,437,276-->
-- toggle sidebar:::N <!--SR:!2024-10-22,402,256!2024-10-16,158,156-->
+- toggle sidebar:::N <!--SR:!2024-10-22,402,256!2025-01-08,83,136-->
 
 ### 3D viewport
 
@@ -57,4 +57,4 @@ See also [Blender manual](https://docs.blender.org/manual/en/dev/interface/keyma
 - toggle vertex/edge/face mode + multiple modes:::+⇧Shift <!--SR:!2026-04-01,832,290!2025-07-28,688,316-->
 - toggle vertex/edge/face mode + expand/contract selection:::+Ctrl <!--SR:!2025-05-30,476,276!2025-10-24,557,256-->
 - toggle gizmos:::Ctrl+\` <!--SR:!2024-10-26,37,130!2024-12-04,104,196-->
-- start walk/fly navigation:::⇧Shift+\` <!--SR:!2025-06-28,277,230!2024-10-15,19,130-->
+- start walk/fly navigation:::⇧Shift+\` <!--SR:!2025-06-28,277,230!2024-11-19,33,150-->

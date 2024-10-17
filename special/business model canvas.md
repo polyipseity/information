@@ -166,10 +166,10 @@ risk reduction
 - _(begin)_→:::←accessibility <!--SR:!2025-06-10,276,277!2025-04-18,281,334-->
 - accessibility→:::←brand or status <!--SR:!2025-06-19,261,254!2025-02-15,196,274-->
 - brand or status→:::←convenience or usability <!--SR:!2024-11-12,63,214!2024-12-05,93,214-->
-- convenience or usability→:::←cost reduction <!--SR:!2024-10-11,108,254!2024-12-02,101,237-->
-- cost reduction→:::←customization <!--SR:!2025-05-10,254,274!2024-10-17,45,157-->
+- convenience or usability→:::←cost reduction <!--SR:!2025-11-15,394,274!2024-12-02,101,237-->
+- cost reduction→:::←customization <!--SR:!2025-05-10,254,274!2025-01-29,104,177-->
 - customization→:::←design <!--SR:!2024-12-31,99,257!2024-11-27,129,234-->
-- design→:::←newness <!--SR:!2025-04-26,228,257!2024-10-11,26,234-->
+- design→:::←newness <!--SR:!2025-04-26,228,257!2024-12-21,65,234-->
 - newness→:::←performance <!--SR:!2024-12-31,168,277!2025-06-06,253,257-->
 - performance→:::←performing the job well <!--SR:!2024-10-23,129,297!2025-08-20,351,294-->
 - performing the job well→:::←price <!--SR:!2024-10-20,139,294!2024-12-24,166,274-->
@@ -218,7 +218,7 @@ personal assistance
 
 - _(begin)_→:::←automated services <!--SR:!2025-08-04,322,294!2024-12-08,178,310-->
 - automated services→:::←co-creation <!--SR:!2024-11-21,130,254!2025-01-04,167,274-->
-- co-creation→:::←communities <!--SR:!2024-10-22,116,254!2024-10-13,133,294-->
+- co-creation→:::←communities <!--SR:!2024-10-22,116,254!2026-04-09,539,314-->
 - communities→:::←dedicated personal assistance <!--SR:!2025-03-26,226,277!2025-06-04,268,274-->
 - dedicated personal assistance→:::←personal assistance <!--SR:!2025-02-04,208,317!2025-01-10,191,317-->
 - personal assistance→:::←_(end)_ <!--SR:!2025-01-23,199,317!2025-02-21,221,317-->
@@ -269,7 +269,7 @@ subscription fee
 - brokerage fee→:::←lending, renting, or leasing <!--SR:!2024-12-02,62,217!2024-10-31,121,254-->
 - lending, renting, or leasing→:::←licensing <!--SR:!2025-04-03,223,257!2024-12-05,91,254-->
 - licensing→:::←usage fee <!--SR:!2025-03-07,207,274!2024-11-17,78,254-->
-- usage fee→:::←subscription fee <!--SR:!2024-10-16,111,254!2025-02-26,206,277-->
+- usage fee→:::←subscription fee <!--SR:!2025-08-04,291,254!2025-02-26,206,277-->
 - subscription fee→:::←_(end)_ <!--SR:!2024-11-06,142,294!2024-10-29,132,277-->
 
 <!--/pytextgen-->

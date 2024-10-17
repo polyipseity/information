@@ -65,7 +65,7 @@ return _chain.from_iterable(await _gather(
 
 - _(begin)_→:::←`Boolean` <!--SR:!2025-04-08,334,345!2024-12-29,254,330-->
 - `Boolean`→:::←`Double` <!--SR:!2025-01-19,272,330!2025-02-24,300,330-->
-- `Double`→:::←`Integer` <!--SR:!2024-10-16,132,310!2024-11-08,199,310-->
+- `Double`→:::←`Integer` <!--SR:!2026-05-07,567,330!2024-11-08,199,310-->
 - `Integer`→:::←`Long` <!--SR:!2025-07-31,359,290!2024-12-25,233,325-->
 - `Long`→:::←`Single` <!--SR:!2025-08-03,313,305!2024-12-24,232,325-->
 - `Single`→:::←_(end)_ <!--SR:!2024-12-28,253,330!2025-02-25,299,330-->
@@ -75,7 +75,7 @@ return _chain.from_iterable(await _gather(
 <!--pytextgen generate section="3b1a"--><!-- The following content is generated at 2024-03-07T00:04:17.302448+08:00. Any edits will be overridden! -->
 
 - `Boolean`::Either `True` or `False`. <!--SR:!2025-01-17,270,330-->
-- `Double`::A floating point number with double precision (15 to 17 significant figures). One can effectively treat it as a decimal number for most purposes. <!--SR:!2024-10-17,182,310-->
+- `Double`::A floating point number with double precision (15 to 17 significant figures). One can effectively treat it as a decimal number for most purposes. <!--SR:!2026-12-22,796,330-->
 - `Integer`::An integer from -2<sup>15</sup> = -32768 to 2<sup>15</sup>-1 = 32767. <!--SR:!2025-03-28,326,345-->
 - `Long`::An integer from -2<sup>31</sup> = -2147483648 to 2<sup>31</sup>-1 = 2147483647. <!--SR:!2024-10-18,179,310-->
 - `Single`::A floating point number with single precision (6 to 9 significant figures). One can effectively treat it as a decimal number for most purposes. <!--SR:!2024-12-17,225,310-->

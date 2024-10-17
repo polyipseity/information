@@ -24,7 +24,7 @@ To optimize the résumé for successful application and {{[applicant tracking sy
 - fonts ::: 1 font style only; name: 14; contact: 8; body: 11 or 12; header: 11 or 12, bold <!--SR:!2025-01-04,264,250!2025-03-22,288,353-->
 - formatting ::: consistent, minimal <!--SR:!2026-01-13,560,310!2025-05-03,329,373-->
 - length ::: 1 single-sided page <!--SR:!2028-01-14,1205,350!2025-04-21,319,373-->
-- line spacing ::: single <!--SR:!2024-10-14,280,330!2025-06-24,372,373-->
+- line spacing ::: single <!--SR:!2028-03-20,1250,350!2025-06-24,372,373-->
 - order ::: reverse chronological <!--SR:!2026-04-19,685,330!2025-05-26,348,373-->
 
 ## content
@@ -86,4 +86,4 @@ The most important skills in general are {{adaptivity, fast learning, and resili
 
 ## referees
 
-Ensure you {{have contact information of at least 3 referees}}. A good example would be {{a professor, a previous supervisor, and a project lead of your volunteer team}}. {{No need to}} put them on the résumé. <!--SR:!2024-10-24,286,330!2025-12-01,522,270!2024-10-15,281,330-->
+Ensure you {{have contact information of at least 3 referees}}. A good example would be {{a professor, a previous supervisor, and a project lead of your volunteer team}}. {{No need to}} put them on the résumé. <!--SR:!2024-10-24,286,330!2025-12-01,522,270!2028-03-20,1250,350-->

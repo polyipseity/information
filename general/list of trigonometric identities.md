@@ -126,7 +126,7 @@ return await memorize_map(
 
 > [!example] examples
 >
-> - $\sin(1.73 \mp 2.45)$ ::: $\sin 1.73 \cos 2.45 \mp \sin 2.45 \cos 1.73$ <!--SR:!2025-01-22,260,287!2024-10-11,212,327-->
+> - $\sin(1.73 \mp 2.45)$ ::: $\sin 1.73 \cos 2.45 \mp \sin 2.45 \cos 1.73$ <!--SR:!2025-01-22,260,287!2026-10-10,724,327-->
 > - $\cos(-0.56 \pm 9.23)$ ::: $\cos(-0.56) \cos 9.23 \mp \sin(-0.56) \sin 9.23$ <!--SR:!2026-01-01,466,267!2025-08-17,410,307-->
 > - $\tan(7.22 \mp 2.38)$ ::: $\frac{\tan 7.22 \mp \tan 2.38}{1 \pm \tan 2.38 \tan 7.22}$ <!--SR:!2025-01-22,190,247!2025-02-04,269,287-->
 
@@ -171,7 +171,7 @@ return await memorize_map(
 > [!example] examples
 >
 > - $\sin 7.42$ ([angle sum](#angle%20sum%20and%20difference) variant) ::: $2 \cos 3.71 \sin 3.71$ <!--SR:!2026-03-16,581,327!2024-11-21,241,327-->
-> - $\sin(-0.36)$ (square variant) ::: $(\cos 0.18 - \sin 0.18)^2 - 1$ <!--SR:!2025-03-20,300,287!2024-10-14,168,287-->
+> - $\sin(-0.36)$ (square variant) ::: $(\cos 0.18 - \sin 0.18)^2 - 1$ <!--SR:!2025-03-20,300,287!2025-01-08,84,267-->
 > - $\sin 6.24$ (tangent variant) ::: $\frac{2 \tan 3.12}{1 + \tan^2 3.12}$ <!--SR:!2025-07-12,389,307!2024-11-10,60,227-->
 > - $\cos(-3.68)$ ([angle sum](#angle%20sum%20and%20difference) variant) ::: $\cos^2 1.84 - \sin^2 1.84$ <!--SR:!2024-11-26,265,347!2024-12-05,231,287-->
 > - $\cos 9.98$ (cosine variant) ::: $2\cos^2 4.99 - 1$ <!--SR:!2024-11-25,244,327!2024-12-19,283,347-->
@@ -214,7 +214,7 @@ return await memorize_map(
 - tangent::$$\tan \frac \theta 2 = \frac {1 - \cos \theta} {\sin \theta} = \frac {\sin \theta} {1 + \cos \theta} = \operatorname{sgn}(\sin \theta) \sqrt{\frac {1 - \cos \theta} {1 + \cos \theta} } = \csc \theta - \cot \theta = \frac {\tan \theta} {1 + \sec \theta} = \frac {-1 + \operatorname{sgn}(\cos \theta)\sqrt{1 + \tan^2 \theta} } {\tan \theta}$$ <!--SR:!2024-11-19,58,236-->
 - secant::$$\sec \frac \theta 2 = \operatorname{sgn}\left(\cos \frac \theta 2\right) \sqrt{\frac 2 {1 + \cos \theta} }$$ <!--SR:!2025-03-19,162,296-->
 - cosecant::$$\csc \frac \theta 2 = \operatorname{sgn}\left(\sin \frac \theta 2\right) \sqrt{\frac 2 {1 - \cos \theta} }$$ <!--SR:!2024-11-07,81,296-->
-- cotangent::$$\cot \frac \theta 2 = \frac {1 + \cos \theta} {\sin \theta} = \frac {\sin \theta} {1 - \cos \theta} = \operatorname{sgn}(\sin \theta) \sqrt{\frac {1 + \cos \theta} {1 - \cos \theta} } = \csc \theta + \cot \theta$$ <!--SR:!2024-10-11,19,236-->
+- cotangent::$$\cot \frac \theta 2 = \frac {1 + \cos \theta} {\sin \theta} = \frac {\sin \theta} {1 - \cos \theta} = \operatorname{sgn}(\sin \theta) \sqrt{\frac {1 + \cos \theta} {1 - \cos \theta} } = \csc \theta + \cot \theta$$ <!--SR:!2024-12-04,49,236-->
 
 <!--/pytextgen-->
 
@@ -332,8 +332,8 @@ return await memorize_map(
 > [!example] examples
 >
 > - $-2.64 \cos 3x + 3.22 \sin 3x$ (arctangent variant) ::: $-\sqrt{2.64^2 + 3.22^2} \cos(3x + \arctan(3.22 / 2.64))$ <!--SR:!2024-12-20,245,289!2024-10-29,30,209-->
-> - $-9.29 \cos(-2x) - 9.11 \sin(-2x)$ ([atan2](atan2.md) variant) ::: $\sqrt{9.29^2 + 9.11^2} \cos(2x - \operatorname{atan2}(9.11, -9.29))$ <!--SR:!2025-08-15,322,269!2024-10-16,42,209-->
-> - $0 \cos 5x - 1.23 \sin 5x$ (arctangent variant, [atan2](atan2.md) variant) ::: $1.23 \cos(5x + \pi / 2)$ <!--SR:!2024-10-17,213,329!2024-12-02,249,329-->
+> - $-9.29 \cos(-2x) - 9.11 \sin(-2x)$ ([atan2](atan2.md) variant) ::: $\sqrt{9.29^2 + 9.11^2} \cos(2x - \operatorname{atan2}(9.11, -9.29))$ <!--SR:!2025-08-15,322,269!2025-01-08,84,209-->
+> - $0 \cos 5x - 1.23 \sin 5x$ (arctangent variant, [atan2](atan2.md) variant) ::: $1.23 \cos(5x + \pi / 2)$ <!--SR:!2026-10-04,717,329!2024-12-02,249,329-->
 > - $0 \cos 4.2x + 0 \sin 4.2x$ ::: $0$ <!--SR:!2024-11-22,92,359!2024-11-19,89,359-->
 
 ## references

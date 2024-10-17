@@ -94,7 +94,7 @@ A note regarding accuracy is that {{there may be some inaccuracies involved when
 
 ### comparison operators
 
-Below are common comparison operators, all of which returns {{a boolean}}. Operators have higher precedence than or same precedence as operators below it in the list: <!--SR:!2024-10-14,20,349-->
+Below are common comparison operators, all of which returns {{a boolean}}. Operators have higher precedence than or same precedence as operators below it in the list: <!--SR:!2025-01-25,100,369-->
 
 ```Python
 # pytextgen generate data
@@ -139,36 +139,36 @@ return _chain.from_iterable(await _gather(
 
 <!--pytextgen generate section="d123"--><!-- The following content is generated at 2024-01-30T13:35:46.633801+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←`in` <!--SR:!2024-10-13,19,349!2024-10-14,20,349-->
-- `in`→:::←`<` <!--SR:!2024-12-09,67,349!2024-10-13,19,349-->
+- _(begin)_→:::←`in` <!--SR:!2025-01-20,95,369!2025-01-25,100,369-->
+- `in`→:::←`<` <!--SR:!2024-12-09,67,349!2024-12-25,69,349-->
 - `<`→:::←`<=` <!--SR:!2024-12-05,63,349!2024-12-02,60,349-->
 - `<=`→:::←`>` <!--SR:!2024-12-07,60,349!2024-12-03,61,349-->
-- `>`→:::←`>=` <!--SR:!2024-12-03,56,349!2024-10-14,20,349-->
+- `>`→:::←`>=` <!--SR:!2024-12-03,56,349!2025-01-25,100,369-->
 - `>=`→:::←`!=` <!--SR:!2024-12-01,54,349!2024-10-30,30,309-->
-- `!=`→:::←`==` <!--SR:!2024-12-04,62,349!2024-10-13,19,349-->
-- `==`→:::←_(end)_ <!--SR:!2024-11-26,49,349!2024-10-14,20,349-->
+- `!=`→:::←`==` <!--SR:!2024-12-04,62,349!2025-01-20,95,369-->
+- `==`→:::←_(end)_ <!--SR:!2024-11-26,49,349!2024-12-30,74,349-->
 
 <!--/pytextgen-->
 
 <!--pytextgen generate section="cc23"--><!-- The following content is generated at 2024-01-30T13:35:46.619801+08:00. Any edits will be overridden! -->
 
-- `in`::membership test <!--SR:!2024-10-14,20,349-->
-- `<`::lesser than <!--SR:!2024-10-14,20,349-->
-- `<=`::lesser than or equal to <!--SR:!2024-10-14,20,349-->
-- `>`::greater than <!--SR:!2024-10-14,20,349-->
-- `>=`::greater than or equal to <!--SR:!2024-10-14,20,349-->
-- `!=`::not equal to <!--SR:!2024-10-14,20,349-->
-- `==`::equal to <!--SR:!2024-10-14,20,349-->
+- `in`::membership test <!--SR:!2025-01-25,100,369-->
+- `<`::lesser than <!--SR:!2024-12-30,74,349-->
+- `<=`::lesser than or equal to <!--SR:!2025-01-25,100,369-->
+- `>`::greater than <!--SR:!2025-01-25,100,369-->
+- `>=`::greater than or equal to <!--SR:!2025-01-25,100,369-->
+- `!=`::not equal to <!--SR:!2025-01-25,100,369-->
+- `==`::equal to <!--SR:!2025-01-25,100,369-->
 
 <!--/pytextgen-->
 
-Do not mix up the equal to operator `==` and {{the assignment operator `=`}}. <!--SR:!2024-10-13,19,349-->
+Do not mix up the equal to operator `==` and {{the assignment operator `=`}}. <!--SR:!2025-01-20,95,369-->
 
 Also, one CAN chain {{comparison operators in Python, unlike other languages. For example, `2 <= aNumber <= 5` is equivalent to `2 <= aNumber and aNumber <= 5` except that `aNumber` is evaluated only once. In fact, you can chain any numbers of comparison operators together, even if they do not make sense together as a whole, such as `2 <= aNumber >= 2` being equivalent to `2 <= aNumber and aNumber >= 2` except that `aNumber` is evaluated only once}}. See <https://docs.python.org/3/reference/expressions.html#comparisons>. <!--SR:!2024-11-28,51,349-->
 
 ### logic operators
 
-Below are common logic operators, all of which {{accept two booleans and return a boolean}}. Operators have higher precedence than or same precedence as operators below it in the list: <!--SR:!2024-10-14,20,349-->
+Below are common logic operators, all of which {{accept two booleans and return a boolean}}. Operators have higher precedence than or same precedence as operators below it in the list: <!--SR:!2025-01-25,100,369-->
 
 ```Python
 # pytextgen generate data
@@ -205,18 +205,18 @@ return _chain.from_iterable(await _gather(
 
 <!--pytextgen generate section="d882"--><!-- The following content is generated at 2024-01-30T13:35:46.722323+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←`not` <!--SR:!2024-10-14,20,349!2024-10-14,20,349-->
-- `not`→:::←`and` <!--SR:!2024-10-14,20,349!2024-10-13,19,349-->
-- `and`→:::←`or` <!--SR:!2024-11-23,46,329!2024-10-14,20,349-->
-- `or`→:::←_(end)_ <!--SR:!2024-10-13,19,349!2024-11-25,48,349-->
+- _(begin)_→:::←`not` <!--SR:!2025-01-25,100,369!2025-01-25,100,369-->
+- `not`→:::←`and` <!--SR:!2025-01-25,100,369!2025-01-20,95,369-->
+- `and`→:::←`or` <!--SR:!2024-11-23,46,329!2025-01-25,100,369-->
+- `or`→:::←_(end)_ <!--SR:!2025-01-20,95,369!2024-11-25,48,349-->
 
 <!--/pytextgen-->
 
 <!--pytextgen generate section="ee13"--><!-- The following content is generated at 2024-01-30T13:35:46.696328+08:00. Any edits will be overridden! -->
 
-- `not`::negate <!--SR:!2024-10-12,18,349-->
-- `and`::and <!--SR:!2024-10-14,20,349-->
-- `or`::or <!--SR:!2024-10-13,19,349-->
+- `not`::negate <!--SR:!2025-01-15,90,369-->
+- `and`::and <!--SR:!2025-01-25,100,369-->
+- `or`::or <!--SR:!2025-01-20,95,369-->
 
 <!--/pytextgen-->
 
@@ -234,15 +234,15 @@ To define a string in Python, {{enclose the string in either double quotes `"exa
 
 `\` is {{the escape character}}. Apart from {{escaping quotes (`\"`, `\'`) and itself (`\\`)}}, it can also {{represent a newline using `\n` and a tab character using `\t`}}. <!--SR:!2025-01-14,98,363!2024-12-15,68,343!2024-11-28,58,343-->
 
-To {{find the length of a string}}, use {{`len(str)`, which returns an `int` representing the number of characters in `str`}}. To {{concatenate/join two strings}}, use {{the `+` operator}}. If {{the `+` operator is applied between a `str` and another (incompatible) type}}, then {{a `TypeError` will be raised}}. <!--SR:!2024-10-13,19,349!2024-10-12,18,349!2024-10-14,20,349!2024-10-14,20,349!2024-10-21,20,366!2024-10-18,18,366-->
+To {{find the length of a string}}, use {{`len(str)`, which returns an `int` representing the number of characters in `str`}}. To {{concatenate/join two strings}}, use {{the `+` operator}}. If {{the `+` operator is applied between a `str` and another (incompatible) type}}, then {{a `TypeError` will be raised}}. <!--SR:!2025-01-20,95,369!2024-12-21,65,349!2025-01-25,100,369!2025-01-25,100,369!2024-10-21,20,366!2024-10-18,18,366-->
 
 ## output
 
 In {{a Jupyter notebook}}, it outputs {{the value of the last expression (and prints nothing if the last expression is `None`)}}. Note that {{assignments are not expressions, and do not produce output as the last expression}}. To get it to print more things, {{use `print(<any>...)`}}. It can {{print anything (and prints `None` if the last expression is `None`)}}. Note that it automatically {{adds a newline after the printed content, so each `print` outputs on a new line instead of being glued together in a single line}}. Also, when multiple arguments are passed, {{each argument is joined into a single string, separated by a space in between}}. When {{no arguments are passed, only a newline is printed}}. <!--SR:!2024-12-13,66,343!2025-01-08,92,363!2025-01-13,97,363!2025-01-03,92,363!2024-12-05,66,343!2024-11-20,55,343!2024-11-19,54,343!2025-01-14,98,363-->
 
-Note that strings are outputted, escaped {{with `\` properly (without unnecessary escapes)}}, and preferably {{wrapped in `'`, and only uses `"` if there is at least 1 `'` in the string but not any `"`}}. <!--SR:!2024-10-14,20,354!2024-10-13,19,354-->
+Note that strings are outputted, escaped {{with `\` properly (without unnecessary escapes)}}, and preferably {{wrapped in `'`, and only uses `"` if there is at least 1 `'` in the string but not any `"`}}. <!--SR:!2025-01-25,100,374!2025-01-20,95,374-->
 
-If {{you do not want a newline to be printed automatically afterwards}}, `print` has {{the `end` argument, which is used like `print(..., end=...)`}}. The value passed to it {{must be either a `str` or `None`, and `None` is the default value if you do not specify `end` and represents a newline, explaining why a newline is automatically printed without using `end`}}. If `end` is used, then {{after printing the passed objects as strings, the string passed to `end` is also printed (or if `end` is `None`, a newline is printed)}}. For example, {{`print(..., end="")` disables automatically printing a newline afterwards, while `print(..., end=" ")` automatically prints a space instead of a newline afterwards}}. <!--SR:!2024-10-16,6,352!2024-10-16,6,352!2024-10-16,6,352!2024-10-16,6,352!2024-10-16,6,352-->
+If {{you do not want a newline to be printed automatically afterwards}}, `print` has {{the `end` argument, which is used like `print(..., end=...)`}}. The value passed to it {{must be either a `str` or `None`, and `None` is the default value if you do not specify `end` and represents a newline, explaining why a newline is automatically printed without using `end`}}. If `end` is used, then {{after printing the passed objects as strings, the string passed to `end` is also printed (or if `end` is `None`, a newline is printed)}}. For example, {{`print(..., end="")` disables automatically printing a newline afterwards, while `print(..., end=" ")` automatically prints a space instead of a newline afterwards}}. <!--SR:!2024-11-18,32,372!2024-11-10,24,352!2024-11-18,32,372!2024-11-10,24,352!2024-11-10,24,352-->
 
 ## variable
 
@@ -276,10 +276,10 @@ To get the type of a value, {{use `type(<any>)`, which will return the type of `
 
 We can convert a value (`value`) into other data types using {{`float(value)`, `int(value)`, and `str(value)`}}. If {{the data type of `value` and the resulting data type are the same}}, {{the same value is simply returned}}. Note that not all {{conversions are valid, and will throw a `ValueError` if it is invalid}}. <!--SR:!2025-01-09,93,360!2025-01-13,97,360!2024-12-04,64,340!2024-11-30,60,340-->
 
-- `bool(value)` ::: Converts `value` to a `bool`. If it is an `int` or `float`, converts to `True` unless `value` is zero, i.e. `value == 0`. If it is a `str` or `list`, converts to `True` unless `value` is empty, i.e. `value == ""` or `value == []`. There are also many other situations where `value` returns `True` unless `value` satisfies something, which will be unmentioned here. It is very difficult to get a `TypeError` or `ValueError` from this conversion, but possible with some very special types that will not be mentioned here. For exams, please use more explicit operations instead of this conversion, e.g. `len(list) == 0` instead of `not list`. <!--SR:!2024-10-20,19,366!2024-10-14,13,346-->
+- `bool(value)` ::: Converts `value` to a `bool`. If it is an `int` or `float`, converts to `True` unless `value` is zero, i.e. `value == 0`. If it is a `str` or `list`, converts to `True` unless `value` is empty, i.e. `value == ""` or `value == []`. There are also many other situations where `value` returns `True` unless `value` satisfies something, which will be unmentioned here. It is very difficult to get a `TypeError` or `ValueError` from this conversion, but possible with some very special types that will not be mentioned here. For exams, please use more explicit operations instead of this conversion, e.g. `len(list) == 0` instead of `not list`. <!--SR:!2024-10-20,19,366!2024-12-21,65,366-->
 - `float(value)` ::: Converts `value` to a `float`. If it is an `int`, the same value but in `float` is returned. If it is a `str`, it removes whitespaces (spaces) surrounding the string and then parse it as a `float`, and raises a `ValueError` if it is invalid, e.g. an empty string, the string `.` (but not `0.`, `.0`, etc.), contains alphabets (except for `e` as used in exponential notation, e.g. `1e+100` and `1.2e-100` are valid), etc. (But `float("1.")`, `float(".1")`, `float("  4.2  ")`, etc. are valid. In general, if the string is a valid `float` when treated as Python code, the string is valid.) <!--SR:!2024-11-17,47,320!2024-10-24,30,300-->
 - `int(value)` ::: Converts `value` to a `int`. If it is an `float`, the numbers behind the decimal point `.` is removed and then the rest is returned as an `int`. If it is a `str`, it removes whitespaces (spaces) surrounding the string and then parse it as a `int`, and raises a `ValueError` if it is invalid, e.g. an empty string, contains a decimal point `.`, contains alphabets, etc. (But `int("  4  ")` is valid. In general, if the string is a valid `int` when treated as Python code, the string is valid.) <!--SR:!2024-11-06,41,320!2024-11-29,60,340-->
-- `list(value)` ::: Converts `value` to a `list`. If it is a `str`, then the resulting list consists of its individual characters (but note each individual character is still a `str`). If it is a `range(n)`, then the resulting list consists of `int`s from `0` (inclusive) to `n - 1` (inclusive). There are some other valid conversions not mentioned here. If the conversion is invalid (e.g. `value` is `int`), then it raises a `TypeError`. <br/> additional information: Technically speaking, if `value` is _iterable_, then the resulting list consists of elements of that iterable. Otherwise, it raises a `TypeError`. <!--SR:!2024-10-13,12,346!2024-10-15,14,346-->
+- `list(value)` ::: Converts `value` to a `list`. If it is a `str`, then the resulting list consists of its individual characters (but note each individual character is still a `str`). If it is a `range(n)`, then the resulting list consists of `int`s from `0` (inclusive) to `n - 1` (inclusive). There are some other valid conversions not mentioned here. If the conversion is invalid (e.g. `value` is `int`), then it raises a `TypeError`. <br/> additional information: Technically speaking, if `value` is _iterable_, then the resulting list consists of elements of that iterable. Otherwise, it raises a `TypeError`. <!--SR:!2024-12-17,61,366!2024-12-02,46,346-->
 - `str(value)` ::: Converts `value` to a `str`. (Almost) anything can be converted into a `str`. The resulting string is the same as that outputted by `print(value)`. <!--SR:!2024-12-03,64,340!2024-12-29,87,360-->
 
 ## input

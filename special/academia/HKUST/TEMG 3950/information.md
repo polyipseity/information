@@ -20,7 +20,7 @@ tags:
 
 ## context
 
-Education needs to prepare for {{future jobs that we do not know now}}. This is needed to adapt in our {{very fast moving world of disruptive technology}}, such as autonomous flying taxis, ChatGPT, etc. One way to do that is via {{learning [metaknowledge](../../../../general/metaknowledge.md)}}. <!--SR:!2024-10-15,129,290!2025-01-09,195,310!2025-03-02,241,330-->
+Education needs to prepare for {{future jobs that we do not know now}}. This is needed to adapt in our {{very fast moving world of disruptive technology}}, such as autonomous flying taxis, ChatGPT, etc. One way to do that is via {{learning [metaknowledge](../../../../general/metaknowledge.md)}}. <!--SR:!2026-03-21,520,310!2025-01-09,195,310!2025-03-02,241,330-->
 
 Some important metaknowledge in this 21st century are the 4Cs: {{collaboration to solve large problems, communication to convince people, creativity to make new things, and critical thinking and problem solving to solve problems}}. <!--SR:!2024-10-27,112,250-->
 
@@ -72,12 +72,12 @@ value proposition canvas
 
 - _(begin)_→:::←blue ocean strategy: Break the value–cost tradeoff. For example, London cab services (red) and Uber (blue). <!--SR:!2025-04-16,245,290!2025-03-12,248,330-->
 - blue ocean strategy: Break the value–cost tradeoff. For example, London cab services (red) and Uber (blue).→:::←business model canvas <!--SR:!2025-04-04,218,270!2024-12-07,115,250-->
-- business model canvas→:::←competitor analysis <!--SR:!2025-01-28,183,270!2024-10-13,107,250-->
+- business model canvas→:::←competitor analysis <!--SR:!2025-01-28,183,270!2025-07-24,280,250-->
 - competitor analysis→:::←customer discovery <!--SR:!2024-11-11,60,190!2025-05-01,245,270-->
-- customer discovery→:::←customer segmentation <!--SR:!2024-10-15,123,290!2024-10-16,129,290-->
+- customer discovery→:::←customer segmentation <!--SR:!2026-03-10,509,310!2026-03-21,520,310-->
 - customer segmentation→:::←customer validation <!--SR:!2025-04-06,220,270!2024-12-11,148,270-->
 - customer validation→:::←design thinking <!--SR:!2024-11-28,58,190!2025-04-28,237,270-->
-- design thinking→:::←idea generation: Put oneself in customers' shoes. For example, examine old mousetraps and build a better one. <!--SR:!2024-10-13,52,170!2024-12-28,93,230-->
+- design thinking→:::←idea generation: Put oneself in customers' shoes. For example, examine old mousetraps and build a better one. <!--SR:!2025-01-17,92,170!2024-12-28,93,230-->
 - idea generation: Put oneself in customers' shoes. For example, examine old mousetraps and build a better one.→:::←product validation <!--SR:!2024-11-23,96,230!2024-10-18,57,210-->
 - product validation→:::←value proposition canvas <!--SR:!2024-12-31,84,170!2025-06-12,247,250-->
 - value proposition canvas→:::←_(end)_ <!--SR:!2025-03-06,244,330!2024-10-19,64,250-->
@@ -135,7 +135,7 @@ root cause analysis, 5 whys
 - _(begin)_→:::←4P: McCarthy's 4 Ps <!--SR:!2024-11-17,80,301!2025-08-02,327,341-->
 - 4P: McCarthy's 4 Ps→:::←5-step persuasive selling <!--SR:!2025-02-21,155,261!2025-01-31,165,301-->
 - 5-step persuasive selling→:::←5C: Chernev 5C framework <!--SR:!2025-01-03,144,301!2024-11-20,113,301-->
-- 5C: Chernev 5C framework→:::←5F: Porter's 5 forces framework <!--SR:!2024-10-17,88,281!2025-01-07,146,301-->
+- 5C: Chernev 5C framework→:::←5F: Porter's 5 forces framework <!--SR:!2025-06-28,254,281!2025-01-07,146,301-->
 - 5F: Porter's 5 forces framework→:::←7S: McKinsey 7S framework <!--SR:!2024-12-15,131,301!2025-03-23,206,321-->
 - 7S: McKinsey 7S framework→:::←PESTLE: Aguilar's PESTLE framework <!--SR:!2024-11-11,42,261!2025-01-08,130,281-->
 - PESTLE: Aguilar's PESTLE framework→:::←PPTG: people, process, technology, governance framework <!--SR:!2024-11-20,100,261!2025-03-30,181,281-->

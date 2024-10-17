@@ -43,7 +43,7 @@ To {{add a new item (not replace existing items) to the back of a list}}, use {{
 
 To {{remove an the _n_-th existing item}}. use {{`list.pop(index)`, with `index` being _n_ - 1}}. Note that `index` accepts {{numbers in the same ways as in the [indexing](#indexing) notation, i.e. negative indices are accepted and have the same meaning}}. Likewise, if {{the index is out of range or `list` is empty}}, then {{an `IndexError` will be raised}}. Not specifying {{the `index` is also okay (`list.pop()`), and `index` will be set to `-1` by default, meaning the last item will be removed}}. After removing the item, it will {{return the removed item}}. <!--SR:!2024-11-08,44,294!2024-10-31,37,294!2024-11-09,44,294!2024-11-30,61,314!2024-10-25,31,294!2024-12-07,67,314!2024-11-28,59,310-->
 
-To {{concatenate/join two lists (or strings)}}, use {{the `+` operator}}. Note that {{the resulting list is different from the original 2 lists, i.e. modifying the resulting list will not modify the original 2 lists}}. Since {{`str`s cannot be modified}}, the above is irrelevant for strings. If {{the `+` operator is applied between different types}}, then {{a `TypeError` will be raised}}. <!--SR:!2024-10-12,18,316!2024-10-12,18,316!2024-10-12,18,316!2024-10-12,18,316!2024-10-12,18,316!2024-10-12,18,316-->
+To {{concatenate/join two lists (or strings)}}, use {{the `+` operator}}. Note that {{the resulting list is different from the original 2 lists, i.e. modifying the resulting list will not modify the original 2 lists}}. Since {{`str`s cannot be modified}}, the above is irrelevant for strings. If {{the `+` operator is applied between different types}}, then {{a `TypeError` will be raised}}. <!--SR:!2025-01-08,83,336!2025-01-08,83,336!2025-01-08,83,336!2025-01-08,83,336!2025-01-08,83,336!2025-01-08,83,336-->
 
 ## length
 
@@ -59,5 +59,5 @@ Aggregate functions {{summarize a result from a list}}. <!--SR:!2024-10-28,34,29
 
 ## search functions
 
-- `list.count(val)` ::: Count the number of `val`s in `list`. Returns `0` if `val` is not found in the list. Equality is compared using `==`, so `[0, 0.0].count(0.0)` is `2` instead of `1`. <!--SR:!2024-11-17,40,316!2024-10-12,18,316-->
-- `list.index(val)` ::: Returns the index of `val` in `list`. The index of the leftmost item is returned if there are multiple matching items. Raises `ValueError` if `val` is not found in the list. Equality is compared using `==`, so `[0, 0.0].index(0.0)` is `0` instead of `1`. <!--SR:!2024-10-12,18,316!2024-10-12,18,316-->
+- `list.count(val)` ::: Count the number of `val`s in `list`. Returns `0` if `val` is not found in the list. Equality is compared using `==`, so `[0, 0.0].count(0.0)` is `2` instead of `1`. <!--SR:!2024-11-17,40,316!2025-01-08,83,336-->
+- `list.index(val)` ::: Returns the index of `val` in `list`. The index of the leftmost item is returned if there are multiple matching items. Raises `ValueError` if `val` is not found in the list. Equality is compared using `==`, so `[0, 0.0].index(0.0)` is `0` instead of `1`. <!--SR:!2025-01-08,83,336!2025-01-08,83,336-->

@@ -21,7 +21,7 @@ The __CNO cycle__ (for {{[carbon](carbon.md)–[nitrogen](nitrogen.md)–[oxygen
 
 ## cold CNO cycles
 
-Under {{typical conditions found in stars}}, catalytic hydrogen burning by the CNO cycles is {{limited by [proton captures](proton%20capture.md)}}. Specifically, {{the timescale for [beta decay](beta%20decay.md) of the [radioactive nuclei](radionuclide.md) produced is faster than the timescale for fusion}}. Because of the long timescales involved, the cold CNO cycles {{convert hydrogen to helium slowly, allowing them to power stars in quiescent equilibrium for many years}}. <!--SR:!2024-10-21,64,310!2024-10-25,67,310!2024-12-18,90,270!2024-10-16,59,310-->
+Under {{typical conditions found in stars}}, catalytic hydrogen burning by the CNO cycles is {{limited by [proton captures](proton%20capture.md)}}. Specifically, {{the timescale for [beta decay](beta%20decay.md) of the [radioactive nuclei](radionuclide.md) produced is faster than the timescale for fusion}}. Because of the long timescales involved, the cold CNO cycles {{convert hydrogen to helium slowly, allowing them to power stars in quiescent equilibrium for many years}}. <!--SR:!2024-10-21,64,310!2024-10-25,67,310!2024-12-18,90,270!2025-04-26,191,310-->
 
 ### CNO-I
 
@@ -30,7 +30,7 @@ The CN-cycle, named as {{it contains no stable isotope of oxygen}}, involves the
 This cycle is now understood as {{being the first part of a larger process, the CNO-cycle}}, and the main reactions in this part of the cycle (CNO-I) are: <!--SR:!2025-06-26,254,330-->
 
 - 1st step ::: $${}_{\phantom{0}6}^{12}\mathrm{C} + {}_1^1\mathrm{H} \rightarrow {}_{\phantom{0}7}^{13}\mathrm{N} + \gamma + 1.95~\mathrm{MeV}$$ <!--SR:!2024-11-12,67,270!2025-02-24,139,290-->
-  - 1st step / energy release (& half-life if available) ::: 1.95 MeV <!--SR:!2025-03-21,157,270!2024-10-16,50,270-->
+  - 1st step / energy release (& half-life if available) ::: 1.95 MeV <!--SR:!2025-03-21,157,270!2025-04-26,191,290-->
 - 2nd step ::: $${}_{\phantom{0}7}^{13}\mathrm{N} \rightarrow {}_{\phantom{0}6}^{13}\mathrm{C} + \mathrm{e}^+ + \nu_{\mathrm{e} } + 1.20~\mathrm{MeV} \quad (\text{half life of 9.965 minutes})$$ <!--SR:!2024-11-22,45,190!2024-10-20,62,310-->
   - 2nd step / energy release (& half-life if available) ::: 1.20 Mev, 9.965 minutes <!--SR:!2024-11-19,35,170!2025-01-13,111,290-->
 - 3rd step ::: $${}_{\phantom{0}6}^{13}\mathrm{C} + {}_1^1\mathrm{H} \rightarrow {}_{\phantom{0}7}^{14}\mathrm{N} + \gamma + 7.54~\mathrm{MeV}$$ <!--SR:!2024-11-19,71,270!2025-04-08,175,310-->

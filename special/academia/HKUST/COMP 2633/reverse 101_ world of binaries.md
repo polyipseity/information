@@ -29,7 +29,7 @@ Instead, we are more interested in {{the compilation process itself}}. We like t
 
 Preprocessing {{transforms source program (text) into modified source program (still text)}}. GCC internally {{uses the program `cpp`, which we can use by itself}}, for this step. To only run this step with GCC, the command is {{`gcc -E <input>.c > <output>.i`, which writes to `<output>.i`}}. <!--SR:!2024-12-12,79,345!2024-11-19,56,325!2024-11-01,44,303-->
 
-Compilation {{transforms modified source program (text) into assembly program (still text)}}. GCC internally {{uses the program `cc1`, part of the GCC}}, for this step. To only run this step, the command is {{`gcc -S <input>.i`, which outputs a `.s` file}}. <!--SR:!2024-11-21,59,337!2024-11-23,60,323!2024-10-11,25,283-->
+Compilation {{transforms modified source program (text) into assembly program (still text)}}. GCC internally {{uses the program `cc1`, part of the GCC}}, for this step. To only run this step, the command is {{`gcc -S <input>.i`, which outputs a `.s` file}}. <!--SR:!2024-11-21,59,337!2024-11-23,60,323!2025-01-26,101,303-->
 
 Assembly {{transforms assembly program (text) into relocatable object (binary)}}. GCC internally {{uses the program `as`, which we can use by itself}}, for this step. To only run this step, the command is {{`gcc -c <input>.s`, which outputs a `.o` file}}. <!--SR:!2024-12-04,71,323!2024-11-20,57,310!2024-11-29,66,337-->
 
@@ -69,7 +69,7 @@ Below is a list of common instructions (in learning order):
 - `add <dest> <src>` ::: Increment the value at `<dest>` by `<src>`. <!--SR:!2024-11-24,61,310!2024-11-21,58,323-->
 - `sub <dest> <src>` ::: Decrement the value at `<dest>` by `<src>`. <!--SR:!2024-12-18,83,345!2024-12-08,75,345-->
 - `imul <dest> <src>` ::: Multiply the value at `<dest>` by `<src>`, signed. <!--SR:!2024-12-02,69,337!2024-12-07,74,345-->
-- `idiv <src>` ::: Divide the value at `ax` (8-bit), `dx:ax` (16-bit), `edx:eax` (32-bit), or `rdx:rax` (64-bit) by `<src>`, truncated towards 0 and signed. <!--SR:!2024-10-17,29,270!2024-12-04,71,337-->
+- `idiv <src>` ::: Divide the value at `ax` (8-bit), `dx:ax` (16-bit), `edx:eax` (32-bit), or `rdx:rax` (64-bit) by `<src>`, truncated towards 0 and signed. <!--SR:!2025-01-06,81,270!2024-12-04,71,337-->
 - `and <dest> <src>` ::: Bitwise and the value at `<dest>` with `<src>`. <!--SR:!2024-12-06,74,343!2024-11-27,64,323-->
 - `or <dest> <src>` ::: Bitwise or the value at `<dest>` with `<src>`. <!--SR:!2024-12-17,83,345!2024-11-20,57,310-->
 - `xor <dest> <src>` ::: Bitwise exclusive-or the value at `<dest>` with `<src>`. <!--SR:!2024-12-12,79,345!2024-12-16,82,343-->
@@ -84,7 +84,7 @@ Below is a list of common instructions (in learning order):
 - `jcc <addr>` ::: Jump to `<addr>` depending on a condition. `cc` stands for `condition code`. It represents multiple instructions, such as `je` (jump if equal), `jz` (jump if zero, equivalent to `je`), `jnz` (jump if nonzero), `jg` (jump if greater, signed), `ja` (jump if above, unsigned), `jbe` (jump if below or equal, unsigned), `jnle` (jump if not less or equal), etc. Usually used with a `cmp` or `test` in the previous executed instruction. <!--SR:!2024-11-11,48,325!2024-11-16,54,323-->
 - `nop` ::: Does nothing. It has the value `0x90`. <!--SR:!2024-12-09,76,343!2024-11-24,62,323-->
 - `syscall` ::: Perform a system call (syscall). A system call interacts with the operating system. The system call invoked depends on the value of `eax`/`rax`, and parameters required by the system call depends on other registers. <!--SR:!2024-11-01,45,317!2024-12-03,70,323-->
-  - `syscall` / write ::: `rax` is `1`, `rdi` is the file descriptor to be written to (`1` for stdout), `rsi` is the start address of the string to write, and `rdx` is the length of the string to write. Note that the null terminator is irrelevant here, as assembly does not specify a way to indicate the end of a string and can accommodate any way of doing so. <!--SR:!2024-10-12,18,230!2024-11-17,55,317-->
+  - `syscall` / write ::: `rax` is `1`, `rdi` is the file descriptor to be written to (`1` for stdout), `rsi` is the start address of the string to write, and `rdx` is the length of the string to write. Note that the null terminator is irrelevant here, as assembly does not specify a way to indicate the end of a string and can accommodate any way of doing so. <!--SR:!2024-11-23,37,230!2024-11-17,55,317-->
 
 ### sections
 
@@ -105,7 +105,7 @@ A key idea in assembly that {{code and data are treated the same}}. Indeed, data
 - `resq <size>` ::: Reserve `<size>` number of qwords (8 bytes, quadruple word). All modern operating systems will also fill it with zeros. It is commonly used in `.bss`. <!--SR:!2024-11-20,57,325!2024-12-17,82,345-->
 - `resw <size>` ::: Reserve `<size>` number of word (2 bytes). All modern operating systems will also fill it with zeros. It is commonly used in `.bss`. <!--SR:!2024-10-23,37,303!2024-11-25,63,337-->
 
-Since {{a program requires a starting point}}, usually we are required to {{[label](#labels) the starting instruction with the name `_start`, and make it global by prepending the line `global _start` before the line with the `_start` label}}. <!--SR:!2024-10-12,26,283!2024-11-30,68,345-->
+Since {{a program requires a starting point}}, usually we are required to {{[label](#labels) the starting instruction with the name `_start`, and make it global by prepending the line `global _start` before the line with the `_start` label}}. <!--SR:!2025-01-30,105,303!2024-11-30,68,345-->
 
 ### labels
 

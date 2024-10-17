@@ -44,7 +44,7 @@ else:
   ...
 ```
 
-The semantics of `if...elif...else` can be found by consider the semantics of chaining `if...else`: {{The statement after the first `true` condition is executed. If there are no `true` conditions, the statement block after `else` is executed if there is an `else`. Otherwise, nothing is executed}}. Note that {{the conditions up until the first `true` condition (inclusive) are themselves always executed in the appearance order, ignoring statement blocks along the way. If there are no `true` conditions, all conditions are always executed in the appearance order, followed by the `else` statement block if there is one}}. <!--SR:!2024-10-11,17,290!2024-11-19,42,290-->
+The semantics of `if...elif...else` can be found by consider the semantics of chaining `if...else`: {{The statement after the first `true` condition is executed. If there are no `true` conditions, the statement block after `else` is executed if there is an `else`. Otherwise, nothing is executed}}. Note that {{the conditions up until the first `true` condition (inclusive) are themselves always executed in the appearance order, ignoring statement blocks along the way. If there are no `true` conditions, all conditions are always executed in the appearance order, followed by the `else` statement block if there is one}}. <!--SR:!2024-12-24,68,310!2024-11-19,42,290-->
 
 If {{there are no statements to be executed in a branch}}, you {{must still put a properly indented `pass` statement, which does nothing, for that branch}}. This is also {{true for other control flow constructs introduced below}}. For example: <!--SR:!2024-11-21,44,290!2024-11-16,45,290!2024-12-13,64,310-->
 
@@ -53,7 +53,7 @@ if condition:
   pass # required, otherwise error
 ```
 
-Python has {{no `switch` statements before Python 3.10. Since Python 3.10, Python has `match...case` statement, but it will not be described here}}. <!--SR:!2024-10-11,17,290-->
+Python has {{no `switch` statements before Python 3.10. Since Python 3.10, Python has `match...case` statement, but it will not be described here}}. <!--SR:!2024-12-24,68,310-->
 
 ## iteration
 
@@ -72,33 +72,33 @@ Iterables can be {{ranges, strings, lists, and many more not mentioned here}}. T
 
 To emulate the traditional `for` loop, one uses {{`range` and specifies the starting point (inclusive), ending point (exclusive), and step}}. A `for` loop with code in the form of `for (int idx = begin; idx < end; idx += step)` translates to {{`for idx in range(begin, end, step):` (if `step` is negative, then `idx < end` becomes `idx > end`)}}. `range(begin, end, step)` has shorter forms: {{`range(begin, end)` is equivalent to `range(begin, end, 1)` and `range(end)` is equivalent to `range(0, end, 1)`}}. <!--SR:!2024-10-18,18,312!2024-10-18,18,312!2024-10-18,18,312-->
 
-If {{there are no statements to be executed in a `for`-iteration}}, you {{must still put a properly indented `pass` statement, which does nothing, for that iteration}}. For example: <!--SR:!2024-10-13,3,297!2024-10-13,3,297-->
+If {{there are no statements to be executed in a `for`-iteration}}, you {{must still put a properly indented `pass` statement, which does nothing, for that iteration}}. For example: <!--SR:!2024-10-28,11,317!2024-10-28,11,317-->
 
 ```Python
 for loop_variables in iterable:
   pass # required, otherwise error
 ```
 
-If {{you want to stop a `for` loop early}}, use {{the `break` statement}}. This will {{stop the innermost `for` or `while` loop}}. <!--SR:!2024-10-14,4,311!2024-10-14,4,311!2024-10-14,4,311-->
+If {{you want to stop a `for` loop early}}, use {{the `break` statement}}. This will {{stop the innermost `for` or `while` loop}}. <!--SR:!2024-11-05,19,331!2024-11-05,19,331!2024-11-05,19,331-->
 
 ### while-iteration
 
-In Python, `while` can also perform iteration. A `while` statement consists of {{a condition and a statement block}}: <!--SR:!2024-10-14,4,311-->
+In Python, `while` can also perform iteration. A `while` statement consists of {{a condition and a statement block}}: <!--SR:!2024-11-05,19,331-->
 
 ```Python
 while condition:
   statement_block
 ```
 
-The semantics of `while` is {{that the condition is executed first. If the condition is `true`, the statement block is executed and then we repeat the above process again. If the condition is `false`, the `while` statement ends its execution}}. <!--SR:!2024-10-14,4,311-->
+The semantics of `while` is {{that the condition is executed first. If the condition is `true`, the statement block is executed and then we repeat the above process again. If the condition is `false`, the `while` statement ends its execution}}. <!--SR:!2024-11-05,19,331-->
 
-If {{there are no statements to be executed in a `while`-iteration}}, you {{must still put a properly indented `pass` statement, which does nothing, for that iteration}}. For example: <!--SR:!2024-10-14,4,317!2024-10-14,4,317-->
+If {{there are no statements to be executed in a `while`-iteration}}, you {{must still put a properly indented `pass` statement, which does nothing, for that iteration}}. For example: <!--SR:!2024-11-06,20,337!2024-11-06,20,337-->
 
 ```Python
 while condition:
   pass # required, otherwise error
 ```
 
-If {{you want to stop a `while` loop early in the loop}}, use {{the `break` statement}}. This will {{stop the innermost `for` or `while` loop}}. <!--SR:!2024-10-14,4,311!2024-10-14,4,311!2024-10-14,4,311-->
+If {{you want to stop a `while` loop early in the loop}}, use {{the `break` statement}}. This will {{stop the innermost `for` or `while` loop}}. <!--SR:!2024-11-05,19,331!2024-11-05,19,331!2024-11-05,19,331-->
 
-ISOM 2020 note: {{We have only learnt `while True`. ONLY USE `while True` in your exercises, labs, and exams.}} If {{you really need a condition to stop the loop}}, use {{`break` under an `if` statement checking for said condition}}. <!--SR:!2024-10-14,4,311!2024-10-14,4,311!2024-10-14,4,311-->
+ISOM 2020 note: {{We have only learnt `while True`. ONLY USE `while True` in your exercises, labs, and exams.}} If {{you really need a condition to stop the loop}}, use {{`break` under an `if` statement checking for said condition}}. <!--SR:!2024-11-05,19,331!2024-11-05,19,331!2024-11-05,19,331-->
