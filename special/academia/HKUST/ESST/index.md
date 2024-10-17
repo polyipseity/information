@@ -14,6 +14,8 @@ tags:
 
 - HKUST Engineering Student Safety Training
 
+<!-- list separator -->
+
 - [electrical safety](electrical%20safety/index.md)
 - [occupational health](occupational%20health/index.md)
 - [pressure safety](pressure%20safety/index.md)

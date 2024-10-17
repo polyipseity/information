@@ -19,6 +19,8 @@ tags:
 - HKUST DASC 2210
 - name: A Survey on Big Data in Science and Society
 
+<!-- list separator -->
+
 - [DIKW pyramid](../../../../general/DIKW%20pyramid.md)
 
 ## aftermath

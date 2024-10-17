@@ -193,6 +193,8 @@ The content is in teaching order.
 
 - time: 2024-09-16T10:30:00+08:00/2024-09-16T11:20:00+08:00
 - topic: solving counting problems
+- [permutation](../../../../general/permutation.md)
+- [combination](../../../../general/combination.md)
 - [questions/2024-09-16/lecture](questions/2024-09-16%20lecture.md)
 - materials
   - [lecture video](https://youtu.be/YyNe0mgrK1A)
@@ -203,6 +205,8 @@ The content is in teaching order.
 
 - time: 2024-09-16T18:00:00+08:00/2024-09-16T18:50:00+08:00
 - topic: more counting
+- [permutation](../../../../general/permutation.md)
+- [combination](../../../../general/combination.md)
 - [questions/2024-09-16/tutorial](questions/2024-09-16%20tutorial.md)
 - [week 3 problem set](questions/week%203%20problem%20set.md)
 - materials
@@ -228,6 +232,9 @@ The content is in teaching order.
 
 - time: 2024-09-23T10:30:00+08:00/2024-09-23T11:20:00+08:00
 - topic: principle of inclusion and exclusion
+- [inclusion–exclusion principle](../../../../general/inclusion–exclusion%20principle.md)
+  - [§ inclusion–exclusion principle](../../../../general/inclusion–exclusion%20principle.md#inclusion–exclusion%20principle)
+  - Look at other sections as well, especially the examples.
 - [questions/2024-09-23/lecture](questions/2024-09-23%20lecture.md)
 - materials
   - [lecture video](https://youtu.be/c0fb16fNpXY)
@@ -241,6 +248,10 @@ The content is in teaching order.
 
 - time: 2024-09-23T18:00:00+08:00/2024-09-23T18:50:00+08:00
 - topic: generalized principle of inclusion and exclusion
+- [inclusion–exclusion principle](../../../../general/inclusion–exclusion%20principle.md)
+  - [§ inclusion–exclusion principle](../../../../general/inclusion–exclusion%20principle.md)
+  - [§ formula generalization](../../../../general/inclusion–exclusion%20principle.md#formula%20generalization)
+  - Look at other sections as well, especially the examples.
 - [questions/2024-09-23/tutorial](questions/2024-09-23%20tutorial.md)
 - materials
   - [lecture video](https://youtu.be/58cvEnENNYs)
