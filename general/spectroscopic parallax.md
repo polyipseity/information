@@ -18,7 +18,7 @@ Despite its name, it {{does not rely on the geometric [parallax](parallax.md) ef
 
 To apply this method, one must {{measure the [apparent magnitude](apparent%20magnitude.md) of the star and know the [spectral type](stellar%20classification.md) of the star}}. The spectral type can be {{determined by observing the star's spectrum}}. If the star {{lies on the main sequence, as determined by its [luminosity class](stellar%20classification.md#luminosity%20class)}}, the spectral type of the star {{provides a good estimate of the star's [absolute magnitude](absolute%20magnitude.md)}}. Knowing {{the apparent magnitude (m) and absolute magnitude (M) of the star}}, one can {{calculate the distance (d, in parsecs) of the star using $m-M=5\log(d/10)$ (see [distance modulus](distance%20modulus.md))}}. The true distance to the star {{may be different than the one calculated due to [interstellar extinction](extinction%20(astronomy).md)}}.<sup>[\[3\]](#^ref-3)</sup> <!--SR:!2024-11-02,66,310!2025-03-08,144,290!2024-10-26,60,310!2024-11-06,69,310!2024-11-01,65,310!2025-01-11,104,290!2025-02-18,144,310-->
 
-The method ultimately derives from {{the spectroscopic studies of sunspots and stars}} by [Walter Sydney Adams](Walter%20Sydney%20Adams.md) and [Ernst Arnold Kohlschütter](Arnold%20Kohlschütter.md).<sup>[\[4\]](#^ref-4)</sup> <!--SR:!2024-10-18,53,290-->
+The method ultimately derives from {{the spectroscopic studies of sunspots and stars}} by [Walter Sydney Adams](Walter%20Sydney%20Adams.md) and [Ernst Arnold Kohlschütter](Arnold%20Kohlschütter.md).<sup>[\[4\]](#^ref-4)</sup> <!--SR:!2025-05-20,214,310-->
 
 The method is an important step {{on the [cosmic distance ladder](cosmic%20distance%20ladder.md)}}. <!--SR:!2025-04-01,175,310-->
 

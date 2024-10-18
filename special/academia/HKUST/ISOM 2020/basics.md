@@ -235,7 +235,7 @@ To define a string in Python, {{enclose the string in either double quotes `"exa
 
 `\` is {{the escape character}}. Apart from {{escaping quotes (`\"`, `\'`) and itself (`\\`)}}, it can also {{represent a newline using `\n` and a tab character (kinda like a wider space, but not exactly) using `\t`}}. <!--SR:!2025-01-14,98,363!2024-12-15,68,343!2024-11-28,58,343-->
 
-To {{find the length of a string}}, use {{`len(str)`, which returns an `int` representing the number of characters in `str`}}. To {{concatenate/join two strings}}, use {{the `+` operator}}. If {{the `+` operator is applied between a `str` and another (incompatible) type}}, then {{a `TypeError` will be raised}}. <!--SR:!2025-01-20,95,369!2024-12-21,65,349!2025-01-25,100,369!2025-01-25,100,369!2024-10-21,20,366!2024-10-18,18,366-->
+To {{find the length of a string}}, use {{`len(str)`, which returns an `int` representing the number of characters in `str`}}. To {{concatenate/join two strings}}, use {{the `+` operator}}. If {{the `+` operator is applied between a `str` and another (incompatible) type}}, then {{a `TypeError` will be raised}}. <!--SR:!2025-01-20,95,369!2024-12-21,65,349!2025-01-25,100,369!2025-01-25,100,369!2024-10-21,20,366!2025-01-18,92,386-->
 
 Like lists, strings can be {{indexed using the `string_var[n]`, which access the _n_ + 1-th character of the string}}. If {{the index is out of range}}, then {{an `IndexError` will be raised}}. But unlike lists, strings {{cannot be modified using the indexing notation, because strings in Python are immutable (not modifiable)}}. <!--SR:!2024-10-22,5,357!2024-10-22,5,357!2024-10-22,5,357!2024-10-22,5,357-->
 

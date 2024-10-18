@@ -77,7 +77,7 @@ return _chain.from_iterable(await _gather(
 - `Boolean`::Either `True` or `False`. <!--SR:!2025-01-17,270,330-->
 - `Double`::A floating point number with double precision (15 to 17 significant figures). One can effectively treat it as a decimal number for most purposes. <!--SR:!2026-12-22,796,330-->
 - `Integer`::An integer from -2<sup>15</sup> = -32768 to 2<sup>15</sup>-1 = 32767. <!--SR:!2025-03-28,326,345-->
-- `Long`::An integer from -2<sup>31</sup> = -2147483648 to 2<sup>31</sup>-1 = 2147483647. <!--SR:!2024-10-18,179,310-->
+- `Long`::An integer from -2<sup>31</sup> = -2147483648 to 2<sup>31</sup>-1 = 2147483647. <!--SR:!2026-11-23,766,330-->
 - `Single`::A floating point number with single precision (6 to 9 significant figures). One can effectively treat it as a decimal number for most purposes. <!--SR:!2024-12-17,225,310-->
 
 <!--/pytextgen-->

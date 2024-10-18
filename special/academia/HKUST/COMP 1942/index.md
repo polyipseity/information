@@ -309,7 +309,7 @@ The content is in teaching order.
   - [§ basic structure](../../../../general/artificial%20neuron.md#basic%20structure)
   - [§ types of activation functions](../../../../general/artificial%20neuron.md#types%20of%20activation%20function)
   - [§ step function](../../../../general/artificial%20neuron.md#step%20function)
-    - step function threshold ::: _θ_ = 0 <!--SR:!2024-10-18,102,377!2024-10-25,108,377-->
+    - step function threshold ::: _θ_ = 0 <!--SR:!2026-03-28,526,397!2024-10-25,108,377-->
   - [§ rectifier](../../../../general/artificial%20neuron.md#rectifier)
   - [§ sigmoid](../../../../general/artificial%20neuron.md#sigmoid)
     - sigmoid function variants ::: [logistic function](../../../../general/logistic%20function.md) with _L_ = 1, _k = 1_, and _x_<sub>0</sub> = 0: $$y = \frac 1 {1 + e^{-u} }$$, [hyperbolic tangent](../../../../general/hyperbolic%20functions.md) ($\tanh$): $$y = \frac {\sinh u} {\cosh u} = \frac {e^u - e^{-u} } {e^u + e^{-u} } = \frac {e^{2u} - 1} {e^{2u} + 1}$$ <!--SR:!2024-12-03,124,337!2025-03-21,204,357-->
@@ -368,10 +368,10 @@ The content is in teaching order.
   - [§ intuition](../../../../general/principal%20component%20analysis.md#intuition)
   - [§ computing PCA using the covariance method](../../../../general/principal%20component%20analysis.md#computing%20PCA%20using%20the%20covariance%20method)
     - § computing PCA using the covariance method > matrix __X__ ::: The matrix __X__ taught in lesson uses the symbol __Y__, and is transposed: $\mathbf{Y} = \mathbf{X}^\intercal$. <!--SR:!2024-10-24,107,377!2026-03-23,522,397-->
-    - § computing PCA using the covariance method > covariance matrix __C__ ::: The matrix __C__ taught in lesson uses the symbol __Σ__, and divides by _n_ instead of $n - 1$. <!--SR:!2024-10-18,102,377!2025-07-30,322,377-->
+    - § computing PCA using the covariance method > covariance matrix __C__ ::: The matrix __C__ taught in lesson uses the symbol __Σ__, and divides by _n_ instead of $n - 1$. <!--SR:!2025-11-02,380,377!2025-07-30,322,377-->
     - § computing PCA using the covariance method > eigenvalues and eigenvectors ::: The [classical method](../../../../general/eigenvalues%20and%20eigenvectors.md#classical%20method) is used to calculate. The eigenvalues _λ_ are found using $\det(\mathbf{\Sigma} - \lambda \mathbf{I})$ instead of $\det(\lambda \mathbf{I} - \mathbf{\Sigma})$. The eigenvectors are normalized. <!--SR:!2025-07-14,313,377!2025-04-15,236,357-->
       - [eigenvalues and eigenvectors § classical method](../../../../general/eigenvalues%20and%20eigenvectors.md#classical%20method)
-        - eigenvalues and eigenvectors § classical method > eigenvector ::: The eigenvector is calculated from the eigenvalue using $(\mathbf{\Sigma} - \lambda \mathbf{I}) \mathbf{x} = \mathbf{0}$ instead of $\mathbf{\Sigma} \mathbf{x} = \lambda \mathbf{x}$. <!--SR:!2024-10-18,101,377!2025-08-18,342,377-->
+        - eigenvalues and eigenvectors § classical method > eigenvector ::: The eigenvector is calculated from the eigenvalue using $(\mathbf{\Sigma} - \lambda \mathbf{I}) \mathbf{x} = \mathbf{0}$ instead of $\mathbf{\Sigma} \mathbf{x} = \lambda \mathbf{x}$. <!--SR:!2026-03-28,526,397!2025-08-18,342,377-->
     - § computing PCA using the covariance method > eigenvector matrix ::: The eigenvector matrix uses the symbol __Φ__. Instead of selecting a subset of the eigenvectors as the basis vectors first, the whole matrix is kept, and then the redundant coordinates are only discarded after transforming the original data. <!--SR:!2025-09-13,340,377!2025-03-22,205,357-->
     - § computing PCA using the covariance method > cumulative variance ::: Cumulative variance is ignored. So the step about computing the cumulative variance is ignored. Instead, the number of dimensions to be reduced to is specified beforehand instead of being chosen using the ignored step. <!--SR:!2025-04-04,217,357!2025-01-02,143,337-->
     - § computing PCA using the covariance method > data transformation ::: Also, instead of transforming the mean-subtracted data using $\mathbf{T} = \mathbf{B} \mathbf{\Phi}$, the original data $\mathbf{Y} = \mathbf{X}^\intercal$ is transformed, and in a different way: $\mathbf{T}' = \mathbf{\Phi}^\intercal \mathbf{Y}$. Each column instead of each row of $\mathbf{T}'$ is a data point. Even more specifically, the data points are transformed one by one: $\mathbf{T}'_i = \mathbf{\Phi}^\intercal \mathbf{Y}_i$. <!--SR:!2025-02-19,181,337!2025-02-02,166,337-->
@@ -386,7 +386,7 @@ The content is in teaching order.
 - [principal component analysis § computing PCA using the covariance method](../../../../general/principal%20component%20analysis.md#computing%20PCA%20using%20the%20covariance%20method)
 - project phase 3: see above
 - [fact table § examples](../../../../general/fact%20table.md) ::: see the transactional fact table example <!--SR:!2025-04-29,231,357!2024-10-25,108,377-->
-- data cube ::: [OLAP cube](../../../../general/OLAP%20cube.md) <!--SR:!2024-10-18,101,377!2024-10-19,102,377-->
+- data cube ::: [OLAP cube](../../../../general/OLAP%20cube.md) <!--SR:!2026-03-28,526,397!2024-10-19,102,377-->
   - [§ operations](../../../../general/OLAP%20cube.md#operations)
     - data cube > operations ::: drill down, rollup <!--SR:!2025-09-14,357,377!2026-03-23,522,397-->
 
@@ -405,7 +405,7 @@ The content is in teaching order.
   - [§ algorithms](../../../../general/materialized%20view.md#algorithms)
   - [§ terminology](../../../../general/materialized%20view.md#terminology)
   - [§ greedy algorithm](../../../../general/materialized%20view.md#greedy%20algorithm)
-- web database ranking considerations ::: When searching for something using a search engine, apart from matching terms, incoming and outgoing links are also considered. <!--SR:!2025-07-31,327,377!2024-10-18,101,377-->
+- web database ranking considerations ::: When searching for something using a search engine, apart from matching terms, incoming and outgoing links are also considered. <!--SR:!2025-07-31,327,377!2026-03-28,526,397-->
 - [HITS algorithm](../../../../general/HITS%20algorithm.md)
   - [§ steps](../../../../general/HITS%20algorithm.md#steps)
     - HITS algorithm variant ::: It does not matter because we only use the recursive expressions to calculate the new authority and hub values. <!--SR:!2025-11-07,386,377!2026-02-23,494,397-->

@@ -38,7 +38,7 @@ Command names can be {{truncated at the end to produce an abbreviation if the ab
 - `set args <args>...` ::: set program args <!--SR:!2024-12-05,72,310!2024-11-07,51,310-->
 - `si` ::: go to the next instruction stepping into functions <!--SR:!2024-11-17,60,310!2024-11-24,54,250-->
 - `starti [<args>...]` ::: start program and stop at its first instruction <!--SR:!2024-12-02,69,310!2024-11-10,47,290-->
-- `step` ::: go to the next (source) line stepping into functions <!--SR:!2024-11-11,54,310!2024-10-18,32,270-->
+- `step` ::: go to the next (source) line stepping into functions <!--SR:!2024-11-11,54,310!2025-02-14,119,290-->
 - `x/<format> <address>` ::: examine memory at the given address in the given format (see `help x`) <!--SR:!2024-12-03,70,310!2024-11-06,48,290-->
 
 ### reverse debugging

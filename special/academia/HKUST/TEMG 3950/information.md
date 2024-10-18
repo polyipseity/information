@@ -78,7 +78,7 @@ value proposition canvas
 - customer segmentation→:::←customer validation <!--SR:!2025-04-06,220,270!2024-12-11,148,270-->
 - customer validation→:::←design thinking <!--SR:!2024-11-28,58,190!2025-04-28,237,270-->
 - design thinking→:::←idea generation: Put oneself in customers' shoes. For example, examine old mousetraps and build a better one. <!--SR:!2025-01-17,92,170!2024-12-28,93,230-->
-- idea generation: Put oneself in customers' shoes. For example, examine old mousetraps and build a better one.→:::←product validation <!--SR:!2024-11-23,96,230!2024-10-18,57,210-->
+- idea generation: Put oneself in customers' shoes. For example, examine old mousetraps and build a better one.→:::←product validation <!--SR:!2024-11-23,96,230!2025-02-14,119,210-->
 - product validation→:::←value proposition canvas <!--SR:!2024-12-31,84,170!2025-06-12,247,250-->
 - value proposition canvas→:::←_(end)_ <!--SR:!2025-03-06,244,330!2024-10-19,64,250-->
 
@@ -140,7 +140,7 @@ root cause analysis, 5 whys
 - 7S: McKinsey 7S framework→:::←PESTLE: Aguilar's PESTLE framework <!--SR:!2024-11-11,42,261!2025-01-08,130,281-->
 - PESTLE: Aguilar's PESTLE framework→:::←PPTG: people, process, technology, governance framework <!--SR:!2024-11-20,100,261!2025-03-30,181,281-->
 - PPTG: people, process, technology, governance framework→:::←blue ocean strategy <!--SR:!2024-12-27,137,301!2024-12-12,130,301-->
-- blue ocean strategy→:::←interview note-taking in an 1-page memo <!--SR:!2024-10-18,89,281!2025-03-15,166,241-->
+- blue ocean strategy→:::←interview note-taking in an 1-page memo <!--SR:!2025-07-02,257,281!2025-03-15,166,241-->
 - interview note-taking in an 1-page memo→:::←profitability framework <!--SR:!2025-02-21,163,261!2024-11-22,90,221-->
 - profitability framework→:::←root cause analysis, 5 whys <!--SR:!2024-12-02,91,261!2025-02-25,148,241-->
 - root cause analysis, 5 whys→:::←_(end)_ <!--SR:!2025-03-25,220,321!2025-01-11,150,301-->
