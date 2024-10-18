@@ -43,7 +43,7 @@ The rule of division states that {{there are _n/d_ ways to do a task}} if {{it c
 
 ## bijective proof
 
-- see: [Bijective proof](bijective%20proof.md)
+- see: [bijective proof](bijective%20proof.md)
 
 Bijective proofs prove that {{two sets have the same number of elements}} by {{finding a [bijective function](bijection.md) (one-to-one correspondence) from one set to the other}}. <!--SR:!2024-11-02,17,290!2024-11-02,17,290-->
 
