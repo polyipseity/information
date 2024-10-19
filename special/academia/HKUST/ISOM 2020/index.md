@@ -232,7 +232,7 @@ The content is in teaching order.
 
 ## week 6 lab
 
-- time: 2024-10-07T11:00:00+08:00/2024-10-07T12:50:00+08:00
+- time: 2024-10-08T11:00:00+08:00/2024-10-08T12:50:00+08:00
 - [§ week 5 pre-lecture](#week%205%20pre-lecture)
 - [control flow](control%20flow.md)
   - [§ while-iteration](control%20flow.md#while-iteration)
