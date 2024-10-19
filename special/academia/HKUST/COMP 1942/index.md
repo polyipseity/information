@@ -335,7 +335,7 @@ The content is in teaching order.
   - [§ long short-term memory](../../../../general/recurrent%20neural%20network.md#long%20short-term%20memory)
   - [§ gated recurrent unit](../../../../general/recurrent%20neural%20network.md#gated%20recurrent%20unit)
 - [convolutional neural network](../../../../general/convolutional%20neural%20network.md)
-  - convolutional neural network application ::: image similarity search <!--SR:!2024-12-30,144,337!2024-10-19,102,377-->
+  - convolutional neural network application ::: image similarity search <!--SR:!2024-12-30,144,337!2026-04-05,533,397-->
 - [support vector machine](../../../../general/support%20vector%20machine.md)
   - [§ linear SVM](../../../../general/support%20vector%20machine.md#linear%20SVM)
   - [§ hard-margin](../../../../general/support%20vector%20machine.md#hard-margin)
@@ -386,7 +386,7 @@ The content is in teaching order.
 - [principal component analysis § computing PCA using the covariance method](../../../../general/principal%20component%20analysis.md#computing%20PCA%20using%20the%20covariance%20method)
 - project phase 3: see above
 - [fact table § examples](../../../../general/fact%20table.md) ::: see the transactional fact table example <!--SR:!2025-04-29,231,357!2024-10-25,108,377-->
-- data cube ::: [OLAP cube](../../../../general/OLAP%20cube.md) <!--SR:!2026-03-28,526,397!2024-10-19,102,377-->
+- data cube ::: [OLAP cube](../../../../general/OLAP%20cube.md) <!--SR:!2026-03-28,526,397!2026-04-05,533,397-->
   - [§ operations](../../../../general/OLAP%20cube.md#operations)
     - data cube > operations ::: drill down, rollup <!--SR:!2025-09-14,357,377!2026-03-23,522,397-->
 

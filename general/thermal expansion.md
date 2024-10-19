@@ -35,7 +35,7 @@ tags:
 > {{$$\begin{aligned} \alpha_V & = \frac1V \frac{\mathrm{d}V}{\mathrm{d}T} \\ \frac{\mathrm{d}V}V & = \alpha_V \,\mathrm{d}T \end{aligned}$$}}
 >
 > - where
->   - {{$\alpha_V$ is the __coefficient of volume thermal expansion__, $V$ is the [volume](volume.md), and $\frac{\mathrm{d}V}{\mathrm{d}T}$ is the change of [volume](volume.md) $\mathrm{d}V$ per unit change in [temperature](temperature.md) $\mathrm{d}T$}} <!--SR:!2024-10-23,238,330!2024-10-19,234,330-->
+>   - {{$\alpha_V$ is the __coefficient of volume thermal expansion__, $V$ is the [volume](volume.md), and $\frac{\mathrm{d}V}{\mathrm{d}T}$ is the change of [volume](volume.md) $\mathrm{d}V$ per unit change in [temperature](temperature.md) $\mathrm{d}T$}} <!--SR:!2024-10-23,238,330!2026-11-28,770,330-->
 
 #### isotropic materials
 
@@ -45,7 +45,7 @@ tags:
 >
 > - where
 >   - {{$\alpha$ is the coefficient of thermal expansion, with the subscripts $L$, $A$, and $V$ denoting respectively [length](length.md), [area](area.md), and [volume](volume.md)}}
-> - conditions: {{isotropic materials}} <!--SR:!2024-10-19,235,330!2027-07-28,1023,350!2025-02-23,286,290-->
+> - conditions: {{isotropic materials}} <!--SR:!2027-09-26,1072,350!2027-07-28,1023,350!2025-02-23,286,290-->
 
 We can derive the above equations for a $n$-dimensional coefficient:
 

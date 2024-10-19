@@ -42,7 +42,7 @@ In signal processing, apart from analog signals (continuous signals), we also de
 >   - $k$ is {{angular wavenumber or angular spatial frequency}}.
 >   - $\omega$ is {{angular frequency, which equals 2 pi times normal (linear) frequency $\omega = 2\pi f$}}.
 >   - $\phi$ is {{initial phase offset}}.
->   - $D$ is {{equilibrium offset}}. <!--SR:!2025-03-17,160,310!2024-10-21,68,310!2024-10-19,66,310!2025-06-01,236,330!2024-10-20,67,310!2025-05-12,221,330!2025-05-23,227,330!2025-03-16,174,310-->
+>   - $D$ is {{equilibrium offset}}. <!--SR:!2025-03-17,160,310!2024-10-21,68,310!2025-05-11,204,310!2025-06-01,236,330!2024-10-20,67,310!2025-05-12,221,330!2025-05-23,227,330!2025-03-16,174,310-->
 
 For the two equations above, we will ignore {{the $kx$ term and the $\pm$ operator as we care about time more}}. <!--SR:!2024-10-20,67,310-->
 

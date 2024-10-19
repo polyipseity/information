@@ -130,7 +130,7 @@ The content is in teaching order.
   - wall-frame economic limit ::: up to about 50 stories <!--SR:!2025-07-29,340,350!2025-02-12,205,330-->
 - framed tube ::: [tube](../../../../general/tube%20(structure).md) <!--SR:!2024-12-15,157,330!2025-03-16,216,330-->
   - [§ variation](../../../../general/tube%20(structure).md#variation)
-- core walls with outriggers ::: [structural system § outrigger](../../../../general/structural%20system.md#outrigger) <!--SR:!2025-05-05,256,330!2024-10-19,104,301-->
+- core walls with outriggers ::: [structural system § outrigger](../../../../general/structural%20system.md#outrigger) <!--SR:!2025-05-05,256,330!2025-09-04,320,301-->
 
 ## week 6 lecture
 

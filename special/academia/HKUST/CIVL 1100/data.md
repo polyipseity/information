@@ -280,7 +280,7 @@ See [Sutong Yangtze River Bridge](../../../../general/Sutong%20Yangtze%20River%2
 See [Taipei 101](Taipei%20101.md).
 
 - description ::: skyscraper in Taipei, Taiwan <!--SR:!2025-03-31,295,350!2026-02-21,535,400-->
-- height ::: architectural: 508.2 m, tip: 509.2 m, top floor: 438 m <!--SR:!2024-10-19,17,130!2024-11-19,179,330-->
+- height ::: architectural: 508.2 m, tip: 509.2 m, top floor: 438 m <!--SR:!2024-11-11,23,130!2024-11-19,179,330-->
 - image ::: ![Taipei 101 image](../../../../archives/Wikimedia%20Commons/Tower%20of%20Taipei%20101(cropped).jpg) <!--SR:!2025-02-07,201,360!2025-07-04,321,380-->
 - [structural system](../../../../general/structural%20system.md) ::: concrete–steel composite<!-- flashcard 16556e6f-00ca-4a87-845c-f0ea2f56807a --> <!--SR:!2024-10-25,45,300!2025-08-01,343,380-->
 
@@ -306,7 +306,7 @@ See [Tsing Ma Bridge](../../../../general/Tsing%20Ma%20Bridge.md).
 
 See [Turin–Lyon high-speed railway](../../../../general/Turin–Lyon%20high-speed%20railway.md).
 
-- core part ::: [Mont Cenis Base Tunnel](#Mont%20Cenis%20Base%20Tunnel) <!--SR:!2024-10-19,138,327!2025-06-23,321,370-->
+- core part ::: [Mont Cenis Base Tunnel](#Mont%20Cenis%20Base%20Tunnel) <!--SR:!2026-01-31,469,327!2025-06-23,321,370-->
 - length ::: 271 km <!--SR:!2024-11-28,91,297!2026-01-30,525,397-->
 
 ## Two Prudential Plaza

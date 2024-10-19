@@ -15,7 +15,7 @@ tags:
 
 # proton–proton chain
 
-The __proton–proton chain__, also commonly referred to as the __p–p chain__, is {{one of two known sets of [nuclear fusion](nuclear%20fusion.md) reactions by which [stars](star.md) convert [hydrogen](hydrogen.md) to [helium](helium.md)}}. It dominates in {{[stars](star.md) with [masses](mass.md) less than or equal to that of the [Sun](Sun.md)}}, whereas the [CNO cycle](CNO%20cycle.md), the other known reaction, is suggested by theoretical models to {{dominate in [stars](star.md) with [masses](mass.md) greater than about 1.3 [solar masses](solar%20mass.md)}}. <!--SR:!2024-10-19,68,310!2024-11-27,89,290!2024-11-30,93,290-->
+The __proton–proton chain__, also commonly referred to as the __p–p chain__, is {{one of two known sets of [nuclear fusion](nuclear%20fusion.md) reactions by which [stars](star.md) convert [hydrogen](hydrogen.md) to [helium](helium.md)}}. It dominates in {{[stars](star.md) with [masses](mass.md) less than or equal to that of the [Sun](Sun.md)}}, whereas the [CNO cycle](CNO%20cycle.md), the other known reaction, is suggested by theoretical models to {{dominate in [stars](star.md) with [masses](mass.md) greater than about 1.3 [solar masses](solar%20mass.md)}}. <!--SR:!2025-08-19,304,330!2024-11-27,89,290!2024-11-30,93,290-->
 
 ## the proton–proton chain
 
@@ -31,7 +31,7 @@ The [positron](positron.md) will {{[annihilate](annihilation.md) with an [electr
 
 After it is formed, the [deuteron](deuteron.md) produced in the first stage can {{fuse with another [proton](proton.md) to produce the stable, light [isotope](isotope.md) of [helium](helium.md), <sup>3</sup>He}}: {{$${}_1^2 \mathrm{D} + {}_1^1 \mathrm{H} \to {}_2^3 \mathrm{He} + \gamma + 5.493\text{ MeV}$$}}. <!--SR:!2025-01-16,114,295!2025-01-24,106,255-->
 
-- 2nd step / energy release ::: 5.493 MeV <!--SR:!2024-10-19,4,130!2024-11-05,28,230-->
+- 2nd step / energy release ::: 5.493 MeV <!--SR:!2024-10-25,6,130!2024-11-05,28,230-->
 
 The overall reaction (noting that the elements are [ionized](ionization.md)) is: {{$$4\, {}^1\mathrm{H}^+ + 2\,\mathrm{e}^- \to {}^4\mathrm{He}^{2+} + 2\,\nu_{\mathrm{e} } + n\, \gamma + 26.732\text{ MeV}$$, releasing 26.732&nbsp;[MeV](electronvolt.md) of [energy](energy.md)}}. Some energy is {{lost to the neutrinos, and various number of [gamma rays](gamma%20ray.md) depending on the branch taken}}. <!--SR:!2024-11-06,67,270!2025-01-17,129,290-->
 

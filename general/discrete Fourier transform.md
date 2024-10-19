@@ -33,7 +33,7 @@ __Eq.1__ can be {{interpreted or derived in various ways}}, for example: <!--SR:
 - discrete Fourier transform & discrete-time Fourier transform ::: It completely describes the [discrete-time Fourier transform](discrete-time%20Fourier%20transform.md) (DTFT) of an $N$-periodic sequence, which comprises only discrete frequency components. ([Using the DTFT with periodic data](discrete-time%20Fourier%20transform.md#periodic%20data)) <!--SR:!2025-01-14,114,290!2025-03-17,160,310-->
 - discrete Fourier transform & sampling ::: It can also provide uniformly spaced samples of the continuous DTFT of a finite length sequence. The sampling interval is the reciprocal of the duration of the input sequence. ([§ sampling the DTFT](discrete-time%20Fourier%20transform.md#sampling%20the%20DTFT)) <!--SR:!2025-01-01,98,290!2025-03-02,152,310-->
 - discrete Fourier transform & complex sinusoid ::: It is the [cross correlation](cross-correlation.md) of the _input_ sequence, $x_n$, and a complex sinusoid at frequency $k / N$ (angular frequency $2 \pi k / N$). Thus it acts like a [matched filter](matched%20filter.md) for that frequency. <!--SR:!2024-12-17,85,270!2024-12-25,90,270-->
-- discrete Fourier transform & Fourier series ::: It is the discrete analog of the formula for the coefficients of a [Fourier series](fourier%20series.md): $$C_k = \frac 1 P \int_P \! x(t) e^{-i2\pi \frac k P t} \,\mathrm{d}t$$.  The above equation corresponds to the discrete analog in the following ways: $x(0), x(1 / N), \ldots, x(1 - 1 / N)$ corresponds to $x_0, x_1, \ldots, x_{N - 1}$. $P$ corresponds to $1$. $t$ corresponds to $n / N$. The $k / P$ expression also hints at why the sampling interval of the frequency domain is the reciprocal of the duration of the input sequence. <!--SR:!2024-10-19,35,230!2024-12-03,75,270-->
+- discrete Fourier transform & Fourier series ::: It is the discrete analog of the formula for the coefficients of a [Fourier series](fourier%20series.md): $$C_k = \frac 1 P \int_P \! x(t) e^{-i2\pi \frac k P t} \,\mathrm{d}t$$.  The above equation corresponds to the discrete analog in the following ways: $x(0), x(1 / N), \ldots, x(1 - 1 / N)$ corresponds to $x_0, x_1, \ldots, x_{N - 1}$. $P$ corresponds to $1$. $t$ corresponds to $n / N$. The $k / P$ expression also hints at why the sampling interval of the frequency domain is the reciprocal of the duration of the input sequence. <!--SR:!2024-11-07,19,210!2024-12-03,75,270-->
 
 __Eq.1__ can also be evaluated {{outside the domain $k \in [0 , N - 1]$, and that extended sequence is $N$-[periodic](periodic%20sequence.md)}}. Accordingly, other sequences of $N$ indices are sometimes used, such as {{$\left[-\frac N 2,\frac N 2 - 1 \right]$ (if $N$ is even) and $\left[-\frac {N - 1} 2,\frac {N - 1} 2 \right]$ (if $N$ is odd)}}, which amounts to {{swapping the left and right halves of the result of the transform}}. <!--SR:!2025-05-02,199,310!2024-11-11,58,270!2025-01-09,109,290-->
 
@@ -85,7 +85,7 @@ The vectors {{$u_{k}=\left[\left.e^{ {\frac {i2\pi }{N} }kn}\;\right|\;n=0,1,\ld
 
 If {{$X_{k}$ and $Y_{k}$ are the DFTs of $x_{n}$ and $y_{n}$ respectively}} then {{[Parseval's theorem](parseval's%20theorem.md)}} states: {{$$\sum _{n=0}^{N-1}x_{n}y_{n}^{*}={\frac {1}{N} }\sum _{k=0}^{N-1}X_{k}Y_{k}^{*}$$}} where the star denotes [complex conjugation](complex%20conjugate.md). {{The [Plancherel theorem](plancherel%20theorem.md)}} is {{a special case of Parseval's theorem}} and states: {{$$\sum _{n=0}^{N-1}|x_{n}|^{2}={\frac {1}{N} }\sum _{k=0}^{N-1}|X_{k}|^{2}$$}}. <!--SR:!2024-10-22,54,316!2025-03-08,144,316!2024-11-10,26,296!2024-12-08,76,276!2025-04-10,182,336!2024-11-02,64,336-->
 
-These theorems are {{also equivalent to the unitary condition below}}. <!--SR:!2024-10-19,49,316-->
+These theorems are {{also equivalent to the unitary condition below}}. <!--SR:!2025-03-25,157,316-->
 
 ### periodicity
 
@@ -136,7 +136,7 @@ By [expressing the inverse DFT in terms of the DFT](#expressing%20the%20inverse%
 
 A useful property of the DFT is that {{the inverse DFT can be easily expressed in terms of the (forward) DFT, via several well-known "tricks"}}. (For example, in {{computations}}, it is {{often convenient to only implement a fast Fourier transform corresponding to one transform direction and then to get the other transform direction from the first}}.) <!--SR:!2024-10-31,66,310!2024-11-03,67,310!2024-11-04,68,310-->
 
-First, we can compute the inverse DFT by {{reversing all but one of the inputs (Duhamel _et al._, 1988)}}: {{$$\mathcal F^{-1}(\set{x_n}) = \frac 1 N \mathcal F(\set{x_{N - n} })$$}}. (As usual, the subscripts are {{interpreted [modulo](modular%20arithmetic.md) _N_; thus, for $n = 0$, we have $x_{N - 0} = x_0$}}.) <!--SR:!2024-10-19,56,310!2024-12-26,95,290!2024-11-06,69,310-->
+First, we can compute the inverse DFT by {{reversing all but one of the inputs (Duhamel _et al._, 1988)}}: {{$$\mathcal F^{-1}(\set{x_n}) = \frac 1 N \mathcal F(\set{x_{N - n} })$$}}. (As usual, the subscripts are {{interpreted [modulo](modular%20arithmetic.md) _N_; thus, for $n = 0$, we have $x_{N - 0} = x_0$}}.) <!--SR:!2025-06-25,249,330!2024-12-26,95,290!2024-11-06,69,310-->
 
 Second, one can also {{conjugate the inputs and outputs}}: {{$$\mathcal F^{-1}(\mathbf x) = \frac 1 N \mathcal F(\mathbf x^*)^*$$}}. <!--SR:!2024-10-20,55,310!2024-10-31,64,310-->
 

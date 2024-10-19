@@ -235,7 +235,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 5. 11 km/s
 >
 > - solution: {{3}}
-> - explanation: {{Equate circular acceleration to gravitational acceleration: $$a = g \implies \frac {v^2} r = g \implies v^2 = gr \implies v = \sqrt{gr}$$. Plug in the numbers: $$v = \sqrt{\frac {9.8} {1000} \cdot 6400} = \sqrt{62.72} \approx 7.91959595\text{ km/s}$$. Therefore, the answer is 7.9 km/s.}} <!--SR:!2024-10-19,66,301!2025-01-31,149,321-->
+> - explanation: {{Equate circular acceleration to gravitational acceleration: $$a = g \implies \frac {v^2} r = g \implies v^2 = gr \implies v = \sqrt{gr}$$. Plug in the numbers: $$v = \sqrt{\frac {9.8} {1000} \cdot 6400} = \sqrt{62.72} \approx 7.91959595\text{ km/s}$$. Therefore, the answer is 7.9 km/s.}} <!--SR:!2025-05-08,201,301!2025-01-31,149,321-->
 
 <!-- markdownlint MD028 -->
 
@@ -652,7 +652,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 5. 26&nbsp;000 years
 >
 > - solution: {{3}}
-> - explanation: {{This is analogous to a planet orbiting a parent star in retrograde motion. To find the answer: $$\frac 1 {T_{\mathrm{orb} } } + \frac 1 {T_{\mathrm{sid} } } = \frac 1 {T_{\mathrm{sol} } } \implies \frac 1 {T_{\mathrm{orb} } } = \frac 1 {T_{\mathrm{sol} } } - \frac 1 {T_{\mathrm{sid} } } \implies \frac 1 T = \frac 1 {41} - \frac 1 {42} \implies T = \frac 1 {\frac 1 {41} - \frac 1 {42} } = \frac 1 {\frac 1 {1722} } = 1722$$. So the answer is 1722 days. For a detailed explanation, see [SGQ on the tropical year § explanation](SGQ%20on%20the%20tropical%20year.md#explanation).}} <!--SR:!2024-10-19,49,332!2024-11-17,71,352-->
+> - explanation: {{This is analogous to a planet orbiting a parent star in retrograde motion. To find the answer: $$\frac 1 {T_{\mathrm{orb} } } + \frac 1 {T_{\mathrm{sid} } } = \frac 1 {T_{\mathrm{sol} } } \implies \frac 1 {T_{\mathrm{orb} } } = \frac 1 {T_{\mathrm{sol} } } - \frac 1 {T_{\mathrm{sid} } } \implies \frac 1 T = \frac 1 {41} - \frac 1 {42} \implies T = \frac 1 {\frac 1 {41} - \frac 1 {42} } = \frac 1 {\frac 1 {1722} } = 1722$$. So the answer is 1722 days. For a detailed explanation, see [SGQ on the tropical year § explanation](SGQ%20on%20the%20tropical%20year.md#explanation).}} <!--SR:!2025-03-30,162,332!2024-11-17,71,352-->
 
 ## strip sequence questions
 

@@ -463,7 +463,7 @@ The content is in teaching order.
 - topic: distance, shortest paths, matchings
 - graph theory
   - graph theory / distance ::: The __distance__ between two vertices (repeats allowed) in a graph is the minimum number of edges in a path connecting the two vertices. <!--SR:!2024-10-22,4,349!2024-10-22,4,349-->
-  - graph theory / eccentricity ::: The __eccentricity__ of a vertex in a graph is the maximum distance it can have with any vertex in the same graph. <!--SR:!2024-10-22,4,349!2024-10-19,1,309-->
+  - graph theory / eccentricity ::: The __eccentricity__ of a vertex in a graph is the maximum distance it can have with any vertex in the same graph. <!--SR:!2024-10-22,4,349!2024-10-23,4,329-->
   - graph theory / center ::: The __center__ of a graph is a vertex with the minimum eccentricity among all vertices. <!--SR:!2024-10-22,4,349!2024-10-22,4,349-->
   - graph theory / radius ::: The __radius__ of a graph is the minimum eccentricity of a vertex, i.e. the eccentricity of its center. <!--SR:!2024-10-22,4,349!2024-10-22,4,349-->
   - graph theory / diameter ::: The __diameter__ fo a graph is the maximum distances any pair of vertices (repeats allowed) can have. <!--SR:!2024-10-23,5,348!2024-10-22,4,349-->

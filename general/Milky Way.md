@@ -9,7 +9,7 @@ tags:
 
 # Milky Way
 
-The __Milky Way__ is {{the [galaxy](galaxy.md) that includes the [Solar System](Solar%20System.md)}}, with the name {{describing the galaxy's appearance from [Earth](Earth.md): a hazy band of light seen in the [night sky](night%20sky.md) formed from stars that cannot be individually distinguished by the [naked eye](naked%20eye.md)}}. <!--SR:!2024-10-19,58,318!2024-10-31,68,318-->
+The __Milky Way__ is {{the [galaxy](galaxy.md) that includes the [Solar System](Solar%20System.md)}}, with the name {{describing the galaxy's appearance from [Earth](Earth.md): a hazy band of light seen in the [night sky](night%20sky.md) formed from stars that cannot be individually distinguished by the [naked eye](naked%20eye.md)}}. <!--SR:!2025-07-10,264,338!2024-10-31,68,318-->
 
 The Milky Way is {{a [barred spiral galaxy](barred%20spiral%20galaxy.md)}} with {{a [D<sub>25</sub> isophotal diameter](galaxy.md#isophotal%20diameter) estimated at 26.8 ± 1.1 [kiloparsecs](parsec.md#parsecs%20and%20kiloparsecs) (87&nbsp;400 ± 3&nbsp;600 [light-years](light-year.md))}}, but {{only about 1&nbsp;000 light-years thick at the spiral arms (more at the bulge)}}. Recent simulations suggest that {{a [dark matter](dark%20matter.md) area, also containing some visible stars, may extend up to a diameter of almost 2 million light-years (613 kpc)}}. The Milky Way has {{several [satellite galaxies](Satellite%20galaxies%20of%20the%20Milky%20Way.md)}} and is part of {{the [Local Group](Local%20Group.md) of galaxies}}, which form {{part of the [Virgo Supercluster](Virgo%20Supercluster.md)}}, which is itself {{a component of the [Laniakea Supercluster](Laniakea%20Supercluster.md)}}. <!--SR:!2024-10-23,62,318!2025-01-15,89,218!2025-03-12,147,278!2024-10-30,49,238!2024-10-26,64,318!2024-11-05,71,318!2025-04-13,187,318!2025-01-09,109,298-->
 
@@ -17,7 +17,7 @@ The Milky Way is {{a [barred spiral galaxy](barred%20spiral%20galaxy.md)}} with 
 
 - see: [Local Group](Local%20Group.md)
 
-Current measurements suggest the [Andromeda Galaxy](Andromeda%20Galaxy.md) is {{approaching the Milky Way at 100 to 140 km/s (220&nbsp;000 to 310&nbsp;000 mph)}}. In {{4.3 billion years}}, there {{may be an [Andromeda–Milky Way collision](Andromeda–Milky%20Way%20collision.md), depending on the importance of unknown lateral components to the galaxies' relative motion}}. <!--SR:!2024-10-19,47,230!2025-01-16,135,290!2025-07-08,289,330-->
+Current measurements suggest the [Andromeda Galaxy](Andromeda%20Galaxy.md) is {{approaching the Milky Way at 100 to 140 km/s (220&nbsp;000 to 310&nbsp;000 mph)}}. In {{4.3 billion years}}, there {{may be an [Andromeda–Milky Way collision](Andromeda–Milky%20Way%20collision.md), depending on the importance of unknown lateral components to the galaxies' relative motion}}. <!--SR:!2025-02-04,108,230!2025-01-16,135,290!2025-07-08,289,330-->
 
 ## references
 
