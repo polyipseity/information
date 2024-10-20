@@ -116,4 +116,4 @@ do
 while (condition);
 ```
 
-The semantics of `do...while` is {{that the statement block is executed first. Then the condition is executed. If the condition is `true`, we repeat the above process again. If the condition is `false`, the `do...while` statement ends its execution}}. <!--SR:!2024-10-20,198,310-->
+The semantics of `do...while` is {{that the statement block is executed first. Then the condition is executed. If the condition is `true`, we repeat the above process again. If the condition is `false`, the `do...while` statement ends its execution}}. <!--SR:!2027-02-18,851,330-->

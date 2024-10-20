@@ -44,7 +44,7 @@ English
 - [finance](https://en.wiktionary.org/wiki/finance) ::: (f\_e) The study of [money](../../../general/money.md) and [capital assets](../../../general/capital%20asset.md). <!--SR:!2025-02-15,316,344!2025-01-24,294,344-->
 - [fomite](https://en.wiktionary.org/wiki/fomite) ::: (f\_e) An inanimate object that can carry infectious agents to transmit between hosts. <!--SR:!2025-11-15,454,376!2025-09-27,447,396-->
 - [governance](https://en.wiktionary.org/wiki/governance) ::: (g\_e) The action or manner of governing. <!--SR:!2025-01-02,289,330!2025-02-14,315,330-->
-- [guarantee](https://en.wiktionary.org/wiki/guarantee) ::: (g\_e) Assure that something will be done. <!--SR:!2025-04-11,337,363!2024-10-20,73,283-->
+- [guarantee](https://en.wiktionary.org/wiki/guarantee) ::: (g\_e) Assure that something will be done. <!--SR:!2025-04-11,337,363!2025-05-15,207,283-->
 - [hallucinate](https://en.wiktionary.org/wiki/hallucinate) ::: (h\_e) Perceive things that are not actually present. <!--SR:!2025-10-15,468,388!2024-11-13,208,348-->
 - [hydraulic](https://en.wiktionary.org/wiki/hydraulic) ::: (h\_c) Of or pertaining to [water](../../../general/water.md). <!--SR:!2026-10-20,808,432!2026-04-17,656,432-->
 - [imaginary](https://en.wiktionary.org/wiki/imaginary) ::: (i\_y) Existing only in the [imagination](../../../general/imagination.md). <!--SR:!2025-02-10,311,344!2024-12-14,271,344-->

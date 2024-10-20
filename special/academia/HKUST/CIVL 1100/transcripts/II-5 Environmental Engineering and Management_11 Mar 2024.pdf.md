@@ -99,7 +99,7 @@ return await memorize_seq(
 
 - _(begin)_→:::←(Cap. 311) Air Pollution Control Ordinance <!--SR:!2024-12-31,104,255!2025-11-13,409,375-->
 - (Cap. 311) Air Pollution Control Ordinance→:::←(Cap. 354) Waste Disposal Ordinance <!--SR:!2024-11-21,84,275!2025-01-27,111,275-->
-- (Cap. 354) Waste Disposal Ordinance→:::←(Cap. 358) Water Pollution Control Ordinance <!--SR:!2024-12-29,82,275!2024-10-20,52,315-->
+- (Cap. 354) Waste Disposal Ordinance→:::←(Cap. 358) Water Pollution Control Ordinance <!--SR:!2024-12-29,82,275!2025-04-03,165,315-->
 - (Cap. 358) Water Pollution Control Ordinance→:::←(Cap. 400) Noise Pollution Control Ordinance <!--SR:!2024-10-31,50,255!2024-11-10,24,235-->
 - (Cap. 400) Noise Pollution Control Ordinance→:::←(Cap. 499) Environmental Impact Ordinance <!--SR:!2025-02-06,149,295!2024-11-09,63,295-->
 - (Cap. 499) Environmental Impact Ordinance→:::←_(end)_ <!--SR:!2025-11-29,423,375!2025-08-30,326,355-->
@@ -243,7 +243,7 @@ Hong Kong Harbour Area Treatment Scheme Stage I (HATS)
 
 - Hong Kong Harbour Area Treatment Scheme Stage I ::: HATS Stage 1 <!--SR:!2025-03-26,237,330!2025-04-16,251,330-->
   - HATS Stage 1 scheme period ::: 1994 to 2001 <!--SR:!2024-11-10,117,290!2024-11-16,84,250-->
-  - HATS Stage 1 scheme cost ::: HK$8.2 billion <!--SR:!2024-10-20,101,290!2025-05-18,229,270-->
+  - HATS Stage 1 scheme cost ::: HK$8.2 billion <!--SR:!2024-12-14,55,270!2025-05-18,229,270-->
   - HATS Stage 1 details ::: Stonecutters Island Sewage Treatment Works (SCISTW), sewage tunnel of 23.6 km, upgrade 8 preliminary treatment works (PTWs) <!--SR:!2025-06-09,242,270!2025-02-01,181,310-->
   - HATS Stage 1 geographic coverage ::: collect sewage from Kowloon, Kwai Tsing, Tseung Kwan O, and north-eastern Hong Kong Island to SCISTW <!--SR:!2025-04-15,211,270!2024-12-09,148,310-->
   - HATS Stage 1 coverage in numbers ::: 3.5 million people, 75% from harbour area <!--SR:!2024-11-30,132,290!2025-06-01,248,290-->
@@ -295,7 +295,7 @@ Noise Levels and Causes
 
 - noise level measure ::: sound pressure level, in dB(A) <!--SR:!2024-12-20,159,310!2025-04-01,243,330-->
   - airplane passing ::: 120 dB(A) <!--SR:!2025-02-17,193,310!2025-02-22,194,310-->
-  - construction site ::: 110 dB(A) <!--SR:!2024-10-20,103,290!2025-03-26,219,310-->
+  - construction site ::: 110 dB(A) <!--SR:!2025-08-20,304,290!2025-03-26,219,310-->
   - concert ::: 100 dB(A) <!--SR:!2025-03-18,214,310!2025-03-22,218,310-->
   - drilling ::: 90 dB(A) <!--SR:!2025-01-31,187,310!2025-04-23,237,290-->
   - train passing ::: 80 dB(A) <!--SR:!2025-02-28,200,310!2025-02-05,184,310-->

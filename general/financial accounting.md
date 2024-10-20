@@ -31,7 +31,7 @@ Financial accounting is {{the preparation of financial statements that can be co
 __Fundamental Qualitative Characteristics__ ::: relevance, faithful representation <!--SR:!2024-11-27,60,310!2024-11-06,41,290-->
 
 - __Relevance__ ::: Relevance is the capacity of the financial information to influence the decision of its users. The ingredients of relevance are the predictive value and confirmatory value. Materiality is a sub-quality of relevance. Information is considered material if its omission or misstatement could influence the economic decisions of users taken on the basis of the financial statements. <!--SR:!2025-01-01,76,270!2024-12-24,68,270-->
-- __Faithful Representation__ ::: Faithful representation means that the actual effects of the transactions shall be properly accounted for and reported in the financial statements. The words and numbers must match what really happened in the transaction. The ingredients of faithful representation are completeness, neutrality and free from error. It signifies that the accountants have acted in [good faith](good%20faith.md) during the process of representation. <!--SR:!2025-01-01,76,270!2024-10-20,26,270-->
+- __Faithful Representation__ ::: Faithful representation means that the actual effects of the transactions shall be properly accounted for and reported in the financial statements. The words and numbers must match what really happened in the transaction. The ingredients of faithful representation are completeness, neutrality and free from error. It signifies that the accountants have acted in [good faith](good%20faith.md) during the process of representation. <!--SR:!2025-01-01,76,270!2025-01-02,74,270-->
 
 __Enhancing Qualitative Characteristics__ ::: verifiability, comparability, understandability, timeliness <!--SR:!2025-01-20,95,290!2024-11-21,55,310-->
 
@@ -187,7 +187,7 @@ However, there are {{instances of accounts, known as contra-accounts (contra-ass
 
 1. objectives ::: Financial accounting aims at presenting 'true and fair' view of transactions, profit and loss for a period and statement of financial position (balance sheet) on a given date. It aims at computing 'true and fair' view of the cost of production/services offered by the firm.<sup>[\[11\]](#^ref-11)</sup> Cost accounting aims at computing cost of production/service in a scientific manner and facilitate cost control and cost reduction. <!--SR:!2024-10-29,33,270!2024-10-23,29,270-->
 2. audiences ::: Financial accounting reports the results and position of business to government, creditors, investors, and external parties. Cost accounting is an internal reporting system for an organisation's own management for decision making. <!--SR:!2025-01-06,81,290!2024-10-29,35,290-->
-3. classification ::: In financial accounting, cost classification is based on type of transactions, e.g. salaries, repairs, insurance, stores etc. In cost accounting, classification is basically on the basis of functions, activities, products, process and on internal planning and control and information needs of the organization. <!--SR:!2024-10-25,30,270!2024-10-20,28,270-->
+3. classification ::: In financial accounting, cost classification is based on type of transactions, e.g. salaries, repairs, insurance, stores etc. In cost accounting, classification is basically on the basis of functions, activities, products, process and on internal planning and control and information needs of the organization. <!--SR:!2024-10-25,30,270!2025-01-05,77,270-->
 
 ## related qualification
 

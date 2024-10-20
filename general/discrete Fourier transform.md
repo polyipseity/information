@@ -120,7 +120,7 @@ In practice, {{the $x$ sequence is usually length _N_ or less}}, and $y_{_{N} }$
 
 ### cross-correlation theorem
 
-Similar to above, by {{applying the [circular convolution theorem](#ciruclar%20convolution%20theorem)}}, {{the [cross-correlation](cross-correlation.md) of $x$ and $y_{_{N} }$}} is given by: {{$$(x\star y_{_{N} })_{n}\triangleq \sum _{\ell =-\infty }^{\infty }x_{\ell }^{*}\cdot (y_{_{N} })_{n+\ell } = \sum_{\ell =-\infty }^{\infty} x_{-\ell }^{*} \cdot (y_{_N })_{n-\ell} = (x^*_{-n} * y_{_N })_n ={\mathcal {F} }^{-1}\left\{X^{*}\cdot Y\right\}_{n}$$}}, considering that {{the DFT of $\{x^*_{-n} \}$ is $X^*$ by [time and frequency reversal](#time%20and%20frequency%20reversal), and [conjugation in time](#conjugation%20in%20time)}}. <!--SR:!2025-01-20,104,307!2024-10-20,47,327!2024-11-06,57,327!2024-11-02,52,332-->
+Similar to above, by {{applying the [circular convolution theorem](#ciruclar%20convolution%20theorem)}}, {{the [cross-correlation](cross-correlation.md) of $x$ and $y_{_{N} }$}} is given by: {{$$(x\star y_{_{N} })_{n}\triangleq \sum _{\ell =-\infty }^{\infty }x_{\ell }^{*}\cdot (y_{_{N} })_{n+\ell } = \sum_{\ell =-\infty }^{\infty} x_{-\ell }^{*} \cdot (y_{_N })_{n-\ell} = (x^*_{-n} * y_{_N })_n ={\mathcal {F} }^{-1}\left\{X^{*}\cdot Y\right\}_{n}$$}}, considering that {{the DFT of $\{x^*_{-n} \}$ is $X^*$ by [time and frequency reversal](#time%20and%20frequency%20reversal), and [conjugation in time](#conjugation%20in%20time)}}. <!--SR:!2025-01-20,104,307!2025-03-22,153,327!2024-11-06,57,327!2024-11-02,52,332-->
 
 ### uniqueness of the discrete Fourier transform
 
@@ -138,7 +138,7 @@ A useful property of the DFT is that {{the inverse DFT can be easily expressed i
 
 First, we can compute the inverse DFT by {{reversing all but one of the inputs (Duhamel _et al._, 1988)}}: {{$$\mathcal F^{-1}(\set{x_n}) = \frac 1 N \mathcal F(\set{x_{N - n} })$$}}. (As usual, the subscripts are {{interpreted [modulo](modular%20arithmetic.md) _N_; thus, for $n = 0$, we have $x_{N - 0} = x_0$}}.) <!--SR:!2025-06-25,249,330!2024-12-26,95,290!2024-11-06,69,310-->
 
-Second, one can also {{conjugate the inputs and outputs}}: {{$$\mathcal F^{-1}(\mathbf x) = \frac 1 N \mathcal F(\mathbf x^*)^*$$}}. <!--SR:!2024-10-20,55,310!2024-10-31,64,310-->
+Second, one can also {{conjugate the inputs and outputs}}: {{$$\mathcal F^{-1}(\mathbf x) = \frac 1 N \mathcal F(\mathbf x^*)^*$$}}. <!--SR:!2025-04-16,178,310!2024-10-31,64,310-->
 
 Third, {{a variant of this conjugation trick}}, which is {{sometimes preferable because it requires no modification of the data values}}, involves {{swapping real and imaginary parts (which can be done on a computer simply by modifying [pointers](pointer%20(computer%20programming).md))}}. Define {{$\operatorname {swap} (x_{n})$ as $x_{n}$ with its real and imaginary parts swapped—that is, if $x_{n}=a+bi$ then $\operatorname {swap} (x_{n})$ is $b+ai$}}. Equivalently, {{$\operatorname {swap} (x_{n})$ equals $ix_{n}^{*}$}}. Then {{$${\mathcal {F} }^{-1}(\mathbf {x} )={\frac {1}{N} }\operatorname {swap} ({\mathcal {F} }(\operatorname {swap} (\mathbf {x} )))$$}}. That is, the inverse transform is {{the same as the forward transform with the real and imaginary parts swapped for both input and output, up to a normalization (Duhamel _et al._, 1988)}}. <!--SR:!2025-05-17,214,330!2024-11-05,69,310!2025-04-10,184,310!2025-03-08,159,310!2024-10-25,58,310!2024-11-03,66,310!2024-12-13,82,270-->
 

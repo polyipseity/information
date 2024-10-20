@@ -54,7 +54,7 @@ Logical equivalence is {{different from material equivalence}}. Formulas $p$ and
 
 The material equivalence of $p$ and $q$ (often written as {{$p\leftrightarrow q$}}) is {{itself another statement in the same [object language](formal%20system.md) as $p$ and $q$}}. This statement {{expresses the idea "'$p$ if and only if $q$'". In particular, the truth value of $p\leftrightarrow q$ can change from one model to another}}. <!--SR:!2025-01-02,79,290!2024-11-17,51,296!2024-10-29,36,301-->
 
-On the other hand, the claim that two formulas are logically equivalent is {{a statement in [metalanguage](metalanguage.md), which expresses a relationship between two statements $p$ and $q$}}. The statements are {{logically equivalent if, in every model, they have the same truth value}}. <!--SR:!2024-11-10,46,309!2024-10-20,27,276-->
+On the other hand, the claim that two formulas are logically equivalent is {{a statement in [metalanguage](metalanguage.md), which expresses a relationship between two statements $p$ and $q$}}. The statements are {{logically equivalent if, in every model, they have the same truth value}}. <!--SR:!2024-11-10,46,309!2025-01-05,77,276-->
 
 ## references
 

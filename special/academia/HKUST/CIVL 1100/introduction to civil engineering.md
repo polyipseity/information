@@ -710,7 +710,7 @@ soil liquefaction
 - debris flow→:::←landslide <!--SR:!2025-06-10,294,335!2025-04-29,260,335-->
 - landslide→:::←rockfall <!--SR:!2025-01-13,137,312!2025-03-02,211,320-->
 - rockfall→:::←soil liquefaction <!--SR:!2024-11-14,135,290!2025-08-03,318,270-->
-- soil liquefaction→:::←_(end)_ <!--SR:!2025-12-10,483,392!2024-10-20,117,295-->
+- soil liquefaction→:::←_(end)_ <!--SR:!2025-12-10,483,392!2025-09-25,340,295-->
 
 <!--/pytextgen-->
 

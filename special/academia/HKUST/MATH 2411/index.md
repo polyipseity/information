@@ -77,7 +77,7 @@ The content is in teaching order.
   - data / reason for summarizing ::: Data cannot inform us well without summarization. Also see [DIKW pyramid](../../../../general/DIKW%20pyramid.md) (data, knowledge, information, wisdom). <!--SR:!2024-11-11,54,310!2024-12-06,73,310-->
   - data / reading a table ::: Data are commonly listed in a table. Each column is a characteristic which we called a _variable_. Each row (except for the header) is a datum which we called an _observation_. <!--SR:!2025-01-17,101,290!2024-11-09,52,310-->
   - data / types of variables ::: _categorical/qualitative_: distinct categories or labels, and can be subdivided into _nominal_ if the categories cannot be ranked or _ordinal_ if they can be ranked; _quantitative_: numerical, and can be subdivided into _continuous_ if it arises from measurement or _discrete_ if it arises from counting <!--SR:!2024-11-12,56,310!2024-11-10,54,310-->
-    - data / types of variables / importance ::: proper interpretation of data, proper selection of statistical analysis (e.g. not averaging nominal variables) <!--SR:!2024-11-12,56,310!2024-10-20,34,270-->
+    - data / types of variables / importance ::: proper interpretation of data, proper selection of statistical analysis (e.g. not averaging nominal variables) <!--SR:!2024-11-12,56,310!2025-01-23,95,270-->
     - data / types of variables / note ::: Sometimes for data processing, categorical values are mapped to numbers. Do not mistake them for quantitative values! <!--SR:!2024-11-26,63,310!2024-11-12,49,290-->
 - [descriptive statistics](../../../../general/descriptive%20statistics.md)
   - descriptive statistics / common measures ::: central tendency (location), variability (spread/dispersion) <!--SR:!2024-10-30,42,290!2024-11-07,44,290-->

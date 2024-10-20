@@ -35,7 +35,7 @@ The Hubble constant _H_<sub>0</sub> has units of {{inverse time}}; {{the __Hubbl
 
 We currently {{appear to be approaching a period where the expansion of the universe is exponential}} due to {{the increasing dominance of [vacuum energy](vacuum%20energy.md)}}. In this regime, {{the Hubble parameter is constant}}, and {{the universe grows by a factor [_e_](e%20(mathematical%20constant).md) each Hubble time}}: {{$$H\equiv {\frac {\dot {a} }{a} }={\textrm {constant} }\quad \Longrightarrow \quad a\propto e^{Ht}=e^{\frac {t}{t_{H} } }$$}}. Likewise, the generally accepted value of {{2.27 [Es](metric%20prefix.md#List%20of%20SI%20prefixes)<sup>−1</sup>}} means that {{(at the current rate) the universe would grow by a factor of _e_<sup>2.27</sup> in one [exasecond](orders%20of%20magnitude%20(time).md)}}. <!--SR:!2025-05-02,199,349!2024-11-12,63,329!2024-12-03,84,349!2024-12-07,88,349!2025-01-14,113,329!2024-12-05,71,289!2025-03-21,155,329-->
 
-Over {{long periods of time}}, the dynamics are {{complicated by general relativity, dark energy, [inflation](cosmic%20inflation.md), etc.}}, as explained above. <!--SR:!2024-12-05,86,349!2024-10-20,48,329-->
+Over {{long periods of time}}, the dynamics are {{complicated by general relativity, dark energy, [inflation](cosmic%20inflation.md), etc.}}, as explained above. <!--SR:!2024-12-05,86,349!2025-06-02,225,349-->
 
 ## references
 
