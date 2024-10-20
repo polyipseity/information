@@ -29,16 +29,17 @@ The content is in teaching order.
   - homework: No late submissions.
   - midterm exam: No make-up exams.
     - datetime: 2024-10-20T14:00:00+08:00/2024-10-20T15:30:00+08:00
-    - venue: LT-B (L1), LT-J (L2)
+    - venue: Lecture Theater B (L1), Lecture Theater J (L2)
   - final exam: Make-up exam if absent due to special reasons, e.g. sick. Provide evidence.
 - syllabus: descriptive statistics, probability theory, inferential statistics
   - syllabus / descriptive statistics: descriptive statistics
   - syllabus / probability theory: introduction to probability theory → discrete random variable, discrete probability distribution → continuous random variable, continuous probability distribution
   - syllabus / inferential statistics: estimation of parameters: point estimation, interval estimation → hypothesis testing → simple linear regression → other topics: goodness of fit test, etc.
+- [assignments](assignments/)
 
 ## week 1 lecture
 
-- time: 2024-09-02T10:30:00+08:00/2024-09-02T11:50:00+08:00
+- datetime: 2024-09-02T10:30:00+08:00/2024-09-02T11:50:00+08:00
 - course logistics
 - [statistics](../../../../general/statistics.md)
   - statistics / definition (data) ::: a mathematical science that pertains to the _data_ collection, analysis, interpretation, explanation, and presentation
@@ -92,7 +93,7 @@ The content is in teaching order.
 
 ## week 1 lecture 2
 
-- time: 2024-09-02T10:30:00+08:00/2024-09-02T11:50:00+08:00
+- datetime: 2024-09-04T10:30:00+08:00/2024-09-04T11:50:00+08:00
 - [descriptive statistics](../../../../general/descriptive%20statistics.md)
   - sample [variance](../../../../general/variance.md) ::: Suppose we have $n$ _samples_ (with replacement) of a random variable $x$, labeled $x_1, \ldots, x_n$. Then its _unbiased sample variance_ is $$s^2_{n - 1} = \frac 1 {n - 1} \sum_{i = 1}^n (x_i - \bar x)^2$$. The _biased sample variance_, denoted $s^2_n$, replaces the factor $\frac 1 {n - 1}$ with $\frac 1 n$ in the above equation. Unless otherwise specified, the unbiased sample variance is used in this course.
     - sample [variance](../../../../general/variance.md) / dividing by $n - 1$ ::: $n - 1$ is also the _degree of freedom associated with the variance estimate_, which is the number of independent information pieces available for computing variability. Since $\bar x$ is usually the sample mean, which is determined from the sample mean, a degree of freedom is lost, as $\sum_{i = 1}^n (x_i - \bar x)$ is always forced to be zero. So the degree of freedom is $n - 1$. The original $n$ degrees of freedom comes from the $n$ observations being independent. This explains why dividing $n - 1$ instead of $n$ is _unbiased_. (If the $n$ observations are the entire population, then we divide by $n$ to get the _population variance_ instead.)
@@ -134,12 +135,12 @@ The content is in teaching order.
 
 ## week 1 tutorial
 
-- time: 2024-09-06T09:30:00+08:00/2024-09-06T10:20:00+08:00
+- datetime: 2024-09-06T09:30:00+08:00/2024-09-06T10:20:00+08:00
 - unscheduled
 
 ## week 2 lecture 1
 
-- time: 2024-09-09T10:30:00+08:00/2024-09-09T11:50:00+08:00
+- datetime: 2024-09-09T10:30:00+08:00/2024-09-09T11:50:00+08:00
 - [data presentation](../../../../general/data%20and%20information%20visualization.md)
   - sample size / _R_ ::: use `length(...)`
   - first _n_ observations / _R_ ::: use `head(...)`
@@ -171,3 +172,187 @@ The content is in teaching order.
     - non-probability sampling / voluntary response sampling ::: Individuals in a population are made known of your sample and voluntarily decides to participate or not.
     - non-probability sampling / purposive sampling ::: A _non-probabilistic_ method is used to select individuals in a population.
     - non-probability sampling / snowball sampling ::: Some individuals of a population are sampled initially. Individuals sampled recruit other individuals for sampling. This recruitment chain continues indefinitely, hence snowballing.
+
+## week 2 lecture 2
+
+- datetime: 2024-09-11T10:30:00+08:00/2024-09-11T11:50:00+08:00
+- [probability](../../../../general/probability.md)
+  - probability / subject ::: __Probability__ is the study of randomness.
+  - probability / event ::: A __probability__ of an uncertain outcome / event is the chance (or likelihood) that it will occur. It must be in between 0 and 1, inclusively.
+- random experiment ::: A __random experiment__ is a process that generates observations, and its outcome cannot be known beforehand and is only known after its performance.
+- sample space ::: A __sample space__ is a set of _all_ possible outcomes of a random experiment, often denoted by _S_. Each outcome is called  __sample point__, denoted by _s_.
+  - sample space / set-builder notation ::: To describe sample spaces for a large or infinite sample points, we can use the set-builder notation (__statement__ or __rule method__). It has the form: $$\set{x \mid P(x)} \,.$$, where _x_ is an indeterminate and _P_(_x_) is a predicate on the indeterminate. An element is in the set iff _P_(_x_) is true.
+- event ::: An __event__ is any subset of the sample space, often denoted by capital letters. The set of all events is the __event space__. Equivalently, it is the power set of the sample space.
+- Venn diagram ::: A __Venn diagram__ is a graph that can illustrate relationships among events. A rectangle is often used to represent the _sample space_, while circles often represent _events_ we are interested in. The circles may overlap, or be inside of one another completely.
+- set theory
+  - set theory / union ::: The __union__ of two events _A_ and _B_ is the event that at least one of _A_ or _B_ occur, denoted by _A_ ∪ _B_. It is defined as: $$A \cup B = \set{s \mid s \in A \text{ or } s \in B} \,.$$
+  - set theory / exhaustive ::: If the _union_ of several events is the sample space, the events are said to be __exhaustive__.
+  - set theory / intersection ::: The __intersection__ of two events _A_ and _B_ is the even that both of _A_ and _B_ occur, denoted by _A_ ∩ _B_. It is defined as: $$A \cap B = \set{s \mid s \in A \text{ and } s \in B} \,.$$ A property: _A_ ∩ _B_ = _A_ iff _A_ is a subset of _B_ (_A_ ⊆ _B_).
+  - set theory / disjoint ::: If two events have no common element, their intersection is an empty set Φ. The events are said to be __disjoint__. If two or more events are __pairwise disjoint__, that is any two events are _disjoint_, then the events are said to be __mutually exclusive__.
+  - set theory / complement ::: The __complement__ of an event _A_ is the sample space excluding outcomes in event _A_, denoted $A^\complement, A^c, \overline A, A'$. Intuitively, it is the event that event _A_ does not occur. It is defined as $$A^\complement = \set{s \mid s \in S, s \notin A} \,.$$ Three properties: _S_<sup>c</sup> = Φ and Φ<sup>c</sup> = _S_, and an event and its complement must be _disjoint_.
+  - set theory / difference ::: The __difference__ of two events _A_ and _B_ is the event that _A_ occurs but _B_ does not occur, denoted _A_ − _B_. It is defined as: $$A - B = \set{s \mid s \in A \text{ and } s \notin B} = A \cap B^\complement \,.$$
+  - set theory / commutative laws ::: $$\begin{aligned} A \cup B & = B \cup A \\ A \cap B & = B \cap A \end{aligned}$$
+  - set theory / associative laws ::: $$\begin{aligned} A \cup (B \cup C) & = (A \cup B) \cup C \\ A \cap (B \cap C) & = (A \cap B) \cap C \end{aligned}$$
+  - set theory / distributive laws ::: $$\begin{aligned} A \cup (B \cap C) & = (A \cup B) \cap (A \cup C) \\ A \cap (B \cup C) & = (A \cup B) \cap (A \cup C) \end{aligned}$$
+  - set theory / De Morgan's laws ::: $$\begin{aligned} (A \cup B)^\complement & = A^\complement \cap B^\complement \\ (A \cap B)^\complement & = A^\complement \cup B^\complement \\ \left(\bigcup_{k = 1}^n A_k \right)^\complement & = \bigcap_{k = 1}^n A_k^\complement \\ \left(\bigcap_{k = 1}^n A_k \right)^\complement & = \bigcup_{k = 1}^n A_k^\complement \end{aligned}$$
+
+## week 2 tutorial
+
+- datetime: 2024-09-13T09:30:00+08:00/2024-09-13T10:20:00+08:00
+
+## week 3 lecture
+
+- datetime: 2024-09-16T10:30:00+08:00/2024-09-16T11:50:00+08:00
+- [probability axioms](../../../../general/probability%20axioms.md)
+  - probability axioms / history ::: In 1933, a Russian mathematician named Andrei Nikolayevich Kolmogorov published the axiomatic structure of probability theory.
+  - probability axioms / first axiom ::: The first axiom is __non-negativity__. The probability of any event in a sample space is nonnegative.
+  - probability axioms / second axiom ::: The second axiom is __normalization__. The probability of the entire sample space is 1.
+  - probability axioms / third axiom ::: The third axiom is __countable additivity__. For any _countable_ (finite or infinite) sequence of _mutually exclusive_ events, the probability of the union of them is the sum of their probabilities. <p> A set is _countable_ if it is finite or its element can be enumerated (has a one-to-one correspondence with the natural numbers). For example, the natural numbers are _countable_, while the real numbers or any nonempty intervals of it are not.
+- probability measure ::: A __probability measure__, denoted _P_, is a real-valued function that assigns probabilities to events in a sample space. It is a __measure__, a mathematical abstraction of area, volume, probability, etc.
+- probability axioms
+  - probability axioms / probability of the empty set ::: The probability of the empty set is 0. Proof: $$\begin{aligned} P(\varnothing \cap \varnothing) & = P(\varnothing) + P(\varnothing) && \sigma\text{-additivity} \\ P(\varnothing) & = P(\varnothing) + P(\varnothing) \\ P(\varnothing) & = 0 \end{aligned}$$
+  - probability axioms / finite additivity ::: It is just the first axiom limited to finite sequences. Proof: Append an infinite number of empty sets to the finite sequence to make it infinite. Then _countable additivity_ can be applied.
+  - probability axioms / monotonicity ::: If _A_ is a subset of _B_ then _P_(_A_) ≤ _P_(_B_). Proof: $$\begin{aligned} P(A) + P(B - A) & = P(B) && A \subseteq B, \sigma\text{-additivity} \\ P(A) & \ge P(B) && \text{non-negativity} \end{aligned}$$
+  - probability axioms / numeric bound ::: The probability of any event is in between 0 and 1, inclusive. The lower bound is the non-negativity axiom, while the upper bound can be proved using the normalization axiom, monotonicity theorem, with the larger set being the sample space.
+  - probability axioms / complement rule ::: The probability of the complement of any event is one minus the probability of that event. Proof: $$P\left(A^\complement \right) = P(S - A) = P(S) - P(A) = 1 - P(A)$$
+  - probability axioms / additive law ::: The __additive law__ is: $$P(A \cup B) = P(A) + P(B) - P(A \cap B) \,.$$ When _A_ and _B_ are disjoint, then _P_(_A_ ∩ _B_) is 0 and the above degenerates into the finite additivity theorem. <p> The above is a special case of the [inclusion–exclusion principle](../../../../general/inclusion–exclusion%20principle.md), which can handle any countable number of events: $$\mathbb {P} \left(\bigcup _{i=1}^{n}A_{i}\right)=\sum _{k=1}^{n}\left((-1)^{k-1}\sum _{I\subseteq \{1,\ldots ,n\} \atop |I|=k}\mathbb {P} (A_{I})\right) \,.$$
+- assignment
+  - [assignment 1](assignments/assignent%201/index.md): 20/20, graded
+
+## week 3 lecture 2
+
+- datetime: 2024-09-18T10:30:00+08:00/2024-09-18T11:50:00+08:00
+- public holiday: Day after Mid-Autumn Festival
+
+## week 3 tutorial
+
+- datetime: 2024-09-20T09:30:00+08:00/2024-09-20T10:20:00+08:00
+
+## week 4 lecture
+
+- datetime: 2024-09-23T10:30:00+08:00/2024-09-23T11:50:00+08:00
+
+## week 4 lecture 2
+
+- datetime: 2024-09-25T10:30:00+08:00/2024-09-25T11:50:00+08:00
+- probability of an event in a sample space with _finite equally likely_ outcomes ::: If each outcome in a sample space is _equally likely_, then the probability of an event is the number of outcomes in the event divided by the number of outcomes in the sample space. This can be proved using the sigma-additivity axiom on an event.
+  - probability of ane vent in a sample space with _finite equally likely_ oucomes / _R_ ::: `sample(x=<sample space>, size=<number of times to sample>, replace=<sample with/without replacement?>)`
+- Simpson's paradox ::: An example: If a property is more likely to be present than not for both of two groups separately, this may still not be the case when the groups are combined.
+- [combinatorial principles](../../../../general/combinatorial%20principles.md) ::: rule of sum, rule of product
+  - [§ rule of sum](../../../../general/combinatorial%20principles.md#rule%20of%20sum) ::: The __rule of sum__ is an intuitive principle stating that if there are _a_ possible outcomes for an event (or ways to do something) and _b_ possible outcomes for another event (or ways to do another thing), and the two events cannot both occur (or the two things can't both be done), then there are _a + b_ total possible outcomes for the events (or total possible ways to do one of the things).
+  - [§ rule of product](../../../../general/combinatorial%20principles.md#rule%20of%20product) ::: The rule of product is another intuitive principle stating that if there are _a_ ways to do something and _b_ ways to do another thing, then there are _a_ · _b_ ways to do both things.
+- [permutation](../../../../general/permutation.md) ::: The number of ways to order _k_ things from _n_ things is $$P(n, k) = \frac {n!} {(n - k)!} \,.$$
+  - permutation / circular permutation ::: If the ordering is circular, we need to divide the permutation by the size of the circle: $$\frac {P(n, k)} {k} = \frac {n!} {(n - k)! k} \,.$$
+- [combination](../../../../general/combination.md) ::: The number of ways to select _k_ things from _n_ things, where the order of selection does not matter, is $$C(n, k) = \binom n k = \frac {n!} {(n - k)! k!} = \frac {P(n, k)} {k!} \,.$$
+  - combination / partition ::: The number of ways to partition _n_ things into _r_ labelled partitions, where _k_<sub>_i_</sub> is the number of things in the _i_-th partition, is: $${n\choose k_1,k_2,\ldots,k_r} =\frac{n!}{k_1!k_2!\cdots k_r!} \,.$$ When there are only two partitions, this is the same as above, the number of ways to select _k_ things from _n_ things.
+
+## week 4 tutorial
+
+- datetime: 2024-09-27T09:30:00+08:00/2024-09-27T10:20:00+08:00
+
+## week 5 lecture
+
+- datetime: 2024-09-30T10:30:00+08:00/2024-09-30T11:50:00+08:00
+- [conditional probability](../../../../general/conditional%20probability.md) ::: The __conditional probability__ of an event _A_ given that an event _B_, where _P_(_B_) > 0, has happened is: $$P(A \mid B) = \frac {P(A \cap B)} {P(B)} \,.$$ A property: $P(A \mid B) \ge P(A \cap B)$.
+  - conditional probability / motivation ::: Knowing an event has happened may modify the probability of other events. Conditional probability can model this.
+  - conditional probability / multiplicative rule ::: If _P_(_B_) > 0, then $$P(A \cap B) = P(A \mid B) P(B) \,.$$ This may be directly proved from the definition of conditional probability. Sometimes, the above is taken to be the definition of conditional probability instead (but not in this course).
+  - conditional probability / conserved properties ::: Many other properties of probability hold under conditional probability. This can be easily seen by making the event that has happened to be the sample space instead. Example: $$\begin{aligned} P(A \mid B) & = 1 - \left(A^\complement \mid B \right) \\ P(A \cup B \mid C) & = P(A \mid C) + P(B \mid C) - P(A \cap B \mid C) \\ P(A \cap B \mid C) & = P(A \mid B \cap C) P(B \mid C) \,. \end{aligned}$$ For the last example, if you reinterpret _C_ as the sample space, then $P(A \mid B \cap C)$ becomes $P(A \mid B)$.
+- [chain rule](../../../../general/chain%20rule%20(probability).md) ::: generalization of the _multiplicative rule_
+  - [chain rule § two events](../../../../general/chain%20rule%20(probability).md#two%20events) ::: This is the same as the _multiplicative rule_.
+  - [chain rule § finitely many events](../../../../general/chain%20rule%20(probability).md#finitely%20many%20events) ::: $$\begin{aligned} \mathbb P(A_1 \cap \ldots \cap A_n) & = \mathbb P(A_1 \cap \ldots \cap A_{n - 1}) \mathbb P(A_n \mid A_1 \cap \ldots \cap A_{n - 1}) \\ & = \mathbb P(A_1) \mathbb P(A_2 \mid A_1) \ldots \mathbb P(A_n \mid A_1 \cap \ldots \cap A_{n - 1}) \\ & = \prod_{k = 1}^n \mathbb P(A_k \mid A_1 \cap \ldots A_{k - 1}) \\ & = \prod_{k = 1}^n \mathbb P\left(A_k \,\Bigg|\, \bigcap_{j = 1}^{k - 1} A_j \right) \end{aligned}$$
+- [law of total probability](../../../../general/law%20of%20total%20probability.md#statement) ::: If $$\left\{{B_n : n = 1, 2, 3, \ldots}\right\}$$ is a _finite or countably infinite_ set of _mutually exclusive_ and _collectively exhaustive_ events $$P(A)=\sum_n P(A\mid B_n)P(B_n) \,,$$ where, for any $n$, if $P(B_n) = 0$, then these terms are simply omitted from the summation since $P(A\mid B_n)$ is finite. <p> The set of $B_n$ is also known as a __partition__ of the sample space.
+- [Bayes' theorem](../../../../general/Bayes'%20theorem.md#statement%20of%20the%20theorem) ::: __Bayes' theorem__ relates _P_(_A_|_B_) to _P_(_B_|_A_). It states $$P(A \mid B) = \frac {P(B \mid A) P(A)} {P(B)} \qquad P(B) \ne 0 \,.$$ (The course also states _P_(_A_) ≠ 0, but this is not actually required.) Sometimes the theorem is stated in the form where the denominator is replaced using the law of total probability.
+- supplementary examples
+  - [randomized response](../../../../general/randomized%20response.md) :::  It allows respondents to respond to sensitive issues (such as criminal behavior or sexuality) while maintaining confidentiality. For example, we want to know about if a person has done something. We prepare two questions: one asking if the person has done something, the other asking if the person has NOT done something. We randomly choose one of the questions, the probability of which can be calculated (e.g. coin flip), to ask. <p> This is an application of Bayes' theorem.
+  - the boy who cried wolf ::: We can apply Bayes' theorem to mathematically analyze this fable.
+  - [Monty Hall problem](../../../../general/Month%20Hall%20problem.md)
+- [independence](../../../../general/independence%20(probability%20theory).md) ::: Two events _A_ and _B_ are __independent__ iff $$P(A \cap B) = P(A) P(B) \,.$$ otherwise they are __dependent__. <p> Informally speaking, knowing either of the event has happened does not affect the probability of the other.
+  - independence / equivalence ::: The following statements are equivalent: <ul> <li>_A_ and _B_ are independent.</li> <li>_A_ and _B_<sup>c</sup> are independent.</li> <li>_A_<sup>c</sup> and _B_ are independent.</li> <li>_A_<sup>c</sup> and _B_<sup>c</sup> are independent.</li> </ul> The above can be seen by seeing that the complement of an event is uniquely defined by the event. There is a one-to-one correspondence.
+  - independence vs disjoint ::: Independent is not disjoint. End of story.
+  - independence / pairwise independence ::: A finite set of events is __pairwise independent__ iff any two events from the set is _independent_. <p> Pairwise independence does NOT automatically imply _mutual independence_.
+  - independence / mutual independence ::: A finite set of _n_ events is __mutually independent__ iff any 2 ≤ _k_ ≤ _n_ events from the set is _independent_. For the _independence_ of 2 ≤ _k_ events, this is simply: $$P\left(\bigcap_{i = 1}^k A_k \right) = \prod_{i = 1}^k A_k \,.$$ <p> Mutual independence automatically implies _pairwise independence_. However, note that the above statement must hold for all 2 ≤ _k_ ≤ _n_, not just _k_ = _n_. It is possible to create a sample space such that three events _A_, _B_, and _C_ are independent but none of the three events are _pairwise independent_.
+
+## week 5 lecture 2
+
+- datetime: 2024-10-02T10:30:00+08:00/2024-10-02T11:50:00+08:00
+- [random variable](../../../../general/random%20variable.md) (r.v.) ::: A __random variable__ (__r.v.__) is a mathematical function. Its _domain_ is the sample space. Its _range_ is a measurable space, usually a finite set of integers or the real numbers. The function need not be _injective_ (different sample need not map to different values). It is commonly denoted by capital letters, with its possible numerical values (also called __realizations__) by the same but lowercase letters. <p> A way to think about random variable is that it maps each outcome to a real number.
+  - random variable / motivation ::: How do we describe random process more mathematically? Random variables can do so.
+  - random variable / notations ::: Some notations for a random variable _X_ on the sample space _S_: $$\begin{aligned} \set{X = x} & = \set{s \in S \mid X(s) = x} \\ \set{X \le x} & = \set{s \in S \mid X(s) \le x} \\ P(X = x) & = P(\set{X = x}) \\ P(X \le x) & = P(\set{X \le x}) \end{aligned}$$
+  - random variable / types ::: There are two common types: _discrete_ random variables and _continuous_ random variables. If a random variable's range is _countable_ (finite or infinite), then the random variable is discrete. if a random variable's range is _uncountable_ and its _cumulative probability distribution_ (CDF) is _continuous everywhere_, then the random variable is continuous. <p> Other types not discussed here are _mixed_ random variables (a mix of discrete and continuous) and _singular_ random variables (neither discrete nor continuous).
+- discrete random variable ::: A __discrete random variable__ has a _countable_ (finite or infinite) range.
+  - [probability mass function](../../../../general/probability%20mass%20function.md) (PMF, pmf) ::: A __probability mass function__ (__PMF__, __pmf__) is a function that gives the probability that a _discrete random variable_ is exactly equal to some value. It is given by: $$p_X(x) = P(X = x) \,.$$ It is not defined for a continuous random variable. <p> The PMF has the following properties: $$\begin{aligned} \sum_x p_X(x) & = 1 \\ p_X(x) \ge 0 \,. \end{aligned}$$
+- [cumulative distribution function](../../../../general/cumulative%20distribution%20function.md) (CDF, cdf) ::: A __cumulative distribution function__ (__CDF__, __cdf__) of a real-valued random variable _X_ is the probability that  _X_ will take a value less than or equal to _x_. It is given by: $$F_x(x) = P(X \le x) \,.$$ The probability that _X_ will take a value in between (_a_, _b_], where _a_ < _b_ is $$P(a < X \le b) = F_x(a) - F_x(b) \,.$$
+  - cumulative distribution function / properties ::: A CDF of any probability distribution _supported on the real numbers_ is a right-continuous monotone increasing function (a càdlàg function) $F: \mathbb R \rightarrow [0, 1]$ satisfying $\lim_{x \to -\infty} F(x) = 0$ and $\lim_{x \to +\infty} F(x) = 1$.
+  - cumulative distribution function / existence and uniqueness ::: Every probability distribution _supported on the real numbers_, discrete, continuous, "mixed", as well as singular, is uniquely identified by its CDF. Thus, a CDF is defined for every probability distribution supported on the real numbers, even if its probability mass function (PMF) or probability density function (PDF) may be undefined.
+  - cumulative distribution function / discrete random variable ::: The CDF of a discrete random variable is a non-decreasing step function.
+- [expected value](../../../../general/expected%20value.md) ::: The __expected value__ (__population mean__, __first moment__) is a generalization of the weighted average. Informally, the expected value is the mean of the possible values a random variable can take, weighted by the probability of those outcomes. It is common denoted $E(X)$.
+  - expected value / discrete random variable ::: The expected value of a discrete random variable is the weighted average of all possible outcomes $\mathcal X$: $$E[X] = \sum_{x \in \mathcal X} x p(x) \,.$$ This is only defined if the sum converges absolutely, so it is possible for a discrete random variable to have a undefined expected value. <p> Also, $$E[g(X)] = \sum_{x \in \mathcal X} g(x) p(x) \,.$$ for an arbitrary function $g(x)$.
+  - expected value / linearity ::: An important property is its linearity: $$\begin{aligned} E(b) & = b \\ E(aX) & = a E(X) \\ E(aX + b) & = a E(x) + b \\ E(aX + bY) & = a E(x) + b E(Y) \,, \end{aligned}$$ where _a_, _b_ are constants and _X_, _Y_ are random variables _independent_ from each other, i.e. $$P(X \le x, Y \le y) = P(X \le x) P(Y \le y).
+- [variance](../../../../general/variance.md) ::: __Variance__ is the expected value of the squared deviation from the mean of a random variable. It is often represented by $\sigma ^{2}$, $s^{2}$, $\operatorname {Var} (X)$, $V(X)$, or $\mathbb {V} (X)$.
+  - variance / discrete random variable ::: The variance fo a discrete random variable is $$\operatorname{Var}(X) = \sum_{x \in \mathcal X} \left((x - \mu)^2 p(x) \right) \,.$$ This is only defined if the sum exists, so it is possible for a discrete random variable to have undefined variance.
+  - variance / properties ::: A well-known identity relating variance to expected value is $$\operatorname{Var}(X) = E\left[X^2\right] - (E[X])^2 = E\left[X^2\right] - \mu^2 \,.$$ With this identity, the following properties can be proved: $$\begin{aligned} \operatorname{Var}(b) = 0 \\ \operatorname{Var}(aX) & = a^2 \operatorname{Var}(X) \\ \operatorname{Var}(aX + b) & = a^2 \operatorname{Var}(X) \\ \operatorname{Var}(aX + bY) & = a^2 \operatorname{Var}(X) + b^2 \operatorname{Var}(bY) \,, \end{aligned}$$ where _a_, _b_ are constants and _X_, _Y_ are random variables _independent_ from each other, i.e. $$P(X \le x, Y \le y) = P(X \le x) P(Y \le y).
+- assignment
+  - [assignment 2](assignments/assignent%202/index.md): ?/20, graded
+
+## week 5 tutorial
+
+- datetime: 2024-10-04T09:30:00+08:00/2024-10-04T10:20:00+08:00
+
+## week 6 lecture
+
+- datetime: 2024-10-07T10:30:00+08:00/2024-10-07T11:50:00+08:00
+- cumulative distribution function (CDF, cdf)
+  - cumulative distribution function / continuous random variable ::: The CDF of a discrete random variable is a  right-continuous monotone increasing function (a càdlàg function) $F: \mathbb R \rightarrow [0, 1]$ satisfying $\lim_{x \to -\infty} F(x) = 0$ and $\lim_{x \to +\infty} F(x) = 1$.
+- [probability density function](../../../../general/probability%20density%20function.md) (PDF, pdf) ::: The __probability density function__ (__PDF__, __pdf__) of an _absolutely continuous_ random variable is a function whose value at any given sample (or point) in the sample space (the set of possible values taken by the random variable) can be interpreted as providing a _relative likelihood_ that the value of the random variable would be equal to that sample. <p> Probability density is the probability per unit length, in other words, while the _absolute likelihood_ for a continuous random variable to take on any particular value is 0 since there is an infinite set of possible values to begin with. <p> It is common denoted $f_X(x)$ for an absolutely continuous random variable _X_.
+  - probability density function / properties ::: A PDF is nonnegative at all points, and its integral over the entire real numbers exists and equals to 1.
+  - probability density function / from and to cumulative distribution function ::: For an _absolutely continuous_ random variable _X_, $$\begin{aligned} f_X(x) & = \frac {\mathrm d} {\mathrm dx} F_X(x) \\ F_X(x) & = \int_{-\infty}^x \! f_X(x) \,\mathrm{d}x \,. \end{aligned}$$ <p> Note that the _absolute continuity_ of $F_X(x)$ is required for $f_X(x)$ to be defined, or otherwise differentiating $F_X(x)$ and then integrating the resulting $f_X(x)$ may yield a different $F_X(x)$.
+  - probability density function / to and from cumulative distribution function ::: For a _Lebesgue-integrable_ function $f_X(x)$, $$\begin{aligned} F_X(x) & = \int_{-\infty}^x \! f_X(x) \,\mathrm{d}x  \\ f_X(x) & = \frac {\mathrm d} {\mathrm dx} F_X(x) && \text{if }f_X(x)\text{ is continuous at }x \,. \end{aligned}$$ <p> Note that if two Lebesgue-integrable functions differ from each other on measure zero, then the resulting $F_X(x)$ is the same. So the PDF cannot uniquely determine a CDF.
+- expected value
+  - expected value / continuous random variable ::: The expected value of a continuous random variable is the weighted average of all possible outcomes $\mathcal X$: $$E[X] = \int_{-\infty}^{+\infty} \! x f(x) \,\mathrm{d}x = \int_{-\infty}^{+\infty} x \,\mathrm{d}F(x) \,.$$ This is only defined if the integral converges absolutely, so it is possible for a continuous random variable to have a undefined expected value. <p> Also, $$E[g(X)] = \int_{-\infty}^{+\infty} \! g(x) f(x) \,\mathrm{d}x = \int_{-\infty}^{+\infty} g(x) \,\mathrm{d}F(x) \,.$$ for an arbitrary function $g(x)$.
+- variance
+  - variance / continuous random variable ::: The variance of a continuous random variable is $$\operatorname{Var}(X) = \int_{-\infty}^{+\infty} \! (x - \mu)^2 f(x) \,\mathrm{d}x = \int_{-\infty}^{+\infty} \! (x - \mu)^2 \,\mathrm{d}F(x) \,.$$ This is only defined if the integral exists, so it is possible for a continuous random variable to have undefined variance.
+- [Chebyshev's inequality](../../../../general/Chebyshev's%20inequality.md) ::: The probability that a random variable deviates from its mean by more than $k\sigma$ is at most $1/k^{2}$, where $k$ is any positive constant and $\sigma$ is the standard deviation (the square root of the variance): $$P(\lvert X - \mu \rvert \ge k \sigma) \le \frac 1 {k^2} \,.$$
+  - Chebyshev's inequality / proof for continuous random variable ::: This a proof for continuous random variable, but a similar one applies for discrete random variable: $$\begin{aligned} P(\lvert X - \mu \rvert \ge k \sigma) & = \int_{\lvert x - \mu \rvert \ge k \sigma} \! f(x) \,\mathrm{d}x \\ & \le \int_{\lvert x - \mu \rvert \ge k \sigma} \! \frac {(x - \mu)^2} {k^2 \sigma^2} f(x) \,\mathrm{d}x \\ & = \frac 1 {k^2 \sigma^2} \operatorname{Var}(X) \\ & = \frac 1 {k^2} \,. \end{aligned}$$
+
+## week 6 lecture 2
+
+- datetime: 2024-10-09T10:30:00+08:00/2024-10-09T11:50:00+08:00
+- [binomial distribution](../../../../general/binomial%20distribution.md) ::: The __binomial distribution__ with parameters _n_ and _p_ is the discrete probability distribution of the number of successes in a sequence of _n_ independent experiments, each asking a yes–no question, and each with its own Boolean-valued outcome: success (with probability _p_) or failure (with probability _q_ = 1-_p_). It is denoted $B(n, p)$.
+  - binomial distribution / probability mass function ::: For $X \sim B(n, p) \,,$ $$p_X(k) = \binom n k p^k (1 - p)^{n - k}\,.$$
+  - binomial distribution / mean ::: For $X \sim B(n, p) \,,$, $$E[X] = np \,.$$
+  - binomial distribution / variance ::: For $X \sim B(n, p) \,,$, $$\operatorname{Var}(X) = np(1 - p) \,.$$
+- [Poisson distribution](../../../../general/Poisson%20distribution.md) ::: The __Poisson distribution__ is a discrete probability distribution that expresses the probability of a given number of events occurring in a fixed interval of time if these events occur with a known constant mean rate and independently of the time since the last event. It can also be used for the number of events in other types of intervals than time, and in dimension greater than 1 (e.g., number of events in a given area or volume). It is denoted $\operatorname{Pois}(\lambda)$, where $\lambda$ is the expectation of number of events in a given interval.
+  - Poisson distribution / probability mass function ::: For $X \sim \operatorname{Pois}(\lambda) \,,$ $$p_X(k) = \frac {\lambda^k e^{-\lambda} } {k!} \,.$$
+  - Poisson distribution / mean ::: For $X \sim \operatorname{Pois}(\lambda) \,,$ $$E[X] = \lambda \,.$$
+  - Poisson distribution / variance ::: For $X \sim \operatorname{Pois}(\lambda) \,,$ $$\operatorname{Var}(X) = \lambda \,.$$
+- [continuous uniform distribution](../../../../general/continuous%20uniform%20distribution.md) ::: The __continuous uniform distribution__ describes uniform relative likelihood in between the interval _a_ and _b_ (both inclusive). It is denoted $U(a, b)$.
+  - continuous uniform distribution / probability mass function ::: For $X \sim U(a, b) \,,$ $$f(x) = \begin{cases} \frac 1 {b - a} & a \le x \le b \\ 0 & \text{otherwise} \,. \end{cases}$$
+  - continuous uniform distribution / mean ::: For $X \sim U(a, b) \,,$ $$E[X] = \frac {a + b} 2 \,.$$
+  - continuous uniform distribution / variance ::: For $X \sim U(a, b) \,,$ $$\operatorname{Var}(X) = \frac {(b - a)^2} {12} \,.$$
+- [normal distribution](../../../../general/normal%20distribution.md) ::: The __normal distribution__ are important in statistics and are often used in the natural and social sciences to represent real-valued random variables whose distributions are not known. Their importance is partly due to the central limit theorem. It is denoted $\mathcal N(\mu, \sigma^2)$, where $\mu$ is the mean and $\sigma^2$ is the variance.
+  - normal distribution / probability mass function ::: For $X \sim \mathcal N(\mu, \sigma^2) \,,$ $$f(x) = \frac 1 {\sqrt{2\pi \sigma^2} } \exp\left(-\frac {(x - \mu)^2} {2 \sigma^2} \right) \,.$$
+  - normal distribution / mean ::: For $X \sim \mathcal N(\mu, \sigma^2) \,,$ $$E[X] = \mu \,.$$
+  - normal distribution / variance ::: For $X \sim \mathcal N(\mu, \sigma^2) \,,$ $$\operatorname{Var}(X) = \sigma^2 \,.$$
+  - normal distribution / standard normal distribution ::: The __standard normal distribution__ has the mean, $\mu$, 0, and the variance, $\sigma^2$, 1. Its CDF is commonly denoted by $\Phi(z)$ while its PDF is commonly denoted by $\varphi(z)$. <p> A property of its CDF due to the even symmetry of its PDF: $\Phi(-z) = 1 - \Phi(z)$. <p> Any normal distribution can be __standardized__ by defining the random variable $Z = \frac {X - \mu} {\sigma}$. $z = \frac {x - \mu} \sigma$ is also known as the __standard score__ of the data _x_.
+
+## week 6 tutorial
+
+- datetime: 2024-10-11T09:30:00+08:00/2024-10-11T10:20:00+08:00
+- public holiday: Chung Yeung Festival
+
+## week 7 lecture
+
+- datetime: 2024-10-14T10:30:00+08:00/2024-10-14T11:50:00+08:00
+
+## week 7 lecture 2
+
+- datetime: 2024-10-16T10:30:00+08:00/2024-10-16T11:50:00+08:00
+
+## week 7 tutorial
+
+- datetime: 2024-10-18T09:30:00+08:00/2024-10-18T10:20:00+08:00
+
+## midterm exam
+
+- datetime: 2024-10-20T14:00:00+08:00/2024-10-20T15:30:00+08:00, PT1H30M
+- venue: Lecture Theater B (L1), Lecture Theater J (L2)

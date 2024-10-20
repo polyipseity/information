@@ -522,3 +522,8 @@ The content is in teaching order.
 - time: 2024-10-16T09:00:00+08:00/2024-10-16T11:20:00+08:00
 - [questions/2024-10-16](questions/2024-10-16.md)
 - [week 7 problem set](questions/week%207%20problem%20set.md)
+
+## midterm exam
+
+- datetime: 2024-10-18T18:00:00+08:00/2024-10-18T21:00:00+08:00, PT3H
+- venue: Lecture Theater C
