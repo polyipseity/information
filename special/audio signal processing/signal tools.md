@@ -25,7 +25,7 @@ Audacity can generate {{real sine signals of any frequency and amplitude}}. The 
 
 ## SonicVisualiser
 
-SonicVisualiser is {{an audio visualization, analysis, and annotation tool}}. It can be downloaded from {{<https://sonicvisualiser.org/>}}. <!--SR:!2024-10-21,53,310!2024-10-27,59,310-->
+SonicVisualiser is {{an audio visualization, analysis, and annotation tool}}. It can be downloaded from {{<https://sonicvisualiser.org/>}}. <!--SR:!2025-06-14,236,330!2024-10-27,59,310-->
 
 ### applying DFT on complicated sounds
 

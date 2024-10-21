@@ -29,7 +29,7 @@ There are {{several ways}} to define whether a function is _continuous_ at a poi
 
 #### global continuity
 
-There are {{several incompatible definitions}} of the (global) continuity of a function, depending on the nature of its domain. <!--SR:!2024-10-21,166,310-->
+There are {{several incompatible definitions}} of the (global) continuity of a function, depending on the nature of its domain. <!--SR:!2026-10-08,717,330-->
 
 A function is continuous on an open [interval](interval%20(mathematics).md) {{if the interval is contained in the [function domain](domain%20of%20a%20function.md) and the function is continuous at every interval point}}. A function is continuous on a semi-open or closed [interval](interval%20(mathematics).md) {{if the interval is contained in the [function domain](domain%20of%20a%20function.md), the function is continuous at every [interior](interior%20(topology).md) point of the interval, and the value of the function at each interval endpoint is the limit of the values of the function as the input tends to the endpoint from the interval interior}}. <!--SR:!2025-10-30,396,290!2025-12-08,431,304-->
 

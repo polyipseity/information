@@ -11,7 +11,7 @@ tags:
 
 ## opening and closing
 
-To open a file in reading mode, use {{`open(path, "r")` or `open(path)`}}. To open the file in writing mode, use {{`open(path, "w")`}}. <!--SR:!2024-12-27,249,330!2024-10-21,196,330-->
+To open a file in reading mode, use {{`open(path, "r")` or `open(path)`}}. To open the file in writing mode, use {{`open(path, "w")`}}. <!--SR:!2024-12-27,249,330!2027-04-04,895,350-->
 
 Always remember to {{close the file by calling `file.close()`}}. This is to ensure {{the file is unlocked or saved properly}}. A better method is using {{`with`}}, but it will not be mentioned here. <!--SR:!2024-12-26,254,330!2025-02-07,285,330!2025-01-31,278,330-->
 

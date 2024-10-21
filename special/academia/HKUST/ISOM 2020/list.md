@@ -17,7 +17,7 @@ If you try to {{get the type of a list using `type(list)`}}, {{the returned type
 
 To define a list in Python, {{enclose all items in square brackets `[]` and separate each item by a comma `,`, like `[1, 2, "item", 4.2, "ok", 'hey', False]`}}. An empty list is {{allowed and created using `[]`, and can be expanded later}}. A trailing comma is {{allowed and optional after the last item (but not if there are no items, i.e. `[,]` is invalid)}}. Note that a list can {{contain items of different types (including lists) like the example just now, though usually it is more useful for them to be the same type}}. <!--SR:!2024-10-29,35,294!2024-10-26,32,294!2024-10-27,33,294!2024-11-06,39,294-->
 
-ISOM 2020 note: Note that {{`(..., ...)`}} is {{creating a `tuple`, a type that is similar to a `list` but is immutable (not modifiable)}}. But you {{do not need to care or know about it}}. <!--SR:!2024-10-21,4,320!2024-10-21,4,320!2024-10-21,4,320-->
+ISOM 2020 note: Note that {{`(..., ...)`}} is {{creating a `tuple`, a type that is similar to a `list` but is immutable (not modifiable)}}. But you {{do not need to care or know about it}}. <!--SR:!2024-11-08,18,340!2024-11-08,18,340!2024-11-08,18,340-->
 
 ## indexing
 
@@ -61,6 +61,6 @@ Aggregate functions {{summarize a result from a list}}. <!--SR:!2024-10-28,34,29
 
 ## search functions
 
-- `val in list`, `val not in list` ::: Returns a `bool` indicating whether `val` is in `list`. Equality is compared using `==`, so `0.0 in [0]` is `True` instead of `False`. The `not in` operator simply inverts the `bool` returned by `in` operator. <!--SR:!2024-10-21,4,320!2024-10-21,4,320-->
+- `val in list`, `val not in list` ::: Returns a `bool` indicating whether `val` is in `list`. Equality is compared using `==`, so `0.0 in [0]` is `True` instead of `False`. The `not in` operator simply inverts the `bool` returned by `in` operator. <!--SR:!2024-11-08,18,340!2024-11-08,18,340-->
 - `list.count(val)` ::: Count the number of `val`s in `list`. Returns `0` if `val` is not found in the list. Equality is compared using `==`, so `[0, 0.0].count(0.0)` is `2` instead of `1`. <!--SR:!2024-11-17,40,316!2025-01-08,83,336-->
 - `list.index(val)` ::: Returns the index of `val` in `list`. The index of the leftmost item is returned if there are multiple matching items. Raises `ValueError` if `val` is not found in the list. Equality is compared using `==`, so `[0, 0.0].index(0.0)` is `0` instead of `1`. <!--SR:!2025-01-08,83,336!2025-01-08,83,336-->

@@ -32,7 +32,7 @@ Command names can be {{truncated at the end to produce an abbreviation if the ab
 - `info breakpoints|regs|threads`::: list breakpoints, register values, or threads <!--SR:!2024-11-12,55,310!2024-10-29,45,290-->
 - `next` ::: go to the next (source) line <!--SR:!2024-11-05,49,310!2024-10-31,46,290-->
 - `ni` ::: go to the next instruction <!--SR:!2024-11-16,59,310!2024-11-22,64,310-->
-- `print <expression>` ::: evaluate and print an expression <!--SR:!2024-10-21,35,270!2024-12-02,69,310-->
+- `print <expression>` ::: evaluate and print an expression <!--SR:!2025-01-26,97,270!2024-12-02,69,310-->
 - `run [<args>...]` ::: run program (with args) <!--SR:!2024-11-14,56,310!2024-11-21,63,310-->
 - `set <storage> = <value>` ::: set storage to value <!--SR:!2025-01-13,88,345!2025-01-13,88,345-->
 - `set args <args>...` ::: set program args <!--SR:!2024-12-05,72,310!2024-11-07,51,310-->

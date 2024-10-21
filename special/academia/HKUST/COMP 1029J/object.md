@@ -98,7 +98,7 @@ Name(int aField) {
 
 ### static
 
-By adding `static` before {{the return type of a method, the method can be called without creating an object first. The restriction is that non-`static` methods and non-`static` fields cannot be accessed directly without an object, as there are no objects to access them on}}. For example, invoking `aStaticMethod` in the above example: <!--SR:!2024-10-21,182,310-->
+By adding `static` before {{the return type of a method, the method can be called without creating an object first. The restriction is that non-`static` methods and non-`static` fields cannot be accessed directly without an object, as there are no objects to access them on}}. For example, invoking `aStaticMethod` in the above example: <!--SR:!2026-12-09,779,330-->
 
 ```Java
 Name name = new Name(42);
