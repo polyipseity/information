@@ -83,7 +83,7 @@ The vectors {{$u_{k}=\left[\left.e^{ {\frac {i2\pi }{N} }kn}\;\right|\;n=0,1,\ld
 
 ### The Plancherel theorem and Parseval's theorem
 
-If {{$X_{k}$ and $Y_{k}$ are the DFTs of $x_{n}$ and $y_{n}$ respectively}} then {{[Parseval's theorem](parseval's%20theorem.md)}} states: {{$$\sum _{n=0}^{N-1}x_{n}y_{n}^{*}={\frac {1}{N} }\sum _{k=0}^{N-1}X_{k}Y_{k}^{*}$$}} where the star denotes [complex conjugation](complex%20conjugate.md). {{The [Plancherel theorem](plancherel%20theorem.md)}} is {{a special case of Parseval's theorem}} and states: {{$$\sum _{n=0}^{N-1}|x_{n}|^{2}={\frac {1}{N} }\sum _{k=0}^{N-1}|X_{k}|^{2}$$}}. <!--SR:!2024-10-22,54,316!2025-03-08,144,316!2024-11-10,26,296!2024-12-08,76,276!2025-04-10,182,336!2024-11-02,64,336-->
+If {{$X_{k}$ and $Y_{k}$ are the DFTs of $x_{n}$ and $y_{n}$ respectively}} then {{[Parseval's theorem](parseval's%20theorem.md)}} states: {{$$\sum _{n=0}^{N-1}x_{n}y_{n}^{*}={\frac {1}{N} }\sum _{k=0}^{N-1}X_{k}Y_{k}^{*}$$}} where the star denotes [complex conjugation](complex%20conjugate.md). {{The [Plancherel theorem](plancherel%20theorem.md)}} is {{a special case of Parseval's theorem}} and states: {{$$\sum _{n=0}^{N-1}|x_{n}|^{2}={\frac {1}{N} }\sum _{k=0}^{N-1}|X_{k}|^{2}$$}}. <!--SR:!2025-06-18,239,336!2025-03-08,144,316!2024-11-10,26,296!2024-12-08,76,276!2025-04-10,182,336!2024-11-02,64,336-->
 
 These theorems are {{also equivalent to the unitary condition below}}. <!--SR:!2025-03-25,157,316-->
 
@@ -91,7 +91,7 @@ These theorems are {{also equivalent to the unitary condition below}}. <!--SR:!2
 
 The periodicity can be {{shown directly from the definition}}: {{$$X_{k+N}\ \triangleq \ \sum _{n=0}^{N-1}x_{n}e^{-{\frac {i2\pi }{N} }(k+N)n}=\sum _{n=0}^{N-1}x_{n}e^{-{\frac {i2\pi }{N} }kn}\underbrace {e^{-i2\pi n} } _{1}=\sum _{n=0}^{N-1}x_{n}e^{-{\frac {i2\pi }{N} }kn}=X_{k}$$}}. <!--SR:!2024-10-24,56,316!2024-11-08,68,336-->
 
-Similarly, it can be {{shown that the IDFT formula leads to a periodic extension}}. <!--SR:!2024-10-22,54,316-->
+Similarly, it can be {{shown that the IDFT formula leads to a periodic extension}}. <!--SR:!2025-06-18,239,336-->
 
 ### shift theorem
 

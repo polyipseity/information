@@ -218,11 +218,11 @@ See [John Hancock Center](John%20Hancock%20Center.md).
 
 See [Millau Viaduct](../../../../general/Millau%20Viaduct.md).
 
-- bridge type ::: cable-stayed road bridge <!--SR:!2024-10-22,119,376!2024-10-23,127,396-->
+- bridge type ::: cable-stayed road bridge <!--SR:!2026-07-26,642,396!2024-10-23,127,396-->
 - designers ::: Michel Virlogeux, Norman Foster <!--SR:!2025-06-16,291,376!2024-11-16,148,396-->
 - geographic location ::: across the gorge valley of the Tarn near Millau in southern France <!--SR:!2025-05-01,258,376!2025-05-29,280,376-->
 - height ::: max pylon above base: 343 m, structural: 336.4 m <!--SR:!2025-02-13,115,296!2024-11-07,140,396-->
-  - height record ::: as of October 2023, tallest bridge in the world <!--SR:!2024-10-22,126,396!2024-10-22,127,396-->
+  - height record ::: as of October 2023, tallest bridge in the world <!--SR:!2026-03-06,500,396!2026-10-10,718,416-->
 - length ::: 2450 m = 204 m + 342 m × 6 + 204 m, longest span: 342 m <!--SR:!2024-11-08,39,296!2026-02-17,488,396-->
 - image ::: ![Millau Viaduct image](../../../../archives/Wikimedia%20Commons/ViaducdeMillau.jpg) <!--SR:!2024-11-04,137,396!2025-10-14,411,396-->
 - opening time ::: 2004-12-16, 09:00 <!--SR:!2024-11-05,19,256!2025-05-30,281,376-->

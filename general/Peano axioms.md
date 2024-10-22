@@ -68,7 +68,7 @@ In Peano's original formulation, the induction axiom is {{a [second-order axiom]
 
 ### defining arithmetic operations and relations
 
-If we use the second-order induction axiom, it is {{possible to define [addition](addition.md), [multiplication](multiplication.md), and [total (linear) ordering](total%20order.md) on [__N__](natural%20number.md#notation) directly using the axioms}}. However, with first-order induction, this is {{not possible and addition and multiplication are often added as axioms}}. The respective functions and relations are {{constructed in [set theory](set%20theory.md) or [second-order logic](second-order%20logic.md), and can be shown to be unique using the Peano axioms}}. <!--SR:!2024-10-31,36,285!2024-12-10,71,325!2024-10-22,30,285-->
+If we use the second-order induction axiom, it is {{possible to define [addition](addition.md), [multiplication](multiplication.md), and [total (linear) ordering](total%20order.md) on [__N__](natural%20number.md#notation) directly using the axioms}}. However, with first-order induction, this is {{not possible and addition and multiplication are often added as axioms}}. The respective functions and relations are {{constructed in [set theory](set%20theory.md) or [second-order logic](second-order%20logic.md), and can be shown to be unique using the Peano axioms}}. <!--SR:!2024-10-31,36,285!2024-12-10,71,325!2025-01-16,86,285-->
 
 #### addition
 
@@ -112,7 +112,7 @@ This relation is {{stable under addition and multiplication}}: for $a,b,c\in \ma
 - _a_ + _c_ ≤ _b_ + _c_, and
 - _a_ · _c_ ≤ _b_ · _c_.
 
-Thus, {{the structure (__N__, +, ·, 1, 0, ≤)}} is {{an [ordered semiring](ordered%20ring.md); because there is no natural number between 0 and 1, it is a discrete ordered semiring}}. <!--SR:!2024-10-22,28,285!2024-10-26,28,250-->
+Thus, {{the structure (__N__, +, ·, 1, 0, ≤)}} is {{an [ordered semiring](ordered%20ring.md); because there is no natural number between 0 and 1, it is a discrete ordered semiring}}. <!--SR:!2025-01-11,81,285!2024-10-26,28,250-->
 
 The axiom of induction is {{sometimes stated in the following form that uses a stronger hypothesis, making use of the order relation "≤"}}: <!--SR:!2024-12-05,66,325-->
 

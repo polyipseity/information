@@ -100,7 +100,7 @@ return await memorize_map(
 - green (non-halide)::[copper](copper.md)(II) <!--SR:!2025-08-13,547,270-->
 - blue-green (halide)::[copper](copper.md)(II) <!--SR:!2027-05-18,1020,290-->
 - blue (very hot)::[iron](iron.md)(II) <!--SR:!2028-01-07,1175,290-->
-- gold::[iron](iron.md)(II) <!--SR:!2024-10-22,420,310-->
+- gold::[iron](iron.md)(II) <!--SR:!2025-05-26,216,290-->
 - green to orange-brown::[iron](iron.md)(II) <!--SR:!2025-04-21,526,310-->
 - sparks::[iron](iron.md)(II) <!--SR:!2027-10-21,1124,290-->
 - orange-brown::[iron](iron.md)(III) <!--SR:!2027-09-27,1084,290-->

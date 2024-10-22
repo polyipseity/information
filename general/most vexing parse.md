@@ -8,7 +8,7 @@ tags:
 
 # most vexing parse
 
-The __most vexing parse__ is {{a counterintuitive form of resolution to [ambiguous grammar](Ambiguous%20grammar.md) in the [C++](C++.md) programming language}}. When the C++ grammar {{cannot distinguish between [variable initialization](initialization%20(programming).md) and [function declaration](declaration%20(computer%20programming).md), it is required to interpret it as a function declaration}}. <!--SR:!2025-01-10,235,330!2024-10-22,168,310-->
+The __most vexing parse__ is {{a counterintuitive form of resolution to [ambiguous grammar](Ambiguous%20grammar.md) in the [C++](C++.md) programming language}}. When the C++ grammar {{cannot distinguish between [variable initialization](initialization%20(programming).md) and [function declaration](declaration%20(computer%20programming).md), it is required to interpret it as a function declaration}}. <!--SR:!2025-01-10,235,330!2026-10-11,719,330-->
 
 ## examples
 
@@ -71,7 +71,7 @@ Parent parent(     {});
 Parent parent{     {}};
 ```
 
-Before [C++11](C++11.md), the two common solutions are {{using extra parentheses or copy-initialization}}: <!--SR:!2024-10-22,160,310-->
+Before [C++11](C++11.md), the two common solutions are {{using extra parentheses or copy-initialization}}: <!--SR:!2026-10-10,718,330-->
 
 ```C++
 Parent parent((Child())); // extra parentheses

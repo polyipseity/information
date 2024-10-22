@@ -112,7 +112,7 @@ segmented: splitting slightly different customer segments
 - diversified: serving unrelated customer segments→:::←mass market: not distinguishing between customer segments <!--SR:!2025-03-28,199,237!2025-05-24,243,254-->
 - mass market: not distinguishing between customer segments→:::←multi-sided platforms: serving interdependent customer segments <!--SR:!2024-11-24,80,254!2024-11-05,54,277-->
 - multi-sided platforms: serving interdependent customer segments→:::←niche market: focusing on specific, specialized customer segments <!--SR:!2024-10-27,120,257!2025-03-31,200,254-->
-- niche market: focusing on specific, specialized customer segments→:::←segmented: splitting slightly different customer segments <!--SR:!2025-06-10,253,254!2024-10-22,22,157-->
+- niche market: focusing on specific, specialized customer segments→:::←segmented: splitting slightly different customer segments <!--SR:!2025-06-10,253,254!2024-11-22,31,157-->
 - segmented: splitting slightly different customer segments→:::←_(end)_ <!--SR:!2025-01-22,185,274!2024-10-31,116,254-->
 
 <!--/pytextgen-->
@@ -218,7 +218,7 @@ personal assistance
 
 - _(begin)_→:::←automated services <!--SR:!2025-08-04,322,294!2024-12-08,178,310-->
 - automated services→:::←co-creation <!--SR:!2024-11-21,130,254!2025-01-04,167,274-->
-- co-creation→:::←communities <!--SR:!2024-10-22,116,254!2026-04-09,539,314-->
+- co-creation→:::←communities <!--SR:!2025-08-21,303,254!2026-04-09,539,314-->
 - communities→:::←dedicated personal assistance <!--SR:!2025-03-26,226,277!2025-06-04,268,274-->
 - dedicated personal assistance→:::←personal assistance <!--SR:!2025-02-04,208,317!2025-01-10,191,317-->
 - personal assistance→:::←_(end)_ <!--SR:!2025-01-23,199,317!2025-02-21,221,317-->

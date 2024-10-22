@@ -227,7 +227,7 @@ return _chain.from_iterable(await _gather(
 - `math.log(<int/float>)` ::: Requires importing `math` first by `import math`. Returns the natural logarithm (base is _e_) of the provided number. Always output a `float`. It does not accept nonpositive (raises a `ValueError` error) or complx numbers (raises a `TypeError` error). The number provided to `sqrt` is always converted into a `float` first before applying the natural algorithm on it. <!--SR:!2025-02-18,120,343!2024-11-08,38,323-->
 - `math.pi` ::: A `float` representing the value of pi. It is NOT a function (so `math.pi()` is invalid), but a variable. <!--SR:!2024-11-30,60,343!2025-01-12,96,363-->
 - `math.sqrt(<int/float>)` ::: Requires importing `math` first by `import math`. Returns the square root of the provided number. Always output a `float`. The differences from `<int/float> ** 0.5` are that `sqrt` does not accept negative (raises a `ValueError` error) or complex numbers (raises a `TypeError` error), and the number provided to `sqrt` is always converted into a `float` first before applying the square root on it. <!--SR:!2024-11-10,47,302!2024-11-18,55,302-->
-- `random.randint(a, b)` ::: Requires importing `random` first by `import random`. Returns a random `int` _N_ such that _a_ ≤ _N_ ≤ _b_. If _a_ > _b_, then raises a `ValueError`. <!--SR:!2024-10-22,5,357!2024-11-04,15,357-->
+- `random.randint(a, b)` ::: Requires importing `random` first by `import random`. Returns a random `int` _N_ such that _a_ ≤ _N_ ≤ _b_. If _a_ > _b_, then raises a `ValueError`. <!--SR:!2024-11-15,24,377!2024-11-04,15,357-->
 
 ## string
 
@@ -237,7 +237,7 @@ To define a string in Python, {{enclose the string in either double quotes `"exa
 
 To {{find the length of a string}}, use {{`len(str)`, which returns an `int` representing the number of characters in `str`}}. To {{concatenate/join two strings}}, use {{the `+` operator}}. If {{the `+` operator is applied between a `str` and another (incompatible) type}}, then {{a `TypeError` will be raised}}. <!--SR:!2025-01-20,95,369!2024-12-21,65,349!2025-01-25,100,369!2025-01-25,100,369!2025-02-03,105,386!2025-01-18,92,386-->
 
-Like lists, strings can be {{indexed using the `string_var[n]`, which access the _n_ + 1-th character of the string}}. If {{the index is out of range}}, then {{an `IndexError` will be raised}}. But unlike lists, strings {{cannot be modified using the indexing notation, because strings in Python are immutable (not modifiable)}}. <!--SR:!2024-10-22,5,357!2024-10-22,5,357!2024-10-22,5,357!2024-10-22,5,357-->
+Like lists, strings can be {{indexed using the `string_var[n]`, which access the _n_ + 1-th character of the string}}. If {{the index is out of range}}, then {{an `IndexError` will be raised}}. But unlike lists, strings {{cannot be modified using the indexing notation, because strings in Python are immutable (not modifiable)}}. <!--SR:!2024-11-15,24,377!2024-11-15,24,377!2024-11-15,24,377!2024-11-15,24,377-->
 
 ## output
 
@@ -261,7 +261,7 @@ Variable names are {{case sensitive, cannot be keywords, cannot have some charac
 
 Variable name should be {{descriptive of the values it is supposed to hold}}. <!--SR:!2024-12-01,68,322-->
 
-ISOM 2020 note: {{`+=`, `-=`, `*=`, `/=`, etc.}} are {{not taught and should NOT be used in exercises or exams}}. <!--SR:!2024-10-22,5,357!2024-10-22,5,357-->
+ISOM 2020 note: {{`+=`, `-=`, `*=`, `/=`, etc.}} are {{not taught and should NOT be used in exercises or exams}}. <!--SR:!2024-11-15,24,377!2024-11-15,24,377-->
 
 ## data types
 
