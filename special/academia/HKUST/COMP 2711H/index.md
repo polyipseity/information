@@ -464,8 +464,8 @@ The content is in teaching order.
 - graph theory
   - graph theory / distance ::: The __distance__ between two vertices (repeats allowed) in a graph is the minimum number of edges in a path connecting the two vertices.
   - graph theory / eccentricity ::: The __eccentricity__ of a vertex in a graph is the maximum distance it can have with any vertex in the same graph.
-  - graph theory / center ::: The __center__ of a graph is a vertex with the minimum eccentricity among all vertices.
-  - graph theory / radius ::: The __radius__ of a graph is the minimum eccentricity of a vertex, i.e. the eccentricity of its center.
+  - graph theory / center ::: The __center__ of a graph is a vertex with the minimum eccentricity among all of its vertices.
+  - graph theory / radius ::: The __radius__ of a graph is the minimum eccentricity of its vertices, i.e. the eccentricity of its center.
   - graph theory / diameter ::: The __diameter__ fo a graph is the maximum distances any pair of vertices (repeats allowed) can have.
 - theorem: radius and diameter of a graph ::: For any graph, the following relationship holds: radius ≤ diameter ≤ 2 · radius. <p> To prove this, draw its diameter (which is a shortest path between the two points) and its center. Consider the case if the center is in the diameter path and if n
 - theorem: tree, leaf, center ::: No leaf can be a center of a tree with 3 or more vertices. <p> To prove this, suppose a leaf is a center. We can write the leaf's only neighbor's distance to any other vertex in terms of the distance of the leaf to any other vertex. This would produce a contradiction.
@@ -510,7 +510,7 @@ The content is in teaching order.
 - graph theory
   - graph theory / vertex cover ::: A __vertex cover__ |_A_| is a set of vertices such that every edge has at least one endpoint in the cover.
 - theorem: minimum vertex cover, maximum matching ::: In every graph, the minimum vertex cover has a size of at least that of _maximum_ matching. <p> To prove this, consider a maximum matching. For every edge in the maximum matching, one point must be in the vertex cover.
-- theorem: minimum vertex cover, maximum matching, bipartite graph ::: In every bipartite graph, the minimum vertex cover has a size equals that of maximum matching. <p> To prove this, we can prove the minimum vertex cover has a size smaller or equal to that of maximum matching. Consider a maximum matching in a bipartite graph. Then consider a minimum vertex cover and split the two bipartition sets into two separate bipartitions depending on if the element is in the minimum vertex cover. Show that the minimum vertex cover implies the existence of a maximum matching on both bipartitions, which can be merged back to get a maximum matching on the original bipartition. <p> Combining with the previous theorem gives us the equality result.
+- theorem: minimum vertex cover, maximum matching, bipartite graph ::: In every bipartite graph, the minimum vertex cover has a size equals that of maximum matching. <p> To prove this, we can prove the minimum vertex cover has a size smaller than or equal to that of maximum matching. Consider a maximum matching in a bipartite graph. Then consider a minimum vertex cover and split the two bipartition sets into two separate bipartitions depending on if the element is in the minimum vertex cover. Show that the minimum vertex cover implies the existence of a maximum matching on both bipartitions, which can be merged back to get a maximum matching on the original bipartition. <p> Combining with the previous theorem gives us the equality result.
 - [questions/2024-10-14/lecture](questions/2024-10-14%20lecture.md)
 
 ## week 7 tutorial
