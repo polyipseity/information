@@ -310,7 +310,7 @@ return await memorize_map(
 
 > [!example] examples
 >
-> - $\sin 3.23 \mp \sin(-1.52)$ ::: $2 \sin\left(\frac{3.23 \pm 1.52}2\right) \cos\left(\frac{3.23 \mp 1.52}2\right)$ <!--SR:!2024-10-23,115,227!2024-11-18,210,267-->
+> - $\sin 3.23 \mp \sin(-1.52)$ ::: $2 \sin\left(\frac{3.23 \pm 1.52}2\right) \cos\left(\frac{3.23 \mp 1.52}2\right)$ <!--SR:!2025-07-21,271,227!2024-11-18,210,267-->
 > - $\cos(-2.23) + \cos 0.14$ ::: $2 \cos 1.045 \cos 1.185$ <!--SR:!2026-01-17,539,327!2025-04-22,185,247-->
 > - $\cos(-6.88) - \cos(-2.45)$ ::: $-2 \sin 4.665 \sin 2.215$ <!--SR:!2026-01-08,512,307!2024-12-03,83,247-->
 > - $\tan(-0.73) \mp \tan 2.55$ ::: $\frac{\sin(-0.73 \mp 2.55)}{\cos 0.73 \cos 2.55}$ <!--SR:!2025-05-12,346,307!2026-01-06,498,287-->
@@ -325,7 +325,7 @@ return await memorize_map(
 >
 > - where
 >   - {{$c = \operatorname{sgn}(a) \sqrt{a^2 + b^2}, \varphi = \arctan(-b / a)$ or $c = \sqrt{a^2 + b^2}, \varphi = \operatorname{atan2}(-b, a)$, assuming $\arctan(\pm \infty) = \pm \pi / 2$}}
-> - conditions: {{$a \ne 0 \quad \text{and}\quad b \ne 0$}} <!--SR:!2025-11-30,484,309!2024-11-07,213,289!2024-10-23,219,329-->
+> - conditions: {{$a \ne 0 \quad \text{and}\quad b \ne 0$}} <!--SR:!2025-11-30,484,309!2024-11-07,213,289!2027-06-07,957,349-->
 
 <!-- markdownlint MD028 -->
 

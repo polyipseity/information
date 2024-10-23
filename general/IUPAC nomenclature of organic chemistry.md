@@ -165,7 +165,7 @@ The steps for naming an organic compound are:
 <!--pytextgen generate section="48dca2"--><!-- The following content is generated at 2024-01-04T20:17:52.046217+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←[identify parent hydrocarbon chain](#identify%20parent%20hydrocarbon%20chain) <!--SR:!2027-04-01,991,255!2026-02-20,924,345-->
-- [identify parent hydrocarbon chain](#identify%20parent%20hydrocarbon%20chain)→:::←identify parent functional group of [highest group precedence](#precedence%20of%20functional%20groups) <!--SR:!2024-10-23,610,262!2029-03-21,1647,325-->
+- [identify parent hydrocarbon chain](#identify%20parent%20hydrocarbon%20chain)→:::←identify parent functional group of [highest group precedence](#precedence%20of%20functional%20groups) <!--SR:!2029-03-07,1596,262!2029-03-21,1647,325-->
 - identify parent functional group of [highest group precedence](#precedence%20of%20functional%20groups)→:::←identify side-chains <!--SR:!2027-04-28,1021,264!2025-01-06,77,130-->
 - identify side-chains→:::←identify remaining functional groups <!--SR:!2026-06-02,852,230!2025-02-25,243,207-->
 - identify remaining functional groups→:::←identify multiple bonds <!--SR:!2025-02-08,275,190!2026-06-27,690,207-->

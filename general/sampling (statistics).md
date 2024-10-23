@@ -53,7 +53,7 @@ Nonprobability sampling methods include {{[convenience sampling](convenience%20s
 
 - see: [sampling error](sampling%20error.md)
 
-Survey results are {{typically subject to some error}}. Total errors can be classified into {{sampling errors and non-sampling errors}}. The term "error" here includes {{systematic biases as well as random errors}}. <!--SR:!2024-11-15,58,310!2024-10-23,36,290!2024-11-22,64,310-->
+Survey results are {{typically subject to some error}}. Total errors can be classified into {{sampling errors and non-sampling errors}}. The term "error" here includes {{systematic biases as well as random errors}}. <!--SR:!2024-11-15,58,310!2025-03-21,149,310!2024-11-22,64,310-->
 
 ### sampling errors and biases
 

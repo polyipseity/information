@@ -26,7 +26,7 @@ The content is in teaching order.
     - engineer sustainability ::: restore and safeguard the biophysical environment <!--SR:!2025-01-10,205,345!2025-03-26,269,365-->
   - [engineer types](#engineer%20types)
   - differences between engineers and scientists ::: Scientists understand nature and make predictions, while engineers use scientific data and knowledge to design cities and protect us from nature. <!--SR:!2025-08-09,384,299!2024-12-02,192,330-->
-- civil engineering ::: construction, design, maintenance, and planning of the built environment, including buildings and infrastructure <!--SR:!2024-10-23,113,300!2025-06-01,315,380-->
+- civil engineering ::: construction, design, maintenance, and planning of the built environment, including buildings and infrastructure <!--SR:!2025-09-25,337,300!2025-06-01,315,380-->
   - "civil" meaning ::: "Civil" distinguishes non-military from military purposes. <!--SR:!2025-05-09,327,350!2025-09-22,417,397-->
   - civil engineer characteristics ::: problem solvers <!--SR:!2025-11-14,410,335!2024-12-24,182,352-->
   - civil engineering characteristics ::: Oldest engineering discipline. Takes place on all levels, from municipal to nationals in the public sector, from homeowners to international companies in the private sector. <!--SR:!2025-01-14,171,301!2025-05-20,310,380-->
@@ -500,7 +500,7 @@ teaming up with others
 
 - _(begin)_→:::←business procedures <!--SR:!2024-11-02,111,252!2026-03-19,557,401-->
 - business procedures→:::←economics <!--SR:!2024-11-19,82,261!2025-02-10,193,285-->
-- economics→:::←human behaviors <!--SR:!2025-02-04,127,300!2024-10-23,131,340-->
+- economics→:::←human behaviors <!--SR:!2025-02-04,127,300!2026-01-10,444,340-->
 - human behaviors→:::←management principles <!--SR:!2024-12-25,139,300!2024-11-04,95,260-->
 - management principles→:::←strong communication skills <!--SR:!2025-03-22,222,301!2025-07-08,306,320-->
 - strong communication skills→:::←teaming up with others <!--SR:!2024-11-07,138,340!2025-08-04,345,380-->
@@ -600,7 +600,7 @@ nuclear
 - computer→:::←electrical <!--SR:!2024-11-07,142,327!2025-01-18,142,315-->
 - electrical→:::←industrial <!--SR:!2025-01-30,122,301!2024-10-31,68,250-->
 - industrial→:::←manufacturing <!--SR:!2025-11-26,420,337!2025-08-18,341,332-->
-- manufacturing→:::←mechanical <!--SR:!2025-09-08,380,377!2024-10-23,134,337-->
+- manufacturing→:::←mechanical <!--SR:!2025-09-08,380,377!2026-07-28,643,357-->
 - mechanical→:::←nuclear <!--SR:!2025-07-18,340,377!2024-12-14,168,335-->
 - nuclear→:::←_(end)_ <!--SR:!2025-06-17,317,374!2025-07-25,393,365-->
 
@@ -1094,7 +1094,7 @@ water tower
 
 <!--pytextgen generate section="1002"--><!-- The following content is generated at 2024-05-01T19:22:35.524682+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←bridge <!--SR:!2024-10-23,142,335!2025-11-12,457,400-->
+- _(begin)_→:::←bridge <!--SR:!2026-09-02,679,355!2025-11-12,457,400-->
 - bridge→:::←building <!--SR:!2025-01-24,203,350!2026-01-07,496,400-->
 - building→:::←dam <!--SR:!2025-05-03,277,361!2025-01-17,198,361-->
 - dam→:::←power plant <!--SR:!2024-12-09,92,281!2025-07-27,283,258-->

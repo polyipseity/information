@@ -26,7 +26,7 @@ While financial accounting is {{used to prepare accounting information for peopl
 1. According to International Financial Reporting Standards: the objective of financial reporting is ... ::: To provide financial information that is useful to existing and potential investors, lenders and other creditors in making decisions about providing resources to the reporting entity.<sup>[\[3\]](#^ref-3)</sup> <!--SR:!2024-11-06,42,290!2024-10-27,32,270-->
 2. According to the European Accounting Association: ... ::: Capital maintenance is a competing objective of financial reporting.<sup>[\[4\]](#^ref-4)</sup> <!--SR:!2024-10-29,34,270!2024-11-02,36,270-->
 
-Financial accounting is {{the preparation of financial statements that can be consumed by the public and the relevant stakeholders}}. Financial information {{would be useful to users if such qualitative characteristics are present}}. When producing financial statements, the following must be complied with: {{fundamental qualitative characteristics and enhancing qualitative characteristics}}. <!--SR:!2024-10-27,34,290!2024-12-06,66,310!2024-10-23,28,270-->
+Financial accounting is {{the preparation of financial statements that can be consumed by the public and the relevant stakeholders}}. Financial information {{would be useful to users if such qualitative characteristics are present}}. When producing financial statements, the following must be complied with: {{fundamental qualitative characteristics and enhancing qualitative characteristics}}. <!--SR:!2024-10-27,34,290!2024-12-06,66,310!2025-02-07,107,290-->
 
 __Fundamental Qualitative Characteristics__ ::: relevance, faithful representation <!--SR:!2024-11-27,60,310!2024-11-06,41,290-->
 
@@ -136,7 +136,7 @@ The stable monetary unit assumption is {{not applied during hyperinflation}}. {{
 
 ## objectives
 
-Financial accountants produce {{financial statements based on the accounting standards in a given jurisdiction}}. These standards may be {{the [Generally Accepted Accounting Principles](accounting%20standard.md) of a respective country, which are typically issued by a national standard setter}}, or {{[International Financial Reporting Standards](International%20Financial%20Reporting%20Standards.md) (IFRS), which are issued by the [International Accounting Standards Board](International%20Accounting%20Standards%20Board.md) (IASB)}}. <!--SR:!2024-11-15,49,290!2024-12-28,71,270!2024-10-23,31,270-->
+Financial accountants produce {{financial statements based on the accounting standards in a given jurisdiction}}. These standards may be {{the [Generally Accepted Accounting Principles](accounting%20standard.md) of a respective country, which are typically issued by a national standard setter}}, or {{[International Financial Reporting Standards](International%20Financial%20Reporting%20Standards.md) (IFRS), which are issued by the [International Accounting Standards Board](International%20Accounting%20Standards%20Board.md) (IASB)}}. <!--SR:!2024-11-15,49,290!2024-12-28,71,270!2025-01-18,87,270-->
 
 Financial accountants serves the following purposes: {{producing general purpose financial statements; producing information used by the management of a business entity for decision making, planning and performance evaluation; and producing financial statements for meeting regulatory requirements}}. <!--SR:!2024-11-16,39,250-->
 
@@ -154,7 +154,7 @@ The {{[accounting equation](accounting%20equation.md) ([Assets](asset.md) = [Lia
 
 {{The [trial balance](trial%20balance.md) (i.e. finding the current balances of all accounts), which is usually prepared using the [double-entry accounting system](double-entry%20bookkeeping.md)}}, forms {{the basis for preparing the financial statements}}. All the figures in the trial balance are {{rearranged to prepare a [profit & loss statement](income%20statement.md) and [balance sheet](balance%20sheet.md)}}. Accounting standards {{determine the format for these accounts ([SSAP](Generally%20Accepted%20Accounting%20Practice%20(UK).md), FRS, [IFRS](International%20Financial%20Reporting%20Standards.md))}}. Financial statements {{display the income and expenditure for the company and a summary of the assets, liabilities, and shareholders' or owners' equity of the company on the date to which the accounts were prepared}}. <!--SR:!2024-11-08,41,290!2025-02-12,114,290!2024-11-02,38,290!2024-10-28,34,290!2024-11-21,42,250-->
 
-{{[Asset](asset.md), [expense](expense.md), and [dividend](dividend.md) accounts}} have {{normal debit balances (i.e., debiting these types of accounts increases them)}}. <!--SR:!2024-12-04,65,310!2024-10-23,30,290-->
+{{[Asset](asset.md), [expense](expense.md), and [dividend](dividend.md) accounts}} have {{normal debit balances (i.e., debiting these types of accounts increases them)}}. <!--SR:!2024-12-04,65,310!2025-01-21,90,290-->
 
 {{[Liability](liability%20(financial%20accounting).md), [revenue](revenue.md), and [equity](equity%20(finance).md) accounts}} have {{normal credit balances (i.e., crediting these types of accounts increases them)}}. <!--SR:!2024-11-06,42,290!2024-11-16,50,290-->
 
@@ -173,7 +173,7 @@ Thus {{crediting a credit account or debiting a debit account}} {{increases its 
 
 Thus {{debiting a credit account or crediting a debit account}} {{decreases its absolute value (balance)}}. <!--SR:!2024-11-20,54,310!2024-11-26,57,310-->
 
-When {{the same thing is done to an account as its normal balance}} it {{increases; when the opposite is done, it will decrease}}. Much like {{signs in math: two positive numbers are added and two negative numbers are also added}}. It is only when {{there is one positive and one negative (opposites)}} that you will {{subtract}}. <!--SR:!2024-11-19,52,310!2024-11-23,56,310!2024-10-23,30,290!2024-11-22,55,310!2024-11-24,57,310-->
+When {{the same thing is done to an account as its normal balance}} it {{increases; when the opposite is done, it will decrease}}. Much like {{signs in math: two positive numbers are added and two negative numbers are also added}}. It is only when {{there is one positive and one negative (opposites)}} that you will {{subtract}}. <!--SR:!2024-11-19,52,310!2024-11-23,56,310!2025-02-27,127,310!2024-11-22,55,310!2024-11-24,57,310-->
 
 However, there are {{instances of accounts, known as contra-accounts (contra-asset, contra-revenue, and contra-equity accounts), which have a normal balance opposite that listed above}}. Examples include: <!--SR:!2024-11-26,57,310-->
 
@@ -185,7 +185,7 @@ However, there are {{instances of accounts, known as contra-accounts (contra-ass
 
 - see: [cost accounting](cost%20accounting.md)
 
-1. objectives ::: Financial accounting aims at presenting 'true and fair' view of transactions, profit and loss for a period and statement of financial position (balance sheet) on a given date. It aims at computing 'true and fair' view of the cost of production/services offered by the firm.<sup>[\[11\]](#^ref-11)</sup> Cost accounting aims at computing cost of production/service in a scientific manner and facilitate cost control and cost reduction. <!--SR:!2024-10-29,33,270!2024-10-23,29,270-->
+1. objectives ::: Financial accounting aims at presenting 'true and fair' view of transactions, profit and loss for a period and statement of financial position (balance sheet) on a given date. It aims at computing 'true and fair' view of the cost of production/services offered by the firm.<sup>[\[11\]](#^ref-11)</sup> Cost accounting aims at computing cost of production/service in a scientific manner and facilitate cost control and cost reduction. <!--SR:!2024-10-29,33,270!2025-02-12,112,290-->
 2. audiences ::: Financial accounting reports the results and position of business to government, creditors, investors, and external parties. Cost accounting is an internal reporting system for an organisation's own management for decision making. <!--SR:!2025-01-06,81,290!2024-10-29,35,290-->
 3. classification ::: In financial accounting, cost classification is based on type of transactions, e.g. salaries, repairs, insurance, stores etc. In cost accounting, classification is basically on the basis of functions, activities, products, process and on internal planning and control and information needs of the organization. <!--SR:!2024-10-25,30,270!2025-01-05,77,270-->
 

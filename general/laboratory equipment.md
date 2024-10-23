@@ -206,7 +206,7 @@ return _chain.from_iterable(await _gather(
 - [evaporating dish](evaporating%20dish.md)::![evaporating dish](../archives/Wikimedia%20Commons/Abdampfschalen%20verschiedene%20Groessen.jpg) <!--SR:!2027-12-14,1337,350-->
 - [filter funnel](filter%20funnel.md)::![filter funnel](../archives/Wikimedia%20Commons/High-Speed%20Filter%20Funnel-2.jpg) <!--SR:!2028-05-15,1455,350-->
 - [flat-bottom(ed) flask](flat-bottom%20flask.md)::![flat-bottom(ed) flask](../archives/Wikimedia%20Commons/TGI%20250.jpg) <!--SR:!2028-07-22,1510,350-->
-- [gas jar/pneumatic trough](pneumatic%20trough.md)::![gas jar/pneumatic trough](../archives/Wikimedia%20Commons/Gas-Pak%20jar.jpg) <!--SR:!2024-10-23,410,290-->
+- [gas jar/pneumatic trough](pneumatic%20trough.md)::![gas jar/pneumatic trough](../archives/Wikimedia%20Commons/Gas-Pak%20jar.jpg) <!--SR:!2029-05-02,1652,310-->
 - [glass stirring rod/glass rod/stir(ring) rod](glass%20rod.md)::![glass stirring rod/glass rod/stir(ring) rod](../archives/Wikimedia%20Commons/Stirring%20rod.jpg) <!--SR:!2028-04-29,1445,350-->
 - [graduated pipette](graduated%20pipette.md)::![graduated pipette](../archives/Wikimedia%20Commons/Mohr%20and%20Sero.jpg) <!--SR:!2025-05-09,532,310-->
 - [heat-resistant mat/heatproof mat](heatproof%20mat.md)::![heat-resistant mat/heatproof mat](../archives/Wikimedia%20Commons/A%20laboratory%20heat%20spreader%20made%20of%20asbestos,%20over%20Teclu%20burner.jpg) <!--SR:!2027-06-15,1194,350-->

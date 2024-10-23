@@ -10,7 +10,7 @@ tags:
 
 - see: [general/Python](../../general/Python%20(programming%20language).md)
 
-[Python](../../general/Python%20(programming%20language).md) is {{a programming language}}. Have you tried {{searching for documentation and reading them}}? <!--SR:!2024-10-23,55,310!2024-10-31,63,310-->
+[Python](../../general/Python%20(programming%20language).md) is {{a programming language}}. Have you tried {{searching for documentation and reading them}}? <!--SR:!2025-06-27,247,330!2024-10-31,63,310-->
 
 ## numpy
 

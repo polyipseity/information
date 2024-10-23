@@ -24,7 +24,7 @@ The values can be {{anything}} while the keys can be {{almost anything, as there
 
 ## lookup
 
-To lookup the value for a key, simply write {{`dictionary[key]`}}. To check whether a key is in a dictionary, use {{the `in` operator: `key in dictionary`}}. <!--SR:!2025-01-07,260,330!2024-10-23,198,330-->
+To lookup the value for a key, simply write {{`dictionary[key]`}}. To check whether a key is in a dictionary, use {{the `in` operator: `key in dictionary`}}. <!--SR:!2025-01-07,260,330!2027-04-18,907,350-->
 
 ## modification
 

@@ -478,7 +478,7 @@ The content is in teaching order.
   - privacy issues ::: How to preserve data privacy while data mining? Minimize information loss while protect individual privacy. <!--SR:!2026-01-09,458,397!2025-09-09,336,377-->
   - graph data ::: How to analyze graphs? <!--SR:!2026-01-29,478,397!2026-02-09,487,397-->
   - decision making
-  - data streams ::: How to data mine over real-time and possibly unbounded data streams? <!--SR:!2024-10-23,106,377!2025-06-27,298,377-->
+  - data streams ::: How to data mine over real-time and possibly unbounded data streams? <!--SR:!2026-05-02,556,397!2025-06-27,298,377-->
   - chatbot
   - picture description
   - generative AI

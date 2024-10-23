@@ -87,7 +87,7 @@ Assets are {{all the things the business owns}}. This will include {{property, t
 <!-- list separator -->
 
 1. [property, plant and equipment](fixed%20asset.md) ::: assets and property that may not easily be converted into cash <!--SR:!2024-11-30,53,310!2024-12-14,67,310-->
-2. investment property, such as [real estate](real%20estate.md) held for investment purposes ::: the purchase, management and sale or rental of real estate for profit <!--SR:!2024-12-15,68,310!2024-10-23,25,250-->
+2. investment property, such as [real estate](real%20estate.md) held for investment purposes ::: the purchase, management and sale or rental of real estate for profit <!--SR:!2024-12-15,68,310!2024-12-28,66,250-->
 3. [intangible assets](intangible%20asset.md), such as patents, copyrights and goodwill ::: assets that lacks physical substance <!--SR:!2024-11-27,50,310!2024-12-05,58,310-->
 4. financial assets (excluding investments accounted for using the equity method, [accounts receivables](accounts%20receivable.md), and cash and [cash equivalents](cash%20and%20cash%20equivalents.md)), such as [notes receivables](notes%20receivable.md) ::: non-physical assets whose value is derived from a contractual claim <!--SR:!2024-12-22,61,270!2024-11-08,38,290-->
 5. [investments](investment.md#finance) accounted for using the [equity method](equity%20method.md) ::: the process of treating investments in associate companies (usually companies that we are holding 20%–50% (both inclusive) of the shares) <!--SR:!2024-11-25,48,310!2024-12-11,64,310-->

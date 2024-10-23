@@ -142,7 +142,7 @@ The content is in teaching order.
 - [financial statement analysis](../../../../general/financial%20statement%20analysis.md) ::: analyzing a company's financial statements to make better economic decisions, commonly using financial ratios <!--SR:!2025-01-06,81,334!2024-11-13,41,314-->
   - [§ financial statement analysis](../../../../general/financial%20statement%20analysis.md#financial%20statement%20analysis)
   - [§ financial ratio analysis](../../../../general/financial%20statement%20analysis.md#financial%20ratio%20analysis) ::: ratios that show the relationship between two financial variables <!--SR:!2025-01-05,80,334!2024-11-17,40,314-->
-  - [financial statement analysis](../../../../general/financial%20statement%20analysis.md) / time series ::: analyze over time to see if an entity is getting better or worse, i.e. trend analysis <!--SR:!2024-10-23,21,274!2025-01-05,80,334-->
+  - [financial statement analysis](../../../../general/financial%20statement%20analysis.md) / time series ::: analyze over time to see if an entity is getting better or worse, i.e. trend analysis <!--SR:!2025-01-12,81,294!2025-01-05,80,334-->
   - [financial statement analysis](../../../../general/financial%20statement%20analysis.md) / cross sectional ::: analyze at a single point of time across competitors to see if an entity is better or worse than others, i.e. relative strength <!--SR:!2024-11-11,39,314!2024-12-17,61,314-->
 - [current ratio](../../../../general/current%20ratio.md) ::: an liquidity ratio that measures whether a firm has enough resources to meet its short-term obligations <!--SR:!2025-01-06,81,334!2024-12-21,72,334-->
   - [§ current ratio](../../../../general/current%20ratio.md#current%20ratio)

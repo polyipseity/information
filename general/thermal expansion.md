@@ -35,7 +35,7 @@ tags:
 > {{$$\begin{aligned} \alpha_V & = \frac1V \frac{\mathrm{d}V}{\mathrm{d}T} \\ \frac{\mathrm{d}V}V & = \alpha_V \,\mathrm{d}T \end{aligned}$$}}
 >
 > - where
->   - {{$\alpha_V$ is the __coefficient of volume thermal expansion__, $V$ is the [volume](volume.md), and $\frac{\mathrm{d}V}{\mathrm{d}T}$ is the change of [volume](volume.md) $\mathrm{d}V$ per unit change in [temperature](temperature.md) $\mathrm{d}T$}} <!--SR:!2024-10-23,238,330!2026-11-28,770,330-->
+>   - {{$\alpha_V$ is the __coefficient of volume thermal expansion__, $V$ is the [volume](volume.md), and $\frac{\mathrm{d}V}{\mathrm{d}T}$ is the change of [volume](volume.md) $\mathrm{d}V$ per unit change in [temperature](temperature.md) $\mathrm{d}T$}} <!--SR:!2027-10-19,1091,350!2026-11-28,770,330-->
 
 #### isotropic materials
 

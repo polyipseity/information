@@ -44,7 +44,7 @@ The remaining axioms {{define the arithmetical properties of the natural numbers
 <!-- markdownlint-capture -->
 <!-- markdownlint-disable MD029 -->
 6. 6th axiom ::: For every natural number _n_, _S_(_n_) is a natural number. That is, the natural numbers are [closed](closure%20(mathematics).md) under _S_. <!--SR:!2024-11-16,50,302!2024-12-02,63,310-->
-7. 7th axiom ::: For all natural numbers _m_ and _n_, if _S_(_m_) = _S_(_n_), then _m_ = _n_. That is, _S_ is an [injection](injective%20function.md). <!--SR:!2024-12-17,76,325!2024-10-23,31,285-->
+7. 7th axiom ::: For all natural numbers _m_ and _n_, if _S_(_m_) = _S_(_n_), then _m_ = _n_. That is, _S_ is an [injection](injective%20function.md). <!--SR:!2024-12-17,76,325!2025-02-26,126,305-->
 8. 8th axiom ::: For every natural number _n_, _S_(_n_) = 0 is false. That is, there is no natural number whose successor is 0. <!--SR:!2024-11-10,46,305!2024-12-05,67,325-->
 <!-- markdownlint-restore -->
 
@@ -54,7 +54,7 @@ The intuitive notion that {{each natural number can be obtained by applying _suc
 
 <!-- markdownlint-capture -->
 <!-- markdownlint-disable MD029 -->
-9. 9th axiom condition (set) ::: If _K_ is a set such that: 0 is in _K_, and for every natural number _n_, _n_ being in _K_ implies that _S_(_n_) is in _K_, then _K_ contains every natural number. <!--SR:!2024-12-12,71,322!2024-10-23,30,290-->
+9. 9th axiom condition (set) ::: If _K_ is a set such that: 0 is in _K_, and for every natural number _n_, _n_ being in _K_ implies that _S_(_n_) is in _K_, then _K_ contains every natural number. <!--SR:!2024-12-12,71,322!2025-02-26,126,310-->
 <!-- markdownlint-restore -->
 
 The induction axiom is sometimes stated in the following form:
