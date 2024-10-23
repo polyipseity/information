@@ -325,7 +325,7 @@ return await memorize_map(
 >
 > - where
 >   - {{$c = \operatorname{sgn}(a) \sqrt{a^2 + b^2}, \varphi = \arctan(-b / a)$ or $c = \sqrt{a^2 + b^2}, \varphi = \operatorname{atan2}(-b, a)$, assuming $\arctan(\pm \infty) = \pm \pi / 2$}}
-> - conditions: {{$a \ne 0 \quad \text{and}\quad b \ne 0$}}
+> - conditions: {{$(a, b) \ne (0, 0)$}}
 
 <!-- markdownlint MD028 -->
 
