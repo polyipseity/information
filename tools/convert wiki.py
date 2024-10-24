@@ -228,9 +228,16 @@ async def wiki_html_to_plaintext(
                     alt_text = alt_text2
                 alt_text = alt_text.strip()
 
-                inline = (parent := ele.parent) and "inline" in str(
+                is_not_separate_paragraph = (
+                    (parent := ele.parent)
+                    and (parent := parent.parent)
+                    and (parent := parent.parent)
+                    and len(parent) > 1
+                )
+                is_inline = (parent := ele.parent) and "inline" in str(
                     parent.get("class", "")
                 )
+                inline = is_not_separate_paragraph and is_inline
 
                 prefix, suffix = "$" if inline else "$$", "$" if inline else "$$\n\n"
 
