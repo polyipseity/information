@@ -66,7 +66,7 @@ It follows immediately that {{the signed Stirling numbers of the first kind}} sa
 Below is {{a [triangular array](triangular%20array.md) of unsigned values for the Stirling numbers of the first kind}}, similar in form to {{[Pascal's triangle](Pascal's%20triangle.md)}}. These values are {{easy to generate using the recurrence relation in the previous section}}.
 
 | __n__\\_k_ | __0__ | __1__  | __2__   | __3__   | __4__  | __5__  | __6__ | __7__ | __8__ | __9__ | __10__ |
-| ---------: | ----: | -----: | ------: | ------: | -----: | -----: | ----: | ----: | ----: | ----: | -----: |
+| ----------:| -----:| ------:| -------:| -------:| ------:| -----: | ----: | ----: | ----: | ----: | -----: |
 | __0__      | 1     |        |         |         |        |        |       |       |       |       |        |
 | __1__      | 0     | 1      |         |         |        |        |       |       |       |       |        |
 | __2__      | 0     | 1      | 1       |         |        |        |       |       |       |       |        |
@@ -83,99 +83,39 @@ Below is {{a [triangular array](triangular%20array.md) of unsigned values for th
 
 ### simple identities
 
-Using the [Kronecker delta](kronecker%20delta.md) one has,
+Using {{the [Kronecker delta](kronecker%20delta.md)}} one has, {{$$\left[{n \atop 0}\right]=\delta _{n}$$}} and {{$\left[{0 \atop k}\right]=0$ if $k>0$, or more generally $\left[{n \atop k}\right]=0$ if _k_ > _n_}}. Also {{$$\left[{n \atop 1}\right]=(n-1)!,\quad \left[{n \atop n}\right]=1,\quad \left[{n \atop n-1}\right]={n \choose 2},$$}} and {{$$\left[{n \atop n-2}\right]={\frac {3n-1}{4} }{n \choose 3}\quad {\text{ and } }\quad \left[{n \atop n-3}\right]={n \choose 2}{n \choose 4}.$$}}
 
-$$\left[{n \atop 0}\right]=\delta _{n}$$
+{{Similar relationships involving the Stirling numbers}} hold for {{the [Bernoulli polynomials](Bernoulli%20polynomials.md)}}. {{Many relations for the Stirling numbers}} shadow {{similar relations on the [binomial coefficients](binomial%20coefficient.md)}}. {{The study of these 'shadow relationships'}} is termed {{[umbral calculus](umbral%20calculus.md) and culminates in the theory of [Sheffer sequences](Sheffer%20sequence.md)}}. {{Generalizations of the [Stirling numbers](Stirling%20number.md) of both kinds to arbitrary complex-valued inputs}} may be {{extended through the relations of these triangles to the [Stirling convolution polynomials](Stirling%20polynomials.md#Stirling%20convolution%20polynomials)}}.<sup>[\[4\]](#^ref-4)</sup>
 
-and
+> __Combinatorial proofs__
+>
+> These identities may be derived by {{enumerating permutations directly}}. For example, a permutation of _n_ elements with _n_ − 3 cycles must have one of the following forms:
+>
+> - _n_ − 6 fixed points and three two-cycles
+> - _n_ − 5 fixed points, a three-cycle and a two-cycle, or
+> - _n_ − 4 fixed points and a four-cycle.
+>
+> The three types may be enumerated as follows:
+>
+> - choose the six elements that go into the two-cycles, decompose them into two-cycles and take into account that the order of the three two-cycles is not important ::: $${n \choose 6}{6 \choose 2,2,2}{\frac 1 6}$$
+> - choose the five elements that go into the three-cycle and the two-cycle, choose the elements of the three-cycle and take into account that three elements generate two three-cycles ::: $${n \choose 5}{5 \choose 3}\times 2$$
+> - choose the four elements of the four-cycle and take into account that four elements generate six four-cycles ::: $${n \choose 4}\times 6.$$
+>
+> Sum the three contributions to obtain ::: $${n \choose 6}{6 \choose 2,2,2}{\frac {1}{6} }+{n \choose 5}{5 \choose 3}\times 2+{n \choose 4}\times 6={n \choose 2}{n \choose 4}.$$
 
-$\left[{0 \atop k}\right]=0$ if $k>0$, or more generally $\left[{n \atop k}\right]=0$ if _k_ > _n_.
+Note that {{all the combinatorial proofs above use either binomials or multinomials of $n$}}.
 
-Also
-
-$$\left[{n \atop 1}\right]=(n-1)!,\quad \left[{n \atop n}\right]=1,\quad \left[{n \atop n-1}\right]={n \choose 2},$$
-
-and
-
-$$\left[{n \atop n-2}\right]={\frac {3n-1}{4} }{n \choose 3}\quad {\mbox{ and } }\quad \left[{n \atop n-3}\right]={n \choose 2}{n \choose 4}.$$
-
-Similar relationships involving the Stirling numbers hold for the [Bernoulli polynomials](bernoulli%20polynomials.md). Many relations for the Stirling numbers shadow similar relations on the [binomial coefficients](binomial%20coefficient.md). The study of these 'shadow relationships' is termed [umbral calculus](umbral%20calculus.md) and culminates in the theory of [Sheffer sequences](sheffer%20sequence.md). Generalizations of the [Stirling numbers](Stirling%20number.md) of both kinds to arbitrary complex-valued inputs may be extended through the relations of these triangles to the [Stirling convolution polynomials](Stirling%20polynomials.md#Stirling%20convolution%20polynomials).<sup>[\[4\]](#^ref-4)</sup>
-
-Combinatorial proofsThese identities may be derived by enumerating permutations directly. For example, a permutation of _n_ elements with _n_ − 3 cycles must have one of the following forms:
-
-- _n_ − 6 fixed points and three two-cycles
-- _n_ − 5 fixed points, a three-cycle and a two-cycle, or
-- _n_ − 4 fixed points and a four-cycle.
-
-The three types may be enumerated as follows:
-
-- choose the six elements that go into the two-cycles, decompose them into two-cycles and take into account that the order of the cycles is not important:
-
-$${n \choose 6}{6 \choose 2,2,2}{\frac {1}{6} }$$
-
-- choose the five elements that go into the three-cycle and the two-cycle, choose the elements of the three-cycle and take into account that three elements generate two three-cycles:
-
-$${n \choose 5}{5 \choose 3}\times 2$$
-
-- choose the four elements of the four-cycle and take into account that four elements generate six four-cycles:
-
-$${n \choose 4}\times 6.$$
-
-Sum the three contributions to obtain
-
-$${n \choose 6}{6 \choose 2,2,2}{\frac {1}{6} }+{n \choose 5}{5 \choose 3}\times 2+{n \choose 4}\times 6={n \choose 2}{n \choose 4}.$$
-
-Note that all the combinatorial proofs above use either binomials or multinomials of $n$.
-
-Therefore if $p$ is prime, then:
-
-$p\ |\left[{p \atop k}\right]$ for $1<k<p$.
+Therefore if {{$p$ is prime}}, then: {{$$p\ |\left[{p \atop k}\right] \text{ for } 1<k<p \,.$$}}
 
 ### expansions for fixed _k_
 
-Since the Stirling numbers are the coefficients of a polynomial with roots 0, 1, ..., _n_ − 1, one has by [Vieta's formulas](vieta's%20formulas.md) that
+Since {{the Stirling numbers are the coefficients of a polynomial with roots 0, 1, ..., _n_ − 1}}, one has by {{[Vieta's formulas](Vieta's%20formulas.md)}} that {{$$\left[{\begin{matrix}n\\n-k\end{matrix} }\right]=\sum _{0\leq i_{1}<\ldots <i_{k}<n}i_{1}i_{2}\cdots i_{k}.$$}}
 
-$$\left[{\begin{matrix}n\\n-k\end{matrix} }\right]=\sum _{0\leq i_{1}<\ldots <i_{k}<n}i_{1}i_{2}\cdots i_{k}.$$
+In other words, {{the Stirling numbers of the first kind}} are {{given by [elementary symmetric polynomials](elementary%20symmetric%20polynomial.md) evaluated at 0, 1, ..., _n_ − 1}}.<sup>[\[5\]](#^ref-5)</sup> In this form, the simple identities given above take the form {{$$\begin{aligned} \left[{\begin{matrix}n\\n-1\end{matrix} }\right]& =\sum _{i=0}^{n-1}i={\binom {n}{2} }, \\ \left[{\begin{matrix}n\\n-2\end{matrix} }\right]& =\sum _{i=0}^{n-1}\sum _{j=0}^{i-1}ij={\frac {3n-1}{4} }{\binom {n}{3} }, \\ \left[{\begin{matrix}n\\n-3\end{matrix} }\right] & =\sum _{i=0}^{n-1}\sum _{j=0}^{i-1}\sum _{k=0}^{j-1}ijk={\binom {n}{2} }{\binom {n}{4} }, \end{aligned}$$ and so on}}.
 
-In other words, the Stirling numbers of the first kind are given by [elementary symmetric polynomials](elementary%20symmetric%20polynomial.md) evaluated at 0, 1, ..., _n_ − 1.<sup>[\[5\]](#^ref-5)</sup> In this form, the simple identities given above take the form
+One may produce {{alternative forms for the Stirling numbers of the first kind}} with {{a similar approach preceded by some algebraic manipulation}}: since {{$$(x+1)(x+2)\cdots (x+n-1)=(n-1)!\cdot (x+1)\left({\frac {x}{2} }+1\right)\cdots \left({\frac {x}{n-1} }+1\right),$$}} it {{follows from [Newton's formulas](newton's%20identities.md) that one can expand the Stirling numbers of the first kind in terms of [generalized harmonic numbers](harmonic%20number.md#generalized%20harmonic%20numbers)}}. This yields {{identities like $$\begin{aligned} \left[{n \atop 2}\right]& =(n-1)!\;H_{n-1}, \\ \left[{n \atop 3}\right]& ={\frac {1}{2} }(n-1)!\left[(H_{n-1})^{2}-H_{n-1}^{(2)}\right] \\ \left[{n \atop 4}\right]& ={\frac {1}{3!} }(n-1)!\left[(H_{n-1})^{3}-3H_{n-1}H_{n-1}^{(2)}+2H_{n-1}^{(3)}\right], \end{aligned}$$}} where {{_H_<sub>_n_</sub> is the [harmonic number](harmonic%20number.md) $H_{n}={\frac {1}{1} }+{\frac {1}{2} }+\ldots +{\frac {1}{n} }$} and {{_H_<sub>_n_</sub><sup>(_m_)</sup> is the generalized harmonic number$$H_{n}^{(m)}={\frac {1}{1^{m} } }+{\frac {1}{2^{m} } }+\ldots +{\frac {1}{n^{m} } }.$$}} These relations can be generalized to {{give $${\frac {1}{(n-1)!} }\left[{\begin{matrix}n\\k+1\end{matrix} }\right]=\sum _{i_{1}=1}^{n-1}\sum _{i_{2}=i_{1}+1}^{n-1}\cdots \sum _{i_{k}=i_{k-1}+1}^{n-1}{\frac {1}{i_{1}i_{2}\cdots i_{k} } }={\frac {w(n,k)}{k!} }$$}} where {{_w_(_n_, _m_) is defined recursively in terms of the generalized harmonic numbers by $$w(n,m)=\delta _{m,0}+\sum _{k=0}^{m-1}(1-m)_{k}H_{n-1}^{(k+1)}w(n,m-1-k).$$}} (Here {{_δ_ is the [Kronecker delta function](kronecker%20delta.md) and $(m)_{k}$ is the [Pochhammer symbol](falling%20and%20rising%20factorials.md)}}.)<sup>[\[6\]](#^ref-6)</sup>
 
-$$\left[{\begin{matrix}n\\n-1\end{matrix} }\right]=\sum _{i=0}^{n-1}i={\binom {n}{2} },$$
-
-$$\left[{\begin{matrix}n\\n-2\end{matrix} }\right]=\sum _{i=0}^{n-1}\sum _{j=0}^{i-1}ij={\frac {3n-1}{4} }{\binom {n}{3} },$$
-
-$$\left[{\begin{matrix}n\\n-3\end{matrix} }\right]=\sum _{i=0}^{n-1}\sum _{j=0}^{i-1}\sum _{k=0}^{j-1}ijk={\binom {n}{2} }{\binom {n}{4} },$$
-
-and so on.
-
-One may produce alternative forms for the Stirling numbers of the first kind with a similar approach preceded by some algebraic manipulation: since
-
-$$(x+1)(x+2)\cdots (x+n-1)=(n-1)!\cdot (x+1)\left({\frac {x}{2} }+1\right)\cdots \left({\frac {x}{n-1} }+1\right),$$
-
-it follows from [Newton's formulas](newton's%20identities.md) that one can expand the Stirling numbers of the first kind in terms of [generalized harmonic numbers](harmonic%20number.md#generalized%20harmonic%20numbers). This yields identities like
-
-$$\left[{n \atop 2}\right]=(n-1)!\;H_{n-1},$$
-
-$$\left[{n \atop 3}\right]={\frac {1}{2} }(n-1)!\left[(H_{n-1})^{2}-H_{n-1}^{(2)}\right]$$
-
-$$\left[{n \atop 4}\right]={\frac {1}{3!} }(n-1)!\left[(H_{n-1})^{3}-3H_{n-1}H_{n-1}^{(2)}+2H_{n-1}^{(3)}\right],$$
-
-where _H_<sub>_n_</sub> is the [harmonic number](harmonic%20number.md) $H_{n}={\frac {1}{1} }+{\frac {1}{2} }+\ldots +{\frac {1}{n} }$ and _H_<sub>_n_</sub><sup>(_m_)</sup> is the generalized harmonic number$$H_{n}^{(m)}={\frac {1}{1^{m} } }+{\frac {1}{2^{m} } }+\ldots +{\frac {1}{n^{m} } }.$$
-
-These relations can be generalized to give
-
-$${\frac {1}{(n-1)!} }\left[{\begin{matrix}n\\k+1\end{matrix} }\right]=\sum _{i_{1}=1}^{n-1}\sum _{i_{2}=i_{1}+1}^{n-1}\cdots \sum _{i_{k}=i_{k-1}+1}^{n-1}{\frac {1}{i_{1}i_{2}\cdots i_{k} } }={\frac {w(n,k)}{k!} }$$
-
-where _w_(_n_, _m_) is defined recursively in terms of the generalized harmonic numbers by
-
-$$w(n,m)=\delta _{m,0}+\sum _{k=0}^{m-1}(1-m)_{k}H_{n-1}^{(k+1)}w(n,m-1-k).$$
-
-(Here _δ_ is the [Kronecker delta function](kronecker%20delta.md) and $(m)_{k}$ is the [Pochhammer symbol](falling%20and%20rising%20factorials.md).)<sup>[\[6\]](#^ref-6)</sup>
-
-For fixed $n\geq 0$ these weighted harmonic number expansions are generated by the generating function
-
-$${\frac {1}{n!} }\left[{\begin{matrix}n+1\\k\end{matrix} }\right]=[x^{k}]\exp \left(\sum _{m\geq 1}{\frac {(-1)^{m-1}H_{n}^{(m)} }{m} }x^{m}\right),$$
-
-where the notation $[x^{k}]$ means extraction of the coefficient of $x^{k}$ from the following [formal power series](formal%20power%20series.md) (see the non-exponential [Bell polynomials](bell%20polynomials.md) and section 3 of <sup>[\[7\]](#^ref-7)</sup>).
+For {{fixed $n\geq 0$}} {{these weighted harmonic number expansions}} are generated by {{the generating function $${\frac {1}{n!} }\left[{\begin{matrix}n+1\\k\end{matrix} }\right]=[x^{k}]\exp \left(\sum _{m\geq 1}{\frac {(-1)^{m-1}H_{n}^{(m)} }{m} }x^{m}\right),$$}} where the notation $[x^{k}]$ means {{extraction of the coefficient of $x^{k}$ from the following [formal power series](formal%20power%20series.md)}} (see the non-exponential [Bell polynomials](bell%20polynomials.md) and section 3 of <sup>[\[7\]](#^ref-7)</sup>).
 
 More generally, sums related to these weighted harmonic number expansions of the Stirling numbers of the first kind can be defined through generalized zeta series [transforms of generating functions](generating%20function%20transformation.md#derivative%20transformations).<sup>[\[8\]](#^ref-8)</sup><sup>[\[9\]](#^ref-9)</sup>
 
