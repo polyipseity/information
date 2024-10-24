@@ -61,7 +61,7 @@ The induction axiom is sometimes stated in the following form:
 
 <!-- markdownlint-capture -->
 <!-- markdownlint-disable MD029 -->
-9. 9th axiom condition (predicate) ::: If _φ_ is a unary [predicate](predicate%20(mathematical%20logic).md) such that: _φ_(0) is true, and for every natural number _n_, _φ_(_n_) being true implies that _φ_(_S_(_n_)) is true, then _φ_(_n_) is true for every natural number _n_. <!--SR:!2024-12-19,78,325!2024-10-24,31,302-->
+9. 9th axiom condition (predicate) ::: If _φ_ is a unary [predicate](predicate%20(mathematical%20logic).md) such that: _φ_(0) is true, and for every natural number _n_, _φ_(_n_) being true implies that _φ_(_S_(_n_)) is true, then _φ_(_n_) is true for every natural number _n_. <!--SR:!2024-12-19,78,325!2025-03-08,135,322-->
 <!-- markdownlint-restore -->
 
 In Peano's original formulation, the induction axiom is {{a [second-order axiom](second-order%20logic.md)}}. It is now common to {{replace this second-order principle with a weaker [first-order](first-order%20logic.md) induction scheme}}. There are {{important differences between the second-order and first-order formulations, as discussed in the section [§ Peano arithmetic as first-order theory](#peano%20arithmetic%20as%20first-order%20theory) below}}. <!--SR:!2024-11-08,44,305!2024-11-12,46,290!2024-12-16,75,325-->
@@ -124,7 +124,7 @@ For any [predicate](predicate%20(mathematical%20logic).md) _φ_, if
 
 This form of the induction axiom, called {{_strong induction_, is a consequence of the standard formulation}}, but is {{often better suited for reasoning about the ≤ order}}. For example, to {{show that the naturals are [well-ordered](well-order.md)—every [nonempty](empty%20set.md) [subset](subset.md) of __N__ has a [least element](greatest%20element%20and%20least%20element.md)}}—one can reason as follows. <!--SR:!2024-11-13,46,305!2024-11-16,51,305!2024-12-14,74,325-->
 
-- proving the naturals are well-ordered / base case ::: Let a nonempty _X_ ⊆ __N__ be given and assume _X_ has no least element. Because 0 is the least element of __N__, it must be that 0 ∉ _X_. <!--SR:!2024-10-24,31,285!2024-11-09,44,290-->
+- proving the naturals are well-ordered / base case ::: Let a nonempty _X_ ⊆ __N__ be given and assume _X_ has no least element. Because 0 is the least element of __N__, it must be that 0 ∉ _X_. <!--SR:!2025-03-01,128,305!2024-11-09,44,290-->
 - proving the naturals are well-ordered / induction ::: For any _n_ ∈ __N__, suppose for every _k_ ≤ _n_, _k_ ∉ _X_. Then _S_(_n_) ∉ _X_, for otherwise it would be the least element of _X_. <!--SR:!2025-02-05,111,305!2024-12-29,74,285-->
 
 Thus, by {{the strong induction principle, for every _n_ ∈ __N__, _n_ ∉ _X_. Thus, _X_ ∩ __N__ = ∅, which [contradicts](contradiction.md) _X_ being a nonempty subset of __N__}}. Thus {{_X_ has a least element}}. <!--SR:!2025-01-20,95,285!2024-11-13,50,305-->

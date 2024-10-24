@@ -367,7 +367,7 @@ The content is in teaching order.
   - [§ overview](../../../../general/principal%20component%20analysis.md#overview)
   - [§ intuition](../../../../general/principal%20component%20analysis.md#intuition)
   - [§ computing PCA using the covariance method](../../../../general/principal%20component%20analysis.md#computing%20PCA%20using%20the%20covariance%20method)
-    - § computing PCA using the covariance method > matrix __X__ ::: The matrix __X__ taught in lesson uses the symbol __Y__, and is transposed: $\mathbf{Y} = \mathbf{X}^\intercal$. <!--SR:!2024-10-24,107,377!2026-03-23,522,397-->
+    - § computing PCA using the covariance method > matrix __X__ ::: The matrix __X__ taught in lesson uses the symbol __Y__, and is transposed: $\mathbf{Y} = \mathbf{X}^\intercal$. <!--SR:!2025-12-03,405,377!2026-03-23,522,397-->
     - § computing PCA using the covariance method > covariance matrix __C__ ::: The matrix __C__ taught in lesson uses the symbol __Σ__, and divides by _n_ instead of $n - 1$. <!--SR:!2025-11-02,380,377!2025-07-30,322,377-->
     - § computing PCA using the covariance method > eigenvalues and eigenvectors ::: The [classical method](../../../../general/eigenvalues%20and%20eigenvectors.md#classical%20method) is used to calculate. The eigenvalues _λ_ are found using $\det(\mathbf{\Sigma} - \lambda \mathbf{I})$ instead of $\det(\lambda \mathbf{I} - \mathbf{\Sigma})$. The eigenvectors are normalized. <!--SR:!2025-07-14,313,377!2025-04-15,236,357-->
       - [eigenvalues and eigenvectors § classical method](../../../../general/eigenvalues%20and%20eigenvectors.md#classical%20method)
@@ -409,7 +409,7 @@ The content is in teaching order.
 - [HITS algorithm](../../../../general/HITS%20algorithm.md)
   - [§ steps](../../../../general/HITS%20algorithm.md#steps)
     - HITS algorithm variant ::: It does not matter because we only use the recursive expressions to calculate the new authority and hub values. <!--SR:!2025-11-07,386,377!2026-02-23,494,397-->
-    - HITS algorithm termination ::: Terminate the HITS algorithm when after rounding the values to a certain number of digits, the values have not changed. <!--SR:!2024-10-24,107,388!2024-12-08,140,388-->
+    - HITS algorithm termination ::: Terminate the HITS algorithm when after rounding the values to a certain number of digits, the values have not changed. <!--SR:!2025-12-14,416,388!2024-12-08,140,388-->
   - [§ in detail](../../../../general/HITS%20algorithm.md#in%20detail)
   - [§ authority update rule](../../../../general/HITS%20algorithm.md#authority%20update%20rule)
   - [§ hub update rule](../../../../general/HITS%20algorithm.md#hub%20update%20rule)

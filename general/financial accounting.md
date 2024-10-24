@@ -80,9 +80,9 @@ Important: the cash flow statement {{only considers the exchange of __actual__ c
 
 The statement of financial performance is also called {{income statement, profit & loss (p&l) statement, or statement of operations}}. <!--SR:!2024-12-16,69,335-->
 
-The statement of profit or income statement represents {{the changes in value of a company's [accounts](account%20(bookkeeping).md) over a set period (most commonly one [fiscal year](fiscal%20year.md))}}, and may {{compare the changes to changes in the same accounts over the previous period}}. All changes are {{summarized on the "bottom line" as [net income](net%20income.md), often reported as "net loss" when income is less than zero}}. <!--SR:!2024-12-05,66,310!2024-11-11,45,290!2024-10-24,29,270-->
+The statement of profit or income statement represents {{the changes in value of a company's [accounts](account%20(bookkeeping).md) over a set period (most commonly one [fiscal year](fiscal%20year.md))}}, and may {{compare the changes to changes in the same accounts over the previous period}}. All changes are {{summarized on the "bottom line" as [net income](net%20income.md), often reported as "net loss" when income is less than zero}}. <!--SR:!2024-12-05,66,310!2024-11-11,45,290!2025-02-14,113,290-->
 
-The net profit or loss is determined by: <br/> {{sales (revenue) <br/> – [cost of goods sold](cost%20of%20goods%20sold.md) <br/> – selling, general, administrative expenses (SGA) <br/> – [depreciation](depreciation.md)/amortization <br/> = earnings before interest and taxes ([EBIT](earnings%20before%20interest,%20taxes,%20depreciation%20and%20amortization.md)) <br/> – interest and tax expenses <br/> = profit/loss}} <!--SR:!2024-10-24,26,230-->
+The net profit or loss is determined by: <br/> {{sales (revenue) <br/> – [cost of goods sold](cost%20of%20goods%20sold.md) <br/> – selling, general, administrative expenses (SGA) <br/> – [depreciation](depreciation.md)/amortization <br/> = earnings before interest and taxes ([EBIT](earnings%20before%20interest,%20taxes,%20depreciation%20and%20amortization.md)) <br/> – interest and tax expenses <br/> = profit/loss}} <!--SR:!2024-12-25,62,230-->
 
 ### statement of financial position
 
@@ -132,7 +132,7 @@ This basic principle gives rise to the commonly used {{[historical cost accounti
 
 ### units of constant purchasing power
 
-The stable monetary unit assumption is {{not applied during hyperinflation}}. {{IFRS}} requires {{entities to implement capital maintenance in units of constant purchasing power in terms of IAS 29 Financial Reporting in Hyperinflationary Economies}}. <!--SR:!2024-10-27,31,270!2024-12-06,67,310!2024-10-24,30,270-->
+The stable monetary unit assumption is {{not applied during hyperinflation}}. {{IFRS}} requires {{entities to implement capital maintenance in units of constant purchasing power in terms of IAS 29 Financial Reporting in Hyperinflationary Economies}}. <!--SR:!2024-10-27,31,270!2024-12-06,67,310!2025-01-16,84,270-->
 
 ## objectives
 
@@ -199,7 +199,7 @@ However, there are {{instances of accounts, known as contra-accounts (contra-ass
 - [DIRTI 5](DIRTI%205.md)
 - [historical cost accounting](historical%20cost.md)
 - [philosophy of accounting](philosophy%20of%20accounting.md)
-- [accounting analyst](accounting%20analyst.md), ... ::: whose job involves evaluating public company financial statements <!--SR:!2024-10-24,30,270!2024-10-24,28,270-->
+- [accounting analyst](accounting%20analyst.md), ... ::: whose job involves evaluating public company financial statements <!--SR:!2025-02-18,117,290!2025-02-06,105,290-->
 - [management accounting](management%20accounting.md), ... ::: the other main division of accounting <!--SR:!2024-11-20,53,310!2024-11-18,48,290-->
 - [bookkeeping](bookkeeping.md)
 

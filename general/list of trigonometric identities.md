@@ -264,7 +264,7 @@ return await memorize_map(
 - sine cosine::$$\sin\theta\cos\varphi=\frac{\sin(\theta+\varphi)+\sin(\theta-\varphi)}2$$ <!--SR:!2025-02-27,235,190-->
 - cosine sine::$$\cos\theta\sin\varphi=\frac{\sin(\theta+\varphi)-\sin(\theta-\varphi)}2$$ <!--SR:!2025-03-06,240,190-->
 - sine sine::$$\sin\theta\sin\varphi=\frac{\cos(\theta-\varphi)-\cos(\theta+\varphi)}2$$ <!--SR:!2026-01-07,484,210-->
-- cosine cosine::$$\cos\theta\cos\varphi=\frac{\cos(\theta-\varphi)+\cos(\theta+\varphi)}2$$ <!--SR:!2024-10-24,342,250-->
+- cosine cosine::$$\cos\theta\cos\varphi=\frac{\cos(\theta-\varphi)+\cos(\theta+\varphi)}2$$ <!--SR:!2027-02-24,853,250-->
 
 <!--/pytextgen-->
 
@@ -304,7 +304,7 @@ return await memorize_map(
 - sine ± sine::$$\sin\theta\pm\sin\varphi=2\sin\left(\frac{\theta\pm\varphi}2\right)\cos\left(\frac{\theta\mp\varphi}2\right)$$ <!--SR:!2024-11-03,359,250-->
 - cosine + cosine::$$\cos\theta+\cos\varphi=2\cos\left(\frac{\theta+\varphi}2\right)\cos\left(\frac{\theta-\varphi}2\right)$$ <!--SR:!2025-08-21,448,230-->
 - cosine - cosine::$$\cos\theta-\cos\varphi=-2\sin\left(\frac{\theta+\varphi}2\right)\sin\left(\frac{\theta-\varphi}2\right)$$ <!--SR:!2024-12-18,254,190-->
-- tangent ± tangent::$$\tan\theta\pm\tan\varphi=\frac{\sin(\theta\pm\varphi)}{\cos\theta\cos\varphi}$$ <!--SR:!2024-10-24,68,130-->
+- tangent ± tangent::$$\tan\theta\pm\tan\varphi=\frac{\sin(\theta\pm\varphi)}{\cos\theta\cos\varphi}$$ <!--SR:!2025-01-22,90,130-->
 
 <!--/pytextgen-->
 

@@ -20,7 +20,7 @@ The content is in teaching order.
     - engineer jobs ::: analyze, _build_, _design_, invent, repair, test <!--SR:!2024-12-17,168,340!2025-07-08,334,378-->
     - engineer goals ::: fulfill functional objectives and requirements <!--SR:!2025-05-14,291,360!2025-02-21,225,360-->
     - engineer limitations ::: limited by cost, practicality, regulation, and safety <!--SR:!2024-12-24,195,350!2025-10-08,405,377-->
-    - engineer methods ::: ingenuity, mathematics, scientific method and outlook <!--SR:!2024-10-24,143,337!2025-10-01,424,385-->
+    - engineer methods ::: ingenuity, mathematics, scientific method and outlook <!--SR:!2026-03-11,503,337!2025-10-01,424,385-->
   - engineer, according to the World Federation of Engineering Organizations (WFEO)
     - engineer inspirations ::: art of using creativity, science and technology, traditional experience <!--SR:!2024-10-25,136,335!2025-02-25,250,330-->
     - engineer sustainability ::: restore and safeguard the biophysical environment <!--SR:!2025-01-10,205,345!2025-03-26,269,365-->
@@ -196,10 +196,10 @@ water and sewage treatment system
 - building→:::←dam <!--SR:!2024-12-12,167,340!2026-03-05,544,400-->
 - dam→:::←pipeline <!--SR:!2025-04-29,194,224!2026-03-12,518,341-->
 - pipeline→:::←power plant <!--SR:!2025-01-13,152,260!2025-08-31,313,281-->
-- power plant→:::←reservoir <!--SR:!2025-01-10,164,275!2024-10-24,49,300-->
+- power plant→:::←reservoir <!--SR:!2025-01-10,164,275!2025-03-20,147,300-->
 - reservoir→:::←sewage treatment <!--SR:!2025-01-24,122,197!2025-03-13,189,261-->
 - sewage treatment→:::←transport <!--SR:!2024-11-09,46,190!2024-12-13,152,301-->
-- transport→:::←water and sewage treatment system <!--SR:!2024-11-05,137,340!2024-10-24,21,130-->
+- transport→:::←water and sewage treatment system <!--SR:!2024-11-05,137,340!2024-11-20,27,130-->
 - water and sewage treatment system→:::←_(end)_ <!--SR:!2025-12-24,482,401!2025-04-10,252,361-->
 
 <!--/pytextgen-->
@@ -914,7 +914,7 @@ polypropylene fiber reinforced concrete
 
 - _(begin)_→:::←artificial stone <!--SR:!2025-07-09,265,297!2025-07-31,398,365-->
 - artificial stone→:::←cellular concrete <!--SR:!2024-11-12,128,300!2025-07-28,331,335-->
-- cellular concrete→:::←engineered cement composite <!--SR:!2024-10-24,153,270!2024-12-05,166,330-->
+- cellular concrete→:::←engineered cement composite <!--SR:!2025-12-11,413,270!2024-12-05,166,330-->
 - engineered cement composite→:::←fly ash concrete <!--SR:!2024-11-02,143,337!2025-09-02,341,320-->
 - fly ash concrete→:::←polypropylene fiber reinforced concrete <!--SR:!2025-03-31,209,280!2025-08-14,344,335-->
 - polypropylene fiber reinforced concrete→:::←_(end)_ <!--SR:!2025-06-10,311,372!2025-10-18,373,320-->
@@ -984,7 +984,7 @@ Two Prudential Plaza
 
 - _(begin)_→:::←Central Plaza (Hong Kong) <!--SR:!2025-05-25,278,317!2025-12-02,475,387-->
 - Central Plaza (Hong Kong)→:::←China International Trust and Investment (CITIC) Plaza <!--SR:!2025-06-18,300,334!2025-08-25,342,340-->
-- China International Trust and Investment (CITIC) Plaza→:::←Two Prudential Plaza <!--SR:!2024-10-29,131,340!2024-10-24,45,240-->
+- China International Trust and Investment (CITIC) Plaza→:::←Two Prudential Plaza <!--SR:!2024-10-29,131,340!2025-02-14,113,240-->
 - Two Prudential Plaza→:::←_(end)_ <!--SR:!2025-02-26,248,375!2025-08-04,322,320-->
 
 <!--/pytextgen-->

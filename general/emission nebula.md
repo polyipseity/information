@@ -9,7 +9,7 @@ tags:
 
 # emission nebula
 
-An __emission nebula__ is {{a [nebula](nebula.md) formed of ionized gases that emit light of various wavelengths}}. The most common source of [ionization](ionization.md) is {{high-energy [ultraviolet](ultraviolet.md) [photons](photon.md) emitted from a nearby hot [star](star.md)}}. Among the several different types of emission nebulae are {{[H II regions](H%20II%20region.md), in which star formation is taking place and young, massive stars are the source of the ionizing photons}}; and {{[planetary nebulae](planetary%20nebula.md), in which a dying star has thrown off its outer layers, with the exposed hot core then ionizing them}}. <!--SR:!2025-02-17,132,290!2024-10-24,66,310!2024-10-26,59,270!2024-10-27,68,310-->
+An __emission nebula__ is {{a [nebula](nebula.md) formed of ionized gases that emit light of various wavelengths}}. The most common source of [ionization](ionization.md) is {{high-energy [ultraviolet](ultraviolet.md) [photons](photon.md) emitted from a nearby hot [star](star.md)}}. Among the several different types of emission nebulae are {{[H II regions](H%20II%20region.md), in which star formation is taking place and young, massive stars are the source of the ionizing photons}}; and {{[planetary nebulae](planetary%20nebula.md), in which a dying star has thrown off its outer layers, with the exposed hot core then ionizing them}}. <!--SR:!2025-02-17,132,290!2025-08-16,296,330!2024-10-26,59,270!2024-10-27,68,310-->
 
 ## general information
 

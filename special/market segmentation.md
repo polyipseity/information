@@ -38,7 +38,7 @@ Behavioral segmentation divides the market by {{individual purchase behaviors}}.
 
 #### product-specific segmentation
 
-Product-specific segmentation divides the market by {{product or service-specific factors}}. <!--SR:!2024-10-24,141,290-->
+Product-specific segmentation divides the market by {{product or service-specific factors}}. <!--SR:!2025-12-09,411,290-->
 
 ## benefits
 

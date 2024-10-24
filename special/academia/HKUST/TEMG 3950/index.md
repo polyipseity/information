@@ -96,7 +96,7 @@ The content is in teaching order.
 
 - time: 2024-03-05T18:00:00+08:00/2024-03-05T20:30:00+08:00
 - product innovation success first step ::: Identification of the _real_ problem: If your project does not work, you have not found the real needs of your customers. <!--SR:!2026-01-08,446,315!2025-01-23,193,335-->
-- jobs to be done theory history ::: Alex Osterwalder adopted the idea from Prof. Clayton Christensen of Harvard University. <!--SR:!2024-10-24,114,295!2024-12-09,147,315-->
+- jobs to be done theory history ::: Alex Osterwalder adopted the idea from Prof. Clayton Christensen of Harvard University. <!--SR:!2025-10-03,344,295!2024-12-09,147,315-->
 - [value proposition canvas](../../../value%20proposition%20canvas.md)
   - [§ customer profile](../../../value%20proposition%20canvas.md#customer%20profile)
     - filling in a customer profile ::: customer segmentation, then empathy map, then customer profile <!--SR:!2025-04-20,229,295!2025-05-24,294,355-->

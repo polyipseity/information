@@ -16,7 +16,7 @@ In [mathematics](mathematics.md), {{the __discrete Fourier transform__ (__DFT__)
 
 > [!tip] tips
 >
-> - interpretation of the DFT of a sequence ::: The modulus (length) of the complex number for each frequency is the amplitude (e.g. loudness) of that frequency. The argument (angle) of the complex number for each frequency is the phase (e.g. time offset) of that frequency. <!--SR:!2024-11-28,80,346!2024-10-24,51,326-->
+> - interpretation of the DFT of a sequence ::: The modulus (length) of the complex number for each frequency is the amplitude (e.g. loudness) of that frequency. The argument (angle) of the complex number for each frequency is the phase (e.g. time offset) of that frequency. <!--SR:!2024-11-28,80,346!2025-06-12,231,346-->
 
 ## definition
 
@@ -72,7 +72,7 @@ This table shows {{some mathematical operations on $x_{n}$ in the time domain an
 | real part in frequency      | $${\frac {1}{2} }\left(x_{n}+x_{N-n}^{*}\right)$$  | $$\operatorname {Re} {\left(X_{k}\right)}$$        |
 | imaginary part in frequency | $${\frac {1}{2i} }\left(x_{n}-x_{N-n}^{*}\right)$$ | $$\operatorname {Im} {\left(X_{k}\right)}$$        |
 
-- real part in time ::: frequency: $$\frac 1 2 (X_k + X^*_{N - k})$$ <!--SR:!2024-10-24,55,316!2024-10-26,57,316-->
+- real part in time ::: frequency: $$\frac 1 2 (X_k + X^*_{N - k})$$ <!--SR:!2025-06-29,248,336!2024-10-26,57,316-->
 - imaginary part in time ::: frequency: $$\frac 1 {2i} (X_k - X^*_{N - k})$$ <!--SR:!2024-11-04,53,276!2024-11-20,78,336-->
 - real part in frequency ::: time: $$\frac 1 2 (x_n + x^*_{N - n})$$ <!--SR:!2024-12-19,91,296!2024-11-08,69,336-->
 - imaginary part in frequency ::: time: $$\frac 1 {2i} (x_n - x^*_{N - n})$$ <!--SR:!2025-03-08,144,316!2024-10-30,61,336-->
@@ -89,7 +89,7 @@ These theorems are {{also equivalent to the unitary condition below}}. <!--SR:!2
 
 ### periodicity
 
-The periodicity can be {{shown directly from the definition}}: {{$$X_{k+N}\ \triangleq \ \sum _{n=0}^{N-1}x_{n}e^{-{\frac {i2\pi }{N} }(k+N)n}=\sum _{n=0}^{N-1}x_{n}e^{-{\frac {i2\pi }{N} }kn}\underbrace {e^{-i2\pi n} } _{1}=\sum _{n=0}^{N-1}x_{n}e^{-{\frac {i2\pi }{N} }kn}=X_{k}$$}}. <!--SR:!2024-10-24,56,316!2024-11-08,68,336-->
+The periodicity can be {{shown directly from the definition}}: {{$$X_{k+N}\ \triangleq \ \sum _{n=0}^{N-1}x_{n}e^{-{\frac {i2\pi }{N} }(k+N)n}=\sum _{n=0}^{N-1}x_{n}e^{-{\frac {i2\pi }{N} }kn}\underbrace {e^{-i2\pi n} } _{1}=\sum _{n=0}^{N-1}x_{n}e^{-{\frac {i2\pi }{N} }kn}=X_{k}$$}}. <!--SR:!2025-06-29,248,336!2024-11-08,68,336-->
 
 Similarly, it can be {{shown that the IDFT formula leads to a periodic extension}}. <!--SR:!2025-06-18,239,336-->
 
@@ -109,7 +109,7 @@ Multiplying {{$x_{n}$ by a _linear phase_ $e^{ {\frac {i2\pi }{N} }nm}$ for some
 
 Customarily, the DFT and inverse DFT summations are taken {{over the domain $[0, N - 1]$}}. Defining those DFTs as $X$ and $Y$, the result is: {{$$(x*y_{_{N} })_{n}\triangleq \sum _{\ell =-\infty }^{\infty }x_{\ell }\cdot (y_{_{N} })_{n-\ell }=\underbrace { {\mathcal {F} }^{-1} } _{\rm {DFT^{-1} } }\left\{X\cdot Y\right\}_{n}$$}}. <!--SR:!2024-11-14,68,347!2024-11-18,57,287-->
 
-In practice, {{the $x$ sequence is usually length _N_ or less}}, and $y_{_{N} }$ is {{a periodic extension of an N-length $y$-sequence, which can also be expressed as a _circular function_}}: {{$$(y_{_{N} })_{n}=\sum _{p=-\infty }^{\infty }y_{(n-pN)}=y_{(n\operatorname {mod} N)},\quad n\in \mathbb {Z}$$}}. Then the convolution can be written as: {{$${\mathcal {F} }^{-1}\left\{X\cdot Y\right\}_{n}=\sum _{\ell =0}^{N-1}x_{\ell }\cdot y_{_{(n-\ell )\operatorname {mod} N} } \triangleq (x*y_{_{N} })_{n}$$}} which gives rise to the interpretation as {{a _circular_ convolution of $x$ and $y$}}. It is often used to {{efficiently compute their linear convolution}}. (see [circular convolution](circular%20convolution.md#example), {{[fast convolution algorithms](convolution.md#fast%20convolution%20algorithms), and [overlap-save](overlap–save%20method.md)}}) <!--SR:!2024-11-29,80,347!2025-02-07,130,327!2024-11-06,58,327!2024-10-24,50,327!2024-12-09,89,347!2024-11-26,78,347!2025-02-06,119,307-->
+In practice, {{the $x$ sequence is usually length _N_ or less}}, and $y_{_{N} }$ is {{a periodic extension of an N-length $y$-sequence, which can also be expressed as a _circular function_}}: {{$$(y_{_{N} })_{n}=\sum _{p=-\infty }^{\infty }y_{(n-pN)}=y_{(n\operatorname {mod} N)},\quad n\in \mathbb {Z}$$}}. Then the convolution can be written as: {{$${\mathcal {F} }^{-1}\left\{X\cdot Y\right\}_{n}=\sum _{\ell =0}^{N-1}x_{\ell }\cdot y_{_{(n-\ell )\operatorname {mod} N} } \triangleq (x*y_{_{N} })_{n}$$}} which gives rise to the interpretation as {{a _circular_ convolution of $x$ and $y$}}. It is often used to {{efficiently compute their linear convolution}}. (see [circular convolution](circular%20convolution.md#example), {{[fast convolution algorithms](convolution.md#fast%20convolution%20algorithms), and [overlap-save](overlap–save%20method.md)}}) <!--SR:!2024-11-29,80,347!2025-02-07,130,327!2024-11-06,58,327!2025-04-09,167,327!2024-12-09,89,347!2024-11-26,78,347!2025-02-06,119,307-->
 
 > [!tip] tips
 >

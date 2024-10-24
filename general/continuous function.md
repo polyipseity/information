@@ -25,7 +25,7 @@ There are {{several ways}} to define whether a function is _continuous_ at a poi
 >
 > There are subtleties with the common definition, described under [§ definition in terms of limits of functions](#definition%20in%20terms%20of%20limits%20of%20functions).
 >
-> - [isolated points](isolated%20point.md) of a [set](set%20(mathematics).md) containing [reals](real%20number.md) ::: For example, $\set{0, 2}$ are [isolated points](isolated%20point.md) of $(-\infty, -12) \cup \set{0} \cup [0.5, 1) \cup \set{2} \cup [2.1, 2.11]$. <!--SR:!2024-10-24,168,310!2025-11-30,458,310-->
+> - [isolated points](isolated%20point.md) of a [set](set%20(mathematics).md) containing [reals](real%20number.md) ::: For example, $\set{0, 2}$ are [isolated points](isolated%20point.md) of $(-\infty, -12) \cup \set{0} \cup [0.5, 1) \cup \set{2} \cup [2.1, 2.11]$. <!--SR:!2026-04-07,530,310!2025-11-30,458,310-->
 
 #### global continuity
 

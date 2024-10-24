@@ -22,7 +22,7 @@ tags:
 > {{$$pV^n = C$$}}
 >
 > - where
->   - {{$p$ is the [pressure](pressure.md), $V$ is the [volume](volume.md), $n$ is the __polytropic index__, and $C$ is a [constant](constant%20(mathematics).md)}} <!--SR:!2024-11-16,256,330!2024-10-24,239,330-->
+>   - {{$p$ is the [pressure](pressure.md), $V$ is the [volume](volume.md), $n$ is the __polytropic index__, and $C$ is a [constant](constant%20(mathematics).md)}} <!--SR:!2024-11-16,256,330!2027-10-20,1091,350-->
 
 ## relation between polytropic index and energy transfer ratio
 

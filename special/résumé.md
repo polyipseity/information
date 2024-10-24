@@ -86,4 +86,4 @@ The most important skills in general are {{adaptivity, fast learning, and resili
 
 ## referees
 
-Ensure you {{have contact information of at least 3 referees}}. A good example would be {{a professor, a previous supervisor, and a project lead of your volunteer team}}. {{No need to}} put them on the résumé. <!--SR:!2024-10-24,286,330!2025-12-01,522,270!2028-03-20,1250,350-->
+Ensure you {{have contact information of at least 3 referees}}. A good example would be {{a professor, a previous supervisor, and a project lead of your volunteer team}}. {{No need to}} put them on the résumé. <!--SR:!2028-05-29,1313,350!2025-12-01,522,270!2028-03-20,1250,350-->

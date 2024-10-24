@@ -255,7 +255,7 @@ See [Parthenon](../../../../general/Parthenon.md).
 - dedication ::: Greek goddess Athena <!--SR:!2024-12-08,166,396!2024-11-08,141,396-->
 - description ::: temple on the Athenian Acropolis, Greece, dedicated to the Greek goddess Athena <!--SR:!2024-11-21,135,356!2024-11-06,139,396-->
 - geographic location ::: Athenian Acropolis, Greece <!--SR:!2024-11-29,138,356!2026-08-20,672,416-->
-- importance ::: most important surviving building of classical Greece <!--SR:!2025-12-29,437,376!2024-10-24,128,396-->
+- importance ::: most important surviving building of classical Greece <!--SR:!2025-12-29,437,376!2026-10-16,722,416-->
 
 ## Stonecutters Bridge
 
