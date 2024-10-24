@@ -239,7 +239,7 @@ async def wiki_html_to_plaintext(
                 )
                 inline = is_not_separate_paragraph and is_inline
 
-                prefix, suffix = "$" if inline else "$$", "$" if inline else "$$\n\n"
+                prefix, suffix = "$" if inline else "$$", "$" if inline else "$$"
 
                 # for char in ".,":
                 #     if alt_text.endswith(char):
