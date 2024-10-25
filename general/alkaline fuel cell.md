@@ -61,7 +61,7 @@ return await memorize_seq(
 - +: efficiency as high as 70%→:::←+: operate continuously, producing a stable supply of [electricity](electricity.md) <!--SR:!2025-01-02,131,172!2026-01-17,704,312-->
 - +: operate continuously, producing a stable supply of [electricity](electricity.md)→:::←+: products, which consist of [water](water.md), are clean <!--SR:!2026-11-26,852,270!2025-05-09,420,252-->
 - +: products, which consist of [water](water.md), are clean→:::←-: expensive <!--SR:!2025-11-08,578,272!2024-12-17,222,232-->
-- -: expensive→:::←-: storage of [hydrogen](hydrogen.md) and [oxygen](oxygen.md) gas is difficult <!--SR:!2024-10-25,357,250!2025-06-03,417,312-->
+- -: expensive→:::←-: storage of [hydrogen](hydrogen.md) and [oxygen](oxygen.md) gas is difficult <!--SR:!2027-04-25,912,250!2025-06-03,417,312-->
 - -: storage of [hydrogen](hydrogen.md) and [oxygen](oxygen.md) gas is difficult→:::←_(end)_ <!--SR:!2026-01-28,789,332!2025-05-31,554,312-->
 
 <!--/pytextgen-->

@@ -89,7 +89,7 @@ Given the above, {{one view of the progression of the accounting and finance car
 
 {{Grenzplankostenrechnung (GPK)}} is {{a German costing methodology, developed in the late 1940s and 1960s}}, designed to {{provide a consistent and accurate application of how managerial costs are calculated and assigned to a product or service}}. The term Grenzplankostenrechnung, often referred to as GPK, has best been translated as {{either _marginal planned cost accounting_<sup>[\[17\]](#^ref-17)</sup> or _flexible analytic cost planning and accounting_}}.<sup>[\[18\]](#^ref-18)</sup> <!--SR:!2024-12-31,73,270!2024-11-09,44,290!2024-11-02,38,290!2024-12-29,73,270-->
 
-The origins of GPK are credited to {{Hans Georg Plaut, an automotive engineer, and Wolfgang Kilger, an academic}}, working towards {{the mutual goal of identifying and delivering a sustained methodology designed to correct and enhance cost accounting information}}. GPK is published in {{cost accounting textbooks, notably _Flexible Plankostenrechnung und Deckungsbeitragsrechnung_<sup>[\[19\]](#^ref-19)</sup> and taught at German-speaking universities}}. <!--SR:!2024-10-25,32,270!2024-12-08,52,250!2024-12-16,60,250-->
+The origins of GPK are credited to {{Hans Georg Plaut, an automotive engineer, and Wolfgang Kilger, an academic}}, working towards {{the mutual goal of identifying and delivering a sustained methodology designed to correct and enhance cost accounting information}}. GPK is published in {{cost accounting textbooks, notably _Flexible Plankostenrechnung und Deckungsbeitragsrechnung_<sup>[\[19\]](#^ref-19)</sup> and taught at German-speaking universities}}. <!--SR:!2025-02-28,126,290!2024-12-08,52,250!2024-12-16,60,250-->
 
 ### lean accounting (accounting for lean enterprise)
 

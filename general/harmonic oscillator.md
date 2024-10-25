@@ -92,7 +92,7 @@ The solution is as below, which matches with our physical intuition:
 
 ### sinusoidal driving force
 
-Consider a system with {{a sinusoidal driving [force](force.md) with max force $F_\mathrm{max}$ and [angular frequency](angular%20frequency.md) $\omega_d$: $$F(t) = F_\mathrm{max}\cos(\omega_d t)$$}}. Solve the equation using the [exponential response formula](exponential%20response%20formula.md): <!--SR:!2024-10-25,191,272-->
+Consider a system with {{a sinusoidal driving [force](force.md) with max force $F_\mathrm{max}$ and [angular frequency](angular%20frequency.md) $\omega_d$: $$F(t) = F_\mathrm{max}\cos(\omega_d t)$$}}. Solve the equation using the [exponential response formula](exponential%20response%20formula.md): <!--SR:!2026-04-09,531,272-->
 
 > [!info]- details
 >
@@ -145,7 +145,7 @@ Z'(\omega_d) & = \frac12 \left((2 \zeta \omega_n \omega_d)^2 + \left(\omega_n^2 
 
 ## universal oscillator equation
 
-Through [nondimensionalization](nondimensionalization.md), the equation below {{known as the __universal oscillator equation__ can be obtained. It is named so because all second-order oscillatory system can be reduced into this form}}. <!--SR:!2024-10-25,228,332-->
+Through [nondimensionalization](nondimensionalization.md), the equation below {{known as the __universal oscillator equation__ can be obtained. It is named so because all second-order oscillatory system can be reduced into this form}}. <!--SR:!2027-09-01,1041,352-->
 
 > __universal oscillator equation__
 >

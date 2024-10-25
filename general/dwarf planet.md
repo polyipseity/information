@@ -9,7 +9,7 @@ tags:
 
 # dwarf planet
 
-A __dwarf planet__ is {{a small [planetary-mass object](planetary-mass%20object.md) that is in direct orbit around the [Sun](Sun.md), massive enough to be [gravitationally rounded](hydrostatic%20equilibrium.md), but insufficient to achieve [orbital dominance](clearing%20the%20neighbourhood.md)}}. <!--SR:!2024-10-25,77,270-->
+A __dwarf planet__ is {{a small [planetary-mass object](planetary-mass%20object.md) that is in direct orbit around the [Sun](Sun.md), massive enough to be [gravitationally rounded](hydrostatic%20equilibrium.md), but insufficient to achieve [orbital dominance](clearing%20the%20neighbourhood.md)}}. <!--SR:!2025-05-27,214,270-->
 
 ## references
 

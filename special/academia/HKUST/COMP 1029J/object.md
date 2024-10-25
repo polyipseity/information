@@ -15,7 +15,7 @@ To help with debugging objects, one can use {{the [object bench](BlueJ.md#object
 
 ## almost everything is an object
 
-In Java, {{everything except for primitive types}} are objects. Primitive types include {{`boolean`, `byte`, `char`, `double`, `float`, `short`, `int`, and `long`}}. <!--SR:!2024-12-20,246,330!2024-10-25,185,310-->
+In Java, {{everything except for primitive types}} are objects. Primitive types include {{`boolean`, `byte`, `char`, `double`, `float`, `short`, `int`, and `long`}}. <!--SR:!2024-12-20,246,330!2026-12-26,792,330-->
 
 ## equality
 

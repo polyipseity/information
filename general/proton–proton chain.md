@@ -19,7 +19,7 @@ The __proton–proton chain__, also commonly referred to as the __p–p chain__,
 
 ## the proton–proton chain
 
-(Note that elements in the chemical equations are {{[ionized](ionization.md), so they are bare [nuclei](atomic%20nucleus.md)}}.) <!--SR:!2024-10-25,68,313-->
+(Note that elements in the chemical equations are {{[ionized](ionization.md), so they are bare [nuclei](atomic%20nucleus.md)}}.) <!--SR:!2025-08-29,308,333-->
 
 The first step in all the branches is {{the fusion of two [protons](proton.md) ([hydrogen](hydrogen.md)) into a [deuteron](deuteron.md)}}. As the protons fuse, {{one of them undergoes [β+ decay](positron%20emission.md), converting into a [neutron](neutron.md) by emitting a [positron](positron.md) and an [electron neutrino](electron%20neutrino.md)}} (though a small amount of deuterium nuclei is produced by the [PEP reaction](#the%20PEP%20reaction)): {{$$\mathrm{p} + \mathrm{p} \to {}_1^2 \mathrm{D} + \mathrm{e}^+ + \nu_{\mathrm{e} } + 0.42\text{ MeV}$$}}. <!--SR:!2025-01-22,117,295!2025-01-29,123,295!2024-12-17,91,275-->
 
@@ -31,7 +31,7 @@ The [positron](positron.md) will {{[annihilate](annihilation.md) with an [electr
 
 After it is formed, the [deuteron](deuteron.md) produced in the first stage can {{fuse with another [proton](proton.md) to produce the stable, light [isotope](isotope.md) of [helium](helium.md), <sup>3</sup>He}}: {{$${}_1^2 \mathrm{D} + {}_1^1 \mathrm{H} \to {}_2^3 \mathrm{He} + \gamma + 5.493\text{ MeV}$$}}. <!--SR:!2025-01-16,114,295!2025-01-24,106,255-->
 
-- 2nd step / energy release ::: 5.493 MeV <!--SR:!2024-10-25,6,130!2024-11-05,28,230-->
+- 2nd step / energy release ::: 5.493 MeV <!--SR:!2024-11-04,10,130!2024-11-05,28,230-->
 
 The overall reaction (noting that the elements are [ionized](ionization.md)) is: {{$$4\, {}^1\mathrm{H}^+ + 2\,\mathrm{e}^- \to {}^4\mathrm{He}^{2+} + 2\,\nu_{\mathrm{e} } + n\, \gamma + 26.732\text{ MeV}$$, releasing 26.732&nbsp;[MeV](electronvolt.md) of [energy](energy.md)}}. Some energy is {{lost to the neutrinos, and various number of [gamma rays](gamma%20ray.md) depending on the branch taken}}. <!--SR:!2024-11-06,67,270!2025-01-17,129,290-->
 

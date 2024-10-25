@@ -22,7 +22,7 @@ The content is in teaching order.
     - engineer limitations ::: limited by cost, practicality, regulation, and safety <!--SR:!2024-12-24,195,350!2025-10-08,405,377-->
     - engineer methods ::: ingenuity, mathematics, scientific method and outlook <!--SR:!2026-03-11,503,337!2025-10-01,424,385-->
   - engineer, according to the World Federation of Engineering Organizations (WFEO)
-    - engineer inspirations ::: art of using creativity, science and technology, traditional experience <!--SR:!2024-10-25,136,335!2025-02-25,250,330-->
+    - engineer inspirations ::: art of using creativity, science and technology, traditional experience <!--SR:!2026-07-15,628,355!2025-02-25,250,330-->
     - engineer sustainability ::: restore and safeguard the biophysical environment <!--SR:!2025-01-10,205,345!2025-03-26,269,365-->
   - [engineer types](#engineer%20types)
   - differences between engineers and scientists ::: Scientists understand nature and make predictions, while engineers use scientific data and knowledge to design cities and protect us from nature. <!--SR:!2025-08-09,384,299!2024-12-02,192,330-->
@@ -41,7 +41,7 @@ The content is in teaching order.
     - poor quality control and workmanship consequences ::: cracks, stinky smell, water leakage <!--SR:!2025-01-12,193,352!2025-06-29,343,367-->
     - structural failure consequences ::: building toppling over, killing workers, prosecution <!--SR:!2024-12-31,189,270!2025-07-26,364,374-->
     - [structural failure example](#structural%20failure%20example)
-  - civil engineering design challenges ::: complex shapes, long-span structures, underground structures <!--SR:!2024-10-25,138,340!2025-08-06,374,377-->
+  - civil engineering design challenges ::: complex shapes, long-span structures, underground structures <!--SR:!2026-02-12,475,340!2025-08-06,374,377-->
     - [complex shape examples](#complex%20shape%20examples)
     - [long-span structure examples](#long%20span%20structure%20examples)
     - underground structure examples ::: Turin–Lyon high-speed railway (2002–2032), 271 km long, has the Mont Cenis base tunnel that is 57.5 km long with up to 4 km long access tunnels <!--SR:!2025-07-30,317,321!2024-10-26,147,352-->
@@ -149,7 +149,7 @@ quantity surveyor
 - consulting geo-technical engineer→:::←consulting structural engineer <!--SR:!2025-01-06,179,315!2025-04-26,255,317-->
 - consulting structural engineer→:::←contracting civil engineer <!--SR:!2025-09-07,361,335!2025-05-27,276,315-->
 - contracting civil engineer→:::←engineering geologist <!--SR:!2025-07-29,302,297!2024-11-19,56,275-->
-- engineering geologist→:::←environmental consultant <!--SR:!2024-10-25,125,305!2025-05-31,280,305-->
+- engineering geologist→:::←environmental consultant <!--SR:!2025-11-10,381,305!2025-05-31,280,305-->
 - environmental consultant→:::←quantity surveyor <!--SR:!2024-11-13,55,280!2025-01-22,163,280-->
 - quantity surveyor→:::←_(end)_ <!--SR:!2025-01-10,187,340!2024-12-31,120,340-->
 
@@ -232,7 +232,7 @@ water security
 
 <!--pytextgen generate section="9f12"--><!-- The following content is generated at 2024-02-16T21:59:47.097705+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←climate change <!--SR:!2024-10-25,164,325!2025-02-24,228,350-->
+- _(begin)_→:::←climate change <!--SR:!2026-12-02,768,345!2025-02-24,228,350-->
 - climate change→:::←extreme weather <!--SR:!2025-08-18,343,337!2025-01-04,199,350-->
 - extreme weather→:::←food security <!--SR:!2024-11-12,150,330!2025-03-06,235,347-->
 - food security→:::←mega-cities <!--SR:!2025-12-02,460,372!2025-08-03,319,320-->
@@ -463,7 +463,7 @@ testing materials
 - quality control→:::←safety engineering <!--SR:!2025-02-12,195,301!2024-11-24,71,235-->
 - safety engineering→:::←scheduling <!--SR:!2025-05-17,261,320!2025-11-12,407,340-->
 - scheduling→:::←surveying building site <!--SR:!2025-01-14,149,241!2026-02-05,476,320-->
-- surveying building site→:::←testing materials <!--SR:!2024-12-20,85,240!2024-10-25,74,272-->
+- surveying building site→:::←testing materials <!--SR:!2024-12-20,85,240!2025-05-20,207,272-->
 - testing materials→:::←_(end)_ <!--SR:!2025-02-21,236,347!2025-04-14,245,307-->
 
 <!--/pytextgen-->

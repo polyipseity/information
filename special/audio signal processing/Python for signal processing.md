@@ -25,7 +25,7 @@ tags:
 
 ## matplotlib
 
-`matplotlib` is {{a Python library allowing one to visualize numbers}}. Its documentation is available on {{<https://matplotlib.org/stable/api/>}}. <!--SR:!2024-10-25,56,319!2024-11-01,62,319-->
+`matplotlib` is {{a Python library allowing one to visualize numbers}}. Its documentation is available on {{<https://matplotlib.org/stable/api/>}}. <!--SR:!2025-07-06,254,339!2024-11-01,62,319-->
 
 ## complex number
 

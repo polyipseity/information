@@ -103,7 +103,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 6. 44/43 solar days
 >
 > - solution: {{3}}
-> - explanation: {{The planet is in retrograde motion. Hence, the number of sidereal days per orbital period is $42 - 1 = 41\text{ sidereal days}$. Thus each sidereal day is $\frac {1 / 41} {1 / 42} = \frac {42} {41}\text{ solar days}$.}} <!--SR:!2025-07-20,276,297!2024-10-25,74,277-->
+> - explanation: {{The planet is in retrograde motion. Hence, the number of sidereal days per orbital period is $42 - 1 = 41\text{ sidereal days}$. Thus each sidereal day is $\frac {1 / 41} {1 / 42} = \frac {42} {41}\text{ solar days}$.}} <!--SR:!2025-07-20,276,297!2025-08-20,299,297-->
 
 ## 2024-07-02
 

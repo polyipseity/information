@@ -298,7 +298,7 @@ return chain.from_iterable(await gather(
 - mercury(I) ion::1+ <!--SR:!2027-08-31,1634,374-->
 - ammonium ion::1+ <!--SR:!2030-02-09,2209,334-->
 - magnesium ion::2+ <!--SR:!2026-12-17,1231,273-->
-- calcium ion::2+ <!--SR:!2024-10-25,649,272-->
+- calcium ion::2+ <!--SR:!2031-07-25,2464,292-->
 - barium ion::2+ <!--SR:!2027-03-30,1157,254-->
 - lead(II) ion::2+ <!--SR:!2026-06-13,1266,358-->
 - iron(II) ion::2+ <!--SR:!2028-04-27,1823,373-->

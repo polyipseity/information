@@ -93,7 +93,7 @@ It is easy to see that $S(0)$ is {{the multiplicative [right identity](identity%
 To show that $S(0)$ is {{also the multiplicative left identity requires the induction axiom due to the way multiplication is defined}}: <!--SR:!2024-12-20,79,325-->
 
 - multiplicative left identity / base case ::: $S(0)$ is the left identity of 0: $S(0)\cdot 0=0$. <!--SR:!2024-11-09,45,305!2024-11-30,62,325-->
-- multiplication left identity / induction ::: If $S(0)$ is the left identity of $a$ (that is $S(0)\cdot a=a$), then $S(0)$ is also the left identity of $S(a)$: $S(0)\cdot S(a)=S(0)+S(0)\cdot a=S(0)+a=a+S(0)=S(a+0)=S(a)$, using commutativity of addition. <!--SR:!2025-01-08,84,285!2024-10-25,31,282-->
+- multiplication left identity / induction ::: If $S(0)$ is the left identity of $a$ (that is $S(0)\cdot a=a$), then $S(0)$ is also the left identity of $S(a)$: $S(0)\cdot S(a)=S(0)+S(0)\cdot a=S(0)+a=a+S(0)=S(a+0)=S(a)$, using commutativity of addition. <!--SR:!2025-01-08,84,285!2025-02-28,126,302-->
 
 Therefore, by {{the induction axiom $S(0)$ is the multiplicative left identity of all natural numbers}}. Moreover, it can be shown that {{multiplication is commutative and [distributes over](distributive%20property.md) addition: $$a\cdot (b+c)=(a\cdot b)+(a\cdot c)$$}}. <!--SR:!2024-12-16,75,325!2024-12-06,66,310-->
 

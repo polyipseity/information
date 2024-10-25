@@ -13,7 +13,7 @@ In [stellar astronomy](astronomy.md#stellar%20astronomy), the __Algol paradox__ 
 
 In the case of {{[Algol](algol.md) and other binary stars}}, something completely different is observed: {{The less massive star is already a subgiant, while the star with much greater mass is still on the main sequence}}. Since {{the partner stars of the binary are thought to have formed at approximately the same time and so should have similar ages}}, this appears paradoxical. The more massive star, rather than the less massive one, should {{have left the main sequence}}. <!--SR:!2025-06-18,246,330!2025-01-14,112,290!2024-10-28,69,310!2025-06-18,246,330-->
 
-The paradox is resolved by the fact that {{in many binary stars, there can be a flow of material between the two, disturbing the normal process of stellar evolution}}. As the flow progresses, {{their evolutionary stage advances, even as the relative masses change}}. Eventually, {{the originally more massive star reaches the next stage in its evolution despite having lost much of its mass to its companion}}. <!--SR:!2024-10-25,67,310!2025-06-29,257,330!2024-10-26,68,310-->
+The paradox is resolved by the fact that {{in many binary stars, there can be a flow of material between the two, disturbing the normal process of stellar evolution}}. As the flow progresses, {{their evolutionary stage advances, even as the relative masses change}}. Eventually, {{the originally more massive star reaches the next stage in its evolution despite having lost much of its mass to its companion}}. <!--SR:!2025-08-19,298,330!2025-06-29,257,330!2024-10-26,68,310-->
 
 ## see also
 

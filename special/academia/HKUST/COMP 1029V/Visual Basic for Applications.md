@@ -16,7 +16,7 @@ To run a VBA program, you need {{a trigger}}. In Excel, the trigger can be {{mac
 
 ## editing
 
-To edit VBA code in an Excel file, use {{the VBA editor}}. How to edit then? Just press random buttons and learn for yourself. <!--SR:!2024-10-25,189,310-->
+To edit VBA code in an Excel file, use {{the VBA editor}}. How to edit then? Just press random buttons and learn for yourself. <!--SR:!2027-02-22,850,330-->
 
 ### macro
 

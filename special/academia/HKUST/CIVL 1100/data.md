@@ -62,7 +62,7 @@ See [Burj Khalifa](../../../../general/Burj%20Khalifa.md).
 
 See [CCTV Headquarters](../../../../general/CCTV%20Headquarters.md).
 
-- description ::: skyscraper in the central business district of Beijing, China <!--SR:!2024-10-25,144,332!2025-08-30,398,387-->
+- description ::: skyscraper in the central business district of Beijing, China <!--SR:!2026-02-12,475,332!2025-08-30,398,387-->
 - height ::: roof: 234 m <!--SR:!2024-12-08,108,240!2026-03-08,556,397-->
 - image ::: ![CCTV Headquarters image](../../../../archives/Wikimedia%20Commons/China%20Central%20Television%20HQ,%20from%20China%20World%20Trade%20Centre%20(Cropped).jpg) <!--SR:!2025-03-20,235,360!2026-01-09,498,400-->
 - shape ::: big pants <!--SR:!2025-11-28,469,385!2025-12-25,483,400-->
@@ -107,7 +107,7 @@ See [Colosseum](../../../../general/Colosseum.md).
 - description ::: elliptical amphitheater in the center of Rome <!--SR:!2025-05-13,268,376!2025-12-11,420,376-->
 - geographic location ::: Rome <!--SR:!2026-02-17,488,396!2024-10-29,133,396-->
 - height ::: 48 m (4 storeys) <!--SR:!2025-01-13,110,276!2024-11-11,143,396-->
-- importance ::: largest amphitheater in the Roman Empire, greatest works of Roman architecture and engineering <!--SR:!2024-10-25,122,376!2026-04-16,555,396-->
+- importance ::: largest amphitheater in the Roman Empire, greatest works of Roman architecture and engineering <!--SR:!2026-07-15,628,396!2026-04-16,555,396-->
 
 ## Eiffel Tower
 
@@ -135,7 +135,7 @@ See [Golden Gate Bridge](../../../../general/Golden%20Gate%20Bridge.md).
 See [Great Pyramid of Giza](../../../../general/Great%20Pyramid%20of%20Giza.md).
 
 - base width ::: 230.33 m <!--SR:!2024-12-17,61,356!2024-11-03,137,396-->
-- construction period ::: 10~20 years around 2560 BC <!--SR:!2024-10-25,31,216!2026-02-17,488,396-->
+- construction period ::: 10~20 years around 2560 BC <!--SR:!2025-01-01,68,216!2026-02-17,488,396-->
 - description ::: largest pyramid in the Giza Necropolis, Egypt <!--SR:!2026-06-05,605,416!2024-10-31,134,396-->
 - height ::: current: 138.5 m, original: 146.6 m <!--SR:!2024-12-03,141,356!2024-11-02,136,396-->
 - weight ::: 5.9 million tonnes <!--SR:!2024-10-31,47,356!2024-11-10,142,396-->
@@ -282,7 +282,7 @@ See [Taipei 101](Taipei%20101.md).
 - description ::: skyscraper in Taipei, Taiwan <!--SR:!2025-03-31,295,350!2026-02-21,535,400-->
 - height ::: architectural: 508.2 m, tip: 509.2 m, top floor: 438 m <!--SR:!2024-11-11,23,130!2024-11-19,179,330-->
 - image ::: ![Taipei 101 image](../../../../archives/Wikimedia%20Commons/Tower%20of%20Taipei%20101(cropped).jpg) <!--SR:!2025-02-07,201,360!2025-07-04,321,380-->
-- [structural system](../../../../general/structural%20system.md) ::: concrete–steel composite<!-- flashcard 16556e6f-00ca-4a87-845c-f0ea2f56807a --> <!--SR:!2024-10-25,45,300!2025-08-01,343,380-->
+- [structural system](../../../../general/structural%20system.md) ::: concrete–steel composite<!-- flashcard 16556e6f-00ca-4a87-845c-f0ea2f56807a --> <!--SR:!2025-03-13,139,300!2025-08-01,343,380-->
 
 ## Thames Barrier
 
