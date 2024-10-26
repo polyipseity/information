@@ -23,7 +23,7 @@ PCA is most commonly used when {{many of the variables are highly correlated wit
 
 ## intuition
 
-PCA can be thought of {{fitting an (hyper)[ellipsoid](ellipsoid.md) (a (hyper)[sphere](sphere.md) that are scaled differently along different axes) to the data}}, where each axis {{of the ellipsoid (which are perpendicular to each other) represents a principal component}}. The axis {{length represents the variance of the data along that axis}}. Axes with the least length means {{the data does not differ much in said axis}}, thus removing said axes {{reduces dimensionality while minimizing information loss}}. <!--SR:!2025-01-23,164,310!2024-10-26,88,270!2024-12-12,120,290!2025-04-13,230,330!2025-01-31,170,310-->
+PCA can be thought of {{fitting an (hyper)[ellipsoid](ellipsoid.md) (a (hyper)[sphere](sphere.md) that are scaled differently along different axes) to the data}}, where each axis {{of the ellipsoid (which are perpendicular to each other) represents a principal component}}. The axis {{length represents the variance of the data along that axis}}. Axes with the least length means {{the data does not differ much in said axis}}, thus removing said axes {{reduces dimensionality while minimizing information loss}}. <!--SR:!2025-01-23,164,310!2025-10-07,346,290!2024-12-12,120,290!2025-04-13,230,330!2025-01-31,170,310-->
 
 ## computing PCA using the covariance method
 

@@ -6,7 +6,7 @@ tags:
 
 # filter paper
 
-__Filter paper__ is {{a [semipermeable](semipermeable%20membrane.md) [paper](paper.md) used for [filtration](filtration.md)}}. It is made of [paper pulps](pulp%20(paper).md). <!--SR:!2024-10-26,204,230-->
+__Filter paper__ is {{a [semipermeable](semipermeable%20membrane.md) [paper](paper.md) used for [filtration](filtration.md)}}. It is made of [paper pulps](pulp%20(paper).md). <!--SR:!2026-08-20,663,250-->
 
 ## references
 

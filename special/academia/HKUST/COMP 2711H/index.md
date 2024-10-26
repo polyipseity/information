@@ -81,7 +81,7 @@ The content is in teaching order.
     - rules of inference / transposition (with $F$ as the consequent) ::: $$\begin{aligned} & \underline{\lnot p \rightarrow F} \\ & p \end{aligned}$$ <!--SR:!2024-11-30,61,310!2024-11-25,56,323-->
     - rules of inference / simplification ::: $$\begin{aligned} & \underline{p \land q} \\ & p \end{aligned}$$ <!--SR:!2024-12-16,75,323!2024-12-04,65,323-->
     - rules of inference / addition ::: $$\begin{aligned} & \underline{p \phantom{\lor q} } \\ & p \lor q \end{aligned}$$ <!--SR:!2024-12-01,62,323!2024-11-01,37,290-->
-    - rules of inference / importation (applied form) ::: $$\begin{aligned} & p \land q \\ & \underline{p \rightarrow (q \rightarrow r)} \\ & r \end{aligned}$$ <!--SR:!2024-10-26,32,270!2024-12-09,69,323-->
+    - rules of inference / importation (applied form) ::: $$\begin{aligned} & p \land q \\ & \underline{p \rightarrow (q \rightarrow r)} \\ & r \end{aligned}$$ <!--SR:!2025-02-23,120,290!2024-12-09,69,323-->
     - rules of inference / constructive dilemma ::: $$\begin{aligned} & p \rightarrow q \\ & r \rightarrow s \\ & \underline{p \lor r \phantom{s} } \\ & q \lor s \end{aligned}$$ <!--SR:!2024-11-01,37,303!2024-11-10,41,290-->
     - rules of inference / destructive dilemma ::: $$\begin{aligned} & p \rightarrow q \\ & r \rightarrow s \\ & \underline{\lnot q \lor \lnot s} \\ & \lnot p \lor \lnot r \end{aligned}$$ <!--SR:!2024-11-18,48,303!2024-12-08,69,323-->
     - rules of inference / constructive dilemma (unapplied form, with the same consequent) ::: $$\begin{aligned} & p \rightarrow r \\ & \underline{q \rightarrow r \phantom{r \rightarrow r} } \\ & (p \lor q) \rightarrow r \end{aligned}$$ <!--SR:!2024-12-09,62,283!2024-11-19,49,303-->

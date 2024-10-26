@@ -20,7 +20,7 @@ tags:
 > - where
 >   - {{$f_r$ is the received [frequency](frequency.md), $f_s$ is the source [frequency](frequency.md), and $c$ is the [phase velocity](phase%20velocity.md) of the [wave](wave.md) in the [medium](transmission%20medium.md)}}
 >   - {{$v_r$ is the [speed](speed.md) of the receiver relative to the [medium](transmission%20medium.md), negative when moving towards the source and positive when moving away from the source; $v_s$ is the [speed](speed.md) of the source relative to the [medium](transmission%20medium.md), positive when moving away from the receiver and negative when moving towards the receiver; for memorization: positive when moving away, negative moving towards}}
-> - conditions: {{the speeds of the source and receiver relative to the medium are both lower than the speed of waves relative to the medium; the other (separate from the sentence before) is the speeds are negligible compared to the [speed of light](speed%20of%20light.md) in [vacuum](vacuum.md), otherwise only the [relativistic Doppler effect](relativistic%20Doppler%20effect.md) is accurate for this situation}} <!--SR:!2024-10-26,201,270!2026-06-08,622,310!2024-12-03,197,230!2024-11-08,252,330-->
+> - conditions: {{the speeds of the source and receiver relative to the medium are both lower than the speed of waves relative to the medium; the other (separate from the sentence before) is the speeds are negligible compared to the [speed of light](speed%20of%20light.md) in [vacuum](vacuum.md), otherwise only the [relativistic Doppler effect](relativistic%20Doppler%20effect.md) is accurate for this situation}} <!--SR:!2026-05-15,566,270!2026-06-08,622,310!2024-12-03,197,230!2024-11-08,252,330-->
 
 ## references
 

@@ -28,7 +28,7 @@ The game of nim was the subject of [Martin Gardner](Martin%20Gardner.md)'s Febru
 
 Nim is typically played as {{a [misère game](misère.md#misère%20game), in which the player to take the last object loses}}. Nim can also be {{played as a "normal play" game whereby the player taking the last object wins}}. In either normal play or a misère game, when {{there is exactly one heap with at least two objects}}, {{the player who takes next can easily win}}. If {{this removes either all or all but one objects from the heap that has two or more}}, then {{no heaps will have more than one object}}, so {{the players are forced to alternate removing exactly one object until the game ends}}. If {{the player leaves an even number of non-zero heaps (as the player would do in normal play)}}, {{the player takes last}}; if {{the player leaves an odd number of heaps (as the player would do in misère play)}}, then {{the other player takes last}}. <!--SR:!2024-11-02,16,301!2024-11-02,16,301!2024-11-02,16,301!2024-11-02,16,301!2024-11-02,16,301!2024-11-02,16,301!2024-11-02,16,301!2024-11-02,16,301!2024-11-02,16,301!2024-11-04,18,301!2024-11-02,16,301-->
 
-The normal game is {{between two players and is played with three heaps of any number of objects}}. The two players {{alternate taking any number of objects from any one of the heaps}}. The goal is {{to be the last to take an object}}. In misère play, the goal is {{instead to ensure that the opponent is forced to take the last remaining object}}. <!--SR:!2024-10-26,9,281!2024-11-02,16,301!2024-11-02,16,301!2024-11-02,16,301-->
+The normal game is {{between two players and is played with three heaps of any number of objects}}. The two players {{alternate taking any number of objects from any one of the heaps}}. The goal is {{to be the last to take an object}}. In misère play, the goal is {{instead to ensure that the opponent is forced to take the last remaining object}}. <!--SR:!2024-11-28,33,301!2024-11-02,16,301!2024-11-02,16,301!2024-11-02,16,301-->
 
 The following example of a normal game is played between fictional players [Bob and Alice](Alice%20and%20Bob.md), who start with heaps of three, four and five objects.
 
@@ -72,11 +72,11 @@ For the generalisations, _n_ and _m_ can be {{any value > 0, and they may be the
 
 ## mathematical theory
 
-Normal-play nim (or more precisely {{the system of [nimbers](nimber.md)}}) is {{fundamental to the [Sprague–Grundy theorem](Sprague–Grundy%20theorem.md)}}, which {{essentially says that in normal play every [impartial game](impartial%20game.md) is equivalent to a nim heap that yields the same outcome}} when {{played in parallel with other normal play impartial games (see [disjunctive sum](disjunctive%20sum.md))}}. <!--SR:!2024-11-02,16,301!2024-11-02,16,290!2024-10-26,9,281!2024-10-26,9,281-->
+Normal-play nim (or more precisely {{the system of [nimbers](nimber.md)}}) is {{fundamental to the [Sprague–Grundy theorem](Sprague–Grundy%20theorem.md)}}, which {{essentially says that in normal play every [impartial game](impartial%20game.md) is equivalent to a nim heap that yields the same outcome}} when {{played in parallel with other normal play impartial games (see [disjunctive sum](disjunctive%20sum.md))}}. <!--SR:!2024-11-02,16,301!2024-11-02,16,290!2024-11-28,33,301!2024-11-20,25,281-->
 
-While {{all normal-play impartial games can be assigned a nim value}}, that is {{not the case under the misère convention}}. {{Only [tame games](genus%20theory.md#tame)}} can be played using the same strategy as misère nim. <!--SR:!2024-11-02,16,301!2024-10-26,9,281!2024-10-26,9,281-->
+While {{all normal-play impartial games can be assigned a nim value}}, that is {{not the case under the misère convention}}. {{Only [tame games](genus%20theory.md#tame)}} can be played using the same strategy as misère nim. <!--SR:!2024-11-02,16,301!2024-11-28,33,301!2024-11-28,33,301-->
 
-Nim is {{a special case of a [poset game](poset%20game.md)}} where {{the [poset](partially%20ordered%20set.md) consists of disjoint [chains](total%20order.md) (the heaps)}}. <!--SR:!2024-11-04,18,301!2024-10-26,9,281-->
+Nim is {{a special case of a [poset game](poset%20game.md)}} where {{the [poset](partially%20ordered%20set.md) consists of disjoint [chains](total%20order.md) (the heaps)}}. <!--SR:!2024-11-04,18,301!2024-11-28,33,301-->
 
 The evolution graph of the game of nim with three heaps is {{the same as three branches of the evolution graph of the [Ulam–Warburton automaton](Ulam–Warburton%20automaton.md)}}.<sup>[\[9\]](#^ref-9)</sup> <!--SR:!2024-11-17,23,261-->
 
@@ -104,7 +104,7 @@ An equivalent procedure, which is often easier to perform mentally, is to {{expr
 2 =                 2          What is left after canceling 1s and 4s
 ```
 
-In normal play, the winning strategy is {{to finish every move with a nim-sum of 0}}. This is always possible if {{the nim-sum is not zero before the move}}. If {{the nim-sum is zero}}, then {{the next player will lose if the other player does not make a mistake}}. To find out which move to make, let X be {{the nim-sum of all the heap sizes}}. Find {{a heap where the nim-sum of X and heap-size is less than the heap-size}}; the winning strategy is {{to play in such a heap, reducing that heap to the nim-sum of its original size with X}}. In the example above, taking the nim-sum of the sizes is _X_ = 3 ⊕ 4 ⊕ 5 = 2. The nim-sums of the heap sizes A=3, B=4, and C=5 with X=2 are <!--SR:!2024-11-02,16,290!2024-10-26,9,281!2024-10-26,9,281!2024-11-02,16,301!2024-11-02,16,301!2024-11-04,18,301!2024-11-17,23,261-->
+In normal play, the winning strategy is {{to finish every move with a nim-sum of 0}}. This is always possible if {{the nim-sum is not zero before the move}}. If {{the nim-sum is zero}}, then {{the next player will lose if the other player does not make a mistake}}. To find out which move to make, let X be {{the nim-sum of all the heap sizes}}. Find {{a heap where the nim-sum of X and heap-size is less than the heap-size}}; the winning strategy is {{to play in such a heap, reducing that heap to the nim-sum of its original size with X}}. In the example above, taking the nim-sum of the sizes is _X_ = 3 ⊕ 4 ⊕ 5 = 2. The nim-sums of the heap sizes A=3, B=4, and C=5 with X=2 are <!--SR:!2024-11-02,16,290!2024-11-28,33,301!2024-11-28,33,301!2024-11-02,16,301!2024-11-02,16,301!2024-11-04,18,301!2024-11-17,23,261-->
 
 - _A_ ⊕ _X_ = 3 ⊕ 2 = 1 [Since (011) ⊕ (010) = 001]
 - _B_ ⊕ _X_ = 4 ⊕ 2 = 6
@@ -116,7 +116,7 @@ As a particular simple case, if {{there are only two heaps left}}, the strategy 
 
 When {{played as a misère game}}, nim strategy is {{different only when the normal play move would leave only heaps of size one}}. In that case, the correct move is to {{leave an odd number of heaps of size one (in normal play, the correct move would be to leave an even number of such heaps)}}. <!--SR:!2024-11-02,16,301!2024-11-02,16,301!2024-11-02,16,301-->
 
-These strategies for normal play and a misère game are {{the same until the number of heaps with at least two objects is exactly equal to one}}. At that point, the next player {{removes either all objects (or all but one) from the heap that has two or more}}, so {{no heaps will have more than one object (in other words, so all remaining heaps have exactly one object each)}}, so {{the players are forced to alternate removing exactly one object until the game ends}}. In normal play, the player {{leaves an even number of non-zero heaps, so the same player takes last}}; in misère play, the player {{leaves an odd number of non-zero heaps, so the other player takes last}}. <!--SR:!2024-10-26,9,281!2024-10-26,9,281!2024-11-04,18,301!2024-11-02,16,301!2024-11-04,18,301!2024-11-02,16,290-->
+These strategies for normal play and a misère game are {{the same until the number of heaps with at least two objects is exactly equal to one}}. At that point, the next player {{removes either all objects (or all but one) from the heap that has two or more}}, so {{no heaps will have more than one object (in other words, so all remaining heaps have exactly one object each)}}, so {{the players are forced to alternate removing exactly one object until the game ends}}. In normal play, the player {{leaves an even number of non-zero heaps, so the same player takes last}}; in misère play, the player {{leaves an odd number of non-zero heaps, so the other player takes last}}. <!--SR:!2024-11-28,33,301!2024-11-28,33,301!2024-11-04,18,301!2024-11-02,16,301!2024-11-04,18,301!2024-11-02,16,290-->
 
 In a misère game with heaps of sizes three, four and five, the strategy would be applied like this:
 
@@ -139,7 +139,7 @@ __Theorem__. ::: In a normal nim game, the player making the first move has a wi
 
 _Proof:_ Notice that {{the nim-sum (⊕) obeys the usual [associative](associative%20property.md) and [commutative](commutative%20property.md) laws of addition (+) and also satisfies an additional property, _x_ ⊕ _x_ = 0}}. <!--SR:!2024-11-02,16,290-->
 
-Let {{_x_<sub>1</sub>, ..., _x<sub>n</sub>_ be the sizes of the heaps before a move, and _y_<sub>1</sub>, ..., _y<sub>n</sub>_ the corresponding sizes after a move}}. Let {{_s_ = _x_<sub>1</sub> ⊕ ... ⊕ _x<sub>n</sub>_ and _t_ = _y_<sub>1</sub> ⊕ ... ⊕ _y<sub>n</sub>_}}. If {{the move was in heap _k_}}, we have {{_x<sub>i</sub>_ = _y<sub>i</sub>_ for all _i_ ≠ _k_, and _x<sub>k</sub>_ > _y<sub>k</sub>_}}. By the properties of ⊕ mentioned above, we have {{$${\begin{aligned}t&=0\oplus t\\&=s\oplus s\oplus t\\&=s\oplus (x_{1}\oplus \cdots \oplus x_{n})\oplus (y_{1}\oplus \cdots \oplus y_{n})\\&=s\oplus (x_{1}\oplus y_{1})\oplus \cdots \oplus (x_{n}\oplus y_{n})\\&=s\oplus 0\oplus \cdots \oplus 0\oplus (x_{k}\oplus y_{k})\oplus 0\oplus \cdots \oplus 0\\&=s\oplus x_{k}\oplus y_{k}\\[10pt](*)\quad t&=s\oplus x_{k}\oplus y_{k}\end{aligned} }$$}} <!--SR:!2024-11-02,16,301!2024-11-02,16,301!2024-11-02,16,301!2024-10-26,9,270!2024-11-04,18,301-->
+Let {{_x_<sub>1</sub>, ..., _x<sub>n</sub>_ be the sizes of the heaps before a move, and _y_<sub>1</sub>, ..., _y<sub>n</sub>_ the corresponding sizes after a move}}. Let {{_s_ = _x_<sub>1</sub> ⊕ ... ⊕ _x<sub>n</sub>_ and _t_ = _y_<sub>1</sub> ⊕ ... ⊕ _y<sub>n</sub>_}}. If {{the move was in heap _k_}}, we have {{_x<sub>i</sub>_ = _y<sub>i</sub>_ for all _i_ ≠ _k_, and _x<sub>k</sub>_ > _y<sub>k</sub>_}}. By the properties of ⊕ mentioned above, we have {{$${\begin{aligned}t&=0\oplus t\\&=s\oplus s\oplus t\\&=s\oplus (x_{1}\oplus \cdots \oplus x_{n})\oplus (y_{1}\oplus \cdots \oplus y_{n})\\&=s\oplus (x_{1}\oplus y_{1})\oplus \cdots \oplus (x_{n}\oplus y_{n})\\&=s\oplus 0\oplus \cdots \oplus 0\oplus (x_{k}\oplus y_{k})\oplus 0\oplus \cdots \oplus 0\\&=s\oplus x_{k}\oplus y_{k}\\[10pt](*)\quad t&=s\oplus x_{k}\oplus y_{k}\end{aligned} }$$}} <!--SR:!2024-11-02,16,301!2024-11-02,16,301!2024-11-02,16,301!2024-11-20,25,270!2024-11-04,18,301-->
 
 The theorem follows by {{induction on the length of the game from these two lemmas}}. <!--SR:!2024-11-02,16,301-->
 
@@ -151,7 +151,7 @@ __Lemma 2__. ::: If _s_ ≠ 0, it is possible to make a move so that _t_ = 0. <!
 
 _Proof of Lemma 2:_ ::: Let _d_ be the position of the leftmost (most significant) nonzero bit in the binary representation of _s_, and choose _k_ such that the _d_-th bit of _x<sub>k</sub>_ is also nonzero. (Such a _k_ must exist, since otherwise the _d_-th bit of _s_ would be 0.) Then letting _y<sub>k</sub>_ = _s_ ⊕ _x<sub>k</sub>_, we claim that _y<sub>k</sub>_ < _x<sub>k</sub>_: all bits to the left of _d_ are the same in _x<sub>k</sub>_ and _y<sub>k</sub>_, bit _d_ decreases from 1 to 0 (decreasing the value by 2<sup>_d_</sup>), and any change in the remaining bits will amount to at most 2<sup>_d_</sup>−1. The first player can thus make a move by taking _x<sub>k</sub>_ − _y<sub>k</sub>_ objects from heap _k_, then $$\begin{aligned} t & = s \oplus x_k \oplus y_k && (\text{by }(*)) \\ & = s \oplus x_k \oplus (s \oplus x_k) \\ & = 0 \end{aligned}$$ <!--SR:!2024-11-04,18,301!2024-11-02,16,301-->
 
-{{The modification for misère play}} is demonstrated by {{noting that the modification first arises in a position that has only one heap of size 2 or more}}. Notice that {{in such a position _s_ ≠ 0}}, and therefore {{this situation has to arise when it is the turn of the player following the winning strategy}}. The normal play strategy is {{for the player to reduce this to size 0 or 1, leaving an even number of heaps with size 1}}, and the misère strategy is {{to do the opposite}}. From that point on, {{all moves are forced}}. <!--SR:!2024-11-21,27,270!2024-10-26,9,281!2024-10-26,9,281!2024-11-02,16,301!2024-11-02,16,301!2024-11-02,16,301!2024-11-02,16,290-->
+{{The modification for misère play}} is demonstrated by {{noting that the modification first arises in a position that has only one heap of size 2 or more}}. Notice that {{in such a position _s_ ≠ 0}}, and therefore {{this situation has to arise when it is the turn of the player following the winning strategy}}. The normal play strategy is {{for the player to reduce this to size 0 or 1, leaving an even number of heaps with size 1}}, and the misère strategy is {{to do the opposite}}. From that point on, {{all moves are forced}}. <!--SR:!2024-11-21,27,270!2024-11-28,33,301!2024-11-28,33,301!2024-11-02,16,301!2024-11-02,16,301!2024-11-02,16,301!2024-11-02,16,290-->
 
 ## variations
 
@@ -159,12 +159,12 @@ _Proof of Lemma 2:_ ::: Let _d_ be the position of the leftmost (most significan
 
 In another game which is commonly known as {{nim (but is better called the [subtraction game](subtraction%20game.md))}}, {{an upper bound is imposed on the number of objects that can be removed in a turn}}. Instead of {{removing arbitrarily many objects}}, a player can {{only remove 1 or 2 or ... or _k_ at a time}}. This game is commonly played in practice {{with only one heap}}. <!--SR:!2024-11-04,18,301!2024-11-02,16,301!2024-11-02,16,301!2024-11-02,16,301!2024-11-02,16,301-->
 
-Bouton's analysis {{carries over easily to the general multiple-heap version of this game}}. The only difference is that {{as a first step, before computing the nim-sums}} we {{must reduce the sizes of the heaps [modulo](modular%20arithmetic.md) _k_ + 1}}. If {{this makes all the heaps of size zero (in misère play)}}, the winning move is {{to take _k_ objects from one of the heaps}}. In particular, in {{ideal play from a single heap of _n_ objects}}, the second player can win [if and only if](if%20and%20only%20if.md) <!--SR:!2024-11-04,18,301!2024-11-04,18,301!2024-11-21,27,270!2024-10-26,9,270!2024-11-17,23,261!2024-11-04,18,301-->
+Bouton's analysis {{carries over easily to the general multiple-heap version of this game}}. The only difference is that {{as a first step, before computing the nim-sums}} we {{must reduce the sizes of the heaps [modulo](modular%20arithmetic.md) _k_ + 1}}. If {{this makes all the heaps of size zero (in misère play)}}, the winning move is {{to take _k_ objects from one of the heaps}}. In particular, in {{ideal play from a single heap of _n_ objects}}, the second player can win [if and only if](if%20and%20only%20if.md) <!--SR:!2024-11-04,18,301!2024-11-04,18,301!2024-11-21,27,270!2024-11-25,30,290!2024-11-17,23,261!2024-11-04,18,301-->
 
-- _0_ = n (mod _k_ + 1) ::: (in normal play), or <!--SR:!2024-10-26,9,270!2024-11-02,16,301-->
-- _1_ = n (mod _k_ + 1) ::: (in misère play). <!--SR:!2024-11-04,18,301!2024-10-26,9,281-->
+- _0_ = n (mod _k_ + 1) ::: (in normal play), or <!--SR:!2024-11-25,30,290!2024-11-02,16,301-->
+- _1_ = n (mod _k_ + 1) ::: (in misère play). <!--SR:!2024-11-04,18,301!2024-11-20,25,281-->
 
-This follows from {{calculating the [nim-sequence](Sprague–Grundy%20theorem.md) of _S_(1, 2, ..., _k_), $$0.123\ldots k0123\ldots k0123\ldots ={\dot {0} }.123\ldots {\dot {k} },$$}} <!--SR:!2024-10-26,9,281-->
+This follows from {{calculating the [nim-sequence](Sprague–Grundy%20theorem.md) of _S_(1, 2, ..., _k_), $$0.123\ldots k0123\ldots k0123\ldots ={\dot {0} }.123\ldots {\dot {k} },$$}} <!--SR:!2024-11-20,25,281-->
 
 from which the strategy above follows by {{the [Sprague–Grundy theorem](Sprague–Grundy%20theorem.md)}}. <!--SR:!2024-11-02,16,301-->
 
@@ -172,7 +172,7 @@ from which the strategy above follows by {{the [Sprague–Grundy theorem](Spragu
 
 - see ::: [21 (drinking game)](21%20(drinking%20game).md) <!--SR:!2024-11-04,18,301!2024-11-02,16,301-->
 
-The game "21" is played as {{a misère game with any number of players who take turns saying a number}}. The first player {{says "1" and each player in turn increases the number by 1, 2, or 3, but may not exceed 21}}; the player {{forced to say "21" loses}}. This can be modeled as {{a subtraction game with a heap of 21 − _n_ objects}}. The winning strategy for {{the two-player version of this game is to always say a multiple of 4}}; it is then {{guaranteed that the other player will ultimately have to say 21}}; so in the standard version, wherein {{the first player opens with "1", they start with a losing move}}. <!--SR:!2024-11-04,18,301!2024-11-02,16,301!2024-11-02,16,301!2024-11-02,16,301!2024-11-02,16,301!2024-11-02,16,301!2024-10-26,9,281-->
+The game "21" is played as {{a misère game with any number of players who take turns saying a number}}. The first player {{says "1" and each player in turn increases the number by 1, 2, or 3, but may not exceed 21}}; the player {{forced to say "21" loses}}. This can be modeled as {{a subtraction game with a heap of 21 − _n_ objects}}. The winning strategy for {{the two-player version of this game is to always say a multiple of 4}}; it is then {{guaranteed that the other player will ultimately have to say 21}}; so in the standard version, wherein {{the first player opens with "1", they start with a losing move}}. <!--SR:!2024-11-04,18,301!2024-11-02,16,301!2024-11-02,16,301!2024-11-02,16,301!2024-11-02,16,301!2024-11-02,16,301!2024-11-28,33,301-->
 
 The 21 game can also be {{played with different numbers, e.g., "Add at most 5; lose on 34"}}. <!--SR:!2024-11-02,16,301-->
 
@@ -194,7 +194,7 @@ A sample game of 21 in which the second player follows the winning strategy:
 
 ### the 100 game
 
-A similar version is the "100 game": {{Two players start from 0 and alternately add a number from 1 to 10 to the sum. The player who reaches 100 wins}}. The winning strategy is to {{reach a number in which the digits are subsequent (e.g., 01, 12, 23, 34,...) and control the game by jumping through all the numbers of this sequence}}. Once {{a player reaches 89}}, the opponent can {{only choose numbers from 90 to 99, and the next answer can in any case be 100}}. <!--SR:!2024-10-26,9,281!2024-11-02,16,301!2024-10-26,9,281!2024-11-02,16,301-->
+A similar version is the "100 game": {{Two players start from 0 and alternately add a number from 1 to 10 to the sum. The player who reaches 100 wins}}. The winning strategy is to {{reach a number in which the digits are subsequent (e.g., 01, 12, 23, 34,...) and control the game by jumping through all the numbers of this sequence}}. Once {{a player reaches 89}}, the opponent can {{only choose numbers from 90 to 99, and the next answer can in any case be 100}}. <!--SR:!2024-11-28,33,301!2024-11-02,16,301!2024-11-28,33,301!2024-11-02,16,301-->
 
 ### a multiple-heap rule
 
@@ -234,7 +234,7 @@ but then three objects cannot be taken out in one move.
 
 ### Grundy's game
 
-In [Grundy's game](Grundy's%20game.md), another variation of nim, a number of objects are {{placed in an initial heap and two players alternately divide a heap into two nonempty heaps of different sizes}}. Thus, six objects may be {{divided into piles of 5+1 or 4+2, but not 3+3}}. Grundy's game can be played as {{either misère or normal play}}. <!--SR:!2024-10-26,9,281!2024-11-04,18,301!2024-11-02,16,301-->
+In [Grundy's game](Grundy's%20game.md), another variation of nim, a number of objects are {{placed in an initial heap and two players alternately divide a heap into two nonempty heaps of different sizes}}. Thus, six objects may be {{divided into piles of 5+1 or 4+2, but not 3+3}}. Grundy's game can be played as {{either misère or normal play}}. <!--SR:!2024-11-20,25,281!2024-11-04,18,301!2024-11-02,16,301-->
 
 ### greedy nim
 
@@ -242,18 +242,18 @@ Greedy nim is a variation wherein {{the players are restricted to choosing stone
 
 Let {{the largest number of stones in a pile be _m_ and the second largest number of stones in a pile be _n_}}. Let {{_p_<sub>_m_</sub> be the number of piles having _m_ stones and _p_<sub>_n_</sub> be the number of piles having _n_ stones}}. Then there is a theorem that {{game positions with _p_<sub>_m_</sub> even are _P_ positions (winning positions for the _p_-revious player)}}.<sup>[\[11\]](#^ref-11)</sup> This theorem can be shown by {{considering the positions where _p_<sub>_m_</sub> is odd}}. If {{_p_<sub>_m_</sub> is larger than 1}}, {{all stones may be removed from this pile to reduce _p_<sub>_m_</sub> by 1 and the new _p_<sub>_m_</sub> will be even}}. If {{_p_<sub>_m_</sub> = 1 (i.e. the largest heap is unique)}}, there are {{two cases}}: <!--SR:!2024-11-04,18,301!2024-11-02,16,301!2024-11-02,16,301!2024-11-02,16,301!2024-11-04,18,301!2024-11-02,16,301!2024-11-02,16,301!2024-11-02,16,301-->
 
-- If _p_<sub>_n_</sub> is odd, ... ::: ... the size of the largest heap is reduced to _n_ (so now the new _p_<sub>_m_</sub> is even). <!--SR:!2024-10-26,9,281!2024-11-02,16,290-->
+- If _p_<sub>_n_</sub> is odd, ... ::: ... the size of the largest heap is reduced to _n_ (so now the new _p_<sub>_m_</sub> is even). <!--SR:!2024-11-28,33,301!2024-11-02,16,290-->
 - If _p_<sub>_n_</sub> is even, ... ::: ... the largest heap is removed entirely, leaving an even number of largest heaps. <!--SR:!2024-11-02,16,301!2024-11-04,18,301-->
 
-Thus, there exists {{a move to a state where _p_<sub>_m_</sub> is even}}. Conversely, if {{_p_<sub>_m_</sub> is even, if any move is possible (_p_<sub>_m_</sub> ≠ 0)}}, then {{it must take the game to a state where _p_<sub>_m_</sub> is odd}}. The final position of the game is {{even (_p_<sub>_m_</sub> = 0)}}. Hence, {{each position of the game with _p_<sub>_m_</sub> even must be a _P_ position}}. <!--SR:!2024-11-02,16,301!2024-10-26,9,281!2024-11-02,16,301!2024-11-02,16,301!2024-11-02,16,301-->
+Thus, there exists {{a move to a state where _p_<sub>_m_</sub> is even}}. Conversely, if {{_p_<sub>_m_</sub> is even, if any move is possible (_p_<sub>_m_</sub> ≠ 0)}}, then {{it must take the game to a state where _p_<sub>_m_</sub> is odd}}. The final position of the game is {{even (_p_<sub>_m_</sub> = 0)}}. Hence, {{each position of the game with _p_<sub>_m_</sub> even must be a _P_ position}}. <!--SR:!2024-11-02,16,301!2024-11-28,33,301!2024-11-02,16,301!2024-11-02,16,301!2024-11-02,16,301-->
 
 ### index-_k_ nim
 
-A generalization of multi-heap nim was called {{"nim<!-- LaTeX separator -->${}_{k}$" or "index-_k_" nim by [E. H. Moore](E.%20H.%20Moore.md)}},<sup>[\[12\]](#^ref-12)</sup> who {{analyzed it in 1910}}. In index-_k_ nim, instead of {{removing objects from only one heap}}, players can {{remove objects from at least one but up to _k_ different heaps}}. The number of elements that may be removed {{from each heap may be either arbitrary or limited to at most _r_ elements, like in the "subtraction game" above}}. <!--SR:!2024-11-02,16,301!2024-11-04,18,301!2024-10-26,9,281!2024-11-02,16,301!2024-10-26,9,281-->
+A generalization of multi-heap nim was called {{"nim<!-- LaTeX separator -->${}_{k}$" or "index-_k_" nim by [E. H. Moore](E.%20H.%20Moore.md)}},<sup>[\[12\]](#^ref-12)</sup> who {{analyzed it in 1910}}. In index-_k_ nim, instead of {{removing objects from only one heap}}, players can {{remove objects from at least one but up to _k_ different heaps}}. The number of elements that may be removed {{from each heap may be either arbitrary or limited to at most _r_ elements, like in the "subtraction game" above}}. <!--SR:!2024-11-02,16,301!2024-11-04,18,301!2024-11-28,33,301!2024-11-02,16,301!2024-11-28,33,301-->
 
-The winning strategy is as follows: Like in ordinary multi-heap nim, one {{considers the binary representation of the heap sizes (or heap sizes modulo _r_ + 1)}}. In ordinary nim {{one forms the XOR-sum (or sum modulo 2) of each binary digit, and the winning strategy is to make each XOR sum zero}}. In the generalization to index-_k_ nim, {{one forms the sum of each binary digit modulo _k_ + 1}}. <!--SR:!2024-11-17,23,261!2024-10-26,9,270!2024-10-26,9,281-->
+The winning strategy is as follows: Like in ordinary multi-heap nim, one {{considers the binary representation of the heap sizes (or heap sizes modulo _r_ + 1)}}. In ordinary nim {{one forms the XOR-sum (or sum modulo 2) of each binary digit, and the winning strategy is to make each XOR sum zero}}. In the generalization to index-_k_ nim, {{one forms the sum of each binary digit modulo _k_ + 1}}. <!--SR:!2024-11-17,23,261!2024-11-25,30,290!2024-11-28,33,301-->
 
-Again, the winning strategy is {{to move such that this sum is zero for every digit}}. Indeed, the value thus computed is {{zero for the final position}}, and given {{a configuration of heaps for which this value is zero}}, {{any change of at most _k_ heaps will make the value non-zero}}. Conversely, given {{a configuration with non-zero value}}, one can {{always take from at most _k_ heaps, carefully chosen, so that the value will become zero}}. <!--SR:!2024-11-02,16,301!2024-11-02,16,301!2024-11-02,16,301!2024-11-02,16,301!2024-11-04,18,301!2024-10-26,9,270-->
+Again, the winning strategy is {{to move such that this sum is zero for every digit}}. Indeed, the value thus computed is {{zero for the final position}}, and given {{a configuration of heaps for which this value is zero}}, {{any change of at most _k_ heaps will make the value non-zero}}. Conversely, given {{a configuration with non-zero value}}, one can {{always take from at most _k_ heaps, carefully chosen, so that the value will become zero}}. <!--SR:!2024-11-02,16,301!2024-11-02,16,301!2024-11-02,16,301!2024-11-02,16,301!2024-11-04,18,301!2024-11-20,25,270-->
 
 ### building nim
 
@@ -261,7 +261,7 @@ Building nim is {{a variant of nim wherein the two players first construct the g
 
 ### higher-dimensional nim
 
-_n_-d nim is played on {{a $k_{1}\times \dots \times k_{n}$ board}}, whereon {{any number of continuous pieces can be removed from any hyper-row}}. The starting position is {{usually the full board, but other options are allowed}}.<sup>[\[14\]](#^ref-14)</sup> <!--SR:!2024-11-02,16,301!2024-11-02,16,301!2024-10-26,9,281-->
+_n_-d nim is played on {{a $k_{1}\times \dots \times k_{n}$ board}}, whereon {{any number of continuous pieces can be removed from any hyper-row}}. The starting position is {{usually the full board, but other options are allowed}}.<sup>[\[14\]](#^ref-14)</sup> <!--SR:!2024-11-02,16,301!2024-11-02,16,301!2024-11-28,33,301-->
 
 ### graph nim
 

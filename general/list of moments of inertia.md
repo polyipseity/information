@@ -37,7 +37,7 @@ I_W&=\frac1{12}m\left(L^2+H^2\right)\\
 ### cylindrical shell, axis through base center
 
 - definition ::: a homogeneous [cylindrical](cylinder.md) shell of density $\rho$, height $H$, inner radius $R_I$, and outer radius $R_O$, axis through base center <!--SR:!2025-08-28,361,307!2024-12-03,202,347-->
-- equation ::: $I=\frac12m\left(R_O^2+R_I^2\right)$ <!--SR:!2025-11-10,532,310!2024-10-26,158,318-->
+- equation ::: $I=\frac12m\left(R_O^2+R_I^2\right)$ <!--SR:!2025-11-10,532,310!2026-10-22,726,338-->
   - solid cylinder ::: $I=\frac12mR_O^2$ <!--SR:!2026-12-15,831,330!2025-02-12,258,338-->
   - thin-walled hollow cylinder ::: $I=mR_O^2$ <!--SR:!2025-09-15,492,310!2024-12-21,214,338-->
 - proof: $$\begin{aligned}
@@ -55,7 +55,7 @@ I&=\int_{R_I}^{R_O}\!\int_0^H\!\int_0^{2\pi}\!\rho{}r^3\,\mathrm{d}\theta\,\math
 - definition ::: a homogeneous rod of density $\rho$, length $L$, and radius $R$, axis through distance $Z$ from one end <!--SR:!2024-12-06,189,327!2025-06-07,357,367-->
 - equation ::: $I=\frac13m\left(L^2-3LZ+3Z^2\right)+\frac14mR^2$ <!--SR:!2024-11-09,83,230!2025-08-30,360,298-->
   - thin rod correction ::: use the same equation and set $R = 0$ <!--SR:!2028-06-14,1330,350!2025-04-10,311,358-->
-  - slender rod, axis through center ::: $\frac1{12}mL^2$ <!--SR:!2025-04-21,406,310!2024-10-26,173,318-->
+  - slender rod, axis through center ::: $\frac1{12}mL^2$ <!--SR:!2025-04-21,406,310!2026-05-15,566,318-->
   - slender rod, axis through one end ::: $\frac13mL^2$ <!--SR:!2025-04-17,367,290!2026-08-21,674,338-->
 - proof: $$\begin{aligned}
 m&=\rho\pi{}R^2L\\

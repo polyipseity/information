@@ -42,7 +42,7 @@ As each question has 5 choices, each question has are 5C2 = 10 pairs of choices.
 >
 > <!-- My answer swapped 2 and 4, so only got 0.9 out of 1 mark. -->
 >
-> - solution: {{2 → 4 → 3 → 1 → 5}} <!--SR:!2024-10-26,38,290-->
+> - solution: {{2 → 4 → 3 → 1 → 5}} <!--SR:!2025-03-27,152,310-->
 
 <!-- markdownlint MD028 -->
 

@@ -31,9 +31,9 @@ The content is in teaching order.
 
 - time: 2024-09-03T13:30:00+08:00/2024-09-03T14:50:00+08:00
 - course logistics
-  - course aims ::: commercial transaction and financial accounting, read and prepare financial statements, assets = liabilities + equity <!--SR:!2024-10-26,32,290!2024-11-27,58,310-->
+  - course aims ::: commercial transaction and financial accounting, read and prepare financial statements, assets = liabilities + equity <!--SR:!2025-03-10,135,310!2024-11-27,58,310-->
 - [financial accounting](../../../../general/financial%20accounting.md)
-  - [financial accounting § objectives](../../../../general/financial%20accounting.md#objectives) ::: record transactions, basis for decision making, know how the business is doing financially, communicate financial information, legal compliance <!--SR:!2024-11-07,30,277!2024-10-26,26,257-->
+  - [financial accounting § objectives](../../../../general/financial%20accounting.md#objectives) ::: record transactions, basis for decision making, know how the business is doing financially, communicate financial information, legal compliance <!--SR:!2024-11-07,30,277!2025-01-05,71,257-->
   - [financial accounting](../../../../general/financial%20accounting.md) / record transactions ::: summarize, analyze, and report business transactions <!--SR:!2025-01-05,80,297!2024-11-04,32,297-->
     - [financial transaction](../../../../general/financial%20transaction.md) ::: A transaction generally refers to an agreement between two or more parties that creates a binding relationship. A business/financial transaction is stricter than that as it also requires a change in the status of the finances of two or more businesses or individuals. <!--SR:!2024-12-03,54,277!2024-11-22,45,297-->
       - [financial transaction](../../../../general/financial%20transaction.md) / examples ::: Confirming an employment contract is a transaction as the employer agrees to hire the employee and remunerate the employee for employment services rendered. But it is not a financial transaction because there are no changes in the finances for both the employer and employee. <!--SR:!2024-11-21,44,297!2024-11-07,35,297-->
@@ -122,7 +122,7 @@ The content is in teaching order.
 - [financial transaction](../../../../general/financial%20transaction.md)
   - [financial transaction](../../../../general/financial%20transaction.md) / steps to record ::: Identify accounts affected. Determine the directions (debit or credit) of the impact. Verify if the accounting equation is still satisfied afterwards. <!--SR:!2025-01-06,81,334!2025-01-06,81,334-->
   - [financial transaction](../../../../general/financial%20transaction.md) / steps to record for companies ::: Analyze transactions. Record them as journal entries in a general journal. Post the amounts to a general ledger. Verify if the accounting equation is still satisfied afterwards. <!--SR:!2025-01-06,81,334!2024-11-22,45,314-->
-- [general journal](../../../../general/general%20journal.md) ::: a log of all transactions affecting any account (within a reporting period); in manual processing, there may be other special journals for specific transactions, then transactions in those journals will not be in the general journal <!--SR:!2025-01-03,78,334!2024-10-26,24,274-->
+- [general journal](../../../../general/general%20journal.md) ::: a log of all transactions affecting any account (within a reporting period); in manual processing, there may be other special journals for specific transactions, then transactions in those journals will not be in the general journal <!--SR:!2025-01-03,78,334!2025-01-29,95,294-->
   - [§ general journal](../../../../general/general%20journal.md#general%20journal)
 - [general ledger](../../../../general/general%20ledger.md) ::: a collection of several logs, with a log for each account, showing the changes in the account amount <!--SR:!2024-11-14,37,314!2024-11-26,49,314-->
   - [§ general ledger](../../../../general/general%20ledger.md#general%20ledger)

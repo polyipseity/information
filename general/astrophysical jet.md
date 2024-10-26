@@ -11,7 +11,7 @@ tags:
 
 # astrophysical jet
 
-An __astrophysical jet__ is {{an [astronomical](astronomy.md) phenomenon where outflows of [ionised](ionization.md) matter are emitted as extended beams along the [axis of rotation](rotation.md)}}. When {{this greatly accelerated matter in the beam approaches the [speed of light](speed%20of%20light.md)}}, astrophysical jets become {{__relativistic jets__ as they show effects from [special relativity](special%20relativity.md)}}. <!--SR:!2024-10-26,47,290!2024-11-09,63,310!2024-11-06,61,310-->
+An __astrophysical jet__ is {{an [astronomical](astronomy.md) phenomenon where outflows of [ionised](ionization.md) matter are emitted as extended beams along the [axis of rotation](rotation.md)}}. When {{this greatly accelerated matter in the beam approaches the [speed of light](speed%20of%20light.md)}}, astrophysical jets become {{__relativistic jets__ as they show effects from [special relativity](special%20relativity.md)}}. <!--SR:!2025-05-11,197,310!2024-11-09,63,310!2024-11-06,61,310-->
 
 ## references
 

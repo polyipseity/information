@@ -25,7 +25,7 @@ For functions, there is no `return` keyword. Instead, it is accomplished by doin
 
 ## parameters
 
-You can specify parameters by {{separating each parameter name by commas `,`}}: <!--SR:!2024-10-26,187,310-->
+You can specify parameters by {{separating each parameter name by commas `,`}}: <!--SR:!2027-01-03,799,330-->
 
 ```VB
 Function Multiply(Left, Right)

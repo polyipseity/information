@@ -172,7 +172,7 @@ number of features
 - quality→:::←durability <!--SR:!2024-12-04,68,181!2024-12-31,124,321-->
 - durability→:::←service <!--SR:!2024-12-24,150,301!2024-12-10,72,221-->
 - service→:::←convenience <!--SR:!2024-10-30,36,181!2024-11-18,75,281-->
-- convenience→:::←ease of use <!--SR:!2024-10-26,103,261!2025-01-10,172,314-->
+- convenience→:::←ease of use <!--SR:!2025-11-06,376,281!2025-01-10,172,314-->
 - ease of use→:::←number of features <!--SR:!2025-01-26,132,261!2024-11-26,55,234-->
 - number of features→:::←_(least important)_ <!--SR:!2025-06-03,299,334!2025-06-29,318,341-->
 
@@ -180,7 +180,7 @@ number of features
 
 ### visualization
 
-It is very important to {{add our own products to the visualization and make it obvious that the products are our own}}. <!--SR:!2024-10-26,122,301-->
+It is very important to {{add our own products to the visualization and make it obvious that the products are our own}}. <!--SR:!2026-03-20,510,321-->
 
 If we are comparing two features only, we can {{use a _xy_-grid and plot our and competitors' products}}. If there are more features, {{we can use a table, with the row headers being the features and the column headers being the products}}. {{A mix of both}} is possible. <!--SR:!2025-06-01,293,341!2025-03-26,242,334!2024-11-26,152,310-->
 

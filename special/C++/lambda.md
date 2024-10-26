@@ -14,7 +14,7 @@ tags:
 
 If the capture-default is `&`, subsequent simple captures {{must not begin with `&`}}. <!--SR:!2024-11-10,106,290-->
 
-If the capture-default is `=`, subsequent simple captures {{must begin with `&`. Since C++17, `*this` is allowed. Since C++20, `this` is also allowed}}. <!--SR:!2024-10-26,32,250-->
+If the capture-default is `=`, subsequent simple captures {{must begin with `&`. Since C++17, `*this` is allowed. Since C++20, `this` is also allowed}}. <!--SR:!2024-11-13,18,230-->
 
 ## references
 
