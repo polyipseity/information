@@ -9,7 +9,7 @@ tags:
 
 # signal tools
 
-We introduced {{3 signal tools: [Audacity](#Audacity), [SonicVisualiser](#SonicVisualiser), and [sms-tools](#sms-tools)}}. <!--SR:!2024-10-27,59,310-->
+We introduced {{3 signal tools: [Audacity](#Audacity), [SonicVisualiser](#SonicVisualiser), and [sms-tools](#sms-tools)}}. <!--SR:!2025-07-10,256,330-->
 
 ## Audacity
 
@@ -25,7 +25,7 @@ Audacity can generate {{real sine signals of any frequency and amplitude}}. The 
 
 ## SonicVisualiser
 
-SonicVisualiser is {{an audio visualization, analysis, and annotation tool}}. It can be downloaded from {{<https://sonicvisualiser.org/>}}. <!--SR:!2025-06-14,236,330!2024-10-27,59,310-->
+SonicVisualiser is {{an audio visualization, analysis, and annotation tool}}. It can be downloaded from {{<https://sonicvisualiser.org/>}}. <!--SR:!2025-06-14,236,330!2025-07-10,256,330-->
 
 ### applying DFT on complicated sounds
 

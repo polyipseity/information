@@ -43,7 +43,7 @@ The content is in teaching order.
 - course logistics
   - course intended learning outcomes (CILOs) ::: microeconomic analysis, decision making, demand-supply framework, market mechanism in different market structures, economic effect of the government, application <!--SR:!2024-12-30,73,312!2024-11-18,32,272-->
   - objectives ::: to analyze situations through the lens of microeconomics, but not memorization (Of course, some is still required...); a "way of economic thinking" should be developed on your own at the end <!--SR:!2024-12-15,57,310!2024-12-30,73,312-->
-- strength and weaknesses of economics ::: It can explain how rational individuals make choice under constraints. But it cannot explain well how a group of people (the society) evolve over a long period time; instead, these are studied by history, psychology, sociology, etc. <!--SR:!2024-10-27,19,270!2024-12-21,65,312-->
+- strength and weaknesses of economics ::: It can explain how rational individuals make choice under constraints. But it cannot explain well how a group of people (the society) evolve over a long period time; instead, these are studied by history, psychology, sociology, etc. <!--SR:!2025-01-11,76,290!2024-12-21,65,312-->
 - quirks about the professor ::: He does not follow the textbook strictly to deepen your thinking (good), makes exam questions based on current issues (cool), and does not care about attendance (good). <!--SR:!2024-12-13,57,312!2025-01-03,77,330-->
 - discussions
   - discussions / face mask ::: Should the government intervene in the (previously sky-high) selling price of face masks? This is known as [price control](price%20controls.md). <!--SR:!2024-12-17,61,312!2025-01-04,77,330-->

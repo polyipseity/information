@@ -156,7 +156,7 @@ return _chain.from_iterable(await _gather(
 - [electronic balance](weighing%20scale.md)→:::←[evaporating dish](evaporating%20dish.md) <!--SR:!2024-11-23,330,230!2024-11-27,181,250-->
 - [evaporating dish](evaporating%20dish.md)→:::←[filter funnel](filter%20funnel.md) <!--SR:!2025-10-03,383,230!2026-08-23,787,270-->
 - [filter funnel](filter%20funnel.md)→:::←[flat-bottom(ed) flask](flat-bottom%20flask.md) <!--SR:!2024-11-22,59,170!2025-07-15,581,310-->
-- [flat-bottom(ed) flask](flat-bottom%20flask.md)→:::←[gas jar/pneumatic trough](pneumatic%20trough.md) <!--SR:!2024-12-03,256,250!2024-10-27,26,130-->
+- [flat-bottom(ed) flask](flat-bottom%20flask.md)→:::←[gas jar/pneumatic trough](pneumatic%20trough.md) <!--SR:!2024-12-03,256,250!2024-12-20,54,150-->
 - [gas jar/pneumatic trough](pneumatic%20trough.md)→:::←[glass stirring rod/glass rod/stir(ring) rod](glass%20rod.md) <!--SR:!2025-07-19,305,190!2027-10-26,1106,290-->
 - [glass stirring rod/glass rod/stir(ring) rod](glass%20rod.md)→:::←[graduated pipette](graduated%20pipette.md) <!--SR:!2024-12-29,134,210!2025-07-09,258,150-->
 - [graduated pipette](graduated%20pipette.md)→:::←[heat-resistant mat/heatproof mat](heatproof%20mat.md) <!--SR:!2025-05-19,472,250!2024-10-31,88,190-->
@@ -240,7 +240,7 @@ return _chain.from_iterable(await _gather(
 - ![Bunsen burner](../archives/Wikimedia%20Commons/Bunsen%20burner.jpg)::[Bunsen burner](Bunsen%20burner.md) <!--SR:!2028-05-09,1454,350-->
 - ![Liebig condenser](../archives/Wikimedia%20Commons/LiebigCondenser.jpg)::[Liebig condenser](Liebig%20condenser.md) <!--SR:!2027-06-06,1187,350-->
 - ![beaker](../archives/Wikimedia%20Commons/Glassware-%20Beaker.jpg)::[beaker](beaker.md) <!--SR:!2027-04-11,1141,350-->
-- ![burette](../archives/Wikimedia%20Commons/Burette.svg)::[burette](burette.md) <!--SR:!2024-10-27,429,310-->
+- ![burette](../archives/Wikimedia%20Commons/Burette.svg)::[burette](burette.md) <!--SR:!2029-11-10,1840,330-->
 - ![burette clamp](../archives/Wikimedia%20Commons/Burette%20with%20Clamp(3).jpg)::[burette clamp](burette%20clamp.md) <!--SR:!2027-02-20,1105,350-->
 - ![clamp](../archives/Wikimedia%20Commons/Utility%20clamp1.jpg)::[clamp](clamp.md) <!--SR:!2027-05-15,1168,350-->
 - ![conical flask/Erlenmeyer flask/titration flask](../archives/Wikimedia%20Commons/250%20mL%20Erlenmeyer%20flask.jpg)::[conical flask/Erlenmeyer flask/titration flask](Erlenmeyer%20flask.md) <!--SR:!2025-06-29,569,310-->

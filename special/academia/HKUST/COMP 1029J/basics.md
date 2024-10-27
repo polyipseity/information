@@ -283,7 +283,7 @@ return _chain.from_iterable(await _gather(
 
 Do not mix up the equal to operator `==` and {{the assignment operator `=`}}. <!--SR:!2024-12-08,237,330-->
 
-Also, one cannot chain {{comparison operators, like `2 <= aNumber <= 5`. [logic operators](#logic%20operators) are needed instead, like `2 <= aNumber && aNumber <= 5`}}. <!--SR:!2024-10-27,190,310-->
+Also, one cannot chain {{comparison operators, like `2 <= aNumber <= 5`. [logic operators](#logic%20operators) are needed instead, like `2 <= aNumber && aNumber <= 5`}}. <!--SR:!2027-01-21,816,330-->
 
 ### logic operators
 

@@ -64,7 +64,7 @@ Command names can be {{truncated at the end to produce an abbreviation if the ab
 
 #### `pwndbg` memory
 
-- `vmmap [<address|name>]` ::: display memory mappings information (filtered binary address or name) <!--SR:!2024-10-27,39,290!2024-12-04,71,310-->
+- `vmmap [<address|name>]` ::: display memory mappings information (filtered binary address or name) <!--SR:!2025-04-06,161,310!2024-12-04,71,310-->
 
 #### `pwndbg` stack
 

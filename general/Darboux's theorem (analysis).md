@@ -18,7 +18,7 @@ In [mathematics](mathematics.md), __{{Darboux's}} theorem__ is {{a [theorem](the
 
 > __Darboux's theorem__
 >
-> {{Let $f$ be a [real-valued function](real-valued%20function.md) [differentiable](differentiable%20function.md) on the closed [interval](interval%20(mathematics).md) $[a,b]$. Then $f'$ has the __intermediate value property__: for every $y$ satisfying $\min(f'(a),f'(b))<y<\max(f'(a),f'(b))$, there exists an $x\in(a,b)$ such that $f'(x)=y$.}} <!--SR:!2024-10-27,199,250-->
+> {{Let $f$ be a [real-valued function](real-valued%20function.md) [differentiable](differentiable%20function.md) on the closed [interval](interval%20(mathematics).md) $[a,b]$. Then $f'$ has the __intermediate value property__: for every $y$ satisfying $\min(f'(a),f'(b))<y<\max(f'(a),f'(b))$, there exists an $x\in(a,b)$ such that $f'(x)=y$.}} <!--SR:!2026-03-13,502,250-->
 
 ## references
 

@@ -312,7 +312,7 @@ return chain.from_iterable(await gather(
 - iron(III) ion::3+ <!--SR:!2026-09-16,1348,365-->
 - chromium(III) ion::3+ <!--SR:!2026-11-24,1396,358-->
 - scandium(III) ion::3+ <!--SR:!2024-10-29,456,382-->
-- titanium(III) ion::3+ <!--SR:!2024-10-27,454,382-->
+- titanium(III) ion::3+ <!--SR:!2031-04-26,2372,402-->
 - vanadium(II) ion::2+ <!--SR:!2024-11-03,460,382-->
 - vanadium(III) ion::3+ <!--SR:!2024-11-09,463,382-->
 - manganese(III) ion::3+ <!--SR:!2024-11-30,481,382-->

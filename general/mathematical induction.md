@@ -234,7 +234,7 @@ This form of induction, when {{applied to a set of ordinal numbers (which form a
 Proofs by transfinite induction typically {{distinguish three cases}}: <!--SR:!2024-10-29,14,290-->
 
 1. when _n_ is a minimal element, ... ::: ... i.e. there is no element smaller than _n_; <!--SR:!2024-10-29,14,290!2024-10-29,14,290-->
-2. when _n_ has a direct predecessor, ... ::: ... i.e. the set of elements which are smaller than _n_ has a largest element; <!--SR:!2024-10-27,9,270!2024-10-29,14,290-->
+2. when _n_ has a direct predecessor, ... ::: ... i.e. the set of elements which are smaller than _n_ has a largest element; <!--SR:!2024-11-21,25,270!2024-10-29,14,290-->
 3. when _n_ has no direct predecessor, ... ::: ... i.e. _n_ is a so-called [limit ordinal](limit%20ordinal.md). <!--SR:!2024-10-29,14,290!2024-10-29,14,290-->
 
 Strictly speaking, it is {{not necessary in transfinite induction to prove a base case}}, because {{it is a [vacuous](vacuous%20truth.md) special case of the proposition that if _P_ is true of all _n_ < _m_, then _P_ is true of _m_}}. It is vacuously true precisely because {{there are no values of _n_ < _m_ that could serve as counterexamples}}. So the special cases are special cases of the general case. <!--SR:!2024-10-29,14,290!2024-10-29,14,290!2024-10-29,14,290-->

@@ -17,7 +17,7 @@ tags:
 >
 > - notation: {{$\langle * \rangle$ is the [average](average.md) over [time](time.md) of $*$.}}
 > - output: {{$K_N$ is the total [kinetic energy](kinetic%20energy.md) of the $N$ particles.}}
-> - inputs: {{$\vec{F}_i$ is the [force](force.md) on the $i$-th particle. $\vec{r}_i$ is the [position](position%20(geometry).md) of the $i$-th particle.}} <!--SR:!2025-03-05,295,290!2026-03-17,536,270!2024-10-27,244,330!2026-05-04,597,310!2024-12-20,285,330-->
+> - inputs: {{$\vec{F}_i$ is the [force](force.md) on the $i$-th particle. $\vec{r}_i$ is the [position](position%20(geometry).md) of the $i$-th particle.}} <!--SR:!2025-03-05,295,290!2026-03-17,536,270!2027-11-09,1108,350!2026-05-04,597,310!2024-12-20,285,330-->
 
 ## examples
 

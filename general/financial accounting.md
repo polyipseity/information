@@ -23,10 +23,10 @@ While financial accounting is {{used to prepare accounting information for peopl
 
 {{Financial accounting and financial reporting}} are often used as synonyms. <!--SR:!2024-12-06,66,310-->
 
-1. According to International Financial Reporting Standards: the objective of financial reporting is ... ::: To provide financial information that is useful to existing and potential investors, lenders and other creditors in making decisions about providing resources to the reporting entity.<sup>[\[3\]](#^ref-3)</sup> <!--SR:!2024-11-06,42,290!2024-10-27,32,270-->
+1. According to International Financial Reporting Standards: the objective of financial reporting is ... ::: To provide financial information that is useful to existing and potential investors, lenders and other creditors in making decisions about providing resources to the reporting entity.<sup>[\[3\]](#^ref-3)</sup> <!--SR:!2024-11-06,42,290!2025-01-22,87,270-->
 2. According to the European Accounting Association: ... ::: Capital maintenance is a competing objective of financial reporting.<sup>[\[4\]](#^ref-4)</sup> <!--SR:!2024-10-29,34,270!2024-11-02,36,270-->
 
-Financial accounting is {{the preparation of financial statements that can be consumed by the public and the relevant stakeholders}}. Financial information {{would be useful to users if such qualitative characteristics are present}}. When producing financial statements, the following must be complied with: {{fundamental qualitative characteristics and enhancing qualitative characteristics}}. <!--SR:!2024-10-27,34,290!2024-12-06,66,310!2025-02-07,107,290-->
+Financial accounting is {{the preparation of financial statements that can be consumed by the public and the relevant stakeholders}}. Financial information {{would be useful to users if such qualitative characteristics are present}}. When producing financial statements, the following must be complied with: {{fundamental qualitative characteristics and enhancing qualitative characteristics}}. <!--SR:!2025-03-19,143,310!2024-12-06,66,310!2025-02-07,107,290-->
 
 __Fundamental Qualitative Characteristics__ ::: relevance, faithful representation <!--SR:!2024-11-27,60,310!2024-11-06,41,290-->
 
@@ -59,7 +59,7 @@ The statement of cash flows {{considers the inputs and outputs in concrete cash 
 > - {{cash inflow}}: {{$20}}
 > - {{cash outflow}}: {{$7}}
 > - {{opening balance}}: {{$5}}
-> - {{__closing balance__}}: {{__$20 – $7 + $5 = $18__}} <!--SR:!2024-11-19,52,310!2024-12-09,69,310!2024-12-04,65,310!2024-10-28,35,290!2024-10-27,34,290!2024-11-07,43,290!2024-12-03,64,310!2024-11-25,56,310-->
+> - {{__closing balance__}}: {{__$20 – $7 + $5 = $18__}} <!--SR:!2024-11-19,52,310!2024-12-09,69,310!2024-12-04,65,310!2024-10-28,35,290!2025-03-19,143,310!2024-11-07,43,290!2024-12-03,64,310!2024-11-25,56,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -132,7 +132,7 @@ This basic principle gives rise to the commonly used {{[historical cost accounti
 
 ### units of constant purchasing power
 
-The stable monetary unit assumption is {{not applied during hyperinflation}}. {{IFRS}} requires {{entities to implement capital maintenance in units of constant purchasing power in terms of IAS 29 Financial Reporting in Hyperinflationary Economies}}. <!--SR:!2024-10-27,31,270!2024-12-06,67,310!2025-01-16,84,270-->
+The stable monetary unit assumption is {{not applied during hyperinflation}}. {{IFRS}} requires {{entities to implement capital maintenance in units of constant purchasing power in terms of IAS 29 Financial Reporting in Hyperinflationary Economies}}. <!--SR:!2025-02-21,117,290!2024-12-06,67,310!2025-01-16,84,270-->
 
 ## objectives
 
