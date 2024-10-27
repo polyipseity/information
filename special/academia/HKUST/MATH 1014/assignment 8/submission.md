@@ -323,7 +323,7 @@ $$\begin{aligned}
 \\
 & \phantom = g(x) \\
 & := \frac 1 {\sqrt{1 + x} } \\
-& \phantom = \text{Macluarin series of }g(x) \\
+& \phantom = \text{Maclaurin series of }g(x) \\
 & = \sum_{k = 0}^{+\infty} \frac {g^{(k)}(0)} {k!} x^k \\
 & = \sum_{k = 0}^{+\infty} \frac {(-1)^k \left( \prod_{i = 0}^{k - 1} \frac {2i + 1} 2 \right) (1 + 0)^{-\frac {2k + 1} 2} } {k!} x^k \\
 & = \sum_{k = 0}^{+\infty} (-1)^k \frac {\prod_{i = 0}^{k - 1} (2i + 1)} {k! 2^k } x^k \\
@@ -331,17 +331,17 @@ $$\begin{aligned}
 & \phantom = f'(x) \\
 & = \frac 1 {\sqrt{1 + x^2} } \\
 & = g(x^2) \\
-& \phantom = \text{Macluarin series of }f'(x) \\
+& \phantom = \text{Maclaurin series of }f'(x) \\
 & = \sum_{k = 0}^{+\infty} (-1)^k \frac {\prod_{i = 0}^{k - 1} (2i + 1)} {k! 2^k } x^{2k} \\
 \\
 & \phantom = f(x) \\
 & = \int \! f'(x) \,\mathrm{d}x \\
-& \phantom = \text{Macluarin series of }f(x) \\
+& \phantom = \text{Maclaurin series of }f(x) \\
 & = \int \! \left( \sum_{k = 0}^{+\infty} (-1)^k \frac {\prod_{i = 0}^{k - 1} (2i + 1)} {k! 2^k } x^{2k} \right) \,\mathrm{d}x \\
-& = \sum_{k = 0}^{+\infty} (-1)^k \frac {\prod_{i = 0}^{k - 1} (2i + 1)} {k! 2^k } \int \! x^{2k} \,\mathrm{d}x && (\text{Macluarin series can be integrated term-wise}) \\
+& = \sum_{k = 0}^{+\infty} (-1)^k \frac {\prod_{i = 0}^{k - 1} (2i + 1)} {k! 2^k } \int \! x^{2k} \,\mathrm{d}x && (\text{Maclaurin series can be integrated term-wise}) \\
 & = \sum_{k = 0}^{+\infty} (-1)^k \frac {\prod_{i = 0}^{k - 1} (2i + 1)} {k! 2^k (2k + 1)} x^{2k + 1} \\
 \\
-& \phantom = \text{Macluarin series of }f(x) \\
+& \phantom = \text{Maclaurin series of }f(x) \\
 & = x \sum_{k = 0}^{+\infty} (-1)^k \frac {\prod_{i = 0}^{k - 1} (2i + 1)} {k! 2^k (2k + 1)} \left(x^2\right)^k \\
 & \text{The center of the power series is }x^2 = 0\text{.} \\
 & \text{The coefficients are }c_k = (-1)^k \frac {\prod_{i = 0}^{k - 1} (2i + 1)} {k! 2^k (2k + 1)}\text{.} \\
@@ -352,7 +352,7 @@ $$\begin{aligned}
 & = \lim_{k \to +\infty} \left\lvert \frac {\left(1 + \frac 1 k \right) \left(1 + \frac 3 {2k} \right)} {(1 + \frac 1 {2k} )^2} \right\rvert \\
 & = 1 \\
 \\
-& \text{radius of convergence of the Macluarin series of }f(x) \\
+& \text{radius of convergence of the Maclaurin series of }f(x) \\
 & = \sqrt 1 \\
 & = 1
 \end{aligned}$$
@@ -371,19 +371,19 @@ for every positive integer $n$. (Do not try to really differentiate for $n$ time
 
 $$\begin{aligned}
 & \phantom = \exp x \\
-& \phantom = \text{Macluarin series of }\exp x \\
+& \phantom = \text{Maclaurin series of }\exp x \\
 & = \sum_{n = 0}^{+\infty} \frac {\exp 0} {n!} x^n \\
 & = \sum_{n = 0}^{+\infty} \frac {x^n} {n!} \\
 \\
 & \phantom = f(x) \\
 & = x^3 \exp x \\
-& \phantom = \text{Macluarin series of }f(x) \\
+& \phantom = \text{Maclaurin series of }f(x) \\
 & = x^3 \sum_{n = 0}^{+\infty} \frac {x^n} {n!} \\
 & = \sum_{n = 0}^{+\infty} \frac {x^{n + 3} } {n!} \\
 & = \sum_{n = 3}^{+\infty} \frac {x^n} {(n - 3)!} \\
 \\
 & \phantom = f(x) \\
-& \phantom = \text{Macluarin series of }f(x) \\
+& \phantom = \text{Maclaurin series of }f(x) \\
 & = \sum_{k = 0}^{+\infty} \frac {f^{(n)}(0)} {n!} x^n \\
 \\
 & \text{Since Taylor (Macluarin) series is unique for a }C^\infty\text{ function,} \\
