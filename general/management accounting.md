@@ -93,7 +93,7 @@ The origins of GPK are credited to {{Hans Georg Plaut, an automotive engineer, a
 
 ### lean accounting (accounting for lean enterprise)
 
-- see: [lean accounting](lean%20accounting%20(page%20does%20not%20exist).md)
+- see: [lean accounting](lean%20accounting.md)
 
 In {{the mid- to late-1990s}} {{several books were written about accounting in the lean enterprise (companies implementing elements of the [Toyota Production System](Toyota%20Production%20System.md))}}. The term _lean accounting_ was {{coined during that period}}. These books contest that {{traditional accounting methods are better suited for mass production and do not support or measure good business practices in just-in-time manufacturing and services}}. The movement reached a tipping point during the 2005 Lean Accounting Summit in [Dearborn](Dearborn,%20Michigan.md), [Michigan](michigan.md), United States. 320 individuals attended and discussed the advantages of a new approach to accounting in the lean enterprise. 520 individuals attended the 2nd annual conference in 2006 and it has varied between 250 and 600 attendees since that time.
 
@@ -172,7 +172,7 @@ There are {{several related professional qualifications and certifications}} in 
 
 - [activity-based costing](activity-based%20costing.md)
 - [Grenzplankostenrechnung](Grenzplankostenrechnung.md) (GPK)
-- [lean accounting](lean%20accounting%20(page%20does%20not%20exist).md)
+- [lean accounting](lean%20accounting.md)
 - [resource consumption accounting](resource%20consumption%20accounting.md)
 - [standard cost accounting](standard%20cost%20accounting.md)
 - [throughput accounting](throughput%20accounting.md)
