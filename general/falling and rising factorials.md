@@ -82,7 +82,7 @@ Finally, {{[duplication](multiplication%20theorem.md) and [multiplication formul
 
 - multiplication formula for falling factorial ::: $$(x)_{k+mn}=(x)_{k} m^{mn}\prod _{j=0}^{m-1}\left({\frac {x-k-j}{m} }\right)_{n}\,,{\text{for } }m\in \mathbb {N}$$ (Annotation: $(x)_k$ produces the initial $k$ terms. The product symbol and its formula produces the remaining $mn$ terms, though all divided by $m$. The $m^{mn}$ undivides said terms.) <!--SR:!2024-11-12,15,290!2024-11-10,13,270-->
 - multiplication formula for rising factorial ::: $$x^{(k+mn)}=x^{(k)}m^{mn}\prod _{j=0}^{m-1}\left({\frac {x+k+j}{m} }\right)^{(n)},{\text{for } }m\in \mathbb {N}$$ (Annotation: $x^{(k)}$ produces the initial $k$ terms. The product symbol and its formula produces the remaining $mn$ terms, though all divided by $m$. The $m^{mn}$ undivides said terms.) <!--SR:!2024-11-12,15,290!2024-11-12,15,290-->
-- multiplication formula for rising factorial in its base ::: $$(ax+b)^{(n)}=x^{n}\prod _{j=0}^{n-1}\left(a+{\frac {b+j}{x} }\right),{\text{for } }x\in \mathbb {Z} ^{+}$$ <!--SR:!2024-11-05,9,250!2024-11-09,13,270-->
+- multiplication formula for rising factorial in its base ::: $$(ax+b)^{(n)}=x^{n}\prod _{j=0}^{n-1}\left(a+{\frac {b+j}{x} }\right),{\text{for } }n\in \mathbb {\mathbb N}$$ (Annotation: Split $x^n$ into $n$ $x$ and multiply each of it into each $\left(a + \frac {b + j} x \right)$ to get $(ax + b + j)$.) <!--SR:!2024-11-05,9,250!2024-11-09,13,270-->
 - duplication formula for rising factorial ::: $$(2x)^{(2n)}=2^{2n}x^{(n)}\left(x+{\frac {1}{2} }\right)^{(n)}.$$ (Annotation: Simply apply the multiplication formula for rising factorial with $(k, m, n) = (0, 2, n)$.) <!--SR:!2024-11-12,15,290!2024-11-12,15,290-->
 
 ## relation to umbral calculus

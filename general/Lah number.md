@@ -49,7 +49,7 @@ Below is a table of values for the Lah numbers:
 | __9__            | 0     | 362880  | 1451520  | 1693440  | 846720   | 211680  | 28224  | 2016  | 72    | 1     |        |
 | __10__           | 0     | 3628800 | 16329600 | 21772800 | 12700800 | 3810240 | 635040 | 60480 | 3240  | 90    | 1      |
 
-The row sums are $1,1,3,13,73,501,4051,37633,\dots$ (sequence [A000262](oeis:A000262.md) in the [OEIS](On-Line%20Encyclopedia%20of%20Integer%20Sequences.md)).
+The row sums are $1,1,3,13,73,501,4051,37633,\dots$ (sequence [A000262](https://oeis.org/A000262) in the [OEIS](On-Line%20Encyclopedia%20of%20Integer%20Sequences.md)).
 
 ## rising and falling factorials
 
@@ -77,7 +77,7 @@ The Lah numbers satisfy {{the recurrence relations $${\begin{aligned}L(n+1,k)&=(
 
 ### derivative of exp(1/_x_)
 
-{{The _n_-th [derivative](derivative.md) of the function $e^{\frac {1}{x} }$}} can be {{expressed with the Lah numbers}}, as follows<sup>[\[7\]](#^ref-7)</sup> {{$${\frac { {\textrm {d} }^{n} }{ {\textrm {d} }x^{n} } }e^{\frac {1}{x} }=(-1)^{n}\sum _{k=1}^{n}{\frac {L(n,k)}{x^{n+k} } }\cdot e^{\frac {1}{x} }.$$}} <!--SR:!2024-10-31,4,270!2024-10-31,4,270!2024-10-30,3,250-->
+{{The _n_-th [derivative](derivative.md) (including _n_ = 0) of the function $e^{\frac {1}{x} }$}} can be {{expressed with the Lah numbers}}, as follows<sup>[\[7\]](#^ref-7)</sup> {{$${\frac { {\textrm {d} }^{n} }{ {\textrm {d} }x^{n} } }e^{\frac {1}{x} }=(-1)^{n}\sum _{k=0}^{n}{\frac {L(n,k)}{x^{n+k} } }\cdot e^{\frac {1}{x} }.$$}} <!--SR:!2024-10-31,4,270!2024-10-31,4,270!2024-10-30,3,250-->
 
 For example, $$\begin{aligned} {\frac {\textrm {d} }{ {\textrm {d} }x} }e^{\frac {1}{x} } & = -{\frac {1}{x^{2} } }\cdot e^{\frac {1}{x} } \\ {\frac { {\textrm {d} }^{2} }{ {\textrm {d} }x^{2} } }e^{\frac {1}{x} } & = {\frac {\textrm {d} }{ {\textrm {d} }x} }\left(-{\frac {1}{x^{2} } }e^{\frac {1}{x} }\right)=-{\frac {-2}{x^{3} } }\cdot e^{\frac {1}{x} }-{\frac {1}{x^{2} } }\cdot {\frac {-1}{x^{2} } }\cdot e^{\frac {1}{x} }=\left({\frac {2}{x^{3} } }+{\frac {1}{x^{4} } }\right)\cdot e^{\frac {1}{x} } \\ {\frac { {\textrm {d} }^{3} }{ {\textrm {d} }x^{3} } }e^{\frac {1}{x} } & ={\frac {\textrm {d} }{ {\textrm {d} }x} }\left(\left({\frac {2}{x^{3} } }+{\frac {1}{x^{4} } }\right)\cdot e^{\frac {1}{x} }\right)=\left({\frac {-6}{x^{4} } }+{\frac {-4}{x^{5} } }\right)\cdot e^{\frac {1}{x} }+\left({\frac {2}{x^{3} } }+{\frac {1}{x^{4} } }\right)\cdot {\frac {-1}{x^{2} } }\cdot e^{\frac {1}{x} }=-\left({\frac {6}{x^{4} } }+{\frac {6}{x^{5} } }+{\frac {1}{x^{6} } }\right)\cdot e^{\frac {1}{x} } \,. \end{aligned}$$
 
@@ -113,4 +113,4 @@ This text incorporates [content](https://en.wikipedia.org/wiki/Lah_number) from 
 
 ## external links
 
-- The signed and unsigned Lah numbers are respectively (sequence [A008297](oeis:A008297.md) in the [OEIS](On-Line%20Encyclopedia%20of%20Integer%20Sequences.md)) and (sequence [A105278](oeis:A105278.md) in the [OEIS](On-Line%20Encyclopedia%20of%20Integer%20Sequences.md))
+- The signed and unsigned Lah numbers are respectively (sequence [A008297](https://oeis.org/A008297) in the [OEIS](On-Line%20Encyclopedia%20of%20Integer%20Sequences.md)) and (sequence [A105278](https://oeis.org/A105278) in the [OEIS](On-Line%20Encyclopedia%20of%20Integer%20Sequences.md))
