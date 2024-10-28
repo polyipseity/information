@@ -24,7 +24,11 @@ USER_AGENT = f"{NAME}/{VERSION} ({AUTHORS[0]['email']}) Python/{version}"
 _LIST_INDENT = "    "
 _MAX_CONCURRENT_REQUESTS_PER_HOST = 2
 _IGNORED_NAME_PREFIXES = frozenset({"Help:"})
-_PRESERVED_PAGE_PREFIXES = frozenset({"Special:"})
+_PRESERVED_PAGE_PREFIXES = {
+    "Special:": "https://en.wikipedia.org/wiki/{}",
+    "oeis:": "https://oeis.org/{}",
+    "wikt:": "https://en.wiktionary.org/wiki/{}",
+}
 
 _names_map = {
     filename[:-3]: filename[:-3]
@@ -167,10 +171,17 @@ async def wiki_html_to_plaintext(
                     to = redirect.get("to", title)
                     if not to_fragment:
                         to_fragment = redirect.get("tofragment", "")
-                if any(to.startswith(prefix) for prefix in _PRESERVED_PAGE_PREFIXES):
+                if url_format := next(
+                    (
+                        format
+                        for prefix, format in _PRESERVED_PAGE_PREFIXES.items()
+                        if to.startswith(prefix)
+                    ),
+                    "",
+                ):
                     prefix, suffix = (
                         "[",
-                        f"](https://en.wikipedia.org/wiki/{quote(to)}{to_fragment and '#'}{quote(to_fragment, safe='')})",
+                        f"]({url_format.format(f'{quote(to)}{to_fragment and '#'}{quote(to_fragment, safe="")}')})",
                     )
                 elif not any(
                     to.startswith(prefix) for prefix in _IGNORED_NAME_PREFIXES
