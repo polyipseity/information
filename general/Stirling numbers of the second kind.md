@@ -67,7 +67,7 @@ For instance, the number 25 in column _k_ = 3 and row _n_ = 5 is given by 25 = 7
 
 To prove this recurrence, observe that {{a partition of the ⁠$n+1$⁠ objects into _k_ nonempty subsets either contains the ⁠$(n+1)$⁠-th object as a singleton or it does not}}. The number of ways that the singleton is {{one of the subsets is given by $$\left\{ {n \atop k-1}\right\}$$ since we must partition the remaining _n_ objects into the available ⁠$k-1$⁠ subsets}}. In the other case {{the ⁠$(n+1)$⁠-th object belongs to a subset containing other objects}}. The number of ways is {{given by $$k\left\{ {n \atop k}\right\}$$}} since {{we partition all objects other than the ⁠$(n+1)$⁠-th into _k_ subsets, and then we are left with _k_ choices for inserting object ⁠$n+1$}}⁠. {{Summing these two values}} gives the desired result.
 
-Another recurrence relation is {{given by $$\left\lbrace {\begin{matrix}n\\k\end{matrix} }\right\rbrace ={\frac {k^{n} }{k!} }-\sum _{r=1}^{k-1}{\frac {\left\lbrace {\begin{matrix}n\\r\end{matrix} }\right\rbrace }{(k-r)!} }\,,$$}} which follows from evaluating $\sum _{r=0}^{n}\left\{ {n \atop r}\right\}(x)_{r}=x^{n}$ at $x=k$. (Annotation: The details are {{$$\begin{aligned} \sum_{r = 0}^n \begin{Bmatrix} n \\ r \end{Bmatrix} (x)_r & = x^n \\ \sum_{r = 0}^n \begin{Bmatrix} n \\ r \end{Bmatrix} (k)_r & = k^n \\ \begin{Bmatrix} n \\ k \end{Bmatrix} (k)_k & = k^n - \sum_{r = 0}^{k - 1} \begin{Bmatrix} n \\ r \end{Bmatrix} (k)_r - \sum_{r = k + 1}^n \begin{Bmatrix} n \\ r \end{Bmatrix} (k)_r \\ \begin{Bmatrix} n \\ k \end{Bmatrix} k! & = k^n - \sum_{r = 1}^{k - 1} \begin{Bmatrix} n \\ r \end{Bmatrix} (k)_r && (k)_r = 0\text{ for }r = 0, r > k \\ \begin{Bmatrix} n \\ k \end{Bmatrix} & = \frac {k^n} {k!} - \sum_{r = 1}^{k - 1} \begin{Bmatrix} n \\ k \end{Bmatrix} \frac 1 {(k - r)!} \,. \end{aligned}$$}})
+Another recurrence relation is {{given by $$\left\lbrace {\begin{matrix}n\\k\end{matrix} }\right\rbrace ={\frac {k^{n} }{k!} }-\sum _{r=1}^{k-1}{\frac {\left\lbrace {\begin{matrix}n\\r\end{matrix} }\right\rbrace }{(k-r)!} }\,,$$}} which follows from evaluating $\sum _{r=0}^{n}\left\{ {n \atop r}\right\}(x)_{r}=x^{n}$ at $x=k$. (Annotation: The details are {{$$\begin{aligned} \sum_{r = 0}^n \begin{Bmatrix} n \\ r \end{Bmatrix} (x)_r & = x^n \\ \sum_{r = 0}^n \begin{Bmatrix} n \\ r \end{Bmatrix} (k)_r & = k^n \\ \begin{Bmatrix} n \\ k \end{Bmatrix} (k)_k & = k^n - \sum_{r = 0}^{k - 1} \begin{Bmatrix} n \\ r \end{Bmatrix} (k)_r - \sum_{r = k + 1}^n \begin{Bmatrix} n \\ r \end{Bmatrix} (k)_r \\ \begin{Bmatrix} n \\ k \end{Bmatrix} k! & = k^n - \sum_{r = 1}^{k - 1} \begin{Bmatrix} n \\ r \end{Bmatrix} (k)_r && (k)_r = 0\text{ for }r = 0, r > k \\ \begin{Bmatrix} n \\ k \end{Bmatrix} & = \frac {k^n} {k!} - \sum_{r = 1}^{k - 1} \begin{Bmatrix} n \\ r \end{Bmatrix} \frac 1 {(k - r)!} \,. \end{aligned}$$}})
 
 ### simple identities
 
@@ -81,10 +81,10 @@ and {{$$\left\{ {n \atop 2}\right\}=2^{n-1}-1.$$}} To see this, first note that 
 
 {{The table in section 6.1 of _Concrete Mathematics_}} provides {{a plethora of generalized forms of finite sums involving the Stirling numbers}}. Several particular finite sums relevant to this article include
 
-- increment by binomial coefficient ::: $$\left\{ {n+1 \atop k+1}\right\}=\sum _{j=k}^{n}{n \choose j}\left\{ {j \atop k}\right\}$$
-- increment by combinatorial argument ::: $$\left\{ {n+1 \atop k+1}\right\}=\sum _{j=k}^{n}(k+1)^{n-j}\left\{ {j \atop k}\right\}$$
+- increment by binomial coefficient ::: $$\left\{ {n+1 \atop k+1}\right\}=\sum _{j=k}^{n}{n \choose j}\left\{ {j \atop k}\right\}$$ (Annotation: Choose _n_ - _j_ elements from _n_ + 1 elements to form a maybe empty partition. Add the 1 element to ensure it is nonempty. Partition the remaining _j_ elements into _k_ partitions.)
+- increment by combinatorial argument ::: $$\left\{ {n+1 \atop k+1}\right\}=\sum _{j=k}^{n}(k+1)^{n-j}\left\{ {j \atop k}\right\}$$ (Annotation: Choose _n_ - _j_ elements from _n_ + 1 elements. They may be assigned to any of the _k_ + 1 partitions. Partition the remaining _j_ elements into _k_ partitions. Assign the extra element to ensure the the extra partition is nonempty.)
 - increment by summing up to _k_ ::: $$\left\{ {n+k+1 \atop k}\right\}=\sum _{j=0}^{k}j\left\{ {n+j \atop j}\right\}$$
-- partition then choose partitions ::: $$\left\{ {n \atop \ell +m}\right\}{\binom {\ell +m}{\ell } }=\sum _{k}\left\{ {k \atop \ell }\right\}\left\{ {n-k \atop m}\right\}{\binom {n}{k} }$$
+- partition then choose partitions ::: $$\left\{ {n \atop \ell +m}\right\}{\binom {\ell +m}{\ell } }=\sum _{k}{\binom {n}{k} }\left\{ {k \atop \ell }\right\}\left\{ {n-k \atop m}\right\}$$ (Annotation: Choose _k_ elements from _n_ elements. Partition _k_ elements into the chosen _l_ partitions. Partition the remaining _n_ − _k_ elements into the unchosen _m_ partitions.)
 
 ### explicit formula
 
@@ -121,7 +121,7 @@ If {{$n\geq 2$ and $1\leq k\leq n-1$}}, then {{$${\frac {1}{2} }(k^{2}+k+2)k^{n-
 
 For {{fixed value of $k$}}, the asymptotic value of the Stirling numbers of the second kind as $n\rightarrow \infty$ is {{given by $$\left\{ {n \atop k}\right\}{\underset {n\to \infty }{\sim } }{\frac {k^{n} }{k!} }.$$}}
 
-If {{$k=o({\sqrt {n} })$ (where _o_ denotes the [little o notation](big%20O%20notation.md#little-o%20notation))}} then {{$$\left\{ {n+k \atop n}\right\}{\underset {n\to \infty }{\sim } }{\frac {n^{2k} }{2^{k}k!} }.$$}}<sup>[\[13\]](#^ref-13)</sup>
+If {{$n=o({\sqrt {k} })$ (where _o_ denotes the [little o notation](big%20O%20notation.md#little-o%20notation))}} then {{$$\left\{ {n+k \atop k}\right\}{\underset {k\to \infty }{\sim } }{\frac {k^{2n} }{2^{n}n!} }.$$}}<sup>[\[13\]](#^ref-13)</sup>
 
 {{A uniformly valid approximation}} also exists: for {{all _k_ such that 1 < _k_ < _n_}}, one has $$\left\{ {n \atop k}\right\}\sim {\sqrt {\frac {v-1}{v(1-G)} } }\left({\frac {v-1}{v-G} }\right)^{n-k}{\frac {k^{n} }{n^{k} } }e^{k(1-G)}\left({n \atop k}\right),$$ where {{$v=n/k$, and $G\in (0,1)$ is the unique solution to $G=ve^{G-v}$}}.<sup>[\[14\]](#^ref-14)</sup> Relative error is {{bounded by about $0.066/n$}}.
 
@@ -135,11 +135,11 @@ When {{$n$ is large}}, {{$$k_{n}{\underset {n\to \infty }{\sim } }{\frac {n}{\lo
 
 ### moments of the Poisson distribution
 
-If {{_X_ is a [random variable](random%20variable.md) with a [Poisson distribution](Poisson%20distribution.md) with [expected value](expected%20value.md) λ}}, then {{its _n_-th [moment](moment%20(mathematics).md) is $$E(X^{n})=\sum _{k=0}^{n}\left\{ {n \atop k}\right\}\lambda ^{k}.$$}} In particular, {{the _n_-th moment of the Poisson distribution with expected value 1}} is {{precisely the number of [partitions of a set](partition%20of%20a%20set.md) of size _n_, i.e., it is the _n_th [Bell number](Bell%20number.md) (this fact is [Dobiński's formula](Dobiński's%20formula.md))}}.
+If {{_X_ is a [random variable](random%20variable.md) with a [Poisson distribution](Poisson%20distribution.md) with [expected value](expected%20value.md) λ}}, then {{its _n_-th [moment](moment%20(mathematics).md) is $$E(X^{n})=\sum _{k=0}^{n}\left\{ {n \atop k}\right\}\lambda ^{k}.$$}} In particular, {{the _n_-th moment of the Poisson distribution with expected value 1}} is {{precisely the number of [partitions of a set](partition%20of%20a%20set.md) of size _n_, i.e., it is the _n_-th [Bell number](Bell%20number.md) (this fact is [Dobiński's formula](Dobiński's%20formula.md))}}.
 
 ### moments of fixed points of random permutations
 
-Let {{the random variable _X_ be the number of fixed points of a [uniformly distributed](discrete%20uniform%20distribution.md) [random permutation](random%20permutation.md) of a finite set of size _m_}}. Then the _n_-th moment of _X_ is {{$$E(X^{n})=\sum _{k=0}^{m}\left\{ {n \atop k}\right\}.$$ __Note:__ The upper bound of summation is _m_, not _n_}}.
+Let {{the random variable _X_ be the number of fixed points of a [uniformly distributed](discrete%20uniform%20distribution.md) [random permutation](random%20permutation.md) of a finite set of size _m_}}. Then the _n_-th moment of _X_ is {{$$E(X^{n})=\sum _{k=0}^{m}\left\{ {n \atop k}\right\}.$$ <p> __Note:__ The upper bound of summation is _m_, not _n_}}.
 
 In other words, {{the _n_-th moment of this [probability distribution](probability%20distribution.md)}} is {{the number of partitions of a set of size _n_ into no more than _m_ parts}}. This is proved in the article on [random permutation statistics](random%20permutation%20statistics.md#moments%20of%20fixed%20points), although the notation is a bit different.
 
