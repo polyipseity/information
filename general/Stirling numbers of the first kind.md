@@ -129,10 +129,10 @@ Since permutations are partitioned by number of cycles, one has {{$$\sum _{k=0}^
 
 {{The table in section 6.1 of _Concrete Mathematics_}} provides {{a plethora of generalized forms of finite sums involving the Stirling numbers}}. Several particular finite sums relevant to this article include <!--SR:!2024-11-02,4,299!2024-11-02,4,299-->
 
-- reversed increment by binomial coefficient ::: $$\left[{n \atop m}\right]=\sum _{k=m}^{n}\left[{n+1 \atop k+1}\right]{\binom {k}{m} }(-1)^{m-k}$$ <!--SR:!2024-11-01,3,279!2024-11-02,4,299-->
-- increment by combinatorial argument ::: $$\left[{n+1 \atop m+1}\right]=\sum _{k=m}^{n}\left[{k \atop m}\right]{\frac {n!}{k!} }$$ <!--SR:!2024-11-02,4,299!2024-11-02,4,299-->
+- reversed increment by binomial coefficient ::: $$\left[{n \atop m}\right]=\sum _{k=m}^{n}(-1)^{k-m}{\binom {k}{m} }\left[{n+1 \atop k+1}\right]$$ <!--SR:!2024-11-01,3,279!2024-11-02,4,299-->
+- increment by combinatorial argument ::: $$\left[{n+1 \atop m+1}\right]=\sum _{k=m}^{n}\left[{k \atop m}\right]{\frac {n!}{k!} }$$ <!--SR:!2024-11-02,4,299!2024-11-02,4,299--> (Annotation: Permutate _n_ − _k_ elements from _n_ elements to a partition with linear order. Add the 1 element to make the partition a cycle. Partition the remaining _k_ elements into _m_ cycles.)
 - increment by summing up to _k_ ::: $$\left[{n + k +1 \atop n}\right]=\sum _{j=0}^{k}(n+j)\left[{n+j \atop j}\right]$$ <!--SR:!2024-11-01,3,279!2024-11-02,4,299-->
-- partition then choose partitions ::: $$\left[{n \atop l+m}\right]{\binom {l+m}{l} }=\sum _{k}{\binom {n}{k} }\left[{k \atop l}\right]\left[{n-k \atop m}\right]$$ <!--SR:!2024-11-13,16,311!2024-11-13,16,315-->
+- partition then choose partitions ::: $$\left[{n \atop l+m}\right]{\binom {l+m}{l} }=\sum _{k}{\binom {n}{k} }\left[{k \atop l}\right]\left[{n-k \atop m}\right]$$ <!--SR:!2024-11-13,16,311!2024-11-13,16,315--> (Annotation: Choose _k_ elements from _n_ elements. Partition _k_ elements into the chosen _l_ cycles. Partition the remaining _n_ − _k_ elements into the unchosen _m_ cycles.)
 
 Additionally, if {{we define the [_second-order_ Eulerian numbers](eulerian%20number.md#eulerian%20numbers%20of%20the%20second%20kind) by the triangular recurrence relation <sup>[\[10\]](#^ref-10)</sup> $$\left\langle \!\!\left\langle {n \atop k}\right\rangle \!\!\right\rangle =(k+1)\left\langle \!\!\left\langle {n-1 \atop k}\right\rangle \!\!\right\rangle +(2n-1-k)\left\langle \!\!\left\langle {n-1 \atop k-1}\right\rangle \!\!\right\rangle ,$$}} we {{arrive at the following identity related to the form of the [Stirling convolution polynomials](Stirling%20polynomials.md#Stirling%20convolution%20polynomials) which can be employed to generalize both Stirling number triangles to arbitrary real, or complex-valued, values of the input $x$}}: {{$$\left[{x \atop x-n}\right]=\sum _{k=0}^{n}\left\langle \!\!\left\langle {n \atop k}\right\rangle \!\!\right\rangle {\binom {x+k}{2n} }.$$}} <!--SR:!2024-10-30,2,231!2024-11-07,10,269!2024-10-29,2,251-->
 
@@ -160,7 +160,7 @@ Other identities arise by {{exchanging the order of summation, taking derivative
 
 The next estimate given in terms of the [Euler gamma constant](euler's%20constant.md) applies:<sup>[\[17\]](#^ref-17)</sup> ::: $$\left[{\begin{matrix}n+1\\k+1\end{matrix} }\right]{\underset {n\to \infty }{\sim } }{\frac {n!}{k!} }\left(\gamma +\ln n\right)^{k},\ {\text{ uniformly for } }k=o(\ln n).$$ <!--SR:!2024-10-30,2,231!2024-11-10,13,291-->
 
-For fixed $n$ we have the following estimate: ::: $$\left[{\begin{matrix}n+k\\k\end{matrix} }\right]{\underset {k\to \infty }{\sim } }{\frac {k^{2n} }{2^{n}n!} }.$$ <!--SR:!2024-10-29,2,251!2024-11-07,10,251-->
+For fixed $n$ (growing $k$) we have the following estimate: ::: $$\left[{\begin{matrix}n+k\\k\end{matrix} }\right]{\underset {k\to \infty }{\sim } }{\frac {k^{2n} }{2^{n}n!} }.$$ <!--SR:!2024-10-29,2,251!2024-11-07,10,251-->
 
 ### explicit formula
 

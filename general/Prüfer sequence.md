@@ -1,9 +1,19 @@
 ---
 aliases:
+  - Prufer code
+  - Prufer codes
+  - Prufer number
+  - Prufer numbers
+  - Prufer sequence
+  - Prufer sequences
+  - Prüfer code
+  - Prüfer codes
+  - Prüfer number
+  - Prüfer numbers
   - Prüfer sequence
   - Prüfer sequences
 tags:
-  - flashcard/active/general/Pr_fer_sequence
+  - flashcard/active/general/Prüfer_sequence
   - language/in/English
 ---
 
@@ -13,7 +23,7 @@ In {{[combinatorial](combinatorics.md) [mathematics](mathematics.md)}}, {{the __
 
 ## algorithm to convert a tree into a Prüfer sequence
 
-One can {{generate a labeled tree's Prüfer sequence}} by {{iteratively removing vertices from the tree until only two vertices remain}}. Specifically, {{consider a labeled tree _T_ with vertices {1, 2, ..., _n_}}}. At {{step _i_}}, {{remove the leaf with the smallest label and set the _i_-th element of the Prüfer sequence to be the label of this leaf's neighbour}}. <!--SR:!2024-11-02,4,270!2024-11-02,4,270!2024-11-02,4,270!2024-11-02,4,270!2024-11-02,4,270-->
+One can {{generate a labeled tree's Prüfer sequence}} by {{iteratively removing vertices from the tree until only two vertices remain}}. Specifically, {{consider a labeled tree _T_ with vertices {1, 2, ..., _n_}<!-- flashcard separator -->}}. At {{step _i_}}, {{remove the leaf with the smallest label and set the _i_-th element of the Prüfer sequence to be the label of this leaf's neighbour}}. <!--SR:!2024-11-02,4,270!2024-11-02,4,270!2024-11-02,4,270!2024-11-02,4,270!2024-11-02,4,270-->
 
 The Prüfer sequence of a labeled tree is {{unique and has length _n_ − 2}}. <!--SR:!2024-11-02,4,270-->
 
