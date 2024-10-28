@@ -167,7 +167,7 @@ Denote {{the _n_ objects to partition by the integers 1, 2, ..., _n_}}. Define {
 
 - [Stirling number](Stirling%20number.md)
 - [Stirling numbers of the first kind](Stirling%20numbers%20of%20the%20first%20kind.md)
-- [Bell number](Bell%20number.md) – ::: the number of partitions of a set with _n_ members
+- [Bell number](Bell%20number.md) ::: – the number of partitions of a set with _n_ members
 - [Stirling polynomials](Stirling%20polynomials.md)
 - [twelvefold way](twelvefold%20way.md)
 - learning materials related to [partition related number triangles](https://en.wikiversity.org/wiki/partition_related_number_triangles) at Wikiversity
