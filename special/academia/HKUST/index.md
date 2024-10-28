@@ -56,11 +56,19 @@ tags:
 #### 2024 fall
 
 - [ACCT 2010](ACCT%202010/index.md)
+- [COMP 2211](COMP%202211/index.md)
 - [COMP 2633](COMP%202633/index.md) (not taken)
 - [COMP 2711H](COMP%202711H/index.md)
+- [COMP 3021](COMP%203021/index.md)
+- [COMP 4633](COMP%204633/index.md)
+- [COMP 4900](COMP%204900/index.md)
 - [ECON 2103](ECON%202103/index.md)
+- [EMIA 2010A](EMIA%202010A/index.md)
+- [ENGG 1400](ENGG%201400/index.md)
+- [ENGG 2010](ENGG%202010/index.md)
 - [ISOM 2020](ISOM%202020/index.md)
 - [MATH 2411](MATH%202411/index.md)
+- [TEMG 1010](TEMG%201010/index.md)
 
 ## groups
 
