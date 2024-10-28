@@ -95,7 +95,7 @@ The following table lists out transformation from other [indeterminate forms](in
 
 <!--pytextgen generate section="dd11"--><!-- The following content is generated at 2024-01-04T20:17:52.125767+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←$\frac00$ <!--SR:!2024-10-28,256,330!2027-05-04,973,350-->
+- _(begin)_→:::←$\frac00$ <!--SR:!2028-01-09,1168,350!2027-05-04,973,350-->
 - $\frac00$→:::←$\frac\infty\infty$ <!--SR:!2024-12-05,286,330!2027-10-01,1086,350-->
 - $\frac\infty\infty$→:::←$0\cdot\infty$ <!--SR:!2025-08-28,445,310!2025-09-28,466,310-->
 - $0\cdot\infty$→:::←$\infty-\infty$ <!--SR:!2025-07-29,411,290!2026-07-11,656,310-->
@@ -158,7 +158,7 @@ The following table lists out transformation from other [indeterminate forms](in
 
 <!--pytextgen generate section="ff01"--><!-- The following content is generated at 2024-02-01T20:28:01.993744+08:00. Any edits will be overridden! -->
 
-- $\lim_{x\to{c} }\frac{f(x)}{g(x)}=\lim_{x\to{c} }\frac{1/g(x)}{1/f(x)}$::$\frac00$ <!--SR:!2024-10-28,256,330-->
+- $\lim_{x\to{c} }\frac{f(x)}{g(x)}=\lim_{x\to{c} }\frac{1/g(x)}{1/f(x)}$::$\frac00$ <!--SR:!2028-01-09,1168,350-->
 - $\lim_{x\to{c} }f(x)g(x)=\lim_{x\to{c} }\frac{g(x)}{1/f(x)}$::$0\cdot\infty$ <!--SR:!2027-07-12,1027,350-->
 - $\lim_{x\to{c} }(f(x)-g(x))=\ln\lim_{x\to{c} }\frac{e^{f(x)} }{e^{g(x)} }$::$\infty-\infty$ <!--SR:!2027-01-06,853,330-->
 - $\lim_{x\to{c} }f(x)^{g(x)}=\exp\lim_{x\to{c} }\frac{\ln{f(x)} }{1/g(x)}$::$0^0$, $\infty^0$ <!--SR:!2025-10-06,431,270-->

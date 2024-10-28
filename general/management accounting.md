@@ -9,7 +9,7 @@ tags:
 
 # management accounting
 
-In __management accounting__ or __managerial accounting__, managers {{use [accounting](accounting.md) information in decision-making and to assist in the [management](management.md) and performance of their control functions}}. <!--SR:!2024-10-28,34,290-->
+In __management accounting__ or __managerial accounting__, managers {{use [accounting](accounting.md) information in decision-making and to assist in the [management](management.md) and performance of their control functions}}. <!--SR:!2025-03-12,135,310-->
 
 ## definition
 
@@ -73,7 +73,7 @@ Consistent with {{other roles in modern corporations}}, management accountants h
 
 The activities management accountants provide {{inclusive of forecasting and planning, performing variance analysis, reviewing and monitoring costs inherent in the business}} are ones that {{have dual accountability to both finance and the business team}}. Examples of tasks where {{accountability may be more meaningful to the business management team vs. the corporate finance department}} are {{the development of new product costing, [operations research](operations%20research.md), business driver metrics, sales management scorecarding, and client profitability analysis}}. (See [financial planning](financial%20plan.md#planning).) Conversely, {{the preparation of certain financial reports, reconciliations of the financial data to source systems, risk and regulatory reporting}} will be more useful to {{the corporate finance team as they are charged with aggregating certain financial information from all segments of the corporation}}. <!--SR:!2025-01-05,77,270!2024-12-07,68,310!2024-12-05,66,310!2024-12-14,55,230!2025-01-29,102,290!2024-11-04,40,290-->
 
-In corporations that {{derive much of their profits from the [information economy](information%20economy.md), such as banks, publishing houses, telecommunications companies and defence contractors}}, IT costs are {{a significant source of uncontrollable spending, which in size is often the greatest corporate cost after total compensation costs and property related costs}}. A function of management accounting in such organizations is to {{work closely with the IT department to provide [IT cost transparency](IT%20cost%20transparency.md)}}.<sup>[\[15\]](#^ref-15)</sup> <!--SR:!2025-01-10,85,290!2024-10-31,37,290!2024-10-28,35,290-->
+In corporations that {{derive much of their profits from the [information economy](information%20economy.md), such as banks, publishing houses, telecommunications companies and defence contractors}}, IT costs are {{a significant source of uncontrollable spending, which in size is often the greatest corporate cost after total compensation costs and property related costs}}. A function of management accounting in such organizations is to {{work closely with the IT department to provide [IT cost transparency](IT%20cost%20transparency.md)}}.<sup>[\[15\]](#^ref-15)</sup> <!--SR:!2025-01-10,85,290!2024-10-31,37,290!2025-03-25,148,310-->
 
 Given the above, {{one view of the progression of the accounting and finance career path}} is that financial accounting is {{a stepping stone to management accounting}}.<sup>[\[16\]](#^ref-16)</sup> Consistent with {{the notion of value creation}}, management accountants help {{drive the success of the business while strict financial accounting is more of a compliance and historical endeavor}}. <!--SR:!2024-11-27,60,310!2024-11-12,46,290!2024-11-06,42,290!2024-11-08,44,290-->
 
@@ -117,7 +117,7 @@ Management accounting is {{an applied discipline used in various industries}}. {
 
 ## resources and continuous learning
 
-There are a variety of ways to keep current and continue to build one's knowledge base in the field of management accounting. [Certified Management Accountants](Certified%20Management%20Accountant.md) (CMAs) are {{required to achieve continuing education hours every year, similar to a [Certified Public Accountant](Certified%20Public%20Accountant.md)}}. A company may {{also have research and training materials available for use in a corporate owned library. This is more common in [Fortune 500](fortune%20500.md) companies who have the resources to fund this type of training medium}}. <!--SR:!2025-01-22,87,270!2024-10-28,35,290-->
+There are a variety of ways to keep current and continue to build one's knowledge base in the field of management accounting. [Certified Management Accountants](Certified%20Management%20Accountant.md) (CMAs) are {{required to achieve continuing education hours every year, similar to a [Certified Public Accountant](Certified%20Public%20Accountant.md)}}. A company may {{also have research and training materials available for use in a corporate owned library. This is more common in [Fortune 500](fortune%20500.md) companies who have the resources to fund this type of training medium}}. <!--SR:!2025-01-22,87,270!2025-02-07,102,290-->
 
 There are {{also journals, online articles and blogs available}}. The journal _Cost Management_ ([ISSN](ISSN.md) [1092-8057](https://www.worldcat.org/search?fq=x0:jrnl&q=n2:1092-8057))<sup>[\[22\]](#^ref-22)</sup> and the Institute of Management Accounting (IMA) site are sources which include _[Management Accounting Quarterly](Institute%20of%20Management%20Accountants.md)_ and _Strategic Finance_ publications. <!--SR:!2024-11-15,49,290-->
 

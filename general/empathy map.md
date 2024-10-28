@@ -18,4 +18,4 @@ The empathy map consists of {{the user or persona at the center, and in Z order 
 - says ::: What the user says, ideally verbatim. Can overlap with thinks. <!--SR:!2025-01-18,179,310!2025-02-05,201,310-->
 - thinks ::: What the user thinks. Can overlap with says. Take note of thoughts that the user is unwilling to vocalize, such as body language, choice of words, tone, etc. <!--SR:!2025-04-01,207,270!2025-08-21,333,290-->
 - does ::: The user's actions and behaviors. This is simply what the user is doing. <!--SR:!2025-03-22,244,330!2025-04-24,269,330-->
-- feels ::: The user's emotional state and its context, like the thing causing the emotional state. <!--SR:!2024-10-28,118,290!2025-06-10,297,310-->
+- feels ::: The user's emotional state and its context, like the thing causing the emotional state. <!--SR:!2025-10-05,342,290!2025-06-10,297,310-->

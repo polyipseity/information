@@ -257,7 +257,7 @@ variableName = 1 + 2
 
 One does not need to {{declare the variable and its type before assigning to it}}. Reassigning the variable (i.e. {{replacing the variable value}}) uses {{the same syntax as above}}. To {{use the value of a variable}}, {{simply write the variable name}}. <!--SR:!2024-11-29,66,322!2024-12-07,74,322!2024-11-08,45,302!2024-11-12,49,302!2024-12-09,75,322-->
 
-Variable names are {{case sensitive, cannot be keywords, cannot have some characters like spaces (but underscores `_` are okay), and cannot begin with some characters like numbers}}. Also, while allowed, it is recommended to {{not use builtin names, e.g. `print`, as we will no longer be able to use those builtin functions of variables later (replaced by us)}}. <!--SR:!2024-10-28,34,290!2024-11-18,55,310-->
+Variable names are {{case sensitive, cannot be keywords, cannot have some characters like spaces (but underscores `_` are okay), and cannot begin with some characters like numbers}}. Also, while allowed, it is recommended to {{not use builtin names, e.g. `print`, as we will no longer be able to use those builtin functions of variables later (replaced by us)}}. <!--SR:!2025-03-18,141,310!2024-11-18,55,310-->
 
 Variable name should be {{descriptive of the values it is supposed to hold}}. <!--SR:!2024-12-01,68,322-->
 

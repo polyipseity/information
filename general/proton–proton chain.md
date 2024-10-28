@@ -35,7 +35,7 @@ After it is formed, the [deuteron](deuteron.md) produced in the first stage can 
 
 The overall reaction (noting that the elements are [ionized](ionization.md)) is: {{$$4\, {}^1\mathrm{H}^+ + 2\,\mathrm{e}^- \to {}^4\mathrm{He}^{2+} + 2\,\nu_{\mathrm{e} } + n\, \gamma + 26.732\text{ MeV}$$, releasing 26.732&nbsp;[MeV](electronvolt.md) of [energy](energy.md)}}. Some energy is {{lost to the neutrinos, and various number of [gamma rays](gamma%20ray.md) depending on the branch taken}}. <!--SR:!2024-11-06,67,270!2025-01-17,129,290-->
 
-- overall reaction (including annihilation) / energy release ::: 26.732 MeV <!--SR:!2025-01-28,123,295!2024-10-28,70,315-->
+- overall reaction (including annihilation) / energy release ::: 26.732 MeV <!--SR:!2025-01-28,123,295!2025-06-09,224,315-->
 
 ### the p–p I branch
 

@@ -35,7 +35,7 @@ __Fundamental Qualitative Characteristics__ ::: relevance, faithful representati
 
 __Enhancing Qualitative Characteristics__ ::: verifiability, comparability, understandability, timeliness <!--SR:!2025-01-20,95,290!2024-11-21,55,310-->
 
-- __Verifiability__ ::: Verifiability implies consensus between the different knowledgeable and independent users of financial information. Such information must be supported by sufficient evidence to follow the principle of objectivity. <!--SR:!2024-10-29,33,270!2024-10-28,32,270-->
+- __Verifiability__ ::: Verifiability implies consensus between the different knowledgeable and independent users of financial information. Such information must be supported by sufficient evidence to follow the principle of objectivity. <!--SR:!2024-10-29,33,270!2025-01-26,90,270-->
 - __Comparability__ ::: Comparability is the uniform application of accounting methods across entities in the same industry. The principle of consistency is under comparability. Consistency is the uniform application of accounting across points in time within an entity. <!--SR:!2025-01-10,85,290!2024-10-31,35,270-->
 - __Understandability__ ::: Understandability means that accounting reports should be expressed as clearly as possible and should be understood by those to whom the information is relevant. <!--SR:!2024-11-08,42,290!2024-11-09,44,290-->
 - __Timeliness__ ::: Timeliness implies that financial information must be presented to the users before a decision is to be made. <!--SR:!2024-12-08,68,310!2024-11-19,52,310-->
@@ -59,7 +59,7 @@ The statement of cash flows {{considers the inputs and outputs in concrete cash 
 > - {{cash inflow}}: {{$20}}
 > - {{cash outflow}}: {{$7}}
 > - {{opening balance}}: {{$5}}
-> - {{__closing balance__}}: {{__$20 – $7 + $5 = $18__}} <!--SR:!2024-11-19,52,310!2024-12-09,69,310!2024-12-04,65,310!2024-10-28,35,290!2025-03-19,143,310!2024-11-07,43,290!2024-12-03,64,310!2024-11-25,56,310-->
+> - {{__closing balance__}}: {{__$20 – $7 + $5 = $18__}} <!--SR:!2024-11-19,52,310!2024-12-09,69,310!2024-12-04,65,310!2025-03-24,147,310!2025-03-19,143,310!2024-11-07,43,290!2024-12-03,64,310!2024-11-25,56,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -152,7 +152,7 @@ Objectives include:
 
 The {{[accounting equation](accounting%20equation.md) ([Assets](asset.md) = [Liabilities](liability%20(financial%20accounting).md) + [Owners' Equity](equity%20(finance).md)) and financial statements}} are the main topics of financial accounting. <!--SR:!2024-12-03,64,310-->
 
-{{The [trial balance](trial%20balance.md) (i.e. finding the current balances of all accounts), which is usually prepared using the [double-entry accounting system](double-entry%20bookkeeping.md)}}, forms {{the basis for preparing the financial statements}}. All the figures in the trial balance are {{rearranged to prepare a [profit & loss statement](income%20statement.md) and [balance sheet](balance%20sheet.md)}}. Accounting standards {{determine the format for these accounts ([SSAP](Generally%20Accepted%20Accounting%20Practice%20(UK).md), FRS, [IFRS](International%20Financial%20Reporting%20Standards.md))}}. Financial statements {{display the income and expenditure for the company and a summary of the assets, liabilities, and shareholders' or owners' equity of the company on the date to which the accounts were prepared}}. <!--SR:!2024-11-08,41,290!2025-02-12,114,290!2024-11-02,38,290!2024-10-28,34,290!2024-11-21,42,250-->
+{{The [trial balance](trial%20balance.md) (i.e. finding the current balances of all accounts), which is usually prepared using the [double-entry accounting system](double-entry%20bookkeeping.md)}}, forms {{the basis for preparing the financial statements}}. All the figures in the trial balance are {{rearranged to prepare a [profit & loss statement](income%20statement.md) and [balance sheet](balance%20sheet.md)}}. Accounting standards {{determine the format for these accounts ([SSAP](Generally%20Accepted%20Accounting%20Practice%20(UK).md), FRS, [IFRS](International%20Financial%20Reporting%20Standards.md))}}. Financial statements {{display the income and expenditure for the company and a summary of the assets, liabilities, and shareholders' or owners' equity of the company on the date to which the accounts were prepared}}. <!--SR:!2024-11-08,41,290!2025-02-12,114,290!2024-11-02,38,290!2025-03-18,141,310!2024-11-21,42,250-->
 
 {{[Asset](asset.md), [expense](expense.md), and [dividend](dividend.md) accounts}} have {{normal debit balances (i.e., debiting these types of accounts increases them)}}. <!--SR:!2024-12-04,65,310!2025-01-21,90,290-->
 

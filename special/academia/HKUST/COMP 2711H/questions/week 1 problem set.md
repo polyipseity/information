@@ -92,7 +92,7 @@ Consider an 8×8 chessboard with a knight at the top right corner. Is it {{possi
 Note that a knight can move {{two squares vertically and one square horizontally, or two squares horizontally and one square vertically}}. <!--SR:!2024-12-05,65,310-->
 
 - strategy ::: For 8×8, one will need to guess that the answer is yes and construct such a closed path... So good luck! But for 9×9, there is a simple way. Draw the move pattern of a knight and notice the checker pattern of a chessboard. <!--SR:!2024-11-22,53,300!2024-12-08,68,310-->
-- possibility of _closed_ knight's tours ::: Let there be a _m_ × _n_ board with _m_ ≤ _n_. A _closed_ knight's tour is always possible unless _m_ and _n_ are both odd; _m_ = 1, 2, or 4; or _m_ = 3 and _n_ = 4, 6, or 8. <!--SR:!2024-10-28,28,240!2024-12-20,61,240-->
+- possibility of _closed_ knight's tours ::: Let there be a _m_ × _n_ board with _m_ ≤ _n_. A _closed_ knight's tour is always possible unless _m_ and _n_ are both odd; _m_ = 1, 2, or 4; or _m_ = 3 and _n_ = 4, 6, or 8. <!--SR:!2025-01-02,66,240!2024-12-20,61,240-->
 - possibility of knight's tours ::: Let there be a _m_ × _n_ board with _m_ ≤ _n_. A knight's tour (possibly _open_) is always possible unless _m_ = 1 or 2; _m_ = 3 and _n_ = 3, 5, or 6; or _m_ = 4 and _n_ = 4. <!--SR:!2024-11-04,35,280!2024-11-28,37,210-->
 
 1. 8×8 chessboard ::: It is possible. Prove by constructing such a closed path... <!--SR:!2024-12-14,73,320!2024-12-14,74,320-->

@@ -26,7 +26,7 @@ The _discrete Fourier transform_ {{transforms a [sequence](sequence.md) of _N_ [
 >
 > {{$$X_k = \sum_{n = 0}^{N - 1} x_n \cdot e^{-i2\pi \frac k N n}$$}} <!--SR:!2024-11-02,68,310!2025-03-21,155,290-->
 
-The transform is sometimes denoted by {{$\mathcal F$, as in $\mathbf X = \mathcal F\set{\mathbf x}$ or $\mathcal F(\mathbf x)$ or $\mathcal F \mathbf x$}}. <!--SR:!2024-10-28,61,310-->
+The transform is sometimes denoted by {{$\mathcal F$, as in $\mathbf X = \mathcal F\set{\mathbf x}$ or $\mathcal F(\mathbf x)$ or $\mathcal F \mathbf x$}}. <!--SR:!2025-07-29,274,330-->
 
 __Eq.1__ can be {{interpreted or derived in various ways}}, for example: <!--SR:!2025-03-12,162,310-->
 
@@ -43,7 +43,7 @@ The inverse transform is given by:
 >
 > {{$$x_n = \frac 1 N \sum_{k = 0}^{N - 1} X_k \cdot e^{i 2\pi \frac k N n}$$}} <!--SR:!2024-11-03,61,270!2024-11-16,65,270-->
 
-__Eq.2__ is {{also $N$-periodic (in index $n$)}}. In __Eq.2__, each $X_k$ is {{a complex number whose polar coordinates are the amplitude and phase of a complex sinusoidal component $\left(e^{i 2\pi \frac k N n}\right)$ of function $x_n$}}. (see [discrete Fourier series](discrete%20Fourier%20series.md)) The sinusoid's [frequency](frequency.md) is {{$k$ cycles per $N$ samples}}. <!--SR:!2024-10-28,63,310!2025-02-09,124,290!2024-11-02,66,310-->
+__Eq.2__ is {{also $N$-periodic (in index $n$)}}. In __Eq.2__, each $X_k$ is {{a complex number whose polar coordinates are the amplitude and phase of a complex sinusoidal component $\left(e^{i 2\pi \frac k N n}\right)$ of function $x_n$}}. (see [discrete Fourier series](discrete%20Fourier%20series.md)) The sinusoid's [frequency](frequency.md) is {{$k$ cycles per $N$ samples}}. <!--SR:!2025-08-07,283,330!2025-02-09,124,290!2024-11-02,66,310-->
 
 {{The normalization factor multiplying the DFT and IDFT (here $1$ and $\frac 1 N$) and the signs of the exponents}} are {{the most common [conventions](sign%20convention.md)}}. The only actual requirements of these conventions are that {{the DFT and IDFT have opposite-sign exponents and that the product of their normalization factors be $\frac 1 N$}}. {{An uncommon normalization of $\sqrt{\frac 1 N}$ for both the DFT and IDFT}} makes {{the transform-pair unitary}}. <!--SR:!2025-07-19,267,330!2025-07-13,260,330!2024-11-02,65,310!2025-03-08,144,290!2025-01-26,115,290-->
 

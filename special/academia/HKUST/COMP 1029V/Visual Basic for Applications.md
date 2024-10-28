@@ -20,7 +20,7 @@ To edit VBA code in an Excel file, use {{the VBA editor}}. How to edit then? Jus
 
 ### macro
 
-It is not necessary to {{write VBA code yourself for simple automation}}. You can {{record a macro and it will generate VBA code for you}}. If you open the VBA editor, you should see {{VBA code in a subroutine with a name same as the macro name}}. Text beginning from `'` to end of line {{are comments and are ignored}}. <!--SR:!2025-01-26,276,330!2025-01-18,266,330!2024-10-28,206,310!2024-11-01,207,330-->
+It is not necessary to {{write VBA code yourself for simple automation}}. You can {{record a macro and it will generate VBA code for you}}. If you open the VBA editor, you should see {{VBA code in a subroutine with a name same as the macro name}}. Text beginning from `'` to end of line {{are comments and are ignored}}. <!--SR:!2025-01-26,276,330!2025-01-18,266,330!2026-08-23,664,310!2024-11-01,207,330-->
 
 ## see also
 

@@ -107,7 +107,7 @@ The content is in teaching order.
   - variability / characteristics (common to most or all measures of variability) ::: All measures must be nonnegative. Most measures (exceptions: inter-quartile range, trimmed variants of statistics, ...) are zero [iff](../../../../general/if%20and%20only%20if.md) all data are the same (i.e. no spread). <!--SR:!2024-11-28,65,310!2024-12-02,69,310-->
 - [data presentation](../../../../general/data%20and%20information%20visualization.md) ::: A graphical summary can communicate information better as people prefers to look at them rather than numbers. The method of presentation depends on the data _nature_ and visualization _goals_. <!--SR:!2025-04-09,167,310!2025-02-28,133,290-->
   - data presentation / quantitative data ::: box plot, frequency table, histogram, line chart, scatter plot, ... <!--SR:!2024-11-06,48,290!2025-02-13,113,290-->
-  - data presentation / categorical data ::: bar chart, frequency table, pie chart, ... <!--SR:!2025-04-11,166,310!2024-10-28,41,290-->
+  - data presentation / categorical data ::: bar chart, frequency table, pie chart, ... <!--SR:!2025-04-11,166,310!2025-02-26,121,290-->
   - line chart ::: It visualizes the trend of data over time well. Good for time-series data like stock prices. <!--SR:!2024-11-14,56,310!2024-11-14,56,310-->
     - line chart / reading ::: Start from the x-axis, then to the line, and lastly to the y-axis. <!--SR:!2024-11-16,59,310!2024-11-04,48,310-->
     - line chart / _R_ ::: use `plot(...)` <!--SR:!2024-12-03,70,310!2024-11-16,58,310-->

@@ -21,7 +21,7 @@ The evidence for dark energy is {{indirect but comes from three independent sour
 
 ### supernovae
 
-In {{1998}}, {{the [High-Z Supernova Search Team](High-Z%20Supernova%20Search%20Team.md)}} published {{observations of [Type Ia](Type%20Ia%20supernova.md) ("one-A") [supernovae](supernova.md)}}. In {{1999}}, {{the [Supernova Cosmology Project](Supernova%20Cosmology%20Project.md)}} followed by {{suggesting that the expansion of the universe is [accelerating](deceleration%20parameter.md)}}. {{The 2011 [Nobel Prize in Physics](list%20of%20Nobel%20laureates%20in%20Physics.md)}} was awarded to {{[Saul Perlmutter](Saul%20Perlmutter.md), [Brian P. Schmidt](Brian%20Schmidt.md), and [Adam G. Riess](Adam%20Riess.md) for their leadership in the discovery}}. <!--SR:!2025-01-28,120,290!2025-03-14,156,310!2024-10-28,53,310!2025-02-27,142,290!2024-11-09,63,310!2025-03-17,158,310!2025-01-20,112,290!2024-11-09,52,250-->
+In {{1998}}, {{the [High-Z Supernova Search Team](High-Z%20Supernova%20Search%20Team.md)}} published {{observations of [Type Ia](Type%20Ia%20supernova.md) ("one-A") [supernovae](supernova.md)}}. In {{1999}}, {{the [Supernova Cosmology Project](Supernova%20Cosmology%20Project.md)}} followed by {{suggesting that the expansion of the universe is [accelerating](deceleration%20parameter.md)}}. {{The 2011 [Nobel Prize in Physics](list%20of%20Nobel%20laureates%20in%20Physics.md)}} was awarded to {{[Saul Perlmutter](Saul%20Perlmutter.md), [Brian P. Schmidt](Brian%20Schmidt.md), and [Adam G. Riess](Adam%20Riess.md) for their leadership in the discovery}}. <!--SR:!2025-01-28,120,290!2025-03-14,156,310!2025-06-20,235,330!2025-02-27,142,290!2024-11-09,63,310!2025-03-17,158,310!2025-01-20,112,290!2024-11-09,52,250-->
 
 ### cosmic microwave background
 

@@ -78,7 +78,7 @@ Using Euler's formula, we can express waves {{using exponentiation instead}}. Fo
 
 - see: [general/dot product § complex vectors](../../general/dot%20product.md#complex%20vectors)
 
-The __dot product__ or __scalar product__ of two sequences $x$ and $y$ is defined as: {{$$\langle x, y \rangle = \sum_{n = 0}^{N - 1} x[n] y^*[n]$$ (the variant that is linear in the 1st argument)}}. Geometrically, two sequences are {{orthogonal iff their dot product is $0$, i.e. $\langle x, y \rangle = 0$}}. <!--SR:!2024-10-28,59,321!2024-11-22,83,341-->
+The __dot product__ or __scalar product__ of two sequences $x$ and $y$ is defined as: {{$$\langle x, y \rangle = \sum_{n = 0}^{N - 1} x[n] y^*[n]$$ (the variant that is linear in the 1st argument)}}. Geometrically, two sequences are {{orthogonal iff their dot product is $0$, i.e. $\langle x, y \rangle = 0$}}. <!--SR:!2025-07-27,272,341!2024-11-22,83,341-->
 
 ## even and odd sequences
 

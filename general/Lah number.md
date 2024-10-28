@@ -73,7 +73,7 @@ The Lah numbers satisfy {{the recurrence relations $${\begin{aligned}L(n+1,k)&=(
 
 ### exponential generating function
 
-- exponential generating function for fixed _k_ ::: $$\sum_{n\geq k}L(n,k){\frac {x^{n} }{n!} }={\frac {1}{k!} }\left({\frac {x}{1-x} }\right)^{k}$$ <!--SR:!2024-10-28,1,230!2024-10-28,1,230-->
+- exponential generating function for fixed _k_ ::: $$\sum_{n\geq k}L(n,k){\frac {x^{n} }{n!} }={\frac {1}{k!} }\left({\frac {x}{1-x} }\right)^{k}$$ <!--SR:!2024-10-30,2,230!2024-10-30,2,230-->
 
 ### derivative of exp(1/_x_)
 

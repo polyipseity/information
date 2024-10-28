@@ -90,7 +90,7 @@ return _chain.from_iterable(await _gather(
 - [kerosene](kerosene.md)→:::←[fuel oil](fuel%20oil.md) <!--SR:!2024-12-23,179,214!2024-11-05,19,130-->
 - [fuel oil](fuel%20oil.md)→:::←[diesel fuel](diesel%20fuel.md) <!--SR:!2024-10-30,417,294!2024-11-12,225,254-->
 - [diesel fuel](diesel%20fuel.md)→:::←[paraffin wax](paraffin%20wax.md) <!--SR:!2026-09-03,959,334!2025-01-29,186,194-->
-- [paraffin wax](paraffin%20wax.md)→:::←[bitumen](bitumen.md) <!--SR:!2024-10-28,432,314!2025-05-06,539,314-->
+- [paraffin wax](paraffin%20wax.md)→:::←[bitumen](bitumen.md) <!--SR:!2025-06-08,223,294!2025-05-06,539,314-->
 - [bitumen](bitumen.md)→:::←_(end)_ <!--SR:!2027-05-09,1164,350!2026-12-25,984,334-->
 
 <!--/pytextgen-->

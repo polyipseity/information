@@ -90,7 +90,7 @@ Below is a list of common instructions (in learning order):
 
 An assembly file {{does not solely consists of instructions}}. It also {{contains data or other metadata}}. Sections {{split the contents of an assembly file based on the type of content}}. There are {{many types of sections}}, but the most commonly used ones are {{`.data`, `.bss`, and `.text`}}. To start a section, the syntax is {{`section .<section name>`}}, and {{all content after this line and before the next section start or end of file}} is part of this section. <!--SR:!2024-12-18,84,345!2024-12-19,85,345!2024-12-16,82,345!2024-11-26,64,323!2024-12-19,84,345!2024-12-16,82,345!2024-11-29,66,323-->
 
-- `.data` ::: It contains initialized data, that is, data that we know during assembly. It has read and write permissions. For C, this corresponds to global and static variables that are initialized. <!--SR:!2024-11-26,62,325!2024-10-28,41,290-->
+- `.data` ::: It contains initialized data, that is, data that we know during assembly. It has read and write permissions. For C, this corresponds to global and static variables that are initialized. <!--SR:!2024-11-26,62,325!2025-04-13,167,310-->
 - `.bss` ::: It contains uninitialized data, that is, a memory space for our program to initialize data on during its execution. It has read and write permissions. For C, this corresponds to global and static variables that are uninitialized. <!--SR:!2024-11-26,63,323!2024-12-15,81,345-->
 - `.text` ::: It contains the code of our program. It has read and execute permissions. For C, this corresponds to functions. <!--SR:!2024-11-06,43,317!2024-11-13,50,310-->
 
@@ -115,7 +115,7 @@ Label names are {{global and unique across an assembly program, and appear in sy
 
 ### assembling a program
 
-To assemble an assembly program as an ELF with {{NASM}}, run {{`nasm -f elf64 <input>.s`, which produces a `.o` object file}}. Then {{link the resulting object file(s) using `gcc` or `ld`}}. <!--SR:!2024-11-29,67,345!2024-10-28,39,297!2024-12-18,83,345-->
+To assemble an assembly program as an ELF with {{NASM}}, run {{`nasm -f elf64 <input>.s`, which produces a `.o` object file}}. Then {{link the resulting object file(s) using `gcc` or `ld`}}. <!--SR:!2024-11-29,67,345!2025-02-21,116,297!2024-12-18,83,345-->
 
 ### stack and functions in assembly
 

@@ -41,7 +41,7 @@ The above object stored under the `HaHaObject` variable is also called {{an _ins
 
 ## attribute
 
-An attribute is declared like a {{[variable](basics.md#variable)}}. <!--SR:!2024-10-28,203,330-->
+An attribute is declared like a {{[variable](basics.md#variable)}}. <!--SR:!2027-05-07,921,350-->
 
 ## method
 
