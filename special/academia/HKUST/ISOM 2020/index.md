@@ -262,3 +262,5 @@ The content is in teaching order.
 - [cheatsheet](cheatsheet.md): provided during the examination
 
 ## aftermath
+
+- They do not release final examination marks.
