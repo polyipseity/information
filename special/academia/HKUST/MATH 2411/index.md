@@ -218,6 +218,13 @@ The content is in teaching order.
   - probability axioms / additive law ::: The __additive law__ is: $$P(A \cup B) = P(A) + P(B) - P(A \cap B) \,.$$ When _A_ and _B_ are disjoint, then _P_(_A_ ∩ _B_) is 0 and the above degenerates into the finite additivity theorem. <p> The above is a special case of the [inclusion–exclusion principle](../../../../general/inclusion–exclusion%20principle.md), which can handle any countable number of events: $$\mathbb {P} \left(\bigcup _{i=1}^{n}A_{i}\right)=\sum _{k=1}^{n}\left((-1)^{k-1}\sum _{I\subseteq \{1,\ldots ,n\} \atop |I|=k}\mathbb {P} (A_{I})\right) \,.$$
 - assignment
   - [assignment 1](assignments/assignent%201/index.md): 20/20, graded
+    - statistics: L1
+      - mean: 15.09
+      - low: 0
+      - lower quartile: 11.25
+      - median: 14
+      - upper quartile: 20
+      - high: 20
 
 ## week 3 lecture 2
 
@@ -388,6 +395,23 @@ The content is in teaching order.
 
 - datetime: 2024-10-20T14:00:00+08:00/2024-10-20T15:30:00+08:00, PT1H30M
 - venue: Lecture Theater B (L1), Lecture Theater J (L2)
+- [cheatsheet](MATH%202411%20midterm%20examination%20cheatsheet.pdf)
 - report
   - When you see $\mathcal N(0, 100)$, do not mistake the 100 as the standard deviation! It is the variance. Almost screwed this up in the midterm examination...
   - Inputted $\binom {100} 1$ as 1 instead of 100 into the calculator when evaluating a binomial distribution...
+  - Simplified $\frac 4 {b^2} \left(b\right)$ into $\frac 4 {b^3}$ instead of $\frac 4 b$...
+- grades: 48/50
+  - statistics: L1
+    - mean: 29.93
+    - low: 2
+    - lower quartile: 22
+    - median: 30
+    - upper quartile: 37
+    - high: 50
+  - statistics: L2
+    - mean: 32.14
+    - low: 8
+    - lower quartile: 25
+    - median: 32
+    - upper quartile: 41
+    - high: 50
