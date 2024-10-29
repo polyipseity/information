@@ -29,7 +29,7 @@ When $f$ is {{$f: \mathbb{R} \to \mathbb{R}_{\ne 0}$, then the logarithmic deriv
 >
 > Define $\operatorname{Logder}(f)$ to be the logarithmic derivative of $f$.
 >
-> - $f := (7xy)^5, \operatorname{Logder}(f) = ?$ :: $\operatorname{Logder}(f) = 5 \frac {x'} x + 5 \frac {y'} y$ <!--SR:!2024-10-29,209,330-->
+> - $f := (7xy)^5, \operatorname{Logder}(f) = ?$ :: $\operatorname{Logder}(f) = 5 \frac {x'} x + 5 \frac {y'} y$ <!--SR:!2027-06-07,951,350-->
 > - $f := -2.692u, \operatorname{Logder}(f) = ?$ :: $\operatorname{Logder} = \frac {u'} u$ <!--SR:!2026-07-27,681,330-->
 > - $f := -\frac {(78.38uvw)^{8.39}} {(59.2xy)^{9682} z^{-386}}, \operatorname{Logder}(f) = ?$ :: $\operatorname{Logder}(f) = 8.39 \frac {u'} u + 8.39 \frac {v'} v + 8.39 \frac {w'} w - 9682 \frac {x'} x - 9682 \frac {y'} y + 386 \frac {z'} z$ <!--SR:!2025-05-05,306,290-->
 > - $f := 4 x^{2y}, \operatorname{Logder}(f) = ?$ :: $\operatorname{Logder}(f) = 2y \frac {x'} x + 2y y' \ln 4x \qquad x > 0$ <!--SR:!2024-11-05,183,270-->

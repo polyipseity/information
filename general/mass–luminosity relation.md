@@ -28,7 +28,7 @@ $$\begin{aligned}
 - $2M_{\odot} \le M \le 55M_{\odot}$ ::: $a = 3.5, C = 1.4$ <!--SR:!2024-11-02,65,261!2024-12-23,92,250-->
 - $M \ge 55M_{\odot}$ ::: $a = 1, C = 32\,000$ <!--SR:!2024-12-26,103,281!2025-05-01,205,310-->
 
-The mass/luminosity relationship can also be used to {{determine the lifetime of [stars](star.md)}} by {{noting that lifetime is approximately proportional to _M_/_L_}} although {{one finds that more massive stars have shorter lifetimes than that which the _M_/_L_ relationship predicts}}. A more sophisticated calculation factors in {{a star's [loss of mass](stellar%20mass%20loss.md) over [time](time.md)}}. <!--SR:!2025-02-01,140,310!2024-10-29,76,321!2025-02-16,152,310!2025-07-16,274,330-->
+The mass/luminosity relationship can also be used to {{determine the lifetime of [stars](star.md)}} by {{noting that lifetime is approximately proportional to _M_/_L_}} although {{one finds that more massive stars have shorter lifetimes than that which the _M_/_L_ relationship predicts}}. A more sophisticated calculation factors in {{a star's [loss of mass](stellar%20mass%20loss.md) over [time](time.md)}}. <!--SR:!2025-02-01,140,310!2025-09-26,332,341!2025-02-16,152,310!2025-07-16,274,330-->
 
 ## references
 

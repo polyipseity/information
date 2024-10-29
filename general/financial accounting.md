@@ -17,14 +17,14 @@ Financial accountancy is governed by {{both local and international accounting s
 
 On the other hand, {{[International Financial Reporting Standards](International%20Financial%20Reporting%20Standards.md) (IFRS)}} is {{a set of accounting standards stating how particular types of transactions and other events should be reported in financial statements}}. IFRS are issued by {{the [International Accounting Standards Board](International%20Accounting%20Standards%20Board.md) (IASB)}}.<sup>[\[2\]](#^ref-2)</sup> With {{IFRS becoming more widespread on the international scene}}, {{_consistency_ in financial reporting has become more prevalent between global organizations}}. <!--SR:!2024-11-18,52,290!2024-12-03,64,310!2024-11-20,53,310!2024-12-10,70,310!2024-11-23,56,310-->
 
-While financial accounting is {{used to prepare accounting information for people outside the organization or not involved in the day-to-day running of the company}}, [managerial accounting](management%20accounting.md) {{provides accounting information to help managers make decisions to manage the business}}. <!--SR:!2024-10-29,34,270!2024-11-21,54,310-->
+While financial accounting is {{used to prepare accounting information for people outside the organization or not involved in the day-to-day running of the company}}, [managerial accounting](management%20accounting.md) {{provides accounting information to help managers make decisions to manage the business}}. <!--SR:!2025-03-11,133,290!2024-11-21,54,310-->
 
 ## principles
 
 {{Financial accounting and financial reporting}} are often used as synonyms. <!--SR:!2024-12-06,66,310-->
 
 1. According to International Financial Reporting Standards: the objective of financial reporting is ... ::: To provide financial information that is useful to existing and potential investors, lenders and other creditors in making decisions about providing resources to the reporting entity.<sup>[\[3\]](#^ref-3)</sup> <!--SR:!2024-11-06,42,290!2025-01-22,87,270-->
-2. According to the European Accounting Association: ... ::: Capital maintenance is a competing objective of financial reporting.<sup>[\[4\]](#^ref-4)</sup> <!--SR:!2024-10-29,34,270!2024-11-02,36,270-->
+2. According to the European Accounting Association: ... ::: Capital maintenance is a competing objective of financial reporting.<sup>[\[4\]](#^ref-4)</sup> <!--SR:!2025-02-01,95,270!2024-11-02,36,270-->
 
 Financial accounting is {{the preparation of financial statements that can be consumed by the public and the relevant stakeholders}}. Financial information {{would be useful to users if such qualitative characteristics are present}}. When producing financial statements, the following must be complied with: {{fundamental qualitative characteristics and enhancing qualitative characteristics}}. <!--SR:!2025-03-19,143,310!2024-12-06,66,310!2025-02-07,107,290-->
 
@@ -35,7 +35,7 @@ __Fundamental Qualitative Characteristics__ ::: relevance, faithful representati
 
 __Enhancing Qualitative Characteristics__ ::: verifiability, comparability, understandability, timeliness <!--SR:!2025-01-20,95,290!2024-11-21,55,310-->
 
-- __Verifiability__ ::: Verifiability implies consensus between the different knowledgeable and independent users of financial information. Such information must be supported by sufficient evidence to follow the principle of objectivity. <!--SR:!2024-10-29,33,270!2025-01-26,90,270-->
+- __Verifiability__ ::: Verifiability implies consensus between the different knowledgeable and independent users of financial information. Such information must be supported by sufficient evidence to follow the principle of objectivity. <!--SR:!2025-03-05,127,290!2025-01-26,90,270-->
 - __Comparability__ ::: Comparability is the uniform application of accounting methods across entities in the same industry. The principle of consistency is under comparability. Consistency is the uniform application of accounting across points in time within an entity. <!--SR:!2025-01-10,85,290!2024-10-31,35,270-->
 - __Understandability__ ::: Understandability means that accounting reports should be expressed as clearly as possible and should be understood by those to whom the information is relevant. <!--SR:!2024-11-08,42,290!2024-11-09,44,290-->
 - __Timeliness__ ::: Timeliness implies that financial information must be presented to the users before a decision is to be made. <!--SR:!2024-12-08,68,310!2024-11-19,52,310-->
@@ -101,7 +101,7 @@ Current assets are {{the most liquid assets of a firm, which are expected to be 
 - [cash](cash.md) ::: physical money <!--SR:!2024-11-05,41,290!2024-11-12,46,290-->
 - [accounts receivable](accounts%20receivable.md) ::: revenues earned but not yet collected <!--SR:!2024-11-07,42,290!2024-11-07,42,290-->
 - merchandise inventory ::: consists of goods and services a firm currently owns until it ends up getting sold <!--SR:!2024-11-17,51,290!2025-01-06,77,270-->
-- [investee companies](company.md) ::: expected to be held less than one financial period <!--SR:!2024-11-14,48,290!2024-10-29,35,290-->
+- [investee companies](company.md) ::: expected to be held less than one financial period <!--SR:!2024-11-14,48,290!2025-02-13,107,290-->
 - [prepaid expenses](deferral.md) ::: expenses paid for in advance for use during that financial period <!--SR:!2024-10-30,36,290!2024-12-05,65,310-->
 
 Non-current assets include {{[fixed](fixed%20asset.md) or long-term assets and [intangible assets](intangible%20asset.md)}}: <!--SR:!2024-10-31,35,270-->
@@ -185,8 +185,8 @@ However, there are {{instances of accounts, known as contra-accounts (contra-ass
 
 - see: [cost accounting](cost%20accounting.md)
 
-1. objectives ::: Financial accounting aims at presenting 'true and fair' view of transactions, profit and loss for a period and statement of financial position (balance sheet) on a given date. It aims at computing 'true and fair' view of the cost of production/services offered by the firm.<sup>[\[11\]](#^ref-11)</sup> Cost accounting aims at computing cost of production/service in a scientific manner and facilitate cost control and cost reduction. <!--SR:!2024-10-29,33,270!2025-02-12,112,290-->
-2. audiences ::: Financial accounting reports the results and position of business to government, creditors, investors, and external parties. Cost accounting is an internal reporting system for an organisation's own management for decision making. <!--SR:!2025-01-06,81,290!2024-10-29,35,290-->
+1. objectives ::: Financial accounting aims at presenting 'true and fair' view of transactions, profit and loss for a period and statement of financial position (balance sheet) on a given date. It aims at computing 'true and fair' view of the cost of production/services offered by the firm.<sup>[\[11\]](#^ref-11)</sup> Cost accounting aims at computing cost of production/service in a scientific manner and facilitate cost control and cost reduction. <!--SR:!2025-01-29,92,270!2025-02-12,112,290-->
+2. audiences ::: Financial accounting reports the results and position of business to government, creditors, investors, and external parties. Cost accounting is an internal reporting system for an organisation's own management for decision making. <!--SR:!2025-01-06,81,290!2025-02-13,107,290-->
 3. classification ::: In financial accounting, cost classification is based on type of transactions, e.g. salaries, repairs, insurance, stores etc. In cost accounting, classification is basically on the basis of functions, activities, products, process and on internal planning and control and information needs of the organization. <!--SR:!2025-01-18,85,270!2025-01-05,77,270-->
 
 ## related qualification

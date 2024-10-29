@@ -31,7 +31,7 @@ aStringArray[3] = "!";
 
 ## indexing
 
-To access the n-th element in an array, simply write {{`array[n-1]`}}. <!--SR:!2024-10-29,207,330-->
+To access the n-th element in an array, simply write {{`array[n-1]`}}. <!--SR:!2027-05-30,943,350-->
 
 If the index does not refer to values inside the array, like {{the index being negative, or larger than or equal to the array length}}, an {{`java.lang.ArrayIndexOutOfBoundsException` is thrown}}. <!--SR:!2024-12-28,256,330!2025-01-08,263,330-->
 

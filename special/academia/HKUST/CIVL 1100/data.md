@@ -105,7 +105,7 @@ See [Colosseum](../../../../general/Colosseum.md).
 - base widths ::: length: 189 m, width: 156 m <!--SR:!2024-11-25,134,336!2024-12-15,59,356-->
 - construction period ::: AD 72 to AD 80, 8 years <!--SR:!2024-11-24,59,216!2024-12-11,168,396-->
 - description ::: elliptical amphitheater in the center of Rome <!--SR:!2025-05-13,268,376!2025-12-11,420,376-->
-- geographic location ::: Rome <!--SR:!2026-02-17,488,396!2024-10-29,133,396-->
+- geographic location ::: Rome <!--SR:!2026-02-17,488,396!2026-11-08,740,416-->
 - height ::: 48 m (4 storeys) <!--SR:!2025-01-13,110,276!2024-11-11,143,396-->
 - importance ::: largest amphitheater in the Roman Empire, greatest works of Roman architecture and engineering <!--SR:!2026-07-15,628,396!2026-04-16,555,396-->
 
@@ -273,7 +273,7 @@ See [Sutong Yangtze River Bridge](../../../../general/Sutong%20Yangtze%20River%2
 - bridge type ::: [cable-stayed bridge](../../../../general/cable-stayed%20bridge.md)<!-- flashcard 30c74f35-b995-41af-8d8c-189c93fb1dfa --> <!--SR:!2025-05-24,285,360!2025-08-03,345,380-->
 - description ::: [cable-stayed bridge](../../../../general/cable-stayed%20bridge.md) in China <!--SR:!2025-04-08,239,310!2025-05-26,316,364-->
 - image ::: ![Sutong Yangtze River Bridge image](../../../../archives/Wikimedia%20Commons/Sutong%20Yangtze%20River%20Bridge.JPG) <!--SR:!2025-07-18,330,380!2025-05-14,295,380-->
-- length ::: 8206 m, longest span: 1088 m <!--SR:!2024-10-29,61,237!2025-02-02,212,355-->
+- length ::: 8206 m, longest span: 1088 m <!--SR:!2024-11-27,29,217!2025-02-02,212,355-->
 
 ## Taipei 101
 

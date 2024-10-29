@@ -49,7 +49,7 @@ The Sun's convection zone extends {{from 0.7 [solar radii](solar%20radius.md) (5
 
 - see: [photosphere](photosphere.md)
 
-{{The visible surface}} of the Sun, the photosphere, is {{the layer below which the Sun becomes [opaque](opacity.md) to [visible light](visible%20light.md)}}. <!--SR:!2024-10-29,76,320!2024-12-27,112,300-->
+{{The visible surface}} of the Sun, the photosphere, is {{the layer below which the Sun becomes [opaque](opacity.md) to [visible light](visible%20light.md)}}. <!--SR:!2025-09-25,331,340!2024-12-27,112,300-->
 
 ## motion
 

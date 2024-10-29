@@ -87,7 +87,7 @@ English
 - [trachea](https://en.wiktionary.org/wiki/trachea) ::: (t\_a) A thin [cartilaginous](../../../general/cartilage.md) tube that connects the [larynx](../../../general/larynx.md) to the [bronchi](../../../general/bronchus.md). <!--SR:!2024-11-25,215,284!2026-11-15,799,344-->
 - [transmissibility](https://en.wiktionary.org/wiki/transmissibility) ::: (t\_y) The extent to which something is transmissible. <!--SR:!2024-12-26,281,344!2024-11-10,219,324-->
 - [trigonometry](https://en.wiktionary.org/wiki/trigonometry) ::: (t\_y) The branch of [mathematics](../../../general/mathematics.md) concerned with the relations between angles and ratios of sides. <!--SR:!2026-04-02,565,290!2024-11-11,217,290-->
-- [ubiquitous](https://en.wiktionary.org/wiki/ubiquitous) ::: (u\_s) Widespread. <!--SR:!2025-02-23,300,388!2024-10-29,192,348-->
+- [ubiquitous](https://en.wiktionary.org/wiki/ubiquitous) ::: (u\_s) Widespread. <!--SR:!2025-02-23,300,388!2026-09-24,695,348-->
 - [vacuous](https://en.wiktionary.org/wiki/vacuous) ::: (v\_s) Empty, void. <!--SR:!2024-12-03,263,344!2025-12-24,514,324-->
 - [vacuum](https://en.wiktionary.org/wiki/vacuum) ::: (v\_m) A region of [space](../../../general/space.md) containing no [matter](../../../general/matter.md). <!--SR:!2025-01-20,290,344!2024-12-12,269,344-->
 - [vehicle](https://en.wiktionary.org/wiki/vehicle) ::: (v\_e) A spacious device for transporting things. <!--SR:!2026-10-30,783,416!2025-06-08,334,376-->

@@ -59,7 +59,7 @@ return _chain.from_iterable(await _gather(
 <!--pytextgen generate section="652a"--><!-- The following content is generated at 2024-06-09T08:10:14.981729+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←[congruence](congruence%20(geometry).md) <!--SR:!2025-06-21,321,310!2024-11-27,210,310-->
-- [congruence](congruence%20(geometry).md)→:::←nonnegativity <!--SR:!2025-01-26,234,270!2024-10-29,158,230-->
+- [congruence](congruence%20(geometry).md)→:::←nonnegativity <!--SR:!2025-01-26,234,270!2025-11-12,379,230-->
 - nonnegativity→:::←rectangle <!--SR:!2025-06-02,292,250!2025-04-03,195,190-->
 - rectangle→:::←squeezing <!--SR:!2025-02-15,138,190!2025-01-17,116,230-->
 - squeezing→:::←subtraction <!--SR:!2025-02-05,118,150!2025-01-17,227,250-->

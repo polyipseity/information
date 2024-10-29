@@ -38,7 +38,7 @@ return await memorize_table(
 > | name | description |
 > |-|-|
 > | {{catalytic cracking}} | {{Uses [catalysts](catalysis.md) like [silica-alumina](amorphous%20silica-alumina.md) in a milder [temperature](temperature.md) and [pressure](pressure.md). The products can be controlled well.}} |
-> | {{thermal cracking}} | {{Uses high [temperature](temperature.md) and [pressure](pressure.md). The products can be controlled fairly.}} | <!--SR:!2026-12-15,1055,350!2025-08-18,494,230!2027-07-29,1231,350!2024-10-29,292,250-->
+> | {{thermal cracking}} | {{Uses high [temperature](temperature.md) and [pressure](pressure.md). The products can be controlled fairly.}} | <!--SR:!2026-12-15,1055,350!2025-08-18,494,230!2027-07-29,1231,350!2026-10-31,732,250-->
 
 <!--/pytextgen-->
 

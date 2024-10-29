@@ -35,7 +35,7 @@ For all natural numbers $a$ and $b$, prove that {{addition as defined in the (se
 
 Let $a, b \in \mathbb N_0$ and {{$b \ne 0$. Prove that there exists two natural numbers $q, r \in \mathbb N_0$ such that $$a = b \cdot q + r \qquad r < b$$. Then prove that $q, r$ are unique, i.e. there is only one possible pair of values $q, r$}}. (The associativity and commutativity of addition and multiplication are given. The distributive law is also given.) <!--SR:!2024-12-20,79,320-->
 
-- strategy / existence ::: Use induction, as it is usually more suitable for proving existence. <!--SR:!2024-10-29,36,290!2024-12-10,70,320-->
+- strategy / existence ::: Use induction, as it is usually more suitable for proving existence. <!--SR:!2025-02-15,109,290!2024-12-10,70,320-->
 - strategy / uniqueness ::: For uniqueness, prove by contradiction via the well-ordering principle. Assert the existence of a least natural number that admits two or more distinct pairs of quotient and remainder. Then reverse the process used in induction to prove the existence of a smaller natural number that admits two or more distinct pairs of quotient and remainder. <!--SR:!2025-02-13,113,300!2024-12-25,69,280-->
 
 1. setup ::: Without loss of generality, fix $b \ne 0$. Theorem: $$a = b \cdot q + r \qquad \exists q,r \in \mathbb N_0, r < b$$ for all $a, b \in \mathbb N_0$. <!--SR:!2024-11-19,50,300!2024-11-20,51,300-->
@@ -79,7 +79,7 @@ We know that $\sqrt p$ is irrational from [above](#irrationality%20of%20square%2
 
 We say a natural number $n$ is prime if $\ge 2$ and it is impossible to write $n = a \cdot b$ where $1 < a, b < n$. Prove that {{every natural number $n \ge 2$ can be written as a product of prime numbers}}. <!--SR:!2024-12-16,75,320-->
 
-- strategy ::: It is easier to prove this using contradiction than using induction. <!--SR:!2024-12-25,68,300!2024-10-29,26,280-->
+- strategy ::: It is easier to prove this using contradiction than using induction. <!--SR:!2024-12-25,68,300!2025-02-05,99,300-->
 
 1. assumption ::: Assume there exists a nonempty set of natural number not less than 2 $A$ that cannot be written as a product of prime numbers. Then by the well-ordering principle, there exists a least natural number $n \ge 2$ that cannot be written as a product of prime numbers. <!--SR:!2025-01-10,81,280!2024-11-28,57,300-->
 2. construction ::: $n \ge 2$ is either prime or composite. If $n$ is a prime, then it is a product of itself, a prime number. So $n$ cannot be prime and is composite. Then there exists two natural numbers $1 < a, b < n$ such that $n = a \cdot b$. $a, b$ are both smaller than $n$, so they must not belong to $A$, or otherwise $n$ would not be the least natural number that cannot be written as a product of prime numbers. So $a$ and $b$ can be written as a product of prime numbers. But then this implies $n$ CAN be written as a product of prime numbers, as a product of two numbers that can be written as a product of prime numbers. <!--SR:!2024-11-10,41,300!2024-11-24,55,300-->

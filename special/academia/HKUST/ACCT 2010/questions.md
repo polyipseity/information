@@ -212,7 +212,7 @@ tags:
 > 3. transaction analysis → add journal entries → posting to the ledger
 >
 > - solution: {{3}}
-> - explanation: {{Note that for 2, adjusting the accounts is only done at the end of a reporting period, but an accounting cycle is simply recording the transactions after a much shorter period.}} <!--SR:!2024-12-13,57,302!2024-10-29,28,282-->
+> - explanation: {{Note that for 2, adjusting the accounts is only done at the end of a reporting period, but an accounting cycle is simply recording the transactions after a much shorter period.}} <!--SR:!2024-12-13,57,302!2025-01-19,82,282-->
 
 <!-- markdownlint MD028 -->
 

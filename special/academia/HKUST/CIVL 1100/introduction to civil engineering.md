@@ -984,7 +984,7 @@ Two Prudential Plaza
 
 - _(begin)_→:::←Central Plaza (Hong Kong) <!--SR:!2025-05-25,278,317!2025-12-02,475,387-->
 - Central Plaza (Hong Kong)→:::←China International Trust and Investment (CITIC) Plaza <!--SR:!2025-06-18,300,334!2025-08-25,342,340-->
-- China International Trust and Investment (CITIC) Plaza→:::←Two Prudential Plaza <!--SR:!2024-10-29,131,340!2025-02-14,113,240-->
+- China International Trust and Investment (CITIC) Plaza→:::←Two Prudential Plaza <!--SR:!2026-02-05,464,340!2025-02-14,113,240-->
 - Two Prudential Plaza→:::←_(end)_ <!--SR:!2025-02-26,248,375!2025-08-04,322,320-->
 
 <!--/pytextgen-->
@@ -1016,7 +1016,7 @@ Taipei 101
 <!--pytextgen generate section="938f"--><!-- The following content is generated at 2024-02-16T21:59:47.947997+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←HSBC Main Building <!--SR:!2025-10-31,379,317!2025-04-01,312,330-->
-- HSBC Main Building→:::←International Commerce Centre <!--SR:!2024-10-29,40,277!2025-05-06,208,334-->
+- HSBC Main Building→:::←International Commerce Centre <!--SR:!2025-02-17,111,277!2025-05-06,208,334-->
 - International Commerce Centre→:::←John Hancock Center <!--SR:!2025-10-04,361,320!2024-12-24,105,297-->
 - John Hancock Center→:::←Taipei 101 <!--SR:!2024-11-02,137,341!2025-10-16,373,312-->
 - Taipei 101→:::←_(end)_ <!--SR:!2025-04-10,280,367!2025-03-18,141,301-->

@@ -14,7 +14,7 @@ tags:
 
 ## numpy
 
-`numpy` is {{a Python library allowing one to manipulate arrays of numbers}}. Its documentation is available on {{<https://numpy.org/doc/>}}. <!--SR:!2024-10-29,59,319!2024-11-02,63,319-->
+`numpy` is {{a Python library allowing one to manipulate arrays of numbers}}. Its documentation is available on {{<https://numpy.org/doc/>}}. <!--SR:!2025-07-24,268,339!2024-11-02,63,319-->
 
 ### useful functions
 

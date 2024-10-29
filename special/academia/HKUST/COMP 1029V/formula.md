@@ -132,7 +132,7 @@ return _chain.from_iterable(await _gather(
 
 <!--pytextgen generate section="d123"--><!-- The following content is generated at 2024-01-31T12:32:22.775056+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←`=` <!--SR:!2025-03-09,209,270!2024-10-29,155,290-->
+- _(begin)_→:::←`=` <!--SR:!2025-03-09,209,270!2026-07-17,626,310-->
 - `=`→:::←`<` <!--SR:!2025-11-08,425,290!2025-02-19,273,310-->
 - `<`→:::←`>` <!--SR:!2025-01-12,268,330!2024-11-24,210,310-->
 - `>`→:::←`<=` <!--SR:!2024-11-25,210,310!2024-11-12,142,250-->
@@ -274,7 +274,7 @@ return _chain.from_iterable(await _gather(
 - (operator) `&`::concatenation <!--SR:!2024-11-28,227,330-->
 - `LEFT(string, length)`::get the first `length` characters in `string` <!--SR:!2025-01-14,266,330-->
 - `LEN(string)`::length of `string` <!--SR:!2025-01-01,257,330-->
-- `LOWER(string)`::convert to lowercase <!--SR:!2024-10-29,204,330-->
+- `LOWER(string)`::convert to lowercase <!--SR:!2027-05-14,927,350-->
 - `RIGHT(string, length)`::get the last `length` characters in `string` <!--SR:!2024-12-24,246,330-->
 - `SUBSTITUTE(string, old, new)`::replace all occurrences of `old` with `new` in `string` <!--SR:!2024-11-23,210,310-->
 - `UPPER(string)`::convert to uppercase <!--SR:!2024-12-02,234,330-->

@@ -148,14 +148,14 @@ The content is in teaching order.
     - scatter plot / _R_ ::: use `plot(...)` <!--SR:!2024-11-17,59,310!2024-11-11,54,310-->
   - frequency table (categorical) ::: Categorical data is already pre-grouped. Then a _summary table_ is drawn based on the categories. This condenses the data and allows for quicker data interpretation. <!--SR:!2024-11-15,58,310!2025-01-06,81,270-->
     - frequency table (categorical) / table headers ::: \<variable name\>, count, cumulative count (if ordinal), percent, cumulative percent (if ordinal), ... <!--SR:!2024-10-30,11,250!2025-02-05,105,270-->
-  - pie chart ::: A filled circle showing proportions of different categories. <!--SR:!2024-11-16,58,310!2024-10-29,41,290-->
+  - pie chart ::: A filled circle showing proportions of different categories. <!--SR:!2024-11-16,58,310!2025-04-13,166,310-->
     - pie chart / _R_ ::: use `pie(...)` <!--SR:!2024-11-14,56,310!2024-11-09,53,310-->
   - bar chart ::: Bars showing counts of different categories. <!--SR:!2024-11-07,51,310!2024-11-21,63,310-->
     - bar chart / _R_ ::: use `barplot(...)` <!--SR:!2024-11-14,51,290!2024-12-05,72,310-->
-- [sampling](../../../../general/sampling%20(statistics).md) ::: The act of creating a _sample_ from a _population_. It can be mainly classified into _probability sampling_ and _non-probability sampling_. <!--SR:!2024-11-05,42,290!2024-10-29,40,290-->
+- [sampling](../../../../general/sampling%20(statistics).md) ::: The act of creating a _sample_ from a _population_. It can be mainly classified into _probability sampling_ and _non-probability sampling_. <!--SR:!2024-11-05,42,290!2025-04-13,166,310-->
   - sampling / [errors](../../../../general/sampling%20(statistics).md#errors%20in%20sample%20surveys) ::: It is very important to sample correctly. Some biases include survivorship bias (as demonstration, unlikely related in most statistics), selection bias, non-response bias (participation bias), and voluntary response bias. <!--SR:!2025-01-17,92,270!2025-02-19,115,290-->
     - sampling / errors / survivorship bias ::: (as demonstration, unlikely related in most statistics) A famous example: Many planes were flying through enemy territories. Some survived. Engineers found holes on some parts of the survived planes. So they decided to reinforce those parts. But this did not improve survival rates. The actual best parts to reinforce were those without holes on the survived planes, because this implied the other planes did not survive because of holes in said parts. Hence the name. <!--SR:!2024-11-04,48,310!2025-02-13,119,290-->
-    - sampling / errors / selection bias ::: A sample of convenience, which probably makes certain subjects more likely than others to be sampled. <!--SR:!2024-11-07,44,290!2024-10-29,41,290-->
+    - sampling / errors / selection bias ::: A sample of convenience, which probably makes certain subjects more likely than others to be sampled. <!--SR:!2024-11-07,44,290!2025-04-20,173,310-->
     - sampling / errors / non-response bias (participation bias) ::: For example, parents are less likely to answer a survey at 6 pm because they are busy with children and dinner. <!--SR:!2024-11-08,45,290!2024-11-15,58,310-->
     - sampling / errors / voluntary response bias ::: Websites for posting reviews are more likely to get responses from customers who had very bad or very good experiences. <!--SR:!2025-01-04,88,290!2024-11-05,50,290-->
     - [sampling § sampling errors and biases](../../../../general/sampling%20(statistics).md#sampling%20errors%20and%20biases)

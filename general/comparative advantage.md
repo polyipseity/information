@@ -27,7 +27,7 @@ Writing {{several decades after Smith in 1808}}, {{[Robert Torrens](Robert%20Tor
 
 In {{1814}} the {{anonymously published pamphlet _Considerations on the Importation of Foreign Corn_}} featured {{the earliest recorded formulation of the concept of comparative advantage}}.<sup>[\[10\]](#^ref-10)</sup><sup>[\[11\]](#^ref-11)</sup> Torrens would later {{publish his work _External Corn Trade_ in 1815 acknowledging this pamphlet author's priority}}.<sup>[\[10\]](#^ref-10)</sup> <!--SR:!2024-11-17,38,290!2024-12-16,62,310!2024-12-07,53,310!2024-11-13,34,270-->
 
-In {{1817}}, {{[David Ricardo](David%20Ricardo.md)}} published {{what has since become known as the theory of comparative advantage in his book _[On the Principles of Political Economy and Taxation](On%20the%20Principles%20of%20Political%20Economy%20and%20Taxation.md)_}}. <!--SR:!2024-11-08,31,270!2024-12-16,62,310!2024-10-29,21,270-->
+In {{1817}}, {{[David Ricardo](David%20Ricardo.md)}} published {{what has since become known as the theory of comparative advantage in his book _[On the Principles of Political Economy and Taxation](On%20the%20Principles%20of%20Political%20Economy%20and%20Taxation.md)_}}. <!--SR:!2024-11-08,31,270!2024-12-16,62,310!2025-01-19,82,290-->
 
 ### Ricardo's example
 

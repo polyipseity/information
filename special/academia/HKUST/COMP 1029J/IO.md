@@ -31,6 +31,6 @@ To align output, a primitive way is {{using the tab character `\t`, which usuall
 
 ## input
 
-While we can use {{`System.in` directly}}, it is easier to use {{`java.util.Scanner` to read the input: `Scanner scanner = new Scanner(System.in);`}}. <!--SR:!2025-01-05,261,330!2024-10-29,190,310-->
+While we can use {{`System.in` directly}}, it is easier to use {{`java.util.Scanner` to read the input: `Scanner scanner = new Scanner(System.in);`}}. <!--SR:!2025-01-05,261,330!2027-01-26,819,330-->
 
 To ask the user for input, use {{`String input = scanner.nextLine();`}}. Since our constructed `Scanner` uses `System.in`, the code {{blocks until the user has entered the input and pressed the enter key, and the input excluding the newline is returned and assigned to `input`}}. if `next()` is used instead, the difference is {{the returned string only contains the text just before the next delimiter (by default spaces). Any further `nextLine()` or `next()` do not block and process the rest of the string after the delimiter as if the remaining string is inputted by the user. This is true until the rest of the string is all processed}}. <!--SR:!2026-06-03,592,310!2025-03-31,286,290!2025-06-16,324,290-->
