@@ -37,7 +37,7 @@ If the index does not refer to values inside the array, like {{the index being n
 
 ## multi-dimensional array
 
-A multi-dimensional array is simply {{an array with lower-dimensional arrays as its elements}}: <!--SR:!2024-10-30,191,310-->
+A multi-dimensional array is simply {{an array with lower-dimensional arrays as its elements}}: <!--SR:!2026-07-13,620,310-->
 
 ```Java
 boolean[][] threeByThreeSquare = {

@@ -32,4 +32,4 @@ tags:
 - open new program on taskbar:::⊞Win+⇧Shift+(taskbar #) <!--SR:!2024-12-30,409,230!2025-02-28,504,270-->
 - cycle taskbar:::⊞Win+T, ⊞Win+T/←/→ <!--SR:!2025-02-10,434,230!2024-12-06,270,210-->
 - peek at desktop:::⊞Win+Comma <!--SR:!2024-12-08,301,250!2025-06-28,574,270-->
-- manage external displays:::⊞Win+P <!--SR:!2024-10-30,403,250!2025-09-06,519,250-->
+- manage external displays:::⊞Win+P <!--SR:!2027-08-05,1009,250!2025-09-06,519,250-->

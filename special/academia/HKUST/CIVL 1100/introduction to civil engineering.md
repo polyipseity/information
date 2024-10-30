@@ -102,7 +102,7 @@ The content is in teaching order.
     - civil government departments in [Hong Kong](../../../../general/Hong%20Kong.md) ::: Architectural Services Department (ArchSD), Buildings Department (BD), Housing Department (HD) <!--SR:!2025-10-27,397,332!2026-01-22,518,395-->
       - Architectural Services Department (ArchSD) ::: governmental structures, markets, playgrounds, public schools <!--SR:!2024-11-07,154,337!2024-12-06,196,330-->
       - Buildings Department (BD) ::: illegal structures, private buildings <!--SR:!2025-09-23,388,295!2025-07-11,349,374-->
-      - Housing Department (HD) ::: home ownership scheme, public housing <!--SR:!2024-10-30,146,290!2025-02-17,221,354-->
+      - Housing Department (HD) ::: home ownership scheme, public housing <!--SR:!2026-07-04,612,310!2025-02-17,221,354-->
 
 ## oversized data
 
@@ -360,7 +360,7 @@ transportation
 - construction→:::←environmental <!--SR:!2025-07-26,325,340!2025-12-22,480,400-->
 - environmental→:::←geo-technical <!--SR:!2025-11-28,416,327!2025-01-07,205,345-->
 - geo-technical→:::←hydraulic <!--SR:!2024-11-21,149,340!2024-12-23,112,340-->
-- hydraulic→:::←material <!--SR:!2026-04-12,556,360!2024-10-30,135,340-->
+- hydraulic→:::←material <!--SR:!2026-04-12,556,360!2026-02-13,471,340-->
 - material→:::←structural <!--SR:!2025-02-07,130,297!2025-01-26,167,260-->
 - structural→:::←transportation <!--SR:!2024-12-22,171,340!2024-12-03,160,327-->
 - transportation→:::←_(end)_ <!--SR:!2025-01-08,192,350!2025-02-01,202,381-->

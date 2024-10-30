@@ -23,7 +23,7 @@ Depending on the 2 factors of {{meeting the same customer needs and possessing t
 
 1. direct competitor ::: meeting the same customer needs and possessing the same capabilities to do so <!--SR:!2025-03-02,208,321!2025-06-12,304,341-->
 2. indirect competitor ::: meeting the same customer needs but using different capabilities to do so <!--SR:!2025-06-01,249,281!2025-06-13,305,341-->
-3. potential competitor ::: not meeting the same customer needs but possessing the same capabilities to do so <!--SR:!2024-10-30,126,301!2025-05-12,282,341-->
+3. potential competitor ::: not meeting the same customer needs but possessing the same capabilities to do so <!--SR:!2026-04-09,526,321!2025-05-12,282,341-->
 4. non-competitor ::: not meeting the same customer needs and not possessing the same capabilities to do so <!--SR:!2025-04-23,265,341!2025-06-11,303,341-->
 
 Direct competitors are not {{necessarily more important than indirect or potential competitors, and instead it depends on the market}}. <!--SR:!2025-03-09,213,314-->
@@ -171,7 +171,7 @@ number of features
 - benefit→:::←quality <!--SR:!2025-02-16,183,274!2024-11-24,134,301-->
 - quality→:::←durability <!--SR:!2024-12-04,68,181!2024-12-31,124,321-->
 - durability→:::←service <!--SR:!2024-12-24,150,301!2024-12-10,72,221-->
-- service→:::←convenience <!--SR:!2024-10-30,36,181!2024-11-18,75,281-->
+- service→:::←convenience <!--SR:!2025-01-06,68,181!2024-11-18,75,281-->
 - convenience→:::←ease of use <!--SR:!2025-11-06,376,281!2025-01-10,172,314-->
 - ease of use→:::←number of features <!--SR:!2025-01-26,132,261!2024-11-26,55,234-->
 - number of features→:::←_(least important)_ <!--SR:!2025-06-03,299,334!2025-06-29,318,341-->

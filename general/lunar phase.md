@@ -100,7 +100,7 @@ return chain.from_iterable(await gather(
 <!--pytextgen generate section="d8fa"--><!-- The following content is generated at 2024-07-04T10:16:44.237111+08:00. Any edits will be overridden! -->
 
 - invisible due to being too closed to the [Sun](Sun.md) except during a [solar eclipse](solar%20eclipse.md)::[new moon](new%20moon.md) <!--SR:!2025-06-12,259,330-->
-- late morning to post-dusk::waxing [crescent](crescent.md) <!--SR:!2024-10-30,75,270-->
+- late morning to post-dusk::waxing [crescent](crescent.md) <!--SR:!2025-05-21,203,270-->
 - afternoon to early night::first quarter <!--SR:!2025-03-09,145,270-->
 - late afternoon to most of night::waxing gibbous <!--SR:!2024-12-09,94,250-->
 - all night (sunset to sunrise)::[full moon](full%20moon.md) <!--SR:!2025-03-08,173,310-->

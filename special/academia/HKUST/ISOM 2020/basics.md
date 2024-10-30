@@ -144,7 +144,7 @@ return _chain.from_iterable(await _gather(
 - `<`→:::←`<=` <!--SR:!2024-12-05,63,349!2024-12-02,60,349-->
 - `<=`→:::←`>` <!--SR:!2024-12-07,60,349!2024-12-03,61,349-->
 - `>`→:::←`>=` <!--SR:!2024-12-03,56,349!2025-01-25,100,369-->
-- `>=`→:::←`!=` <!--SR:!2024-12-01,54,349!2024-10-30,30,309-->
+- `>=`→:::←`!=` <!--SR:!2024-12-01,54,349!2025-02-03,96,309-->
 - `!=`→:::←`==` <!--SR:!2024-12-04,62,349!2025-01-20,95,369-->
 - `==`→:::←_(end)_ <!--SR:!2024-11-26,49,349!2024-12-30,74,349-->
 
@@ -231,7 +231,7 @@ return _chain.from_iterable(await _gather(
 
 ## string
 
-To define a string in Python, {{enclose the string in either double quotes `"example"` or single quotes `'example'`. Both are equivalent except that you need to escape double quotes in the strings for the first one and single quotes for the second one}}. Note that the enclosing quotes are {{not part of the string}}. To escape a character, {{precede the character with a backslash `\`, like `"quo'te \"example\" un'quote"` and `'quo\'te "example" un\'quote'`}}. Note that you cannot {{add literal new lines inside a string if you use the above format}}. Instead, you need to {{use `\n` to represent newlines}}. However, you can {{add literal new lines you enclose the strings in 3 double quotes `"""example"""` or 3 single quotes `'''example'''`}}. Additionally with this format, {{you only need to escape quotes if there are 3 consecutive quotes of the same type as the enclosing quotes}}. <!--SR:!2024-11-14,51,310!2024-12-12,78,322!2024-11-23,60,322!2024-11-20,57,322!2024-11-25,62,322!2024-11-12,49,302!2024-10-30,36,290-->
+To define a string in Python, {{enclose the string in either double quotes `"example"` or single quotes `'example'`. Both are equivalent except that you need to escape double quotes in the strings for the first one and single quotes for the second one}}. Note that the enclosing quotes are {{not part of the string}}. To escape a character, {{precede the character with a backslash `\`, like `"quo'te \"example\" un'quote"` and `'quo\'te "example" un\'quote'`}}. Note that you cannot {{add literal new lines inside a string if you use the above format}}. Instead, you need to {{use `\n` to represent newlines}}. However, you can {{add literal new lines you enclose the strings in 3 double quotes `"""example"""` or 3 single quotes `'''example'''`}}. Additionally with this format, {{you only need to escape quotes if there are 3 consecutive quotes of the same type as the enclosing quotes}}. <!--SR:!2024-11-14,51,310!2024-12-12,78,322!2024-11-23,60,322!2024-11-20,57,322!2024-11-25,62,322!2024-11-12,49,302!2025-03-27,148,310-->
 
 `\` is {{the escape character}}. Apart from {{escaping quotes (`\"`, `\'`) and itself (`\\`)}}, it can also {{represent a newline using `\n` and a tab character (kinda like a wider space, but not exactly) using `\t`}}. <!--SR:!2025-01-14,98,363!2024-12-15,68,343!2024-11-28,58,343-->
 

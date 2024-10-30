@@ -148,7 +148,7 @@ See [Great Wall of China](../../../../general/Great%20Wall%20of%20China.md).
 - component ::: fortress, horse track, pass, shelter, wall, watch tower <!--SR:!2025-06-24,271,316!2024-11-01,135,396-->
 - construction period ::: 220 BC under Qin Shi Huang, and continued up to the Ming dynasty (1368–1644) <!--SR:!2025-02-20,200,356!2024-12-01,159,396-->
 - geographic locations ::: begins in the east at Shanhaiguan (山海關), Hebei; and ends in the west at Jiayuguan (嘉峪關), Gansu <!--SR:!2025-02-23,202,356!2025-12-27,436,376-->
-- length ::: 21196.18 km <!--SR:!2024-10-30,36,256!2024-11-15,147,396-->
+- length ::: 21196.18 km <!--SR:!2025-02-04,96,256!2024-11-15,147,396-->
 
 ## HSBC Main Building
 

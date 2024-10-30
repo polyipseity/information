@@ -32,7 +32,7 @@ Design thinking can integrate {{human values like usability and desirability, te
 
 User desirability describes {{how much people want the product, depending on their needs and desires}}. This can be achieved by {{deeply understanding users via an empathetic design process, such as putting ourselves in the shoes of the customers}}. <!--SR:!2025-07-07,301,290!2025-03-11,200,270-->
 
-Technology feasibility describes {{the possibility of producing a product within allocated budget and time}}. Three important factors to consider are {{science and engineering, money, and time}}. <!--SR:!2024-10-30,127,290!2025-03-26,247,330-->
+Technology feasibility describes {{the possibility of producing a product within allocated budget and time}}. Three important factors to consider are {{science and engineering, money, and time}}. <!--SR:!2026-03-26,512,310!2025-03-26,247,330-->
 
 Business viability describes {{how the business can survive}}. The three important factors to consider are {{competition, market size, and target audience}}. <!--SR:!2025-03-25,229,290!2025-03-22,202,270-->
 

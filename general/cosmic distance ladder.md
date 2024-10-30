@@ -13,7 +13,7 @@ tags:
 
 # cosmic distance ladder
 
-The __cosmic distance ladder__ (also known as {{the __extragalactic distance scale__}}) is {{the succession of methods by which astronomers determine the distances to celestial objects}}. {{A _direct_ distance measurement of an astronomical object}} is possible only for {{those objects that are "close enough" (within about a thousand [parsecs](parsec.md)) to Earth}}. The techniques for determining distances to {{more distant objects}} are all based on {{various measured correlations between methods that work at close distances and methods that work at larger distances}}. Several methods rely on {{a standard candle, which is an astronomical object that has a known [luminosity](luminosity.md)}}. <!--SR:!2024-11-03,69,310!2024-12-19,88,270!2024-10-30,65,310!2025-01-25,125,290!2025-03-02,156,310!2025-01-11,95,250!2025-02-18,145,290-->
+The __cosmic distance ladder__ (also known as {{the __extragalactic distance scale__}}) is {{the succession of methods by which astronomers determine the distances to celestial objects}}. {{A _direct_ distance measurement of an astronomical object}} is possible only for {{those objects that are "close enough" (within about a thousand [parsecs](parsec.md)) to Earth}}. The techniques for determining distances to {{more distant objects}} are all based on {{various measured correlations between methods that work at close distances and methods that work at larger distances}}. Several methods rely on {{a standard candle, which is an astronomical object that has a known [luminosity](luminosity.md)}}. <!--SR:!2024-11-03,69,310!2024-12-19,88,270!2025-08-15,289,330!2025-01-25,125,290!2025-03-02,156,310!2025-01-11,95,250!2025-02-18,145,290-->
 
 ## direct measurement
 

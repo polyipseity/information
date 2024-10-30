@@ -21,7 +21,7 @@ tags:
 
 For all natural numbers $a$ and $b$, prove that {{addition as defined in the (second-order formulation of) Peano axioms commutates, i.e. $$a + b = b + a$$. Then, given that addition associates (i.e. $(a + b) + c = a + (b + c)$) and commutates, prove that multiplication commutates, i.e. $$a \cdot b = b \cdot a$$}}. <!--SR:!2024-12-15,74,320-->
 
-- strategy ::: Apply induction to prove commutativity for more specific cases. Then apply induction again to generalize the results. <!--SR:!2024-11-21,44,250!2024-10-30,36,300-->
+- strategy ::: Apply induction to prove commutativity for more specific cases. Then apply induction again to generalize the results. <!--SR:!2024-11-21,44,250!2025-03-29,150,320-->
 
 1. definitions ::: For all natural numbers $a$ and $b$, $$\begin{aligned} a + 0 & = a && \text{definition 1} \\ a + S(b) & = S(a + b) && \text{definition 2} \\ a \cdot 0 & = 0 && \text{definition 3} \\ a \cdot S(b) & = a + a \cdot b && \text{definition 4} \end{aligned}$$. <!--SR:!2024-11-25,55,300!2024-12-16,75,320-->
 2. commutativity of addition / lemma 1 (commutativity of definition 1) ::: Lemma 1 (commutativity of definition 1): $$0 + b = b$$ holds for all $b \in \mathbb N_0$. When $b = 0$, $0 + 0 = 0$ by definition 1. Assume the lemma holds for $b$. Consider $S(b)$: $$\begin{aligned} 0 + b & = b && \text{assumption} \\ S(0 + b) & = S(b) && S\text{ is a function} \\ 0 + S(b) & = S(b) && \text{definition 2} \end{aligned}$$. So the lemma holds for $S(a)$. By induction, the lemma is proved for all natural numbers. <!--SR:!2025-01-17,92,300!2024-11-08,39,280-->
@@ -73,7 +73,7 @@ We know that $\sqrt p$ is irrational from [above](#irrationality%20of%20square%2
 - strategy ::: Prove by contradiction. Assume the rational fraction is in its most simplest form, i.e. co-prime. <!--SR:!2024-12-21,65,280!2024-11-12,47,300-->
 
 1. assumption ::: The assumption is that square roots of natural numbers are rational and thus can be written as $a / b$ for $a, b \in \mathbb N_0$. $a$ and $b$ are co-prime. <!--SR:!2024-12-08,69,320!2024-12-17,76,320-->
-2. proof ::: $\sqrt n = a / b$ implies $n = a^2 / b^2$, which implies $nb^2 = a^2$. If $b$ has a prime factor, then $a$ must have have it by this relation. However, since $a$ and $b$ are co-prime, their $\gcd(a, b) = 1$. So $b$ must not have any prime factors at all, as the least prime is 2. The only way this is possible is if $b = 1$. Then $n = a^2$. A solution for $n$ only exists if $n$ is a perfect square, as $a$ is an integer. Otherwise, this is impossible, meaning $\sqrt n$ is irrational by contradiction. And in the other case where $n$ is a perfect square, $b = 1$, so $\sqrt n = a / 1 = a$, an integer. So $\sqrt n$ is either a natural number or irrational. <!--SR:!2024-12-01,62,320!2024-10-30,34,280-->
+2. proof ::: $\sqrt n = a / b$ implies $n = a^2 / b^2$, which implies $nb^2 = a^2$. If $b$ has a prime factor, then $a$ must have have it by this relation. However, since $a$ and $b$ are co-prime, their $\gcd(a, b) = 1$. So $b$ must not have any prime factors at all, as the least prime is 2. The only way this is possible is if $b = 1$. Then $n = a^2$. A solution for $n$ only exists if $n$ is a perfect square, as $a$ is an integer. Otherwise, this is impossible, meaning $\sqrt n$ is irrational by contradiction. And in the other case where $n$ is a perfect square, $b = 1$, so $\sqrt n = a / 1 = a$, an integer. So $\sqrt n$ is either a natural number or irrational. <!--SR:!2024-12-01,62,320!2025-03-13,134,300-->
 
 ## fundamental theorem of arithmetic (existence)
 
@@ -122,4 +122,4 @@ Prove that {{there are 3 students in COMP 2711H whose birthday is on the same da
 
 - strategy ::: A trivial application of the pigeonhole principle. Of course, if Amir wants you to prove the slightly more generalized pigeonhole principle, use induction, which will not be shown here. <!--SR:!2024-12-05,66,320!2024-12-06,67,320-->
 
-1. solution ::: There are at most 31 days in a month. By the pigeonhole principle, there is at least a day with $\lceil 64 / 31 \rceil = 3$ students whose birthdays are on that day (ignoring the month).  (If Amir wants you to prove the slightly more generalized pigeonhole principle, use induction, which will not be shown here.) <!--SR:!2024-11-01,36,280!2024-10-30,37,300-->
+1. solution ::: There are at most 31 days in a month. By the pigeonhole principle, there is at least a day with $\lceil 64 / 31 \rceil = 3$ students whose birthdays are on that day (ignoring the month).  (If Amir wants you to prove the slightly more generalized pigeonhole principle, use induction, which will not be shown here.) <!--SR:!2024-11-01,36,280!2025-04-07,159,320-->

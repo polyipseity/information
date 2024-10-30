@@ -356,7 +356,7 @@ return chain.from_iterable(await gather(
 
 <!--pytextgen generate section="394a"--><!-- The following content is generated at 2024-01-28T09:35:10.023241+08:00. Any edits will be overridden! -->
 
-- <span style="color: green;">green</span>::iron(II) ion, nickel(II) ion, copper(II) ion, chromium(III) ion, vanadium(III) ion <!--SR:!2024-10-30,35,130-->
+- <span style="color: green;">green</span>::iron(II) ion, nickel(II) ion, copper(II) ion, chromium(III) ion, vanadium(III) ion <!--SR:!2024-12-19,50,130-->
 - <span style="color: blue; background-color: white;">blue</span>::copper(II) ion <!--SR:!2025-08-06,553,281-->
 - <span style="color: lightPink;">very pale pink</span>::manganese(II) ion <!--SR:!2025-03-30,513,321-->
 - <span style="color: pink;">pink</span>::cobalt(II) ion <!--SR:!2025-09-01,317,241-->
@@ -445,7 +445,7 @@ return chain.from_iterable(await gather(
 - hydrogensulfate ion::1- <!--SR:!2025-08-28,863,284-->
 - permanganate ion::1- <!--SR:!2025-03-12,226,250-->
 - oxide ion::2- <!--SR:!2026-10-22,1271,310-->
-- sulfide ion::2- <!--SR:!2024-10-30,507,250-->
+- sulfide ion::2- <!--SR:!2028-04-19,1267,250-->
 - sulfate ion::2- <!--SR:!2028-06-08,1688,310-->
 - sulfite ion::2- <!--SR:!2024-12-20,695,279-->
 - carbonate ion::2- <!--SR:!2029-01-16,1801,290-->

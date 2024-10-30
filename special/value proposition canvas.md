@@ -63,7 +63,7 @@ The value map itself has three parts: {{products and services, pain relievers, a
 
 ### customer profile
 
-Customer jobs can be split into three categories: {{functional jobs; social jobs, seek to be perceived in a certain way by others; and personal or emotional jobs, seek to feel a certain way}}. There are also supporting jobs arising from three different roles: {{buyer of value, buying value; co-creator of value, participating in creating value; and transferrer of value, end of lifecycle}}. Note that jobs {{have different priorities}}.  The jobs can be improved by {{asking why repeatedly until you find the root job}}. <!--SR:!2025-03-09,216,289!2025-02-17,205,289!2025-10-19,376,309!2024-10-30,130,325-->
+Customer jobs can be split into three categories: {{functional jobs; social jobs, seek to be perceived in a certain way by others; and personal or emotional jobs, seek to feel a certain way}}. There are also supporting jobs arising from three different roles: {{buyer of value, buying value; co-creator of value, participating in creating value; and transferrer of value, end of lifecycle}}. Note that jobs {{have different priorities}}.  The jobs can be improved by {{asking why repeatedly until you find the root job}}. <!--SR:!2025-03-09,216,289!2025-02-17,205,289!2025-10-19,376,309!2026-01-16,442,325-->
 
 Since customer jobs has {{functional and non-functional aspects}}, the resulting products can be categorized by {{functional complexity and emotional complexity}}. It is important that non-functional aspects are {{not ignored}}. For example, a hunching old person needs a stick, but {{the person also wants to not feel bad while using the stick}}. Sometimes, non-functional aspects are {{more important than functional ones}}, such as {{an extremely expensive sports car, which is mainly for showing status instead of driving on it}}. So a {{deep understanding}} of customer jobs is required. <!--SR:!2025-10-17,414,365!2025-09-26,393,365!2024-12-30,167,325!2025-03-11,233,345!2025-09-07,381,365!2025-02-27,206,325!2025-07-23,345,365-->
 
@@ -275,4 +275,4 @@ One test card is insufficient. Design {{a series of experiments, rank them by cr
 
 ## evolve
 
-Evolve is {{improving and reinvent yourself constantly}}. <!--SR:!2024-10-30,148,309-->
+Evolve is {{improving and reinvent yourself constantly}}. <!--SR:!2026-07-25,632,329-->

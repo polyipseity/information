@@ -102,7 +102,7 @@ Current assets are {{the most liquid assets of a firm, which are expected to be 
 - [accounts receivable](accounts%20receivable.md) ::: revenues earned but not yet collected <!--SR:!2024-11-07,42,290!2024-11-07,42,290-->
 - merchandise inventory ::: consists of goods and services a firm currently owns until it ends up getting sold <!--SR:!2024-11-17,51,290!2025-01-06,77,270-->
 - [investee companies](company.md) ::: expected to be held less than one financial period <!--SR:!2024-11-14,48,290!2025-02-13,107,290-->
-- [prepaid expenses](deferral.md) ::: expenses paid for in advance for use during that financial period <!--SR:!2024-10-30,36,290!2024-12-05,65,310-->
+- [prepaid expenses](deferral.md) ::: expenses paid for in advance for use during that financial period <!--SR:!2025-03-31,152,310!2024-12-05,65,310-->
 
 Non-current assets include {{[fixed](fixed%20asset.md) or long-term assets and [intangible assets](intangible%20asset.md)}}: <!--SR:!2024-10-31,35,270-->
 

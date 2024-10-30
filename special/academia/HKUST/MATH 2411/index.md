@@ -54,7 +54,7 @@ The content is in teaching order.
 - [inferential statistics](../../../../general/statistical%20inference.md) ::: statistical procedures that use data from an observed _sample_ to make a conclusion about a _population_ <!--SR:!2025-03-19,147,310!2024-11-23,60,310-->
   - inferential statistics / key terms ::: _population_: a collection of all objects of interest, _sample_: an analyzed part of the _population_; _parameter_: a numerical measure describing a _population_, _statistic_: a numerical measure describing a _sample_ <!--SR:!2024-11-10,54,310!2024-11-10,47,290-->
   - inferential statistics / reasons for sampling ::: cost-effectiveness, practicality <!--SR:!2025-02-06,112,290!2024-11-14,57,310-->
-  - inferential statistics / procedures ::: analysis of variance, estimation of parameters, goodness of fit test, hypothesis testing, probability distribution, regression, ... <!--SR:!2025-02-16,122,290!2024-10-30,41,290-->
+  - inferential statistics / procedures ::: analysis of variance, estimation of parameters, goodness of fit test, hypothesis testing, probability distribution, regression, ... <!--SR:!2025-02-16,122,290!2025-02-26,119,290-->
     - inferential statistics / procedures / analysis of variance ::: used to test the difference between two or more means <!--SR:!2024-11-30,67,310!2025-02-01,103,290-->
     - inferential statistics / procedures / estimation of parameters ::: estimate unknown parameters of a population based on a sample of the population <!--SR:!2024-12-05,72,310!2024-11-05,42,290-->
     - inferential statistics / procedures / goodness of fit test ::: test how well a hypothesized statistical model (distribution) fits the observed samples <!--SR:!2025-01-29,99,270!2025-03-26,152,290-->
@@ -73,14 +73,14 @@ The content is in teaching order.
   - descriptive statistics / why ::: communicate data and support your reasoning from data <!--SR:!2024-11-18,60,310!2024-11-10,53,310-->
   - descriptive statistics / methodologies
   - descriptive statistics / steps
-- [data](../../../../general/data.md) (singular: datum) ::: a collection of measurements and identifiers, which can take make many forms like numbers, strings, etc. <!--SR:!2024-10-30,42,290!2024-11-28,65,310-->
+- [data](../../../../general/data.md) (singular: datum) ::: a collection of measurements and identifiers, which can take make many forms like numbers, strings, etc. <!--SR:!2025-04-16,168,310!2024-11-28,65,310-->
   - data / reason for summarizing ::: Data cannot inform us well without summarization. Also see [DIKW pyramid](../../../../general/DIKW%20pyramid.md) (data, knowledge, information, wisdom). <!--SR:!2024-11-11,54,310!2024-12-06,73,310-->
   - data / reading a table ::: Data are commonly listed in a table. Each column is a characteristic which we called a _variable_. Each row (except for the header) is a datum which we called an _observation_. <!--SR:!2025-01-17,101,290!2024-11-09,52,310-->
   - data / types of variables ::: _categorical/qualitative_: distinct categories or labels, and can be subdivided into _nominal_ if the categories cannot be ranked or _ordinal_ if they can be ranked; _quantitative_: numerical, and can be subdivided into _continuous_ if it arises from measurement or _discrete_ if it arises from counting <!--SR:!2024-11-12,56,310!2024-11-10,54,310-->
     - data / types of variables / importance ::: proper interpretation of data, proper selection of statistical analysis (e.g. not averaging nominal variables) <!--SR:!2024-11-12,56,310!2025-01-23,95,270-->
     - data / types of variables / note ::: Sometimes for data processing, categorical values are mapped to numbers. Do not mistake them for quantitative values! <!--SR:!2024-11-26,63,310!2024-11-12,49,290-->
 - [descriptive statistics](../../../../general/descriptive%20statistics.md)
-  - descriptive statistics / common measures ::: central tendency (location), variability (spread/dispersion) <!--SR:!2024-10-30,42,290!2024-11-07,44,290-->
+  - descriptive statistics / common measures ::: central tendency (location), variability (spread/dispersion) <!--SR:!2025-04-16,168,310!2024-11-07,44,290-->
     - central tendency ::: sample mean, sample median, trimmed sample mean, ... <!--SR:!2024-11-11,54,310!2024-11-10,54,310-->
     - variability ::: inter-quartile range, sample range, sample standard deviation, sample variance <!--SR:!2024-11-12,49,290!2024-11-13,56,310-->
   - sample mean ::: Suppose we have $n$ _samples_ of a random variable $x$, labeled $x_1, \ldots, x_n$. Then its _sample mean_ is $$\bar x = \frac 1 n \sum_{k = 1}^n x_n$$. <!--SR:!2024-11-15,58,310!2024-11-17,60,310-->
@@ -147,7 +147,7 @@ The content is in teaching order.
   - scatter plot ::: Plots data that comes as pairs. Good for visualizing relationship between two variables (e.g. regression). <!--SR:!2024-12-04,71,310!2025-01-09,93,290-->
     - scatter plot / _R_ ::: use `plot(...)` <!--SR:!2024-11-17,59,310!2024-11-11,54,310-->
   - frequency table (categorical) ::: Categorical data is already pre-grouped. Then a _summary table_ is drawn based on the categories. This condenses the data and allows for quicker data interpretation. <!--SR:!2024-11-15,58,310!2025-01-06,81,270-->
-    - frequency table (categorical) / table headers ::: \<variable name\>, count, cumulative count (if ordinal), percent, cumulative percent (if ordinal), ... <!--SR:!2024-10-30,11,250!2025-02-05,105,270-->
+    - frequency table (categorical) / table headers ::: \<variable name\>, count, cumulative count (if ordinal), percent, cumulative percent (if ordinal), ... <!--SR:!2024-11-23,24,250!2025-02-05,105,270-->
   - pie chart ::: A filled circle showing proportions of different categories. <!--SR:!2024-11-16,58,310!2025-04-13,166,310-->
     - pie chart / _R_ ::: use `pie(...)` <!--SR:!2024-11-14,56,310!2024-11-09,53,310-->
   - bar chart ::: Bars showing counts of different categories. <!--SR:!2024-11-07,51,310!2024-11-21,63,310-->

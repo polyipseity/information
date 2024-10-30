@@ -37,7 +37,7 @@ The fusion rate in the core is {{in a self-correcting equilibrium}}: a slightly 
 
 - see: [radiation zone](radiation%20zone.md)
 
-The radiative zone is the thickest layer of the [Sun](sun.md), {{at 0.45 [solar radii](solar%20radius.md), extending from the core (0.25 solar radii) out to about 0.7 solar radii}}. {{[Thermal radiation](thermal%20radiation.md)}} is the primary means of energy transfer. The temperature drops from approximately 7 million to 1.5 million kelvins with increasing distance from the core. <!--SR:!2024-10-30,63,280!2024-10-30,77,320-->
+The radiative zone is the thickest layer of the [Sun](sun.md), {{at 0.45 [solar radii](solar%20radius.md), extending from the core (0.25 solar radii) out to about 0.7 solar radii}}. {{[Thermal radiation](thermal%20radiation.md)}} is the primary means of energy transfer. The temperature drops from approximately 7 million to 1.5 million kelvins with increasing distance from the core. <!--SR:!2025-04-28,180,280!2025-10-13,348,340-->
 
 ## convective zone
 
