@@ -36,7 +36,7 @@ __Fundamental Qualitative Characteristics__ ::: relevance, faithful representati
 __Enhancing Qualitative Characteristics__ ::: verifiability, comparability, understandability, timeliness <!--SR:!2025-01-20,95,290!2024-11-21,55,310-->
 
 - __Verifiability__ ::: Verifiability implies consensus between the different knowledgeable and independent users of financial information. Such information must be supported by sufficient evidence to follow the principle of objectivity. <!--SR:!2025-03-05,127,290!2025-01-26,90,270-->
-- __Comparability__ ::: Comparability is the uniform application of accounting methods across entities in the same industry. The principle of consistency is under comparability. Consistency is the uniform application of accounting across points in time within an entity. <!--SR:!2025-01-10,85,290!2024-10-31,35,270-->
+- __Comparability__ ::: Comparability is the uniform application of accounting methods across entities in the same industry. The principle of consistency is under comparability. Consistency is the uniform application of accounting across points in time within an entity. <!--SR:!2025-01-10,85,290!2025-03-15,135,290-->
 - __Understandability__ ::: Understandability means that accounting reports should be expressed as clearly as possible and should be understood by those to whom the information is relevant. <!--SR:!2024-11-08,42,290!2024-11-09,44,290-->
 - __Timeliness__ ::: Timeliness implies that financial information must be presented to the users before a decision is to be made. <!--SR:!2024-12-08,68,310!2024-11-19,52,310-->
 
@@ -50,7 +50,7 @@ The three components of financial statements are {{[statement of cash flows](cas
 
 The statement of cash flows is also called {{cash flow statement}}. <!--SR:!2024-12-15,68,335-->
 
-The statement of cash flows {{considers the inputs and outputs in concrete cash within a stated period}}. The general template of a cash flow statement is as follows: {{_Cash Inflow - Cash Outflow + Opening Balance = Closing Balance_}} <!--SR:!2024-11-08,44,290!2024-10-31,37,290-->
+The statement of cash flows {{considers the inputs and outputs in concrete cash within a stated period}}. The general template of a cash flow statement is as follows: {{_Cash Inflow - Cash Outflow + Opening Balance = Closing Balance_}} <!--SR:!2024-11-08,44,290!2025-04-01,152,310-->
 
 > [!example] example 1
 >
@@ -104,7 +104,7 @@ Current assets are {{the most liquid assets of a firm, which are expected to be 
 - [investee companies](company.md) ::: expected to be held less than one financial period <!--SR:!2024-11-14,48,290!2025-02-13,107,290-->
 - [prepaid expenses](deferral.md) ::: expenses paid for in advance for use during that financial period <!--SR:!2025-03-31,152,310!2024-12-05,65,310-->
 
-Non-current assets include {{[fixed](fixed%20asset.md) or long-term assets and [intangible assets](intangible%20asset.md)}}: <!--SR:!2024-10-31,35,270-->
+Non-current assets include {{[fixed](fixed%20asset.md) or long-term assets and [intangible assets](intangible%20asset.md)}}: <!--SR:!2025-03-15,135,290-->
 
 - _fixed (long-term) assets_ ::: property, building, equipment (such as factory machinery) <!--SR:!2024-11-28,59,310!2024-12-10,70,310-->
 - _intangible assets_ ::: copyrights, trademarks, patents, goodwill <!--SR:!2024-11-10,45,290!2024-11-08,44,290-->
@@ -128,7 +128,7 @@ This statement is {{additional to the three main statements described above}}. I
 
 One of the basic principles in accounting is {{"The Measuring Unit principle"}}: {{"The unit of measure in accounting shall be the base money unit of the most relevant currency. This principle also assumes the unit of measure is stable; that is, changes in its general purchasing power are not considered sufficiently important to require adjustments to the basic financial statements."}}<sup>[\[10\]](#^ref-10)</sup> <!--SR:!2024-12-05,65,310!2024-11-21,44,270-->
 
-This basic principle gives rise to the commonly used {{[historical cost accounting](historical%20cost.md), i.e., financial capital maintenance in nominal monetary units}}. It is based on {{the stable measuring unit assumption}} under which accountants {{simply assume that money, the monetary unit of measure, is perfectly stable in real value, for the purpose of measuring (1) monetary items not inflation-indexed daily in terms of the Daily CPI and (2) constant real value non-monetary items not updated daily in terms of the Daily CPI, during low and high inflation and deflation}}. <!--SR:!2024-11-16,50,290!2024-11-19,53,290!2024-10-31,34,270-->
+This basic principle gives rise to the commonly used {{[historical cost accounting](historical%20cost.md), i.e., financial capital maintenance in nominal monetary units}}. It is based on {{the stable measuring unit assumption}} under which accountants {{simply assume that money, the monetary unit of measure, is perfectly stable in real value, for the purpose of measuring (1) monetary items not inflation-indexed daily in terms of the Daily CPI and (2) constant real value non-monetary items not updated daily in terms of the Daily CPI, during low and high inflation and deflation}}. <!--SR:!2024-11-16,50,290!2024-11-19,53,290!2025-01-31,92,270-->
 
 ### units of constant purchasing power
 

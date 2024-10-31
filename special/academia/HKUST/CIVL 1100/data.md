@@ -87,7 +87,7 @@ See [Central Plaza (Hong Kong)](../../../../general/Central%20Plaza%20(Hong%20Ko
 See [Channel Tunnel](../../../../general/Channel%20Tunnel.md).
 
 - completion time ::: 1994 <!--SR:!2025-04-03,177,316!2026-04-28,565,396-->
-- rail tunnel length ::: 50.5 km (37.9 km underseas) <!--SR:!2024-10-31,33,236!2024-12-25,66,376-->
+- rail tunnel length ::: 50.5 km (37.9 km underseas) <!--SR:!2024-11-19,19,216!2024-12-25,66,376-->
 
 ## China International Trust and Investment Plaza
 
@@ -136,9 +136,9 @@ See [Great Pyramid of Giza](../../../../general/Great%20Pyramid%20of%20Giza.md).
 
 - base width ::: 230.33 m <!--SR:!2024-12-17,61,356!2024-11-03,137,396-->
 - construction period ::: 10~20 years around 2560 BC <!--SR:!2025-01-01,68,216!2026-02-17,488,396-->
-- description ::: largest pyramid in the Giza Necropolis, Egypt <!--SR:!2026-06-05,605,416!2024-10-31,134,396-->
+- description ::: largest pyramid in the Giza Necropolis, Egypt <!--SR:!2026-06-05,605,416!2026-11-12,742,416-->
 - height ::: current: 138.5 m, original: 146.6 m <!--SR:!2024-12-03,141,356!2024-11-02,136,396-->
-- weight ::: 5.9 million tonnes <!--SR:!2024-10-31,47,356!2024-11-10,142,396-->
+- weight ::: 5.9 million tonnes <!--SR:!2025-04-19,170,356!2024-11-10,142,396-->
 - tomb for ::: Egypt's 4th dynasty pharaoh Khufu <!--SR:!2026-01-21,457,376!2025-05-07,264,376-->
 
 ## Great Wall of China
@@ -192,7 +192,7 @@ See [International Commerce Centre](International%20Commerce%20Centre.md).
 - description ::: tallest building in [Hong Kong](../../../../general/Hong%20Kong.md) <!--SR:!2024-12-25,214,330!2025-11-28,471,390-->
 - height ::: architectural: 484 m, tip: 484 m, top floor: 468 m, roof: 484 m <!--SR:!2025-01-22,140,301!2025-01-15,231,330-->
 - image ::: ![International Commerce Centre image](../../../../archives/Wikimedia%20Commons/International%20Commerce%20Centre%20201008.jpg) <!--SR:!2025-03-17,232,360!2025-12-14,472,400-->
-- [structural system](../../../../general/structural%20system.md) ::: concrete–steel composite <!--SR:!2024-10-31,23,261!2026-02-24,538,401-->
+- [structural system](../../../../general/structural%20system.md) ::: concrete–steel composite <!--SR:!2025-01-01,62,261!2026-02-24,538,401-->
 
 ## Itaipu Dam
 

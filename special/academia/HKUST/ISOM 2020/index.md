@@ -46,7 +46,7 @@ The content is in teaching order.
   - [§ output](basics.md#output)
     - [basics § output](basics.md#output) / note ::: Jupyter notebooks automatically outputting the value of the last statement without using `print` is also considered "output". Note that strings are outputted, escaped with `\` properly (without unnecessary escapes), and preferably wrapped in `'`, and only uses `"` if there is at least 1 `'` in the string but not any `"`. <!--SR:!2024-11-04,33,303!2024-11-25,48,323-->
   - [§ variable](basics.md#variable)
-    - [basics § variable](basics.md#variable) / note ::: In a quiz question, they use the word "save", which means storing a value to a variable. Also, `+=`, `-=`, `*=`, `/=`, etc. are not taught and should NOT be used in exercises or exams. <!--SR:!2024-10-31,40,292!2025-03-22,146,312-->
+    - [basics § variable](basics.md#variable) / note ::: In a quiz question, they use the word "save", which means storing a value to a variable. Also, `+=`, `-=`, `*=`, `/=`, etc. are not taught and should NOT be used in exercises or exams. <!--SR:!2025-04-19,170,312!2025-03-22,146,312-->
   - [§ data types](basics.md#data%20types)
     - [basics § data types](basics.md#data%20types) / note ::: They have not taught `bool` (values: `True`, `False`) and `NoneType` (value: `None`) up to this point... <!--SR:!2025-01-10,92,292!2024-11-22,59,312-->
 - week 1 exercise: 1/1, graded

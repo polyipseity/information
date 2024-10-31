@@ -452,14 +452,14 @@ testing materials
 
 <!--pytextgen generate section="a93e"--><!-- The following content is generated at 2024-05-01T19:22:34.995351+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←budgeting <!--SR:!2024-10-31,140,327!2025-04-08,277,375-->
+- _(begin)_→:::←budgeting <!--SR:!2026-07-24,631,347!2025-04-08,277,375-->
 - budgeting→:::←contracting <!--SR:!2025-09-10,377,334!2024-11-08,146,327-->
 - contracting→:::←designing temporary structures <!--SR:!2025-01-10,173,215!2025-04-22,236,295-->
 - designing temporary structures→:::←logistics <!--SR:!2025-11-28,421,340!2024-12-10,71,277-->
 - logistics→:::←planning <!--SR:!2025-06-11,237,294!2025-11-05,401,335-->
 - planning→:::←procuring materials <!--SR:!2025-01-24,186,317!2025-02-03,175,277-->
 - procuring materials→:::←quality assurance <!--SR:!2025-01-23,173,300!2025-03-23,213,281-->
-- quality assurance→:::←quality control <!--SR:!2024-10-31,150,357!2025-01-13,182,352-->
+- quality assurance→:::←quality control <!--SR:!2026-11-12,742,377!2025-01-13,182,352-->
 - quality control→:::←safety engineering <!--SR:!2025-02-12,195,301!2024-11-24,71,235-->
 - safety engineering→:::←scheduling <!--SR:!2025-05-17,261,320!2025-11-12,407,340-->
 - scheduling→:::←surveying building site <!--SR:!2025-01-14,149,241!2026-02-05,476,320-->
@@ -598,7 +598,7 @@ nuclear
 - chemical→:::←civil <!--SR:!2026-01-19,455,337!2024-12-24,194,357-->
 - civil→:::←computer <!--SR:!2024-11-15,163,354!2024-12-17,189,352-->
 - computer→:::←electrical <!--SR:!2024-11-07,142,327!2025-01-18,142,315-->
-- electrical→:::←industrial <!--SR:!2025-01-30,122,301!2024-10-31,68,250-->
+- electrical→:::←industrial <!--SR:!2025-01-30,122,301!2025-04-27,178,250-->
 - industrial→:::←manufacturing <!--SR:!2025-11-26,420,337!2025-08-18,341,332-->
 - manufacturing→:::←mechanical <!--SR:!2025-09-08,380,377!2026-07-28,643,357-->
 - mechanical→:::←nuclear <!--SR:!2025-07-18,340,377!2024-12-14,168,335-->

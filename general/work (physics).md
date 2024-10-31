@@ -17,7 +17,7 @@ tags:
 > {{$$\delta W = \vec{F} \cdot \,\mathrm{d}\vec{s} = \vec{F} \cdot \vec{v} \,\mathrm{d}t$$}}
 >
 > - where
->   - {{$\delta W$ is the infinitesimal __work__ done by a [force](force.md) $\vec{F}$ over an infinitesimal [displacement (geometry)](displacement%20(geometry).md) $\mathrm{d}\vec{s}$ or at an instantaneous [velocity](velocity.md) $\vec{v}$ over an infinitesimal [time](time.md) $\mathrm{d}t$}} <!--SR:!2027-06-15,990,350!2024-10-31,243,330-->
+>   - {{$\delta W$ is the infinitesimal __work__ done by a [force](force.md) $\vec{F}$ over an infinitesimal [displacement (geometry)](displacement%20(geometry).md) $\mathrm{d}\vec{s}$ or at an instantaneous [velocity](velocity.md) $\vec{v}$ over an infinitesimal [time](time.md) $\mathrm{d}t$}} <!--SR:!2027-06-15,990,350!2027-01-01,792,330-->
 
 <!-- markdownlint MD028 -->
 

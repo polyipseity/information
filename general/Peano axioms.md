@@ -50,7 +50,7 @@ The remaining axioms {{define the arithmetical properties of the natural numbers
 
 The chain of light dominoes on the right, starting with the nearest, can {{represent the set __N__ of natural numbers}}. However, axioms 1–8 are {{_also_ satisfied by the set of all dominoes — whether light (am infinite chain of dominoes) or dark (a finite circular chain of dominoes) — taken together}}. The 9th axiom {{([induction](mathematical%20induction.md)) limits __N__ to the chain of light pieces ("no junk") as only light dominoes will fall when the nearest is toppled}}. {{Axioms 1, 6, 7, 8}} define {{a [unary representation](unary%20numeral%20system.md) of the intuitive notion of natural numbers: the number 1 can be defined as _S_(0), 2 as _S_(_S_(0)), etc.}} However, considering {{the notion of natural numbers as being defined by these axioms}}, axioms 1, 6, 7, 8 {{do not imply that the successor function generates all the natural numbers different from 0}}. <!--SR:!2024-11-27,59,310!2024-11-17,52,305!2025-03-08,132,305!2024-11-24,47,265!2025-01-20,95,305!2024-11-06,39,290!2024-12-03,65,325-->
 
-The intuitive notion that {{each natural number can be obtained by applying _successor_ sufficiently many times to zero}} requires {{an additional axiom, which is sometimes called the _[axiom of induction](mathematical%20induction.md#axiom%20of%20induction)_}}. <!--SR:!2024-12-05,67,325!2024-10-31,38,305-->
+The intuitive notion that {{each natural number can be obtained by applying _successor_ sufficiently many times to zero}} requires {{an additional axiom, which is sometimes called the _[axiom of induction](mathematical%20induction.md#axiom%20of%20induction)_}}. <!--SR:!2024-12-05,67,325!2025-02-23,115,305-->
 
 <!-- markdownlint-capture -->
 <!-- markdownlint-disable MD029 -->
@@ -68,7 +68,7 @@ In Peano's original formulation, the induction axiom is {{a [second-order axiom]
 
 ### defining arithmetic operations and relations
 
-If we use the second-order induction axiom, it is {{possible to define [addition](addition.md), [multiplication](multiplication.md), and [total (linear) ordering](total%20order.md) on [__N__](natural%20number.md#notation) directly using the axioms}}. However, with first-order induction, this is {{not possible and addition and multiplication are often added as axioms}}. The respective functions and relations are {{constructed in [set theory](set%20theory.md) or [second-order logic](second-order%20logic.md), and can be shown to be unique using the Peano axioms}}. <!--SR:!2024-10-31,36,285!2024-12-10,71,325!2025-01-16,86,285-->
+If we use the second-order induction axiom, it is {{possible to define [addition](addition.md), [multiplication](multiplication.md), and [total (linear) ordering](total%20order.md) on [__N__](natural%20number.md#notation) directly using the axioms}}. However, with first-order induction, this is {{not possible and addition and multiplication are often added as axioms}}. The respective functions and relations are {{constructed in [set theory](set%20theory.md) or [second-order logic](second-order%20logic.md), and can be shown to be unique using the Peano axioms}}. <!--SR:!2025-03-23,143,305!2024-12-10,71,325!2025-01-16,86,285-->
 
 #### addition
 

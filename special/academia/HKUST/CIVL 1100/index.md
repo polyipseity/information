@@ -69,7 +69,7 @@ The content is in teaching order.
 - [Young's modulus](../../../../general/Young's%20modulus.md)
   - [§ definition](../../../../general/Young's%20modulus.md#definition)
 - moment or [torque](../../../../general/torque.md)
-  - pivot ::: A moment requires a pivot to be defined. The pivot can be anywhere and does not need to be physical. <!--SR:!2024-10-31,112,310!2024-11-18,127,310-->
+  - pivot ::: A moment requires a pivot to be defined. The pivot can be anywhere and does not need to be physical. <!--SR:!2026-03-05,490,330!2024-11-18,127,310-->
   - torque intuition ::: Torque creates rotation just as force creates translation (linear movement). <!--SR:!2025-05-09,276,350!2025-07-17,331,350-->
   - [§ moment arm formula](../../../../general/torque.md#moment%20arm%20formula)
   - symbol of moment about point $P$ ::: $M_P$ <!--SR:!2025-06-18,308,350!2025-06-02,294,350-->
@@ -126,7 +126,7 @@ The content is in teaching order.
 - [rigid frame § description](../../../../general/rigid%20frame.md#description)
 - [shear wall § description](../../../../general/shear%20wall.md#description)
 - wall-frame ::: shear-walled frame: [rigid frame](../../../../general/rigid%20frame.md) + [shear wall](../../../../general/shear%20wall.md), see [shear wall § description](../../../../general/shear%20wall.md#description) <!--SR:!2025-02-15,203,330!2025-02-08,200,330-->
-  - wall-frame stiffness ::: stiffer than rigid frame or shear wall alone <!--SR:!2024-10-31,109,290!2025-09-04,370,350-->
+  - wall-frame stiffness ::: stiffer than rigid frame or shear wall alone <!--SR:!2025-09-22,326,290!2025-09-04,370,350-->
   - wall-frame economic limit ::: up to about 50 stories <!--SR:!2025-07-29,340,350!2025-02-12,205,330-->
 - framed tube ::: [tube](../../../../general/tube%20(structure).md) <!--SR:!2024-12-15,157,330!2025-03-16,216,330-->
   - [§ variation](../../../../general/tube%20(structure).md#variation)

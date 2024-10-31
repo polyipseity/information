@@ -55,7 +55,7 @@ The content is in teaching order.
   - [financial accounting](../../../../general/financial%20accounting.md) / practical reasons ::: record transactions, compliance with legislation and regulation <!--SR:!2024-11-04,27,277!2024-12-08,61,317-->
   - [financial accounting](../../../../general/financial%20accounting.md) / theoretical reasons ::: communicate financial information to external entities, signaling by the quality of financial statements, market reacts to financial statements <!--SR:!2025-01-18,82,277!2024-12-09,62,317-->
   - [financial accounting](../../../../general/financial%20accounting.md) / prepared by... ::: theoretically/legally: the board of directors; in practice: accounting and finance people, certified public accountants (CPAs) <!--SR:!2024-12-30,74,317!2024-11-09,37,297-->
-  - [financial accounting](../../../../general/financial%20accounting.md) / prepared for... ::: Stewardship-wise, shareholders. For decision making, all other stakeholders, such as creditors, corporate social responsibility (CSR) activists, government agencies, (environment, social, and governance (ESG)) investors, retirement funds, etc. <!--SR:!2024-10-31,31,277!2024-12-09,62,317-->
+  - [financial accounting](../../../../general/financial%20accounting.md) / prepared for... ::: Stewardship-wise, shareholders. For decision making, all other stakeholders, such as creditors, corporate social responsibility (CSR) activists, government agencies, (environment, social, and governance (ESG)) investors, retirement funds, etc. <!--SR:!2025-01-28,89,277!2024-12-09,62,317-->
   - [management accounting](../../../../general/management%20accounting.md) / standards, report format ::: Generally Accepted Accounting Principles (GAAP), including financial reporting standards (FRS), company laws, and listing rules <!--SR:!2024-12-09,62,317!2024-11-21,42,297-->
 
 ## week 2 lecture
@@ -84,7 +84,7 @@ The content is in teaching order.
   - [§ public business entities structure](../../../../general/balance%20sheet.md#public%20business%20entities%20structure)
 - [asset](../../../../general/asset.md) ::: any resource, tangible or intangible, that can be used to produce positive economic value; economic resource with probable future benefits <!--SR:!2024-11-29,52,317!2024-11-13,36,297-->
   - [§ asset](../../../../general/asset.md#asset)
-- [liability](../../../../general/liability%20(financial%20accounting).md) ::: value that an entity is expected to deliver in the future to satisfy a present obligation arising from past events; probable future sacrifices of economic resources <!--SR:!2024-11-06,34,297!2024-10-31,31,277-->
+- [liability](../../../../general/liability%20(financial%20accounting).md) ::: value that an entity is expected to deliver in the future to satisfy a present obligation arising from past events; probable future sacrifices of economic resources <!--SR:!2024-11-06,34,297!2025-01-28,89,277-->
   - [§ liability](../../../../general/liability%20(financial%20accounting).md#liability)
 - [equity](../../../../general/equity%20(finance).md) ::: ownership interest in property that may be offset by debts or other liabilities; stockholder's equity: financing provided by owners and business operations <!--SR:!2024-12-07,60,317!2024-11-14,37,297-->
   - [§ equity](../../../../general/equity%20(finance).md#equity)

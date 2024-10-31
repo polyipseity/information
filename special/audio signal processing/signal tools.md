@@ -13,7 +13,7 @@ We introduced {{3 signal tools: [Audacity](#Audacity), [SonicVisualiser](#SonicV
 
 ## Audacity
 
-Audacity is {{an audio editor}}. It can be downloaded from {{<https://audacityteam.org/>}} <!--SR:!2024-11-03,66,310!2024-10-31,63,310-->
+Audacity is {{an audio editor}}. It can be downloaded from {{<https://audacityteam.org/>}} <!--SR:!2024-11-03,66,310!2025-08-10,283,330-->
 
 ### analysis (Audacity)
 

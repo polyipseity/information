@@ -125,7 +125,7 @@ return _chain.from_iterable(await _gather(
 - 0 < _n_ < 1::under [ideal gas law](ideal%20gas%20law.md), [heat](heat.md) and [work](work%20(physics).md) flow in the opposite direction; when [volume](volume.md) increases, [temperature](temperature.md) increases <!--SR:!2025-03-06,242,250-->
 - _n_ = 1::$pV = C$; under [ideal gas law](ideal%20gas%20law.md), equivalent to [isothermic process](isothermic%20process.md), and [heat](heat.md) and [work](work%20(physics).md) flow in opposite direction <!--SR:!2024-12-02,270,330-->
 - 1 < _n_ < _γ_::under [ideal gas law](ideal%20gas%20law.md), [heat](heat.md) and [work](work%20(physics).md) flow in the opposite direction; when [volume](volume.md) increases, [temperature](temperature.md) decreases <!--SR:!2024-12-05,85,250-->
-- _n_ = _γ_::under [ideal gas law](ideal%20gas%20law.md), equivalent to [isentropic process](isentropic%20process.md), and there is no [heat](heat.md) flow <!--SR:!2024-10-31,244,330-->
+- _n_ = _γ_::under [ideal gas law](ideal%20gas%20law.md), equivalent to [isentropic process](isentropic%20process.md), and there is no [heat](heat.md) flow <!--SR:!2027-11-17,1112,350-->
 - _γ_ < _n_ < +∞::under [ideal gas law](ideal%20gas%20law.md), [heat](heat.md) and [work](work%20(physics).md) flow in the same direction <!--SR:!2026-05-24,622,310-->
 - _n_ = +∞::$V = C$, equivalent to [isochoric process](isochoric%20process.md); there is no [work](work%20(physics).md) <!--SR:!2027-11-16,1112,350-->
 
