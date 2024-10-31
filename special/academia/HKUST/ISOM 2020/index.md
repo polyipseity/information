@@ -260,6 +260,7 @@ The content is in teaching order.
 - datetime: 2024-10-19T15:00:00+08:00/2024-10-19T16:30:00+08:00, PT1H30M
 - venue: Lecture Theater B, Lecture Theater C, Lecture Theater J, Lecture Theater L
 - [cheatsheet](cheatsheet.md): provided during the examination
+- grades: ?/?
 
 ## aftermath
 

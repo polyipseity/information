@@ -218,6 +218,13 @@ The content is in teaching order.
   - probability axioms / additive law ::: The __additive law__ is: $$P(A \cup B) = P(A) + P(B) - P(A \cap B) \,.$$ When _A_ and _B_ are disjoint, then _P_(_A_ ∩ _B_) is 0 and the above degenerates into the finite additivity theorem. <p> The above is a special case of the [inclusion–exclusion principle](../../../../general/inclusion–exclusion%20principle.md), which can handle any countable number of events: $$\mathbb {P} \left(\bigcup _{i=1}^{n}A_{i}\right)=\sum _{k=1}^{n}\left((-1)^{k-1}\sum _{I\subseteq \{1,\ldots ,n\} \atop |I|=k}\mathbb {P} (A_{I})\right) \,.$$ <!--SR:!2024-11-11,19,341!2024-11-11,19,341-->
 - assignment
   - [assignment 1](assignments/assignent%201/index.md): 20/20, graded
+    - statistics: L1
+      - mean: 15.09
+      - low: 0
+      - lower quartile: 11.25
+      - median: 14
+      - upper quartile: 20
+      - high: 20
 
 ## week 3 lecture 2
 
@@ -261,7 +268,7 @@ The content is in teaching order.
   - [chain rule § two events](../../../../general/chain%20rule%20(probability).md#two%20events) ::: This is the same as the _multiplicative rule_. <!--SR:!2024-11-11,19,341!2024-11-11,19,338-->
   - [chain rule § finitely many events](../../../../general/chain%20rule%20(probability).md#finitely%20many%20events) ::: $$\begin{aligned} \mathbb P(A_1 \cap \ldots \cap A_n) & = \mathbb P(A_1 \cap \ldots \cap A_{n - 1}) \mathbb P(A_n \mid A_1 \cap \ldots \cap A_{n - 1}) \\ & = \mathbb P(A_1) \mathbb P(A_2 \mid A_1) \ldots \mathbb P(A_n \mid A_1 \cap \ldots \cap A_{n - 1}) \\ & = \prod_{k = 1}^n \mathbb P(A_k \mid A_1 \cap \ldots A_{k - 1}) \\ & = \prod_{k = 1}^n \mathbb P\left(A_k \,\Bigg|\, \bigcap_{j = 1}^{k - 1} A_j \right) \end{aligned}$$ <!--SR:!2024-11-11,19,341!2024-11-11,19,338-->
 - [law of total probability](../../../../general/law%20of%20total%20probability.md#statement) ::: If $$\left\{{B_n : n = 1, 2, 3, \ldots}\right\}$$ is a _finite or countably infinite_ set of _mutually exclusive_ and _collectively exhaustive_ events $$P(A)=\sum_n P(A\mid B_n)P(B_n) \,,$$ where, for any $n$, if $P(B_n) = 0$, then these terms are simply omitted from the summation since $P(A\mid B_n)$ is finite. <p> The set of $B_n$ is also known as a __partition__ of the sample space. <!--SR:!2024-11-05,14,321!2024-11-05,14,321-->
-- [Bayes' theorem](../../../../general/Bayes'%20theorem.md#statement%20of%20the%20theorem) ::: __Bayes' theorem__ relates _P_(_A_|_B_) to _P_(_B_|_A_). It states $$P(A \mid B) = \frac {P(B \mid A) P(A)} {P(B)} \qquad P(B) \ne 0 \,.$$ (The course also states _P_(_A_) ≠ 0, but this is not actually required.) Sometimes the theorem is stated in the form where the denominator is replaced using the law of total probability. <!--SR:!2024-11-11,19,341!2024-11-11,19,341-->
+- [Bayes' theorem](../../../../general/Bayes'%20theorem.md#statement%20of%20the%20theorem) ::: __Bayes' theorem__ relates _P_(_A_|_B_) to _P_(_B_|_A_). It states $$P(A \mid B) = \frac {P(B \mid A) P(A)} {P(B)} \qquad P(B) \ne 0 \,.$$ (The course also states _P_(_A_) ≠ 0, but this is not actually required.) Sometimes the theorem is stated in the form where the denominator is replaced using the _law of total probability_. <!--SR:!2024-11-11,19,341!2024-11-11,19,341-->
 - supplementary examples
   - [randomized response](../../../../general/randomized%20response.md) :::  It allows respondents to respond to sensitive issues (such as criminal behavior or sexuality) while maintaining confidentiality. For example, we want to know about if a person has done something. We prepare two questions: one asking if the person has done something, the other asking if the person has NOT done something. We randomly choose one of the questions, the probability of which can be calculated (e.g. coin flip), to ask. <p> This is an application of Bayes' theorem. <!--SR:!2024-11-11,19,341!2024-11-11,19,341-->
   - the boy who cried wolf ::: We can apply Bayes' theorem to mathematically analyze this fable. <!--SR:!2024-11-04,12,321!2024-11-11,19,338-->
@@ -388,6 +395,23 @@ The content is in teaching order.
 
 - datetime: 2024-10-20T14:00:00+08:00/2024-10-20T15:30:00+08:00, PT1H30M
 - venue: Lecture Theater B (L1), Lecture Theater J (L2)
+- [cheatsheet](MATH%202411%20midterm%20examination%20cheatsheet.pdf)
 - report
   - When you see $\mathcal N(0, 100)$, do not mistake the 100 as the standard deviation! It is the variance. Almost screwed this up in the midterm examination...
   - Inputted $\binom {100} 1$ as 1 instead of 100 into the calculator when evaluating a binomial distribution...
+  - Simplified $\frac 4 {b^2} \left(b\right)$ into $\frac 4 {b^3}$ instead of $\frac 4 b$...
+- grades: 48/50
+  - statistics: L1
+    - mean: 29.93
+    - low: 2
+    - lower quartile: 22
+    - median: 30
+    - upper quartile: 37
+    - high: 50
+  - statistics: L2
+    - mean: 32.14
+    - low: 8
+    - lower quartile: 25
+    - median: 32
+    - upper quartile: 41
+    - high: 50
