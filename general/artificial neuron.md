@@ -37,7 +37,7 @@ In this case, the output _y_ is {{simply the net input _u_ multiplied by a const
 
 - see: [sigmoid function](sigmoid%20function.md)
 
-[Sigmoid functions](sigmoid%20function.md) are {{fairly simple non-linear activation functions}}. Usually, it refers to the {{[logistic function](logistic%20function.md) with _L_ = 1, _k_ = 1, and _x_<sub>0</sub> = 0}}: {{$$y = \frac 1 {1 + e^{-u} }$$}}. Its more practical counterpart is {{the [hyperbolic tangent](hyperbolic%20function.md) ($\tanh$)}}: {{$$y = \frac {\sinh u} {\cosh u} = \frac {e^u - e^{-u} } {e^u + e^{-u} } = \frac {e^{2u} - 1} {e^{2u} + 1}$$}}
+[Sigmoid functions](sigmoid%20function.md) are {{fairly simple non-linear activation functions}}. Usually, it refers to the {{[logistic function](logistic%20function.md) with _L_ = 1, _k_ = 1, and _x_<sub>0</sub> = 0}}: {{$$y = \frac L {1 + e^{-k(u - x_0)} } = \frac 1 {1 + e^{-u} }$$}}. Its more practical counterpart is {{the [hyperbolic tangent](hyperbolic%20function.md) ($\tanh$)}}: {{$$y = \frac {\sinh u} {\cosh u} = \frac {e^u - e^{-u} } {e^u + e^{-u} } = \frac {e^{2u} - 1} {e^{2u} + 1}$$}}
 
 ### rectifier
 
