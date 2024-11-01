@@ -15,7 +15,7 @@ tags:
 
 ## formal definition
 
-Area can be defined {{from [axioms](axiom.md)}}. Area is {{a [function](function%20(mathematics).md) from a collection $M$ of measurable sets, for some definition of measurability, to the set of real numbers $\mathbb{R}$ ($a: M \to \mathbb{R}$) satisfying the following properties}}: <!--SR:!2026-09-30,728,330!2024-11-01,179,270-->
+Area can be defined {{from [axioms](axiom.md)}}. Area is {{a [function](function%20(mathematics).md) from a collection $M$ of measurable sets, for some definition of measurability, to the set of real numbers $\mathbb{R}$ ($a: M \to \mathbb{R}$) satisfying the following properties}}: <!--SR:!2026-09-30,728,330!2026-03-21,505,270-->
 
 ```Python
 # pytextgen generate data

@@ -15,7 +15,7 @@ In [calculus](calculus.md), an __antiderivative__, __inverse derivative__, __pri
 
 Antiderivatives are related to {{[definite integrals](integral.md) through the [second fundamental theorem of calculus](fundamental%20theorem%20of%20calculus.md#second%20part)}}. <!--SR:!2025-07-31,338,290-->
 
-It is important to note {{antiderivatives and integrability are not equivalent. A function that has antiderivatives may not be [Riemann integrable](Riemann%20integral.md), and a Riemann integrable function may not have antiderivatives}}. If we replace the Riemann integral with {{[Henstock–Kurzweil integral](Henstock–Kurzweil%20integral.md), then a function that has antiderivatives is always integrable, though the converse is still not true}}. A [continuous function](continuous%20function.md) {{always has antiderivatives by the [first fundamental theorem of calculus](fundamental%20theorem%20of%20calculus.md#first%20part)}}. <!--SR:!2025-02-24,202,270!2024-11-01,122,250!2024-12-27,192,310-->
+It is important to note {{antiderivatives and integrability are not equivalent. A function that has antiderivatives may not be [Riemann integrable](Riemann%20integral.md), and a Riemann integrable function may not have antiderivatives}}. If we replace the Riemann integral with {{[Henstock–Kurzweil integral](Henstock–Kurzweil%20integral.md), then a function that has antiderivatives is always integrable, though the converse is still not true}}. A [continuous function](continuous%20function.md) {{always has antiderivatives by the [first fundamental theorem of calculus](fundamental%20theorem%20of%20calculus.md#first%20part)}}. <!--SR:!2025-02-24,202,270!2025-09-13,316,250!2024-12-27,192,310-->
 
 ## references
 

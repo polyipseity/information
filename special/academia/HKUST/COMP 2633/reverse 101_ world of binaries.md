@@ -27,7 +27,7 @@ However, we can go further than this. The program `<output>` is {{actually a for
 
 Instead, we are more interested in {{the compilation process itself}}. We like to think of compilation as a single process, but {{it is really composed of several steps: preprocessing (`-E`), then compilation (`-S`), then assembly (`-c`), and finally linking (none)}}. <!--SR:!2024-12-13,80,345!2024-12-06,72,323-->
 
-Preprocessing {{transforms source program (text) into modified source program (still text)}}. GCC internally {{uses the program `cpp`, which we can use by itself}}, for this step. To only run this step with GCC, the command is {{`gcc -E <input>.c > <output>.i`, which writes to `<output>.i`}}. <!--SR:!2024-12-12,79,345!2024-11-19,56,325!2024-11-01,44,303-->
+Preprocessing {{transforms source program (text) into modified source program (still text)}}. GCC internally {{uses the program `cpp`, which we can use by itself}}, for this step. To only run this step with GCC, the command is {{`gcc -E <input>.c > <output>.i`, which writes to `<output>.i`}}. <!--SR:!2024-12-12,79,345!2024-11-19,56,325!2025-03-20,139,303-->
 
 Compilation {{transforms modified source program (text) into assembly program (still text)}}. GCC internally {{uses the program `cc1`, part of the GCC}}, for this step. To only run this step, the command is {{`gcc -S <input>.i`, which outputs a `.s` file}}. <!--SR:!2024-11-21,59,337!2024-11-23,60,323!2025-01-26,101,303-->
 
@@ -83,7 +83,7 @@ Below is a list of common instructions (in learning order):
 - `test <left>, <right>` ::: Bitwise and `<left>` with `<right>`. If the result is zero, the zero flag `ZF` is set (`1`), otherwise unset (`0`). That is, the zero flag represents if there are common `1` bits between `<left>` and `<right>`. If `<left>` equals `<right>`, then this is equivalent to checking if `<left>`/`<right>` is zero. <!--SR:!2024-12-07,75,345!2024-12-15,81,345-->
 - `jcc <addr>` ::: Jump to `<addr>` depending on a condition. `cc` stands for `condition code`. It represents multiple instructions, such as `je` (jump if equal), `jz` (jump if zero, equivalent to `je`), `jnz` (jump if nonzero), `jg` (jump if greater, signed), `ja` (jump if above, unsigned), `jbe` (jump if below or equal, unsigned), `jnle` (jump if not less or equal), etc. Usually used with a `cmp` or `test` in the previous executed instruction. <!--SR:!2024-11-11,48,325!2024-11-16,54,323-->
 - `nop` ::: Does nothing. It has the value `0x90`. <!--SR:!2024-12-09,76,343!2024-11-24,62,323-->
-- `syscall` ::: Perform a system call (syscall). A system call interacts with the operating system. The system call invoked depends on the value of `eax`/`rax`, and parameters required by the system call depends on other registers. <!--SR:!2024-11-01,45,317!2024-12-03,70,323-->
+- `syscall` ::: Perform a system call (syscall). A system call interacts with the operating system. The system call invoked depends on the value of `eax`/`rax`, and parameters required by the system call depends on other registers. <!--SR:!2025-05-22,202,337!2024-12-03,70,323-->
   - `syscall` / write ::: `rax` is `1`, `rdi` is the file descriptor to be written to (`1` for stdout), `rsi` is the start address of the string to write, and `rdx` is the length of the string to write. Note that the null terminator is irrelevant here, as assembly does not specify a way to indicate the end of a string and can accommodate any way of doing so. <!--SR:!2024-11-23,37,230!2024-11-17,55,317-->
 
 ### sections
@@ -141,7 +141,7 @@ Static analysis is {{analyzing the program without actually executing it}}. Of c
 Some common tools are:
 
 - `objdump` ::: Dump information from object files (`.o`). Use `-d <file>` for disassembly, `-h <file>` for section headers, and add `-M intel` for outputting in the Intel syntax. <!--SR:!2025-01-17,99,325!2024-11-13,51,325-->
-- Radare2 (`r2`) ::: Display information from object files (`.o`). To use it interactively, simply pass the filepath to the program. To use it non-interactively, pass `-c "aaaa; pdf @ sym.main; q!"` before the filepath. Common useful commands include `aaaa`, `pdf @ sym.main`, `?`, `<command>?`, etc. <!--SR:!2024-11-24,52,250!2024-11-01,39,290-->
+- Radare2 (`r2`) ::: Display information from object files (`.o`). To use it interactively, simply pass the filepath to the program. To use it non-interactively, pass `-c "aaaa; pdf @ sym.main; q!"` before the filepath. Common useful commands include `aaaa`, `pdf @ sym.main`, `?`, `<command>?`, etc. <!--SR:!2024-11-24,52,250!2025-02-22,113,290-->
 - Ghidra ::: An open-source powerful decompiler and disassembler developed by the National Security Agency (NSA). <!--SR:!2024-12-14,80,343!2024-12-01,69,337-->
 - `file <file>` ::: Determine possible file types of `<file>`. <!--SR:!2024-12-14,80,337!2024-11-19,57,310-->
 - `strings <file>` ::: Print sequences of printable strings in `<file>`. To exclude tiny strings, add `-n <minimum string length>` before `<file>`. <!--SR:!2024-12-13,79,345!2024-12-09,76,345-->

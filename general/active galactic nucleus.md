@@ -21,7 +21,7 @@ The observed characteristics of an AGN depend on {{several properties such as th
 
 ## unification of AGN species
 
-Unified models propose that {{different observational classes of AGN are a single type of physical object observed under different conditions}}. The currently favoured unified models are {{'orientation-based unified models' meaning that they propose that the apparent differences between different types of objects arise simply because of their different orientations to the observer}}. However, {{they are debated}} (see below). <!--SR:!2024-11-01,53,301!2024-11-21,73,321!2024-11-22,74,321-->
+Unified models propose that {{different observational classes of AGN are a single type of physical object observed under different conditions}}. The currently favoured unified models are {{'orientation-based unified models' meaning that they propose that the apparent differences between different types of objects arise simply because of their different orientations to the observer}}. However, {{they are debated}} (see below). <!--SR:!2025-06-19,230,321!2024-11-21,73,321!2024-11-22,74,321-->
 
 ## references
 

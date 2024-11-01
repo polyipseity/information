@@ -145,7 +145,7 @@ See [Great Pyramid of Giza](../../../../general/Great%20Pyramid%20of%20Giza.md).
 
 See [Great Wall of China](../../../../general/Great%20Wall%20of%20China.md).
 
-- component ::: fortress, horse track, pass, shelter, wall, watch tower <!--SR:!2025-06-24,271,316!2024-11-01,135,396-->
+- component ::: fortress, horse track, pass, shelter, wall, watch tower <!--SR:!2025-06-24,271,316!2026-11-17,746,416-->
 - construction period ::: 220 BC under Qin Shi Huang, and continued up to the Ming dynasty (1368–1644) <!--SR:!2025-02-20,200,356!2024-12-01,159,396-->
 - geographic locations ::: begins in the east at Shanhaiguan (山海關), Hebei; and ends in the west at Jiayuguan (嘉峪關), Gansu <!--SR:!2025-02-23,202,356!2025-12-27,436,376-->
 - length ::: 21196.18 km <!--SR:!2025-02-04,96,256!2024-11-15,147,396-->
@@ -155,7 +155,7 @@ See [Great Wall of China](../../../../general/Great%20Wall%20of%20China.md).
 See [HSBC Building (Hong Kong)](HSBC%20Building%20(Hong%20Kong).md).
 
 - description ::: headquarters building of [The Hongkong and Shanghai Banking Corporation](HSBC%20(Hong%20Kong).md) <!--SR:!2025-01-15,197,354!2025-03-05,256,330-->
-- height ::: roof: 178.8 m <!--SR:!2024-11-01,32,221!2025-05-07,325,350-->
+- height ::: roof: 178.8 m <!--SR:!2025-01-10,70,221!2025-05-07,325,350-->
 - image ::: ![HSBC Main Building image](../../../../archives/Wikimedia%20Commons/HK%20HSBC%20Main%20Building%202008%20(cropped).jpg) <!--SR:!2025-06-05,312,380!2026-02-04,519,400-->
 - [structural system](../../../../general/structural%20system.md) ::: steel [suspended structure](../../../../general/suspended%20structure.md)<!-- flashcard b5c46b64-11cf-4605-a97e-3a159f12185f --> <!--SR:!2026-06-14,601,341!2025-10-22,432,401-->
 

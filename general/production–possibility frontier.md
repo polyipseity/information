@@ -57,7 +57,7 @@ If {{the two production goods depicted are [capital](capital%20(economics).md) [
 
 > {{![figure 4: frontier points that violate allocative efficiency](../archives/Wikimedia%20Commons/04%20production-possibilities-frontier-2.png)}}
 >
-> figure 4: {{frontier points that violate allocative efficiency}} <!--SR:!2024-11-14,35,270!2024-11-01,24,250-->
+> figure 4: {{frontier points that violate allocative efficiency}} <!--SR:!2024-11-14,35,270!2025-01-27,87,270-->
 
 Production-Possibility Frontier delineates {{the maximum amount/quantities of outputs (goods/services) an economy can achieve}}, given {{fixed resources ([factors of production](factors%20of%20production.md)) and fixed technological progress}}. <!--SR:!2024-12-27,72,310!2024-12-04,50,290-->
 

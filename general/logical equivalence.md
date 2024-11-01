@@ -23,7 +23,7 @@ In logic, many common logical equivalences {{exist and are often listed as laws 
 - [double negation](double%20negation.md) law ::: $$\neg (\neg p)\equiv p$$ <!--SR:!2024-11-24,57,310!2024-11-25,55,301-->
 - [commutative laws](commutative%20property.md) ::: $$\begin{aligned} p\vee q & \equiv q\vee p \\ p\wedge q &\equiv q\wedge p \end{aligned}$$ <!--SR:!2024-12-07,67,321!2024-11-23,56,310-->
 - [associative laws](associative%20property.md) ::: $$\begin{aligned} (p \lor q) \lor r & \equiv p \lor (q \lor r) \\ (p \land q) \land r & \equiv p \land (q \land r) \end{aligned}$$ <!--SR:!2024-12-06,68,329!2024-11-14,48,290-->
-- [distributive laws](distributive%20property.md) ::: $$\begin{aligned} p \lor (q \land r) & \equiv (p \lor q) \land (p \lor r) \\ p \land (q \lor r) & \equiv (p \land q) \lor (p \land r) \end{aligned}$$ <!--SR:!2024-11-01,39,301!2025-03-21,144,301-->
+- [distributive laws](distributive%20property.md) ::: $$\begin{aligned} p \lor (q \land r) & \equiv (p \lor q) \land (p \lor r) \\ p \land (q \lor r) & \equiv (p \land q) \lor (p \land r) \end{aligned}$$ <!--SR:!2025-04-18,168,321!2025-03-21,144,301-->
 - [De Morgan's laws](De%20Morgan's%20laws.md) ::: $$\begin{aligned} \lnot (p \land q) & \equiv \lnot p \lor \lnot q \\ \lnot (p \lor q) & \equiv \lnot p \land \lnot q \end{aligned}$$ <!--SR:!2024-11-06,43,301!2024-12-08,68,316-->
 - [absorption laws](absorption%20law.md) ::: $$\begin{aligned} p \lor (p \land q) & \equiv p \\ p \land (p \lor q) & \equiv p \end{aligned}$$ <!--SR:!2024-11-02,38,290!2024-11-29,62,316-->
 $p\vee (p\wedge q)\equiv p$$p\wedge (p\vee q)\equiv p$
