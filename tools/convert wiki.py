@@ -122,27 +122,107 @@ async def wiki_html_to_plaintext(
     process_strings: Callable[[str], str] = lambda strings: strings
     prefix, suffix = "", ""
     match ele.name:
-        case "p":
-            suffix = "\n\n"
+        # bold, italic, style
         case name if name in ("b", "i") or compile(r"font-style: *italic").search(
             str(ele.get("style", ""))
         ):
             times = 2 if ele.name == "b" else 1
             prefix, suffix = "_" * times, "_" * times
+            process_strings_bi_pattern = compile(r"^( *)(.*?)( *)$", DOTALL)
 
-            process_strings0_pattern = compile(r"^( *)(.*?)( *)$", DOTALL)
-
-            def process_strings0(strings: str):
+            def process_strings_bi(strings: str):
                 nonlocal prefix, suffix
-                match = process_strings0_pattern.match(strings)
+                match = process_strings_bi_pattern.match(strings)
                 assert match
                 prefix = f"{match[1]}{prefix}"
                 suffix += match[3]
                 return match[2]
 
-            process_strings = process_strings0
+            process_strings = process_strings_bi
+        # literal tags
         case "s" | "sub" | "sup" | "u":
             prefix, suffix = _tag_affixes(ele.name)
+        # newlines
+        case "dd":
+            suffix = "\n"
+        case "dl" | "p":
+            suffix = "\n\n"
+        # headers
+        case name if (header_match := compile(r"h(\d?)").match(name)):
+            prefix, suffix = f"{'#' * int(header_match[1] or '1')} ", "\n\n"
+            process_strings = lambda strings: _fix_name_maybe(strings.strip())
+        # code
+        case "code":
+
+            def process_strings_code(strings: str):
+                nonlocal prefix, suffix
+                delimiter = "`"
+                while delimiter in strings:
+                    delimiter += "`"
+                prefix, suffix = delimiter, delimiter
+                if strings.startswith("`") or strings.endswith("`"):
+                    strings = f" {strings} "
+                return strings
+
+            process_strings = process_strings_code
+        # mathematics
+        case "math":
+            if alt_text := ele.get("alttext"):
+                alt_text = str(alt_text)
+                alt_text_len = len(alt_text)
+                alt_text = alt_text.removeprefix(R"{\displaystyle ")
+                if len(alt_text) == alt_text_len:
+                    alt_text = alt_text.removeprefix(R"{\textstyle ")
+                if len(alt_text) <= alt_text_len:
+                    alt_text = alt_text.removesuffix(R"}")
+                while (
+                    alt_text2 := alt_text.replace(R"{{", R"{ {")
+                    .replace(R"}}", R"} }")
+                    .replace(R"::", R": :")
+                ) != alt_text:
+                    alt_text = alt_text2
+                alt_text = alt_text.strip()
+
+                is_not_separate_paragraph = (
+                    (parent := ele.parent)
+                    and (parent := parent.parent)
+                    and (parent := parent.parent)
+                    and len(parent) > 1
+                )
+                is_inline = (parent := ele.parent) and "inline" in str(
+                    parent.get("class", "")
+                )
+                inline = is_not_separate_paragraph and is_inline
+
+                prefix, suffix = "$" if inline else "$$", "$" if inline else "$$"
+
+                # for char in ".,":
+                #     if alt_text.endswith(char):
+                #         suffix += alt_text[-1]
+                #         alt_text = alt_text[:-1]
+                # alt_text = alt_text.strip()
+
+                ele.clear()
+                ele.append(alt_text)
+        # lists
+        case "ol":
+            if list_stack:
+                prefix = "\n"
+            suffix = "\n\n"
+            list_stack += (0,)
+        case "ul":
+            if list_stack:
+                prefix = "\n"
+            suffix = "\n\n"
+            list_stack += (-1,)
+        case "li":
+            if list_stack and (item := list_stack[-1]) >= 1:
+                prefix, suffix = f"{_LIST_INDENT * (len(list_stack) - 1)}{item}. ", "\n"
+                if str(ele.get("id", "")).startswith("cite_"):
+                    suffix = f' <a id="^ref-{item}"></a>^ref-{item}{suffix}'
+            else:
+                prefix, suffix = f"{_LIST_INDENT * (len(list_stack) - 1)}- ", "\n"
+        # links
         case "a":
             process = True
             if title := ele.get("title"):
@@ -201,68 +281,7 @@ async def wiki_html_to_plaintext(
                 process = False
             if process:
                 process_strings = _markdown_link_name
-        case "dl":
-            suffix = "\n\n"
-        case "ol":
-            if list_stack:
-                prefix = "\n"
-            suffix = "\n\n"
-            list_stack += (0,)
-        case "ul":
-            if list_stack:
-                prefix = "\n"
-            suffix = "\n\n"
-            list_stack += (-1,)
-        case "dd":
-            suffix = "\n"
-        case "li":
-            if list_stack and (item := list_stack[-1]) >= 1:
-                prefix, suffix = f"{_LIST_INDENT * (len(list_stack) - 1)}{item}. ", "\n"
-                if str(ele.get("id", "")).startswith("cite_"):
-                    suffix = f' <a id="^ref-{item}"></a>^ref-{item}{suffix}'
-            else:
-                prefix, suffix = f"{_LIST_INDENT * (len(list_stack) - 1)}- ", "\n"
-        case "math":
-            if alt_text := ele.get("alttext"):
-                alt_text = str(alt_text)
-                alt_text_len = len(alt_text)
-                alt_text = alt_text.removeprefix(R"{\displaystyle ")
-                if len(alt_text) == alt_text_len:
-                    alt_text = alt_text.removeprefix(R"{\textstyle ")
-                if len(alt_text) <= alt_text_len:
-                    alt_text = alt_text.removesuffix(R"}")
-                while (
-                    alt_text2 := alt_text.replace(R"{{", R"{ {")
-                    .replace(R"}}", R"} }")
-                    .replace(R"::", R": :")
-                ) != alt_text:
-                    alt_text = alt_text2
-                alt_text = alt_text.strip()
-
-                is_not_separate_paragraph = (
-                    (parent := ele.parent)
-                    and (parent := parent.parent)
-                    and (parent := parent.parent)
-                    and len(parent) > 1
-                )
-                is_inline = (parent := ele.parent) and "inline" in str(
-                    parent.get("class", "")
-                )
-                inline = is_not_separate_paragraph and is_inline
-
-                prefix, suffix = "$" if inline else "$$", "$" if inline else "$$"
-
-                # for char in ".,":
-                #     if alt_text.endswith(char):
-                #         suffix += alt_text[-1]
-                #         alt_text = alt_text[:-1]
-                # alt_text = alt_text.strip()
-
-                ele.clear()
-                ele.append(alt_text)
-        case name if (header_match := compile(r"h(\d?)").match(name)):
-            prefix, suffix = f"{'#' * int(header_match[1] or '1')} ", "\n\n"
-            process_strings = lambda strings: _fix_name_maybe(strings.strip())
+        # unhandled tags
         case _:
             pass
 
