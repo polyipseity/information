@@ -57,7 +57,7 @@ Prove that {{any two consecutive elements of the Fibonacci sequence are relative
 
 ## irrationality of square roots of prime numbers
 
-We know that $\sqrt 2$ is irrational from [above](#irrationality%20of%20the%20square%20root%20of%202). Prove that {{$\sqrt 3$ is irrational. Then prove that $\sqrt 5$ is irrational. Finally, prove that $\sqrt p$ is irrational for all prime numbers $p$}}. <!--SR:!2024-11-02,39,300-->
+We know that $\sqrt 2$ is irrational from [above](#irrationality%20of%20the%20square%20root%20of%202). Prove that {{$\sqrt 3$ is irrational. Then prove that $\sqrt 5$ is irrational. Finally, prove that $\sqrt p$ is irrational for all prime numbers $p$}}. <!--SR:!2025-04-20,169,320-->
 
 - strategy ::: Prove by contradiction via infinite descent. Some properties of prime numbers should be important in the proof. <!--SR:!2025-02-18,117,300!2024-12-20,79,320-->
 

@@ -20,7 +20,7 @@ In [mathematics](mathematics.md), the __characteristic equation__ or __auxiliary
 
 ## formation of the general solution
 
-After finding the [roots](zero%20of%20a%20function.md) of the characteristic equation, {{the general solution to the [differential equation](differential%20equation.md) can be formed from the roots}}. Given {{there are $n$ roots (regardless of whether it is [repeated](multiplicity%20(mathematics).md#multiplicity%20of%20a%20root%20of%20a%20polynomial.md) or [complex](complex%20number.md)) corresponding to $n$ solutions $y_1(x),y_2(x),\ldots,y_{n-1}(x),y_n(x)$}}, by {{the [superposition principle](superposition%20princple.md)}}, the general solution is {{$$y(x)=y_1(x)+y_2(x)+\cdots+y_{n-1}(x)+y_n(x)$$}}. <!--SR:!2024-11-02,261,330!2025-11-28,501,310!2024-11-03,19,327!2024-11-03,19,327-->
+After finding the [roots](zero%20of%20a%20function.md) of the characteristic equation, {{the general solution to the [differential equation](differential%20equation.md) can be formed from the roots}}. Given {{there are $n$ roots (regardless of whether it is [repeated](multiplicity%20(mathematics).md#multiplicity%20of%20a%20root%20of%20a%20polynomial.md) or [complex](complex%20number.md)) corresponding to $n$ solutions $y_1(x),y_2(x),\ldots,y_{n-1}(x),y_n(x)$}}, by {{the [superposition principle](superposition%20princple.md)}}, the general solution is {{$$y(x)=y_1(x)+y_2(x)+\cdots+y_{n-1}(x)+y_n(x)$$}}. <!--SR:!2028-02-02,1187,350!2025-11-28,501,310!2024-11-03,19,327!2024-11-03,19,327-->
 
 ### distinct real roots
 

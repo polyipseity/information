@@ -20,7 +20,7 @@ This [celestial coordinate system](astronomical%20coordinate%20systems.md) divid
 The following are {{the two independent horizontal [angular coordinates](spherical%20coordinate%20system.md)}}: <!--SR:!2025-02-19,163,310-->
 
 - altitude (alt.) ::: Also referred to as elevation or apparent height. It is the angle between the object and the horizon. Positive means above the horizon. <!--SR:!2025-01-16,138,290!2025-04-26,229,330-->
-- azimuth (az.) ::: It is the angle of the object around the horizon. Usually measured from [true north](true%20north.md) and increasing [eastward](east.md). <!--SR:!2024-11-02,80,270!2025-02-21,176,310-->
+- azimuth (az.) ::: It is the angle of the object around the horizon. Usually measured from [true north](true%20north.md) and increasing [eastward](east.md). <!--SR:!2024-12-16,44,250!2025-02-21,176,310-->
 
 ## references
 

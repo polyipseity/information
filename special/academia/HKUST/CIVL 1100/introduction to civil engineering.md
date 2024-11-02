@@ -46,7 +46,7 @@ The content is in teaching order.
     - [long-span structure examples](#long%20span%20structure%20examples)
     - underground structure examples ::: Turin–Lyon high-speed railway (2002–2032), 271 km long, has the Mont Cenis base tunnel that is 57.5 km long with up to 4 km long access tunnels <!--SR:!2025-07-30,317,321!2026-03-27,517,352-->
   - [civil engineering new challenges](#civil%20engineering%20new%20challenges)
-    - climate change engineering examples ::: Project MOSE (2003–2025) in Venice, Thames Barrier (1974–1982) <!--SR:!2024-11-02,120,287!2025-09-10,376,380-->
+    - climate change engineering examples ::: Project MOSE (2003–2025) in Venice, Thames Barrier (1974–1982) <!--SR:!2025-10-12,344,287!2025-09-10,376,380-->
       - Thames Barrier (1974–1982) mechanism ::: The gate is a chord of a circle. It rotates along the circumference of the circle. When open, it acts like the river floor. When closing, the chord rotates about the circle center and becomes a barrier. <!--SR:!2025-09-21,372,337!2024-11-22,149,340-->
 - civil engineering solutions ::: smart cities <!--SR:!2026-03-06,545,400!2025-09-01,375,376-->
   - smart cities examples ::: Using technology to gather information, predict events, and notify people. <!--SR:!2025-03-24,304,335!2026-01-13,502,400-->
@@ -498,7 +498,7 @@ teaming up with others
 
 <!--pytextgen generate section="ee20"--><!-- The following content is generated at 2024-02-16T21:59:47.378182+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←business procedures <!--SR:!2024-11-02,111,252!2026-03-19,557,401-->
+- _(begin)_→:::←business procedures <!--SR:!2025-08-20,291,252!2026-03-19,557,401-->
 - business procedures→:::←economics <!--SR:!2024-11-19,82,261!2025-02-10,193,285-->
 - economics→:::←human behaviors <!--SR:!2025-02-04,127,300!2026-01-10,444,340-->
 - human behaviors→:::←management principles <!--SR:!2024-12-25,139,300!2024-11-04,95,260-->
@@ -915,7 +915,7 @@ polypropylene fiber reinforced concrete
 - _(begin)_→:::←artificial stone <!--SR:!2025-07-09,265,297!2025-07-31,398,365-->
 - artificial stone→:::←cellular concrete <!--SR:!2024-11-12,128,300!2025-07-28,331,335-->
 - cellular concrete→:::←engineered cement composite <!--SR:!2025-12-11,413,270!2024-12-05,166,330-->
-- engineered cement composite→:::←fly ash concrete <!--SR:!2024-11-02,143,337!2025-09-02,341,320-->
+- engineered cement composite→:::←fly ash concrete <!--SR:!2026-03-09,492,337!2025-09-02,341,320-->
 - fly ash concrete→:::←polypropylene fiber reinforced concrete <!--SR:!2025-03-31,209,280!2025-08-14,344,335-->
 - polypropylene fiber reinforced concrete→:::←_(end)_ <!--SR:!2025-06-10,311,372!2025-10-18,373,320-->
 
@@ -1018,7 +1018,7 @@ Taipei 101
 - _(begin)_→:::←HSBC Main Building <!--SR:!2025-10-31,379,317!2025-04-01,312,330-->
 - HSBC Main Building→:::←International Commerce Centre <!--SR:!2025-02-17,111,277!2025-05-06,208,334-->
 - International Commerce Centre→:::←John Hancock Center <!--SR:!2025-10-04,361,320!2024-12-24,105,297-->
-- John Hancock Center→:::←Taipei 101 <!--SR:!2024-11-02,137,341!2025-10-16,373,312-->
+- John Hancock Center→:::←Taipei 101 <!--SR:!2026-02-18,473,341!2025-10-16,373,312-->
 - Taipei 101→:::←_(end)_ <!--SR:!2025-04-10,280,367!2025-03-18,141,301-->
 
 <!--/pytextgen-->

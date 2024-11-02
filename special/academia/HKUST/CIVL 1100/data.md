@@ -78,7 +78,7 @@ See [CN Tower](../../../../general/CN%20Tower.md).
 See [Central Plaza (Hong Kong)](../../../../general/Central%20Plaza%20(Hong%20Kong).md).
 
 - description ::: super tall skyscraper in Wan Chai, Hong Kong <!--SR:!2024-11-26,170,355!2025-10-02,399,377-->
-- height ::: architectural: 373.9 m, top floor: 299 m <!--SR:!2024-11-02,25,221!2025-09-25,392,376-->
+- height ::: architectural: 373.9 m, top floor: 299 m <!--SR:!2024-12-29,57,221!2025-09-25,392,376-->
 - image ::: ![Central Plaza (Hong Kong) image](../../../../archives/Wikimedia%20Commons/Hong%20Kong%20Convention%20and%20Exhibition%20Centre%20200906(cropped).jpg) <!--SR:!2025-02-03,158,360!2025-11-07,446,400-->
 - [structural system](../../../../general/structural%20system.md) ::: reinforced concrete<!-- flashcard 90e284d1-1940-43c0-b5d7-1b8bea6e3c3e --> <!--SR:!2024-12-27,173,341!2025-07-15,330,381-->
 
@@ -128,7 +128,7 @@ See [Empire State Building](../../../../general/Empire%20State%20Building.md).
 
 See [Golden Gate Bridge](../../../../general/Golden%20Gate%20Bridge.md).
 
-- image ::: ![Golden Gate Bridge image](../../../../archives/Wikimedia%20Commons/Golden%20Gate%20Bridge%20as%20seen%20from%20Battery%20East.jpg) <!--SR:!2026-05-30,599,416!2024-11-02,136,396-->
+- image ::: ![Golden Gate Bridge image](../../../../archives/Wikimedia%20Commons/Golden%20Gate%20Bridge%20as%20seen%20from%20Battery%20East.jpg) <!--SR:!2026-05-30,599,416!2026-11-19,747,416-->
 
 ## Great Pyramid of Giza
 
@@ -137,7 +137,7 @@ See [Great Pyramid of Giza](../../../../general/Great%20Pyramid%20of%20Giza.md).
 - base width ::: 230.33 m <!--SR:!2024-12-17,61,356!2024-11-03,137,396-->
 - construction period ::: 10~20 years around 2560 BC <!--SR:!2025-01-01,68,216!2026-02-17,488,396-->
 - description ::: largest pyramid in the Giza Necropolis, Egypt <!--SR:!2026-06-05,605,416!2026-11-12,742,416-->
-- height ::: current: 138.5 m, original: 146.6 m <!--SR:!2024-12-03,141,356!2024-11-02,136,396-->
+- height ::: current: 138.5 m, original: 146.6 m <!--SR:!2024-12-03,141,356!2026-04-26,540,396-->
 - weight ::: 5.9 million tonnes <!--SR:!2025-04-19,170,356!2024-11-10,142,396-->
 - tomb for ::: Egypt's 4th dynasty pharaoh Khufu <!--SR:!2026-01-21,457,376!2025-05-07,264,376-->
 
@@ -251,7 +251,7 @@ See [Panama Canal](../../../../general/Panama%20Canal.md).
 
 See [Parthenon](../../../../general/Parthenon.md).
 
-- construction period ::: 447 BC to 438 BC, 9 years <!--SR:!2024-11-02,39,196!2024-12-01,159,396-->
+- construction period ::: 447 BC to 438 BC, 9 years <!--SR:!2025-01-18,77,196!2024-12-01,159,396-->
 - dedication ::: Greek goddess Athena <!--SR:!2024-12-08,166,396!2024-11-08,141,396-->
 - description ::: temple on the Athenian Acropolis, Greece, dedicated to the Greek goddess Athena <!--SR:!2024-11-21,135,356!2024-11-06,139,396-->
 - geographic location ::: Athenian Acropolis, Greece <!--SR:!2024-11-29,138,356!2026-08-20,672,416-->

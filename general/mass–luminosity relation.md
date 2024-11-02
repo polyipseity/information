@@ -25,7 +25,7 @@ $$\begin{aligned}
 - mass thresholds ::: $0.43M_\odot, 2M_\odot, 55M_\odot$ <!--SR:!2025-07-01,247,321!2025-10-25,359,341-->
 - $M \le 0.43M_{\odot}$ ::: $a = 2.3, C = 0.23$ <!--SR:!2024-11-24,78,270!2025-01-17,117,290-->
 - $0.43M_{\odot} \le M \le 2M_{\odot}$ ::: $a = 4, C = 1$ <!--SR:!2025-01-04,112,290!2025-04-13,180,301-->
-- $2M_{\odot} \le M \le 55M_{\odot}$ ::: $a = 3.5, C = 1.4$ <!--SR:!2024-11-02,65,261!2024-12-23,92,250-->
+- $2M_{\odot} \le M \le 55M_{\odot}$ ::: $a = 3.5, C = 1.4$ <!--SR:!2025-04-28,177,261!2024-12-23,92,250-->
 - $M \ge 55M_{\odot}$ ::: $a = 1, C = 32\,000$ <!--SR:!2024-12-26,103,281!2025-05-01,205,310-->
 
 The mass/luminosity relationship can also be used to {{determine the lifetime of [stars](star.md)}} by {{noting that lifetime is approximately proportional to _M_/_L_}} although {{one finds that more massive stars have shorter lifetimes than that which the _M_/_L_ relationship predicts}}. A more sophisticated calculation factors in {{a star's [loss of mass](stellar%20mass%20loss.md) over [time](time.md)}}. <!--SR:!2025-02-01,140,310!2025-09-26,332,341!2025-02-16,152,310!2025-07-16,274,330-->

@@ -132,7 +132,7 @@ Commands names can be {{truncated at the end to produce an abbreviation if the a
 
 ## buffer overflow
 
-A buffer is {{simply a portion of the memory used to store the data}}. As {{real computers have limited memory}}, the buffer is {{also limited in its size}}. The buffer may be on {{the stack, the heap, read-write segment, read-execute segment, or really anywhere the memory is mapped by the OS}}. A buffer is {{usually contagious, that is, it is a continuous portion of the memory}}, so we can identify a buffer by {{its low (start) address (inclusive) and high (end) address (exclusive)}}. <!--SR:!2024-12-24,68,310!2024-11-19,48,290!2024-12-06,50,290!2024-11-02,30,290!2024-11-18,41,290!2024-11-28,51,310-->
+A buffer is {{simply a portion of the memory used to store the data}}. As {{real computers have limited memory}}, the buffer is {{also limited in its size}}. The buffer may be on {{the stack, the heap, read-write segment, read-execute segment, or really anywhere the memory is mapped by the OS}}. A buffer is {{usually contagious, that is, it is a continuous portion of the memory}}, so we can identify a buffer by {{its low (start) address (inclusive) and high (end) address (exclusive)}}. <!--SR:!2024-12-24,68,310!2024-11-19,48,290!2024-12-06,50,290!2025-03-03,121,310!2024-11-18,41,290!2024-11-28,51,310-->
 
 The buffers we are usually interested in exploiting is {{usually on the first three because we can write to the buffer}}. We will only {{focus on buffers on the stack because they are the easiest to exploit}}. <!--SR:!2024-12-11,62,310!2024-11-22,43,290-->
 

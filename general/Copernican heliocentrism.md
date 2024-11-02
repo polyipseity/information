@@ -22,7 +22,7 @@ The model uses ideas such as:
 - [apparent retrograde motion](apparent%20retrograde%20motion.md) ::: Apparent retrograde motions of other planets are explained by the Earth's motion relative to other planets. <!--SR:!2025-05-02,199,321!2025-06-18,261,341-->
 - [stars](star.md) ::: The distance from [Earth](Earth.md) to the [Sun](Sun.md) is small compared to the distance from the Sun to the [stars](star.md). <!--SR:!2025-02-22,153,321!2025-11-16,380,361-->
 
-The model has several advantages: {{simpler and more elegant}}, and naturally explains several phenomenons: {{[apparent retrograde motion](apparent%20retrograde%20motion.md), changing brightness of planets, and motion of [inferior planets](inferior%20and%20superior%20planets.md)}}. But it is not without disadvantages: {{not more accurate than old models (due to the incorrect assumption of perfectly circular orbits)}}, and {{[Earth](Earth.md) needs to move in very high speed, which is generally thought to be improbable at the time}}. <!--SR:!2024-11-02,83,341!2025-06-21,256,341!2025-06-27,269,341!2024-11-02,82,341-->
+The model has several advantages: {{simpler and more elegant}}, and naturally explains several phenomenons: {{[apparent retrograde motion](apparent%20retrograde%20motion.md), changing brightness of planets, and motion of [inferior planets](inferior%20and%20superior%20planets.md)}}. But it is not without disadvantages: {{not more accurate than old models (due to the incorrect assumption of perfectly circular orbits)}}, and {{[Earth](Earth.md) needs to move in very high speed, which is generally thought to be improbable at the time}}. <!--SR:!2025-12-08,401,361!2025-06-21,256,341!2025-06-27,269,341!2025-12-08,401,361-->
 
 ## Copernican theory
 

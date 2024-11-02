@@ -45,7 +45,7 @@ __Nonprobability sampling__ is {{any sampling method where some elements of the 
 
 > [!example] example
 >
-> We visit every household in a given street, and interview the first person to answer the door. In any household with more than one occupant, this is {{a nonprobability sample}}, because {{some people are more likely to answer the door (e.g. an unemployed person who spends most of their time at home is more likely to answer than an employed housemate who might be at work when the interviewer calls)}} and {{it's not practical to calculate these probabilities}}. <!--SR:!2024-11-29,68,310!2024-11-02,45,290!2025-04-20,173,310-->
+> We visit every household in a given street, and interview the first person to answer the door. In any household with more than one occupant, this is {{a nonprobability sample}}, because {{some people are more likely to answer the door (e.g. an unemployed person who spends most of their time at home is more likely to answer than an employed housemate who might be at work when the interviewer calls)}} and {{it's not practical to calculate these probabilities}}. <!--SR:!2024-11-29,68,310!2025-05-09,188,310!2025-04-20,173,310-->
 
 Nonprobability sampling methods include {{[convenience sampling](convenience%20sampling.md), [quota sampling](quota%20sampling.md), and [purposive sampling](nonprobability%20sampling.md)}}. In addition, nonresponse effects {{may turn _any_ probability design into a nonprobability design if the characteristics of nonresponse are not well understood}}, since {{nonresponse effectively modifies each element's probability of being sampled}}. <!--SR:!2024-11-26,65,310!2025-01-17,90,270!2024-11-21,60,310-->
 

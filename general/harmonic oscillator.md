@@ -152,7 +152,7 @@ Through [nondimensionalization](nondimensionalization.md), the equation below {{
 > {{$$\frac{\mathrm{d}^2 q}{\mathrm{d}\tau^2} + 2 \zeta \frac{\mathrm{d} q}{\mathrm{d}\tau} + q = f(\tau)$$}}
 >
 > - where
->   - properties: {{$\tau$ is the [independent variable](dependent%20and%20independent%29variables.md), $q$ is the [dependent variable](dependent%20and%20independent%29variables.md), $\zeta$ is the damping ratio, and $f(\tau)$ is the [forcing function](forcing%20function%20(differential%20equations).md)}} <!--SR:!2024-11-02,236,332!2026-11-19,758,332-->
+>   - properties: {{$\tau$ is the [independent variable](dependent%20and%20independent%29variables.md), $q$ is the [dependent variable](dependent%20and%20independent%29variables.md), $\zeta$ is the damping ratio, and $f(\tau)$ is the [forcing function](forcing%20function%20(differential%20equations).md)}} <!--SR:!2027-01-31,820,332!2026-11-19,758,332-->
 
 In terms of properties, the universal oscillator equation is {{the same as the equation for a [driven, damped harmonic oscillator](#driven,%20damped%20harmonic%20oscillator) but with less [constants](constant%20(mathematics).md)}}. <!--SR:!2024-12-16,271,332-->
 

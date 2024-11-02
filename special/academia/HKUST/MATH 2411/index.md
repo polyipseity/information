@@ -113,7 +113,7 @@ The content is in teaching order.
     - line chart / _R_ ::: use `plot(...)` <!--SR:!2024-12-03,70,310!2024-11-16,58,310-->
   - frequency table (quantitative) ::: Data is grouped into numerically ordered non-overlapping _categories_ or _class intervals_. Then a _summary table_ is drawn based on the grouped data. This condenses the data and allows for quicker data interpretation. <!--SR:!2024-11-16,53,290!2024-11-18,60,310-->
     - frequency table (quantitative) / procedure ::: Decide the number of class intervals (usually 5 to 20). Divide the data into that many intervals (usually covering the data range evenly). Adjust the class interval boundaries to avoid overlapping (as endpoints are inclusive). Construct the summary table. <!--SR:!2024-12-06,59,250!2025-04-05,161,310-->
-    - frequency table (quantitative) / table headers ::: class interval, class midpoint, frequency, relative frequency, ... <!--SR:!2024-11-20,62,310!2024-11-02,16,250-->
+    - frequency table (quantitative) / table headers ::: class interval, class midpoint, frequency, relative frequency, ... <!--SR:!2024-11-20,62,310!2024-12-16,44,250-->
   - histogram ::: A bar chart based on the frequency table. The x-axis labels the class intervals while the y-axis labels the frequency or density (relative frequency). <!--SR:!2024-12-02,69,310!2025-01-06,81,270-->
     - histogram / _R_ ::: use `hist(...)`, or `histogram(...)` after importing `library(lattice)` (different style) <!--SR:!2024-11-06,50,310!2024-11-06,50,310-->
 - [descriptive statistics](../../../../general/descriptive%20statistics.md)
@@ -161,7 +161,7 @@ The content is in teaching order.
     - [sampling § sampling errors and biases](../../../../general/sampling%20(statistics).md#sampling%20errors%20and%20biases)
     - [sampling § non-sampling errors](../../../../general/sampling%20(statistics).md#non-sampling%20errors)
   - [probability sampling](../../../../general/sampling%20(statistics).md#sampling%20frame) ::: It supports strong statistical inferences from a sample to the population, minimizing selection bias. It involves random selection: any individual has a nonzero probability being picked, and said probability can be determined. <!--SR:!2024-11-13,50,290!2024-11-17,60,310-->
-    - probability sampling / examples ::: cluster sampling, simple random sampling, stratified sampling, systematic sampling, ... <!--SR:!2024-11-16,47,250!2024-11-02,45,290-->
+    - probability sampling / examples ::: cluster sampling, simple random sampling, stratified sampling, systematic sampling, ... <!--SR:!2024-11-16,47,250!2025-03-19,137,290-->
     - probability sampling / simple random sampling ::: All individual in a population has equal probability of being selected. <!--SR:!2024-11-18,60,310!2024-11-28,65,310-->
     - probability sampling / systematic sampling ::: A _probabilistic_ method is used to select individuals of a population, such as sampling every third person. <!--SR:!2024-11-04,46,290!2024-12-02,69,310-->
     - probability sampling / stratified sampling ::: Individuals are split into groups based on certain characters. Then simple random sampling is applied on each group. <!--SR:!2024-11-12,55,310!2024-12-16,69,270-->

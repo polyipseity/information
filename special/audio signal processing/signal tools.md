@@ -29,7 +29,7 @@ SonicVisualiser is {{an audio visualization, analysis, and annotation tool}}. It
 
 ### applying DFT on complicated sounds
 
-SonicVisualiser can {{apply DFT on complicated sounds and produce a magnitude spectrum of its frequencies}}. <!--SR:!2024-11-02,49,318-->
+SonicVisualiser can {{apply DFT on complicated sounds and produce a magnitude spectrum of its frequencies}}. <!--SR:!2025-06-14,224,338-->
 
 ## sms-tools
 

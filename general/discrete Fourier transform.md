@@ -24,7 +24,7 @@ The _discrete Fourier transform_ {{transforms a [sequence](sequence.md) of _N_ [
 
 > {{__discrete Fourier transform (Eq. 1)__}}
 >
-> {{$$X_k = \sum_{n = 0}^{N - 1} x_n \cdot e^{-i2\pi \frac k N n}$$}} <!--SR:!2024-11-02,68,310!2025-03-21,155,290-->
+> {{$$X_k = \sum_{n = 0}^{N - 1} x_n \cdot e^{-i2\pi \frac k N n}$$}} <!--SR:!2025-08-29,300,330!2025-03-21,155,290-->
 
 The transform is sometimes denoted by {{$\mathcal F$, as in $\mathbf X = \mathcal F\set{\mathbf x}$ or $\mathcal F(\mathbf x)$ or $\mathcal F \mathbf x$}}. <!--SR:!2025-07-29,274,330-->
 
@@ -43,9 +43,9 @@ The inverse transform is given by:
 >
 > {{$$x_n = \frac 1 N \sum_{k = 0}^{N - 1} X_k \cdot e^{i 2\pi \frac k N n}$$}} <!--SR:!2024-11-03,61,270!2024-11-16,65,270-->
 
-__Eq.2__ is {{also $N$-periodic (in index $n$)}}. In __Eq.2__, each $X_k$ is {{a complex number whose polar coordinates are the amplitude and phase of a complex sinusoidal component $\left(e^{i 2\pi \frac k N n}\right)$ of function $x_n$}}. (see [discrete Fourier series](discrete%20Fourier%20series.md)) The sinusoid's [frequency](frequency.md) is {{$k$ cycles per $N$ samples}}. <!--SR:!2025-08-07,283,330!2025-02-09,124,290!2024-11-02,66,310-->
+__Eq.2__ is {{also $N$-periodic (in index $n$)}}. In __Eq.2__, each $X_k$ is {{a complex number whose polar coordinates are the amplitude and phase of a complex sinusoidal component $\left(e^{i 2\pi \frac k N n}\right)$ of function $x_n$}}. (see [discrete Fourier series](discrete%20Fourier%20series.md)) The sinusoid's [frequency](frequency.md) is {{$k$ cycles per $N$ samples}}. <!--SR:!2025-08-07,283,330!2025-02-09,124,290!2025-05-26,205,310-->
 
-{{The normalization factor multiplying the DFT and IDFT (here $1$ and $\frac 1 N$) and the signs of the exponents}} are {{the most common [conventions](sign%20convention.md)}}. The only actual requirements of these conventions are that {{the DFT and IDFT have opposite-sign exponents and that the product of their normalization factors be $\frac 1 N$}}. {{An uncommon normalization of $\sqrt{\frac 1 N}$ for both the DFT and IDFT}} makes {{the transform-pair unitary}}. <!--SR:!2025-07-19,267,330!2025-07-13,260,330!2024-11-02,65,310!2025-03-08,144,290!2025-01-26,115,290-->
+{{The normalization factor multiplying the DFT and IDFT (here $1$ and $\frac 1 N$) and the signs of the exponents}} are {{the most common [conventions](sign%20convention.md)}}. The only actual requirements of these conventions are that {{the DFT and IDFT have opposite-sign exponents and that the product of their normalization factors be $\frac 1 N$}}. {{An uncommon normalization of $\sqrt{\frac 1 N}$ for both the DFT and IDFT}} makes {{the transform-pair unitary}}. <!--SR:!2025-07-19,267,330!2025-07-13,260,330!2025-08-20,291,330!2025-03-08,144,290!2025-01-26,115,290-->
 
 ## properties
 
@@ -83,7 +83,7 @@ The vectors {{$u_{k}=\left[\left.e^{ {\frac {i2\pi }{N} }kn}\;\right|\;n=0,1,\ld
 
 ### The Plancherel theorem and Parseval's theorem
 
-If {{$X_{k}$ and $Y_{k}$ are the DFTs of $x_{n}$ and $y_{n}$ respectively}} then {{[Parseval's theorem](parseval's%20theorem.md)}} states: {{$$\sum _{n=0}^{N-1}x_{n}y_{n}^{*}={\frac {1}{N} }\sum _{k=0}^{N-1}X_{k}Y_{k}^{*}$$}} where the star denotes [complex conjugation](complex%20conjugate.md). {{The [Plancherel theorem](plancherel%20theorem.md)}} is {{a special case of Parseval's theorem}} and states: {{$$\sum _{n=0}^{N-1}|x_{n}|^{2}={\frac {1}{N} }\sum _{k=0}^{N-1}|X_{k}|^{2}$$}}. <!--SR:!2025-06-18,239,336!2025-03-08,144,316!2024-11-10,26,296!2024-12-08,76,276!2025-04-10,182,336!2024-11-02,64,336-->
+If {{$X_{k}$ and $Y_{k}$ are the DFTs of $x_{n}$ and $y_{n}$ respectively}} then {{[Parseval's theorem](parseval's%20theorem.md)}} states: {{$$\sum _{n=0}^{N-1}x_{n}y_{n}^{*}={\frac {1}{N} }\sum _{k=0}^{N-1}X_{k}Y_{k}^{*}$$}} where the star denotes [complex conjugation](complex%20conjugate.md). {{The [Plancherel theorem](plancherel%20theorem.md)}} is {{a special case of Parseval's theorem}} and states: {{$$\sum _{n=0}^{N-1}|x_{n}|^{2}={\frac {1}{N} }\sum _{k=0}^{N-1}|X_{k}|^{2}$$}}. <!--SR:!2025-06-18,239,336!2025-03-08,144,316!2024-11-10,26,296!2024-12-08,76,276!2025-04-10,182,336!2025-09-08,310,356-->
 
 These theorems are {{also equivalent to the unitary condition below}}. <!--SR:!2025-03-25,157,316-->
 
@@ -120,7 +120,7 @@ In practice, {{the $x$ sequence is usually length _N_ or less}}, and $y_{_{N} }$
 
 ### cross-correlation theorem
 
-Similar to above, by {{applying the [circular convolution theorem](#ciruclar%20convolution%20theorem)}}, {{the [cross-correlation](cross-correlation.md) of $x$ and $y_{_{N} }$}} is given by: {{$$(x\star y_{_{N} })_{n}\triangleq \sum _{\ell =-\infty }^{\infty }x_{\ell }^{*}\cdot (y_{_{N} })_{n+\ell } = \sum_{\ell =-\infty }^{\infty} x_{-\ell }^{*} \cdot (y_{_N })_{n-\ell} = (x^*_{-n} * y_{_N })_n ={\mathcal {F} }^{-1}\left\{X^{*}\cdot Y\right\}_{n}$$}}, considering that {{the DFT of $\{x^*_{-n} \}$ is $X^*$ by [time and frequency reversal](#time%20and%20frequency%20reversal), and [conjugation in time](#conjugation%20in%20time)}}. <!--SR:!2025-01-20,104,307!2025-03-22,153,327!2024-11-06,57,327!2024-11-02,52,332-->
+Similar to above, by {{applying the [circular convolution theorem](#ciruclar%20convolution%20theorem)}}, {{the [cross-correlation](cross-correlation.md) of $x$ and $y_{_{N} }$}} is given by: {{$$(x\star y_{_{N} })_{n}\triangleq \sum _{\ell =-\infty }^{\infty }x_{\ell }^{*}\cdot (y_{_{N} })_{n+\ell } = \sum_{\ell =-\infty }^{\infty} x_{-\ell }^{*} \cdot (y_{_N })_{n-\ell} = (x^*_{-n} * y_{_N })_n ={\mathcal {F} }^{-1}\left\{X^{*}\cdot Y\right\}_{n}$$}}, considering that {{the DFT of $\{x^*_{-n} \}$ is $X^*$ by [time and frequency reversal](#time%20and%20frequency%20reversal), and [conjugation in time](#conjugation%20in%20time)}}. <!--SR:!2025-01-20,104,307!2025-03-22,153,327!2024-11-06,57,327!2025-04-30,179,332-->
 
 ### uniqueness of the discrete Fourier transform
 
@@ -148,7 +148,7 @@ The conjugation trick can also be used to {{define a new transform, closely rela
 
 If {{$x_{0}, \ldots, x_{N-1}$ are [real numbers](real%20number.md), as they often are in practical applications}}, then {{the DFT $X_{0}, \ldots, X_{N-1}$ is [even conjugate symmetric](even%20and%20odd%20functions.md)}}: {{$$x_{n}\in \mathbb {R} \quad \forall n\in \{0, \ldots, N-1\}\implies X_{k}=X_{-k\mod N}^{*}\quad \forall k\in \{0, \ldots, N-1\}$$}}, where {{$X^{*}$ denotes [complex conjugation](complex%20conjugate.md)}}. It follows that {{for even $N$}} {{$X_{0}$ and $X_{N/2}$ are real-valued, and the remainder of the DFT is completely specified by just $N/2-1$ complex numbers}}. Furthermore, if {{$x_{0}, \ldots, x_{N - 1}$ is _additionally_ even, i.e. $x_{0} = x_{-k \mod N}$}}, then {{the DFT $X_{0}, \ldots, X_{N-1}$ is further constrained by $X_k = X_{-k \mod N}$ by [time and frequency reversal](#time%20and%20frequency%20reversal)}}. Combined with the above property, {{the DFT have no imaginary components for all frequencies}}. <!--SR:!2024-11-28,79,347!2025-05-18,198,327!2024-12-02,68,287!2024-11-29,80,347!2025-01-24,108,307!2024-12-03,84,347!2025-02-06,129,327!2025-02-13,121,307!2025-01-14,103,307-->
 
-If {{$x_{0}, \ldots, x_{N-1}$ are purely imaginary numbers}}, then {{the DFT $X_{0} ,\ldots, X_{N-1}$ is [odd conjugate symmetric](even%20and%20odd%20functions.md)}}: {{$$x_{n}\in i\mathbb {R} \quad \forall n\in \{0, \ldots, N-1\}\implies X_{k}=-X_{-k\mod N}^{*}\quad \forall k\in \{0, \ldots, N-1\}$$}}, where {{$X^{*}$ denotes [complex conjugation](complex%20conjugate.md)}}. {{Additional properties analogous to the previous paragraph}} also apply. <!--SR:!2024-11-03,55,327!2025-04-23,175,327!2024-11-14,64,327!2024-11-05,61,327!2024-11-02,54,327-->
+If {{$x_{0}, \ldots, x_{N-1}$ are purely imaginary numbers}}, then {{the DFT $X_{0} ,\ldots, X_{N-1}$ is [odd conjugate symmetric](even%20and%20odd%20functions.md)}}: {{$$x_{n}\in i\mathbb {R} \quad \forall n\in \{0, \ldots, N-1\}\implies X_{k}=-X_{-k\mod N}^{*}\quad \forall k\in \{0, \ldots, N-1\}$$}}, where {{$X^{*}$ denotes [complex conjugation](complex%20conjugate.md)}}. {{Additional properties analogous to the previous paragraph}} also apply. <!--SR:!2024-11-03,55,327!2025-04-23,175,327!2024-11-14,64,327!2024-11-05,61,327!2025-07-08,248,347-->
 
 ## references
 

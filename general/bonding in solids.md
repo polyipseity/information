@@ -123,7 +123,7 @@ return await memorize_table(
 
 ### metallic solid
 
-A __metallic solid__, also called __giant metallic structure__, {{consists of [metal](metal.md) [ions](ion.md) held together by [metallic bonds](metallic%20bond.md)}}. <!--SR:!2024-11-02,422,290-->
+A __metallic solid__, also called __giant metallic structure__, {{consists of [metal](metal.md) [ions](ion.md) held together by [metallic bonds](metallic%20bond.md)}}. <!--SR:!2029-06-30,1701,310-->
 
 #### properties of metallic solid
 
