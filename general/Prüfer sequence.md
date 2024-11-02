@@ -39,9 +39,9 @@ Consider the above algorithm run on the tree shown to the right. Initially, vert
 
 ## algorithm to convert a Prüfer sequence into a tree
 
-Let {{`{a[1], a[2], ..., a[n]}`}} be {{a Prüfer sequence}}:
+Let {{`{a[1], a[2], ..., a[n]}`}} be {{a Prüfer sequence}}: <!--SR:!2024-11-06,4,303!2024-11-06,4,303-->
 
-The tree will {{have `n+2` nodes, numbered from `1` to `n+2`}}. For {{each node}} {{set its degree to the number of times it appears in the sequence plus 1}}. For instance, in pseudo-code:
+The tree will {{have `n+2` nodes, numbered from `1` to `n+2`}}. For {{each node}} {{set its degree to the number of times it appears in the sequence plus 1}}. For instance, in pseudo-code: <!--SR:!2024-11-06,4,303!2024-11-06,4,303!2024-11-06,4,303-->
 
 ```pseudocode
 Convert-Prüfer-to-Tree(a)
@@ -54,7 +54,7 @@ Convert-Prüfer-to-Tree(a)
  7     degree[i] ← degree[i] + 1
 ```
 
-Next, for {{each number in the sequence `a[i]`}}, {{find the first (lowest-numbered) node, `j`, with degree equal to 1}}, {{add the edge `(j, a[i])` to the tree, and decrement the degrees of `j` and `a[i]`}}. In pseudo-code:
+Next, for {{each number in the sequence `a[i]`}}, {{find the first (lowest-numbered) node, `j`, with degree equal to 1}}, {{add the edge `(j, a[i])` to the tree, and decrement the degrees of `j` and `a[i]`}}. In pseudo-code: <!--SR:!2024-11-06,4,303!2024-11-06,4,303!2024-11-06,4,303-->
 
 ```psuedocode
  8 for each value i in a do
@@ -66,7 +66,7 @@ Next, for {{each number in the sequence `a[i]`}}, {{find the first (lowest-numbe
 14             break
 ```
 
-At {{the end of this loop}} {{two nodes with degree 1 will remain (call them `u`, `v`)}}. Lastly, {{add the edge `(u,v)` to the tree}}.<sup>[\[3\]](#^ref-3)</sup>
+At {{the end of this loop}} {{two nodes with degree 1 will remain (call them `u`, `v`)}}. Lastly, {{add the edge `(u,v)` to the tree}}.<sup>[\[3\]](#^ref-3)</sup> <!--SR:!2024-11-06,4,303!2024-11-06,4,303!2024-11-06,4,303-->
 
 ```psuedocode
 15 u ← v ← 0
@@ -85,7 +85,7 @@ At {{the end of this loop}} {{two nodes with degree 1 will remain (call them `u`
 
 > [!tip] tips
 >
-> - alternative formulation ::: Let there be a sequence _N_ of _n_ labelled vertices and a Prüfer sequence. <p> Find the leaf (a node that is not in the Prüfer sequence) with the smallest label in the sequence _N_. Join it with the first node in the Prüfer sequence. Remove said leaf from the sequence _N_ and the first node from the Prüfer sequence. This may make a node in _N_ that was not a leaf now a leaf. <p> Repeat until there are only 2 nodes left in the sequence _N_. Connect those 2 nodes to get the tree.
+> - alternative formulation ::: Let there be a sequence _N_ of _n_ labelled vertices and a Prüfer sequence. <p> Find the leaf (a node that is not in the Prüfer sequence) with the smallest label in the sequence _N_. Join it with the first node in the Prüfer sequence. Remove said leaf from the sequence _N_ and the first node from the Prüfer sequence. This may make a node in _N_ that was not a leaf now a leaf. <p> Repeat until there are only 2 nodes left in the sequence _N_. Connect those 2 nodes to get the tree. <!--SR:!2024-11-06,4,303!2024-11-06,4,303-->
 
 ## Cayley's formula
 
