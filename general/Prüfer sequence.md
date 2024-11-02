@@ -39,42 +39,53 @@ Consider the above algorithm run on the tree shown to the right. Initially, vert
 
 ## algorithm to convert a Prüfer sequence into a tree
 
-Let {a[1], a[2], ..., a[n]} be a Prüfer sequence:
+Let {{`{a[1], a[2], ..., a[n]}`}} be {{a Prüfer sequence}}:
 
-The tree will have n+2 nodes, numbered from 1 to n+2. For each node set its degree to the number of times it appears in the sequence plus 1. For instance, in pseudo-code:
+The tree will {{have `n+2` nodes, numbered from `1` to `n+2`}}. For {{each node}} {{set its degree to the number of times it appears in the sequence plus 1}}. For instance, in pseudo-code:
 
- __Convert-Prüfer-to-Tree__(_a_)
- 1 _n_ ← _length_[_a_]
- 2 _T_ ← a graph with _n_ + 2 isolated nodes, numbered 1 __to__ _n_ + 2
- 3 _degree_ ← an array of integers
- 4 __for__ each node _i_ in _T_ __do__
- 5     _degree_[_i_] ← 1
- 6 __for__ each value _i_ in _a_ __do__
- 7     _degree_[_i_] ← _degree_[_i_] + 1
+```pseudocode
+Convert-Prüfer-to-Tree(a)
+ 1 n ← length[a]
+ 2 T ← a graph with n + 2 isolated nodes, numbered 1 to n + 2
+ 3 degree ← an array of integers
+ 4 for each node i in T do
+ 5     degree[i] ← 1
+ 6 for each value i in a do
+ 7     degree[i] ← degree[i] + 1
+```
 
-Next, for each number in the sequence a[i], find the first (lowest-numbered) node, j, with degree equal to 1, add the edge (j, a[i]) to the tree, and decrement the degrees of j and a[i]. In pseudo-code:
+Next, for {{each number in the sequence `a[i]`}}, {{find the first (lowest-numbered) node, `j`, with degree equal to 1}}, {{add the edge `(j, a[i])` to the tree, and decrement the degrees of `j` and `a[i]`}}. In pseudo-code:
 
- 8 __for__ each value _i_ in _a_ __do__
- 9     __for__ each node _j_ in _T_ __do__
-10         __if__ _degree_[_j_] = 1 __then__
-11             Insert _edge_[_i_, _j_] into _T_
-12             _degree_[_i_] ← _degree_[_i_] - 1
-13             _degree_[_j_] ← _degree_[_j_] - 1
-14             __break__
-At the end of this loop two nodes with degree 1 will remain (call them u, v). Lastly, add the edge (u,v) to the tree.<sup>[\[3\]](#^ref-3)</sup>
+```psuedocode
+ 8 for each value i in a do
+ 9     for each node j in T do
+10         if degree[j] = 1 then
+11             Insert edge[i, j] into T
+12             degree[i] ← degree[i] - 1
+13             degree[j] ← degree[j] - 1
+14             break
+```
 
-15 _u_ ← _v_ ← 0
-16 __for__ each node _i_ in _T_
-17     __if__ _degree_[_i_] = 1 __then__
-18         __if__ _u_ = 0 __then__
-19             _u_ ← _i_
-20         __else__
-21             _v_ ← _i_
-22             __break__
-23 Insert _edge_[_u_, _v_] into _T_
-24 _degree_[_u_] ← _degree_[_u_] - 1
-25 _degree_[_v_] ← _degree_[_v_] - 1
-26 __return__ _T_
+At {{the end of this loop}} {{two nodes with degree 1 will remain (call them `u`, `v`)}}. Lastly, {{add the edge `(u,v)` to the tree}}.<sup>[\[3\]](#^ref-3)</sup>
+
+```psuedocode
+15 u ← v ← 0
+16 for each node i in T
+17     if degree[i] = 1 then
+18         if u = 0 then
+19             u ← i
+20         else
+21             v ← i
+22             break
+23 Insert edge[u, v] into T
+24 degree[u] ← degree[u] - 1
+25 degree[v] ← degree[v] - 1
+26 return T
+```
+
+> [!tip] tips
+>
+> - alternative formulation ::: Let there be a sequence _N_ of _n_ labelled vertices and a Prüfer sequence. <p> Find the leaf (a node that is not in the Prüfer sequence) with the smallest label in the sequence _N_. Join it with the first node in the Prüfer sequence. Remove said leaf from the sequence _N_ and the first node from the Prüfer sequence. This may make a node in _N_ that was not a leaf now a leaf. <p> Repeat until there are only 2 nodes left in the sequence _N_. Connect those 2 nodes to get the tree.
 
 ## Cayley's formula
 
