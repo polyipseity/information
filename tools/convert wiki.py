@@ -8,6 +8,7 @@ from typing import Callable, Mapping
 from bs4 import BeautifulSoup, NavigableString, PageElement, Tag
 from bs4.element import PreformattedString
 from jaraco.clipboard import paste_html  # type: ignore
+from json import load
 from pyperclip import copy  # type: ignore
 from sys import argv, version
 from yarl import URL
@@ -30,30 +31,12 @@ _PRESERVED_PAGE_PREFIXES = {
     "wikt:": "https://en.wiktionary.org/wiki/{}",
 }
 
+with open(f"{NAME}.names map.json", "rt") as names_map_file:
+    _names_map_manual = load(names_map_file)
 _names_map = {
     filename[:-3]: filename[:-3]
     for filename in iglob("*.md", root_dir="../general/")
     if filename[:1].isupper()
-}
-_names_map_manual = {
-    "Balmer series": "Balmer series",
-    "Bok globule": "Bok globule",
-    "Cepheus (constellation)": "Cepheus (constellation)",
-    "Discrete Fourier series": "discrete Fourier series",
-    "Discrete Fourier transform": "discrete Fourier transform",
-    "Discrete-time Fourier transform": "discrete-time Fourier transform",
-    "Discrete Hartley transform": "discrete Hartley transform",
-    "Euclidean distance": "Euclidean distance",
-    "Euclidean norm": "Euclidean norm",
-    "Euclidean space": "Euclidean space",
-    "Fourier analysis": "Fourier analysis",
-    "Jeans instability": "Jeans instability",
-    "Jeans mass": "Jeans mass",
-    "Latin": "Latin",
-    "Polaris": "Polaris",
-    "Squared Euclidean distance": "squared Euclidean distance",
-    "Super soft X-ray source": "super soft X-ray source",
-    "X-ray": "X-ray",
 }
 if _names_map_overlap := frozenset(_names_map).intersection(_names_map_manual):
     raise ValueError(_names_map_overlap)
