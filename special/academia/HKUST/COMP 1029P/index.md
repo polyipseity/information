@@ -50,3 +50,9 @@ The content is in teaching order.
 - [recursion](recursion.md)
 - [turtle](turtle.md)
 - [object](object.md)
+
+## assessments
+
+- final examination
+  - report
+    - No paper checking. It does not really matter for this P/F course anyway...

@@ -163,3 +163,10 @@ The content is in teaching order.
 ## week 14 lecture
 
 ## week 15 lecture
+
+## assessments
+
+- final examination
+  - report
+    - Neither paper checking nor results release. But they are all MCs, so...
+    - Yeah, memorize everything would work. Hope that you have a good memory...

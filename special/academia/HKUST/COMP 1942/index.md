@@ -312,7 +312,7 @@ The content is in teaching order.
     - step function threshold ::: _θ_ = 0 <!--SR:!2026-03-28,526,397!2026-05-10,562,397-->
   - [§ rectifier](../../../../general/artificial%20neuron.md#rectifier)
   - [§ sigmoid](../../../../general/artificial%20neuron.md#sigmoid)
-    - sigmoid function variants ::: [logistic function](../../../../general/logistic%20function.md) with _L_ = 1, _k = 1_, and _x_<sub>0</sub> = 0: $$y = \frac 1 {1 + e^{-u} }$$, [hyperbolic tangent](../../../../general/hyperbolic%20functions.md) ($\tanh$): $$y = \frac {\sinh u} {\cosh u} = \frac {e^u - e^{-u} } {e^u + e^{-u} } = \frac {e^{2u} - 1} {e^{2u} + 1}$$ <!--SR:!2024-12-03,124,337!2025-03-21,204,357-->
+    - sigmoid function variants ::: [logistic function](../../../../general/logistic%20function.md) with _L_ = 1, _k = 1_, and _x_<sub>0</sub> = 0: $$y = \frac L {1 + e^{-k(u - x_0)} } = \frac 1 {1 + e^{-u} }$$ <p> [hyperbolic tangent](../../../../general/hyperbolic%20functions.md) ($\tanh$): $$y = \frac {\sinh u} {\cosh u} = \frac {e^u - e^{-u} } {e^u + e^{-u} } = \frac {e^{2u} - 1} {e^{2u} + 1}$$ <!--SR:!2024-12-03,124,337!2025-03-21,204,357-->
 - [perceptron](../../../../general/perceptron.md)
   - [§ steps](../../../../general/perceptron.md#steps)
     - perceptron stopping conditions ::: We can limit the maximum number of epochs, i.e. number of passes over the entire training dataset. We can also prematurely stop the training when the percentage error reaches below a threshold. <!--SR:!2025-04-08,220,357!2025-05-24,273,377-->
@@ -514,3 +514,24 @@ The content is in teaching order.
     - open world visual learning
     - cross-model language—image contrastive pretraining (CLIP)
     - CLIP model for recognition, detection, and segmentation via similarity and distillation
+
+## assessments
+
+- midterm examination
+  - bonus question (+10%, max 100%): no
+  - cheatsheet: 1 sheet of A4-sized paper, double-sided
+  - difficulty: 80% straight forward, 20% not straight forward but easy
+  - duration: 70 minutes
+  - time: 2024-03-25T09:05:00+08:00/2024-03-25T10:15:00+08:00
+  - types: 80% long questions, 20% multiple choice questions
+  - report
+    - Very very tight time limit. Do the paper as-if you do not have enough time.
+- final examination
+  - bonus question (+10%, max 100%): no
+  - cheatsheet: 1 sheet of A4-sized paper, double-sided
+  - difficulty: 80% straight forward, 20% not straight forward but easy
+  - duration: 150 minutes
+  - time: 2024-05-18T16:30:00+08:00/2024-05-18T19:00:00+08:00
+  - types: 100% short or long questions, 0% multiple choice questions
+  - report
+    - Time is much more lenient.

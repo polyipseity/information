@@ -23,7 +23,7 @@ The content is in teaching order.
 
 - grading scheme: 25% take-home exercises, 25% midterm examination, 50% final examination
   - take-home exercises: 5% each, best 5 out of 6 or 7 submissions
-  - midterm examination: 2024-10-22T19:30:00+08:00/2024-10-22T20:30:00+08:00 (1 hour)
+  - midterm examination: 2024-10-22T19:30:00+08:00/2024-10-22T20:30:00+08:00, PT1H
   - final examination
 - [questions](questions.md)
 
@@ -152,3 +152,18 @@ The content is in teaching order.
   - [quick ratio § formula](../../../../general/quick%20ratio.md#formula) ::: quick ratio (QR) = quick assets (QA) / current liabilities (CL), where quick assets (QA) = current assets (CA) - inventory (I) - prepaid expenses (PE) <!--SR:!2024-11-11,34,294!2025-01-05,80,334-->
 - use of financial ratios ::: Be careful... No single financial ratio does it all! They can also be manipulated, such as selling all revenue-generating fixed assets to increase the current ratio artificially, but this clearly kills the business. Therefore, financial analysts look at multiple ratios and other numbers, such as movement of fixed assets, fixed asset turnover ratio, etc. <!--SR:!2024-11-14,37,314!2024-11-17,40,314-->
 - [§ week 2 review](questions.md#week%202%20review)
+
+## midterm examination
+
+- datetime: 2024-10-22T19:30:00+08:00/2024-10-22T20:30:00+08:00, PT1H
+- venue: Lecture Theater A
+- scope
+  - chapter 1
+  - chapter 2
+  - chapter 3
+  - chapter 4
+- format: closed book, no cheatsheet, public examination approved calculator
+- content: multiple choice questions: 20@1 each; 2 long questions: 40
+- grades: ?/60
+- report
+  - TODO

@@ -261,6 +261,8 @@ The content is in teaching order.
 - venue: Lecture Theater B, Lecture Theater C, Lecture Theater J, Lecture Theater L
 - [cheatsheet](cheatsheet.md): provided during the examination
 - grades: ?/?
+- report
+  - There is neither paper checking nor result release.
 
 ## aftermath
 

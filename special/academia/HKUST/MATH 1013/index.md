@@ -49,3 +49,15 @@ tags:
 - [monotonic function](../../../../general/monotonic%20function.md)
 - [squeeze theorem](../../../../general/squeeze%20theorem.md)
   - [statement](../../../../general/squeeze%20theorem.md#statement)
+
+## assessments
+
+- midterm examination
+  - report
+    - Midterms have tighter time limit than the final examination, actually...
+    - Sometimes you do not need to find the root of a solution, you just need to show its existence using the intermediate value theorem (IVT).
+- final examination
+  - report
+    - Remember the conditions for the algebraic limit theorem...
+    - Manual calculations may possibly yield human errors...
+    - Label a number on a graph wrongly.

@@ -47,3 +47,9 @@ The content is in teaching order.
 
 - [object](object.md)
 - [array](array.md)
+
+## assessments
+
+- final examination
+  - report
+    - No paper checking. It does not really matter for this P/F course anyway...

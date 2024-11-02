@@ -22,3 +22,12 @@ tags:
 The content is in teaching order.
 
 - [cheatsheet](cheatsheet.md)
+
+## assessments
+
+- final exam
+  - report
+    - Used async iteration instead of sync iteration as required...
+    - When drawing the interpolated graph, they also wanted the old graph as dotted line... Obviously, most missed it, so it was actually fine.
+    - There is a special rule for click > ??? (forgot), which was not mentioned on the slides but on their videos.
+    - Yeah, only the final exam can differentiate students...

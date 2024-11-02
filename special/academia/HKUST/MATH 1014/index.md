@@ -54,3 +54,12 @@ The content is in teaching order.
 ## week 5 lecture 1
 
 ## week 5 tutorial
+
+## assessments
+
+- midterm examination
+  - report
+    - Mathematics is hard.
+- final examination
+  - report
+    - Mathematics is hard.
