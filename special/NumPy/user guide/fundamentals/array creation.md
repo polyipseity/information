@@ -16,12 +16,12 @@ tags:
 
 There are {{6 general mechanisms}} for creating arrays:
 
-1. Conversion... ::: ... from other Python structures (i.e. lists and tuples)
-2. Intrinsic... ::: ... NumPy array creation functions (e.g. arange, ones, zeros, etc.)
-3. Replicating, joining, or mutating... ::: ... existing arrays
-4. Reading... ::: ... arrays from disk, either from standard or custom formats
-5. Creating arrays... ::: ... from raw bytes through the use of strings or buffers
-6. Use of... ::: ... special library functions (e.g., random)
+1. Conversion ::: from other Python structures (i.e. lists and tuples)
+2. Intrinsic ::: NumPy array creation functions (e.g. arange, ones, zeros, etc.)
+3. Replicating, joining, or mutating ::: existing arrays
+4. Reading ::: arrays from disk, either from standard or custom formats
+5. Creating arrays ::: from raw bytes through the use of strings or buffers
+6. Use of ::: special library functions (e.g., random)
 
 You can use these methods to {{create ndarrays or [structured arrays](structured%20arrays.md)}}. This document will cover general methods for {{ndarray creation}}.
 
@@ -29,9 +29,9 @@ You can use these methods to {{create ndarrays or [structured arrays](structure
 
 NumPy arrays can be defined using {{Python sequences such as lists and tuples}}. {{Lists and tuples}} are defined {{using `[...]` and `(...)`, respectively}}. Lists and tuples can define ndarray creation:
 
-- a list of numbers will create... ::: ... a 1D array,
-- a list of lists will create... ::: ... a 2D array,
-- further nested lists will create... ::: ... higher-dimensional arrays. In general, any array object is called an **ndarray** in NumPy.
+- a list of numbers will create ::: a 1D array,
+- a list of lists will create ::: a 2D array,
+- further nested lists will create ::: higher-dimensional arrays. In general, any array object is called an **ndarray** in NumPy.
 
 ```Python
 >>> import numpy as np
