@@ -528,3 +528,6 @@ The content is in teaching order.
 
 - datetime: 2024-10-18T18:00:00+08:00/2024-10-18T21:00:00+08:00, PT3H
 - venue: Lecture Theater C
+- grades: ?/30
+- report
+  - TODO

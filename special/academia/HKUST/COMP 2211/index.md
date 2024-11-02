@@ -701,6 +701,10 @@ ID: 23456789
   - k-means clustering
   - artificial neural network - perceptron
   - artificial neural network - multi-layer perceptron (P.16)
+- format: closed book, calculator, no cheatsheet
+- grades: ?/100
+- report
+  - TODO
 
 ## final examination
 

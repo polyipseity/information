@@ -61,3 +61,12 @@ tags:
 - mathematics: [sine wave](../../../../general/sine%20wave.md), [wave equation § introduction](../../../../general/wave%20equation.md#introduction), [wave equation § wave equation in one dimension](../../../../general/wave%20equation.md#wave%20equation%20in%20one%20dimension), [wavenumber § definition](../../../../general/wavenumber.md#definition)
 - standing wave: [standing wave § mathematical description](../../../../general/standing%20wave.md#mathematical%20description), [standing wave § opposing waves](../../../../general/standing%20wave.md#opposing%20waves)
 - string: [string vibration § phase velocity](../../../../general/string%20vibration.md#phase%20velocity), [string vibration § power](../../../../general/string%20vibration.md#power)
+
+## assessments
+
+- midterm examination
+  - report
+    - Nothing to say.
+- final examination
+  - report
+    - Nothing to say.

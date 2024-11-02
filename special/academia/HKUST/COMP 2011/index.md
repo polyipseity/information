@@ -30,3 +30,12 @@ tags:
 - file: [C file input/output](../../../../general/C%20file%20input_output.md), [file input/output](../../../C/file%20input_output.md)
 - general: [C standard library](../../../../general/C%20standard%20library.md), [program support utilities](../../../C/program%20support%20utilities.md)
 - string: [C string handling](../../../../general/C%20string%20handling.md), [strings library](../../../C/strings%20library.md)
+
+## assessments
+
+- midterm examination
+  - report
+    - Nothing to say.
+- final examination
+  - report
+    - Nothing to say.

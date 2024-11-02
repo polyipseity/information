@@ -48,3 +48,9 @@ The content is in teaching order.
 ## lesson 5
 
 - [Greenfoot](Greenfoot.md)
+
+## assessments
+
+- final examination
+  - report
+    - No paper checking. It does not really matter for this P/F course anyway...

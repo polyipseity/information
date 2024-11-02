@@ -1229,6 +1229,8 @@ The content is in teaching order. Extra information and corrections are included
     - upper quartile: 75.13 → 75.75
     - lower quartile: 46.88 → 48
     - standard deviation: ? → 21.31
+  - report
+    - Nothing to say.
 
 ## week 9 lecture
 

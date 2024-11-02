@@ -122,9 +122,12 @@ The content is in teaching order.
 
 - time: 2024-03-12T18:00:00+08:00/2024-03-12T20:30:00+08:00
 - exam for part 1: product innovation
-  - content: multiple choice questions: 25@8; long questions: 40 + 20 + 20 + 10 + 10
-  - format: closed-book, no cheatsheet
+  - content: multiple choice questions: 20@8 each; long questions: 40 + 20 + 20 + 10 + 10
+  - format: closed book, no cheatsheet
   - time limit: 40 minutes
+  - report
+    - Do at least skim the reading materials and assignments. You may be asked to recall some facts on the MC questions.
+    - Practice calculating SOM, SAM, and TAM, especially for weird situations.
 - 15-minute group presentation briefing
   - 12 minutes per team
   - questions and answers: maximum 10 minutes
@@ -281,3 +284,6 @@ The content is in teaching order.
   - content: 7 long questions
   - format: closed-book, 1 A4-sized cheatsheet using both sides
   - time limit: about 120 minutes
+  - report
+    - Er, remember the concepts.
+    - Also, remember some examples for 6 alternative paths.

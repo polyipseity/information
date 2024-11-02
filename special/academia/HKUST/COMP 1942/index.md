@@ -514,3 +514,24 @@ The content is in teaching order.
     - open world visual learning
     - cross-model language—image contrastive pretraining (CLIP)
     - CLIP model for recognition, detection, and segmentation via similarity and distillation
+
+## assessments
+
+- midterm examination
+  - bonus question (+10%, max 100%): no
+  - cheatsheet: 1 sheet of A4-sized paper, double-sided
+  - difficulty: 80% straight forward, 20% not straight forward but easy
+  - duration: 70 minutes
+  - time: 2024-03-25T09:05:00+08:00/2024-03-25T10:15:00+08:00
+  - types: 80% long questions, 20% multiple choice questions
+  - report
+    - Very very tight time limit. Do the paper as-if you do not have enough time.
+- final examination
+  - bonus question (+10%, max 100%): no
+  - cheatsheet: 1 sheet of A4-sized paper, double-sided
+  - difficulty: 80% straight forward, 20% not straight forward but easy
+  - duration: 150 minutes
+  - time: 2024-05-18T16:30:00+08:00/2024-05-18T19:00:00+08:00
+  - types: 100% short or long questions, 0% multiple choice questions
+  - report
+    - Time is much more lenient.
