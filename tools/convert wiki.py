@@ -211,7 +211,7 @@ async def wiki_html_to_plaintext(
 
                 def process_strings_img(strings: str, ele: Tag = ele):
                     if src := ele.get("src"):
-                        return f"{strings}![]({_WIKI_HOST_URL / str(src)})"
+                        return f"{strings}![]({_WIKI_HOST_URL.join(URL(str(src)))})"
                     return strings
 
                 suffix = "\n\n"
