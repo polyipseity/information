@@ -24,14 +24,14 @@ The content is in teaching order.
 - grading schemes: take highest, assuming the midterm examination is attended
   - grading scheme 1
     - problem sets: 10%
-    - midterm: 30%
-    - final exam: 60%
+    - midterm examination: 30%
+    - final examination: 60%
   - grading scheme 2
     - problem sets: 10%
-    - midterm: 0%
-    - final exam: 90%
+    - midterm examination: 0%
+    - final examination: 90%
   - problem sets: exclude the worst 2 problem sets
-  - midterm examination: 2024-11-08T19:30:00+08:00/2024-11-08T21:00:00+08:00 (1 hour)
+  - midterm examination: 2024-11-08T19:30:00+08:00/2024-11-08T20:50:00+08:00, PT1H20M
   - final examination
 - [assignments](assignments/)
 - [questions](questions.md)
@@ -222,3 +222,94 @@ The content is in teaching order.
 ## week 4 lecture 2
 
 - time: 2024-09-27T12:00:00+08:00/2024-09-27T13:20:00+08:00
+
+## week 5 lecture
+
+- time: 2024-09-30T16:30:00+08:00/2024-09-30T17:50:00+08:00
+
+## week 5 tutorial
+
+- time: 2024-10-01T17:00:00+08:00/2024-10-01T17:50:00+08:00
+- unscheduled, public holiday: National Day
+
+## week 5 lecture 2
+
+- time: 2024-10-04T12:00:00+08:00/2024-10-04T13:20:00+08:00
+
+## week 6 lecture
+
+- time: 2024-10-07T16:30:00+08:00/2024-10-07T17:50:00+08:00
+
+## week 6 tutorial
+
+- time: 2024-10-08T17:00:00+08:00/2024-10-08T17:50:00+08:00
+- [§ week 4 lecture 2](#week%204%20lecture%202)
+- [§ week 5 lecture](#week%205%20lecture)
+- [§ week 5 lecture 2](#week%205%20lecture%202)
+- [§ week 6 lecture](#week%206%20lecture)
+
+## week 6 lecture 2
+
+- time: 2024-10-11T12:00:00+08:00/2024-10-11T13:20:00+08:00
+- unscheduled, public holiday: Chung Yeung Festival
+
+## week 7 lecture
+
+- time: 2024-10-14T16:30:00+08:00/2024-10-14T17:50:00+08:00
+
+## week 7 tutorial
+
+- time: 2024-10-15T17:00:00+08:00/2024-10-08T17:50:00+08:00
+- unscheduled
+
+## week 7 lecture 2
+
+- time: 2024-10-18T12:00:00+08:00/2024-10-18T13:20:00+08:00
+
+## week 8 lecture
+
+- time: 2024-10-21T16:30:00+08:00/2024-10-21T17:50:00+08:00
+
+## week 8 tutorial
+
+- time: 2024-10-22T17:00:00+08:00/2024-10-22T17:50:00+08:00
+- [§ week 6 lecture 2](#week%206%20lecture%202)
+- [§ week 7 lecture](#week%207%20lecture)
+- [§ week 7 lecture 2](#week%207%20lecture%202)
+- [§ week 8 lecture](#week%208%20lecture)
+
+## week 8 lecture 2
+
+- time: 2024-10-25T12:00:00+08:00/2024-10-25T13:20:00+08:00
+
+## week 9 lecture
+
+- time: 2024-10-28T16:30:00+08:00/2024-10-28T17:50:00+08:00
+
+## week 9 tutorial
+
+- time: 2024-10-29T17:00:00+08:00/2024-10-29T17:50:00+08:00
+- [§ week 8 lecture 2](#week%208%20lecture%202)
+- [§ week 9 lecture](#week%209%20lecture)
+
+## week 9 lecture 2
+
+- time: 2024-11-01T12:00:00+08:00/2024-11-01T13:20:00+08:00
+
+## week 10 lecture
+
+- time: 2024-11-04T16:30:00+08:00/2024-11-04T17:50:00+08:00
+
+## week 10 tutorial
+
+- time: 2024-11-05T17:00:00+08:00/2024-11-05T17:50:00+08:00
+- [§ week 9 lecture 2](#week%209%20lecture%202)
+- [§ week 10 lecture](#week%2010%20lecture)
+
+## week 10 lecture 2
+
+- time: 2024-11-08T12:00:00+08:00/2024-11-08T13:20:00+08:00
+
+## midterm examination
+
+- datetime: 2024-11-08T19:30:00+08:00/2024-11-08T20:50:00+08:00, PT1H20M
