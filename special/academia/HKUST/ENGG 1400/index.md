@@ -104,12 +104,12 @@ The content is in teaching order.
 - design thinking
   - design thinking / life design: empathize ::: The amazing people you meet and the understanding/perspectives you give _and_ receive.
   - design thinking / life design: define ::: Think about who you are, where you are, and what is _really_ important to you.
-  - design thinking / life design: ideate ::: You give yourself permission to have un-reserved thoughts, drawings, imaginations, and hopes. Also let the ideas of others in.
+  - design thinking / life design: ideate ::: You give yourself permission to have unreserved thoughts, drawings, imaginations, and hopes. Also let the ideas of others in.
   - design thinking / life design: prototype ::: You build simply and accessibly.
   - design thinking / life design: test ::: You try things curiously and courageously.
   - design thinking / reframing ::: Framing defines the boundaries and constraints of the solution set to your problem. __Reframing__ state the original problem but in a different perspective to expand the solution set. There may be unexpected innovation.
 - job hunting ::: Finding a job... or pursuing possibilities that give me choices and freedom (reframing)?
-  - job hunting / iceberg problem ::: visible job market (agency, jobs board, social media): 30%, hidden market (HR connection, direct application, networking): 70%
+  - job hunting / iceberg problem ::: visible job market (agency, jobs board, social media): 30%; hidden market (HR connection, direct application, networking): 70%
 - design thinking
   - design thinking / curiosity ::: Curiosity makes everything new and invites exploration. It helps us notice new opportunities and connect with people. It allows us to look beyond preconceptions and be open to possibilities.
   - design thinking / bias toward action ::: Designers test things out. They run small experiments and prototypes as opportunities to learn, regardless of outcome. They try things and iterate toward success, rather than waiting until they can get it "right" at the first time.
@@ -135,11 +135,11 @@ The content is in teaching order.
 - time: 2024-10-17T10:30:00+08:00/2024-10-17T12:20:00+08:00
 - design thinking
   - design thinking / reframing
-    - design thinking / reframing / motivations ::: In design thinking, we put as much emphasis on _problem finding_ as we do on problem solving. What is the point of solving the wrong problem?
+    - design thinking / reframing / motivation ::: In design thinking, we put as much emphasis on _problem finding_ as we do on problem solving. What is the point if you are solving the wrong problem?
 - sticky problem ::: anchor problem, gravity problem, unclear problem
   - anchor problem ::: Problems that _you think_ have only one possible solution. <p> Try to release the anchor to open up more solution possibilities.
   - gravity problem ::: Problems that are _not actionable_ objectively. (Sometimes it may be an anchor problem but it seems like a gravity problem because your mind is so anchored on the solution...) <p> Try to accept and reframe the problem. Accept does not mean give up, however. There may be a possibility that the problem becomes actionable later. And you can always try to reframe the problem.
-  - unclear problem ::: compound/unfocused, inappropriately scoped, insufficient context, problems with two to three solutions (yes/no, either/or)
+  - unclear problem ::: compound/unfocused, inappropriately scoped, insufficient context, problems with only 2 to 3 solutions (yes/no, either/or)
   - sticky problem / reframing ::: See what kind of sticky problem you have. Reframe appropriately. Best if the reframed problem starts with "How might I..." <p> Reframing helps with getting the "right" solutions, because the solutions you get highly depends on your framing.
 - activity 1: reframing a problem ::: We are going to reframe your problem 3 times. In each round, state your problem on a idea board. With other people, add ideas to each others' boards. After each round, reframe your question based on the ideas given by others.
   - activity 1: reframing a problem / takeaways ::: You can reframe your questions using ideation with others to get better results! Also, idea boards are a great way to help introverts participate.
@@ -170,7 +170,7 @@ The content is in teaching order.
 
 - time: 2024-10-31T10:30:00+08:00/2024-10-31T12:20:00+08:00
 - wild ideas
-  - wild ideas / motivations ::: If you do not try to think of "wild ideas", often your ideas ends up "inside the box", respecting your assumptions. Thinking of "wild ideas" can help break your assumptions.
+  - wild ideas / motivation ::: If you do not try to think of "wild ideas", often your ideas ends up "inside the box", respecting your assumptions. Thinking of "wild ideas" can help break your assumptions.
   - wild ideas / brainstorming ::: Frame a good question, ideally starting with "How might I...". Warm up your brain. Brainstorm many ideas using rules, ideally with other people. Select based on criteria. Extract insights (e.g. delightful idea, good idea).
 - activity 1: decision making ::: Jot down a real decision you need to make and its associated emotions. Share it with others.
 - decision making
