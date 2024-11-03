@@ -24,8 +24,8 @@ Examples are as follows:<sup>[\[5\]](#^ref-5)</sup><sup>[\[8\]](#^ref-8)</sup>
 
 Scenarios are as follows:<sup>[\[7\]](#^ref-7)</sup>
 
-- If a person leaves work for an hour and spends $200 on office supplies, then the explicit costs for the individual equates to... ::: ... the total expenses for the office supplies of $200. <!--SR:!2024-12-18,64,310!2024-12-01,47,290-->
-- If a printer of a company malfunctions, then the explicit costs for the company equates to... ::: ... the total amount to be paid to the repair technician. <!--SR:!2024-12-23,68,310!2024-12-23,68,310-->
+- If a person leaves work for an hour and spends $200 on office supplies, then the explicit costs for the individual equates to ::: the total expenses for the office supplies of $200. <!--SR:!2024-12-18,64,310!2024-12-01,47,290-->
+- If a printer of a company malfunctions, then the explicit costs for the company equates to ::: the total amount to be paid to the repair technician. <!--SR:!2024-12-23,68,310!2024-12-23,68,310-->
 
 ### implicit costs
 
@@ -39,7 +39,7 @@ Examples of implicit costs regarding production are mainly resources contributed
 
 Scenarios are as follows:<sup>[\[7\]](#^ref-7)</sup>
 
-- If a person leaves work for an hour to spend $200 on office supplies, and has an hourly rate of $25, then the implicit costs for the individual equates to... ::: ... the $25 that he/she could have earned instead. <!--SR:!2024-12-12,58,310!2024-11-15,36,290-->
+- If a person leaves work for an hour to spend $200 on office supplies, and has an hourly rate of $25, then the implicit costs for the individual equates to ::: the $25 that he/she could have earned instead. <!--SR:!2024-12-12,58,310!2024-11-15,36,290-->
 - If a printer of a company malfunctions, the implicit cost equates to... ::: the total production time that could have been utilized if the machine did not break down. <!--SR:!2024-12-01,47,290!2024-11-07,28,270-->
 
 ## excluded from opportunity cost

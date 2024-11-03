@@ -233,9 +233,9 @@ This form of induction, when {{applied to a set of ordinal numbers (which form a
 
 Proofs by transfinite induction typically {{distinguish three cases}}: <!--SR:!2024-12-26,58,310-->
 
-1. when _n_ is a minimal element, ... ::: ... i.e. there is no element smaller than _n_; <!--SR:!2024-12-26,58,310!2024-12-26,58,310-->
-2. when _n_ has a direct predecessor, ... ::: ... i.e. the set of elements which are smaller than _n_ has a largest element; <!--SR:!2024-11-21,25,270!2024-12-25,57,310-->
-3. when _n_ has no direct predecessor, ... ::: ... i.e. _n_ is a so-called [limit ordinal](limit%20ordinal.md). <!--SR:!2024-12-25,57,310!2024-12-26,58,310-->
+1. when _n_ is a minimal element, ::: i.e. there is no element smaller than _n_; <!--SR:!2024-12-26,58,310!2024-12-26,58,310-->
+2. when _n_ has a direct predecessor, ::: i.e. the set of elements which are smaller than _n_ has a largest element; <!--SR:!2024-11-21,25,270!2024-12-25,57,310-->
+3. when _n_ has no direct predecessor, ::: i.e. _n_ is a so-called [limit ordinal](limit%20ordinal.md). <!--SR:!2024-12-25,57,310!2024-12-26,58,310-->
 
 Strictly speaking, it is {{not necessary in transfinite induction to prove a base case}}, because {{it is a [vacuous](vacuous%20truth.md) special case of the proposition that if _P_ is true of all _n_ < _m_, then _P_ is true of _m_}}. It is vacuously true precisely because {{there are no values of _n_ < _m_ that could serve as counterexamples}}. So the special cases are special cases of the general case. <!--SR:!2024-12-28,60,310!2024-12-26,58,310!2024-12-26,58,310-->
 
@@ -244,9 +244,9 @@ Strictly speaking, it is {{not necessary in transfinite induction to prove a bas
 The principle of mathematical induction is usually stated as {{an [axiom](axiom.md) of the natural numbers; see [Peano axioms](Peano%20axioms.md)}}. It is strictly stronger than {{the [well-ordering principle](well-ordering%20principle.md) in the context of the other Peano axioms}}. Suppose the following: <!--SR:!2024-12-13,45,290!2024-12-26,58,310-->
 
 - The [trichotomy](law%20of%20trichotomy.md) axiom ::: For any natural numbers _n_ and _m_, _n_ is less than or equal to _m_ if and only if _m_ is not less than _n_. <!--SR:!2024-12-26,58,310!2024-12-26,58,310-->
-- For any natural number _n_, _n_ + 1 is... ::: ... greater than _n_. <!--SR:!2024-12-26,58,310!2024-12-28,60,310-->
-- For any natural number _n_, no natural number is... ::: ... ::: between _n_ and _n_ + 1. <!--SR:!2024-12-26,58,310!2024-12-28,60,310-->
-- No natural number is... ::: ... less than zero. <!--SR:!2024-12-26,58,310!2024-12-26,58,310-->
+- For any natural number _n_, _n_ + 1 is ::: greater than _n_. <!--SR:!2024-12-26,58,310!2024-12-28,60,310-->
+- For any natural number _n_, no natural number is ::: ::: between _n_ and _n_ + 1. <!--SR:!2024-12-26,58,310!2024-12-28,60,310-->
+- No natural number is ::: less than zero. <!--SR:!2024-12-26,58,310!2024-12-26,58,310-->
 
 It can then be proved that {{induction, given the above-listed axioms, implies the well-ordering principle}}. The following proof {{uses complete induction and the first and fourth axioms}}. <!--SR:!2024-12-03,38,290!2024-12-25,57,310-->
 

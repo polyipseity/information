@@ -326,13 +326,13 @@ where _ζ_(_s)_ is {{the [Riemann zeta function](riemann%20zeta%20function.md)}}
 
 Generating functions are used to:
 
-- Find a [closed formula](closed-form%20expression.md) for... ::: ... a sequence given in a recurrence relation, for example, [Fibonacci numbers](fibonacci%20sequence.md#generating%20function). <!--SR:!2024-12-31,62,310!2024-12-31,62,310-->
-- Find [recurrence relations](recurrence%20relation.md) for... ::: ... sequences—the form of a generating function may suggest a recurrence formula. <!--SR:!2024-12-31,62,310!2024-12-31,62,310-->
-- Find relationships between... ::: ... sequences—if the generating functions of two sequences have a similar form, then the sequences themselves may be related. <!--SR:!2024-12-31,62,310!2025-01-13,71,310-->
-- Explore the asymptotic behaviour of... :: ... sequences. <!--SR:!2024-12-30,60,310-->
-- Prove identities involving... :: ... sequences. <!--SR:!2025-01-13,71,310-->
-- Solve... ::: ... [enumeration](enumeration.md) problems in [combinatorics](combinatorics.md) and encoding their solutions. [Rook polynomials](rook%20polynomial.md) are an example of an application in combinatorics. <!--SR:!2024-12-31,62,310!2025-01-13,71,310-->
-- Evaluate... ::: ... infinite sums. <!--SR:!2024-12-30,60,310!2024-12-31,62,310-->
+- Find a [closed formula](closed-form%20expression.md) for ::: a sequence given in a recurrence relation, for example, [Fibonacci numbers](fibonacci%20sequence.md#generating%20function). <!--SR:!2024-12-31,62,310!2024-12-31,62,310-->
+- Find [recurrence relations](recurrence%20relation.md) for ::: sequences—the form of a generating function may suggest a recurrence formula. <!--SR:!2024-12-31,62,310!2024-12-31,62,310-->
+- Find relationships between ::: sequences—if the generating functions of two sequences have a similar form, then the sequences themselves may be related. <!--SR:!2024-12-31,62,310!2025-01-13,71,310-->
+- Explore the asymptotic behaviour of :: sequences. <!--SR:!2024-12-30,60,310-->
+- Prove identities involving :: sequences. <!--SR:!2025-01-13,71,310-->
+- Solve ::: [enumeration](enumeration.md) problems in [combinatorics](combinatorics.md) and encoding their solutions. [Rook polynomials](rook%20polynomial.md) are an example of an application in combinatorics. <!--SR:!2024-12-31,62,310!2025-01-13,71,310-->
+- Evaluate ::: infinite sums. <!--SR:!2024-12-30,60,310!2024-12-31,62,310-->
 
 ### various techniques: evaluating sums and tackling other problems with generating functions
 

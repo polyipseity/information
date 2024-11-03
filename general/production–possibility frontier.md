@@ -61,10 +61,10 @@ If {{the two production goods depicted are [capital](capital%20(economics).md) [
 
 Production-Possibility Frontier delineates {{the maximum amount/quantities of outputs (goods/services) an economy can achieve}}, given {{fixed resources ([factors of production](factors%20of%20production.md)) and fixed technological progress}}. <!--SR:!2024-12-27,72,310!2024-12-04,50,290-->
 
-- Points that lie either on or below the production possibilities frontier/curve are... ::: ... __possible/attainable__: the quantities can be produced with currently available resources and technology. <!--SR:!2024-12-09,55,310!2024-12-03,49,290-->
-- Points that lie above the production possibilities frontier/curve are... ::: ... __not possible/unattainable__ because the quantities cannot be produced using currently available resources and technology. <!--SR:!2024-12-09,55,310!2024-12-14,60,310-->
-- Points that lie strictly below the frontier/curve are... ::: ... __inefficient__, because the economy can produce more of at least one good without sacrificing the production of any other good, with existing resources and technology. <!--SR:!2024-12-27,72,310!2024-12-17,63,310-->
-- Points that lie on the frontier/curve are... ::: ...[__efficient__](economic%20efficiency.md). <!--SR:!2024-12-14,60,310!2024-12-09,55,310-->
+- Points that lie either on or below the production possibilities frontier/curve are ::: __possible/attainable__: the quantities can be produced with currently available resources and technology. <!--SR:!2024-12-09,55,310!2024-12-03,49,290-->
+- Points that lie above the production possibilities frontier/curve are ::: __not possible/unattainable__ because the quantities cannot be produced using currently available resources and technology. <!--SR:!2024-12-09,55,310!2024-12-14,60,310-->
+- Points that lie strictly below the frontier/curve are ::: __inefficient__, because the economy can produce more of at least one good without sacrificing the production of any other good, with existing resources and technology. <!--SR:!2024-12-27,72,310!2024-12-17,63,310-->
+- Points that lie on the frontier/curve are :::[__efficient__](economic%20efficiency.md). <!--SR:!2024-12-14,60,310!2024-12-09,55,310-->
 
 Points that are unattainable can be {{achieved through [external trade](international%20trade.md) and [economic growth](economic%20growth.md)}}. Examples include {{importations of resources and technology, and the increase in the production of goods and services}}. <!--SR:!2024-12-27,72,310!2024-12-22,68,310-->
 
