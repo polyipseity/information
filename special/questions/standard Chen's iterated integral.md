@@ -10,7 +10,7 @@ tags:
 
 # standard Chen's iterated integral
 
-- time: 2024-02-29T17:31:14.505+08:00
+- datetime: 2024-02-29T17:31:14.505+08:00
 
 A standard Chen's iterated integral is as follows, where $n \in \mathbb{Z}_{\ge 0}$ and $f$ is an [operator](../../general/operator%20(mathematics).md) that forms an [abelian group](../../general/abelian%20group.md):
 

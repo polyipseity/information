@@ -10,7 +10,7 @@ tags:
 
 # The Nearsighted Cow Problem: A Calculus Classic
 
-- time: 2023-11-08T10:57:15.171+08:00
+- datetime: 2023-11-08T10:57:15.171+08:00
 
 A rectangular billboard $H$ meters in height stands in a field. A nearsighted cow with eye level at $Y$ meters below the bottom of the billboard stands $x$ meters from the billboard. Express the vertical angle subtended by the billboard at her eye $\theta$ in terms of $x$. Hence, find the distance $x_0$ the cow must stand from the billboard to maximize $\theta$.
 

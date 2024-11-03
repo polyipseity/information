@@ -37,12 +37,12 @@ The content is in teaching order.
 
 ## week 1 tutorial
 
-- time: 2024-09-05T10:30:00+08:00/2024-09-05T12:20:00+08:00
-- unscheduled
+- datetime: 2024-09-05T10:30:00+08:00/2024-09-05T12:20:00+08:00
+- status: unscheduled
 
 ## week 2 tutorial
 
-- time: 2024-09-12T10:30:00+08:00/2024-09-12T12:20:00+08:00
+- datetime: 2024-09-12T10:30:00+08:00/2024-09-12T12:20:00+08:00
 - course logistics
 - topic: What is Success?: Define your workview and worldview
 - 4 typical kinds of thinking ::: business thinking (optimize), design thinking (build), engineering thinking (solve), research thinking (analyze)
@@ -61,7 +61,7 @@ The content is in teaching order.
 
 ## week 3 tutorial
 
-- time: 2024-09-19T10:30:00+08:00/2024-09-19T12:20:00+08:00
+- datetime: 2024-09-19T10:30:00+08:00/2024-09-19T12:20:00+08:00
 - work motivations ::: autonomy, mastery, purpose
 - relationship between workview & worldview ::: If they integrate with each other, great! If they do not, then you may find jobs unfulfilling and want to quit it.
 - course framework ::: design thinking, meaning-making, discovery & support
@@ -78,7 +78,7 @@ The content is in teaching order.
 
 ## week 4 tutorial
 
-- time: 2024-09-26T10:30:00+08:00/2024-09-26T12:20:00+08:00
+- datetime: 2024-09-26T10:30:00+08:00/2024-09-26T12:20:00+08:00
 - positive psychology ::: happiness, well-being, etc.
 - PERMA ::: a portfolio approach to well-being: positive emotion, engagement (& motivation), relationships, meaning & purposes, accomplishment
   - PERMA element properties ::: contributes to well-being, being pursued for their own sakes, independent of other elements
@@ -96,7 +96,7 @@ The content is in teaching order.
 
 ## week 5 tutorial
 
-- time: 2024-10-03T10:30:00+08:00/2024-10-03T12:20:00+08:00
+- datetime: 2024-10-03T10:30:00+08:00/2024-10-03T12:20:00+08:00
 - activity 1: practice ideation through 3 things ::: Person A names a category, and then person B names 3 things that fit into the category. Afterwards, everyone shouts "Three things!". Repeat this to practice ideation and avoid filtering ideas.
 - success ::: What is your definition of __success__? Where does your belief come from? Are some of them dysfunctional?
   - success / dysfunctional belief ::: An example is "You should know where you are going by now." Yet, life stages have lengthened and delayed compared to before... (except for retirement age)
@@ -122,7 +122,7 @@ The content is in teaching order.
 
 ## week 6 tutorial
 
-- time: 2024-10-10T10:30:00+08:00/2024-10-10T12:20:00+08:00
+- datetime: 2024-10-10T10:30:00+08:00/2024-10-10T12:20:00+08:00
 - network practicum
   - format: part 1: instructor interviews guests; part 2: small-talk circle format
   - dress code: business casual
@@ -132,7 +132,7 @@ The content is in teaching order.
 
 ## week 7 tutorial
 
-- time: 2024-10-17T10:30:00+08:00/2024-10-17T12:20:00+08:00
+- datetime: 2024-10-17T10:30:00+08:00/2024-10-17T12:20:00+08:00
 - design thinking
   - design thinking / reframing
     - design thinking / reframing / motivation ::: In design thinking, we put as much emphasis on _problem finding_ as we do on problem solving. What is the point if you are solving the wrong problem?
@@ -152,7 +152,7 @@ The content is in teaching order.
 
 ## week 8 tutorial
 
-- time: 2024-10-24T10:30:00+08:00/2024-10-24T12:20:00+08:00
+- datetime: 2024-10-24T10:30:00+08:00/2024-10-24T12:20:00+08:00
 - activity 1: how many uses ::: Think of as many uses for a paperclip in 3 minutes. Play intense music.
   - activity 1: how many uses / takeaways ::: Did you get stuck? If no, then good! Yes, it is normal. You can improve this by using different _schemas_, collaborating with others, and think in a more relaxed environment (No intense music!).
 - activity 2: how many uses, better ::: Share with other people on your uses of a paperclip. Then, think of as many uses for a paperclip in 3 minutes again. Play relaxing music.
@@ -168,7 +168,7 @@ The content is in teaching order.
 
 ## week 9 tutorial
 
-- time: 2024-10-31T10:30:00+08:00/2024-10-31T12:20:00+08:00
+- datetime: 2024-10-31T10:30:00+08:00/2024-10-31T12:20:00+08:00
 - wild ideas
   - wild ideas / motivation ::: If you do not try to think of "wild ideas", often your ideas ends up "inside the box", respecting your assumptions. Thinking of "wild ideas" can help break your assumptions.
   - wild ideas / brainstorming ::: Frame a good question, ideally starting with "How might I...". Warm up your brain. Brainstorm many ideas using rules, ideally with other people. Select based on criteria. Extract insights (e.g. delightful idea, good idea).

@@ -35,7 +35,7 @@ The content is in teaching order.
 
 ## week 1 pre-lecture
 
-- time: 2024-09-01T12:00:00+08:00
+- datetime: 2024-09-01T12:00:00+08:00
 - [basics](basics.md)
   - [§ Python basics](basics.md#Python%20basics)
   - [§ arithmetic operators](basics.md#arithmetic%20operators)
@@ -55,7 +55,7 @@ The content is in teaching order.
 
 ## week 1 lecture
 
-- time: 2024-09-06T16:00:00+08:00/2024-09-06T17:50:00+08:00
+- datetime: 2024-09-06T16:00:00+08:00/2024-09-06T17:50:00+08:00
 - course logistics
 - [Python](../../../../general/Python.md) ::: It is a high-level, interpreted, and general-purpose dynamic programming language that focuses on code readability.
   - Python / why ::: beginner-friendly (simple, elegant), free and open-source, runs anywhere, supported by a large community, extensible with libraries (flexible), "batteries included": many standard libraries
@@ -69,7 +69,7 @@ The content is in teaching order.
 
 ## week 2 pre-lecture
 
-- time: 2024-09-09T12:00:00+08:00
+- datetime: 2024-09-09T12:00:00+08:00
 - [basics](basics.md)
   - [§ data type conversion](basics.md#data%20type%20conversion)
   - [§ input](basics.md#input)
@@ -88,7 +88,7 @@ The content is in teaching order.
 
 ## week 2 lab
 
-- time: 2024-09-10T11:00:00+08:00/2024-09-10T12:50:00+08:00
+- datetime: 2024-09-10T11:00:00+08:00/2024-09-10T12:50:00+08:00
 - course logistics
 - [§ week 1 pre-lecture](#week%201%20pre-lecture)
 - [basics](basics.md)
@@ -102,7 +102,7 @@ The content is in teaching order.
 
 ## week 2 lecture
 
-- time: 2024-09-13T16:00:00+08:00/2024-09-13T17:50:00+08:00
+- datetime: 2024-09-13T16:00:00+08:00/2024-09-13T17:50:00+08:00
 - [§ week 2 pre-lecture](#week%202%20pre-lecture)
 - [list](list.md)
   - [§ manipulation](list.md#manipulation)
@@ -114,7 +114,7 @@ The content is in teaching order.
 
 ## week 3 pre-lecture
 
-- time: 2024-09-16T12:00:00+08:00
+- datetime: 2024-09-16T12:00:00+08:00
 - [basics](basics.md)
   - [§ data types](basics.md#data%20types)
     - addition: type `bool`
@@ -131,7 +131,7 @@ The content is in teaching order.
 
 ## week 3 lab
 
-- time: 2024-09-17T11:00:00+08:00/2024-09-17T12:50:00+08:00
+- datetime: 2024-09-17T11:00:00+08:00/2024-09-17T12:50:00+08:00
 - [§ week 2 pre-lecture](#week%202%20pre-lecture)
 - [basics](basics.md)
   - [§ data types](basics.md#data%20types)
@@ -149,7 +149,7 @@ The content is in teaching order.
 
 ## week 3 lecture
 
-- time: 2024-09-20T16:00:00+08:00/2024-09-20T17:50:00+08:00
+- datetime: 2024-09-20T16:00:00+08:00/2024-09-20T17:50:00+08:00
 - [§ week 3 pre-lecture](#week%203%20pre-lecture)
 - [basics](basics.md)
   - [§ operators](basics.md#operators)
@@ -159,7 +159,7 @@ The content is in teaching order.
 
 ## week 4 pre-lecture
 
-- time: 2024-09-23T12:00:00+08:00
+- datetime: 2024-09-23T12:00:00+08:00
 - [control flow](control%20flow.md)
   - [§ for-iteration](control%20flow.md#for-iteration)
     - [control flow § for-iteration](control%20flow.md#for-iteration) / note ::: First, we have only learnt about `range(end)` and `list(range(end))`. So do not use the other ways of using `range(...)` in your exams. Second, if there are no statements to be executed in an iteration, you must still put a properly indented `pass` statement, which does nothing, for that iteration.
@@ -174,7 +174,7 @@ The content is in teaching order.
 
 ## week 4 lab
 
-- time: 2024-09-24T11:00:00+08:00/2024-09-24T12:50:00+08:00
+- datetime: 2024-09-24T11:00:00+08:00/2024-09-24T12:50:00+08:00
 - [§ week 3 pre-lecture](#week%203%20pre-lecture)
 - [basics](basics.md)
   - [§ data types](basics.md#data%20types)
@@ -191,7 +191,7 @@ The content is in teaching order.
 
 ## week 4 lecture
 
-- time: 2024-09-27T16:00:00+08:00/2024-09-27T17:50:00+08:00
+- datetime: 2024-09-27T16:00:00+08:00/2024-09-27T17:50:00+08:00
 - [§ week 4 pre-lecture](#week%204%20pre-lecture)
 - [basics](basics.md)
   - [§ output](basics.md#output)
@@ -201,7 +201,7 @@ The content is in teaching order.
 
 ## week 5 pre-lecture
 
-- time: 2024-09-30T12:00:00+08:00
+- datetime: 2024-09-30T12:00:00+08:00
 - [control flow](control%20flow.md)
   - [§ while-iteration](control%20flow.md#while-iteration)
     - [control flow § while-iteration](control%20flow.md#while-iteration) / note : We have only learnt `while True`. ONLY USE `while True` in your exercises, labs, and exams. If you really need a condition to stop the loop, use `break` under an `if` statement.
@@ -210,8 +210,8 @@ The content is in teaching order.
 
 ## week 5 lab
 
-- time: 2024-10-01T11:00:00+08:00/2024-10-01T12:50:00+08:00
-- public holiday
+- datetime: 2024-10-01T11:00:00+08:00/2024-10-01T12:50:00+08:00
+- status: unscheduled, public holiday: National Day
 - [§ week 4 pre-lecture](#week%204%20pre-lecture)
 - [control flow](control%20flow.md)
   - [§ for-iteration](control%20flow.md#for-iteration)
@@ -219,7 +219,7 @@ The content is in teaching order.
 
 ## week 6 lecture
 
-- time: 2024-10-04T16:00:00+08:00/2024-10-04T17:50:00+08:00
+- datetime: 2024-10-04T16:00:00+08:00/2024-10-04T17:50:00+08:00
 - [§ week 5 pre-lecture](#week%205%20pre-lecture)
 - [basics](basics.md)
   - [§ mathematics](basics.md#mathematics)
@@ -232,7 +232,7 @@ The content is in teaching order.
 
 ## week 6 lab
 
-- time: 2024-10-08T11:00:00+08:00/2024-10-08T12:50:00+08:00
+- datetime: 2024-10-08T11:00:00+08:00/2024-10-08T12:50:00+08:00
 - [§ week 5 pre-lecture](#week%205%20pre-lecture)
 - [control flow](control%20flow.md)
   - [§ while-iteration](control%20flow.md#while-iteration)
@@ -243,8 +243,8 @@ The content is in teaching order.
 
 ## week 7 lecture
 
-- time: 2024-10-11T16:00:00+08:00/2024-10-11T17:50:00+08:00
-- public holiday
+- datetime: 2024-10-11T16:00:00+08:00/2024-10-11T17:50:00+08:00
+- status: unscheduled, public holiday: Chung Yeung Festival
 - common mistakes
   - `=` vs `==` ::: Do not mix up the assignment operator and comparison operator.
   - `input(...)` return type ::: `input(...)` returns a `str` and may require further conversions.

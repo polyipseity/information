@@ -12,7 +12,7 @@ tags:
 # Cantor's diagonal argument, rational variant
 
 - credit: [Ashlee Dick](https://math.stackexchange.com/q/4833515), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), via Mathematics Stack Exchange
-- time: 2024-03-01T12:53:25.724+08:00
+- datetime: 2024-03-01T12:53:25.724+08:00
 
 Is it possible to list of all the rationals in $[0, 1]$, written in base $b \ge 2$, such that the real given by combining the digits along the diagonal is rational?
 

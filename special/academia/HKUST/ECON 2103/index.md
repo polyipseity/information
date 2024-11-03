@@ -38,7 +38,7 @@ The content is in teaching order.
 
 ## week 1 lecture
 
-- time: 2024-09-02T16:30:00+08:00/2024-09-02T17:50:00+08:00
+- datetime: 2024-09-02T16:30:00+08:00/2024-09-02T17:50:00+08:00
 - a core question of microeconomics ::: What do you WANT?
 - course logistics
   - course intended learning outcomes (CILOs) ::: microeconomic analysis, decision making, demand-supply framework, market mechanism in different market structures, economic effect of the government, application
@@ -52,17 +52,17 @@ The content is in teaching order.
 
 ## week 1 tutorial
 
-- time: 2024-09-03T17:00:00+08:00/2024-09-03T17:50:00+08:00
-- unscheduled
+- datetime: 2024-09-03T17:00:00+08:00/2024-09-03T17:50:00+08:00
+- status: unscheduled
 
 ## week 1 lecture 2
 
-- time: 2024-09-06T12:00:00+08:00/2024-09-06T13:20:00+08:00
+- datetime: 2024-09-06T12:00:00+08:00/2024-09-06T13:20:00+08:00
 - canceled, typhoon signal 8
 
 ## week 2 lecture
 
-- time: 2024-09-09T16:30:00+08:00/2024-09-09T17:50:00+08:00
+- datetime: 2024-09-09T16:30:00+08:00/2024-09-09T17:50:00+08:00
 - announcements
   - assigned reading: textbook chapter 1, textbook chapter 2
   - assignment: [problem set 1](assignments/problem%20set%201/submission.md)
@@ -100,12 +100,12 @@ The content is in teaching order.
 
 ## week 2 tutorial
 
-- time: 2024-09-10T17:00:00+08:00/2024-09-10T17:50:00+08:00
-- unscheduled
+- datetime: 2024-09-10T17:00:00+08:00/2024-09-10T17:50:00+08:00
+- status: unscheduled
 
 ## week 2 lecture 2
 
-- time: 2024-09-13T12:00:00+08:00/2024-09-13T13:20:00+08:00
+- datetime: 2024-09-13T12:00:00+08:00/2024-09-13T13:20:00+08:00
 - 10 principles of economics
   - 10 principles of economics / (4) incentive (people respond to incentives) ::: People are not machines and you (usually :/) cannot just order people to do something. However, you can use __incentives__ to guide people's behaviors _significantly_. Incentives lead to intended consequences, but may also lead to __unintended consequences__, because people react to incentives _smartly_ (for perfectly rational people, this is maximizing their benefits given the incentives).
     - 10 principles of economics / incentive / rent regulation ::: Can rent regulation protect poor people from rent increase? Maybe... but also maybe not. Landlords may decide to not rent, spend less money on maintaining the rental units, etc. This is an example of _unintended consequences_. Indeed, the consensus of many economists is that rent regulation reduces the quantity and quality of rental units.
@@ -131,7 +131,7 @@ The content is in teaching order.
 
 ## week 3 lecture
 
-- time: 2024-09-16T16:30:00+08:00/2024-09-16T17:50:00+08:00
+- datetime: 2024-09-16T16:30:00+08:00/2024-09-16T17:50:00+08:00
 - announcements
   - assigned reading: textbook chapter 3
   - assignment: [problem set 3](assignments/problem%20set%203/submission.md)
@@ -177,7 +177,7 @@ The content is in teaching order.
 
 ## week 3 tutorial
 
-- time: 2024-09-17T17:00:00+08:00/2024-09-17T17:50:00+08:00
+- datetime: 2024-09-17T17:00:00+08:00/2024-09-17T17:50:00+08:00
 - [§ week 1 lecture](#week%201%20lecture)
 - [§ week 1 lecture 2](#week%201%20lecture%202)
 - [§ week 2 lecture](#week%202%20lecture)
@@ -188,7 +188,7 @@ The content is in teaching order.
 
 ## week 3 lecture 2
 
-- time: 2024-09-20T12:00:00+08:00/2024-09-20T13:20:00+08:00
+- datetime: 2024-09-20T12:00:00+08:00/2024-09-20T13:20:00+08:00
 - [production–possibility frontier](../../../../general/production–possibility%20frontier.md)
   - [production–possibility frontier](../../../../general/production–possibility%20frontier.md) / division of total output ::: However, note that while specialization _may_ maximize the total output, both parties only benefit from this when the total output can be _divided fairly_ among the two producers. If there is no way to do so, specialization will not happen. One way to divide the total output fairly is _trade_.
   - [production–possibility frontier](../../../../general/production–possibility%20frontier.md) / trade ::: One simple way to think about trade is the _exchange ratio_. It is very simple actually. If the marginal (opportunity) cost of producing a good is lower than its marginal benefit (from the exchange ratio), then the producer is willing to trade. If this is the case for both producers producing in their own better specialized products, then they will trade with each other. This is how trade can divide the total output fairly.
@@ -211,38 +211,38 @@ The content is in teaching order.
 
 ## week 4 lecture
 
-- time: 2024-09-23T16:30:00+08:00/2024-09-23T17:50:00+08:00
+- datetime: 2024-09-23T16:30:00+08:00/2024-09-23T17:50:00+08:00
 
 ## week 4 tutorial
 
-- time: 2024-09-24T17:00:00+08:00/2024-09-24T17:50:00+08:00
+- datetime: 2024-09-24T17:00:00+08:00/2024-09-24T17:50:00+08:00
 - [§ week 3 lecture 2](#week%203%20lecture%202)
 - [§ week 4 lecture](#week%204%20lecture)
 
 ## week 4 lecture 2
 
-- time: 2024-09-27T12:00:00+08:00/2024-09-27T13:20:00+08:00
+- datetime: 2024-09-27T12:00:00+08:00/2024-09-27T13:20:00+08:00
 
 ## week 5 lecture
 
-- time: 2024-09-30T16:30:00+08:00/2024-09-30T17:50:00+08:00
+- datetime: 2024-09-30T16:30:00+08:00/2024-09-30T17:50:00+08:00
 
 ## week 5 tutorial
 
-- time: 2024-10-01T17:00:00+08:00/2024-10-01T17:50:00+08:00
-- unscheduled, public holiday: National Day
+- datetime: 2024-10-01T17:00:00+08:00/2024-10-01T17:50:00+08:00
+- status: unscheduled, public holiday: National Day
 
 ## week 5 lecture 2
 
-- time: 2024-10-04T12:00:00+08:00/2024-10-04T13:20:00+08:00
+- datetime: 2024-10-04T12:00:00+08:00/2024-10-04T13:20:00+08:00
 
 ## week 6 lecture
 
-- time: 2024-10-07T16:30:00+08:00/2024-10-07T17:50:00+08:00
+- datetime: 2024-10-07T16:30:00+08:00/2024-10-07T17:50:00+08:00
 
 ## week 6 tutorial
 
-- time: 2024-10-08T17:00:00+08:00/2024-10-08T17:50:00+08:00
+- datetime: 2024-10-08T17:00:00+08:00/2024-10-08T17:50:00+08:00
 - [§ week 4 lecture 2](#week%204%20lecture%202)
 - [§ week 5 lecture](#week%205%20lecture)
 - [§ week 5 lecture 2](#week%205%20lecture%202)
@@ -250,29 +250,29 @@ The content is in teaching order.
 
 ## week 6 lecture 2
 
-- time: 2024-10-11T12:00:00+08:00/2024-10-11T13:20:00+08:00
-- unscheduled, public holiday: Chung Yeung Festival
+- datetime: 2024-10-11T12:00:00+08:00/2024-10-11T13:20:00+08:00
+- status: unscheduled, public holiday: Chung Yeung Festival
 
 ## week 7 lecture
 
-- time: 2024-10-14T16:30:00+08:00/2024-10-14T17:50:00+08:00
+- datetime: 2024-10-14T16:30:00+08:00/2024-10-14T17:50:00+08:00
 
 ## week 7 tutorial
 
-- time: 2024-10-15T17:00:00+08:00/2024-10-08T17:50:00+08:00
-- unscheduled
+- datetime: 2024-10-15T17:00:00+08:00/2024-10-08T17:50:00+08:00
+- status: unscheduled
 
 ## week 7 lecture 2
 
-- time: 2024-10-18T12:00:00+08:00/2024-10-18T13:20:00+08:00
+- datetime: 2024-10-18T12:00:00+08:00/2024-10-18T13:20:00+08:00
 
 ## week 8 lecture
 
-- time: 2024-10-21T16:30:00+08:00/2024-10-21T17:50:00+08:00
+- datetime: 2024-10-21T16:30:00+08:00/2024-10-21T17:50:00+08:00
 
 ## week 8 tutorial
 
-- time: 2024-10-22T17:00:00+08:00/2024-10-22T17:50:00+08:00
+- datetime: 2024-10-22T17:00:00+08:00/2024-10-22T17:50:00+08:00
 - [§ week 6 lecture 2](#week%206%20lecture%202)
 - [§ week 7 lecture](#week%207%20lecture)
 - [§ week 7 lecture 2](#week%207%20lecture%202)
@@ -280,35 +280,35 @@ The content is in teaching order.
 
 ## week 8 lecture 2
 
-- time: 2024-10-25T12:00:00+08:00/2024-10-25T13:20:00+08:00
+- datetime: 2024-10-25T12:00:00+08:00/2024-10-25T13:20:00+08:00
 
 ## week 9 lecture
 
-- time: 2024-10-28T16:30:00+08:00/2024-10-28T17:50:00+08:00
+- datetime: 2024-10-28T16:30:00+08:00/2024-10-28T17:50:00+08:00
 
 ## week 9 tutorial
 
-- time: 2024-10-29T17:00:00+08:00/2024-10-29T17:50:00+08:00
+- datetime: 2024-10-29T17:00:00+08:00/2024-10-29T17:50:00+08:00
 - [§ week 8 lecture 2](#week%208%20lecture%202)
 - [§ week 9 lecture](#week%209%20lecture)
 
 ## week 9 lecture 2
 
-- time: 2024-11-01T12:00:00+08:00/2024-11-01T13:20:00+08:00
+- datetime: 2024-11-01T12:00:00+08:00/2024-11-01T13:20:00+08:00
 
 ## week 10 lecture
 
-- time: 2024-11-04T16:30:00+08:00/2024-11-04T17:50:00+08:00
+- datetime: 2024-11-04T16:30:00+08:00/2024-11-04T17:50:00+08:00
 
 ## week 10 tutorial
 
-- time: 2024-11-05T17:00:00+08:00/2024-11-05T17:50:00+08:00
+- datetime: 2024-11-05T17:00:00+08:00/2024-11-05T17:50:00+08:00
 - [§ week 9 lecture 2](#week%209%20lecture%202)
 - [§ week 10 lecture](#week%2010%20lecture)
 
 ## week 10 lecture 2
 
-- time: 2024-11-08T12:00:00+08:00/2024-11-08T13:20:00+08:00
+- datetime: 2024-11-08T12:00:00+08:00/2024-11-08T13:20:00+08:00
 
 ## midterm examination
 

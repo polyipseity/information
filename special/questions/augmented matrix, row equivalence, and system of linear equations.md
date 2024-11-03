@@ -10,7 +10,7 @@ tags:
 
 # augmented matrix, row equivalence, and system of linear equations
 
-- time: 2024-09-08T18:33:38+08:00
+- datetime: 2024-09-08T18:33:38+08:00
 
 Here, we define a __system of linear equation__ to have at least 2 equations and 1 variable.
 

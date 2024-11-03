@@ -11,7 +11,7 @@ tags:
 
 # convergence of series: growth rate
 
-- time: 2024-07-01T23:12:04.682+08:00
+- datetime: 2024-07-01T23:12:04.682+08:00
 
 Prove or disprove: If $a_n > 0$ for $n \gg 0$ and $\lim_{n \to +\infty} n a_n = 0$, then $\sum (-1)^n a_n$ converges.
 
