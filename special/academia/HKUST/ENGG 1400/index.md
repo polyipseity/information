@@ -93,3 +93,67 @@ The content is in teaching order.
   - STRONG debriefing / debrief ::: STRONG assess your job interests, NOT your job skills!
 - assignments
   - [PERMA assessment and reflection](assignments/PERMA%20assessment%20and%20reflection/submission.md)
+
+## week 5 tutorial
+
+- time: 2024-10-03T10:30:00+08:00/2024-10-03T12:20:00+08:00
+- activity 1: practice ideation through 3 things ::: Person A names a category, and then person B names 3 things that fit into the category. Afterwards, everyone shouts "Three things!". Repeat this to practice ideation and avoid filtering ideas.
+- success ::: What is your definition of __success__? Where does your belief come from? Are some of them dysfunctional?
+  - success / dysfunctional belief ::: An example is "You should know where you are going by now." Yet, life stages have lengthened and delayed compared to before... (except for retirement age)
+  - success / idea board ::: With other people, ideate your definitions of success and their sources if known. Post them on sticky notes on an idea board. Then, categorize the definitions. Finally, look at the idea board together and discuss about any interesting thing you have found.
+- design thinking
+  - design thinking / life design: empathize ::: The amazing people you meet and the understanding/perspectives you give _and_ receive.
+  - design thinking / life design: define ::: Think about who you are, where you are, and what is _really_ important to you.
+  - design thinking / life design: ideate ::: You give yourself permission to have un-reserved thoughts, drawings, imaginations, and hopes. Also let the ideas of others in.
+  - design thinking / life design: prototype ::: You build simply and accessibly.
+  - design thinking / life design: test ::: You try things curiously and courageously.
+  - design thinking / reframing ::: Framing defines the boundaries and constraints of the solution set to your problem. __Reframing__ state the original problem but in a different perspective to expand the solution set. There may be unexpected innovation.
+- job hunting ::: Finding a job... or pursuing possibilities that give me choices and freedom (reframing)?
+  - job hunting / iceberg problem ::: visible job market (agency, jobs board, social media): 30%, hidden market (HR connection, direct application, networking): 70%
+- design thinking
+  - design thinking / curiosity ::: Curiosity makes everything new and invites exploration. It helps us notice new opportunities and connect with people. It allows us to look beyond preconceptions and be open to possibilities.
+  - design thinking / bias toward action ::: Designers test things out. They run small experiments and prototypes as opportunities to learn, regardless of outcome. They try things and iterate toward success, rather than waiting until they can get it "right" at the first time.
+  - design thinking / flare & focus ::: flare: create options, divergent thinking; focus: select options, convergent thinking
+- information interview ::: Not a job interview, but a conversation looking for others' stories.
+  - information interview / invitation ::: Who are you? How do you relate to them? Why them? What do you want to find out? And finally, ask them.
+  - information interview / best practices ::: ask for 3 more referrals, be genuinely curious, buy coffee, in person > virtual > by phone, thank you note
+  - information interview / culture ::: Be aware of cultural differences. Ask and observe.
+  - information interview / takeaways ::: People will help (refer) you if you ask. You will help (refer) someone back eventually...
+
+## week 6 tutorial
+
+- time: 2024-10-10T10:30:00+08:00/2024-10-10T12:20:00+08:00
+- network practicum
+  - format: part 1: instructor interviews guests; part 2: small-talk circle format
+  - dress code: business casual
+  - has food and drinks
+  - 2 guests: Mr. Alex (redacted), Mr. Derek (redacted)
+  - network practicum / takeaways ::: Learn from others' stories (collect data), and be inspired in your life planning!
+
+## week 7 tutorial
+
+- time: 2024-10-17T10:30:00+08:00/2024-10-17T12:20:00+08:00
+- design thinking
+  - design thinking / reframing
+    - design thinking / reframing / motivations ::: In design thinking, we put as much emphasis on _problem finding_ as we do on problem solving. What is the point of solving the wrong problem?
+- sticky problem ::: anchor problem, gravity problem, unclear problem
+  - anchor problem ::: Problems that _you think_ have only one possible solution. <p> Try to release the anchor to open up more solution possibilities.
+  - gravity problem ::: Problems that are _not actionable_ objectively. (Sometimes it may be an anchor problem but it seems like a gravity problem because your mind is so anchored on the solution...) <p> Try to accept and reframe the problem. Accept does not mean give up, however. There may be a possibility that the problem becomes actionable later. And you can always try to reframe the problem.
+  - unclear problem ::: compound/unfocused, inappropriately scoped, insufficient context, problems with two to three solutions (yes/no, either/or)
+  - sticky problem / reframing ::: See what kind of sticky problem you have. Reframe appropriately. Best if the reframed problem starts with "How might I..." <p> Reframing helps with getting the "right" solutions, because the solutions you get highly depends on your framing.
+- activity 1: reframing a problem ::: We are going to reframe your problem 3 times. In each round, state your problem on a idea board. With other people, add ideas to each others' boards. After each round, reframe your question based on the ideas given by others.
+  - activity 1: reframing a problem / takeaways ::: You can reframe your questions using ideation with others to get better results! Also, idea boards are a great way to help introverts participate.
+- ways of thinking
+  - ways of thinking / blocks ::: There are ways of thinking that may get you stuck on a problem. They could be cultural/milieu, emotional, intellectual, or perceptual.
+    - ways of thinking / blocks / cultural ::: embarrassment, fear of failure, uncomfortable with fantasy or intuition
+    - ways of thinking / blocks / emotional ::: control is good and chaos is bad, no support for new ideas, not supposed to have fun
+    - ways of thinking / blocks / intellectual ::: expert belief, inflexible style, wrong information
+    - ways of thinking / blocks / perceptual ::: choosing too tight a view, difficulty isolating, stereotyping
+
+## week 8 tutorial
+
+- time: 2024-10-24T10:30:00+08:00/2024-10-24T12:20:00+08:00
+
+## week 9 tutorial
+
+- time: 2024-10-31T10:30:00+08:00/2024-10-31T12:20:00+08:00
