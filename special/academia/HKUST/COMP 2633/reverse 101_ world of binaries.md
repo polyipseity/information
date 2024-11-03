@@ -39,7 +39,7 @@ It is okay that one does not understand everything above. The most important par
 
 ## assembly language
 
-Assembly is {{not a single language}}. Rather, there are {{multiple languages, called _instruction set architecture_ (ISA)}}. The most common ones are {{x86 and x86-64}}, which we will focus on. Other examples include {{ARM32, ARM64, RISC-V, Power ISA, and MIPS}}. <!--SR:!2024-12-18,84,343!2024-11-03,41,303!2024-12-08,75,345!2024-12-03,71,323-->
+Assembly is {{not a single language}}. Rather, there are {{multiple languages, called _instruction set architecture_ (ISA)}}. The most common ones are {{x86 and x86-64}}, which we will focus on. Other examples include {{ARM32, ARM64, RISC-V, Power ISA, and MIPS}}. <!--SR:!2024-12-18,84,343!2025-04-30,178,323!2024-12-08,75,345!2024-12-03,71,323-->
 
 ### registers
 

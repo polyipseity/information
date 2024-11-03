@@ -479,7 +479,7 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - formula: {{RCOOH}}
 > - prefix: {{carboxy-}}
 > - suffix: {{-ic acid (-(=O)OH, retained), -oic acid (-(=O)OH), -carboxylic acid (-COOH)}}
-> - infix: {{(locant)}} <!--SR:!2025-08-29,784,340!2024-11-03,544,322!2028-07-22,1545,362!2024-12-13,543,322!2026-10-27,966,305!2029-11-05,2042,387-->
+> - infix: {{(locant)}} <!--SR:!2025-08-29,784,340!2031-06-19,2419,342!2028-07-22,1545,362!2024-12-13,543,322!2026-10-27,966,305!2029-11-05,2042,387-->
 
 <!-- markdownlint MD028 -->
 

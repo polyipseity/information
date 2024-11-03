@@ -41,7 +41,7 @@ The inverse transform is given by:
 
 > {{__inverse discrete Fourier transform (Eq.2)__}}
 >
-> {{$$x_n = \frac 1 N \sum_{k = 0}^{N - 1} X_k \cdot e^{i 2\pi \frac k N n}$$}} <!--SR:!2024-11-03,61,270!2024-11-16,65,270-->
+> {{$$x_n = \frac 1 N \sum_{k = 0}^{N - 1} X_k \cdot e^{i 2\pi \frac k N n}$$}} <!--SR:!2025-04-25,173,270!2024-11-16,65,270-->
 
 __Eq.2__ is {{also $N$-periodic (in index $n$)}}. In __Eq.2__, each $X_k$ is {{a complex number whose polar coordinates are the amplitude and phase of a complex sinusoidal component $\left(e^{i 2\pi \frac k N n}\right)$ of function $x_n$}}. (see [discrete Fourier series](discrete%20Fourier%20series.md)) The sinusoid's [frequency](frequency.md) is {{$k$ cycles per $N$ samples}}. <!--SR:!2025-08-07,283,330!2025-02-09,124,290!2025-05-26,205,310-->
 
@@ -51,7 +51,7 @@ __Eq.2__ is {{also $N$-periodic (in index $n$)}}. In __Eq.2__, each $X_k$ is {{a
 
 ### linearity
 
-The DFT is {{a linear transform}}, i.e. if {{${\mathcal {F} }(\{x_{n}\})_{k}=X_{k}$ and ${\mathcal {F} }(\{y_{n}\})_{k}=Y_{k}$}}, then {{for any complex numbers $a,b$: $${\mathcal {F} }(\{ax_{n}+by_{n}\})_{k}=aX_{k}+bY_{k}$$}}. <!--SR:!2024-11-03,64,336!2024-11-15,74,336!2024-11-17,75,336-->
+The DFT is {{a linear transform}}, i.e. if {{${\mathcal {F} }(\{x_{n}\})_{k}=X_{k}$ and ${\mathcal {F} }(\{y_{n}\})_{k}=Y_{k}$}}, then {{for any complex numbers $a,b$: $${\mathcal {F} }(\{ax_{n}+by_{n}\})_{k}=aX_{k}+bY_{k}$$}}. <!--SR:!2025-09-09,310,356!2024-11-15,74,336!2024-11-17,75,336-->
 
 ### time and frequency reversal
 
@@ -134,13 +134,13 @@ By [expressing the inverse DFT in terms of the DFT](#expressing%20the%20inverse%
 
 ### expressing the inverse DFT in terms of the DFT
 
-A useful property of the DFT is that {{the inverse DFT can be easily expressed in terms of the (forward) DFT, via several well-known "tricks"}}. (For example, in {{computations}}, it is {{often convenient to only implement a fast Fourier transform corresponding to one transform direction and then to get the other transform direction from the first}}.) <!--SR:!2025-05-25,206,310!2024-11-03,67,310!2024-11-04,68,310-->
+A useful property of the DFT is that {{the inverse DFT can be easily expressed in terms of the (forward) DFT, via several well-known "tricks"}}. (For example, in {{computations}}, it is {{often convenient to only implement a fast Fourier transform corresponding to one transform direction and then to get the other transform direction from the first}}.) <!--SR:!2025-05-25,206,310!2025-08-30,300,330!2024-11-04,68,310-->
 
 First, we can compute the inverse DFT by {{reversing all but one of the inputs (Duhamel _et al._, 1988)}}: {{$$\mathcal F^{-1}(\set{x_n}) = \frac 1 N \mathcal F(\set{x_{N - n} })$$}}. (As usual, the subscripts are {{interpreted [modulo](modular%20arithmetic.md) _N_; thus, for $n = 0$, we have $x_{N - 0} = x_0$}}.) <!--SR:!2025-06-25,249,330!2024-12-26,95,290!2024-11-06,69,310-->
 
 Second, one can also {{conjugate the inputs and outputs}}: {{$$\mathcal F^{-1}(\mathbf x) = \frac 1 N \mathcal F(\mathbf x^*)^*$$}}. <!--SR:!2025-04-16,178,310!2025-08-10,283,330-->
 
-Third, {{a variant of this conjugation trick}}, which is {{sometimes preferable because it requires no modification of the data values}}, involves {{swapping real and imaginary parts (which can be done on a computer simply by modifying [pointers](pointer%20(computer%20programming).md))}}. Define {{$\operatorname {swap} (x_{n})$ as $x_{n}$ with its real and imaginary parts swapped—that is, if $x_{n}=a+bi$ then $\operatorname {swap} (x_{n})$ is $b+ai$}}. Equivalently, {{$\operatorname {swap} (x_{n})$ equals $ix_{n}^{*}$}}. Then {{$${\mathcal {F} }^{-1}(\mathbf {x} )={\frac {1}{N} }\operatorname {swap} ({\mathcal {F} }(\operatorname {swap} (\mathbf {x} )))$$}}. That is, the inverse transform is {{the same as the forward transform with the real and imaginary parts swapped for both input and output, up to a normalization (Duhamel _et al._, 1988)}}. <!--SR:!2025-05-17,214,330!2024-11-05,69,310!2025-04-10,184,310!2025-03-08,159,310!2025-07-12,260,330!2024-11-03,66,310!2024-12-13,82,270-->
+Third, {{a variant of this conjugation trick}}, which is {{sometimes preferable because it requires no modification of the data values}}, involves {{swapping real and imaginary parts (which can be done on a computer simply by modifying [pointers](pointer%20(computer%20programming).md))}}. Define {{$\operatorname {swap} (x_{n})$ as $x_{n}$ with its real and imaginary parts swapped—that is, if $x_{n}=a+bi$ then $\operatorname {swap} (x_{n})$ is $b+ai$}}. Equivalently, {{$\operatorname {swap} (x_{n})$ equals $ix_{n}^{*}$}}. Then {{$${\mathcal {F} }^{-1}(\mathbf {x} )={\frac {1}{N} }\operatorname {swap} ({\mathcal {F} }(\operatorname {swap} (\mathbf {x} )))$$}}. That is, the inverse transform is {{the same as the forward transform with the real and imaginary parts swapped for both input and output, up to a normalization (Duhamel _et al._, 1988)}}. <!--SR:!2025-05-17,214,330!2024-11-05,69,310!2025-04-10,184,310!2025-03-08,159,310!2025-07-12,260,330!2025-06-03,212,310!2024-12-13,82,270-->
 
 The conjugation trick can also be used to {{define a new transform, closely related to the DFT, that is [involutory](involution%20(mathematics).md)—that is, which is its own inverse}}. In particular, {{$T(\mathbf {x} )={\mathcal {F} }\left(\mathbf {x} ^{*}\right)/{\sqrt {N} }$ is clearly its own inverse: $T(T(\mathbf {x} ))=\mathbf {x}$}}. A closely related involutory transformation {{(by a factor of $\frac {1+i}{\sqrt {2} }$) is $H(\mathbf {x} )={\mathcal {F} }\left((1+i)\mathbf {x} ^{*}\right)/{\sqrt {2N} }$}}, since {{the $(1+i)$ factors in $H(H(\mathbf {x} ))$ cancel the 2}}. For {{real inputs $\mathbf {x}$}}, {{the real part of $H(\mathbf {x} )$ is none other than the [discrete Hartley transform](discrete%20Hartley%20transform.md), which is also involutory}}. <!--SR:!2024-12-12,81,270!2025-02-14,129,270!2024-11-29,75,270!2025-01-31,129,310!2025-01-12,108,270!2025-01-29,106,250-->
 
@@ -148,7 +148,7 @@ The conjugation trick can also be used to {{define a new transform, closely rela
 
 If {{$x_{0}, \ldots, x_{N-1}$ are [real numbers](real%20number.md), as they often are in practical applications}}, then {{the DFT $X_{0}, \ldots, X_{N-1}$ is [even conjugate symmetric](even%20and%20odd%20functions.md)}}: {{$$x_{n}\in \mathbb {R} \quad \forall n\in \{0, \ldots, N-1\}\implies X_{k}=X_{-k\mod N}^{*}\quad \forall k\in \{0, \ldots, N-1\}$$}}, where {{$X^{*}$ denotes [complex conjugation](complex%20conjugate.md)}}. It follows that {{for even $N$}} {{$X_{0}$ and $X_{N/2}$ are real-valued, and the remainder of the DFT is completely specified by just $N/2-1$ complex numbers}}. Furthermore, if {{$x_{0}, \ldots, x_{N - 1}$ is _additionally_ even, i.e. $x_{0} = x_{-k \mod N}$}}, then {{the DFT $X_{0}, \ldots, X_{N-1}$ is further constrained by $X_k = X_{-k \mod N}$ by [time and frequency reversal](#time%20and%20frequency%20reversal)}}. Combined with the above property, {{the DFT have no imaginary components for all frequencies}}. <!--SR:!2024-11-28,79,347!2025-05-18,198,327!2024-12-02,68,287!2024-11-29,80,347!2025-01-24,108,307!2024-12-03,84,347!2025-02-06,129,327!2025-02-13,121,307!2025-01-14,103,307-->
 
-If {{$x_{0}, \ldots, x_{N-1}$ are purely imaginary numbers}}, then {{the DFT $X_{0} ,\ldots, X_{N-1}$ is [odd conjugate symmetric](even%20and%20odd%20functions.md)}}: {{$$x_{n}\in i\mathbb {R} \quad \forall n\in \{0, \ldots, N-1\}\implies X_{k}=-X_{-k\mod N}^{*}\quad \forall k\in \{0, \ldots, N-1\}$$}}, where {{$X^{*}$ denotes [complex conjugation](complex%20conjugate.md)}}. {{Additional properties analogous to the previous paragraph}} also apply. <!--SR:!2024-11-03,55,327!2025-04-23,175,327!2024-11-14,64,327!2024-11-05,61,327!2025-07-08,248,347-->
+If {{$x_{0}, \ldots, x_{N-1}$ are purely imaginary numbers}}, then {{the DFT $X_{0} ,\ldots, X_{N-1}$ is [odd conjugate symmetric](even%20and%20odd%20functions.md)}}: {{$$x_{n}\in i\mathbb {R} \quad \forall n\in \{0, \ldots, N-1\}\implies X_{k}=-X_{-k\mod N}^{*}\quad \forall k\in \{0, \ldots, N-1\}$$}}, where {{$X^{*}$ denotes [complex conjugation](complex%20conjugate.md)}}. {{Additional properties analogous to the previous paragraph}} also apply. <!--SR:!2024-11-27,24,307!2025-04-23,175,327!2024-11-14,64,327!2024-11-05,61,327!2025-07-08,248,347-->
 
 ## references
 

@@ -21,7 +21,7 @@ __Memory safety__ is {{the state of being protected from various [software bugs]
 
 Many different types of memory errors can occur. Important one includes {{access errors, uninitialized variables, and memory leak}}. <!--SR:!2025-04-15,167,310-->
 
-- __access errors__ ::: Invalid read/write of a pointer. Includes buffer overflow, buffer over-read, invalid page fault, use after free, etc. <!--SR:!2024-11-03,45,290!2024-11-09,48,290-->
+- __access errors__ ::: Invalid read/write of a pointer. Includes buffer overflow, buffer over-read, invalid page fault, use after free, etc. <!--SR:!2025-05-08,186,310!2024-11-09,48,290-->
   - __[buffer overflow](buffer%20overflow.md)__ ::: Out-of-bound writes can corrupt the content of adjacent objects, or internal data (like bookkeeping information for the [heap](memory%20management.md#HEAP)) or [return](return%20statement.md) addresses. <!--SR:!2024-11-05,44,290!2024-11-06,50,310-->
   - __[buffer over-read](buffer%20over-read.md)__ ::: Out-of-bound reads can reveal sensitive data or help attackers bypass [address space layout randomization](address%20space%20layout%20randomization.md). <!--SR:!2024-11-07,51,310!2024-11-11,54,310-->
   - __[invalid page fault](page%20fault.md#invalid)__ ::: Accessing a pointer outside the virtual memory space. A null pointer dereference will often cause an exception or program termination in most environments, but can cause corruption in operating system [kernels](kernel%20(operating%20system).md) or systems without [memory protection](memory%20protection.md), or when use of the null pointer involves a large or negative offset. <!--SR:!2024-11-12,51,290!2025-02-09,110,290-->

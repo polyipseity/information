@@ -189,7 +189,7 @@ return (
 > oxides
 >
 > - general solubility: {{<span style="color: red;">insoluble</span>}}
-> - exception(s): {{group I, group II (except [BeO](beryllium%20oxide.md)), NH<sub>4</sub><sup>+</sup>, Ba<sup>2+</sup>, Sr<sup>2+</sup>, and Tl<sup>+</sup> compounds}} <!--SR:!2025-01-01,660,250!2024-11-03,33,130-->
+> - exception(s): {{group I, group II (except [BeO](beryllium%20oxide.md)), NH<sub>4</sub><sup>+</sup>, Ba<sup>2+</sup>, Sr<sup>2+</sup>, and Tl<sup>+</sup> compounds}} <!--SR:!2025-01-01,660,250!2024-12-20,47,130-->
 
 <!-- markdownlint MD028 -->
 
@@ -369,7 +369,7 @@ return await memorize_map(
 - [copper(II) sulfide](copper(II)%20sulfide.md)::<span style="color: red;">insoluble</span> <!--SR:!2025-06-11,301,258-->
 - [lead(II) bromide](lead(II)%20bromide.md)::<span style="background-color: black; color: yellow;">slightly soluble</span> <!--SR:!2024-12-31,90,198-->
 - [lead(II) chloride](lead(II)%20chloride.md)::<span style="background-color: black; color: yellow;">slightly soluble</span> <!--SR:!2024-11-25,260,278-->
-- [lead(II) iodide](lead(II)%20iodide.md)::<span style="background-color: black; color: yellow;">slightly soluble</span> <!--SR:!2024-11-03,4,130-->
+- [lead(II) iodide](lead(II)%20iodide.md)::<span style="background-color: black; color: yellow;">slightly soluble</span> <!--SR:!2024-11-08,5,130-->
 - [lead(II) sulfate](lead(II)%20sulfate.md)::<span style="color: red;">insoluble</span> <!--SR:!2024-11-24,40,138-->
 - [lithium phosphate](lithium%20phosphate.md)::<span style="background-color: black; color: yellow;">slightly soluble</span> <!--SR:!2025-09-11,315,198-->
 - [mercury(I) bromide](mercury(I)%20bromide.md)::<span style="color: red;">insoluble</span> <!--SR:!2026-03-27,660,318-->

@@ -13,7 +13,7 @@ We introduced {{3 signal tools: [Audacity](#Audacity), [SonicVisualiser](#SonicV
 
 ## Audacity
 
-Audacity is {{an audio editor}}. It can be downloaded from {{<https://audacityteam.org/>}} <!--SR:!2024-11-03,66,310!2025-08-10,283,330-->
+Audacity is {{an audio editor}}. It can be downloaded from {{<https://audacityteam.org/>}} <!--SR:!2025-08-22,292,330!2025-08-10,283,330-->
 
 ### analysis (Audacity)
 
@@ -21,7 +21,7 @@ Audacity can show {{the spectrogram of a signal}}. <!--SR:!2024-11-09,68,329-->
 
 ### generating periodic signals
 
-Audacity can generate {{real sine signals of any frequency and amplitude}}. The signals can also be {{non-sinusoidal, such as _sawtooth_-shaped and _triangle_-shaped}}, which have {{more complex frequency components}}. It can even generate signals that {{increases in frequency over time (increasing pitch)}}, called {{_chirp_}}. <!--SR:!2024-11-06,51,318!2025-05-06,196,338!2024-11-09,54,318!2025-05-30,210,338!2024-11-03,50,318-->
+Audacity can generate {{real sine signals of any frequency and amplitude}}. The signals can also be {{non-sinusoidal, such as _sawtooth_-shaped and _triangle_-shaped}}, which have {{more complex frequency components}}. It can even generate signals that {{increases in frequency over time (increasing pitch)}}, called {{_chirp_}}. <!--SR:!2024-11-06,51,318!2025-05-06,196,338!2024-11-09,54,318!2025-05-30,210,338!2025-06-21,230,338-->
 
 ## SonicVisualiser
 

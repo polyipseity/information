@@ -69,7 +69,7 @@ Accrued expenses {{have not yet been paid for, so they are recorded in a payable
 
 ### estimates
 
-A third classification of adjusting entry occurs {{where the exact amount of an expense cannot easily be determined}}. {{The [depreciation](depreciation.md) of fixed assets}}, for example, is {{an expense which has to be estimated}}. <!--SR:!2024-11-03,33,290!2024-12-13,66,310!2024-12-09,62,310-->
+A third classification of adjusting entry occurs {{where the exact amount of an expense cannot easily be determined}}. {{The [depreciation](depreciation.md) of fixed assets}}, for example, is {{an expense which has to be estimated}}. <!--SR:!2025-03-21,138,310!2024-12-13,66,310!2024-12-09,62,310-->
 
 The entry for bad debt expense can also be classified as an estimate.
 

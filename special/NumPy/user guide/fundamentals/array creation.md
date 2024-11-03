@@ -200,7 +200,7 @@ array([[[1., 1.],
         [1., 1.]]])
 ```
 
-{{The [`random`](../../API%20reference/generated/numpy.random.Generator.random.md#numpy.random.Generator.random "numpy.random.Generator.random") method of the result of `default_rng`}} will {{create an array filled with random values between 0 and 1}}. It is included with {{the [`numpy.random`](../../API%20reference/generated/index.md#module-numpy.random "numpy.random") library}}. Below, two arrays are {{created with shapes (2,3) and (2,3,2), respectively}}. The seed is set to 42 so {{you can reproduce these pseudorandom numbers}}: <!--SR:!2024-11-03,3,250!2024-11-04,4,290!2024-11-04,4,290!2024-11-04,4,270!2024-11-04,4,270-->
+{{The [`random`](../../API%20reference/generated/numpy.random.Generator.random.md#numpy.random.Generator.random "numpy.random.Generator.random") method of the result of `default_rng`}} will {{create an array filled with random values between 0 and 1}}. It is included with {{the [`numpy.random`](../../API%20reference/generated/index.md#module-numpy.random "numpy.random") library}}. Below, two arrays are {{created with shapes (2,3) and (2,3,2), respectively}}. The seed is set to 42 so {{you can reproduce these pseudorandom numbers}}: <!--SR:!2024-11-16,13,270!2024-11-04,4,290!2024-11-04,4,290!2024-11-04,4,270!2024-11-04,4,270-->
 
 ```Python
 >>> import numpy as np
@@ -217,7 +217,7 @@ array([[[0.77395605, 0.43887844],
         [0.37079802, 0.92676499]]])
 ```
 
-{{[`numpy.indices`](../../API%20reference/generated/numpy.indices.md#numpy.indices "numpy.indices")}} will {{create a set of arrays (stacked as a one-higher dimensioned array), one per dimension with each representing variation in that dimension}}. This is particularly useful for {{evaluating functions of multiple dimensions on a regular grid}}: <!--SR:!2024-11-04,4,270!2024-11-03,3,270!2024-11-04,4,290-->
+{{[`numpy.indices`](../../API%20reference/generated/numpy.indices.md#numpy.indices "numpy.indices")}} will {{create a set of arrays (stacked as a one-higher dimensioned array), one per dimension with each representing variation in that dimension}}. This is particularly useful for {{evaluating functions of multiple dimensions on a regular grid}}: <!--SR:!2024-11-04,4,270!2024-11-16,13,290!2024-11-04,4,290-->
 
 ```Python
 >>> import numpy as np

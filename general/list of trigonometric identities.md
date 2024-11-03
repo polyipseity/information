@@ -230,7 +230,7 @@ return await memorize_map(
 > - $\sec (-7.24)$ ::: $\operatorname{sgn}(\cos 7.24) \sqrt{\frac 2 {1 + \cos 14.48} }$ <!--SR:!2024-11-28,94,316!2025-03-01,166,336-->
 > - $\csc (-1.7)$ ::: $-\operatorname{sgn}(\sin 1.7) \sqrt{\frac 2 {1 - \cos 3.4} }$ <!--SR:!2025-04-03,152,296!2024-12-21,111,316-->
 > - $\cot 3.14$ (sine and cosine) ::: $\frac {1 + \cos 6.28} {\sin 6.28} = \frac {\sin 6.28} {1 - \cos 6.28}$ <!--SR:!2025-01-03,119,296!2024-11-25,95,316-->
-> - $\cot (-69)$ (cosine) ::: $-\operatorname{sgn}(\sin 138) \sqrt{\frac {1 + \cos 138} {1 - \cos 138} }$ <!--SR:!2024-11-03,26,276!2025-02-11,103,316-->
+> - $\cot (-69)$ (cosine) ::: $-\operatorname{sgn}(\sin 138) \sqrt{\frac {1 + \cos 138} {1 - \cos 138} }$ <!--SR:!2024-11-16,13,256!2025-02-11,103,316-->
 > - $\cot 17$ (addition) ::: $\csc 34 + \cot 34$ <!--SR:!2024-12-23,113,316!2025-05-27,229,336-->
 
 ## product-to-sum and sum-to-product
@@ -301,7 +301,7 @@ return await memorize_map(
 
 <!--pytextgen generate section="39cd"--><!-- The following content is generated at 2024-07-10T23:14:22.210248+08:00. Any edits will be overridden! -->
 
-- sine ± sine::$$\sin\theta\pm\sin\varphi=2\sin\left(\frac{\theta\pm\varphi}2\right)\cos\left(\frac{\theta\mp\varphi}2\right)$$ <!--SR:!2024-11-03,359,250-->
+- sine ± sine::$$\sin\theta\pm\sin\varphi=2\sin\left(\frac{\theta\pm\varphi}2\right)\cos\left(\frac{\theta\mp\varphi}2\right)$$ <!--SR:!2027-04-19,897,250-->
 - cosine + cosine::$$\cos\theta+\cos\varphi=2\cos\left(\frac{\theta+\varphi}2\right)\cos\left(\frac{\theta-\varphi}2\right)$$ <!--SR:!2025-08-21,448,230-->
 - cosine - cosine::$$\cos\theta-\cos\varphi=-2\sin\left(\frac{\theta+\varphi}2\right)\sin\left(\frac{\theta-\varphi}2\right)$$ <!--SR:!2024-12-18,254,190-->
 - tangent ± tangent::$$\tan\theta\pm\tan\varphi=\frac{\sin(\theta\pm\varphi)}{\cos\theta\cos\varphi}$$ <!--SR:!2025-01-22,90,130-->

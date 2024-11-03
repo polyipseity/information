@@ -162,7 +162,7 @@ The content is in teaching order.
 - activity: leadership exercise
 - leadership
   - leadership tips ::: lead with vision, determined/delegation/communication, problem solving, trust, appreciation <!--SR:!2024-11-22,36,250!2025-03-11,129,290-->
-  - teamwork tips ::: strategic thinking, determined/delegation/communication, remain calm under pressure, trust, win-win cooperation with other teams <!--SR:!2024-12-20,59,250!2024-11-03,33,270-->
+  - teamwork tips ::: strategic thinking, determined/delegation/communication, remain calm under pressure, trust, win-win cooperation with other teams <!--SR:!2024-12-20,59,250!2025-02-02,91,270-->
 - structured group discussion
 - presentation
   - presentation tips ::: greeting, no need to repeat the known problem, T-style presentation (depth not breadth), set reasonable assumptions, rehearse!! <!--SR:!2024-11-12,42,290!2024-11-14,37,290-->
