@@ -88,7 +88,7 @@ for (initial_statement; condition; loop_statement)
   statement
 ```
 
-The semantics of `for` is a bit complicated. First, {{the initial statement is executed. Then the condition is checked. If the condition is `true`, the statement block is executed. Otherwise, the `for` statement finishes}}. Each time the statement block has finished execution, {{the loop statement is executed. Then we go back to checking the condition and repeat}}. <!--SR:!2024-12-18,228,310!2024-11-04,213,330-->
+The semantics of `for` is a bit complicated. First, {{the initial statement is executed. Then the condition is checked. If the condition is `true`, the statement block is executed. Otherwise, the `for` statement finishes}}. Each time the statement block has finished execution, {{the loop statement is executed. Then we go back to checking the condition and repeat}}. <!--SR:!2024-12-18,228,310!2027-07-04,972,350-->
 
 One can use a `for` statement to iterate through {{an interval}}. More advanced stuff are possible but they are not mentioned here: <!--SR:!2026-10-14,736,330-->
 

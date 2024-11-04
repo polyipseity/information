@@ -73,13 +73,13 @@ This table shows {{some mathematical operations on $x_{n}$ in the time domain an
 | imaginary part in frequency | $${\frac {1}{2i} }\left(x_{n}-x_{N-n}^{*}\right)$$ | $$\operatorname {Im} {\left(X_{k}\right)}$$        |
 
 - real part in time ::: frequency: $$\frac 1 2 (X_k + X^*_{N - k})$$ <!--SR:!2025-06-29,248,336!2025-07-13,260,336-->
-- imaginary part in time ::: frequency: $$\frac 1 {2i} (X_k - X^*_{N - k})$$ <!--SR:!2024-11-04,53,276!2024-11-20,78,336-->
+- imaginary part in time ::: frequency: $$\frac 1 {2i} (X_k - X^*_{N - k})$$ <!--SR:!2025-05-27,204,296!2024-11-20,78,336-->
 - real part in frequency ::: time: $$\frac 1 2 (x_n + x^*_{N - n})$$ <!--SR:!2024-12-19,91,296!2024-11-08,69,336-->
 - imaginary part in frequency ::: time: $$\frac 1 {2i} (x_n - x^*_{N - n})$$ <!--SR:!2025-03-08,144,316!2025-05-23,205,336-->
 
 ### orthogonality
 
-The vectors {{$u_{k}=\left[\left.e^{ {\frac {i2\pi }{N} }kn}\;\right|\;n=0,1,\ldots ,N-1\right]^{\mathsf {T} }$}} form {{an [orthogonal basis](orthogonal%20basis.md) over the set of _N_-dimensional complex vectors}}: {{$$u_{k}^{\mathsf {T} }u_{k'}^{*}=\sum _{n=0}^{N-1}\left(e^{ {\frac {i2\pi }{N} }kn}\right)\left(e^{ {\frac {i2\pi }{N} }(-k')n}\right)=\sum _{n=0}^{N-1}e^{ {\frac {i2\pi }{N} }(k-k')n}=N~\delta _{kk'}$$}} where {{$\delta _{kk'}$ is the [Kronecker delta](kronecker%20delta.md)}}. (In the last step, {{the summation is trivial if $k=k'$, where it is 1 + 1 + ⋯ = _N_}}, and {{otherwise is a [geometric series](geometric%20series.md) that can be explicitly summed to obtain zero}}.) This orthogonality condition can be used to {{derive the formula for the IDFT from the definition of the DFT}}, and is {{equivalent to the unitary property below}}. <!--SR:!2024-11-09,56,276!2025-07-16,259,336!2025-06-25,243,336!2024-11-04,65,336!2025-04-08,182,336!2024-11-09,70,336!2025-05-27,222,336!2024-11-30,60,276-->
+The vectors {{$u_{k}=\left[\left.e^{ {\frac {i2\pi }{N} }kn}\;\right|\;n=0,1,\ldots ,N-1\right]^{\mathsf {T} }$}} form {{an [orthogonal basis](orthogonal%20basis.md) over the set of _N_-dimensional complex vectors}}: {{$$u_{k}^{\mathsf {T} }u_{k'}^{*}=\sum _{n=0}^{N-1}\left(e^{ {\frac {i2\pi }{N} }kn}\right)\left(e^{ {\frac {i2\pi }{N} }(-k')n}\right)=\sum _{n=0}^{N-1}e^{ {\frac {i2\pi }{N} }(k-k')n}=N~\delta _{kk'}$$}} where {{$\delta _{kk'}$ is the [Kronecker delta](kronecker%20delta.md)}}. (In the last step, {{the summation is trivial if $k=k'$, where it is 1 + 1 + ⋯ = _N_}}, and {{otherwise is a [geometric series](geometric%20series.md) that can be explicitly summed to obtain zero}}.) This orthogonality condition can be used to {{derive the formula for the IDFT from the definition of the DFT}}, and is {{equivalent to the unitary property below}}. <!--SR:!2024-11-09,56,276!2025-07-16,259,336!2025-06-25,243,336!2025-09-06,306,356!2025-04-08,182,336!2024-11-09,70,336!2025-05-27,222,336!2024-11-30,60,276-->
 
 ### The Plancherel theorem and Parseval's theorem
 
@@ -134,7 +134,7 @@ By [expressing the inverse DFT in terms of the DFT](#expressing%20the%20inverse%
 
 ### expressing the inverse DFT in terms of the DFT
 
-A useful property of the DFT is that {{the inverse DFT can be easily expressed in terms of the (forward) DFT, via several well-known "tricks"}}. (For example, in {{computations}}, it is {{often convenient to only implement a fast Fourier transform corresponding to one transform direction and then to get the other transform direction from the first}}.) <!--SR:!2025-05-25,206,310!2025-08-30,300,330!2024-11-04,68,310-->
+A useful property of the DFT is that {{the inverse DFT can be easily expressed in terms of the (forward) DFT, via several well-known "tricks"}}. (For example, in {{computations}}, it is {{often convenient to only implement a fast Fourier transform corresponding to one transform direction and then to get the other transform direction from the first}}.) <!--SR:!2025-05-25,206,310!2025-08-30,300,330!2025-08-23,292,330-->
 
 First, we can compute the inverse DFT by {{reversing all but one of the inputs (Duhamel _et al._, 1988)}}: {{$$\mathcal F^{-1}(\set{x_n}) = \frac 1 N \mathcal F(\set{x_{N - n} })$$}}. (As usual, the subscripts are {{interpreted [modulo](modular%20arithmetic.md) _N_; thus, for $n = 0$, we have $x_{N - 0} = x_0$}}.) <!--SR:!2025-06-25,249,330!2024-12-26,95,290!2024-11-06,69,310-->
 

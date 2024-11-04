@@ -60,7 +60,7 @@ disposal
 
 ## 6 utility levers
 
-The {{6 utility levers}} are the {{map row headers}}. <!--SR:!2024-11-04,51,279!2025-06-19,276,279-->
+The {{6 utility levers}} are the {{map row headers}}. <!--SR:!2025-05-21,198,299!2025-06-19,276,279-->
 
 ```Python
 # pytextgen generate data

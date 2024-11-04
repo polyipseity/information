@@ -66,7 +66,7 @@ The content is in teaching order.
 - relationship between workview & worldview ::: If they integrate with each other, great! If they do not, then you may find jobs unfulfilling and want to quit it. <!--SR:!2025-01-03,77,332!2025-01-03,77,332-->
 - course framework ::: design thinking, meaning-making, discovery & support <!--SR:!2024-11-19,40,312!2025-01-03,77,332-->
 - warm-up activity: Choose a person from the picture that resonate with you the most. Explain why.
-- society identity theory ::: Groups are part of our identity and self-esteem (Tajfel, 1970). 3 mental processes involved are social categorization, social identification, and social comparison. <!--SR:!2024-11-04,25,292!2024-11-17,38,312-->
+- society identity theory ::: Groups are part of our identity and self-esteem (Tajfel, 1970). 3 mental processes involved are social categorization, social identification, and social comparison. <!--SR:!2025-02-12,100,312!2024-11-17,38,312-->
   - social categorization ::: Characterize people by their groups. Leads to prejudice. <!--SR:!2025-01-03,77,332!2025-01-03,77,332-->
   - social identification ::: Modify yourself to match the beliefs you have on your own groups. <!--SR:!2024-11-18,39,312!2025-01-03,77,332-->
   - social comparison ::: Compare your groups with other groups. This maintains group differences. <!--SR:!2025-01-03,77,332!2024-11-09,30,292-->

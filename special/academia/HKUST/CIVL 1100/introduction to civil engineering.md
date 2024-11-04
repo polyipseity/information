@@ -501,7 +501,7 @@ teaming up with others
 - _(begin)_→:::←business procedures <!--SR:!2025-08-20,291,252!2026-03-19,557,401-->
 - business procedures→:::←economics <!--SR:!2024-11-19,82,261!2025-02-10,193,285-->
 - economics→:::←human behaviors <!--SR:!2025-02-04,127,300!2026-01-10,444,340-->
-- human behaviors→:::←management principles <!--SR:!2024-12-25,139,300!2024-11-04,95,260-->
+- human behaviors→:::←management principles <!--SR:!2024-12-25,139,300!2025-07-15,253,260-->
 - management principles→:::←strong communication skills <!--SR:!2025-03-22,222,301!2025-07-08,306,320-->
 - strong communication skills→:::←teaming up with others <!--SR:!2024-11-07,138,340!2025-08-04,345,380-->
 - teaming up with others→:::←_(end)_ <!--SR:!2025-05-28,321,375!2025-03-17,198,272-->
@@ -538,7 +538,7 @@ wood
 
 <!--pytextgen generate section="20b9"--><!-- The following content is generated at 2024-02-16T21:59:47.456944+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←brick <!--SR:!2025-03-11,233,357!2024-11-04,182,312-->
+- _(begin)_→:::←brick <!--SR:!2025-03-11,233,357!2026-12-30,786,332-->
 - brick→:::←concrete <!--SR:!2025-03-03,185,305!2026-02-28,548,397-->
 - concrete→:::←new synthetic materials <!--SR:!2024-11-09,127,301!2024-12-07,161,341-->
 - new synthetic materials→:::←steel <!--SR:!2024-11-20,155,332!2025-09-08,375,340-->
@@ -592,7 +592,7 @@ nuclear
 
 - _(begin)_→:::←agricultural <!--SR:!2025-11-19,421,310!2025-12-04,477,392-->
 - agricultural→:::←architectural <!--SR:!2025-01-31,212,357!2025-06-08,311,372-->
-- architectural→:::←biomedical <!--SR:!2024-11-04,144,337!2024-11-25,152,340-->
+- architectural→:::←biomedical <!--SR:!2026-09-02,667,357!2024-11-25,152,340-->
 - biomedical→:::←ceramic <!--SR:!2024-11-05,133,320!2026-03-07,528,357-->
 - ceramic→:::←chemical <!--SR:!2024-12-15,154,320!2025-10-27,398,335-->
 - chemical→:::←civil <!--SR:!2026-01-19,455,337!2024-12-24,194,357-->
@@ -777,7 +777,7 @@ levee
 - _(begin)_→:::←canal <!--SR:!2025-09-06,359,340!2025-06-19,333,367-->
 - canal→:::←channel <!--SR:!2024-11-27,174,357!2024-12-06,168,352-->
 - channel→:::←dam <!--SR:!2025-12-15,420,327!2025-02-10,240,290-->
-- dam→:::←levee <!--SR:!2024-12-18,169,340!2024-11-04,141,332-->
+- dam→:::←levee <!--SR:!2024-12-18,169,340!2026-02-22,475,332-->
 - levee→:::←_(end)_ <!--SR:!2025-11-22,467,395!2025-03-11,136,238-->
 
 <!--/pytextgen-->

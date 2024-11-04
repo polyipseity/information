@@ -32,7 +32,7 @@ As a side effect of the process, {{some carbon nuclei fuse with additional heliu
 1. [alpha capture](alpha%20process.md) ::: $${}_{\phantom{0}6}^{12}\mathrm{C} + {}_2^4\mathrm{He} \rightarrow {}_{\phantom{0}8}^{16}\mathrm{O} + \gamma \quad (+7.162\mathrm{\ MeV})$$ <!--SR:!2024-12-28,66,210!2024-11-14,13,250-->
     - [alpha capture](alpha%20process.md) / energy release ::: +7.162 MeV <!--SR:!2024-11-08,16,170!2024-12-08,84,270-->
 
-Nuclear fusion reactions of {{helium with hydrogen produces [lithium-5](isotopes%20of%20lithium.md#lithium-5)}}, which also is {{highly unstable, and decays back into smaller nuclei with a half-life of 3.7×10<sup>−22</sup> s}}. <!--SR:!2025-01-22,117,290!2024-11-04,42,190-->
+Nuclear fusion reactions of {{helium with hydrogen produces [lithium-5](isotopes%20of%20lithium.md#lithium-5)}}, which also is {{highly unstable, and decays back into smaller nuclei with a half-life of 3.7×10<sup>−22</sup> s}}. <!--SR:!2025-01-22,117,290!2024-11-26,22,170-->
 
 ## references
 

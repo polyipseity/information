@@ -22,7 +22,7 @@ Command names can be {{truncated at the end to produce an abbreviation if the ab
 - `apropos <regex>` ::: find text matching `<regex>` <!--SR:!2024-11-08,52,310!2025-02-13,119,290-->
 - `backtrace` ::: print backtrace or call stack <!--SR:!2024-11-11,54,310!2024-11-10,54,310-->
 - `break <where>` ::: set a breakpoint <!--SR:!2024-11-06,50,310!2024-12-02,69,310-->
-- `continue` ::: continue program execution <!--SR:!2025-04-12,165,310!2024-11-04,48,310-->
+- `continue` ::: continue program execution <!--SR:!2025-04-12,165,310!2025-05-30,207,330-->
 - `delete [<breakpoint>]` ::: delete a breakpoint; if breakpoint is not specified, then delete all breakpoints <!--SR:!2024-11-16,58,310!2024-11-12,55,310-->
 - `disassemble <address|function>` ::: disassemble a specified address or function <!--SR:!2024-11-22,45,325!2025-01-13,88,345-->
 - `file <path>` ::: load binary file to debug <!--SR:!2024-11-27,64,310!2024-11-17,59,310-->

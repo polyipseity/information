@@ -84,12 +84,12 @@ The __dot product__ or __scalar product__ of two sequences $x$ and $y$ is define
 
 - see: [general/even and odd functions](../../general/even%20and%20odd%20functions.md)
 
-A sequence is {{even or symmetric}} iff {{$f[-n] = f[n]$}}. A sequence is {{odd or antisymmetric}} iff {{$f[-n] = -f[n]$}}. <!--SR:!2024-11-04,67,341!2024-11-21,82,341!2024-11-25,86,341!2024-11-13,76,341-->
+A sequence is {{even or symmetric}} iff {{$f[-n] = f[n]$}}. A sequence is {{odd or antisymmetric}} iff {{$f[-n] = -f[n]$}}. <!--SR:!2025-09-20,320,361!2024-11-21,82,341!2024-11-25,86,341!2024-11-13,76,341-->
 
 ## convolution
 
 - see: [general/convolution](../../general/convolution.md)
 
-The convolution of 2 sequences $x$ and $y$ is denoted {{$x[n] * y[n]$ or $x * y$}}. It is defined as {{$$(x * y) [n] = \sum_{m = 0}^{N - 1} x[m] y[n - m]$$}}. <!--SR:!2024-11-04,65,321!2025-08-01,276,341-->
+The convolution of 2 sequences $x$ and $y$ is denoted {{$x[n] * y[n]$ or $x * y$}}. It is defined as {{$$(x * y) [n] = \sum_{m = 0}^{N - 1} x[m] y[n - m]$$}}. <!--SR:!2025-08-26,295,341!2025-08-01,276,341-->
 
 It can be visualized as follows. Take 2 sequences $x$ and $y$. Then, {{reflect the 2nd argument $y$ across $0$, i.e. $$y'[n] = y[-n]$$}}. Then the convolution $x * y$ {{at argument $n = 0$ is the dot product of $x$ and $y'$ ($y$ reflected), i.e. $$(x * y) [0] = \sum_{m = 0}^{N - 1} x[m] y'[m] = \sum_{m = 0}^{N - 1} x[m] y[-m]$$}}. When the argument $n$ is not $0$, then {{the argument specifies how much $y'$ is shifted, with positive values shifting to the right, i.e. $$y'_n[m] = y'[m - n] = y[n - m]$$}}. Then the convolution $x * y$ {{at nonzero argument is the dot product of $x$ and $y'_n$ ($y$ reflected and shifted by $n$), i.e. $$(x * y) [n] = \sum_{m = 0}^{N - 1} x[m] y'_n[m] = \sum_{m = 0}^{N - 1} x[m] y'[m - n] = \sum_{m = 0}^{N - 1} x[m] y[n - m]$$}}. <!--SR:!2024-11-17,79,341!2024-11-27,88,341!2024-11-06,69,341!2024-11-08,71,341-->

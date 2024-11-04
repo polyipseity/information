@@ -27,7 +27,7 @@ A penumbral lunar eclipse occurs when {{part or all of the [Moon](Moon.md) passe
 
 ### partial lunar eclipse
 
-When the [Moon](Moon.md) {{penetrates partially into the [Earth](Earth.md)'s [umbra](umbra,%20penumbra%20and%20antumbra.md#umbra), it is known as a partial lunar eclipse}}, while a [total lunar eclipse](#total%20lunar%20eclipse) occurs when {{the entire Moon enters the Earth's umbra}}. <!--SR:!2024-11-04,80,270!2025-05-09,235,330-->
+When the [Moon](Moon.md) {{penetrates partially into the [Earth](Earth.md)'s [umbra](umbra,%20penumbra%20and%20antumbra.md#umbra), it is known as a partial lunar eclipse}}, while a [total lunar eclipse](#total%20lunar%20eclipse) occurs when {{the entire Moon enters the Earth's umbra}}. <!--SR:!2025-09-07,307,290!2025-05-09,235,330-->
 
 ### total lunar eclipse
 

@@ -44,7 +44,7 @@ The content is in teaching order.
   - [§ string](basics.md#string)
     - [basics § string](basics.md#string) / note ::: They taught `'''` but not `"""` for some reason... But it was later taught in the [week 2 lab](#week%202%20lab) (lab 1). <!--SR:!2024-11-12,52,312!2025-03-20,147,310-->
   - [§ output](basics.md#output)
-    - [basics § output](basics.md#output) / note ::: Jupyter notebooks automatically outputting the value of the last statement without using `print` is also considered "output". Note that strings are outputted, escaped with `\` properly (without unnecessary escapes), and preferably wrapped in `'`, and only uses `"` if there is at least 1 `'` in the string but not any `"`. <!--SR:!2024-11-04,33,303!2024-11-25,48,323-->
+    - [basics § output](basics.md#output) / note ::: Jupyter notebooks automatically outputting the value of the last statement without using `print` is also considered "output". Note that strings are outputted, escaped with `\` properly (without unnecessary escapes), and preferably wrapped in `'`, and only uses `"` if there is at least 1 `'` in the string but not any `"`. <!--SR:!2025-03-25,141,323!2024-11-25,48,323-->
   - [§ variable](basics.md#variable)
     - [basics § variable](basics.md#variable) / note ::: In a quiz question, they use the word "save", which means storing a value to a variable. Also, `+=`, `-=`, `*=`, `/=`, etc. are not taught and should NOT be used in exercises or exams. <!--SR:!2025-04-19,170,312!2025-03-22,146,312-->
   - [§ data types](basics.md#data%20types)
@@ -58,7 +58,7 @@ The content is in teaching order.
 - time: 2024-09-06T16:00:00+08:00/2024-09-06T17:50:00+08:00
 - course logistics
 - [Python](../../../../general/Python.md) ::: It is a high-level, interpreted, and general-purpose dynamic programming language that focuses on code readability. <!--SR:!2024-11-20,51,309!2024-12-17,77,329-->
-  - Python / why ::: beginner-friendly (simple, elegant), free and open-source, runs anywhere, supported by a large community, extensible with libraries (flexible), "batteries included": many standard libraries <!--SR:!2024-11-04,39,289!2024-11-21,54,309-->
+  - Python / why ::: beginner-friendly (simple, elegant), free and open-source, runs anywhere, supported by a large community, extensible with libraries (flexible), "batteries included": many standard libraries <!--SR:!2025-04-12,159,309!2024-11-21,54,309-->
 - [§ week 1 pre-lecture](#week%201%20pre-lecture)
 - [basics](basics.md)
   - [§ string](basics.md#string)

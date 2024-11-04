@@ -66,4 +66,4 @@ The function is {{$$f(x) = \begin{cases} x^2 \sin \frac 1 {x^2}, & x \ne 0 \\ 0,
 
 - derivative ::: $$f'(x) = \begin{cases} 2x \sin \frac 1 {x^2} - \frac {2 \cos \frac 1 {x^2} } x, & x \ne 0 \\ 0, & x = 0 \end{cases}$$ <!--SR:!2025-10-31,379,306!2025-01-09,198,326-->
   - derivative integrability
-    - derivative [Riemann integrability](../general/Riemann%20integral.md) ::: The derivative is not Riemann integrable on any interval containing 0, as it is [unbounded](../general/bounded%20function.md). The derivative is an example of an non-integrable function that has an [antiderivative](../general/antiderivative.md) everywhere. <!--SR:!2024-11-04,136,306!2025-03-28,260,346-->
+    - derivative [Riemann integrability](../general/Riemann%20integral.md) ::: The derivative is not Riemann integrable on any interval containing 0, as it is [unbounded](../general/bounded%20function.md). The derivative is an example of an non-integrable function that has an [antiderivative](../general/antiderivative.md) everywhere. <!--SR:!2025-12-25,416,306!2025-03-28,260,346-->

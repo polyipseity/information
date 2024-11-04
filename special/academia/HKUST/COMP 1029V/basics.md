@@ -82,7 +82,7 @@ return _chain.from_iterable(await _gather(
 
 <!--/pytextgen-->
 
-One cannot usually assign a value of a type to a variable {{declared with a different type}}: <!--SR:!2024-11-04,194,310-->
+One cannot usually assign a value of a type to a variable {{declared with a different type}}: <!--SR:!2027-02-17,835,330-->
 
 ```VB
 Dim ADouble As Double, AnObject As Object

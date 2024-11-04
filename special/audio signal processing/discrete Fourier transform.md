@@ -55,7 +55,7 @@ By duality, {{shifting the signal in the frequency to the right by $k_0$ samples
 
 - see: [general/discrete Fourier transform § DFT of real and purely imaginary signals](../../general/discrete%20Fourier%20transform.md#DFT%20of%20real%20and%20purely%20imaginary%20signals)
 
-If {{the signal in the time domain is purely real}}, then {{the signal in the frequency domain is even conjugate symmetric, i.e. $$X[k] = X^*[-k]$$}}. Interpreting this in {{rectangular form}}, {{the real part is even symmetric while the imaginary part is odd symmetric (up to mod $2\pi$)}}. Interpreting this in {{polar form}}, {{the modulus (length) is even symmetric while the argument (angle) is odd symmetric (up to mod $2\pi$)}}. <!--SR:!2024-12-06,86,346!2024-11-22,74,346!2024-11-18,70,346!2025-06-15,229,346!2024-11-04,55,326!2025-03-12,146,326-->
+If {{the signal in the time domain is purely real}}, then {{the signal in the frequency domain is even conjugate symmetric, i.e. $$X[k] = X^*[-k]$$}}. Interpreting this in {{rectangular form}}, {{the real part is even symmetric while the imaginary part is odd symmetric (up to mod $2\pi$)}}. Interpreting this in {{polar form}}, {{the modulus (length) is even symmetric while the argument (angle) is odd symmetric (up to mod $2\pi$)}}. <!--SR:!2024-12-06,86,346!2024-11-22,74,346!2024-11-18,70,346!2025-06-15,229,346!2025-07-12,250,346!2025-03-12,146,326-->
 
 Furthermore, if {{the signal in the time domain is _additionally_ even symmetric}}, then {{the frequency domain is _additionally_ even symmetric}}. Interpreting this in {{rectangular form}}, {{the real part is even symmetric while the imaginary part is always zero}}. Interpreting this in {{polar form}}, {{the modulus (length) is even symmetric while the argument (angle) is always an integer multiple of $\pi$}}. <!--SR:!2024-11-27,79,346!2024-11-08,62,326!2025-06-16,229,346!2024-11-23,75,346!2024-12-01,82,346!2024-11-11,65,346-->
 
@@ -93,7 +93,7 @@ Note that if {{you try to use Python to repeat the above mathematical proofs}}, 
 
 ## spectrums
 
-{{The magnitude spectrum}} is {{the transformed signal under the modulus operation $\lvert X \rvert$ (length of the complex amplitude)}}. For easier visualization, the magnitude may be {{in logarithm scale}}. The magnitude, intuitively, represents {{the loudness of the complex sinusoid of a given frequency}}. <!--SR:!2024-11-07,70,310!2024-11-04,67,310!2024-11-04,67,310!2025-03-29,170,310-->
+{{The magnitude spectrum}} is {{the transformed signal under the modulus operation $\lvert X \rvert$ (length of the complex amplitude)}}. For easier visualization, the magnitude may be {{in logarithm scale}}. The magnitude, intuitively, represents {{the loudness of the complex sinusoid of a given frequency}}. <!--SR:!2024-11-07,70,310!2025-08-19,288,330!2025-08-17,286,330!2025-03-29,170,310-->
 
 {{The phase spectrum}} is {{the transformed signal under the argument operation $\operatorname{arg}(X)$ (angle of the complex amplitude)}}. The phase, intuitively, represents {{the time offset of the complex sinusoid of a given frequency}}. <!--SR:!2024-11-18,63,333!2024-11-15,62,333!2024-12-12,86,353-->
 
@@ -119,7 +119,7 @@ The effect of {{zero padding a signal in the time domain}} is that {{its corresp
 
 By duality, zero padding a signal in the frequency domain corresponds to {{interpolating the signal in the time domain}}. <!--SR:!2024-11-12,59,333-->
 
-Zero padding can {{make the input size suitable}} for {{[fast Fourier transform](#fast%20Fourier%20transform) (FFT)}}. It can also be used to {{minimize the energy spread (the spread of values into adjacent frequencies in the frequency domain) of the resulting DFT}} for {{a signal made of a combination of sinusoidal waves}}. <!--SR:!2024-11-18,65,353!2024-11-05,52,333!2024-11-11,56,333!2024-11-04,51,333-->
+Zero padding can {{make the input size suitable}} for {{[fast Fourier transform](#fast%20Fourier%20transform) (FFT)}}. It can also be used to {{minimize the energy spread (the spread of values into adjacent frequencies in the frequency domain) of the resulting DFT}} for {{a signal made of a combination of sinusoidal waves}}. <!--SR:!2024-11-18,65,353!2024-11-05,52,333!2024-11-11,56,333!2025-04-26,173,333-->
 
 ## fast Fourier transform
 
@@ -127,10 +127,10 @@ Zero padding can {{make the input size suitable}} for {{[fast Fourier transform]
 
 Fast Fourier transform (__FFT__) is {{a fast algorithm for computing the DFT of a signal}}. It works by {{breaking down DFT of a long signal into several DFTs of shorter signals recursively}}. <!--SR:!2024-11-17,67,353!2024-11-13,60,333-->
 
-Its time complexity, that is {{how the running time grows with input size}}, is {{$O(n \log n)$, instead of $O(n^2)$ for DFT computed by its definition}}. This means {{for large input sizes, much time can be saved}}. So in practice, {{FFT is used over the traditional DFT}}. <!--SR:!2024-12-10,84,353!2024-11-17,62,333!2024-11-09,56,333!2024-11-04,51,333-->
+Its time complexity, that is {{how the running time grows with input size}}, is {{$O(n \log n)$, instead of $O(n^2)$ for DFT computed by its definition}}. This means {{for large input sizes, much time can be saved}}. So in practice, {{FFT is used over the traditional DFT}}. <!--SR:!2024-12-10,84,353!2024-11-17,62,333!2024-11-09,56,333!2025-06-26,234,353-->
 
 The most common form of FFT is {{the Cooley–Tukey algorithm}} that {{divides the signal into 2 equal-length signals recursively}}, so {{it requires the input size to be a power of 2}}. This can be fixed using {{[zero padding](#zero%20padding)}}. This algorithm also {{has other variants that divide the signal into arbitrary many equal-length signals recursively}}, but this will not be discussed here. <!--SR:!2025-06-05,218,353!2024-11-16,61,333!2024-11-07,54,333!2025-06-21,230,353!2024-11-13,58,333-->
 
 Note that when {{zero padding a signal for FFT}}, it is important to {{apply the zero-centered variant instead of the causal one}}. (The reason is mentioned above already.) <!--SR:!2024-11-16,63,333!2024-12-09,83,353-->
 
-Note that FFT is fundamentally {{the same thing as DFT}}, with the only difference being {{how the values are actually computed}}. <!--SR:!2024-11-04,56,333!2025-03-29,162,333-->
+Note that FFT is fundamentally {{the same thing as DFT}}, with the only difference being {{how the values are actually computed}}. <!--SR:!2025-07-22,260,353!2025-03-29,162,333-->
