@@ -23,7 +23,7 @@ The content is in teaching order.
 
 ## week 2 lecture
 
-- time: 2024-02-06T18:00:00+08:00/2024-02-06T20:00:00+08:00
+- datetime: 2024-02-06T18:00:00+08:00/2024-02-06T20:00:00+08:00
 - [information § context](information.md#context)
 - [information § part 1: product innovation](information.md#part%201%20product%20innovation)
 - [information § product innovation elements](information.md#production%20innovation%20elements)
@@ -40,11 +40,12 @@ The content is in teaching order.
 
 ## week 3 lecture
 
-- public holiday
+- datetime: 2024-02-13T18:00:00+08:00/2024-02-13T20:00:00+08:00
+- status: unscheduled, public holiday: Fourth Day of Lunar New Year
 
 ## week 4 lecture
 
-- time: 2024-02-20T18:00:00+08:00/2024-02-20T20:30:00+08:00
+- datetime: 2024-02-20T18:00:00+08:00/2024-02-20T20:30:00+08:00
 - [competitor analysis § outline](../../../../general/competitor%20analysis.md#outline)
 - [customer development](../../../../general/customer%20development.md)
   - [Peter Drucker](../../../../general/Peter%20Drucker.md) on business and customer ::: "The purpose of a business is to create and keep a customer." <!--SR:!2024-12-06,145,315!2026-05-10,562,355-->
@@ -75,7 +76,7 @@ The content is in teaching order.
 
 ## week 5 lecture
 
-- time: 2024-02-27T18:00:00+08:00/2024-02-27T20:30:00+08:00
+- datetime: 2024-02-27T18:00:00+08:00/2024-02-27T20:30:00+08:00
 - How to build a user-centric product? ::: idea generation → customer segmentation → [design thinking](../../../../general/design%20thinking.md) → customer profile → value proposition canvas → business model canvas <!--SR:!2025-06-12,255,275!2025-01-01,61,275-->
 - [design thinking § in business](../../../../general/design%20thinking.md#in%20business)
 - [d.school design thinking bootleg § process modules](../../../d.school%20design%20thinking%20bootleg.md#process%20modules)
@@ -94,7 +95,7 @@ The content is in teaching order.
 
 ## week 6 lecture
 
-- time: 2024-03-05T18:00:00+08:00/2024-03-05T20:30:00+08:00
+- datetime: 2024-03-05T18:00:00+08:00/2024-03-05T20:30:00+08:00
 - product innovation success first step ::: Identification of the _real_ problem: If your project does not work, you have not found the real needs of your customers. <!--SR:!2026-01-08,446,315!2025-01-23,193,335-->
 - jobs to be done theory history ::: Alex Osterwalder adopted the idea from Prof. Clayton Christensen of Harvard University. <!--SR:!2025-10-03,344,295!2024-12-09,147,315-->
 - [value proposition canvas](../../../value%20proposition%20canvas.md)
@@ -120,7 +121,7 @@ The content is in teaching order.
 
 ## week 7 lecture
 
-- time: 2024-03-12T18:00:00+08:00/2024-03-12T20:30:00+08:00
+- datetime: 2024-03-12T18:00:00+08:00/2024-03-12T20:30:00+08:00
 - exam for part 1: product innovation
   - content: multiple choice questions: 20@8 each; long questions: 40 + 20 + 20 + 10 + 10
   - format: closed book, no cheatsheet
@@ -145,14 +146,14 @@ The content is in teaching order.
 
 ## week 8 lecture
 
-- time: 2024-03-19T18:00:00+08:00/2024-03-19T20:30:00+08:00
+- datetime: 2024-03-19T18:00:00+08:00/2024-03-19T20:30:00+08:00
 - 15-minute group presentation
   - questions and answers
 - [assignment W8](assignment%20W8/assignment%20W8.md)
 
 ## week 9 lecture
 
-- time: 2024-03-26T18:00:00+08:00/2024-03-26T20:30:00+08:00
+- datetime: 2024-03-26T18:00:00+08:00/2024-03-26T20:30:00+08:00
 - [information § context](information.md#context)
 - [information § part 2: case analysis](information.md#part%202%20case%20analysis)
 - thinking processes ::: deduction, evaluation, inference, interpretation <!--SR:!2025-05-26,270,361!2025-05-09,262,361-->
@@ -199,11 +200,12 @@ The content is in teaching order.
 
 ## week 10 lecture
 
-- midterm break
+- datetime: 2024-04-02T18:00:00+08:00/2024-04-02T20:30:00+08:00
+- status: midterm break
 
 ## week 11 lecture
 
-- time: 2024-04-09T18:00:00+08:00/2024-04-09T20:30:00+08:00
+- datetime: 2024-04-09T18:00:00+08:00/2024-04-09T20:30:00+08:00
 - critical thinking pop quiz takeaways ::: cannot blindly trust given premises, case analysis needs to consider human behaviors, possess general knowledge <!--SR:!2025-03-08,197,341!2025-07-24,308,361-->
 - [assignment W9](assignment%20W9/assignment%20W9.md) takeaways
   - general case analysis question takeaways ::: Identify key questions. Choose the question that is most precise and involves least work. <!--SR:!2025-05-25,275,361!2025-11-16,419,381-->
@@ -236,7 +238,7 @@ The content is in teaching order.
 
 ## week 12 lecture
 
-- time: 2024-04-16T18:00:00+08:00/2024-04-16T20:30:00+08:00
+- datetime: 2024-04-16T18:00:00+08:00/2024-04-16T20:30:00+08:00
 - [assignment W11](assignment%20W11/assignment%20W11.md) takeaways
   - general case analysis reading takeaways ::: read twice, first fast, then slow and take notes <!--SR:!2025-08-27,352,377!2026-03-19,525,397-->
 - McKinsey 7Ss framework ::: organization analysis <!--SR:!2025-04-14,245,377!2026-02-25,505,397-->
@@ -250,7 +252,7 @@ The content is in teaching order.
 
 ## week 13 lecture
 
-- time: 2024-04-23T18:00:00+08:00/2024-04-23T20:30:00+08:00
+- datetime: 2024-04-23T18:00:00+08:00/2024-04-23T20:30:00+08:00
 - To be successful in business, you need to eat/kill the competition. Right? ::: Or you could make the competition irrelevant instead by creating uncontested market space... <!--SR:!2025-10-31,412,397!2025-07-28,327,377-->
 - [blue ocean strategy](../../../blue%20ocean%20strategy.md)
   - [general/Blue Ocean Strategy](../../../../general/Blue%20Ocean%20Strategy.md)
@@ -264,7 +266,7 @@ The content is in teaching order.
 
 ## week 14 lecture
 
-- time: 2024-04-30T18:00:00+08:00/2024-04-30T20:00:00+08:00
+- datetime: 2024-04-30T18:00:00+08:00/2024-04-30T20:00:00+08:00
 - [profitability framework](../../../profitability%20framework.md)
   - [§ the framework](../../../profitability%20framework.md#the%20framework)
   - [§ background](../../../profitability%20framework.md#background)
@@ -279,7 +281,7 @@ The content is in teaching order.
 
 ## week 15 lecture
 
-- time: 2024-05-07T18:00:00+08:00/2024-05-07T20:00:00+08:00
+- datetime: 2024-05-07T18:00:00+08:00/2024-05-07T20:00:00+08:00
 - exam for part 2: case analysis
   - content: 7 long questions
   - format: closed-book, 1 A4-sized cheatsheet using both sides

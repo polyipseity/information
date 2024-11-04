@@ -23,7 +23,7 @@ The content is in teaching order.
 
 ## week 1 lecture
 
-- time: 2024-01-31T09:00:00+08:00/2024-01-31T10:30:00+08:00
+- datetime: 2024-01-31T09:00:00+08:00/2024-01-31T10:30:00+08:00
 - 6 major topics ::: association, clustering, classification, data warehouse, dimension reduction, web database <!--SR:!2025-02-23,224,250!2025-01-13,260,330-->
 - association ::: Finding frequent _patterns_, e.g. frequent items and _item sets_, and _association rules_, e.g. the likelihood of A implying B. <!--SR:!2026-02-11,531,310!2024-11-21,218,330-->
 - clustering ::: Finding all _clusters_, e.g. the clusters of items after graphing them in a 2D graph. <!--SR:!2024-11-05,191,310!2025-02-08,282,330-->
@@ -35,7 +35,7 @@ The content is in teaching order.
 
 ## week 2 lecture 1
 
-- time: 2024-02-05T09:00:00+08:00/2024-02-05T10:30:00+08:00
+- datetime: 2024-02-05T09:00:00+08:00/2024-02-05T10:30:00+08:00
 - [association rule learning § support](../../../../general/association%20rule%20learning.md#support)
 - support definition ::: We use "the number of transactions containing $X$" definition here. <!--SR:!2025-01-08,256,330!2024-12-23,244,330-->
 - [association rule learning § confidence](../../../../general/association%20rule%20learning.md#confidence)
@@ -44,13 +44,13 @@ The content is in teaching order.
 
 ## week 2 lecture 2
 
-- time: 2024-02-07T09:00:00+08:00/2024-02-07T10:30:00+08:00
+- datetime: 2024-02-07T09:00:00+08:00/2024-02-07T10:30:00+08:00
 - [association rule learning § naive algorithms](../../../../general/association%20rule%20learning.md#naive%20algorithms)
 - [Apriori algorithm § overview](../../../../general/Apriori%20algorithm.md#overview)
 
 ## week 3 lecture
 
-- time: 2024-02-14T09:00:00+08:00/2024-02-14T10:30:00+08:00
+- datetime: 2024-02-14T09:00:00+08:00/2024-02-14T10:30:00+08:00
 - [Apriori algorithm § overview](../../../../general/Apriori%20algorithm.md#overview)
 - [Apriori algorithm § the algorithm](../../../../general/Apriori%20algorithm.md#the%20algorithm)
 - [Apriori algorithm § limitations](../../../../general/Apriori%20algorithm.md#limitations)
@@ -58,7 +58,7 @@ The content is in teaching order.
 
 ## week 4 lecture 1
 
-- time: 2024-02-19T09:00:00+08:00/2024-02-19T10:30:00+08:00
+- datetime: 2024-02-19T09:00:00+08:00/2024-02-19T10:30:00+08:00
 - [FP-growth algorithm § FP-tree](../../../../general/FP-growth%20algorithm.md#FP-tree)
 - [FP-growth algorithm § growth](../../../../general/FP-growth%20algorithm.md#growth)
   - FP-growth algorithm growth step ::: We use the slightly modified algorithm, never return an empty item set, and use the growth shortcut. <!--SR:!2024-12-09,182,331!2025-01-10,213,347-->
@@ -68,14 +68,14 @@ The content is in teaching order.
 
 ## week 4 tutorial
 
-- time: 2024-02-19T18:00:00+08:00/2024-02-19T19:00:00+08:00
+- datetime: 2024-02-19T18:00:00+08:00/2024-02-19T19:00:00+08:00
 - optional
 - topic: helping students who encountered problems of using XLMiner in our CSE lab and using XLMiner outside CSE Lab
 - [Analytics Solver usage § installation](../../../Analytic%20Solver%20usage.md#installation)
 
 ## week 4 lecture 2
 
-- time: 2024-02-21T09:00:00+08:00/2024-02-21T10:30:00+08:00
+- datetime: 2024-02-21T09:00:00+08:00/2024-02-21T10:30:00+08:00
 - [FP-growth algorithm § growth](../../../../general/FP-growth%20algorithm.md#growth)
 - [FP-growth algorithm § growth shortcut](../../../../general/FP-growth%20algorithm.md#growth%20shortcut)
 - [FP-growth algorithm § complexity](../../../../general/FP-growth%20algorithm.md#complexity)
@@ -83,7 +83,7 @@ The content is in teaching order.
 
 ## week 5 lecture 1
 
-- time: 2024-02-26T09:00:00+08:00/2024-02-26T10:30:00+08:00
+- datetime: 2024-02-26T09:00:00+08:00/2024-02-26T10:30:00+08:00
 - [_k_-means clustering § standard algorithm (naive _k_-means)](../../../../general/k-means%20clustering.md#standard%20algorithm%20(naive%20_k_-means))
 - [_k_-means clustering § initialization methods](../../../../general/k-means%20clustering.md#initialization%20methods)
 - [_k_-means clustering § discussion](../../../../general/k-means%20clustering.md#discussion)
@@ -92,7 +92,7 @@ The content is in teaching order.
 
 ## week 5 tutorial
 
-- time: 2024-02-26T18:00:00+08:00/2024-02-26T19:00:00+08:00
+- datetime: 2024-02-26T18:00:00+08:00/2024-02-26T19:00:00+08:00
 - topic: using XLMiner for association rule mining
 - [association rule learning § useful concepts](../../../../general/association%20rule%20learning.md#useful%20concepts)
 - [association rule learning § algorithms](../../../../general/association%20rule%20learning.md#algorithms)
@@ -101,7 +101,7 @@ The content is in teaching order.
 
 ## week 5 lecture 2
 
-- time: 2024-02-28T09:00:00+08:00/2024-02-28T10:30:00+08:00
+- datetime: 2024-02-28T09:00:00+08:00/2024-02-28T10:30:00+08:00
 - [_k_-means clustering § variations](../../../../general/k-means%20clustering.md#variations)
 - [Analytics Solver usage § random seed](../../../Analytic%20Solver%20usage.md#random%20seed)
 - [hierarchial clustering](../../../../general/hierarchical%20clustering.md)
@@ -111,7 +111,7 @@ The content is in teaching order.
 
 ## week 6 lecture 1
 
-- time: 2024-03-04T09:00:00+08:00/2024-03-04T10:30:00+08:00
+- datetime: 2024-03-04T09:00:00+08:00/2024-03-04T10:30:00+08:00
 - [hierarchial clustering § cluster linkage](../../../../general/hierarchical%20clustering.md#cluster%20linkage)
 - [hierarchial clustering § agglomerative clustering](../../../../general/hierarchical%20clustering.md#agglomerative%20clustering)
 - [hierarchial clustering § divisive clustering](../../../../general/hierarchical%20clustering.md#divisive%20clustering)
@@ -121,7 +121,7 @@ The content is in teaching order.
 
 ## week 6 tutorial
 
-- time: 2024-03-04T18:00:00+08:00/2024-03-04T19:00:00+08:00
+- datetime: 2024-03-04T18:00:00+08:00/2024-03-04T19:00:00+08:00
 - topic: how to do in-class exercise 2 (FP-tree) and additional exercise (FP-tree)
 - [FP-growth algorithm § overview](../../../../general/FP-growth%20algorithm.md#overview)
 - Jaccard's coefficient for binary data ::: [Jaccard index § similarity of asymmetric binary attributes](../../../../general/Jaccard%20index.md#similarity%20of%20asymmetric%20binary%20attributes) <!--SR:!2025-11-07,386,377!2026-03-02,501,397-->
@@ -129,7 +129,7 @@ The content is in teaching order.
 
 ## week 6 lecture 2
 
-- time: 2024-03-06T09:00:00+08:00/2024-03-06T10:30:00+08:00
+- datetime: 2024-03-06T09:00:00+08:00/2024-03-06T10:30:00+08:00
 - [hierarchial clustering § agglomerative clustering](../../../../general/hierarchical%20clustering.md#agglomerative%20clustering)
 - [hierarchial clustering § chi-squared monothetic clustering](../../../../general/hierarchical%20clustering.md#chi-squared%20monothetic%20clustering)
 - [statistical classification § application domains](../../../../general/statistical%20classification.md#application%20domains)
@@ -141,7 +141,7 @@ The content is in teaching order.
 
 ## week 7 lecture 1
 
-- time: 2024-03-11T09:00:00+08:00/2024-03-11T10:30:00+08:00
+- datetime: 2024-03-11T09:00:00+08:00/2024-03-11T10:30:00+08:00
 - [entropy](../../../../general/entropy%20(information%20theory).md)
 - decision tree format ::: All nodes show the percentage of actual labels in that decision nodes. The internal nodes show the attribute being split on. The terminal nodes show the predicted label. Arrows point from top to bottom, and each is labelled with an inequality operating on the attribute, which decides whether an sample being predicted should go through said arrow. <!--SR:!2024-11-29,120,337!2024-11-07,102,317-->
 - [decision tree learning § algorithms](../../../../general/decision%20tree%20learning.md#algorithms)
@@ -158,7 +158,7 @@ The content is in teaching order.
 
 ## week 7 tutorial
 
-- time: 2024-03-11T18:00:00+08:00/2024-03-11T19:00:00+08:00
+- datetime: 2024-03-11T18:00:00+08:00/2024-03-11T19:00:00+08:00
 - topic: using XLMiner for _k_-means and hierarchical clustering
 - [_k_-means clustering § standard algorithm (naive _k_-means)](../../../../general/k-means%20clustering.md#standard%20algorithm%20(naive%20_k_-means))
 - [hierarchial clustering](../../../../general/hierarchical%20clustering.md)
@@ -169,7 +169,7 @@ The content is in teaching order.
 
 ## week 7 lecture 2
 
-- time: 2024-03-13T09:00:00+08:00/2024-03-13T10:30:00+08:00
+- datetime: 2024-03-13T09:00:00+08:00/2024-03-13T10:30:00+08:00
 - [confusion matrix](../../../../general/confusion%20matrix.md)
   - confusion matrix format ::: Each row represents an actual class while each column represents a predicted class. <!--SR:!2026-02-05,464,320!2025-02-10,211,340-->
 - [confusion matrix § error report](../../../../general/confusion%20matrix.md#error%20report)
@@ -182,14 +182,14 @@ The content is in teaching order.
 
 ## week 8 lecture 1
 
-- time: 2024-03-18T09:00:00+08:00/2024-03-18T10:30:00+08:00
+- datetime: 2024-03-18T09:00:00+08:00/2024-03-18T10:30:00+08:00
 - [Analytics Solver usage § decision tree](../../../Analytic%20Solver%20usage.md#decision%20tree)
 - midterm exam format voting
   - bonus question (+10%, max 100%): no
   - cheatsheet: 1 sheet of A4-sized paper, double-sided
   - difficulty: 80% straight forward, 20% not straight forward but easy
   - duration: 70 minutes
-  - time: 2024-03-25T09:05:00+08:00/2024-03-25T10:15:00+08:00
+  - datetime: 2024-03-25T09:05:00+08:00/2024-03-25T10:15:00+08:00
   - types: 80% long questions, 20% multiple choice questions
 - [Bayes' theorem](../../../../general/Bayes'%20theorem.md)
   - [§ statement of theorem](../../../../general/Bayes'%20theorem.md#statement%20of%20theorem)
@@ -203,7 +203,7 @@ The content is in teaching order.
 
 ## week 8 tutorial
 
-- time: 2024-03-18T18:00:00+08:00/2024-03-18T19:00:00+08:00
+- datetime: 2024-03-18T18:00:00+08:00/2024-03-18T19:00:00+08:00
 - topic: fundamental matrix operations
 - [matrix](../../../../general/matrix%20(mathematics).md)
   - [§ addition, scalar multiplication, subtraction and transposition](../../../../general/matrix%20(mathematics).md#addition,%20scalar%20multiplication,%20subtraction%20and%20transposition)
@@ -215,7 +215,7 @@ The content is in teaching order.
 
 ## week 8 lecture 2
 
-- time: 2024-03-20T09:00:00+08:00/2024-03-20T10:30:00+08:00
+- datetime: 2024-03-20T09:00:00+08:00/2024-03-20T10:30:00+08:00
 - [matrix](../../../../general/matrix%20(mathematics).md)
   - [§ addition, scalar multiplication, subtraction and transposition](../../../../general/matrix%20(mathematics).md#addition,%20scalar%20multiplication,%20subtraction%20and%20transposition)
   - [§ matrix multiplication](../../../../general/matrix%20(mathematics).md#matrix%20multiplication)
@@ -248,18 +248,18 @@ The content is in teaching order.
 
 ## week 9 lecture 1
 
-- time: 2024-03-25T09:00:00+08:00/2024-03-25T10:30:00+08:00
+- datetime: 2024-03-25T09:00:00+08:00/2024-03-25T10:30:00+08:00
 - midterm exam
   - bonus question (+10%, max 100%): no
   - cheatsheet: 1 sheet of A4-sized paper, double-sided
   - difficulty: 80% straight forward, 20% not straight forward but easy
   - duration: 70 minutes
-  - time: 2024-03-25T09:05:00+08:00/2024-03-25T10:15:00+08:00
+  - datetime: 2024-03-25T09:05:00+08:00/2024-03-25T10:15:00+08:00
   - types: 80% long questions, 20% multiple choice questions
 
 ## week 9 tutorial
 
-- time: 2024-03-25T18:00:00+08:00/2024-03-25T19:00:00+08:00
+- datetime: 2024-03-25T18:00:00+08:00/2024-03-25T19:00:00+08:00
 - topic: reducing the number of categories; using XLMiner for classification (decision tree)
 - [Analytics Solver usage § category reduction](../../../Analytic%20Solver%20usage.md#category%20reduction)
 - [decision tree learning § algorithms](../../../../general/decision%20tree%20learning.md#algorithms)
@@ -271,7 +271,7 @@ The content is in teaching order.
 
 ## week 9 lecture 2
 
-- time: 2024-03-27T09:00:00+08:00/2024-03-27T10:30:00+08:00
+- datetime: 2024-03-27T09:00:00+08:00/2024-03-27T10:30:00+08:00
 - optional
 - midterm exam checking
   - average: 70.14/100
@@ -281,27 +281,28 @@ The content is in teaching order.
 
 ## week 10 lecture 1
 
-- midterm break
-- public holiday
+- datetime: 2024-04-01T09:00:00+08:00/2024-04-01T10:30:00+08:00
+- status: midterm break, public holiday: Easter Monday
 
 ## week 10 tutorial
 
-- midterm break
-- public holiday
+- datetime: 2024-04-01T18:00:00+08:00/2024-04-01T19:00:00+08:00
+- status: midterm break, public holiday: Easter Monday
 
 ## week 10 lecture 2
 
-- midterm break
+- datetime: 2024-04-03T09:00:00+08:00/2024-04-03T10:30:00+08:00
+- status: midterm break
 
 ## week 11 lecture 1
 
-- time: 2024-04-08T09:00:00+08:00/2024-04-08T10:30:00+08:00
+- datetime: 2024-04-08T09:00:00+08:00/2024-04-08T10:30:00+08:00
 - final exam format voting
   - bonus question (+10%, max 100%): no
   - cheatsheet: 1 sheet of A4-sized paper, double-sided
   - difficulty: 80% straight forward, 20% not straight forward but easy
   - duration: 150 minutes
-  - time: 2024-05-18T16:30:00+08:00/2024-05-18T19:00:00+08:00
+  - datetime: 2024-05-18T16:30:00+08:00/2024-05-18T19:00:00+08:00
   - types: 100% short or long questions, 0% multiple choice questions
 - [neural network](../../../../general/neural%20network%20(machine%20learning).md)
   - [§ artificial neurons](../../../../general/neural%20network%20(machine%20learning).md#artificial%20neurons)
@@ -323,13 +324,13 @@ The content is in teaching order.
 
 ## week 11 tutorial
 
-- time: 2024-04-08T18:00:00+08:00/2024-04-08T19:00:00+08:00
+- datetime: 2024-04-08T18:00:00+08:00/2024-04-08T19:00:00+08:00
 - topic: using XLMiner for classification (naive Bayes classifier, nearest neighbor classifier)
 - [Analytics Solver usage](../../../Analytic%20Solver%20usage.md): naive Bayes classifier, nearest neighbor classifier
 
 ## week 11 lecture 2
 
-- time: 2024-04-10T09:00:00+08:00/2024-04-10T10:30:00+08:00
+- datetime: 2024-04-10T09:00:00+08:00/2024-04-10T10:30:00+08:00
 - [recurrent neural network](../../../../general/recurrent%20neural%20network.md)
   - basic RNN ::: [§ Elman networks and Jordan networks](../../../../general/recurrent%20neural%20network.md#Elman%20networks%20and%20Jordan%20networks) <!--SR:!2025-01-18,154,337!2025-11-07,386,377-->
   - [§ long short-term memory](../../../../general/recurrent%20neural%20network.md#long%20short-term%20memory)
@@ -342,7 +343,7 @@ The content is in teaching order.
 
 ## week 12 lecture 1
 
-- time: 2024-04-15T09:00:00+08:00/2024-04-15T10:30:00+08:00
+- datetime: 2024-04-15T09:00:00+08:00/2024-04-15T10:30:00+08:00
 - [support vector machine](../../../../general/support%20vector%20machine.md)
   - [§ hard-margin](../../../../general/support%20vector%20machine.md#hard-margin)
   - [§ nonlinear kernels](../../../../general/support%20vector%20machine.md#nonlinear%20kernels)
@@ -356,13 +357,13 @@ The content is in teaching order.
 
 ## week 12 lab
 
-- time: 2024-04-15T18:00:00+08:00/2024-04-15T19:00:00+08:00
+- datetime: 2024-04-15T18:00:00+08:00/2024-04-15T19:00:00+08:00
 - topic: using XLMiner for classification (neural network)
 - [Analytics Solver usage](../../../Analytic%20Solver%20usage.md): neural network
 
 ## week 12 lecture 2
 
-- time: 2024-04-17T09:00:00+08:00/2024-04-17T10:30:00+08:00
+- datetime: 2024-04-17T09:00:00+08:00/2024-04-17T10:30:00+08:00
 - [principal component analysis](../../../../general/principal%20component%20analysis.md)
   - [§ overview](../../../../general/principal%20component%20analysis.md#overview)
   - [§ intuition](../../../../general/principal%20component%20analysis.md#intuition)
@@ -382,7 +383,7 @@ The content is in teaching order.
 
 ## week 13 lecture 1
 
-- time: 2024-04-22T09:00:00+08:00/2024-04-22T10:30:00+08:00
+- datetime: 2024-04-22T09:00:00+08:00/2024-04-22T10:30:00+08:00
 - [principal component analysis § computing PCA using the covariance method](../../../../general/principal%20component%20analysis.md#computing%20PCA%20using%20the%20covariance%20method)
 - project phase 3: see above
 - [fact table § examples](../../../../general/fact%20table.md) ::: see the transactional fact table example <!--SR:!2025-04-29,231,357!2025-12-17,418,377-->
@@ -392,14 +393,14 @@ The content is in teaching order.
 
 ## week 13 tutorial
 
-- time: 2024-04-22T18:00:00+08:00/2024-04-22T19:00:00+08:00
+- datetime: 2024-04-22T18:00:00+08:00/2024-04-22T19:00:00+08:00
 - optional
 - topic: questions about XLMiner
 - [Analytics Solver usage](../../../Analytic%20Solver%20usage.md)
 
 ## week 13 lecture 2
 
-- time: 2024-04-24T09:00:00+08:00/2024-04-24T10:30:00+08:00
+- datetime: 2024-04-24T09:00:00+08:00/2024-04-24T10:30:00+08:00
 - [online analytical processing § aggregations](../../../../general/online%20analytical%20processing.md#aggregations)
 - [materialized view](../../../../general/materialized%20view.md)
   - [§ algorithms](../../../../general/materialized%20view.md#algorithms)
@@ -426,7 +427,7 @@ The content is in teaching order.
 
 ## week 14 lecture
 
-- time: 2024-04-29T09:00:00+08:00/2024-04-29T10:30:00+08:00
+- datetime: 2024-04-29T09:00:00+08:00/2024-04-29T10:30:00+08:00
 - [PageRank § simplified algorithm](../../../../general/PageRank.md#simplified%20algorithm)
 - [materialized view § greedy algorithm](../../../../general/materialized%20view.md#greedy%20algorithm)
 - [Bayes' theorem](../../../../general/Bayes'%20theorem.md)
@@ -447,13 +448,13 @@ The content is in teaching order.
 
 ## week 14 tutorial
 
-- time: 2024-04-29T18:00:00+08:00/2024-04-29T19:00:00+08:00
+- datetime: 2024-04-29T18:00:00+08:00/2024-04-29T19:00:00+08:00
 - topic: using XLMiner for PCA
 - [Analytics Solver usage](../../../Analytic%20Solver%20usage.md): principal components
 
 ## week 15 lecture 1
 
-- time: 2024-05-06T09:00:00+08:00/2024-05-06T10:30:00+08:00
+- datetime: 2024-05-06T09:00:00+08:00/2024-05-06T10:30:00+08:00
 - [Bayes' theorem](../../../../general/Bayes'%20theorem.md)
   - [§ statement of theorem](../../../../general/Bayes'%20theorem.md#statement%20of%20theorem)
   - [§ Bayes' theorem for 3 events](../../../../general/Bayes'%20theorem.md#Bayes'%20theorem%20for%203%20events)
@@ -489,7 +490,7 @@ The content is in teaching order.
 
 ## week 15 tutorial
 
-- time: 2024-05-06T18:00:00+08:00/2024-05-06T19:00:00+08:00
+- datetime: 2024-05-06T18:00:00+08:00/2024-05-06T19:00:00+08:00
 - topic: how to do in-class exercise 5 (Bayesian classifier)
 - [Bayes' theorem](../../../../general/Bayes'%20theorem.md)
   - [§ statement of theorem](../../../../general/Bayes'%20theorem.md#statement%20of%20theorem)
@@ -506,7 +507,7 @@ The content is in teaching order.
 
 ## week 15 lecture 2
 
-- time: 2024-05-08T09:00:00+08:00/2024-05-08T10:30:00+08:00
+- datetime: 2024-05-08T09:00:00+08:00/2024-05-08T10:30:00+08:00
 - optional
 - guest lecture
   - speaker: Prof. Dan Xu
@@ -522,7 +523,7 @@ The content is in teaching order.
   - cheatsheet: 1 sheet of A4-sized paper, double-sided
   - difficulty: 80% straight forward, 20% not straight forward but easy
   - duration: 70 minutes
-  - time: 2024-03-25T09:05:00+08:00/2024-03-25T10:15:00+08:00
+  - datetime: 2024-03-25T09:05:00+08:00/2024-03-25T10:15:00+08:00
   - types: 80% long questions, 20% multiple choice questions
   - report
     - Very very tight time limit. Do the paper as-if you do not have enough time.
@@ -531,7 +532,7 @@ The content is in teaching order.
   - cheatsheet: 1 sheet of A4-sized paper, double-sided
   - difficulty: 80% straight forward, 20% not straight forward but easy
   - duration: 150 minutes
-  - time: 2024-05-18T16:30:00+08:00/2024-05-18T19:00:00+08:00
+  - datetime: 2024-05-18T16:30:00+08:00/2024-05-18T19:00:00+08:00
   - types: 100% short or long questions, 0% multiple choice questions
   - report
     - Time is much more lenient.

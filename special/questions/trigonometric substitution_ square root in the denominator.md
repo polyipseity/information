@@ -10,7 +10,7 @@ tags:
 
 # trigonometric substitution: square root in the denominator
 
-- time: 2024-07-01T16:09:49.707+08:00
+- datetime: 2024-07-01T16:09:49.707+08:00
 
 Evaluate $$\int \! \frac {x^2} {\sqrt{3x^2 + 8} } \,\mathrm{d}x$$.
 

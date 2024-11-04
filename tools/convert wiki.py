@@ -22,11 +22,13 @@ AUTHORS = (
 )
 VERSION = "∞"
 USER_AGENT = f"{NAME}/{VERSION} ({AUTHORS[0]['email']}) Python/{version}"
+
+_WIKI_HOST_URL = URL.build(scheme="https", host="en.wikipedia.org")
 _LIST_INDENT = "    "
 _MAX_CONCURRENT_REQUESTS_PER_HOST = 2
 _IGNORED_NAME_PREFIXES = frozenset({"Help:"})
 _PRESERVED_PAGE_PREFIXES = {
-    "Special:": "https://en.wikipedia.org/wiki/{}",
+    "Special:": f"{_WIKI_HOST_URL}/wiki/{{}}",
     "oeis:": "https://oeis.org/{}",
     "wikt:": "https://en.wiktionary.org/wiki/{}",
 }
@@ -106,7 +108,7 @@ async def wiki_html_to_plaintext(
     prefix, suffix = "", ""
     match ele.name:
         # bold, italic, style
-        case name if name in ("b", "i") or compile(r"font-style: *italic").search(
+        case _ if ele.name in {"b", "i"} or compile(r"font-style: *italic").search(
             str(ele.get("style", ""))
         ):
             times = 2 if ele.name == "b" else 1
@@ -126,9 +128,7 @@ async def wiki_html_to_plaintext(
         case "s" | "sub" | "sup" | "u":
             prefix, suffix = _tag_affixes(ele.name)
         # newlines
-        case "dd":
-            suffix = "\n"
-        case "dl" | "p":
+        case "dd" | "p":  # <dl>
             suffix = "\n\n"
         # headers
         case name if (header_match := compile(r"h(\d?)").match(name)):
@@ -205,65 +205,92 @@ async def wiki_html_to_plaintext(
                     suffix = f' <a id="^ref-{item}"></a>^ref-{item}{suffix}'
             else:
                 prefix, suffix = f"{_LIST_INDENT * (len(list_stack) - 1)}- ", "\n"
+        # images
+        case "img":
+            if "mwe-math-fallback-image-inline" not in ele.get_attribute_list("class"):
+
+                def process_strings_img(strings: str, ele: Tag = ele):
+                    if src := ele.get("src"):
+                        return f"{strings}![]({_WIKI_HOST_URL.join(URL(str(src)))})"
+                    return strings
+
+                suffix = "\n\n"
+                process_strings = process_strings_img
+        # figures
+        case _ if ele.name == "figure" or "tmulti" in ele.get_attribute_list("class"):
+
+            def process_strings_figure(strings: str):
+                return "".join(
+                    f">{line.strip() and ' '}{line}"
+                    for line in strings.splitlines(keepends=True)
+                )
+
+            suffix = "\n\n"
+            process_strings = process_strings_figure
         # links
         case "a":
-            process = True
-            if title := ele.get("title"):
-                title = str(title)
-                href = str(ele.get("href", ""))
-                to_fragment = (
-                    href.split("#", 1)[-1].replace("_", " ") if "#" in href else ""
-                )
-                async with session.get(
-                    URL.build(
-                        scheme="https",
-                        host="en.wikipedia.org",
-                        path="/w/api.php",
-                        query={
-                            "format": "json",
-                            "formatversion": 2,
-                            "action": "query",
-                            "titles": title,
-                            "redirects": "",
-                        },
+            if "mw-file-description" not in ele.get_attribute_list("class"):
+                process = True
+                if title := ele.get("title"):
+                    title = str(title)
+                    href = str(ele.get("href", ""))
+                    to_fragment = (
+                        href.split("#", 1)[-1].replace("_", " ") if "#" in href else ""
                     )
-                ) as req:
-                    redirect: Mapping[str, str] = (
-                        (await req.json()).get("query", {}).get("redirects", ({},))[0]
-                    )
-                    to = redirect.get("to", title)
-                    if not to_fragment:
-                        to_fragment = redirect.get("tofragment", "")
-                if url_format := next(
-                    (
-                        format
-                        for prefix, format in _PRESERVED_PAGE_PREFIXES.items()
-                        if to.startswith(prefix)
-                    ),
-                    "",
-                ):
-                    prefix, suffix = (
-                        "[",
-                        f"]({url_format.format(f'{quote(to)}{to_fragment and '#'}{quote(to_fragment, safe="")}')})",
-                    )
-                elif not any(
-                    to.startswith(prefix) for prefix in _IGNORED_NAME_PREFIXES
-                ):
-                    prefix, suffix = (
-                        "[",
-                        f"]({_markdown_link_target(_fix_name_maybe(to), _fix_name_maybe(to_fragment))})",
-                    )
-            elif href := ele.get("href"):
-                href = str(href)
-                if href.startswith("https://en.wikipedia.org/wiki/") and "#" in href:
-                    href = _markdown_fragment(
-                        _fix_name_maybe(href[href.index("#") + 1 :].replace("_", " "))
-                    )
-                prefix, suffix = "[", f"]({href})"
-            else:
-                process = False
-            if process:
-                process_strings = _markdown_link_name
+                    async with session.get(
+                        URL.build(
+                            scheme=_WIKI_HOST_URL.scheme,
+                            host=str(_WIKI_HOST_URL.host),
+                            path="/w/api.php",
+                            query={
+                                "format": "json",
+                                "formatversion": 2,
+                                "action": "query",
+                                "titles": title,
+                                "redirects": "",
+                            },
+                        )
+                    ) as req:
+                        redirect: Mapping[str, str] = (
+                            (await req.json())
+                            .get("query", {})
+                            .get("redirects", ({},))[0]
+                        )
+                        to = redirect.get("to", title)
+                        if not to_fragment:
+                            to_fragment = redirect.get("tofragment", "")
+                    if url_format := next(
+                        (
+                            format
+                            for prefix, format in _PRESERVED_PAGE_PREFIXES.items()
+                            if to.startswith(prefix)
+                        ),
+                        "",
+                    ):
+                        prefix, suffix = (
+                            "[",
+                            f"]({url_format.format(f'{quote(to)}{to_fragment and '#'}{quote(to_fragment, safe="")}')})",
+                        )
+                    elif not any(
+                        to.startswith(prefix) for prefix in _IGNORED_NAME_PREFIXES
+                    ):
+                        prefix, suffix = (
+                            "[",
+                            f"]({_markdown_link_target(_fix_name_maybe(to), _fix_name_maybe(to_fragment))})",
+                        )
+                elif href := ele.get("href"):
+                    href = str(href)
+                    if href.startswith(f"{_WIKI_HOST_URL}/wiki/") and "#" in href:
+                        href = _markdown_fragment(
+                            _fix_name_maybe(
+                                href[href.index("#") + 1 :].replace("_", " ")
+                            )
+                        )
+                    prefix, suffix = "[", f"]({href})"
+                else:
+                    process = False
+                if process:
+                    process_strings = _markdown_link_name
         # unhandled tags
         case _:
             pass

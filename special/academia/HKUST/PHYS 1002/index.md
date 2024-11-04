@@ -36,7 +36,7 @@ The content is in teaching order. Extra information and corrections are included
 
 ## week 1 lecture
 
-- time: 2024-06-18T10:00:00+08:00/2024-06-18T12:30:00+08:00
+- datetime: 2024-06-18T10:00:00+08:00/2024-06-18T12:30:00+08:00
 - course textbook ::: "The Cosmic Perspective", 7th Edition by Bennett, Donahue, Schneider & Voit, Pearson New International Edition <!--SR:!2025-02-27,181,310!2025-07-26,299,330-->
 - course parts ::: developing perspective (chapter 1–3), key concepts for astronomy (chapter 4–6), stars (chapter 14–18), galaxies & beyond (chapter 19–23) <!--SR:!2025-02-02,156,310!2025-08-03,307,330-->
 - [flat Earth](../../../../general/flat%20Earth.md) ::: superseded by spherical Earth <!--SR:!2025-06-15,271,330!2025-04-11,198,310-->
@@ -106,7 +106,7 @@ The content is in teaching order. Extra information and corrections are included
 
 ## week 1 lecture 2
 
-- time: 2024-06-20T10:00:00+08:00/2024-06-20T12:30:00+08:00
+- datetime: 2024-06-20T10:00:00+08:00/2024-06-20T12:30:00+08:00
 - [Cosmic Calendar](../../../../general/Cosmic%20Calendar.md) ::: Compress the entire history of the universe till now (13.8 billion years) into 1 year. 1 month ≈ 1.2 billion yrs, 1 day ≈ 40 million yrs, 1 sec ≈ 440 yrs <!--SR:!2025-05-15,227,288!2025-04-18,212,328-->
   - Cosmic Calendar highlights ::: The [Solar System](../../../../general/Solar%20System.md) formed on September. Dinosaurs appeared on Christmas (25 Dec) and extincted yesterday (30 Dec). All of recorded human history occurred in the last 30 seconds. We (age of ~20) were born 0.05 seconds before. <!--SR:!2024-11-28,104,288!2025-06-23,258,328-->
 - Are we ever standing still? ::: No! Consider the movement of [Earth](../../../../general/Earth.md), the [Sun](../../../../general/Sun.md), and [Milky Way](../../../../general/Milky%20Way.md). <!--SR:!2025-04-01,199,328!2025-08-12,316,348-->
@@ -169,7 +169,7 @@ The content is in teaching order. Extra information and corrections are included
 > Regards, <br/>
 > \[redacted\]
 
-- time: 2024-06-25T10:00:00+08:00/2024-06-25T11:30:00+08:00
+- datetime: 2024-06-25T10:00:00+08:00/2024-06-25T11:30:00+08:00
 - properties: optional
 - topic: observational astronomy
 - by: HKUST Astronomy Club
@@ -180,7 +180,7 @@ The content is in teaching order. Extra information and corrections are included
 
 ## week 2 lecture 2
 
-- time: 2024-06-27T10:00:00+08:00/2024-06-27T12:30:00+08:00
+- datetime: 2024-06-27T10:00:00+08:00/2024-06-27T12:30:00+08:00
 - [angular diameter](../../../../general/angular%20diameter.md)
   - [§ formula](../../../../general/angular%20diameter.md#formula)
 - [arcminute & arcsecond](../../../../general/minute%20and%20second%20of%20arc.md)
@@ -226,7 +226,7 @@ The content is in teaching order. Extra information and corrections are included
 
 ## week 3 lecture
 
-- time: 2024-07-02T10:00:00+08:00/2024-07-02T12:30:00+08:00
+- datetime: 2024-07-02T10:00:00+08:00/2024-07-02T12:30:00+08:00
 - [equinox](../../../../general/equinox.md) ::: Axis tilt is sideways with regards to the Sun. The Sun is on the celestial equator of the celestial sphere. Both hemisphere receives the same amount of sunlight. <!--SR:!2025-06-19,259,355!2025-03-03,173,335-->
   - equinox etymology ::: equi "equal" + nox "night" <!--SR:!2025-10-17,374,375!2025-08-25,329,375-->
   - equinox names ::: spring/vernal equinox, fall/autumnal equinox, March equinox, September equinox <!--SR:!2025-10-08,365,375!2026-01-12,445,377-->
@@ -275,7 +275,7 @@ The content is in teaching order. Extra information and corrections are included
 
 ## week 3 lecture 2
 
-- time: 2024-07-04T10:00:00+08:00/2024-07-04T12:30:00+08:00
+- datetime: 2024-07-04T10:00:00+08:00/2024-07-04T12:30:00+08:00
 - [eclipse](../../../../general/eclipse.md)
 - [umbra, penumbra and antumbra](../../../../general/umbra,%20penumbra%20and%20antumbra.md)
   - [§ umbra](../../../../general/umbra,%20penumbra%20and%20antumbra.md#umbra)
@@ -343,7 +343,7 @@ The content is in teaching order. Extra information and corrections are included
 
 ## week 4 lecture
 
-- time: 2024-07-09T10:00:00+08:00/2024-07-09T12:30:00+08:00
+- datetime: 2024-07-09T10:00:00+08:00/2024-07-09T12:30:00+08:00
 - [Earth's circumference](../../../../general/Earth's%20circumference.md) ::: around the equator: 40&nbsp;075.017 km, passing through the poles: 40&nbsp;007.863 km <!--SR:!2024-11-05,9,154!2025-02-24,153,334-->
   - [§ Eratosthenes](../../../../general/Earth's%20circumference.md#Eratosthenes)
     - [Earth's circumference § Eratosthenes](../../../../general/Earth's%20circumference.md#Eratosthenes) / measurements ::: Alexandria and Syene are about 5000 stadia away. The direction of Sun's rays is about 7.2°. <!--SR:!2025-05-03,207,352!2024-11-17,97,374-->
@@ -393,7 +393,7 @@ The content is in teaching order. Extra information and corrections are included
 
 ## week 4 lecture 2
 
-- time: 2024-07-11T10:00:00+08:00/2024-07-11T12:30:00+08:00
+- datetime: 2024-07-11T10:00:00+08:00/2024-07-11T12:30:00+08:00
 - [Issac Newton](../../../../general/Issac%20Newton.md) (1642–1727) ::: He is famous for his three laws of motions, law of universal gravitation, invention of calculus, optics, reflecting telescopes, etc. <!--SR:!2025-03-06,169,354!2024-11-10,85,332-->
   - Newton's laws of motion + law of universal gravitation ::: They can account for (almost; see Einstein's theories) everything about astronomical-scale objects. <!--SR:!2024-11-08,92,374!2025-12-29,427,392-->
 - [Newton's laws of motion](../../../../general/Newton's%20laws%20of%20motion.md)
@@ -445,7 +445,7 @@ The content is in teaching order. Extra information and corrections are included
 
 ## week 5 lecture
 
-- time: 2024-07-16T10:00:00+08:00/2024-07-16T12:30:00+08:00
+- datetime: 2024-07-16T10:00:00+08:00/2024-07-16T12:30:00+08:00
 - [mechanical energy § satellite](../../../../general/mechanical%20energy.md#satellite) ::: The mechanical energy (total orbital energy), that is the sum of kinetic and potential energy, stays constant. It explains why an orbiting body, given no external energy transfer, being closer to the primary body implies higher velocity, and vice versa. <!--SR:!2024-12-05,110,385!2024-11-21,96,385-->
   - changing an [orbit](../../../../general/orbit.md) ::: External energy will need to be given or taken away from the mechanical energy, which is constant otherwise, to change the orbit. For example, atmospheric or friction drag, and gravitational encounter can change the mechanical energy, thus the orbit. <!--SR:!2024-11-13,91,385!2024-11-15,93,385-->
 - [escape velocity](../../../../general/escape%20velocity.md) ::: the minimum speed required to escape into an unbounded orbit at a certain distance from the center of the primary body (ignoring friction): $$v_{\text{escape} } = \sqrt{\frac {2GM} r}$$ <!--SR:!2024-11-19,94,385!2024-11-11,89,385-->
@@ -516,7 +516,7 @@ The content is in teaching order. Extra information and corrections are included
 
 ## week 5 lecture 2
 
-- time: 2024-07-18T10:00:00+08:00/2024-07-18T12:30:00+08:00
+- datetime: 2024-07-18T10:00:00+08:00/2024-07-18T12:30:00+08:00
 - [Doppler effect](../../../../general/Doppler%20effect.md) ::: The wavelength of a wave is changed when source and receiver are moving relatively. Redshift when the relative velocity away from each other. Blueshift when the relative velocity is towards each other. <!--SR:!2024-11-26,101,385!2024-11-06,84,385-->
   - [Doppler effect](../../../../general/Doppler%20effect.md) / visualization ::: Imagine a static wave connecting the source and the receiver. Imagine that the wave is extended or compressed like a spring when they are, respectively, moving away and moving apart. <!--SR:!2024-11-25,100,385!2024-11-28,103,385-->
   - [§ general](../../../../general/Doppler%20effect.md#general)
@@ -623,7 +623,7 @@ The content is in teaching order. Extra information and corrections are included
 
 ## week 6 lecture
 
-- time: 2024-07-23T10:00:00+08:00/2024-07-23T12:30:00+08:00
+- datetime: 2024-07-23T10:00:00+08:00/2024-07-23T12:30:00+08:00
 - [star](../../../../general/star.md) / properties ::: brightness & luminosity, density of the atmosphere, distance, lifetime, mass, radius, surface temperature <!--SR:!2024-12-07,96,332!2025-11-19,388,392-->
 - [apparent magnitude](../../../../general/apparent%20magnitude.md), apparent brightness ::: brightness of the star as seen on Earth, dependant on its luminosity and distance to Earth; for this course, measured of radiant energy that reaches Earth, in W/m<sup>2</sup> <!--SR:!2024-11-22,96,372!2024-12-08,112,392-->
   - [apparent magnitude](../../../../general/apparent%20magnitude.md) / examples ::: Betelgeuse vs Procyon: 2 of the 3 vertices of the "Winter Triangle", and they appear equally bright in our sky even though former's luminosity is about 5000 times that of latter <!--SR:!2025-07-11,265,372!2024-11-09,82,372-->
@@ -720,7 +720,7 @@ The content is in teaching order. Extra information and corrections are included
 
 ## week 6 lecture 2
 
-- time: 2024-07-25T10:00:00+08:00/2024-07-25T12:30:00+08:00
+- datetime: 2024-07-25T10:00:00+08:00/2024-07-25T12:30:00+08:00
 - Where do [stars](../../../../general/star.md) form? ::: They form in interstellar clouds, regions of the interstellar medium that are denser than average. <!--SR:!2025-03-05,177,404!2025-01-04,127,405-->
 - [interstellar cloud](../../../../general/interstellar%20cloud.md)
 - [interstellar medium](../../../../general/interstellar%20medium.md) ::: Mostly empty and transparent space. Can be as dilute as ~0.01 particles/cm<sup>3</sup>. For comparison, Earth's atmosphere has ~10<sup>19</sup> particles/cm<sup>3</sup>, and the best laboratory vacuum on Earth has ~3000 particles/cm<sup>3</sup>. <!--SR:!2025-05-24,236,385!2025-04-26,200,365-->
@@ -868,7 +868,7 @@ The content is in teaching order. Extra information and corrections are included
 
 ## week 7 lecture
 
-- time: 2024-07-30T10:00:00+08:00/2024-07-T12:30:00+08:00
+- datetime: 2024-07-30T10:00:00+08:00/2024-07-T12:30:00+08:00
 - stellar remanent types ::: white dwarf (from low-mass star), neutron star (from high-mass star), black hole (from high-mass star) <!--SR:!2024-11-23,85,387!2024-12-17,109,407-->
   - [stellar evolution § massive stars](../../../../general/stellar%20evolution.md#massive%20stars)
   - [stellar evolution § mid-sized stars](../../../../general/stellar%20evolution.md#mid-sized%20stars)
@@ -965,7 +965,7 @@ The content is in teaching order. Extra information and corrections are included
 
 ## week 7 lecture 2
 
-- time: 2024-08-01T10:00:00+08:00/2024-08-01T12:30:00+08:00
+- datetime: 2024-08-01T10:00:00+08:00/2024-08-01T12:30:00+08:00
 - [Milky Way](../../../../general/Milky%20Way.md) / [galaxy class](../../../../general/galaxy%20morphological%20classification.md)
 - [galactic plane](../../../../general/galactic%20plane.md)
 - Messier M51a ::: [Whirlpool Galaxy](../../../../general/Whirlpool%20Galaxy.md) <!--SR:!2024-12-24,116,407!2025-01-19,127,387-->
@@ -1094,7 +1094,7 @@ The content is in teaching order. Extra information and corrections are included
 > Best, <br/>
 > \[redacted\]
 
-- time: 2024-08-06T10:00:00+08:00/2024-08-06T12:30:00+08:00
+- datetime: 2024-08-06T10:00:00+08:00/2024-08-06T12:30:00+08:00
 - [strip sequence test](strip%20sequence%20test.md): 3.8/4 → 3.8/4
   - statistics
     - mean: 2.48 → 2.48
@@ -1220,7 +1220,7 @@ The content is in teaching order. Extra information and corrections are included
 > Best, <br/>
 > \[redacted\]
 
-- time: 2024-08-08T10:00:00+08:00/2024-08-08T13:00:00+08:00
+- datetime: 2024-08-08T10:00:00+08:00/2024-08-08T13:00:00+08:00
 - [final exam](final%20exam.md): 99/100, scaled to 49.5/50 → 99/100, scaled to 49.5/50
   - statistics
     - mean: 58.84 → 59.62
@@ -1248,7 +1248,7 @@ The content is in teaching order. Extra information and corrections are included
 > Best, <br/>
 > \[redacted\]
 
-- time: 2024-08-11T19:58:34+08:00/2024-08-08T21:35:08+08:00
+- datetime: 2024-08-11T19:58:34+08:00/2024-08-08T21:35:08+08:00
 - properties: Zoom, online, optional, untested
 - not covered in the [final exam](final%20exam.md) (because the final exam has ended already, duh)
   - course parts
@@ -1384,7 +1384,7 @@ The content is in teaching order. Extra information and corrections are included
 > There will be two paper-checking sessions for you to check your strip sequence test and final exam papers.
 >
 > - Date: 15 & 16 Aug
-> - Time: 2:00pm to 3:30pm
+> - datetime: 2:00pm to 3:30pm
 > - Venue: 2504
 >
 > If you want to check your papers, please attend either one of them. You need to show your student ID card to check your papers. You are not allowed to take the papers away or take pictures of them.

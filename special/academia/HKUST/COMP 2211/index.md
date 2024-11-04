@@ -73,7 +73,7 @@ The content is in teaching order.
 
 ## week 1 lecture
 
-- time: 2024-09-04T13:30:00+08:00/2024-09-04T14:50:00+08:00
+- datetime: 2024-09-04T13:30:00+08:00/2024-09-04T14:50:00+08:00
 - course logistics
 - [artificial intelligence](../../../../general/artificial%20intelligence.md) (AI)  
   - artificial intelligence / definition ::: no widely accepted definition <!--SR:!2024-11-20,16,310!2024-11-19,15,310-->
@@ -89,12 +89,12 @@ The content is in teaching order.
 
 ## week 1 lab
 
-- time: 2024-09-05T16:30:00+08:00/2024-09-05T18:20:00+08:00
-- unscheduled, no lab
+- datetime: 2024-09-05T16:30:00+08:00/2024-09-05T18:20:00+08:00
+- status: unscheduled, no lab
 
 ## week 1 lecture 2
 
-- time: 2024-09-06T13:30:00+08:00/2024-09-06T14:50:00+08:00
+- datetime: 2024-09-06T13:30:00+08:00/2024-09-06T14:50:00+08:00
 - online, typhoon signal 8
 - artificial intelligence
   - artificial intelligence / advantages ::: available always, digital assistance, faster decisions, innovation (new inventions), reduction in human errors, repetitive work helping, taking risks instead of humans <!--SR:!2024-11-21,17,310!2024-11-19,15,310-->
@@ -142,7 +142,7 @@ The content is in teaching order.
 
 ## week 2 lecture
 
-- time: 2024-09-11T13:30:00+08:00/2024-09-11T14:50:00+08:00
+- datetime: 2024-09-11T13:30:00+08:00/2024-09-11T14:50:00+08:00
 - Python
   - advanced Python
     - advanced Python / dictionary comprehension ::: `{<key expression>: <value expression> for <element> in <iterable> if <condition>}` <p> `if <condition>` is optional. It produces a `dict` consisting of the key-value pairs after evaluating `<key expression>: <value expression>` on each `<element>` in `<iterable>`. If `<condition>` is present and returns false for an `<element>`, `<key expression>: <value expression>` is not evaluated and not added to the `dict`. <!--SR:!2024-11-20,16,310!2024-11-19,15,310-->
@@ -208,12 +208,12 @@ Circumference: 628.3185307179587
 
 ## week 2 lab
 
-- time: 2024-09-12T16:30:00+08:00/2024-09-12T18:20:00+08:00
-- unscheduled, no lab
+- datetime: 2024-09-12T16:30:00+08:00/2024-09-12T18:20:00+08:00
+- status: unscheduled, no lab
 
 ## week 2 additional lecture
 
-- time: 2024-09-12T19:00:00+08:00/2024-09-12T21:00:00+08:00
+- datetime: 2024-09-12T19:00:00+08:00/2024-09-12T21:00:00+08:00
 - hybrid
 - Python
   - advanced Python
@@ -423,7 +423,7 @@ ID: 23456789
 
 ## week 2 lecture 2
 
-- time: 2024-09-13T13:30:00+08:00/2024-09-13T14:50:00+08:00
+- datetime: 2024-09-13T13:30:00+08:00/2024-09-13T14:50:00+08:00
 - Python
   - Python / importing data ::: Data can come in many forms. We will only teach reading comma-separated values (CSV, `.csv`), which is a common file format for storing tabular data. <!--SR:!2024-11-18,14,292!2024-11-18,14,292-->
     - Python / importing data / `google.colab.drive.mount(<local directory>)` ::: This makes your Google Drive accessible from the directory named `<local directory>`. <!--SR:!2024-11-19,15,310!2024-11-19,15,310-->
@@ -461,7 +461,7 @@ ID: 23456789
   
 ## week 3 additional lecture
 
-- time: 2024-09-16T19:00:00+08:00/2024-09-16T21:00:00+08:00
+- datetime: 2024-09-16T19:00:00+08:00/2024-09-16T21:00:00+08:00
 - hybrid
 - [NumPy](../../../../general/NumPy.md)
   - [NumPy § `numpy.transpose`](../../../NumPy/API%20reference/generated/numpy.transpose.md) ::: `numpy.transpose(a, axes=None)` <p> A view is returned if possible; otherwise, a copy is returned. `np.transpose` is also available as an array instance method, which _additionally_ allows passing a `tuple` of `axes` as separate arguments. <p> If `axes` is specified, it must be a `tuple` or `list` which contains a permutation of [0, 1, ..., N-1] where N is the number of axes of `a`. The i-th axis of the returned array will correspond to the axis numbered `axes[i]` of the input. If not specified (`axes == None`), defaults to `range(a.ndim)[::-1]`, which reverses the order of the axes. This implies `transpose(a).shape == a.shape[::-1]`. <!--SR:!2024-11-18,14,292!2024-11-14,10,272-->
@@ -471,16 +471,16 @@ ID: 23456789
 
 ## week 3 lecture
 
-- time: 2024-09-18T13:30:00+08:00/2024-09-18T14:50:00+08:00
-- public holiday: Day after Mid-Autumn Festival
+- datetime: 2024-09-18T13:30:00+08:00/2024-09-18T14:50:00+08:00
+- status: unscheduled, public holiday: Day after Mid-Autumn Festival
 
 ## week 3 lab
 
-- time: 2024-09-19T16:30:00+08:00/2024-09-19T18:20:00+08:00
+- datetime: 2024-09-19T16:30:00+08:00/2024-09-19T18:20:00+08:00
 
 ## week 3 lecture 2
 
-- time: 2024-09-20T13:30:00+08:00/2024-09-20T14:50:00+08:00
+- datetime: 2024-09-20T13:30:00+08:00/2024-09-20T14:50:00+08:00
 - [NumPy](../../../../general/NumPy.md)
   - NumPy / broadcasting ::: Allows operations between arrays of shapes that differ in a "reasonable" way by replicating the smaller array along the mismatched dimensions. <!--SR:!2024-11-18,14,292!2024-11-19,15,292-->
     - NumPy / broadcasting / rules :::  When operating on two arrays, NumPy compares their shapes element-wise. It _starts with the trailing (i.e. rightmost) dimension and works its way left_ (Not the other way around!). Two dimensions are compatible when _they are equal_, or _one of them is 1_. <p> If these conditions are not met, a `ValueError: operands could not be broadcast together` exception is thrown, indicating that the arrays have incompatible shapes. <p> Input arrays do not need to have the same number of dimensions. The resulting array will have the same number of dimensions as the input array with the greatest number of dimensions, where the size of each dimension is the largest size of the corresponding dimension among the input arrays. Note that missing dimensions are assumed to have size one. <!--SR:!2024-11-19,15,310!2024-11-18,14,292-->
@@ -490,7 +490,7 @@ ID: 23456789
 
 ## week 3 makeup lecture
 
-- time: 2024-09-20T15:00:00+08:00/2024-09-20T16:20:00+08:00 (probably, unsure)
+- datetime: 2024-09-20T15:00:00+08:00/2024-09-20T16:20:00+08:00 (probably, unsure)
 - makeup lecture for public holiday: Day after Mid-Autumn Festival
 - [machine learning](../../../../general/machine%20learning.md) ::: __Machine learning__ is the science and engineering of _getting computers to act without being explicitly programmed_. <p> Common types include supervised learning, unsupervised learning, reinforcement learning (not covered in this course), and more. <!--SR:!2024-11-19,15,292!2024-11-21,17,310-->
 - [supervised learning](../../../../general/supervised%20learning.md) ::: __Supervised learning__ (__SL__) is a paradigm in _machine learning_ where input objects (for example, a vector of predictor variables) and a desired output value (also known as a _human-labeled supervisory signal_) train a model. <p> Training time is usually _shorter_. Accuracy is usually _higher_. Optimal strategy _depends on the data and learning algorithm_. <!--SR:!2024-11-21,17,310!2024-11-18,14,292-->
@@ -507,7 +507,7 @@ ID: 23456789
 
 ## week 4 lecture
 
-- time: 2024-09-25T13:30:00+08:00/2024-09-25T14:50:00+08:00
+- datetime: 2024-09-25T13:30:00+08:00/2024-09-25T14:50:00+08:00
 - [Bayes' theorem](../../../../general/Bayes'%20theorem.md#statement%20of%20the%20theorem)
   - Bayes' theorem / slight generalizations ::: As mentioned before, if there are multiple beliefs/classes, the _law of total probability_ may be used. <p> If we have multiple evidences, we treat the multiple evidences as one evidence. <!--SR:!2024-11-21,17,310!2024-11-19,15,310-->
 - [naive Bayes classifier](../../../../general/naive%20Bayes%20classifier.md) ::: __Naive Bayes classifiers__ are a family of linear "probabilistic classifiers" which assumes that the features are conditionally independent, given the target class. The strength (naivety) of this assumption is what gives the classifier its name. <!--SR:!2024-11-19,15,310!2024-11-21,17,310-->
@@ -518,11 +518,11 @@ ID: 23456789
 
 ## week 4 lab
 
-- time: 2024-09-26T16:30:00+08:00/2024-09-26T18:20:00+08:00
+- datetime: 2024-09-26T16:30:00+08:00/2024-09-26T18:20:00+08:00
 
 ## week 4 lecture 2
 
-- time: 2024-09-27T13:30:00+08:00/2024-09-27T14:50:00+08:00
+- datetime: 2024-09-27T13:30:00+08:00/2024-09-27T14:50:00+08:00
 - [normal distribution](../../../../general/normal%20distribution.md) ::: The __normal distribution__ or __Gaussian distribution__ is important in statistics and is often used in the natural and social sciences to represent real-valued random variables whose distributions are not known. Their importance is partly due to the central limit theorem. It is denoted $\mathcal N(\mu, \sigma^2)$, where $\mu \in \mathbb R$ is the mean and $\sigma^2 \in \mathbb R_{> 0}$ is the variance. <!--SR:!2024-11-18,14,292!2024-11-18,14,292-->
   - normal distribution / probability _density_ function ::: For $X \sim \mathcal N(\mu, \sigma^2) \,,$ $$f(x) = \frac 1 {\sqrt{2\pi \sigma^2} } \exp\left(-\frac {(x - \mu)^2} {2 \sigma^2} \right) \,.$$ <!--SR:!2024-11-19,15,310!2024-11-14,10,272-->
 - [naive Bayes classifier](../../../../general/naive%20Bayes%20classifier.md)
@@ -534,7 +534,7 @@ ID: 23456789
 
 ## week 5 lecture
 
-- time: 2024-10-02T13:30:00+08:00/2024-10-02T14:50:00+08:00
+- datetime: 2024-10-02T13:30:00+08:00/2024-10-02T14:50:00+08:00
 - [_k_-nearest neighbors algorithm](../../../../general/k-nearest%20neighbors%20algorithm.md) ::: ___k_-nearest neighbors algorithm__ is a _lazy_ (generalization of the training data is delayed until a query to the algorithm) learning algorithm. It is also _non-parametric_ as it does not make any assumptions on the data being studied (e.g. the distribution of the data). Note that _k_ is a _hyperparameter_, not a _parameter_. <!--SR:!2024-11-20,16,310!2024-11-19,15,292-->
   - [_k_-nearest neighbors algorithm § algorithm](../../../../general/k-nearest%20neighbors%20algorithm.md#algorithm) ::: Prepare training data and test data. Choose the hyperparameter _k_. Choose a _distance function_. Choose a _tie-breaking_ method. Compute the _k_ nearest _training_ data to the _test_ data. Use the _majority vote_ and then the tie-breaking method, if needed, to classify the test data. <!--SR:!2024-11-21,17,310!2024-11-18,14,292-->
   - _k_-nearest neighbors algorithm / scikit-learn ::: `sklearn.neighbors.KNeighborsClassifier(n_neighbors=<number of nearest neighbors>)` → `fit(training_x, training_y)` → `predict(new_x)` <p> encode labels: `sklearn.preprocessing.LabelEncoder().fit_transform(training_y)` <br/> decode labels: `inverse_transform(predicted_y)` <!--SR:!2024-11-10,7,270!2024-11-16,12,290-->
@@ -547,11 +547,11 @@ ID: 23456789
 
 ## week 5 lab
 
-- time: 2024-10-03T16:30:00+08:00/2024-10-03T18:20:00+08:00
+- datetime: 2024-10-03T16:30:00+08:00/2024-10-03T18:20:00+08:00
 
 ## week 5 lecture 2
 
-- time: 2024-10-04T13:30:00+08:00/2024-10-04T14:50:00+08:00
+- datetime: 2024-10-04T13:30:00+08:00/2024-10-04T14:50:00+08:00
 - Euclidean distance ::: $$d(\mathbf x, \mathbf y) = \sqrt{ \sum_{k = 1}^n (x_k - y_k)^2 }$$ <p> Sometimes, the _squared Euclidean distance_ is used instead if we only care about relative distances, which omits the square root. <!--SR:!2024-11-18,14,292!2024-11-20,16,292-->
 - Manhattan distance ::: $$d(\mathbf x, \mathbf y) = \sum_{k = 1}^n \lvert x_k - y_k \rvert$$ <!--SR:!2024-11-18,14,292!2024-11-19,15,310-->
 - cosine distance ::: $$d(\mathbf x, \mathbf y) = 1 - \frac {\langle \mathbf x, \mathbf y \rangle} {\lVert \mathbf x \rVert_2 \lVert \mathbf y \rVert_2} \,,$$ where $\langle \mathbf x, \mathbf y \rangle$ is the dot product of __x__ and __y__, and $\lVert \mathbf x \rVert_2$ is the length/magnitude (2-norm) of __x__. <p> Ranges from 0 (100% similar, same direction) to 2 (absolutely different, opposite direction). (We disregard complex conjugation here.) <!--SR:!2024-11-19,15,310!2024-11-18,14,292-->
@@ -577,7 +577,7 @@ ID: 23456789
 
 ## week 6 lecture
 
-- time: 2024-10-09T13:30:00+08:00/2024-10-09T14:50:00+08:00
+- datetime: 2024-10-09T13:30:00+08:00/2024-10-09T14:50:00+08:00
 - [cluster analysis](../../../../general/cluster%20analysis.md) ::: __Cluster analysis__ or __clustering__ is the task of grouping a set of objects in such a way that objects in the same group (called a __cluster__) are more similar (in some specific sense defined by the analyst) to each other than to those in other groups (clusters). <!--SR:!2024-11-21,17,310!2024-11-18,14,292-->
   - cluster analysis / motivations ::: finding features useful later for categorization, labeling a large data set may be costly <!--SR:!2024-11-18,14,292!2024-11-19,15,310-->
   - cluster analysis / applications ::: group people of similar body size, organize text documents by their content similarities, segment customers in marketing, segment image into regions (image segmentation) <!--SR:!2024-11-16,12,290!2024-11-20,16,310-->
@@ -588,16 +588,16 @@ ID: 23456789
 
 ## week 6 lab
 
-- time: 2024-10-10T16:30:00+08:00/2024-10-10T18:20:00+08:00
+- datetime: 2024-10-10T16:30:00+08:00/2024-10-10T18:20:00+08:00
 
 ## week 6 lecture 2
 
-- time: 2024-10-11T13:30:00+08:00/2024-10-11T14:50:00+08:00
-- public holiday: Chung Yeung Festival
+- datetime: 2024-10-11T13:30:00+08:00/2024-10-11T14:50:00+08:00
+- status: unscheduled, public holiday: Chung Yeung Festival
 
 ## week 7 lecture
 
-- time: 2024-10-16T13:30:00+08:00/2024-10-16T14:50:00+08:00
+- datetime: 2024-10-16T13:30:00+08:00/2024-10-16T14:50:00+08:00
 - [_k_-means clustering](../../../../general/k-means%20clustering.md)
   - _k_-means clustering / stopping criterion ::: minimum decrease in sum of squared error (SSE), no or minimum change of centroids, no or minimum reassignment of membership <!--SR:!2024-11-19,15,310!2024-11-19,15,310-->
     - sum of squared error (SSE) ::: $$\text{SSE} = \sum_{j = 1}^k \sum_{\mathbf x \in C_j} (\operatorname{distance}(\mathbf m_j, \mathbf x))^2 \,,$$ where $C_j$ are the clusters and $\mathbf m_j$ are the centroids. <!--SR:!2024-11-21,17,310!2024-11-20,16,310-->
@@ -624,7 +624,7 @@ ID: 23456789
 
 ## week 7 makeup lecture
 
-- time: 2024-10-16T15:00:00+08:00/2024-10-16T16:20:00+08:00 (probably, unsure)
+- datetime: 2024-10-16T15:00:00+08:00/2024-10-16T16:20:00+08:00 (probably, unsure)
 - makeup lecture for public holiday: Chung Yeung Festival
 - [neural network](../../../../general/neural%20network%20(machine%20learning).md)
   - [§ artificial neurons](../../../../general/neural%20network%20(machine%20learning).md#artificial%20neurons)
@@ -647,11 +647,11 @@ ID: 23456789
 
 ## week 7 lab
 
-- time: 2024-10-17T16:30:00+08:00/2024-10-17T18:20:00+08:00
+- datetime: 2024-10-17T16:30:00+08:00/2024-10-17T18:20:00+08:00
 
 ## week 7 lecture 2
 
-- time: 2024-10-18T13:30:00+08:00/2024-10-18T14:50:00+08:00
+- datetime: 2024-10-18T13:30:00+08:00/2024-10-18T14:50:00+08:00
 - [perceptron](../../../../general/perceptron.md)
   - perceptron / scikit-learn ::: `sklearn.linear_model.Perceptron(eta0=<learning rate>)` → `fit(training_x, training_y)` → `coef_`, `intercept_`, `predict(new_x)` <!--SR:!2024-11-05,3,283!2024-11-06,4,303-->
   - perceptron / stopping condition ::: We can limit the maximum training time, maximum number of training cycles/epochs, or require minimum accuracy. <!--SR:!2024-11-06,4,303!2024-11-06,4,303-->
@@ -672,7 +672,7 @@ ID: 23456789
 
 ## week 8 lecture
 
-- time: 2024-10-23T13:30:00+08:00/2024-10-23T14:50:00+08:00
+- datetime: 2024-10-23T13:30:00+08:00/2024-10-23T14:50:00+08:00
 - [gradient descent](../../../../general/gradient%20descent.md)
   - gradient descent / intuition ::: Let $f(x)$ be the error function of a perceptron with only a parameter (e.g. weight) given a fixed input. <p> You can graph $f(x)$. You do not know what the $f(x)$ looks like, but you assume it is continuous, differentiable, and has one or more local minima. Your goal is to minimize the error, i.e. $f(x)$ is minimum. <p> Gradient descent is computing its derivative $f'(x)$ to find the error function $f(x)$'s slope. Then you change the perceptron parameter (e.g. weight) $x$ to _go down said slope a bit_ to try to make $f(x)$ smaller, but not too much that you _overshoot_. Repeating this enough times will result a $x$ that is one of the local minima of $f(x)$. <p> This is simplified. In multilayer perceptron, there are many parameters, i.e. weights and biases, so the error function is actually a multivariable function, making it hard or impossible to graph. Also, we cannot know the minima of said error function beforehand, so that is why we use _gradient descent_. <!--SR:!2024-11-06,4,303!2024-11-05,3,283-->
   - gradient descent / multiple local minima ::: Note that the error function can (and often) has multiple local minima. Given different starting points, a different local minima may be reached. <!--SR:!2024-11-06,4,303!2024-11-06,4,303-->
@@ -683,11 +683,11 @@ ID: 23456789
 
 ## week 8 lab
 
-- time: 2024-10-24T16:30:00+08:00/2024-10-24T18:20:00+08:00
+- datetime: 2024-10-24T16:30:00+08:00/2024-10-24T18:20:00+08:00
 
 ## week 8 lecture 2
 
-- time: 2024-10-25T13:30:00+08:00/2024-10-25T14:50:00+08:00
+- datetime: 2024-10-25T13:30:00+08:00/2024-10-25T14:50:00+08:00
 
 ## midterm examination
 

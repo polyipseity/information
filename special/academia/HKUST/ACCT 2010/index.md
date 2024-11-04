@@ -29,7 +29,7 @@ The content is in teaching order.
 
 ## week 1 lecture
 
-- time: 2024-09-03T13:30:00+08:00/2024-09-03T14:50:00+08:00
+- datetime: 2024-09-03T13:30:00+08:00/2024-09-03T14:50:00+08:00
 - course logistics
   - course aims ::: commercial transaction and financial accounting, read and prepare financial statements, assets = liabilities + equity <!--SR:!2025-03-10,135,310!2024-11-27,58,310-->
 - [financial accounting](../../../../general/financial%20accounting.md)
@@ -45,7 +45,7 @@ The content is in teaching order.
 
 ## week 1 lecture 2
 
-- time: 2024-09-05T13:30:00+08:00/2024-09-05T14:50:00+08:00
+- datetime: 2024-09-05T13:30:00+08:00/2024-09-05T14:50:00+08:00
 - format: hybrid (pre-typhoon signal 8)
   - [financial accounting § three components of financial statements](../../../../general/financial%20accounting.md#three%20components%20of%20financial%20statements) (four) ::: income statement, balance sheet, statement of stakeholder's equity, statement of cash flows <!--SR:!2024-11-29,50,297!2025-03-15,133,297-->
     - [financial accounting § statement of financial performance](../../../../general/financial%20accounting.md#statement%20of%20financial%20performance) ::: Indicates financial performance (profit and loss) for the reporting period, usually 12 months. <!--SR:!2024-12-11,62,317!2024-12-30,74,317-->
@@ -60,7 +60,7 @@ The content is in teaching order.
 
 ## week 2 lecture
 
-- time: 2024-09-10T13:30:00+08:00/2024-09-10T14:50:00+08:00
+- datetime: 2024-09-10T13:30:00+08:00/2024-09-10T14:50:00+08:00
 - [management accounting](../../../../general/management%20accounting.md)
   - [management accounting](../../../../general/management%20accounting.md) / objectives ::: internal reporting <!--SR:!2024-12-08,59,317!2024-12-06,59,317-->
   - [management accounting](../../../../general/management%20accounting.md) / users ::: managers <!--SR:!2024-12-30,74,317!2024-12-13,64,317-->
@@ -70,7 +70,7 @@ The content is in teaching order.
 
 ## week 2 lecture 2
 
-- time: 2024-09-12T13:30:00+08:00/2024-09-12T14:50:00+08:00
+- datetime: 2024-09-12T13:30:00+08:00/2024-09-12T14:50:00+08:00
 - [financial accounting](../../../../general/financial%20accounting.md)
   - [financial accounting § principles](../../../../general/financial%20accounting.md#principles) ::: relevant and timely information, faithful representation, separate entity, time period, going concern, stable monetary unit, mixed-attribute measurement <!--SR:!2024-12-05,56,277!2025-02-09,99,297-->
   - [financial accounting](../../../../general/financial%20accounting.md) / relevant and timely information ::: Record only information that affects decision, and before a decision that is relevant to said information is to be made. <!--SR:!2024-12-30,74,317!2024-12-01,52,297-->
@@ -107,7 +107,7 @@ The content is in teaching order.
 
 ## week 3 lecture
 
-- time: 2024-09-17T13:30:00+08:00/2024-09-17T14:50:00+08:00
+- datetime: 2024-09-17T13:30:00+08:00/2024-09-17T14:50:00+08:00
 - [financial transaction](../../../../general/financial%20transaction.md)
   - [accounting equation](../../../../general/accounting%20equation.md) ::: assets (A) = liabilities (L) + stockholders' equity (SE) <!--SR:!2024-12-30,74,317!2024-12-08,59,317-->
   - [financial transaction](../../../../general/financial%20transaction.md) / principles ::: Each transaction affects _at least_ two accounts. The account names and change direction (debit or credit) are identified. Ensure that the account equation holds after a transaction. <!--SR:!2024-12-30,74,317!2024-11-05,33,297-->
@@ -138,7 +138,7 @@ The content is in teaching order.
 
 ## week 3 lecture 2
 
-- time: 2024-09-19T13:30:00+08:00/2024-09-19T14:50:00+08:00
+- datetime: 2024-09-19T13:30:00+08:00/2024-09-19T14:50:00+08:00
 - [financial statement analysis](../../../../general/financial%20statement%20analysis.md) ::: analyzing a company's financial statements to make better economic decisions, commonly using financial ratios <!--SR:!2025-01-06,81,334!2024-11-13,41,314-->
   - [§ financial statement analysis](../../../../general/financial%20statement%20analysis.md#financial%20statement%20analysis)
   - [§ financial ratio analysis](../../../../general/financial%20statement%20analysis.md#financial%20ratio%20analysis) ::: ratios that show the relationship between two financial variables <!--SR:!2025-01-05,80,334!2024-11-17,40,314-->

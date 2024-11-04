@@ -37,12 +37,12 @@ The content is in teaching order.
 
 ## week 1 tutorial
 
-- time: 2024-09-05T10:30:00+08:00/2024-09-05T12:20:00+08:00
-- unscheduled
+- datetime: 2024-09-05T10:30:00+08:00/2024-09-05T12:20:00+08:00
+- status: unscheduled
 
 ## week 2 tutorial
 
-- time: 2024-09-12T10:30:00+08:00/2024-09-12T12:20:00+08:00
+- datetime: 2024-09-12T10:30:00+08:00/2024-09-12T12:20:00+08:00
 - course logistics
 - topic: What is Success?: Define your workview and worldview
 - 4 typical kinds of thinking ::: business thinking (optimize), design thinking (build), engineering thinking (solve), research thinking (analyze) <!--SR:!2024-11-30,53,310!2024-12-11,62,310-->
@@ -61,7 +61,7 @@ The content is in teaching order.
 
 ## week 3 tutorial
 
-- time: 2024-09-19T10:30:00+08:00/2024-09-19T12:20:00+08:00
+- datetime: 2024-09-19T10:30:00+08:00/2024-09-19T12:20:00+08:00
 - work motivations ::: autonomy, mastery, purpose <!--SR:!2025-01-03,77,332!2025-01-03,77,332-->
 - relationship between workview & worldview ::: If they integrate with each other, great! If they do not, then you may find jobs unfulfilling and want to quit it. <!--SR:!2025-01-03,77,332!2025-01-03,77,332-->
 - course framework ::: design thinking, meaning-making, discovery & support <!--SR:!2024-11-19,40,312!2025-01-03,77,332-->
@@ -78,7 +78,7 @@ The content is in teaching order.
 
 ## week 4 tutorial
 
-- time: 2024-09-26T10:30:00+08:00/2024-09-26T12:20:00+08:00
+- datetime: 2024-09-26T10:30:00+08:00/2024-09-26T12:20:00+08:00
 - positive psychology ::: happiness, well-being, etc. <!--SR:!2024-11-05,19,337!2024-11-05,19,337-->
 - PERMA ::: a portfolio approach to well-being: positive emotion, engagement (& motivation), relationships, meaning & purposes, accomplishment <!--SR:!2024-11-05,19,337!2024-11-05,19,337-->
   - PERMA element properties ::: contributes to well-being, being pursued for their own sakes, independent of other elements <!--SR:!2024-11-05,19,337!2024-11-05,19,337-->
@@ -96,7 +96,7 @@ The content is in teaching order.
 
 ## week 5 tutorial
 
-- time: 2024-10-03T10:30:00+08:00/2024-10-03T12:20:00+08:00
+- datetime: 2024-10-03T10:30:00+08:00/2024-10-03T12:20:00+08:00
 - activity 1: practice ideation through 3 things ::: Person A names a category, and then person B names 3 things that fit into the category. Afterwards, everyone shouts "Three things!". Repeat this to practice ideation and avoid filtering ideas. <!--SR:!2024-11-07,4,342!2024-11-07,4,342-->
 - success ::: What is your definition of __success__? Where does your belief come from? Are some of them dysfunctional? <!--SR:!2024-11-07,4,342!2024-11-07,4,342-->
   - success / dysfunctional belief ::: An example is "You should know where you are going by now." Yet, life stages have lengthened and delayed compared to before... (except for retirement age) <!--SR:!2024-11-07,4,342!2024-11-07,4,342-->
@@ -122,7 +122,7 @@ The content is in teaching order.
 
 ## week 6 tutorial
 
-- time: 2024-10-10T10:30:00+08:00/2024-10-10T12:20:00+08:00
+- datetime: 2024-10-10T10:30:00+08:00/2024-10-10T12:20:00+08:00
 - network practicum
   - format: part 1: instructor interviews guests; part 2: small-talk circle format
   - dress code: business casual
@@ -132,7 +132,7 @@ The content is in teaching order.
 
 ## week 7 tutorial
 
-- time: 2024-10-17T10:30:00+08:00/2024-10-17T12:20:00+08:00
+- datetime: 2024-10-17T10:30:00+08:00/2024-10-17T12:20:00+08:00
 - design thinking
   - design thinking / reframing
     - design thinking / reframing / motivation ::: In design thinking, we put as much emphasis on _problem finding_ as we do on problem solving. What is the point if you are solving the wrong problem? <!--SR:!2024-11-07,4,342!2024-11-07,4,342-->
@@ -152,15 +152,15 @@ The content is in teaching order.
 
 ## week 8 tutorial
 
-- time: 2024-10-24T10:30:00+08:00/2024-10-24T12:20:00+08:00
+- datetime: 2024-10-24T10:30:00+08:00/2024-10-24T12:20:00+08:00
 - activity 1: how many uses ::: Think of as many uses for a paperclip in 3 minutes. Play intense music. <!--SR:!2024-11-08,5,354!2024-11-08,5,354-->
   - activity 1: how many uses / takeaways ::: Did you get stuck? If no, then good! Yes, it is normal. You can improve this by using different _schemas_, collaborating with others, and think in a more relaxed environment (No intense music!). <!--SR:!2024-11-08,5,354!2024-11-08,5,354-->
 - activity 2: how many uses, better ::: Share with other people on your uses of a paperclip. Then, think of as many uses for a paperclip in 3 minutes again. Play relaxing music. <!--SR:!2024-11-08,5,354!2024-11-08,5,354-->
   - activity 2: how many uses, better / takeaways ::: Making use of different schemas, radical collaboration with others, and a relaxing environment helps with ideation and brainstorming. And most importantly, practice more! <!--SR:!2024-11-08,5,354!2024-11-08,5,354-->
-- activity 3: Are you creative? ::: Draw a portrait of the person next to you quickly. Then share it with them. <p> Next, draw 3 things, each in 10 seconds: baby, door, house, and innovation. Finally, share with others. <!--SR:!2024-11-08,5,354!2024-11-08,5,354-->
+- activity 3: Are you creative? ::: Draw a portrait of the person next to you quickly. Then share it with them. <p> Next, draw 4 things, each in 10 seconds: baby, door, house, and innovation. Finally, share, compare, and discuss with others. <!--SR:!2024-11-08,5,354!2024-11-08,5,354-->
 - design thinking
   - design thinking / creativity ::: __Creativity__ in design thinking is the ability to show _unfinished_ work. It is also the ability to participate in something that _you might not be good at_. <!--SR:!2024-11-08,5,354!2024-11-08,5,354-->
-  - design thinking / mindfulness of process ::: Being aware of where you are in the design thinking process is important, because it informs your approach. Some example questions are: Are you _rushing to a solution_? Are you blocked? Are you energized by certain activities and drained by others? <!--SR:!2024-11-08,5,354!2024-11-08,5,354-->
+  - design thinking / mindfulness of process ::: Being aware of where you are in the design thinking process is important, because it informs your approach. <p> Some example questions are: Are you _rushing to a solution_? Are you blocked? Are you energized by certain activities and drained by others? <!--SR:!2024-11-08,5,354!2024-11-08,5,354-->
   - design thinking / design for someone else ::: What does someone else need? You can _think differently_: "Need" is a verb (generates more opportunities), not a noun (immediate solution). Also, think of _insights_. <!--SR:!2024-11-08,5,354!2024-11-08,5,354-->
 - activity 4: design a wallet for your partner ::: 3 people form a group. 2 people interview the other person and co-design a wallet for them. Repeat this 3 times for each person. <!--SR:!2024-11-08,5,354!2024-11-08,5,354-->
   - activity 4: design a wallet for your partner / takeaways ::: If you are the interviewee, you should walk people through your ideal wallet. <p> If you are the interviewer, take notes, listen to stories, and ask why 5 times (5 times is a guideline). <p> Finally, when brainstorming ideas, build on the ideas of others, defer judgement, encourage wild ideas, and go for volume! <!--SR:!2024-11-08,5,354!2024-11-08,5,354-->
@@ -168,7 +168,7 @@ The content is in teaching order.
 
 ## week 9 tutorial
 
-- time: 2024-10-31T10:30:00+08:00/2024-10-31T12:20:00+08:00
+- datetime: 2024-10-31T10:30:00+08:00/2024-10-31T12:20:00+08:00
 - wild ideas
   - wild ideas / motivation ::: If you do not try to think of "wild ideas", often your ideas ends up "inside the box", respecting your assumptions. Thinking of "wild ideas" can help break your assumptions. <!--SR:!2024-11-08,5,354!2024-11-08,5,354-->
   - wild ideas / brainstorming ::: Frame a good question, ideally starting with "How might I...". Warm up your brain. Brainstorm many ideas using rules, ideally with other people. Select based on criteria. Extract insights (e.g. delightful idea, good idea). <!--SR:!2024-11-08,5,354!2024-11-08,5,354-->
@@ -177,7 +177,7 @@ The content is in teaching order.
   - decision making / elements ::: information, objectives, options <!--SR:!2024-11-08,5,354!2024-11-08,5,354-->
   - decision making / process (bad) ::: gather & create → narrow down → choose → _agonize_ <!--SR:!2024-11-08,5,354!2024-11-08,5,354-->
   - decision making / process ::: gather & create → narrow down → choose → _let go & move on_ <p> Consequences of choices cannot influence choice itself. (Try to _really_ understand this seemingly-wrong sentence...) <!--SR:!2024-11-08,5,354!2024-11-08,5,354-->
-  - decision making / gather & create ::: Try to gather more choices beyond the binary! <p> _Luck_ is about being open to more than just the task at hand. Anxiety disrupts people's ability to notice the unexpected. Those who call themselves lucky actively sought opportunities to meet new people and have new experiences. (Richard Wiseman, The Luck Factor) <!--SR:!2024-11-08,5,354!2024-11-08,5,354-->
+  - decision making / gather & create ::: Try to gather more choices beyond the binary! <p> _Luck_ is about being open to more than just the task at hand. Anxiety disrupts people's ability to notice the unexpected. Those who call themselves lucky actively sought opportunities to meet new people and have new experiences. (Richard Wiseman, _The Luck Factor_) <!--SR:!2024-11-08,5,354!2024-11-08,5,354-->
   - decision making / narrow down ::: You need to narrow down your choices to avoid choice overload. <!--SR:!2024-11-08,5,354!2024-11-08,5,354-->
     - decision making / narrow down / matrix ::: Instead of listing the pros and cons of each choice, create a matrix. The column headers are the choices while the row headers are the objectives. Then assess each choice for each objective, ideally using emotional symbols (e.g. smiley face, neutral face, sad face). Use the matrix to remove the worst choices. <!--SR:!2024-11-08,5,354!2024-11-08,5,354-->
 - design thinking
@@ -189,6 +189,6 @@ The content is in teaching order.
     - design thinking / discernment / indicator ::: body sign, collective confirmation, epiphany (aha), insight, internal affect, recognition, simultaneity <!--SR:!2024-11-08,5,354!2024-11-08,5,354-->
     - design thinking / discernment / development ::: There are many ways to develop your ways of knowing. Some examples include exercise, letter from the future, meditation, music, reflection, journaling, yoga, etc. <!--SR:!2024-11-08,5,354!2024-11-08,5,354-->
 - decision making
-  - decision making / choose ::: When choosing, self-awareness is very important. Try to be aware of how others have influenced your choice and whether such influences are good. Examples include: You should work in a certain occupation. <!--SR:!2024-11-08,5,354!2024-11-08,5,354-->
+  - decision making / choose ::: When choosing, self-awareness is very important. Try to be aware of how others have influenced your choice and whether such influences are good. Examples of influence include: You are told that you should work in a certain occupation. <!--SR:!2024-11-08,5,354!2024-11-08,5,354-->
   - decision making / let go & move on ::: After making a choice, treat it as irreversible. Try to enter a "cycle of non-regret". <p> It turns out your brain will "synthesize" happiness for an irreversible choice, kinda like "wanting what you get", not "getting what you want". Keeping your choice open inhibits the above, and may make you worse since you will have lower happiness and poorer performance. <!--SR:!2024-11-08,5,354!2024-11-08,5,354-->
     - decision making / let go & move on / quotes ::: Quality of the decision does not equal quality of the outcome. (You cannot fully control the outcome for most things.) <p> Consequences of choices cannot influence choice itself. (Try to _really_ understand this seemingly-wrong sentence again...) <!--SR:!2024-11-08,5,354!2024-11-08,5,354-->

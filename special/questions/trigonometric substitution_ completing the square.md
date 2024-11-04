@@ -10,7 +10,7 @@ tags:
 
 # trigonometric substitution: completing the square
 
-- time: 2024-07-01T16:09:53.702+08:00
+- datetime: 2024-07-01T16:09:53.702+08:00
 
 Evaluate $$\int \! x \sqrt{4x^2 - 40x + 92} \,\mathrm{d}x$$.
 

@@ -10,7 +10,7 @@ tags:
 
 # maximal coprime subset problem
 
-- time: 2024-02-23T14:58:06.312+08:00
+- datetime: 2024-02-23T14:58:06.312+08:00
 
 For a given $n \ge 1$, from the set of integers from 1 to $n$, find the subset such that all its elements are coprime and the sum of the elements are as large as possible.
 

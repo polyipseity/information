@@ -23,7 +23,7 @@ The content is in teaching order.
 
 ## week 1 lecture
 
-- time: 2024-02-02T18:00:00+08:00/2024-02-02T22:00:00+08:00
+- datetime: 2024-02-02T18:00:00+08:00/2024-02-02T22:00:00+08:00
 - [information](information.md)
   - [§ logistics](information.md#logistics)
   - [§ assessment](information.md#assessment)
@@ -31,12 +31,12 @@ The content is in teaching order.
 
 ## week 2 lecture
 
-- time: 2024-02-09T18:00:00+08:00/2024-02-09T22:00:00+08:00
-- public holiday
+- datetime: 2024-02-09T18:00:00+08:00/2024-02-09T22:00:00+08:00
+- status: pre-public holiday break: Chinese New Year's Eve
 
 ## week 3 lecture
 
-- time: 2024-02-16T18:00:00+08:00/2024-02-16T22:00:00+08:00
+- datetime: 2024-02-16T18:00:00+08:00/2024-02-16T22:00:00+08:00
 - [memory safety](../../../../general/memory%20safety.md)
   - [§ types of memory errors](../../../../general/memory%20safety.md#types%20of%20memory%20errors)
 - [heap vulnerability](heap%20vulnerability.md)

@@ -136,7 +136,7 @@ The content is in teaching order.
 ## week 1 tutorial
 
 - datetime: 2024-09-06T09:30:00+08:00/2024-09-06T10:20:00+08:00
-- unscheduled
+- status: unscheduled
 
 ## week 2 lecture 1
 
@@ -229,7 +229,7 @@ The content is in teaching order.
 ## week 3 lecture 2
 
 - datetime: 2024-09-18T10:30:00+08:00/2024-09-18T11:50:00+08:00
-- public holiday: Day after Mid-Autumn Festival
+- status: unscheduled, public holiday: Day after Mid-Autumn Festival
 
 ## week 3 tutorial
 
@@ -364,7 +364,7 @@ The content is in teaching order.
 ## week 6 tutorial
 
 - datetime: 2024-10-11T09:30:00+08:00/2024-10-11T10:20:00+08:00
-- public holiday: Chung Yeung Festival
+- status: unscheduled, public holiday: Chung Yeung Festival
 
 ## week 7 lecture
 

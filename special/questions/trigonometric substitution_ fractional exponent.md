@@ -10,7 +10,7 @@ tags:
 
 # trigonometric substitution: fractional exponent
 
-- time: 2024-07-01T16:09:36.245+08:00
+- datetime: 2024-07-01T16:09:36.245+08:00
 
 Evaluate $$\int \! \left( 5x^2 - 5 \right)^{\frac 3 2} \, \mathrm{d}x$$.
 

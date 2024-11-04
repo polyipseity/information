@@ -29,7 +29,7 @@ The content is in teaching order.
 
 ## week 1 lecture
 
-- time: 2024-09-02T10:30:00+08:00/2024-09-02T11:20:00+08:00
+- datetime: 2024-09-02T10:30:00+08:00/2024-09-02T11:20:00+08:00
 - topic: propositional logic
 - course logistics
 - [propositional calculus](../../../../general/propositional%20calculus.md)
@@ -68,7 +68,7 @@ The content is in teaching order.
 
 ## week 1 tutorial
 
-- time: 2024-09-02T18:00:00+08:00/2024-09-02T18:50:00+08:00
+- datetime: 2024-09-02T18:00:00+08:00/2024-09-02T18:50:00+08:00
 - topic: predicate logic, Peano's axioms
 - [propositional calculus](../../../../general/propositional%20calculus.md)
   - [§ list of classically valid argument forms](../../../../general/propositional%20calculus.md#list%20of%20classically%20valid%20argument%20forms)
@@ -109,7 +109,7 @@ The content is in teaching order.
 
 ## week 1 lecture 2
 
-- time: 2024-09-04T09:00:00+08:00/2024-09-04T11:20:00+08:00
+- datetime: 2024-09-04T09:00:00+08:00/2024-09-04T11:20:00+08:00
 - topic: induction, well-ordering, infinite descent
 - [Peano axioms](../../../../general/Peano%20axioms.md)
   - [§ defining arithmetic operations and relations](../../../../general/Peano%20axioms.md#defining%20arithmetic%20operations%20and%20relations)
@@ -136,7 +136,7 @@ The content is in teaching order.
 
 ## week 2 lecture
 
-- time: 2024-09-09T10:30:00+08:00/2024-09-09T11:20:00+08:00
+- datetime: 2024-09-09T10:30:00+08:00/2024-09-09T11:20:00+08:00
 - topic: induction problems, strong induction
 - [mathematical induction](../../../../general/mathematical%20induction.md): even more induction problems, strong induction
   - [§ variants](../../../../general/mathematical%20induction.md#variants)
@@ -157,7 +157,7 @@ The content is in teaching order.
 
 ## week 2 tutorial
 
-- time: 2024-09-09T18:00:00+08:00/2024-09-09T18:50:00+08:00
+- datetime: 2024-09-09T18:00:00+08:00/2024-09-09T18:50:00+08:00
 - topic: solving more induction problems
 - [mathematical induction](../../../../general/mathematical%20induction.md): even more induction problems
 - [questions/2024-09-09/tutorial](questions/2024-09-09%20tutorial.md)
@@ -171,7 +171,7 @@ The content is in teaching order.
 
 ## week 2 lecture 2
 
-- time: 2024-09-11T09:00:00+08:00/2024-09-11T11:20:00+08:00
+- datetime: 2024-09-11T09:00:00+08:00/2024-09-11T11:20:00+08:00
 - topic: counting, permutations, combinations, balls and walls
 - [combinatorial principles](../../../../general/combinatorial%20principles.md) ::: principles commonly used to solve combinatorial problems: rule of sum, rule of product, permutation, combination, ... <!--SR:!2024-11-06,20,353!2024-11-06,20,353-->
   - [§ combinatorial principles](../../../../general/combinatorial%20principles.md#combinatorial%20principles)
@@ -191,7 +191,7 @@ The content is in teaching order.
 
 ## week 3 lecture
 
-- time: 2024-09-16T10:30:00+08:00/2024-09-16T11:20:00+08:00
+- datetime: 2024-09-16T10:30:00+08:00/2024-09-16T11:20:00+08:00
 - topic: solving counting problems
 - [permutation](../../../../general/permutation.md)
 - [combination](../../../../general/combination.md)
@@ -203,7 +203,7 @@ The content is in teaching order.
 
 ## week 3 tutorial
 
-- time: 2024-09-16T18:00:00+08:00/2024-09-16T18:50:00+08:00
+- datetime: 2024-09-16T18:00:00+08:00/2024-09-16T18:50:00+08:00
 - topic: more counting
 - [permutation](../../../../general/permutation.md)
 - [combination](../../../../general/combination.md)
@@ -216,12 +216,12 @@ The content is in teaching order.
 
 ## week 3 lecture 2
 
-- time: 2024-09-18T09:00:00+08:00/2024-09-18T11:20:00+08:00
-- public holiday: Day after Mid-Autumn Festival
+- datetime: 2024-09-18T09:00:00+08:00/2024-09-18T11:20:00+08:00
+- status: unscheduled, public holiday: Day after Mid-Autumn Festival
 
 ## week 3 TA session
 
-- time: 2024-09-20T19:00:00+08:00/2024-09-20T19:50:00+08:00
+- datetime: 2024-09-20T19:00:00+08:00/2024-09-20T19:50:00+08:00
 - topic: solving weekly problem set 1
 - [questions/2024-09-20](questions/2024-09-20.md)
 - [week 1 problem set](questions/week%201%20problem%20set.md)
@@ -230,7 +230,7 @@ The content is in teaching order.
 
 ## week 4 lecture
 
-- time: 2024-09-23T10:30:00+08:00/2024-09-23T11:20:00+08:00
+- datetime: 2024-09-23T10:30:00+08:00/2024-09-23T11:20:00+08:00
 - topic: principle of inclusion and exclusion
 - [inclusion–exclusion principle](../../../../general/inclusion–exclusion%20principle.md)
   - [§ inclusion–exclusion principle](../../../../general/inclusion–exclusion%20principle.md#inclusion–exclusion%20principle)
@@ -246,7 +246,7 @@ The content is in teaching order.
 
 ## week 4 tutorial
 
-- time: 2024-09-23T18:00:00+08:00/2024-09-23T18:50:00+08:00
+- datetime: 2024-09-23T18:00:00+08:00/2024-09-23T18:50:00+08:00
 - topic: generalized principle of inclusion and exclusion
 - [inclusion–exclusion principle](../../../../general/inclusion–exclusion%20principle.md)
   - [§ inclusion–exclusion principle](../../../../general/inclusion–exclusion%20principle.md)
@@ -265,7 +265,7 @@ The content is in teaching order.
 
 ## week 4 lecture 2
 
-- time: 2024-09-25T09:00:00+08:00/2024-09-25T11:20:00+08:00
+- datetime: 2024-09-25T09:00:00+08:00/2024-09-25T11:20:00+08:00
 - topic: pigeonhole principle
 - pigeonhole principle ::: Let _f_ be a mapping from a finite nonempty set _A_ to another nonempty finite set _B_ such that |_A_| > _k_|_B_| for some natural number _k_. Let _f_<sup>-1</sup> be the inverse mapping from _B_ to the power set of _A_. Then there is an element _b_ in _B_ such that |_f_<sup>-1</sup>(_b_)| ≥ _k_ + 1. <!--SR:!2024-11-08,18,357!2024-11-05,15,337-->
   - pigeonhole principle / proof ::: Prove by contradiction. Using the definitions above, assume every element _b_ in _B_ has the property |_f_<sup>-1</sup>(_b_)| < _k_ + 1. Then the maximum cardinality (size) of _A_ is _k_|_B_|. But this contradicts |_A_| > _k_|_B_|. <!--SR:!2024-11-11,21,357!2024-11-08,18,357-->
@@ -285,7 +285,7 @@ The content is in teaching order.
 
 ## week 4 TA session
 
-- time: 2024-09-27T17:00:00+08:00/2024-09-27T17:50:00+08:00
+- datetime: 2024-09-27T17:00:00+08:00/2024-09-27T17:50:00+08:00
 - topic: solving weekly problem set 2
 - [questions/2024-09-27](questions/2024-09-27.md)
 - [week 2 problem set](questions/week%202%20problem%20set.md)
@@ -294,7 +294,7 @@ The content is in teaching order.
 
 ## week 5 lecture
 
-- time: 2024-09-30T10:30:00+08:00/2024-09-30T11:20:00+08:00
+- datetime: 2024-09-30T10:30:00+08:00/2024-09-30T11:20:00+08:00
 - topic: graphs, trees, paths, walks
 - [graph theory](../../../../general/graph%20theory.md)
   - graph theory / graph ::: A __graph__ is denoted $G = (V, E)$, where $V$ is a finite set of __vertices__ and _E_ is a finite set of __edges__. <!--SR:!2024-11-11,21,357!2024-11-08,18,357-->
@@ -335,7 +335,7 @@ The content is in teaching order.
 
 ## week 5 tutorial
 
-- time: 2024-09-30T18:00:00+08:00/2024-09-30T18:50:00+08:00
+- datetime: 2024-09-30T18:00:00+08:00/2024-09-30T18:50:00+08:00
 - topic: more theorems on graphs and trees
 - graph theory
   - graph theory / leaf ::: A __leaf__ is a vertex of degree 1. <!--SR:!2024-11-08,18,357!2024-11-08,18,357-->
@@ -369,7 +369,7 @@ The content is in teaching order.
 
 ## week 5 lecture 2
 
-- time: 2024-10-02T09:00:00+08:00/2024-10-02T11:20:00+08:00
+- datetime: 2024-10-02T09:00:00+08:00/2024-10-02T11:20:00+08:00
 - topic: even more theorems on graphs and trees
 - theorem: even degree, cycle ::: If every vertex has an even degree, the edge set is a disjoint union of cycles. <p> To prove this, we can apply induction on the number of edges. The base cases are 0 and 1 edges. The induction step can be proved by starting from a vertex and show that it eventually ends at the same vertex; remove that cycle and the induction hypothesis can be applied. <!--SR:!2025-01-07,64,357!2025-01-05,62,357-->
 - graph theory
@@ -395,7 +395,7 @@ The content is in teaching order.
 
 ## week 5 TA session
 
-- time: 2024-10-04T17:00:00+08:00/2024-10-04T17:50:00+08:00
+- datetime: 2024-10-04T17:00:00+08:00/2024-10-04T17:50:00+08:00
 - topic: solving weekly problem set 3
 - [questions/2024-10-04](questions/2024-10-04.md)
 - [week 3 problem set](questions/week%203%20problem%20set.md)
@@ -405,7 +405,7 @@ The content is in teaching order.
 
 ## week 6 lecture
 
-- time: 2024-10-07T10:30:00+08:00/2024-10-07T11:20:00+08:00
+- datetime: 2024-10-07T10:30:00+08:00/2024-10-07T11:20:00+08:00
 - topic: minimum spanning trees, directed graphs, DAGs
 - theorem: adding an edge, tree, cycle ::: Adding an edge to a tree creates exactly one cycle. <p> Recall that in a tree, every pair of vertex has an unique path. Adding an edge to any pair of vertex makes this unique path a cycle. <p> However, there is only one cycle created. We note that any cycles created must pass through the new edge, because there were no cycles before we have added the edge. If there were multiple cycles created, then the pair of vertex we have added an edge to would have multiple paths before adding the edge. <!--SR:!2025-01-14,71,357!2025-01-05,62,357-->
 - graph theory
@@ -442,7 +442,7 @@ The content is in teaching order.
 
 ## week 6 tutorial
 
-- time: 2024-10-07T18:00:00+08:00/2024-10-07T18:50:00+08:00
+- datetime: 2024-10-07T18:00:00+08:00/2024-10-07T18:50:00+08:00
 - topic: tree-based algorithms, Huffmman coding
 - graph theory
   - graph theory / independent set ::: An __independent set__ is a set of vertices in a graph, no two of which are adjacent. <!--SR:!2024-11-12,21,369!2024-11-19,27,368-->
@@ -459,7 +459,7 @@ The content is in teaching order.
 
 ## week 6 lecture 2
 
-- time: 2024-10-09T09:00:00+08:00/2024-10-09T11:20:00+08:00
+- datetime: 2024-10-09T09:00:00+08:00/2024-10-09T11:20:00+08:00
 - topic: distance, shortest paths, matchings
 - graph theory
   - graph theory / distance ::: The __distance__ between two vertices (repeats allowed) in a graph is the minimum number of edges in a path connecting the two vertices. <!--SR:!2024-11-12,21,369!2024-11-12,21,369-->
@@ -494,7 +494,7 @@ The content is in teaching order.
 
 ## week 6 TA session
 
-- time: 2024-10-11T19:00:00+08:00/2024-10-11T19:50:00+08:00
+- datetime: 2024-10-11T19:00:00+08:00/2024-10-11T19:50:00+08:00
 - topic: solving weekly problem set 4
 - [questions/2024-10-11](questions/2024-10-11.md)
 - [week 4 problem set](questions/week%204%20problem%20set.md)
@@ -503,7 +503,7 @@ The content is in teaching order.
 
 ## week 7 lecture
 
-- time: 2024-10-14T10:30:00+08:00/2024-10-14T11:20:00+08:00
+- datetime: 2024-10-14T10:30:00+08:00/2024-10-14T11:20:00+08:00
 - topic: matchings, vertex covers, edge covers, independent sets
 - theorem: bipartite graph, matching ::: In an bipartite of a graph into _X_ and _Y_, where |_X_| ≤ |_Y_|, there is a matching saturating _X_ iff for every subset of _X_, the number of its neighbors (which must all be in _Y_) is at least the size of the subset. <p> Proving the number of its neighbors is at least the size of the subset is trivial. The converse is much harder. <p> To prove the converse, we use contradiction. Suppose there is a _maximum_ matching _M_ that does not saturate _X_. Take any element _x_ in _X_ not covered by _M_ and produce a subset {_x_}. Since {_x_} must have at least one neighbor as a subset of _X_, it must connect to an element _y_ in _Y_. But the element _y_ must be covered by _M_, or otherwise the matching is not maximum. Then consider the element _y_. It is in _M_, so there is another element in _X_ that is not _x_ that connects to _y_. Add that element to the subset. Now the minimum number of neighbors is 2. So there must be another edge to connect to an new element in _Y_. The edge either connects _x_ to an element in _Y_ that is in _M_, or connects elements that are not _x_ to any element in _Y_ but not already connected by any edge. In both case, the above argument can be repeated again and again. If at any point, an element in _Y_ that is not in _M_ is connected, the matching can be shifted, then _x_ can finally match with _y_, producing a larger matching. This must eventually happen because we will run out of elements of _Y_ that are in _M_ before running out of elements of _X_, because _M_ does not saturate _X_. <!--SR:!2024-11-19,27,368!2024-11-28,28,329-->
   - theorem: bipartite graph, perfect matching / corollary: _k_-regular bipartite graph ::: Let _G_ be a _k_-regular bipartite graph _k_ ≥ 1. _G_ has a perfect matching. <p> To prove this, consider an arbitrary subset _S_ of one of the partition, and consider the number of edges between _S_ and _N_(_S_) to show that _S_ ≤ |_N_(_S_)|. Finally, apply the theorem. <!--SR:!2024-11-05,14,347!2024-12-15,45,349-->
@@ -515,12 +515,12 @@ The content is in teaching order.
 
 ## week 7 tutorial
 
-- time: 2024-10-14T18:00:00+08:00/2024-10-14T18:50:00+08:00
+- datetime: 2024-10-14T18:00:00+08:00/2024-10-14T18:50:00+08:00
 - [questions/2024-10-14/tutorial](questions/2024-10-14%20tutorial.md)
 
 ## week 7 lecture 2
 
-- time: 2024-10-16T09:00:00+08:00/2024-10-16T11:20:00+08:00
+- datetime: 2024-10-16T09:00:00+08:00/2024-10-16T11:20:00+08:00
 - [questions/2024-10-16](questions/2024-10-16.md)
 - [week 7 problem set](questions/week%207%20problem%20set.md)
 

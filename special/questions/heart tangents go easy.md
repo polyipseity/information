@@ -10,7 +10,7 @@ tags:
 
 # heart tangents go easy
 
-- time: 2023-12-06T12:44:34.336+08:00
+- datetime: 2023-12-06T12:44:34.336+08:00
 
 Consider the curve $\left(x^2+y^2-1\right)^3=x^2y^3$. Find the equation of the tangent line(s) to the curve at the point where the curve intersects the $y$-axis.
 

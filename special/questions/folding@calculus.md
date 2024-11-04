@@ -10,7 +10,7 @@ tags:
 
 # folding@calculus
 
-- time: 2023-11-08T11:23:22.634+08:00
+- datetime: 2023-11-08T11:23:22.634+08:00
 
 ![figure](attachments/2023-11-08T112322.634+0800.png)
 

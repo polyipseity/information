@@ -202,6 +202,72 @@ tags:
 > - solution: {{2}}
 > - explanation: {{Note that 100 cars is the marginal (opportunity) cost of an airplane. Thus, simply check if the change in airplane multiplied by -100 equals the change in cars.}} <!--SR:!2024-12-24,68,310!2024-12-28,72,310-->
 
+### chapter 4 lecture
+
+> Q1. What can the model of demand and supply tell us?
+>
+> 1. before getting to equilibrium, the "path" of price changes
+> 2. the equilibrium price and quantity
+> 3. how long it take to reach the equilibrium
+> 4. none of the above
+>
+> - solution: {{2}}
+
+<!-- markdownlint MD028 -->
+
+> Q2. If equilibrium quantity of A increases, but equilibrium price remains the same, which of the following is correct?
+>
+> 1. demand for A decreases
+> 2. supply for A increases
+> 3. both demand and supply for A increases
+> 4. demand increases and supply decreases
+>
+> - solution: {{3}}
+> - explanation: {{If demand increase, both equilibrium quantity and price increase. If supply increase, equilibrium quantity increase but equilibrium price decreases. If both happens at the same time at the right extents, then we can make it such that equilibrium quantity increase but equilibrium price remains unchanged.}}
+
+<!-- markdownlint MD028 -->
+
+> Q3. Consider the demand curve for music downloads. Consider the change in the curve under the following scenarios:
+>
+> 1. The price of iPods/MP3 players falls.
+> 2. The price of music downloads falls.
+> 3. The price of CDs falls.
+>
+> - solution: {{For 1, the demand curve moves to the right, as music downloads and iPods/MP3 players are complements. For 2, the demand curve does not change, only the quantity demanded increases under the _law of demand_. For 3, the demand curve moves to the left, as music downloads and CDs are substitutes.}}
+
+<!-- markdownlint MD028 -->
+
+> Q4. Consider the supply curve for tax return preparation software. Consider the change in the curve under the following scenarios:
+>
+> 1. Retailers cut the price of the software.
+> 2. A technological advance allows the software. to be produced at lower cost.
+> 3. Professional tax return preparers raise the price of the services they provide.
+>
+> - solution: {{For 1, the supply curve does not change, only the quantity supplied decreases under the _law of supply_. For 2, the supply curve moves to the right. For 3, the supply curve does not change, but the demand curve shifts to the left, as tax return preparation software and professional tax return preparers are complements (but not complements _in production_).}}
+
+### chapter 5 lecture
+
+> Q1. If the cross elasticities of demand of good A and B are positive, that means good A and B are:
+>
+> 1. substitutes
+> 2. complements
+> 3. all of the above
+> 4. none of the above
+>
+> - solution: {{1}}
+
+<!-- markdownlint MD028 -->
+
+> Q2. Which of the following is NOT a determinant of the price elasticity of supply?
+>
+> 1. time frame
+> 2. specificity of inputs
+> 3. consumer demand
+> 4. excess capacity
+>
+> - solution: {{3}}
+> - explanation: {{It would only affect the equilibrium price and quantity.}}
+
 ## tutorials
 
 ### waste charging

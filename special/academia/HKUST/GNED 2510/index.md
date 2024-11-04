@@ -33,7 +33,7 @@ The content is in teaching order.
 
 ## week 1 tutorial
 
-- time: 2023-09-06T17:00:00+08:00/2023-09-06T18:50:00+08:00
+- datetime: 2023-09-06T17:00:00+08:00/2023-09-06T18:50:00+08:00
 - topic: Innerview (I): Breaking your Mental Model
 - course logistics
 - SCARF (good) ::: sense of urgency, courage to try, awesomeness, relatedness, fresh perspective <!--SR:!2025-01-03,78,290!2024-12-06,57,310-->
@@ -46,7 +46,7 @@ The content is in teaching order.
 
 ## week 2 tutorial
 
-- time: 2023-09-13T17:00:00+08:00/2023-09-13T18:50:00+08:00
+- datetime: 2023-09-13T17:00:00+08:00/2023-09-13T18:50:00+08:00
 - topic: Innerview (II): Together we redefine Success
 - ideal life
 - powerful self-introduction ::: know yourself, know your passion, know your unique selling points (USP) <!--SR:!2024-12-05,58,310!2024-12-13,64,310-->
@@ -54,13 +54,13 @@ The content is in teaching order.
 
 ## week 3 tutorial
 
-- time: 2023-09-20T17:00:00+08:00/2023-09-20T18:50:00+08:00
+- datetime: 2023-09-20T17:00:00+08:00/2023-09-20T18:50:00+08:00
 - topic: Innerview (III): DISCMap & STRONG Report Debriefing
 - psychometric assessments
 
 ## week 4 tutorial
 
-- time: 2023-09-27T17:00:00+08:00/2023-09-27T18:50:00+08:00
+- datetime: 2023-09-27T17:00:00+08:00/2023-09-27T18:50:00+08:00
 - topic: Portfolio Building (I)
 - skill vs. will
 - job trends ::: AI in recruitment and selection, applicant tracking system <!--SR:!2024-11-12,35,290!2024-12-25,69,310-->
@@ -79,7 +79,7 @@ The content is in teaching order.
 
 ## week 5 tutorial
 
-- time: 2023-10-04T17:00:00+08:00/2023-10-04T18:50:00+08:00
+- datetime: 2023-10-04T17:00:00+08:00/2023-10-04T18:50:00+08:00
 - topic: Portfolio Building (II)
 - [cover letter](../../../cover%20letter.md)
   - cover letter advantage ::: positive impression, include extra information, mention referrer, emphasize your knowledge of the company <!--SR:!2025-03-14,130,290!2024-12-25,69,310-->
@@ -92,7 +92,7 @@ The content is in teaching order.
 
 ## week 6 tutorial
 
-- time: 2023-10-11T17:00:00+08:00/2023-10-11T18:50:00+08:00
+- datetime: 2023-10-11T17:00:00+08:00/2023-10-11T18:50:00+08:00
 - topic: Stress Management and Mindset Shift
 - stress ::: mental or emotional strain or tension <!--SR:!2024-11-14,37,290!2024-12-02,46,290-->
   - stress identification ::: nervous, sweating, tired, trembling, weak, ... <!--SR:!2024-11-11,34,290!2024-11-20,41,290-->
@@ -110,7 +110,7 @@ The content is in teaching order.
 
 ## week 7 tutorial
 
-- time: 2023-10-18T17:00:00+08:00/2023-10-18T18:50:00+08:00
+- datetime: 2023-10-18T17:00:00+08:00/2023-10-18T18:50:00+08:00
 - topic: Career and Employability Skills
 - networking
   - networking advantages ::: know more people, fact checking, tapping into the hidden job market <!--SR:!2024-12-02,46,290!2024-12-05,58,310-->
@@ -136,7 +136,7 @@ The content is in teaching order.
 
 ## week 8 tutorial
 
-- time: 2023-10-25T17:00:00+08:00/2023-10-25T18:50:00+08:00
+- datetime: 2023-10-25T17:00:00+08:00/2023-10-25T18:50:00+08:00
 - topic: Networking Practicum
 - A mini-event where you network while eating and drinking.
 - assignment: networking practicum reflection
@@ -144,7 +144,7 @@ The content is in teaching order.
 
 ## week 9 tutorial
 
-- time: 2023-11-01T17:00:00+08:00/2023-11-01T18:50:00+08:00
+- datetime: 2023-11-01T17:00:00+08:00/2023-11-01T18:50:00+08:00
 - topic: Interview (I): Interview Like a PRO
 - first impressions ::: Interviewers are busy people and likely make generalizations. <!--SR:!2024-12-25,69,310!2024-11-12,35,290-->
 - video interview
@@ -157,7 +157,7 @@ The content is in teaching order.
 
 ## week 10 tutorial
 
-- time: 2023-11-08T17:00:00+08:00/2023-11-08T18:50:00+08:00
+- datetime: 2023-11-08T17:00:00+08:00/2023-11-08T18:50:00+08:00
 - topic: Interview (II): Group Discussion Skills
 - activity: leadership exercise
 - leadership
@@ -169,7 +169,7 @@ The content is in teaching order.
 
 ## week 11 tutorial
 
-- time: 2023-11-15T17:00:00+08:00/2023-11-15T18:50:00+08:00
+- datetime: 2023-11-15T17:00:00+08:00/2023-11-15T18:50:00+08:00
 - topic: Interview (III): Final Drilling of Mock Interview
 - interview goals ::: impress, express, tell stories (STAR-r) <!--SR:!2024-12-25,69,310!2024-12-06,57,310-->
 - STAR-r ::: situation, task, action, result, reflection <!--SR:!2024-11-07,38,290!2024-12-03,56,310-->
@@ -181,7 +181,7 @@ The content is in teaching order.
 
 ## week 12 tutorial
 
-- time: 2023-11-22T17:00:00+08:00/2023-11-22T18:50:00+08:00
+- datetime: 2023-11-22T17:00:00+08:00/2023-11-22T18:50:00+08:00
 - topic: Interview (IV): Mock interview with industry practitioners
 - tags: mandatory
 - portrait taking @ CMZ studio
@@ -189,7 +189,7 @@ The content is in teaching order.
 
 ## week 13 tutorial
 
-- time: 2023-11-29T17:00:00+08:00/2023-11-29T18:50:00+08:00
+- datetime: 2023-11-29T17:00:00+08:00/2023-11-29T18:50:00+08:00
 - topic: Mastering the 1st Day @work
 - thank-you note (after job interview)
 - job offer

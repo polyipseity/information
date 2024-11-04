@@ -11,7 +11,7 @@ tags:
 
 # convergence of series: harmonic mean
 
-- time: 2024-07-01T23:12:08.913+08:00
+- datetime: 2024-07-01T23:12:08.913+08:00
 
 Prove or disprove: If $a_n > 0$ for $n \gg 0$ and $\sum a_n$ diverges, then $\sum \frac 1 {\frac 1 {a_n} + n}$ diverges.
 
