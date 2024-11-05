@@ -219,8 +219,8 @@ tags:
 >
 > 1. demand for A decreases
 > 2. supply for A increases
-> 3. both demand and supply for A increases
-> 4. demand increases and supply decreases
+> 3. both demand and supply for A increase
+> 4. demand for A increases and supply for A decreases
 >
 > - solution: {{3}}
 > - explanation: {{If demand increase, both equilibrium quantity and price increase. If supply increase, equilibrium quantity increase but equilibrium price decreases. If both happens at the same time at the right extents, then we can make it such that equilibrium quantity increase but equilibrium price remains unchanged.}} <!--SR:!2024-11-08,4,316!2024-11-08,4,316-->
@@ -240,7 +240,7 @@ tags:
 > Q4. Consider the supply curve for tax return preparation software. Consider the change in the curve under the following scenarios:
 >
 > 1. Retailers cut the price of the software.
-> 2. A technological advance allows the software. to be produced at lower cost.
+> 2. A technological advance allows the software to be produced at lower cost.
 > 3. Professional tax return preparers raise the price of the services they provide.
 >
 > - solution: {{For 1, the supply curve does not change, only the quantity supplied decreases under the _law of supply_. For 2, the supply curve moves to the right. For 3, the supply curve does not change, but the demand curve shifts to the left, as tax return preparation software and professional tax return preparers are complements (but not complements _in production_).}} <!--SR:!2024-11-08,4,316-->
