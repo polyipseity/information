@@ -92,9 +92,9 @@ simplicity: remove complexity or hassle
 
 - _(begin)_→:::←convenience: ease of spatial and temporal accessibility <!--SR:!2024-12-25,151,259!2024-12-17,166,310-->
 - convenience: ease of spatial and temporal accessibility→:::←environmental friendliness <!--SR:!2025-05-05,242,279!2024-12-07,155,299-->
-- environmental friendliness→:::←fun and image: conveyed feel, look, or attitude <!--SR:!2024-11-29,136,259!2024-11-05,68,239-->
+- environmental friendliness→:::←fun and image: conveyed feel, look, or attitude <!--SR:!2024-11-29,136,259!2025-04-17,163,239-->
 - fun and image: conveyed feel, look, or attitude→:::←productivity: less effort, time, or money <!--SR:!2025-01-18,152,239!2025-01-03,134,239-->
-- productivity: less effort, time, or money→:::←risk reduction: financial, physical, reputational <!--SR:!2024-11-05,114,250!2025-06-23,258,259-->
+- productivity: less effort, time, or money→:::←risk reduction: financial, physical, reputational <!--SR:!2025-08-16,284,250!2025-06-23,258,259-->
 - risk reduction: financial, physical, reputational→:::←simplicity: remove complexity or hassle <!--SR:!2024-11-12,59,210!2024-12-15,147,259-->
 - simplicity: remove complexity or hassle→:::←_(end)_ <!--SR:!2024-12-13,163,310!2025-09-10,337,299-->
 

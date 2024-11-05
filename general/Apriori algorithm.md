@@ -10,7 +10,7 @@ tags:
 
 ## overview
 
-To understand the Apriori algorithm, notice that {{for any database and two item sets _A_ and _B_ where $A \subseteq B$, then $\operatorname{supp}(A) \ge \operatorname{supp}(B)$}}. This is easily seen by considering that {{any transaction that satisfies _B_ contains all the items of _B_, so must also satisfy _A_, as it contains all the items of _A_ as a subset of _B_}}. This is called the {{_downward closure lemma_}}. <!--SR:!2025-12-08,487,310!2024-12-31,232,319!2024-11-05,191,310-->
+To understand the Apriori algorithm, notice that {{for any database and two item sets _A_ and _B_ where $A \subseteq B$, then $\operatorname{supp}(A) \ge \operatorname{supp}(B)$}}. This is easily seen by considering that {{any transaction that satisfies _B_ contains all the items of _B_, so must also satisfy _A_, as it contains all the items of _A_ as a subset of _B_}}. This is called the {{_downward closure lemma_}}. <!--SR:!2025-12-08,487,310!2024-12-31,232,319!2027-02-01,818,330-->
 
 Then the Apriori algorithm uses a {{"bottom up"}} approach. The frequent sets {{start from one item and then are extended one item at a time, called _candidate generation_}}. The generation can cover all possible frequent sets because of the downward closure lemma. Then, {{the candidates are tested against the support threshold and become the new frequent sets that are one item longer than the last generation}}. Repeat this process until {{there are no more candidates}}. The output is {{all frequent sets in all generations}}. <!--SR:!2024-11-20,203,319!2026-10-06,728,330!2025-03-09,282,290!2025-03-01,299,339!2026-07-18,668,330-->
 

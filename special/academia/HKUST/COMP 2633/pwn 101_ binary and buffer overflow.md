@@ -138,7 +138,7 @@ The buffers we are usually interested in exploiting is {{usually on the first th
 
 Buffer overflow, then, is {{simply writing data outside the buffer}}. Assume the buffer is {{on the stack}}. This is likely to {{overwrite data on other unrelated buffers in the stack, corrupting them}}. Usually, this {{results in a program crash}}. However, if we use buffer overflow to {{write data to specific locations outside the buffer with specific values}}, then we can {{manipulate the program to do unintended things}}. In CTFs, {{this is used to find the flag in pwn challenges}}. <!--SR:!2024-11-29,52,310!2024-12-07,60,310!2024-11-27,50,310!2024-12-04,57,310!2024-12-03,56,310!2024-11-28,51,310!2024-12-09,60,310-->
 
-There are many ways to {{manipulate the program using buffer overflow}}, and we will {{talk about only one interesting way related to function calls}}. Recall that calling a function via `call` {{pushes the address to jump to (the next instruction after `call` in the memory) after the function finishes to the stack}}, and that the function returns {{via `ret`, which pops the address that we have pushed before calling the function from the stack and jumps back to it, finishing the function call}}. Using buffer overflow, we can {{write to that location in the stack and change it to any value we want}}. Then, when {{the functions returns via `ret`}}, instead of {{jumping back to the caller, it jumps to an arbitrary location that we can freely specify}}. <!--SR:!2024-12-24,68,310!2024-11-14,37,290!2024-11-05,36,270!2024-11-13,36,290!2024-11-30,53,310!2024-11-29,52,310!2025-01-06,81,329-->
+There are many ways to {{manipulate the program using buffer overflow}}, and we will {{talk about only one interesting way related to function calls}}. Recall that calling a function via `call` {{pushes the address to jump to (the next instruction after `call` in the memory) after the function finishes to the stack}}, and that the function returns {{via `ret`, which pops the address that we have pushed before calling the function from the stack and jumps back to it, finishing the function call}}. Using buffer overflow, we can {{write to that location in the stack and change it to any value we want}}. Then, when {{the functions returns via `ret`}}, instead of {{jumping back to the caller, it jumps to an arbitrary location that we can freely specify}}. <!--SR:!2024-12-24,68,310!2024-11-14,37,290!2025-03-24,139,290!2024-11-13,36,290!2024-11-30,53,310!2024-11-29,52,310!2025-01-06,81,329-->
 
 ### finding buffer overflows
 
@@ -178,7 +178,7 @@ patchelf --set-interpreter 'ld-<version>.so' 'my_elf' # This sets the dynamic lo
 patchelf --set-rpath './' 'my_elf' # This sets the path to be searched for `glibc` to the current directory, so the `libc.so.6` in the current directory will be used isntead of the system one.
 ```
 
-To {{verify `patchelf` has successfully patched the executable}}, run {{`ldd <patched ELF file>`}}. You should see {{`libc.so.6` being linked (`=>`) to the one in the current directory, and `ld-<version>.so` in the current directory replacing (`=>`) the system one}}. For example: <!--SR:!2024-11-16,39,290!2024-11-29,52,310!2024-11-05,33,290-->
+To {{verify `patchelf` has successfully patched the executable}}, run {{`ldd <patched ELF file>`}}. You should see {{`libc.so.6` being linked (`=>`) to the one in the current directory, and `ld-<version>.so` in the current directory replacing (`=>`) the system one}}. For example: <!--SR:!2024-11-16,39,290!2024-11-29,52,310!2025-03-17,132,310-->
 
 ```shell
 $ ldd 'my_elf'

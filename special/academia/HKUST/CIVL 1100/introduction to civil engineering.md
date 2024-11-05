@@ -199,7 +199,7 @@ water and sewage treatment system
 - power plant→:::←reservoir <!--SR:!2025-01-10,164,275!2025-03-20,147,300-->
 - reservoir→:::←sewage treatment <!--SR:!2025-01-24,122,197!2025-03-13,189,261-->
 - sewage treatment→:::←transport <!--SR:!2024-11-09,46,190!2024-12-13,152,301-->
-- transport→:::←water and sewage treatment system <!--SR:!2024-11-05,137,340!2024-11-20,27,130-->
+- transport→:::←water and sewage treatment system <!--SR:!2026-02-13,465,340!2024-11-20,27,130-->
 - water and sewage treatment system→:::←_(end)_ <!--SR:!2025-12-24,482,401!2025-04-10,252,361-->
 
 <!--/pytextgen-->
@@ -593,7 +593,7 @@ nuclear
 - _(begin)_→:::←agricultural <!--SR:!2025-11-19,421,310!2025-12-04,477,392-->
 - agricultural→:::←architectural <!--SR:!2025-01-31,212,357!2025-06-08,311,372-->
 - architectural→:::←biomedical <!--SR:!2026-09-02,667,357!2024-11-25,152,340-->
-- biomedical→:::←ceramic <!--SR:!2024-11-05,133,320!2026-03-07,528,357-->
+- biomedical→:::←ceramic <!--SR:!2026-01-05,426,320!2026-03-07,528,357-->
 - ceramic→:::←chemical <!--SR:!2024-12-15,154,320!2025-10-27,398,335-->
 - chemical→:::←civil <!--SR:!2026-01-19,455,337!2024-12-24,194,357-->
 - civil→:::←computer <!--SR:!2024-11-15,163,354!2024-12-17,189,352-->

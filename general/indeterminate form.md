@@ -79,7 +79,7 @@ return await memorize_map(
 <!--pytextgen generate section="f234"--><!-- The following content is generated at 2024-01-04T20:17:52.183338+08:00. Any edits will be overridden! -->
 
 - $x$::$\sin{x}$, $\arcsin{x}$, $\sinh{x}$, $\tan{x}$, $\arctan{x}$, $\ln(1+x)$, $e^x-1$ <!--SR:!2025-01-09,117,190-->
-- $\frac{x^2}2$::$1-\cos{x}$, $\cosh{x}-1$ <!--SR:!2024-11-05,180,270-->
+- $\frac{x^2}2$::$1-\cos{x}$, $\cosh{x}-1$ <!--SR:!2025-02-04,91,250-->
 - $x\ln{a}$::$a^x-1$ <!--SR:!2025-03-12,139,250-->
 - $ax$::$(1+x)^a-1$ <!--SR:!2026-05-27,594,290-->
 

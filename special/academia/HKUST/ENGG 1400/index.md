@@ -79,18 +79,18 @@ The content is in teaching order.
 ## week 4 tutorial
 
 - datetime: 2024-09-26T10:30:00+08:00/2024-09-26T12:20:00+08:00
-- positive psychology ::: happiness, well-being, etc. <!--SR:!2024-11-05,19,337!2024-11-05,19,337-->
-- PERMA ::: a portfolio approach to well-being: positive emotion, engagement (& motivation), relationships, meaning & purposes, accomplishment <!--SR:!2024-11-05,19,337!2024-11-05,19,337-->
-  - PERMA element properties ::: contributes to well-being, being pursued for their own sakes, independent of other elements <!--SR:!2024-11-05,19,337!2024-11-05,19,337-->
-  - positive emotion ::: hedonic treadmill, happiness returns to its baseline level <!--SR:!2024-11-05,19,337!2024-11-05,19,337-->
-  - engagement (& motivation) ::: They drive you to do the things you want. <!--SR:!2024-11-05,19,337!2024-11-05,19,337-->
-  - relationships ::: According to a Harvard study of adult development, the people who were the most satisfied in their relationships at age 50 were the healthiest at age 80. <!--SR:!2024-11-05,19,337!2024-11-05,19,337-->
-  - meaning & purpose ::: For example, you probably want to have a job or two jobs that makes both meaning and money. <!--SR:!2024-11-05,19,337!2024-11-05,19,337-->
-  - accomplishment ::: Accomplishment could be physical or emotional ones, which are obtained after successfully doing certain things. <!--SR:!2024-11-05,19,337!2024-11-05,19,337-->
-  - PERMA limitations ::: Maybe there are other things that you feel are important to your own well-being but are not included... So feel free to add your own ones. <!--SR:!2024-11-05,19,337!2024-11-05,19,337-->
-- activity 1: PERMA assessment and reflection ::: PERMA assessment, energy engagement map (& flow), incremental changes, sharing with others <!--SR:!2024-11-05,19,337!2024-11-05,19,337-->
+- positive psychology ::: happiness, well-being, etc. <!--SR:!2025-01-30,86,357!2025-02-02,89,357-->
+- PERMA ::: a portfolio approach to well-being: positive emotion, engagement (& motivation), relationships, meaning & purposes, accomplishment <!--SR:!2025-01-31,87,357!2025-01-09,65,337-->
+  - PERMA element properties ::: contributes to well-being, being pursued for their own sakes, independent of other elements <!--SR:!2025-01-05,61,337!2025-02-04,91,357-->
+  - positive emotion ::: hedonic treadmill, happiness returns to its baseline level <!--SR:!2025-02-02,89,357!2025-02-04,91,357-->
+  - engagement (& motivation) ::: They drive you to do the things you want. <!--SR:!2025-01-29,85,357!2025-02-03,90,357-->
+  - relationships ::: According to a Harvard study of adult development, the people who were the most satisfied in their relationships at age 50 were the healthiest at age 80. <!--SR:!2025-02-04,91,357!2025-02-04,91,357-->
+  - meaning & purpose ::: For example, you probably want to have a job or two jobs that makes both meaning and money. <!--SR:!2025-01-07,63,337!2025-02-03,90,357-->
+  - accomplishment ::: Accomplishment could be physical or emotional ones, which are obtained after successfully doing certain things. <!--SR:!2025-02-01,88,357!2025-02-04,91,357-->
+  - PERMA limitations ::: Maybe there are other things that you feel are important to your own well-being but are not included... So feel free to add your own ones. <!--SR:!2025-01-30,86,357!2025-02-01,88,357-->
+- activity 1: PERMA assessment and reflection ::: PERMA assessment, energy engagement map (& flow), incremental changes, sharing with others <!--SR:!2025-02-04,91,357!2025-02-03,90,357-->
 - activity 2: STRONG debriefing
-  - STRONG debriefing / debrief ::: STRONG assess your job interests, NOT your job skills! <!--SR:!2024-11-05,19,337!2024-11-05,19,337-->
+  - STRONG debriefing / debrief ::: STRONG assess your job interests, NOT your job skills! <!--SR:!2025-02-02,89,357!2025-01-29,85,357-->
 - assignments
   - [PERMA assessment and reflection](assignments/PERMA%20assessment%20and%20reflection/submission.md)
 

@@ -39,7 +39,7 @@ Note that the formulas for DFT and IDFT are {{extremely similar}}. Indeed, one c
 
 - see: [general/discrete Fourier transform § linearity](../../general/discrete%20Fourier%20transform.md#linearity)
 
-The DFT is {{a linear transform}}. That is, {{$$\mathcal{F}(\{a x_n + b y_n\})_k= a \mathcal{F}(\{x_n\})_k + b \mathcal{F}(\{y_n\})_k$$ for any complex numbers $a$ and $b$}}. This can be shown {{directly from the definition}}. <!--SR:!2024-11-05,59,326!2024-11-10,60,326!2024-11-19,71,346-->
+The DFT is {{a linear transform}}. That is, {{$$\mathcal{F}(\{a x_n + b y_n\})_k= a \mathcal{F}(\{x_n\})_k + b \mathcal{F}(\{y_n\})_k$$ for any complex numbers $a$ and $b$}}. This can be shown {{directly from the definition}}. <!--SR:!2025-07-30,267,346!2024-11-10,60,326!2024-11-19,71,346-->
 
 ### shift
 
@@ -119,7 +119,7 @@ The effect of {{zero padding a signal in the time domain}} is that {{its corresp
 
 By duality, zero padding a signal in the frequency domain corresponds to {{interpolating the signal in the time domain}}. <!--SR:!2024-11-12,59,333-->
 
-Zero padding can {{make the input size suitable}} for {{[fast Fourier transform](#fast%20Fourier%20transform) (FFT)}}. It can also be used to {{minimize the energy spread (the spread of values into adjacent frequencies in the frequency domain) of the resulting DFT}} for {{a signal made of a combination of sinusoidal waves}}. <!--SR:!2024-11-18,65,353!2024-11-05,52,333!2024-11-11,56,333!2025-04-26,173,333-->
+Zero padding can {{make the input size suitable}} for {{[fast Fourier transform](#fast%20Fourier%20transform) (FFT)}}. It can also be used to {{minimize the energy spread (the spread of values into adjacent frequencies in the frequency domain) of the resulting DFT}} for {{a signal made of a combination of sinusoidal waves}}. <!--SR:!2024-11-18,65,353!2025-07-01,238,353!2024-11-11,56,333!2025-04-26,173,333-->
 
 ## fast Fourier transform
 

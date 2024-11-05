@@ -31,7 +31,7 @@ $p\vee (p\wedge q)\equiv p$$p\wedge (p\vee q)\equiv p$
 
 ### logical equivalences involving conditional statements
 
-- [material implication](material%20implication%20(rule%20of%20inference).md) & primitives ::: $$p\implies q\equiv \neg p\vee q$$ <!--SR:!2024-11-05,40,310!2024-11-16,51,310-->
+- [material implication](material%20implication%20(rule%20of%20inference).md) & primitives ::: $$p\implies q\equiv \neg p\vee q$$ <!--SR:!2025-04-29,175,330!2024-11-16,51,310-->
 - [transposition](contraposition.md) ::: $$p\implies q\equiv \neg q\implies \neg p$$ <!--SR:!2024-11-29,58,310!2024-12-05,66,330-->
 - [material implication](material%20implication%20(rule%20of%20inference).md) & [disjunction](logical%20disjunction.md) ::: $$p\vee q\equiv \neg p\implies q$$ <!--SR:!2024-11-17,52,310!2025-03-08,135,310-->
 - [material implication](material%20implication%20(rule%20of%20inference).md) & [conjunction](logical%20conjunction.md) ::: $$p\wedge q\equiv \neg (p\implies \neg q)$$ <!--SR:!2024-11-10,46,310!2024-11-11,47,310-->

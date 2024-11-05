@@ -21,7 +21,7 @@ Note: The above still applies even if there are less than 2 equations and 1 vari
 ## strategy
 
 - Is the converse, equivalent systems have row equivalent augmented matrices true? ::: Intuitively, this is true... But actually this is false. So intuition does not work well if the question is asking if a general statement is correct. (This happened while designing this question, causing the question to be changed into this weird form.) <!--SR:!2024-11-09,44,290!2025-02-15,114,290-->
-- manipulating augmented matrices ::: Treat augmented matrices as normal matrices, and see what you can do with it... <!--SR:!2025-01-18,92,290!2024-11-05,41,290-->
+- manipulating augmented matrices ::: Treat augmented matrices as normal matrices, and see what you can do with it... <!--SR:!2025-01-18,92,290!2025-04-22,168,310-->
 - proving the row equivalence of two matrices ::: If the (right) nullspaces of two matrices are equal, then their row spaces are equal as they are orthogonal complements of the nullspaces. Then, the matrices are row equivalent, because elementary row operations can generate all other bases in the row space given one basis. <!--SR:!2024-12-04,65,310!2024-12-07,67,310-->
 
 ## solution

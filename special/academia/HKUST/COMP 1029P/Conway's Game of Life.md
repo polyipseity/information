@@ -13,7 +13,7 @@ tags:
 
 ## rules
 
-- life :: Any live cell with 2 or 3 neighbors lives to the next generation. <!--SR:!2024-11-05,197,310-->
+- life :: Any live cell with 2 or 3 neighbors lives to the next generation. <!--SR:!2027-02-28,845,330-->
 - underpopulation :: Any live cell with less than 2 neighbors dies. <!--SR:!2026-06-30,659,330-->
 - overpopulation :: Any live cell with more than 3 neighbors dies. <!--SR:!2024-12-24,250,330-->
 - reproduction :: Any dead cell with exactly 3 neighbors becomes a live cell. <!--SR:!2024-12-11,222,310-->

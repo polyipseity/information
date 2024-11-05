@@ -26,7 +26,7 @@ The content is in teaching order.
 - datetime: 2024-01-31T09:00:00+08:00/2024-01-31T10:30:00+08:00
 - 6 major topics ::: association, clustering, classification, data warehouse, dimension reduction, web database <!--SR:!2025-02-23,224,250!2025-01-13,260,330-->
 - association ::: Finding frequent _patterns_, e.g. frequent items and _item sets_, and _association rules_, e.g. the likelihood of A implying B. <!--SR:!2026-02-11,531,310!2024-11-21,218,330-->
-- clustering ::: Finding all _clusters_, e.g. the clusters of items after graphing them in a 2D graph. <!--SR:!2024-11-05,191,310!2025-02-08,282,330-->
+- clustering ::: Finding all _clusters_, e.g. the clusters of items after graphing them in a 2D graph. <!--SR:!2027-02-01,818,330!2025-02-08,282,330-->
 - classification ::: _Predict_ results given some input data, e.g. decision trees. <!--SR:!2025-11-06,462,310!2025-02-16,286,330-->
 - data warehouse ::: Knowledge database containing _pre-computed_ results from data sources. <!--SR:!2026-11-20,771,330!2026-07-09,660,330-->
 - dimension reduction ::: Reducing _dimensionality_ while minimizing _information loss_. One can visualize this by imagine many data points lying close to a line in a $xy$ graph. Then instead of representing each data point with two numbers, $x$ and $y$, we can represent each data point with one number representing the distance from the origin to the point on the line closest to the original data point. Information loss is the distance between the original point and the point on the line closest to the origin point. <!--SR:!2025-06-27,333,290!2024-11-16,199,310-->

@@ -14,7 +14,7 @@ In [mathematics](mathematics.md), the __intermediate value theorem__ states that
 
 > __intermediate value theorem__
 >
-> {{Given a [real](real%20number.md) closed [interval](interval%20(mathematics).md) $I=[a,b]$ and a [continuous function](continuous%20function.md) $f:I\to\mathbb{R}$, if $y$ satisfies $\min(f(a),f(b))<y<\max(f(a),f(b))$, there exists $x\in(a,b)$ such that $f(x)=y$. More generally, the [image set](image%20of%20a%20function.md) $f(I)$ is a closed [interval](interval%20(mathematics).md) containing (but not necessarily equivalent to) $[\min(f(a),f(b)),\max(f(a),f(b))]$.}} <!--SR:!2024-11-05,218,270-->
+> {{Given a [real](real%20number.md) closed [interval](interval%20(mathematics).md) $I=[a,b]$ and a [continuous function](continuous%20function.md) $f:I\to\mathbb{R}$, if $y$ satisfies $\min(f(a),f(b))<y<\max(f(a),f(b))$, there exists $x\in(a,b)$ such that $f(x)=y$. More generally, the [image set](image%20of%20a%20function.md) $f(I)$ is a closed [interval](interval%20(mathematics).md) containing (but not necessarily equivalent to) $[\min(f(a),f(b)),\max(f(a),f(b))]$.}} <!--SR:!2027-02-05,822,290-->
 
 ## references
 

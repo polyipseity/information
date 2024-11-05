@@ -247,7 +247,7 @@ Hong Kong Harbour Area Treatment Scheme Stage I (HATS)
   - HATS Stage 1 details ::: Stonecutters Island Sewage Treatment Works (SCISTW), sewage tunnel of 23.6 km, upgrade 8 preliminary treatment works (PTWs) <!--SR:!2025-06-09,242,270!2025-02-01,181,310-->
   - HATS Stage 1 geographic coverage ::: collect sewage from Kowloon, Kwai Tsing, Tseung Kwan O, and north-eastern Hong Kong Island to SCISTW <!--SR:!2025-04-15,211,270!2024-12-09,148,310-->
   - HATS Stage 1 coverage in numbers ::: 3.5 million people, 75% from harbour area <!--SR:!2024-11-30,132,290!2025-06-01,248,290-->
-  - HATS Stage 1 capacities ::: current: ~1.4M m<sup>3</sup>/d, max: 1.7M m<sup>3</sup>/d <!--SR:!2024-11-05,114,290!2024-11-17,124,290-->
+  - HATS Stage 1 capacities ::: current: ~1.4M m<sup>3</sup>/d, max: 1.7M m<sup>3</sup>/d <!--SR:!2026-02-07,459,310!2024-11-17,124,290-->
 
 ## page 18
 
@@ -392,7 +392,7 @@ return await memorize_seq(
 - carbon dioxide (CO<sub>2</sub>)→:::←hydroflurocarbons (HFCs) <!--SR:!2025-04-13,185,230!2025-05-06,223,270-->
 - hydroflurocarbons (HFCs)→:::←methane (CH<sub>4</sub>) <!--SR:!2024-12-15,54,250!2025-03-10,166,230-->
 - methane (CH<sub>4</sub>)→:::←nitrous oxide (N<sub>2</sub>O) <!--SR:!2025-06-13,229,250!2024-12-09,134,290-->
-- nitrous oxide (N<sub>2</sub>O)→:::←perflurocarbons (PFCs) <!--SR:!2025-01-25,123,230!2024-11-05,11,130-->
+- nitrous oxide (N<sub>2</sub>O)→:::←perflurocarbons (PFCs) <!--SR:!2025-01-25,123,230!2024-11-19,14,130-->
 - perflurocarbons (PFCs)→:::←sulfur hexafluoride (SF<sub>6</sub>) <!--SR:!2024-12-09,38,250!2025-03-13,187,270-->
 - sulfur hexafluoride (SF<sub>6</sub>)→:::←_(end)_ <!--SR:!2025-02-14,186,310!2025-03-30,222,310-->
 

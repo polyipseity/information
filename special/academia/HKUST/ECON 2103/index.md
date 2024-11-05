@@ -290,7 +290,7 @@ The content is in teaching order.
       - change in demand / factors ::: They are _non-price determinants_ of demand: consumer preferences, expectation about the future, income, number of buyers (e.g. population growth), prices of _related_ goods. <!--SR:!2024-11-08,4,331!2024-11-08,4,346-->
         - change in demand / factors / consumer preferences ::: What consumers prefer. For example, fashion may affect it. <!--SR:!2024-11-08,4,331!2024-11-08,4,331-->
         - change in demand / factors / income ::: What consumers buys respond to their incomes. Examples include normal good, inferior good, etc. <!--SR:!2024-11-08,4,342!2024-11-08,4,342-->
-- types of goods ::: normal good, inferior good, ... (there are some more) <!--SR:!2024-11-05,1,291!2024-11-08,4,339-->
+- types of goods ::: normal good, inferior good, ... (there are some more) <!--SR:!2024-11-09,4,311!2024-11-08,4,339-->
   - [normal good](../../../../general/normal%20good.md) ::: It is a type of a good which experiences an increase in demand due to an increase in income. For you, they are goods that you want more as you have more money. <!--SR:!2024-11-08,4,342!2024-11-08,4,331-->
   - [inferior good](../../../../general/inferior%20good.md) ::: It is goods the demand for which falls with increase in income of the consumer. For you, they are bad goods that you will substitute with better goods as you have more money. <!--SR:!2024-11-08,4,346!2024-11-08,4,342-->
 - related goods ::: complementary good, substitute good, independent good <!--SR:!2024-11-08,4,342!2024-11-08,4,331-->
@@ -312,7 +312,7 @@ The content is in teaching order.
         - change in supply / factors / expectation about the future ::: For example, if suppliers expect the selling price of a good to increase, the supplier may produce more now, stock them, and sell later. <p> Expectation about the future is enough to affect the supply and demand _right now_. So managing expectation is also important. However, it is complicated and hard to analyze. <!--SR:!2024-11-08,4,342!2024-11-08,4,339-->
 - related goods in production ::: complementary good in production, substitute good in production, independent good in production <!--SR:!2024-11-08,4,330!2024-11-08,4,342-->
   - substitute good in production ::: Two goods are substitutes in production if their production rely on the same inputs. Examples: land to grow vegetable or fruit. <!--SR:!2024-11-08,4,331!2024-11-08,4,338-->
-  - complementary good in production ::: Two goods are complements in production if they are produced together (joint products). Examples: gasoline, diesel, kerosene from refining crude oil; beef and leather. <!--SR:!2024-11-05,1,291!2024-11-08,4,346-->
+  - complementary good in production ::: Two goods are complements in production if they are produced together (joint products). Examples: gasoline, diesel, kerosene from refining crude oil; beef and leather. <!--SR:!2024-11-09,4,311!2024-11-08,4,346-->
   - related goods in production ::: The price change of one good affects the supply (curve) of the other good. <!--SR:!2024-11-08,4,342!2024-11-08,4,338-->
 - [questions § chapter 4 lecture](questions.md#chapter%204%20lecture)
 - announcements

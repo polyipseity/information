@@ -33,7 +33,7 @@ The population variance matches {{the variance of the generating probability dis
 
 > [!tip] tips
 >
-> - strategy for proving equivalence between multiple definitions of population variance ::: Expand the squared binomial under the summation sign. Then decompose it into multiple summation signs. Finally replace summation signs with population mean $\mu$ or population standard deviation $\sigma$. <!--SR:!2024-11-05,44,290!2024-11-12,51,298-->
+> - strategy for proving equivalence between multiple definitions of population variance ::: Expand the squared binomial under the summation sign. Then decompose it into multiple summation signs. Finally replace summation signs with population mean $\mu$ or population standard deviation $\sigma$. <!--SR:!2025-05-03,179,310!2024-11-12,51,298-->
 
 ### sample variance
 

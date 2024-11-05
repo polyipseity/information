@@ -79,18 +79,18 @@ for loop_variables in iterable:
   pass # required, otherwise error
 ```
 
-If {{you want to stop a `for` loop early}}, use {{the `break` statement}}. This will {{stop the innermost `for` or `while` loop}}. <!--SR:!2024-11-05,19,331!2024-11-05,19,331!2024-11-05,19,331-->
+If {{you want to stop a `for` loop early}}, use {{the `break` statement}}. This will {{stop the innermost `for` or `while` loop}}. <!--SR:!2025-01-30,86,351!2025-02-02,89,351!2025-02-02,89,351-->
 
 ### while-iteration
 
-In Python, `while` can also perform iteration. A `while` statement consists of {{a condition and a statement block}}: <!--SR:!2024-11-05,19,331-->
+In Python, `while` can also perform iteration. A `while` statement consists of {{a condition and a statement block}}: <!--SR:!2025-02-03,90,351-->
 
 ```Python
 while condition:
   statement_block
 ```
 
-The semantics of `while` is {{that the condition is executed first. If the condition is `true`, the statement block is executed and then we repeat the above process again. If the condition is `false`, the `while` statement ends its execution}}. <!--SR:!2024-11-05,19,331-->
+The semantics of `while` is {{that the condition is executed first. If the condition is `true`, the statement block is executed and then we repeat the above process again. If the condition is `false`, the `while` statement ends its execution}}. <!--SR:!2025-02-02,89,351-->
 
 If {{there are no statements to be executed in a `while`-iteration}}, you {{must still put a properly indented `pass` statement, which does nothing, for that iteration}}. For example: <!--SR:!2024-11-06,20,337!2024-11-06,20,337-->
 
@@ -99,6 +99,6 @@ while condition:
   pass # required, otherwise error
 ```
 
-If {{you want to stop a `while` loop early in the loop}}, use {{the `break` statement}}. This will {{stop the innermost `for` or `while` loop}}. <!--SR:!2024-11-05,19,331!2024-11-05,19,331!2024-11-05,19,331-->
+If {{you want to stop a `while` loop early in the loop}}, use {{the `break` statement}}. This will {{stop the innermost `for` or `while` loop}}. <!--SR:!2025-01-29,85,351!2025-02-01,88,351!2025-02-01,88,351-->
 
-ISOM 2020 note: {{We have only learnt `while True`. ONLY USE `while True` in your exercises, labs, and exams.}} If {{you really need a condition to stop the loop}}, use {{`break` under an `if` statement checking for said condition}}. <!--SR:!2024-11-05,19,331!2024-11-05,19,331!2024-11-05,19,331-->
+ISOM 2020 note: {{We have only learnt `while True`. ONLY USE `while True` in your exercises, labs, and exams.}} If {{you really need a condition to stop the loop}}, use {{`break` under an `if` statement checking for said condition}}. <!--SR:!2025-01-30,86,351!2025-02-03,90,351!2025-01-30,86,351-->

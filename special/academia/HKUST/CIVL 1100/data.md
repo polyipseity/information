@@ -225,7 +225,7 @@ See [Millau Viaduct](../../../../general/Millau%20Viaduct.md).
   - height record ::: as of October 2023, tallest bridge in the world <!--SR:!2026-03-06,500,396!2026-10-10,718,416-->
 - length ::: 2450 m = 204 m + 342 m × 6 + 204 m, longest span: 342 m <!--SR:!2024-11-08,39,296!2026-02-17,488,396-->
 - image ::: ![Millau Viaduct image](../../../../archives/Wikimedia%20Commons/ViaducdeMillau.jpg) <!--SR:!2026-11-14,740,416!2025-10-14,411,396-->
-- opening time ::: 2004-12-16, 09:00 <!--SR:!2024-11-05,19,256!2025-05-30,281,376-->
+- opening time ::: 2004-12-16, 09:00 <!--SR:!2024-12-22,47,256!2025-05-30,281,376-->
 - width ::: 32.05 m <!--SR:!2024-11-12,22,336!2025-08-02,326,376-->
 
 ## Mont Cenis Base Tunnel
