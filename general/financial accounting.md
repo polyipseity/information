@@ -23,12 +23,12 @@ While financial accounting is {{used to prepare accounting information for peopl
 
 {{Financial accounting and financial reporting}} are often used as synonyms. <!--SR:!2024-12-06,66,310-->
 
-1. According to International Financial Reporting Standards: the objective of financial reporting is ... ::: To provide financial information that is useful to existing and potential investors, lenders and other creditors in making decisions about providing resources to the reporting entity.<sup>[\[3\]](#^ref-3)</sup> <!--SR:!2024-11-06,42,290!2025-01-22,87,270-->
+1. According to International Financial Reporting Standards: the objective of financial reporting is ... ::: To provide financial information that is useful to existing and potential investors, lenders and other creditors in making decisions about providing resources to the reporting entity.<sup>[\[3\]](#^ref-3)</sup> <!--SR:!2025-04-26,171,310!2025-01-22,87,270-->
 2. According to the European Accounting Association: ... ::: Capital maintenance is a competing objective of financial reporting.<sup>[\[4\]](#^ref-4)</sup> <!--SR:!2025-02-01,95,270!2025-03-21,139,290-->
 
 Financial accounting is {{the preparation of financial statements that can be consumed by the public and the relevant stakeholders}}. Financial information {{would be useful to users if such qualitative characteristics are present}}. When producing financial statements, the following must be complied with: {{fundamental qualitative characteristics and enhancing qualitative characteristics}}. <!--SR:!2025-03-19,143,310!2024-12-06,66,310!2025-02-07,107,290-->
 
-__Fundamental Qualitative Characteristics__ ::: relevance, faithful representation <!--SR:!2024-11-27,60,310!2024-11-06,41,290-->
+__Fundamental Qualitative Characteristics__ ::: relevance, faithful representation <!--SR:!2024-11-27,60,310!2025-04-20,165,310-->
 
 - __Relevance__ ::: Relevance is the capacity of the financial information to influence the decision of its users. The ingredients of relevance are the predictive value and confirmatory value. Materiality is a sub-quality of relevance. Information is considered material if its omission or misstatement could influence the economic decisions of users taken on the basis of the financial statements. <!--SR:!2025-01-01,76,270!2024-12-24,68,270-->
 - __Faithful Representation__ ::: Faithful representation means that the actual effects of the transactions shall be properly accounted for and reported in the financial statements. The words and numbers must match what really happened in the transaction. The ingredients of faithful representation are completeness, neutrality and free from error. It signifies that the accountants have acted in [good faith](good%20faith.md) during the process of representation. <!--SR:!2025-01-01,76,270!2025-01-02,74,270-->
@@ -114,7 +114,7 @@ Liabilities include {{current liabilities and long-term liabilities}}: <!--SR:!2
 - _current liabilities_ ::: trade accounts payable, dividends payable, employee salaries payable, interest (e.g. on debt) payable <!--SR:!2024-11-29,52,270!2024-12-16,60,270-->
 - _long-term liabilities_ ::: mortgage notes payable, bonds payable <!--SR:!2024-11-27,58,310!2024-11-11,46,290-->
 
-{{Owner's equity, sometimes referred to as net assets}}, is {{represented differently depending on the type of business ownership}}. Business ownership can be in the form of {{a sole proprietorship, partnership, or a [corporation](corporation.md)}}. For {{a corporation}}, the owner's equity portion {{usually shows common stock, and retained earnings (earnings kept in the company)}}. Retained earnings come from {{the retained earnings statement, prepared prior to the balance sheet}}.<sup>[\[8\]](#^ref-8)</sup> <!--SR:!2024-11-09,42,290!2024-11-17,51,290!2024-11-28,59,310!2024-11-18,52,290!2024-11-06,41,290!2024-11-12,47,290-->
+{{Owner's equity, sometimes referred to as net assets}}, is {{represented differently depending on the type of business ownership}}. Business ownership can be in the form of {{a sole proprietorship, partnership, or a [corporation](corporation.md)}}. For {{a corporation}}, the owner's equity portion {{usually shows common stock, and retained earnings (earnings kept in the company)}}. Retained earnings come from {{the retained earnings statement, prepared prior to the balance sheet}}.<sup>[\[8\]](#^ref-8)</sup> <!--SR:!2024-11-09,42,290!2024-11-17,51,290!2024-11-28,59,310!2024-11-18,52,290!2025-04-19,164,310!2024-11-12,47,290-->
 
 #### statement of retained earnings
 
@@ -156,7 +156,7 @@ The {{[accounting equation](accounting%20equation.md) ([Assets](asset.md) = [Lia
 
 {{[Asset](asset.md), [expense](expense.md), and [dividend](dividend.md) accounts}} have {{normal debit balances (i.e., debiting these types of accounts increases them)}}. <!--SR:!2024-12-04,65,310!2025-01-21,90,290-->
 
-{{[Liability](liability%20(financial%20accounting).md), [revenue](revenue.md), and [equity](equity%20(finance).md) accounts}} have {{normal credit balances (i.e., crediting these types of accounts increases them)}}. <!--SR:!2024-11-06,42,290!2024-11-16,50,290-->
+{{[Liability](liability%20(financial%20accounting).md), [revenue](revenue.md), and [equity](equity%20(finance).md) accounts}} have {{normal credit balances (i.e., crediting these types of accounts increases them)}}. <!--SR:!2025-04-27,172,310!2024-11-16,50,290-->
 
 ```text
 0 = Dr Assets                            Cr Owners' Equity                Cr Liabilities  

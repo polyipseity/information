@@ -49,7 +49,7 @@ The content is in teaching order.
   - statistics / definition (inference) ::: the art and science of answering questions and exploring ideas through the processes of gathering data, describing data, and _making inferences_ about a population on the basis of a smaller sample <!--SR:!2025-01-19,101,290!2025-03-12,131,290-->
   - statistics / branches ::: descriptive statistics, inferential statistics <!--SR:!2025-04-18,174,310!2025-05-08,186,310-->
 - [descriptive statistics](../../../../general/descriptive%20statistics.md) ::: data collection, summarization, and presentation <!--SR:!2024-11-10,53,310!2024-11-11,55,310-->
-  - descriptive statistics / methodologies ::: graphical (e.g. box plot, histogram), numerical (e.g. sample mean, sample median, sample quartile, sample variance), tabular (e.g. frequency table) <!--SR:!2025-04-11,166,310!2024-11-06,48,290-->
+  - descriptive statistics / methodologies ::: graphical (e.g. box plot, histogram), numerical (e.g. sample mean, sample median, sample quartile, sample variance), tabular (e.g. frequency table) <!--SR:!2025-04-11,166,310!2025-05-18,193,310-->
   - descriptive statistics / steps ::: collect (e.g. sampling, surveying) → classify (e.g. grouping) → characterize (e.g. sample mean) → present (e.g. box plot, table) <!--SR:!2024-11-11,48,270!2024-12-01,68,310-->
 - [inferential statistics](../../../../general/statistical%20inference.md) ::: statistical procedures that use data from an observed _sample_ to make a conclusion about a _population_ <!--SR:!2025-03-19,147,310!2024-11-23,60,310-->
   - inferential statistics / key terms ::: _population_: a collection of all objects of interest, _sample_: an analyzed part of the _population_; _parameter_: a numerical measure describing a _population_, _statistic_: a numerical measure describing a _sample_ <!--SR:!2024-11-10,54,310!2024-11-10,47,290-->
@@ -106,7 +106,7 @@ The content is in teaching order.
     - inter-quartile range / _R_ ::: use `IQR(...)`, not `iqr` <!--SR:!2024-11-23,60,310!2024-11-30,67,310-->
   - variability / characteristics (common to most or all measures of variability) ::: All measures must be nonnegative. Most measures (exceptions: inter-quartile range, trimmed variants of statistics, ...) are zero [iff](../../../../general/if%20and%20only%20if.md) all data are the same (i.e. no spread). <!--SR:!2024-11-28,65,310!2024-12-02,69,310-->
 - [data presentation](../../../../general/data%20and%20information%20visualization.md) ::: A graphical summary can communicate information better as people prefers to look at them rather than numbers. The method of presentation depends on the data _nature_ and visualization _goals_. <!--SR:!2025-04-09,167,310!2025-02-28,133,290-->
-  - data presentation / quantitative data ::: box plot, frequency table, histogram, line chart, scatter plot, ... <!--SR:!2024-11-06,48,290!2025-02-13,113,290-->
+  - data presentation / quantitative data ::: box plot, frequency table, histogram, line chart, scatter plot, ... <!--SR:!2025-03-27,141,290!2025-02-13,113,290-->
   - data presentation / categorical data ::: bar chart, frequency table, pie chart, ... <!--SR:!2025-04-11,166,310!2025-02-26,121,290-->
   - line chart ::: It visualizes the trend of data over time well. Good for time-series data like stock prices. <!--SR:!2024-11-14,56,310!2024-11-14,56,310-->
     - line chart / reading ::: Start from the x-axis, then to the line, and lastly to the y-axis. <!--SR:!2024-11-16,59,310!2025-06-01,209,330-->
@@ -115,7 +115,7 @@ The content is in teaching order.
     - frequency table (quantitative) / procedure ::: Decide the number of class intervals (usually 5 to 20). Divide the data into that many intervals (usually covering the data range evenly). Adjust the class interval boundaries to avoid overlapping (as endpoints are inclusive). Construct the summary table. <!--SR:!2024-12-06,59,250!2025-04-05,161,310-->
     - frequency table (quantitative) / table headers ::: class interval, class midpoint, frequency, relative frequency, ... <!--SR:!2024-11-20,62,310!2024-12-16,44,250-->
   - histogram ::: A bar chart based on the frequency table. The x-axis labels the class intervals while the y-axis labels the frequency or density (relative frequency). <!--SR:!2024-12-02,69,310!2025-01-06,81,270-->
-    - histogram / _R_ ::: use `hist(...)`, or `histogram(...)` after importing `library(lattice)` (different style) <!--SR:!2024-11-06,50,310!2024-11-06,50,310-->
+    - histogram / _R_ ::: use `hist(...)`, or `histogram(...)` after importing `library(lattice)` (different style) <!--SR:!2025-06-07,213,330!2025-06-10,216,330-->
 - [descriptive statistics](../../../../general/descriptive%20statistics.md)
   - modality ::: It is the number of peaks (local modes) in the probability distribution. If there are no significant peaks, then it is _uniform_. If there are peaks, it may be _unimodal_ (1), _bimodal_ (2), ...; or _multimodal_ (>1) in general for multiple peaks. <!--SR:!2024-12-05,72,310!2024-11-11,55,310-->
     - [unimodaility](../../../../general/unimodality.md)
@@ -143,7 +143,7 @@ The content is in teaching order.
 - datetime: 2024-09-09T10:30:00+08:00/2024-09-09T11:50:00+08:00
 - [data presentation](../../../../general/data%20and%20information%20visualization.md)
   - sample size / _R_ ::: use `length(...)` <!--SR:!2024-11-26,63,310!2024-12-02,69,310-->
-  - first _n_ observations / _R_ ::: use `head(...)` <!--SR:!2024-11-06,50,310!2024-11-15,57,310-->
+  - first _n_ observations / _R_ ::: use `head(...)` <!--SR:!2025-06-11,217,330!2024-11-15,57,310-->
   - scatter plot ::: Plots data that comes as pairs. Good for visualizing relationship between two variables (e.g. regression). <!--SR:!2024-12-04,71,310!2025-01-09,93,290-->
     - scatter plot / _R_ ::: use `plot(...)` <!--SR:!2024-11-17,59,310!2024-11-11,54,310-->
   - frequency table (categorical) ::: Categorical data is already pre-grouped. Then a _summary table_ is drawn based on the categories. This condenses the data and allows for quicker data interpretation. <!--SR:!2024-11-15,58,310!2025-01-06,81,270-->
@@ -166,8 +166,8 @@ The content is in teaching order.
     - probability sampling / systematic sampling ::: A _probabilistic_ method is used to select individuals of a population, such as sampling every third person. <!--SR:!2025-05-06,183,310!2024-12-02,69,310-->
     - probability sampling / stratified sampling ::: Individuals are split into groups based on certain characters. Then simple random sampling is applied on each group. <!--SR:!2024-11-12,55,310!2024-12-16,69,270-->
     - probability sampling / cluster sampling ::: Split the population into clusters and select some of the clusters (cannot select an individual in a cluster without selecting other in the same cluster). <!--SR:!2024-11-08,31,270!2024-11-24,61,310-->
-  - [non-probability sampling](../../../../general/sampling%20(statistics).md#nonprobability%20sampling) ::: It supports weaker statistical inferences from a sample to the population. The advantage is that non-probability sampling may be more convenient in many contexts. <!--SR:!2024-11-15,52,290!2024-11-06,51,290-->
-    - non-probability sampling / examples ::: convenience sampling, purposive sampling, voluntary response sampling, snowball sampling, ... <!--SR:!2024-11-06,43,290!2025-01-06,81,270-->
+  - [non-probability sampling](../../../../general/sampling%20(statistics).md#nonprobability%20sampling) ::: It supports weaker statistical inferences from a sample to the population. The advantage is that non-probability sampling may be more convenient in many contexts. <!--SR:!2024-11-15,52,290!2025-05-30,205,310-->
+    - non-probability sampling / examples ::: convenience sampling, purposive sampling, voluntary response sampling, snowball sampling, ... <!--SR:!2025-03-14,128,290!2025-01-06,81,270-->
     - non-probability sampling / convenience sampling ::: Sampling whoever is most convenient to you, e.g. nearest people. <!--SR:!2024-11-12,49,290!2024-11-07,52,290-->
     - non-probability sampling / voluntary response sampling ::: Individuals in a population are made known of your sample and voluntarily decides to participate or not. <!--SR:!2025-01-15,97,290!2025-03-26,152,310-->
     - non-probability sampling / purposive sampling ::: A _non-probabilistic_ method is used to select individuals in a population. <!--SR:!2025-05-25,202,330!2024-11-11,55,310-->

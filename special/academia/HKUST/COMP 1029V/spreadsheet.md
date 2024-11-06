@@ -20,7 +20,7 @@ tags:
 
 Every cell has a location. Its location is in the format of {{`(column)(row)`, where `(column)` starts from `A` to `Z`, and then `AA` to `ZZ`, and then etc., while `(row)` starts from `1` and increases forever}}. <!--SR:!2026-11-14,758,330-->
 
-Apart from location, cells and ranges can also have {{user-defined names}}. You can see all names in a workbook using {{the name manager}}. <!--SR:!2024-11-06,196,310!2024-12-27,253,330-->
+Apart from location, cells and ranges can also have {{user-defined names}}. You can see all names in a workbook using {{the name manager}}. <!--SR:!2027-02-25,841,330!2024-12-27,253,330-->
 
 ## formula
 

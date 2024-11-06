@@ -84,7 +84,7 @@ The content is in teaching order.
   - [§ public business entities structure](../../../../general/balance%20sheet.md#public%20business%20entities%20structure)
 - [asset](../../../../general/asset.md) ::: any resource, tangible or intangible, that can be used to produce positive economic value; economic resource with probable future benefits <!--SR:!2024-11-29,52,317!2024-11-13,36,297-->
   - [§ asset](../../../../general/asset.md#asset)
-- [liability](../../../../general/liability%20(financial%20accounting).md) ::: value that an entity is expected to deliver in the future to satisfy a present obligation arising from past events; probable future sacrifices of economic resources <!--SR:!2024-11-06,34,297!2025-01-28,89,277-->
+- [liability](../../../../general/liability%20(financial%20accounting).md) ::: value that an entity is expected to deliver in the future to satisfy a present obligation arising from past events; probable future sacrifices of economic resources <!--SR:!2025-03-29,143,317!2025-01-28,89,277-->
   - [§ liability](../../../../general/liability%20(financial%20accounting).md#liability)
 - [equity](../../../../general/equity%20(finance).md) ::: ownership interest in property that may be offset by debts or other liabilities; stockholder's equity: financing provided by owners and business operations <!--SR:!2024-12-07,60,317!2024-11-14,37,297-->
   - [§ equity](../../../../general/equity%20(finance).md#equity)

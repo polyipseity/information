@@ -15,7 +15,7 @@ tags:
 # import ../../tools/utility.py.md
 ```
 
-__Evaporation__ is {{a kind of [vaporization](vaporization.md) that takes place on the surface of a [liquid](liquid.md) changing into [gas](gas.md) below [boiling point](boiling%20point.md)}}. <!--SR:!2024-11-06,417,290-->
+__Evaporation__ is {{a kind of [vaporization](vaporization.md) that takes place on the surface of a [liquid](liquid.md) changing into [gas](gas.md) below [boiling point](boiling%20point.md)}}. <!--SR:!2028-02-28,1209,290-->
 
 ## factors influecing evaporation rate
 

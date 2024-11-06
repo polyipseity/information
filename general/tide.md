@@ -9,7 +9,7 @@ tags:
 
 # tide
 
-__Tides__ are {{the rise and fall of [sea levels](sea%20level.md)}} caused by {{the combined effects of the [gravitational](gravity.md) forces exerted by the [Moon](Moon.md) (and to a much lesser extent, the [Sun](Sun.md)) and are also caused by the [Earth](Earth.md) and [Moon](Moon.md) [orbiting](orbit.md) one another}}. <!--SR:!2025-07-15,271,330!2024-11-06,69,270-->
+__Tides__ are {{the rise and fall of [sea levels](sea%20level.md)}} caused by {{the combined effects of the [gravitational](gravity.md) forces exerted by the [Moon](Moon.md) (and to a much lesser extent, the [Sun](Sun.md)) and are also caused by the [Earth](Earth.md) and [Moon](Moon.md) [orbiting](orbit.md) one another}}. <!--SR:!2025-07-15,271,330!2025-07-24,260,290-->
 
 ## tidal constituents
 
@@ -21,7 +21,7 @@ The semi-diurnal range ({{the difference in height between high and low waters o
 
 Approximately {{twice a month, around [new moon](new%20moon.md) and [full moon](full%20moon.md) when the [Sun](Sun.md), [Moon](Moon.md), and [Earth](Earth.md) form a line (a configuration known as a [syzygy](syzygy%20(astronomy.md).md))}}, the [tidal force](tidal%20force.md) {{due to the Sun reinforces that due to the Moon}}. The tide's range is then {{at its maximum; this is called the __spring tide__ or sometimes __syzygy tides__}}. It is {{not named after the [spring season](spring%20(season).md), but rather, like the season, derives from the meaning "jump, burst forth, rise", as in a natural [spring](spring%20(hydrology).md)}}. <!--SR:!2025-04-01,184,310!2025-05-16,226,330!2025-01-01,116,290!2025-03-23,166,310-->
 
-When {{the [Moon](Moon.md) is at first quarter or third quarter, the [Sun](Sun.md) and [Moon](Moon.md) are separated by 90° when viewed from the [Earth](Earth.md)}}, and {{the weaker solar tidal force partially cancels the Moon's stronger tidal force}}. At these points in the lunar cycle, the tide's range is {{at its minimum; this is called the __neap tide__, __neaps__, or sometimes __quadrature tides__}}. "Neap" is {{an Anglo-Saxon word meaning "without the power", as in forðganges nip (forth-going without-the-power)}}. <!--SR:!2025-03-20,168,310!2025-05-05,218,330!2025-01-09,121,290!2024-11-06,66,270-->
+When {{the [Moon](Moon.md) is at first quarter or third quarter, the [Sun](Sun.md) and [Moon](Moon.md) are separated by 90° when viewed from the [Earth](Earth.md)}}, and {{the weaker solar tidal force partially cancels the Moon's stronger tidal force}}. At these points in the lunar cycle, the tide's range is {{at its minimum; this is called the __neap tide__, __neaps__, or sometimes __quadrature tides__}}. "Neap" is {{an Anglo-Saxon word meaning "without the power", as in forðganges nip (forth-going without-the-power)}}. <!--SR:!2025-03-20,168,310!2025-05-05,218,330!2025-01-09,121,290!2025-05-04,179,270-->
 
 ## physics
 

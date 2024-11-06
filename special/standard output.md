@@ -11,4 +11,4 @@ tags:
 
 ## buffering
 
-The standard output is {{usually [line-buffered](../general/data%20buffer.md), so writing a [newline](../general/newline.md) `\n` is needed to flush it}}. That means while `printf("text\n")` shows `text` immediately, {{`printf("\ntext")` may not and may never will until a `\n` is written}}. <!--SR:!2028-01-25,1214,350!2024-11-06,299,330-->
+The standard output is {{usually [line-buffered](../general/data%20buffer.md), so writing a [newline](../general/newline.md) `\n` is needed to flush it}}. That means while `printf("text\n")` shows `text` immediately, {{`printf("\ntext")` may not and may never will until a `\n` is written}}. <!--SR:!2028-01-25,1214,350!2028-07-27,1359,350-->

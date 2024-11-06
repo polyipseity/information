@@ -92,7 +92,7 @@ An assembly file {{does not solely consists of instructions}}. It also {{contain
 
 - `.data` ::: It contains initialized data, that is, data that we know during assembly. It has read and write permissions. For C, this corresponds to global and static variables that are initialized. <!--SR:!2024-11-26,62,325!2025-04-13,167,310-->
 - `.bss` ::: It contains uninitialized data, that is, a memory space for our program to initialize data on during its execution. It has read and write permissions. For C, this corresponds to global and static variables that are uninitialized. <!--SR:!2024-11-26,63,323!2024-12-15,81,345-->
-- `.text` ::: It contains the code of our program. It has read and execute permissions. For C, this corresponds to functions. <!--SR:!2024-11-06,43,317!2024-11-13,50,310-->
+- `.text` ::: It contains the code of our program. It has read and execute permissions. For C, this corresponds to functions. <!--SR:!2025-05-13,188,337!2024-11-13,50,310-->
 
 A key idea in assembly that {{code and data are treated the same}}. Indeed, data is represented by {{instructions (but should not be executed by our program) as well}}. Some common data instructions include: <!--SR:!2024-12-11,78,337!2024-12-11,78,345-->
 

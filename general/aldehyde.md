@@ -22,7 +22,7 @@ Due to increased [polarizability](polarizability.md), aldehydes have {{[boiling 
 
 ### density
 
-Most aldehydes are {{less [dense](density.md) than [water](water.md)}}. Density {{increases}} with increasing size. <!--SR:!2025-12-27,697,310!2024-11-06,435,310-->
+Most aldehydes are {{less [dense](density.md) than [water](water.md)}}. Density {{increases}} with increasing size. <!--SR:!2025-12-27,697,310!2028-07-17,1349,310-->
 
 ### odor
 

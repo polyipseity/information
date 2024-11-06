@@ -75,7 +75,7 @@ The content is in teaching order.
 - environmental engineering ::: application of engineering and science to improve the natural environment and minimize environmental impact <!--SR:!2025-10-08,398,341!2025-03-22,268,376-->
   - [environmental engineering areas](#environmental%20engineering%20areas)
     - air engineering ::: air pollution control, air quality monitoring, ozone layer protection <!--SR:!2025-11-09,437,355!2025-09-12,410,390-->
-    - waste engineering ::: methods of disposal (e.g. landfills and incineration), site investigation and remediation, solid waste management <!--SR:!2024-11-06,131,295!2025-06-19,318,372-->
+    - waste engineering ::: methods of disposal (e.g. landfills and incineration), site investigation and remediation, solid waste management <!--SR:!2026-04-29,539,315!2025-06-19,318,372-->
     - [water engineering](#water%20engineering)
     - noise engineering ::: noise mitigation measures (e.g. noise barriers), noise monitoring (e.g. construction noise, traffic noise) <!--SR:!2025-10-17,388,327!2025-06-14,328,370-->
     - environmental impact assessment (EIA) ::: a systematic identification and evaluation process to assess the potential impacts of a proposed project so that mitigation measures can be developed <!--SR:!2025-01-06,147,230!2024-12-04,162,332-->
@@ -1098,7 +1098,7 @@ water tower
 - bridge→:::←building <!--SR:!2025-01-24,203,350!2026-01-07,496,400-->
 - building→:::←dam <!--SR:!2025-05-03,277,361!2025-01-17,198,361-->
 - dam→:::←power plant <!--SR:!2024-12-09,92,281!2025-07-27,283,258-->
-- power plant→:::←storage facility <!--SR:!2025-01-30,185,300!2024-11-06,55,314-->
+- power plant→:::←storage facility <!--SR:!2025-01-30,185,300!2025-07-03,239,334-->
 - storage facility→:::←tunnel <!--SR:!2024-12-21,103,280!2025-09-29,392,340-->
 - tunnel→:::←unusual structure <!--SR:!2025-04-13,206,247!2026-04-05,535,340-->
 - unusual structure→:::←water tower <!--SR:!2024-12-19,108,290!2024-11-18,53,270-->

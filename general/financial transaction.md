@@ -27,7 +27,7 @@ Since the start of the 21st century, [online banking](online%20banking.md) has b
 
 ### cash transactions
 
-A cash transaction is {{any transaction where money is exchanged for a good, service, or other commodity}}. Cash transactions can refer to {{items bought with [physical money](cash.md), such as [coins](coin.md) or cash, or with a [debit card](debit%20card.md)}}. These differ from {{credit transactions because the money is immediately taken from the buyer and given to the seller}}.<sup>[\[18\]](#^ref-18)</sup><sup>[\[19\]](#^ref-19)</sup> <!--SR:!2024-12-20,71,310!2024-11-06,37,290!2024-11-21,44,290-->
+A cash transaction is {{any transaction where money is exchanged for a good, service, or other commodity}}. Cash transactions can refer to {{items bought with [physical money](cash.md), such as [coins](coin.md) or cash, or with a [debit card](debit%20card.md)}}. These differ from {{credit transactions because the money is immediately taken from the buyer and given to the seller}}.<sup>[\[18\]](#^ref-18)</sup><sup>[\[19\]](#^ref-19)</sup> <!--SR:!2024-12-20,71,310!2025-04-05,150,310!2024-11-21,44,290-->
 
 ### credit transactions
 
