@@ -205,7 +205,7 @@ return _chain.from_iterable(await _gather(
 
 <!--pytextgen generate section="9cda"--><!-- The following content is generated at 2024-01-30T13:35:46.633801+08:00. Any edits will be overridden! -->
 
-- `++`::increment a numerical variable by 1 <!--SR:!2024-11-07,213,330-->
+- `++`::increment a numerical variable by 1 <!--SR:!2027-07-11,976,350-->
 - `--`::decrement a numerical variable by 1 <!--SR:!2025-03-15,316,330-->
 - `*`::multiplication <!--SR:!2025-03-01,303,330-->
 - `/`::division; if both operands are of integral types, then round-towards-zero division <!--SR:!2025-02-05,100,270-->

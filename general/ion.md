@@ -280,7 +280,7 @@ return chain.from_iterable(await gather(
 - chromium(III) ion:::Cr<sup>3+</sup> <!--SR:!2028-01-18,1745,374!2026-02-20,1123,314-->
 - scandium(III) ion:::Sc<sup>3+</sup> <!--SR:!2030-11-05,2231,402!2024-11-29,480,382-->
 - titanium(III) ion:::Ti<sup>3+</sup> <!--SR:!2030-10-02,2204,402!2024-11-26,477,382-->
-- vanadium(II) ion:::V<sup>2+</sup> <!--SR:!2024-11-07,463,382!2024-12-10,489,382-->
+- vanadium(II) ion:::V<sup>2+</sup> <!--SR:!2031-06-24,2420,402!2024-12-10,489,382-->
 - vanadium(III) ion:::V<sup>3+</sup> <!--SR:!2024-11-10,464,382!2031-05-03,2378,402-->
 - manganese(III) ion:::Mn<sup>3+</sup> <!--SR:!2031-03-23,2346,402!2024-11-27,478,382-->
 
@@ -330,7 +330,7 @@ return chain.from_iterable(await gather(
 - silver ion::colorless <!--SR:!2027-03-01,1295,279-->
 - mercury(I) ion::_(n/a)_ <!--SR:!2028-04-14,1415,296-->
 - ammonium ion::colorless <!--SR:!2026-05-12,1149,339-->
-- magnesium ion::colorless <!--SR:!2024-11-07,660,274-->
+- magnesium ion::colorless <!--SR:!2029-10-22,1810,274-->
 - calcium ion::colorless <!--SR:!2029-05-08,1893,292-->
 - barium ion::colorless <!--SR:!2031-04-27,2407,294-->
 - lead(II) ion::colorless <!--SR:!2024-12-02,597,253-->

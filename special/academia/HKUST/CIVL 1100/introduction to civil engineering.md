@@ -100,7 +100,7 @@ The content is in teaching order.
   - [civil engineer prospect examples](#civil%20engineer%20prospect%20examples)
   - civil engineer organization examples ::: contractors or construction companies, engineering consulting firms, government (working as civil servants) <!--SR:!2025-03-25,247,285!2025-03-18,266,330-->
     - civil government departments in [Hong Kong](../../../../general/Hong%20Kong.md) ::: Architectural Services Department (ArchSD), Buildings Department (BD), Housing Department (HD) <!--SR:!2025-10-27,397,332!2026-01-22,518,395-->
-      - Architectural Services Department (ArchSD) ::: governmental structures, markets, playgrounds, public schools <!--SR:!2024-11-07,154,337!2024-12-06,196,330-->
+      - Architectural Services Department (ArchSD) ::: governmental structures, markets, playgrounds, public schools <!--SR:!2026-10-22,714,357!2024-12-06,196,330-->
       - Buildings Department (BD) ::: illegal structures, private buildings <!--SR:!2025-09-23,388,295!2025-07-11,349,374-->
       - Housing Department (HD) ::: home ownership scheme, public housing <!--SR:!2026-07-04,612,310!2025-02-17,221,354-->
 
@@ -503,7 +503,7 @@ teaming up with others
 - economics→:::←human behaviors <!--SR:!2025-02-04,127,300!2026-01-10,444,340-->
 - human behaviors→:::←management principles <!--SR:!2024-12-25,139,300!2025-07-15,253,260-->
 - management principles→:::←strong communication skills <!--SR:!2025-03-22,222,301!2025-07-08,306,320-->
-- strong communication skills→:::←teaming up with others <!--SR:!2024-11-07,138,340!2025-08-04,345,380-->
+- strong communication skills→:::←teaming up with others <!--SR:!2026-08-16,647,360!2025-08-04,345,380-->
 - teaming up with others→:::←_(end)_ <!--SR:!2025-05-28,321,375!2025-03-17,198,272-->
 
 <!--/pytextgen-->
@@ -597,7 +597,7 @@ nuclear
 - ceramic→:::←chemical <!--SR:!2024-12-15,154,320!2025-10-27,398,335-->
 - chemical→:::←civil <!--SR:!2026-01-19,455,337!2024-12-24,194,357-->
 - civil→:::←computer <!--SR:!2024-11-15,163,354!2024-12-17,189,352-->
-- computer→:::←electrical <!--SR:!2024-11-07,142,327!2025-01-18,142,315-->
+- computer→:::←electrical <!--SR:!2026-08-12,643,347!2025-01-18,142,315-->
 - electrical→:::←industrial <!--SR:!2025-01-30,122,301!2025-04-27,178,250-->
 - industrial→:::←manufacturing <!--SR:!2025-11-26,420,337!2025-08-18,341,332-->
 - manufacturing→:::←mechanical <!--SR:!2025-09-08,380,377!2026-07-28,643,357-->

@@ -91,7 +91,7 @@ and {{$$\left\{ {n \atop 2}\right\}=2^{n-1}-1.$$}} To see this, first note that 
 {{The Stirling numbers of the second kind}} are given by the explicit formula: {{$$\left\{ {n \atop k}\right\}={\frac {1}{k!} }\sum _{j=0}^{k}(-1)^{k-j}{k \choose j}j^{n}=\sum _{j=0}^{k}{\frac {(-1)^{k-j}j^{n} }{(k-j)!j!} }.$$}}
 This can be derived by {{using [inclusion-exclusion](inclusion–exclusion%20principle.md) to count the surjections from _n_ to _k_ and using the fact that the number of such surjections is $k!\left\{ {n \atop k}\right\}$}}. <!--SR:!2024-11-19,17,290!2024-11-10,10,250!2024-11-19,17,290-->
 
-Additionally, this formula is {{a special case of the _k_-th [forward difference](finite%20difference.md) of the [monomial](monomial.md) $x^{n}$ evaluated at _x_ = 0}}: {{$$\Delta ^{k}x^{n}=\sum _{j=0}^{k}(-1)^{k-j}{k \choose j}(x+j)^{n}.$$}} Because {{the [Bernoulli polynomials](Bernoulli%20polynomials.md) may be written in terms of these forward differences}}, one {{immediately obtains a relation in the [Bernoulli numbers](bernoulli%20number.md)}}: {{$$B_{m}(0) = \sum_{k = 0}^m \frac {(-1)^k} {k + 1} \left.\left(\Delta^k x^m\right)\right|_{x = 0} = \sum _{k=0}^{m}{\frac {(-1)^{k}k!}{k+1} }\left\{ {m \atop k}\right\}.$$}} <!--SR:!2024-11-14,13,270!2024-11-09,8,250!2024-11-19,17,290!2024-11-15,13,270!2024-11-07,6,230-->
+Additionally, this formula is {{a special case of the _k_-th [forward difference](finite%20difference.md) of the [monomial](monomial.md) $x^{n}$ evaluated at _x_ = 0}}: {{$$\Delta ^{k}x^{n}=\sum _{j=0}^{k}(-1)^{k-j}{k \choose j}(x+j)^{n}.$$}} Because {{the [Bernoulli polynomials](Bernoulli%20polynomials.md) may be written in terms of these forward differences}}, one {{immediately obtains a relation in the [Bernoulli numbers](bernoulli%20number.md)}}: {{$$B_{m}(0) = \sum_{k = 0}^m \frac {(-1)^k} {k + 1} \left.\left(\Delta^k x^m\right)\right|_{x = 0} = \sum _{k=0}^{m}{\frac {(-1)^{k}k!}{k+1} }\left\{ {m \atop k}\right\}.$$}} <!--SR:!2024-11-14,13,270!2024-11-09,8,250!2024-11-19,17,290!2024-11-15,13,270!2024-11-22,15,230-->
 
 The evaluation of {{incomplete exponential [Bell polynomial](Bell%20polynomials.md) _B_<sub>_n_,_k_</sub>(_x_<sub>1</sub>,_x_<sub>2</sub>,...) on the sequence of ones}} equals {{a Stirling number of the second kind: $$\left\{ {n \atop k}\right\}=B_{n,k}(1,1,\dots ,1) \,.$$}} <!--SR:!2024-11-19,17,290!2024-11-15,13,270-->
 
@@ -115,7 +115,7 @@ For {{a fixed integer _k_}}, {{the Stirling numbers of the second kind}} have {{
 
 ### lower and upper bounds
 
-If {{$n\geq 2$ and $1\leq k\leq n-1$}}, then {{$${\frac {1}{2} }(k^{2}+k+2)k^{n-k-1}-1\leq \left\{ {n \atop k}\right\}\leq {\frac {1}{2} }{n \choose k}k^{n-k}$$}} <sup>[\[12\]](#^ref-12)</sup> <!--SR:!2024-11-14,13,270!2024-11-07,6,230-->
+If {{$n\geq 2$ and $1\leq k\leq n-1$}}, then {{$${\frac {1}{2} }(k^{2}+k+2)k^{n-k-1}-1\leq \left\{ {n \atop k}\right\}\leq {\frac {1}{2} }{n \choose k}k^{n-k}$$}} <sup>[\[12\]](#^ref-12)</sup> <!--SR:!2024-11-14,13,270!2024-11-22,15,230-->
 
 ### asymptotic approximation
 
@@ -129,7 +129,7 @@ If {{$n=o({\sqrt {k} })$ (where _o_ denotes the [little o notation](big%20O%20no
 
 For {{fixed $n$}}, $\left\{ {n \atop k}\right\}$ is {{unimodal, that is, the sequence increases and then decreases}}. The maximum is {{attained for at most two consecutive values of _k_}}. That is, there is {{an integer $k_{n}$ such that $$\left\{ {n \atop 1}\right\}<\left\{ {n \atop 2}\right\}<\cdots <\left\{ {n \atop k_{n} }\right\}\geq \left\{ {n \atop k_{n}+1}\right\}>\cdots >\left\{ {n \atop n}\right\}.$$}} Looking at the table of values above, {{the first few values for $k_{n}$}} are {{$0,1,1,2,2,3,3,4,4,4,5,\ldots$}} <!--SR:!2024-11-18,17,290!2024-11-19,17,290!2024-11-19,17,290!2024-11-18,17,290!2024-11-19,17,290!2024-11-10,10,250-->
 
-When {{$n$ is large}}, {{$$k_{n}{\underset {n\to \infty }{\sim } }{\frac {n}{\log n} },$$}} and {{the maximum value of the Stirling number}} can be {{approximated with $$\log \left\{ {n \atop k_{n} }\right\}=n\log n-n\log \log n-n+O(n\log \log n/\log n).$$}} <sup>[\[12\]](#^ref-12)</sup> <!--SR:!2024-11-19,17,290!2024-11-14,13,270!2024-11-19,17,290!2024-11-07,6,230-->
+When {{$n$ is large}}, {{$$k_{n}{\underset {n\to \infty }{\sim } }{\frac {n}{\log n} },$$}} and {{the maximum value of the Stirling number}} can be {{approximated with $$\log \left\{ {n \atop k_{n} }\right\}=n\log n-n\log \log n-n+O(n\log \log n/\log n).$$}} <sup>[\[12\]](#^ref-12)</sup> <!--SR:!2024-11-19,17,290!2024-11-14,13,270!2024-11-19,17,290!2024-11-22,15,230-->
 
 ## applications
 

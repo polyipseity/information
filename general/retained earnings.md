@@ -37,7 +37,7 @@ Due to {{the nature of [double-entry](double-entry%20bookkeeping.md) [accrual ac
 
 ## stockholders' equity
 
-When {{total assets are greater than total liabilities}}, stockholders have {{a positive equity (positive [book value](book%20value.md))}}. Conversely, when {{total liabilities are greater than total assets, stockholders have a negative stockholders' equity (negative book value) — also sometimes called stockholders' deficit}}. A stockholders' deficit does not mean that {{stockholders owe money to the corporation as they own only its net assets and are not accountable for its [liabilities](liability%20(financial%20accounting).md)}}, though {{it is one of the definitions of [insolvency](insolvency.md)}}. This means that {{the value of the assets of the company must rise above its liabilities}} before the stockholders hold positive equity value in the company. <!--SR:!2024-12-14,65,310!2024-11-23,46,290!2024-11-25,48,290!2024-11-07,30,270!2024-11-26,47,290!2024-12-05,58,310-->
+When {{total assets are greater than total liabilities}}, stockholders have {{a positive equity (positive [book value](book%20value.md))}}. Conversely, when {{total liabilities are greater than total assets, stockholders have a negative stockholders' equity (negative book value) — also sometimes called stockholders' deficit}}. A stockholders' deficit does not mean that {{stockholders owe money to the corporation as they own only its net assets and are not accountable for its [liabilities](liability%20(financial%20accounting).md)}}, though {{it is one of the definitions of [insolvency](insolvency.md)}}. This means that {{the value of the assets of the company must rise above its liabilities}} before the stockholders hold positive equity value in the company. <!--SR:!2024-12-14,65,310!2024-11-23,46,290!2024-11-25,48,290!2025-03-01,114,290!2024-11-26,47,290!2024-12-05,58,310-->
 
 - retained earnings equation ::: retained earnings = opening retained earnings + current year net profit from p&l a/c - dividends paid in the current year <!--SR:!2025-02-19,106,290!2024-12-19,70,310-->
 
@@ -47,7 +47,7 @@ A company is normally subject to {{a company tax on the net income of the compan
 
 {{The issue of [bonus shares](bonus%20share.md), even if funded out of retained earnings}}, will in {{most jurisdictions}} {{not be treated as a dividend distribution and not taxed in the hands of the shareholder}}. <!--SR:!2024-11-10,38,290!2024-11-19,42,290!2024-12-16,57,270-->
 
-Retaining earnings by a company {{increases the company's shareholder equity, which increases the value of each shareholder's shareholding}}. This {{increases the share price, which may result in a [capital gains tax](capital%20gains%20tax.md) liability when the shares are disposed of}}. <!--SR:!2024-12-09,62,310!2024-11-07,30,270-->
+Retaining earnings by a company {{increases the company's shareholder equity, which increases the value of each shareholder's shareholding}}. This {{increases the share price, which may result in a [capital gains tax](capital%20gains%20tax.md) liability when the shares are disposed of}}. <!--SR:!2024-12-09,62,310!2025-01-27,81,270-->
 
 The decision of {{whether a corporation should retain net income or have it paid out as dividends}} depends on several factors including, but not limited to: <!--SR:!2024-12-03,56,310-->
 

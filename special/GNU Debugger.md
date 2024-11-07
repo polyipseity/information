@@ -15,7 +15,7 @@ tags:
 
 ## commands
 
-Command names can be {{truncated at the end to produce an abbreviation if the abbreviation is unambiguous, i.e. there is only exactly one command name starting with the abbreviation}}. For example, `disassemble` can be {{abbreviated to `disass` or even the more ugly `disassem`}}. <!--SR:!2024-11-07,30,305!2025-01-13,88,345-->
+Command names can be {{truncated at the end to produce an abbreviation if the abbreviation is unambiguous, i.e. there is only exactly one command name starting with the abbreviation}}. For example, `disassemble` can be {{abbreviated to `disass` or even the more ugly `disassem`}}. <!--SR:!2025-03-17,130,325!2025-01-13,88,345-->
 
 ### common commands
 
@@ -35,7 +35,7 @@ Command names can be {{truncated at the end to produce an abbreviation if the ab
 - `print <expression>` ::: evaluate and print an expression <!--SR:!2025-01-26,97,270!2024-12-02,69,310-->
 - `run [<args>...]` ::: run program (with args) <!--SR:!2024-11-14,56,310!2024-11-21,63,310-->
 - `set <storage> = <value>` ::: set storage to value <!--SR:!2025-01-13,88,345!2025-01-13,88,345-->
-- `set args <args>...` ::: set program args <!--SR:!2024-12-05,72,310!2024-11-07,51,310-->
+- `set args <args>...` ::: set program args <!--SR:!2024-12-05,72,310!2025-06-15,220,330-->
 - `si` ::: go to the next instruction stepping into functions <!--SR:!2024-11-17,60,310!2024-11-24,54,250-->
 - `starti [<args>...]` ::: start program and stop at its first instruction <!--SR:!2024-12-02,69,310!2024-11-10,47,290-->
 - `step` ::: go to the next (source) line stepping into functions <!--SR:!2024-11-11,54,310!2025-02-14,119,290-->

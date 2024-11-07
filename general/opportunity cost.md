@@ -40,7 +40,7 @@ Examples of implicit costs regarding production are mainly resources contributed
 Scenarios are as follows:<sup>[\[7\]](#^ref-7)</sup>
 
 - If a person leaves work for an hour to spend $200 on office supplies, and has an hourly rate of $25, then the implicit costs for the individual equates to ::: the $25 that he/she could have earned instead. <!--SR:!2024-12-12,58,310!2024-11-15,36,290-->
-- If a printer of a company malfunctions, the implicit cost equates to... ::: the total production time that could have been utilized if the machine did not break down. <!--SR:!2024-12-01,47,290!2024-11-07,28,270-->
+- If a printer of a company malfunctions, the implicit cost equates to... ::: the total production time that could have been utilized if the machine did not break down. <!--SR:!2024-12-01,47,290!2025-02-23,108,290-->
 
 ## excluded from opportunity cost
 

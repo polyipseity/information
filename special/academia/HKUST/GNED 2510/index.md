@@ -129,7 +129,7 @@ The content is in teaching order.
 - work cultures
 - How is a work offer properly confirmed? ::: confirm the draft employment contract <!--SR:!2024-12-07,60,310!2025-02-11,107,290-->
 - What if you need more time to consider a work offer? ::: Sincerely ask for more time to consider and state your expected reply time to the employer. <!--SR:!2024-11-30,53,310!2024-12-05,56,310-->
-- What to do after confirming an offer? ::: stop interviewing, nicely decline other work offers <!--SR:!2024-11-07,35,290!2024-12-25,69,310-->
+- What to do after confirming an offer? ::: stop interviewing, nicely decline other work offers <!--SR:!2025-03-30,143,310!2024-12-25,69,310-->
 - job offer ::: Check if it is legitimate and is not missing any crucial information! <!--SR:!2024-11-25,46,290!2024-12-14,65,310-->
   - job offer crucial information ::: company logo, contact information, job title, job details, salary/compensation, benefits, expiration date <!--SR:!2024-12-25,62,250!2025-02-10,97,270-->
   - declining a job offer ::: act quick, communicate professionally, express appreciation <!--SR:!2024-11-28,51,310!2024-12-06,59,310-->
@@ -172,7 +172,7 @@ The content is in teaching order.
 - datetime: 2023-11-15T17:00:00+08:00/2023-11-15T18:50:00+08:00
 - topic: Interview (III): Final Drilling of Mock Interview
 - interview goals ::: impress, express, tell stories (STAR-r) <!--SR:!2024-12-25,69,310!2024-12-06,57,310-->
-- STAR-r ::: situation, task, action, result, reflection <!--SR:!2024-11-07,38,290!2024-12-03,56,310-->
+- STAR-r ::: situation, task, action, result, reflection <!--SR:!2025-04-07,151,310!2024-12-03,56,310-->
   - STAR-r / situation ::: set the scene <!--SR:!2024-12-06,57,310!2024-12-25,69,310-->
   - STAR-r / task ::: describe the purpose <!--SR:!2024-11-28,49,290!2024-11-26,49,310-->
   - STAR-r / action ::: explain what you did <!--SR:!2024-12-07,60,310!2024-12-11,62,310-->

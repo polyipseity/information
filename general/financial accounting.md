@@ -13,7 +13,7 @@ tags:
 
 __Financial accounting__ is {{a branch of [accounting](accounting.md) concerned with the summary, analysis and reporting of financial transactions related to a business}}.<sup>[\[1\]](#^ref-1)</sup> This involves {{the preparation of [financial statements](financial%20audit.md) available for public use}}. {{[Stockholders](shareholder.md), [suppliers](vendor.md), [banks](bank.md), [employees](employment.md#employee), [government agencies](government%20agency.md), [business owners](businessperson.md), and other [stakeholders](stakeholder%20(corporate).md)}} are examples of people {{interested in receiving such information for decision making purposes}}. <!--SR:!2024-12-04,65,310!2025-01-18,85,270!2024-11-13,48,290!2024-12-07,67,310-->
 
-Financial accountancy is governed by {{both local and international accounting standards}}. {{[Generally Accepted Accounting Principles](accounting%20standard.md) (GAAP)}} is {{the standard framework of guidelines for financial accounting used in any given jurisdiction}}. It includes {{the standards, conventions and rules that accountants follow in recording and summarizing and in the preparation of financial statements}}. <!--SR:!2024-11-25,58,310!2024-11-07,43,290!2024-11-10,45,290!2024-11-14,49,290-->
+Financial accountancy is governed by {{both local and international accounting standards}}. {{[Generally Accepted Accounting Principles](accounting%20standard.md) (GAAP)}} is {{the standard framework of guidelines for financial accounting used in any given jurisdiction}}. It includes {{the standards, conventions and rules that accountants follow in recording and summarizing and in the preparation of financial statements}}. <!--SR:!2024-11-25,58,310!2025-05-01,175,310!2024-11-10,45,290!2024-11-14,49,290-->
 
 On the other hand, {{[International Financial Reporting Standards](International%20Financial%20Reporting%20Standards.md) (IFRS)}} is {{a set of accounting standards stating how particular types of transactions and other events should be reported in financial statements}}. IFRS are issued by {{the [International Accounting Standards Board](International%20Accounting%20Standards%20Board.md) (IASB)}}.<sup>[\[2\]](#^ref-2)</sup> With {{IFRS becoming more widespread on the international scene}}, {{_consistency_ in financial reporting has become more prevalent between global organizations}}. <!--SR:!2024-11-18,52,290!2024-12-03,64,310!2024-11-20,53,310!2024-12-10,70,310!2024-11-23,56,310-->
 
@@ -59,7 +59,7 @@ The statement of cash flows {{considers the inputs and outputs in concrete cash 
 > - {{cash inflow}}: {{$20}}
 > - {{cash outflow}}: {{$7}}
 > - {{opening balance}}: {{$5}}
-> - {{__closing balance__}}: {{__$20 – $7 + $5 = $18__}} <!--SR:!2024-11-19,52,310!2024-12-09,69,310!2024-12-04,65,310!2025-03-24,147,310!2025-03-19,143,310!2024-11-07,43,290!2024-12-03,64,310!2024-11-25,56,310-->
+> - {{__closing balance__}}: {{__$20 – $7 + $5 = $18__}} <!--SR:!2024-11-19,52,310!2024-12-09,69,310!2024-12-04,65,310!2025-03-24,147,310!2025-03-19,143,310!2025-05-02,176,310!2024-12-03,64,310!2024-11-25,56,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -99,7 +99,7 @@ Accounting standards often {{set out a general format that companies are expecte
 Current assets are {{the most liquid assets of a firm, which are expected to be realized within a 12-month period, or the firm's operating cycle, whichever is longer}}. Current assets include: {{[cash](cash.md), [accounts receivable](accounts%20receivable.md), merchandise inventory, [investee companies](company.md) (held less than a financial period), [prepaid expenses](deferral.md) (for use during the current financial period), etc.}} <!--SR:!2024-12-06,67,310!2024-11-11,34,250-->
 
 - [cash](cash.md) ::: physical money <!--SR:!2025-04-18,164,310!2024-11-12,46,290-->
-- [accounts receivable](accounts%20receivable.md) ::: revenues earned but not yet collected <!--SR:!2024-11-07,42,290!2024-11-07,42,290-->
+- [accounts receivable](accounts%20receivable.md) ::: revenues earned but not yet collected <!--SR:!2025-04-28,172,310!2025-04-24,168,310-->
 - merchandise inventory ::: consists of goods and services a firm currently owns until it ends up getting sold <!--SR:!2024-11-17,51,290!2025-01-06,77,270-->
 - [investee companies](company.md) ::: expected to be held less than one financial period <!--SR:!2024-11-14,48,290!2025-02-13,107,290-->
 - [prepaid expenses](deferral.md) ::: expenses paid for in advance for use during that financial period <!--SR:!2025-03-31,152,310!2024-12-05,65,310-->

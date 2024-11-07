@@ -29,11 +29,11 @@ The first axiom states {{that the constant 0 is a natural number}}: <!--SR:!2024
 
 Peano's original formulation of the axioms {{used 1 instead of 0 as the "first" natural number, while the axioms in _[Formulario mathematico](formulario%20mathematico.md)_ include zero}}. <!--SR:!2024-12-08,69,325-->
 
-The next four axioms describe {{the [equality](equality%20(mathematics).md) [relation](relation%20(mathematics).md)}}. Since {{they are logically valid in first-order logic with equality}}, they are {{not considered to be part of "the Peano axioms" in modern treatments}}. <!--SR:!2024-12-19,78,325!2024-11-17,48,305!2024-11-07,43,305-->
+The next four axioms describe {{the [equality](equality%20(mathematics).md) [relation](relation%20(mathematics).md)}}. Since {{they are logically valid in first-order logic with equality}}, they are {{not considered to be part of "the Peano axioms" in modern treatments}}. <!--SR:!2024-12-19,78,325!2024-11-17,48,305!2025-05-11,185,325-->
 
 <!-- markdownlint-capture -->
 <!-- markdownlint-disable MD029 -->
-2. 2nd axiom ::: For every natural number _x_, _x_ = _x_. That is, equality is [reflexive](reflexive%20relation.md). <!--SR:!2024-11-07,44,305!2024-12-15,74,325-->
+2. 2nd axiom ::: For every natural number _x_, _x_ = _x_. That is, equality is [reflexive](reflexive%20relation.md). <!--SR:!2025-05-14,188,325!2024-12-15,74,325-->
 3. 3rd axiom ::: For all natural numbers _x_ and _y_, if _x_ = _y_, then _y_ = _x_. That is, equality is [symmetric](symmetric%20relation.md). <!--SR:!2025-04-04,156,325!2024-11-30,63,325-->
 4. 4th axiom ::: For all natural numbers _x_, _y_ and _z_, if _x_ = _y_ and _y_ = _z_, then _x_ = _z_. That is, equality is [transitive](transitive%20relation.md). <!--SR:!2024-12-07,68,325!2024-11-24,53,305-->
 5. 5th axiom ::: For all _a_ and _b_, if _b_ is a natural number and _a_ = _b_, then _a_ is also a natural number. That is, the natural numbers are [closed](closure%20(mathematics).md) under equality. <!--SR:!2024-11-29,62,325!2024-12-11,71,325-->

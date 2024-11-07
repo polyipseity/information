@@ -427,7 +427,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 5. All of these stars take the same time to get to the main sequence
 >
 > - solution: {{4}}
-> - explanation: {{A fundamental feature of stellar evolution is that the greater the mass, the faster the evolution.}} <!--SR:!2024-11-07,79,361!2024-11-20,90,361-->
+> - explanation: {{A fundamental feature of stellar evolution is that the greater the mass, the faster the evolution.}} <!--SR:!2025-12-03,391,381!2024-11-20,90,361-->
 
 <!-- markdownlint MD028 -->
 
@@ -601,7 +601,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 5. 100
 >
 > - solution: {{4}}
-> - explanation: {{Calculate the apparent magnitude of star B: $$m_B = 3 + 5 \log_{100} 15 \approx 5.940\,228\,15$$. Then apply the m & M equation: $$d = 10^{(m_B - M_B + 5) / 5} = 10^{(5.940\,228\,15 - 1 + 5) / 5} = 10^{1.988\,045\,62} \approx 97.28494~\mathrm{pc}$$. So the answer is 97.}} <!--SR:!2024-11-07,75,367!2025-06-28,254,367-->
+> - explanation: {{Calculate the apparent magnitude of star B: $$m_B = 3 + 5 \log_{100} 15 \approx 5.940\,228\,15$$. Then apply the m & M equation: $$d = 10^{(m_B - M_B + 5) / 5} = 10^{(5.940\,228\,15 - 1 + 5) / 5} = 10^{1.988\,045\,62} \approx 97.28494~\mathrm{pc}$$. So the answer is 97.}} <!--SR:!2025-11-23,381,387!2025-06-28,254,367-->
 
 <!-- markdownlint MD028 -->
 

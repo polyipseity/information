@@ -102,7 +102,7 @@ Note that a knight can move {{two squares vertically and one square horizontally
 
 Let {{$a, b \in \mathbb N$ and $b \ne 0$. Prove that $a \cdot b \ge a$}}. <!--SR:!2024-11-24,55,310-->
 
-- strategy ::: Prove by induction. Use the definition of $\ge$. <!--SR:!2024-11-07,43,300!2024-12-14,73,320-->
+- strategy ::: Prove by induction. Use the definition of $\ge$. <!--SR:!2025-05-07,181,320!2024-12-14,73,320-->
 
 1. base case ::: Without loss of generality, fix $a \in \mathbb N$. When $b = 1$. then $$a \cdot b = a \cdot 1 = a \cdot S(0) = a + a \cdot 0 = a + 0 = a$$. Thus the theorem is proved when $b = 1$. <!--SR:!2025-02-11,112,300!2024-12-07,68,320-->
 2. induction ::: Assume $a \cdot b \ge a$ for some $b \in \mathbb N_{\ne 0}$. Consider $S(b)$: $$\begin{aligned} a \cdot S(b) & = a + a \cdot b \\ & \ge a \cdot b && \text{definition of }\ge \\ & \ge a && \text{transitivity of }\ge \end{aligned}$$. Thus if the theorem is true for $b$, then it is also true for $S(b)$. By induction, the theorem is true for all $b \in \mathbb N_{\ne 0}$. <!--SR:!2024-12-12,71,320!2024-12-15,74,320-->

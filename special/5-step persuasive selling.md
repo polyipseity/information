@@ -51,6 +51,6 @@ The 5-step persuasive selling consists of the following steps:
 - the big idea: use ONLY 1 (long) sentence to describe your solution→:::←how it works: _key solution details_ to preempt concerns, objections, and questions <!--SR:!2024-12-18,132,290!2024-12-06,123,290-->
 - how it works: _key solution details_ to preempt concerns, objections, and questions→:::←key benefits and risks: compelling reason to adopt the solution by _reinforcing benefits_ for multiple parties and _highlighting risks to politely threaten_ <!--SR:!2025-02-19,191,310!2025-05-16,218,270-->
 - key benefits and risks: compelling reason to adopt the solution by _reinforcing benefits_ for multiple parties and _highlighting risks to politely threaten_→:::←next step: an _easy_ task that the target cannot say no and moves the solution forward <!--SR:!2024-12-23,133,290!2024-12-06,124,290-->
-- next step: an _easy_ task that the target cannot say no and moves the solution forward→:::←_(end)_ <!--SR:!2025-03-29,227,330!2024-11-07,103,290-->
+- next step: an _easy_ task that the target cannot say no and moves the solution forward→:::←_(end)_ <!--SR:!2025-03-29,227,330!2025-12-26,414,310-->
 
 <!--/pytextgen-->

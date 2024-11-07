@@ -29,4 +29,4 @@ tags:
 
 ## complex number
 
-Python has {{builtin support (no libraries needed) for complex numbers}}. The imaginary unit is {{denoted `j`}}. To create a complex number, write code {{as if you are writing the complex number in other contexts (e.g. `4 + 2j`)}}. It can be used with {{[`numpy`](#numpy) and [`matplotlib`](#matplotlib)}}. <!--SR:!2024-11-11,70,319!2024-11-17,75,319!2024-11-07,66,319!2024-11-09,68,319-->
+Python has {{builtin support (no libraries needed) for complex numbers}}. The imaginary unit is {{denoted `j`}}. To create a complex number, write code {{as if you are writing the complex number in other contexts (e.g. `4 + 2j`)}}. It can be used with {{[`numpy`](#numpy) and [`matplotlib`](#matplotlib)}}. <!--SR:!2024-11-11,70,319!2024-11-17,75,319!2025-08-25,291,339!2024-11-09,68,319-->

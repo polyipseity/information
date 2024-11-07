@@ -58,7 +58,7 @@ The content is in teaching order.
     - inferential statistics / procedures / analysis of variance ::: used to test the difference between two or more means <!--SR:!2024-11-30,67,310!2025-02-01,103,290-->
     - inferential statistics / procedures / estimation of parameters ::: estimate unknown parameters of a population based on a sample of the population <!--SR:!2024-12-05,72,310!2025-04-22,168,310-->
     - inferential statistics / procedures / goodness of fit test ::: test how well a hypothesized statistical model (distribution) fits the observed samples <!--SR:!2025-01-29,99,270!2025-03-26,152,290-->
-    - inferential statistics / procedures / hypothesis testing ::: test a statement about the unknown parameters <!--SR:!2024-11-07,51,310!2025-01-13,95,290-->
+    - inferential statistics / procedures / hypothesis testing ::: test a statement about the unknown parameters <!--SR:!2025-06-19,224,330!2025-01-13,95,290-->
     - inferential statistics / procedures / probability distribution ::: mathematical function that gives the probabilities of occurrence of possible outcomes for an experiment <!--SR:!2024-11-29,66,310!2025-01-02,77,270-->
     - inferential statistics / procedures / regression ::: estimate the relationships between a dependent variable (output) and one or more independent variables (inputs) <!--SR:!2024-11-09,52,310!2024-11-16,59,310-->
   - inferential statistics / example
@@ -80,7 +80,7 @@ The content is in teaching order.
     - data / types of variables / importance ::: proper interpretation of data, proper selection of statistical analysis (e.g. not averaging nominal variables) <!--SR:!2024-11-12,56,310!2025-01-23,95,270-->
     - data / types of variables / note ::: Sometimes for data processing, categorical values are mapped to numbers. Do not mistake them for quantitative values! <!--SR:!2024-11-26,63,310!2024-11-12,49,290-->
 - [descriptive statistics](../../../../general/descriptive%20statistics.md)
-  - descriptive statistics / common measures ::: central tendency (location), variability (spread/dispersion) <!--SR:!2025-04-16,168,310!2024-11-07,44,290-->
+  - descriptive statistics / common measures ::: central tendency (location), variability (spread/dispersion) <!--SR:!2025-04-16,168,310!2025-05-05,179,310-->
     - central tendency ::: sample mean, sample median, trimmed sample mean, ... <!--SR:!2024-11-11,54,310!2024-11-10,54,310-->
     - variability ::: inter-quartile range, sample range, sample standard deviation, sample variance <!--SR:!2024-11-12,49,290!2024-11-13,56,310-->
   - sample mean ::: Suppose we have $n$ _samples_ of a random variable $x$, labeled $x_1, \ldots, x_n$. Then its _sample mean_ is $$\bar x = \frac 1 n \sum_{k = 1}^n x_n$$. <!--SR:!2024-11-15,58,310!2024-11-17,60,310-->
@@ -150,12 +150,12 @@ The content is in teaching order.
     - frequency table (categorical) / table headers ::: \<variable name\>, count, cumulative count (if ordinal), percent, cumulative percent (if ordinal), ... <!--SR:!2024-11-23,24,250!2025-02-05,105,270-->
   - pie chart ::: A filled circle showing proportions of different categories. <!--SR:!2024-11-16,58,310!2025-04-13,166,310-->
     - pie chart / _R_ ::: use `pie(...)` <!--SR:!2024-11-14,56,310!2024-11-09,53,310-->
-  - bar chart ::: Bars showing counts of different categories. <!--SR:!2024-11-07,51,310!2024-11-21,63,310-->
+  - bar chart ::: Bars showing counts of different categories. <!--SR:!2025-06-18,223,330!2024-11-21,63,310-->
     - bar chart / _R_ ::: use `barplot(...)` <!--SR:!2024-11-14,51,290!2024-12-05,72,310-->
 - [sampling](../../../../general/sampling%20(statistics).md) ::: The act of creating a _sample_ from a _population_. It can be mainly classified into _probability sampling_ and _non-probability sampling_. <!--SR:!2025-04-26,172,310!2025-04-13,166,310-->
   - sampling / [errors](../../../../general/sampling%20(statistics).md#errors%20in%20sample%20surveys) ::: It is very important to sample correctly. Some biases include survivorship bias (as demonstration, unlikely related in most statistics), selection bias, non-response bias (participation bias), and voluntary response bias. <!--SR:!2025-01-17,92,270!2025-02-19,115,290-->
     - sampling / errors / survivorship bias ::: (as demonstration, unlikely related in most statistics) A famous example: Many planes were flying through enemy territories. Some survived. Engineers found holes on some parts of the survived planes. So they decided to reinforce those parts. But this did not improve survival rates. The actual best parts to reinforce were those without holes on the survived planes, because this implied the other planes did not survive because of holes in said parts. Hence the name. <!--SR:!2025-06-02,210,330!2025-02-13,119,290-->
-    - sampling / errors / selection bias ::: A sample of convenience, which probably makes certain subjects more likely than others to be sampled. <!--SR:!2024-11-07,44,290!2025-04-20,173,310-->
+    - sampling / errors / selection bias ::: A sample of convenience, which probably makes certain subjects more likely than others to be sampled. <!--SR:!2025-05-06,180,310!2025-04-20,173,310-->
     - sampling / errors / non-response bias (participation bias) ::: For example, parents are less likely to answer a survey at 6 pm because they are busy with children and dinner. <!--SR:!2024-11-08,45,290!2024-11-15,58,310-->
     - sampling / errors / voluntary response bias ::: Websites for posting reviews are more likely to get responses from customers who had very bad or very good experiences. <!--SR:!2025-01-04,88,290!2025-05-23,199,310-->
     - [sampling § sampling errors and biases](../../../../general/sampling%20(statistics).md#sampling%20errors%20and%20biases)
@@ -168,7 +168,7 @@ The content is in teaching order.
     - probability sampling / cluster sampling ::: Split the population into clusters and select some of the clusters (cannot select an individual in a cluster without selecting other in the same cluster). <!--SR:!2024-11-08,31,270!2024-11-24,61,310-->
   - [non-probability sampling](../../../../general/sampling%20(statistics).md#nonprobability%20sampling) ::: It supports weaker statistical inferences from a sample to the population. The advantage is that non-probability sampling may be more convenient in many contexts. <!--SR:!2024-11-15,52,290!2025-05-30,205,310-->
     - non-probability sampling / examples ::: convenience sampling, purposive sampling, voluntary response sampling, snowball sampling, ... <!--SR:!2025-03-14,128,290!2025-01-06,81,270-->
-    - non-probability sampling / convenience sampling ::: Sampling whoever is most convenient to you, e.g. nearest people. <!--SR:!2024-11-12,49,290!2024-11-07,52,290-->
+    - non-probability sampling / convenience sampling ::: Sampling whoever is most convenient to you, e.g. nearest people. <!--SR:!2024-11-12,49,290!2025-06-04,209,310-->
     - non-probability sampling / voluntary response sampling ::: Individuals in a population are made known of your sample and voluntarily decides to participate or not. <!--SR:!2025-01-15,97,290!2025-03-26,152,310-->
     - non-probability sampling / purposive sampling ::: A _non-probabilistic_ method is used to select individuals in a population. <!--SR:!2025-05-25,202,330!2024-11-11,55,310-->
     - non-probability sampling / snowball sampling ::: Some individuals of a population are sampled initially. Individuals sampled recruit other individuals for sampling. This recruitment chain continues indefinitely, hence snowballing. <!--SR:!2024-11-17,59,310!2025-06-08,215,330-->

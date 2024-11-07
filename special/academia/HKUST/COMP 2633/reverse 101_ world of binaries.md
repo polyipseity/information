@@ -99,7 +99,7 @@ A key idea in assembly that {{code and data are treated the same}}. Indeed, data
 - `db <data>...` ::: Define byte. Represents `<data>...` on a granular level of bytes. This is commonly used to store strings. Remember to add the null terminator for interoperability with C. <!--SR:!2024-12-24,89,345!2024-11-24,60,325-->
 - `dd <data>` ::: Define dword (4 bytes, double word). Represents `<data>` on a granular level of 4 bytes. This can also be used to store `float`s in C. <!--SR:!2024-12-04,72,343!2024-11-28,65,323-->
 - `dq <data>` ::: Define qword (8 bytes, quadruple word). Represents `<data>` on a granular level of 8 bytes. This can also be used to store `double`s in C. <!--SR:!2024-12-11,78,345!2024-11-16,54,317-->
-- `dw <data>` ::: Define word (2 bytes). Represents `<data>` on a granular level of 2 bytes. <!--SR:!2024-11-07,44,317!2024-11-13,51,317-->
+- `dw <data>` ::: Define word (2 bytes). Represents `<data>` on a granular level of 2 bytes. <!--SR:!2025-05-23,197,337!2024-11-13,51,317-->
 - `resb <size>` ::: Reserve `<size>` number of bytes. All modern operating systems will also fill it with zeros. It is commonly used in `.bss`. <!--SR:!2024-12-16,81,345!2024-12-06,73,345-->
 - `resd <size>` ::: Reserve `<size>` number of dwords (4 bytes, double word). All modern operating systems will also fill it with zeros. It is commonly used in `.bss`. <!--SR:!2024-12-17,82,345!2024-11-19,56,325-->
 - `resq <size>` ::: Reserve `<size>` number of qwords (8 bytes, quadruple word). All modern operating systems will also fill it with zeros. It is commonly used in `.bss`. <!--SR:!2024-11-20,57,325!2024-12-17,82,345-->

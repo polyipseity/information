@@ -23,4 +23,4 @@ We can read the entire file into a string by {{calling `file.read()`}}. Alternat
 
 ## writing
 
-We can write string into a file by {{calling `file.write()`}}. Calling it multiple times {{concatenates the strings}}. <!--SR:!2024-11-07,213,330!2026-11-14,758,330-->
+We can write string into a file by {{calling `file.write()`}}. Calling it multiple times {{concatenates the strings}}. <!--SR:!2027-07-04,969,350!2026-11-14,758,330-->
