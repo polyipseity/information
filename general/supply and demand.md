@@ -87,7 +87,7 @@ Common determinants of demand are:
 
 > ![Cournot's Recherches (1838)](../archives/Wikimedia%20Commons/Cournotdemand.gif)
 >
-> Cournot's _Recherches_ (1838)!
+> Cournot's _Recherches_ (1838)
 >
 > ![Jenkin's Graphical Representation (1870)](../archives/Wikimedia%20Commons/Jenkincurves.gif)
 >
