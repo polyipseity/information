@@ -268,6 +268,28 @@ tags:
 > - solution: {{3}}
 > - explanation: {{It would only affect the equilibrium price and quantity.}} <!--SR:!2024-11-08,4,316!2024-11-08,4,316-->
 
+### chapter 8 lecture
+
+> Q1. If the government imposes a tax on iPhone, who bears the tax burden/incidence?
+>
+> 1. sellers
+> 2. consumers
+> 3. both
+> 4. neither
+>
+> - solution: {{3}}
+> - explanation: {{Tax burden depends on both the elasticities of the demand and supply curve. Since neither curves are very unlikely to be perfectly elastic in the real world, both sellers and consumers bear the tax burden. However, we cannot tell the distribution of tax burden unless we have more information.}}
+
+<!-- markdownlint MD028 -->
+
+> Q2. For each of the following pairs of goods, explain which good would have a larger deadweight loss due to tax.
+>
+> 1. breakfast cereal, sunscreen
+> 2. hotel rooms in the short run, hotel rooms in the long run
+> 3. groceries, meals at fancy restaurants
+>
+> - solution: {{For 1, sunscreen has less substitutes, so its demand is more elastic, thus its deadweight loss due to tax would be higher. For 2, price elasticities of both supply and demand curves are more elastic in the long run, thus the deadweight loss in the long run would be higher. For 3, groceries are necessary goods while meals at fancy restaurants are luxury goods, so the latter is more elastic, thus its deadweight loss would be higher.}}
+
 ## tutorials
 
 ### waste charging

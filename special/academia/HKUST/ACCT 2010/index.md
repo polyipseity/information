@@ -164,6 +164,15 @@ The content is in teaching order.
   - chapter 4
 - format: closed book, no cheatsheet, public examination approved calculator
 - content: multiple choice questions: 20@1 each; 2 long questions: 40
-- grades: ?/60
+- grades: 48/60 → 56/60
+  - mean: 36.78
+  - low: 5
+  - lower quartile: 31.5
+  - median: 38.5
+  - upper quartile: 44
+  - high: 58
 - report
-  - TODO
+  - The TA forgot to add the marks of the last page... This is why one should paper checking.
+  - Need to recheck when will a recording mistake of transaction be found... (-1, MCQ)
+  - Forgot, something related to accrued expense, insurance, insurance premium... (-1, MCQ)
+  - Need to remember 5 reasons why a financial analyst uses the quick ratio... (-2, LQ)
