@@ -116,7 +116,7 @@ The content is in teaching order.
   - design thinking / flare & focus ::: flare: create options, divergent thinking; focus: select options, convergent thinking
 - information interview ::: Not a job interview, but a conversation looking for others' stories.
   - information interview / invitation ::: Who are you? How do you relate to them? Why them? What do you want to find out? And finally, ask them.
-  - information interview / best practices ::: ask for 3 more referrals, be genuinely curious, buy coffee, in person > virtual > by phone, thank you note
+  - information interview / best practices ::: ask for 3 more referrals; be genuinely curious; buy coffee; in person > virtual > by phone; thank you note
   - information interview / culture ::: Be aware of cultural differences. Ask and observe.
   - information interview / takeaways ::: People will help (refer) you if you ask. You will help (refer) someone back eventually...
 

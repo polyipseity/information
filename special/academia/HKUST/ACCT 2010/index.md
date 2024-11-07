@@ -174,5 +174,5 @@ The content is in teaching order.
 - report
   - The TA forgot to add the marks of the last page... This is why one should paper checking.
   - Need to recheck when will a recording mistake of transaction be found... (-1, MCQ)
-  - Forgot, something related to deferred expense, insurance, insurance premium... (-1, MCQ)
+  - Forgot, something related to accrued expense, insurance, insurance premium... (-1, MCQ)
   - Need to remember 5 reasons why a financial analyst uses the quick ratio... (-2, LQ)
