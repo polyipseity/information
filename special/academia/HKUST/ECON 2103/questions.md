@@ -278,7 +278,7 @@ tags:
 > 4. neither
 >
 > - solution: {{3}}
-> - explanation: {{Tax burden depends on both the elasticities of the demand and supply curve. Since neither curves are very unlikely to be perfectly elastic in the real world, both sellers and consumers bear the tax burden. However, we cannot tell the distribution of tax burden unless we have more information.}}
+> - explanation: {{Tax burden depends on both the elasticities of the demand and supply curve. Since neither curves are very unlikely to be perfectly elastic in the real world, both sellers and consumers bear the tax burden. However, we cannot tell the distribution of tax burden unless we have more information.}} <!--SR:!2024-11-11,4,321!2024-11-11,4,321-->
 
 <!-- markdownlint MD028 -->
 
@@ -288,7 +288,7 @@ tags:
 > 2. hotel rooms in the short run, hotel rooms in the long run
 > 3. groceries, meals at fancy restaurants
 >
-> - solution: {{For 1, sunscreen has less substitutes, so its demand is more elastic, thus its deadweight loss due to tax would be higher. For 2, price elasticities of both supply and demand curves are more elastic in the long run, thus the deadweight loss in the long run would be higher. For 3, groceries are necessary goods while meals at fancy restaurants are luxury goods, so the latter is more elastic, thus its deadweight loss would be higher.}}
+> - solution: {{For 1, sunscreen has less substitutes, so its demand is more elastic, thus its deadweight loss due to tax would be higher. For 2, price elasticities of both supply and demand curves are more elastic in the long run, thus the deadweight loss in the long run would be higher. For 3, groceries are necessary goods while meals at fancy restaurants are luxury goods, so the latter is more elastic, thus its deadweight loss would be higher.}} <!--SR:!2024-11-10,3,301-->
 
 ## tutorials
 
