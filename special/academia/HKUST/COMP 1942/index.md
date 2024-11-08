@@ -418,7 +418,7 @@ The content is in teaching order.
     - HITS algorithm normalization ::: Normalization is done after each iteration. We use the [taxicab norm](../../../../general/norm%20(mathematics).md#taxicab%20norm%20or%20Manhattan%20norm). The normalized vector length is the number of pages instead of 1. <!--SR:!2025-06-13,288,377!2025-10-20,368,377-->
 - [PageRank](../../../../general/PageRank.md)
   - [§ algorithm](../../../../general/PageRank.md#algorithm)
-    - PageRank self-links ::: Self-links are considered. <!--SR:!2024-11-22,130,388!2024-11-08,117,388-->
+    - PageRank self-links ::: Self-links are considered. <!--SR:!2024-11-22,130,388!2026-07-28,627,408-->
     - PageRank initialization ::: We initialize all PageRank values to 1 instead of 1 divided by number of pages. <!--SR:!2025-12-17,418,377!2025-06-16,290,377-->
     - PageRank termination ::: Terminate the PageRank algorithm when after rounding the values to a certain number of digits, the values have not changed. <!--SR:!2026-03-10,509,408!2026-07-01,612,408-->
   - [§ simplified algorithm](../../../../general/PageRank.md#simplified%20algorithm)

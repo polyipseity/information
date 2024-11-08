@@ -66,7 +66,7 @@ As each question has 5 choices, each question has are 5C2 = 10 pairs of choices.
 > 4. neutron star near its mass upper limit
 > 5. black hole of Schwarzschild radius 6 km
 >
-> - solution: {{2 → 1 → 3 → 5 → 4}} <!--SR:!2024-11-08,45,290-->
+> - solution: {{2 → 1 → 3 → 5 → 4}} <!--SR:!2025-05-11,184,310-->
 
 <!-- markdownlint MD028 -->
 

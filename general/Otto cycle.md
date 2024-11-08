@@ -54,7 +54,7 @@ return await memorize_seq(
 - __[isochoric](isochoric%20process.md) heating__: [pressure](pressure.md) increases→:::←__[isentropic](isentropic%20process.md) expansion__: [volume](volume.md) increases from $V_0$ to $V_1$, [pressure](pressure.md) decreases, and [work](work%20(physics).md) is done <!--SR:!2024-11-24,258,332!2026-04-02,570,312-->
 - __[isentropic](isentropic%20process.md) expansion__: [volume](volume.md) increases from $V_0$ to $V_1$, [pressure](pressure.md) decreases, and [work](work%20(physics).md) is done→:::←__[isochoric](isochoric%20process.md) cooling__: [pressure](pressure.md) decreases <!--SR:!2026-06-12,620,312!2025-01-07,294,332-->
 - __[isochoric](isochoric%20process.md) cooling__: [pressure](pressure.md) decreases→:::←__[isobaric](isobaric%20process.md) compression__: [volume](volume.md) decreases from $V_1$ to $V_0$ and [work](work%20(physics).md) is received; usually ignored when analyzing the [thermodynamic cycle](thermodynamic%20cycle.md) <!--SR:!2025-01-21,305,332!2025-03-16,300,292-->
-- __[isobaric](isobaric%20process.md) compression__: [volume](volume.md) decreases from $V_1$ to $V_0$ and [work](work%20(physics).md) is received; usually ignored when analyzing the [thermodynamic cycle](thermodynamic%20cycle.md)→:::←_(ends outside the cycle in the [PV diagram](pressure–volume%20diagram.md))_ <!--SR:!2024-11-08,245,332!2024-12-10,271,332-->
+- __[isobaric](isobaric%20process.md) compression__: [volume](volume.md) decreases from $V_1$ to $V_0$ and [work](work%20(physics).md) is received; usually ignored when analyzing the [thermodynamic cycle](thermodynamic%20cycle.md)→:::←_(ends outside the cycle in the [PV diagram](pressure–volume%20diagram.md))_ <!--SR:!2027-11-29,1116,352!2024-12-10,271,332-->
 
 <!--/pytextgen-->
 

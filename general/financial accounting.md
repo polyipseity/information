@@ -37,7 +37,7 @@ __Enhancing Qualitative Characteristics__ ::: verifiability, comparability, unde
 
 - __Verifiability__ ::: Verifiability implies consensus between the different knowledgeable and independent users of financial information. Such information must be supported by sufficient evidence to follow the principle of objectivity. <!--SR:!2025-03-05,127,290!2025-01-26,90,270-->
 - __Comparability__ ::: Comparability is the uniform application of accounting methods across entities in the same industry. The principle of consistency is under comparability. Consistency is the uniform application of accounting across points in time within an entity. <!--SR:!2025-01-10,85,290!2025-03-15,135,290-->
-- __Understandability__ ::: Understandability means that accounting reports should be expressed as clearly as possible and should be understood by those to whom the information is relevant. <!--SR:!2024-11-08,42,290!2024-11-09,44,290-->
+- __Understandability__ ::: Understandability means that accounting reports should be expressed as clearly as possible and should be understood by those to whom the information is relevant. <!--SR:!2025-04-26,169,310!2024-11-09,44,290-->
 - __Timeliness__ ::: Timeliness implies that financial information must be presented to the users before a decision is to be made. <!--SR:!2024-12-08,68,310!2024-11-19,52,310-->
 
 ## three components of financial statements
@@ -50,7 +50,7 @@ The three components of financial statements are {{[statement of cash flows](cas
 
 The statement of cash flows is also called {{cash flow statement}}. <!--SR:!2024-12-15,68,335-->
 
-The statement of cash flows {{considers the inputs and outputs in concrete cash within a stated period}}. The general template of a cash flow statement is as follows: {{_Cash Inflow - Cash Outflow + Opening Balance = Closing Balance_}} <!--SR:!2024-11-08,44,290!2025-04-01,152,310-->
+The statement of cash flows {{considers the inputs and outputs in concrete cash within a stated period}}. The general template of a cash flow statement is as follows: {{_Cash Inflow - Cash Outflow + Opening Balance = Closing Balance_}} <!--SR:!2025-05-07,180,310!2025-04-01,152,310-->
 
 > [!example] example 1
 >
@@ -107,7 +107,7 @@ Current assets are {{the most liquid assets of a firm, which are expected to be 
 Non-current assets include {{[fixed](fixed%20asset.md) or long-term assets and [intangible assets](intangible%20asset.md)}}: <!--SR:!2025-03-15,135,290-->
 
 - _fixed (long-term) assets_ ::: property, building, equipment (such as factory machinery) <!--SR:!2024-11-28,59,310!2024-12-10,70,310-->
-- _intangible assets_ ::: copyrights, trademarks, patents, goodwill <!--SR:!2024-11-10,45,290!2024-11-08,44,290-->
+- _intangible assets_ ::: copyrights, trademarks, patents, goodwill <!--SR:!2024-11-10,45,290!2025-05-06,179,310-->
 
 Liabilities include {{current liabilities and long-term liabilities}}: <!--SR:!2024-11-18,48,290-->
 
@@ -152,7 +152,7 @@ Objectives include:
 
 The {{[accounting equation](accounting%20equation.md) ([Assets](asset.md) = [Liabilities](liability%20(financial%20accounting).md) + [Owners' Equity](equity%20(finance).md)) and financial statements}} are the main topics of financial accounting. <!--SR:!2024-12-03,64,310-->
 
-{{The [trial balance](trial%20balance.md) (i.e. finding the current balances of all accounts), which is usually prepared using the [double-entry accounting system](double-entry%20bookkeeping.md)}}, forms {{the basis for preparing the financial statements}}. All the figures in the trial balance are {{rearranged to prepare a [profit & loss statement](income%20statement.md) and [balance sheet](balance%20sheet.md)}}. Accounting standards {{determine the format for these accounts ([SSAP](Generally%20Accepted%20Accounting%20Practice%20(UK).md), FRS, [IFRS](International%20Financial%20Reporting%20Standards.md))}}. Financial statements {{display the income and expenditure for the company and a summary of the assets, liabilities, and shareholders' or owners' equity of the company on the date to which the accounts were prepared}}. <!--SR:!2024-11-08,41,290!2025-02-12,114,290!2025-04-08,157,310!2025-03-18,141,310!2024-11-21,42,250-->
+{{The [trial balance](trial%20balance.md) (i.e. finding the current balances of all accounts), which is usually prepared using the [double-entry accounting system](double-entry%20bookkeeping.md)}}, forms {{the basis for preparing the financial statements}}. All the figures in the trial balance are {{rearranged to prepare a [profit & loss statement](income%20statement.md) and [balance sheet](balance%20sheet.md)}}. Accounting standards {{determine the format for these accounts ([SSAP](Generally%20Accepted%20Accounting%20Practice%20(UK).md), FRS, [IFRS](International%20Financial%20Reporting%20Standards.md))}}. Financial statements {{display the income and expenditure for the company and a summary of the assets, liabilities, and shareholders' or owners' equity of the company on the date to which the accounts were prepared}}. <!--SR:!2025-04-22,165,310!2025-02-12,114,290!2025-04-08,157,310!2025-03-18,141,310!2024-11-21,42,250-->
 
 {{[Asset](asset.md), [expense](expense.md), and [dividend](dividend.md) accounts}} have {{normal debit balances (i.e., debiting these types of accounts increases them)}}. <!--SR:!2024-12-04,65,310!2025-01-21,90,290-->
 

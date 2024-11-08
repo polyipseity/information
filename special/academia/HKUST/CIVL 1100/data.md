@@ -223,7 +223,7 @@ See [Millau Viaduct](../../../../general/Millau%20Viaduct.md).
 - geographic location ::: across the gorge valley of the Tarn near Millau in southern France <!--SR:!2025-05-01,258,376!2025-05-29,280,376-->
 - height ::: max pylon above base: 343 m, structural: 336.4 m <!--SR:!2025-02-13,115,296!2026-12-05,758,416-->
   - height record ::: as of October 2023, tallest bridge in the world <!--SR:!2026-03-06,500,396!2026-10-10,718,416-->
-- length ::: 2450 m = 204 m + 342 m × 6 + 204 m, longest span: 342 m <!--SR:!2024-11-08,39,296!2026-02-17,488,396-->
+- length ::: 2450 m = 204 m + 342 m × 6 + 204 m, longest span: 342 m <!--SR:!2025-03-02,114,296!2026-02-17,488,396-->
 - image ::: ![Millau Viaduct image](../../../../archives/Wikimedia%20Commons/ViaducdeMillau.jpg) <!--SR:!2026-11-14,740,416!2025-10-14,411,396-->
 - opening time ::: 2004-12-16, 09:00 <!--SR:!2024-12-22,47,256!2025-05-30,281,376-->
 - width ::: 32.05 m <!--SR:!2024-11-12,22,336!2025-08-02,326,376-->
@@ -252,7 +252,7 @@ See [Panama Canal](../../../../general/Panama%20Canal.md).
 See [Parthenon](../../../../general/Parthenon.md).
 
 - construction period ::: 447 BC to 438 BC, 9 years <!--SR:!2025-01-18,77,196!2024-12-01,159,396-->
-- dedication ::: Greek goddess Athena <!--SR:!2024-12-08,166,396!2024-11-08,141,396-->
+- dedication ::: Greek goddess Athena <!--SR:!2024-12-08,166,396!2026-12-11,763,416-->
 - description ::: temple on the Athenian Acropolis, Greece, dedicated to the Greek goddess Athena <!--SR:!2024-11-21,135,356!2026-11-27,751,416-->
 - geographic location ::: Athenian Acropolis, Greece <!--SR:!2024-11-29,138,356!2026-08-20,672,416-->
 - importance ::: most important surviving building of classical Greece <!--SR:!2025-12-29,437,376!2026-10-16,722,416-->

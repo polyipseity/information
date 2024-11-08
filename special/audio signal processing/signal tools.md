@@ -33,7 +33,7 @@ SonicVisualiser can {{apply DFT on complicated sounds and produce a magnitude sp
 
 ## sms-tools
 
-`sms-tools` is {{an audio analysis and synthesis tool, written in Python (and some C)}}. The installation and usage instructions are on {{<https://github.com/MTG/sms-tools>}}. <!--SR:!2025-07-09,256,330!2024-11-08,71,310-->
+`sms-tools` is {{an audio analysis and synthesis tool, written in Python (and some C)}}. The installation and usage instructions are on {{<https://github.com/MTG/sms-tools>}}. <!--SR:!2025-07-09,256,330!2025-09-11,307,330-->
 
 ### analysis (sms-tools)
 

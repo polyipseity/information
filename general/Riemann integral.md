@@ -21,7 +21,7 @@ tags:
 
 The set of Riemann integrable function is closed under {{addition, subtraction, multiplication; and reciprocal and division provided that $\inf \lvert g \rvert > 0$}}. That is, given two integrable functions $f, g: D \subseteq \mathbb{R} \to \mathbb{R}$, {{$f + g$, $f - g$, $f \cdot g$ are integrable in $D$, and $1 / g$ and $f / g$ are integrable in $D' \subseteq D$ subject to $\inf\set{\lvert f(x) \rvert : x \in D'} > 0$}}. The [converse](converse%20(logic).md) {{is not necessarily true, however}}. For example, {{given a non-integrable [real-valued function](real-valued%20function.md) $f$, $f + (-f) = f - f = 0$, $f \cdot (f)^{-1} = f / f = 1$ are integrable. So the antecedent and the consequent cannot be swapped}}. The above is somewhat similar to {{[the construction of continuous functions](continuous%20function.md#construction%20of%20continuous%20functions)}}. <!--SR:!2025-09-21,389,310!2026-01-26,475,310!2025-04-05,237,290!2026-01-22,471,310!2024-12-06,178,310-->
 
-Apart from basic arithmetic operations, the set of continuous functions is also closed under {{[absolute value](absolute%20value.md)}}. That is, {{given an integrable function $f: D \subseteq \mathbb{R} \to \mathbb{R}$, $\lvert f \rvert$ is integrable}}. <!--SR:!2026-09-02,668,330!2024-11-08,156,310-->
+Apart from basic arithmetic operations, the set of continuous functions is also closed under {{[absolute value](absolute%20value.md)}}. That is, {{given an integrable function $f: D \subseteq \mathbb{R} \to \mathbb{R}$, $\lvert f \rvert$ is integrable}}. <!--SR:!2026-09-02,668,330!2026-09-07,668,330-->
 
 ## references
 

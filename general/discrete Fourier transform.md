@@ -74,7 +74,7 @@ This table shows {{some mathematical operations on $x_{n}$ in the time domain an
 
 - real part in time ::: frequency: $$\frac 1 2 (X_k + X^*_{N - k})$$ <!--SR:!2025-06-29,248,336!2025-07-13,260,336-->
 - imaginary part in time ::: frequency: $$\frac 1 {2i} (X_k - X^*_{N - k})$$ <!--SR:!2025-05-27,204,296!2024-11-20,78,336-->
-- real part in frequency ::: time: $$\frac 1 2 (x_n + x^*_{N - n})$$ <!--SR:!2024-12-19,91,296!2024-11-08,69,336-->
+- real part in frequency ::: time: $$\frac 1 2 (x_n + x^*_{N - n})$$ <!--SR:!2024-12-19,91,296!2025-09-24,320,356-->
 - imaginary part in frequency ::: time: $$\frac 1 {2i} (x_n - x^*_{N - n})$$ <!--SR:!2025-03-08,144,316!2025-05-23,205,336-->
 
 ### orthogonality
@@ -89,7 +89,7 @@ These theorems are {{also equivalent to the unitary condition below}}. <!--SR:!2
 
 ### periodicity
 
-The periodicity can be {{shown directly from the definition}}: {{$$X_{k+N}\ \triangleq \ \sum _{n=0}^{N-1}x_{n}e^{-{\frac {i2\pi }{N} }(k+N)n}=\sum _{n=0}^{N-1}x_{n}e^{-{\frac {i2\pi }{N} }kn}\underbrace {e^{-i2\pi n} } _{1}=\sum _{n=0}^{N-1}x_{n}e^{-{\frac {i2\pi }{N} }kn}=X_{k}$$}}. <!--SR:!2025-06-29,248,336!2024-11-08,68,336-->
+The periodicity can be {{shown directly from the definition}}: {{$$X_{k+N}\ \triangleq \ \sum _{n=0}^{N-1}x_{n}e^{-{\frac {i2\pi }{N} }(k+N)n}=\sum _{n=0}^{N-1}x_{n}e^{-{\frac {i2\pi }{N} }kn}\underbrace {e^{-i2\pi n} } _{1}=\sum _{n=0}^{N-1}x_{n}e^{-{\frac {i2\pi }{N} }kn}=X_{k}$$}}. <!--SR:!2025-06-29,248,336!2025-09-21,317,356-->
 
 Similarly, it can be {{shown that the IDFT formula leads to a periodic extension}}. <!--SR:!2025-06-18,239,336-->
 
@@ -105,7 +105,7 @@ Multiplying {{$x_{n}$ by a _linear phase_ $e^{ {\frac {i2\pi }{N} }nm}$ for some
 
 - seee: [convolution theorem § functions of a discrete variable (sequences)](convolution%20theorem.md#functions%20of%20a%20discrete%20variable%20(sequences))
 
-{{The [convolution theorem](discrete-time%20Fourier%20transform.md#convolution) for the [discrete-time Fourier transform](discrete-time%20Fourier%20transform.md) (DTFT)}} indicates that {{a convolution of two sequences can be obtained as the inverse transform of the product of the individual transforms}}. An important simplification occurs when {{one of sequences is N-periodic, denoted here by $y_{_{N} }$}}, because {{$\scriptstyle {\text{DTFT} }\displaystyle \{y_{_{N} }\}$ is non-zero at only discrete frequencies (see [DTFT § periodic data](discrete-time%20Fourier%20transform.md#periodic%20data)), and therefore so is its product with the continuous function $\scriptstyle {\text{DTFT} }\displaystyle \{x\}$}}. That leads to {{a considerable simplification of the inverse transform}}: {{$$x*y_{_{N} }\ =\ \scriptstyle {\rm {DTFT} }^{-1}\displaystyle \left[\scriptstyle {\rm {DTFT} }\displaystyle \{x\}\cdot \scriptstyle {\rm {DTFT} }\displaystyle \{y_{_{N} }\}\right]\ =\ \scriptstyle {\rm {DFT} }^{-1}\displaystyle \left[\scriptstyle {\rm {DFT} }\displaystyle \{x_{_{N} }\}\cdot \scriptstyle {\rm {DFT} }\displaystyle \{y_{_{N} }\}\right]$$}}, where {{$x_{_{N} }$ is a [periodic summation](periodic%20summation.md) of the $x$ sequence: $(x_{_{N} })_{n}\ \triangleq \sum _{m=-\infty }^{\infty }x_{(n-mN)}$}}. <!--SR:!2024-11-08,58,327!2024-11-28,79,347!2024-12-06,86,347!2024-12-25,94,307!2024-11-17,71,347!2025-02-16,131,307!2024-11-23,75,347-->
+{{The [convolution theorem](discrete-time%20Fourier%20transform.md#convolution) for the [discrete-time Fourier transform](discrete-time%20Fourier%20transform.md) (DTFT)}} indicates that {{a convolution of two sequences can be obtained as the inverse transform of the product of the individual transforms}}. An important simplification occurs when {{one of sequences is N-periodic, denoted here by $y_{_{N} }$}}, because {{$\scriptstyle {\text{DTFT} }\displaystyle \{y_{_{N} }\}$ is non-zero at only discrete frequencies (see [DTFT § periodic data](discrete-time%20Fourier%20transform.md#periodic%20data)), and therefore so is its product with the continuous function $\scriptstyle {\text{DTFT} }\displaystyle \{x\}$}}. That leads to {{a considerable simplification of the inverse transform}}: {{$$x*y_{_{N} }\ =\ \scriptstyle {\rm {DTFT} }^{-1}\displaystyle \left[\scriptstyle {\rm {DTFT} }\displaystyle \{x\}\cdot \scriptstyle {\rm {DTFT} }\displaystyle \{y_{_{N} }\}\right]\ =\ \scriptstyle {\rm {DFT} }^{-1}\displaystyle \left[\scriptstyle {\rm {DFT} }\displaystyle \{x_{_{N} }\}\cdot \scriptstyle {\rm {DFT} }\displaystyle \{y_{_{N} }\}\right]$$}}, where {{$x_{_{N} }$ is a [periodic summation](periodic%20summation.md) of the $x$ sequence: $(x_{_{N} })_{n}\ \triangleq \sum _{m=-\infty }^{\infty }x_{(n-mN)}$}}. <!--SR:!2025-08-03,268,347!2024-11-28,79,347!2024-12-06,86,347!2024-12-25,94,307!2024-11-17,71,347!2025-02-16,131,307!2024-11-23,75,347-->
 
 Customarily, the DFT and inverse DFT summations are taken {{over the domain $[0, N - 1]$}}. Defining those DFTs as $X$ and $Y$, the result is: {{$$(x*y_{_{N} })_{n}\triangleq \sum _{\ell =-\infty }^{\infty }x_{\ell }\cdot (y_{_{N} })_{n-\ell }=\underbrace { {\mathcal {F} }^{-1} } _{\rm {DFT^{-1} } }\left\{X\cdot Y\right\}_{n}$$}}. <!--SR:!2024-11-14,68,347!2024-11-18,57,287-->
 

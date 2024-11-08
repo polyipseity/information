@@ -154,7 +154,7 @@ Dynamic analysis is {{analyzing the program while executing it}}. Techniques inc
 Some common tools are:
 
 - GNU Debugger (`gdb`) ::: A commonly used program debugger on Linux. Best used with extensions like GDB Enhanced Features (GEF), `pwndbg`, etc. <!--SR:!2024-12-02,70,337!2024-12-06,73,337-->
-- Ghidra ::: An open-source powerful decompiler and disassembler developed by the National Security Agency (NSA). It can also act as a debugger itself or use `gdb` as its backend. <!--SR:!2024-11-08,46,317!2024-12-04,72,337-->
+- Ghidra ::: An open-source powerful decompiler and disassembler developed by the National Security Agency (NSA). It can also act as a debugger itself or use `gdb` as its backend. <!--SR:!2025-05-29,202,337!2024-12-04,72,337-->
 - `strace` ::: Trace system calls and signals in realtime. <!--SR:!2024-11-28,65,345!2024-11-22,59,310-->
 - `ltrace` ::: Trace library calls, e.g. `glibc`. <!--SR:!2024-11-27,64,323!2024-12-11,77,345-->
 

@@ -65,11 +65,11 @@ In [Karamata](Jovan%20Karamata.md)–[Knuth](Donald%20Knuth.md) notation for [St
 
 - alternative ways to write the formula :::  $$L(n,k)={n-1 \choose k-1}{\frac {n!}{k!} }={n \choose k}{\frac {(n-1)!}{(k-1)!} }={n \choose k}{n-1 \choose k-1}(n-k)!$$ <!--SR:!2024-11-13,13,270!2024-11-17,17,290-->
 - formula with square ::: $$L(n,k)={\frac {n!(n-1)!}{k!(k-1)!} }\cdot {\frac {1}{(n-k)!} }=\left({\frac {n!}{k!} }\right)^{2}{\frac {k}{n(n-k)!} }$$ <!--SR:!2024-11-13,13,270!2024-11-17,17,290-->
-- recurrence formula derivation ::: $$k(k+1)L(n,k+1)=(n-k)L(n,k)$$, for $k>0$. <!--SR:!2024-11-11,4,230!2024-11-08,9,250-->
+- recurrence formula derivation ::: $$k(k+1)L(n,k+1)=(n-k)L(n,k)$$, for $k>0$. <!--SR:!2024-11-11,4,230!2024-12-11,33,270-->
 
 ### recurrence relations
 
-The Lah numbers satisfy {{the recurrence relations $${\begin{aligned}L(n+1,k)&=(n+k)L(n,k)+L(n,k-1)\\&=k(k+1)L(n,k+1)+2kL(n,k)+L(n,k-1)\end{aligned} }$$}} (Annotation: The above can be derived combinatorically by {{using the method of distinguished element}}.) where {{$L(n,0)=\delta _{n}$, the [Kronecker delta](kronecker%20delta.md), and $L(n,k)=0$ for all $k>n$}}. <!--SR:!2024-11-08,9,250!2024-11-17,17,290!2024-11-17,17,290-->
+The Lah numbers satisfy {{the recurrence relations $${\begin{aligned}L(n+1,k)&=(n+k)L(n,k)+L(n,k-1)\\&=k(k+1)L(n,k+1)+2kL(n,k)+L(n,k-1)\end{aligned} }$$}} (Annotation: The above can be derived combinatorically by {{using the method of distinguished element}}.) where {{$L(n,0)=\delta _{n}$, the [Kronecker delta](kronecker%20delta.md), and $L(n,k)=0$ for all $k>n$}}. <!--SR:!2024-12-11,33,270!2024-11-17,17,290!2024-11-17,17,290-->
 
 ### exponential generating function
 

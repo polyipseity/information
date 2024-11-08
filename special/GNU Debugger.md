@@ -19,7 +19,7 @@ Command names can be {{truncated at the end to produce an abbreviation if the ab
 
 ### common commands
 
-- `apropos <regex>` ::: find text matching `<regex>` <!--SR:!2024-11-08,52,310!2025-02-13,119,290-->
+- `apropos <regex>` ::: find text matching `<regex>` <!--SR:!2025-06-22,226,330!2025-02-13,119,290-->
 - `backtrace` ::: print backtrace or call stack <!--SR:!2024-11-11,54,310!2024-11-10,54,310-->
 - `break <where>` ::: set a breakpoint <!--SR:!2025-06-14,220,330!2024-12-02,69,310-->
 - `continue` ::: continue program execution <!--SR:!2025-04-12,165,310!2025-05-30,207,330-->
@@ -55,7 +55,7 @@ Command names can be {{truncated at the end to produce an abbreviation if the ab
 - `pwndbg>` color (may differ depending on your configuration) ::: cyan: program is running; red: program is not running <!--SR:!2024-11-09,53,310!2025-04-28,173,310-->
 - `checksec` ::: print the binary security settings <!--SR:!2025-01-02,77,345!2025-01-13,88,345-->
 - `down` ::: move down the backtrace or call stack <!--SR:!2024-11-10,53,310!2024-11-16,58,310-->
-- `up` ::: move up the backtrace or call stack <!--SR:!2024-11-11,55,310!2024-11-08,45,290-->
+- `up` ::: move up the backtrace or call stack <!--SR:!2024-11-11,55,310!2025-05-12,185,310-->
 
 #### `pwndbg` heap
 
@@ -69,8 +69,8 @@ Command names can be {{truncated at the end to produce an abbreviation if the ab
 #### `pwndbg` stack
 
 - `stack <count> <offset>` ::: prints stack data with the specified count and offset <!--SR:!2025-01-13,88,345!2024-11-12,43,305-->
-- `stackf <count> <offset>` ::: prints entire stack frame with the specified count and offset <!--SR:!2024-11-18,46,305!2024-11-08,39,305-->
+- `stackf <count> <offset>` ::: prints entire stack frame with the specified count and offset <!--SR:!2024-11-18,46,305!2025-03-10,122,305-->
 
 ## miscellaneous
 
-- getting `glibc` version ::: Run the library itself, e.g. `/lib/libc.so.6`. Or run the linker with `--version`, e.g. `ldd --version`. Or in a program, use the string returned from `gnu_get_libc_version()` in `<gnu/libc-version.h>`. <!--SR:!2024-11-08,45,290!2025-04-16,168,310-->
+- getting `glibc` version ::: Run the library itself, e.g. `/lib/libc.so.6`. Or run the linker with `--version`, e.g. `ldd --version`. Or in a program, use the string returned from `gnu_get_libc_version()` in `<gnu/libc-version.h>`. <!--SR:!2025-05-11,184,310!2025-04-16,168,310-->

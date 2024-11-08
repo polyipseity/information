@@ -64,7 +64,7 @@ The induction axiom is sometimes stated in the following form:
 9. 9th axiom condition (predicate) ::: If _φ_ is a unary [predicate](predicate%20(mathematical%20logic).md) such that: _φ_(0) is true, and for every natural number _n_, _φ_(_n_) being true implies that _φ_(_S_(_n_)) is true, then _φ_(_n_) is true for every natural number _n_. <!--SR:!2024-12-19,78,325!2025-03-08,135,322-->
 <!-- markdownlint-restore -->
 
-In Peano's original formulation, the induction axiom is {{a [second-order axiom](second-order%20logic.md)}}. It is now common to {{replace this second-order principle with a weaker [first-order](first-order%20logic.md) induction scheme}}. There are {{important differences between the second-order and first-order formulations, as discussed in the section [§ Peano arithmetic as first-order theory](#peano%20arithmetic%20as%20first-order%20theory) below}}. <!--SR:!2024-11-08,44,305!2024-11-12,46,290!2024-12-16,75,325-->
+In Peano's original formulation, the induction axiom is {{a [second-order axiom](second-order%20logic.md)}}. It is now common to {{replace this second-order principle with a weaker [first-order](first-order%20logic.md) induction scheme}}. There are {{important differences between the second-order and first-order formulations, as discussed in the section [§ Peano arithmetic as first-order theory](#peano%20arithmetic%20as%20first-order%20theory) below}}. <!--SR:!2025-05-17,190,325!2024-11-12,46,290!2024-12-16,75,325-->
 
 ### defining arithmetic operations and relations
 

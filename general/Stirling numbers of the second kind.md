@@ -119,7 +119,7 @@ If {{$n\geq 2$ and $1\leq k\leq n-1$}}, then {{$${\frac {1}{2} }(k^{2}+k+2)k^{n-
 
 ### asymptotic approximation
 
-For {{fixed value of $k$}}, the asymptotic value of the Stirling numbers of the second kind as $n\rightarrow \infty$ is {{given by $$\left\{ {n \atop k}\right\}{\underset {n\to \infty }{\sim } }{\frac {k^{n} }{k!} }.$$}} <!--SR:!2024-11-10,10,250!2024-11-08,5,230-->
+For {{fixed value of $k$}}, the asymptotic value of the Stirling numbers of the second kind as $n\rightarrow \infty$ is {{given by $$\left\{ {n \atop k}\right\}{\underset {n\to \infty }{\sim } }{\frac {k^{n} }{k!} }.$$}} <!--SR:!2024-11-10,10,250!2024-11-11,3,210-->
 
 If {{$n=o({\sqrt {k} })$ (where _o_ denotes the [little o notation](big%20O%20notation.md#little-o%20notation))}} then {{$$\left\{ {n+k \atop k}\right\}{\underset {k\to \infty }{\sim } }{\frac {k^{2n} }{2^{n}n!} }.$$}}<sup>[\[13\]](#^ref-13)</sup> <!--SR:!2024-11-15,13,270!2024-11-09,8,250-->
 
@@ -161,7 +161,7 @@ In other words, {{the _n_-th moment of this [probability distribution](probabili
 
 ### reduced Stirling numbers of the second kind
 
-Denote {{the _n_ objects to partition by the integers 1, 2, ..., _n_}}. Define {{the reduced Stirling numbers of the second kind, denoted $S^{d}(n,k)$}}, to be {{the number of ways to partition the integers 1, 2, ..., _n_ into _k_ nonempty subsets such that all elements in each subset have pairwise distance at least _d_}}. That is, for {{any integers _i_ and _j_ in a given subset}}, it is {{required that $|i-j|\geq d$}}. It has been shown that these numbers {{satisfy $$S^{d}(n,k)=S(n-d+1,k-d+1),n\geq k\geq d$$ (hence the name "reduced")}}.<sup>[\[18\]](#^ref-18)</sup> (Annotation: This can be proved by {{proving bases cases and their connections to the familiar Stirling numbers numbers of the second kind, derive a recurrence relation (simpler than you think, if you consider adding a last element _n_), and then prove by induction}}.) Observe {{(both by definition and by the reduction formula), that $S^{1}(n,k)=S(n,k)$, the familiar Stirling numbers of the second kind}}. <!--SR:!2024-11-19,17,290!2024-11-19,17,290!2024-11-19,17,290!2024-11-19,17,290!2024-11-19,17,290!2024-11-08,6,230!2024-11-19,17,290!2024-11-18,17,290-->
+Denote {{the _n_ objects to partition by the integers 1, 2, ..., _n_}}. Define {{the reduced Stirling numbers of the second kind, denoted $S^{d}(n,k)$}}, to be {{the number of ways to partition the integers 1, 2, ..., _n_ into _k_ nonempty subsets such that all elements in each subset have pairwise distance at least _d_}}. That is, for {{any integers _i_ and _j_ in a given subset}}, it is {{required that $|i-j|\geq d$}}. It has been shown that these numbers {{satisfy $$S^{d}(n,k)=S(n-d+1,k-d+1),n\geq k\geq d$$ (hence the name "reduced")}}.<sup>[\[18\]](#^ref-18)</sup> (Annotation: This can be proved by {{proving bases cases and their connections to the familiar Stirling numbers numbers of the second kind, derive a recurrence relation (simpler than you think, if you consider adding a last element _n_), and then prove by induction}}.) Observe {{(both by definition and by the reduction formula), that $S^{1}(n,k)=S(n,k)$, the familiar Stirling numbers of the second kind}}. <!--SR:!2024-11-19,17,290!2024-11-19,17,290!2024-11-19,17,290!2024-11-19,17,290!2024-11-19,17,290!2024-11-29,21,250!2024-11-19,17,290!2024-11-18,17,290-->
 
 ## see also
 

@@ -17,7 +17,7 @@ If you try to {{get the type of a list using `type(list)`}}, {{the returned type
 
 To define a list in Python, {{enclose all items in square brackets `[]` and separate each item by a comma `,`, like `[1, 2, "item", 4.2, "ok", 'hey', False]`}}. An empty list is {{allowed and created using `[]`, and can be expanded later}}. A trailing comma is {{allowed and optional after the last item (but not if there are no items, i.e. `[,]` is invalid)}}. Note that a list can {{contain items of different types (including lists) like the example just now, though usually it is more useful for them to be the same type}}. <!--SR:!2025-03-26,148,314!2025-03-10,135,314!2025-02-02,98,294!2025-04-15,160,314-->
 
-ISOM 2020 note: Note that {{`(..., ...)`}} is {{creating a `tuple`, a type that is similar to a `list` but is immutable (not modifiable)}}. But you {{do not need to care or know about it}}. <!--SR:!2024-11-08,18,340!2024-11-08,18,340!2024-11-08,18,340-->
+ISOM 2020 note: Note that {{`(..., ...)`}} is {{creating a `tuple`, a type that is similar to a `list` but is immutable (not modifiable)}}. But you {{do not need to care or know about it}}. <!--SR:!2025-01-30,83,360!2025-02-02,86,360!2025-02-03,87,360-->
 
 ## indexing
 
@@ -43,7 +43,7 @@ You can {{use the [indexing](#indexing) notation to replace the _n_-th item of a
 
 To {{add a new item (not replace existing items) to the back of a list}}, use {{`list.append(value)`}}. Its return value is {{nothing (`None`)}}. <!--SR:!2025-02-13,113,294!2024-12-01,62,314!2025-01-26,99,294-->
 
-To {{remove an the _n_-th existing item}}. use {{`list.pop(index)`, with `index` being _n_ - 1}}. Note that `index` accepts {{numbers in the same ways as in the [indexing](#indexing) notation, i.e. negative indices are accepted and have the same meaning}}. Likewise, if {{the index is out of range or `list` is empty}}, then {{an `IndexError` will be raised}}. Not specifying {{the `index` is also okay (`list.pop()`), and `index` will be set to `-1` by default, meaning the last item will be removed}}. After removing the item, it will {{return the removed item}}. <!--SR:!2024-11-08,44,294!2025-04-02,153,314!2024-11-09,44,294!2024-11-30,61,314!2025-03-04,130,314!2024-12-07,67,314!2024-11-28,59,310-->
+To {{remove an the _n_-th existing item}}. use {{`list.pop(index)`, with `index` being _n_ - 1}}. Note that `index` accepts {{numbers in the same ways as in the [indexing](#indexing) notation, i.e. negative indices are accepted and have the same meaning}}. Likewise, if {{the index is out of range or `list` is empty}}, then {{an `IndexError` will be raised}}. Not specifying {{the `index` is also okay (`list.pop()`), and `index` will be set to `-1` by default, meaning the last item will be removed}}. After removing the item, it will {{return the removed item}}. <!--SR:!2025-05-10,183,314!2025-04-02,153,314!2024-11-09,44,294!2024-11-30,61,314!2025-03-04,130,314!2024-12-07,67,314!2024-11-28,59,310-->
 
 To {{concatenate/join two lists (or strings)}}, use {{the `+` operator}}. Note that {{the resulting list is different from the original 2 lists, i.e. modifying the resulting list will not modify the original 2 lists}}. Since {{`str`s cannot be modified}}, the above is irrelevant for strings. If {{the `+` operator is applied between different types}}, then {{a `TypeError` will be raised}}. <!--SR:!2025-01-08,83,336!2025-01-08,83,336!2025-01-08,83,336!2025-01-08,83,336!2025-01-08,83,336!2025-01-08,83,336-->
 
@@ -61,6 +61,6 @@ Aggregate functions {{summarize a result from a list}}. <!--SR:!2025-03-22,145,3
 
 ## search functions
 
-- `val in list`, `val not in list` ::: Returns a `bool` indicating whether `val` is in `list`. Equality is compared using `==`, so `0.0 in [0]` is `True` instead of `False`. The `not in` operator simply inverts the `bool` returned by `in` operator. <!--SR:!2024-11-08,18,340!2024-11-08,18,340-->
+- `val in list`, `val not in list` ::: Returns a `bool` indicating whether `val` is in `list`. Equality is compared using `==`, so `0.0 in [0]` is `True` instead of `False`. The `not in` operator simply inverts the `bool` returned by `in` operator. <!--SR:!2025-01-29,82,360!2025-01-31,84,360-->
 - `list.count(val)` ::: Count the number of `val`s in `list`. Returns `0` if `val` is not found in the list. Equality is compared using `==`, so `[0, 0.0].count(0.0)` is `2` instead of `1`. <!--SR:!2024-11-17,40,316!2025-01-08,83,336-->
 - `list.index(val)` ::: Returns the index of `val` in `list`. The index of the leftmost item is returned if there are multiple matching items. Raises `ValueError` if `val` is not found in the list. Equality is compared using `==`, so `[0, 0.0].index(0.0)` is `0` instead of `1`. <!--SR:!2025-01-08,83,336!2025-01-08,83,336-->

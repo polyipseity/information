@@ -87,7 +87,7 @@ The content is in teaching order.
   - torsion examples ::: drill pipes, power transmission shafts, tall buildings <!--SR:!2026-01-23,463,330!2025-02-19,207,330-->
 - [shear](../../../../general/shear%20force.md) ::: created by forces not acting on the same line; think of a rectangle being "parallelogramized" by 2 forces facing opposite directions <!--SR:!2025-08-18,354,350!2025-05-20,285,350-->
   - shear examples ::: shear damage of road surface due to braking of heavy vehicles or fast running rainwater <!--SR:!2024-12-16,148,310!2025-03-24,224,330-->
-- [structural support](../../../../general/structural%20support.md) ::: fixed support, pinned support, roller support <!--SR:!2024-11-08,120,310!2025-06-10,302,350-->
+- [structural support](../../../../general/structural%20support.md) ::: fixed support, pinned support, roller support <!--SR:!2026-04-07,515,330!2025-06-10,302,350-->
   - [§ roller support](../../../../general/structural%20support.md#roller%20support)
   - [§ pinned support](../../../../general/structural%20support.md#pinned%20support)
   - [§ fixed support](../../../../general/structural%20support.md#fixed%20support)
