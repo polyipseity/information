@@ -705,6 +705,7 @@ ID: 23456789
 - grades: ?/100
 - report
   - TODO
+    - What should you do if you see a time-wasting question? ::: De-prioritize it. Do it last. And do not spend time to check it afterwards unless you have checked everything else carefully.
 
 ## final examination
 
