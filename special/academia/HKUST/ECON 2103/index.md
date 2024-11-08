@@ -405,8 +405,10 @@ The content is in teaching order.
     - consumer surplus / interpretation ::: It is _usually_ a good measurement of economic well-being (welfare) of a society. But there are controversial ones, such as drugs, trade for human organs, etc. where there is a difference between individual and society perspective.
   - producer surplus ::: It is the amount that producers benefit by selling at a market price that is higher than the least that they would be _willing to sell for_; this is roughly equal to profit (since producers are not normally willing to sell at a loss and are normally indifferent to selling at a break-even price).
     - producer surplus / calculation ::: Calculate the actual price minus the lowest price that producers would be _willing to sell for_ for each unit. The sum over all units actually sold is the __producer surplus__. <p> In general, this is the area below the equilibrium price but above the supply curve.
-- demand schedule ::: It is a table. The left column shows the price (ranges), in decreasing amount. The right column shows the quantity demanded, in increasing amount. For break-even price, we assume the relevant consumers still consume.
-- supply schedule ::: It is a table. The left column shows the price (ranges), in decreasing amount. The right column shows the quantity supplied, in decreasing amount. For break-even price, we assume the relevant producers still supply.
+- demand schedule
+  - demand schedule table ::: It is a table. The left column shows the price (ranges), in decreasing amount. The right column shows the quantity demanded, in increasing amount. For break-even price, we assume the relevant consumers still consume.
+- supply schedule
+  - supply schedule table ::: It is a table. The left column shows the price (ranges), in decreasing amount. The right column shows the quantity supplied, in decreasing amount. For break-even price, we assume the relevant producers still supply.
 - [economic surplus](../../../../general/economic%20surplus.md)
   - total surplus ::: The sum of _consumer surplus_ and _producer surplus_.
     - total surplus / calculation ::: Add the _consumer surplus_ and _produce surplus_. Alternatively, calculate the highest price that consumers would be _willing to pay_ minus the lowest price that producers would be _willing to sell for_ for each unit for each unit. The sum over all units actually traded is the __total surplus__. <p> In general, this is the area above the supply curve and below the demand curve.

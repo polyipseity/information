@@ -304,6 +304,7 @@ This text incorporates [content](https://en.wikipedia.org/wiki/mathematical_indu
 - [Knuth, Donald E.](Donald%20Knuth.md) (1997). [_The Art of Computer Programming, Volume 1: Fundamental Algorithms_](The%20Art%20of%20Computer%20Programming.md) (3rd ed.). Addison-Wesley. [ISBN](ISBN.md) [978-0-201-89683-1](https://en.wikipedia.org/wiki/Special%3ABookSources/978-0-201-89683-1). (Section 1.2.1: Mathematical Induction, pp. 11–21.)
 - [Kolmogorov, Andrey N.](Andrey%20Kolmogorov.md); [Fomin, Sergei V.](Sergei%20Fomin.md) (1975). [_Introductory Real Analysis_](https://archive.org/details/introductoryreal00kolm_0). Silverman, R. A. (trans., ed.). New York: Dover. [ISBN](ISBN.md) [978-0-486-61226-3](https://en.wikipedia.org/wiki/Special%3ABookSources/978-0-486-61226-3). (Section 3.8: Transfinite induction, pp. 28–29.)
 
+<!-- markdownlint-disable-next-line MD024 -->
 ### history
 
 - Acerbi, Fabio (August 2000). ["Plato: _Parmenides_ 149a7-c3. A Proof by Complete Induction?"](https://www.academia.edu/8016024). _[Archive for History of Exact Sciences](Archive%20for%20History%20of%20Exact%20Sciences.md)_. __55__ (1): 57–76. [doi](digital%20object%20identifier.md):[10.1007/s004070000020](https://doi.org/10.1007%2Fs004070000020). [JSTOR](JSTOR.md) [41134098](https://www.jstor.org/stable/41134098). [S2CID](Semantic%20Scholar.md#S2CID) [123045154](https://api.semanticscholar.org/CorpusID:123045154).
