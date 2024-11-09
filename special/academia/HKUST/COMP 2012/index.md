@@ -44,9 +44,9 @@ The content is in teaching order.
 - midterm examination
   - report
     - This time there is a debugging question with 3 pages of code. So er... do that question last.
-      - What should you do if you see a time-wasting question? ::: De-prioritize it. Do it last. And do not spend time to check it afterwards unless you have checked everything else carefully.
+      - What should you do if you see a time-wasting question? ::: De-prioritize it. Do it last. And do not spend time to check it afterwards unless you have checked everything else carefully. <!--SR:!2024-11-13,4,270!2024-11-13,4,270-->
 - final examination
   - report
     - Not much to say.
     - Unsure if they have taught this, but even with copy elision off, but [automatic move from local variables and parameters](https://en.cppreference.com/w/cpp/language/return#Automatic_move_from_local_variables_and_parameters) still exists.
-      - automatic move from local variables and parameters ::: Even with copy elision off, automatic move from local variables and parameters still exists.
+      - automatic move from local variables and parameters ::: Even with copy elision off, automatic move from local variables and parameters still exists. <!--SR:!2024-11-13,4,270!2024-11-13,4,270-->

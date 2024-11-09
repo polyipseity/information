@@ -28,8 +28,8 @@ The content is in teaching order.
 - final exam
   - report
     - Used async iteration instead of sync iteration as required...
-      - async iteration, sync iteration ::: A single-character difference matters...
+      - async iteration, sync iteration ::: A single-character difference matters... <!--SR:!2024-11-13,4,270!2024-11-13,4,270-->
     - When drawing the interpolated graph, they also wanted the old graph as dotted line... Obviously, most missed it, so it was actually fine.
-      - interpolated graph format ::: Ideally, copy the format from the lecture slides.
+      - interpolated graph format ::: Ideally, copy the format from the lecture slides. <!--SR:!2024-11-13,4,270!2024-11-13,4,270-->
     - There is a special rule for click > ??? (forgot), which was not mentioned on the slides but on their videos. Whatever, they added the 1 mark back.
     - Yeah, only the final exam can differentiate students...

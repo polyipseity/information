@@ -527,7 +527,7 @@ The content is in teaching order.
   - types: 80% long questions, 20% multiple choice questions
   - report
     - Very very tight time limit. Do the paper as-if you do not have enough time.
-      - handle midterm examination time limit ::: Do any midterm paper as if you do not have enough time.
+      - handle midterm examination time limit ::: Do any midterm paper as if you do not have enough time. <!--SR:!2024-11-14,5,382!2024-11-14,5,382-->
 - final examination
   - bonus question (+10%, max 100%): no
   - cheatsheet: 1 sheet of A4-sized paper, double-sided
@@ -537,4 +537,4 @@ The content is in teaching order.
   - types: 100% short or long questions, 0% multiple choice questions
   - report
     - Time is much more lenient.
-      - handle final examination time limit ::: While not as important, it is still a good idea to do any final paper as if you do not have enough time.
+      - handle final examination time limit ::: While not as important, it is still a good idea to do any final paper as if you do not have enough time. <!--SR:!2024-11-14,5,382!2024-11-14,5,382-->

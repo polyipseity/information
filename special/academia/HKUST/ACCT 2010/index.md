@@ -173,9 +173,9 @@ The content is in teaching order.
   - high: 58
 - report
   - The TA forgot to add the marks of the last page... This is why one should paper checking.
-    - What should you do if you firmly believe that your marks should not be that low? ::: Check your paper!
+    - What should you do if you firmly believe that your marks should not be that low? ::: Check your paper! <!--SR:!2024-11-13,4,329!2024-11-13,4,329-->
   - Need to recheck when will a recording mistake of transaction be found... (-1, MCQ)
-    - transaction analysis & mistake finding ::: Note that in non-electronic transaction analysis, error will not found during recording the transaction. The first possible opportunity is the preparation of the trial balance. We only consider this case. <p> With electronic transaction analysis, the mistake may be found on recording.
+    - transaction analysis & mistake finding ::: Note that in non-electronic transaction analysis, error will not found during recording the transaction. The first possible opportunity is the preparation of the trial balance. We only consider this case. <p> With electronic transaction analysis, the mistake may be found on recording. <!--SR:!2024-11-13,4,329!2024-11-13,4,329-->
   - Forgot, something related to accrued expense, insurance, insurance premium... (-1, MCQ)
-    - insurance premium ::: Insurance premium is a cost that you pay for the insurance, not a benefit that the insurance gives you!
+    - insurance premium ::: Insurance premium is a cost that you pay for the insurance, not a benefit that the insurance gives you! <!--SR:!2024-11-13,4,329!2024-11-13,4,329-->
   - Need to remember 5 reasons why a financial analyst uses the quick ratio... (-2, LQ)
