@@ -332,7 +332,7 @@ return _chain.from_iterable(await _gather(
 
 - _(begin)_→:::←`AVERAGE(numbers...)` <!--SR:!2025-12-27,485,290!2024-12-03,235,330-->
 - `AVERAGE(numbers...)`→:::←`COUNTIF(values, criteria)` <!--SR:!2025-02-27,257,290!2025-04-28,259,290-->
-- `COUNTIF(values, criteria)`→:::←`IF(boolean, value_if_true[, value_if_false = FALSE])` <!--SR:!2024-11-09,196,310!2025-03-09,231,290-->
+- `COUNTIF(values, criteria)`→:::←`IF(boolean, value_if_true[, value_if_false = FALSE])` <!--SR:!2026-07-10,608,310!2025-03-09,231,290-->
 - `IF(boolean, value_if_true[, value_if_false = FALSE])`→:::←`MAX(numbers...)` <!--SR:!2024-12-17,178,230!2024-12-26,211,270-->
 - `MAX(numbers...)`→:::←`MIN(numbers...)` <!--SR:!2024-12-28,255,330!2024-12-04,237,330-->
 - `MIN(numbers...)`→:::←`RANK(number, numbers...)` <!--SR:!2025-01-23,171,210!2025-04-21,291,270-->

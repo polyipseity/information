@@ -182,7 +182,7 @@ return (
 > hydroxides
 >
 > - general solubility: {{<span style="color: red;">insoluble</span>}}
-> - exception(s): {{group I, group II (except [Be(OH)<sub>2</sub>](beryllium%20hydroxide.md) and [Mg(OH)<sub>2</sub>](magnesium%20hydroxide.md)), NH<sub>4</sub><sup>+</sup>, Ba<sup>2+</sup>, Sr<sup>2+</sup>, and Tl<sup>+</sup> compounds ([Ca(OH)<sub>2</sub>](calcium%20hydroxide.md) is slightly soluble)}} <!--SR:!2025-04-08,628,230!2024-11-09,427,230-->
+> - exception(s): {{group I, group II (except [Be(OH)<sub>2</sub>](beryllium%20hydroxide.md) and [Mg(OH)<sub>2</sub>](magnesium%20hydroxide.md)), NH<sub>4</sub><sup>+</sup>, Ba<sup>2+</sup>, Sr<sup>2+</sup>, and Tl<sup>+</sup> compounds ([Ca(OH)<sub>2</sub>](calcium%20hydroxide.md) is slightly soluble)}} <!--SR:!2025-04-08,628,230!2025-06-10,213,210-->
 
 <!-- markdownlint MD028 -->
 

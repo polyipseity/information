@@ -67,7 +67,7 @@ The content is in teaching order.
     - [geo-technical engineering structure examples](#geo-technical%20engineering%20structure%20examples)
   - [geo-technical engineering risks](#geo-technical%20engineering%20risks)
     - geo-technical engineering risk migration ::: soil improvement or retaining structures can migrate risk to society <!--SR:!2024-12-05,162,340!2025-07-09,335,377-->
-- hydraulic engineering ::: conveyance and flow of fluids, principally sewage and water <!--SR:!2024-11-09,159,285!2025-05-07,300,365-->
+- hydraulic engineering ::: conveyance and flow of fluids, principally sewage and water <!--SR:!2026-02-12,460,285!2025-05-07,300,365-->
   - hydraulic engineering structures ::: design and construction of hydraulic structures <!--SR:!2025-09-24,372,324!2025-04-26,293,365-->
     - [hydraulic engineering structure examples](#hydraulic%20engineering%20structure%20examples)
   - hydraulic engineering systems ::: planning, development, and management of discharge systems and water resources <!--SR:!2025-07-09,302,320!2025-01-16,209,352-->
@@ -198,7 +198,7 @@ water and sewage treatment system
 - pipeline→:::←power plant <!--SR:!2025-01-13,152,260!2025-08-31,313,281-->
 - power plant→:::←reservoir <!--SR:!2025-01-10,164,275!2025-03-20,147,300-->
 - reservoir→:::←sewage treatment <!--SR:!2025-01-24,122,197!2025-03-13,189,261-->
-- sewage treatment→:::←transport <!--SR:!2024-11-09,46,190!2024-12-13,152,301-->
+- sewage treatment→:::←transport <!--SR:!2025-03-17,128,210!2024-12-13,152,301-->
 - transport→:::←water and sewage treatment system <!--SR:!2026-02-13,465,340!2024-11-20,27,130-->
 - water and sewage treatment system→:::←_(end)_ <!--SR:!2025-12-24,482,401!2025-04-10,252,361-->
 
@@ -540,7 +540,7 @@ wood
 
 - _(begin)_→:::←brick <!--SR:!2025-03-11,233,357!2026-12-30,786,332-->
 - brick→:::←concrete <!--SR:!2025-03-03,185,305!2026-02-28,548,397-->
-- concrete→:::←new synthetic materials <!--SR:!2024-11-09,127,301!2024-12-07,161,341-->
+- concrete→:::←new synthetic materials <!--SR:!2025-11-26,382,301!2024-12-07,161,341-->
 - new synthetic materials→:::←steel <!--SR:!2024-11-20,155,332!2025-09-08,375,340-->
 - steel→:::←stone <!--SR:!2025-04-04,202,320!2024-12-03,159,340-->
 - stone→:::←wood <!--SR:!2025-04-11,240,321!2025-09-06,361,332-->

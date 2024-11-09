@@ -301,7 +301,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 5. purple (not violet)
 >
 > - solution: {{5}}
-> - explanation: {{Purple is the combination of red and blue. However, red and blue are on the two opposite ends of the visible spectrum, so the spectral radiance graph would need to have 2 peaks. This is impossible for thermal radiation to produce, as predicted by the Wien approximation. For more, see [Planckian locus](../../../../general/Planckian%20locus.md).}} <!--SR:!2024-11-11,86,348!2024-11-09,84,348-->
+> - explanation: {{Purple is the combination of red and blue. However, red and blue are on the two opposite ends of the visible spectrum, so the spectral radiance graph would need to have 2 peaks. This is impossible for thermal radiation to produce, as predicted by the Wien approximation. For more, see [Planckian locus](../../../../general/Planckian%20locus.md).}} <!--SR:!2024-11-11,86,348!2025-12-18,404,368-->
 
 ## 2024-07-18
 
@@ -315,7 +315,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 6. No width broadening but blue-shifted.
 >
 > - solution: {{1}}
-> - explanation: {{First, the star is not moving, so the spectral line should be unshifted. Now consider the surface of a very fast rotating star. In particular, consider the left and right sides of the rotating star. The surface of one side is approaching us very quickly, and that of the other side is moving away from us very quickly as well. This would mean part of the light from the star is blue-shifted and another part is red-shifted. The result is that the spectral line broadens.}} <!--SR:!2025-04-21,193,328!2024-11-09,84,348-->
+> - explanation: {{First, the star is not moving, so the spectral line should be unshifted. Now consider the surface of a very fast rotating star. In particular, consider the left and right sides of the rotating star. The surface of one side is approaching us very quickly, and that of the other side is moving away from us very quickly as well. This would mean part of the light from the star is blue-shifted and another part is red-shifted. The result is that the spectral line broadens.}} <!--SR:!2025-04-21,193,328!2025-12-19,405,368-->
 
 <!-- markdownlint MD028 -->
 
@@ -385,7 +385,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 4. 24 AU
 >
 > - solution: {{3}}
-> - explanation: {{Find the factor the Sun needs to be dimmer to have an apparent magnitude of 1.98: $$f_B = 100^{-\frac {1.98 - (-26.832)} 5} = 100^{-5.7624} \approx 2.98675776 \times 10^{-12}$$. As the apparent brightness is inversely proportional to the square of distance, the factor the Sun needs to be farther away is $$f_d = 1 / \sqrt{2.98675776 \times 10^{-12} } \approx 578628.74$$. As the Sun is 1 AU away, the answer is about 5.8×10<sup>5</sup> AU.}} <!--SR:!2024-11-09,56,271!2025-04-19,174,291-->
+> - explanation: {{Find the factor the Sun needs to be dimmer to have an apparent magnitude of 1.98: $$f_B = 100^{-\frac {1.98 - (-26.832)} 5} = 100^{-5.7624} \approx 2.98675776 \times 10^{-12}$$. As the apparent brightness is inversely proportional to the square of distance, the factor the Sun needs to be farther away is $$f_d = 1 / \sqrt{2.98675776 \times 10^{-12} } \approx 578628.74$$. As the Sun is 1 AU away, the answer is about 5.8×10<sup>5</sup> AU.}} <!--SR:!2025-04-09,151,271!2025-04-19,174,291-->
 
 <!-- markdownlint MD028 -->
 

@@ -62,7 +62,7 @@ return (
 - element in a free form: 0→:::←ionic compound or ion: _charge_ <!--SR:!2025-11-27,764,270!2025-02-21,620,310-->
 - ionic compound or ion: _charge_→:::←fluorine: -1 <!--SR:!2025-11-05,662,250!2026-02-04,496,270-->
 - fluorine: -1→:::←(if not bonded to a lighter halogen, oxygen, or nitrogen) chlorine, bromine: -1 <!--SR:!2027-05-05,930,230!2025-09-19,714,270-->
-- (if not bonded to a lighter halogen, oxygen, or nitrogen) chlorine, bromine: -1→:::←group I metal: +1 <!--SR:!2027-08-07,1101,270!2024-11-09,232,210-->
+- (if not bonded to a lighter halogen, oxygen, or nitrogen) chlorine, bromine: -1→:::←group I metal: +1 <!--SR:!2027-08-07,1101,270!2026-03-11,487,210-->
 - group I metal: +1→:::←group II metal: +2 <!--SR:!2027-10-11,1380,330!2026-01-08,892,330-->
 - group II metal: +2→:::←metallic hydride: -1 <!--SR:!2025-01-04,62,190!2024-11-16,197,270-->
 - metallic hydride: -1→:::←hydrogen: +1 <!--SR:!2025-04-16,661,310!2024-12-10,576,310-->

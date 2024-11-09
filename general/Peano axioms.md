@@ -92,7 +92,7 @@ It is easy to see that $S(0)$ is {{the multiplicative [right identity](identity%
 
 To show that $S(0)$ is {{also the multiplicative left identity requires the induction axiom due to the way multiplication is defined}}: <!--SR:!2024-12-20,79,325-->
 
-- multiplicative left identity / base case ::: $S(0)$ is the left identity of 0: $S(0)\cdot 0=0$. <!--SR:!2024-11-09,45,305!2024-11-30,62,325-->
+- multiplicative left identity / base case ::: $S(0)$ is the left identity of 0: $S(0)\cdot 0=0$. <!--SR:!2025-05-20,192,325!2024-11-30,62,325-->
 - multiplication left identity / induction ::: If $S(0)$ is the left identity of $a$ (that is $S(0)\cdot a=a$), then $S(0)$ is also the left identity of $S(a)$: $S(0)\cdot S(a)=S(0)+S(0)\cdot a=S(0)+a=a+S(0)=S(a+0)=S(a)$, using commutativity of addition. <!--SR:!2025-01-08,84,285!2025-02-28,126,302-->
 
 Therefore, by {{the induction axiom $S(0)$ is the multiplicative left identity of all natural numbers}}. Moreover, it can be shown that {{multiplication is commutative and [distributes over](distributive%20property.md) addition: $$a\cdot (b+c)=(a\cdot b)+(a\cdot c)$$}}. <!--SR:!2024-12-16,75,325!2024-12-06,66,310-->
@@ -124,7 +124,7 @@ For any [predicate](predicate%20(mathematical%20logic).md) _φ_, if
 
 This form of the induction axiom, called {{_strong induction_, is a consequence of the standard formulation}}, but is {{often better suited for reasoning about the ≤ order}}. For example, to {{show that the naturals are [well-ordered](well-order.md)—every [nonempty](empty%20set.md) [subset](subset.md) of __N__ has a [least element](greatest%20element%20and%20least%20element.md)}}—one can reason as follows. <!--SR:!2024-11-13,46,305!2024-11-16,51,305!2024-12-14,74,325-->
 
-- proving the naturals are well-ordered / base case ::: Let a nonempty _X_ ⊆ __N__ be given and assume _X_ has no least element. Because 0 is the least element of __N__, it must be that 0 ∉ _X_. <!--SR:!2025-03-01,128,305!2024-11-09,44,290-->
+- proving the naturals are well-ordered / base case ::: Let a nonempty _X_ ⊆ __N__ be given and assume _X_ has no least element. Because 0 is the least element of __N__, it must be that 0 ∉ _X_. <!--SR:!2025-03-01,128,305!2025-05-05,177,310-->
 - proving the naturals are well-ordered / induction ::: For any _n_ ∈ __N__, suppose for every _k_ ≤ _n_, _k_ ∉ _X_. Then _S_(_n_) ∉ _X_, for otherwise it would be the least element of _X_. <!--SR:!2025-02-05,111,305!2024-12-29,74,285-->
 
 Thus, by {{the strong induction principle, for every _n_ ∈ __N__, _n_ ∉ _X_. Thus, _X_ ∩ __N__ = ∅, which [contradicts](contradiction.md) _X_ being a nonempty subset of __N__}}. Thus {{_X_ has a least element}}. <!--SR:!2025-01-20,95,285!2024-11-13,50,305-->

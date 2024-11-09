@@ -274,7 +274,7 @@ The content is in teaching order.
   - abbreviations
     - R&D ::: research & development <!--SR:!2024-11-25,133,390!2024-12-30,161,390-->
     - S&M ::: sales & marketing <!--SR:!2025-01-07,168,390!2026-07-12,620,410-->
-    - G&A ::: general & administration <!--SR:!2026-04-30,555,410!2024-11-09,118,390-->
+    - G&A ::: general & administration <!--SR:!2026-04-30,555,410!2026-08-01,630,410-->
     - CAGR ::: compound average growth rate; $$\text{CAGR} = \left(\frac {V_{\text{end} } } {V_{\text{start} } } \right)^{\frac 1 t} - 1$$ <!--SR:!2025-09-25,374,390!2026-07-26,625,410-->
 - interview note-taking technique using 1 sheet of A4 paper
 - exam for part 2 review

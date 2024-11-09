@@ -17,11 +17,11 @@ Audacity is {{an audio editor}}. It can be downloaded from {{<https://audacityte
 
 ### analysis (Audacity)
 
-Audacity can show {{the spectrogram of a signal}}. <!--SR:!2024-11-09,68,329-->
+Audacity can show {{the spectrogram of a signal}}. <!--SR:!2025-09-15,310,349-->
 
 ### generating periodic signals
 
-Audacity can generate {{real sine signals of any frequency and amplitude}}. The signals can also be {{non-sinusoidal, such as _sawtooth_-shaped and _triangle_-shaped}}, which have {{more complex frequency components}}. It can even generate signals that {{increases in frequency over time (increasing pitch)}}, called {{_chirp_}}. <!--SR:!2025-06-18,224,338!2025-05-06,196,338!2024-11-09,54,318!2025-05-30,210,338!2025-06-21,230,338-->
+Audacity can generate {{real sine signals of any frequency and amplitude}}. The signals can also be {{non-sinusoidal, such as _sawtooth_-shaped and _triangle_-shaped}}, which have {{more complex frequency components}}. It can even generate signals that {{increases in frequency over time (increasing pitch)}}, called {{_chirp_}}. <!--SR:!2025-06-18,224,338!2025-05-06,196,338!2025-07-05,238,338!2025-05-30,210,338!2025-06-21,230,338-->
 
 ## SonicVisualiser
 

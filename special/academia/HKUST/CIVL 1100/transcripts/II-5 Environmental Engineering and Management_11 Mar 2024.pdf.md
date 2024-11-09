@@ -101,7 +101,7 @@ return await memorize_seq(
 - (Cap. 311) Air Pollution Control Ordinance→:::←(Cap. 354) Waste Disposal Ordinance <!--SR:!2024-11-21,84,275!2025-01-27,111,275-->
 - (Cap. 354) Waste Disposal Ordinance→:::←(Cap. 358) Water Pollution Control Ordinance <!--SR:!2024-12-29,82,275!2025-04-03,165,315-->
 - (Cap. 358) Water Pollution Control Ordinance→:::←(Cap. 400) Noise Pollution Control Ordinance <!--SR:!2025-03-13,133,255!2024-11-10,24,235-->
-- (Cap. 400) Noise Pollution Control Ordinance→:::←(Cap. 499) Environmental Impact Ordinance <!--SR:!2025-02-06,149,295!2024-11-09,63,295-->
+- (Cap. 400) Noise Pollution Control Ordinance→:::←(Cap. 499) Environmental Impact Ordinance <!--SR:!2025-02-06,149,295!2025-05-16,188,295-->
 - (Cap. 499) Environmental Impact Ordinance→:::←_(end)_ <!--SR:!2025-11-29,423,375!2025-08-30,326,355-->
 
 <!--/pytextgen-->

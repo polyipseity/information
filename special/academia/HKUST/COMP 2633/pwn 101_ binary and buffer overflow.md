@@ -33,7 +33,7 @@ For pwn, it is more important to know {{the typical memory mapping for a process
 
 The meanings of the 4 segments are:
 
-- read-execute segment ::: The segment that the program can read from and execute code on it. It usually contains the ELF header, `.rodata` (read-only data) and `.text` (code) sections in assembly. <!--SR:!2024-11-09,32,270!2024-11-21,42,290-->
+- read-execute segment ::: The segment that the program can read from and execute code on it. It usually contains the ELF header, `.rodata` (read-only data) and `.text` (code) sections in assembly. <!--SR:!2025-02-01,84,270!2024-11-21,42,290-->
 - read-write segment ::: The segment that the program and read from and write to. It usually contains the `.bss` and `.data` sections in assembly. <!--SR:!2024-11-29,52,310!2024-12-01,54,310-->
 - heap ::: It contains memory allocated at runtime. Usually, it is allocated for manual memory management (e.g. `malloc`, `new`). It grows upwards (increasing address). <!--SR:!2024-12-06,57,310!2024-12-01,54,310-->
 - stack ::: It also contains memory allocated at runtime, but for small data (e.g., local variables) and also function-related data. Usually, it is allocated for automatic memory management (e.g. local variables). It grows downwards (decreasing address). <!--SR:!2024-11-27,48,290!2024-11-20,41,290-->
@@ -151,7 +151,7 @@ for (size_t idx = 0; idx <= 4; ++idx) { // Notice the `<=`.
 }
 ```
 
-The above example demonstrates how buffer overflow actually happens. The cases we are usually more interested in is {{unsafe C string functions that accepts inputs (best if they can be provided by the user directly or indirectly) and writes to other buffers}}, such as {{`gets`, `scanf`, `strcpy`, etc.}} These functions are vulnerable because {{they will write to the buffer as long as there is data in the input without taking the buffer size into consideration at all}}. So if {{the input data is too large to be fit into the destination buffers}}, then {{a buffer overflow occurs as the excess data is written past the end of the destination buffers}}, similar to the example above. An example: <!--SR:!2024-12-12,63,310!2024-12-03,56,310!2024-11-09,40,290!2024-11-23,46,290!2024-12-16,67,310-->
+The above example demonstrates how buffer overflow actually happens. The cases we are usually more interested in is {{unsafe C string functions that accepts inputs (best if they can be provided by the user directly or indirectly) and writes to other buffers}}, such as {{`gets`, `scanf`, `strcpy`, etc.}} These functions are vulnerable because {{they will write to the buffer as long as there is data in the input without taking the buffer size into consideration at all}}. So if {{the input data is too large to be fit into the destination buffers}}, then {{a buffer overflow occurs as the excess data is written past the end of the destination buffers}}, similar to the example above. An example: <!--SR:!2024-12-12,63,310!2024-12-03,56,310!2025-04-19,161,310!2024-11-23,46,290!2024-12-16,67,310-->
 
 ```C
 char buffer[4];

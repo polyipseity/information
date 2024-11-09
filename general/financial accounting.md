@@ -37,7 +37,7 @@ __Enhancing Qualitative Characteristics__ ::: verifiability, comparability, unde
 
 - __Verifiability__ ::: Verifiability implies consensus between the different knowledgeable and independent users of financial information. Such information must be supported by sufficient evidence to follow the principle of objectivity. <!--SR:!2025-03-05,127,290!2025-01-26,90,270-->
 - __Comparability__ ::: Comparability is the uniform application of accounting methods across entities in the same industry. The principle of consistency is under comparability. Consistency is the uniform application of accounting across points in time within an entity. <!--SR:!2025-01-10,85,290!2025-03-15,135,290-->
-- __Understandability__ ::: Understandability means that accounting reports should be expressed as clearly as possible and should be understood by those to whom the information is relevant. <!--SR:!2025-04-26,169,310!2024-11-09,44,290-->
+- __Understandability__ ::: Understandability means that accounting reports should be expressed as clearly as possible and should be understood by those to whom the information is relevant. <!--SR:!2025-04-26,169,310!2025-03-19,130,290-->
 - __Timeliness__ ::: Timeliness implies that financial information must be presented to the users before a decision is to be made. <!--SR:!2024-12-08,68,310!2024-11-19,52,310-->
 
 ## three components of financial statements
@@ -114,7 +114,7 @@ Liabilities include {{current liabilities and long-term liabilities}}: <!--SR:!2
 - _current liabilities_ ::: trade accounts payable, dividends payable, employee salaries payable, interest (e.g. on debt) payable <!--SR:!2024-11-29,52,270!2024-12-16,60,270-->
 - _long-term liabilities_ ::: mortgage notes payable, bonds payable <!--SR:!2024-11-27,58,310!2024-11-11,46,290-->
 
-{{Owner's equity, sometimes referred to as net assets}}, is {{represented differently depending on the type of business ownership}}. Business ownership can be in the form of {{a sole proprietorship, partnership, or a [corporation](corporation.md)}}. For {{a corporation}}, the owner's equity portion {{usually shows common stock, and retained earnings (earnings kept in the company)}}. Retained earnings come from {{the retained earnings statement, prepared prior to the balance sheet}}.<sup>[\[8\]](#^ref-8)</sup> <!--SR:!2024-11-09,42,290!2024-11-17,51,290!2024-11-28,59,310!2024-11-18,52,290!2025-04-19,164,310!2024-11-12,47,290-->
+{{Owner's equity, sometimes referred to as net assets}}, is {{represented differently depending on the type of business ownership}}. Business ownership can be in the form of {{a sole proprietorship, partnership, or a [corporation](corporation.md)}}. For {{a corporation}}, the owner's equity portion {{usually shows common stock, and retained earnings (earnings kept in the company)}}. Retained earnings come from {{the retained earnings statement, prepared prior to the balance sheet}}.<sup>[\[8\]](#^ref-8)</sup> <!--SR:!2025-04-30,172,310!2024-11-17,51,290!2024-11-28,59,310!2024-11-18,52,290!2025-04-19,164,310!2024-11-12,47,290-->
 
 #### statement of retained earnings
 

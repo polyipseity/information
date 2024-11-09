@@ -13,7 +13,7 @@ tags:
 
 # even and odd functions
 
-- Not to be confused with {{[even and odd numbers](parity%20(mathematics).md)}}. <!--SR:!2024-11-09,73,310-->
+- Not to be confused with {{[even and odd numbers](parity%20(mathematics).md)}}. <!--SR:!2025-09-19,314,330-->
 
 In [mathematics](mathematics.md), {{an __even function__}} is {{a [real function](function%20of%20a%20real%20variable.md) such that $f(-x) = f(x)$ for every $x$ in its [domain](domain%20of%20a%20function.md)}}. Similarly, {{an __odd function__}} is {{a function such that $f(-x) = -f(x)$ for every $x$ in its domain}}. <!--SR:!2025-06-11,234,330!2025-06-13,235,330!2025-08-04,278,330!2025-05-20,217,330-->
 

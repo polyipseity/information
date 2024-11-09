@@ -52,7 +52,7 @@ Command names can be {{truncated at the end to produce an abbreviation if the ab
 
 ### `pwndbg`
 
-- `pwndbg>` color (may differ depending on your configuration) ::: cyan: program is running; red: program is not running <!--SR:!2024-11-09,53,310!2025-04-28,173,310-->
+- `pwndbg>` color (may differ depending on your configuration) ::: cyan: program is running; red: program is not running <!--SR:!2025-06-26,229,330!2025-04-28,173,310-->
 - `checksec` ::: print the binary security settings <!--SR:!2025-01-02,77,345!2025-01-13,88,345-->
 - `down` ::: move down the backtrace or call stack <!--SR:!2024-11-10,53,310!2024-11-16,58,310-->
 - `up` ::: move up the backtrace or call stack <!--SR:!2024-11-11,55,310!2025-05-12,185,310-->
@@ -60,7 +60,7 @@ Command names can be {{truncated at the end to produce an abbreviation if the ab
 #### `pwndbg` heap
 
 - `heap` ::: iteratively print chunks on heap (`glibc` only) <!--SR:!2024-12-05,72,310!2024-11-29,66,310-->
-- `heap_config` ::: show `glibc` allocator hacking configuration <!--SR:!2024-11-09,46,290!2024-11-24,61,310-->
+- `heap_config` ::: show `glibc` allocator hacking configuration <!--SR:!2025-05-14,186,310!2024-11-24,61,310-->
 
 #### `pwndbg` memory
 

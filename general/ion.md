@@ -314,7 +314,7 @@ return chain.from_iterable(await gather(
 - scandium(III) ion::3+ <!--SR:!2031-05-08,2382,402-->
 - titanium(III) ion::3+ <!--SR:!2031-04-26,2372,402-->
 - vanadium(II) ion::2+ <!--SR:!2031-06-04,2404,402-->
-- vanadium(III) ion::3+ <!--SR:!2024-11-09,463,382-->
+- vanadium(III) ion::3+ <!--SR:!2031-06-26,2420,402-->
 - manganese(III) ion::3+ <!--SR:!2024-11-30,481,382-->
 
 <!--/pytextgen-->

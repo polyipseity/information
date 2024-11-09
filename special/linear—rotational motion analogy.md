@@ -15,7 +15,7 @@ tags:
 1. [displacement ($\vec{s}$)](../general/displacement%20(geometry).md):::[angular displacement ($\vec{\theta}$, $\vec{\phi}$)](../general/angular%20displacement.md) <!--SR:!2024-11-25,278,330!2027-07-18,1027,350-->
 2. [velocity ($\vec{v}$)](../general/velocity.md):::[angular velocity ($\vec{\omega}$)](../general/angular%20velocity.md) <!--SR:!2027-11-26,1135,350!2027-04-24,964,350-->
 3. [acceleration ($\vec{a}$)](../general/acceleration.md):::[angular acceleration ($\vec{\alpha}$)](../general/angular%20acceleration.md) <!--SR:!2027-12-22,1160,350!2027-04-06,950,350-->
-4. [momentum ($\vec{p}$)](../general/momentum.md):::[angular momentum ($\vec{L}$)](../general/angular%20momentum.md) <!--SR:!2024-12-12,291,330!2024-11-09,265,330-->
+4. [momentum ($\vec{p}$)](../general/momentum.md):::[angular momentum ($\vec{L}$)](../general/angular%20momentum.md) <!--SR:!2024-12-12,291,330!2028-03-01,1208,350-->
 5. [force ($\vec{F}$)](../general/force.md):::[torque ($\vec{\tau}$, $\vec{M}$)](../general/torque.md) <!--SR:!2027-08-12,1050,350!2024-12-11,290,330-->
 6. [impulse ($\vec{J}$)](../general/impulse%20(physics).md):::[angular impulse (none)](../general/angular%20momentum.md) <!--SR:!2025-01-12,286,342!2025-04-16,380,362-->
 7. [mass ($m$)](../general/mass.md):::[moment of inertia ($I$)](../general/moment%20of%20inertia.md) <!--SR:!2024-11-20,274,330!2027-05-29,991,350-->
