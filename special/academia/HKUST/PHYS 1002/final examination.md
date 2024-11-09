@@ -1,19 +1,27 @@
 ---
 aliases:
   - HKUST PHYS 1002 final exam
+  - HKUST PHYS 1002 final examination
+  - HKUST PHYS 1002 final examinations
   - HKUST PHYS 1002 final exams
   - HKUST PHYS1002 final exam
+  - HKUST PHYS1002 final examination
+  - HKUST PHYS1002 final examinations
   - HKUST PHYS1002 final exams
   - PHYS 1002 final exam
+  - PHYS 1002 final examination
+  - PHYS 1002 final examinations
   - PHYS 1002 final exams
   - PHYS1002 final exam
+  - PHYS1002 final examination
+  - PHYS1002 final examinations
   - PHYS1002 final exams
 tags:
-  - flashcard/active/special/academia/HKUST/PHYS_1002/final_exam
+  - flashcard/active/special/academia/HKUST/PHYS_1002/final_examination
   - language/in/English
 ---
 
-# final exam
+# final examination
 
 - HKUST PHYS 1002
 

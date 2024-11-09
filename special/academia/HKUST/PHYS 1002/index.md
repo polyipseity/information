@@ -23,7 +23,7 @@ tags:
 - HKUST PHYS 1002
 - name: Introduction to Astrophysics and Astronomy
 
-The content is in teaching order. Extra information and corrections are included, but they are not recommended to be used for exams.
+The content is in teaching order. Extra information and corrections are included, but they are not recommended to be used for examinations.
 
 - lecture format: iPRS questions sometime during the lecture. Tutorials and MCQs are in the last 30 minutes.
 - [competencies rubrics](competencies%20rubrics.pdf)
@@ -31,7 +31,7 @@ The content is in teaching order. Extra information and corrections are included
 - [questions](questions.md)
   - [student-generated question](student-generated%20question.md)
 - [strip sequence test](strip%20sequence%20test.md)
-- [final exam](final%20exam.md)
+- [final examination](final%20examination.md)
 - [open-ended question report](open-ended%20question%20report.md)
 
 ## week 1 lecture
@@ -1123,15 +1123,15 @@ The content is in teaching order. Extra information and corrections are included
     - [Chandrasekhar limit](../../../../general/Chandrasekhar%20limit.md)
   - [Hubble's law](../../../../general/Hubble's%20law.md) ::: the observation in physical cosmology that galaxies are moving away from Earth at speeds (can be measured using redshift) proportional to their distance <!--SR:!2025-02-11,154,411!2024-12-19,103,391-->
     - [Hubble's law](../../../../general/Hubble's%20law.md) / Edwin Hubble ::: Hubble received an undergraduate degree in math and astronomy, then a law degree from Oxford. After practicing law for a while, he decided to return to his first interest and pursued a PhD, graduating at age 30 in 1919 (after serving in WW1). <!--SR:!2025-03-26,160,351!2024-12-30,111,391-->
-    - [Hubble's law](../../../../general/Hubble's%20law.md) / brief history ::: the Great Debate and "spiral nebulae": Is the Milky Way the entire universe or not? Some argued "spiral nebulae" were entire galaxies while others said they were smaller collections of stars within the Milky Way. Hubble settled the debate by measuring the distance to the Andromeda Galaxy __using Cepheid variables__ (tested in the [final exam](final%20exam.md)) as standard candles. (Shapley was on the wrong side of the Great Debate.) He also found that the spectral features of _virtually_ all galaxies are redshifted. More data at further distances were published on 1934-09. <!--SR:!2025-04-08,173,351!2025-08-03,268,371-->
+    - [Hubble's law](../../../../general/Hubble's%20law.md) / brief history ::: the Great Debate and "spiral nebulae": Is the Milky Way the entire universe or not? Some argued "spiral nebulae" were entire galaxies while others said they were smaller collections of stars within the Milky Way. Hubble settled the debate by measuring the distance to the Andromeda Galaxy __using Cepheid variables__ (tested in the [final examination](final%20examination.md)) as standard candles. (Shapley was on the wrong side of the Great Debate.) He also found that the spectral features of _virtually_ all galaxies are redshifted. More data at further distances were published on 1934-09. <!--SR:!2025-04-08,173,351!2025-08-03,268,371-->
       - [Milky Way](../../../../general/Milky%20Way.md) / study of [globular cluster](../../../../general/globular%20cluster.md)
-      - [Hubble's law](../../../../general/Hubble's%20law.md) / brief history / example distances ::: Messier 31 (Andromeda Galaxy): ~765 kpc (~2.5 Mly), Messier 33 (Triangulum Galaxy): ~2.73 Mly, NGC 6822: ~1.6 Mly; measured __using Cepheid variables__ (tested in the [final exam](final%20exam.md)) <!--SR:!2024-11-15,59,311!2024-12-05,96,391-->
+      - [Hubble's law](../../../../general/Hubble's%20law.md) / brief history / example distances ::: Messier 31 (Andromeda Galaxy): ~765 kpc (~2.5 Mly), Messier 33 (Triangulum Galaxy): ~2.73 Mly, NGC 6822: ~1.6 Mly; measured __using Cepheid variables__ (tested in the [final examination](final%20examination.md)) <!--SR:!2024-11-15,59,311!2024-12-05,96,391-->
     - [Hubble's law](../../../../general/Hubble's%20law.md) / quotes ::: "The problem is now in the hands of the theorists" <!--SR:!2025-02-07,150,411!2025-02-13,155,411-->
     - [Hubble's law § interpretation](../../../../general/Hubble's%20law.md#interpretation) (mathematics) ::: $$\begin{aligned} v & = H d \\ d & = v / H \end{aligned}$$, where $v$ is the recession velocity (can be measured using redshift), $d$ is the distance to Earth, and $H$ is the Hubble constant <!--SR:!2025-01-27,140,411!2025-01-19,127,391-->
     - [Hubble's law](../../../../general/Hubble's%20law.md) / Hubble's constant ::: usually in units of (km/s)/Mpc; about 70 (km/s)/Mpc (lecture slides used 64 (km/s)/Mpc and other larger values) <!--SR:!2024-12-05,91,371!2025-02-14,157,411-->
       - [Hubble's law](../../../../general/Hubble's%20law.md) / Hubble's constant / [Dark Energy Survey](../../../../general/Dark%20Energy%20Survey.md) (DES) ::: 67.77±1.30 (km/s)/Mpc (2018) <!--SR:!2024-12-08,83,331!2024-11-27,84,371-->
         - [Dark Energy Survey](../../../../general/Dark%20Energy%20Survey.md) ::: It is a visible and near-infrared survey that uses a 4-meter telescope located in Chile. <!--SR:!2024-12-16,105,391!2025-01-25,131,391-->
-- not covered in the [final exam](final%20exam.md)
+- not covered in the [final examination](final%20examination.md)
   - [cosmic distance ladder](../../../../general/cosmic%20distance%20ladder.md)
   - [Hubble's law](../../../../general/Hubble's%20law.md)
     - [§ Hubble time](../../../../general/Hubble's%20law.md#Hubble%20time) ::: If we reverse time, then Hubble's law would eventually make all galaxies in the observable universe go back to a point. This hints at the beginning of the universe. The Hubble time is the time it takes for this to happen, assuming the Hubble constant is constant over time (which it is not; it is only constant over space). It is simply the reciprocal of the Hubble constant (after simplifying the units): $$t_H = \frac 1 {H_0}$$. <!--SR:!2025-02-12,148,417!2024-12-19,94,397-->
@@ -1221,7 +1221,7 @@ The content is in teaching order. Extra information and corrections are included
 > \[redacted\]
 
 - datetime: 2024-08-08T10:00:00+08:00/2024-08-08T13:00:00+08:00
-- [final exam](final%20exam.md): 99/100, scaled to 49.5/50 → 99/100, scaled to 49.5/50
+- [final examination](final%20examination.md): 99/100, scaled to 49.5/50 → 99/100, scaled to 49.5/50
   - statistics
     - mean: 58.84 → 59.62
     - high: 99 → 99
@@ -1250,7 +1250,7 @@ The content is in teaching order. Extra information and corrections are included
 
 - datetime: 2024-08-11T19:58:34+08:00/2024-08-08T21:35:08+08:00
 - properties: Zoom, online, optional, untested
-- not covered in the [final exam](final%20exam.md) (because the final exam has ended already, duh)
+- not covered in the [final examination](final%20examination.md) (because the final examination has ended already, duh)
   - course parts
   - [cosmology](../../../../general/cosmology.md)
     - [cosmology](../../../../general/cosmology.md) / questions to ask ::: How much matter? How matter comes? Why expand? Is the expansion constant, accelerating, or decelerating? What is the shape (topology) of the universe (flat, curved, etc.)? What is the ultimate fate of the universe? (very abstract stuff ahead) <!--SR:!2024-12-13,88,377!2025-02-10,137,397-->

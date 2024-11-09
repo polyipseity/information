@@ -29,6 +29,7 @@ _MAX_CONCURRENT_REQUESTS_PER_HOST = 2
 _IGNORED_NAME_PREFIXES = frozenset({"Help:"})
 _PRESERVED_PAGE_PREFIXES = {
     "Special:": f"{_WIKI_HOST_URL}/wiki/{{}}",
+    "commons": "https://commons.wikimedia.org/wiki/{}",
     "oeis:": "https://oeis.org/{}",
     "wikt:": "https://en.wiktionary.org/wiki/{}",
 }
@@ -261,15 +262,15 @@ async def wiki_html_to_plaintext(
                             to_fragment = redirect.get("tofragment", "")
                     if url_format := next(
                         (
-                            format
+                            (format, to[len(prefix) :])
                             for prefix, format in _PRESERVED_PAGE_PREFIXES.items()
                             if to.startswith(prefix)
                         ),
-                        "",
+                        None,
                     ):
                         prefix, suffix = (
                             "[",
-                            f"]({url_format.format(f'{quote(to)}{to_fragment and '#'}{quote(to_fragment, safe="")}')})",
+                            f"]({url_format[0].format(f'{quote(url_format[1])}{to_fragment and '#'}{quote(to_fragment, safe="")}')})",
                         )
                     elif not any(
                         to.startswith(prefix) for prefix in _IGNORED_NAME_PREFIXES

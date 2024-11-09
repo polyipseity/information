@@ -87,7 +87,7 @@ Common determinants of demand are:
 
 > ![Cournot's Recherches (1838)](../archives/Wikimedia%20Commons/Cournotdemand.gif)
 >
-> Cournot's _Recherches_ (1838)!
+> Cournot's _Recherches_ (1838)
 >
 > ![Jenkin's Graphical Representation (1870)](../archives/Wikimedia%20Commons/Jenkincurves.gif)
 >
@@ -237,12 +237,12 @@ This text incorporates [content](https://en.wikipedia.org/wiki/supply_and_demand
 1. {{The [elasticity coefficient](elasticity%20coefficient.md), or often just _elasticity_}}, is {{an important parameter in [metabolic control analysis](metabolic%20control%20analysis.md)}}, used to express {{the local response of an enzyme or other chemical reaction to changes in its environment}}. <a id="^ref-1"></a>^ref-1
 2. ["Marginal Utility and Demand"](http://www.amosweb.com/cgi-bin/awb_nav.pl?s=wpd&c=dsp&k=marginal+utility+and+demand). Retrieved 2007-02-09. <a id="^ref-2"></a>^ref-2
 3. Mankiw, N.G.; Taylor, M.P. (2011). _Economics (2nd ed., revised ed.)_. Andover: Cengage Learning. <a id="^ref-3"></a>^ref-3
-4. Jain, T.R. (2006–2007). [_Microeconomics and Basic Mathematics_](https://books.google.com/books?id=fUUoFwco2Z8C). New Delhi: VK Publications. p. 28. [ISBN](ISBN.md) [978-81-87140-89-4](https://en.wikipedia.org/wiki/Special%3ABookSources/978-81-87140-89-4).<sup>[_[permanent dead link](Wikipedia:Link%20rot.md)_]</sup> <a id="^ref-4"></a>^ref-4
+4. Jain, T.R. (2006–2007). [_Microeconomics and Basic Mathematics_](https://books.google.com/books?id=fUUoFwco2Z8C). New Delhi: VK Publications. p. 28. [ISBN](ISBN.md) [978-81-87140-89-4](https://en.wikipedia.org/wiki/Special%3ABookSources/978-81-87140-89-4).<!-- <sup>[_[permanent dead link](Wikipedia:Link%20rot.md)_]</sup> --> <a id="^ref-4"></a>^ref-4
 5. Kibbe, Matthew B. ["The Minimum Wage: Washington's Perennial Myth"](http://www.cato.org/pubs/pas/pa106.html). [Cato Institute](Cato%20Institute.md). Retrieved 2007-02-09. <a id="^ref-5"></a>^ref-5
 6. Fleetwood, Steve (August 2014). ["Do labour supply and demand curves exist?"](https://www.researchgate.net/publication/275418190). _Cambridge Journal of Economics_. __38__ (5): 1087–113. [doi](digital%20object%20identifier.md):[10.1093/cje/beu003](https://doi.org/10.1093%2Fcje%2Fbeu003). <a id="^ref-6"></a>^ref-6
 7. Cole, A. (9 July 2008). "BMA meeting: Doctors vote to limit number of medical students". _BMJ_. __337__ (jul09 1): a748. [doi](digital%20object%20identifier.md):[10.1136/bmj.a748](https://doi.org/10.1136%2Fbmj.a748). [ISSN](ISSN.md) [0959-8138](https://search.worldcat.org/issn/0959-8138). <a id="^ref-7"></a>^ref-7
 8. Ariste, Ruolz; Béjaoui, Ali; Dauphin, Anyck (October 10, 2019). "Critical analysis of nurses' labour market effectiveness in Canada: The hidden aspects of the shortage". _The International Journal of Health Planning and Management_. __34__ (4): 1144–1154. [doi](digital%20object%20identifier.md):[10.1002/hpm.2772](https://doi.org/10.1002%2Fhpm.2772). [ISSN](ISSN.md) [1099-1751](https://search.worldcat.org/issn/1099-1751). [PMID](PubMed.md#PubMed%20identifier) [30945352](https://pubmed.ncbi.nlm.nih.gov/30945352). [S2CID](Semantic%20Scholar.md#S2CID) [92997538](https://api.semanticscholar.org/CorpusID:92997538). <a id="^ref-8"></a>^ref-8
-9. Sutcher, Leib; Darling-Hammond, Linda; Carver-Thomas, Desiree (September 2016). [A Coming Crisis in Teaching? Teacher Supply, Demand, and Shortages in the U.S.](https://eric.ed.gov/?id=ED606666) (Report). Learning Policy Institute. Retrieved 20 July 2024.<sup>[_[page needed](Wikipedia:Citing%20sources.md)_]</sup> <a id="^ref-9"></a>^ref-9
+9. Sutcher, Leib; Darling-Hammond, Linda; Carver-Thomas, Desiree (September 2016). [A Coming Crisis in Teaching? Teacher Supply, Demand, and Shortages in the U.S.](https://eric.ed.gov/?id=ED606666) (Report). Learning Policy Institute. Retrieved 20 July 2024.<!-- <sup>[_[page needed](Wikipedia:Citing%20sources.md)_]</sup> --> <a id="^ref-9"></a>^ref-9
 10. Basij J. Moore, _Horizontalists and Verticalists: The Macroeconomics of Credit Money_, Cambridge University Press, 1988 <a id="^ref-10"></a>^ref-10
 11. [Ritter, Lawrence S.](Lawrence%20Ritter.md); [Silber, William L.](William%20L.%20Silber.md); Udell, Gregory F. (2000). _Principles of Money, Banking, and Financial Markets_ (10th ed.). Addison-Wesley, Menlo Park C. pp. 431–38, 465–76. [ISBN](ISBN.md) [978-0-321-37557-5](https://en.wikipedia.org/wiki/Special%3ABookSources/978-0-321-37557-5). <a id="^ref-11"></a>^ref-11
 12. Velev, Milen V. Entropy and free-energy based interpretation of the laws of supply and demand. SN Bus Econ 1, 1 (2021). [https://doi.org/10.1007/s43546-020-00009-6](https://doi.org/10.1007/s43546-020-00009-6) <a id="^ref-12"></a>^ref-12
