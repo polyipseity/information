@@ -138,7 +138,7 @@ See [Great Pyramid of Giza](../../../../general/Great%20Pyramid%20of%20Giza.md).
 - construction period ::: 10~20 years around 2560 BC <!--SR:!2025-01-01,68,216!2026-02-17,488,396-->
 - description ::: largest pyramid in the Giza Necropolis, Egypt <!--SR:!2026-06-05,605,416!2026-11-12,742,416-->
 - height ::: current: 138.5 m, original: 146.6 m <!--SR:!2024-12-03,141,356!2026-04-26,540,396-->
-- weight ::: 5.9 million tonnes <!--SR:!2025-04-19,170,356!2024-11-10,142,396-->
+- weight ::: 5.9 million tonnes <!--SR:!2025-04-19,170,356!2026-12-18,768,416-->
 - tomb for ::: Egypt's 4th dynasty pharaoh Khufu <!--SR:!2026-01-21,457,376!2025-05-07,264,376-->
 
 ## Great Wall of China
@@ -183,7 +183,7 @@ See [Hoover Dam](../../../../general/Hoover%20Dam.md).
 - [dam type](../../../../general/dam.md#types) ::: concrete gravity-arch <!--SR:!2025-06-30,300,320!2025-12-26,497,395-->
 - height ::: 221.4 m <!--SR:!2025-06-23,266,281!2025-02-27,247,367-->
 - image ::: ![Hoover Dam image](../../../../archives/Wikimedia%20Commons/Ansel%20Adams%20-%20National%20Archives%2079-AAB-01.jpg) <!--SR:!2025-08-26,379,380!2025-09-03,368,380-->
-- length ::: 379 m <!--SR:!2024-11-10,47,201!2025-02-11,235,370-->
+- length ::: 379 m <!--SR:!2025-02-14,96,201!2025-02-11,235,370-->
 
 ## International Commerce Centre
 

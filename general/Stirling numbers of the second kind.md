@@ -82,14 +82,14 @@ and {{$$\left\{ {n \atop 2}\right\}=2^{n-1}-1.$$}} To see this, first note that 
 {{The table in section 6.1 of _Concrete Mathematics_}} provides {{a plethora of generalized forms of finite sums involving the Stirling numbers}}. Several particular finite sums relevant to this article include <!--SR:!2024-11-19,17,290!2024-11-19,17,290-->
 
 - increment by binomial coefficient ::: $$\left\{ {n+1 \atop k+1}\right\}=\sum _{j=k}^{n}{n \choose j}\left\{ {j \atop k}\right\}$$ (Annotation: Choose _n_ - _j_ elements from _n_ + 1 elements to form a maybe empty partition. Add the 1 element to ensure it is nonempty. Partition the remaining _j_ elements into _k_ partitions.) <!--SR:!2024-11-15,13,270!2024-11-19,17,290-->
-- increment by combinatorial argument ::: $$\left\{ {n+1 \atop k+1}\right\}=\sum _{j=k}^{n}(k+1)^{n-j}\left\{ {j \atop k}\right\}$$ (Annotation: Choose _n_ - _j_ elements from _n_ + 1 elements. They may be assigned to any of the _k_ + 1 partitions. Partition the remaining _j_ elements into _k_ partitions. Assign the extra element to ensure the the extra partition is nonempty.) <!--SR:!2024-11-10,10,250!2024-11-15,13,270-->
+- increment by combinatorial argument ::: $$\left\{ {n+1 \atop k+1}\right\}=\sum _{j=k}^{n}(k+1)^{n-j}\left\{ {j \atop k}\right\}$$ (Annotation: Choose _n_ - _j_ elements from _n_ + 1 elements. They may be assigned to any of the _k_ + 1 partitions. Partition the remaining _j_ elements into _k_ partitions. Assign the extra element to ensure the the extra partition is nonempty.) <!--SR:!2024-12-14,34,270!2024-11-15,13,270-->
 - increment by summing up to _k_ ::: $$\left\{ {n+k+1 \atop k}\right\}=\sum _{j=0}^{k}j\left\{ {n+j \atop j}\right\}$$ <!--SR:!2024-11-15,13,270!2024-12-08,29,270-->
 - partition then choose partitions ::: $$\left\{ {n \atop \ell +m}\right\}{\binom {\ell +m}{\ell } }=\sum _{k}{\binom {n}{k} }\left\{ {k \atop \ell }\right\}\left\{ {n-k \atop m}\right\}$$ (Annotation: Choose _k_ elements from _n_ elements. Partition _k_ elements into the chosen _l_ partitions. Partition the remaining _n_ − _k_ elements into the unchosen _m_ partitions.) <!--SR:!2024-11-13,13,270!2024-11-19,17,290-->
 
 ### explicit formula
 
 {{The Stirling numbers of the second kind}} are given by the explicit formula: {{$$\left\{ {n \atop k}\right\}={\frac {1}{k!} }\sum _{j=0}^{k}(-1)^{k-j}{k \choose j}j^{n}=\sum _{j=0}^{k}{\frac {(-1)^{k-j}j^{n} }{(k-j)!j!} }.$$}}
-This can be derived by {{using [inclusion-exclusion](inclusion–exclusion%20principle.md) to count the surjections from _n_ to _k_ and using the fact that the number of such surjections is $k!\left\{ {n \atop k}\right\}$}}. <!--SR:!2024-11-19,17,290!2024-11-10,10,250!2024-11-19,17,290-->
+This can be derived by {{using [inclusion-exclusion](inclusion–exclusion%20principle.md) to count the surjections from _n_ to _k_ and using the fact that the number of such surjections is $k!\left\{ {n \atop k}\right\}$}}. <!--SR:!2024-11-19,17,290!2024-12-04,24,250!2024-11-19,17,290-->
 
 Additionally, this formula is {{a special case of the _k_-th [forward difference](finite%20difference.md) of the [monomial](monomial.md) $x^{n}$ evaluated at _x_ = 0}}: {{$$\Delta ^{k}x^{n}=\sum _{j=0}^{k}(-1)^{k-j}{k \choose j}(x+j)^{n}.$$}} Because {{the [Bernoulli polynomials](Bernoulli%20polynomials.md) may be written in terms of these forward differences}}, one {{immediately obtains a relation in the [Bernoulli numbers](bernoulli%20number.md)}}: {{$$B_{m}(0) = \sum_{k = 0}^m \frac {(-1)^k} {k + 1} \left.\left(\Delta^k x^m\right)\right|_{x = 0} = \sum _{k=0}^{m}{\frac {(-1)^{k}k!}{k+1} }\left\{ {m \atop k}\right\}.$$}} <!--SR:!2024-11-14,13,270!2024-11-29,20,250!2024-11-19,17,290!2024-11-15,13,270!2024-11-22,15,230-->
 
@@ -119,7 +119,7 @@ If {{$n\geq 2$ and $1\leq k\leq n-1$}}, then {{$${\frac {1}{2} }(k^{2}+k+2)k^{n-
 
 ### asymptotic approximation
 
-For {{fixed value of $k$}}, the asymptotic value of the Stirling numbers of the second kind as $n\rightarrow \infty$ is {{given by $$\left\{ {n \atop k}\right\}{\underset {n\to \infty }{\sim } }{\frac {k^{n} }{k!} }.$$}} <!--SR:!2024-11-10,10,250!2024-11-11,3,210-->
+For {{fixed value of $k$}}, the asymptotic value of the Stirling numbers of the second kind as $n\rightarrow \infty$ is {{given by $$\left\{ {n \atop k}\right\}{\underset {n\to \infty }{\sim } }{\frac {k^{n} }{k!} }.$$}} <!--SR:!2024-12-15,35,270!2024-11-11,3,210-->
 
 If {{$n=o({\sqrt {k} })$ (where _o_ denotes the [little o notation](big%20O%20notation.md#little-o%20notation))}} then {{$$\left\{ {n+k \atop k}\right\}{\underset {k\to \infty }{\sim } }{\frac {k^{2n} }{2^{n}n!} }.$$}}<sup>[\[13\]](#^ref-13)</sup> <!--SR:!2024-11-15,13,270!2024-11-29,20,250-->
 
@@ -127,7 +127,7 @@ If {{$n=o({\sqrt {k} })$ (where _o_ denotes the [little o notation](big%20O%20no
 
 ### unimodality
 
-For {{fixed $n$}}, $\left\{ {n \atop k}\right\}$ is {{unimodal, that is, the sequence increases and then decreases}}. The maximum is {{attained for at most two consecutive values of _k_}}. That is, there is {{an integer $k_{n}$ such that $$\left\{ {n \atop 1}\right\}<\left\{ {n \atop 2}\right\}<\cdots <\left\{ {n \atop k_{n} }\right\}\geq \left\{ {n \atop k_{n}+1}\right\}>\cdots >\left\{ {n \atop n}\right\}.$$}} Looking at the table of values above, {{the first few values for $k_{n}$}} are {{$0,1,1,2,2,3,3,4,4,4,5,\ldots$}} <!--SR:!2024-11-18,17,290!2024-11-19,17,290!2024-11-19,17,290!2024-11-18,17,290!2024-11-19,17,290!2024-11-10,10,250-->
+For {{fixed $n$}}, $\left\{ {n \atop k}\right\}$ is {{unimodal, that is, the sequence increases and then decreases}}. The maximum is {{attained for at most two consecutive values of _k_}}. That is, there is {{an integer $k_{n}$ such that $$\left\{ {n \atop 1}\right\}<\left\{ {n \atop 2}\right\}<\cdots <\left\{ {n \atop k_{n} }\right\}\geq \left\{ {n \atop k_{n}+1}\right\}>\cdots >\left\{ {n \atop n}\right\}.$$}} Looking at the table of values above, {{the first few values for $k_{n}$}} are {{$0,1,1,2,2,3,3,4,4,4,5,\ldots$}} <!--SR:!2024-11-18,17,290!2024-11-19,17,290!2024-11-19,17,290!2024-11-18,17,290!2024-11-19,17,290!2024-11-15,5,230-->
 
 When {{$n$ is large}}, {{$$k_{n}{\underset {n\to \infty }{\sim } }{\frac {n}{\log n} },$$}} and {{the maximum value of the Stirling number}} can be {{approximated with $$\log \left\{ {n \atop k_{n} }\right\}=n\log n-n\log \log n-n+O(n\log \log n/\log n).$$}} <sup>[\[12\]](#^ref-12)</sup> <!--SR:!2024-11-19,17,290!2024-11-14,13,270!2024-11-19,17,290!2024-11-22,15,230-->
 
@@ -141,7 +141,7 @@ If {{_X_ is a [random variable](random%20variable.md) with a [Poisson distributi
 
 Let {{the random variable _X_ be the number of fixed points of a [uniformly distributed](discrete%20uniform%20distribution.md) [random permutation](random%20permutation.md) of a finite set of size _m_}}. Then the _n_-th moment of _X_ is {{$$E(X^{n})=\sum _{k=0}^{m}\left\{ {n \atop k}\right\}.$$ <p> __Note:__ The upper bound of summation is _m_, not _n_}}. <!--SR:!2024-11-14,13,270!2024-11-14,13,270-->
 
-In other words, {{the _n_-th moment of this [probability distribution](probability%20distribution.md)}} is {{the number of partitions of a set of size _n_ into no more than _m_ parts}}. This is proved in the article on [random permutation statistics](random%20permutation%20statistics.md#moments%20of%20fixed%20points), although the notation is a bit different. <!--SR:!2024-11-19,17,290!2024-11-10,10,250-->
+In other words, {{the _n_-th moment of this [probability distribution](probability%20distribution.md)}} is {{the number of partitions of a set of size _n_ into no more than _m_ parts}}. This is proved in the article on [random permutation statistics](random%20permutation%20statistics.md#moments%20of%20fixed%20points), although the notation is a bit different. <!--SR:!2024-11-19,17,290!2024-12-04,24,250-->
 
 ### rhyming schemes
 

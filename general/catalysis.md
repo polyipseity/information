@@ -50,7 +50,7 @@ return await memorize_table(
 > | {{[contact process](contact%20process.md)}} | {{[Vanadium(V) oxide](vanadium(V)%20oxide.md) catalyzes the [oxidation](redox%20reaction.md) of [SO<sub>2</sub>](sulfur%20dioxide.md) to [SO<sub>3</sub>](sulfur%20trioxide.md) in making [H<sub>2</sub>SO<sub>4</sub>](sulfuric%20acid.md).}} |
 > | {{[fermentation](fermentation.md)}} | {{[Enzymes](enzyme.md) catalyze [fermentation](fermentation.md) processes. For example, [zymases](zymase.md) catalyze the fermentation of [sugars](sugar.md) into [ethanol](ethanol.md) and [CO<sub>2</sub>](carbon%20dioxide.md).}} |
 > | {{[food browning](food%20browning.md)}} | {{[Enzymes](enzyme.md) catalyze the formation of brown pigments.}} |
-> | {{[hydrolysis](hydrolysis.md) of [starch](starch.md)}} | {{[Amylases](amylase.md) catalyze the [hydrolysis](hydrolysis.md) of [starch](starch.md) into [sugars](sugar.md) like [maltose](maltose.md).}} | <!--SR:!2028-05-27,1464,350!2027-05-12,1078,330!2028-06-04,1470,350!2027-02-02,898,290!2028-06-24,1488,350!2025-06-03,385,210!2027-03-28,1042,330!2027-05-10,991,290!2027-04-14,1057,330!2024-11-10,352,250-->
+> | {{[hydrolysis](hydrolysis.md) of [starch](starch.md)}} | {{[Amylases](amylase.md) catalyze the [hydrolysis](hydrolysis.md) of [starch](starch.md) into [sugars](sugar.md) like [maltose](maltose.md).}} | <!--SR:!2028-05-27,1464,350!2027-05-12,1078,330!2028-06-04,1470,350!2027-02-02,898,290!2028-06-24,1488,350!2025-06-03,385,210!2027-03-28,1042,330!2027-05-10,991,290!2027-04-14,1057,330!2027-04-09,880,250-->
 
 <!--/pytextgen-->
 

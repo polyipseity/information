@@ -137,7 +137,7 @@ Unlike {{[Giffen goods](Giffen%20good.md), which are inferior items}}, [Veblen g
 - [demand (economics)](demand.md)
 - [price–performance ratio](price–performance%20ratio.md)
 - second law of demand ::: ([price elasticity](price%20elasticity%20of%20demand.md) over time) <!--SR:!2024-11-13,4,270!2024-11-13,4,289-->
-- third law of demand ::: ([Alchian–Allen effect](Alchian–Allen%20effect.md)) <!--SR:!2024-11-10,1,230!2024-11-13,4,289-->
+- third law of demand ::: ([Alchian–Allen effect](Alchian–Allen%20effect.md)) <!--SR:!2024-11-13,3,250!2024-11-13,4,289-->
 - [supply and demand](supply%20and%20demand.md)
 - [law of supply](law%20of%20supply.md)
 - [tragedy of the commons](tragedy%20of%20the%20commons.md)

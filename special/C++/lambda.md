@@ -12,7 +12,7 @@ tags:
 
 ## lambda capture
 
-If the capture-default is `&`, subsequent simple captures {{must not begin with `&`}}. <!--SR:!2024-11-10,106,290-->
+If the capture-default is `&`, subsequent simple captures {{must not begin with `&`}}. <!--SR:!2026-01-09,425,310-->
 
 If the capture-default is `=`, subsequent simple captures {{must begin with `&`. Since C++17, `*this` is allowed. Since C++20, `this` is also allowed}}. <!--SR:!2024-11-13,18,230-->
 

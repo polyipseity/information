@@ -19,7 +19,7 @@ A formula always {{starts with an equals sign `=`}}. <!--SR:!2025-02-20,294,330-
 
 ## cell reference
 
-To get the value of a cell in a formula, {{use its location, like `=A1`. This is known as a _cell reference_}}. <!--SR:!2024-11-10,213,330-->
+To get the value of a cell in a formula, {{use its location, like `=A1`. This is known as a _cell reference_}}. <!--SR:!2026-10-13,702,330-->
 
 When copy and pasting formulas, the cell references in the formula {{are offsetted by the same offset from the original cell to the copied cell}}. To prevent this offset, {{add `$` before the column, the row, or both, like `=$A$1`}}. <!--SR:!2024-11-24,209,310!2024-11-23,209,310-->
 

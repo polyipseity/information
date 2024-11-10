@@ -281,7 +281,7 @@ return chain.from_iterable(await gather(
 - scandium(III) ion:::Sc<sup>3+</sup> <!--SR:!2030-11-05,2231,402!2024-11-29,480,382-->
 - titanium(III) ion:::Ti<sup>3+</sup> <!--SR:!2030-10-02,2204,402!2024-11-26,477,382-->
 - vanadium(II) ion:::V<sup>2+</sup> <!--SR:!2031-06-24,2420,402!2024-12-10,489,382-->
-- vanadium(III) ion:::V<sup>3+</sup> <!--SR:!2024-11-10,464,382!2031-05-03,2378,402-->
+- vanadium(III) ion:::V<sup>3+</sup> <!--SR:!2031-07-02,2425,402!2031-05-03,2378,402-->
 - manganese(III) ion:::Mn<sup>3+</sup> <!--SR:!2031-03-23,2346,402!2024-11-27,478,382-->
 
 <!--/pytextgen-->

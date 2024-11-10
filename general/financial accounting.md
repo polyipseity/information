@@ -13,7 +13,7 @@ tags:
 
 __Financial accounting__ is {{a branch of [accounting](accounting.md) concerned with the summary, analysis and reporting of financial transactions related to a business}}.<sup>[\[1\]](#^ref-1)</sup> This involves {{the preparation of [financial statements](financial%20audit.md) available for public use}}. {{[Stockholders](shareholder.md), [suppliers](vendor.md), [banks](bank.md), [employees](employment.md#employee), [government agencies](government%20agency.md), [business owners](businessperson.md), and other [stakeholders](stakeholder%20(corporate).md)}} are examples of people {{interested in receiving such information for decision making purposes}}. <!--SR:!2024-12-04,65,310!2025-01-18,85,270!2024-11-13,48,290!2024-12-07,67,310-->
 
-Financial accountancy is governed by {{both local and international accounting standards}}. {{[Generally Accepted Accounting Principles](accounting%20standard.md) (GAAP)}} is {{the standard framework of guidelines for financial accounting used in any given jurisdiction}}. It includes {{the standards, conventions and rules that accountants follow in recording and summarizing and in the preparation of financial statements}}. <!--SR:!2024-11-25,58,310!2025-05-01,175,310!2024-11-10,45,290!2024-11-14,49,290-->
+Financial accountancy is governed by {{both local and international accounting standards}}. {{[Generally Accepted Accounting Principles](accounting%20standard.md) (GAAP)}} is {{the standard framework of guidelines for financial accounting used in any given jurisdiction}}. It includes {{the standards, conventions and rules that accountants follow in recording and summarizing and in the preparation of financial statements}}. <!--SR:!2024-11-25,58,310!2025-05-01,175,310!2025-05-13,184,310!2024-11-14,49,290-->
 
 On the other hand, {{[International Financial Reporting Standards](International%20Financial%20Reporting%20Standards.md) (IFRS)}} is {{a set of accounting standards stating how particular types of transactions and other events should be reported in financial statements}}. IFRS are issued by {{the [International Accounting Standards Board](International%20Accounting%20Standards%20Board.md) (IASB)}}.<sup>[\[2\]](#^ref-2)</sup> With {{IFRS becoming more widespread on the international scene}}, {{_consistency_ in financial reporting has become more prevalent between global organizations}}. <!--SR:!2024-11-18,52,290!2024-12-03,64,310!2024-11-20,53,310!2024-12-10,70,310!2024-11-23,56,310-->
 
@@ -107,7 +107,7 @@ Current assets are {{the most liquid assets of a firm, which are expected to be 
 Non-current assets include {{[fixed](fixed%20asset.md) or long-term assets and [intangible assets](intangible%20asset.md)}}: <!--SR:!2025-03-15,135,290-->
 
 - _fixed (long-term) assets_ ::: property, building, equipment (such as factory machinery) <!--SR:!2024-11-28,59,310!2024-12-10,70,310-->
-- _intangible assets_ ::: copyrights, trademarks, patents, goodwill <!--SR:!2024-11-10,45,290!2025-05-06,179,310-->
+- _intangible assets_ ::: copyrights, trademarks, patents, goodwill <!--SR:!2025-03-21,131,290!2025-05-06,179,310-->
 
 Liabilities include {{current liabilities and long-term liabilities}}: <!--SR:!2024-11-18,48,290-->
 

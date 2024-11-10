@@ -39,7 +39,7 @@ The content is in teaching order.
 - [basics](basics.md)
   - [§ Python basics](basics.md#Python%20basics)
   - [§ arithmetic operators](basics.md#arithmetic%20operators)
-    - [basics § arithmetic operators](basics.md#arithmetic%20operators) / note ::: They really like testing you on the return type of operators... for a somewhat obvious reason. <!--SR:!2024-11-16,56,318!2024-11-10,50,310-->
+    - [basics § arithmetic operators](basics.md#arithmetic%20operators) / note ::: They really like testing you on the return type of operators... for a somewhat obvious reason. <!--SR:!2024-11-16,56,318!2025-04-17,158,310-->
   - [§ mathematics](basics.md#mathematics)
   - [§ string](basics.md#string)
     - [basics § string](basics.md#string) / note ::: They taught `'''` but not `"""` for some reason... But it was later taught in the [week 2 lab](#week%202%20lab) (lab 1). <!--SR:!2024-11-12,52,312!2025-03-20,147,310-->
@@ -50,8 +50,8 @@ The content is in teaching order.
   - [§ data types](basics.md#data%20types)
     - [basics § data types](basics.md#data%20types) / note ::: They have not taught `bool` (values: `True`, `False`) and `NoneType` (value: `None`) up to this point... <!--SR:!2025-01-10,92,292!2024-11-22,59,312-->
 - week 1 exercise: 1/1, graded
-  - Can variables be used to save user input? ::: Yes, variables can be used to save user input (store in a variable). <!--SR:!2024-11-10,20,346!2024-11-10,20,346-->
-  - Can `print(...)` be used to save data? ::: No, `print(...)` cannot be used to save data (store in a variable), only display data. <!--SR:!2024-11-10,20,346!2024-11-10,20,346-->
+  - Can variables be used to save user input? ::: Yes, variables can be used to save user input (store in a variable). <!--SR:!2025-02-15,97,366!2025-02-12,94,366-->
+  - Can `print(...)` be used to save data? ::: No, `print(...)` cannot be used to save data (store in a variable), only display data. <!--SR:!2025-02-12,94,366!2025-02-13,95,366-->
 
 ## week 1 lecture
 
@@ -65,7 +65,7 @@ The content is in teaching order.
     - addition: string concatenation
 - week 1 lecture materials
 - week 1 practice question set: 10/10, ungraded
-  - Python becomes very popular due to the following reasons, except for... ::: It executes the fastest as compared to other programming languages. <!--SR:!2024-11-10,20,346!2024-11-10,20,346-->
+  - Python becomes very popular due to the following reasons, except for... ::: It executes the fastest as compared to other programming languages. <!--SR:!2025-02-10,92,366!2025-02-13,95,366-->
 
 ## week 2 pre-lecture
 
@@ -83,7 +83,7 @@ The content is in teaching order.
   - [§ length](list.md#length)
   - [§ aggregate functions](list.md#aggregate%20functions)
 - week 2 exercise: 1/1, graded
-  - Can a list be sliced? ::: Yes! But you cannot use this in exercises or exams. <!--SR:!2024-11-10,20,346!2024-11-10,20,346-->
+  - Can a list be sliced? ::: Yes! But you cannot use this in exercises or exams. <!--SR:!2025-02-14,96,366!2025-02-16,98,366-->
 - [week 3 lab attendance waiver](assignments/lab%202/lab%202%20waiver%20submission.ipynb): 1/1, graded
 
 ## week 2 lab
@@ -226,9 +226,9 @@ The content is in teaching order.
     - addition: `random.randint(a, b)`
 - week 6 lecture materials
 - week 6 practice question set: 10/10, ungraded
-  - How does a 'for' loop differ from a 'while' loop in Python? ::: 'for' loops iterate a fixed number of times. <!--SR:!2024-11-10,20,346!2024-11-10,20,346-->
-  - What can be a potential pitfall when using the 'while' loop? ::: It can lead to infinite loops if the loop termination condition is not met. <!--SR:!2025-01-14,70,346!2024-11-10,20,346-->
-  - In a 'while' loop, under what circumstances could an infinite loop occur? ::: When the loop condition is always 'True'. <!--SR:!2024-11-10,20,346!2024-11-10,20,346-->
+  - How does a 'for' loop differ from a 'while' loop in Python? ::: 'for' loops iterate a fixed number of times. <!--SR:!2025-02-14,96,366!2025-02-14,96,366-->
+  - What can be a potential pitfall when using the 'while' loop? ::: It can lead to infinite loops if the loop termination condition is not met. <!--SR:!2025-01-14,70,346!2025-02-16,98,366-->
+  - In a 'while' loop, under what circumstances could an infinite loop occur? ::: When the loop condition is always 'True'. <!--SR:!2025-02-15,97,366!2025-02-14,96,366-->
 
 ## week 6 lab
 
@@ -246,12 +246,12 @@ The content is in teaching order.
 - datetime: 2024-10-11T16:00:00+08:00/2024-10-11T17:50:00+08:00
 - status: unscheduled, public holiday: Chung Yeung Festival
 - common mistakes
-  - `=` vs `==` ::: Do not mix up the assignment operator and comparison operator. <!--SR:!2024-11-10,20,346!2024-11-10,20,346-->
-  - `input(...)` return type ::: `input(...)` returns a `str` and may require further conversions. <!--SR:!2024-11-10,20,346!2024-11-10,20,346-->
-  - `//` vs `%` ::: Do not mix up the floor division operator and remainder operator. <!--SR:!2024-11-10,20,346!2024-11-10,20,346-->
-  - `print(...)` multiple arguments ::: Note that if multiple arguments are passed to `print(...)`, the outputted strings are separated by a space in between arguments. <!--SR:!2024-11-10,20,346!2024-11-11,21,360-->
-  - indentation ::: Indentation matters in Python!!! <!--SR:!2024-11-10,20,346!2024-11-10,20,346-->
-  - `break` notes ::: Do not forget to add `break` when needed to exit the loop. The indentation of `break` matters. Also, `break` only exits the innermost loop and does not affect outer loops. <!--SR:!2024-11-10,20,346!2024-11-10,20,346-->
+  - `=` vs `==` ::: Do not mix up the assignment operator and comparison operator. <!--SR:!2025-02-13,95,366!2025-02-12,94,366-->
+  - `input(...)` return type ::: `input(...)` returns a `str` and may require further conversions. <!--SR:!2025-02-16,98,366!2025-02-11,93,366-->
+  - `//` vs `%` ::: Do not mix up the floor division operator and remainder operator. <!--SR:!2025-02-16,98,366!2025-02-11,93,366-->
+  - `print(...)` multiple arguments ::: Note that if multiple arguments are passed to `print(...)`, the outputted strings are separated by a space in between arguments. <!--SR:!2025-02-10,92,366!2024-11-11,21,360-->
+  - indentation ::: Indentation matters in Python!!! <!--SR:!2025-02-15,97,366!2025-02-15,97,366-->
+  - `break` notes ::: Do not forget to add `break` when needed to exit the loop. The indentation of `break` matters. Also, `break` only exits the innermost loop and does not affect outer loops. <!--SR:!2025-02-16,98,366!2025-02-15,97,366-->
 - week 7 lecture materials
 - integrated question set (week 7 practice question set): 0/0, ungraded
 

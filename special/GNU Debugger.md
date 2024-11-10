@@ -20,7 +20,7 @@ Command names can be {{truncated at the end to produce an abbreviation if the ab
 ### common commands
 
 - `apropos <regex>` ::: find text matching `<regex>` <!--SR:!2025-06-22,226,330!2025-02-13,119,290-->
-- `backtrace` ::: print backtrace or call stack <!--SR:!2024-11-11,54,310!2024-11-10,54,310-->
+- `backtrace` ::: print backtrace or call stack <!--SR:!2024-11-11,54,310!2025-07-05,237,330-->
 - `break <where>` ::: set a breakpoint <!--SR:!2025-06-14,220,330!2024-12-02,69,310-->
 - `continue` ::: continue program execution <!--SR:!2025-04-12,165,310!2025-05-30,207,330-->
 - `delete [<breakpoint>]` ::: delete a breakpoint; if breakpoint is not specified, then delete all breakpoints <!--SR:!2024-11-16,58,310!2024-11-12,55,310-->
@@ -37,7 +37,7 @@ Command names can be {{truncated at the end to produce an abbreviation if the ab
 - `set <storage> = <value>` ::: set storage to value <!--SR:!2025-01-13,88,345!2025-01-13,88,345-->
 - `set args <args>...` ::: set program args <!--SR:!2024-12-05,72,310!2025-06-15,220,330-->
 - `si` ::: go to the next instruction stepping into functions <!--SR:!2024-11-17,60,310!2024-11-24,54,250-->
-- `starti [<args>...]` ::: start program and stop at its first instruction <!--SR:!2024-12-02,69,310!2024-11-10,47,290-->
+- `starti [<args>...]` ::: start program and stop at its first instruction <!--SR:!2024-12-02,69,310!2025-03-27,137,290-->
 - `step` ::: go to the next (source) line stepping into functions <!--SR:!2024-11-11,54,310!2025-02-14,119,290-->
 - `x/<format> <address>` ::: examine memory at the given address in the given format (see `help x`) <!--SR:!2024-12-03,70,310!2025-03-27,141,290-->
 
@@ -54,7 +54,7 @@ Command names can be {{truncated at the end to produce an abbreviation if the ab
 
 - `pwndbg>` color (may differ depending on your configuration) ::: cyan: program is running; red: program is not running <!--SR:!2025-06-26,229,330!2025-04-28,173,310-->
 - `checksec` ::: print the binary security settings <!--SR:!2025-01-02,77,345!2025-01-13,88,345-->
-- `down` ::: move down the backtrace or call stack <!--SR:!2024-11-10,53,310!2024-11-16,58,310-->
+- `down` ::: move down the backtrace or call stack <!--SR:!2025-04-23,164,310!2024-11-16,58,310-->
 - `up` ::: move up the backtrace or call stack <!--SR:!2024-11-11,55,310!2025-05-12,185,310-->
 
 #### `pwndbg` heap

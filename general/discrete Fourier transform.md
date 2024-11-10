@@ -20,7 +20,7 @@ In [mathematics](mathematics.md), {{the __discrete Fourier transform__ (__DFT__)
 
 ## definition
 
-The _discrete Fourier transform_ {{transforms a [sequence](sequence.md) of _N_ [complex numbers](complex%20number.md) $\set{\mathbf x_n} := x_0, x_1, \ldots, x_{N−1}$ into another sequence of complex numbers, $\set{\mathbf X_k} := X_0, X_1, \ldots, X_{N−1}$}}, which is defined by: <!--SR:!2024-11-10,61,326-->
+The _discrete Fourier transform_ {{transforms a [sequence](sequence.md) of _N_ [complex numbers](complex%20number.md) $\set{\mathbf x_n} := x_0, x_1, \ldots, x_{N−1}$ into another sequence of complex numbers, $\set{\mathbf X_k} := X_0, X_1, \ldots, X_{N−1}$}}, which is defined by: <!--SR:!2025-08-13,276,346-->
 
 > {{__discrete Fourier transform (Eq. 1)__}}
 >
@@ -83,7 +83,7 @@ The vectors {{$u_{k}=\left[\left.e^{ {\frac {i2\pi }{N} }kn}\;\right|\;n=0,1,\ld
 
 ### The Plancherel theorem and Parseval's theorem
 
-If {{$X_{k}$ and $Y_{k}$ are the DFTs of $x_{n}$ and $y_{n}$ respectively}} then {{[Parseval's theorem](parseval's%20theorem.md)}} states: {{$$\sum _{n=0}^{N-1}x_{n}y_{n}^{*}={\frac {1}{N} }\sum _{k=0}^{N-1}X_{k}Y_{k}^{*}$$}} where the star denotes [complex conjugation](complex%20conjugate.md). {{The [Plancherel theorem](plancherel%20theorem.md)}} is {{a special case of Parseval's theorem}} and states: {{$$\sum _{n=0}^{N-1}|x_{n}|^{2}={\frac {1}{N} }\sum _{k=0}^{N-1}|X_{k}|^{2}$$}}. <!--SR:!2025-06-18,239,336!2025-03-08,144,316!2024-11-10,26,296!2024-12-08,76,276!2025-04-10,182,336!2025-09-08,310,356-->
+If {{$X_{k}$ and $Y_{k}$ are the DFTs of $x_{n}$ and $y_{n}$ respectively}} then {{[Parseval's theorem](parseval's%20theorem.md)}} states: {{$$\sum _{n=0}^{N-1}x_{n}y_{n}^{*}={\frac {1}{N} }\sum _{k=0}^{N-1}X_{k}Y_{k}^{*}$$}} where the star denotes [complex conjugation](complex%20conjugate.md). {{The [Plancherel theorem](plancherel%20theorem.md)}} is {{a special case of Parseval's theorem}} and states: {{$$\sum _{n=0}^{N-1}|x_{n}|^{2}={\frac {1}{N} }\sum _{k=0}^{N-1}|X_{k}|^{2}$$}}. <!--SR:!2025-06-18,239,336!2025-03-08,144,316!2025-02-28,110,316!2024-12-08,76,276!2025-04-10,182,336!2025-09-08,310,356-->
 
 These theorems are {{also equivalent to the unitary condition below}}. <!--SR:!2025-03-25,157,316-->
 

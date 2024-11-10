@@ -15,7 +15,7 @@ tags:
 
 ## business model generation
 
-Business model generation is for {{the entrepreneurial-spirited, value creators, and business innovators}}. A business model shows {{how an organization create, deliver, and capture value}}. <!--SR:!2024-11-10,122,252!2025-02-16,210,270-->
+Business model generation is for {{the entrepreneurial-spirited, value creators, and business innovators}}. A business model shows {{how an organization create, deliver, and capture value}}. <!--SR:!2025-09-19,313,252!2025-02-16,210,270-->
 
 ## canvas
 

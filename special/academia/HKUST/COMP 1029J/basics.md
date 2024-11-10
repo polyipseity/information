@@ -37,7 +37,7 @@ anIntegerVariable = 1 + 2;
 String aStringVariable = "a string"; // variables can be declared and assigned simultaneously
 ```
 
-Variable names are {{case sensitive, cannot be keywords, cannot have some characters like spaces, and cannot begin with some characters like numbers}}. <!--SR:!2024-11-10,201,310-->
+Variable names are {{case sensitive, cannot be keywords, cannot have some characters like spaces, and cannot begin with some characters like numbers}}. <!--SR:!2027-03-22,862,330-->
 
 ## types
 
