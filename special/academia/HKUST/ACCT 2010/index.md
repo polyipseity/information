@@ -143,13 +143,13 @@ The content is in teaching order.
   - [§ financial statement analysis](../../../../general/financial%20statement%20analysis.md#financial%20statement%20analysis)
   - [§ financial ratio analysis](../../../../general/financial%20statement%20analysis.md#financial%20ratio%20analysis) ::: ratios that show the relationship between two financial variables <!--SR:!2025-01-05,80,334!2024-11-17,40,314-->
   - [financial statement analysis](../../../../general/financial%20statement%20analysis.md) / time series ::: analyze over time to see if an entity is getting better or worse, i.e. trend analysis <!--SR:!2025-01-12,81,294!2025-01-05,80,334-->
-  - [financial statement analysis](../../../../general/financial%20statement%20analysis.md) / cross sectional ::: analyze at a single point of time across competitors to see if an entity is better or worse than others, i.e. relative strength <!--SR:!2024-11-11,39,314!2024-12-17,61,314-->
+  - [financial statement analysis](../../../../general/financial%20statement%20analysis.md) / cross sectional ::: analyze at a single point of time across competitors to see if an entity is better or worse than others, i.e. relative strength <!--SR:!2025-03-11,120,314!2024-12-17,61,314-->
 - [current ratio](../../../../general/current%20ratio.md) ::: an liquidity ratio that measures whether a firm has enough resources to meet its short-term obligations <!--SR:!2025-01-06,81,334!2024-12-21,72,334-->
   - [§ current ratio](../../../../general/current%20ratio.md#current%20ratio)
   - [current ratio](../../../../general/current%20ratio.md) / equation ::: current ratio (CR) = current assets (CA) / current liabilities (CL) <!--SR:!2025-01-05,80,334!2024-12-10,61,334-->
 - [quick ratio](../../../../general/quick%20ratio.md) ::: a liquidity ratio that measures the ability of a company to use near-cash assets (or 'quick' assets) to extinguish or retire current liabilities immediately; more conservative than the current ratio as it excludes inventory and prepaid expenses <!--SR:!2025-01-06,81,334!2025-01-06,81,334-->
   - [§ quick ratio](../../../../general/quick%20ratio.md#quick%20ratio)
-  - [quick ratio § formula](../../../../general/quick%20ratio.md#formula) ::: quick ratio (QR) = quick assets (QA) / current liabilities (CL), where quick assets (QA) = current assets (CA) - inventory (I) - prepaid expenses (PE) <!--SR:!2024-11-11,34,294!2025-01-05,80,334-->
+  - [quick ratio § formula](../../../../general/quick%20ratio.md#formula) ::: quick ratio (QR) = quick assets (QA) / current liabilities (CL), where quick assets (QA) = current assets (CA) - inventory (I) - prepaid expenses (PE) <!--SR:!2025-02-19,100,294!2025-01-05,80,334-->
 - use of financial ratios ::: Be careful... No single financial ratio does it all! They can also be manipulated, such as selling all revenue-generating fixed assets to increase the current ratio artificially, but this clearly kills the business. Therefore, financial analysts look at multiple ratios and other numbers, such as movement of fixed assets, fixed asset turnover ratio, etc. <!--SR:!2024-11-14,37,314!2024-11-17,40,314-->
 - [§ week 2 review](questions.md#week%202%20review)
 

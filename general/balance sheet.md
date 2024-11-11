@@ -64,7 +64,7 @@ If applicable to the business, summary values for the following items should be 
 
 ### assets
 
-Assets are {{all the things the business owns}}. This will include {{property, tools, vehicles, furniture, machinery, and so on}}. <!--SR:!2024-12-18,69,310!2024-11-11,39,290-->
+Assets are {{all the things the business owns}}. This will include {{property, tools, vehicles, furniture, machinery, and so on}}. <!--SR:!2024-12-18,69,310!2025-04-20,160,310-->
 
 #### current assets
 
@@ -72,7 +72,7 @@ Assets are {{all the things the business owns}}. This will include {{property, t
 
 <!-- list separator -->
 
-1. [accounts receivable](accounts%20receivable.md) ::: legally enforceable claims for payment held by a business for goods supplied or services rendered that customers have ordered but not paid for <!--SR:!2024-11-22,45,290!2024-11-11,40,290-->
+1. [accounts receivable](accounts%20receivable.md) ::: legally enforceable claims for payment held by a business for goods supplied or services rendered that customers have ordered but not paid for <!--SR:!2024-11-22,45,290!2025-03-10,119,290-->
 2. [cash and cash equivalents](cash%20and%20cash%20equivalents.md) ::: the most liquid current assets found on a business's balance sheet <!--SR:!2024-12-15,68,310!2024-11-12,40,290-->
 3. [inventories](inventory.md) ::: goods and materials that a business holds for the ultimate goal of resale, production or utilization <!--SR:!2024-11-26,47,290!2024-12-13,66,310-->
 4. cash at bank, [petty cash](petty%20cash.md), cash on hand ::: small amount of discretionary funds in the form of cash used for minor expenditures <!--SR:!2024-11-22,45,290!2024-12-03,56,310-->
@@ -98,7 +98,7 @@ Assets are {{all the things the business owns}}. This will include {{property, t
 
 1. [accounts payable](accounts%20payable.md) ::: money owed by a business to its suppliers shown as a liability on a company's balance sheet <!--SR:!2024-12-19,70,310!2024-11-27,50,310-->
 2. [provisions](provision%20(accounting).md) for warranties or court decisions (contingent liabilities that are both probable and measurable) ::: liabilities that may be incurred by an entity depending on the outcome of an uncertain future event, which are both probable and measurable <!--SR:!2024-12-03,56,310!2024-11-27,48,290-->
-3. financial liabilities (excluding provisions and [accounts payables](accounts%20payable.md)), such as [promissory notes](promissory%20note.md) and [corporate bonds](corporate%20bond.md) ::: non-physical liabilities whose value is derived from a contractual claim <!--SR:!2024-11-11,42,290!2025-02-24,110,290-->
+3. financial liabilities (excluding provisions and [accounts payables](accounts%20payable.md)), such as [promissory notes](promissory%20note.md) and [corporate bonds](corporate%20bond.md) ::: non-physical liabilities whose value is derived from a contractual claim <!--SR:!2025-05-02,172,310!2025-02-24,110,290-->
 4. liabilities and assets for current [tax](tax.md) ::: mandatory financial charges or some other types of levy imposed on a taxpayer (an individual or legal entity) by a governmental organization <!--SR:!2024-11-30,53,310!2025-03-21,138,310-->
 5. [deferred tax](deferred%20tax.md) liabilities and deferred tax assets ::: notional assets or liabilities to reflect corporate income taxation on a basis that is the same or more similar to recognition of profits than the taxation treatment (≈ the matching principle vs. tax laws) <!--SR:!2025-02-20,114,290!2024-11-24,47,290-->
 6. [unearned revenue](deferral.md) for services paid for by customers but not yet provided ::: liabilities that arise when payment is received for goods or services that have yet to be delivered or fulfilled <!--SR:!2024-11-14,44,290!2024-12-12,58,270-->

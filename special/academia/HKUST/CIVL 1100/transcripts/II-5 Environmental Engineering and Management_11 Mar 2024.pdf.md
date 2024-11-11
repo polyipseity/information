@@ -425,7 +425,7 @@ Concentration Units for Liquids
 
 Relationship between PPM and mg/L
 
-- relationship between ppm<sub>w</sub> and mg/L for dilute solutions ::: 1 mg/L ≈ 1 ppm<sub>w</sub>, 1 µg/L ≈ 1 ppb<sub>w</sub> <!--SR:!2024-11-11,118,290!2025-06-08,296,330-->
+- relationship between ppm<sub>w</sub> and mg/L for dilute solutions ::: 1 mg/L ≈ 1 ppm<sub>w</sub>, 1 µg/L ≈ 1 ppb<sub>w</sub> <!--SR:!2025-10-21,344,290!2025-06-08,296,330-->
   - relationship between ppm<sub>w</sub> and mg/L derivation ::: convert the volume to mass or mass to volume using density <!--SR:!2025-03-20,216,310!2025-02-22,209,330-->
   - density of water ::: about 1 kg/L <!--SR:!2025-05-25,284,330!2025-03-15,230,330-->
 

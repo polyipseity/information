@@ -80,7 +80,7 @@ Important: the cash flow statement {{only considers the exchange of __actual__ c
 
 The statement of financial performance is also called {{income statement, profit & loss (p&l) statement, or statement of operations}}. <!--SR:!2024-12-16,69,335-->
 
-The statement of profit or income statement represents {{the changes in value of a company's [accounts](account%20(bookkeeping).md) over a set period (most commonly one [fiscal year](fiscal%20year.md))}}, and may {{compare the changes to changes in the same accounts over the previous period}}. All changes are {{summarized on the "bottom line" as [net income](net%20income.md), often reported as "net loss" when income is less than zero}}. <!--SR:!2024-12-05,66,310!2024-11-11,45,290!2025-02-14,113,290-->
+The statement of profit or income statement represents {{the changes in value of a company's [accounts](account%20(bookkeeping).md) over a set period (most commonly one [fiscal year](fiscal%20year.md))}}, and may {{compare the changes to changes in the same accounts over the previous period}}. All changes are {{summarized on the "bottom line" as [net income](net%20income.md), often reported as "net loss" when income is less than zero}}. <!--SR:!2024-12-05,66,310!2025-03-22,131,290!2025-02-14,113,290-->
 
 The net profit or loss is determined by: <br/> {{sales (revenue) <br/> – [cost of goods sold](cost%20of%20goods%20sold.md) <br/> – selling, general, administrative expenses (SGA) <br/> – [depreciation](depreciation.md)/amortization <br/> = earnings before interest and taxes ([EBIT](earnings%20before%20interest,%20taxes,%20depreciation%20and%20amortization.md)) <br/> – interest and tax expenses <br/> = profit/loss}} <!--SR:!2024-12-25,62,230-->
 
@@ -96,7 +96,7 @@ The statement can be used to {{help show the financial position of a company}} b
 
 Accounting standards often {{set out a general format that companies are expected to follow when presenting their balance sheets}}. [International Financial Reporting Standards](International%20Financial%20Reporting%20Standards.md) (IFRS) normally require that {{companies report [current](current%20asset.md) assets and liabilities separately from non-current amounts}}.<sup>[\[5\]](#^ref-5)</sup><sup>[\[6\]](#^ref-6)</sup> A GAAP-compliant balance sheet must {{list assets and liabilities based on decreasing liquidity, from most liquid to least liquid. As a result, current assets/liabilities are listed first followed by non-current assets/liabilities}}. However, an IFRS-compliant balance sheet must {{list assets/liabilities based on increasing liquidity, from least liquid to most liquid. As a result, non-current assets/liabilities are listed first followed by current assets/liabilities}}.<sup>[\[7\]](#^ref-7)</sup> <!--SR:!2025-01-15,85,270!2025-04-07,157,310!2024-11-16,46,270!2024-11-16,50,290-->
 
-Current assets are {{the most liquid assets of a firm, which are expected to be realized within a 12-month period, or the firm's operating cycle, whichever is longer}}. Current assets include: {{[cash](cash.md), [accounts receivable](accounts%20receivable.md), merchandise inventory, [investee companies](company.md) (held less than a financial period), [prepaid expenses](deferral.md) (for use during the current financial period), etc.}} <!--SR:!2024-12-06,67,310!2024-11-11,34,250-->
+Current assets are {{the most liquid assets of a firm, which are expected to be realized within a 12-month period, or the firm's operating cycle, whichever is longer}}. Current assets include: {{[cash](cash.md), [accounts receivable](accounts%20receivable.md), merchandise inventory, [investee companies](company.md) (held less than a financial period), [prepaid expenses](deferral.md) (for use during the current financial period), etc.}} <!--SR:!2024-12-06,67,310!2025-02-07,88,250-->
 
 - [cash](cash.md) ::: physical money <!--SR:!2025-04-18,164,310!2024-11-12,46,290-->
 - [accounts receivable](accounts%20receivable.md) ::: revenues earned but not yet collected <!--SR:!2025-04-28,172,310!2025-04-24,168,310-->
@@ -112,7 +112,7 @@ Non-current assets include {{[fixed](fixed%20asset.md) or long-term assets and [
 Liabilities include {{current liabilities and long-term liabilities}}: <!--SR:!2024-11-18,48,290-->
 
 - _current liabilities_ ::: trade accounts payable, dividends payable, employee salaries payable, interest (e.g. on debt) payable <!--SR:!2024-11-29,52,270!2024-12-16,60,270-->
-- _long-term liabilities_ ::: mortgage notes payable, bonds payable <!--SR:!2024-11-27,58,310!2024-11-11,46,290-->
+- _long-term liabilities_ ::: mortgage notes payable, bonds payable <!--SR:!2024-11-27,58,310!2025-05-17,187,310-->
 
 {{Owner's equity, sometimes referred to as net assets}}, is {{represented differently depending on the type of business ownership}}. Business ownership can be in the form of {{a sole proprietorship, partnership, or a [corporation](corporation.md)}}. For {{a corporation}}, the owner's equity portion {{usually shows common stock, and retained earnings (earnings kept in the company)}}. Retained earnings come from {{the retained earnings statement, prepared prior to the balance sheet}}.<sup>[\[8\]](#^ref-8)</sup> <!--SR:!2025-04-30,172,310!2024-11-17,51,290!2024-11-28,59,310!2024-11-18,52,290!2025-04-19,164,310!2024-11-12,47,290-->
 
@@ -169,7 +169,7 @@ The {{[accounting equation](accounting%20equation.md) ([Assets](asset.md) = [Lia
        increased by debits           increased by credits
 ```
 
-Thus {{crediting a credit account or debiting a debit account}} {{increases its absolute value (balance)}}. <!--SR:!2024-11-29,60,310!2024-11-11,42,290-->
+Thus {{crediting a credit account or debiting a debit account}} {{increases its absolute value (balance)}}. <!--SR:!2024-11-29,60,310!2025-04-29,169,310-->
 
 Thus {{debiting a credit account or crediting a debit account}} {{decreases its absolute value (balance)}}. <!--SR:!2024-11-20,54,310!2024-11-26,57,310-->
 

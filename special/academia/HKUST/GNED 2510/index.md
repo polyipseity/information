@@ -95,7 +95,7 @@ The content is in teaching order.
 - datetime: 2023-10-11T17:00:00+08:00/2023-10-11T18:50:00+08:00
 - topic: Stress Management and Mindset Shift
 - stress ::: mental or emotional strain or tension <!--SR:!2024-11-14,37,290!2024-12-02,46,290-->
-  - stress identification ::: nervous, sweating, tired, trembling, weak, ... <!--SR:!2024-11-11,34,290!2024-11-20,41,290-->
+  - stress identification ::: nervous, sweating, tired, trembling, weak, ... <!--SR:!2025-02-17,98,290!2024-11-20,41,290-->
   - stress relieve ::: putting words on emotions, mindfulness, re-attribution, refocus, visualize, revalue, ... <!--SR:!2024-11-24,47,290!2024-11-24,45,290-->
 - SCARF ::: status, certainty, autonomy, relatedness, fairness <!--SR:!2024-11-29,52,310!2024-12-02,55,310-->
   - SCARF / status ::: relative importance to others and seniority <!--SR:!2024-12-01,54,310!2024-12-07,60,310-->

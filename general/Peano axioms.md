@@ -119,7 +119,7 @@ The axiom of induction is {{sometimes stated in the following form that uses a s
 For any [predicate](predicate%20(mathematical%20logic).md) _φ_, if
 
 - _φ_(0) is true, and
-- axiom of induction condition with inequalities ::: for every _n_ ∈ __N__, if _φ_(_k_) is true for every _k_ ∈ __N__ such that _k_ ≤ _n_, then _φ_(_S_(_n_)) is true, <!--SR:!2024-11-11,47,305!2024-12-16,76,325-->
+- axiom of induction condition with inequalities ::: for every _n_ ∈ __N__, if _φ_(_k_) is true for every _k_ ∈ __N__ such that _k_ ≤ _n_, then _φ_(_S_(_n_)) is true, <!--SR:!2025-05-31,201,325!2024-12-16,76,325-->
 - then for every _n_ ∈ __N__, _φ_(_n_) is true.
 
 This form of the induction axiom, called {{_strong induction_, is a consequence of the standard formulation}}, but is {{often better suited for reasoning about the ≤ order}}. For example, to {{show that the naturals are [well-ordered](well-order.md)—every [nonempty](empty%20set.md) [subset](subset.md) of __N__ has a [least element](greatest%20element%20and%20least%20element.md)}}—one can reason as follows. <!--SR:!2024-11-13,46,305!2024-11-16,51,305!2024-12-14,74,325-->
