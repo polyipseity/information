@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="274"
+   height="274"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.47 r22583"
+   version="1.0"
+   sodipodi:docname="Cross_elasticity_of_demand_substitutes.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape">
+  <defs
+     id="defs4">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 137 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="274 : 137 : 1"
+       inkscape:persp3d-origin="137 : 91.333333 : 1"
+       id="perspective33" />
+    <marker
+       inkscape:stockid="TriangleOutL"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="TriangleOutL"
+       style="overflow:visible">
+      <path
+         id="path3235"
+         d="M 5.77,0 L -2.88,5 L -2.88,-5 L 5.77,0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="scale(0.8,0.8)" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     gridtolerance="10000"
+     guidetolerance="10"
+     objecttolerance="10"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.8284672"
+     inkscape:cx="137"
+     inkscape:cy="137"
+     inkscape:document-units="px"
+     inkscape:current-layer="g3689"
+     inkscape:window-width="1024"
+     inkscape:window-height="746"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     showgrid="false"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-9,9.6378174)">
+    <g
+       id="g3689">
+      <g
+         id="g3412">
+        <path
+           id="path2160"
+           d="m 42,13.875 0,217 1,0 0,-217 -1,0 z"
+           style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none" />
+        <path
+           id="path3418"
+           d="m 42.5,9.246183 4,6.92 -8,0 4,-6.92 z"
+           style="fill-rule:evenodd;stroke:#000000;stroke-width:0.8pt;marker-start:none" />
+      </g>
+      <g
+         id="g3404">
+        <path
+           id="path2162"
+           d="m 42.5,230.375 0,1 217,0 0,-1 -217,0 z"
+           style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none" />
+        <path
+           id="path3410"
+           d="m 264.116,230.86218 -6.92,4 0,-8 6.92,4 z"
+           style="fill-rule:evenodd;stroke:#000000;stroke-width:0.8pt;marker-start:none" />
+      </g>
+      <path
+         sodipodi:nodetypes="cc"
+         id="path3332"
+         d="m 237.56914,175.56272 c 0,0 -98.62765,-9e-5 -172.459985,-0.54699"
+         style="fill:none;stroke:#000000;stroke-width:0.99686688px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <text
+         id="text3342"
+         y="146.40244"
+         x="14.986328"
+         style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+         xml:space="preserve"><tspan
+           dy="0 5"
+           y="146.40244"
+           x="14.986328"
+           id="tspan3344"
+           sodipodi:role="line"><tspan
+   id="tspan3346"
+   style="font-size:18px">Q</tspan>X</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+         x="123.7857"
+         y="249.48425"
+         id="text3350"><tspan
+           sodipodi:role="line"
+           id="tspan3352"
+           x="123.7857"
+           y="249.48425"
+           dy="0 5"><tspan
+   style="font-size:18px"
+   id="tspan3354">P</tspan>Y</tspan></text>
+    </g>
+  </g>
+</svg>

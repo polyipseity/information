@@ -288,7 +288,7 @@ tags:
 > 2. hotel rooms in the short run, hotel rooms in the long run
 > 3. groceries, meals at fancy restaurants
 >
-> - solution: {{For 1, sunscreen has less substitutes, so its demand is more elastic, thus its deadweight loss due to tax would be higher. For 2, price elasticities of both supply and demand curves are more elastic in the long run, thus the deadweight loss in the long run would be higher. For 3, groceries are necessary goods while meals at fancy restaurants are luxury goods, so the latter is more elastic, thus its deadweight loss would be higher.}} <!--SR:!2024-11-20,10,301-->
+> - solution: {{For 1, breakfast cereal has more substitutes, so its demand is more elastic, thus its deadweight loss due to tax would be higher. For 2, price elasticities of both supply and demand curves are more elastic in the long run, thus the deadweight loss in the long run would be higher. For 3, groceries are necessary goods while meals at fancy restaurants are luxury goods, so the latter is more elastic, thus its deadweight loss would be higher.}} <!--SR:!2024-11-20,10,301-->
 
 ## tutorials
 

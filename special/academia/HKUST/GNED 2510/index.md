@@ -165,7 +165,7 @@ The content is in teaching order.
   - teamwork tips ::: strategic thinking, determined/delegation/communication, remain calm under pressure, trust, win-win cooperation with other teams <!--SR:!2024-12-20,59,250!2025-02-02,91,270-->
 - structured group discussion
 - presentation
-  - presentation tips ::: greeting, no need to repeat the known problem, T-style presentation (depth not breadth), set reasonable assumptions, rehearse!! <!--SR:!2025-03-16,124,290!2024-11-14,37,290-->
+  - presentation tips ::: greeting, no need to repeat the known problem, set reasonable assumptions, T-style presentation (depth not breadth); and most importantly, rehearse!! <!--SR:!2025-03-16,124,290!2024-11-14,37,290-->
 
 ## week 11 tutorial
 

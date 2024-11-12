@@ -192,3 +192,22 @@ The content is in teaching order.
   - decision making / choose ::: When choosing, self-awareness is very important. Try to be aware of how others have influenced your choice and whether such influences are good. Examples of influence include: You are told that you should work in a certain occupation. <!--SR:!2024-12-03,25,374!2024-12-01,23,374-->
   - decision making / let go & move on ::: After making a choice, treat it as irreversible. Try to enter a "cycle of non-regret". <p> It turns out your brain will "synthesize" happiness for an irreversible choice, kinda like "wanting what you get", not "getting what you want". Keeping your choice open inhibits the above, and may make you worse since you will have lower happiness and poorer performance. <!--SR:!2024-12-03,25,374!2024-12-01,23,374-->
     - decision making / let go & move on / quotes ::: Quality of the decision does not equal quality of the outcome. (You cannot fully control the outcome for most things.) <p> Consequences of choices cannot influence choice itself. (Try to _really_ understand this seemingly-wrong sentence again...) <!--SR:!2024-12-01,23,374!2024-12-03,25,374-->
+
+## week 10 tutorial
+
+- datetime: 2024-11-07T10:30:00+08:00/2024-11-07T12:20:00+08:00
+- mindfulness ::: Paying attention to the present moment on purpose not-judgementally.
+  - mindfulness / simple ::: Attend to own breathing. Relax. Ask: What is the most important _right now_?
+- activity 1: attention exercise ::: Learn to pay attention. Maybe try not looking at your phone. Go out and observe other things. Record your observations.
+  - activity 1: attention exercise / debrief ::: Pay attention to paying attention. It is important to develop __attention of attention__: to know if your attention has wandered away. __Awareness of awareness__ is also important: an overarching awareness.
+- paying attention
+  - pay attention / types ::: __Noticing__ is paying attention at the current moment. __Reflecting__ is paying attention in retrospect. It may be _unfiltered_ (open) or _filtered_ (by attribute, value, etc.).
+- activity 2: gratefulness exercise ::: Spend 5 minutes to write down things that you are grateful for. The thing does not need to be big: it can be small things.
+  - activity 2: gratefulness exercise / debrief ::: You may find it surprisingly comfortable. You may see things that you have remembered in a different way. <p> "Participants who kept a gratitude journal weekly for 10 weeks or daily for two weeks experienced more gratitude, positive moods, optimism about the future, and better sleep." — Emmons, R. A., & McCullough, M. E. (2003). Counting blessings versus burdens: an experimental investigation of gratitude and subjective well-being in daily life. _Journal of personality and social psychology_, _84_(2), 377.
+- odyssey ::: Ideate own life's possibilities. This is using _reframing_.
+  - odyssey / dysfunctional belief ::: "Life can be engineered – optimized or maxed-out." <br/> "Be the best version of you!" <p> In a way, they could be dysfunctional...
+  - odyssey / best practice ::: It is best to start with multiple ideas in parallel instead of prematurely committing to one path. Your mind can stay more open, and receive and conceive more novel innovations.
+- activity 3: odyssey planning – 3 versions of my life ::: Design 3 versions of "me": First is the story you tell today. Second is what if the story you tell today was no longer an option? Last is wild ideas: No more constraints!
+  - activity 3: odyssey planning – 3 versions of my life / components ::: __Timeline__: It shows major milestones, with at least one per year. Use whatever you want to describe it. It could be drawings, pictures, words, etc. <br/> __Dashboard__: It shows how you rate your plan. <br/> __Title__: A 3 to 6-word descriptive title. <br/> __Questions__: What questions does this plan raise?
+- assignments
+  - [odyssey planning – 3 versions of my life](assignments/odyssey%20planning%20–%203%20versions%20of%20my%20life/submission.md)
