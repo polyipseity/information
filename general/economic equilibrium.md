@@ -32,13 +32,13 @@ An economic equilibrium is {{a situation when the economic agent cannot change t
 >
 > {{Competitive Equilibrium: Price equates supply and demand.}}
 >
-> - P ::: – price
-> - Q ::: – quantity demanded and supplied
-> - S ::: – supply curve
-> - D ::: – demand curve
-> - P<sub>0</sub> ::: – equilibrium price
-> - A – excess demand ::: – when P<P<sub>0</sub>
-> - B – excess supply ::: – when P>P<sub>0</sub>
+> - P – ::: price
+> - Q – ::: quantity demanded and supplied
+> - S – ::: supply curve
+> - D – ::: demand curve
+> - P<sub>0</sub> – ::: equilibrium price
+> - A – excess demand – ::: when P<P<sub>0</sub>
+> - B – excess supply – ::: when P>P<sub>0</sub>
 
 In {{a [competitive equilibrium](competitive%20equilibrium.md)}}, {{supply equals demand}}. Property P1 is satisfied, because {{at the equilibrium price the amount supplied is equal to the amount demanded}}. Property P2 is also satisfied. Demand is {{chosen to maximize utility given the market price: no one on the demand side has any incentive to demand more or less at the prevailing price}}. Likewise supply is {{determined by firms maximizing their profits at the market price: no firm will want to supply any more or less at the equilibrium price}}. Hence, {{agents on neither the demand side nor the supply side will have any incentive to alter their actions}}.
 
