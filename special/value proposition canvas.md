@@ -111,7 +111,7 @@ vagueness: vague jobs, pains, and gains
 
 - _(begin)_→:::←hyperfocus: focusing on functional jobs only <!--SR:!2025-01-05,146,229!2025-04-22,289,349-->
 - hyperfocus: focusing on functional jobs only→:::←insufficiency: not enough jobs, pains, and gains <!--SR:!2025-07-31,287,249!2025-01-01,163,269-->
-- insufficiency: not enough jobs, pains, and gains→:::←mix: mixing customer segments <!--SR:!2024-11-12,96,189!2024-11-17,7,130-->
+- insufficiency: not enough jobs, pains, and gains→:::←mix: mixing customer segments <!--SR:!2025-05-13,182,189!2024-11-17,7,130-->
 - mix: mixing customer segments→:::←mix: mixing jobs and outcomes <!--SR:!2025-08-19,323,289!2025-01-03,78,249-->
 - mix: mixing jobs and outcomes→:::←opposite: gains and pains are not opposite, gains are beyond expectation while pains are falling short of expectation <!--SR:!2025-02-01,100,225!2025-05-29,247,285-->
 - opposite: gains and pains are not opposite, gains are beyond expectation while pains are falling short of expectation→:::←reversed: listing jobs, pains, and gains from your product value propositions <!--SR:!2025-01-17,174,269!2024-11-20,34,189-->
@@ -257,7 +257,7 @@ conclusion: make progress
 <!--pytextgen generate section="c301"--><!-- The following content is generated at 2024-03-22T20:40:48.987505+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←hypothesis: extract hypotheses <!--SR:!2025-08-23,359,309!2025-05-08,298,347-->
-- hypothesis: extract hypotheses→:::←hypothesis: prioritize hypotheses <!--SR:!2025-07-29,366,349!2024-11-12,147,309-->
+- hypothesis: extract hypotheses→:::←hypothesis: prioritize hypotheses <!--SR:!2025-07-29,366,349!2026-08-03,629,329-->
 - hypothesis: prioritize hypotheses→:::←test: design tests <!--SR:!2025-01-02,184,309!2025-02-05,199,270-->
 - test: design tests→:::←test: prioritize tests <!--SR:!2025-07-09,282,309!2025-11-28,450,310-->
 - test: prioritize tests→:::←test: run tests <!--SR:!2025-01-18,213,329!2024-11-25,166,310-->

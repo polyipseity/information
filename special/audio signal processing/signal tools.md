@@ -37,8 +37,8 @@ SonicVisualiser can {{apply DFT on complicated sounds and produce a magnitude sp
 
 ### analysis (sms-tools)
 
-`sms-tools` can show {{the spectrum magnitude and phase of a signal}}. <!--SR:!2024-11-12,71,329-->
+`sms-tools` can show {{the spectrum magnitude and phase of a signal}}. <!--SR:!2025-10-02,324,349-->
 
 ## Freesound
 
-Freesound is {{a repository of free and open (Creative Commons) sounds}}. Its website is {{<https://freesound.org/>}}. <!--SR:!2024-11-12,71,329!2024-11-13,72,329-->
+Freesound is {{a repository of free and open (Creative Commons) sounds}}. Its website is {{<https://freesound.org/>}}. <!--SR:!2025-10-05,327,349!2024-11-13,72,329-->

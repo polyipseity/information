@@ -31,7 +31,7 @@ This expression states that {{whenever in the course of some logical derivation 
 
 This is {{the _[modus ponens](modus%20ponens.md)_ rule of [propositional logic](propositional%20calculus.md)}}. Rules of inference are often formulated as {{[schemata](logical%20form.md) employing [metavariables](metavariable.md)}}.<sup>[\[2\]](#^ref-2)</sup> In the rule (schema) above, the metavariables A and B can be {{instantiated to any element of the universe (or sometimes, by convention, a restricted subset such as [propositions](proposition.md)) to form an [infinite set](infinite%20set.md) of inference rules}}. <!--SR:!2025-05-27,197,314!2025-02-16,116,294!2025-03-16,137,294-->
 
-A proof system is formed from {{a set of rules chained together to form proofs, also called _derivations_}}. Any derivation has {{only one final conclusion, which is the statement proved or derived}}. If {{premises are left unsatisfied in the derivation}}, then {{the derivation is a proof of a _hypothetical_ statement: "_if_ the premises hold, _then_ the conclusion holds."}} <!--SR:!2024-12-12,72,314!2024-11-12,46,294!2024-11-28,60,310!2024-11-30,61,314-->
+A proof system is formed from {{a set of rules chained together to form proofs, also called _derivations_}}. Any derivation has {{only one final conclusion, which is the statement proved or derived}}. If {{premises are left unsatisfied in the derivation}}, then {{the derivation is a proof of a _hypothetical_ statement: "_if_ the premises hold, _then_ the conclusion holds."}} <!--SR:!2024-12-12,72,314!2025-05-20,189,314!2024-11-28,60,310!2024-11-30,61,314-->
 
 ## references
 

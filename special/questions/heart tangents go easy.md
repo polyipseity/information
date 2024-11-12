@@ -16,7 +16,7 @@ Consider the curve $\left(x^2+y^2-1\right)^3=x^2y^3$. Find the equation of the t
 
 ## strategy
 
-- inspecting "Consider the curve $\left(x^2+y^2-1\right)^3=x^2y^3$. Find the equation of the tangent line(s) to the curve at the point where the curve intersects the $y$-axis." :: Find the intersections first. Then use implicit differentiation, but this approach will face an issue... <!--SR:!2024-11-12,82,270-->
+- inspecting "Consider the curve $\left(x^2+y^2-1\right)^3=x^2y^3$. Find the equation of the tangent line(s) to the curve at the point where the curve intersects the $y$-axis." :: Find the intersections first. Then use implicit differentiation, but this approach will face an issue... <!--SR:!2025-06-20,220,270-->
 - resolving the calculated derivative of $\left(x^2+y^2-1\right)^3=x^2y^3$ being $\frac 0 0$ :: Realize the expression is indeterminate. To resolve it, consider only a part of the curve by letting $x = -\sqrt{t + 1}$ for the left intersection point and $x = \sqrt{t + 1}$ for the right intersection point to simplify the original equation as much as possible, which may make the derivative more "well-behaved". Then differentiate. <!--SR:!2025-07-30,280,290-->
 
 ## solution

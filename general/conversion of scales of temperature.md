@@ -116,7 +116,7 @@ return await conversion_table(
 
 <!--pytextgen generate section="50fb"--><!-- The following content is generated at 2024-03-07T00:30:25.375033+08:00. Any edits will be overridden! -->
 
-- [Celsius](Celsius.md)::from [Kelvin](Kelvin.md): x K ≘ (x − 273.15) °C, to [Kelvin](Kelvin.md): x °C ≘ (x + 273.15) K <!--SR:!2024-11-12,252,330-->
+- [Celsius](Celsius.md)::from [Kelvin](Kelvin.md): x K ≘ (x − 273.15) °C, to [Kelvin](Kelvin.md): x °C ≘ (x + 273.15) K <!--SR:!2028-01-01,1145,350-->
 - [Fahrenheit](Fahrenheit.md)::from [Kelvin](Kelvin.md): x K ≘ (x × 9/5 − 459.67) °F, to [Kelvin](Kelvin.md): x °F ≘ (x + 459.67) × 5/9 K <!--SR:!2025-09-27,367,230-->
 - [Rankine](Rankine%20scale.md)::from [Kelvin](Kelvin.md): x K ≘ x × 9/5 °R, to [Kelvin](Kelvin.md): x °R ≘ x × 5/9 K <!--SR:!2025-10-02,457,310-->
 

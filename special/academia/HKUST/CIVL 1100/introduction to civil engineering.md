@@ -234,7 +234,7 @@ water security
 
 - _(begin)_→:::←climate change <!--SR:!2026-12-02,768,345!2025-02-24,228,350-->
 - climate change→:::←extreme weather <!--SR:!2025-08-18,343,337!2025-01-04,199,350-->
-- extreme weather→:::←food security <!--SR:!2024-11-12,150,330!2025-03-06,235,347-->
+- extreme weather→:::←food security <!--SR:!2026-03-19,492,330!2025-03-06,235,347-->
 - food security→:::←mega-cities <!--SR:!2025-12-02,460,372!2025-08-03,319,320-->
 - mega-cities→:::←water security <!--SR:!2025-03-02,229,360!2024-12-30,187,354-->
 - water security→:::←_(end)_ <!--SR:!2025-04-28,318,350!2026-02-08,496,357-->
@@ -400,7 +400,7 @@ Water Cube
 <!--pytextgen generate section="cc12"--><!-- The following content is generated at 2024-03-10T00:25:48.737016+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←Beijing National Stadium <!--SR:!2025-08-26,362,380!2025-03-11,257,367-->
-- Beijing National Stadium→:::←Burj Al Arab <!--SR:!2025-05-14,263,304!2024-11-12,158,350-->
+- Beijing National Stadium→:::←Burj Al Arab <!--SR:!2025-05-14,263,304!2026-12-13,761,370-->
 - Burj Al Arab→:::←Burj Khalifa <!--SR:!2026-03-31,530,290!2024-12-22,190,352-->
 - Burj Khalifa→:::←CCTV Headquarters <!--SR:!2025-06-15,286,320!2025-04-25,256,270-->
 - CCTV Headquarters→:::←Eiffel Tower <!--SR:!2025-11-11,407,305!2024-12-11,149,292-->
@@ -913,7 +913,7 @@ polypropylene fiber reinforced concrete
 <!--pytextgen generate section="eee1"--><!-- The following content is generated at 2024-02-16T21:59:47.859581+08:00. Any edits will be overridden! -->
 
 - _(begin)_→:::←artificial stone <!--SR:!2025-07-09,265,297!2025-07-31,398,365-->
-- artificial stone→:::←cellular concrete <!--SR:!2024-11-12,128,300!2025-07-28,331,335-->
+- artificial stone→:::←cellular concrete <!--SR:!2026-05-01,535,320!2025-07-28,331,335-->
 - cellular concrete→:::←engineered cement composite <!--SR:!2025-12-11,413,270!2024-12-05,166,330-->
 - engineered cement composite→:::←fly ash concrete <!--SR:!2026-03-09,492,337!2025-09-02,341,320-->
 - fly ash concrete→:::←polypropylene fiber reinforced concrete <!--SR:!2025-03-31,209,280!2025-08-14,344,335-->
@@ -1146,7 +1146,7 @@ and the Structural Engineering Institute (SEI).
 - On 24 June 2021, a 12-story beachfront condominium, Champlain Towers South, in Miami suburb, Florida, United States partially collapsed, killing 98 people.→:::←Main culprit is degradation of reinforced concrete structural support in ground-level parking garage, due to water penetration and corrosion of the reinforcing steel. <!--SR:!2025-04-16,247,315!2025-04-10,241,315-->
 - Main culprit is degradation of reinforced concrete structural support in ground-level parking garage, due to water penetration and corrosion of the reinforcing steel.→:::←Other possible factors include corruption, insufficient reinforcing steel, and land subsidence. <!--SR:!2024-12-08,194,290!2025-08-02,322,317-->
 - Other possible factors include corruption, insufficient reinforcing steel, and land subsidence.→:::←The problems had been reported in 2018 and a US$15M program of remedial work has been approved, though no main structural work has taken place. <!--SR:!2025-11-27,384,294!2025-05-18,271,316-->
-- The problems had been reported in 2018 and a US$15M program of remedial work has been approved, though no main structural work has taken place.→:::←On 25 August 2021, the National Institute of Standards and Technology (NIST) has been tasked with investigation, <!--SR:!2024-11-12,149,337!2025-11-17,413,335-->
+- The problems had been reported in 2018 and a US$15M program of remedial work has been approved, though no main structural work has taken place.→:::←On 25 August 2021, the National Institute of Standards and Technology (NIST) has been tasked with investigation, <!--SR:!2026-03-31,504,337!2025-11-17,413,335-->
 - On 25 August 2021, the National Institute of Standards and Technology (NIST) has been tasked with investigation,→:::←with investigators coming from the American Concrete Institute (ACI), <!--SR:!2026-02-25,487,327!2025-06-05,278,307-->
 - with investigators coming from the American Concrete Institute (ACI),→:::←the American Society of Civil Engineers (ASCE), <!--SR:!2024-11-25,156,334!2025-05-18,269,310-->
 - the American Society of Civil Engineers (ASCE),→:::←the Geode Institute (GI), <!--SR:!2025-02-04,190,290!2026-06-04,602,357-->
@@ -1230,7 +1230,7 @@ water treatment
 - groundwater quality control→:::←wastewater recycling <!--SR:!2024-11-26,89,275!2024-12-26,92,260-->
 - wastewater recycling→:::←wastewater treatment <!--SR:!2025-12-22,414,315!2025-01-16,186,317-->
 - wastewater treatment→:::←water quality monitoring <!--SR:!2024-12-21,142,280!2024-12-07,157,315-->
-- water quality monitoring→:::←water treatment <!--SR:!2024-11-12,148,324!2025-10-19,390,334-->
+- water quality monitoring→:::←water treatment <!--SR:!2026-09-09,666,344!2025-10-19,390,334-->
 - water treatment→:::←_(end)_ <!--SR:!2025-03-13,240,354!2024-12-09,141,266-->
 
 <!--/pytextgen-->

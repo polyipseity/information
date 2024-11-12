@@ -70,7 +70,7 @@ We know that $\sqrt 2$ is irrational from [above](#irrationality%20of%20the%20sq
 
 We know that $\sqrt p$ is irrational from [above](#irrationality%20of%20square%20roots%20of%20prime%20numbers). Prove a even stronger result: {{the square root of any natural number $n$, i.e. $\sqrt n$, is either a natural number or irrational}}. <!--SR:!2024-11-28,59,310-->
 
-- strategy ::: Prove by contradiction. Assume the rational fraction is in its most simplest form, i.e. co-prime. <!--SR:!2024-12-21,65,280!2024-11-12,47,300-->
+- strategy ::: Prove by contradiction. Assume the rational fraction is in its most simplest form, i.e. co-prime. <!--SR:!2024-12-21,65,280!2025-04-03,142,300-->
 
 1. assumption ::: The assumption is that square roots of natural numbers are rational and thus can be written as $a / b$ for $a, b \in \mathbb N_0$. $a$ and $b$ are co-prime. <!--SR:!2024-12-08,69,320!2024-12-17,76,320-->
 2. proof ::: $\sqrt n = a / b$ implies $n = a^2 / b^2$, which implies $nb^2 = a^2$. If $b$ has a prime factor, then $a$ must have have it by this relation. However, since $a$ and $b$ are co-prime, their $\gcd(a, b) = 1$. So $b$ must not have any prime factors at all, as the least prime is 2. The only way this is possible is if $b = 1$. Then $n = a^2$. A solution for $n$ only exists if $n$ is a perfect square, as $a$ is an integer. Otherwise, this is impossible, meaning $\sqrt n$ is irrational by contradiction. And in the other case where $n$ is a perfect square, $b = 1$, so $\sqrt n = a / 1 = a$, an integer. So $\sqrt n$ is either a natural number or irrational. <!--SR:!2024-12-01,62,320!2025-03-13,134,300-->

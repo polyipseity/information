@@ -98,7 +98,7 @@ Accounting standards often {{set out a general format that companies are expecte
 
 Current assets are {{the most liquid assets of a firm, which are expected to be realized within a 12-month period, or the firm's operating cycle, whichever is longer}}. Current assets include: {{[cash](cash.md), [accounts receivable](accounts%20receivable.md), merchandise inventory, [investee companies](company.md) (held less than a financial period), [prepaid expenses](deferral.md) (for use during the current financial period), etc.}} <!--SR:!2024-12-06,67,310!2025-02-07,88,250-->
 
-- [cash](cash.md) ::: physical money <!--SR:!2025-04-18,164,310!2024-11-12,46,290-->
+- [cash](cash.md) ::: physical money <!--SR:!2025-04-18,164,310!2025-05-16,185,310-->
 - [accounts receivable](accounts%20receivable.md) ::: revenues earned but not yet collected <!--SR:!2025-04-28,172,310!2025-04-24,168,310-->
 - merchandise inventory ::: consists of goods and services a firm currently owns until it ends up getting sold <!--SR:!2024-11-17,51,290!2025-01-06,77,270-->
 - [investee companies](company.md) ::: expected to be held less than one financial period <!--SR:!2024-11-14,48,290!2025-02-13,107,290-->
@@ -114,7 +114,7 @@ Liabilities include {{current liabilities and long-term liabilities}}: <!--SR:!2
 - _current liabilities_ ::: trade accounts payable, dividends payable, employee salaries payable, interest (e.g. on debt) payable <!--SR:!2024-11-29,52,270!2024-12-16,60,270-->
 - _long-term liabilities_ ::: mortgage notes payable, bonds payable <!--SR:!2024-11-27,58,310!2025-05-17,187,310-->
 
-{{Owner's equity, sometimes referred to as net assets}}, is {{represented differently depending on the type of business ownership}}. Business ownership can be in the form of {{a sole proprietorship, partnership, or a [corporation](corporation.md)}}. For {{a corporation}}, the owner's equity portion {{usually shows common stock, and retained earnings (earnings kept in the company)}}. Retained earnings come from {{the retained earnings statement, prepared prior to the balance sheet}}.<sup>[\[8\]](#^ref-8)</sup> <!--SR:!2025-04-30,172,310!2024-11-17,51,290!2024-11-28,59,310!2024-11-18,52,290!2025-04-19,164,310!2024-11-12,47,290-->
+{{Owner's equity, sometimes referred to as net assets}}, is {{represented differently depending on the type of business ownership}}. Business ownership can be in the form of {{a sole proprietorship, partnership, or a [corporation](corporation.md)}}. For {{a corporation}}, the owner's equity portion {{usually shows common stock, and retained earnings (earnings kept in the company)}}. Retained earnings come from {{the retained earnings statement, prepared prior to the balance sheet}}.<sup>[\[8\]](#^ref-8)</sup> <!--SR:!2025-04-30,172,310!2024-11-17,51,290!2024-11-28,59,310!2024-11-18,52,290!2025-04-19,164,310!2025-03-29,137,290-->
 
 #### statement of retained earnings
 

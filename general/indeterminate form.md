@@ -63,7 +63,7 @@ return await memorize_map(
 <!--pytextgen generate section="39dd"--><!-- The following content is generated at 2024-01-04T20:17:52.099769+08:00. Any edits will be overridden! -->
 
 - $\sin{x}$::$x$ <!--SR:!2024-12-04,285,330-->
-- $\arcsin{x}$::$x$ <!--SR:!2024-11-12,269,330-->
+- $\arcsin{x}$::$x$ <!--SR:!2028-03-21,1225,350-->
 - $\sinh{x}$::$x$ <!--SR:!2028-02-26,1206,350-->
 - $\tan{x}$::$x$ <!--SR:!2027-06-22,1011,350-->
 - $\arctan{x}$::$x$ <!--SR:!2025-01-06,312,330-->

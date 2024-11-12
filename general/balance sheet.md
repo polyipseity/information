@@ -73,7 +73,7 @@ Assets are {{all the things the business owns}}. This will include {{property, t
 <!-- list separator -->
 
 1. [accounts receivable](accounts%20receivable.md) ::: legally enforceable claims for payment held by a business for goods supplied or services rendered that customers have ordered but not paid for <!--SR:!2024-11-22,45,290!2025-03-10,119,290-->
-2. [cash and cash equivalents](cash%20and%20cash%20equivalents.md) ::: the most liquid current assets found on a business's balance sheet <!--SR:!2024-12-15,68,310!2024-11-12,40,290-->
+2. [cash and cash equivalents](cash%20and%20cash%20equivalents.md) ::: the most liquid current assets found on a business's balance sheet <!--SR:!2024-12-15,68,310!2025-03-11,119,290-->
 3. [inventories](inventory.md) ::: goods and materials that a business holds for the ultimate goal of resale, production or utilization <!--SR:!2024-11-26,47,290!2024-12-13,66,310-->
 4. cash at bank, [petty cash](petty%20cash.md), cash on hand ::: small amount of discretionary funds in the form of cash used for minor expenditures <!--SR:!2024-11-22,45,290!2024-12-03,56,310-->
 5. [prepaid expenses](deferral.md) for future services that will be used within one financial period ::: cash paid in advance for goods or services that will be consumed within one financial period <!--SR:!2024-11-26,49,310!2024-11-27,48,290-->

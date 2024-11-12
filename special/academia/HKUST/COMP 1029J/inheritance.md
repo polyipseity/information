@@ -21,4 +21,4 @@ To inherit a class, one use {{the `extends` keyword, like `class Derived extends
 
 Interfaces are {{like classes except that it cannot have fields}}. It is used to {{describe what a class can do without describing how the class does it}}. <!--SR:!2026-08-23,698,330!2024-12-22,248,330-->
 
-To inherit interfaces, one use {{the `implements` keyword, which must come after `extends`, like `class Derived extends Base implements Interface1, Interface2`}}. {{Multiple interfaces}} can be inherited. <!--SR:!2026-08-30,703,330!2024-11-12,217,330-->
+To inherit interfaces, one use {{the `implements` keyword, which must come after `extends`, like `class Derived extends Base implements Interface1, Interface2`}}. {{Multiple interfaces}} can be inherited. <!--SR:!2026-08-30,703,330!2027-07-27,987,350-->

@@ -63,7 +63,7 @@ The content is in teaching order.
 - datetime: 2023-09-27T17:00:00+08:00/2023-09-27T18:50:00+08:00
 - topic: Portfolio Building (I)
 - skill vs. will
-- job trends ::: AI in recruitment and selection, applicant tracking system <!--SR:!2024-11-12,35,290!2024-12-25,69,310-->
+- job trends ::: AI in recruitment and selection, applicant tracking system <!--SR:!2025-04-02,141,310!2024-12-25,69,310-->
   - applicant tracking system ::: Not your enemy! Prefer (reverse) chronological order, add keywords, and avoid fancy formatting. <!--SR:!2024-12-10,61,310!2024-12-05,56,310-->
 - job description ::: Infer what attributes the job is look from from its job description. <!--SR:!2024-11-30,53,310!2024-12-25,69,310-->
 - [résumé](../../../résumé.md)
@@ -146,7 +146,7 @@ The content is in teaching order.
 
 - datetime: 2023-11-01T17:00:00+08:00/2023-11-01T18:50:00+08:00
 - topic: Interview (I): Interview Like a PRO
-- first impressions ::: Interviewers are busy people and likely make generalizations. <!--SR:!2024-12-25,69,310!2024-11-12,35,290-->
+- first impressions ::: Interviewers are busy people and likely make generalizations. <!--SR:!2024-12-25,69,310!2025-02-22,102,290-->
 - video interview
   - video interview notes ::: cheatsheets stuck on screen (be aware of glasses reflection), correct angle, natural eye contact, smile <!--SR:!2024-12-09,60,310!2024-11-18,47,290-->
 - self-introduction
@@ -165,7 +165,7 @@ The content is in teaching order.
   - teamwork tips ::: strategic thinking, determined/delegation/communication, remain calm under pressure, trust, win-win cooperation with other teams <!--SR:!2024-12-20,59,250!2025-02-02,91,270-->
 - structured group discussion
 - presentation
-  - presentation tips ::: greeting, no need to repeat the known problem, T-style presentation (depth not breadth), set reasonable assumptions, rehearse!! <!--SR:!2024-11-12,42,290!2024-11-14,37,290-->
+  - presentation tips ::: greeting, no need to repeat the known problem, T-style presentation (depth not breadth), set reasonable assumptions, rehearse!! <!--SR:!2025-03-16,124,290!2024-11-14,37,290-->
 
 ## week 11 tutorial
 

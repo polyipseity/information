@@ -45,9 +45,9 @@ The DFT is {{a linear transform}}. That is, {{$$\mathcal{F}(\{a x_n + b y_n\})_k
 
 - see: [general/discrete Fourier transform § shift theorem](../../general/discrete%20Fourier%20transform.md#shift%20theorem)
 
-{{Shifting the signal in the time domain to the right by $n_0$ samples}} corresponds to {{multiplying the signal in the frequency domain by $e^{-\frac{j 2\pi} N kn_0}$}}. This can be shown {{directly from the definition}}. <!--SR:!2024-11-12,66,346!2025-04-19,174,326!2024-11-13,67,346-->
+{{Shifting the signal in the time domain to the right by $n_0$ samples}} corresponds to {{multiplying the signal in the frequency domain by $e^{-\frac{j 2\pi} N kn_0}$}}. This can be shown {{directly from the definition}}. <!--SR:!2025-06-28,228,346!2025-04-19,174,326!2024-11-13,67,346-->
 
-This shift from the time domain to the frequency domain has an intuitive interpretation. Interpret the argument (angle) of the complex number for each frequency as {{its time offset}}. Shifting a signal to the right (with warping) in the time domain {{increases the time offset for all frequencies}}. This means the complex number for each frequency is {{multiplied (rotated) by $e^{-\frac {j 2\pi} N k n_0}$, changing its argument (angle) while keeping its modulus (length) unchanged}}. This corresponds to {{shifting its corresponding complex sinusoid in the time domain to the right (with warping)}}. <!--SR:!2024-11-12,66,346!2025-03-25,155,326!2025-05-24,196,326!2025-05-21,195,326-->
+This shift from the time domain to the frequency domain has an intuitive interpretation. Interpret the argument (angle) of the complex number for each frequency as {{its time offset}}. Shifting a signal to the right (with warping) in the time domain {{increases the time offset for all frequencies}}. This means the complex number for each frequency is {{multiplied (rotated) by $e^{-\frac {j 2\pi} N k n_0}$, changing its argument (angle) while keeping its modulus (length) unchanged}}. This corresponds to {{shifting its corresponding complex sinusoid in the time domain to the right (with warping)}}. <!--SR:!2025-09-25,317,366!2025-03-25,155,326!2025-05-24,196,326!2025-05-21,195,326-->
 
 By duality, {{shifting the signal in the frequency to the right by $k_0$ samples}} corresponds to {{multiplying the signal in the time domain by $e^{\frac{j 2\pi} N n k_0}$ (notice there is no negative sign)}}. This can also be shown {{directly from the definition}}. <!--SR:!2025-09-18,312,366!2024-12-09,76,306!2025-04-19,180,333-->
 
@@ -117,7 +117,7 @@ The other variant is {{the _causal_ variant}}, which {{adds an arbitrary number 
 
 The effect of {{zero padding a signal in the time domain}} is that {{its corresponding DFT has its values interpolated such that it has the same number of values as the signal in the time domain, similar to scaling up an image}}. Common reasons for zero padding the signal in the time domain include {{interpolating the signal in the frequency domain and making the number of signal samples a power of two so that fast Fourier transform (FFT) can be applied to it}}. <!--SR:!2025-06-09,221,353!2025-02-27,131,313!2025-06-10,225,353-->
 
-By duality, zero padding a signal in the frequency domain corresponds to {{interpolating the signal in the time domain}}. <!--SR:!2024-11-12,59,333-->
+By duality, zero padding a signal in the frequency domain corresponds to {{interpolating the signal in the time domain}}. <!--SR:!2025-08-16,277,353-->
 
 Zero padding can {{make the input size suitable}} for {{[fast Fourier transform](#fast%20Fourier%20transform) (FFT)}}. It can also be used to {{minimize the energy spread (the spread of values into adjacent frequencies in the frequency domain) of the resulting DFT}} for {{a signal made of a combination of sinusoidal waves}}. <!--SR:!2024-11-18,65,353!2025-07-01,238,353!2025-05-19,189,333!2025-04-26,173,333-->
 

@@ -28,9 +28,9 @@ A __probability sample__ is {{a sample in which every unit in the population has
 >
 > We want to estimate the total income of adults living in a given street. We visit each household in that street, identify all adults living there, and {{randomly select one adult from each household. (For example, we can allocate each person a random number, generated from a [uniform distribution](continuous%20uniform%20distribution.md) between 0 and 1, and select the person with the highest number in each household.)}} We then interview the selected person and find their income.
 >
-> People living on their own are {{certain to be selected, so we simply add their income to our estimate of the total}}. But {{a person living in a household of two adults has only a one-in-two chance of selection}}. To reflect this, when we come to such a household, we would {{count the selected person's income twice towards the total}}. (The person who _is_ selected from that household can be loosely viewed as {{also representing the person who _isn't_ selected}}.) <!--SR:!2024-11-12,55,310!2025-03-08,140,310!2024-11-30,69,310!2024-11-30,69,310!2024-11-25,64,310-->
+> People living on their own are {{certain to be selected, so we simply add their income to our estimate of the total}}. But {{a person living in a household of two adults has only a one-in-two chance of selection}}. To reflect this, when we come to such a household, we would {{count the selected person's income twice towards the total}}. (The person who _is_ selected from that household can be loosely viewed as {{also representing the person who _isn't_ selected}}.) <!--SR:!2025-07-11,241,330!2025-03-08,140,310!2024-11-30,69,310!2024-11-30,69,310!2024-11-25,64,310-->
 
-In the above example, {{not everybody has the same probability of selection; what makes it a probability sample is the fact that each person's probability is known}}. When {{every element in the population _does_ have the same probability of selection}}, this is {{known as an 'equal probability of selection' (EPS) design}}. Such designs are also referred to as {{'self-weighting' because all sampled units are given the same weight}}. <!--SR:!2024-11-22,61,310!2024-11-29,68,310!2024-11-12,56,310!2025-06-23,227,330-->
+In the above example, {{not everybody has the same probability of selection; what makes it a probability sample is the fact that each person's probability is known}}. When {{every element in the population _does_ have the same probability of selection}}, this is {{known as an 'equal probability of selection' (EPS) design}}. Such designs are also referred to as {{'self-weighting' because all sampled units are given the same weight}}. <!--SR:!2024-11-22,61,310!2024-11-29,68,310!2025-07-15,245,330!2025-06-23,227,330-->
 
 Probability sampling includes: {{[simple random sampling](simple%20random%20sample.md), [systematic sampling](systematic%20sampling.md), [stratified sampling](stratified%20sampling.md), probability-proportional-to-size sampling, and [cluster](cluster%20sampling.md) or [multistage sampling](multistage%20sampling.md)}}. These various ways of probability sampling have two things in common: <!--SR:!2024-12-05,66,270-->
 
@@ -70,7 +70,7 @@ Non-sampling errors are other errors which can impact final survey estimates, ca
 
 - over-coverage ::: inclusion of data from outside of the population <!--SR:!2024-12-01,70,310!2024-12-03,72,310-->
 - under-coverage ::: sampling frame does not include elements in the population <!--SR:!2025-05-17,193,310!2024-11-20,62,310-->
-- measurement error ::: e.g. when respondents misunderstand a question, or find it difficult to answer <!--SR:!2024-11-12,51,290!2024-11-29,68,310-->
+- measurement error ::: e.g. when respondents misunderstand a question, or find it difficult to answer <!--SR:!2025-06-06,206,310!2024-11-29,68,310-->
 - processing error ::: mistakes in data coding <!--SR:!2024-11-24,63,310!2024-11-21,63,310-->
 - [non-response or participation bias](participation%20bias.md) ::: failure to obtain complete data from all selected individuals <!--SR:!2025-05-30,207,330!2024-11-17,59,310-->
 

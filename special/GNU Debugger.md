@@ -23,13 +23,13 @@ Command names can be {{truncated at the end to produce an abbreviation if the ab
 - `backtrace` ::: print backtrace or call stack <!--SR:!2025-04-29,169,310!2025-07-05,237,330-->
 - `break <where>` ::: set a breakpoint <!--SR:!2025-06-14,220,330!2024-12-02,69,310-->
 - `continue` ::: continue program execution <!--SR:!2025-04-12,165,310!2025-05-30,207,330-->
-- `delete [<breakpoint>]` ::: delete a breakpoint; if breakpoint is not specified, then delete all breakpoints <!--SR:!2024-11-16,58,310!2024-11-12,55,310-->
+- `delete [<breakpoint>]` ::: delete a breakpoint; if breakpoint is not specified, then delete all breakpoints <!--SR:!2024-11-16,58,310!2025-07-10,240,330-->
 - `disassemble <address|function>` ::: disassemble a specified address or function <!--SR:!2024-11-22,45,325!2025-01-13,88,345-->
 - `file <path>` ::: load binary file to debug <!--SR:!2024-11-27,64,310!2024-11-17,59,310-->
 - `finish` ::: run until the current function returns <!--SR:!2024-12-03,70,310!2025-05-23,193,310-->
 - `help [<topic>]` ::: find information about topic; if topic is not specified, then prints general help <!--SR:!2025-01-13,88,345!2024-11-29,52,325-->
 - `info address <symbol>` ::: print the `<symbol>`, its type, and its address <!--SR:!2025-01-13,88,345!2024-12-19,63,325-->
-- `info breakpoints|regs|threads`::: list breakpoints, register values, or threads <!--SR:!2024-11-12,55,310!2025-05-01,184,310-->
+- `info breakpoints|regs|threads`::: list breakpoints, register values, or threads <!--SR:!2025-07-11,241,330!2025-05-01,184,310-->
 - `next` ::: go to the next (source) line <!--SR:!2025-06-07,214,330!2025-05-13,194,310-->
 - `ni` ::: go to the next instruction <!--SR:!2024-11-16,59,310!2024-11-22,64,310-->
 - `print <expression>` ::: evaluate and print an expression <!--SR:!2025-01-26,97,270!2024-12-02,69,310-->
@@ -68,7 +68,7 @@ Command names can be {{truncated at the end to produce an abbreviation if the ab
 
 #### `pwndbg` stack
 
-- `stack <count> <offset>` ::: prints stack data with the specified count and offset <!--SR:!2025-01-13,88,345!2024-11-12,43,305-->
+- `stack <count> <offset>` ::: prints stack data with the specified count and offset <!--SR:!2025-01-13,88,345!2025-03-20,128,305-->
 - `stackf <count> <offset>` ::: prints entire stack frame with the specified count and offset <!--SR:!2024-11-18,46,305!2025-03-10,122,305-->
 
 ## miscellaneous

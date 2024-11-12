@@ -226,7 +226,7 @@ See [Millau Viaduct](../../../../general/Millau%20Viaduct.md).
 - length ::: 2450 m = 204 m + 342 m × 6 + 204 m, longest span: 342 m <!--SR:!2025-03-02,114,296!2026-02-17,488,396-->
 - image ::: ![Millau Viaduct image](../../../../archives/Wikimedia%20Commons/ViaducdeMillau.jpg) <!--SR:!2026-11-14,740,416!2025-10-14,411,396-->
 - opening time ::: 2004-12-16, 09:00 <!--SR:!2024-12-22,47,256!2025-05-30,281,376-->
-- width ::: 32.05 m <!--SR:!2024-11-12,22,336!2025-08-02,326,376-->
+- width ::: 32.05 m <!--SR:!2025-01-28,77,336!2025-08-02,326,376-->
 
 ## Mont Cenis Base Tunnel
 
@@ -300,7 +300,7 @@ See [Tsing Ma Bridge](../../../../general/Tsing%20Ma%20Bridge.md).
 - bridge type ::: [double-decked](../../../../general/deck%20(bridge).md) [suspension bridge](../../../../general/suspension%20bridge.md)<!-- flashcard 54af6d8c-884f-4894-bb1a-ce65254b1063 --> <!--SR:!2024-12-19,156,297!2025-11-10,455,390-->
 - description ::: [suspension bridge](../../../../general/suspension%20bridge.md) in [Hong Kong](../../../../general/Hong%20Kong.md) <!--SR:!2025-01-26,227,330!2025-12-18,488,392-->
 - image ::: ![Tsing Ma Bridge image](../../../../archives/Wikimedia%20Commons/Tsing%20Ma%20Bridge%202.jpg) <!--SR:!2026-01-15,503,400!2025-09-05,389,380-->
-- length ::: 2160 m, longest span: 1377 m <!--SR:!2024-11-12,126,280!2025-09-01,368,380-->
+- length ::: 2160 m, longest span: 1377 m <!--SR:!2025-10-31,353,280!2025-09-01,368,380-->
 
 ## Turin–Lyon high-speed railway
 
