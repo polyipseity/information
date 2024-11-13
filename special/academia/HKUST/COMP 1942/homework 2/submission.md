@@ -26,7 +26,7 @@ __Coupon Instructions:__
 6. Please write down the question no. you want to waive on the coupon.
 7. <span style="color: red;">\[New Requirement compared with HW1\] Please print this page (Page 1) of this homework specification as the first page of your HW submission. Fill in the correspondence information for the ease of marking.</span>
 
-- Student ID: <u>20703125</u>
+- Student ID: <u>24944268</u>
 - Student Name: <u>Suo Xun Xin</u>
 - Seat No.: <u>143</u>
   - (Your seat number is the one used in the midterm exam. You could also check it in the HW page in Canvas.)
