@@ -1,6 +1,6 @@
 from glob import iglob
 from pathlib import PurePath
-from re import DOTALL, compile
+from re import DOTALL, Pattern, compile
 from urllib.parse import quote
 from aiohttp import ClientSession, TCPConnector
 from asyncio import gather, run
@@ -81,13 +81,23 @@ def _tag_affixes(name: str) -> tuple[str, str]:
 async def wiki_html_to_plaintext(
     ele: PageElement,
     *,
-    session: ClientSession,
-    refs: bool,
     list_stack: tuple[int, ...] = (),
+    math: bool = False,
+    refs: bool,
+    session: ClientSession,
+    __HEADER_PATTERN: Pattern[str] = compile(r"h(\d?)"),
+    __ITALIC_FONT_STYLE_REGEX: Pattern[str] = compile(r"font-style: *italic"),
+    __MARKDOWN_ESCAPE_REGEX: Pattern[str] = compile(r"[#$()*<>\\[\\\]_`|]"),
+    __PROCESS_STRINGS_BI_REGEX: Pattern[str] = compile(r"^( *)(.*?)( *)$", DOTALL),
+    __REF_NUMBER_REGEX: Pattern[str] = compile(r"\d+"),
 ) -> str:
     if not isinstance(ele, Tag):
         return (
-            ele
+            (
+                ele
+                if math
+                else __MARKDOWN_ESCAPE_REGEX.sub(lambda match: Rf"\{match[0]}", ele)
+            )
             if isinstance(ele, NavigableString)
             and not isinstance(ele, PreformattedString)
             and not isinstance(ele.parent, BeautifulSoup)
@@ -100,7 +110,7 @@ async def wiki_html_to_plaintext(
 
     if "reference" in classes:
         if refs:
-            ref_idx = compile(r"\d+").search("".join(ele.stripped_strings))
+            ref_idx = __REF_NUMBER_REGEX.search("".join(ele.stripped_strings))
             ref_idx = int(ref_idx[0]) if ref_idx else 0
             return f"<sup>[{_markdown_link_name(f'[{ref_idx}]')}]({_markdown_fragment(f'^ref-{ref_idx}')})</sup>"
         return ""
@@ -109,16 +119,15 @@ async def wiki_html_to_plaintext(
     prefix, suffix = "", ""
     match ele.name:
         # bold, italic, style
-        case _ if ele.name in {"b", "i"} or compile(r"font-style: *italic").search(
+        case _ if ele.name in {"b", "i"} or __ITALIC_FONT_STYLE_REGEX.search(
             str(ele.get("style", ""))
         ):
             times = 2 if ele.name == "b" else 1
             prefix, suffix = "_" * times, "_" * times
-            process_strings_bi_pattern = compile(r"^( *)(.*?)( *)$", DOTALL)
 
             def process_strings_bi(strings: str):
                 nonlocal prefix, suffix
-                match = process_strings_bi_pattern.match(strings)
+                match = __PROCESS_STRINGS_BI_REGEX.match(strings)
                 assert match
                 prefix = f"{match[1]}{prefix}"
                 suffix += match[3]
@@ -132,7 +141,7 @@ async def wiki_html_to_plaintext(
         case "dd" | "p":  # <dl>
             suffix = "\n\n"
         # headers
-        case name if (header_match := compile(r"h(\d?)").match(name)):
+        case name if (header_match := __HEADER_PATTERN.match(name)):
             prefix, suffix = f"{'#' * int(header_match[1] or '1')} ", "\n\n"
             process_strings = lambda strings: _fix_name_maybe(strings.strip())
         # code
@@ -311,7 +320,11 @@ async def wiki_html_to_plaintext(
             ):
                 list_stack = (*list_stack[:-1], list_stack[-1] + 1)
             yield wiki_html_to_plaintext(
-                child, session=session, refs=refs, list_stack=list_stack
+                child,
+                list_stack=list_stack,
+                math=ele.name == "math",
+                refs=refs,
+                session=session,
             )
 
     strings = "".join(await gather(*process_children()))
