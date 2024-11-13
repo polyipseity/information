@@ -82,7 +82,7 @@ The content is in teaching order.
 - [descriptive statistics](../../../../general/descriptive%20statistics.md)
   - descriptive statistics / common measures ::: central tendency (location), variability (spread/dispersion) <!--SR:!2025-04-16,168,310!2025-05-05,179,310-->
     - central tendency ::: sample mean, sample median, trimmed sample mean, ... <!--SR:!2025-07-01,232,330!2025-07-05,237,330-->
-    - variability ::: inter-quartile range, sample range, sample standard deviation, sample variance <!--SR:!2025-05-31,200,310!2024-11-13,56,310-->
+    - variability ::: inter-quartile range, sample range, sample standard deviation, sample variance <!--SR:!2025-05-31,200,310!2025-07-12,241,330-->
   - sample mean ::: Suppose we have $n$ _samples_ of a random variable $x$, labeled $x_1, \ldots, x_n$. Then its _sample mean_ is $$\bar x = \frac 1 n \sum_{k = 1}^n x_n$$. <!--SR:!2024-11-15,58,310!2024-11-17,60,310-->
     - sample mean / _R_ ::: use `mean(...)` <!--SR:!2025-07-05,236,330!2024-12-02,69,310-->
   - sample median ::: Suppose we have $n$ _samples_ of a random variable $x$, labeled $x_1, \ldots, x_n$. They are sorted in increasing (or decreasing) order, i.e. $x_1 \le \ldots \le x_n$. Then its _sample median_ is $$\tilde x = \frac 1 2 \left(x_{\lfloor \frac {x + 1} 2 \rfloor} + x_ {\lceil \frac {x + 1} 2 \rceil} \right) = \begin{cases} x_{\frac {n + 1} 2} & \text{if }n\text{ is odd} \\ \frac 1 2 \left(x_{\frac x 2} + x_{\frac x 2 + 1} \right) & \text{if }n\text{ is even} \end{cases}$$. <!--SR:!2025-04-22,164,310!2024-11-14,57,310-->
@@ -160,7 +160,7 @@ The content is in teaching order.
     - sampling / errors / voluntary response bias ::: Websites for posting reviews are more likely to get responses from customers who had very bad or very good experiences. <!--SR:!2025-01-04,88,290!2025-05-23,199,310-->
     - [sampling § sampling errors and biases](../../../../general/sampling%20(statistics).md#sampling%20errors%20and%20biases)
     - [sampling § non-sampling errors](../../../../general/sampling%20(statistics).md#non-sampling%20errors)
-  - [probability sampling](../../../../general/sampling%20(statistics).md#sampling%20frame) ::: It supports strong statistical inferences from a sample to the population, minimizing selection bias. It involves random selection: any individual has a nonzero probability being picked, and said probability can be determined. <!--SR:!2024-11-13,50,290!2024-11-17,60,310-->
+  - [probability sampling](../../../../general/sampling%20(statistics).md#sampling%20frame) ::: It supports strong statistical inferences from a sample to the population, minimizing selection bias. It involves random selection: any individual has a nonzero probability being picked, and said probability can be determined. <!--SR:!2025-06-05,204,310!2024-11-17,60,310-->
     - probability sampling / examples ::: cluster sampling, simple random sampling, stratified sampling, systematic sampling, ... <!--SR:!2024-11-16,47,250!2025-03-19,137,290-->
     - probability sampling / simple random sampling ::: All individual in a population has equal probability of being selected. <!--SR:!2024-11-18,60,310!2024-11-28,65,310-->
     - probability sampling / systematic sampling ::: A _probabilistic_ method is used to select individuals of a population, such as sampling every third person. <!--SR:!2025-05-06,183,310!2024-12-02,69,310-->
@@ -336,7 +336,7 @@ The content is in teaching order.
   - binomial distribution / variance ::: For $X \sim B(n, p) \,,$ $$\operatorname{Var}(X) = np(1 - p) \,.$$ <!--SR:!2025-01-17,67,338!2025-02-09,90,361-->
   - binomial distribution / _R_: evaluate PMF ::: `dbinom(<number of successes>, size=<number of trials>, prob=<success probability>)` <!--SR:!2024-12-29,51,328!2024-12-07,33,308-->
   - binomial distribution / _R_: evaluate CDF ::: `pbinom(<number of successes>, size=<number of trials>, prob=<success probability>)` <!--SR:!2025-01-17,70,348!2024-11-14,20,348-->
-  - binomial distribution / _R_: realize ::: `rbinom(<number of successes>, size=<number of trials>, prob=<success probability>)` <!--SR:!2024-12-27,48,328!2024-11-13,18,328-->
+  - binomial distribution / _R_: realize ::: `rbinom(<number of successes>, size=<number of trials>, prob=<success probability>)` <!--SR:!2024-12-27,48,328!2025-02-02,81,348-->
 - [Poisson distribution](../../../../general/Poisson%20distribution.md) ::: The __Poisson distribution__ is a discrete probability distribution that expresses the probability of a given number of events occurring in a fixed interval of time if these events occur with a known constant mean rate and independently of the time since the last event. It can also be used for the number of events in other types of intervals than time, and in dimension greater than 1 (e.g., number of events in a given area or volume). It is denoted $\operatorname{Pois}(\lambda)$, where $\lambda \in (0, \infty)$ is the expectation of number of events in a given interval. <!--SR:!2024-12-13,39,318!2025-02-11,92,361-->
   - Poisson distribution / probability _mass_ function ::: For $X \sim \operatorname{Pois}(\lambda) \,,$ $$p_X(k) = \begin{cases} e^{-\lambda} \frac {\lambda^k} {k!} & \text{for }k \in \mathbb N_0 \\ 0 & \text{otherwise} \,. \end{cases}$$ <!--SR:!2024-12-11,41,321!2025-01-14,64,338-->
   - Poisson distribution / proof of being probability distribution ::: It is also very easy to see its probability mass function is nonnegative (in fact, positive). To see it sums up to 1, realize that the sum actually contains a Maclaurin expansion of $e^\lambda$. <!--SR:!2024-11-14,20,348!2024-11-14,20,348-->
@@ -413,7 +413,7 @@ The content is in teaching order.
     - high: 50
 - report
   - When you see $\mathcal N(0, 100)$, do not mistake the 100 as the standard deviation! It is the variance. Almost screwed this up in the midterm examination...
-    - $\mathcal N(0, 100)$ ::: The mean of the normal distribution is 0. The standard deviation of the normal distribution is 10, not 100. <!--SR:!2024-11-13,4,344!2024-11-13,4,344-->
+    - $\mathcal N(0, 100)$ ::: The mean of the normal distribution is 0. The standard deviation of the normal distribution is 10, not 100. <!--SR:!2024-12-01,18,364!2024-12-03,20,364-->
   - Inputted $\binom {100} 1$ as 1 instead of 100 into the calculator when evaluating a binomial distribution...
-    - $\binom {100} 1$ ::: It evaluates to 100, not 1. <!--SR:!2024-11-13,4,344!2024-11-13,4,344-->
+    - $\binom {100} 1$ ::: It evaluates to 100, not 1. <!--SR:!2024-12-02,19,364!2024-12-03,20,364-->
   - Simplified $\frac 4 {b^2} \left(b\right)$ into $\frac 4 {b^3}$ instead of $\frac 4 b$...

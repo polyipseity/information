@@ -45,7 +45,7 @@ The DFT is {{a linear transform}}. That is, {{$$\mathcal{F}(\{a x_n + b y_n\})_k
 
 - see: [general/discrete Fourier transform § shift theorem](../../general/discrete%20Fourier%20transform.md#shift%20theorem)
 
-{{Shifting the signal in the time domain to the right by $n_0$ samples}} corresponds to {{multiplying the signal in the frequency domain by $e^{-\frac{j 2\pi} N kn_0}$}}. This can be shown {{directly from the definition}}. <!--SR:!2025-06-28,228,346!2025-04-19,174,326!2024-11-13,67,346-->
+{{Shifting the signal in the time domain to the right by $n_0$ samples}} corresponds to {{multiplying the signal in the frequency domain by $e^{-\frac{j 2\pi} N kn_0}$}}. This can be shown {{directly from the definition}}. <!--SR:!2025-06-28,228,346!2025-04-19,174,326!2025-09-28,319,366-->
 
 This shift from the time domain to the frequency domain has an intuitive interpretation. Interpret the argument (angle) of the complex number for each frequency as {{its time offset}}. Shifting a signal to the right (with warping) in the time domain {{increases the time offset for all frequencies}}. This means the complex number for each frequency is {{multiplied (rotated) by $e^{-\frac {j 2\pi} N k n_0}$, changing its argument (angle) while keeping its modulus (length) unchanged}}. This corresponds to {{shifting its corresponding complex sinusoid in the time domain to the right (with warping)}}. <!--SR:!2025-09-25,317,366!2025-03-25,155,326!2025-05-24,196,326!2025-05-21,195,326-->
 
@@ -71,7 +71,7 @@ To understand this convolution theorem, imagine two $N$-length signals {{decompo
 
 - see: [general/discrete Fourier transform § The Plancherel theorem and Parseval's theorem](../../general/discrete%20Fourier%20transform.md#The%20Plancherel%20theorem%20and%20Parseval's%20theorem)
 
-"Energy" is {{conserved after applying DFT or IDFT on a signal, up to a factor of $1 / N$}}. "Energy" here means {{the squared length of the vector when the sequence of values in a signal is treated as a vector}}. Mathematically, this is: {{$$\sum_{n = 0}^{N - 1} \lvert x[n]\rvert^2 = \frac 1 N \sum_{k = 0}^{N - 1} \lvert X[k] \rvert^2$$}}. <!--SR:!2024-11-23,72,353!2025-07-10,244,353!2024-11-13,60,333-->
+"Energy" is {{conserved after applying DFT or IDFT on a signal, up to a factor of $1 / N$}}. "Energy" here means {{the squared length of the vector when the sequence of values in a signal is treated as a vector}}. Mathematically, this is: {{$$\sum_{n = 0}^{N - 1} \lvert x[n]\rvert^2 = \frac 1 N \sum_{k = 0}^{N - 1} \lvert X[k] \rvert^2$$}}. <!--SR:!2024-11-23,72,353!2025-07-10,244,353!2025-08-19,279,353-->
 
 ## interpretation
 
@@ -125,11 +125,11 @@ Zero padding can {{make the input size suitable}} for {{[fast Fourier transform]
 
 - see: [general/fast Fourier transform](../../general/fast%20Fourier%20transform.md)
 
-Fast Fourier transform (__FFT__) is {{a fast algorithm for computing the DFT of a signal}}. It works by {{breaking down DFT of a long signal into several DFTs of shorter signals recursively}}. <!--SR:!2024-11-17,67,353!2024-11-13,60,333-->
+Fast Fourier transform (__FFT__) is {{a fast algorithm for computing the DFT of a signal}}. It works by {{breaking down DFT of a long signal into several DFTs of shorter signals recursively}}. <!--SR:!2024-11-17,67,353!2025-08-16,276,353-->
 
 Its time complexity, that is {{how the running time grows with input size}}, is {{$O(n \log n)$, instead of $O(n^2)$ for DFT computed by its definition}}. This means {{for large input sizes, much time can be saved}}. So in practice, {{FFT is used over the traditional DFT}}. <!--SR:!2024-12-10,84,353!2024-11-17,62,333!2025-07-24,257,353!2025-06-26,234,353-->
 
-The most common form of FFT is {{the Cooley–Tukey algorithm}} that {{divides the signal into 2 equal-length signals recursively}}, so {{it requires the input size to be a power of 2}}. This can be fixed using {{[zero padding](#zero%20padding)}}. This algorithm also {{has other variants that divide the signal into arbitrary many equal-length signals recursively}}, but this will not be discussed here. <!--SR:!2025-06-05,218,353!2024-11-16,61,333!2025-07-12,247,353!2025-06-21,230,353!2024-11-13,58,333-->
+The most common form of FFT is {{the Cooley–Tukey algorithm}} that {{divides the signal into 2 equal-length signals recursively}}, so {{it requires the input size to be a power of 2}}. This can be fixed using {{[zero padding](#zero%20padding)}}. This algorithm also {{has other variants that divide the signal into arbitrary many equal-length signals recursively}}, but this will not be discussed here. <!--SR:!2025-06-05,218,353!2024-11-16,61,333!2025-07-12,247,353!2025-06-21,230,353!2025-08-07,267,353-->
 
 Note that when {{zero padding a signal for FFT}}, it is important to {{apply the zero-centered variant instead of the causal one}}. (The reason is mentioned above already.) <!--SR:!2024-11-16,63,333!2024-12-09,83,353-->
 

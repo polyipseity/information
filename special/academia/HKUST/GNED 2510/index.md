@@ -71,7 +71,7 @@ The content is in teaching order.
   - How long should a CV roughly be? ::: 1 page <!--SR:!2024-12-06,57,310!2024-11-28,51,310-->
   - What things should NOT be included on a CV? ::: date of birth (DOB), gender, home address <!--SR:!2024-11-15,38,290!2024-12-13,64,310-->
   - What order should your qualification be put in? ::: newest to oldest <!--SR:!2024-12-08,59,310!2024-12-06,59,310-->
-  - IROAR ::: impact, results, outcomes, achievements, responsibilities <!--SR:!2024-11-30,53,310!2024-11-13,36,290-->
+  - IROAR ::: impact, results, outcomes, achievements, responsibilities <!--SR:!2024-11-30,53,310!2025-04-10,148,310-->
   - referees ::: 1 professor, 1 previous work supervisor, 1 volunteer team project lead <!--SR:!2024-11-25,46,290!2024-11-26,47,290-->
   - profile summary ::: what I want and what I can do for you, altitude + skills + knowledge (ASK) <!--SR:!2024-12-25,69,310!2024-12-04,57,310-->
 - assignment 1: job description, curriculum vitae, and cover letter
@@ -115,7 +115,7 @@ The content is in teaching order.
 - networking
   - networking advantages ::: know more people, fact checking, tapping into the hidden job market <!--SR:!2024-12-02,46,290!2024-12-05,58,310-->
 - Where should you sit when you are waiting for an interview? ::: as front as possible <!--SR:!2024-12-09,60,310!2024-12-06,57,310-->
-- Where should you sit when you are in the interview room? ::: seats that are neither too special nor too seclusive <!--SR:!2024-12-06,57,310!2024-11-13,36,290-->
+- Where should you sit when you are in the interview room? ::: seats that are neither too special nor too seclusive <!--SR:!2024-12-06,57,310!2025-04-07,145,310-->
 - If your boss takes you and the team for lunch... ::: ... balance the food order with what everyone else is choosing. (But it can depend on the boss's style.) <!--SR:!2024-12-11,62,310!2024-11-26,49,310-->
 - Emails should be replied within \_ hours, and phone calls should be returned within \_ hours ::: as soon as possible <!--SR:!2024-12-11,62,310!2024-11-30,53,310-->
 - If you order coffee/tea and it's too hot. What should you do? ::: Let it cool in the cup. <!--SR:!2024-11-19,42,290!2024-12-10,61,310-->

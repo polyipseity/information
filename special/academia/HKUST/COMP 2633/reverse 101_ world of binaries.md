@@ -92,14 +92,14 @@ An assembly file {{does not solely consists of instructions}}. It also {{contain
 
 - `.data` ::: It contains initialized data, that is, data that we know during assembly. It has read and write permissions. For C, this corresponds to global and static variables that are initialized. <!--SR:!2024-11-26,62,325!2025-04-13,167,310-->
 - `.bss` ::: It contains uninitialized data, that is, a memory space for our program to initialize data on during its execution. It has read and write permissions. For C, this corresponds to global and static variables that are uninitialized. <!--SR:!2024-11-26,63,323!2024-12-15,81,345-->
-- `.text` ::: It contains the code of our program. It has read and execute permissions. For C, this corresponds to functions. <!--SR:!2025-05-13,188,337!2024-11-13,50,310-->
+- `.text` ::: It contains the code of our program. It has read and execute permissions. For C, this corresponds to functions. <!--SR:!2025-05-13,188,337!2025-06-16,215,330-->
 
 A key idea in assembly that {{code and data are treated the same}}. Indeed, data is represented by {{instructions (but should not be executed by our program) as well}}. Some common data instructions include: <!--SR:!2024-12-11,78,337!2024-12-11,78,345-->
 
 - `db <data>...` ::: Define byte. Represents `<data>...` on a granular level of bytes. This is commonly used to store strings. Remember to add the null terminator for interoperability with C. <!--SR:!2024-12-24,89,345!2024-11-24,60,325-->
 - `dd <data>` ::: Define dword (4 bytes, double word). Represents `<data>` on a granular level of 4 bytes. This can also be used to store `float`s in C. <!--SR:!2024-12-04,72,343!2024-11-28,65,323-->
 - `dq <data>` ::: Define qword (8 bytes, quadruple word). Represents `<data>` on a granular level of 8 bytes. This can also be used to store `double`s in C. <!--SR:!2024-12-11,78,345!2024-11-16,54,317-->
-- `dw <data>` ::: Define word (2 bytes). Represents `<data>` on a granular level of 2 bytes. <!--SR:!2025-05-23,197,337!2024-11-13,51,317-->
+- `dw <data>` ::: Define word (2 bytes). Represents `<data>` on a granular level of 2 bytes. <!--SR:!2025-05-23,197,337!2025-06-26,225,337-->
 - `resb <size>` ::: Reserve `<size>` number of bytes. All modern operating systems will also fill it with zeros. It is commonly used in `.bss`. <!--SR:!2024-12-16,81,345!2024-12-06,73,345-->
 - `resd <size>` ::: Reserve `<size>` number of dwords (4 bytes, double word). All modern operating systems will also fill it with zeros. It is commonly used in `.bss`. <!--SR:!2024-12-17,82,345!2024-11-19,56,325-->
 - `resq <size>` ::: Reserve `<size>` number of qwords (8 bytes, quadruple word). All modern operating systems will also fill it with zeros. It is commonly used in `.bss`. <!--SR:!2024-11-20,57,325!2024-12-17,82,345-->
@@ -140,7 +140,7 @@ Static analysis is {{analyzing the program without actually executing it}}. Of c
 
 Some common tools are:
 
-- `objdump` ::: Dump information from object files (`.o`). Use `-d <file>` for disassembly, `-h <file>` for section headers, and add `-M intel` for outputting in the Intel syntax. <!--SR:!2025-01-17,99,325!2024-11-13,51,325-->
+- `objdump` ::: Dump information from object files (`.o`). Use `-d <file>` for disassembly, `-h <file>` for section headers, and add `-M intel` for outputting in the Intel syntax. <!--SR:!2025-01-17,99,325!2025-05-01,169,325-->
 - Radare2 (`r2`) ::: Display information from object files (`.o`). To use it interactively, simply pass the filepath to the program. To use it non-interactively, pass `-c "aaaa; pdf @ sym.main; q!"` before the filepath. Common useful commands include `aaaa`, `pdf @ sym.main`, `?`, `<command>?`, etc. <!--SR:!2024-11-24,52,250!2025-02-22,113,290-->
 - Ghidra ::: An open-source powerful decompiler and disassembler developed by the National Security Agency (NSA). <!--SR:!2024-12-14,80,343!2024-12-01,69,337-->
 - `file <file>` ::: Determine possible file types of `<file>`. <!--SR:!2024-12-14,80,337!2024-11-19,57,310-->

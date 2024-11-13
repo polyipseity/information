@@ -224,6 +224,6 @@ To assign a value or the result of an expression to a variable, use {{`=`}}: <!-
 variableName = 1 + 2
 ```
 
-One does not need to {{declare the variable and its type before assigning to it}}. <!--SR:!2024-11-13,200,310-->
+One does not need to {{declare the variable and its type before assigning to it}}. <!--SR:!2027-03-21,858,330-->
 
 Variable names are {{case sensitive, cannot be keywords, cannot have some characters like spaces, and cannot begin with some characters like numbers}}. <!--SR:!2026-12-28,802,330-->

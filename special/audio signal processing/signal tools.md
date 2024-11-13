@@ -41,4 +41,4 @@ SonicVisualiser can {{apply DFT on complicated sounds and produce a magnitude sp
 
 ## Freesound
 
-Freesound is {{a repository of free and open (Creative Commons) sounds}}. Its website is {{<https://freesound.org/>}}. <!--SR:!2025-10-05,327,349!2024-11-13,72,329-->
+Freesound is {{a repository of free and open (Creative Commons) sounds}}. Its website is {{<https://freesound.org/>}}. <!--SR:!2025-10-05,327,349!2025-10-07,328,349-->

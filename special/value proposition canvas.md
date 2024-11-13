@@ -69,7 +69,7 @@ Since customer jobs has {{functional and non-functional aspects}}, the resulting
 
 The concept of customer jobs is based on {{the jobs to be done theory}}, which states that {{customers "hire" a product to do a "job" instead of simply buying a product}}. <!--SR:!2025-03-27,248,345!2025-02-19,204,325-->
 
-Customer pains include {{undesirable things, obstacles, and risks}}. Make pains {{concrete}}. Note that pains {{can have different severity}}. <!--SR:!2025-09-26,367,290!2025-02-25,226,329!2024-11-13,144,309-->
+Customer pains include {{undesirable things, obstacles, and risks}}. Make pains {{concrete}}. Note that pains {{can have different severity}}. <!--SR:!2025-09-26,367,290!2025-02-25,226,329!2026-07-26,620,329-->
 
 Customer gains can be separated into four levels: {{required, required by customers; expected, expected by customers; desired gains, wanted by customers; and unexpected gains, wanted by customers but customers do not know}}. Make gains {{concrete}}. Like customer pains, note that gains {{can have different severity}}. <!--SR:!2024-12-27,153,249!2024-11-30,175,329!2025-03-13,265,330-->
 

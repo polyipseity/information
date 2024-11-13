@@ -32,7 +32,7 @@ Lift expresses {{the observed co-occurrence of X and Y compared to that expected
 
 Conviction is {{the ratio of the incorrectness of a rule, if the antecedent and the consequent are [independent](independence%20(probability%20theory).md), to the observed incorrectness}}. For two item sets X and Y, and {{a rule $X \Rightarrow Y$ with X as the antecedent and Y as the consequent, the lift of the rule is defined as $\operatorname{conv}(X \Rightarrow Y) = \frac {\operatorname{supp}(\lnot Y)} {\operatorname{conf}(X \Rightarrow \lnot Y)} = \frac {1 - \operatorname{supp}(Y)} {1 - \operatorname{conf}(X \Rightarrow Y)}$}}. <!--SR:!2025-09-23,391,290!2025-01-14,240,290-->
 
-Conviction expresses {{how often X fails to predict Y if X and Y are [independent](independence%20(probability%20theory).md) compared to that observed}}. <!--SR:!2024-11-13,196,310-->
+Conviction expresses {{how often X fails to predict Y if X and Y are [independent](independence%20(probability%20theory).md) compared to that observed}}. <!--SR:!2026-07-14,608,310-->
 
 ## algorithms
 

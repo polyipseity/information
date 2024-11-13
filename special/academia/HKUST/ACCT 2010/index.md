@@ -82,7 +82,7 @@ The content is in teaching order.
   - [financial accounting](../../../../general/financial%20accounting.md) / mixed-attribute measurement ::: Different measurement models may be applied to different assets and liabilities. There are two models: historical cost (value at the time of transaction), and fair value (value at the time of reporting). This is to be covered in ACCT 3010 and ACCT 3020. <!--SR:!2024-11-24,47,297!2024-11-26,47,297-->
 - [balance sheet](../../../../general/balance%20sheet.md)
   - [§ public business entities structure](../../../../general/balance%20sheet.md#public%20business%20entities%20structure)
-- [asset](../../../../general/asset.md) ::: any resource, tangible or intangible, that can be used to produce positive economic value; economic resource with probable future benefits <!--SR:!2024-11-29,52,317!2024-11-13,36,297-->
+- [asset](../../../../general/asset.md) ::: any resource, tangible or intangible, that can be used to produce positive economic value; economic resource with probable future benefits <!--SR:!2024-11-29,52,317!2025-04-11,149,317-->
   - [§ asset](../../../../general/asset.md#asset)
 - [liability](../../../../general/liability%20(financial%20accounting).md) ::: value that an entity is expected to deliver in the future to satisfy a present obligation arising from past events; probable future sacrifices of economic resources <!--SR:!2025-03-29,143,317!2025-01-28,89,277-->
   - [§ liability](../../../../general/liability%20(financial%20accounting).md#liability)
@@ -139,7 +139,7 @@ The content is in teaching order.
 ## week 3 lecture 2
 
 - datetime: 2024-09-19T13:30:00+08:00/2024-09-19T14:50:00+08:00
-- [financial statement analysis](../../../../general/financial%20statement%20analysis.md) ::: analyzing a company's financial statements to make better economic decisions, commonly using financial ratios <!--SR:!2025-01-06,81,334!2024-11-13,41,314-->
+- [financial statement analysis](../../../../general/financial%20statement%20analysis.md) ::: analyzing a company's financial statements to make better economic decisions, commonly using financial ratios <!--SR:!2025-01-06,81,334!2025-05-10,178,334-->
   - [§ financial statement analysis](../../../../general/financial%20statement%20analysis.md#financial%20statement%20analysis)
   - [§ financial ratio analysis](../../../../general/financial%20statement%20analysis.md#financial%20ratio%20analysis) ::: ratios that show the relationship between two financial variables <!--SR:!2025-01-05,80,334!2024-11-17,40,314-->
   - [financial statement analysis](../../../../general/financial%20statement%20analysis.md) / time series ::: analyze over time to see if an entity is getting better or worse, i.e. trend analysis <!--SR:!2025-01-12,81,294!2025-01-05,80,334-->
@@ -173,9 +173,9 @@ The content is in teaching order.
   - high: 58
 - report
   - The TA forgot to add the marks of the last page... This is why one should paper checking.
-    - What should you do if you firmly believe that your marks should not be that low? ::: Check your paper! <!--SR:!2024-11-13,4,329!2024-11-13,4,329-->
+    - What should you do if you firmly believe that your marks should not be that low? ::: Check your paper! <!--SR:!2024-12-01,18,349!2024-12-02,19,349-->
   - Need to recheck when will a recording mistake of transaction be found... (-1, MCQ)
-    - transaction analysis & mistake finding ::: Note that in non-electronic transaction analysis, error will not found during recording the transaction. The first possible opportunity is the preparation of the trial balance. We only consider this case. <p> With electronic transaction analysis, the mistake may be found on recording. <!--SR:!2024-11-13,4,329!2024-11-13,4,329-->
+    - transaction analysis & mistake finding ::: Note that in non-electronic transaction analysis, error will not found during recording the transaction. The first possible opportunity is the preparation of the trial balance. We only consider this case. <p> With electronic transaction analysis, the mistake may be found on recording. <!--SR:!2024-11-25,12,329!2024-12-02,19,349-->
   - Forgot, something related to accrued expense, insurance, insurance premium... (-1, MCQ)
-    - insurance premium ::: Insurance premium is a cost that you pay for the insurance, not a benefit that the insurance gives you! <!--SR:!2024-11-13,4,329!2024-11-13,4,329-->
+    - insurance premium ::: Insurance premium is a cost that you pay for the insurance, not a benefit that the insurance gives you! <!--SR:!2024-12-01,18,349!2024-12-01,18,349-->
   - Need to remember 5 reasons why a financial analyst uses the quick ratio... (-2, LQ)

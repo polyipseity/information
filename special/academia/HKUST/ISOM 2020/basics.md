@@ -70,7 +70,7 @@ return _chain.from_iterable(await _gather(
 - `*`→:::←`/` <!--SR:!2024-12-05,71,322!2024-12-10,76,322-->
 - `/`→:::←`//` <!--SR:!2024-11-22,59,322!2024-12-13,79,322-->
 - `//`→:::←`%` <!--SR:!2024-11-14,51,310!2024-11-29,66,322-->
-- `%`→:::←`+` <!--SR:!2024-11-28,65,322!2024-11-13,50,302-->
+- `%`→:::←`+` <!--SR:!2024-11-28,65,322!2025-06-14,213,322-->
 - `+`→:::←`-` <!--SR:!2024-11-17,54,310!2024-12-11,77,322-->
 - `-`→:::←_(end)_ <!--SR:!2024-12-06,72,322!2024-12-07,74,322-->
 
@@ -88,9 +88,9 @@ return _chain.from_iterable(await _gather(
 
 <!--/pytextgen-->
 
-For the return type of operators, all of above (if only `float` and `int` are considered), with two exceptions, {{returns `int` (integer) if both operands are `int`, and `float` otherwise}}. The two exceptions are {{that `/` (division) always return `float`, even if both operands are `int`}}, and {{applying `**` (power) on a negative base results in a `complex` (complex number) but not an error, which is not discussed here}}. <!--SR:!2024-11-13,50,302!2024-11-28,65,322!2024-12-03,70,322-->
+For the return type of operators, all of above (if only `float` and `int` are considered), with two exceptions, {{returns `int` (integer) if both operands are `int`, and `float` otherwise}}. The two exceptions are {{that `/` (division) always return `float`, even if both operands are `int`}}, and {{applying `**` (power) on a negative base results in a `complex` (complex number) but not an error, which is not discussed here}}. <!--SR:!2025-06-11,210,322!2024-11-28,65,322!2024-12-03,70,322-->
 
-A note regarding accuracy is that {{there may be some inaccuracies involved when `float`s are involved, such as `0.1 + 0.2` is `0.30000000000000004` instead of `0.3`}}. Also, regarding zeros, {{`0.0` and `-0.0` are technically different `float`s, but they are equivalent for most purposes and even compare the same, i.e. `0.0 == -0.0` is `True`}}. Finally, a notable error (raising an error causes {{the program to stop and print out error messages}}) is that {{`/` (division), `//` (floor division), and `%` (remainder) raises `ZeroDivisionError` if the second operand is zero}}. However, `0 ** 0` (power) {{returns `1` instead of being undefined or raising an error}}. <!--SR:!2024-12-08,74,322!2024-11-22,59,322!2024-12-02,69,322!2024-11-27,64,322!2024-11-13,49,340-->
+A note regarding accuracy is that {{there may be some inaccuracies involved when `float`s are involved, such as `0.1 + 0.2` is `0.30000000000000004` instead of `0.3`}}. Also, regarding zeros, {{`0.0` and `-0.0` are technically different `float`s, but they are equivalent for most purposes and even compare the same, i.e. `0.0 == -0.0` is `True`}}. Finally, a notable error (raising an error causes {{the program to stop and print out error messages}}) is that {{`/` (division), `//` (floor division), and `%` (remainder) raises `ZeroDivisionError` if the second operand is zero}}. However, `0 ** 0` (power) {{returns `1` instead of being undefined or raising an error}}. <!--SR:!2024-12-08,74,322!2024-11-22,59,322!2024-12-02,69,322!2024-11-27,64,322!2025-05-02,170,340-->
 
 ### comparison operators
 

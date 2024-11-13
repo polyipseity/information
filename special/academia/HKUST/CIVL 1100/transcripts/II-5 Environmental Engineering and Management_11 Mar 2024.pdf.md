@@ -208,7 +208,7 @@ Sustainable Waste Management
 How to provide motivation for waste reduction, reuse and recycling?
 
 - How to charge your MSW? ::: fixed charge, proxy system, quantity-based system <!--SR:!2025-01-19,182,310!2024-12-08,147,310-->
-  - quantity-based system example ::: Taipei (not Taiwan as a whole) implemented MSW charging by bag in 2000. Compared to before, -37% after 1 year and -62% after 7 years. <!--SR:!2025-06-10,245,270!2024-11-13,120,290-->
+  - quantity-based system example ::: Taipei (not Taiwan as a whole) implemented MSW charging by bag in 2000. Compared to before, -37% after 1 year and -62% after 7 years. <!--SR:!2025-06-10,245,270!2025-10-26,347,290-->
 
 ## page 14
 
@@ -281,7 +281,7 @@ Sewage Conveyance System
 Clean Victoria Harbor
 
 - HATS result ::: clean Victoria Harbor <!--SR:!2025-02-04,180,310!2025-03-20,233,330-->
-  - HATS result example ::: On 2017-10-29, 3000 swimmers participate in a previously-discontinued annual cross-harbor race. The race continues to be held. <!--SR:!2024-11-13,62,230!2025-03-28,237,330-->
+  - HATS result example ::: On 2017-10-29, 3000 swimmers participate in a previously-discontinued annual cross-harbor race. The race continues to be held. <!--SR:!2025-04-05,143,230!2025-03-28,237,330-->
 
 ## page 23
 

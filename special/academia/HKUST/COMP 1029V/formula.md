@@ -145,7 +145,7 @@ return _chain.from_iterable(await _gather(
 <!--pytextgen generate section="cc23"--><!-- The following content is generated at 2024-01-31T12:32:22.829082+08:00. Any edits will be overridden! -->
 
 - `=`::equal to <!--SR:!2025-02-04,282,330-->
-- `<`::lesser than <!--SR:!2024-11-13,218,330-->
+- `<`::lesser than <!--SR:!2027-08-02,992,350-->
 - `>`::greater than <!--SR:!2025-02-28,302,330-->
 - `<=`::lesser than or equal to <!--SR:!2024-12-24,248,330-->
 - `>=`::greater than or equal to <!--SR:!2024-12-09,237,330-->

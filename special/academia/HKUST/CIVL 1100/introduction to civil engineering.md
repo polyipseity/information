@@ -150,7 +150,7 @@ quantity surveyor
 - consulting structural engineer→:::←contracting civil engineer <!--SR:!2025-09-07,361,335!2025-05-27,276,315-->
 - contracting civil engineer→:::←engineering geologist <!--SR:!2025-07-29,302,297!2024-11-19,56,275-->
 - engineering geologist→:::←environmental consultant <!--SR:!2025-11-10,381,305!2025-05-31,280,305-->
-- environmental consultant→:::←quantity surveyor <!--SR:!2024-11-13,55,280!2025-01-22,163,280-->
+- environmental consultant→:::←quantity surveyor <!--SR:!2025-06-18,217,300!2025-01-22,163,280-->
 - quantity surveyor→:::←_(end)_ <!--SR:!2025-01-10,187,340!2024-12-31,120,340-->
 
 <!--/pytextgen-->
@@ -356,7 +356,7 @@ transportation
 
 <!--pytextgen generate section="137b"--><!-- The following content is generated at 2024-05-01T19:22:34.905642+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←construction <!--SR:!2025-01-13,207,355!2024-11-13,161,375-->
+- _(begin)_→:::←construction <!--SR:!2025-01-13,207,355!2027-02-18,827,395-->
 - construction→:::←environmental <!--SR:!2025-07-26,325,340!2025-12-22,480,400-->
 - environmental→:::←geo-technical <!--SR:!2025-11-28,416,327!2025-01-07,205,345-->
 - geo-technical→:::←hydraulic <!--SR:!2024-11-21,149,340!2024-12-23,112,340-->

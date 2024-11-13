@@ -63,8 +63,8 @@ The Lah numbers {{satisfy a variety of identities and relations}}. <!--SR:!2024-
 
 In [Karamata](Jovan%20Karamata.md)–[Knuth](Donald%20Knuth.md) notation for [Stirling numbers](Stirling%20number.md) {{$$L(n,k)=\sum _{j=k}^{n}\left[{n \atop j}\right]\left\{ {j \atop k}\right\}$$}} where {{$\left[{n \atop j}\right]$ are the [Stirling numbers of the first kind](Stirling%20numbers%20of%20the%20first%20kind.md) and $\left\{ {j \atop k}\right\}$ are the [Stirling numbers of the second kind](stirling%20numbers%20of%20the%20second%20kind.md)}}. <!--SR:!2024-11-17,17,290!2024-11-17,17,290-->
 
-- alternative ways to write the formula :::  $$L(n,k)={n-1 \choose k-1}{\frac {n!}{k!} }={n \choose k}{\frac {(n-1)!}{(k-1)!} }={n \choose k}{n-1 \choose k-1}(n-k)!$$ <!--SR:!2024-11-13,13,270!2024-11-17,17,290-->
-- formula with square ::: $$L(n,k)={\frac {n!(n-1)!}{k!(k-1)!} }\cdot {\frac {1}{(n-k)!} }=\left({\frac {n!}{k!} }\right)^{2}{\frac {k}{n(n-k)!} }$$ <!--SR:!2024-11-13,13,270!2024-11-17,17,290-->
+- alternative ways to write the formula :::  $$L(n,k)={n-1 \choose k-1}{\frac {n!}{k!} }={n \choose k}{\frac {(n-1)!}{(k-1)!} }={n \choose k}{n-1 \choose k-1}(n-k)!$$ <!--SR:!2024-12-17,34,270!2024-11-17,17,290-->
+- formula with square ::: $$L(n,k)={\frac {n!(n-1)!}{k!(k-1)!} }\cdot {\frac {1}{(n-k)!} }=\left({\frac {n!}{k!} }\right)^{2}{\frac {k}{n(n-k)!} }$$ <!--SR:!2024-12-19,36,270!2024-11-17,17,290-->
 - recurrence formula derivation ::: $$k(k+1)L(n,k+1)=(n-k)L(n,k)$$, for $k>0$. <!--SR:!2024-11-21,10,230!2024-12-11,33,270-->
 
 ### recurrence relations
@@ -77,7 +77,7 @@ The Lah numbers satisfy {{the recurrence relations $${\begin{aligned}L(n+1,k)&=(
 
 ### derivative of exp(1/_x_)
 
-{{The _n_-th [derivative](derivative.md) (including _n_ = 0) of the function $e^{\frac {1}{x} }$}} can be {{expressed with the Lah numbers}}, as follows<sup>[\[7\]](#^ref-7)</sup> {{$${\frac { {\textrm {d} }^{n} }{ {\textrm {d} }x^{n} } }e^{\frac {1}{x} }=(-x)^{-n}\sum _{k=0}^{n}{\frac {L(n,k)}{x^{k} } }\cdot e^{\frac {1}{x} }.$$}} <!--SR:!2024-11-13,13,270!2024-11-13,13,270!2024-11-16,6,210-->
+{{The _n_-th [derivative](derivative.md) (including _n_ = 0) of the function $e^{\frac {1}{x} }$}} can be {{expressed with the Lah numbers}}, as follows<sup>[\[7\]](#^ref-7)</sup> {{$${\frac { {\textrm {d} }^{n} }{ {\textrm {d} }x^{n} } }e^{\frac {1}{x} }=(-x)^{-n}\sum _{k=0}^{n}{\frac {L(n,k)}{x^{k} } }\cdot e^{\frac {1}{x} }.$$}} <!--SR:!2025-01-03,51,290!2024-12-17,34,270!2024-11-16,6,210-->
 
 For example, $$\begin{aligned} {\frac {\textrm {d} }{ {\textrm {d} }x} }e^{\frac {1}{x} } & = -{\frac {1}{x^{2} } }\cdot e^{\frac {1}{x} } \\ {\frac { {\textrm {d} }^{2} }{ {\textrm {d} }x^{2} } }e^{\frac {1}{x} } & = {\frac {\textrm {d} }{ {\textrm {d} }x} }\left(-{\frac {1}{x^{2} } }e^{\frac {1}{x} }\right)=-{\frac {-2}{x^{3} } }\cdot e^{\frac {1}{x} }-{\frac {1}{x^{2} } }\cdot {\frac {-1}{x^{2} } }\cdot e^{\frac {1}{x} }=\left({\frac {2}{x^{3} } }+{\frac {1}{x^{4} } }\right)\cdot e^{\frac {1}{x} } \\ {\frac { {\textrm {d} }^{3} }{ {\textrm {d} }x^{3} } }e^{\frac {1}{x} } & ={\frac {\textrm {d} }{ {\textrm {d} }x} }\left(\left({\frac {2}{x^{3} } }+{\frac {1}{x^{4} } }\right)\cdot e^{\frac {1}{x} }\right)=\left({\frac {-6}{x^{4} } }+{\frac {-4}{x^{5} } }\right)\cdot e^{\frac {1}{x} }+\left({\frac {2}{x^{3} } }+{\frac {1}{x^{4} } }\right)\cdot {\frac {-1}{x^{2} } }\cdot e^{\frac {1}{x} }=-\left({\frac {6}{x^{4} } }+{\frac {6}{x^{5} } }+{\frac {1}{x^{6} } }\right)\cdot e^{\frac {1}{x} } \,. \end{aligned}$$
 

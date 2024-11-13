@@ -11,25 +11,25 @@ tags:
 
 # law of supply
 
-The __law of supply__ is {{a fundamental principle of [economic theory](economics.md#theory)}} which states that, {{keeping other factors constant, an increase in sales price results in an increase in quantity [supplied](supply%20(economics).md)}}.<sup>[\[1\]](#^ref-1)</sup> In other words, there is {{a direct relationship between price and quantity: quantities respond in the same direction as price changes}}. This means that {{producers and manufacturers are willing to offer more of a product for sale on the [market](market%20(economics).md) at higher prices}}, as {{increasing production is a way of increasing profits}}.<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2024-11-13,4,270!2024-11-13,4,270!2024-11-13,4,270!2024-11-13,4,270!2024-11-13,4,270-->
+The __law of supply__ is {{a fundamental principle of [economic theory](economics.md#theory)}} which states that, {{keeping other factors constant, an increase in sales price results in an increase in quantity [supplied](supply%20(economics).md)}}.<sup>[\[1\]](#^ref-1)</sup> In other words, there is {{a direct relationship between price and quantity: quantities respond in the same direction as price changes}}. This means that {{producers and manufacturers are willing to offer more of a product for sale on the [market](market%20(economics).md) at higher prices}}, as {{increasing production is a way of increasing profits}}.<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2024-11-29,16,290!2024-11-29,16,290!2024-11-29,16,290!2024-11-24,11,270!2024-11-29,16,290-->
 
-In short, the law of supply is {{a positive relationship between quantity supplied and price}}, and is {{the reason for the upward slope of the supply curve}}. <!--SR:!2024-11-13,4,270!2024-11-13,4,270-->
+In short, the law of supply is {{a positive relationship between quantity supplied and price}}, and is {{the reason for the upward slope of the supply curve}}. <!--SR:!2024-11-29,16,290!2024-11-29,16,290-->
 
-{{Some [heterodox economists](heterodox%20economics.md)}}, such as [Steve Keen](Steve%20Keen.md) and [Dirk Ehnts](Dirk%20Ehnts.md), {{dispute the law of supply, arguing that the supply curve for mass-produced goods is often downward-sloping}}: as {{production increases, unit prices go down, and conversely, if demand is very low, unit prices go up}}.<sup>[\[3\]](#^ref-3)</sup><sup>[\[4\]](#^ref-4)</sup> <!--SR:!2024-11-13,4,270!2024-11-13,4,270!2024-11-13,4,270-->
+{{Some [heterodox economists](heterodox%20economics.md)}}, such as [Steve Keen](Steve%20Keen.md) and [Dirk Ehnts](Dirk%20Ehnts.md), {{dispute the law of supply, arguing that the supply curve for mass-produced goods is often downward-sloping}}: as {{production increases, unit prices go down, and conversely, if demand is very low, unit prices go up}}.<sup>[\[3\]](#^ref-3)</sup><sup>[\[4\]](#^ref-4)</sup> <!--SR:!2024-11-29,16,290!2024-11-29,16,290!2024-11-29,16,290-->
 
 ## definition
 
-A supply is {{a good or [service](service%20(economics).md) that [producers](production%20(economics).md) are willing to provide}}. The law of supply determines {{the quantity of supply at a given price}}.<sup>[\[5\]](#^ref-5)</sup> <!--SR:!2024-11-13,4,270!2024-11-13,4,270-->
+A supply is {{a good or [service](service%20(economics).md) that [producers](production%20(economics).md) are willing to provide}}. The law of supply determines {{the quantity of supply at a given price}}.<sup>[\[5\]](#^ref-5)</sup> <!--SR:!2024-11-29,16,290!2024-11-29,16,290-->
 
-{{The [law of supply and demand](supply%20and%20demand.md)}} states that, for a given product, if {{the quantity demanded exceeds the quantity supplied, then the price increases, which decreases the demand ([law of demand](law%20of%20demand.md)) and increases the supply (law of supply)—and vice versa}}—until {{the quantity supplied equals the quantity demanded}}. <!--SR:!2024-11-13,4,270!2024-11-13,4,270!2024-11-13,4,270-->
+{{The [law of supply and demand](supply%20and%20demand.md)}} states that, for a given product, if {{the quantity demanded exceeds the quantity supplied, then the price increases, which decreases the demand ([law of demand](law%20of%20demand.md)) and increases the supply (law of supply)—and vice versa}}—until {{the quantity supplied equals the quantity demanded}}. <!--SR:!2024-11-29,16,290!2024-11-29,16,290!2024-11-29,16,290-->
 
-For example, a job paying £20/hr attracts {{more interest than a job paying £15/hr}}, and a high [interest rate](interest%20rate.md) attracts {{lenders and deters borrowers}}. <!--SR:!2024-11-13,4,270!2024-11-13,4,270-->
+For example, a job paying £20/hr attracts {{more interest than a job paying £15/hr}}, and a high [interest rate](interest%20rate.md) attracts {{lenders and deters borrowers}}. <!--SR:!2024-11-29,16,290!2024-11-29,16,290-->
 
 ## affecting factors
 
-There are {{various non-price determinants that can cause a shift in a supply curve}}.<sup>[\[6\]](#^ref-6)</sup> For example, if {{the costs of production, such as wages, decrease}}, then {{the manufacturers can produce more goods for the same price, so the quantity supplied will increase}}. If {{the number of suppliers increases, or if the capacity of a factory producing the goods increases}}, {{the quantity supplied will increase}}. <!--SR:!2024-11-24,12,270!2024-11-13,4,270!2024-11-13,4,270!2024-11-13,4,270!2024-11-13,4,270-->
+There are {{various non-price determinants that can cause a shift in a supply curve}}.<sup>[\[6\]](#^ref-6)</sup> For example, if {{the costs of production, such as wages, decrease}}, then {{the manufacturers can produce more goods for the same price, so the quantity supplied will increase}}. If {{the number of suppliers increases, or if the capacity of a factory producing the goods increases}}, {{the quantity supplied will increase}}. <!--SR:!2024-11-24,12,270!2024-11-29,16,290!2024-11-29,16,290!2024-11-29,16,290!2024-11-29,16,290-->
 
-Other factors can include {{government policy}}—{{government subsidies to encourage certain products decreases the overall cost of production}}. However, {{government [taxation](tax.md) can cause the cost of production to rise}}. For some products, such as {{in agriculture, the quantity supplied is dependent on the weather}}. <!--SR:!2024-11-13,4,270!2024-11-13,4,270!2024-11-13,4,270!2024-11-13,4,270-->
+Other factors can include {{government policy}}—{{government subsidies to encourage certain products decreases the overall cost of production}}. However, {{government [taxation](tax.md) can cause the cost of production to rise}}. For some products, such as {{in agriculture, the quantity supplied is dependent on the weather}}. <!--SR:!2024-11-29,16,290!2024-11-29,16,290!2024-11-29,16,290!2024-11-29,16,290-->
 
 ## see also
 

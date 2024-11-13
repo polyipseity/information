@@ -51,7 +51,7 @@ XLMiner can partition the dataset into {{3 datasets}}: {{training set, validatio
 
 Computers usually generate random numbers using a {{[pseudorandom number generator](../general/pseudorandom%20number%20generator.md), which is usually a _deterministic_ algorithm that generates a random number from the previous random number}}. Thus, to generate the first number, it needs {{an initial "previous random number", which is called the _random seed_}}. Since the algorithm is _deterministic_, given the same algorithm and {{the same random seed, the sequence of randomly generated numbers are always the same}}. <!--SR:!2025-05-16,306,330!2024-12-05,179,310!2026-02-06,486,310-->
 
-The seed option present in various interfaces is {{simply the random seed to generate random numbers for use by the selected data mining algorithm}}, so given the same data, inputting the same seed {{will give the same result, even if the data mining algorithm requires random numbers}}. If producing the same result is undesirable, we can use {{the current time in milliseconds as the seed}}. <!--SR:!2025-09-03,361,290!2024-11-13,160,310!2026-07-05,626,330-->
+The seed option present in various interfaces is {{simply the random seed to generate random numbers for use by the selected data mining algorithm}}, so given the same data, inputting the same seed {{will give the same result, even if the data mining algorithm requires random numbers}}. If producing the same result is undesirable, we can use {{the current time in milliseconds as the seed}}. <!--SR:!2025-09-03,361,290!2026-10-02,688,330!2026-07-05,626,330-->
 
 ### rescaling
 

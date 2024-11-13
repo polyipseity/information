@@ -111,7 +111,7 @@ Let {{$a, b \in \mathbb N$ and $b \ne 0$. Prove that $a \cdot b \ge a$}}. <!--SR
 
 We have {{an equilateral triangle of side length 2. Amir chooses five points inside this triangle. Prove that two of the points have a distance of at most 1}}. <!--SR:!2025-04-09,160,320-->
 
-- strategy ::: Think of a way to make "pigeonholes" for the 5 points... <!--SR:!2024-11-13,48,300!2024-12-09,70,320-->
+- strategy ::: Think of a way to make "pigeonholes" for the 5 points... <!--SR:!2025-06-04,203,320!2024-12-09,70,320-->
 - generalization ::: This can be applied to other shapes: Any two points on a circle, including the boundary, have a distance of at most its diameter. <!--SR:!2024-11-24,53,300!2024-12-19,78,320-->
 
 1. solution ::: Split the equilateral triangle into 4 equal equilateral triangles of side length 1. Then any two points in the same equilateral triangle of side length 1, including the boundary, have a distance of at most 1. Put 5 points into the large equilateral triangle. By the pigeonhole principle, there are at least one equilateral triangle of side length 1 with two points on it. Thus there are at least two points that have a distance of at most 1. <!--SR:!2025-01-23,96,290!2024-11-25,39,300-->
