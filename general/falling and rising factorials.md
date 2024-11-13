@@ -45,7 +45,7 @@ Falling and rising factorials of integers are {{directly related to the ordinary
 
 {{Rising factorials of half integers}} are {{directly related to the [double factorial](double%20factorial.md)}}: {{$${\begin{aligned}\left[{\frac {1}{2} }\right]^{(n)}={\frac {(2n-1)!!}{2^{n} } },\quad \left[{\frac {2m+1}{2} }\right]^{(n)}={\frac {(2(n+m)-1)!!}{2^{n}(2m-1)!!} }.\end{aligned} }$$}}
 
-The falling and rising factorials can be used to {{express a [binomial coefficient](binomial%20coefficient.md)}}: {{$${\begin{aligned}{\frac {(x)_{n} }{n!} }&={\binom {x}{n} },\\[6pt]{\frac {x^{(n)} }{n!} }&={\binom {x+n-1}{n} }.\end{aligned} }$$}} (Annotation: The above is obvious, but the below is also {{a multiset coefficient}}.) Thus {{many identities on binomial coefficients carry over to the falling and rising factorials}}.
+The falling and rising factorials can be used to {{express a [binomial coefficient](binomial%20coefficient.md)}}: {{$${\begin{aligned}{\frac {(x)_{n} }{n!} }&={\binom {x}{n} },\\[6pt]{\frac {x^{(n)} }{n!} } & = \binom {x+n-1} n = \left(\!\! \binom x n \!\!\right).\end{aligned} }$$}} (Annotation: The above is obvious, but the below is also {{a multiset coefficient}}.) Thus {{many identities on binomial coefficients carry over to the falling and rising factorials}}.
 
 The rising and falling factorials are {{well defined in any [unital](ring%20(mathematics).md) [ring](ring%20(mathematics).md)}}, and therefore $x$ can be {{taken to be, for example, a [complex number](complex%20number.md), including negative integers, or a [polynomial](polynomial.md) with complex coefficients, or any [complex-valued function](complex%20analysis.md)}}.
 
