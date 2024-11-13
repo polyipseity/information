@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.0"
+   width="217"
+   height="145"
+   id="svg2">
+  <defs
+     id="defs4" />
+  <rect
+     width="4.6961646"
+     height="4.6961646"
+     x="124.41143"
+     y="4.8348236"
+     transform="matrix(0.866025,0.5,-0.5,0.866025,0,0)"
+     style="opacity:1;fill:white;fill-opacity:1;stroke:#959595;stroke-width:0.59999931;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="rect2108" />
+  <rect
+     width="4.6961646"
+     height="4.6961646"
+     x="124.93831"
+     y="21.401171"
+     transform="matrix(0.866025,0.5,-0.5,0.866025,0,0)"
+     style="opacity:1;fill:white;fill-opacity:1;stroke:#959595;stroke-width:0.59999931;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="rect2995" />
+  <rect
+     width="4.6961617"
+     height="4.6961617"
+     x="124.4565"
+     y="36.742329"
+     transform="matrix(0.866025,0.5,-0.5,0.866025,0,0)"
+     style="opacity:1;fill:white;fill-opacity:1;stroke:#959595;stroke-width:0.59999883;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="rect2997" />
+  <g
+     transform="translate(0,-72)"
+     id="g2082">
+    <path
+       d="M 19.069451,82.00258 L 19.069451,195.15731 L 210.26577,195.15731"
+       style="fill:none;fill-rule:evenodd;stroke:black;stroke-width:2.0175066;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path1872" />
+    <path
+       d="M 15.824247,82.194683 L 19.077655,76.559613 L 22.403324,82.197315 L 15.824247,82.194683 z "
+       style="fill:black;fill-rule:evenodd;stroke:black;stroke-width:0.48518261px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="path1874" />
+    <path
+       d="M 207.71788,191.33304 L 214.65918,195.3406 L 207.71465,199.43717 L 207.71788,191.33304 z "
+       style="fill:black;fill-rule:evenodd;stroke:black;stroke-width:0.59764814px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="path1876" />
+    <path
+       d="M 19.995991,115.58765 L 162.88772,195.16661"
+       style="fill:none;fill-rule:evenodd;stroke:red;stroke-width:1.6840173;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path5447" />
+    <text
+       x="-110.53443"
+       y="13.518744"
+       transform="matrix(0,-1,1,0,0,0)"
+       style="font-size:12.42817211px;font-style:normal;font-weight:normal;text-align:center;text-anchor:middle;fill:black;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       id="text9924"
+       xml:space="preserve"><tspan
+         x="-110.53443"
+         y="13.518744"
+         id="tspan9926">Good Y</tspan></text>
+    <text
+       x="182.08171"
+       y="208.68105"
+       style="font-size:12.42817211px;font-style:normal;font-weight:normal;text-align:center;text-anchor:middle;fill:black;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       id="text9928"
+       xml:space="preserve"><tspan
+         x="182.08171"
+         y="208.68105"
+         id="tspan9930">Good X</tspan></text>
+    <text
+       x="82.01487"
+       y="122.17469"
+       style="font-size:12.42817211px;font-style:normal;font-weight:normal;text-align:center;text-anchor:middle;fill:black;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       id="text2025"
+       xml:space="preserve"><tspan
+         style="font-size:14px;font-weight:bold;font-family:Baskerville Old Face"
+         id="tspan2035">I</tspan></text>
+    <text
+       x="89.326759"
+       y="126.61333"
+       style="font-size:12.42817211px;font-style:normal;font-weight:normal;text-align:center;text-anchor:middle;fill:black;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       id="text2031"
+       xml:space="preserve"><tspan
+         x="89.326759"
+         y="126.61333"
+         style="font-size:10.35680962px;font-weight:bold"
+         id="tspan2033">3</tspan></text>
+    <text
+       x="44.522274"
+       y="126.30553"
+       style="font-size:12.42817211px;font-style:normal;font-weight:normal;text-align:center;text-anchor:middle;fill:black;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       id="text2037"
+       xml:space="preserve"><tspan
+         style="font-size:14px;font-weight:bold;font-family:Baskerville Old Face"
+         id="tspan2039">I</tspan></text>
+    <text
+       x="51.83416"
+       y="130.74416"
+       style="font-size:12.42817211px;font-style:normal;font-weight:normal;text-align:center;text-anchor:middle;fill:black;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       id="text2041"
+       xml:space="preserve"><tspan
+         x="51.83416"
+         y="130.74416"
+         style="font-size:10.35680962px;font-weight:bold"
+         id="tspan2043">2</tspan></text>
+    <text
+       x="32.260067"
+       y="153.43895"
+       style="font-size:12.42817211px;font-style:normal;font-weight:normal;text-align:center;text-anchor:middle;fill:black;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       id="text2051"
+       xml:space="preserve"><tspan
+         style="font-size:14px;font-weight:bold;font-family:Baskerville Old Face"
+         id="tspan2053">I</tspan></text>
+    <text
+       x="39.571941"
+       y="157.87758"
+       style="font-size:12.42817211px;font-style:normal;font-weight:normal;text-align:center;text-anchor:middle;fill:black;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       id="text2055"
+       xml:space="preserve"><tspan
+         x="39.571941"
+         y="157.87758"
+         style="font-size:10.35680962px;font-weight:bold"
+         id="tspan2057">1</tspan></text>
+    <path
+       d="M 19.085839,96.59295 L 195.37255,193.91299"
+       style="fill:none;fill-rule:evenodd;stroke:red;stroke-width:1.6840173;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path2078" />
+    <path
+       d="M 19.346741,132.85781 L 130.93068,194.69569"
+       style="fill:none;fill-rule:evenodd;stroke:red;stroke-width:1.6840173;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path2080" />
+  </g>
+  <path
+     d="M 80.617569,109.25694 L 111.47807,55.804986"
+     style="fill:none;fill-rule:evenodd;stroke:#959595;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     id="path2106" />
+</svg>

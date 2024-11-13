@@ -191,12 +191,12 @@ To {{prove the inclusion–exclusion principle for the cardinality of sets}}, {{
 
 ## see also
 
-- [Boole's inequality](Boole's%20inequality.md) ::: – Inequality applying to probability spaces <!--SR:!2025-01-16,76,331!2025-01-16,76,331-->
-- [combinatorial principles](combinatorial%20principles.md) ::: – Methods used in combinatorics <!--SR:!2025-01-12,72,310!2025-01-15,75,331-->
-- [maximum-minimums identity](maximum-minimums%20identity.md) ::: – Relates the maximum element of a set of numbers and the minima of its non-empty subsets <!--SR:!2024-12-22,55,311!2025-01-10,70,310-->
+- [Boole's inequality](Boole's%20inequality.md) – ::: Inequality applying to probability spaces <!--SR:!2025-01-16,76,331!2025-01-16,76,331-->
+- [combinatorial principles](combinatorial%20principles.md) – ::: Methods used in combinatorics <!--SR:!2025-01-12,72,310!2025-01-15,75,331-->
+- [maximum-minimums identity](maximum-minimums%20identity.md) – ::: Relates the maximum element of a set of numbers and the minima of its non-empty subsets <!--SR:!2024-12-22,55,311!2025-01-10,70,310-->
 - [necklace problem](necklace%20problem.md)
-- [pigeonhole principle](pigeonhole%20principle.md) ::: – If there are more items than boxes holding them, one box must contain at least two items <!--SR:!2025-01-10,70,320!2025-01-16,76,331-->
-- [Schuette–Nesbitt formula](Schuette–Nesbitt%20formula.md) ::: – mathematical formula in probability theory <!--SR:!2024-12-22,55,300!2025-01-12,72,310-->
+- [pigeonhole principle](pigeonhole%20principle.md) – ::: If there are more items than boxes holding them, one box must contain at least two items <!--SR:!2025-01-10,70,320!2025-01-16,76,331-->
+- [Schuette–Nesbitt formula](Schuette–Nesbitt%20formula.md) – ::: mathematical formula in probability theory <!--SR:!2024-12-22,55,300!2025-01-12,72,310-->
 
 ## notes
 
