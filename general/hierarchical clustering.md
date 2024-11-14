@@ -176,7 +176,7 @@ We define the _chi-squared measure_ between two binary variables $A$ and $B$, de
 >
 > The _chi-squared measure_ of $A$ and $B$ (symbol: $\chi_{AB}^2$ or $\chi_{BA}^2$) is defined as {@{$$\chi_{AB}^2 = \chi_{BA}^2 = \frac {(a + b + c + d)(ad - bc)^2} {(a + b)(b + d)(d + c)(c + a)}$$}@}. The equation in words, which may be easier to remember, is {@{$$\chi_{AB}^2 = \chi_{BA}^2 = \frac {(\text{total})((\text{true positive})(\text{true negative}) - (\text{false positive})(\text{false negative}))^2} {(A\text{ is true})(A\text{ is false})(B\text{ is true})(B\text{ is false})}$$}@}. <!--SR:!2025-09-26,353,295!2024-11-19,58,275!2025-07-10,262,235-->
 
-The chi-squared measure describes {@{the degree of correlation between two variables}@}. <!--SR:!2024-11-14,163,315-->
+The chi-squared measure describes {@{the degree of correlation between two variables}@}. <!--SR:!2026-04-11,513,315-->
 
 Now, for each variable, denoted $A$ here, calculate {@{the sum of all chi-squared measure with other variables except itself: $$\text{chi-squared measure sum of }A = \sum_{B \in \text{all variables except }A} \chi_{AB}^2$$}@}. Find {@{the variable with the largest sum (arbitrarily choose one if there are multiple variables with the largest sum)}@}. Finally, {@{split the observations into two clusters by the value of that variable and ignore that variable thereafter if further clustering is performed}@}. Repeat {@{this process recursively until you are satisfied with the clustering result}@}. <!--SR:!2025-12-06,404,295!2025-01-12,208,315!2025-04-18,159,255!2025-09-24,338,275-->
 

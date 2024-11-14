@@ -15,7 +15,7 @@ In [microeconomics](microeconomics.md), a __production–possibility frontier__ 
 
 This tradeoff is usually considered for {@{an [economy](economy.md), but also applies to each individual, household, and economic organization}@}. One good can only be produced by {@{diverting resources from other goods, and so by producing less of them}@}. <!--SR:!2024-12-09,55,310!2024-12-29,73,310-->
 
-{@{Graphically bounding the [production set](production%20set.md)}@} for {@{fixed input quantities}@}, the PPF curve shows {@{the maximum possible production level of one commodity for any given production level of the other, given the existing state of technology}@}. By doing so, it {@{defines [productive efficiency](productive%20efficiency.md) in the context of that production set}@}: {@{a point on the frontier indicates efficient use of the available inputs (such as points B, D and C in the graph), a point beneath the curve (such as A) indicates inefficiency, and a point beyond the curve (such as X) indicates impossibility}@}. <!--SR:!2024-12-22,68,310!2024-11-14,37,290!2024-11-23,44,290!2024-12-09,55,310!2024-12-14,60,310-->
+{@{Graphically bounding the [production set](production%20set.md)}@} for {@{fixed input quantities}@}, the PPF curve shows {@{the maximum possible production level of one commodity for any given production level of the other, given the existing state of technology}@}. By doing so, it {@{defines [productive efficiency](productive%20efficiency.md) in the context of that production set}@}: {@{a point on the frontier indicates efficient use of the available inputs (such as points B, D and C in the graph), a point beneath the curve (such as A) indicates inefficiency, and a point beyond the curve (such as X) indicates impossibility}@}. <!--SR:!2024-12-22,68,310!2025-04-13,150,310!2024-11-23,44,290!2024-12-09,55,310!2024-12-14,60,310-->
 
 > {@{![figure 1: a production possibilities frontier](../archives/Wikimedia%20Commons/Production%20Possibilities%20Frontier%20Curve.svg)}@}
 >
@@ -57,7 +57,7 @@ If {@{the two production goods depicted are [capital](capital%20(economics).md) 
 
 > {@{![figure 4: frontier points that violate allocative efficiency](../archives/Wikimedia%20Commons/04%20production-possibilities-frontier-2.png)}@}
 >
-> figure 4: {@{frontier points that violate allocative efficiency}@} <!--SR:!2024-11-14,35,270!2025-01-27,87,270-->
+> figure 4: {@{frontier points that violate allocative efficiency}@} <!--SR:!2025-02-17,95,270!2025-01-27,87,270-->
 
 Production-Possibility Frontier delineates {@{the maximum amount/quantities of outputs (goods/services) an economy can achieve}@}, given {@{fixed resources ([factors of production](factors%20of%20production.md)) and fixed technological progress}@}. <!--SR:!2024-12-27,72,310!2024-12-04,50,290-->
 

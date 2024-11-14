@@ -156,7 +156,7 @@ The content is in teaching order.
   - [§ efficiency](../../../../general/production–possibility%20frontier.md#efficiency)
   - [§ marginal rate of transformation](../../../../general/production–possibility%20frontier.md#marginal%20rate%20of%20transformation)
   - [§ opportunity cost](../../../../general/production–possibility%20frontier.md#opportunity%20cost)
-- [absolute advantage](../../../../general/absolute%20advantage.md) (AA) ::@:: the ability of a party (an individual, or firm, or country) to produce a good or service more efficiently than its competitors (≈ compare (value / _explicit_ opportunity cost) and see which is higher) <!--SR:!2024-11-14,35,272!2024-12-24,68,330-->
+- [absolute advantage](../../../../general/absolute%20advantage.md) (AA) ::@:: the ability of a party (an individual, or firm, or country) to produce a good or service more efficiently than its competitors (≈ compare (value / _explicit_ opportunity cost) and see which is higher) <!--SR:!2025-03-28,134,292!2024-12-24,68,330-->
   - [§ absolute advantage](../../../../general/absolute%20advantage.md#absolute%20advantage)
   - [absolute advantage](../../../../general/absolute%20advantage.md) / specialization ::@:: Absolute advantage should NOT be used to judge whether specialization will be beneficial. Instead use comparative advantage. <!--SR:!2024-12-24,68,312!2024-12-30,73,312-->
   - [§ origin of the theory](../../../../general/absolute%20advantage.md#origin%20of%20the%20theory)

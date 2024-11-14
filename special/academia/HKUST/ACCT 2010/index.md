@@ -86,7 +86,7 @@ The content is in teaching order.
   - [§ asset](../../../../general/asset.md#asset)
 - [liability](../../../../general/liability%20(financial%20accounting).md) ::@:: value that an entity is expected to deliver in the future to satisfy a present obligation arising from past events; probable future sacrifices of economic resources <!--SR:!2025-03-29,143,317!2025-01-28,89,277-->
   - [§ liability](../../../../general/liability%20(financial%20accounting).md#liability)
-- [equity](../../../../general/equity%20(finance).md) ::@:: ownership interest in property that may be offset by debts or other liabilities; stockholder's equity: financing provided by owners and business operations <!--SR:!2024-12-07,60,317!2024-11-14,37,297-->
+- [equity](../../../../general/equity%20(finance).md) ::@:: ownership interest in property that may be offset by debts or other liabilities; stockholder's equity: financing provided by owners and business operations <!--SR:!2024-12-07,60,317!2025-04-16,153,317-->
   - [§ equity](../../../../general/equity%20(finance).md#equity)
 - [revenue](../../../../general/revenue.md) ::@:: total amount of income by the sale of goods or services related to the company's operations; increase in assets or settlement of liabilities from ongoing operations <!--SR:!2024-12-30,74,317!2024-12-30,74,317-->
   - [§ revenue](../../../../general/revenue.md#revenue)
@@ -124,7 +124,7 @@ The content is in teaching order.
   - [financial transaction](../../../../general/financial%20transaction.md) / steps to record for companies ::@:: Analyze transactions. Record them as journal entries in a general journal. Post the amounts to a general ledger. Verify if the accounting equation is still satisfied afterwards. <!--SR:!2025-01-06,81,334!2024-11-22,45,314-->
 - [general journal](../../../../general/general%20journal.md) ::@:: a log of all transactions affecting any account (within a reporting period); in manual processing, there may be other special journals for specific transactions, then transactions in those journals will not be in the general journal <!--SR:!2025-01-03,78,334!2025-01-29,95,294-->
   - [§ general journal](../../../../general/general%20journal.md#general%20journal)
-- [general ledger](../../../../general/general%20ledger.md) ::@:: a collection of several logs, with a log for each account, showing the changes in the account amount <!--SR:!2024-11-14,37,314!2024-11-26,49,314-->
+- [general ledger](../../../../general/general%20ledger.md) ::@:: a collection of several logs, with a log for each account, showing the changes in the account amount <!--SR:!2025-03-10,116,314!2024-11-26,49,314-->
   - [§ general ledger](../../../../general/general%20ledger.md#general%20ledger)
 - [financial transaction](../../../../general/financial%20transaction.md)
   - [financial transaction](../../../../general/financial%20transaction.md) / steps to end a reporting period for companies ::@:: Prepare an _unadjusted_ trial balance to check if debit amount equals credit amount. Adjust revenues and expenses on the trial balance to make it _adjusted_. Prepare financial statements from the _adjusted_ trial balance. Close (zero) the revenues, expenses, gains, and losses to retained earnings (or dividends). <!--SR:!2025-02-26,106,294!2024-11-25,39,274-->
@@ -150,7 +150,7 @@ The content is in teaching order.
 - [quick ratio](../../../../general/quick%20ratio.md) ::@:: a liquidity ratio that measures the ability of a company to use near-cash assets (or 'quick' assets) to extinguish or retire current liabilities immediately; more conservative than the current ratio as it excludes inventory and prepaid expenses <!--SR:!2025-01-06,81,334!2025-01-06,81,334-->
   - [§ quick ratio](../../../../general/quick%20ratio.md#quick%20ratio)
   - [quick ratio § formula](../../../../general/quick%20ratio.md#formula) ::@:: quick ratio (QR) = quick assets (QA) / current liabilities (CL), where quick assets (QA) = current assets (CA) - inventory (I) - prepaid expenses (PE) <!--SR:!2025-02-19,100,294!2025-01-05,80,334-->
-- use of financial ratios ::@:: Be careful... No single financial ratio does it all! They can also be manipulated, such as selling all revenue-generating fixed assets to increase the current ratio artificially, but this clearly kills the business. Therefore, financial analysts look at multiple ratios and other numbers, such as movement of fixed assets, fixed asset turnover ratio, etc. <!--SR:!2024-11-14,37,314!2024-11-17,40,314-->
+- use of financial ratios ::@:: Be careful... No single financial ratio does it all! They can also be manipulated, such as selling all revenue-generating fixed assets to increase the current ratio artificially, but this clearly kills the business. Therefore, financial analysts look at multiple ratios and other numbers, such as movement of fixed assets, fixed asset turnover ratio, etc. <!--SR:!2025-03-13,119,314!2024-11-17,40,314-->
 - [§ week 2 review](questions.md#week%202%20review)
 
 ## midterm examination

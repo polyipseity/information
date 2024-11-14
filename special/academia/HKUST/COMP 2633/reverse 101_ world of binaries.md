@@ -79,7 +79,7 @@ Below is a list of common instructions (in learning order):
 - `not <dest>` ::@:: Bitwise not the value at `<dest>`. <!--SR:!2024-12-07,73,323!2024-11-28,66,323-->
 - `cmp <left>, <right>` ::@:: Subtract `<right>` from `<left>`. If the result is zero, the zero flag `ZF` is set (`1`), otherwise unset (`0`). That is, the zero flag represents if `<left>` equals `<right>`. <!--SR:!2024-12-15,81,345!2024-12-01,68,337-->
 - `je <addr>`, `jz <addr>` ::@:: Jump to `<addr>` if the zero flag `ZF` is set (`1`). Assuming the zero flag is set by `cmp <left> <right>` in the previous executed instruction, then it is jump to `<addr>` if `<left>` equals `<right>`. <!--SR:!2025-06-23,223,345!2024-12-08,75,345-->
-- `jmp <addr>` ::@:: Jump to `<addr>`. Sometimes, the instruction before it in an assembly program (`.i`) is the instruction `jcc`. If `jcc` did not jump due to not satisfying a condition, then this instruction represents the `else` branch. <!--SR:!2024-11-14,51,317!2024-11-19,57,323-->
+- `jmp <addr>` ::@:: Jump to `<addr>`. Sometimes, the instruction before it in an assembly program (`.i`) is the instruction `jcc`. If `jcc` did not jump due to not satisfying a condition, then this instruction represents the `else` branch. <!--SR:!2025-06-27,225,337!2024-11-19,57,323-->
 - `test <left>, <right>` ::@:: Bitwise and `<left>` with `<right>`. If the result is zero, the zero flag `ZF` is set (`1`), otherwise unset (`0`). That is, the zero flag represents if there are common `1` bits between `<left>` and `<right>`. If `<left>` equals `<right>`, then this is equivalent to checking if `<left>`/`<right>` is zero. <!--SR:!2024-12-07,75,345!2024-12-15,81,345-->
 - `jcc <addr>` ::@:: Jump to `<addr>` depending on a condition. `cc` stands for `condition code`. It represents multiple instructions, such as `je` (jump if equal), `jz` (jump if zero, equivalent to `je`), `jnz` (jump if nonzero), `jg` (jump if greater, signed), `ja` (jump if above, unsigned), `jbe` (jump if below or equal, unsigned), `jnle` (jump if not less or equal), etc. Usually used with a `cmp` or `test` in the previous executed instruction. <!--SR:!2025-04-18,158,325!2024-11-16,54,323-->
 - `nop` ::@:: Does nothing. It has the value `0x90`. <!--SR:!2024-12-09,76,343!2024-11-24,62,323-->
@@ -124,7 +124,7 @@ x86 and x86-64 makes it easy {@{to enumerate stacks (in both the data structure 
 - `push <data>` ::@:: Copy `<data>` to the address pointed by `esp`/`rsp` and then decrement `esp`/`rsp` by the data size. The data size is either 4 or 8 bytes depending on the architecture (but not `<data>`). It can also be 2 bytes if explicitly specified (`push word <data>`), Note that flags are also manipulated. <!--SR:!2024-11-20,58,310!2024-12-01,68,345-->
 - `pop <dest>` ::@:: Copy the value at the address pointed by `esp`/`rsp` to `<dest>` and then increment `esp`/`rsp` by the data size. The data size is either 4 or 8 bytes depending on the architecture (but not the value at the stack top). It can also be 2 bytes if explicitly specified (`pop word <dest>`). Note that flags are also manipulated. <!--SR:!2024-11-17,54,325!2024-12-04,71,323-->
 - `call <addr>` ::@:: Push (`push`) the address of the next instruction to the stack and jump to `<addr>`. It can help with implementing function calls in higher-level languages. Note that the _stack pointer_ and _base pointer_ are not modified to create a function frame, and needs to be done by the compiler or yourself. <!--SR:!2025-03-21,141,325!2024-11-22,60,323-->
-- `ret` ::@:: Pop (`pop`) the address of an instruction from the stack and jump to it. This is a bit like `pop eip`/`pop rip`, but this is illegal because `eip`/`rip` is a special register and cannot be read from or written to directly. It can help with implementing function returns in higher-level languages. Note that the _stack pointer_ and _base pointer_ are not modified to restore the function frame, and needs to be done by the compiler or yourself. <!--SR:!2024-11-14,51,325!2024-11-16,53,325-->
+- `ret` ::@:: Pop (`pop`) the address of an instruction from the stack and jump to it. This is a bit like `pop eip`/`pop rip`, but this is illegal because `eip`/`rip` is a special register and cannot be read from or written to directly. It can help with implementing function returns in higher-level languages. Note that the _stack pointer_ and _base pointer_ are not modified to restore the function frame, and needs to be done by the compiler or yourself. <!--SR:!2025-07-02,230,345!2024-11-16,53,325-->
 
 ## tools
 
@@ -145,7 +145,7 @@ Some common tools are:
 - Ghidra ::@:: An open-source powerful decompiler and disassembler developed by the National Security Agency (NSA). <!--SR:!2024-12-14,80,343!2024-12-01,69,337-->
 - `file <file>` ::@:: Determine possible file types of `<file>`. <!--SR:!2024-12-14,80,337!2024-11-19,57,310-->
 - `strings <file>` ::@:: Print sequences of printable strings in `<file>`. To exclude tiny strings, add `-n <minimum string length>` before `<file>`. <!--SR:!2024-12-13,79,345!2024-12-09,76,345-->
-- `xxd <file>` ::@:: Make a hexdump. To reverse this process, add the `-r` option. <!--SR:!2024-12-16,82,345!2024-11-14,51,310-->
+- `xxd <file>` ::@:: Make a hexdump. To reverse this process, add the `-r` option. <!--SR:!2024-12-16,82,345!2025-06-22,220,330-->
 
 ### tools for dynamic analysis
 

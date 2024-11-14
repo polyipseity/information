@@ -254,7 +254,7 @@ The steps for naming an organic compound are:
 <!--pytextgen generate section="19fc21"--><!-- The following content is generated at 2024-01-04T20:17:51.994215+08:00. Any edits will be overridden! -->
 
 - suffix ends in '-e' and next suffix starts with vowel (a, e, i, o, u)::@::drop '-e' <!--SR:!2026-06-12,774,224!2029-06-07,1672,267-->
-- bond suffix is followed by prefix for type count::@::keep '-e' <!--SR:!2027-07-16,1187,250!2024-11-14,234,201-->
+- bond suffix is followed by prefix for type count::@::keep '-e' <!--SR:!2027-07-16,1187,250!2026-02-28,471,201-->
 - prefix for carbon count is followed by prefix for type count::@::add '-a' <!--SR:!2025-08-29,636,230!2025-08-27,442,210-->
 
 <!--/pytextgen-->

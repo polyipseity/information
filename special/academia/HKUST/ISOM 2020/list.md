@@ -11,7 +11,7 @@ tags:
 
 A Python list is {@{a collection of values, and you can treat it like a collective of variables}@}. <!--SR:!2024-11-17,50,294-->
 
-If you try to {@{get the type of a list using `type(list)`}@}, {@{the returned type name is either `list` or `<class 'list'>`}@}, regardless of {@{the contents contained inside the list}@}. <!--SR:!2024-11-14,49,294!2025-05-15,187,314!2024-12-05,66,314-->
+If you try to {@{get the type of a list using `type(list)`}@}, {@{the returned type name is either `list` or `<class 'list'>`}@}, regardless of {@{the contents contained inside the list}@}. <!--SR:!2025-06-02,200,314!2025-05-15,187,314!2024-12-05,66,314-->
 
 ## syntax
 

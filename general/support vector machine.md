@@ -35,7 +35,7 @@ An important consequence of the above description is that {@{the max-margin hype
 
 ## nonlinear kernels
 
-For [non-linearly separable](linear%20separability.md) data, {@{the data could be mapped into a higher-dimensional space in a non-linear way for easier separation by a hyperplane}@}. This transformed is done using {@{the [kernel trick](kernel%20method.md#mathematics%20the%20kernel%20trick)}@}. <!--SR:!2024-11-14,110,290!2025-04-15,231,330-->
+For [non-linearly separable](linear%20separability.md) data, {@{the data could be mapped into a higher-dimensional space in a non-linear way for easier separation by a hyperplane}@}. This transformed is done using {@{the [kernel trick](kernel%20method.md#mathematics%20the%20kernel%20trick)}@}. <!--SR:!2026-02-02,445,310!2025-04-15,231,330-->
 
 ## references
 

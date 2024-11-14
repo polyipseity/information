@@ -200,7 +200,7 @@ Sustainable Waste Management
 - 3Rs ::@:: (highest priority) reduce, reuse, recycle (lowest priority) <!--SR:!2025-07-02,314,330!2025-03-05,201,310-->
   - reduce ::@:: reduce the amount of solid waste generation <!--SR:!2025-03-24,235,330!2025-04-21,258,330-->
   - reuse ::@:: multiple uses of an item in its original form with or without reconditioning <!--SR:!2025-01-12,168,310!2025-01-05,161,310-->
-  - recycle ::@:: materials are collected and recovered to be used as raw material <!--SR:!2024-11-14,121,290!2025-04-17,252,330-->
+  - recycle ::@:: materials are collected and recovered to be used as raw material <!--SR:!2026-03-17,488,310!2025-04-17,252,330-->
     - recycle example ::@:: plastic bottle (PET or HDPE) -> chips -> fiber -> T-shirt or bag <!--SR:!2024-12-11,141,290!2025-03-26,235,330-->
 
 ## page 13

@@ -94,7 +94,7 @@ The content is in teaching order.
 
 - datetime: 2023-10-11T17:00:00+08:00/2023-10-11T18:50:00+08:00
 - topic: Stress Management and Mindset Shift
-- stress ::@:: mental or emotional strain or tension <!--SR:!2024-11-14,37,290!2024-12-02,46,290-->
+- stress ::@:: mental or emotional strain or tension <!--SR:!2025-04-14,151,310!2024-12-02,46,290-->
   - stress identification ::@:: nervous, sweating, tired, trembling, weak, ... <!--SR:!2025-02-17,98,290!2024-11-20,41,290-->
   - stress relieve ::@:: putting words on emotions, mindfulness, re-attribution, refocus, visualize, revalue, ... <!--SR:!2024-11-24,47,290!2024-11-24,45,290-->
 - SCARF ::@:: status, certainty, autonomy, relatedness, fairness <!--SR:!2024-11-29,52,310!2024-12-02,55,310-->
@@ -119,7 +119,7 @@ The content is in teaching order.
 - If your boss takes you and the team for lunch... ::@:: ... balance the food order with what everyone else is choosing. (But it can depend on the boss's style.) <!--SR:!2024-12-11,62,310!2024-11-26,49,310-->
 - Emails should be replied within \_ hours, and phone calls should be returned within \_ hours ::@:: as soon as possible <!--SR:!2024-12-11,62,310!2024-11-30,53,310-->
 - If you order coffee/tea and it's too hot. What should you do? ::@:: Let it cool in the cup. <!--SR:!2024-11-19,42,290!2024-12-10,61,310-->
-- After chatting with the guests in the upcoming networking practicum, you should... ::@:: Send a thank you note on the same day. <!--SR:!2024-12-10,61,310!2024-11-14,37,290-->
+- After chatting with the guests in the upcoming networking practicum, you should... ::@:: Send a thank you note on the same day. <!--SR:!2024-12-10,61,310!2025-04-09,146,310-->
   - thank-you note (after networking)
 - interview preparation ::@:: prepare questions, "stalk" (gather information) on LinkedIn <!--SR:!2024-11-21,42,290!2024-12-13,64,310-->
 - etiquettes ::@:: social etiquette, networking etiquette, dining etiquette <!--SR:!2024-12-08,59,310!2025-03-23,137,310-->
@@ -165,7 +165,7 @@ The content is in teaching order.
   - teamwork tips ::@:: strategic thinking, determined/delegation/communication, remain calm under pressure, trust, win-win cooperation with other teams <!--SR:!2024-12-20,59,250!2025-02-02,91,270-->
 - structured group discussion
 - presentation
-  - presentation tips ::@:: greeting, no need to repeat the known problem, set reasonable assumptions, T-style presentation (depth not breadth); and most importantly, rehearse!! <!--SR:!2025-03-16,124,290!2024-11-14,37,290-->
+  - presentation tips ::@:: greeting, no need to repeat the known problem, set reasonable assumptions, T-style presentation (depth not breadth); and most importantly, rehearse!! <!--SR:!2025-03-16,124,290!2025-04-13,150,310-->
 
 ## week 11 tutorial
 

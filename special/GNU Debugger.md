@@ -33,7 +33,7 @@ Command names can be {@{truncated at the end to produce an abbreviation if the a
 - `next` ::@:: go to the next (source) line <!--SR:!2025-06-07,214,330!2025-05-13,194,310-->
 - `ni` ::@:: go to the next instruction <!--SR:!2024-11-16,59,310!2024-11-22,64,310-->
 - `print <expression>` ::@:: evaluate and print an expression <!--SR:!2025-01-26,97,270!2024-12-02,69,310-->
-- `run [<args>...]` ::@:: run program (with args) <!--SR:!2024-11-14,56,310!2024-11-21,63,310-->
+- `run [<args>...]` ::@:: run program (with args) <!--SR:!2025-07-18,246,330!2024-11-21,63,310-->
 - `set <storage> = <value>` ::@:: set storage to value <!--SR:!2025-01-13,88,345!2025-01-13,88,345-->
 - `set args <args>...` ::@:: set program args <!--SR:!2024-12-05,72,310!2025-06-15,220,330-->
 - `si` ::@:: go to the next instruction stepping into functions <!--SR:!2024-11-17,60,310!2024-11-24,54,250-->

@@ -439,7 +439,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 4. are no longer forming in the Milky Way galaxy; they only formed very early in the Milky Way galaxy's history
 > 5. they are significantly less luminous after the main sequence stage is over
 >
-> - solution: {@{3}@} <!--SR:!2024-11-14,84,361-->
+> - solution: {@{3}@} <!--SR:!2025-12-28,409,381-->
 
 <!-- markdownlint MD028 -->
 
