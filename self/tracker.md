@@ -30,6 +30,7 @@ tags:
 - contacts
 - <https://apc.delve.office.com/?v=editprofile>: (redacted)
 - <https://facebook.com/(redacted)>
+- <https://hkust.zoom.us/profile>: (redacted)
 - <https://instagram.com/(redacted)>
 - <https://whatsapp.com/>: (redacted)
 
