@@ -10,7 +10,7 @@ tags:
 
 # copper(II) oxide
 
-__Copper(II) oxide__ or {{__cupric oxide__}} is {{a [chemical compound](chemical%20compound.md) with the [chemical formula](chemical%20formula.md) __[Cu](copper.md)[O](oxygen.md)__}}. It looks like {{black to brown [powder](powder.md)}}. <!--SR:!2027-03-05,973,290!2027-05-20,1088,330!2025-01-28,161,190-->
+__Copper(II) oxide__ or {@{__cupric oxide__}@} is {@{a [chemical compound](chemical%20compound.md) with the [chemical formula](chemical%20formula.md) __[Cu](copper.md)[O](oxygen.md)__}@}. It looks like {@{black to brown [powder](powder.md)}@}. <!--SR:!2027-03-05,973,290!2027-05-20,1088,330!2025-01-28,161,190-->
 
 ## references
 

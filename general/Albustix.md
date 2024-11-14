@@ -8,11 +8,11 @@ tags:
 
 # Albustix
 
-{{__Albustix__}} is {{a clinical stick to detect [proteins](protein.md)}}. If the test is positive, it changes {{from yellow to green}}. <!--SR:!2028-06-16,1455,350!2025-09-03,636,310!2025-03-24,186,170-->
+{@{__Albustix__}@} is {@{a clinical stick to detect [proteins](protein.md)}@}. If the test is positive, it changes {@{from yellow to green}@}. <!--SR:!2028-06-16,1455,350!2025-09-03,636,310!2025-03-24,186,170-->
 
 > [!tip] tips
 >
-> - color change [mnemonic](mnemonic.md) ::: your face when eating disgusting proteins: 🙂 (yellow) becomes 🤢 (green) <!--SR:!2025-02-15,166,194!2025-01-17,241,332-->
+> - color change [mnemonic](mnemonic.md) ::@:: your face when eating disgusting proteins: 🙂 (yellow) becomes 🤢 (green) <!--SR:!2025-02-15,166,194!2025-01-17,241,332-->
 
 ## see also
 

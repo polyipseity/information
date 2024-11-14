@@ -9,7 +9,7 @@ tags:
 
 # velocity
 
-__Velocity__ is {{the [speed](speed.md) in combination with the direction of [motion](motion.md) of an [object](physical%20object.md)}}. <!--SR:!2025-05-18,233,330-->
+__Velocity__ is {@{the [speed](speed.md) in combination with the direction of [motion](motion.md) of an [object](physical%20object.md)}@}. <!--SR:!2025-05-18,233,330-->
 
 ## references
 

@@ -9,7 +9,7 @@ tags:
 
 # latitude
 
-In [geography](geography.md), {{__latitude__}} is {{a [coordinate](geographic%20coordinate%20systm.md) that specifies the [north](north.md)–[south](south.md) position of a point on the surface of the [Earth](Earth.md) or another [celestial body](astronomical%20object.md)}}. Latitude is given as {{an [angle](angle.md) that ranges from −90° at the [south pole](South%20Pole.md) to 90° at the [north pole](North%20Pole.md), with 0° at the [equator](equator.md)}}. <!--SR:!2025-05-20,248,330!2024-12-15,115,290!2025-04-10,218,330-->
+In [geography](geography.md), {@{__latitude__}@} is {@{a [coordinate](geographic%20coordinate%20systm.md) that specifies the [north](north.md)–[south](south.md) position of a point on the surface of the [Earth](Earth.md) or another [celestial body](astronomical%20object.md)}@}. Latitude is given as {@{an [angle](angle.md) that ranges from −90° at the [south pole](South%20Pole.md) to 90° at the [north pole](North%20Pole.md), with 0° at the [equator](equator.md)}@}. <!--SR:!2025-05-20,248,330!2024-12-15,115,290!2025-04-10,218,330-->
 
 ## references
 

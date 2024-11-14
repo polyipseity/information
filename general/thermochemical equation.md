@@ -9,7 +9,7 @@ tags:
 
 # thermochemical equation
 
-A __thermochemical equation__ is {{a [chemical equation](chemical%20equation.md) that includes the [enthalpy](enthalpy.md) change ΔH}}. <!--SR:!2026-07-07,908,330-->
+A __thermochemical equation__ is {@{a [chemical equation](chemical%20equation.md) that includes the [enthalpy](enthalpy.md) change ΔH}@}. <!--SR:!2026-07-07,908,330-->
 
 ## references
 

@@ -9,7 +9,7 @@ tags:
 
 # periodic table
 
-The __periodic table__ is {{a table arrangement of the [chemical elements](chemical%20element.md)}}. The elements are placed in {{the order of ascending [atomic number](atomic%20number.md)}}. The rows are called {{[periods](period%20(periodic%20table).md)}} and the columns are called {{[groups](group%20(periodic%20table).md)}}. <!--SR:!2026-08-06,934,330!2026-07-25,926,330!2027-07-09,1213,350!2027-03-08,1033,330-->
+The __periodic table__ is {@{a table arrangement of the [chemical elements](chemical%20element.md)}@}. The elements are placed in {@{the order of ascending [atomic number](atomic%20number.md)}@}. The rows are called {@{[periods](period%20(periodic%20table).md)}@} and the columns are called {@{[groups](group%20(periodic%20table).md)}@}. <!--SR:!2026-08-06,934,330!2026-07-25,926,330!2027-07-09,1213,350!2027-03-08,1033,330-->
 
 ## references
 

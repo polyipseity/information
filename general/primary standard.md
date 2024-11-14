@@ -14,11 +14,11 @@ tags:
 # import ../../tools/utility.py.md
 ```
 
-A __primary standard__ is {{a [standard](standard%20(metrology).md) that is accurate enough to not need external calibrations}}. <!--SR:!2028-06-02,1405,310-->
+A __primary standard__ is {@{a [standard](standard%20(metrology).md) that is accurate enough to not need external calibrations}@}. <!--SR:!2028-06-02,1405,310-->
 
 ## chemistry
 
-A primary standard can be used {{in [titration](titration.md) and to prepare a [standard solution](standard%20solution.md)}}. It should have the following properties: <!--SR:!2028-09-26,1486,310-->
+A primary standard can be used {@{in [titration](titration.md) and to prepare a [standard solution](standard%20solution.md)}@}. It should have the following properties: <!--SR:!2028-09-26,1486,310-->
 
 ```Python
 # pytextgen generate data
@@ -52,14 +52,14 @@ return await memorize_seq(
 
 <!--pytextgen generate section="fb92"--><!-- The following content is generated at 2024-03-18T19:56:56.252984+08:00. Any edits will be overridden! -->
 
-- _(most important)_→:::←high purity <!--SR:!2026-09-20,712,290!2028-05-06,1446,350-->
-- high purity→:::←low [reactivity](reactivity%20(chemistry).md) <!--SR:!2024-12-23,328,230!2025-01-03,108,210-->
-- low [reactivity](reactivity%20(chemistry).md)→:::←low [hygroscopity](hygroscopy.md) and [efflorescence](efflorescence.md) <!--SR:!2024-12-17,92,210!2024-12-14,178,210-->
-- low [hygroscopity](hygroscopy.md) and [efflorescence](efflorescence.md)→:::←high [solubility](solubility.md) in given conditions <!--SR:!2024-12-03,49,150!2024-12-13,349,230-->
-- high [solubility](solubility.md) in given conditions→:::←high [equivalent weight](equivalent%20weight.md) <!--SR:!2024-12-05,98,170!2026-05-27,698,270-->
-- high [equivalent weight](equivalent%20weight.md)→:::←non-[toxicity](toxicity.md) <!--SR:!2024-11-16,55,150!2025-02-21,111,210-->
-- non-[toxicity](toxicity.md)→:::←ready and cheap availability <!--SR:!2025-01-01,224,230!2025-05-21,293,230-->
-- ready and cheap availability→:::←_(least important)_ <!--SR:!2028-04-22,1432,350!2024-11-14,171,270-->
+- _(most important)_→::@::←high purity <!--SR:!2026-09-20,712,290!2028-05-06,1446,350-->
+- high purity→::@::←low [reactivity](reactivity%20(chemistry).md) <!--SR:!2024-12-23,328,230!2025-01-03,108,210-->
+- low [reactivity](reactivity%20(chemistry).md)→::@::←low [hygroscopity](hygroscopy.md) and [efflorescence](efflorescence.md) <!--SR:!2024-12-17,92,210!2024-12-14,178,210-->
+- low [hygroscopity](hygroscopy.md) and [efflorescence](efflorescence.md)→::@::←high [solubility](solubility.md) in given conditions <!--SR:!2024-12-03,49,150!2024-12-13,349,230-->
+- high [solubility](solubility.md) in given conditions→::@::←high [equivalent weight](equivalent%20weight.md) <!--SR:!2024-12-05,98,170!2026-05-27,698,270-->
+- high [equivalent weight](equivalent%20weight.md)→::@::←non-[toxicity](toxicity.md) <!--SR:!2024-11-16,55,150!2025-02-21,111,210-->
+- non-[toxicity](toxicity.md)→::@::←ready and cheap availability <!--SR:!2025-01-01,224,230!2025-05-21,293,230-->
+- ready and cheap availability→::@::←_(least important)_ <!--SR:!2028-04-22,1432,350!2024-11-14,171,270-->
 
 <!--/pytextgen-->
 

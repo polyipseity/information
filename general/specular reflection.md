@@ -13,9 +13,9 @@ tags:
 
 # specular reflection
 
-__Specular reflection__, or __regular reflection__, is {{the [mirror](mirror.md)-like [reflection](reflection%20(physics).md) of [waves](wave.md), such as [light](light.md), from a [surface](surface.md)}}. <!--SR:!2025-05-29,219,310-->
+__Specular reflection__, or __regular reflection__, is {@{the [mirror](mirror.md)-like [reflection](reflection%20(physics).md) of [waves](wave.md), such as [light](light.md), from a [surface](surface.md)}@}. <!--SR:!2025-05-29,219,310-->
 
-The __law of reflection__ states that {{a reflected [ray](ray%20(optics).md) of light emerges from the reflecting surface at the same [angle](angle.md) to the [surface normal](normal%20(geometry).md) as the incident ray, but on the opposing side of the surface normal in the plane formed by the incident and reflected rays}}. <!--SR:!2025-01-06,112,290-->
+The __law of reflection__ states that {@{a reflected [ray](ray%20(optics).md) of light emerges from the reflecting surface at the same [angle](angle.md) to the [surface normal](normal%20(geometry).md) as the incident ray, but on the opposing side of the surface normal in the plane formed by the incident and reflected rays}@}. <!--SR:!2025-01-06,112,290-->
 
 ## references
 

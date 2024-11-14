@@ -9,7 +9,7 @@ tags:
 
 # `rand`
 
-- _defined in {{[`<stdlib.h>`](../../../../general/C%20standard%20library.md)}}_ <!--SR:!2026-09-26,857,330-->
+- _defined in {@{[`<stdlib.h>`](../../../../general/C%20standard%20library.md)}@}_ <!--SR:!2026-09-26,857,330-->
 
 ```C
 int rand();
@@ -17,4 +17,4 @@ int rand();
 
 > [!tip] tips
 >
-> - remember ::: set the seed using [`srand`](srand.md) before calling `rand` <!--SR:!2026-02-24,624,336!2025-05-19,334,344-->
+> - remember ::@:: set the seed using [`srand`](srand.md) before calling `rand` <!--SR:!2026-02-24,624,336!2025-05-19,334,344-->

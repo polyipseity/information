@@ -16,9 +16,9 @@ tags:
 # import ../../tools/utility.py.md
 ```
 
-A __calorimeter__ is {{an object used for [calorimetry](calorimetry.md)}}. It can be used to {{measure the [heat](heat.md) of [physical changes](physical%20change.md) or [chemical reactions](chemical%20reaction.md)}}. <!--SR:!2028-07-25,1512,350!2025-07-16,573,310-->
+A __calorimeter__ is {@{an object used for [calorimetry](calorimetry.md)}@}. It can be used to {@{measure the [heat](heat.md) of [physical changes](physical%20change.md) or [chemical reactions](chemical%20reaction.md)}@}. <!--SR:!2028-07-25,1512,350!2025-07-16,573,310-->
 
-A simple calorimeter consists of {{a [thermometer](thermometer.md) attached to a [metal](metal.md) container filled with [water](water.md) above a [combustion](combustion.md) chamber}}. For more accurate measurements, {{a bomb calorimeter can be used}}. <!--SR:!2026-11-23,844,270!2028-07-20,1509,350-->
+A simple calorimeter consists of {@{a [thermometer](thermometer.md) attached to a [metal](metal.md) container filled with [water](water.md) above a [combustion](combustion.md) chamber}@}. For more accurate measurements, {@{a bomb calorimeter can be used}@}. <!--SR:!2026-11-23,844,270!2028-07-20,1509,350-->
 
 ## errors
 
@@ -48,11 +48,11 @@ return await memorize_seq(
 
 <!--pytextgen generate section="2845"--><!-- The following content is generated at 2024-01-04T20:17:51.455468+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←conditions are not standard conditions <!--SR:!2025-06-26,254,210!2028-07-19,1507,350-->
-- conditions are not standard conditions→:::←heat capacities of equipment are not accounted for <!--SR:!2025-01-29,146,210!2025-07-23,399,230-->
-- heat capacities of equipment are not accounted for→:::←heat loss to the surroundings <!--SR:!2027-06-10,1100,330!2025-11-08,650,310-->
-- heat loss to the surroundings→:::←reaction is incomplete <!--SR:!2027-05-27,1090,330!2027-06-30,1116,330-->
-- reaction is incomplete→:::←_(end)_ <!--SR:!2028-07-10,1501,350!2024-12-16,81,190-->
+- _(begin)_→::@::←conditions are not standard conditions <!--SR:!2025-06-26,254,210!2028-07-19,1507,350-->
+- conditions are not standard conditions→::@::←heat capacities of equipment are not accounted for <!--SR:!2025-01-29,146,210!2025-07-23,399,230-->
+- heat capacities of equipment are not accounted for→::@::←heat loss to the surroundings <!--SR:!2027-06-10,1100,330!2025-11-08,650,310-->
+- heat loss to the surroundings→::@::←reaction is incomplete <!--SR:!2027-05-27,1090,330!2027-06-30,1116,330-->
+- reaction is incomplete→::@::←_(end)_ <!--SR:!2028-07-10,1501,350!2024-12-16,81,190-->
 
 <!--/pytextgen-->
 

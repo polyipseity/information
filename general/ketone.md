@@ -18,25 +18,25 @@ tags:
 
 ### boiling and melting points
 
-Due to increased [polarizability](polarizability.md), ketones have {{[boiling points](boiling%20point.md) and [melting points](melting%20point.md) in between comparable [alkanes](alkane.md) and [alcohols](alcohol.md)}}. <!--SR:!2025-06-04,320,270-->
+Due to increased [polarizability](polarizability.md), ketones have {@{[boiling points](boiling%20point.md) and [melting points](melting%20point.md) in between comparable [alkanes](alkane.md) and [alcohols](alcohol.md)}@}. <!--SR:!2025-06-04,320,270-->
 
 ### density
 
-Most ketones are {{less [dense](density.md) than [water](water.md)}}. Density {{increases}} with increasing size. <!--SR:!2027-07-26,1145,290!2028-05-07,1448,350-->
+Most ketones are {@{less [dense](density.md) than [water](water.md)}@}. Density {@{increases}@} with increasing size. <!--SR:!2027-07-26,1145,290!2028-05-07,1448,350-->
 
 ### odor
 
-Most ketones have {{a pleasant and sweet smell}}. <!--SR:!2025-03-01,512,310-->
+Most ketones have {@{a pleasant and sweet smell}@}. <!--SR:!2025-03-01,512,310-->
 
 ### solubility
 
-Ketones {{that are small are [soluble](solubility.md) in [water](water.md)}}. Solubility {{decreases}} the larger the ketone. <!--SR:!2027-05-15,1080,330!2028-04-29,1441,350-->
+Ketones {@{that are small are [soluble](solubility.md) in [water](water.md)}@}. Solubility {@{decreases}@} the larger the ketone. <!--SR:!2027-05-15,1080,330!2028-04-29,1441,350-->
 
 ## chemical properties
 
 ### reduction
 
-Ketones {{can be reduced to secondary [alcohols](alcohol.md) using [aqueous](aqueous%20solution.md) [sodium borohydride](sodium%20borohydride.md), or [lithium aluminium hydride](lithium%20aluminium%20hydride.md) in dry [diethyl ether](diethyl%20ether.md) and then add dilute [acid](acid.md)}}. <!--SR:!2025-04-04,497,299-->
+Ketones {@{can be reduced to secondary [alcohols](alcohol.md) using [aqueous](aqueous%20solution.md) [sodium borohydride](sodium%20borohydride.md), or [lithium aluminium hydride](lithium%20aluminium%20hydride.md) in dry [diethyl ether](diethyl%20ether.md) and then add dilute [acid](acid.md)}@}. <!--SR:!2025-04-04,497,299-->
 
 ### reactions
 
@@ -58,8 +58,8 @@ return await memorize_seq(
 
 <!--pytextgen generate section="249a"--><!-- The following content is generated at 2024-01-04T20:17:51.957664+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←[reduction](#reduction) <!--SR:!2025-01-13,436,299!2027-08-31,1162,339-->
-- [reduction](#reduction)→:::←_(end)_ <!--SR:!2027-10-23,1202,339!2027-11-19,1223,339-->
+- _(begin)_→::@::←[reduction](#reduction) <!--SR:!2025-01-13,436,299!2027-08-31,1162,339-->
+- [reduction](#reduction)→::@::←_(end)_ <!--SR:!2027-10-23,1202,339!2027-11-19,1223,339-->
 
 <!--/pytextgen-->
 

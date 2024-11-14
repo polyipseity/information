@@ -18,7 +18,7 @@ tags:
 
 #### Planck time
 
-{{The Planck time t<sub>P</sub>}} is {{the [time](time.md) required for [light](light.md) to travel a distance of 1 Planck length in [vacuum](vacuum.md)}}, which is a time interval of {{approximately 5.39×10<sup>−44</sup> [s](second.md)}}. {{No current physical theory can describe timescales}} shorter than the Planck time, such as {{the earliest events after the Big Bang}}. Some conjectures state that {{the structure of time need not remain smooth on intervals comparable to the Planck time}}. <!--SR:!2025-07-24,261,330!2025-03-29,163,310!2024-11-27,20,190!2025-08-02,268,330!2024-11-14,66,310!2025-03-29,165,310-->
+{@{The Planck time t<sub>P</sub>}@} is {@{the [time](time.md) required for [light](light.md) to travel a distance of 1 Planck length in [vacuum](vacuum.md)}@}, which is a time interval of {@{approximately 5.39×10<sup>−44</sup> [s](second.md)}@}. {@{No current physical theory can describe timescales}@} shorter than the Planck time, such as {@{the earliest events after the Big Bang}@}. Some conjectures state that {@{the structure of time need not remain smooth on intervals comparable to the Planck time}@}. <!--SR:!2025-07-24,261,330!2025-03-29,163,310!2024-11-27,20,190!2025-08-02,268,330!2024-11-14,66,310!2025-03-29,165,310-->
 
 ## references
 

@@ -9,36 +9,36 @@ tags:
 
 # signal tools
 
-We introduced {{3 signal tools: [Audacity](#Audacity), [SonicVisualiser](#SonicVisualiser), and [sms-tools](#sms-tools)}}. <!--SR:!2025-07-10,256,330-->
+We introduced {@{3 signal tools: [Audacity](#Audacity), [SonicVisualiser](#SonicVisualiser), and [sms-tools](#sms-tools)}@}. <!--SR:!2025-07-10,256,330-->
 
 ## Audacity
 
-Audacity is {{an audio editor}}. It can be downloaded from {{<https://audacityteam.org/>}} <!--SR:!2025-08-22,292,330!2025-08-10,283,330-->
+Audacity is {@{an audio editor}@}. It can be downloaded from {@{<https://audacityteam.org/>}@} <!--SR:!2025-08-22,292,330!2025-08-10,283,330-->
 
 ### analysis (Audacity)
 
-Audacity can show {{the spectrogram of a signal}}. <!--SR:!2025-09-15,310,349-->
+Audacity can show {@{the spectrogram of a signal}@}. <!--SR:!2025-09-15,310,349-->
 
 ### generating periodic signals
 
-Audacity can generate {{real sine signals of any frequency and amplitude}}. The signals can also be {{non-sinusoidal, such as _sawtooth_-shaped and _triangle_-shaped}}, which have {{more complex frequency components}}. It can even generate signals that {{increases in frequency over time (increasing pitch)}}, called {{_chirp_}}. <!--SR:!2025-06-18,224,338!2025-05-06,196,338!2025-07-05,238,338!2025-05-30,210,338!2025-06-21,230,338-->
+Audacity can generate {@{real sine signals of any frequency and amplitude}@}. The signals can also be {@{non-sinusoidal, such as _sawtooth_-shaped and _triangle_-shaped}@}, which have {@{more complex frequency components}@}. It can even generate signals that {@{increases in frequency over time (increasing pitch)}@}, called {@{_chirp_}@}. <!--SR:!2025-06-18,224,338!2025-05-06,196,338!2025-07-05,238,338!2025-05-30,210,338!2025-06-21,230,338-->
 
 ## SonicVisualiser
 
-SonicVisualiser is {{an audio visualization, analysis, and annotation tool}}. It can be downloaded from {{<https://sonicvisualiser.org/>}}. <!--SR:!2025-06-14,236,330!2025-07-10,256,330-->
+SonicVisualiser is {@{an audio visualization, analysis, and annotation tool}@}. It can be downloaded from {@{<https://sonicvisualiser.org/>}@}. <!--SR:!2025-06-14,236,330!2025-07-10,256,330-->
 
 ### applying DFT on complicated sounds
 
-SonicVisualiser can {{apply DFT on complicated sounds and produce a magnitude spectrum of its frequencies}}. <!--SR:!2025-06-14,224,338-->
+SonicVisualiser can {@{apply DFT on complicated sounds and produce a magnitude spectrum of its frequencies}@}. <!--SR:!2025-06-14,224,338-->
 
 ## sms-tools
 
-`sms-tools` is {{an audio analysis and synthesis tool, written in Python (and some C)}}. The installation and usage instructions are on {{<https://github.com/MTG/sms-tools>}}. <!--SR:!2025-07-09,256,330!2025-09-11,307,330-->
+`sms-tools` is {@{an audio analysis and synthesis tool, written in Python (and some C)}@}. The installation and usage instructions are on {@{<https://github.com/MTG/sms-tools>}@}. <!--SR:!2025-07-09,256,330!2025-09-11,307,330-->
 
 ### analysis (sms-tools)
 
-`sms-tools` can show {{the spectrum magnitude and phase of a signal}}. <!--SR:!2025-10-02,324,349-->
+`sms-tools` can show {@{the spectrum magnitude and phase of a signal}@}. <!--SR:!2025-10-02,324,349-->
 
 ## Freesound
 
-Freesound is {{a repository of free and open (Creative Commons) sounds}}. Its website is {{<https://freesound.org/>}}. <!--SR:!2025-10-05,327,349!2025-10-07,328,349-->
+Freesound is {@{a repository of free and open (Creative Commons) sounds}@}. Its website is {@{<https://freesound.org/>}@}. <!--SR:!2025-10-05,327,349!2025-10-07,328,349-->

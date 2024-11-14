@@ -12,13 +12,13 @@ tags:
 
 ### equilibrium equations
 
-For a {{2-dimensional body}}, there are {{3}} equilibrium equations available: {{$\sum F_x = 0$, $\sum F_y = 0$, and $\sum M_{\text{any point} } = 0$}}. This means {{at most 3 unknown forces of a 2-dimensional system can be solved}}, assuming {{there are no other constraining equations}}. This can be extrapolated {{to lower or higher dimensions}}. <!--SR:!2025-05-26,285,330!2025-03-19,233,330!2025-02-22,214,330!2024-12-15,154,310!2025-03-07,205,310!2025-03-10,226,330-->
+For a {@{2-dimensional body}@}, there are {@{3}@} equilibrium equations available: {@{$\sum F_x = 0$, $\sum F_y = 0$, and $\sum M_{\text{any point} } = 0$}@}. This means {@{at most 3 unknown forces of a 2-dimensional system can be solved}@}, assuming {@{there are no other constraining equations}@}. This can be extrapolated {@{to lower or higher dimensions}@}. <!--SR:!2025-05-26,285,330!2025-03-19,233,330!2025-02-22,214,330!2024-12-15,154,310!2025-03-07,205,310!2025-03-10,226,330-->
 
 ### statically indeterminate system
 
 - [statically indeterminate](statically%20indeterminate.md)
 
-Sometimes there are {{not enough information to determine the internal forces and [reactions](reaction%20(physics).md) of a system in equilibrium}}. Such a system is {{[statically indeterminate](statically%20indeterminate.md)}}. <!--SR:!2024-12-27,164,310!2024-12-29,168,310-->
+Sometimes there are {@{not enough information to determine the internal forces and [reactions](reaction%20(physics).md) of a system in equilibrium}@}. Such a system is {@{[statically indeterminate](statically%20indeterminate.md)}@}. <!--SR:!2024-12-27,164,310!2024-12-29,168,310-->
 
 ## references
 

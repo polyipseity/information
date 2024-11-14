@@ -16,8 +16,8 @@ Evaluate $$\int \! \left( 5x^2 - 5 \right)^{\frac 3 2} \, \mathrm{d}x$$.
 
 ## strategy
 
-- inspecting "$$\int \! \left( 5x^2 - 5 \right)^{\frac 3 2} \, \mathrm{d}x$$" :: Consider that $\lvert x \rvert \ge 1$ (otherwise $*^{\frac 3 2}$ is undefined) and $\sec^2 \theta - 1 = \tan^2 \theta$. Substitute $x = \sec \theta \quad \theta \in \left[0, \frac \pi 2 \right) \cup \left(-\frac \pi 2, \pi \right]$. <!--SR:!2024-11-24,12,190-->
-- logarithm simplification tricks :: First, $\ln(a(x + y)) + C = \ln a + \ln(x + y) + C$, of which $\ln a$ can be absorbed into $C$ to become $\ln(x + y) + C$. Second, $\ln \left\lvert a + \sqrt{a^2 \pm 1} \right\rvert = -\ln \left\lvert a - \sqrt{a^2 \pm 1} \right\rvert$. <!--SR:!2025-08-10,287,290-->
+- inspecting "$$\int \! \left( 5x^2 - 5 \right)^{\frac 3 2} \, \mathrm{d}x$$" :@: Consider that $\lvert x \rvert \ge 1$ (otherwise $*^{\frac 3 2}$ is undefined) and $\sec^2 \theta - 1 = \tan^2 \theta$. Substitute $x = \sec \theta \quad \theta \in \left[0, \frac \pi 2 \right) \cup \left(-\frac \pi 2, \pi \right]$. <!--SR:!2024-11-24,12,190-->
+- logarithm simplification tricks :@: First, $\ln(a(x + y)) + C = \ln a + \ln(x + y) + C$, of which $\ln a$ can be absorbed into $C$ to become $\ln(x + y) + C$. Second, $\ln \left\lvert a + \sqrt{a^2 \pm 1} \right\rvert = -\ln \left\lvert a - \sqrt{a^2 \pm 1} \right\rvert$. <!--SR:!2025-08-10,287,290-->
 
 ## solution
 

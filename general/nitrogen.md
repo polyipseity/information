@@ -40,18 +40,18 @@ return await memorize_table(
 
 > | name | description |
 > |-|-|
-> | {{food packaging}} | {{To prevent [food spoilage](food%20spoilage.md).}} |
-> | {{making [ammonia](ammonia.md)}} |  |
-> | {{[refrigerant](refrigerant.md)}} |  | <!--SR:!2026-05-14,870,330!2028-03-15,1408,350!2025-12-31,767,330!2025-02-11,494,290-->
+> | {@{food packaging}@} | {@{To prevent [food spoilage](food%20spoilage.md).}@} |
+> | {@{making [ammonia](ammonia.md)}@} |  |
+> | {@{[refrigerant](refrigerant.md)}@} |  | <!--SR:!2026-05-14,870,330!2028-03-15,1408,350!2025-12-31,767,330!2025-02-11,494,290-->
 
 <!--/pytextgen-->
 
 <!--pytextgen generate section="232ba1"--><!-- The following content is generated at 2024-01-04T20:17:52.345867+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←food packaging <!--SR:!2025-07-13,318,270!2026-10-02,915,330-->
-- food packaging→:::←making [ammonia](ammonia.md) <!--SR:!2025-03-27,504,310!2025-11-11,439,310-->
-- making [ammonia](ammonia.md)→:::←[refrigerant](refrigerant.md) <!--SR:!2025-05-05,549,290!2026-02-02,686,290-->
-- [refrigerant](refrigerant.md)→:::←_(end)_ <!--SR:!2026-02-14,751,330!2026-04-06,693,270-->
+- _(begin)_→::@::←food packaging <!--SR:!2025-07-13,318,270!2026-10-02,915,330-->
+- food packaging→::@::←making [ammonia](ammonia.md) <!--SR:!2025-03-27,504,310!2025-11-11,439,310-->
+- making [ammonia](ammonia.md)→::@::←[refrigerant](refrigerant.md) <!--SR:!2025-05-05,549,290!2026-02-02,686,290-->
+- [refrigerant](refrigerant.md)→::@::←_(end)_ <!--SR:!2026-02-14,751,330!2026-04-06,693,270-->
 
 <!--/pytextgen-->
 

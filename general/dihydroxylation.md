@@ -8,7 +8,7 @@ tags:
 
 # dihydroxylation
 
-__Dihydroxylation__ is {{the process of converting an [alkene](alkene.md) into a [vicinal](vicinal%20(chemistry).md) [diol](diol.md)}}. {{[Alkaline](alkali.md) [potassium permanganate](potassium%20permanganate.md), which is cold and dilute to prevent overoxidation}}, can be used. <!--SR:!2024-12-03,401,270!2025-10-23,535,230-->
+__Dihydroxylation__ is {@{the process of converting an [alkene](alkene.md) into a [vicinal](vicinal%20(chemistry).md) [diol](diol.md)}@}. {@{[Alkaline](alkali.md) [potassium permanganate](potassium%20permanganate.md), which is cold and dilute to prevent overoxidation}@}, can be used. <!--SR:!2024-12-03,401,270!2025-10-23,535,230-->
 
 ## references
 

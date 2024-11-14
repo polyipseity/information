@@ -13,9 +13,9 @@ tags:
 
 # inertial frame of reference
 
-In {{[classical physics](classical%20phyics.md) and [special relativity](special%20relativity.md)}}, an __inertial frame of reference__ (also called __inertial space__, or __Galilean reference frame__) is {{a [frame of reference](frame%20of%20reference.md) in which the laws of nature take on a particularly simple form}}. <!--SR:!2025-07-16,274,330!2025-04-18,192,310-->
+In {@{[classical physics](classical%20phyics.md) and [special relativity](special%20relativity.md)}@}, an __inertial frame of reference__ (also called __inertial space__, or __Galilean reference frame__) is {@{a [frame of reference](frame%20of%20reference.md) in which the laws of nature take on a particularly simple form}@}. <!--SR:!2025-07-16,274,330!2025-04-18,192,310-->
 
-All frames of reference with {{zero [acceleration](acceleration.md) are in a state of constant [rectilinear motion](linear%20motion.md) (straight line motion) with respect to one another}}. In such a frame, an object with {{zero [net force](net%20force.md) acting on it}} is {{perceived to move with a constant [velocity](velocity.md), or, equivalently, [Newton's first law of motion](Newton's%20laws%20of%20motion.md#first%20law) holds}}. Those are why {{the frames are called _inertial_}}. <!--SR:!2025-03-12,166,310!2025-08-09,298,330!2025-03-08,175,310!2025-05-21,235,330-->
+All frames of reference with {@{zero [acceleration](acceleration.md) are in a state of constant [rectilinear motion](linear%20motion.md) (straight line motion) with respect to one another}@}. In such a frame, an object with {@{zero [net force](net%20force.md) acting on it}@} is {@{perceived to move with a constant [velocity](velocity.md), or, equivalently, [Newton's first law of motion](Newton's%20laws%20of%20motion.md#first%20law) holds}@}. Those are why {@{the frames are called _inertial_}@}. <!--SR:!2025-03-12,166,310!2025-08-09,298,330!2025-03-08,175,310!2025-05-21,235,330-->
 
 ## references
 

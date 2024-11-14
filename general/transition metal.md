@@ -16,7 +16,7 @@ tags:
 # import ../../tools/utility.py.md
 ```
 
-A __transition metal__ is {{a [chemical element](chemical%20element.md) in the d-block of the [periodic table](periodic%20table.md) (groups 3 to 12). Sometimes [group 12](group%2012%20element.md) and more rarely [group 3](group%203%20element.md) are excluded}}. <!--SR:!2025-04-05,381,230-->
+A __transition metal__ is {@{a [chemical element](chemical%20element.md) in the d-block of the [periodic table](periodic%20table.md) (groups 3 to 12). Sometimes [group 12](group%2012%20element.md) and more rarely [group 3](group%203%20element.md) are excluded}@}. <!--SR:!2025-04-05,381,230-->
 
 ## characteristic properties
 
@@ -38,18 +38,18 @@ return await memorize_table(
 
 > | property | description |
 > |-|-|
-> | {{[catalytic](catalysis.md) properties}} | {{Transition metals and their [compounds](chemical%20compound.md) are used as [catalysts](catalysis.md).}} |
-> | {{colored [ions](ion.md)}} | {{Most transition metals ions are colored.}} |
-> | {{variable [oxidation states](oxidation%20state.md)}} | {{Most transition metals can exist in multiple [oxidation states](oxidation%20state.md).}} | <!--SR:!2027-09-21,1264,350!2027-04-19,991,290!2027-03-20,1118,350!2025-08-30,652,310!2027-10-08,1278,350!2025-03-31,542,310-->
+> | {@{[catalytic](catalysis.md) properties}@} | {@{Transition metals and their [compounds](chemical%20compound.md) are used as [catalysts](catalysis.md).}@} |
+> | {@{colored [ions](ion.md)}@} | {@{Most transition metals ions are colored.}@} |
+> | {@{variable [oxidation states](oxidation%20state.md)}@} | {@{Most transition metals can exist in multiple [oxidation states](oxidation%20state.md).}@} | <!--SR:!2027-09-21,1264,350!2027-04-19,991,290!2027-03-20,1118,350!2025-08-30,652,310!2027-10-08,1278,350!2025-03-31,542,310-->
 
 <!--/pytextgen-->
 
 <!--pytextgen generate section="dafb"--><!-- The following content is generated at 2024-01-04T20:17:52.737603+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←[catalytic](catalysis.md) properties <!--SR:!2027-05-04,1155,350!2027-04-28,1150,350-->
-- [catalytic](catalysis.md) properties→:::←colored [ions](ion.md) <!--SR:!2027-09-12,1164,330!2026-05-08,804,330-->
-- colored [ions](ion.md)→:::←variable [oxidation states](oxidation%20state.md) <!--SR:!2027-03-15,1114,350!2028-11-21,1601,350-->
-- variable [oxidation states](oxidation%20state.md)→:::←_(end)_ <!--SR:!2028-12-03,1610,350!2027-10-03,1273,350-->
+- _(begin)_→::@::←[catalytic](catalysis.md) properties <!--SR:!2027-05-04,1155,350!2027-04-28,1150,350-->
+- [catalytic](catalysis.md) properties→::@::←colored [ions](ion.md) <!--SR:!2027-09-12,1164,330!2026-05-08,804,330-->
+- colored [ions](ion.md)→::@::←variable [oxidation states](oxidation%20state.md) <!--SR:!2027-03-15,1114,350!2028-11-21,1601,350-->
+- variable [oxidation states](oxidation%20state.md)→::@::←_(end)_ <!--SR:!2028-12-03,1610,350!2027-10-03,1273,350-->
 
 <!--/pytextgen-->
 

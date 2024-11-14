@@ -9,30 +9,30 @@ tags:
 
 # catalytic converter
 
-__Catalytic converter__ is a {{device that converts toxic pollutants into less-toxic pollutants}} {{by catalyzing [reduction](reduction.md) and [oxidation](oxidation.md)}}. {{[Platinum](platinum.md) or [rhodium](rhodium.md)}} can be used as the [catalyst](catalysis.md). <!--SR:!2027-11-16,1270,277!2025-11-28,777,277!2025-12-01,553,231-->
+__Catalytic converter__ is a {@{device that converts toxic pollutants into less-toxic pollutants}@} {@{by catalyzing [reduction](reduction.md) and [oxidation](oxidation.md)}@}. {@{[Platinum](platinum.md) or [rhodium](rhodium.md)}@} can be used as the [catalyst](catalysis.md). <!--SR:!2027-11-16,1270,277!2025-11-28,777,277!2025-12-01,553,231-->
 
 ## reactions
 
 ### reduction
 
-{{Nitrogen oxides}} are reduced to {{nitrogen}}. <!--SR:!2027-10-08,1375,270!2025-06-02,790,270-->
+{@{Nitrogen oxides}@} are reduced to {@{nitrogen}@}. <!--SR:!2027-10-08,1375,270!2025-06-02,790,270-->
 
 > __reduction in catalytic converter__
 >
-> - {{C + 2NO<sub>2</sub> → CO<sub>2</sub> + 2NO}}
-> - {{CO + NO → CO<sub>2</sub> + $\frac{1}{2}$N<sub>2</sub>}}
-> - {{2CO + NO<sub>2</sub> → 2CO<sub>2</sub> + $\frac{1}{2}$N<sub>2</sub>}}
-> - {{H<sub>2</sub> + NO → H<sub>2</sub>O + $\frac{1}{2}$N<sub>2</sub>}} <!--SR:!2025-11-12,463,190!2026-02-13,854,250!2026-10-25,755,210!2024-12-29,82,130-->
+> - {@{C + 2NO<sub>2</sub> → CO<sub>2</sub> + 2NO}@}
+> - {@{CO + NO → CO<sub>2</sub> + $\frac{1}{2}$N<sub>2</sub>}@}
+> - {@{2CO + NO<sub>2</sub> → 2CO<sub>2</sub> + $\frac{1}{2}$N<sub>2</sub>}@}
+> - {@{H<sub>2</sub> + NO → H<sub>2</sub>O + $\frac{1}{2}$N<sub>2</sub>}@} <!--SR:!2025-11-12,463,190!2026-02-13,854,250!2026-10-25,755,210!2024-12-29,82,130-->
 
 ### oxidation
 
-{{Carbon, hydrocarbons, and carbon monoxide}} are oxidized to {{[carbon dioxide](carbon%20dioxide.md)}}. <!--SR:!2026-06-09,1086,290!2024-11-19,665,310-->
+{@{Carbon, hydrocarbons, and carbon monoxide}@} are oxidized to {@{[carbon dioxide](carbon%20dioxide.md)}@}. <!--SR:!2026-06-09,1086,290!2024-11-19,665,310-->
 
 > __oxidation in catalytic converter__
 >
-> - {{C + O<sub>2</sub> → CO<sub>2</sub>}}
-> - {{CO + $\frac{1}{2}$O<sub>2</sub> → CO<sub>2</sub>}}
-> - {{$a$ C$_x$H$_y$ + $b$ O<sub>2</sub> → $c$ CO<sub>2</sub> + $d$ H<sub>2</sub>O}} where $a,b,c,d,x,y\in\mathbb{Z}$ <!--SR:!2025-05-29,732,270!2025-01-04,536,310!2026-09-28,1088,253-->
+> - {@{C + O<sub>2</sub> → CO<sub>2</sub>}@}
+> - {@{CO + $\frac{1}{2}$O<sub>2</sub> → CO<sub>2</sub>}@}
+> - {@{$a$ C$_x$H$_y$ + $b$ O<sub>2</sub> → $c$ CO<sub>2</sub> + $d$ H<sub>2</sub>O}@} where $a,b,c,d,x,y\in\mathbb{Z}$ <!--SR:!2025-05-29,732,270!2025-01-04,536,310!2026-09-28,1088,253-->
 
 ## references
 

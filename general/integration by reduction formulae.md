@@ -10,7 +10,7 @@ tags:
 
 # integration by reduction formulae
 
-In [integral](integral.md) calculus, __integration by reduction formulae__ is {{a method relying on [recurrence relations](recurrence%20relations.md)}}. <!--SR:!2025-04-29,224,330-->
+In [integral](integral.md) calculus, __integration by reduction formulae__ is {@{a method relying on [recurrence relations](recurrence%20relations.md)}@}. <!--SR:!2025-04-29,224,330-->
 
 ## references
 

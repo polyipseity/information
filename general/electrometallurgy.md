@@ -29,14 +29,14 @@ return await memorize_table(
 
 > | name | description |
 > |-|-|
-> | {{[electrolysis](electrolysis.md)}} |  | <!--SR:!2027-03-09,1032,330-->
+> | {@{[electrolysis](electrolysis.md)}@} |  | <!--SR:!2027-03-09,1032,330-->
 
 <!--/pytextgen-->
 
 <!--pytextgen generate section="a3958e"--><!-- The following content is generated at 2024-01-04T20:17:51.667097+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←[electrolysis](electrolysis.md) <!--SR:!2025-10-10,647,310!2028-04-08,1428,350-->
-- [electrolysis](electrolysis.md)→:::←_(end)_ <!--SR:!2028-08-29,1541,350!2027-07-09,1123,330-->
+- _(begin)_→::@::←[electrolysis](electrolysis.md) <!--SR:!2025-10-10,647,310!2028-04-08,1428,350-->
+- [electrolysis](electrolysis.md)→::@::←_(end)_ <!--SR:!2028-08-29,1541,350!2027-07-09,1123,330-->
 
 <!--/pytextgen-->
 

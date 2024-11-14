@@ -9,7 +9,7 @@ tags:
 
 # nuclear fusion
 
-__Nuclear fusion__ is {{a [reaction](nuclear%20reaction.md) in which two or more [atomic nuclei](atomic%20nucleus.md), usually [deuterium](deuterium.md) and [tritium](tritium.md) (hydrogen [isotopes](isotope.md)), combine to form one or more different atomic nuclei and [subatomic particles](subatomic%20particle.md) ([neutrons](neutron.md) or [protons](proton.md))}}. <!--SR:!2025-02-09,148,310-->
+__Nuclear fusion__ is {@{a [reaction](nuclear%20reaction.md) in which two or more [atomic nuclei](atomic%20nucleus.md), usually [deuterium](deuterium.md) and [tritium](tritium.md) (hydrogen [isotopes](isotope.md)), combine to form one or more different atomic nuclei and [subatomic particles](subatomic%20particle.md) ([neutrons](neutron.md) or [protons](proton.md))}@}. <!--SR:!2025-02-09,148,310-->
 
 ## references
 

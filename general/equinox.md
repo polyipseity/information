@@ -9,7 +9,7 @@ tags:
 
 # equinox
 
-A __equinox__ is {{the time when the [Sun](Sun.md) crosses the [Earth](Earth.md)'s [equator](equator.md), that is, it appears on the [celestial equator](celestial%20equator.md) on the [celestial sphere](celestial%20sphere.md)}}. On this day, the Sun appears to {{rise "due east exactly" and set "due west exactly"}}. This occurs {{twice each year, around March 19–21 ([March equinox](March%20equinox.md)) and September 21–24 ([September equinox](September%20equinox.md))}}. <!--SR:!2024-11-20,94,290!2025-05-31,255,330!2024-11-25,87,250-->
+A __equinox__ is {@{the time when the [Sun](Sun.md) crosses the [Earth](Earth.md)'s [equator](equator.md), that is, it appears on the [celestial equator](celestial%20equator.md) on the [celestial sphere](celestial%20sphere.md)}@}. On this day, the Sun appears to {@{rise "due east exactly" and set "due west exactly"}@}. This occurs {@{twice each year, around March 19–21 ([March equinox](March%20equinox.md)) and September 21–24 ([September equinox](September%20equinox.md))}@}. <!--SR:!2024-11-20,94,290!2025-05-31,255,330!2024-11-25,87,250-->
 
 ## references
 

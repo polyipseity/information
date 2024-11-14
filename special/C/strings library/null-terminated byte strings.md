@@ -12,6 +12,6 @@ tags:
 
 ### string manipulation
 
-- _defined in {{[`<string.h>`](../../../general/C%20string%20handling.md)}}_
+- _defined in {@{[`<string.h>`](../../../general/C%20string%20handling.md)}@}_
 - [`strcat`](null-terminated%20byte%20strings/strcat.md)
 - [`strcpy`](null-terminated%20byte%20strings/strcpy.md) <!--SR:!2026-06-01,763,330-->

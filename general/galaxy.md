@@ -9,7 +9,7 @@ tags:
 
 # galaxy
 
-A __galaxy__ is {{a system of [stars](star.md), [stellar remnants](compact%20object.md), [interstellar gas](interstellar%20medium.md), [dust](cosmic%20dust.md), and [dark matter](dark%20matter.md) bound together by [gravity](gravity.md)}}. <!--SR:!2025-03-30,194,310-->
+A __galaxy__ is {@{a system of [stars](star.md), [stellar remnants](compact%20object.md), [interstellar gas](interstellar%20medium.md), [dust](cosmic%20dust.md), and [dark matter](dark%20matter.md) bound together by [gravity](gravity.md)}@}. <!--SR:!2025-03-30,194,310-->
 
 ## references
 

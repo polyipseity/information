@@ -13,10 +13,10 @@ tags:
 
 > __power__
 >
-> {{$$P = \frac{\mathrm{d}W}{\mathrm{d}t}$$}}
+> {@{$$P = \frac{\mathrm{d}W}{\mathrm{d}t}$$}@}
 >
 > - where
->   - {{$P$ is __power__, $W$ is [work](work%20(physics).md), and $t$ is [time](time.h)}} <!--SR:!2027-08-01,1027,350!2024-11-26,265,330-->
+>   - {@{$P$ is __power__, $W$ is [work](work%20(physics).md), and $t$ is [time](time.h)}@} <!--SR:!2027-08-01,1027,350!2024-11-26,265,330-->
 
 ## references
 

@@ -12,7 +12,7 @@ tags:
 
 # aluminium oxide
 
-__Aluminium oxide__ or {{__aluminium(III) oxide__}} is {{a [chemical compound](chemical%20compound.md) with the [chemical formula](chemical%20formula.md) __[Al](aluminium.md)<sub>2</sub>[O](oxygen.md)__<sub>3</sub>}}. It looks like {{white [solid](solid.md)}}. <!--SR:!2026-07-25,874,330!2027-03-05,1035,330!2025-04-06,554,310-->
+__Aluminium oxide__ or {@{__aluminium(III) oxide__}@} is {@{a [chemical compound](chemical%20compound.md) with the [chemical formula](chemical%20formula.md) __[Al](aluminium.md)<sub>2</sub>[O](oxygen.md)__<sub>3</sub>}@}. It looks like {@{white [solid](solid.md)}@}. <!--SR:!2026-07-25,874,330!2027-03-05,1035,330!2025-04-06,554,310-->
 
 ## references
 

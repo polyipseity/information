@@ -18,7 +18,7 @@ tags:
 
 ## effects
 
-Under {{uniaxial tension}}, ordinary material are likely to undergo {{elastic deformation}}; that is, {{elongating or necking, returning to its original length and shape once the tension is removed}}. <!--SR:!2024-12-09,154,310!2024-11-15,136,310!2024-11-29,145,310-->
+Under {@{uniaxial tension}@}, ordinary material are likely to undergo {@{elastic deformation}@}; that is, {@{elongating or necking, returning to its original length and shape once the tension is removed}@}. <!--SR:!2024-12-09,154,310!2024-11-15,136,310!2024-11-29,145,310-->
 
 ## references
 

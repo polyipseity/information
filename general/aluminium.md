@@ -37,22 +37,22 @@ return await memorize_table(
 
 > | name | description |
 > |-|-|
-> | {{aircraft bodies}} | {{[corrosion](corrosion.md)-resistant, low [density](density.md), [strong](strength%20of%20materials.md)}} |
-> | {{kitchen foil}} | {{[corrosion](corrosion.md)-resistant, low [toxicity](toxicity.md), [malleable](malleable.md), [thermally conductive](thermal%20conductivity.md)}} |
-> | {{overhead power cables}} | {{[ductile](ductility.md), [electrically conductive](electrical%20conductivity.md), low [density](density.md), relatively cheap}} |
-> | {{soft drink cans}} | {{[corrosion](corrosion.md)-resistant, low [density](density.md), low [toxicity](toxicity.md), [malleable](malleability.md)}} |
-> | {{window frames}} | {{[corrosion](corrosion.md)-resistant, [strong](strength%20of%20materials.md)}} | <!--SR:!2024-12-01,127,170!2025-09-15,581,250!2027-06-04,962,270!2025-10-26,533,230!2026-06-29,782,290!2025-04-16,161,130!2025-09-14,628,310!2025-06-10,402,210!2027-01-27,1091,350!2025-03-04,395,230-->
+> | {@{aircraft bodies}@} | {@{[corrosion](corrosion.md)-resistant, low [density](density.md), [strong](strength%20of%20materials.md)}@} |
+> | {@{kitchen foil}@} | {@{[corrosion](corrosion.md)-resistant, low [toxicity](toxicity.md), [malleable](malleable.md), [thermally conductive](thermal%20conductivity.md)}@} |
+> | {@{overhead power cables}@} | {@{[ductile](ductility.md), [electrically conductive](electrical%20conductivity.md), low [density](density.md), relatively cheap}@} |
+> | {@{soft drink cans}@} | {@{[corrosion](corrosion.md)-resistant, low [density](density.md), low [toxicity](toxicity.md), [malleable](malleability.md)}@} |
+> | {@{window frames}@} | {@{[corrosion](corrosion.md)-resistant, [strong](strength%20of%20materials.md)}@} | <!--SR:!2024-12-01,127,170!2025-09-15,581,250!2027-06-04,962,270!2025-10-26,533,230!2026-06-29,782,290!2025-04-16,161,130!2025-09-14,628,310!2025-06-10,402,210!2027-01-27,1091,350!2025-03-04,395,230-->
 
 <!--/pytextgen-->
 
 <!--pytextgen generate section="f123"--><!-- The following content is generated at 2024-01-04T20:17:51.226811+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←aircraft bodies <!--SR:!2026-05-09,866,330!2027-11-27,1328,350-->
-- aircraft bodies→:::←kitchen foil <!--SR:!2025-01-24,148,210!2026-02-12,671,270-->
-- kitchen foil→:::←overhead power cables <!--SR:!2025-07-16,317,250!2024-11-25,33,150-->
-- overhead power cables→:::←soft drink cans <!--SR:!2027-09-24,1081,290!2025-08-06,302,230-->
-- soft drink cans→:::←window frames <!--SR:!2025-06-24,501,270!2025-10-06,631,270-->
-- window frames→:::←_(end)_ <!--SR:!2027-03-12,1123,350!2025-03-10,315,290-->
+- _(begin)_→::@::←aircraft bodies <!--SR:!2026-05-09,866,330!2027-11-27,1328,350-->
+- aircraft bodies→::@::←kitchen foil <!--SR:!2025-01-24,148,210!2026-02-12,671,270-->
+- kitchen foil→::@::←overhead power cables <!--SR:!2025-07-16,317,250!2024-11-25,33,150-->
+- overhead power cables→::@::←soft drink cans <!--SR:!2027-09-24,1081,290!2025-08-06,302,230-->
+- soft drink cans→::@::←window frames <!--SR:!2025-06-24,501,270!2025-10-06,631,270-->
+- window frames→::@::←_(end)_ <!--SR:!2027-03-12,1123,350!2025-03-10,315,290-->
 
 <!--/pytextgen-->
 

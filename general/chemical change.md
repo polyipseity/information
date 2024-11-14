@@ -8,7 +8,7 @@ tags:
 
 # chemical change
 
-__Chemical changes__ are {{changes in which new [substances](chemical%20substance.md) are formed}}. They contrast with [physical changes](physical%20change.md). <!--SR:!2025-07-21,598,290-->
+__Chemical changes__ are {@{changes in which new [substances](chemical%20substance.md) are formed}@}. They contrast with [physical changes](physical%20change.md). <!--SR:!2025-07-21,598,290-->
 
 ## references
 

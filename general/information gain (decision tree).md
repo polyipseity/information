@@ -11,7 +11,7 @@ tags:
 
 ## general definition
 
-The information gain of an [attribute](feature%20(machine%20learning).md) $a$ on a set $T$ is defined as {{$$\operatorname{IG}(T, a) = \Eta(T) - \Eta(T | a)$$, where $\Eta(T)$ is the [entropy](entropy%20(information%20theory).md) of $T$ and $\Eta(T | a)$ is the [conditional entropy](conditional%20entropy.md) of $T$ given $a$}}. <!--SR:!2025-04-19,248,290-->
+The information gain of an [attribute](feature%20(machine%20learning).md) $a$ on a set $T$ is defined as {@{$$\operatorname{IG}(T, a) = \Eta(T) - \Eta(T | a)$$, where $\Eta(T)$ is the [entropy](entropy%20(information%20theory).md) of $T$ and $\Eta(T | a)$ is the [conditional entropy](conditional%20entropy.md) of $T$ given $a$}@}. <!--SR:!2025-04-19,248,290-->
 
 ## references
 

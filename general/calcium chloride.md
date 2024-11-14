@@ -34,16 +34,16 @@ return await memorize_table(
 
 > | name | description |
 > |-|-|
-> | {{[desiccant](desiccant.md)}} | {{The [anhydrous](anhydrous.md) salt is [hygroscopic](hygroscopy.md) and deliquescent.}} |
-> | {{[separation](separation%20process.md)}} | {{The solution can dissolve [alcohols](alcohol.md) but not [esters](ester.md), separating them.}} | <!--SR:!2028-10-24,1578,350!2025-09-12,563,270!2027-03-09,1029,330!2025-05-04,388,230-->
+> | {@{[desiccant](desiccant.md)}@} | {@{The [anhydrous](anhydrous.md) salt is [hygroscopic](hygroscopy.md) and deliquescent.}@} |
+> | {@{[separation](separation%20process.md)}@} | {@{The solution can dissolve [alcohols](alcohol.md) but not [esters](ester.md), separating them.}@} | <!--SR:!2028-10-24,1578,350!2025-09-12,563,270!2027-03-09,1029,330!2025-05-04,388,230-->
 
 <!--/pytextgen-->
 
 <!--pytextgen generate section="dd21"--><!-- The following content is generated at 2024-01-04T20:17:51.476474+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←[desiccant](desiccant.md) <!--SR:!2025-01-25,280,290!2026-08-02,867,330-->
-- [desiccant](desiccant.md)→:::←[separation](separation%20process.md) <!--SR:!2025-08-02,532,310!2027-03-20,1038,330-->
-- [separation](separation%20process.md)→:::←_(end)_ <!--SR:!2028-12-13,1619,350!2027-03-16,1035,330-->
+- _(begin)_→::@::←[desiccant](desiccant.md) <!--SR:!2025-01-25,280,290!2026-08-02,867,330-->
+- [desiccant](desiccant.md)→::@::←[separation](separation%20process.md) <!--SR:!2025-08-02,532,310!2027-03-20,1038,330-->
+- [separation](separation%20process.md)→::@::←_(end)_ <!--SR:!2028-12-13,1619,350!2027-03-16,1035,330-->
 
 <!--/pytextgen-->
 

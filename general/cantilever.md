@@ -9,7 +9,7 @@ tags:
 
 # cantilever
 
-A __cantilever__ is {{a rigid structural element that extends horizontally and is unsupported at one end}}. <!--SR:!2025-04-09,251,330-->
+A __cantilever__ is {@{a rigid structural element that extends horizontally and is unsupported at one end}@}. <!--SR:!2025-04-09,251,330-->
 
 ## references
 

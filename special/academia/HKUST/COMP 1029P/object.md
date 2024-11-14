@@ -13,7 +13,7 @@ A Python class is never complete without teaching objects! (Sounds oddly familia
 
 ## class
 
-To create an object, one needs to first create a class. A class consists of {{a name, attributes, and methods}}: <!--SR:!2024-11-24,226,330-->
+To create an object, one needs to first create a class. A class consists of {@{a name, attributes, and methods}@}: <!--SR:!2024-11-24,226,330-->
 
 ```Python
 class Name:
@@ -25,21 +25,21 @@ class Name:
     print(str(arg1) + str(an_attribute) + str(arg2))
 ```
 
-Then to create an object, one uses {{the name of the class}}: <!--SR:!2024-12-21,247,330-->
+Then to create an object, one uses {@{the name of the class}@}: <!--SR:!2024-12-21,247,330-->
 
 ```Python
 name_object = Name(42)
 ```
 
-The above object stored under `name_object` is also called {{an _instance_ of the class `Name`}}. <!--SR:!2024-12-08,218,310-->
+The above object stored under `name_object` is also called {@{an _instance_ of the class `Name`}@}. <!--SR:!2024-12-08,218,310-->
 
 ## attribute
 
-Note that Python attributes are not {{declared inside the class. Instead, they are assigned in the [constructor](#constructor)}}. <!--SR:!2026-10-15,737,330-->
+Note that Python attributes are not {@{declared inside the class. Instead, they are assigned in the [constructor](#constructor)}@}. <!--SR:!2026-10-15,737,330-->
 
 ## method
 
-A method consists of {{a name, parameter names, and statement block}}: <!--SR:!2027-03-23,860,330-->
+A method consists of {@{a name, parameter names, and statement block}@}: <!--SR:!2027-03-23,860,330-->
 
 ```Python
 def name(parameter_names):
@@ -53,11 +53,11 @@ def a_method(arg1, arg2):
   print(str(arg1) + str(an_attribute) + str(arg2))
 ```
 
-It is possible to have {{no parameters}}. Each parameter is {{separated by a comma `,`}}. <!--SR:!2026-08-10,685,330!2024-11-29,231,330-->
+It is possible to have {@{no parameters}@}. Each parameter is {@{separated by a comma `,`}@}. <!--SR:!2026-08-10,685,330!2024-11-29,231,330-->
 
 ### constructor
 
-A constructor is {{a special method that is called when you create an object of that class}}. It consists of {{a name that must be `__init__`, parameter names, and statement block}}: <!--SR:!2025-02-10,289,330!2024-12-14,222,310-->
+A constructor is {@{a special method that is called when you create an object of that class}@}. It consists of {@{a name that must be `__init__`, parameter names, and statement block}@}: <!--SR:!2025-02-10,289,330!2024-12-14,222,310-->
 
 ```Python
 def __init__(parameter_names):

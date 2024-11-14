@@ -9,7 +9,7 @@ tags:
 
 # third law of thermodynamics
 
-The __third law of thermodynamics__ states that {{the [entropy](entropy.md) of a [closed system](closed%20system.md) at [thermodynamic equilibrium](thermodynamic%20equilibrium.md) tends to a constant value when its [temperature](temperature.md) approaches [absolute zero](absolute%20zero.md)}}. <!--SR:!2025-03-26,309,290-->
+The __third law of thermodynamics__ states that {@{the [entropy](entropy.md) of a [closed system](closed%20system.md) at [thermodynamic equilibrium](thermodynamic%20equilibrium.md) tends to a constant value when its [temperature](temperature.md) approaches [absolute zero](absolute%20zero.md)}@}. <!--SR:!2025-03-26,309,290-->
 
 ## references
 

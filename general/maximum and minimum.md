@@ -16,8 +16,8 @@ tags:
 
 > [!tip] tips
 >
-> - a weird way to find the maximum and minimum of 2 numbers ::: $$\begin{aligned} \max \set{a, b} & = \frac {a + b} 2 + \frac {\lvert a - b \rvert} 2 \\ \min \set{a, b} & = \frac {a + b} 2 - \frac {\lvert a - b \rvert} 2 \end{aligned}$$ <!--SR:!2025-06-16,267,330!2025-04-18,204,310-->
->   - explanation of the weird way to find the maximum and minimum of 2 numbers ::: The first term is halfway between $a$ and $b$. The second term is half of the difference between $a$ and $b$. Adding both terms leads to the larger number. Subtracting the latter from the former leads to the smaller number. <!--SR:!2025-05-10,238,330!2025-08-08,304,330-->
+> - a weird way to find the maximum and minimum of 2 numbers ::@:: $$\begin{aligned} \max \set{a, b} & = \frac {a + b} 2 + \frac {\lvert a - b \rvert} 2 \\ \min \set{a, b} & = \frac {a + b} 2 - \frac {\lvert a - b \rvert} 2 \end{aligned}$$ <!--SR:!2025-06-16,267,330!2025-04-18,204,310-->
+>   - explanation of the weird way to find the maximum and minimum of 2 numbers ::@:: The first term is halfway between $a$ and $b$. The second term is half of the difference between $a$ and $b$. Adding both terms leads to the larger number. Subtracting the latter from the former leads to the smaller number. <!--SR:!2025-05-10,238,330!2025-08-08,304,330-->
 
 ## references
 

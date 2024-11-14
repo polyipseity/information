@@ -23,7 +23,7 @@ tags:
 
 # `printf`
 
-- _defined in {{[`<stdio.h>`](../../../general/C%20file%20input_output.md)}}_ <!--SR:!2026-06-10,770,330-->
+- _defined in {@{[`<stdio.h>`](../../../general/C%20file%20input_output.md)}@}_ <!--SR:!2026-06-10,770,330-->
 
 ```C
 // (1)
@@ -49,8 +49,8 @@ int snprintf_s(char const *restrict buffer, rsize_t bufsz, char const *restrict 
 
 > [!tip] tips
 >
-> - `_CRT_SECURE_NO_WARNINGS` ([Visual Studio](Visual%20Studio.md)) ::: define to `1` to disable errors from using non-`_s`-ending functions <!--SR:!2025-10-28,548,310!2026-10-27,883,330-->
-> - overload selection ::: use the `_s`-ending overloads whenever feasible <!--SR:!2025-01-13,320,348!2025-06-20,364,355-->
+> - `_CRT_SECURE_NO_WARNINGS` ([Visual Studio](Visual%20Studio.md)) ::@:: define to `1` to disable errors from using non-`_s`-ending functions <!--SR:!2025-10-28,548,310!2026-10-27,883,330-->
+> - overload selection ::@:: use the `_s`-ending overloads whenever feasible <!--SR:!2025-01-13,320,348!2025-06-20,364,355-->
 
 ## parameters
 

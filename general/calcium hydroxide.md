@@ -11,21 +11,21 @@ tags:
 
 # calcium hydroxide
 
-__Calcium hydroxide__, also known as {{slaked lime}} in its solid state and {{limewater}} in its liquid state, is an [ionic compound](ionic%20compound.md). Its [chemical formula](chemical%20formula.md) is {{Ca(OH)<sub>2</sub>}}. It looks like a {{white solid}} in its solid form. <!--SR:!2025-07-22,318,210!2026-08-18,925,250!2026-07-28,1135,290!2026-09-23,1012,259-->
+__Calcium hydroxide__, also known as {@{slaked lime}@} in its solid state and {@{limewater}@} in its liquid state, is an [ionic compound](ionic%20compound.md). Its [chemical formula](chemical%20formula.md) is {@{Ca(OH)<sub>2</sub>}@}. It looks like a {@{white solid}@} in its solid form. <!--SR:!2025-07-22,318,210!2026-08-18,925,250!2026-07-28,1135,290!2026-09-23,1012,259-->
 
 ## preparation
 
-Treating {{calcium [salts](salt%20(chemistry).md) with a strong [base](base%20(chemistry).md) [precipitates](precipitate.md) out white calcium hydroxide}}. Weak bases {{result in no observation because there are insufficient [hydroxide ions](hydroxide.md) to saturate the [solution](solution%20(chemistry).md)}}: <!--SR:!2026-01-24,732,320!2025-12-15,691,280-->
+Treating {@{calcium [salts](salt%20(chemistry).md) with a strong [base](base%20(chemistry).md) [precipitates](precipitate.md) out white calcium hydroxide}@}. Weak bases {@{result in no observation because there are insufficient [hydroxide ions](hydroxide.md) to saturate the [solution](solution%20(chemistry).md)}@}: <!--SR:!2026-01-24,732,320!2025-12-15,691,280-->
 
 > treating with [bases](base%20(chemistry).md)
 >
-> - {{Ca<sup>2+</sup>(aq) + 2OH<sup>-</sup>(aq) → Ca(OH)<sub>2</sub>(s)}} <!--SR:!2025-08-28,669,320-->
+> - {@{Ca<sup>2+</sup>(aq) + 2OH<sup>-</sup>(aq) → Ca(OH)<sub>2</sub>(s)}@} <!--SR:!2025-08-28,669,320-->
 
 ## reactions
 
 ### tests
 
-Calcium hydroxide can be used to test for {{[carbon dioxide](carbon%20dioxide.md)}}. <!--SR:!2025-01-15,584,298-->
+Calcium hydroxide can be used to test for {@{[carbon dioxide](carbon%20dioxide.md)}@}. <!--SR:!2025-01-15,584,298-->
 
 ## preparation steps
 
@@ -64,9 +64,9 @@ Calcium hydroxide can be prepared in the following way:
 
 <!--pytextgen generate section="d7182f"--><!-- The following content is generated at 2024-01-04T20:17:51.479474+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←Dissolve carbonate hydroxide in deionized [water](water.md). <!--SR:!2026-02-26,874,250!2026-12-09,1345,358-->
-- Dissolve carbonate hydroxide in deionized [water](water.md).→:::←Filter the solution to obtain the [filtrate](filtrate.md). <!--SR:!2025-07-20,392,210!2026-06-15,952,261-->
-- Filter the solution to obtain the [filtrate](filtrate.md).→:::←_(end)_ <!--SR:!2026-01-24,1062,339!2026-02-28,869,279-->
+- _(begin)_→::@::←Dissolve carbonate hydroxide in deionized [water](water.md). <!--SR:!2026-02-26,874,250!2026-12-09,1345,358-->
+- Dissolve carbonate hydroxide in deionized [water](water.md).→::@::←Filter the solution to obtain the [filtrate](filtrate.md). <!--SR:!2025-07-20,392,210!2026-06-15,952,261-->
+- Filter the solution to obtain the [filtrate](filtrate.md).→::@::←_(end)_ <!--SR:!2026-01-24,1062,339!2026-02-28,869,279-->
 
 <!--/pytextgen-->
 

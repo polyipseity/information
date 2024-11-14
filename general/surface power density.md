@@ -9,7 +9,7 @@ tags:
 
 # surface power density
 
-In [physics](physics.md) and [engineering](engineering.md), __surface power density__ is {{[power](power%20(physics).md) per unit [area](area.md)}}. <!--SR:!2025-02-03,160,310-->
+In [physics](physics.md) and [engineering](engineering.md), __surface power density__ is {@{[power](power%20(physics).md) per unit [area](area.md)}@}. <!--SR:!2025-02-03,160,310-->
 
 ## references
 

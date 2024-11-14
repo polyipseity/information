@@ -18,11 +18,11 @@ tags:
 # import ../../tools/utility.py.md
 ```
 
-The __alkaline earth metals__ {{consist of the [chemical elements](chemical%20element.md) [beryllium](beryllium.md) (Be), [magnesium](magnesium.md) (Mg), [calcium](calcium.md) (Ca), [strontium](strontium.md) (Sr), [barium](barium.md) (Ba), and [radium](radium.md) (Ra)}}. The alkaline earth metals are {{all relatively-low-[density](density.md), and somewhat [reactive](reactivity%20(chemistry).md)}}. <!--SR:!2025-01-24,296,190!2026-04-25,636,230-->
+The __alkaline earth metals__ {@{consist of the [chemical elements](chemical%20element.md) [beryllium](beryllium.md) (Be), [magnesium](magnesium.md) (Mg), [calcium](calcium.md) (Ca), [strontium](strontium.md) (Sr), [barium](barium.md) (Ba), and [radium](radium.md) (Ra)}@}. The alkaline earth metals are {@{all relatively-low-[density](density.md), and somewhat [reactive](reactivity%20(chemistry).md)}@}. <!--SR:!2025-01-24,296,190!2026-04-25,636,230-->
 
 ## representative reactions
 
-Alkaline earth metals {{can form [ionic compounds](ionic%20compound.md) with [nonmetals](nonmetal.md)}}. <!--SR:!2025-02-17,514,310-->
+Alkaline earth metals {@{can form [ionic compounds](ionic%20compound.md) with [nonmetals](nonmetal.md)}@}. <!--SR:!2025-02-17,514,310-->
 
 ### reaction with water
 
@@ -55,27 +55,27 @@ return await memorize_map(
 
 <!--pytextgen generate section="1d5e"--><!-- The following content is generated at 2024-01-04T20:17:51.324357+08:00. Any edits will be overridden! -->
 
-- [beryllium](beryllium.md)::no reaction with water or steam <!--SR:!2024-12-05,41,130-->
-- [magnesium](magnesium.md)::reacts with steam to form [hydroxide](hydroxide.md) and [hydrogen](hydrogen.md) gas <!--SR:!2025-01-02,72,150-->
-- [calcium](calcium.md)::reacts with cold water to form [hydroxide](hydroxide.md) and [hydrogen](hydrogen.md) gas; more vigorous than elements above <!--SR:!2026-05-19,731,270-->
-- [strontium](strontium.md)::reacts with cold water to form [hydroxide](hydroxide.md) and [hydrogen](hydrogen.md) gas; more vigorous than elements above <!--SR:!2026-03-08,652,250-->
-- [barium](barium.md)::reacts with cold water to form [hydroxide](hydroxide.md) and [hydrogen](hydrogen.md) gas; more vigorous than elements above <!--SR:!2025-04-23,244,190-->
-- [radium](radium.md)::unknown <!--SR:!2028-08-19,1537,350-->
+- [beryllium](beryllium.md):@:no reaction with water or steam <!--SR:!2024-12-05,41,130-->
+- [magnesium](magnesium.md):@:reacts with steam to form [hydroxide](hydroxide.md) and [hydrogen](hydrogen.md) gas <!--SR:!2025-01-02,72,150-->
+- [calcium](calcium.md):@:reacts with cold water to form [hydroxide](hydroxide.md) and [hydrogen](hydrogen.md) gas; more vigorous than elements above <!--SR:!2026-05-19,731,270-->
+- [strontium](strontium.md):@:reacts with cold water to form [hydroxide](hydroxide.md) and [hydrogen](hydrogen.md) gas; more vigorous than elements above <!--SR:!2026-03-08,652,250-->
+- [barium](barium.md):@:reacts with cold water to form [hydroxide](hydroxide.md) and [hydrogen](hydrogen.md) gas; more vigorous than elements above <!--SR:!2025-04-23,244,190-->
+- [radium](radium.md):@:unknown <!--SR:!2028-08-19,1537,350-->
 
 <!--/pytextgen-->
 
 <!--pytextgen generate section="ffa2"--><!-- The following content is generated at 2024-01-04T20:17:51.367373+08:00. Any edits will be overridden! -->
 
-- no reaction with water or steam::[beryllium](beryllium.md) <!--SR:!2027-09-30,1092,290-->
-- reacts with steam to form [hydroxide](hydroxide.md) and [hydrogen](hydrogen.md) gas::[magnesium](magnesium.md) <!--SR:!2027-02-27,1017,290-->
-- reacts with cold water to form [hydroxide](hydroxide.md) and [hydrogen](hydrogen.md) gas; more vigorous than elements above::[calcium](calcium.md), [strontium](strontium.md), [barium](barium.md) <!--SR:!2025-02-08,182,210-->
-- unknown::[radium](radium.md) <!--SR:!2024-11-30,89,170-->
+- no reaction with water or steam:@:[beryllium](beryllium.md) <!--SR:!2027-09-30,1092,290-->
+- reacts with steam to form [hydroxide](hydroxide.md) and [hydrogen](hydrogen.md) gas:@:[magnesium](magnesium.md) <!--SR:!2027-02-27,1017,290-->
+- reacts with cold water to form [hydroxide](hydroxide.md) and [hydrogen](hydrogen.md) gas; more vigorous than elements above:@:[calcium](calcium.md), [strontium](strontium.md), [barium](barium.md) <!--SR:!2025-02-08,182,210-->
+- unknown:@:[radium](radium.md) <!--SR:!2024-11-30,89,170-->
 
 <!--/pytextgen-->
 
 ### reaction with acids
 
-Alkaline earth metals {{react readily with [acids](acid.md) to form [hydrogen](hydrogen.md)}}. <!--SR:!2025-03-17,434,250-->
+Alkaline earth metals {@{react readily with [acids](acid.md) to form [hydrogen](hydrogen.md)}@}. <!--SR:!2025-03-17,434,250-->
 
 ## references
 

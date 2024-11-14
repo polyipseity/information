@@ -9,7 +9,7 @@ tags:
 
 # sodium oxide
 
-__Sodium oxide__ is {{a [chemical compound](chemical%20compound.md) with the [chemical formula](chemical%20formula.md) __[Na](sodium.md)<sub>2</sub>[O](oxygen.md)__}}. It looks like {{white [solid](solid.md)}}. <!--SR:!2027-02-21,1021,330!2028-10-01,1490,310-->
+__Sodium oxide__ is {@{a [chemical compound](chemical%20compound.md) with the [chemical formula](chemical%20formula.md) __[Na](sodium.md)<sub>2</sub>[O](oxygen.md)__}@}. It looks like {@{white [solid](solid.md)}@}. <!--SR:!2027-02-21,1021,330!2028-10-01,1490,310-->
 
 ## references
 

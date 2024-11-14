@@ -15,19 +15,19 @@ tags:
 # import ../../tools/utility.py.md
 ```
 
-An __alkane__ is {{an [acyclic](open-chain%20compound.md) [saturated hydrocarbon](saturated%20hydrocarbon.md)}}. <!--SR:!2025-05-12,584,310-->
+An __alkane__ is {@{an [acyclic](open-chain%20compound.md) [saturated hydrocarbon](saturated%20hydrocarbon.md)}@}. <!--SR:!2025-05-12,584,310-->
 
 ## physical properties
 
-Alkanes are {{[insoluble](solubility.md) in [water](water.md) but soluble in [non-polar](chemical%20polarity.md) [solvents](solvent.md)}}. Some [physical properties](physical%20property.md) gradually change along the [homologous series](homologous%20series.md). Increasingly long alkane has {{increasing [melting point](melting%20point.md), [boiling point](boiling%20point.md), [density](density.md) but not more than that of water, and [viscosity](viscosity.md)}}. <!--SR:!2025-11-13,510,230!2025-02-17,444,270-->
+Alkanes are {@{[insoluble](solubility.md) in [water](water.md) but soluble in [non-polar](chemical%20polarity.md) [solvents](solvent.md)}@}. Some [physical properties](physical%20property.md) gradually change along the [homologous series](homologous%20series.md). Increasingly long alkane has {@{increasing [melting point](melting%20point.md), [boiling point](boiling%20point.md), [density](density.md) but not more than that of water, and [viscosity](viscosity.md)}@}. <!--SR:!2025-11-13,510,230!2025-02-17,444,270-->
 
 ## chemical properties
 
-Alkanes are {{[unreactive](reactivity%20(chemistry).md)}}. <!--SR:!2026-02-26,486,230-->
+Alkanes are {@{[unreactive](reactivity%20(chemistry).md)}@}. <!--SR:!2026-02-26,486,230-->
 
 ### combustion
 
-All alkanes {{react with [oxygen](oxygen.md) in [air](air.md) in [combustion](combustion.md)}}. The longer the alkane, {{the harder for it to ignite}}. Without sufficient oxygen, {{[carbon monoxide](carbon%20monoxide.md) and [soot](soot.md) are produced}}. <!--SR:!2026-09-05,798,270!2025-07-14,576,310!2025-05-04,576,310-->
+All alkanes {@{react with [oxygen](oxygen.md) in [air](air.md) in [combustion](combustion.md)}@}. The longer the alkane, {@{the harder for it to ignite}@}. Without sufficient oxygen, {@{[carbon monoxide](carbon%20monoxide.md) and [soot](soot.md) are produced}@}. <!--SR:!2026-09-05,798,270!2025-07-14,576,310!2025-05-04,576,310-->
 
 ### halogenation
 
@@ -61,10 +61,10 @@ return await memorize_seq(
 
 <!--pytextgen generate section="102a"--><!-- The following content is generated at 2024-01-04T20:17:51.259818+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←[combustion](#combustion) <!--SR:!2025-04-21,556,357!2025-06-02,586,357-->
-- [combustion](#combustion)→:::←[cracking](#cracking) <!--SR:!2024-12-31,247,258!2028-06-13,1484,358-->
-- [cracking](#cracking)→:::←[halogenation](#halogenation) <!--SR:!2025-07-08,357,298!2027-02-06,1015,338-->
-- [halogenation](#halogenation)→:::←_(end)_ <!--SR:!2026-01-22,721,318!2027-05-13,947,298-->
+- _(begin)_→::@::←[combustion](#combustion) <!--SR:!2025-04-21,556,357!2025-06-02,586,357-->
+- [combustion](#combustion)→::@::←[cracking](#cracking) <!--SR:!2024-12-31,247,258!2028-06-13,1484,358-->
+- [cracking](#cracking)→::@::←[halogenation](#halogenation) <!--SR:!2025-07-08,357,298!2027-02-06,1015,338-->
+- [halogenation](#halogenation)→::@::←_(end)_ <!--SR:!2026-01-22,721,318!2027-05-13,947,298-->
 
 <!--/pytextgen-->
 

@@ -9,7 +9,7 @@ tags:
 
 # color temperature
 
-__Color temperature__ is {{a parameter describing the [color](color.md) of a [visible light](light.md) source by comparing it to the color of [light emitted](black-body%20radiation.md) by [an idealized opaque, non-reflective body](black%20body.md)}}. <!--SR:!2024-12-21,108,290-->
+__Color temperature__ is {@{a parameter describing the [color](color.md) of a [visible light](light.md) source by comparing it to the color of [light emitted](black-body%20radiation.md) by [an idealized opaque, non-reflective body](black%20body.md)}@}. <!--SR:!2024-12-21,108,290-->
 
 ## references
 

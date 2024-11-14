@@ -33,17 +33,17 @@ tags:
 
 ## sine integral
 
-> {{__Si(x), si(x)__}}
+> {@{__Si(x), si(x)__}@}
 >
-> - {{$\operatorname{Si}(x)=\int _0 ^x \! \frac {\sin t} t \,\mathrm{d}t$}}
-> - {{$\operatorname{si}(x)=\int _\infty ^x \!\frac{\sin{t} }t\,\mathrm{d}t=\operatorname{Si}(x)-\frac\pi2$}} <!--SR:!2025-05-05,445,330!2026-03-16,644,290!2024-12-17,70,170-->
+> - {@{$\operatorname{Si}(x)=\int _0 ^x \! \frac {\sin t} t \,\mathrm{d}t$}@}
+> - {@{$\operatorname{si}(x)=\int _\infty ^x \!\frac{\sin{t} }t\,\mathrm{d}t=\operatorname{Si}(x)-\frac\pi2$}@} <!--SR:!2025-05-05,445,330!2026-03-16,644,290!2024-12-17,70,170-->
 
 ## cosine integral
 
-> {{__Cin(x), Ci(x)__}}
+> {@{__Cin(x), Ci(x)__}@}
 >
-> - {{$\operatorname{Cin}(x)=\int _0 ^x \! \frac {1 - \cos t} t \,\mathrm{d}t$}}
-> - {{$\operatorname{Ci}(x)=\int _\infty ^x \! \frac{\cos t} t \,\mathrm{d}t = \gamma + \ln x - \operatorname{Cin}(x)$}}
+> - {@{$\operatorname{Cin}(x)=\int _0 ^x \! \frac {1 - \cos t} t \,\mathrm{d}t$}@}
+> - {@{$\operatorname{Ci}(x)=\int _\infty ^x \! \frac{\cos t} t \,\mathrm{d}t = \gamma + \ln x - \operatorname{Cin}(x)$}@}
 > - where
 >   - $\gamma$ is the [Euler's constant](Euler's%20constant.md) <!--SR:!2025-01-14,331,310!2025-02-23,273,230!2024-11-20,16,130-->
 

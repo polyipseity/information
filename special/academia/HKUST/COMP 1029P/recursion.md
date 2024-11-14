@@ -9,9 +9,9 @@ tags:
 
 # Python recursion
 
-Recursion is all about {{reducing any problem to a simpler similar problem,  repeating this process until you get several base problems that are irreducible}}. <!--SR:!2024-12-03,231,330-->
+Recursion is all about {@{reducing any problem to a simpler similar problem,  repeating this process until you get several base problems that are irreducible}@}. <!--SR:!2024-12-03,231,330-->
 
-Usually, we {{do not use recursion}} in Python. But if it is required, it is as simple as {{conditionally calling the method itself in a method and adding base cases to the method}}. For example, a recursive way to calculate factorial: <!--SR:!2025-02-13,289,330!2024-11-18,204,310-->
+Usually, we {@{do not use recursion}@} in Python. But if it is required, it is as simple as {@{conditionally calling the method itself in a method and adding base cases to the method}@}. For example, a recursive way to calculate factorial: <!--SR:!2025-02-13,289,330!2024-11-18,204,310-->
 
 ```Python
 def factorial(n):

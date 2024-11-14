@@ -12,7 +12,7 @@ tags:
 
 ### _u_ not satisfying conditions
 
-The substituting $u$ {{should be [differentiable](../general/differentiable%20function.md) and $u'$ should be [integrable](../general/integral.md)}}. An example is {{substituting $u = \frac 1 x$ into $\int_{-1}^1 \! \mathrm{d}x$}}: <!--SR:!2024-12-01,152,290!2025-10-14,377,310-->
+The substituting $u$ {@{should be [differentiable](../general/differentiable%20function.md) and $u'$ should be [integrable](../general/integral.md)}@}. An example is {@{substituting $u = \frac 1 x$ into $\int_{-1}^1 \! \mathrm{d}x$}@}: <!--SR:!2024-12-01,152,290!2025-10-14,377,310-->
 
 $$\begin{aligned}
 & \phantom{=} \int_{-1}^1 \! \mathrm{d}x \\
@@ -23,11 +23,11 @@ $$\begin{aligned}
 & = -2
 \end{aligned}$$
 
-But the integral value is obviously 2, not -2. This is because {{$u$ is not even defined at $x = 0$}}. <!--SR:!2026-04-21,532,310-->
+But the integral value is obviously 2, not -2. This is because {@{$u$ is not even defined at $x = 0$}@}. <!--SR:!2026-04-21,532,310-->
 
 ### integrand is non-rewritable
 
-The integrand {{must be rewritable in terms of $u$ within the bounds of integration}}. An example is {{substituting $u = x^2$ into $\int_{-1}^1 \! x^2 \,\mathrm{d}x$}}: <!--SR:!2024-12-10,172,310!2025-04-17,229,270-->
+The integrand {@{must be rewritable in terms of $u$ within the bounds of integration}@}. An example is {@{substituting $u = x^2$ into $\int_{-1}^1 \! x^2 \,\mathrm{d}x$}@}: <!--SR:!2024-12-10,172,310!2025-04-17,229,270-->
 
 $$\begin{aligned}
 & \phantom{=} \int_{-1}^1 \! x^2 \,\mathrm{d}x \\
@@ -37,4 +37,4 @@ $$\begin{aligned}
 & = 0
 \end{aligned}$$
 
-But the integral value is obviously $\frac 2 3$, not 0. This is because {{$x \ne \sqrt u$ when $x$ is negative, and the bounds of integration $[-1, 1]$ contain negative $x$}}. Furthermore, {{this substitution would have worked if the bounds of integration were $[0, 1]$ instead of $[-1, 1]$, as $x$ is never negative in this case}}. Alternatively, {{splitting the integral into two integrals on $[-1, 0]$ and $[0, 1]$ resp., then using $x = -\sqrt u$ instead of $x = \sqrt u$ for the integral with negative bounds of integration, would also have worked}}. <!--SR:!2025-10-05,351,290!2026-03-05,501,310!2025-01-24,180,270-->
+But the integral value is obviously $\frac 2 3$, not 0. This is because {@{$x \ne \sqrt u$ when $x$ is negative, and the bounds of integration $[-1, 1]$ contain negative $x$}@}. Furthermore, {@{this substitution would have worked if the bounds of integration were $[0, 1]$ instead of $[-1, 1]$, as $x$ is never negative in this case}@}. Alternatively, {@{splitting the integral into two integrals on $[-1, 0]$ and $[0, 1]$ resp., then using $x = -\sqrt u$ instead of $x = \sqrt u$ for the integral with negative bounds of integration, would also have worked}@}. <!--SR:!2025-10-05,351,290!2026-03-05,501,310!2025-01-24,180,270-->

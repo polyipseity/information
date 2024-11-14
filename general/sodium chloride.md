@@ -9,9 +9,9 @@ tags:
 
 # sodium chloride
 
-> {{![structure of sodium chloride](../archives/Wikimedia%20Commons/NaCl%20bonds.svg)}}
+> {@{![structure of sodium chloride](../archives/Wikimedia%20Commons/NaCl%20bonds.svg)}@}
 >
-> {{structure of sodium chloride}} <!--SR:!2027-10-25,1197,330!2029-01-26,1655,350-->
+> {@{structure of sodium chloride}@} <!--SR:!2027-10-25,1197,330!2029-01-26,1655,350-->
 
 ## references
 

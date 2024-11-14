@@ -18,19 +18,19 @@ tags:
 
 ### boiling and melting points
 
-Due to increased [polarizability](polarizability.md), aldehydes have {{[boiling points](boiling%20point.md) and [melting points](melting%20point.md) in between comparable [alkanes](alkane.md) and [alcohols](alcohol.md)}}. <!--SR:!2025-12-08,623,270-->
+Due to increased [polarizability](polarizability.md), aldehydes have {@{[boiling points](boiling%20point.md) and [melting points](melting%20point.md) in between comparable [alkanes](alkane.md) and [alcohols](alcohol.md)}@}. <!--SR:!2025-12-08,623,270-->
 
 ### density
 
-Most aldehydes are {{less [dense](density.md) than [water](water.md)}}. Density {{increases}} with increasing size. <!--SR:!2025-12-27,697,310!2028-07-17,1349,310-->
+Most aldehydes are {@{less [dense](density.md) than [water](water.md)}@}. Density {@{increases}@} with increasing size. <!--SR:!2025-12-27,697,310!2028-07-17,1349,310-->
 
 ### odor
 
-Most aldehydes have {{an unpleasant and pungent smell}}. <!--SR:!2025-09-12,507,230-->
+Most aldehydes have {@{an unpleasant and pungent smell}@}. <!--SR:!2025-09-12,507,230-->
 
 ### solubility
 
-Aldehydes {{that are small are [soluble](solubility.md) in [water](water.md)}}. Solubility {{decreases}} the larger the aldehyde. <!--SR:!2027-05-12,1077,330!2027-04-06,1051,330-->
+Aldehydes {@{that are small are [soluble](solubility.md) in [water](water.md)}@}. Solubility {@{decreases}@} the larger the aldehyde. <!--SR:!2027-05-12,1077,330!2027-04-06,1051,330-->
 
 ## chemical properties
 
@@ -40,7 +40,7 @@ Aldehydes {{that are small are [soluble](solubility.md) in [water](water.md)}}. 
 
 ### reduction
 
-Aldehydes {{can be reduced to primary [alcohols](alcohol.md) using [aqueous](aqueous%20solution.md) [sodium borohydride](sodium%20borohydride.md), or [lithium aluminium hydride](lithium%20aluminium%20hydride.md) in dry [diethyl ether](diethyl%20ether.md) and then add dilute [acid](acid.md)}}. <!--SR:!2025-04-14,458,261-->
+Aldehydes {@{can be reduced to primary [alcohols](alcohol.md) using [aqueous](aqueous%20solution.md) [sodium borohydride](sodium%20borohydride.md), or [lithium aluminium hydride](lithium%20aluminium%20hydride.md) in dry [diethyl ether](diethyl%20ether.md) and then add dilute [acid](acid.md)}@}. <!--SR:!2025-04-14,458,261-->
 
 ### reactions
 
@@ -64,9 +64,9 @@ return await memorize_seq(
 
 <!--pytextgen generate section="1233"--><!-- The following content is generated at 2024-01-04T20:17:51.381884+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←[oxidation](#oxidation) <!--SR:!2026-03-22,763,321!2027-10-16,1199,341-->
-- [oxidation](#oxidation)→:::←[reduction](#reduction) <!--SR:!2028-01-04,1261,341!2028-01-08,1264,341-->
-- [reduction](#reduction)→:::←_(end)_ <!--SR:!2027-12-30,1257,341!2025-04-03,496,301-->
+- _(begin)_→::@::←[oxidation](#oxidation) <!--SR:!2026-03-22,763,321!2027-10-16,1199,341-->
+- [oxidation](#oxidation)→::@::←[reduction](#reduction) <!--SR:!2028-01-04,1261,341!2028-01-08,1264,341-->
+- [reduction](#reduction)→::@::←_(end)_ <!--SR:!2027-12-30,1257,341!2025-04-03,496,301-->
 
 <!--/pytextgen-->
 

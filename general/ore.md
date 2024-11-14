@@ -11,7 +11,7 @@ tags:
 # import ../../tools/utility.py.md
 ```
 
-An __ore__ is {{a [rock](rock%20(geology).md) or [sediment](sediment.md) containing valuable [minerals](mineral.md) [concentrated](concentration.md) above background levels.}} <!--SR:!2026-02-18,590,230-->
+An __ore__ is {@{a [rock](rock%20(geology).md) or [sediment](sediment.md) containing valuable [minerals](mineral.md) [concentrated](concentration.md) above background levels.}@} <!--SR:!2026-02-18,590,230-->
 
 ## extraction
 
@@ -39,22 +39,22 @@ return await memorize_table(
 
 > | name | formula |
 > |-|-|
-> | {{[bauxite](bauxite.md)}} | {{Al(OH)<sub>3</sub>, AlOOH}} |
-> | {{[chalcopyrite](chalcopyrite.md), copper pyrite}} | {{CuFeS<sub>2</sub>}} |
-> | {{[cinnabar](cinnabar.md), cinnabarite}} | {{HgS}} |
-> | {{[galena](galena.md)}} | {{PbS}} |
-> | {{[hematite](hematite.md)}} | {{Fe<sub>2</sub>O<sub>3</sub>}} | <!--SR:!2027-06-27,1031,290!2026-08-05,877,330!2026-06-20,896,330!2025-09-05,316,230!2026-01-26,706,310!2027-06-12,1034,290!2025-05-23,509,270!2024-11-17,334,250!2028-02-02,1195,290!2025-01-07,144,250-->
+> | {@{[bauxite](bauxite.md)}@} | {@{Al(OH)<sub>3</sub>, AlOOH}@} |
+> | {@{[chalcopyrite](chalcopyrite.md), copper pyrite}@} | {@{CuFeS<sub>2</sub>}@} |
+> | {@{[cinnabar](cinnabar.md), cinnabarite}@} | {@{HgS}@} |
+> | {@{[galena](galena.md)}@} | {@{PbS}@} |
+> | {@{[hematite](hematite.md)}@} | {@{Fe<sub>2</sub>O<sub>3</sub>}@} | <!--SR:!2027-06-27,1031,290!2026-08-05,877,330!2026-06-20,896,330!2025-09-05,316,230!2026-01-26,706,310!2027-06-12,1034,290!2025-05-23,509,270!2024-11-17,334,250!2028-02-02,1195,290!2025-01-07,144,250-->
 
 <!--/pytextgen-->
 
 <!--pytextgen generate section="0398da"--><!-- The following content is generated at 2024-01-04T20:17:52.269345+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←[bauxite](bauxite.md) <!--SR:!2025-11-04,666,310!2026-04-24,798,330-->
-- [bauxite](bauxite.md)→:::←[chalcopyrite](chalcopyrite.md), copper pyrite <!--SR:!2024-12-27,475,310!2029-09-23,1801,330-->
-- [chalcopyrite](chalcopyrite.md), copper pyrite→:::←[cinnabar](cinnabar.md), cinnabarite <!--SR:!2025-06-27,309,250!2025-11-28,507,270-->
-- [cinnabar](cinnabar.md), cinnabarite→:::←[galena](galena.md) <!--SR:!2025-12-19,631,270!2024-12-06,441,290-->
-- [galena](galena.md)→:::←[hematite](hematite.md) <!--SR:!2027-11-12,1130,290!2025-04-05,194,270-->
-- [hematite](hematite.md)→:::←_(end)_ <!--SR:!2027-04-29,1155,350!2026-02-19,755,330-->
+- _(begin)_→::@::←[bauxite](bauxite.md) <!--SR:!2025-11-04,666,310!2026-04-24,798,330-->
+- [bauxite](bauxite.md)→::@::←[chalcopyrite](chalcopyrite.md), copper pyrite <!--SR:!2024-12-27,475,310!2029-09-23,1801,330-->
+- [chalcopyrite](chalcopyrite.md), copper pyrite→::@::←[cinnabar](cinnabar.md), cinnabarite <!--SR:!2025-06-27,309,250!2025-11-28,507,270-->
+- [cinnabar](cinnabar.md), cinnabarite→::@::←[galena](galena.md) <!--SR:!2025-12-19,631,270!2024-12-06,441,290-->
+- [galena](galena.md)→::@::←[hematite](hematite.md) <!--SR:!2027-11-12,1130,290!2025-04-05,194,270-->
+- [hematite](hematite.md)→::@::←_(end)_ <!--SR:!2027-04-29,1155,350!2026-02-19,755,330-->
 
 <!--/pytextgen-->
 

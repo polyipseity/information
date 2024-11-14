@@ -17,7 +17,7 @@ tags:
 
 - HKUST PHYS 1002
 
-The parenthesized text at the beginning of of each question is {{the location the question appears in}}. Questions beginning with `(derived)` are {{derived from other questions and only appear here}}. <!--SR:!2025-04-01,209,317!2025-03-16,198,317-->
+The parenthesized text at the beginning of of each question is {@{the location the question appears in}@}. Questions beginning with `(derived)` are {@{derived from other questions and only appear here}@}. <!--SR:!2025-04-01,209,317!2025-03-16,198,317-->
 
 Marking is done as follows. iPRS and MCQ questions are considered separately. For each type of questions, the best 80% are counted. Then the percentage is linearly scaled onto a 10-mark scale for iPRS and 15-mark scale for MCQ.
 
@@ -27,7 +27,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 >
 > Question: When will we be able to see what it looks like __now__?
 >
-> - solution: {{_About_ 2.5 million years later. Or less than 2.5 million years later, if you know that the Andromeda is approaching the Milky Way.}} <!--SR:!2025-03-14,188,310-->
+> - solution: {@{_About_ 2.5 million years later. Or less than 2.5 million years later, if you know that the Andromeda is approaching the Milky Way.}@} <!--SR:!2025-03-14,188,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -39,7 +39,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 4. smaller for more distant objects
 > 5. larger for nearer objects
 >
-> - solution: {{3}} <!--SR:!2025-02-17,172,310-->
+> - solution: {@{3}@} <!--SR:!2025-02-17,172,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -51,8 +51,8 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 4. 3 trillion years
 > 5. 3 hundred trillion years
 >
-> - solution: {{5}}
-> - explanation: {{Given there are about 10<sup>22</sup> stars, divide it by the number of seconds in a year: $$\frac {10^{22} } {86400 \times 365} \approx 3.17 \times 10^{14}\text{ years}$$ to get about 300 trillion (300 × 10<sup>12</sup>) years.}} <!--SR:!2025-04-08,209,310!2025-07-12,268,290-->
+> - solution: {@{5}@}
+> - explanation: {@{Given there are about 10<sup>22</sup> stars, divide it by the number of seconds in a year: $$\frac {10^{22} } {86400 \times 365} \approx 3.17 \times 10^{14}\text{ years}$$ to get about 300 trillion (300 × 10<sup>12</sup>) years.}@} <!--SR:!2025-04-08,209,310!2025-07-12,268,290-->
 
 ## 2024-06-27
 
@@ -64,7 +64,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 4. on the prime meridian
 > 5. 1 and 2
 >
-> - solution: {{3}} <!--SR:!2025-03-06,189,317-->
+> - solution: {@{3}@} <!--SR:!2025-03-06,189,317-->
 
 <!-- markdownlint MD028 -->
 
@@ -76,8 +76,8 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 4. 4/3 sidereal days
 > 5. 3/2 sidereal days
 >
-> - solution: {{2}}
-> - explanation: {{The planet is in prograde motion. Hence, the number of solar days per orbital period is $6 - 1 = 5\text{ solar days}$. Thus each solar day is $\frac {1 / 5} {1 / 6} = \frac 6 5\text{ sidereal days}$.}} <!--SR:!2024-12-23,128,297!2024-12-25,130,297-->
+> - solution: {@{2}@}
+> - explanation: {@{The planet is in prograde motion. Hence, the number of solar days per orbital period is $6 - 1 = 5\text{ solar days}$. Thus each solar day is $\frac {1 / 5} {1 / 6} = \frac 6 5\text{ sidereal days}$.}@} <!--SR:!2024-12-23,128,297!2024-12-25,130,297-->
 
 <!-- markdownlint MD028 -->
 
@@ -89,7 +89,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 4. on the prime meridian
 > 5. 1 and 2
 >
-> - solution: {{5}} <!--SR:!2025-03-01,184,317-->
+> - solution: {@{5}@} <!--SR:!2025-03-01,184,317-->
 
 <!-- markdownlint MD028 -->
 
@@ -102,20 +102,20 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 5. 41/42 solar days
 > 6. 44/43 solar days
 >
-> - solution: {{3}}
-> - explanation: {{The planet is in retrograde motion. Hence, the number of sidereal days per orbital period is $42 - 1 = 41\text{ sidereal days}$. Thus each sidereal day is $\frac {1 / 41} {1 / 42} = \frac {42} {41}\text{ solar days}$.}} <!--SR:!2025-07-20,276,297!2025-08-20,299,297-->
+> - solution: {@{3}@}
+> - explanation: {@{The planet is in retrograde motion. Hence, the number of sidereal days per orbital period is $42 - 1 = 41\text{ sidereal days}$. Thus each sidereal day is $\frac {1 / 41} {1 / 42} = \frac {42} {41}\text{ solar days}$.}@} <!--SR:!2025-07-20,276,297!2025-08-20,299,297-->
 
 ## 2024-07-02
 
 > Q1. (lecture) What would seasons be like for a planet with 90 degree axial tilt?
 >
-> - solution: {{There would be no seasons. Instead, every location is daytime for half the orbital period and nighttime for the other half, like the north and south pole on Earth. Likely unliveable.}} <!--SR:!2025-09-25,343,348-->
+> - solution: {@{There would be no seasons. Instead, every location is daytime for half the orbital period and nighttime for the other half, like the north and south pole on Earth. Likely unliveable.}@} <!--SR:!2025-09-25,343,348-->
 
 <!-- markdownlint MD028 -->
 
 > Q2. (lecture) When will the Sun rise exactly due east and set exactly due west?
 >
-> - solution: {{During the equinoxes.}} <!--SR:!2025-09-27,345,348-->
+> - solution: {@{During the equinoxes.}@} <!--SR:!2025-09-27,345,348-->
 
 <!-- markdownlint MD028 -->
 
@@ -127,7 +127,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 4. winter solstice
 > 5. 1 and 3
 >
-> - solution: {{5}} <!--SR:!2025-09-27,345,350-->
+> - solution: {@{5}@} <!--SR:!2025-09-27,345,350-->
 
 <!-- markdownlint MD028 -->
 
@@ -140,8 +140,8 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 5. 420 years
 > 6. 60 years
 >
-> - solution: {{2}}
-> - explanation: {{Since the relative orbital motion between the planet and the satellite is prograde, apply the equation: $$\frac 1 {T_\text{syn} } = \frac 1 {T_1} - \frac 1 {T_2} \quad T_1 < T_2$$. Thus we have $T_\text{syn} = \frac 1 {\frac 1 {T_1} - \frac 1 {T_2} } = \frac 1 {\frac 1 {69} - \frac 1 {420} } \approx 82.564\,1026 \approx 83\text{ years}$.}} <!--SR:!2025-01-10,118,270!2024-12-30,112,270-->
+> - solution: {@{2}@}
+> - explanation: {@{Since the relative orbital motion between the planet and the satellite is prograde, apply the equation: $$\frac 1 {T_\text{syn} } = \frac 1 {T_1} - \frac 1 {T_2} \quad T_1 < T_2$$. Thus we have $T_\text{syn} = \frac 1 {\frac 1 {T_1} - \frac 1 {T_2} } = \frac 1 {\frac 1 {69} - \frac 1 {420} } \approx 82.564\,1026 \approx 83\text{ years}$.}@} <!--SR:!2025-01-10,118,270!2024-12-30,112,270-->
 
 <!-- markdownlint MD028 -->
 
@@ -154,7 +154,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 5. 1 and 2
 > 6. 3 and 4
 >
-> - solution: {{5}} <!--SR:!2025-09-27,345,350-->
+> - solution: {@{5}@} <!--SR:!2025-09-27,345,350-->
 
 <!-- markdownlint MD028 -->
 
@@ -167,8 +167,8 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 5. 7/8 years
 > 6. 7/6 years
 >
-> - solution: {{6}}
-> - explanation: {{Since the relative orbital motion between the 2 planets is retrograde, apply the equation: $$\frac 1 {T_\text{syn} } = \frac 1 {T_1} + \frac 1 {T_2}$$. Thus we have $T_2 = \frac 1 {\frac 1 {T_\text{syn} } - \frac 1 {T_1} } = \frac 1 {\frac 1 1 - \frac 1 7} = \frac 7 6\text{ years}$.}} <!--SR:!2025-04-08,182,290!2025-01-14,138,310-->
+> - solution: {@{6}@}
+> - explanation: {@{Since the relative orbital motion between the 2 planets is retrograde, apply the equation: $$\frac 1 {T_\text{syn} } = \frac 1 {T_1} + \frac 1 {T_2}$$. Thus we have $T_2 = \frac 1 {\frac 1 {T_\text{syn} } - \frac 1 {T_1} } = \frac 1 {\frac 1 1 - \frac 1 7} = \frac 7 6\text{ years}$.}@} <!--SR:!2025-04-08,182,290!2025-01-14,138,310-->
 
 ## 2024-07-04
 
@@ -180,8 +180,8 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 4. 2 hours
 > 5. 3 hours
 >
-> - solution: {{3}}
-> - explanation: {{Recall that the moonrise time corresponds to the lunar phase cycle. As the cycle resets every 29.5 days, the moonrise time also resets 29.5 days. A moonrise time "reset" happens when the moon rises later by a cumulative time of 1 day. Thus the answer is: $$\frac {24} {29.5} \approx 0.813\,559\,322 \approx 1\text{ hour}$$.}} <!--SR:!2025-01-11,131,312!2025-06-28,254,332-->
+> - solution: {@{3}@}
+> - explanation: {@{Recall that the moonrise time corresponds to the lunar phase cycle. As the cycle resets every 29.5 days, the moonrise time also resets 29.5 days. A moonrise time "reset" happens when the moon rises later by a cumulative time of 1 day. Thus the answer is: $$\frac {24} {29.5} \approx 0.813\,559\,322 \approx 1\text{ hour}$$.}@} <!--SR:!2025-01-11,131,312!2025-06-28,254,332-->
 
 <!-- markdownlint MD028 -->
 
@@ -193,8 +193,8 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 4. 20 days
 > 5. 366 days
 >
-> - solution: {{4}}
-> - explanation: {{Recall that the eclipse season depends on the line of lunar nodes. Consider that the lunar nodes rotates retrograde (clockwise) once about 18.6 years. The answer is: $$\frac {365.25} {18.6} \approx 19.637\,0967 \approx 20\text{ days}$$.}} <!--SR:!2025-05-14,232,332!2025-01-15,121,272-->
+> - solution: {@{4}@}
+> - explanation: {@{Recall that the eclipse season depends on the line of lunar nodes. Consider that the lunar nodes rotates retrograde (clockwise) once about 18.6 years. The answer is: $$\frac {365.25} {18.6} \approx 19.637\,0967 \approx 20\text{ days}$$.}@} <!--SR:!2025-05-14,232,332!2025-01-15,121,272-->
 
 ## 2024-07-09
 
@@ -206,8 +206,8 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 4. proportional to r^(1/2)
 > 5. proportional to r
 >
-> - solution: {{2}}
-> - explanation: {{The orbital period $p$ is proportional to the inverse of angular orbital velocity $1 / \omega$. Further, linear orbital velocity (speed) $v$ relates to angular orbital velocity by $v = r \omega \implies \omega = v / r$. Therefore, $$p^2 \propto r^3 \implies \omega^{-2} \propto r^3 \implies r^2 / v^2 \propto r^3 \implies r^{-1} \propto v^2 \implies v \propto r^{-1 / 2}$$. Therefore the answer is $v \propto r^{-1 / 2}$.}} <!--SR:!2024-12-31,123,321!2025-05-22,234,341-->
+> - solution: {@{2}@}
+> - explanation: {@{The orbital period $p$ is proportional to the inverse of angular orbital velocity $1 / \omega$. Further, linear orbital velocity (speed) $v$ relates to angular orbital velocity by $v = r \omega \implies \omega = v / r$. Therefore, $$p^2 \propto r^3 \implies \omega^{-2} \propto r^3 \implies r^2 / v^2 \propto r^3 \implies r^{-1} \propto v^2 \implies v \propto r^{-1 / 2}$$. Therefore the answer is $v \propto r^{-1 / 2}$.}@} <!--SR:!2024-12-31,123,321!2025-05-22,234,341-->
 
 <!-- markdownlint MD028 -->
 
@@ -219,8 +219,8 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 4. proportional to $r$
 > 5. proportional to $r^2$
 >
-> - solution: {{1}}
-> - explanation: {{The orbital period $T$ is proportional to the inverse of angular orbital velocity $1 / \omega$. Further, linear orbital acceleration $A$ relates to angular orbital velocity by $A = r \omega^2 \implies \omega^2 = A / r$. Therefore, $$T^2 \propto r^3 \implies \omega^{-2} \propto r^3 \implies r / A \propto r^3 \implies r^{-2} \propto A \implies A \propto r^{-2}$$. Therefore the answer is $A \propto r^{-2}$.}} <!--SR:!2025-03-07,163,321!2025-05-22,202,281-->
+> - solution: {@{1}@}
+> - explanation: {@{The orbital period $T$ is proportional to the inverse of angular orbital velocity $1 / \omega$. Further, linear orbital acceleration $A$ relates to angular orbital velocity by $A = r \omega^2 \implies \omega^2 = A / r$. Therefore, $$T^2 \propto r^3 \implies \omega^{-2} \propto r^3 \implies r / A \propto r^3 \implies r^{-2} \propto A \implies A \propto r^{-2}$$. Therefore the answer is $A \propto r^{-2}$.}@} <!--SR:!2025-03-07,163,321!2025-05-22,202,281-->
 
 ## 2024-07-11
 
@@ -234,8 +234,8 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 4. 9.8 km/s
 > 5. 11 km/s
 >
-> - solution: {{3}}
-> - explanation: {{Equate circular acceleration to gravitational acceleration: $$a = g \implies \frac {v^2} r = g \implies v^2 = gr \implies v = \sqrt{gr}$$. Plug in the numbers: $$v = \sqrt{\frac {9.8} {1000} \cdot 6400} = \sqrt{62.72} \approx 7.91959595\text{ km/s}$$. Therefore, the answer is 7.9 km/s.}} <!--SR:!2025-05-08,201,301!2025-01-31,149,321-->
+> - solution: {@{3}@}
+> - explanation: {@{Equate circular acceleration to gravitational acceleration: $$a = g \implies \frac {v^2} r = g \implies v^2 = gr \implies v = \sqrt{gr}$$. Plug in the numbers: $$v = \sqrt{\frac {9.8} {1000} \cdot 6400} = \sqrt{62.72} \approx 7.91959595\text{ km/s}$$. Therefore, the answer is 7.9 km/s.}@} <!--SR:!2025-05-08,201,301!2025-01-31,149,321-->
 
 <!-- markdownlint MD028 -->
 
@@ -247,8 +247,8 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 4. 3 g
 > 5. 30 g
 >
-> - solution: {{2}}
-> - explanation: {{Apply Albert Einstein's famous formula: $$E = mc^2 \implies m = \frac E {c^2}$$. Plug in the numbers: $$E = \frac {2.92 \times 10^12} {(3 \times 10^8)^2} \approx 3.24444444 \times 10^{-5}\text{ kg} \approx 0.03\text{ g}$$. Therefore, the answer is 0.03 g.}} <!--SR:!2025-03-01,158,321!2025-04-11,185,321-->
+> - solution: {@{2}@}
+> - explanation: {@{Apply Albert Einstein's famous formula: $$E = mc^2 \implies m = \frac E {c^2}$$. Plug in the numbers: $$E = \frac {2.92 \times 10^12} {(3 \times 10^8)^2} \approx 3.24444444 \times 10^{-5}\text{ kg} \approx 0.03\text{ g}$$. Therefore, the answer is 0.03 g.}@} <!--SR:!2025-03-01,158,321!2025-04-11,185,321-->
 
 <!-- markdownlint MD028 -->
 
@@ -260,8 +260,8 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 4. 9.8 km/s
 > 5. 11 km/s
 >
-> - solution: {{2}}
-> - explanation: {{Recall that the acceleration due to gravity is inversely proportional to the square of distance: $g \propto \frac 1 {r^2}$. Therefore, the acceleration due to gravity 400 km above the surface is: $$g = 9.8 \cdot \frac {6400^2} {6800^2} \approx 8.68096886\text{ m/s}$$. Now, equate circular acceleration to gravitational acceleration: $$a = g \implies \frac {v^2} r = g \implies v^2 = gr \implies v = \sqrt{gr}$$. Plug in the numbers: $$v = \sqrt{\frac {8.68096886} {1000} \cdot 6800} \approx 7.6831366\text{ km/s}$$. Therefore, the answer is 7.7 km/s.}} <!--SR:!2024-12-14,107,321!2024-11-30,89,301-->
+> - solution: {@{2}@}
+> - explanation: {@{Recall that the acceleration due to gravity is inversely proportional to the square of distance: $g \propto \frac 1 {r^2}$. Therefore, the acceleration due to gravity 400 km above the surface is: $$g = 9.8 \cdot \frac {6400^2} {6800^2} \approx 8.68096886\text{ m/s}$$. Now, equate circular acceleration to gravitational acceleration: $$a = g \implies \frac {v^2} r = g \implies v^2 = gr \implies v = \sqrt{gr}$$. Plug in the numbers: $$v = \sqrt{\frac {8.68096886} {1000} \cdot 6800} \approx 7.6831366\text{ km/s}$$. Therefore, the answer is 7.7 km/s.}@} <!--SR:!2024-12-14,107,321!2024-11-30,89,301-->
 
 <!-- markdownlint MD028 -->
 
@@ -273,8 +273,8 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 4. 100 billion years
 > 5. 1 trillion years
 >
-> - solution: {{3}}
-> - explanation: {{Apply Albert Einstein's famous formula: $$E = mc^2$$. Calculate the total emitted energy over the Sun's lifetime: $$E = 2 \times 10^{30} \cdot 0.001 \cdot (3 \times 10^8)^2 = 1.8 \times 10^{44}\text{ J}$$. Then calculate the Sun's lifetime by dividing it by the power of the Sun: $$t = \frac {1.8 \times 10^{44} } {3.8 \times 10^{26} } \approx 4.73684211 \times 10^{17}\text{ s} \approx 1.5010468 \times 10^{10}\text{ yrs} \approx 15\text{ billion years}$$. Therefore, the answer is 10 billion years.}} <!--SR:!2025-01-02,126,321!2024-12-06,95,301-->
+> - solution: {@{3}@}
+> - explanation: {@{Apply Albert Einstein's famous formula: $$E = mc^2$$. Calculate the total emitted energy over the Sun's lifetime: $$E = 2 \times 10^{30} \cdot 0.001 \cdot (3 \times 10^8)^2 = 1.8 \times 10^{44}\text{ J}$$. Then calculate the Sun's lifetime by dividing it by the power of the Sun: $$t = \frac {1.8 \times 10^{44} } {3.8 \times 10^{26} } \approx 4.73684211 \times 10^{17}\text{ s} \approx 1.5010468 \times 10^{10}\text{ yrs} \approx 15\text{ billion years}$$. Therefore, the answer is 10 billion years.}@} <!--SR:!2025-01-02,126,321!2024-12-06,95,301-->
 
 ## 2024-07-16
 
@@ -287,8 +287,8 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 3. green in color
 > 4. blue in color
 >
-> - solution: {{2}}
-> - explanation: {{Consider the graph of spectral radiance for that star, which peaks at 530 nm. It should look like a hill with somewhat narrow peak. However, the narrow peak should cover the entire visible spectrum. As the spectral radiance is approximately even around the peak, that means it is approximately even over the entire visible spectrum, so the color is white.}} <!--SR:!2024-11-20,83,308!2025-04-24,212,348-->
+> - solution: {@{2}@}
+> - explanation: {@{Consider the graph of spectral radiance for that star, which peaks at 530 nm. It should look like a hill with somewhat narrow peak. However, the narrow peak should cover the entire visible spectrum. As the spectral radiance is approximately even around the peak, that means it is approximately even over the entire visible spectrum, so the color is white.}@} <!--SR:!2024-11-20,83,308!2025-04-24,212,348-->
 
 <!-- markdownlint MD028 -->
 
@@ -300,8 +300,8 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 4. blue
 > 5. purple (not violet)
 >
-> - solution: {{5}}
-> - explanation: {{Purple is the combination of red and blue. However, red and blue are on the two opposite ends of the visible spectrum, so the spectral radiance graph would need to have 2 peaks. This is impossible for thermal radiation to produce, as predicted by the Wien approximation. For more, see [Planckian locus](../../../../general/Planckian%20locus.md).}} <!--SR:!2025-12-27,411,368!2025-12-18,404,368-->
+> - solution: {@{5}@}
+> - explanation: {@{Purple is the combination of red and blue. However, red and blue are on the two opposite ends of the visible spectrum, so the spectral radiance graph would need to have 2 peaks. This is impossible for thermal radiation to produce, as predicted by the Wien approximation. For more, see [Planckian locus](../../../../general/Planckian%20locus.md).}@} <!--SR:!2025-12-27,411,368!2025-12-18,404,368-->
 
 ## 2024-07-18
 
@@ -314,8 +314,8 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 5. No width broadening but red-shifted.
 > 6. No width broadening but blue-shifted.
 >
-> - solution: {{1}}
-> - explanation: {{First, the star is not moving, so the spectral line should be unshifted. Now consider the surface of a very fast rotating star. In particular, consider the left and right sides of the rotating star. The surface of one side is approaching us very quickly, and that of the other side is moving away from us very quickly as well. This would mean part of the light from the star is blue-shifted and another part is red-shifted. The result is that the spectral line broadens.}} <!--SR:!2025-04-21,193,328!2025-12-19,405,368-->
+> - solution: {@{1}@}
+> - explanation: {@{First, the star is not moving, so the spectral line should be unshifted. Now consider the surface of a very fast rotating star. In particular, consider the left and right sides of the rotating star. The surface of one side is approaching us very quickly, and that of the other side is moving away from us very quickly as well. This would mean part of the light from the star is blue-shifted and another part is red-shifted. The result is that the spectral line broadens.}@} <!--SR:!2025-04-21,193,328!2025-12-19,405,368-->
 
 <!-- markdownlint MD028 -->
 
@@ -328,8 +328,8 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 5. blue shift for both stars
 > 6. almost no shift for both stars
 >
-> - solution: {{6}}
-> - explanation: {{When the system is dimmer than what it normally is, it implies one star is in front of the other star. Consider that both stars are always opposite in their orbits. So the stars must be in the part of the orbit closest to or farthest from Earth (this is true for circular orbits, but gets less true the more elliptic the orbits are). That means both stars are moving mostly transversal to Earth, taking into consideration that the system as a whole is not moving. So there should be almost no Doppler shift.}} <!--SR:!2025-04-04,178,328!2025-06-12,212,288-->
+> - solution: {@{6}@}
+> - explanation: {@{When the system is dimmer than what it normally is, it implies one star is in front of the other star. Consider that both stars are always opposite in their orbits. So the stars must be in the part of the orbit closest to or farthest from Earth (this is true for circular orbits, but gets less true the more elliptic the orbits are). That means both stars are moving mostly transversal to Earth, taking into consideration that the system as a whole is not moving. So there should be almost no Doppler shift.}@} <!--SR:!2025-04-04,178,328!2025-06-12,212,288-->
 
 ## 2024-07-23
 
@@ -341,8 +341,8 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 4. 0.684 W/m^2
 > 5. 4.92 W/m^2
 >
-> - solution: {{2}}
-> - explanation: {{Since both magnitudes are apparent, they are already directly describing the power of light per unit area reaching Earth, so we do not need to consider distance. Calculate the factor of the Moon's intensity over the Sun using the definition: $$f = 100^{-(-12.74 - (-26.832)) / 5} = 100^{-14.092 / 5} = 100^{-2.8184} \approx 2.30780973 \times 10^{-6}$$. Then multiply the solar constant by the factor to get the answer: $$I = 1370 \cdot 2.30780973 \times 10^{-6} \approx 0.0031616993~\mathrm{W/m^2}$$. So the answer is 0.00316 W/m<sup>2</sup>,}} <!--SR:!2025-05-28,238,351!2025-01-06,111,311-->
+> - solution: {@{2}@}
+> - explanation: {@{Since both magnitudes are apparent, they are already directly describing the power of light per unit area reaching Earth, so we do not need to consider distance. Calculate the factor of the Moon's intensity over the Sun using the definition: $$f = 100^{-(-12.74 - (-26.832)) / 5} = 100^{-14.092 / 5} = 100^{-2.8184} \approx 2.30780973 \times 10^{-6}$$. Then multiply the solar constant by the factor to get the answer: $$I = 1370 \cdot 2.30780973 \times 10^{-6} \approx 0.0031616993~\mathrm{W/m^2}$$. So the answer is 0.00316 W/m<sup>2</sup>,}@} <!--SR:!2025-05-28,238,351!2025-01-06,111,311-->
 
 <!-- markdownlint MD028 -->
 
@@ -354,8 +354,8 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 4. 25&nbsp;000 km
 > 5. 2500&nbsp;000 km
 >
-> - solution: {{2}}
-> - explanation: {{Using the Rayleigh criterion, the angular resolution in radians is $$\theta = 1.22 \frac {500 \times 10^{-9} } {3 \times 10^{-3} } \approx 0.000203333333~\mathrm{rad}$$. Setup a trigonometric equation: $$\tan (\theta / 2) = \frac {5 / 2} d$$, where $d$ is the distance to the Great Wall (in meters). Since the angle is small, we can use small angle approximation to save work: $$\theta / 2 \approx \frac {5 / 2} d \implies \theta \approx \frac 5 d \implies d \approx \frac 5 \theta = \frac 5 {0.000203333333} \approx 24590.16~\mathrm{m} \approx 24.6~\mathrm{km}$$. So the answer is 25 km.}} <!--SR:!2026-01-08,422,371!2025-02-13,140,311-->
+> - solution: {@{2}@}
+> - explanation: {@{Using the Rayleigh criterion, the angular resolution in radians is $$\theta = 1.22 \frac {500 \times 10^{-9} } {3 \times 10^{-3} } \approx 0.000203333333~\mathrm{rad}$$. Setup a trigonometric equation: $$\tan (\theta / 2) = \frac {5 / 2} d$$, where $d$ is the distance to the Great Wall (in meters). Since the angle is small, we can use small angle approximation to save work: $$\theta / 2 \approx \frac {5 / 2} d \implies \theta \approx \frac 5 d \implies d \approx \frac 5 \theta = \frac 5 {0.000203333333} \approx 24590.16~\mathrm{m} \approx 24.6~\mathrm{km}$$. So the answer is 25 km.}@} <!--SR:!2026-01-08,422,371!2025-02-13,140,311-->
 
 <!-- markdownlint MD028 -->
 
@@ -372,8 +372,8 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 4. 8 × 10^6 L_Sun
 > 5. 10^7 L_Sun
 >
-> - solution: {{1}}
-> - explanation: {{Notice that $C$ is not given for two cases. So the main problem is calculating $C$. The main thing to realize is that w expect for masses in the boundary points between two equations, the two equations should predict the same value, i.e. a continuous function. We only need the $C$ for the third case: $$55^{3.5} = C \cdot 55^1 \implies C = 55^{2.5} \approx 22434.0004$$. Then the rest is a simple matter of applying the formula: $$L = 22434.0004 \cdot 100^1 \approx 2.24 \times 10^6~\mathrm{solar\ luminosity}$$. So the answer is 2×10<sup>6</sup> L<sub>Sun</sub>.}} <!--SR:!2025-09-16,309,351!2024-11-25,88,311-->
+> - solution: {@{1}@}
+> - explanation: {@{Notice that $C$ is not given for two cases. So the main problem is calculating $C$. The main thing to realize is that w expect for masses in the boundary points between two equations, the two equations should predict the same value, i.e. a continuous function. We only need the $C$ for the third case: $$55^{3.5} = C \cdot 55^1 \implies C = 55^{2.5} \approx 22434.0004$$. Then the rest is a simple matter of applying the formula: $$L = 22434.0004 \cdot 100^1 \approx 2.24 \times 10^6~\mathrm{solar\ luminosity}$$. So the answer is 2×10<sup>6</sup> L<sub>Sun</sub>.}@} <!--SR:!2025-09-16,309,351!2024-11-25,88,311-->
 
 <!-- markdownlint MD028 -->
 
@@ -384,8 +384,8 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 3. 5.8×10<sup>5</sup> AU
 > 4. 24 AU
 >
-> - solution: {{3}}
-> - explanation: {{Find the factor the Sun needs to be dimmer to have an apparent magnitude of 1.98: $$f_B = 100^{-\frac {1.98 - (-26.832)} 5} = 100^{-5.7624} \approx 2.98675776 \times 10^{-12}$$. As the apparent brightness is inversely proportional to the square of distance, the factor the Sun needs to be farther away is $$f_d = 1 / \sqrt{2.98675776 \times 10^{-12} } \approx 578628.74$$. As the Sun is 1 AU away, the answer is about 5.8×10<sup>5</sup> AU.}} <!--SR:!2025-04-09,151,271!2025-04-19,174,291-->
+> - solution: {@{3}@}
+> - explanation: {@{Find the factor the Sun needs to be dimmer to have an apparent magnitude of 1.98: $$f_B = 100^{-\frac {1.98 - (-26.832)} 5} = 100^{-5.7624} \approx 2.98675776 \times 10^{-12}$$. As the apparent brightness is inversely proportional to the square of distance, the factor the Sun needs to be farther away is $$f_d = 1 / \sqrt{2.98675776 \times 10^{-12} } \approx 578628.74$$. As the Sun is 1 AU away, the answer is about 5.8×10<sup>5</sup> AU.}@} <!--SR:!2025-04-09,151,271!2025-04-19,174,291-->
 
 <!-- markdownlint MD028 -->
 
@@ -400,8 +400,8 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 7. 7.5 m
 > 8. 1.5 m
 >
-> - solution: {{1}}
-> - explanation: {{To have a maximum error of 0.5 km, the measurement interval is twice that: 1 km (primary school things). Calculate the angular size of 1 km from 1 AU away, using the small angle approximation: $$\theta \approx \frac {1000} {149\,597\,870\,700} \approx 6.68458712 \times 10^{-9}$$. This is the angular resolution required. Calculate the minimum aperture required using the Rayleigh criterion: $$\theta \approx 1.22 \frac \lambda D \implies D \approx 1.22 \frac \lambda \theta = 1.22 \frac {500 \times 10^{-9} } {6.68458712 \times 10^{-9} } \approx 91.254701~\mathrm{m}$$. So the answer is 90 m. That is a giant telescope indeed.}} <!--SR:!2025-07-31,287,351!2025-05-19,211,331-->
+> - solution: {@{1}@}
+> - explanation: {@{To have a maximum error of 0.5 km, the measurement interval is twice that: 1 km (primary school things). Calculate the angular size of 1 km from 1 AU away, using the small angle approximation: $$\theta \approx \frac {1000} {149\,597\,870\,700} \approx 6.68458712 \times 10^{-9}$$. This is the angular resolution required. Calculate the minimum aperture required using the Rayleigh criterion: $$\theta \approx 1.22 \frac \lambda D \implies D \approx 1.22 \frac \lambda \theta = 1.22 \frac {500 \times 10^{-9} } {6.68458712 \times 10^{-9} } \approx 91.254701~\mathrm{m}$$. So the answer is 90 m. That is a giant telescope indeed.}@} <!--SR:!2025-07-31,287,351!2025-05-19,211,331-->
 
 <!-- markdownlint MD028 -->
 
@@ -413,8 +413,8 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 4. 220 solar masses
 > 5. 5400 solar masses
 >
-> - solution: {{4}}
-> - explanation: {{Assuming the fuel burnt is proportional to luminosity. Then, the lifetime of a star is: $$\tau = M / L \propto M^{-3}$$. Derive the proportionality between mass and luminosity: $$M / L \propto M^{-3} \implies M^4 \propto L \implies M \propto L^{0.25}$$. So the star mass is predicted to be: $$(2147\,483\,647)^{0.25} \approx 215.269482~\mathrm{solar\ masses}$$. So the answer is 220 solar masses.}} <!--SR:!2025-01-22,120,311!2025-01-03,111,311-->
+> - solution: {@{4}@}
+> - explanation: {@{Assuming the fuel burnt is proportional to luminosity. Then, the lifetime of a star is: $$\tau = M / L \propto M^{-3}$$. Derive the proportionality between mass and luminosity: $$M / L \propto M^{-3} \implies M^4 \propto L \implies M \propto L^{0.25}$$. So the star mass is predicted to be: $$(2147\,483\,647)^{0.25} \approx 215.269482~\mathrm{solar\ masses}$$. So the answer is 220 solar masses.}@} <!--SR:!2025-01-22,120,311!2025-01-03,111,311-->
 
 ## 2024-07-25
 
@@ -426,8 +426,8 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 4. A star with ten times the mass of our Sun
 > 5. All of these stars take the same time to get to the main sequence
 >
-> - solution: {{4}}
-> - explanation: {{A fundamental feature of stellar evolution is that the greater the mass, the faster the evolution.}} <!--SR:!2025-12-03,391,381!2024-11-20,90,361-->
+> - solution: {@{4}@}
+> - explanation: {@{A fundamental feature of stellar evolution is that the greater the mass, the faster the evolution.}@} <!--SR:!2025-12-03,391,381!2024-11-20,90,361-->
 
 <!-- markdownlint MD028 -->
 
@@ -439,7 +439,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 4. are no longer forming in the Milky Way galaxy; they only formed very early in the Milky Way galaxy's history
 > 5. they are significantly less luminous after the main sequence stage is over
 >
-> - solution: {{3}} <!--SR:!2024-11-14,84,361-->
+> - solution: {@{3}@} <!--SR:!2024-11-14,84,361-->
 
 <!-- markdownlint MD028 -->
 
@@ -450,7 +450,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 3. It was produced by previous massive stars which expelled some heavy elements during the explosions when they died.
 > 4. It was produced by fission of even heavier elements in the Sun.
 >
-> - solution: {{3}} <!--SR:!2025-11-03,367,381-->
+> - solution: {@{3}@} <!--SR:!2025-11-03,367,381-->
 
 ## 2024-07-30
 
@@ -464,8 +464,8 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 4. 10^(-15) m
 > 5. 10^(-10) m
 >
-> - solution: {{2}}
-> - explanation: {{Apply the equation for Schwarzschild radius: $$r_s = \frac {2 \cdot 6.67 \times 10^{-11} \cdot 70} {299\,792\,458^2} \approx 1.03899262 \times 10^{-25}~\mathrm{m}$$. So the answer is 10<sup>-25</sup> m.}} <!--SR:!2025-05-28,223,345!2025-01-24,122,325-->
+> - solution: {@{2}@}
+> - explanation: {@{Apply the equation for Schwarzschild radius: $$r_s = \frac {2 \cdot 6.67 \times 10^{-11} \cdot 70} {299\,792\,458^2} \approx 1.03899262 \times 10^{-25}~\mathrm{m}$$. So the answer is 10<sup>-25</sup> m.}@} <!--SR:!2025-05-28,223,345!2025-01-24,122,325-->
 
 <!-- markdownlint MD028 -->
 
@@ -478,8 +478,8 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 5. 7.85×10<sup>13</sup> ly
 > 6. 7.85×10<sup>16</sup> ly
 >
-> - solution: {{1}}
-> - explanation: {{Apply the equation for Schwarzschild radius: $$r_s = \frac {2 \cdot 6.674\,30 \times 10^{-11} \cdot 10^{53} } {299\,792\,458^2} \approx 1.485\,232\,05 \times 10^{27}~\mathrm{m} \approx 1.569\,9251 \times 10^{11}~\mathrm{ly}$$. So the answer is 1.57×10<sup>11</sup> ly.}} <!--SR:!2025-01-20,104,285!2025-04-03,175,345-->
+> - solution: {@{1}@}
+> - explanation: {@{Apply the equation for Schwarzschild radius: $$r_s = \frac {2 \cdot 6.674\,30 \times 10^{-11} \cdot 10^{53} } {299\,792\,458^2} \approx 1.485\,232\,05 \times 10^{27}~\mathrm{m} \approx 1.569\,9251 \times 10^{11}~\mathrm{ly}$$. So the answer is 1.57×10<sup>11</sup> ly.}@} <!--SR:!2025-01-20,104,285!2025-04-03,175,345-->
 
 ## 2024-08-01
 
@@ -491,7 +491,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 4. In the formation of a star, no matter is wasted as all excess material ends up recycled into planets.
 > 5. Life is continuously being spread from star to star in a galaxy.
 >
-> - solution: {{2}} <!--SR:!2024-11-28,91,365-->
+> - solution: {@{2}@} <!--SR:!2024-11-28,91,365-->
 
 <!-- markdownlint MD028 -->
 
@@ -503,7 +503,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 4. In the nuclear bulge
 > 5. The chances of finding a very young star are the same anywhere in the Milky Way galaxy
 >
-> - solution: {{3}} <!--SR:!2024-11-27,90,365-->
+> - solution: {@{3}@} <!--SR:!2024-11-27,90,365-->
 
 <!-- markdownlint MD028 -->
 
@@ -515,8 +515,8 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 4. 10^12 solar masses
 > 5. 10^14 solar masses
 >
-> - solution: {{4}}
-> - explanation: {{Apply the orbital velocity equation: $$M = \frac {rv^2} G = \frac {100\,000 \cdot 9460\,730\,472\,580\,800 \cdot \left(400 \times 10^{3} \right)^2 } {\cdot 6.674\,30 \times 10^{-11} } \approx 2.26797848e42~\mathrm{kg} \approx \frac {2.26797848 \times 10^{42} } {1.9885 \times 10^{30} }~\mathrm{solar\ masses} \approx 1.1405474 \times 10^{12}~\mathrm{solar\ masses}$$. So the answer is 10^12 solar masses. Alternatively, one can use the proportionality relation $$M \propto rv^2$$, but one needs to recall that the Sun is ~26&nbsp;000 ly (~8 kpc) away from the center and has a galactic orbital velocity of ~230 km/s.}} <!--SR:!2025-02-23,145,325!2024-12-28,100,305-->
+> - solution: {@{4}@}
+> - explanation: {@{Apply the orbital velocity equation: $$M = \frac {rv^2} G = \frac {100\,000 \cdot 9460\,730\,472\,580\,800 \cdot \left(400 \times 10^{3} \right)^2 } {\cdot 6.674\,30 \times 10^{-11} } \approx 2.26797848e42~\mathrm{kg} \approx \frac {2.26797848 \times 10^{42} } {1.9885 \times 10^{30} }~\mathrm{solar\ masses} \approx 1.1405474 \times 10^{12}~\mathrm{solar\ masses}$$. So the answer is 10^12 solar masses. Alternatively, one can use the proportionality relation $$M \propto rv^2$$, but one needs to recall that the Sun is ~26&nbsp;000 ly (~8 kpc) away from the center and has a galactic orbital velocity of ~230 km/s.}@} <!--SR:!2025-02-23,145,325!2024-12-28,100,305-->
 
 <!-- markdownlint MD028 -->
 
@@ -536,8 +536,8 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 4. 0.1 times
 > 5. 0.001 times
 >
-> - solution: {{1}}
-> - explanation: {{The typical radius of a white dwarf is not given. However, consider the energy exploded: $$E = \frac {GM^2} {10 \times 10^3} - \frac {GM^2} x = GM^2 \left(\frac 1 {10 \times 10^3} - \frac 1 x\right)$$, where $x$ is the typical radius of a white dwarf. One would realize, given that $x \ge 1000 \times 10^3$, since $x \gg 10 \times 10^3$, so $$\frac 1 {10 \times 10^3} - \frac 1 x \approx \frac 1 {10 \times 10^3}$$, which is a good enough approximation for this question. So, using the above approximation, calculate the energy released: $$E = {GM^2} {10 \times 10^3} = \frac {6.674\,30 \times 10^{-11} \cdot \left( 2 \cdot 1.9885 \times 10^{30} \right)^2} {10 \times 10^3} \approx 1.055\,6426 \times 10^{47}~\mathrm{J}$$. Then, calculate the energy released by the Sun over its lifetime: $$E_\odot = 3.828 \times 10^{26} \cdot 10 \times 10^9 \times \cdot 365.25 \times 86\,400 \approx 1.208\,024\,93 \times 10^{44}~\mathrm{J}$$. Now divide the first number by the second number to get the answer: $$\frac E {E_\odot} = \frac {1.055\,6426 \times 10^{47} } {1.208\,024\,93 \times 10^{44} } \approx 873.8583$$. So the answer is 1000 times.}} <!--SR:!2025-05-24,215,345!2024-12-14,98,325-->
+> - solution: {@{1}@}
+> - explanation: {@{The typical radius of a white dwarf is not given. However, consider the energy exploded: $$E = \frac {GM^2} {10 \times 10^3} - \frac {GM^2} x = GM^2 \left(\frac 1 {10 \times 10^3} - \frac 1 x\right)$$, where $x$ is the typical radius of a white dwarf. One would realize, given that $x \ge 1000 \times 10^3$, since $x \gg 10 \times 10^3$, so $$\frac 1 {10 \times 10^3} - \frac 1 x \approx \frac 1 {10 \times 10^3}$$, which is a good enough approximation for this question. So, using the above approximation, calculate the energy released: $$E = {GM^2} {10 \times 10^3} = \frac {6.674\,30 \times 10^{-11} \cdot \left( 2 \cdot 1.9885 \times 10^{30} \right)^2} {10 \times 10^3} \approx 1.055\,6426 \times 10^{47}~\mathrm{J}$$. Then, calculate the energy released by the Sun over its lifetime: $$E_\odot = 3.828 \times 10^{26} \cdot 10 \times 10^9 \times \cdot 365.25 \times 86\,400 \approx 1.208\,024\,93 \times 10^{44}~\mathrm{J}$$. Now divide the first number by the second number to get the answer: $$\frac E {E_\odot} = \frac {1.055\,6426 \times 10^{47} } {1.208\,024\,93 \times 10^{44} } \approx 873.8583$$. So the answer is 1000 times.}@} <!--SR:!2025-05-24,215,345!2024-12-14,98,325-->
 
 ## 2024-08-06
 
@@ -549,7 +549,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 4. (1) and (3)
 > 5. (2) and (3)
 >
-> - solution: {{5}} <!--SR:!2025-08-29,300,375-->
+> - solution: {@{5}@} <!--SR:!2025-08-29,300,375-->
 
 <!-- markdownlint MD028 -->
 
@@ -561,8 +561,8 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 4. 24000 pc
 > 5. 240000 pc
 >
-> - solution: {{3}}
-> - explanation: {{If the period of a Cepheid variable is 10 days, according to the (average) luminosity—period log graph, it has a luminosity of 3000 solar luminosities. Find the absolute magnitude $M$ of the Cepheid variable: $$M = 4.83 - 5 \log_{100} 3000 \approx -3.86280314$$. Then apply the m & M equation to find its distance: $$d = 10^{\frac {m - M + 5} 5} = 10^{\frac {8 - (-3.86280314) + 5} 5} = 10^{3.372560628} \approx 2358.0913~\mathrm{pc}$$. So the answer is 2400 pc.}} <!--SR:!2024-11-23,73,355!2025-01-17,106,315-->
+> - solution: {@{3}@}
+> - explanation: {@{If the period of a Cepheid variable is 10 days, according to the (average) luminosity—period log graph, it has a luminosity of 3000 solar luminosities. Find the absolute magnitude $M$ of the Cepheid variable: $$M = 4.83 - 5 \log_{100} 3000 \approx -3.86280314$$. Then apply the m & M equation to find its distance: $$d = 10^{\frac {m - M + 5} 5} = 10^{\frac {8 - (-3.86280314) + 5} 5} = 10^{3.372560628} \approx 2358.0913~\mathrm{pc}$$. So the answer is 2400 pc.}@} <!--SR:!2024-11-23,73,355!2025-01-17,106,315-->
 
 <!-- markdownlint MD028 -->
 
@@ -574,8 +574,8 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 4. 3.3 Gpc
 > 5. 27 Gpc
 >
-> - solution: {{4}}
-> - explanation: {{70% the speed of light (~300&nbsp;000 km/s) is approximately 210&nbsp;000 km/s. Divide this by the Hubble's constant: $$\frac {210\,000~\mathrm{km/s} } {64~\mathrm{(km/s)/Mpc} } = 3281.25~\mathrm{Mpc} = 3.28125~\mathrm{Gpc}$$. So the answer is 3.3 Gpc.}} <!--SR:!2024-11-20,70,355!2025-02-13,126,335-->
+> - solution: {@{4}@}
+> - explanation: {@{70% the speed of light (~300&nbsp;000 km/s) is approximately 210&nbsp;000 km/s. Divide this by the Hubble's constant: $$\frac {210\,000~\mathrm{km/s} } {64~\mathrm{(km/s)/Mpc} } = 3281.25~\mathrm{Mpc} = 3.28125~\mathrm{Gpc}$$. So the answer is 3.3 Gpc.}@} <!--SR:!2024-11-20,70,355!2025-02-13,126,335-->
 
 <!-- markdownlint MD028 -->
 
@@ -587,7 +587,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 4. by observations of gravitational lensing
 > 5. by measuring spectral broadening of hydrogen emission lines
 >
-> - solution: {{2}}
+> - solution: {@{2}@}
 > - note: Finally, a question that everyone (who answered) got correctly! The teacher gave away the answer. <!--SR:!2025-08-02,278,375-->
 
 ## student-generated questions
@@ -600,8 +600,8 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 4. 97
 > 5. 100
 >
-> - solution: {{4}}
-> - explanation: {{Calculate the apparent magnitude of star B: $$m_B = 3 + 5 \log_{100} 15 \approx 5.940\,228\,15$$. Then apply the m & M equation: $$d = 10^{(m_B - M_B + 5) / 5} = 10^{(5.940\,228\,15 - 1 + 5) / 5} = 10^{1.988\,045\,62} \approx 97.28494~\mathrm{pc}$$. So the answer is 97.}} <!--SR:!2025-11-23,381,387!2025-06-28,254,367-->
+> - solution: {@{4}@}
+> - explanation: {@{Calculate the apparent magnitude of star B: $$m_B = 3 + 5 \log_{100} 15 \approx 5.940\,228\,15$$. Then apply the m & M equation: $$d = 10^{(m_B - M_B + 5) / 5} = 10^{(5.940\,228\,15 - 1 + 5) / 5} = 10^{1.988\,045\,62} \approx 97.28494~\mathrm{pc}$$. So the answer is 97.}@} <!--SR:!2025-11-23,381,387!2025-06-28,254,367-->
 
 <!-- markdownlint MD028 -->
 
@@ -617,8 +617,8 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 4. D
 > 5. E
 >
-> - solution: {{5}}
-> - explanation: {{White dwarfs have very high surface temperature and are very small. So they have low luminosity. E matches this description. So the answer is E. (Note that the graph is similar to a horizontally flipped Hertzsprung-Russell diagram.)}} <!--SR:!2024-12-01,94,367!2024-12-03,96,367-->
+> - solution: {@{5}@}
+> - explanation: {@{White dwarfs have very high surface temperature and are very small. So they have low luminosity. E matches this description. So the answer is E. (Note that the graph is similar to a horizontally flipped Hertzsprung-Russell diagram.)}@} <!--SR:!2024-12-01,94,367!2024-12-03,96,367-->
 
 <!-- markdownlint MD028 -->
 
@@ -630,8 +630,8 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 4. 11/10 sidereal days
 > 5. 1 sidereal day
 >
-> - solution: {{3}}
-> - explanation: {{The planet is in retrograde motion. Hence, the number of solar days per orbital period is $10 + 1 = 11~\mathrm{solar\ days}$. Thus each solar day is $\frac {1 / 11} {1 / 10} = \frac {10} {11}~\mathrm{sidereal\ days}$.}} <!--SR:!2024-11-18,81,370!2025-09-01,306,370-->
+> - solution: {@{3}@}
+> - explanation: {@{The planet is in retrograde motion. Hence, the number of solar days per orbital period is $10 + 1 = 11~\mathrm{solar\ days}$. Thus each solar day is $\frac {1 / 11} {1 / 10} = \frac {10} {11}~\mathrm{sidereal\ days}$.}@} <!--SR:!2024-11-18,81,370!2025-09-01,306,370-->
 
 <!-- markdownlint MD028 -->
 
@@ -651,8 +651,8 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 4. 20.75 days, but the direction of axial precession should be the same as that of rotation instead
 > 5. 26&nbsp;000 years
 >
-> - solution: {{3}}
-> - explanation: {{This is analogous to a planet orbiting a parent star in retrograde motion. To find the answer: $$\frac 1 {T_{\mathrm{orb} } } + \frac 1 {T_{\mathrm{sid} } } = \frac 1 {T_{\mathrm{sol} } } \implies \frac 1 {T_{\mathrm{orb} } } = \frac 1 {T_{\mathrm{sol} } } - \frac 1 {T_{\mathrm{sid} } } \implies \frac 1 T = \frac 1 {41} - \frac 1 {42} \implies T = \frac 1 {\frac 1 {41} - \frac 1 {42} } = \frac 1 {\frac 1 {1722} } = 1722$$. So the answer is 1722 days. For a detailed explanation, see [SGQ on the tropical year § explanation](SGQ%20on%20the%20tropical%20year.md#explanation).}} <!--SR:!2025-03-30,162,332!2024-11-17,71,352-->
+> - solution: {@{3}@}
+> - explanation: {@{This is analogous to a planet orbiting a parent star in retrograde motion. To find the answer: $$\frac 1 {T_{\mathrm{orb} } } + \frac 1 {T_{\mathrm{sid} } } = \frac 1 {T_{\mathrm{sol} } } \implies \frac 1 {T_{\mathrm{orb} } } = \frac 1 {T_{\mathrm{sol} } } - \frac 1 {T_{\mathrm{sid} } } \implies \frac 1 T = \frac 1 {41} - \frac 1 {42} \implies T = \frac 1 {\frac 1 {41} - \frac 1 {42} } = \frac 1 {\frac 1 {1722} } = 1722$$. So the answer is 1722 days. For a detailed explanation, see [SGQ on the tropical year § explanation](SGQ%20on%20the%20tropical%20year.md#explanation).}@} <!--SR:!2025-03-30,162,332!2024-11-17,71,352-->
 
 ## strip sequence questions
 
@@ -667,8 +667,8 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 7. Waxing gibbous
 > 8. Waxing crescent
 >
-> - solution: {{4 → 8 → 2 → 7 → 3 → 1 → 6 → 5}}
-> - mnemonics: {{New moon and full moon are easily remembered. Then insert the 2 quarters, first quarter and third quarter, respectively in between new moon and full moon, and in between full moon and next new moon. Finally, in between each of the 4 phases, including between third quarter and next new moon, insert the 4 minor phases. The 4 minor phases is a word combination of waxing or waning, and crescent or gibbous. Waxing means "increasing" while waning means "decreasing". Crescent means "sickle moon" while gibbous means "convex" or "protuberant", so the former is thinner than the latter.}} <!--SR:!2025-09-24,328,367!2024-11-16,79,367-->
+> - solution: {@{4 → 8 → 2 → 7 → 3 → 1 → 6 → 5}@}
+> - mnemonics: {@{New moon and full moon are easily remembered. Then insert the 2 quarters, first quarter and third quarter, respectively in between new moon and full moon, and in between full moon and next new moon. Finally, in between each of the 4 phases, including between third quarter and next new moon, insert the 4 minor phases. The 4 minor phases is a word combination of waxing or waning, and crescent or gibbous. Waxing means "increasing" while waning means "decreasing". Crescent means "sickle moon" while gibbous means "convex" or "protuberant", so the former is thinner than the latter.}@} <!--SR:!2025-09-24,328,367!2024-11-16,79,367-->
 
 <!-- markdownlint MD028 -->
 
@@ -682,5 +682,5 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 6. F
 > 7. G
 >
-> - solution: {{4 → 2 → 1 → 6 → 7 → 3 → 5}}
-> - mnemonics: {{<u>O</u>h, <u>B</u>e <u>A</u> <u>F</u>ine <u>G</u>uy/<u>G</u>irl, <u>K</u>iss <u>M</u>e! <br/> <u>O</u>ur <u>B</u>right <u>A</u>stronomers <u>F</u>requently <u>G</u>enerate <u>K</u>iller <u>M</u>nemonics! <br/> <u>O</u>h, <u>B</u>e <u>A</u> <u>F</u>ool <u>G</u>uy, <u>K</u>ill <u>M</u>e! <br/> <u>O</u>h <u>B</u>oy, <u>A</u> <u>F</u> <u>G</u>rade <u>K</u>ills <u>M</u>e!}} <!--SR:!2025-06-28,254,367!2025-06-21,230,347-->
+> - solution: {@{4 → 2 → 1 → 6 → 7 → 3 → 5}@}
+> - mnemonics: {@{<u>O</u>h, <u>B</u>e <u>A</u> <u>F</u>ine <u>G</u>uy/<u>G</u>irl, <u>K</u>iss <u>M</u>e! <br/> <u>O</u>ur <u>B</u>right <u>A</u>stronomers <u>F</u>requently <u>G</u>enerate <u>K</u>iller <u>M</u>nemonics! <br/> <u>O</u>h, <u>B</u>e <u>A</u> <u>F</u>ool <u>G</u>uy, <u>K</u>ill <u>M</u>e! <br/> <u>O</u>h <u>B</u>oy, <u>A</u> <u>F</u> <u>G</u>rade <u>K</u>ills <u>M</u>e!}@} <!--SR:!2025-06-28,254,367!2025-06-21,230,347-->

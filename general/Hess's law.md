@@ -10,7 +10,7 @@ tags:
 
 # Hess's law
 
-__Hess's law of constant heat summation__, or more simply, __Hess's law__, {{states that overall [enthalpy](enthalpy.md) change of a [chemical reaction](chemical%20reaction.md) is independent of the route taken if the initial and final states are the same}}. <!--SR:!2025-07-02,612,310-->
+__Hess's law of constant heat summation__, or more simply, __Hess's law__, {@{states that overall [enthalpy](enthalpy.md) change of a [chemical reaction](chemical%20reaction.md) is independent of the route taken if the initial and final states are the same}@}. <!--SR:!2025-07-02,612,310-->
 
 ## references
 

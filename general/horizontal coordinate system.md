@@ -11,16 +11,16 @@ tags:
 
 # horizontal coordinate system
 
-The __horizontal coordinate system__ is {{a [celestial coordinate system](astronomical%20coordinate%20systems.md) that uses the observer's local [horizon](horizon.md) as the [fundamental plane](fundamental%20plane%20(spherical%20coordinates).md) to define two [angles](angle.md)}}: {{__altitude__ and [__azimuth__](azimuth.md)}}. <!--SR:!2025-02-23,176,310!2025-01-21,127,250-->
+The __horizontal coordinate system__ is {@{a [celestial coordinate system](astronomical%20coordinate%20systems.md) that uses the observer's local [horizon](horizon.md) as the [fundamental plane](fundamental%20plane%20(spherical%20coordinates).md) to define two [angles](angle.md)}@}: {@{__altitude__ and [__azimuth__](azimuth.md)}@}. <!--SR:!2025-02-23,176,310!2025-01-21,127,250-->
 
 ## definition
 
-This [celestial coordinate system](astronomical%20coordinate%20systems.md) divides {{the [sky](sky.md) into two [hemispheres](sphere.md)}}: {{the upper (but not necessarily [northern](northern%20celestial%20hemisphere.md)) and the lower (but not necessarily [southern](southern%20celestial%20hemisphere.md)) hemisphere}}. In the former, objects are {{above the [horizon](horizon.md) and visible, while for the latter, they are below and hidden}}. The [great circle](great%20circle.md) separating the hemispheres is called the {{__celestial horizon__}}. The pole of the upper hemisphere is {{the [zenith](zenith.md) while that of the lower hemisphere is the [nadir](nadir.md)}}. The [great circle](great%20circle.md) running through {{the zenith, the nadir, and the north and south [celestial poles](celestial%20pole.md) (alternatively, the [true north](true%20north.md) and [south](south.md))}} is {{the [meridian](meridian%20(astronomy).md)}}. <!--SR:!2025-04-20,226,330!2025-08-07,311,330!2025-01-22,156,310!2025-01-10,105,270!2025-06-05,240,290!2025-01-09,130,290!2024-12-05,113,290-->
+This [celestial coordinate system](astronomical%20coordinate%20systems.md) divides {@{the [sky](sky.md) into two [hemispheres](sphere.md)}@}: {@{the upper (but not necessarily [northern](northern%20celestial%20hemisphere.md)) and the lower (but not necessarily [southern](southern%20celestial%20hemisphere.md)) hemisphere}@}. In the former, objects are {@{above the [horizon](horizon.md) and visible, while for the latter, they are below and hidden}@}. The [great circle](great%20circle.md) separating the hemispheres is called the {@{__celestial horizon__}@}. The pole of the upper hemisphere is {@{the [zenith](zenith.md) while that of the lower hemisphere is the [nadir](nadir.md)}@}. The [great circle](great%20circle.md) running through {@{the zenith, the nadir, and the north and south [celestial poles](celestial%20pole.md) (alternatively, the [true north](true%20north.md) and [south](south.md))}@} is {@{the [meridian](meridian%20(astronomy).md)}@}. <!--SR:!2025-04-20,226,330!2025-08-07,311,330!2025-01-22,156,310!2025-01-10,105,270!2025-06-05,240,290!2025-01-09,130,290!2024-12-05,113,290-->
 
-The following are {{the two independent horizontal [angular coordinates](spherical%20coordinate%20system.md)}}: <!--SR:!2025-02-19,163,310-->
+The following are {@{the two independent horizontal [angular coordinates](spherical%20coordinate%20system.md)}@}: <!--SR:!2025-02-19,163,310-->
 
-- altitude (alt.) ::: Also referred to as elevation or apparent height. It is the angle between the object and the horizon. Positive means above the horizon. <!--SR:!2025-01-16,138,290!2025-04-26,229,330-->
-- azimuth (az.) ::: It is the angle of the object around the horizon. Usually measured from [true north](true%20north.md) and increasing [eastward](east.md). <!--SR:!2024-12-16,44,250!2025-02-21,176,310-->
+- altitude (alt.) ::@:: Also referred to as elevation or apparent height. It is the angle between the object and the horizon. Positive means above the horizon. <!--SR:!2025-01-16,138,290!2025-04-26,229,330-->
+- azimuth (az.) ::@:: It is the angle of the object around the horizon. Usually measured from [true north](true%20north.md) and increasing [eastward](east.md). <!--SR:!2024-12-16,44,250!2025-02-21,176,310-->
 
 ## references
 

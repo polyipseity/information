@@ -8,11 +8,11 @@ tags:
 
 # quartz
 
-> | {{α-quartz}} | {{β-quartz}} |
+> | {@{α-quartz}@} | {@{β-quartz}@} |
 > |-|-|
-> | {{![structure of α-quartz](../archives/Wikimedia%20Commons/Α-Quartz.svg)}} | {{![structure of β-quartz](../archives/Wikimedia%20Commons/Β-Quartz.svg)}} |
+> | {@{![structure of α-quartz](../archives/Wikimedia%20Commons/Α-Quartz.svg)}@} | {@{![structure of β-quartz](../archives/Wikimedia%20Commons/Β-Quartz.svg)}@} |
 >
-> {{structure of quartz}} <!--SR:!2026-08-10,930,330!2026-08-14,934,330!2026-09-14,747,250!2025-02-13,196,190!2025-08-15,600,310-->
+> {@{structure of quartz}@} <!--SR:!2026-08-10,930,330!2026-08-14,934,330!2026-09-14,747,250!2025-02-13,196,190!2025-08-15,600,310-->
 
 ## references
 

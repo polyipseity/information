@@ -19,22 +19,22 @@ tags:
 
 > __polytropic process__
 >
-> {{$$pV^n = C$$}}
+> {@{$$pV^n = C$$}@}
 >
 > - where
->   - {{$p$ is the [pressure](pressure.md), $V$ is the [volume](volume.md), $n$ is the __polytropic index__, and $C$ is a [constant](constant%20(mathematics).md)}} <!--SR:!2024-11-16,256,330!2027-10-20,1091,350-->
+>   - {@{$p$ is the [pressure](pressure.md), $V$ is the [volume](volume.md), $n$ is the __polytropic index__, and $C$ is a [constant](constant%20(mathematics).md)}@} <!--SR:!2024-11-16,256,330!2027-10-20,1091,350-->
 
 ## relation between polytropic index and energy transfer ratio
 
 > __relation between polytropic index and energy transfer ratio__
 >
-> {{$$pV^{(1 - \gamma)K + \gamma} = C$$}}
+> {@{$$pV^{(1 - \gamma)K + \gamma} = C$$}@}
 >
 > - where
->   - {{$p$ is the [pressure](pressure.md), $V$ is the [volume](volume.md), and $C$ is a [constant](constant%20(mathematics).md)}}
->   - {{$\gamma$ is the [heat capacity ratio](heat%20capacity%20ratio.md) and $K = \frac{\delta Q}{\delta W}$ is the energy transfer ratio}}
->   - {{thus the __polytropic index__ is $n = (1 - \gamma)K + \gamma$}}
-> - conditions: {{[ideal gas](ideal%20gas.md)}} <!--SR:!2025-01-15,208,230!2026-01-30,532,310!2025-04-18,324,290!2025-07-04,414,310!2025-02-15,187,349-->
+>   - {@{$p$ is the [pressure](pressure.md), $V$ is the [volume](volume.md), and $C$ is a [constant](constant%20(mathematics).md)}@}
+>   - {@{$\gamma$ is the [heat capacity ratio](heat%20capacity%20ratio.md) and $K = \frac{\delta Q}{\delta W}$ is the energy transfer ratio}@}
+>   - {@{thus the __polytropic index__ is $n = (1 - \gamma)K + \gamma$}@}
+> - conditions: {@{[ideal gas](ideal%20gas.md)}@} <!--SR:!2025-01-15,208,230!2026-01-30,532,310!2025-04-18,324,290!2025-07-04,414,310!2025-02-15,187,349-->
 
 The relation between polytropic index and energy transfer ratio can be derived as follows:
 
@@ -50,7 +50,7 @@ U & = \frac{f}2nRT = \frac{nRT}{\gamma - 1} \\
 & = \frac{(K - 1)nRT}V \,\mathrm{d}V \\
 \frac{1}{T(\gamma - 1)} \,\mathrm{d}T & = \frac{K - 1}V \,\mathrm{d}V \\
 \frac{\ln T}{\gamma - 1} & = (K - 1)\ln V + C \\
-T^{\frac1{\gamma - 1}} & = V^{K - 1}C \\
+T^{\frac1{\gamma - 1}@} & = V^{K - 1}C \\
 T & = V^{(K - 1)(\gamma - 1)}C \\
 \frac{pV}{nR} & = V^{(K - 1)(\gamma - 1)}C \\
 pV^{1 + (K - 1)(1 - \gamma)} & = C \\
@@ -106,41 +106,41 @@ return _chain.from_iterable(await _gather(
 
 <!--pytextgen generate section="577a"--><!-- The following content is generated at 2024-01-04T20:17:52.495477+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←_n_ < 0 <!--SR:!2026-11-20,814,330!2024-12-20,282,330-->
-- _n_ < 0→:::←_n_ = 0 <!--SR:!2027-07-09,1009,350!2026-01-18,582,330-->
-- _n_ = 0→:::←0 < _n_ < 1 <!--SR:!2024-11-25,263,330!2025-01-11,299,330-->
-- 0 < _n_ < 1→:::←_n_ = 1 <!--SR:!2027-12-03,1125,350!2026-03-09,569,310-->
-- _n_ = 1→:::←1 < _n_ < _γ_ <!--SR:!2024-11-15,256,330!2027-06-15,991,350-->
-- 1 < _n_ < _γ_→:::←_n_ = _γ_ <!--SR:!2027-09-05,1055,350!2027-09-18,1065,350-->
-- _n_ = _γ_→:::←_γ_ < _n_ < +∞ <!--SR:!2025-01-03,294,330!2027-10-25,1095,350-->
-- _γ_ < _n_ < +∞→:::←_n_ = +∞ <!--SR:!2027-12-08,1128,350!2024-11-21,261,330-->
-- _n_ = +∞→:::←_(end)_ <!--SR:!2024-11-20,259,330!2027-07-08,1009,350-->
+- _(begin)_→::@::←_n_ < 0 <!--SR:!2026-11-20,814,330!2024-12-20,282,330-->
+- _n_ < 0→::@::←_n_ = 0 <!--SR:!2027-07-09,1009,350!2026-01-18,582,330-->
+- _n_ = 0→::@::←0 < _n_ < 1 <!--SR:!2024-11-25,263,330!2025-01-11,299,330-->
+- 0 < _n_ < 1→::@::←_n_ = 1 <!--SR:!2027-12-03,1125,350!2026-03-09,569,310-->
+- _n_ = 1→::@::←1 < _n_ < _γ_ <!--SR:!2024-11-15,256,330!2027-06-15,991,350-->
+- 1 < _n_ < _γ_→::@::←_n_ = _γ_ <!--SR:!2027-09-05,1055,350!2027-09-18,1065,350-->
+- _n_ = _γ_→::@::←_γ_ < _n_ < +∞ <!--SR:!2025-01-03,294,330!2027-10-25,1095,350-->
+- _γ_ < _n_ < +∞→::@::←_n_ = +∞ <!--SR:!2027-12-08,1128,350!2024-11-21,261,330-->
+- _n_ = +∞→::@::←_(end)_ <!--SR:!2024-11-20,259,330!2027-07-08,1009,350-->
 
 <!--/pytextgen-->
 
 <!--pytextgen generate section="5599"--><!-- The following content is generated at 2024-09-13T23:15:48.088970+08:00. Any edits will be overridden! -->
 
-- _n_ < 0::under [ideal gas law](ideal%20gas%20law.md), [heat](heat.md) and [work](work%20(physics).md) flow in the opposite direction; when [volume](volume.md) increases, [temperature](temperature.md) increases enough to increase [pressure](pressure.md) too <!--SR:!2024-12-10,229,270-->
-- _n_ = 0::$p = C$, equivalent to [isobaric process](isobaric%20process.md) ; under [ideal gas law](ideal%20gas%20law.md), [heat](heat.md) and [work](work%20(physics).md) flow in opposite direction <!--SR:!2027-08-01,1027,350-->
-- 0 < _n_ < 1::under [ideal gas law](ideal%20gas%20law.md), [heat](heat.md) and [work](work%20(physics).md) flow in the opposite direction; when [volume](volume.md) increases, [temperature](temperature.md) increases <!--SR:!2025-03-06,242,250-->
-- _n_ = 1::$pV = C$; under [ideal gas law](ideal%20gas%20law.md), equivalent to [isothermic process](isothermic%20process.md), and [heat](heat.md) and [work](work%20(physics).md) flow in opposite direction <!--SR:!2024-12-02,270,330-->
-- 1 < _n_ < _γ_::under [ideal gas law](ideal%20gas%20law.md), [heat](heat.md) and [work](work%20(physics).md) flow in the opposite direction; when [volume](volume.md) increases, [temperature](temperature.md) decreases <!--SR:!2024-12-05,85,250-->
-- _n_ = _γ_::under [ideal gas law](ideal%20gas%20law.md), equivalent to [isentropic process](isentropic%20process.md), and there is no [heat](heat.md) flow <!--SR:!2027-11-17,1112,350-->
-- _γ_ < _n_ < +∞::under [ideal gas law](ideal%20gas%20law.md), [heat](heat.md) and [work](work%20(physics).md) flow in the same direction <!--SR:!2026-05-24,622,310-->
-- _n_ = +∞::$V = C$, equivalent to [isochoric process](isochoric%20process.md); there is no [work](work%20(physics).md) <!--SR:!2027-11-16,1112,350-->
+- _n_ < 0:@:under [ideal gas law](ideal%20gas%20law.md), [heat](heat.md) and [work](work%20(physics).md) flow in the opposite direction; when [volume](volume.md) increases, [temperature](temperature.md) increases enough to increase [pressure](pressure.md) too <!--SR:!2024-12-10,229,270-->
+- _n_ = 0:@:$p = C$, equivalent to [isobaric process](isobaric%20process.md); under [ideal gas law](ideal%20gas%20law.md), [heat](heat.md) and [work](work%20(physics).md) flow in opposite direction <!--SR:!2027-08-01,1027,350-->
+- 0 < _n_ < 1:@:under [ideal gas law](ideal%20gas%20law.md), [heat](heat.md) and [work](work%20(physics).md) flow in the opposite direction; when [volume](volume.md) increases, [temperature](temperature.md) increases <!--SR:!2025-03-06,242,250-->
+- _n_ = 1:@:$pV = C$; under [ideal gas law](ideal%20gas%20law.md), equivalent to [isothermic process](isothermic%20process.md), and [heat](heat.md) and [work](work%20(physics).md) flow in opposite direction <!--SR:!2024-12-02,270,330-->
+- 1 < _n_ < _γ_:@:under [ideal gas law](ideal%20gas%20law.md), [heat](heat.md) and [work](work%20(physics).md) flow in the opposite direction; when [volume](volume.md) increases, [temperature](temperature.md) decreases <!--SR:!2024-12-05,85,250-->
+- _n_ = _γ_:@:under [ideal gas law](ideal%20gas%20law.md), equivalent to [isentropic process](isentropic%20process.md), and there is no [heat](heat.md) flow <!--SR:!2027-11-17,1112,350-->
+- _γ_ < _n_ < +∞:@:under [ideal gas law](ideal%20gas%20law.md), [heat](heat.md) and [work](work%20(physics).md) flow in the same direction <!--SR:!2026-05-24,622,310-->
+- _n_ = +∞:@:$V = C$, equivalent to [isochoric process](isochoric%20process.md); there is no [work](work%20(physics).md) <!--SR:!2027-11-16,1112,350-->
 
 <!--/pytextgen-->
 
 <!--pytextgen generate section="0033"--><!-- The following content is generated at 2024-09-13T23:15:48.105926+08:00. Any edits will be overridden! -->
 
-- under [ideal gas law](ideal%20gas%20law.md), [heat](heat.md) and [work](work%20(physics).md) flow in the opposite direction; when [volume](volume.md) increases, [temperature](temperature.md) increases enough to increase [pressure](pressure.md) too::_n_ < 0 <!--SR:!2024-11-21,260,330-->
-- $p = C$, equivalent to [isobaric process](isobaric%20process.md); under [ideal gas law](ideal%20gas%20law.md), [heat](heat.md) and [work](work%20(physics).md) flow in opposite direction::_n_ = 0 <!--SR:!2027-09-18,1065,350-->
-- under [ideal gas law](ideal%20gas%20law.md), [heat](heat.md) and [work](work%20(physics).md) flow in the opposite direction; when [volume](volume.md) increases, [temperature](temperature.md) increases::0 < _n_ < 1 <!--SR:!2024-12-14,278,330-->
-- $pV = C$; under [ideal gas law](ideal%20gas%20law.md), equivalent to [isothermic process](isothermic%20process.md), and [heat](heat.md) and [work](work%20(physics).md) flow in opposite direction::_n_ = 1 <!--SR:!2024-12-02,269,330-->
-- under [ideal gas law](ideal%20gas%20law.md), [heat](heat.md) and [work](work%20(physics).md) flow in the opposite direction; when [volume](volume.md) increases, [temperature](temperature.md) decreases::1 < _n_ < _γ_ <!--SR:!2026-04-02,582,310-->
-- under [ideal gas law](ideal%20gas%20law.md), equivalent to [isentropic process](isentropic%20process.md), and there is no [heat](heat.md) flow::_n_ = _γ_ <!--SR:!2025-01-04,295,330-->
-- under [ideal gas law](ideal%20gas%20law.md), [heat](heat.md) and [work](work%20(physics).md) flow in the same direction::_γ_ < _n_ < +∞ <!--SR:!2025-01-04,245,270-->
-- $V = C$, equivalent to [isochoric process](isochoric%20process.md); there is no [work](work%20(physics).md)::_n_ = +∞ <!--SR:!2027-07-31,1026,350-->
+- under [ideal gas law](ideal%20gas%20law.md), [heat](heat.md) and [work](work%20(physics).md) flow in the opposite direction; when [volume](volume.md) increases, [temperature](temperature.md) increases enough to increase [pressure](pressure.md) too:@:_n_ < 0 <!--SR:!2024-11-21,260,330-->
+- $p = C$, equivalent to [isobaric process](isobaric%20process.md); under [ideal gas law](ideal%20gas%20law.md), [heat](heat.md) and [work](work%20(physics).md) flow in opposite direction:@:_n_ = 0 <!--SR:!2027-09-18,1065,350-->
+- under [ideal gas law](ideal%20gas%20law.md), [heat](heat.md) and [work](work%20(physics).md) flow in the opposite direction; when [volume](volume.md) increases, [temperature](temperature.md) increases:@:0 < _n_ < 1 <!--SR:!2024-12-14,278,330-->
+- $pV = C$; under [ideal gas law](ideal%20gas%20law.md), equivalent to [isothermic process](isothermic%20process.md), and [heat](heat.md) and [work](work%20(physics).md) flow in opposite direction:@:_n_ = 1 <!--SR:!2024-12-02,269,330-->
+- under [ideal gas law](ideal%20gas%20law.md), [heat](heat.md) and [work](work%20(physics).md) flow in the opposite direction; when [volume](volume.md) increases, [temperature](temperature.md) decreases:@:1 < _n_ < _γ_ <!--SR:!2026-04-02,582,310-->
+- under [ideal gas law](ideal%20gas%20law.md), equivalent to [isentropic process](isentropic%20process.md), and there is no [heat](heat.md) flow:@:_n_ = _γ_ <!--SR:!2025-01-04,295,330-->
+- under [ideal gas law](ideal%20gas%20law.md), [heat](heat.md) and [work](work%20(physics).md) flow in the same direction:@:_γ_ < _n_ < +∞ <!--SR:!2025-01-04,245,270-->
+- $V = C$, equivalent to [isochoric process](isochoric%20process.md); there is no [work](work%20(physics).md):@:_n_ = +∞ <!--SR:!2027-07-31,1026,350-->
 
 <!--/pytextgen-->
 

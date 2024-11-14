@@ -19,7 +19,7 @@ tags:
 
 # `scanf`
 
-- _defined in {{[`<stdio.h>`](../../../general/C%20file%20input_output.md)}}_ <!--SR:!2025-08-29,501,310-->
+- _defined in {@{[`<stdio.h>`](../../../general/C%20file%20input_output.md)}@}_ <!--SR:!2025-08-29,501,310-->
 
 ```C
 // (1)
@@ -41,8 +41,8 @@ int sscanf_s(char const *restrict buffer, char const *restrict format, ...); // 
 
 > [!tip] tips
 >
-> - `_CRT_SECURE_NO_WARNINGS` ([Visual Studio](Visual%20Studio.md)) ::: define to `1` to disable errors from using non-`_s`-ending functions <!--SR:!2026-05-03,740,330!2026-09-08,839,330-->
-> - overload selection ::: use the `_s`-ending overloads whenever feasible <!--SR:!2024-12-10,295,353!2025-05-02,326,359-->
+> - `_CRT_SECURE_NO_WARNINGS` ([Visual Studio](Visual%20Studio.md)) ::@:: define to `1` to disable errors from using non-`_s`-ending functions <!--SR:!2026-05-03,740,330!2026-09-08,839,330-->
+> - overload selection ::@:: use the `_s`-ending overloads whenever feasible <!--SR:!2024-12-10,295,353!2025-05-02,326,359-->
 
 ## parameters
 
@@ -52,5 +52,5 @@ See [`scanf` § placeholder](../../../general/scanf.md#placeholder).
 
 ## return value
 
-- (1-3) :: Number of arguments assigned, or [`EOF`](../file%20input_output.md) if input failure occurs before assigning the first argument. <!--SR:!2025-05-24,422,290-->
-- (4-6) :: Same as (1-3), returning [`EOF`](../file%20input_output.md) also on runtime constraint violation. <!--SR:!2026-08-24,831,330-->
+- (1-3) :@: Number of arguments assigned, or [`EOF`](../file%20input_output.md) if input failure occurs before assigning the first argument. <!--SR:!2025-05-24,422,290-->
+- (4-6) :@: Same as (1-3), returning [`EOF`](../file%20input_output.md) also on runtime constraint violation. <!--SR:!2026-08-24,831,330-->

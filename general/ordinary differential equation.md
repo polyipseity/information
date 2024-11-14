@@ -16,9 +16,9 @@ tags:
 
 ## definitions
 
-An _[explicit](implicit%20function.md) ordinary differential equation of order n_ has the form: {{$$F\left(x,y(x),y'(x),\ldots,y^{(n-1)}(x)\right)=y^{(n)}(x)$$, where $x$ is an [independent variable](dependent%20and%20independent%29variables.md), $y(x)$ is a [function](function%20(mathematics).md) of $x$, $y^{(d)}(x)$ are $d$-th [derivatives](derivative%20.md) of $y(x)$, and $F$ is a [formula](formula.md)}}. <!--SR:!2024-12-02,330,344-->
+An _[explicit](implicit%20function.md) ordinary differential equation of order n_ has the form: {@{$$F\left(x,y(x),y'(x),\ldots,y^{(n-1)}(x)\right)=y^{(n)}(x)$$, where $x$ is an [independent variable](dependent%20and%20independent%29variables.md), $y(x)$ is a [function](function%20(mathematics).md) of $x$, $y^{(d)}(x)$ are $d$-th [derivatives](derivative%20.md) of $y(x)$, and $F$ is a [formula](formula.md)}@}. <!--SR:!2024-12-02,330,344-->
 
-An _[implicit](implicit%20function.md) ordinary differential equation of order n_ has the form: {{$$F\left(x,y(x),y'(x),\ldots,y^{(n-1)}(x), y^{(n)}(x)\right)=0$$}}, using the same notations as above. <!--SR:!2024-12-07,334,344-->
+An _[implicit](implicit%20function.md) ordinary differential equation of order n_ has the form: {@{$$F\left(x,y(x),y'(x),\ldots,y^{(n-1)}(x), y^{(n)}(x)\right)=0$$}@}, using the same notations as above. <!--SR:!2024-12-07,334,344-->
 
 ### classifications
 
@@ -50,42 +50,42 @@ Ordinary differential equations are furthered classified:
 
 <!--pytextgen generate section="ff12"--><!-- The following content is generated at 2024-01-04T20:17:52.323867+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←[autonomous](#^autonomous) <!--SR:!2026-06-10,741,330!2028-01-22,1218,350-->
-- [autonomous](#^autonomous)→:::←[homogeneous](#^homogeneous) <!--SR:!2025-11-02,526,310!2027-06-11,963,330-->
-- [homogeneous](#^homogeneous)→:::←[linear](#^linear) <!--SR:!2028-01-27,1223,350!2025-03-17,228,290-->
-- [linear](#^linear)→:::←[nonhomogeneous](#^nonhomogeneous)/inhomogeneous <!--SR:!2026-07-30,742,330!2027-01-16,900,330-->
-- [nonhomogeneous](#^nonhomogeneous)/inhomogeneous→:::←[nonlinear](#^nonlinear) <!--SR:!2027-02-07,874,330!2027-11-07,1159,350-->
-- [nonlinear](#^nonlinear)→:::←_(end)_ <!--SR:!2026-05-24,728,330!2026-04-18,698,330-->
+- _(begin)_→::@::←[autonomous](#^autonomous) <!--SR:!2026-06-10,741,330!2028-01-22,1218,350-->
+- [autonomous](#^autonomous)→::@::←[homogeneous](#^homogeneous) <!--SR:!2025-11-02,526,310!2027-06-11,963,330-->
+- [homogeneous](#^homogeneous)→::@::←[linear](#^linear) <!--SR:!2028-01-27,1223,350!2025-03-17,228,290-->
+- [linear](#^linear)→::@::←[nonhomogeneous](#^nonhomogeneous)/inhomogeneous <!--SR:!2026-07-30,742,330!2027-01-16,900,330-->
+- [nonhomogeneous](#^nonhomogeneous)/inhomogeneous→::@::←[nonlinear](#^nonlinear) <!--SR:!2027-02-07,874,330!2027-11-07,1159,350-->
+- [nonlinear](#^nonlinear)→::@::←_(end)_ <!--SR:!2026-05-24,728,330!2026-04-18,698,330-->
 
 <!--/pytextgen-->
 
 > [__autonomous__](autonomous%20system%20(mathematics).md) <a id="^autonomous"></a>^autonomous
 >
-> {{An ODE where $F$ does not depend on the [independent variable](dependent%20and%20independent%29variables.md) $x$ explicitly.}} <!--SR:!2025-11-27,535,310-->
+> {@{An ODE where $F$ does not depend on the [independent variable](dependent%20and%20independent%29variables.md) $x$ explicitly.}@} <!--SR:!2025-11-27,535,310-->
 
 <!-- markdownlint MD028 -->
 
 > [__homogeneous__](homogeneous%20differential%20equation.md) <a id="^homogeneous"></a>^homogeneous
 >
-> {{An [linear](#^linear) ODE where there are no constant terms ($r(x)=0$).}} <!--SR:!2026-04-28,653,310-->
+> {@{An [linear](#^linear) ODE where there are no constant terms ($r(x)=0$).}@} <!--SR:!2026-04-28,653,310-->
 
 <!-- markdownlint MD028 -->
 
 > [__linear__](linear%20differential%20equation.md) <a id="^linear"></a>^linear
 >
-> {{An ODE where $F$ can be written as a [linear combination](linear%20combination.md) of the derivatives of $y$ with the [coefficients](coefficient.md) being [constants](constant%20(mathematics).md) or [continuous functions](continuous%20function.md) of $x$. The constant term $r(x)$ is also called the _source term_.}} <!--SR:!2025-04-10,367,290-->
+> {@{An ODE where $F$ can be written as a [linear combination](linear%20combination.md) of the derivatives of $y$ with the [coefficients](coefficient.md) being [constants](constant%20(mathematics).md) or [continuous functions](continuous%20function.md) of $x$. The constant term $r(x)$ is also called the _source term_.}@} <!--SR:!2025-04-10,367,290-->
 
 <!-- markdownlint MD028 -->
 
 > [__nonhomogeneous__](homogeneous%20differential%20equation.md) <a id="^nonhomogeneous"></a>^nonhomogeneous
 >
-> {{An [linear](#^linear) ODE that is not [homogeneous](#^homogeneous).}} <!--SR:!2027-09-27,1127,350-->
+> {@{An [linear](#^linear) ODE that is not [homogeneous](#^homogeneous).}@} <!--SR:!2027-09-27,1127,350-->
 
 <!-- markdownlint MD028 -->
 
 > [__nonlinear__](nonlinear%20system.md#nonlinear%20differential%20equations) <a id="^nonlinear"></a>^nonlinear
 >
-> {{An ODE that is not [linear](#^linear).}} <!--SR:!2027-06-12,1050,350-->
+> {@{An ODE that is not [linear](#^linear).}@} <!--SR:!2027-06-12,1050,350-->
 
 ### exact solutions
 
@@ -93,8 +93,8 @@ Ordinary differential equations are furthered classified:
 
 ##### first-order, separable in _x_ and _y_
 
-- form :: $F_1(x) G_1(y) \,\mathrm{d}x + F_2(x) G_2(y) \,\mathrm{d}y = 0$, where $F_1, F_2, G_1, G_2$ are [integrable](integral.md) [functions](function%20(mathematics).md). <!--SR:!2025-04-26,417,340-->
-- solution :: Divide by $F_2(x) G_1(y)$ to [separate the variables](separation%20of%20variables.md), then integrate. <!--SR:!2025-04-04,400,340-->
+- form :@: $F_1(x) G_1(y) \,\mathrm{d}x + F_2(x) G_2(y) \,\mathrm{d}y = 0$, where $F_1, F_2, G_1, G_2$ are [integrable](integral.md) [functions](function%20(mathematics).md). <!--SR:!2025-04-26,417,340-->
+- solution :@: Divide by $F_2(x) G_1(y)$ to [separate the variables](separation%20of%20variables.md), then integrate. <!--SR:!2025-04-04,400,340-->
 
 The general solution is:
 
@@ -121,8 +121,8 @@ F_1(x)G_1(y)\,\mathrm{d}x+F_2(x)G_2(y)\,\mathrm{d}y&=0\\
 
 ##### first-order, homogeneous
 
-- form :: $\frac{\mathrm{d}y}{\mathrm{d}x}=F\left(\frac{y}x\right)$, where $F$ is an [integrable](integraable.md) [function](function%20(mathematics).md). <!--SR:!2025-03-31,397,340-->
-- solution :: Substitute $y\overset{\mathrm{def} }=ux$, then [separate the variables](separation%20of%20variables.md), then integrate. <!--SR:!2025-03-04,138,300-->
+- form :@: $\frac{\mathrm{d}y}{\mathrm{d}x}=F\left(\frac{y}x\right)$, where $F$ is an [integrable](integraable.md) [function](function%20(mathematics).md). <!--SR:!2025-03-31,397,340-->
+- solution :@: Substitute $y\overset{\mathrm{def} }=ux$, then [separate the variables](separation%20of%20variables.md), then integrate. <!--SR:!2025-03-04,138,300-->
 
 The general solution is:
 
@@ -162,8 +162,8 @@ $$\begin{aligned}
 
 ##### second-order, autonomous
 
-- form :: $\frac{\mathrm{d}^2y}{\mathrm{d}x^2}=F(y)$, where $F$ is an [integrable](integral.md) [function](function%20(mathematics).md). <!--SR:!2026-07-22,709,320-->
-- solution :: Multiply by $2\frac{\mathrm{d}y}{\mathrm{d}x}$, then substitute $2\frac{\mathrm{d}y}{\mathrm{d}x}\frac{\mathrm{d}^2y}{\mathrm{d}x^2}=\frac{\mathrm{d} }{\mathrm{d}x}\!\left(\frac{\mathrm{d}y}{\mathrm{d}x}\right)^2$, then integrate twice. <!--SR:!2026-07-28,713,320-->
+- form :@: $\frac{\mathrm{d}^2y}{\mathrm{d}x^2}=F(y)$, where $F$ is an [integrable](integral.md) [function](function%20(mathematics).md). <!--SR:!2026-07-22,709,320-->
+- solution :@: Multiply by $2\frac{\mathrm{d}y}{\mathrm{d}x}$, then substitute $2\frac{\mathrm{d}y}{\mathrm{d}x}\frac{\mathrm{d}^2y}{\mathrm{d}x^2}=\frac{\mathrm{d} }{\mathrm{d}x}\!\left(\frac{\mathrm{d}y}{\mathrm{d}x}\right)^2$, then integrate twice. <!--SR:!2026-07-28,713,320-->
 
 The general solution is:
 

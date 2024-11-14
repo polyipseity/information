@@ -35,22 +35,22 @@ return await memorize_table(
 
 > | name | description |
 > |-|-|
-> | {{availability}} | {{[Reagents](reagent.md) should be readily available and cheap.}} |
-> | {{formation of [by-products](by-product.md)}} | {{Avoid forming [by-products](by-product.md), especially harmful ones.}} |
-> | {{number of steps}} | {{Less steps mean less loss.}} |
-> | {{[reaction rate](reaction%20rate.md)}} | {{[Catalysts](catalysis.md) and high [temperature](temperature.md) can hasten slow organic reactions at the expense of higher production cost.}} |
-> | {{[yield](yield%20(chemistry).md)}} | {{Organic reactions seldom give 100% [yield](yield%20(chemistry).md).}} | <!--SR:!2027-04-12,1137,350!2026-08-14,879,332!2028-11-07,1591,352!2025-04-08,543,312!2028-11-02,1587,352!2026-06-16,875,332!2027-03-11,1032,332!2027-11-20,1116,292!2027-04-24,1148,352!2027-03-27,989,292-->
+> | {@{availability}@} | {@{[Reagents](reagent.md) should be readily available and cheap.}@} |
+> | {@{formation of [by-products](by-product.md)}@} | {@{Avoid forming [by-products](by-product.md), especially harmful ones.}@} |
+> | {@{number of steps}@} | {@{Less steps mean less loss.}@} |
+> | {@{[reaction rate](reaction%20rate.md)}@} | {@{[Catalysts](catalysis.md) and high [temperature](temperature.md) can hasten slow organic reactions at the expense of higher production cost.}@} |
+> | {@{[yield](yield%20(chemistry).md)}@} | {@{Organic reactions seldom give 100% [yield](yield%20(chemistry).md).}@} | <!--SR:!2027-04-12,1137,350!2026-08-14,879,332!2028-11-07,1591,352!2025-04-08,543,312!2028-11-02,1587,352!2026-06-16,875,332!2027-03-11,1032,332!2027-11-20,1116,292!2027-04-24,1148,352!2027-03-27,989,292-->
 
 <!--/pytextgen-->
 
 <!--pytextgen generate section="2939"--><!-- The following content is generated at 2024-01-04T20:17:52.393394+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←availability <!--SR:!2026-06-04,867,332!2027-04-29,1152,352-->
-- availability→:::←formation of [by-products](by-product.md) <!--SR:!2025-04-26,198,292!2027-02-27,1022,332-->
-- formation of [by-products](by-product.md)→:::←number of steps <!--SR:!2025-06-04,335,292!2024-12-22,173,312-->
-- number of steps→:::←[reaction rate](reaction%20rate.md) <!--SR:!2026-02-20,490,312!2025-01-30,440,292-->
-- [reaction rate](reaction%20rate.md)→:::←[yield](yield%20(chemistry).md) <!--SR:!2024-12-15,417,292!2025-02-28,136,232-->
-- [yield](yield%20(chemistry).md)→:::←_(end)_ <!--SR:!2026-08-17,881,332!2027-06-24,1198,352-->
+- _(begin)_→::@::←availability <!--SR:!2026-06-04,867,332!2027-04-29,1152,352-->
+- availability→::@::←formation of [by-products](by-product.md) <!--SR:!2025-04-26,198,292!2027-02-27,1022,332-->
+- formation of [by-products](by-product.md)→::@::←number of steps <!--SR:!2025-06-04,335,292!2024-12-22,173,312-->
+- number of steps→::@::←[reaction rate](reaction%20rate.md) <!--SR:!2026-02-20,490,312!2025-01-30,440,292-->
+- [reaction rate](reaction%20rate.md)→::@::←[yield](yield%20(chemistry).md) <!--SR:!2024-12-15,417,292!2025-02-28,136,232-->
+- [yield](yield%20(chemistry).md)→::@::←_(end)_ <!--SR:!2026-08-17,881,332!2027-06-24,1198,352-->
 
 <!--/pytextgen-->
 

@@ -17,92 +17,92 @@ The content is in teaching order.
 
 - engineer
   - engineer, according to Wikipedia
-    - engineer jobs ::: analyze, _build_, _design_, invent, repair, test <!--SR:!2024-12-17,168,340!2025-07-08,334,378-->
-    - engineer goals ::: fulfill functional objectives and requirements <!--SR:!2025-05-14,291,360!2025-02-21,225,360-->
-    - engineer limitations ::: limited by cost, practicality, regulation, and safety <!--SR:!2024-12-24,195,350!2025-10-08,405,377-->
-    - engineer methods ::: ingenuity, mathematics, scientific method and outlook <!--SR:!2026-03-11,503,337!2025-10-01,424,385-->
+    - engineer jobs ::@:: analyze, _build_, _design_, invent, repair, test <!--SR:!2024-12-17,168,340!2025-07-08,334,378-->
+    - engineer goals ::@:: fulfill functional objectives and requirements <!--SR:!2025-05-14,291,360!2025-02-21,225,360-->
+    - engineer limitations ::@:: limited by cost, practicality, regulation, and safety <!--SR:!2024-12-24,195,350!2025-10-08,405,377-->
+    - engineer methods ::@:: ingenuity, mathematics, scientific method and outlook <!--SR:!2026-03-11,503,337!2025-10-01,424,385-->
   - engineer, according to the World Federation of Engineering Organizations (WFEO)
-    - engineer inspirations ::: art of using creativity, science and technology, traditional experience <!--SR:!2026-07-15,628,355!2025-02-25,250,330-->
-    - engineer sustainability ::: restore and safeguard the biophysical environment <!--SR:!2025-01-10,205,345!2025-03-26,269,365-->
+    - engineer inspirations ::@:: art of using creativity, science and technology, traditional experience <!--SR:!2026-07-15,628,355!2025-02-25,250,330-->
+    - engineer sustainability ::@:: restore and safeguard the biophysical environment <!--SR:!2025-01-10,205,345!2025-03-26,269,365-->
   - [engineer types](#engineer%20types)
-  - differences between engineers and scientists ::: Scientists understand nature and make predictions, while engineers use scientific data and knowledge to design cities and protect us from nature. <!--SR:!2025-08-09,384,299!2024-12-02,192,330-->
-- civil engineering ::: construction, design, maintenance, and planning of the built environment, including buildings and infrastructure <!--SR:!2025-09-25,337,300!2025-06-01,315,380-->
-  - "civil" meaning ::: "Civil" distinguishes non-military from military purposes. <!--SR:!2025-05-09,327,350!2025-09-22,417,397-->
-  - civil engineer characteristics ::: problem solvers <!--SR:!2025-11-14,410,335!2024-12-24,182,352-->
-  - civil engineering characteristics ::: Oldest engineering discipline. Takes place on all levels, from municipal to nationals in the public sector, from homeowners to international companies in the private sector. <!--SR:!2025-01-14,171,301!2025-05-20,310,380-->
-  - built environment ::: man-made using materials and natural resources, benefiting mankind, with environment protection and prudent urban planning <!--SR:!2025-04-23,252,312!2024-12-30,218,330-->
-    - built environment example ::: Hoover Dam, a hydroelectric and reservoir project constructed on the Colorado River from 1931 to 1936, affects Las Vegas, United States significantly to the present. <!--SR:!2024-12-30,162,297!2025-03-15,237,345-->
-- civil engineering importance ::: improving living environments, productivity, and working efficiency <!--SR:!2025-12-11,429,340!2024-12-06,179,352-->
+  - differences between engineers and scientists ::@:: Scientists understand nature and make predictions, while engineers use scientific data and knowledge to design cities and protect us from nature. <!--SR:!2025-08-09,384,299!2024-12-02,192,330-->
+- civil engineering ::@:: construction, design, maintenance, and planning of the built environment, including buildings and infrastructure <!--SR:!2025-09-25,337,300!2025-06-01,315,380-->
+  - "civil" meaning ::@:: "Civil" distinguishes non-military from military purposes. <!--SR:!2025-05-09,327,350!2025-09-22,417,397-->
+  - civil engineer characteristics ::@:: problem solvers <!--SR:!2025-11-14,410,335!2024-12-24,182,352-->
+  - civil engineering characteristics ::@:: Oldest engineering discipline. Takes place on all levels, from municipal to nationals in the public sector, from homeowners to international companies in the private sector. <!--SR:!2025-01-14,171,301!2025-05-20,310,380-->
+  - built environment ::@:: man-made using materials and natural resources, benefiting mankind, with environment protection and prudent urban planning <!--SR:!2025-04-23,252,312!2024-12-30,218,330-->
+    - built environment example ::@:: Hoover Dam, a hydroelectric and reservoir project constructed on the Colorado River from 1931 to 1936, affects Las Vegas, United States significantly to the present. <!--SR:!2024-12-30,162,297!2025-03-15,237,345-->
+- civil engineering importance ::@:: improving living environments, productivity, and working efficiency <!--SR:!2025-12-11,429,340!2024-12-06,179,352-->
   - [civil engineering examples](#civil%20engineering%20examples)
   - [civil engineering slogans in Hong Kong](#civil%20engineering%20slogans%20in%20Hong%20Kong)
 - civil engineering challenges
   - [civil engineering non-technical issues](#civil%20engineering%20non-technical%20issues)
-  - poor construction management consequences ::: Poor quality control and workmanship leads to high maintenance cost. Structural failure leads to loss of lives. <!--SR:!2025-06-25,284,300!2024-12-21,179,352-->
-    - poor quality control and workmanship consequences ::: cracks, stinky smell, water leakage <!--SR:!2025-01-12,193,352!2025-06-29,343,367-->
-    - structural failure consequences ::: building toppling over, killing workers, prosecution <!--SR:!2024-12-31,189,270!2025-07-26,364,374-->
+  - poor construction management consequences ::@:: Poor quality control and workmanship leads to high maintenance cost. Structural failure leads to loss of lives. <!--SR:!2025-06-25,284,300!2024-12-21,179,352-->
+    - poor quality control and workmanship consequences ::@:: cracks, stinky smell, water leakage <!--SR:!2025-01-12,193,352!2025-06-29,343,367-->
+    - structural failure consequences ::@:: building toppling over, killing workers, prosecution <!--SR:!2024-12-31,189,270!2025-07-26,364,374-->
     - [structural failure example](#structural%20failure%20example)
-  - civil engineering design challenges ::: complex shapes, long-span structures, underground structures <!--SR:!2026-02-12,475,340!2025-08-06,374,377-->
+  - civil engineering design challenges ::@:: complex shapes, long-span structures, underground structures <!--SR:!2026-02-12,475,340!2025-08-06,374,377-->
     - [complex shape examples](#complex%20shape%20examples)
     - [long-span structure examples](#long%20span%20structure%20examples)
-    - underground structure examples ::: Turin–Lyon high-speed railway (2002–2032), 271 km long, has the Mont Cenis base tunnel that is 57.5 km long with up to 4 km long access tunnels <!--SR:!2025-07-30,317,321!2026-03-27,517,352-->
+    - underground structure examples ::@:: Turin–Lyon high-speed railway (2002–2032), 271 km long, has the Mont Cenis base tunnel that is 57.5 km long with up to 4 km long access tunnels <!--SR:!2025-07-30,317,321!2026-03-27,517,352-->
   - [civil engineering new challenges](#civil%20engineering%20new%20challenges)
-    - climate change engineering examples ::: Project MOSE (2003–2025) in Venice, Thames Barrier (1974–1982) <!--SR:!2025-10-12,344,287!2025-09-10,376,380-->
-      - Thames Barrier (1974–1982) mechanism ::: The gate is a chord of a circle. It rotates along the circumference of the circle. When open, it acts like the river floor. When closing, the chord rotates about the circle center and becomes a barrier. <!--SR:!2025-09-21,372,337!2024-11-22,149,340-->
-- civil engineering solutions ::: smart cities <!--SR:!2026-03-06,545,400!2025-09-01,375,376-->
-  - smart cities examples ::: Using technology to gather information, predict events, and notify people. <!--SR:!2025-03-24,304,335!2026-01-13,502,400-->
+    - climate change engineering examples ::@:: Project MOSE (2003–2025) in Venice, Thames Barrier (1974–1982) <!--SR:!2025-10-12,344,287!2025-09-10,376,380-->
+      - Thames Barrier (1974–1982) mechanism ::@:: The gate is a chord of a circle. It rotates along the circumference of the circle. When open, it acts like the river floor. When closing, the chord rotates about the circle center and becomes a barrier. <!--SR:!2025-09-21,372,337!2024-11-22,149,340-->
+- civil engineering solutions ::@:: smart cities <!--SR:!2026-03-06,545,400!2025-09-01,375,376-->
+  - smart cities examples ::@:: Using technology to gather information, predict events, and notify people. <!--SR:!2025-03-24,304,335!2026-01-13,502,400-->
 - [civil engineering subdisciplines](#civil%20engineering%20subdisciplines)
-- structural engineering ::: analysis, design, and planning of structures to resist various loading and natural disasters <!--SR:!2026-05-20,589,360!2024-12-22,188,347-->
+- structural engineering ::@:: analysis, design, and planning of structures to resist various loading and natural disasters <!--SR:!2026-05-20,589,360!2024-12-22,188,347-->
   - [structural engineering examples](#structural%20engineering%20examples)
   - [natural disasters examples](#natural%20disaster%20examples)
-  - structural engineering goals ::: safety: no collapse without warning, serviceability: deformation does not disrupt use <!--SR:!2024-11-21,133,292!2025-06-28,368,350-->
-  - construction material factors ::: depends on availability, cost, project nature <!--SR:!2025-10-24,426,357!2025-02-05,212,355-->
+  - structural engineering goals ::@:: safety: no collapse without warning, serviceability: deformation does not disrupt use <!--SR:!2024-11-21,133,292!2025-06-28,368,350-->
+  - construction material factors ::@:: depends on availability, cost, project nature <!--SR:!2025-10-24,426,357!2025-02-05,212,355-->
     - [construction material examples](#construction%20material%20examples)
       - [reinforced concrete structure examples](#reinforced%20concrete%20structure%20examples)
       - [steel or concrete–steel composite structure examples](#steel%20or%20concrete–steel%20composite%20structure%20examples)
-      - timber structure examples ::: Hirschberg 13, 35037 Marburg, Germany <!--SR:!2025-03-29,154,245!2025-03-16,243,344-->
-  - structural codes of practice or design codes ::: different countries have different standards <!--SR:!2025-05-25,340,350!2025-08-05,373,377-->
+      - timber structure examples ::@:: Hirschberg 13, 35037 Marburg, Germany <!--SR:!2025-03-29,154,245!2025-03-16,243,344-->
+  - structural codes of practice or design codes ::@:: different countries have different standards <!--SR:!2025-05-25,340,350!2025-08-05,373,377-->
     - [structural code of practice examples](#structural%20code%20of%20practice%20examples)
-- geo-technical engineering ::: behavior of rock, soil, and underground water <!--SR:!2025-07-26,331,305!2025-03-01,249,367-->
-  - geo-technical engineering structures ::: design and construction of earthworks and foundations <!--SR:!2024-12-22,159,320!2025-01-26,217,350-->
+- geo-technical engineering ::@:: behavior of rock, soil, and underground water <!--SR:!2025-07-26,331,305!2025-03-01,249,367-->
+  - geo-technical engineering structures ::@:: design and construction of earthworks and foundations <!--SR:!2024-12-22,159,320!2025-01-26,217,350-->
     - [geo-technical engineering structure examples](#geo-technical%20engineering%20structure%20examples)
   - [geo-technical engineering risks](#geo-technical%20engineering%20risks)
-    - geo-technical engineering risk migration ::: soil improvement or retaining structures can migrate risk to society <!--SR:!2024-12-05,162,340!2025-07-09,335,377-->
-- hydraulic engineering ::: conveyance and flow of fluids, principally sewage and water <!--SR:!2026-02-12,460,285!2025-05-07,300,365-->
-  - hydraulic engineering structures ::: design and construction of hydraulic structures <!--SR:!2025-09-24,372,324!2025-04-26,293,365-->
+    - geo-technical engineering risk migration ::@:: soil improvement or retaining structures can migrate risk to society <!--SR:!2024-12-05,162,340!2025-07-09,335,377-->
+- hydraulic engineering ::@:: conveyance and flow of fluids, principally sewage and water <!--SR:!2026-02-12,460,285!2025-05-07,300,365-->
+  - hydraulic engineering structures ::@:: design and construction of hydraulic structures <!--SR:!2025-09-24,372,324!2025-04-26,293,365-->
     - [hydraulic engineering structure examples](#hydraulic%20engineering%20structure%20examples)
-  - hydraulic engineering systems ::: planning, development, and management of discharge systems and water resources <!--SR:!2025-07-09,302,320!2025-01-16,209,352-->
+  - hydraulic engineering systems ::@:: planning, development, and management of discharge systems and water resources <!--SR:!2025-07-09,302,320!2025-01-16,209,352-->
     - [hydraulic engineering system examples](#hydraulic%20engineering%20system%20examples)
-- environmental engineering ::: application of engineering and science to improve the natural environment and minimize environmental impact <!--SR:!2025-10-08,398,341!2025-03-22,268,376-->
+- environmental engineering ::@:: application of engineering and science to improve the natural environment and minimize environmental impact <!--SR:!2025-10-08,398,341!2025-03-22,268,376-->
   - [environmental engineering areas](#environmental%20engineering%20areas)
-    - air engineering ::: air pollution control, air quality monitoring, ozone layer protection <!--SR:!2025-11-09,437,355!2025-09-12,410,390-->
-    - waste engineering ::: methods of disposal (e.g. landfills and incineration), site investigation and remediation, solid waste management <!--SR:!2026-04-29,539,315!2025-06-19,318,372-->
+    - air engineering ::@:: air pollution control, air quality monitoring, ozone layer protection <!--SR:!2025-11-09,437,355!2025-09-12,410,390-->
+    - waste engineering ::@:: methods of disposal (e.g. landfills and incineration), site investigation and remediation, solid waste management <!--SR:!2026-04-29,539,315!2025-06-19,318,372-->
     - [water engineering](#water%20engineering)
-    - noise engineering ::: noise mitigation measures (e.g. noise barriers), noise monitoring (e.g. construction noise, traffic noise) <!--SR:!2025-10-17,388,327!2025-06-14,328,370-->
-    - environmental impact assessment (EIA) ::: a systematic identification and evaluation process to assess the potential impacts of a proposed project so that mitigation measures can be developed <!--SR:!2025-01-06,147,230!2024-12-04,162,332-->
+    - noise engineering ::@:: noise mitigation measures (e.g. noise barriers), noise monitoring (e.g. construction noise, traffic noise) <!--SR:!2025-10-17,388,327!2025-06-14,328,370-->
+    - environmental impact assessment (EIA) ::@:: a systematic identification and evaluation process to assess the potential impacts of a proposed project so that mitigation measures can be developed <!--SR:!2025-01-06,147,230!2024-12-04,162,332-->
       - [environmental impact components](#environmental%20impact%20components)
-      - environmental impact assessment in [Hong Kong](../../../../general/Hong%20Kong.md) ::: regulated by the Environmental Impact Assessment (Cap. 499) 1997 <!--SR:!2025-02-20,208,314!2025-03-13,235,352-->
-- transportation engineering ::: moving goods and people effectively, efficiently, safely, and sustainably <!--SR:!2025-05-11,264,312!2024-12-04,219,319-->
-  - transportation engineering structures ::: planning, design, construction, operation, and maintenance of transportational infrastructures <!--SR:!2025-02-21,200,300!2025-10-11,431,401-->
+      - environmental impact assessment in [Hong Kong](../../../../general/Hong%20Kong.md) ::@:: regulated by the Environmental Impact Assessment (Cap. 499) 1997 <!--SR:!2025-02-20,208,314!2025-03-13,235,352-->
+- transportation engineering ::@:: moving goods and people effectively, efficiently, safely, and sustainably <!--SR:!2025-05-11,264,312!2024-12-04,219,319-->
+  - transportation engineering structures ::@:: planning, design, construction, operation, and maintenance of transportational infrastructures <!--SR:!2025-02-21,200,300!2025-10-11,431,401-->
     - [transportation engineering structure examples](#transportation%20engineering%20structure%20examples)
 - materials engineering
-  - materials engineering characteristics ::: spans almost all engineering disciplines because materials are used in designs <!--SR:!2026-04-18,565,357!2025-06-05,319,367-->
-  - materials engineer jobs ::: highly varied <!--SR:!2025-01-19,222,330!2025-12-05,478,392-->
+  - materials engineering characteristics ::@:: spans almost all engineering disciplines because materials are used in designs <!--SR:!2026-04-18,565,357!2025-06-05,319,367-->
+  - materials engineer jobs ::@:: highly varied <!--SR:!2025-01-19,222,330!2025-12-05,478,392-->
     - [materials engineer job examples](#materials%20engineer%20job%20examples)
-  - materials engineering materials ::: development of improved or new materials <!--SR:!2025-01-21,201,317!2025-06-04,348,350-->
+  - materials engineering materials ::@:: development of improved or new materials <!--SR:!2025-01-21,201,317!2025-06-04,348,350-->
     - [materials engineering material examples](#materials%20engineering%20material%20examples)
-  - materials engineering repair ::: design of materials and methods to repair <!--SR:!2025-05-24,339,350!2025-11-16,461,395-->
-    - materials engineering repair examples ::: fiber reinforced polymer retrofit system, retrofit using damper, slab retrofit using steel plate and carbon fiber reinforced polymer <!--SR:!2025-06-27,293,320!2026-01-19,459,332-->
-- construction engineering ::: planning and execution of the designs from other fields of engineers <!--SR:!2025-09-30,397,337!2025-10-04,429,394-->
+  - materials engineering repair ::@:: design of materials and methods to repair <!--SR:!2025-05-24,339,350!2025-11-16,461,395-->
+    - materials engineering repair examples ::@:: fiber reinforced polymer retrofit system, retrofit using damper, slab retrofit using steel plate and carbon fiber reinforced polymer <!--SR:!2025-06-27,293,320!2026-01-19,459,332-->
+- construction engineering ::@:: planning and execution of the designs from other fields of engineers <!--SR:!2025-09-30,397,337!2025-10-04,429,394-->
   - [construction engineer skills](#construction%20engineer%20skills)
   - [construction engineer jobs](#construction%20engineer%20jobs)
-- civil engineer prospects ::: A civil engineering degree prepares one for work in the construction industry and the broader business, financial, and management sectors. <!--SR:!2026-10-15,735,345!2025-03-14,281,350-->
-  - civil engineer demand ::: Civil engineer are always in demand due to new infrastructure and maintenance and monitoring of existing ones. <!--SR:!2025-08-20,384,380!2025-09-09,407,397-->
+- civil engineer prospects ::@:: A civil engineering degree prepares one for work in the construction industry and the broader business, financial, and management sectors. <!--SR:!2026-10-15,735,345!2025-03-14,281,350-->
+  - civil engineer demand ::@:: Civil engineer are always in demand due to new infrastructure and maintenance and monitoring of existing ones. <!--SR:!2025-08-20,384,380!2025-09-09,407,397-->
   - [civil engineer prospect examples](#civil%20engineer%20prospect%20examples)
-  - civil engineer organization examples ::: contractors or construction companies, engineering consulting firms, government (working as civil servants) <!--SR:!2025-03-25,247,285!2025-03-18,266,330-->
-    - civil government departments in [Hong Kong](../../../../general/Hong%20Kong.md) ::: Architectural Services Department (ArchSD), Buildings Department (BD), Housing Department (HD) <!--SR:!2025-10-27,397,332!2026-01-22,518,395-->
-      - Architectural Services Department (ArchSD) ::: governmental structures, markets, playgrounds, public schools <!--SR:!2026-10-22,714,357!2024-12-06,196,330-->
-      - Buildings Department (BD) ::: illegal structures, private buildings <!--SR:!2025-09-23,388,295!2025-07-11,349,374-->
-      - Housing Department (HD) ::: home ownership scheme, public housing <!--SR:!2026-07-04,612,310!2025-02-17,221,354-->
+  - civil engineer organization examples ::@:: contractors or construction companies, engineering consulting firms, government (working as civil servants) <!--SR:!2025-03-25,247,285!2025-03-18,266,330-->
+    - civil government departments in [Hong Kong](../../../../general/Hong%20Kong.md) ::@:: Architectural Services Department (ArchSD), Buildings Department (BD), Housing Department (HD) <!--SR:!2025-10-27,397,332!2026-01-22,518,395-->
+      - Architectural Services Department (ArchSD) ::@:: governmental structures, markets, playgrounds, public schools <!--SR:!2026-10-22,714,357!2024-12-06,196,330-->
+      - Buildings Department (BD) ::@:: illegal structures, private buildings <!--SR:!2025-09-23,388,295!2025-07-11,349,374-->
+      - Housing Department (HD) ::@:: home ownership scheme, public housing <!--SR:!2026-07-04,612,310!2025-02-17,221,354-->
 
 ## oversized data
 
@@ -142,16 +142,16 @@ quantity surveyor
 
 <!--pytextgen generate section="9281"--><!-- The following content is generated at 2024-02-16T21:59:46.960790+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←building services engineer <!--SR:!2025-09-29,378,335!2026-01-31,525,397-->
-- building services engineer→:::←consulting civil engineer <!--SR:!2024-12-13,168,337!2025-07-07,312,337-->
-- consulting civil engineer→:::←consulting environmental engineer <!--SR:!2024-12-25,183,347!2025-02-05,221,360-->
-- consulting environmental engineer→:::←consulting geo-technical engineer <!--SR:!2025-11-15,394,285!2025-08-10,342,306-->
-- consulting geo-technical engineer→:::←consulting structural engineer <!--SR:!2025-01-06,179,315!2025-04-26,255,317-->
-- consulting structural engineer→:::←contracting civil engineer <!--SR:!2025-09-07,361,335!2025-05-27,276,315-->
-- contracting civil engineer→:::←engineering geologist <!--SR:!2025-07-29,302,297!2024-11-19,56,275-->
-- engineering geologist→:::←environmental consultant <!--SR:!2025-11-10,381,305!2025-05-31,280,305-->
-- environmental consultant→:::←quantity surveyor <!--SR:!2025-06-18,217,300!2025-01-22,163,280-->
-- quantity surveyor→:::←_(end)_ <!--SR:!2025-01-10,187,340!2024-12-31,120,340-->
+- _(begin)_→::@::←building services engineer <!--SR:!2025-09-29,378,335!2026-01-31,525,397-->
+- building services engineer→::@::←consulting civil engineer <!--SR:!2024-12-13,168,337!2025-07-07,312,337-->
+- consulting civil engineer→::@::←consulting environmental engineer <!--SR:!2024-12-25,183,347!2025-02-05,221,360-->
+- consulting environmental engineer→::@::←consulting geo-technical engineer <!--SR:!2025-11-15,394,285!2025-08-10,342,306-->
+- consulting geo-technical engineer→::@::←consulting structural engineer <!--SR:!2025-01-06,179,315!2025-04-26,255,317-->
+- consulting structural engineer→::@::←contracting civil engineer <!--SR:!2025-09-07,361,335!2025-05-27,276,315-->
+- contracting civil engineer→::@::←engineering geologist <!--SR:!2025-07-29,302,297!2024-11-19,56,275-->
+- engineering geologist→::@::←environmental consultant <!--SR:!2025-11-10,381,305!2025-05-31,280,305-->
+- environmental consultant→::@::←quantity surveyor <!--SR:!2025-06-18,217,300!2025-01-22,163,280-->
+- quantity surveyor→::@::←_(end)_ <!--SR:!2025-01-10,187,340!2024-12-31,120,340-->
 
 <!--/pytextgen-->
 
@@ -191,16 +191,16 @@ water and sewage treatment system
 
 <!--pytextgen generate section="39fa"--><!-- The following content is generated at 2024-05-01T23:30:34.986638+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←bridge <!--SR:!2025-09-15,412,397!2025-11-25,470,394-->
-- bridge→:::←building <!--SR:!2025-05-05,282,372!2025-04-22,268,360-->
-- building→:::←dam <!--SR:!2024-12-12,167,340!2026-03-05,544,400-->
-- dam→:::←pipeline <!--SR:!2025-04-29,194,224!2026-03-12,518,341-->
-- pipeline→:::←power plant <!--SR:!2025-01-13,152,260!2025-08-31,313,281-->
-- power plant→:::←reservoir <!--SR:!2025-01-10,164,275!2025-03-20,147,300-->
-- reservoir→:::←sewage treatment <!--SR:!2025-01-24,122,197!2025-03-13,189,261-->
-- sewage treatment→:::←transport <!--SR:!2025-03-17,128,210!2024-12-13,152,301-->
-- transport→:::←water and sewage treatment system <!--SR:!2026-02-13,465,340!2024-11-20,27,130-->
-- water and sewage treatment system→:::←_(end)_ <!--SR:!2025-12-24,482,401!2025-04-10,252,361-->
+- _(begin)_→::@::←bridge <!--SR:!2025-09-15,412,397!2025-11-25,470,394-->
+- bridge→::@::←building <!--SR:!2025-05-05,282,372!2025-04-22,268,360-->
+- building→::@::←dam <!--SR:!2024-12-12,167,340!2026-03-05,544,400-->
+- dam→::@::←pipeline <!--SR:!2025-04-29,194,224!2026-03-12,518,341-->
+- pipeline→::@::←power plant <!--SR:!2025-01-13,152,260!2025-08-31,313,281-->
+- power plant→::@::←reservoir <!--SR:!2025-01-10,164,275!2025-03-20,147,300-->
+- reservoir→::@::←sewage treatment <!--SR:!2025-01-24,122,197!2025-03-13,189,261-->
+- sewage treatment→::@::←transport <!--SR:!2025-03-17,128,210!2024-12-13,152,301-->
+- transport→::@::←water and sewage treatment system <!--SR:!2026-02-13,465,340!2024-11-20,27,130-->
+- water and sewage treatment system→::@::←_(end)_ <!--SR:!2025-12-24,482,401!2025-04-10,252,361-->
 
 <!--/pytextgen-->
 
@@ -232,12 +232,12 @@ water security
 
 <!--pytextgen generate section="9f12"--><!-- The following content is generated at 2024-02-16T21:59:47.097705+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←climate change <!--SR:!2026-12-02,768,345!2025-02-24,228,350-->
-- climate change→:::←extreme weather <!--SR:!2025-08-18,343,337!2025-01-04,199,350-->
-- extreme weather→:::←food security <!--SR:!2026-03-19,492,330!2025-03-06,235,347-->
-- food security→:::←mega-cities <!--SR:!2025-12-02,460,372!2025-08-03,319,320-->
-- mega-cities→:::←water security <!--SR:!2025-03-02,229,360!2024-12-30,187,354-->
-- water security→:::←_(end)_ <!--SR:!2025-04-28,318,350!2026-02-08,496,357-->
+- _(begin)_→::@::←climate change <!--SR:!2026-12-02,768,345!2025-02-24,228,350-->
+- climate change→::@::←extreme weather <!--SR:!2025-08-18,343,337!2025-01-04,199,350-->
+- extreme weather→::@::←food security <!--SR:!2026-03-19,492,330!2025-03-06,235,347-->
+- food security→::@::←mega-cities <!--SR:!2025-12-02,460,372!2025-08-03,319,320-->
+- mega-cities→::@::←water security <!--SR:!2025-03-02,229,360!2024-12-30,187,354-->
+- water security→::@::←_(end)_ <!--SR:!2025-04-28,318,350!2026-02-08,496,357-->
 
 <!--/pytextgen-->
 
@@ -277,16 +277,16 @@ workmanship
 
 <!--pytextgen generate section="1e12"--><!-- The following content is generated at 2024-05-01T19:22:34.848790+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←budgeting <!--SR:!2025-01-11,187,341!2026-03-04,543,400-->
-- budgeting→:::←construction management <!--SR:!2025-01-31,151,320!2025-11-24,451,355-->
-- construction management→:::←economics <!--SR:!2025-09-15,333,255!2025-04-19,240,300-->
-- economics→:::←impacts to surrounding <!--SR:!2025-03-15,215,300!2025-04-26,191,260-->
-- impacts to surrounding→:::←lifecycle <!--SR:!2025-04-01,238,320!2025-05-10,261,320-->
-- lifecycle→:::←maintenance <!--SR:!2025-12-17,426,317!2024-12-03,56,272-->
-- maintenance→:::←politics <!--SR:!2024-11-14,68,241!2025-04-18,249,312-->
-- politics→:::←social <!--SR:!2025-03-24,246,360!2025-05-03,262,337-->
-- social→:::←workmanship <!--SR:!2025-04-30,244,300!2025-01-23,141,210-->
-- workmanship→:::←_(end)_ <!--SR:!2025-09-26,419,385!2025-04-05,258,355-->
+- _(begin)_→::@::←budgeting <!--SR:!2025-01-11,187,341!2026-03-04,543,400-->
+- budgeting→::@::←construction management <!--SR:!2025-01-31,151,320!2025-11-24,451,355-->
+- construction management→::@::←economics <!--SR:!2025-09-15,333,255!2025-04-19,240,300-->
+- economics→::@::←impacts to surrounding <!--SR:!2025-03-15,215,300!2025-04-26,191,260-->
+- impacts to surrounding→::@::←lifecycle <!--SR:!2025-04-01,238,320!2025-05-10,261,320-->
+- lifecycle→::@::←maintenance <!--SR:!2025-12-17,426,317!2024-12-03,56,272-->
+- maintenance→::@::←politics <!--SR:!2024-11-14,68,241!2025-04-18,249,312-->
+- politics→::@::←social <!--SR:!2025-03-24,246,360!2025-05-03,262,337-->
+- social→::@::←workmanship <!--SR:!2025-04-30,244,300!2025-01-23,141,210-->
+- workmanship→::@::←_(end)_ <!--SR:!2025-09-26,419,385!2025-04-05,258,355-->
 
 <!--/pytextgen-->
 
@@ -316,11 +316,11 @@ We Engineer Hong Kong’s Development
 
 <!--pytextgen generate section="e823"--><!-- The following content is generated at 2024-02-16T21:59:47.223693+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←興土木 利民生 齊拓展 創明天 <!--SR:!2025-04-12,243,314!2024-12-19,209,330-->
-- 興土木 利民生 齊拓展 創明天→:::←We Bring The Best Engineering To Life <!--SR:!2025-12-02,420,324!2024-12-03,62,287-->
-- We Bring The Best Engineering To Life→:::←卓越工程 建設香港 <!--SR:!2025-03-21,227,312!2025-01-18,165,297-->
-- 卓越工程 建設香港→:::←We Engineer Hong Kong’s Development <!--SR:!2025-04-13,265,357!2026-01-08,443,330-->
-- We Engineer Hong Kong’s Development→:::←_(end)_ <!--SR:!2025-11-28,473,392!2025-08-08,349,380-->
+- _(begin)_→::@::←興土木 利民生 齊拓展 創明天 <!--SR:!2025-04-12,243,314!2024-12-19,209,330-->
+- 興土木 利民生 齊拓展 創明天→::@::←We Bring The Best Engineering To Life <!--SR:!2025-12-02,420,324!2024-12-03,62,287-->
+- We Bring The Best Engineering To Life→::@::←卓越工程 建設香港 <!--SR:!2025-03-21,227,312!2025-01-18,165,297-->
+- 卓越工程 建設香港→::@::←We Engineer Hong Kong’s Development <!--SR:!2025-04-13,265,357!2026-01-08,443,330-->
+- We Engineer Hong Kong’s Development→::@::←_(end)_ <!--SR:!2025-11-28,473,392!2025-08-08,349,380-->
 
 <!--/pytextgen-->
 
@@ -356,14 +356,14 @@ transportation
 
 <!--pytextgen generate section="137b"--><!-- The following content is generated at 2024-05-01T19:22:34.905642+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←construction <!--SR:!2025-01-13,207,355!2027-02-18,827,395-->
-- construction→:::←environmental <!--SR:!2025-07-26,325,340!2025-12-22,480,400-->
-- environmental→:::←geo-technical <!--SR:!2025-11-28,416,327!2025-01-07,205,345-->
-- geo-technical→:::←hydraulic <!--SR:!2024-11-21,149,340!2024-12-23,112,340-->
-- hydraulic→:::←material <!--SR:!2026-04-12,556,360!2026-02-13,471,340-->
-- material→:::←structural <!--SR:!2025-02-07,130,297!2025-01-26,167,260-->
-- structural→:::←transportation <!--SR:!2024-12-22,171,340!2024-12-03,160,327-->
-- transportation→:::←_(end)_ <!--SR:!2025-01-08,192,350!2025-02-01,202,381-->
+- _(begin)_→::@::←construction <!--SR:!2025-01-13,207,355!2027-02-18,827,395-->
+- construction→::@::←environmental <!--SR:!2025-07-26,325,340!2025-12-22,480,400-->
+- environmental→::@::←geo-technical <!--SR:!2025-11-28,416,327!2025-01-07,205,345-->
+- geo-technical→::@::←hydraulic <!--SR:!2024-11-21,149,340!2024-12-23,112,340-->
+- hydraulic→::@::←material <!--SR:!2026-04-12,556,360!2026-02-13,471,340-->
+- material→::@::←structural <!--SR:!2025-02-07,130,297!2025-01-26,167,260-->
+- structural→::@::←transportation <!--SR:!2024-12-22,171,340!2024-12-03,160,327-->
+- transportation→::@::←_(end)_ <!--SR:!2025-01-08,192,350!2025-02-01,202,381-->
 
 <!--/pytextgen-->
 
@@ -399,14 +399,14 @@ Water Cube
 
 <!--pytextgen generate section="cc12"--><!-- The following content is generated at 2024-03-10T00:25:48.737016+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←Beijing National Stadium <!--SR:!2025-08-26,362,380!2025-03-11,257,367-->
-- Beijing National Stadium→:::←Burj Al Arab <!--SR:!2025-05-14,263,304!2026-12-13,761,370-->
-- Burj Al Arab→:::←Burj Khalifa <!--SR:!2026-03-31,530,290!2024-12-22,190,352-->
-- Burj Khalifa→:::←CCTV Headquarters <!--SR:!2025-06-15,286,320!2025-04-25,256,270-->
-- CCTV Headquarters→:::←Eiffel Tower <!--SR:!2025-11-11,407,305!2024-12-11,149,292-->
-- Eiffel Tower→:::←Hong Kong Convention and Exhibition Centre <!--SR:!2025-09-15,333,294!2025-03-04,182,305-->
-- Hong Kong Convention and Exhibition Centre→:::←Water Cube <!--SR:!2025-05-22,266,337!2025-05-09,258,320-->
-- Water Cube→:::←_(end)_ <!--SR:!2025-10-12,432,401!2025-01-02,201,357-->
+- _(begin)_→::@::←Beijing National Stadium <!--SR:!2025-08-26,362,380!2025-03-11,257,367-->
+- Beijing National Stadium→::@::←Burj Al Arab <!--SR:!2025-05-14,263,304!2026-12-13,761,370-->
+- Burj Al Arab→::@::←Burj Khalifa <!--SR:!2026-03-31,530,290!2024-12-22,190,352-->
+- Burj Khalifa→::@::←CCTV Headquarters <!--SR:!2025-06-15,286,320!2025-04-25,256,270-->
+- CCTV Headquarters→::@::←Eiffel Tower <!--SR:!2025-11-11,407,305!2024-12-11,149,292-->
+- Eiffel Tower→::@::←Hong Kong Convention and Exhibition Centre <!--SR:!2025-09-15,333,294!2025-03-04,182,305-->
+- Hong Kong Convention and Exhibition Centre→::@::←Water Cube <!--SR:!2025-05-22,266,337!2025-05-09,258,320-->
+- Water Cube→::@::←_(end)_ <!--SR:!2025-10-12,432,401!2025-01-02,201,357-->
 
 <!--/pytextgen-->
 
@@ -452,19 +452,19 @@ testing materials
 
 <!--pytextgen generate section="a93e"--><!-- The following content is generated at 2024-05-01T19:22:34.995351+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←budgeting <!--SR:!2026-07-24,631,347!2025-04-08,277,375-->
-- budgeting→:::←contracting <!--SR:!2025-09-10,377,334!2026-03-06,483,327-->
-- contracting→:::←designing temporary structures <!--SR:!2025-01-10,173,215!2025-04-22,236,295-->
-- designing temporary structures→:::←logistics <!--SR:!2025-11-28,421,340!2024-12-10,71,277-->
-- logistics→:::←planning <!--SR:!2025-06-11,237,294!2025-11-05,401,335-->
-- planning→:::←procuring materials <!--SR:!2025-01-24,186,317!2025-02-03,175,277-->
-- procuring materials→:::←quality assurance <!--SR:!2025-01-23,173,300!2025-03-23,213,281-->
-- quality assurance→:::←quality control <!--SR:!2026-11-12,742,377!2025-01-13,182,352-->
-- quality control→:::←safety engineering <!--SR:!2025-02-12,195,301!2024-11-24,71,235-->
-- safety engineering→:::←scheduling <!--SR:!2025-05-17,261,320!2025-11-12,407,340-->
-- scheduling→:::←surveying building site <!--SR:!2025-01-14,149,241!2026-02-05,476,320-->
-- surveying building site→:::←testing materials <!--SR:!2024-12-20,85,240!2025-05-20,207,272-->
-- testing materials→:::←_(end)_ <!--SR:!2025-02-21,236,347!2025-04-14,245,307-->
+- _(begin)_→::@::←budgeting <!--SR:!2026-07-24,631,347!2025-04-08,277,375-->
+- budgeting→::@::←contracting <!--SR:!2025-09-10,377,334!2026-03-06,483,327-->
+- contracting→::@::←designing temporary structures <!--SR:!2025-01-10,173,215!2025-04-22,236,295-->
+- designing temporary structures→::@::←logistics <!--SR:!2025-11-28,421,340!2024-12-10,71,277-->
+- logistics→::@::←planning <!--SR:!2025-06-11,237,294!2025-11-05,401,335-->
+- planning→::@::←procuring materials <!--SR:!2025-01-24,186,317!2025-02-03,175,277-->
+- procuring materials→::@::←quality assurance <!--SR:!2025-01-23,173,300!2025-03-23,213,281-->
+- quality assurance→::@::←quality control <!--SR:!2026-11-12,742,377!2025-01-13,182,352-->
+- quality control→::@::←safety engineering <!--SR:!2025-02-12,195,301!2024-11-24,71,235-->
+- safety engineering→::@::←scheduling <!--SR:!2025-05-17,261,320!2025-11-12,407,340-->
+- scheduling→::@::←surveying building site <!--SR:!2025-01-14,149,241!2026-02-05,476,320-->
+- surveying building site→::@::←testing materials <!--SR:!2024-12-20,85,240!2025-05-20,207,272-->
+- testing materials→::@::←_(end)_ <!--SR:!2025-02-21,236,347!2025-04-14,245,307-->
 
 <!--/pytextgen-->
 
@@ -498,13 +498,13 @@ teaming up with others
 
 <!--pytextgen generate section="ee20"--><!-- The following content is generated at 2024-02-16T21:59:47.378182+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←business procedures <!--SR:!2025-08-20,291,252!2026-03-19,557,401-->
-- business procedures→:::←economics <!--SR:!2024-11-19,82,261!2025-02-10,193,285-->
-- economics→:::←human behaviors <!--SR:!2025-02-04,127,300!2026-01-10,444,340-->
-- human behaviors→:::←management principles <!--SR:!2024-12-25,139,300!2025-07-15,253,260-->
-- management principles→:::←strong communication skills <!--SR:!2025-03-22,222,301!2025-07-08,306,320-->
-- strong communication skills→:::←teaming up with others <!--SR:!2026-08-16,647,360!2025-08-04,345,380-->
-- teaming up with others→:::←_(end)_ <!--SR:!2025-05-28,321,375!2025-03-17,198,272-->
+- _(begin)_→::@::←business procedures <!--SR:!2025-08-20,291,252!2026-03-19,557,401-->
+- business procedures→::@::←economics <!--SR:!2024-11-19,82,261!2025-02-10,193,285-->
+- economics→::@::←human behaviors <!--SR:!2025-02-04,127,300!2026-01-10,444,340-->
+- human behaviors→::@::←management principles <!--SR:!2024-12-25,139,300!2025-07-15,253,260-->
+- management principles→::@::←strong communication skills <!--SR:!2025-03-22,222,301!2025-07-08,306,320-->
+- strong communication skills→::@::←teaming up with others <!--SR:!2026-08-16,647,360!2025-08-04,345,380-->
+- teaming up with others→::@::←_(end)_ <!--SR:!2025-05-28,321,375!2025-03-17,198,272-->
 
 <!--/pytextgen-->
 
@@ -538,13 +538,13 @@ wood
 
 <!--pytextgen generate section="20b9"--><!-- The following content is generated at 2024-02-16T21:59:47.456944+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←brick <!--SR:!2025-03-11,233,357!2026-12-30,786,332-->
-- brick→:::←concrete <!--SR:!2025-03-03,185,305!2026-02-28,548,397-->
-- concrete→:::←new synthetic materials <!--SR:!2025-11-26,382,301!2024-12-07,161,341-->
-- new synthetic materials→:::←steel <!--SR:!2024-11-20,155,332!2025-09-08,375,340-->
-- steel→:::←stone <!--SR:!2025-04-04,202,320!2024-12-03,159,340-->
-- stone→:::←wood <!--SR:!2025-04-11,240,321!2025-09-06,361,332-->
-- wood→:::←_(end)_ <!--SR:!2026-01-17,513,394!2025-01-05,144,360-->
+- _(begin)_→::@::←brick <!--SR:!2025-03-11,233,357!2026-12-30,786,332-->
+- brick→::@::←concrete <!--SR:!2025-03-03,185,305!2026-02-28,548,397-->
+- concrete→::@::←new synthetic materials <!--SR:!2025-11-26,382,301!2024-12-07,161,341-->
+- new synthetic materials→::@::←steel <!--SR:!2024-11-20,155,332!2025-09-08,375,340-->
+- steel→::@::←stone <!--SR:!2025-04-04,202,320!2024-12-03,159,340-->
+- stone→::@::←wood <!--SR:!2025-04-11,240,321!2025-09-06,361,332-->
+- wood→::@::←_(end)_ <!--SR:!2026-01-17,513,394!2025-01-05,144,360-->
 
 <!--/pytextgen-->
 
@@ -590,19 +590,19 @@ nuclear
 
 <!--pytextgen generate section="ee13"--><!-- The following content is generated at 2024-04-23T18:07:51.639356+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←agricultural <!--SR:!2025-11-19,421,310!2025-12-04,477,392-->
-- agricultural→:::←architectural <!--SR:!2025-01-31,212,357!2025-06-08,311,372-->
-- architectural→:::←biomedical <!--SR:!2026-09-02,667,357!2024-11-25,152,340-->
-- biomedical→:::←ceramic <!--SR:!2026-01-05,426,320!2026-03-07,528,357-->
-- ceramic→:::←chemical <!--SR:!2024-12-15,154,320!2025-10-27,398,335-->
-- chemical→:::←civil <!--SR:!2026-01-19,455,337!2024-12-24,194,357-->
-- civil→:::←computer <!--SR:!2024-11-15,163,354!2024-12-17,189,352-->
-- computer→:::←electrical <!--SR:!2026-08-12,643,347!2025-01-18,142,315-->
-- electrical→:::←industrial <!--SR:!2025-01-30,122,301!2025-04-27,178,250-->
-- industrial→:::←manufacturing <!--SR:!2025-11-26,420,337!2025-08-18,341,332-->
-- manufacturing→:::←mechanical <!--SR:!2025-09-08,380,377!2026-07-28,643,357-->
-- mechanical→:::←nuclear <!--SR:!2025-07-18,340,377!2024-12-14,168,335-->
-- nuclear→:::←_(end)_ <!--SR:!2025-06-17,317,374!2025-07-25,393,365-->
+- _(begin)_→::@::←agricultural <!--SR:!2025-11-19,421,310!2025-12-04,477,392-->
+- agricultural→::@::←architectural <!--SR:!2025-01-31,212,357!2025-06-08,311,372-->
+- architectural→::@::←biomedical <!--SR:!2026-09-02,667,357!2024-11-25,152,340-->
+- biomedical→::@::←ceramic <!--SR:!2026-01-05,426,320!2026-03-07,528,357-->
+- ceramic→::@::←chemical <!--SR:!2024-12-15,154,320!2025-10-27,398,335-->
+- chemical→::@::←civil <!--SR:!2026-01-19,455,337!2024-12-24,194,357-->
+- civil→::@::←computer <!--SR:!2024-11-15,163,354!2024-12-17,189,352-->
+- computer→::@::←electrical <!--SR:!2026-08-12,643,347!2025-01-18,142,315-->
+- electrical→::@::←industrial <!--SR:!2025-01-30,122,301!2025-04-27,178,250-->
+- industrial→::@::←manufacturing <!--SR:!2025-11-26,420,337!2025-08-18,341,332-->
+- manufacturing→::@::←mechanical <!--SR:!2025-09-08,380,377!2026-07-28,643,357-->
+- mechanical→::@::←nuclear <!--SR:!2025-07-18,340,377!2024-12-14,168,335-->
+- nuclear→::@::←_(end)_ <!--SR:!2025-06-17,317,374!2025-07-25,393,365-->
 
 <!--/pytextgen-->
 
@@ -634,12 +634,12 @@ water
 
 <!--pytextgen generate section="736f"--><!-- The following content is generated at 2024-02-16T21:59:47.573916+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←air <!--SR:!2025-01-07,182,341!2025-12-28,486,401-->
-- air→:::←environmental impact assessment (EIA) <!--SR:!2024-12-08,168,318!2025-09-08,364,338-->
-- environmental impact assessment (EIA)→:::←noise <!--SR:!2025-08-23,349,327!2026-01-08,497,400-->
-- noise→:::←waste <!--SR:!2024-11-15,95,340!2024-12-23,190,355-->
-- waste→:::←water <!--SR:!2025-01-20,202,357!2025-03-30,251,360-->
-- water→:::←_(end)_ <!--SR:!2025-11-18,455,400!2025-07-31,343,380-->
+- _(begin)_→::@::←air <!--SR:!2025-01-07,182,341!2025-12-28,486,401-->
+- air→::@::←environmental impact assessment (EIA) <!--SR:!2024-12-08,168,318!2025-09-08,364,338-->
+- environmental impact assessment (EIA)→::@::←noise <!--SR:!2025-08-23,349,327!2026-01-08,497,400-->
+- noise→::@::←waste <!--SR:!2024-11-15,95,340!2024-12-23,190,355-->
+- waste→::@::←water <!--SR:!2025-01-20,202,357!2025-03-30,251,360-->
+- water→::@::←_(end)_ <!--SR:!2025-11-18,455,400!2025-07-31,343,380-->
 
 <!--/pytextgen-->
 
@@ -671,12 +671,12 @@ socioeconomic
 
 <!--pytextgen generate section="238a"--><!-- The following content is generated at 2024-02-16T21:59:47.593005+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←biological <!--SR:!2025-04-13,248,327!2025-09-04,404,394-->
-- biological→:::←chemical <!--SR:!2025-12-06,424,337!2025-03-18,247,357-->
-- chemical→:::←cultural <!--SR:!2024-11-18,119,280!2024-11-27,173,357-->
-- cultural→:::←physical <!--SR:!2026-07-28,649,365!2025-01-14,132,300-->
-- physical→:::←socioeconomic <!--SR:!2024-12-01,94,277!2025-04-02,244,361-->
-- socioeconomic→:::←_(end)_ <!--SR:!2024-12-29,187,354!2025-05-29,247,277-->
+- _(begin)_→::@::←biological <!--SR:!2025-04-13,248,327!2025-09-04,404,394-->
+- biological→::@::←chemical <!--SR:!2025-12-06,424,337!2025-03-18,247,357-->
+- chemical→::@::←cultural <!--SR:!2024-11-18,119,280!2024-11-27,173,357-->
+- cultural→::@::←physical <!--SR:!2026-07-28,649,365!2025-01-14,132,300-->
+- physical→::@::←socioeconomic <!--SR:!2024-12-01,94,277!2025-04-02,244,361-->
+- socioeconomic→::@::←_(end)_ <!--SR:!2024-12-29,187,354!2025-05-29,247,277-->
 
 <!--/pytextgen-->
 
@@ -706,11 +706,11 @@ soil liquefaction
 
 <!--pytextgen generate section="50ba"--><!-- The following content is generated at 2024-05-01T19:22:35.142020+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←debris flow <!--SR:!2025-03-31,235,314!2025-11-14,459,398-->
-- debris flow→:::←landslide <!--SR:!2025-06-10,294,335!2025-04-29,260,335-->
-- landslide→:::←rockfall <!--SR:!2025-01-13,137,312!2025-03-02,211,320-->
-- rockfall→:::←soil liquefaction <!--SR:!2024-11-14,135,290!2025-08-03,318,270-->
-- soil liquefaction→:::←_(end)_ <!--SR:!2025-12-10,483,392!2025-09-25,340,295-->
+- _(begin)_→::@::←debris flow <!--SR:!2025-03-31,235,314!2025-11-14,459,398-->
+- debris flow→::@::←landslide <!--SR:!2025-06-10,294,335!2025-04-29,260,335-->
+- landslide→::@::←rockfall <!--SR:!2025-01-13,137,312!2025-03-02,211,320-->
+- rockfall→::@::←soil liquefaction <!--SR:!2024-11-14,135,290!2025-08-03,318,270-->
+- soil liquefaction→::@::←_(end)_ <!--SR:!2025-12-10,483,392!2025-09-25,340,295-->
 
 <!--/pytextgen-->
 
@@ -740,11 +740,11 @@ tunnel
 
 <!--pytextgen generate section="11ab"--><!-- The following content is generated at 2024-05-01T19:22:35.163388+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←embankment <!--SR:!2025-09-25,357,320!2025-06-28,320,380-->
-- embankment→:::←pile foundation <!--SR:!2026-03-06,512,340!2025-02-18,218,360-->
-- pile foundation→:::←shallow foundation <!--SR:!2025-01-07,170,317!2025-01-04,191,355-->
-- shallow foundation→:::←tunnel <!--SR:!2025-09-06,333,321!2025-01-14,103,212-->
-- tunnel→:::←_(end)_ <!--SR:!2025-01-15,195,350!2024-12-13,100,297-->
+- _(begin)_→::@::←embankment <!--SR:!2025-09-25,357,320!2025-06-28,320,380-->
+- embankment→::@::←pile foundation <!--SR:!2026-03-06,512,340!2025-02-18,218,360-->
+- pile foundation→::@::←shallow foundation <!--SR:!2025-01-07,170,317!2025-01-04,191,355-->
+- shallow foundation→::@::←tunnel <!--SR:!2025-09-06,333,321!2025-01-14,103,212-->
+- tunnel→::@::←_(end)_ <!--SR:!2025-01-15,195,350!2024-12-13,100,297-->
 
 <!--/pytextgen-->
 
@@ -774,11 +774,11 @@ levee
 
 <!--pytextgen generate section="234f"--><!-- The following content is generated at 2024-05-01T19:22:35.207913+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←canal <!--SR:!2025-09-06,359,340!2025-06-19,333,367-->
-- canal→:::←channel <!--SR:!2024-11-27,174,357!2024-12-06,168,352-->
-- channel→:::←dam <!--SR:!2025-12-15,420,327!2025-02-10,240,290-->
-- dam→:::←levee <!--SR:!2024-12-18,169,340!2026-02-22,475,332-->
-- levee→:::←_(end)_ <!--SR:!2025-11-22,467,395!2025-03-11,136,238-->
+- _(begin)_→::@::←canal <!--SR:!2025-09-06,359,340!2025-06-19,333,367-->
+- canal→::@::←channel <!--SR:!2024-11-27,174,357!2024-12-06,168,352-->
+- channel→::@::←dam <!--SR:!2025-12-15,420,327!2025-02-10,240,290-->
+- dam→::@::←levee <!--SR:!2024-12-18,169,340!2026-02-22,475,332-->
+- levee→::@::←_(end)_ <!--SR:!2025-11-22,467,395!2025-03-11,136,238-->
 
 <!--/pytextgen-->
 
@@ -808,11 +808,11 @@ water distribution network
 
 <!--pytextgen generate section="019b"--><!-- The following content is generated at 2024-05-01T19:22:35.271947+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←sewage collection network <!--SR:!2024-11-19,56,321!2025-04-21,252,317-->
-- sewage collection network→:::←storm water management <!--SR:!2025-09-09,318,267!2025-09-27,374,341-->
-- storm water management→:::←water collection network <!--SR:!2025-09-05,372,340!2025-08-07,322,320-->
-- water collection network→:::←water distribution network <!--SR:!2026-01-24,512,400!2024-12-24,181,352-->
-- water distribution network→:::←_(end)_ <!--SR:!2025-01-05,204,367!2024-11-30,137,321-->
+- _(begin)_→::@::←sewage collection network <!--SR:!2024-11-19,56,321!2025-04-21,252,317-->
+- sewage collection network→::@::←storm water management <!--SR:!2025-09-09,318,267!2025-09-27,374,341-->
+- storm water management→::@::←water collection network <!--SR:!2025-09-05,372,340!2025-08-07,322,320-->
+- water collection network→::@::←water distribution network <!--SR:!2026-01-24,512,400!2024-12-24,181,352-->
+- water distribution network→::@::←_(end)_ <!--SR:!2025-01-05,204,367!2024-11-30,137,321-->
 
 <!--/pytextgen-->
 
@@ -844,12 +844,12 @@ Tsing Ma Bridge
 
 <!--pytextgen generate section="e7f2"--><!-- The following content is generated at 2024-02-16T21:59:47.773549+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←Akashi Kaikyo Bridge <!--SR:!2025-02-01,124,298!2025-05-27,320,377-->
-- Akashi Kaikyo Bridge→:::←Hong Kong–Zhuhai–Macau Bridge <!--SR:!2025-06-20,300,327!2025-08-19,321,307-->
-- Hong Kong–Zhuhai–Macau Bridge→:::←Stonecutters Bridge <!--SR:!2024-11-20,100,320!2025-01-08,149,300-->
-- Stonecutters Bridge→:::←Sutong Yangtze River Bridge <!--SR:!2025-12-19,437,337!2024-11-17,147,340-->
-- Sutong Yangtze River Bridge→:::←Tsing Ma Bridge <!--SR:!2024-11-23,155,335!2025-06-09,282,307-->
-- Tsing Ma Bridge→:::←_(end)_ <!--SR:!2025-05-31,301,364!2025-12-04,479,330-->
+- _(begin)_→::@::←Akashi Kaikyo Bridge <!--SR:!2025-02-01,124,298!2025-05-27,320,377-->
+- Akashi Kaikyo Bridge→::@::←Hong Kong–Zhuhai–Macau Bridge <!--SR:!2025-06-20,300,327!2025-08-19,321,307-->
+- Hong Kong–Zhuhai–Macau Bridge→::@::←Stonecutters Bridge <!--SR:!2024-11-20,100,320!2025-01-08,149,300-->
+- Stonecutters Bridge→::@::←Sutong Yangtze River Bridge <!--SR:!2025-12-19,437,337!2024-11-17,147,340-->
+- Sutong Yangtze River Bridge→::@::←Tsing Ma Bridge <!--SR:!2024-11-23,155,335!2025-06-09,282,307-->
+- Tsing Ma Bridge→::@::←_(end)_ <!--SR:!2025-05-31,301,364!2025-12-04,479,330-->
 
 <!--/pytextgen-->
 
@@ -877,10 +877,10 @@ developing strengthening techniques for damaged structures or structural members
 
 <!--pytextgen generate section="198b"--><!-- The following content is generated at 2024-05-01T19:22:35.365059+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←choosing suitable materials to resurface a road like asphalt pavement <!--SR:!2025-06-24,304,335!2025-05-03,280,370-->
-- choosing suitable materials to resurface a road like asphalt pavement→:::←designing a concrete mix for a large building <!--SR:!2025-01-17,192,340!2026-07-05,626,347-->
-- designing a concrete mix for a large building→:::←developing strengthening techniques for damaged structures or structural members like a damaged column <!--SR:!2025-08-18,347,335!2025-01-19,115,297-->
-- developing strengthening techniques for damaged structures or structural members like a damaged column→:::←_(end)_ <!--SR:!2025-03-02,231,345!2025-07-13,317,324-->
+- _(begin)_→::@::←choosing suitable materials to resurface a road like asphalt pavement <!--SR:!2025-06-24,304,335!2025-05-03,280,370-->
+- choosing suitable materials to resurface a road like asphalt pavement→::@::←designing a concrete mix for a large building <!--SR:!2025-01-17,192,340!2026-07-05,626,347-->
+- designing a concrete mix for a large building→::@::←developing strengthening techniques for damaged structures or structural members like a damaged column <!--SR:!2025-08-18,347,335!2025-01-19,115,297-->
+- developing strengthening techniques for damaged structures or structural members like a damaged column→::@::←_(end)_ <!--SR:!2025-03-02,231,345!2025-07-13,317,324-->
 
 <!--/pytextgen-->
 
@@ -912,12 +912,12 @@ polypropylene fiber reinforced concrete
 
 <!--pytextgen generate section="eee1"--><!-- The following content is generated at 2024-02-16T21:59:47.859581+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←artificial stone <!--SR:!2025-07-09,265,297!2025-07-31,398,365-->
-- artificial stone→:::←cellular concrete <!--SR:!2026-05-01,535,320!2025-07-28,331,335-->
-- cellular concrete→:::←engineered cement composite <!--SR:!2025-12-11,413,270!2024-12-05,166,330-->
-- engineered cement composite→:::←fly ash concrete <!--SR:!2026-03-09,492,337!2025-09-02,341,320-->
-- fly ash concrete→:::←polypropylene fiber reinforced concrete <!--SR:!2025-03-31,209,280!2025-08-14,344,335-->
-- polypropylene fiber reinforced concrete→:::←_(end)_ <!--SR:!2025-06-10,311,372!2025-10-18,373,320-->
+- _(begin)_→::@::←artificial stone <!--SR:!2025-07-09,265,297!2025-07-31,398,365-->
+- artificial stone→::@::←cellular concrete <!--SR:!2026-05-01,535,320!2025-07-28,331,335-->
+- cellular concrete→::@::←engineered cement composite <!--SR:!2025-12-11,413,270!2024-12-05,166,330-->
+- engineered cement composite→::@::←fly ash concrete <!--SR:!2026-03-09,492,337!2025-09-02,341,320-->
+- fly ash concrete→::@::←polypropylene fiber reinforced concrete <!--SR:!2025-03-31,209,280!2025-08-14,344,335-->
+- polypropylene fiber reinforced concrete→::@::←_(end)_ <!--SR:!2025-06-10,311,372!2025-10-18,373,320-->
 
 <!--/pytextgen-->
 
@@ -949,12 +949,12 @@ wave
 
 <!--pytextgen generate section="4372"--><!-- The following content is generated at 2024-05-01T19:22:35.392684+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←earthquake <!--SR:!2026-03-08,482,340!2025-02-25,240,357-->
-- earthquake→:::←fire <!--SR:!2025-10-26,391,335!2025-04-04,255,360-->
-- fire→:::←flood <!--SR:!2024-11-25,155,324!2025-06-11,279,266-->
-- flood→:::←strong wind <!--SR:!2024-12-03,92,300!2026-02-20,467,317-->
-- strong wind→:::←wave <!--SR:!2025-01-11,218,290!2025-08-18,314,294-->
-- wave→:::←_(end)_ <!--SR:!2025-01-03,199,357!2025-02-17,210,315-->
+- _(begin)_→::@::←earthquake <!--SR:!2026-03-08,482,340!2025-02-25,240,357-->
+- earthquake→::@::←fire <!--SR:!2025-10-26,391,335!2025-04-04,255,360-->
+- fire→::@::←flood <!--SR:!2024-11-25,155,324!2025-06-11,279,266-->
+- flood→::@::←strong wind <!--SR:!2024-12-03,92,300!2026-02-20,467,317-->
+- strong wind→::@::←wave <!--SR:!2025-01-11,218,290!2025-08-18,314,294-->
+- wave→::@::←_(end)_ <!--SR:!2025-01-03,199,357!2025-02-17,210,315-->
 
 <!--/pytextgen-->
 
@@ -982,10 +982,10 @@ Two Prudential Plaza
 
 <!--pytextgen generate section="daaf"--><!-- The following content is generated at 2024-02-16T21:59:47.894677+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←Central Plaza (Hong Kong) <!--SR:!2025-05-25,278,317!2025-12-02,475,387-->
-- Central Plaza (Hong Kong)→:::←China International Trust and Investment (CITIC) Plaza <!--SR:!2025-06-18,300,334!2025-08-25,342,340-->
-- China International Trust and Investment (CITIC) Plaza→:::←Two Prudential Plaza <!--SR:!2026-02-05,464,340!2025-02-14,113,240-->
-- Two Prudential Plaza→:::←_(end)_ <!--SR:!2025-02-26,248,375!2025-08-04,322,320-->
+- _(begin)_→::@::←Central Plaza (Hong Kong) <!--SR:!2025-05-25,278,317!2025-12-02,475,387-->
+- Central Plaza (Hong Kong)→::@::←China International Trust and Investment (CITIC) Plaza <!--SR:!2025-06-18,300,334!2025-08-25,342,340-->
+- China International Trust and Investment (CITIC) Plaza→::@::←Two Prudential Plaza <!--SR:!2026-02-05,464,340!2025-02-14,113,240-->
+- Two Prudential Plaza→::@::←_(end)_ <!--SR:!2025-02-26,248,375!2025-08-04,322,320-->
 
 <!--/pytextgen-->
 
@@ -1015,11 +1015,11 @@ Taipei 101
 
 <!--pytextgen generate section="938f"--><!-- The following content is generated at 2024-02-16T21:59:47.947997+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←HSBC Main Building <!--SR:!2025-10-31,379,317!2025-04-01,312,330-->
-- HSBC Main Building→:::←International Commerce Centre <!--SR:!2025-02-17,111,277!2025-05-06,208,334-->
-- International Commerce Centre→:::←John Hancock Center <!--SR:!2025-10-04,361,320!2024-12-24,105,297-->
-- John Hancock Center→:::←Taipei 101 <!--SR:!2026-02-18,473,341!2025-10-16,373,312-->
-- Taipei 101→:::←_(end)_ <!--SR:!2025-04-10,280,367!2025-03-18,141,301-->
+- _(begin)_→::@::←HSBC Main Building <!--SR:!2025-10-31,379,317!2025-04-01,312,330-->
+- HSBC Main Building→::@::←International Commerce Centre <!--SR:!2025-02-17,111,277!2025-05-06,208,334-->
+- International Commerce Centre→::@::←John Hancock Center <!--SR:!2025-10-04,361,320!2024-12-24,105,297-->
+- John Hancock Center→::@::←Taipei 101 <!--SR:!2026-02-18,473,341!2025-10-16,373,312-->
+- Taipei 101→::@::←_(end)_ <!--SR:!2025-04-10,280,367!2025-03-18,141,301-->
 
 <!--/pytextgen-->
 
@@ -1051,12 +1051,12 @@ Hong Kong Code
 
 <!--pytextgen generate section="2ff2"--><!-- The following content is generated at 2024-04-23T18:07:51.798230+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←American Code <!--SR:!2025-09-20,383,380!2025-09-03,403,394-->
-- American Code→:::←Australian Standard <!--SR:!2024-12-27,193,355!2025-12-14,487,395-->
-- Australian Standard→:::←Chinese Code <!--SR:!2024-12-05,160,327!2025-02-16,233,357-->
-- Chinese Code→:::←Eurocode <!--SR:!2025-12-17,426,335!2025-03-30,252,357-->
-- Eurocode→:::←Hong Kong Code <!--SR:!2025-03-11,258,376!2024-11-26,168,357-->
-- Hong Kong Code→:::←_(end)_ <!--SR:!2025-09-17,412,387!2025-02-21,263,350-->
+- _(begin)_→::@::←American Code <!--SR:!2025-09-20,383,380!2025-09-03,403,394-->
+- American Code→::@::←Australian Standard <!--SR:!2024-12-27,193,355!2025-12-14,487,395-->
+- Australian Standard→::@::←Chinese Code <!--SR:!2024-12-05,160,327!2025-02-16,233,357-->
+- Chinese Code→::@::←Eurocode <!--SR:!2025-12-17,426,335!2025-03-30,252,357-->
+- Eurocode→::@::←Hong Kong Code <!--SR:!2025-03-11,258,376!2024-11-26,168,357-->
+- Hong Kong Code→::@::←_(end)_ <!--SR:!2025-09-17,412,387!2025-02-21,263,350-->
 
 <!--/pytextgen-->
 
@@ -1094,15 +1094,15 @@ water tower
 
 <!--pytextgen generate section="1002"--><!-- The following content is generated at 2024-05-01T19:22:35.524682+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←bridge <!--SR:!2026-09-02,679,355!2025-11-12,457,400-->
-- bridge→:::←building <!--SR:!2025-01-24,203,350!2026-01-07,496,400-->
-- building→:::←dam <!--SR:!2025-05-03,277,361!2025-01-17,198,361-->
-- dam→:::←power plant <!--SR:!2024-12-09,92,281!2025-07-27,283,258-->
-- power plant→:::←storage facility <!--SR:!2025-01-30,185,300!2025-07-03,239,334-->
-- storage facility→:::←tunnel <!--SR:!2024-12-21,103,280!2025-09-29,392,340-->
-- tunnel→:::←unusual structure <!--SR:!2025-04-13,206,247!2026-04-05,535,340-->
-- unusual structure→:::←water tower <!--SR:!2024-12-19,108,290!2024-11-18,53,270-->
-- water tower→:::←_(end)_ <!--SR:!2025-11-24,467,387!2025-04-10,214,301-->
+- _(begin)_→::@::←bridge <!--SR:!2026-09-02,679,355!2025-11-12,457,400-->
+- bridge→::@::←building <!--SR:!2025-01-24,203,350!2026-01-07,496,400-->
+- building→::@::←dam <!--SR:!2025-05-03,277,361!2025-01-17,198,361-->
+- dam→::@::←power plant <!--SR:!2024-12-09,92,281!2025-07-27,283,258-->
+- power plant→::@::←storage facility <!--SR:!2025-01-30,185,300!2025-07-03,239,334-->
+- storage facility→::@::←tunnel <!--SR:!2024-12-21,103,280!2025-09-29,392,340-->
+- tunnel→::@::←unusual structure <!--SR:!2025-04-13,206,247!2026-04-05,535,340-->
+- unusual structure→::@::←water tower <!--SR:!2024-12-19,108,290!2024-11-18,53,270-->
+- water tower→::@::←_(end)_ <!--SR:!2025-11-24,467,387!2025-04-10,214,301-->
 
 <!--/pytextgen-->
 
@@ -1142,16 +1142,16 @@ and the Structural Engineering Institute (SEI).
 
 <!--pytextgen generate section="34aa"--><!-- The following content is generated at 2024-05-16T15:46:41.750298+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←On 24 June 2021, a 12-story beachfront condominium, Champlain Towers South, in Miami suburb, Florida, United States partially collapsed, killing 98 people. <!--SR:!2025-07-11,303,320!2025-06-05,349,350-->
-- On 24 June 2021, a 12-story beachfront condominium, Champlain Towers South, in Miami suburb, Florida, United States partially collapsed, killing 98 people.→:::←Main culprit is degradation of reinforced concrete structural support in ground-level parking garage, due to water penetration and corrosion of the reinforcing steel. <!--SR:!2025-04-16,247,315!2025-04-10,241,315-->
-- Main culprit is degradation of reinforced concrete structural support in ground-level parking garage, due to water penetration and corrosion of the reinforcing steel.→:::←Other possible factors include corruption, insufficient reinforcing steel, and land subsidence. <!--SR:!2024-12-08,194,290!2025-08-02,322,317-->
-- Other possible factors include corruption, insufficient reinforcing steel, and land subsidence.→:::←The problems had been reported in 2018 and a US$15M program of remedial work has been approved, though no main structural work has taken place. <!--SR:!2025-11-27,384,294!2025-05-18,271,316-->
-- The problems had been reported in 2018 and a US$15M program of remedial work has been approved, though no main structural work has taken place.→:::←On 25 August 2021, the National Institute of Standards and Technology (NIST) has been tasked with investigation, <!--SR:!2026-03-31,504,337!2025-11-17,413,335-->
-- On 25 August 2021, the National Institute of Standards and Technology (NIST) has been tasked with investigation,→:::←with investigators coming from the American Concrete Institute (ACI), <!--SR:!2026-02-25,487,327!2025-06-05,278,307-->
-- with investigators coming from the American Concrete Institute (ACI),→:::←the American Society of Civil Engineers (ASCE), <!--SR:!2024-11-25,156,334!2025-05-18,269,310-->
-- the American Society of Civil Engineers (ASCE),→:::←the Geode Institute (GI), <!--SR:!2025-02-04,190,290!2026-06-04,602,357-->
-- the Geode Institute (GI),→:::←and the Structural Engineering Institute (SEI). <!--SR:!2025-10-29,426,357!2024-12-11,201,330-->
-- and the Structural Engineering Institute (SEI).→:::←_(end)_ <!--SR:!2025-05-08,326,350!2024-12-06,196,330-->
+- _(begin)_→::@::←On 24 June 2021, a 12-story beachfront condominium, Champlain Towers South, in Miami suburb, Florida, United States partially collapsed, killing 98 people. <!--SR:!2025-07-11,303,320!2025-06-05,349,350-->
+- On 24 June 2021, a 12-story beachfront condominium, Champlain Towers South, in Miami suburb, Florida, United States partially collapsed, killing 98 people.→::@::←Main culprit is degradation of reinforced concrete structural support in ground-level parking garage, due to water penetration and corrosion of the reinforcing steel. <!--SR:!2025-04-16,247,315!2025-04-10,241,315-->
+- Main culprit is degradation of reinforced concrete structural support in ground-level parking garage, due to water penetration and corrosion of the reinforcing steel.→::@::←Other possible factors include corruption, insufficient reinforcing steel, and land subsidence. <!--SR:!2024-12-08,194,290!2025-08-02,322,317-->
+- Other possible factors include corruption, insufficient reinforcing steel, and land subsidence.→::@::←The problems had been reported in 2018 and a US$15M program of remedial work has been approved, though no main structural work has taken place. <!--SR:!2025-11-27,384,294!2025-05-18,271,316-->
+- The problems had been reported in 2018 and a US$15M program of remedial work has been approved, though no main structural work has taken place.→::@::←On 25 August 2021, the National Institute of Standards and Technology (NIST) has been tasked with investigation, <!--SR:!2026-03-31,504,337!2025-11-17,413,335-->
+- On 25 August 2021, the National Institute of Standards and Technology (NIST) has been tasked with investigation,→::@::←with investigators coming from the American Concrete Institute (ACI), <!--SR:!2026-02-25,487,327!2025-06-05,278,307-->
+- with investigators coming from the American Concrete Institute (ACI),→::@::←the American Society of Civil Engineers (ASCE), <!--SR:!2024-11-25,156,334!2025-05-18,269,310-->
+- the American Society of Civil Engineers (ASCE),→::@::←the Geode Institute (GI), <!--SR:!2025-02-04,190,290!2026-06-04,602,357-->
+- the Geode Institute (GI),→::@::←and the Structural Engineering Institute (SEI). <!--SR:!2025-10-29,426,357!2024-12-11,201,330-->
+- and the Structural Engineering Institute (SEI).→::@::←_(end)_ <!--SR:!2025-05-08,326,350!2024-12-06,196,330-->
 
 <!--/pytextgen-->
 
@@ -1187,14 +1187,14 @@ water transport
 
 <!--pytextgen generate section="a928"--><!-- The following content is generated at 2024-05-01T23:30:35.177839+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←airport <!--SR:!2025-01-22,179,290!2025-10-07,430,395-->
-- airport→:::←bicycle path <!--SR:!2025-03-09,237,355!2025-12-19,472,357-->
-- bicycle path→:::←highway <!--SR:!2025-01-20,199,360!2025-03-05,232,360-->
-- highway→:::←pier <!--SR:!2025-10-07,364,320!2025-03-17,217,300-->
-- pier→:::←pipeline <!--SR:!2025-01-24,136,360!2025-02-06,194,314-->
-- pipeline→:::←railroad <!--SR:!2024-11-15,111,255!2025-01-06,112,295-->
-- railroad→:::←water transport <!--SR:!2025-12-17,426,340!2025-04-24,255,315-->
-- water transport→:::←_(end)_ <!--SR:!2026-03-20,555,400!2025-07-05,322,380-->
+- _(begin)_→::@::←airport <!--SR:!2025-01-22,179,290!2025-10-07,430,395-->
+- airport→::@::←bicycle path <!--SR:!2025-03-09,237,355!2025-12-19,472,357-->
+- bicycle path→::@::←highway <!--SR:!2025-01-20,199,360!2025-03-05,232,360-->
+- highway→::@::←pier <!--SR:!2025-10-07,364,320!2025-03-17,217,300-->
+- pier→::@::←pipeline <!--SR:!2025-01-24,136,360!2025-02-06,194,314-->
+- pipeline→::@::←railroad <!--SR:!2024-11-15,111,255!2025-01-06,112,295-->
+- railroad→::@::←water transport <!--SR:!2025-12-17,426,340!2025-04-24,255,315-->
+- water transport→::@::←_(end)_ <!--SR:!2026-03-20,555,400!2025-07-05,322,380-->
 
 <!--/pytextgen-->
 
@@ -1226,11 +1226,11 @@ water treatment
 
 <!--pytextgen generate section="1123"--><!-- The following content is generated at 2024-02-16T21:59:48.139738+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←groundwater quality control <!--SR:!2025-11-29,417,340!2024-11-29,175,357-->
-- groundwater quality control→:::←wastewater recycling <!--SR:!2024-11-26,89,275!2024-12-26,92,260-->
-- wastewater recycling→:::←wastewater treatment <!--SR:!2025-12-22,414,315!2025-01-16,186,317-->
-- wastewater treatment→:::←water quality monitoring <!--SR:!2024-12-21,142,280!2024-12-07,157,315-->
-- water quality monitoring→:::←water treatment <!--SR:!2026-09-09,666,344!2025-10-19,390,334-->
-- water treatment→:::←_(end)_ <!--SR:!2025-03-13,240,354!2024-12-09,141,266-->
+- _(begin)_→::@::←groundwater quality control <!--SR:!2025-11-29,417,340!2024-11-29,175,357-->
+- groundwater quality control→::@::←wastewater recycling <!--SR:!2024-11-26,89,275!2024-12-26,92,260-->
+- wastewater recycling→::@::←wastewater treatment <!--SR:!2025-12-22,414,315!2025-01-16,186,317-->
+- wastewater treatment→::@::←water quality monitoring <!--SR:!2024-12-21,142,280!2024-12-07,157,315-->
+- water quality monitoring→::@::←water treatment <!--SR:!2026-09-09,666,344!2025-10-19,390,334-->
+- water treatment→::@::←_(end)_ <!--SR:!2025-03-13,240,354!2024-12-09,141,266-->
 
 <!--/pytextgen-->

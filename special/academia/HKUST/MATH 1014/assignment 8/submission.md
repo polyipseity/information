@@ -235,7 +235,7 @@ f(x) & = \sum_{k = 0}^n \frac {f^{(k)}(0)} {k!} x^k + \frac {f^{(n + 1)}(c)} {n!
 & = \lim_{n \to +\infty} \left( f(x) - \sum_{k = 0}^n \frac {f^{(k)}(0)} {k!} x^k \right) \\
 & = \lim_{n \to +\infty} \left(\sum_{k = 0}^n \frac {f^{(k)}(0)} {k!} x^k + \frac {f^{(n + 1)}(c)} {n!} (x - c)^n x - \sum_{k = 0}^n \frac {f^{(k)}(0)} {k!} x^k \right) && (n\text{ in the above formula is arbitrary}) \\
 & = \lim_{n \to +\infty} \frac {f^{(n + 1)}(c)} {n!} (x - c)^n x \\
-& = \lim_{n \to +\infty} \frac {n! (-1)^{n + 1} (1 + c)^{-(n + 1)}} {n!} (x - c)^n x \\
+& = \lim_{n \to +\infty} \frac {n! (-1)^{n + 1} (1 + c)^{-(n + 1)}@} {n!} (x - c)^n x \\
 & = \lim_{n \to +\infty} (-1)^{n + 1} \left(\frac {x - c} {1 + c} \right)^n \frac x {1 + x} \\
 & = \frac x {1 + x} \lim_{n \to +\infty} (-1)^{n + 1} \left(\frac {x - c} {1 + c} \right)^n \\
 \\
