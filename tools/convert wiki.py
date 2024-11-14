@@ -168,13 +168,13 @@ async def wiki_html_to_plaintext(
                     alt_text = alt_text.removeprefix(R"{\textstyle ")
                 if len(alt_text) <= alt_text_len:
                     alt_text = alt_text.removesuffix(R"}")
-                while (
-                    alt_text2 := alt_text.replace(R"{{", R"{ {")
-                    .replace(R"}}", R"} }")
-                    .replace(R"::", R": :")
-                ) != alt_text:
-                    alt_text = alt_text2
-                alt_text = alt_text.strip()
+                alt_text = (
+                    alt_text.replace(R":@:", R": @ :")
+                    .replace(R"?@?", R"? @ ?")
+                    .replace(R"{@{", R"{ @ {")
+                    .replace(R"}@}", R"} @ }")
+                    .strip()
+                )
 
                 is_not_separate_paragraph = (
                     (parent := ele.parent)

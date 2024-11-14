@@ -41,9 +41,9 @@ Let {{$p_{i}$ be the [price](price.md) of good $x_{i}$}}. Then, {{$x_{j}$ is a s
 
 {{The fact that one good is substitutable for another}} has {{immediate economic consequences}}: insofar {{as one good can be substituted for another}}, {{the [demands](demand.md) for the two goods will be interrelated}} by the fact that {{customers can trade off one good for the other if it becomes advantageous to do so}}. {{Cross-price elasticity}} helps us understand {{the degree of substitutability of the two products}}. {{An increase in the price of a good}} will {{increase demand for its substitutes}}, while {{a decrease in the price of a good will decrease demand for its substitutes}}, see Figure 2.<sup>[\[4\]](#^ref-4)</sup> <!--SR:!2024-11-17,4,290!2024-11-17,4,270!2024-11-17,4,270!2024-11-17,4,270!2024-11-17,4,270!2024-11-17,4,270!2024-11-17,4,270!2024-11-17,4,270!2024-11-17,4,270!2024-11-17,4,270-->
 
-> {{![Graphical example of substitute goods](../archives/Wikimedia%20Commons/Substitute%20good%20chart.jpg)}}
+> {{![Figure 2: Graphical example of substitute goods](../archives/Wikimedia%20Commons/Substitute%20good%20chart.jpg)}}
 >
-> {{Figure 2: Graphical example of substitute goods}} <!--SR:!2024-11-17,4,270!2024-11-17,4,270-->
+> Figure 2: {{Graphical example of substitute goods}} <!--SR:!2024-11-17,4,270!2024-11-17,4,270-->
 
 {{The relationship between [demand schedules](demand%20curve.md)}} determines {{whether goods are classified as substitutes or complements}}. {{The [cross-price elasticity of demand](cross%20elasticity%20of%20demand.md)}} shows {{the relationship between two goods}}, it captures {{the responsiveness of the quantity demanded of one good to a change in price of another good}}.<sup>[\[5\]](#^ref-5)</sup> <!--SR:!2024-11-17,4,270!2024-11-17,4,270!2024-11-17,4,270!2024-11-17,4,270!2024-11-17,4,270-->
 
@@ -57,7 +57,7 @@ The cross-price elasticity may be {{positive or negative, depending on whether t
 
 #### perfect substitutes
 
-> {{![Utility functions of perfect substitutes](../archives/Wikimedia%20Commons/Indifference-curves-perfect-substitutes.svg)}}
+> {{![Figure 3: Utility functions of perfect substitutes](../archives/Wikimedia%20Commons/Indifference-curves-perfect-substitutes.svg)}}
 >
 > Figure 3: {{Utility functions of perfect substitutes}} <!--SR:!2024-11-17,4,270!2024-11-17,4,270-->
 
@@ -73,7 +73,7 @@ Perfect substitutes have {{a high cross-elasticity of demand}}. For example, if 
 
 #### imperfect substitutes
 
-> {{![Comparison of indifference curves of perfect and imperfect substitutes](../archives/Wikimedia%20Commons/Perfect-imperfect-substitutes-indifference-curve.png)}}
+> {{![Figure 4: Comparison of indifference curves of perfect and imperfect substitutes](../archives/Wikimedia%20Commons/Perfect-imperfect-substitutes-indifference-curve.png)}}
 >
 > Figure 4: {{Comparison of indifference curves of perfect and imperfect substitutes}} <!--SR:!2024-11-16,3,250!2024-11-17,4,270-->
 
