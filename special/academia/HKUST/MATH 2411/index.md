@@ -359,7 +359,7 @@ The content is in teaching order.
   - normal distribution / examples ::@:: human height, one component of the velocity of a turbulent wind flow, Galton board
   - normal distribution / standard normal distribution ::@:: The __standard normal distribution__ has the mean, $\mu$, 0, and the variance, $\sigma^2$, 1. Its CDF is commonly denoted by $\Phi(z)$ while its PDF is commonly denoted by $\varphi(z)$. <p> A property of its CDF due to the even symmetry of its PDF: $$\Phi(-z) = 1 - \Phi(z) \,.$$
   - normal distribution / standardization ::@:: Any normal distribution can be __standardized__ by defining the random variable $$Z = \frac {X - \mu} {\sigma} \qquad X = \sigma Z + \mu \,.$$ Further, $$z = \frac {x - \mu} \sigma$$ is also known as the __standard score__ of the data _x_. <p> After standardization, a standard normal table that provides $\Phi(z)$ for different values of _z_ may be used to evaluate the CDF of any normal distribution. (The table may not show negative values of _z_. In that case, you need to use the property of its CDF above.)
-  - normal distribution / _R_: evaluate CDF ::@:: `pnorm(<standard score>[, mean=<mean>][, sd=<standard deviation>])`
+  - normal distribution / _R_: evaluate CDF ::@:: `pnorm(<value>[, mean=<mean>][, sd=<standard deviation>])`
 
 ## week 6 tutorial
 
