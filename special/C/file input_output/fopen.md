@@ -16,7 +16,7 @@ tags:
 # import ../../../../tools/utility.py.md
 ```
 
-- _defined in {{[`<stdio.h>`](../../../general/C%20file%20input_output.md)}}_
+- _defined in {@{[`<stdio.h>`](../../../general/C%20file%20input_output.md)}@}_
 
 ```C
 // (1)
@@ -30,9 +30,9 @@ errno_t fopen_s(FILE *restrict *restrict streamptr,
 
 > [!tip] tips
 >
-> - `_CRT_SECURE_NO_WARNINGS` ([Visual Studio](Visual%20Studio.md)) ::: define to `1` to disable errors from using non-`_s`-ending functions
-> - overload selection ::: use the `_s`-ending overloads whenever feasible
-> - remember ::: call [`fclose`](fclose.md) on the file after you are done with it
+> - `_CRT_SECURE_NO_WARNINGS` ([Visual Studio](Visual%20Studio.md)) ::@:: define to `1` to disable errors from using non-`_s`-ending functions
+> - overload selection ::@:: use the `_s`-ending overloads whenever feasible
+> - remember ::@:: call [`fclose`](fclose.md) on the file after you are done with it
 
 ## parameters
 
@@ -61,28 +61,28 @@ return await memorize_table(
 
 > | character | description |
 > |-|-|
-> | {{a}} | {{append}} |
-> | {{a+}} | {{append extended}} |
-> | {{r}} | {{read}} |
-> | {{r+}} | {{read extended}} |
-> | {{w}} | {{write}} |
-> | {{w+}} | {{write extended}} |
+> | {@{a}@} | {@{append}@} |
+> | {@{a+}@} | {@{append extended}@} |
+> | {@{r}@} | {@{read}@} |
+> | {@{r+}@} | {@{read extended}@} |
+> | {@{w}@} | {@{write}@} |
+> | {@{w+}@} | {@{write extended}@} |
 
 <!--/pytextgen-->
 
 <!--pytextgen generate section="b23d"--><!-- The following content is generated at 2024-01-04T20:17:58.525781+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←a
-- a→:::←a+
-- a+→:::←r
-- r→:::←r+
-- r+→:::←w
-- w→:::←w+
-- w+→:::←_(end)_
+- _(begin)_→::@::←a
+- a→::@::←a+
+- a+→::@::←r
+- r→::@::←r+
+- r+→::@::←w
+- w→::@::←w+
+- w+→::@::←_(end)_
 
 <!--/pytextgen-->
 
 ## return value
 
-- (1) :: If successful, a pointer to the new file stream. On error, `NULL`.
-- (2) :: If successful, `0` and writes a pointer to the new file stream into `*streamptr`. On error, non-zero error code and writes `NULL` into `*streamptr` unless `streamptr` is `NULL`.
+- (1) :@: If successful, a pointer to the new file stream. On error, `NULL`.
+- (2) :@: If successful, `0` and writes a pointer to the new file stream into `*streamptr`. On error, non-zero error code and writes `NULL` into `*streamptr` unless `streamptr` is `NULL`.

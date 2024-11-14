@@ -18,7 +18,7 @@ tags:
 
 ## definition
 
-The reaction rate is always {{positive}}.
+The reaction rate is always {@{positive}@}.
 
 ## factors
 
@@ -48,15 +48,15 @@ There are many factors affecting the reaction rate:
 
 <!--pytextgen generate section="22dd"--><!-- The following content is generated at 2024-01-04T20:17:52.611048+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←[catalyst](catalysis.md) presence: correlated
-- [catalyst](catalysis.md) presence: correlated→:::←[concentration](concentration.md) of [reactants](reagent.md): correlated
-- [concentration](concentration.md) of [reactants](reagent.md): correlated→:::←[surface area](surface%20area.md) of [solids](solid.md): correlated
-- [surface area](surface%20area.md) of [solids](solid.md): correlated→:::←[temperature](temperature.md): correlated
-- [temperature](temperature.md): correlated→:::←_(end)_
+- _(begin)_→::@::←[catalyst](catalysis.md) presence: correlated
+- [catalyst](catalysis.md) presence: correlated→::@::←[concentration](concentration.md) of [reactants](reagent.md): correlated
+- [concentration](concentration.md) of [reactants](reagent.md): correlated→::@::←[surface area](surface%20area.md) of [solids](solid.md): correlated
+- [surface area](surface%20area.md) of [solids](solid.md): correlated→::@::←[temperature](temperature.md): correlated
+- [temperature](temperature.md): correlated→::@::←_(end)_
 
 <!--/pytextgen-->
 
-Influencing factors can be explained by {{[collision theory](collision%20theory.md)}}.
+Influencing factors can be explained by {@{[collision theory](collision%20theory.md)}@}.
 
 ## rate equation
 

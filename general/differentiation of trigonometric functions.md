@@ -57,24 +57,24 @@ return await memorize_map(
 
 > [!tip] tips
 >
-> - [mnemonic](mnemonic.md) ::: From the [derivative](derivative.md) of a trigonometric function, replace trigonometric functions with their counterparts and negate the [derivative](derivative.md) to get the [derivative](derivative.md) of the counterpart.
+> - [mnemonic](mnemonic.md) ::@:: From the [derivative](derivative.md) of a trigonometric function, replace trigonometric functions with their counterparts and negate the [derivative](derivative.md) to get the [derivative](derivative.md) of the counterpart.
 
 ### function–derivative
 
 <!--pytextgen generate section="e934"--><!-- The following content is generated at 2024-01-04T20:17:51.635097+08:00. Any edits will be overridden! -->
 
-- $\sin{x}$::$\cos{x}$
-- $\cos{x}$::$-\sin{x}$
-- $\tan{x}$::$\sec^2{x}$
-- $\cot{x}$::$-\csc^2{x}$
-- $\sec{x}$::$\sec{x}\tan{x}$
-- $\csc{x}$::$-\csc{x}\cot{x}$
-- $\arcsin{x}$::$\frac1{\sqrt{1-x^2} }$
-- $\arccos{x}$::$-\frac1{\sqrt{1-x^2} }$
-- $\arctan{x}$::$\frac1{x^2+1}$
-- $\operatorname{arccot}{x}$::$-\frac1{x^2+1}$
-- $\operatorname{arcsec}{x}$::$\frac1{\lvert{x}\rvert\sqrt{x^2-1} }$
-- $\operatorname{arccsc}{x}$::$-\frac1{\lvert{x}\rvert\sqrt{x^2-1} }$
+- $\sin{x}$:@:$\cos{x}$
+- $\cos{x}$:@:$-\sin{x}$
+- $\tan{x}$:@:$\sec^2{x}$
+- $\cot{x}$:@:$-\csc^2{x}$
+- $\sec{x}$:@:$\sec{x}\tan{x}$
+- $\csc{x}$:@:$-\csc{x}\cot{x}$
+- $\arcsin{x}$:@:$\frac1{\sqrt{1-x^2} }$
+- $\arccos{x}$:@:$-\frac1{\sqrt{1-x^2} }$
+- $\arctan{x}$:@:$\frac1{x^2+1}$
+- $\operatorname{arccot}{x}$:@:$-\frac1{x^2+1}$
+- $\operatorname{arcsec}{x}$:@:$\frac1{\lvert{x}\rvert\sqrt{x^2-1} }$
+- $\operatorname{arccsc}{x}$:@:$-\frac1{\lvert{x}\rvert\sqrt{x^2-1} }$
 
 <!--/pytextgen-->
 
@@ -82,18 +82,18 @@ return await memorize_map(
 
 <!--pytextgen generate section="b023"--><!-- The following content is generated at 2024-01-04T20:17:51.605095+08:00. Any edits will be overridden! -->
 
-- $\cos{x}$::$\sin{x}$
-- $-\sin{x}$::$\cos{x}$
-- $\sec^2{x}$::$\tan{x}$
-- $-\csc^2{x}$::$\cot{x}$
-- $\sec{x}\tan{x}$::$\sec{x}$
-- $-\csc{x}\cot{x}$::$\csc{x}$
-- $\frac1{\sqrt{1-x^2} }$::$\arcsin{x}$
-- $-\frac1{\sqrt{1-x^2} }$::$\arccos{x}$
-- $\frac1{x^2+1}$::$\arctan{x}$
-- $-\frac1{x^2+1}$::$\operatorname{arccot}{x}$
-- $\frac1{\lvert{x}\rvert\sqrt{x^2-1} }$::$\operatorname{arcsec}{x}$
-- $-\frac1{\lvert{x}\rvert\sqrt{x^2-1} }$::$\operatorname{arccsc}{x}$
+- $\cos{x}$:@:$\sin{x}$
+- $-\sin{x}$:@:$\cos{x}$
+- $\sec^2{x}$:@:$\tan{x}$
+- $-\csc^2{x}$:@:$\cot{x}$
+- $\sec{x}\tan{x}$:@:$\sec{x}$
+- $-\csc{x}\cot{x}$:@:$\csc{x}$
+- $\frac1{\sqrt{1-x^2} }$:@:$\arcsin{x}$
+- $-\frac1{\sqrt{1-x^2} }$:@:$\arccos{x}$
+- $\frac1{x^2+1}$:@:$\arctan{x}$
+- $-\frac1{x^2+1}$:@:$\operatorname{arccot}{x}$
+- $\frac1{\lvert{x}\rvert\sqrt{x^2-1} }$:@:$\operatorname{arcsec}{x}$
+- $-\frac1{\lvert{x}\rvert\sqrt{x^2-1} }$:@:$\operatorname{arccsc}{x}$
 
 <!--/pytextgen-->
 

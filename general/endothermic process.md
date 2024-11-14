@@ -37,9 +37,9 @@ return await memorize_seq(
 
 <!--pytextgen generate section="abbb"--><!-- The following content is generated at 2024-01-04T20:17:51.694623+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←[cracking](cracking%20(chemistry).md) of [alkanes](alkane.md)
-- [cracking](cracking%20(chemistry).md) of [alkanes](alkane.md)→:::←[thermal decomposition](thermal%20decomposition.md) of [calcium carbonate](calcium%20carbonate.md)
-- [thermal decomposition](thermal%20decomposition.md) of [calcium carbonate](calcium%20carbonate.md)→:::←_(end)_
+- _(begin)_→::@::←[cracking](cracking%20(chemistry).md) of [alkanes](alkane.md)
+- [cracking](cracking%20(chemistry).md) of [alkanes](alkane.md)→::@::←[thermal decomposition](thermal%20decomposition.md) of [calcium carbonate](calcium%20carbonate.md)
+- [thermal decomposition](thermal%20decomposition.md) of [calcium carbonate](calcium%20carbonate.md)→::@::←_(end)_
 
 <!--/pytextgen-->
 

@@ -37,22 +37,22 @@ return await memorize_table(
 
 > | name | description |
 > |-|-|
-> | {{aircraft bodies}} | {{[corrosion](corrosion.md)-resistant, low [density](density.md), [strong](strength%20of%20materials.md)}} |
-> | {{kitchen foil}} | {{[corrosion](corrosion.md)-resistant, low [toxicity](toxicity.md), [malleable](malleable.md), [thermally conductive](thermal%20conductivity.md)}} |
-> | {{overhead power cables}} | {{[ductile](ductility.md), [electrically conductive](electrical%20conductivity.md), low [density](density.md), relatively cheap}} |
-> | {{soft drink cans}} | {{[corrosion](corrosion.md)-resistant, low [density](density.md), low [toxicity](toxicity.md), [malleable](malleability.md)}} |
-> | {{window frames}} | {{[corrosion](corrosion.md)-resistant, [strong](strength%20of%20materials.md)}} |
+> | {@{aircraft bodies}@} | {@{[corrosion](corrosion.md)-resistant, low [density](density.md), [strong](strength%20of%20materials.md)}@} |
+> | {@{kitchen foil}@} | {@{[corrosion](corrosion.md)-resistant, low [toxicity](toxicity.md), [malleable](malleable.md), [thermally conductive](thermal%20conductivity.md)}@} |
+> | {@{overhead power cables}@} | {@{[ductile](ductility.md), [electrically conductive](electrical%20conductivity.md), low [density](density.md), relatively cheap}@} |
+> | {@{soft drink cans}@} | {@{[corrosion](corrosion.md)-resistant, low [density](density.md), low [toxicity](toxicity.md), [malleable](malleability.md)}@} |
+> | {@{window frames}@} | {@{[corrosion](corrosion.md)-resistant, [strong](strength%20of%20materials.md)}@} |
 
 <!--/pytextgen-->
 
 <!--pytextgen generate section="f123"--><!-- The following content is generated at 2024-01-04T20:17:51.226811+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←aircraft bodies
-- aircraft bodies→:::←kitchen foil
-- kitchen foil→:::←overhead power cables
-- overhead power cables→:::←soft drink cans
-- soft drink cans→:::←window frames
-- window frames→:::←_(end)_
+- _(begin)_→::@::←aircraft bodies
+- aircraft bodies→::@::←kitchen foil
+- kitchen foil→::@::←overhead power cables
+- overhead power cables→::@::←soft drink cans
+- soft drink cans→::@::←window frames
+- window frames→::@::←_(end)_
 
 <!--/pytextgen-->
 

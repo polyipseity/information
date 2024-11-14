@@ -19,13 +19,13 @@ tags:
 
 # neural network
 
-Advantages of neural network include {{highly parallel, making it suitable for parallel processing, and fault tolerance, in which small number of broken neurons degrade the model only slightly}}.
+Advantages of neural network include {@{highly parallel, making it suitable for parallel processing, and fault tolerance, in which small number of broken neurons degrade the model only slightly}@}.
 
 ## models
 
 ### artificial neurons
 
-ANNs are composed of {{[artificial neurons](artificial%20neuron.md)}}, which are conceptually {{derived from biological [neurons](neuron.md)}}.
+ANNs are composed of {@{[artificial neurons](artificial%20neuron.md)}@}, which are conceptually {@{derived from biological [neurons](neuron.md)}@}.
 
 ## references
 

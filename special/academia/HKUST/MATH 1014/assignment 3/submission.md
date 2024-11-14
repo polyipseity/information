@@ -92,8 +92,8 @@ $$\int \! x^2 \arctan x \,\mathrm{d}x$$
 $$\int \! \left( 2x^2 + 1 \right) e^{x^2} \,\mathrm{d}x$$
 
 > $$\begin{aligned}
-> \frac {\mathrm{d}} {\mathrm{d}x} e^{x^2} & = 2x e^{x^2} \\
-> \frac {\mathrm{d}} {\mathrm{d}x} \left( 2x e^{x^2} \right) & = 2e^{x^2} + 4x^2 e^{x^2} \\
+> \frac {\mathrm{d}@} {\mathrm{d}x} e^{x^2} & = 2x e^{x^2} \\
+> \frac {\mathrm{d}@} {\mathrm{d}x} \left( 2x e^{x^2} \right) & = 2e^{x^2} + 4x^2 e^{x^2} \\
 > & = 2(2x^2 + 1)e^{x^2} \\
 > \int \! \left( 2x^2 + 1 \right) e^{x^2} \,\mathrm{d}x & = xe^{x^2} + C
 > \end{aligned}$$
@@ -126,7 +126,7 @@ Now $f$ is one-to-one according to (a), so we let $g$ be the __inverse__ of $f$,
 
 #### 7.b.i
 
-Write down the domain of $g$. Show that $$g'(x) = \frac 1 {x + e^{g(x)}}$$ for every $x$ in the interior of the domain of $g$.
+Write down the domain of $g$. Show that $$g'(x) = \frac 1 {x + e^{g(x)}@}$$ for every $x$ in the interior of the domain of $g$.
 
 > $$\begin{aligned}
 > & \text{The domain of }g\text{ is }[0, +\infty)\text{.} \\
@@ -138,8 +138,8 @@ Write down the domain of $g$. Show that $$g'(x) = \frac 1 {x + e^{g(x)}}$$ for e
 > & \forall x \in (0, +\infty) \\
 > & \phantom{=} g'(x) \\
 > & = \frac 1 {f'(g(x))} \\
-> & = \frac 1 {f(g(x)) + e^{g(x)}} \\
-> & = \frac 1 {x + e^{g(x)}}
+> & = \frac 1 {f(g(x)) + e^{g(x)}@} \\
+> & = \frac 1 {x + e^{g(x)}@}
 > \end{aligned}$$
 
 #### 7.b.ii
@@ -150,8 +150,8 @@ Using the result from [7.b.i](#7.b.i) or otherwise, evaluate the antiderivative 
 > & \forall x \in (0, +\infty) \\
 > & \phantom{=} \int \! g(x) \,\mathrm{d}x \\
 > & = xg(x) - \int \! x \,\mathrm{d}g(x) \\
-> & = xg(x) - \int \! \frac x {x + e^{g(x)}} \,\mathrm{d}x \\
-> & = xg(x) - \left( \int \! \mathrm{d}x - \int \! \frac {e^{g(x)}} {x + e^{g(x)}} \,\mathrm{d}x \right) \\
+> & = xg(x) - \int \! \frac x {x + e^{g(x)}@} \,\mathrm{d}x \\
+> & = xg(x) - \left( \int \! \mathrm{d}x - \int \! \frac {e^{g(x)}@} {x + e^{g(x)}@} \,\mathrm{d}x \right) \\
 > & = xg(x) - \left( x - \int \! e^{g(x)} g'(x) \,\mathrm{d}x \right) \\
 > & = xg(x) - x + \int \! e^{g(x)} \,\mathrm{d}g(x) \\
 > & = xg(x) - x + e^{g(x)} + C
@@ -185,7 +185,7 @@ Show that $\frac 1 {n + 1} \le I_n \le \frac e {n + 1}$ for every non-negative i
 > $$\begin{aligned}
 > \int_0^1 \! t^n e^0 \,\mathrm{d}t & \le \int_0^1 \! t^n e^t \,\mathrm{d}t \le \int_0^1 \! t^n e^1 \,\mathrm{d}t && \left((\forall t \in [0, 1])\left(e^0 \le e^t \le e^1\right)\right) \\
 > \int_0^1 \! t^n \,\mathrm{d}t & \le I_n \le e \int_0^1 \! t^n \,\mathrm{d}t \\
-> \left[\frac {t^{n + 1}} {n + 1} \right]_{t = 0}^{t = 1} & \le I_n \le e \left[\frac {t^{n + 1}} {n + 1} \right]_{t = 0}^{t = 1} \\
+> \left[\frac {t^{n + 1}@} {n + 1} \right]_{t = 0}^{t = 1} & \le I_n \le e \left[\frac {t^{n + 1}@} {n + 1} \right]_{t = 0}^{t = 1} \\
 > \frac 1 {n + 1} & \le I_n \le \frac e {n + 1}
 > \end{aligned}$$
 
@@ -223,8 +223,8 @@ _Hint_: There is no integer in the open interval $(0, 1)$.
 > & \text{Assume }e\text{ is rational, then }e = \frac a b\text{ where }a, b \in \mathbb{Z}, b \ne 0\text{.} \\
 > & \begin{aligned} \forall n \in \mathbb{Z}_{\ge 0} \\
 > I_n & = (-1)^{n + 1} n! + e \sum_{k = 0}^n (-1)^k \frac {n!} {(n - k)!} \\
-> e & = \frac {I_n - (-1)^{n + 1} n!} {\sum_{k = 0}^n (-1)^k \frac {n!} {(n - k)!}} \\
-> \frac a b & = \frac {I_n - (-1)^{n + 1} n!} {\sum_{k = 0}^n (-1)^k \frac {n!} {(n - k)!}} \\
+> e & = \frac {I_n - (-1)^{n + 1} n!} {\sum_{k = 0}^n (-1)^k \frac {n!} {(n - k)!}@} \\
+> \frac a b & = \frac {I_n - (-1)^{n + 1} n!} {\sum_{k = 0}^n (-1)^k \frac {n!} {(n - k)!}@} \\
 > a \sum_{k = 0}^n (-1)^k \frac {n!} {(n - k)!} & = b \left(I_n - (-1)^{n + 1} n! \right) \\
 > & = b I_n - b (-1)^{n + 1} n! \\
 > c & = bI_n - d && (c, d \in \mathbb{Z}) \\
@@ -264,7 +264,7 @@ Hence or otherwise, deduce that $B(m, n) = \frac {m!n!} {(m + n + 1)!}$.
 > & = \frac n {m + 1} B(m + 1, n - 1) \\
 > & = \frac n {m + 1} \frac {n - 1} {m + 2} B(m + 2, n - 2) \\
 > & \vdots \\
-> & = \frac {n!} {\frac {(m + n)!} {m!}} B(m + n, 0) \\
+> & = \frac {n!} {\frac {(m + n)!} {m!}@} B(m + n, 0) \\
 > & = \frac {m!n!} {(m + n)!} B(m + n, 0) \\
 > & = \frac {m!n!} {(m + n)!} \int_0^1 \! x^{m + n} (1 - x)^0 \,\mathrm{d}x \\
 > & = \frac {m!n!} {(m + n)!} \left[\frac 1 {m + n + 1} x^{m + n + 1} \right]_{x = 0}^{x = 1} \\
@@ -320,7 +320,7 @@ $$\int \! \frac {\sqrt{1 + x^2} + \sqrt{1 - x^2} } {\sqrt{1 - x^4} } \,\mathrm{d
 > % & = \arcsin x + \frac 1 2 \int \! \left(\frac 1 {1 + \sin\theta} + \frac 1 {1 - \sin\theta} \right) \mathrm{d}\sin\theta \\
 > % & = \arcsin x + \frac 1 2 \ln \lvert 1 + \sin\theta \rvert - \frac 1 2 \ln \lvert 1 - \sin\theta \rvert + C \\
 > % & = \arcsin x + \frac 1 2 \ln(1 + \sin\theta) - \frac 1 2 \ln(1 - \sin\theta) + C && (1 + \sin\theta > 0, 1 - \sin\theta > 0) \\
-> % & = \arcsin x + \frac 1 2 \ln\left(1 + \operatorname{sgn}(x) \sqrt{\frac {x^2} {1 + x^2}}\right) + \ln\left(1 - \operatorname{sgn}(x) \sqrt{\frac {x^2} {1 + x^2}}\right) + C \\
+> % & = \arcsin x + \frac 1 2 \ln\left(1 + \operatorname{sgn}(x) \sqrt{\frac {x^2} {1 + x^2}@}\right) + \ln\left(1 - \operatorname{sgn}(x) \sqrt{\frac {x^2} {1 + x^2}@}\right) + C \\
 > & = \arcsin x + \int \! \frac {(\sec\theta)(\sec\theta + \tan\theta)} {\sec\theta + \tan\theta} \,\mathrm{d}\theta \\
 > & = \arcsin x + \int \! \frac {\sec^2\theta + \tan\theta \sec\theta} {\sec\theta + \tan\theta} \,\mathrm{d}\theta \\
 > & = \arcsin x + \ln \lvert \tan\theta + \sec\theta \rvert + C \\
@@ -335,7 +335,7 @@ $$\int \! \frac {x + 1} {\left(x^2 + x + 1\right) \sqrt{x^2 + x + 1} } \,\mathrm
 > $$\begin{aligned}
 > & \phantom{=} \int \! \frac {x + 1} {\left(x^2 + x + 1\right) \sqrt{x^2 + x + 1} } \,\mathrm{d}x \\
 > & = \frac 1 2 \int \! \frac {2x + 1} {\left(x^2 + x + 1\right) \sqrt{x^2 + x + 1} } \,\mathrm{d}x + \frac 1 2 \int \! \frac 1 {\left(x^2 + x + 1\right) \sqrt{x^2 + x + 1} } \,\mathrm{d}x \\
-> & = \frac 1 2 \int \! \frac 1 {\left(x^2 + x + 1\right)^{1.5}} \,\mathrm{d}\left(x^2 + x + 1\right) \,\mathrm{d}x + \frac 1 2 \int \! \frac 1 {\left((x + 0.5)^2 + 0.75\right) \sqrt{(x + 0.5)^2 + 0.75} } \,\mathrm{d}x \\
+> & = \frac 1 2 \int \! \frac 1 {\left(x^2 + x + 1\right)^{1.5}@} \,\mathrm{d}\left(x^2 + x + 1\right) \,\mathrm{d}x + \frac 1 2 \int \! \frac 1 {\left((x + 0.5)^2 + 0.75\right) \sqrt{(x + 0.5)^2 + 0.75} } \,\mathrm{d}x \\
 > & = -\frac 1 {\sqrt{x^2 + x + 1} } + \frac 1 2 \sqrt{0.75} \int \! \frac {\sec^2\theta} {\left(0.75\tan^2\theta + 0.75\right) \sqrt{0.75\tan^2\theta + 0.75} } \,\mathrm{d}\theta && \left(x := \sqrt{0.75}\tan\theta - 0.5, \theta \in \left(-\frac \pi 2, \frac \pi 2\right)\right) \\
 > & = -\frac 1 {\sqrt{x^2 + x + 1} } + \frac 1 2 \sqrt{0.75} \int \! \frac 1 {0.75 \sqrt{0.75} \sec\theta} \,\mathrm{d}\theta \\
 > & = -\frac 1 {\sqrt{x^2 + x + 1} } + \frac 2 3 \int \! \cos\theta \,\mathrm{d}\theta \\

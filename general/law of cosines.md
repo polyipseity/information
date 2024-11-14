@@ -15,10 +15,10 @@ tags:
 
 > __law of cosines__
 >
-> {{$$c^2 = a^2 + b^2 - 2 a b \cos \gamma$$}}
+> {@{$$c^2 = a^2 + b^2 - 2 a b \cos \gamma$$}@}
 >
 > - where
->   - {{$a, b, c$ are the sides of a [triangle](triangle.md), and $\gamma$ is the angle opposite to side $c$}}
+>   - {@{$a, b, c$ are the sides of a [triangle](triangle.md), and $\gamma$ is the angle opposite to side $c$}@}
 
 ## references
 

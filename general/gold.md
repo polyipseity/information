@@ -32,14 +32,14 @@ return await memorize_table(
 
 > | name | description |
 > |-|-|
-> | {{coins, jewellery}} | {{attractive, [corrosion](corrosion.md)-resistant, [ductile](ductility.md), [malleable](malleability.md), [soft](hardness.md)}} |
+> | {@{coins, jewellery}@} | {@{attractive, [corrosion](corrosion.md)-resistant, [ductile](ductility.md), [malleable](malleability.md), [soft](hardness.md)}@} |
 
 <!--/pytextgen-->
 
 <!--pytextgen generate section="4125"--><!-- The following content is generated at 2024-01-04T20:17:51.726621+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←coins, jewellery
-- coins, jewellery→:::←_(end)_
+- _(begin)_→::@::←coins, jewellery
+- coins, jewellery→::@::←_(end)_
 
 <!--/pytextgen-->
 

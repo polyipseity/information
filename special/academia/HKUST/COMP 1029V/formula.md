@@ -15,13 +15,13 @@ tags:
 # import ../../../../../tools/utility.py.md
 ```
 
-A formula always {{starts with an equals sign `=`}}.
+A formula always {@{starts with an equals sign `=`}@}.
 
 ## cell reference
 
-To get the value of a cell in a formula, {{use its location, like `=A1`. This is known as a _cell reference_}}.
+To get the value of a cell in a formula, {@{use its location, like `=A1`. This is known as a _cell reference_}@}.
 
-When copy and pasting formulas, the cell references in the formula {{are offsetted by the same offset from the original cell to the copied cell}}. To prevent this offset, {{add `$` before the column, the row, or both, like `=$A$1`}}.
+When copy and pasting formulas, the cell references in the formula {@{are offsetted by the same offset from the original cell to the copied cell}@}. To prevent this offset, {@{add `$` before the column, the row, or both, like `=$A$1`}@}.
 
 ## operators
 
@@ -68,28 +68,28 @@ return _chain.from_iterable(await _gather(
 
 <!--pytextgen generate section="f21a"--><!-- The following content is generated at 2024-01-31T12:32:22.637380+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←`^`
-- `^`→:::←`*`
-- `*`→:::←`/`
-- `/`→:::←`+`
-- `+`→:::←`-`
-- `-`→:::←_(end)_
+- _(begin)_→::@::←`^`
+- `^`→::@::←`*`
+- `*`→::@::←`/`
+- `/`→::@::←`+`
+- `+`→::@::←`-`
+- `-`→::@::←_(end)_
 
 <!--/pytextgen-->
 
 <!--pytextgen generate section="9cda"--><!-- The following content is generated at 2024-01-31T12:32:22.752951+08:00. Any edits will be overridden! -->
 
-- `^`::power
-- `*`::multiplication
-- `/`::division
-- `+`::addition
-- `-`::subtraction
+- `^`:@:power
+- `*`:@:multiplication
+- `/`:@:division
+- `+`:@:addition
+- `-`:@:subtraction
 
 <!--/pytextgen-->
 
 ### comparison operators
 
-Below are common comparison operators, all of which returns {{booleans}}. Operators have higher precedence than or same precedence as operators below it in the list:
+Below are common comparison operators, all of which returns {@{booleans}@}. Operators have higher precedence than or same precedence as operators below it in the list:
 
 ```Python
 # pytextgen generate data
@@ -132,34 +132,34 @@ return _chain.from_iterable(await _gather(
 
 <!--pytextgen generate section="d123"--><!-- The following content is generated at 2024-01-31T12:32:22.775056+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←`=`
-- `=`→:::←`<`
-- `<`→:::←`>`
-- `>`→:::←`<=`
-- `<=`→:::←`>=`
-- `>=`→:::←`<>`
-- `<>`→:::←_(end)_
+- _(begin)_→::@::←`=`
+- `=`→::@::←`<`
+- `<`→::@::←`>`
+- `>`→::@::←`<=`
+- `<=`→::@::←`>=`
+- `>=`→::@::←`<>`
+- `<>`→::@::←_(end)_
 
 <!--/pytextgen-->
 
 <!--pytextgen generate section="cc23"--><!-- The following content is generated at 2024-01-31T12:32:22.829082+08:00. Any edits will be overridden! -->
 
-- `=`::equal to
-- `<`::lesser than
-- `>`::greater than
-- `<=`::lesser than or equal to
-- `>=`::greater than or equal to
-- `<>`::not equal to
+- `=`:@:equal to
+- `<`:@:lesser than
+- `>`:@:greater than
+- `<=`:@:lesser than or equal to
+- `>=`:@:greater than or equal to
+- `<>`:@:not equal to
 
 <!--/pytextgen-->
 
-Also, one cannot chain {{comparison operators, like `2 <= A1 <= 5`. [Logic functions](#logic%20functions) are needed instead, like `AND(2 <= A1, A1 <= 5)`}}.
+Also, one cannot chain {@{comparison operators, like `2 <= A1 <= 5`. [Logic functions](#logic%20functions) are needed instead, like `AND(2 <= A1, A1 <= 5)`}@}.
 
 ## functions
 
 ### logic functions
 
-Below are common logic functions, all of which {{accept booleans and return booleans}}:
+Below are common logic functions, all of which {@{accept booleans and return booleans}@}:
 
 ```Python
 # pytextgen generate data
@@ -196,18 +196,18 @@ return _chain.from_iterable(await _gather(
 
 <!--pytextgen generate section="d882"--><!-- The following content is generated at 2024-02-05T12:43:06.987947+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←`NOT(boolean)`
-- `NOT(boolean)`→:::←`AND(booleans...)`
-- `AND(booleans...)`→:::←`OR(booleans...)`
-- `OR(booleans...)`→:::←_(end)_
+- _(begin)_→::@::←`NOT(boolean)`
+- `NOT(boolean)`→::@::←`AND(booleans...)`
+- `AND(booleans...)`→::@::←`OR(booleans...)`
+- `OR(booleans...)`→::@::←_(end)_
 
 <!--/pytextgen-->
 
 <!--pytextgen generate section="ee13"--><!-- The following content is generated at 2024-02-05T12:43:07.023980+08:00. Any edits will be overridden! -->
 
-- `NOT(boolean)`::negate
-- `AND(booleans...)`::every input is true
-- `OR(booleans...)`::there exists true inputs
+- `NOT(boolean)`:@:negate
+- `AND(booleans...)`:@:every input is true
+- `OR(booleans...)`:@:there exists true inputs
 
 <!--/pytextgen-->
 
@@ -258,26 +258,26 @@ return _chain.from_iterable(await _gather(
 
 <!--pytextgen generate section="305b"--><!-- The following content is generated at 2024-01-31T12:40:31.061300+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←(operator) `&`
-- (operator) `&`→:::←`LEFT(string, length)`
-- `LEFT(string, length)`→:::←`LEN(string)`
-- `LEN(string)`→:::←`LOWER(string)`
-- `LOWER(string)`→:::←`RIGHT(string, length)`
-- `RIGHT(string, length)`→:::←`SUBSTITUTE(string, old, new)`
-- `SUBSTITUTE(string, old, new)`→:::←`UPPER(string)`
-- `UPPER(string)`→:::←_(end)_
+- _(begin)_→::@::←(operator) `&`
+- (operator) `&`→::@::←`LEFT(string, length)`
+- `LEFT(string, length)`→::@::←`LEN(string)`
+- `LEN(string)`→::@::←`LOWER(string)`
+- `LOWER(string)`→::@::←`RIGHT(string, length)`
+- `RIGHT(string, length)`→::@::←`SUBSTITUTE(string, old, new)`
+- `SUBSTITUTE(string, old, new)`→::@::←`UPPER(string)`
+- `UPPER(string)`→::@::←_(end)_
 
 <!--/pytextgen-->
 
 <!--pytextgen generate section="29ca"--><!-- The following content is generated at 2024-01-31T12:40:31.103335+08:00. Any edits will be overridden! -->
 
-- (operator) `&`::concatenation
-- `LEFT(string, length)`::get the first `length` characters in `string`
-- `LEN(string)`::length of `string`
-- `LOWER(string)`::convert to lowercase
-- `RIGHT(string, length)`::get the last `length` characters in `string`
-- `SUBSTITUTE(string, old, new)`::replace all occurrences of `old` with `new` in `string`
-- `UPPER(string)`::convert to uppercase
+- (operator) `&`:@:concatenation
+- `LEFT(string, length)`:@:get the first `length` characters in `string`
+- `LEN(string)`:@:length of `string`
+- `LOWER(string)`:@:convert to lowercase
+- `RIGHT(string, length)`:@:get the last `length` characters in `string`
+- `SUBSTITUTE(string, old, new)`:@:replace all occurrences of `old` with `new` in `string`
+- `UPPER(string)`:@:convert to uppercase
 
 <!--/pytextgen-->
 
@@ -330,27 +330,27 @@ return _chain.from_iterable(await _gather(
 
 <!--pytextgen generate section="ee42"--><!-- The following content is generated at 2024-01-31T12:52:39.155842+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←`AVERAGE(numbers...)`
-- `AVERAGE(numbers...)`→:::←`COUNTIF(values, criteria)`
-- `COUNTIF(values, criteria)`→:::←`IF(boolean, value_if_true[, value_if_false = FALSE])`
-- `IF(boolean, value_if_true[, value_if_false = FALSE])`→:::←`MAX(numbers...)`
-- `MAX(numbers...)`→:::←`MIN(numbers...)`
-- `MIN(numbers...)`→:::←`RANK(number, numbers...)`
-- `RANK(number, numbers...)`→:::←`STDEV(numbers...)`
-- `STDEV(numbers...)`→:::←`SUM(numbers...)`
-- `SUM(numbers...)`→:::←_(end)_
+- _(begin)_→::@::←`AVERAGE(numbers...)`
+- `AVERAGE(numbers...)`→::@::←`COUNTIF(values, criteria)`
+- `COUNTIF(values, criteria)`→::@::←`IF(boolean, value_if_true[, value_if_false = FALSE])`
+- `IF(boolean, value_if_true[, value_if_false = FALSE])`→::@::←`MAX(numbers...)`
+- `MAX(numbers...)`→::@::←`MIN(numbers...)`
+- `MIN(numbers...)`→::@::←`RANK(number, numbers...)`
+- `RANK(number, numbers...)`→::@::←`STDEV(numbers...)`
+- `STDEV(numbers...)`→::@::←`SUM(numbers...)`
+- `SUM(numbers...)`→::@::←_(end)_
 
 <!--/pytextgen-->
 
 <!--pytextgen generate section="f123"--><!-- The following content is generated at 2024-01-31T12:52:39.120607+08:00. Any edits will be overridden! -->
 
-- `AVERAGE(numbers...)`::average
-- `COUNTIF(values, criteria)`::number of `values` satisfying `criteria`
-- `IF(boolean, value_if_true[, value_if_false = FALSE])`::`value_if_true` if `boolean` is true, otherwise `value_if_false`; can be nested
-- `MAX(numbers...)`::maximum
-- `MIN(numbers...)`::minimum
-- `RANK(number, numbers...)`::rank of `number` in `numbers`, starting from 1
-- `STDEV(numbers...)`::standard deviation
-- `SUM(numbers...)`::summation
+- `AVERAGE(numbers...)`:@:average
+- `COUNTIF(values, criteria)`:@:number of `values` satisfying `criteria`
+- `IF(boolean, value_if_true[, value_if_false = FALSE])`:@:`value_if_true` if `boolean` is true, otherwise `value_if_false`; can be nested
+- `MAX(numbers...)`:@:maximum
+- `MIN(numbers...)`:@:minimum
+- `RANK(number, numbers...)`:@:rank of `number` in `numbers`, starting from 1
+- `STDEV(numbers...)`:@:standard deviation
+- `SUM(numbers...)`:@:summation
 
 <!--/pytextgen-->

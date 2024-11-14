@@ -14,7 +14,7 @@ tags:
 # import ../../tools/utility.py.md
 ```
 
-A __physical property__ is {{a [property](property.md) measurable without [chemical reactions](chemical%20reaction.md)}}. It is contrasted with {{[chemical property](chemical%20property.md)}}.
+A __physical property__ is {@{a [property](property.md) measurable without [chemical reactions](chemical%20reaction.md)}@}. It is contrasted with {@{[chemical property](chemical%20property.md)}@}.
 
 ## examples
 
@@ -60,20 +60,20 @@ return await memorize_seq(
 
 <!--pytextgen generate section="bad29e"--><!-- The following content is generated at 2024-01-04T20:17:52.433922+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←[boiling point](boiling%20point.md)
-- [boiling point](boiling%20point.md)→:::←[color](color.md)
-- [color](color.md)→:::←[density](density.md)
-- [density](density.md)→:::←[ductility](ductility.md)
-- [ductility](ductility.md)→:::←[electrical conductivity](electrical%20conductivity.md)
-- [electrical conductivity](electrical%20conductivity.md)→:::←[hardness](hardness.md)
-- [hardness](hardness.md)→:::←[malleability](malleability.md)
-- [malleability](malleability.md)→:::←[melting point](melting%20point.md)
-- [melting point](melting%20point.md)→:::←[odor](odor.md)
-- [odor](odor.md)→:::←[physical state](physical%20state.md)
-- [physical state](physical%20state.md)→:::←[solubility](solubility.md)
-- [solubility](solubility.md)→:::←[taste](taste.md)
-- [taste](taste.md)→:::←[thermal conductivity](thermal%20conductivity.md)
-- [thermal conductivity](thermal%20conductivity.md)→:::←_(end)_
+- _(begin)_→::@::←[boiling point](boiling%20point.md)
+- [boiling point](boiling%20point.md)→::@::←[color](color.md)
+- [color](color.md)→::@::←[density](density.md)
+- [density](density.md)→::@::←[ductility](ductility.md)
+- [ductility](ductility.md)→::@::←[electrical conductivity](electrical%20conductivity.md)
+- [electrical conductivity](electrical%20conductivity.md)→::@::←[hardness](hardness.md)
+- [hardness](hardness.md)→::@::←[malleability](malleability.md)
+- [malleability](malleability.md)→::@::←[melting point](melting%20point.md)
+- [melting point](melting%20point.md)→::@::←[odor](odor.md)
+- [odor](odor.md)→::@::←[physical state](physical%20state.md)
+- [physical state](physical%20state.md)→::@::←[solubility](solubility.md)
+- [solubility](solubility.md)→::@::←[taste](taste.md)
+- [taste](taste.md)→::@::←[thermal conductivity](thermal%20conductivity.md)
+- [thermal conductivity](thermal%20conductivity.md)→::@::←_(end)_
 
 <!--/pytextgen-->
 

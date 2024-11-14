@@ -10,7 +10,7 @@ tags:
 
 ## installation
 
-Follow the instructions on {{<https://bluej.org/>}}.
+Follow the instructions on {@{<https://bluej.org/>}@}.
 
 ## usage
 
@@ -18,7 +18,7 @@ Explore the user interface yourself.
 
 ### object bench
 
-One can use the object bench to {{create new instances of a class and test them}}.
+One can use the object bench to {@{create new instances of a class and test them}@}.
 
 ## see also
 

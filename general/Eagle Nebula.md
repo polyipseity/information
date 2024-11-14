@@ -12,7 +12,7 @@ tags:
 
 # Eagle Nebula
 
-The {{__Eagle Nebula__}} (catalogued as {{__Messier 16__ or __M16__, and as __NGC 6611__}}, and also known as {{the __Star Queen Nebula__}}) is {{a young [open cluster](open%20cluster.md) of [stars](star.md) in the constellation [Serpens](Serpens.md)}}.
+The {@{__Eagle Nebula__}@} (catalogued as {@{__Messier 16__ or __M16__, and as __NGC 6611__}@}, and also known as {@{the __Star Queen Nebula__}@}) is {@{a young [open cluster](open%20cluster.md) of [stars](star.md) in the constellation [Serpens](Serpens.md)}@}.
 
 ## references
 

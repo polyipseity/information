@@ -15,7 +15,7 @@ tags:
 # import ../../tools/utility.py.md
 ```
 
-A __group__ is {{a column of [chemical elements](chemical%20element.md) in the [periodic table](periodic%20table.md)}}. The elements have {{similar [chemical](chemical%20property.md) or [physical](physical%20property.md) characteristics in their outermost [electron shells](electron%20shell.md)}}.
+A __group__ is {@{a column of [chemical elements](chemical%20element.md) in the [periodic table](periodic%20table.md)}@}. The elements have {@{similar [chemical](chemical%20property.md) or [physical](physical%20property.md) characteristics in their outermost [electron shells](electron%20shell.md)}@}.
 
 ## list
 
@@ -39,20 +39,20 @@ return await memorize_table(
 
 > | name (IUPAC/old IUPAC/old CAS) | IUPAC recommended trivial name |
 > |-|-|
-> | {{[group 1](#^group-1)/IA/IA}} | {{[hydrogen](hydrogen.md) and [alkali metals](alkali%20metal.md)}} <a id="^group-1"></a>^group-1 |
-> | {{[group 2](alkaline%20earth%20metal.md)/IIA/IIA}} | {{[alkaline earth metals](alkaline%20earth%20metal.md)}} |
-> | {{[group 17](halogen.md)/VIIB/VIIA}} | {{[halogens](halogen.md)}} |
-> | {{[group 18](noble%20gas.md)/0/VIIIA}} | {{[noble gases](noble%20gas.md)}} |
+> | {@{[group 1](#^group-1)/IA/IA}@} | {@{[hydrogen](hydrogen.md) and [alkali metals](alkali%20metal.md)}@} <a id="^group-1"></a>^group-1 |
+> | {@{[group 2](alkaline%20earth%20metal.md)/IIA/IIA}@} | {@{[alkaline earth metals](alkaline%20earth%20metal.md)}@} |
+> | {@{[group 17](halogen.md)/VIIB/VIIA}@} | {@{[halogens](halogen.md)}@} |
+> | {@{[group 18](noble%20gas.md)/0/VIIIA}@} | {@{[noble gases](noble%20gas.md)}@} |
 
 <!--/pytextgen-->
 
 <!--pytextgen generate section="92de"--><!-- The following content is generated at 2024-01-04T20:17:51.853130+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←[group 1](#^group-1)/IA/IA
-- [group 1](#^group-1)/IA/IA→:::←[group 2](alkaline%20earth%20metal.md)/IIA/IIA
-- [group 2](alkaline%20earth%20metal.md)/IIA/IIA→:::←[group 17](halogen.md)/VIIB/VIIA
-- [group 17](halogen.md)/VIIB/VIIA→:::←[group 18](noble%20gas.md)/0/VIIIA
-- [group 18](noble%20gas.md)/0/VIIIA→:::←_(end)_
+- _(begin)_→::@::←[group 1](#^group-1)/IA/IA
+- [group 1](#^group-1)/IA/IA→::@::←[group 2](alkaline%20earth%20metal.md)/IIA/IIA
+- [group 2](alkaline%20earth%20metal.md)/IIA/IIA→::@::←[group 17](halogen.md)/VIIB/VIIA
+- [group 17](halogen.md)/VIIB/VIIA→::@::←[group 18](noble%20gas.md)/0/VIIIA
+- [group 18](noble%20gas.md)/0/VIIIA→::@::←_(end)_
 
 <!--/pytextgen-->
 

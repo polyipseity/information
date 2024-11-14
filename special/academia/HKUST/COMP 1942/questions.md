@@ -30,7 +30,7 @@ tags:
 > 1. Yes
 > 2. No
 >
-> - solution: {{2}}
+> - solution: {@{2}@}
 
 ## 2024-02-07
 
@@ -39,7 +39,7 @@ tags:
 > 1. Yes
 > 2. No
 >
-> - solution: {{1}}
+> - solution: {@{1}@}
 
 ## 2024-02-14
 
@@ -50,7 +50,7 @@ tags:
 > 1. Yes
 > 2. No
 >
-> - solution: {{1}}
+> - solution: {@{1}@}
 
 ## 2024-02-19
 
@@ -59,7 +59,7 @@ tags:
 > 1. Yes
 > 2. No
 >
-> - solution: {{1}}
+> - solution: {@{1}@}
 
 ## 2024-02-21
 
@@ -73,7 +73,7 @@ tags:
 > 4. 7
 > 5. 8
 >
-> - solution: {{5}}
+> - solution: {@{5}@}
 
 ## 2024-02-26
 
@@ -83,7 +83,7 @@ tags:
 > 1. Yes
 > 2. No
 >
-> - solution: {{1}}
+> - solution: {@{1}@}
 
 ## 2024-02-28
 
@@ -96,7 +96,7 @@ tags:
 > 1. Yes
 > 2. No
 >
-> - solution: {{1}}
+> - solution: {@{1}@}
 
 ## 2024-03-04
 
@@ -108,7 +108,7 @@ tags:
 > 2. Point 2
 > 3. Point 3
 >
-> - solution: {{3}}
+> - solution: {@{3}@}
 
 ## 2024-03-06
 
@@ -117,7 +117,7 @@ tags:
 > 1. Head
 > 2. Tail
 >
-> - solution: {{1}}
+> - solution: {@{1}@}
 
 <!-- markdownlint MD028 -->
 
@@ -126,7 +126,7 @@ tags:
 > 1. Head
 > 2. Tail
 >
-> - solution: {{1 or 2}}
+> - solution: {@{1 or 2}@}
 
 <!-- markdownlint MD028 -->
 
@@ -137,7 +137,7 @@ tags:
 > 1. A red coin
 > 2. A blue coin
 >
-> - solution: {{1}}
+> - solution: {@{1}@}
 
 ## 2024-03-11
 
@@ -147,7 +147,7 @@ tags:
 > 1. Yes
 > 2. No
 >
-> - solution: {{1}}
+> - solution: {@{1}@}
 
 ## 2024-03-13
 
@@ -158,7 +158,7 @@ tags:
 > 1. Yes
 > 2. No
 >
-> - solution: {{1}}
+> - solution: {@{1}@}
 
 ## 2024-03-18
 
@@ -168,7 +168,7 @@ tags:
 > 1. Yes
 > 2. No
 >
-> - solution: {{1}}
+> - solution: {@{1}@}
 
 ## 2024-03-20
 
@@ -181,13 +181,13 @@ tags:
 > 1. Yes
 > 2. No
 >
-> - solution: {{1}}
+> - solution: {@{1}@}
 
 ## 2024-04-08
 
 > Q1.  What is the name of the instructor of this course?
 >
-> - solution: {{(open answer, e.g. "Raymond Wong")}}
+> - solution: {@{(open answer, e.g. "Raymond Wong")}@}
 
 ## 2024-04-10
 
@@ -201,7 +201,7 @@ tags:
 > 1. Yes
 > 2. No
 >
-> - solution: {{1}}
+> - solution: {@{1}@}
 
 <!-- markdownlint MD028 -->
 
@@ -219,7 +219,7 @@ tags:
 > 1. Yes
 > 2. No
 >
-> - solution: {{1}}
+> - solution: {@{1}@}
 
 ## 2024-04-15
 
@@ -235,7 +235,7 @@ tags:
 > 1. Yes
 > 2. No
 >
-> - solution: {{1}}
+> - solution: {@{1}@}
 
 ## 2024-04-17
 
@@ -248,7 +248,7 @@ tags:
 > 1. Dimension X1
 > 2. Dimension X2
 >
-> - choice: {{1}}
+> - choice: {@{1}@}
 
 <!-- markdownlint MD028 -->
 
@@ -261,7 +261,7 @@ tags:
 > 1. Dimension Y1
 > 2. Dimension Y2
 >
-> - solution: {{1}}
+> - solution: {@{1}@}
 
 ## 2024-04-22
 
@@ -272,7 +272,7 @@ tags:
 > 1. Yes
 > 2. No
 >
-> - solution: {{1}}
+> - solution: {@{1}@}
 
 <!-- markdownlint MD028 -->
 
@@ -283,7 +283,7 @@ tags:
 > 1. Yes
 > 2. No
 >
-> - solution: {{2}}
+> - solution: {@{2}@}
 
 ## 2024-04-24
 
@@ -292,7 +292,7 @@ tags:
 > 1. Yes
 > 2. No
 >
-> - solution: {{1}}
+> - solution: {@{1}@}
 
 ## 2024-04-29
 
@@ -306,7 +306,7 @@ tags:
 > 1. Yes
 > 2. No
 >
-> - solution: {{1}}
+> - solution: {@{1}@}
 
 ## 2024-05-06
 
@@ -315,4 +315,4 @@ tags:
 > 1. Yes
 > 2. No
 >
-> - solution: {{1}}
+> - solution: {@{1}@}

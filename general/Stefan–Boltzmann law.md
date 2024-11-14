@@ -19,11 +19,11 @@ tags:
 
 > __Stefan–Boltzmann law__
 >
-> {{$$M = \varepsilon M^\circ = \varepsilon \sigma T^4$$}}
+> {@{$$M = \varepsilon M^\circ = \varepsilon \sigma T^4$$}@}
 >
 > - where
->   - {{$M$ is the [radiant exitance](radiant%20exitance.md), i.e. the total [energy](energy.md) radiated per unit [surface area](area.md) per unit [time](time.md), of a surface with [emissivity](emissivity.md) $\varepsilon$ at [temperature](temperature.md) $T$}}
->   - {{$\sigma = 5.670\,374\,419\ldots \times 10^{-8} ~\mathrm{W \cdot m^{-2} \cdot K^{-4} }$ is the __Stefan–Boltzmann constant__}}
+>   - {@{$M$ is the [radiant exitance](radiant%20exitance.md), i.e. the total [energy](energy.md) radiated per unit [surface area](area.md) per unit [time](time.md), of a surface with [emissivity](emissivity.md) $\varepsilon$ at [temperature](temperature.md) $T$}@}
+>   - {@{$\sigma = 5.670\,374\,419\ldots \times 10^{-8} ~\mathrm{W \cdot m^{-2} \cdot K^{-4} }$ is the __Stefan–Boltzmann constant__}@}
 
 ## references
 

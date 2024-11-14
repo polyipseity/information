@@ -11,21 +11,21 @@ tags:
 
 # calcium hydroxide
 
-__Calcium hydroxide__, also known as {{slaked lime}} in its solid state and {{limewater}} in its liquid state, is an [ionic compound](ionic%20compound.md). Its [chemical formula](chemical%20formula.md) is {{Ca(OH)<sub>2</sub>}}. It looks like a {{white solid}} in its solid form.
+__Calcium hydroxide__, also known as {@{slaked lime}@} in its solid state and {@{limewater}@} in its liquid state, is an [ionic compound](ionic%20compound.md). Its [chemical formula](chemical%20formula.md) is {@{Ca(OH)<sub>2</sub>}@}. It looks like a {@{white solid}@} in its solid form.
 
 ## preparation
 
-Treating {{calcium [salts](salt%20(chemistry).md) with a strong [base](base%20(chemistry).md) [precipitates](precipitate.md) out white calcium hydroxide}}. Weak bases {{result in no observation because there are insufficient [hydroxide ions](hydroxide.md) to saturate the [solution](solution%20(chemistry).md)}}:
+Treating {@{calcium [salts](salt%20(chemistry).md) with a strong [base](base%20(chemistry).md) [precipitates](precipitate.md) out white calcium hydroxide}@}. Weak bases {@{result in no observation because there are insufficient [hydroxide ions](hydroxide.md) to saturate the [solution](solution%20(chemistry).md)}@}:
 
 > treating with [bases](base%20(chemistry).md)
 >
-> - {{Ca<sup>2+</sup>(aq) + 2OH<sup>-</sup>(aq) → Ca(OH)<sub>2</sub>(s)}}
+> - {@{Ca<sup>2+</sup>(aq) + 2OH<sup>-</sup>(aq) → Ca(OH)<sub>2</sub>(s)}@}
 
 ## reactions
 
 ### tests
 
-Calcium hydroxide can be used to test for {{[carbon dioxide](carbon%20dioxide.md)}}.
+Calcium hydroxide can be used to test for {@{[carbon dioxide](carbon%20dioxide.md)}@}.
 
 ### preparation steps
 
@@ -64,9 +64,9 @@ Calcium hydroxide can be prepared in the following way:
 
 <!--pytextgen generate section="d7182f"--><!-- The following content is generated at 2024-01-04T20:17:51.479474+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←Dissolve carbonate hydroxide in deionized [water](water.md).
-- Dissolve carbonate hydroxide in deionized [water](water.md).→:::←Filter the solution to obtain the [filtrate](filtrate.md).
-- Filter the solution to obtain the [filtrate](filtrate.md).→:::←_(end)_
+- _(begin)_→::@::←Dissolve carbonate hydroxide in deionized [water](water.md).
+- Dissolve carbonate hydroxide in deionized [water](water.md).→::@::←Filter the solution to obtain the [filtrate](filtrate.md).
+- Filter the solution to obtain the [filtrate](filtrate.md).→::@::←_(end)_
 
 <!--/pytextgen-->
 

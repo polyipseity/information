@@ -11,7 +11,7 @@ tags:
 
 # sun path
 
-__Sun path__, also called __day arc__, refers to {{the [daily](diurnal%20motion.md) and [seasonal](season.md) arc-like path that the [Sun](Sun.md) appears to follow across the [sky](sky.md), caused by the [Earth](Earth.md) [rotating](Earth's%20rotation.md) and [orbiting](Earth's%20orbit.md) around the Sun}}. It affects {{the length of [daytime](daytime.md) and amount of [sunlight](sunlight.md) received along a certain [latitude](latitude.md) in a given season}}.
+__Sun path__, also called __day arc__, refers to {@{the [daily](diurnal%20motion.md) and [seasonal](season.md) arc-like path that the [Sun](Sun.md) appears to follow across the [sky](sky.md), caused by the [Earth](Earth.md) [rotating](Earth's%20rotation.md) and [orbiting](Earth's%20orbit.md) around the Sun}@}. It affects {@{the length of [daytime](daytime.md) and amount of [sunlight](sunlight.md) received along a certain [latitude](latitude.md) in a given season}@}.
 
 ## references
 

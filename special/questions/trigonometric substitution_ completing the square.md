@@ -16,8 +16,8 @@ Evaluate $$\int \! x \sqrt{4x^2 - 40x + 92} \,\mathrm{d}x$$.
 
 ## strategy
 
-- inspecting "$$\int \! x \sqrt{4x^2 - 40x + 92} \,\mathrm{d}x$$" :: Extract the factor $2$ from inside the square root. Complete the square to get $\sqrt{(x - 5)^2 - 2}$. Substitute $x - 5 = \sqrt 2 \sec \theta \quad \theta \in \left[0, \frac \pi 2\right) \cup \left(\frac \pi 2, \pi \right]$.
-- logarithm simplification tricks :: First, $\ln(a(x + y)) + C = \ln a + \ln(x + y) + C$, of which $\ln a$ can be absorbed into $C$ to become $\ln(x + y) + C$. Second, $\ln \left\lvert a + \sqrt{a^2 \pm 1} \right\rvert = -\ln \left\lvert a - \sqrt{a^2 \pm 1} \right\rvert$.
+- inspecting "$$\int \! x \sqrt{4x^2 - 40x + 92} \,\mathrm{d}x$$" :@: Extract the factor $2$ from inside the square root. Complete the square to get $\sqrt{(x - 5)^2 - 2}$. Substitute $x - 5 = \sqrt 2 \sec \theta \quad \theta \in \left[0, \frac \pi 2\right) \cup \left(\frac \pi 2, \pi \right]$.
+- logarithm simplification tricks :@: First, $\ln(a(x + y)) + C = \ln a + \ln(x + y) + C$, of which $\ln a$ can be absorbed into $C$ to become $\ln(x + y) + C$. Second, $\ln \left\lvert a + \sqrt{a^2 \pm 1} \right\rvert = -\ln \left\lvert a - \sqrt{a^2 \pm 1} \right\rvert$.
 
 ## solution
 

@@ -11,7 +11,7 @@ tags:
 # import ../../tools/utility.py.md
 ```
 
-An __ore__ is {{a [rock](rock%20(geology).md) or [sediment](sediment.md) containing valuable [minerals](mineral.md) [concentrated](concentration.md) above background levels.}}
+An __ore__ is {@{a [rock](rock%20(geology).md) or [sediment](sediment.md) containing valuable [minerals](mineral.md) [concentrated](concentration.md) above background levels.}@}
 
 ## extraction
 
@@ -39,22 +39,22 @@ return await memorize_table(
 
 > | name | formula |
 > |-|-|
-> | {{[bauxite](bauxite.md)}} | {{Al(OH)<sub>3</sub>, AlOOH}} |
-> | {{[chalcopyrite](chalcopyrite.md), copper pyrite}} | {{CuFeS<sub>2</sub>}} |
-> | {{[cinnabar](cinnabar.md), cinnabarite}} | {{HgS}} |
-> | {{[galena](galena.md)}} | {{PbS}} |
-> | {{[hematite](hematite.md)}} | {{Fe<sub>2</sub>O<sub>3</sub>}} |
+> | {@{[bauxite](bauxite.md)}@} | {@{Al(OH)<sub>3</sub>, AlOOH}@} |
+> | {@{[chalcopyrite](chalcopyrite.md), copper pyrite}@} | {@{CuFeS<sub>2</sub>}@} |
+> | {@{[cinnabar](cinnabar.md), cinnabarite}@} | {@{HgS}@} |
+> | {@{[galena](galena.md)}@} | {@{PbS}@} |
+> | {@{[hematite](hematite.md)}@} | {@{Fe<sub>2</sub>O<sub>3</sub>}@} |
 
 <!--/pytextgen-->
 
 <!--pytextgen generate section="0398da"--><!-- The following content is generated at 2024-01-04T20:17:52.269345+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←[bauxite](bauxite.md)
-- [bauxite](bauxite.md)→:::←[chalcopyrite](chalcopyrite.md), copper pyrite
-- [chalcopyrite](chalcopyrite.md), copper pyrite→:::←[cinnabar](cinnabar.md), cinnabarite
-- [cinnabar](cinnabar.md), cinnabarite→:::←[galena](galena.md)
-- [galena](galena.md)→:::←[hematite](hematite.md)
-- [hematite](hematite.md)→:::←_(end)_
+- _(begin)_→::@::←[bauxite](bauxite.md)
+- [bauxite](bauxite.md)→::@::←[chalcopyrite](chalcopyrite.md), copper pyrite
+- [chalcopyrite](chalcopyrite.md), copper pyrite→::@::←[cinnabar](cinnabar.md), cinnabarite
+- [cinnabar](cinnabar.md), cinnabarite→::@::←[galena](galena.md)
+- [galena](galena.md)→::@::←[hematite](hematite.md)
+- [hematite](hematite.md)→::@::←_(end)_
 
 <!--/pytextgen-->
 

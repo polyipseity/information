@@ -9,7 +9,7 @@ tags:
 
 # `srand`
 
-- _defined in {{[`<stdlib.h>`](../../../../general/C%20standard%20library.md)}}_
+- _defined in {@{[`<stdlib.h>`](../../../../general/C%20standard%20library.md)}@}_
 
 ```C
 void srand(unsigned seed);
@@ -17,4 +17,4 @@ void srand(unsigned seed);
 
 > [!tip] tips
 >
-> - seed source ::: standard practice is using the current time from [`time`](../../date%20and%20time%20utilities/time.md)
+> - seed source ::@:: standard practice is using the current time from [`time`](../../date%20and%20time%20utilities/time.md)

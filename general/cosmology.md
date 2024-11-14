@@ -8,7 +8,7 @@ tags:
 
 # cosmology
 
-__Cosmology__ (from {{[Ancient Greek](Ancient%20Greek.md) _κόσμος (cosmos)_ 'the universe, the world' and _λογία (logia)_ 'study of'}}) is {{a branch of [physics](physics.md) and [metaphysics](metaphysics.md) dealing with the [nature](nature.md) of the [universe](universe.md), the [cosmos](cosmos.md)}}.
+__Cosmology__ (from {@{[Ancient Greek](Ancient%20Greek.md) _κόσμος (cosmos)_ 'the universe, the world' and _λογία (logia)_ 'study of'}@}) is {@{a branch of [physics](physics.md) and [metaphysics](metaphysics.md) dealing with the [nature](nature.md) of the [universe](universe.md), the [cosmos](cosmos.md)}@}.
 
 ## references
 

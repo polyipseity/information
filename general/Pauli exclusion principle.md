@@ -9,7 +9,7 @@ tags:
 
 # Pauli exclusion principle
 
-In [quantum mechanics](quantum%20mechanics.md), the {{__Pauli exclusion principle__}} states that {{two or more [identical particles](indistinguishable%20particles.md) with [half-integer spins](fermion.md) (i.e. [fermions](fermion.md)) cannot simultaneously occupy the same [quantum state](quantum%20state.md) within a system that obeys the laws of [quantum mechanics](quantum%20mechanics.md)}}. This principle was formulated by {{Austrian physicist [Wolfgang Pauli](Wolfgang%20Pauli.md) in 1925 for [electrons](electron.md)}}, and later {{extended to all fermions with his [spin–statistics theorem](spin–statistics%20theorem.md) of 1940}}.
+In [quantum mechanics](quantum%20mechanics.md), the {@{__Pauli exclusion principle__}@} states that {@{two or more [identical particles](indistinguishable%20particles.md) with [half-integer spins](fermion.md) (i.e. [fermions](fermion.md)) cannot simultaneously occupy the same [quantum state](quantum%20state.md) within a system that obeys the laws of [quantum mechanics](quantum%20mechanics.md)}@}. This principle was formulated by {@{Austrian physicist [Wolfgang Pauli](Wolfgang%20Pauli.md) in 1925 for [electrons](electron.md)}@}, and later {@{extended to all fermions with his [spin–statistics theorem](spin–statistics%20theorem.md) of 1940}@}.
 
 ## references
 

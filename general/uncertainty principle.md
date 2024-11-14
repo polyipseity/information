@@ -10,7 +10,7 @@ tags:
 
 # uncertainty principle
 
-The __uncertainty principle__, also known as {{__Heisenberg's indeterminacy principle__}}, is {{a fundamental concept in [quantum mechanics](quantum%20mechanics.md). It states that there is a limit to the precision with which certain pairs of physical properties, such as position and [momentum](momentum.md), can be simultaneously known}}. In other words, {{the more accurately one property is measured, the less accurately the other property can be known}}.
+The __uncertainty principle__, also known as {@{__Heisenberg's indeterminacy principle__}@}, is {@{a fundamental concept in [quantum mechanics](quantum%20mechanics.md). It states that there is a limit to the precision with which certain pairs of physical properties, such as position and [momentum](momentum.md), can be simultaneously known}@}. In other words, {@{the more accurately one property is measured, the less accurately the other property can be known}@}.
 
 ## references
 

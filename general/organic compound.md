@@ -15,7 +15,7 @@ tags:
 # import ../../tools/utility.py.md
 ```
 
-An __organic compound__ is {{generally defined as a [chemical compound](chemical%20compound.md) containing [carbon](carbon.md)–carbon bonds or carbon–[hydrogen](hydrogen.md) bonds}}.
+An __organic compound__ is {@{generally defined as a [chemical compound](chemical%20compound.md) containing [carbon](carbon.md)–carbon bonds or carbon–[hydrogen](hydrogen.md) bonds}@}.
 
 ## references
 

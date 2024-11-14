@@ -38,10 +38,10 @@ return await memorize_table(
 
 <!--pytextgen generate section="9387dd"--><!-- The following content is generated at 2024-01-04T20:17:52.186337+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←[construction](construction.md)
-- [construction](construction.md)→:::←[glass making](glass%20making.md)
-- [glass making](glass%20making.md)→:::←raw material
-- raw material→:::←_(end)_
+- _(begin)_→::@::←[construction](construction.md)
+- [construction](construction.md)→::@::←[glass making](glass%20making.md)
+- [glass making](glass%20making.md)→::@::←raw material
+- raw material→::@::←_(end)_
 
 <!--/pytextgen-->
 

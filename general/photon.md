@@ -8,7 +8,7 @@ tags:
 
 # photon
 
-A __photon__ is {{a [quantum](quantum.md) of the [electromagnetic field](electromagnetic%20field.md)}}. Photons are {{[massless](massless%20particle.md)}}, so they {{always move at the [speed of light in vacuum](speed%20of%20light.md), 299&nbsp;792&nbsp;458&nbsp;m/s}}.
+A __photon__ is {@{a [quantum](quantum.md) of the [electromagnetic field](electromagnetic%20field.md)}@}. Photons are {@{[massless](massless%20particle.md)}@}, so they {@{always move at the [speed of light in vacuum](speed%20of%20light.md), 299&nbsp;792&nbsp;458&nbsp;m/s}@}.
 
 ## physical properties
 

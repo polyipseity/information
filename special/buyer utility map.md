@@ -14,11 +14,11 @@ tags:
 # import ../../tools/utility.py.md
 ```
 
-It is similar to a {{[customer journey map](customer%20journey%20map.md)}}.
+It is similar to a {@{[customer journey map](customer%20journey%20map.md)}@}.
 
 ## 6 stages of buyer experience cycle
 
-The {{6 stages of buyer experience}} cycle are the {{map column headers}}.
+The {@{6 stages of buyer experience}@} cycle are the {@{map column headers}@}.
 
 ```Python
 # pytextgen generate data
@@ -48,19 +48,19 @@ disposal
 
 <!--pytextgen generate section="93ab"--><!-- The following content is generated at 2024-04-22T01:24:34.779674+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←purchase
-- purchase→:::←delivery
-- delivery→:::←use
-- use→:::←supplements
-- supplements→:::←maintenance
-- maintenance→:::←disposal
-- disposal→:::←_(end)_
+- _(begin)_→::@::←purchase
+- purchase→::@::←delivery
+- delivery→::@::←use
+- use→::@::←supplements
+- supplements→::@::←maintenance
+- maintenance→::@::←disposal
+- disposal→::@::←_(end)_
 
 <!--/pytextgen-->
 
 ## 6 utility levers
 
-The {{6 utility levers}} are the {{map row headers}}.
+The {@{6 utility levers}@} are the {@{map row headers}@}.
 
 ```Python
 # pytextgen generate data
@@ -90,16 +90,16 @@ simplicity: remove complexity or hassle
 
 <!--pytextgen generate section="aa92"--><!-- The following content is generated at 2024-04-22T01:24:34.799107+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←convenience: ease of spatial and temporal accessibility
-- convenience: ease of spatial and temporal accessibility→:::←environmental friendliness
-- environmental friendliness→:::←fun and image: conveyed feel, look, or attitude
-- fun and image: conveyed feel, look, or attitude→:::←productivity: less effort, time, or money
-- productivity: less effort, time, or money→:::←risk reduction: financial, physical, reputational
-- risk reduction: financial, physical, reputational→:::←simplicity: remove complexity or hassle
-- simplicity: remove complexity or hassle→:::←_(end)_
+- _(begin)_→::@::←convenience: ease of spatial and temporal accessibility
+- convenience: ease of spatial and temporal accessibility→::@::←environmental friendliness
+- environmental friendliness→::@::←fun and image: conveyed feel, look, or attitude
+- fun and image: conveyed feel, look, or attitude→::@::←productivity: less effort, time, or money
+- productivity: less effort, time, or money→::@::←risk reduction: financial, physical, reputational
+- risk reduction: financial, physical, reputational→::@::←simplicity: remove complexity or hassle
+- simplicity: remove complexity or hassle→::@::←_(end)_
 
 <!--/pytextgen-->
 
 ## usage
 
-Mark down {{customer pains with crosses}} on the map. Optionally, mark down {{current industry focuses with red points}}. Then, identify {{new unaddressed customer pains}}.
+Mark down {@{customer pains with crosses}@} on the map. Optionally, mark down {@{current industry focuses with red points}@}. Then, identify {@{new unaddressed customer pains}@}.

@@ -11,7 +11,7 @@ tags:
 
 # frequency
 
-__Frequency__ (symbol {{_f_}}), most often measured in {{[_hertz_](hertz.md) (symbol: Hz)}}, is {{the number of occurrences of a repeating event per [unit of time](unit%20of%20time.md)}}.
+__Frequency__ (symbol {@{_f_}@}), most often measured in {@{[_hertz_](hertz.md) (symbol: Hz)}@}, is {@{the number of occurrences of a repeating event per [unit of time](unit%20of%20time.md)}@}.
 
 ## references
 

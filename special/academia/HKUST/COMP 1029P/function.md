@@ -9,7 +9,7 @@ tags:
 
 # Python function
 
-A function {{receives zero or more inputs and returns nothing or a output}}. A Python function consists of {{a name, arguments, and a statement block}}:
+A function {@{receives zero or more inputs and returns nothing or a output}@}. A Python function consists of {@{a name, arguments, and a statement block}@}:
 
 ```Python
 def name(arguments):
@@ -23,7 +23,7 @@ def square(x):
   return x * x
 ```
 
-This is an example of a function that returns nothing. They are used for {{side effects}}:
+This is an example of a function that returns nothing. They are used for {@{side effects}@}:
 
 ```Python
 def print_square(x):

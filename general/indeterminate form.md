@@ -62,32 +62,32 @@ return await memorize_map(
 
 <!--pytextgen generate section="39dd"--><!-- The following content is generated at 2024-01-04T20:17:52.099769+08:00. Any edits will be overridden! -->
 
-- $\sin{x}$::$x$
-- $\arcsin{x}$::$x$
-- $\sinh{x}$::$x$
-- $\tan{x}$::$x$
-- $\arctan{x}$::$x$
-- $\ln(1+x)$::$x$
-- $1-\cos{x}$::$\frac{x^2}2$
-- $\cosh{x}-1$::$\frac{x^2}2$
-- $a^x-1$::$x\ln{a}$
-- $e^x-1$::$x$
-- $(1+x)^a-1$::$ax$
+- $\sin{x}$:@:$x$
+- $\arcsin{x}$:@:$x$
+- $\sinh{x}$:@:$x$
+- $\tan{x}$:@:$x$
+- $\arctan{x}$:@:$x$
+- $\ln(1+x)$:@:$x$
+- $1-\cos{x}$:@:$\frac{x^2}2$
+- $\cosh{x}-1$:@:$\frac{x^2}2$
+- $a^x-1$:@:$x\ln{a}$
+- $e^x-1$:@:$x$
+- $(1+x)^a-1$:@:$ax$
 
 <!--/pytextgen-->
 
 <!--pytextgen generate section="f234"--><!-- The following content is generated at 2024-01-04T20:17:52.183338+08:00. Any edits will be overridden! -->
 
-- $x$::$\sin{x}$, $\arcsin{x}$, $\sinh{x}$, $\tan{x}$, $\arctan{x}$, $\ln(1+x)$, $e^x-1$
-- $\frac{x^2}2$::$1-\cos{x}$, $\cosh{x}-1$
-- $x\ln{a}$::$a^x-1$
-- $ax$::$(1+x)^a-1$
+- $x$:@:$\sin{x}$, $\arcsin{x}$, $\sinh{x}$, $\tan{x}$, $\arctan{x}$, $\ln(1+x)$, $e^x-1$
+- $\frac{x^2}2$:@:$1-\cos{x}$, $\cosh{x}-1$
+- $x\ln{a}$:@:$a^x-1$
+- $ax$:@:$(1+x)^a-1$
 
 <!--/pytextgen-->
 
 #### x→∞
 
-To derive the equivalent infinitesimals when $x \to \pm\infty$, {{replace all $x$ with $\frac 1 x$ in the [equivalent infinitesimals when $x \to 0^\pm$](#x→0) ($x \to +\infty$ becomes $x \to 0^+$, $x \to -\infty$ becomes $x \to 0^-$)}}.
+To derive the equivalent infinitesimals when $x \to \pm\infty$, {@{replace all $x$ with $\frac 1 x$ in the [equivalent infinitesimals when $x \to 0^\pm$](#x→0) ($x \to +\infty$ becomes $x \to 0^+$, $x \to -\infty$ becomes $x \to 0^-$)}@}.
 
 ### L'Hôpital's rule
 

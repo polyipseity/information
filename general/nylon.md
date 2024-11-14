@@ -17,9 +17,9 @@ tags:
 
 ### nomenclature
 
-One number indicates {{a homopolymer based on one type of [amino acid](amino%20acid.md) with the specified number of [carbons](carbon.md)}}.
+One number indicates {@{a homopolymer based on one type of [amino acid](amino%20acid.md) with the specified number of [carbons](carbon.md)}@}.
 
-Two numbers indicate {{a dyadic homopolymer based on one type of [diamine](amine.md) and one type of [dicarboxylic acid](carboxylic%20acid.md). The first number indicates the number of [carbons](carbon.md) in the diamine, while the second one indicates in the dicarboxylic acid}}.
+Two numbers indicate {@{a dyadic homopolymer based on one type of [diamine](amine.md) and one type of [dicarboxylic acid](carboxylic%20acid.md). The first number indicates the number of [carbons](carbon.md) in the diamine, while the second one indicates in the dicarboxylic acid}@}.
 
 ## properties
 
@@ -41,7 +41,7 @@ return await memorize_seq(
 )
 ```
 
-The following properties make nylons suitable for {{clothing fibers, fishing lines and nets, racket strings, ropes, etc.}}
+The following properties make nylons suitable for {@{clothing fibers, fishing lines and nets, racket strings, ropes, etc.}@}
 
 <!--pytextgen generate section="bba2"--><!-- The following content is generated at 2024-03-07T10:21:21.098669+08:00. Any edits will be overridden! -->
 
@@ -59,16 +59,16 @@ The following properties make nylons suitable for {{clothing fibers, fishing lin
 
 <!--pytextgen generate section="d83e"--><!-- The following content is generated at 2024-01-04T20:17:52.459920+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←dyeable
-- dyeable→:::←elastic
-- elastic→:::←high tensile strength
-- high tensile strength→:::←oil-proof
-- oil-proof→:::←smooth
-- smooth→:::←[strong](strength%20of%20materials.md)
-- [strong](strength%20of%20materials.md)→:::←[tough](toughness.md)
-- [tough](toughness.md)→:::←washable
-- washable→:::←[waterproof](waterproof.md)
-- [waterproof](waterproof.md)→:::←_(end)_
+- _(begin)_→::@::←dyeable
+- dyeable→::@::←elastic
+- elastic→::@::←high tensile strength
+- high tensile strength→::@::←oil-proof
+- oil-proof→::@::←smooth
+- smooth→::@::←[strong](strength%20of%20materials.md)
+- [strong](strength%20of%20materials.md)→::@::←[tough](toughness.md)
+- [tough](toughness.md)→::@::←washable
+- washable→::@::←[waterproof](waterproof.md)
+- [waterproof](waterproof.md)→::@::←_(end)_
 
 <!--/pytextgen-->
 

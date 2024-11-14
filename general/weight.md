@@ -9,7 +9,7 @@ tags:
 
 # weight
 
-In [science](science.md) and [engineering](engineering.md), the __weight__ of an [object](physical%20object.md), is {{the [force](force.md) acting on the object due to [acceleration](acceleration.md) of [gravity](gravity.md)}}.
+In [science](science.md) and [engineering](engineering.md), the __weight__ of an [object](physical%20object.md), is {@{the [force](force.md) acting on the object due to [acceleration](acceleration.md) of [gravity](gravity.md)}@}.
 
 ## references
 

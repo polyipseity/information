@@ -37,24 +37,24 @@ return await memorize_table(
 
 > | periodic property | across the period | down the group |
 > |-|-|-|
-> | {{[atomic radius](#atomic%20radius)}} | {{decreases}} | {{increases}} |
-> | {{[electron affinity](#electron%20affinity)}} | {{increases}} | {{fluctuates}} |
-> | {{[electronegativity](#electronegativity)}} | {{increases}} | {{decreases}} |
-> | {{[ionization energy](#ionization%20energy)}} | {{increases}} | {{decreases}} |
-> | {{[metallic character](#metallic%20character)}} | {{decreases}} | {{increases}} |
-> | {{[valence](#valence)}} | {{increases, then decreases}} | {{constant}} |
+> | {@{[atomic radius](#atomic%20radius)}@} | {@{decreases}@} | {@{increases}@} |
+> | {@{[electron affinity](#electron%20affinity)}@} | {@{increases}@} | {@{fluctuates}@} |
+> | {@{[electronegativity](#electronegativity)}@} | {@{increases}@} | {@{decreases}@} |
+> | {@{[ionization energy](#ionization%20energy)}@} | {@{increases}@} | {@{decreases}@} |
+> | {@{[metallic character](#metallic%20character)}@} | {@{decreases}@} | {@{increases}@} |
+> | {@{[valence](#valence)}@} | {@{increases, then decreases}@} | {@{constant}@} |
 
 <!--/pytextgen-->
 
 <!--pytextgen generate section="029e"--><!-- The following content is generated at 2024-01-04T20:17:52.350867+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←[atomic radius](#atomic%20radius)
-- [atomic radius](#atomic%20radius)→:::←[electron affinity](#electron%20affinity)
-- [electron affinity](#electron%20affinity)→:::←[electronegativity](#electronegativity)
-- [electronegativity](#electronegativity)→:::←[ionization energy](#ionization%20energy)
-- [ionization energy](#ionization%20energy)→:::←[metallic character](#metallic%20character)
-- [metallic character](#metallic%20character)→:::←[valence](#valence)
-- [valence](#valence)→:::←_(end)_
+- _(begin)_→::@::←[atomic radius](#atomic%20radius)
+- [atomic radius](#atomic%20radius)→::@::←[electron affinity](#electron%20affinity)
+- [electron affinity](#electron%20affinity)→::@::←[electronegativity](#electronegativity)
+- [electronegativity](#electronegativity)→::@::←[ionization energy](#ionization%20energy)
+- [ionization energy](#ionization%20energy)→::@::←[metallic character](#metallic%20character)
+- [metallic character](#metallic%20character)→::@::←[valence](#valence)
+- [valence](#valence)→::@::←_(end)_
 
 <!--/pytextgen-->
 

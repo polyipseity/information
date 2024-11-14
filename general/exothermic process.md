@@ -41,11 +41,11 @@ return await memorize_seq(
 
 <!--pytextgen generate section="abba"--><!-- The following content is generated at 2024-01-04T20:17:51.721626+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←all [combustion reactions](combustion.md)
-- all [combustion reactions](combustion.md)→:::←all [neutralization reactions](neutralization%20(chemistry).md)
-- all [neutralization reactions](neutralization%20(chemistry).md)→:::←all [precipitation reactions](precipitation%20(chemistry).md)
-- all [precipitation reactions](precipitation%20(chemistry).md)→:::←[hydration](hydration%20reaction.md) of [calcium oxide](calcium%20oxide.md)
-- [hydration](hydration%20reaction.md) of [calcium oxide](calcium%20oxide.md)→:::←_(end)_
+- _(begin)_→::@::←all [combustion reactions](combustion.md)
+- all [combustion reactions](combustion.md)→::@::←all [neutralization reactions](neutralization%20(chemistry).md)
+- all [neutralization reactions](neutralization%20(chemistry).md)→::@::←all [precipitation reactions](precipitation%20(chemistry).md)
+- all [precipitation reactions](precipitation%20(chemistry).md)→::@::←[hydration](hydration%20reaction.md) of [calcium oxide](calcium%20oxide.md)
+- [hydration](hydration%20reaction.md) of [calcium oxide](calcium%20oxide.md)→::@::←_(end)_
 
 <!--/pytextgen-->
 

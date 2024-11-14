@@ -11,11 +11,11 @@ tags:
 
 ## algorithms
 
-- [decision tree learning](decision%20tree%20learning.md) ::: [Supervised learning](supervised%20learning.md) using [decision trees](decision%20tree.md).
+- [decision tree learning](decision%20tree%20learning.md) ::@:: [Supervised learning](supervised%20learning.md) using [decision trees](decision%20tree.md).
 
 ## application domains
 
-Classification has {{many application across many fields}}. Usually, it is used to {{predict outcomes given some other measurable inputs}}.
+Classification has {@{many application across many fields}@}. Usually, it is used to {@{predict outcomes given some other measurable inputs}@}.
 
 ## references
 

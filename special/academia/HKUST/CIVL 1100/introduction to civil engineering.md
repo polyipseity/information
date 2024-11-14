@@ -17,92 +17,92 @@ The content is in teaching order.
 
 - engineer
   - engineer, according to Wikipedia
-    - engineer jobs ::: analyze, _build_, _design_, invent, repair, test
-    - engineer goals ::: fulfill functional objectives and requirements
-    - engineer limitations ::: limited by cost, practicality, regulation, and safety
-    - engineer methods ::: ingenuity, mathematics, scientific method and outlook
+    - engineer jobs ::@:: analyze, _build_, _design_, invent, repair, test
+    - engineer goals ::@:: fulfill functional objectives and requirements
+    - engineer limitations ::@:: limited by cost, practicality, regulation, and safety
+    - engineer methods ::@:: ingenuity, mathematics, scientific method and outlook
   - engineer, according to the World Federation of Engineering Organizations (WFEO)
-    - engineer inspirations ::: art of using creativity, science and technology, traditional experience
-    - engineer sustainability ::: restore and safeguard the biophysical environment
+    - engineer inspirations ::@:: art of using creativity, science and technology, traditional experience
+    - engineer sustainability ::@:: restore and safeguard the biophysical environment
   - [engineer types](#engineer%20types)
-  - differences between engineers and scientists ::: Scientists understand nature and make predictions, while engineers use scientific data and knowledge to design cities and protect us from nature.
-- civil engineering ::: construction, design, maintenance, and planning of the built environment, including buildings and infrastructure
-  - "civil" meaning ::: "Civil" distinguishes non-military from military purposes.
-  - civil engineer characteristics ::: problem solvers
-  - civil engineering characteristics ::: Oldest engineering discipline. Takes place on all levels, from municipal to nationals in the public sector, from homeowners to international companies in the private sector.
-  - built environment ::: man-made using materials and natural resources, benefiting mankind, with environment protection and prudent urban planning
-    - built environment example ::: Hoover Dam, a hydroelectric and reservoir project constructed on the Colorado River from 1931 to 1936, affects Las Vegas, United States significantly to the present.
-- civil engineering importance ::: improving living environments, productivity, and working efficiency
+  - differences between engineers and scientists ::@:: Scientists understand nature and make predictions, while engineers use scientific data and knowledge to design cities and protect us from nature.
+- civil engineering ::@:: construction, design, maintenance, and planning of the built environment, including buildings and infrastructure
+  - "civil" meaning ::@:: "Civil" distinguishes non-military from military purposes.
+  - civil engineer characteristics ::@:: problem solvers
+  - civil engineering characteristics ::@:: Oldest engineering discipline. Takes place on all levels, from municipal to nationals in the public sector, from homeowners to international companies in the private sector.
+  - built environment ::@:: man-made using materials and natural resources, benefiting mankind, with environment protection and prudent urban planning
+    - built environment example ::@:: Hoover Dam, a hydroelectric and reservoir project constructed on the Colorado River from 1931 to 1936, affects Las Vegas, United States significantly to the present.
+- civil engineering importance ::@:: improving living environments, productivity, and working efficiency
   - [civil engineering examples](#civil%20engineering%20examples)
   - [civil engineering slogans in Hong Kong](#civil%20engineering%20slogans%20in%20Hong%20Kong)
 - civil engineering challenges
   - [civil engineering non-technical issues](#civil%20engineering%20non-technical%20issues)
-  - poor construction management consequences ::: Poor quality control and workmanship leads to high maintenance cost. Structural failure leads to loss of lives.
-    - poor quality control and workmanship consequences ::: cracks, stinky smell, water leakage
-    - structural failure consequences ::: building toppling over, killing workers, prosecution
+  - poor construction management consequences ::@:: Poor quality control and workmanship leads to high maintenance cost. Structural failure leads to loss of lives.
+    - poor quality control and workmanship consequences ::@:: cracks, stinky smell, water leakage
+    - structural failure consequences ::@:: building toppling over, killing workers, prosecution
     - [structural failure example](#structural%20failure%20example)
-  - civil engineering design challenges ::: complex shapes, long-span structures, underground structures
+  - civil engineering design challenges ::@:: complex shapes, long-span structures, underground structures
     - [complex shape examples](#complex%20shape%20examples)
     - [long-span structure examples](#long%20span%20structure%20examples)
-    - underground structure examples ::: Turin–Lyon high-speed railway (2002–2032), 271 km long, has the Mont Cenis base tunnel that is 57.5 km long with up to 4 km long access tunnels
+    - underground structure examples ::@:: Turin–Lyon high-speed railway (2002–2032), 271 km long, has the Mont Cenis base tunnel that is 57.5 km long with up to 4 km long access tunnels
   - [civil engineering new challenges](#civil%20engineering%20new%20challenges)
-    - climate change engineering examples ::: Project MOSE (2003–2025) in Venice, Thames Barrier (1974–1982)
-      - Thames Barrier (1974–1982) mechanism ::: The gate is a chord of a circle. It rotates along the circumference of the circle. When open, it acts like the river floor. When closing, the chord rotates about the circle center and becomes a barrier.
-- civil engineering solutions ::: smart cities
-  - smart cities examples ::: Using technology to gather information, predict events, and notify people.
+    - climate change engineering examples ::@:: Project MOSE (2003–2025) in Venice, Thames Barrier (1974–1982)
+      - Thames Barrier (1974–1982) mechanism ::@:: The gate is a chord of a circle. It rotates along the circumference of the circle. When open, it acts like the river floor. When closing, the chord rotates about the circle center and becomes a barrier.
+- civil engineering solutions ::@:: smart cities
+  - smart cities examples ::@:: Using technology to gather information, predict events, and notify people.
 - [civil engineering subdisciplines](#civil%20engineering%20subdisciplines)
-- structural engineering ::: analysis, design, and planning of structures to resist various loading and natural disasters
+- structural engineering ::@:: analysis, design, and planning of structures to resist various loading and natural disasters
   - [structural engineering examples](#structural%20engineering%20examples)
   - [natural disasters examples](#natural%20disaster%20examples)
-  - structural engineering goals ::: safety: no collapse without warning, serviceability: deformation does not disrupt use
-  - construction material factors ::: depends on availability, cost, project nature
+  - structural engineering goals ::@:: safety: no collapse without warning, serviceability: deformation does not disrupt use
+  - construction material factors ::@:: depends on availability, cost, project nature
     - [construction material examples](#construction%20material%20examples)
       - [reinforced concrete structure examples](#reinforced%20concrete%20structure%20examples)
       - [steel or concrete–steel composite structure examples](#steel%20or%20concrete–steel%20composite%20structure%20examples)
-      - timber structure examples ::: Hirschberg 13, 35037 Marburg, Germany
-  - structural codes of practice or design codes ::: different countries have different standards
+      - timber structure examples ::@:: Hirschberg 13, 35037 Marburg, Germany
+  - structural codes of practice or design codes ::@:: different countries have different standards
     - [structural code of practice examples](#structural%20code%20of%20practice%20examples)
-- geo-technical engineering ::: behavior of rock, soil, and underground water
-  - geo-technical engineering structures ::: design and construction of earthworks and foundations
+- geo-technical engineering ::@:: behavior of rock, soil, and underground water
+  - geo-technical engineering structures ::@:: design and construction of earthworks and foundations
     - [geo-technical engineering structure examples](#geo-technical%20engineering%20structure%20examples)
   - [geo-technical engineering risks](#geo-technical%20engineering%20risks)
-    - geo-technical engineering risk migration ::: soil improvement or retaining structures can migrate risk to society
-- hydraulic engineering ::: conveyance and flow of fluids, principally sewage and water
-  - hydraulic engineering structures ::: design and construction of hydraulic structures
+    - geo-technical engineering risk migration ::@:: soil improvement or retaining structures can migrate risk to society
+- hydraulic engineering ::@:: conveyance and flow of fluids, principally sewage and water
+  - hydraulic engineering structures ::@:: design and construction of hydraulic structures
     - [hydraulic engineering structure examples](#hydraulic%20engineering%20structure%20examples)
-  - hydraulic engineering systems ::: planning, development, and management of discharge systems and water resources
+  - hydraulic engineering systems ::@:: planning, development, and management of discharge systems and water resources
     - [hydraulic engineering system examples](#hydraulic%20engineering%20system%20examples)
-- environmental engineering ::: application of engineering and science to improve the natural environment and minimize environmental impact
+- environmental engineering ::@:: application of engineering and science to improve the natural environment and minimize environmental impact
   - [environmental engineering areas](#environmental%20engineering%20areas)
-    - air engineering ::: air pollution control, air quality monitoring, ozone layer protection
-    - waste engineering ::: methods of disposal (e.g. landfills and incineration), site investigation and remediation, solid waste management
+    - air engineering ::@:: air pollution control, air quality monitoring, ozone layer protection
+    - waste engineering ::@:: methods of disposal (e.g. landfills and incineration), site investigation and remediation, solid waste management
     - [water engineering](#water%20engineering)
-    - noise engineering ::: noise mitigation measures (e.g. noise barriers), noise monitoring (e.g. construction noise, traffic noise)
-    - environmental impact assessment (EIA) ::: a systematic identification and evaluation process to assess the potential impacts of a proposed project so that mitigation measures can be developed
+    - noise engineering ::@:: noise mitigation measures (e.g. noise barriers), noise monitoring (e.g. construction noise, traffic noise)
+    - environmental impact assessment (EIA) ::@:: a systematic identification and evaluation process to assess the potential impacts of a proposed project so that mitigation measures can be developed
       - [environmental impact components](#environmental%20impact%20components)
-      - environmental impact assessment in [Hong Kong](../../../../general/Hong%20Kong.md) ::: regulated by the Environmental Impact Assessment (Cap. 499) 1997
-- transportation engineering ::: moving goods and people effectively, efficiently, safely, and sustainably
-  - transportation engineering structures ::: planning, design, construction, operation, and maintenance of transportational infrastructures
+      - environmental impact assessment in [Hong Kong](../../../../general/Hong%20Kong.md) ::@:: regulated by the Environmental Impact Assessment (Cap. 499) 1997
+- transportation engineering ::@:: moving goods and people effectively, efficiently, safely, and sustainably
+  - transportation engineering structures ::@:: planning, design, construction, operation, and maintenance of transportational infrastructures
     - [transportation engineering structure examples](#transportation%20engineering%20structure%20examples)
 - materials engineering
-  - materials engineering characteristics ::: spans almost all engineering disciplines because materials are used in designs
-  - materials engineer jobs ::: highly varied
+  - materials engineering characteristics ::@:: spans almost all engineering disciplines because materials are used in designs
+  - materials engineer jobs ::@:: highly varied
     - [materials engineer job examples](#materials%20engineer%20job%20examples)
-  - materials engineering materials ::: development of improved or new materials
+  - materials engineering materials ::@:: development of improved or new materials
     - [materials engineering material examples](#materials%20engineering%20material%20examples)
-  - materials engineering repair ::: design of materials and methods to repair
-    - materials engineering repair examples ::: fiber reinforced polymer retrofit system, retrofit using damper, slab retrofit using steel plate and carbon fiber reinforced polymer
-- construction engineering ::: planning and execution of the designs from other fields of engineers
+  - materials engineering repair ::@:: design of materials and methods to repair
+    - materials engineering repair examples ::@:: fiber reinforced polymer retrofit system, retrofit using damper, slab retrofit using steel plate and carbon fiber reinforced polymer
+- construction engineering ::@:: planning and execution of the designs from other fields of engineers
   - [construction engineer skills](#construction%20engineer%20skills)
   - [construction engineer jobs](#construction%20engineer%20jobs)
-- civil engineer prospects ::: A civil engineering degree prepares one for work in the construction industry and the broader business, financial, and management sectors.
-  - civil engineer demand ::: Civil engineer are always in demand due to new infrastructure and maintenance and monitoring of existing ones.
+- civil engineer prospects ::@:: A civil engineering degree prepares one for work in the construction industry and the broader business, financial, and management sectors.
+  - civil engineer demand ::@:: Civil engineer are always in demand due to new infrastructure and maintenance and monitoring of existing ones.
   - [civil engineer prospect examples](#civil%20engineer%20prospect%20examples)
-  - civil engineer organization examples ::: contractors or construction companies, engineering consulting firms, government (working as civil servants)
-    - civil government departments in [Hong Kong](../../../../general/Hong%20Kong.md) ::: Architectural Services Department (ArchSD), Buildings Department (BD), Housing Department (HD)
-      - Architectural Services Department (ArchSD) ::: governmental structures, markets, playgrounds, public schools
-      - Buildings Department (BD) ::: illegal structures, private buildings
-      - Housing Department (HD) ::: home ownership scheme, public housing
+  - civil engineer organization examples ::@:: contractors or construction companies, engineering consulting firms, government (working as civil servants)
+    - civil government departments in [Hong Kong](../../../../general/Hong%20Kong.md) ::@:: Architectural Services Department (ArchSD), Buildings Department (BD), Housing Department (HD)
+      - Architectural Services Department (ArchSD) ::@:: governmental structures, markets, playgrounds, public schools
+      - Buildings Department (BD) ::@:: illegal structures, private buildings
+      - Housing Department (HD) ::@:: home ownership scheme, public housing
 
 ## oversized data
 
@@ -142,16 +142,16 @@ quantity surveyor
 
 <!--pytextgen generate section="9281"--><!-- The following content is generated at 2024-02-16T21:59:46.960790+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←building services engineer
-- building services engineer→:::←consulting civil engineer
-- consulting civil engineer→:::←consulting environmental engineer
-- consulting environmental engineer→:::←consulting geo-technical engineer
-- consulting geo-technical engineer→:::←consulting structural engineer
-- consulting structural engineer→:::←contracting civil engineer
-- contracting civil engineer→:::←engineering geologist
-- engineering geologist→:::←environmental consultant
-- environmental consultant→:::←quantity surveyor
-- quantity surveyor→:::←_(end)_
+- _(begin)_→::@::←building services engineer
+- building services engineer→::@::←consulting civil engineer
+- consulting civil engineer→::@::←consulting environmental engineer
+- consulting environmental engineer→::@::←consulting geo-technical engineer
+- consulting geo-technical engineer→::@::←consulting structural engineer
+- consulting structural engineer→::@::←contracting civil engineer
+- contracting civil engineer→::@::←engineering geologist
+- engineering geologist→::@::←environmental consultant
+- environmental consultant→::@::←quantity surveyor
+- quantity surveyor→::@::←_(end)_
 
 <!--/pytextgen-->
 
@@ -191,16 +191,16 @@ water and sewage treatment system
 
 <!--pytextgen generate section="39fa"--><!-- The following content is generated at 2024-05-01T23:30:34.986638+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←bridge
-- bridge→:::←building
-- building→:::←dam
-- dam→:::←pipeline
-- pipeline→:::←power plant
-- power plant→:::←reservoir
-- reservoir→:::←sewage treatment
-- sewage treatment→:::←transport
-- transport→:::←water and sewage treatment system
-- water and sewage treatment system→:::←_(end)_
+- _(begin)_→::@::←bridge
+- bridge→::@::←building
+- building→::@::←dam
+- dam→::@::←pipeline
+- pipeline→::@::←power plant
+- power plant→::@::←reservoir
+- reservoir→::@::←sewage treatment
+- sewage treatment→::@::←transport
+- transport→::@::←water and sewage treatment system
+- water and sewage treatment system→::@::←_(end)_
 
 <!--/pytextgen-->
 
@@ -232,12 +232,12 @@ water security
 
 <!--pytextgen generate section="9f12"--><!-- The following content is generated at 2024-02-16T21:59:47.097705+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←climate change
-- climate change→:::←extreme weather
-- extreme weather→:::←food security
-- food security→:::←mega-cities
-- mega-cities→:::←water security
-- water security→:::←_(end)_
+- _(begin)_→::@::←climate change
+- climate change→::@::←extreme weather
+- extreme weather→::@::←food security
+- food security→::@::←mega-cities
+- mega-cities→::@::←water security
+- water security→::@::←_(end)_
 
 <!--/pytextgen-->
 
@@ -277,16 +277,16 @@ workmanship
 
 <!--pytextgen generate section="1e12"--><!-- The following content is generated at 2024-05-01T19:22:34.848790+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←budgeting
-- budgeting→:::←construction management
-- construction management→:::←economics
-- economics→:::←impacts to surrounding
-- impacts to surrounding→:::←lifecycle
-- lifecycle→:::←maintenance
-- maintenance→:::←politics
-- politics→:::←social
-- social→:::←workmanship
-- workmanship→:::←_(end)_
+- _(begin)_→::@::←budgeting
+- budgeting→::@::←construction management
+- construction management→::@::←economics
+- economics→::@::←impacts to surrounding
+- impacts to surrounding→::@::←lifecycle
+- lifecycle→::@::←maintenance
+- maintenance→::@::←politics
+- politics→::@::←social
+- social→::@::←workmanship
+- workmanship→::@::←_(end)_
 
 <!--/pytextgen-->
 
@@ -316,11 +316,11 @@ We Engineer Hong Kong’s Development
 
 <!--pytextgen generate section="e823"--><!-- The following content is generated at 2024-02-16T21:59:47.223693+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←興土木 利民生 齊拓展 創明天
-- 興土木 利民生 齊拓展 創明天→:::←We Bring The Best Engineering To Life
-- We Bring The Best Engineering To Life→:::←卓越工程 建設香港
-- 卓越工程 建設香港→:::←We Engineer Hong Kong’s Development
-- We Engineer Hong Kong’s Development→:::←_(end)_
+- _(begin)_→::@::←興土木 利民生 齊拓展 創明天
+- 興土木 利民生 齊拓展 創明天→::@::←We Bring The Best Engineering To Life
+- We Bring The Best Engineering To Life→::@::←卓越工程 建設香港
+- 卓越工程 建設香港→::@::←We Engineer Hong Kong’s Development
+- We Engineer Hong Kong’s Development→::@::←_(end)_
 
 <!--/pytextgen-->
 
@@ -356,14 +356,14 @@ transportation
 
 <!--pytextgen generate section="137b"--><!-- The following content is generated at 2024-05-01T19:22:34.905642+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←construction
-- construction→:::←environmental
-- environmental→:::←geo-technical
-- geo-technical→:::←hydraulic
-- hydraulic→:::←material
-- material→:::←structural
-- structural→:::←transportation
-- transportation→:::←_(end)_
+- _(begin)_→::@::←construction
+- construction→::@::←environmental
+- environmental→::@::←geo-technical
+- geo-technical→::@::←hydraulic
+- hydraulic→::@::←material
+- material→::@::←structural
+- structural→::@::←transportation
+- transportation→::@::←_(end)_
 
 <!--/pytextgen-->
 
@@ -399,14 +399,14 @@ Water Cube
 
 <!--pytextgen generate section="cc12"--><!-- The following content is generated at 2024-03-10T00:25:48.737016+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←Beijing National Stadium
-- Beijing National Stadium→:::←Burj Al Arab
-- Burj Al Arab→:::←Burj Khalifa
-- Burj Khalifa→:::←CCTV Headquarters
-- CCTV Headquarters→:::←Eiffel Tower
-- Eiffel Tower→:::←Hong Kong Convention and Exhibition Centre
-- Hong Kong Convention and Exhibition Centre→:::←Water Cube
-- Water Cube→:::←_(end)_
+- _(begin)_→::@::←Beijing National Stadium
+- Beijing National Stadium→::@::←Burj Al Arab
+- Burj Al Arab→::@::←Burj Khalifa
+- Burj Khalifa→::@::←CCTV Headquarters
+- CCTV Headquarters→::@::←Eiffel Tower
+- Eiffel Tower→::@::←Hong Kong Convention and Exhibition Centre
+- Hong Kong Convention and Exhibition Centre→::@::←Water Cube
+- Water Cube→::@::←_(end)_
 
 <!--/pytextgen-->
 
@@ -452,19 +452,19 @@ testing materials
 
 <!--pytextgen generate section="a93e"--><!-- The following content is generated at 2024-05-01T19:22:34.995351+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←budgeting
-- budgeting→:::←contracting
-- contracting→:::←designing temporary structures
-- designing temporary structures→:::←logistics
-- logistics→:::←planning
-- planning→:::←procuring materials
-- procuring materials→:::←quality assurance
-- quality assurance→:::←quality control
-- quality control→:::←safety engineering
-- safety engineering→:::←scheduling
-- scheduling→:::←surveying building site
-- surveying building site→:::←testing materials
-- testing materials→:::←_(end)_
+- _(begin)_→::@::←budgeting
+- budgeting→::@::←contracting
+- contracting→::@::←designing temporary structures
+- designing temporary structures→::@::←logistics
+- logistics→::@::←planning
+- planning→::@::←procuring materials
+- procuring materials→::@::←quality assurance
+- quality assurance→::@::←quality control
+- quality control→::@::←safety engineering
+- safety engineering→::@::←scheduling
+- scheduling→::@::←surveying building site
+- surveying building site→::@::←testing materials
+- testing materials→::@::←_(end)_
 
 <!--/pytextgen-->
 
@@ -498,13 +498,13 @@ teaming up with others
 
 <!--pytextgen generate section="ee20"--><!-- The following content is generated at 2024-02-16T21:59:47.378182+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←business procedures
-- business procedures→:::←economics
-- economics→:::←human behaviors
-- human behaviors→:::←management principles
-- management principles→:::←strong communication skills
-- strong communication skills→:::←teaming up with others
-- teaming up with others→:::←_(end)_
+- _(begin)_→::@::←business procedures
+- business procedures→::@::←economics
+- economics→::@::←human behaviors
+- human behaviors→::@::←management principles
+- management principles→::@::←strong communication skills
+- strong communication skills→::@::←teaming up with others
+- teaming up with others→::@::←_(end)_
 
 <!--/pytextgen-->
 
@@ -538,13 +538,13 @@ wood
 
 <!--pytextgen generate section="20b9"--><!-- The following content is generated at 2024-02-16T21:59:47.456944+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←brick
-- brick→:::←concrete
-- concrete→:::←new synthetic materials
-- new synthetic materials→:::←steel
-- steel→:::←stone
-- stone→:::←wood
-- wood→:::←_(end)_
+- _(begin)_→::@::←brick
+- brick→::@::←concrete
+- concrete→::@::←new synthetic materials
+- new synthetic materials→::@::←steel
+- steel→::@::←stone
+- stone→::@::←wood
+- wood→::@::←_(end)_
 
 <!--/pytextgen-->
 
@@ -590,19 +590,19 @@ nuclear
 
 <!--pytextgen generate section="ee13"--><!-- The following content is generated at 2024-04-23T18:07:51.639356+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←agricultural
-- agricultural→:::←architectural
-- architectural→:::←biomedical
-- biomedical→:::←ceramic
-- ceramic→:::←chemical
-- chemical→:::←civil
-- civil→:::←computer
-- computer→:::←electrical
-- electrical→:::←industrial
-- industrial→:::←manufacturing
-- manufacturing→:::←mechanical
-- mechanical→:::←nuclear
-- nuclear→:::←_(end)_
+- _(begin)_→::@::←agricultural
+- agricultural→::@::←architectural
+- architectural→::@::←biomedical
+- biomedical→::@::←ceramic
+- ceramic→::@::←chemical
+- chemical→::@::←civil
+- civil→::@::←computer
+- computer→::@::←electrical
+- electrical→::@::←industrial
+- industrial→::@::←manufacturing
+- manufacturing→::@::←mechanical
+- mechanical→::@::←nuclear
+- nuclear→::@::←_(end)_
 
 <!--/pytextgen-->
 
@@ -634,12 +634,12 @@ water
 
 <!--pytextgen generate section="736f"--><!-- The following content is generated at 2024-02-16T21:59:47.573916+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←air
-- air→:::←environmental impact assessment (EIA)
-- environmental impact assessment (EIA)→:::←noise
-- noise→:::←waste
-- waste→:::←water
-- water→:::←_(end)_
+- _(begin)_→::@::←air
+- air→::@::←environmental impact assessment (EIA)
+- environmental impact assessment (EIA)→::@::←noise
+- noise→::@::←waste
+- waste→::@::←water
+- water→::@::←_(end)_
 
 <!--/pytextgen-->
 
@@ -671,12 +671,12 @@ socioeconomic
 
 <!--pytextgen generate section="238a"--><!-- The following content is generated at 2024-02-16T21:59:47.593005+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←biological
-- biological→:::←chemical
-- chemical→:::←cultural
-- cultural→:::←physical
-- physical→:::←socioeconomic
-- socioeconomic→:::←_(end)_
+- _(begin)_→::@::←biological
+- biological→::@::←chemical
+- chemical→::@::←cultural
+- cultural→::@::←physical
+- physical→::@::←socioeconomic
+- socioeconomic→::@::←_(end)_
 
 <!--/pytextgen-->
 
@@ -706,11 +706,11 @@ soil liquefaction
 
 <!--pytextgen generate section="50ba"--><!-- The following content is generated at 2024-05-01T19:22:35.142020+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←debris flow
-- debris flow→:::←landslide
-- landslide→:::←rockfall
-- rockfall→:::←soil liquefaction
-- soil liquefaction→:::←_(end)_
+- _(begin)_→::@::←debris flow
+- debris flow→::@::←landslide
+- landslide→::@::←rockfall
+- rockfall→::@::←soil liquefaction
+- soil liquefaction→::@::←_(end)_
 
 <!--/pytextgen-->
 
@@ -740,11 +740,11 @@ tunnel
 
 <!--pytextgen generate section="11ab"--><!-- The following content is generated at 2024-05-01T19:22:35.163388+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←embankment
-- embankment→:::←pile foundation
-- pile foundation→:::←shallow foundation
-- shallow foundation→:::←tunnel
-- tunnel→:::←_(end)_
+- _(begin)_→::@::←embankment
+- embankment→::@::←pile foundation
+- pile foundation→::@::←shallow foundation
+- shallow foundation→::@::←tunnel
+- tunnel→::@::←_(end)_
 
 <!--/pytextgen-->
 
@@ -774,11 +774,11 @@ levee
 
 <!--pytextgen generate section="234f"--><!-- The following content is generated at 2024-05-01T19:22:35.207913+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←canal
-- canal→:::←channel
-- channel→:::←dam
-- dam→:::←levee
-- levee→:::←_(end)_
+- _(begin)_→::@::←canal
+- canal→::@::←channel
+- channel→::@::←dam
+- dam→::@::←levee
+- levee→::@::←_(end)_
 
 <!--/pytextgen-->
 
@@ -808,11 +808,11 @@ water distribution network
 
 <!--pytextgen generate section="019b"--><!-- The following content is generated at 2024-05-01T19:22:35.271947+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←sewage collection network
-- sewage collection network→:::←storm water management
-- storm water management→:::←water collection network
-- water collection network→:::←water distribution network
-- water distribution network→:::←_(end)_
+- _(begin)_→::@::←sewage collection network
+- sewage collection network→::@::←storm water management
+- storm water management→::@::←water collection network
+- water collection network→::@::←water distribution network
+- water distribution network→::@::←_(end)_
 
 <!--/pytextgen-->
 
@@ -844,12 +844,12 @@ Tsing Ma Bridge
 
 <!--pytextgen generate section="e7f2"--><!-- The following content is generated at 2024-02-16T21:59:47.773549+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←Akashi Kaikyo Bridge
-- Akashi Kaikyo Bridge→:::←Hong Kong–Zhuhai–Macau Bridge
-- Hong Kong–Zhuhai–Macau Bridge→:::←Stonecutters Bridge
-- Stonecutters Bridge→:::←Sutong Yangtze River Bridge
-- Sutong Yangtze River Bridge→:::←Tsing Ma Bridge
-- Tsing Ma Bridge→:::←_(end)_
+- _(begin)_→::@::←Akashi Kaikyo Bridge
+- Akashi Kaikyo Bridge→::@::←Hong Kong–Zhuhai–Macau Bridge
+- Hong Kong–Zhuhai–Macau Bridge→::@::←Stonecutters Bridge
+- Stonecutters Bridge→::@::←Sutong Yangtze River Bridge
+- Sutong Yangtze River Bridge→::@::←Tsing Ma Bridge
+- Tsing Ma Bridge→::@::←_(end)_
 
 <!--/pytextgen-->
 
@@ -877,10 +877,10 @@ developing strengthening techniques for damaged structures or structural members
 
 <!--pytextgen generate section="198b"--><!-- The following content is generated at 2024-05-01T19:22:35.365059+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←choosing suitable materials to resurface a road like asphalt pavement
-- choosing suitable materials to resurface a road like asphalt pavement→:::←designing a concrete mix for a large building
-- designing a concrete mix for a large building→:::←developing strengthening techniques for damaged structures or structural members like a damaged column
-- developing strengthening techniques for damaged structures or structural members like a damaged column→:::←_(end)_
+- _(begin)_→::@::←choosing suitable materials to resurface a road like asphalt pavement
+- choosing suitable materials to resurface a road like asphalt pavement→::@::←designing a concrete mix for a large building
+- designing a concrete mix for a large building→::@::←developing strengthening techniques for damaged structures or structural members like a damaged column
+- developing strengthening techniques for damaged structures or structural members like a damaged column→::@::←_(end)_
 
 <!--/pytextgen-->
 
@@ -912,12 +912,12 @@ polypropylene fiber reinforced concrete
 
 <!--pytextgen generate section="eee1"--><!-- The following content is generated at 2024-02-16T21:59:47.859581+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←artificial stone
-- artificial stone→:::←cellular concrete
-- cellular concrete→:::←engineered cement composite
-- engineered cement composite→:::←fly ash concrete
-- fly ash concrete→:::←polypropylene fiber reinforced concrete
-- polypropylene fiber reinforced concrete→:::←_(end)_
+- _(begin)_→::@::←artificial stone
+- artificial stone→::@::←cellular concrete
+- cellular concrete→::@::←engineered cement composite
+- engineered cement composite→::@::←fly ash concrete
+- fly ash concrete→::@::←polypropylene fiber reinforced concrete
+- polypropylene fiber reinforced concrete→::@::←_(end)_
 
 <!--/pytextgen-->
 
@@ -949,12 +949,12 @@ wave
 
 <!--pytextgen generate section="4372"--><!-- The following content is generated at 2024-05-01T19:22:35.392684+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←earthquake
-- earthquake→:::←fire
-- fire→:::←flood
-- flood→:::←strong wind
-- strong wind→:::←wave
-- wave→:::←_(end)_
+- _(begin)_→::@::←earthquake
+- earthquake→::@::←fire
+- fire→::@::←flood
+- flood→::@::←strong wind
+- strong wind→::@::←wave
+- wave→::@::←_(end)_
 
 <!--/pytextgen-->
 
@@ -982,10 +982,10 @@ Two Prudential Plaza
 
 <!--pytextgen generate section="daaf"--><!-- The following content is generated at 2024-02-16T21:59:47.894677+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←Central Plaza (Hong Kong)
-- Central Plaza (Hong Kong)→:::←China International Trust and Investment (CITIC) Plaza
-- China International Trust and Investment (CITIC) Plaza→:::←Two Prudential Plaza
-- Two Prudential Plaza→:::←_(end)_
+- _(begin)_→::@::←Central Plaza (Hong Kong)
+- Central Plaza (Hong Kong)→::@::←China International Trust and Investment (CITIC) Plaza
+- China International Trust and Investment (CITIC) Plaza→::@::←Two Prudential Plaza
+- Two Prudential Plaza→::@::←_(end)_
 
 <!--/pytextgen-->
 
@@ -1015,11 +1015,11 @@ Taipei 101
 
 <!--pytextgen generate section="938f"--><!-- The following content is generated at 2024-02-16T21:59:47.947997+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←HSBC Main Building
-- HSBC Main Building→:::←International Commerce Centre
-- International Commerce Centre→:::←John Hancock Center
-- John Hancock Center→:::←Taipei 101
-- Taipei 101→:::←_(end)_
+- _(begin)_→::@::←HSBC Main Building
+- HSBC Main Building→::@::←International Commerce Centre
+- International Commerce Centre→::@::←John Hancock Center
+- John Hancock Center→::@::←Taipei 101
+- Taipei 101→::@::←_(end)_
 
 <!--/pytextgen-->
 
@@ -1051,12 +1051,12 @@ Hong Kong Code
 
 <!--pytextgen generate section="2ff2"--><!-- The following content is generated at 2024-04-23T18:07:51.798230+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←American Code
-- American Code→:::←Australian Standard
-- Australian Standard→:::←Chinese Code
-- Chinese Code→:::←Eurocode
-- Eurocode→:::←Hong Kong Code
-- Hong Kong Code→:::←_(end)_
+- _(begin)_→::@::←American Code
+- American Code→::@::←Australian Standard
+- Australian Standard→::@::←Chinese Code
+- Chinese Code→::@::←Eurocode
+- Eurocode→::@::←Hong Kong Code
+- Hong Kong Code→::@::←_(end)_
 
 <!--/pytextgen-->
 
@@ -1094,15 +1094,15 @@ water tower
 
 <!--pytextgen generate section="1002"--><!-- The following content is generated at 2024-05-01T19:22:35.524682+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←bridge
-- bridge→:::←building
-- building→:::←dam
-- dam→:::←power plant
-- power plant→:::←storage facility
-- storage facility→:::←tunnel
-- tunnel→:::←unusual structure
-- unusual structure→:::←water tower
-- water tower→:::←_(end)_
+- _(begin)_→::@::←bridge
+- bridge→::@::←building
+- building→::@::←dam
+- dam→::@::←power plant
+- power plant→::@::←storage facility
+- storage facility→::@::←tunnel
+- tunnel→::@::←unusual structure
+- unusual structure→::@::←water tower
+- water tower→::@::←_(end)_
 
 <!--/pytextgen-->
 
@@ -1142,16 +1142,16 @@ and the Structural Engineering Institute (SEI).
 
 <!--pytextgen generate section="34aa"--><!-- The following content is generated at 2024-05-16T15:46:41.750298+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←On 24 June 2021, a 12-story beachfront condominium, Champlain Towers South, in Miami suburb, Florida, United States partially collapsed, killing 98 people.
-- On 24 June 2021, a 12-story beachfront condominium, Champlain Towers South, in Miami suburb, Florida, United States partially collapsed, killing 98 people.→:::←Main culprit is degradation of reinforced concrete structural support in ground-level parking garage, due to water penetration and corrosion of the reinforcing steel.
-- Main culprit is degradation of reinforced concrete structural support in ground-level parking garage, due to water penetration and corrosion of the reinforcing steel.→:::←Other possible factors include corruption, insufficient reinforcing steel, and land subsidence.
-- Other possible factors include corruption, insufficient reinforcing steel, and land subsidence.→:::←The problems had been reported in 2018 and a US$15M program of remedial work has been approved, though no main structural work has taken place.
-- The problems had been reported in 2018 and a US$15M program of remedial work has been approved, though no main structural work has taken place.→:::←On 25 August 2021, the National Institute of Standards and Technology (NIST) has been tasked with investigation,
-- On 25 August 2021, the National Institute of Standards and Technology (NIST) has been tasked with investigation,→:::←with investigators coming from the American Concrete Institute (ACI),
-- with investigators coming from the American Concrete Institute (ACI),→:::←the American Society of Civil Engineers (ASCE),
-- the American Society of Civil Engineers (ASCE),→:::←the Geode Institute (GI),
-- the Geode Institute (GI),→:::←and the Structural Engineering Institute (SEI).
-- and the Structural Engineering Institute (SEI).→:::←_(end)_
+- _(begin)_→::@::←On 24 June 2021, a 12-story beachfront condominium, Champlain Towers South, in Miami suburb, Florida, United States partially collapsed, killing 98 people.
+- On 24 June 2021, a 12-story beachfront condominium, Champlain Towers South, in Miami suburb, Florida, United States partially collapsed, killing 98 people.→::@::←Main culprit is degradation of reinforced concrete structural support in ground-level parking garage, due to water penetration and corrosion of the reinforcing steel.
+- Main culprit is degradation of reinforced concrete structural support in ground-level parking garage, due to water penetration and corrosion of the reinforcing steel.→::@::←Other possible factors include corruption, insufficient reinforcing steel, and land subsidence.
+- Other possible factors include corruption, insufficient reinforcing steel, and land subsidence.→::@::←The problems had been reported in 2018 and a US$15M program of remedial work has been approved, though no main structural work has taken place.
+- The problems had been reported in 2018 and a US$15M program of remedial work has been approved, though no main structural work has taken place.→::@::←On 25 August 2021, the National Institute of Standards and Technology (NIST) has been tasked with investigation,
+- On 25 August 2021, the National Institute of Standards and Technology (NIST) has been tasked with investigation,→::@::←with investigators coming from the American Concrete Institute (ACI),
+- with investigators coming from the American Concrete Institute (ACI),→::@::←the American Society of Civil Engineers (ASCE),
+- the American Society of Civil Engineers (ASCE),→::@::←the Geode Institute (GI),
+- the Geode Institute (GI),→::@::←and the Structural Engineering Institute (SEI).
+- and the Structural Engineering Institute (SEI).→::@::←_(end)_
 
 <!--/pytextgen-->
 
@@ -1187,14 +1187,14 @@ water transport
 
 <!--pytextgen generate section="a928"--><!-- The following content is generated at 2024-05-01T23:30:35.177839+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←airport
-- airport→:::←bicycle path
-- bicycle path→:::←highway
-- highway→:::←pier
-- pier→:::←pipeline
-- pipeline→:::←railroad
-- railroad→:::←water transport
-- water transport→:::←_(end)_
+- _(begin)_→::@::←airport
+- airport→::@::←bicycle path
+- bicycle path→::@::←highway
+- highway→::@::←pier
+- pier→::@::←pipeline
+- pipeline→::@::←railroad
+- railroad→::@::←water transport
+- water transport→::@::←_(end)_
 
 <!--/pytextgen-->
 
@@ -1226,11 +1226,11 @@ water treatment
 
 <!--pytextgen generate section="1123"--><!-- The following content is generated at 2024-02-16T21:59:48.139738+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←groundwater quality control
-- groundwater quality control→:::←wastewater recycling
-- wastewater recycling→:::←wastewater treatment
-- wastewater treatment→:::←water quality monitoring
-- water quality monitoring→:::←water treatment
-- water treatment→:::←_(end)_
+- _(begin)_→::@::←groundwater quality control
+- groundwater quality control→::@::←wastewater recycling
+- wastewater recycling→::@::←wastewater treatment
+- wastewater treatment→::@::←water quality monitoring
+- water quality monitoring→::@::←water treatment
+- water treatment→::@::←_(end)_
 
 <!--/pytextgen-->

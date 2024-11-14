@@ -33,16 +33,16 @@ return await memorize_table(
 
 > | name | description |
 > |-|-|
-> | {{coins, jewellery}} | {{attractive, [corrosion](corrosion.md)-resistant, [ductile](ductility.md), [malleable](malleability.md), [soft](hardness.md)}} |
-> | {{electrical and electronic components}} | {{[corrosion](corrosion.md)-resistant, [ductile](ductility.md), [electrically conductive](electrical%20conductivity.md), [malleable](malleability.md)}} |
+> | {@{coins, jewellery}@} | {@{attractive, [corrosion](corrosion.md)-resistant, [ductile](ductility.md), [malleable](malleability.md), [soft](hardness.md)}@} |
+> | {@{electrical and electronic components}@} | {@{[corrosion](corrosion.md)-resistant, [ductile](ductility.md), [electrically conductive](electrical%20conductivity.md), [malleable](malleability.md)}@} |
 
 <!--/pytextgen-->
 
 <!--pytextgen generate section="ba04"--><!-- The following content is generated at 2024-01-04T20:17:52.603049+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←coins, jewellery
-- coins, jewellery→:::←electrical and electronic components
-- electrical and electronic components→:::←_(end)_
+- _(begin)_→::@::←coins, jewellery
+- coins, jewellery→::@::←electrical and electronic components
+- electrical and electronic components→::@::←_(end)_
 
 <!--/pytextgen-->
 

@@ -37,11 +37,11 @@ return await memorize_seq(
 
 <!--pytextgen generate section="b923ed"--><!-- The following content is generated at 2024-01-04T20:17:51.706624+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←Observe
-- Observe→:::←Record
-- Record→:::←Analyze
-- Analyze→:::←Conclude
-- Conclude→:::←_(end)_
+- _(begin)_→::@::←Observe
+- Observe→::@::←Record
+- Record→::@::←Analyze
+- Analyze→::@::←Conclude
+- Conclude→::@::←_(end)_
 
 <!--/pytextgen-->
 

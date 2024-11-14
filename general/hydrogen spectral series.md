@@ -8,7 +8,7 @@ tags:
 
 # hydrogen spectral series
 
-The first three series are {{the [Lyman series](Lyman%20series.md) ([ultraviolet](ultraviolet.md)), [Balmer series](Balmer%20series.md) ([visible](visible%20spectrum.md)), and the [Paschen series](#Paschen%20series%20(Bohr%20series,%20_n′_%20=%203)) ([infrared](infrared.md))}}.
+The first three series are {@{the [Lyman series](Lyman%20series.md) ([ultraviolet](ultraviolet.md)), [Balmer series](Balmer%20series.md) ([visible](visible%20spectrum.md)), and the [Paschen series](#Paschen%20series%20(Bohr%20series,%20_n′_%20=%203)) ([infrared](infrared.md))}@}.
 
 ## references
 

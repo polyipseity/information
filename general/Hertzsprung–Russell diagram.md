@@ -17,19 +17,19 @@ tags:
 
 # Hertzsprung–Russell diagram
 
-The __Hertzsprung–Russell diagram__ (abbreviated as __H–R diagram__, __HR diagram__ or __HRD__) is {{a [scatter plot](scatter%20plot.md) of [stars](star.md) showing the relationship between the stars' [absolute magnitudes](absolute%20magnitude.md) or [luminosities](luminosity.md) and their [stellar classifications](stellar%20classification.md) or [effective temperatures](effective%20temperature.md)}}. The diagram was created {{independently in 1911 by [Ejnar Hertzsprung](Ejnar%20Hertzsprung.md) and by [Henry Norris Russell](Henry%20Norris%20Russell.md) in 1913}}, and represented a major step towards {{an understanding of [stellar evolution](stellar%20evolution.md)}}.
+The __Hertzsprung–Russell diagram__ (abbreviated as __H–R diagram__, __HR diagram__ or __HRD__) is {@{a [scatter plot](scatter%20plot.md) of [stars](star.md) showing the relationship between the stars' [absolute magnitudes](absolute%20magnitude.md) or [luminosities](luminosity.md) and their [stellar classifications](stellar%20classification.md) or [effective temperatures](effective%20temperature.md)}@}. The diagram was created {@{independently in 1911 by [Ejnar Hertzsprung](Ejnar%20Hertzsprung.md) and by [Henry Norris Russell](Henry%20Norris%20Russell.md) in 1913}@}, and represented a major step towards {@{an understanding of [stellar evolution](stellar%20evolution.md)}@}.
 
 ## forms of diagram
 
-There are {{several forms of the Hertzsprung–Russell diagram, and the [nomenclature](nomenclature.md) is not very well defined}}. All forms share the same general layout: {{[stars](star.md) of greater [luminosity](luminosity.md) are toward the top of the diagram, and stars with higher surface [temperature](temperature.md) are toward the left side of the diagram}}.
+There are {@{several forms of the Hertzsprung–Russell diagram, and the [nomenclature](nomenclature.md) is not very well defined}@}. All forms share the same general layout: {@{[stars](star.md) of greater [luminosity](luminosity.md) are toward the top of the diagram, and stars with higher surface [temperature](temperature.md) are toward the left side of the diagram}@}.
 
-The original diagram displayed {{the [spectral type](stellar%20classification.md#spectral%20type) of [stars](star.md) on the horizontal axis and the [absolute visual magnitude](absolute%20magnitude.md) on the vertical axis}}.
+The original diagram displayed {@{the [spectral type](stellar%20classification.md#spectral%20type) of [stars](star.md) on the horizontal axis and the [absolute visual magnitude](absolute%20magnitude.md) on the vertical axis}@}.
 
-Another form of the diagram plots {{the effective surface [temperature](temperature.md) of the [star](star.md) on one axis and the [luminosity](luminosity.md) of the star on the other}}, almost invariably {{in a [log–log plot](log–log%20plot.md)}}.
+Another form of the diagram plots {@{the effective surface [temperature](temperature.md) of the [star](star.md) on one axis and the [luminosity](luminosity.md) of the star on the other}@}, almost invariably {@{in a [log–log plot](log–log%20plot.md)}@}.
 
 ## interpretation
 
-Most of the [stars](star.md) occupy {{the region in the diagram along the longest diagonal line called the [main sequence](main%20sequence.md)}}. During the stage of their lives in which stars are found on the main sequence line, they are {{[fusing hydrogen](proton–proton%20chain.md) in their cores}}.
+Most of the [stars](star.md) occupy {@{the region in the diagram along the longest diagonal line called the [main sequence](main%20sequence.md)}@}. During the stage of their lives in which stars are found on the main sequence line, they are {@{[fusing hydrogen](proton–proton%20chain.md) in their cores}@}.
 
 ## references
 

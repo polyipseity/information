@@ -13,11 +13,11 @@ tags:
 # import ../../tools/utility.py.md
 ```
 
-An __elastic modulus__ (also known as {{__modulus of elasticity__}}) is {{a measure of an object's resistance to being deformed elastically when [stress](stress%20(mechanics).md) is applied}}.
+An __elastic modulus__ (also known as {@{__modulus of elasticity__}@}) is {@{a measure of an object's resistance to being deformed elastically when [stress](stress%20(mechanics).md) is applied}@}.
 
 ## definition
 
-An elastic modulus has the form: {{$$\delta \overset {\text{def} } = \frac {\text{stress} } {\text{strain} }$$}}.
+An elastic modulus has the form: {@{$$\delta \overset {\text{def} } = \frac {\text{stress} } {\text{strain} }$$}@}.
 
 ## types of elastic modulus
 
@@ -44,7 +44,7 @@ return (
 )
 ```
 
-There are many types of elastic moduli that can be defined. The {{<!--pytextgen generate section="28ba"--><!-- The following content is generated at 2024-05-14T01:02:39.496907+08:00. Any edits will be overridden! -->4<!--/pytextgen-->}} primary ones are:
+There are many types of elastic moduli that can be defined. The {@{<!--pytextgen generate section="28ba"--><!-- The following content is generated at 2024-05-14T01:02:39.496907+08:00. Any edits will be overridden! -->4<!--/pytextgen-->}@} primary ones are:
 
 <!--pytextgen generate section="98ba"--><!-- The following content is generated at 2024-05-13T21:24:01.864042+08:00. Any edits will be overridden! -->
 
@@ -57,11 +57,11 @@ There are many types of elastic moduli that can be defined. The {{<!--pytextgen 
 
 <!--pytextgen generate section="cc19"--><!-- The following content is generated at 2024-05-13T21:24:01.873248+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←_[Young's modulus](Young's%20modulus.md)_ ($E$)
-- _[Young's modulus](Young's%20modulus.md)_ ($E$)→:::←_[bulk modulus](bulk%20modulus.md)_ ($K$)
-- _[bulk modulus](bulk%20modulus.md)_ ($K$)→:::←_[flexural modulus](flexural%20modulus.md)_ ($E_{\text{flex} }$)
-- _[flexural modulus](flexural%20modulus.md)_ ($E_{\text{flex} }$)→:::←_[shear modulus](shear%20modulus.md)_ or _modulus of rigidity_ ($G$, $S$, or $\mu$)
-- _[shear modulus](shear%20modulus.md)_ or _modulus of rigidity_ ($G$, $S$, or $\mu$)→:::←_(end)_
+- _(begin)_→::@::←_[Young's modulus](Young's%20modulus.md)_ ($E$)
+- _[Young's modulus](Young's%20modulus.md)_ ($E$)→::@::←_[bulk modulus](bulk%20modulus.md)_ ($K$)
+- _[bulk modulus](bulk%20modulus.md)_ ($K$)→::@::←_[flexural modulus](flexural%20modulus.md)_ ($E_{\text{flex} }$)
+- _[flexural modulus](flexural%20modulus.md)_ ($E_{\text{flex} }$)→::@::←_[shear modulus](shear%20modulus.md)_ or _modulus of rigidity_ ($G$, $S$, or $\mu$)
+- _[shear modulus](shear%20modulus.md)_ or _modulus of rigidity_ ($G$, $S$, or $\mu$)→::@::←_(end)_
 
 <!--/pytextgen-->
 

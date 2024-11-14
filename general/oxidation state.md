@@ -58,16 +58,16 @@ return (
 
 <!--pytextgen generate section="341d9e"--><!-- The following content is generated at 2024-01-04T20:17:52.416402+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←element in a free form: 0
-- element in a free form: 0→:::←ionic compound or ion: _charge_
-- ionic compound or ion: _charge_→:::←fluorine: -1
-- fluorine: -1→:::←(if not bonded to a lighter halogen, oxygen, or nitrogen) chlorine, bromine: -1
-- (if not bonded to a lighter halogen, oxygen, or nitrogen) chlorine, bromine: -1→:::←group I metal: +1
-- group I metal: +1→:::←group II metal: +2
-- group II metal: +2→:::←metallic hydride: -1
-- metallic hydride: -1→:::←hydrogen: +1
-- hydrogen: +1→:::←(if not bonded to oxygen or flourine) oxygen: -2
-- (if not bonded to oxygen or flourine) oxygen: -2→:::←_(end)_
+- _(begin)_→::@::←element in a free form: 0
+- element in a free form: 0→::@::←ionic compound or ion: _charge_
+- ionic compound or ion: _charge_→::@::←fluorine: -1
+- fluorine: -1→::@::←(if not bonded to a lighter halogen, oxygen, or nitrogen) chlorine, bromine: -1
+- (if not bonded to a lighter halogen, oxygen, or nitrogen) chlorine, bromine: -1→::@::←group I metal: +1
+- group I metal: +1→::@::←group II metal: +2
+- group II metal: +2→::@::←metallic hydride: -1
+- metallic hydride: -1→::@::←hydrogen: +1
+- hydrogen: +1→::@::←(if not bonded to oxygen or flourine) oxygen: -2
+- (if not bonded to oxygen or flourine) oxygen: -2→::@::←_(end)_
 
 <!--/pytextgen-->
 

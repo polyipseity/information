@@ -31,22 +31,22 @@ return await memorize_table(
 
 > | name | description |
 > |-|-|
-> | {{[atmosphere](atmosphere%20of%20Earth.md)}} | {{<ul><li>~80 km thick</li><li>gas</li></ul>}} |
-> | {{[crust](crust.md)}} | {{<ul><li>~5–70 km thick</li><li>solid [rock](rock%20(geology).md)</li></ul>}} |
-> | {{[mantle](mantle.md)}} | {{<ul><li>~2900 km thick</li><li>solid, dense rock</li></ul>}} |
-> | {{[outer core](outer%20core.md)}} | {{<ul><li>very dense liquid rock</li><li>high [temperature](temperature.md)</li></ul>}} |
-> | {{[inner core](inner%20core.md)}} | {{<ul><li>very dense solid rock</li><li>very high temperature and [pressure](pressure.md)</li></ul>}} |
+> | {@{[atmosphere](atmosphere%20of%20Earth.md)}@} | {@{<ul><li>~80 km thick</li><li>gas</li></ul>}@} |
+> | {@{[crust](crust.md)}@} | {@{<ul><li>~5–70 km thick</li><li>solid [rock](rock%20(geology).md)</li></ul>}@} |
+> | {@{[mantle](mantle.md)}@} | {@{<ul><li>~2900 km thick</li><li>solid, dense rock</li></ul>}@} |
+> | {@{[outer core](outer%20core.md)}@} | {@{<ul><li>very dense liquid rock</li><li>high [temperature](temperature.md)</li></ul>}@} |
+> | {@{[inner core](inner%20core.md)}@} | {@{<ul><li>very dense solid rock</li><li>very high temperature and [pressure](pressure.md)</li></ul>}@} |
 
 <!--/pytextgen-->
 
 <!--pytextgen generate section="239e8f"--><!-- The following content is generated at 2024-01-04T20:17:51.918666+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←[atmosphere](atmosphere%20of%20Earth.md)
-- [atmosphere](atmosphere%20of%20Earth.md)→:::←[crust](crust.md)
-- [crust](crust.md)→:::←[mantle](mantle.md)
-- [mantle](mantle.md)→:::←[outer core](outer%20core.md)
-- [outer core](outer%20core.md)→:::←[inner core](inner%20core.md)
-- [inner core](inner%20core.md)→:::←_(end)_
+- _(begin)_→::@::←[atmosphere](atmosphere%20of%20Earth.md)
+- [atmosphere](atmosphere%20of%20Earth.md)→::@::←[crust](crust.md)
+- [crust](crust.md)→::@::←[mantle](mantle.md)
+- [mantle](mantle.md)→::@::←[outer core](outer%20core.md)
+- [outer core](outer%20core.md)→::@::←[inner core](inner%20core.md)
+- [inner core](inner%20core.md)→::@::←_(end)_
 
 <!--/pytextgen-->
 

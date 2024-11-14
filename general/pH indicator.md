@@ -124,18 +124,18 @@ return (
 
 <!--pytextgen generate section="d82740"--><!-- The following content is generated at 2024-01-04T20:17:52.374886+08:00. Any edits will be overridden! -->
 
-- _(acidic)_→:::←~3.1
-- ~3.1→:::←3.1~4.4
-- 3.1~4.4→:::←4.4~
-- 4.4~→:::←_(basic)_
+- _(acidic)_→::@::←~3.1
+- ~3.1→::@::←3.1~4.4
+- 3.1~4.4→::@::←4.4~
+- 4.4~→::@::←_(basic)_
 
 <!--/pytextgen-->
 
 <!--pytextgen generate section="1389d0"--><!-- The following content is generated at 2024-07-07T16:14:39.455963+08:00. Any edits will be overridden! -->
 
-- ~3.1:::<span style="color: red;">red</span>
-- 3.1~4.4:::<span style="color: orange;">orange</span>
-- 4.4~:::<span style="color: yellow; background-color: black;">yellow</span>
+- ~3.1::@::<span style="color: red;">red</span>
+- 3.1~4.4::@::<span style="color: orange;">orange</span>
+- 4.4~::@::<span style="color: yellow; background-color: black;">yellow</span>
 
 <!--/pytextgen-->
 
@@ -153,18 +153,18 @@ return (
 
 <!--pytextgen generate section="f25a99"--><!-- The following content is generated at 2024-01-04T20:17:52.407406+08:00. Any edits will be overridden! -->
 
-- _(acidic)_→:::←~5
-- ~5→:::←5~8
-- 5~8→:::←8~
-- 8~→:::←_(basic)_
+- _(acidic)_→::@::←~5
+- ~5→::@::←5~8
+- 5~8→::@::←8~
+- 8~→::@::←_(basic)_
 
 <!--/pytextgen-->
 
 <!--pytextgen generate section="29f820"--><!-- The following content is generated at 2024-01-04T20:17:52.498475+08:00. Any edits will be overridden! -->
 
-- ~5:::<span style="color: red;">red</span>
-- 5~8:::<span style="color: purple; background-color: white;">purple</span>
-- 8~:::<span style="color: blue; background-color: white;">blue</span>
+- ~5::@::<span style="color: red;">red</span>
+- 5~8::@::<span style="color: purple; background-color: white;">purple</span>
+- 8~::@::<span style="color: blue; background-color: white;">blue</span>
 
 <!--/pytextgen-->
 
@@ -182,18 +182,18 @@ return (
 
 <!--pytextgen generate section="155d9a"--><!-- The following content is generated at 2024-01-04T20:17:52.334864+08:00. Any edits will be overridden! -->
 
-- _(acidic)_→:::←~8.3
-- ~8.3→:::←8.3~10
-- 8.3~10→:::←10~
-- 10~→:::←_(basic)_
+- _(acidic)_→::@::←~8.3
+- ~8.3→::@::←8.3~10
+- 8.3~10→::@::←10~
+- 10~→::@::←_(basic)_
 
 <!--/pytextgen-->
 
 <!--pytextgen generate section="0245d8"--><!-- The following content is generated at 2024-01-04T20:17:52.306888+08:00. Any edits will be overridden! -->
 
-- ~8.3:::colorless
-- 8.3~10:::<span style="color: lightPink;">very pale pink</span>
-- 10~:::<span style="color: pink;">pink</span>
+- ~8.3::@::colorless
+- 8.3~10::@::<span style="color: lightPink;">very pale pink</span>
+- 10~::@::<span style="color: pink;">pink</span>
 
 <!--/pytextgen-->
 

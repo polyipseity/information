@@ -15,11 +15,11 @@ tags:
 # import ../../tools/utility.py.md
 ```
 
-The __alkali metals__ {{consist of the [chemical elements](chemical%20element.md) [lithium](lithium.md) (Li), [sodium](sodium.md) (Na), [potassium](potassium.md) (K), [rubidium](rubidium.md) (Rb), [caesium](caesium.md) (Cs), and [francium](francium.md) (Fr)}}. With {{[hydrogen](hydrogen.md) (H), they constitute [group 1](group%20(periodic%20table).md#^group-1)}}. The alkali metals are {{all shiny, soft, low-[density](density.md), and highly [reactive](reactivity%20(chemistry).md)}}. Because of their high reactivity, they {{must be stored under [mineral oil](mineral%20oil.md), e.g. [paraffin oil](paraffin%20oil.md), to prevent reaction with [air](air.md)}}.
+The __alkali metals__ {@{consist of the [chemical elements](chemical%20element.md) [lithium](lithium.md) (Li), [sodium](sodium.md) (Na), [potassium](potassium.md) (K), [rubidium](rubidium.md) (Rb), [caesium](caesium.md) (Cs), and [francium](francium.md) (Fr)}@}. With {@{[hydrogen](hydrogen.md) (H), they constitute [group 1](group%20(periodic%20table).md#^group-1)}@}. The alkali metals are {@{all shiny, soft, low-[density](density.md), and highly [reactive](reactivity%20(chemistry).md)}@}. Because of their high reactivity, they {@{must be stored under [mineral oil](mineral%20oil.md), e.g. [paraffin oil](paraffin%20oil.md), to prevent reaction with [air](air.md)}@}.
 
 ## representative reactions
 
-Alkali metals {{can form [ionic compounds](ionic%20compound.md) with [nonmetals](nonmetal.md)}}.
+Alkali metals {@{can form [ionic compounds](ionic%20compound.md) with [nonmetals](nonmetal.md)}@}.
 
 ### reaction with water
 
@@ -51,22 +51,22 @@ return await memorize_map(
 
 <!--pytextgen generate section="938d"--><!-- The following content is generated at 2024-01-04T20:17:51.342355+08:00. Any edits will be overridden! -->
 
-- [lithium](lithium.md)::floats, producing hydrogen gas steadily
-- [sodium](sodium.md)::melts to a silvery ball moving about quickly on water, producing hydrogen gas rapidly
-- [potassium](potassium.md)::melts to a silvery ball moving about rapidly on water, producing hydrogen gas that spontaneously ignites
-- [rubidium](rubidium.md)::explosive
-- [caesium](caesium.md)::explosive
-- [francium](francium.md)::unknown
+- [lithium](lithium.md):@:floats, producing hydrogen gas steadily
+- [sodium](sodium.md):@:melts to a silvery ball moving about quickly on water, producing hydrogen gas rapidly
+- [potassium](potassium.md):@:melts to a silvery ball moving about rapidly on water, producing hydrogen gas that spontaneously ignites
+- [rubidium](rubidium.md):@:explosive
+- [caesium](caesium.md):@:explosive
+- [francium](francium.md):@:unknown
 
 <!--/pytextgen-->
 
 <!--pytextgen generate section="bb89"--><!-- The following content is generated at 2024-01-04T20:17:51.309364+08:00. Any edits will be overridden! -->
 
-- floats, producing hydrogen gas steadily::[lithium](lithium.md)
-- melts to a silvery ball moving about quickly on water, producing hydrogen gas rapidly::[sodium](sodium.md)
-- melts to a silvery ball moving about rapidly on water, producing hydrogen gas that spontaneously ignites::[potassium](potassium.md)
-- explosive::[rubidium](rubidium.md), [caesium](caesium.md)
-- unknown::[francium](francium.md)
+- floats, producing hydrogen gas steadily:@:[lithium](lithium.md)
+- melts to a silvery ball moving about quickly on water, producing hydrogen gas rapidly:@:[sodium](sodium.md)
+- melts to a silvery ball moving about rapidly on water, producing hydrogen gas that spontaneously ignites:@:[potassium](potassium.md)
+- explosive:@:[rubidium](rubidium.md), [caesium](caesium.md)
+- unknown:@:[francium](francium.md)
 
 <!--/pytextgen-->
 

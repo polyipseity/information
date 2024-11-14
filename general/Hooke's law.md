@@ -15,9 +15,9 @@ tags:
 
 ### linear springs
 
-Hooke's law states that {{$$F_s = kx$$ with $F_s$ in N being the [tension](tension%20(physics).md) and $x$ in m being the amount the coils are stretched from its equilibrium position}}. $k$ is the {{spring constant or stiffness in N/m}}.
+Hooke's law states that {@{$$F_s = kx$$ with $F_s$ in N being the [tension](tension%20(physics).md) and $x$ in m being the amount the coils are stretched from its equilibrium position}@}. $k$ is the {@{spring constant or stiffness in N/m}@}.
 
-This formula states that {{the springs exert a force proportional to the change in length}}. This is {{approximately true for deformations that are small compared to the entire length}}.
+This formula states that {@{the springs exert a force proportional to the change in length}@}. This is {@{approximately true for deformations that are small compared to the entire length}@}.
 
 ## references
 

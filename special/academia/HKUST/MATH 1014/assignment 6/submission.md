@@ -262,7 +262,7 @@ Find the area of the surface obtained by revolving this curve about the $x$-axis
 > \\
 > & \phantom{=} \text{surface area} \\
 > & = 4\pi \int_0^1 \! y \sqrt{1 + (y')^2} \,\mathrm{d}x \\
-> & = 4\pi \int_0^1 \! \left(1 - x^{\frac 2 3} \right)^{\frac 3 2} \sqrt{1 + \left(1 - x^{\frac 2 3} \right)x^{-\frac 2 3}} \,\mathrm{d}x \\
+> & = 4\pi \int_0^1 \! \left(1 - x^{\frac 2 3} \right)^{\frac 3 2} \sqrt{1 + \left(1 - x^{\frac 2 3} \right)x^{-\frac 2 3}@} \,\mathrm{d}x \\
 > & = 4\pi \int_0^1 \! \left(1 - x^{\frac 2 3} \right)^{\frac 3 2} x^{-\frac 1 3} \,\mathrm{d}x \\
 > & = 6\pi \int_0^1 \! (1 - x)^{\frac 3 2} \,\mathrm{d}x && \left(\text{change of variable } x^{\frac 2 3} \to x\right) \\
 > & = 6\pi \left[-\frac 2 5 (1 - x)^{\frac 5 2} \right]_0^1 \\

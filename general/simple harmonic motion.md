@@ -11,25 +11,25 @@ tags:
 
 ## dynamics
 
-The [ordinary differential equation](ordinary%20differential%20equation.md) for simple harmonic motion can be derived from {{[Newton's second law](Newton's%20laws%20of%20motion.md#second%20law) and [Hooke's law](Hooke's%20law.md)}}:
+The [ordinary differential equation](ordinary%20differential%20equation.md) for simple harmonic motion can be derived from {@{[Newton's second law](Newton's%20laws%20of%20motion.md#second%20law) and [Hooke's law](Hooke's%20law.md)}@}:
 
 > __ordinary differential equation__
 >
-> {{$$\begin{aligned} F_\mathrm{net} = m \frac{\mathrm{d}^2x}{\mathrm{d}t^2} & = -kx \\ \frac{\mathrm{d}^2x}{\mathrm{d}t^2} +\frac{k}m x & = 0 \end{aligned}$$}}
+> {@{$$\begin{aligned} F_\mathrm{net} = m \frac{\mathrm{d}^2x}{\mathrm{d}t^2} & = -kx \\ \frac{\mathrm{d}^2x}{\mathrm{d}t^2} +\frac{k}m x & = 0 \end{aligned}$$}@}
 >
 > - where
->   - [function](function%20(mathematics).md) properties: {{$F_\mathrm{net}$ is the [net force](net%20force.md), $x$ is the [displacement](displacement%20(geometry).md) from equilibrium, and $t$ is the [time](time.md)}}
->   - [oscillator](oscillation.md) properties: {{$k$ is the [spring constant](Hooke's%20law.md) and $m$ is the [mass](mass.md)}}
+>   - [function](function%20(mathematics).md) properties: {@{$F_\mathrm{net}$ is the [net force](net%20force.md), $x$ is the [displacement](displacement%20(geometry).md) from equilibrium, and $t$ is the [time](time.md)}@}
+>   - [oscillator](oscillation.md) properties: {@{$k$ is the [spring constant](Hooke's%20law.md) and $m$ is the [mass](mass.md)}@}
 
 For better physical meaning, it can be rewritten as:
 
 > __ordinary differential equation, rewritten__
 >
-> {{$$\frac{\mathrm{d}^2x}{\mathrm{d}t^2} + \omega^2 x = 0$$}}
+> {@{$$\frac{\mathrm{d}^2x}{\mathrm{d}t^2} + \omega^2 x = 0$$}@}
 >
 > - where
->   - [function](function%20(mathematics).md) properties: {{$x$ is the [displacement](displacement%20(geometry).md) from equilibrium and $t$ is the [time](time.md)}}
->   - [oscillator](oscillation.md) properties: {{$\omega = \sqrt{\frac{k}m}$ is the [angular frequency](angular%20frequency.md), $k$ is the [spring constant](Hooke's%20law.md), and $m$ is the [mass](mass.md)}}
+>   - [function](function%20(mathematics).md) properties: {@{$x$ is the [displacement](displacement%20(geometry).md) from equilibrium and $t$ is the [time](time.md)}@}
+>   - [oscillator](oscillation.md) properties: {@{$\omega = \sqrt{\frac{k}m}$ is the [angular frequency](angular%20frequency.md), $k$ is the [spring constant](Hooke's%20law.md), and $m$ is the [mass](mass.md)}@}
 
 Solving the [ordinary differential equation](ordinary%20differential%20equation.md):
 
@@ -57,38 +57,38 @@ x(t) & = x_0 \cos(\omega t) + \frac{v_0}\omega \sin(\omega t) \\
 
 The solution yields the [position](position%20(geometry).md) of a simple harmonic motion as a [function](function%20(mathematics).md) of [time](time.md):
 
-> {{__position as a function of time__}}
+> {@{__position as a function of time__}@}
 >
-> 1. {{$x(t)=x_0\cos(\omega{}t)+\frac{v_0}\omega\sin(\omega{}t)$}}
-> 2. {{$x(t)=A\cos(\omega{t}+\phi)$}}
+> 1. {@{$x(t)=x_0\cos(\omega{}t)+\frac{v_0}\omega\sin(\omega{}t)$}@}
+> 2. {@{$x(t)=A\cos(\omega{t}+\phi)$}@}
 >
 > where
-> - {{$k$ is the [spring constant](Hooke's%20law.md)}}
-> - {{$m$ is the object [mass](mass.md)}}
-> - {{$\omega=\sqrt{\frac{k}m}$ is the [angular frequency](angular%20frequency.md)}}
-> - {{$c=x_0-\frac{v_0}\omega{}i$ is the initial [phase space](phase%20space.md) position}}
-> - {{$A=|c|$ is the [amplitude](amplitude.md)}}
-> - {{$\phi=\arg{c}$ is the initial [phase](phase%20(waves).md)}}
+> - {@{$k$ is the [spring constant](Hooke's%20law.md)}@}
+> - {@{$m$ is the object [mass](mass.md)}@}
+> - {@{$\omega=\sqrt{\frac{k}m}$ is the [angular frequency](angular%20frequency.md)}@}
+> - {@{$c=x_0-\frac{v_0}\omega{}i$ is the initial [phase space](phase%20space.md) position}@}
+> - {@{$A=|c|$ is the [amplitude](amplitude.md)}@}
+> - {@{$\phi=\arg{c}$ is the initial [phase](phase%20(waves).md)}@}
 
 <!-- markdownlint MD028 -->
 
 > [!tip] tips
 >
-> - [mnemonic](mnemonic.md) ::: The trajectory of simple harmonic motion over [time](time.md) in a [phase space](phase%20space.md) with [position](position%20(vector).md) $x$ as the $x$-axis and negate of [velocity](velocity.md) divided by the [angular frequency](angular%20frequency.md) $-\frac{v}\omega$ as the $y$-axis is a [circle](circle.md). The circular trajectory is uniquely defined by its [amplitude](amplitude.md) $A=\sqrt{x_0^2+\left(\frac{v_0^2}\omega\right)^2}$, and its [angular frequency](angular%20frequency.md) $\omega=\sqrt{\frac{k}m}$. The initial phase can be found by finding the initial position of the system in the [phase space](phase%20space.md).
+> - [mnemonic](mnemonic.md) ::@:: The trajectory of simple harmonic motion over [time](time.md) in a [phase space](phase%20space.md) with [position](position%20(vector).md) $x$ as the $x$-axis and negate of [velocity](velocity.md) divided by the [angular frequency](angular%20frequency.md) $-\frac{v}\omega$ as the $y$-axis is a [circle](circle.md). The circular trajectory is uniquely defined by its [amplitude](amplitude.md) $A=\sqrt{x_0^2+\left(\frac{v_0^2}\omega\right)^2}$, and its [angular frequency](angular%20frequency.md) $\omega=\sqrt{\frac{k}m}$. The initial phase can be found by finding the initial position of the system in the [phase space](phase%20space.md).
 
 ## energy
 
 > __kinetic energy, potential energy, and mechanical energy energy__
 >
-> {{$$\begin{aligned} K(t) & = \frac12 k A^2 \sin^2(\omega t + \phi) \\ U(t) & = \frac12 k A^2 \cos^2(\omega t + \phi) \\ E = K + U & = \frac12 k A^2 \end{aligned}$$}}
+> {@{$$\begin{aligned} K(t) & = \frac12 k A^2 \sin^2(\omega t + \phi) \\ U(t) & = \frac12 k A^2 \cos^2(\omega t + \phi) \\ E = K + U & = \frac12 k A^2 \end{aligned}$$}@}
 >
 > where
-> - {{$k$ is the spring constant}}
-> - {{$m$ is the object [mass](mass.md)}}
-> - {{$\omega=\sqrt{\frac{k}m}$ is the [angular frequency](angular%20frequency.md)}}
-> - {{$c=x_0-\frac{v_0}\omega{}i$ is the initial [phase space](phase%20space.md) position}}
-> - {{$A=|c|$ is the [amplitude](amplitude.md)}}
-> - {{$\phi=\arg{c}$ is the initial [phase](phase%20(waves).md)}}
+> - {@{$k$ is the spring constant}@}
+> - {@{$m$ is the object [mass](mass.md)}@}
+> - {@{$\omega=\sqrt{\frac{k}m}$ is the [angular frequency](angular%20frequency.md)}@}
+> - {@{$c=x_0-\frac{v_0}\omega{}i$ is the initial [phase space](phase%20space.md) position}@}
+> - {@{$A=|c|$ is the [amplitude](amplitude.md)}@}
+> - {@{$\phi=\arg{c}$ is the initial [phase](phase%20(waves).md)}@}
 
 For [kinetic energy](kinetic%20energy.md) $K$ at [time](time.md) $t$:
 
@@ -121,33 +121,33 @@ E & = K + U \\
 
 > __mass on a string__
 >
-> {{$$\begin{aligned} \vec{F} & = -k \vec{x} \\ \omega & = \sqrt{\frac k m} \\ T & = 2\pi \sqrt{\frac m k} \end{aligned}$$}}
+> {@{$$\begin{aligned} \vec{F} & = -k \vec{x} \\ \omega & = \sqrt{\frac k m} \\ T & = 2\pi \sqrt{\frac m k} \end{aligned}$$}@}
 >
 > - where
->     - output properties: {{$\vec{F}$ is the [force](force.md), $\omega$ is the [angular velocity](angular%20velocity.md), and $T$ is the period}}
->     - [spring](spring%20(device).md) properties: {{$m$ is the [mass](mass.md), and $k$ is the [spring constant](Hooke's%20law.md)}}
+>     - output properties: {@{$\vec{F}$ is the [force](force.md), $\omega$ is the [angular velocity](angular%20velocity.md), and $T$ is the period}@}
+>     - [spring](spring%20(device).md) properties: {@{$m$ is the [mass](mass.md), and $k$ is the [spring constant](Hooke's%20law.md)}@}
 
 ### mass of a simple pendulum
 
-> __mass of a simple pendulum {{for small angles}}__
+> __mass of a simple pendulum {@{for small angles}@}__
 >
-> {{$$\begin{aligned} \vec{\tau} & = -mgl \hat{n} \sin \theta \approx -mgl \theta \hat{n} \\ \omega_\mathrm{approx} & = \sqrt{\frac {mgl} {ml^2} } = \sqrt{\frac g l} \\ T_\mathrm{approx} & = 2\pi \sqrt{\frac l g} \end{aligned}$$}}
+> {@{$$\begin{aligned} \vec{\tau} & = -mgl \hat{n} \sin \theta \approx -mgl \theta \hat{n} \\ \omega_\mathrm{approx} & = \sqrt{\frac {mgl} {ml^2} } = \sqrt{\frac g l} \\ T_\mathrm{approx} & = 2\pi \sqrt{\frac l g} \end{aligned}$$}@}
 >
 > - where
->     - output properties: {{$\vec{\tau}$ is the [torque](torque.md), $\omega_\mathrm{approx}$ is the approximate [angular velocity](angular%20velocity.md), and $T_\mathrm{approx}$ is the approximate period}}
->     - [pendulum](pendulum.md) properties: {{$m$ is the [mass](mass.md), $g$ is the [gravitational acceleration](gravitational%20acceleration.md), and $l$ is the pendulum length}}
->     - intermediate variables: {{$\hat{n}$ is the [unit vector](unit%20vector.md) of $\vec{\tau}$ and $\theta$ is the pendulum angle from equilibrium}}
+>     - output properties: {@{$\vec{\tau}$ is the [torque](torque.md), $\omega_\mathrm{approx}$ is the approximate [angular velocity](angular%20velocity.md), and $T_\mathrm{approx}$ is the approximate period}@}
+>     - [pendulum](pendulum.md) properties: {@{$m$ is the [mass](mass.md), $g$ is the [gravitational acceleration](gravitational%20acceleration.md), and $l$ is the pendulum length}@}
+>     - intermediate variables: {@{$\hat{n}$ is the [unit vector](unit%20vector.md) of $\vec{\tau}$ and $\theta$ is the pendulum angle from equilibrium}@}
 
 ### mass of a physical pendulum
 
-> __mass of a physical pendulum {{for small angles}}__
+> __mass of a physical pendulum {@{for small angles}@}__
 >
-> {{$$\begin{aligned} \vec{\tau} & = -mgl \hat{n} \sin \theta \approx -mgl \theta \hat{n} \\ \omega_\mathrm{approx} & = \sqrt{\frac {mgl} I} \\ T_\mathrm{approx} & = 2\pi \sqrt{\frac I {mgl} } \end{aligned}$$}}
+> {@{$$\begin{aligned} \vec{\tau} & = -mgl \hat{n} \sin \theta \approx -mgl \theta \hat{n} \\ \omega_\mathrm{approx} & = \sqrt{\frac {mgl} I} \\ T_\mathrm{approx} & = 2\pi \sqrt{\frac I {mgl} } \end{aligned}$$}@}
 >
 > - where
->     - output properties: {{$\vec{\tau}$ is the [torque](torque.md), $\omega_\mathrm{approx}$ is the approximate [angular velocity](angular%20velocity.md), and $T_\mathrm{approx}$ is the approximate period}}
->     - [pendulum](pendulum.md) properties: {{$m$ is the [mass](mass.md), $g$ is the [gravitational acceleration](gravitational%20acceleration.md), $l$ is the pendulum length, $I$ is the [moment of inertia](moment%20of%20inertia.md) of the pendulum including the load}}
->     - intermediate variables: {{$\hat{n}$ is the [unit vector](unit%20vector.md) of $\vec{\tau}$ and $\theta$ is the pendulum angle from equilibrium}}
+>     - output properties: {@{$\vec{\tau}$ is the [torque](torque.md), $\omega_\mathrm{approx}$ is the approximate [angular velocity](angular%20velocity.md), and $T_\mathrm{approx}$ is the approximate period}@}
+>     - [pendulum](pendulum.md) properties: {@{$m$ is the [mass](mass.md), $g$ is the [gravitational acceleration](gravitational%20acceleration.md), $l$ is the pendulum length, $I$ is the [moment of inertia](moment%20of%20inertia.md) of the pendulum including the load}@}
+>     - intermediate variables: {@{$\hat{n}$ is the [unit vector](unit%20vector.md) of $\vec{\tau}$ and $\theta$ is the pendulum angle from equilibrium}@}
 
 ## references
 

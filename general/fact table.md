@@ -13,25 +13,25 @@ tags:
 
 > [!example] transactional fact table examples
 >
-> A {{transactional fact table}} example. The rows are {{the transactions}}, while the columns are {{the transaction properties}}.
+> A {@{transactional fact table}@} example. The rows are {@{the transactions}@}, while the columns are {@{the transaction properties}@}.
 >
-> | {{part}} | {{supplier}} | {{customer}} | {{price}} |
+> | {@{part}@} | {@{supplier}@} | {@{customer}@} | {@{price}@} |
 > |:--------:|:------------:|:------------:|:---------:|
 > | p1       | s1           | c1           | 4         |
 > | p3       | s1           | c2           | 3         |
 > | p2       | s3           | c1           | 7         |
 >
-> The table above can also be represented as {{a [OLAP cube](OLAP%20cube.md) (also called [data cube](data%20cube.md))}}.
+> The table above can also be represented as {@{a [OLAP cube](OLAP%20cube.md) (also called [data cube](data%20cube.md))}@}.
 >
-> The fact table can be {{aggregated}}, such as {{averaging, maximum, minimum, and summing}}:
+> The fact table can be {@{aggregated}@}, such as {@{averaging, maximum, minimum, and summing}@}:
 >
-> | {{part}} | {{customer}} | {{sum of price over suppliers}} |
+> | {@{part}@} | {@{customer}@} | {@{sum of price over suppliers}@} |
 > |:--------:|:------------:|:-------------------------------:|
 > | p1       | c1           | 4                               |
 > | p3       | c2           | 3                               |
 > | p2       | c1           | 7                               |
 >
-> | {{customer}} | {{sum of price over parts and suppliers}} |
+> | {@{customer}@} | {@{sum of price over parts and suppliers}@} |
 > |:------------:|:-----------------------------------------:|
 > | c1           | 11                                        |
 > | c2           | 3                                         |

@@ -11,7 +11,7 @@ tags:
 
 # functional differential equation
 
-A __functional differential equation__ is {{a [differential equation](differential%20equation.md) with deviating argument}}. That is, it is an equation that contains {{a [function](function%20(mathematics).md) and some of its [derivatives](derivative.md) evaluated at different argument values}}.
+A __functional differential equation__ is {@{a [differential equation](differential%20equation.md) with deviating argument}@}. That is, it is an equation that contains {@{a [function](function%20(mathematics).md) and some of its [derivatives](derivative.md) evaluated at different argument values}@}.
 
 ## references
 

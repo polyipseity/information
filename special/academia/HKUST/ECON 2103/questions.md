@@ -28,7 +28,7 @@ tags:
 > 3. the value of your time, but not the price you pay for the ticket
 > 4. neither the price of the ticket nor the value of your time
 >
-> - solution: {{1}}
+> - solution: {@{1}@}
 
 <!-- markdownlint MD028 -->
 
@@ -39,7 +39,7 @@ tags:
 > 3. the $45&nbsp;000 salary that you will be able to earn after having completed your graduate program
 > 4. the value of insurance coverage and other employee benefits you would have received if you retain your job
 >
-> - solution: {{3}}
+> - solution: {@{3}@}
 
 <!-- markdownlint MD028 -->
 
@@ -48,14 +48,14 @@ tags:
 > 1. The selling price is $65&nbsp;000 if the transmission works, otherwise $57&nbsp;000.
 > 2. The selling price is $60&nbsp;000 if the transmission works, otherwise $55&nbsp;000.
 >
-> - solution: {{1: repair and sell; 2: sell}}
-> - explanation: {{Do not consider the already spent $10&nbsp;000 as it is a sunk cost. Only consider the marginal profit, which is the selling price, perhaps subtracted by the repair cost if you decide to repair the transmission. The decision for which the marginal profit is higher is what you should do.}}
+> - solution: {@{1: repair and sell; 2: sell}@}
+> - explanation: {@{Do not consider the already spent $10&nbsp;000 as it is a sunk cost. Only consider the marginal profit, which is the selling price, perhaps subtracted by the repair cost if you decide to repair the transmission. The decision for which the marginal profit is higher is what you should do.}@}
 
 <!-- markdownlint MD028 -->
 
 > Q4. How many chicken wings should a perfectly rational person buy and eat? The chicken wings cost $5 each.
 >
-> - solution: {{The person should keep buying and eating chicken wings until the satisfaction the person gets from buying and eating an extra chicken wing (_marginal benefit_) is lower than its cost $5 (_marginal cost_). We assume that the _marginal benefit_ decreases the more chicken wings the person eats, because the person will get increasingly full. <p> By following the above, this maximizes the _net benefit_, i.e. _total benefit_ subtracted by _total cost_.}}
+> - solution: {@{The person should keep buying and eating chicken wings until the satisfaction the person gets from buying and eating an extra chicken wing (_marginal benefit_) is lower than its cost $5 (_marginal cost_). We assume that the _marginal benefit_ decreases the more chicken wings the person eats, because the person will get increasingly full. <p> By following the above, this maximizes the _net benefit_, i.e. _total benefit_ subtracted by _total cost_.}@}
 
 <!-- markdownlint MD028 -->
 
@@ -64,7 +64,7 @@ tags:
 > 1. How much food should you eat, given that you have paid?
 > 2. Should you pay for the buffet in the first place?
 >
-> - solution: {{For (1), you should still eat the same amount of food. The price you have paid for the buffet is sunk cost and should be ignored when analyzing how much food should you eat. The _marginal cost_ of food is the same, i.e, $0, and your _marginal benefit_ as a function of food consumed is also the same. The result is that you should eat the same amount of food, i.e. the amount where the _marginal benefit_ curve crosses the _marginal cost_ curve. For (2), you may change your decision. In this case, the _marginal unit_ becomes the buffet instead of its food. The _marginal benefit_ becomes the benefit of an extra buffet, which equals to the _total benefit_ of food you get in (1). The _marginal cost_ becomes the cost of an buffet (plus the _total cost_ of food in (1), but this is $0). If you change the price, the _marginal benefit_ does not change by (1), but the _marginal cost_ changes. So you may change your decision.}}
+> - solution: {@{For (1), you should still eat the same amount of food. The price you have paid for the buffet is sunk cost and should be ignored when analyzing how much food should you eat. The _marginal cost_ of food is the same, i.e, $0, and your _marginal benefit_ as a function of food consumed is also the same. The result is that you should eat the same amount of food, i.e. the amount where the _marginal benefit_ curve crosses the _marginal cost_ curve. For (2), you may change your decision. In this case, the _marginal unit_ becomes the buffet instead of its food. The _marginal benefit_ becomes the benefit of an extra buffet, which equals to the _total benefit_ of food you get in (1). The _marginal cost_ becomes the cost of an buffet (plus the _total cost_ of food in (1), but this is $0). If you change the price, the _marginal benefit_ does not change by (1), but the _marginal cost_ changes. So you may change your decision.}@}
 
 <!-- markdownlint MD028 -->
 
@@ -75,19 +75,19 @@ tags:
 > 3. don't know
 > 4. none of the above
 >
-> - solution: {{3 (_theoretically_, and 1 from _empirical_ studies)}}
-> - explanation: {{Seat belt makes one less likely to be seriously injured in accidents, but the drivers may drive faster because they feel "safer", compensating for the risk reduction. We do not know if the resulting risk is lower or higher than the resulting one _theoretically_. But from our _empirical_ studies (studies of having seat belt laws vs. not having seat belt laws in the real world), compulsory use of seat belt does reduce the no. of causality.}}
+> - solution: {@{3 (_theoretically_, and 1 from _empirical_ studies)}@}
+> - explanation: {@{Seat belt makes one less likely to be seriously injured in accidents, but the drivers may drive faster because they feel "safer", compensating for the risk reduction. We do not know if the resulting risk is lower or higher than the resulting one _theoretically_. But from our _empirical_ studies (studies of having seat belt laws vs. not having seat belt laws in the real world), compulsory use of seat belt does reduce the no. of causality.}@}
 
 <!-- markdownlint MD028 -->
 
 > Q7. Think of possible (intended or unintended) consequences for each of the following problem-and-solution pair.
 >
-> - Domestic (local) steel producers are threatened by foreign competition (imports). Let's impose a _tariff_ (fee) on importing steel. ::: The price of foreign steel may increase relative to domestic steel. Domestic steel producers may benefit from it. However, the average price of (domestic and imported) steel may rise, so downstream industries may have increased production cost and may pass them to consumers.
-> - Rents are increasing. Let's freeze rents. (This is a form of rent control.) ::: In the short term, poor people may be less likely to be evicted for their inability to pay rent. However, landlords may reduce maintenance on rental units to adapt to decreased rents. They may, in the long term, also construct fewer rental units because they are less profitable.
-> - Medical costs are high. The government decides to offset everyone's medical costs, especially for poor people. ::: People, especially the poor, may be able to benefit from more healthcare. However, medical cost may increase further due to increased demand. Taxes may go up to subsidize this increased spending, so people have less income after taxes.
-> - Commercial fishing for tuna kills dolphins. Let's require domestic fisheries to use more expensive nets that lets dolphins escape. ::: It may protect the dolphins. However, the price of domestic tuna may increase relative to foreign tuna. This means domestic fisheries may be harmed (e.g. decrease in market share). Also, the average price of (domestic and imported) tuna may rise, so consumers may need to pay more. (The effects are similar to a _tariff_ (like above), but reversed, i.e. imposed on domestic producers instead.)
-> - Drug addiction is a problem. Let's make it a non-problem by legalizing the use of drugs. ::: Drugs become more available. This lowers drug prices. People may get addicted to drugs more easily. However, it may decrease enforcement costs, regulate the drug market, and make rehabilitating drug addicts easier.
-> - Drug addiction is a problem. Let's enforce drug laws more strictly. ::: Drugs become less available. This increases drug prices. People may get addicted to drugs less easily. However, it may increase drug trafficking activity due to increased profits if succeeded, increasing enforcement costs. Drug addicts may also commit more crimes in order to get money for drugs.
+> - Domestic (local) steel producers are threatened by foreign competition (imports). Let's impose a _tariff_ (fee) on importing steel. ::@:: The price of foreign steel may increase relative to domestic steel. Domestic steel producers may benefit from it. However, the average price of (domestic and imported) steel may rise, so downstream industries may have increased production cost and may pass them to consumers.
+> - Rents are increasing. Let's freeze rents. (This is a form of rent control.) ::@:: In the short term, poor people may be less likely to be evicted for their inability to pay rent. However, landlords may reduce maintenance on rental units to adapt to decreased rents. They may, in the long term, also construct fewer rental units because they are less profitable.
+> - Medical costs are high. The government decides to offset everyone's medical costs, especially for poor people. ::@:: People, especially the poor, may be able to benefit from more healthcare. However, medical cost may increase further due to increased demand. Taxes may go up to subsidize this increased spending, so people have less income after taxes.
+> - Commercial fishing for tuna kills dolphins. Let's require domestic fisheries to use more expensive nets that lets dolphins escape. ::@:: It may protect the dolphins. However, the price of domestic tuna may increase relative to foreign tuna. This means domestic fisheries may be harmed (e.g. decrease in market share). Also, the average price of (domestic and imported) tuna may rise, so consumers may need to pay more. (The effects are similar to a _tariff_ (like above), but reversed, i.e. imposed on domestic producers instead.)
+> - Drug addiction is a problem. Let's make it a non-problem by legalizing the use of drugs. ::@:: Drugs become more available. This lowers drug prices. People may get addicted to drugs more easily. However, it may decrease enforcement costs, regulate the drug market, and make rehabilitating drug addicts easier.
+> - Drug addiction is a problem. Let's enforce drug laws more strictly. ::@:: Drugs become less available. This increases drug prices. People may get addicted to drugs less easily. However, it may increase drug trafficking activity due to increased profits if succeeded, increasing enforcement costs. Drug addicts may also commit more crimes in order to get money for drugs.
 
 ### chapter 2 lecture
 
@@ -101,8 +101,8 @@ tags:
 > 6. We need more information to decide.
 > 7. None of the above.
 >
-> - solution: {{5}}
-> - explanation: {{The first two sentences are positive. The last sentence is normative.}}
+> - solution: {@{5}@}
+> - explanation: {@{The first two sentences are positive. The last sentence is normative.}@}
 
 <!-- markdownlint MD028 -->
 
@@ -110,8 +110,8 @@ tags:
 >
 > Explain the above Randy's decision by using a graph/graphs based on the concept of marginal utility/happiness, consumer surplus and marginal cost that we discussed in lectures. (5 points)
 >
-> - graph: {{![graph](attachments/Pasted%20image%2020240922170908.png)}}
-> - solution: {{Assume Randy has bought the plan for a month. Then his marginal utility curve and marginal cost curve is as in the graph. The marginal cost is zero because he can enjoy unlimited data usage. The marginal utility decreases by assuming the law of diminishing utility. This corresponds to him using the mobile-data on urgent uses first, and then less urgent uses, and continue. The marginal utility stops at zero because (I believe) extra data usage cannot have negative marginal utility, but it does not matter for this analysis. The consumer surplus is the area between marginal utility and marginal cost, and represents the benefit of the mobile-data plan to him before he makes the decision of buying the plan. So we can infer the reason he is happy with the plan is because his consumer surplus in a month exceeds HK$800.}}
+> - graph: {@{![graph](attachments/Pasted%20image%2020240922170908.png)}@}
+> - solution: {@{Assume Randy has bought the plan for a month. Then his marginal utility curve and marginal cost curve is as in the graph. The marginal cost is zero because he can enjoy unlimited data usage. The marginal utility decreases by assuming the law of diminishing utility. This corresponds to him using the mobile-data on urgent uses first, and then less urgent uses, and continue. The marginal utility stops at zero because (I believe) extra data usage cannot have negative marginal utility, but it does not matter for this analysis. The consumer surplus is the area between marginal utility and marginal cost, and represents the benefit of the mobile-data plan to him before he makes the decision of buying the plan. So we can infer the reason he is happy with the plan is because his consumer surplus in a month exceeds HK$800.}@}
 
 <!-- markdownlint MD028 -->
 
@@ -119,8 +119,8 @@ tags:
 >
 > Explain the above Michael's decision by using a graph/graphs based on the concept of marginal utility/happiness, consumer surplus and marginal cost that we discussed in lectures. (5 points)
 >
-> - graph: {{![graph](attachments/Pasted%20image%2020240922172124.png)}}
-> - solution: {{Assume Michael has bought the plan for a month. Then his marginal utility curve and marginal cost curve is as in the graph. The marginal cost is zero until 20 GB when he uses up all his data usage, after which there is a nonzero cost (that we do not know, but assume to be flat rate). The marginal utility decreases by assuming the law of diminishing utility. This corresponds to him using the mobile-data on urgent uses first, and then less urgent uses, and continue. The marginal utility reaches zero after but not before or on 20 GB because he will use more than 20 GB data if data is free. The marginal utility stops at zero because (I believe) extra data usage cannot have negative marginal utility, but it does not matter for this analysis. The consumer surplus is the area between marginal utility and marginal cost, and represents the benefit of the mobile-data plan to him before he makes the decision of buying the plan. So we can infer the reason he is happy with the plan is because his consumer surplus in a month exceeds HK$200.}}
+> - graph: {@{![graph](attachments/Pasted%20image%2020240922172124.png)}@}
+> - solution: {@{Assume Michael has bought the plan for a month. Then his marginal utility curve and marginal cost curve is as in the graph. The marginal cost is zero until 20 GB when he uses up all his data usage, after which there is a nonzero cost (that we do not know, but assume to be flat rate). The marginal utility decreases by assuming the law of diminishing utility. This corresponds to him using the mobile-data on urgent uses first, and then less urgent uses, and continue. The marginal utility reaches zero after but not before or on 20 GB because he will use more than 20 GB data if data is free. The marginal utility stops at zero because (I believe) extra data usage cannot have negative marginal utility, but it does not matter for this analysis. The consumer surplus is the area between marginal utility and marginal cost, and represents the benefit of the mobile-data plan to him before he makes the decision of buying the plan. So we can infer the reason he is happy with the plan is because his consumer surplus in a month exceeds HK$200.}@}
 
 ### chapter 3 lecture
 
@@ -131,8 +131,8 @@ tags:
 > 3. his patience on consumption across time
 > 4. all of the above
 >
-> - solution: {{4}}
-> - explanation: {{When making an investment, one will consider its cost (1), its return (2), its risk (3), and its time needed (3). Time needed affects the _present value_ (PV) of return in the future. For example, high political instability will severely affect (3).}}
+> - solution: {@{4}@}
+> - explanation: {@{When making an investment, one will consider its cost (1), its return (2), its risk (3), and its time needed (3). Time needed affects the _present value_ (PV) of return in the future. For example, high political instability will severely affect (3).}@}
 
 <!-- markdownlint MD028 -->
 
@@ -143,8 +143,8 @@ tags:
 > 3. B is good at producing both X and Y
 > 4. all of the above
 >
-> - solution: {{4}}
-> - explanation: {{If the production–possibility frontiers (PPFs) for X and Y are both linear, then full specialization in one of the goods will always lead to the lowest marginal (or equal) opportunity cost for both A and B. Their total output will be the _largest_. <p> Note that if the PPFs are nonlinear, then full specialization may not always produce the _largest_ total output, and may or may not lead to a _larger_ total output.}}
+> - solution: {@{4}@}
+> - explanation: {@{If the production–possibility frontiers (PPFs) for X and Y are both linear, then full specialization in one of the goods will always lead to the lowest marginal (or equal) opportunity cost for both A and B. Their total output will be the _largest_. <p> Note that if the PPFs are nonlinear, then full specialization may not always produce the _largest_ total output, and may or may not lead to a _larger_ total output.}@}
 
 <!-- markdownlint MD028 -->
 
@@ -165,8 +165,8 @@ tags:
 > 3. Teresa has AA in B and better specializes in B
 > 4. Teresa has CA in B and better specializes in B
 >
-> - solution: {{4}}
-> - explanation: {{We only consider CA when thinking what to specialize. For Teresa, his/her opportunity cost for B is $$10 / 20 = 0.5~\text{A/B}$$, while that for Astor is $$30 / 30 = 1~\text{A/B}$$. So Teresa has CA in B and better specializes in B.}}
+> - solution: {@{4}@}
+> - explanation: {@{We only consider CA when thinking what to specialize. For Teresa, his/her opportunity cost for B is $$10 / 20 = 0.5~\text{A/B}$$, while that for Astor is $$30 / 30 = 1~\text{A/B}$$. So Teresa has CA in B and better specializes in B.}@}
 
 <!-- markdownlint MD028 -->
 
@@ -187,8 +187,8 @@ tags:
 > 3. Albert likes exchange and specialize in potato
 > 4. none of the above
 >
-> - solution: {{2}}
-> - explanation: {{Consider the marginal (opportunity) costs for Albert if he specializes in meat: $$16 / 24 = 2 / 3~\mathrm{potato/meat}$$. Also consider that if he specializes in potato: $$24 / 16 = 1.5~\mathrm{meat/potato}$$. If the marginal cost is lower than the marginal benefit, then Albert will exchange. In this case, if he specializes in meat, his marginal cost of meat is 2/3 potatoes per meat, which is lower than the marginal benefit of 1 potato per meat (market price) in the market. So he will specialize in meat and likes exchange.}}
+> - solution: {@{2}@}
+> - explanation: {@{Consider the marginal (opportunity) costs for Albert if he specializes in meat: $$16 / 24 = 2 / 3~\mathrm{potato/meat}$$. Also consider that if he specializes in potato: $$24 / 16 = 1.5~\mathrm{meat/potato}$$. If the marginal cost is lower than the marginal benefit, then Albert will exchange. In this case, if he specializes in meat, his marginal cost of meat is 2/3 potatoes per meat, which is lower than the marginal benefit of 1 potato per meat (market price) in the market. So he will specialize in meat and likes exchange.}@}
 
 <!-- markdownlint MD028 -->
 
@@ -199,8 +199,8 @@ tags:
 > 3. (200 airplanes, 5000 cars) and (150 airplanes, 4000 cars)
 > 4. (300 airplanes, 25000 cars) and (200 airplanes, 40000 cars)
 >
-> - solution: {{2}}
-> - explanation: {{Note that 100 cars is the marginal (opportunity) cost of an airplane. Thus, simply check if the change in airplane multiplied by -100 equals the change in cars.}}
+> - solution: {@{2}@}
+> - explanation: {@{Note that 100 cars is the marginal (opportunity) cost of an airplane. Thus, simply check if the change in airplane multiplied by -100 equals the change in cars.}@}
 
 ### chapter 4 lecture
 
@@ -211,7 +211,7 @@ tags:
 > 3. how long it take to reach the equilibrium
 > 4. none of the above
 >
-> - solution: {{2}}
+> - solution: {@{2}@}
 
 <!-- markdownlint MD028 -->
 
@@ -222,8 +222,8 @@ tags:
 > 3. both demand and supply for A increase
 > 4. demand for A increases and supply for A decreases
 >
-> - solution: {{3}}
-> - explanation: {{If demand increase, both equilibrium quantity and price increase. If supply increase, equilibrium quantity increase but equilibrium price decreases. If both happens at the same time at the right extents, then we can make it such that equilibrium quantity increase but equilibrium price remains unchanged.}}
+> - solution: {@{3}@}
+> - explanation: {@{If demand increase, both equilibrium quantity and price increase. If supply increase, equilibrium quantity increase but equilibrium price decreases. If both happens at the same time at the right extents, then we can make it such that equilibrium quantity increase but equilibrium price remains unchanged.}@}
 
 <!-- markdownlint MD028 -->
 
@@ -233,7 +233,7 @@ tags:
 > 2. The price of music downloads falls.
 > 3. The price of CDs falls.
 >
-> - solution: {{For 1, the demand curve moves to the right, as music downloads and iPods/MP3 players are complements. For 2, the demand curve does not change, only the quantity demanded increases under the _law of demand_. For 3, the demand curve moves to the left, as music downloads and CDs are substitutes.}}
+> - solution: {@{For 1, the demand curve moves to the right, as music downloads and iPods/MP3 players are complements. For 2, the demand curve does not change, only the quantity demanded increases under the _law of demand_. For 3, the demand curve moves to the left, as music downloads and CDs are substitutes.}@}
 
 <!-- markdownlint MD028 -->
 
@@ -243,7 +243,7 @@ tags:
 > 2. A technological advance allows the software to be produced at lower cost.
 > 3. Professional tax return preparers raise the price of the services they provide.
 >
-> - solution: {{For 1, the supply curve does not change, only the quantity supplied decreases under the _law of supply_. For 2, the supply curve moves to the right. For 3, the supply curve does not change, but the demand curve shifts to the left, as tax return preparation software and professional tax return preparers are complements (but not complements _in production_).}}
+> - solution: {@{For 1, the supply curve does not change, only the quantity supplied decreases under the _law of supply_. For 2, the supply curve moves to the right. For 3, the supply curve does not change, but the demand curve shifts to the left, as tax return preparation software and professional tax return preparers are complements (but not complements _in production_).}@}
 
 ### chapter 5 lecture
 
@@ -254,7 +254,7 @@ tags:
 > 3. all of the above
 > 4. none of the above
 >
-> - solution: {{1}}
+> - solution: {@{1}@}
 
 <!-- markdownlint MD028 -->
 
@@ -265,8 +265,8 @@ tags:
 > 3. consumer demand
 > 4. excess capacity
 >
-> - solution: {{3}}
-> - explanation: {{It would only affect the equilibrium price and quantity.}}
+> - solution: {@{3}@}
+> - explanation: {@{It would only affect the equilibrium price and quantity.}@}
 
 ### chapter 8 lecture
 
@@ -277,8 +277,8 @@ tags:
 > 3. both
 > 4. neither
 >
-> - solution: {{3}}
-> - explanation: {{Tax burden depends on both the elasticities of the demand and supply curve. Since neither curves are very unlikely to be perfectly elastic in the real world, both sellers and consumers bear the tax burden. However, we cannot tell the distribution of tax burden unless we have more information.}}
+> - solution: {@{3}@}
+> - explanation: {@{Tax burden depends on both the elasticities of the demand and supply curve. Since neither curves are very unlikely to be perfectly elastic in the real world, both sellers and consumers bear the tax burden. However, we cannot tell the distribution of tax burden unless we have more information.}@}
 
 <!-- markdownlint MD028 -->
 
@@ -288,7 +288,7 @@ tags:
 > 2. hotel rooms in the short run, hotel rooms in the long run
 > 3. groceries, meals at fancy restaurants
 >
-> - solution: {{For 1, breakfast cereal has more substitutes, so its demand is more elastic, thus its deadweight loss due to tax would be higher. For 2, price elasticities of both supply and demand curves are more elastic in the long run, thus the deadweight loss in the long run would be higher. For 3, groceries are necessary goods while meals at fancy restaurants are luxury goods, so the latter is more elastic, thus its deadweight loss would be higher.}}
+> - solution: {@{For 1, breakfast cereal has more substitutes, so its demand is more elastic, thus its deadweight loss due to tax would be higher. For 2, price elasticities of both supply and demand curves are more elastic in the long run, thus the deadweight loss in the long run would be higher. For 3, groceries are necessary goods while meals at fancy restaurants are luxury goods, so the latter is more elastic, thus its deadweight loss would be higher.}@}
 
 ## tutorials
 
@@ -298,22 +298,22 @@ See [Hong Kong's waste problem: what is the new charging scheme and how can it c
 
 > Q1. How would waste charging based on the amount of waste work?
 >
-> - solution: {{It increases the marginal cost of disposing waste from zero to a nonzero positive number. As a result, the marginal utility curve of disposing waste meets its marginal cost curve earlier, assuming the law of decreasing marginal utility holds. A rational person would dispose less waste.}}
+> - solution: {@{It increases the marginal cost of disposing waste from zero to a nonzero positive number. As a result, the marginal utility curve of disposing waste meets its marginal cost curve earlier, assuming the law of decreasing marginal utility holds. A rational person would dispose less waste.}@}
 
 <!-- markdownlint MD028 -->
 
 > Q2. How would waste charging by imposing a fixed fee work?
 >
-> - solution: {{It would not work. It does not increase the marginal cost of disposing waste from zero. As a result, unless the total utility of disposing waste does not exceed the initial fixed fee, a rational person would pay the fixed fee and still dispose as much as before.}}
+> - solution: {@{It would not work. It does not increase the marginal cost of disposing waste from zero. As a result, unless the total utility of disposing waste does not exceed the initial fixed fee, a rational person would pay the fixed fee and still dispose as much as before.}@}
 
 <!-- markdownlint MD028 -->
 
 > Q3. What could the problems with a waste charging scheme?
 >
-> - solution (for reference): {{Environmentally, perhaps the designated waste bags are not biodegradable. They may add to the waste instead. Operationally, it requires a lot of setup and the cooperation of citizens to implement. Socially, citizens may not like the charge and become discontent. There are many more unmentioned here...}}
+> - solution (for reference): {@{Environmentally, perhaps the designated waste bags are not biodegradable. They may add to the waste instead. Operationally, it requires a lot of setup and the cooperation of citizens to implement. Socially, citizens may not like the charge and become discontent. There are many more unmentioned here...}@}
 
 <!-- markdownlint MD028 -->
 
 > Q4. What can the Hong Kong government do to ensure successful implementation of the waste charging scheme?
 >
-> - solution (for reference): {{Introduce legislation against over-packaging and disposable utensils. Redesign public rubbish bins to discourage citizens from disposing their waste there to avoid the charge. Increase effort on education and enforcement. There are many more unmentioned here...}}
+> - solution (for reference): {@{Introduce legislation against over-packaging and disposable utensils. Redesign public rubbish bins to discourage citizens from disposing their waste there to avoid the charge. Increase effort on education and enforcement. There are many more unmentioned here...}@}

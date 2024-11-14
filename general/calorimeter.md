@@ -16,9 +16,9 @@ tags:
 # import ../../tools/utility.py.md
 ```
 
-A __calorimeter__ is {{an object used for [calorimetry](calorimetry.md)}}. It can be used to {{measure the [heat](heat.md) of [physical changes](physical%20change.md) or [chemical reactions](chemical%20reaction.md)}}.
+A __calorimeter__ is {@{an object used for [calorimetry](calorimetry.md)}@}. It can be used to {@{measure the [heat](heat.md) of [physical changes](physical%20change.md) or [chemical reactions](chemical%20reaction.md)}@}.
 
-A simple calorimeter consists of {{a [thermometer](thermometer.md) attached to a [metal](metal.md) container filled with [water](water.md) above a [combustion](combustion.md) chamber}}. For more accurate measurements, {{a bomb calorimeter can be used}}.
+A simple calorimeter consists of {@{a [thermometer](thermometer.md) attached to a [metal](metal.md) container filled with [water](water.md) above a [combustion](combustion.md) chamber}@}. For more accurate measurements, {@{a bomb calorimeter can be used}@}.
 
 ## errors
 
@@ -48,11 +48,11 @@ return await memorize_seq(
 
 <!--pytextgen generate section="2845"--><!-- The following content is generated at 2024-01-04T20:17:51.455468+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←conditions are not standard conditions
-- conditions are not standard conditions→:::←heat capacities of equipment are not accounted for
-- heat capacities of equipment are not accounted for→:::←heat loss to the surroundings
-- heat loss to the surroundings→:::←reaction is incomplete
-- reaction is incomplete→:::←_(end)_
+- _(begin)_→::@::←conditions are not standard conditions
+- conditions are not standard conditions→::@::←heat capacities of equipment are not accounted for
+- heat capacities of equipment are not accounted for→::@::←heat loss to the surroundings
+- heat loss to the surroundings→::@::←reaction is incomplete
+- reaction is incomplete→::@::←_(end)_
 
 <!--/pytextgen-->
 

@@ -35,9 +35,9 @@ tags:
 
 # minute and second of arc
 
-A __minute of arc__, __arcminute__ (__arcmin__), __arc minute__, or __minute arc__, denoted by {{the symbol `′`}}, is {{a unit of [angular](angle.md) measurement equal to 1/60 of one [degree](degree%20(angle).md)}}. Since one degree is {{1/360 of a turn, or complete rotation, one arcminute is 1/21600 of a turn}}.
+A __minute of arc__, __arcminute__ (__arcmin__), __arc minute__, or __minute arc__, denoted by {@{the symbol `′`}@}, is {@{a unit of [angular](angle.md) measurement equal to 1/60 of one [degree](degree%20(angle).md)}@}. Since one degree is {@{1/360 of a turn, or complete rotation, one arcminute is 1/21600 of a turn}@}.
 
-A __second of arc__, __arcsecond__ (__arcsec__), or __arc second__, denoted by {{the symbol `″`}}, is {{1/60 of an arcminute}}, {{1/3600 of a degree, 1/1296000 of a turn, and π/648000 (about 1/206264.8) of a [radian](radian.md)}}.
+A __second of arc__, __arcsecond__ (__arcsec__), or __arc second__, denoted by {@{the symbol `″`}@}, is {@{1/60 of an arcminute}@}, {@{1/3600 of a degree, 1/1296000 of a turn, and π/648000 (about 1/206264.8) of a [radian](radian.md)}@}.
 
 ## references
 

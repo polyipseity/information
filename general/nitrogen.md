@@ -40,18 +40,18 @@ return await memorize_table(
 
 > | name | description |
 > |-|-|
-> | {{food packaging}} | {{To prevent [food spoilage](food%20spoilage.md).}} |
-> | {{making [ammonia](ammonia.md)}} |  |
-> | {{[refrigerant](refrigerant.md)}} |  |
+> | {@{food packaging}@} | {@{To prevent [food spoilage](food%20spoilage.md).}@} |
+> | {@{making [ammonia](ammonia.md)}@} |  |
+> | {@{[refrigerant](refrigerant.md)}@} |  |
 
 <!--/pytextgen-->
 
 <!--pytextgen generate section="232ba1"--><!-- The following content is generated at 2024-01-04T20:17:52.345867+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←food packaging
-- food packaging→:::←making [ammonia](ammonia.md)
-- making [ammonia](ammonia.md)→:::←[refrigerant](refrigerant.md)
-- [refrigerant](refrigerant.md)→:::←_(end)_
+- _(begin)_→::@::←food packaging
+- food packaging→::@::←making [ammonia](ammonia.md)
+- making [ammonia](ammonia.md)→::@::←[refrigerant](refrigerant.md)
+- [refrigerant](refrigerant.md)→::@::←_(end)_
 
 <!--/pytextgen-->
 

@@ -13,7 +13,7 @@ tags:
 # import ../../tools/utility.py.md
 ```
 
-The __IUPAC nomenclature of organic chemistry__ is {{a method of naming [organic compounds](organic%20compound.md)}}. There is also the [IUPAC nomenclature of inorganic chemistry](IUPAC%20nomenclature%20of%20inorganic%20chemistry.md).
+The __IUPAC nomenclature of organic chemistry__ is {@{a method of naming [organic compounds](organic%20compound.md)}@}. There is also the [IUPAC nomenclature of inorganic chemistry](IUPAC%20nomenclature%20of%20inorganic%20chemistry.md).
 
 ## principles
 
@@ -164,19 +164,19 @@ The steps for naming an organic compound are:
 
 <!--pytextgen generate section="48dca2"--><!-- The following content is generated at 2024-01-04T20:17:52.046217+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←[identify parent hydrocarbon chain](#identify%20parent%20hydrocarbon%20chain)
-- [identify parent hydrocarbon chain](#identify%20parent%20hydrocarbon%20chain)→:::←identify parent functional group of [highest group precedence](#precedence%20of%20functional%20groups)
-- identify parent functional group of [highest group precedence](#precedence%20of%20functional%20groups)→:::←identify side-chains
-- identify side-chains→:::←identify remaining functional groups
-- identify remaining functional groups→:::←identify multiple bonds
-- identify multiple bonds→:::←[identify numbering direction](#identify%20numbering%20direction)
-- [identify numbering direction](#identify%20numbering%20direction)→:::←number and [prefix](#prefix%20for%20type%20count) substituents and bonds
-- number and [prefix](#prefix%20for%20type%20count) substituents and bonds→:::←[arrange](#arrange): prefix(es) + [prefix for carbon count](#prefix%20for%20carbon%20count) + bond(s) + suffix
-- [arrange](#arrange): prefix(es) + [prefix for carbon count](#prefix%20for%20carbon%20count) + bond(s) + suffix→:::←(optional) omit unnecessary locants
-- (optional) omit unnecessary locants→:::←[modify words for pronunciation](#modify%20words%20for%20pronunciation)
-- [modify words for pronunciation](#modify%20words%20for%20pronunciation)→:::←[modify punctuations](#modify%20punctuations)
-- [modify punctuations](#modify%20punctuations)→:::←prefix notation for _cis_–_trans_ isomerism
-- prefix notation for _cis_–_trans_ isomerism→:::←_(end)_
+- _(begin)_→::@::←[identify parent hydrocarbon chain](#identify%20parent%20hydrocarbon%20chain)
+- [identify parent hydrocarbon chain](#identify%20parent%20hydrocarbon%20chain)→::@::←identify parent functional group of [highest group precedence](#precedence%20of%20functional%20groups)
+- identify parent functional group of [highest group precedence](#precedence%20of%20functional%20groups)→::@::←identify side-chains
+- identify side-chains→::@::←identify remaining functional groups
+- identify remaining functional groups→::@::←identify multiple bonds
+- identify multiple bonds→::@::←[identify numbering direction](#identify%20numbering%20direction)
+- [identify numbering direction](#identify%20numbering%20direction)→::@::←number and [prefix](#prefix%20for%20type%20count) substituents and bonds
+- number and [prefix](#prefix%20for%20type%20count) substituents and bonds→::@::←[arrange](#arrange): prefix(es) + [prefix for carbon count](#prefix%20for%20carbon%20count) + bond(s) + suffix
+- [arrange](#arrange): prefix(es) + [prefix for carbon count](#prefix%20for%20carbon%20count) + bond(s) + suffix→::@::←(optional) omit unnecessary locants
+- (optional) omit unnecessary locants→::@::←[modify words for pronunciation](#modify%20words%20for%20pronunciation)
+- [modify words for pronunciation](#modify%20words%20for%20pronunciation)→::@::←[modify punctuations](#modify%20punctuations)
+- [modify punctuations](#modify%20punctuations)→::@::←prefix notation for _cis_–_trans_ isomerism
+- prefix notation for _cis_–_trans_ isomerism→::@::←_(end)_
 
 <!--/pytextgen-->
 
@@ -196,12 +196,12 @@ The steps for naming an organic compound are:
 
 <!--pytextgen generate section="920dca"--><!-- The following content is generated at 2024-01-04T20:17:52.176781+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←most suffix functional groups of [highest group precedence](#precedence%20of%20functional%20groups)
-- most suffix functional groups of [highest group precedence](#precedence%20of%20functional%20groups)→:::←most multiple bonds
-- most multiple bonds→:::←maximum length
-- maximum length→:::←most prefixes
-- most prefixes→:::←most single bonds
-- most single bonds→:::←_(end)_
+- _(begin)_→::@::←most suffix functional groups of [highest group precedence](#precedence%20of%20functional%20groups)
+- most suffix functional groups of [highest group precedence](#precedence%20of%20functional%20groups)→::@::←most multiple bonds
+- most multiple bonds→::@::←maximum length
+- maximum length→::@::←most prefixes
+- most prefixes→::@::←most single bonds
+- most single bonds→::@::←_(end)_
 
 <!--/pytextgen-->
 
@@ -217,10 +217,10 @@ The steps for naming an organic compound are:
 
 <!--pytextgen generate section="abacdf"--><!-- The following content is generated at 2024-01-04T20:17:52.021214+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←smallest locant for the suffix functional group
-- smallest locant for the suffix functional group→:::←smallest locant for multiple bonds
-- smallest locant for multiple bonds→:::←smallest locant for prefixes
-- smallest locant for prefixes→:::←_(end)_
+- _(begin)_→::@::←smallest locant for the suffix functional group
+- smallest locant for the suffix functional group→::@::←smallest locant for multiple bonds
+- smallest locant for multiple bonds→::@::←smallest locant for prefixes
+- smallest locant for prefixes→::@::←_(end)_
 
 <!--/pytextgen-->
 
@@ -235,9 +235,9 @@ The steps for naming an organic compound are:
 
 <!--pytextgen generate section="828019"--><!-- The following content is generated at 2024-02-17T20:15:49.262704+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←bond order: single bond, double bond, triple bond, ...
-- bond order: single bond, double bond, triple bond, ...→:::←prefix order: alphabetical order ignoring prefixes for type count
-- prefix order: alphabetical order ignoring prefixes for type count→:::←_(end)_
+- _(begin)_→::@::←bond order: single bond, double bond, triple bond, ...
+- bond order: single bond, double bond, triple bond, ...→::@::←prefix order: alphabetical order ignoring prefixes for type count
+- prefix order: alphabetical order ignoring prefixes for type count→::@::←_(end)_
 
 <!--/pytextgen-->
 
@@ -253,9 +253,9 @@ The steps for naming an organic compound are:
 
 <!--pytextgen generate section="19fc21"--><!-- The following content is generated at 2024-01-04T20:17:51.994215+08:00. Any edits will be overridden! -->
 
-- suffix ends in '-e' and next suffix starts with vowel (a, e, i, o, u):::drop '-e'
-- bond suffix is followed by prefix for type count:::keep '-e'
-- prefix for carbon count is followed by prefix for type count:::add '-a'
+- suffix ends in '-e' and next suffix starts with vowel (a, e, i, o, u)::@::drop '-e'
+- bond suffix is followed by prefix for type count::@::keep '-e'
+- prefix for carbon count is followed by prefix for type count::@::add '-a'
 
 <!--/pytextgen-->
 
@@ -271,20 +271,20 @@ The steps for naming an organic compound are:
 
 <!--pytextgen generate section="9293da"--><!-- The following content is generated at 2024-01-04T20:17:52.218337+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←commas (,) between locants
-- commas (,) between locants→:::←hyphens (-) between word and locant
-- hyphens (-) between word and locant→:::←remove (most) spaces ( )
-- remove (most) spaces ( )→:::←_(end)_
+- _(begin)_→::@::←commas (,) between locants
+- commas (,) between locants→::@::←hyphens (-) between word and locant
+- hyphens (-) between word and locant→::@::←remove (most) spaces ( )
+- remove (most) spaces ( )→::@::←_(end)_
 
 <!--/pytextgen-->
 
 ### prefix for type count
 
-See [IUPAC numerical multiplier § data](IUPAC%20numerical%20multiplier.md#data) except that {{the first one is no prefix}}.
+See [IUPAC numerical multiplier § data](IUPAC%20numerical%20multiplier.md#data) except that {@{the first one is no prefix}@}.
 
 ### prefix for carbon count
 
-See [IUPAC numerical multiplier § data](IUPAC%20numerical%20multiplier.md#data) except that {{the last character _a-_ is trimmed away and the first four are _meth-_, _eth-_, _prop-_, and _but-_}}.
+See [IUPAC numerical multiplier § data](IUPAC%20numerical%20multiplier.md#data) except that {@{the last character _a-_ is trimmed away and the first four are _meth-_, _eth-_, _prop-_, and _but-_}@}.
 
 ## functional groups
 
@@ -380,156 +380,156 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 
 <!--pytextgen generate section="a39fd2"--><!-- The following content is generated at 2024-10-09T17:40:50.193892+08:00. Any edits will be overridden! -->
 
-> {{alkane}}
+> {@{alkane}@}
 >
-> - group: {{alkyl}}
-> - formula: {{R(CH<sub>2</sub>)<sub>n</sub>H}}
-> - prefix: {{([prefix for type count](#prefix%20for%20type%20count))yl-, alkyl-}}
-> - suffix: {{-ane}}
-> - infix: {{(none), (locant)}}
-> - cyclic prefix: {{cyclo-}}
+> - group: {@{alkyl}@}
+> - formula: {@{R(CH<sub>2</sub>)<sub>n</sub>H}@}
+> - prefix: {@{([prefix for type count](#prefix%20for%20type%20count))yl-, alkyl-}@}
+> - suffix: {@{-ane}@}
+> - infix: {@{(none), (locant)}@}
+> - cyclic prefix: {@{cyclo-}@}
 
 <!-- markdownlint MD028 -->
 
-> {{alkene}}
+> {@{alkene}@}
 >
-> - group: {{alkenyl}}
-> - formula: {{R<sub>2</sub>C=CR<sub>2</sub>}}
-> - prefix: {{([prefix for type count](#prefix%20for%20type%20count))enyl-, alkenyl-}}
-> - suffix: {{-ene}}
-> - infix: {{(locant)}}
-> - cyclic prefix: {{cyclo-}}
+> - group: {@{alkenyl}@}
+> - formula: {@{R<sub>2</sub>C=CR<sub>2</sub>}@}
+> - prefix: {@{([prefix for type count](#prefix%20for%20type%20count))enyl-, alkenyl-}@}
+> - suffix: {@{-ene}@}
+> - infix: {@{(locant)}@}
+> - cyclic prefix: {@{cyclo-}@}
 
 <!-- markdownlint MD028 -->
 
-> {{alkyne}}
+> {@{alkyne}@}
 >
-> - group: {{alkynyl}}
-> - formula: {{RC≡CR'}}
-> - prefix: {{([prefix for type count](#prefix%20for%20type%20count))ynyl-, alkynyl-}}
-> - suffix: {{-yne}}
-> - infix: {{(locant)}}
-> - cyclic prefix: {{cyclo-}}
+> - group: {@{alkynyl}@}
+> - formula: {@{RC≡CR'}@}
+> - prefix: {@{([prefix for type count](#prefix%20for%20type%20count))ynyl-, alkynyl-}@}
+> - suffix: {@{-yne}@}
+> - infix: {@{(locant)}@}
+> - cyclic prefix: {@{cyclo-}@}
 
 <!-- markdownlint MD028 -->
 
-> {{benzene derivative}}
+> {@{benzene derivative}@}
 >
-> - group: {{phenyl}}
-> - formula: {{RC<sub>6</sub>H<sub>5</sub>/RPh}}
-> - prefix: {{phenyl-}}
-> - suffix: {{-benzene}}
-> - infix: {{(locant)}}
+> - group: {@{phenyl}@}
+> - formula: {@{RC<sub>6</sub>H<sub>5</sub>/RPh}@}
+> - prefix: {@{phenyl-}@}
+> - suffix: {@{-benzene}@}
+> - infix: {@{(locant)}@}
 
 <!-- markdownlint MD028 -->
 
-> {{([prefix for halogen](#affixes%20for%20halogen))alkane, haloalkane}}
+> {@{([prefix for halogen](#affixes%20for%20halogen))alkane, haloalkane}@}
 >
-> - group: {{([prefix for halogen](#affixes%20for%20halogen)), halo}}
-> - formula: {{RX}}
-> - prefix: {{([prefix for halogen](#affixes%20for%20halogen))-, halo-}}
-> - suffix: {{([suffix for halogen](#affixes%20for%20halogen))}}
-> - infix: {{(locant)}}
+> - group: {@{([prefix for halogen](#affixes%20for%20halogen)), halo}@}
+> - formula: {@{RX}@}
+> - prefix: {@{([prefix for halogen](#affixes%20for%20halogen))-, halo-}@}
+> - suffix: {@{([suffix for halogen](#affixes%20for%20halogen))}@}
+> - infix: {@{(locant)}@}
 
 <!-- markdownlint MD028 -->
 
-> {{alcohol}}
+> {@{alcohol}@}
 >
-> - group: {{hydroxyl}}
-> - formula: {{ROH}}
-> - prefix: {{hydroxy-}}
-> - suffix: {{-ol}}
-> - infix: {{(locant)}}
+> - group: {@{hydroxyl}@}
+> - formula: {@{ROH}@}
+> - prefix: {@{hydroxy-}@}
+> - suffix: {@{-ol}@}
+> - infix: {@{(locant)}@}
 
 <!-- markdownlint MD028 -->
 
-> {{ether}}
+> {@{ether}@}
 >
-> - group: {{ether}}
-> - formula: {{ROR'}}
-> - prefix: {{([prefix for carbon count](#prefix%20for%20carbon%20count))oxy- (-OR'), alkoxy- (-OR'), oxa- (-O-)}}
-> - suffix: {{ether}}
-> - infix: {{(locant)}}
+> - group: {@{ether}@}
+> - formula: {@{ROR'}@}
+> - prefix: {@{([prefix for carbon count](#prefix%20for%20carbon%20count))oxy- (-OR'), alkoxy- (-OR'), oxa- (-O-)}@}
+> - suffix: {@{ether}@}
+> - infix: {@{(locant)}@}
 
 <!-- markdownlint MD028 -->
 
-> {{aldehyde}}
+> {@{aldehyde}@}
 >
-> - group: {{aldehyde}}
-> - formula: {{RCHO}}
-> - prefix: {{oxo- (=O), formyl- (-CHO)}}
-> - suffix: {{-al (=O), -carbaldehyde (-CHO)}}
-> - infix: {{(locant)}}
+> - group: {@{aldehyde}@}
+> - formula: {@{RCHO}@}
+> - prefix: {@{oxo- (=O), formyl- (-CHO)}@}
+> - suffix: {@{-al (=O), -carbaldehyde (-CHO)}@}
+> - infix: {@{(locant)}@}
 
 <!-- markdownlint MD028 -->
 
-> {{ketone}}
+> {@{ketone}@}
 >
-> - group: {{carbonyl}}
-> - formula: {{RCOR'}}
-> - prefix: {{oxo- (=O), ([prefix for carbon count](#prefix%20for%20carbon%20count))oyl- (-COR'), alkoyl- (-COR')}}
-> - suffix: {{-one}}
-> - infix: {{(locant)}}
+> - group: {@{carbonyl}@}
+> - formula: {@{RCOR'}@}
+> - prefix: {@{oxo- (=O), ([prefix for carbon count](#prefix%20for%20carbon%20count))oyl- (-COR'), alkoyl- (-COR')}@}
+> - suffix: {@{-one}@}
+> - infix: {@{(locant)}@}
 
 <!-- markdownlint MD028 -->
 
-> {{carboxylic acid}}
+> {@{carboxylic acid}@}
 >
-> - group: {{carboxyl}}
-> - formula: {{RCOOH}}
-> - prefix: {{carboxy-}}
-> - suffix: {{-ic acid (-(=O)OH, retained), -oic acid (-(=O)OH), -carboxylic acid (-COOH)}}
-> - infix: {{(locant)}}
+> - group: {@{carboxyl}@}
+> - formula: {@{RCOOH}@}
+> - prefix: {@{carboxy-}@}
+> - suffix: {@{-ic acid (-(=O)OH, retained), -oic acid (-(=O)OH), -carboxylic acid (-COOH)}@}
+> - infix: {@{(locant)}@}
 
 <!-- markdownlint MD028 -->
 
-> {{carboxylate}}
+> {@{carboxylate}@}
 >
-> - group: {{carboxylate}}
-> - formula: {{RCOO<sup>-</sup>}}
-> - prefix: {{carboxy-}}
-> - suffix: {{-ate (retained), -oate}}
-> - infix: {{(locant)}}
+> - group: {@{carboxylate}@}
+> - formula: {@{RCOO<sup>-</sup>}@}
+> - prefix: {@{carboxy-}@}
+> - suffix: {@{-ate (retained), -oate}@}
+> - infix: {@{(locant)}@}
 
 <!-- markdownlint MD028 -->
 
-> {{alkanoyl}}
+> {@{alkanoyl}@}
 >
-> - group: {{acyl}}
-> - formula: {{RCO}}
-> - prefix: {{(none)}}
-> - suffix: {{-yl (retained), -oyl}}
-> - infix: {{(locant)}}
+> - group: {@{acyl}@}
+> - formula: {@{RCO}@}
+> - prefix: {@{(none)}@}
+> - suffix: {@{-yl (retained), -oyl}@}
+> - infix: {@{(locant)}@}
 
 <!-- markdownlint MD028 -->
 
-> {{amine}}
+> {@{amine}@}
 >
-> - group: {{amino}}
-> - formula: {{RNH<sub>2</sub>, RR'NH, R<sub>3</sub>N, R<sub>4</sub>N<sup>+</sup>}}
-> - prefix: {{amino- (RNH<sub>2</sub>/RR'NH/R<sub>3</sub>), ammonio- (R<sub>4</sub>N<sup>+</sup>)}}
-> - suffix: {{-amine (RNH<sub>2</sub>/RR'NH/R<sub>3</sub>), -ammonium (R<sub>4</sub>N<sup>+</sup>)}}
-> - infix: {{(locant) & _N_ (R'/R''/R<sub>3</sub>/R<sub>4</sub>)}}
+> - group: {@{amino}@}
+> - formula: {@{RNH<sub>2</sub>, RR'NH, R<sub>3</sub>N, R<sub>4</sub>N<sup>+</sup>}@}
+> - prefix: {@{amino- (RNH<sub>2</sub>/RR'NH/R<sub>3</sub>), ammonio- (R<sub>4</sub>N<sup>+</sup>)}@}
+> - suffix: {@{-amine (RNH<sub>2</sub>/RR'NH/R<sub>3</sub>), -ammonium (R<sub>4</sub>N<sup>+</sup>)}@}
+> - infix: {@{(locant) & _N_ (R'/R''/R<sub>3</sub>/R<sub>4</sub>)}@}
 
 <!-- markdownlint MD028 -->
 
-> {{amide}}
+> {@{amide}@}
 >
-> - group: {{amide}}
-> - formula: {{RCONH<sub>2</sub>, RCONHR', RCONR'R''}}
-> - prefix: {{amido- (-(=O)NX<sub>2</sub>), carbamoyl- (-CONX<sub>2</sub>)}}
-> - suffix: {{-amide (-(=O)NX<sub>2</sub>), carboxamide- (-CONX<sub>2</sub>)}}
-> - infix: {{(locant) & _N_ (R', R'')}}
+> - group: {@{amide}@}
+> - formula: {@{RCONH<sub>2</sub>, RCONHR', RCONR'R''}@}
+> - prefix: {@{amido- (-(=O)NX<sub>2</sub>), carbamoyl- (-CONX<sub>2</sub>)}@}
+> - suffix: {@{-amide (-(=O)NX<sub>2</sub>), carboxamide- (-CONX<sub>2</sub>)}@}
+> - infix: {@{(locant) & _N_ (R', R'')}@}
 
 <!-- markdownlint MD028 -->
 
-> {{nitrile}}
+> {@{nitrile}@}
 >
-> - group: {{nitrile}}
-> - formula: {{RCN}}
-> - prefix: {{cyano-}}
-> - suffix: {{-nitrile (≡N)/-onitrile (≡N, replace -oic), -carbonitrile (-CN)}}
-> - infix: {{(locant)}}
+> - group: {@{nitrile}@}
+> - formula: {@{RCN}@}
+> - prefix: {@{cyano-}@}
+> - suffix: {@{-nitrile (≡N)/-onitrile (≡N, replace -oic), -carbonitrile (-CN)}@}
+> - infix: {@{(locant)}@}
 
 <!--/pytextgen-->
 
@@ -570,10 +570,10 @@ return (
 
 > | element | prefix | suffix |
 > |-|-|-|
-> | fluorine | {{fluoro-}} | {{fluoride}} |
-> | chlorine | {{chloro-}} | {{chloride}} |
-> | bromine | {{bromo-}} | {{bromide}} |
-> | iodine | {{iodo-}} | {{iodide}} |
+> | fluorine | {@{fluoro-}@} | {@{fluoride}@} |
+> | chlorine | {@{chloro-}@} | {@{chloride}@} |
+> | bromine | {@{bromo-}@} | {@{bromide}@} |
+> | iodine | {@{iodo-}@} | {@{iodide}@} |
 
 <!--/pytextgen-->
 
@@ -627,16 +627,16 @@ return (
 
 <!--pytextgen generate section="ad92c1"--><!-- The following content is generated at 2024-01-04T20:17:52.277346+08:00. Any edits will be overridden! -->
 
-- _(highest)_→:::←cation
-- cation→:::←carboxylic acid
-- carboxylic acid→:::←carboxylic acid derivative
-- carboxylic acid derivative→:::←nitrile
-- nitrile→:::←aldehyde
-- aldehyde→:::←ketone
-- ketone→:::←alcohol
-- alcohol→:::←hydroperoxide
-- hydroperoxide→:::←amine
-- amine→:::←_(lowest)_
+- _(highest)_→::@::←cation
+- cation→::@::←carboxylic acid
+- carboxylic acid→::@::←carboxylic acid derivative
+- carboxylic acid derivative→::@::←nitrile
+- nitrile→::@::←aldehyde
+- aldehyde→::@::←ketone
+- ketone→::@::←alcohol
+- alcohol→::@::←hydroperoxide
+- hydroperoxide→::@::←amine
+- amine→::@::←_(lowest)_
 
 <!--/pytextgen-->
 
@@ -662,22 +662,22 @@ return await memorize_table(
 
 > | trivial name | systematic name |
 > |-|-|
-> | {{[acetic acid](acetic%20acid.md)}} | {{ethanoic acid}} |
-> | {{[acetone](acetone.md)}} | {{propanone}} |
-> | {{[chloroform](chloroform.md)}} | {{trichloromethane}} |
-> | {{[formaldehyde](formaldehyde.md)}} | {{methanal}} |
-> | {{[isopropyl alcohol](isopropyl%20alochol.md)}} | {{propan-2-ol}} |
+> | {@{[acetic acid](acetic%20acid.md)}@} | {@{ethanoic acid}@} |
+> | {@{[acetone](acetone.md)}@} | {@{propanone}@} |
+> | {@{[chloroform](chloroform.md)}@} | {@{trichloromethane}@} |
+> | {@{[formaldehyde](formaldehyde.md)}@} | {@{methanal}@} |
+> | {@{[isopropyl alcohol](isopropyl%20alochol.md)}@} | {@{propan-2-ol}@} |
 
 <!--/pytextgen-->
 
 <!--pytextgen generate section="dd91"--><!-- The following content is generated at 2024-01-04T20:17:52.316866+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←[acetic acid](acetic%20acid.md)
-- [acetic acid](acetic%20acid.md)→:::←[acetone](acetone.md)
-- [acetone](acetone.md)→:::←[chloroform](chloroform.md)
-- [chloroform](chloroform.md)→:::←[formaldehyde](formaldehyde.md)
-- [formaldehyde](formaldehyde.md)→:::←[isopropyl alcohol](isopropyl%20alochol.md)
-- [isopropyl alcohol](isopropyl%20alochol.md)→:::←_(end)_
+- _(begin)_→::@::←[acetic acid](acetic%20acid.md)
+- [acetic acid](acetic%20acid.md)→::@::←[acetone](acetone.md)
+- [acetone](acetone.md)→::@::←[chloroform](chloroform.md)
+- [chloroform](chloroform.md)→::@::←[formaldehyde](formaldehyde.md)
+- [formaldehyde](formaldehyde.md)→::@::←[isopropyl alcohol](isopropyl%20alochol.md)
+- [isopropyl alcohol](isopropyl%20alochol.md)→::@::←_(end)_
 
 <!--/pytextgen-->
 

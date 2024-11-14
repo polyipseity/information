@@ -11,13 +11,13 @@ tags:
 
 # current ratio
 
-The __current ratio__ is {{an liquidity ratio that measures whether a firm has enough resources to meet its short-term obligations}}. It is {{the ratio of a firm's [current assets](current%20asset.md) to its [current liabilities](current%20liability.md), $\frac{\text{⁠Current Assets} } {\text{Current Liabilities} }$}}⁠.
+The __current ratio__ is {@{an liquidity ratio that measures whether a firm has enough resources to meet its short-term obligations}@}. It is {@{the ratio of a firm's [current assets](current%20asset.md) to its [current liabilities](current%20liability.md), $\frac{\text{⁠Current Assets} } {\text{Current Liabilities} }$}@}⁠.
 
-The current ratio is an indication of {{a firm's [accounting liquidity](accounting%20liquidity.md)}}. Acceptable current ratios {{vary across industries}}.<sup>[\[1\]](#^ref-1)</sup> Generally, high current ratio are regarded as {{better than low current ratios, as an indication of whether a company can pay a [creditor](creditor.md) back}}. However, if {{a company's current ratio is too high}}, it may {{indicate that the company is not efficiently using its current assets}}.<sup>[\[2\]](#^ref-2)</sup>
+The current ratio is an indication of {@{a firm's [accounting liquidity](accounting%20liquidity.md)}@}. Acceptable current ratios {@{vary across industries}@}.<sup>[\[1\]](#^ref-1)</sup> Generally, high current ratio are regarded as {@{better than low current ratios, as an indication of whether a company can pay a [creditor](creditor.md) back}@}. However, if {@{a company's current ratio is too high}@}, it may {@{indicate that the company is not efficiently using its current assets}@}.<sup>[\[2\]](#^ref-2)</sup>
 
-{{A current ratio of less than 1}} indicates that {{the company may have problems meeting its short-term obligations}}.<sup>[\[3\]](#^ref-3)</sup> However, if {{inventory turns into cash much more rapidly than the accounts payable become due}}, then {{the firm's current ratio can comfortably remain less than one}}.<sup>[\[4\]](#^ref-4)</sup> Low current ratios can also be {{justified for businesses that can collect cash from customers long before they need to pay their suppliers}}.
+{@{A current ratio of less than 1}@} indicates that {@{the company may have problems meeting its short-term obligations}@}.<sup>[\[3\]](#^ref-3)</sup> However, if {@{inventory turns into cash much more rapidly than the accounts payable become due}@}, then {@{the firm's current ratio can comfortably remain less than one}@}.<sup>[\[4\]](#^ref-4)</sup> Low current ratios can also be {@{justified for businesses that can collect cash from customers long before they need to pay their suppliers}@}.
 
-To {{determine liquidity}}, {{the [quick ratio](quick%20ratio.md)}} is also used, which {{excludes current assets that may not be easily liquidated, like prepaid expenses and inventory}}.<sup>[\[5\]](#^ref-5)</sup>
+To {@{determine liquidity}@}, {@{the [quick ratio](quick%20ratio.md)}@} is also used, which {@{excludes current assets that may not be easily liquidated, like prepaid expenses and inventory}@}.<sup>[\[5\]](#^ref-5)</sup>
 
 ## see also
 

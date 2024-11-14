@@ -40,10 +40,10 @@ A good way to satisfy the third normal form is by following the below three rule
 
 <!--pytextgen generate section="3ffa"--><!-- The following content is generated at 2024-01-04T20:17:52.886708+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←No duplicated data. To deduplicate data, move them to a new table.
-- No duplicated data. To deduplicate data, move them to a new table.→:::←Add a [primary key](primary%20key.md) column to each row. Auto-incrementing integer data types are recommended.
-- Add a [primary key](primary%20key.md) column to each row. Auto-incrementing integer data types are recommended.→:::←Reference data from other tables using the primary key. The data referecing primary keys are called "[foreign keys](foreign%20key.md)", while other non-[primary key](primary%20key.md) data are called "logical keys".
-- Reference data from other tables using the primary key. The data referecing primary keys are called "[foreign keys](foreign%20key.md)", while other non-[primary key](primary%20key.md) data are called "logical keys".→:::←_(end)_
+- _(begin)_→::@::←No duplicated data. To deduplicate data, move them to a new table.
+- No duplicated data. To deduplicate data, move them to a new table.→::@::←Add a [primary key](primary%20key.md) column to each row. Auto-incrementing integer data types are recommended.
+- Add a [primary key](primary%20key.md) column to each row. Auto-incrementing integer data types are recommended.→::@::←Reference data from other tables using the primary key. The data referecing primary keys are called "[foreign keys](foreign%20key.md)", while other non-[primary key](primary%20key.md) data are called "logical keys".
+- Reference data from other tables using the primary key. The data referecing primary keys are called "[foreign keys](foreign%20key.md)", while other non-[primary key](primary%20key.md) data are called "logical keys".→::@::←_(end)_
 
 <!--/pytextgen-->
 

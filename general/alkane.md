@@ -15,19 +15,19 @@ tags:
 # import ../../tools/utility.py.md
 ```
 
-An __alkane__ is {{an [acyclic](open-chain%20compound.md) [saturated hydrocarbon](saturated%20hydrocarbon.md)}}.
+An __alkane__ is {@{an [acyclic](open-chain%20compound.md) [saturated hydrocarbon](saturated%20hydrocarbon.md)}@}.
 
 ## physical properties
 
-Alkanes are {{[insoluble](solubility.md) in [water](water.md) but soluble in [non-polar](chemical%20polarity.md) [solvents](solvent.md)}}. Some [physical properties](physical%20property.md) gradually change along the [homologous series](homologous%20series.md). Increasingly long alkane has {{increasing [melting point](melting%20point.md), [boiling point](boiling%20point.md), [density](density.md) but not more than that of water, and [viscosity](viscosity.md)}}.
+Alkanes are {@{[insoluble](solubility.md) in [water](water.md) but soluble in [non-polar](chemical%20polarity.md) [solvents](solvent.md)}@}. Some [physical properties](physical%20property.md) gradually change along the [homologous series](homologous%20series.md). Increasingly long alkane has {@{increasing [melting point](melting%20point.md), [boiling point](boiling%20point.md), [density](density.md) but not more than that of water, and [viscosity](viscosity.md)}@}.
 
 ## chemical properties
 
-Alkanes are {{[unreactive](reactivity%20(chemistry).md)}}.
+Alkanes are {@{[unreactive](reactivity%20(chemistry).md)}@}.
 
 ### combustion
 
-All alkanes {{react with [oxygen](oxygen.md) in [air](air.md) in [combustion](combustion.md)}}. The longer the alkane, {{the harder for it to ignite}}. Without sufficient oxygen, {{[carbon monoxide](carbon%20monoxide.md) and [soot](soot.md) are produced}}.
+All alkanes {@{react with [oxygen](oxygen.md) in [air](air.md) in [combustion](combustion.md)}@}. The longer the alkane, {@{the harder for it to ignite}@}. Without sufficient oxygen, {@{[carbon monoxide](carbon%20monoxide.md) and [soot](soot.md) are produced}@}.
 
 ### halogenation
 
@@ -61,10 +61,10 @@ return await memorize_seq(
 
 <!--pytextgen generate section="102a"--><!-- The following content is generated at 2024-01-04T20:17:51.259818+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←[combustion](#combustion)
-- [combustion](#combustion)→:::←[cracking](#cracking)
-- [cracking](#cracking)→:::←[halogenation](#halogenation)
-- [halogenation](#halogenation)→:::←_(end)_
+- _(begin)_→::@::←[combustion](#combustion)
+- [combustion](#combustion)→::@::←[cracking](#cracking)
+- [cracking](#cracking)→::@::←[halogenation](#halogenation)
+- [halogenation](#halogenation)→::@::←_(end)_
 
 <!--/pytextgen-->
 

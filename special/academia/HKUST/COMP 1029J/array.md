@@ -9,17 +9,17 @@ tags:
 
 # Java array
 
-A variable can store a single value while an array can {{store multiple values}}.
+A variable can store a single value while an array can {@{store multiple values}@}.
 
 ## creation
 
-To create an array, {{enclose the multiple values in `{}`}}:
+To create an array, {@{enclose the multiple values in `{}`}@}:
 
 ```Java
 String[] aStringArray = { "Hello", ",", "world", "!" };
 ```
 
-Less ideally, an array can be {{created and initialized}} separately:
+Less ideally, an array can be {@{created and initialized}@} separately:
 
 ```Java
 String[] aStringArray = new String[4];
@@ -31,13 +31,13 @@ aStringArray[3] = "!";
 
 ## indexing
 
-To access the n-th element in an array, simply write {{`array[n-1]`}}.
+To access the n-th element in an array, simply write {@{`array[n-1]`}@}.
 
-If the index does not refer to values inside the array, like {{the index being negative, or larger than or equal to the array length}}, an {{`java.lang.ArrayIndexOutOfBoundsException` is thrown}}.
+If the index does not refer to values inside the array, like {@{the index being negative, or larger than or equal to the array length}@}, an {@{`java.lang.ArrayIndexOutOfBoundsException` is thrown}@}.
 
 ## multi-dimensional array
 
-A multi-dimensional array is simply {{an array with lower-dimensional arrays as its elements}}:
+A multi-dimensional array is simply {@{an array with lower-dimensional arrays as its elements}@}:
 
 ```Java
 boolean[][] threeByThreeSquare = {
@@ -52,7 +52,7 @@ assert threeByThreeSquare[2][1];
 
 ## length
 
-The length of an array can be determined by {{accessing the field `.length`}}:
+The length of an array can be determined by {@{accessing the field `.length`}@}:
 
 ```Java
 int[] anIntArray = new int[123];

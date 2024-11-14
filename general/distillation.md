@@ -10,17 +10,17 @@ tags:
 
 # distillation
 
-__Distillation__ is {{the process of [separating](separation%20process.md) constituents of a [liquid](liquid.md) [mixture](mixture.md) by selective [boiling](boiling.md) and [condensation](condensation.md)}}.
+__Distillation__ is {@{the process of [separating](separation%20process.md) constituents of a [liquid](liquid.md) [mixture](mixture.md) by selective [boiling](boiling.md) and [condensation](condensation.md)}@}.
 
-The distilled product is the {{_distillate_}}, while the left behind product is the {{_residue_}}.
+The distilled product is the {@{_distillate_}@}, while the left behind product is the {@{_residue_}@}.
 
 ## procedures
 
 ### simple distillation
 
-In simple distillation, {{the vapor is immediately passed into a [condenser](condenser.md)}}.
+In simple distillation, {@{the vapor is immediately passed into a [condenser](condenser.md)}@}.
 
-> {{![Simple distillation setup](../archives/Wikimedia%20Commons/Simple%20distillation%20apparatus.svg)}}
+> {@{![Simple distillation setup](../archives/Wikimedia%20Commons/Simple%20distillation%20apparatus.svg)}@}
 >
 > Simple distillation setup
 >

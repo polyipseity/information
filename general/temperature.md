@@ -9,9 +9,9 @@ tags:
 
 # temperature
 
-__Temperature__ is {{a [physical quantity](physical%20quantity.md) describing hotness and coldness}}.
+__Temperature__ is {@{a [physical quantity](physical%20quantity.md) describing hotness and coldness}@}.
 
-Elementarily, temperature can be thought of as {{the average [kinetic energy](kinetic%20energy.md) of [particles](particle.md)}}.
+Elementarily, temperature can be thought of as {@{the average [kinetic energy](kinetic%20energy.md) of [particles](particle.md)}@}.
 
 ## references
 

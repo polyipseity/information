@@ -22,25 +22,25 @@ tags:
 
 ### boiling and melting points
 
-Due to increased [polarizability](polarizability.md), haloalkanes have {{higher [boiling points](boiling%20point.md) and [melting points](melting%20point.md) than comparable [alkanes](alkane.md)}}.
+Due to increased [polarizability](polarizability.md), haloalkanes have {@{higher [boiling points](boiling%20point.md) and [melting points](melting%20point.md) than comparable [alkanes](alkane.md)}@}.
 
 ### density
 
-Density {{decreases}} with increasing size.
+Density {@{decreases}@} with increasing size.
 
 ### solubility
 
-Haloalkanes are {{[insoluble](solubility.md) in [water](water.md) but soluble in most [organic](organic%20compound.md) [solvents](solvent.md)}}.
+Haloalkanes are {@{[insoluble](solubility.md) in [water](water.md) but soluble in most [organic](organic%20compound.md) [solvents](solvent.md)}@}.
 
 ## chemical properties
 
 ### substitution
 
-To produce [amines](amine.md), haloalkanes can {{react with [ammonia](ammonia.md) to give primary amines and [hydrogen halides](hydrogen%20halide.md)}}. Likewise, [acyl halides](acyl%20halide.md) can {{react similarly to give primary [amides](amide.md)}}.
+To produce [amines](amine.md), haloalkanes can {@{react with [ammonia](ammonia.md) to give primary amines and [hydrogen halides](hydrogen%20halide.md)}@}. Likewise, [acyl halides](acyl%20halide.md) can {@{react similarly to give primary [amides](amide.md)}@}.
 
 #### hydrolysis
 
-In [hydrolysis](hydrolysis.md), primary haloalkanes react with {{[OH<sup>-</sup>](hydroxide.md) (usually from [NaOH](sodium%20hydroxide.md) or [KOH](potassium%20hydroxide.md)) to form [alcohols](alcohol.md) with heating}}.
+In [hydrolysis](hydrolysis.md), primary haloalkanes react with {@{[OH<sup>-</sup>](hydroxide.md) (usually from [NaOH](sodium%20hydroxide.md) or [KOH](potassium%20hydroxide.md)) to form [alcohols](alcohol.md) with heating}@}.
 
 ### reactions
 
@@ -64,9 +64,9 @@ return await memorize_seq(
 
 <!--pytextgen generate section="4441"--><!-- The following content is generated at 2024-01-04T20:17:51.842124+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←[hydrolysis](#hydrolysis)
-- [hydrolysis](#hydrolysis)→:::←[substitution](#substitution)
-- [substitution](#substitution)→:::←_(end)_
+- _(begin)_→::@::←[hydrolysis](#hydrolysis)
+- [hydrolysis](#hydrolysis)→::@::←[substitution](#substitution)
+- [substitution](#substitution)→::@::←_(end)_
 
 <!--/pytextgen-->
 

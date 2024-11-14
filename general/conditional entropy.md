@@ -10,7 +10,7 @@ tags:
 
 ## definition
 
-The conditional entropy of a [random variable](random%20variable.md) $Y$ given another random variable $X$ is defined as: {{$$\Eta(Y | X) = -\sum_{x \in \mathcal X, y \in \mathcal Y} p(x, y) \log \frac {p(x, y)} {p(x)} = -\sum_{x \in \mathcal X} \left( p(x) \sum_{y \in \mathcal Y} p(y | x) \log p(y | x) \right)$$, where $\mathcal X$ and $\mathcal Y$ are the [support sets](support%20(mathematics).md) (e.g. possible values of a random variable) of respectively $X$ and $Y$}}.
+The conditional entropy of a [random variable](random%20variable.md) $Y$ given another random variable $X$ is defined as: {@{$$\Eta(Y | X) = -\sum_{x \in \mathcal X, y \in \mathcal Y} p(x, y) \log \frac {p(x, y)} {p(x)} = -\sum_{x \in \mathcal X} \left( p(x) \sum_{y \in \mathcal Y} p(y | x) \log p(y | x) \right)$$, where $\mathcal X$ and $\mathcal Y$ are the [support sets](support%20(mathematics).md) (e.g. possible values of a random variable) of respectively $X$ and $Y$}@}.
 
 ## references
 

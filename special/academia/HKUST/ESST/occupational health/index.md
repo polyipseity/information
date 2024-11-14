@@ -20,60 +20,60 @@ tags:
 The content is in teaching order.
 
 - [occupational health areas](#occupational%20health%20areas)
-- occupational health services in [Hong Kong](../../../../../general/Hong%20Kong.md) ::: Under Labour Department, there is an occupational hygiene section and an occupational medicine section.
-  - occupational hygiene section ::: industrial hygienists anticipate, recognize, evaluate, and control workplace hazards
+- occupational health services in [Hong Kong](../../../../../general/Hong%20Kong.md) ::@:: Under Labour Department, there is an occupational hygiene section and an occupational medicine section.
+  - occupational hygiene section ::@:: industrial hygienists anticipate, recognize, evaluate, and control workplace hazards
   - [occupational medicine section](#occupational%20medicine%20section)
 - [occupational hazard types](#occupational%20hazard%20types)
 - [occupational hazard factors](#occupational%20hazard%20factors)
-- chemical hazards ::: dusts or particulates, gases or vapors
-  - gases or vapors hazards ::: benzene; epoxy; hydrogen sulfide, a common sewer gas; polyurethane
-  - dusts or particulates hazards ::: asbestos, mesothelioma; cement, cement contact dermatitis; silica, silicosis
+- chemical hazards ::@:: dusts or particulates, gases or vapors
+  - gases or vapors hazards ::@:: benzene; epoxy; hydrogen sulfide, a common sewer gas; polyurethane
+  - dusts or particulates hazards ::@:: asbestos, mesothelioma; cement, cement contact dermatitis; silica, silicosis
 - [physical hazards](#physical%20hazards)
-  - ultraviolet radiation ::: in decreasing wavelength (and hence increasing energy): UV-A: 400~315 nm, UV-B: 315~280 nm, UV-C: 280~100 nm
-    - ultraviolet radiation sources ::: fluorescent tubes, sun, ultraviolet lamps, welding arcs
-    - UV-A and UV-B health effects ::: skin: aging, cancer, erythema, photosensitization
-    - UV-C health effects ::: eyes: conjunctivitis, photokeratitis due to welder's flash
-    - ultraviolet radiation effect on airborne chemicals ::: chlorinated hydrocarbons to phosgene, oxygen to ozone
-  - noise ::: unwanted sound
-    - human audible frequency range ::: 20~20000 Hz
-    - noise health effects ::: communication interference, noise induced hearing loss, psychological effects
-    - noise health effect factors ::: employment length, exposure time, frequency distribution, level
-    - noise types ::: continuous, impact, intermittent
-  - temperature hazards ::: Too hot or too cold. Usually too hot for most industries.
+  - ultraviolet radiation ::@:: in decreasing wavelength (and hence increasing energy): UV-A: 400~315 nm, UV-B: 315~280 nm, UV-C: 280~100 nm
+    - ultraviolet radiation sources ::@:: fluorescent tubes, sun, ultraviolet lamps, welding arcs
+    - UV-A and UV-B health effects ::@:: skin: aging, cancer, erythema, photosensitization
+    - UV-C health effects ::@:: eyes: conjunctivitis, photokeratitis due to welder's flash
+    - ultraviolet radiation effect on airborne chemicals ::@:: chlorinated hydrocarbons to phosgene, oxygen to ozone
+  - noise ::@:: unwanted sound
+    - human audible frequency range ::@:: 20~20000 Hz
+    - noise health effects ::@:: communication interference, noise induced hearing loss, psychological effects
+    - noise health effect factors ::@:: employment length, exposure time, frequency distribution, level
+    - noise types ::@:: continuous, impact, intermittent
+  - temperature hazards ::@:: Too hot or too cold. Usually too hot for most industries.
     - [workplaces with temperature hazards](#workplaces%20with%20temperature%20hazards)
-    - heat disorders ::: heat cramps, heat exhaustion, heat rash, heat stroke
-      - heat rash ::: red spots on skin
-      - heat exhaustion ::: fainting, headache, nausea, tiredness due to water loss
-      - heat cramps ::: muscle cramps, often painful, due to core temperature increase and electrolyte loss
-      - heat stroke ::: most serious, can be fatal
+    - heat disorders ::@:: heat cramps, heat exhaustion, heat rash, heat stroke
+      - heat rash ::@:: red spots on skin
+      - heat exhaustion ::@:: fainting, headache, nausea, tiredness due to water loss
+      - heat cramps ::@:: muscle cramps, often painful, due to core temperature increase and electrolyte loss
+      - heat stroke ::@:: most serious, can be fatal
         - [heat stroke syndromes](#heat%20stroke%20syndromes)
-- biological hazards ::: animal handlers/food processors, _Streptococcus suis_ infection; healthcare/lab, tuberculosis; ventilation maintenance, [Legionnaires' Disease](../../../../../general/Legionnaires'%20Disease.md)
-  - [Legionnaires' Disease](../../../../../general/Legionnaires'%20Disease.md) ::: Usually caused by _Legionella pneumophila_. Transmitted by inhalation of aerosols. Related occupations include maintenance of systems using water. A notifiable occupational disease under the Employees' Compensation Ordinance (Cap. 282).
+- biological hazards ::@:: animal handlers/food processors, _Streptococcus suis_ infection; healthcare/lab, tuberculosis; ventilation maintenance, [Legionnaires' Disease](../../../../../general/Legionnaires'%20Disease.md)
+  - [Legionnaires' Disease](../../../../../general/Legionnaires'%20Disease.md) ::@:: Usually caused by _Legionella pneumophila_. Transmitted by inhalation of aerosols. Related occupations include maintenance of systems using water. A notifiable occupational disease under the Employees' Compensation Ordinance (Cap. 282).
     - [Legionnaires' Disease syndromes](#Legionnaires'%20Disease%20syndromes)
-- ergonomics ::: maximize comfort zone, minimize injurious forces
-  - ergonomic injuries ::: mechanical stresses or stretches, occupational cumulative trauma disorders
-    - occupational cumulative trauma disorders ::: carpal tunnel syndrome, tendinitis, tenosynovitis
-- socio-psychological hazards ::: occupational stress, workplace violence
-- particulate sizes ::: according to the [American Conference of Governmental Industrial Hygienists](../../../../../general/American%20Conference%20of%20Governmental%20Industrial%20Hygienists.md), inhalable dusts: ≤ 100 µm, thoraic dusts: ≤ 10 µm, respirable dusts: ≤ 4 µm
-- toxicity equation ::: toxicity × quantity × time
-- occupational exposure limits ::: ceiling (C), short term exposure limit (STEL), time weighted average (TWA)
-  - ceiling (C) ::: at any time
-  - short term exposure limit (STEL) ::: 15-minute average, 60-minute exposure 4 times daily
-  - time weighted average (TWA) ::: 8-hour average, repeated daily exposure
-- exposure measurement methods ::: air or surface sampling and laboratory analysis, direct reading
-  - direct reading ::: colorimetry like color detection tubes, electronic instruments
-  - air or surface and laboratory analysis ::: active sampling and passive sampling like badges
+- ergonomics ::@:: maximize comfort zone, minimize injurious forces
+  - ergonomic injuries ::@:: mechanical stresses or stretches, occupational cumulative trauma disorders
+    - occupational cumulative trauma disorders ::@:: carpal tunnel syndrome, tendinitis, tenosynovitis
+- socio-psychological hazards ::@:: occupational stress, workplace violence
+- particulate sizes ::@:: according to the [American Conference of Governmental Industrial Hygienists](../../../../../general/American%20Conference%20of%20Governmental%20Industrial%20Hygienists.md), inhalable dusts: ≤ 100 µm, thoraic dusts: ≤ 10 µm, respirable dusts: ≤ 4 µm
+- toxicity equation ::@:: toxicity × quantity × time
+- occupational exposure limits ::@:: ceiling (C), short term exposure limit (STEL), time weighted average (TWA)
+  - ceiling (C) ::@:: at any time
+  - short term exposure limit (STEL) ::@:: 15-minute average, 60-minute exposure 4 times daily
+  - time weighted average (TWA) ::@:: 8-hour average, repeated daily exposure
+- exposure measurement methods ::@:: air or surface sampling and laboratory analysis, direct reading
+  - direct reading ::@:: colorimetry like color detection tubes, electronic instruments
+  - air or surface and laboratory analysis ::@:: active sampling and passive sampling like badges
 - [hazard control hierarchy](#hazard%20control%20hierarchy)
   - personal protective equipment
-    - personal protective equipment disadvantages ::: administrative burden, expensive, physiological burden
-      - eye and face protection ::: face shields, safety glasses, safety goggles
-        - safety goggle characteristics ::: chemical splash proof, direct vent, impact resistant, indirect vent
-      - breathing protection ::: air-purifying respirators
-        - air-purifying respirator characteristics ::: full-face, half-face, negative pressure
-        - respirator fit tests ::: qualitative fit test and quantitative fit test
-      - skin protection against corrosives and solvents ::: chemical gloves, can be made from butyl, latex, nitrile, polyvinyl chloride, etc.
-        - chemical gloves precaution ::: test for leaks or pinholes, use the correct type for different chemicals
-- occupational health goals ::: protect the environment, general community, and workers' health
+    - personal protective equipment disadvantages ::@:: administrative burden, expensive, physiological burden
+      - eye and face protection ::@:: face shields, safety glasses, safety goggles
+        - safety goggle characteristics ::@:: chemical splash proof, direct vent, impact resistant, indirect vent
+      - breathing protection ::@:: air-purifying respirators
+        - air-purifying respirator characteristics ::@:: full-face, half-face, negative pressure
+        - respirator fit tests ::@:: qualitative fit test and quantitative fit test
+      - skin protection against corrosives and solvents ::@:: chemical gloves, can be made from butyl, latex, nitrile, polyvinyl chloride, etc.
+        - chemical gloves precaution ::@:: test for leaks or pinholes, use the correct type for different chemicals
+- occupational health goals ::@:: protect the environment, general community, and workers' health
 
 ## oversized data
 
@@ -109,14 +109,14 @@ pneumonia
 
 <!--pytextgen generate section="857e"--><!-- The following content is generated at 2024-02-09T10:20:46.005949+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←breathlessness
-- breathlessness→:::←cough
-- cough→:::←fever
-- fever→:::←headache
-- headache→:::←malaise
-- malaise→:::←muscle ache
-- muscle ache→:::←pneumonia
-- pneumonia→:::←_(end)_
+- _(begin)_→::@::←breathlessness
+- breathlessness→::@::←cough
+- cough→::@::←fever
+- fever→::@::←headache
+- headache→::@::←malaise
+- malaise→::@::←muscle ache
+- muscle ache→::@::←pneumonia
+- pneumonia→::@::←_(end)_
 
 <!--/pytextgen-->
 
@@ -147,11 +147,11 @@ personal protective equipment
 
 <!--pytextgen generate section="ee35"--><!-- The following content is generated at 2024-02-18T15:35:10.884856+08:00. Any edits will be overridden! -->
 
-- _(most preferable)_→:::←hazard reduction or elimination
-- hazard reduction or elimination→:::←engineering
-- engineering→:::←administration
-- administration→:::←personal protective equipment
-- personal protective equipment→:::←_(least preferable)_
+- _(most preferable)_→::@::←hazard reduction or elimination
+- hazard reduction or elimination→::@::←engineering
+- engineering→::@::←administration
+- administration→::@::←personal protective equipment
+- personal protective equipment→::@::←_(least preferable)_
 
 <!--/pytextgen-->
 
@@ -185,13 +185,13 @@ reduced sweating
 
 <!--pytextgen generate section="7832"--><!-- The following content is generated at 2024-02-09T10:20:45.926284+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←convulsions
-- convulsions→:::←dry hot skin
-- dry hot skin→:::←elevated core temperature
-- elevated core temperature→:::←high temperature
-- high temperature→:::←mental confusion
-- mental confusion→:::←reduced sweating
-- reduced sweating→:::←_(end)_
+- _(begin)_→::@::←convulsions
+- convulsions→::@::←dry hot skin
+- dry hot skin→::@::←elevated core temperature
+- elevated core temperature→::@::←high temperature
+- high temperature→::@::←mental confusion
+- mental confusion→::@::←reduced sweating
+- reduced sweating→::@::←_(end)_
 
 <!--/pytextgen-->
 
@@ -225,13 +225,13 @@ user
 
 <!--pytextgen generate section="058b"--><!-- The following content is generated at 2024-02-09T10:20:45.701708+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←control
-- control→:::←environment
-- environment→:::←equipment
-- equipment→:::←material
-- material→:::←process
-- process→:::←user
-- user→:::←_(end)_
+- _(begin)_→::@::←control
+- control→::@::←environment
+- environment→::@::←equipment
+- equipment→::@::←material
+- material→::@::←process
+- process→::@::←user
+- user→::@::←_(end)_
 
 <!--/pytextgen-->
 
@@ -265,13 +265,13 @@ socio-psychological
 
 <!--pytextgen generate section="b123"--><!-- The following content is generated at 2024-03-07T00:02:22.051287+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←biological
-- biological→:::←chemical
-- chemical→:::←ergonomic
-- ergonomic→:::←occupation-specific
-- occupation-specific→:::←physical
-- physical→:::←socio-psychological
-- socio-psychological→:::←_(end)_
+- _(begin)_→::@::←biological
+- biological→::@::←chemical
+- chemical→::@::←ergonomic
+- ergonomic→::@::←occupation-specific
+- occupation-specific→::@::←physical
+- physical→::@::←socio-psychological
+- socio-psychological→::@::←_(end)_
 
 <!--/pytextgen-->
 
@@ -305,13 +305,13 @@ workplace
 
 <!--pytextgen generate section="afb9"--><!-- The following content is generated at 2024-02-09T10:20:45.549913+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←general community environment
-- general community environment→:::←occupational hygiene
-- occupational hygiene→:::←occupational medicine
-- occupational medicine→:::←occupational rehabilitation
-- occupational rehabilitation→:::←workers
-- workers→:::←workplace
-- workplace→:::←_(end)_
+- _(begin)_→::@::←general community environment
+- general community environment→::@::←occupational hygiene
+- occupational hygiene→::@::←occupational medicine
+- occupational medicine→::@::←occupational rehabilitation
+- occupational rehabilitation→::@::←workers
+- workers→::@::←workplace
+- workplace→::@::←_(end)_
 
 <!--/pytextgen-->
 
@@ -343,12 +343,12 @@ treatment
 
 <!--pytextgen generate section="207b"--><!-- The following content is generated at 2024-02-09T10:20:45.596886+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←conduct medical clearance
-- conduct medical clearance→:::←diagnosis
-- diagnosis→:::←education
-- education→:::←promotion
-- promotion→:::←treatment
-- treatment→:::←_(end)_
+- _(begin)_→::@::←conduct medical clearance
+- conduct medical clearance→::@::←diagnosis
+- diagnosis→::@::←education
+- education→::@::←promotion
+- promotion→::@::←treatment
+- treatment→::@::←_(end)_
 
 <!--/pytextgen-->
 
@@ -382,13 +382,13 @@ vibration
 
 <!--pytextgen generate section="81ab"--><!-- The following content is generated at 2024-02-09T10:20:45.804458+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←ionizing radiation
-- ionizing radiation→:::←noise
-- noise→:::←nonionizing radiation
-- nonionizing radiation→:::←pressure
-- pressure→:::←temperature
-- temperature→:::←vibration
-- vibration→:::←_(end)_
+- _(begin)_→::@::←ionizing radiation
+- ionizing radiation→::@::←noise
+- noise→::@::←nonionizing radiation
+- nonionizing radiation→::@::←pressure
+- pressure→::@::←temperature
+- temperature→::@::←vibration
+- vibration→::@::←_(end)_
 
 <!--/pytextgen-->
 
@@ -420,11 +420,11 @@ steelworks
 
 <!--pytextgen generate section="41ab"--><!-- The following content is generated at 2024-02-09T10:20:45.843746+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←cold storages
-- cold storages→:::←glassworks
-- glassworks→:::←kitchens
-- kitchens→:::←laundries
-- laundries→:::←steelworks
-- steelworks→:::←_(end)_
+- _(begin)_→::@::←cold storages
+- cold storages→::@::←glassworks
+- glassworks→::@::←kitchens
+- kitchens→::@::←laundries
+- laundries→::@::←steelworks
+- steelworks→::@::←_(end)_
 
 <!--/pytextgen-->

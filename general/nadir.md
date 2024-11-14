@@ -9,7 +9,7 @@ tags:
 
 # nadir
 
-The __nadir__ is {{an imaginary point directly "below" a particular location, on the [celestial sphere](celestial%20sphre.md)}}. Its opposite is {{the [zenith](zenith.md)}}.
+The __nadir__ is {@{an imaginary point directly "below" a particular location, on the [celestial sphere](celestial%20sphre.md)}@}. Its opposite is {@{the [zenith](zenith.md)}@}.
 
 ## references
 

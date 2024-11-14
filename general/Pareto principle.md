@@ -12,7 +12,7 @@ tags:
 
 # Pareto principle
 
-The __Pareto principle__, also known as {{the __80/20 rule__, the __law of the vital few__, or the __principle of factor sparsity__}}, states that {{for many events, about 80% of the consequences come from 20% of the causes}}.
+The __Pareto principle__, also known as {@{the __80/20 rule__, the __law of the vital few__, or the __principle of factor sparsity__}@}, states that {@{for many events, about 80% of the consequences come from 20% of the causes}@}.
 
 ## references
 

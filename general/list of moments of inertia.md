@@ -16,11 +16,11 @@ tags:
 
 ### cuboid, axis through center
 
-- definition ::: a homogeneous [cuboid](cuboid.md) of density $\rho$, height $H$ ($a$), length $L$ ($b$), and width $W$ ($c$), axis through center
-- equation ::: $I_a=\frac1{12}m\left(b^2+c^2\right)$
-  - thin plate correction ::: use the same equation
-  - cuboid, axis through center of edge $c$ ::: $I_{a@c}=\frac1{12}m\left(4b^2+c^2\right)$
-  - thin plate with $c=0$, axis through edge $a$ ::: $I_{a@c=0}=\frac13mb^2$
+- definition ::@:: a homogeneous [cuboid](cuboid.md) of density $\rho$, height $H$ ($a$), length $L$ ($b$), and width $W$ ($c$), axis through center
+- equation ::@:: $I_a=\frac1{12}m\left(b^2+c^2\right)$
+  - thin plate correction ::@:: use the same equation
+  - cuboid, axis through center of edge $c$ ::@:: $I_{a@c}=\frac1{12}m\left(4b^2+c^2\right)$
+  - thin plate with $c=0$, axis through edge $a$ ::@:: $I_{a@c=0}=\frac13mb^2$
 - proof: $$\begin{aligned}
 m&=\rho{}HLW\\
 I_H&=\int_0^W\!\int_0^L\!\int_0^H\rho\left(\left(l-\frac{L^2}2\right)^2+\left(w-\frac{W^2}2\right)^2\right)\,\mathrm{d}h\,\mathrm{d}l\,\mathrm{d}w\\
@@ -36,10 +36,10 @@ I_W&=\frac1{12}m\left(L^2+H^2\right)\\
 
 ### cylindrical shell, axis through base center
 
-- definition ::: a homogeneous [cylindrical](cylinder.md) shell of density $\rho$, height $H$, inner radius $R_I$, and outer radius $R_O$, axis through base center
-- equation ::: $I=\frac12m\left(R_O^2+R_I^2\right)$
-  - solid cylinder ::: $I=\frac12mR_O^2$
-  - thin-walled hollow cylinder ::: $I=mR_O^2$
+- definition ::@:: a homogeneous [cylindrical](cylinder.md) shell of density $\rho$, height $H$, inner radius $R_I$, and outer radius $R_O$, axis through base center
+- equation ::@:: $I=\frac12m\left(R_O^2+R_I^2\right)$
+  - solid cylinder ::@:: $I=\frac12mR_O^2$
+  - thin-walled hollow cylinder ::@:: $I=mR_O^2$
 - proof: $$\begin{aligned}
 m&=\rho\pi{}H\left(R_O^2-R_I^2\right)\\
 I&=\int_{R_I}^{R_O}\!\int_0^H\!\int_0^{2\pi}\!\rho{}r^3\,\mathrm{d}\theta\,\mathrm{d}h\,\mathrm{d}r\\
@@ -52,11 +52,11 @@ I&=\int_{R_I}^{R_O}\!\int_0^H\!\int_0^{2\pi}\!\rho{}r^3\,\mathrm{d}\theta\,\math
 
 ### rod, axis through certain distance from one end
 
-- definition ::: a homogeneous rod of density $\rho$, length $L$, and radius $R$, axis through distance $Z$ from one end
-- equation ::: $I=\frac13m\left(L^2-3LZ+3Z^2\right)+\frac14mR^2$
-  - thin rod correction ::: use the same equation and set $R = 0$
-  - slender rod, axis through center ::: $\frac1{12}mL^2$
-  - slender rod, axis through one end ::: $\frac13mL^2$
+- definition ::@:: a homogeneous rod of density $\rho$, length $L$, and radius $R$, axis through distance $Z$ from one end
+- equation ::@:: $I=\frac13m\left(L^2-3LZ+3Z^2\right)+\frac14mR^2$
+  - thin rod correction ::@:: use the same equation and set $R = 0$
+  - slender rod, axis through center ::@:: $\frac1{12}mL^2$
+  - slender rod, axis through one end ::@:: $\frac13mL^2$
 - proof: $$\begin{aligned}
 m&=\rho\pi{}R^2L\\
 I&=\int_0^L\!\int_0^R\!\int_0^{2\pi}\!\rho\left(r^2\cos^2\theta+(z-Z)^2\right)r\,\mathrm{d}\theta\,\mathrm{d}r\,\mathrm{d}z\\
@@ -90,10 +90,10 @@ I&=\int_0^L2\!\int_0^R2\!\rho\sqrt{R^2-r^2}\left(r^2+(l-Z)^2\right)\,\mathrm{d}r
 
 ### spherical shell, axis through center
 
-- definition ::: a homogeneous [spherical](sphere.md) shell of density $\rho$, inner radius $R_I$, and outer radius $R_O$, axis through center
-- equation ::: $I=\frac25m\frac{R_O^5-R_I^5}{R_O^3-R_I^3}$
-  - solid sphere ::: $I=\frac25mR_O^2$
-  - thin-walled hollow sphere ::: $I=\frac25m\lim_{r_I\to{}R_O}\frac{R_O^5-r_I^5}{R_O^3-r_I^3}=\frac25m\lim_{r_I\to{}R_O}\frac{5r_I^4}{3r_I^2}=\frac23mR_O^2$
+- definition ::@:: a homogeneous [spherical](sphere.md) shell of density $\rho$, inner radius $R_I$, and outer radius $R_O$, axis through center
+- equation ::@:: $I=\frac25m\frac{R_O^5-R_I^5}{R_O^3-R_I^3}$
+  - solid sphere ::@:: $I=\frac25mR_O^2$
+  - thin-walled hollow sphere ::@:: $I=\frac25m\lim_{r_I\to{}R_O}\frac{R_O^5-r_I^5}{R_O^3-r_I^3}=\frac25m\lim_{r_I\to{}R_O}\frac{5r_I^4}{3r_I^2}=\frac23mR_O^2$
 - proof: $$\begin{aligned}
 m&=\frac43\rho\pi\left(R_O^3-R_I^3\right)\\
 I&=\int_{R_I}^{R_O}\!\int_0^{2\pi}\!\int_0^\pi\!\rho{}r^4\sin^3\theta\,\mathrm{d}\theta\,\mathrm{d}\phi\,\mathrm{d}r\\

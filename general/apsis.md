@@ -11,9 +11,9 @@ tags:
 
 # apsis
 
-An {{__apsis__}} (from {{[Ancient Greek](Ancient%20Greek.md) ἁψίς (hapsís) 'arch, vault'}}; pl. {{apsides}} /ˈæpsɪˌdiːz/ AP-sih-deez) is {{the farthest or nearest point in the [orbit](orbit.md) of a [planetary body](planetary-mass%20object.md) about its [primary body](primary%20body.md)}}. The __line of apsides__ is {{the line connecting the two [extreme values](maximum%20and%20minimum.md)}}.
+An {@{__apsis__}@} (from {@{[Ancient Greek](Ancient%20Greek.md) ἁψίς (hapsís) 'arch, vault'}@}; pl. {@{apsides}@} /ˈæpsɪˌdiːz/ AP-sih-deez) is {@{the farthest or nearest point in the [orbit](orbit.md) of a [planetary body](planetary-mass%20object.md) about its [primary body](primary%20body.md)}@}. The __line of apsides__ is {@{the line connecting the two [extreme values](maximum%20and%20minimum.md)}@}.
 
-Apsides pertaining to orbits around the [Sun](Sun.md) have {{distinct names to differentiate themselves from other apsides}}; these names are {{__aphelion__ for the farthest and __perihelion__ for the nearest point in the solar orbit}}.
+Apsides pertaining to orbits around the [Sun](Sun.md) have {@{distinct names to differentiate themselves from other apsides}@}; these names are {@{__aphelion__ for the farthest and __perihelion__ for the nearest point in the solar orbit}@}.
 
 ## references
 

@@ -19,78 +19,78 @@ tags:
 
 #### continuity at a point
 
-There are {{several ways}} to define whether a function is _continuous_ at a point. The most common one {{is in terms of [limits](limit%20of%20a%20function.md). A function $f$ is continuous at a point $c$ if $\lim_{x \to c} f(x) = f(c)$ or $c$ is an [isolated point](isolated%20point.md) of the [domain](domain%20of%20a%20function.md) of $f$}}.
+There are {@{several ways}@} to define whether a function is _continuous_ at a point. The most common one {@{is in terms of [limits](limit%20of%20a%20function.md). A function $f$ is continuous at a point $c$ if $\lim_{x \to c} f(x) = f(c)$ or $c$ is an [isolated point](isolated%20point.md) of the [domain](domain%20of%20a%20function.md) of $f$}@}.
 
 > [!tip] tips
 >
 > There are subtleties with the common definition, described under [§ definition in terms of limits of functions](#definition%20in%20terms%20of%20limits%20of%20functions).
 >
-> - [isolated points](isolated%20point.md) of a [set](set%20(mathematics).md) containing [reals](real%20number.md) ::: For example, $\set{0, 2}$ are [isolated points](isolated%20point.md) of $(-\infty, -12) \cup \set{0} \cup [0.5, 1) \cup \set{2} \cup [2.1, 2.11]$.
+> - [isolated points](isolated%20point.md) of a [set](set%20(mathematics).md) containing [reals](real%20number.md) ::@:: For example, $\set{0, 2}$ are [isolated points](isolated%20point.md) of $(-\infty, -12) \cup \set{0} \cup [0.5, 1) \cup \set{2} \cup [2.1, 2.11]$.
 
 #### global continuity
 
-There are {{several incompatible definitions}} of the (global) continuity of a function, depending on the nature of its domain.
+There are {@{several incompatible definitions}@} of the (global) continuity of a function, depending on the nature of its domain.
 
-A function is continuous on an open [interval](interval%20(mathematics).md) {{if the interval is contained in the [function domain](domain%20of%20a%20function.md) and the function is continuous at every interval point}}. A function is continuous on a semi-open or closed [interval](interval%20(mathematics).md) {{if the interval is contained in the [function domain](domain%20of%20a%20function.md), the function is continuous at every [interior](interior%20(topology).md) point of the interval, and the value of the function at each interval endpoint is the limit of the values of the function as the input tends to the endpoint from the interval interior}}.
+A function is continuous on an open [interval](interval%20(mathematics).md) {@{if the interval is contained in the [function domain](domain%20of%20a%20function.md) and the function is continuous at every interval point}@}. A function is continuous on a semi-open or closed [interval](interval%20(mathematics).md) {@{if the interval is contained in the [function domain](domain%20of%20a%20function.md), the function is continuous at every [interior](interior%20(topology).md) point of the interval, and the value of the function at each interval endpoint is the limit of the values of the function as the input tends to the endpoint from the interval interior}@}.
 
-A function that {{is continuous on the interval $(-\infty, +\infty)$, i.e. $\mathbb{R}$}}, is _continuous everywhere_. It is also {{often simply called a continuous function}}. Sometimes, a function that {{is continuous on its [domain](domain%20of%20a%20function.md) but not all [real](real%20number.md)}} is also called a continuous function, but it is {{not continuous everywhere}}. For example, {{[partial functions](partial%20function.md) that have a domain of all reals except at [isolated points](isolated%20point.md)}}, which are continuous in its domain. In {{contexts interested in the partial functions' behavior near exceptional points}}, they are called _discontinuous functions_ instead, confusingly.
+A function that {@{is continuous on the interval $(-\infty, +\infty)$, i.e. $\mathbb{R}$}@}, is _continuous everywhere_. It is also {@{often simply called a continuous function}@}. Sometimes, a function that {@{is continuous on its [domain](domain%20of%20a%20function.md) but not all [real](real%20number.md)}@} is also called a continuous function, but it is {@{not continuous everywhere}@}. For example, {@{[partial functions](partial%20function.md) that have a domain of all reals except at [isolated points](isolated%20point.md)}@}, which are continuous in its domain. In {@{contexts interested in the partial functions' behavior near exceptional points}@}, they are called _discontinuous functions_ instead, confusingly.
 
-A __discontinuous function__ is {{a function that is _not continuous_. By this definition, a function is either continuous or discontinuous}}.
+A __discontinuous function__ is {@{a function that is _not continuous_. By this definition, a function is either continuous or discontinuous}@}.
 
 > [!tip] tips
 >
-> - [interior](interior%20(topology).md) of a real interval ::: For $a, b \in \mathbb{R}$, $(a, b)$ is the [interior](interior%20(topology).md) of $[a, b]$, $(a, b]$, $[a, b)$, and $(a, b)$.
-> - relation of definitions between open intervals and semi-closed or closed intervals ::: One can interpret the definition for the semi-closed or closed interval differently. The function is continuous on an interval if the function is continuous on the corresponding open interval, and the endpoints $a$ satisfies $\lim_{x \to a^\pm} f(x) = f(a)$, choosing the direction such that the limit approaches the endpoint from the interval.
+> - [interior](interior%20(topology).md) of a real interval ::@:: For $a, b \in \mathbb{R}$, $(a, b)$ is the [interior](interior%20(topology).md) of $[a, b]$, $(a, b]$, $[a, b)$, and $(a, b)$.
+> - relation of definitions between open intervals and semi-closed or closed intervals ::@:: One can interpret the definition for the semi-closed or closed interval differently. The function is continuous on an interval if the function is continuous on the corresponding open interval, and the endpoints $a$ satisfies $\lim_{x \to a^\pm} f(x) = f(a)$, choosing the direction such that the limit approaches the endpoint from the interval.
 
 <!-- markdownlint MD028 -->
 
 > [!example] examples
 >
-> - empty function $\varnothing \to X$ :: It is continuous by [vacuous truth](vacuous%20truth.md). Interestingly, it is neither continuous nor discontinuous at every [real](real%20number.md), and it is continuous and it is not continuous at every point in its [domain](domain%20of%20a%20function.md) by [vacuous truth](vacuous%20truth.md).
-> - function at an [isolated point](isolated%20point.md): $f(x \in \set{0}) = 0$ :: It is continuous. Note that an isolated point is closed under the usual definition of "closed".
+> - empty function $\varnothing \to X$ :@: It is continuous by [vacuous truth](vacuous%20truth.md). Interestingly, it is neither continuous nor discontinuous at every [real](real%20number.md), and it is continuous and it is not continuous at every point in its [domain](domain%20of%20a%20function.md) by [vacuous truth](vacuous%20truth.md).
+> - function at an [isolated point](isolated%20point.md): $f(x \in \set{0}) = 0$ :@: It is continuous. Note that an isolated point is closed under the usual definition of "closed".
 
 #### discontinuity at a point
 
-A function is _discontinuous_ at a point {{if the point is in the [topological closure](closure%20(topology).md) of the [function domain](domain%20of%20a%20function.md), and either the point is not in the [function domain](domain%20of%20a%20function.md) or the function is not continuous at the point}}.
+A function is _discontinuous_ at a point {@{if the point is in the [topological closure](closure%20(topology).md) of the [function domain](domain%20of%20a%20function.md), and either the point is not in the [function domain](domain%20of%20a%20function.md) or the function is not continuous at the point}@}.
 
 > [!tip] tips
 >
-> - neither continuous nor discontinuous ::: A function can be neither continuous nor discontinuous at a point. For example, $f(x > 0) = 0$ is neither continuous nor discontinuous at $-1$. It is however discontinuous at $0$. An exaggerated example is that all [real-valued functions](real-valued%20function.md) are not defined at [Mount Everest](Mount%20Everest.md).
-> - [topological closure](closure%20(topology).md) of a real interval ::: For $a, b \in \mathbb{R}$, $[a, b]$ is the [topological closure](closure%20(topology).md) of $(a, b)$, $[a, b)$, $(a, b]$, and $[a, b]$.
+> - neither continuous nor discontinuous ::@:: A function can be neither continuous nor discontinuous at a point. For example, $f(x > 0) = 0$ is neither continuous nor discontinuous at $-1$. It is however discontinuous at $0$. An exaggerated example is that all [real-valued functions](real-valued%20function.md) are not defined at [Mount Everest](Mount%20Everest.md).
+> - [topological closure](closure%20(topology).md) of a real interval ::@:: For $a, b \in \mathbb{R}$, $[a, b]$ is the [topological closure](closure%20(topology).md) of $(a, b)$, $[a, b)$, $(a, b]$, and $[a, b]$.
 
 <!-- markdownlint MD028 -->
 
 > [!example] examples
 >
-> - empty function $\varnothing \to X$ :: It is not discontinuous at every [real](real%20number.md). However, it is discontinuous and it is not discontinuous at every point in its [domain](domain%20of%20a%20function.md) by [vacuous truth](vacuous%20truth.md).
-> - function at an [isolated point](isolated%20point.md): $f(x \in \set{0}) = 0$ at $0$ :: It is not discontinuous at $0$.
-> - $f(x \in [0, +\infty)) = \sqrt{x}$ at $0$ :: It is not discontinuous at $0$.
-> - $f(x \in (0, +\infty)) = \sqrt{x}$ at $0$ :: It is discontinuous at $0$.
-> - $f(x \in [0, +\infty)) = \sqrt{x}$ at $-1$ :: It is not discontinuous at $-1$.
+> - empty function $\varnothing \to X$ :@: It is not discontinuous at every [real](real%20number.md). However, it is discontinuous and it is not discontinuous at every point in its [domain](domain%20of%20a%20function.md) by [vacuous truth](vacuous%20truth.md).
+> - function at an [isolated point](isolated%20point.md): $f(x \in \set{0}) = 0$ at $0$ :@: It is not discontinuous at $0$.
+> - $f(x \in [0, +\infty)) = \sqrt{x}$ at $0$ :@: It is not discontinuous at $0$.
+> - $f(x \in (0, +\infty)) = \sqrt{x}$ at $0$ :@: It is discontinuous at $0$.
+> - $f(x \in [0, +\infty)) = \sqrt{x}$ at $-1$ :@: It is not discontinuous at $-1$.
 
 #### definition in terms of limits of functions
 
-A function $f$ is _continuous_ at a point $c$ {{if $$\lim_{x \to c} f(x) = f(c)$$ or $c$ is an [isolated point](isolated%20point.md) of the [domain](domain%20of%20a%20function.md) of $f$}}.
+A function $f$ is _continuous_ at a point $c$ {@{if $$\lim_{x \to c} f(x) = f(c)$$ or $c$ is an [isolated point](isolated%20point.md) of the [domain](domain%20of%20a%20function.md) of $f$}@}.
 
-Note that for endpoints of the [function domain](domain%20of%20a%20function.md), {{the [limit](limit%20of%20a%20function.md) at the endpoints only requires approaching the endpoint from the domain}}. The part about [isolated point](isolated%20point.md) is needed because {{[limit](limit%20of%20A%20function.md) is not defined for isolated points}}.
+Note that for endpoints of the [function domain](domain%20of%20a%20function.md), {@{the [limit](limit%20of%20a%20function.md) at the endpoints only requires approaching the endpoint from the domain}@}. The part about [isolated point](isolated%20point.md) is needed because {@{[limit](limit%20of%20A%20function.md) is not defined for isolated points}@}.
 
 <!-- markdownlint MD028 -->
 
 > [!example] examples
 >
-> - empty function $\varnothing \to X$ :: It is not continuous at every [real](real%20number.md). However, it is continuous and it is not continuous at every point in its [domain](domain%20of%20a%20function.md) by [vacuous truth](vacuous%20truth.md).
-> - function at an [isolated point](isolated%20point.md): $f(x \in \set{0}) = 0$ at $0$ :: It is continuous at $0$.
-> - $f(x \in [0, +\infty)) = \sqrt{x}$ at $0$ :: It is continuous at $0$.
-> - $f(x \in (0, +\infty)) = \sqrt{x}$ at $0$ :: It is not continuous at $0$.
-> - $f(x \in [0, +\infty)) = \sqrt{x}$ at $-1$ :: It is not continuous at $-1$.
+> - empty function $\varnothing \to X$ :@: It is not continuous at every [real](real%20number.md). However, it is continuous and it is not continuous at every point in its [domain](domain%20of%20a%20function.md) by [vacuous truth](vacuous%20truth.md).
+> - function at an [isolated point](isolated%20point.md): $f(x \in \set{0}) = 0$ at $0$ :@: It is continuous at $0$.
+> - $f(x \in [0, +\infty)) = \sqrt{x}$ at $0$ :@: It is continuous at $0$.
+> - $f(x \in (0, +\infty)) = \sqrt{x}$ at $0$ :@: It is not continuous at $0$.
+> - $f(x \in [0, +\infty)) = \sqrt{x}$ at $-1$ :@: It is not continuous at $-1$.
 
 ### construction of continuous functions
 
-The set of continuous functions is closed under {{addition, subtraction, multiplication; and reciprocal and division when restricting the domain to where the divisor is nonzero}}. That is, given two continuous functions $f, g: D \subseteq \mathbb{R} \to \mathbb{R}$, {{$f + g$, $f - g$, $f \cdot g$ are continuous in $D$, and $1 / g$ and $f / g$ are continuous in $D \setminus \set{x: g(x) \ne 0}$}}. The [converse](converse%20(logic).md) {{is not necessarily true, however}}. For example, {{given a discontinuous [real-valued function](real-valued%20function.md) $f$, $f + (-f) = f - f = 0$ and $f \cdot (f)^{-1} = f / f = 1$ are continuous. So the antecedent and the consequent cannot be swapped}}.
+The set of continuous functions is closed under {@{addition, subtraction, multiplication; and reciprocal and division when restricting the domain to where the divisor is nonzero}@}. That is, given two continuous functions $f, g: D \subseteq \mathbb{R} \to \mathbb{R}$, {@{$f + g$, $f - g$, $f \cdot g$ are continuous in $D$, and $1 / g$ and $f / g$ are continuous in $D \setminus \set{x: g(x) \ne 0}$}@}. The [converse](converse%20(logic).md) {@{is not necessarily true, however}@}. For example, {@{given a discontinuous [real-valued function](real-valued%20function.md) $f$, $f + (-f) = f - f = 0$ and $f \cdot (f)^{-1} = f / f = 1$ are continuous. So the antecedent and the consequent cannot be swapped}@}.
 
 > [!info]- proof of the set of continuous functions being closed under basic arithmetic operations
 >
-> - proof of the set of continuous functions being closed under basic arithmetic operations / strategy ::: For a continuous function $f(x)$, $\lvert f(x) - f(c) \rvert$ can be made to be smaller than an arbitrary small real $\epsilon$ for inputs in an interval around $c$. So setup the required inequalities, transform them, and identify expressions like $\lvert f(x) - f(c) \rvert$ in said inequalities. Claim that such expressions can be made arbitrarily small.
+> - proof of the set of continuous functions being closed under basic arithmetic operations / strategy ::@:: For a continuous function $f(x)$, $\lvert f(x) - f(c) \rvert$ can be made to be smaller than an arbitrary small real $\epsilon$ for inputs in an interval around $c$. So setup the required inequalities, transform them, and identify expressions like $\lvert f(x) - f(c) \rvert$ in said inequalities. Claim that such expressions can be made arbitrarily small.
 >
 > Using the above definitions...
 >
@@ -127,11 +127,11 @@ The set of continuous functions is closed under {{addition, subtraction, multipl
 >
 > $f / g$: Let $f'$ and $g'$ be the restriction of respectively $f$ and $g$ to $D' := \set{x \in D : g(x) \ne 0}$. Let $h := 1 / g'$. Then $h$ is continuous by above. Let $f' / g' := f' \cdot h$. Then $f' / g'$ is continuous by above, as required.
 
-Apart from basic arithmetic operations, the set of continuous functions is also closed under {{[function composition](function%20composition.md)}}. That is, {{given two continuous functions $g: D_g \subseteq \mathbb{R} \to \mathbb{R}, f: D_f \subseteq \mathbb{R} \to R_f \subseteq D_g$, then their composition $c(x): D_f \to \mathbb{R} := (g \circ f)(x) \equiv g(f(x))$ is continuous}}. The [converse](converse%20(logic).md) {{is not necessarily true, however}}. For example, {{given a discontinuous [real-valued function](real-valued%20function.md) $f$, one can let $g$ be a [constant function](constant%20function.md). Then $g \circ f$ is continuous. So the antecedent and the consequent cannot be swapped}}.
+Apart from basic arithmetic operations, the set of continuous functions is also closed under {@{[function composition](function%20composition.md)}@}. That is, {@{given two continuous functions $g: D_g \subseteq \mathbb{R} \to \mathbb{R}, f: D_f \subseteq \mathbb{R} \to R_f \subseteq D_g$, then their composition $c(x): D_f \to \mathbb{R} := (g \circ f)(x) \equiv g(f(x))$ is continuous}@}. The [converse](converse%20(logic).md) {@{is not necessarily true, however}@}. For example, {@{given a discontinuous [real-valued function](real-valued%20function.md) $f$, one can let $g$ be a [constant function](constant%20function.md). Then $g \circ f$ is continuous. So the antecedent and the consequent cannot be swapped}@}.
 
 > [!info]- proof of the set of continuous functions being closed under function composition
 >
-> - proof of the set of continuous functions being closed under function composition / strategy ::: Chain the two inequalities together to produce the required inequality.
+> - proof of the set of continuous functions being closed under function composition / strategy ::@:: Chain the two inequalities together to produce the required inequality.
 >
 > Using the above definitions...
 >

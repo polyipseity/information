@@ -14,38 +14,38 @@ tags:
 
 > __coefficient of linear thermal expansion__
 >
-> {{$$\begin{aligned} \alpha_L & = \frac1L \frac{\mathrm{d}L}{\mathrm{d}T} \\ \frac{\mathrm{d}L}L & = \alpha_L \,\mathrm{d}T \end{aligned}$$}}
+> {@{$$\begin{aligned} \alpha_L & = \frac1L \frac{\mathrm{d}L}{\mathrm{d}T} \\ \frac{\mathrm{d}L}L & = \alpha_L \,\mathrm{d}T \end{aligned}$$}@}
 >
 > - where
->   - {{$\alpha_L$ is the __coefficient of linear thermal expansion__, $L$ is the [length](length.md), and $\frac{\mathrm{d}L}{\mathrm{d}T}$ is the change of [length](length.md) $\mathrm{d}L$ per unit change in [temperature](temperature.md) $\mathrm{d}T$}}
+>   - {@{$\alpha_L$ is the __coefficient of linear thermal expansion__, $L$ is the [length](length.md), and $\frac{\mathrm{d}L}{\mathrm{d}T}$ is the change of [length](length.md) $\mathrm{d}L$ per unit change in [temperature](temperature.md) $\mathrm{d}T$}@}
 
 ### area expansion
 
 > __coefficient of area thermal expansion__
 >
-> {{$$\begin{aligned} \alpha_A & = \frac1A \frac{\mathrm{d}A}{\mathrm{d}T} \\ \frac{\mathrm{d}A}A & = \alpha_A \,\mathrm{d}T \end{aligned}$$}}
+> {@{$$\begin{aligned} \alpha_A & = \frac1A \frac{\mathrm{d}A}{\mathrm{d}T} \\ \frac{\mathrm{d}A}A & = \alpha_A \,\mathrm{d}T \end{aligned}$$}@}
 >
 > - where
->   - {{$\alpha_A$ is the __coefficient of area thermal expansion__, $A$ is the [area](area.md), and $\frac{\mathrm{d}A}{\mathrm{d}T}$ is the change of [area](area.md) $\mathrm{d}A$ per unit change in [temperature](temperature.md) $\mathrm{d}T$}}
+>   - {@{$\alpha_A$ is the __coefficient of area thermal expansion__, $A$ is the [area](area.md), and $\frac{\mathrm{d}A}{\mathrm{d}T}$ is the change of [area](area.md) $\mathrm{d}A$ per unit change in [temperature](temperature.md) $\mathrm{d}T$}@}
 
 ### volume expansion
 
 > __coefficient of volume thermal expansion__
 >
-> {{$$\begin{aligned} \alpha_V & = \frac1V \frac{\mathrm{d}V}{\mathrm{d}T} \\ \frac{\mathrm{d}V}V & = \alpha_V \,\mathrm{d}T \end{aligned}$$}}
+> {@{$$\begin{aligned} \alpha_V & = \frac1V \frac{\mathrm{d}V}{\mathrm{d}T} \\ \frac{\mathrm{d}V}V & = \alpha_V \,\mathrm{d}T \end{aligned}$$}@}
 >
 > - where
->   - {{$\alpha_V$ is the __coefficient of volume thermal expansion__, $V$ is the [volume](volume.md), and $\frac{\mathrm{d}V}{\mathrm{d}T}$ is the change of [volume](volume.md) $\mathrm{d}V$ per unit change in [temperature](temperature.md) $\mathrm{d}T$}}
+>   - {@{$\alpha_V$ is the __coefficient of volume thermal expansion__, $V$ is the [volume](volume.md), and $\frac{\mathrm{d}V}{\mathrm{d}T}$ is the change of [volume](volume.md) $\mathrm{d}V$ per unit change in [temperature](temperature.md) $\mathrm{d}T$}@}
 
 #### isotropic materials
 
 > __relations between coefficients of thermal expansion for isotropic materials__
 >
-> {{$$\begin{aligned} \alpha_A & = 2\alpha_L \\ \alpha_V & = 3\alpha_L = \frac32 \alpha_A \end{aligned}$$}}
+> {@{$$\begin{aligned} \alpha_A & = 2\alpha_L \\ \alpha_V & = 3\alpha_L = \frac32 \alpha_A \end{aligned}$$}@}
 >
 > - where
->   - {{$\alpha$ is the coefficient of thermal expansion, with the subscripts $L$, $A$, and $V$ denoting respectively [length](length.md), [area](area.md), and [volume](volume.md)}}
-> - conditions: {{isotropic materials}}
+>   - {@{$\alpha$ is the coefficient of thermal expansion, with the subscripts $L$, $A$, and $V$ denoting respectively [length](length.md), [area](area.md), and [volume](volume.md)}@}
+> - conditions: {@{isotropic materials}@}
 
 We can derive the above equations for a $n$-dimensional coefficient:
 

@@ -66,13 +66,13 @@ return (
 
 <!--pytextgen generate section="ee2f"--><!-- The following content is generated at 2024-01-04T20:17:52.556525+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←\[[parameter](#parameter)\]
-- \[[parameter](#parameter)\]→:::←\[[flags](#flags)\]
-- \[[flags](#flags)\]→:::←\[[width](#width)\]
-- \[[width](#width)\]→:::←\[.[precision](#precision)\]
-- \[.[precision](#precision)\]→:::←\[[length](#length)\]
-- \[[length](#length)\]→:::←[type](#type)
-- [type](#type)→:::←_(end)_
+- _(begin)_→::@::←\[[parameter](#parameter)\]
+- \[[parameter](#parameter)\]→::@::←\[[flags](#flags)\]
+- \[[flags](#flags)\]→::@::←\[[width](#width)\]
+- \[[width](#width)\]→::@::←\[.[precision](#precision)\]
+- \[.[precision](#precision)\]→::@::←\[[length](#length)\]
+- \[[length](#length)\]→::@::←[type](#type)
+- [type](#type)→::@::←_(end)_
 
 <!--/pytextgen-->
 
@@ -96,14 +96,14 @@ return await memorize_table(
 
 > | character | description |
 > |-|-|
-> | {{_n_$}} | {{([POSIX](POSIX.md)) use the _n_-th parameter; either no or all placeholders have this specifier}} |
+> | {@{_n_$}@} | {@{([POSIX](POSIX.md)) use the _n_-th parameter; either no or all placeholders have this specifier}@} |
 
 <!--/pytextgen-->
 
 <!--pytextgen generate section="c19d"--><!-- The following content is generated at 2024-01-04T20:17:52.598048+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←_n_$
-- _n_$→:::←_(end)_
+- _(begin)_→::@::←_n_$
+- _n_$→::@::←_(end)_
 
 <!--/pytextgen-->
 
@@ -133,32 +133,32 @@ A combination of zero or more of the following in any order:
 
 > | character | description |
 > |-|-|
-> | {{(space)}} | {{prepend a space before positive numbers; overridden by the [flag](#flag) `+`}} |
-> | {{\#}} | {{use the alternative form: trailing 0s are kept for `g` and `G`; decimal point is kept for `e`, `E`, `f`, `F`, `g`, and `G`; and `0`, `0x`, and `0X` are prepended to non-zero numbers respectively for `o`, `x`, and `X`}} |
-> | {{+}} | {{prepend + before positive numbers}} |
-> | {{-}} | {{align left}} |
-> | {{0}} | {{prepend 0s before numbers if [width](#width) is specified; overridden by the [flag](#flag) `-`}} |
+> | {@{(space)}@} | {@{prepend a space before positive numbers; overridden by the [flag](#flag) `+`}@} |
+> | {@{\#}@} | {@{use the alternative form: trailing 0s are kept for `g` and `G`; decimal point is kept for `e`, `E`, `f`, `F`, `g`, and `G`; and `0`, `0x`, and `0X` are prepended to non-zero numbers respectively for `o`, `x`, and `X`}@} |
+> | {@{+}@} | {@{prepend + before positive numbers}@} |
+> | {@{-}@} | {@{align left}@} |
+> | {@{0}@} | {@{prepend 0s before numbers if [width](#width) is specified; overridden by the [flag](#flag) `-`}@} |
 
 <!--/pytextgen-->
 
 <!--pytextgen generate section="123d"--><!-- The following content is generated at 2024-01-04T20:17:52.621048+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←(space)
-- (space)→:::←\#
-- \#→:::←+
-- +→:::←-
-- -→:::←0
-- 0→:::←_(end)_
+- _(begin)_→::@::←(space)
+- (space)→::@::←\#
+- \#→::@::←+
+- +→::@::←-
+- -→::@::←0
+- 0→::@::←_(end)_
 
 <!--/pytextgen-->
 
 ### width
 
-An integer or {{`*` specifying the minimum width}}. The result is {{padded with spaces}}. If {{`*` is used, an additional argument to `printf` of type `int` appears before the field argument; a negative value adds the `-` [flag](#flags)}}.
+An integer or {@{`*` specifying the minimum width}@}. The result is {@{padded with spaces}@}. If {@{`*` is used, an additional argument to `printf` of type `int` appears before the field argument; a negative value adds the `-` [flag](#flags)}@}.
 
 ### precision
 
-An integer or {{`*` specifying the precision, the meaning of which depends on the [type](#type)}}. If {{`*` is used, an additional argument to `printf` of type `int` appears before the field argument and after the width additional argument if present; a negative value is ignored while invalid values are 0}}.
+An integer or {@{`*` specifying the precision, the meaning of which depends on the [type](#type)}@}. If {@{`*` is used, an additional argument to `printf` of type `int` appears before the field argument and after the width additional argument if present; a negative value is ignored while invalid values are 0}@}.
 
 ### length
 
@@ -189,28 +189,28 @@ A combination of zero or more of the following in any order:
 
 > | character | description |
 > |-|-|
-> | {{L}} | {{`long double`-sized float}} |
-> | {{h}} | {{`short`-sized integer}} |
-> | {{hh}} | {{`char`-sized integer}} |
-> | {{j}} | {{`intmax_t`-sized integer}} |
-> | {{l}} | {{`long`-sized integer; `double`-sized (ignored for) float}} |
-> | {{ll}} | {{`long long`-sized integer}} |
-> | {{t}} | {{`ptrdiff_t`-sized integer}} |
-> | {{z}} | {{`size_t`-sized integer}} |
+> | {@{L}@} | {@{`long double`-sized float}@} |
+> | {@{h}@} | {@{`short`-sized integer}@} |
+> | {@{hh}@} | {@{`char`-sized integer}@} |
+> | {@{j}@} | {@{`intmax_t`-sized integer}@} |
+> | {@{l}@} | {@{`long`-sized integer; `double`-sized (ignored for) float}@} |
+> | {@{ll}@} | {@{`long long`-sized integer}@} |
+> | {@{t}@} | {@{`ptrdiff_t`-sized integer}@} |
+> | {@{z}@} | {@{`size_t`-sized integer}@} |
 
 <!--/pytextgen-->
 
 <!--pytextgen generate section="beff"--><!-- The following content is generated at 2024-01-04T20:17:52.664065+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←L
-- L→:::←h
-- h→:::←hh
-- hh→:::←j
-- j→:::←l
-- l→:::←ll
-- ll→:::←t
-- t→:::←z
-- z→:::←_(end)_
+- _(begin)_→::@::←L
+- L→::@::←h
+- h→::@::←hh
+- hh→::@::←j
+- j→::@::←l
+- l→::@::←ll
+- ll→::@::←t
+- t→::@::←z
+- z→::@::←_(end)_
 
 <!--/pytextgen-->
 
@@ -246,38 +246,38 @@ return await memorize_table(
 
 > | character | description |
 > |-|-|
-> | {{%}} | {{literal %; rejects all other options}} |
-> | {{a, A}} | {{float into heximal exponential; [precision](#precision), by default enough to exactly represent the value, is the number of digits after the decimal point; `A` capitalizes the result}} |
-> | {{c}} | {{character}} |
-> | {{d, i}} | {{signed integer into decimal; [precision](#precision), by default 1, is the minimum number of digits; `i` can interpret octals and heximals when used with [`scanf`](scanf.md)}} |
-> | {{e, E}} | {{float into decimal exponential; [precision](#precision), by default 6, is the number of digits after the decimal point; `E` capitalizes the result}} |
-> | {{f, F}} | {{float into [fixed-point](fixed-point%20arithmetic.md) decimal; [precision](#precision), by default 6, is the number of digitals after the decimal point; `F` capitalizes the result}} |
-> | {{g, G}} | {{`f` if [precision](#precision) > exponent ≥ -4 and `e` otherwise, removing trailing zeros; [precision](#precision), by default 6 and 1 if 0, is the maximum number of significant figures; `G` capitalizes the result}} |
-> | {{n}} | {{prints nothing and writes the number of characters written so far to the specified integer pointer; rejects [flags](#flags), [precision](#precision), and [width](#width)}} |
-> | {{o}} | {{unsigned integer into octal; [precision](#precision), by default 1, is the minimum number of digits}} |
-> | {{p}} | {{pointer (`void*`) into an implementation-defined format}} |
-> | {{s}} | {{string; [precision](#precision), if specified, is the maximum number of bytes or, otherwise, the 0-based index of the first [null terminator](null-terminated%20string.md) is used}} |
-> | {{u}} | {{unsigned integer into decimal; [precision](#precision), by default 1, is the minimum number of digits}} |
-> | {{x, X}} | {{unsigned integer into heximal; [precision](#precision), by default 1, is the minimum number of digits; `X` capitalizes the result}} |
+> | {@{%}@} | {@{literal %; rejects all other options}@} |
+> | {@{a, A}@} | {@{float into heximal exponential; [precision](#precision), by default enough to exactly represent the value, is the number of digits after the decimal point; `A` capitalizes the result}@} |
+> | {@{c}@} | {@{character}@} |
+> | {@{d, i}@} | {@{signed integer into decimal; [precision](#precision), by default 1, is the minimum number of digits; `i` can interpret octals and heximals when used with [`scanf`](scanf.md)}@} |
+> | {@{e, E}@} | {@{float into decimal exponential; [precision](#precision), by default 6, is the number of digits after the decimal point; `E` capitalizes the result}@} |
+> | {@{f, F}@} | {@{float into [fixed-point](fixed-point%20arithmetic.md) decimal; [precision](#precision), by default 6, is the number of digitals after the decimal point; `F` capitalizes the result}@} |
+> | {@{g, G}@} | {@{`f` if [precision](#precision) > exponent ≥ -4 and `e` otherwise, removing trailing zeros; [precision](#precision), by default 6 and 1 if 0, is the maximum number of significant figures; `G` capitalizes the result}@} |
+> | {@{n}@} | {@{prints nothing and writes the number of characters written so far to the specified integer pointer; rejects [flags](#flags), [precision](#precision), and [width](#width)}@} |
+> | {@{o}@} | {@{unsigned integer into octal; [precision](#precision), by default 1, is the minimum number of digits}@} |
+> | {@{p}@} | {@{pointer (`void*`) into an implementation-defined format}@} |
+> | {@{s}@} | {@{string; [precision](#precision), if specified, is the maximum number of bytes or, otherwise, the 0-based index of the first [null terminator](null-terminated%20string.md) is used}@} |
+> | {@{u}@} | {@{unsigned integer into decimal; [precision](#precision), by default 1, is the minimum number of digits}@} |
+> | {@{x, X}@} | {@{unsigned integer into heximal; [precision](#precision), by default 1, is the minimum number of digits; `X` capitalizes the result}@} |
 
 <!--/pytextgen-->
 
 <!--pytextgen generate section="45dd"--><!-- The following content is generated at 2024-01-04T20:17:52.718619+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←%
-- %→:::←a, A
-- a, A→:::←c
-- c→:::←d, i
-- d, i→:::←e, E
-- e, E→:::←f, F
-- f, F→:::←g, G
-- g, G→:::←n
-- n→:::←o
-- o→:::←p
-- p→:::←s
-- s→:::←u
-- u→:::←x, X
-- x, X→:::←_(end)_
+- _(begin)_→::@::←%
+- %→::@::←a, A
+- a, A→::@::←c
+- c→::@::←d, i
+- d, i→::@::←e, E
+- e, E→::@::←f, F
+- f, F→::@::←g, G
+- g, G→::@::←n
+- n→::@::←o
+- o→::@::←p
+- p→::@::←s
+- s→::@::←u
+- u→::@::←x, X
+- x, X→::@::←_(end)_
 
 <!--/pytextgen-->
 

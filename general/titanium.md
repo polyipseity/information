@@ -33,16 +33,16 @@ return await memorize_table(
 
 > | name | description |
 > |-|-|
-> | {{[implants](implant%20(medicine).md)}} | {{[biocompatible](biocompatibility.md), [corrosion](corrosion.md)-resistant, low [density](density.md), [strong](strength%20of%20materials.md)}} |
-> | {{supersonic aircraft bodies}} | {{[corrosion](corrosion.md)-resistant, [ductile](ductility.md), high [melting point](melting%20point.md), low [density](density.md), [malleable](malleability.md), [strong](strength%20of%20materials.md)}} |
+> | {@{[implants](implant%20(medicine).md)}@} | {@{[biocompatible](biocompatibility.md), [corrosion](corrosion.md)-resistant, low [density](density.md), [strong](strength%20of%20materials.md)}@} |
+> | {@{supersonic aircraft bodies}@} | {@{[corrosion](corrosion.md)-resistant, [ductile](ductility.md), high [melting point](melting%20point.md), low [density](density.md), [malleable](malleability.md), [strong](strength%20of%20materials.md)}@} |
 
 <!--/pytextgen-->
 
 <!--pytextgen generate section="ff11"--><!-- The following content is generated at 2024-01-04T20:17:52.894713+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←[implants](implant%20(medicine).md)
-- [implants](implant%20(medicine).md)→:::←supersonic aircraft bodies
-- supersonic aircraft bodies→:::←_(end)_
+- _(begin)_→::@::←[implants](implant%20(medicine).md)
+- [implants](implant%20(medicine).md)→::@::←supersonic aircraft bodies
+- supersonic aircraft bodies→::@::←_(end)_
 
 <!--/pytextgen-->
 

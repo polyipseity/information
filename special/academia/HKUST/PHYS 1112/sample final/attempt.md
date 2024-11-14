@@ -27,7 +27,7 @@ By approximation in the mind, the box slides.
 
 $$\begin{aligned}
 a&=4-9.81*0.15\\
-&=2.5285\mathrm{\ ms^{-2}}
+&=2.5285\mathrm{\ ms^{-2}@}
 \end{aligned}$$
 
 ## 2
@@ -40,7 +40,7 @@ $$\begin{aligned}
 \frac{v^2}r&=a\\
 v&=\sqrt{ar}\\
 &=\sqrt{9.81(\tan25\deg)(500)}\\
-&\approx47.8250882\mathrm{\ m \cdot s^{-1}}
+&\approx47.8250882\mathrm{\ m \cdot s^{-1}@}
 \end{aligned}$$
 
 ## 3
@@ -210,7 +210,7 @@ E
 
 __draft__
 
-Remove C and D as they are not standing waves. Remove A because $0.45x$ means each loop has a width of $\frac \pi {0.45} \approx 6.98131701 \text{ m}$. Next, find the phase velocity: $v = \sqrt{\frac T \mu} = \sqrt{\frac {0.4 \cdot 9.80665} {0.002}} \approx 44.2869055 \mathrm{\ m \cdot s^{-1} }$. Then, find the angular frequency: $\omega = k v = \frac {2 \cdot 2\pi} {0.9} 44.2869055 \approx 618.361853 \mathrm{\ rad \cdot s^{-1} }$. Therefore, the answer is E.
+Remove C and D as they are not standing waves. Remove A because $0.45x$ means each loop has a width of $\frac \pi {0.45} \approx 6.98131701 \text{ m}$. Next, find the phase velocity: $v = \sqrt{\frac T \mu} = \sqrt{\frac {0.4 \cdot 9.80665} {0.002}@} \approx 44.2869055 \mathrm{\ m \cdot s^{-1} }$. Then, find the angular frequency: $\omega = k v = \frac {2 \cdot 2\pi} {0.9} 44.2869055 \approx 618.361853 \mathrm{\ rad \cdot s^{-1} }$. Therefore, the answer is E.
 
 ## 20
 
@@ -478,7 +478,7 @@ $$\begin{aligned}
 \frac{2nR}{\gamma - 1} \,\mathrm{d}T & = -\frac{nRT}V \,\mathrm{d}V \\
 \frac{2}{T(\gamma - 1)} \,\mathrm{d}T & = -\frac{1}V \,\mathrm{d}V \\
 \frac2{\gamma - 1}\ln{T} & = -\ln{V} \\
-T^{\frac2{\gamma - 1}} & = V^{-1} \\
-T^{\frac2{\gamma - 1}}V & = 1 \\
+T^{\frac2{\gamma - 1}@} & = V^{-1} \\
+T^{\frac2{\gamma - 1}@}V & = 1 \\
 TV^{\frac{\gamma - 1}2} & = 1
 \end{aligned}$$

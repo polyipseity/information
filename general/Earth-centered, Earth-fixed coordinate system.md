@@ -10,7 +10,7 @@ tags:
 
 # Earth-centered, Earth-fixed coordinate system
 
-The {{__Earth-centered, Earth-fixed coordinate system__}} (acronym {{__ECEF__}}), also known as {{the __geocentric coordinate system__}}, is {{a [cartesian](Cartesian%20coordinate%20system.md) [spatial reference system](spatial%20reference%20system.md) that represents locations near [Earth](Earth.md) (including its [surface](geoid.md), interior, [atmosphere](atmosphere%20of%20Earth.md), and surrounding outer space) as _X_, _Y_, and _Z_ measurements from its [center of mass](center%20of%20mass.md)}}.
+The {@{__Earth-centered, Earth-fixed coordinate system__}@} (acronym {@{__ECEF__}@}), also known as {@{the __geocentric coordinate system__}@}, is {@{a [cartesian](Cartesian%20coordinate%20system.md) [spatial reference system](spatial%20reference%20system.md) that represents locations near [Earth](Earth.md) (including its [surface](geoid.md), interior, [atmosphere](atmosphere%20of%20Earth.md), and surrounding outer space) as _X_, _Y_, and _Z_ measurements from its [center of mass](center%20of%20mass.md)}@}.
 
 ## references
 

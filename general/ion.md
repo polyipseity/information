@@ -18,9 +18,9 @@ tags:
 # import ../../tools/utility.py.md
 ```
 
-An __ion__ is an [atom](atom.md) or [molecule](molecule.md) with a net electrical charge. A {{__cation__}} is a {{positively charged ion}}, while an {{__anion__}} is a {{negatively charged ion}}.
+An __ion__ is an [atom](atom.md) or [molecule](molecule.md) with a net electrical charge. A {@{__cation__}@} is a {@{positively charged ion}@}, while an {@{__anion__}@} is a {@{negatively charged ion}@}.
 
-A {{simple ion}} is an {{ion formed from only one atom}}, while a {{polyatomic ion}} is an {{ion formed from more than one atom}}.
+A {@{simple ion}@} is an {@{ion formed from only one atom}@}, while a {@{polyatomic ion}@} is an {@{ion formed from more than one atom}@}.
 
 ## data
 
@@ -257,32 +257,32 @@ return chain.from_iterable(await gather(
 
 <!--pytextgen generate section="3928fd"--><!-- The following content is generated at 2024-01-04T20:17:52.176781+08:00. Any edits will be overridden! -->
 
-- hydrogen ion:::H<sup>+</sup>
-- sodium ion:::Na<sup>+</sup>
-- potassium ion:::K<sup>+</sup>
-- copper(I) ion:::Cu<sup>+</sup>
-- silver ion:::Ag<sup>+</sup>
-- mercury(I) ion:::Hg<sup>+</sup>
-- ammonium ion:::NH<sub>4</sub><sup>+</sup>
-- magnesium ion:::Mg<sup>2+</sup>
-- calcium ion:::Ca<sup>2+</sup>
-- barium ion:::Ba<sup>2+</sup>
-- lead(II) ion:::Pb<sup>2+</sup>
-- iron(II) ion:::Fe<sup>2+</sup>
-- nickel(II) ion:::Ni<sup>2+</sup>
-- copper(II) ion:::Cu<sup>2+</sup>
-- zinc ion:::Zn<sup>2+</sup>
-- manganese(II) ion:::Mn<sup>2+</sup>
-- mercury(II) ion:::Hg<sup>2+</sup>
-- cobalt(II) ion:::Co<sup>2+</sup>
-- aluminium ion:::Al<sup>3+</sup>
-- iron(III) ion:::Fe<sup>3+</sup>
-- chromium(III) ion:::Cr<sup>3+</sup>
-- scandium(III) ion:::Sc<sup>3+</sup>
-- titanium(III) ion:::Ti<sup>3+</sup>
-- vanadium(II) ion:::V<sup>2+</sup>
-- vanadium(III) ion:::V<sup>3+</sup>
-- manganese(III) ion:::Mn<sup>3+</sup>
+- hydrogen ion::@::H<sup>+</sup>
+- sodium ion::@::Na<sup>+</sup>
+- potassium ion::@::K<sup>+</sup>
+- copper(I) ion::@::Cu<sup>+</sup>
+- silver ion::@::Ag<sup>+</sup>
+- mercury(I) ion::@::Hg<sup>+</sup>
+- ammonium ion::@::NH<sub>4</sub><sup>+</sup>
+- magnesium ion::@::Mg<sup>2+</sup>
+- calcium ion::@::Ca<sup>2+</sup>
+- barium ion::@::Ba<sup>2+</sup>
+- lead(II) ion::@::Pb<sup>2+</sup>
+- iron(II) ion::@::Fe<sup>2+</sup>
+- nickel(II) ion::@::Ni<sup>2+</sup>
+- copper(II) ion::@::Cu<sup>2+</sup>
+- zinc ion::@::Zn<sup>2+</sup>
+- manganese(II) ion::@::Mn<sup>2+</sup>
+- mercury(II) ion::@::Hg<sup>2+</sup>
+- cobalt(II) ion::@::Co<sup>2+</sup>
+- aluminium ion::@::Al<sup>3+</sup>
+- iron(III) ion::@::Fe<sup>3+</sup>
+- chromium(III) ion::@::Cr<sup>3+</sup>
+- scandium(III) ion::@::Sc<sup>3+</sup>
+- titanium(III) ion::@::Ti<sup>3+</sup>
+- vanadium(II) ion::@::V<sup>2+</sup>
+- vanadium(III) ion::@::V<sup>3+</sup>
+- manganese(III) ion::@::Mn<sup>3+</sup>
 
 <!--/pytextgen-->
 
@@ -290,32 +290,32 @@ return chain.from_iterable(await gather(
 
 <!--pytextgen generate section="8d8dee"--><!-- The following content is generated at 2024-01-04T20:17:52.061211+08:00. Any edits will be overridden! -->
 
-- hydrogen ion::1+
-- sodium ion::1+
-- potassium ion::1+
-- copper(I) ion::1+
-- silver ion::1+
-- mercury(I) ion::1+
-- ammonium ion::1+
-- magnesium ion::2+
-- calcium ion::2+
-- barium ion::2+
-- lead(II) ion::2+
-- iron(II) ion::2+
-- nickel(II) ion::2+
-- copper(II) ion::2+
-- zinc ion::2+
-- manganese(II) ion::2+
-- mercury(II) ion::2+
-- cobalt(II) ion::2+
-- aluminium ion::3+
-- iron(III) ion::3+
-- chromium(III) ion::3+
-- scandium(III) ion::3+
-- titanium(III) ion::3+
-- vanadium(II) ion::2+
-- vanadium(III) ion::3+
-- manganese(III) ion::3+
+- hydrogen ion:@:1+
+- sodium ion:@:1+
+- potassium ion:@:1+
+- copper(I) ion:@:1+
+- silver ion:@:1+
+- mercury(I) ion:@:1+
+- ammonium ion:@:1+
+- magnesium ion:@:2+
+- calcium ion:@:2+
+- barium ion:@:2+
+- lead(II) ion:@:2+
+- iron(II) ion:@:2+
+- nickel(II) ion:@:2+
+- copper(II) ion:@:2+
+- zinc ion:@:2+
+- manganese(II) ion:@:2+
+- mercury(II) ion:@:2+
+- cobalt(II) ion:@:2+
+- aluminium ion:@:3+
+- iron(III) ion:@:3+
+- chromium(III) ion:@:3+
+- scandium(III) ion:@:3+
+- titanium(III) ion:@:3+
+- vanadium(II) ion:@:2+
+- vanadium(III) ion:@:3+
+- manganese(III) ion:@:3+
 
 <!--/pytextgen-->
 
@@ -323,32 +323,32 @@ return chain.from_iterable(await gather(
 
 <!--pytextgen generate section="a5defa"--><!-- The following content is generated at 2024-01-28T09:35:09.995261+08:00. Any edits will be overridden! -->
 
-- hydrogen ion::colorless
-- sodium ion::colorless
-- potassium ion::colorless
-- copper(I) ion::_(n/a)_
-- silver ion::colorless
-- mercury(I) ion::_(n/a)_
-- ammonium ion::colorless
-- magnesium ion::colorless
-- calcium ion::colorless
-- barium ion::colorless
-- lead(II) ion::colorless
-- iron(II) ion::<span style="color: green;">green</span>
-- nickel(II) ion::<span style="color: green;">green</span>
-- copper(II) ion::<span style="color: blue; background-color: white;">blue</span>, <span style="color: green;">green</span>
-- zinc ion::colorless
-- manganese(II) ion::<span style="color: lightPink;">very pale pink</span>
-- mercury(II) ion::_(n/a)_
-- cobalt(II) ion::<span style="color: pink;">pink</span>
-- aluminium ion::colorless
-- iron(III) ion::<span style="color: yellow; background-color: black;">yellow</span> (dilute), <span style="color: brown; background-color: white;">brown</span> (concentrated)
-- chromium(III) ion::<span style="color: green;">green</span>
-- scandium(III) ion::colorless
-- titanium(III) ion::<span style="color: purple; background-color: white;">purple</span>
-- vanadium(II) ion::<span style="color: violet;">violet</span>
-- vanadium(III) ion::<span style="color: green;">green</span>
-- manganese(III) ion::<span style="color: red;">red</color>
+- hydrogen ion:@:colorless
+- sodium ion:@:colorless
+- potassium ion:@:colorless
+- copper(I) ion:@:_(n/a)_
+- silver ion:@:colorless
+- mercury(I) ion:@:_(n/a)_
+- ammonium ion:@:colorless
+- magnesium ion:@:colorless
+- calcium ion:@:colorless
+- barium ion:@:colorless
+- lead(II) ion:@:colorless
+- iron(II) ion:@:<span style="color: green;">green</span>
+- nickel(II) ion:@:<span style="color: green;">green</span>
+- copper(II) ion:@:<span style="color: blue; background-color: white;">blue</span>, <span style="color: green;">green</span>
+- zinc ion:@:colorless
+- manganese(II) ion:@:<span style="color: lightPink;">very pale pink</span>
+- mercury(II) ion:@:_(n/a)_
+- cobalt(II) ion:@:<span style="color: pink;">pink</span>
+- aluminium ion:@:colorless
+- iron(III) ion:@:<span style="color: yellow; background-color: black;">yellow</span> (dilute), <span style="color: brown; background-color: white;">brown</span> (concentrated)
+- chromium(III) ion:@:<span style="color: green;">green</span>
+- scandium(III) ion:@:colorless
+- titanium(III) ion:@:<span style="color: purple; background-color: white;">purple</span>
+- vanadium(II) ion:@:<span style="color: violet;">violet</span>
+- vanadium(III) ion:@:<span style="color: green;">green</span>
+- manganese(III) ion:@:<span style="color: red;">red</color>
 
 <!--/pytextgen-->
 
@@ -356,15 +356,15 @@ return chain.from_iterable(await gather(
 
 <!--pytextgen generate section="394a"--><!-- The following content is generated at 2024-01-28T09:35:10.023241+08:00. Any edits will be overridden! -->
 
-- <span style="color: green;">green</span>::iron(II) ion, nickel(II) ion, copper(II) ion, chromium(III) ion, vanadium(III) ion
-- <span style="color: blue; background-color: white;">blue</span>::copper(II) ion
-- <span style="color: lightPink;">very pale pink</span>::manganese(II) ion
-- <span style="color: pink;">pink</span>::cobalt(II) ion
-- <span style="color: yellow; background-color: black;">yellow</span> (dilute)::iron(III) ion
-- <span style="color: brown; background-color: white;">brown</span> (concentrated)::iron(III) ion
-- <span style="color: purple; background-color: white;">purple</span>::titanium(III) ion
-- <span style="color: violet;">violet</span>::vanadium(II) ion
-- <span style="color: red;">red</color>::manganese(III) ion
+- <span style="color: green;">green</span>:@:iron(II) ion, nickel(II) ion, copper(II) ion, chromium(III) ion, vanadium(III) ion
+- <span style="color: blue; background-color: white;">blue</span>:@:copper(II) ion
+- <span style="color: lightPink;">very pale pink</span>:@:manganese(II) ion
+- <span style="color: pink;">pink</span>:@:cobalt(II) ion
+- <span style="color: yellow; background-color: black;">yellow</span> (dilute):@:iron(III) ion
+- <span style="color: brown; background-color: white;">brown</span> (concentrated):@:iron(III) ion
+- <span style="color: purple; background-color: white;">purple</span>:@:titanium(III) ion
+- <span style="color: violet;">violet</span>:@:vanadium(II) ion
+- <span style="color: red;">red</color>:@:manganese(III) ion
 
 <!--/pytextgen-->
 
@@ -403,28 +403,28 @@ return chain.from_iterable(await gather(
 
 <!--pytextgen generate section="2fde12"--><!-- The following content is generated at 2024-01-04T20:17:52.102773+08:00. Any edits will be overridden! -->
 
-- hydride ion:::H<sup>-</sup>
-- fluoride ion:::F<sup>-</sup>
-- chloride ion:::Cl<sup>-</sup>
-- bromide ion:::Br<sup>-</sup>
-- iodide ion:::I<sup>-</sup>
-- hydroxide ion:::OH<sup>-</sup>
-- nitrate ion:::NO<sub>3</sub><sup>-</sup>
-- nitrite ion:::NO<sub>2</sub><sup>-</sup>
-- hydrogencarbonate ion:::HCO<sub>3</sub><sup>-</sup>
-- hydrogensulfite ion:::HSO<sub>3</sub><sup>-</sup>
-- hydrogensulfate ion:::HSO<sub>4</sub><sup>-</sup>
-- permanganate ion:::MnO<sub>4</sub><sup>-</sup>
-- oxide ion:::O<sup>2-</sup>
-- sulfide ion:::S<sup>2-</sup>
-- sulfate ion:::SO<sub>4</sub><sup>2-</sup>
-- sulfite ion:::SO<sub>3</sub><sup>2-</sup>
-- carbonate ion:::CO<sub>3</sub><sup>2-</sup>
-- chromate ion:::CrO<sub>4</sub><sup>2-</sup>
-- dichromate ion:::Cr<sub>2</sub>O<sub>7</sub><sup>2-</sup>
-- nitride ion:::N<sup>3-</sup>
-- phosphate ion:::PO<sub>4</sub><sup>3-</sup>
-- manganate ion:::MnO<sub>4</sub><sup>2-</sup>
+- hydride ion::@::H<sup>-</sup>
+- fluoride ion::@::F<sup>-</sup>
+- chloride ion::@::Cl<sup>-</sup>
+- bromide ion::@::Br<sup>-</sup>
+- iodide ion::@::I<sup>-</sup>
+- hydroxide ion::@::OH<sup>-</sup>
+- nitrate ion::@::NO<sub>3</sub><sup>-</sup>
+- nitrite ion::@::NO<sub>2</sub><sup>-</sup>
+- hydrogencarbonate ion::@::HCO<sub>3</sub><sup>-</sup>
+- hydrogensulfite ion::@::HSO<sub>3</sub><sup>-</sup>
+- hydrogensulfate ion::@::HSO<sub>4</sub><sup>-</sup>
+- permanganate ion::@::MnO<sub>4</sub><sup>-</sup>
+- oxide ion::@::O<sup>2-</sup>
+- sulfide ion::@::S<sup>2-</sup>
+- sulfate ion::@::SO<sub>4</sub><sup>2-</sup>
+- sulfite ion::@::SO<sub>3</sub><sup>2-</sup>
+- carbonate ion::@::CO<sub>3</sub><sup>2-</sup>
+- chromate ion::@::CrO<sub>4</sub><sup>2-</sup>
+- dichromate ion::@::Cr<sub>2</sub>O<sub>7</sub><sup>2-</sup>
+- nitride ion::@::N<sup>3-</sup>
+- phosphate ion::@::PO<sub>4</sub><sup>3-</sup>
+- manganate ion::@::MnO<sub>4</sub><sup>2-</sup>
 
 <!--/pytextgen-->
 
@@ -432,28 +432,28 @@ return chain.from_iterable(await gather(
 
 <!--pytextgen generate section="8c7820"--><!-- The following content is generated at 2024-01-04T20:17:51.950669+08:00. Any edits will be overridden! -->
 
-- hydride ion::1-
-- fluoride ion::1-
-- chloride ion::1-
-- bromide ion::1-
-- iodide ion::1-
-- hydroxide ion::1-
-- nitrate ion::1-
-- nitrite ion::1-
-- hydrogencarbonate ion::1-
-- hydrogensulfite ion::1-
-- hydrogensulfate ion::1-
-- permanganate ion::1-
-- oxide ion::2-
-- sulfide ion::2-
-- sulfate ion::2-
-- sulfite ion::2-
-- carbonate ion::2-
-- chromate ion::2-
-- dichromate ion::2-
-- nitride ion::3-
-- phosphate ion::3-
-- manganate ion::2-
+- hydride ion:@:1-
+- fluoride ion:@:1-
+- chloride ion:@:1-
+- bromide ion:@:1-
+- iodide ion:@:1-
+- hydroxide ion:@:1-
+- nitrate ion:@:1-
+- nitrite ion:@:1-
+- hydrogencarbonate ion:@:1-
+- hydrogensulfite ion:@:1-
+- hydrogensulfate ion:@:1-
+- permanganate ion:@:1-
+- oxide ion:@:2-
+- sulfide ion:@:2-
+- sulfate ion:@:2-
+- sulfite ion:@:2-
+- carbonate ion:@:2-
+- chromate ion:@:2-
+- dichromate ion:@:2-
+- nitride ion:@:3-
+- phosphate ion:@:3-
+- manganate ion:@:2-
 
 <!--/pytextgen-->
 
@@ -461,28 +461,28 @@ return chain.from_iterable(await gather(
 
 <!--pytextgen generate section="104852"--><!-- The following content is generated at 2024-01-28T09:35:10.058768+08:00. Any edits will be overridden! -->
 
-- hydride ion::colorless
-- fluoride ion::colorless
-- chloride ion::colorless
-- bromide ion::colorless
-- iodide ion::colorless
-- hydroxide ion::colorless
-- nitrate ion::colorless
-- nitrite ion::_(n/a)_
-- hydrogencarbonate ion::colorless
-- hydrogensulfite ion::colorless
-- hydrogensulfate ion::colorless
-- permanganate ion::<span style="color: darkViolet; background-color: white;">deep purple</span>
-- oxide ion::_(n/a)_
-- sulfide ion::_(n/a)_
-- sulfate ion::colorless
-- sulfite ion::colorless
-- carbonate ion::colorless
-- chromate ion::<span style="color: yellow; background-color: black;">yellow</span>
-- dichromate ion::<span style="color: orange;">orange</span>
-- nitride ion::_(n/a)_
-- phosphate ion::colorless
-- manganate ion::<span style="color: green;">green</span>
+- hydride ion:@:colorless
+- fluoride ion:@:colorless
+- chloride ion:@:colorless
+- bromide ion:@:colorless
+- iodide ion:@:colorless
+- hydroxide ion:@:colorless
+- nitrate ion:@:colorless
+- nitrite ion:@:_(n/a)_
+- hydrogencarbonate ion:@:colorless
+- hydrogensulfite ion:@:colorless
+- hydrogensulfate ion:@:colorless
+- permanganate ion:@:<span style="color: darkViolet; background-color: white;">deep purple</span>
+- oxide ion:@:_(n/a)_
+- sulfide ion:@:_(n/a)_
+- sulfate ion:@:colorless
+- sulfite ion:@:colorless
+- carbonate ion:@:colorless
+- chromate ion:@:<span style="color: yellow; background-color: black;">yellow</span>
+- dichromate ion:@:<span style="color: orange;">orange</span>
+- nitride ion:@:_(n/a)_
+- phosphate ion:@:colorless
+- manganate ion:@:<span style="color: green;">green</span>
 
 <!--/pytextgen-->
 
@@ -490,10 +490,10 @@ return chain.from_iterable(await gather(
 
 <!--pytextgen generate section="50ad"--><!-- The following content is generated at 2024-01-28T09:35:10.075768+08:00. Any edits will be overridden! -->
 
-- <span style="color: darkViolet; background-color: white;">deep purple</span>::permanganate ion
-- <span style="color: yellow; background-color: black;">yellow</span>::chromate ion
-- <span style="color: orange;">orange</span>::dichromate ion
-- <span style="color: green;">green</span>::manganate ion
+- <span style="color: darkViolet; background-color: white;">deep purple</span>:@:permanganate ion
+- <span style="color: yellow; background-color: black;">yellow</span>:@:chromate ion
+- <span style="color: orange;">orange</span>:@:dichromate ion
+- <span style="color: green;">green</span>:@:manganate ion
 
 <!--/pytextgen-->
 

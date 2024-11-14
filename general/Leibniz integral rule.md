@@ -8,19 +8,19 @@ tags:
 
 # Leibniz integral rule
 
-In [calculus](calculus.md), the __Leibniz integral rule__ is {{a rule that allows evaluation of [differentiating](derivative.md) an [integral](integral.md) in the form of $$\int_{a(x)}^{b(x)} \! f(x, t) \, \mathrm{d}t$$}}.
+In [calculus](calculus.md), the __Leibniz integral rule__ is {@{a rule that allows evaluation of [differentiating](derivative.md) an [integral](integral.md) in the form of $$\int_{a(x)}^{b(x)} \! f(x, t) \, \mathrm{d}t$$}@}.
 
 > __Leibniz integral rule__
 >
-> 1. {{Let $f(x, t)$ be a [function](function%20(mathematics).md) such that both $f(x, t)$ and its [partial derivative](partial%20derivative.md) with respect to $x$, $f_x(x, t)$, are jointly [continuous](continuous%20function.md) in $x$ and $t$ over the $xt$-plane (not just continuous in both $x$ and $t$ separately), including $x_0 \le x \le x_1$ and $a(x) \le t \le b(x)$ (swapping the inequalities if $b(x) > a(x)$).}}
-> 2. {{Let $a(x)$ and $b(x)$ be [continuously differentiable functions](differentiable%20function.md) on $x_0 \le x \le x_1$.}}
-> 3. {{Then, $$\forall x \in [x_0, x_1] \qquad \frac{\mathrm{d} }{\mathrm{d}x} \int_{a(x)}^{b(x)} \! f(x, t) \, \mathrm{d}t = f(x, b(x)) b'(x) - f(x, a(x)) a'(x) + \int_{a(x)}^{b(x)} \! f_x(x, t) \, \mathrm{d}x$$.}}
+> 1. {@{Let $f(x, t)$ be a [function](function%20(mathematics).md) such that both $f(x, t)$ and its [partial derivative](partial%20derivative.md) with respect to $x$, $f_x(x, t)$, are jointly [continuous](continuous%20function.md) in $x$ and $t$ over the $xt$-plane (not just continuous in both $x$ and $t$ separately), including $x_0 \le x \le x_1$ and $a(x) \le t \le b(x)$ (swapping the inequalities if $b(x) > a(x)$).}@}
+> 2. {@{Let $a(x)$ and $b(x)$ be [continuously differentiable functions](differentiable%20function.md) on $x_0 \le x \le x_1$.}@}
+> 3. {@{Then, $$\forall x \in [x_0, x_1] \qquad \frac{\mathrm{d} }{\mathrm{d}x} \int_{a(x)}^{b(x)} \! f(x, t) \, \mathrm{d}t = f(x, b(x)) b'(x) - f(x, a(x)) a'(x) + \int_{a(x)}^{b(x)} \! f_x(x, t) \, \mathrm{d}x$$.}@}
 
 <!-- markdownlint MD028 -->
 
 > [!tip] tips
 >
-> - [intuition](intuition.md) ::: $f(x, b(x)) b'(x)$ represents the change caused by moving the right endpoint, $-f(x, a(x)) a'(x)$ represents the change caused by moving the left endpoint, and $\int_{a(x)}^{b(x)} \! f_x(x, t) \, \mathrm{d}x$ represents the change of the [integral](integral.md) caused by changing $x$.
+> - [intuition](intuition.md) ::@:: $f(x, b(x)) b'(x)$ represents the change caused by moving the right endpoint, $-f(x, a(x)) a'(x)$ represents the change caused by moving the left endpoint, and $\int_{a(x)}^{b(x)} \! f_x(x, t) \, \mathrm{d}x$ represents the change of the [integral](integral.md) caused by changing $x$.
 
 ## examples
 
@@ -92,7 +92,7 @@ f(a) & = \begin{cases} 0, & a = 0 \\
 
 > [!tip] tips
 >
-> - takeaway ::: No matter whether direct [integration](integral.md) or the Leibniz integral rule is used, [continuity](continuous%20function.md) of the integrand and the integral needs to be considered.
+> - takeaway ::@:: No matter whether direct [integration](integral.md) or the Leibniz integral rule is used, [continuity](continuous%20function.md) of the integrand and the integral needs to be considered.
 
 ### example 2: variable limits
 
@@ -169,7 +169,7 @@ f(a) & = \int_0^a\! \frac{a - x}{\sqrt{a^2 - x^2} } \,\mathrm{d}x \\
 
 > [!tip] tips
 >
-> - takeaway ::: Usually, it is easier to [integrate](integral.md) directly rather than through the Leibniz integral rule.
+> - takeaway ::@:: Usually, it is easier to [integrate](integral.md) directly rather than through the Leibniz integral rule.
 
 ## applications
 
@@ -193,7 +193,7 @@ a \ne 1 & \text{ and } a \ne -1 \\
 As the Leibniz integral rule cannot be applied when $\lvert a \rvert = 1$, differentiate $f(a)$ with respect to $a$ using the rule, assuming $\lvert a \rvert \ne 1$:
 
 $$\begin{aligned}
-\frac{\mathrm{d}}{\mathrm{d}a} f(a) & = \frac{\mathrm{d}}{\mathrm{d}a} \int_0^\pi\! \ln\left(1 - 2a \cos x + a^2\right) \,\mathrm{d}x && (\lvert a \rvert \ne 1) \\
+\frac{\mathrm{d}@}{\mathrm{d}a} f(a) & = \frac{\mathrm{d}@}{\mathrm{d}a} \int_0^\pi\! \ln\left(1 - 2a \cos x + a^2\right) \,\mathrm{d}x && (\lvert a \rvert \ne 1) \\
 & = \int_0^\pi\! \frac{\partial}{\partial a} \ln\left(1 - 2a \cos x + a^2\right) \,\mathrm{d}x \\
 & = \int_0^\pi\! \frac{-2 \cos x + 2a}{1 - 2a \cos x + a^2} \,\mathrm{d}x \\
 & = \frac1a \int_0^\pi\! \frac{-2a \cos x + 2a^2}{1 - 2a \cos x + a^2} \,\mathrm{d}x \\
@@ -220,7 +220,7 @@ $$\begin{aligned}
 Therefore the [derivative](derivative.md) of $f(a)$ with respect to $a$ is:
 
 $$\begin{aligned}
-\frac{\mathrm{d}}{\mathrm{d}a} f(a) & = \begin{cases} \frac\pi a - \frac\pi a, & \lvert a \rvert < 1 \\
+\frac{\mathrm{d}@}{\mathrm{d}a} f(a) & = \begin{cases} \frac\pi a - \frac\pi a, & \lvert a \rvert < 1 \\
 \frac\pi a + \frac\pi a, & \lvert a \rvert > 1 \end{cases} \\
 & = \begin{cases} 0, & \lvert a \rvert < 1 \\
 \frac{2\pi}a, & \lvert a \rvert > 1 \end{cases}
@@ -291,7 +291,7 @@ Directly integrating the integral is very difficult and will result in a very lo
 
 > [!tip] tips
 >
-> - takeaway ::: The Leibniz integral rule can turn [integrands](integrand.md) with the [natural logarithm](natural%20logarithm) $\ln$ into [fractions](fraction.md), which may be much easier to evaluate. Also, considering the [evenness](even%20and%20odd%20functions.md), [oddness](even%20and%20odd%20functions.md), and [symmetries](symmetry.md) of [functions](function%20(mathematics).md) helps a lot when evaluating integrals.
+> - takeaway ::@:: The Leibniz integral rule can turn [integrands](integrand.md) with the [natural logarithm](natural%20logarithm) $\ln$ into [fractions](fraction.md), which may be much easier to evaluate. Also, considering the [evenness](even%20and%20odd%20functions.md), [oddness](even%20and%20odd%20functions.md), and [symmetries](symmetry.md) of [functions](function%20(mathematics).md) helps a lot when evaluating integrals.
 
 #### example 4: Green's theorem
 
@@ -306,18 +306,18 @@ $$f(a) = \int_0^{2\pi} a \sin \theta \cos (a \sin \theta) \,\mathrm{d}\theta$$
 When $a = 1$, this is the original [integral](integral.md). Now we [differentiate](derivative.md) the parameterized integral with respect to $a$ using the Leibniz integral rule:
 
 $$\begin{aligned}
-\frac{\mathrm{d}}{\mathrm{d}a} f(a) & = \frac{\mathrm{d}}{\mathrm{d}a} \int_0^{2\pi} a \sin \theta \cos (a \sin \theta) \,\mathrm{d}\theta \\
+\frac{\mathrm{d}@}{\mathrm{d}a} f(a) & = \frac{\mathrm{d}@}{\mathrm{d}a} \int_0^{2\pi} a \sin \theta \cos (a \sin \theta) \,\mathrm{d}\theta \\
 & = \int_0^{2\pi} \frac{\partial}{\partial a} a \sin \theta \cos (a \sin \theta) \,\mathrm{d}\theta \\
 & = \int_0^{2\pi}\! (a \cos \theta \cos(a \sin \theta) - a \sin \theta \cos \theta \sin(a \sin \theta)) \,\mathrm{d}\theta
 \end{aligned}$$
 
-Now, define a [vector field](vector%20field.md) on $\mathbb{R}^2$ by $\vec{F}(x, y) = (F_x(x, y), F_y(x, y)) = (a x \sin(a y),a \cos(a y))$. Furthermore, parameterize the [unit circle](unit%20circle.md) $S^1$ on $\mathbb{R}$ from $\theta$ by going around the circle in [counterclockwise orientation](curve%20orientation.md), given by $\vec{r}: [0, 2\pi] \to \mathbb{R}^2, \vec{r}(\theta) := (\cos \theta, \sin \theta)$. Then the [derivative](derivative.md) of the curve with respect to $\theta$ is $\dot{\vec{r}}(\theta) = (-\sin \theta, \cos \theta)$. Then we can convert the above integral into a [line integral](line%20integral.md) around a [simple closed curve](Jordan%20curve%20theorem.md):
+Now, define a [vector field](vector%20field.md) on $\mathbb{R}^2$ by $\vec{F}(x, y) = (F_x(x, y), F_y(x, y)) = (a x \sin(a y),a \cos(a y))$. Furthermore, parameterize the [unit circle](unit%20circle.md) $S^1$ on $\mathbb{R}$ from $\theta$ by going around the circle in [counterclockwise orientation](curve%20orientation.md), given by $\vec{r}: [0, 2\pi] \to \mathbb{R}^2, \vec{r}(\theta) := (\cos \theta, \sin \theta)$. Then the [derivative](derivative.md) of the curve with respect to $\theta$ is $\dot{\vec{r}@}(\theta) = (-\sin \theta, \cos \theta)$. Then we can convert the above integral into a [line integral](line%20integral.md) around a [simple closed curve](Jordan%20curve%20theorem.md):
 
 $$\begin{aligned}
-\frac{\mathrm{d}}{\mathrm{d}a} f(a) & = \int_0^{2\pi}\! (a \cos \theta \cos(a \sin \theta) - a \sin \theta \cos \theta \sin(a \sin \theta)) \,\mathrm{d}\theta \\
+\frac{\mathrm{d}@}{\mathrm{d}a} f(a) & = \int_0^{2\pi}\! (a \cos \theta \cos(a \sin \theta) - a \sin \theta \cos \theta \sin(a \sin \theta)) \,\mathrm{d}\theta \\
 & = \int_0^{2\pi}\! (a \cos \theta \sin (a \sin \theta), a \cos(a \sin \theta)) \cdot (-\sin \theta, \cos \theta) \,\mathrm{d}\theta \\
-& = \int_0^{2\pi} \vec{F}(\cos \theta, \sin \theta) \cdot \dot{\vec{r}}(\theta) \,\mathrm{d}\theta \\
-& = \int_0^{2\pi} \vec{F}(\vec{r}(\theta)) \cdot \dot{\vec{r}}(\theta) \,\mathrm{d}\theta \\
+& = \int_0^{2\pi} \vec{F}(\cos \theta, \sin \theta) \cdot \dot{\vec{r}@}(\theta) \,\mathrm{d}\theta \\
+& = \int_0^{2\pi} \vec{F}(\vec{r}(\theta)) \cdot \dot{\vec{r}@}(\theta) \,\mathrm{d}\theta \\
 & = \oint_{S^1}\! \vec{F}(\vec{r}) \cdot \,\mathrm{d}\vec{r} \\
 & = \oint_{S^1}\! \left(F_x \,\mathrm{d}x + F_y \,\mathrm{d}y\right)
 \end{aligned}$$
@@ -325,12 +325,12 @@ $$\begin{aligned}
 By [Green's theorem](Green's%20theorem.md), this equals the following [double integral](multiple%20integral.md) integrated over the [closed unit disk](unit%20disk.md) $\bar{D}_1$:
 
 $$\begin{aligned}
-\frac{\mathrm{d}}{\mathrm{d}a} f(a) & = \oint_{S^1}\! \left(F_x \,\mathrm{d}x + F_y \,\mathrm{d}y\right) \\
+\frac{\mathrm{d}@}{\mathrm{d}a} f(a) & = \oint_{S^1}\! \left(F_x \,\mathrm{d}x + F_y \,\mathrm{d}y\right) \\
 & = \iint_{\bar{D}_1}\! \left(\frac{\partial F_y}{\partial x} - \frac{\partial F_x}{\partial y}\right) \,\mathrm{d}A && (\text{Green's theorem}) \\
 & = \iint_{\bar{D}_1}\! \left(0 - a^2 x \cos(ay) \right) \,\mathrm{d}A \\
 & = -a^2 \iint_{\bar{D}_1}\! x \cos(ay) \,\mathrm{d}A \\
-& = -a^2 \int_{-1}^1\! x \int_{-\sqrt{1 - x^2}}^{\sqrt{1 - x^2}}\! \cos(ay) \,\mathrm{d}y \,\mathrm{d}x \\
-& = -a^2 \int_{-1}^1\! x \left[\frac1a \sin(ay)\right]_{y = -\sqrt{1 - x^2}}^{y = \sqrt{1 - x^2}} \,\mathrm{d}x \\
+& = -a^2 \int_{-1}^1\! x \int_{-\sqrt{1 - x^2}@}^{\sqrt{1 - x^2}@}\! \cos(ay) \,\mathrm{d}y \,\mathrm{d}x \\
+& = -a^2 \int_{-1}^1\! x \left[\frac1a \sin(ay)\right]_{y = -\sqrt{1 - x^2}@}^{y = \sqrt{1 - x^2}@} \,\mathrm{d}x \\
 & = -2a \int_{-1}^1\! x \sin\left(a\sqrt{1 - x^2}\right) \,\mathrm{d}x \\
 & = -2a \left(\int_{-1}^0\! x \sin\left(a\sqrt{1 - x^2}\right) \,\mathrm{d}x + \int_0^1\! x \sin\left(a\sqrt{1 - x^2}\right) \,\mathrm{d}x\right) \\
 & = -2a \left(\int_1^0\! x \sin\left(a\sqrt{1 - x^2}\right) \,\mathrm{d}x + \int_0^1\! x \sin\left(a\sqrt{1 - x^2}\right) \,\mathrm{d}x\right) \\
@@ -353,15 +353,15 @@ One may check that the [integral](integral.md) is indeed zero by considering the
 
 > [!tip] tips
 >
-> - takeaway ::: Advanced [integration](integral.md) techniques like [Green's theorem](Green's%20theorem.md) can be used in conjunction with the Leibniz integral rule.
+> - takeaway ::@:: Advanced [integration](integral.md) techniques like [Green's theorem](Green's%20theorem.md) can be used in conjunction with the Leibniz integral rule.
 
 #### other problems to solve
 
-- integral 1: $\int _0 ^1 \! \frac {x - 1} {\ln x} \, \mathrm{d}x$ :: $\int _0 ^1 \! \frac {x^a - 1} {\ln x} \, \mathrm{d}x$
-- integral 2: $\int _0 ^{\frac \pi 2} \! \frac x {\tan x} \,\mathrm{d}x$ :: $\int _0 ^{\frac \pi 2} \! \frac {\arctan (a \tan x)} {\tan x} \,\mathrm{d}x$
-- integral 3: $\int _0 ^\infty \! \frac {\ln \left(1 + x^2\right)} {1 + x^2} \,\mathrm{d}x$ :: $\int _0 ^\infty \! \frac {\ln \left(1 + a^2 x^2\right)} {1 + x^2} \,\mathrm{d}x$
-- integral 4: $\int _0 ^1 \! (x \ln x)^n \,\mathrm{d}x \quad n \in \mathbb{N}_{\ge 0}$ :: $\int _0 ^1 \! x^a (\ln x)^n \,\mathrm{d}x \quad n \in \mathbb{N}_{\ge 0}$
-- [Dirichlet integral](Dirichlet%20integral.md): $\int _0 ^\infty \! \frac {\sin x} x \,\mathrm{d}x$ :: $\int _0 ^\infty \! e^{-ax} \frac {\sin x} x \,\mathrm{d}x$
+- integral 1: $\int _0 ^1 \! \frac {x - 1} {\ln x} \, \mathrm{d}x$ :@: $\int _0 ^1 \! \frac {x^a - 1} {\ln x} \, \mathrm{d}x$
+- integral 2: $\int _0 ^{\frac \pi 2} \! \frac x {\tan x} \,\mathrm{d}x$ :@: $\int _0 ^{\frac \pi 2} \! \frac {\arctan (a \tan x)} {\tan x} \,\mathrm{d}x$
+- integral 3: $\int _0 ^\infty \! \frac {\ln \left(1 + x^2\right)} {1 + x^2} \,\mathrm{d}x$ :@: $\int _0 ^\infty \! \frac {\ln \left(1 + a^2 x^2\right)} {1 + x^2} \,\mathrm{d}x$
+- integral 4: $\int _0 ^1 \! (x \ln x)^n \,\mathrm{d}x \quad n \in \mathbb{N}_{\ge 0}$ :@: $\int _0 ^1 \! x^a (\ln x)^n \,\mathrm{d}x \quad n \in \mathbb{N}_{\ge 0}$
+- [Dirichlet integral](Dirichlet%20integral.md): $\int _0 ^\infty \! \frac {\sin x} x \,\mathrm{d}x$ :@: $\int _0 ^\infty \! e^{-ax} \frac {\sin x} x \,\mathrm{d}x$
 
 > [!info]- proof for integral 1
 >
@@ -440,13 +440,13 @@ One may check that the [integral](integral.md) is indeed zero by considering the
 > $$\begin{aligned}
 > f(a) & = \int _0 ^1 \! x^a (\ln x)^n \,\mathrm{d}x && n \in \mathbb{N}_{\ge 0} \\
 > & = \frac {\mathrm{d}^n} {\mathrm{d}a^n} \int _0 ^1 \! x^a \,\mathrm{d}x \\
-> & = \frac {\mathrm{d}^n} {\mathrm{d}a^n} \left[ \frac {x^{a + 1}} {a + 1} \right]_{x = 0}^{x = 1} \\
+> & = \frac {\mathrm{d}^n} {\mathrm{d}a^n} \left[ \frac {x^{a + 1}@} {a + 1} \right]_{x = 0}^{x = 1} \\
 > & = \frac {\mathrm{d}^n} {\mathrm{d}a^n} \frac 1 {a + 1} \\
-> & = \frac {\mathrm{d}^{n - 1}} {\mathrm{d}a^{n - 1}} \frac {-1} {(a + 1)^2} \\
-> & = \frac {\mathrm{d}^{n - 2}} {\mathrm{d}a^{n - 2}} \frac {(-1)(-2)} {(a + 1)^3} \\
-> & = \frac{(-1)^n n!}{(a + 1)^{n + 1}} \\
-> f(n) & = \frac {(-1)^n n!} {(n + 1)^{n + 1}} \\
-> \int _0 ^1 \! (x \ln x)^n \,\mathrm{d}x & = \frac {(-1)^n n!} {(n + 1)^{n + 1}} \quad n \in \mathbb{N}_{\ge 0}
+> & = \frac {\mathrm{d}^{n - 1}@} {\mathrm{d}a^{n - 1}@} \frac {-1} {(a + 1)^2} \\
+> & = \frac {\mathrm{d}^{n - 2}@} {\mathrm{d}a^{n - 2}@} \frac {(-1)(-2)} {(a + 1)^3} \\
+> & = \frac{(-1)^n n!}{(a + 1)^{n + 1}@} \\
+> f(n) & = \frac {(-1)^n n!} {(n + 1)^{n + 1}@} \\
+> \int _0 ^1 \! (x \ln x)^n \,\mathrm{d}x & = \frac {(-1)^n n!} {(n + 1)^{n + 1}@} \quad n \in \mathbb{N}_{\ge 0}
 > \end{aligned}$$
 
 <!-- markdownlint MD028 -->
@@ -539,7 +539,7 @@ One may check that the [integral](integral.md) is indeed zero by considering the
 > 0 \le \left\lvert 2a \int_0^\infty\! e^{-2x} \frac{\sin^2 \frac x a}x \,\mathrm{d}x \right\rvert & = 2a \int_0^\infty\! \left\lvert e^{-2x} \frac{\sin^2 \frac{x}a}{x} \right\rvert \,\mathrm{d}x && (\text{assuming } a > 0) \\
 > & = 2a \int_0^\infty\! e^{-2x} \frac{\sin^2 \frac{x}a}{x} \,\mathrm{d}x \\
 > & = 2a \left(\int_0^a\! e^{-2x} \frac{\sin^2 \frac x a}{x} \,\mathrm{d}x + \int_a^1\! e^{-2x} \frac{\sin^2 \frac x a}{x} \,\mathrm{d}x + \int_1^\infty\! e^{-2x} \frac{\sin^2 \frac x a}{x} \,\mathrm{d}x \right) \\
-> & \le 2a \left(\int_0^a\! \frac{\frac {x^2} {a^2}}{x} \,\mathrm{d}x + \int_a^1\! \frac{1}{x} \,\mathrm{d}x + \int_1^\infty\! e^{-2x} \,\mathrm{d}x \right) && (\text{replace integrands with larger integrands}) \\
+> & \le 2a \left(\int_0^a\! \frac{\frac {x^2} {a^2}@}{x} \,\mathrm{d}x + \int_a^1\! \frac{1}{x} \,\mathrm{d}x + \int_1^\infty\! e^{-2x} \,\mathrm{d}x \right) && (\text{replace integrands with larger integrands}) \\
 > & = 2a \left(\frac12 - \ln a + \frac1{2 e^2} \right) \\
 > 0 \le \lim_{a \to 0^+} \left\lvert 2a \int_0^\infty\! e^{-2x} \frac{\sin^2 \frac x a}x \,\mathrm{d}x \right\rvert & \le \lim_{a \to 0^+} 2a \left(\frac12 - \ln a + \frac1{2 e^2} \right) \\
 > & = 0 \\
@@ -558,10 +558,10 @@ One may check that the [integral](integral.md) is indeed zero by considering the
 >
 > $$\begin{aligned}
 > 0 \le \int_0^\infty\! \left(\frac{\sin x}x\right)^2 \,\mathrm{d}x - \int_0^\infty\! e^{-2ax} \left(\frac{\sin x}x\right)^2 \,\mathrm{d}x & = \int_0^\infty\! \left(1 - e^{-2ax}\right) \left(\frac{\sin x}x\right)^2 \,\mathrm{d}x \\
-> & = \int_0^{\frac1{\sqrt a}}\! \left(1 - e^{-2ax}\right) \left(\frac{\sin x}x\right)^2 \,\mathrm{d}x + \int_{\frac1{\sqrt a}}^\infty\! \left(1 - e^{-2ax}\right) \left(\frac{\sin x}x\right)^2 \,\mathrm{d}x \\
-> & \le \int_0^{\frac1{\sqrt a}}\! \left(1 - e^{-2a \frac1{\sqrt a}}\right) \left(\frac{\sin x}x\right)^2 \,\mathrm{d}x + \int_{\frac1{\sqrt a}}^\infty\! \left(\frac{\sin x}x\right)^2 \,\mathrm{d}x && (\text{replace integrands with larger integrands, assuming } a > 0) \\
-> & = \left(1 - e^{-2\sqrt a}\right) \int_0^{\frac1{\sqrt a}}\! \left(\frac{\sin x}x\right)^2 \,\mathrm{d}x + \int_{\frac1{\sqrt a}}^\infty\! \left(\frac{\sin x}x\right)^2 \,\mathrm{d}x \\
-> 0 \le \lim_{a \to 0^+} \left( \int_0^\infty\! \left(\frac{\sin x}x\right)^2 \,\mathrm{d}x - \int_0^\infty\! e^{-2ax} \left(\frac{\sin x}x\right)^2 \,\mathrm{d}x \right) & \le \lim_{a \to 0^+} \left( \left(1 - e^{-2\sqrt a}\right) \int_0^{\frac1{\sqrt a}}\! \left(\frac{\sin x}x\right)^2 \,\mathrm{d}x + \int_{\frac1{\sqrt a}}^\infty\! \left(\frac{\sin x}x\right)^2 \,\mathrm{d}x \right) \\
+> & = \int_0^{\frac1{\sqrt a}@}\! \left(1 - e^{-2ax}\right) \left(\frac{\sin x}x\right)^2 \,\mathrm{d}x + \int_{\frac1{\sqrt a}@}^\infty\! \left(1 - e^{-2ax}\right) \left(\frac{\sin x}x\right)^2 \,\mathrm{d}x \\
+> & \le \int_0^{\frac1{\sqrt a}@}\! \left(1 - e^{-2a \frac1{\sqrt a}@}\right) \left(\frac{\sin x}x\right)^2 \,\mathrm{d}x + \int_{\frac1{\sqrt a}@}^\infty\! \left(\frac{\sin x}x\right)^2 \,\mathrm{d}x && (\text{replace integrands with larger integrands, assuming } a > 0) \\
+> & = \left(1 - e^{-2\sqrt a}\right) \int_0^{\frac1{\sqrt a}@}\! \left(\frac{\sin x}x\right)^2 \,\mathrm{d}x + \int_{\frac1{\sqrt a}@}^\infty\! \left(\frac{\sin x}x\right)^2 \,\mathrm{d}x \\
+> 0 \le \lim_{a \to 0^+} \left( \int_0^\infty\! \left(\frac{\sin x}x\right)^2 \,\mathrm{d}x - \int_0^\infty\! e^{-2ax} \left(\frac{\sin x}x\right)^2 \,\mathrm{d}x \right) & \le \lim_{a \to 0^+} \left( \left(1 - e^{-2\sqrt a}\right) \int_0^{\frac1{\sqrt a}@}\! \left(\frac{\sin x}x\right)^2 \,\mathrm{d}x + \int_{\frac1{\sqrt a}@}^\infty\! \left(\frac{\sin x}x\right)^2 \,\mathrm{d}x \right) \\
 > & = 0 + 0 && \left(\int_0^\infty\! \left(\frac{\sin x}x\right)^2 \,\mathrm{d}x \text{ is convergent}\right) \\
 > & = 0 \\
 > \lim_{a \to 0^+} \left( \int_0^\infty\! \left(\frac{\sin x}x\right)^2 \,\mathrm{d}x - \int_0^\infty\! e^{-2ax} \left(\frac{\sin x}x\right)^2 \,\mathrm{d}x \right) & = 0 \\
@@ -586,7 +586,7 @@ One may check that the [integral](integral.md) is indeed zero by considering the
 
 > [!tip] tips
 >
-> - takeaway ::: The Leibniz integral rule can be used to simplify integrands, though be aware of the conditions. Also, [inequalities](inequality%20(mathematics).md) can be used to evaluate [integrals](integral.md) with [limits](limit%20of%20a%20function.md).
+> - takeaway ::@:: The Leibniz integral rule can be used to simplify integrands, though be aware of the conditions. Also, [inequalities](inequality%20(mathematics).md) can be used to evaluate [integrals](integral.md) with [limits](limit%20of%20a%20function.md).
 
 ## references
 

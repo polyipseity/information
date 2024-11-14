@@ -48,15 +48,15 @@ return await memorize_seq(
 
 <!--pytextgen generate section="fbda"--><!-- The following content is generated at 2024-01-04T20:17:52.437922+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←+: attracts local or overseas investment
-- +: attracts local or overseas investment→:::←+: creates job opportunities
-- +: creates job opportunities→:::←+: generates income for the government
-- +: generates income for the government→:::←+: improves infrastructure
-- +: improves infrastructure→:::←-: emits gaseous pollutants
-- -: emits gaseous pollutants→:::←-: generates waste that may be harmful or toxic
-- -: generates waste that may be harmful or toxic→:::←-: pollution control cost is high
-- -: pollution control cost is high→:::←-: safety control cost is high
-- -: safety control cost is high→:::←_(end)_
+- _(begin)_→::@::←+: attracts local or overseas investment
+- +: attracts local or overseas investment→::@::←+: creates job opportunities
+- +: creates job opportunities→::@::←+: generates income for the government
+- +: generates income for the government→::@::←+: improves infrastructure
+- +: improves infrastructure→::@::←-: emits gaseous pollutants
+- -: emits gaseous pollutants→::@::←-: generates waste that may be harmful or toxic
+- -: generates waste that may be harmful or toxic→::@::←-: pollution control cost is high
+- -: pollution control cost is high→::@::←-: safety control cost is high
+- -: safety control cost is high→::@::←_(end)_
 
 <!--/pytextgen-->
 

@@ -31,18 +31,18 @@ return await memorize_table(
 
 > | name | description |
 > |-|-|
-> | {{breathing}} |  |
-> | {{burning of fuels}} |  |
-> | {{medical use}} |  |
+> | {@{breathing}@} |  |
+> | {@{burning of fuels}@} |  |
+> | {@{medical use}@} |  |
 
 <!--/pytextgen-->
 
 <!--pytextgen generate section="aaee9e"--><!-- The following content is generated at 2024-01-04T20:17:52.289866+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←breathing
-- breathing→:::←burning of fuels
-- burning of fuels→:::←medical use
-- medical use→:::←_(end)_
+- _(begin)_→::@::←breathing
+- breathing→::@::←burning of fuels
+- burning of fuels→::@::←medical use
+- medical use→::@::←_(end)_
 
 <!--/pytextgen-->
 

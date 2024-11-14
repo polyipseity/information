@@ -34,16 +34,16 @@ return await memorize_table(
 
 > | name | description |
 > |-|-|
-> | {{[desiccant](desiccant.md)}} | {{The [anhydrous](anhydrous.md) salt is [hygroscopic](hygroscopy.md) and deliquescent.}} |
-> | {{[separation](separation%20process.md)}} | {{The solution can dissolve [alcohols](alcohol.md) but not [esters](ester.md), separating them.}} |
+> | {@{[desiccant](desiccant.md)}@} | {@{The [anhydrous](anhydrous.md) salt is [hygroscopic](hygroscopy.md) and deliquescent.}@} |
+> | {@{[separation](separation%20process.md)}@} | {@{The solution can dissolve [alcohols](alcohol.md) but not [esters](ester.md), separating them.}@} |
 
 <!--/pytextgen-->
 
 <!--pytextgen generate section="dd21"--><!-- The following content is generated at 2024-01-04T20:17:51.476474+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←[desiccant](desiccant.md)
-- [desiccant](desiccant.md)→:::←[separation](separation%20process.md)
-- [separation](separation%20process.md)→:::←_(end)_
+- _(begin)_→::@::←[desiccant](desiccant.md)
+- [desiccant](desiccant.md)→::@::←[separation](separation%20process.md)
+- [separation](separation%20process.md)→::@::←_(end)_
 
 <!--/pytextgen-->
 

@@ -13,7 +13,7 @@ tags:
 
 # coordinate covalent bond
 
-__Coordinate covalent bonding__ is {{a type of [covalent bonding](covalent%20bond.md) in which both [electrons](electron.md) are contributed by the same [atom](atom.md)}}.
+__Coordinate covalent bonding__ is {@{a type of [covalent bonding](covalent%20bond.md) in which both [electrons](electron.md) are contributed by the same [atom](atom.md)}@}.
 
 ## references
 

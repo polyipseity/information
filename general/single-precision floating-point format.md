@@ -17,7 +17,7 @@ tags:
 
 ## IEEE 754 standard
 
-This gives a precision {{from 6 to 9 [significant decimal figures](significant%20figures.md)}}.
+This gives a precision {@{from 6 to 9 [significant decimal figures](significant%20figures.md)}@}.
 
 ## references
 

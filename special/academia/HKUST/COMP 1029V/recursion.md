@@ -9,9 +9,9 @@ tags:
 
 # VBA recursion
 
-Recursion is all about {{reducing any problem to a simpler similar problem,  repeating this process until you get several base problems that are irreducible}}.
+Recursion is all about {@{reducing any problem to a simpler similar problem,  repeating this process until you get several base problems that are irreducible}@}.
 
-Usually, we {{do not use recursion}} in VBA. But if it is required, it is as simple as {{conditionally calling the method itself in a method and adding base cases to the method}}. For example, a recursive way to calculate factorial:
+Usually, we {@{do not use recursion}@} in VBA. But if it is required, it is as simple as {@{conditionally calling the method itself in a method and adding base cases to the method}@}. For example, a recursive way to calculate factorial:
 
 ```VB
 Function Factorial(N):

@@ -13,9 +13,9 @@ tags:
 
 # stellar corona
 
-A __corona__ (pl.: coronas or coronae) is {{the outermost layer of a [star](star.md)'s [atmosphere](stellar%20atmosphere.md)}}. It is {{a hot but relatively [dim](luminosity.md) region of [plasma](plasma%20(physics).md) populated by intermittent __coronal__ structures known as [solar prominences](solar%20prominence.md) or filaments}}.
+A __corona__ (pl.: coronas or coronae) is {@{the outermost layer of a [star](star.md)'s [atmosphere](stellar%20atmosphere.md)}@}. It is {@{a hot but relatively [dim](luminosity.md) region of [plasma](plasma%20(physics).md) populated by intermittent __coronal__ structures known as [solar prominences](solar%20prominence.md) or filaments}@}.
 
-[Spectroscopic](spectroscopy.md) measurements indicate {{strong [ionization](ionization.md) in the corona}} and a plasma temperature {{in excess of 1 million [kelvins](Kelvin.md), much hotter than the surface of the [Sun](Sun.md), known as the [photosphere](photosphere.md)}}.
+[Spectroscopic](spectroscopy.md) measurements indicate {@{strong [ionization](ionization.md) in the corona}@} and a plasma temperature {@{in excess of 1 million [kelvins](Kelvin.md), much hotter than the surface of the [Sun](Sun.md), known as the [photosphere](photosphere.md)}@}.
 
 ## references
 

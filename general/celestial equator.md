@@ -9,7 +9,7 @@ tags:
 
 # celestial equator
 
-The __celestial equator__ is {{the [great circle](great%20circle.md) of the imaginary [celestial sphere](celestial%20sphere.md) on the same plane as the [equator](equator.md) of [Earth](Earth.md)}}.
+The __celestial equator__ is {@{the [great circle](great%20circle.md) of the imaginary [celestial sphere](celestial%20sphere.md) on the same plane as the [equator](equator.md) of [Earth](Earth.md)}@}.
 
 ## references
 

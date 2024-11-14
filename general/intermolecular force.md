@@ -14,9 +14,9 @@ tags:
 # import ../../tools/utility.py.md
 ```
 
-__Intermolecular forces__ are {{attractive or replusive [forces](force.md) between [molecules](molecule.md)}}. They are {{relatively weak}} compared to [intramolecular forces](intramolecular%20force.md).
+__Intermolecular forces__ are {@{attractive or replusive [forces](force.md) between [molecules](molecule.md)}@}. They are {@{relatively weak}@} compared to [intramolecular forces](intramolecular%20force.md).
 
-Attractive forces include {{[van der Waals forces](van%20der%20Waals%20force.md), [hydrogen bond](hydrogen%20bond.md), and [ion](ion.md)–(induced) dipole forces}}.
+Attractive forces include {@{[van der Waals forces](van%20der%20Waals%20force.md), [hydrogen bond](hydrogen%20bond.md), and [ion](ion.md)–(induced) dipole forces}@}.
 
 ## relative strength
 
@@ -39,18 +39,18 @@ return await memorize_table(
 
 > | type | dissociation energy |
 > |-|-|
-> | {{[covalent bond](covalent%20bond.md)}} | {{130–1100 kJ/mol}} |
-> | {{[hydrogen bond](hydrogen%20bond.md)}} | {{4–50 kJ/mol}} |
-> | {{[London dispersion force](London%20dispersion%20force.md)}} | {{0.01–63 kJ/mol}} |
+> | {@{[covalent bond](covalent%20bond.md)}@} | {@{130–1100 kJ/mol}@} |
+> | {@{[hydrogen bond](hydrogen%20bond.md)}@} | {@{4–50 kJ/mol}@} |
+> | {@{[London dispersion force](London%20dispersion%20force.md)}@} | {@{0.01–63 kJ/mol}@} |
 
 <!--/pytextgen-->
 
 <!--pytextgen generate section="ff83"--><!-- The following content is generated at 2024-03-07T00:12:03.503454+08:00. Any edits will be overridden! -->
 
-- _(strongest)_→:::←[covalent bond](covalent%20bond.md)
-- [covalent bond](covalent%20bond.md)→:::←[hydrogen bond](hydrogen%20bond.md)
-- [hydrogen bond](hydrogen%20bond.md)→:::←[London dispersion force](London%20dispersion%20force.md)
-- [London dispersion force](London%20dispersion%20force.md)→:::←_(weakest)_
+- _(strongest)_→::@::←[covalent bond](covalent%20bond.md)
+- [covalent bond](covalent%20bond.md)→::@::←[hydrogen bond](hydrogen%20bond.md)
+- [hydrogen bond](hydrogen%20bond.md)→::@::←[London dispersion force](London%20dispersion%20force.md)
+- [London dispersion force](London%20dispersion%20force.md)→::@::←_(weakest)_
 
 <!--/pytextgen-->
 

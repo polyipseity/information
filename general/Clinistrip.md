@@ -10,11 +10,11 @@ tags:
 
 # Clinistrip
 
-{{__Clinistrip__, also known as __Clinistix__ or __Diastix__}}, is {{a clinical stick to detect [glucose](glucose.md)}}. If the test is positive, it {{changes from green to brown}}.
+{@{__Clinistrip__, also known as __Clinistix__ or __Diastix__}@}, is {@{a clinical stick to detect [glucose](glucose.md)}@}. If the test is positive, it {@{changes from green to brown}@}.
 
 > [!tip] tips
 >
-> - color change [mnemonic](mnemonic.md) ::: eating disgusting (green, 🤢) brown sugar
+> - color change [mnemonic](mnemonic.md) ::@:: eating disgusting (green, 🤢) brown sugar
 
 ## see also
 

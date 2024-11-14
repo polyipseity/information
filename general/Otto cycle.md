@@ -48,13 +48,13 @@ return await memorize_seq(
 
 <!--pytextgen generate section="f023"--><!-- The following content is generated at 2024-01-04T20:17:52.283870+08:00. Any edits will be overridden! -->
 
-- _(starts outside the cycle in the [PV diagram](pressure–volume%20diagram.md))_→:::←__[isobaric](isobaric%20process.md) expansion__: [volume](volume.md) increases from $V_0$ to $V_1$ and [work](work%20(physics).md) is done; usually ignored when analyzing the [thermodynamic cycle](thermodynamic%20cycle.md)
-- __[isobaric](isobaric%20process.md) expansion__: [volume](volume.md) increases from $V_0$ to $V_1$ and [work](work%20(physics).md) is done; usually ignored when analyzing the [thermodynamic cycle](thermodynamic%20cycle.md)→:::←__[isentropic](isentropic%20process.md) compression__: [volume](volume.md) decreases from $V_1$ to $V_0$, [pressure](pressure.md) increases, and [work](work%20(physics).md) is received
-- __[isentropic](isentropic%20process.md) compression__: [volume](volume.md) decreases from $V_1$ to $V_0$, [pressure](pressure.md) increases, and [work](work%20(physics).md) is received→:::←__[isochoric](isochoric%20process.md) heating__: [pressure](pressure.md) increases
-- __[isochoric](isochoric%20process.md) heating__: [pressure](pressure.md) increases→:::←__[isentropic](isentropic%20process.md) expansion__: [volume](volume.md) increases from $V_0$ to $V_1$, [pressure](pressure.md) decreases, and [work](work%20(physics).md) is done
-- __[isentropic](isentropic%20process.md) expansion__: [volume](volume.md) increases from $V_0$ to $V_1$, [pressure](pressure.md) decreases, and [work](work%20(physics).md) is done→:::←__[isochoric](isochoric%20process.md) cooling__: [pressure](pressure.md) decreases
-- __[isochoric](isochoric%20process.md) cooling__: [pressure](pressure.md) decreases→:::←__[isobaric](isobaric%20process.md) compression__: [volume](volume.md) decreases from $V_1$ to $V_0$ and [work](work%20(physics).md) is received; usually ignored when analyzing the [thermodynamic cycle](thermodynamic%20cycle.md)
-- __[isobaric](isobaric%20process.md) compression__: [volume](volume.md) decreases from $V_1$ to $V_0$ and [work](work%20(physics).md) is received; usually ignored when analyzing the [thermodynamic cycle](thermodynamic%20cycle.md)→:::←_(ends outside the cycle in the [PV diagram](pressure–volume%20diagram.md))_
+- _(starts outside the cycle in the [PV diagram](pressure–volume%20diagram.md))_→::@::←__[isobaric](isobaric%20process.md) expansion__: [volume](volume.md) increases from $V_0$ to $V_1$ and [work](work%20(physics).md) is done; usually ignored when analyzing the [thermodynamic cycle](thermodynamic%20cycle.md)
+- __[isobaric](isobaric%20process.md) expansion__: [volume](volume.md) increases from $V_0$ to $V_1$ and [work](work%20(physics).md) is done; usually ignored when analyzing the [thermodynamic cycle](thermodynamic%20cycle.md)→::@::←__[isentropic](isentropic%20process.md) compression__: [volume](volume.md) decreases from $V_1$ to $V_0$, [pressure](pressure.md) increases, and [work](work%20(physics).md) is received
+- __[isentropic](isentropic%20process.md) compression__: [volume](volume.md) decreases from $V_1$ to $V_0$, [pressure](pressure.md) increases, and [work](work%20(physics).md) is received→::@::←__[isochoric](isochoric%20process.md) heating__: [pressure](pressure.md) increases
+- __[isochoric](isochoric%20process.md) heating__: [pressure](pressure.md) increases→::@::←__[isentropic](isentropic%20process.md) expansion__: [volume](volume.md) increases from $V_0$ to $V_1$, [pressure](pressure.md) decreases, and [work](work%20(physics).md) is done
+- __[isentropic](isentropic%20process.md) expansion__: [volume](volume.md) increases from $V_0$ to $V_1$, [pressure](pressure.md) decreases, and [work](work%20(physics).md) is done→::@::←__[isochoric](isochoric%20process.md) cooling__: [pressure](pressure.md) decreases
+- __[isochoric](isochoric%20process.md) cooling__: [pressure](pressure.md) decreases→::@::←__[isobaric](isobaric%20process.md) compression__: [volume](volume.md) decreases from $V_1$ to $V_0$ and [work](work%20(physics).md) is received; usually ignored when analyzing the [thermodynamic cycle](thermodynamic%20cycle.md)
+- __[isobaric](isobaric%20process.md) compression__: [volume](volume.md) decreases from $V_1$ to $V_0$ and [work](work%20(physics).md) is received; usually ignored when analyzing the [thermodynamic cycle](thermodynamic%20cycle.md)→::@::←_(ends outside the cycle in the [PV diagram](pressure–volume%20diagram.md))_
 
 <!--/pytextgen-->
 
@@ -62,10 +62,10 @@ return await memorize_seq(
 
 > __maximum thermal efficiency of a Otto cycle__
 >
-> {{$$\eta_\mathrm{th} = 1 - \frac1{r^{\gamma - 1} }$$}}
+> {@{$$\eta_\mathrm{th} = 1 - \frac1{r^{\gamma - 1} }$$}@}
 >
 > - where
->   - {{$\gamma$ is the [heat capacity ratio](heat%20capacity%20ratio.md) and $r = \frac{V_1}{V_2}$ is the [compression ratio](compression%20ratio.md) (i.e. the ratio of the [volume](volume.md) at its maximum over that at its minimum)}}
+>   - {@{$\gamma$ is the [heat capacity ratio](heat%20capacity%20ratio.md) and $r = \frac{V_1}{V_2}$ is the [compression ratio](compression%20ratio.md) (i.e. the ratio of the [volume](volume.md) at its maximum over that at its minimum)}@}
 
 ## references
 

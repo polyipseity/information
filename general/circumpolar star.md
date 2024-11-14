@@ -9,7 +9,7 @@ tags:
 
 # circumpolar star
 
-A __circumpolar star__ is {{a [star](star.md) that, as viewed from a given [latitude](latitude.md) on [Earth](Earth.md), never sets below the [horizon](horizon.md) due to its apparent proximity to one of the [celestial poles](celestial%20pole.md)}}.
+A __circumpolar star__ is {@{a [star](star.md) that, as viewed from a given [latitude](latitude.md) on [Earth](Earth.md), never sets below the [horizon](horizon.md) due to its apparent proximity to one of the [celestial poles](celestial%20pole.md)}@}.
 
 ## references
 

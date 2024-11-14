@@ -33,17 +33,17 @@ tags:
 
 ## sine integral
 
-> {{__Si(x), si(x)__}}
+> {@{__Si(x), si(x)__}@}
 >
-> - {{$\operatorname{Si}(x)=\int _0 ^x \! \frac {\sin t} t \,\mathrm{d}t$}}
-> - {{$\operatorname{si}(x)=\int _\infty ^x \!\frac{\sin{t} }t\,\mathrm{d}t=\operatorname{Si}(x)-\frac\pi2$}}
+> - {@{$\operatorname{Si}(x)=\int _0 ^x \! \frac {\sin t} t \,\mathrm{d}t$}@}
+> - {@{$\operatorname{si}(x)=\int _\infty ^x \!\frac{\sin{t} }t\,\mathrm{d}t=\operatorname{Si}(x)-\frac\pi2$}@}
 
 ## cosine integral
 
-> {{__Cin(x), Ci(x)__}}
+> {@{__Cin(x), Ci(x)__}@}
 >
-> - {{$\operatorname{Cin}(x)=\int _0 ^x \! \frac {1 - \cos t} t \,\mathrm{d}t$}}
-> - {{$\operatorname{Ci}(x)=\int _\infty ^x \! \frac{\cos t} t \,\mathrm{d}t = \gamma + \ln x - \operatorname{Cin}(x)$}}
+> - {@{$\operatorname{Cin}(x)=\int _0 ^x \! \frac {1 - \cos t} t \,\mathrm{d}t$}@}
+> - {@{$\operatorname{Ci}(x)=\int _\infty ^x \! \frac{\cos t} t \,\mathrm{d}t = \gamma + \ln x - \operatorname{Cin}(x)$}@}
 > - where
 >   - $\gamma$ is the [Euler's constant](Euler's%20constant.md)
 

@@ -13,7 +13,7 @@ tags:
 
 # natural satellite
 
-A __natural satellite__ is, in the most common usage, {{an [astronomical body](astronomical%20object.md) that [orbits](orbit.md) a [planet](plant.md), [dwarf planet](dwarf%20planet.md), or [small Solar System body](small%20Solar%20System%20body.md) (or sometimes another natural satellite)}}. Natural satellites are colloquially {{referred to as __moons__, a derivation from the [Moon](Moon.md) of [Earth](Earth.md)}}.
+A __natural satellite__ is, in the most common usage, {@{an [astronomical body](astronomical%20object.md) that [orbits](orbit.md) a [planet](plant.md), [dwarf planet](dwarf%20planet.md), or [small Solar System body](small%20Solar%20System%20body.md) (or sometimes another natural satellite)}@}. Natural satellites are colloquially {@{referred to as __moons__, a derivation from the [Moon](Moon.md) of [Earth](Earth.md)}@}.
 
 ## references
 

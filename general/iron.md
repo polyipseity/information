@@ -32,14 +32,14 @@ return await memorize_table(
 
 > | name | description |
 > |-|-|
-> | {{constructions, car and ship bodies}} | {{cheap, [ductile](ductility.md), [hard](hardness.md), [malleable](malleability.md), [strong](strength%20of%20materials.md)}} |
+> | {@{constructions, car and ship bodies}@} | {@{cheap, [ductile](ductility.md), [hard](hardness.md), [malleable](malleability.md), [strong](strength%20of%20materials.md)}@} |
 
 <!--/pytextgen-->
 
 <!--pytextgen generate section="5c03"--><!-- The following content is generated at 2024-01-04T20:17:51.851124+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←constructions, car and ship bodies
-- constructions, car and ship bodies→:::←_(end)_
+- _(begin)_→::@::←constructions, car and ship bodies
+- constructions, car and ship bodies→::@::←_(end)_
 
 <!--/pytextgen-->
 

@@ -16,7 +16,7 @@ tags:
 
 ## operators
 
-The operator precedence for the 3 types of operators introduced below is {{[arithmetic operators](#arithmetic%20operators), [comparison operators](#comparison%20operators), and finally [logic operators](#logic%20operators)}}. Note that this only considers operators mentioned below and not any others omitted.
+The operator precedence for the 3 types of operators introduced below is {@{[arithmetic operators](#arithmetic%20operators), [comparison operators](#comparison%20operators), and finally [logic operators](#logic%20operators)}@}. Note that this only considers operators mentioned below and not any others omitted.
 
 ### arithmetic operators
 
@@ -65,32 +65,32 @@ return _chain.from_iterable(await _gather(
 
 <!--pytextgen generate section="f21a"--><!-- The following content is generated at 2024-01-30T13:35:46.598807+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←`**`
-- `**`→:::←`*`
-- `*`→:::←`/`
-- `/`→:::←`//`
-- `//`→:::←`%`
-- `%`→:::←`+`
-- `+`→:::←`-`
-- `-`→:::←_(end)_
+- _(begin)_→::@::←`**`
+- `**`→::@::←`*`
+- `*`→::@::←`/`
+- `/`→::@::←`//`
+- `//`→::@::←`%`
+- `%`→::@::←`+`
+- `+`→::@::←`-`
+- `-`→::@::←_(end)_
 
 <!--/pytextgen-->
 
 <!--pytextgen generate section="9cda"--><!-- The following content is generated at 2024-01-30T13:35:46.549289+08:00. Any edits will be overridden! -->
 
-- `**`::power
-- `*`::multiplication
-- `/`::division
-- `//`::floor division
-- `%`::remainder; the resulting sign is the same as the divider, i.e. the number after the operator
-- `+`::addition
-- `-`::subtraction
+- `**`:@:power
+- `*`:@:multiplication
+- `/`:@:division
+- `//`:@:floor division
+- `%`:@:remainder; the resulting sign is the same as the divider, i.e. the number after the operator
+- `+`:@:addition
+- `-`:@:subtraction
 
 <!--/pytextgen-->
 
 ### comparison operators
 
-Below are common comparison operators, all of which returns {{a boolean}}. Operators have higher precedence than or same precedence as operators below it in the list:
+Below are common comparison operators, all of which returns {@{a boolean}@}. Operators have higher precedence than or same precedence as operators below it in the list:
 
 ```Python
 # pytextgen generate data
@@ -135,36 +135,36 @@ return _chain.from_iterable(await _gather(
 
 <!--pytextgen generate section="d123"--><!-- The following content is generated at 2024-01-30T13:35:46.633801+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←`in`
-- `in`→:::←`<`
-- `<`→:::←`<=`
-- `<=`→:::←`>`
-- `>`→:::←`>=`
-- `>=`→:::←`!=`
-- `!=`→:::←`==`
-- `==`→:::←_(end)_
+- _(begin)_→::@::←`in`
+- `in`→::@::←`<`
+- `<`→::@::←`<=`
+- `<=`→::@::←`>`
+- `>`→::@::←`>=`
+- `>=`→::@::←`!=`
+- `!=`→::@::←`==`
+- `==`→::@::←_(end)_
 
 <!--/pytextgen-->
 
 <!--pytextgen generate section="cc23"--><!-- The following content is generated at 2024-01-30T13:35:46.619801+08:00. Any edits will be overridden! -->
 
-- `in`::membership test
-- `<`::lesser than
-- `<=`::lesser than or equal to
-- `>`::greater than
-- `>=`::greater than or equal to
-- `!=`::not equal to
-- `==`::equal to
+- `in`:@:membership test
+- `<`:@:lesser than
+- `<=`:@:lesser than or equal to
+- `>`:@:greater than
+- `>=`:@:greater than or equal to
+- `!=`:@:not equal to
+- `==`:@:equal to
 
 <!--/pytextgen-->
 
-Do not mix up the equal to operator `==` and {{the assignment operator `=`}}.
+Do not mix up the equal to operator `==` and {@{the assignment operator `=`}@}.
 
-Also, one CAN chain {{comparison operators in Python, unlike other languages. For example, `2 <= aNumber <= 5` is equivalent to `2 <= aNumber and aNumber <= 5` except that `aNumber` is evaluated only once. In fact, you can chain any numbers of comparison operators together, even if they do not make sense together as a whole, such as `2 <= aNumber >= 2` being equivalent to `2 <= aNumber and aNumber >= 2` except that `aNumber` is evaluated only once}}. See <https://docs.python.org/3/reference/expressions.html#comparisons>.
+Also, one CAN chain {@{comparison operators in Python, unlike other languages. For example, `2 <= aNumber <= 5` is equivalent to `2 <= aNumber and aNumber <= 5` except that `aNumber` is evaluated only once. In fact, you can chain any numbers of comparison operators together, even if they do not make sense together as a whole, such as `2 <= aNumber >= 2` being equivalent to `2 <= aNumber and aNumber >= 2` except that `aNumber` is evaluated only once}@}. See <https://docs.python.org/3/reference/expressions.html#comparisons>.
 
 ### logic operators
 
-Below are common logic operators, all of which {{accept two booleans and return a boolean}}. Operators have higher precedence than or same precedence as operators below it in the list:
+Below are common logic operators, all of which {@{accept two booleans and return a boolean}@}. Operators have higher precedence than or same precedence as operators below it in the list:
 
 ```Python
 # pytextgen generate data
@@ -201,29 +201,29 @@ return _chain.from_iterable(await _gather(
 
 <!--pytextgen generate section="d882"--><!-- The following content is generated at 2024-01-30T13:35:46.722323+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←`not`
-- `not`→:::←`and`
-- `and`→:::←`or`
-- `or`→:::←_(end)_
+- _(begin)_→::@::←`not`
+- `not`→::@::←`and`
+- `and`→::@::←`or`
+- `or`→::@::←_(end)_
 
 <!--/pytextgen-->
 
 <!--pytextgen generate section="ee13"--><!-- The following content is generated at 2024-01-30T13:35:46.696328+08:00. Any edits will be overridden! -->
 
-- `not`::negate
-- `and`::and
-- `or`::or
+- `not`:@:negate
+- `and`:@:and
+- `or`:@:or
 
 <!--/pytextgen-->
 
 ## variable
 
-To assign a value or the result of an expression to a variable, use {{`=`}}:
+To assign a value or the result of an expression to a variable, use {@{`=`}@}:
 
 ```Python
 variableName = 1 + 2
 ```
 
-One does not need to {{declare the variable and its type before assigning to it}}.
+One does not need to {@{declare the variable and its type before assigning to it}@}.
 
-Variable names are {{case sensitive, cannot be keywords, cannot have some characters like spaces, and cannot begin with some characters like numbers}}.
+Variable names are {@{case sensitive, cannot be keywords, cannot have some characters like spaces, and cannot begin with some characters like numbers}@}.

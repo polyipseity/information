@@ -62,21 +62,21 @@ return (
 
 <!--pytextgen generate section="123480"--><!-- The following content is generated at 2024-01-04T20:17:51.453474+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←[N<sub>2</sub>](nitrogen.md)
-- [N<sub>2</sub>](nitrogen.md)→:::←[O<sub>2</sub>](oxygen.md)
-- [O<sub>2</sub>](oxygen.md)→:::←[Ar](argon.md)
-- [Ar](argon.md)→:::←[CO<sub>2</sub>](carbon%20dioxide.md)
-- [CO<sub>2</sub>](carbon%20dioxide.md)→:::←_others_
-- _others_→:::←_(end)_
+- _(begin)_→::@::←[N<sub>2</sub>](nitrogen.md)
+- [N<sub>2</sub>](nitrogen.md)→::@::←[O<sub>2</sub>](oxygen.md)
+- [O<sub>2</sub>](oxygen.md)→::@::←[Ar](argon.md)
+- [Ar](argon.md)→::@::←[CO<sub>2</sub>](carbon%20dioxide.md)
+- [CO<sub>2</sub>](carbon%20dioxide.md)→::@::←_others_
+- _others_→::@::←_(end)_
 
 <!--/pytextgen-->
 
 <!--pytextgen generate section="1ad236"--><!-- The following content is generated at 2024-01-04T20:17:51.424468+08:00. Any edits will be overridden! -->
 
-- [N<sub>2</sub>](nitrogen.md)::78.084%
-- [O<sub>2</sub>](oxygen.md)::20.946%
-- [Ar](argon.md)::0.9340%
-- [CO<sub>2</sub>](carbon%20dioxide.md)::0.0417% (2022-04-xx)
+- [N<sub>2</sub>](nitrogen.md):@:78.084%
+- [O<sub>2</sub>](oxygen.md):@:20.946%
+- [Ar](argon.md):@:0.9340%
+- [CO<sub>2</sub>](carbon%20dioxide.md):@:0.0417% (2022-04-xx)
 
 <!--/pytextgen-->
 

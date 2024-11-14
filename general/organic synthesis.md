@@ -35,22 +35,22 @@ return await memorize_table(
 
 > | name | description |
 > |-|-|
-> | {{availability}} | {{[Reagents](reagent.md) should be readily available and cheap.}} |
-> | {{formation of [by-products](by-product.md)}} | {{Avoid forming [by-products](by-product.md), especially harmful ones.}} |
-> | {{number of steps}} | {{Less steps mean less loss.}} |
-> | {{[reaction rate](reaction%20rate.md)}} | {{[Catalysts](catalysis.md) and high [temperature](temperature.md) can hasten slow organic reactions at the expense of higher production cost.}} |
-> | {{[yield](yield%20(chemistry).md)}} | {{Organic reactions seldom give 100% [yield](yield%20(chemistry).md).}} |
+> | {@{availability}@} | {@{[Reagents](reagent.md) should be readily available and cheap.}@} |
+> | {@{formation of [by-products](by-product.md)}@} | {@{Avoid forming [by-products](by-product.md), especially harmful ones.}@} |
+> | {@{number of steps}@} | {@{Less steps mean less loss.}@} |
+> | {@{[reaction rate](reaction%20rate.md)}@} | {@{[Catalysts](catalysis.md) and high [temperature](temperature.md) can hasten slow organic reactions at the expense of higher production cost.}@} |
+> | {@{[yield](yield%20(chemistry).md)}@} | {@{Organic reactions seldom give 100% [yield](yield%20(chemistry).md).}@} |
 
 <!--/pytextgen-->
 
 <!--pytextgen generate section="2939"--><!-- The following content is generated at 2024-01-04T20:17:52.393394+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←availability
-- availability→:::←formation of [by-products](by-product.md)
-- formation of [by-products](by-product.md)→:::←number of steps
-- number of steps→:::←[reaction rate](reaction%20rate.md)
-- [reaction rate](reaction%20rate.md)→:::←[yield](yield%20(chemistry).md)
-- [yield](yield%20(chemistry).md)→:::←_(end)_
+- _(begin)_→::@::←availability
+- availability→::@::←formation of [by-products](by-product.md)
+- formation of [by-products](by-product.md)→::@::←number of steps
+- number of steps→::@::←[reaction rate](reaction%20rate.md)
+- [reaction rate](reaction%20rate.md)→::@::←[yield](yield%20(chemistry).md)
+- [yield](yield%20(chemistry).md)→::@::←_(end)_
 
 <!--/pytextgen-->
 

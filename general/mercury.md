@@ -32,14 +32,14 @@ return await memorize_table(
 
 > | name | description |
 > |-|-|
-> | {{[thermometers](thermometer.md)}} | {{[liquid](liquid.md) at room temperature and pressure, near linear [thermal expansion](thermal%20expansion.md)}} |
+> | {@{[thermometers](thermometer.md)}@} | {@{[liquid](liquid.md) at room temperature and pressure, near linear [thermal expansion](thermal%20expansion.md)}@} |
 
 <!--/pytextgen-->
 
 <!--pytextgen generate section="fda3"--><!-- The following content is generated at 2024-01-04T20:17:52.113769+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←[thermometers](thermometer.md)
-- [thermometers](thermometer.md)→:::←_(end)_
+- _(begin)_→::@::←[thermometers](thermometer.md)
+- [thermometers](thermometer.md)→::@::←_(end)_
 
 <!--/pytextgen-->
 

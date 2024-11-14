@@ -41,11 +41,11 @@ Lectures are 3 hours 50 minutes long officially, but can be longer in practice. 
 
 ## ethical hacking
 
-Principles of ethical hacking include {{complying with laws, seeking approval, and investigate system vulnerabilities for fixing them only}}.
+Principles of ethical hacking include {@{complying with laws, seeking approval, and investigate system vulnerabilities for fixing them only}@}.
 
 For example:
 
-- after hacking ::: Cleanup all traces of hacking so that other malicious hackers cannot identify the vulnerabilities easily.
-- anomalies found ::: Report all found security breaches and vulnerabilities to the system administrators.
-- before hacking ::: Seek authorization and approval from the system administrators, and state the scope of your assessment and your plan clearly to them.
-- confidentiality ::: Keep all learnt vulnerabilities confidential and do not utilize them detrimentally to the system owners.
+- after hacking ::@:: Cleanup all traces of hacking so that other malicious hackers cannot identify the vulnerabilities easily.
+- anomalies found ::@:: Report all found security breaches and vulnerabilities to the system administrators.
+- before hacking ::@:: Seek authorization and approval from the system administrators, and state the scope of your assessment and your plan clearly to them.
+- confidentiality ::@:: Keep all learnt vulnerabilities confidential and do not utilize them detrimentally to the system owners.

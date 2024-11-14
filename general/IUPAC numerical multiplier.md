@@ -72,51 +72,51 @@ return await memorize_map(
 
 <!--pytextgen generate section="3384"--><!-- The following content is generated at 2024-01-04T20:17:52.061211+08:00. Any edits will be overridden! -->
 
-- 1::mono-
-- 2::di-
-- 3::tri-
-- 4::tetra-
-- 5::penta-
-- 6::hexa-
-- 7::hepta-
-- 8::octa-
-- 9::nona-
-- 10::deca-
-- 11::undeca-
-- 12::dodeca-
-- 13::trideca-
-- 14::tetradeca-
-- 15::pentadeca-
-- 16::hexadeca-
-- 17::heptadeca-
-- 18::octadeca-
-- 19::nonadeca-
-- 20::icosa-
+- 1:@:mono-
+- 2:@:di-
+- 3:@:tri-
+- 4:@:tetra-
+- 5:@:penta-
+- 6:@:hexa-
+- 7:@:hepta-
+- 8:@:octa-
+- 9:@:nona-
+- 10:@:deca-
+- 11:@:undeca-
+- 12:@:dodeca-
+- 13:@:trideca-
+- 14:@:tetradeca-
+- 15:@:pentadeca-
+- 16:@:hexadeca-
+- 17:@:heptadeca-
+- 18:@:octadeca-
+- 19:@:nonadeca-
+- 20:@:icosa-
 
 <!--/pytextgen-->
 
 <!--pytextgen generate section="dd92"--><!-- The following content is generated at 2024-01-04T20:17:52.100768+08:00. Any edits will be overridden! -->
 
-- mono-::1
-- di-::2
-- tri-::3
-- tetra-::4
-- penta-::5
-- hexa-::6
-- hepta-::7
-- octa-::8
-- nona-::9
-- deca-::10
-- undeca-::11
-- dodeca-::12
-- trideca-::13
-- tetradeca-::14
-- pentadeca-::15
-- hexadeca-::16
-- heptadeca-::17
-- octadeca-::18
-- nonadeca-::19
-- icosa-::20
+- mono-:@:1
+- di-:@:2
+- tri-:@:3
+- tetra-:@:4
+- penta-:@:5
+- hexa-:@:6
+- hepta-:@:7
+- octa-:@:8
+- nona-:@:9
+- deca-:@:10
+- undeca-:@:11
+- dodeca-:@:12
+- trideca-:@:13
+- tetradeca-:@:14
+- pentadeca-:@:15
+- hexadeca-:@:16
+- heptadeca-:@:17
+- octadeca-:@:18
+- nonadeca-:@:19
+- icosa-:@:20
 
 <!--/pytextgen-->
 

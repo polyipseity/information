@@ -15,17 +15,17 @@ tags:
 
 # subroutine and function
 
-In VBA, both subroutine `Sub...End Sub` and function `Function...End Function` {{group code together}}, making them very similar things. The difference is that {{subroutines always return nothing while functions always return something}}.
+In VBA, both subroutine `Sub...End Sub` and function `Function...End Function` {@{group code together}@}, making them very similar things. The difference is that {@{subroutines always return nothing while functions always return something}@}.
 
 ## exiting
 
-You can exit a subroutine or function by {{`Exit Sub` and `Exit Function`}}.
+You can exit a subroutine or function by {@{`Exit Sub` and `Exit Function`}@}.
 
-For functions, there is no `return` keyword. Instead, it is accomplished by doing two things: {{setting the result by `FunctionName = Result` and then exiting the function}}:
+For functions, there is no `return` keyword. Instead, it is accomplished by doing two things: {@{setting the result by `FunctionName = Result` and then exiting the function}@}:
 
 ## parameters
 
-You can specify parameters by {{separating each parameter name by commas `,`}}:
+You can specify parameters by {@{separating each parameter name by commas `,`}@}:
 
 ```VB
 Function Multiply(Left, Right)
@@ -33,7 +33,7 @@ Function Multiply(Left, Right)
 End Function
 ```
 
-You can also specify the parameter types by {{appending `As ParameterType` and prepending `ByVal` to the parameter name}}. `ByVal` means {{storing the inputted value to the parameter}}. Note that {{`ByRef` is also another option apart from `ByVal`, but it will not be mentioned here}}.
+You can also specify the parameter types by {@{appending `As ParameterType` and prepending `ByVal` to the parameter name}@}. `ByVal` means {@{storing the inputted value to the parameter}@}. Note that {@{`ByRef` is also another option apart from `ByVal`, but it will not be mentioned here}@}.
 
 ```VB
 Function Multiply(ByVal Left As Integer, ByVal Right As Integer)
@@ -43,7 +43,7 @@ End Function
 
 ## return type
 
-For functions, you can specify the return type by {{appending `As ReturnType` after the parameters}}:
+For functions, you can specify the return type by {@{appending `As ReturnType` after the parameters}@}:
 
 ```VB
 Function SquareSize(SideLength) As Integer

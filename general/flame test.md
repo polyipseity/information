@@ -13,7 +13,7 @@ tags:
 
 ## procedure
 
-The test involves {{introducing the sample into a hot, non-luminous flame and observing the color of the resulting flame}}. An example workflow can be found below:
+The test involves {@{introducing the sample into a hot, non-luminous flame and observing the color of the resulting flame}@}. An example workflow can be found below:
 
 ```Python
 # pytextgen generate data
@@ -39,11 +39,11 @@ return await memorize_seq(
 
 <!--pytextgen generate section="bd92ec"--><!-- The following content is generated at 2024-01-04T20:17:51.763624+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←Moisten a clean [platinum](platinum.md) or [nichrome](nichrome.md) wire with concentrated [hydrochloric acid](hydrochloric%20acid.md).
-- Moisten a clean [platinum](platinum.md) or [nichrome](nichrome.md) wire with concentrated [hydrochloric acid](hydrochloric%20acid.md).→:::←Dip the wire into the crushed sample or [solution](solution%20(chemistry).md).
-- Dip the wire into the crushed sample or [solution](solution%20(chemistry).md).→:::←Heat the end of the wire in a hot, non-luminous flame.
-- Heat the end of the wire in a hot, non-luminous flame.→:::←Observe the color of the resulting flame.
-- Observe the color of the resulting flame.→:::←_(end)_
+- _(begin)_→::@::←Moisten a clean [platinum](platinum.md) or [nichrome](nichrome.md) wire with concentrated [hydrochloric acid](hydrochloric%20acid.md).
+- Moisten a clean [platinum](platinum.md) or [nichrome](nichrome.md) wire with concentrated [hydrochloric acid](hydrochloric%20acid.md).→::@::←Dip the wire into the crushed sample or [solution](solution%20(chemistry).md).
+- Dip the wire into the crushed sample or [solution](solution%20(chemistry).md).→::@::←Heat the end of the wire in a hot, non-luminous flame.
+- Heat the end of the wire in a hot, non-luminous flame.→::@::←Observe the color of the resulting flame.
+- Observe the color of the resulting flame.→::@::←_(end)_
 
 <!--/pytextgen-->
 
@@ -81,33 +81,33 @@ return await memorize_map(
 
 <!--pytextgen generate section="2837ca"--><!-- The following content is generated at 2024-01-04T20:17:51.882656+08:00. Any edits will be overridden! -->
 
-- [calcium](calcium.md)::brick red, light green (through [cobalt blue glass](cobalt%20glass.md))
-- [copper](copper.md)(I)::blue-green
-- [copper](copper.md)(II)::green (non-halide), blue-green (halide)
-- [iron](iron.md)(II)::blue (very hot), gold, green to orange-brown, sparks
-- [iron](iron.md)(III)::orange-brown
-- [magnesium](magnesium.md)::intense white
-- [potassium](potassium.md)::lilac, invisible (through [cobalt blue glass](cobalt%20glass.md))
-- [sodium](sodium.md)::intense yellow, invisible (through [cobalt blue glass](cobalt%20glass.md))
+- [calcium](calcium.md):@:brick red, light green (through [cobalt blue glass](cobalt%20glass.md))
+- [copper](copper.md)(I):@:blue-green
+- [copper](copper.md)(II):@:green (non-halide), blue-green (halide)
+- [iron](iron.md)(II):@:blue (very hot), gold, green to orange-brown, sparks
+- [iron](iron.md)(III):@:orange-brown
+- [magnesium](magnesium.md):@:intense white
+- [potassium](potassium.md):@:lilac, invisible (through [cobalt blue glass](cobalt%20glass.md))
+- [sodium](sodium.md):@:intense yellow, invisible (through [cobalt blue glass](cobalt%20glass.md))
 
 <!--/pytextgen-->
 
 <!--pytextgen generate section="b8283e"--><!-- The following content is generated at 2024-01-04T20:17:51.834162+08:00. Any edits will be overridden! -->
 
-- brick red::[calcium](calcium.md)
-- light green (through [cobalt blue glass](cobalt%20glass.md))::[calcium](calcium.md)
-- blue-green::[copper](copper.md)(I)
-- green (non-halide)::[copper](copper.md)(II)
-- blue-green (halide)::[copper](copper.md)(II)
-- blue (very hot)::[iron](iron.md)(II)
-- gold::[iron](iron.md)(II)
-- green to orange-brown::[iron](iron.md)(II)
-- sparks::[iron](iron.md)(II)
-- orange-brown::[iron](iron.md)(III)
-- intense white::[magnesium](magnesium.md)
-- lilac::[potassium](potassium.md)
-- invisible (through [cobalt blue glass](cobalt%20glass.md))::[potassium](potassium.md), [sodium](sodium.md)
-- intense yellow::[sodium](sodium.md)
+- brick red:@:[calcium](calcium.md)
+- light green (through [cobalt blue glass](cobalt%20glass.md)):@:[calcium](calcium.md)
+- blue-green:@:[copper](copper.md)(I)
+- green (non-halide):@:[copper](copper.md)(II)
+- blue-green (halide):@:[copper](copper.md)(II)
+- blue (very hot):@:[iron](iron.md)(II)
+- gold:@:[iron](iron.md)(II)
+- green to orange-brown:@:[iron](iron.md)(II)
+- sparks:@:[iron](iron.md)(II)
+- orange-brown:@:[iron](iron.md)(III)
+- intense white:@:[magnesium](magnesium.md)
+- lilac:@:[potassium](potassium.md)
+- invisible (through [cobalt blue glass](cobalt%20glass.md)):@:[potassium](potassium.md), [sodium](sodium.md)
+- intense yellow:@:[sodium](sodium.md)
 
 <!--/pytextgen-->
 

@@ -11,9 +11,9 @@ tags:
 
 ## algorithm
 
-The algorithm is similar to the [ID3 algorithm](ID3%20algorithm.md), with several changes described below. First, instead of {{using [Shannon entropy](entropy%20(information%20theory).md), replace all use of [Shannon entropy](entropy%20(information%20theory).md) with [Gini impurity](decision%20tree%20learning.md#Gini%20impurity)}}. Note that when replacing {{[conditional Shannon entropy](conditional%20entropy.md), there are many inconsistent ways to replace it with a conditional analog of Gini impurity.<sup>[\[1\]](#^ref-Teixeira-2021)</sup> In this case, use this definition of conditional Gini impurity: $$\operatorname{I_G}(Y | X) = \sum_{x \in \mathcal X} p(x) \left(1 - \sum_{y \in \mathcal Y} (p(y | x))^2 \right)$$, using the same notation in conditional entropy}}.
+The algorithm is similar to the [ID3 algorithm](ID3%20algorithm.md), with several changes described below. First, instead of {@{using [Shannon entropy](entropy%20(information%20theory).md), replace all use of [Shannon entropy](entropy%20(information%20theory).md) with [Gini impurity](decision%20tree%20learning.md#Gini%20impurity)}@}. Note that when replacing {@{[conditional Shannon entropy](conditional%20entropy.md), there are many inconsistent ways to replace it with a conditional analog of Gini impurity.<sup>[\[1\]](#^ref-Teixeira-2021)</sup> In this case, use this definition of conditional Gini impurity: $$\operatorname{I_G}(Y | X) = \sum_{x \in \mathcal X} p(x) \left(1 - \sum_{y \in \mathcal Y} (p(y | x))^2 \right)$$, using the same notation in conditional entropy}@}.
 
-Note that that the Gini impurity is {{simply a variation of the usual [Shannon entropy](entropy%20(information%20theory).md)}}. Both variations can be obtained from {{the more general [Tsallis entropy](Tsallis%20entropy.md)}}.
+Note that that the Gini impurity is {@{simply a variation of the usual [Shannon entropy](entropy%20(information%20theory).md)}@}. Both variations can be obtained from {@{the more general [Tsallis entropy](Tsallis%20entropy.md)}@}.
 
 ## references
 

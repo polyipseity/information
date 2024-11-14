@@ -8,17 +8,17 @@ tags:
 
 # extreme value theorem
 
-In [mathematics](mathematics.md), the __extreme value theorem__ states that {{if a [real-valued function](real-valued%20function.md) $f$ is [continuous](continuous%20function.md) over the closed [interval](interval%20(mathematics).md) and [bounded](bounded%20set.md) $[a,b]$, then $f(x)$ attains a [maximum and minimum](maximum%20and%20minimum.md) each at least once}}.
+In [mathematics](mathematics.md), the __extreme value theorem__ states that {@{if a [real-valued function](real-valued%20function.md) $f$ is [continuous](continuous%20function.md) over the closed [interval](interval%20(mathematics).md) and [bounded](bounded%20set.md) $[a,b]$, then $f(x)$ attains a [maximum and minimum](maximum%20and%20minimum.md) each at least once}@}.
 
 > __extreme value theorem__
 >
-> {{Given a [real](real%20number.md) closed [interval](interval%20(mathematics).md) $I = [a, b]$ and a [continuous function](continuous%20function.md) $f: I \to \mathbb{R}$, there exists $l, u \in I$ such that $$f(l) \le f(x) \le f(u) \qquad \forall x \in I$$.}}
+> {@{Given a [real](real%20number.md) closed [interval](interval%20(mathematics).md) $I = [a, b]$ and a [continuous function](continuous%20function.md) $f: I \to \mathbb{R}$, there exists $l, u \in I$ such that $$f(l) \le f(x) \le f(u) \qquad \forall x \in I$$.}@}
 
-The extreme value theorem is more specific than the related {{__boundedness theorem__}}. It states {{a [continuous function](continuous%20function.md) on a closed interval is [bounded](bounded%20function.md) on that interval}}.
+The extreme value theorem is more specific than the related {@{__boundedness theorem__}@}. It states {@{a [continuous function](continuous%20function.md) on a closed interval is [bounded](bounded%20function.md) on that interval}@}.
 
 > __boundedness theorem__
 >
-> {{Given a [real](real%20number.md) closed [interval](interval%20(mathematics).md) $I = [a, b]$ and a [continuous function](continuous%20function.md) $f: I \to \mathbb{R}$, there exists $L, U \in \mathbb{R}$ such that $$L \le f(x) \le U \qquad \forall x \in I$$.}}
+> {@{Given a [real](real%20number.md) closed [interval](interval%20(mathematics).md) $I = [a, b]$ and a [continuous function](continuous%20function.md) $f: I \to \mathbb{R}$, there exists $L, U \in \mathbb{R}$ such that $$L \le f(x) \le U \qquad \forall x \in I$$.}@}
 
 ## references
 

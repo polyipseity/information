@@ -145,8 +145,8 @@ private:
 #include "Album.h"
 #include <iostream>
 
-Album::Album(int maxDuration): songs{}, numSongs{0}, maxDuration{maxDuration} {}
-bool Album::addSong(Song const &song) {
+Album:@:Album(int maxDuration): songs{}, numSongs{0}, maxDuration{maxDuration} {}
+bool Album:@:addSong(Song const &song) {
   int dur{song.getDuration()};
   for (int ii{0}; ii < numSongs; ++ii) {
     dur += songs[ii].getDuration();
@@ -155,9 +155,9 @@ bool Album::addSong(Song const &song) {
   songs[numSongs++] = song;
   return true;
 }
-void Album::print() const {
+void Album:@:print() const {
   for (int ii{0}; ii < numSongs; ++ii) {
-    std::cout << songs[ii].getTitle() << std::endl;
+    std:@:cout << songs[ii].getTitle() << std:@:endl;
   }
 }
 ```

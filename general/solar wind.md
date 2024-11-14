@@ -9,7 +9,7 @@ tags:
 
 # solar wind
 
-The __solar wind__ is {{a stream of [charged particles](charged%20particlee.md) released from the [Sun](Sun.md)'s outermost atmospheric layer, the [corona](stellar%20corona.md)}}.
+The __solar wind__ is {@{a stream of [charged particles](charged%20particlee.md) released from the [Sun](Sun.md)'s outermost atmospheric layer, the [corona](stellar%20corona.md)}@}.
 
 ## references
 

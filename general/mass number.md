@@ -13,7 +13,7 @@ tags:
 
 # mass number
 
-The __mass number__ (symbol {{___A___}}, from {{the [German](German%20language.md) word: _Atomgewicht_, "atomic weight"}}), also called __atomic mass number__ or __nucleon number__, is {{the total number of [protons](proton.md) and [neutrons](neutron.md) (together known as [nucleons](nucleon.md)) in an [atomic nucleus](atomic%20nucleus.md)}}.
+The __mass number__ (symbol {@{___A___}@}, from {@{the [German](German%20language.md) word: _Atomgewicht_, "atomic weight"}@}), also called __atomic mass number__ or __nucleon number__, is {@{the total number of [protons](proton.md) and [neutrons](neutron.md) (together known as [nucleons](nucleon.md)) in an [atomic nucleus](atomic%20nucleus.md)}@}.
 
 ## references
 

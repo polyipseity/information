@@ -19,7 +19,7 @@ tags:
 
 # `scanf`
 
-- _defined in {{[`<stdio.h>`](../../../general/C%20file%20input_output.md)}}_
+- _defined in {@{[`<stdio.h>`](../../../general/C%20file%20input_output.md)}@}_
 
 ```C
 // (1)
@@ -41,8 +41,8 @@ int sscanf_s(char const *restrict buffer, char const *restrict format, ...); // 
 
 > [!tip] tips
 >
-> - `_CRT_SECURE_NO_WARNINGS` ([Visual Studio](Visual%20Studio.md)) ::: define to `1` to disable errors from using non-`_s`-ending functions
-> - overload selection ::: use the `_s`-ending overloads whenever feasible
+> - `_CRT_SECURE_NO_WARNINGS` ([Visual Studio](Visual%20Studio.md)) ::@:: define to `1` to disable errors from using non-`_s`-ending functions
+> - overload selection ::@:: use the `_s`-ending overloads whenever feasible
 
 ## parameters
 
@@ -52,5 +52,5 @@ See [`scanf` § placeholder](../../../general/scanf.md#placeholder).
 
 ## return value
 
-- (1-3) :: Number of arguments assigned, or [`EOF`](../file%20input_output.md) if input failure occurs before assigning the first argument.
-- (4-6) :: Same as (1-3), returning [`EOF`](../file%20input_output.md) also on runtime constraint violation.
+- (1-3) :@: Number of arguments assigned, or [`EOF`](../file%20input_output.md) if input failure occurs before assigning the first argument.
+- (4-6) :@: Same as (1-3), returning [`EOF`](../file%20input_output.md) also on runtime constraint violation.

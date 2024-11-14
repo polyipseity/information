@@ -12,5 +12,5 @@ tags:
 
 ### time manipulation
 
-- _defined in {{[`<time.h>`](../../general/C%20date%20and%20time%20functions.md)}}_
+- _defined in {@{[`<time.h>`](../../general/C%20date%20and%20time%20functions.md)}@}_
 - [`time`](date%20and%20time%20utilities/time.md)

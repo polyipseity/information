@@ -18,7 +18,7 @@ tags:
 
 ## the rules
 
-In the following, $f(t)$ is {{a [rational expression](rational%20function.md) in $\sin t$ and $\cos t$}}. To calculate $\int \! f(t) \,\mathrm{d}t$, consider $\omega(t)$, defined as {{the integrand $\omega(t) = f(t) \,\mathrm{d}t$}}.
+In the following, $f(t)$ is {@{a [rational expression](rational%20function.md) in $\sin t$ and $\cos t$}@}. To calculate $\int \! f(t) \,\mathrm{d}t$, consider $\omega(t)$, defined as {@{the integrand $\omega(t) = f(t) \,\mathrm{d}t$}@}.
 
 ```Python
 # pytextgen generate data
@@ -46,12 +46,12 @@ otherwise: Substitute $u = \tan \frac t 2$.
 
 <!--pytextgen generate section="ca84"--><!-- The following content is generated at 2024-07-02T17:25:31.891084+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←$\omega(t) = \omega(-t)$ _only_: Symmetry across $x = 0$, substitute $u = \cos t$.
-- $\omega(t) = \omega(-t)$ _only_: Symmetry across $x = 0$, substitute $u = \cos t$.→:::←$\omega(t) = \omega(\pi - t)$ _only_: Symmetry across $x = \frac \pi 2$, substitute $u = \sin t$.
-- $\omega(t) = \omega(\pi - t)$ _only_: Symmetry across $x = \frac \pi 2$, substitute $u = \sin t$.→:::←$\omega(t) = \omega(\pi + t)$ _only_: $\pi$-periodic, substitute $u = \tan t$.
-- $\omega(t) = \omega(\pi + t)$ _only_: $\pi$-periodic, substitute $u = \tan t$.→:::←two preceding relations hold: Substitute $u = \cos 2t$.
-- two preceding relations hold: Substitute $u = \cos 2t$.→:::←otherwise: Substitute $u = \tan \frac t 2$.
-- otherwise: Substitute $u = \tan \frac t 2$.→:::←_(end)_
+- _(begin)_→::@::←$\omega(t) = \omega(-t)$ _only_: Symmetry across $x = 0$, substitute $u = \cos t$.
+- $\omega(t) = \omega(-t)$ _only_: Symmetry across $x = 0$, substitute $u = \cos t$.→::@::←$\omega(t) = \omega(\pi - t)$ _only_: Symmetry across $x = \frac \pi 2$, substitute $u = \sin t$.
+- $\omega(t) = \omega(\pi - t)$ _only_: Symmetry across $x = \frac \pi 2$, substitute $u = \sin t$.→::@::←$\omega(t) = \omega(\pi + t)$ _only_: $\pi$-periodic, substitute $u = \tan t$.
+- $\omega(t) = \omega(\pi + t)$ _only_: $\pi$-periodic, substitute $u = \tan t$.→::@::←two preceding relations hold: Substitute $u = \cos 2t$.
+- two preceding relations hold: Substitute $u = \cos 2t$.→::@::←otherwise: Substitute $u = \tan \frac t 2$.
+- otherwise: Substitute $u = \tan \frac t 2$.→::@::←_(end)_
 
 <!--/pytextgen-->
 

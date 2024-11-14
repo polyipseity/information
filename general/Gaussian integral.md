@@ -17,7 +17,7 @@ tags:
 
 ### by polar coordinates
 
-A standard way to compute the Gaussian integral, the idea of which {{goes back to Poisson}}, is to make use of the property that: {{$$\left( \int_{-\infty}^\infty e^{-x^2} \,\mathrm{d}x \right)^2 = \int_{-\infty}^\infty e^{-x^2} \,\mathrm{d}x \int_{-\infty}^\infty e^{-y^2} \,\mathrm{d}y = \int_{-\infty}^\infty e^{-\left( x^2 + y^2 \right)} \,\mathrm{d}x \,\mathrm{d}y$$}} and {{evaluate the right hand side by transforming it to [polar coordinates](polar%20coordinate%20system.md)}}.
+A standard way to compute the Gaussian integral, the idea of which {@{goes back to Poisson}@}, is to make use of the property that: {@{$$\left( \int_{-\infty}^\infty e^{-x^2} \,\mathrm{d}x \right)^2 = \int_{-\infty}^\infty e^{-x^2} \,\mathrm{d}x \int_{-\infty}^\infty e^{-y^2} \,\mathrm{d}y = \int_{-\infty}^\infty e^{-\left( x^2 + y^2 \right)} \,\mathrm{d}x \,\mathrm{d}y$$}@} and {@{evaluate the right hand side by transforming it to [polar coordinates](polar%20coordinate%20system.md)}@}.
 
 ## references
 

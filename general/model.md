@@ -9,7 +9,7 @@ tags:
 
 # model
 
-A __model__ is {{an informative representation of an object, person or system}}.
+A __model__ is {@{an informative representation of an object, person or system}@}.
 
 ## references
 

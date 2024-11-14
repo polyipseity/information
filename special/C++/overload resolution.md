@@ -10,7 +10,7 @@ tags:
 
 ## best viable function
 
-If one viable function is {{better than all others, overload resolution succeeds with said function being invoked. Otherwise, compilation fails.}}
+If one viable function is {@{better than all others, overload resolution succeeds with said function being invoked. Otherwise, compilation fails.}@}
 
 ## references
 

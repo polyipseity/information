@@ -33,14 +33,14 @@ return await memorize_table(
 
 > | name | description |
 > |-|-|
-> | {{[neutralization](neutralization%20(chemistry).md) of [acids](acid.md)}} |  |
+> | {@{[neutralization](neutralization%20(chemistry).md) of [acids](acid.md)}@} |  |
 
 <!--/pytextgen-->
 
 <!--pytextgen generate section="ddee"--><!-- The following content is generated at 2024-01-04T20:17:52.669058+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←[neutralization](neutralization%20(chemistry).md) of [acids](acid.md)
-- [neutralization](neutralization%20(chemistry).md) of [acids](acid.md)→:::←_(end)_
+- _(begin)_→::@::←[neutralization](neutralization%20(chemistry).md) of [acids](acid.md)
+- [neutralization](neutralization%20(chemistry).md) of [acids](acid.md)→::@::←_(end)_
 
 <!--/pytextgen-->
 

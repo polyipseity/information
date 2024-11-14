@@ -203,7 +203,7 @@ A `Lamp` has a variable number of `Bulb`s.
 ### (c) (3 points)
 
 ```Cpp
-Lamp::Lamp(int n, float p) {
+Lamp:@:Lamp(int n, float p) {
   // Answer here:
   max_num_bulbs = n;
   price = p;
@@ -215,7 +215,7 @@ Lamp::Lamp(int n, float p) {
 ### (d) (6 points)
 
 ```Cpp
-void Lamp::add_bulbs(int w, float p, int n) {
+void Lamp:@:add_bulbs(int w, float p, int n) {
   if ((max_num_bulbs - num_bulbs) < n) { return; }
   for (int ii{0}; ii < n; ++ii) {
     bulbs[num_bulbs++].set(w, p);
@@ -226,7 +226,7 @@ void Lamp::add_bulbs(int w, float p, int n) {
 ### (e) (6 points)
 
 ```Cpp
-float Lamp::total_price() const {
+float Lamp:@:total_price() const {
   // Answer here:
   const ret{price};
   for (int ii{0}; ii < num_bulbs; ++ii) {
@@ -268,7 +268,7 @@ It returns the number of items in the priority queue that has a higher priority 
 ### (d) (6 points)
 
 ```Cpp
-char priority_queue::dequeue() {
+char priority_queue:@:dequeue() {
   // Answer here:
   if (head == nullptr) { return '\0'; }
   ll_cnode *cur{head};
@@ -282,7 +282,7 @@ char priority_queue::dequeue() {
 ### (e) (6 points)
 
 ```Cpp
-void priority_queue::enqueue(char d, int p) {
+void priority_queue:@:enqueue(char d, int p) {
   // Answer here:
   ll_cnode *prev{nullptr};
   for (ll_cnode *cur{head}; cur != nullptr; prev = cur, cur = cur->next) {

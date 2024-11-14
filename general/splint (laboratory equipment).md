@@ -45,11 +45,11 @@ return await memorize_seq(
 
 <!--pytextgen generate section="23ba9d"--><!-- The following content is generated at 2024-01-04T20:17:52.690628+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←Light a wooden splint.
-- Light a wooden splint.→:::←Blow out the flame.
-- Blow out the flame.→:::←Introduce the [ember](ember.md) into the gas sample trapped in a container.
-- Introduce the [ember](ember.md) into the gas sample trapped in a container.→:::←Positive: The ember flares and reignites.
-- Positive: The ember flares and reignites.→:::←_(end)_
+- _(begin)_→::@::←Light a wooden splint.
+- Light a wooden splint.→::@::←Blow out the flame.
+- Blow out the flame.→::@::←Introduce the [ember](ember.md) into the gas sample trapped in a container.
+- Introduce the [ember](ember.md) into the gas sample trapped in a container.→::@::←Positive: The ember flares and reignites.
+- Positive: The ember flares and reignites.→::@::←_(end)_
 
 <!--/pytextgen-->
 

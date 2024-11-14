@@ -13,23 +13,23 @@ tags:
 
 # balance sheet
 
-In [financial accounting](financial%20accounting.md), a __balance sheet__ (also known as {{__statement of financial position__ or __statement of financial condition__}}) is {{a summary of the financial balances of an individual or organization}}, whether it be {{a [sole proprietorship](sole%20proprietorship.md), a [business partnership](partnership.md), a [corporation](corporation.md), [private limited company](private%20limited%20company.md) or other organization such as [government](government%20financial%20statements.md) or [not-for-profit entity](nonprofit%20organization.md)}}. {{[Assets](asset.md), [liabilities](liability%20(financial%20accounting).md) and [ownership equity](equity%20(finance).md)}} are {{listed as of a specific date, such as the end of its [financial year](fiscal%20year.md)}}. A balance sheet is often described as {{a "snapshot of a company's financial condition".<sup>[\[1\]](#^ref-1)</sup> It is the summary of each and every financial statement of an [organization](organization.md)}}.
+In [financial accounting](financial%20accounting.md), a __balance sheet__ (also known as {@{__statement of financial position__ or __statement of financial condition__}@}) is {@{a summary of the financial balances of an individual or organization}@}, whether it be {@{a [sole proprietorship](sole%20proprietorship.md), a [business partnership](partnership.md), a [corporation](corporation.md), [private limited company](private%20limited%20company.md) or other organization such as [government](government%20financial%20statements.md) or [not-for-profit entity](nonprofit%20organization.md)}@}. {@{[Assets](asset.md), [liabilities](liability%20(financial%20accounting).md) and [ownership equity](equity%20(finance).md)}@} are {@{listed as of a specific date, such as the end of its [financial year](fiscal%20year.md)}@}. A balance sheet is often described as {@{a "snapshot of a company's financial condition".<sup>[\[1\]](#^ref-1)</sup> It is the summary of each and every financial statement of an [organization](organization.md)}@}.
 
-Of {{the four basic [financial statements](financial%20statement.md)}}, the balance sheet is {{the only statement which applies to a single point in time of a business's calendar year}}.<sup>[\[2\]](#^ref-2)</sup>
+Of {@{the four basic [financial statements](financial%20statement.md)}@}, the balance sheet is {@{the only statement which applies to a single point in time of a business's calendar year}@}.<sup>[\[2\]](#^ref-2)</sup>
 
-A standard company balance sheet has {{two sides: assets on the left, and financing on the right–which itself has two parts; liabilities and ownership [equity](equity%20(finance).md)}}. The main categories of assets are {{usually listed first, and typically in order of [liquidity](market%20liquidity.md)}}.<sup>[\[3\]](#^ref-3)</sup> Assets are {{followed by the liabilities}}. The difference between the assets and the liabilities is {{known as equity or the net assets or the [net worth](net%20worth.md) or [capital](financial%20capital.md) of the company}}. According to {{the [accounting equation](accounting%20equation.md)}}, net worth {{must equal assets minus liabilities}}.<sup>[\[4\]](#^ref-4)</sup>
+A standard company balance sheet has {@{two sides: assets on the left, and financing on the right–which itself has two parts; liabilities and ownership [equity](equity%20(finance).md)}@}. The main categories of assets are {@{usually listed first, and typically in order of [liquidity](market%20liquidity.md)}@}.<sup>[\[3\]](#^ref-3)</sup> Assets are {@{followed by the liabilities}@}. The difference between the assets and the liabilities is {@{known as equity or the net assets or the [net worth](net%20worth.md) or [capital](financial%20capital.md) of the company}@}. According to {@{the [accounting equation](accounting%20equation.md)}@}, net worth {@{must equal assets minus liabilities}@}.<sup>[\[4\]](#^ref-4)</sup>
 
-Another way to look at the balance sheet equation is that {{total assets equals liabilities plus owner's equity}}. Looking at the equation in this way shows {{how assets were financed: either by borrowing money (liability) or by using the owner's money (owner's or shareholders' equity)}}. Balance sheets are usually presented with {{assets in one section and liabilities and net worth in the other section with the two sections "balancing"}}.
+Another way to look at the balance sheet equation is that {@{total assets equals liabilities plus owner's equity}@}. Looking at the equation in this way shows {@{how assets were financed: either by borrowing money (liability) or by using the owner's money (owner's or shareholders' equity)}@}. Balance sheets are usually presented with {@{assets in one section and liabilities and net worth in the other section with the two sections "balancing"}@}.
 
-{{A business operating entirely in cash}} can measure its profits by {{withdrawing the entire bank balance at the end of the period, plus any cash in hand}}. However, many businesses are {{not paid immediately; they build up inventories of goods and acquire buildings and equipment}}. In other words: businesses have {{[assets](asset.md) and so they cannot, even if they want to, immediately turn these into cash at the end of each period}}. Often, these businesses {{owe money to suppliers and to tax authorities}}, and the proprietors {{do not withdraw all their original capital and profits at the end of each period}}. In other words, businesses also have {{[liabilities](liability%20(financial%20accounting).md)}}.
+{@{A business operating entirely in cash}@} can measure its profits by {@{withdrawing the entire bank balance at the end of the period, plus any cash in hand}@}. However, many businesses are {@{not paid immediately; they build up inventories of goods and acquire buildings and equipment}@}. In other words: businesses have {@{[assets](asset.md) and so they cannot, even if they want to, immediately turn these into cash at the end of each period}@}. Often, these businesses {@{owe money to suppliers and to tax authorities}@}, and the proprietors {@{do not withdraw all their original capital and profits at the end of each period}@}. In other words, businesses also have {@{[liabilities](liability%20(financial%20accounting).md)}@}.
 
 ## types
 
-A balance sheet {{summarizes an organization's or individual's assets, [equity](equity%20(finance).md) and [liabilities](liability%20(financial%20accounting).md) at a specific point in time}}. {{Two forms of balance sheet}} exist. They are {{the report form and account form}}. Individuals and small businesses tend to {{have simple balance sheets}}.<sup>[\[5\]](#^ref-5)</sup> Larger businesses tend to {{have more complex balance sheets, and these are presented in the organization's [annual report](annual%20report.md)}}.<sup>[\[6\]](#^ref-6)</sup> Large businesses also {{may prepare balance sheets for segments of their businesses}}.<sup>[\[7\]](#^ref-7)</sup> A balance sheet is {{often presented alongside one for a different point in time (typically the previous year) for comparison}}.<sup>[\[8\]](#^ref-8)</sup><sup>[\[9\]](#^ref-9)</sup>
+A balance sheet {@{summarizes an organization's or individual's assets, [equity](equity%20(finance).md) and [liabilities](liability%20(financial%20accounting).md) at a specific point in time}@}. {@{Two forms of balance sheet}@} exist. They are {@{the report form and account form}@}. Individuals and small businesses tend to {@{have simple balance sheets}@}.<sup>[\[5\]](#^ref-5)</sup> Larger businesses tend to {@{have more complex balance sheets, and these are presented in the organization's [annual report](annual%20report.md)}@}.<sup>[\[6\]](#^ref-6)</sup> Large businesses also {@{may prepare balance sheets for segments of their businesses}@}.<sup>[\[7\]](#^ref-7)</sup> A balance sheet is {@{often presented alongside one for a different point in time (typically the previous year) for comparison}@}.<sup>[\[8\]](#^ref-8)</sup><sup>[\[9\]](#^ref-9)</sup>
 
 ### personal
 
-A personal balance sheet lists {{current [assets](asset.md) such as cash in [checking accounts](transaction%20account.md) and [savings accounts](savings%20account.md)}}, {{long-term assets such as [common stock](common%20stock.md) and [real estate](real%20estate.md)}}, {{current liabilities such as [loan](loan.md) debt and [mortgage](mortgage.md) debt due, or overdue}}, {{long-term liabilities such as [mortgage](mortgage.md) and other loan debt}}. {{Securities and real estate values}} are {{listed at [market value](market%20value.md) rather than at [historical cost](historical%20cost.md) or [cost basis](cost%20basis.md)}}. Personal [net worth](net%20worth.md) is {{the difference between an individual's total assets and total liabilities}}.<sup>[\[10\]](#^ref-10)</sup>
+A personal balance sheet lists {@{current [assets](asset.md) such as cash in [checking accounts](transaction%20account.md) and [savings accounts](savings%20account.md)}@}, {@{long-term assets such as [common stock](common%20stock.md) and [real estate](real%20estate.md)}@}, {@{current liabilities such as [loan](loan.md) debt and [mortgage](mortgage.md) debt due, or overdue}@}, {@{long-term liabilities such as [mortgage](mortgage.md) and other loan debt}@}. {@{Securities and real estate values}@} are {@{listed at [market value](market%20value.md) rather than at [historical cost](historical%20cost.md) or [cost basis](cost%20basis.md)}@}. Personal [net worth](net%20worth.md) is {@{the difference between an individual's total assets and total liabilities}@}.<sup>[\[10\]](#^ref-10)</sup>
 
 ### US small business
 
@@ -48,23 +48,23 @@ A personal balance sheet lists {{current [assets](asset.md) such as cash in [che
 > |                                                                                                                     | &ensp;&ensp;&ensp;&ensp; _Total owners' equity_ &ensp;&ensp;&ensp; $7&nbsp;800                                                              |
 > | _Total_ &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; __$37&nbsp;800__ | _Total_ &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; __$37&nbsp;800__ |
 
-A small business balance sheet lists {{current assets such as cash, [accounts receivable](accounts%20receivable.md), and [inventory](inventory.md)}}, {{fixed assets such as land, buildings, and equipment}}, {{[intangible assets](intangible%20asset.md) such as [patents](patent.md)}}, and {{liabilities such as [accounts payable](accounts%20payable.md), accrued expenses, and long-term debt}}. {{[Contingent liabilities](contingent%20liability.md) such as [warranties](warranty.md)}} are {{noted in the footnotes to the balance sheet}}. The small business's equity is {{the difference between total assets and total liabilities}}.<sup>[\[12\]](#^ref-12)</sup>
+A small business balance sheet lists {@{current assets such as cash, [accounts receivable](accounts%20receivable.md), and [inventory](inventory.md)}@}, {@{fixed assets such as land, buildings, and equipment}@}, {@{[intangible assets](intangible%20asset.md) such as [patents](patent.md)}@}, and {@{liabilities such as [accounts payable](accounts%20payable.md), accrued expenses, and long-term debt}@}. {@{[Contingent liabilities](contingent%20liability.md) such as [warranties](warranty.md)}@} are {@{noted in the footnotes to the balance sheet}@}. The small business's equity is {@{the difference between total assets and total liabilities}@}.<sup>[\[12\]](#^ref-12)</sup>
 
 ### charities
 
-In {{[England and Wales](England%20and%20Wales.md)}}, {{smaller [charities](charitable%20organization.md) which are not also companies}} are {{permitted to file a statement of [assets](asset.md) and liabilities instead of a balance sheet}}. This statement {{lists the charity's main assets and liabilities as at the end of its financial year}}.<sup>[\[13\]](#^ref-13)</sup>
+In {@{[England and Wales](England%20and%20Wales.md)}@}, {@{smaller [charities](charitable%20organization.md) which are not also companies}@} are {@{permitted to file a statement of [assets](asset.md) and liabilities instead of a balance sheet}@}. This statement {@{lists the charity's main assets and liabilities as at the end of its financial year}@}.<sup>[\[13\]](#^ref-13)</sup>
 
 ## public business entities structure
 
-Guidelines for balance sheets of public business entities are given by {{the [International Accounting Standards Board](International%20Accounting%20Standards%20Board.md) and numerous country-specific organizations/companies}}. {{The standard used by companies in the US}} adheres to {{[U.S. Generally Accepted Accounting Principles](Generally%20Accepted%20Accounting%20Principles%20(United%20States).md) (GAAP)}}. {{The [Federal Accounting Standards Advisory Board](Federal%20Accounting%20Standards%20Advisory%20Board.md) (FASAB)}} is {{a United States federal advisory committee whose mission is to develop generally accepted accounting principles (GAAP) for federal financial reporting entities}}.
+Guidelines for balance sheets of public business entities are given by {@{the [International Accounting Standards Board](International%20Accounting%20Standards%20Board.md) and numerous country-specific organizations/companies}@}. {@{The standard used by companies in the US}@} adheres to {@{[U.S. Generally Accepted Accounting Principles](Generally%20Accepted%20Accounting%20Principles%20(United%20States).md) (GAAP)}@}. {@{The [Federal Accounting Standards Advisory Board](Federal%20Accounting%20Standards%20Advisory%20Board.md) (FASAB)}@} is {@{a United States federal advisory committee whose mission is to develop generally accepted accounting principles (GAAP) for federal financial reporting entities}@}.
 
-Balance sheet account names and usage depend on {{the organization's country and the type of organization}}. Government organizations {{do not generally follow standards established for individuals or businesses}}.<sup>[\[14\]](#^ref-14)</sup><sup>[\[15\]](#^ref-15)</sup><sup>[\[16\]](#^ref-16)</sup>
+Balance sheet account names and usage depend on {@{the organization's country and the type of organization}@}. Government organizations {@{do not generally follow standards established for individuals or businesses}@}.<sup>[\[14\]](#^ref-14)</sup><sup>[\[15\]](#^ref-15)</sup><sup>[\[16\]](#^ref-16)</sup>
 
 If applicable to the business, summary values for the following items should be included in the balance sheet:<sup>[\[17\]](#^ref-17)</sup>
 
 ### assets
 
-Assets are {{all the things the business owns}}. This will include {{property, tools, vehicles, furniture, machinery, and so on}}.
+Assets are {@{all the things the business owns}@}. This will include {@{property, tools, vehicles, furniture, machinery, and so on}@}.
 
 #### current assets
 
@@ -72,13 +72,13 @@ Assets are {{all the things the business owns}}. This will include {{property, t
 
 <!-- list separator -->
 
-1. [accounts receivable](accounts%20receivable.md) ::: legally enforceable claims for payment held by a business for goods supplied or services rendered that customers have ordered but not paid for
-2. [cash and cash equivalents](cash%20and%20cash%20equivalents.md) ::: the most liquid current assets found on a business's balance sheet
-3. [inventories](inventory.md) ::: goods and materials that a business holds for the ultimate goal of resale, production or utilization
-4. cash at bank, [petty cash](petty%20cash.md), cash on hand ::: small amount of discretionary funds in the form of cash used for minor expenditures
-5. [prepaid expenses](deferral.md) for future services that will be used within one financial period ::: cash paid in advance for goods or services that will be consumed within one financial period
-6. revenue earned in arrears ([accrued revenue](accrual.md)) for services done but not yet received for the financial period ::: income that is recognized at the time a company delivers a service or good, even though the company has not yet been paid, and will pay within one financial period
-7. [loan](loan.md) to (less than one financial period) ::: transfer of money by us to another with an agreement to pay it back within one financial period
+1. [accounts receivable](accounts%20receivable.md) ::@:: legally enforceable claims for payment held by a business for goods supplied or services rendered that customers have ordered but not paid for
+2. [cash and cash equivalents](cash%20and%20cash%20equivalents.md) ::@:: the most liquid current assets found on a business's balance sheet
+3. [inventories](inventory.md) ::@:: goods and materials that a business holds for the ultimate goal of resale, production or utilization
+4. cash at bank, [petty cash](petty%20cash.md), cash on hand ::@:: small amount of discretionary funds in the form of cash used for minor expenditures
+5. [prepaid expenses](deferral.md) for future services that will be used within one financial period ::@:: cash paid in advance for goods or services that will be consumed within one financial period
+6. revenue earned in arrears ([accrued revenue](accrual.md)) for services done but not yet received for the financial period ::@:: income that is recognized at the time a company delivers a service or good, even though the company has not yet been paid, and will pay within one financial period
+7. [loan](loan.md) to (less than one financial period) ::@:: transfer of money by us to another with an agreement to pay it back within one financial period
 
 #### non-current assets
 
@@ -86,39 +86,39 @@ Assets are {{all the things the business owns}}. This will include {{property, t
 
 <!-- list separator -->
 
-1. [property, plant and equipment](fixed%20asset.md) ::: assets and property that may not easily be converted into cash
-2. investment property, such as [real estate](real%20estate.md) held for investment purposes ::: the purchase, management and sale or rental of real estate for profit
-3. [intangible assets](intangible%20asset.md), such as patents, copyrights and goodwill ::: assets that lacks physical substance
-4. financial assets (excluding investments accounted for using the equity method, [accounts receivables](accounts%20receivable.md), and cash and [cash equivalents](cash%20and%20cash%20equivalents.md)), such as [notes receivables](notes%20receivable.md) ::: non-physical assets whose value is derived from a contractual claim
-5. [investments](investment.md#finance) accounted for using the [equity method](equity%20method.md) ::: the process of treating investments in associate companies (usually companies that we are holding 20%–50% (both inclusive) of the shares)
-6. biological assets, which are living plants or animals; bearer biological assets are plants or animals which bear agricultural produce for harvest, such as apple trees grown to produce apples and sheep raised to produce wool<sup>[\[18\]](#^ref-18)</sup> ::: assets that are living plants or animals
-7. [loan](loan.md) to (more than one financial period) ::: transfer of money by us to another with an agreement to pay it back beyond one financial period
+1. [property, plant and equipment](fixed%20asset.md) ::@:: assets and property that may not easily be converted into cash
+2. investment property, such as [real estate](real%20estate.md) held for investment purposes ::@:: the purchase, management and sale or rental of real estate for profit
+3. [intangible assets](intangible%20asset.md), such as patents, copyrights and goodwill ::@:: assets that lacks physical substance
+4. financial assets (excluding investments accounted for using the equity method, [accounts receivables](accounts%20receivable.md), and cash and [cash equivalents](cash%20and%20cash%20equivalents.md)), such as [notes receivables](notes%20receivable.md) ::@:: non-physical assets whose value is derived from a contractual claim
+5. [investments](investment.md#finance) accounted for using the [equity method](equity%20method.md) ::@:: the process of treating investments in associate companies (usually companies that we are holding 20%–50% (both inclusive) of the shares)
+6. biological assets, which are living plants or animals; bearer biological assets are plants or animals which bear agricultural produce for harvest, such as apple trees grown to produce apples and sheep raised to produce wool<sup>[\[18\]](#^ref-18)</sup> ::@:: assets that are living plants or animals
+7. [loan](loan.md) to (more than one financial period) ::@:: transfer of money by us to another with an agreement to pay it back beyond one financial period
 
 ### liabilities
 
-1. [accounts payable](accounts%20payable.md) ::: money owed by a business to its suppliers shown as a liability on a company's balance sheet
-2. [provisions](provision%20(accounting).md) for warranties or court decisions (contingent liabilities that are both probable and measurable) ::: liabilities that may be incurred by an entity depending on the outcome of an uncertain future event, which are both probable and measurable
-3. financial liabilities (excluding provisions and [accounts payables](accounts%20payable.md)), such as [promissory notes](promissory%20note.md) and [corporate bonds](corporate%20bond.md) ::: non-physical liabilities whose value is derived from a contractual claim
-4. liabilities and assets for current [tax](tax.md) ::: mandatory financial charges or some other types of levy imposed on a taxpayer (an individual or legal entity) by a governmental organization
-5. [deferred tax](deferred%20tax.md) liabilities and deferred tax assets ::: notional assets or liabilities to reflect corporate income taxation on a basis that is the same or more similar to recognition of profits than the taxation treatment (≈ the matching principle vs. tax laws)
-6. [unearned revenue](deferral.md) for services paid for by customers but not yet provided ::: liabilities that arise when payment is received for goods or services that have yet to be delivered or fulfilled
-7. interests on [loan stock](debenture.md) ::: medium- to long-term debt instruments used by large companies to borrow money, at a fixed rate of interest
-8. creditors' equity ::: equivalent to liabilities (that excludes stockholders' equity), includes liabilities mentioned and not mentioned above (excluding stockholders' equity)
+1. [accounts payable](accounts%20payable.md) ::@:: money owed by a business to its suppliers shown as a liability on a company's balance sheet
+2. [provisions](provision%20(accounting).md) for warranties or court decisions (contingent liabilities that are both probable and measurable) ::@:: liabilities that may be incurred by an entity depending on the outcome of an uncertain future event, which are both probable and measurable
+3. financial liabilities (excluding provisions and [accounts payables](accounts%20payable.md)), such as [promissory notes](promissory%20note.md) and [corporate bonds](corporate%20bond.md) ::@:: non-physical liabilities whose value is derived from a contractual claim
+4. liabilities and assets for current [tax](tax.md) ::@:: mandatory financial charges or some other types of levy imposed on a taxpayer (an individual or legal entity) by a governmental organization
+5. [deferred tax](deferred%20tax.md) liabilities and deferred tax assets ::@:: notional assets or liabilities to reflect corporate income taxation on a basis that is the same or more similar to recognition of profits than the taxation treatment (≈ the matching principle vs. tax laws)
+6. [unearned revenue](deferral.md) for services paid for by customers but not yet provided ::@:: liabilities that arise when payment is received for goods or services that have yet to be delivered or fulfilled
+7. interests on [loan stock](debenture.md) ::@:: medium- to long-term debt instruments used by large companies to borrow money, at a fixed rate of interest
+8. creditors' equity ::@:: equivalent to liabilities (that excludes stockholders' equity), includes liabilities mentioned and not mentioned above (excluding stockholders' equity)
 
 ### net current assets
 
-__Net current assets__ means {{current [assets](asset.md) minus current liabilities}}.<sup>[\[19\]](#^ref-19)</sup>
+__Net current assets__ means {@{current [assets](asset.md) minus current liabilities}@}.<sup>[\[19\]](#^ref-19)</sup>
 
 ### equity / capital
 
-The net [assets](asset.md) shown by the balance sheet equals {{the third part of the balance sheet, which is known as the [shareholders' equity](equity%20(finance).md)}}. It comprises: {{controlling interest and non-controlling interest}}.
+The net [assets](asset.md) shown by the balance sheet equals {@{the third part of the balance sheet, which is known as the [shareholders' equity](equity%20(finance).md)}@}. It comprises: {@{controlling interest and non-controlling interest}@}.
 
 1. issued capital and [reserves](reserve%20(accounting).md) attributable to equity holders of the [parent company](holding%20company.md#parent%20company) (controlling interest)
 2. [non-controlling interest](minority%20interest.md) in equity
 
-Formally, shareholders' equity is {{part of the company's liabilities: they are funds "owing" to shareholders (after payment of all other liabilities)}}; usually, however, {{"liabilities" are used in the more restrictive sense of liabilities excluding shareholders' equity}}. {{The balance of assets and liabilities (including shareholders' equity)}} is not a coincidence. Records of the values of each account in the balance sheet are maintained using {{a system of accounting known as [double-entry bookkeeping](double-entry%20bookkeeping.md)}}. In this sense, shareholders' equity by construction {{must equal assets minus liabilities, and thus the shareholders' equity is considered to be a residual}}.
+Formally, shareholders' equity is {@{part of the company's liabilities: they are funds "owing" to shareholders (after payment of all other liabilities)}@}; usually, however, {@{"liabilities" are used in the more restrictive sense of liabilities excluding shareholders' equity}@}. {@{The balance of assets and liabilities (including shareholders' equity)}@} is not a coincidence. Records of the values of each account in the balance sheet are maintained using {@{a system of accounting known as [double-entry bookkeeping](double-entry%20bookkeeping.md)}@}. In this sense, shareholders' equity by construction {@{must equal assets minus liabilities, and thus the shareholders' equity is considered to be a residual}@}.
 
-Regarding {{the items in the equity section}}, the following disclosures are required:
+Regarding {@{the items in the equity section}@}, the following disclosures are required:
 
 1. numbers of [shares](share%20(finance).md) authorized, issued and fully-paid, and issued but not fully paid
 2. [par value](par%20value.md) of shares
@@ -130,21 +130,21 @@ Regarding {{the items in the equity section}}, the following disclosures are req
 
 ## substantiation
 
-__Balance sheet substantiation__ is {{the [accounting](accounting.md) process conducted by [businesses](business.md) on a regular basis}} to {{confirm that the balances held in the primary accounting [system of record](system%20of%20record.md) (e.g. [SAP](SAP%20ERP.md), [Oracle](Oracle%20Database.md), other ERP system's General Ledger) are reconciled (in balance with) with the balance and transaction records held in the same or supporting sub-systems}}.
+__Balance sheet substantiation__ is {@{the [accounting](accounting.md) process conducted by [businesses](business.md) on a regular basis}@} to {@{confirm that the balances held in the primary accounting [system of record](system%20of%20record.md) (e.g. [SAP](SAP%20ERP.md), [Oracle](Oracle%20Database.md), other ERP system's General Ledger) are reconciled (in balance with) with the balance and transaction records held in the same or supporting sub-systems}@}.
 
-Balance sheet substantiation includes {{multiple processes including [reconciliation](bank%20reconciliation.md) (at a transactional or at a balance level) of the account, a process of review of the reconciliation and any pertinent supporting documentation}}, and {{a formal [certification](certification.md) (sign-off) of the account in a predetermined form driven by corporate policy}}.
+Balance sheet substantiation includes {@{multiple processes including [reconciliation](bank%20reconciliation.md) (at a transactional or at a balance level) of the account, a process of review of the reconciliation and any pertinent supporting documentation}@}, and {@{a formal [certification](certification.md) (sign-off) of the account in a predetermined form driven by corporate policy}@}.
 
-Balance sheet substantiation is {{an important process that is typically carried out on a monthly, quarterly and year-end basis}}. The results help to {{drive the regulatory balance sheet reporting obligations of the organization}}.
+Balance sheet substantiation is {@{an important process that is typically carried out on a monthly, quarterly and year-end basis}@}. The results help to {@{drive the regulatory balance sheet reporting obligations of the organization}@}.
 
-Historically, balance sheet substantiation has been {{a wholly manual process, driven by [spreadsheets](spreadsheet.md), [email](email.md) and manual monitoring and reporting}}. In recent years {{[software](software.md) solutions have been developed}} to {{bring a level of [process automation](business%20process%20automation.md), [standardization](standardization.md) and enhanced control to the balance sheet substantiation or account certification process}}. These solutions are {{suitable for organizations with a high volume of accounts and/or personnel involved in the balance sheet substantiation process}} and can be used to {{drive efficiencies, improve [transparency](transparency%20(behavior).md) and help to reduce risk}}.
+Historically, balance sheet substantiation has been {@{a wholly manual process, driven by [spreadsheets](spreadsheet.md), [email](email.md) and manual monitoring and reporting}@}. In recent years {@{[software](software.md) solutions have been developed}@} to {@{bring a level of [process automation](business%20process%20automation.md), [standardization](standardization.md) and enhanced control to the balance sheet substantiation or account certification process}@}. These solutions are {@{suitable for organizations with a high volume of accounts and/or personnel involved in the balance sheet substantiation process}@} and can be used to {@{drive efficiencies, improve [transparency](transparency%20(behavior).md) and help to reduce risk}@}.
 
-Balance sheet substantiation is {{a key control process in the [SOX 404 top-down risk assessment](SOX%20404%20top–down%20risk%20assessment.md)}}.
+Balance sheet substantiation is {@{a key control process in the [SOX 404 top-down risk assessment](SOX%20404%20top–down%20risk%20assessment.md)}@}.
 
 ## sample
 
-The following balance sheet is a very brief example prepared in accordance with [IFRS](International%20Financial%20Reporting%20Standards.md). It does not show all possible kinds of assets, liabilities and equity, but it shows the most usual ones. Because {{it shows [goodwill](goodwill%20(accounting).md)}}, it could be {{a [consolidated](consolidated%20financial%20statement.md) balance sheet}}. Monetary values are not shown, summary (subtotal) rows are missing as well.
+The following balance sheet is a very brief example prepared in accordance with [IFRS](International%20Financial%20Reporting%20Standards.md). It does not show all possible kinds of assets, liabilities and equity, but it shows the most usual ones. Because {@{it shows [goodwill](goodwill%20(accounting).md)}@}, it could be {@{a [consolidated](consolidated%20financial%20statement.md) balance sheet}@}. Monetary values are not shown, summary (subtotal) rows are missing as well.
 
-{{Under IFRS}} items are {{always shown based on liquidity from the least liquid assets at the top, usually land and buildings to the most liquid, i.e. cash}}. Then liabilities and equity {{continue from the most immediate liability to be paid (usual account payable) to the least i.e. long-term debt such as mortgages and owner's equity at the very bottom}}.<sup>[\[20\]](#^ref-20)</sup>
+{@{Under IFRS}@} items are {@{always shown based on liquidity from the least liquid assets at the top, usually land and buildings to the most liquid, i.e. cash}@}. Then liabilities and equity {@{continue from the most immediate liability to be paid (usual account payable) to the least i.e. long-term debt such as mortgages and owner's equity at the very bottom}@}.<sup>[\[20\]](#^ref-20)</sup>
 
 ```text
 Consolidated Statement of Finance Position of XYZ, Ltd.

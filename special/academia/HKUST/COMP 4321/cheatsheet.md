@@ -133,7 +133,7 @@ tags:
   - for each term $Q_i$ in $Q$ (complexity: all terms)
     - for each doc $D$ (complexity: all docs)
       - lookup $Q_i$ in $D$'s postings list (complexity: half of the postings)
-      - $\operatorname{score}(Q, D) \mathrel{{+}{=} } \operatorname{partial\ score}(Q_i, D)$
+      - $\operatorname{score}(Q, D) \mathrel{@{+}{=} } \operatorname{partial\ score}(Q_i, D)$
 - inverted overhead: consider n unique terms in a doc, sorted or unsorted postings list
 - overhead in practice: design requirements (library vs. newspapers/WWW), disk and memory size, batch/online update
 - forward index: doc -> list of terms, TF max (optional)

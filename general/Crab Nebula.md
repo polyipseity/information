@@ -12,7 +12,7 @@ tags:
 
 # Crab Nebula
 
-The {{__Crab Nebula__}} (catalogue designations {{__M1__, __NGC 1952__, __Taurus A__}}) is {{a [supernova remnant](supernova%20remnant.md) and [pulsar wind nebula](pulsar%20wind%20nebula.md) in the [constellation](constellation.md) of [Taurus](Taurus%20(constellation).md)}}.
+The {@{__Crab Nebula__}@} (catalogue designations {@{__M1__, __NGC 1952__, __Taurus A__}@}) is {@{a [supernova remnant](supernova%20remnant.md) and [pulsar wind nebula](pulsar%20wind%20nebula.md) in the [constellation](constellation.md) of [Taurus](Taurus%20(constellation).md)}@}.
 
 ## references
 

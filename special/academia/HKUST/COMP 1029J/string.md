@@ -9,13 +9,13 @@ tags:
 
 # Java string
 
-A `String` is a piece of text. It is declared by {{enclosing the text in double quotes `"`, like `"example"`}}. A `char` is a single character. It is declared by {{enclosing the character in single quotes `'`, like `'a'`}}.
+A `String` is a piece of text. It is declared by {@{enclosing the text in double quotes `"`, like `"example"`}@}. A `char` is a single character. It is declared by {@{enclosing the character in single quotes `'`, like `'a'`}@}.
 
-To put double quotes inside a `String`, one needs to {{escape them by adding `\` before the double quote, like `"quote, \"something\", unquote"`}}. Similarly, for `char`, one needs to {{escape the single quote, like `'\''`}}.
+To put double quotes inside a `String`, one needs to {@{escape them by adding `\` before the double quote, like `"quote, \"something\", unquote"`}@}. Similarly, for `char`, one needs to {@{escape the single quote, like `'\''`}@}.
 
 ## parsing
 
-If you want to convert a `String` representing a number into {{an `int`, use `Integer.parseInt`}}. Similarly, for `float` and `double` respectively, use {{`Float.parseFloat` and `Double.parseDouble` respectively}}:
+If you want to convert a `String` representing a number into {@{an `int`, use `Integer.parseInt`}@}. Similarly, for `float` and `double` respectively, use {@{`Float.parseFloat` and `Double.parseDouble` respectively}@}:
 
 ```Java
 int anInteger = Integer.parseInt("3");
@@ -28,7 +28,7 @@ assert Math.abs(aDouble - 3.14) < 1e-15;
 
 ## indexing
 
-To get the a `char` in a `String`, use {{`charAt(idx)`, where `idx` is the 0-based index of the character}}:
+To get the a `char` in a `String`, use {@{`charAt(idx)`, where `idx` is the 0-based index of the character}@}:
 
 ```Java
 char aChar = "abcdefg".charAt(3);
@@ -37,4 +37,4 @@ assert aChar == 'd';
 
 ## equality
 
-One should (almost) always use {{`equals` instead of `==` to compare whether two strings are the same, like `string1.equals(string2)`}}. In general, comparing equality of objects uses {{`equals` in most cases. Non-objects always use `==`}}. See [object § equality](object.md#equality).
+One should (almost) always use {@{`equals` instead of `==` to compare whether two strings are the same, like `string1.equals(string2)`}@}. In general, comparing equality of objects uses {@{`equals` in most cases. Non-objects always use `==`}@}. See [object § equality](object.md#equality).

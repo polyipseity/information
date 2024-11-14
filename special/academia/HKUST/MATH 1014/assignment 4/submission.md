@@ -82,7 +82,7 @@ $0 < a < 1$ (for $x \in (-\pi, \pi)$),
 > $$\begin{aligned}
 > & \phantom{=} \int \! \frac 1 {1 - a \sin x} \,\mathrm{d}x \\
 > & = \int \! \frac 1 {1 - a \frac {2t} {1 + t^2} } \frac {2 \,\mathrm{d}t} {1 + t^2} && \left(t := \tan\frac x 2, x \in (-\pi, \pi)\right) \\
-> & = \int \! \frac 1 {\frac {1 + t^2 - 2at} {1 + t^2}} \frac {2 \,\mathrm{d}t} {1 + t^2} \\
+> & = \int \! \frac 1 {\frac {1 + t^2 - 2at} {1 + t^2}@} \frac {2 \,\mathrm{d}t} {1 + t^2} \\
 > & = 2 \int \! \frac 1 {1 + t^2 - 2at} \,\mathrm{d}t \\
 > & = 2 \int \! \frac 1 {(t - a)^2 + \left(1 - a^2\right)} \,\mathrm{d}t \\
 > & = 2 \int \! \frac 1 {(t - a)^2 + \left(1 - a^2\right)} \,\mathrm{d}t && \left(0 < a < 1 \implies 1 - a^2 > 0\right) \\
@@ -118,7 +118,7 @@ $a > 1$.
 > $$\begin{aligned}
 > & \phantom{=} \int \! \frac 1 {1 - a \sin x} \,\mathrm{d}x \\
 > & = \int \! \frac 1 {1 - a \frac {2t} {1 + t^2} } \frac {2 \,\mathrm{d}t} {1 + t^2} && \left(t := \tan\frac x 2, x \in (-\pi, \pi)\right) \\
-> & = \int \! \frac 1 {\frac {1 + t^2 - 2at} {1 + t^2}} \frac {2 \,\mathrm{d}t} {1 + t^2} \\
+> & = \int \! \frac 1 {\frac {1 + t^2 - 2at} {1 + t^2}@} \frac {2 \,\mathrm{d}t} {1 + t^2} \\
 > & = 2 \int \! \frac 1 {1 + t^2 - 2at} \,\mathrm{d}t \\
 > & = 2 \int \! \frac 1 {(t - a)^2 + \left(1 - a^2\right)} \,\mathrm{d}t \\
 > & = 2 \int \! \frac 1 {(t - a)^2 - \sqrt{a^2 - 1}^2} \,\mathrm{d}t && \left(a > 1 \implies a^2 - 1 > 0\right) \\

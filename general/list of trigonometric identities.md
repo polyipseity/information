@@ -45,12 +45,12 @@ return await memorize_table(
 
 <!--pytextgen generate section="d996"--><!-- The following content is generated at 2024-07-11T08:29:28.983272+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←[Pythagorean identities](#Pythagorean%20identities)
-- [Pythagorean identities](#Pythagorean%20identities)→:::←[angle sum and difference](#angle%20sum%20and%20difference)
-- [angle sum and difference](#angle%20sum%20and%20difference)→:::←[linear combination](#linear%20combination)
-- [linear combination](#linear%20combination)→:::←[multiple-angle](#multiple-angle)
-- [multiple-angle](#multiple-angle)→:::←[product-to-sum and sum-to-product](#product-to-sum%20and%20sum-to-product)
-- [product-to-sum and sum-to-product](#product-to-sum%20and%20sum-to-product)→:::←_(end)_
+- _(begin)_→::@::←[Pythagorean identities](#Pythagorean%20identities)
+- [Pythagorean identities](#Pythagorean%20identities)→::@::←[angle sum and difference](#angle%20sum%20and%20difference)
+- [angle sum and difference](#angle%20sum%20and%20difference)→::@::←[linear combination](#linear%20combination)
+- [linear combination](#linear%20combination)→::@::←[multiple-angle](#multiple-angle)
+- [multiple-angle](#multiple-angle)→::@::←[product-to-sum and sum-to-product](#product-to-sum%20and%20sum-to-product)
+- [product-to-sum and sum-to-product](#product-to-sum%20and%20sum-to-product)→::@::←_(end)_
 
 <!--/pytextgen-->
 
@@ -80,19 +80,19 @@ return await memorize_map(
 
 <!--pytextgen generate section="ba01"--><!-- The following content is generated at 2024-07-10T23:14:21.851131+08:00. Any edits will be overridden! -->
 
-- normal::$$\sin^2 \theta + \cos^2 \theta = 1$$
-- divided by sine::$$1 + \cot^2 \theta = \csc^2 \theta$$
-- divided by cosine::$$1 + \tan^2 \theta = \sec^2 \theta$$
-- divided by sine and cosine::$$\sec^2 \theta + \csc^2 \theta = \sec^2 \theta \csc^2 \theta$$
+- normal:@:$$\sin^2 \theta + \cos^2 \theta = 1$$
+- divided by sine:@:$$1 + \cot^2 \theta = \csc^2 \theta$$
+- divided by cosine:@:$$1 + \tan^2 \theta = \sec^2 \theta$$
+- divided by sine and cosine:@:$$\sec^2 \theta + \csc^2 \theta = \sec^2 \theta \csc^2 \theta$$
 
 <!--/pytextgen-->
 
 > [!example] examples
 >
-> - $\cos^2 6.52 + \sin^2 6.52$ ::: $1$
-> - $\cot^2 (-3.52) + 1$ ::: $\csc^2 (-3.52)$
-> - $1 + \tan^2 (-7.23)$ ::: $\sec^2 (-7.23)$
-> - $\csc^2 0.23 + \sec^2 0.23$ ::: $\sec^2 0.23 \csc^2 0.23$
+> - $\cos^2 6.52 + \sin^2 6.52$ ::@:: $1$
+> - $\cot^2 (-3.52) + 1$ ::@:: $\csc^2 (-3.52)$
+> - $1 + \tan^2 (-7.23)$ ::@:: $\sec^2 (-7.23)$
+> - $\csc^2 0.23 + \sec^2 0.23$ ::@:: $\sec^2 0.23 \csc^2 0.23$
 
 ## angle sum and difference
 
@@ -118,17 +118,17 @@ return await memorize_map(
 
 <!--pytextgen generate section="394a"--><!-- The following content is generated at 2024-07-10T23:14:21.914301+08:00. Any edits will be overridden! -->
 
-- sine::$$\sin(\alpha\pm\beta)=\sin\alpha\cos\beta\pm\cos\alpha\sin\beta$$
-- cosine::$$\cos(\alpha\pm\beta)=\cos\alpha\cos\beta\mp\sin\alpha\sin\beta$$
-- tangent::$$\tan(\alpha\pm\beta)=\frac{\tan\alpha\pm\tan\beta}{1\mp\tan\alpha\tan\beta}$$
+- sine:@:$$\sin(\alpha\pm\beta)=\sin\alpha\cos\beta\pm\cos\alpha\sin\beta$$
+- cosine:@:$$\cos(\alpha\pm\beta)=\cos\alpha\cos\beta\mp\sin\alpha\sin\beta$$
+- tangent:@:$$\tan(\alpha\pm\beta)=\frac{\tan\alpha\pm\tan\beta}{1\mp\tan\alpha\tan\beta}$$
 
 <!--/pytextgen-->
 
 > [!example] examples
 >
-> - $\sin(1.73 \mp 2.45)$ ::: $\sin 1.73 \cos 2.45 \mp \sin 2.45 \cos 1.73$
-> - $\cos(-0.56 \pm 9.23)$ ::: $\cos(-0.56) \cos 9.23 \mp \sin(-0.56) \sin 9.23$
-> - $\tan(7.22 \mp 2.38)$ ::: $\frac{\tan 7.22 \mp \tan 2.38}{1 \pm \tan 2.38 \tan 7.22}$
+> - $\sin(1.73 \mp 2.45)$ ::@:: $\sin 1.73 \cos 2.45 \mp \sin 2.45 \cos 1.73$
+> - $\cos(-0.56 \pm 9.23)$ ::@:: $\cos(-0.56) \cos 9.23 \mp \sin(-0.56) \sin 9.23$
+> - $\tan(7.22 \mp 2.38)$ ::@:: $\frac{\tan 7.22 \mp \tan 2.38}{1 \pm \tan 2.38 \tan 7.22}$
 
 ## multiple-angle
 
@@ -156,28 +156,28 @@ return await memorize_map(
 
 <!--pytextgen generate section="ab2d"--><!-- The following content is generated at 2024-07-10T23:14:22.112551+08:00. Any edits will be overridden! -->
 
-- sine::$$\sin(2\theta)=2\sin\theta\cos\theta=(\sin\theta+\cos\theta)^2-1=\frac{2\tan\theta}{1+\tan^2\theta}$$
-- cosine::$$\cos(2\theta)=\cos^2\theta-\sin^2\theta=2\cos^2\theta-1=1-2\sin^2\theta=\frac{1-\tan^2\theta}{1+\tan^2\theta}$$
-- tangent::$$\tan(2\theta)=\frac{2\tan\theta}{1-\tan^2\theta}$$
+- sine:@:$$\sin(2\theta)=2\sin\theta\cos\theta=(\sin\theta+\cos\theta)^2-1=\frac{2\tan\theta}{1+\tan^2\theta}$$
+- cosine:@:$$\cos(2\theta)=\cos^2\theta-\sin^2\theta=2\cos^2\theta-1=1-2\sin^2\theta=\frac{1-\tan^2\theta}{1+\tan^2\theta}$$
+- tangent:@:$$\tan(2\theta)=\frac{2\tan\theta}{1-\tan^2\theta}$$
 
 <!--/pytextgen-->
 
 > [!tip] tips
 >
-> - [mnemonic](mnemonic.md) ::: use [§ angle sum and difference](#angle%20sum%20and%20difference) to help with memorization
+> - [mnemonic](mnemonic.md) ::@:: use [§ angle sum and difference](#angle%20sum%20and%20difference) to help with memorization
 
 <!-- markdownlint MD028 -->
 
 > [!example] examples
 >
-> - $\sin 7.42$ ([angle sum](#angle%20sum%20and%20difference) variant) ::: $2 \cos 3.71 \sin 3.71$
-> - $\sin(-0.36)$ (square variant) ::: $(\cos 0.18 - \sin 0.18)^2 - 1$
-> - $\sin 6.24$ (tangent variant) ::: $\frac{2 \tan 3.12}{1 + \tan^2 3.12}$
-> - $\cos(-3.68)$ ([angle sum](#angle%20sum%20and%20difference) variant) ::: $\cos^2 1.84 - \sin^2 1.84$
-> - $\cos 9.98$ (cosine variant) ::: $2\cos^2 4.99 - 1$
-> - $\cos 5.54$ (sine variant) ::: $1 - 2\sin^2 2.77$
-> - $\cos(-9.22)$ (tangent variant) ::: $\frac{1 - \tan^2 4.61}{1 + \tan^2 4.61}$
-> - $\tan 0.04$ ::: $\frac{2 \tan 0.02}{1 - \tan^2 0.02}$
+> - $\sin 7.42$ ([angle sum](#angle%20sum%20and%20difference) variant) ::@:: $2 \cos 3.71 \sin 3.71$
+> - $\sin(-0.36)$ (square variant) ::@:: $(\cos 0.18 - \sin 0.18)^2 - 1$
+> - $\sin 6.24$ (tangent variant) ::@:: $\frac{2 \tan 3.12}{1 + \tan^2 3.12}$
+> - $\cos(-3.68)$ ([angle sum](#angle%20sum%20and%20difference) variant) ::@:: $\cos^2 1.84 - \sin^2 1.84$
+> - $\cos 9.98$ (cosine variant) ::@:: $2\cos^2 4.99 - 1$
+> - $\cos 5.54$ (sine variant) ::@:: $1 - 2\sin^2 2.77$
+> - $\cos(-9.22)$ (tangent variant) ::@:: $\frac{1 - \tan^2 4.61}{1 + \tan^2 4.61}$
+> - $\tan 0.04$ ::@:: $\frac{2 \tan 0.02}{1 - \tan^2 0.02}$
 
 ### half-angle
 
@@ -209,29 +209,29 @@ return await memorize_map(
 
 <!--pytextgen generate section="3759"--><!-- The following content is generated at 2024-07-10T23:43:06.932525+08:00. Any edits will be overridden! -->
 
-- sine::$$\sin \frac \theta 2 = \operatorname{sgn}\left(\sin \frac \theta 2\right) \sqrt{\frac {1 - \cos \theta} 2}$$
-- cosine::$$\cos \frac \theta 2 = \operatorname{sgn}\left(\cos \frac \theta 2\right) \sqrt{\frac {1 + \cos \theta} 2}$$
-- tangent::$$\tan \frac \theta 2 = \frac {1 - \cos \theta} {\sin \theta} = \frac {\sin \theta} {1 + \cos \theta} = \operatorname{sgn}(\sin \theta) \sqrt{\frac {1 - \cos \theta} {1 + \cos \theta} } = \csc \theta - \cot \theta = \frac {\tan \theta} {1 + \sec \theta} = \frac {-1 + \operatorname{sgn}(\cos \theta)\sqrt{1 + \tan^2 \theta} } {\tan \theta}$$
-- secant::$$\sec \frac \theta 2 = \operatorname{sgn}\left(\cos \frac \theta 2\right) \sqrt{\frac 2 {1 + \cos \theta} }$$
-- cosecant::$$\csc \frac \theta 2 = \operatorname{sgn}\left(\sin \frac \theta 2\right) \sqrt{\frac 2 {1 - \cos \theta} }$$
-- cotangent::$$\cot \frac \theta 2 = \frac {1 + \cos \theta} {\sin \theta} = \frac {\sin \theta} {1 - \cos \theta} = \operatorname{sgn}(\sin \theta) \sqrt{\frac {1 + \cos \theta} {1 - \cos \theta} } = \csc \theta + \cot \theta$$
+- sine:@:$$\sin \frac \theta 2 = \operatorname{sgn}\left(\sin \frac \theta 2\right) \sqrt{\frac {1 - \cos \theta} 2}$$
+- cosine:@:$$\cos \frac \theta 2 = \operatorname{sgn}\left(\cos \frac \theta 2\right) \sqrt{\frac {1 + \cos \theta} 2}$$
+- tangent:@:$$\tan \frac \theta 2 = \frac {1 - \cos \theta} {\sin \theta} = \frac {\sin \theta} {1 + \cos \theta} = \operatorname{sgn}(\sin \theta) \sqrt{\frac {1 - \cos \theta} {1 + \cos \theta} } = \csc \theta - \cot \theta = \frac {\tan \theta} {1 + \sec \theta} = \frac {-1 + \operatorname{sgn}(\cos \theta)\sqrt{1 + \tan^2 \theta} } {\tan \theta}$$
+- secant:@:$$\sec \frac \theta 2 = \operatorname{sgn}\left(\cos \frac \theta 2\right) \sqrt{\frac 2 {1 + \cos \theta} }$$
+- cosecant:@:$$\csc \frac \theta 2 = \operatorname{sgn}\left(\sin \frac \theta 2\right) \sqrt{\frac 2 {1 - \cos \theta} }$$
+- cotangent:@:$$\cot \frac \theta 2 = \frac {1 + \cos \theta} {\sin \theta} = \frac {\sin \theta} {1 - \cos \theta} = \operatorname{sgn}(\sin \theta) \sqrt{\frac {1 + \cos \theta} {1 - \cos \theta} } = \csc \theta + \cot \theta$$
 
 <!--/pytextgen-->
 
 > [!example] examples
 >
-> - $\sin 4.2$ ::: $\operatorname{sgn}(\sin 4.2) \sqrt{\frac {1 - \cos 8.4} 2}$
-> - $\cos (-3.6)$ ::: $\operatorname{sgn}(\cos 3.6) \sqrt{\frac {1 + \cos 7.2} 2}$
-> - $\tan (-3.14)$ (sine and cosine) ::: $\frac {\cos 6.28 - 1} {\sin 6.28} = -\frac {\sin 6.28} {1 + \cos 6.28}$
-> - $\tan 3.42$ (cosine) ::: $\operatorname{sgn}(\sin 6.82) \sqrt{\frac {1 - \cos 6.82} {1 + \cos 6.82} }$
-> - $\tan (-2.01)$ (addition) ::: $-\csc 4.02 + \cot 4.02$
-> - $\tan (-9.6)$ (tangent and secant) ::: $-\frac {\tan 19.2} {1 + \sec 19.2}$
-> - $\tan (-4.96)$ (tangent) ::: $\frac {1 - \operatorname{sgn}(\cos 9.92) \sqrt{1 + \tan^2 9.92} } {\tan 9.92}$
-> - $\sec (-7.24)$ ::: $\operatorname{sgn}(\cos 7.24) \sqrt{\frac 2 {1 + \cos 14.48} }$
-> - $\csc (-1.7)$ ::: $-\operatorname{sgn}(\sin 1.7) \sqrt{\frac 2 {1 - \cos 3.4} }$
-> - $\cot 3.14$ (sine and cosine) ::: $\frac {1 + \cos 6.28} {\sin 6.28} = \frac {\sin 6.28} {1 - \cos 6.28}$
-> - $\cot (-69)$ (cosine) ::: $-\operatorname{sgn}(\sin 138) \sqrt{\frac {1 + \cos 138} {1 - \cos 138} }$
-> - $\cot 17$ (addition) ::: $\csc 34 + \cot 34$
+> - $\sin 4.2$ ::@:: $\operatorname{sgn}(\sin 4.2) \sqrt{\frac {1 - \cos 8.4} 2}$
+> - $\cos (-3.6)$ ::@:: $\operatorname{sgn}(\cos 3.6) \sqrt{\frac {1 + \cos 7.2} 2}$
+> - $\tan (-3.14)$ (sine and cosine) ::@:: $\frac {\cos 6.28 - 1} {\sin 6.28} = -\frac {\sin 6.28} {1 + \cos 6.28}$
+> - $\tan 3.42$ (cosine) ::@:: $\operatorname{sgn}(\sin 6.82) \sqrt{\frac {1 - \cos 6.82} {1 + \cos 6.82} }$
+> - $\tan (-2.01)$ (addition) ::@:: $-\csc 4.02 + \cot 4.02$
+> - $\tan (-9.6)$ (tangent and secant) ::@:: $-\frac {\tan 19.2} {1 + \sec 19.2}$
+> - $\tan (-4.96)$ (tangent) ::@:: $\frac {1 - \operatorname{sgn}(\cos 9.92) \sqrt{1 + \tan^2 9.92} } {\tan 9.92}$
+> - $\sec (-7.24)$ ::@:: $\operatorname{sgn}(\cos 7.24) \sqrt{\frac 2 {1 + \cos 14.48} }$
+> - $\csc (-1.7)$ ::@:: $-\operatorname{sgn}(\sin 1.7) \sqrt{\frac 2 {1 - \cos 3.4} }$
+> - $\cot 3.14$ (sine and cosine) ::@:: $\frac {1 + \cos 6.28} {\sin 6.28} = \frac {\sin 6.28} {1 - \cos 6.28}$
+> - $\cot (-69)$ (cosine) ::@:: $-\operatorname{sgn}(\sin 138) \sqrt{\frac {1 + \cos 138} {1 - \cos 138} }$
+> - $\cot 17$ (addition) ::@:: $\csc 34 + \cot 34$
 
 ## product-to-sum and sum-to-product
 
@@ -261,19 +261,19 @@ return await memorize_map(
 
 <!--pytextgen generate section="3213"--><!-- The following content is generated at 2024-07-10T23:14:22.138589+08:00. Any edits will be overridden! -->
 
-- sine cosine::$$\sin\theta\cos\varphi=\frac{\sin(\theta+\varphi)+\sin(\theta-\varphi)}2$$
-- cosine sine::$$\cos\theta\sin\varphi=\frac{\sin(\theta+\varphi)-\sin(\theta-\varphi)}2$$
-- sine sine::$$\sin\theta\sin\varphi=\frac{\cos(\theta-\varphi)-\cos(\theta+\varphi)}2$$
-- cosine cosine::$$\cos\theta\cos\varphi=\frac{\cos(\theta-\varphi)+\cos(\theta+\varphi)}2$$
+- sine cosine:@:$$\sin\theta\cos\varphi=\frac{\sin(\theta+\varphi)+\sin(\theta-\varphi)}2$$
+- cosine sine:@:$$\cos\theta\sin\varphi=\frac{\sin(\theta+\varphi)-\sin(\theta-\varphi)}2$$
+- sine sine:@:$$\sin\theta\sin\varphi=\frac{\cos(\theta-\varphi)-\cos(\theta+\varphi)}2$$
+- cosine cosine:@:$$\cos\theta\cos\varphi=\frac{\cos(\theta-\varphi)+\cos(\theta+\varphi)}2$$
 
 <!--/pytextgen-->
 
 > [!example] examples
 >
-> - $\sin 5.23 \cos 1.23$ ::: $\frac{\sin 6.46 + \sin 4}2$
-> - $\cos(-3.21) \sin 0.23$ ::: $\frac{\sin 3.44 - \sin 2.98}2$
-> - $\sin 6.22 \sin(-0.01)$ ::: $\frac{\cos 6.23 - \cos 6.21}2$
-> - $\cos(-7.23) \cos(-1.23)$ ::: $\frac{\cos 6 + \cos 8.46}2$
+> - $\sin 5.23 \cos 1.23$ ::@:: $\frac{\sin 6.46 + \sin 4}2$
+> - $\cos(-3.21) \sin 0.23$ ::@:: $\frac{\sin 3.44 - \sin 2.98}2$
+> - $\sin 6.22 \sin(-0.01)$ ::@:: $\frac{\cos 6.23 - \cos 6.21}2$
+> - $\cos(-7.23) \cos(-1.23)$ ::@:: $\frac{\cos 6 + \cos 8.46}2$
 
 ### sum-to-product
 
@@ -301,19 +301,19 @@ return await memorize_map(
 
 <!--pytextgen generate section="39cd"--><!-- The following content is generated at 2024-07-10T23:14:22.210248+08:00. Any edits will be overridden! -->
 
-- sine ± sine::$$\sin\theta\pm\sin\varphi=2\sin\left(\frac{\theta\pm\varphi}2\right)\cos\left(\frac{\theta\mp\varphi}2\right)$$
-- cosine + cosine::$$\cos\theta+\cos\varphi=2\cos\left(\frac{\theta+\varphi}2\right)\cos\left(\frac{\theta-\varphi}2\right)$$
-- cosine - cosine::$$\cos\theta-\cos\varphi=-2\sin\left(\frac{\theta+\varphi}2\right)\sin\left(\frac{\theta-\varphi}2\right)$$
-- tangent ± tangent::$$\tan\theta\pm\tan\varphi=\frac{\sin(\theta\pm\varphi)}{\cos\theta\cos\varphi}$$
+- sine ± sine:@:$$\sin\theta\pm\sin\varphi=2\sin\left(\frac{\theta\pm\varphi}2\right)\cos\left(\frac{\theta\mp\varphi}2\right)$$
+- cosine + cosine:@:$$\cos\theta+\cos\varphi=2\cos\left(\frac{\theta+\varphi}2\right)\cos\left(\frac{\theta-\varphi}2\right)$$
+- cosine - cosine:@:$$\cos\theta-\cos\varphi=-2\sin\left(\frac{\theta+\varphi}2\right)\sin\left(\frac{\theta-\varphi}2\right)$$
+- tangent ± tangent:@:$$\tan\theta\pm\tan\varphi=\frac{\sin(\theta\pm\varphi)}{\cos\theta\cos\varphi}$$
 
 <!--/pytextgen-->
 
 > [!example] examples
 >
-> - $\sin 3.23 \mp \sin(-1.52)$ ::: $2 \sin\left(\frac{3.23 \pm 1.52}2\right) \cos\left(\frac{3.23 \mp 1.52}2\right)$
-> - $\cos(-2.23) + \cos 0.14$ ::: $2 \cos 1.045 \cos 1.185$
-> - $\cos(-6.88) - \cos(-2.45)$ ::: $-2 \sin 4.665 \sin 2.215$
-> - $\tan(-0.73) \mp \tan 2.55$ ::: $\frac{\sin(-0.73 \mp 2.55)}{\cos 0.73 \cos 2.55}$
+> - $\sin 3.23 \mp \sin(-1.52)$ ::@:: $2 \sin\left(\frac{3.23 \pm 1.52}2\right) \cos\left(\frac{3.23 \mp 1.52}2\right)$
+> - $\cos(-2.23) + \cos 0.14$ ::@:: $2 \cos 1.045 \cos 1.185$
+> - $\cos(-6.88) - \cos(-2.45)$ ::@:: $-2 \sin 4.665 \sin 2.215$
+> - $\tan(-0.73) \mp \tan 2.55$ ::@:: $\frac{\sin(-0.73 \mp 2.55)}{\cos 0.73 \cos 2.55}$
 
 ## linear combination
 
@@ -321,20 +321,20 @@ return await memorize_map(
 
 > __linear combination of sine and cosine__
 >
-> {{$$a \cos x + b \sin x = c \cos(x + \varphi)$$}}
+> {@{$$a \cos x + b \sin x = c \cos(x + \varphi)$$}@}
 >
 > - where
->   - {{$c = \operatorname{sgn}(a) \sqrt{a^2 + b^2}, \varphi = \arctan(-b / a)$ or $c = \sqrt{a^2 + b^2}, \varphi = \operatorname{atan2}(-b, a)$, assuming $\arctan(\pm \infty) = \pm \pi / 2$}}
-> - conditions: {{$(a, b) \ne (0, 0)$}}
+>   - {@{$c = \operatorname{sgn}(a) \sqrt{a^2 + b^2}, \varphi = \arctan(-b / a)$ or $c = \sqrt{a^2 + b^2}, \varphi = \operatorname{atan2}(-b, a)$, assuming $\arctan(\pm \infty) = \pm \pi / 2$}@}
+> - conditions: {@{$(a, b) \ne (0, 0)$}@}
 
 <!-- markdownlint MD028 -->
 
 > [!example] examples
 >
-> - $-2.64 \cos 3x + 3.22 \sin 3x$ (arctangent variant) ::: $-\sqrt{2.64^2 + 3.22^2} \cos(3x + \arctan(3.22 / 2.64))$
-> - $-9.29 \cos(-2x) - 9.11 \sin(-2x)$ ([atan2](atan2.md) variant) ::: $\sqrt{9.29^2 + 9.11^2} \cos(2x - \operatorname{atan2}(9.11, -9.29))$
-> - $0 \cos 5x - 1.23 \sin 5x$ (arctangent variant, [atan2](atan2.md) variant) ::: $1.23 \cos(5x + \pi / 2)$
-> - $0 \cos 4.2x + 0 \sin 4.2x$ ::: $0$
+> - $-2.64 \cos 3x + 3.22 \sin 3x$ (arctangent variant) ::@:: $-\sqrt{2.64^2 + 3.22^2} \cos(3x + \arctan(3.22 / 2.64))$
+> - $-9.29 \cos(-2x) - 9.11 \sin(-2x)$ ([atan2](atan2.md) variant) ::@:: $\sqrt{9.29^2 + 9.11^2} \cos(2x - \operatorname{atan2}(9.11, -9.29))$
+> - $0 \cos 5x - 1.23 \sin 5x$ (arctangent variant, [atan2](atan2.md) variant) ::@:: $1.23 \cos(5x + \pi / 2)$
+> - $0 \cos 4.2x + 0 \sin 4.2x$ ::@:: $0$
 
 ## references
 

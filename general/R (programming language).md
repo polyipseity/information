@@ -8,7 +8,7 @@ tags:
 
 # R
 
-__R__ is {{a [programming language](programming%20language.md) for [statistical computing](computational%20statistics.md) and [data visualization](data%20and%20information%20visualization.md)}}. It has been adopted in the [fields](academic%20discipline.md) of {{[data mining](data%20mining.md), [bioinformatics](bioinformatics.md), and [data analysis](data%20analysis.md)}}.
+__R__ is {@{a [programming language](programming%20language.md) for [statistical computing](computational%20statistics.md) and [data visualization](data%20and%20information%20visualization.md)}@}. It has been adopted in the [fields](academic%20discipline.md) of {@{[data mining](data%20mining.md), [bioinformatics](bioinformatics.md), and [data analysis](data%20analysis.md)}@}.
 
 ## references
 

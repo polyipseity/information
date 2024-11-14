@@ -11,7 +11,7 @@ tags:
 
 # astronomical unit
 
-The __astronomical unit__ (symbol: {{__au__, or __AU__}}) is {{a [unit of length](unit%20of%20length.md) defined to be exactly equal to 149&nbsp;597&nbsp;870&nbsp;700 m}}.
+The __astronomical unit__ (symbol: {@{__au__, or __AU__}@}) is {@{a [unit of length](unit%20of%20length.md) defined to be exactly equal to 149&nbsp;597&nbsp;870&nbsp;700 m}@}.
 
 ## references
 

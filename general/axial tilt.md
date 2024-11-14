@@ -11,7 +11,7 @@ tags:
 
 # axial tilt
 
-In [astronomy](astronomy.md), __axial tilt__, also known as {{__obliquity__}}, is {{the [angle](angle.md) between an object's [rotational axis](rotation%20around%20a%20fixed%20axis.md) and its [orbital](orbit.md) axis, which is the line perpendicular to its [orbital plane](orbital%20plane.md)}}; equivalently, {{it is the angle between its [equatorial plane](equator.md) and orbital plane}}.
+In [astronomy](astronomy.md), __axial tilt__, also known as {@{__obliquity__}@}, is {@{the [angle](angle.md) between an object's [rotational axis](rotation%20around%20a%20fixed%20axis.md) and its [orbital](orbit.md) axis, which is the line perpendicular to its [orbital plane](orbital%20plane.md)}@}; equivalently, {@{it is the angle between its [equatorial plane](equator.md) and orbital plane}@}.
 
 ## Earth
 
@@ -19,7 +19,7 @@ In [astronomy](astronomy.md), __axial tilt__, also known as {{__obliquity__}}, i
 
 - see: [season](season.md)
 
-Earth's [axis](rotation%20around%20a%20fixed%20axis.md) {{remains tilted in approximately the same direction relative to the [background stars](fixed%20stars.md) throughout a year (regardless of where it is in its [orbit](orbit.md)) due to the [gyroscope effect](axial%20parallelism.md)}}. This means that {{one [pole](celestial%20pole.md) (and the associated hemisphere of Earth) is directed away from the [Sun](Sun.md) at one side of the orbit, and half an orbit later (half a year later) this pole is directed towards the [Sun](Sun.md)}}. This causes {{Earth's [seasons](season.md). [Summer](summer.md) occurs in the [Northern hemisphere](Northern%20Hemisphere.md) when the north pole is directed toward the Sun, and [winter](wintr.md) when directed away}}. For the [Southern Hemisphere](Southern%20Hemisphere.md), {{the timing is reversed (the seasons are opposite)}}.
+Earth's [axis](rotation%20around%20a%20fixed%20axis.md) {@{remains tilted in approximately the same direction relative to the [background stars](fixed%20stars.md) throughout a year (regardless of where it is in its [orbit](orbit.md)) due to the [gyroscope effect](axial%20parallelism.md)}@}. This means that {@{one [pole](celestial%20pole.md) (and the associated hemisphere of Earth) is directed away from the [Sun](Sun.md) at one side of the orbit, and half an orbit later (half a year later) this pole is directed towards the [Sun](Sun.md)}@}. This causes {@{Earth's [seasons](season.md). [Summer](summer.md) occurs in the [Northern hemisphere](Northern%20Hemisphere.md) when the north pole is directed toward the Sun, and [winter](wintr.md) when directed away}@}. For the [Southern Hemisphere](Southern%20Hemisphere.md), {@{the timing is reversed (the seasons are opposite)}@}.
 
 ## references
 

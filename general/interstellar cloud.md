@@ -9,7 +9,7 @@ tags:
 
 # interstellar cloud
 
-An __interstellar cloud__ is {{generally an accumulation of [gas](gas.md), [plasma](plasma%20(physics).md), and [dust](cosmic%20dust.md) in our and other [galaxies](galaxy.md)}}. Put differently, an interstellar cloud is {{a denser-than-average region of the [interstellar medium](interstellar%20medium.md), the [matter](matter.md) and [radiation](radiation.md) that exists in the [space](outer%20space.md) between the [star systems](star%20system.md) in a galaxy}}.
+An __interstellar cloud__ is {@{generally an accumulation of [gas](gas.md), [plasma](plasma%20(physics).md), and [dust](cosmic%20dust.md) in our and other [galaxies](galaxy.md)}@}. Put differently, an interstellar cloud is {@{a denser-than-average region of the [interstellar medium](interstellar%20medium.md), the [matter](matter.md) and [radiation](radiation.md) that exists in the [space](outer%20space.md) between the [star systems](star%20system.md) in a galaxy}@}.
 
 ## references
 

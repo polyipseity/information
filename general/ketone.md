@@ -18,25 +18,25 @@ tags:
 
 ### boiling and melting points
 
-Due to increased [polarizability](polarizability.md), ketones have {{[boiling points](boiling%20point.md) and [melting points](melting%20point.md) in between comparable [alkanes](alkane.md) and [alcohols](alcohol.md)}}.
+Due to increased [polarizability](polarizability.md), ketones have {@{[boiling points](boiling%20point.md) and [melting points](melting%20point.md) in between comparable [alkanes](alkane.md) and [alcohols](alcohol.md)}@}.
 
 ### density
 
-Most ketones are {{less [dense](density.md) than [water](water.md)}}. Density {{increases}} with increasing size.
+Most ketones are {@{less [dense](density.md) than [water](water.md)}@}. Density {@{increases}@} with increasing size.
 
 ### odor
 
-Most ketones have {{a pleasant and sweet smell}}.
+Most ketones have {@{a pleasant and sweet smell}@}.
 
 ### solubility
 
-Ketones {{that are small are [soluble](solubility.md) in [water](water.md)}}. Solubility {{decreases}} the larger the ketone.
+Ketones {@{that are small are [soluble](solubility.md) in [water](water.md)}@}. Solubility {@{decreases}@} the larger the ketone.
 
 ## chemical properties
 
 ### reduction
 
-Ketones {{can be reduced to secondary [alcohols](alcohol.md) using [aqueous](aqueous%20solution.md) [sodium borohydride](sodium%20borohydride.md), or [lithium aluminium hydride](lithium%20aluminium%20hydride.md) in dry [diethyl ether](diethyl%20ether.md) and then add dilute [acid](acid.md)}}.
+Ketones {@{can be reduced to secondary [alcohols](alcohol.md) using [aqueous](aqueous%20solution.md) [sodium borohydride](sodium%20borohydride.md), or [lithium aluminium hydride](lithium%20aluminium%20hydride.md) in dry [diethyl ether](diethyl%20ether.md) and then add dilute [acid](acid.md)}@}.
 
 ### reactions
 
@@ -58,8 +58,8 @@ return await memorize_seq(
 
 <!--pytextgen generate section="249a"--><!-- The following content is generated at 2024-01-04T20:17:51.957664+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←[reduction](#reduction)
-- [reduction](#reduction)→:::←_(end)_
+- _(begin)_→::@::←[reduction](#reduction)
+- [reduction](#reduction)→::@::←_(end)_
 
 <!--/pytextgen-->
 

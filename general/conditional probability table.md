@@ -19,7 +19,7 @@ For example, suppose that two [binary variables](binary%20data.md#binary%20varia
 | ___y_=1__  | 2/9       | 2/9       | 4/9        |
 | __P(_x_)__ | 6/9       | 3/9       | 1          |
 
-This gives us the table of conditional of probabilities of _y_ given _x_, with {{the row headers being the conditional probabilities and the column headers being the variable conditioned on (mnemonic: ↙)}}:
+This gives us the table of conditional of probabilities of _y_ given _x_, with {@{the row headers being the conditional probabilities and the column headers being the variable conditioned on (mnemonic: ↙)}@}:
 
 |                      | ___x_=0__ | ___x_=1__ |
 | -------------------- |:---------:|:---------:|
@@ -27,14 +27,14 @@ This gives us the table of conditional of probabilities of _y_ given _x_, with {
 | __P(_y_=1&mid;_x_)__ | 2/9       | 2/9       |
 | __sum__              | 6/9       | 3/9       |
 
-Swapping {{the row and column headers is also possible (mnemonic: ↗)}}:
+Swapping {@{the row and column headers is also possible (mnemonic: ↗)}@}:
 
 |           | __P(_y_=0&mid;_x_)__ | __P(_y_=1&mid;_x_)__ | __sum__ |
 | --------- |:--------------------:|:--------------------:|:-------:|
 | ___x_=0__ | 4/9                  | 2/9                  | 6/9     |
 | ___x_=1__ | 1/9                  | 2/9                  | 3/9     |
 
-With more than {{one conditioning variable or output variable}}, {{the table headers simply become all possible combinations of the multiple variables}}.
+With more than {@{one conditioning variable or output variable}@}, {@{the table headers simply become all possible combinations of the multiple variables}@}.
 
 ## references
 

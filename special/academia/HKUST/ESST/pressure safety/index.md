@@ -19,46 +19,46 @@ tags:
 
 The content is in teaching order.
 
-- [pressure](../../../../../general/pressure.md) _P_ ::: [force](../../../../../general/force.md) applied perpendicular to a surface per unit area
-  - [pressure](../../../../../general/pressure.md) [units of measurement](../../../../../general/unit%20of%20measurement.md) ::: [SI unit](../../../../../general/International%20System%20of%20Units.md): [pascal](../../../../../general/pascal%20(unit).md) (Pa), Pa = N/m<sup>2</sup>, 1 bar = 100000 Pa, 1 atm = 101325 Pa
-- pressured system ::: One or more [pressure vessels](../../../../../general/pressure%20vessel.md), pipework, and associated protective devices.
-  - pressured system classification in [Hong Kong](../../../../../general/Hong%20Kong.md) ::: [boiler](../../../../../general/boiler.md) and [pressure vessel](../../../../../general/pressure%20vessel.md)
+- [pressure](../../../../../general/pressure.md) _P_ ::@:: [force](../../../../../general/force.md) applied perpendicular to a surface per unit area
+  - [pressure](../../../../../general/pressure.md) [units of measurement](../../../../../general/unit%20of%20measurement.md) ::@:: [SI unit](../../../../../general/International%20System%20of%20Units.md): [pascal](../../../../../general/pascal%20(unit).md) (Pa), Pa = N/m<sup>2</sup>, 1 bar = 100000 Pa, 1 atm = 101325 Pa
+- pressured system ::@:: One or more [pressure vessels](../../../../../general/pressure%20vessel.md), pipework, and associated protective devices.
+  - pressured system classification in [Hong Kong](../../../../../general/Hong%20Kong.md) ::@:: [boiler](../../../../../general/boiler.md) and [pressure vessel](../../../../../general/pressure%20vessel.md)
     - [boiler examples](#boiler%20examples)
     - [pressure vessel examples](#pressure%20vessel%20examples)
-  - an example of a pressured system ::: Several boilers are connected to an air receiver. Each boiler has a control for controlling the flow to the air receiver. The air receiver can be used for many applications.
+  - an example of a pressured system ::@:: Several boilers are connected to an air receiver. Each boiler has a control for controlling the flow to the air receiver. The air receiver can be used for many applications.
 - hazards
   - [hazard causes](#hazard%20causes)
   - [hazard types](#hazard%20types)
   - [hazard factors](#hazard%20factors)
 - [design safety](#design%20safety)
-- technical requirements ::: Boilers and Pressure Vessels Regulations 2002 (Cap. 56A)
+- technical requirements ::@:: Boilers and Pressure Vessels Regulations 2002 (Cap. 56A)
   - [boiler requirements](#boiler%20requirements)
   - [air or steam receiver requirements](#air%20or%20steam%20receiver%20requirements)
   - [pressurized fuel container requirements](#pressurized%20fuel%20container%20requirements)
   - [auxiliary equipments](#auxiliary%20equipments)
 - [safety measures](#safety%20measures)
-  - spring-loaded safety valve ::: Ensures the pressure is below the maximum permissible working pressure. Positioned downstream. Away from inlets to avoid disturbances.
-  - calibrated pressure gauge ::: Has red marking indicating the maximum permissible working pressure. Allows a test device to be fitted.
-  - thermal protection ::: Shutdown requires action to be taken first to avoid overheating. Install fusible pressure release plug.
-  - coolant protection ::: Shuts down compressors when the water temperature exceeds maximum.
-  - lubricant protection ::: Shuts down compressors when the lubricant pressure drops below minimum.
-  - air inlet and outlet monitoring ::: A water manometer or pressure-indicating device for each compressor air inlet.
+  - spring-loaded safety valve ::@:: Ensures the pressure is below the maximum permissible working pressure. Positioned downstream. Away from inlets to avoid disturbances.
+  - calibrated pressure gauge ::@:: Has red marking indicating the maximum permissible working pressure. Allows a test device to be fitted.
+  - thermal protection ::@:: Shutdown requires action to be taken first to avoid overheating. Install fusible pressure release plug.
+  - coolant protection ::@:: Shuts down compressors when the water temperature exceeds maximum.
+  - lubricant protection ::@:: Shuts down compressors when the lubricant pressure drops below minimum.
+  - air inlet and outlet monitoring ::@:: A water manometer or pressure-indicating device for each compressor air inlet.
 - hydraulic system
-  - hydraulic system hazards ::: burns, flailing or ruptured fittings or hoses, pinhole leak injury
+  - hydraulic system hazards ::@:: burns, flailing or ruptured fittings or hoses, pinhole leak injury
   - [hydraulic system safety measures](#hydraulic%20system%20safety%20measures)
-  - [combined gas law](../../../../../general/ideal%20gas%20law.md#combined%20gas%20law) ::: _PV_/_T_ = _k_: When volume decreases or temperature increases, pressure increases.
+  - [combined gas law](../../../../../general/ideal%20gas%20law.md#combined%20gas%20law) ::@:: _PV_/_T_ = _k_: When volume decreases or temperature increases, pressure increases.
 - compressed gas cylinder
-  - compressed gas cylinder hazards ::: Pressure can reach over 100 bars. Leaking gas produce a force 20 to 50 times the cylinder weight, which is about 100 kg, similar to a rocket or guided missile. Over-pressurized vessel fail at a weak point if it exists. If that point is very weak, the vessel can fail at or below normal operating pressure.
+  - compressed gas cylinder hazards ::@:: Pressure can reach over 100 bars. Leaking gas produce a force 20 to 50 times the cylinder weight, which is about 100 kg, similar to a rocket or guided missile. Over-pressurized vessel fail at a weak point if it exists. If that point is very weak, the vessel can fail at or below normal operating pressure.
   - [compressed gas cylinder safety measures](#compressed%20gas%20cylinder%20safety%20measures)
 - [relevant legislation in Hong Kong](#relevant%20legislation%20in%20Hong%20Kong)
-  - Boilers and Pressure Vessels Ordinance (Cap. 56) ::: Provision of control and operation of boilers and pressure vessels. Ensures standards. Defines _appointed examiners_ and _competent person_. Requires certificate of examination and certificate of fitness.
-  - certificate of fitness ::: Required for auxiliary equipment, boiler pressure vessel, and steam container, but NOT pressurized fuel container, to be used. Valid for 26 months. Must renew after hired, prohibition order, repair, or sold. The examination process is outlined under hydraulic test.
+  - Boilers and Pressure Vessels Ordinance (Cap. 56) ::@:: Provision of control and operation of boilers and pressure vessels. Ensures standards. Defines _appointed examiners_ and _competent person_. Requires certificate of examination and certificate of fitness.
+  - certificate of fitness ::@:: Required for auxiliary equipment, boiler pressure vessel, and steam container, but NOT pressurized fuel container, to be used. Valid for 26 months. Must renew after hired, prohibition order, repair, or sold. The examination process is outlined under hydraulic test.
   - hydraulic test
-    - hydraulic test for seamless steel air receivers ::: $\text{test pressure} = \begin{cases} \mathrm{MPWP} + 1.4 \times 10^7 \mathrm{\ Pa} & \text{ if } 1.4 \times 10^7 \mathrm{\ Pa} < \mathrm{MPWP} \le 2.8 \times 10^7 \mathrm{\ Pa} \\ 1.5 \,\mathrm{MPWP} & \text{ if } \mathrm{MPWP} > 2.8 \times 10^7 \mathrm{\ Pa} \end{cases}$.
-    - hydraulic test for other air receivers ::: $\text{test pressure} = \begin{cases} 2 \,\mathrm{MPWP} & \text{ if } \mathrm{MPWP} \le 7 \times 10^5 \mathrm{\ Pa} \\ 1.5 \,\mathrm{MPWP} + 3.5 \times 10^5 \mathrm{\ Pa} & \text{ if } \mathrm{MPWP} > 7 \times 10^5 \mathrm{\ Pa} \end{cases}$.
-  - Dangerous Goods (General) Regulations (Repealed) (Cap. 295B) ::: Governs pressurized cylinders.
-  - pressurized cylinder ::: Governed by Dangerous Goods (General) Regulations (Repealed) (Cap. 295B) instead. Requires hydraulic stretch test and hydraulic pressure test. Valid for 5 years.
-  - hydraulic stretch test and hydraulic pressure test ::: For permanent gas, the pressure for hydraulic stretch test is not less than 21 MPa and for hydraulic pressure test is not less than 20 MPa. For liquefied gas, the pressure is not less than 4/3 of the working pressure for both tests. The cylinder shall be destroyed if it shows a permanent volumetric expansion of more than 10%, leakage, or deformation under the tests.
+    - hydraulic test for seamless steel air receivers ::@:: $\text{test pressure} = \begin{cases} \mathrm{MPWP} + 1.4 \times 10^7 \mathrm{\ Pa} & \text{ if } 1.4 \times 10^7 \mathrm{\ Pa} < \mathrm{MPWP} \le 2.8 \times 10^7 \mathrm{\ Pa} \\ 1.5 \,\mathrm{MPWP} & \text{ if } \mathrm{MPWP} > 2.8 \times 10^7 \mathrm{\ Pa} \end{cases}$.
+    - hydraulic test for other air receivers ::@:: $\text{test pressure} = \begin{cases} 2 \,\mathrm{MPWP} & \text{ if } \mathrm{MPWP} \le 7 \times 10^5 \mathrm{\ Pa} \\ 1.5 \,\mathrm{MPWP} + 3.5 \times 10^5 \mathrm{\ Pa} & \text{ if } \mathrm{MPWP} > 7 \times 10^5 \mathrm{\ Pa} \end{cases}$.
+  - Dangerous Goods (General) Regulations (Repealed) (Cap. 295B) ::@:: Governs pressurized cylinders.
+  - pressurized cylinder ::@:: Governed by Dangerous Goods (General) Regulations (Repealed) (Cap. 295B) instead. Requires hydraulic stretch test and hydraulic pressure test. Valid for 5 years.
+  - hydraulic stretch test and hydraulic pressure test ::@:: For permanent gas, the pressure for hydraulic stretch test is not less than 21 MPa and for hydraulic pressure test is not less than 20 MPa. For liquefied gas, the pressure is not less than 4/3 of the working pressure for both tests. The cylinder shall be destroyed if it shows a permanent volumetric expansion of more than 10%, leakage, or deformation under the tests.
 
 ## oversized data
 
@@ -90,12 +90,12 @@ safety: withstand the maximum permissible working pressure
 
 <!--pytextgen generate section="3842"--><!-- The following content is generated at 2024-02-20T14:07:01.560765+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←control: spring-loaded safety valve for controlling the working pressure
-- control: spring-loaded safety valve for controlling the working pressure→:::←identity: mark each receiver with a distinguishing number
-- identity: mark each receiver with a distinguishing number→:::←indication: pressure gauge with red marking showing the maximum permissible working pressure
-- indication: pressure gauge with red marking showing the maximum permissible working pressure→:::←safety: automatic mechanism like reducing valve to prevent over-pressurizing
-- safety: automatic mechanism like reducing valve to prevent over-pressurizing→:::←safety: withstand the maximum permissible working pressure
-- safety: withstand the maximum permissible working pressure→:::←_(end)_
+- _(begin)_→::@::←control: spring-loaded safety valve for controlling the working pressure
+- control: spring-loaded safety valve for controlling the working pressure→::@::←identity: mark each receiver with a distinguishing number
+- identity: mark each receiver with a distinguishing number→::@::←indication: pressure gauge with red marking showing the maximum permissible working pressure
+- indication: pressure gauge with red marking showing the maximum permissible working pressure→::@::←safety: automatic mechanism like reducing valve to prevent over-pressurizing
+- safety: automatic mechanism like reducing valve to prevent over-pressurizing→::@::←safety: withstand the maximum permissible working pressure
+- safety: withstand the maximum permissible working pressure→::@::←_(end)_
 
 <!--/pytextgen-->
 
@@ -127,12 +127,12 @@ pipe
 
 <!--pytextgen generate section="9281"--><!-- The following content is generated at 2024-02-09T19:56:53.031289+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←flue damper
-- flue damper→:::←fuel pump
-- fuel pump→:::←heater
-- heater→:::←multiple burner
-- multiple burner→:::←pipe
-- pipe→:::←_(end)_
+- _(begin)_→::@::←flue damper
+- flue damper→::@::←fuel pump
+- fuel pump→::@::←heater
+- heater→::@::←multiple burner
+- multiple burner→::@::←pipe
+- pipe→::@::←_(end)_
 
 <!--/pytextgen-->
 
@@ -164,12 +164,12 @@ thermal oil heater
 
 <!--pytextgen generate section="afb9"--><!-- The following content is generated at 2024-02-09T19:56:52.621799+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←electric heated boiler
-- electric heated boiler→:::←electric steam boiler
-- electric steam boiler→:::←fire-tube boiler
-- fire-tube boiler→:::←fossil fuel boiler
-- fossil fuel boiler→:::←thermal oil heater
-- thermal oil heater→:::←_(end)_
+- _(begin)_→::@::←electric heated boiler
+- electric heated boiler→::@::←electric steam boiler
+- electric steam boiler→::@::←fire-tube boiler
+- fire-tube boiler→::@::←fossil fuel boiler
+- fossil fuel boiler→::@::←thermal oil heater
+- thermal oil heater→::@::←_(end)_
 
 <!--/pytextgen-->
 
@@ -201,12 +201,12 @@ safety: fusible pressure release plug or efficient low-water alarm
 
 <!--pytextgen generate section="3e9a"--><!-- The following content is generated at 2024-02-20T14:07:01.672633+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←control: spring-loaded safety valve and separate stop-valve for controlling the working pressure
-- control: spring-loaded safety valve and separate stop-valve for controlling the working pressure→:::←identity: mark each boiler with a distinguishing number
-- identity: mark each boiler with a distinguishing number→:::←indication: pressure gauge with red marking showing the maximum permissible working pressure
-- indication: pressure gauge with red marking showing the maximum permissible working pressure→:::←indication: transparent water level gauge
-- indication: transparent water level gauge→:::←safety: fusible pressure release plug or efficient low-water alarm
-- safety: fusible pressure release plug or efficient low-water alarm→:::←_(end)_
+- _(begin)_→::@::←control: spring-loaded safety valve and separate stop-valve for controlling the working pressure
+- control: spring-loaded safety valve and separate stop-valve for controlling the working pressure→::@::←identity: mark each boiler with a distinguishing number
+- identity: mark each boiler with a distinguishing number→::@::←indication: pressure gauge with red marking showing the maximum permissible working pressure
+- indication: pressure gauge with red marking showing the maximum permissible working pressure→::@::←indication: transparent water level gauge
+- indication: transparent water level gauge→::@::←safety: fusible pressure release plug or efficient low-water alarm
+- safety: fusible pressure release plug or efficient low-water alarm→::@::←_(end)_
 
 <!--/pytextgen-->
 
@@ -242,14 +242,14 @@ operator: no electric arcs, greases, heat sources, or oils nearby to prevent exp
 
 <!--pytextgen generate section="33bb"--><!-- The following content is generated at 2024-02-20T13:14:06.445729+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←design: correct fittings and regulators
-- design: correct fittings and regulators→:::←design: flashback arrestor for flammable or oxidizing gas is used to prevent ignition
-- design: flashback arrestor for flammable or oxidizing gas is used to prevent ignition→:::←operator: close inactive valves
-- operator: close inactive valves→:::←operator: frequent examination for damages
-- operator: frequent examination for damages→:::←operator: keep upright
-- operator: keep upright→:::←operator: mark empty cylinders
-- operator: mark empty cylinders→:::←operator: no electric arcs, greases, heat sources, or oils nearby to prevent explosion
-- operator: no electric arcs, greases, heat sources, or oils nearby to prevent explosion→:::←_(end)_
+- _(begin)_→::@::←design: correct fittings and regulators
+- design: correct fittings and regulators→::@::←design: flashback arrestor for flammable or oxidizing gas is used to prevent ignition
+- design: flashback arrestor for flammable or oxidizing gas is used to prevent ignition→::@::←operator: close inactive valves
+- operator: close inactive valves→::@::←operator: frequent examination for damages
+- operator: frequent examination for damages→::@::←operator: keep upright
+- operator: keep upright→::@::←operator: mark empty cylinders
+- operator: mark empty cylinders→::@::←operator: no electric arcs, greases, heat sources, or oils nearby to prevent explosion
+- operator: no electric arcs, greases, heat sources, or oils nearby to prevent explosion→::@::←_(end)_
 
 <!--/pytextgen-->
 
@@ -283,13 +283,13 @@ protective devices that release contents do so safely
 
 <!--pytextgen generate section="857e"--><!-- The following content is generated at 2024-02-19T20:56:23.890793+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←examinable with safely accessible interior
-- examinable with safely accessible interior→:::←expected working life
-- expected working life→:::←fluid properties
-- fluid properties→:::←operating limits, like valve operating conditions
-- operating limits, like valve operating conditions→:::←proper materials
-- proper materials→:::←protective devices that release contents do so safely
-- protective devices that release contents do so safely→:::←_(end)_
+- _(begin)_→::@::←examinable with safely accessible interior
+- examinable with safely accessible interior→::@::←expected working life
+- expected working life→::@::←fluid properties
+- fluid properties→::@::←operating limits, like valve operating conditions
+- operating limits, like valve operating conditions→::@::←proper materials
+- proper materials→::@::←protective devices that release contents do so safely
+- protective devices that release contents do so safely→::@::←_(end)_
 
 <!--/pytextgen-->
 
@@ -325,14 +325,14 @@ overheating
 
 <!--pytextgen generate section="2984"--><!-- The following content is generated at 2024-02-09T19:56:52.708301+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←blocked or restricted flow
-- blocked or restricted flow→:::←compressor malfunction
-- compressor malfunction→:::←external fire
-- external fire→:::←failure of automatic controls
-- failure of automatic controls→:::←formation and ignition or detonation of carbonaceous deposits
-- formation and ignition or detonation of carbonaceous deposits→:::←ignition or detonation of oil or oil vapor
-- ignition or detonation of oil or oil vapor→:::←overheating
-- overheating→:::←_(end)_
+- _(begin)_→::@::←blocked or restricted flow
+- blocked or restricted flow→::@::←compressor malfunction
+- compressor malfunction→::@::←external fire
+- external fire→::@::←failure of automatic controls
+- failure of automatic controls→::@::←formation and ignition or detonation of carbonaceous deposits
+- formation and ignition or detonation of carbonaceous deposits→::@::←ignition or detonation of oil or oil vapor
+- ignition or detonation of oil or oil vapor→::@::←overheating
+- overheating→::@::←_(end)_
 
 <!--/pytextgen-->
 
@@ -366,13 +366,13 @@ worker knowledge and skills
 
 <!--pytextgen generate section="1192"--><!-- The following content is generated at 2024-02-19T20:13:03.087677+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←control complexity
-- control complexity→:::←equipment age, condition, and suitability
-- equipment age, condition, and suitability→:::←fluid properties
-- fluid properties→:::←pressure
-- pressure→:::←prevailing conditions
-- prevailing conditions→:::←worker knowledge and skills
-- worker knowledge and skills→:::←_(end)_
+- _(begin)_→::@::←control complexity
+- control complexity→::@::←equipment age, condition, and suitability
+- equipment age, condition, and suitability→::@::←fluid properties
+- fluid properties→::@::←pressure
+- pressure→::@::←prevailing conditions
+- prevailing conditions→::@::←worker knowledge and skills
+- worker knowledge and skills→::@::←_(end)_
 
 <!--/pytextgen-->
 
@@ -404,12 +404,12 @@ suffocation
 
 <!--pytextgen generate section="937a"--><!-- The following content is generated at 2024-02-19T20:13:03.118404+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←blast, explosion, flying debris, and shockwave
-- blast, explosion, flying debris, and shockwave→:::←chemical burn
-- chemical burn→:::←fire and thermal burn
-- fire and thermal burn→:::←poisoning
-- poisoning→:::←suffocation
-- suffocation→:::←_(end)_
+- _(begin)_→::@::←blast, explosion, flying debris, and shockwave
+- blast, explosion, flying debris, and shockwave→::@::←chemical burn
+- chemical burn→::@::←fire and thermal burn
+- fire and thermal burn→::@::←poisoning
+- poisoning→::@::←suffocation
+- suffocation→::@::←_(end)_
 
 <!--/pytextgen-->
 
@@ -443,13 +443,13 @@ operator: segregate and indicate work area
 
 <!--pytextgen generate section="93fa"--><!-- The following content is generated at 2024-02-20T13:55:14.024176+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←design: fix hose strap to restrain the failing motion of dislocated flexible hoses
-- design: fix hose strap to restrain the failing motion of dislocated flexible hoses→:::←design: high flashpoint hydraulic oil
-- design: high flashpoint hydraulic oil→:::←design: proper construction, design, and materials
-- design: proper construction, design, and materials→:::←operator: frequent examination for damages
-- operator: frequent examination for damages→:::←operator: pressurize in stages
-- operator: pressurize in stages→:::←operator: segregate and indicate work area
-- operator: segregate and indicate work area→:::←_(end)_
+- _(begin)_→::@::←design: fix hose strap to restrain the failing motion of dislocated flexible hoses
+- design: fix hose strap to restrain the failing motion of dislocated flexible hoses→::@::←design: high flashpoint hydraulic oil
+- design: high flashpoint hydraulic oil→::@::←design: proper construction, design, and materials
+- design: proper construction, design, and materials→::@::←operator: frequent examination for damages
+- operator: frequent examination for damages→::@::←operator: pressurize in stages
+- operator: pressurize in stages→::@::←operator: segregate and indicate work area
+- operator: segregate and indicate work area→::@::←_(end)_
 
 <!--/pytextgen-->
 
@@ -479,11 +479,11 @@ spraying paint container
 
 <!--pytextgen generate section="152a"--><!-- The following content is generated at 2024-02-09T19:56:52.689301+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←air receiver
-- air receiver→:::←fixed vessel for starting internal combustion engine
-- fixed vessel for starting internal combustion engine→:::←pressured fuel container
-- pressured fuel container→:::←spraying paint container
-- spraying paint container→:::←_(end)_
+- _(begin)_→::@::←air receiver
+- air receiver→::@::←fixed vessel for starting internal combustion engine
+- fixed vessel for starting internal combustion engine→::@::←pressured fuel container
+- pressured fuel container→::@::←spraying paint container
+- spraying paint container→::@::←_(end)_
 
 <!--/pytextgen-->
 
@@ -515,12 +515,12 @@ safety: pressure release valve
 
 <!--pytextgen generate section="23fb"--><!-- The following content is generated at 2024-02-19T20:13:03.186373+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←control: accessible valves and safety devices
-- control: accessible valves and safety devices→:::←control: remote control valve as close to burner as possible
-- control: remote control valve as close to burner as possible→:::←safety: all piping properly secured save for 0.6 m immediately before the burner
-- safety: all piping properly secured save for 0.6 m immediately before the burner→:::←safety: maximum permissible working pressure not more than 500 kPa
-- safety: maximum permissible working pressure not more than 500 kPa→:::←safety: pressure release valve
-- safety: pressure release valve→:::←_(end)_
+- _(begin)_→::@::←control: accessible valves and safety devices
+- control: accessible valves and safety devices→::@::←control: remote control valve as close to burner as possible
+- control: remote control valve as close to burner as possible→::@::←safety: all piping properly secured save for 0.6 m immediately before the burner
+- safety: all piping properly secured save for 0.6 m immediately before the burner→::@::←safety: maximum permissible working pressure not more than 500 kPa
+- safety: maximum permissible working pressure not more than 500 kPa→::@::←safety: pressure release valve
+- safety: pressure release valve→::@::←_(end)_
 
 <!--/pytextgen-->
 
@@ -550,11 +550,11 @@ Dangerous Goods (General) Regulations (Repealed) (Cap. 295B)
 
 <!--pytextgen generate section="2876"--><!-- The following content is generated at 2024-02-09T19:56:53.136813+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←Boilers and Pressure Vessels Ordinance (Cap. 56)
-- Boilers and Pressure Vessels Ordinance (Cap. 56)→:::←Boilers and Pressure Vessels Regulations (Cap. 56A)
-- Boilers and Pressure Vessels Regulations (Cap. 56A)→:::←Boilers and Pressure Vessels (Forms) Order (Cap. 56B)
-- Boilers and Pressure Vessels (Forms) Order (Cap. 56B)→:::←Dangerous Goods (General) Regulations (Repealed) (Cap. 295B)
-- Dangerous Goods (General) Regulations (Repealed) (Cap. 295B)→:::←_(end)_
+- _(begin)_→::@::←Boilers and Pressure Vessels Ordinance (Cap. 56)
+- Boilers and Pressure Vessels Ordinance (Cap. 56)→::@::←Boilers and Pressure Vessels Regulations (Cap. 56A)
+- Boilers and Pressure Vessels Regulations (Cap. 56A)→::@::←Boilers and Pressure Vessels (Forms) Order (Cap. 56B)
+- Boilers and Pressure Vessels (Forms) Order (Cap. 56B)→::@::←Dangerous Goods (General) Regulations (Repealed) (Cap. 295B)
+- Dangerous Goods (General) Regulations (Repealed) (Cap. 295B)→::@::←_(end)_
 
 <!--/pytextgen-->
 
@@ -590,13 +590,13 @@ thermal protection
 
 <!--pytextgen generate section="184a"--><!-- The following content is generated at 2024-02-09T19:56:53.080815+08:00. Any edits will be overridden! -->
 
-- _(begin)_→:::←air inlet and outlet monitoring
-- air inlet and outlet monitoring→:::←calibrated pressure gauge
-- calibrated pressure gauge→:::←coolant protection
-- coolant protection→:::←explosion protection
-- explosion protection→:::←lubricant protection
-- lubricant protection→:::←safety valve
-- safety valve→:::←thermal protection
-- thermal protection→:::←_(end)_
+- _(begin)_→::@::←air inlet and outlet monitoring
+- air inlet and outlet monitoring→::@::←calibrated pressure gauge
+- calibrated pressure gauge→::@::←coolant protection
+- coolant protection→::@::←explosion protection
+- explosion protection→::@::←lubricant protection
+- lubricant protection→::@::←safety valve
+- safety valve→::@::←thermal protection
+- thermal protection→::@::←_(end)_
 
 <!--/pytextgen-->

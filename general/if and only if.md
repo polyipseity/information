@@ -13,7 +13,7 @@ tags:
 
 ### usage in definitions
 
-Conventionally, mathematical [definitions](definition.md) are {{"if and only if" statements, even if the word "if" is used}}.
+Conventionally, mathematical [definitions](definition.md) are {@{"if and only if" statements, even if the word "if" is used}@}.
 
 ## references
 
