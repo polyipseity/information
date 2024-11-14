@@ -32,6 +32,7 @@ _PRESERVED_PAGE_PREFIXES = {
     "commons": "https://commons.wikimedia.org/wiki/{}",
     "oeis:": "https://oeis.org/{}",
     "wikt:": "https://en.wiktionary.org/wiki/{}",
+    "wiktionary:": "https://en.wiktionary.org/wiki/{}",
 }
 
 with open(f"{NAME}.names map.json", "rt") as names_map_file:
