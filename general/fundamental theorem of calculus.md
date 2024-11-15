@@ -48,7 +48,7 @@ The second part is {@{stronger than the [corollary](#corollary) because $f$ may 
 
 The conditions above can be relaxed. The result still holds if {@{$f$ is [Lebesgue integrable](Lebesgue%20integration.md) instead}@}. Continuing with the replaced definition, however, if {@{$F$ admits a derivative _[almost everywhere](almost%20everywhere.md)_ instead of everywhere}@}, this result may fail. Instead, if {@{$F$ is [absolutely continuous](absolute%20continuity.md), then it admits a derivative $f$ almost everywhere, $f$ is Lebesgue integrable, and the above result holds again. Note that we do not need to show that $f$ is integrable first (when $F$ is absolutely continuous)}@}. <!--SR:!2025-12-29,432,280!2025-07-17,282,260!2025-01-03,166,260-->
 
-If the even more general {@{[Henstock–Kurzweil integral](Henstock–Kurzweil%20integral.md) is used}@}, then if {@{a [continuous function](continuous%20function.md) $F$ admits an [antiderivative](antiderivative.md) $f$ at all but _countably_ many points (not the same as almost everywhere), then $f$ is Henstock–Kurzweil integrable and the above results hold. Note that we do not need to show that $f$ is integrable first}@}. <!--SR:!2025-03-05,209,280!2024-11-15,124,240-->
+If the even more general {@{[Henstock–Kurzweil integral](Henstock–Kurzweil%20integral.md) is used}@}, then if {@{a [continuous function](continuous%20function.md) $F$ admits an [antiderivative](antiderivative.md) $f$ at all but _countably_ many points (not the same as almost everywhere), then $f$ is Henstock–Kurzweil integrable and the above results hold. Note that we do not need to show that $f$ is integrable first}@}. <!--SR:!2025-03-05,209,280!2025-09-14,303,240-->
 
 ## references
 

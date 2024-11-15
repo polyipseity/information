@@ -40,7 +40,7 @@ The content is in teaching order.
 - hard skills, soft skills ::@:: Many jobs typically require a combination of them. <!--SR:!2024-12-05,56,310!2024-12-06,57,310-->
   - hard skills ::@:: Skills acquired through formal education and training programs. <!--SR:!2024-12-10,61,310!2024-11-25,48,310-->
   - soft skills ::@:: Skills that promote productivity, efficiency, effective communication, etc. <!--SR:!2024-12-25,69,310!2024-12-04,57,310-->
-- How many jobs should you include on your resume? ::@:: all of your previous jobs <!--SR:!2024-11-19,48,290!2024-11-15,38,290-->
+- How many jobs should you include on your resume? ::@:: all of your previous jobs <!--SR:!2024-11-19,48,290!2025-04-19,155,310-->
 - [name tag](../../../name%20tag.md)
   - For easy reading, one’s name badge should be worn... ::@:: ... on the right chest near shoulder. <!--SR:!2024-12-02,46,290!2024-12-25,69,310-->
 
@@ -69,7 +69,7 @@ The content is in teaching order.
 - [résumé](../../../résumé.md)
   - What color should a CV typed up in? ::@:: black <!--SR:!2024-11-27,50,310!2024-12-25,69,310-->
   - How long should a CV roughly be? ::@:: 1 page <!--SR:!2024-12-06,57,310!2024-11-28,51,310-->
-  - What things should NOT be included on a CV? ::@:: date of birth (DOB), gender, home address <!--SR:!2024-11-15,38,290!2024-12-13,64,310-->
+  - What things should NOT be included on a CV? ::@:: date of birth (DOB), gender, home address <!--SR:!2025-04-18,154,310!2024-12-13,64,310-->
   - What order should your qualification be put in? ::@:: newest to oldest <!--SR:!2024-12-08,59,310!2024-12-06,59,310-->
   - IROAR ::@:: impact, results, outcomes, achievements, responsibilities <!--SR:!2024-11-30,53,310!2025-04-10,148,310-->
   - referees ::@:: 1 professor, 1 previous work supervisor, 1 volunteer team project lead <!--SR:!2024-11-25,46,290!2024-11-26,47,290-->

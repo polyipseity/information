@@ -18,7 +18,7 @@ tags:
 
 Buildings can be {@{categorized by height}@}: {@{single-storey, multi-storey with height less than 24 m, high-rise with height more than 24 m but less than 100 m, tall, and supertall}@}. <!--SR:!2024-11-23,142,315!2024-11-24,129,295-->
 
-The structural system of a building only {@{consists of members designed to carry loads}@}, and all others are {@{non-structural}@}. <!--SR:!2024-11-15,123,290!2025-04-17,259,335-->
+The structural system of a building only {@{consists of members designed to carry loads}@}, and all others are {@{non-structural}@}. <!--SR:!2026-03-26,496,310!2025-04-17,259,335-->
 
 The structural system of a high-rise building should support {@{vertical loads such as gravity and foundation settlement, and also lateral loads such as earthquake, wind}@}. The latter, {@{lateral loads, are especially important for tall buildings}@}. Otherwise, tall buildings may {@{slide (horizontal translation) or overturn (rotation about the base)}@}. Generally the higher up, {@{the larger the load}@}. <!--SR:!2025-05-19,259,290!2024-11-26,131,295!2025-01-15,183,315!2025-03-04,204,310-->
 

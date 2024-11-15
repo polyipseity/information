@@ -18,7 +18,7 @@ Each [observation](observation.md) measures {@{one or more properties (such as w
 
 - see: [sampling frame](sampling%20frame.md)
 
-In {@{the most straightforward case, such as the sampling of a batch of material from production (acceptance sampling by lots)}@}, it would be {@{most desirable to identify and measure every single item in the population and to include any one of them in our sample}@}. However, in {@{the more general case this is not usually possible or practical}@}. There is {@{no way to identify all rats}@} in the set of all rats. Where voting is not compulsory, {@{there is no way to identify which people will vote at a forthcoming election (in advance of the election)}@}. These imprecise populations are {@{not amenable to sampling in any of the ways below and to which we could apply statistical theory}@}. <!--SR:!2024-11-19,61,310!2025-04-21,163,310!2024-11-15,58,310!2024-11-16,58,310!2025-06-28,230,330!2024-11-23,62,310-->
+In {@{the most straightforward case, such as the sampling of a batch of material from production (acceptance sampling by lots)}@}, it would be {@{most desirable to identify and measure every single item in the population and to include any one of them in our sample}@}. However, in {@{the more general case this is not usually possible or practical}@}. There is {@{no way to identify all rats}@} in the set of all rats. Where voting is not compulsory, {@{there is no way to identify which people will vote at a forthcoming election (in advance of the election)}@}. These imprecise populations are {@{not amenable to sampling in any of the ways below and to which we could apply statistical theory}@}. <!--SR:!2024-11-19,61,310!2025-04-21,163,310!2025-07-26,253,330!2024-11-16,58,310!2025-06-28,230,330!2024-11-23,62,310-->
 
 As a remedy, {@{we seek a [sampling frame](sampling%20frame.md) which has the property that we can identify every single element and include any in our sample}@}. The most straightforward type of frame is {@{a list of elements of the population (preferably the entire population) with appropriate contact information}@}. For example, in an [opinion poll](opinion%20poll.md), possible sampling frames include {@{an [electoral register](electoral%20roll.md) and a [telephone directory](telephone%20directory.md)}@}. <!--SR:!2024-12-13,66,270!2025-07-07,238,330!2025-04-09,167,310-->
 
@@ -53,7 +53,7 @@ Nonprobability sampling methods include {@{[convenience sampling](convenience%20
 
 - see: [sampling error](sampling%20error.md)
 
-Survey results are {@{typically subject to some error}@}. Total errors can be classified into {@{sampling errors and non-sampling errors}@}. The term "error" here includes {@{systematic biases as well as random errors}@}. <!--SR:!2024-11-15,58,310!2025-03-21,149,310!2024-11-22,64,310-->
+Survey results are {@{typically subject to some error}@}. Total errors can be classified into {@{sampling errors and non-sampling errors}@}. The term "error" here includes {@{systematic biases as well as random errors}@}. <!--SR:!2025-07-25,252,330!2025-03-21,149,310!2024-11-22,64,310-->
 
 ### sampling errors and biases
 

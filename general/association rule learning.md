@@ -14,7 +14,7 @@ tags:
 
 ### support
 
-Support is {@{how frequently the item set appears in the data set}@}. For a item set X, it is defined as {@{$\operatorname{supp}(X) = P(X) = \frac {\text{number of transactions containing }X} {\text{total number of transactions} }$}@}. An alternative definition is simply {@{the number of transactions containing X}@}, in which case adjust the equations below yourself accordingly. <!--SR:!2025-01-14,261,330!2025-01-05,255,330!2024-11-15,214,330-->
+Support is {@{how frequently the item set appears in the data set}@}. For a item set X, it is defined as {@{$\operatorname{supp}(X) = P(X) = \frac {\text{number of transactions containing }X} {\text{total number of transactions} }$}@}. An alternative definition is simply {@{the number of transactions containing X}@}, in which case adjust the equations below yourself accordingly. <!--SR:!2025-01-14,261,330!2025-01-05,255,330!2027-07-18,975,350-->
 
 ### confidence
 
