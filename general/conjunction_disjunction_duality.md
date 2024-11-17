@@ -25,7 +25,7 @@ Also, each of these equivalences can be {@{derived from the other one}@}; for ex
 
 ### functional completeness
 
-Since {@{the [Disjunctive Normal Form Theorem](disjunctive%20normal%20form.md) shows that the set of connectives $\{\land ,\lor ,\neg \}$ is [functionally complete](functional%20completeness.md)}@}, these results show that {@{the sets of connectives $\{\land ,\neg \}$ and $\{\lor ,\neg \}$ are themselves functionally complete as well}@}. <!--SR:!2024-11-16,50,290!2025-05-14,185,310-->
+Since {@{the [Disjunctive Normal Form Theorem](disjunctive%20normal%20form.md) shows that the set of connectives $\{\land ,\lor ,\neg \}$ is [functionally complete](functional%20completeness.md)}@}, these results show that {@{the sets of connectives $\{\land ,\neg \}$ and $\{\lor ,\neg \}$ are themselves functionally complete as well}@}. <!--SR:!2025-06-06,202,310!2025-05-14,185,310-->
 
 ### De Morgan's laws
 

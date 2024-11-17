@@ -23,7 +23,7 @@ Command names can be {@{truncated at the end to produce an abbreviation if the a
 - `backtrace` ::@:: print backtrace or call stack <!--SR:!2025-04-29,169,310!2025-07-05,237,330-->
 - `break <where>` ::@:: set a breakpoint <!--SR:!2025-06-14,220,330!2024-12-02,69,310-->
 - `continue` ::@:: continue program execution <!--SR:!2025-04-12,165,310!2025-05-30,207,330-->
-- `delete [<breakpoint>]` ::@:: delete a breakpoint; if breakpoint is not specified, then delete all breakpoints <!--SR:!2024-11-16,58,310!2025-07-10,240,330-->
+- `delete [<breakpoint>]` ::@:: delete a breakpoint; if breakpoint is not specified, then delete all breakpoints <!--SR:!2025-07-29,255,330!2025-07-10,240,330-->
 - `disassemble <address|function>` ::@:: disassemble a specified address or function <!--SR:!2024-11-22,45,325!2025-01-13,88,345-->
 - `file <path>` ::@:: load binary file to debug <!--SR:!2024-11-27,64,310!2024-11-17,59,310-->
 - `finish` ::@:: run until the current function returns <!--SR:!2024-12-03,70,310!2025-05-23,193,310-->
@@ -31,7 +31,7 @@ Command names can be {@{truncated at the end to produce an abbreviation if the a
 - `info address <symbol>` ::@:: print the `<symbol>`, its type, and its address <!--SR:!2025-01-13,88,345!2024-12-19,63,325-->
 - `info breakpoints|regs|threads`::@:: list breakpoints, register values, or threads <!--SR:!2025-07-11,241,330!2025-05-01,184,310-->
 - `next` ::@:: go to the next (source) line <!--SR:!2025-06-07,214,330!2025-05-13,194,310-->
-- `ni` ::@:: go to the next instruction <!--SR:!2024-11-16,59,310!2024-11-22,64,310-->
+- `ni` ::@:: go to the next instruction <!--SR:!2025-07-30,256,330!2024-11-22,64,310-->
 - `print <expression>` ::@:: evaluate and print an expression <!--SR:!2025-01-26,97,270!2024-12-02,69,310-->
 - `run [<args>...]` ::@:: run program (with args) <!--SR:!2025-07-18,246,330!2024-11-21,63,310-->
 - `set <storage> = <value>` ::@:: set storage to value <!--SR:!2025-01-13,88,345!2025-01-13,88,345-->
@@ -54,7 +54,7 @@ Command names can be {@{truncated at the end to produce an abbreviation if the a
 
 - `pwndbg>` color (may differ depending on your configuration) ::@:: cyan: program is running; red: program is not running <!--SR:!2025-06-26,229,330!2025-04-28,173,310-->
 - `checksec` ::@:: print the binary security settings <!--SR:!2025-01-02,77,345!2025-01-13,88,345-->
-- `down` ::@:: move down the backtrace or call stack <!--SR:!2025-04-23,164,310!2024-11-16,58,310-->
+- `down` ::@:: move down the backtrace or call stack <!--SR:!2025-04-23,164,310!2025-07-23,249,330-->
 - `up` ::@:: move up the backtrace or call stack <!--SR:!2025-05-03,173,310!2025-05-12,185,310-->
 
 #### `pwndbg` heap

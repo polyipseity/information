@@ -242,7 +242,7 @@ Water Pollution: A serious problem in Hong Kong?
 Hong Kong Harbour Area Treatment Scheme Stage I (HATS)
 
 - Hong Kong Harbour Area Treatment Scheme Stage I ::@:: HATS Stage 1 <!--SR:!2025-03-26,237,330!2025-04-16,251,330-->
-  - HATS Stage 1 scheme period ::@:: 1994 to 2001 <!--SR:!2025-10-18,342,290!2024-11-16,84,250-->
+  - HATS Stage 1 scheme period ::@:: 1994 to 2001 <!--SR:!2025-10-18,342,290!2025-06-17,213,250-->
   - HATS Stage 1 scheme cost ::@:: HK$8.2 billion <!--SR:!2024-12-14,55,270!2025-05-18,229,270-->
   - HATS Stage 1 details ::@:: Stonecutters Island Sewage Treatment Works (SCISTW), sewage tunnel of 23.6 km, upgrade 8 preliminary treatment works (PTWs) <!--SR:!2025-06-09,242,270!2025-02-01,181,310-->
   - HATS Stage 1 geographic coverage ::@:: collect sewage from Kowloon, Kwai Tsing, Tseung Kwan O, and north-eastern Hong Kong Island to SCISTW <!--SR:!2025-04-15,211,270!2024-12-09,148,310-->

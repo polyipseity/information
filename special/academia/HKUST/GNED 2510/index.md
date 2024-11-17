@@ -101,7 +101,7 @@ The content is in teaching order.
   - SCARF / status ::@:: relative importance to others and seniority <!--SR:!2024-12-01,54,310!2024-12-07,60,310-->
     - increase status ::@:: know the unknown, prepare, ... <!--SR:!2024-11-18,41,290!2024-12-25,69,310-->
     - decrease status ::@:: awkward questions, unfriendly interviewers, unequal, ... <!--SR:!2024-12-12,63,310!2024-11-17,40,290-->
-  - SCARF / certainty ::@:: prediction confidence <!--SR:!2024-11-16,39,290!2024-12-02,46,290-->
+  - SCARF / certainty ::@:: prediction confidence <!--SR:!2025-04-21,156,310!2024-12-02,46,290-->
   - SCARF / autonomy ::@:: sense of control over events <!--SR:!2024-11-22,45,290!2024-12-02,55,310-->
     - increase autonomy ::@:: be flexible about choices, prepare, research salary ranges, talk permissions, ... <!--SR:!2024-12-25,69,310!2024-12-09,60,310-->
   - SCARF / relatedness ::@:: socially, ingroup or outgroup <!--SR:!2024-12-01,54,310!2024-12-01,54,310-->
@@ -151,7 +151,7 @@ The content is in teaching order.
   - video interview notes ::@:: cheatsheets stuck on screen (be aware of glasses reflection), correct angle, natural eye contact, smile <!--SR:!2024-12-09,60,310!2024-11-18,47,290-->
 - self-introduction
 - interview questions
-- Any questions? ::@:: Try to ask a question if you really do not have any to show that you care. <!--SR:!2024-11-16,39,290!2024-12-25,69,310-->
+- Any questions? ::@:: Try to ask a question if you really do not have any to show that you care. <!--SR:!2025-04-22,157,310!2024-12-25,69,310-->
 - assignment 2: video interview recording
   - due: 2023-11-08 → 2023-11-15
 

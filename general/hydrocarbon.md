@@ -36,7 +36,7 @@ return await memorize_table(
 > |-|-|
 > | {@{[aromatic hydrocarbons](aromatic%20compound.md)}@} | {@{Hydrogencarbons that have [aromatic rings](aromaticity.md) like [benzene](benzene.md) rings. Non-aromatic hydrocarbons are called [aliphatic hydrocarbons](aliphatic%20compound.md).}@} |
 > | {@{[saturated hydrocarbons](saturated%20hydrocarbon.md)}@} | {@{Hydrocarbons that have [single bonds](single%20bond.md) only.}@} |
-> | {@{[unsaturated hydrocarbons](unsaturated%20hydrocarbon.md)}@} | {@{Hydrocarbons that have [multiple bonds](bond%20order.md).}@} | <!--SR:!2027-10-15,1289,350!2024-11-16,428,290!2026-11-07,943,330!2027-10-11,1286,350!2027-05-20,1173,350!2027-10-23,1296,350-->
+> | {@{[unsaturated hydrocarbons](unsaturated%20hydrocarbon.md)}@} | {@{Hydrocarbons that have [multiple bonds](bond%20order.md).}@} | <!--SR:!2027-10-15,1289,350!2028-04-10,1241,290!2026-11-07,943,330!2027-10-11,1286,350!2027-05-20,1173,350!2027-10-23,1296,350-->
 
 <!--/pytextgen-->
 

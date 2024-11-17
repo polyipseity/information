@@ -53,7 +53,7 @@ When {@{a company [deposits](deposit%20account.md) cash with a [bank](bank.md)}@
 
 A [debit](debits%20and%20credits.md) {@{either increases an asset or decreases a liability}@}; a [credit](debits%20and%20credits.md) {@{either decreases an asset or increases a liability}@}. According to {@{the principle of [double-entry](double-entry%20bookkeeping.md)}@}, {@{every financial transaction corresponds to both a debit and a credit}@}. <!--SR:!2024-12-04,57,310!2024-12-01,52,290!2024-11-27,48,290!2024-12-10,61,310-->
 
-When {@{cash is deposited in a bank}@}, the bank is said to {@{"debit" its cash account, on the asset side, and "credit" its deposits account, on the liabilities side}@}. In this case, the bank is {@{debiting an asset and crediting a liability, which means that both increase}@}. <!--SR:!2024-11-19,42,290!2024-11-26,47,290!2024-11-16,39,290-->
+When {@{cash is deposited in a bank}@}, the bank is said to {@{"debit" its cash account, on the asset side, and "credit" its deposits account, on the liabilities side}@}. In this case, the bank is {@{debiting an asset and crediting a liability, which means that both increase}@}. <!--SR:!2024-11-19,42,290!2024-11-26,47,290!2025-04-23,158,310-->
 
 When {@{cash is withdrawn from a bank}@}, {@{the opposite happens: the bank "credits" its cash account and "debits" its deposits account}@}. In this case, the bank is {@{crediting an asset and debiting a liability, which means that both decrease}@}. <!--SR:!2024-11-28,51,310!2024-12-03,56,310!2024-12-13,66,310-->
 

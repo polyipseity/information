@@ -65,7 +65,7 @@ Accrued revenues are {@{revenues that have been recognized (that is, services ha
 
 Accrued expenses {@{have not yet been paid for, so they are recorded in a payable account}@}. {@{Expenses for interest, taxes, rent, and salaries}@} are commonly accrued for reporting purposes. <!--SR:!2024-12-05,58,310!2025-04-16,157,310-->
 
-{@{An income which has been earned but it has not been received yet during the accounting period}@}, like {@{rent, interest on investments, commission etc.}@} are examples of accrued income. <!--SR:!2024-12-01,54,310!2024-11-16,39,290-->
+{@{An income which has been earned but it has not been received yet during the accounting period}@}, like {@{rent, interest on investments, commission etc.}@} are examples of accrued income. <!--SR:!2024-12-01,54,310!2025-04-25,160,310-->
 
 ### estimates
 
@@ -75,7 +75,7 @@ The entry for bad debt expense can also be classified as an estimate.
 
 ### inventory
 
-In {@{a periodic [inventory](inventory.md) system}@}, an adjusting entry is used to {@{determine the [cost of goods sold](cost%20of%20goods%20sold.md) expense}@}. This entry is {@{not necessary for a company using [perpetual inventory](perpetual%20inventory.md)}@}. <!--SR:!2025-04-12,154,310!2025-02-04,99,290!2024-11-16,44,290-->
+In {@{a periodic [inventory](inventory.md) system}@}, an adjusting entry is used to {@{determine the [cost of goods sold](cost%20of%20goods%20sold.md) expense}@}. This entry is {@{not necessary for a company using [perpetual inventory](perpetual%20inventory.md)}@}. <!--SR:!2025-04-12,154,310!2025-02-04,99,290!2025-05-13,178,310-->
 
 ## see also
 

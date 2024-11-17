@@ -90,7 +90,7 @@ The set of continuous functions is closed under {@{addition, subtraction, multip
 
 > [!info]- proof of the set of continuous functions being closed under basic arithmetic operations
 >
-> - proof of the set of continuous functions being closed under basic arithmetic operations / strategy ::@:: For a continuous function $f(x)$, $\lvert f(x) - f(c) \rvert$ can be made to be smaller than an arbitrary small real $\epsilon$ for inputs in an interval around $c$. So setup the required inequalities, transform them, and identify expressions like $\lvert f(x) - f(c) \rvert$ in said inequalities. Claim that such expressions can be made arbitrarily small. <!--SR:!2024-11-16,55,350!2024-12-12,81,370-->
+> - proof of the set of continuous functions being closed under basic arithmetic operations / strategy ::@:: For a continuous function $f(x)$, $\lvert f(x) - f(c) \rvert$ can be made to be smaller than an arbitrary small real $\epsilon$ for inputs in an interval around $c$. So setup the required inequalities, transform them, and identify expressions like $\lvert f(x) - f(c) \rvert$ in said inequalities. Claim that such expressions can be made arbitrarily small. <!--SR:!2025-08-11,268,370!2024-12-12,81,370-->
 >
 > Using the above definitions...
 >

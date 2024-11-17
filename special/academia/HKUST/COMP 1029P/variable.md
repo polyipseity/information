@@ -21,7 +21,7 @@ else:
 print(x) # `x` does not go out of scope as an `if...else` statement does not create a scope in the first place
 ```
 
-Functions do create {@{a new scope}@}: <!--SR:!2024-11-16,203,310-->
+Functions do create {@{a new scope}@}: <!--SR:!2027-04-05,870,330-->
 
 ```Python
 x = 1

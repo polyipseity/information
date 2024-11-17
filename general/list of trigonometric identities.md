@@ -47,7 +47,7 @@ return await memorize_table(
 
 - _(begin)_→::@::←[Pythagorean identities](#Pythagorean%20identities) <!--SR:!2025-05-03,383,360!2025-04-05,361,362-->
 - [Pythagorean identities](#Pythagorean%20identities)→::@::←[angle sum and difference](#angle%20sum%20and%20difference) <!--SR:!2027-06-27,1105,330!2028-09-15,1546,350-->
-- [angle sum and difference](#angle%20sum%20and%20difference)→::@::←[linear combination](#linear%20combination) <!--SR:!2024-12-04,229,289!2024-11-16,236,329-->
+- [angle sum and difference](#angle%20sum%20and%20difference)→::@::←[linear combination](#linear%20combination) <!--SR:!2024-12-04,229,289!2027-01-01,776,329-->
 - [linear combination](#linear%20combination)→::@::←[multiple-angle](#multiple-angle) <!--SR:!2027-07-01,1108,330!2027-07-22,1124,330-->
 - [multiple-angle](#multiple-angle)→::@::←[product-to-sum and sum-to-product](#product-to-sum%20and%20sum-to-product) <!--SR:!2024-12-07,354,270!2027-07-28,1128,330-->
 - [product-to-sum and sum-to-product](#product-to-sum%20and%20sum-to-product)→::@::←_(end)_ <!--SR:!2028-08-29,1532,350!2025-03-31,535,310-->
@@ -92,7 +92,7 @@ return await memorize_map(
 > - $\cos^2 6.52 + \sin^2 6.52$ ::@:: $1$ <!--SR:!2025-04-15,369,360!2025-03-19,350,360-->
 > - $\cot^2 (-3.52) + 1$ ::@:: $\csc^2 (-3.52)$ <!--SR:!2024-11-23,237,340!2025-04-09,364,360-->
 > - $1 + \tan^2 (-7.23)$ ::@:: $\sec^2 (-7.23)$ <!--SR:!2024-12-15,251,340!2025-06-19,370,320-->
-> - $\csc^2 0.23 + \sec^2 0.23$ ::@:: $\sec^2 0.23 \csc^2 0.23$ <!--SR:!2024-11-16,233,339!2026-02-22,516,340-->
+> - $\csc^2 0.23 + \sec^2 0.23$ ::@:: $\sec^2 0.23 \csc^2 0.23$ <!--SR:!2025-03-15,119,319!2026-02-22,516,340-->
 
 ## angle sum and difference
 
@@ -230,7 +230,7 @@ return await memorize_map(
 > - $\sec (-7.24)$ ::@:: $\operatorname{sgn}(\cos 7.24) \sqrt{\frac 2 {1 + \cos 14.48} }$ <!--SR:!2024-11-28,94,316!2025-03-01,166,336-->
 > - $\csc (-1.7)$ ::@:: $-\operatorname{sgn}(\sin 1.7) \sqrt{\frac 2 {1 - \cos 3.4} }$ <!--SR:!2025-04-03,152,296!2024-12-21,111,316-->
 > - $\cot 3.14$ (sine and cosine) ::@:: $\frac {1 + \cos 6.28} {\sin 6.28} = \frac {\sin 6.28} {1 - \cos 6.28}$ <!--SR:!2025-01-03,119,296!2024-11-25,95,316-->
-> - $\cot (-69)$ (cosine) ::@:: $-\operatorname{sgn}(\sin 138) \sqrt{\frac {1 + \cos 138} {1 - \cos 138} }$ <!--SR:!2024-11-16,13,256!2025-02-11,103,316-->
+> - $\cot (-69)$ (cosine) ::@:: $-\operatorname{sgn}(\sin 138) \sqrt{\frac {1 + \cos 138} {1 - \cos 138} }$ <!--SR:!2024-12-20,34,256!2025-02-11,103,316-->
 > - $\cot 17$ (addition) ::@:: $\csc 34 + \cot 34$ <!--SR:!2024-12-23,113,316!2025-05-27,229,336-->
 
 ## product-to-sum and sum-to-product
