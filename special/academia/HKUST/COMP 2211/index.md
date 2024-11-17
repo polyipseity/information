@@ -85,7 +85,7 @@ The content is in teaching order.
   - artificial intelligence / commonly confused terms ::@:: artificial intelligence, deep learning, machine learning, neural network
     - machine learning ::@:: a subfield of _artificial intelligence_ that provides systems with the ability to automatically learn and improve from experience without being explicitly programmed
     - neural network ::@:: an _algorithm_ in _machine learning_ to solve problems
-    - deep learning ::@:: a subfield of _machine learning_ that uses _neural networks_ to analyze different factors with a structure similar to the human neural system
+    - deep learning ::@:: (considered within _neural network_) a subfield of _machine learning_ that uses _neural networks_ to analyze different factors with a structure similar to the human neural system
 
 ## week 1 lab
 

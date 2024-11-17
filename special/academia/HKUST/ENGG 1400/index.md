@@ -196,7 +196,7 @@ The content is in teaching order.
 ## week 10 tutorial
 
 - datetime: 2024-11-07T10:30:00+08:00/2024-11-07T12:20:00+08:00
-- mindfulness ::@:: Paying attention to the present moment on purpose not-judgementally.
+- mindfulness ::@:: Paying attention to the present moment on purpose non-judgementally.
   - mindfulness / simple ::@:: Attend to own breathing. Relax. Ask: What is the most important _right now_?
 - activity 1: attention exercise ::@:: Learn to pay attention. Maybe try not looking at your phone. Go out and observe other things. Record your observations.
   - activity 1: attention exercise / debrief ::@:: Pay attention to paying attention. It is important to develop __attention of attention__: to know if your attention has wandered away. __Awareness of awareness__ is also important: an overarching awareness.

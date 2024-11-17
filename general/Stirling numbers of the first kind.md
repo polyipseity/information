@@ -129,8 +129,8 @@ Since permutations are partitioned by number of cycles, one has {@{$$\sum _{k=0}
 
 {@{The table in section 6.1 of _Concrete Mathematics_}@} provides {@{a plethora of generalized forms of finite sums involving the Stirling numbers}@}. Several particular finite sums relevant to this article include
 
-- reversed increment by binomial coefficient ::@:: $$\left[{n \atop m}\right]=\sum _{k=m}^{n}(-1)^{k-m}{\binom {k}{m} }\left[{n+1 \atop k+1}\right]$$
-- increment by combinatorial argument ::@:: $$\left[{n+1 \atop m+1}\right]=\sum _{k=m}^{n}\left[{k \atop m}\right]{\frac {n!}{k!} }$$ (Annotation: Permutate _n_ − _k_ elements from _n_ elements to a partition with linear order. Add the 1 element to make the partition a cycle. Partition the remaining _k_ elements into _m_ cycles.)
+- reversed increment by binomial coefficient ::@:: $$\left[{n \atop m}\right]=\sum _{k=m}^{n}\left[{n+1 \atop k+1}\right](-1)^{k-m}{\binom {k}{m} }$$
+- increment by combinatorial argument ::@:: $$\left[{n+1 \atop m+1}\right]=\sum _{k=m}^{n} \frac {n!} {k!} \left[{k \atop m}\right]$$ (Annotation: Permutate _n_ − _k_ elements from _n_ elements to a partition with linear order. Add the 1 element to make the partition a cycle. Partition the remaining _k_ elements into _m_ cycles.)
 - increment by summing up to _k_ ::@:: $$\left[{n + k +1 \atop n}\right]=\sum _{j=0}^{k}(n+j)\left[{n+j \atop j}\right]$$
 - partition then choose partitions ::@:: $$\left[{n \atop l+m}\right]{\binom {l+m}{l} }=\sum _{k}{\binom {n}{k} }\left[{k \atop l}\right]\left[{n-k \atop m}\right]$$ (Annotation: Choose _k_ elements from _n_ elements. Partition _k_ elements into the chosen _l_ cycles. Partition the remaining _n_ − _k_ elements into the unchosen _m_ cycles.)
 
