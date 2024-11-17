@@ -99,7 +99,7 @@ Let's learn some basic `gdb` commands (not exclusive to `pwndbg`):
 - `apropos <regex>` ::@:: find text matching `<regex>` in the manual <!--SR:!2024-12-05,58,310!2024-12-24,68,310-->
 - `help [<topic>]` ::@:: find information about topic; if topic is not specified, then prints general help <!--SR:!2024-12-24,68,310!2024-12-09,60,310-->
 - `file <path>` ::@:: load binary file to debug <!--SR:!2024-12-12,63,310!2024-12-24,68,310-->
-- `run [<args>...]` ::@:: run program (with args) <!--SR:!2024-12-06,59,310!2024-11-17,40,290-->
+- `run [<args>...]` ::@:: run program (with args) <!--SR:!2024-12-06,59,310!2025-04-30,164,310-->
 - `set args <args>...` ::@:: set program args <!--SR:!2024-12-13,64,310!2024-11-23,46,290-->
 - `starti [<args>...]` ::@:: start program and stop at its first instruction <!--SR:!2024-12-17,68,310!2024-12-24,68,310-->
 - `disassemble <address|function>` ::@:: disassemble a specified address or function <!--SR:!2024-11-27,50,310!2024-12-24,68,310-->

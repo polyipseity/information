@@ -71,7 +71,7 @@ return _chain.from_iterable(await _gather(
 - `/`→::@::←`//` <!--SR:!2024-11-22,59,322!2024-12-13,79,322-->
 - `//`→::@::←`%` <!--SR:!2025-06-20,218,330!2024-11-29,66,322-->
 - `%`→::@::←`+` <!--SR:!2024-11-28,65,322!2025-06-14,213,322-->
-- `+`→::@::←`-` <!--SR:!2024-11-17,54,310!2024-12-11,77,322-->
+- `+`→::@::←`-` <!--SR:!2025-07-07,232,330!2024-12-11,77,322-->
 - `-`→::@::←_(end)_ <!--SR:!2024-12-06,72,322!2024-12-07,74,322-->
 
 <!--/pytextgen-->
@@ -249,7 +249,7 @@ If {@{you do not want a newline to be printed automatically afterwards}@}, `prin
 
 ## variable
 
-To {@{assign a value or the result of an expression to a variable}@}, use {@{`=`}@}: <!--SR:!2024-11-17,53,302!2024-12-05,72,322-->
+To {@{assign a value or the result of an expression to a variable}@}, use {@{`=`}@}: <!--SR:!2025-06-27,222,322!2024-12-05,72,322-->
 
 ```Python
 variableName = 1 + 2
@@ -269,7 +269,7 @@ Below are common data types:
 
 - `NoneType` :@: The type for the `None` value. <!--SR:!2024-12-10,76,322-->
 - `bool` :@: A boolean, which is either `True` or `False`. Note that `bool`s are also `int`s. In particular, `True == 1` and `False == 0`, and can be used in arithmetic operators. <!--SR:!2024-11-22,59,322-->
-- `float` :@: A floating point number with double precision (15 to 17 significant figures). One can effectively treat it as a decimal number for most purposes. `float` can hold integers as well, with only the internal representation being different from `int`. Example: `1.`, `3.14`, `9.20`, `2e3` (2×10<sup>3</sup>). <!--SR:!2024-11-17,54,310-->
+- `float` :@: A floating point number with double precision (15 to 17 significant figures). One can effectively treat it as a decimal number for most purposes. `float` can hold integers as well, with only the internal representation being different from `int`. Example: `1.`, `3.14`, `9.20`, `2e3` (2×10<sup>3</sup>). <!--SR:!2025-05-05,169,310-->
 - `int` :@: An integer. Example: `42`. <!--SR:!2024-11-29,66,322-->
 - `str` :@: A piece of text. Example: `"Hello"`. <!--SR:!2024-11-23,60,322-->
 
@@ -282,7 +282,7 @@ To get the type of a value, {@{use `type(<any>)`, which will return the type of 
 We can convert a value (`value`) into other data types using {@{`float(value)`, `int(value)`, and `str(value)`}@}. If {@{the data type of `value` and the resulting data type are the same}@}, {@{the same value is simply returned}@}. Note that not all {@{conversions are valid, and will throw a `ValueError` if it is invalid}@}. <!--SR:!2025-01-09,93,360!2025-01-13,97,360!2024-12-04,64,340!2024-11-30,60,340-->
 
 - `bool(value)` ::@:: Converts `value` to a `bool`. If it is an `int` or `float`, converts to `True` unless `value` is zero, i.e. `value == 0`. If it is a `str` or `list`, converts to `True` unless `value` is empty, i.e. `value == ""` or `value == []`. There are also many other situations where `value` returns `True` unless `value` satisfies something, which will be unmentioned here. It is very difficult to get a `TypeError` or `ValueError` from this conversion, but possible with some very special types that will not be mentioned here. For exams, please use more explicit operations instead of this conversion, e.g. `len(list) == 0` instead of `not list`. <!--SR:!2025-01-02,74,366!2024-12-21,65,366-->
-- `float(value)` ::@:: Converts `value` to a `float`. If it is an `int`, the same value but in `float` is returned. If it is a `str`, it removes whitespaces (spaces) surrounding the string and then parse it as a `float`, and raises a `ValueError` if it is invalid, e.g. an empty string, the string `.` (but not `0.`, `.0`, etc.), contains alphabets (except for `e` as used in exponential notation, e.g. `1e+100` and `1.2e-100` are valid), etc. (But `float("1.")`, `float(".1")`, `float("  4.2  ")`, etc. are valid. In general, if the string is a valid `float` when treated as Python code, the string is valid.) <!--SR:!2024-11-17,47,320!2025-01-26,94,300-->
+- `float(value)` ::@:: Converts `value` to a `float`. If it is an `int`, the same value but in `float` is returned. If it is a `str`, it removes whitespaces (spaces) surrounding the string and then parse it as a `float`, and raises a `ValueError` if it is invalid, e.g. an empty string, the string `.` (but not `0.`, `.0`, etc.), contains alphabets (except for `e` as used in exponential notation, e.g. `1e+100` and `1.2e-100` are valid), etc. (But `float("1.")`, `float(".1")`, `float("  4.2  ")`, etc. are valid. In general, if the string is a valid `float` when treated as Python code, the string is valid.) <!--SR:!2025-06-16,211,340!2025-01-26,94,300-->
 - `int(value)` ::@:: Converts `value` to a `int`. If it is an `float`, the numbers behind the decimal point `.` is removed and then the rest is returned as an `int`. If it is a `str`, it removes whitespaces (spaces) surrounding the string and then parse it as a `int`, and raises a `ValueError` if it is invalid, e.g. an empty string, contains a decimal point `.`, contains alphabets, etc. (But `int("  4  ")` is valid. In general, if the string is a valid `int` when treated as Python code, the string is valid.) <!--SR:!2025-05-09,184,340!2024-11-29,60,340-->
 - `list(value)` ::@:: Converts `value` to a `list`. If it is a `str`, then the resulting list consists of its individual characters (but note each individual character is still a `str`). If it is a `range(n)`, then the resulting list consists of `int`s from `0` (inclusive) to `n - 1` (inclusive). There are some other valid conversions not mentioned here. If the conversion is invalid (e.g. `value` is `int`), then it raises a `TypeError`. <br/> additional information: Technically speaking, if `value` is _iterable_, then the resulting list consists of elements of that iterable. Otherwise, it raises a `TypeError`. <!--SR:!2024-12-17,61,366!2024-12-02,46,346-->
 - `str(value)` ::@:: Converts `value` to a `str`. (Almost) anything can be converted into a `str`. The resulting string is the same as that outputted by `print(value)`. <!--SR:!2024-12-03,64,340!2024-12-29,87,360-->

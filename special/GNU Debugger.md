@@ -25,7 +25,7 @@ Command names can be {@{truncated at the end to produce an abbreviation if the a
 - `continue` ::@:: continue program execution <!--SR:!2025-04-12,165,310!2025-05-30,207,330-->
 - `delete [<breakpoint>]` ::@:: delete a breakpoint; if breakpoint is not specified, then delete all breakpoints <!--SR:!2025-07-29,255,330!2025-07-10,240,330-->
 - `disassemble <address|function>` ::@:: disassemble a specified address or function <!--SR:!2024-11-22,45,325!2025-01-13,88,345-->
-- `file <path>` ::@:: load binary file to debug <!--SR:!2024-11-27,64,310!2024-11-17,59,310-->
+- `file <path>` ::@:: load binary file to debug <!--SR:!2024-11-27,64,310!2025-07-27,252,330-->
 - `finish` ::@:: run until the current function returns <!--SR:!2024-12-03,70,310!2025-05-23,193,310-->
 - `help [<topic>]` ::@:: find information about topic; if topic is not specified, then prints general help <!--SR:!2025-01-13,88,345!2024-11-29,52,325-->
 - `info address <symbol>` ::@:: print the `<symbol>`, its type, and its address <!--SR:!2025-01-13,88,345!2024-12-19,63,325-->
@@ -36,7 +36,7 @@ Command names can be {@{truncated at the end to produce an abbreviation if the a
 - `run [<args>...]` ::@:: run program (with args) <!--SR:!2025-07-18,246,330!2024-11-21,63,310-->
 - `set <storage> = <value>` ::@:: set storage to value <!--SR:!2025-01-13,88,345!2025-01-13,88,345-->
 - `set args <args>...` ::@:: set program args <!--SR:!2024-12-05,72,310!2025-06-15,220,330-->
-- `si` ::@:: go to the next instruction stepping into functions <!--SR:!2024-11-17,60,310!2024-11-24,54,250-->
+- `si` ::@:: go to the next instruction stepping into functions <!--SR:!2025-08-07,263,330!2024-11-24,54,250-->
 - `starti [<args>...]` ::@:: start program and stop at its first instruction <!--SR:!2024-12-02,69,310!2025-03-27,137,290-->
 - `step` ::@:: go to the next (source) line stepping into functions <!--SR:!2025-04-27,167,310!2025-02-14,119,290-->
 - `x/<format> <address>` ::@:: examine memory at the given address in the given format (see `help x`) <!--SR:!2024-12-03,70,310!2025-03-27,141,290-->

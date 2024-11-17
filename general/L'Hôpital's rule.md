@@ -135,7 +135,7 @@ The following table lists out transformation from other [indeterminate forms](in
 
 <!--pytextgen generate section="39ba"--><!-- The following content is generated at 2024-02-01T20:28:01.881218+08:00. Any edits will be overridden! -->
 
-- $\lim_{x\to{c} }\frac{f(x)}{g(x)}=\lim_{x\to{c} }\frac{1/g(x)}{1/f(x)}$:@:$\frac\infty\infty$ <!--SR:!2024-11-17,273,330-->
+- $\lim_{x\to{c} }\frac{f(x)}{g(x)}=\lim_{x\to{c} }\frac{1/g(x)}{1/f(x)}$:@:$\frac\infty\infty$ <!--SR:!2028-04-12,1242,350-->
 - $\lim_{x\to{c} }f(x)g(x)=\lim_{x\to{c} }\frac{f(x)}{1/g(x)}$:@:$0\cdot\infty$ <!--SR:!2027-04-06,950,350-->
 - $\lim_{x\to{c} }(f(x)-g(x))=\lim_{x\to{c} }\frac{1/g(x)-1/f(x)}{1/(f(x)g(x))}$:@:$\infty-\infty$ <!--SR:!2027-08-10,1050,350-->
 - $\lim_{x\to{c} }f(x)^{g(x)}=\exp\lim_{x\to{c} }\frac{g(x)}{1/\ln{f(x)} }$:@:$0^0$, $\infty^0$ <!--SR:!2025-11-22,489,290-->

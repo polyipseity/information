@@ -66,7 +66,7 @@ The content is in teaching order.
     - inferential statistics / example / answer (Sampling 100 products from a process, 3 are defective. Is the process acceptable if the long-term (true/real) defective rate should not exceed 1%?) ::@:: Assume the true defective rate of the process is 1%. Calculate the _probability of 10 or more products being defective in a random sample of 100 products_: $$\begin{aligned} P(\text{defective} \ge 3) & = 1 - P(\text{defective} < 3) \\ & = 1 - \sum_{k = 0}^2 P(\text{defective} = k) \\ & = 1 - \sum_{k = 0}^2 \binom {100} k (0.01)^k (0.99)^{100 - k} \\ & \approx 0.0794 \end{aligned}$$. This suggests the actual process likely has a true defective rate exceeding 1%. <!--SR:!2025-05-20,185,310!2025-07-29,255,330-->
   - inferential statistics / -duction ::@:: induction: draw conclusions on the population from the statistics of a sample; deduction: characterize hypothetical samples of a population from its parameters <!--SR:!2024-11-27,64,310!2025-01-17,101,290-->
 - [_R_](../../../../general/R%20(programming%20language).md) ::@:: a programming language for statistical computing and data visualization <!--SR:!2025-06-13,210,310!2024-12-05,72,310-->
-  - _R_ / website ::@:: <https://r-project.org/> <!--SR:!2024-11-17,60,310!2025-07-07,237,330-->
+  - _R_ / website ::@:: <https://r-project.org/> <!--SR:!2025-08-06,262,330!2025-07-07,237,330-->
   - _R_ / components ::@:: _R_, _R_ console, RStudio <!--SR:!2024-12-01,68,310!2025-06-28,231,330-->
   - _R_ / help commands ::@:: `help.start()`: general help, `help(<foo>)`, `?<foo>`: help about `<foo>`, `apropos("<foo>")`: list all functions containing the string `<foo>`, `example(<foo>)`: show an example of the function `<foo>` <!--SR:!2025-05-01,173,290!2024-11-27,64,310-->
 - [descriptive statistics](../../../../general/descriptive%20statistics.md)
@@ -83,11 +83,11 @@ The content is in teaching order.
   - descriptive statistics / common measures ::@:: central tendency (location), variability (spread/dispersion) <!--SR:!2025-04-16,168,310!2025-05-05,179,310-->
     - central tendency ::@:: sample mean, sample median, trimmed sample mean, ... <!--SR:!2025-07-01,232,330!2025-07-05,237,330-->
     - variability ::@:: inter-quartile range, sample range, sample standard deviation, sample variance <!--SR:!2025-05-31,200,310!2025-07-12,241,330-->
-  - sample mean ::@:: Suppose we have $n$ _samples_ of a random variable $x$, labeled $x_1, \ldots, x_n$. Then its _sample mean_ is $$\bar x = \frac 1 n \sum_{k = 1}^n x_n$$. <!--SR:!2025-07-28,255,330!2024-11-17,60,310-->
+  - sample mean ::@:: Suppose we have $n$ _samples_ of a random variable $x$, labeled $x_1, \ldots, x_n$. Then its _sample mean_ is $$\bar x = \frac 1 n \sum_{k = 1}^n x_n$$. <!--SR:!2025-07-28,255,330!2025-08-04,260,330-->
     - sample mean / _R_ ::@:: use `mean(...)` <!--SR:!2025-07-05,236,330!2024-12-02,69,310-->
   - sample median ::@:: Suppose we have $n$ _samples_ of a random variable $x$, labeled $x_1, \ldots, x_n$. They are sorted in increasing (or decreasing) order, i.e. $x_1 \le \ldots \le x_n$. Then its _sample median_ is $$\tilde x = \frac 1 2 \left(x_{\lfloor \frac {x + 1} 2 \rfloor} + x_ {\lceil \frac {x + 1} 2 \rceil} \right) = \begin{cases} x_{\frac {n + 1} 2} & \text{if }n\text{ is odd} \\ \frac 1 2 \left(x_{\frac x 2} + x_{\frac x 2 + 1} \right) & \text{if }n\text{ is even} \end{cases}$$. <!--SR:!2025-04-22,164,310!2025-07-20,248,330-->
   - sample mean vs sample median ::@:: The former is sensitive to outliers while the latter is not. This motivates trimming the outliers of the observations before calculating the former to reduce its sensitiveness to outliers (while still being more sensitive than the latter). <!--SR:!2025-04-23,169,310!2025-06-19,223,330-->
-    - sample mean vs sample median / details ::@:: The former is used if the distribution is symmetric, unimodal and there are no outliers. Otherwise the latter is usually better. <!--SR:!2024-11-17,60,310!2025-05-04,173,310-->
+    - sample mean vs sample median / details ::@:: The former is used if the distribution is symmetric, unimodal and there are no outliers. Otherwise the latter is usually better. <!--SR:!2025-08-04,260,330!2025-05-04,173,310-->
     - sample mean vs sample median / trimmed (sample) mean ::@:: It is found by removing a certain percent of both the least and greatest values of the observations before computing its mean. <!--SR:!2025-07-08,238,330!2024-11-30,67,310-->
       - sample mean vs sample median / trimmed (sample) mean / notation (examples) ::@:: For example, $\bar x_{\operatorname{tr}(10)}$, called _10% trimmed mean_, is the mean after trimming the least 10% and greatest 10% of the observations. <!--SR:!2024-11-28,65,310!2025-04-01,141,290-->
 
@@ -95,10 +95,10 @@ The content is in teaching order.
 
 - datetime: 2024-09-04T10:30:00+08:00/2024-09-04T11:50:00+08:00
 - [descriptive statistics](../../../../general/descriptive%20statistics.md)
-  - sample [variance](../../../../general/variance.md) ::@:: Suppose we have $n$ _samples_ (with replacement) of a random variable $x$, labeled $x_1, \ldots, x_n$. Then its _unbiased sample variance_ is $$s^2_{n - 1} = \frac 1 {n - 1} \sum_{i = 1}^n (x_i - \bar x)^2$$. The _biased sample variance_, denoted $s^2_n$, replaces the factor $\frac 1 {n - 1}$ with $\frac 1 n$ in the above equation. Unless otherwise specified, the unbiased sample variance is used in this course. <!--SR:!2024-11-17,59,310!2024-11-21,63,310-->
+  - sample [variance](../../../../general/variance.md) ::@:: Suppose we have $n$ _samples_ (with replacement) of a random variable $x$, labeled $x_1, \ldots, x_n$. Then its _unbiased sample variance_ is $$s^2_{n - 1} = \frac 1 {n - 1} \sum_{i = 1}^n (x_i - \bar x)^2$$. The _biased sample variance_, denoted $s^2_n$, replaces the factor $\frac 1 {n - 1}$ with $\frac 1 n$ in the above equation. Unless otherwise specified, the unbiased sample variance is used in this course. <!--SR:!2025-08-03,259,330!2024-11-21,63,310-->
     - sample [variance](../../../../general/variance.md) / dividing by $n - 1$ ::@:: $n - 1$ is also the _degree of freedom associated with the variance estimate_, which is the number of independent information pieces available for computing variability. Since $\bar x$ is usually the sample mean, which is determined from the sample mean, a degree of freedom is lost, as $\sum_{i = 1}^n (x_i - \bar x)$ is always forced to be zero. So the degree of freedom is $n - 1$. The original $n$ degrees of freedom comes from the $n$ observations being independent. This explains why dividing $n - 1$ instead of $n$ is _unbiased_. (If the $n$ observations are the entire population, then we divide by $n$ to get the _population variance_ instead.) <!--SR:!2024-11-22,64,310!2024-11-29,66,310-->
     - sample [variance](../../../../general/variance.md) / dividing by $n$ ::@:: However, if $\bar x$ is the population mean, then $\sum_{i = 1}^n (x_i - \bar x)$ is not forced to be zero, so the degree of freedom is still $n$ (from $n$ independent observations) instead. In this case, we divide by $n$ instead of $n - 1$ to get an _unbiased_ (sample/population) variance. This is regardless if the $n$ observations are a sample or the entire population. <!--SR:!2025-06-21,217,310!2025-07-25,251,330-->
-    - sample variance / _R_ ::@:: use `var(...)` <!--SR:!2024-11-17,60,310!2025-06-25,227,330-->
+    - sample variance / _R_ ::@:: use `var(...)` <!--SR:!2025-08-06,262,330!2025-06-25,227,330-->
   - sample standard deviation ::@:: It is the square root of the sample variance: $$s = \sqrt{s^2}$$. However, no matter if the sample variance is biased or unbiased, the resulting sample standard deviation is biased. This is because the square root is a concave function and introduces additional negative bias (smaller than the corresponding population parameter). <!--SR:!2025-04-10,147,290!2024-11-30,67,310-->
     - sample standard deviation / _R_ ::@:: use `sd(...)` <!--SR:!2025-02-05,111,290!2024-12-03,70,310-->
   - sample range ::@:: It is defined as $$\text{range} = \max\set{x_i} - \min\set{x_i}$$. It is useful for statistical quality control (e.g. finding unusual outliers caused by bad measurement). <!--SR:!2025-05-10,183,310!2024-11-24,61,310-->
@@ -145,7 +145,7 @@ The content is in teaching order.
   - sample size / _R_ ::@:: use `length(...)` <!--SR:!2024-11-26,63,310!2024-12-02,69,310-->
   - first _n_ observations / _R_ ::@:: use `head(...)` <!--SR:!2025-06-11,217,330!2025-07-23,250,330-->
   - scatter plot ::@:: Plots data that comes as pairs. Good for visualizing relationship between two variables (e.g. regression). <!--SR:!2024-12-04,71,310!2025-01-09,93,290-->
-    - scatter plot / _R_ ::@:: use `plot(...)` <!--SR:!2024-11-17,59,310!2025-07-06,237,330-->
+    - scatter plot / _R_ ::@:: use `plot(...)` <!--SR:!2025-08-02,258,330!2025-07-06,237,330-->
   - frequency table (categorical) ::@:: Categorical data is already pre-grouped. Then a _summary table_ is drawn based on the categories. This condenses the data and allows for quicker data interpretation. <!--SR:!2025-05-14,180,310!2025-01-06,81,270-->
     - frequency table (categorical) / table headers ::@:: \<variable name\>, count, cumulative count (if ordinal), percent, cumulative percent (if ordinal), ... <!--SR:!2024-11-23,24,250!2025-02-05,105,270-->
   - pie chart ::@:: A filled circle showing proportions of different categories. <!--SR:!2025-07-27,253,330!2025-04-13,166,310-->
@@ -160,7 +160,7 @@ The content is in teaching order.
     - sampling / errors / voluntary response bias ::@:: Websites for posting reviews are more likely to get responses from customers who had very bad or very good experiences. <!--SR:!2025-01-04,88,290!2025-05-23,199,310-->
     - [sampling § sampling errors and biases](../../../../general/sampling%20(statistics).md#sampling%20errors%20and%20biases)
     - [sampling § non-sampling errors](../../../../general/sampling%20(statistics).md#non-sampling%20errors)
-  - [probability sampling](../../../../general/sampling%20(statistics).md#sampling%20frame) ::@:: It supports strong statistical inferences from a sample to the population, minimizing selection bias. It involves random selection: any individual has a nonzero probability being picked, and said probability can be determined. <!--SR:!2025-06-05,204,310!2024-11-17,60,310-->
+  - [probability sampling](../../../../general/sampling%20(statistics).md#sampling%20frame) ::@:: It supports strong statistical inferences from a sample to the population, minimizing selection bias. It involves random selection: any individual has a nonzero probability being picked, and said probability can be determined. <!--SR:!2025-06-05,204,310!2025-08-07,263,330-->
     - probability sampling / examples ::@:: cluster sampling, simple random sampling, stratified sampling, systematic sampling, ... <!--SR:!2025-03-16,120,250!2025-03-19,137,290-->
     - probability sampling / simple random sampling ::@:: All individual in a population has equal probability of being selected. <!--SR:!2024-11-18,60,310!2024-11-28,65,310-->
     - probability sampling / systematic sampling ::@:: A _probabilistic_ method is used to select individuals of a population, such as sampling every third person. <!--SR:!2025-05-06,183,310!2024-12-02,69,310-->
@@ -171,7 +171,7 @@ The content is in teaching order.
     - non-probability sampling / convenience sampling ::@:: Sampling whoever is most convenient to you, e.g. nearest people. <!--SR:!2025-06-01,201,310!2025-06-04,209,310-->
     - non-probability sampling / voluntary response sampling ::@:: Individuals in a population are made known of your sample and voluntarily decides to participate or not. <!--SR:!2025-01-15,97,290!2025-03-26,152,310-->
     - non-probability sampling / purposive sampling ::@:: A _non-probabilistic_ method is used to select individuals in a population. <!--SR:!2025-05-25,202,330!2025-07-09,240,330-->
-    - non-probability sampling / snowball sampling ::@:: Some individuals of a population are sampled initially. Individuals sampled recruit other individuals for sampling. This recruitment chain continues indefinitely, hence snowballing. <!--SR:!2024-11-17,59,310!2025-06-08,215,330-->
+    - non-probability sampling / snowball sampling ::@:: Some individuals of a population are sampled initially. Individuals sampled recruit other individuals for sampling. This recruitment chain continues indefinitely, hence snowballing. <!--SR:!2025-07-28,253,330!2025-06-08,215,330-->
 
 ## week 2 lecture 2
 

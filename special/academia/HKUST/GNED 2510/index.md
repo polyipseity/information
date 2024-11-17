@@ -100,7 +100,7 @@ The content is in teaching order.
 - SCARF ::@:: status, certainty, autonomy, relatedness, fairness <!--SR:!2024-11-29,52,310!2024-12-02,55,310-->
   - SCARF / status ::@:: relative importance to others and seniority <!--SR:!2024-12-01,54,310!2024-12-07,60,310-->
     - increase status ::@:: know the unknown, prepare, ... <!--SR:!2024-11-18,41,290!2024-12-25,69,310-->
-    - decrease status ::@:: awkward questions, unfriendly interviewers, unequal, ... <!--SR:!2024-12-12,63,310!2024-11-17,40,290-->
+    - decrease status ::@:: awkward questions, unfriendly interviewers, unequal, ... <!--SR:!2024-12-12,63,310!2025-04-28,162,310-->
   - SCARF / certainty ::@:: prediction confidence <!--SR:!2025-04-21,156,310!2024-12-02,46,290-->
   - SCARF / autonomy ::@:: sense of control over events <!--SR:!2024-11-22,45,290!2024-12-02,55,310-->
     - increase autonomy ::@:: be flexible about choices, prepare, research salary ranges, talk permissions, ... <!--SR:!2024-12-25,69,310!2024-12-09,60,310-->

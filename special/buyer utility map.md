@@ -18,7 +18,7 @@ It is similar to a {@{[customer journey map](customer%20journey%20map.md)}@}. <!
 
 ## 6 stages of buyer experience cycle
 
-The {@{6 stages of buyer experience}@} cycle are the {@{map column headers}@}. <!--SR:!2025-03-22,218,279!2024-11-17,138,290-->
+The {@{6 stages of buyer experience}@} cycle are the {@{map column headers}@}. <!--SR:!2025-03-22,218,279!2025-12-22,400,290-->
 
 ```Python
 # pytextgen generate data

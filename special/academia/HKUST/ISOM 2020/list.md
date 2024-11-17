@@ -9,7 +9,7 @@ tags:
 
 # Python list
 
-A Python list is {@{a collection of values, and you can treat it like a collective of variables}@}. <!--SR:!2024-11-17,50,294-->
+A Python list is {@{a collection of values, and you can treat it like a collective of variables}@}. <!--SR:!2025-06-09,204,314-->
 
 If you try to {@{get the type of a list using `type(list)`}@}, {@{the returned type name is either `list` or `<class 'list'>`}@}, regardless of {@{the contents contained inside the list}@}. <!--SR:!2025-06-02,200,314!2025-05-15,187,314!2024-12-05,66,314-->
 
@@ -62,5 +62,5 @@ Aggregate functions {@{summarize a result from a list}@}. <!--SR:!2025-03-22,145
 ## search functions
 
 - `val in list`, `val not in list` ::@:: Returns a `bool` indicating whether `val` is in `list`. Equality is compared using `==`, so `0.0 in [0]` is `True` instead of `False`. The `not in` operator simply inverts the `bool` returned by `in` operator. <!--SR:!2025-01-29,82,360!2025-01-31,84,360-->
-- `list.count(val)` ::@:: Count the number of `val`s in `list`. Returns `0` if `val` is not found in the list. Equality is compared using `==`, so `[0, 0.0].count(0.0)` is `2` instead of `1`. <!--SR:!2024-11-17,40,316!2025-01-08,83,336-->
+- `list.count(val)` ::@:: Count the number of `val`s in `list`. Returns `0` if `val` is not found in the list. Equality is compared using `==`, so `[0, 0.0].count(0.0)` is `2` instead of `1`. <!--SR:!2025-05-11,175,336!2025-01-08,83,336-->
 - `list.index(val)` ::@:: Returns the index of `val` in `list`. The index of the leftmost item is returned if there are multiple matching items. Raises `ValueError` if `val` is not found in the list. Equality is compared using `==`, so `[0, 0.0].index(0.0)` is `0` instead of `1`. <!--SR:!2025-01-08,83,336!2025-01-08,83,336-->

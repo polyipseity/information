@@ -11,15 +11,15 @@ tags:
 
 # per unit tax
 
-{@{A __per unit tax__, or __specific tax__}@}, is {@{a [tax](tax.md) that is defined as a fixed amount for each unit of a good or service sold}@}, such as {@{cents per kilogram}@}. It is thus {@{proportional to the particular quantity of a product sold, regardless of its price}@}. {@{[Excise](excise.md) taxes}@}, for instance, fall into this tax category. By contrast, {@{an [ad valorem](ad%20valorem%20tax.md) tax}@} is {@{a charge based on a fixed percentage of the product value}@}. Per unit taxes have {@{administrative advantages when it is easy to measure quantities of the product or service being sold}@}. <!--SR:!2024-11-17,4,270!2024-11-17,4,270!2024-11-17,4,270!2024-11-17,4,270!2024-11-17,4,270!2024-11-17,4,270!2024-11-17,4,270!2024-11-17,4,270-->
+{@{A __per unit tax__, or __specific tax__}@}, is {@{a [tax](tax.md) that is defined as a fixed amount for each unit of a good or service sold}@}, such as {@{cents per kilogram}@}. It is thus {@{proportional to the particular quantity of a product sold, regardless of its price}@}. {@{[Excise](excise.md) taxes}@}, for instance, fall into this tax category. By contrast, {@{an [ad valorem](ad%20valorem%20tax.md) tax}@} is {@{a charge based on a fixed percentage of the product value}@}. Per unit taxes have {@{administrative advantages when it is easy to measure quantities of the product or service being sold}@}. <!--SR:!2024-12-03,16,290!2024-12-01,14,290!2024-12-02,15,290!2024-12-03,16,290!2024-12-01,14,290!2024-12-02,15,290!2024-12-01,14,290!2024-12-01,14,290-->
 
 ## effect on supply curve
 
-Any tax will {@{raise cost of production hence shift the supply curve to the left}@}. In {@{the case of specific tax}@}, the shift will be {@{purely parallel because the amount of tax is the same at all prices}@}. That amount is illustrated in {@{the distance between the supply curve with taxation and the one without taxation}@}. Specific tax are {@{indirect tax}@}. This will {@{raise the supply curve vertically by the amount of the tax}@}, and new curve will {@{be parallel to the original curve}@}. <!--SR:!2024-11-17,4,270!2024-11-17,4,270!2024-11-17,4,270!2024-11-17,4,270!2024-11-17,4,270!2024-11-17,4,270!2024-11-17,4,270-->
+Any tax will {@{raise cost of production hence shift the supply curve to the left}@}. In {@{the case of specific tax}@}, the shift will be {@{purely parallel because the amount of tax is the same at all prices}@}. That amount is illustrated in {@{the distance between the supply curve with taxation and the one without taxation}@}. Specific tax are {@{indirect tax}@}. This will {@{raise the supply curve vertically by the amount of the tax}@}, and new curve will {@{be parallel to the original curve}@}. <!--SR:!2024-12-03,16,290!2024-12-02,15,290!2024-12-03,16,290!2024-12-03,16,290!2024-12-02,15,290!2024-12-02,15,290!2024-12-01,14,290-->
 
 ## tobacco taxation
 
-The term specific tax is {@{mostly connected to tobacco taxation}@}. Using specific taxes has proved to be {@{one of the most effective ways to reduce consumption}@}, whereas {@{ad valorem tax which is based on a per cent of product value may lead to substitution to cheaper brands}@}.<sup>[\[1\]](#^ref-1)</sup> <!--SR:!2024-11-17,4,270!2024-11-17,4,270!2024-11-17,4,270-->
+The term specific tax is {@{mostly connected to tobacco taxation}@}. Using specific taxes has proved to be {@{one of the most effective ways to reduce consumption}@}, whereas {@{ad valorem tax which is based on a per cent of product value may lead to substitution to cheaper brands}@}.<sup>[\[1\]](#^ref-1)</sup> <!--SR:!2024-12-03,16,290!2024-12-01,14,290!2024-12-02,15,290-->
 
 ## references
 
