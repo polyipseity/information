@@ -174,7 +174,7 @@ The content is in teaching order.
 - report
   - The TA forgot to add the marks of the last page... This is why one should paper checking.
     - What should you do if you firmly believe that your marks should not be that low? ::@:: Check your paper! <!--SR:!2024-12-01,18,349!2024-12-02,19,349-->
-  - word formulas ::@:: The original word formulas are required to be written as well before substituting numbers onto it.
+  - word formulas ::@:: The original word formulas are required to be written as well before substituting numbers onto it. <!--SR:!2024-11-21,4,331!2024-11-21,4,331-->
   - Need to recheck when will a recording mistake of transaction be found... (-1, MCQ)
     - transaction analysis & mistake finding ::@:: In non-electronic transaction analysis, errors are unlikely to be found during the recording of a transaction. The first likely opportunity is preparation of the trial balance. We only consider this case in this course. <p> In electronic transaction analysis, errors are much more likely to be found during recording of a transaction. <!--SR:!2024-11-25,12,329!2024-12-02,19,349-->
   - Forgot, something related to accrued expense, insurance, insurance premium... (-1, MCQ)
