@@ -29,11 +29,11 @@ Another important aspect is {@{your body movement}@}.
 - looking direction ::@:: If you look up, it seems like you are recalling something from your memory. If you look down, it seems like you are feeling something. When presenting, avoid both of these, and look at the audience directly.
 - hand gesture ::@:: Somewhat arbitrary. It does not need to have any specific meaning, but it should sync with your speech. Another thing is that your hand gesture should vary naturally.
   - hand gesture / width ::@:: Hand gesture can be classified into off-body movement and on-body movement. You should have both, but too many on-body movement makes you look nervous.
-  - hand gesture / height ::@:: Hand gesture can also be on chest-level or waist-level in terms of height. You should have both, and prefer to be on the chest level. Too many waist-level movement makes the presentation less energetic.
+  - hand gesture / height ::@:: Hand gesture can also be on chest-level or waist-level in terms of height. You should have both, and prefer to be on the chest level. Too many waist-level hand gestures make the presentation less energetic.
   - hand gesture / bouncing ::@:: Do not bounce your hand gesture! Changing your hand gesture continuously without stopping also makes you look nervous.
 - leg movement ::@:: You can move around when presenting. Try to move around for a bit, but not too much (sometimes, stand on a position for a while). The most important thing to control is the distance to the audience.
   - leg movement / distance to the audience ::@:: If you are close to the audience, you sound more authoritative. Try to have various distance to the audience, preferring to be closer.
-- microphone vs. clip mic ::@:: Both are okay. But with microphone, you can control the distance to the mic to control your voice for more effects.
+- microphone vs. clip mic ::@:: Both are okay. But with a microphone, you can control the distance to the microphone to control your voice for more effects.
 - speech speed ::@:: Try to have various speech speed. If you say a sentence too quick, make the next sentence slower, and vice versa, like a rollercoaster. You can slow down your speech to emphasize something.
 - filler ::@:: Avoid fillers. Think quietly. It is okay to be silent. If you do not look embarrassed to be silent, the audience will be the one to feel embarrassed instead.
 - tone ::@:: Vary your tone between moving up and down for different sentences. A common mistake is always moving up/down. Moving up makes every sentence feel like a question.

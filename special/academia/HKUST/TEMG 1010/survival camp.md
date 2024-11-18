@@ -27,12 +27,12 @@ We went over some leadership theory and did some group activities, basically.
   - Johari window / blind area ::@:: unknown to self × known to others
   - Johari window / hidden area ::@:: known to self × unknown to others
   - Johari window / unknown area ::@:: unknown to self × unknown to others
-  - Johari window / ask ::@:: known to self → unknown to self
-  - Johari window / tell ::@:: known to others → unknown to others
-  - Johari window / feedback ::@:: known to self × known to others → unknown to self × known to others
-  - Johari window / self-disclosure ::@:: known to self × known to others → known to self × unknown to others
-  - Johari window / shared discovery ::@:: known to self × known to others → unknown to self × unknown to others
-  - Johari window / self-discovery ::@:: known to self × unknown to others → unknown to self × unknown to others
+  - Johari window / ask ::@:: known to self ← unknown to self
+  - Johari window / tell ::@:: known to others ← unknown to others
+  - Johari window / feedback ::@:: known to self × known to others ← unknown to self × known to others
+  - Johari window / self-disclosure ::@:: known to self × known to others ← known to self × unknown to others
+  - Johari window / shared discovery ::@:: known to self × known to others ← unknown to self × unknown to others
+  - Johari window / self-discovery ::@:: known to self × unknown to others ← unknown to self × unknown to others
 - 3 feedback models ::@:: commend → recommend → commend, keep → improve → stop → start (KISS), John Heron self and peer feedback
   - commend → recommend → commend ::@:: Suitable for individual feedback. <p> (The sandwich model strikes again...)
   - keep → improve → stop → start (KISS) ::@:: Suitable for improving team performance. <p> (Isn't this eliminate, reduce, raise, create (ERRC)?)
