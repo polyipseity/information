@@ -441,7 +441,7 @@ ID: 23456789
     - NumPy / indexing / `a[:]` or `a[0:]` ::@:: Select all elements in the given axis. <!--SR:!2024-11-19,15,310!2025-01-16,59,312-->
     - NumPy / indexing / `a[:i]` ::@:: Select elements starting with index 0 and going up to index i - 1. <!--SR:!2024-11-19,15,310!2024-11-19,15,310-->
     - NumPy / indexing / `a[i:]` ::@:: Select elements starting with index i and going up to the last element in the array. <!--SR:!2024-11-19,15,310!2024-11-21,17,310-->
-    - NumPy / indexing / `a[i:j:n]` ::@:: Select elements with index i through j (exclusive), with increment n. <!--SR:!2024-11-19,15,310!2024-11-20,16,310-->
+    - NumPy / indexing / `a[i:j:n]` ::@:: Select elements with index i through j (exclusive), with _nonzero_ increment n (element with index i is always included if it produces an nonempty array). For _negative_ increment n, producing an nonempty array requires i > j. <!--SR:!2024-11-19,15,310!2024-11-20,16,310-->
     - NumPy / indexing / `a[::-1]` ::@:: Select all the elements, in reverse order. <!--SR:!2025-01-16,59,312!2024-11-19,15,292-->
     - NumPy / indexing / integer indexing ::@:: Integer arrays can be used to index another array. Let's call said arrays __indexing arrays__. The shapes of all indexing arrays are broadcasted together. The resulting shape is the shape of the output array. Each of the indexing arrays is made into the resulting shape. Then, each element of the resulting array is determined by `result[i_1, ..., i_M] == x[ind_1[i_1, ..., i_M], ind_2[i_1, ..., i_M], ..., ind_N[i_1, ..., i_M]]`. <!--SR:!2024-11-21,17,310!2024-11-21,17,310-->
     - NumPy / indexing / boolean indexing ::@:: Boolean arrays can be used to index another array. Practically, for a boolean array `b`, `x[b]` is identical to `x[b.nonzero()]`, where `b.nonzero()` returns a tuple (of length `obj.ndim`) of 1D integer index arrays showing the `True` elements of obj. This turns the boolean indexing into integer indexing. If mixed with other indexing, then, for example, `x[ind_1, b, ind_2]` is equivalent to `x[(ind_1,) + b.nonzero() + (ind_2,)]`. <!--SR:!2024-11-19,15,310!2024-11-19,15,310-->
@@ -702,10 +702,23 @@ ID: 23456789
   - artificial neural network - perceptron
   - artificial neural network - multi-layer perceptron (P.16)
 - format: closed book, calculator, no cheatsheet
-- grades: ?/100
+- grades: 89.8/100
+  - statistics
+    - mean: 71.39 (provided)
+    - standard deviation: 15.61 (provided)
+    - low: 0
+    - lower quartile: 61.33
+    - median: 73.45 (provided)
+    - upper quartile: 84.55
+    - high: 95.5
+    - distribution: ![midterm examination distribution](attachments/comp2211-fall-2024-midterm-distribution.png)
 - report
-  - TODO
+  - provided answer space (-1) ::@:: The provided answer space may not fit the correct answer... what the fuck? Also, be more certain of yourself on slicing with negative increment.
+  - D-fold validation error (-3) ::@:: If an validation error can either be 9/10 or 10/10, then it is better than an validation error of always 10/10.
     - What should you do if you see a time-wasting question? ::@:: De-prioritize it. Do it last. And do not spend time to check it afterwards unless you have checked everything else carefully. <!--SR:!2024-12-01,18,343!2024-12-02,19,343-->
+  - When applying machine learning on large data sets, it is good practice to test which algorithms work best on a small subset of the data before running the best model on the whole data set, since the same algorithms that work best on small data sets almost always also work best on big sets of the same data. (true/false) (-1) ::@:: False. Carefully read "... before running the best model on the whole data set".
+  - calculating recall (-4.2) ::@:: Do not calculate recall wrongly. Also, prioritize checking cascading questions (questions that depend on the answer of previous questions).
+  - identity of models (-1) ::@:: Two models are considered different if their parameters (but not hyperparameters) are the same. For example, two _k_-NN model on the same training data but with different _k_ are considered the same model. However, if the hyperparameters also affect the parameters, e.g. training hyperparameters, then in said cases, different hyperparameters usually implies different parameters.
 
 ## final examination
 

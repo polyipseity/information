@@ -273,11 +273,11 @@ The content is in teaching order.
 
 - datetime: 2024-03-27T09:00:00+08:00/2024-03-27T10:30:00+08:00
 - optional
-- midterm exam checking
-  - average: 70.14/100
-  - max: 100/100
-  - min: 16.5/100
-  - standard deviation: 16.57/100
+- midterm exam checking: _/100
+  - mean: 70.14 (provided)
+  - standard deviation: 16.57 (provided)
+  - low: 16.5 (provided)
+  - high: 100 (provided)
 
 ## week 10 lecture 1
 

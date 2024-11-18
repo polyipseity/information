@@ -583,3 +583,15 @@ The content is in teaching order.
 ## midterm examination
 
 - datetime: 2024-11-08T19:30:00+08:00/2024-11-08T20:50:00+08:00, PT1H20M
+- venue: Lecture Theater C
+- grades: 37/40
+  - statistics
+    - mean: 29 (provided)
+    - standard deviation: 5 (provided)
+    - low: 0
+    - lower quartile: 26.25
+    - median: 29 (provided)
+    - upper quartile: 33.75
+    - high: 37
+- report
+  - TODO

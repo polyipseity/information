@@ -1098,11 +1098,11 @@ The content is in teaching order. Extra information and corrections are included
 - [strip sequence test](strip%20sequence%20test.md): 3.8/4 → 3.8/4
   - statistics
     - mean: 2.48 → 2.48
-    - high: 4 → 4
     - low: 0 → 0
+    - lower quartile: 1.85 → 1.85
     - median: 2.7 → 2.7
     - upper quartile: 3.35 → 3.35
-    - lower quartile: 1.85 → 1.85
+    - high: 4 → 4
 - [cosmic distance ladder](../../../../general/cosmic%20distance%20ladder.md)
   - [cosmic distance ladder](../../../../general/cosmic%20distance%20ladder.md) / steps
   - [§ main sequence fitting](../../../../general/cosmic%20distance%20ladder.md#main%20sequence%20fitting), [spectroscopic parallax](../../../../general/spectroscopic%20parallax.md) ::@:: It may be applied to a main-sequence star or a star cluster containing many main sequence stars. In the former, we determine the spectral type of the star to know its approximate luminosity. Then compare it with its apparent brightness to find out its approximate distance. In a star cluster, we can obtain its main sequence strip in a HR diagram and compare it against with the strips of other star clusters with known distances. The latter is more accurate because more stars are used to estimate the distance. <!--SR:!2025-01-14,124,391!2024-12-25,107,391-->
@@ -1181,19 +1181,19 @@ The content is in teaching order. Extra information and corrections are included
   - iPRS: 9/9, scaled to 10/10 (12/12, before add-drop period: 0/1)
     - statistics
       - mean: 7.81
-      - high: 9
       - low: 0
+      - lower quartile: 7.31
       - median: 9
       - upper quartile: 9
-      - lower quartile: 7.31
+      - high: 9
   - MCQ: 9/9, scaled to 15/15 (11.25/12, before add-drop period: 0/1)
     - statistics
       - mean: 8.04
-      - high: 9
       - low: 0
+      - lower quartile: 8.25
       - median: 9
       - upper quartile: 9
-      - lower quartile: 8.25
+      - high: 9
 
 ## week 8 lecture 2
 
@@ -1224,12 +1224,12 @@ The content is in teaching order. Extra information and corrections are included
 - [final examination](final%20examination.md): 99/100, scaled to 49.5/50 → 99/100, scaled to 49.5/50
   - statistics
     - mean: 58.84 → 59.62
-    - high: 99 → 99
+    - standard deviation: ? → 21.31 (provided)
     - low: 0 → 0
+    - lower quartile: 46.88 → 48
     - median: 61 → 62
     - upper quartile: 75.13 → 75.75
-    - lower quartile: 46.88 → 48
-    - standard deviation: ? → 21.31
+    - high: 99 → 99
   - report
     - Nothing to say.
 
@@ -1347,35 +1347,35 @@ The content is in teaching order. Extra information and corrections are included
 - [student-generated question](student-generated%20question.md): 10/10, scaled to 1/1
   - statistics
     - mean: 7.65
-    - high: 10
     - low: 0
+    - lower quartile: 7.5
     - median: 8.5
     - upper quartile: 8.75
-    - lower quartile: 7.5
+    - high: 10
 - [open-ended question report](open-ended%20question%20report.md): 96/100, scaled to 19.2/20
   - statistics
     - mean: 85.94
-    - high: 98
     - low: 0
+    - lower quartile: 84.25
     - median: 89
     - upper quartile: 94
-    - lower quartile: 84.25
+    - high: 98
 - course total: 98.5/100
   - statistics
     - mean: 71.3
-    - high: 98.5
     - low: 0
+    - lower quartile: 64.28
     - median: 75.66
     - upper quartile: 83.1
-    - lower quartile: 64.28
+    - high: 98.5
 - sub-competencies (for reference only): 12/15
   - statistics
     - mean: 11.45
-    - high: 14
     - low: 3
+    - lower quartile: 11
     - median: 12
     - upper quartile: 12
-    - lower quartile: 11
+    - high: 14
 
 ### paper-checking session
 

@@ -301,7 +301,14 @@ The content is in teaching order.
   - variance / discrete random variable ::@:: The variance fo a discrete random variable is $$\operatorname{Var}(X) = \sum_{x \in \mathcal X} \left((x - \mu)^2 p(x) \right) \,.$$ This is only defined if the sum exists, so it is possible for a discrete random variable to have undefined variance. <!--SR:!2025-02-04,85,358!2025-02-06,87,358-->
   - variance / properties ::@:: A well-known identity relating variance to expected value is $$\operatorname{Var}(X) = \operatorname E\left[X^2\right] - (\operatorname E[X])^2 = \operatorname E\left[X^2\right] - \mu^2 \,.$$ With this identity, the following properties can be proved: $$\begin{aligned} \operatorname{Var}(b) = 0 \\ \operatorname{Var}(aX) & = a^2 \operatorname{Var}(X) \\ \operatorname{Var}(aX + b) & = a^2 \operatorname{Var}(X) \\ \operatorname{Var}(aX + bY) & = a^2 \operatorname{Var}(X) + b^2 \operatorname{Var}(Y) \,, \end{aligned}$$ where _a_, _b_ are constants and _X_, _Y_ are random variables _independent_ from each other, i.e. $$P(X \le x, Y \le y) = P(X \le x) P(Y \le y) \,.$$ <!--SR:!2025-01-17,67,341!2025-02-09,90,361-->
 - assignment
-  - [assignment 2](assignments/assignent%202/index.md): ?/20, graded
+  - [assignment 2](assignments/assignent%202/index.md): 20/20, graded
+    - statistics: L1
+      - mean: 17.37
+      - low: 0
+      - lower quartile: 17
+      - median: 20
+      - upper quartile: 20
+      - high: 20
 
 ## week 5 tutorial
 
@@ -413,7 +420,7 @@ The content is in teaching order.
     - high: 50
 - report
   - When you see $\mathcal N(0, 100)$, do not mistake the 100 as the standard deviation! It is the variance. Almost screwed this up in the midterm examination...
-    - $\mathcal N(0, 100)$ ::@:: The mean of the normal distribution is 0. The standard deviation of the normal distribution is 10, not 100. <!--SR:!2024-12-01,18,364!2024-12-03,20,364-->
+    - $\mathcal N(0, 100)$ (0) ::@:: The mean of the normal distribution is 0. The standard deviation of the normal distribution is 10, not 100. <!--SR:!2024-12-01,18,364!2024-12-03,20,364-->
   - Inputted $\binom {100} 1$ as 1 instead of 100 into the calculator when evaluating a binomial distribution...
-    - $\binom {100} 1$ ::@:: It evaluates to 100, not 1. <!--SR:!2024-12-02,19,364!2024-12-03,20,364-->
-  - Simplified $\frac 4 {b^2} \left(b\right)$ into $\frac 4 {b^3}$ instead of $\frac 4 b$...
+    - $\binom {100} 1$ (-1) ::@:: It evaluates to 100, not 1. <!--SR:!2024-12-02,19,364!2024-12-03,20,364-->
+  - Simplified $\frac 4 {b^2} \left(b\right)$ into $\frac 4 {b^3}$ instead of $\frac 4 b$... (-1)
