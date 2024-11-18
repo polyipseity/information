@@ -44,7 +44,7 @@ Command names can be {@{truncated at the end to produce an abbreviation if the a
 ### reverse debugging
 
 - `rc` ::@:: reverse continue <!--SR:!2025-01-13,88,345!2025-01-13,88,345-->
-- `record` ::@:: record execution of every instruction; can make the process run slowly <!--SR:!2024-11-18,41,325!2025-01-13,88,345-->
+- `record` ::@:: record execution of every instruction; can make the process run slowly <!--SR:!2025-05-22,185,345!2025-01-13,88,345-->
 - `rn` ::@:: rewind to the previous (source) line <!--SR:!2025-01-13,88,345!2024-11-30,58,325-->
 - `rni` ::@:: rewind to the previous instruction <!--SR:!2025-01-13,88,345!2025-01-13,88,345-->
 - `rs` ::@:: rewind to the previous (source) line stepping into functions <!--SR:!2025-03-08,122,325!2025-01-02,77,345-->
@@ -69,7 +69,7 @@ Command names can be {@{truncated at the end to produce an abbreviation if the a
 #### `pwndbg` stack
 
 - `stack <count> <offset>` ::@:: prints stack data with the specified count and offset <!--SR:!2025-01-13,88,345!2025-03-20,128,305-->
-- `stackf <count> <offset>` ::@:: prints entire stack frame with the specified count and offset <!--SR:!2024-11-18,46,305!2025-03-10,122,305-->
+- `stackf <count> <offset>` ::@:: prints entire stack frame with the specified count and offset <!--SR:!2025-04-08,141,305!2025-03-10,122,305-->
 
 ## miscellaneous
 

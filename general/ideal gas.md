@@ -52,7 +52,7 @@ return await memorize_seq(
 - no [energy](energy.md) loss: [Elastic collisions](elastic%20collision.md) and [frictionless](friction.md) motion. Less important.→::@::←point-like [particle](particle.md): Indistinguishable, small, and rigid [spheres](sphere.md). Sphericity forbids rotational modes. <!--SR:!2025-02-28,119,190!2025-05-17,326,270-->
 - point-like [particle](particle.md): Indistinguishable, small, and rigid [spheres](sphere.md). Sphericity forbids rotational modes.→::@::←[randomness](randomness.md): Particles are constantly moving in random directions with a distribution of speeds. Less important. <!--SR:!2025-04-01,232,250!2025-05-03,182,190-->
 - [randomness](randomness.md): Particles are constantly moving in random directions with a distribution of speeds. Less important.→::@::←spacious: Average distance between particles is much larger than the size of the particles. Explains failing at high [pressures](pressure.md) and with large particles. <!--SR:!2025-01-26,247,250!2025-02-27,292,290-->
-- spacious: Average distance between particles is much larger than the size of the particles. Explains failing at high [pressures](pressure.md) and with large particles.→::@::←_(end)_ <!--SR:!2027-02-19,874,330!2024-11-18,204,250-->
+- spacious: Average distance between particles is much larger than the size of the particles. Explains failing at high [pressures](pressure.md) and with large particles.→::@::←_(end)_ <!--SR:!2027-02-19,874,330!2026-04-13,511,250-->
 
 <!--/pytextgen-->
 

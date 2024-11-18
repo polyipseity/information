@@ -99,7 +99,7 @@ The content is in teaching order.
   - stress relieve ::@:: putting words on emotions, mindfulness, re-attribution, refocus, visualize, revalue, ... <!--SR:!2024-11-24,47,290!2024-11-24,45,290-->
 - SCARF ::@:: status, certainty, autonomy, relatedness, fairness <!--SR:!2024-11-29,52,310!2024-12-02,55,310-->
   - SCARF / status ::@:: relative importance to others and seniority <!--SR:!2024-12-01,54,310!2024-12-07,60,310-->
-    - increase status ::@:: know the unknown, prepare, ... <!--SR:!2024-11-18,41,290!2024-12-25,69,310-->
+    - increase status ::@:: know the unknown, prepare, ... <!--SR:!2025-05-04,167,310!2024-12-25,69,310-->
     - decrease status ::@:: awkward questions, unfriendly interviewers, unequal, ... <!--SR:!2024-12-12,63,310!2025-04-28,162,310-->
   - SCARF / certainty ::@:: prediction confidence <!--SR:!2025-04-21,156,310!2024-12-02,46,290-->
   - SCARF / autonomy ::@:: sense of control over events <!--SR:!2024-11-22,45,290!2024-12-02,55,310-->
@@ -148,7 +148,7 @@ The content is in teaching order.
 - topic: Interview (I): Interview Like a PRO
 - first impressions ::@:: Interviewers are busy people and likely make generalizations. <!--SR:!2024-12-25,69,310!2025-02-22,102,290-->
 - video interview
-  - video interview notes ::@:: cheatsheets stuck on screen (be aware of glasses reflection), correct angle, natural eye contact, smile <!--SR:!2024-12-09,60,310!2024-11-18,47,290-->
+  - video interview notes ::@:: cheatsheets stuck on screen (be aware of glasses reflection), correct angle, natural eye contact, smile <!--SR:!2024-12-09,60,310!2025-05-26,189,310-->
 - self-introduction
 - interview questions
 - Any questions? ::@:: Try to ask a question if you really do not have any to show that you care. <!--SR:!2025-04-22,157,310!2024-12-25,69,310-->

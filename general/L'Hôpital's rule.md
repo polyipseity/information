@@ -114,7 +114,7 @@ The following table lists out transformation from other [indeterminate forms](in
 - $\frac\infty\infty$:@:$\lim_{x\to{c} }f(x)=\infty,\lim_{x\to{c} }g(x)=\infty$ <!--SR:!2027-11-17,1128,350-->
 - $0\cdot\infty$:@:$\lim_{x\to{c} }f(x)=0,\lim_{x\to{c} }g(x)=\infty$ <!--SR:!2028-02-03,1188,350-->
 - $\infty-\infty$:@:$\lim_{x\to{c} }f(x)=\infty,\lim_{x\to{c} }g(x)=\infty$ <!--SR:!2027-10-11,1096,350-->
-- $0^0$:@:$\lim_{x\to{c} }f(x)=0^+,\lim_{x\to{c} }g(x)=0$ <!--SR:!2024-11-18,205,290-->
+- $0^0$:@:$\lim_{x\to{c} }f(x)=0^+,\lim_{x\to{c} }g(x)=0$ <!--SR:!2025-03-04,106,270-->
 - $1^\infty$:@:$\lim_{x\to{c} }f(x)=1,\lim_{x\to{c} }g(x)=\infty$ <!--SR:!2024-12-14,294,330-->
 - $\infty^0$:@:$\lim_{x\to{c} }f(x)=\infty,\lim_{x\to{c} }g(x)=0$ <!--SR:!2027-05-28,991,350-->
 

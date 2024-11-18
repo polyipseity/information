@@ -70,7 +70,7 @@ The content is in teaching order.
   - _R_ / components ::@:: _R_, _R_ console, RStudio <!--SR:!2024-12-01,68,310!2025-06-28,231,330-->
   - _R_ / help commands ::@:: `help.start()`: general help, `help(<foo>)`, `?<foo>`: help about `<foo>`, `apropos("<foo>")`: list all functions containing the string `<foo>`, `example(<foo>)`: show an example of the function `<foo>` <!--SR:!2025-05-01,173,290!2024-11-27,64,310-->
 - [descriptive statistics](../../../../general/descriptive%20statistics.md)
-  - descriptive statistics / why ::@:: communicate data and support your reasoning from data <!--SR:!2024-11-18,60,310!2024-12-07,27,290-->
+  - descriptive statistics / why ::@:: communicate data and support your reasoning from data <!--SR:!2025-08-04,259,330!2024-12-07,27,290-->
   - descriptive statistics / methodologies
   - descriptive statistics / steps
 - [data](../../../../general/data.md) (singular: datum) ::@:: a collection of measurements and identifiers, which can take make many forms like numbers, strings, etc. <!--SR:!2025-04-16,168,310!2024-11-28,65,310-->
@@ -111,7 +111,7 @@ The content is in teaching order.
   - line chart ::@:: It visualizes the trend of data over time well. Good for time-series data like stock prices. <!--SR:!2025-07-10,238,330!2025-07-11,239,330-->
     - line chart / reading ::@:: Start from the x-axis, then to the line, and lastly to the y-axis. <!--SR:!2025-08-02,259,330!2025-06-01,209,330-->
     - line chart / _R_ ::@:: use `plot(...)` <!--SR:!2024-12-03,70,310!2025-07-26,252,330-->
-  - frequency table (quantitative) ::@:: Data is grouped into numerically ordered non-overlapping _categories_ or _class intervals_. Then a _summary table_ is drawn based on the grouped data. This condenses the data and allows for quicker data interpretation. <!--SR:!2025-04-19,154,290!2024-11-18,60,310-->
+  - frequency table (quantitative) ::@:: Data is grouped into numerically ordered non-overlapping _categories_ or _class intervals_. Then a _summary table_ is drawn based on the grouped data. This condenses the data and allows for quicker data interpretation. <!--SR:!2025-04-19,154,290!2025-05-24,187,310-->
     - frequency table (quantitative) / procedure ::@:: Decide the number of class intervals (usually 5 to 20). Divide the data into that many intervals (usually covering the data range evenly). Adjust the class interval boundaries to avoid overlapping (as endpoints are inclusive). Construct the summary table. <!--SR:!2024-12-06,59,250!2025-04-05,161,310-->
     - frequency table (quantitative) / table headers ::@:: class interval, class midpoint, frequency, relative frequency, ... <!--SR:!2024-11-20,62,310!2024-12-16,44,250-->
   - histogram ::@:: A bar chart based on the frequency table. The x-axis labels the class intervals while the y-axis labels the frequency or density (relative frequency). <!--SR:!2024-12-02,69,310!2025-01-06,81,270-->
@@ -162,7 +162,7 @@ The content is in teaching order.
     - [sampling § non-sampling errors](../../../../general/sampling%20(statistics).md#non-sampling%20errors)
   - [probability sampling](../../../../general/sampling%20(statistics).md#sampling%20frame) ::@:: It supports strong statistical inferences from a sample to the population, minimizing selection bias. It involves random selection: any individual has a nonzero probability being picked, and said probability can be determined. <!--SR:!2025-06-05,204,310!2025-08-07,263,330-->
     - probability sampling / examples ::@:: cluster sampling, simple random sampling, stratified sampling, systematic sampling, ... <!--SR:!2025-03-16,120,250!2025-03-19,137,290-->
-    - probability sampling / simple random sampling ::@:: All individual in a population has equal probability of being selected. <!--SR:!2024-11-18,60,310!2024-11-28,65,310-->
+    - probability sampling / simple random sampling ::@:: All individual in a population has equal probability of being selected. <!--SR:!2025-08-08,263,330!2024-11-28,65,310-->
     - probability sampling / systematic sampling ::@:: A _probabilistic_ method is used to select individuals of a population, such as sampling every third person. <!--SR:!2025-05-06,183,310!2024-12-02,69,310-->
     - probability sampling / stratified sampling ::@:: Individuals are split into groups based on certain characters. Then simple random sampling is applied on each group. <!--SR:!2025-05-05,174,310!2024-12-16,69,270-->
     - probability sampling / cluster sampling ::@:: Split the population into clusters and select some of the clusters (cannot select an individual in a cluster without selecting other in the same cluster). <!--SR:!2025-01-29,82,270!2024-11-24,61,310-->

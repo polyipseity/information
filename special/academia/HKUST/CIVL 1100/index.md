@@ -70,7 +70,7 @@ The content is in teaching order.
 - [Young's modulus](../../../../general/Young's%20modulus.md)
   - [§ definition](../../../../general/Young's%20modulus.md#definition)
 - moment or [torque](../../../../general/torque.md)
-  - pivot ::@:: A moment requires a pivot to be defined. The pivot can be anywhere and does not need to be physical. <!--SR:!2026-03-05,490,330!2024-11-18,127,310-->
+  - pivot ::@:: A moment requires a pivot to be defined. The pivot can be anywhere and does not need to be physical. <!--SR:!2026-03-05,490,330!2026-05-16,544,330-->
   - torque intuition ::@:: Torque creates rotation just as force creates translation (linear movement). <!--SR:!2025-05-09,276,350!2025-07-17,331,350-->
   - [§ moment arm formula](../../../../general/torque.md#moment%20arm%20formula)
   - symbol of moment about point $P$ ::@:: $M_P$ <!--SR:!2025-06-18,308,350!2025-06-02,294,350-->

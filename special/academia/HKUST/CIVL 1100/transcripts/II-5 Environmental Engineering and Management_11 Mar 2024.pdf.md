@@ -62,7 +62,7 @@ return await memorize_seq(
 - _(begin)_→::@::←air pollution <!--SR:!2025-01-11,166,310!2025-03-07,222,330-->
 - air pollution→::@::←land contamination <!--SR:!2025-05-05,223,270!2025-04-15,255,330-->
 - land contamination→::@::←noise pollution <!--SR:!2025-02-07,141,270!2025-05-16,255,290-->
-- noise pollution→::@::←solid waste disposal <!--SR:!2025-04-13,209,270!2024-11-18,126,290-->
+- noise pollution→::@::←solid waste disposal <!--SR:!2025-04-13,209,270!2025-11-18,365,290-->
 - solid waste disposal→::@::←water pollution <!--SR:!2024-12-15,140,290!2025-01-16,100,210-->
 - water pollution→::@::←_(end)_ <!--SR:!2024-12-20,145,310!2025-01-11,174,310-->
 
@@ -114,7 +114,7 @@ Land Contamination: A serious problem in Hong Kong?
 
 Former Kai Tak Airport
 
-- contaminants detected in the former Kai Tak Airport ::@:: heavy metals, total petroleum hydrocarbons (TPH), volatile organic compounds (VOCs) <!--SR:!2024-11-18,120,290!2025-03-14,228,330-->
+- contaminants detected in the former Kai Tak Airport ::@:: heavy metals, total petroleum hydrocarbons (TPH), volatile organic compounds (VOCs) <!--SR:!2026-03-18,485,310!2025-03-14,228,330-->
 
 ## page 6
 

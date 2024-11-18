@@ -29,7 +29,7 @@ You can use these methods to {@{create ndarrays or [structured arrays](structur
 
 NumPy arrays can be defined using {@{Python sequences such as lists and tuples}@}. {@{Lists and tuples}@} are defined {@{using `[...]` and `(...)`, respectively}@}. Lists and tuples can define ndarray creation: <!--SR:!2024-11-20,16,290!2024-11-20,16,290!2024-11-21,17,310-->
 
-- a list of numbers will create ::@:: a 1D array, <!--SR:!2024-11-18,14,290!2024-11-21,17,310-->
+- a list of numbers will create ::@:: a 1D array, <!--SR:!2025-01-14,57,310!2024-11-21,17,310-->
 - a list of lists will create ::@:: a 2D array, <!--SR:!2024-11-20,16,290!2024-11-20,16,290-->
 - further nested lists will create ::@:: higher-dimensional arrays. In general, any array object is called an **ndarray** in NumPy. <!--SR:!2024-11-20,16,290!2024-11-21,17,310-->
 

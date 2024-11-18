@@ -242,7 +242,7 @@ return _chain.from_iterable(await _gather(
 - [barium](barium.md):@:reacts with cold [water](water.md) <!--SR:!2025-03-15,495,310-->
 - [strontium](strontium.md):@:reacts with cold [water](water.md) <!--SR:!2025-03-20,497,310-->
 - [calcium](calcium.md):@:reacts with cold [water](water.md) <!--SR:!2025-08-04,539,270-->
-- [magnesium](magnesium.md):@:reacts very slowly with cold [water](water.md), rapidly with boiling water, and very vigorously with [acids](acid.md) <!--SR:!2024-11-18,33,130-->
+- [magnesium](magnesium.md):@:reacts very slowly with cold [water](water.md), rapidly with boiling water, and very vigorously with [acids](acid.md) <!--SR:!2025-01-21,64,150-->
 - [beryllium](beryllium.md):@:reacts with [steam](steam.md) and [acids](acid.md) <!--SR:!2025-03-30,144,150-->
 - [aluminium](aluminium.md):@:reacts with [steam](steam.md) and [acids](acid.md) <!--SR:!2025-01-08,84,150-->
 - [titanium](titanium.md):@:reacts with concentrated [mineral acids](mineral%20acid.md) <!--SR:!2025-02-22,417,250-->
@@ -301,7 +301,7 @@ return _chain.from_iterable(await _gather(
 - [cadmium](cadmium.md):@:[smelting](smelting.md) with [coke](coke%20(fuel).md) <!--SR:!2025-08-22,610,310-->
 - [cobalt](cobalt.md):@:[smelting](smelting.md) with [coke](coke%20(fuel).md) <!--SR:!2025-07-07,573,310-->
 - [nickel](nickel.md):@:[smelting](smelting.md) with [coke](coke%20(fuel).md) <!--SR:!2026-12-25,976,330-->
-- [tin](tin.md):@:[smelting](smelting.md) with [coke](coke%20(fuel).md) <!--SR:!2024-11-18,257,290-->
+- [tin](tin.md):@:[smelting](smelting.md) with [coke](coke%20(fuel).md) <!--SR:!2026-12-02,744,290-->
 - [lead](lead.md):@:[smelting](smelting.md) with [coke](coke%20(fuel).md) <!--SR:!2024-12-31,280,290-->
 - [antimony](antimony.md):@:heat or physical extraction <!--SR:!2025-06-20,562,310-->
 - [bismuth](bismuth.md):@:heat or physical extraction <!--SR:!2025-07-22,576,310-->

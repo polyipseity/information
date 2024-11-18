@@ -25,7 +25,7 @@ Propositional logic is typically studied with {@{a [formal language](formal%20la
 > - nonequivalent ::@:: $A\not \equiv B$, $A\not \Leftrightarrow B$, $A\nleftrightarrow B$ <!--SR:!2024-12-02,63,310!2024-11-21,54,310-->
 > - [NOR](Logical%20NOR.md) ::@:: $A{\overline {\lor } }B$, $A\downarrow B$, ${\overline {A+B} }$ <!--SR:!2024-12-20,73,290!2025-02-28,124,290-->
 > - [NOT](negation.md) ::@:: $\neg A$, $-A$, ${\overline {A} }$, $\sim A$ <!--SR:!2025-06-08,206,330!2025-06-17,214,330-->
-> - [OR](logical%20disjunction.md) ::@:: $A\lor B$, $A+B$, $A\mid B$, $A\parallel B$ <!--SR:!2024-11-18,52,310!2024-12-08,68,310-->
+> - [OR](logical%20disjunction.md) ::@:: $A\lor B$, $A+B$, $A\mid B$, $A\parallel B$ <!--SR:!2025-07-04,228,330!2024-12-08,68,310-->
 > - [XNOR](XNOR%20gate.md) ::@:: $A\odot B$ <!--SR:!2025-02-03,98,270!2025-01-01,78,290-->
 > - [XOR](exclusive%20or.md) ::@:: $A{\underline {\lor } }B$, $A\oplus B$ <!--SR:!2025-01-02,77,270!2025-01-17,94,290-->
 

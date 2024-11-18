@@ -509,7 +509,7 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - formula: {@{RNH<sub>2</sub>, RR'NH, R<sub>3</sub>N, R<sub>4</sub>N<sup>+</sup>}@}
 > - prefix: {@{amino- (RNH<sub>2</sub>/RR'NH/R<sub>3</sub>), ammonio- (R<sub>4</sub>N<sup>+</sup>)}@}
 > - suffix: {@{-amine (RNH<sub>2</sub>/RR'NH/R<sub>3</sub>), -ammonium (R<sub>4</sub>N<sup>+</sup>)}@}
-> - infix: {@{(locant) & _N_ (R'/R''/R<sub>3</sub>/R<sub>4</sub>)}@} <!--SR:!2027-03-08,1174,365!2029-09-01,1986,385!2025-02-17,627,325!2024-11-18,518,325!2028-01-18,1202,287!2025-06-09,664,327-->
+> - infix: {@{(locant) & _N_ (R'/R''/R<sub>3</sub>/R<sub>4</sub>)}@} <!--SR:!2027-03-08,1174,365!2029-09-01,1986,385!2025-02-17,627,325!2031-03-29,2322,345!2028-01-18,1202,287!2025-06-09,664,327-->
 
 <!-- markdownlint MD028 -->
 

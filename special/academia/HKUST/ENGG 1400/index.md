@@ -68,7 +68,7 @@ The content is in teaching order.
 - warm-up activity: Choose a person from the picture that resonate with you the most. Explain why.
 - society identity theory ::@:: Groups are part of our identity and self-esteem (Tajfel, 1970). 3 mental processes involved are social categorization, social identification, and social comparison. <!--SR:!2025-02-12,100,312!2025-05-02,166,332-->
   - social categorization ::@:: Characterize people by their groups. Leads to prejudice. <!--SR:!2025-01-03,77,332!2025-01-03,77,332-->
-  - social identification ::@:: Modify yourself to match the beliefs you have on your own groups. <!--SR:!2024-11-18,39,312!2025-01-03,77,332-->
+  - social identification ::@:: Modify yourself to match the beliefs you have on your own groups. <!--SR:!2025-05-08,171,332!2025-01-03,77,332-->
   - social comparison ::@:: Compare your groups with other groups. This maintains group differences. <!--SR:!2025-01-03,77,332!2025-03-14,125,312-->
 - activity 1: social identity exercise + reflection by drawing
   - social identity exercise + reflection by drawing / debrief ::@:: Try identify your own social identities. You may discover how you are made from your past experiences. <!--SR:!2025-01-03,77,332!2024-12-15,58,312-->

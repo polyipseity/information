@@ -15,7 +15,7 @@ __Financial accounting__ is {@{a branch of [accounting](accounting.md) concerned
 
 Financial accountancy is governed by {@{both local and international accounting standards}@}. {@{[Generally Accepted Accounting Principles](accounting%20standard.md) (GAAP)}@} is {@{the standard framework of guidelines for financial accounting used in any given jurisdiction}@}. It includes {@{the standards, conventions and rules that accountants follow in recording and summarizing and in the preparation of financial statements}@}. <!--SR:!2024-11-25,58,310!2025-05-01,175,310!2025-05-13,184,310!2025-04-05,142,290-->
 
-On the other hand, {@{[International Financial Reporting Standards](International%20Financial%20Reporting%20Standards.md) (IFRS)}@} is {@{a set of accounting standards stating how particular types of transactions and other events should be reported in financial statements}@}. IFRS are issued by {@{the [International Accounting Standards Board](International%20Accounting%20Standards%20Board.md) (IASB)}@}.<sup>[\[2\]](#^ref-2)</sup> With {@{IFRS becoming more widespread on the international scene}@}, {@{_consistency_ in financial reporting has become more prevalent between global organizations}@}. <!--SR:!2024-11-18,52,290!2024-12-03,64,310!2024-11-20,53,310!2024-12-10,70,310!2024-11-23,56,310-->
+On the other hand, {@{[International Financial Reporting Standards](International%20Financial%20Reporting%20Standards.md) (IFRS)}@} is {@{a set of accounting standards stating how particular types of transactions and other events should be reported in financial statements}@}. IFRS are issued by {@{the [International Accounting Standards Board](International%20Accounting%20Standards%20Board.md) (IASB)}@}.<sup>[\[2\]](#^ref-2)</sup> With {@{IFRS becoming more widespread on the international scene}@}, {@{_consistency_ in financial reporting has become more prevalent between global organizations}@}. <!--SR:!2025-06-18,212,310!2024-12-03,64,310!2024-11-20,53,310!2024-12-10,70,310!2024-11-23,56,310-->
 
 While financial accounting is {@{used to prepare accounting information for people outside the organization or not involved in the day-to-day running of the company}@}, [managerial accounting](management%20accounting.md) {@{provides accounting information to help managers make decisions to manage the business}@}. <!--SR:!2025-03-11,133,290!2024-11-21,54,310-->
 
@@ -109,18 +109,18 @@ Non-current assets include {@{[fixed](fixed%20asset.md) or long-term assets and 
 - _fixed (long-term) assets_ ::@:: property, building, equipment (such as factory machinery) <!--SR:!2024-11-28,59,310!2024-12-10,70,310-->
 - _intangible assets_ ::@:: copyrights, trademarks, patents, goodwill <!--SR:!2025-03-21,131,290!2025-05-06,179,310-->
 
-Liabilities include {@{current liabilities and long-term liabilities}@}: <!--SR:!2024-11-18,48,290-->
+Liabilities include {@{current liabilities and long-term liabilities}@}: <!--SR:!2025-06-01,195,310-->
 
 - _current liabilities_ ::@:: trade accounts payable, dividends payable, employee salaries payable, interest (e.g. on debt) payable <!--SR:!2024-11-29,52,270!2024-12-16,60,270-->
 - _long-term liabilities_ ::@:: mortgage notes payable, bonds payable <!--SR:!2024-11-27,58,310!2025-05-17,187,310-->
 
-{@{Owner's equity, sometimes referred to as net assets}@}, is {@{represented differently depending on the type of business ownership}@}. Business ownership can be in the form of {@{a sole proprietorship, partnership, or a [corporation](corporation.md)}@}. For {@{a corporation}@}, the owner's equity portion {@{usually shows common stock, and retained earnings (earnings kept in the company)}@}. Retained earnings come from {@{the retained earnings statement, prepared prior to the balance sheet}@}.<sup>[\[8\]](#^ref-8)</sup> <!--SR:!2025-04-30,172,310!2025-04-12,146,290!2024-11-28,59,310!2024-11-18,52,290!2025-04-19,164,310!2025-03-29,137,290-->
+{@{Owner's equity, sometimes referred to as net assets}@}, is {@{represented differently depending on the type of business ownership}@}. Business ownership can be in the form of {@{a sole proprietorship, partnership, or a [corporation](corporation.md)}@}. For {@{a corporation}@}, the owner's equity portion {@{usually shows common stock, and retained earnings (earnings kept in the company)}@}. Retained earnings come from {@{the retained earnings statement, prepared prior to the balance sheet}@}.<sup>[\[8\]](#^ref-8)</sup> <!--SR:!2025-04-30,172,310!2025-04-12,146,290!2024-11-28,59,310!2025-06-17,211,310!2025-04-19,164,310!2025-03-29,137,290-->
 
 #### statement of retained earnings
 
 The statement of retained earnings is also called {@{statement of changes in equity}@}. <!--SR:!2024-12-09,62,335-->
 
-This statement is {@{additional to the three main statements described above}@}. It shows {@{how the distribution of income and transfer of dividends affects the wealth of shareholders in the company}@}. The concept of retained earnings means {@{profits of previous years that are accumulated till current period}@}. Basic proforma for this statement is as follows: <p> {@{retained earnings at the beginning of period <br/> + net income for the period <br/> – dividends <br/> = retained earnings at the end of period}@}.<sup>[\[9\]](#^ref-9)</sup> <!--SR:!2024-11-18,48,290!2024-12-09,69,310!2024-11-26,59,310!2025-06-04,201,310-->
+This statement is {@{additional to the three main statements described above}@}. It shows {@{how the distribution of income and transfer of dividends affects the wealth of shareholders in the company}@}. The concept of retained earnings means {@{profits of previous years that are accumulated till current period}@}. Basic proforma for this statement is as follows: <p> {@{retained earnings at the beginning of period <br/> + net income for the period <br/> – dividends <br/> = retained earnings at the end of period}@}.<sup>[\[9\]](#^ref-9)</sup> <!--SR:!2025-05-27,190,310!2024-12-09,69,310!2024-11-26,59,310!2025-06-04,201,310-->
 
 ## basic concepts
 
@@ -200,7 +200,7 @@ However, there are {@{instances of accounts, known as contra-accounts (contra-as
 - [historical cost accounting](historical%20cost.md)
 - [philosophy of accounting](philosophy%20of%20accounting.md)
 - [accounting analyst](accounting%20analyst.md), ... ::@:: whose job involves evaluating public company financial statements <!--SR:!2025-02-18,117,290!2025-02-06,105,290-->
-- [management accounting](management%20accounting.md), ... ::@:: the other main division of accounting <!--SR:!2024-11-20,53,310!2024-11-18,48,290-->
+- [management accounting](management%20accounting.md), ... ::@:: the other main division of accounting <!--SR:!2024-11-20,53,310!2025-06-02,196,310-->
 - [bookkeeping](bookkeeping.md)
 
 ## further reading
