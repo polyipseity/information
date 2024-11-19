@@ -107,17 +107,13 @@ __[Price optimization](price%20optimization.md)__ is ::@:: the use of mathematic
 
 ## see also
 
-<!--
-> ![](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Emblem-money.svg/28px-Emblem-money.svg.png)
->
-> ___[Business and economics portal](Portal:Business.md)___
--->
+<!-- > ![](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Emblem-money.svg/28px-Emblem-money.svg.png) -->
+<!-- > -->
+<!-- > ___[Business and economics portal](Portal:Business.md)___ -->
 
-<!--
-> ![](https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/United_States_penny,_obverse,_2002.png/28px-United_States_penny,_obverse,_2002.png)
->
-> ___[Numismatics portal](Portal:Numismatics.md)___
--->
+<!-- > ![](https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/United_States_penny,_obverse,_2002.png/28px-United_States_penny,_obverse,_2002.png) -->
+<!-- > -->
+<!-- > ___[Numismatics portal](Portal:Numismatics.md)___ -->
 
 - [asset pricing](asset%20pricing.md)
 - [common law of business balance](common%20law%20of%20business%20balance.md)
@@ -179,11 +175,9 @@ This text incorporates [content](https://en.wikipedia.org/wiki/price) from [Wiki
 
 ## external links
 
-<!--
-> ![](https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Wiktionary-logo-en-v2.svg/40px-Wiktionary-logo-en-v2.svg.png)
->
-> Look up ___[price](wiktionary:Special:Search_price.md)___ in Wiktionary, the free dictionary.
--->
+<!-- > ![](https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Wiktionary-logo-en-v2.svg/40px-Wiktionary-logo-en-v2.svg.png) -->
+<!-- > -->
+<!-- > Look up ___[price](wiktionary:Special:Search_price.md)___ in Wiktionary, the free dictionary. -->
 
 - ["Price"](https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Price). _[Encyclopædia Britannica](Encyclopædia%20Britannica%20Eleventh%20Edition.md)_. Vol. 22 \(11th ed.\). 1911.
 - [Prices and Wages by Decade library guide](http://libraryguides.missouri.edu/pricesandwages) – Historical prices and wages research guide at the University of Missouri libraries
