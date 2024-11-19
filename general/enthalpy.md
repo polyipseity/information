@@ -60,7 +60,7 @@ Enthalpy changes are measured under the following {@{standard conditions}@}: <!-
 <!--pytextgen generate section="9911"--><!-- The following content is generated at 2024-01-04T20:17:51.631097+08:00. Any edits will be overridden! -->
 
 - _(begin)_→::@::←[concentration](concentration.md) (if in a [solution](solution%20(chemistry).md)): 1 mol dm<sup>-3</sup> <!--SR:!2027-02-24,862,298!2028-11-01,1600,358-->
-- [concentration](concentration.md) (if in a [solution](solution%20(chemistry).md)): 1 mol dm<sup>-3</sup>→::@::←[physical states](physical%20state.md): [standard states](standard%20state.md) <!--SR:!2027-06-24,1111,330!2024-11-19,166,310-->
+- [concentration](concentration.md) (if in a [solution](solution%20(chemistry).md)): 1 mol dm<sup>-3</sup>→::@::←[physical states](physical%20state.md): [standard states](standard%20state.md) <!--SR:!2027-06-24,1111,330!2026-04-18,515,310-->
 - [physical states](physical%20state.md): [standard states](standard%20state.md)→::@::←[pressure](pressure.md): 1 [atm](atmosphere%20(unit).md) <!--SR:!2026-03-14,746,318!2025-02-12,467,298-->
 - [pressure](pressure.md): 1 [atm](atmosphere%20(unit).md)→::@::←[temperature](temperature.md): 25 °C/298.15 K <!--SR:!2025-10-10,676,310!2027-05-09,914,290-->
 - [temperature](temperature.md): 25 °C/298.15 K→::@::←_(end)_ <!--SR:!2027-08-25,1165,338!2026-04-23,567,258-->

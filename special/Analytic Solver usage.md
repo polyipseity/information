@@ -31,7 +31,7 @@ XLMiner offers {@{2 ways}@} to reduce categories: {@{automatically by frequency 
 
 - see: [general/decision tree](../general/decision%20tree.md)
 
-The decision tree ends are called {@{_leaf nodes_ or _terminal nodes_}@}. The rest of the nodes are called {@{_decision nodes_ or _internal nodes_}@}. <!--SR:!2024-11-19,163,310!2026-04-05,533,310-->
+The decision tree ends are called {@{_leaf nodes_ or _terminal nodes_}@}. The rest of the nodes are called {@{_decision nodes_ or _internal nodes_}@}. <!--SR:!2026-10-24,704,330!2026-04-05,533,310-->
 
 The _error rate_ of a decision tree is {@{the number of mispredicted observations divided by the number of all observations}@}. <!--SR:!2025-03-30,252,290-->
 

@@ -39,7 +39,7 @@ Note that the formulas for DFT and IDFT are {@{extremely similar}@}. Indeed, one
 
 - see: [general/discrete Fourier transform § linearity](../../general/discrete%20Fourier%20transform.md#linearity)
 
-The DFT is {@{a linear transform}@}. That is, {@{$$\mathcal{F}(\{a x_n + b y_n\})_k= a \mathcal{F}(\{x_n\})_k + b \mathcal{F}(\{y_n\})_k$$ for any complex numbers $a$ and $b$}@}. This can be shown {@{directly from the definition}@}. <!--SR:!2025-07-30,267,346!2025-08-13,276,346!2024-11-19,71,346-->
+The DFT is {@{a linear transform}@}. That is, {@{$$\mathcal{F}(\{a x_n + b y_n\})_k= a \mathcal{F}(\{x_n\})_k + b \mathcal{F}(\{y_n\})_k$$ for any complex numbers $a$ and $b$}@}. This can be shown {@{directly from the definition}@}. <!--SR:!2025-07-30,267,346!2025-08-13,276,346!2025-10-23,338,366-->
 
 ### shift
 
@@ -107,7 +107,7 @@ It is often more helpful to plot the magnitude spectrum in {@{a logarithmic scal
 
 - see: [`np.unwrap`](https://numpy.org/doc/stable/reference/generated/numpy.unwrap.html)
 
-To make the phase spectrum {@{less jumpy (more continuous)}@}, the phase may be {@{wrapped around $2\pi$ such that the difference from the previous phase is not more than $\pi$ (see [`np.unwrap`](https://numpy.org/doc/stable/reference/generated/numpy.unwrap.html))}@}. <!--SR:!2024-11-19,69,353!2024-11-29,76,353-->
+To make the phase spectrum {@{less jumpy (more continuous)}@}, the phase may be {@{wrapped around $2\pi$ such that the difference from the previous phase is not more than $\pi$ (see [`np.unwrap`](https://numpy.org/doc/stable/reference/generated/numpy.unwrap.html))}@}. <!--SR:!2025-10-21,336,373!2024-11-29,76,353-->
 
 ## zero padding
 

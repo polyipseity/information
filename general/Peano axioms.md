@@ -97,7 +97,7 @@ To show that $S(0)$ is {@{also the multiplicative left identity requires the ind
 
 Therefore, by {@{the induction axiom $S(0)$ is the multiplicative left identity of all natural numbers}@}. Moreover, it can be shown that {@{multiplication is commutative and [distributes over](distributive%20property.md) addition: $$a\cdot (b+c)=(a\cdot b)+(a\cdot c)$$}@}. <!--SR:!2024-12-16,75,325!2024-12-06,66,310-->
 
-Thus, {@{$(\mathbb {N} ,+,0,\cdot ,S(0))$}@} is {@{a commutative [semiring](semiring.md)}@}. <!--SR:!2024-11-19,21,265!2024-11-26,49,265-->
+Thus, {@{$(\mathbb {N} ,+,0,\cdot ,S(0))$}@} is {@{a commutative [semiring](semiring.md)}@}. <!--SR:!2025-01-15,57,265!2024-11-26,49,265-->
 
 > [!tip] tips
 >

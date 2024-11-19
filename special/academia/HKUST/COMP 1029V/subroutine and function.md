@@ -43,7 +43,7 @@ End Function
 
 ## return type
 
-For functions, you can specify the return type by {@{appending `As ReturnType` after the parameters}@}: <!--SR:!2024-11-19,203,310-->
+For functions, you can specify the return type by {@{appending `As ReturnType` after the parameters}@}: <!--SR:!2026-08-11,630,310-->
 
 ```VB
 Function SquareSize(SideLength) As Integer

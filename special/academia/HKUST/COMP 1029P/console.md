@@ -26,7 +26,7 @@ for _ in range(4):
 
 Note that the above only prints 25 newlines a time. This is because {@{IDLE does not show identical lines if the number of lines printed at once is 50 or more}@}. <!--SR:!2026-09-01,707,330-->
 
-If your console is an actual console, then you can use {@{call a system command via `os.system`, which is `cls` on Windows and `clear` on UNIX systems}@}. One can detect whether the current OS is Windows by writing {@{`os.name == "nt"`}@}. <!--SR:!2024-11-19,204,310!2025-01-10,262,330-->
+If your console is an actual console, then you can use {@{call a system command via `os.system`, which is `cls` on Windows and `clear` on UNIX systems}@}. One can detect whether the current OS is Windows by writing {@{`os.name == "nt"`}@}. <!--SR:!2027-04-16,878,330!2025-01-10,262,330-->
 
 ```Python
 import os

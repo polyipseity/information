@@ -8,7 +8,7 @@ tags:
 
 # Avogadro's law
 
-__{@{Avogadro's}@} law__ states that {@{equal volumes of all [gases](gas.md) at the same [temperature](temperature.md) and [pressure](pressure.md) contain the same number of [molecules](molecule.md)}@}. It is a specific case of {@{the [ideal gas law](ideal%20gas%20law.md)}@}. <!--SR:!2028-01-05,1189,310!2024-11-19,410,272!2028-05-30,1468,352-->
+__{@{Avogadro's}@} law__ states that {@{equal volumes of all [gases](gas.md) at the same [temperature](temperature.md) and [pressure](pressure.md) contain the same number of [molecules](molecule.md)}@}. It is a specific case of {@{the [ideal gas law](ideal%20gas%20law.md)}@}. <!--SR:!2028-01-05,1189,310!2029-02-23,1557,292!2028-05-30,1468,352-->
 
 ## references
 

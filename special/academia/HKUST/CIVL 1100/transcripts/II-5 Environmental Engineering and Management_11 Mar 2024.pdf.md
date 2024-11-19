@@ -217,7 +217,7 @@ MSW Waste Charging Scheme
 - MSW waste charging scheme passing date ::@:: 2021-09-26 by Legco <!--SR:!2024-11-23,112,250!2025-04-16,214,270-->
   - MSW waste charging scheme preparation period ::@:: 18 months <!--SR:!2025-03-03,203,310!2024-11-24,140,310-->
   - MSW waste charging scheme details ::@:: buy designated bags (0.11 HKD/L) at ~4000 selling points <!--SR:!2025-03-02,180,270!2025-04-05,245,330-->
-  - MSW waste charging scheme penalty ::@:: max HK$25&nbsp;000 fine and 6 months in prison <!--SR:!2024-11-19,82,290!2025-01-26,187,310-->
+  - MSW waste charging scheme penalty ::@:: max HK$25&nbsp;000 fine and 6 months in prison <!--SR:!2025-10-15,330,310!2025-01-26,187,310-->
 
 Will this waste charging scheme waste generation?
 
@@ -392,7 +392,7 @@ return await memorize_seq(
 - carbon dioxide (CO<sub>2</sub>)→::@::←hydroflurocarbons (HFCs) <!--SR:!2025-04-13,185,230!2025-05-06,223,270-->
 - hydroflurocarbons (HFCs)→::@::←methane (CH<sub>4</sub>) <!--SR:!2024-12-15,54,250!2025-03-10,166,230-->
 - methane (CH<sub>4</sub>)→::@::←nitrous oxide (N<sub>2</sub>O) <!--SR:!2025-06-13,229,250!2024-12-09,134,290-->
-- nitrous oxide (N<sub>2</sub>O)→::@::←perflurocarbons (PFCs) <!--SR:!2025-01-25,123,230!2024-11-19,14,130-->
+- nitrous oxide (N<sub>2</sub>O)→::@::←perflurocarbons (PFCs) <!--SR:!2025-01-25,123,230!2024-12-08,19,130-->
 - perflurocarbons (PFCs)→::@::←sulfur hexafluoride (SF<sub>6</sub>) <!--SR:!2024-12-09,38,250!2025-03-13,187,270-->
 - sulfur hexafluoride (SF<sub>6</sub>)→::@::←_(end)_ <!--SR:!2025-02-14,186,310!2025-03-30,222,310-->
 

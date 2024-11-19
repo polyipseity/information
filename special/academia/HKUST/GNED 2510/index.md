@@ -40,7 +40,7 @@ The content is in teaching order.
 - hard skills, soft skills ::@:: Many jobs typically require a combination of them. <!--SR:!2024-12-05,56,310!2024-12-06,57,310-->
   - hard skills ::@:: Skills acquired through formal education and training programs. <!--SR:!2024-12-10,61,310!2024-11-25,48,310-->
   - soft skills ::@:: Skills that promote productivity, efficiency, effective communication, etc. <!--SR:!2024-12-25,69,310!2024-12-04,57,310-->
-- How many jobs should you include on your resume? ::@:: all of your previous jobs <!--SR:!2024-11-19,48,290!2025-04-19,155,310-->
+- How many jobs should you include on your resume? ::@:: all of your previous jobs <!--SR:!2025-05-30,192,310!2025-04-19,155,310-->
 - [name tag](../../../name%20tag.md)
   - For easy reading, one’s name badge should be worn... ::@:: ... on the right chest near shoulder. <!--SR:!2024-12-02,46,290!2024-12-25,69,310-->
 
@@ -118,7 +118,7 @@ The content is in teaching order.
 - Where should you sit when you are in the interview room? ::@:: seats that are neither too special nor too seclusive <!--SR:!2024-12-06,57,310!2025-04-07,145,310-->
 - If your boss takes you and the team for lunch... ::@:: ... balance the food order with what everyone else is choosing. (But it can depend on the boss's style.) <!--SR:!2024-12-11,62,310!2024-11-26,49,310-->
 - Emails should be replied within \_ hours, and phone calls should be returned within \_ hours ::@:: as soon as possible <!--SR:!2024-12-11,62,310!2024-11-30,53,310-->
-- If you order coffee/tea and it's too hot. What should you do? ::@:: Let it cool in the cup. <!--SR:!2024-11-19,42,290!2024-12-10,61,310-->
+- If you order coffee/tea and it's too hot. What should you do? ::@:: Let it cool in the cup. <!--SR:!2025-05-09,171,310!2024-12-10,61,310-->
 - After chatting with the guests in the upcoming networking practicum, you should... ::@:: Send a thank you note on the same day. <!--SR:!2024-12-10,61,310!2025-04-09,146,310-->
   - thank-you note (after networking)
 - interview preparation ::@:: prepare questions, "stalk" (gather information) on LinkedIn <!--SR:!2024-11-21,42,290!2024-12-13,64,310-->

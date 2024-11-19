@@ -64,7 +64,7 @@ The content is in teaching order.
 - datetime: 2024-09-19T10:30:00+08:00/2024-09-19T12:20:00+08:00
 - work motivations ::@:: autonomy, mastery, purpose <!--SR:!2025-01-03,77,332!2025-01-03,77,332-->
 - relationship between workview & worldview ::@:: If they integrate with each other, great! If they do not, then you may find jobs unfulfilling and want to quit it. <!--SR:!2025-01-03,77,332!2025-01-03,77,332-->
-- course framework ::@:: design thinking, meaning-making, discovery & support <!--SR:!2024-11-19,40,312!2025-01-03,77,332-->
+- course framework ::@:: design thinking, meaning-making, discovery & support <!--SR:!2025-05-12,174,332!2025-01-03,77,332-->
 - warm-up activity: Choose a person from the picture that resonate with you the most. Explain why.
 - society identity theory ::@:: Groups are part of our identity and self-esteem (Tajfel, 1970). 3 mental processes involved are social categorization, social identification, and social comparison. <!--SR:!2025-02-12,100,312!2025-05-02,166,332-->
   - social categorization ::@:: Characterize people by their groups. Leads to prejudice. <!--SR:!2025-01-03,77,332!2025-01-03,77,332-->

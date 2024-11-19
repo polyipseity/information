@@ -26,7 +26,7 @@ __Catalytic converter__ is a {@{device that converts toxic pollutants into less-
 
 ### oxidation
 
-{@{Carbon, hydrocarbons, and carbon monoxide}@} are oxidized to {@{[carbon dioxide](carbon%20dioxide.md)}@}. <!--SR:!2026-06-09,1086,290!2024-11-19,665,310-->
+{@{Carbon, hydrocarbons, and carbon monoxide}@} are oxidized to {@{[carbon dioxide](carbon%20dioxide.md)}@}. <!--SR:!2026-06-09,1086,290!2030-07-13,2062,310-->
 
 > __oxidation in catalytic converter__
 >

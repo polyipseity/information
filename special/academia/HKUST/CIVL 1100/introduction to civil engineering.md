@@ -148,7 +148,7 @@ quantity surveyor
 - consulting environmental engineer→::@::←consulting geo-technical engineer <!--SR:!2025-11-15,394,285!2025-08-10,342,306-->
 - consulting geo-technical engineer→::@::←consulting structural engineer <!--SR:!2025-01-06,179,315!2025-04-26,255,317-->
 - consulting structural engineer→::@::←contracting civil engineer <!--SR:!2025-09-07,361,335!2025-05-27,276,315-->
-- contracting civil engineer→::@::←engineering geologist <!--SR:!2025-07-29,302,297!2024-11-19,56,275-->
+- contracting civil engineer→::@::←engineering geologist <!--SR:!2025-07-29,302,297!2025-04-20,152,275-->
 - engineering geologist→::@::←environmental consultant <!--SR:!2025-11-10,381,305!2025-05-31,280,305-->
 - environmental consultant→::@::←quantity surveyor <!--SR:!2025-06-18,217,300!2025-01-22,163,280-->
 - quantity surveyor→::@::←_(end)_ <!--SR:!2025-01-10,187,340!2024-12-31,120,340-->
@@ -499,7 +499,7 @@ teaming up with others
 <!--pytextgen generate section="ee20"--><!-- The following content is generated at 2024-02-16T21:59:47.378182+08:00. Any edits will be overridden! -->
 
 - _(begin)_→::@::←business procedures <!--SR:!2025-08-20,291,252!2026-03-19,557,401-->
-- business procedures→::@::←economics <!--SR:!2024-11-19,82,261!2025-02-10,193,285-->
+- business procedures→::@::←economics <!--SR:!2025-06-20,213,261!2025-02-10,193,285-->
 - economics→::@::←human behaviors <!--SR:!2025-02-04,127,300!2026-01-10,444,340-->
 - human behaviors→::@::←management principles <!--SR:!2024-12-25,139,300!2025-07-15,253,260-->
 - management principles→::@::←strong communication skills <!--SR:!2025-03-22,222,301!2025-07-08,306,320-->
@@ -808,7 +808,7 @@ water distribution network
 
 <!--pytextgen generate section="019b"--><!-- The following content is generated at 2024-05-01T19:22:35.271947+08:00. Any edits will be overridden! -->
 
-- _(begin)_→::@::←sewage collection network <!--SR:!2024-11-19,56,321!2025-04-21,252,317-->
+- _(begin)_→::@::←sewage collection network <!--SR:!2025-05-20,182,321!2025-04-21,252,317-->
 - sewage collection network→::@::←storm water management <!--SR:!2025-09-09,318,267!2025-09-27,374,341-->
 - storm water management→::@::←water collection network <!--SR:!2025-09-05,372,340!2025-08-07,322,320-->
 - water collection network→::@::←water distribution network <!--SR:!2026-01-24,512,400!2024-12-24,181,352-->

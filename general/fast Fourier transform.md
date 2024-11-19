@@ -19,7 +19,7 @@ A __fast Fourier transform__ (__FFT__) is {@{an [algorithm](algorithm.md) that c
 
 - see: [Cooley–Tukey FFT algorithm](Cooley–Tukey%20FFT%20algorithm.md)
 
-{@{By far the most commonly used FFT}@} is {@{the Cooley–Tukey algorithm}@}. This is {@{a [divide-and-conquer algorithm](divide-and-conquer%20algorithm.md)}@} that {@{[recursively](recursion.md) breaks down a DFT of any [composite](composite%20number.md) size $n=n_{1}n_{2}$ into $n_{1}$ smaller DFTs of size $n_{2}$}@}, along with {@{$O(n)$ multiplications by complex [roots of unity](root%20of%20unity.md) traditionally called [twiddle factors](twiddle%20factor.md)}@} (after Gentleman and Sande, 1966). <!--SR:!2024-11-19,61,310!2025-07-24,251,330!2024-11-23,61,310!2025-06-05,212,330!2024-11-30,68,310-->
+{@{By far the most commonly used FFT}@} is {@{the Cooley–Tukey algorithm}@}. This is {@{a [divide-and-conquer algorithm](divide-and-conquer%20algorithm.md)}@} that {@{[recursively](recursion.md) breaks down a DFT of any [composite](composite%20number.md) size $n=n_{1}n_{2}$ into $n_{1}$ smaller DFTs of size $n_{2}$}@}, along with {@{$O(n)$ multiplications by complex [roots of unity](root%20of%20unity.md) traditionally called [twiddle factors](twiddle%20factor.md)}@} (after Gentleman and Sande, 1966). <!--SR:!2025-08-14,268,330!2025-07-24,251,330!2024-11-23,61,310!2025-06-05,212,330!2024-11-30,68,310-->
 
 This method (and the general idea of an FFT) was {@{popularized by a publication of Cooley and Tukey in 1965}@}, but it was later discovered that those two authors had {@{independently re-invented an algorithm known to [Carl Friedrich Gauss](Carl%20Friedrich%20Gauss.md) around 1805 (and subsequently rediscovered several times in limited forms)}@}. <!--SR:!2025-01-31,102,290!2024-12-23,74,270-->
 

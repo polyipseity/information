@@ -65,7 +65,7 @@ return _chain.from_iterable(await _gather(
 
 <!--pytextgen generate section="f21a"--><!-- The following content is generated at 2024-01-30T13:35:46.598807+08:00. Any edits will be overridden! -->
 
-- _(begin)_→::@::←`**` <!--SR:!2024-11-27,64,322!2024-11-19,56,310-->
+- _(begin)_→::@::←`**` <!--SR:!2024-11-27,64,322!2025-07-17,240,330-->
 - `**`→::@::←`*` <!--SR:!2024-11-20,57,322!2024-12-12,78,322-->
 - `*`→::@::←`/` <!--SR:!2024-12-05,71,322!2024-12-10,76,322-->
 - `/`→::@::←`//` <!--SR:!2024-11-22,59,322!2024-12-13,79,322-->
@@ -78,7 +78,7 @@ return _chain.from_iterable(await _gather(
 
 <!--pytextgen generate section="9cda"--><!-- The following content is generated at 2024-01-30T13:35:46.549289+08:00. Any edits will be overridden! -->
 
-- `**`:@:power <!--SR:!2024-11-19,56,310-->
+- `**`:@:power <!--SR:!2025-07-20,243,330-->
 - `*`:@:multiplication <!--SR:!2024-12-05,72,322-->
 - `/`:@:division <!--SR:!2024-11-21,58,322-->
 - `//`:@:floor division <!--SR:!2024-12-04,71,322-->
@@ -241,7 +241,7 @@ Like lists, strings can be {@{indexed using the `string_var[n]`, which access th
 
 ## output
 
-In {@{a Jupyter notebook}@}, it outputs {@{the value of the last expression (and prints nothing if the last expression is `None`)}@}. Note that {@{assignments are not expressions, and do not produce output as the last expression}@}. To get it to print more things, {@{use `print(<any>...)`}@}. It can {@{print anything (and prints `None` if the last expression is `None`)}@}. Note that it automatically {@{adds a newline after the printed content, so each `print` outputs on a new line instead of being glued together in a single line}@}. Also, when multiple arguments are passed, {@{each argument is joined into a single string, separated by a space in between}@}. When {@{no arguments are passed, only a newline is printed}@}. <!--SR:!2024-12-13,66,343!2025-01-08,92,363!2025-01-13,97,363!2025-01-03,92,363!2024-12-05,66,343!2024-11-20,55,343!2024-11-19,54,343!2025-01-14,98,363-->
+In {@{a Jupyter notebook}@}, it outputs {@{the value of the last expression (and prints nothing if the last expression is `None`)}@}. Note that {@{assignments are not expressions, and do not produce output as the last expression}@}. To get it to print more things, {@{use `print(<any>...)`}@}. It can {@{print anything (and prints `None` if the last expression is `None`)}@}. Note that it automatically {@{adds a newline after the printed content, so each `print` outputs on a new line instead of being glued together in a single line}@}. Also, when multiple arguments are passed, {@{each argument is joined into a single string, separated by a space in between}@}. When {@{no arguments are passed, only a newline is printed}@}. <!--SR:!2024-12-13,66,343!2025-01-08,92,363!2025-01-13,97,363!2025-01-03,92,363!2024-12-05,66,343!2024-11-20,55,343!2025-08-06,260,363!2025-01-14,98,363-->
 
 Note that strings are outputted, escaped {@{with `\` properly (without unnecessary escapes)}@}, and preferably {@{wrapped in `'`, and only uses `"` if there is at least 1 `'` in the string but not any `"`}@}. <!--SR:!2025-01-25,100,374!2025-01-20,95,374-->
 
