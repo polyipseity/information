@@ -27,12 +27,12 @@ We went over some leadership theory and did some group activities, basically.
   - Johari window / blind area ::@:: unknown to self × known to others <!--SR:!2024-11-22,4,270!2024-11-22,4,270-->
   - Johari window / hidden area ::@:: known to self × unknown to others <!--SR:!2024-11-22,4,270!2024-11-22,4,270-->
   - Johari window / unknown area ::@:: unknown to self × unknown to others <!--SR:!2024-11-22,4,270!2024-11-22,4,270-->
-  - Johari window / ask ::@:: known to self → unknown to self <!--SR:!2024-11-22,4,270!2024-11-22,4,270-->
-  - Johari window / tell ::@:: known to others → unknown to others <!--SR:!2024-11-22,4,270!2024-11-22,4,270-->
-  - Johari window / feedback ::@:: known to self × known to others → unknown to self × known to others <!--SR:!2024-11-22,4,270!2024-11-22,4,270-->
-  - Johari window / self-disclosure ::@:: known to self × known to others → known to self × unknown to others <!--SR:!2024-11-22,4,270!2024-11-22,4,270-->
-  - Johari window / shared discovery ::@:: known to self × known to others → unknown to self × unknown to others <!--SR:!2024-11-22,4,270!2024-11-22,4,270-->
-  - Johari window / self-discovery ::@:: known to self × unknown to others → unknown to self × unknown to others <!--SR:!2024-11-22,4,270!2024-11-22,4,270-->
+  - Johari window / ask ::@:: known to self ← unknown to self <!--SR:!2024-11-22,4,270!2024-11-22,4,270-->
+  - Johari window / tell ::@:: known to others ← unknown to others <!--SR:!2024-11-22,4,270!2024-11-22,4,270-->
+  - Johari window / feedback ::@:: known to self × known to others ← unknown to self × known to others <!--SR:!2024-11-22,4,270!2024-11-22,4,270-->
+  - Johari window / self-disclosure ::@:: known to self × known to others ← known to self × unknown to others <!--SR:!2024-11-22,4,270!2024-11-22,4,270-->
+  - Johari window / shared discovery ::@:: known to self × known to others ← unknown to self × unknown to others <!--SR:!2024-11-22,4,270!2024-11-22,4,270-->
+  - Johari window / self-discovery ::@:: known to self × unknown to others ← unknown to self × unknown to others <!--SR:!2024-11-22,4,270!2024-11-22,4,270-->
 - 3 feedback models ::@:: commend → recommend → commend, keep → improve → stop → start (KISS), John Heron self and peer feedback <!--SR:!2024-11-22,4,270!2024-11-22,4,270-->
   - commend → recommend → commend ::@:: Suitable for individual feedback. <p> (The sandwich model strikes again...) <!--SR:!2024-11-22,4,270!2024-11-22,4,270-->
   - keep → improve → stop → start (KISS) ::@:: Suitable for improving team performance. <p> (Isn't this eliminate, reduce, raise, create (ERRC)?) <!--SR:!2024-11-22,4,270!2024-11-22,4,270-->

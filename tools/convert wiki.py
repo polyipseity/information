@@ -29,8 +29,11 @@ _MAX_CONCURRENT_REQUESTS_PER_HOST = 2
 _IGNORED_NAME_PREFIXES = frozenset({"Help:"})
 _PRESERVED_PAGE_PREFIXES = {
     "Special:": f"{_WIKI_HOST_URL}/wiki/{{}}",
+    "Wikipedia": f"{_WIKI_HOST_URL}/wiki/{{}}",
     "commons": "https://commons.wikimedia.org/wiki/{}",
     "oeis:": "https://oeis.org/{}",
+    "q:": "https://en.wikiquote.org/wiki/{}",
+    "wikiversity:": "https://en.wikiversity.org/wiki/{}",
     "wikt:": "https://en.wiktionary.org/wiki/{}",
     "wiktionary:": "https://en.wiktionary.org/wiki/{}",
 }
@@ -71,10 +74,6 @@ def _markdown_link_target(page: str, fragment: str) -> str:
     )
 
 
-def _markdown_link_name(name: str) -> str:
-    return name.replace("\\", "\\\\").replace(R"[", R"\[").replace(R"]", R"\]")
-
-
 def _tag_affixes(name: str) -> tuple[str, str]:
     return f"<{name}>", f"</{name}>"
 
@@ -87,18 +86,18 @@ async def wiki_html_to_plaintext(
     refs: bool,
     session: ClientSession,
     __HEADER_PATTERN: Pattern[str] = compile(r"h(\d?)"),
+    __BOLD_FONT_STYLE_REGEX: Pattern[str] = compile(r"font-weight: *bold"),
     __ITALIC_FONT_STYLE_REGEX: Pattern[str] = compile(r"font-style: *italic"),
     __MARKDOWN_ESCAPE_REGEX: Pattern[str] = compile(r"[#$()*<>\\[\\\]_`|]"),
     __PROCESS_STRINGS_BI_REGEX: Pattern[str] = compile(r"^( *)(.*?)( *)$", DOTALL),
     __REF_NUMBER_REGEX: Pattern[str] = compile(r"\d+"),
 ) -> str:
+    def escape_markdown(text: str):
+        return __MARKDOWN_ESCAPE_REGEX.sub(lambda match: Rf"\{match[0]}", text)
+
     if not isinstance(ele, Tag):
         return (
-            (
-                ele
-                if math
-                else __MARKDOWN_ESCAPE_REGEX.sub(lambda match: Rf"\{match[0]}", ele)
-            )
+            (ele if math else escape_markdown(ele))
             if isinstance(ele, NavigableString)
             and not isinstance(ele, PreformattedString)
             and not isinstance(ele.parent, BeautifulSoup)
@@ -113,20 +112,23 @@ async def wiki_html_to_plaintext(
         if refs:
             ref_idx = __REF_NUMBER_REGEX.search("".join(ele.stripped_strings))
             ref_idx = int(ref_idx[0]) if ref_idx else 0
-            return f"<sup>[{_markdown_link_name(f'[{ref_idx}]')}]({_markdown_fragment(f'^ref-{ref_idx}')})</sup>"
+            return f"<sup>[{escape_markdown(f'[{ref_idx}]')}]({_markdown_fragment(f'^ref-{ref_idx}')})</sup>"
         return ""
 
     process_strings: Callable[[str], str] = lambda strings: strings
     prefix, suffix = "", ""
     match ele.name:
-        # bold, italic, style
-        case _ if ele.name in {"b", "i"} or __ITALIC_FONT_STYLE_REGEX.search(
+        # headers, should come before bold
+        case name if (header_match := __HEADER_PATTERN.match(name)):
+            prefix, suffix = f"{'#' * int(header_match[1] or '1')} ", "\n\n"
+            process_strings = lambda strings: _fix_name_maybe(strings.strip())
+        # bold
+        case _ if ele.name == "b" or __BOLD_FONT_STYLE_REGEX.search(
             str(ele.get("style", ""))
         ):
-            times = 2 if ele.name == "b" else 1
-            prefix, suffix = "_" * times, "_" * times
+            prefix, suffix = "__", "__"
 
-            def process_strings_bi(strings: str):
+            def process_strings_b(strings: str):
                 nonlocal prefix, suffix
                 match = __PROCESS_STRINGS_BI_REGEX.match(strings)
                 assert match
@@ -134,17 +136,28 @@ async def wiki_html_to_plaintext(
                 suffix += match[3]
                 return match[2]
 
-            process_strings = process_strings_bi
+            process_strings = process_strings_b
+        # italic
+        case _ if ele.name == "i" or __ITALIC_FONT_STYLE_REGEX.search(
+            str(ele.get("style", ""))
+        ):
+            prefix, suffix = "_", "_"
+
+            def process_strings_i(strings: str):
+                nonlocal prefix, suffix
+                match = __PROCESS_STRINGS_BI_REGEX.match(strings)
+                assert match
+                prefix = f"{match[1]}{prefix}"
+                suffix += match[3]
+                return match[2]
+
+            process_strings = process_strings_i
         # literal tags
         case "s" | "sub" | "sup" | "u":
             prefix, suffix = _tag_affixes(ele.name)
         # newlines
         case "dd" | "p":  # <dl>
             suffix = "\n\n"
-        # headers
-        case name if (header_match := __HEADER_PATTERN.match(name)):
-            prefix, suffix = f"{'#' * int(header_match[1] or '1')} ", "\n\n"
-            process_strings = lambda strings: _fix_name_maybe(strings.strip())
         # code
         case "code":
 
@@ -241,7 +254,6 @@ async def wiki_html_to_plaintext(
         # links
         case "a":
             if "mw-file-description" not in ele.get_attribute_list("class"):
-                process = True
                 if title := ele.get("title"):
                     title = str(title)
                     href = str(ele.get("href", ""))
@@ -298,10 +310,6 @@ async def wiki_html_to_plaintext(
                             )
                         )
                     prefix, suffix = "[", f"]({href})"
-                else:
-                    process = False
-                if process:
-                    process_strings = _markdown_link_name
         # unhandled tags
         case _:
             pass
