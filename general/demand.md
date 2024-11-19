@@ -11,9 +11,9 @@ tags:
 
 - For other uses, see [demand \(disambiguation\)](demand%20(disambiguation).md).
 
-<!-- ![](https://upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/50px-Question_book-new.svg.png)
-
-This article __needs additional citations for [verification](https://en.wikipedia.org/wiki/%3AVerifiability)__. Please help [improve this article](https://en.wikipedia.org/wiki/EditPage/Demand) by adding citations to reliable sources. Unsourced material may be challenged and removed._Find sources:_ ["Demand"](https://www.google.com/search?as_eq=wikipedia&q=%22Demand%22) – [news](https://www.google.com/search?tbm=nws&q=%22Demand%22+-wikipedia&tbs=ar:1) __·__ [newspapers](https://www.google.com/search?&q=%22Demand%22&tbs=bkt:s&tbm=bks) __·__ [books](https://www.google.com/search?tbs=bks:1&q=%22Demand%22+-wikipedia) __·__ [scholar](https://scholar.google.com/scholar?q=%22Demand%22) __·__ [JSTOR](https://www.jstor.org/action/doBasicSearch?Query=%22Demand%22&acc=on&wc=on) _\(January 2020\)__\(Learn how and when to remove this message\) -->
+<!-- ![](https://upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/50px-Question_book-new.svg.png) -->
+<!-- -->
+<!-- This article __needs additional citations for [verification](https://en.wikipedia.org/wiki/%3AVerifiability)__. Please help [improve this article](https://en.wikipedia.org/wiki/EditPage/Demand) by adding citations to reliable sources. Unsourced material may be challenged and removed._Find sources:_ ["Demand"](https://www.google.com/search?as_eq=wikipedia&q=%22Demand%22) – [news](https://www.google.com/search?tbm=nws&q=%22Demand%22+-wikipedia&tbs=ar:1) __·__ [newspapers](https://www.google.com/search?&q=%22Demand%22&tbs=bkt:s&tbm=bks) __·__ [books](https://www.google.com/search?tbs=bks:1&q=%22Demand%22+-wikipedia) __·__ [scholar](https://scholar.google.com/scholar?q=%22Demand%22) __·__ [JSTOR](https://www.jstor.org/action/doBasicSearch?Query=%22Demand%22&acc=on&wc=on) _\(January 2020\)_ _\(Learn how and when to remove this message\)_ -->
 
 In [economics](economics.md), __demand__ is {@{the quantity of a [good](goods.md) that consumers are willing and able to purchase at various prices during a given time}@}.<sup>[\[1\]](#^ref-1)</sup><sup>[\[2\]](#^ref-2)</sup> In economics {@{"demand" for a commodity is not the same thing as "desire" for it}@}. It refers to {@{both the desire to purchase and the ability to pay for a commodity}@}.<sup>[\[2\]](#^ref-2)</sup>
 
