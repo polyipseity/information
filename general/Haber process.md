@@ -34,14 +34,15 @@ The primary reaction is:
 
 ```Python
 # pytextgen generate data
-context = '[natural gas](natural%20gas.md) to [hydrogen](hydrogen.md)'
+context = "[natural gas](natural%20gas.md) to [hydrogen](hydrogen.md)"
 return await memorize_seq(
-  __env__.cwf_sects('d85a', '4956',),
+  __env__.cwf_sects("d85a", "4956"),
   (
-    R'[steam–methane reforming](steam%20reforming.md) to produce [syngas](syngas.md): $\ce{CH4(g) + H2O(g) <=>[NiO][\text{700–1000 °C, 10–20 atm}] 3H2(g) + CO(g)}\qquad\Delta{}H=+206\ \text{kJ mol}^{-1}$',
-    R'[water–gas shift reaction](water–gas%20shift%20reaction.md): $\ce{CO(g) + H2O(g) <=> CO2(g) + H2(g)}\qquad\Delta{}H=-41\ \text{kJ mol}^{-1}$',
+    R"[steam–methane reforming](steam%20reforming.md) to produce [syngas](syngas.md): $\ce{CH4(g) + H2O(g) <=>[NiO][\text{700–1000 °C, 10–20 atm}] 3H2(g) + CO(g)}\qquad\Delta{}H=+206\ \text{kJ mol}^{-1}$",
+    R"[water–gas shift reaction](water–gas%20shift%20reaction.md): $\ce{CO(g) + H2O(g) <=> CO2(g) + H2(g)}\qquad\Delta{}H=-41\ \text{kJ mol}^{-1}$",
   ),
-  pretext=context, posttext=context,
+  pretext=context,
+  posttext=context,
 )
 ```
 
