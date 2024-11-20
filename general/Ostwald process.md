@@ -19,15 +19,16 @@ The __Ostwald process__ is {@{a [chemical process](chemical%20process.md) for th
 
 ```Python
 # pytextgen generate data
-context = 'the Ostwald process'
+context = "the Ostwald process"
 return await memorize_seq(
-  __env__.cwf_sects('4861', 'ba22',),
+  __env__.cwf_sects("4861", "ba22"),
   (
-    R'[catalytic oxidation](catalytic%20oxidation.md) of [ammonia](ammonia.md) in a catalytic chamber: $\ce{4NH3(g) + 5O2(g) ->[Pt][\text{900 °C, 8 atm}] 4NO(g) + 6H2O(g)}\qquad\Delta{}H=-905.2\ \text{kJ mol}^{-1}$',
-    R'[oxidation](oxidation.md) of [nitric oxide](nitric%20oxide.md) in a oxidation chamber: $\ce{2NO(g) + O2(g) -> 2NO2(g)}\qquad\Delta{}H=-114\ \text{kJ mol}^{-1}$',
-    R'[absorption](absorption%20(chemistry).md) of [nitrogen dioxide](nitrogen%20dioxide.md) into [water](water.md) in an absorption chamber: ' + html_ul(R'without air: $\ce{3NO2(g) + H2O(l) -> 2HNO3(aq) + NO(g)}\qquad\Delta{}H=-117\ \text{kJ mol}^{-1}$', R'with air: $\ce{4NO2(g) + O2(g) + 2H2O(l) -> 4HNO3(aq)}\qquad\Delta{}H=-348\ \text{kJ mol}^{-1}$', escape=False,),
+    R"[catalytic oxidation](catalytic%20oxidation.md) of [ammonia](ammonia.md) in a catalytic chamber: $\ce{4NH3(g) + 5O2(g) ->[Pt][\text{900 °C, 8 atm}] 4NO(g) + 6H2O(g)}\qquad\Delta{}H=-905.2\ \text{kJ mol}^{-1}$",
+    R"[oxidation](oxidation.md) of [nitric oxide](nitric%20oxide.md) in a oxidation chamber: $\ce{2NO(g) + O2(g) -> 2NO2(g)}\qquad\Delta{}H=-114\ \text{kJ mol}^{-1}$",
+    R"[absorption](absorption%20(chemistry).md) of [nitrogen dioxide](nitrogen%20dioxide.md) into [water](water.md) in an absorption chamber: " + html_ul(R"without air: $\ce{3NO2(g) + H2O(l) -> 2HNO3(aq) + NO(g)}\qquad\Delta{}H=-117\ \text{kJ mol}^{-1}$", R"with air: $\ce{4NO2(g) + O2(g) + 2H2O(l) -> 4HNO3(aq)}\qquad\Delta{}H=-348\ \text{kJ mol}^{-1}$", escape=False),
   ),
-  pretext=context, posttext=context,
+  pretext=context,
+  posttext=context,
 )
 ```
 

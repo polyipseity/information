@@ -52,7 +52,7 @@ where $\oplus$ {@{represents [XOR](exclusive%20or.md)}@}.
 
 Logical equivalence is {@{different from material equivalence}@}. Formulas $p$ and $q$ are {@{logically equivalent if and only if the statement of their material equivalence ($p\leftrightarrow q$) is a tautology}@}.
 
-The material equivalence of $p$ and $q$ (often written as {@{$p\leftrightarrow q$}@}) is {@{itself another statement in the same [object language](formal%20system.md) as $p$ and $q$}@}. This statement {@{expresses the idea "'$p$ if and only if $q$'". In particular, the truth value of $p\leftrightarrow q$ can change from one model to another}@}.
+The material equivalence of $p$ and $q$ (often written as {@{$p\leftrightarrow q$}@}) is {@{itself another statement in the same [object language](formal%20system.md) as $p$ and $q$}@}. This statement {@{expresses the idea "'$p$ if and only if $q$<!-- LaTeX separator -->'". In particular, the truth value of $p\leftrightarrow q$ can change from one model to another}@}.
 
 On the other hand, the claim that two formulas are logically equivalent is {@{a statement in [metalanguage](metalanguage.md), which expresses a relationship between two statements $p$ and $q$}@}. The statements are {@{logically equivalent if, in every model, they have the same truth value}@}.
 

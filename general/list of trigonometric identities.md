@@ -59,12 +59,12 @@ return await memorize_table(
 ```Python
 # pytextgen generate data
 return await memorize_map(
-  __env__.cwf_sects('958f', 'ba01', None),
+  __env__.cwf_sects("958f", "ba01", None),
   items_to_map(
-    (R'normal', R'$$\sin^2 \theta + \cos^2 \theta = 1$$'),
-    (R'divided by sine', R'$$1 + \cot^2 \theta = \csc^2 \theta$$'),
-    (R'divided by cosine', R'$$1 + \tan^2 \theta = \sec^2 \theta$$'),
-    (R'divided by sine and cosine', R'$$\sec^2 \theta + \csc^2 \theta = \sec^2 \theta \csc^2 \theta$$'),
+    (R"normal", R"$$\sin^2 \theta + \cos^2 \theta = 1$$"),
+    (R"divided by sine", R"$$1 + \cot^2 \theta = \csc^2 \theta$$"),
+    (R"divided by cosine", R"$$1 + \tan^2 \theta = \sec^2 \theta$$"),
+    (R"divided by sine and cosine", R"$$\sec^2 \theta + \csc^2 \theta = \sec^2 \theta \csc^2 \theta$$"),
   ),
 )
 ```
@@ -99,11 +99,11 @@ return await memorize_map(
 ```Python
 # pytextgen generate data
 return await memorize_map(
-  __env__.cwf_sects('f823', '394a', None),
+  __env__.cwf_sects("f823", "394a", None),
   items_to_map(
-    (R'sine', R'$$\sin(\alpha\pm\beta)=\sin\alpha\cos\beta\pm\cos\alpha\sin\beta$$'),
-    (R'cosine', R'$$\cos(\alpha\pm\beta)=\cos\alpha\cos\beta\mp\sin\alpha\sin\beta$$'),
-    (R'tangent', R'$$\tan(\alpha\pm\beta)=\frac{\tan\alpha\pm\tan\beta}{1\mp\tan\alpha\tan\beta}$$'),
+    (R"sine", R"$$\sin(\alpha\pm\beta)=\sin\alpha\cos\beta\pm\cos\alpha\sin\beta$$"),
+    (R"cosine", R"$$\cos(\alpha\pm\beta)=\cos\alpha\cos\beta\mp\sin\alpha\sin\beta$$"),
+    (R"tangent", R"$$\tan(\alpha\pm\beta)=\frac{\tan\alpha\pm\tan\beta}{1\mp\tan\alpha\tan\beta}$$"),
   ),
 )
 ```
@@ -137,11 +137,11 @@ return await memorize_map(
 ```Python
 # pytextgen generate data
 return await memorize_map(
-  __env__.cwf_sects('b023', 'ab2d', None),
+  __env__.cwf_sects("b023", "ab2d", None),
   items_to_map(
-    (R'sine', R'$$\sin(2\theta)=2\sin\theta\cos\theta=(\sin\theta+\cos\theta)^2-1=\frac{2\tan\theta}{1+\tan^2\theta}$$'),
-    (R'cosine', R'$$\cos(2\theta)=\cos^2\theta-\sin^2\theta=2\cos^2\theta-1=1-2\sin^2\theta=\frac{1-\tan^2\theta}{1+\tan^2\theta}$$'),
-    (R'tangent', R'$$\tan(2\theta)=\frac{2\tan\theta}{1-\tan^2\theta}$$'),
+    (R"sine", R"$$\sin(2\theta)=2\sin\theta\cos\theta=(\sin\theta+\cos\theta)^2-1=\frac{2\tan\theta}{1+\tan^2\theta}$$"),
+    (R"cosine", R"$$\cos(2\theta)=\cos^2\theta-\sin^2\theta=2\cos^2\theta-1=1-2\sin^2\theta=\frac{1-\tan^2\theta}{1+\tan^2\theta}$$"),
+    (R"tangent", R"$$\tan(2\theta)=\frac{2\tan\theta}{1-\tan^2\theta}$$"),
   ),
 )
 ```
@@ -240,12 +240,12 @@ return await memorize_map(
 ```Python
 # pytextgen generate data
 return await memorize_map(
-  __env__.cwf_sects('dd91', '3213', None),
+  __env__.cwf_sects("dd91", "3213", None),
   items_to_map(
-    (R'sine cosine', R'$$\sin\theta\cos\varphi=\frac{\sin(\theta+\varphi)+\sin(\theta-\varphi)}2$$'),
-    (R'cosine sine', R'$$\cos\theta\sin\varphi=\frac{\sin(\theta+\varphi)-\sin(\theta-\varphi)}2$$'),
-    (R'sine sine', R'$$\sin\theta\sin\varphi=\frac{\cos(\theta-\varphi)-\cos(\theta+\varphi)}2$$'),
-    (R'cosine cosine', R'$$\cos\theta\cos\varphi=\frac{\cos(\theta-\varphi)+\cos(\theta+\varphi)}2$$'),
+    (R"sine cosine", R"$$\sin\theta\cos\varphi=\frac{\sin(\theta+\varphi)+\sin(\theta-\varphi)}2$$"),
+    (R"cosine sine", R"$$\cos\theta\sin\varphi=\frac{\sin(\theta+\varphi)-\sin(\theta-\varphi)}2$$"),
+    (R"sine sine", R"$$\sin\theta\sin\varphi=\frac{\cos(\theta-\varphi)-\cos(\theta+\varphi)}2$$"),
+    (R"cosine cosine", R"$$\cos\theta\cos\varphi=\frac{\cos(\theta-\varphi)+\cos(\theta+\varphi)}2$$"),
   ),
 )
 ```
@@ -280,12 +280,12 @@ return await memorize_map(
 ```Python
 # pytextgen generate data
 return await memorize_map(
-  __env__.cwf_sects('96fb', '39cd', None),
+  __env__.cwf_sects("96fb", "39cd", None),
   items_to_map(
-    (R'sine ± sine', R'$$\sin\theta\pm\sin\varphi=2\sin\left(\frac{\theta\pm\varphi}2\right)\cos\left(\frac{\theta\mp\varphi}2\right)$$'),
-    (R'cosine + cosine', R'$$\cos\theta+\cos\varphi=2\cos\left(\frac{\theta+\varphi}2\right)\cos\left(\frac{\theta-\varphi}2\right)$$'),
-    (R'cosine - cosine', R'$$\cos\theta-\cos\varphi=-2\sin\left(\frac{\theta+\varphi}2\right)\sin\left(\frac{\theta-\varphi}2\right)$$'),
-    (R'tangent ± tangent', R'$$\tan\theta\pm\tan\varphi=\frac{\sin(\theta\pm\varphi)}{\cos\theta\cos\varphi}$$'),
+    (R"sine ± sine", R"$$\sin\theta\pm\sin\varphi=2\sin\left(\frac{\theta\pm\varphi}2\right)\cos\left(\frac{\theta\mp\varphi}2\right)$$"),
+    (R"cosine + cosine", R"$$\cos\theta+\cos\varphi=2\cos\left(\frac{\theta+\varphi}2\right)\cos\left(\frac{\theta-\varphi}2\right)$$"),
+    (R"cosine - cosine", R"$$\cos\theta-\cos\varphi=-2\sin\left(\frac{\theta+\varphi}2\right)\sin\left(\frac{\theta-\varphi}2\right)$$"),
+    (R"tangent ± tangent", R"$$\tan\theta\pm\tan\varphi=\frac{\sin(\theta\pm\varphi)}{\cos\theta\cos\varphi}$$"),
   ),
 )
 ```
