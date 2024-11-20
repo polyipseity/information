@@ -29,7 +29,7 @@ else
   statement_block
 ```
 
-The semantics of `if...else` is also obvious: {@{If the condition is `true`, then the first statement block is executed. Otherwise, the second statement block is executed. Note that the condition itself is always executed.}@} <!--SR:!2024-11-20,207,310-->
+The semantics of `if...else` is also obvious: {@{If the condition is `true`, then the first statement block is executed. Otherwise, the second statement block is executed. Note that the condition itself is always executed.}@} <!--SR:!2027-04-27,888,330-->
 
 One can chain `if...else` by {@{using another `if...else` statement as the `else` statement}@}: <!--SR:!2025-03-11,312,330-->
 

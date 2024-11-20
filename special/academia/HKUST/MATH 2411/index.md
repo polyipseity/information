@@ -113,7 +113,7 @@ The content is in teaching order.
     - line chart / _R_ ::@:: use `plot(...)` <!--SR:!2024-12-03,70,310!2025-07-26,252,330-->
   - frequency table (quantitative) ::@:: Data is grouped into numerically ordered non-overlapping _categories_ or _class intervals_. Then a _summary table_ is drawn based on the grouped data. This condenses the data and allows for quicker data interpretation. <!--SR:!2025-04-19,154,290!2025-05-24,187,310-->
     - frequency table (quantitative) / procedure ::@:: Decide the number of class intervals (usually 5 to 20). Divide the data into that many intervals (usually covering the data range evenly). Adjust the class interval boundaries to avoid overlapping (as endpoints are inclusive). Construct the summary table. <!--SR:!2024-12-06,59,250!2025-04-05,161,310-->
-    - frequency table (quantitative) / table headers ::@:: class interval, class midpoint, frequency, relative frequency, ... <!--SR:!2024-11-20,62,310!2024-12-16,44,250-->
+    - frequency table (quantitative) / table headers ::@:: class interval, class midpoint, frequency, relative frequency, ... <!--SR:!2025-06-01,193,310!2024-12-16,44,250-->
   - histogram ::@:: A bar chart based on the frequency table. The x-axis labels the class intervals while the y-axis labels the frequency or density (relative frequency). <!--SR:!2024-12-02,69,310!2025-01-06,81,270-->
     - histogram / _R_ ::@:: use `hist(...)`, or `histogram(...)` after importing `library(lattice)` (different style) <!--SR:!2025-06-07,213,330!2025-06-10,216,330-->
 - [descriptive statistics](../../../../general/descriptive%20statistics.md)

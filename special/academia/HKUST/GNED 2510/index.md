@@ -95,7 +95,7 @@ The content is in teaching order.
 - datetime: 2023-10-11T17:00:00+08:00/2023-10-11T18:50:00+08:00
 - topic: Stress Management and Mindset Shift
 - stress ::@:: mental or emotional strain or tension <!--SR:!2025-04-14,151,310!2024-12-02,46,290-->
-  - stress identification ::@:: nervous, sweating, tired, trembling, weak, ... <!--SR:!2025-02-17,98,290!2024-11-20,41,290-->
+  - stress identification ::@:: nervous, sweating, tired, trembling, weak, ... <!--SR:!2025-02-17,98,290!2025-05-06,167,310-->
   - stress relieve ::@:: putting words on emotions, mindfulness, re-attribution, refocus, visualize, revalue, ... <!--SR:!2024-11-24,47,290!2024-11-24,45,290-->
 - SCARF ::@:: status, certainty, autonomy, relatedness, fairness <!--SR:!2024-11-29,52,310!2024-12-02,55,310-->
   - SCARF / status ::@:: relative importance to others and seniority <!--SR:!2024-12-01,54,310!2024-12-07,60,310-->
@@ -105,7 +105,7 @@ The content is in teaching order.
   - SCARF / autonomy ::@:: sense of control over events <!--SR:!2024-11-22,45,290!2024-12-02,55,310-->
     - increase autonomy ::@:: be flexible about choices, prepare, research salary ranges, talk permissions, ... <!--SR:!2024-12-25,69,310!2024-12-09,60,310-->
   - SCARF / relatedness ::@:: socially, ingroup or outgroup <!--SR:!2024-12-01,54,310!2024-12-01,54,310-->
-    - increase relatedness ::@:: create trust by non-verbal communication, firm handshake, discuss personal (but not too personal) things <!--SR:!2024-11-20,43,290!2024-12-09,60,310-->
+    - increase relatedness ::@:: create trust by non-verbal communication, firm handshake, discuss personal (but not too personal) things <!--SR:!2025-05-15,176,310!2024-12-09,60,310-->
   - SCARF / fairness ::@:: perception of fair exchanges with people <!--SR:!2024-11-25,48,310!2024-12-01,54,310-->
 
 ## week 7 tutorial

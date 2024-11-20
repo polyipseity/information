@@ -41,7 +41,7 @@ Probability sampling includes: {@{[simple random sampling](simple%20random%20sam
 
 - see: [nonprobability sampling](nonprobability%20sampling.md)
 
-__Nonprobability sampling__ is {@{any sampling method where some elements of the population have _no_ chance of selection (these are sometimes referred to as 'out of coverage'/'undercovered')}@}, or {@{where the probability of selection cannot be accurately determined}@}. It involves {@{the selection of elements based on assumptions regarding the population of interest, which forms the criteria for selection}@}. Hence, because {@{the selection of elements is nonrandom}@}, nonprobability sampling {@{does not allow the estimation of sampling errors}@}. These conditions give rise to {@{[exclusion bias](selection%20bias.md), placing limits on how much information a sample can provide about the population}@}. Information about {@{the relationship between sample and population is limited}@}, making it difficult to {@{extrapolate from the sample to the population}@}. <!--SR:!2025-04-25,173,310!2024-12-02,71,310!2025-05-23,186,310!2025-07-10,241,330!2025-04-18,172,310!2024-11-22,50,270!2024-11-20,62,310!2025-07-18,246,330-->
+__Nonprobability sampling__ is {@{any sampling method where some elements of the population have _no_ chance of selection (these are sometimes referred to as 'out of coverage'/'undercovered')}@}, or {@{where the probability of selection cannot be accurately determined}@}. It involves {@{the selection of elements based on assumptions regarding the population of interest, which forms the criteria for selection}@}. Hence, because {@{the selection of elements is nonrandom}@}, nonprobability sampling {@{does not allow the estimation of sampling errors}@}. These conditions give rise to {@{[exclusion bias](selection%20bias.md), placing limits on how much information a sample can provide about the population}@}. Information about {@{the relationship between sample and population is limited}@}, making it difficult to {@{extrapolate from the sample to the population}@}. <!--SR:!2025-04-25,173,310!2024-12-02,71,310!2025-05-23,186,310!2025-07-10,241,330!2025-04-18,172,310!2024-11-22,50,270!2025-08-17,270,330!2025-07-18,246,330-->
 
 > [!example] example
 >
@@ -69,7 +69,7 @@ Sampling errors and biases are {@{induced by the sample design}@}. They include 
 Non-sampling errors are other errors which can impact final survey estimates, caused by problems in data collection, processing, or sample design. Such errors may include {@{over-coverage, under-coverage, measurement error, processing error, participation bias, etc.}@}: <!--SR:!2025-01-29,106,290-->
 
 - over-coverage ::@:: inclusion of data from outside of the population <!--SR:!2024-12-01,70,310!2024-12-03,72,310-->
-- under-coverage ::@:: sampling frame does not include elements in the population <!--SR:!2025-05-17,193,310!2024-11-20,62,310-->
+- under-coverage ::@:: sampling frame does not include elements in the population <!--SR:!2025-05-17,193,310!2025-08-16,269,330-->
 - measurement error ::@:: e.g. when respondents misunderstand a question, or find it difficult to answer <!--SR:!2025-06-06,206,310!2024-11-29,68,310-->
 - processing error ::@:: mistakes in data coding <!--SR:!2024-11-24,63,310!2024-11-21,63,310-->
 - [non-response or participation bias](participation%20bias.md) ::@:: failure to obtain complete data from all selected individuals <!--SR:!2025-05-30,207,330!2025-08-03,259,330-->

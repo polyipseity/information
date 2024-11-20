@@ -15,7 +15,7 @@ In [continuum mechanics](continnum%20mechanics.md), __stress__ is {@{a [physical
 
 ### uniaxial normal
 
-Assume the system is {@{in equilibrium and not changing with time, and the weight can be neglected}@}. The stress {@{$\sigma$}@} for an {@{uniform straight rod across any horizontal cross section}@} can be represented by {@{a single number $\sigma$}@}, calculated with {@{the normal force $F$ divided by the cross sectional area $A$ it acts on}@}: {@{$$\sigma = \frac F A$$}@} <!--SR:!2025-10-22,390,310!2025-04-20,258,330!2026-02-17,472,310!2024-12-28,168,310!2025-03-26,239,330!2024-11-20,140,310-->
+Assume the system is {@{in equilibrium and not changing with time, and the weight can be neglected}@}. The stress {@{$\sigma$}@} for an {@{uniform straight rod across any horizontal cross section}@} can be represented by {@{a single number $\sigma$}@}, calculated with {@{the normal force $F$ divided by the cross sectional area $A$ it acts on}@}: {@{$$\sigma = \frac F A$$}@} <!--SR:!2025-10-22,390,310!2025-04-20,258,330!2026-02-17,472,310!2024-12-28,168,310!2025-03-26,239,330!2026-07-13,600,330-->
 
 Stress has units {@{N/m<sup>2</sup>}@}. <!--SR:!2025-02-27,213,310-->
 

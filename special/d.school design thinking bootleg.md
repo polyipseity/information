@@ -62,7 +62,7 @@ Define is {@{unpacking your findings from empathize into insights, and coming up
 
 ### ideate
 
-Ideate is {@{generating _radical_ design alternatives, going wild with your imagination}@}. While ideating, it is also important to curtail {@{bad behaviors, like evaluating ideas}@}. <!--SR:!2024-11-20,139,250!2024-11-20,172,310-->
+Ideate is {@{generating _radical_ design alternatives, going wild with your imagination}@}. While ideating, it is also important to curtail {@{bad behaviors, like evaluating ideas}@}. <!--SR:!2026-03-25,490,270!2026-12-01,741,330-->
 
 ### prototype
 

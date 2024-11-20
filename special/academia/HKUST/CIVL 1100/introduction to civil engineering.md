@@ -199,7 +199,7 @@ water and sewage treatment system
 - power plant→::@::←reservoir <!--SR:!2025-01-10,164,275!2025-03-20,147,300-->
 - reservoir→::@::←sewage treatment <!--SR:!2025-01-24,122,197!2025-03-13,189,261-->
 - sewage treatment→::@::←transport <!--SR:!2025-03-17,128,210!2024-12-13,152,301-->
-- transport→::@::←water and sewage treatment system <!--SR:!2026-02-13,465,340!2024-11-20,27,130-->
+- transport→::@::←water and sewage treatment system <!--SR:!2026-02-13,465,340!2024-12-24,34,130-->
 - water and sewage treatment system→::@::←_(end)_ <!--SR:!2025-12-24,482,401!2025-04-10,252,361-->
 
 <!--/pytextgen-->
@@ -541,7 +541,7 @@ wood
 - _(begin)_→::@::←brick <!--SR:!2025-03-11,233,357!2026-12-30,786,332-->
 - brick→::@::←concrete <!--SR:!2025-03-03,185,305!2026-02-28,548,397-->
 - concrete→::@::←new synthetic materials <!--SR:!2025-11-26,382,301!2024-12-07,161,341-->
-- new synthetic materials→::@::←steel <!--SR:!2024-11-20,155,332!2025-09-08,375,340-->
+- new synthetic materials→::@::←steel <!--SR:!2026-04-19,515,332!2025-09-08,375,340-->
 - steel→::@::←stone <!--SR:!2025-04-04,202,320!2024-12-03,159,340-->
 - stone→::@::←wood <!--SR:!2025-04-11,240,321!2025-09-06,361,332-->
 - wood→::@::←_(end)_ <!--SR:!2026-01-17,513,394!2025-01-05,144,360-->
@@ -846,7 +846,7 @@ Tsing Ma Bridge
 
 - _(begin)_→::@::←Akashi Kaikyo Bridge <!--SR:!2025-02-01,124,298!2025-05-27,320,377-->
 - Akashi Kaikyo Bridge→::@::←Hong Kong–Zhuhai–Macau Bridge <!--SR:!2025-06-20,300,327!2025-08-19,321,307-->
-- Hong Kong–Zhuhai–Macau Bridge→::@::←Stonecutters Bridge <!--SR:!2024-11-20,100,320!2025-01-08,149,300-->
+- Hong Kong–Zhuhai–Macau Bridge→::@::←Stonecutters Bridge <!--SR:!2025-10-05,319,320!2025-01-08,149,300-->
 - Stonecutters Bridge→::@::←Sutong Yangtze River Bridge <!--SR:!2025-12-19,437,337!2026-04-03,502,340-->
 - Sutong Yangtze River Bridge→::@::←Tsing Ma Bridge <!--SR:!2024-11-23,155,335!2025-06-09,282,307-->
 - Tsing Ma Bridge→::@::←_(end)_ <!--SR:!2025-05-31,301,364!2025-12-04,479,330-->

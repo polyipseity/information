@@ -134,11 +134,11 @@ root cause analysis, 5 whys
 
 - _(begin)_→::@::←4P: McCarthy's 4 Ps <!--SR:!2025-07-16,241,301!2025-08-02,327,341-->
 - 4P: McCarthy's 4 Ps→::@::←5-step persuasive selling <!--SR:!2025-02-21,155,261!2025-01-31,165,301-->
-- 5-step persuasive selling→::@::←5C: Chernev 5C framework <!--SR:!2025-01-03,144,301!2024-11-20,113,301-->
+- 5-step persuasive selling→::@::←5C: Chernev 5C framework <!--SR:!2025-01-03,144,301!2026-03-12,477,321-->
 - 5C: Chernev 5C framework→::@::←5F: Porter's 5 forces framework <!--SR:!2025-06-28,254,281!2025-01-07,146,301-->
 - 5F: Porter's 5 forces framework→::@::←7S: McKinsey 7S framework <!--SR:!2024-12-15,131,301!2025-03-23,206,321-->
 - 7S: McKinsey 7S framework→::@::←PESTLE: Aguilar's PESTLE framework <!--SR:!2025-03-02,111,261!2025-01-08,130,281-->
-- PESTLE: Aguilar's PESTLE framework→::@::←PPTG: people, process, technology, governance framework <!--SR:!2024-11-20,100,261!2025-03-30,181,281-->
+- PESTLE: Aguilar's PESTLE framework→::@::←PPTG: people, process, technology, governance framework <!--SR:!2025-08-13,266,261!2025-03-30,181,281-->
 - PPTG: people, process, technology, governance framework→::@::←blue ocean strategy <!--SR:!2024-12-27,137,301!2024-12-12,130,301-->
 - blue ocean strategy→::@::←interview note-taking in an 1-page memo <!--SR:!2025-07-02,257,281!2025-03-15,166,241-->
 - interview note-taking in an 1-page memo→::@::←profitability framework <!--SR:!2025-02-21,163,261!2024-11-22,90,221-->

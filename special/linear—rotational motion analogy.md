@@ -18,7 +18,7 @@ tags:
 4. [momentum ($\vec{p}$)](../general/momentum.md)::@::[angular momentum ($\vec{L}$)](../general/angular%20momentum.md) <!--SR:!2024-12-12,291,330!2028-03-01,1208,350-->
 5. [force ($\vec{F}$)](../general/force.md)::@::[torque ($\vec{\tau}$, $\vec{M}$)](../general/torque.md) <!--SR:!2027-08-12,1050,350!2024-12-11,290,330-->
 6. [impulse ($\vec{J}$)](../general/impulse%20(physics).md)::@::[angular impulse (none)](../general/angular%20momentum.md) <!--SR:!2025-01-12,286,342!2025-04-16,380,362-->
-7. [mass ($m$)](../general/mass.md)::@::[moment of inertia ($I$)](../general/moment%20of%20inertia.md) <!--SR:!2024-11-20,274,330!2027-05-29,991,350-->
+7. [mass ($m$)](../general/mass.md)::@::[moment of inertia ($I$)](../general/moment%20of%20inertia.md) <!--SR:!2028-04-21,1248,350!2027-05-29,991,350-->
 8. [translational energy ($E_t$)](../general/kinetic%20energy.md)::@::[rotational energy ($E_r$)](../general/rotational%20energy.md) <!--SR:!2028-01-11,1175,350!2024-11-26,278,330-->
 
 > [!tip] tips

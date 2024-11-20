@@ -114,7 +114,7 @@ vagueness: vague jobs, pains, and gains
 - insufficiency: not enough jobs, pains, and gains→::@::←mix: mixing customer segments <!--SR:!2025-05-13,182,189!2024-11-25,8,130-->
 - mix: mixing customer segments→::@::←mix: mixing jobs and outcomes <!--SR:!2025-08-19,323,289!2025-01-03,78,249-->
 - mix: mixing jobs and outcomes→::@::←opposite: gains and pains are not opposite, gains are beyond expectation while pains are falling short of expectation <!--SR:!2025-02-01,100,225!2025-05-29,247,285-->
-- opposite: gains and pains are not opposite, gains are beyond expectation while pains are falling short of expectation→::@::←reversed: listing jobs, pains, and gains from your product value propositions <!--SR:!2025-01-17,174,269!2024-11-20,34,189-->
+- opposite: gains and pains are not opposite, gains are beyond expectation while pains are falling short of expectation→::@::←reversed: listing jobs, pains, and gains from your product value propositions <!--SR:!2025-01-17,174,269!2025-01-22,63,189-->
 - reversed: listing jobs, pains, and gains from your product value propositions→::@::←vagueness: vague jobs, pains, and gains <!--SR:!2025-03-18,122,169!2025-04-08,154,229-->
 - vagueness: vague jobs, pains, and gains→::@::←_(end)_ <!--SR:!2025-03-14,236,329!2025-04-19,242,289-->
 
@@ -124,7 +124,7 @@ vagueness: vague jobs, pains, and gains
 
 Products and services is {@{simply a list of what you offer}@}, and can also include {@{supporting products and services}@}. It can be {@{physical, intangible, digital, or financial}@}. It is important to recognize products and services do not {@{create value by themselves (no intrinsic values), but in relationship with the customer segment}@}. Note that products and services {@{can have different relevance to your customers}@}. <!--SR:!2025-01-24,209,310!2025-03-28,239,309!2025-06-27,276,269!2025-03-14,220,270!2026-06-29,611,329-->
 
-Pain relievers describe {@{how the products or services alleviate customer pains}@}. There is no need to {@{alleviate every identified pain}@}, and instead {@{it is better to alleviate some extreme pains extremely well}@}. Like products and services, pain relievers {@{can have different relevance to your customers}@}. <!--SR:!2025-01-12,207,329!2026-08-09,632,329!2025-05-28,285,290!2024-11-20,162,310-->
+Pain relievers describe {@{how the products or services alleviate customer pains}@}. There is no need to {@{alleviate every identified pain}@}, and instead {@{it is better to alleviate some extreme pains extremely well}@}. Like products and services, pain relievers {@{can have different relevance to your customers}@}. <!--SR:!2025-01-12,207,329!2026-08-09,632,329!2025-05-28,285,290!2026-04-06,502,310-->
 
 Gain creators describe {@{how the products or services create customer gains}@}. There is also no need to {@{create every identified gain}@}, and instead {@{it is better to create some relevant gains extremely well}@}. Like products and services, gain creators {@{can have different relevance to your customers}@}. <!--SR:!2025-06-12,326,349!2025-01-19,200,329!2026-08-29,658,329!2024-12-15,166,309-->
 

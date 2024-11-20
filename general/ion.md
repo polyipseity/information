@@ -493,7 +493,7 @@ return chain.from_iterable(await gather(
 - <span style="color: darkViolet; background-color: white;">deep purple</span>:@:permanganate ion <!--SR:!2028-06-21,1515,381-->
 - <span style="color: yellow; background-color: black;">yellow</span>:@:chromate ion <!--SR:!2026-10-30,1008,361-->
 - <span style="color: orange;">orange</span>:@:dichromate ion <!--SR:!2029-03-08,1723,381-->
-- <span style="color: green;">green</span>:@:manganate ion <!--SR:!2024-11-20,95,222-->
+- <span style="color: green;">green</span>:@:manganate ion <!--SR:!2025-06-23,215,222-->
 
 <!--/pytextgen-->
 

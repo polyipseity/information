@@ -62,7 +62,7 @@ m^*(B) := \inf_{S \supseteq B} m(S)
 >
 > {@{squeezing a bounded set by simple sets}@} <!--SR:!2027-01-15,810,330!2025-03-22,310,363-->
 
-If the inner Jordan measure equals the outer Jordan measure, then {@{$B$ is said to be _Jordan measurable_ and its _Jordan measure_ is simply the common value of the inner and outer Jordan measures}@}. Then the _Jordan measure_ is {@{the [set function](set%20function.md) that maps Jordan measurable sets to their Jordan measures}@}. <!--SR:!2024-11-20,222,330!2026-09-25,724,330-->
+If the inner Jordan measure equals the outer Jordan measure, then {@{$B$ is said to be _Jordan measurable_ and its _Jordan measure_ is simply the common value of the inner and outer Jordan measures}@}. Then the _Jordan measure_ is {@{the [set function](set%20function.md) that maps Jordan measurable sets to their Jordan measures}@}. <!--SR:!2027-08-27,1010,350!2026-09-25,724,330-->
 
 ## references
 

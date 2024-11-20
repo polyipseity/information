@@ -72,7 +72,7 @@ For the generalisations, _n_ and _m_ can be {@{any value > 0, and they may be th
 
 ## mathematical theory
 
-Normal-play nim (or more precisely {@{the system of [nimbers](nimber.md)}@}) is {@{fundamental to the [Sprague–Grundy theorem](Sprague–Grundy%20theorem.md)}@}, which {@{essentially says that in normal play every [impartial game](impartial%20game.md) is equivalent to a nim heap that yields the same outcome}@} when {@{played in parallel with other normal play impartial games (see [disjunctive sum](disjunctive%20sum.md))}@}. <!--SR:!2025-01-11,70,321!2025-01-08,67,310!2024-11-28,33,301!2024-11-20,25,281-->
+Normal-play nim (or more precisely {@{the system of [nimbers](nimber.md)}@}) is {@{fundamental to the [Sprague–Grundy theorem](Sprague–Grundy%20theorem.md)}@}, which {@{essentially says that in normal play every [impartial game](impartial%20game.md) is equivalent to a nim heap that yields the same outcome}@} when {@{played in parallel with other normal play impartial games (see [disjunctive sum](disjunctive%20sum.md))}@}. <!--SR:!2025-01-11,70,321!2025-01-08,67,310!2024-11-28,33,301!2025-01-31,72,281-->
 
 While {@{all normal-play impartial games can be assigned a nim value}@}, that is {@{not the case under the misère convention}@}. {@{Only [tame games](genus%20theory.md#tame)}@} can be played using the same strategy as misère nim. <!--SR:!2025-01-08,67,321!2024-11-28,33,301!2024-11-28,33,301-->
 
@@ -139,7 +139,7 @@ __Theorem__. ::@:: In a normal nim game, the player making the first move has a 
 
 _Proof:_ Notice that {@{the nim-sum (⊕) obeys the usual [associative](associative%20property.md) and [commutative](commutative%20property.md) laws of addition (+) and also satisfies an additional property, _x_ ⊕ _x_ = 0}@}. <!--SR:!2025-01-08,67,310-->
 
-Let {@{_x_<sub>1</sub>, ..., _x<sub>n</sub>_ be the sizes of the heaps before a move, and _y_<sub>1</sub>, ..., _y<sub>n</sub>_ the corresponding sizes after a move}@}. Let {@{_s_ = _x_<sub>1</sub> ⊕ ... ⊕ _x<sub>n</sub>_ and _t_ = _y_<sub>1</sub> ⊕ ... ⊕ _y<sub>n</sub>_}@}. If {@{the move was in heap _k_}@}, we have {@{_x<sub>i</sub>_ = _y<sub>i</sub>_ for all _i_ ≠ _k_, and _x<sub>k</sub>_ > _y<sub>k</sub>_}@}. By the properties of ⊕ mentioned above, we have {@{$${\begin{aligned}t&=0\oplus t\\&=s\oplus s\oplus t\\&=s\oplus (x_{1}\oplus \cdots \oplus x_{n})\oplus (y_{1}\oplus \cdots \oplus y_{n})\\&=s\oplus (x_{1}\oplus y_{1})\oplus \cdots \oplus (x_{n}\oplus y_{n})\\&=s\oplus 0\oplus \cdots \oplus 0\oplus (x_{k}\oplus y_{k})\oplus 0\oplus \cdots \oplus 0\\&=s\oplus x_{k}\oplus y_{k}\\[10pt](*)\quad t&=s\oplus x_{k}\oplus y_{k}\end{aligned} }$$}@} <!--SR:!2025-01-08,67,321!2025-01-08,67,321!2025-01-11,70,321!2024-11-20,25,270!2025-01-21,78,321-->
+Let {@{_x_<sub>1</sub>, ..., _x<sub>n</sub>_ be the sizes of the heaps before a move, and _y_<sub>1</sub>, ..., _y<sub>n</sub>_ the corresponding sizes after a move}@}. Let {@{_s_ = _x_<sub>1</sub> ⊕ ... ⊕ _x<sub>n</sub>_ and _t_ = _y_<sub>1</sub> ⊕ ... ⊕ _y<sub>n</sub>_}@}. If {@{the move was in heap _k_}@}, we have {@{_x<sub>i</sub>_ = _y<sub>i</sub>_ for all _i_ ≠ _k_, and _x<sub>k</sub>_ > _y<sub>k</sub>_}@}. By the properties of ⊕ mentioned above, we have {@{$${\begin{aligned}t&=0\oplus t\\&=s\oplus s\oplus t\\&=s\oplus (x_{1}\oplus \cdots \oplus x_{n})\oplus (y_{1}\oplus \cdots \oplus y_{n})\\&=s\oplus (x_{1}\oplus y_{1})\oplus \cdots \oplus (x_{n}\oplus y_{n})\\&=s\oplus 0\oplus \cdots \oplus 0\oplus (x_{k}\oplus y_{k})\oplus 0\oplus \cdots \oplus 0\\&=s\oplus x_{k}\oplus y_{k}\\[10pt](*)\quad t&=s\oplus x_{k}\oplus y_{k}\end{aligned} }$$}@} <!--SR:!2025-01-08,67,321!2025-01-08,67,321!2025-01-11,70,321!2025-02-25,97,290!2025-01-21,78,321-->
 
 The theorem follows by {@{induction on the length of the game from these two lemmas}@}. <!--SR:!2025-01-08,67,321-->
 
@@ -162,9 +162,9 @@ In another game which is commonly known as {@{nim (but is better called the [sub
 Bouton's analysis {@{carries over easily to the general multiple-heap version of this game}@}. The only difference is that {@{as a first step, before computing the nim-sums}@} we {@{must reduce the sizes of the heaps [modulo](modular%20arithmetic.md) _k_ + 1}@}. If {@{this makes all the heaps of size zero (in misère play)}@}, the winning move is {@{to take _k_ objects from one of the heaps}@}. In particular, in {@{ideal play from a single heap of _n_ objects}@}, the second player can win [if and only if](if%20and%20only%20if.md) <!--SR:!2025-01-20,77,321!2025-01-20,77,321!2024-11-21,27,270!2024-11-25,30,290!2025-02-12,87,281!2025-01-21,78,321-->
 
 - 0 = _n_ (mod _k_ + 1) ::@:: (in normal play), or <!--SR:!2024-11-25,30,290!2025-01-11,70,321-->
-- 1 = _n_ (mod _k_ + 1) ::@:: (in misère play). <!--SR:!2025-01-18,75,321!2024-11-20,25,281-->
+- 1 = _n_ (mod _k_ + 1) ::@:: (in misère play). <!--SR:!2025-01-18,75,321!2025-03-01,101,301-->
 
-This follows from {@{calculating the [nim-sequence](Sprague–Grundy%20theorem.md) of _S_(1, 2, ..., _k_), $$0.123\ldots k0123\ldots k0123\ldots ={\dot {0} }.123\ldots {\dot {k} },$$}@} <!--SR:!2024-11-20,25,281-->
+This follows from {@{calculating the [nim-sequence](Sprague–Grundy%20theorem.md) of _S_(1, 2, ..., _k_), $$0.123\ldots k0123\ldots k0123\ldots ={\dot {0} }.123\ldots {\dot {k} },$$}@} <!--SR:!2025-02-26,98,301-->
 
 from which the strategy above follows by {@{the [Sprague–Grundy theorem](Sprague–Grundy%20theorem.md)}@}. <!--SR:!2025-01-08,67,321-->
 
@@ -234,7 +234,7 @@ but then three objects cannot be taken out in one move.
 
 ### Grundy's game
 
-In [Grundy's game](Grundy's%20game.md), another variation of nim, a number of objects are {@{placed in an initial heap and two players alternately divide a heap into two nonempty heaps of different sizes}@}. Thus, six objects may be {@{divided into piles of 5+1 or 4+2, but not 3+3}@}. Grundy's game can be played as {@{either misère or normal play}@}. <!--SR:!2024-11-20,25,281!2025-01-21,78,321!2025-01-08,67,321-->
+In [Grundy's game](Grundy's%20game.md), another variation of nim, a number of objects are {@{placed in an initial heap and two players alternately divide a heap into two nonempty heaps of different sizes}@}. Thus, six objects may be {@{divided into piles of 5+1 or 4+2, but not 3+3}@}. Grundy's game can be played as {@{either misère or normal play}@}. <!--SR:!2025-02-28,100,301!2025-01-21,78,321!2025-01-08,67,321-->
 
 ### greedy nim
 
@@ -253,7 +253,7 @@ A generalization of multi-heap nim was called {@{"nim<!-- LaTeX separator -->${}
 
 The winning strategy is as follows: Like in ordinary multi-heap nim, one {@{considers the binary representation of the heap sizes (or heap sizes modulo _r_ + 1)}@}. In ordinary nim {@{one forms the XOR-sum (or sum modulo 2) of each binary digit, and the winning strategy is to make each XOR sum zero}@}. In the generalization to index-_k_ nim, {@{one forms the sum of each binary digit modulo _k_ + 1}@}. <!--SR:!2025-01-19,63,261!2024-11-25,30,290!2024-11-28,33,301-->
 
-Again, the winning strategy is {@{to move such that this sum is zero for every digit}@}. Indeed, the value thus computed is {@{zero for the final position}@}, and given {@{a configuration of heaps for which this value is zero}@}, {@{any change of at most _k_ heaps will make the value non-zero}@}. Conversely, given {@{a configuration with non-zero value}@}, one can {@{always take from at most _k_ heaps, carefully chosen, so that the value will become zero}@}. <!--SR:!2025-01-08,67,321!2025-01-08,67,321!2025-01-08,67,321!2025-01-11,70,321!2025-01-20,77,321!2024-11-20,25,270-->
+Again, the winning strategy is {@{to move such that this sum is zero for every digit}@}. Indeed, the value thus computed is {@{zero for the final position}@}, and given {@{a configuration of heaps for which this value is zero}@}, {@{any change of at most _k_ heaps will make the value non-zero}@}. Conversely, given {@{a configuration with non-zero value}@}, one can {@{always take from at most _k_ heaps, carefully chosen, so that the value will become zero}@}. <!--SR:!2025-01-08,67,321!2025-01-08,67,321!2025-01-08,67,321!2025-01-11,70,321!2025-01-20,77,321!2025-02-25,97,290-->
 
 ### building nim
 

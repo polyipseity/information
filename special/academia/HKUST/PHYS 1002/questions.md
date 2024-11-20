@@ -288,7 +288,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 4. blue in color
 >
 > - solution: {@{2}@}
-> - explanation: {@{Consider the graph of spectral radiance for that star, which peaks at 530 nm. It should look like a hill with somewhat narrow peak. However, the narrow peak should cover the entire visible spectrum. As the spectral radiance is approximately even around the peak, that means it is approximately even over the entire visible spectrum, so the color is white.}@} <!--SR:!2024-11-20,83,308!2025-04-24,212,348-->
+> - explanation: {@{Consider the graph of spectral radiance for that star, which peaks at 530 nm. It should look like a hill with somewhat narrow peak. However, the narrow peak should cover the entire visible spectrum. As the spectral radiance is approximately even around the peak, that means it is approximately even over the entire visible spectrum, so the color is white.}@} <!--SR:!2025-11-09,354,328!2025-04-24,212,348-->
 
 <!-- markdownlint MD028 -->
 
@@ -427,7 +427,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 5. All of these stars take the same time to get to the main sequence
 >
 > - solution: {@{4}@}
-> - explanation: {@{A fundamental feature of stellar evolution is that the greater the mass, the faster the evolution.}@} <!--SR:!2025-12-03,391,381!2024-11-20,90,361-->
+> - explanation: {@{A fundamental feature of stellar evolution is that the greater the mass, the faster the evolution.}@} <!--SR:!2025-12-03,391,381!2026-02-11,448,381-->
 
 <!-- markdownlint MD028 -->
 
@@ -575,7 +575,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 5. 27 Gpc
 >
 > - solution: {@{4}@}
-> - explanation: {@{70% the speed of light (~300&nbsp;000 km/s) is approximately 210&nbsp;000 km/s. Divide this by the Hubble's constant: $$\frac {210\,000~\mathrm{km/s} } {64~\mathrm{(km/s)/Mpc} } = 3281.25~\mathrm{Mpc} = 3.28125~\mathrm{Gpc}$$. So the answer is 3.3 Gpc.}@} <!--SR:!2024-11-20,70,355!2025-02-13,126,335-->
+> - explanation: {@{70% the speed of light (~300&nbsp;000 km/s) is approximately 210&nbsp;000 km/s. Divide this by the Hubble's constant: $$\frac {210\,000~\mathrm{km/s} } {64~\mathrm{(km/s)/Mpc} } = 3281.25~\mathrm{Mpc} = 3.28125~\mathrm{Gpc}$$. So the answer is 3.3 Gpc.}@} <!--SR:!2025-07-26,248,355!2025-02-13,126,335-->
 
 <!-- markdownlint MD028 -->
 
