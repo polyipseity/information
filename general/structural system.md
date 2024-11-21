@@ -22,7 +22,7 @@ The structural system of a building only {@{consists of members designed to carr
 
 The structural system of a high-rise building should support {@{vertical loads such as gravity and foundation settlement, and also lateral loads such as earthquake, wind}@}. The latter, {@{lateral loads, are especially important for tall buildings}@}. Otherwise, tall buildings may {@{slide (horizontal translation) or overturn (rotation about the base)}@}. Generally the higher up, {@{the larger the load}@}. <!--SR:!2025-05-19,259,290!2024-11-26,131,295!2025-01-15,183,315!2025-03-04,204,310-->
 
-Hence, foundation-wise, low-rise buildings are {@{supported by shallow foundations (footings)}@}, while high-rise buildings are {@{supported by deep foundations (pipes), which may even reach the bedrock}@}. <!--SR:!2025-02-07,195,315!2024-11-21,126,295-->
+Hence, foundation-wise, low-rise buildings are {@{supported by shallow foundations (footings)}@}, while high-rise buildings are {@{supported by deep foundations (pipes), which may even reach the bedrock}@}. <!--SR:!2025-02-07,195,315!2026-04-25,520,315-->
 
 The structural system affects {@{the load distribution}@}. For example, a {@{structural steel undergoing overturning due to wind}@} would experience {@{tension at the wind-facing side and compression on the other side}@}. A {@{reinforced concrete (concrete with steel bars)}@} would experience the same thing, but {@{steel bars bear most of the tension while concrete bears most of the compression and the heavy vertical loading}@}. <!--SR:!2025-02-05,188,315!2024-12-04,135,295!2025-06-07,297,335!2024-11-26,134,295!2025-05-10,230,275-->
 
@@ -116,7 +116,7 @@ return await memorize_seq(
 <!--pytextgen generate section="7123"--><!-- The following content is generated at 2024-05-14T21:11:05.350734+08:00. Any edits will be overridden! -->
 
 - _(begin)_→::@::←[buttress](buttress.md) <!--SR:!2025-01-16,181,315!2025-03-18,216,315-->
-- [buttress](buttress.md)→::@::←[diagrid](diagrid.md) <!--SR:!2024-11-21,95,235!2025-01-12,130,315-->
+- [buttress](buttress.md)→::@::←[diagrid](diagrid.md) <!--SR:!2025-07-03,224,235!2025-01-12,130,315-->
 - [diagrid](diagrid.md)→::@::←[exoskeleton](exoskeleton.md) <!--SR:!2025-04-14,215,275!2025-07-19,242,295-->
 - [exoskeleton](exoskeleton.md)→::@::←[space truss](space%20frame.md) <!--SR:!2025-01-03,142,255!2025-04-12,159,235-->
 - [space truss](space%20frame.md)→::@::←[superframe](superframe.md) <!--SR:!2024-12-17,143,295!2025-05-07,216,275-->

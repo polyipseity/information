@@ -47,7 +47,7 @@ __Nonprobability sampling__ is {@{any sampling method where some elements of the
 >
 > We visit every household in a given street, and interview the first person to answer the door. In any household with more than one occupant, this is {@{a nonprobability sample}@}, because {@{some people are more likely to answer the door (e.g. an unemployed person who spends most of their time at home is more likely to answer than an employed housemate who might be at work when the interviewer calls)}@} and {@{it's not practical to calculate these probabilities}@}. <!--SR:!2024-11-29,68,310!2025-05-09,188,310!2025-04-20,173,310-->
 
-Nonprobability sampling methods include {@{[convenience sampling](convenience%20sampling.md), [quota sampling](quota%20sampling.md), and [purposive sampling](nonprobability%20sampling.md)}@}. In addition, nonresponse effects {@{may turn _any_ probability design into a nonprobability design if the characteristics of nonresponse are not well understood}@}, since {@{nonresponse effectively modifies each element's probability of being sampled}@}. <!--SR:!2024-11-26,65,310!2025-01-17,90,270!2024-11-21,60,310-->
+Nonprobability sampling methods include {@{[convenience sampling](convenience%20sampling.md), [quota sampling](quota%20sampling.md), and [purposive sampling](nonprobability%20sampling.md)}@}. In addition, nonresponse effects {@{may turn _any_ probability design into a nonprobability design if the characteristics of nonresponse are not well understood}@}, since {@{nonresponse effectively modifies each element's probability of being sampled}@}. <!--SR:!2024-11-26,65,310!2025-01-17,90,270!2025-08-10,262,330-->
 
 ## errors in sample surveys
 
@@ -71,7 +71,7 @@ Non-sampling errors are other errors which can impact final survey estimates, ca
 - over-coverage ::@:: inclusion of data from outside of the population <!--SR:!2024-12-01,70,310!2024-12-03,72,310-->
 - under-coverage ::@:: sampling frame does not include elements in the population <!--SR:!2025-05-17,193,310!2025-08-16,269,330-->
 - measurement error ::@:: e.g. when respondents misunderstand a question, or find it difficult to answer <!--SR:!2025-06-06,206,310!2024-11-29,68,310-->
-- processing error ::@:: mistakes in data coding <!--SR:!2024-11-24,63,310!2024-11-21,63,310-->
+- processing error ::@:: mistakes in data coding <!--SR:!2024-11-24,63,310!2025-08-18,270,330-->
 - [non-response or participation bias](participation%20bias.md) ::@:: failure to obtain complete data from all selected individuals <!--SR:!2025-05-30,207,330!2025-08-03,259,330-->
 
 After sampling, {@{a review is held of the exact process followed in sampling, rather than that intended}@}, in order to {@{study any effects that any divergences might have on subsequent analysis}@}. <!--SR:!2025-03-29,140,290!2024-11-22,61,310-->
@@ -79,7 +79,7 @@ After sampling, {@{a review is held of the exact process followed in sampling, r
 A particular problem involves {@{_non-response_}@}. Two major types of non-response exist: {@{unit non-response and item non-response}@}. <!--SR:!2024-11-28,67,310!2024-11-23,62,310-->
 
 - unit non-response ::@:: lack of completion of any part of the survey <!--SR:!2025-07-14,243,330!2024-11-27,66,310-->
-- item non-response ::@:: submission or participation in survey but failing to complete one or more components/questions of the survey <!--SR:!2025-04-11,166,310!2024-11-21,63,310-->
+- item non-response ::@:: submission or participation in survey but failing to complete one or more components/questions of the survey <!--SR:!2025-04-11,166,310!2025-08-24,276,330-->
 
 In [survey sampling](survey%20sampling.md), many of the individuals identified as part of the sample {@{may be unwilling to participate, not have the time to participate ([opportunity cost](opportunity%20cost.md)), or survey administrators may not have been able to contact them}@}. In this case, there is {@{a risk of differences between respondents and nonrespondents, leading to biased estimates of population parameters}@}. This is often addressed by {@{improving survey design, offering incentives, and conducting follow-up studies which make a repeated attempt to contact the unresponsive and to characterize their similarities and differences with the rest of the frame}@}. The effects can also be mitigated by {@{weighting the data (when population benchmarks are available) or by imputing data based on answers to other questions}@}. Non-response is {@{particularly a problem in internet sampling}@}. Reasons for this problem may include {@{improperly designed surveys, over-surveying (or survey fatigue), and the fact that potential participants may have multiple e-mail addresses, which they do not use anymore or do not check regularly}@}. <!--SR:!2024-12-04,73,310!2025-01-18,92,270!2024-12-22,73,270!2024-11-25,64,310!2025-06-23,226,330!2024-11-24,63,310-->
 

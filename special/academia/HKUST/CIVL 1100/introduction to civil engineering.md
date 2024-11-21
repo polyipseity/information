@@ -54,7 +54,7 @@ The content is in teaching order.
 - structural engineering ::@:: analysis, design, and planning of structures to resist various loading and natural disasters <!--SR:!2026-05-20,589,360!2024-12-22,188,347-->
   - [structural engineering examples](#structural%20engineering%20examples)
   - [natural disasters examples](#natural%20disaster%20examples)
-  - structural engineering goals ::@:: safety: no collapse without warning, serviceability: deformation does not disrupt use <!--SR:!2024-11-21,133,292!2025-06-28,368,350-->
+  - structural engineering goals ::@:: safety: no collapse without warning, serviceability: deformation does not disrupt use <!--SR:!2025-12-21,395,292!2025-06-28,368,350-->
   - construction material factors ::@:: depends on availability, cost, project nature <!--SR:!2025-10-24,426,357!2025-02-05,212,355-->
     - [construction material examples](#construction%20material%20examples)
       - [reinforced concrete structure examples](#reinforced%20concrete%20structure%20examples)
@@ -359,7 +359,7 @@ transportation
 - _(begin)_→::@::←construction <!--SR:!2025-01-13,207,355!2027-02-18,827,395-->
 - construction→::@::←environmental <!--SR:!2025-07-26,325,340!2025-12-22,480,400-->
 - environmental→::@::←geo-technical <!--SR:!2025-11-28,416,327!2025-01-07,205,345-->
-- geo-technical→::@::←hydraulic <!--SR:!2024-11-21,149,340!2024-12-23,112,340-->
+- geo-technical→::@::←hydraulic <!--SR:!2026-04-13,508,340!2024-12-23,112,340-->
 - hydraulic→::@::←material <!--SR:!2026-04-12,556,360!2026-02-13,471,340-->
 - material→::@::←structural <!--SR:!2025-02-07,130,297!2025-01-26,167,260-->
 - structural→::@::←transportation <!--SR:!2024-12-22,171,340!2024-12-03,160,327-->

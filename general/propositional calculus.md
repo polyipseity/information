@@ -22,7 +22,7 @@ Propositional logic is typically studied with {@{a [formal language](formal%20la
 > - [equivalent](logical%20biconditional.md) ::@:: $A\equiv B$, $A\Leftrightarrow B$, $A\leftrightharpoons B$ <!--SR:!2024-11-22,55,310!2024-12-12,72,310-->
 > - [implies](material%20conditional.md) ::@:: $A\Rightarrow B$, $A\supset B$, $A\rightarrow B$ <!--SR:!2024-12-13,73,310!2025-07-04,226,330-->
 > - [NAND](sheffer%20stroke.md) ::@:: $A{\overline {\land } }B$, $A\mid B$, ${\overline {A\cdot B} }$ <!--SR:!2025-02-04,107,290!2025-04-12,162,310-->
-> - nonequivalent ::@:: $A\not \equiv B$, $A\not \Leftrightarrow B$, $A\nleftrightarrow B$ <!--SR:!2024-12-02,63,310!2024-11-21,54,310-->
+> - nonequivalent ::@:: $A\not \equiv B$, $A\not \Leftrightarrow B$, $A\nleftrightarrow B$ <!--SR:!2024-12-02,63,310!2025-07-10,231,330-->
 > - [NOR](Logical%20NOR.md) ::@:: $A{\overline {\lor } }B$, $A\downarrow B$, ${\overline {A+B} }$ <!--SR:!2024-12-20,73,290!2025-02-28,124,290-->
 > - [NOT](negation.md) ::@:: $\neg A$, $-A$, ${\overline {A} }$, $\sim A$ <!--SR:!2025-06-08,206,330!2025-06-17,214,330-->
 > - [OR](logical%20disjunction.md) ::@:: $A\lor B$, $A+B$, $A\mid B$, $A\parallel B$ <!--SR:!2025-07-04,228,330!2024-12-08,68,310-->

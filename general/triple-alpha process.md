@@ -22,14 +22,14 @@ Nuclear fusion reaction of two helium-4 nuclei {@{produces [beryllium-8](berylli
 
 - 1st step ::@:: $${}_2^4\mathrm{He} + {}_2^4\mathrm{He} \rightarrow {}_4^8\mathrm{Be} \quad (-0.0918\mathrm{\ MeV})$$ <!--SR:!2025-01-24,120,290!2025-02-04,81,290-->
   - 1st step / energy release ::@:: -0.0918 MeV <!--SR:!2024-12-08,83,270!2025-02-04,127,290-->
-- 2nd step ::@:: $${}_4^8\mathrm{Be} + {}_2^4\mathrm{He} \rightarrow {}_{\phantom{0}6}^{12}\mathrm{C} + 2 \gamma \quad (+7.367\mathrm{\ MeV})$$ <!--SR:!2024-11-21,10,150!2024-12-31,110,290-->
+- 2nd step ::@:: $${}_4^8\mathrm{Be} + {}_2^4\mathrm{He} \rightarrow {}_{\phantom{0}6}^{12}\mathrm{C} + 2 \gamma \quad (+7.367\mathrm{\ MeV})$$ <!--SR:!2024-12-07,16,150!2024-12-31,110,290-->
   - 2nd step / energy release ::@:: +7.367 MeV <!--SR:!2024-12-14,48,230!2025-03-01,124,250-->
 
 The net energy release of the process is {@{7.275 MeV}@}. <!--SR:!2025-01-15,108,270-->
 
 As a side effect of the process, {@{some carbon nuclei fuse with additional helium to produce a stable isotope of oxygen and energy (in the form of 1 gamma ray)}@} when {@{the temperature rises above 2×10<sup>8</sup> K}@}, called {@{[_alpha capture_](alpha%20process.md)}@}: <!--SR:!2025-01-04,103,290!2025-03-17,117,310!2025-03-31,179,310-->
 
-1. [alpha capture](alpha%20process.md) ::@:: $${}_{\phantom{0}6}^{12}\mathrm{C} + {}_2^4\mathrm{He} \rightarrow {}_{\phantom{0}8}^{16}\mathrm{O} + \gamma \quad (+7.162\mathrm{\ MeV})$$ <!--SR:!2024-12-28,66,210!2024-11-21,7,230-->
+1. [alpha capture](alpha%20process.md) ::@:: $${}_{\phantom{0}6}^{12}\mathrm{C} + {}_2^4\mathrm{He} \rightarrow {}_{\phantom{0}8}^{16}\mathrm{O} + \gamma \quad (+7.162\mathrm{\ MeV})$$ <!--SR:!2024-12-28,66,210!2024-12-08,17,230-->
     - [alpha capture](alpha%20process.md) / energy release ::@:: +7.162 MeV <!--SR:!2024-12-04,26,170!2024-12-08,84,270-->
 
 Nuclear fusion reactions of {@{helium with hydrogen produces [lithium-5](isotopes%20of%20lithium.md#lithium-5)}@}, which also is {@{highly unstable, and decays back into smaller nuclei with a half-life of 3.7×10<sup>−22</sup> s}@}. <!--SR:!2025-01-22,117,290!2024-11-26,22,170-->

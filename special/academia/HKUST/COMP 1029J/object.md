@@ -19,7 +19,7 @@ In Java, {@{everything except for primitive types}@} are objects. Primitive type
 
 ## equality
 
-Comparing equality of objects uses {@{`equals` in most cases. Non-objects always use `==`}@}. <!--SR:!2024-11-21,224,330-->
+Comparing equality of objects uses {@{`equals` in most cases. Non-objects always use `==`}@}. <!--SR:!2027-09-06,1019,350-->
 
 This explains why `equals` is used instead of `==` for `String`s in [string § equality](string.md#equality).
 

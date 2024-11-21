@@ -217,7 +217,7 @@ personal assistance
 <!--pytextgen generate section="ca84"--><!-- The following content is generated at 2024-03-18T19:56:56.603002+08:00. Any edits will be overridden! -->
 
 - _(begin)_→::@::←automated services <!--SR:!2025-08-04,322,294!2024-12-08,178,310-->
-- automated services→::@::←co-creation <!--SR:!2024-11-21,130,254!2025-01-04,167,274-->
+- automated services→::@::←co-creation <!--SR:!2025-10-24,337,254!2025-01-04,167,274-->
 - co-creation→::@::←communities <!--SR:!2025-08-21,303,254!2026-04-09,539,314-->
 - communities→::@::←dedicated personal assistance <!--SR:!2025-03-26,226,277!2025-06-04,268,274-->
 - dedicated personal assistance→::@::←personal assistance <!--SR:!2025-02-04,208,317!2025-01-10,191,317-->
@@ -284,7 +284,7 @@ The key activities building block shows {@{important activities required for the
 
 #### key partnerships
 
-The key partnerships building block shows {@{important suppliers and networks required for the business model}@}. They can be categorized into {@{buyer–seller relationships, coopetitions, joint ventures, and strategic alliances between non-competitors}@}. Partnerships can {@{acquire particular activities and resources, optimize for economy of scale, and reduce risk and uncertainty}@}. <!--SR:!2024-11-21,149,274!2025-04-04,146,217!2025-02-05,170,237-->
+The key partnerships building block shows {@{important suppliers and networks required for the business model}@}. They can be categorized into {@{buyer–seller relationships, coopetitions, joint ventures, and strategic alliances between non-competitors}@}. Partnerships can {@{acquire particular activities and resources, optimize for economy of scale, and reduce risk and uncertainty}@}. <!--SR:!2026-06-17,573,294!2025-04-04,146,217!2025-02-05,170,237-->
 
 #### cost structure
 

@@ -113,7 +113,7 @@ return _chain.from_iterable(await _gather(
 - _n_ = 1→::@::←1 < _n_ < _γ_ <!--SR:!2028-01-23,1164,350!2027-06-15,991,350-->
 - 1 < _n_ < _γ_→::@::←_n_ = _γ_ <!--SR:!2027-09-05,1055,350!2027-09-18,1065,350-->
 - _n_ = _γ_→::@::←_γ_ < _n_ < +∞ <!--SR:!2025-01-03,294,330!2027-10-25,1095,350-->
-- _γ_ < _n_ < +∞→::@::←_n_ = +∞ <!--SR:!2027-12-08,1128,350!2024-11-21,261,330-->
+- _γ_ < _n_ < +∞→::@::←_n_ = +∞ <!--SR:!2027-12-08,1128,350!2028-02-23,1189,350-->
 - _n_ = +∞→::@::←_(end)_ <!--SR:!2028-02-16,1183,350!2027-07-08,1009,350-->
 
 <!--/pytextgen-->
@@ -133,7 +133,7 @@ return _chain.from_iterable(await _gather(
 
 <!--pytextgen generate section="0033"--><!-- The following content is generated at 2024-09-13T23:15:48.105926+08:00. Any edits will be overridden! -->
 
-- under [ideal gas law](ideal%20gas%20law.md), [heat](heat.md) and [work](work%20(physics).md) flow in the opposite direction; when [volume](volume.md) increases, [temperature](temperature.md) increases enough to increase [pressure](pressure.md) too:@:_n_ < 0 <!--SR:!2024-11-21,260,330-->
+- under [ideal gas law](ideal%20gas%20law.md), [heat](heat.md) and [work](work%20(physics).md) flow in the opposite direction; when [volume](volume.md) increases, [temperature](temperature.md) increases enough to increase [pressure](pressure.md) too:@:_n_ < 0 <!--SR:!2027-03-29,858,330-->
 - $p = C$, equivalent to [isobaric process](isobaric%20process.md); under [ideal gas law](ideal%20gas%20law.md), [heat](heat.md) and [work](work%20(physics).md) flow in opposite direction:@:_n_ = 0 <!--SR:!2027-09-18,1065,350-->
 - under [ideal gas law](ideal%20gas%20law.md), [heat](heat.md) and [work](work%20(physics).md) flow in the opposite direction; when [volume](volume.md) increases, [temperature](temperature.md) increases:@:0 < _n_ < 1 <!--SR:!2024-12-14,278,330-->
 - $pV = C$; under [ideal gas law](ideal%20gas%20law.md), equivalent to [isothermic process](isothermic%20process.md), and [heat](heat.md) and [work](work%20(physics).md) flow in opposite direction:@:_n_ = 1 <!--SR:!2024-12-02,269,330-->

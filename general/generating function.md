@@ -79,7 +79,7 @@ The [main article](lambert%20series.md) provides {@{several more classical, or a
 
 > [!tip] tips
 >
-> - strategy for proving $$\sum _{n=1}^{\infty }{\frac {q^{n}x^{n} }{1-x^{n} } }=\sum _{n=1}^{\infty }{\frac {q^{n}x^{n^{2} } }{1-qx^{n} } }+\sum _{n=1}^{\infty }{\frac {q^{n}x^{n(n+1)} }{1-x^{n} } }$$ ::@:: Apply Maclaurin series on the three sums and rearrange the sums to become divisor sums. Rearranging the sums to become divisor sums is more complicated then it seems, and is best visualized using a grid. <!--SR:!2024-11-21,27,270!2025-01-22,65,270-->
+> - strategy for proving $$\sum _{n=1}^{\infty }{\frac {q^{n}x^{n} }{1-x^{n} } }=\sum _{n=1}^{\infty }{\frac {q^{n}x^{n^{2} } }{1-qx^{n} } }+\sum _{n=1}^{\infty }{\frac {q^{n}x^{n(n+1)} }{1-x^{n} } }$$ ::@:: Apply Maclaurin series on the three sums and rearrange the sums to become divisor sums. Rearranging the sums to become divisor sums is more complicated then it seems, and is best visualized using a grid. <!--SR:!2025-02-03,74,270!2025-01-22,65,270-->
 
 ### Bell series
 
@@ -197,7 +197,7 @@ The differentiation–multiplication operation of the second identity can be {@{
 
 Using {@{the [Stirling numbers of the second kind](Stirling%20numbers%20of%20the%20second%20kind.md)}@}, that can be {@{turned into another formula for multiplying by $n^{k}$ as follows}@} (see the main article on [generating function transformations](generating%20function%20transformation.md#derivative%20transformations)): {@{$$\sum _{j=0}^{k}{\begin{Bmatrix}k\\j\end{Bmatrix} }z^{j}F^{(j)}(z)=\sum _{n=0}^{\infty }n^{k}f_{n}z^{n}\quad {\text{for all } }k\in \mathbb {N}\,.$$}@} <!--SR:!2024-11-24,31,290!2025-01-29,70,270!2025-01-22,65,270-->
 
-{@{A negative-order reversal of this sequence powers formula}@} corresponding to {@{the operation of repeated integration}@} is defined by {@{the [zeta series transformation](generating%20function%20transformation.md#derivative%20transformations)}@} and its generalizations defined as a derivative-based [transformation of generating functions](generating%20function%20transformation.md), or alternately termwise by and performing an [integral transformation](generating%20function%20transformation.md#polylogarithm%20series%20transformations) on the sequence generating function. Related operations of performing [fractional integration](fractional%20calculus.md) on a sequence generating function are discussed [here](generating%20function%20transformation.md#fractional%20integrals%20and%20derivatives). <!--SR:!2024-11-21,27,270!2024-12-31,62,310!2024-12-31,62,310-->
+{@{A negative-order reversal of this sequence powers formula}@} corresponding to {@{the operation of repeated integration}@} is defined by {@{the [zeta series transformation](generating%20function%20transformation.md#derivative%20transformations)}@} and its generalizations defined as a derivative-based [transformation of generating functions](generating%20function%20transformation.md), or alternately termwise by and performing an [integral transformation](generating%20function%20transformation.md#polylogarithm%20series%20transformations) on the sequence generating function. Related operations of performing [fractional integration](fractional%20calculus.md) on a sequence generating function are discussed [here](generating%20function%20transformation.md#fractional%20integrals%20and%20derivatives). <!--SR:!2025-02-02,73,270!2024-12-31,62,310!2024-12-31,62,310-->
 
 #### enumerating arithmetic progressions of sequences
 

@@ -17,7 +17,7 @@ tags:
 
 # _Q_ factor
 
-The _Q_ factor also describes the sharpness of [resonance](resonance.md) curves {@{on a motional spectrum, i.e. [resonance transmissibility](transmissibility%20(vibration).md) $G(\omega_d)$ over frequency ratio $\omega_d / \omega_n$. Higher _Q_ factor indicates that the resonance curve is sharper}@}. <!--SR:!2024-11-21,207,270-->
+The _Q_ factor also describes the sharpness of [resonance](resonance.md) curves {@{on a motional spectrum, i.e. [resonance transmissibility](transmissibility%20(vibration).md) $G(\omega_d)$ over frequency ratio $\omega_d / \omega_n$. Higher _Q_ factor indicates that the resonance curve is sharper}@}. <!--SR:!2026-06-03,559,270-->
 
 ## references
 

@@ -21,7 +21,7 @@ tags:
 
 For all natural numbers $a$ and $b$, prove that {@{addition as defined in the (second-order formulation of) Peano axioms commutates, i.e. $$a + b = b + a$$. Then, given that addition associates (i.e. $(a + b) + c = a + (b + c)$) and commutates, prove that multiplication commutates, i.e. $$a \cdot b = b \cdot a$$}@}. <!--SR:!2024-12-15,74,320-->
 
-- strategy ::@:: Apply induction to prove commutativity for more specific cases. Then apply induction again to generalize the results. <!--SR:!2024-11-21,44,250!2025-03-29,150,320-->
+- strategy ::@:: Apply induction to prove commutativity for more specific cases. Then apply induction again to generalize the results. <!--SR:!2025-04-26,156,270!2025-03-29,150,320-->
 
 1. definitions ::@:: For all natural numbers $a$ and $b$, $$\begin{aligned} a + 0 & = a && \text{definition 1} \\ a + S(b) & = S(a + b) && \text{definition 2} \\ a \cdot 0 & = 0 && \text{definition 3} \\ a \cdot S(b) & = a + a \cdot b && \text{definition 4} \end{aligned}$$. <!--SR:!2024-11-25,55,300!2024-12-16,75,320-->
 2. commutativity of addition / lemma 1 (commutativity of definition 1) ::@:: Lemma 1 (commutativity of definition 1): $$0 + b = b$$ holds for all $b \in \mathbb N_0$. When $b = 0$, $0 + 0 = 0$ by definition 1. Assume the lemma holds for $b$. Consider $S(b)$: $$\begin{aligned} 0 + b & = b && \text{assumption} \\ S(0 + b) & = S(b) && S\text{ is a function} \\ 0 + S(b) & = S(b) && \text{definition 2} \end{aligned}$$. So the lemma holds for $S(a)$. By induction, the lemma is proved for all natural numbers. <!--SR:!2025-01-17,92,300!2025-04-07,150,300-->
@@ -87,7 +87,7 @@ We say a natural number $n$ is prime if $\ge 2$ and it is impossible to write $n
 
 ## closed knight's tour
 
-Consider an 8×8 chessboard with a knight at the top right corner. Is it {@{possible for us to move the knight in accordance with chess rules such that it visits every square in the board exactly once and then returns to the top right corner? What if we have a 9×9 chessboard?}@} <!--SR:!2024-11-21,52,290-->
+Consider an 8×8 chessboard with a knight at the top right corner. Is it {@{possible for us to move the knight in accordance with chess rules such that it visits every square in the board exactly once and then returns to the top right corner? What if we have a 9×9 chessboard?}@} <!--SR:!2025-06-19,210,310-->
 
 Note that a knight can move {@{two squares vertically and one square horizontally, or two squares horizontally and one square vertically}@}. <!--SR:!2024-12-05,65,310-->
 

@@ -31,9 +31,9 @@ Most adjusting entries could be classified this way: {@{prepaid expenses, accrue
 
 ### prepayments
 
-{@{Adjusting entries for prepayments}@} are necessary to {@{account for cash that has been received prior to delivery of goods or completion of services}@}. When {@{this cash is paid, it is first recorded in a prepaid expense asset account}@}; the account is {@{to be expensed either with the passage of time (e.g. rent, insurance) or through use and consumption (e.g. supplies)}@}. <!--SR:!2024-12-06,59,310!2024-11-21,44,290!2025-02-04,99,290!2024-11-27,50,310-->
+{@{Adjusting entries for prepayments}@} are necessary to {@{account for cash that has been received prior to delivery of goods or completion of services}@}. When {@{this cash is paid, it is first recorded in a prepaid expense asset account}@}; the account is {@{to be expensed either with the passage of time (e.g. rent, insurance) or through use and consumption (e.g. supplies)}@}. <!--SR:!2024-12-06,59,310!2025-05-17,177,310!2025-02-04,99,290!2024-11-27,50,310-->
 
-{@{A company receiving the cash for benefits yet to be delivered}@} will have to {@{record the amount in an unearned revenue [liability](liability%20(financial%20accounting).md) account}@}. Then, {@{an adjusting entry to recognize the revenue is used as necessary}@}. <!--SR:!2024-11-21,44,290!2024-11-27,48,290!2024-12-09,62,310-->
+{@{A company receiving the cash for benefits yet to be delivered}@} will have to {@{record the amount in an unearned revenue [liability](liability%20(financial%20accounting).md) account}@}. Then, {@{an adjusting entry to recognize the revenue is used as necessary}@}. <!--SR:!2025-05-20,180,310!2024-11-27,48,290!2024-12-09,62,310-->
 
 #### example
 
