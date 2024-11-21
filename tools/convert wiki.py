@@ -29,6 +29,9 @@ _MAX_CONCURRENT_REQUESTS_PER_HOST = 2
 _IGNORED_NAME_PREFIXES = frozenset({"Help:"})
 _PRESERVED_PAGE_PREFIXES = {
     "Special:": f"{_WIKI_HOST_URL}/wiki/{{}}",
+    "Talk:": f"{_WIKI_HOST_URL}/wiki/{{}}",
+    "Template:": f"{_WIKI_HOST_URL}/wiki/{{}}",
+    "Template talk:": f"{_WIKI_HOST_URL}/wiki/{{}}",
     "Wikipedia": f"{_WIKI_HOST_URL}/wiki/{{}}",
     "commons": "https://commons.wikimedia.org/wiki/{}",
     "oeis:": "https://oeis.org/{}",
