@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="100%" height="100%" viewBox="-220 -300 940 2350">
+ <title>Hamiltonian platonic graphs</title>
+ <desc>Orthographic projections and planar graphs of Hamiltonian cycles of the vertices of the five Platonic solids by CMG Lee. Only the octahedron has an Eulerian path, made by extending the Hamiltonian path with the dotted path.</desc>
+ <style type="text/css">
+.main { fill-opacity:0.8; fill:none; stroke:#000000; stroke-linejoin:round; stroke-linecap:round; }
+.hamiltonian { stroke:#cc0000; stroke-width:6; }
+.back        { fill-opacity:0; stroke-opacity:0.5; }
+.butt        { stroke-linecap:butt; }
+.dotted      { stroke-linecap:butt; stroke-dasharray:6,9; }
+</style>
+ <defs>
+  <circle id="dot" cx="0" cy="0" r="8" fill-opacity="1" fill="#000000" stroke="none"/>
+ </defs>
+ <circle cx="0" cy="0" r="99999" fill="#ffffff"/>
+ <g class="main">
+  <g transform="translate(0,0)">
+   <g transform="translate(-25,-80)">
+    <use xlink:href="#dot" transform="translate(-100, 250)"/>
+    <use xlink:href="#dot" transform="translate(   0,-200)"/>
+    <use xlink:href="#dot" transform="translate( 200, 100)"/>
+    <use xlink:href="#dot" transform="translate(-150,  50)"/>
+    <path class="back" d="M 200,100 -150,50 Z"/>
+    <g id="tetrahedron">
+     <path d="M 0,-200 L -100,250 -150, 50 Z" fill="#cccccc"/>
+     <path d="M 0,-200 L -100,250  200,100 Z" fill="#eeeeee"/>
+    </g>
+    <path class="hamiltonian" d="M -100,250 L -150,50 0,-200 200,100 Z"/>
+   </g>
+   <g transform="translate(-25,430)">
+    <use xlink:href="#dot" transform="translate(  50, -50)"/>
+    <path class="hamiltonian" d="M 200,100 l -150,-150 v -200"/>
+    <use class="back" xlink:href="#cube" transform="translate(50,-50) scale(-1)"/>
+    <g id="cube">
+     <path d="M 0,0 L  200,-100   50,-250 -150,-150 Z" fill="#eeeeee"/>
+     <path d="M 0,0 L  200,-100  200, 100    0, 200 Z" fill="#dddddd"/>
+     <path d="M 0,0 L -150,-150 -150,  50    0, 200 Z" fill="#bbbbbb"/>
+    </g>
+    <use xlink:href="#dot" transform="translate(   0,   0)"/>
+    <use xlink:href="#dot" transform="translate( 200,-100)"/>
+    <use xlink:href="#dot" transform="translate(  50,-250)"/>
+    <use xlink:href="#dot" transform="translate(-150,-150)"/>
+    <use xlink:href="#dot" transform="translate(   0, 200)"/>
+    <use xlink:href="#dot" transform="translate( 200, 100)"/>
+    <use xlink:href="#dot" transform="translate(-150,  50)"/>
+    <path class="hamiltonian" d="M 200,100 v -200 l -200,100 v 200 l -150,-150 v -200 l 200,-100"/>
+   </g>
+   <g transform="translate(0,890)">
+    <path class="hamiltonian dotted" d="M 0,210 L -180,-105 H 180"/>
+    <path class="hamiltonian"        d="M 0,210 L  180,-105"/>
+    <use class="back" xlink:href="#octahedron" transform="scale(-1)"/>
+    <g id="octahedron">
+     <path d="M 0,-210 L 180,105 H -180 Z" fill="#eeeeee"/>
+     <path d="M 0, 210 L 180,105 H -180 Z" fill="#bbbbbb"/>
+     <g id="octahedron_half">
+      <path d="M 0,-210 L 180,-105 V 105 Z" fill="#dddddd"/>
+     </g>
+     <use xlink:href="#octahedron_half" transform="scale(-1,1)"/>
+    </g>
+    <use xlink:href="#dot" transform="translate(   0, 210)"/>
+    <use xlink:href="#dot" transform="translate(   0,-210)"/>
+    <use xlink:href="#dot" transform="translate( 180, 105)"/>
+    <use xlink:href="#dot" transform="translate(-180, 105)"/>
+    <use xlink:href="#dot" transform="translate( 180,-105)"/>
+    <use xlink:href="#dot" transform="translate(-180,-105)"/>
+    <path class="hamiltonian dotted" d="M -6,-200 L -180,105 0,210 M 180,-105 180,105 6,-200"/>
+    <path class="hamiltonian butt" d="M -9,-205 L -180,-105 -180,105 180,105 0,210 M 180,-105 L 9,-205"/>
+   </g>
+   <g transform="translate(0,1350)">
+    <use xlink:href="#dot" transform="translate(   0, 126)"/>
+    <use xlink:href="#dot" transform="translate(  74,-102)"/>
+    <use xlink:href="#dot" transform="translate( -74,-102)"/>
+    <use xlink:href="#dot" transform="translate(-120,  39)"/>
+    <use xlink:href="#dot" transform="translate( 120,  39)"/>
+    <path class="hamiltonian" d="M 194,63 L 120,39 74,-102 -74,-102 -120,39 0,126 0,204"/>
+    <use class="back" xlink:href="#dodecahedron" transform="scale(-1)"/>
+    <g id="dodecahedron">
+     <path d="M 0,-126 L 120,-39 74,102 -74,102 -120,-39 Z" fill="#dddddd"/>
+     <path d="M 0, 204 L 120,165 74,102 -74,102 -120,165 Z" fill="#bbbbbb"/>
+     <g id="dodecahedron_half">
+      <path d="M 120,-39 L 194,-63 120,-165   0,-204  0,-126 Z" fill="#eeeeee"/>
+      <path d="M 120,-39 L 194,-63 194,  63 120, 165 74, 102 Z" fill="#cccccc"/>
+     </g>
+     <use xlink:href="#dodecahedron_half" transform="scale(-1,1)"/>
+    </g>
+    <use xlink:href="#dot" transform="translate(   0,-126)"/>
+    <use xlink:href="#dot" transform="translate(  74, 102)"/>
+    <use xlink:href="#dot" transform="translate( -74, 102)"/>
+    <use xlink:href="#dot" transform="translate(-120, -39)"/>
+    <use xlink:href="#dot" transform="translate( 120, -39)"/>
+    <use xlink:href="#dot" transform="translate(   0,-204)"/>
+    <use xlink:href="#dot" transform="translate(   0, 204)"/>
+    <use xlink:href="#dot" transform="translate( 194,  63)"/>
+    <use xlink:href="#dot" transform="translate(-194,  63)"/>
+    <use xlink:href="#dot" transform="translate(-194, -63)"/>
+    <use xlink:href="#dot" transform="translate( 194, -63)"/>
+    <use xlink:href="#dot" transform="translate( 120,-165)"/>
+    <use xlink:href="#dot" transform="translate(-120,-165)"/>
+    <use xlink:href="#dot" transform="translate(-120, 165)"/>
+    <use xlink:href="#dot" transform="translate( 120, 165)"/>
+    <path class="hamiltonian" d="M 0,204 L 120,165 74,102 120,-39 0,-126 -120,-39 -74,102 -120,165 -194,63 -194,-63 -120,-165 0,-204 120,-165 194,-63 194,63"/>
+   </g>
+   <g transform="translate(0,1810)">
+    <use xlink:href="#dot" transform="translate(-120, -70)"/>
+    <use xlink:href="#dot" transform="translate( 120, -70)"/>
+    <use xlink:href="#dot" transform="translate(   0, 140)"/>
+    <path class="hamiltonian" d="M 0,210 L 0,140 -120,-70 120,-70 180,105"/>
+    <use class="back" xlink:href="#icosahedron" transform="scale(-1)"/>
+    <g id="icosahedron">
+     <path d="M 0,-140 L 120,70 H -120 Z" fill="#cccccc"/>
+     <path d="M 0, 210 L 120,70 H -120 Z" fill="#bbbbbb"/>
+     <g id="icosahedron_half">
+      <path d="M 0,-140 V -210 L 180,-105 Z" fill="#eeeeee"/>
+      <path d="M 0,-140 L 120,70 180,-105 Z" fill="#dddddd"/>
+      <path d="M 120,70 L 180,105  V -105 Z" fill="#cccccc"/>
+      <path d="M 120,70 L 180,105  0  210 Z" fill="#aaaaaa"/>
+     </g>
+     <use xlink:href="#icosahedron_half" transform="scale(-1,1)"/>
+    </g>
+    <use xlink:href="#dot" transform="translate(-120,  70)"/>
+    <use xlink:href="#dot" transform="translate( 120,  70)"/>
+    <use xlink:href="#dot" transform="translate(   0,-140)"/>
+    <use xlink:href="#dot" transform="translate(   0, 210)"/>
+    <use xlink:href="#dot" transform="translate(   0,-210)"/>
+    <use xlink:href="#dot" transform="translate( 180, 105)"/>
+    <use xlink:href="#dot" transform="translate(-180, 105)"/>
+    <use xlink:href="#dot" transform="translate( 180,-105)"/>
+    <use xlink:href="#dot" transform="translate(-180,-105)"/>
+    <path class="hamiltonian" d="M 180,105 180,-105 0,-210 -180,-105 -180,105 -120,70 0,-140 120,70 0,210"/>
+   </g>
+  </g>
+  <g transform="translate(455,0)">
+   <g transform="translate(0,0)">
+    <use xlink:href="#dot" transform="translate(   0,   0)"/>
+    <use xlink:href="#dot" transform="translate(   0,-280)"/>
+    <use xlink:href="#dot" transform="translate( 240, 140)"/>
+    <use xlink:href="#dot" transform="translate(-240, 140)"/>
+    <path d="M 0,-280 V 0 M -240,140 H 240"/>
+    <path class="hamiltonian" d="M 0,-280 L 240,140 0,0 -240,140 Z"/>
+   </g>
+   <g transform="translate(0,400)">
+    <use xlink:href="#dot" transform="translate(  80, -80)"/>
+    <use xlink:href="#dot" transform="translate(  80,  80)"/>
+    <use xlink:href="#dot" transform="translate( -80,  80)"/>
+    <use xlink:href="#dot" transform="translate( -80, -80)"/>
+    <use xlink:href="#dot" transform="translate( 200,-200)"/>
+    <use xlink:href="#dot" transform="translate( 200, 200)"/>
+    <use xlink:href="#dot" transform="translate(-200, 200)"/>
+    <use xlink:href="#dot" transform="translate(-200,-200)"/>
+    <path d="M -200,-200 L -80,-80 M 200,-200 L 80,-80 M -200,200 H 200 M -80,80 H 80"/>
+    <path class="hamiltonian" d="M -200,200 V -200 H 200 V 200 L 80,80 V -80 H -80 V 80 Z"/>
+   </g>
+   <g transform="translate(0,920)">
+    <use xlink:href="#dot" transform="translate(   0,  70)"/>
+    <use xlink:href="#dot" transform="translate(  60, -35)"/>
+    <use xlink:href="#dot" transform="translate( -60, -35)"/>
+    <use xlink:href="#dot" transform="translate(   0,-280)"/>
+    <use xlink:href="#dot" transform="translate( 240, 140)"/>
+    <use xlink:href="#dot" transform="translate(-240, 140)"/>
+    <use class="hamiltonian dotted" xlink:href="#octahedron_planar"/>
+    <path id="octahedron_planar"   d="M -7,-272 L -240,140 0,70 -60,-35 60,-35 240,140 7,-272"/>
+    <path class="hamiltonian butt" d="M -7,-272 L -60,-35 -240,140 240,140 0,70 60,-35 7,-272"/>
+   </g>
+   <g transform="translate(0,1350)">
+    <use xlink:href="#dot" transform="translate(   0,  58)"/>
+    <use xlink:href="#dot" transform="translate(  34, -47)"/>
+    <use xlink:href="#dot" transform="translate( -34, -47)"/>
+    <use xlink:href="#dot" transform="translate( -55,  18)"/>
+    <use xlink:href="#dot" transform="translate(  55,  18)"/>
+    <use xlink:href="#dot" transform="translate(   0, 126)"/>
+    <use xlink:href="#dot" transform="translate(  74,-102)"/>
+    <use xlink:href="#dot" transform="translate( -74,-102)"/>
+    <use xlink:href="#dot" transform="translate( 120,  39)"/>
+    <use xlink:href="#dot" transform="translate(-120,  39)"/>
+    <use xlink:href="#dot" transform="translate(   0,-184)"/>
+    <use xlink:href="#dot" transform="translate( 108, 149)"/>
+    <use xlink:href="#dot" transform="translate(-108, 149)"/>
+    <use xlink:href="#dot" transform="translate(-175, -57)"/>
+    <use xlink:href="#dot" transform="translate( 175, -57)"/>
+    <use xlink:href="#dot" transform="translate(   0,-240)"/>
+    <use xlink:href="#dot" transform="translate( 141, 194)"/>
+    <use xlink:href="#dot" transform="translate(-141, 194)"/>
+    <use xlink:href="#dot" transform="translate(-228, -74)"/>
+    <use xlink:href="#dot" transform="translate( 228, -74)"/>
+    <path d="M 0,-240 V -184 M 228,-74 L 175,-57 M 141,194 H -141 M -228,-74 L -175,-57 M 108,149 L 120,39 M -108,149 L 0,126 M -120,39 L -57,18 M -74,-102 L -34,-47 M 74,-102 L 34,-47 M 0,58 L 57,18"/>
+    <path class="hamiltonian" d="M 0,-240 L 228,-74 141,194 108,149 0,126 0,58 -57,18 -34,-47 34,-47 57,18 120,39 175,-57 74,-102 0,-184 -74,-102 -175,-57 -120,39 -108,149 -141,194 -228,-74 Z"/>
+   </g>
+   <g transform="translate(0,1880)">
+    <use xlink:href="#dot" transform="translate(   0,  50)"/>
+    <use xlink:href="#dot" transform="translate(  40, -20)"/>
+    <use xlink:href="#dot" transform="translate( -40, -20)"/>
+    <use xlink:href="#dot" transform="translate(   0, 110)"/>
+    <use xlink:href="#dot" transform="translate( 100, -50)"/>
+    <use xlink:href="#dot" transform="translate(-100, -50)"/>
+    <use xlink:href="#dot" transform="translate(   0,-140)"/>
+    <use xlink:href="#dot" transform="translate( 120,  70)"/>
+    <use xlink:href="#dot" transform="translate(-120,  70)"/>
+    <use xlink:href="#dot" transform="translate(   0,-280)"/>
+    <use xlink:href="#dot" transform="translate( 240, 140)"/>
+    <use xlink:href="#dot" transform="translate(-240, 140)"/>
+    <path d="M -120,70 L 0,50 40,-20 100,-50 240,140 120,70 0,110 -120,70 -40,-20 0,-140 40,-20 100,-50 M 100,-50 L 0,-280 -100,-50 -240,140 H 240 M 0,-280 V -140 M -100,-50 L -40,-20 M 0,50 L 120,70 M -240,140 L 0,110"/>
+    <path class="hamiltonian" d="M 0,-280 L 240,140 0,110 0,50 -40,-20 40,-20 120,70 100,-50 0,-140 -100,-50 -120,70 -240,140 Z"/>
+   </g>
+  </g>
+ </g>
+</svg>
