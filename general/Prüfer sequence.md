@@ -76,7 +76,7 @@ Convert-Prüfer-to-Tree(a)
 >  5     {@{<i>degree</i>[<i>i</i>] ← 1}@}
 >  6 {@{<b>for</b> each value <i>i</i> in <i>a</i>}@} <b>do</b>
 >  7     {@{<i>degree</i>[<i>i</i>] ← <i>degree</i>[<i>i</i>] + 1}@}
-> </pre>
+> </pre> <!--SR:!2024-11-26,4,327!2024-11-26,4,327!2024-11-26,4,327!2024-11-26,4,327!2024-11-26,4,327!2024-11-26,4,327!2024-11-26,4,327!2024-11-26,4,327-->
 
 Next, for {@{each number in the sequence `a[i]`}@}, {@{find the first (lowest-numbered) node, `j`, with degree equal to 1}@}, {@{add the edge `(j, a[i])` to the tree, and decrement the degrees of `j` and `a[i]`}@}. In pseudo-code: <!--SR:!2024-11-23,17,323!2024-11-24,18,323!2024-11-23,17,323-->
 
@@ -110,7 +110,7 @@ Next, for {@{each number in the sequence `a[i]`}@}, {@{find the first (lowest-nu
 > 12             {@{<i>degree</i>[<i>i</i>] ← <i>degree</i>[<i>i</i>] - 1}@}
 > 13             {@{<i>degree</i>[<i>j</i>] ← <i>degree</i>[<i>j</i>] - 1}@}
 > 14             {@{<b>break</b>}@}
-> </pre>
+> </pre> <!--SR:!2024-11-26,4,327!2024-11-26,4,327!2024-11-26,4,327!2024-11-26,4,327!2024-11-26,4,327!2024-11-26,4,327!2024-11-26,4,327-->
 
 At {@{the end of this loop}@} {@{two nodes with degree 1 will remain (call them `u`, `v`)}@}. Lastly, {@{add the edge `(u,v)` to the tree}@}.<sup>[\[3\]](#^ref-3)</sup> <!--SR:!2024-11-23,17,323!2024-11-23,17,323!2024-11-23,17,323-->
 
@@ -159,7 +159,7 @@ At {@{the end of this loop}@} {@{two nodes with degree 1 will remain (call them 
 > 24 {@{<i>degree</i>[<i>u</i>] ← <i>degree</i>[<i>u</i>] - 1}@}
 > 25 {@{<i>degree</i>[<i>v</i>] ← <i>degree</i>[<i>v</i>] - 1}@}
 > 26 {@{<b>return</b> <i>T</i>}@}
-> </pre>
+> </pre> <!--SR:!2024-11-26,4,327!2024-11-26,4,327!2024-11-26,4,327!2024-11-26,4,327!2024-11-26,4,327!2024-11-26,4,327!2024-11-26,4,327!2024-11-26,4,327!2024-11-26,4,327!2024-11-26,4,327!2024-11-26,4,327-->
 
 <!-- markdownlint MD028 -->
 
