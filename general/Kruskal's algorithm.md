@@ -67,6 +67,20 @@ algorithm Kruskal(G) is
     return F
 ```
 
+> __code flashcards__
+>
+> <pre>
+> {@{<b>algorithm</b> Kruskal(<i>G</i>) <b>is</b>}@}
+>     {@{F:= ∅}@}
+>     {@{<b>for each</b> v <b>in</b> G.V <b>do</b>}@}
+>         {@{MAKE-SET(v)}@}
+>     {@{<b>for each</b> {u, v} <b>in</b> G.E ordered by weight({u, v}), increasing <b>do</b>}@}
+>         {@{<b>if</b> FIND-SET(u) ≠ FIND-SET(v) <b>then</b>}@}
+>             {@{F&nbsp;:= F ∪ { {u, v} }<!-- flashcard separator -->}@}
+>             {@{UNION(FIND-SET(u), FIND-SET(v))}@}
+>     {@{<b>return</b> F}@}
+> </pre>
+
 ## complexity
 
 For {@{a graph with _E_ edges and _V_ vertices}@}, Kruskal's algorithm can be shown to {@{run in time _O_\(_E_ log _E_\) time}@}, with {@{simple data structures}@}. Here, {@{_O_ expresses the time in [big O notation](Big%20O%20notation.md), and log is a [logarithm](logarithm.md) to any base \(since inside _O_-notation logarithms to all bases are equivalent, because they are the same up to a constant factor\)}@}. This time bound is {@{often written instead as _O_\(_E_ log _V_\)}@}, which is {@{equivalent for graphs with no isolated vertices}@}, because {@{for these graphs _V_/2 ≤ _E_ \< _V_<sup>2</sup>}@} and {@{the logarithms of _V_ and _E_ are again within a constant factor of each other}@}.
@@ -165,6 +179,36 @@ function filter(E) is
             Ef = Ef ∪ {(u, v)}
     return Ef
 ```
+
+> __code flashcards__
+>
+> <pre>
+> <b>function</b> {@{filter_kruskal(G)}@} <b>is</b>
+>     {@{<b>if</b> |G.E| &lt; kruskal_threshold}@}:
+>         {@{<b>return</b> kruskal(G)}@}
+>     {@{pivot = choose_random(G.E)}@}
+>     {@{E<sub>≤</sub>, E<sub>&gt;</sub> = partition(G.E, pivot)}@}
+>     {@{A = filter_kruskal(E<sub>≤</sub>)}@}
+>     {@{E<sub>&gt;</sub> = filter(E<sub>&gt;</sub>)}@}
+>     {@{A = A ∪ filter_kruskal(E<sub>&gt;</sub>)}@}
+>     {@{<b>return</b> A}@}
+>
+> <b>function</b> {@{partition(E, pivot)}@} <b>is</b>
+>     {@{E<sub>≤</sub> = ∅, E<sub>&gt;</sub> = ∅}@}
+>     {@{<b>foreach</b> (u, v) in E}@} <b>do</b>
+>         {@{<b>if</b> weight(u, v) ≤ pivot}@} <b>then</b>
+>             {@{E<sub>≤</sub> = E<sub>≤</sub> ∪ {(u, v)}<!-- flashcard separator -->}@}
+>         <b>else</b>
+>             {@{E<sub>&gt;</sub> = E<sub>&gt;</sub> ∪ {(u, v)}<!-- flashcard separator -->}@}
+>     {@{<b>return</b> E<sub>≤</sub>, E<sub>&gt;</sub>}@}
+>
+> <b>function</b> {@{filter(E)}@} <b>is</b>
+>     {@{E<sub>f</sub> = ∅}@}
+>     {@{<b>foreach</b> (u, v) in E}@} <b>do</b>
+>         {@{<b>if</b> find_set(u) ≠ find_set(v)}@} <b>then</b>
+>             {@{E<sub>f</sub> = E<sub>f</sub> ∪ {(u, v)}<!-- flashcard separator -->}@}
+>     {@{<b>return</b> E<sub>f</sub>}@}
+> </pre>
 
 Filter-Kruskal {@{lends itself better to parallelization}@} as {@{sorting, filtering, and partitioning can easily be performed in parallel}@} by {@{distributing the edges between the processors}@}.<sup>[\[7\]](#^ref-7)</sup>
 

@@ -43,6 +43,17 @@ Let {@{`{a[1], a[2], ..., a[n]}`}@} be {@{a Prüfer sequence}@}:
 
 The tree will {@{have `n+2` nodes, numbered from `1` to `n+2`}@}. For {@{each node}@} {@{set its degree to the number of times it appears in the sequence plus 1}@}. For instance, in pseudo-code:
 
+<pre>
+<b>Convert-Prüfer-to-Tree</b>(<i>a</i>)
+ 1 <i>n</i> ← <i>length</i>[<i>a</i>]
+ 2 <i>T</i> ← a graph with <i>n</i> + 2 isolated nodes, numbered 1 <b>to</b> <i>n</i> + 2
+ 3 <i>degree</i> ← an array of integers
+ 4 <b>for</b> each node <i>i</i> in <i>T</i> <b>do</b>
+ 5     <i>degree</i>[<i>i</i>] ← 1
+ 6 <b>for</b> each value <i>i</i> in <i>a</i> <b>do</b>
+ 7     <i>degree</i>[<i>i</i>] ← <i>degree</i>[<i>i</i>] + 1
+</pre>
+
 ```pseudocode
 Convert-Prüfer-to-Tree(a)
  1 n ← length[a]
@@ -54,7 +65,30 @@ Convert-Prüfer-to-Tree(a)
  7     degree[i] ← degree[i] + 1
 ```
 
+> __code flashcards__
+>
+> <pre>
+> {@{<b>Convert-Prüfer-to-Tree</b>(<i>a</i>)}@}
+>  1 {@{<i>n</i> ← <i>length</i>[<i>a</i>]}@}
+>  2 {@{<i>T</i> ← a graph with <i>n</i> + 2 isolated nodes, numbered 1 <b>to</b> <i>n</i> + 2}@}
+>  3 {@{<i>degree</i> ← an array of integers}@}
+>  4 {@{<b>for</b> each node <i>i</i> in <i>T</i>}@} <b>do</b>
+>  5     {@{<i>degree</i>[<i>i</i>] ← 1}@}
+>  6 {@{<b>for</b> each value <i>i</i> in <i>a</i>}@} <b>do</b>
+>  7     {@{<i>degree</i>[<i>i</i>] ← <i>degree</i>[<i>i</i>] + 1}@}
+> </pre>
+
 Next, for {@{each number in the sequence `a[i]`}@}, {@{find the first (lowest-numbered) node, `j`, with degree equal to 1}@}, {@{add the edge `(j, a[i])` to the tree, and decrement the degrees of `j` and `a[i]`}@}. In pseudo-code:
+
+<pre>
+ 8 <b>for</b> each value <i>i</i> in <i>a</i> <b>do</b>
+ 9     <b>for</b> each node <i>j</i> in <i>T</i> <b>do</b>
+10         <b>if</b> <i>degree</i>[<i>j</i>] = 1 <b>then</b>
+11             Insert <i>edge</i>[<i>i</i>, <i>j</i>] into <i>T</i>
+12             <i>degree</i>[<i>i</i>] ← <i>degree</i>[<i>i</i>] - 1
+13             <i>degree</i>[<i>j</i>] ← <i>degree</i>[<i>j</i>] - 1
+14             <b>break</b>
+</pre>
 
 ```psuedocode
  8 for each value i in a do
@@ -66,7 +100,34 @@ Next, for {@{each number in the sequence `a[i]`}@}, {@{find the first (lowest-nu
 14             break
 ```
 
+> __code flashcards__
+>
+> <pre>
+>  8 {@{<b>for</b> each value <i>i</i> in <i>a</i>}@} <b>do</b>
+>  9     {@{<b>for</b> each node <i>j</i> in <i>T</i>}@} <b>do</b>
+> 10         {@{<b>if</b> <i>degree</i>[<i>j</i>] = 1}@} <b>then</b>
+> 11             {@{Insert <i>edge</i>[<i>i</i>, <i>j</i>] into <i>T</i>}@}
+> 12             {@{<i>degree</i>[<i>i</i>] ← <i>degree</i>[<i>i</i>] - 1}@}
+> 13             {@{<i>degree</i>[<i>j</i>] ← <i>degree</i>[<i>j</i>] - 1}@}
+> 14             {@{<b>break</b>}@}
+> </pre>
+
 At {@{the end of this loop}@} {@{two nodes with degree 1 will remain (call them `u`, `v`)}@}. Lastly, {@{add the edge `(u,v)` to the tree}@}.<sup>[\[3\]](#^ref-3)</sup>
+
+<pre>
+15 <i>u</i> ← <i>v</i> ← 0
+16 <b>for</b> each node <i>i</i> in <i>T</i>
+17     <b>if</b> <i>degree</i>[<i>i</i>] = 1 <b>then</b>
+18         <b>if</b> <i>u</i> = 0 <b>then</b>
+19             <i>u</i> ← <i>i</i>
+20         <b>else</b>
+21             <i>v</i> ← <i>i</i>
+22             <b>break</b>
+23 Insert <i>edge</i>[<i>u</i>, <i>v</i>] into <i>T</i>
+24 <i>degree</i>[<i>u</i>] ← <i>degree</i>[<i>u</i>] - 1
+25 <i>degree</i>[<i>v</i>] ← <i>degree</i>[<i>v</i>] - 1
+26 <b>return</b> <i>T</i>
+</pre>
 
 ```psuedocode
 15 u ← v ← 0
@@ -82,6 +143,25 @@ At {@{the end of this loop}@} {@{two nodes with degree 1 will remain (call them 
 25 degree[v] ← degree[v] - 1
 26 return T
 ```
+
+> __code flashcards__
+>
+> <pre>
+> 15 {@{<i>u</i> ← <i>v</i> ← 0}@}
+> 16 {@{<b>for</b> each node <i>i</i> in <i>T</i>}@}
+> 17     {@{<b>if</b> <i>degree</i>[<i>i</i>] = 1}@} <b>then</b>
+> 18         {@{<b>if</b> <i>u</i> = 0}@} <b>then</b>
+> 19             {@{<i>u</i> ← <i>i</i>}@}
+> 20         <b>else</b>
+> 21             {@{<i>v</i> ← <i>i</i>}@}
+> 22             {@{<b>break</b>}@}
+> 23 {@{Insert <i>edge</i>[<i>u</i>, <i>v</i>] into <i>T</i>}@}
+> 24 {@{<i>degree</i>[<i>u</i>] ← <i>degree</i>[<i>u</i>] - 1}@}
+> 25 {@{<i>degree</i>[<i>v</i>] ← <i>degree</i>[<i>v</i>] - 1}@}
+> 26 {@{<b>return</b> <i>T</i>}@}
+> </pre>
+
+<!-- markdownlint MD028 -->
 
 > [!tip] tips
 >
