@@ -23,7 +23,7 @@ The algorithm was developed {@{in 1930}@} by {@{[Czech](Czechs.md) mathematician
 
 > {@{![Prim's algorithm](../archives/Wikimedia%20Commons/Prim's%20algorithm.svg)}@}
 >
-> Prim{@{'s algorithm starting at vertex A}@}. In the third step, {@{edges BD and AB both have weight 2, so BD is chosen arbitrarily}@}. After that step, {@{AB is no longer a candidate for addition to the tree}@} because {@{it links two nodes that are already in the tree}@}.
+> {@{Prim's algorithm starting at vertex A}@}. In the third step, {@{edges BD and AB both have weight 2, so BD is chosen arbitrarily}@}. After that step, {@{AB is no longer a candidate for addition to the tree}@} because {@{it links two nodes that are already in the tree}@}.
 
 ## description
 

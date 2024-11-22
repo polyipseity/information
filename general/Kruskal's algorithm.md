@@ -70,12 +70,12 @@ algorithm Kruskal(G) is
 > __code flashcards__
 >
 > <pre>
-> {@{<b>algorithm</b> Kruskal(<i>G</i>) <b>is</b>}@}
+> {@{<b>algorithm</b> Kruskal(<i>G</i>)}@} <b>is</b>
 >     {@{F:= ∅}@}
->     {@{<b>for each</b> v <b>in</b> G.V <b>do</b>}@}
+>     {@{<b>for each</b> v <b>in</b> G.V}@} <b>do</b>
 >         {@{MAKE-SET(v)}@}
->     {@{<b>for each</b> {u, v} <b>in</b> G.E ordered by weight({u, v}), increasing <b>do</b>}@}
->         {@{<b>if</b> FIND-SET(u) ≠ FIND-SET(v) <b>then</b>}@}
+>     {@{<b>for each</b> {u, v} <b>in</b> G.E ordered by weight({u, v}), increasing}@} <b>do</b>
+>         {@{<b>if</b> FIND-SET(u) ≠ FIND-SET(v)}@} <b>then</b>
 >             {@{F&nbsp;:= F ∪ { {u, v} }<!-- flashcard separator -->}@}
 >             {@{UNION(FIND-SET(u), FIND-SET(v))}@}
 >     {@{<b>return</b> F}@}
@@ -97,7 +97,7 @@ In cases {@{where the edges are already sorted}@}, or {@{where they have small e
 | ![Kruskal's algorithm example step 2](../archives/Wikimedia%20Commons/Kruskal%20Algorithm%202.svg) | {@{__CE__ is now the shortest edge that does not form a cycle, with length 5}@}, so {@{it is highlighted as the second edge}@}.                                                                                                                                                                                             |
 | ![Kruskal's algorithm example step 3](../archives/Wikimedia%20Commons/Kruskal%20Algorithm%203.svg) | {@{The next edge, __DF__ with length 6}@}, is {@{highlighted using much the same method}@}.                                                                                                                                                                                                                                 |
 | ![Kruskal's algorithm example step 4](../archives/Wikimedia%20Commons/Kruskal%20Algorithm%204.svg) | {@{The next-shortest edges are __AB__ and __BE__, both with length 7}@}. __AB__ is {@{chosen arbitrarily, and is highlighted}@}. The edge __BD__ has been {@{highlighted in red}@}, because {@{there already exists a path \(in green\) between __B__ and __D__, so it would form a cycle \(__ABD__\) if it were chosen}@}. |
-| ![Kruskal's algorithm example step 5](../archives/Wikimedia%20Commons/Kruskal%20Algorithm%205.svg) | The process {@{continues to highlight the next-smallest edge, __BE__ with length 7}@}. Many more edges are {@{highlighted in red at this stage}@}: __BC__ because {@{it would form the loop __BCE__, __DE__ because it would form the loop __DEBA__}@}, and __FE__ because {@{it would form __FEBAD__}@}.                   |
+| ![Kruskal's algorithm example step 5](../archives/Wikimedia%20Commons/Kruskal%20Algorithm%205.svg) | The process {@{continues to highlight the next-smallest edge, __BE__ with length 7}@}. Many more edges are {@{highlighted in red at this stage}@}: __BC__ because {@{it would form the loop __BCE__}@}, __DE__ because {@{it would form the loop __DEBA__}@}, and __FE__ because {@{it would form __FEBAD__}@}.             |
 | ![Kruskal's algorithm example step 6](../archives/Wikimedia%20Commons/Kruskal%20Algorithm%206.svg) | Finally, the process {@{finishes with the edge __EG__ of length 9}@}, and {@{the minimum spanning tree is found}@}.                                                                                                                                                                                                         |
 
 ## proof of correctness
@@ -183,7 +183,7 @@ function filter(E) is
 > __code flashcards__
 >
 > <pre>
-> <b>function</b> {@{filter_kruskal(G)}@} <b>is</b>
+> {@{<b>function</b> filter_kruskal(G)}@} <b>is</b>
 >     {@{<b>if</b> |G.E| &lt; kruskal_threshold}@}:
 >         {@{<b>return</b> kruskal(G)}@}
 >     {@{pivot = choose_random(G.E)}@}
@@ -193,7 +193,7 @@ function filter(E) is
 >     {@{A = A ∪ filter_kruskal(E<sub>&gt;</sub>)}@}
 >     {@{<b>return</b> A}@}
 >
-> <b>function</b> {@{partition(E, pivot)}@} <b>is</b>
+> {@{<b>function</b> partition(E, pivot)}@} <b>is</b>
 >     {@{E<sub>≤</sub> = ∅, E<sub>&gt;</sub> = ∅}@}
 >     {@{<b>foreach</b> (u, v) in E}@} <b>do</b>
 >         {@{<b>if</b> weight(u, v) ≤ pivot}@} <b>then</b>
@@ -202,7 +202,7 @@ function filter(E) is
 >             {@{E<sub>&gt;</sub> = E<sub>&gt;</sub> ∪ {(u, v)}<!-- flashcard separator -->}@}
 >     {@{<b>return</b> E<sub>≤</sub>, E<sub>&gt;</sub>}@}
 >
-> <b>function</b> {@{filter(E)}@} <b>is</b>
+> {@{<b>function</b> filter(E)}@} <b>is</b>
 >     {@{E<sub>f</sub> = ∅}@}
 >     {@{<b>foreach</b> (u, v) in E}@} <b>do</b>
 >         {@{<b>if</b> find_set(u) ≠ find_set(v)}@} <b>then</b>
