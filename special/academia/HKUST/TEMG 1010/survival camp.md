@@ -10,7 +10,7 @@ tags:
 
 - HKUST TEMG 1010
 - datetime: 2024-11-15T18:00:00+08:00/2024-11-17T18:00:00+08:00, PT2D
-- topic ::@:: leadership <!--SR:!2024-11-22,4,270!2024-11-22,4,270-->
+- topic ::@:: leadership <!--SR:!2024-12-07,15,290!2024-12-08,16,290-->
 - venue: Sai Wan Beach, Sai Kung (22.397184500616234, 114.3714295354873)
 
 So many tiring and wet activities... While some of them were fun, I would have more fun doing my own things. But whatever, it did kind of teach conversational skills and leadership.
@@ -22,32 +22,32 @@ So many tiring and wet activities... While some of them were fun, I would have m
 
 We went over some leadership theory and did some group activities, basically.
 
-- [Johari window](../../../../general/Johari%20window.md) ::@:: known to self/unknown to self × known to others/unknown to others (4 combinations) <!--SR:!2024-11-22,4,270!2024-11-22,4,270-->
-  - Johari window / open area ::@:: known to self × known to others <!--SR:!2024-11-22,4,270!2024-11-22,4,270-->
-  - Johari window / blind area ::@:: unknown to self × known to others <!--SR:!2024-11-22,4,270!2024-11-22,4,270-->
-  - Johari window / hidden area ::@:: known to self × unknown to others <!--SR:!2024-11-22,4,270!2024-11-22,4,270-->
-  - Johari window / unknown area ::@:: unknown to self × unknown to others <!--SR:!2024-11-22,4,270!2024-11-22,4,270-->
-  - Johari window / ask ::@:: known to self ← unknown to self <!--SR:!2024-11-22,4,270!2024-11-22,4,270-->
-  - Johari window / tell ::@:: known to others ← unknown to others <!--SR:!2024-11-22,4,270!2024-11-22,4,270-->
-  - Johari window / feedback ::@:: known to self × known to others ← unknown to self × known to others <!--SR:!2024-11-22,4,270!2024-11-22,4,270-->
-  - Johari window / self-disclosure ::@:: known to self × known to others ← known to self × unknown to others <!--SR:!2024-11-22,4,270!2024-11-22,4,270-->
-  - Johari window / shared discovery ::@:: known to self × known to others ← unknown to self × unknown to others <!--SR:!2024-11-22,4,270!2024-11-22,4,270-->
-  - Johari window / self-discovery ::@:: known to self × unknown to others ← unknown to self × unknown to others <!--SR:!2024-11-22,4,270!2024-11-22,4,270-->
-- 3 feedback models ::@:: commend → recommend → commend, keep → improve → stop → start (KISS), John Heron self and peer feedback <!--SR:!2024-11-22,4,270!2024-11-22,4,270-->
-  - commend → recommend → commend ::@:: Suitable for individual feedback. <p> (The sandwich model strikes again...) <!--SR:!2024-11-22,4,270!2024-11-22,4,270-->
-  - keep → improve → stop → start (KISS) ::@:: Suitable for improving team performance. <p> (Isn't this eliminate, reduce, raise, create (ERRC)?) <!--SR:!2024-11-22,4,270!2024-11-22,4,270-->
-  - John Heron self and peer feedback ::@:: Suitable for gather personal feedback. <!--SR:!2024-11-22,4,270!2024-11-22,4,270-->
-- 6 feedback guidelines ::@:: behavior, comfortable, no buts, own it, sift & sort, timely <!--SR:!2024-11-22,4,270!2024-11-22,4,270-->
-  - 6 feedback guidelines / behavior ::@:: Focus on things that can be changed, not personality. <!--SR:!2024-11-22,4,270!2024-11-22,4,270-->
-  - 6 feedback guidelines / comfortable ::@:: Ensure others are comfortable with your feedback. <!--SR:!2024-11-22,4,270!2024-11-22,4,270-->
-  - 6 feedback guidelines / no buts ::@:: Do not counter others' feedback. Simply ignore it personally if you find it unhelpful. <!--SR:!2024-11-22,4,270!2024-11-22,4,270-->
-  - 6 feedback guidelines / own it ::@:: Make specific statements about "I". <!--SR:!2024-11-22,4,270!2024-11-22,4,270-->
-  - 6 feedback guidelines / sift & sort ::@:: Personally choose to accept or ignore feedback. <!--SR:!2024-11-22,4,270!2024-11-22,4,270-->
-  - 6 feedback guidelines / timely ::@:: Sometimes, now may not be the best time. Maybe later? <!--SR:!2024-11-22,4,270!2024-11-22,4,270-->
-- [emotional intelligence](../../../../general/emotional%20intelligence.md) — Daniel Goleman ::@:: empathy, motivation, self-awareness, self-regulation <!--SR:!2024-11-22,4,270!2024-11-22,4,270-->
-- [functional leadership model](../../../../general/functional%20leadership%20model.md) — John Adair ::@:: develop the team, help the individual, progress the task <!--SR:!2024-11-22,4,270!2024-11-22,4,270-->
-- [situational leadership theory](../../../../general/situational%20leadership%20theory.md) — Hersey and Blanchard ::@:: supporting, coaching, delegating, directing <!--SR:!2024-11-22,4,270!2024-11-22,4,270-->
-- personality types: 4 birds ::@:: dove, peacock, owl, eagle <!--SR:!2024-11-22,4,270!2024-11-22,4,270-->
+- [Johari window](../../../../general/Johari%20window.md) ::@:: known to self/unknown to self × known to others/unknown to others (4 combinations) <!--SR:!2024-12-08,16,290!2024-12-07,15,290-->
+  - Johari window / open area ::@:: known to self × known to others <!--SR:!2024-12-06,14,290!2024-12-06,14,290-->
+  - Johari window / blind area ::@:: unknown to self × known to others <!--SR:!2024-12-06,14,290!2024-12-06,14,290-->
+  - Johari window / hidden area ::@:: known to self × unknown to others <!--SR:!2024-12-08,16,290!2024-12-08,16,290-->
+  - Johari window / unknown area ::@:: unknown to self × unknown to others <!--SR:!2024-12-06,14,290!2024-12-06,14,290-->
+  - Johari window / ask ::@:: known to self ← unknown to self <!--SR:!2024-12-06,14,290!2024-12-07,15,290-->
+  - Johari window / tell ::@:: known to others ← unknown to others <!--SR:!2024-12-08,16,290!2024-12-06,14,290-->
+  - Johari window / feedback ::@:: known to self × known to others ← unknown to self × known to others <!--SR:!2024-12-07,15,290!2024-12-06,14,290-->
+  - Johari window / self-disclosure ::@:: known to self × known to others ← known to self × unknown to others <!--SR:!2024-12-07,15,290!2024-12-08,16,290-->
+  - Johari window / shared discovery ::@:: known to self × known to others ← unknown to self × unknown to others <!--SR:!2024-12-08,16,290!2024-12-07,15,290-->
+  - Johari window / self-discovery ::@:: known to self × unknown to others ← unknown to self × unknown to others <!--SR:!2024-12-07,15,290!2024-12-08,16,290-->
+- 3 feedback models ::@:: commend → recommend → commend, keep → improve → stop → start (KISS), John Heron self and peer feedback <!--SR:!2024-12-08,16,290!2024-12-06,14,290-->
+  - commend → recommend → commend ::@:: Suitable for individual feedback. <p> (The sandwich model strikes again...) <!--SR:!2024-12-07,15,290!2024-12-06,14,290-->
+  - keep → improve → stop → start (KISS) ::@:: Suitable for improving team performance. <p> (Isn't this eliminate, reduce, raise, create (ERRC)?) <!--SR:!2024-12-06,14,290!2024-12-07,15,290-->
+  - John Heron self and peer feedback ::@:: Suitable for gather personal feedback. <!--SR:!2024-12-07,15,290!2024-12-07,15,290-->
+- 6 feedback guidelines ::@:: behavior, comfortable, no buts, own it, sift & sort, timely <!--SR:!2024-12-08,16,290!2024-12-07,15,290-->
+  - 6 feedback guidelines / behavior ::@:: Focus on things that can be changed, not personality. <!--SR:!2024-12-08,16,290!2024-12-07,15,290-->
+  - 6 feedback guidelines / comfortable ::@:: Ensure others are comfortable with your feedback. <!--SR:!2024-12-07,15,290!2024-12-06,14,290-->
+  - 6 feedback guidelines / no buts ::@:: Do not counter others' feedback. Simply ignore it personally if you find it unhelpful. <!--SR:!2024-12-06,14,290!2024-12-08,16,290-->
+  - 6 feedback guidelines / own it ::@:: Make specific statements about "I". <!--SR:!2024-12-06,14,290!2024-12-07,15,290-->
+  - 6 feedback guidelines / sift & sort ::@:: Personally choose to accept or ignore feedback. <!--SR:!2024-12-06,14,290!2024-12-06,14,290-->
+  - 6 feedback guidelines / timely ::@:: Sometimes, now may not be the best time. Maybe later? <!--SR:!2024-12-08,16,290!2024-12-08,16,290-->
+- [emotional intelligence](../../../../general/emotional%20intelligence.md) — Daniel Goleman ::@:: empathy, motivation, self-awareness, self-regulation <!--SR:!2024-12-07,15,290!2024-12-07,15,290-->
+- [functional leadership model](../../../../general/functional%20leadership%20model.md) — John Adair ::@:: develop the team, help the individual, progress the task <!--SR:!2024-12-06,14,290!2024-12-07,15,290-->
+- [situational leadership theory](../../../../general/situational%20leadership%20theory.md) — Hersey and Blanchard ::@:: supporting, coaching, delegating, directing <!--SR:!2024-12-08,16,290!2024-12-08,16,290-->
+- personality types: 4 birds ::@:: dove, peacock, owl, eagle <!--SR:!2024-12-08,16,290!2024-12-08,16,290-->
   - <https://richardstep.com/dope-personality-type-quiz/dope-bird-4-personality-types-test-questions-online-version/>
   - I am kinda skeptical of this...
 

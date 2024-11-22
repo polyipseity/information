@@ -68,7 +68,7 @@ return _chain.from_iterable(await _gather(
 - _(begin)_→::@::←`**` <!--SR:!2024-11-27,64,322!2025-07-17,240,330-->
 - `**`→::@::←`*` <!--SR:!2025-08-06,259,342!2024-12-12,78,322-->
 - `*`→::@::←`/` <!--SR:!2024-12-05,71,322!2024-12-10,76,322-->
-- `/`→::@::←`//` <!--SR:!2024-11-22,59,322!2024-12-13,79,322-->
+- `/`→::@::←`//` <!--SR:!2025-08-13,264,342!2024-12-13,79,322-->
 - `//`→::@::←`%` <!--SR:!2025-06-20,218,330!2024-11-29,66,322-->
 - `%`→::@::←`+` <!--SR:!2024-11-28,65,322!2025-06-14,213,322-->
 - `+`→::@::←`-` <!--SR:!2025-07-07,232,330!2024-12-11,77,322-->
@@ -90,7 +90,7 @@ return _chain.from_iterable(await _gather(
 
 For the return type of operators, all of above (if only `float` and `int` are considered), with two exceptions, {@{returns `int` (integer) if both operands are `int`, and `float` otherwise}@}. The two exceptions are {@{that `/` (division) always return `float`, even if both operands are `int`}@}, and {@{applying `**` (power) on a negative base results in a `complex` (complex number) but not an error, which is not discussed here}@}. <!--SR:!2025-06-11,210,322!2024-11-28,65,322!2024-12-03,70,322-->
 
-A note regarding accuracy is that {@{there may be some inaccuracies involved when `float`s are involved, such as `0.1 + 0.2` is `0.30000000000000004` instead of `0.3`}@}. Also, regarding zeros, {@{`0.0` and `-0.0` are technically different `float`s, but they are equivalent for most purposes and even compare the same, i.e. `0.0 == -0.0` is `True`}@}. Finally, a notable error (raising an error causes {@{the program to stop and print out error messages}@}) is that {@{`/` (division), `//` (floor division), and `%` (remainder) raises `ZeroDivisionError` if the second operand is zero}@}. However, `0 ** 0` (power) {@{returns `1` instead of being undefined or raising an error}@}. <!--SR:!2024-12-08,74,322!2024-11-22,59,322!2024-12-02,69,322!2024-11-27,64,322!2025-05-02,170,340-->
+A note regarding accuracy is that {@{there may be some inaccuracies involved when `float`s are involved, such as `0.1 + 0.2` is `0.30000000000000004` instead of `0.3`}@}. Also, regarding zeros, {@{`0.0` and `-0.0` are technically different `float`s, but they are equivalent for most purposes and even compare the same, i.e. `0.0 == -0.0` is `True`}@}. Finally, a notable error (raising an error causes {@{the program to stop and print out error messages}@}) is that {@{`/` (division), `//` (floor division), and `%` (remainder) raises `ZeroDivisionError` if the second operand is zero}@}. However, `0 ** 0` (power) {@{returns `1` instead of being undefined or raising an error}@}. <!--SR:!2024-12-08,74,322!2025-08-14,265,342!2024-12-02,69,322!2024-11-27,64,322!2025-05-02,170,340-->
 
 ### comparison operators
 
@@ -268,7 +268,7 @@ ISOM 2020 note: {@{`+=`, `-=`, `*=`, `/=`, etc.}@} are {@{not taught and should 
 Below are common data types:
 
 - `NoneType` :@: The type for the `None` value. <!--SR:!2024-12-10,76,322-->
-- `bool` :@: A boolean, which is either `True` or `False`. Note that `bool`s are also `int`s. In particular, `True == 1` and `False == 0`, and can be used in arithmetic operators. <!--SR:!2024-11-22,59,322-->
+- `bool` :@: A boolean, which is either `True` or `False`. Note that `bool`s are also `int`s. In particular, `True == 1` and `False == 0`, and can be used in arithmetic operators. <!--SR:!2025-08-17,268,342-->
 - `float` :@: A floating point number with double precision (15 to 17 significant figures). One can effectively treat it as a decimal number for most purposes. `float` can hold integers as well, with only the internal representation being different from `int`. Example: `1.`, `3.14`, `9.20`, `2e3` (2×10<sup>3</sup>). <!--SR:!2025-05-05,169,310-->
 - `int` :@: An integer. Example: `42`. <!--SR:!2024-11-29,66,322-->
 - `str` :@: A piece of text. Example: `"Hello"`. <!--SR:!2024-11-23,60,322-->

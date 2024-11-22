@@ -102,7 +102,7 @@ The content is in teaching order.
     - increase status ::@:: know the unknown, prepare, ... <!--SR:!2025-05-04,167,310!2024-12-25,69,310-->
     - decrease status ::@:: awkward questions, unfriendly interviewers, unequal, ... <!--SR:!2024-12-12,63,310!2025-04-28,162,310-->
   - SCARF / certainty ::@:: prediction confidence <!--SR:!2025-04-21,156,310!2024-12-02,46,290-->
-  - SCARF / autonomy ::@:: sense of control over events <!--SR:!2024-11-22,45,290!2024-12-02,55,310-->
+  - SCARF / autonomy ::@:: sense of control over events <!--SR:!2025-05-22,181,310!2024-12-02,55,310-->
     - increase autonomy ::@:: be flexible about choices, prepare, research salary ranges, talk permissions, ... <!--SR:!2024-12-25,69,310!2024-12-09,60,310-->
   - SCARF / relatedness ::@:: socially, ingroup or outgroup <!--SR:!2024-12-01,54,310!2024-12-01,54,310-->
     - increase relatedness ::@:: create trust by non-verbal communication, firm handshake, discuss personal (but not too personal) things <!--SR:!2025-05-15,176,310!2024-12-09,60,310-->
@@ -161,7 +161,7 @@ The content is in teaching order.
 - topic: Interview (II): Group Discussion Skills
 - activity: leadership exercise
 - leadership
-  - leadership tips ::@:: lead with vision, determined/delegation/communication, problem solving, trust, appreciation <!--SR:!2024-11-22,36,250!2025-03-11,129,290-->
+  - leadership tips ::@:: lead with vision, determined/delegation/communication, problem solving, trust, appreciation <!--SR:!2025-03-28,126,270!2025-03-11,129,290-->
   - teamwork tips ::@:: strategic thinking, determined/delegation/communication, remain calm under pressure, trust, win-win cooperation with other teams <!--SR:!2024-12-20,59,250!2025-02-02,91,270-->
 - structured group discussion
 - presentation
@@ -193,7 +193,7 @@ The content is in teaching order.
 - topic: Mastering the 1st Day @work
 - thank-you note (after job interview)
 - job offer
-- future of jobs ::@:: There are no more stable jobs now... The world is changing faster than ever. To adapt, find the jobs you want within yourself... <!--SR:!2024-12-25,69,310!2024-11-22,45,290-->
+- future of jobs ::@:: There are no more stable jobs now... The world is changing faster than ever. To adapt, find the jobs you want within yourself... <!--SR:!2024-12-25,69,310!2025-05-21,180,310-->
 
 ## aftermath
 

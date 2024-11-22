@@ -91,7 +91,7 @@ English
 - [vacuous](https://en.wiktionary.org/wiki/vacuous) ::@:: (v\_s) Empty, void. <!--SR:!2024-12-03,263,344!2025-12-24,514,324-->
 - [vacuum](https://en.wiktionary.org/wiki/vacuum) ::@:: (v\_m) A region of [space](../../../general/space.md) containing no [matter](../../../general/matter.md). <!--SR:!2025-01-20,290,344!2024-12-12,269,344-->
 - [vehicle](https://en.wiktionary.org/wiki/vehicle) ::@:: (v\_e) A spacious device for transporting things. <!--SR:!2026-10-30,783,416!2025-06-08,334,376-->
-- [viscous](https://en.wiktionary.org/wiki/viscous) ::@:: (v\_s) Having a thick and stick consistency between [solid](../../../general/solid.md) and [liquid](../../../general/liquid.md). <!--SR:!2024-11-22,254,344!2025-09-01,433,324-->
+- [viscous](https://en.wiktionary.org/wiki/viscous) ::@:: (v\_s) Having a thick and stick consistency between [solid](../../../general/solid.md) and [liquid](../../../general/liquid.md). <!--SR:!2028-03-05,1199,364!2025-09-01,433,324-->
 - [volunteer](https://en.wiktionary.org/wiki/volunteer) ::@:: (v\_r) To do or offer to do something voluntarily. <!--SR:!2025-03-28,357,372!2025-04-09,369,372-->
 
 ## references

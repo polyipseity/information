@@ -30,18 +30,18 @@ A __probability sample__ is {@{a sample in which every unit in the population ha
 >
 > People living on their own are {@{certain to be selected, so we simply add their income to our estimate of the total}@}. But {@{a person living in a household of two adults has only a one-in-two chance of selection}@}. To reflect this, when we come to such a household, we would {@{count the selected person's income twice towards the total}@}. (The person who _is_ selected from that household can be loosely viewed as {@{also representing the person who _isn't_ selected}@}.) <!--SR:!2025-07-11,241,330!2025-03-08,140,310!2024-11-30,69,310!2024-11-30,69,310!2024-11-25,64,310-->
 
-In the above example, {@{not everybody has the same probability of selection; what makes it a probability sample is the fact that each person's probability is known}@}. When {@{every element in the population _does_ have the same probability of selection}@}, this is {@{known as an 'equal probability of selection' (EPS) design}@}. Such designs are also referred to as {@{'self-weighting' because all sampled units are given the same weight}@}. <!--SR:!2024-11-22,61,310!2024-11-29,68,310!2025-07-15,245,330!2025-06-23,227,330-->
+In the above example, {@{not everybody has the same probability of selection; what makes it a probability sample is the fact that each person's probability is known}@}. When {@{every element in the population _does_ have the same probability of selection}@}, this is {@{known as an 'equal probability of selection' (EPS) design}@}. Such designs are also referred to as {@{'self-weighting' because all sampled units are given the same weight}@}. <!--SR:!2025-08-17,268,330!2024-11-29,68,310!2025-07-15,245,330!2025-06-23,227,330-->
 
 Probability sampling includes: {@{[simple random sampling](simple%20random%20sample.md), [systematic sampling](systematic%20sampling.md), [stratified sampling](stratified%20sampling.md), probability-proportional-to-size sampling, and [cluster](cluster%20sampling.md) or [multistage sampling](multistage%20sampling.md)}@}. These various ways of probability sampling have two things in common: <!--SR:!2024-12-05,66,270-->
 
-1. (probability sampling) every element ::@:: Every element has a known nonzero probability of being sampled and <!--SR:!2024-11-22,61,310!2025-07-03,235,330-->
+1. (probability sampling) every element ::@:: Every element has a known nonzero probability of being sampled and <!--SR:!2025-08-13,264,330!2025-07-03,235,330-->
 2. (probability sampling) at some point ::@:: involves random selection at some point. <!--SR:!2024-11-26,65,310!2025-02-16,122,290-->
 
 ### nonprobability sampling
 
 - see: [nonprobability sampling](nonprobability%20sampling.md)
 
-__Nonprobability sampling__ is {@{any sampling method where some elements of the population have _no_ chance of selection (these are sometimes referred to as 'out of coverage'/'undercovered')}@}, or {@{where the probability of selection cannot be accurately determined}@}. It involves {@{the selection of elements based on assumptions regarding the population of interest, which forms the criteria for selection}@}. Hence, because {@{the selection of elements is nonrandom}@}, nonprobability sampling {@{does not allow the estimation of sampling errors}@}. These conditions give rise to {@{[exclusion bias](selection%20bias.md), placing limits on how much information a sample can provide about the population}@}. Information about {@{the relationship between sample and population is limited}@}, making it difficult to {@{extrapolate from the sample to the population}@}. <!--SR:!2025-04-25,173,310!2024-12-02,71,310!2025-05-23,186,310!2025-07-10,241,330!2025-04-18,172,310!2024-11-22,50,270!2025-08-17,270,330!2025-07-18,246,330-->
+__Nonprobability sampling__ is {@{any sampling method where some elements of the population have _no_ chance of selection (these are sometimes referred to as 'out of coverage'/'undercovered')}@}, or {@{where the probability of selection cannot be accurately determined}@}. It involves {@{the selection of elements based on assumptions regarding the population of interest, which forms the criteria for selection}@}. Hence, because {@{the selection of elements is nonrandom}@}, nonprobability sampling {@{does not allow the estimation of sampling errors}@}. These conditions give rise to {@{[exclusion bias](selection%20bias.md), placing limits on how much information a sample can provide about the population}@}. Information about {@{the relationship between sample and population is limited}@}, making it difficult to {@{extrapolate from the sample to the population}@}. <!--SR:!2025-04-25,173,310!2024-12-02,71,310!2025-05-23,186,310!2025-07-10,241,330!2025-04-18,172,310!2025-05-29,188,290!2025-08-17,270,330!2025-07-18,246,330-->
 
 > [!example] example
 >
@@ -53,14 +53,14 @@ Nonprobability sampling methods include {@{[convenience sampling](convenience%20
 
 - see: [sampling error](sampling%20error.md)
 
-Survey results are {@{typically subject to some error}@}. Total errors can be classified into {@{sampling errors and non-sampling errors}@}. The term "error" here includes {@{systematic biases as well as random errors}@}. <!--SR:!2025-07-25,252,330!2025-03-21,149,310!2024-11-22,64,310-->
+Survey results are {@{typically subject to some error}@}. Total errors can be classified into {@{sampling errors and non-sampling errors}@}. The term "error" here includes {@{systematic biases as well as random errors}@}. <!--SR:!2025-07-25,252,330!2025-03-21,149,310!2025-08-27,278,330-->
 
 ### sampling errors and biases
 
 Sampling errors and biases are {@{induced by the sample design}@}. They include {@{selection bias and random sampling errors}@}: <!--SR:!2025-08-03,259,330!2025-08-02,259,330-->
 
 - [selection bias](selection%20bias.md) ::@:: When the true selection probabilities differ from those assumed in calculating the results. <!--SR:!2025-06-29,232,330!2025-08-01,258,330-->
-- [random sampling error](sampling%20error.md) ::@:: Random variation in the results due to the elements in the sample being selected at random. <!--SR:!2024-11-22,61,310!2024-12-01,70,310-->
+- [random sampling error](sampling%20error.md) ::@:: Random variation in the results due to the elements in the sample being selected at random. <!--SR:!2025-08-14,265,330!2024-12-01,70,310-->
 
 ### non-sampling errors
 
@@ -74,7 +74,7 @@ Non-sampling errors are other errors which can impact final survey estimates, ca
 - processing error ::@:: mistakes in data coding <!--SR:!2024-11-24,63,310!2025-08-18,270,330-->
 - [non-response or participation bias](participation%20bias.md) ::@:: failure to obtain complete data from all selected individuals <!--SR:!2025-05-30,207,330!2025-08-03,259,330-->
 
-After sampling, {@{a review is held of the exact process followed in sampling, rather than that intended}@}, in order to {@{study any effects that any divergences might have on subsequent analysis}@}. <!--SR:!2025-03-29,140,290!2024-11-22,61,310-->
+After sampling, {@{a review is held of the exact process followed in sampling, rather than that intended}@}, in order to {@{study any effects that any divergences might have on subsequent analysis}@}. <!--SR:!2025-03-29,140,290!2025-05-28,187,310-->
 
 A particular problem involves {@{_non-response_}@}. Two major types of non-response exist: {@{unit non-response and item non-response}@}. <!--SR:!2024-11-28,67,310!2024-11-23,62,310-->
 

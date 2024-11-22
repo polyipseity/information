@@ -35,7 +35,7 @@ The content is in teaching order.
 - [financial accounting](../../../../general/financial%20accounting.md)
   - [financial accounting § objectives](../../../../general/financial%20accounting.md#objectives) ::@:: record transactions, basis for decision making, know how the business is doing financially, communicate financial information, legal compliance <!--SR:!2025-03-05,118,297!2025-01-05,71,257-->
   - [financial accounting](../../../../general/financial%20accounting.md) / record transactions ::@:: summarize, analyze, and report business transactions <!--SR:!2025-01-05,80,297!2025-03-19,135,317-->
-    - [financial transaction](../../../../general/financial%20transaction.md) ::@:: A transaction generally refers to an agreement between two or more parties that creates a binding relationship. A business/financial transaction is stricter than that as it also requires a change in the status of the finances of two or more businesses or individuals. <!--SR:!2024-12-03,54,277!2024-11-22,45,297-->
+    - [financial transaction](../../../../general/financial%20transaction.md) ::@:: A transaction generally refers to an agreement between two or more parties that creates a binding relationship. A business/financial transaction is stricter than that as it also requires a change in the status of the finances of two or more businesses or individuals. <!--SR:!2024-12-03,54,277!2025-05-28,187,317-->
       - [financial transaction](../../../../general/financial%20transaction.md) / examples ::@:: Confirming an employment contract is a transaction as the employer agrees to hire the employee and remunerate the employee for employment services rendered. But it is not a financial transaction because there are no changes in the finances for both the employer and employee. <!--SR:!2025-05-21,181,317!2025-02-20,105,297-->
   - [financial accounting](../../../../general/financial%20accounting.md) / basis for decision making ::@:: decision made by parties _entities_ to the entity <!--SR:!2024-12-12,63,317!2024-12-03,56,317-->
     - [financial accounting](../../../../general/financial%20accounting.md) / basis for decision making / entities ::@:: creditors, government agencies, investors, ... <!--SR:!2024-12-02,55,317!2024-12-08,59,317-->
@@ -65,7 +65,7 @@ The content is in teaching order.
   - [management accounting](../../../../general/management%20accounting.md) / objectives ::@:: internal reporting <!--SR:!2024-12-08,59,317!2024-12-06,59,317-->
   - [management accounting](../../../../general/management%20accounting.md) / users ::@:: managers <!--SR:!2024-12-30,74,317!2024-12-13,64,317-->
   - [management accounting](../../../../general/management%20accounting.md) / applications ::@:: budgeting and costs control, drop or retain a segment, equipment replacement, make or buy decision, utilization of constrained resources, etc. <!--SR:!2025-01-18,75,277!2024-12-17,61,277-->
-  - [management accounting](../../../../general/management%20accounting.md) / standards, report format ::@:: none, must be clearly presented and logical <!--SR:!2024-11-22,45,297!2024-12-30,74,317-->
+  - [management accounting](../../../../general/management%20accounting.md) / standards, report format ::@:: none, must be clearly presented and logical <!--SR:!2025-05-27,186,317!2024-12-30,74,317-->
 - [§ week 1 review](questions.md#week%201%20review)
 
 ## week 2 lecture 2
@@ -121,7 +121,7 @@ The content is in teaching order.
   - [chart of accounts](../../../../general/chart%20of%20accounts.md) / expenses ::@:: Account titles are typically formed by joining their source and then the word "expense". The account for inventory sold is typically titled "Cost of Goods Sold". <!--SR:!2024-12-08,59,317!2024-12-30,74,317-->
 - [financial transaction](../../../../general/financial%20transaction.md)
   - [financial transaction](../../../../general/financial%20transaction.md) / steps to record ::@:: Identify accounts affected. Determine the directions (debit or credit) of the impact. Verify if the accounting equation is still satisfied afterwards. <!--SR:!2025-01-06,81,334!2025-01-06,81,334-->
-  - [financial transaction](../../../../general/financial%20transaction.md) / steps to record for companies ::@:: Analyze transactions. Record them as journal entries in a general journal. Post the amounts to a general ledger. Verify if the accounting equation is still satisfied afterwards. <!--SR:!2025-01-06,81,334!2024-11-22,45,314-->
+  - [financial transaction](../../../../general/financial%20transaction.md) / steps to record for companies ::@:: Analyze transactions. Record them as journal entries in a general journal. Post the amounts to a general ledger. Verify if the accounting equation is still satisfied afterwards. <!--SR:!2025-01-06,81,334!2025-06-07,197,334-->
 - [general journal](../../../../general/general%20journal.md) ::@:: a log of all transactions affecting any account (within a reporting period); in manual processing, there may be other special journals for specific transactions, then transactions in those journals will not be in the general journal <!--SR:!2025-01-03,78,334!2025-01-29,95,294-->
   - [§ general journal](../../../../general/general%20journal.md#general%20journal)
 - [general ledger](../../../../general/general%20ledger.md) ::@:: a collection of several logs, with a log for each account, showing the changes in the account amount <!--SR:!2025-03-10,116,314!2024-11-26,49,314-->
@@ -133,7 +133,7 @@ The content is in teaching order.
   - [§ normal balances](../../../../general/trial%20balance.md#normal%20balances)
 - [adjusting entries](../../../../general/adjusting%20entries.md) ::@:: journal entries usually made at the end of an accounting period to allocate income and expenditure to the period in which they actually occurred <!--SR:!2025-01-05,80,334!2025-01-05,80,334-->
   - [§ adjusting entries](../../../../general/adjusting%20entries.md#adjusting%20entries)
-- [retained earnings](../../../../general/retained%20earnings.md) ::@:: accumulated net income of the corporation that is retained by the corporation at a particular point in time <!--SR:!2024-11-22,43,314!2024-12-18,69,334-->
+- [retained earnings](../../../../general/retained%20earnings.md) ::@:: accumulated net income of the corporation that is retained by the corporation at a particular point in time <!--SR:!2025-04-04,133,314!2024-12-18,69,334-->
   - [§ retained earnings](../../../../general/retained%20earnings.md#retained%20earnings)
 
 ## week 3 lecture 2

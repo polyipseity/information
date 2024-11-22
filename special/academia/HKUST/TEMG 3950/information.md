@@ -141,7 +141,7 @@ root cause analysis, 5 whys
 - PESTLE: Aguilar's PESTLE framework→::@::←PPTG: people, process, technology, governance framework <!--SR:!2025-08-13,266,261!2025-03-30,181,281-->
 - PPTG: people, process, technology, governance framework→::@::←blue ocean strategy <!--SR:!2024-12-27,137,301!2024-12-12,130,301-->
 - blue ocean strategy→::@::←interview note-taking in an 1-page memo <!--SR:!2025-07-02,257,281!2025-03-15,166,241-->
-- interview note-taking in an 1-page memo→::@::←profitability framework <!--SR:!2025-02-21,163,261!2024-11-22,90,221-->
+- interview note-taking in an 1-page memo→::@::←profitability framework <!--SR:!2025-02-21,163,261!2025-09-01,283,241-->
 - profitability framework→::@::←root cause analysis, 5 whys <!--SR:!2024-12-02,91,261!2025-02-25,148,241-->
 - root cause analysis, 5 whys→::@::←_(end)_ <!--SR:!2025-03-25,220,321!2025-01-11,150,301-->
 

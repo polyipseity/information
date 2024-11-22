@@ -72,13 +72,13 @@ We can {@{convert}@} in between rectangular form and polar form. From rectangula
 
 [Euler's formula](../../general/Euler's%20formula.md) is: {@{$$e^{j\varphi} = \cos \varphi + j \sin \varphi$$, where $\varphi$ is a [complex number](#complex%20number)}@}. The above implies alternative formulas for {@{$\sin$ and $\cos$}@}: {@{$$\begin{aligned} \cos \varphi & = \frac {e^{j\varphi} + e^{-j\varphi} } 2 \\ \sin \varphi & = \frac {e^{j\varphi} - e^{-j\varphi} } {2j} \end{aligned}$$}@}. <!--SR:!2025-08-12,298,330!2025-04-29,194,310!2025-04-10,196,310-->
 
-Using Euler's formula, we can express waves {@{using exponentiation instead}@}. For example, the discrete sine wave {@{$$f(x) [n] = A \cos(kx \pm \omega T n + \phi) + D$$}@} can also be expressed as {@{$$f(x) [n] = \operatorname{Re}\left(A e^{j(kx \pm \omega Tn + \phi)}\right) + D = \operatorname{Re}\left(A e^{j \phi} e^{j(kx \pm \omega Tn)}\right) + D = \operatorname{Re}\left(X e^{j(kx \pm \omega Tn)} \right) + D \qquad X := A e^{j \phi}$$}@}. The latter expression has the advantage that {@{exponentiation is much easier to manipulate than trigonometric functions}@}. <!--SR:!2024-11-26,87,341!2025-05-28,223,341!2025-04-13,172,321!2024-11-22,83,341-->
+Using Euler's formula, we can express waves {@{using exponentiation instead}@}. For example, the discrete sine wave {@{$$f(x) [n] = A \cos(kx \pm \omega T n + \phi) + D$$}@} can also be expressed as {@{$$f(x) [n] = \operatorname{Re}\left(A e^{j(kx \pm \omega Tn + \phi)}\right) + D = \operatorname{Re}\left(A e^{j \phi} e^{j(kx \pm \omega Tn)}\right) + D = \operatorname{Re}\left(X e^{j(kx \pm \omega Tn)} \right) + D \qquad X := A e^{j \phi}$$}@}. The latter expression has the advantage that {@{exponentiation is much easier to manipulate than trigonometric functions}@}. <!--SR:!2024-11-26,87,341!2025-05-28,223,341!2025-04-13,172,321!2025-12-16,389,361-->
 
 ## dot product
 
 - see: [general/dot product § complex vectors](../../general/dot%20product.md#complex%20vectors)
 
-The __dot product__ or __scalar product__ of two sequences $x$ and $y$ is defined as: {@{$$\langle x, y \rangle = \sum_{n = 0}^{N - 1} x[n] y^*[n]$$ (the variant that is linear in the 1st argument)}@}. Geometrically, two sequences are {@{orthogonal iff their dot product is $0$, i.e. $\langle x, y \rangle = 0$}@}. <!--SR:!2025-07-27,272,341!2024-11-22,83,341-->
+The __dot product__ or __scalar product__ of two sequences $x$ and $y$ is defined as: {@{$$\langle x, y \rangle = \sum_{n = 0}^{N - 1} x[n] y^*[n]$$ (the variant that is linear in the 1st argument)}@}. Geometrically, two sequences are {@{orthogonal iff their dot product is $0$, i.e. $\langle x, y \rangle = 0$}@}. <!--SR:!2025-07-27,272,341!2025-12-17,390,361-->
 
 ## even and odd sequences
 

@@ -48,7 +48,7 @@ The content is in teaching order.
   - [§ variable](basics.md#variable)
     - [basics § variable](basics.md#variable) / note ::@:: In a quiz question, they use the word "save", which means storing a value to a variable. Also, `+=`, `-=`, `*=`, `/=`, etc. are not taught and should NOT be used in exercises or exams. <!--SR:!2025-04-19,170,312!2025-03-22,146,312-->
   - [§ data types](basics.md#data%20types)
-    - [basics § data types](basics.md#data%20types) / note ::@:: They have not taught `bool` (values: `True`, `False`) and `NoneType` (value: `None`) up to this point... <!--SR:!2025-01-10,92,292!2024-11-22,59,312-->
+    - [basics § data types](basics.md#data%20types) / note ::@:: They have not taught `bool` (values: `True`, `False`) and `NoneType` (value: `None`) up to this point... <!--SR:!2025-01-10,92,292!2025-08-09,260,332-->
 - week 1 exercise: 1/1, graded
   - Can variables be used to save user input? ::@:: Yes, variables can be used to save user input (store in a variable). <!--SR:!2025-02-15,97,366!2025-02-12,94,366-->
   - Can `print(...)` be used to save data? ::@:: No, `print(...)` cannot be used to save data (store in a variable), only display data. <!--SR:!2025-02-12,94,366!2025-02-13,95,366-->

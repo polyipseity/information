@@ -672,7 +672,7 @@ return await memorize_table(
 
 <!--pytextgen generate section="dd91"--><!-- The following content is generated at 2024-01-04T20:17:52.316866+08:00. Any edits will be overridden! -->
 
-- _(begin)_→::@::←[acetic acid](acetic%20acid.md) <!--SR:!2029-10-15,1799,384!2024-11-22,478,384-->
+- _(begin)_→::@::←[acetic acid](acetic%20acid.md) <!--SR:!2029-10-15,1799,384!2031-10-07,2510,404-->
 - [acetic acid](acetic%20acid.md)→::@::←[acetone](acetone.md) <!--SR:!2026-06-28,862,364!2024-12-05,489,384-->
 - [acetone](acetone.md)→::@::←[chloroform](chloroform.md) <!--SR:!2027-03-26,1038,344!2025-11-25,553,364-->
 - [chloroform](chloroform.md)→::@::←[formaldehyde](formaldehyde.md) <!--SR:!2024-11-25,140,344!2025-01-11,242,304-->

@@ -123,7 +123,7 @@ x86 and x86-64 makes it easy {@{to enumerate stacks (in both the data structure 
 
 - `push <data>` ::@:: Copy `<data>` to the address pointed by `esp`/`rsp` and then decrement `esp`/`rsp` by the data size. The data size is either 4 or 8 bytes depending on the architecture (but not `<data>`). It can also be 2 bytes if explicitly specified (`push word <data>`), Note that flags are also manipulated. <!--SR:!2025-08-02,255,330!2024-12-01,68,345-->
 - `pop <dest>` ::@:: Copy the value at the address pointed by `esp`/`rsp` to `<dest>` and then increment `esp`/`rsp` by the data size. The data size is either 4 or 8 bytes depending on the architecture (but not the value at the stack top). It can also be 2 bytes if explicitly specified (`pop word <dest>`). Note that flags are also manipulated. <!--SR:!2025-05-09,173,325!2024-12-04,71,323-->
-- `call <addr>` ::@:: Push (`push`) the address of the next instruction to the stack and jump to `<addr>`. It can help with implementing function calls in higher-level languages. Note that the _stack pointer_ and _base pointer_ are not modified to create a function frame, and needs to be done by the compiler or yourself. <!--SR:!2025-03-21,141,325!2024-11-22,60,323-->
+- `call <addr>` ::@:: Push (`push`) the address of the next instruction to the stack and jump to `<addr>`. It can help with implementing function calls in higher-level languages. Note that the _stack pointer_ and _base pointer_ are not modified to create a function frame, and needs to be done by the compiler or yourself. <!--SR:!2025-03-21,141,325!2025-08-18,269,343-->
 - `ret` ::@:: Pop (`pop`) the address of an instruction from the stack and jump to it. This is a bit like `pop eip`/`pop rip`, but this is illegal because `eip`/`rip` is a special register and cannot be read from or written to directly. It can help with implementing function returns in higher-level languages. Note that the _stack pointer_ and _base pointer_ are not modified to restore the function frame, and needs to be done by the compiler or yourself. <!--SR:!2025-07-02,230,345!2025-07-14,240,345-->
 
 ## tools
@@ -155,7 +155,7 @@ Some common tools are:
 
 - GNU Debugger (`gdb`) ::@:: A commonly used program debugger on Linux. Best used with extensions like GDB Enhanced Features (GEF), `pwndbg`, etc. <!--SR:!2024-12-02,70,337!2024-12-06,73,337-->
 - Ghidra ::@:: An open-source powerful decompiler and disassembler developed by the National Security Agency (NSA). It can also act as a debugger itself or use `gdb` as its backend. <!--SR:!2025-05-29,202,337!2024-12-04,72,337-->
-- `strace` ::@:: Trace system calls and signals in realtime. <!--SR:!2024-11-28,65,345!2024-11-22,59,310-->
+- `strace` ::@:: Trace system calls and signals in realtime. <!--SR:!2024-11-28,65,345!2025-08-07,258,330-->
 - `ltrace` ::@:: Trace library calls, e.g. `glibc`. <!--SR:!2024-11-27,64,323!2024-12-11,77,345-->
 
 ### tools for patching

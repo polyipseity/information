@@ -34,4 +34,4 @@ Multiple {@{`except`s are allowed}@}. Additionally, to use the same error handle
 
 The semantics of the `try...except...else` statement is that {@{the statement block directly after the `try` are executed. If there are no errors, the `else` statement block if any are executed and the `try...except...else` statement finishes}@}. When an error is thrown in `try` statement block, {@{the execution of `try` statement block stops. The error types in `except` are checked in appearance order. The first `except` with an error type that is the same class as or a base class of the thrown error type is selected. The statement block directly after the selected `except` are executed and the `try...except...else` statement finishes}@}. If no `except` clauses match, {@{the error continues to propagate upwards. If the error reaches further upward from the entry point, the program usually crashes}@}. <!--SR:!2026-10-28,748,330!2025-04-27,298,290!2024-11-28,213,310-->
 
-Examples where catching errors is useful include {@{parsing user inputs}@}. <!--SR:!2024-11-22,208,310-->
+Examples where catching errors is useful include {@{parsing user inputs}@}. <!--SR:!2027-05-01,890,330-->

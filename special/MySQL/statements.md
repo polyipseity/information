@@ -26,7 +26,7 @@ tags:
 - `alter_option`
   - `ADD {INDEX | KEY} [USING {BTREE | HASH}] (key_part, ...)` ::@:: Add an index indexed by `key_part` using the specified algorithm. <!--SR:!2026-05-15,584,250!2025-05-21,458,330-->
 - `create_definition`
-  - `column_name column_definition` ::@:: Define a column named `column_name` with the definition `column_definition`. <!--SR:!2024-11-22,303,310!2025-04-20,434,330-->
+  - `column_name column_definition` ::@:: Define a column named `column_name` with the definition `column_definition`. <!--SR:!2028-06-14,1300,330!2025-04-20,434,330-->
   - `{INDEX | KEY} [USING {BTREE | HASH}] (key_part, ...)` ::@:: An index indexed by `key_part` using the specified algorithm. <!--SR:!2026-05-17,639,299!2024-12-24,331,319-->
   - `PRIMARY KEY [USING {BTREE | HASH}] (key_part, ...)` ::@:: A unique index indexed by `key_part`, which must be `NOT NULL` columns, using the specified algorithm. <!--SR:!2026-01-25,538,319!2026-05-01,605,319-->
 - `select_expression`
