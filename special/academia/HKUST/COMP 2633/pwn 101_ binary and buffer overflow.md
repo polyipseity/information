@@ -163,7 +163,7 @@ By now, you should have figured out how to identify code that is vulnerable to b
 
 #### exploiting buffer overflows
 
-Once you have found code that is vulnerable to buffer overflows, {@{identify what special locations you want to overwrite with what values}@}. For example, {@{overwriting the the address in the stack that `ret` will jump to with another address pointing to another function}@}. Then simply {@{craft the data required and pass it to the program}@}. One needs to note that {@{the stack grows in decreasing address}@}, while {@{the above functions write to the buffer in increasing address (from low to high address)}@}, so writing beyond a buffer {@{traverses the stack downwards (items pushed less recently) instead of upwards (items pushed more recently)}@}. Food for thought: What if {@{the stack grows in increasing address}@}?
+Once you have found code that is vulnerable to buffer overflows, {@{identify what special locations you want to overwrite with what values}@}. For example, {@{overwriting the address in the stack that `ret` will jump to with another address pointing to another function}@}. Then simply {@{craft the data required and pass it to the program}@}. One needs to note that {@{the stack grows in decreasing address}@}, while {@{the above functions write to the buffer in increasing address (from low to high address)}@}, so writing beyond a buffer {@{traverses the stack downwards (items pushed less recently) instead of upwards (items pushed more recently)}@}. Food for thought: What if {@{the stack grows in increasing address}@}?
 
 To help with this process, there are {@{some tools available}@}. Three tools are {@{`pwntools`, `gdb`, and `patchelf`}@}.
 
