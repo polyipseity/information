@@ -51,7 +51,7 @@ The content is in teaching order.
 - [descriptive statistics](../../../../general/descriptive%20statistics.md) ::@:: data collection, summarization, and presentation <!--SR:!2025-04-21,162,310!2025-07-08,239,330-->
   - descriptive statistics / methodologies ::@:: graphical (e.g. box plot, histogram), numerical (e.g. sample mean, sample median, sample quartile, sample variance), tabular (e.g. frequency table) <!--SR:!2025-04-11,166,310!2025-05-18,193,310-->
   - descriptive statistics / steps ::@:: collect (e.g. sampling, surveying) → classify (e.g. grouping) → characterize (e.g. sample mean) → present (e.g. box plot, table) <!--SR:!2025-05-12,182,290!2024-12-01,68,310-->
-- [inferential statistics](../../../../general/statistical%20inference.md) ::@:: statistical procedures that use data from an observed _sample_ to make a conclusion about a _population_ <!--SR:!2025-03-19,147,310!2024-11-23,60,310-->
+- [inferential statistics](../../../../general/statistical%20inference.md) ::@:: statistical procedures that use data from an observed _sample_ to make a conclusion about a _population_ <!--SR:!2025-03-19,147,310!2025-08-11,261,330-->
   - inferential statistics / key terms ::@:: _population_: a collection of all objects of interest, _sample_: an analyzed part of the _population_; _parameter_: a numerical measure describing a _population_, _statistic_: a numerical measure describing a _sample_ <!--SR:!2025-07-03,235,330!2025-03-29,139,290-->
   - inferential statistics / reasons for sampling ::@:: cost-effectiveness, practicality <!--SR:!2025-02-06,112,290!2025-07-21,249,330-->
   - inferential statistics / procedures ::@:: analysis of variance, estimation of parameters, goodness of fit test, hypothesis testing, probability distribution, regression, ... <!--SR:!2025-02-16,122,290!2025-02-26,119,290-->
@@ -103,7 +103,7 @@ The content is in teaching order.
     - sample standard deviation / _R_ ::@:: use `sd(...)` <!--SR:!2025-02-05,111,290!2024-12-03,70,310-->
   - sample range ::@:: It is defined as $$\text{range} = \max\set{x_i} - \min\set{x_i}$$. It is useful for statistical quality control (e.g. finding unusual outliers caused by bad measurement). <!--SR:!2025-05-10,183,310!2024-11-24,61,310-->
   - inter-quartile range (IQR) ::@:: It is defined as the range of the middle 50% of the data, or equivalently the third (75%) quartile subtracted by the first (25%) quartile: $$\text{IQR} = Q_3 - Q_1$$. It is also a measure of data dispersion. It can also eliminate problems with outliers. <!--SR:!2025-07-09,239,330!2024-11-27,64,310-->
-    - inter-quartile range / _R_ ::@:: use `IQR(...)`, not `iqr` <!--SR:!2024-11-23,60,310!2024-11-30,67,310-->
+    - inter-quartile range / _R_ ::@:: use `IQR(...)`, not `iqr` <!--SR:!2025-08-12,262,330!2024-11-30,67,310-->
   - variability / characteristics (common to most or all measures of variability) ::@:: All measures must be nonnegative. Most measures (exceptions: inter-quartile range, trimmed variants of statistics, ...) are zero [iff](../../../../general/if%20and%20only%20if.md) all data are the same (i.e. no spread). <!--SR:!2024-11-28,65,310!2024-12-02,69,310-->
 - [data presentation](../../../../general/data%20and%20information%20visualization.md) ::@:: A graphical summary can communicate information better as people prefers to look at them rather than numbers. The method of presentation depends on the data _nature_ and visualization _goals_. <!--SR:!2025-04-09,167,310!2025-02-28,133,290-->
   - data presentation / quantitative data ::@:: box plot, frequency table, histogram, line chart, scatter plot, ... <!--SR:!2025-03-27,141,290!2025-02-13,113,290-->
@@ -147,7 +147,7 @@ The content is in teaching order.
   - scatter plot ::@:: Plots data that comes as pairs. Good for visualizing relationship between two variables (e.g. regression). <!--SR:!2024-12-04,71,310!2025-01-09,93,290-->
     - scatter plot / _R_ ::@:: use `plot(...)` <!--SR:!2025-08-02,258,330!2025-07-06,237,330-->
   - frequency table (categorical) ::@:: Categorical data is already pre-grouped. Then a _summary table_ is drawn based on the categories. This condenses the data and allows for quicker data interpretation. <!--SR:!2025-05-14,180,310!2025-01-06,81,270-->
-    - frequency table (categorical) / table headers ::@:: \<variable name\>, count, cumulative count (if ordinal), percent, cumulative percent (if ordinal), ... <!--SR:!2024-11-23,24,250!2025-02-05,105,270-->
+    - frequency table (categorical) / table headers ::@:: \<variable name\>, count, cumulative count (if ordinal), percent, cumulative percent (if ordinal), ... <!--SR:!2025-01-22,60,250!2025-02-05,105,270-->
   - pie chart ::@:: A filled circle showing proportions of different categories. <!--SR:!2025-07-27,253,330!2025-04-13,166,310-->
     - pie chart / _R_ ::@:: use `pie(...)` <!--SR:!2025-07-13,241,330!2025-06-29,232,330-->
   - bar chart ::@:: Bars showing counts of different categories. <!--SR:!2025-06-18,223,330!2025-08-22,274,330-->

@@ -21,7 +21,7 @@ Consider {@{$n$-dimensional [Euclidean space](Euclidean%20space.md) $\mathbb{R}^
 
 $$R := [a_1, b_1) \times [a_2, b_2) \times \cdots \times [a_n, b_n) \qquad a_i, b_i \in \mathbb{R}, a_i < b_i$$
 
-Note that the intervals being half-open is {@{a technical choice and it could also be open or closed, as seen below in this section}@}. When $n = 1, 2, 3$, a $n$-dimensional rectangle corresponds to {@{respectively a [line segment](line%20segment.md), a [rectangle](rectangle.md), and a [cuboid](cuboid.md)}@}. <!--SR:!2024-11-23,207,310!2025-01-13,265,330-->
+Note that the intervals being half-open is {@{a technical choice and it could also be open or closed, as seen below in this section}@}. When $n = 1, 2, 3$, a $n$-dimensional rectangle corresponds to {@{respectively a [line segment](line%20segment.md), a [rectangle](rectangle.md), and a [cuboid](cuboid.md)}@}. <!--SR:!2027-04-30,888,330!2025-01-13,265,330-->
 
 Then, like how you calculate the length, area, or volume of the above familiar objects, the _Jordan measure_ of a rectangle is defined to be {@{the product of the lengths of the intervals}@}: <!--SR:!2027-06-11,950,350-->
 

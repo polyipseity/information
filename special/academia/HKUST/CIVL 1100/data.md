@@ -71,7 +71,7 @@ See [CCTV Headquarters](../../../../general/CCTV%20Headquarters.md).
 
 See [CN Tower](../../../../general/CN%20Tower.md).
 
-- image ::@:: ![CN Tower image](../../../../archives/Wikimedia%20Commons/Toronto%20-%20ON%20-%20Toronto%20Harbourfront7.jpg) <!--SR:!2024-12-05,163,396!2024-11-23,153,396-->
+- image ::@:: ![CN Tower image](../../../../archives/Wikimedia%20Commons/Toronto%20-%20ON%20-%20Toronto%20Harbourfront7.jpg) <!--SR:!2024-12-05,163,396!2027-03-04,831,416-->
 
 ## Central Plaza (Hong Kong)
 

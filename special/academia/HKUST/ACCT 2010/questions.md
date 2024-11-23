@@ -158,7 +158,7 @@ tags:
 > 2. statement of cash flow
 > 3. both of them
 >
-> - solution: {@{3}@} <!--SR:!2024-11-23,44,290-->
+> - solution: {@{3}@} <!--SR:!2025-05-20,178,310-->
 
 ## week 2 review
 

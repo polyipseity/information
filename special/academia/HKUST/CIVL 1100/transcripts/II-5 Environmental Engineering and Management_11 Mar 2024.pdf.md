@@ -100,7 +100,7 @@ return await memorize_seq(
 - _(begin)_→::@::←(Cap. 311) Air Pollution Control Ordinance <!--SR:!2024-12-31,104,255!2025-11-13,409,375-->
 - (Cap. 311) Air Pollution Control Ordinance→::@::←(Cap. 354) Waste Disposal Ordinance <!--SR:!2025-07-08,229,275!2025-01-27,111,275-->
 - (Cap. 354) Waste Disposal Ordinance→::@::←(Cap. 358) Water Pollution Control Ordinance <!--SR:!2024-12-29,82,275!2025-04-03,165,315-->
-- (Cap. 358) Water Pollution Control Ordinance→::@::←(Cap. 400) Noise Pollution Control Ordinance <!--SR:!2025-03-13,133,255!2024-11-23,13,215-->
+- (Cap. 358) Water Pollution Control Ordinance→::@::←(Cap. 400) Noise Pollution Control Ordinance <!--SR:!2025-03-13,133,255!2024-11-30,7,195-->
 - (Cap. 400) Noise Pollution Control Ordinance→::@::←(Cap. 499) Environmental Impact Ordinance <!--SR:!2025-02-06,149,295!2025-05-16,188,295-->
 - (Cap. 499) Environmental Impact Ordinance→::@::←_(end)_ <!--SR:!2025-11-29,423,375!2025-08-30,326,355-->
 
@@ -214,7 +214,7 @@ How to provide motivation for waste reduction, reuse and recycling?
 
 MSW Waste Charging Scheme
 
-- MSW waste charging scheme passing date ::@:: 2021-09-26 by Legco <!--SR:!2024-11-23,112,250!2025-04-16,214,270-->
+- MSW waste charging scheme passing date ::@:: 2021-09-26 by Legco <!--SR:!2025-01-17,55,230!2025-04-16,214,270-->
   - MSW waste charging scheme preparation period ::@:: 18 months <!--SR:!2025-03-03,203,310!2024-11-24,140,310-->
   - MSW waste charging scheme details ::@:: buy designated bags (0.11 HKD/L) at ~4000 selling points <!--SR:!2025-03-02,180,270!2025-04-05,245,330-->
   - MSW waste charging scheme penalty ::@:: max HK$25&nbsp;000 fine and 6 months in prison <!--SR:!2025-10-15,330,310!2025-01-26,187,310-->
@@ -355,7 +355,7 @@ Indoor Air Quality
 Climate Change — Greenhouse Gas Emission (Global Air Pollution)
 
 - [greenhouse gases](#greenhouse%20gases)
-- climate change consequences for animals ::@:: polar bears losing their natural habitats <!--SR:!2024-11-23,139,310!2025-04-24,259,330-->
+- climate change consequences for animals ::@:: polar bears losing their natural habitats <!--SR:!2026-07-12,596,330!2025-04-24,259,330-->
 
 ### greenhouse gases
 

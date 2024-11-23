@@ -102,7 +102,7 @@ tags:
 > 7. None of the above.
 >
 > - solution: {@{5}@}
-> - explanation: {@{The first two sentences are positive. The last sentence is normative.}@} <!--SR:!2024-11-23,37,290!2024-12-28,72,310-->
+> - explanation: {@{The first two sentences are positive. The last sentence is normative.}@} <!--SR:!2025-04-20,148,310!2024-12-28,72,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -111,7 +111,7 @@ tags:
 > Explain the above Randy's decision by using a graph/graphs based on the concept of marginal utility/happiness, consumer surplus and marginal cost that we discussed in lectures. (5 points)
 >
 > - graph: {@{![graph](attachments/Pasted%20image%2020240922170908.png)}@}
-> - solution: {@{Assume Randy has bought the plan for a month. Then his marginal utility curve and marginal cost curve is as in the graph. The marginal cost is zero because he can enjoy unlimited data usage. The marginal utility decreases by assuming the law of diminishing utility. This corresponds to him using the mobile-data on urgent uses first, and then less urgent uses, and continue. The marginal utility stops at zero because (I believe) extra data usage cannot have negative marginal utility, but it does not matter for this analysis. The consumer surplus is the area between marginal utility and marginal cost, and represents the benefit of the mobile-data plan to him before he makes the decision of buying the plan. So we can infer the reason he is happy with the plan is because his consumer surplus in a month exceeds HK$800.}@} <!--SR:!2024-12-16,60,310!2024-11-23,37,290-->
+> - solution: {@{Assume Randy has bought the plan for a month. Then his marginal utility curve and marginal cost curve is as in the graph. The marginal cost is zero because he can enjoy unlimited data usage. The marginal utility decreases by assuming the law of diminishing utility. This corresponds to him using the mobile-data on urgent uses first, and then less urgent uses, and continue. The marginal utility stops at zero because (I believe) extra data usage cannot have negative marginal utility, but it does not matter for this analysis. The consumer surplus is the area between marginal utility and marginal cost, and represents the benefit of the mobile-data plan to him before he makes the decision of buying the plan. So we can infer the reason he is happy with the plan is because his consumer surplus in a month exceeds HK$800.}@} <!--SR:!2024-12-16,60,310!2025-04-22,150,310-->
 
 <!-- markdownlint MD028 -->
 

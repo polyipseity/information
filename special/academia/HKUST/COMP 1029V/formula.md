@@ -21,7 +21,7 @@ A formula always {@{starts with an equals sign `=`}@}. <!--SR:!2025-02-20,294,33
 
 To get the value of a cell in a formula, {@{use its location, like `=A1`. This is known as a _cell reference_}@}. <!--SR:!2026-10-13,702,330-->
 
-When copy and pasting formulas, the cell references in the formula {@{are offsetted by the same offset from the original cell to the copied cell}@}. To prevent this offset, {@{add `$` before the column, the row, or both, like `=$A$1`}@}. <!--SR:!2024-11-24,209,310!2024-11-23,209,310-->
+When copy and pasting formulas, the cell references in the formula {@{are offsetted by the same offset from the original cell to the copied cell}@}. To prevent this offset, {@{add `$` before the column, the row, or both, like `=$A$1`}@}. <!--SR:!2024-11-24,209,310!2027-05-08,896,330-->
 
 ## operators
 
@@ -276,7 +276,7 @@ return _chain.from_iterable(await _gather(
 - `LEN(string)`:@:length of `string` <!--SR:!2025-01-01,257,330-->
 - `LOWER(string)`:@:convert to lowercase <!--SR:!2027-05-14,927,350-->
 - `RIGHT(string, length)`:@:get the last `length` characters in `string` <!--SR:!2024-12-24,246,330-->
-- `SUBSTITUTE(string, old, new)`:@:replace all occurrences of `old` with `new` in `string` <!--SR:!2024-11-23,210,310-->
+- `SUBSTITUTE(string, old, new)`:@:replace all occurrences of `old` with `new` in `string` <!--SR:!2027-05-14,902,330-->
 - `UPPER(string)`:@:convert to uppercase <!--SR:!2024-12-02,234,330-->
 
 <!--/pytextgen-->

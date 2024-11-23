@@ -83,7 +83,7 @@ return chain(
 - organize the data set→::@::←calculate the empirical mean <!--SR:!2024-12-19,127,290!2024-12-13,123,290-->
 - calculate the empirical mean→::@::←calculate the deviations from the mean <!--SR:!2025-07-25,312,330!2026-01-19,433,310-->
 - calculate the deviations from the mean→::@::←find the covariance matrix <!--SR:!2025-02-03,176,310!2024-12-10,131,290-->
-- find the covariance matrix→::@::←find the eigenvectors and eigenvalues of the covariance matrix <!--SR:!2024-11-23,109,290!2024-11-29,124,310-->
+- find the covariance matrix→::@::←find the eigenvectors and eigenvalues of the covariance matrix <!--SR:!2025-10-05,316,290!2024-11-29,124,310-->
 - find the eigenvectors and eigenvalues of the covariance matrix→::@::←rearrange the eigenvectors and eigenvalues <!--SR:!2025-03-08,186,270!2025-04-08,199,290-->
 - rearrange the eigenvectors and eigenvalues→::@::←compute the cumulative variance for each eigenvector <!--SR:!2025-02-19,184,310!2025-01-20,147,290-->
 - compute the cumulative variance for each eigenvector→::@::←select a subset of the eigenvectors as the new basis vectors <!--SR:!2025-04-13,218,290!2025-03-01,168,270-->

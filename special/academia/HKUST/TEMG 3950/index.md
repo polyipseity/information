@@ -175,7 +175,7 @@ The content is in teaching order.
     - consultant after 6 to 9 years ::@:: As. Partner, Principal: selling the work; exit to director of big firms or general manager (GM) of small firms, and further top EMBA <!--SR:!2025-08-30,307,301!2025-01-04,149,321-->
     - consultant after 9 years or more ::@:: Director, Partner, VP: managing the business; exit to CEO or retire rich <!--SR:!2025-03-10,199,341!2025-08-10,320,361-->
 - nature of complex problems ::@:: modeled by time-varying multi-variable optimization problems with constraints <!--SR:!2025-02-13,185,361!2025-12-20,450,381-->
-  - solving complex problems ::@:: MECE frameworks for patterns, 5-step persuasive selling for presentation <!--SR:!2025-11-29,432,381!2024-11-23,119,321-->
+  - solving complex problems ::@:: MECE frameworks for patterns, 5-step persuasive selling for presentation <!--SR:!2025-11-29,432,381!2026-05-05,528,341-->
 - [Pareto principle](../../../../general/Pareto%20principle.md)
 - "less is more" ::@:: In the digital age, there is too much information (digital garbage), so they need to be distilled. Also see [DIKW pyramid](../../../../general/DIKW%20pyramid.md). <!--SR:!2025-05-26,276,361!2025-11-20,423,381-->
 - [MECE principle](../../../../general/MECE%20principle.md)

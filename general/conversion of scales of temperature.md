@@ -206,7 +206,7 @@ return await conversion_table(
 
 <!--pytextgen generate section="35a1"--><!-- The following content is generated at 2024-03-07T00:30:25.461925+08:00. Any edits will be overridden! -->
 
-- from [Rankine](Rankine%20scale.md): x °R ≘ (x − 491.67) × 5/9 °C, to [Rankine](Rankine%20scale.md): x °C ≘ (x + 273.15) × 9/5 °R:@:[Celsius](Celsius.md) <!--SR:!2024-11-23,261,330-->
+- from [Rankine](Rankine%20scale.md): x °R ≘ (x − 491.67) × 5/9 °C, to [Rankine](Rankine%20scale.md): x °C ≘ (x + 273.15) × 9/5 °R:@:[Celsius](Celsius.md) <!--SR:!2028-03-02,1195,350-->
 - from [Rankine](Rankine%20scale.md): x °R ≘ x × 5/9 K, to [Rankine](Rankine%20scale.md): x K ≘ x × 9/5 °R:@:[Kelvin](Kelvin.md) <!--SR:!2028-02-18,1183,350-->
 - from [Rankine](Rankine%20scale.md): x °R ≘ (x − 459.67) °F, to [Rankine](Rankine%20scale.md): x °F ≘ (x + 459.67) °R:@:[Fahrenheit](Fahrenheit.md) <!--SR:!2027-06-18,991,350-->
 

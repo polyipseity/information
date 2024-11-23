@@ -15,7 +15,7 @@ __Financial accounting__ is {@{a branch of [accounting](accounting.md) concerned
 
 Financial accountancy is governed by {@{both local and international accounting standards}@}. {@{[Generally Accepted Accounting Principles](accounting%20standard.md) (GAAP)}@} is {@{the standard framework of guidelines for financial accounting used in any given jurisdiction}@}. It includes {@{the standards, conventions and rules that accountants follow in recording and summarizing and in the preparation of financial statements}@}. <!--SR:!2024-11-25,58,310!2025-05-01,175,310!2025-05-13,184,310!2025-04-05,142,290-->
 
-On the other hand, {@{[International Financial Reporting Standards](International%20Financial%20Reporting%20Standards.md) (IFRS)}@} is {@{a set of accounting standards stating how particular types of transactions and other events should be reported in financial statements}@}. IFRS are issued by {@{the [International Accounting Standards Board](International%20Accounting%20Standards%20Board.md) (IASB)}@}.<sup>[\[2\]](#^ref-2)</sup> With {@{IFRS becoming more widespread on the international scene}@}, {@{_consistency_ in financial reporting has become more prevalent between global organizations}@}. <!--SR:!2025-06-18,212,310!2024-12-03,64,310!2025-07-07,229,330!2024-12-10,70,310!2024-11-23,56,310-->
+On the other hand, {@{[International Financial Reporting Standards](International%20Financial%20Reporting%20Standards.md) (IFRS)}@} is {@{a set of accounting standards stating how particular types of transactions and other events should be reported in financial statements}@}. IFRS are issued by {@{the [International Accounting Standards Board](International%20Accounting%20Standards%20Board.md) (IASB)}@}.<sup>[\[2\]](#^ref-2)</sup> With {@{IFRS becoming more widespread on the international scene}@}, {@{_consistency_ in financial reporting has become more prevalent between global organizations}@}. <!--SR:!2025-06-18,212,310!2024-12-03,64,310!2025-07-07,229,330!2024-12-10,70,310!2025-07-25,244,330-->
 
 While financial accounting is {@{used to prepare accounting information for people outside the organization or not involved in the day-to-day running of the company}@}, [managerial accounting](management%20accounting.md) {@{provides accounting information to help managers make decisions to manage the business}@}. <!--SR:!2025-03-11,133,290!2025-07-11,232,330-->
 
@@ -88,7 +88,7 @@ The net profit or loss is determined by: <br/> {@{sales (revenue) <br/> – [cos
 
 - see: [balance sheet](balance%20sheet.md)
 
-The statement of financial position is also called {@{balance sheet}@}. <!--SR:!2024-11-23,46,315-->
+The statement of financial position is also called {@{balance sheet}@}. <!--SR:!2025-06-11,200,335-->
 
 The balance sheet is {@{the financial statement showing a firm's [assets](asset.md), [liabilities](liability%20(financial%20accounting).md) and [equity](equity%20(finance).md) (capital) at a set point in time, usually the end of the fiscal year reported on the accompanying income statement}@}. The total assets {@{always equal the total combined liabilities and equity}@}. This statement best demonstrates {@{the basic accounting equation: _Assets = Liabilities + Equity_}@}. <!--SR:!2025-04-07,157,310!2024-12-06,66,310!2024-12-05,66,310-->
 
@@ -173,7 +173,7 @@ Thus {@{crediting a credit account or debiting a debit account}@} {@{increases i
 
 Thus {@{debiting a credit account or crediting a debit account}@} {@{decreases its absolute value (balance)}@}. <!--SR:!2025-07-10,232,330!2024-11-26,57,310-->
 
-When {@{the same thing is done to an account as its normal balance}@} it {@{increases; when the opposite is done, it will decrease}@}. Much like {@{signs in math: two positive numbers are added and two negative numbers are also added}@}. It is only when {@{there is one positive and one negative (opposites)}@} that you will {@{subtract}@}. <!--SR:!2025-06-30,223,330!2024-11-23,56,310!2025-02-27,127,310!2025-07-16,236,330!2024-11-24,57,310-->
+When {@{the same thing is done to an account as its normal balance}@} it {@{increases; when the opposite is done, it will decrease}@}. Much like {@{signs in math: two positive numbers are added and two negative numbers are also added}@}. It is only when {@{there is one positive and one negative (opposites)}@} that you will {@{subtract}@}. <!--SR:!2025-06-30,223,330!2025-07-24,243,330!2025-02-27,127,310!2025-07-16,236,330!2024-11-24,57,310-->
 
 However, there are {@{instances of accounts, known as contra-accounts (contra-asset, contra-revenue, and contra-equity accounts), which have a normal balance opposite that listed above}@}. Examples include: <!--SR:!2024-11-26,57,310-->
 

@@ -39,9 +39,9 @@ Consider the above algorithm run on the tree shown to the right. Initially, vert
 
 ## algorithm to convert a Prüfer sequence into a tree
 
-Let {@{`{a[1], a[2], ..., a[n]}`}@} be {@{a Prüfer sequence}@}: <!--SR:!2024-11-23,17,323!2024-11-23,17,323-->
+Let {@{`{a[1], a[2], ..., a[n]}`}@} be {@{a Prüfer sequence}@}: <!--SR:!2025-02-10,79,343!2025-02-09,78,343-->
 
-The tree will {@{have `n+2` nodes, numbered from `1` to `n+2`}@}. For {@{each node}@} {@{set its degree to the number of times it appears in the sequence plus 1}@}. For instance, in pseudo-code: <!--SR:!2024-11-23,17,323!2024-11-23,17,323!2024-11-23,17,323-->
+The tree will {@{have `n+2` nodes, numbered from `1` to `n+2`}@}. For {@{each node}@} {@{set its degree to the number of times it appears in the sequence plus 1}@}. For instance, in pseudo-code: <!--SR:!2025-02-08,77,343!2025-02-06,75,343!2025-02-08,77,343-->
 
 <pre>
 <b>Convert-Prüfer-to-Tree</b>(<i>a</i>)
@@ -78,7 +78,7 @@ Convert-Prüfer-to-Tree(a)
 >  7     {@{<i>degree</i>[<i>i</i>] ← <i>degree</i>[<i>i</i>] + 1}@}
 > </pre> <!--SR:!2024-11-26,4,327!2024-11-26,4,327!2024-11-26,4,327!2024-11-26,4,327!2024-11-26,4,327!2024-11-26,4,327!2024-11-26,4,327!2024-11-26,4,327-->
 
-Next, for {@{each number in the sequence `a[i]`}@}, {@{find the first (lowest-numbered) node, `j`, with degree equal to 1}@}, {@{add the edge `(j, a[i])` to the tree, and decrement the degrees of `j` and `a[i]`}@}. In pseudo-code: <!--SR:!2024-11-23,17,323!2024-11-24,18,323!2024-11-23,17,323-->
+Next, for {@{each number in the sequence `a[i]`}@}, {@{find the first (lowest-numbered) node, `j`, with degree equal to 1}@}, {@{add the edge `(j, a[i])` to the tree, and decrement the degrees of `j` and `a[i]`}@}. In pseudo-code: <!--SR:!2025-02-07,76,343!2024-11-24,18,323!2025-02-09,78,343-->
 
 <pre>
  8 <b>for</b> each value <i>i</i> in <i>a</i> <b>do</b>
@@ -112,7 +112,7 @@ Next, for {@{each number in the sequence `a[i]`}@}, {@{find the first (lowest-nu
 > 14             {@{<b>break</b>}@}
 > </pre> <!--SR:!2024-11-26,4,327!2024-11-26,4,327!2024-11-26,4,327!2024-11-26,4,327!2024-11-26,4,327!2024-11-26,4,327!2024-11-26,4,327-->
 
-At {@{the end of this loop}@} {@{two nodes with degree 1 will remain (call them `u`, `v`)}@}. Lastly, {@{add the edge `(u,v)` to the tree}@}.<sup>[\[3\]](#^ref-3)</sup> <!--SR:!2024-11-23,17,323!2024-11-23,17,323!2024-11-23,17,323-->
+At {@{the end of this loop}@} {@{two nodes with degree 1 will remain (call them `u`, `v`)}@}. Lastly, {@{add the edge `(u,v)` to the tree}@}.<sup>[\[3\]](#^ref-3)</sup> <!--SR:!2025-02-10,79,343!2025-02-06,75,343!2025-02-10,79,343-->
 
 <pre>
 15 <i>u</i> ← <i>v</i> ← 0
@@ -165,7 +165,7 @@ At {@{the end of this loop}@} {@{two nodes with degree 1 will remain (call them 
 
 > [!tip] tips
 >
-> - alternative formulation ::@:: Let there be a sequence _N_ of _n_ labelled vertices and a Prüfer sequence. <p> Find the leaf (a node that is not in the Prüfer sequence) with the smallest label in the sequence _N_. Join it with the first node in the Prüfer sequence. Remove said leaf from the sequence _N_ and the first node from the Prüfer sequence. This may make a node in _N_ that was not a leaf now a leaf. <p> Repeat until there are only 2 nodes left in the sequence _N_. Connect those 2 nodes to get the tree. <!--SR:!2024-11-23,17,323!2024-11-23,17,323-->
+> - alternative formulation ::@:: Let there be a sequence _N_ of _n_ labelled vertices and a Prüfer sequence. <p> Find the leaf (a node that is not in the Prüfer sequence) with the smallest label in the sequence _N_. Join it with the first node in the Prüfer sequence. Remove said leaf from the sequence _N_ and the first node from the Prüfer sequence. This may make a node in _N_ that was not a leaf now a leaf. <p> Repeat until there are only 2 nodes left in the sequence _N_. Connect those 2 nodes to get the tree. <!--SR:!2025-02-10,79,343!2025-02-07,76,343-->
 
 ## Cayley's formula
 

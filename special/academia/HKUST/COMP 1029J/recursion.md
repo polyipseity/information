@@ -11,7 +11,7 @@ tags:
 
 Recursion is all about {@{reducing any problem to a simpler similar problem,  repeating this process until you get several base problems that are irreducible}@}. <!--SR:!2026-12-28,802,330-->
 
-Usually, we {@{do not use recursion}@} in Java. But if it is required, it is as simple as {@{conditionally calling the method itself in a method and adding base cases to the method}@}. For example, a recursive way to reverse a string: <!--SR:!2024-11-23,225,330!2026-05-20,625,330-->
+Usually, we {@{do not use recursion}@} in Java. But if it is required, it is as simple as {@{conditionally calling the method itself in a method and adding base cases to the method}@}. For example, a recursive way to reverse a string: <!--SR:!2027-09-12,1023,350!2026-05-20,625,330-->
 
 ```Java
 public static String reverse(String input) {
