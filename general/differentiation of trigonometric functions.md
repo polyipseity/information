@@ -64,7 +64,7 @@ return await memorize_map(
 <!--pytextgen generate section="e934"--><!-- The following content is generated at 2024-01-04T20:17:51.635097+08:00. Any edits will be overridden! -->
 
 - $\sin{x}$:@:$\cos{x}$ <!--SR:!2027-09-29,1086,350-->
-- $\cos{x}$:@:$-\sin{x}$ <!--SR:!2024-11-24,278,330-->
+- $\cos{x}$:@:$-\sin{x}$ <!--SR:!2028-05-14,1267,350-->
 - $\tan{x}$:@:$\sec^2{x}$ <!--SR:!2024-11-29,282,330-->
 - $\cot{x}$:@:$-\csc^2{x}$ <!--SR:!2025-02-20,114,210-->
 - $\sec{x}$:@:$\sec{x}\tan{x}$ <!--SR:!2026-05-25,608,290-->

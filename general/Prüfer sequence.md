@@ -78,7 +78,7 @@ Convert-Prüfer-to-Tree(a)
 >  7     {@{<i>degree</i>[<i>i</i>] ← <i>degree</i>[<i>i</i>] + 1}@}
 > </pre> <!--SR:!2024-11-26,4,327!2024-11-26,4,327!2024-11-26,4,327!2024-11-26,4,327!2024-11-26,4,327!2024-11-26,4,327!2024-11-26,4,327!2024-11-26,4,327-->
 
-Next, for {@{each number in the sequence `a[i]`}@}, {@{find the first (lowest-numbered) node, `j`, with degree equal to 1}@}, {@{add the edge `(j, a[i])` to the tree, and decrement the degrees of `j` and `a[i]`}@}. In pseudo-code: <!--SR:!2025-02-07,76,343!2024-11-24,18,323!2025-02-09,78,343-->
+Next, for {@{each number in the sequence `a[i]`}@}, {@{find the first (lowest-numbered) node, `j`, with degree equal to 1}@}, {@{add the edge `(j, a[i])` to the tree, and decrement the degrees of `j` and `a[i]`}@}. In pseudo-code: <!--SR:!2025-02-07,76,343!2025-02-12,80,343!2025-02-09,78,343-->
 
 <pre>
  8 <b>for</b> each value <i>i</i> in <i>a</i> <b>do</b>

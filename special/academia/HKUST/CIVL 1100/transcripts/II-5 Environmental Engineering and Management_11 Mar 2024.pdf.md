@@ -215,7 +215,7 @@ How to provide motivation for waste reduction, reuse and recycling?
 MSW Waste Charging Scheme
 
 - MSW waste charging scheme passing date ::@:: 2021-09-26 by Legco <!--SR:!2025-01-17,55,230!2025-04-16,214,270-->
-  - MSW waste charging scheme preparation period ::@:: 18 months <!--SR:!2025-03-03,203,310!2024-11-24,140,310-->
+  - MSW waste charging scheme preparation period ::@:: 18 months <!--SR:!2025-03-03,203,310!2026-07-17,600,330-->
   - MSW waste charging scheme details ::@:: buy designated bags (0.11 HKD/L) at ~4000 selling points <!--SR:!2025-03-02,180,270!2025-04-05,245,330-->
   - MSW waste charging scheme penalty ::@:: max HK$25&nbsp;000 fine and 6 months in prison <!--SR:!2025-10-15,330,310!2025-01-26,187,310-->
 
@@ -418,7 +418,7 @@ Observed climate change in Hong Kong
 Concentration Units for Liquids
 
 - concentration units for liquids ::@:: mass of substance per unit mass of mixture, mass of substance per unit volume of mixture <!--SR:!2025-06-07,242,270!2026-04-06,500,310-->
-  - mass of substance per unit volume of mixture units for liquids ::@:: mol/L (mol is not strictly mass), mg/L <!--SR:!2024-11-24,138,310!2025-02-06,185,310-->
+  - mass of substance per unit volume of mixture units for liquids ::@:: mol/L (mol is not strictly mass), mg/L <!--SR:!2026-07-09,592,330!2025-02-06,185,310-->
   - mass of substance per unit mass of mixture units for liquids ::@:: parts per billion (ppb) by weight, parts per million (ppm) by weight <!--SR:!2025-03-09,205,310!2025-06-21,306,330-->
 
 ## page 34
@@ -458,5 +458,5 @@ Relationship between ppm<sub>v</sub> and mg/m<sup>3</sup>
 Relationship between ppm<sub>v</sub> and mg/m<sup>3</sup>
 
 - relationship between ppm<sub>v</sub> and mg/m<sup>3</sup>
-  - relationship between ppm<sub>v</sub> and mg/m<sup>3</sup> at 0 °C and 1 atm ::@:: $$\mathrm{conc.\ \left(mg/m^3\right)} = \frac {\mathrm{conc.\ (ppm_v)} \times \mathrm{mol.\ wt.\ (g/mol)} } {22.414\mathrm{\ (L/mol)} }$$ <!--SR:!2024-11-24,86,290!2025-10-09,336,290-->
+  - relationship between ppm<sub>v</sub> and mg/m<sup>3</sup> at 0 °C and 1 atm ::@:: $$\mathrm{conc.\ \left(mg/m^3\right)} = \frac {\mathrm{conc.\ (ppm_v)} \times \mathrm{mol.\ wt.\ (g/mol)} } {22.414\mathrm{\ (L/mol)} }$$ <!--SR:!2025-08-05,254,290!2025-10-09,336,290-->
   - relationship between ppm<sub>v</sub> and mg/m<sup>3</sup> at other temperature and pressure ::@:: $$\mathrm{conc.\ \left(mg/m^3\right)} = \frac {\mathrm{conc.\ (ppm_v)} \times \mathrm{mol.\ wt.\ (g/mol)} } {\mathrm{22.414\ (L/mol)} } \times \frac {273.15\mathrm{\ K} } {T\mathrm{\ (K)} } \times \frac {p\mathrm{\ (atm)} } {1\mathrm{\ atm} }$$ <!--SR:!2025-07-09,265,270!2025-07-12,277,290-->

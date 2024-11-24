@@ -21,7 +21,7 @@ A formula always {@{starts with an equals sign `=`}@}. <!--SR:!2025-02-20,294,33
 
 To get the value of a cell in a formula, {@{use its location, like `=A1`. This is known as a _cell reference_}@}. <!--SR:!2026-10-13,702,330-->
 
-When copy and pasting formulas, the cell references in the formula {@{are offsetted by the same offset from the original cell to the copied cell}@}. To prevent this offset, {@{add `$` before the column, the row, or both, like `=$A$1`}@}. <!--SR:!2024-11-24,209,310!2027-05-08,896,330-->
+When copy and pasting formulas, the cell references in the formula {@{are offsetted by the same offset from the original cell to the copied cell}@}. To prevent this offset, {@{add `$` before the column, the row, or both, like `=$A$1`}@}. <!--SR:!2027-05-05,892,330!2027-05-08,896,330-->
 
 ## operators
 
@@ -134,7 +134,7 @@ return _chain.from_iterable(await _gather(
 
 - _(begin)_→::@::←`=` <!--SR:!2025-03-09,209,270!2026-07-17,626,310-->
 - `=`→::@::←`<` <!--SR:!2025-11-08,425,290!2025-02-19,273,310-->
-- `<`→::@::←`>` <!--SR:!2025-01-12,268,330!2024-11-24,210,310-->
+- `<`→::@::←`>` <!--SR:!2025-01-12,268,330!2027-05-11,898,330-->
 - `>`→::@::←`<=` <!--SR:!2024-11-25,210,310!2025-11-02,355,250-->
 - `<=`→::@::←`>=` <!--SR:!2026-10-27,747,330!2026-09-06,667,290-->
 - `>=`→::@::←`<>` <!--SR:!2025-03-13,139,270!2025-07-09,237,310-->

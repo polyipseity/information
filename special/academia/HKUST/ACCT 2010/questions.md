@@ -57,7 +57,7 @@ tags:
 > 2. balance sheet
 > 3. statement of cash flow
 >
-> - solution: {@{1}@} <!--SR:!2024-11-24,45,290-->
+> - solution: {@{1}@} <!--SR:!2025-05-27,184,310-->
 
 <!-- markdownlint MD028 -->
 

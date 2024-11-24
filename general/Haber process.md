@@ -20,7 +20,7 @@ The primary reaction is:
 
 > primary reaction
 >
-> - {@{$\ce{N2(g) + 3H2(g) <=>[\text{finely divided iron}][\text{400–450 °C, 200 atm}] 2NH3(g)}\qquad\Delta{}H=-91.8\ \text{kJ mol}^{-1}$}@} <!--SR:!2024-11-24,54,130-->
+> - {@{$\ce{N2(g) + 3H2(g) <=>[\text{finely divided iron}][\text{400–450 °C, 200 atm}] 2NH3(g)}\qquad\Delta{}H=-91.8\ \text{kJ mol}^{-1}$}@} <!--SR:!2025-02-05,73,130-->
 
 ## process
 
@@ -113,7 +113,7 @@ return await memorize_seq(
 - _(large scale implementation of the Haber process)_→::@::←Purify and dry [syngas](syngas.md) in purifiers and driers. <!--SR:!2025-12-23,662,310!2027-12-11,1309,350-->
 - Purify and dry [syngas](syngas.md) in purifiers and driers.→::@::←Mix [nitrogen](nitrogen.md) and [hydrogen](hydrogen.md) in the ratio of 1:3 by volume. <!--SR:!2025-10-01,604,310!2026-02-27,709,310-->
 - Mix [nitrogen](nitrogen.md) and [hydrogen](hydrogen.md) in the ratio of 1:3 by volume.→::@::←The gas mixture is compressed using [axial compressors](axial%20compressor.md). The heat from compression is used to preheat raw gases using [heat exchangers](heat%20exchanger.md). <!--SR:!2025-07-23,461,230!2025-03-09,234,250-->
-- The gas mixture is compressed using [axial compressors](axial%20compressor.md). The heat from compression is used to preheat raw gases using [heat exchangers](heat%20exchanger.md).→::@::←The gas mixture is preheated in [heat exchangers](heat%20exchanger.md). <!--SR:!2025-01-31,434,290!2024-11-24,55,130-->
+- The gas mixture is compressed using [axial compressors](axial%20compressor.md). The heat from compression is used to preheat raw gases using [heat exchangers](heat%20exchanger.md).→::@::←The gas mixture is preheated in [heat exchangers](heat%20exchanger.md). <!--SR:!2025-01-31,434,290!2025-02-06,74,130-->
 - The gas mixture is preheated in [heat exchangers](heat%20exchanger.md).→::@::←The gas mixture enters catalytic chambers for reaction. <!--SR:!2026-09-15,926,330!2025-03-20,454,290-->
 - The gas mixture enters catalytic chambers for reaction.→::@::←The product mixture containing [ammonia](ammonia.md), unreacted [nitrogen](nitrogen.md) and [hydrogen](hydrogen.md) is cooled to 450 °C in [heat exchangers](heat%20exchanger.md) using fresh reactants, [water](water.md), or other process streams. <!--SR:!2025-05-01,193,170!2026-12-02,986,330-->
 - The product mixture containing [ammonia](ammonia.md), unreacted [nitrogen](nitrogen.md) and [hydrogen](hydrogen.md) is cooled to 450 °C in [heat exchangers](heat%20exchanger.md) using fresh reactants, [water](water.md), or other process streams.→::@::←The [ammonia](ammonia.md) liquefies under pressure in a [condenser](condenser.md), is separated by a pressure separator, and collected. Unreacted [nitrogen](nitrogen.md) and [hydrogen](hydrogen.md) are compressed and recycled by a circulating gas [compressor](compressor.md). <!--SR:!2025-07-05,484,250!2025-05-29,459,250-->

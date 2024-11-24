@@ -277,7 +277,7 @@ return _chain.from_iterable(await _gather(
 - `<=`:@:lesser than or equal to <!--SR:!2024-11-27,212,310-->
 - `>=`:@:greater than or equal to <!--SR:!2025-01-23,276,330-->
 - `==`:@:equal to <!--SR:!2025-02-01,279,330-->
-- `!=`:@:not equal to <!--SR:!2024-11-24,228,330-->
+- `!=`:@:not equal to <!--SR:!2027-09-26,1036,350-->
 
 <!--/pytextgen-->
 

@@ -13,7 +13,7 @@ tags:
 
 ## algorithms
 
-In a database, there are usually {@{many possible views to materialize}@}. But it is {@{not practical to materialize them all because of practical constraints}@}, such as {@{the number of views, the total size of views, the update cost, etc.}@} Selecting the best views that {@{reduces the cost of answering queries while staying within the constraints}@} is known as {@{the view materialization problem}@}. It is {@{[NP-complete](NP-completeness.md)}@}. A variety of [algorithms](materialized%20view.md#algorithms) have been explored, such as {@{[greedy algorithms](#greedy%20algorithm), randomized search, [genetic algorithms](genetic%20algorithm.md), and [A* search algorithm](A*%20search%20algorithm.md)}@}. <!--SR:!2025-04-07,226,330!2025-10-26,369,310!2025-03-28,193,290!2025-07-05,285,310!2025-01-19,164,310!2025-05-12,255,330!2024-11-24,110,290-->
+In a database, there are usually {@{many possible views to materialize}@}. But it is {@{not practical to materialize them all because of practical constraints}@}, such as {@{the number of views, the total size of views, the update cost, etc.}@} Selecting the best views that {@{reduces the cost of answering queries while staying within the constraints}@} is known as {@{the view materialization problem}@}. It is {@{[NP-complete](NP-completeness.md)}@}. A variety of [algorithms](materialized%20view.md#algorithms) have been explored, such as {@{[greedy algorithms](#greedy%20algorithm), randomized search, [genetic algorithms](genetic%20algorithm.md), and [A* search algorithm](A*%20search%20algorithm.md)}@}. <!--SR:!2025-04-07,226,330!2025-10-26,369,310!2025-03-28,193,290!2025-07-05,285,310!2025-01-19,164,310!2025-05-12,255,330!2026-02-17,450,310-->
 
 ### terminology
 

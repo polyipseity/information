@@ -34,7 +34,7 @@ Probably the most accepted accounting definition of liability is {@{the one used
 
 Regulations as to the recognition of liabilities are {@{different all over the world, but are roughly similar to those of the IASB}@}. <!--SR:!2024-12-06,59,310-->
 
-Examples of types of liabilities include: {@{money owing on a loan, money owing on a mortgage, or an [IOU](IOU.md)}@}. <!--SR:!2024-11-24,45,290-->
+Examples of types of liabilities include: {@{money owing on a loan, money owing on a mortgage, or an [IOU](IOU.md)}@}. <!--SR:!2025-05-26,183,310-->
 
 __Liabilities__ are {@{debts and obligations of the business they represent as __creditor's claim__ on business assets}@}. <!--SR:!2024-12-03,56,310-->
 

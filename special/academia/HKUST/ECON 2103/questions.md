@@ -233,7 +233,7 @@ tags:
 > 2. The price of music downloads falls.
 > 3. The price of CDs falls.
 >
-> - solution: {@{For 1, the demand curve moves to the right, as music downloads and iPods/MP3 players are complements. For 2, the demand curve does not change, only the quantity demanded increases under the _law of demand_. For 3, the demand curve moves to the left, as music downloads and CDs are substitutes.}@} <!--SR:!2024-11-24,16,336-->
+> - solution: {@{For 1, the demand curve moves to the right, as music downloads and iPods/MP3 players are complements. For 2, the demand curve does not change, only the quantity demanded increases under the _law of demand_. For 3, the demand curve moves to the left, as music downloads and CDs are substitutes.}@} <!--SR:!2025-02-07,75,356-->
 
 <!-- markdownlint MD028 -->
 
@@ -266,7 +266,7 @@ tags:
 > 4. excess capacity
 >
 > - solution: {@{3}@}
-> - explanation: {@{It would only affect the equilibrium price and quantity.}@} <!--SR:!2024-11-26,18,336!2024-11-24,16,336-->
+> - explanation: {@{It would only affect the equilibrium price and quantity.}@} <!--SR:!2024-11-26,18,336!2025-02-06,74,356-->
 
 ### chapter 8 lecture
 
