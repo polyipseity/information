@@ -36,6 +36,7 @@ _PRESERVED_PAGE_PREFIXES = {
     "commons": "https://commons.wikimedia.org/wiki/{}",
     "oeis:": "https://oeis.org/{}",
     "q:": "https://en.wikiquote.org/wiki/{}",
+    "v:": "https://en.wikiversity.org/wiki/{}",
     "wikiversity:": "https://en.wikiversity.org/wiki/{}",
     "wikt:": "https://en.wiktionary.org/wiki/{}",
     "wiktionary:": "https://en.wiktionary.org/wiki/{}",
