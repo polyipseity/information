@@ -477,7 +477,7 @@ return chain.from_iterable(await gather(
 - sulfide ion:@:_(n/a)_ <!--SR:!2025-04-24,452,256-->
 - sulfate ion:@:colorless <!--SR:!2026-08-20,1076,274-->
 - sulfite ion:@:colorless <!--SR:!2025-12-21,758,294-->
-- carbonate ion:@:colorless <!--SR:!2024-11-25,591,252-->
+- carbonate ion:@:colorless <!--SR:!2030-08-15,2089,272-->
 - chromate ion:@:<span style="color: yellow; background-color: black;">yellow</span> <!--SR:!2025-01-11,566,250-->
 - dichromate ion:@:<span style="color: orange;">orange</span> <!--SR:!2027-10-05,1481,293-->
 - nitride ion:@:_(n/a)_ <!--SR:!2024-12-31,444,256-->

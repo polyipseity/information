@@ -592,7 +592,7 @@ nuclear
 
 - _(begin)_→::@::←agricultural <!--SR:!2025-11-19,421,310!2025-12-04,477,392-->
 - agricultural→::@::←architectural <!--SR:!2025-01-31,212,357!2025-06-08,311,372-->
-- architectural→::@::←biomedical <!--SR:!2026-09-02,667,357!2024-11-25,152,340-->
+- architectural→::@::←biomedical <!--SR:!2026-09-02,667,357!2026-11-06,711,360-->
 - biomedical→::@::←ceramic <!--SR:!2026-01-05,426,320!2026-03-07,528,357-->
 - ceramic→::@::←chemical <!--SR:!2024-12-15,154,320!2025-10-27,398,335-->
 - chemical→::@::←civil <!--SR:!2026-01-19,455,337!2024-12-24,194,357-->
@@ -951,7 +951,7 @@ wave
 
 - _(begin)_→::@::←earthquake <!--SR:!2026-03-08,482,340!2025-02-25,240,357-->
 - earthquake→::@::←fire <!--SR:!2025-10-26,391,335!2025-04-04,255,360-->
-- fire→::@::←flood <!--SR:!2024-11-25,155,324!2025-06-11,279,266-->
+- fire→::@::←flood <!--SR:!2026-10-18,692,344!2025-06-11,279,266-->
 - flood→::@::←strong wind <!--SR:!2024-12-03,92,300!2026-02-20,467,317-->
 - strong wind→::@::←wave <!--SR:!2025-01-11,218,290!2025-08-18,314,294-->
 - wave→::@::←_(end)_ <!--SR:!2025-01-03,199,357!2025-02-17,210,315-->
@@ -1148,7 +1148,7 @@ and the Structural Engineering Institute (SEI).
 - Other possible factors include corruption, insufficient reinforcing steel, and land subsidence.→::@::←The problems had been reported in 2018 and a US$15M program of remedial work has been approved, though no main structural work has taken place. <!--SR:!2025-11-27,384,294!2025-05-18,271,316-->
 - The problems had been reported in 2018 and a US$15M program of remedial work has been approved, though no main structural work has taken place.→::@::←On 25 August 2021, the National Institute of Standards and Technology (NIST) has been tasked with investigation, <!--SR:!2026-03-31,504,337!2025-11-17,413,335-->
 - On 25 August 2021, the National Institute of Standards and Technology (NIST) has been tasked with investigation,→::@::←with investigators coming from the American Concrete Institute (ACI), <!--SR:!2026-02-25,487,327!2025-06-05,278,307-->
-- with investigators coming from the American Concrete Institute (ACI),→::@::←the American Society of Civil Engineers (ASCE), <!--SR:!2024-11-25,156,334!2025-05-18,269,310-->
+- with investigators coming from the American Concrete Institute (ACI),→::@::←the American Society of Civil Engineers (ASCE), <!--SR:!2026-05-02,523,334!2025-05-18,269,310-->
 - the American Society of Civil Engineers (ASCE),→::@::←the Geode Institute (GI), <!--SR:!2025-02-04,190,290!2026-06-04,602,357-->
 - the Geode Institute (GI),→::@::←and the Structural Engineering Institute (SEI). <!--SR:!2025-10-29,426,357!2024-12-11,201,330-->
 - and the Structural Engineering Institute (SEI).→::@::←_(end)_ <!--SR:!2025-05-08,326,350!2024-12-06,196,330-->

@@ -223,7 +223,7 @@ tags:
 > 4. demand for A increases and supply for A decreases
 >
 > - solution: {@{3}@}
-> - explanation: {@{If demand increase, both equilibrium quantity and price increase. If supply increase, equilibrium quantity increase but equilibrium price decreases. If both happens at the same time at the right extents, then we can make it such that equilibrium quantity increase but equilibrium price remains unchanged.}@} <!--SR:!2024-11-25,17,336!2024-11-26,18,336-->
+> - explanation: {@{If demand increase, both equilibrium quantity and price increase. If supply increase, equilibrium quantity increase but equilibrium price decreases. If both happens at the same time at the right extents, then we can make it such that equilibrium quantity increase but equilibrium price remains unchanged.}@} <!--SR:!2025-02-13,80,356!2024-11-26,18,336-->
 
 <!-- markdownlint MD028 -->
 
@@ -254,7 +254,7 @@ tags:
 > 3. all of the above
 > 4. none of the above
 >
-> - solution: {@{1}@} <!--SR:!2024-11-25,17,336-->
+> - solution: {@{1}@} <!--SR:!2025-02-12,79,356-->
 
 <!-- markdownlint MD028 -->
 

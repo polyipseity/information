@@ -73,7 +73,7 @@ Customer pains include {@{undesirable things, obstacles, and risks}@}. Make pain
 
 Customer gains can be separated into four levels: {@{required, required by customers; expected, expected by customers; desired gains, wanted by customers; and unexpected gains, wanted by customers but customers do not know}@}. Make gains {@{concrete}@}. Like customer pains, note that gains {@{can have different severity}@}. <!--SR:!2024-12-27,153,249!2024-11-30,175,329!2025-03-13,265,330-->
 
-Since customer jobs, customer pains, and customer gains all can have {@{different priorities or severity, so we can rank them}@}. Ranking them can be based on {@{what you think given that it eventually truly reflects the customers' perspectives}@}.  Pains and gains can exist {@{on a continuum, are not always absolute or binary}@}. For example, {@{waiting time for a food order can be a gain if it is faster than expected and a pain if it is slower than expected}@}. Pains and gains are also not {@{opposite}@}, like {@{coffee temperature being too low or too high are both pains}@}. <!--SR:!2026-06-17,592,310!2024-12-02,177,329!2025-08-29,372,365!2025-10-05,402,365!2025-05-04,261,345!2024-11-25,151,324-->
+Since customer jobs, customer pains, and customer gains all can have {@{different priorities or severity, so we can rank them}@}. Ranking them can be based on {@{what you think given that it eventually truly reflects the customers' perspectives}@}.  Pains and gains can exist {@{on a continuum, are not always absolute or binary}@}. For example, {@{waiting time for a food order can be a gain if it is faster than expected and a pain if it is slower than expected}@}. Pains and gains are also not {@{opposite}@}, like {@{coffee temperature being too low or too high are both pains}@}. <!--SR:!2026-06-17,592,310!2024-12-02,177,329!2025-08-29,372,365!2025-10-05,402,365!2025-05-04,261,345!2026-10-04,678,344-->
 
 There are several [common mistakes](#customer%20profile%20common%20mistakes) to be aware of. <!--SR:!2024-05-16,18,269-->
 
@@ -111,7 +111,7 @@ vagueness: vague jobs, pains, and gains
 
 - _(begin)_→::@::←hyperfocus: focusing on functional jobs only <!--SR:!2025-01-05,146,229!2025-04-22,289,349-->
 - hyperfocus: focusing on functional jobs only→::@::←insufficiency: not enough jobs, pains, and gains <!--SR:!2025-07-31,287,249!2025-01-01,163,269-->
-- insufficiency: not enough jobs, pains, and gains→::@::←mix: mixing customer segments <!--SR:!2025-05-13,182,189!2024-11-25,8,130-->
+- insufficiency: not enough jobs, pains, and gains→::@::←mix: mixing customer segments <!--SR:!2025-05-13,182,189!2024-12-06,11,130-->
 - mix: mixing customer segments→::@::←mix: mixing jobs and outcomes <!--SR:!2025-08-19,323,289!2025-01-03,78,249-->
 - mix: mixing jobs and outcomes→::@::←opposite: gains and pains are not opposite, gains are beyond expectation while pains are falling short of expectation <!--SR:!2025-02-01,100,225!2025-05-29,247,285-->
 - opposite: gains and pains are not opposite, gains are beyond expectation while pains are falling short of expectation→::@::←reversed: listing jobs, pains, and gains from your product value propositions <!--SR:!2025-01-17,174,269!2025-01-22,63,189-->
@@ -260,7 +260,7 @@ conclusion: make progress
 - hypothesis: extract hypotheses→::@::←hypothesis: prioritize hypotheses <!--SR:!2025-07-29,366,349!2026-08-03,629,329-->
 - hypothesis: prioritize hypotheses→::@::←test: design tests <!--SR:!2025-01-02,184,309!2025-02-05,199,270-->
 - test: design tests→::@::←test: prioritize tests <!--SR:!2025-07-09,282,309!2025-11-28,450,310-->
-- test: prioritize tests→::@::←test: run tests <!--SR:!2025-01-18,213,329!2024-11-25,166,310-->
+- test: prioritize tests→::@::←test: run tests <!--SR:!2025-01-18,213,329!2026-04-24,515,310-->
 - test: run tests→::@::←conclusion: capture findings <!--SR:!2025-08-14,301,269!2025-11-30,404,309-->
 - conclusion: capture findings→::@::←conclusion: make progress <!--SR:!2025-02-09,213,329!2025-11-16,404,309-->
 - conclusion: make progress→::@::←_(end)_ <!--SR:!2025-02-14,218,329!2025-07-29,301,270-->

@@ -21,7 +21,7 @@ Why do reverse engineering, apart from CTFs? ::@:: You can analyze malware, ensu
 
 ## compiling a program
 
-Assuming you are using Linux. For developers, compiling a C program is {@{simply running the GNU Compiler Collection (gcc) using the ocmmand `gcc <input>.c -o <output>` in a terminal, which compiles the C code in `<input>.c` into a program called `<output>`}@}. <!--SR:!2024-11-25,60,325-->
+Assuming you are using Linux. For developers, compiling a C program is {@{simply running the GNU Compiler Collection (gcc) using the ocmmand `gcc <input>.c -o <output>` in a terminal, which compiles the C code in `<input>.c` into a program called `<output>`}@}. <!--SR:!2025-08-26,274,345-->
 
 However, we can go further than this. The program `<output>` is {@{actually a format called an _Executable and Linkable Format_ (ELF) file}@}. The property we can about here is that {@{you can execute it, as evident from the "executable" in its name}@}. Details will be mentioned in later lectures. <!--SR:!2024-12-17,83,345!2024-12-07,75,345-->
 
@@ -45,7 +45,7 @@ Assembly is {@{not a single language}@}. Rather, there are {@{multiple languages
 
 Registers {@{hold data of fixed small sizes}@}. x86, a {@{32-bit}@} architecture, has {@{8 general-purpose 32-bit registers, named `eax`, `ecx`, `edx`, `ebx`, `esp`, `ebp`, `esi`, and `edi`}@}. x86-64, a {@{64-bit}@} architecture, introduces {@{8 additional general-purpose 64-bit registers, named `r8`, `r9`, `r10`, `r11`, `r12`, `r13`, `r14`, and `r15`}@}, and upgrades {@{the old 8 general-purpose 32-bit registers to 64-bit and changing the starting `e` to `r`}@}. There is also {@{a special 32-bit or 64-bit register named `eip` (32-bit) or `rip` (64-bit)}@}, which {@{points to the current instruction being executed}@}. Unlike other registers, it {@{cannot be read from or written to directly}@}. Lastly, there is {@{another special 32-bit or 64-bit register named `eflags` (32-bit) or `rflags` (64-bit)}@}, which {@{holds various _flags_ (not _flag_ as in CTF) representing the current CPU status (state)}@}. The above registers are {@{the most commonly used ones, and there are many more not mentioned here}@}. <!--SR:!2025-08-28,277,343!2024-12-13,80,345!2025-02-05,105,303!2024-12-04,72,337!2025-07-06,232,330!2024-12-13,80,345!2025-08-03,255,330!2024-12-08,76,345!2024-12-03,70,323!2024-12-09,75,337!2025-04-02,159,325!2024-12-09,76,345-->
 
-A register {@{does not need to be access in its entirety}@}. Instead, we can access {@{the lowest (least significant) bits of a register only}@}. To {@{access the entire register (64 bits)}@}, {@{change the register prefix to `r`, e.g. `rax`, `rsp`, `r8`}@}. To {@{access the lowest 32 bits}@}, {@{change the register prefix to `e` if the register name does not contain a number, or append `d` otherwise, e.g. `eax`, `esp`, `r8d`}@}. To {@{access the lowest 16 bits}@}, {@{remove the register prefix if the register name does not contain a number, or append `w` otherwise, e.g. `ax`, `sp`, `r8w`}@}. To {@{access the lowest 8 bits}@}, {@{remove the register prefix, remove the ending `x` if any, and append `l` if the register name does not contain a number, or append `b` otherwise, e.g. `al`, `spl`, `r8b`}@}. Note that {@{`epl`/`rpl` cannot have only its lowest 8 bits accessed, i.e. `ipl` is invalid}@}. For {@{4 of the registers, which are `eax`/`rax`, `ecx`/`rcx`, `edx`/`rdx`, and `ebx`/`rbx`}@}, we can {@{also access the 8 bits just above the lowest 8 bits}@} by {@{writing `ah`, `ch`, `dh`, or `bh`}@}. <!--SR:!2024-12-08,75,343!2025-09-01,282,357!2025-08-15,267,343!2024-12-06,73,345!2024-12-07,74,323!2025-09-05,286,357!2025-04-11,166,310!2024-12-20,85,345!2025-07-27,249,330!2024-12-02,69,323!2024-11-25,62,317!2024-11-25,63,323!2025-04-20,159,317!2025-06-30,227,330-->
+A register {@{does not need to be access in its entirety}@}. Instead, we can access {@{the lowest (least significant) bits of a register only}@}. To {@{access the entire register (64 bits)}@}, {@{change the register prefix to `r`, e.g. `rax`, `rsp`, `r8`}@}. To {@{access the lowest 32 bits}@}, {@{change the register prefix to `e` if the register name does not contain a number, or append `d` otherwise, e.g. `eax`, `esp`, `r8d`}@}. To {@{access the lowest 16 bits}@}, {@{remove the register prefix if the register name does not contain a number, or append `w` otherwise, e.g. `ax`, `sp`, `r8w`}@}. To {@{access the lowest 8 bits}@}, {@{remove the register prefix, remove the ending `x` if any, and append `l` if the register name does not contain a number, or append `b` otherwise, e.g. `al`, `spl`, `r8b`}@}. Note that {@{`epl`/`rpl` cannot have only its lowest 8 bits accessed, i.e. `ipl` is invalid}@}. For {@{4 of the registers, which are `eax`/`rax`, `ecx`/`rcx`, `edx`/`rdx`, and `ebx`/`rbx`}@}, we can {@{also access the 8 bits just above the lowest 8 bits}@} by {@{writing `ah`, `ch`, `dh`, or `bh`}@}. <!--SR:!2024-12-08,75,343!2025-09-01,282,357!2025-08-15,267,343!2024-12-06,73,345!2024-12-07,74,323!2025-09-05,286,357!2025-04-11,166,310!2024-12-20,85,345!2025-07-27,249,330!2024-12-02,69,323!2025-06-13,200,317!2025-09-06,285,343!2025-04-20,159,317!2025-06-30,227,330-->
 
 The register names of {@{4 registers were intended to have meanings}@}, with {@{`esp` being the "stack pointer", `ebp` being the "base pointer", `esi` being the "source index", and `edi` being the "destination index"}@}, but you can use them {@{in any way you want theoretically}@}. In practice, {@{a convention is adopted, and certain general-purpose registers are intended to be used in a specific way}@}. A common convention is that {@{`rsp` is really the _stack pointer_ pointing to the top (low address) of the stack, `rbp` is really the _base pointer_ pointing to the bottom (high address) of the current frame in the stack, but `rdi` and `rsi` have no particular meanings}@}. `rsp` is used this way because {@{`push`, `pop`, `call`, and `ret` manipulate `rsp`}@}. <!--SR:!2024-12-11,77,345!2024-12-16,81,345!2024-12-08,75,345!2025-05-01,178,323!2024-12-01,68,323!2025-08-11,265,371-->
 
@@ -55,7 +55,7 @@ x86 has {@{two main syntax branches: _Intel syntax_ and _AT&T syntax_}@}. We wil
 
 ### instructions
 
-Comment {@{starts with `;` to the end of line}@}, similar to {@{`//` in C}@}. <!--SR:!2024-11-25,62,337!2024-12-21,86,345-->
+Comment {@{starts with `;` to the end of line}@}, similar to {@{`//` in C}@}. <!--SR:!2025-09-16,295,357!2024-12-21,86,345-->
 
 An instruction is specified by {@{the operation name and a comma-separated list of operands if any}@}. For most cases, {@{the operands need to be the same size}@}. Operands can be {@{_constants_, _registers_, or _memory references_}@}. The first two are trivial, but the last one will be explained below. <!--SR:!2025-05-13,194,337!2025-07-06,238,345!2025-05-25,197,323-->
 
@@ -103,7 +103,7 @@ A key idea in assembly that {@{code and data are treated the same}@}. Indeed, da
 - `resb <size>` ::@:: Reserve `<size>` number of bytes. All modern operating systems will also fill it with zeros. It is commonly used in `.bss`. <!--SR:!2024-12-16,81,345!2024-12-06,73,345-->
 - `resd <size>` ::@:: Reserve `<size>` number of dwords (4 bytes, double word). All modern operating systems will also fill it with zeros. It is commonly used in `.bss`. <!--SR:!2024-12-17,82,345!2025-07-30,253,345-->
 - `resq <size>` ::@:: Reserve `<size>` number of qwords (8 bytes, quadruple word). All modern operating systems will also fill it with zeros. It is commonly used in `.bss`. <!--SR:!2025-05-24,185,325!2024-12-17,82,345-->
-- `resw <size>` ::@:: Reserve `<size>` number of word (2 bytes). All modern operating systems will also fill it with zeros. It is commonly used in `.bss`. <!--SR:!2025-03-27,155,323!2024-11-25,63,337-->
+- `resw <size>` ::@:: Reserve `<size>` number of word (2 bytes). All modern operating systems will also fill it with zeros. It is commonly used in `.bss`. <!--SR:!2025-03-27,155,323!2025-09-19,298,357-->
 
 Since {@{a program requires a starting point}@}, usually we are required to {@{[label](#labels) the starting instruction with the name `_start`, and make it global by prepending the line `global _start` before the line with the `_start` label}@}. <!--SR:!2025-01-30,105,303!2024-11-30,68,345-->
 
@@ -136,7 +136,7 @@ Apart from the above, below are some tools useful in general:
 
 ### tools for static analysis
 
-Static analysis is {@{analyzing the program without actually executing it}@}. Of course, {@{simulating its execution or constucting its control flow graph}@} is also static analysis as long as {@{the program is not actually executed by an actual runtime}@}. An analog is {@{staring at the program until it makes sense}@}. <!--SR:!2024-11-25,61,325!2024-12-06,73,345!2025-03-26,154,325!2024-12-05,72,337-->
+Static analysis is {@{analyzing the program without actually executing it}@}. Of course, {@{simulating its execution or constucting its control flow graph}@} is also static analysis as long as {@{the program is not actually executed by an actual runtime}@}. An analog is {@{staring at the program until it makes sense}@}. <!--SR:!2025-09-01,280,345!2024-12-06,73,345!2025-03-26,154,325!2024-12-05,72,337-->
 
 Some common tools are:
 
@@ -160,11 +160,11 @@ Some common tools are:
 
 ### tools for patching
 
-While analyzing a program, sometimes we want to {@{change the program behavior, like forcing the program to take a different branch of an `if-else`}@}. In most cases, we want to {@{change the code dynamically while performing [dynamic analysis](#tools%20for%20dynamic%20analysis)}@}. In other cases, we want to {@{process an entire executable before running the program, such as deobfuscation (replace names that had been made nonsense intentionally with sensible ones)}@}. <!--SR:!2025-03-07,136,303!2024-11-25,62,323!2025-06-10,198,325-->
+While analyzing a program, sometimes we want to {@{change the program behavior, like forcing the program to take a different branch of an `if-else`}@}. In most cases, we want to {@{change the code dynamically while performing [dynamic analysis](#tools%20for%20dynamic%20analysis)}@}. In other cases, we want to {@{process an entire executable before running the program, such as deobfuscation (replace names that had been made nonsense intentionally with sensible ones)}@}. <!--SR:!2025-03-07,136,303!2025-08-31,279,343!2025-06-10,198,325-->
 
 Some commo tools are:
 
-- GNU Debugger (`gdb`) ::@:: A commonly used program debugger on Linux. We can set breakpoints using `set <location>` so that the program will be suspended for debugging when it executes to that point. <!--SR:!2024-11-25,62,323!2024-11-30,67,345-->
+- GNU Debugger (`gdb`) ::@:: A commonly used program debugger on Linux. We can set breakpoints using `set <location>` so that the program will be suspended for debugging when it executes to that point. <!--SR:!2025-08-30,278,343!2024-11-30,67,345-->
 - `xxd` and a text editor, e.g. `vim` ::@:: Directly edit the program in heximal format. This does require you to know how instructions are actually stored as data, and is best for small patches. <!--SR:!2024-12-12,78,337!2024-12-10,77,345-->
 - Ghidra ::@:: An open-source powerful decompiler and disassembler developed by the National Security Agency (NSA). It can also patch code: right-click, press "Patch Instruction", and type assembly code. Best for more complicated patches. <!--SR:!2025-05-04,185,323!2024-12-08,76,345-->
 - Radare2 (`r2`) ::@:: Best for automated or procedural patches. We can interface with it in Python via the `r2pipe` module. <!--SR:!2025-06-08,197,323!2025-08-20,269,345-->

@@ -95,13 +95,13 @@ On {@{[restaurant](restaurant.md) [menus](menu.md)}@}, {@{the market price \(oft
 
 ## other terms
 
-__Basic Price__: ::@:: It is the amount that producer receive from buyer for a unit of good or service produced minus any taxes payable and plus subsidies payable on that unit as the result of its production or sales. It does not include any producer transport charges which are involved separately.<sup>[\[11\]](#^ref-11)</sup> <!--SR:!2024-11-25,7,250!2024-11-30,11,270-->
+__Basic Price__: ::@:: It is the amount that producer receive from buyer for a unit of good or service produced minus any taxes payable and plus subsidies payable on that unit as the result of its production or sales. It does not include any producer transport charges which are involved separately.<sup>[\[11\]](#^ref-11)</sup> <!--SR:!2024-12-14,19,250!2024-11-30,11,270-->
 
 __Pay What You Decide__ \(PWYD\): ::@:: a pricing system which allows the purchaser to choose a price to pay based on their circumstances and the benefit which the goods or services provide for them.<sup>[\[12\]](#^ref-12)</sup> <!--SR:!2024-11-30,12,270!2024-12-05,16,290-->
 
 __Producer Price Index__: ::@:: this index measures the average change in the selling price of domestic producers' products over time.<sup>[\[13\]](#^ref-13)</sup> <!--SR:!2024-11-30,11,270!2024-12-05,16,290-->
 
-__Purchase Price__: ::@:: It refers to the amount paid by the purchaser for receiving a unit of goods or services at the time and place required by the purchaser and any deductible taxes will not be included. The purchase price also include any transport charge for purchase to pick up the goods to a specific location in the required time.<sup>[\[14\]](#^ref-14)</sup> <!--SR:!2024-11-25,7,250!2024-11-30,11,270-->
+__Purchase Price__: ::@:: It refers to the amount paid by the purchaser for receiving a unit of goods or services at the time and place required by the purchaser and any deductible taxes will not be included. The purchase price also include any transport charge for purchase to pick up the goods to a specific location in the required time.<sup>[\[14\]](#^ref-14)</sup> <!--SR:!2024-11-29,4,230!2024-11-30,11,270-->
 
 __[Price optimization](price%20optimization.md)__ is ::@:: the use of mathematical techniques by a company to determine how customers will respond to different prices for its products and services through different channels. <!--SR:!2024-12-05,16,290!2024-12-05,16,290-->
 

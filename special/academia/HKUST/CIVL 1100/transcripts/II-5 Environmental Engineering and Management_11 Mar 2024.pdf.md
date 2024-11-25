@@ -309,7 +309,7 @@ Noise Levels and Causes
 Properties of Sound Waves
 
 - sound level calculation ::@:: root mean square of sound pressure $p_{\text{rms} }$ is used <!--SR:!2025-03-11,207,310!2025-05-27,286,330-->
-  - root mean square of sound pressure calculation ::@:: $$p_{\text{rms} } = \left(\overline{p^2} \right)^{0.5} = \left(\frac 1 T \int_0^T \! p^2(t) \,\mathrm{d}t \right)^{0.5}$$, where $T$ is duration of time period concerned, $t$ is time, $p(t)$ is pressure that may varies with time, and the overbar means the average over time <!--SR:!2024-11-25,127,290!2025-05-22,281,330-->
+  - root mean square of sound pressure calculation ::@:: $$p_{\text{rms} } = \left(\overline{p^2} \right)^{0.5} = \left(\frac 1 T \int_0^T \! p^2(t) \,\mathrm{d}t \right)^{0.5}$$, where $T$ is duration of time period concerned, $t$ is time, $p(t)$ is pressure that may varies with time, and the overbar means the average over time <!--SR:!2025-11-29,369,290!2025-05-22,281,330-->
 
 ## page 26
 

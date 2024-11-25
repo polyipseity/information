@@ -49,7 +49,7 @@ The content is in teaching order.
 - [competitor analysis § outline](../../../../general/competitor%20analysis.md#outline)
 - [customer development](../../../../general/customer%20development.md)
   - [Peter Drucker](../../../../general/Peter%20Drucker.md) on business and customer ::@:: "The purpose of a business is to create and keep a customer." <!--SR:!2024-12-06,145,315!2026-05-10,562,355-->
-  - [Steve Blank](../../../../general/Steve%20lank.md) on startup success ::@:: "More start-ups fail from lack of customers than from a failure from product development." <!--SR:!2024-11-25,137,315!2025-11-30,395,315-->
+  - [Steve Blank](../../../../general/Steve%20lank.md) on startup success ::@:: "More start-ups fail from lack of customers than from a failure from product development." <!--SR:!2026-07-15,597,335!2025-11-30,395,315-->
   - [§ importance](../../../../general/customer%20development.md#importance)
   - [§ customer discovery](../../../../general/customer%20development.md#customer%20discovery)
   - [§ customer validation](../../../../general/customer%20development.md#customer%20validation)
@@ -272,7 +272,7 @@ The content is in teaching order.
   - [§ background](../../../profitability%20framework.md#background)
   - [§ usage](../../../profitability%20framework.md#usage)
   - abbreviations
-    - R&D ::@:: research & development <!--SR:!2024-11-25,133,390!2024-12-30,161,390-->
+    - R&D ::@:: research & development <!--SR:!2026-11-05,710,410!2024-12-30,161,390-->
     - S&M ::@:: sales & marketing <!--SR:!2025-01-07,168,390!2026-07-12,620,410-->
     - G&A ::@:: general & administration <!--SR:!2026-04-30,555,410!2026-08-01,630,410-->
     - CAGR ::@:: compound average growth rate; $$\text{CAGR} = \left(\frac {V_{\text{end} } } {V_{\text{start} } } \right)^{\frac 1 t} - 1$$ <!--SR:!2025-09-25,374,390!2026-07-26,625,410-->

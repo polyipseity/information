@@ -83,7 +83,7 @@ return _chain.from_iterable(await _gather(
 - `/`:@:division <!--SR:!2025-08-12,264,342-->
 - `//`:@:floor division <!--SR:!2024-12-04,71,322-->
 - `%`:@:remainder; the resulting sign is the same as the divider, i.e. the number after the operator <!--SR:!2025-08-23,273,342-->
-- `+`:@:addition <!--SR:!2024-11-25,62,322-->
+- `+`:@:addition <!--SR:!2025-09-03,282,342-->
 - `-`:@:subtraction <!--SR:!2024-12-04,71,322-->
 
 <!--/pytextgen-->
@@ -208,7 +208,7 @@ return _chain.from_iterable(await _gather(
 - _(begin)_→::@::←`not` <!--SR:!2025-01-25,100,369!2025-01-25,100,369-->
 - `not`→::@::←`and` <!--SR:!2025-01-25,100,369!2025-01-20,95,369-->
 - `and`→::@::←`or` <!--SR:!2025-06-20,209,349!2025-01-25,100,369-->
-- `or`→::@::←_(end)_ <!--SR:!2025-01-20,95,369!2024-11-25,48,349-->
+- `or`→::@::←_(end)_ <!--SR:!2025-01-20,95,369!2025-07-12,229,369-->
 
 <!--/pytextgen-->
 
@@ -231,7 +231,7 @@ return _chain.from_iterable(await _gather(
 
 ## string
 
-To define a string in Python, {@{enclose the string in either double quotes `"example"` or single quotes `'example'`. Both are equivalent except that you need to escape double quotes in the strings for the first one and single quotes for the second one}@}. Note that the enclosing quotes are {@{not part of the string}@}. To escape a character, {@{precede the character with a backslash `\`, like `"quo'te \"example\" un'quote"` and `'quo\'te "example" un\'quote'`}@}. Note that you cannot {@{add literal new lines inside a string if you use the above format}@}. Instead, you need to {@{use `\n` to represent newlines}@}. However, you can {@{add literal new lines you enclose the strings in 3 double quotes `"""example"""` or 3 single quotes `'''example'''`}@}. Additionally with this format, {@{you only need to escape quotes if there are 3 consecutive quotes of the same type as the enclosing quotes}@}. <!--SR:!2025-06-21,219,330!2024-12-12,78,322!2025-08-19,269,342!2025-08-05,258,342!2024-11-25,62,322!2025-06-07,207,322!2025-03-27,148,310-->
+To define a string in Python, {@{enclose the string in either double quotes `"example"` or single quotes `'example'`. Both are equivalent except that you need to escape double quotes in the strings for the first one and single quotes for the second one}@}. Note that the enclosing quotes are {@{not part of the string}@}. To escape a character, {@{precede the character with a backslash `\`, like `"quo'te \"example\" un'quote"` and `'quo\'te "example" un\'quote'`}@}. Note that you cannot {@{add literal new lines inside a string if you use the above format}@}. Instead, you need to {@{use `\n` to represent newlines}@}. However, you can {@{add literal new lines you enclose the strings in 3 double quotes `"""example"""` or 3 single quotes `'''example'''`}@}. Additionally with this format, {@{you only need to escape quotes if there are 3 consecutive quotes of the same type as the enclosing quotes}@}. <!--SR:!2025-06-21,219,330!2024-12-12,78,322!2025-08-19,269,342!2025-08-05,258,342!2025-09-03,282,342!2025-06-07,207,322!2025-03-27,148,310-->
 
 `\` is {@{the escape character}@}. Apart from {@{escaping quotes (`\"`, `\'`) and itself (`\\`)}@}, it can also {@{represent a newline using `\n` and a tab character (kinda like a wider space, but not exactly) using `\t`}@}. <!--SR:!2025-01-14,98,363!2024-12-15,68,343!2024-11-28,58,343-->
 
@@ -275,7 +275,7 @@ Below are common data types:
 
 Some interesting facts about `float`s:  `print`, for relatively small `float`s, {@{it always outputs at least 1 decimal place for `float`s, and outputs at most as many digits as needed to represent the number exactly}@}. For relatively large `floats`, {@{it outputs the float in exponential notation, e.g. `1e+100`, `1.2e-100`, etc.}@} `1` {@{is an `int` while `1.` and `1.0` are `float`s representing the same value `1`}@}. <!--SR:!2025-06-02,202,322!2025-04-02,153,310!2024-11-26,57,343-->
 
-To get the type of a value, {@{use `type(<any>)`, which will return the type of `<any>`}@}. Note that the return type is {@{a special type called classes, which we will not go into detail here}@}. On Jupyter, {@{without using `print` (i.e. placing `type(<any>)` as the last expression), it will simply print out the type name, e.g. `float`, `int`, etc.}@} In most other situations, including {@{evaluating `type(<any>)` in your local Python installation instead of Jupyter}@}, it will {@{print out `<class '<type>'>`, with `<type>` replaced by the type name, e.g. `<class 'float'>`, `<class 'int'>`, etc.}@} <!--SR:!2024-11-25,62,322!2024-12-07,73,322!2025-07-12,234,322!2025-05-14,187,322!2024-11-27,64,310-->
+To get the type of a value, {@{use `type(<any>)`, which will return the type of `<any>`}@}. Note that the return type is {@{a special type called classes, which we will not go into detail here}@}. On Jupyter, {@{without using `print` (i.e. placing `type(<any>)` as the last expression), it will simply print out the type name, e.g. `float`, `int`, etc.}@} In most other situations, including {@{evaluating `type(<any>)` in your local Python installation instead of Jupyter}@}, it will {@{print out `<class '<type>'>`, with `<type>` replaced by the type name, e.g. `<class 'float'>`, `<class 'int'>`, etc.}@} <!--SR:!2025-08-29,277,342!2024-12-07,73,322!2025-07-12,234,322!2025-05-14,187,322!2024-11-27,64,310-->
 
 ### data type conversion
 

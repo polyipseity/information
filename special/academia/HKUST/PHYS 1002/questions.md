@@ -373,7 +373,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 5. 10^7 L_Sun
 >
 > - solution: {@{1}@}
-> - explanation: {@{Notice that $C$ is not given for two cases. So the main problem is calculating $C$. The main thing to realize is that w expect for masses in the boundary points between two equations, the two equations should predict the same value, i.e. a continuous function. We only need the $C$ for the third case: $$55^{3.5} = C \cdot 55^1 \implies C = 55^{2.5} \approx 22434.0004$$. Then the rest is a simple matter of applying the formula: $$L = 22434.0004 \cdot 100^1 \approx 2.24 \times 10^6~\mathrm{solar\ luminosity}$$. So the answer is 2×10<sup>6</sup> L<sub>Sun</sub>.}@} <!--SR:!2025-09-16,309,351!2024-11-25,88,311-->
+> - explanation: {@{Notice that $C$ is not given for two cases. So the main problem is calculating $C$. The main thing to realize is that w expect for masses in the boundary points between two equations, the two equations should predict the same value, i.e. a continuous function. We only need the $C$ for the third case: $$55^{3.5} = C \cdot 55^1 \implies C = 55^{2.5} \approx 22434.0004$$. Then the rest is a simple matter of applying the formula: $$L = 22434.0004 \cdot 100^1 \approx 2.24 \times 10^6~\mathrm{solar\ luminosity}$$. So the answer is 2×10<sup>6</sup> L<sub>Sun</sub>.}@} <!--SR:!2025-09-16,309,351!2025-12-08,378,331-->
 
 <!-- markdownlint MD028 -->
 

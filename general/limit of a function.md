@@ -71,7 +71,7 @@ The function {@{$$f(x) = \begin{cases} \cos x & x\text{ rational} \\ 1 & x\text{
 
 ### algebraic limit theorem
 
-The __algebraic limit theorem__ states that {@{for [real](real%20number.md) or [complex](complex%20number.md)-valued functions $f(x)$ and $g(x)$, the limit of an operation on $f(x)$ and $g(x)$, i.e. $f(x) + g(x)$, $f(x) - g(x)$, $f(x) \cdot g(x)$, $f(x) / g(x)$, and ${f(x)}^{g(x)}$, is compatible with the same operation on the limits of $f(x)$ and $g(x)$ under some conditions}@}. <!--SR:!2024-11-25,269,330-->
+The __algebraic limit theorem__ states that {@{for [real](real%20number.md) or [complex](complex%20number.md)-valued functions $f(x)$ and $g(x)$, the limit of an operation on $f(x)$ and $g(x)$, i.e. $f(x) + g(x)$, $f(x) - g(x)$, $f(x) \cdot g(x)$, $f(x) / g(x)$, and ${f(x)}^{g(x)}$, is compatible with the same operation on the limits of $f(x)$ and $g(x)$ under some conditions}@}. <!--SR:!2028-04-04,1226,350-->
 
 > __algebraic limit theorem__
 >

@@ -120,9 +120,9 @@ We show that {@{the following proposition ___P___ is true by [induction](mathema
 
 ## parallel algorithm
 
-Kruskal's algorithm is {@{inherently sequential and hard to parallelize}@}. It is, however, {@{possible to perform the initial sorting of the edges in parallel}@} or, alternatively, {@{to use a parallel implementation of a [binary heap](binary%20heap.md) to extract the minimum-weight edge in every iteration}@}.<sup>[\[5\]](#^ref-5)</sup> As {@{parallel sorting is possible in time $O(n)$ on $O(\log n)$ processors}@},<sup>[\[6\]](#^ref-6)</sup> {@{the runtime of Kruskal's algorithm}@} can be {@{reduced to _O_\(_E_ α\(_V_\)\)}@}, where {@{α again is the inverse of the single-valued [Ackermann function](Ackermann%20function.md)}@}. <!--SR:!2024-11-26,4,270!2024-11-26,4,270!2024-11-25,3,250!2024-11-26,4,270!2024-11-26,4,270!2024-11-26,4,270!2024-11-26,4,270-->
+Kruskal's algorithm is {@{inherently sequential and hard to parallelize}@}. It is, however, {@{possible to perform the initial sorting of the edges in parallel}@} or, alternatively, {@{to use a parallel implementation of a [binary heap](binary%20heap.md) to extract the minimum-weight edge in every iteration}@}.<sup>[\[5\]](#^ref-5)</sup> As {@{parallel sorting is possible in time $O(n)$ on $O(\log n)$ processors}@},<sup>[\[6\]](#^ref-6)</sup> {@{the runtime of Kruskal's algorithm}@} can be {@{reduced to _O_\(_E_ α\(_V_\)\)}@}, where {@{α again is the inverse of the single-valued [Ackermann function](Ackermann%20function.md)}@}. <!--SR:!2024-11-26,4,270!2024-11-26,4,270!2024-12-06,11,270!2024-11-26,4,270!2024-11-26,4,270!2024-11-26,4,270!2024-11-26,4,270-->
 
-{@{A variant of Kruskal's algorithm, named Filter-Kruskal}@}, has been described by {@{Osipov et al.}@}<sup>[\[7\]](#^ref-7)</sup> and is {@{better suited for parallelization}@}. The basic idea behind Filter-Kruskal is to {@{partition the edges in a similar way to [quicksort](quicksort.md)}@} and {@{filter out edges that connect vertices of the same tree to reduce the cost of sorting}@}. The following [pseudocode](pseudocode.md) demonstrates this. <!--SR:!2024-11-25,3,250!2024-11-26,4,270!2024-11-26,4,270!2024-11-26,4,270!2024-11-26,4,270-->
+{@{A variant of Kruskal's algorithm, named Filter-Kruskal}@}, has been described by {@{Osipov et al.}@}<sup>[\[7\]](#^ref-7)</sup> and is {@{better suited for parallelization}@}. The basic idea behind Filter-Kruskal is to {@{partition the edges in a similar way to [quicksort](quicksort.md)}@} and {@{filter out edges that connect vertices of the same tree to reduce the cost of sorting}@}. The following [pseudocode](pseudocode.md) demonstrates this. <!--SR:!2024-12-06,11,270!2024-11-26,4,270!2024-11-26,4,270!2024-11-26,4,270!2024-11-26,4,270-->
 
 <pre>
 <b>function</b> filter_kruskal(G) <b>is</b>
@@ -208,7 +208,7 @@ function filter(E) is
 >         {@{<b>if</b> find_set(u) ≠ find_set(v)}@} <b>then</b>
 >             {@{E<sub>f</sub> = E<sub>f</sub> ∪ {(u, v)}<!-- flashcard separator -->}@}
 >     {@{<b>return</b> E<sub>f</sub>}@}
-> </pre> <!--SR:!2024-11-26,4,270!2024-11-26,4,270!2024-11-26,4,270!2024-11-26,4,270!2024-11-26,4,270!2024-11-26,4,270!2024-11-26,4,270!2024-11-26,4,270!2024-11-26,4,270!2024-11-26,4,270!2024-11-26,4,270!2024-11-26,4,270!2024-11-26,4,270!2024-11-26,4,270!2024-11-26,4,270!2024-11-26,4,270!2024-11-26,4,270!2024-11-26,4,270!2024-11-26,4,270!2024-11-25,3,250!2024-11-26,4,270!2024-11-26,4,270-->
+> </pre> <!--SR:!2024-11-26,4,270!2024-11-26,4,270!2024-11-26,4,270!2024-11-26,4,270!2024-11-26,4,270!2024-11-26,4,270!2024-11-26,4,270!2024-11-26,4,270!2024-11-26,4,270!2024-11-26,4,270!2024-11-26,4,270!2024-11-26,4,270!2024-11-26,4,270!2024-11-26,4,270!2024-11-26,4,270!2024-11-26,4,270!2024-11-26,4,270!2024-11-26,4,270!2024-11-26,4,270!2024-12-06,11,270!2024-11-26,4,270!2024-11-26,4,270-->
 
 Filter-Kruskal {@{lends itself better to parallelization}@} as {@{sorting, filtering, and partitioning can easily be performed in parallel}@} by {@{distributing the edges between the processors}@}.<sup>[\[7\]](#^ref-7)</sup> <!--SR:!2024-11-26,4,270!2024-11-26,4,270!2024-11-26,4,270-->
 

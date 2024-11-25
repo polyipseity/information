@@ -20,7 +20,7 @@ In logic, many common logical equivalences {@{exist and are often listed as laws
 - identity laws ::@:: $$\begin{aligned} p \land \top & \equiv p \\ p \lor \bot & \equiv p \end{aligned}$$ <!--SR:!2025-04-12,163,321!2024-12-13,73,321-->
 - domination laws ::@:: $$\begin{aligned} p \lor \top & \equiv \top \\ p \land \bot & \equiv \bot \end{aligned}$$ <!--SR:!2025-01-23,97,301!2024-11-26,59,310-->
 - idempotent or tautology laws ::@:: $$\begin{aligned} p \lor p & \equiv p \\ p \land p & \equiv p \end{aligned}$$ <!--SR:!2024-12-15,74,321!2025-07-15,236,330-->
-- [double negation](double%20negation.md) law ::@:: $$\neg (\neg p)\equiv p$$ <!--SR:!2025-08-02,251,330!2024-11-25,55,301-->
+- [double negation](double%20negation.md) law ::@:: $$\neg (\neg p)\equiv p$$ <!--SR:!2025-08-02,251,330!2025-07-13,230,321-->
 - [commutative laws](commutative%20property.md) ::@:: $$\begin{aligned} p\vee q & \equiv q\vee p \\ p\wedge q &\equiv q\wedge p \end{aligned}$$ <!--SR:!2024-12-07,67,321!2025-07-26,245,330-->
 - [associative laws](associative%20property.md) ::@:: $$\begin{aligned} (p \lor q) \lor r & \equiv p \lor (q \lor r) \\ (p \land q) \land r & \equiv p \land (q \land r) \end{aligned}$$ <!--SR:!2024-12-06,68,329!2025-05-26,193,310-->
 - [distributive laws](distributive%20property.md) ::@:: $$\begin{aligned} p \lor (q \land r) & \equiv (p \lor q) \land (p \lor r) \\ p \land (q \lor r) & \equiv (p \land q) \lor (p \land r) \end{aligned}$$ <!--SR:!2025-04-18,168,321!2025-03-21,144,301-->
@@ -43,7 +43,7 @@ $p\vee (p\wedge q)\equiv p$$p\wedge (p\vee q)\equiv p$
 
 - [material equivalence](if%20and%20only%20if.md) & [material implication](material%20implication%20(rule%20of%20inference).md) ::@:: $$p\iff q\equiv (p\implies q)\wedge (q\implies p)$$ <!--SR:!2024-12-06,67,330!2024-12-14,74,330-->
 - [material equivalence](if%20and%20only%20if.md) & inner [negation](negation.md) ::@:: $$p\iff q\equiv \neg p\iff \neg q$$ <!--SR:!2024-12-04,65,330!2024-12-04,66,330-->
-- [material equivalence](if%20and%20only%20if.md) & primitives ::@:: $$p\iff q\equiv (p\wedge q)\vee (\neg p\wedge \neg q)$$ <!--SR:!2024-11-25,58,310!2024-12-17,77,330-->
+- [material equivalence](if%20and%20only%20if.md) & primitives ::@:: $$p\iff q\equiv (p\wedge q)\vee (\neg p\wedge \neg q)$$ <!--SR:!2025-08-04,252,330!2024-12-17,77,330-->
 - [material equivalence](if%20and%20only%20if.md) & outer [negation](negation.md) ::@:: $$\neg (p\iff q)\equiv p\iff \neg q\equiv p\oplus q$$ <!--SR:!2024-12-18,77,330!2025-06-25,221,330-->
 
 where $\oplus$ {@{represents [XOR](exclusive%20or.md)}@}. <!--SR:!2024-12-10,70,321-->

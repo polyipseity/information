@@ -38,7 +38,7 @@ The content is in teaching order.
 - course logistics
 - SCARF (good) ::@:: sense of urgency, courage to try, awesomeness, relatedness, fresh perspective <!--SR:!2025-01-03,78,290!2024-12-06,57,310-->
 - hard skills, soft skills ::@:: Many jobs typically require a combination of them. <!--SR:!2024-12-05,56,310!2024-12-06,57,310-->
-  - hard skills ::@:: Skills acquired through formal education and training programs. <!--SR:!2024-12-10,61,310!2024-11-25,48,310-->
+  - hard skills ::@:: Skills acquired through formal education and training programs. <!--SR:!2024-12-10,61,310!2025-06-22,209,330-->
   - soft skills ::@:: Skills that promote productivity, efficiency, effective communication, etc. <!--SR:!2024-12-25,69,310!2024-12-04,57,310-->
 - How many jobs should you include on your resume? ::@:: all of your previous jobs <!--SR:!2025-05-30,192,310!2025-04-19,155,310-->
 - [name tag](../../../name%20tag.md)
@@ -72,7 +72,7 @@ The content is in teaching order.
   - What things should NOT be included on a CV? ::@:: date of birth (DOB), gender, home address <!--SR:!2025-04-18,154,310!2024-12-13,64,310-->
   - What order should your qualification be put in? ::@:: newest to oldest <!--SR:!2024-12-08,59,310!2024-12-06,59,310-->
   - IROAR ::@:: impact, results, outcomes, achievements, responsibilities <!--SR:!2024-11-30,53,310!2025-04-10,148,310-->
-  - referees ::@:: 1 professor, 1 previous work supervisor, 1 volunteer team project lead <!--SR:!2024-11-25,46,290!2024-11-26,47,290-->
+  - referees ::@:: 1 professor, 1 previous work supervisor, 1 volunteer team project lead <!--SR:!2025-05-28,184,310!2024-11-26,47,290-->
   - profile summary ::@:: what I want and what I can do for you, altitude + skills + knowledge (ASK) <!--SR:!2024-12-25,69,310!2024-12-04,57,310-->
 - assignment 1: job description, curriculum vitae, and cover letter
   - due: 2023-10-11
@@ -106,7 +106,7 @@ The content is in teaching order.
     - increase autonomy ::@:: be flexible about choices, prepare, research salary ranges, talk permissions, ... <!--SR:!2024-12-25,69,310!2024-12-09,60,310-->
   - SCARF / relatedness ::@:: socially, ingroup or outgroup <!--SR:!2024-12-01,54,310!2024-12-01,54,310-->
     - increase relatedness ::@:: create trust by non-verbal communication, firm handshake, discuss personal (but not too personal) things <!--SR:!2025-05-15,176,310!2024-12-09,60,310-->
-  - SCARF / fairness ::@:: perception of fair exchanges with people <!--SR:!2024-11-25,48,310!2024-12-01,54,310-->
+  - SCARF / fairness ::@:: perception of fair exchanges with people <!--SR:!2025-06-15,202,330!2024-12-01,54,310-->
 
 ## week 7 tutorial
 
@@ -130,7 +130,7 @@ The content is in teaching order.
 - How is a work offer properly confirmed? ::@:: confirm the draft employment contract <!--SR:!2024-12-07,60,310!2025-02-11,107,290-->
 - What if you need more time to consider a work offer? ::@:: Sincerely ask for more time to consider and state your expected reply time to the employer. <!--SR:!2024-11-30,53,310!2024-12-05,56,310-->
 - What to do after confirming an offer? ::@:: stop interviewing, nicely decline other work offers <!--SR:!2025-03-30,143,310!2024-12-25,69,310-->
-- job offer ::@:: Check if it is legitimate and is not missing any crucial information! <!--SR:!2024-11-25,46,290!2024-12-14,65,310-->
+- job offer ::@:: Check if it is legitimate and is not missing any crucial information! <!--SR:!2025-05-30,186,310!2024-12-14,65,310-->
   - job offer crucial information ::@:: company logo, contact information, job title, job details, salary/compensation, benefits, expiration date <!--SR:!2024-12-25,62,250!2025-02-10,97,270-->
   - declining a job offer ::@:: act quick, communicate professionally, express appreciation <!--SR:!2024-11-28,51,310!2024-12-06,59,310-->
 
