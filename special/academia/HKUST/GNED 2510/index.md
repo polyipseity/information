@@ -96,7 +96,7 @@ The content is in teaching order.
 - topic: Stress Management and Mindset Shift
 - stress ::@:: mental or emotional strain or tension <!--SR:!2025-04-14,151,310!2024-12-02,46,290-->
   - stress identification ::@:: nervous, sweating, tired, trembling, weak, ... <!--SR:!2025-02-17,98,290!2025-05-06,167,310-->
-  - stress relieve ::@:: putting words on emotions, mindfulness, re-attribution, refocus, visualize, revalue, ... <!--SR:!2025-06-03,191,310!2025-05-25,182,310-->
+  - stress relief ::@:: putting words on emotions, mindfulness, re-attribution, refocus, visualize, revalue, ... <!--SR:!2025-06-03,191,310!2025-05-25,182,310-->
 - SCARF ::@:: status, certainty, autonomy, relatedness, fairness <!--SR:!2024-11-29,52,310!2024-12-02,55,310-->
   - SCARF / status ::@:: relative importance to others and seniority <!--SR:!2024-12-01,54,310!2024-12-07,60,310-->
     - increase status ::@:: know the unknown, prepare, ... <!--SR:!2025-05-04,167,310!2024-12-25,69,310-->
