@@ -26,6 +26,8 @@ When presenting, {@{content}@} is an important aspect.
 
 Another important aspect is {@{your body movement}@}.
 
+- facial expression ::@:: Smile naturally. Not enough smile makes your presentation less engaging. Too much smile makes you look unnatural, and maybe even creepy...
+- facial movement ::@:: Exaggerate your facial movement as much as you can. Do not worry about being over-exaggerated — it is very difficult to do so even if you try really hard, and others would very unlikely to interpret it as over-exaggerated.
 - looking direction ::@:: If you look up, it seems like you are recalling something from your memory. If you look down, it seems like you are feeling something. When presenting, avoid both of these, and look at the audience directly.
 - hand gesture ::@:: Somewhat arbitrary. It does not need to have any specific meaning, but it should sync with your speech. Another thing is that your hand gesture should vary naturally.
   - hand gesture / width ::@:: Hand gesture can be classified into off-body movement and on-body movement. You should have both, but too many on-body movement makes you look nervous.
