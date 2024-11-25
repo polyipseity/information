@@ -21,7 +21,7 @@ A formula always {@{starts with an equals sign `=`}@}.
 
 To get the value of a cell in a formula, {@{use its location, like `=A1`. This is known as a _cell reference_}@}.
 
-When copy and pasting formulas, the cell references in the formula {@{are offsetted by the same offset from the original cell to the copied cell}@}. To prevent this offset, {@{add `$` before the column, the row, or both, like `=$A$1`}@}.
+When copying and pasting formulas, the cell references in the formula are {@{offsetted by the same offset from the original cell to the copied cell}@}. To prevent this offset, {@{add ` $ ` before the column, the row, or both, like `=$A$1`}@}.
 
 ## operators
 
