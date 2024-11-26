@@ -77,7 +77,7 @@ return await memorize_seq(
 - [Jupiter](Jupiter.md)→::@::←[Saturn](Saturn.md) <!--SR:!2025-01-01,140,310!2025-03-06,188,310-->
 - [Saturn](Saturn.md)→::@::←[fixed stars](fixed%20stars.md) <!--SR:!2025-05-06,239,330!2025-07-28,304,330-->
 - [fixed stars](fixed%20stars.md)→::@::←[_Primum Mobile_](Primum%20Mobile.md) ("first moveable"), outermost [celestial sphere](celestial%20sphere.md) <!--SR:!2025-03-20,187,310!2025-07-01,281,330-->
-- [_Primum Mobile_](Primum%20Mobile.md) ("first moveable"), outermost [celestial sphere](celestial%20sphere.md)→::@::←_(end)_ <!--SR:!2025-05-09,242,330!2024-11-26,101,290-->
+- [_Primum Mobile_](Primum%20Mobile.md) ("first moveable"), outermost [celestial sphere](celestial%20sphere.md)→::@::←_(end)_ <!--SR:!2025-05-09,242,330!2026-01-06,406,310-->
 
 <!--/pytextgen-->
 

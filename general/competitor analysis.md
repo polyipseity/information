@@ -173,7 +173,7 @@ number of features
 - durability→::@::←service <!--SR:!2024-12-24,150,301!2024-12-10,72,221-->
 - service→::@::←convenience <!--SR:!2025-01-06,68,181!2025-06-19,213,281-->
 - convenience→::@::←ease of use <!--SR:!2025-11-06,376,281!2025-01-10,172,314-->
-- ease of use→::@::←number of features <!--SR:!2025-01-26,132,261!2024-11-26,55,234-->
+- ease of use→::@::←number of features <!--SR:!2025-01-26,132,261!2025-04-03,128,234-->
 - number of features→::@::←_(least important)_ <!--SR:!2025-06-03,299,334!2025-06-29,318,341-->
 
 <!--/pytextgen-->
@@ -182,7 +182,7 @@ number of features
 
 It is very important to {@{add our own products to the visualization and make it obvious that the products are our own}@}. <!--SR:!2026-03-20,510,321-->
 
-If we are comparing two features only, we can {@{use a _xy_-grid and plot our and competitors' products}@}. If there are more features, {@{we can use a table, with the row headers being the features and the column headers being the products}@}. {@{A mix of both}@} is possible. <!--SR:!2025-06-01,293,341!2025-03-26,242,334!2024-11-26,152,310-->
+If we are comparing two features only, we can {@{use a _xy_-grid and plot our and competitors' products}@}. If there are more features, {@{we can use a table, with the row headers being the features and the column headers being the products}@}. {@{A mix of both}@} is possible. <!--SR:!2025-06-01,293,341!2025-03-26,242,334!2026-09-16,659,330-->
 
 When listing the features, {@{use numbers}@} if possible. Do not be {@{vague}@}. Highlight {@{important features, such as the best product for each feature}@}. <!--SR:!2025-02-24,212,321!2025-05-09,278,341!2024-12-08,157,301-->
 

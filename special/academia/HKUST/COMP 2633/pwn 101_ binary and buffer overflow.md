@@ -23,7 +23,7 @@ A quick recap of types of tools used for reverse: {@{static analysis, dynamic an
 
 What is a memory model? It refers to how {@{memory in a program is modelled by the OS}@}. In {@{the good o' days of computing}@}, memory address is {@{really the address of the physical memory}@}. But modern OSes do not do that. One of the many reasons is security: {@{consider that the physical memory is shared by all processes, it is insecure for one process to be able to access the memory of any other process, e.g. a password manager}@}. <!--SR:!2025-05-03,166,310!2025-03-31,140,310!2024-12-24,68,310!2025-05-10,170,310-->
 
-Instead, modern OSes has the concept of {@{virtual memory}@}, which is managed by {@{a hardware called the memory management unit (MMU)}@}. To any single process, it looks like {@{there is still a "physical" memory}@}, but {@{the OS maps different parts of the "physical" memory to different parts of the actual physical memory, or even files on storage devices}@}! Some parts {@{may not be mapped (unmapped) at all, and accessing them will likely crash the program  (receive `SIGSEGV` signal)}@}. The mapping is {@{usually private to a single process, that is, that mapping is only used by that process and no other processes}@}. This is {@{good for security as a process can only access the memory of itself but not other processes}@}. <!--SR:!2025-05-26,184,310!2024-11-26,47,290!2024-12-02,55,310!2025-03-14,124,290!2024-12-01,54,310!2025-02-07,105,290!2025-05-25,182,310-->
+Instead, modern OSes has the concept of {@{virtual memory}@}, which is managed by {@{a hardware called the memory management unit (MMU)}@}. To any single process, it looks like {@{there is still a "physical" memory}@}, but {@{the OS maps different parts of the "physical" memory to different parts of the actual physical memory, or even files on storage devices}@}! Some parts {@{may not be mapped (unmapped) at all, and accessing them will likely crash the program  (receive `SIGSEGV` signal)}@}. The mapping is {@{usually private to a single process, that is, that mapping is only used by that process and no other processes}@}. This is {@{good for security as a process can only access the memory of itself but not other processes}@}. <!--SR:!2025-05-26,184,310!2025-06-06,192,310!2024-12-02,55,310!2025-03-14,124,290!2024-12-01,54,310!2025-02-07,105,290!2025-05-25,182,310-->
 
 However, further knowledge memory model is {@{not exactly important in basic pwn}@}. All one needs to know is that {@{parts of memory in a program are mapped to different parts of the actual physical memory or some files on storage devices}@}. <!--SR:!2025-06-01,189,310!2024-12-24,68,310-->
 
@@ -59,7 +59,7 @@ In x86 and x86-64, there are {@{two registers related to the stack: `esp`/`rsp` 
 There are {@{several instructions that modify the stack memory and the `rsp` and `rbp` registers appropriately}@}. Some of them are: {@{`push`, `pop`, `call`, `ret`, and `leave`}@}. <!--SR:!2024-12-24,68,310!2024-12-24,68,310-->
 
 - `push <src>` ::@:: Push `<src>` on top of the stack. This writes a value right below the address pointed by `rsp` and decrements `rsp`. <!--SR:!2024-12-10,61,310!2024-12-01,54,310-->
-- `pop <dest>` ::@:: Pop the top of the stack and write it to `<dest>`. This reads a value at the address pointed by `rsp` and increments `rsp`. <!--SR:!2024-12-16,67,310!2024-11-26,47,290-->
+- `pop <dest>` ::@:: Pop the top of the stack and write it to `<dest>`. This reads a value at the address pointed by `rsp` and increments `rsp`. <!--SR:!2024-12-16,67,310!2025-06-07,193,310-->
 - `call <address>` ::@:: This pushes (`push`) the `rip` (instruction pointer, pointing to the currently executing instruction) onto the stack, and then jumps (`jmp`) to `<address>`. `<address>`. This is usually used to call a function, in conjunction with `ret`. <!--SR:!2024-12-24,68,310!2024-12-07,58,310-->
 - `ret`::@:: This pops (`pop`) a value off from the stack and jumps (`jmp`) to it. (Note that this is similar to `pop rip`, but `pop rip` is invalid because `rip` cannot be modified directly.) This is usually used to return from a function, in conjunction with `call`. <!--SR:!2024-12-10,61,310!2025-01-11,79,290-->
 - `leave` ::@:: This sets `rsp` to `rbp`, effectively clearing the current stack frame. Then it pops (`pop`) a value off from the stack to `rbp`. This effectively restores the previous stack frame (the state right before the current function is called (`call`)). This is usually used to cleanup the stack and registers just before returning from a function (`ret`). <!--SR:!2025-05-26,189,310!2025-03-03,113,290-->
@@ -74,7 +74,7 @@ Since `lea` can {@{mostly be replaced with `add` and `imul` (with the exception 
 
 The instructions above are used to {@{implementing the concept of functions in assembly}@}. However, they {@{do not specify how they should be used}@}. A __calling convention__ specifies {@{how the above instructions are used to manipulate the stack in such a way to represent functions}@}. It is called a _convention_ because {@{the caller and callee (the function to be called by the caller) needs to follow the same (or compatible) calling conventions}@}, or otherwise {@{the stack will be manipulated incorrectly, and the program will likely crash}@}. <!--SR:!2024-12-07,60,310!2025-05-18,178,310!2024-12-05,58,310!2024-12-09,60,310!2024-12-12,63,310-->
 
-There are {@{many different incompatible calling conventions in use}@}. For x86, {@{there are many different ones, but for x86-64, there are only 2 common in use}@}. They are {@{the Microsoft x64 calling convention and the System V AMD64 ABI}@}. We will {@{only introduce a calling convention for x86-64, as the binaries you encounter in CTFs are most likely 64-bit, and that calling convention is the latter one because we are using Linux}@}. Further, you should be able to {@{extract the general principles of calling conventions from the example below and extrapolate them to others}@}. <!--SR:!2024-12-24,68,310!2025-06-17,204,330!2024-12-06,57,310!2024-11-26,49,310!2024-12-01,54,310-->
+There are {@{many different incompatible calling conventions in use}@}. For x86, {@{there are many different ones, but for x86-64, there are only 2 common in use}@}. They are {@{the Microsoft x64 calling convention and the System V AMD64 ABI}@}. We will {@{only introduce a calling convention for x86-64, as the binaries you encounter in CTFs are most likely 64-bit, and that calling convention is the latter one because we are using Linux}@}. Further, you should be able to {@{extract the general principles of calling conventions from the example below and extrapolate them to others}@}. <!--SR:!2024-12-24,68,310!2025-06-17,204,330!2024-12-06,57,310!2025-06-25,211,330!2024-12-01,54,310-->
 
 ### System V AMD64 ABI
 
@@ -117,7 +117,7 @@ Let's learn some basic `gdb` commands (not exclusive to `pwndbg`):
 - `record` ::@:: record execution of every instruction; can make the process run slowly <!--SR:!2024-12-24,68,310!2024-12-01,54,310-->
 - `rni` ::@:: rewind to the previous instruction <!--SR:!2024-12-07,60,310!2024-12-02,55,310-->
 - `rsi` ::@:: rewind to the previous instruction stepping into functions <!--SR:!2025-04-04,131,290!2024-12-05,56,310-->
-- `rc` ::@:: reverse continue <!--SR:!2024-11-26,49,310!2024-12-02,55,310-->
+- `rc` ::@:: reverse continue <!--SR:!2025-06-22,208,330!2024-12-02,55,310-->
 - `set <storage> = <value>` ::@:: set storage to value <!--SR:!2024-12-14,65,310!2024-11-28,51,310-->
 
 Let's also learn some basic `pwndbg` commands:
@@ -209,7 +209,7 @@ pwndbg> checksec
 
 The best way to avoid buffer overflows being exploited is {@{simply not have buffer overflows in the first place}@}. <!--SR:!2025-03-27,136,310-->
 
-Recall unsafe C functions can lead to buffer overflows. There are {@{safe versions of them, usually named by appending `_s`, e.g. `gets_s`, `scanf_s`, `strcpy_s`}@}. They are safe because {@{they require an additional argument stating the buffer size (including the null terminator), and they will not attempt to write beyond the specified size}@}. However, if {@{the provided buffer size is larger than the actual buffer size}@}, then {@{buffer overflow is still possible}@}. For example: <!--SR:!2024-11-26,49,310!2025-02-08,90,270!2024-12-02,55,310!2025-05-29,187,310-->
+Recall unsafe C functions can lead to buffer overflows. There are {@{safe versions of them, usually named by appending `_s`, e.g. `gets_s`, `scanf_s`, `strcpy_s`}@}. They are safe because {@{they require an additional argument stating the buffer size (including the null terminator), and they will not attempt to write beyond the specified size}@}. However, if {@{the provided buffer size is larger than the actual buffer size}@}, then {@{buffer overflow is still possible}@}. For example: <!--SR:!2025-06-23,209,330!2025-02-08,90,270!2024-12-02,55,310!2025-05-29,187,310-->
 
 ```C
 int buffer[4];
@@ -220,7 +220,7 @@ gets_s(buffer, 5); // Vulnerable to buffer overflow, but you can only overflow b
 
 ### stack canaries
 
-In the real world, canaries are birds used {@{to detect toxic gases in coal mines}@}. As {@{they are more sensitive to the toxic gases before humans}@}, {@{the birds would get sick before the humans}@}, allowing {@{the humans to avoid the toxic gases}@}. <!--SR:!2024-12-15,66,310!2024-12-24,68,310!2024-11-26,49,310!2025-05-06,168,310-->
+In the real world, canaries are birds used {@{to detect toxic gases in coal mines}@}. As {@{they are more sensitive to the toxic gases before humans}@}, {@{the birds would get sick before the humans}@}, allowing {@{the humans to avoid the toxic gases}@}. <!--SR:!2024-12-15,66,310!2024-12-24,68,310!2025-06-24,210,330!2025-05-06,168,310-->
 
 In buffer overflow, stack canary is {@{a 32 or 64-bit value on top of the old `rip` and `rbp` but below the local variables in the stack}@}. The stack canary is {@{checked to be unmodified before returning from the function, printing an error and terminating the program if modified}@}. This inhibits {@{exploitation of buffer overflow because overwriting the old `rip` and `rbp` also involves overwriting the stack canary}@}. <!--SR:!2024-12-08,59,310!2024-12-24,68,310!2024-12-24,68,310-->
 

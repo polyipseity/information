@@ -9,7 +9,7 @@ tags:
 
 # liability
 
-In [financial accounting](financial%20accounting.md), a __liability__ is {@{a quantity of value that a financial entity owes}@}. More technically, it is {@{value that an entity is expected to deliver in the future to satisfy a present obligation arising from past events}@}.<sup>[\[1\]](#^ref-1)</sup> The value delivered to {@{settle a liability may be in the form of [assets](asset.md) transferred or services performed}@}. <!--SR:!2024-11-26,49,310!2025-03-08,127,310!2024-11-29,52,310-->
+In [financial accounting](financial%20accounting.md), a __liability__ is {@{a quantity of value that a financial entity owes}@}. More technically, it is {@{value that an entity is expected to deliver in the future to satisfy a present obligation arising from past events}@}.<sup>[\[1\]](#^ref-1)</sup> The value delivered to {@{settle a liability may be in the form of [assets](asset.md) transferred or services performed}@}. <!--SR:!2025-06-27,213,330!2025-03-08,127,310!2024-11-29,52,310-->
 
 ## characteristics
 
@@ -53,7 +53,7 @@ When {@{a company [deposits](deposit%20account.md) cash with a [bank](bank.md)}@
 
 A [debit](debits%20and%20credits.md) {@{either increases an asset or decreases a liability}@}; a [credit](debits%20and%20credits.md) {@{either decreases an asset or increases a liability}@}. According to {@{the principle of [double-entry](double-entry%20bookkeeping.md)}@}, {@{every financial transaction corresponds to both a debit and a credit}@}. <!--SR:!2024-12-04,57,310!2024-12-01,52,290!2024-11-27,48,290!2024-12-10,61,310-->
 
-When {@{cash is deposited in a bank}@}, the bank is said to {@{"debit" its cash account, on the asset side, and "credit" its deposits account, on the liabilities side}@}. In this case, the bank is {@{debiting an asset and crediting a liability, which means that both increase}@}. <!--SR:!2025-05-10,172,310!2024-11-26,47,290!2025-04-23,158,310-->
+When {@{cash is deposited in a bank}@}, the bank is said to {@{"debit" its cash account, on the asset side, and "credit" its deposits account, on the liabilities side}@}. In this case, the bank is {@{debiting an asset and crediting a liability, which means that both increase}@}. <!--SR:!2025-05-10,172,310!2025-06-03,189,310!2025-04-23,158,310-->
 
 When {@{cash is withdrawn from a bank}@}, {@{the opposite happens: the bank "credits" its cash account and "debits" its deposits account}@}. In this case, the bank is {@{crediting an asset and debiting a liability, which means that both decrease}@}. <!--SR:!2024-11-28,51,310!2024-12-03,56,310!2024-12-13,66,310-->
 

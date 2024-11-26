@@ -53,7 +53,7 @@ tags:
 
 ### first derivative test
 
-The _first derivative test_ can {@{determine [extrema](maximum%20and%20minimum.md) and whether a [function](function%20(mathematics).md) is increasing or decreasing at a point}@}. <!--SR:!2024-11-26,281,339-->
+The _first derivative test_ can {@{determine [extrema](maximum%20and%20minimum.md) and whether a [function](function%20(mathematics).md) is increasing or decreasing at a point}@}. <!--SR:!2028-06-28,1310,359-->
 
 > __first derivative test__
 >

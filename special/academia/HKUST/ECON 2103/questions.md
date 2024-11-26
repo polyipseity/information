@@ -211,7 +211,7 @@ tags:
 > 3. how long it take to reach the equilibrium
 > 4. none of the above
 >
-> - solution: {@{2}@} <!--SR:!2024-11-26,18,336-->
+> - solution: {@{2}@} <!--SR:!2025-02-19,85,356-->
 
 <!-- markdownlint MD028 -->
 
@@ -223,7 +223,7 @@ tags:
 > 4. demand for A increases and supply for A decreases
 >
 > - solution: {@{3}@}
-> - explanation: {@{If demand increase, both equilibrium quantity and price increase. If supply increase, equilibrium quantity increase but equilibrium price decreases. If both happens at the same time at the right extents, then we can make it such that equilibrium quantity increase but equilibrium price remains unchanged.}@} <!--SR:!2025-02-13,80,356!2024-11-26,18,336-->
+> - explanation: {@{If demand increase, both equilibrium quantity and price increase. If supply increase, equilibrium quantity increase but equilibrium price decreases. If both happens at the same time at the right extents, then we can make it such that equilibrium quantity increase but equilibrium price remains unchanged.}@} <!--SR:!2025-02-13,80,356!2025-02-20,86,356-->
 
 <!-- markdownlint MD028 -->
 
@@ -243,7 +243,7 @@ tags:
 > 2. A technological advance allows the software to be produced at lower cost.
 > 3. Professional tax return preparers raise the price of the services they provide.
 >
-> - solution: {@{For 1, the supply curve does not change, only the quantity supplied decreases under the _law of supply_. For 2, the supply curve moves to the right. For 3, the supply curve does not change, but the demand curve shifts to the left, as tax return preparation software and professional tax return preparers are complements (but not complements _in production_).}@} <!--SR:!2024-11-26,18,336-->
+> - solution: {@{For 1, the supply curve does not change, only the quantity supplied decreases under the _law of supply_. For 2, the supply curve moves to the right. For 3, the supply curve does not change, but the demand curve shifts to the left, as tax return preparation software and professional tax return preparers are complements (but not complements _in production_).}@} <!--SR:!2025-02-18,84,356-->
 
 ### chapter 5 lecture
 
@@ -266,7 +266,7 @@ tags:
 > 4. excess capacity
 >
 > - solution: {@{3}@}
-> - explanation: {@{It would only affect the equilibrium price and quantity.}@} <!--SR:!2024-11-26,18,336!2025-02-06,74,356-->
+> - explanation: {@{It would only affect the equilibrium price and quantity.}@} <!--SR:!2025-02-20,86,356!2025-02-06,74,356-->
 
 ### chapter 8 lecture
 

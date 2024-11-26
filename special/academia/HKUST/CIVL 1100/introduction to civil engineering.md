@@ -1055,7 +1055,7 @@ Hong Kong Code
 - American Code→::@::←Australian Standard <!--SR:!2024-12-27,193,355!2025-12-14,487,395-->
 - Australian Standard→::@::←Chinese Code <!--SR:!2024-12-05,160,327!2025-02-16,233,357-->
 - Chinese Code→::@::←Eurocode <!--SR:!2025-12-17,426,335!2025-03-30,252,357-->
-- Eurocode→::@::←Hong Kong Code <!--SR:!2025-03-11,258,376!2024-11-26,168,357-->
+- Eurocode→::@::←Hong Kong Code <!--SR:!2025-03-11,258,376!2026-07-19,600,357-->
 - Hong Kong Code→::@::←_(end)_ <!--SR:!2025-09-17,412,387!2025-02-21,263,350-->
 
 <!--/pytextgen-->
@@ -1227,7 +1227,7 @@ water treatment
 <!--pytextgen generate section="1123"--><!-- The following content is generated at 2024-02-16T21:59:48.139738+08:00. Any edits will be overridden! -->
 
 - _(begin)_→::@::←groundwater quality control <!--SR:!2025-11-29,417,340!2024-11-29,175,357-->
-- groundwater quality control→::@::←wastewater recycling <!--SR:!2024-11-26,89,275!2024-12-26,92,260-->
+- groundwater quality control→::@::←wastewater recycling <!--SR:!2025-08-01,248,275!2024-12-26,92,260-->
 - wastewater recycling→::@::←wastewater treatment <!--SR:!2025-12-22,414,315!2025-01-16,186,317-->
 - wastewater treatment→::@::←water quality monitoring <!--SR:!2024-12-21,142,280!2024-12-07,157,315-->
 - water quality monitoring→::@::←water treatment <!--SR:!2026-09-09,666,344!2025-10-19,390,334-->

@@ -19,7 +19,7 @@ The general ledger contains {@{a page for all accounts in the chart of accounts<
 
 ## process
 
-Posting is {@{the process of recording amounts as credits (right side), and amounts as debits (left side), in the pages of the general ledger}@}. {@{Additional columns to the right}@} hold {@{a running activity total (similar to a chequebook)}@}.<sup>[\[9\]](#^ref-9)</sup> <!--SR:!2024-11-26,49,290!2024-11-28,49,290!2025-06-07,194,310-->
+Posting is {@{the process of recording amounts as credits (right side), and amounts as debits (left side), in the pages of the general ledger}@}. {@{Additional columns to the right}@} hold {@{a running activity total (similar to a chequebook)}@}.<sup>[\[9\]](#^ref-9)</sup> <!--SR:!2025-06-13,199,310!2024-11-28,49,290!2025-06-07,194,310-->
 
 The general ledger should include {@{the date, description and balance or total amount for each account}@}. <!--SR:!2025-03-24,125,290-->
 

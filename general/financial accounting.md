@@ -120,7 +120,7 @@ Liabilities include {@{current liabilities and long-term liabilities}@}: <!--SR:
 
 The statement of retained earnings is also called {@{statement of changes in equity}@}. <!--SR:!2024-12-09,62,335-->
 
-This statement is {@{additional to the three main statements described above}@}. It shows {@{how the distribution of income and transfer of dividends affects the wealth of shareholders in the company}@}. The concept of retained earnings means {@{profits of previous years that are accumulated till current period}@}. Basic proforma for this statement is as follows: <p> {@{retained earnings at the beginning of period <br/> + net income for the period <br/> – dividends <br/> = retained earnings at the end of period}@}.<sup>[\[9\]](#^ref-9)</sup> <!--SR:!2025-05-27,190,310!2024-12-09,69,310!2024-11-26,59,310!2025-06-04,201,310-->
+This statement is {@{additional to the three main statements described above}@}. It shows {@{how the distribution of income and transfer of dividends affects the wealth of shareholders in the company}@}. The concept of retained earnings means {@{profits of previous years that are accumulated till current period}@}. Basic proforma for this statement is as follows: <p> {@{retained earnings at the beginning of period <br/> + net income for the period <br/> – dividends <br/> = retained earnings at the end of period}@}.<sup>[\[9\]](#^ref-9)</sup> <!--SR:!2025-05-27,190,310!2024-12-09,69,310!2025-08-10,257,330!2025-06-04,201,310-->
 
 ## basic concepts
 
@@ -171,11 +171,11 @@ The {@{[accounting equation](accounting%20equation.md) ([Assets](asset.md) = [Li
 
 Thus {@{crediting a credit account or debiting a debit account}@} {@{increases its absolute value (balance)}@}. <!--SR:!2024-11-29,60,310!2025-04-29,169,310-->
 
-Thus {@{debiting a credit account or crediting a debit account}@} {@{decreases its absolute value (balance)}@}. <!--SR:!2025-07-10,232,330!2024-11-26,57,310-->
+Thus {@{debiting a credit account or crediting a debit account}@} {@{decreases its absolute value (balance)}@}. <!--SR:!2025-07-10,232,330!2025-07-30,246,330-->
 
 When {@{the same thing is done to an account as its normal balance}@} it {@{increases; when the opposite is done, it will decrease}@}. Much like {@{signs in math: two positive numbers are added and two negative numbers are also added}@}. It is only when {@{there is one positive and one negative (opposites)}@} that you will {@{subtract}@}. <!--SR:!2025-06-30,223,330!2025-07-24,243,330!2025-02-27,127,310!2025-07-16,236,330!2025-08-01,250,330-->
 
-However, there are {@{instances of accounts, known as contra-accounts (contra-asset, contra-revenue, and contra-equity accounts), which have a normal balance opposite that listed above}@}. Examples include: <!--SR:!2024-11-26,57,310-->
+However, there are {@{instances of accounts, known as contra-accounts (contra-asset, contra-revenue, and contra-equity accounts), which have a normal balance opposite that listed above}@}. Examples include: <!--SR:!2025-07-28,244,330-->
 
 - contra-asset accounts, such as... ::@:: [accumulated depreciation](depreciation.md#accumulated%20depreciation) and allowances for bad debt or obsolete inventory <!--SR:!2025-05-14,181,310!2025-04-16,163,310-->
 - contra-revenue accounts, such as... ::@:: sales allowances <!--SR:!2024-11-27,58,310!2025-05-08,168,310-->

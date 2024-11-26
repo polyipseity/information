@@ -42,7 +42,7 @@ The content is in teaching order.
 - datetime: 2024-09-02T10:30:00+08:00/2024-09-02T11:50:00+08:00
 - course logistics
 - [statistics](../../../../general/statistics.md)
-  - statistics / definition (data) ::@:: a mathematical science that pertains to the _data_ collection, analysis, interpretation, explanation, and presentation <!--SR:!2024-11-26,63,310!2025-01-21,105,290-->
+  - statistics / definition (data) ::@:: a mathematical science that pertains to the _data_ collection, analysis, interpretation, explanation, and presentation <!--SR:!2025-08-25,272,330!2025-01-21,105,290-->
     - statistics / definition (data) / examples ::@:: Almost all fields of studies make use of data and statistics. _Statistical literacy_ has become a very important thing. <!--SR:!2025-01-02,86,290!2025-06-24,228,330-->
   - statistics / definition (decision making) ::@:: a method for processing and analyzing the collected data so as to help reduce the uncertainty inherent in _decision making_ <!--SR:!2025-07-16,246,330!2025-06-22,218,310-->
     - statistics / definition (decision making) / examples ::@:: choosing the best medication, driving to work in the shortest time, marketing (and choosing good grade courses) <!--SR:!2025-07-24,251,330!2025-03-26,136,290-->
@@ -78,7 +78,7 @@ The content is in teaching order.
   - data / reading a table ::@:: Data are commonly listed in a table. Each column is a characteristic which we called a _variable_. Each row (except for the header) is a datum which we called an _observation_. <!--SR:!2025-01-17,101,290!2025-06-25,228,330-->
   - data / types of variables ::@:: _categorical/qualitative_: distinct categories or labels, and can be subdivided into _nominal_ if the categories cannot be ranked or _ordinal_ if they can be ranked; _quantitative_: numerical, and can be subdivided into _continuous_ if it arises from measurement or _discrete_ if it arises from counting <!--SR:!2025-05-06,175,310!2025-07-04,236,330-->
     - data / types of variables / importance ::@:: proper interpretation of data, proper selection of statistical analysis (e.g. not averaging nominal variables) <!--SR:!2025-07-15,245,330!2025-01-23,95,270-->
-    - data / types of variables / note ::@:: Sometimes for data processing, categorical values are mapped to numbers. Do not mistake them for quantitative values! <!--SR:!2024-11-26,63,310!2025-04-06,145,290-->
+    - data / types of variables / note ::@:: Sometimes for data processing, categorical values are mapped to numbers. Do not mistake them for quantitative values! <!--SR:!2025-08-24,271,330!2025-04-06,145,290-->
 - [descriptive statistics](../../../../general/descriptive%20statistics.md)
   - descriptive statistics / common measures ::@:: central tendency (location), variability (spread/dispersion) <!--SR:!2025-04-16,168,310!2025-05-05,179,310-->
     - central tendency ::@:: sample mean, sample median, trimmed sample mean, ... <!--SR:!2025-07-01,232,330!2025-07-05,237,330-->
@@ -142,7 +142,7 @@ The content is in teaching order.
 
 - datetime: 2024-09-09T10:30:00+08:00/2024-09-09T11:50:00+08:00
 - [data presentation](../../../../general/data%20and%20information%20visualization.md)
-  - sample size / _R_ ::@:: use `length(...)` <!--SR:!2024-11-26,63,310!2024-12-02,69,310-->
+  - sample size / _R_ ::@:: use `length(...)` <!--SR:!2025-08-26,273,330!2024-12-02,69,310-->
   - first _n_ observations / _R_ ::@:: use `head(...)` <!--SR:!2025-06-11,217,330!2025-07-23,250,330-->
   - scatter plot ::@:: Plots data that comes as pairs. Good for visualizing relationship between two variables (e.g. regression). <!--SR:!2024-12-04,71,310!2025-01-09,93,290-->
     - scatter plot / _R_ ::@:: use `plot(...)` <!--SR:!2025-08-02,258,330!2025-07-06,237,330-->

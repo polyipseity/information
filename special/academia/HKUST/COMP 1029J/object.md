@@ -48,7 +48,7 @@ public class Name {
 
 To make the class accessible to code in other files, {@{prepend `public` before `class` and ensure the file containing the class has the same filename (excluding the `.java` extension) as the class name. In this example, `Name.java` is the filename}@}. <!--SR:!2025-01-15,265,330-->
 
-Then to create an object, one uses {@{`new`}@}: <!--SR:!2024-11-26,210,310-->
+Then to create an object, one uses {@{`new`}@}: <!--SR:!2027-05-15,900,330-->
 
 ```Java
 Name nameObject = new Name(42);

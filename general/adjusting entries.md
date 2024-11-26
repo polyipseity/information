@@ -37,7 +37,7 @@ Most adjusting entries could be classified this way: {@{prepaid expenses, accrue
 
 #### example
 
-Assume {@{a magazine publishing company charges an annual subscription fee of $12}@}. The cash is {@{paid up-front at the start of the subscription}@}. The income, based on {@{[sales basis method](revenue%20recognition.md), is recognized upon delivery}@}. Therefore, the initial reporting of the receipt of annual subscription fee is indicated as: <!--SR:!2024-11-26,49,290!2024-12-21,72,310!2025-06-02,190,310-->
+Assume {@{a magazine publishing company charges an annual subscription fee of $12}@}. The cash is {@{paid up-front at the start of the subscription}@}. The income, based on {@{[sales basis method](revenue%20recognition.md), is recognized upon delivery}@}. Therefore, the initial reporting of the receipt of annual subscription fee is indicated as: <!--SR:!2025-06-12,198,310!2024-12-21,72,310!2025-06-02,190,310-->
 
 ```text
                         Debit  |  Credit

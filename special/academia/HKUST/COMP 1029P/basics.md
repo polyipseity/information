@@ -158,7 +158,7 @@ return _chain.from_iterable(await _gather(
 
 <!--/pytextgen-->
 
-Do not mix up the equal to operator `==` and {@{the assignment operator `=`}@}. <!--SR:!2024-11-26,225,330-->
+Do not mix up the equal to operator `==` and {@{the assignment operator `=`}@}. <!--SR:!2027-09-11,1019,350-->
 
 Also, one CAN chain {@{comparison operators in Python, unlike other languages. For example, `2 <= aNumber <= 5` is equivalent to `2 <= aNumber and aNumber <= 5` except that `aNumber` is evaluated only once. In fact, you can chain any numbers of comparison operators together, even if they do not make sense together as a whole, such as `2 <= aNumber >= 2` being equivalent to `2 <= aNumber and aNumber >= 2` except that `aNumber` is evaluated only once}@}. See <https://docs.python.org/3/reference/expressions.html#comparisons>. <!--SR:!2024-11-30,229,330-->
 

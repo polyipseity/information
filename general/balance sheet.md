@@ -74,9 +74,9 @@ Assets are {@{all the things the business owns}@}. This will include {@{property
 
 1. [accounts receivable](accounts%20receivable.md) ::@:: legally enforceable claims for payment held by a business for goods supplied or services rendered that customers have ordered but not paid for <!--SR:!2025-04-02,131,290!2025-03-10,119,290-->
 2. [cash and cash equivalents](cash%20and%20cash%20equivalents.md) ::@:: the most liquid current assets found on a business's balance sheet <!--SR:!2024-12-15,68,310!2025-03-11,119,290-->
-3. [inventories](inventory.md) ::@:: goods and materials that a business holds for the ultimate goal of resale, production or utilization <!--SR:!2024-11-26,47,290!2024-12-13,66,310-->
+3. [inventories](inventory.md) ::@:: goods and materials that a business holds for the ultimate goal of resale, production or utilization <!--SR:!2025-06-05,191,310!2024-12-13,66,310-->
 4. cash at bank, [petty cash](petty%20cash.md), cash on hand ::@:: small amount of discretionary funds in the form of cash used for minor expenditures <!--SR:!2025-05-23,182,310!2024-12-03,56,310-->
-5. [prepaid expenses](deferral.md) for future services that will be used within one financial period ::@:: cash paid in advance for goods or services that will be consumed within one financial period <!--SR:!2024-11-26,49,310!2024-11-27,48,290-->
+5. [prepaid expenses](deferral.md) for future services that will be used within one financial period ::@:: cash paid in advance for goods or services that will be consumed within one financial period <!--SR:!2025-04-27,152,310!2024-11-27,48,290-->
 6. revenue earned in arrears ([accrued revenue](accrual.md)) for services done but not yet received for the financial period ::@:: income that is recognized at the time a company delivers a service or good, even though the company has not yet been paid, and will pay within one financial period <!--SR:!2024-11-29,52,310!2024-12-10,63,310-->
 7. [loan](loan.md) to (less than one financial period) ::@:: transfer of money by us to another with an agreement to pay it back within one financial period <!--SR:!2024-12-12,65,310!2024-11-30,53,310-->
 
@@ -142,7 +142,7 @@ Balance sheet substantiation is {@{a key control process in the [SOX 404 top-dow
 
 ## sample
 
-The following balance sheet is a very brief example prepared in accordance with [IFRS](International%20Financial%20Reporting%20Standards.md). It does not show all possible kinds of assets, liabilities and equity, but it shows the most usual ones. Because {@{it shows [goodwill](goodwill%20(accounting).md)}@}, it could be {@{a [consolidated](consolidated%20financial%20statement.md) balance sheet}@}. Monetary values are not shown, summary (subtotal) rows are missing as well. <!--SR:!2024-11-26,49,310!2025-05-03,166,310-->
+The following balance sheet is a very brief example prepared in accordance with [IFRS](International%20Financial%20Reporting%20Standards.md). It does not show all possible kinds of assets, liabilities and equity, but it shows the most usual ones. Because {@{it shows [goodwill](goodwill%20(accounting).md)}@}, it could be {@{a [consolidated](consolidated%20financial%20statement.md) balance sheet}@}. Monetary values are not shown, summary (subtotal) rows are missing as well. <!--SR:!2025-06-28,214,330!2025-05-03,166,310-->
 
 {@{Under IFRS}@} items are {@{always shown based on liquidity from the least liquid assets at the top, usually land and buildings to the most liquid, i.e. cash}@}. Then liabilities and equity {@{continue from the most immediate liability to be paid (usual account payable) to the least i.e. long-term debt such as mortgages and owner's equity at the very bottom}@}.<sup>[\[20\]](#^ref-20)</sup> <!--SR:!2024-12-04,57,310!2025-03-19,139,310!2024-12-07,53,270-->
 

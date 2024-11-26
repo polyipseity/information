@@ -9,7 +9,7 @@ tags:
 
 # star
 
-A __star__ is {@{a luminous [spheroid](spheroid.md) of [plasma](plasma%20(physics).md) held together by [self-gravity](self-gravitation.md)}@}. <!--SR:!2024-11-26,108,290-->
+A __star__ is {@{a luminous [spheroid](spheroid.md) of [plasma](plasma%20(physics).md) held together by [self-gravity](self-gravitation.md)}@}. <!--SR:!2026-02-04,435,310-->
 
 ## references
 

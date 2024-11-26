@@ -11,7 +11,7 @@ tags:
 
 # consultant
 
-Consultants generally have {@{some influence over an entity but no direct power to decide or implement}@}. Common examples include {@{staff or support roles, even if their job titles do not contain "consultants"}@}. In general, their jobs are {@{finding what is wrong, making it right practically, and selling the solutions to the client}@}. <!--SR:!2025-07-05,304,330!2024-11-26,117,290!2024-12-23,148,310-->
+Consultants generally have {@{some influence over an entity but no direct power to decide or implement}@}. Common examples include {@{staff or support roles, even if their job titles do not contain "consultants"}@}. In general, their jobs are {@{finding what is wrong, making it right practically, and selling the solutions to the client}@}. <!--SR:!2025-07-05,304,330!2026-03-13,472,310!2024-12-23,148,310-->
 
 ## references
 

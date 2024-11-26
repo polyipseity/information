@@ -44,11 +44,11 @@ From the energy equation, an electron of [hydrogen](hydrogen.md) ($Z=1$) in the 
 ## Rydberg formula
 
 The combination of natural constants in the energy formula is the {@{Rydberg energy $R_\mathrm{E}$}@}:
-{@{$$\begin{aligned}R_\mathrm{E}&=\frac{k_\mathrm{e}^2\mathrm{e}^4m_\mathrm{e} }{2\hbar^2}\\&=2.179\,872\,361\,1035(42)\times10^{-18}~\mathrm{J}\\&=13.605\,693\,122\,944(26)~\mathrm{eV}\end{aligned}$$}@} <!--SR:!2028-11-27,1485,302!2024-11-26,75,222-->
+{@{$$\begin{aligned}R_\mathrm{E}&=\frac{k_\mathrm{e}^2\mathrm{e}^4m_\mathrm{e} }{2\hbar^2}\\&=2.179\,872\,361\,1035(42)\times10^{-18}~\mathrm{J}\\&=13.605\,693\,122\,944(26)~\mathrm{eV}\end{aligned}$$}@} <!--SR:!2028-11-27,1485,302!2025-05-13,168,222-->
 
 The energy of a photon emitted by a hydrogen atom is:
 {@{$$E=E_i-E_f=R_\mathrm{E}\left(\frac1{n_f^2}-\frac1{n_i^2}\right)$$}@}, where {@{$n_f$ is the final energy level and $n_i$ is the initial energy level}@}. Since the energy of a photon is $E=\frac{hc}\lambda$, by {@{making inverse of the wavelength $\frac1\lambda$ the subject}@}, the resulting constant is the {@{[Rydberg constant](Rydberg%20constant.md) $R_\infty$}@}:
-{@{$$\frac1\lambda=R_\infty\left(\frac1{n_f^2}-\frac1{n_i^2}\right)$$}@} The constant is {@{$R_\infty=\frac{R_\mathrm{E} }{hc}=10\,973\,731.568\,157(12)~\mathrm{m}^{-1}$}@}. <!--SR:!2028-04-21,1338,302!2025-10-09,763,322!2026-01-26,836,322!2025-05-02,580,302!2024-12-12,493,302!2024-11-26,22,130-->
+{@{$$\frac1\lambda=R_\infty\left(\frac1{n_f^2}-\frac1{n_i^2}\right)$$}@} The constant is {@{$R_\infty=\frac{R_\mathrm{E} }{hc}=10\,973\,731.568\,157(12)~\mathrm{m}^{-1}$}@}. <!--SR:!2028-04-21,1338,302!2025-10-09,763,322!2026-01-26,836,322!2025-05-02,580,302!2024-12-12,493,302!2024-12-24,28,130-->
 
 ## limitations
 

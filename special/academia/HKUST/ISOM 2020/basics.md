@@ -146,7 +146,7 @@ return _chain.from_iterable(await _gather(
 - `>`→::@::←`>=` <!--SR:!2024-12-03,56,349!2025-01-25,100,369-->
 - `>=`→::@::←`!=` <!--SR:!2024-12-01,54,349!2025-02-03,96,309-->
 - `!=`→::@::←`==` <!--SR:!2024-12-04,62,349!2025-01-20,95,369-->
-- `==`→::@::←_(end)_ <!--SR:!2024-11-26,49,349!2024-12-30,74,349-->
+- `==`→::@::←_(end)_ <!--SR:!2025-07-19,235,369!2024-12-30,74,349-->
 
 <!--/pytextgen-->
 
@@ -273,7 +273,7 @@ Below are common data types:
 - `int` :@: An integer. Example: `42`. <!--SR:!2024-11-29,66,322-->
 - `str` :@: A piece of text. Example: `"Hello"`. <!--SR:!2025-08-23,273,342-->
 
-Some interesting facts about `float`s:  `print`, for relatively small `float`s, {@{it always outputs at least 1 decimal place for `float`s, and outputs at most as many digits as needed to represent the number exactly}@}. For relatively large `floats`, {@{it outputs the float in exponential notation, e.g. `1e+100`, `1.2e-100`, etc.}@} `1` {@{is an `int` while `1.` and `1.0` are `float`s representing the same value `1`}@}. <!--SR:!2025-06-02,202,322!2025-04-02,153,310!2024-11-26,57,343-->
+Some interesting facts about `float`s:  `print`, for relatively small `float`s, {@{it always outputs at least 1 decimal place for `float`s, and outputs at most as many digits as needed to represent the number exactly}@}. For relatively large `floats`, {@{it outputs the float in exponential notation, e.g. `1e+100`, `1.2e-100`, etc.}@} `1` {@{is an `int` while `1.` and `1.0` are `float`s representing the same value `1`}@}. <!--SR:!2025-06-02,202,322!2025-04-02,153,310!2025-08-23,270,363-->
 
 To get the type of a value, {@{use `type(<any>)`, which will return the type of `<any>`}@}. Note that the return type is {@{a special type called classes, which we will not go into detail here}@}. On Jupyter, {@{without using `print` (i.e. placing `type(<any>)` as the last expression), it will simply print out the type name, e.g. `float`, `int`, etc.}@} In most other situations, including {@{evaluating `type(<any>)` in your local Python installation instead of Jupyter}@}, it will {@{print out `<class '<type>'>`, with `<type>` replaced by the type name, e.g. `<class 'float'>`, `<class 'int'>`, etc.}@} <!--SR:!2025-08-29,277,342!2024-12-07,73,322!2025-07-12,234,322!2025-05-14,187,322!2024-11-27,64,310-->
 

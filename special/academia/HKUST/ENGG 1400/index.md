@@ -97,28 +97,28 @@ The content is in teaching order.
 ## week 5 tutorial
 
 - datetime: 2024-10-03T10:30:00+08:00/2024-10-03T12:20:00+08:00
-- activity 1: practice ideation through 3 things ::@:: Person A names a category, and then person B names 3 things that fit into the category. Afterwards, everyone shouts "Three things!". Repeat this to practice ideation and avoid filtering ideas. <!--SR:!2024-11-27,20,362!2024-11-26,19,362-->
-- success ::@:: What is your definition of __success__? Where does your belief come from? Are some of them dysfunctional? <!--SR:!2024-11-26,19,362!2025-02-21,88,382-->
-  - success / dysfunctional belief ::@:: An example is "You should know where you are going by now." Yet, life stages have lengthened and delayed compared to before... (except for retirement age) <!--SR:!2024-11-26,19,362!2024-11-26,19,362-->
-  - success / idea board ::@:: With other people, ideate your definitions of success and their sources if known. Post them on sticky notes on an idea board. Then, categorize the definitions. Finally, look at the idea board together and discuss about any interesting thing you have found. <!--SR:!2025-02-25,92,382!2024-11-26,19,362-->
+- activity 1: practice ideation through 3 things ::@:: Person A names a category, and then person B names 3 things that fit into the category. Afterwards, everyone shouts "Three things!". Repeat this to practice ideation and avoid filtering ideas. <!--SR:!2024-11-27,20,362!2025-03-03,97,382-->
+- success ::@:: What is your definition of __success__? Where does your belief come from? Are some of them dysfunctional? <!--SR:!2025-03-02,96,382!2025-02-21,88,382-->
+  - success / dysfunctional belief ::@:: An example is "You should know where you are going by now." Yet, life stages have lengthened and delayed compared to before... (except for retirement age) <!--SR:!2025-02-28,94,382!2025-03-02,96,382-->
+  - success / idea board ::@:: With other people, ideate your definitions of success and their sources if known. Post them on sticky notes on an idea board. Then, categorize the definitions. Finally, look at the idea board together and discuss about any interesting thing you have found. <!--SR:!2025-02-25,92,382!2025-02-27,93,382-->
 - design thinking
-  - design thinking / life design: empathize ::@:: The amazing people you meet and the understanding/perspectives you give _and_ receive. <!--SR:!2024-11-26,19,362!2024-11-27,20,362-->
-  - design thinking / life design: define ::@:: Think about who you are, where you are, and what is _really_ important to you. <!--SR:!2024-11-26,19,362!2025-02-25,92,382-->
+  - design thinking / life design: empathize ::@:: The amazing people you meet and the understanding/perspectives you give _and_ receive. <!--SR:!2025-03-01,95,382!2024-11-27,20,362-->
+  - design thinking / life design: define ::@:: Think about who you are, where you are, and what is _really_ important to you. <!--SR:!2025-02-28,94,382!2025-02-25,92,382-->
   - design thinking / life design: ideate ::@:: You give yourself permission to have unreserved thoughts, drawings, imaginations, and hopes. Also let the ideas of others in. <!--SR:!2024-11-27,20,362!2024-11-27,20,362-->
-  - design thinking / life design: prototype ::@:: You build simply and accessibly. <!--SR:!2025-02-23,90,382!2024-11-26,19,362-->
-  - design thinking / life design: test ::@:: You try things curiously and courageously. <!--SR:!2024-11-27,20,362!2024-11-26,19,362-->
-  - design thinking / reframing ::@:: Framing defines the boundaries and constraints of the solution set to your problem. __Reframing__ state the original problem but in a different perspective to expand the solution set. There may be unexpected innovation. <!--SR:!2024-11-26,19,362!2024-11-27,20,362-->
+  - design thinking / life design: prototype ::@:: You build simply and accessibly. <!--SR:!2025-02-23,90,382!2025-02-28,94,382-->
+  - design thinking / life design: test ::@:: You try things curiously and courageously. <!--SR:!2024-11-27,20,362!2025-03-02,96,382-->
+  - design thinking / reframing ::@:: Framing defines the boundaries and constraints of the solution set to your problem. __Reframing__ state the original problem but in a different perspective to expand the solution set. There may be unexpected innovation. <!--SR:!2025-03-01,95,382!2024-11-27,20,362-->
 - job hunting ::@:: Finding a job... or pursuing possibilities that give me choices and freedom (reframing)? <!--SR:!2024-11-27,20,362!2025-02-24,91,382-->
   - job hunting / iceberg problem ::@:: visible job market (agency, jobs board, social media): 30%; hidden market (HR connection, direct application, networking): 70% <!--SR:!2024-11-27,20,362!2024-11-27,20,362-->
 - design thinking
-  - design thinking / curiosity ::@:: Curiosity makes everything new and invites exploration. It helps us notice new opportunities and connect with people. It allows us to look beyond preconceptions and be open to possibilities. <!--SR:!2024-11-26,19,362!2025-02-23,90,382-->
-  - design thinking / bias toward action ::@:: Designers test things out. They run small experiments and prototypes as opportunities to learn, regardless of outcome. They try things and iterate toward success, rather than waiting until they can get it "right" at the first time. <!--SR:!2024-11-27,20,362!2024-11-26,19,362-->
-  - design thinking / flare & focus ::@:: flare: create options, divergent thinking; focus: select options, convergent thinking <!--SR:!2024-11-27,20,362!2024-11-26,19,362-->
+  - design thinking / curiosity ::@:: Curiosity makes everything new and invites exploration. It helps us notice new opportunities and connect with people. It allows us to look beyond preconceptions and be open to possibilities. <!--SR:!2025-03-03,97,382!2025-02-23,90,382-->
+  - design thinking / bias toward action ::@:: Designers test things out. They run small experiments and prototypes as opportunities to learn, regardless of outcome. They try things and iterate toward success, rather than waiting until they can get it "right" at the first time. <!--SR:!2024-11-27,20,362!2025-03-01,95,382-->
+  - design thinking / flare & focus ::@:: flare: create options, divergent thinking; focus: select options, convergent thinking <!--SR:!2024-11-27,20,362!2025-03-01,95,382-->
 - information interview ::@:: Not a job interview, but a conversation looking for others' stories. <!--SR:!2025-02-22,89,382!2025-02-23,90,382-->
-  - information interview / invitation ::@:: Who are you? How do you relate to them? Why them? What do you want to find out? And finally, ask them. <!--SR:!2024-11-26,19,362!2024-11-27,20,362-->
+  - information interview / invitation ::@:: Who are you? How do you relate to them? Why them? What do you want to find out? And finally, ask them. <!--SR:!2025-02-27,93,382!2024-11-27,20,362-->
   - information interview / best practices ::@:: ask for 3 more referrals; be genuinely curious; buy coffee; in person > virtual > by phone; thank you note <!--SR:!2025-02-22,89,382!2025-02-21,88,382-->
   - information interview / culture ::@:: Be aware of cultural differences. Ask and observe. <!--SR:!2024-11-27,20,362!2025-02-24,91,382-->
-  - information interview / takeaways ::@:: People will help (refer) you if you ask. You will help (refer) someone back eventually... <!--SR:!2024-11-26,19,362!2025-02-24,91,382-->
+  - information interview / takeaways ::@:: People will help (refer) you if you ask. You will help (refer) someone back eventually... <!--SR:!2025-03-01,95,382!2025-02-24,91,382-->
 
 ## week 6 tutorial
 
@@ -128,7 +128,7 @@ The content is in teaching order.
   - dress code: business casual
   - has food and drinks
   - 2 guests: Mr. Alex (redacted), Mr. Derek (redacted)
-  - network practicum / takeaways ::@:: Learn from others' stories (collect data), and be inspired in your life planning! <!--SR:!2024-11-27,20,362!2024-11-26,19,362-->
+  - network practicum / takeaways ::@:: Learn from others' stories (collect data), and be inspired in your life planning! <!--SR:!2024-11-27,20,362!2025-02-28,94,382-->
 
 ## week 7 tutorial
 
@@ -136,19 +136,19 @@ The content is in teaching order.
 - design thinking
   - design thinking / reframing
     - design thinking / reframing / motivation ::@:: In design thinking, we put as much emphasis on _problem finding_ as we do on problem solving. What is the point if you are solving the wrong problem? <!--SR:!2025-02-24,91,382!2025-02-22,89,382-->
-- sticky problem ::@:: anchor problem, gravity problem, unclear problem <!--SR:!2024-11-26,19,362!2024-11-27,20,362-->
+- sticky problem ::@:: anchor problem, gravity problem, unclear problem <!--SR:!2025-02-06,72,362!2024-11-27,20,362-->
   - anchor problem ::@:: Problems that _you think_ have only one possible solution. <p> Try to release the anchor to open up more solution possibilities. <!--SR:!2024-11-27,20,362!2024-11-27,20,362-->
-  - gravity problem ::@:: Problems that are _not actionable_ objectively. (Sometimes it may be an anchor problem but it seems like a gravity problem because your mind is so anchored on the solution...) <p> Try to accept and reframe the problem. Accept does not mean give up, however. There may be a possibility that the problem becomes actionable later. And you can always try to reframe the problem. <!--SR:!2024-11-26,19,362!2024-11-27,20,362-->
-  - unclear problem ::@:: compound/unfocused, inappropriately scoped, insufficient context, problems with only 2 to 3 solutions (yes/no, either/or) <!--SR:!2024-11-27,20,362!2024-11-26,19,362-->
-  - sticky problem / reframing ::@:: See what kind of sticky problem you have. Reframe appropriately. Best if the reframed problem starts with "How might I..." <p> Reframing helps with getting the "right" solutions, because the solutions you get highly depends on your framing. <!--SR:!2024-11-26,19,362!2025-02-20,87,382-->
+  - gravity problem ::@:: Problems that are _not actionable_ objectively. (Sometimes it may be an anchor problem but it seems like a gravity problem because your mind is so anchored on the solution...) <p> Try to accept and reframe the problem. Accept does not mean give up, however. There may be a possibility that the problem becomes actionable later. And you can always try to reframe the problem. <!--SR:!2025-02-28,94,382!2024-11-27,20,362-->
+  - unclear problem ::@:: compound/unfocused, inappropriately scoped, insufficient context, problems with only 2 to 3 solutions (yes/no, either/or) <!--SR:!2024-11-27,20,362!2025-03-03,97,382-->
+  - sticky problem / reframing ::@:: See what kind of sticky problem you have. Reframe appropriately. Best if the reframed problem starts with "How might I..." <p> Reframing helps with getting the "right" solutions, because the solutions you get highly depends on your framing. <!--SR:!2025-03-03,97,382!2025-02-20,87,382-->
 - activity 1: reframing a problem ::@:: We are going to reframe your problem 3 times. In each round, state your problem on a idea board. With other people, add ideas to each others' boards. After each round, reframe your question based on the ideas given by others. <!--SR:!2024-11-27,20,362!2025-02-19,86,382-->
-  - activity 1: reframing a problem / takeaways ::@:: You can reframe your questions using ideation with others to get better results! Also, idea boards are a great way to help introverts participate. <!--SR:!2025-02-20,87,382!2024-11-26,19,362-->
+  - activity 1: reframing a problem / takeaways ::@:: You can reframe your questions using ideation with others to get better results! Also, idea boards are a great way to help introverts participate. <!--SR:!2025-02-20,87,382!2025-03-03,97,382-->
 - ways of thinking
-  - ways of thinking / blocks ::@:: There are ways of thinking that may get you stuck on a problem. They could be cultural/milieu, emotional, intellectual, or perceptual. <!--SR:!2024-11-26,19,362!2025-02-25,92,382-->
+  - ways of thinking / blocks ::@:: There are ways of thinking that may get you stuck on a problem. They could be cultural/milieu, emotional, intellectual, or perceptual. <!--SR:!2025-03-02,96,382!2025-02-25,92,382-->
     - ways of thinking / blocks / cultural ::@:: embarrassment, fear of failure, uncomfortable with fantasy or intuition <!--SR:!2024-11-27,20,362!2024-11-27,20,362-->
     - ways of thinking / blocks / emotional ::@:: control is good and chaos is bad, no support for new ideas, not supposed to have fun <!--SR:!2024-11-27,20,362!2025-02-21,88,382-->
-    - ways of thinking / blocks / intellectual ::@:: expert belief, inflexible style, wrong information <!--SR:!2024-11-27,20,362!2024-11-26,19,362-->
-    - ways of thinking / blocks / perceptual ::@:: choosing too tight a view, difficulty isolating, stereotyping <!--SR:!2024-11-27,20,362!2024-11-26,19,362-->
+    - ways of thinking / blocks / intellectual ::@:: expert belief, inflexible style, wrong information <!--SR:!2024-11-27,20,362!2025-03-02,96,382-->
+    - ways of thinking / blocks / perceptual ::@:: choosing too tight a view, difficulty isolating, stereotyping <!--SR:!2024-11-27,20,362!2025-03-02,96,382-->
 
 ## week 8 tutorial
 
@@ -186,7 +186,7 @@ The content is in teaching order.
     - design thinking / discernment / emotional ::@:: feeling, intuition, spiritual knowing <!--SR:!2024-12-02,24,374!2025-02-19,86,374-->
     - design thinking / discernment / physical ::@:: physical message (e.g. feeling light, headache, stomachache, etc.) <!--SR:!2024-12-01,23,374!2024-12-01,23,374-->
     - design thinking / discernment / social ::@:: collective knowing/shared insight, trusted community, wisdom of mentors <!--SR:!2024-12-01,23,374!2024-12-02,24,374-->
-    - design thinking / discernment / indicator ::@:: body sign, collective confirmation, epiphany (aha), insight, internal affect, recognition, simultaneity <!--SR:!2024-12-03,25,374!2024-11-26,18,354-->
+    - design thinking / discernment / indicator ::@:: body sign, collective confirmation, epiphany (aha), insight, internal affect, recognition, simultaneity <!--SR:!2024-12-03,25,374!2025-02-24,90,374-->
     - design thinking / discernment / development ::@:: There are many ways to develop your ways of knowing. Some examples include exercise, letter from the future, meditation, music, reflection, journaling, yoga, etc. <!--SR:!2024-12-01,23,374!2024-12-03,25,374-->
 - decision making
   - decision making / choose ::@:: When choosing, self-awareness is very important. Try to be aware of how others have influenced your choice and whether such influences are good. Examples of influence include: You are told that you should work in a certain occupation. <!--SR:!2024-12-03,25,374!2024-12-01,23,374-->
