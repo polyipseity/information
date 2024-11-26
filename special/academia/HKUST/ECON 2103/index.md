@@ -584,8 +584,19 @@ The content is in teaching order.
 
 - datetime: 2024-11-08T19:30:00+08:00/2024-11-08T20:50:00+08:00, PT1H20M
 - venue: Lecture Theater C
+- scope
+  - chapter 1
+  - chapter 2
+  - chapter 3
+  - chapter 4
+  - chapter 5
+  - chapter 6
+  - chapter 7
+  - chapter 8
+- format: closed book, no cheatsheet, simple calculator (includes public examination approved calculator)
+- content: multiple choice questions: 40@1 each
 - grades: 37/40
-  - statistics
+  - statistics: L4
     - mean: 29 (provided)
     - standard deviation: 5 (provided)
     - low: 0
