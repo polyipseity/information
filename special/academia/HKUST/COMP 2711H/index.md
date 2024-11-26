@@ -29,7 +29,7 @@ The content is in teaching order.
 
 ## week 1 lecture
 
-- datetime: 2024-09-02T10:30:00+08:00/2024-09-02T11:20:00+08:00
+- datetime: 2024-09-02T09:00:00+08:00/2024-09-02T10:20:00+08:00
 - topic: propositional logic
 - course logistics
 - [propositional calculus](../../../../general/propositional%20calculus.md)
@@ -109,7 +109,7 @@ The content is in teaching order.
 
 ## week 1 lecture 2
 
-- datetime: 2024-09-04T09:00:00+08:00/2024-09-04T11:20:00+08:00
+- datetime: 2024-09-04T09:00:00+08:00/2024-09-04T10:20:00+08:00
 - topic: induction, well-ordering, infinite descent
 - [Peano axioms](../../../../general/Peano%20axioms.md)
   - [§ defining arithmetic operations and relations](../../../../general/Peano%20axioms.md#defining%20arithmetic%20operations%20and%20relations)
@@ -136,7 +136,7 @@ The content is in teaching order.
 
 ## week 2 lecture
 
-- datetime: 2024-09-09T10:30:00+08:00/2024-09-09T11:20:00+08:00
+- datetime: 2024-09-09T09:00:00+08:00/2024-09-09T10:20:00+08:00
 - topic: induction problems, strong induction
 - [mathematical induction](../../../../general/mathematical%20induction.md): even more induction problems, strong induction
   - [§ variants](../../../../general/mathematical%20induction.md#variants)
@@ -171,7 +171,7 @@ The content is in teaching order.
 
 ## week 2 lecture 2
 
-- datetime: 2024-09-11T09:00:00+08:00/2024-09-11T11:20:00+08:00
+- datetime: 2024-09-11T09:00:00+08:00/2024-09-11T10:20:00+08:00
 - topic: counting, permutations, combinations, balls and walls
 - [combinatorial principles](../../../../general/combinatorial%20principles.md) ::@:: principles commonly used to solve combinatorial problems: rule of sum, rule of product, permutation, combination, ... <!--SR:!2025-02-09,95,373!2025-02-09,95,373-->
   - [§ combinatorial principles](../../../../general/combinatorial%20principles.md#combinatorial%20principles)
@@ -191,7 +191,7 @@ The content is in teaching order.
 
 ## week 3 lecture
 
-- datetime: 2024-09-16T10:30:00+08:00/2024-09-16T11:20:00+08:00
+- datetime: 2024-09-16T09:00:00+08:00/2024-09-16T10:20:00+08:00
 - topic: solving counting problems
 - [permutation](../../../../general/permutation.md)
 - [combination](../../../../general/combination.md)
@@ -212,11 +212,11 @@ The content is in teaching order.
 - materials
   - [lecture video](https://youtu.be/p0Lb0odJCfU)
   - Andreescu and Feng: solve problem 25 to problem 51
-- assignments: [homework 1](assignments/homework%201/submission.tex)
+- assignments: [homework 1](assignments/homework%201/submission.md)
 
 ## week 3 lecture 2
 
-- datetime: 2024-09-18T09:00:00+08:00/2024-09-18T11:20:00+08:00
+- datetime: 2024-09-18T09:00:00+08:00/2024-09-18T10:20:00+08:00
 - status: unscheduled, public holiday: Day after Mid-Autumn Festival
 
 ## week 3 TA session
@@ -230,7 +230,7 @@ The content is in teaching order.
 
 ## week 4 lecture
 
-- datetime: 2024-09-23T10:30:00+08:00/2024-09-23T11:20:00+08:00
+- datetime: 2024-09-23T09:00:00+08:00/2024-09-23T10:20:00+08:00
 - topic: principle of inclusion and exclusion
 - [inclusion–exclusion principle](../../../../general/inclusion–exclusion%20principle.md)
   - [§ inclusion–exclusion principle](../../../../general/inclusion–exclusion%20principle.md#inclusion–exclusion%20principle)
@@ -265,7 +265,7 @@ The content is in teaching order.
 
 ## week 4 lecture 2
 
-- datetime: 2024-09-25T09:00:00+08:00/2024-09-25T11:20:00+08:00
+- datetime: 2024-09-25T09:00:00+08:00/2024-09-25T10:20:00+08:00
 - topic: pigeonhole principle
 - pigeonhole principle ::@:: Let _f_ be a mapping from a finite nonempty set _A_ to another nonempty finite set _B_ such that |_A_| > _k_|_B_| for some natural number _k_. Let _f_<sup>-1</sup> be the inverse mapping from _B_ to the power set of _A_. Then there is an element _b_ in _B_ such that |_f_<sup>-1</sup>(_b_)| ≥ _k_ + 1. <!--SR:!2025-02-07,91,377!2025-01-14,70,357-->
   - pigeonhole principle / proof ::@:: Prove by contradiction. Using the definitions above, assume every element _b_ in _B_ has the property |_f_<sup>-1</sup>(_b_)| < _k_ + 1. Then the maximum cardinality (size) of _A_ is _k_|_B_|. But this contradicts |_A_| > _k_|_B_|. <!--SR:!2025-02-22,103,377!2025-02-06,90,377-->
@@ -294,7 +294,7 @@ The content is in teaching order.
 
 ## week 5 lecture
 
-- datetime: 2024-09-30T10:30:00+08:00/2024-09-30T11:20:00+08:00
+- datetime: 2024-09-30T09:00:00+08:00/2024-09-30T10:20:00+08:00
 - topic: graphs, trees, paths, walks
 - [graph theory](../../../../general/graph%20theory.md)
   - graph theory / graph ::@:: A __graph__ is denoted $G = (V, E)$, where $V$ is a finite set of __vertices__ and _E_ is a finite set of __edges__. <!--SR:!2025-02-25,106,377!2025-02-04,88,377-->
@@ -369,7 +369,7 @@ The content is in teaching order.
 
 ## week 5 lecture 2
 
-- datetime: 2024-10-02T09:00:00+08:00/2024-10-02T11:20:00+08:00
+- datetime: 2024-10-02T09:00:00+08:00/2024-10-02T10:20:00+08:00
 - topic: even more theorems on graphs and trees
 - theorem: even degree, cycle ::@:: If every vertex has an even degree, the edge set is a disjoint union of cycles. <p> To prove this, we can apply induction on the number of edges. The base cases are 0 and 1 edges. The induction step can be proved by starting from a vertex and show that it eventually ends at the same vertex; remove that cycle and the induction hypothesis can be applied. <!--SR:!2025-01-07,64,357!2025-01-05,62,357-->
 - graph theory
@@ -405,7 +405,7 @@ The content is in teaching order.
 
 ## week 6 lecture
 
-- datetime: 2024-10-07T10:30:00+08:00/2024-10-07T11:20:00+08:00
+- datetime: 2024-10-07T09:00:00+08:00/2024-10-07T10:20:00+08:00
 - topic: minimum spanning trees, directed graphs, DAGs
 - theorem: adding an edge, tree, cycle ::@:: Adding an edge to a tree creates exactly one cycle. <p> Recall that in a tree, every pair of vertex has an unique path. Adding an edge to any pair of vertex makes this unique path a cycle. <p> However, there is only one cycle created. We note that any cycles created must pass through the new edge, because there were no cycles before we have added the edge. If there were multiple cycles created, then the pair of vertex we have added an edge to would have multiple paths before adding the edge. <!--SR:!2025-01-14,71,357!2025-01-05,62,357-->
 - graph theory
@@ -445,7 +445,7 @@ The content is in teaching order.
 - datetime: 2024-10-07T18:00:00+08:00/2024-10-07T18:50:00+08:00
 - topic: tree-based algorithms, Huffmman coding
 - graph theory
-  - graph theory / independent set ::@:: An __independent set__ is a set of vertices in a graph, no two of which are adjacent. <!--SR:!2025-02-23,103,389!2025-04-04,136,388-->
+  - graph theory / [independent set](../../../../general/independent%20set%20(graph%20theory).md) ::@:: An __independent set__ is a set of vertices in a graph, no two of which are adjacent. <!--SR:!2025-02-23,103,389!2025-04-04,136,388-->
 - [Huffman coding](../../../../general/Huffman%20coding.md) ::@:: A particular type of optimal prefix code (no code is a prefix of any other code) that is commonly used for lossless data compression. <!--SR:!2025-02-28,108,389!2025-02-25,105,389-->
   - Huffman coding / algorithm ::@:: Suppose there are _n_ words that appears _w_<sub>_i_</sub> times. Keep merging 2 words that appears least frequently to become one word with their appearance frequencies combined. Keep track of how the words are merged and represent it as a tree. <p> The resulting tree is a binary tree for its Huffman coding. The leaves represent each word. The route it takes to reach a word is the Huffman coding for that word. <!--SR:!2025-02-28,101,368!2025-02-27,100,368-->
 - [questions/2024-10-07/tutorial](questions/2024-10-07%20tutorial.md)
@@ -459,7 +459,7 @@ The content is in teaching order.
 
 ## week 6 lecture 2
 
-- datetime: 2024-10-09T09:00:00+08:00/2024-10-09T11:20:00+08:00
+- datetime: 2024-10-09T09:00:00+08:00/2024-10-09T10:20:00+08:00
 - topic: distance, shortest paths, matchings
 - graph theory
   - graph theory / distance ::@:: The __distance__ between two vertices (repeats allowed) in a graph is the minimum number of edges in a path connecting the two vertices. <!--SR:!2025-03-01,109,389!2025-01-28,77,369-->
@@ -490,7 +490,7 @@ The content is in teaching order.
   - [video: maximal and maximum matchings](https://youtu.be/bOJC93XxoFc)
   - [video: matchings and augmenting paths](https://youtu.be/IQZEURSSr30)
   - [video: incremental improvement – matching](https://youtu.be/8C_T4iTzPCU)
-- assignments: [homework 6](assignments/homework%206/submission.tex)
+- assignments: [homework 2](assignments/homework%202/submission.md)
 
 ## week 6 TA session
 
@@ -503,31 +503,290 @@ The content is in teaching order.
 
 ## week 7 lecture
 
-- datetime: 2024-10-14T10:30:00+08:00/2024-10-14T11:20:00+08:00
+- datetime: 2024-10-14T09:00:00+08:00/2024-10-14T10:20:00+08:00
 - topic: matchings, vertex covers, edge covers, independent sets
 - theorem: bipartite graph, matching ::@:: In an bipartite of a graph into _X_ and _Y_, where |_X_| ≤ |_Y_|, there is a matching saturating _X_ iff for every subset of _X_, the number of its neighbors (which must all be in _Y_) is at least the size of the subset. <p> Proving the number of its neighbors is at least the size of the subset is trivial. The converse is much harder. <p> To prove the converse, we use contradiction. Suppose there is a _maximum_ matching _M_ that does not saturate _X_. Take any element _x_ in _X_ not covered by _M_ and produce a subset {_x_}. Since {_x_} must have at least one neighbor as a subset of _X_, it must connect to an element _y_ in _Y_. But the element _y_ must be covered by _M_, or otherwise the matching is not maximum. Then consider the element _y_. It is in _M_, so there is another element in _X_ that is not _x_ that connects to _y_. Add that element to the subset. Now the minimum number of neighbors is 2. So there must be another edge to connect to an new element in _Y_. The edge either connects _x_ to an element in _Y_ that is in _M_, or connects elements that are not _x_ to any element in _Y_ but not already connected by any edge. In both case, the above argument can be repeated again and again. If at any point, an element in _Y_ that is not in _M_ is connected, the matching can be shifted, then _x_ can finally match with _y_, producing a larger matching. This must eventually happen because we will run out of elements of _Y_ that are in _M_ before running out of elements of _X_, because _M_ does not saturate _X_. <!--SR:!2025-04-07,139,388!2024-11-28,28,329-->
-  - theorem: bipartite graph, perfect matching / corollary: _k_-regular bipartite graph ::@:: Let _G_ be a _k_-regular bipartite graph _k_ ≥ 1. _G_ has a perfect matching. <p> To prove this, consider an arbitrary subset _S_ of one of the partition, and consider the number of edges between _S_ and _N_(_S_) to show that _S_ ≤ |_N_(_S_)|. Finally, apply the theorem. <!--SR:!2025-01-14,70,367!2024-12-15,45,349-->
+  - theorem: bipartite graph, matching / corollary: _k_-regular bipartite graph, perfect matching ::@:: Let _G_ be a _k_-regular bipartite graph _k_ ≥ 1. _G_ has a perfect matching. <p> To prove this, consider an arbitrary subset _S_ of one of the partition, and consider the number of edges between _S_ and _N_(_S_) to show that _S_ ≤ |_N_(_S_)|. Finally, apply the theorem. <!--SR:!2025-01-14,70,367!2024-12-15,45,349-->
 - graph theory
-  - graph theory / vertex cover ::@:: A __vertex cover__ |_A_| is a set of vertices such that every edge has at least one endpoint in the cover. <!--SR:!2025-01-14,70,369!2025-01-14,70,369-->
+  - graph theory / [vertex cover](../../../../general/vertex%20cover.md) ::@:: A __vertex cover__ |_A_| is a set of vertices such that every edge has at least one endpoint in the cover. <!--SR:!2025-01-14,70,369!2025-01-14,70,369-->
 - theorem: minimum vertex cover, maximum matching ::@:: In every graph, the minimum vertex cover has a size of at least that of _maximum_ matching. <p> To prove this, consider a maximum matching. For every edge in the maximum matching, one point must be in the vertex cover. <!--SR:!2025-01-28,77,369!2024-12-22,47,349-->
 - theorem: minimum vertex cover, maximum matching, bipartite graph ::@:: In every bipartite graph, the minimum vertex cover has a size equals that of maximum matching. <p> To prove this, we can prove the minimum vertex cover has a size smaller than or equal to that of maximum matching. Consider a maximum matching in a bipartite graph. Then consider a minimum vertex cover and split the two bipartition sets into two separate bipartitions depending on if the element is in the minimum vertex cover. Show that the minimum vertex cover implies the existence of a maximum matching on both bipartitions, which can be merged back to get a maximum matching on the original bipartition. <p> Combining with the previous theorem gives us the equality result. <!--SR:!2024-11-28,28,329!2024-12-22,47,349-->
+- theorem: vertex cover, independent set, complement ::@:: For any graph, the vertex complement of a vertex cover of a graph is an independent set, and vice versa. <p> For every edge, at least one endpoint is in the vertex cover. After the vertex complement operation, at most one endpoint is in the complement. This means no two vertices are adjacent, so the complement is an independent set.
+  - theorem: vertex cover, independent set, complement / corollary: minimum vertex cover, maximum independent set ::@:: For any graph, the size of a minimum vertex cover plus the size of a maximum independent set equals |_V_|.
+- graph theory
+  - graph theory / [edge cover](../../../../general/edge%20cover.md) ::@:: An edge cover _L_ of a graph is a set of edges such that every vertex of the graph is incident to at least one edge of the set. <p> For graphs with isolated vertices, an edge cover does not exists.
+- theorem: maximum matching, minimum edge cover (Gallai) ::@:: For graphs with isolated vertices, the size of a maximum matching _M_ plus the size of a minimum edge cover _L_ equals |_V_|. <p> For vertices covered by a maximum matching _M_, take said edges in the matching into the edge cover. 2|_M_| vertices are covered. For each of the remaining (non-isolated) |_V_| − 2|_M_| vertices, add one adjacent edge to the edge cover. The size of this edge cover is |_M_| + |_V_| − 2|_M_| = |_V_| − |_M_|. So a maximum matching _M_ implies the size of a minimum edge cover is at most |_V_| − |_M_|. <p> Consider an minimum edge cover _L_. Remove all edges not in _L_. There are no isolated vertices, or otherwise _L_ is not an edge cover. The resulting graph has no paths with 3 edges or above, otherwise _L_ is not minimum. So the resulting graph is a collection of stars. In fact, there are |_V_| − |_L_| stars (connected components), because each edge must decrease the number of CCs by exactly 1 (as there are no cycles). Each CC has at least one edge, since there are no isolated vertices. Take one edge from each CC to get a matching. So the size of a maximum matching is at least |_V_| − |_L_|. <p> Combine the above two proofs.
+  - theorem: maximum matching, minium edge cover (Gallai) / corollary: contains ::@:: The minimum edge cover contains a maximum matching. <p> Realize that one of the proof above only removes edges from a minimum edge cover _L_ to get a maximum matching _M_.
 - [questions/2024-10-14/lecture](questions/2024-10-14%20lecture.md)
+- materials
+  - [lecture video](https://youtu.be/ZIeLPZmvAU4)
+  - West/Section 3.1: Matchings and Covers
 
 ## week 7 tutorial
 
 - datetime: 2024-10-14T18:00:00+08:00/2024-10-14T18:50:00+08:00
+- topics: network flow, Ford-Fulkerson Algorithm
+- graph theory
+  - graph theory / [flow network](../../../../general/flow%20network.md) ::@:: A __flow network__ (also known as a __transportation network__) is a directed graph where each edge has a __capacity__ and each edge receives a __flow__. The amount of _flow_ on an edge cannot exceed the _capacity_ of the edge.
+- [flow network](../../../../general/flow%20network.md)
+  - flow network / properties ::@:: The amount of flow of an edge $f(u, v)$ cannot exceed its capacity $c(u, v)$. Flow (__not__ capacity) is skew symmetric: $f(u, v) = -f(v, u)$. The amount of flow is conserved for non-source and non-sink vertices: $\sum_{u \to v} f(u, v) = 0 = \sum_{v \to u} f(v, u)$ for a fixed $v$ that is neither a source $s$ nor a sink $t$.
+  - flow network / residual network ::@:: Given a flow $f$ on a flow network, its __residual network__ is a network with capacities that are the remaining capacities of the original flow network with the flow $f$ flowing through it. <p> Note that if the flow flows from $u$ to $v$, the capacity from $u$ to $v$ has the flow amount subtracted, but the capacity from $v$ to $u$ has the flow amount added(by skew-symmetry of flow). The resulting network is different from the original flow in that the capacities are no longer symmetric, i.e. $c(u, v) \ne c(v, u)$.
+  - flow network / augmenting path ::@:: An __augmenting path__ is an available flow path from the source to the sink. <p> A network is at maximum flow iff there is no augmenting path in the residual network.
+  - flow network / s–t cut ::@:: A __s–t cut__ of the flow network that requires the source vertex and the sink vertex to be in different subsets. The capacity of an s–t cut is the sum of capacities (weights) of the cut-set.
+- [Ford–Fulkerson algorithm](../../../../general/Ford–Fulkerson%20algorithm.md) ::@:: The __Ford–Fulkerson method__ or __Ford–Fulkerson algorithm__ (__FFA__) is a greedy algorithm that computes the maximum flow in a flow network. <p> The idea is simple: Given a flow network and an initially empty flow, compute any _augmenting path_. Add the flow through the augmenting path to the existing flow. When there are no more augmenting paths, stop the algorithm. The resulting flow is a maximum flow. The algorithm may not terminate if the flow values are irrational. <p> Its correctness can be easily seen: Adding an augmenting flow makes the resulting flow still a legal flow in the original network. For as long as there are augmenting flow, there are still more flow to be added, and when there are none, the resulting flow is maximum.
+  - [Ford–Fulkerson algorithm](../../../../general/Ford–Fulkerson%20algorithm.md) / s-t cut ::@:: Obviously, the maximum flow cannot exceed the capacity of any s–t cut, since any flow must flow through the cut-set of any s–t cut, so the flow amount cannot exceed the capacity of any s–t cut. <p> This can be used to prove that the Ford–Fulkerson algorithm produces a optimal flow (if it terminates). When it terminates, there are no augmenting paths from the source to the sink. Consider the residual network now. We can cut the residual network into two by checking if a vertex can be reached from the source in the residual network. This creates a s–t cut. Since the flow amount cannot exceed the capacity of any s–t cut, the flow is optimal.
 - [questions/2024-10-14/tutorial](questions/2024-10-14%20tutorial.md)
+- materials
+  - [lecture video](https://youtu.be/VWvgNOCDBrs)
+  - West/Section 4.3: Network Flow Problems
+  - [video: maximum flow and Ford-Fulkerson](https://youtu.be/cofuiL8inWI)
+  - [video: flow networks and maximum flow](https://youtu.be/rlftCrW8t9s)
+  - [video: maximum-flow minimum-cut algorithm](https://youtu.be/RjX9zUsKaDU)
+  - [video: max-flow and Ford-Fulkerson](https://youtu.be/LdOnanfc5TM)
+  - [video: Ford-Fulkerson in 5 minutes](https://youtu.be/Tl90tNtKvxs)
 
 ## week 7 lecture 2
 
-- datetime: 2024-10-16T09:00:00+08:00/2024-10-16T11:20:00+08:00
+- datetime: 2024-10-16T09:00:00+08:00/2024-10-16T10:20:00+08:00
+- topic: stable matchings, graph coloring
+- theorem: maximum matching, bipartite graph, flow network ::@:: The Ford–Fulkerson algorithm may be used to find a maximum matching on a bipartite graph. Add a source vertex and connect it to each vertex in a partition with an edge of capacity 1. Add a sink vertex and connect it to each vertex in a partition with an edge of capacity 1. Run the Ford–Fulkerson algorithm. The maximum flow is a maximum matching, and vice versa. <p> This can be proved by proving that a flow can be used to construct a matching of the same size, and a matching can be used to construct a flow of the same flow amount. Then the size of a maximum matching equals the max flow amount.
+- [stable marriage problem](../../../../general/stable%20marriage%20problem.md) ::@:: The __stable marriage problem__ (also __stable matching problem__) is the problem of finding a stable matching between two equally sized sets of elements given an ordering of preferences for each element. A matching is _stable_ when there does not exist any pair (_A_, _B_) which both prefer each other to their current partner under the matching.
+  - stable marriage problem / [Gale–Shapley algorithm](../../../../general/Gale–Shapley%20algorithm.md) ::@:: The __Gale–Shapley algorithm__ is an algorithm for finding a solution stable marriage (matching) problem. The algorithm runs in several rounds. In each round, each unengaged man to the most-preferred woman to whom he has not yet proposed (regardless of whether the woman is already engaged). Each woman replies "maybe" if she is currently not engaged or if she prefers this man over her current provisional partner (in this case, she rejects her current provisional partner who becomes unengaged). In this case, the man and the woman are provisionally (temporarily) engaged. When everyone is (provisionally) engaged, the marriage (matching) is stable. <p> To prove its correctness, suppose there is an unstable pair, an prove by contradiction.
+- graph theory
+  - graph theory / [graph coloring](../../../../general/graph%20coloring.md) ::@:: In its simplest form, it is a way of coloring the vertices of a graph such that no two adjacent vertices are of the same color; this is called a __vertex coloring__. <p> A coloring using at most _k_ colors is called a (proper) ___k_-coloring__. The smallest number of colors needed to color a graph _G_ is called its __chromatic number__, and is often denoted _χ_(_G_).
+  - graph theory / [clique](../../../../general/clique%20(graph%20theory).md) ::@:: A __clique__ is a subset of vertices of an undirected graph such that every two distinct vertices in the clique are adjacent. That is, a clique of a graph _G_ is an induced subgraph of _G_ that is complete.
+- theorem: chromatic number, maximum clique ::@:: The chromatic number is at least the size of a largest clique $\omega(G)$. <p> This is easy to prove by considering a maximum clique.
+- theorem: chromatic number, maximum independent set ::@:: The chromatic number is at least $\lvert V \rvert / \alpha(G)$, where $\alpha(G)$ is the size of a largest independent set. <p> If we have a $k$ coloring, we can take vertices of the same color and make an independent set. At least one such independent set obtained this way has a size of at least $\lvert V \rvert / k$ by the pigeonhole principle. So if the maximum independent set is $\alpha(G)$, then $$\alpha(G) \ge \lvert V \rvert / k \implies k \ge \lvert V \rvert / \alpha(G) \,.$$
+- theorem: [greedy coloring](../../../../general/greedy%20coloring.md) ::@:: The greedy coloring algorithm simply iterates each vertex in an arbitrary order, and assigns each vertex the first available color. This easily shows that the chromatic number is at most the maximum degree plus 1.
+  - theorem: [greedy coloring](../../../../general/greedy%20coloring.md) / corollary: Brook's theorem ::@:: This bound can be slightly improved for all other graphs except for a complete graph or an odd cycle graph: the maximum degree instead of the maximum degree plus 1. This is known as __Brook's theorem__.
+  - theorem: [greedy coloring](../../../../general/greedy%20coloring.md) / corollary: non-increasing degree sequence ::@:: If the greedy coloring algorithm is run on vertices in order of non-increasing degree, this bound can be slightly improved to: $$\chi(G) \le 1 + \max_i \min\set{d_i, i - 1}$$ for a non-increasing degree sequence $d_1 \le \cdots \le d_n$. <p> The $\min\set{d_i, i - 1}$ can be obtained by considering the algorithm when coloring the vertex $i$. The $d_i$ comes from the same upper bound as in the greedy algorithm on an arbitrary sequence of vertices, and the $i - 1$ comes from that only $i - 1$ vertices has been colored when coloring the vertex $i$.
+- graph theory
+  - graph theory / [Cartesian product of graphs](../../../../general/Cartesian%20product%20of%20graphs.md) ::@:: The __Cartesian product__ _G_ □ _H_ or __box product__ of graphs _G_ and _H_ is a graph such that: 1) the vertex set of _G_ □ _H_ is the Cartesian product _V_(_G_) × _V_(_H_); and 2) two vertices (_u_, _v_) (do not interpret this as an edge or arc) and (_u'_ , _v'_) are adjacent in _G_ □ _H_ if and only if either _u_ = _u'_ and _v_ is adjacent to _v'_ in _H_, or _v = v'_ and _u_ is adjacent to _u'_ in G. <p> Intuitively and graphically, we start with a graph _G_. Then we extrude new copies of _G_, connected to the old copy of _G_, with the new copy offset following an edge in _H_.
+- theorem: Cartesian product of graphs, chromatic number ::@:: The chromatic number of the Cartesian product of two graphs, _G_ □ _H_, is the maximum of the two graphs' own chromatic numbers. <p> This is easy to see if you have a graphical interpretation of the Cartesian product. Start with a minimum coloring on the graph _G_ with the larger (or equal) chromatic number _k_. Then extrude-copy _G_, following the edges of _H_. While extrude-copying, cycle the colors (only up to _k_ − 1 times, since we have _k_ colors). Since the chromatic number of _H_ is not larger than _k_, we will not need to cycle the colors more than _k_ − 1 times. The final graph, which is the Cartesian product, has a chromatic number that is the same as that of _G_, i.e. _k_.
 - [questions/2024-10-16](questions/2024-10-16.md)
-- [week 7 problem set](questions/week%207%20problem%20set.md)
+- Due to the midterm exam, there will be no weekly problem set or tutorial this week.
+- materials
+  - [lecture video](https://youtu.be/VWvgNOCDBrs)
+  - West/Section 3.2.3: Stable Matchings
+  - West/Section 5.1: Vertex Colorings and Upper Bounds (Brooks' Theorem is not part of the syllabus)
+  - [video: introduction to graph colouring](https://youtu.be/RSSfO0lnEp8)
+  - [video: coloring code - how compilers use graph theory](https://youtu.be/K3mi2m7ccDQ)
+  - [video: applications of graph colouring](https://youtu.be/y4RAYQjKb5Y)
 
-## midterm exam
+## midterm examination
 
 - datetime: 2024-10-18T18:00:00+08:00/2024-10-18T21:00:00+08:00, PT3H
 - venue: Lecture Theater C
 - grades: ?/30
 - report
   - TODO
+- materials
+  - [lecture video](https://youtu.be/eLwNjIOM8QE)
+  - [midterm examination](https://canvas.ust.hk/courses/58174/modules/items/1444251)
+
+## week 8 lecture
+
+- datetime: 2024-10-21T09:00:00+08:00/2024-10-21T10:20:00+08:00
+- topic: divisibility, greatest common divisor
+- [integer](../../../../general/ineger.md)
+  - integer / definition ::@:: The natural numbers are the nonnegative integers. The negation of nonzero natural numbers are the negative integers.
+  - integer / order ::@:: The total order on integers extend the total order on natural numbers, i.e. if a comparison holds in the latter, then it also holds in the former: $$a <_{\mathbb N} b \implies a <_{\mathbb Z} b \quad \forall a, b \in \mathbb N\,.$$ <p> We have: $$-a < 0 < b \text{ and } -a < -b \implies b < a \quad \forall a, b \in \mathbb N_{\ne 0} \,.$$
+  - integer / predecessor ::@:: The predecessor on the positive integers are defined using natural numbers. The predecessor on 0 is defined to be -1. The predecessor on negative integers is defined as the negation of the successor of the absolute value of the negative integer. That is: $$p(a) = \begin{cases} s^{-1}(a) & a \in \mathbb N_{\ne 0} \\ -1 & a = 0 \\ -s(a) & \text{otherwise} \,. \end{cases}$$
+  - integer / addition ::@:: Addition on integers is defined as: $$\begin{aligned} a + 0 & = 0 && a \in \mathbb Z \\ a + b & = s(a + p(b)) && a \in \mathbb Z, b \in \mathbb N_{\ne 0} \\ a + (-b) & = p(a + s(-b)) && a \in \mathbb Z, b \in \mathbb N_{\ne 0} \,. \end{aligned}$$
+    - integer / subtraction ::@:: Subtraction on integers is easily defined in terms of addition on integers.
+  - integer / multiplication ::@:: Multiplication on integers is defined as: $$\begin{aligned} a \cdot 0 & = 0 && a \in \mathbb Z \\ a \cdot b & = a \cdot p(b) + a && a \in \mathbb Z, b \in \mathbb N_{\ne 0} \\ a \cdot (-b) & = a \cdot s(-b) + (-a) && a \in \mathbb Z, b \in \mathbb N_{\ne 0} \,. \end{aligned}$$
+  - integer / absolute value ::@:: The absolute value function on integers is defined as: $$\begin{aligned} \lvert n \rvert & = n && n \in \mathbb N_0 \\ \lvert -n \rvert & = n && n \in \mathbb N_{\ne 0} \,. \end{aligned}$$
+- theorem: [Euclidean division](../../../../general/Euclidean%20division.md) ::@:: Given two integers _a_ (_dividend_) and _b_ (_divisor_), there exists unique integers _q_ (_quotient_) and _r_ (_remainder_) such that $$a = bq + r \qquad 0 \le r < \lvert b \rvert \,.$$ <p> To prove existence, consider the set of integers in the form of $a - qb \ge 0$. The set can be proved to be nonempty. Then prove that the minimum element of the set must have $0 \le r < \lvert b \rvert$. <p> To prove uniqueness, assume there are two distinct $(q, r)$ satisfying the above conditions. Then by contradiction: $$b \le \lvert q_1 - q_2 \rvert b = \lvert r_1 - r_2 \rvert < b \,.$$
+- [divisor](../../../../general/divisor.md) ::@:: _a_ divides _b_ is defined as $$a \mid b \iff b = aq \quad q \in \mathbb Z \,.$$ (Some definitions require $a \ne 0$. We do not require it here.)
+  - divisor / trivial theorems ::@:: Any integer divides 0, -1 and 1 divide any integer, any integer divides itself. Only -1 and 1 divides 1.
+  - divisor / multiplication ::@:: If $a \mid b$ and $c \mid d$, then $ac \mid bd$. The converse does not always hold.
+  - divisor / transitivity ::@:: If $a \mid b$ and $b \mid c$, then $a \mid c$. It does not make sense to talk about the converse.
+  - divisor / equality ::@:: If $a \mid b$ and $b \mid a$, then $a = \pm b$. The converse holds.
+  - divisor / linearity ::@:: If $a \mid b$ and $a \mid c$, then $a \mid (bx + cy) \quad x, y \in \mathbb Z$. The converse does not always hold.
+- [greatest common divisor](../../../../general/greatest%20common%20divisor.md) ::@:: The _greatest common divisor_ (GCD) of integers _a_ and _b_ (denoted gcd(_a_, _b_)), at least one of which is nonzero, is the greatest positive integer _d_ such that _d_ is a divisor of both _a_ and _b_.
+  - greatest common divisor / [Bézout's identity](../../../../general/Bézout's%20identity.md) ::@:: For every two nonzero integers _a_, _b_, there exists two integers _x_, _y_, such that $$\gcd(a, b) = ax + by \,.$$
+    - greatest common divisor / [Bézout's identity](../../../../general/Bézout's%20identity.md) / corollary ::@:: For every two nonzero integers _a_, _b_, $$\set{ax + by \mid x, y \in \mathbb Z} = \set{q \cdot \gcd(a, b) \mid q \in \mathbb Z} \,.$$\
+- [coprime integers](../../../../general/coprime%20integers.md) ::@:: Two integers are coprime iff their GCD is 1.
+- theorem: coprime integers, GCD ::@:: If $\gcd(a, b) = d$, then $\gcd(a / d, b / d) = 1$.
+- theorem: coprime integers, divisor ::@:: If two coprime integers $a, b$ divide the same number $c$, then $ab \mid c$.
+- theorem: [Euclid's lemma](../../../../general/Euclid's%20lemma.md) ::@:: If $a \mid bc$ and $\gcd(a, b) = 1$, then $a \mid c$.
+- [questions/2024-10-21/lecture](questions/2024-10-21%20lecture.md)
+- materials
+  - [lecture video](https://youtu.be/Bq42S8vZ16g)
+  - Burton/Chapter 1: Preliminaries
+  - Burton/Chapter 2: Divisibility Theory
+  - [video: number theory I](https://youtu.be/NuY7szYSXSw)
+  - [playlist: introduction to number theory (watch lectures 3 and 4)](https://youtu.be/EzE6it9kAsI?list=PL8yHsr3EFj53L8sMbzIhhXSAOpuZ1Fov8)
+
+## week 8 tutorial
+
+- datetime: 2024-10-21T18:00:00+08:00/2024-10-21T18:50:00+08:00
+- topic:
+- [questions/2024-10-21/tutorial](questions/2024-10-21%20tutorial.md)
+- materials
+
+## week 8 lecture 2
+
+- datetime: 2024-10-23T09:00:00+08:00/2024-10-23T10:20:00+08:00
+- topic:
+- [questions/2024-10-23](questions/2024-10-23.md)
+- [week 8 problem set](questions/week%208%20problem%20set.md)
+- materials
+
+## week 8 TA session
+
+- datetime: 2024-10-25T19:00:00+08:00/2024-10-25T19:50:00+08:00
+- topic: solving weekly problem set 5
+- [questions/2024-10-25](questions/2024-10-25.md)
+- [week 5 problem set](questions/week%205%20problem%20set.md)
+- materials
+
+## week 9 lecture
+
+- datetime: 2024-10-28T09:00:00+08:00/2024-10-28T10:20:00+08:00
+- topic:
+- [questions/2024-10-28/lecture](questions/2024-10-28%20lecture.md)
+- materials
+
+## week 9 tutorial
+
+- datetime: 2024-10-28T18:00:00+08:00/2024-10-28T18:50:00+08:00
+- topic:
+- [questions/2024-10-28/tutorial](questions/2024-10-28%20tutorial.md)
+- materials
+
+## week 9 lecture 2
+
+- datetime: 2024-10-30T09:00:00+08:00/2024-10-30T10:20:00+08:00
+- topic:
+- [questions/2024-10-30](questions/2024-10-30.md)
+- [week 9 problem set](questions/week%209%20problem%20set.md)
+- materials
+
+## week 9 TA session
+
+- datetime: 2024-11-01T17:00:00+08:00/2024-11-01T17:50:00+08:00
+- topic: solving weekly problem set 6
+- [questions/2024-11-01](questions/2024-11-01.md)
+- [week 6 problem set](questions/week%206%20problem%20set.md)
+- materials
+
+## week 10 lecture
+
+- datetime: 2024-11-04T09:00:00+08:00/2024-11-04T10:20:00+08:00
+- topic:
+- [questions/2024-11-04/lecture](questions/2024-11-04%20lecture.md)
+- materials
+
+## week 10 tutorial
+
+- datetime: 2024-11-04T18:00:00+08:00/2024-11-04T18:50:00+08:00
+- topic:
+- [questions/2024-11-04/tutorial](questions/2024-11-04%20tutorial.md)
+- materials
+
+## week 10 lecture 2
+
+- datetime: 2024-11-06T09:00:00+08:00/2024-11-06T10:20:00+08:00
+- topic
+- [questions/2024-11-06](questions/2024-11-06.md)
+- [week 10 problem set](questions/week%2010%20problem%20set.md)
+- materials
+
+## week 10 TA session
+
+- datetime: 2024-11-08T13:00:00+08:00/2024-11-08T13:50:00+08:00
+- topic: solving weekly problem set 7
+- [questions/2024-11-08](questions/2024-11-08.md)
+- [week 7 problem set](questions/week%207%20problem%20set.md)
+- materials
+
+## week 11 lecture
+
+- datetime: 2024-11-11T09:00:00+08:00/2024-11-11T10:20:00+08:00
+- topic:
+- [questions/2024-11-11/lecture](questions/2024-11-11%20lecture.md)
+- materials
+
+## week 11 tutorial
+
+- datetime: 2024-11-11T18:00:00+08:00/2024-11-11T18:50:00+08:00
+- topic:
+- [questions/2024-11-11/tutorial](questions/2024-11-11%20tutorial.md)
+- materials
+
+## week 11 lecture 2
+
+- datetime: 2024-11-13T09:00:00+08:00/2024-11-13T10:20:00+08:00
+- topic:
+- [questions/2024-11-13](questions/2024-11-13.md)
+- [week 11 problem set](questions/week%2011%20problem%20set.md)
+- materials
+
+## week 11 TA session
+
+- datetime: 2024-11-15T17:00:00+08:00/2024-11-15T17:50:00+08:00
+- topic: solving weekly problem set 8
+- [questions/2024-11-15](questions/2024-11-15.md)
+- [week 8 problem set](questions/week%208%20problem%20set.md)
+- materials
+
+## week 12 lecture
+
+- datetime: 2024-11-18T09:00:00+08:00/2024-11-18T10:20:00+08:00
+- topic:
+- [questions/2024-11-18/lecture](questions/2024-11-18%20lecture.md)
+- materials
+
+## week 12 tutorial
+
+- datetime: 2024-11-18T18:00:00+08:00/2024-11-18T18:50:00+08:00
+- topic:
+- [questions/2024-11-18/tutorial](questions/2024-11-18%20tutorial.md)
+- materials
+
+## week 12 lecture 2
+
+- datetime: 2024-11-20T09:00:00+08:00/2024-11-20T10:20:00+08:00
+- topic:
+- [questions/2024-11-20](questions/2024-11-20.md)
+- [week 12 problem set](questions/week%2012%20problem%20set.md)
+- materials
+
+<!-- ## week 12 TA session -->
+<!-- -->
+<!-- - datetime: 2024-11-22T19:00:00+08:00/2024-11-22T19:50:00+08:00 -->
+<!-- - topic: solving weekly problem set 9 -->
+<!-- - [questions/2024-11-22](questions/2024-11-22.md) -->
+<!-- - [week 9 problem set](questions/week%209%20problem%20set.md) -->
+<!-- - materials -->
+
+## week 13 lecture
+
+- datetime: 2024-11-25T09:00:00+08:00/2024-11-25T10:20:00+08:00
+- topic:
+- [questions/2024-11-25/lecture](questions/2024-11-25%20lecture.md)
+- materials
+
+## week 13 tutorial
+
+- datetime: 2024-11-25T18:00:00+08:00/2024-11-25T18:50:00+08:00
+- topic:
+- [questions/2024-11-25/tutorial](questions/2024-11-25%20tutorial.md)
+- materials
+
+## week 13 lecture 2
+
+- datetime: 2024-11-27T09:00:00+08:00/2024-11-27T10:20:00+08:00
+- topic:
+- [questions/2024-11-27](questions/2024-11-27.md)
+- [week 13 problem set](questions/week%2013%20problem%20set.md)
+- materials
+
+## week 13 TA session
+
+- datetime: 2024-11-27T18:00:00+08:00/2024-11-27T18:50:00+08:00
+- topic: solving weekly problem set 9
+- [questions/2024-11-27 TA session](questions/2024-11-27%20TA%20session.md)
+- [week 9 problem set](questions/week%209%20problem%20set.md)
+- materials

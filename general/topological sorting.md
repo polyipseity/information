@@ -278,7 +278,7 @@ function traverseDAGDistributed
 >     {@{<b>return</b> localOrder}@}
 > </pre> <!--SR:!2024-11-29,4,319!2024-11-29,4,311!2024-11-29,4,311!2024-11-29,4,294!2024-11-29,4,319!2024-11-29,4,319!2024-11-29,4,311!2024-11-29,4,319!2024-11-29,4,311!2024-11-29,4,287!2024-11-29,4,319!2024-11-29,4,294!2024-11-29,4,298!2024-11-29,4,298!2024-11-29,4,319!2024-11-29,4,311!2024-11-29,4,319!2024-11-29,4,319!2024-11-29,4,319!2024-11-29,4,287!2024-11-29,4,298!2024-11-29,4,311-->
 
-{@{The communication cost}@} depends {@{heavily on the given graph partition}@}. As for {@{runtime}@}, on {@{a [CRCW-PRAM](parallel%20RAM.md) model that allows fetch-and-decrement in constant time}@}, this algorithm {@{runs in ${\mathcal {O} }\left({\frac {m+n}{p} }+D(\Delta +\log n)\right)$}@}, where {@{_D_ is again the longest path in _G_ and _Δ_ the maximum degree}@}.<sup>[\[7\]](#^ref-7)</sup> <!--SR:!2024-11-29,4,311!2024-11-29,4,298!2024-11-29,4,279!2024-11-28,3,278!2024-11-28,3,278!2024-11-28,3,291-->
+{@{The communication cost}@} depends {@{heavily on the given graph partition}@}. As for {@{runtime}@}, on {@{a [CRCW-PRAM](parallel%20RAM.md) model that allows fetch-and-decrement in constant time}@}, this algorithm {@{runs in ${\mathcal {O} }\left({\frac {m+n}{p} }+D(\Delta +\log n)\right)$}@}, where {@{_m_ is the number of edges, _n_ is the number of vertices, _D_ is again the longest path in _G_ and _Δ_ the maximum degree}@}.<sup>[\[7\]](#^ref-7)</sup> <!--SR:!2024-11-29,4,311!2024-11-29,4,298!2024-11-29,4,279!2024-11-28,3,278!2024-11-28,3,278!2024-11-28,3,291-->
 
 ## application to shortest path finding
 
