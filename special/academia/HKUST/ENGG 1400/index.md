@@ -211,3 +211,35 @@ The content is in teaching order.
   - activity 3: odyssey planning – 3 versions of my life / components ::@:: __Timeline__: It shows major milestones, with at least one per year. Use whatever you want to describe it. It could be drawings, pictures, words, etc. <br/> __Dashboard__: It shows how you rate your plan. <br/> __Title__: A 3 to 6-word descriptive title. <br/> __Questions__: What questions does this plan raise? <!--SR:!2024-12-13,26,397!2024-12-14,27,397-->
 - assignments
   - [odyssey planning – 3 versions of my life](assignments/odyssey%20planning%20–%203%20versions%20of%20my%20life/submission.md)
+
+## week 11 tutorial
+
+- datetime: 2024-11-14T10:30:00+08:00/2024-11-14T12:20:00+08:00
+- status: canceled: typhoon signal 8
+
+> __No Class today!__
+>
+> Hi everyone, I have received few inquiries from you all about the class. Due to the typhoon, there will be no class today.  See you all next week!
+
+## week 12 tutorial
+
+- datetime: 2024-11-21T10:30:00+08:00/2024-11-21T12:20:00+08:00
+- activity 1: odyssey sharing ::@:: Share your odysseys with your group in groups of 3. Listen without judgement and be curious.
+- prototype ::@:: To bring ideas to life with little cost.
+  - prototype / advantages ::@:: engage others with your ideas, expose assumptions, reduce risk, sneak up on your future!
+  - prototype / characteristics ::@:: cheap, easy, quick, so that you can learn about something for little cost
+  - prototype / methods ::@:: You can talk to others on your ideas. Get to know _their stories_, which may change your life. <p> You can also experience your prototype. Get a feeling and a sense before investing more time and resources on your ideas.
+- activity 2: prototyping odysseys ::@:: Choose 1 to 2 parts of your odysseys that you are curious about and explore further.
+  - activity 2: prototyping odysseys / framing ::@:: Remember to _frame_ your questions well: Start with "How might I prototype...?". Don't prototype _deciding_. Don't mix multiple questions. Don't ask questions with binary answers.
+  - activity 2: prototyping odysseys / action ::@:: What is one tiny step, a prototype conversation or experience, you could run in the next 2 weeks for little to no money to explore that curiosity? <p> In the next two weeks, I will...
+  - activity 2: prototyping odysseys / feedback ::@:: Ask your peers for feedback on your prototype! <p> Feedback can be: I like (what worked?), I wish (what could change?), I wonder (new ideas?, questions?).
+- storytelling ::@:: Tell stories.
+  - storytelling / why ::@:: appeal to human emotion to motivate change, connect the dots for yourself for meaning and purpose, connect with others, create new opportunities
+- assignments
+  - [letter to future self](assignments/letter%20to%20future%20self/submission.md)
+  - [final presentation](assignments/final%20presentation/submission.md)
+
+## week 13 tutorial
+
+- datetime: 2024-11-28T10:30:00+08:00/2024-11-28T12:20:00+08:00
+- [final presentation](assignments/final%20presentation/submission.md)

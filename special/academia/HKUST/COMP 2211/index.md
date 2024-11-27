@@ -95,7 +95,7 @@ The content is in teaching order.
 ## week 1 lecture 2
 
 - datetime: 2024-09-06T13:30:00+08:00/2024-09-06T14:50:00+08:00
-- online, typhoon signal 8
+- status: online: typhoon signal 8
 - artificial intelligence
   - artificial intelligence / advantages ::@:: available always, digital assistance, faster decisions, innovation (new inventions), reduction in human errors, repetitive work helping, taking risks instead of humans <!--SR:!2025-01-15,55,310!2025-01-21,63,330-->
   - artificial intelligence / disadvantages ::@:: high cost of creation and maintenance, lack out-of-the-box thinking, make humans lazy, unemotional, unemployment <!--SR:!2024-12-17,32,290!2025-01-21,63,330-->
