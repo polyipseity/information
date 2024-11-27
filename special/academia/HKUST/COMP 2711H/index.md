@@ -704,7 +704,7 @@ The content is in teaching order.
 - [questions/2024-10-28/lecture](questions/2024-10-28%20lecture.md)
 - materials
   - [lecture video](https://youtu.be/rgidnudZ3TU)
-  - [cycles.cpp](attachments/cycles.cpp)
+  - [`cycles.cpp`](attachments/cycles.cpp)
   - [video: order of an integer modulo n](https://youtu.be/dFz2SCFwies)
   - [video: Fermat's little theorem](https://youtu.be/OkQJGql8os8)
   - [video: Euler's theorem](https://youtu.be/ijT3pmmal00)

@@ -58,7 +58,7 @@ The content is in teaching order.
 ## week 1 lecture 2
 
 - datetime: 2024-09-06T12:00:00+08:00/2024-09-06T13:20:00+08:00
-- canceled, typhoon signal 8
+- status: canceled: typhoon signal 8
 
 ## week 2 lecture
 
