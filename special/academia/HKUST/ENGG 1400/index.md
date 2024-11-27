@@ -224,17 +224,17 @@ The content is in teaching order.
 ## week 12 tutorial
 
 - datetime: 2024-11-21T10:30:00+08:00/2024-11-21T12:20:00+08:00
-- activity 1: odyssey sharing ::@:: Share your odysseys with your group in groups of 3. Listen without judgement and be curious.
-- prototype ::@:: To bring ideas to life with little cost.
-  - prototype / advantages ::@:: engage others with your ideas, expose assumptions, reduce risk, sneak up on your future!
-  - prototype / characteristics ::@:: cheap, easy, quick, so that you can learn about something for little cost
-  - prototype / methods ::@:: You can talk to others on your ideas. Get to know _their stories_, which may change your life. <p> You can also experience your prototype. Get a feeling and a sense before investing more time and resources on your ideas.
-- activity 2: prototyping odysseys ::@:: Choose 1 to 2 parts of your odysseys that you are curious about and explore further.
-  - activity 2: prototyping odysseys / framing ::@:: Remember to _frame_ your questions well: Start with "How might I prototype...?". Don't prototype _deciding_. Don't mix multiple questions. Don't ask questions with binary answers.
-  - activity 2: prototyping odysseys / action ::@:: What is one tiny step, a prototype conversation or experience, you could run in the next 2 weeks for little to no money to explore that curiosity? <p> In the next two weeks, I will...
-  - activity 2: prototyping odysseys / feedback ::@:: Ask your peers for feedback on your prototype! <p> Feedback can be: I like (what worked?), I wish (what could change?), I wonder (new ideas?, questions?).
-- storytelling ::@:: Tell stories.
-  - storytelling / why ::@:: appeal to human emotion to motivate change, connect the dots for yourself for meaning and purpose, connect with others, create new opportunities
+- activity 1: odyssey sharing ::@:: Share your odysseys with your group in groups of 3. Listen without judgement and be curious. <!--SR:!2024-12-02,5,389!2024-12-02,5,389-->
+- prototype ::@:: To bring ideas to life with little cost. <!--SR:!2024-12-02,5,389!2024-12-02,5,389-->
+  - prototype / advantages ::@:: engage others with your ideas, expose assumptions, reduce risk, sneak up on your future! <!--SR:!2024-12-02,5,389!2024-12-02,5,389-->
+  - prototype / characteristics ::@:: cheap, easy, quick, so that you can learn about something for little cost <!--SR:!2024-12-02,5,389!2024-12-02,5,389-->
+  - prototype / methods ::@:: You can talk to others on your ideas. Get to know _their stories_, which may change your life. <p> You can also experience your prototype. Get a feeling and a sense before investing more time and resources on your ideas. <!--SR:!2024-12-02,5,389!2024-12-02,5,389-->
+- activity 2: prototyping odysseys ::@:: Choose 1 to 2 parts of your odysseys that you are curious about and explore further. <!--SR:!2024-12-02,5,389!2024-12-02,5,389-->
+  - activity 2: prototyping odysseys / framing ::@:: Remember to _frame_ your questions well: Start with "How might I prototype...?". Don't prototype _deciding_. Don't mix multiple questions. Don't ask questions with binary answers. <!--SR:!2024-12-02,5,389!2024-12-02,5,389-->
+  - activity 2: prototyping odysseys / action ::@:: What is one tiny step, a prototype conversation or experience, you could run in the next 2 weeks for little to no money to explore that curiosity? <p> In the next two weeks, I will... <!--SR:!2024-12-02,5,389!2024-12-02,5,389-->
+  - activity 2: prototyping odysseys / feedback ::@:: Ask your peers for feedback on your prototype! <p> Feedback can be: I like (what worked?), I wish (what could change?), I wonder (new ideas?, questions?). <!--SR:!2024-12-02,5,389!2024-12-02,5,389-->
+- storytelling ::@:: Tell stories. <!--SR:!2024-12-02,5,389!2024-12-02,5,389-->
+  - storytelling / why ::@:: appeal to human emotion to motivate change, connect the dots for yourself for meaning and purpose, connect with others, create new opportunities <!--SR:!2024-12-02,5,389!2024-12-02,5,389-->
 - assignments
   - [letter to future self](assignments/letter%20to%20future%20self/submission.md)
   - [final presentation](assignments/final%20presentation/submission.md)
