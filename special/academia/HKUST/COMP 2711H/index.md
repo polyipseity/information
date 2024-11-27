@@ -623,7 +623,7 @@ The content is in teaching order.
 - datetime: 2024-10-21T18:00:00+08:00/2024-10-21T18:50:00+08:00
 - topic: prime factorizations, fundamental theorem of arithmetic
 - [Euclidean algorithm](../../../../general/Euclidean%20algorithm.md) ::@:: The __Euclidean algorithm__ is an efficient method for computing the greatest common divisor (GCD) of two integers, the largest number that divides them both without a remainder. <p> Given two integers $1 \le a \le b$, let $r$ be the remainder of $a$ dividing $b$. Then $\gcd(a, b) = \gcd(b, r)$. The Euclidean algorithm is simply using this fact over and over again.
-- [least common multiple](../../../../general/least%20common%20multiple.md) ::@:: The least common multiple, lowest common multiple, or smallest common multiple of two integers _a_ and _b_, usually denoted by _lcm_(_a_, _b_), is the smallest positive integer that is divisible by both _a_ and _b_.
+- [least common multiple](../../../../general/least%20common%20multiple.md) ::@:: The least common multiple, lowest common multiple, or smallest common multiple of two integers _a_ and _b_, usually denoted by lcm(_a_, _b_), is the smallest positive integer that is divisible by both _a_ and _b_.
 - theorem: greatest common divisor, least common divisor ::@:: $$\gcd(a, b) \cdot \operatorname{lcm}(a, b) = \lvert a \cdot b \rvert$$ (if we define the cases where one or both integers are zero properly)
   - theorem: greater common divisor, least common divisor / corollary: coprime integers ::@:: $a \perp b$ iff $\operatorname{lcm}(a, b) = \lvert a \cdot b \rvert$.
 - [prime number](../../../../general/prime%20number.md) ::@:: A __prime number__ (or a __prime__) is a natural number greater than 1 that is not a product of two smaller natural numbers. A natural number greater than 1 that is not prime is called a __composite number__.
@@ -663,7 +663,7 @@ The content is in teaching order.
     - [cyclic group](../../../../general/cyclic%20group.md)
     - modular arithmetic / cycles / multiplication ::@:: Consider $a^k \equiv 1 \pmod m$ for a fixed $a$ and $m$. The smallest positive integer _k_ satisfying this equation, if it exists, is the number of times it takes to multiply by $a$ and get back the same number, since $b a^{k} \equiv b \pmod m$.
 - modular multiplicative inverse
-  - modular multiplicative inverse / existence ::@:: _a_ has a modular multiplicative inverse modulo _m_ iff $\gcd(a, m) = 1$. <p> Prove by applying Bézout's identity on $$ax \equiv 1 \pmod m \iff ax + my = 1 \,.$$
+  - modular multiplicative inverse / existence ::@:: _a_ has a modular multiplicative inverse modulo _m_ iff $\gcd(a, m) = 1$. <p> Prove by applying Bézout's identity on $$ax \equiv 1 \pmod m \iff \exists y \in \mathbb Z \quad ax + my = 1 \,.$$
   - modular multiplicative inverse / uniqueness ::@:: The modular multiplicative inverse of _a_ modulo _m_, if it exists, is unique. <p> Assume there exists two distinct multiplicative inverse _x_ and _x'_. Prove by contradiction: $$\begin{aligned} ax - ax' & \equiv 1 - 1 \pmod m \\ a(x - x') & \equiv 0 \pmod m \\ x - x' & \equiv 0 && a \not\equiv 0 \pmod m \\ x & \equiv x' \pmod m \,. \end{aligned}$$
 - [modular exponentiation](../../../../general/modular%20exponentiation.md)
   - modular exponentiation / fast modular exponentiation ::@:: Fast modular exponentiation is simply exponentiation by squaring, but with modulus. <p> Exponentiation by squaring calculates $a^k$ for an integer _k_ and makes use of that $k$ can be expressed as the sum of powers of 2 (binary representation), and that $a^{2^{k'} }$ can be calculated in _k'_ multiplications, e.g.: $a^8 = \left(a^4\right)^2 = \left( \left(a^2 \right)^2 \right)^2$. <p> Fast modular exponentiation is simply doing the same thing, but after each multiplication, the number will be modulo _m_ to make the number smaller while keeping the final answer correct.
@@ -694,11 +694,11 @@ The content is in teaching order.
 - datetime: 2024-10-28T09:00:00+08:00/2024-10-28T10:20:00+08:00
 - topic: Fermat's little theorem, Euler's Theorem, Wilson's Theorem
 - Chinese remainder theorem
-- [Fermat's little theorem](../../../../general/Fermat's%20little%20theorem.md) ::@:: For a prime number $p$, $$\begin{aligned} a^p & \equiv p \pmod p \\ a^{p - 1} & \equiv 1 \pmod p \,. \end{aligned}$$ The converse fails for Carmichael numbers. <p> This is a special case of Euler's theorem for prime numbers, since $\varphi(p) = p - 1$.
+- [Fermat's little theorem](../../../../general/Fermat's%20little%20theorem.md) ::@:: For a prime number $p$, $$\begin{aligned} a^p & \equiv a \pmod p \\ a^{p - 1} & \equiv 1 \pmod p \,. \end{aligned}$$ The converse fails for Carmichael numbers. <p> This is a special case of Euler's theorem for prime numbers, since $\varphi(p) = p - 1$.
   - [proofs of Fermat's little theorem](../../../../general/proofs%20of%20Fermat's%20little%20theorem.md)
 - [Euler's totient function](../../../../general/Euler's%20totient%20function.md) ::@:: Euler's totient function counts the positive integers up to a given integer _n_ that are relatively prime (co-prime) to _n_. <p> Obviously, $\varphi(p) = p - 1$ for a prime number $p$.
 - theorem: Euler's totient function, prime factorization ::@:: Let $n = p_1^{\alpha_1} \cdots p_k^{\alpha_k}$. Then $$\varphi(n) = n (1 - 1 / p_1) \cdots (1 - 1 / p_k) \,.$$ <p> To prove this, consider a positive integer co-prime to $n$. That number does not have any common prime factors with $n$. Each term $(1 - 1 / p_i)$ counts the proportion of positive integers that does not have $p_i$ as a prime factor. Multiplying the terms together is the intersection operation. Finally, multiply by $n$ to turn this from a proportion to a count.
-- lemma: Euler's totient function, co-prime ::@:: $$a \perp b \implies \varphi(ab) = \varphi(a) \varphi(b)$$ (i.e. Euler's totient function is a multiplicative function with the additional condition that $\varphi(1) = 1$)
+- lemma: Euler's totient function, co-prime ::@:: $$a \perp b \implies \varphi(ab) = \varphi(a) \varphi(b)$$ (i.e. Euler's totient function, since it also satisfies $\varphi(1) = 1$, is a multiplicative function)
 - [Euler's theorem](../../../../general/Euler's%20theorem.md) ::@:: For two co-prime positive integers $a, n$, $$a^{\varphi(n)} \equiv 1 \pmod n \,,$$ where $\varphi(n)$ is Euler's totient function. The converse is true. <p> Consider the set of numbers $A$ that are modular multiplicative inverses of modulus _n_. There are $\varphi(n)$ such numbers. The multiplication of any two numbers from such a set yields a number in the set (i.e. multiplication is closed): $ax_a \equiv 1 \pmod n \text{ and } bx_b \equiv 1 \pmod n \implies (ab) (x_a x_b) \equiv 1 \pmod n$, so $ab$ has a modular multiplicative inverse and is in $A$ by definition. Take any $b \in A$. Consider multiplying each number in $A$ modulo $n$. Multiplying by $b$ modulo $n$ is injective since $b$ has a multiplicative inverse. It is also surjective because the operation maps $A$ back to itself, and is injective. So after multiplying each number in $A$ modulo $n$, we get back $A$ again. Finally: $$\begin{aligned} \prod_{a \in A} ba & \equiv \prod_{a \in A} a \pmod n \\ b^{\varphi(n)} \prod_{a \in A} a & \equiv \prod_{a \in A} a \pmod n \\ b^{\varphi(n)} & \equiv 1 \pmod n && \text{all }a\text{ have multiplicative inverses} \,. \end{aligned}$$
 - [Wilson's theorem](../../../../general/Wilson's%20theorem.md) ::@:: For a prime number $p$, $$\begin{aligned} (p - 1)! & \equiv -1 \pmod p \\ (p - 2)! & \equiv 1 \pmod p \,. \end{aligned}$$ The converse is true. <p> This can be proved using modular multiplicative inverses and Fermat's little theorem.
 - [questions/2024-10-28/lecture](questions/2024-10-28%20lecture.md)
@@ -720,7 +720,9 @@ The content is in teaching order.
 ## week 9 tutorial
 
 - datetime: 2024-10-28T18:00:00+08:00/2024-10-28T18:50:00+08:00
-- topic:
+- topic: Diffie–Hellman–Merkle key exchange, ElGamal encryption
+- [Diffie–Hellman key exchange](../../../../general/Diffie–Hellman%20key%20exchange.md) ::@::
+- [ElGamal encryption](../../../../general/ElGamal%20encryption.md) ::@::
 - [questions/2024-10-28/tutorial](questions/2024-10-28%20tutorial.md)
 - materials
 
