@@ -167,7 +167,7 @@ number of features
 <!--pytextgen generate section="a983"--><!-- The following content is generated at 2024-06-04T14:02:33.625025+08:00. Any edits will be overridden! -->
 
 - _(most important)_→::@::←price <!--SR:!2025-06-23,313,341!2025-06-24,314,341-->
-- price→::@::←benefit <!--SR:!2024-11-27,150,314!2025-07-14,290,301-->
+- price→::@::←benefit <!--SR:!2026-03-14,472,314!2025-07-14,290,301-->
 - benefit→::@::←quality <!--SR:!2025-02-16,183,274!2026-06-07,560,321-->
 - quality→::@::←durability <!--SR:!2024-12-04,68,181!2024-12-31,124,321-->
 - durability→::@::←service <!--SR:!2024-12-24,150,301!2024-12-10,72,221-->

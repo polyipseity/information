@@ -12,7 +12,7 @@ tags:
 
 English
 
-- [Brønsted-Lowry acid](https://en.wiktionary.org/wiki/Brønsted-Lowry_acid) ::@:: (B\_y a\_d) A [chemical species](../../../general/chemical%20species.md) that can act as a donor of [protons](../../../general/proton.md). <!--SR:!2025-02-16,297,363!2024-11-27,229,343-->
+- [Brønsted-Lowry acid](https://en.wiktionary.org/wiki/Brønsted-Lowry_acid) ::@:: (B\_y a\_d) A [chemical species](../../../general/chemical%20species.md) that can act as a donor of [protons](../../../general/proton.md). <!--SR:!2025-02-16,297,363!2027-01-20,784,343-->
 - [Brønsted-Lowry base](https://en.wiktionary.org/wiki/Brønsted-Lowry_base) ::@:: (B\_y b\_e) A [chemical species](../../../general/chemical%20species.md) that can act as an acceptor of [protons](../../../general/proton.md). <!--SR:!2024-12-15,254,363!2026-11-19,747,343-->
 - [Thursday](https://en.wiktionary.org/wiki/Thursday) ::@:: (T\_y) The 5th day of the week in many religious traditions, and the 4th day of the ISO 8601 week. <!--SR:!2026-05-03,596,396!2025-03-05,234,356-->
 - [Wronskian](https://en.wiktionary.org/wiki/Wronskian) ::@:: (W\_n) The [determinant](../../../general/deteriminant.md) formed from $n$ [functions](../../../general/function%20(mathematics).md) and their first $n - 1$ [derivatives](../../../general/derivative.md). <!--SR:!2025-03-03,332,344!2025-01-28,298,344-->
@@ -25,7 +25,7 @@ English
 - [antecedent](https://en.wiktionary.org/wiki/antecedent) ::@:: (a\_t) Earlier, in time or order. <!--SR:!2026-02-07,536,392!2025-03-05,294,372-->
 - [arithmetic](https://en.wiktionary.org/wiki/arithmetic) ::@:: (a\_c) The branch of [mathematics](../../../general/mathematics.md) studying numerical operations like [addition](../../../general/addition.md), [subtraction](../../../general/subtraction.md), [multiplication](../../../general/multiplication.md), and [division](../../../general/division%20(mathematics).md). <!--SR:!2025-01-05,289,344!2027-06-20,957,324-->
 - [artificial](https://en.wiktionary.org/wiki/artificial) ::@:: (a\_l) Man-made. <!--SR:!2026-11-05,826,430!2026-06-20,667,410-->
-- [attitude](https://en.wiktionary.org/wiki/attitude) ::@:: (a\_e) [Disposition](../../../general/disposition.md) or state of mind. <!--SR:!2024-11-27,258,344!2025-07-05,395,324-->
+- [attitude](https://en.wiktionary.org/wiki/attitude) ::@:: (a\_e) [Disposition](../../../general/disposition.md) or state of mind. <!--SR:!2028-04-07,1227,364!2025-07-05,395,324-->
 - [broccoli](https://en.wiktionary.org/wiki/broccoli) ::@:: (b\_i) An [edible](../../../general/edible.md) green [plant](../../../general/plant.md) in the [cabbage family](../../../general/Brassicaceae.md), which has a [tree](../../../general/tree.md)-shaped [flower](../../../general/flower.md) and [stem](../../../general/stalk.md) that is eaten as a [vegetable](../../../general/vegetable.md). <!--SR:!2027-09-03,1025,357!2026-12-20,794,357-->
 - [buoyancy](https://en.wiktionary.org/wiki/buoyancy) ::@:: (b\_y) The upward [force](../../../general/force.md) exerted by a [fluid](../../../general/fluid.md) on a partly or fully immersed body. <!--SR:!2026-04-09,627,324!2024-12-08,244,324-->
 - [collinear](https://en.wiktionary.org/wiki/collinear) ::@:: (c\_r) Lying on the same [line](../../../general/line%20(geometry).md). <!--SR:!2024-12-20,276,344!2025-01-06,290,344-->
@@ -80,7 +80,7 @@ English
 - [scarce](https://en.wiktionary.org/wiki/scarce) ::@:: (s\_e) Uncommon, rare. <!--SR:!2025-08-20,394,376!2025-07-28,345,336-->
 - [scared](https://en.wiktionary.org/wiki/scared) ::@:: (s\_d) Feeling fear; afraid, frightened. <!--SR:!2026-01-07,529,396!2026-08-18,718,416-->
 - [scissors](https://en.wiktionary.org/wiki/scissors) ::@:: (s\_s) A tool used for cutting thin material, consisting of two crossing blades attached at a pivot point in such a way that the blades slide across each other when the handles are closed. <!--SR:!2026-01-10,480,332!2025-06-30,396,392-->
-- [sinusoidal](https://en.wiktionary.org/wiki/sinusoidal) ::@:: (s\_l) Having the shape or characteristics of a [sine wave](../../../general/sine%20wave.md). <!--SR:!2024-11-27,236,324!2025-03-06,222,244-->
+- [sinusoidal](https://en.wiktionary.org/wiki/sinusoidal) ::@:: (s\_l) Having the shape or characteristics of a [sine wave](../../../general/sine%20wave.md). <!--SR:!2027-01-03,767,324!2025-03-06,222,244-->
 - [supremum](https://en.wiktionary.org/wiki/supremum) ::@:: (s\_m) Given a [subset](../../../general/subset.md) $X$ of a [partially ordered set](../../../general/partially%20ordered%20set.md) $P$ with partial order $\le$, the least element $y$ of $P$ such that every $x$ in $X$ satisfies $x \le y$. <!--SR:!2026-05-25,647,410!2025-01-18,257,370-->
 - [tennessine](https://en.wiktionary.org/wiki/tennessine) ::@:: (t\_e) A [chemical element](../../../general/chemical%20element.md) (_symbol_ Ts) of [atomic number](../../../general/atomic%20number.md) 117. <!--SR:!2024-12-13,205,332!2025-06-17,391,392-->
 - [theoretical](https://en.wiktionary.org/wiki/theoretical) ::@:: (t\_l) Of or relating to theory rather than practice. <!--SR:!2027-02-13,825,330!2026-02-02,521,290-->

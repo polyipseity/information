@@ -31,7 +31,7 @@ The content is in teaching order.
 
 - datetime: 2024-09-03T13:30:00+08:00/2024-09-03T14:50:00+08:00
 - course logistics
-  - course aims ::@:: commercial transaction and financial accounting, read and prepare financial statements, assets = liabilities + equity <!--SR:!2025-03-10,135,310!2024-11-27,58,310-->
+  - course aims ::@:: commercial transaction and financial accounting, read and prepare financial statements, assets = liabilities + equity <!--SR:!2025-03-10,135,310!2025-08-07,253,330-->
 - [financial accounting](../../../../general/financial%20accounting.md)
   - [financial accounting § objectives](../../../../general/financial%20accounting.md#objectives) ::@:: record transactions, basis for decision making, know how the business is doing financially, communicate financial information, legal compliance <!--SR:!2025-03-05,118,297!2025-01-05,71,257-->
   - [financial accounting](../../../../general/financial%20accounting.md) / record transactions ::@:: summarize, analyze, and report business transactions <!--SR:!2025-01-05,80,297!2025-03-19,135,317-->

@@ -503,7 +503,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 4. In the nuclear bulge
 > 5. The chances of finding a very young star are the same anywhere in the Milky Way galaxy
 >
-> - solution: {@{3}@} <!--SR:!2024-11-27,90,365-->
+> - solution: {@{3}@} <!--SR:!2025-10-21,328,365-->
 
 <!-- markdownlint MD028 -->
 

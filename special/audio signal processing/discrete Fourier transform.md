@@ -57,7 +57,7 @@ By duality, {@{shifting the signal in the frequency to the right by $k_0$ sample
 
 If {@{the signal in the time domain is purely real}@}, then {@{the signal in the frequency domain is even conjugate symmetric, i.e. $$X[k] = X^*[-k]$$}@}. Interpreting this in {@{rectangular form}@}, {@{the real part is even symmetric while the imaginary part is odd symmetric (up to mod $2\pi$)}@}. Interpreting this in {@{polar form}@}, {@{the modulus (length) is even symmetric while the argument (angle) is odd symmetric (up to mod $2\pi$)}@}. <!--SR:!2024-12-06,86,346!2025-11-13,356,366!2025-10-18,334,366!2025-06-15,229,346!2025-07-12,250,346!2025-03-12,146,326-->
 
-Furthermore, if {@{the signal in the time domain is _additionally_ even symmetric}@}, then {@{the frequency domain is _additionally_ even symmetric}@}. Interpreting this in {@{rectangular form}@}, {@{the real part is even symmetric while the imaginary part is always zero}@}. Interpreting this in {@{polar form}@}, {@{the modulus (length) is even symmetric while the argument (angle) is always an integer multiple of $\pi$}@}. <!--SR:!2024-11-27,79,346!2025-08-15,280,346!2025-06-16,229,346!2025-11-16,358,366!2024-12-01,82,346!2025-09-21,314,366-->
+Furthermore, if {@{the signal in the time domain is _additionally_ even symmetric}@}, then {@{the frequency domain is _additionally_ even symmetric}@}. Interpreting this in {@{rectangular form}@}, {@{the real part is even symmetric while the imaginary part is always zero}@}. Interpreting this in {@{polar form}@}, {@{the modulus (length) is even symmetric while the argument (angle) is always an integer multiple of $\pi$}@}. <!--SR:!2025-12-07,375,366!2025-08-15,280,346!2025-06-16,229,346!2025-11-16,358,366!2024-12-01,82,346!2025-09-21,314,366-->
 
 ### convolution
 

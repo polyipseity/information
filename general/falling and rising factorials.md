@@ -43,7 +43,7 @@ The rising and falling factorials are {@{simply related to one another}@}: {@{$$
 
 Falling and rising factorials of integers are {@{directly related to the ordinary [factorial](factorial.md)}@}: {@{$${\begin{aligned}n!&=1^{(n)}=(n)_{n},\\[6pt](m)_{n}&={\frac {m!}{(m-n)!} },\\[6pt]m^{(n)}&={\frac {(m+n-1)!}{(m-1)!} }.\end{aligned} }$$}@} <!--SR:!2025-01-19,67,310!2025-01-08,57,310-->
 
-{@{Rising factorials of half integers}@} are {@{directly related to the [double factorial](double%20factorial.md)}@}: {@{$${\begin{aligned}\left[{\frac {1}{2} }\right]^{(n)}={\frac {(2n-1)!!}{2^{n} } },\quad \left[{\frac {2m+1}{2} }\right]^{(n)}={\frac {(2(n+m)-1)!!}{2^{n}(2m-1)!!} }.\end{aligned} }$$}@} <!--SR:!2025-01-08,57,310!2024-12-15,36,270!2024-11-27,22,250-->
+{@{Rising factorials of half integers}@} are {@{directly related to the [double factorial](double%20factorial.md)}@}: {@{$${\begin{aligned}\left[{\frac {1}{2} }\right]^{(n)}={\frac {(2n-1)!!}{2^{n} } },\quad \left[{\frac {2m+1}{2} }\right]^{(n)}={\frac {(2(n+m)-1)!!}{2^{n}(2m-1)!!} }.\end{aligned} }$$}@} <!--SR:!2025-01-08,57,310!2024-12-15,36,270!2025-01-19,53,250-->
 
 The falling and rising factorials can be used to {@{express a [binomial coefficient](binomial%20coefficient.md)}@}: {@{$${\begin{aligned}{\frac {(x)_{n} }{n!} }&={\binom {x}{n} },\\[6pt]{\frac {x^{(n)} }{n!} } & = \binom {x+n-1} n = \left(\!\! \binom x n \!\!\right).\end{aligned} }$$}@} (Annotation: The above is obvious, but the below is also {@{a multiset coefficient}@}.) Thus {@{many identities on binomial coefficients carry over to the falling and rising factorials}@}. <!--SR:!2025-01-19,67,310!2024-12-29,50,290!2025-01-19,67,310!2024-12-28,46,290-->
 

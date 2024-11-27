@@ -44,7 +44,7 @@ The content is in teaching order.
 - midterm examination
   - report
     - This time there is a debugging question with 3 pages of code. So er... do that question last.
-      - What should you do if you see a time-wasting question? ::@:: De-prioritize it. Do it last. And do not spend time to check it afterwards unless you have checked everything else carefully. <!--SR:!2024-11-29,16,290!2024-11-27,14,290-->
+      - What should you do if you see a time-wasting question? ::@:: De-prioritize it. Do it last. And do not spend time to check it afterwards unless you have checked everything else carefully. <!--SR:!2024-11-29,16,290!2025-01-21,55,310-->
 - final examination
   - report
     - Not much to say.

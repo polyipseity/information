@@ -28,7 +28,7 @@ While financial accounting is {@{used to prepare accounting information for peop
 
 Financial accounting is {@{the preparation of financial statements that can be consumed by the public and the relevant stakeholders}@}. Financial information {@{would be useful to users if such qualitative characteristics are present}@}. When producing financial statements, the following must be complied with: {@{fundamental qualitative characteristics and enhancing qualitative characteristics}@}. <!--SR:!2025-03-19,143,310!2024-12-06,66,310!2025-02-07,107,290-->
 
-__Fundamental Qualitative Characteristics__ ::@:: relevance, faithful representation <!--SR:!2024-11-27,60,310!2025-04-20,165,310-->
+__Fundamental Qualitative Characteristics__ ::@:: relevance, faithful representation <!--SR:!2025-08-15,261,330!2025-04-20,165,310-->
 
 - __Relevance__ ::@:: Relevance is the capacity of the financial information to influence the decision of its users. The ingredients of relevance are the predictive value and confirmatory value. Materiality is a sub-quality of relevance. Information is considered material if its omission or misstatement could influence the economic decisions of users taken on the basis of the financial statements. <!--SR:!2025-01-01,76,270!2024-12-24,68,270-->
 - __Faithful Representation__ ::@:: Faithful representation means that the actual effects of the transactions shall be properly accounted for and reported in the financial statements. The words and numbers must match what really happened in the transaction. The ingredients of faithful representation are completeness, neutrality and free from error. It signifies that the accountants have acted in [good faith](good%20faith.md) during the process of representation. <!--SR:!2025-01-01,76,270!2025-01-02,74,270-->
@@ -112,7 +112,7 @@ Non-current assets include {@{[fixed](fixed%20asset.md) or long-term assets and 
 Liabilities include {@{current liabilities and long-term liabilities}@}: <!--SR:!2025-06-01,195,310-->
 
 - _current liabilities_ ::@:: trade accounts payable, dividends payable, employee salaries payable, interest (e.g. on debt) payable <!--SR:!2024-11-29,52,270!2024-12-16,60,270-->
-- _long-term liabilities_ ::@:: mortgage notes payable, bonds payable <!--SR:!2024-11-27,58,310!2025-05-17,187,310-->
+- _long-term liabilities_ ::@:: mortgage notes payable, bonds payable <!--SR:!2025-08-05,251,330!2025-05-17,187,310-->
 
 {@{Owner's equity, sometimes referred to as net assets}@}, is {@{represented differently depending on the type of business ownership}@}. Business ownership can be in the form of {@{a sole proprietorship, partnership, or a [corporation](corporation.md)}@}. For {@{a corporation}@}, the owner's equity portion {@{usually shows common stock, and retained earnings (earnings kept in the company)}@}. Retained earnings come from {@{the retained earnings statement, prepared prior to the balance sheet}@}.<sup>[\[8\]](#^ref-8)</sup> <!--SR:!2025-04-30,172,310!2025-04-12,146,290!2024-11-28,59,310!2025-06-17,211,310!2025-04-19,164,310!2025-03-29,137,290-->
 
@@ -178,7 +178,7 @@ When {@{the same thing is done to an account as its normal balance}@} it {@{incr
 However, there are {@{instances of accounts, known as contra-accounts (contra-asset, contra-revenue, and contra-equity accounts), which have a normal balance opposite that listed above}@}. Examples include: <!--SR:!2025-07-28,244,330-->
 
 - contra-asset accounts, such as... ::@:: [accumulated depreciation](depreciation.md#accumulated%20depreciation) and allowances for bad debt or obsolete inventory <!--SR:!2025-05-14,181,310!2025-04-16,163,310-->
-- contra-revenue accounts, such as... ::@:: sales allowances <!--SR:!2024-11-27,58,310!2025-05-08,168,310-->
+- contra-revenue accounts, such as... ::@:: sales allowances <!--SR:!2025-08-06,252,330!2025-05-08,168,310-->
 - contra-equity accounts, such as... ::@:: [treasury stock](treasury%20stock.md) <!--SR:!2025-03-07,133,310!2025-05-25,189,310-->
 
 ## financial accounting versus cost accounting

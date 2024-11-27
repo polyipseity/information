@@ -51,7 +51,7 @@ The required interpretation of {@{a function declaration for the above ambiguous
 
 ### solutions for C-style casts
 
-For C-style casts, one can use two alternative syntaxes: {@{the alternative syntax for C-style casts, or more preferably in [C++](C++.md), a named cast}@}: <!--SR:!2024-11-27,191,310-->
+For C-style casts, one can use two alternative syntaxes: {@{the alternative syntax for C-style casts, or more preferably in [C++](C++.md), a named cast}@}: <!--SR:!2027-02-24,819,330-->
 
 ```C++
 int an_int((int)a_double); // C-style cast

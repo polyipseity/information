@@ -153,7 +153,7 @@ return _chain.from_iterable(await _gather(
 - [desiccator](desiccator.md)→::@::←[(eye) dropper/Pasteur pipette](eye%20dropper.md) <!--SR:!2025-01-18,175,270!2025-05-17,214,270-->
 - [(eye) dropper/Pasteur pipette](eye%20dropper.md)→::@::←dropping bottle <!--SR:!2025-09-24,635,310!2026-11-04,940,330-->
 - dropping bottle→::@::←[electronic balance](weighing%20scale.md) <!--SR:!2027-08-29,1055,290!2025-02-01,93,150-->
-- [electronic balance](weighing%20scale.md)→::@::←[evaporating dish](evaporating%20dish.md) <!--SR:!2026-12-20,757,230!2024-11-27,181,250-->
+- [electronic balance](weighing%20scale.md)→::@::←[evaporating dish](evaporating%20dish.md) <!--SR:!2026-12-20,757,230!2026-08-25,636,270-->
 - [evaporating dish](evaporating%20dish.md)→::@::←[filter funnel](filter%20funnel.md) <!--SR:!2025-10-03,383,230!2026-08-23,787,270-->
 - [filter funnel](filter%20funnel.md)→::@::←[flat-bottom(ed) flask](flat-bottom%20flask.md) <!--SR:!2025-03-04,102,170!2025-07-15,581,310-->
 - [flat-bottom(ed) flask](flat-bottom%20flask.md)→::@::←[gas jar/pneumatic trough](pneumatic%20trough.md) <!--SR:!2024-12-03,256,250!2024-12-20,54,150-->
@@ -286,7 +286,7 @@ return _chain.from_iterable(await _gather(
 
 <!--pytextgen generate section="3934"--><!-- The following content is generated at 2024-01-04T20:17:52.258336+08:00. Any edits will be overridden! -->
 
-- [burette](burette.md):@:Rinse the equipment with deionized [water](water.md) and then the [solution](solution.md) to be delivered. <!--SR:!2024-11-27,411,290-->
+- [burette](burette.md):@:Rinse the equipment with deionized [water](water.md) and then the [solution](solution.md) to be delivered. <!--SR:!2029-06-09,1655,310-->
 - [conical flask/Erlenmeyer flask/titration flask](Erlenmeyer%20flask.md):@:Rinse the equipment with deionized [water](water.md) before use. <!--SR:!2026-12-31,981,330-->
 - dropping bottle:@:literally bottle with dropper <!--SR:!2027-06-30,1162,330-->
 - [graduated pipette](graduated%20pipette.md):@:Rinse the equipment with deionized [water](water.md) and then the [solution](solution.md) to be delivered. <!--SR:!2024-12-23,382,250-->

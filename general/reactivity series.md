@@ -165,7 +165,7 @@ return _chain.from_iterable(await _gather(
 <!--pytextgen generate section="1e32"--><!-- The following content is generated at 2024-02-17T20:43:14.994069+08:00. Any edits will be overridden! -->
 
 - [caesium](caesium.md):@:Cs<sup>+</sup> <!--SR:!2026-12-21,1055,350-->
-- [rubidium](rubidium.md):@:Rb<sup>+</sup> <!--SR:!2024-11-27,411,290-->
+- [rubidium](rubidium.md):@:Rb<sup>+</sup> <!--SR:!2029-06-11,1657,310-->
 - [potassium](potassium.md):@:K<sup>+</sup> <!--SR:!2027-01-16,1077,350-->
 - [sodium](sodium.md):@:Na<sup>+</sup> <!--SR:!2027-02-19,1104,350-->
 - [lithium](lithium.md):@:Li<sup>+</sup> <!--SR:!2027-10-03,1278,350-->

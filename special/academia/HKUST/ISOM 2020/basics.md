@@ -65,7 +65,7 @@ return _chain.from_iterable(await _gather(
 
 <!--pytextgen generate section="f21a"--><!-- The following content is generated at 2024-01-30T13:35:46.598807+08:00. Any edits will be overridden! -->
 
-- _(begin)_→::@::←`**` <!--SR:!2024-11-27,64,322!2025-07-17,240,330-->
+- _(begin)_→::@::←`**` <!--SR:!2025-09-10,287,342!2025-07-17,240,330-->
 - `**`→::@::←`*` <!--SR:!2025-08-06,259,342!2024-12-12,78,322-->
 - `*`→::@::←`/` <!--SR:!2024-12-05,71,322!2024-12-10,76,322-->
 - `/`→::@::←`//` <!--SR:!2025-08-13,264,342!2024-12-13,79,322-->
@@ -90,7 +90,7 @@ return _chain.from_iterable(await _gather(
 
 For the return type of operators, all of above (if only `float` and `int` are considered), with two exceptions, {@{returns `int` (integer) if both operands are `int`, and `float` otherwise}@}. The two exceptions are {@{that `/` (division) always return `float`, even if both operands are `int`}@}, and {@{applying `**` (power) on a negative base results in a `complex` (complex number) but not an error, which is not discussed here}@}. <!--SR:!2025-06-11,210,322!2024-11-28,65,322!2024-12-03,70,322-->
 
-A note regarding accuracy is that {@{there may be some inaccuracies involved when `float`s are involved, such as `0.1 + 0.2` is `0.30000000000000004` instead of `0.3`}@}. Also, regarding zeros, {@{`0.0` and `-0.0` are technically different `float`s, but they are equivalent for most purposes and even compare the same, i.e. `0.0 == -0.0` is `True`}@}. Finally, a notable error (raising an error causes {@{the program to stop and print out error messages}@}) is that {@{`/` (division), `//` (floor division), and `%` (remainder) raises `ZeroDivisionError` if the second operand is zero}@}. However, `0 ** 0` (power) {@{returns `1` instead of being undefined or raising an error}@}. <!--SR:!2024-12-08,74,322!2025-08-14,265,342!2024-12-02,69,322!2024-11-27,64,322!2025-05-02,170,340-->
+A note regarding accuracy is that {@{there may be some inaccuracies involved when `float`s are involved, such as `0.1 + 0.2` is `0.30000000000000004` instead of `0.3`}@}. Also, regarding zeros, {@{`0.0` and `-0.0` are technically different `float`s, but they are equivalent for most purposes and even compare the same, i.e. `0.0 == -0.0` is `True`}@}. Finally, a notable error (raising an error causes {@{the program to stop and print out error messages}@}) is that {@{`/` (division), `//` (floor division), and `%` (remainder) raises `ZeroDivisionError` if the second operand is zero}@}. However, `0 ** 0` (power) {@{returns `1` instead of being undefined or raising an error}@}. <!--SR:!2024-12-08,74,322!2025-08-14,265,342!2024-12-02,69,322!2025-09-09,286,342!2025-05-02,170,340-->
 
 ### comparison operators
 
@@ -275,7 +275,7 @@ Below are common data types:
 
 Some interesting facts about `float`s:  `print`, for relatively small `float`s, {@{it always outputs at least 1 decimal place for `float`s, and outputs at most as many digits as needed to represent the number exactly}@}. For relatively large `floats`, {@{it outputs the float in exponential notation, e.g. `1e+100`, `1.2e-100`, etc.}@} `1` {@{is an `int` while `1.` and `1.0` are `float`s representing the same value `1`}@}. <!--SR:!2025-06-02,202,322!2025-04-02,153,310!2025-08-23,270,363-->
 
-To get the type of a value, {@{use `type(<any>)`, which will return the type of `<any>`}@}. Note that the return type is {@{a special type called classes, which we will not go into detail here}@}. On Jupyter, {@{without using `print` (i.e. placing `type(<any>)` as the last expression), it will simply print out the type name, e.g. `float`, `int`, etc.}@} In most other situations, including {@{evaluating `type(<any>)` in your local Python installation instead of Jupyter}@}, it will {@{print out `<class '<type>'>`, with `<type>` replaced by the type name, e.g. `<class 'float'>`, `<class 'int'>`, etc.}@} <!--SR:!2025-08-29,277,342!2024-12-07,73,322!2025-07-12,234,322!2025-05-14,187,322!2024-11-27,64,310-->
+To get the type of a value, {@{use `type(<any>)`, which will return the type of `<any>`}@}. Note that the return type is {@{a special type called classes, which we will not go into detail here}@}. On Jupyter, {@{without using `print` (i.e. placing `type(<any>)` as the last expression), it will simply print out the type name, e.g. `float`, `int`, etc.}@} In most other situations, including {@{evaluating `type(<any>)` in your local Python installation instead of Jupyter}@}, it will {@{print out `<class '<type>'>`, with `<type>` replaced by the type name, e.g. `<class 'float'>`, `<class 'int'>`, etc.}@} <!--SR:!2025-08-29,277,342!2024-12-07,73,322!2025-07-12,234,322!2025-05-14,187,322!2025-08-30,276,330-->
 
 ### data type conversion
 

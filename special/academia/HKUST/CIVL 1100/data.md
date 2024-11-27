@@ -122,7 +122,7 @@ See [Eiffel Tower](../../../../general/Eiffel%20Tower.md).
 
 See [Empire State Building](../../../../general/Empire%20State%20Building.md).
 
-- image ::@:: ![Empire State Building image](../../../../archives/Wikimedia%20Commons/Empire%20State%20Building%20(aerial%20view).jpg) <!--SR:!2024-11-27,157,396!2025-08-09,358,396-->
+- image ::@:: ![Empire State Building image](../../../../archives/Wikimedia%20Commons/Empire%20State%20Building%20(aerial%20view).jpg) <!--SR:!2027-03-27,850,416!2025-08-09,358,396-->
 
 ## Golden Gate Bridge
 
@@ -273,7 +273,7 @@ See [Sutong Yangtze River Bridge](../../../../general/Sutong%20Yangtze%20River%2
 - bridge type ::@:: [cable-stayed bridge](../../../../general/cable-stayed%20bridge.md)<!-- flashcard 30c74f35-b995-41af-8d8c-189c93fb1dfa --> <!--SR:!2025-05-24,285,360!2025-08-03,345,380-->
 - description ::@:: [cable-stayed bridge](../../../../general/cable-stayed%20bridge.md) in China <!--SR:!2025-04-08,239,310!2025-05-26,316,364-->
 - image ::@:: ![Sutong Yangtze River Bridge image](../../../../archives/Wikimedia%20Commons/Sutong%20Yangtze%20River%20Bridge.JPG) <!--SR:!2025-07-18,330,380!2025-05-14,295,380-->
-- length ::@:: 8206 m, longest span: 1088 m <!--SR:!2024-11-27,29,217!2025-02-02,212,355-->
+- length ::@:: 8206 m, longest span: 1088 m <!--SR:!2024-12-13,16,197!2025-02-02,212,355-->
 
 ## Taipei 101
 
