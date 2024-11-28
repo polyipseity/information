@@ -694,12 +694,12 @@ The content is in teaching order.
 - datetime: 2024-10-28T09:00:00+08:00/2024-10-28T10:20:00+08:00
 - topic: Fermat's little theorem, Euler's Theorem, Wilson's Theorem
 - Chinese remainder theorem
-- [Fermat's little theorem](../../../../general/Fermat's%20little%20theorem.md) ::@:: For a prime number $p$, $$\begin{aligned} a^p & \equiv a \pmod p \\ a^{p - 1} & \equiv 1 \pmod p \,. \end{aligned}$$ The converse fails for Carmichael numbers. <p> This is a special case of Euler's theorem for prime numbers, since $\varphi(p) = p - 1$.
+- [Fermat's little theorem](../../../../general/Fermat's%20little%20theorem.md) ::@:: For a prime number $p$, $$\begin{aligned} a^p & \equiv a \pmod p \\ a^{p - 1} & \equiv 1 \pmod p \,. \end{aligned}$$ The converse fails for Carmichael numbers. <p> This is a special case of Euler's theorem for prime numbers, since $\varphi(p) = p - 1$. <p> As a note, $p$ is also the smallest exponent greater than 1 satisfying the above equations for all $a$.
   - [proofs of Fermat's little theorem](../../../../general/proofs%20of%20Fermat's%20little%20theorem.md)
 - [Euler's totient function](../../../../general/Euler's%20totient%20function.md) ::@:: Euler's totient function counts the positive integers up to a given integer _n_ that are relatively prime (co-prime) to _n_. <p> Obviously, $\varphi(p) = p - 1$ for a prime number $p$.
-- theorem: Euler's totient function, prime factorization ::@:: Let $n = p_1^{\alpha_1} \cdots p_k^{\alpha_k}$. Then $$\varphi(n) = n (1 - 1 / p_1) \cdots (1 - 1 / p_k) \,.$$ <p> To prove this, consider a positive integer co-prime to $n$. That number does not have any common prime factors with $n$. Each term $(1 - 1 / p_i)$ counts the proportion of positive integers that does not have $p_i$ as a prime factor. Multiplying the terms together is the intersection operation. Finally, multiply by $n$ to turn this from a proportion to a count.
+- theorem: Euler's totient function, prime factorization ::@:: Let $n = p_1^{\alpha_1} \cdots p_k^{\alpha_k}$. Then $$\varphi(n) = n (1 - 1 / p_1) \cdots (1 - 1 / p_k) \,.$$ <p> To prove this, consider a positive integer co-prime to $n$. That number does not have any common prime factors with $n$. Each term $(1 - 1 / p_i)$ counts the proportion of positive integers that does not have $p_i$ as a prime factor. Said proportions are mutually independent, i.e. the proportion of an integer having a prime factor $p_i$ equals the proportion of an integer having a prime factor $p_i$, given that it already has certain other prime factors. So we can multiply the terms together to get the correct proportion. Finally, multiply by $n$ to turn this from a proportion to a count.
 - lemma: Euler's totient function, co-prime ::@:: $$a \perp b \implies \varphi(ab) = \varphi(a) \varphi(b)$$ (i.e. Euler's totient function, since it also satisfies $\varphi(1) = 1$, is a multiplicative function)
-- [Euler's theorem](../../../../general/Euler's%20theorem.md) ::@:: For two co-prime positive integers $a, n$, $$a^{\varphi(n)} \equiv 1 \pmod n \,,$$ where $\varphi(n)$ is Euler's totient function. The converse is true. <p> Consider the set of numbers $A$ that are modular multiplicative inverses of modulus _n_. There are $\varphi(n)$ such numbers. The multiplication of any two numbers from such a set yields a number in the set (i.e. multiplication is closed): $ax_a \equiv 1 \pmod n \text{ and } bx_b \equiv 1 \pmod n \implies (ab) (x_a x_b) \equiv 1 \pmod n$, so $ab$ has a modular multiplicative inverse and is in $A$ by definition. Take any $b \in A$. Consider multiplying each number in $A$ modulo $n$. Multiplying by $b$ modulo $n$ is injective since $b$ has a multiplicative inverse. It is also surjective because the operation maps $A$ back to itself, and is injective. So after multiplying each number in $A$ modulo $n$, we get back $A$ again. Finally: $$\begin{aligned} \prod_{a \in A} ba & \equiv \prod_{a \in A} a \pmod n \\ b^{\varphi(n)} \prod_{a \in A} a & \equiv \prod_{a \in A} a \pmod n \\ b^{\varphi(n)} & \equiv 1 \pmod n && \text{all }a\text{ have multiplicative inverses} \,. \end{aligned}$$
+- [Euler's theorem](../../../../general/Euler's%20theorem.md) ::@:: For two co-prime positive integers $a, n$, $$a^{\varphi(n)} \equiv 1 \pmod n \,,$$ where $\varphi(n)$ is Euler's totient function. The converse is true. <p> As a note, $\varphi(n)$ may NOT be the smallest exponent greater than 1 that satisfies the above equation for all $a$ co-prime to $n$. It could be a divisor of $\varphi(n)$ instead. <p> Consider the set of numbers $A$ that are modular multiplicative inverses of modulus _n_. There are $\varphi(n)$ such numbers. The multiplication of any two numbers from such a set yields a number in the set (i.e. multiplication is closed): $ax_a \equiv 1 \pmod n \text{ and } bx_b \equiv 1 \pmod n \implies (ab) (x_a x_b) \equiv 1 \pmod n$, so $ab$ has a modular multiplicative inverse and is in $A$ by definition. Take any $b \in A$. Consider multiplying each number in $A$ modulo $n$. Multiplying by $b$ modulo $n$ is injective since $b$ has a multiplicative inverse. It is also surjective because the operation maps $A$ back to itself, and is injective. So after multiplying each number in $A$ modulo $n$, we get back $A$ again. Finally: $$\begin{aligned} \prod_{a \in A} ba & \equiv \prod_{a \in A} a \pmod n \\ b^{\varphi(n)} \prod_{a \in A} a & \equiv \prod_{a \in A} a \pmod n \\ b^{\varphi(n)} & \equiv 1 \pmod n && \text{all }a\text{ have multiplicative inverses} \,. \end{aligned}$$
 - [Wilson's theorem](../../../../general/Wilson's%20theorem.md) ::@:: For a prime number $p$, $$\begin{aligned} (p - 1)! & \equiv -1 \pmod p \\ (p - 2)! & \equiv 1 \pmod p \,. \end{aligned}$$ The converse is true. <p> This can be proved using modular multiplicative inverses and Fermat's little theorem.
 - [questions/2024-10-28/lecture](questions/2024-10-28%20lecture.md)
 - materials
@@ -721,18 +721,48 @@ The content is in teaching order.
 
 - datetime: 2024-10-28T18:00:00+08:00/2024-10-28T18:50:00+08:00
 - topic: Diffie–Hellman–Merkle key exchange, ElGamal encryption
-- [Diffie–Hellman key exchange](../../../../general/Diffie–Hellman%20key%20exchange.md) ::@::
-- [ElGamal encryption](../../../../general/ElGamal%20encryption.md) ::@::
+- [symmetric-key algorithm](../../../../general/symmetric-key%20algorithm.md) ::@:: Alice and Bob have a shared key that is secret (should not be known to Eve). The encryption and decryption algorithm uses the same shared key.
+- [one-time pad](../../../../general/one-time%20pad.md) ::@:: Every time Alice and Bob sends a message, a different truly random shared key that is at least as long as the message and secret (should not be known to Eve) is used. The message is encrypted using modular addition and decrypted using modular subtraction. <p> Eve cannot get any information from the encrypted message, because there exists an key that gives the encrypted message for all possible messages.
+- [discrete logarithm](../../../../general/discrete%20logarithm.md) ::@:: The discrete logarithm log<sub>_b_</sub> _a_ is an integer _k_ such that _b_<sup>_k_</sup> = _a_. No efficient method is known for computing them in general (e.g. in modular arithmetic).
+- [Diffie–Hellman key exchange](../../../../general/Diffie–Hellman%20key%20exchange.md) ::@:: How can Alice and Bob share a secret key without Eve knowing for encryption later? <p> They can both compute $g^{ab} \pmod m \,.$ First they publicly share a prime number $m$ and a primitive root modulo $g$ ($g^k$ generates all possible numbers modulo $m$). Alice chooses a secret key $a$. Bob chooses a secret key $b$. Alice calculates $g^a \pmod m$ and sends it to Bob. Bob calculates $g^b \pmod m$ and sends it to Alice. Then both Alice and Bob calculates $\left(g^a\right)^b \equiv \left(g^b\right)^a \equiv g^{ab} \pmod m$ together to get a shared secret key. <p> In the process, Eve only knows $g$, $m$, $g^a \pmod m$ and $g^b \pmod m$. Computing $a$ or $b$ from the above information is the discrete logarithm problem, for which there is no efficient method is known for computing them in general. There may be efficient methods in specific cases, e.g. $g^a \le m$, $g^b \le m$, etc.
+- [public-key cryptography](../../../../general/public-key%20cryptography.md) ::@:: __Public-key cryptography__ is the field of cryptographic systems that use pairs of related keys. Each key pair consists of a public key and a corresponding private key. ElGamal encryption and RSA are examples.
+- [ElGamal encryption](../../../../general/ElGamal%20encryption.md) ::@:: A part of ElGamal uses the Diffie–Hellman key exchange to exchange a shared secret. <p> ElGamal is similar to the Diffie–Hellman key exchange, but with some differences. Say Alice wants to send a message $M$ to Bob. The tuple $\left(g, m, g^a \pmod m\right)$ sent by Alice is the public key. $a$ kept private by Alice is the private key. Then Bob, instead of sending $g^b \pmod m$ only, sends $\left(g^b \pmod m, g^{ab} + M \pmod m\right)$. Then Alice can decrypt the message by subtracting $g^{ab} \pmod m$. Bob can use a different $b$ for every message $M$ he sends.
+- [RSA](../../../../general/RSA%20(cryptosystem).md)
+  - RSA / principle ::@:: It is practical to find three very large positive integers _e_, _d_, and _n_, such that for all integers _m_ (0 ≤ _m_ < _n_), $$\left(m^e\right)^d \equiv m \pmod n \,.$$ However, when given only _e_ and _n_, it is extremely difficult to find _d_. <p> A naive example is as below. If _n_ is a prime number _p_, then $m^{p - 1} \equiv 1 \pmod p$ by Fermat's little theorem. Choose 1 < _e_ < $\lambda(p) = \varphi(p) = p - 1$ such that _e_ is co-prime to _p_ − 1. Then find _d_ in $de \equiv 1 \pmod {p - 1}$, which must exist. The tuple $(n, e)$ is the public key. $d$ is the private key. Encrypting $m$ is calculating $m^e \pmod n$. Decrypting $m^e \pmod n$ is calculating $\left(m^e\right)^d \equiv m^{de} \equiv m^{k(p - 1) + 1} \equiv m \pmod n$. <p> The example is naive because if _n_ is a prime, we can find _d_ easily from $(e, n)$ as we can find $\lambda(p) = \varphi(p) = p - 1$. Normally, _n_ is a semi-prime, a product of two primes: $n = pq$. Then $\lambda(pq) = \operatorname{lcm}(p - 1, q - 1)$, which requires factorizing $n$ first if we only know $(e, n)$. Factorizing large numbers is difficult in general.
+- [Carmichael function](../../../../general/Carmichael%20function.md) ::@:: The __Carmichael function__ _λ_(_n_) of a positive integer _n_ is the smallest positive integer _m_ such that $$a^m \equiv 1\pmod n$$ holds for every integer _a_ co-prime to _n_. <p> $\lambda(n) \mid \varphi(n)$ is always true. For prime numbers _p_, $\lambda(p) = \varphi(p) = p - 1$.
 - [questions/2024-10-28/tutorial](questions/2024-10-28%20tutorial.md)
 - materials
+  - [lecture video](https://youtu.be/B5xa4ig13AY)
+  - [video: secret key exchange](https://youtu.be/NmM9HA2MQGI)
+  - [video: the mathematics behind Diffie–Hellman](https://youtu.be/NmM9HA2MQGI)
+  - [video: COMP 4541's Diffie–Hellman lecture](https://youtu.be/-R0FYB2O7RM)
+  - [video: COMP 4541's number theory tutorial - part I](https://youtu.be/C1NWehXA6YY)
+  - [video: COMP 4541's ElGamal lecture](https://youtu.be/12ZC8ntNFY4)
+  - [video: ElGamal encryption](https://youtu.be/tKNY1zhK3sQ)
+  - Burton/Chapter 10: Intro to Crypto
 
 ## week 9 lecture 2
 
 - datetime: 2024-10-30T09:00:00+08:00/2024-10-30T10:20:00+08:00
-- topic:
+- topic: RSA encryption, digital signatures
+- [integer factorization](../../../../general/integer%20factorization.md) ::@:: __Integer factorization__ is the decomposition of a positive integer into a product of integers. No efficient non-quantum integer factorization algorithm is known (as of 2024).
+- [RSA](../../../../general/RSA%20(cryptosystem).md) ::@:: If _n_ is a semi-prime, a product of two primes: $n = pq$, then $m^{\varphi(n)} \equiv 1 \pmod n$ by Euler's theorem. Choose 1 < _e_ < $\varphi(n)$ such that _e_ is co-prime to $\varphi(n)$. Then find _d_ in $de \equiv 1 \pmod {\varphi(n)}$, which must exist. The tuple $(n, e)$ is the public key. $d$ is the private key. Encrypting $m$ is calculating $m^e \pmod n$. Decrypting $m^e \pmod n$ is calculating $\left(m^e\right)^d \equiv m^{de} \equiv m^{k \cdot \varphi(n) + 1} \equiv m \pmod n$. <p> Actually, $\varphi(n) = \varphi(pq) = \varphi(p) \varphi(q) = (p - 1)(q - 1)$ above can be replaced with $\lambda(n) = \lambda(pq) = \operatorname{lcm}(p - 1, q - 1)$. Using Chinese remainder theorem, $m^{de - 1} \equiv 1 \pmod n$ has the same unique solution as $$\begin{aligned} m^{de - 1} & \equiv 1 \pmod p \\ m^{de - 1} & \equiv 1 \pmod q \end{aligned} \,.$$ It suffices that $p - 1 \mid de - 1$ and $q - 1 \mid de - 1$, so $\operatorname{lcm}(p - 1, q - 1) \mid de - 1$.
+  - RSA / encryption & authenticity ::@:: Alice wants to send a message to Bob. While Alice can encrypt a message, Eve can also encrypt a message as well. Eve can also multiply two encrypted messages together. <p> Something else is needed to guarantee authenticity, i.e. ensure the message is sent by Alice.
+  - RSA / signature ::@:: Notice that $$\left(m^e\right)^d \equiv \left(m^d\right)^e \pmod n \,.$$ So we can swap the role of private key and public key. To send an encrypted message, public key encrypts a message and private key decrypts a message. In a digital signature scheme, private key signs a message and public keys validates that the message is signed. <p> A naive digital signature protocol simply swaps the role of the private key and the public key, and sends a signed message. We can send both the encrypted message and the signed message together. <p> While this protects against simply making up a new message, this does not protect against multiplying two encrypted messages together. A more sophisticated scheme is needed.
+    - RSA / signature / sophisticated scheme ::@:: The naive scheme signs and encrypts separately. <p> Instead, Alice signs the message with Alice's private key and appends the signature to the message. Then encrypt and send the message with Bob's public key. When Bob receives the message, Bob decrypts the message with Bob's private key. Bob gets the signature and validates it using Alice's public key. <p> You can also reverse the order of signing and encryption, i.e. encrypt and then sign instead.
+- [digital signature](../../../../general/digital%20signature.md)
 - [questions/2024-10-30](questions/2024-10-30.md)
 - [week 9 problem set](questions/week%209%20problem%20set.md)
 - materials
+  - [lecture video](https://youtu.be/Pz5K4GCg4Hg)
+  - [video: breaking RSA](https://youtu.be/-ShwJqAalOk)
+  - [video: What are digital signatures?](https://youtu.be/s22eJ1eVLTU)
+  - [video: COMP 4541's RSA lecture](https://youtu.be/1h7yex387pk)
+  - [video: COMP 4541's digital signatures lecture](https://youtu.be/Z7ugkxTmwdY)
+  - [video: the RSA cryptosystem and efficient exponentiation](https://youtu.be/QSlWzKNbKrU)
+  - [video: Diffie–Hellman key exchange and the discrete log problem](https://youtu.be/aeOzBCbwxUo)
+  - [reading: side-channel attacks (Wikipedia)](https://en.wikipedia.org/wiki/Side-channel_attack)
+  - [reading: power analysis (Wikipedia)](https://en.wikipedia.org/wiki/Power_analysis)
 
 ## week 9 TA session
 
@@ -745,24 +775,69 @@ The content is in teaching order.
 ## week 10 lecture
 
 - datetime: 2024-11-04T09:00:00+08:00/2024-11-04T10:20:00+08:00
-- topic:
+- topic: Russell's paradox, Zermelo–Fraenkel set theory
+- [Russell's paradox](../../../../general/Russell's%20paradox.md) ::@:: $$\text{Let }R=\{x\mid x\not \in x\}{\text{, then }}R\in R\iff R\not \in R$$ <p> This highlights inconsistencies in naive set theory. Zermelo–Fraenkel set theory formalizes the set theory while avoiding the above paradox.
+- [Zermelo–Fraenkel set theory](../../../../general/Zermelo–Fraenkel%20set%20theory.md)
+  - Zermelo–Fraenkel set theory / axiom of extensionality ::@:: Two sets are equal if and only if they have the same elements. $$\forall x\forall y[\forall z(z\in x\Leftrightarrow z\in y)\Rightarrow x=y]$$
+  - Zermelo–Fraenkel set theory / axiom of empty set ::@:: There exists a set with no elements. $$\exists A\,\forall x\,(x\notin A)$$
+  - Zermelo–Fraenkel set theory / axiom of pairing ::@:: If _x_ and _y_ are sets, there exists a set {_x_, _y_} whose elements are exactly _x_ and _y_. $$\forall x\forall y\exists z((x\in z)\land (y\in z))$$
+  - Zermelo–Fraenkel set theory / axiom of union ::@:: The axiom of union states that for any set of sets $\mathcal F$, there is a set $A$ containing every element that is a member of some member of $\mathcal F$. $$\forall {\mathcal {F}}\,\exists A\,\forall Y\,\forall x[(x\in Y\land Y\in {\mathcal {F}})\Rightarrow x\in A]$$
+  - Zermelo–Fraenkel set theory / axiom of restricted comprehension ::@:: The axiom schema of specification states that this subset always exists \(it is an [axiom _schema_](../../../../general/axiom%20schema.md) because there is one axiom for each $\varphi$\). Formally, let $\varphi$ be any formula in the language of ZFC with all free variables among $x,z,w_{1},\ldots ,w_{n}$ \($y$ is not free in $\varphi$\). Then: $$\forall z\forall w_{1}\forall w_{2}\ldots \forall w_{n}\exists y\forall x[x\in y\Leftrightarrow ((x\in z)\land \varphi (x,w_{1},w_{2},...,w_{n},z))]\,.$$ <p> Notice that $y$ cannot be inputted to $\varphi$, so this avoids Russell's paradox.
+  - Zermelo–Fraenkel set theory / axiom of power set ::@:: For any set $x$, there is a set $y$ that contains every subset of $x$: $$\forall x\exists y\forall z(z\subseteq x\Rightarrow z\in y) \,.$$
+- theorem: existence and uniqueness of the empty set ::@:: By the axiom of empty set, there is an empty set $x$. Let $y$ be a set with no elements. By the axiom of extensionality, they are the same.
+- [ordered pair](../../../../general/ordered%20pair.md) ::@:: $$(a, b) := \set{\set{a}, \set{a, b} }$$ <p> A equality property: $(a, b) = (c, d)$ iff $a = b$ and $c = d$.
+- union of sets ::@:: $$a \cup b = \bigcup \set{a, b}$$
+- [Cartesian product](../../../../general/Cartesian%20product.md) ::@:: $$\begin{aligned} A\times B & =\{(a,b)\mid a\in A\ {\text{ and }}\ b\in B\} \\ A \times B & = \{x\in {\mathcal {P}}({\mathcal {P}}(A\cup B))\mid \exists a\in A\ \exists b\in B:x=(a,b) \}\end{aligned}$$
+- [relation](../../../../general/relation%20(mathematics).md) ::@:: A __relation__ from $X$ to $Y$ is a subset of $X \times Y$.
+- [function](../../../../general/function%20(mathematics).md) ::@:: A __function__ from $X$ to $Y$ is a relation from $X$ to $Y$ that is right-unique (for a fixed $x \in X$ in the left, $y \in Y$ is unique in the right) and left-total (there is a ordered pair with $x$ in the left for every $x \in X$).
 - [questions/2024-11-04/lecture](questions/2024-11-04%20lecture.md)
 - materials
+  - [video playlist: intro to set theory (watch the first 10 lectures)](https://youtu.be/f_MrWycJRZ8?list=PLjJhPCaCziSQyON7NLc8Ac8ibdm6_iDQf)
 
 ## week 10 tutorial
 
 - datetime: 2024-11-04T18:00:00+08:00/2024-11-04T18:50:00+08:00
-- topic:
+- topic: axiom of infinity, bijections
+- [Zermelo–Fraenkel set theory](../../../../general/Zermelo–Fraenkel%20set%20theory.md)
+  - Zermelo–Fraenkel set theory / natural numbers ::@:: 0 is empty set. The successor is defined as: $s(n) := n \cup \set{n}$. Define inequality: $$\begin{aligned} n & \le m && \text{if }n \subseteq m \\ n & < m && \text{if }n \in m \,.\end{aligned}$$
+  - Zermelo–Fraenkel set theory / inductive set ::@:: An __inductive set__ $X$ is a set satisfying $$\begin{aligned} \emptyset & \in X \\ \forall x \quad x \in X & \implies s(x) \in X \,. \end{aligned}$$ <p> This is somewhat similar to induction using Peano axioms, but there are important differences. In particular, induction is not an axiom but a theorem using ZFC set theory.
+  - Zermelo–Fraenkel set theory / unique minimal inductive set ::@:: There is an unique inductive set $\mathbb N$ that is a member of every inductive set. <p> To construct such a set, informally, take the intersection of all inductive sets. Formally, let $\Phi(I)$ is the formula that says "_I_ is inductive". There is an unique set $W$ such that $$\forall x(x\in W\leftrightarrow \forall I(\Phi (I)\to x\in I)) \,.$$ It is constructed: $$W=\{x\in I:\forall J(\Phi (J)\to x\in J)\}\,,$$ where $I$ is an inductive set.
+- [axiom of infinity](../../../../general/axiom%20of%20infinity.md) ::@:: It guarantees the existence of at least one infinite set, namely a set containing the natural numbers.
+- [class function](../../../../general/class%20(set%20theory).md) ::@:: In ZF, the concept of a [function](../../../../general/function%20(mathematics).md) can also be generalized to classes. A __class function__ is not a function in the usual sense, since it is not a set; it is rather a formula $\Phi (x,y)$ with the property that for any set $x$ there is no more than one set $y$ such that the pair $(x,y)$ satisfies $\Phi$. For example, the class function mapping each set to its powerset may be expressed as the formula $y={\mathcal {P}}(x)$. The fact that the ordered pair $(x,y)$ satisfies $\Phi$ may be expressed with the shorthand notation $\Phi (x)=y$.
+- [finite set](../../../../general/finite%20set.md) ::@:: Formally, a set $S$ is called __finite__ if there exists a [bijection](../../../../general/bijection.md) $$f\colon S\to n$$for some natural number $n$ \(natural numbers are defined as sets in [Zermelo-Fraenkel set theory](../../../../general//Zermelo–Fraenkel%20set%20theory.md)\). The number $n$ is the set's cardinality, denoted as $|S|$.
+- [infinite set](../../../../general/infinite%20set.md) ::@:: In set theory, an __infinite set__ is a set that is not a finite set. Infinite sets may be countable or uncountable.
+- [bijection](../../../../general/bijection.md) ::@:: A __bijection__, __bijective function__, or __one-to-one correspondence__ between two mathematical [sets](../../../../general/set%20(mathematics).md) is a [function](../../../../general/function%20(mathematics).md) such that each element of the second set \(the [codomain](../../../../general/codomain.md)\) is the image of exactly one element of the first set \(the [domain](../../../../general/domain%20of%20a%20function.md)\). <p> Simple properties: $$\begin{aligned} \lvert x \rvert & = \lvert x \rvert \\ \lvert x \rvert = \lvert y \rvert & \iff \lvert y \rvert = \lvert x \rvert \\ \lvert x \rvert = \lvert y \rvert \text{ and } \lvert y \rvert = \lvert z \rvert & \implies \lvert x \rvert = \lvert z \rvert \,. \end{aligned}$$
+  - bijection / countable examples ::@:: $$\begin{aligned} \lvert \mathbb N \rvert & = \lvert E \rvert && \text{even numbers} \\ & = \lvert \mathbb P \rvert \\ & = \lvert \mathbb N^k \rvert && k \in \mathbb N \\ & = \left\lvert \bigcup_{k = 1}^\infty \mathbb N^k \right\rvert && \text{countable union of countable sets is countable} \,. \end{aligned}$$
+- [injective function](../../../../general/injective%20function.md)
+  - injective function / cardinality ::@:: If there is an injective function from $X$ to $Y$, then $\lvert X \rvert \le \lvert Y \rvert$.
 - [questions/2024-11-04/tutorial](questions/2024-11-04%20tutorial.md)
 - materials
+  - [lecture video](https://youtu.be/BrOH1_eoAaA)
+  - [reading: Oxford lecture notes on set theory (pages 1-20)](https://www.maths.ox.ac.uk/system/files/attachments/SetTheoryHT18.pdf)
+  - [video: Hilbert hotel](https://youtu.be/OxGsU8oIWjY)
 
 ## week 10 lecture 2
 
 - datetime: 2024-11-06T09:00:00+08:00/2024-11-06T10:20:00+08:00
-- topic
+- topic: countability, Cantor's theorem, Tarski's theorem, Schröder–Bernstein theorem
+- bijection & cardinality
+- injection & cardinality
+- image of a function
+- [countable set](../../../../general/countable%20set.md) ::@:: A set is countable iff it has the same cardinality as the natural numbers.
+- [uncountable set](../../../../general/uncountable%20set.md)
+- theorem: infinite set minus finite set ::@:: An infinite set minus a finite set is also infinite.
+- theorem: countably infinite subset in an infinite set ::@:: There is a countably infinite subset in an infinite set. One can keep extracting an element from an infinite set to make a countably infinite subset.
+- theorem: countable (finite or infinite) set plus countable (finite or infinite) set ::@:: A countable union of a countable set is countable.
+- theorem: natural numbers, rational numbers ::@:: $$\lvert \mathbb N \rvert = \lvert \mathbb Q \rvert$$
+- theorem: set of functions from the natural numbers to either 0 or 1 ::@:: The set of functions from the natural numbers to either 0 or 1 is uncountable. First, interpret the functions as "real numbers". For example, for a function _f_, the _i_-th digit is _f_(_i_). Apply Cantor's diagonal argument.
+- [Cantor's theorem](../../../../general/Cantor's%20theorem.md) ::@:: For every set $A$ (including the empty set), $\lvert A \rvert < \lvert P(A) \rvert$. <p> To prove this, assume the existence of a bijection $f$ between $A$ and $P(A)$ and consider the set $T = \set{a \in A \mid a \notin f(a)} \subseteq P(A)$.
+- Tarski's theorem ([Knaster–Tarski theorem](../../../../general/Knaster–Tarski%20theorem.md)) ::@:: Let $X$ be a set and $h : P(X) \to P(X)$ be a monotone map, i.e. $A \subseteq B \implies h(A) \subseteq h(B)$. Then $X$ admits an _invariant set_ $A \in P(X)$, i.e. $A = h(A)$. <p> To prove this, consider an _expansive set_, i.e. $A \subseteq h(A)$. Then the union of expansive sets is expansive itself. Now consider the union of all expansive sets, e.g. $$C = \bigcup \set{A \in P(X) \mid A \subseteq h(A)} \,.$$ We claim that $C = h(C)$. First $C$ is expansive, so $C \subseteq h(C)$. Next, since $C \subseteq h(C)$, so $h(C) \subseteq h(h(C))$, thus $h(C)$ is expansive. Since $h(C)$ is expansive, $h(C) \subseteq C$. Combining the above results, $C = h(C)$.
+- [Schröder–Bernstein theorem](../../../../general/Schröder–Bernstein%20theorem.md) ::@:: If $\lvert X \rvert \le \lvert Y \rvert$ and $\lvert Y \rvert \le \lvert X \rvert$, then $\lvert X \rvert = \lvert Y \rvert$. Equivalently, if there are two injective functions $f: X \to Y$ and $g: Y \to X$, then there is an bijection between them. <p> If we assume the axiom of choice, then a pair of surjective functions $f$ and $g$ also implies the existence of a bijection, by constructing injective functions from their inverses $f^{-1}$ and $g^{-1}$. <p> To prove this, consider two injective functions $f: A \to B$ and $g: B \to A$. Consider double-ended chains alternating between elements in $A$ and $B$ starting from any element in either $A$ or $B$. As an example: $$\cdots \rightarrow f^{-1}(g^{-1}(a))\rightarrow g^{-1}(a)\rightarrow a\rightarrow f(a)\rightarrow g(f(a))\rightarrow \cdots$$. There may be infinitely many above such chains. However, for any fixed element in either $A$ or $B$, the element is in exactly one chain only, by the injective-ness of $f$ and $g$. The chain may start at an element of $A$ (if $g^{-1}(a)$ is undefined), an element of $B$ (if $f^{-1}(b)$ is undefined), is doubly infinite, or is a cycle. In all of the above cases, a bijection can be defined for elements in the chain.
 - [questions/2024-11-06](questions/2024-11-06.md)
 - [week 10 problem set](questions/week%2010%20problem%20set.md)
 - materials
+  - [lecture video](https://youtu.be/jDqQlQLODzQ)
+  - [reading: Oxford lecture notes on set theory (pages 1-26)](https://www.maths.ox.ac.uk/system/files/attachments/SetTheoryHT18.pdf)
 
 ## week 10 TA session
 
