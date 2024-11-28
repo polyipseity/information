@@ -70,7 +70,7 @@ The statement of cash flows {@{considers the inputs and outputs in concrete cash
 > - {@{cash inflow}@}: {@{$50 - _How much WikiTables received in cash for the first table. They didn't receive cash for the second table (sold in credit terms)._}@}
 > - {@{cash outflow}@}: {@{$50 - _How much they'd originally bought the 2 tables for._}@}
 > - {@{opening balance}@}: {@{$0}@}
-> - {@{__closing balance__}@}: {@{__$50 – 2 \* $25 + $0 = $50 – $50 = $0__ - _Indeed, the cash flow for the month of June for WikiTables amounts to $0 and not $50._}@} <!--SR:!2025-03-28,147,310!2024-11-28,59,310!2024-12-07,67,310!2025-02-23,120,290!2025-07-08,230,330!2024-12-05,65,310!2025-07-25,242,330!2025-07-20,240,330-->
+> - {@{__closing balance__}@}: {@{__$50 – 2 \* $25 + $0 = $50 – $50 = $0__ - _Indeed, the cash flow for the month of June for WikiTables amounts to $0 and not $50._}@} <!--SR:!2025-03-28,147,310!2025-08-09,254,330!2024-12-07,67,310!2025-02-23,120,290!2025-07-08,230,330!2024-12-05,65,310!2025-07-25,242,330!2025-07-20,240,330-->
 
 Important: the cash flow statement {@{only considers the exchange of __actual__ cash, and ignores what the person in question owes or is owed}@}. <!--SR:!2025-07-21,241,330-->
 
@@ -106,7 +106,7 @@ Current assets are {@{the most liquid assets of a firm, which are expected to be
 
 Non-current assets include {@{[fixed](fixed%20asset.md) or long-term assets and [intangible assets](intangible%20asset.md)}@}: <!--SR:!2025-03-15,135,290-->
 
-- _fixed (long-term) assets_ ::@:: property, building, equipment (such as factory machinery) <!--SR:!2024-11-28,59,310!2024-12-10,70,310-->
+- _fixed (long-term) assets_ ::@:: property, building, equipment (such as factory machinery) <!--SR:!2025-08-11,256,330!2024-12-10,70,310-->
 - _intangible assets_ ::@:: copyrights, trademarks, patents, goodwill <!--SR:!2025-03-21,131,290!2025-05-06,179,310-->
 
 Liabilities include {@{current liabilities and long-term liabilities}@}: <!--SR:!2025-06-01,195,310-->
@@ -114,7 +114,7 @@ Liabilities include {@{current liabilities and long-term liabilities}@}: <!--SR:
 - _current liabilities_ ::@:: trade accounts payable, dividends payable, employee salaries payable, interest (e.g. on debt) payable <!--SR:!2024-11-29,52,270!2024-12-16,60,270-->
 - _long-term liabilities_ ::@:: mortgage notes payable, bonds payable <!--SR:!2025-08-05,251,330!2025-05-17,187,310-->
 
-{@{Owner's equity, sometimes referred to as net assets}@}, is {@{represented differently depending on the type of business ownership}@}. Business ownership can be in the form of {@{a sole proprietorship, partnership, or a [corporation](corporation.md)}@}. For {@{a corporation}@}, the owner's equity portion {@{usually shows common stock, and retained earnings (earnings kept in the company)}@}. Retained earnings come from {@{the retained earnings statement, prepared prior to the balance sheet}@}.<sup>[\[8\]](#^ref-8)</sup> <!--SR:!2025-04-30,172,310!2025-04-12,146,290!2024-11-28,59,310!2025-06-17,211,310!2025-04-19,164,310!2025-03-29,137,290-->
+{@{Owner's equity, sometimes referred to as net assets}@}, is {@{represented differently depending on the type of business ownership}@}. Business ownership can be in the form of {@{a sole proprietorship, partnership, or a [corporation](corporation.md)}@}. For {@{a corporation}@}, the owner's equity portion {@{usually shows common stock, and retained earnings (earnings kept in the company)}@}. Retained earnings come from {@{the retained earnings statement, prepared prior to the balance sheet}@}.<sup>[\[8\]](#^ref-8)</sup> <!--SR:!2025-04-30,172,310!2025-04-12,146,290!2025-08-10,255,330!2025-06-17,211,310!2025-04-19,164,310!2025-03-29,137,290-->
 
 #### statement of retained earnings
 

@@ -17,7 +17,7 @@ In [finance](finance.md), the __quick ratio__, also known as {@{the __acid-test 
 
 A normal liquid ratio is {@{considered to be 1:1}@}. {@{A company with a quick ratio of less than 1}@} cannot {@{currently fully pay back its current liabilities}@}. <!--SR:!2025-04-02,146,310!2025-06-24,210,330!2025-06-08,195,310-->
 
-The quick ratio is {@{similar to the [current ratio](current%20ratio.md)}@}, but {@{it provides a more conservative assessment of the liquidity position of a firm as it excludes [inventory](inventory.md),<sup>[\[1\]](#^ref-1)</sup> which it does not consider as sufficiently liquid}@}. <!--SR:!2024-11-28,51,310!2024-12-11,62,310-->
+The quick ratio is {@{similar to the [current ratio](current%20ratio.md)}@}, but {@{it provides a more conservative assessment of the liquidity position of a firm as it excludes [inventory](inventory.md),<sup>[\[1\]](#^ref-1)</sup> which it does not consider as sufficiently liquid}@}. <!--SR:!2025-07-07,221,330!2024-12-11,62,310-->
 
 ## formula
 

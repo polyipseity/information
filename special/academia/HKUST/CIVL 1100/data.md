@@ -307,7 +307,7 @@ See [Tsing Ma Bridge](../../../../general/Tsing%20Ma%20Bridge.md).
 See [Turin–Lyon high-speed railway](../../../../general/Turin–Lyon%20high-speed%20railway.md).
 
 - core part ::@:: [Mont Cenis Base Tunnel](#Mont%20Cenis%20Base%20Tunnel) <!--SR:!2026-01-31,469,327!2025-06-23,321,370-->
-- length ::@:: 271 km <!--SR:!2024-11-28,91,297!2026-01-30,525,397-->
+- length ::@:: 271 km <!--SR:!2025-08-27,272,297!2026-01-30,525,397-->
 
 ## Two Prudential Plaza
 

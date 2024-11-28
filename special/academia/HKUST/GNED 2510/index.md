@@ -50,7 +50,7 @@ The content is in teaching order.
 - topic: Innerview (II): Together we redefine Success
 - ideal life
 - powerful self-introduction ::@:: know yourself, know your passion, know your unique selling points (USP) <!--SR:!2024-12-05,58,310!2024-12-13,64,310-->
-- psychometric assessments ::@:: STRONG, DISC maps <!--SR:!2024-12-02,55,310!2024-11-28,51,310-->
+- psychometric assessments ::@:: STRONG, DISC maps <!--SR:!2024-12-02,55,310!2025-07-03,217,330-->
 
 ## week 3 tutorial
 
@@ -68,7 +68,7 @@ The content is in teaching order.
 - job description ::@:: Infer what attributes the job is look from from its job description. <!--SR:!2024-11-30,53,310!2024-12-25,69,310-->
 - [résumé](../../../résumé.md)
   - What color should a CV typed up in? ::@:: black <!--SR:!2025-06-29,214,330!2024-12-25,69,310-->
-  - How long should a CV roughly be? ::@:: 1 page <!--SR:!2024-12-06,57,310!2024-11-28,51,310-->
+  - How long should a CV roughly be? ::@:: 1 page <!--SR:!2024-12-06,57,310!2025-07-07,221,330-->
   - What things should NOT be included on a CV? ::@:: date of birth (DOB), gender, home address <!--SR:!2025-04-18,154,310!2024-12-13,64,310-->
   - What order should your qualification be put in? ::@:: newest to oldest <!--SR:!2024-12-08,59,310!2024-12-06,59,310-->
   - IROAR ::@:: impact, results, outcomes, achievements, responsibilities <!--SR:!2024-11-30,53,310!2025-04-10,148,310-->
@@ -132,7 +132,7 @@ The content is in teaching order.
 - What to do after confirming an offer? ::@:: stop interviewing, nicely decline other work offers <!--SR:!2025-03-30,143,310!2024-12-25,69,310-->
 - job offer ::@:: Check if it is legitimate and is not missing any crucial information! <!--SR:!2025-05-30,186,310!2024-12-14,65,310-->
   - job offer crucial information ::@:: company logo, contact information, job title, job details, salary/compensation, benefits, expiration date <!--SR:!2024-12-25,62,250!2025-02-10,97,270-->
-  - declining a job offer ::@:: act quick, communicate professionally, express appreciation <!--SR:!2024-11-28,51,310!2024-12-06,59,310-->
+  - declining a job offer ::@:: act quick, communicate professionally, express appreciation <!--SR:!2025-07-08,222,330!2024-12-06,59,310-->
 
 ## week 8 tutorial
 
@@ -174,7 +174,7 @@ The content is in teaching order.
 - interview goals ::@:: impress, express, tell stories (STAR-r) <!--SR:!2024-12-25,69,310!2024-12-06,57,310-->
 - STAR-r ::@:: situation, task, action, result, reflection <!--SR:!2025-04-07,151,310!2024-12-03,56,310-->
   - STAR-r / situation ::@:: set the scene <!--SR:!2024-12-06,57,310!2024-12-25,69,310-->
-  - STAR-r / task ::@:: describe the purpose <!--SR:!2024-11-28,49,290!2025-06-21,207,330-->
+  - STAR-r / task ::@:: describe the purpose <!--SR:!2025-06-15,199,310!2025-06-21,207,330-->
   - STAR-r / action ::@:: explain what you did <!--SR:!2024-12-07,60,310!2024-12-11,62,310-->
   - STAR-r / result ::@:: share the outcome <!--SR:!2024-12-05,56,310!2024-12-25,69,310-->
   - STAR-r / reflection ::@:: what you would have done differently <!--SR:!2024-12-06,57,310!2024-12-06,57,310-->

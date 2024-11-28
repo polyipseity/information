@@ -271,7 +271,7 @@ return _chain.from_iterable(await _gather(
 
 <!--pytextgen generate section="29ca"--><!-- The following content is generated at 2024-01-31T12:40:31.103335+08:00. Any edits will be overridden! -->
 
-- (operator) `&`:@:concatenation <!--SR:!2024-11-28,227,330-->
+- (operator) `&`:@:concatenation <!--SR:!2027-10-03,1039,350-->
 - `LEFT(string, length)`:@:get the first `length` characters in `string` <!--SR:!2025-01-14,266,330-->
 - `LEN(string)`:@:length of `string` <!--SR:!2025-01-01,257,330-->
 - `LOWER(string)`:@:convert to lowercase <!--SR:!2027-05-14,927,350-->

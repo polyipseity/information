@@ -50,7 +50,7 @@ Let $a, b \in \mathbb N_0$ and {@{$b \ne 0$. Prove that there exists two natural
 
 Prove that {@{any two consecutive elements of the Fibonacci sequence are relatively prime. The Fibonacci sequence is defined recursively as $F_0 = 0, F_1 = 1, F_n = F_{n - 2} + F_{n - 1}$}@}. <!--SR:!2024-12-05,66,320-->
 
-- strategy ::@:: Since the Fibonacci sequence is recursively defined, it is likely best to use induction. Contradiction can be used to prove the conditions for induction. <!--SR:!2024-12-03,64,320!2024-11-28,59,320-->
+- strategy ::@:: Since the Fibonacci sequence is recursively defined, it is likely best to use induction. Contradiction can be used to prove the conditions for induction. <!--SR:!2024-12-03,64,320!2025-06-05,189,320-->
 
 1. base case ::@:: $F_0 = 0, F_1 = 1, F_2 = 0 + 1 = 1, F_3 = 1 + 1 = 2, F_4 = 1 + 2 = 3$. $F_0$ and $F_1$, $F_1$ and $F_2$, and $F_2$ and $F_3$ are co-prime (in a weird way) because their common divisor only contains $1$. $F_3$ and $F_4$ are co-prime in a much more normal way, and we will start our induction here. <!--SR:!2024-11-30,61,320!2024-12-13,72,320-->
 2. induction ::@:: Assume $F_n \ge 2$ and $F_{n + 1} \ge 2$ are co-prime. Consider $F_{n + 2} = F_n + F_{n + 1}$. If $F_{n + 1}$ is not co-prime with $F_{n + 2}$ then there is a common factor $a \ge 2$ that $a \mid F_{n + 1}, F_{n + 2}$. Then we can re-express $F_{n + 1} = ab, F_{n + 2} = ac$, where $b, c \in \mathbb N_0$, and $b < c$ because $F_{n + 1} < F_{n + 2}$. Now consider $F_n$: $$\begin{aligned} F_n + F_{n + 1} & = F_{n + 2} \\ F_n & = F_{n + 2} - F_{n + 1} \\ & = ac - ab \\ & = a(c - b) \end{aligned}$$. Since $a \ge 2$ and $c - b > 0$, that means $a \mid F_n$ also. But this would mean $F_n$ and $F_{n + 1}$ have a common divisor of $a \ge 2$ and thus are not co-prime. This creates a contradiction, and thus $F_{n + 1}$ and $F_{n + 2}$ must be co-prime if $F_n$ and $F_{n + 1}$ are co-prime. By induction, consecutive elements of the Fibonacci sequence are relatively prime. <!--SR:!2024-12-12,71,320!2024-12-14,73,320-->
@@ -68,7 +68,7 @@ We know that $\sqrt 2$ is irrational from [above](#irrationality%20of%20the%20sq
 
 ## irrationality of square roots of non-perfect squares
 
-We know that $\sqrt p$ is irrational from [above](#irrationality%20of%20square%20roots%20of%20prime%20numbers). Prove a even stronger result: {@{the square root of any natural number $n$, i.e. $\sqrt n$, is either a natural number or irrational}@}. <!--SR:!2024-11-28,59,310-->
+We know that $\sqrt p$ is irrational from [above](#irrationality%20of%20square%20roots%20of%20prime%20numbers). Prove a even stronger result: {@{the square root of any natural number $n$, i.e. $\sqrt n$, is either a natural number or irrational}@}. <!--SR:!2025-05-31,184,310-->
 
 - strategy ::@:: Prove by contradiction. Assume the rational fraction is in its most simplest form, i.e. co-prime. <!--SR:!2024-12-21,65,280!2025-04-03,142,300-->
 
@@ -81,7 +81,7 @@ We say a natural number $n$ is prime if $\ge 2$ and it is impossible to write $n
 
 - strategy ::@:: It is easier to prove this using contradiction than using induction. <!--SR:!2024-12-25,68,300!2025-02-05,99,300-->
 
-1. assumption ::@:: Assume there exists a nonempty set of natural number not less than 2 $A$ that cannot be written as a product of prime numbers. Then by the well-ordering principle, there exists a least natural number $n \ge 2$ that cannot be written as a product of prime numbers. <!--SR:!2025-01-10,81,280!2024-11-28,57,300-->
+1. assumption ::@:: Assume there exists a nonempty set of natural number not less than 2 $A$ that cannot be written as a product of prime numbers. Then by the well-ordering principle, there exists a least natural number $n \ge 2$ that cannot be written as a product of prime numbers. <!--SR:!2025-01-10,81,280!2025-07-23,237,320-->
 2. construction ::@:: $n \ge 2$ is either prime or composite. If $n$ is a prime, then it is a product of itself, a prime number. So $n$ cannot be prime and is composite. Then there exists two natural numbers $1 < a, b < n$ such that $n = a \cdot b$. $a, b$ are both smaller than $n$, so they must not belong to $A$, or otherwise $n$ would not be the least natural number that cannot be written as a product of prime numbers. So $a$ and $b$ can be written as a product of prime numbers. But then this implies $n$ CAN be written as a product of prime numbers, as a product of two numbers that can be written as a product of prime numbers. <!--SR:!2025-05-01,172,320!2025-07-11,229,320-->
 3. conclusion ::@:: That $n$ CAN be written as a product of prime numbers contradicts that $n$ belongs to the set of natural numbers $A$ that CANNOT be written as a product of prime numbers. By contradiction, the set $A$ must be empty, so every natural number $n \ge 2$ can be written as a product of prime numbers. <!--SR:!2024-12-05,66,320!2025-03-16,141,320-->
 
@@ -93,7 +93,7 @@ Note that a knight can move {@{two squares vertically and one square horizontall
 
 - strategy ::@:: For 8×8, one will need to guess that the answer is yes and construct such a closed path... So good luck! But for 9×9, there is a simple way. Draw the move pattern of a knight and notice the checker pattern of a chessboard. <!--SR:!2025-06-30,220,320!2024-12-08,68,310-->
 - possibility of _closed_ knight's tours ::@:: Let there be a _m_ × _n_ board with _m_ ≤ _n_. A _closed_ knight's tour is always possible unless _m_ and _n_ are both odd; _m_ = 1, 2, or 4; or _m_ = 3 and _n_ = 4, 6, or 8. <!--SR:!2025-01-02,66,240!2024-12-20,61,240-->
-- possibility of knight's tours ::@:: Let there be a _m_ × _n_ board with _m_ ≤ _n_. A knight's tour (possibly _open_) is always possible unless _m_ = 1 or 2; _m_ = 3 and _n_ = 3, 5, or 6; or _m_ = 4 and _n_ = 4. <!--SR:!2025-01-09,47,260!2024-11-28,37,210-->
+- possibility of knight's tours ::@:: Let there be a _m_ × _n_ board with _m_ ≤ _n_. A knight's tour (possibly _open_) is always possible unless _m_ = 1 or 2; _m_ = 3 and _n_ = 3, 5, or 6; or _m_ = 4 and _n_ = 4. <!--SR:!2025-01-09,47,260!2025-02-14,78,210-->
 
 1. 8×8 chessboard ::@:: It is possible. Prove by constructing such a closed path... <!--SR:!2024-12-14,73,320!2024-12-14,74,320-->
 2. 9×9 chessboard ::@:: It is impossible. If such a closed path exists, then the knight needs to move exactly 81 times to visit every square and go back to the starting position. Now, notice the checker pattern of the chessboard. In a move, a knight must go from a square to a square of different color (black to white, white to black). Without loss of generality, assume the starting position is white. After moving exactly 81 times, the ending position must be black. But this implies the starting position and the ending position cannot be the same after 81 moves. So the closed path does not exist. <!--SR:!2025-07-03,221,320!2025-05-26,196,320-->

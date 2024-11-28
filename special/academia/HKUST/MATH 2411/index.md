@@ -73,7 +73,7 @@ The content is in teaching order.
   - descriptive statistics / why ::@:: communicate data and support your reasoning from data <!--SR:!2025-08-04,259,330!2024-12-07,27,290-->
   - descriptive statistics / methodologies
   - descriptive statistics / steps
-- [data](../../../../general/data.md) (singular: datum) ::@:: a collection of measurements and identifiers, which can take make many forms like numbers, strings, etc. <!--SR:!2025-04-16,168,310!2024-11-28,65,310-->
+- [data](../../../../general/data.md) (singular: datum) ::@:: a collection of measurements and identifiers, which can take make many forms like numbers, strings, etc. <!--SR:!2025-04-16,168,310!2025-09-05,281,330-->
   - data / reason for summarizing ::@:: Data cannot inform us well without summarization. Also see [DIKW pyramid](../../../../general/DIKW%20pyramid.md) (data, knowledge, information, wisdom). <!--SR:!2025-04-30,170,310!2024-12-06,73,310-->
   - data / reading a table ::@:: Data are commonly listed in a table. Each column is a characteristic which we called a _variable_. Each row (except for the header) is a datum which we called an _observation_. <!--SR:!2025-01-17,101,290!2025-06-25,228,330-->
   - data / types of variables ::@:: _categorical/qualitative_: distinct categories or labels, and can be subdivided into _nominal_ if the categories cannot be ranked or _ordinal_ if they can be ranked; _quantitative_: numerical, and can be subdivided into _continuous_ if it arises from measurement or _discrete_ if it arises from counting <!--SR:!2025-05-06,175,310!2025-07-04,236,330-->
@@ -89,7 +89,7 @@ The content is in teaching order.
   - sample mean vs sample median ::@:: The former is sensitive to outliers while the latter is not. This motivates trimming the outliers of the observations before calculating the former to reduce its sensitiveness to outliers (while still being more sensitive than the latter). <!--SR:!2025-04-23,169,310!2025-06-19,223,330-->
     - sample mean vs sample median / details ::@:: The former is used if the distribution is symmetric, unimodal and there are no outliers. Otherwise the latter is usually better. <!--SR:!2025-08-04,260,330!2025-05-04,173,310-->
     - sample mean vs sample median / trimmed (sample) mean ::@:: It is found by removing a certain percent of both the least and greatest values of the observations before computing its mean. <!--SR:!2025-07-08,238,330!2024-11-30,67,310-->
-      - sample mean vs sample median / trimmed (sample) mean / notation (examples) ::@:: For example, $\bar x_{\operatorname{tr}(10)}$, called _10% trimmed mean_, is the mean after trimming the least 10% and greatest 10% of the observations. <!--SR:!2024-11-28,65,310!2025-04-01,141,290-->
+      - sample mean vs sample median / trimmed (sample) mean / notation (examples) ::@:: For example, $\bar x_{\operatorname{tr}(10)}$, called _10% trimmed mean_, is the mean after trimming the least 10% and greatest 10% of the observations. <!--SR:!2025-06-18,202,310!2025-04-01,141,290-->
 
 ## week 1 lecture 2
 
@@ -104,7 +104,7 @@ The content is in teaching order.
   - sample range ::@:: It is defined as $$\text{range} = \max\set{x_i} - \min\set{x_i}$$. It is useful for statistical quality control (e.g. finding unusual outliers caused by bad measurement). <!--SR:!2025-05-10,183,310!2025-08-13,262,330-->
   - inter-quartile range (IQR) ::@:: It is defined as the range of the middle 50% of the data, or equivalently the third (75%) quartile subtracted by the first (25%) quartile: $$\text{IQR} = Q_3 - Q_1$$. It is also a measure of data dispersion. It can also eliminate problems with outliers. <!--SR:!2025-07-09,239,330!2025-09-01,278,330-->
     - inter-quartile range / _R_ ::@:: use `IQR(...)`, not `iqr` <!--SR:!2025-08-12,262,330!2024-11-30,67,310-->
-  - variability / characteristics (common to most or all measures of variability) ::@:: All measures must be nonnegative. Most measures (exceptions: inter-quartile range, trimmed variants of statistics, ...) are zero [iff](../../../../general/if%20and%20only%20if.md) all data are the same (i.e. no spread). <!--SR:!2024-11-28,65,310!2024-12-02,69,310-->
+  - variability / characteristics (common to most or all measures of variability) ::@:: All measures must be nonnegative. Most measures (exceptions: inter-quartile range, trimmed variants of statistics, ...) are zero [iff](../../../../general/if%20and%20only%20if.md) all data are the same (i.e. no spread). <!--SR:!2025-09-06,282,330!2024-12-02,69,310-->
 - [data presentation](../../../../general/data%20and%20information%20visualization.md) ::@:: A graphical summary can communicate information better as people prefers to look at them rather than numbers. The method of presentation depends on the data _nature_ and visualization _goals_. <!--SR:!2025-04-09,167,310!2025-02-28,133,290-->
   - data presentation / quantitative data ::@:: box plot, frequency table, histogram, line chart, scatter plot, ... <!--SR:!2025-03-27,141,290!2025-02-13,113,290-->
   - data presentation / categorical data ::@:: bar chart, frequency table, pie chart, ... <!--SR:!2025-04-11,166,310!2025-02-26,121,290-->
@@ -162,7 +162,7 @@ The content is in teaching order.
     - [sampling § non-sampling errors](../../../../general/sampling%20(statistics).md#non-sampling%20errors)
   - [probability sampling](../../../../general/sampling%20(statistics).md#sampling%20frame) ::@:: It supports strong statistical inferences from a sample to the population, minimizing selection bias. It involves random selection: any individual has a nonzero probability being picked, and said probability can be determined. <!--SR:!2025-06-05,204,310!2025-08-07,263,330-->
     - probability sampling / examples ::@:: cluster sampling, simple random sampling, stratified sampling, systematic sampling, ... <!--SR:!2025-03-16,120,250!2025-03-19,137,290-->
-    - probability sampling / simple random sampling ::@:: All individual in a population has equal probability of being selected. <!--SR:!2025-08-08,263,330!2024-11-28,65,310-->
+    - probability sampling / simple random sampling ::@:: All individual in a population has equal probability of being selected. <!--SR:!2025-08-08,263,330!2025-09-09,285,330-->
     - probability sampling / systematic sampling ::@:: A _probabilistic_ method is used to select individuals of a population, such as sampling every third person. <!--SR:!2025-05-06,183,310!2024-12-02,69,310-->
     - probability sampling / stratified sampling ::@:: Individuals are split into groups based on certain characters. Then simple random sampling is applied on each group. <!--SR:!2025-05-05,174,310!2024-12-16,69,270-->
     - probability sampling / cluster sampling ::@:: Split the population into clusters and select some of the clusters (cannot select an individual in a cluster without selecting other in the same cluster). <!--SR:!2025-01-29,82,270!2025-06-01,189,310-->

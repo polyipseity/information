@@ -49,4 +49,4 @@ The content is in teaching order.
   - report
     - Not much to say.
     - Unsure if they have taught this, but even with copy elision off, but [automatic move from local variables and parameters](https://en.cppreference.com/w/cpp/language/return#Automatic_move_from_local_variables_and_parameters) still exists.
-      - automatic move from local variables and parameters ::@:: Even with copy elision off, automatic move from local variables and parameters still exists. <!--SR:!2024-11-28,15,290!2024-11-28,15,290-->
+      - automatic move from local variables and parameters ::@:: Even with copy elision off, automatic move from local variables and parameters still exists. <!--SR:!2025-01-29,62,310!2025-01-25,58,310-->

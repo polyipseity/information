@@ -25,7 +25,7 @@ The Graham and Dodd approach is referred to as [Fundamental analysis](fundamenta
 
 ## horizontal and vertical analysis
 
-Horizontal analysis {@{compares financial information over time, typically from past quarters or years}@}. Horizontal analysis is performed by {@{comparing financial data from a past statement, such as the income statement}@}. When comparing this past information {@{one will want to look for variations such as higher or lower earnings}@}.<sup>[\[5\]](#^ref-5)</sup> <!--SR:!2024-12-19,70,310!2024-11-28,51,310!2024-12-06,59,310-->
+Horizontal analysis {@{compares financial information over time, typically from past quarters or years}@}. Horizontal analysis is performed by {@{comparing financial data from a past statement, such as the income statement}@}. When comparing this past information {@{one will want to look for variations such as higher or lower earnings}@}.<sup>[\[5\]](#^ref-5)</sup> <!--SR:!2024-12-19,70,310!2025-05-05,158,310!2024-12-06,59,310-->
 
 Vertical analysis is {@{a percentage analysis of financial statements}@}. Each line item listed in the financial statement is {@{listed as the percentage of another line item}@}. For example, on an income statement {@{each line item will be listed as a percentage of gross sales}@}. This technique is also referred to as {@{normalization<sup>[\[6\]](#^ref-6)</sup> or common-sizing}@}.<sup>[\[5\]](#^ref-5)</sup> <!--SR:!2024-12-06,59,310!2025-02-28,117,290!2024-12-14,67,310!2024-12-22,73,310-->
 
@@ -50,13 +50,13 @@ Financial statement analyses are typically performed in {@{[spreadsheet](spreads
 
 An earnings recast is {@{the act of amending and re-releasing a previously released earnings statement, with specified intent}@}.<sup>[\[9\]](#^ref-9)</sup> <!--SR:!2025-06-16,201,310-->
 
-Investors need to {@{understand the ability of the company to generate profit}@}. {@{This, together with its [rate of profit](rate%20of%20profit.md) growth, relative to the amount of capital deployed and various other financial ratios}@}, forms an important part of their analysis of the value of the company. Analysts may {@{modify ("recast") the financial statements by adjusting the underlying assumptions to aid in this computation}@}. For example, operating leases (treated like a rental transaction) {@{may be recast as capital leases (indicating ownership), adding assets and liabilities to the balance sheet}@}. This affects {@{the financial statement ratios}@}.<sup>[\[10\]](#^ref-10)</sup> <!--SR:!2024-12-21,72,310!2025-01-26,81,270!2025-03-31,145,310!2025-02-17,98,290!2024-11-28,51,310-->
+Investors need to {@{understand the ability of the company to generate profit}@}. {@{This, together with its [rate of profit](rate%20of%20profit.md) growth, relative to the amount of capital deployed and various other financial ratios}@}, forms an important part of their analysis of the value of the company. Analysts may {@{modify ("recast") the financial statements by adjusting the underlying assumptions to aid in this computation}@}. For example, operating leases (treated like a rental transaction) {@{may be recast as capital leases (indicating ownership), adding assets and liabilities to the balance sheet}@}. This affects {@{the financial statement ratios}@}.<sup>[\[10\]](#^ref-10)</sup> <!--SR:!2024-12-21,72,310!2025-01-26,81,270!2025-03-31,145,310!2025-02-17,98,290!2025-07-10,224,330-->
 
 Recasting is also known as {@{normalizing accounts}@}.<sup>[\[11\]](#^ref-11)</sup> <!--SR:!2024-12-17,68,310-->
 
 ## certifications
 
-Financial analysts typically {@{have finance and accounting education at the undergraduate or graduate level}@}. Persons may {@{earn the [Chartered Financial Analyst](Chartered%20Financial%20Analyst.md) (CFA) designation through a series of challenging examinations}@}. Upon {@{completion of the three-part exam}@}, CFAs are {@{considered experts in areas like fundamentals of investing, the valuation of assets, portfolio management, and wealth planning}@}. <!--SR:!2025-06-12,197,310!2024-12-01,54,310!2024-11-28,51,310!2025-05-29,187,310-->
+Financial analysts typically {@{have finance and accounting education at the undergraduate or graduate level}@}. Persons may {@{earn the [Chartered Financial Analyst](Chartered%20Financial%20Analyst.md) (CFA) designation through a series of challenging examinations}@}. Upon {@{completion of the three-part exam}@}, CFAs are {@{considered experts in areas like fundamentals of investing, the valuation of assets, portfolio management, and wealth planning}@}. <!--SR:!2025-06-12,197,310!2024-12-01,54,310!2025-07-06,220,330!2025-05-29,187,310-->
 
 ## see also
 

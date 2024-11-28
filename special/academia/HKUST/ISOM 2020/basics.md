@@ -70,7 +70,7 @@ return _chain.from_iterable(await _gather(
 - `*`→::@::←`/` <!--SR:!2024-12-05,71,322!2024-12-10,76,322-->
 - `/`→::@::←`//` <!--SR:!2025-08-13,264,342!2024-12-13,79,322-->
 - `//`→::@::←`%` <!--SR:!2025-06-20,218,330!2024-11-29,66,322-->
-- `%`→::@::←`+` <!--SR:!2024-11-28,65,322!2025-06-14,213,322-->
+- `%`→::@::←`+` <!--SR:!2025-09-17,293,342!2025-06-14,213,322-->
 - `+`→::@::←`-` <!--SR:!2025-07-07,232,330!2024-12-11,77,322-->
 - `-`→::@::←_(end)_ <!--SR:!2024-12-06,72,322!2024-12-07,74,322-->
 
@@ -88,7 +88,7 @@ return _chain.from_iterable(await _gather(
 
 <!--/pytextgen-->
 
-For the return type of operators, all of above (if only `float` and `int` are considered), with two exceptions, {@{returns `int` (integer) if both operands are `int`, and `float` otherwise}@}. The two exceptions are {@{that `/` (division) always return `float`, even if both operands are `int`}@}, and {@{applying `**` (power) on a negative base results in a `complex` (complex number) but not an error, which is not discussed here}@}. <!--SR:!2025-06-11,210,322!2024-11-28,65,322!2024-12-03,70,322-->
+For the return type of operators, all of above (if only `float` and `int` are considered), with two exceptions, {@{returns `int` (integer) if both operands are `int`, and `float` otherwise}@}. The two exceptions are {@{that `/` (division) always return `float`, even if both operands are `int`}@}, and {@{applying `**` (power) on a negative base results in a `complex` (complex number) but not an error, which is not discussed here}@}. <!--SR:!2025-06-11,210,322!2025-09-20,296,342!2024-12-03,70,322-->
 
 A note regarding accuracy is that {@{there may be some inaccuracies involved when `float`s are involved, such as `0.1 + 0.2` is `0.30000000000000004` instead of `0.3`}@}. Also, regarding zeros, {@{`0.0` and `-0.0` are technically different `float`s, but they are equivalent for most purposes and even compare the same, i.e. `0.0 == -0.0` is `True`}@}. Finally, a notable error (raising an error causes {@{the program to stop and print out error messages}@}) is that {@{`/` (division), `//` (floor division), and `%` (remainder) raises `ZeroDivisionError` if the second operand is zero}@}. However, `0 ** 0` (power) {@{returns `1` instead of being undefined or raising an error}@}. <!--SR:!2024-12-08,74,322!2025-08-14,265,342!2024-12-02,69,322!2025-09-09,286,342!2025-05-02,170,340-->
 
@@ -164,7 +164,7 @@ return _chain.from_iterable(await _gather(
 
 Do not mix up the equal to operator `==` and {@{the assignment operator `=`}@}. <!--SR:!2025-01-20,95,369-->
 
-Also, one CAN chain {@{comparison operators in Python, unlike other languages. For example, `2 <= aNumber <= 5` is equivalent to `2 <= aNumber and aNumber <= 5` except that `aNumber` is evaluated only once. In fact, you can chain any numbers of comparison operators together, even if they do not make sense together as a whole, such as `2 <= aNumber >= 2` being equivalent to `2 <= aNumber and aNumber >= 2` except that `aNumber` is evaluated only once}@}. See <https://docs.python.org/3/reference/expressions.html#comparisons>. <!--SR:!2024-11-28,51,349-->
+Also, one CAN chain {@{comparison operators in Python, unlike other languages. For example, `2 <= aNumber <= 5` is equivalent to `2 <= aNumber and aNumber <= 5` except that `aNumber` is evaluated only once. In fact, you can chain any numbers of comparison operators together, even if they do not make sense together as a whole, such as `2 <= aNumber >= 2` being equivalent to `2 <= aNumber and aNumber >= 2` except that `aNumber` is evaluated only once}@}. See <https://docs.python.org/3/reference/expressions.html#comparisons>. <!--SR:!2025-08-04,249,369-->
 
 ### logic operators
 
@@ -233,7 +233,7 @@ return _chain.from_iterable(await _gather(
 
 To define a string in Python, {@{enclose the string in either double quotes `"example"` or single quotes `'example'`. Both are equivalent except that you need to escape double quotes in the strings for the first one and single quotes for the second one}@}. Note that the enclosing quotes are {@{not part of the string}@}. To escape a character, {@{precede the character with a backslash `\`, like `"quo'te \"example\" un'quote"` and `'quo\'te "example" un\'quote'`}@}. Note that you cannot {@{add literal new lines inside a string if you use the above format}@}. Instead, you need to {@{use `\n` to represent newlines}@}. However, you can {@{add literal new lines you enclose the strings in 3 double quotes `"""example"""` or 3 single quotes `'''example'''`}@}. Additionally with this format, {@{you only need to escape quotes if there are 3 consecutive quotes of the same type as the enclosing quotes}@}. <!--SR:!2025-06-21,219,330!2024-12-12,78,322!2025-08-19,269,342!2025-08-05,258,342!2025-09-03,282,342!2025-06-07,207,322!2025-03-27,148,310-->
 
-`\` is {@{the escape character}@}. Apart from {@{escaping quotes (`\"`, `\'`) and itself (`\\`)}@}, it can also {@{represent a newline using `\n` and a tab character (kinda like a wider space, but not exactly) using `\t`}@}. <!--SR:!2025-01-14,98,363!2024-12-15,68,343!2024-11-28,58,343-->
+`\` is {@{the escape character}@}. Apart from {@{escaping quotes (`\"`, `\'`) and itself (`\\`)}@}, it can also {@{represent a newline using `\n` and a tab character (kinda like a wider space, but not exactly) using `\t`}@}. <!--SR:!2025-01-14,98,363!2024-12-15,68,343!2025-09-03,279,363-->
 
 To {@{find the length of a string}@}, use {@{`len(str)`, which returns an `int` representing the number of characters in `str`}@}. To {@{concatenate/join two strings}@}, use {@{the `+` operator}@}. If {@{the `+` operator is applied between a `str` and another (incompatible) type}@}, then {@{a `TypeError` will be raised}@}. <!--SR:!2025-01-20,95,369!2024-12-21,65,349!2025-01-25,100,369!2025-01-25,100,369!2025-02-03,105,386!2025-01-18,92,386-->
 

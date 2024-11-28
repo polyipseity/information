@@ -565,7 +565,7 @@ Here is a list of common IPA letters and their pronunciations:
 - \[β\]:@:[voiced bilabial fricative](voiced%20bilabial%20fricative.md) <!--SR:!2025-07-21,466,351-->
 - \[ʙ\]:@:[voiced bilabial trill](voiced%20bilabial%20trill.md) <!--SR:!2028-03-13,1243,351-->
 - \[c\]:@:[voiceless palatal plosive](voiceless%20palatal%20plosive.md) <!--SR:!2026-08-04,760,321-->
-- \[ç\]:@:[voiceless palatal fricative](voiceless%20palatal%20fricative.md) <!--SR:!2024-11-28,283,291-->
+- \[ç\]:@:[voiceless palatal fricative](voiceless%20palatal%20fricative.md) <!--SR:!2027-02-28,822,291-->
 - \[ɕ\]:@:[voiceless alveolo-palatal fricative](voiceless%20alveolo-palatal%20fricative.md) <!--SR:!2025-01-05,329,373-->
 - \[d\]:@:[voiced alveolar plosive](voiced%20alveolar%20plosive.md) <!--SR:!2025-01-16,357,372-->
 - \[ɗ\]:@:[voiced alveolar implosive](voiced%20alveolar%20implosive.md) <!--SR:!2027-08-20,1021,351-->

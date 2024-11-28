@@ -76,7 +76,7 @@ C$: [cost structure](#cost%20structure)
 
 The customer segments building block shows {@{the different groups an organization is trying to serve}@}. Customers are the heart of any business model because {@{without them, no business can work}@}. <!--SR:!2025-01-29,185,274!2024-12-28,181,314-->
 
-Customers should be separated into different segments if {@{they have different needs, need different [distribution channels](#channels), different [customer relationships](#customer%20relationships), very different profitability, or needing different aspects of your products}@}. <!--SR:!2024-11-28,137,257-->
+Customers should be separated into different segments if {@{they have different needs, need different [distribution channels](#channels), different [customer relationships](#customer%20relationships), very different profitability, or needing different aspects of your products}@}. <!--SR:!2025-11-17,354,257-->
 
 ##### customer segment examples
 
@@ -264,7 +264,7 @@ subscription fee
 <!--pytextgen generate section="1942"--><!-- The following content is generated at 2024-03-18T19:56:56.640001+08:00. Any edits will be overridden! -->
 
 - _(begin)_→::@::←advertising <!--SR:!2025-05-02,251,274!2025-02-25,224,317-->
-- advertising→::@::←asset sale <!--SR:!2025-10-24,381,294!2024-11-28,167,317-->
+- advertising→::@::←asset sale <!--SR:!2025-10-24,381,294!2026-05-10,528,317-->
 - asset sale→::@::←brokerage fee <!--SR:!2024-12-04,152,274!2025-02-22,177,274-->
 - brokerage fee→::@::←lending, renting, or leasing <!--SR:!2024-12-02,62,217!2025-09-18,322,254-->
 - lending, renting, or leasing→::@::←licensing <!--SR:!2025-04-03,223,257!2024-12-05,91,254-->

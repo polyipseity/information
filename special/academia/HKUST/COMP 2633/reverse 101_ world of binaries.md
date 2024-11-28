@@ -59,7 +59,7 @@ Comment {@{starts with `;` to the end of line}@}, similar to {@{`//` in C}@}. <!
 
 An instruction is specified by {@{the operation name and a comma-separated list of operands if any}@}. For most cases, {@{the operands need to be the same size}@}. Operands can be {@{_constants_, _registers_, or _memory references_}@}. The first two are trivial, but the last one will be explained below. <!--SR:!2025-05-13,194,337!2025-07-06,238,345!2025-05-25,197,323-->
 
-Memory reference has the syntax of {@{`[base + index * scale + offset]` (square brackets are required)}@}. `base` is {@{a register}@}, `index` is {@{another register}@}, `scale` is {@{either 1, 2, 4, or 8}@}, and `offset` is {@{a constant}@}. Any part of it can {@{be omitted, and then said part will be assumed 0}@}. Its semantics is that {@{the memory address to be used as the operand is calculated from the expression inside the square brackets}@}. Note that {@{at most 1 memory reference can be used in an instruction}@}. For example, if one wants to {@{copy the value from a memory address to another}@}, {@{two instructions are required, copy the value from the first address to a register, and then copy the value from the register to the second address}@}. One issue is that {@{a memory reference does not have a specified size}@}, so if {@{the operand size cannot be inferred from other operands}@}, then {@{we need to specify the size of the memory reference}@}. To do so, we can {@{prepend `byte` (1 byte), `word` (2 bytes), `dword` (4 bytes; double word), or `qword` (8 bytes; quadruple word) before the memory reference}@}. <!--SR:!2024-11-30,68,323!2024-12-19,85,345!2024-12-22,87,345!2025-07-05,232,330!2024-12-24,89,345!2025-04-13,162,310!2024-12-03,71,323!2025-07-01,227,330!2024-11-28,65,323!2025-09-04,285,357!2024-12-15,81,345!2024-12-10,77,345!2025-05-26,205,345!2024-11-29,66,323-->
+Memory reference has the syntax of {@{`[base + index * scale + offset]` (square brackets are required)}@}. `base` is {@{a register}@}, `index` is {@{another register}@}, `scale` is {@{either 1, 2, 4, or 8}@}, and `offset` is {@{a constant}@}. Any part of it can {@{be omitted, and then said part will be assumed 0}@}. Its semantics is that {@{the memory address to be used as the operand is calculated from the expression inside the square brackets}@}. Note that {@{at most 1 memory reference can be used in an instruction}@}. For example, if one wants to {@{copy the value from a memory address to another}@}, {@{two instructions are required, copy the value from the first address to a register, and then copy the value from the register to the second address}@}. One issue is that {@{a memory reference does not have a specified size}@}, so if {@{the operand size cannot be inferred from other operands}@}, then {@{we need to specify the size of the memory reference}@}. To do so, we can {@{prepend `byte` (1 byte), `word` (2 bytes), `dword` (4 bytes; double word), or `qword` (8 bytes; quadruple word) before the memory reference}@}. <!--SR:!2024-11-30,68,323!2024-12-19,85,345!2024-12-22,87,345!2025-07-05,232,330!2024-12-24,89,345!2025-04-13,162,310!2024-12-03,71,323!2025-07-01,227,330!2025-09-21,297,343!2025-09-04,285,357!2024-12-15,81,345!2024-12-10,77,345!2025-05-26,205,345!2024-11-29,66,323-->
 
 A note on endianness. For registers, {@{it does not make sense to talk about endianness as it requires each byte to have an address, which the bytes in a register do not have}@}. At most, you can get {@{the lowest (least significant) bits of a register, which is unambiguous}@}. For reading from or writing to memory addresses, it {@{does matter as the bytes have addresses}@}. Usually, it is {@{little-endian, which means the least significant bits are stored in the lowest (smallest) memory addresses}@}. <!--SR:!2024-12-19,84,345!2025-09-15,292,343!2024-12-18,84,345!2025-08-14,266,345-->
 
@@ -76,7 +76,7 @@ Below is a list of common instructions (in learning order):
 - `inc <dest>` ::@:: Increment the value at `<dest>` by 1. <!--SR:!2024-12-16,82,345!2024-12-09,75,337-->
 - `dec <dest>` ::@:: Decrement the value at `<dest>` by 1. <!--SR:!2025-08-26,278,357!2025-07-22,245,330-->
 - `neg <dest>` ::@:: Negate the value at `<dest>`. <!--SR:!2024-12-07,74,345!2024-12-01,69,337-->
-- `not <dest>` ::@:: Bitwise not the value at `<dest>`. <!--SR:!2024-12-07,73,323!2024-11-28,66,323-->
+- `not <dest>` ::@:: Bitwise not the value at `<dest>`. <!--SR:!2024-12-07,73,323!2025-09-23,299,343-->
 - `cmp <left>, <right>` ::@:: Subtract `<right>` from `<left>`. If the result is zero, the zero flag `ZF` is set (`1`), otherwise unset (`0`). That is, the zero flag represents if `<left>` equals `<right>`. <!--SR:!2024-12-15,81,345!2024-12-01,68,337-->
 - `je <addr>`, `jz <addr>` ::@:: Jump to `<addr>` if the zero flag `ZF` is set (`1`). Assuming the zero flag is set by `cmp <left> <right>` in the previous executed instruction, then it is jump to `<addr>` if `<left>` equals `<right>`. <!--SR:!2025-06-23,223,345!2024-12-08,75,345-->
 - `jmp <addr>` ::@:: Jump to `<addr>`. Sometimes, the instruction before it in an assembly program (`.i`) is the instruction `jcc`. If `jcc` did not jump due to not satisfying a condition, then this instruction represents the `else` branch. <!--SR:!2025-06-27,225,337!2025-08-05,259,343-->
@@ -97,7 +97,7 @@ An assembly file {@{does not solely consists of instructions}@}. It also {@{cont
 A key idea in assembly that {@{code and data are treated the same}@}. Indeed, data is represented by {@{instructions (but should not be executed by our program) as well}@}. Some common data instructions include: <!--SR:!2024-12-11,78,337!2024-12-11,78,345-->
 
 - `db <data>...` ::@:: Define byte. Represents `<data>...` on a granular level of bytes. This is commonly used to store strings. Remember to add the null terminator for interoperability with C. <!--SR:!2024-12-24,89,345!2025-08-20,269,345-->
-- `dd <data>` ::@:: Define dword (4 bytes, double word). Represents `<data>` on a granular level of 4 bytes. This can also be used to store `float`s in C. <!--SR:!2024-12-04,72,343!2024-11-28,65,323-->
+- `dd <data>` ::@:: Define dword (4 bytes, double word). Represents `<data>` on a granular level of 4 bytes. This can also be used to store `float`s in C. <!--SR:!2024-12-04,72,343!2025-09-19,295,343-->
 - `dq <data>` ::@:: Define qword (8 bytes, quadruple word). Represents `<data>` on a granular level of 8 bytes. This can also be used to store `double`s in C. <!--SR:!2024-12-11,78,345!2025-07-08,234,337-->
 - `dw <data>` ::@:: Define word (2 bytes). Represents `<data>` on a granular level of 2 bytes. <!--SR:!2025-05-23,197,337!2025-06-26,225,337-->
 - `resb <size>` ::@:: Reserve `<size>` number of bytes. All modern operating systems will also fill it with zeros. It is commonly used in `.bss`. <!--SR:!2024-12-16,81,345!2024-12-06,73,345-->
@@ -149,13 +149,13 @@ Some common tools are:
 
 ### tools for dynamic analysis
 
-Dynamic analysis is {@{analyzing the program while executing it}@}. Techniques include {@{fuzzing}@}. Usually we use {@{a debugger, an emulator, or a virtual machine}@}. <!--SR:!2025-09-17,294,343!2025-08-07,259,330!2024-11-28,66,345-->
+Dynamic analysis is {@{analyzing the program while executing it}@}. Techniques include {@{fuzzing}@}. Usually we use {@{a debugger, an emulator, or a virtual machine}@}. <!--SR:!2025-09-17,294,343!2025-08-07,259,330!2025-10-08,314,365-->
 
 Some common tools are:
 
 - GNU Debugger (`gdb`) ::@:: A commonly used program debugger on Linux. Best used with extensions like GDB Enhanced Features (GEF), `pwndbg`, etc. <!--SR:!2024-12-02,70,337!2024-12-06,73,337-->
 - Ghidra ::@:: An open-source powerful decompiler and disassembler developed by the National Security Agency (NSA). It can also act as a debugger itself or use `gdb` as its backend. <!--SR:!2025-05-29,202,337!2024-12-04,72,337-->
-- `strace` ::@:: Trace system calls and signals in realtime. <!--SR:!2024-11-28,65,345!2025-08-07,258,330-->
+- `strace` ::@:: Trace system calls and signals in realtime. <!--SR:!2025-10-09,315,365!2025-08-07,258,330-->
 - `ltrace` ::@:: Trace library calls, e.g. `glibc`. <!--SR:!2025-09-13,290,343!2024-12-11,77,345-->
 
 ### tools for patching
