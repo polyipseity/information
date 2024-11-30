@@ -278,7 +278,7 @@ tags:
 > 4. neither
 >
 > - solution: {@{3}@}
-> - explanation: {@{Tax burden depends on both the elasticities of the demand and supply curve. Since neither curves are very unlikely to be perfectly elastic in the real world, both sellers and consumers bear the tax burden. However, we cannot tell the distribution of tax burden unless we have more information.}@} <!--SR:!2024-11-30,19,341!2024-11-30,19,341-->
+> - explanation: {@{Tax burden depends on both the elasticities of the demand and supply curve. Since neither curves are very unlikely to be perfectly elastic in the real world, both sellers and consumers bear the tax burden. However, we cannot tell the distribution of tax burden unless we have more information.}@} <!--SR:!2025-02-27,89,361!2025-02-24,86,361-->
 
 <!-- markdownlint MD028 -->
 

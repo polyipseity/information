@@ -62,7 +62,7 @@ return (
 
 <!--pytextgen generate section="123480"--><!-- The following content is generated at 2024-01-04T20:17:51.453474+08:00. Any edits will be overridden! -->
 
-- _(begin)_→::@::←[N<sub>2</sub>](nitrogen.md) <!--SR:!2024-11-30,670,270!2033-01-21,3066,347-->
+- _(begin)_→::@::←[N<sub>2</sub>](nitrogen.md) <!--SR:!2029-11-13,1809,270!2033-01-21,3066,347-->
 - [N<sub>2</sub>](nitrogen.md)→::@::←[O<sub>2</sub>](oxygen.md) <!--SR:!2026-02-17,1059,290!2029-04-01,1853,287-->
 - [O<sub>2</sub>](oxygen.md)→::@::←[Ar](argon.md) <!--SR:!2028-04-06,1438,270!2027-07-30,1422,287-->
 - [Ar](argon.md)→::@::←[CO<sub>2</sub>](carbon%20dioxide.md) <!--SR:!2027-01-01,1326,310!2025-05-02,765,270-->

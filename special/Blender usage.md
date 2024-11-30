@@ -51,7 +51,7 @@ See also [Blender manual](https://docs.blender.org/manual/en/dev/interface/keyma
 
 ### 3D viewport
 
-- toggle edit mode::@::Tab↹ <!--SR:!2024-11-30,512,310!2025-05-21,637,316-->
+- toggle edit mode::@::Tab↹ <!--SR:!2030-12-05,2196,330!2025-05-21,637,316-->
 - open mode pie menu/toggle pose mode::@::Ctrl+Tab↹ <!--SR:!2028-05-16,1423,296!2024-12-16,162,196-->
 - toggle vertex/edge/face mode::@::1/2/3 <!--SR:!2025-08-08,723,336!2027-10-09,1153,296-->
 - toggle vertex/edge/face mode + multiple modes::@::+⇧Shift <!--SR:!2026-04-01,832,290!2025-07-28,688,316-->

@@ -45,7 +45,7 @@ The content is in teaching order.
 - datetime: 2024-09-12T10:30:00+08:00/2024-09-12T12:20:00+08:00
 - course logistics
 - topic: What is Success?: Define your workview and worldview
-- 4 typical kinds of thinking ::@:: business thinking (optimize), design thinking (build), engineering thinking (solve), research thinking (analyze) <!--SR:!2024-11-30,53,310!2024-12-11,62,310-->
+- 4 typical kinds of thinking ::@:: business thinking (optimize), design thinking (build), engineering thinking (solve), research thinking (analyze) <!--SR:!2025-07-20,232,330!2024-12-11,62,310-->
 - design thinking
   - design thinking video: <https://youtu.be/_r0VX-aU_T8>
   - design thinking processes ::@:: accept, empathize, define, ideate, prototype, test <!--SR:!2025-03-05,117,290!2024-12-25,69,310-->

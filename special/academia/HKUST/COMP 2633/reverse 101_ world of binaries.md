@@ -17,7 +17,7 @@ tags:
 
 # reverse 101: world of binaries
 
-Why do reverse engineering, apart from CTFs? ::@:: You can analyze malware, ensuring interoperability with closed-source programs, or find vulnerabilities in them. What they have in common is that the program source is not readily available. <!--SR:!2024-11-30,67,345!2025-05-27,199,323-->
+Why do reverse engineering, apart from CTFs? ::@:: You can analyze malware, ensuring interoperability with closed-source programs, or find vulnerabilities in them. What they have in common is that the program source is not readily available. <!--SR:!2025-10-17,321,365!2025-05-27,199,323-->
 
 ## compiling a program
 
@@ -59,7 +59,7 @@ Comment {@{starts with `;` to the end of line}@}, similar to {@{`//` in C}@}. <!
 
 An instruction is specified by {@{the operation name and a comma-separated list of operands if any}@}. For most cases, {@{the operands need to be the same size}@}. Operands can be {@{_constants_, _registers_, or _memory references_}@}. The first two are trivial, but the last one will be explained below. <!--SR:!2025-05-13,194,337!2025-07-06,238,345!2025-05-25,197,323-->
 
-Memory reference has the syntax of {@{`[base + index * scale + offset]` (square brackets are required)}@}. `base` is {@{a register}@}, `index` is {@{another register}@}, `scale` is {@{either 1, 2, 4, or 8}@}, and `offset` is {@{a constant}@}. Any part of it can {@{be omitted, and then said part will be assumed 0}@}. Its semantics is that {@{the memory address to be used as the operand is calculated from the expression inside the square brackets}@}. Note that {@{at most 1 memory reference can be used in an instruction}@}. For example, if one wants to {@{copy the value from a memory address to another}@}, {@{two instructions are required, copy the value from the first address to a register, and then copy the value from the register to the second address}@}. One issue is that {@{a memory reference does not have a specified size}@}, so if {@{the operand size cannot be inferred from other operands}@}, then {@{we need to specify the size of the memory reference}@}. To do so, we can {@{prepend `byte` (1 byte), `word` (2 bytes), `dword` (4 bytes; double word), or `qword` (8 bytes; quadruple word) before the memory reference}@}. <!--SR:!2024-11-30,68,323!2024-12-19,85,345!2024-12-22,87,345!2025-07-05,232,330!2024-12-24,89,345!2025-04-13,162,310!2024-12-03,71,323!2025-07-01,227,330!2025-09-21,297,343!2025-09-04,285,357!2024-12-15,81,345!2024-12-10,77,345!2025-05-26,205,345!2025-09-21,295,343-->
+Memory reference has the syntax of {@{`[base + index * scale + offset]` (square brackets are required)}@}. `base` is {@{a register}@}, `index` is {@{another register}@}, `scale` is {@{either 1, 2, 4, or 8}@}, and `offset` is {@{a constant}@}. Any part of it can {@{be omitted, and then said part will be assumed 0}@}. Its semantics is that {@{the memory address to be used as the operand is calculated from the expression inside the square brackets}@}. Note that {@{at most 1 memory reference can be used in an instruction}@}. For example, if one wants to {@{copy the value from a memory address to another}@}, {@{two instructions are required, copy the value from the first address to a register, and then copy the value from the register to the second address}@}. One issue is that {@{a memory reference does not have a specified size}@}, so if {@{the operand size cannot be inferred from other operands}@}, then {@{we need to specify the size of the memory reference}@}. To do so, we can {@{prepend `byte` (1 byte), `word` (2 bytes), `dword` (4 bytes; double word), or `qword` (8 bytes; quadruple word) before the memory reference}@}. <!--SR:!2025-10-03,307,343!2024-12-19,85,345!2024-12-22,87,345!2025-07-05,232,330!2024-12-24,89,345!2025-04-13,162,310!2024-12-03,71,323!2025-07-01,227,330!2025-09-21,297,343!2025-09-04,285,357!2024-12-15,81,345!2024-12-10,77,345!2025-05-26,205,345!2025-09-21,295,343-->
 
 A note on endianness. For registers, {@{it does not make sense to talk about endianness as it requires each byte to have an address, which the bytes in a register do not have}@}. At most, you can get {@{the lowest (least significant) bits of a register, which is unambiguous}@}. For reading from or writing to memory addresses, it {@{does matter as the bytes have addresses}@}. Usually, it is {@{little-endian, which means the least significant bits are stored in the lowest (smallest) memory addresses}@}. <!--SR:!2024-12-19,84,345!2025-09-15,292,343!2024-12-18,84,345!2025-08-14,266,345-->
 
@@ -105,7 +105,7 @@ A key idea in assembly that {@{code and data are treated the same}@}. Indeed, da
 - `resq <size>` ::@:: Reserve `<size>` number of qwords (8 bytes, quadruple word). All modern operating systems will also fill it with zeros. It is commonly used in `.bss`. <!--SR:!2025-05-24,185,325!2024-12-17,82,345-->
 - `resw <size>` ::@:: Reserve `<size>` number of word (2 bytes). All modern operating systems will also fill it with zeros. It is commonly used in `.bss`. <!--SR:!2025-03-27,155,323!2025-09-19,298,357-->
 
-Since {@{a program requires a starting point}@}, usually we are required to {@{[label](#labels) the starting instruction with the name `_start`, and make it global by prepending the line `global _start` before the line with the `_start` label}@}. <!--SR:!2025-01-30,105,303!2024-11-30,68,345-->
+Since {@{a program requires a starting point}@}, usually we are required to {@{[label](#labels) the starting instruction with the name `_start`, and make it global by prepending the line `global _start` before the line with the `_start` label}@}. <!--SR:!2025-01-30,105,303!2025-10-19,323,365-->
 
 ### labels
 
@@ -164,7 +164,7 @@ While analyzing a program, sometimes we want to {@{change the program behavior, 
 
 Some commo tools are:
 
-- GNU Debugger (`gdb`) ::@:: A commonly used program debugger on Linux. We can set breakpoints using `set <location>` so that the program will be suspended for debugging when it executes to that point. <!--SR:!2025-08-30,278,343!2024-11-30,67,345-->
+- GNU Debugger (`gdb`) ::@:: A commonly used program debugger on Linux. We can set breakpoints using `set <location>` so that the program will be suspended for debugging when it executes to that point. <!--SR:!2025-08-30,278,343!2025-07-22,234,345-->
 - `xxd` and a text editor, e.g. `vim` ::@:: Directly edit the program in heximal format. This does require you to know how instructions are actually stored as data, and is best for small patches. <!--SR:!2024-12-12,78,337!2024-12-10,77,345-->
 - Ghidra ::@:: An open-source powerful decompiler and disassembler developed by the National Security Agency (NSA). It can also patch code: right-click, press "Patch Instruction", and type assembly code. Best for more complicated patches. <!--SR:!2025-05-04,185,323!2024-12-08,76,345-->
 - Radare2 (`r2`) ::@:: Best for automated or procedural patches. We can interface with it in Python via the `r2pipe` module. <!--SR:!2025-06-08,197,323!2025-08-20,269,345-->

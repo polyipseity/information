@@ -90,7 +90,7 @@ return chain.from_iterable(await gather(
 <!--pytextgen generate section="e892"--><!-- The following content is generated at 2024-04-12T02:13:02.070775+08:00. Any edits will be overridden! -->
 
 - [Ward's method](Ward's%20method.md):@:MISSQ, minimum increase of sum of squares <!--SR:!2025-04-24,225,255-->
-- centroid linkage clustering:@:UPGMC, unweighted centroid clustering <!--SR:!2024-11-30,158,295-->
+- centroid linkage clustering:@:UPGMC, unweighted centroid clustering <!--SR:!2026-03-10,465,295-->
 - [complete-linkage clustering](complete-linkage%20clustering.md):@:maximum linkage clustering <!--SR:!2026-12-10,744,335-->
 - median linkage clustering:@:WPGMC, weighted centroid clustering <!--SR:!2025-07-21,279,255-->
 - [single-linkage clustering](single-linkage%20clustering.md):@:minimum linkage clustering, nearest neighbor technique <!--SR:!2025-02-28,247,335-->
@@ -147,7 +147,7 @@ One way to implement this is, after creating a cluster for each observation, {@{
 
 ## divisive clustering
 
-Note that [distance](distance.md) described below is {@{the measure of _dissimilarity_ between clusters as described in [§ cluster linkage](#cluster%20linkage)<!-- flashcard 1c9bde9b-954f-4d41-b1c9-3c62095fb6a7 -->}@}, so the method is applicable to {@{any distance functions and [cluster linkages](#cluster%20linkage)<!-- flashcard bf2e7702-5a6b-460b-a424-475b27c6f443 -->}@}. <!--SR:!2024-11-30,172,309!2025-03-24,249,329-->
+Note that [distance](distance.md) described below is {@{the measure of _dissimilarity_ between clusters as described in [§ cluster linkage](#cluster%20linkage)<!-- flashcard 1c9bde9b-954f-4d41-b1c9-3c62095fb6a7 -->}@}, so the method is applicable to {@{any distance functions and [cluster linkages](#cluster%20linkage)<!-- flashcard bf2e7702-5a6b-460b-a424-475b27c6f443 -->}@}. <!--SR:!2026-12-06,736,329!2025-03-24,249,329-->
 
 The basic principle of divisive clustering was {@{published as the DIANA (DIvisive ANAlysis clustering) algorithm}@}.<sup>[\[1\]](#^ref-Kaufman-2009)</sup> <!--SR:!2024-12-28,196,315-->
 

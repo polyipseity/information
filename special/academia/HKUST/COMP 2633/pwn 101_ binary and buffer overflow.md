@@ -17,7 +17,7 @@ __Pwn__, in a general context, means {@{the domination of a player in a video ga
 
 __Binary exploitation__ is about {@{finding vulnerabilities in a program binary, and then exploiting them}@}. To find vulnerabilities without its source, we need to {@{reverse the binary, the basics of which are taught in [reverse 101](reverse%20101_%20world%20of%20binaries.md), so it is recommended that reverse is first learnt}@}. <!--SR:!2024-12-13,64,310!2024-12-06,59,310-->
 
-A quick recap of types of tools used for reverse: {@{static analysis, dynamic analysis, and patching}@}. <!--SR:!2024-11-30,53,310-->
+A quick recap of types of tools used for reverse: {@{static analysis, dynamic analysis, and patching}@}. <!--SR:!2025-07-20,232,330-->
 
 ## memory model
 
@@ -44,7 +44,7 @@ Note that the `.rodata` (read-only data) section is located on the read-execute 
 
 For pwn, it is also important to know {@{the overall structure of an executable and linkable format (ELF) file}@}. ELF files are commonly used on {@{UNIX (including Linux) systems}@}. <!--SR:!2024-12-02,55,310!2024-12-09,60,310-->
 
-Like {@{many file formats}@}, an ELF file has {@{a ELF header indicating that it is an ELF file and the properties of it (32 or 64 bit, offsets, ...)}@}. Its magic number, i.e. {@{the bytes an ELF file must start with}@}, is {@{`0x7F 'E' 'L' 'F'`}@}. Additionally, an ELF file has {@{a program header table at the beginning of the file right after the ELF header, and a section header table at the end of the file}@}. <!--SR:!2025-05-12,173,310!2024-12-24,68,310!2024-11-30,53,310!2024-12-02,55,310!2025-04-03,132,290-->
+Like {@{many file formats}@}, an ELF file has {@{a ELF header indicating that it is an ELF file and the properties of it (32 or 64 bit, offsets, ...)}@}. Its magic number, i.e. {@{the bytes an ELF file must start with}@}, is {@{`0x7F 'E' 'L' 'F'`}@}. Additionally, an ELF file has {@{a program header table at the beginning of the file right after the ELF header, and a section header table at the end of the file}@}. <!--SR:!2025-05-12,173,310!2024-12-24,68,310!2025-07-19,231,330!2024-12-02,55,310!2025-04-03,132,290-->
 
 The program header table {@{specifies how the process image is created, i.e. how the OS should map the memory of the new process to the ELF, i.e. segment (not section) information}@}. The section header table {@{identifies all the sections in an ELF file}@}. Examples of sections are: {@{`.text`, `.data`, `.bss`, `.rodata` (read-only data), etc.}@} <!--SR:!2024-12-15,66,310!2024-12-05,56,310!2025-07-01,216,330-->
 
@@ -108,7 +108,7 @@ Let's learn some basic `gdb` commands (not exclusive to `pwndbg`):
 - `info address <symbol>` ::@:: print the `<symbol>` (which can be a function name), its type, and its address <!--SR:!2024-12-08,59,310!2024-12-17,68,310-->
 - `info breakpoints|regs|threads`::@:: list breakpoints, register values, or threads <!--SR:!2024-12-24,68,310!2024-12-24,68,310-->
 - `backtrace` ::@:: print backtrace or call stack <!--SR:!2024-12-03,56,310!2024-12-05,58,310-->
-- `ni` ::@:: go to the next instruction <!--SR:!2025-06-14,198,310!2024-11-30,53,310-->
+- `ni` ::@:: go to the next instruction <!--SR:!2025-06-14,198,310!2025-07-16,228,330-->
 - `si` ::@:: go to the next instruction stepping into functions <!--SR:!2024-12-04,57,310!2024-12-11,62,310-->
 - `continue` ::@:: continue program execution <!--SR:!2024-12-01,54,310!2024-12-24,68,310-->
 - `finish` ::@:: run until the current function returns <!--SR:!2024-12-24,68,310!2024-12-07,58,310-->
@@ -138,7 +138,7 @@ The buffers we are usually interested in exploiting is {@{usually on the first t
 
 Buffer overflow, then, is {@{simply writing data outside the buffer}@}. Assume the buffer is {@{on the stack}@}. This is likely to {@{overwrite data on other unrelated buffers in the stack, corrupting them}@}. Usually, this {@{results in a program crash}@}. However, if we use buffer overflow to {@{write data to specific locations outside the buffer with specific values}@}, then we can {@{manipulate the program to do unintended things}@}. In CTFs, {@{this is used to find the flag in pwn challenges}@}. <!--SR:!2025-07-15,227,330!2024-12-07,60,310!2025-07-02,217,330!2024-12-04,57,310!2024-12-03,56,310!2025-07-10,224,330!2024-12-09,60,310-->
 
-There are many ways to {@{manipulate the program using buffer overflow}@}, and we will {@{talk about only one interesting way related to function calls}@}. Recall that calling a function via `call` {@{pushes the address to jump to (the next instruction after `call` in the memory) after the function finishes to the stack}@}, and that the function returns {@{via `ret`, which pops the address that we have pushed before calling the function from the stack and jumps back to it, finishing the function call}@}. Using buffer overflow, we can {@{write to that location in the stack and change it to any value we want}@}. Then, when {@{the functions returns via `ret`}@}, instead of {@{jumping back to the caller, it jumps to an arbitrary location that we can freely specify}@}. <!--SR:!2024-12-24,68,310!2025-04-15,152,310!2025-03-24,139,290!2025-02-24,103,290!2024-11-30,53,310!2025-07-16,228,330!2025-01-06,81,329-->
+There are many ways to {@{manipulate the program using buffer overflow}@}, and we will {@{talk about only one interesting way related to function calls}@}. Recall that calling a function via `call` {@{pushes the address to jump to (the next instruction after `call` in the memory) after the function finishes to the stack}@}, and that the function returns {@{via `ret`, which pops the address that we have pushed before calling the function from the stack and jumps back to it, finishing the function call}@}. Using buffer overflow, we can {@{write to that location in the stack and change it to any value we want}@}. Then, when {@{the functions returns via `ret`}@}, instead of {@{jumping back to the caller, it jumps to an arbitrary location that we can freely specify}@}. <!--SR:!2024-12-24,68,310!2025-04-15,152,310!2025-03-24,139,290!2025-02-24,103,290!2025-07-17,229,330!2025-07-16,228,330!2025-01-06,81,329-->
 
 ### finding buffer overflows
 
@@ -167,7 +167,7 @@ Once you have found code that is vulnerable to buffer overflows, {@{identify wha
 
 To help with this process, there are {@{some tools available}@}. Three tools are {@{`pwntools`, `gdb`, and `patchelf`}@}. <!--SR:!2024-12-17,68,310!2024-12-17,68,310-->
 
-`pwntools` (URL: {@{<https://github.com/Gallopsled/pwntools>}@}) is {@{a Python package that contains many functions for pwn}@}. To use it, {@{import from the Python package using `import pwn` (not `import pwntools`)}@}. To {@{help see what is going on by logging more info}@}, we can {@{set the `pwntools` log level to debug using `pwn.context.log_level = "debug"`}@}. To {@{encode an address as bytes (in little-endian form for x86 and x86-64)}@}, we can {@{use `pwn.p64(<address>) -> bytes`. For example, `pwn.p64(0xdeadbeeffacedead) == b'\xad\xde\xce\xfa\xef\xbe\xad\xde'`}@}. <!--SR:!2024-12-03,56,310!2024-12-06,59,310!2025-06-09,194,310!2024-12-07,60,310!2024-11-30,53,310!2024-12-24,68,310!2025-06-23,205,310-->
+`pwntools` (URL: {@{<https://github.com/Gallopsled/pwntools>}@}) is {@{a Python package that contains many functions for pwn}@}. To use it, {@{import from the Python package using `import pwn` (not `import pwntools`)}@}. To {@{help see what is going on by logging more info}@}, we can {@{set the `pwntools` log level to debug using `pwn.context.log_level = "debug"`}@}. To {@{encode an address as bytes (in little-endian form for x86 and x86-64)}@}, we can {@{use `pwn.p64(<address>) -> bytes`. For example, `pwn.p64(0xdeadbeeffacedead) == b'\xad\xde\xce\xfa\xef\xbe\xad\xde'`}@}. <!--SR:!2024-12-03,56,310!2024-12-06,59,310!2025-06-09,194,310!2024-12-07,60,310!2025-05-14,165,310!2024-12-24,68,310!2025-06-23,205,310-->
 
 Using `gdb`, we can {@{find the address of a buffer (to find the addresses of the old `rbp` and old `rsp` in the stack) or a function (to find targets to jump to)}@}. To find the address of a local buffer in a function, we can use {@{`disassemble <address|function>` to disassemble a function and figure out the offset of a local buffer from the `rbp`}@}. (A quick note: The declaration order of local variables in C {@{do not necessarily correspond to their positions on the stack}@}.) To {@{find the address of a function}@}, use {@{the `info address <symbol>` command and replace `<symbol>` with the function name}@}. <!--SR:!2025-05-02,165,310!2024-12-24,68,310!2025-05-12,172,310!2025-05-11,171,310!2024-12-11,62,310-->
 
@@ -236,10 +236,10 @@ Buffer overflow is often used to {@{jump to a particular function}@}. This can b
 
 To do so, the executable must {@{consists of position-independent code (PIC), making the executable a position-independent executable (PIE)}@}. Said code {@{can work properly regardless of the code's base (start) address (thus cannot refer to absolute addresses)}@}. Then the technique of {@{address space layout randomization (ASLR)}@} can be applied. Usually, it will {@{randomize the base (start) address of the program (read-execute and read-write segment are treated as one segment for ASLR), the heap, and the stack}@}. However, {@{as only the base (start) address of segments are randomized}@}, {@{functions and data inside the same segment still have the same relative offset to each other}@}. <!--SR:!2024-12-08,59,310!2024-12-24,68,310!2024-12-06,57,310!2024-12-24,68,310!2024-12-07,60,310!2024-12-24,68,310-->
 
-To bypass address randomization, we need to {@{know the exact versions of programs and libraries used}@}. Then, we {@{leak (obtain) the absolute address of any function or data in the same segment as the function we wanted to jump to}@}, perhaps {@{using another vulnerability}@}. Finally, {@{calculate the absolute address of the function we wanted to jump to using the relative offset, which can be found on the local machine, given the exact versions of programs and libraries are used}@}. <!--SR:!2024-12-10,61,310!2025-05-10,177,310!2024-11-30,53,310!2024-12-24,68,310-->
+To bypass address randomization, we need to {@{know the exact versions of programs and libraries used}@}. Then, we {@{leak (obtain) the absolute address of any function or data in the same segment as the function we wanted to jump to}@}, perhaps {@{using another vulnerability}@}. Finally, {@{calculate the absolute address of the function we wanted to jump to using the relative offset, which can be found on the local machine, given the exact versions of programs and libraries are used}@}. <!--SR:!2024-12-10,61,310!2025-05-10,177,310!2025-07-14,226,330!2024-12-24,68,310-->
 
 ## next week notes
 
 Next week, we will be teaching {@{decompilers. In particular, we will use Ghidra (URL: <https://github.com/NationalSecurityAgency/ghidra/releases>)}@}. <!--SR:!2024-12-06,59,310-->
 
-Also, a general recommendation when analyzing a unknown executable is {@{analyze it in a virtual machine}@}, because {@{the unknown executable may be a malware}@}. <!--SR:!2024-11-30,53,310!2024-11-30,53,310-->
+Also, a general recommendation when analyzing a unknown executable is {@{analyze it in a virtual machine}@}, because {@{the unknown executable may be a malware}@}. <!--SR:!2025-07-13,225,330!2025-07-15,227,330-->

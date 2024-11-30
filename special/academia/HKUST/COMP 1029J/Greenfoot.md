@@ -10,7 +10,7 @@ tags:
 
 ## installation
 
-Follow the instructions on {@{<https://greenfoot.org/>}@}. <!--SR:!2024-11-30,233,330-->
+Follow the instructions on {@{<https://greenfoot.org/>}@}. <!--SR:!2027-10-26,1060,350-->
 
 ## usage
 

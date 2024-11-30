@@ -71,7 +71,7 @@ The concept of customer jobs is based on {@{the jobs to be done theory}@}, which
 
 Customer pains include {@{undesirable things, obstacles, and risks}@}. Make pains {@{concrete}@}. Note that pains {@{can have different severity}@}. <!--SR:!2025-09-26,367,290!2025-02-25,226,329!2026-07-26,620,329-->
 
-Customer gains can be separated into four levels: {@{required, required by customers; expected, expected by customers; desired gains, wanted by customers; and unexpected gains, wanted by customers but customers do not know}@}. Make gains {@{concrete}@}. Like customer pains, note that gains {@{can have different severity}@}. <!--SR:!2024-12-27,153,249!2024-11-30,175,329!2025-03-13,265,330-->
+Customer gains can be separated into four levels: {@{required, required by customers; expected, expected by customers; desired gains, wanted by customers; and unexpected gains, wanted by customers but customers do not know}@}. Make gains {@{concrete}@}. Like customer pains, note that gains {@{can have different severity}@}. <!--SR:!2024-12-27,153,249!2027-02-02,794,349!2025-03-13,265,330-->
 
 Since customer jobs, customer pains, and customer gains all can have {@{different priorities or severity, so we can rank them}@}. Ranking them can be based on {@{what you think given that it eventually truly reflects the customers' perspectives}@}.  Pains and gains can exist {@{on a continuum, are not always absolute or binary}@}. For example, {@{waiting time for a food order can be a gain if it is faster than expected and a pain if it is slower than expected}@}. Pains and gains are also not {@{opposite}@}, like {@{coffee temperature being too low or too high are both pains}@}. <!--SR:!2026-06-17,592,310!2024-12-02,177,329!2025-08-29,372,365!2025-10-05,402,365!2025-05-04,261,345!2026-10-04,678,344-->
 
@@ -157,7 +157,7 @@ mix: mixing products and services with pain relievers and gain creators
 <!--pytextgen generate section="8ba2"--><!-- The following content is generated at 2024-03-22T20:40:48.908986+08:00. Any edits will be overridden! -->
 
 - _(begin)_→::@::←all: addressing all customer pains and gains <!--SR:!2025-07-25,290,269!2025-07-05,348,349-->
-- all: addressing all customer pains and gains→::@::←irrelevance: listing all products and services without considering the customer segment <!--SR:!2024-12-30,140,229!2024-11-30,73,229-->
+- all: addressing all customer pains and gains→::@::←irrelevance: listing all products and services without considering the customer segment <!--SR:!2024-12-30,140,229!2025-05-15,166,229-->
 - irrelevance: listing all products and services without considering the customer segment→::@::←irrelevance: offer irrelevant pain relievers and gain creators <!--SR:!2025-04-26,160,209!2025-01-06,112,269-->
 - irrelevance: offer irrelevant pain relievers and gain creators→::@::←mix: mixing products and services with pain relievers and gain creators <!--SR:!2024-12-09,70,229!2025-01-16,173,269-->
 - mix: mixing products and services with pain relievers and gain creators→::@::←_(end)_ <!--SR:!2025-08-30,331,289!2024-12-08,28,149-->

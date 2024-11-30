@@ -69,7 +69,7 @@ return await memorize_map(
 <!--pytextgen generate section="6900"--><!-- The following content is generated at 2024-01-04T20:17:51.910666+08:00. Any edits will be overridden! -->
 
 - reacts explosively in the dark and cold:@:[fluorine](fluorine.md) <!--SR:!2027-02-15,1015,330-->
-- reacts explosively in light and heat; slowly without:@:[chlorine](chlorine.md) <!--SR:!2024-11-30,344,230-->
+- reacts explosively in light and heat; slowly without:@:[chlorine](chlorine.md) <!--SR:!2027-01-30,791,230-->
 - reacts explosively in flames; moderately in light and heat:@:[bromine](bromine.md) <!--SR:!2026-01-30,709,310-->
 - reacts partially; virtually no reaction:@:[iodine](iodine.md), [astatine](astatine.md) <!--SR:!2028-07-11,1502,350-->
 - unknown:@:[tennessine](tennessine.md) <!--SR:!2025-04-07,289,210-->

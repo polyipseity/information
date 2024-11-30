@@ -65,13 +65,13 @@ The content is in teaching order.
 - skill vs. will
 - job trends ::@:: AI in recruitment and selection, applicant tracking system <!--SR:!2025-04-02,141,310!2024-12-25,69,310-->
   - applicant tracking system ::@:: Not your enemy! Prefer (reverse) chronological order, add keywords, and avoid fancy formatting. <!--SR:!2024-12-10,61,310!2024-12-05,56,310-->
-- job description ::@:: Infer what attributes the job is look from from its job description. <!--SR:!2024-11-30,53,310!2024-12-25,69,310-->
+- job description ::@:: Infer what attributes the job is look from from its job description. <!--SR:!2025-07-16,228,330!2024-12-25,69,310-->
 - [résumé](../../../résumé.md)
   - What color should a CV typed up in? ::@:: black <!--SR:!2025-06-29,214,330!2024-12-25,69,310-->
   - How long should a CV roughly be? ::@:: 1 page <!--SR:!2024-12-06,57,310!2025-07-07,221,330-->
   - What things should NOT be included on a CV? ::@:: date of birth (DOB), gender, home address <!--SR:!2025-04-18,154,310!2024-12-13,64,310-->
   - What order should your qualification be put in? ::@:: newest to oldest <!--SR:!2024-12-08,59,310!2024-12-06,59,310-->
-  - IROAR ::@:: impact, results, outcomes, achievements, responsibilities <!--SR:!2024-11-30,53,310!2025-04-10,148,310-->
+  - IROAR ::@:: impact, results, outcomes, achievements, responsibilities <!--SR:!2025-07-17,229,330!2025-04-10,148,310-->
   - referees ::@:: 1 professor, 1 previous work supervisor, 1 volunteer team project lead <!--SR:!2025-05-28,184,310!2025-06-03,189,310-->
   - profile summary ::@:: what I want and what I can do for you, altitude + skills + knowledge (ASK) <!--SR:!2024-12-25,69,310!2024-12-04,57,310-->
 - assignment 1: job description, curriculum vitae, and cover letter
@@ -117,7 +117,7 @@ The content is in teaching order.
 - Where should you sit when you are waiting for an interview? ::@:: as front as possible <!--SR:!2024-12-09,60,310!2024-12-06,57,310-->
 - Where should you sit when you are in the interview room? ::@:: seats that are neither too special nor too seclusive <!--SR:!2024-12-06,57,310!2025-04-07,145,310-->
 - If your boss takes you and the team for lunch... ::@:: ... balance the food order with what everyone else is choosing. (But it can depend on the boss's style.) <!--SR:!2024-12-11,62,310!2025-06-26,212,330-->
-- Emails should be replied within \_ hours, and phone calls should be returned within \_ hours ::@:: as soon as possible <!--SR:!2024-12-11,62,310!2024-11-30,53,310-->
+- Emails should be replied within \_ hours, and phone calls should be returned within \_ hours ::@:: as soon as possible <!--SR:!2024-12-11,62,310!2025-07-15,227,330-->
 - If you order coffee/tea and it's too hot. What should you do? ::@:: Let it cool in the cup. <!--SR:!2025-05-09,171,310!2024-12-10,61,310-->
 - After chatting with the guests in the upcoming networking practicum, you should... ::@:: Send a thank you note on the same day. <!--SR:!2024-12-10,61,310!2025-04-09,146,310-->
   - thank-you note (after networking)
@@ -128,7 +128,7 @@ The content is in teaching order.
   - dining etiquette
 - work cultures
 - How is a work offer properly confirmed? ::@:: confirm the draft employment contract <!--SR:!2024-12-07,60,310!2025-02-11,107,290-->
-- What if you need more time to consider a work offer? ::@:: Sincerely ask for more time to consider and state your expected reply time to the employer. <!--SR:!2024-11-30,53,310!2024-12-05,56,310-->
+- What if you need more time to consider a work offer? ::@:: Sincerely ask for more time to consider and state your expected reply time to the employer. <!--SR:!2025-07-13,225,330!2024-12-05,56,310-->
 - What to do after confirming an offer? ::@:: stop interviewing, nicely decline other work offers <!--SR:!2025-03-30,143,310!2024-12-25,69,310-->
 - job offer ::@:: Check if it is legitimate and is not missing any crucial information! <!--SR:!2025-05-30,186,310!2024-12-14,65,310-->
   - job offer crucial information ::@:: company logo, contact information, job title, job details, salary/compensation, benefits, expiration date <!--SR:!2024-12-25,62,250!2025-02-10,97,270-->

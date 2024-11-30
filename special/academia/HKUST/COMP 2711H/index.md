@@ -78,7 +78,7 @@ The content is in teaching order.
     - _modus tollens_
     - rules of inference / conjunction ::@:: $$\begin{aligned} & p \\ & \underline{q \phantom{\land q} } \\ & p \land q & \end{aligned}$$ <!--SR:!2024-12-10,69,323!2024-12-14,72,323-->
     - rules of inference / disjunctive syllogism ::@:: $$\begin{aligned} & p \lor q \\ & \underline{\lnot p \!\!\!\! \phantom{\lor q} } \\ & q \end{aligned}$$ <!--SR:!2025-05-30,200,323!2024-12-06,66,323-->
-    - rules of inference / transposition (with $F$ as the consequent) ::@:: $$\begin{aligned} & \underline{\lnot p \rightarrow F} \\ & p \end{aligned}$$ <!--SR:!2024-11-30,61,310!2025-08-08,256,343-->
+    - rules of inference / transposition (with $F$ as the consequent) ::@:: $$\begin{aligned} & \underline{\lnot p \rightarrow F} \\ & p \end{aligned}$$ <!--SR:!2025-08-20,263,330!2025-08-08,256,343-->
     - rules of inference / simplification ::@:: $$\begin{aligned} & \underline{p \land q} \\ & p \end{aligned}$$ <!--SR:!2024-12-16,75,323!2024-12-04,65,323-->
     - rules of inference / addition ::@:: $$\begin{aligned} & \underline{p \phantom{\lor q} } \\ & p \lor q \end{aligned}$$ <!--SR:!2024-12-01,62,323!2025-03-28,147,310-->
     - rules of inference / importation (applied form) ::@:: $$\begin{aligned} & p \land q \\ & \underline{p \rightarrow (q \rightarrow r)} \\ & r \end{aligned}$$ <!--SR:!2025-02-23,120,290!2024-12-09,69,323-->

@@ -45,10 +45,10 @@ Command names can be {@{truncated at the end to produce an abbreviation if the a
 
 - `rc` ::@:: reverse continue <!--SR:!2025-01-13,88,345!2025-01-13,88,345-->
 - `record` ::@:: record execution of every instruction; can make the process run slowly <!--SR:!2025-05-22,185,345!2025-01-13,88,345-->
-- `rn` ::@:: rewind to the previous (source) line <!--SR:!2025-01-13,88,345!2024-11-30,58,325-->
+- `rn` ::@:: rewind to the previous (source) line <!--SR:!2025-01-13,88,345!2025-08-21,264,345-->
 - `rni` ::@:: rewind to the previous instruction <!--SR:!2025-01-13,88,345!2025-01-13,88,345-->
 - `rs` ::@:: rewind to the previous (source) line stepping into functions <!--SR:!2025-03-08,122,325!2025-01-02,77,345-->
-- `rsi` ::@:: rewind to the previous instruction stepping into functions <!--SR:!2024-11-30,53,325!2025-01-13,88,345-->
+- `rsi` ::@:: rewind to the previous instruction stepping into functions <!--SR:!2025-07-26,238,345!2025-01-13,88,345-->
 
 ### `pwndbg`
 
