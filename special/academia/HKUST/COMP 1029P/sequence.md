@@ -64,7 +64,7 @@ assert 'abcdefg'[::-1] == 'gfedcba'
 assert "abcdefg"[:0:-1] == "gfedcb"
 ```
 
-If {@{the index (but not slicing) is out of range (regardless if it is positive or negative)}@}, then {@{an `IndexError` will be raised}@}. For {@{slicing (but not indexing)}@}, {@{no errors will be thrown, and the slicing range will be truncated to be within the sequence range}@}. <!--SR:!2024-12-31,89,366!2024-12-28,86,366!2024-11-29,62,346!2024-12-04,67,346-->
+If {@{the index (but not slicing) is out of range (regardless if it is positive or negative)}@}, then {@{an `IndexError` will be raised}@}. For {@{slicing (but not indexing)}@}, {@{no errors will be thrown, and the slicing range will be truncated to be within the sequence range}@}. <!--SR:!2024-12-31,89,366!2024-12-28,86,366!2025-09-27,301,366!2024-12-04,67,346-->
 
 ## concatenation
 

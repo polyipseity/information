@@ -153,7 +153,7 @@ return await memorize_seq(
 
 - _(begin)_→::@::←air sparging <!--SR:!2025-08-08,310,355!2025-11-23,418,375-->
 - air sparging→::@::←bioremediation <!--SR:!2025-11-12,355,315!2025-02-15,177,335-->
-- bioremediation→::@::←catalytic oxidation <!--SR:!2024-11-29,116,315!2025-03-14,197,335-->
+- bioremediation→::@::←catalytic oxidation <!--SR:!2026-04-21,507,335!2025-03-14,197,335-->
 - catalytic oxidation→::@::←ex-situ biopile <!--SR:!2025-04-11,197,295!2025-01-14,153,335-->
 - ex-situ biopile→::@::←ex-situ solidification or stabilization <!--SR:!2025-03-04,187,335!2025-01-12,153,335-->
 - ex-situ solidification or stabilization→::@::←_(end)_ <!--SR:!2025-11-17,413,375!2025-02-09,173,335-->
@@ -408,7 +408,7 @@ Observed Global Climate Change
 
 Observed climate change in Hong Kong
 
-- climate change consequences in Hong Kong ::@:: rainfall become more variable, sea level rises, temperature increases <!--SR:!2024-11-29,130,290!2025-05-07,268,330-->
+- climate change consequences in Hong Kong ::@:: rainfall become more variable, sea level rises, temperature increases <!--SR:!2026-05-07,523,310!2025-05-07,268,330-->
   - temperature increase consequences ::@:: less cold days, more very hot days and hot nights <!--SR:!2025-04-14,252,330!2025-03-16,212,310-->
   - rainfall become more variable consequences ::@:: probability of rainfall extremes increases <!--SR:!2025-03-23,234,330!2025-01-12,175,310-->
   - climate change example in Hong Kong ::@:: On 2017-08-22, max temperature reaches 36.6 °C in the Hong Kong Observatory headquarters, coinciding with the super typhoon Hato. <!--SR:!2024-12-03,122,250!2025-03-05,205,310-->

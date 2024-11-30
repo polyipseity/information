@@ -9,7 +9,7 @@ tags:
 
 # liability
 
-In [financial accounting](financial%20accounting.md), a __liability__ is {@{a quantity of value that a financial entity owes}@}. More technically, it is {@{value that an entity is expected to deliver in the future to satisfy a present obligation arising from past events}@}.<sup>[\[1\]](#^ref-1)</sup> The value delivered to {@{settle a liability may be in the form of [assets](asset.md) transferred or services performed}@}. <!--SR:!2025-06-27,213,330!2025-03-08,127,310!2024-11-29,52,310-->
+In [financial accounting](financial%20accounting.md), a __liability__ is {@{a quantity of value that a financial entity owes}@}. More technically, it is {@{value that an entity is expected to deliver in the future to satisfy a present obligation arising from past events}@}.<sup>[\[1\]](#^ref-1)</sup> The value delivered to {@{settle a liability may be in the form of [assets](asset.md) transferred or services performed}@}. <!--SR:!2025-06-27,213,330!2025-03-08,127,310!2025-07-11,224,330-->
 
 ## characteristics
 
@@ -20,7 +20,7 @@ A liability is defined by the following characteristics:
 - [obligtion](obligation.md) ::@:: A duty or responsibility that obligates the entity to another, leaving it little or no discretion to avoid settlement; and, <!--SR:!2024-12-25,70,270!2024-12-11,64,310-->
 - [accrual](accrual.md) ::@:: A transaction or event obligating the entity that has already occurred. <!--SR:!2024-11-30,53,310!2025-04-16,160,310-->
 
-Liabilities in financial accounting {@{need not be legally enforceable; but can be based on equitable obligations or constructive obligations}@}. An __equitable obligation__ is {@{a duty based on ethical or moral considerations}@}. A __constructive obligation__ is {@{an obligation that is implied by a set of circumstances in a particular situation, as opposed to a contractually based obligation}@}. <!--SR:!2024-11-29,50,290!2024-12-15,68,310!2025-02-28,112,270-->
+Liabilities in financial accounting {@{need not be legally enforceable; but can be based on equitable obligations or constructive obligations}@}. An __equitable obligation__ is {@{a duty based on ethical or moral considerations}@}. A __constructive obligation__ is {@{an obligation that is implied by a set of circumstances in a particular situation, as opposed to a contractually based obligation}@}. <!--SR:!2025-06-19,202,310!2024-12-15,68,310!2025-02-28,112,270-->
 
 The [accounting equation](accounting%20equation.md) {@{relates [assets](asset.md), liabilities, and [owner's equity](equity%20(finance).md): <p> __Assets = Liabilities + Owner's Equity__}@} <!--SR:!2024-12-11,64,310-->
 

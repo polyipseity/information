@@ -27,7 +27,7 @@ Command names can be {@{truncated at the end to produce an abbreviation if the a
 - `disassemble <address|function>` ::@:: disassemble a specified address or function <!--SR:!2025-06-11,201,345!2025-01-13,88,345-->
 - `file <path>` ::@:: load binary file to debug <!--SR:!2025-09-04,281,330!2025-07-27,252,330-->
 - `finish` ::@:: run until the current function returns <!--SR:!2024-12-03,70,310!2025-05-23,193,310-->
-- `help [<topic>]` ::@:: find information about topic; if topic is not specified, then prints general help <!--SR:!2025-01-13,88,345!2024-11-29,52,325-->
+- `help [<topic>]` ::@:: find information about topic; if topic is not specified, then prints general help <!--SR:!2025-01-13,88,345!2025-07-22,234,345-->
 - `info address <symbol>` ::@:: print the `<symbol>`, its type, and its address <!--SR:!2025-01-13,88,345!2024-12-19,63,325-->
 - `info breakpoints|regs|threads`::@:: list breakpoints, register values, or threads <!--SR:!2025-07-11,241,330!2025-05-01,184,310-->
 - `next` ::@:: go to the next (source) line <!--SR:!2025-06-07,214,330!2025-05-13,194,310-->
@@ -59,7 +59,7 @@ Command names can be {@{truncated at the end to produce an abbreviation if the a
 
 #### `pwndbg` heap
 
-- `heap` ::@:: iteratively print chunks on heap (`glibc` only) <!--SR:!2024-12-05,72,310!2024-11-29,66,310-->
+- `heap` ::@:: iteratively print chunks on heap (`glibc` only) <!--SR:!2024-12-05,72,310!2025-09-12,286,330-->
 - `heap_config` ::@:: show `glibc` allocator hacking configuration <!--SR:!2025-05-14,186,310!2025-08-18,267,330-->
 
 #### `pwndbg` memory

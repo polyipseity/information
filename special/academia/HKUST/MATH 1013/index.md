@@ -55,12 +55,12 @@ tags:
 - midterm examination
   - report
     - Midterms have tighter time limit than the final examination, actually...
-      - handle midterm examination time limit ::@:: Do any midterm paper as if you do not have enough time. <!--SR:!2025-01-23,57,310!2024-11-29,16,290-->
+      - handle midterm examination time limit ::@:: Do any midterm paper as if you do not have enough time. <!--SR:!2025-01-23,57,310!2025-01-30,61,310-->
     - Sometimes you do not need to find the root of a solution, you just need to show its existence using the intermediate value theorem (IVT).
       - mathematically proving existence ::@:: If a question requires to prove something exist only, also consider using a non-constructive proof. <!--SR:!2025-01-24,58,310!2025-01-26,59,310-->
 - final examination
   - report
     - Remember the conditions for the algebraic limit theorem...
-      - algebraic limit theorem conditions (0) ::@:: If you try to split an expression in a limit into several limits, and find that the smaller limits do not exist, the algebraic limit theorem probably does not apply... <!--SR:!2025-01-28,61,310!2024-11-29,16,290-->
+      - algebraic limit theorem conditions (0) ::@:: If you try to split an expression in a limit into several limits, and find that the smaller limits do not exist, the algebraic limit theorem probably does not apply... <!--SR:!2025-01-28,61,310!2025-02-05,67,310-->
     - Manual calculations may possibly yield human errors...
     - Label a number on a graph wrongly.

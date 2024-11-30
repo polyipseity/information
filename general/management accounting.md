@@ -47,7 +47,7 @@ Management accounting information differs from [financial accountancy](financial
 - principles ::@:: while financial accountancy information is historical, management accounting information is primarily forward-looking<sup>[\[9\]](#^ref-9)</sup>; <!--SR:!2025-03-08,132,290!2025-08-12,259,330-->
 - basis ::@:: while financial accountancy information is case-based, management accounting information is model-based with a degree of abstraction in order to support generic decision making; <!--SR:!2025-06-13,208,310!2025-02-03,95,270-->
 - format ::@:: while financial accountancy information is computed by reference to general financial accounting standards, management accounting information is computed by reference to the needs of managers, often using [management information systems](management%20information%20system.md). <!--SR:!2025-02-04,107,290!2025-03-25,147,310-->
-- focus ::@:: Financial accounting focuses on the company as a whole. Management accounting provides detailed and disaggregated information about products, individual activities, divisions, plants, operations and tasks. <!--SR:!2024-11-29,60,310!2025-02-14,113,290-->
+- focus ::@:: Financial accounting focuses on the company as a whole. Management accounting provides detailed and disaggregated information about products, individual activities, divisions, plants, operations and tasks. <!--SR:!2025-06-05,187,310!2025-02-14,113,290-->
 
 ## traditional versus innovative practices
 

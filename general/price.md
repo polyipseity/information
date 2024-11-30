@@ -101,7 +101,7 @@ __Pay What You Decide__ \(PWYD\): ::@:: a pricing system which allows the purcha
 
 __Producer Price Index__: ::@:: this index measures the average change in the selling price of domestic producers' products over time.<sup>[\[13\]](#^ref-13)</sup> <!--SR:!2024-11-30,11,270!2024-12-05,16,290-->
 
-__Purchase Price__: ::@:: It refers to the amount paid by the purchaser for receiving a unit of goods or services at the time and place required by the purchaser and any deductible taxes will not be included. The purchase price also include any transport charge for purchase to pick up the goods to a specific location in the required time.<sup>[\[14\]](#^ref-14)</sup> <!--SR:!2024-11-29,4,230!2024-11-30,11,270-->
+__Purchase Price__: ::@:: It refers to the amount paid by the purchaser for receiving a unit of goods or services at the time and place required by the purchaser and any deductible taxes will not be included. The purchase price also include any transport charge for purchase to pick up the goods to a specific location in the required time.<sup>[\[14\]](#^ref-14)</sup> <!--SR:!2024-12-14,14,250!2024-11-30,11,270-->
 
 __[Price optimization](price%20optimization.md)__ is ::@:: the use of mathematical techniques by a company to determine how customers will respond to different prices for its products and services through different channels. <!--SR:!2024-12-05,16,290!2024-12-05,16,290-->
 

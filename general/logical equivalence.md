@@ -25,14 +25,14 @@ In logic, many common logical equivalences {@{exist and are often listed as laws
 - [associative laws](associative%20property.md) ::@:: $$\begin{aligned} (p \lor q) \lor r & \equiv p \lor (q \lor r) \\ (p \land q) \land r & \equiv p \land (q \land r) \end{aligned}$$ <!--SR:!2024-12-06,68,329!2025-05-26,193,310-->
 - [distributive laws](distributive%20property.md) ::@:: $$\begin{aligned} p \lor (q \land r) & \equiv (p \lor q) \land (p \lor r) \\ p \land (q \lor r) & \equiv (p \land q) \lor (p \land r) \end{aligned}$$ <!--SR:!2025-04-18,168,321!2025-03-21,144,301-->
 - [De Morgan's laws](De%20Morgan's%20laws.md) ::@:: $$\begin{aligned} \lnot (p \land q) & \equiv \lnot p \lor \lnot q \\ \lnot (p \lor q) & \equiv \lnot p \land \lnot q \end{aligned}$$ <!--SR:!2025-05-05,180,321!2024-12-08,68,316-->
-- [absorption laws](absorption%20law.md) ::@:: $$\begin{aligned} p \lor (p \land q) & \equiv p \\ p \land (p \lor q) & \equiv p \end{aligned}$$ <!--SR:!2025-04-04,153,310!2024-11-29,62,316-->
+- [absorption laws](absorption%20law.md) ::@:: $$\begin{aligned} p \lor (p \land q) & \equiv p \\ p \land (p \lor q) & \equiv p \end{aligned}$$ <!--SR:!2025-04-04,153,310!2025-08-28,272,336-->
 $p\vee (p\wedge q)\equiv p$$p\wedge (p\vee q)\equiv p$
 - negation laws ::@:: $$\begin{aligned} p \lor \lnot p & \equiv \top \\ p \land \lnot p & \equiv \bot \end{aligned}$$ <!--SR:!2024-12-15,74,329!2024-12-12,71,321-->
 
 ### logical equivalences involving conditional statements
 
 - [material implication](material%20implication%20(rule%20of%20inference).md) & primitives ::@:: $$p\implies q\equiv \neg p\vee q$$ <!--SR:!2025-04-29,175,330!2025-06-27,223,330-->
-- [transposition](contraposition.md) ::@:: $$p\implies q\equiv \neg q\implies \neg p$$ <!--SR:!2024-11-29,58,310!2024-12-05,66,330-->
+- [transposition](contraposition.md) ::@:: $$p\implies q\equiv \neg q\implies \neg p$$ <!--SR:!2025-08-06,250,330!2024-12-05,66,330-->
 - [material implication](material%20implication%20(rule%20of%20inference).md) & [disjunction](logical%20disjunction.md) ::@:: $$p\vee q\equiv \neg p\implies q$$ <!--SR:!2025-07-03,228,330!2025-03-08,135,310-->
 - [material implication](material%20implication%20(rule%20of%20inference).md) & [conjunction](logical%20conjunction.md) ::@:: $$p\wedge q\equiv \neg (p\implies \neg q)$$ <!--SR:!2025-05-29,200,330!2025-06-03,204,330-->
 - [material implication](material%20implication%20(rule%20of%20inference).md) & [negation](negation.md) ::@:: $$\neg (p\implies q)\equiv p\wedge \neg q$$ <!--SR:!2025-06-29,223,330!2024-12-22,68,310-->

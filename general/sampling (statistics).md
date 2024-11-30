@@ -30,7 +30,7 @@ A __probability sample__ is {@{a sample in which every unit in the population ha
 >
 > People living on their own are {@{certain to be selected, so we simply add their income to our estimate of the total}@}. But {@{a person living in a household of two adults has only a one-in-two chance of selection}@}. To reflect this, when we come to such a household, we would {@{count the selected person's income twice towards the total}@}. (The person who _is_ selected from that household can be loosely viewed as {@{also representing the person who _isn't_ selected}@}.) <!--SR:!2025-07-11,241,330!2025-03-08,140,310!2024-11-30,69,310!2024-11-30,69,310!2025-09-01,280,330-->
 
-In the above example, {@{not everybody has the same probability of selection; what makes it a probability sample is the fact that each person's probability is known}@}. When {@{every element in the population _does_ have the same probability of selection}@}, this is {@{known as an 'equal probability of selection' (EPS) design}@}. Such designs are also referred to as {@{'self-weighting' because all sampled units are given the same weight}@}. <!--SR:!2025-08-17,268,330!2024-11-29,68,310!2025-07-15,245,330!2025-06-23,227,330-->
+In the above example, {@{not everybody has the same probability of selection; what makes it a probability sample is the fact that each person's probability is known}@}. When {@{every element in the population _does_ have the same probability of selection}@}, this is {@{known as an 'equal probability of selection' (EPS) design}@}. Such designs are also referred to as {@{'self-weighting' because all sampled units are given the same weight}@}. <!--SR:!2025-08-17,268,330!2025-09-23,297,330!2025-07-15,245,330!2025-06-23,227,330-->
 
 Probability sampling includes: {@{[simple random sampling](simple%20random%20sample.md), [systematic sampling](systematic%20sampling.md), [stratified sampling](stratified%20sampling.md), probability-proportional-to-size sampling, and [cluster](cluster%20sampling.md) or [multistage sampling](multistage%20sampling.md)}@}. These various ways of probability sampling have two things in common: <!--SR:!2024-12-05,66,270-->
 
@@ -45,7 +45,7 @@ __Nonprobability sampling__ is {@{any sampling method where some elements of the
 
 > [!example] example
 >
-> We visit every household in a given street, and interview the first person to answer the door. In any household with more than one occupant, this is {@{a nonprobability sample}@}, because {@{some people are more likely to answer the door (e.g. an unemployed person who spends most of their time at home is more likely to answer than an employed housemate who might be at work when the interviewer calls)}@} and {@{it's not practical to calculate these probabilities}@}. <!--SR:!2024-11-29,68,310!2025-05-09,188,310!2025-04-20,173,310-->
+> We visit every household in a given street, and interview the first person to answer the door. In any household with more than one occupant, this is {@{a nonprobability sample}@}, because {@{some people are more likely to answer the door (e.g. an unemployed person who spends most of their time at home is more likely to answer than an employed housemate who might be at work when the interviewer calls)}@} and {@{it's not practical to calculate these probabilities}@}. <!--SR:!2025-09-25,299,330!2025-05-09,188,310!2025-04-20,173,310-->
 
 Nonprobability sampling methods include {@{[convenience sampling](convenience%20sampling.md), [quota sampling](quota%20sampling.md), and [purposive sampling](nonprobability%20sampling.md)}@}. In addition, nonresponse effects {@{may turn _any_ probability design into a nonprobability design if the characteristics of nonresponse are not well understood}@}, since {@{nonresponse effectively modifies each element's probability of being sampled}@}. <!--SR:!2025-09-04,282,330!2025-01-17,90,270!2025-08-10,262,330-->
 
@@ -70,7 +70,7 @@ Non-sampling errors are other errors which can impact final survey estimates, ca
 
 - over-coverage ::@:: inclusion of data from outside of the population <!--SR:!2024-12-01,70,310!2024-12-03,72,310-->
 - under-coverage ::@:: sampling frame does not include elements in the population <!--SR:!2025-05-17,193,310!2025-08-16,269,330-->
-- measurement error ::@:: e.g. when respondents misunderstand a question, or find it difficult to answer <!--SR:!2025-06-06,206,310!2024-11-29,68,310-->
+- measurement error ::@:: e.g. when respondents misunderstand a question, or find it difficult to answer <!--SR:!2025-06-06,206,310!2025-09-24,298,330-->
 - processing error ::@:: mistakes in data coding <!--SR:!2025-08-26,275,330!2025-08-18,270,330-->
 - [non-response or participation bias](participation%20bias.md) ::@:: failure to obtain complete data from all selected individuals <!--SR:!2025-05-30,207,330!2025-08-03,259,330-->
 

@@ -33,7 +33,7 @@ The original sequence is {@{treated as $N$-periodic}@} by DFT. The transformed s
 
 - see: [general/discrete Fourier transform § expressing the inverse DFT in terms of the DFT](../../general/discrete%20Fourier%20transform.md#expressing%20the%20inverse%20DFT%20in%20terms%20of%20the%20DFT)
 
-Note that the formulas for DFT and IDFT are {@{extremely similar}@}. Indeed, one can {@{write the IDFT in terms of the DFT}@}. <!--SR:!2025-08-04,278,330!2024-11-29,80,346-->
+Note that the formulas for DFT and IDFT are {@{extremely similar}@}. Indeed, one can {@{write the IDFT in terms of the DFT}@}. <!--SR:!2025-08-04,278,330!2025-12-22,387,366-->
 
 ### linearity
 
@@ -101,13 +101,13 @@ Note that if {@{you try to use Python to repeat the above mathematical proofs}@}
 
 - see: [general/decibel](../../general/decibel.md)
 
-It is often more helpful to plot the magnitude spectrum in {@{a logarithmic scale to show small differences well}@}. {@{The decibel (dB)}@} is often used. The magnitude values can be converted into decibels using the following equation: {@{$$A_{\mathrm{dB} } = 20 \cdot \log_{10} (A_{\mathrm{abs} })$$}@}. <!--SR:!2025-06-01,221,353!2024-11-29,74,353!2024-12-02,79,353-->
+It is often more helpful to plot the magnitude spectrum in {@{a logarithmic scale to show small differences well}@}. {@{The decibel (dB)}@} is often used. The magnitude values can be converted into decibels using the following equation: {@{$$A_{\mathrm{dB} } = 20 \cdot \log_{10} (A_{\mathrm{abs} })$$}@}. <!--SR:!2025-06-01,221,353!2025-12-01,366,373!2024-12-02,79,353-->
 
 ### phase unwrapping
 
 - see: [`np.unwrap`](https://numpy.org/doc/stable/reference/generated/numpy.unwrap.html)
 
-To make the phase spectrum {@{less jumpy (more continuous)}@}, the phase may be {@{wrapped around $2\pi$ such that the difference from the previous phase is not more than $\pi$ (see [`np.unwrap`](https://numpy.org/doc/stable/reference/generated/numpy.unwrap.html))}@}. <!--SR:!2025-10-21,336,373!2024-11-29,76,353-->
+To make the phase spectrum {@{less jumpy (more continuous)}@}, the phase may be {@{wrapped around $2\pi$ such that the difference from the previous phase is not more than $\pi$ (see [`np.unwrap`](https://numpy.org/doc/stable/reference/generated/numpy.unwrap.html))}@}. <!--SR:!2025-10-21,336,373!2025-12-05,370,373-->
 
 ## zero padding
 

@@ -18,7 +18,7 @@ The profitability framework is {@{an (extreme) abstraction of an _[income statem
 
 {@{$$\begin{aligned} \text{profit} & = \text{revenue} - \text{costs} \\ & = \left(\sum \text{price}_i \cdot \text{units}_i \right) - \left(\text{variable cost} + \text{fixed cost} \right) \\ & = \left(\sum \text{price}_i \cdot \text{units}_i \right) - \left(\left(\sum \text{cost}_i \cdot \text{units}_i \right) + \text{fixed cost} \right) \end{aligned}$$}@} <!--SR:!2025-04-30,204,270-->
 
-Revenues may be {@{one-time or recurring}@}, such as {@{asset sales and support offering}@}. Variable costs are {@{per unit}@}, such as {@{outsourced production costs, packaging costs, sales commission, and shipping costs}@}. Fixed costs are {@{independent of # units sold}@}, such as {@{bank interests, _fixed_ salaries, rent, subscribed services, and utility}@}. <!--SR:!2025-06-01,269,330!2025-01-14,148,310!2025-12-19,399,310!2024-11-29,92,270!2025-01-25,164,310!2025-03-05,182,270-->
+Revenues may be {@{one-time or recurring}@}, such as {@{asset sales and support offering}@}. Variable costs are {@{per unit}@}, such as {@{outsourced production costs, packaging costs, sales commission, and shipping costs}@}. Fixed costs are {@{independent of # units sold}@}, such as {@{bank interests, _fixed_ salaries, rent, subscribed services, and utility}@}. <!--SR:!2025-06-01,269,330!2025-01-14,148,310!2025-12-19,399,310!2025-08-09,252,270!2025-01-25,164,310!2025-03-05,182,270-->
 
 ## usage
 

@@ -111,7 +111,7 @@ Non-current assets include {@{[fixed](fixed%20asset.md) or long-term assets and 
 
 Liabilities include {@{current liabilities and long-term liabilities}@}: <!--SR:!2025-06-01,195,310-->
 
-- _current liabilities_ ::@:: trade accounts payable, dividends payable, employee salaries payable, interest (e.g. on debt) payable <!--SR:!2024-11-29,52,270!2024-12-16,60,270-->
+- _current liabilities_ ::@:: trade accounts payable, dividends payable, employee salaries payable, interest (e.g. on debt) payable <!--SR:!2025-04-20,142,270!2024-12-16,60,270-->
 - _long-term liabilities_ ::@:: mortgage notes payable, bonds payable <!--SR:!2025-08-05,251,330!2025-05-17,187,310-->
 
 {@{Owner's equity, sometimes referred to as net assets}@}, is {@{represented differently depending on the type of business ownership}@}. Business ownership can be in the form of {@{a sole proprietorship, partnership, or a [corporation](corporation.md)}@}. For {@{a corporation}@}, the owner's equity portion {@{usually shows common stock, and retained earnings (earnings kept in the company)}@}. Retained earnings come from {@{the retained earnings statement, prepared prior to the balance sheet}@}.<sup>[\[8\]](#^ref-8)</sup> <!--SR:!2025-04-30,172,310!2025-04-12,146,290!2025-08-10,255,330!2025-06-17,211,310!2025-04-19,164,310!2025-03-29,137,290-->
@@ -169,7 +169,7 @@ The {@{[accounting equation](accounting%20equation.md) ([Assets](asset.md) = [Li
        increased by debits           increased by credits
 ```
 
-Thus {@{crediting a credit account or debiting a debit account}@} {@{increases its absolute value (balance)}@}. <!--SR:!2024-11-29,60,310!2025-04-29,169,310-->
+Thus {@{crediting a credit account or debiting a debit account}@} {@{increases its absolute value (balance)}@}. <!--SR:!2025-08-19,263,330!2025-04-29,169,310-->
 
 Thus {@{debiting a credit account or crediting a debit account}@} {@{decreases its absolute value (balance)}@}. <!--SR:!2025-07-10,232,330!2025-07-30,246,330-->
 
@@ -191,7 +191,7 @@ However, there are {@{instances of accounts, known as contra-accounts (contra-as
 
 ## related qualification
 
-{@{Many professional accountancy qualifications}@} cover the field of financial accountancy, including {@{[Certified Public Accountant](Certified%20Public%20Accountant.md) (CPA), [Chartered Accountant](chartered%20accountant.md) (CA) or other national designations}@}, {@{[American Institute of Certified Public Accountants](American%20Institute%20of%20Certified%20Public%20Accountants.md) ([AICPA](American%20Institute%20of%20Certified%20Public%20Accountants.md)), and [Chartered Certified Accountant](Association%20of%20Chartered%20Certified%20Accountants.md#qualifications) ([ACCA](Association%20of%20Chartered%20Certified%20Accountants.md))}@}. <!--SR:!2024-12-04,65,310!2025-03-22,117,250!2024-11-29,4,321-->
+{@{Many professional accountancy qualifications}@} cover the field of financial accountancy, including {@{[Certified Public Accountant](Certified%20Public%20Accountant.md) (CPA), [Chartered Accountant](chartered%20accountant.md) (CA) or other national designations}@}, {@{[American Institute of Certified Public Accountants](American%20Institute%20of%20Certified%20Public%20Accountants.md) ([AICPA](American%20Institute%20of%20Certified%20Public%20Accountants.md)), and [Chartered Certified Accountant](Association%20of%20Chartered%20Certified%20Accountants.md#qualifications) ([ACCA](Association%20of%20Chartered%20Certified%20Accountants.md))}@}. <!--SR:!2024-12-04,65,310!2025-03-22,117,250!2024-12-13,14,321-->
 
 ## see also
 

@@ -69,7 +69,7 @@ return _chain.from_iterable(await _gather(
 - `**`→::@::←`*` <!--SR:!2025-08-06,259,342!2024-12-12,78,322-->
 - `*`→::@::←`/` <!--SR:!2024-12-05,71,322!2024-12-10,76,322-->
 - `/`→::@::←`//` <!--SR:!2025-08-13,264,342!2024-12-13,79,322-->
-- `//`→::@::←`%` <!--SR:!2025-06-20,218,330!2024-11-29,66,322-->
+- `//`→::@::←`%` <!--SR:!2025-06-20,218,330!2025-09-20,294,342-->
 - `%`→::@::←`+` <!--SR:!2025-09-17,293,342!2025-06-14,213,322-->
 - `+`→::@::←`-` <!--SR:!2025-07-07,232,330!2024-12-11,77,322-->
 - `-`→::@::←_(end)_ <!--SR:!2024-12-06,72,322!2024-12-07,74,322-->
@@ -255,7 +255,7 @@ To {@{assign a value or the result of an expression to a variable}@}, use {@{`=`
 variableName = 1 + 2
 ```
 
-One does not need to {@{declare the variable and its type before assigning to it}@}. Reassigning the variable (i.e. {@{replacing the variable value}@}) uses {@{the same syntax as above}@}. To {@{use the value of a variable}@}, {@{simply write the variable name}@}. <!--SR:!2024-11-29,66,322!2024-12-07,74,322!2025-05-15,188,322!2025-06-08,208,322!2024-12-09,75,322-->
+One does not need to {@{declare the variable and its type before assigning to it}@}. Reassigning the variable (i.e. {@{replacing the variable value}@}) uses {@{the same syntax as above}@}. To {@{use the value of a variable}@}, {@{simply write the variable name}@}. <!--SR:!2025-09-26,300,342!2024-12-07,74,322!2025-05-15,188,322!2025-06-08,208,322!2024-12-09,75,322-->
 
 Variable names are {@{case sensitive, cannot be keywords, cannot have some characters like spaces (but underscores `_` are okay), and cannot begin with some characters like numbers}@}. Also, while allowed, it is recommended to {@{not use builtin names, e.g. `print`, as we will no longer be able to use those builtin functions of variables later (replaced by us)}@}. <!--SR:!2025-03-18,141,310!2025-07-17,241,330-->
 
@@ -270,7 +270,7 @@ Below are common data types:
 - `NoneType` :@: The type for the `None` value. <!--SR:!2024-12-10,76,322-->
 - `bool` :@: A boolean, which is either `True` or `False`. Note that `bool`s are also `int`s. In particular, `True == 1` and `False == 0`, and can be used in arithmetic operators. <!--SR:!2025-08-17,268,342-->
 - `float` :@: A floating point number with double precision (15 to 17 significant figures). One can effectively treat it as a decimal number for most purposes. `float` can hold integers as well, with only the internal representation being different from `int`. Example: `1.`, `3.14`, `9.20`, `2e3` (2×10<sup>3</sup>). <!--SR:!2025-05-05,169,310-->
-- `int` :@: An integer. Example: `42`. <!--SR:!2024-11-29,66,322-->
+- `int` :@: An integer. Example: `42`. <!--SR:!2025-09-26,300,342-->
 - `str` :@: A piece of text. Example: `"Hello"`. <!--SR:!2025-08-23,273,342-->
 
 Some interesting facts about `float`s:  `print`, for relatively small `float`s, {@{it always outputs at least 1 decimal place for `float`s, and outputs at most as many digits as needed to represent the number exactly}@}. For relatively large `floats`, {@{it outputs the float in exponential notation, e.g. `1e+100`, `1.2e-100`, etc.}@} `1` {@{is an `int` while `1.` and `1.0` are `float`s representing the same value `1`}@}. <!--SR:!2025-06-02,202,322!2025-04-02,153,310!2025-08-23,270,363-->
@@ -283,7 +283,7 @@ We can convert a value (`value`) into other data types using {@{`float(value)`, 
 
 - `bool(value)` ::@:: Converts `value` to a `bool`. If it is an `int` or `float`, converts to `True` unless `value` is zero, i.e. `value == 0`. If it is a `str` or `list`, converts to `True` unless `value` is empty, i.e. `value == ""` or `value == []`. There are also many other situations where `value` returns `True` unless `value` satisfies something, which will be unmentioned here. It is very difficult to get a `TypeError` or `ValueError` from this conversion, but possible with some very special types that will not be mentioned here. For exams, please use more explicit operations instead of this conversion, e.g. `len(list) == 0` instead of `not list`. <!--SR:!2025-01-02,74,366!2024-12-21,65,366-->
 - `float(value)` ::@:: Converts `value` to a `float`. If it is an `int`, the same value but in `float` is returned. If it is a `str`, it removes whitespaces (spaces) surrounding the string and then parse it as a `float`, and raises a `ValueError` if it is invalid, e.g. an empty string, the string `.` (but not `0.`, `.0`, etc.), contains alphabets (except for `e` as used in exponential notation, e.g. `1e+100` and `1.2e-100` are valid), etc. (But `float("1.")`, `float(".1")`, `float("  4.2  ")`, etc. are valid. In general, if the string is a valid `float` when treated as Python code, the string is valid.) <!--SR:!2025-06-16,211,340!2025-01-26,94,300-->
-- `int(value)` ::@:: Converts `value` to a `int`. If it is an `float`, the numbers behind the decimal point `.` is removed and then the rest is returned as an `int`. If it is a `str`, it removes whitespaces (spaces) surrounding the string and then parse it as a `int`, and raises a `ValueError` if it is invalid, e.g. an empty string, contains a decimal point `.`, contains alphabets, etc. (But `int("  4  ")` is valid. In general, if the string is a valid `int` when treated as Python code, the string is valid.) <!--SR:!2025-05-09,184,340!2024-11-29,60,340-->
+- `int(value)` ::@:: Converts `value` to a `int`. If it is an `float`, the numbers behind the decimal point `.` is removed and then the rest is returned as an `int`. If it is a `str`, it removes whitespaces (spaces) surrounding the string and then parse it as a `int`, and raises a `ValueError` if it is invalid, e.g. an empty string, contains a decimal point `.`, contains alphabets, etc. (But `int("  4  ")` is valid. In general, if the string is a valid `int` when treated as Python code, the string is valid.) <!--SR:!2025-05-09,184,340!2025-09-14,288,360-->
 - `list(value)` ::@:: Converts `value` to a `list`. If it is a `str`, then the resulting list consists of its individual characters (but note each individual character is still a `str`). If it is a `range(n)`, then the resulting list consists of `int`s from `0` (inclusive) to `n - 1` (inclusive). There are some other valid conversions not mentioned here. If the conversion is invalid (e.g. `value` is `int`), then it raises a `TypeError`. <br/> additional information: Technically speaking, if `value` is _iterable_, then the resulting list consists of elements of that iterable. Otherwise, it raises a `TypeError`. <!--SR:!2024-12-17,61,366!2024-12-02,46,346-->
 - `str(value)` ::@:: Converts `value` to a `str`. (Almost) anything can be converted into a `str`. The resulting string is the same as that outputted by `print(value)`. <!--SR:!2024-12-03,64,340!2024-12-29,87,360-->
 
