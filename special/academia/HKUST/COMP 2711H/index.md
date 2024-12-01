@@ -844,7 +844,7 @@ The content is in teaching order.
 - datetime: 2024-11-08T13:00:00+08:00/2024-11-08T13:50:00+08:00
 - topic: solving weekly problem set 7
 - [questions/2024-11-08](questions/2024-11-08.md)
-- [week 7 problem set](questions/week%207%20problem%20set.md)
+- [week 8 problem set](questions/week%208%20problem%20set.md)
 - materials
 
 ## week 11 lecture
@@ -874,7 +874,7 @@ The content is in teaching order.
 - datetime: 2024-11-15T17:00:00+08:00/2024-11-15T17:50:00+08:00
 - topic: solving weekly problem set 8
 - [questions/2024-11-15](questions/2024-11-15.md)
-- [week 8 problem set](questions/week%208%20problem%20set.md)
+- [week 9 problem set](questions/week%209%20problem%20set.md)
 - materials
 
 ## week 12 lecture
@@ -904,7 +904,7 @@ The content is in teaching order.
 <!-- - datetime: 2024-11-22T19:00:00+08:00/2024-11-22T19:50:00+08:00 -->
 <!-- - topic: solving weekly problem set 9 -->
 <!-- - [questions/2024-11-22](questions/2024-11-22.md) -->
-<!-- - [week 9 problem set](questions/week%209%20problem%20set.md) -->
+<!-- - [week 10 problem set](questions/week%2010%20problem%20set.md) -->
 <!-- - materials -->
 
 ## week 13 lecture
@@ -934,5 +934,5 @@ The content is in teaching order.
 - datetime: 2024-11-27T18:00:00+08:00/2024-11-27T18:50:00+08:00
 - topic: solving weekly problem set 9
 - [questions/2024-11-27 TA session](questions/2024-11-27%20TA%20session.md)
-- [week 9 problem set](questions/week%209%20problem%20set.md)
+- [week 10 problem set](questions/week%2010%20problem%20set.md)
 - materials
