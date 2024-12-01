@@ -144,7 +144,7 @@ return _chain.from_iterable(await _gather(
 - `<`→::@::←`<=` <!--SR:!2024-12-05,63,349!2024-12-02,60,349-->
 - `<=`→::@::←`>` <!--SR:!2024-12-07,60,349!2024-12-03,61,349-->
 - `>`→::@::←`>=` <!--SR:!2024-12-03,56,349!2025-01-25,100,369-->
-- `>=`→::@::←`!=` <!--SR:!2024-12-01,54,349!2025-02-03,96,309-->
+- `>=`→::@::←`!=` <!--SR:!2025-08-23,265,369!2025-02-03,96,309-->
 - `!=`→::@::←`==` <!--SR:!2024-12-04,62,349!2025-01-20,95,369-->
 - `==`→::@::←_(end)_ <!--SR:!2025-07-19,235,369!2024-12-30,74,349-->
 
@@ -259,7 +259,7 @@ One does not need to {@{declare the variable and its type before assigning to it
 
 Variable names are {@{case sensitive, cannot be keywords, cannot have some characters like spaces (but underscores `_` are okay), and cannot begin with some characters like numbers}@}. Also, while allowed, it is recommended to {@{not use builtin names, e.g. `print`, as we will no longer be able to use those builtin functions of variables later (replaced by us)}@}. <!--SR:!2025-03-18,141,310!2025-07-17,241,330-->
 
-Variable name should be {@{descriptive of the values it is supposed to hold}@}. <!--SR:!2024-12-01,68,322-->
+Variable name should be {@{descriptive of the values it is supposed to hold}@}. <!--SR:!2025-10-05,308,342-->
 
 ISOM 2020 note: {@{`+=`, `-=`, `*=`, `/=`, etc.}@} are {@{not taught and should NOT be used in exercises or exams}@}. <!--SR:!2025-03-22,127,397!2025-03-21,126,397-->
 
@@ -289,4 +289,4 @@ We can convert a value (`value`) into other data types using {@{`float(value)`, 
 
 ## input
 
-We can request user input {@{using `input(prompt)`, where `prompt` is an (optional) value (not necessarily a `str`) to be printed (like `print(...)`, but without automatically printing a newline and only accepts a single argument) before asking for input}@}. Note that some Juypter notebooks {@{automatically adds a space after printing the string, while other environments do not}@}. The user input ends when {@{user enters a newline to confirm the input, i.e. presses enter}@}. Then, it will {@{return a string, keeping any leading or trailing spaces, but not the newline the user typed at the end to confirm the input}@}. <!--SR:!2025-02-04,108,320!2024-12-01,62,340!2024-12-11,64,340!2024-12-08,69,340-->
+We can request user input {@{using `input(prompt)`, where `prompt` is an (optional) value (not necessarily a `str`) to be printed (like `print(...)`, but without automatically printing a newline and only accepts a single argument) before asking for input}@}. Note that some Juypter notebooks {@{automatically adds a space after printing the string, while other environments do not}@}. The user input ends when {@{user enters a newline to confirm the input, i.e. presses enter}@}. Then, it will {@{return a string, keeping any leading or trailing spaces, but not the newline the user typed at the end to confirm the input}@}. <!--SR:!2025-02-04,108,320!2025-09-21,294,360!2024-12-11,64,340!2024-12-08,69,340-->

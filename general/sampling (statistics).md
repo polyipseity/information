@@ -10,7 +10,7 @@ tags:
 
 # sampling
 
-In [statistics](statistics.md), [quality assurance](quality%20assurance.md), and [survey methodology](survey%20methodology.md), __sampling__ is {@{the selection of a subset or a __statistical sample__ (termed __sample__ for short) of individuals from within a [statistical population](statistical%20population.md) to estimate characteristics of the whole population}@}. The subset is {@{meant to reflect the whole population and statisticians attempt to collect samples that are representative of the population}@}. Sampling has {@{lower costs and faster data collection compared to recording data from the entire population}@}, and thus, it can {@{provide insights in cases where it is infeasible to measure an entire population}@}. <!--SR:!2025-07-04,236,330!2025-05-27,189,310!2024-12-01,62,270!2025-07-19,247,330-->
+In [statistics](statistics.md), [quality assurance](quality%20assurance.md), and [survey methodology](survey%20methodology.md), __sampling__ is {@{the selection of a subset or a __statistical sample__ (termed __sample__ for short) of individuals from within a [statistical population](statistical%20population.md) to estimate characteristics of the whole population}@}. The subset is {@{meant to reflect the whole population and statisticians attempt to collect samples that are representative of the population}@}. Sampling has {@{lower costs and faster data collection compared to recording data from the entire population}@}, and thus, it can {@{provide insights in cases where it is infeasible to measure an entire population}@}. <!--SR:!2025-07-04,236,330!2025-05-27,189,310!2025-07-27,238,290!2025-07-19,247,330-->
 
 Each [observation](observation.md) measures {@{one or more properties (such as weight, location, colour or mass) of independent objects or individuals}@}. In [survey sampling](survey%20sampling.md), {@{weights can be applied to the data to adjust for the sample design, particularly in [stratified sampling](stratified%20sampling.md)}@}. Results from {@{[probability theory](probability%20theory.md) and [statistical theory](statistical%20theory.md) are employed to guide the practice}@}. In business and medical research, sampling is widely used {@{for gathering information about a population}@}. [Acceptance sampling](acceptance%20sampling.md) is {@{used to determine if a production lot of material meets the governing [specifications](specification%20(technical%20standard).md)}@}. <!--SR:!2025-02-14,121,290!2024-12-04,73,310!2024-12-03,72,310!2025-08-07,263,330!2025-09-17,293,330-->
 
@@ -60,7 +60,7 @@ Survey results are {@{typically subject to some error}@}. Total errors can be cl
 Sampling errors and biases are {@{induced by the sample design}@}. They include {@{selection bias and random sampling errors}@}: <!--SR:!2025-08-03,259,330!2025-08-02,259,330-->
 
 - [selection bias](selection%20bias.md) ::@:: When the true selection probabilities differ from those assumed in calculating the results. <!--SR:!2025-06-29,232,330!2025-08-01,258,330-->
-- [random sampling error](sampling%20error.md) ::@:: Random variation in the results due to the elements in the sample being selected at random. <!--SR:!2025-08-14,265,330!2024-12-01,70,310-->
+- [random sampling error](sampling%20error.md) ::@:: Random variation in the results due to the elements in the sample being selected at random. <!--SR:!2025-08-14,265,330!2025-10-04,307,330-->
 
 ### non-sampling errors
 
@@ -68,7 +68,7 @@ Sampling errors and biases are {@{induced by the sample design}@}. They include 
 
 Non-sampling errors are other errors which can impact final survey estimates, caused by problems in data collection, processing, or sample design. Such errors may include {@{over-coverage, under-coverage, measurement error, processing error, participation bias, etc.}@}: <!--SR:!2025-01-29,106,290-->
 
-- over-coverage ::@:: inclusion of data from outside of the population <!--SR:!2024-12-01,70,310!2024-12-03,72,310-->
+- over-coverage ::@:: inclusion of data from outside of the population <!--SR:!2025-10-03,306,330!2024-12-03,72,310-->
 - under-coverage ::@:: sampling frame does not include elements in the population <!--SR:!2025-05-17,193,310!2025-08-16,269,330-->
 - measurement error ::@:: e.g. when respondents misunderstand a question, or find it difficult to answer <!--SR:!2025-06-06,206,310!2025-09-24,298,330-->
 - processing error ::@:: mistakes in data coding <!--SR:!2025-08-26,275,330!2025-08-18,270,330-->

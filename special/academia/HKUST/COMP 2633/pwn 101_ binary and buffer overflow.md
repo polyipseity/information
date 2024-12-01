@@ -23,7 +23,7 @@ A quick recap of types of tools used for reverse: {@{static analysis, dynamic an
 
 What is a memory model? It refers to how {@{memory in a program is modelled by the OS}@}. In {@{the good o' days of computing}@}, memory address is {@{really the address of the physical memory}@}. But modern OSes do not do that. One of the many reasons is security: {@{consider that the physical memory is shared by all processes, it is insecure for one process to be able to access the memory of any other process, e.g. a password manager}@}. <!--SR:!2025-05-03,166,310!2025-03-31,140,310!2024-12-24,68,310!2025-05-10,170,310-->
 
-Instead, modern OSes has the concept of {@{virtual memory}@}, which is managed by {@{a hardware called the memory management unit (MMU)}@}. To any single process, it looks like {@{there is still a "physical" memory}@}, but {@{the OS maps different parts of the "physical" memory to different parts of the actual physical memory, or even files on storage devices}@}! Some parts {@{may not be mapped (unmapped) at all, and accessing them will likely crash the program  (receive `SIGSEGV` signal)}@}. The mapping is {@{usually private to a single process, that is, that mapping is only used by that process and no other processes}@}. This is {@{good for security as a process can only access the memory of itself but not other processes}@}. <!--SR:!2025-05-26,184,310!2025-06-06,192,310!2024-12-02,55,310!2025-03-14,124,290!2024-12-01,54,310!2025-02-07,105,290!2025-05-25,182,310-->
+Instead, modern OSes has the concept of {@{virtual memory}@}, which is managed by {@{a hardware called the memory management unit (MMU)}@}. To any single process, it looks like {@{there is still a "physical" memory}@}, but {@{the OS maps different parts of the "physical" memory to different parts of the actual physical memory, or even files on storage devices}@}! Some parts {@{may not be mapped (unmapped) at all, and accessing them will likely crash the program  (receive `SIGSEGV` signal)}@}. The mapping is {@{usually private to a single process, that is, that mapping is only used by that process and no other processes}@}. This is {@{good for security as a process can only access the memory of itself but not other processes}@}. <!--SR:!2025-05-26,184,310!2025-06-06,192,310!2024-12-02,55,310!2025-03-14,124,290!2025-07-25,236,330!2025-02-07,105,290!2025-05-25,182,310-->
 
 However, further knowledge memory model is {@{not exactly important in basic pwn}@}. All one needs to know is that {@{parts of memory in a program are mapped to different parts of the actual physical memory or some files on storage devices}@}. <!--SR:!2025-06-01,189,310!2024-12-24,68,310-->
 
@@ -34,8 +34,8 @@ For pwn, it is more important to know {@{the typical memory mapping for a proces
 The meanings of the 4 segments are:
 
 - read-execute segment ::@:: The segment that the program can read from and execute code on it. It usually contains the ELF header, `.rodata` (read-only data) and `.text` (code) sections in assembly. <!--SR:!2025-02-01,84,270!2025-05-09,169,310-->
-- read-write segment ::@:: The segment that the program and read from and write to. It usually contains the `.bss` and `.data` sections in assembly. <!--SR:!2025-07-16,228,330!2024-12-01,54,310-->
-- heap ::@:: It contains memory allocated at runtime. Usually, it is allocated for manual memory management (e.g. `malloc`, `new`). It grows upwards (increasing address). <!--SR:!2024-12-06,57,310!2024-12-01,54,310-->
+- read-write segment ::@:: The segment that the program and read from and write to. It usually contains the `.bss` and `.data` sections in assembly. <!--SR:!2025-07-16,228,330!2025-07-25,236,330-->
+- heap ::@:: It contains memory allocated at runtime. Usually, it is allocated for manual memory management (e.g. `malloc`, `new`). It grows upwards (increasing address). <!--SR:!2024-12-06,57,310!2025-07-24,235,330-->
 - stack ::@:: It also contains memory allocated at runtime, but for small data (e.g., local variables) and also function-related data. Usually, it is allocated for automatic memory management (e.g. local variables). It grows downwards (decreasing address). <!--SR:!2025-06-07,192,310!2025-05-04,165,310-->
 
 Note that the `.rodata` (read-only data) section is located on the read-execute segment. This means {@{the program can execute the data in `.rodata` section as code, which makes it less secure}@}. The linkers of some newer Linux distributions {@{add an additional one or two read segments (the program can only read from it) for the ELF header and `.rodata` section to improve security}@}. <!--SR:!2024-12-24,68,310!2024-12-24,68,310-->
@@ -54,11 +54,11 @@ Revisiting reverse 101... We will use {@{the Intel syntax}@} here. <!--SR:!2024-
 
 In x86 and x86-64, there are {@{two registers related to the stack: `esp`/`rsp` and `ebp`/`rbp`}@}. (We will use the x86-64 registers thereafter.) <!--SR:!2025-03-26,140,310-->
 
-`rsp` is {@{the stack pointer, which points to the top (low address) of the stack memory}@}. This is easy to understand. The more difficult one is {@{`rbp`, which is the stack/function frame base pointer, which points to the bottom (high address) of the current stack/function frame}@}. Yet we do not know {@{what a stack/function frame is, and this will be introduced later}@}. <!--SR:!2024-12-04,57,310!2025-05-08,170,310!2024-12-01,54,310-->
+`rsp` is {@{the stack pointer, which points to the top (low address) of the stack memory}@}. This is easy to understand. The more difficult one is {@{`rbp`, which is the stack/function frame base pointer, which points to the bottom (high address) of the current stack/function frame}@}. Yet we do not know {@{what a stack/function frame is, and this will be introduced later}@}. <!--SR:!2024-12-04,57,310!2025-05-08,170,310!2025-07-21,232,330-->
 
 There are {@{several instructions that modify the stack memory and the `rsp` and `rbp` registers appropriately}@}. Some of them are: {@{`push`, `pop`, `call`, `ret`, and `leave`}@}. <!--SR:!2024-12-24,68,310!2024-12-24,68,310-->
 
-- `push <src>` ::@:: Push `<src>` on top of the stack. This writes a value right below the address pointed by `rsp` and decrements `rsp`. <!--SR:!2024-12-10,61,310!2024-12-01,54,310-->
+- `push <src>` ::@:: Push `<src>` on top of the stack. This writes a value right below the address pointed by `rsp` and decrements `rsp`. <!--SR:!2024-12-10,61,310!2025-07-24,235,330-->
 - `pop <dest>` ::@:: Pop the top of the stack and write it to `<dest>`. This reads a value at the address pointed by `rsp` and increments `rsp`. <!--SR:!2024-12-16,67,310!2025-06-07,193,310-->
 - `call <address>` ::@:: This pushes (`push`) the `rip` (instruction pointer, pointing to the currently executing instruction) onto the stack, and then jumps (`jmp`) to `<address>`. `<address>`. This is usually used to call a function, in conjunction with `ret`. <!--SR:!2024-12-24,68,310!2024-12-07,58,310-->
 - `ret`::@:: This pops (`pop`) a value off from the stack and jumps (`jmp`) to it. (Note that this is similar to `pop rip`, but `pop rip` is invalid because `rip` cannot be modified directly.) This is usually used to return from a function, in conjunction with `call`. <!--SR:!2024-12-10,61,310!2025-01-11,79,290-->
@@ -74,7 +74,7 @@ Since `lea` can {@{mostly be replaced with `add` and `imul` (with the exception 
 
 The instructions above are used to {@{implementing the concept of functions in assembly}@}. However, they {@{do not specify how they should be used}@}. A __calling convention__ specifies {@{how the above instructions are used to manipulate the stack in such a way to represent functions}@}. It is called a _convention_ because {@{the caller and callee (the function to be called by the caller) needs to follow the same (or compatible) calling conventions}@}, or otherwise {@{the stack will be manipulated incorrectly, and the program will likely crash}@}. <!--SR:!2024-12-07,60,310!2025-05-18,178,310!2024-12-05,58,310!2024-12-09,60,310!2024-12-12,63,310-->
 
-There are {@{many different incompatible calling conventions in use}@}. For x86, {@{there are many different ones, but for x86-64, there are only 2 common in use}@}. They are {@{the Microsoft x64 calling convention and the System V AMD64 ABI}@}. We will {@{only introduce a calling convention for x86-64, as the binaries you encounter in CTFs are most likely 64-bit, and that calling convention is the latter one because we are using Linux}@}. Further, you should be able to {@{extract the general principles of calling conventions from the example below and extrapolate them to others}@}. <!--SR:!2024-12-24,68,310!2025-06-17,204,330!2024-12-06,57,310!2025-06-25,211,330!2024-12-01,54,310-->
+There are {@{many different incompatible calling conventions in use}@}. For x86, {@{there are many different ones, but for x86-64, there are only 2 common in use}@}. They are {@{the Microsoft x64 calling convention and the System V AMD64 ABI}@}. We will {@{only introduce a calling convention for x86-64, as the binaries you encounter in CTFs are most likely 64-bit, and that calling convention is the latter one because we are using Linux}@}. Further, you should be able to {@{extract the general principles of calling conventions from the example below and extrapolate them to others}@}. <!--SR:!2024-12-24,68,310!2025-06-17,204,330!2024-12-06,57,310!2025-06-25,211,330!2025-07-23,234,330-->
 
 ### System V AMD64 ABI
 
@@ -110,11 +110,11 @@ Let's learn some basic `gdb` commands (not exclusive to `pwndbg`):
 - `backtrace` ::@:: print backtrace or call stack <!--SR:!2024-12-03,56,310!2024-12-05,58,310-->
 - `ni` ::@:: go to the next instruction <!--SR:!2025-06-14,198,310!2025-07-16,228,330-->
 - `si` ::@:: go to the next instruction stepping into functions <!--SR:!2024-12-04,57,310!2024-12-11,62,310-->
-- `continue` ::@:: continue program execution <!--SR:!2024-12-01,54,310!2024-12-24,68,310-->
+- `continue` ::@:: continue program execution <!--SR:!2025-07-22,233,330!2024-12-24,68,310-->
 - `finish` ::@:: run until the current function returns <!--SR:!2024-12-24,68,310!2024-12-07,58,310-->
 - `x/<format> <address>` ::@:: examine memory at the given address in the given format (see `help x`) <!--SR:!2024-12-05,56,310!2024-12-24,68,310-->
 - `print <expression>` ::@:: evaluate and print an expression <!--SR:!2024-12-24,68,310!2024-12-04,57,310-->
-- `record` ::@:: record execution of every instruction; can make the process run slowly <!--SR:!2024-12-24,68,310!2024-12-01,54,310-->
+- `record` ::@:: record execution of every instruction; can make the process run slowly <!--SR:!2024-12-24,68,310!2025-07-23,234,330-->
 - `rni` ::@:: rewind to the previous instruction <!--SR:!2024-12-07,60,310!2024-12-02,55,310-->
 - `rsi` ::@:: rewind to the previous instruction stepping into functions <!--SR:!2025-04-04,131,290!2024-12-05,56,310-->
 - `rc` ::@:: reverse continue <!--SR:!2025-06-22,208,330!2024-12-02,55,310-->
@@ -122,7 +122,7 @@ Let's learn some basic `gdb` commands (not exclusive to `pwndbg`):
 
 Let's also learn some basic `pwndbg` commands:
 
-- `down` ::@:: move down the backtrace or call stack <!--SR:!2024-12-06,57,310!2024-12-01,54,310-->
+- `down` ::@:: move down the backtrace or call stack <!--SR:!2024-12-06,57,310!2025-07-26,237,330-->
 - `up` ::@:: move up the backtrace or call stack <!--SR:!2024-12-07,60,310!2024-12-05,56,310-->
 - `checksec` ::@:: print the binary security settings <!--SR:!2024-12-12,63,310!2024-12-07,60,310-->
 - `stack <count> <offset>` ::@:: prints stack data with the specified count and offset <!--SR:!2024-12-11,62,310!2025-05-17,182,310-->

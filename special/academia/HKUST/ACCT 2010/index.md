@@ -73,7 +73,7 @@ The content is in teaching order.
 - datetime: 2024-09-12T13:30:00+08:00/2024-09-12T14:50:00+08:00
 - [financial accounting](../../../../general/financial%20accounting.md)
   - [financial accounting § principles](../../../../general/financial%20accounting.md#principles) ::@:: relevant and timely information, faithful representation, separate entity, time period, going concern, stable monetary unit, mixed-attribute measurement <!--SR:!2024-12-05,56,277!2025-02-09,99,297-->
-  - [financial accounting](../../../../general/financial%20accounting.md) / relevant and timely information ::@:: Record only information that affects decision, and before a decision that is relevant to said information is to be made. <!--SR:!2024-12-30,74,317!2024-12-01,52,297-->
+  - [financial accounting](../../../../general/financial%20accounting.md) / relevant and timely information ::@:: Record only information that affects decision, and before a decision that is relevant to said information is to be made. <!--SR:!2024-12-30,74,317!2025-05-02,152,297-->
   - [financial accounting](../../../../general/financial%20accounting.md) / faithful representation ::@:: The record is complete, neutral, and accurate. This is a cornerstone of financial reporting and professional ethics. <!--SR:!2025-03-28,128,297!2025-03-30,138,297-->
   - [financial accounting](../../../../general/financial%20accounting.md) / separate entity ::@:: Financial reporting is for the entity (the company), not owners of it. Managers are the _agents_ who operate the entity, a _legal person_, which is owned by the stockholders, the _principal_. <!--SR:!2025-03-16,119,297!2024-12-30,74,317-->
   - [financial accounting](../../../../general/financial%20accounting.md) / time period ::@:: It refers to the reporting period. It can be monthly, quarterly, semi-annually, or annually. Interim reports are reported in between annual financial reports. <!--SR:!2025-07-17,229,337!2025-02-15,109,277-->
@@ -94,7 +94,7 @@ The content is in teaching order.
 - [expense](../../../../general/expense.md) ::@:: any specific outflow of cash or other valuable assets from a person or company to another person or company; decrease in assets or increase in liabilities from ongoing operations <!--SR:!2025-03-27,128,297!2024-12-03,56,317-->
   - [§ expense](../../../../general/expense.md#expense)
   - [expense](../../../../general/expense.md) / loss ::@:: decrease in assets or increase in liabilities from peripheral activities (side activities) <!--SR:!2024-12-30,74,317!2024-12-30,74,317-->
-- [consolidated financial statement](../../../../general/consolidated%20financial%20statement.md) (CFS) ::@:: a financial statement in which the parent company and all its subsidiaries are presented as those of a single economic entity <!--SR:!2024-12-01,54,317!2024-12-04,57,317-->
+- [consolidated financial statement](../../../../general/consolidated%20financial%20statement.md) (CFS) ::@:: a financial statement in which the parent company and all its subsidiaries are presented as those of a single economic entity <!--SR:!2025-07-29,240,337!2024-12-04,57,317-->
 - [balance sheet](../../../../general/balance%20sheet.md)
   - [balance sheet](../../../../general/balance%20sheet.md) / elements ::@:: titles, name of the financial statement, reporting period or point in time, currency and basis of monetary unit, assets (in decreasing/increasing liquidity), liabilities (in increasing/decreasing maturity) <!--SR:!2025-01-21,84,277!2025-04-30,151,297-->
   - [balance sheet](../../../../general/balance%20sheet.md) / missing elements ::@:: unrecorded but valuable assets, such as internally generated goodwill (only recorded during acquisition of the company) <!--SR:!2025-01-11,86,297!2025-05-16,167,317-->
@@ -115,7 +115,7 @@ The content is in teaching order.
   - [accounting equation](../../../../general/accounting%20equation.md) / A restaurant buys meat patties for $6&nbsp;000 _on credit_ (promise to pay later). ::@:: A increases by $6&nbsp;000, and L increases by $6&nbsp;000, balancing the accounting equation. Upon settlement of the liability (fulfilled the promise to pay), A decreases by $6&nbsp;000, and L decreases by $6&nbsp;000, still balancing the accounting equation. Overall, A, L, and SE do not change. <!--SR:!2024-12-30,74,317!2024-12-07,58,317-->
 - [chart of accounts](../../../../general/chart%20of%20accounts.md) ::@:: list of financial accounts and their identifiers, grouped into categories <!--SR:!2024-12-15,66,317!2024-12-14,65,317-->
   - [chart of accounts](../../../../general/chart%20of%20accounts.md) / groups ::@:: as an example: assets, liabilities, stockholders' equity, revenues, expenses <!--SR:!2024-12-11,62,317!2025-03-20,122,297-->
-  - [chart of accounts](../../../../general/chart%20of%20accounts.md) / assets ::@:: Accounts with "receivable" in the title are __always__ assets. Prepaid expenses is __always__ an asset. <!--SR:!2024-12-12,63,317!2024-12-01,54,317-->
+  - [chart of accounts](../../../../general/chart%20of%20accounts.md) / assets ::@:: Accounts with "receivable" in the title are __always__ assets. Prepaid expenses is __always__ an asset. <!--SR:!2024-12-12,63,317!2025-07-28,239,337-->
   - [chart of accounts](../../../../general/chart%20of%20accounts.md) / liabilities ::@:: Accounts with "payable" and "unearned" in the title are __always__ liabilities. <!--SR:!2024-12-16,67,317!2024-12-09,62,317-->
   - [chart of accounts](../../../../general/chart%20of%20accounts.md) / revenues ::@:: Account titles are typically formed by joining their source and then the word "revenue". <!--SR:!2024-12-12,63,317!2024-12-09,62,317-->
   - [chart of accounts](../../../../general/chart%20of%20accounts.md) / expenses ::@:: Account titles are typically formed by joining their source and then the word "expense". The account for inventory sold is typically titled "Cost of Goods Sold". <!--SR:!2024-12-08,59,317!2024-12-30,74,317-->
@@ -173,10 +173,10 @@ The content is in teaching order.
     - upper quartile: 44
     - high: 58
 - report
-  - What should you do if you firmly believe that your marks should not be that low? ::@:: Check your paper! The TA forgot to add the 8 marks in the last page... This is why one should paper checking. <!--SR:!2024-12-01,18,349!2024-12-02,19,349-->
+  - What should you do if you firmly believe that your marks should not be that low? ::@:: Check your paper! The TA forgot to add the 8 marks in the last page... This is why one should paper checking. <!--SR:!2025-02-23,84,369!2024-12-02,19,349-->
   - word formulas ::@:: The original word formulas are required to be written as well before substituting numbers onto it. <!--SR:!2024-12-09,18,351!2024-12-09,18,351-->
   - Need to recheck the textbook when will a recording mistake of transaction be found...
     - transaction analysis & mistake finding (-1, MCQ) ::@:: In non-electronic transaction analysis, errors are unlikely to be found during the recording of a transaction. The first likely opportunity is preparation of the trial balance. We only consider this case in this course. <p> In electronic transaction analysis, errors are much more likely to be found during recording of a transaction. <!--SR:!2025-01-17,53,349!2024-12-02,19,349-->
   - Forgot, something related to accrued expense, insurance, insurance premium...
-    - insurance premium (-1, MCQ) ::@:: Insurance premium is a cost that you pay for the insurance, not a benefit that the insurance gives you! <!--SR:!2024-12-01,18,349!2024-12-01,18,349-->
+    - insurance premium (-1, MCQ) ::@:: Insurance premium is a cost that you pay for the insurance, not a benefit that the insurance gives you! <!--SR:!2025-02-27,88,369!2025-02-22,83,369-->
   - Need to remember 5 reasons why a financial analyst uses the quick ratio... (-2, LQ)

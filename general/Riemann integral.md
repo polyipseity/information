@@ -15,7 +15,7 @@ tags:
 
 ## integrability
 
-{@{A [bounded function](bounded%20function.md) on a [compact interval](compact%20space.md) (closed and bounded interval)}@} is Riemann integrable {@{[iff](if%20and%20only%20if.md) it is continuous [almost everywhere](almost%20everywhere.md) (its points of [discontinuity](classification%20of%20discontinuities.md) has [measure zero](null%20set.md), in terms of [Lebesgue measure](Lebesgue%20measure.md))}@}. This is known as the {@{__Lebesgue-Vitali theorem__}@} (of characterization of the Riemann integrable functions). <!--SR:!2025-11-19,433,321!2025-10-03,368,281!2024-12-01,140,261-->
+{@{A [bounded function](bounded%20function.md) on a [compact interval](compact%20space.md) (closed and bounded interval)}@} is Riemann integrable {@{[iff](if%20and%20only%20if.md) it is continuous [almost everywhere](almost%20everywhere.md) (its points of [discontinuity](classification%20of%20discontinuities.md) has [measure zero](null%20set.md), in terms of [Lebesgue measure](Lebesgue%20measure.md))}@}. This is known as the {@{__Lebesgue-Vitali theorem__}@} (of characterization of the Riemann integrable functions). <!--SR:!2025-11-19,433,321!2025-10-03,368,281!2025-11-30,364,261-->
 
 ### construction of integrable functions
 

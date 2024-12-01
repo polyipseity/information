@@ -23,7 +23,7 @@ The trial balance is usually prepared by {@{a bookkeeper or accountant who has u
 
 ## normal balances
 
-{@{Normal balances}@} refer to {@{whether the balance for an account in a properly-formed trial balance is usually a debt or a credit}@}. A normal balance also {@{reflects the [accounting equation](accounting%20equation.md)}@}. If {@{a trial balance for an account is reversed}@}, such an account is {@{called a "[contra-account](debits%20and%20credits.md#contra%20account)" (e.g. accumulated depreciation as an asset or owner's drawings as equity)}@}. The normal balances are as follow: <!--SR:!2024-12-01,54,310!2024-12-10,63,310!2024-12-04,57,310!2024-12-15,66,310!2025-06-11,196,310-->
+{@{Normal balances}@} refer to {@{whether the balance for an account in a properly-formed trial balance is usually a debt or a credit}@}. A normal balance also {@{reflects the [accounting equation](accounting%20equation.md)}@}. If {@{a trial balance for an account is reversed}@}, such an account is {@{called a "[contra-account](debits%20and%20credits.md#contra%20account)" (e.g. accumulated depreciation as an asset or owner's drawings as equity)}@}. The normal balances are as follow: <!--SR:!2025-07-26,237,330!2024-12-10,63,310!2024-12-04,57,310!2024-12-15,66,310!2025-06-11,196,310-->
 
 > __Normal Balance__
 >

@@ -41,7 +41,7 @@ If {@{the index (but not slicing) is out of range (regardless if it is positive 
 
 You can {@{use the [indexing](#indexing) notation to replace the _n_-th item of a list}@}. <!--SR:!2024-12-08,68,314-->
 
-To {@{add a new item (not replace existing items) to the back of a list}@}, use {@{`list.append(value)`}@}. Its return value is {@{nothing (`None`)}@}. <!--SR:!2025-02-13,113,294!2024-12-01,62,314!2025-01-26,99,294-->
+To {@{add a new item (not replace existing items) to the back of a list}@}, use {@{`list.append(value)`}@}. Its return value is {@{nothing (`None`)}@}. <!--SR:!2025-02-13,113,294!2025-08-31,273,334!2025-01-26,99,294-->
 
 To {@{remove an the _n_-th existing item}@}. use {@{`list.pop(index)`, with `index` being _n_ - 1}@}. Note that `index` accepts {@{numbers in the same ways as in the [indexing](#indexing) notation, i.e. negative indices are accepted and have the same meaning}@}. Likewise, if {@{the index is out of range or `list` is empty}@}, then {@{an `IndexError` will be raised}@}. Not specifying {@{the `index` is also okay (`list.pop()`), and `index` will be set to `-1` by default, meaning the last item will be removed}@}. After removing the item, it will {@{return the removed item}@}. <!--SR:!2025-05-10,183,314!2025-04-02,153,314!2025-05-08,180,314!2025-08-26,269,334!2025-03-04,130,314!2024-12-07,67,314!2025-08-13,258,330-->
 

@@ -65,7 +65,7 @@ Accrued revenues are {@{revenues that have been recognized (that is, services ha
 
 Accrued expenses {@{have not yet been paid for, so they are recorded in a payable account}@}. {@{Expenses for interest, taxes, rent, and salaries}@} are commonly accrued for reporting purposes. <!--SR:!2024-12-05,58,310!2025-04-16,157,310-->
 
-{@{An income which has been earned but it has not been received yet during the accounting period}@}, like {@{rent, interest on investments, commission etc.}@} are examples of accrued income. <!--SR:!2024-12-01,54,310!2025-04-25,160,310-->
+{@{An income which has been earned but it has not been received yet during the accounting period}@}, like {@{rent, interest on investments, commission etc.}@} are examples of accrued income. <!--SR:!2025-07-25,236,330!2025-04-25,160,310-->
 
 ### estimates
 

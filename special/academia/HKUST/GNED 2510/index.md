@@ -98,15 +98,15 @@ The content is in teaching order.
   - stress identification ::@:: nervous, sweating, tired, trembling, weak, ... <!--SR:!2025-02-17,98,290!2025-05-06,167,310-->
   - stress relief ::@:: putting words on emotions, mindfulness, re-attribution, refocus, visualize, revalue, ... <!--SR:!2025-06-03,191,310!2025-05-25,182,310-->
 - SCARF ::@:: status, certainty, autonomy, relatedness, fairness <!--SR:!2025-07-12,224,330!2024-12-02,55,310-->
-  - SCARF / status ::@:: relative importance to others and seniority <!--SR:!2024-12-01,54,310!2024-12-07,60,310-->
+  - SCARF / status ::@:: relative importance to others and seniority <!--SR:!2025-07-24,235,330!2024-12-07,60,310-->
     - increase status ::@:: know the unknown, prepare, ... <!--SR:!2025-05-04,167,310!2024-12-25,69,310-->
     - decrease status ::@:: awkward questions, unfriendly interviewers, unequal, ... <!--SR:!2024-12-12,63,310!2025-04-28,162,310-->
   - SCARF / certainty ::@:: prediction confidence <!--SR:!2025-04-21,156,310!2024-12-02,46,290-->
   - SCARF / autonomy ::@:: sense of control over events <!--SR:!2025-05-22,181,310!2024-12-02,55,310-->
     - increase autonomy ::@:: be flexible about choices, prepare, research salary ranges, talk permissions, ... <!--SR:!2024-12-25,69,310!2024-12-09,60,310-->
-  - SCARF / relatedness ::@:: socially, ingroup or outgroup <!--SR:!2024-12-01,54,310!2024-12-01,54,310-->
+  - SCARF / relatedness ::@:: socially, ingroup or outgroup <!--SR:!2025-07-25,236,330!2025-07-21,232,330-->
     - increase relatedness ::@:: create trust by non-verbal communication, firm handshake, discuss personal (but not too personal) things <!--SR:!2025-05-15,176,310!2024-12-09,60,310-->
-  - SCARF / fairness ::@:: perception of fair exchanges with people <!--SR:!2025-06-15,202,330!2024-12-01,54,310-->
+  - SCARF / fairness ::@:: perception of fair exchanges with people <!--SR:!2025-06-15,202,330!2025-07-26,237,330-->
 
 ## week 7 tutorial
 

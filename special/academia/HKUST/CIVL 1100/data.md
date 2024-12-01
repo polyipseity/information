@@ -146,7 +146,7 @@ See [Great Pyramid of Giza](../../../../general/Great%20Pyramid%20of%20Giza.md).
 See [Great Wall of China](../../../../general/Great%20Wall%20of%20China.md).
 
 - component ::@:: fortress, horse track, pass, shelter, wall, watch tower <!--SR:!2025-06-24,271,316!2026-11-17,746,416-->
-- construction period ::@:: 220 BC under Qin Shi Huang, and continued up to the Ming dynasty (1368–1644) <!--SR:!2025-02-20,200,356!2024-12-01,159,396-->
+- construction period ::@:: 220 BC under Qin Shi Huang, and continued up to the Ming dynasty (1368–1644) <!--SR:!2025-02-20,200,356!2026-08-21,628,396-->
 - geographic locations ::@:: begins in the east at Shanhaiguan (山海關), Hebei; and ends in the west at Jiayuguan (嘉峪關), Gansu <!--SR:!2025-02-23,202,356!2025-12-27,436,376-->
 - length ::@:: 21196.18 km <!--SR:!2025-02-04,96,256!2026-06-17,579,396-->
 
@@ -251,7 +251,7 @@ See [Panama Canal](../../../../general/Panama%20Canal.md).
 
 See [Parthenon](../../../../general/Parthenon.md).
 
-- construction period ::@:: 447 BC to 438 BC, 9 years <!--SR:!2025-01-18,77,196!2024-12-01,159,396-->
+- construction period ::@:: 447 BC to 438 BC, 9 years <!--SR:!2025-01-18,77,196!2026-08-22,629,396-->
 - dedication ::@:: Greek goddess Athena <!--SR:!2024-12-08,166,396!2026-12-11,763,416-->
 - description ::@:: temple on the Athenian Acropolis, Greece, dedicated to the Greek goddess Athena <!--SR:!2026-03-19,483,356!2026-11-27,751,416-->
 - geographic location ::@:: Athenian Acropolis, Greece <!--SR:!2026-10-09,678,376!2026-08-20,672,416-->

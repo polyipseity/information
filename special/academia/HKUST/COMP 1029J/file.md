@@ -27,7 +27,7 @@ One can check whether {@{an __existing__ file}@} is readable or writeable using 
 
 ## text files
 
-One can read from or write to a text file using {@{`java.io.BufferedReader` or `java.io.BufferedWriter` respectively}@}. <!--SR:!2024-12-01,234,330-->
+One can read from or write to a text file using {@{`java.io.BufferedReader` or `java.io.BufferedWriter` respectively}@}. <!--SR:!2027-11-02,1066,350-->
 
 ### reading text files
 

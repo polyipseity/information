@@ -50,7 +50,7 @@ The content is in teaching order.
   - statistics / branches ::@:: descriptive statistics, inferential statistics <!--SR:!2025-04-18,174,310!2025-05-08,186,310-->
 - [descriptive statistics](../../../../general/descriptive%20statistics.md) ::@:: data collection, summarization, and presentation <!--SR:!2025-04-21,162,310!2025-07-08,239,330-->
   - descriptive statistics / methodologies ::@:: graphical (e.g. box plot, histogram), numerical (e.g. sample mean, sample median, sample quartile, sample variance), tabular (e.g. frequency table) <!--SR:!2025-04-11,166,310!2025-05-18,193,310-->
-  - descriptive statistics / steps ::@:: collect (e.g. sampling, surveying) → classify (e.g. grouping) → characterize (e.g. sample mean) → present (e.g. box plot, table) <!--SR:!2025-05-12,182,290!2024-12-01,68,310-->
+  - descriptive statistics / steps ::@:: collect (e.g. sampling, surveying) → classify (e.g. grouping) → characterize (e.g. sample mean) → present (e.g. box plot, table) <!--SR:!2025-05-12,182,290!2025-07-01,212,310-->
 - [inferential statistics](../../../../general/statistical%20inference.md) ::@:: statistical procedures that use data from an observed _sample_ to make a conclusion about a _population_ <!--SR:!2025-03-19,147,310!2025-08-11,261,330-->
   - inferential statistics / key terms ::@:: _population_: a collection of all objects of interest, _sample_: an analyzed part of the _population_; _parameter_: a numerical measure describing a _population_, _statistic_: a numerical measure describing a _sample_ <!--SR:!2025-07-03,235,330!2025-03-29,139,290-->
   - inferential statistics / reasons for sampling ::@:: cost-effectiveness, practicality <!--SR:!2025-02-06,112,290!2025-07-21,249,330-->
@@ -67,7 +67,7 @@ The content is in teaching order.
   - inferential statistics / -duction ::@:: induction: draw conclusions on the population from the statistics of a sample; deduction: characterize hypothetical samples of a population from its parameters <!--SR:!2025-09-02,279,330!2025-01-17,101,290-->
 - [_R_](../../../../general/R%20(programming%20language).md) ::@:: a programming language for statistical computing and data visualization <!--SR:!2025-06-13,210,310!2024-12-05,72,310-->
   - _R_ / website ::@:: <https://r-project.org/> <!--SR:!2025-08-06,262,330!2025-07-07,237,330-->
-  - _R_ / components ::@:: _R_, _R_ console, RStudio <!--SR:!2024-12-01,68,310!2025-06-28,231,330-->
+  - _R_ / components ::@:: _R_, _R_ console, RStudio <!--SR:!2025-09-24,297,330!2025-06-28,231,330-->
   - _R_ / help commands ::@:: `help.start()`: general help, `help(<foo>)`, `?<foo>`: help about `<foo>`, `apropos("<foo>")`: list all functions containing the string `<foo>`, `example(<foo>)`: show an example of the function `<foo>` <!--SR:!2025-05-01,173,290!2025-08-31,277,330-->
 - [descriptive statistics](../../../../general/descriptive%20statistics.md)
   - descriptive statistics / why ::@:: communicate data and support your reasoning from data <!--SR:!2025-08-04,259,330!2024-12-07,27,290-->
@@ -420,7 +420,7 @@ The content is in teaching order.
     - high: 50
 - report
   - When you see $\mathcal N(0, 100)$, do not mistake the 100 as the standard deviation! It is the variance. Almost screwed this up in the midterm examination...
-    - $\mathcal N(0, 100)$ (0) ::@:: The mean of the normal distribution is 0. The standard deviation of the normal distribution is 10, not 100. <!--SR:!2024-12-01,18,364!2024-12-03,20,364-->
+    - $\mathcal N(0, 100)$ (0) ::@:: The mean of the normal distribution is 0. The standard deviation of the normal distribution is 10, not 100. <!--SR:!2025-03-04,93,384!2024-12-03,20,364-->
   - Inputted $\binom {100} 1$ as 1 instead of 100 into the calculator when evaluating a binomial distribution...
     - $\binom {100} 1$ (-1) ::@:: It evaluates to 100, not 1. <!--SR:!2024-12-02,19,364!2024-12-03,20,364-->
   - Simplified $\frac 4 {b^2} \left(b\right)$ into $\frac 4 {b^3}$ instead of $\frac 4 b$... (-1)

@@ -12,7 +12,7 @@ tags:
 ## concepts
 
 - cell :@: The boxes you see when you open a spreadsheet. It can contain a piece of data. <!--SR:!2025-01-23,274,330-->
-- range :@: A bunch of cells. <!--SR:!2024-12-01,233,330-->
+- range :@: A bunch of cells. <!--SR:!2027-10-27,1060,350-->
 - workbook :@: The entire Excel file. A workbook can contain multiple worksheets. <!--SR:!2025-01-02,260,330-->
 - worksheet :@: Like a piece of paper containing cells. <!--SR:!2025-01-27,274,330-->
 

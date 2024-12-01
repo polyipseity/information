@@ -54,7 +54,7 @@ As each question has 5 choices, each question has are 5C2 = 10 pairs of choices.
 > 4. red
 > 5. ultraviolet
 >
-> - solution: {@{2 → 4 → 1 → 3 → 5}@} <!--SR:!2024-12-01,68,310-->
+> - solution: {@{2 → 4 → 1 → 3 → 5}@} <!--SR:!2025-09-23,296,330-->
 
 <!-- markdownlint MD028 -->
 
