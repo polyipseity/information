@@ -243,3 +243,23 @@ The content is in teaching order.
 
 - datetime: 2024-11-28T10:30:00+08:00/2024-11-28T12:20:00+08:00
 - [final presentation](assignments/final%20presentation/submission.md)
+
+## aftermath
+
+> __Last Class: Storytelling!!__
+>
+> Dear Life Designers,
+>
+> After 12 weeks of working together, we have completed the cycle from developing self-awareness to creating our prototypes, action plans and sharing our stories. Well-done for all your hard work and genuine sharing in class. You have all created a very special place in our hearts and the DYL teaching team will miss you! Let's stay connected and meet next semester for support on our accountability plan.
+>
+> There were many inspirational moments when you were sharing your stories with us but the overall theme came out to be <span style="color: #ba372a;">"self-compassion"</span>
+>
+> It was great to hear self-affirmations like <span style="color: #ba372a;">"I am what I do"</span>, brilliant questions like <span style="color: #ba372a;">"Ask yourself what kind of life you want?"</span>, deep awareness like <span style="color: #ba372a;">"It's okay to not be okay" and "It's not all defeat, it's a chance to learn", "just accept do not judge", "intelligence is a science"....and so on.</span> It was heartening to hear your stories of successes inspired by failures along the way, be it the story of 1st term at UST or high school or the importance of collaboration and working together. Great Job!
+>
+> We are grateful to witness your growth and transformations during the course.
+>
+> Wish you all the best in life!
+>
+> \(redacted\) & \(redacted\)
+>
+> <small>---Fill out the SFQ survey as well if you have not as yet. Your voice matters!</small>
