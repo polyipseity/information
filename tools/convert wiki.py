@@ -3,6 +3,7 @@ from anyio import Path
 from asyncio import gather, run
 from bs4 import BeautifulSoup, NavigableString, PageElement, Tag
 from bs4.element import PreformattedString
+from copy import copy
 from glob import iglob
 from jaraco.clipboard import paste_html  # type: ignore
 from json import load
@@ -12,7 +13,7 @@ from pyarchivist.Wikimedia_Commons.main import (
     Args as pyarchivist_Wikimedia_Commons_Args,
     main as pyarchivist_Wikimedia_Commons_main,
 )
-from pyperclip import copy  # type: ignore
+from pyperclip import copy as clip_copy  # type: ignore
 from re import DOTALL, Pattern, compile
 from sys import argv, version
 from typing import Callable, Mapping, MutableSet
@@ -32,6 +33,7 @@ USER_AGENT = f"{NAME}/{VERSION} ({AUTHORS[0]['email']}) Python/{version}"
 _WIKI_HOST_URL = URL.build(scheme="https", host="en.wikipedia.org")
 _LIST_INDENT = "    "
 _MAX_CONCURRENT_REQUESTS_PER_HOST = 2
+_MARKDOWN_SEPARATOR = "<!-- markdown separator -->"
 _IGNORED_NAME_PREFIXES = frozenset({"Help:"})
 _PRESERVED_PAGE_PREFIXES = {
     "Special:": f"{_WIKI_HOST_URL}/wiki/{{}}",
@@ -47,7 +49,7 @@ _PRESERVED_PAGE_PREFIXES = {
     "wikt:": "https://en.wiktionary.org/wiki/{}",
     "wiktionary:": "https://en.wiktionary.org/wiki/{}",
 }
-ARCHIVE_REGEXES = {
+_ARCHIVE_REGEXES = {
     compile(
         r"^https://upload.wikimedia.org/wikipedia/[^/]*/thumb/[0-9a-f]/[0-9a-f]{2}/([^/]*)/.*$"
     ): ("File:{}", "../archives/Wikimedia Commons/{}"),
@@ -132,6 +134,7 @@ async def wiki_html_to_plaintext(
         return ""
 
     process_strings: Callable[[str], str] = lambda strings: strings
+    joiner = ""
     prefix, suffix = "", ""
     match ele.name:
         # headers, should come before bold
@@ -143,6 +146,18 @@ async def wiki_html_to_plaintext(
             ele.name == "b" or __BOLD_FONT_STYLE_REGEX.search(str(ele.get("style", "")))
         ) and "mw-heading" not in ele.get_attribute_list("class"):
             prefix, suffix = "__", "__"
+            if (
+                ele.previous_sibling
+                and isinstance(ele.previous_sibling, NavigableString)
+                and ele.previous_sibling.rstrip() == ele.previous_sibling
+            ):
+                prefix = f"{_MARKDOWN_SEPARATOR}{prefix}"
+            if (
+                ele.next_sibling
+                and isinstance(ele.next_sibling, NavigableString)
+                and ele.next_sibling.lstrip() == ele.next_sibling
+            ):
+                suffix += _MARKDOWN_SEPARATOR
 
             def process_strings_b(strings: str):
                 nonlocal prefix, suffix
@@ -158,6 +173,18 @@ async def wiki_html_to_plaintext(
             str(ele.get("style", ""))
         ):
             prefix, suffix = "_", "_"
+            if (
+                ele.previous_sibling
+                and isinstance(ele.previous_sibling, NavigableString)
+                and ele.previous_sibling.rstrip() == ele.previous_sibling
+            ):
+                prefix = f"{_MARKDOWN_SEPARATOR}{prefix}"
+            if (
+                ele.next_sibling
+                and isinstance(ele.next_sibling, NavigableString)
+                and ele.next_sibling.lstrip() == ele.next_sibling
+            ):
+                suffix += _MARKDOWN_SEPARATOR
 
             def process_strings_i(strings: str):
                 nonlocal prefix, suffix
@@ -172,7 +199,7 @@ async def wiki_html_to_plaintext(
         case "s" | "sub" | "sup" | "u":
             prefix, suffix = _tag_affixes(ele.name)
         # newlines
-        case "dd" | "p":  # <dl>
+        case "dd" | "dt" | "p":  # <dl>
             suffix = "\n\n"
         # code
         case "code":
@@ -245,6 +272,59 @@ async def wiki_html_to_plaintext(
                     suffix = f' <a id="^ref-{item}"></a>^ref-{item}{suffix}'
             else:
                 prefix, suffix = f"{_LIST_INDENT * (len(list_stack) - 1)}- ", "\n"
+        # tables
+        case "tbody" | "thead":
+            suffix = "\n\n"
+
+            # normalize cells
+            for tdh in tuple(ele.find_all(("td", "th"))):
+                assert isinstance(tdh, Tag)
+                col_span = str(tdh.get("colspan", "1"))
+                try:
+                    col_span = int(col_span)
+                except ValueError:
+                    pass
+                else:
+                    tdh["colspan"] = "1"
+                    for _ in range(1, col_span):
+                        new_tdh = copy(tdh)
+                        new_tdh.clear()
+                        tdh.insert_after(new_tdh)
+            for tdh in tuple(ele.find_all(("th", "td"))):
+                assert isinstance(tdh, Tag)
+                row_span = str(tdh.get("rowspan", "1"))
+                try:
+                    row_span = int(row_span)
+                except ValueError:
+                    pass
+                else:
+                    if (current_row := tdh.parent) is not None:
+                        col_idx = current_row.index(tdh)
+                        tdh["rowspan"] = "1"
+                        for _ in range(1, row_span):
+                            if (current_row := current_row.next_sibling) is None:
+                                break
+                            new_tdh = copy(tdh)
+                            new_tdh.clear()
+                            current_row.insert(col_idx, new_tdh)
+        case "tr":
+            joiner = " | "
+            prefix, suffix = "| ", " |\n"
+            if ele.contents and all(
+                isinstance(child, Tag) and child.name == "th" for child in ele.contents
+            ):
+                suffix += f"|{' - |' * len(ele.contents)}\n"
+        case "td" | "th":
+
+            def process_strings_tdh(strings: str):
+                return (
+                    strings.strip()
+                    .replace("\n\n", " <p> ")
+                    .replace("\n", " <br/> ")
+                    .strip()
+                )
+
+            process_strings = process_strings_tdh
         # images
         case (
             _
@@ -257,7 +337,7 @@ async def wiki_html_to_plaintext(
                     src_url = _WIKI_HOST_URL.join(URL(str(src)))
                     src_url_str = str(src_url)
 
-                    for regex, formats in ARCHIVE_REGEXES.items():
+                    for regex, formats in _ARCHIVE_REGEXES.items():
                         if not (match := regex.search(src_url.human_repr())):
                             continue
                         to_archive = match[1]
@@ -365,7 +445,7 @@ async def wiki_html_to_plaintext(
                 session=session,
             )
 
-    strings = "".join(await gather(*process_children()))
+    strings = joiner.join(await gather(*process_children()))
     strings = process_strings(strings)
 
     return strings and f"{prefix}{strings}{suffix}"
@@ -409,7 +489,7 @@ async def main() -> None:
             raise
 
     print(output)
-    copy(output)
+    clip_copy(output)
     print(":)")
 
 
