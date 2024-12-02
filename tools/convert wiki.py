@@ -1,16 +1,22 @@
-from glob import iglob
-from pathlib import PurePath
-from re import DOTALL, Pattern, compile
-from urllib.parse import quote
 from aiohttp import ClientSession, TCPConnector
+from anyio import Path
 from asyncio import gather, run
-from typing import Callable, Mapping
 from bs4 import BeautifulSoup, NavigableString, PageElement, Tag
 from bs4.element import PreformattedString
+from glob import iglob
 from jaraco.clipboard import paste_html  # type: ignore
 from json import load
+from logging import INFO, basicConfig
+from pathlib import PurePath
+from pyarchivist.Wikimedia_Commons.main import (
+    Args as pyarchivist_Wikimedia_Commons_Args,
+    main as pyarchivist_Wikimedia_Commons_main,
+)
 from pyperclip import copy  # type: ignore
+from re import DOTALL, Pattern, compile
 from sys import argv, version
+from typing import Callable, Mapping, MutableSet
+from urllib.parse import quote
 from yarl import URL
 
 NAME = PurePath(__file__).name
@@ -40,6 +46,11 @@ _PRESERVED_PAGE_PREFIXES = {
     "wikiversity:": "https://en.wikiversity.org/wiki/{}",
     "wikt:": "https://en.wiktionary.org/wiki/{}",
     "wiktionary:": "https://en.wiktionary.org/wiki/{}",
+}
+ARCHIVE_REGEXES = {
+    compile(
+        r"^https://upload.wikimedia.org/wikipedia/[^/]*/thumb/[0-9a-f]/[0-9a-f]{2}/([^/]*)/.*$"
+    ): ("File:{}", "../archives/Wikimedia Commons/{}"),
 }
 
 with open(f"{NAME}.names map.json", "rt") as names_map_file:
@@ -85,6 +96,7 @@ def _tag_affixes(name: str) -> tuple[str, str]:
 async def wiki_html_to_plaintext(
     ele: PageElement,
     *,
+    out_to_archive: MutableSet[str],
     list_stack: tuple[int, ...] = (),
     math: bool = False,
     refs: bool,
@@ -242,7 +254,17 @@ async def wiki_html_to_plaintext(
 
             def process_strings_img(strings: str, ele: Tag = ele):
                 if src := ele.get("src"):
-                    return f"{strings}![]({_WIKI_HOST_URL.join(URL(str(src)))})"
+                    src_url = _WIKI_HOST_URL.join(URL(str(src)))
+                    src_url_str = str(src_url)
+
+                    for regex, formats in ARCHIVE_REGEXES.items():
+                        if not (match := regex.search(src_url.human_repr())):
+                            continue
+                        to_archive = match[1]
+                        out_to_archive.add(formats[0].format(to_archive))
+                        src_url_str = quote(formats[1].format(to_archive))
+
+                    return f"{strings}![]({src_url_str})"
                 return strings
 
             suffix = "\n\n"
@@ -336,6 +358,7 @@ async def wiki_html_to_plaintext(
                 list_stack = (*list_stack[:-1], list_stack[-1] + 1)
             yield wiki_html_to_plaintext(
                 child,
+                out_to_archive=out_to_archive,
                 list_stack=list_stack,
                 math=ele.name == "math",
                 refs=refs,
@@ -357,6 +380,7 @@ async def main() -> None:
 
     html = BeautifulSoup(html_text, "html.parser")
 
+    out_to_archive = set[str]()
     async with ClientSession(
         connector=TCPConnector(limit_per_host=_MAX_CONCURRENT_REQUESTS_PER_HOST),
         headers={
@@ -364,10 +388,25 @@ async def main() -> None:
             "User-Agent": USER_AGENT,
         },
     ) as session:
-        output = await wiki_html_to_plaintext(html, session=session, refs=refs)
+        output = await wiki_html_to_plaintext(
+            html, out_to_archive=out_to_archive, session=session, refs=refs
+        )
     output = output.replace(
         "\xa0", " "  # replace non-breaking spaces with spaces
     ).strip()
+
+    try:
+        basicConfig(level=INFO)
+        await pyarchivist_Wikimedia_Commons_main(
+            pyarchivist_Wikimedia_Commons_Args(
+                inputs=tuple(out_to_archive),
+                dest=Path("../archives/Wikimedia Commons/"),
+                index=Path("../archives/Wikimedia Commons/index.md"),
+            )
+        )
+    except SystemExit as exc:
+        if exc.code:
+            raise
 
     print(output)
     copy(output)
