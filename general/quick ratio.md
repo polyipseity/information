@@ -21,7 +21,7 @@ The quick ratio is {@{similar to the [current ratio](current%20ratio.md)}@}, but
 
 ## formula
 
-- quick ratio formula ::@:: $${\text{Quick Ratio} }={\frac {\text{Quick Assets} }{\text{Current Liabilities} }@}$$
+- quick ratio formula ::@:: $${\text{Quick Ratio} }={\frac {\text{Quick Assets} }{\text{Current Liabilities} } }$$
 
 Where quick assets can be defined as follows ::@:: $${\text{Quick Assets} }={\text{Cash and Cash Equivalents} }+{\text{Marketable Securities} }+{\text{Accounts Receivable} }={\text{Current Assets} }-{\text{Inventory} }-{\text{Prepaid Expenses} }$$
 

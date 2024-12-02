@@ -126,7 +126,7 @@ Now $f$ is one-to-one according to (a), so we let $g$ be the __inverse__ of $f$,
 
 #### 7.b.i
 
-Write down the domain of $g$. Show that $$g'(x) = \frac 1 {x + e^{g(x)}@}$$ for every $x$ in the interior of the domain of $g$.
+Write down the domain of $g$. Show that $$g'(x) = \frac 1 {x + e^{g(x)} }$$ for every $x$ in the interior of the domain of $g$.
 
 > $$\begin{aligned}
 > & \text{The domain of }g\text{ is }[0, +\infty)\text{.} \\
