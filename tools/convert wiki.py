@@ -15,6 +15,7 @@ from pyarchivist.Wikimedia_Commons.main import (
 )
 from pyperclip import copy as clip_copy  # type: ignore
 from re import DOTALL, Pattern, compile
+from string import punctuation, whitespace
 from sys import argv, version
 from typing import Callable, Mapping, MutableSet
 from urllib.parse import quote
@@ -34,8 +35,13 @@ _WIKI_HOST_URL = URL.build(scheme="https", host="en.wikipedia.org")
 _LIST_INDENT = "    "
 _MAX_CONCURRENT_REQUESTS_PER_HOST = 2
 _MARKDOWN_SEPARATOR = "<!-- markdown separator -->"
-_IGNORED_NAME_PREFIXES = frozenset({"Help:"})
+_MARKDOWN_SEPARATOR_CHARACTERS = f"{punctuation}{whitespace}"
+_BAD_TITLES = frozenset({"Edit this at Wikidata"})
+_IGNORED_NAME_PREFIXES = frozenset[str]()
 _PRESERVED_PAGE_PREFIXES = {
+    "Category:": f"{_WIKI_HOST_URL}/wiki/{{}}",
+    "Help:": f"{_WIKI_HOST_URL}/wiki/{{}}",
+    "Portal:": f"{_WIKI_HOST_URL}/wiki/{{}}",
     "Special:": f"{_WIKI_HOST_URL}/wiki/{{}}",
     "Talk:": f"{_WIKI_HOST_URL}/wiki/{{}}",
     "Template:": f"{_WIKI_HOST_URL}/wiki/{{}}",
@@ -108,7 +114,7 @@ async def wiki_html_to_plaintext(
     __ITALIC_FONT_STYLE_REGEX: Pattern[str] = compile(r"font-style: *italic"),
     __MARKDOWN_ESCAPE_REGEX: Pattern[str] = compile(r"[#$()*<>\\[\\\]_`|]"),
     __PROCESS_STRINGS_BI_REGEX: Pattern[str] = compile(r"^( *)(.*?)( *)$", DOTALL),
-    __REF_NUMBER_REGEX: Pattern[str] = compile(r"\d+"),
+    __REF_CONTENT_REGEX: Pattern[str] = compile(r"\[([^]]*)\]"),
 ) -> str:
     def escape_markdown(text: str):
         return __MARKDOWN_ESCAPE_REGEX.sub(lambda match: Rf"\{match[0]}", text)
@@ -128,9 +134,9 @@ async def wiki_html_to_plaintext(
 
     if "reference" in classes:
         if refs:
-            ref_idx = __REF_NUMBER_REGEX.search("".join(ele.stripped_strings))
-            ref_idx = int(ref_idx[0]) if ref_idx else 0
-            return f"<sup>[{escape_markdown(f'[{ref_idx}]')}]({_markdown_fragment(f'^ref-{ref_idx}')})</sup>"
+            ref_content = __REF_CONTENT_REGEX.search("".join(ele.stripped_strings))
+            ref_content = ref_content[1] if ref_content else 0
+            return f"<sup>[{escape_markdown(f'[{ref_content}]')}]({_markdown_fragment(f'^ref-{ref_content}')})</sup>"
         return ""
 
     process_strings: Callable[[str], str] = lambda strings: strings
@@ -149,13 +155,15 @@ async def wiki_html_to_plaintext(
             if (
                 ele.previous_sibling
                 and isinstance(ele.previous_sibling, NavigableString)
-                and ele.previous_sibling.rstrip() == ele.previous_sibling
+                and ele.previous_sibling.rstrip(_MARKDOWN_SEPARATOR_CHARACTERS)
+                == ele.previous_sibling
             ):
                 prefix = f"{_MARKDOWN_SEPARATOR}{prefix}"
             if (
                 ele.next_sibling
                 and isinstance(ele.next_sibling, NavigableString)
-                and ele.next_sibling.lstrip() == ele.next_sibling
+                and ele.next_sibling.lstrip(_MARKDOWN_SEPARATOR_CHARACTERS)
+                == ele.next_sibling
             ):
                 suffix += _MARKDOWN_SEPARATOR
 
@@ -176,13 +184,15 @@ async def wiki_html_to_plaintext(
             if (
                 ele.previous_sibling
                 and isinstance(ele.previous_sibling, NavigableString)
-                and ele.previous_sibling.rstrip() == ele.previous_sibling
+                and ele.previous_sibling.rstrip(_MARKDOWN_SEPARATOR_CHARACTERS)
+                == ele.previous_sibling
             ):
                 prefix = f"{_MARKDOWN_SEPARATOR}{prefix}"
             if (
                 ele.next_sibling
                 and isinstance(ele.next_sibling, NavigableString)
-                and ele.next_sibling.lstrip() == ele.next_sibling
+                and ele.next_sibling.lstrip(_MARKDOWN_SEPARATOR_CHARACTERS)
+                == ele.next_sibling
             ):
                 suffix += _MARKDOWN_SEPARATOR
 
@@ -342,7 +352,9 @@ async def wiki_html_to_plaintext(
                             continue
                         to_archive = match[1]
                         out_to_archive.add(formats[0].format(to_archive))
-                        src_url_str = quote(formats[1].format(to_archive))
+                        src_url_str = quote(
+                            formats[1].format(to_archive.replace("_", " "))
+                        )
 
                     return f"{strings}![]({src_url_str})"
                 return strings
@@ -366,7 +378,7 @@ async def wiki_html_to_plaintext(
         ) if ele.name == "a" and "mw-file-description" not in ele.get_attribute_list(
             "class"
         ):
-            if title := ele.get("title"):
+            if (title := ele.get("title")) and title not in _BAD_TITLES:
                 title = str(title)
                 href = str(ele.get("href", ""))
                 to_fragment = (
@@ -475,18 +487,19 @@ async def main() -> None:
         "\xa0", " "  # replace non-breaking spaces with spaces
     ).strip()
 
-    try:
-        basicConfig(level=INFO)
-        await pyarchivist_Wikimedia_Commons_main(
-            pyarchivist_Wikimedia_Commons_Args(
-                inputs=tuple(out_to_archive),
-                dest=Path("../archives/Wikimedia Commons/"),
-                index=Path("../archives/Wikimedia Commons/index.md"),
+    if out_to_archive:
+        try:
+            basicConfig(level=INFO)
+            await pyarchivist_Wikimedia_Commons_main(
+                pyarchivist_Wikimedia_Commons_Args(
+                    inputs=tuple(out_to_archive),
+                    dest=Path("../archives/Wikimedia Commons/"),
+                    index=Path("../archives/Wikimedia Commons/index.md"),
+                )
             )
-        )
-    except SystemExit as exc:
-        if exc.code:
-            raise
+        except SystemExit as exc:
+            if exc.code:
+                raise
 
     print(output)
     clip_copy(output)
