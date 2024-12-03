@@ -103,4 +103,4 @@ The semantics of `For...To...Step...Next` is a bit complicated. First, {@{the lo
 
 ### ending iteration early
 
-One can end a loop prematurely. This is done by {@{`Exit Do` for `Do`-loops and `Exit For` for `For`-loops}@}. As mentioned before, {@{`While`-loops cannot be ended prematurely}@}. <!--SR:!2025-02-02,98,290!2024-12-03,229,321-->
+One can end a loop prematurely. This is done by {@{`Exit Do` for `Do`-loops and `Exit For` for `For`-loops}@}. As mentioned before, {@{`While`-loops cannot be ended prematurely}@}. <!--SR:!2025-02-02,98,290!2027-09-07,1008,341-->

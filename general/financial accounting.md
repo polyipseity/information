@@ -15,7 +15,7 @@ __Financial accounting__ is {@{a branch of [accounting](accounting.md) concerned
 
 Financial accountancy is governed by {@{both local and international accounting standards}@}. {@{[Generally Accepted Accounting Principles](accounting%20standard.md) (GAAP)}@} is {@{the standard framework of guidelines for financial accounting used in any given jurisdiction}@}. It includes {@{the standards, conventions and rules that accountants follow in recording and summarizing and in the preparation of financial statements}@}. <!--SR:!2025-08-06,254,330!2025-05-01,175,310!2025-05-13,184,310!2025-04-05,142,290-->
 
-On the other hand, {@{[International Financial Reporting Standards](International%20Financial%20Reporting%20Standards.md) (IFRS)}@} is {@{a set of accounting standards stating how particular types of transactions and other events should be reported in financial statements}@}. IFRS are issued by {@{the [International Accounting Standards Board](International%20Accounting%20Standards%20Board.md) (IASB)}@}.<sup>[\[2\]](#^ref-2)</sup> With {@{IFRS becoming more widespread on the international scene}@}, {@{_consistency_ in financial reporting has become more prevalent between global organizations}@}. <!--SR:!2025-06-18,212,310!2024-12-03,64,310!2025-07-07,229,330!2024-12-10,70,310!2025-07-25,244,330-->
+On the other hand, {@{[International Financial Reporting Standards](International%20Financial%20Reporting%20Standards.md) (IFRS)}@} is {@{a set of accounting standards stating how particular types of transactions and other events should be reported in financial statements}@}. IFRS are issued by {@{the [International Accounting Standards Board](International%20Accounting%20Standards%20Board.md) (IASB)}@}.<sup>[\[2\]](#^ref-2)</sup> With {@{IFRS becoming more widespread on the international scene}@}, {@{_consistency_ in financial reporting has become more prevalent between global organizations}@}. <!--SR:!2025-06-18,212,310!2025-09-05,276,330!2025-07-07,229,330!2024-12-10,70,310!2025-07-25,244,330-->
 
 While financial accounting is {@{used to prepare accounting information for people outside the organization or not involved in the day-to-day running of the company}@}, [managerial accounting](management%20accounting.md) {@{provides accounting information to help managers make decisions to manage the business}@}. <!--SR:!2025-03-11,133,290!2025-07-11,232,330-->
 
@@ -59,7 +59,7 @@ The statement of cash flows {@{considers the inputs and outputs in concrete cash
 > - {@{cash inflow}@}: {@{$20}@}
 > - {@{cash outflow}@}: {@{$7}@}
 > - {@{opening balance}@}: {@{$5}@}
-> - {@{__closing balance__}@}: {@{__$20 – $7 + $5 = $18__}@} <!--SR:!2025-06-28,221,330!2024-12-09,69,310!2024-12-04,65,310!2025-03-24,147,310!2025-03-19,143,310!2025-05-02,176,310!2024-12-03,64,310!2025-07-24,241,330-->
+> - {@{__closing balance__}@}: {@{__$20 – $7 + $5 = $18__}@} <!--SR:!2025-06-28,221,330!2024-12-09,69,310!2024-12-04,65,310!2025-03-24,147,310!2025-03-19,143,310!2025-05-02,176,310!2025-09-07,278,330!2025-07-24,241,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -142,7 +142,7 @@ Financial accountants serves the following purposes: {@{producing general purpos
 
 Objectives include:
 
-- __systematic recording of transactions__ ::@:: Basic objective of accounting is to systematically record the financial aspects of business transactions (i.e. book-keeping). These recorded transactions are later on classified and summarized logically for the preparation of financial statements and for their analysis and interpretation. <!--SR:!2024-12-02,55,270!2025-01-17,92,290-->
+- __systematic recording of transactions__ ::@:: Basic objective of accounting is to systematically record the financial aspects of business transactions (i.e. book-keeping). These recorded transactions are later on classified and summarized logically for the preparation of financial statements and for their analysis and interpretation. <!--SR:!2025-06-26,205,290!2025-01-17,92,290-->
 - __ascertainment of result of above recorded transactions__ ::@:: Accountant prepares profit and loss account to know the result of business operations for a particular period of time. If expenses exceed revenue then it is said that the business is running under loss. The profit and loss account helps the management and different stakeholders in taking rational decisions. For example, if business is not proved to be remunerative or profitable, the cause of such a state of affairs can be investigated by the management for taking remedial steps. <!--SR:!2025-05-01,158,270!2024-12-16,60,270-->
 - __ascertainment of the financial position of business__ ::@:: Businessman is not only interested in knowing the result of the business in terms of profits or loss for a particular period but is also anxious to know that what he owes (liability) to the outsiders and what he owns (assets) on a certain date. To know this, accountant prepares a financial position statement of assets and liabilities of the business at a particular point of time and helps in ascertaining the financial health of the business. <!--SR:!2025-03-05,106,250!2025-02-16,113,290-->
 - __providing information to the users for rational decision-making__ ::@:: Accounting as a 'language of business' communicates the financial result of an enterprise to various stakeholders by means of financial statements. Accounting aims to meet the financial information needs of the decision-makers and helps them in rational decision-making. <!--SR:!2025-03-07,133,310!2025-01-12,79,270-->
@@ -150,7 +150,7 @@ Objectives include:
 
 ## graphic definition
 
-The {@{[accounting equation](accounting%20equation.md) ([Assets](asset.md) = [Liabilities](liability%20(financial%20accounting).md) + [Owners' Equity](equity%20(finance).md)) and financial statements}@} are the main topics of financial accounting. <!--SR:!2024-12-03,64,310-->
+The {@{[accounting equation](accounting%20equation.md) ([Assets](asset.md) = [Liabilities](liability%20(financial%20accounting).md) + [Owners' Equity](equity%20(finance).md)) and financial statements}@} are the main topics of financial accounting. <!--SR:!2025-09-06,277,330-->
 
 {@{The [trial balance](trial%20balance.md) (i.e. finding the current balances of all accounts), which is usually prepared using the [double-entry accounting system](double-entry%20bookkeeping.md)}@}, forms {@{the basis for preparing the financial statements}@}. All the figures in the trial balance are {@{rearranged to prepare a [profit & loss statement](income%20statement.md) and [balance sheet](balance%20sheet.md)}@}. Accounting standards {@{determine the format for these accounts ([SSAP](Generally%20Accepted%20Accounting%20Practice%20(UK).md), FRS, [IFRS](International%20Financial%20Reporting%20Standards.md))}@}. Financial statements {@{display the income and expenditure for the company and a summary of the assets, liabilities, and shareholders' or owners' equity of the company on the date to which the accounts were prepared}@}. <!--SR:!2025-04-22,165,310!2025-02-12,114,290!2025-04-08,157,310!2025-03-18,141,310!2025-03-09,108,250-->
 

@@ -299,7 +299,7 @@ Noise Levels and Causes
   - concert ::@:: 100 dB(A) <!--SR:!2025-03-18,214,310!2025-03-22,218,310-->
   - drilling ::@:: 90 dB(A) <!--SR:!2025-01-31,187,310!2025-04-23,237,290-->
   - train passing ::@:: 80 dB(A) <!--SR:!2025-02-28,200,310!2025-02-05,184,310-->
-  - highway (harm threshold) ::@:: 70 dB(A) <!--SR:!2025-02-16,192,310!2024-12-02,132,290-->
+  - highway (harm threshold) ::@:: 70 dB(A) <!--SR:!2025-02-16,192,310!2025-12-20,382,290-->
   - home with TV on ::@:: 60 dB(A) <!--SR:!2025-01-21,184,310!2025-01-05,168,310-->
   - library ::@:: 40 dB(A) <!--SR:!2025-02-26,198,310!2024-12-23,148,310-->
   - park ::@:: 30 dB(A) <!--SR:!2025-04-23,258,330!2025-02-25,212,330-->
@@ -411,7 +411,7 @@ Observed climate change in Hong Kong
 - climate change consequences in Hong Kong ::@:: rainfall become more variable, sea level rises, temperature increases <!--SR:!2026-05-07,523,310!2025-05-07,268,330-->
   - temperature increase consequences ::@:: less cold days, more very hot days and hot nights <!--SR:!2025-04-14,252,330!2025-03-16,212,310-->
   - rainfall become more variable consequences ::@:: probability of rainfall extremes increases <!--SR:!2025-03-23,234,330!2025-01-12,175,310-->
-  - climate change example in Hong Kong ::@:: On 2017-08-22, max temperature reaches 36.6 °C in the Hong Kong Observatory headquarters, coinciding with the super typhoon Hato. <!--SR:!2024-12-03,122,250!2025-03-05,205,310-->
+  - climate change example in Hong Kong ::@:: On 2017-08-22, max temperature reaches 36.6 °C in the Hong Kong Observatory headquarters, coinciding with the super typhoon Hato. <!--SR:!2025-10-09,310,250!2025-03-05,205,310-->
 
 ## page 33
 

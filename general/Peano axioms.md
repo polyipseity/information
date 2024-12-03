@@ -43,12 +43,12 @@ The remaining axioms {@{define the arithmetical properties of the natural number
 
 <!-- markdownlint-capture -->
 <!-- markdownlint-disable MD029 -->
-6. 6th axiom ::@:: For every natural number _n_, _S_(_n_) is a natural number. That is, the natural numbers are [closed](closure%20(mathematics).md) under _S_. <!--SR:!2025-06-16,212,322!2024-12-02,63,310-->
+6. 6th axiom ::@:: For every natural number _n_, _S_(_n_) is a natural number. That is, the natural numbers are [closed](closure%20(mathematics).md) under _S_. <!--SR:!2025-06-16,212,322!2025-06-16,195,310-->
 7. 7th axiom ::@:: For all natural numbers _m_ and _n_, if _S_(_m_) = _S_(_n_), then _m_ = _n_. That is, _S_ is an [injection](injective%20function.md). <!--SR:!2024-12-17,76,325!2025-02-26,126,305-->
 8. 8th axiom ::@:: For every natural number _n_, _S_(_n_) = 0 is false. That is, there is no natural number whose successor is 0. <!--SR:!2025-05-23,194,325!2024-12-05,67,325-->
 <!-- markdownlint-restore -->
 
-The chain of light dominoes on the right, starting with the nearest, can {@{represent the set __N__ of natural numbers}@}. However, axioms 1–8 are {@{_also_ satisfied by the set of all dominoes — whether light (am infinite chain of dominoes) or dark (a finite circular chain of dominoes) — taken together}@}. The 9th axiom {@{([induction](mathematical%20induction.md)) limits __N__ to the chain of light pieces ("no junk") as only light dominoes will fall when the nearest is toppled}@}. {@{Axioms 1, 6, 7, 8}@} define {@{a [unary representation](unary%20numeral%20system.md) of the intuitive notion of natural numbers: the number 1 can be defined as _S_(0), 2 as _S_(_S_(0)), etc.}@} However, considering {@{the notion of natural numbers as being defined by these axioms}@}, axioms 1, 6, 7, 8 {@{do not imply that the successor function generates all the natural numbers different from 0}@}. <!--SR:!2025-08-12,258,330!2025-06-28,223,325!2025-03-08,132,305!2025-05-17,174,285!2025-01-20,95,305!2025-04-15,160,310!2024-12-03,65,325-->
+The chain of light dominoes on the right, starting with the nearest, can {@{represent the set __N__ of natural numbers}@}. However, axioms 1–8 are {@{_also_ satisfied by the set of all dominoes — whether light (am infinite chain of dominoes) or dark (a finite circular chain of dominoes) — taken together}@}. The 9th axiom {@{([induction](mathematical%20induction.md)) limits __N__ to the chain of light pieces ("no junk") as only light dominoes will fall when the nearest is toppled}@}. {@{Axioms 1, 6, 7, 8}@} define {@{a [unary representation](unary%20numeral%20system.md) of the intuitive notion of natural numbers: the number 1 can be defined as _S_(0), 2 as _S_(_S_(0)), etc.}@} However, considering {@{the notion of natural numbers as being defined by these axioms}@}, axioms 1, 6, 7, 8 {@{do not imply that the successor function generates all the natural numbers different from 0}@}. <!--SR:!2025-08-12,258,330!2025-06-28,223,325!2025-03-08,132,305!2025-05-17,174,285!2025-01-20,95,305!2025-04-15,160,310!2025-09-25,296,345-->
 
 The intuitive notion that {@{each natural number can be obtained by applying _successor_ sufficiently many times to zero}@} requires {@{an additional axiom, which is sometimes called the _[axiom of induction](mathematical%20induction.md#axiom%20of%20induction)_}@}. <!--SR:!2024-12-05,67,325!2025-02-23,115,305-->
 
@@ -86,7 +86,7 @@ To {@{prove commutativity of addition}@}, first {@{prove $0+b=b$ and $S(a)+b=S(a
 
 #### multiplication
 
-Similarly, [multiplication](multiplication.md) is {@{a function mapping two natural numbers to another one}@}. Given {@{addition}@}, it is defined recursively as: {@{$${\begin{aligned}a\cdot 0&=0,\\a\cdot S(b)&=a+(a\cdot b).\end{aligned} }$$}@}. <!--SR:!2024-12-17,76,325!2024-12-03,65,325!2025-04-04,156,325-->
+Similarly, [multiplication](multiplication.md) is {@{a function mapping two natural numbers to another one}@}. Given {@{addition}@}, it is defined recursively as: {@{$${\begin{aligned}a\cdot 0&=0,\\a\cdot S(b)&=a+(a\cdot b).\end{aligned} }$$}@}. <!--SR:!2024-12-17,76,325!2025-09-28,299,345!2025-04-04,156,325-->
 
 It is easy to see that $S(0)$ is {@{the multiplicative [right identity](identity%20element.md): $$a\cdot S(0)=a+(a\cdot 0)=a+0=a$$}@}. <!--SR:!2024-12-14,74,325-->
 

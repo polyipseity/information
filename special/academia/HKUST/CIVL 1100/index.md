@@ -50,8 +50,8 @@ The content is in teaching order.
 - [tension § effects](../../../../general/tension%20(physics).md#effects)
   - tension types ::@:: We are concerned with uniaxial tension only. <!--SR:!2025-07-16,330,350!2025-05-17,278,341-->
   - tension examples in structures ::@:: cable, hanging column, rope, swing, tie <!--SR:!2025-01-18,154,270!2024-12-29,171,330-->
-  - tension conventions ::@:: __positive__; arrows pointing outwards for forces applied on the object in tension <!--SR:!2025-04-20,216,310!2024-12-02,134,310-->
-- [reaction](../../../../general/reaction%20(physics).md) of compression and tension ::@:: Note that when another object exerts compression/tension on an object, the object applies an opposing pushing/pulling (reaction) force on the other object. <!--SR:!2025-04-10,245,330!2024-12-03,149,321-->
+  - tension conventions ::@:: __positive__; arrows pointing outwards for forces applied on the object in tension <!--SR:!2025-04-20,216,310!2026-07-03,577,330-->
+- [reaction](../../../../general/reaction%20(physics).md) of compression and tension ::@:: Note that when another object exerts compression/tension on an object, the object applies an opposing pushing/pulling (reaction) force on the other object. <!--SR:!2025-04-10,245,330!2026-03-27,479,321-->
 - [Hooke's law § linear springs](../../../../general/Hooke's%20law.md#linear%20springs)
 - stress and strain
   - strength of an object ::@:: Under compression or tension, objects deform. But it can differ in severity. "Strong", "hard", or "rigid" materials deform less while "weak", "soft", or "flexible" materials deform more. <!--SR:!2025-03-11,220,321!2025-06-22,308,341-->

@@ -17,7 +17,7 @@ To define a string in Python, {@{enclose the string in either double quotes `"ex
 
 ## list
 
-To define a list in Python, {@{enclose all items in square brackets `[]` and separate each item by a comma `,`, like `[1, 2, "item", 4.2, "ok", 'hey', False]`}@}. A trailing comma is {@{allowed and optional after the last item (but not if there are no items, i.e. `[,]` is invalid)}@}. Note that a list can {@{contain items of different types (including lists) like the example just now, though usually it is more useful for them to be of the same type}@}. <!--SR:!2024-12-02,231,330!2025-01-05,258,330!2025-01-02,91,366-->
+To define a list in Python, {@{enclose all items in square brackets `[]` and separate each item by a comma `,`, like `[1, 2, "item", 4.2, "ok", 'hey', False]`}@}. A trailing comma is {@{allowed and optional after the last item (but not if there are no items, i.e. `[,]` is invalid)}@}. Note that a list can {@{contain items of different types (including lists) like the example just now, though usually it is more useful for them to be of the same type}@}. <!--SR:!2027-10-22,1053,350!2025-01-05,258,330!2025-01-02,91,366-->
 
 ## length
 

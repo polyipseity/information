@@ -35,11 +35,11 @@ The content is in teaching order.
 - [financial accounting](../../../../general/financial%20accounting.md)
   - [financial accounting § objectives](../../../../general/financial%20accounting.md#objectives) ::@:: record transactions, basis for decision making, know how the business is doing financially, communicate financial information, legal compliance <!--SR:!2025-03-05,118,297!2025-01-05,71,257-->
   - [financial accounting](../../../../general/financial%20accounting.md) / record transactions ::@:: summarize, analyze, and report business transactions <!--SR:!2025-01-05,80,297!2025-03-19,135,317-->
-    - [financial transaction](../../../../general/financial%20transaction.md) ::@:: A transaction generally refers to an agreement between two or more parties that creates a binding relationship. A business/financial transaction is stricter than that as it also requires a change in the status of the finances of two or more businesses or individuals. <!--SR:!2024-12-03,54,277!2025-05-28,187,317-->
+    - [financial transaction](../../../../general/financial%20transaction.md) ::@:: A transaction generally refers to an agreement between two or more parties that creates a binding relationship. A business/financial transaction is stricter than that as it also requires a change in the status of the finances of two or more businesses or individuals. <!--SR:!2025-05-01,149,277!2025-05-28,187,317-->
       - [financial transaction](../../../../general/financial%20transaction.md) / examples ::@:: Confirming an employment contract is a transaction as the employer agrees to hire the employee and remunerate the employee for employment services rendered. But it is not a financial transaction because there are no changes in the finances for both the employer and employee. <!--SR:!2025-05-21,181,317!2025-02-20,105,297-->
-  - [financial accounting](../../../../general/financial%20accounting.md) / basis for decision making ::@:: decision made by parties _entities_ to the entity <!--SR:!2024-12-12,63,317!2024-12-03,56,317-->
-    - [financial accounting](../../../../general/financial%20accounting.md) / basis for decision making / entities ::@:: creditors, government agencies, investors, ... <!--SR:!2024-12-02,55,317!2024-12-08,59,317-->
-    - [financial accounting](../../../../general/financial%20accounting.md) / basis for decision making / indicators ::@:: operation/performance, financial position, cash flow <!--SR:!2024-12-02,46,297!2024-12-06,50,297-->
+  - [financial accounting](../../../../general/financial%20accounting.md) / basis for decision making ::@:: decision made by parties _entities_ to the entity <!--SR:!2024-12-12,63,317!2025-08-11,251,337-->
+    - [financial accounting](../../../../general/financial%20accounting.md) / basis for decision making / entities ::@:: creditors, government agencies, investors, ... <!--SR:!2025-08-07,247,337!2024-12-08,59,317-->
+    - [financial accounting](../../../../general/financial%20accounting.md) / basis for decision making / indicators ::@:: operation/performance, financial position, cash flow <!--SR:!2025-04-22,140,297!2024-12-06,50,297-->
   - [financial accounting](../../../../general/financial%20accounting.md) / know how the business is doing financially ::@:: How much money/assets are being generated, spent, saved, and how much are there now? <!--SR:!2024-12-30,74,317!2025-03-11,123,297-->
   - [financial accounting](../../../../general/financial%20accounting.md) / legal compliance ::@:: company laws, tax laws, rules and regulations for listed entities, ... <!--SR:!2024-12-08,59,317!2024-12-30,74,317-->
 
@@ -91,7 +91,7 @@ The content is in teaching order.
 - [revenue](../../../../general/revenue.md) ::@:: total amount of income by the sale of goods or services related to the company's operations; increase in assets or settlement of liabilities from ongoing operations <!--SR:!2024-12-30,74,317!2024-12-30,74,317-->
   - [§ revenue](../../../../general/revenue.md#revenue)
   - [revenue](../../../../general/revenue.md) / gain ::@:: increase in assets or settlement of liabilities from peripheral activities (side activities) <!--SR:!2024-12-08,59,317!2024-12-30,74,317-->
-- [expense](../../../../general/expense.md) ::@:: any specific outflow of cash or other valuable assets from a person or company to another person or company; decrease in assets or increase in liabilities from ongoing operations <!--SR:!2025-03-27,128,297!2024-12-03,56,317-->
+- [expense](../../../../general/expense.md) ::@:: any specific outflow of cash or other valuable assets from a person or company to another person or company; decrease in assets or increase in liabilities from ongoing operations <!--SR:!2025-03-27,128,297!2025-08-08,248,337-->
   - [§ expense](../../../../general/expense.md#expense)
   - [expense](../../../../general/expense.md) / loss ::@:: decrease in assets or increase in liabilities from peripheral activities (side activities) <!--SR:!2024-12-30,74,317!2024-12-30,74,317-->
 - [consolidated financial statement](../../../../general/consolidated%20financial%20statement.md) (CFS) ::@:: a financial statement in which the parent company and all its subsidiaries are presented as those of a single economic entity <!--SR:!2025-07-29,240,337!2024-12-04,57,317-->
@@ -173,10 +173,10 @@ The content is in teaching order.
     - upper quartile: 44
     - high: 58
 - report
-  - What should you do if you firmly believe that your marks should not be that low? ::@:: Check your paper! The TA forgot to add the 8 marks in the last page... This is why one should paper checking. <!--SR:!2025-02-23,84,369!2024-12-02,19,349-->
+  - What should you do if you firmly believe that your marks should not be that low? ::@:: Check your paper! The TA forgot to add the 8 marks in the last page... This is why one should paper checking. <!--SR:!2025-02-23,84,369!2025-03-06,93,369-->
   - word formulas ::@:: The original word formulas are required to be written as well before substituting numbers onto it. <!--SR:!2024-12-09,18,351!2024-12-09,18,351-->
   - Need to recheck the textbook when will a recording mistake of transaction be found...
-    - transaction analysis & mistake finding (-1, MCQ) ::@:: In non-electronic transaction analysis, errors are unlikely to be found during the recording of a transaction. The first likely opportunity is preparation of the trial balance. We only consider this case in this course. <p> In electronic transaction analysis, errors are much more likely to be found during recording of a transaction. <!--SR:!2025-01-17,53,349!2024-12-02,19,349-->
+    - transaction analysis & mistake finding (-1, MCQ) ::@:: In non-electronic transaction analysis, errors are unlikely to be found during the recording of a transaction. The first likely opportunity is preparation of the trial balance. We only consider this case in this course. <p> In electronic transaction analysis, errors are much more likely to be found during recording of a transaction. <!--SR:!2025-01-17,53,349!2025-02-10,69,349-->
   - Forgot, something related to accrued expense, insurance, insurance premium...
     - insurance premium (-1, MCQ) ::@:: Insurance premium is a cost that you pay for the insurance, not a benefit that the insurance gives you! <!--SR:!2025-02-27,88,369!2025-02-22,83,369-->
   - Need to remember 5 reasons why a financial analyst uses the quick ratio... (-2, LQ)

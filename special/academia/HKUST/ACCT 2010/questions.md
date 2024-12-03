@@ -37,7 +37,7 @@ tags:
 > 3. They have passed professional examinations.
 >
 > - solution: {@{3}@}
-> - explanation: {@{One essential property of professions is that there are barriers to entry. 3 is a barrier to entry, while 1 and 2 are consequences of 3.}@} <!--SR:!2024-12-13,64,310!2024-12-02,55,310-->
+> - explanation: {@{One essential property of professions is that there are barriers to entry. 3 is a barrier to entry, while 1 and 2 are consequences of 3.}@} <!--SR:!2024-12-13,64,310!2025-07-27,236,330-->
 
 <!-- markdownlint MD028 -->
 

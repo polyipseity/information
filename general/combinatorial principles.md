@@ -19,13 +19,13 @@ In {@{proving results in [combinatorics](combinatorics.md)}@} {@{several useful 
 
 - see: [rule of sum](addition%20principle.md)
 
-The rule of sum is {@{an intuitive principle}@} stating that if {@{there are _a_ possible outcomes for an event (or ways to do something) and _b_ possible outcomes for another event (or ways to do another thing), and the two events cannot both occur (or the two things can't both be done)}@}, then {@{there are _a + b_ total possible outcomes for the events (or total possible ways to do one of the things)}@}. More formally, {@{the sum of the sizes of two [disjoint sets](disjoint%20sets.md) is equal to the size of their union}@}. <!--SR:!2025-01-09,68,310!2025-01-09,68,310!2025-01-13,71,310!2024-12-02,36,290-->
+The rule of sum is {@{an intuitive principle}@} stating that if {@{there are _a_ possible outcomes for an event (or ways to do something) and _b_ possible outcomes for another event (or ways to do another thing), and the two events cannot both occur (or the two things can't both be done)}@}, then {@{there are _a + b_ total possible outcomes for the events (or total possible ways to do one of the things)}@}. More formally, {@{the sum of the sizes of two [disjoint sets](disjoint%20sets.md) is equal to the size of their union}@}. <!--SR:!2025-01-09,68,310!2025-01-09,68,310!2025-01-13,71,310!2025-03-16,103,290-->
 
 ## rule of product
 
 - see: [rule of product](rule%20of%20product.md)
 
-The rule of product is {@{another intuitive principle}@} stating that if {@{there are _a_ ways to do something and _b_ ways to do another thing}@}, then {@{there are _a_ · _b_ ways to do both things}@}. <!--SR:!2024-12-02,36,290!2025-01-09,68,310!2025-01-13,71,310-->
+The rule of product is {@{another intuitive principle}@} stating that if {@{there are _a_ ways to do something and _b_ ways to do another thing}@}, then {@{there are _a_ · _b_ ways to do both things}@}. <!--SR:!2025-04-24,143,310!2025-01-09,68,310!2025-01-13,71,310-->
 
 ## inclusion–exclusion principle
 
@@ -57,7 +57,7 @@ Double counting is {@{a technique that equates two expressions that count the si
 
 - see: [pigeonhole principle](pigeonhole%20principle.md)
 
-The pigeonhole principle states that if {@{_a_ items are each put into one of _b_ boxes, where _a_ > _b_}@}, then {@{one of the boxes contains more than one item}@}. Using this one can, for example, {@{demonstrate the existence of some element in a set with some specific properties}@}. <!--SR:!2025-01-09,68,310!2024-12-02,36,290!2025-01-13,71,310-->
+The pigeonhole principle states that if {@{_a_ items are each put into one of _b_ boxes, where _a_ > _b_}@}, then {@{one of the boxes contains more than one item}@}. Using this one can, for example, {@{demonstrate the existence of some element in a set with some specific properties}@}. <!--SR:!2025-01-09,68,310!2025-04-27,145,310!2025-01-13,71,310-->
 
 ## method of distinguished element
 
@@ -69,7 +69,7 @@ The method of distinguished element {@{singles out a "distinguished element" of 
 
 - see: [generating function](generating%20function.md)
 
-Generating functions can be thought of as {@{polynomials with infinitely many terms whose coefficients correspond to terms of a sequence}@}. This new representation of the sequence {@{opens up new methods for finding identities and closed forms pertaining to certain sequences}@}. {@{The (ordinary) generating function of a sequence _a_<sub>_n_</sub>}@} is {@{$$G(a_{n};x)=\sum _{n=0}^{\infty }a_{n}x^{n}.$$}@} <!--SR:!2024-12-02,36,290!2024-12-25,52,290!2025-01-13,71,310!2025-01-13,71,310-->
+Generating functions can be thought of as {@{polynomials with infinitely many terms whose coefficients correspond to terms of a sequence}@}. This new representation of the sequence {@{opens up new methods for finding identities and closed forms pertaining to certain sequences}@}. {@{The (ordinary) generating function of a sequence _a_<sub>_n_</sub>}@} is {@{$$G(a_{n};x)=\sum _{n=0}^{\infty }a_{n}x^{n}.$$}@} <!--SR:!2025-03-15,102,290!2024-12-25,52,290!2025-01-13,71,310!2025-01-13,71,310-->
 
 ## recurrence relation
 

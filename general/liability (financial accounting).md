@@ -36,7 +36,7 @@ Regulations as to the recognition of liabilities are {@{different all over the w
 
 Examples of types of liabilities include: {@{money owing on a loan, money owing on a mortgage, or an [IOU](IOU.md)}@}. <!--SR:!2025-05-26,183,310-->
 
-__Liabilities__ are {@{debts and obligations of the business they represent as __creditor's claim__ on business assets}@}. <!--SR:!2024-12-03,56,310-->
+__Liabilities__ are {@{debts and obligations of the business they represent as __creditor's claim__ on business assets}@}. <!--SR:!2025-05-26,174,310-->
 
 ## classification
 
@@ -55,7 +55,7 @@ A [debit](debits%20and%20credits.md) {@{either increases an asset or decreases a
 
 When {@{cash is deposited in a bank}@}, the bank is said to {@{"debit" its cash account, on the asset side, and "credit" its deposits account, on the liabilities side}@}. In this case, the bank is {@{debiting an asset and crediting a liability, which means that both increase}@}. <!--SR:!2025-05-10,172,310!2025-06-03,189,310!2025-04-23,158,310-->
 
-When {@{cash is withdrawn from a bank}@}, {@{the opposite happens: the bank "credits" its cash account and "debits" its deposits account}@}. In this case, the bank is {@{crediting an asset and debiting a liability, which means that both decrease}@}. <!--SR:!2025-07-06,220,330!2024-12-03,56,310!2024-12-13,66,310-->
+When {@{cash is withdrawn from a bank}@}, {@{the opposite happens: the bank "credits" its cash account and "debits" its deposits account}@}. In this case, the bank is {@{crediting an asset and debiting a liability, which means that both decrease}@}. <!--SR:!2025-07-06,220,330!2025-08-02,242,330!2024-12-13,66,310-->
 
 ## see also
 

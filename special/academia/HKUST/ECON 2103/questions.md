@@ -84,7 +84,7 @@ tags:
 >
 > - Domestic (local) steel producers are threatened by foreign competition (imports). Let's impose a _tariff_ (fee) on importing steel. ::@:: The price of foreign steel may increase relative to domestic steel. Domestic steel producers may benefit from it. However, the average price of (domestic and imported) steel may rise, so downstream industries may have increased production cost and may pass them to consumers. <!--SR:!2024-12-24,68,310!2024-12-24,68,310-->
 > - Rents are increasing. Let's freeze rents. (This is a form of rent control.) ::@:: In the short term, poor people may be less likely to be evicted for their inability to pay rent. However, landlords may reduce maintenance on rental units to adapt to decreased rents. They may, in the long term, also construct fewer rental units because they are less profitable. <!--SR:!2025-04-05,136,310!2024-12-28,72,310-->
-> - Medical costs are high. The government decides to offset everyone's medical costs, especially for poor people. ::@:: People, especially the poor, may be able to benefit from more healthcare. However, medical cost may increase further due to increased demand. Taxes may go up to subsidize this increased spending, so people have less income after taxes. <!--SR:!2024-12-16,60,310!2024-12-03,47,290-->
+> - Medical costs are high. The government decides to offset everyone's medical costs, especially for poor people. ::@:: People, especially the poor, may be able to benefit from more healthcare. However, medical cost may increase further due to increased demand. Taxes may go up to subsidize this increased spending, so people have less income after taxes. <!--SR:!2024-12-16,60,310!2025-04-21,139,290-->
 > - Commercial fishing for tuna kills dolphins. Let's require domestic fisheries to use more expensive nets that lets dolphins escape. ::@:: It may protect the dolphins. However, the price of domestic tuna may increase relative to foreign tuna. This means domestic fisheries may be harmed (e.g. decrease in market share). Also, the average price of (domestic and imported) tuna may rise, so consumers may need to pay more. (The effects are similar to a _tariff_ (like above), but reversed, i.e. imposed on domestic producers instead.) <!--SR:!2024-12-20,64,310!2025-03-02,102,290-->
 > - Drug addiction is a problem. Let's make it a non-problem by legalizing the use of drugs. ::@:: Drugs become more available. This lowers drug prices. People may get addicted to drugs more easily. However, it may decrease enforcement costs, regulate the drug market, and make rehabilitating drug addicts easier. <!--SR:!2024-12-11,55,310!2024-12-11,55,310-->
 > - Drug addiction is a problem. Let's enforce drug laws more strictly. ::@:: Drugs become less available. This increases drug prices. People may get addicted to drugs less easily. However, it may increase drug trafficking activity due to increased profits if succeeded, increasing enforcement costs. Drug addicts may also commit more crimes in order to get money for drugs. <!--SR:!2024-12-16,60,310!2024-12-20,64,310-->
@@ -188,7 +188,7 @@ tags:
 > 4. none of the above
 >
 > - solution: {@{2}@}
-> - explanation: {@{Consider the marginal (opportunity) costs for Albert if he specializes in meat: $$16 / 24 = 2 / 3~\mathrm{potato/meat}$$. Also consider that if he specializes in potato: $$24 / 16 = 1.5~\mathrm{meat/potato}$$. If the marginal cost is lower than the marginal benefit, then Albert will exchange. In this case, if he specializes in meat, his marginal cost of meat is 2/3 potatoes per meat, which is lower than the marginal benefit of 1 potato per meat (market price) in the market. So he will specialize in meat and likes exchange.}@} <!--SR:!2024-12-03,47,290!2024-12-24,68,310-->
+> - explanation: {@{Consider the marginal (opportunity) costs for Albert if he specializes in meat: $$16 / 24 = 2 / 3~\mathrm{potato/meat}$$. Also consider that if he specializes in potato: $$24 / 16 = 1.5~\mathrm{meat/potato}$$. If the marginal cost is lower than the marginal benefit, then Albert will exchange. In this case, if he specializes in meat, his marginal cost of meat is 2/3 potatoes per meat, which is lower than the marginal benefit of 1 potato per meat (market price) in the market. So he will specialize in meat and likes exchange.}@} <!--SR:!2025-04-20,138,290!2024-12-24,68,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -310,7 +310,7 @@ See [Hong Kong's waste problem: what is the new charging scheme and how can it c
 
 > Q3. What could the problems with a waste charging scheme?
 >
-> - solution (for reference): {@{Environmentally, perhaps the designated waste bags are not biodegradable. They may add to the waste instead. Operationally, it requires a lot of setup and the cooperation of citizens to implement. Socially, citizens may not like the charge and become discontent. There are many more unmentioned here...}@} <!--SR:!2024-12-03,47,290-->
+> - solution (for reference): {@{Environmentally, perhaps the designated waste bags are not biodegradable. They may add to the waste instead. Operationally, it requires a lot of setup and the cooperation of citizens to implement. Socially, citizens may not like the charge and become discontent. There are many more unmentioned here...}@} <!--SR:!2025-06-14,193,310-->
 
 <!-- markdownlint MD028 -->
 

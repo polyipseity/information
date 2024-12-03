@@ -21,7 +21,7 @@ ISOM 2020 note: Note that {@{`(..., ...)`}@} is {@{creating a `tuple`, a type th
 
 ## indexing
 
-To {@{access or replace the n-th item}@}, simply write {@{`sequence[n-1]`}@}: <!--SR:!2025-08-22,267,334!2024-12-02,63,310-->
+To {@{access or replace the n-th item}@}, simply write {@{`sequence[n-1]`}@}: <!--SR:!2025-08-22,267,334!2025-09-02,273,330-->
 
 ```Python
 assert "asd"[2] == "d"

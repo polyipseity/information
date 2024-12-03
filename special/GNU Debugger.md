@@ -21,25 +21,25 @@ Command names can be {@{truncated at the end to produce an abbreviation if the a
 
 - `apropos <regex>` ::@:: find text matching `<regex>` <!--SR:!2025-06-22,226,330!2025-02-13,119,290-->
 - `backtrace` ::@:: print backtrace or call stack <!--SR:!2025-04-29,169,310!2025-07-05,237,330-->
-- `break <where>` ::@:: set a breakpoint <!--SR:!2025-06-14,220,330!2024-12-02,69,310-->
+- `break <where>` ::@:: set a breakpoint <!--SR:!2025-06-14,220,330!2025-09-30,301,330-->
 - `continue` ::@:: continue program execution <!--SR:!2025-04-12,165,310!2025-05-30,207,330-->
 - `delete [<breakpoint>]` ::@:: delete a breakpoint; if breakpoint is not specified, then delete all breakpoints <!--SR:!2025-07-29,255,330!2025-07-10,240,330-->
 - `disassemble <address|function>` ::@:: disassemble a specified address or function <!--SR:!2025-06-11,201,345!2025-01-13,88,345-->
 - `file <path>` ::@:: load binary file to debug <!--SR:!2025-09-04,281,330!2025-07-27,252,330-->
-- `finish` ::@:: run until the current function returns <!--SR:!2024-12-03,70,310!2025-05-23,193,310-->
+- `finish` ::@:: run until the current function returns <!--SR:!2025-10-02,303,330!2025-05-23,193,310-->
 - `help [<topic>]` ::@:: find information about topic; if topic is not specified, then prints general help <!--SR:!2025-01-13,88,345!2025-07-22,234,345-->
 - `info address <symbol>` ::@:: print the `<symbol>`, its type, and its address <!--SR:!2025-01-13,88,345!2024-12-19,63,325-->
 - `info breakpoints|regs|threads`::@:: list breakpoints, register values, or threads <!--SR:!2025-07-11,241,330!2025-05-01,184,310-->
 - `next` ::@:: go to the next (source) line <!--SR:!2025-06-07,214,330!2025-05-13,194,310-->
 - `ni` ::@:: go to the next instruction <!--SR:!2025-07-30,256,330!2025-08-26,277,330-->
-- `print <expression>` ::@:: evaluate and print an expression <!--SR:!2025-01-26,97,270!2024-12-02,69,310-->
+- `print <expression>` ::@:: evaluate and print an expression <!--SR:!2025-01-26,97,270!2025-09-29,300,330-->
 - `run [<args>...]` ::@:: run program (with args) <!--SR:!2025-07-18,246,330!2025-08-19,271,330-->
 - `set <storage> = <value>` ::@:: set storage to value <!--SR:!2025-01-13,88,345!2025-01-13,88,345-->
 - `set args <args>...` ::@:: set program args <!--SR:!2024-12-05,72,310!2025-06-15,220,330-->
 - `si` ::@:: go to the next instruction stepping into functions <!--SR:!2025-08-07,263,330!2025-06-01,189,270-->
-- `starti [<args>...]` ::@:: start program and stop at its first instruction <!--SR:!2024-12-02,69,310!2025-03-27,137,290-->
+- `starti [<args>...]` ::@:: start program and stop at its first instruction <!--SR:!2025-10-01,302,330!2025-03-27,137,290-->
 - `step` ::@:: go to the next (source) line stepping into functions <!--SR:!2025-04-27,167,310!2025-02-14,119,290-->
-- `x/<format> <address>` ::@:: examine memory at the given address in the given format (see `help x`) <!--SR:!2024-12-03,70,310!2025-03-27,141,290-->
+- `x/<format> <address>` ::@:: examine memory at the given address in the given format (see `help x`) <!--SR:!2025-07-08,217,310!2025-03-27,141,290-->
 
 ### reverse debugging
 

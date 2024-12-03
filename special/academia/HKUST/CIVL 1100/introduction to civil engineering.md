@@ -25,7 +25,7 @@ The content is in teaching order.
     - engineer inspirations ::@:: art of using creativity, science and technology, traditional experience <!--SR:!2026-07-15,628,355!2025-02-25,250,330-->
     - engineer sustainability ::@:: restore and safeguard the biophysical environment <!--SR:!2025-01-10,205,345!2025-03-26,269,365-->
   - [engineer types](#engineer%20types)
-  - differences between engineers and scientists ::@:: Scientists understand nature and make predictions, while engineers use scientific data and knowledge to design cities and protect us from nature. <!--SR:!2025-08-09,384,299!2024-12-02,192,330-->
+  - differences between engineers and scientists ::@:: Scientists understand nature and make predictions, while engineers use scientific data and knowledge to design cities and protect us from nature. <!--SR:!2025-08-09,384,299!2026-08-28,633,330-->
 - civil engineering ::@:: construction, design, maintenance, and planning of the built environment, including buildings and infrastructure <!--SR:!2025-09-25,337,300!2025-06-01,315,380-->
   - "civil" meaning ::@:: "Civil" distinguishes non-military from military purposes. <!--SR:!2025-05-09,327,350!2025-09-22,417,397-->
   - civil engineer characteristics ::@:: problem solvers <!--SR:!2025-11-14,410,335!2024-12-24,182,352-->
@@ -282,7 +282,7 @@ workmanship
 - construction management→::@::←economics <!--SR:!2025-09-15,333,255!2025-04-19,240,300-->
 - economics→::@::←impacts to surrounding <!--SR:!2025-03-15,215,300!2025-04-26,191,260-->
 - impacts to surrounding→::@::←lifecycle <!--SR:!2025-04-01,238,320!2025-05-10,261,320-->
-- lifecycle→::@::←maintenance <!--SR:!2025-12-17,426,317!2024-12-03,56,272-->
+- lifecycle→::@::←maintenance <!--SR:!2025-12-17,426,317!2025-07-04,213,292-->
 - maintenance→::@::←politics <!--SR:!2025-07-03,231,261!2025-04-18,249,312-->
 - politics→::@::←social <!--SR:!2025-03-24,246,360!2025-05-03,262,337-->
 - social→::@::←workmanship <!--SR:!2025-04-30,244,300!2025-01-23,141,210-->
@@ -317,7 +317,7 @@ We Engineer Hong Kong’s Development
 <!--pytextgen generate section="e823"--><!-- The following content is generated at 2024-02-16T21:59:47.223693+08:00. Any edits will be overridden! -->
 
 - _(begin)_→::@::←興土木 利民生 齊拓展 創明天 <!--SR:!2025-04-12,243,314!2024-12-19,209,330-->
-- 興土木 利民生 齊拓展 創明天→::@::←We Bring The Best Engineering To Life <!--SR:!2025-12-02,420,324!2024-12-03,62,287-->
+- 興土木 利民生 齊拓展 創明天→::@::←We Bring The Best Engineering To Life <!--SR:!2025-12-02,420,324!2025-05-30,178,287-->
 - We Bring The Best Engineering To Life→::@::←卓越工程 建設香港 <!--SR:!2025-03-21,227,312!2025-01-18,165,297-->
 - 卓越工程 建設香港→::@::←We Engineer Hong Kong’s Development <!--SR:!2025-04-13,265,357!2026-01-08,443,330-->
 - We Engineer Hong Kong’s Development→::@::←_(end)_ <!--SR:!2025-11-28,473,392!2025-08-08,349,380-->
@@ -362,7 +362,7 @@ transportation
 - geo-technical→::@::←hydraulic <!--SR:!2026-04-13,508,340!2024-12-23,112,340-->
 - hydraulic→::@::←material <!--SR:!2026-04-12,556,360!2026-02-13,471,340-->
 - material→::@::←structural <!--SR:!2025-02-07,130,297!2025-01-26,167,260-->
-- structural→::@::←transportation <!--SR:!2024-12-22,171,340!2024-12-03,160,327-->
+- structural→::@::←transportation <!--SR:!2024-12-22,171,340!2026-11-27,724,347-->
 - transportation→::@::←_(end)_ <!--SR:!2025-01-08,192,350!2025-02-01,202,381-->
 
 <!--/pytextgen-->
@@ -542,7 +542,7 @@ wood
 - brick→::@::←concrete <!--SR:!2025-03-03,185,305!2026-02-28,548,397-->
 - concrete→::@::←new synthetic materials <!--SR:!2025-11-26,382,301!2024-12-07,161,341-->
 - new synthetic materials→::@::←steel <!--SR:!2026-04-19,515,332!2025-09-08,375,340-->
-- steel→::@::←stone <!--SR:!2025-04-04,202,320!2024-12-03,159,340-->
+- steel→::@::←stone <!--SR:!2025-04-04,202,320!2026-12-18,745,360-->
 - stone→::@::←wood <!--SR:!2025-04-11,240,321!2025-09-06,361,332-->
 - wood→::@::←_(end)_ <!--SR:!2026-01-17,513,394!2025-01-05,144,360-->
 
@@ -952,7 +952,7 @@ wave
 - _(begin)_→::@::←earthquake <!--SR:!2026-03-08,482,340!2025-02-25,240,357-->
 - earthquake→::@::←fire <!--SR:!2025-10-26,391,335!2025-04-04,255,360-->
 - fire→::@::←flood <!--SR:!2026-10-18,692,344!2025-06-11,279,266-->
-- flood→::@::←strong wind <!--SR:!2024-12-03,92,300!2026-02-20,467,317-->
+- flood→::@::←strong wind <!--SR:!2025-09-09,280,300!2026-02-20,467,317-->
 - strong wind→::@::←wave <!--SR:!2025-01-11,218,290!2025-08-18,314,294-->
 - wave→::@::←_(end)_ <!--SR:!2025-01-03,199,357!2025-02-17,210,315-->
 

@@ -42,7 +42,7 @@ The content is in teaching order.
   - soft skills ::@:: Skills that promote productivity, efficiency, effective communication, etc. <!--SR:!2024-12-25,69,310!2024-12-04,57,310-->
 - How many jobs should you include on your resume? ::@:: all of your previous jobs <!--SR:!2025-05-30,192,310!2025-04-19,155,310-->
 - [name tag](../../../name%20tag.md)
-  - For easy reading, one’s name badge should be worn... ::@:: ... on the right chest near shoulder. <!--SR:!2024-12-02,46,290!2024-12-25,69,310-->
+  - For easy reading, one’s name badge should be worn... ::@:: ... on the right chest near shoulder. <!--SR:!2025-06-03,182,310!2024-12-25,69,310-->
 
 ## week 2 tutorial
 
@@ -50,7 +50,7 @@ The content is in teaching order.
 - topic: Innerview (II): Together we redefine Success
 - ideal life
 - powerful self-introduction ::@:: know yourself, know your passion, know your unique selling points (USP) <!--SR:!2024-12-05,58,310!2024-12-13,64,310-->
-- psychometric assessments ::@:: STRONG, DISC maps <!--SR:!2024-12-02,55,310!2025-07-03,217,330-->
+- psychometric assessments ::@:: STRONG, DISC maps <!--SR:!2025-07-30,239,330!2025-07-03,217,330-->
 
 ## week 3 tutorial
 
@@ -94,15 +94,15 @@ The content is in teaching order.
 
 - datetime: 2023-10-11T17:00:00+08:00/2023-10-11T18:50:00+08:00
 - topic: Stress Management and Mindset Shift
-- stress ::@:: mental or emotional strain or tension <!--SR:!2025-04-14,151,310!2024-12-02,46,290-->
+- stress ::@:: mental or emotional strain or tension <!--SR:!2025-04-14,151,310!2025-06-03,182,310-->
   - stress identification ::@:: nervous, sweating, tired, trembling, weak, ... <!--SR:!2025-02-17,98,290!2025-05-06,167,310-->
   - stress relief ::@:: putting words on emotions, mindfulness, re-attribution, refocus, visualize, revalue, ... <!--SR:!2025-06-03,191,310!2025-05-25,182,310-->
-- SCARF ::@:: status, certainty, autonomy, relatedness, fairness <!--SR:!2025-07-12,224,330!2024-12-02,55,310-->
+- SCARF ::@:: status, certainty, autonomy, relatedness, fairness <!--SR:!2025-07-12,224,330!2025-08-01,241,330-->
   - SCARF / status ::@:: relative importance to others and seniority <!--SR:!2025-07-24,235,330!2024-12-07,60,310-->
     - increase status ::@:: know the unknown, prepare, ... <!--SR:!2025-05-04,167,310!2024-12-25,69,310-->
     - decrease status ::@:: awkward questions, unfriendly interviewers, unequal, ... <!--SR:!2024-12-12,63,310!2025-04-28,162,310-->
-  - SCARF / certainty ::@:: prediction confidence <!--SR:!2025-04-21,156,310!2024-12-02,46,290-->
-  - SCARF / autonomy ::@:: sense of control over events <!--SR:!2025-05-22,181,310!2024-12-02,55,310-->
+  - SCARF / certainty ::@:: prediction confidence <!--SR:!2025-04-21,156,310!2025-06-02,181,310-->
+  - SCARF / autonomy ::@:: sense of control over events <!--SR:!2025-05-22,181,310!2025-07-31,240,330-->
     - increase autonomy ::@:: be flexible about choices, prepare, research salary ranges, talk permissions, ... <!--SR:!2024-12-25,69,310!2024-12-09,60,310-->
   - SCARF / relatedness ::@:: socially, ingroup or outgroup <!--SR:!2025-07-25,236,330!2025-07-21,232,330-->
     - increase relatedness ::@:: create trust by non-verbal communication, firm handshake, discuss personal (but not too personal) things <!--SR:!2025-05-15,176,310!2024-12-09,60,310-->
@@ -113,7 +113,7 @@ The content is in teaching order.
 - datetime: 2023-10-18T17:00:00+08:00/2023-10-18T18:50:00+08:00
 - topic: Career and Employability Skills
 - networking
-  - networking advantages ::@:: know more people, fact checking, tapping into the hidden job market <!--SR:!2024-12-02,46,290!2024-12-05,58,310-->
+  - networking advantages ::@:: know more people, fact checking, tapping into the hidden job market <!--SR:!2025-04-12,130,290!2024-12-05,58,310-->
 - Where should you sit when you are waiting for an interview? ::@:: as front as possible <!--SR:!2024-12-09,60,310!2024-12-06,57,310-->
 - Where should you sit when you are in the interview room? ::@:: seats that are neither too special nor too seclusive <!--SR:!2024-12-06,57,310!2025-04-07,145,310-->
 - If your boss takes you and the team for lunch... ::@:: ... balance the food order with what everyone else is choosing. (But it can depend on the boss's style.) <!--SR:!2024-12-11,62,310!2025-06-26,212,330-->
@@ -172,7 +172,7 @@ The content is in teaching order.
 - datetime: 2023-11-15T17:00:00+08:00/2023-11-15T18:50:00+08:00
 - topic: Interview (III): Final Drilling of Mock Interview
 - interview goals ::@:: impress, express, tell stories (STAR-r) <!--SR:!2024-12-25,69,310!2024-12-06,57,310-->
-- STAR-r ::@:: situation, task, action, result, reflection <!--SR:!2025-04-07,151,310!2024-12-03,56,310-->
+- STAR-r ::@:: situation, task, action, result, reflection <!--SR:!2025-04-07,151,310!2025-08-04,244,330-->
   - STAR-r / situation ::@:: set the scene <!--SR:!2024-12-06,57,310!2024-12-25,69,310-->
   - STAR-r / task ::@:: describe the purpose <!--SR:!2025-06-15,199,310!2025-06-21,207,330-->
   - STAR-r / action ::@:: explain what you did <!--SR:!2024-12-07,60,310!2024-12-11,62,310-->

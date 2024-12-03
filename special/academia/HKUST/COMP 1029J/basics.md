@@ -101,7 +101,7 @@ return _chain.from_iterable(await _gather(
 - `char`:@:A single character. Example: `'a'`, `'3'`, `' '` <!--SR:!2025-02-12,290,330-->
 - `double`:@:A floating point number with double precision (15 to 17 significant figures). One can effectively treat it as a decimal number for most purposes. Example: `42d`, `5.`, `6.29d`, `3.12D`, `3.14` <!--SR:!2026-11-12,763,330-->
 - `float`:@:A floating point number with single precision (6 to 9 significant figures). One can effectively treat it as a decimal number for most purposes. Example: `42f`, `1.f`, `3.14f`, `9.20F` <!--SR:!2026-12-22,796,330-->
-- `int`:@:An integer. Example: `42` <!--SR:!2024-12-03,235,330-->
+- `int`:@:An integer. Example: `42` <!--SR:!2027-11-09,1071,350-->
 
 <!--/pytextgen-->
 
@@ -272,7 +272,7 @@ return _chain.from_iterable(await _gather(
 
 <!--pytextgen generate section="cc23"--><!-- The following content is generated at 2024-01-30T13:35:46.690328+08:00. Any edits will be overridden! -->
 
-- `<`:@:lesser than <!--SR:!2024-12-02,234,330-->
+- `<`:@:lesser than <!--SR:!2027-10-28,1059,350-->
 - `>`:@:greater than <!--SR:!2024-12-29,255,330-->
 - `<=`:@:lesser than or equal to <!--SR:!2027-05-25,909,330-->
 - `>=`:@:greater than or equal to <!--SR:!2025-01-23,276,330-->

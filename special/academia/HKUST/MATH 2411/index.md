@@ -84,7 +84,7 @@ The content is in teaching order.
     - central tendency ::@:: sample mean, sample median, trimmed sample mean, ... <!--SR:!2025-07-01,232,330!2025-07-05,237,330-->
     - variability ::@:: inter-quartile range, sample range, sample standard deviation, sample variance <!--SR:!2025-05-31,200,310!2025-07-12,241,330-->
   - sample mean ::@:: Suppose we have $n$ _samples_ of a random variable $x$, labeled $x_1, \ldots, x_n$. Then its _sample mean_ is $$\bar x = \frac 1 n \sum_{k = 1}^n x_n$$. <!--SR:!2025-07-28,255,330!2025-08-04,260,330-->
-    - sample mean / _R_ ::@:: use `mean(...)` <!--SR:!2025-07-05,236,330!2024-12-02,69,310-->
+    - sample mean / _R_ ::@:: use `mean(...)` <!--SR:!2025-07-05,236,330!2025-10-02,303,330-->
   - sample median ::@:: Suppose we have $n$ _samples_ of a random variable $x$, labeled $x_1, \ldots, x_n$. They are sorted in increasing (or decreasing) order, i.e. $x_1 \le \ldots \le x_n$. Then its _sample median_ is $$\tilde x = \frac 1 2 \left(x_{\lfloor \frac {x + 1} 2 \rfloor} + x_ {\lceil \frac {x + 1} 2 \rceil} \right) = \begin{cases} x_{\frac {n + 1} 2} & \text{if }n\text{ is odd} \\ \frac 1 2 \left(x_{\frac x 2} + x_{\frac x 2 + 1} \right) & \text{if }n\text{ is even} \end{cases}$$. <!--SR:!2025-04-22,164,310!2025-07-20,248,330-->
   - sample mean vs sample median ::@:: The former is sensitive to outliers while the latter is not. This motivates trimming the outliers of the observations before calculating the former to reduce its sensitiveness to outliers (while still being more sensitive than the latter). <!--SR:!2025-04-23,169,310!2025-06-19,223,330-->
     - sample mean vs sample median / details ::@:: The former is used if the distribution is symmetric, unimodal and there are no outliers. Otherwise the latter is usually better. <!--SR:!2025-08-04,260,330!2025-05-04,173,310-->
@@ -100,21 +100,21 @@ The content is in teaching order.
     - sample [variance](../../../../general/variance.md) / dividing by $n$ ::@:: However, if $\bar x$ is the population mean, then $\sum_{i = 1}^n (x_i - \bar x)$ is not forced to be zero, so the degree of freedom is still $n$ (from $n$ independent observations) instead. In this case, we divide by $n$ instead of $n - 1$ to get an _unbiased_ (sample/population) variance. This is regardless if the $n$ observations are a sample or the entire population. <!--SR:!2025-06-21,217,310!2025-07-25,251,330-->
     - sample variance / _R_ ::@:: use `var(...)` <!--SR:!2025-08-06,262,330!2025-06-25,227,330-->
   - sample standard deviation ::@:: It is the square root of the sample variance: $$s = \sqrt{s^2}$$. However, no matter if the sample variance is biased or unbiased, the resulting sample standard deviation is biased. This is because the square root is a concave function and introduces additional negative bias (smaller than the corresponding population parameter). <!--SR:!2025-04-10,147,290!2025-06-26,208,310-->
-    - sample standard deviation / _R_ ::@:: use `sd(...)` <!--SR:!2025-02-05,111,290!2024-12-03,70,310-->
+    - sample standard deviation / _R_ ::@:: use `sd(...)` <!--SR:!2025-02-05,111,290!2025-10-03,304,330-->
   - sample range ::@:: It is defined as $$\text{range} = \max\set{x_i} - \min\set{x_i}$$. It is useful for statistical quality control (e.g. finding unusual outliers caused by bad measurement). <!--SR:!2025-05-10,183,310!2025-08-13,262,330-->
   - inter-quartile range (IQR) ::@:: It is defined as the range of the middle 50% of the data, or equivalently the third (75%) quartile subtracted by the first (25%) quartile: $$\text{IQR} = Q_3 - Q_1$$. It is also a measure of data dispersion. It can also eliminate problems with outliers. <!--SR:!2025-07-09,239,330!2025-09-01,278,330-->
     - inter-quartile range / _R_ ::@:: use `IQR(...)`, not `iqr` <!--SR:!2025-08-12,262,330!2025-09-18,292,330-->
-  - variability / characteristics (common to most or all measures of variability) ::@:: All measures must be nonnegative. Most measures (exceptions: inter-quartile range, trimmed variants of statistics, ...) are zero [iff](../../../../general/if%20and%20only%20if.md) all data are the same (i.e. no spread). <!--SR:!2025-09-06,282,330!2024-12-02,69,310-->
+  - variability / characteristics (common to most or all measures of variability) ::@:: All measures must be nonnegative. Most measures (exceptions: inter-quartile range, trimmed variants of statistics, ...) are zero [iff](../../../../general/if%20and%20only%20if.md) all data are the same (i.e. no spread). <!--SR:!2025-09-06,282,330!2025-07-06,215,310-->
 - [data presentation](../../../../general/data%20and%20information%20visualization.md) ::@:: A graphical summary can communicate information better as people prefers to look at them rather than numbers. The method of presentation depends on the data _nature_ and visualization _goals_. <!--SR:!2025-04-09,167,310!2025-02-28,133,290-->
   - data presentation / quantitative data ::@:: box plot, frequency table, histogram, line chart, scatter plot, ... <!--SR:!2025-03-27,141,290!2025-02-13,113,290-->
   - data presentation / categorical data ::@:: bar chart, frequency table, pie chart, ... <!--SR:!2025-04-11,166,310!2025-02-26,121,290-->
   - line chart ::@:: It visualizes the trend of data over time well. Good for time-series data like stock prices. <!--SR:!2025-07-10,238,330!2025-07-11,239,330-->
     - line chart / reading ::@:: Start from the x-axis, then to the line, and lastly to the y-axis. <!--SR:!2025-08-02,259,330!2025-06-01,209,330-->
-    - line chart / _R_ ::@:: use `plot(...)` <!--SR:!2024-12-03,70,310!2025-07-26,252,330-->
+    - line chart / _R_ ::@:: use `plot(...)` <!--SR:!2025-10-04,305,330!2025-07-26,252,330-->
   - frequency table (quantitative) ::@:: Data is grouped into numerically ordered non-overlapping _categories_ or _class intervals_. Then a _summary table_ is drawn based on the grouped data. This condenses the data and allows for quicker data interpretation. <!--SR:!2025-04-19,154,290!2025-05-24,187,310-->
     - frequency table (quantitative) / procedure ::@:: Decide the number of class intervals (usually 5 to 20). Divide the data into that many intervals (usually covering the data range evenly). Adjust the class interval boundaries to avoid overlapping (as endpoints are inclusive). Construct the summary table. <!--SR:!2024-12-06,59,250!2025-04-05,161,310-->
     - frequency table (quantitative) / table headers ::@:: class interval, class midpoint, frequency, relative frequency, ... <!--SR:!2025-06-01,193,310!2024-12-16,44,250-->
-  - histogram ::@:: A bar chart based on the frequency table. The x-axis labels the class intervals while the y-axis labels the frequency or density (relative frequency). <!--SR:!2024-12-02,69,310!2025-01-06,81,270-->
+  - histogram ::@:: A bar chart based on the frequency table. The x-axis labels the class intervals while the y-axis labels the frequency or density (relative frequency). <!--SR:!2025-07-04,213,310!2025-01-06,81,270-->
     - histogram / _R_ ::@:: use `hist(...)`, or `histogram(...)` after importing `library(lattice)` (different style) <!--SR:!2025-06-07,213,330!2025-06-10,216,330-->
 - [descriptive statistics](../../../../general/descriptive%20statistics.md)
   - modality ::@:: It is the number of peaks (local modes) in the probability distribution. If there are no significant peaks, then it is _uniform_. If there are peaks, it may be _unimodal_ (1), _bimodal_ (2), ...; or _multimodal_ (>1) in general for multiple peaks. <!--SR:!2024-12-05,72,310!2025-07-10,241,330-->
@@ -142,7 +142,7 @@ The content is in teaching order.
 
 - datetime: 2024-09-09T10:30:00+08:00/2024-09-09T11:50:00+08:00
 - [data presentation](../../../../general/data%20and%20information%20visualization.md)
-  - sample size / _R_ ::@:: use `length(...)` <!--SR:!2025-08-26,273,330!2024-12-02,69,310-->
+  - sample size / _R_ ::@:: use `length(...)` <!--SR:!2025-08-26,273,330!2025-10-01,302,330-->
   - first _n_ observations / _R_ ::@:: use `head(...)` <!--SR:!2025-06-11,217,330!2025-07-23,250,330-->
   - scatter plot ::@:: Plots data that comes as pairs. Good for visualizing relationship between two variables (e.g. regression). <!--SR:!2024-12-04,71,310!2025-01-09,93,290-->
     - scatter plot / _R_ ::@:: use `plot(...)` <!--SR:!2025-08-02,258,330!2025-07-06,237,330-->
@@ -163,7 +163,7 @@ The content is in teaching order.
   - [probability sampling](../../../../general/sampling%20(statistics).md#sampling%20frame) ::@:: It supports strong statistical inferences from a sample to the population, minimizing selection bias. It involves random selection: any individual has a nonzero probability being picked, and said probability can be determined. <!--SR:!2025-06-05,204,310!2025-08-07,263,330-->
     - probability sampling / examples ::@:: cluster sampling, simple random sampling, stratified sampling, systematic sampling, ... <!--SR:!2025-03-16,120,250!2025-03-19,137,290-->
     - probability sampling / simple random sampling ::@:: All individual in a population has equal probability of being selected. <!--SR:!2025-08-08,263,330!2025-09-09,285,330-->
-    - probability sampling / systematic sampling ::@:: A _probabilistic_ method is used to select individuals of a population, such as sampling every third person. <!--SR:!2025-05-06,183,310!2024-12-02,69,310-->
+    - probability sampling / systematic sampling ::@:: A _probabilistic_ method is used to select individuals of a population, such as sampling every third person. <!--SR:!2025-05-06,183,310!2025-09-30,301,330-->
     - probability sampling / stratified sampling ::@:: Individuals are split into groups based on certain characters. Then simple random sampling is applied on each group. <!--SR:!2025-05-05,174,310!2024-12-16,69,270-->
     - probability sampling / cluster sampling ::@:: Split the population into clusters and select some of the clusters (cannot select an individual in a cluster without selecting other in the same cluster). <!--SR:!2025-01-29,82,270!2025-06-01,189,310-->
   - [non-probability sampling](../../../../general/sampling%20(statistics).md#nonprobability%20sampling) ::@:: It supports weaker statistical inferences from a sample to the population. The advantage is that non-probability sampling may be more convenient in many contexts. <!--SR:!2025-06-14,211,310!2025-05-30,205,310-->
@@ -420,7 +420,7 @@ The content is in teaching order.
     - high: 50
 - report
   - When you see $\mathcal N(0, 100)$, do not mistake the 100 as the standard deviation! It is the variance. Almost screwed this up in the midterm examination...
-    - $\mathcal N(0, 100)$ (0) ::@:: The mean of the normal distribution is 0. The standard deviation of the normal distribution is 10, not 100. <!--SR:!2025-03-04,93,384!2024-12-03,20,364-->
+    - $\mathcal N(0, 100)$ (0) ::@:: The mean of the normal distribution is 0. The standard deviation of the normal distribution is 10, not 100. <!--SR:!2025-03-04,93,384!2025-03-12,99,384-->
   - Inputted $\binom {100} 1$ as 1 instead of 100 into the calculator when evaluating a binomial distribution...
-    - $\binom {100} 1$ (-1) ::@:: It evaluates to 100, not 1. <!--SR:!2024-12-02,19,364!2024-12-03,20,364-->
+    - $\binom {100} 1$ (-1) ::@:: It evaluates to 100, not 1. <!--SR:!2025-03-11,98,384!2025-03-13,100,384-->
   - Simplified $\frac 4 {b^2} \left(b\right)$ into $\frac 4 {b^3}$ instead of $\frac 4 b$... (-1)

@@ -98,7 +98,7 @@ The _second derivative test_ is {@{a special case of $n=2$ in the [higher-order 
 
 ### higher-order derivative test
 
-The _higher-order derivative test_ or _general derivative test_ can {@{determine [extrema](maximum%20and%20minimum.md), and [inflection points](inflection%20point.md) for sufficiently [differentiable functions](differentiable%20function.md)}@}. <!--SR:!2024-12-02,287,339-->
+The _higher-order derivative test_ or _general derivative test_ can {@{determine [extrema](maximum%20and%20minimum.md), and [inflection points](inflection%20point.md) for sufficiently [differentiable functions](differentiable%20function.md)}@}. <!--SR:!2028-08-03,1339,359-->
 
 > __higher-order derivative test__
 >

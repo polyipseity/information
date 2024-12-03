@@ -21,7 +21,7 @@ English
 - [altitude](https://en.wiktionary.org/wiki/altitude) ::@:: (a\_e) Height of a location from a reference point, usually [sea level](../../../general/sea%20level.md). <!--SR:!2026-11-11,729,324!2024-12-05,244,324-->
 - [aluminium](https://en.wiktionary.org/wiki/aluminium) ::@:: (a\_m) A [chemical element](../../../general/chemical%20element.md) (_symbol_ Al) of [atomic number](../../../general/atomic%20number.md) 13, longer spelling. <!--SR:!2026-01-28,526,310!2025-02-08,309,330-->
 - [aluminum](https://en.wiktionary.org/wiki/aluminum) ::@:: (a\_m) A [chemical element](../../../general/chemical%20element.md) (_symbol_ Al) of [atomic number](../../../general/atomic%20number.md) 13, shorter spelling. <!--SR:!2025-10-08,458,310!2025-08-26,408,290-->
-- [ambiguous](https://en.wiktionary.org/wiki/ambiguous) ::@:: (a\_s) Open to multiple interpretations. <!--SR:!2025-10-02,452,396!2024-12-03,186,376-->
+- [ambiguous](https://en.wiktionary.org/wiki/ambiguous) ::@:: (a\_s) Open to multiple interpretations. <!--SR:!2025-10-02,452,396!2027-07-19,958,396-->
 - [antecedent](https://en.wiktionary.org/wiki/antecedent) ::@:: (a\_t) Earlier, in time or order. <!--SR:!2026-02-07,536,392!2025-03-05,294,372-->
 - [arithmetic](https://en.wiktionary.org/wiki/arithmetic) ::@:: (a\_c) The branch of [mathematics](../../../general/mathematics.md) studying numerical operations like [addition](../../../general/addition.md), [subtraction](../../../general/subtraction.md), [multiplication](../../../general/multiplication.md), and [division](../../../general/division%20(mathematics).md). <!--SR:!2025-01-05,289,344!2027-06-20,957,324-->
 - [artificial](https://en.wiktionary.org/wiki/artificial) ::@:: (a\_l) Man-made. <!--SR:!2026-11-05,826,430!2026-06-20,667,410-->
@@ -64,7 +64,7 @@ English
 - [pharynx](https://en.wiktionary.org/wiki/pharynx) ::@:: (p\_x) Part of the [throat](../../../general/throat.md) extending from the back of the [mouth](../../../general/mouth.md) and [nasal cavity](../../../general/nasal%20cavity.md) to the [esophagus](../../../general/esophagus.md) and [trachea](../../../general/trachea.md). <!--SR:!2025-03-19,276,264!2025-07-15,391,304-->
 - [phenomenon](https://en.wiktionary.org/wiki/phenomenon) ::@:: (p\_n) An [observable](../../../general/observable.md) [event](../../../general/event%20(philosophy).md). <!--SR:!2025-02-22,300,363!2025-04-28,153,243-->
 - [plagiarism](https://en.wiktionary.org/wiki/plagiarism) ::@:: (p\_m) Copying of others' work and presenting it as one's own. <!--SR:!2026-12-31,761,324!2025-03-17,308,304-->
-- [plagiarize](https://en.wiktionary.org/wiki/plagiarize) ::@:: (p\_e) To copy others' work and present it as one's own. <!--SR:!2025-01-29,299,344!2024-12-03,242,304-->
+- [plagiarize](https://en.wiktionary.org/wiki/plagiarize) ::@:: (p\_e) To copy others' work and present it as one's own. <!--SR:!2025-01-29,299,344!2027-09-18,1019,324-->
 - [polynomial](https://en.wiktionary.org/wiki/polynomial) ::@:: (p\_l) A [mathematical expression](../../../general/expression%20(mathematics).md) that is a [sum](../../../general/summation.md) of [constant](../../../general/constant%20(mathematics).md) [coefficients](../../../general/coefficient.md) multipled with [indeterminates](../../../general/indeterminate%20(variable).md) raised to a nonnegative [integer](../../../general/integer.md) [power](../../../general/exponentiation.md). <!--SR:!2026-12-06,746,324!2027-03-29,916,344-->
 - [preamble](https://en.wiktionary.org/wiki/preamble) ::@:: (p\_e) An introduction to a [document](../../../general/document.md). <!--SR:!2025-06-02,410,372!2025-01-24,284,352-->
 - [precedence](https://en.wiktionary.org/wiki/precedence) ::@:: (p\_e) The state of preceding in importance or priority. <!--SR:!2026-08-30,770,430!2025-01-08,254,370-->
@@ -88,7 +88,7 @@ English
 - [transmissibility](https://en.wiktionary.org/wiki/transmissibility) ::@:: (t\_y) The extent to which something is transmissible. <!--SR:!2024-12-26,281,344!2026-10-21,710,324-->
 - [trigonometry](https://en.wiktionary.org/wiki/trigonometry) ::@:: (t\_y) The branch of [mathematics](../../../general/mathematics.md) concerned with the relations between angles and ratios of sides. <!--SR:!2026-04-02,565,290!2026-08-02,629,290-->
 - [ubiquitous](https://en.wiktionary.org/wiki/ubiquitous) ::@:: (u\_s) Widespread. <!--SR:!2025-02-23,300,388!2026-09-24,695,348-->
-- [vacuous](https://en.wiktionary.org/wiki/vacuous) ::@:: (v\_s) Empty, void. <!--SR:!2024-12-03,263,344!2025-12-24,514,324-->
+- [vacuous](https://en.wiktionary.org/wiki/vacuous) ::@:: (v\_s) Empty, void. <!--SR:!2028-04-28,1242,364!2025-12-24,514,324-->
 - [vacuum](https://en.wiktionary.org/wiki/vacuum) ::@:: (v\_m) A region of [space](../../../general/space.md) containing no [matter](../../../general/matter.md). <!--SR:!2025-01-20,290,344!2024-12-12,269,344-->
 - [vehicle](https://en.wiktionary.org/wiki/vehicle) ::@:: (v\_e) A spacious device for transporting things. <!--SR:!2026-10-30,783,416!2025-06-08,334,376-->
 - [viscous](https://en.wiktionary.org/wiki/viscous) ::@:: (v\_s) Having a thick and stick consistency between [solid](../../../general/solid.md) and [liquid](../../../general/liquid.md). <!--SR:!2028-03-05,1199,364!2025-09-01,433,324-->

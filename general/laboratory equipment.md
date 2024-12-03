@@ -156,7 +156,7 @@ return _chain.from_iterable(await _gather(
 - [electronic balance](weighing%20scale.md)→::@::←[evaporating dish](evaporating%20dish.md) <!--SR:!2026-12-20,757,230!2026-08-25,636,270-->
 - [evaporating dish](evaporating%20dish.md)→::@::←[filter funnel](filter%20funnel.md) <!--SR:!2025-10-03,383,230!2026-08-23,787,270-->
 - [filter funnel](filter%20funnel.md)→::@::←[flat-bottom(ed) flask](flat-bottom%20flask.md) <!--SR:!2025-03-04,102,170!2025-07-15,581,310-->
-- [flat-bottom(ed) flask](flat-bottom%20flask.md)→::@::←[gas jar/pneumatic trough](pneumatic%20trough.md) <!--SR:!2024-12-03,256,250!2024-12-20,54,150-->
+- [flat-bottom(ed) flask](flat-bottom%20flask.md)→::@::←[gas jar/pneumatic trough](pneumatic%20trough.md) <!--SR:!2026-09-04,640,250!2024-12-20,54,150-->
 - [gas jar/pneumatic trough](pneumatic%20trough.md)→::@::←[glass stirring rod/glass rod/stir(ring) rod](glass%20rod.md) <!--SR:!2025-07-19,305,190!2027-10-26,1106,290-->
 - [glass stirring rod/glass rod/stir(ring) rod](glass%20rod.md)→::@::←[graduated pipette](graduated%20pipette.md) <!--SR:!2024-12-29,134,210!2025-07-09,258,150-->
 - [graduated pipette](graduated%20pipette.md)→::@::←[heat-resistant mat/heatproof mat](heatproof%20mat.md) <!--SR:!2025-05-19,472,250!2024-12-16,46,170-->

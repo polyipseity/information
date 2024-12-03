@@ -23,7 +23,7 @@ A quick recap of types of tools used for reverse: {@{static analysis, dynamic an
 
 What is a memory model? It refers to how {@{memory in a program is modelled by the OS}@}. In {@{the good o' days of computing}@}, memory address is {@{really the address of the physical memory}@}. But modern OSes do not do that. One of the many reasons is security: {@{consider that the physical memory is shared by all processes, it is insecure for one process to be able to access the memory of any other process, e.g. a password manager}@}. <!--SR:!2025-05-03,166,310!2025-03-31,140,310!2024-12-24,68,310!2025-05-10,170,310-->
 
-Instead, modern OSes has the concept of {@{virtual memory}@}, which is managed by {@{a hardware called the memory management unit (MMU)}@}. To any single process, it looks like {@{there is still a "physical" memory}@}, but {@{the OS maps different parts of the "physical" memory to different parts of the actual physical memory, or even files on storage devices}@}! Some parts {@{may not be mapped (unmapped) at all, and accessing them will likely crash the program  (receive `SIGSEGV` signal)}@}. The mapping is {@{usually private to a single process, that is, that mapping is only used by that process and no other processes}@}. This is {@{good for security as a process can only access the memory of itself but not other processes}@}. <!--SR:!2025-05-26,184,310!2025-06-06,192,310!2024-12-02,55,310!2025-03-14,124,290!2025-07-25,236,330!2025-02-07,105,290!2025-05-25,182,310-->
+Instead, modern OSes has the concept of {@{virtual memory}@}, which is managed by {@{a hardware called the memory management unit (MMU)}@}. To any single process, it looks like {@{there is still a "physical" memory}@}, but {@{the OS maps different parts of the "physical" memory to different parts of the actual physical memory, or even files on storage devices}@}! Some parts {@{may not be mapped (unmapped) at all, and accessing them will likely crash the program  (receive `SIGSEGV` signal)}@}. The mapping is {@{usually private to a single process, that is, that mapping is only used by that process and no other processes}@}. This is {@{good for security as a process can only access the memory of itself but not other processes}@}. <!--SR:!2025-05-26,184,310!2025-06-06,192,310!2025-07-28,237,330!2025-03-14,124,290!2025-07-25,236,330!2025-02-07,105,290!2025-05-25,182,310-->
 
 However, further knowledge memory model is {@{not exactly important in basic pwn}@}. All one needs to know is that {@{parts of memory in a program are mapped to different parts of the actual physical memory or some files on storage devices}@}. <!--SR:!2025-06-01,189,310!2024-12-24,68,310-->
 
@@ -42,15 +42,15 @@ Note that the `.rodata` (read-only data) section is located on the read-execute 
 
 ## executable and linkable format
 
-For pwn, it is also important to know {@{the overall structure of an executable and linkable format (ELF) file}@}. ELF files are commonly used on {@{UNIX (including Linux) systems}@}. <!--SR:!2024-12-02,55,310!2024-12-09,60,310-->
+For pwn, it is also important to know {@{the overall structure of an executable and linkable format (ELF) file}@}. ELF files are commonly used on {@{UNIX (including Linux) systems}@}. <!--SR:!2025-07-30,239,330!2024-12-09,60,310-->
 
-Like {@{many file formats}@}, an ELF file has {@{a ELF header indicating that it is an ELF file and the properties of it (32 or 64 bit, offsets, ...)}@}. Its magic number, i.e. {@{the bytes an ELF file must start with}@}, is {@{`0x7F 'E' 'L' 'F'`}@}. Additionally, an ELF file has {@{a program header table at the beginning of the file right after the ELF header, and a section header table at the end of the file}@}. <!--SR:!2025-05-12,173,310!2024-12-24,68,310!2025-07-19,231,330!2024-12-02,55,310!2025-04-03,132,290-->
+Like {@{many file formats}@}, an ELF file has {@{a ELF header indicating that it is an ELF file and the properties of it (32 or 64 bit, offsets, ...)}@}. Its magic number, i.e. {@{the bytes an ELF file must start with}@}, is {@{`0x7F 'E' 'L' 'F'`}@}. Additionally, an ELF file has {@{a program header table at the beginning of the file right after the ELF header, and a section header table at the end of the file}@}. <!--SR:!2025-05-12,173,310!2024-12-24,68,310!2025-07-19,231,330!2025-05-22,170,310!2025-04-03,132,290-->
 
 The program header table {@{specifies how the process image is created, i.e. how the OS should map the memory of the new process to the ELF, i.e. segment (not section) information}@}. The section header table {@{identifies all the sections in an ELF file}@}. Examples of sections are: {@{`.text`, `.data`, `.bss`, `.rodata` (read-only data), etc.}@} <!--SR:!2024-12-15,66,310!2024-12-05,56,310!2025-07-01,216,330-->
 
 ## stack in x86 and x86-64 assembly
 
-Revisiting reverse 101... We will use {@{the Intel syntax}@} here. <!--SR:!2024-12-02,55,310-->
+Revisiting reverse 101... We will use {@{the Intel syntax}@} here. <!--SR:!2025-05-23,171,310-->
 
 In x86 and x86-64, there are {@{two registers related to the stack: `esp`/`rsp` and `ebp`/`rbp`}@}. (We will use the x86-64 registers thereafter.) <!--SR:!2025-03-26,140,310-->
 
@@ -82,7 +82,7 @@ The complete calling convention {@{would be too much to discuss here, so we will
 
 A stack/function frame is {@{a portion of the stack that belongs to one function only}@}. Each time {@{one calls a function}@}, {@{a stack/function frame is added on top of the old one}@}. Each time {@{one returns from a function}@}, {@{the current stack/function frame is cleared and the old (the frame for the callee) is restored}@}. `rsp` and `rbp` then refers to {@{respectively the top and the bottom of the topmost stack/function frame (so the current function frame is in between `rsp` and `rbp`)}@}. <!--SR:!2024-12-16,67,310!2025-04-25,160,310!2025-07-10,222,330!2024-12-17,68,310!2024-12-24,68,310!2025-05-29,185,310-->
 
-The detail process of creating a stack frame is {@{pushing `rbp` onto the stack (decrementing `rsp` at the same time) (`push rbp`), and then set `rbp` to `rsp` (`mov rbp rsp`)}@}. One may then note that {@{the current stack/function frame is empty as `rsp` equals `rbp`}@}. Reversing the above operations, i.e. {@{popping a value, previously pushed by `push rbp`, from the stack (incrementing `rsp` at the same time) and storing it to `rbp` (`pop rbp`)}@}, {@{restores the previous stack frame, given the current stack frame is empty}@}. If the current stack frame is {@{nonempty (`rsp` not equals `rbp`)}@}, then {@{simply clear the current stack frame by setting `rsp` to `rbp` (`mov rsp rbp`)}@}. These two operations are so common that {@{the operations have dedicated instructions respectively called `enter` and `leave`}@}. In practice, {@{`enter` has horrible performance so compilers almost always emit `push` and `mov` instead of a single `enter` instruction}@}, but {@{`leave` has okay performance and compilers may emit a single `leave` instruction instead of `mov` and `pop`}@}. <!--SR:!2024-12-06,57,310!2024-12-05,58,310!2025-04-24,159,310!2025-04-11,138,290!2025-07-14,226,330!2025-05-07,168,310!2025-07-04,218,330!2024-12-08,59,310!2024-12-03,56,310-->
+The detail process of creating a stack frame is {@{pushing `rbp` onto the stack (decrementing `rsp` at the same time) (`push rbp`), and then set `rbp` to `rsp` (`mov rbp rsp`)}@}. One may then note that {@{the current stack/function frame is empty as `rsp` equals `rbp`}@}. Reversing the above operations, i.e. {@{popping a value, previously pushed by `push rbp`, from the stack (incrementing `rsp` at the same time) and storing it to `rbp` (`pop rbp`)}@}, {@{restores the previous stack frame, given the current stack frame is empty}@}. If the current stack frame is {@{nonempty (`rsp` not equals `rbp`)}@}, then {@{simply clear the current stack frame by setting `rsp` to `rbp` (`mov rsp rbp`)}@}. These two operations are so common that {@{the operations have dedicated instructions respectively called `enter` and `leave`}@}. In practice, {@{`enter` has horrible performance so compilers almost always emit `push` and `mov` instead of a single `enter` instruction}@}, but {@{`leave` has okay performance and compilers may emit a single `leave` instruction instead of `mov` and `pop`}@}. <!--SR:!2024-12-06,57,310!2024-12-05,58,310!2025-04-24,159,310!2025-04-11,138,290!2025-07-14,226,330!2025-05-07,168,310!2025-07-04,218,330!2024-12-08,59,310!2025-08-04,244,330-->
 
 In System V AMD64 ABI, the process of creating and destroying a stack frame are {@{both done inside the callee}@}. The caller is responsible for {@{passing the arguments before calling the function and cleaning up the passed arguments after calling the function}@}. <!--SR:!2024-12-15,66,310!2025-03-30,139,310-->
 
@@ -92,7 +92,7 @@ To summarize, the process of calling a function is: {@{passing the arguments, ca
 
 ## GNU Debugger and pwndbg
 
-To {@{see the registers and the stack while running a program}@}, we will use {@{the GNU Debugger (`gdb`), which is only available on Linux}@}. But {@{the debugger is sometimes rather inconvenient to use for pwn}@}, so we will also use {@{a `gdb` plugin called `pwndbg` (URL: <https://github.com/pwndbg/pwndbg>)}@}. It {@{adds additional commands, and improve existing commands and views. These should make it easier to solve pwn challenges}@}. Install both of them first. <!--SR:!2025-05-31,187,310!2025-01-23,89,290!2024-12-02,55,310!2024-12-24,68,310!2024-12-03,56,310-->
+To {@{see the registers and the stack while running a program}@}, we will use {@{the GNU Debugger (`gdb`), which is only available on Linux}@}. But {@{the debugger is sometimes rather inconvenient to use for pwn}@}, so we will also use {@{a `gdb` plugin called `pwndbg` (URL: <https://github.com/pwndbg/pwndbg>)}@}. It {@{adds additional commands, and improve existing commands and views. These should make it easier to solve pwn challenges}@}. Install both of them first. <!--SR:!2025-05-31,187,310!2025-01-23,89,290!2025-07-27,236,330!2024-12-24,68,310!2025-08-06,246,330-->
 
 Let's learn some basic `gdb` commands (not exclusive to `pwndbg`):
 
@@ -107,7 +107,7 @@ Let's learn some basic `gdb` commands (not exclusive to `pwndbg`):
 - `delete [<breakpoint>]` ::@:: delete a breakpoint; if breakpoint is not specified, then delete all breakpoints <!--SR:!2024-12-24,68,310!2025-06-28,213,330-->
 - `info address <symbol>` ::@:: print the `<symbol>` (which can be a function name), its type, and its address <!--SR:!2024-12-08,59,310!2024-12-17,68,310-->
 - `info breakpoints|regs|threads`::@:: list breakpoints, register values, or threads <!--SR:!2024-12-24,68,310!2024-12-24,68,310-->
-- `backtrace` ::@:: print backtrace or call stack <!--SR:!2024-12-03,56,310!2024-12-05,58,310-->
+- `backtrace` ::@:: print backtrace or call stack <!--SR:!2025-08-03,243,330!2024-12-05,58,310-->
 - `ni` ::@:: go to the next instruction <!--SR:!2025-06-14,198,310!2025-07-16,228,330-->
 - `si` ::@:: go to the next instruction stepping into functions <!--SR:!2024-12-04,57,310!2024-12-11,62,310-->
 - `continue` ::@:: continue program execution <!--SR:!2025-07-22,233,330!2024-12-24,68,310-->
@@ -115,9 +115,9 @@ Let's learn some basic `gdb` commands (not exclusive to `pwndbg`):
 - `x/<format> <address>` ::@:: examine memory at the given address in the given format (see `help x`) <!--SR:!2024-12-05,56,310!2024-12-24,68,310-->
 - `print <expression>` ::@:: evaluate and print an expression <!--SR:!2024-12-24,68,310!2024-12-04,57,310-->
 - `record` ::@:: record execution of every instruction; can make the process run slowly <!--SR:!2024-12-24,68,310!2025-07-23,234,330-->
-- `rni` ::@:: rewind to the previous instruction <!--SR:!2024-12-07,60,310!2024-12-02,55,310-->
+- `rni` ::@:: rewind to the previous instruction <!--SR:!2024-12-07,60,310!2025-07-26,235,330-->
 - `rsi` ::@:: rewind to the previous instruction stepping into functions <!--SR:!2025-04-04,131,290!2024-12-05,56,310-->
-- `rc` ::@:: reverse continue <!--SR:!2025-06-22,208,330!2024-12-02,55,310-->
+- `rc` ::@:: reverse continue <!--SR:!2025-06-22,208,330!2025-07-26,235,330-->
 - `set <storage> = <value>` ::@:: set storage to value <!--SR:!2024-12-14,65,310!2025-07-06,220,330-->
 
 Let's also learn some basic `pwndbg` commands:
@@ -136,7 +136,7 @@ A buffer is {@{simply a portion of the memory used to store the data}@}. As {@{r
 
 The buffers we are usually interested in exploiting is {@{usually on the first three because we can write to the buffer}@}. We will only {@{focus on buffers on the stack because they are the easiest to exploit}@}. <!--SR:!2024-12-11,62,310!2025-05-15,174,310-->
 
-Buffer overflow, then, is {@{simply writing data outside the buffer}@}. Assume the buffer is {@{on the stack}@}. This is likely to {@{overwrite data on other unrelated buffers in the stack, corrupting them}@}. Usually, this {@{results in a program crash}@}. However, if we use buffer overflow to {@{write data to specific locations outside the buffer with specific values}@}, then we can {@{manipulate the program to do unintended things}@}. In CTFs, {@{this is used to find the flag in pwn challenges}@}. <!--SR:!2025-07-15,227,330!2024-12-07,60,310!2025-07-02,217,330!2024-12-04,57,310!2024-12-03,56,310!2025-07-10,224,330!2024-12-09,60,310-->
+Buffer overflow, then, is {@{simply writing data outside the buffer}@}. Assume the buffer is {@{on the stack}@}. This is likely to {@{overwrite data on other unrelated buffers in the stack, corrupting them}@}. Usually, this {@{results in a program crash}@}. However, if we use buffer overflow to {@{write data to specific locations outside the buffer with specific values}@}, then we can {@{manipulate the program to do unintended things}@}. In CTFs, {@{this is used to find the flag in pwn challenges}@}. <!--SR:!2025-07-15,227,330!2024-12-07,60,310!2025-07-02,217,330!2024-12-04,57,310!2025-08-05,245,330!2025-07-10,224,330!2024-12-09,60,310-->
 
 There are many ways to {@{manipulate the program using buffer overflow}@}, and we will {@{talk about only one interesting way related to function calls}@}. Recall that calling a function via `call` {@{pushes the address to jump to (the next instruction after `call` in the memory) after the function finishes to the stack}@}, and that the function returns {@{via `ret`, which pops the address that we have pushed before calling the function from the stack and jumps back to it, finishing the function call}@}. Using buffer overflow, we can {@{write to that location in the stack and change it to any value we want}@}. Then, when {@{the functions returns via `ret`}@}, instead of {@{jumping back to the caller, it jumps to an arbitrary location that we can freely specify}@}. <!--SR:!2024-12-24,68,310!2025-04-15,152,310!2025-03-24,139,290!2025-02-24,103,290!2025-07-17,229,330!2025-07-16,228,330!2025-01-06,81,329-->
 
@@ -151,7 +151,7 @@ for (size_t idx = 0; idx <= 4; ++idx) { // Notice the `<=`.
 }
 ```
 
-The above example demonstrates how buffer overflow actually happens. The cases we are usually more interested in is {@{unsafe C string functions that accepts inputs (best if they can be provided by the user directly or indirectly) and writes to other buffers}@}, such as {@{`gets`, `scanf`, `strcpy`, etc.}@} These functions are vulnerable because {@{they will write to the buffer as long as there is data in the input without taking the buffer size into consideration at all}@}. So if {@{the input data is too large to be fit into the destination buffers}@}, then {@{a buffer overflow occurs as the excess data is written past the end of the destination buffers}@}, similar to the example above. An example: <!--SR:!2024-12-12,63,310!2024-12-03,56,310!2025-04-19,161,310!2025-05-28,186,310!2024-12-16,67,310-->
+The above example demonstrates how buffer overflow actually happens. The cases we are usually more interested in is {@{unsafe C string functions that accepts inputs (best if they can be provided by the user directly or indirectly) and writes to other buffers}@}, such as {@{`gets`, `scanf`, `strcpy`, etc.}@} These functions are vulnerable because {@{they will write to the buffer as long as there is data in the input without taking the buffer size into consideration at all}@}. So if {@{the input data is too large to be fit into the destination buffers}@}, then {@{a buffer overflow occurs as the excess data is written past the end of the destination buffers}@}, similar to the example above. An example: <!--SR:!2024-12-12,63,310!2025-08-02,242,330!2025-04-19,161,310!2025-05-28,186,310!2024-12-16,67,310-->
 
 ```C
 char buffer[4];
@@ -167,7 +167,7 @@ Once you have found code that is vulnerable to buffer overflows, {@{identify wha
 
 To help with this process, there are {@{some tools available}@}. Three tools are {@{`pwntools`, `gdb`, and `patchelf`}@}. <!--SR:!2024-12-17,68,310!2024-12-17,68,310-->
 
-`pwntools` (URL: {@{<https://github.com/Gallopsled/pwntools>}@}) is {@{a Python package that contains many functions for pwn}@}. To use it, {@{import from the Python package using `import pwn` (not `import pwntools`)}@}. To {@{help see what is going on by logging more info}@}, we can {@{set the `pwntools` log level to debug using `pwn.context.log_level = "debug"`}@}. To {@{encode an address as bytes (in little-endian form for x86 and x86-64)}@}, we can {@{use `pwn.p64(<address>) -> bytes`. For example, `pwn.p64(0xdeadbeeffacedead) == b'\xad\xde\xce\xfa\xef\xbe\xad\xde'`}@}. <!--SR:!2024-12-03,56,310!2024-12-06,59,310!2025-06-09,194,310!2024-12-07,60,310!2025-05-14,165,310!2024-12-24,68,310!2025-06-23,205,310-->
+`pwntools` (URL: {@{<https://github.com/Gallopsled/pwntools>}@}) is {@{a Python package that contains many functions for pwn}@}. To use it, {@{import from the Python package using `import pwn` (not `import pwntools`)}@}. To {@{help see what is going on by logging more info}@}, we can {@{set the `pwntools` log level to debug using `pwn.context.log_level = "debug"`}@}. To {@{encode an address as bytes (in little-endian form for x86 and x86-64)}@}, we can {@{use `pwn.p64(<address>) -> bytes`. For example, `pwn.p64(0xdeadbeeffacedead) == b'\xad\xde\xce\xfa\xef\xbe\xad\xde'`}@}. <!--SR:!2025-08-05,245,330!2024-12-06,59,310!2025-06-09,194,310!2024-12-07,60,310!2025-05-14,165,310!2024-12-24,68,310!2025-06-23,205,310-->
 
 Using `gdb`, we can {@{find the address of a buffer (to find the addresses of the old `rbp` and old `rsp` in the stack) or a function (to find targets to jump to)}@}. To find the address of a local buffer in a function, we can use {@{`disassemble <address|function>` to disassemble a function and figure out the offset of a local buffer from the `rbp`}@}. (A quick note: The declaration order of local variables in C {@{do not necessarily correspond to their positions on the stack}@}.) To {@{find the address of a function}@}, use {@{the `info address <symbol>` command and replace `<symbol>` with the function name}@}. <!--SR:!2025-05-02,165,310!2024-12-24,68,310!2025-05-12,172,310!2025-05-11,171,310!2024-12-11,62,310-->
 
@@ -191,7 +191,7 @@ If so, you are good to go! Otherwise, try harder.
 
 ## protection
 
-There are {@{protection schemes to inhibit exploitation of buffer overflow even if they exist}@}. We will talk about {@{two of them: [stack canaries](#stack%20canaries) and [address randomization](#address%20randomization)}@}. Of course, there is always the solution of {@{[avoiding buffer overflows](#avoiding%20buffer%20overflows) in the first place}@}. <!--SR:!2024-12-02,55,310!2024-12-24,68,310!2024-12-14,65,310-->
+There are {@{protection schemes to inhibit exploitation of buffer overflow even if they exist}@}. We will talk about {@{two of them: [stack canaries](#stack%20canaries) and [address randomization](#address%20randomization)}@}. Of course, there is always the solution of {@{[avoiding buffer overflows](#avoiding%20buffer%20overflows) in the first place}@}. <!--SR:!2025-07-29,238,330!2024-12-24,68,310!2024-12-14,65,310-->
 
 We should know these protection so that {@{we can bypass them in pwn challenges}@}. To see what protections has been enabled for an executale, {@{run the `pwndbg` command `checksec`}@}. It will print {@{a list of protections and their status, some of which are not introduced here and you will need to look them up yourself}@}. For example: <!--SR:!2024-12-09,60,310!2024-12-24,68,310!2025-05-16,175,310-->
 
@@ -209,7 +209,7 @@ pwndbg> checksec
 
 The best way to avoid buffer overflows being exploited is {@{simply not have buffer overflows in the first place}@}. <!--SR:!2025-03-27,136,310-->
 
-Recall unsafe C functions can lead to buffer overflows. There are {@{safe versions of them, usually named by appending `_s`, e.g. `gets_s`, `scanf_s`, `strcpy_s`}@}. They are safe because {@{they require an additional argument stating the buffer size (including the null terminator), and they will not attempt to write beyond the specified size}@}. However, if {@{the provided buffer size is larger than the actual buffer size}@}, then {@{buffer overflow is still possible}@}. For example: <!--SR:!2025-06-23,209,330!2025-02-08,90,270!2024-12-02,55,310!2025-05-29,187,310-->
+Recall unsafe C functions can lead to buffer overflows. There are {@{safe versions of them, usually named by appending `_s`, e.g. `gets_s`, `scanf_s`, `strcpy_s`}@}. They are safe because {@{they require an additional argument stating the buffer size (including the null terminator), and they will not attempt to write beyond the specified size}@}. However, if {@{the provided buffer size is larger than the actual buffer size}@}, then {@{buffer overflow is still possible}@}. For example: <!--SR:!2025-06-23,209,330!2025-02-08,90,270!2025-08-01,241,330!2025-05-29,187,310-->
 
 ```C
 int buffer[4];
@@ -224,11 +224,11 @@ In the real world, canaries are birds used {@{to detect toxic gases in coal mine
 
 In buffer overflow, stack canary is {@{a 32 or 64-bit value on top of the old `rip` and `rbp` but below the local variables in the stack}@}. The stack canary is {@{checked to be unmodified before returning from the function, printing an error and terminating the program if modified}@}. This inhibits {@{exploitation of buffer overflow because overwriting the old `rip` and `rbp` also involves overwriting the stack canary}@}. <!--SR:!2024-12-08,59,310!2024-12-24,68,310!2024-12-24,68,310-->
 
-Usually, the stack canary is {@{random, so that the attacker cannot know the stack canary and very likely modifies the stack canary}@}. It is {@{unlikely the attacker can guess the canary as the stack canary has 64 or 56 of its bits random}@}. The stack canary can be {@{either fully random (_random canary_); or fully random except that its least significant bit (low address) is always the zero byte `\x00`, i.e. the null terminator (_terminator canary_); or XOR-ed with a piece of control data (_random XOR canary_)}@}. <!--SR:!2025-03-28,137,310!2024-12-17,68,310!2024-12-02,55,310-->
+Usually, the stack canary is {@{random, so that the attacker cannot know the stack canary and very likely modifies the stack canary}@}. It is {@{unlikely the attacker can guess the canary as the stack canary has 64 or 56 of its bits random}@}. The stack canary can be {@{either fully random (_random canary_); or fully random except that its least significant bit (low address) is always the zero byte `\x00`, i.e. the null terminator (_terminator canary_); or XOR-ed with a piece of control data (_random XOR canary_)}@}. <!--SR:!2025-03-28,137,310!2024-12-17,68,310!2025-05-24,172,310-->
 
 We will only discuss _terminator canary_ in more details. In particular, {@{many C string functions treat the null terminator as the end of string}@}. So if {@{an attacker were to read the canary value for exploitation}@}, {@{C string reading functions would read the null terminator at the low address and then stop, so the more significant bits of the canary value are unleaked}@}. Even if {@{the attacker knows the canary value to be written and include it in the payload}@}, {@{C string writing functions cannot write past the canary value because they would think the payload ends at the null terminator}@}. However, {@{non-string functions are not affected by the above, as they do not treat the null terminator specially}@}. <!--SR:!2025-03-15,131,310!2024-12-05,56,310!2024-12-24,68,310!2024-12-06,59,310!2025-05-24,182,310!2025-05-25,182,310-->
 
-As mentioned above, stack canary can be bypassed {@{if you know the canary value and is able to write past the canary}@}. The canary value {@{may be obtained by another buffer overflow that causes the canary value to be leaked}@}. <!--SR:!2025-04-06,144,310!2024-12-02,55,310-->
+As mentioned above, stack canary can be bypassed {@{if you know the canary value and is able to write past the canary}@}. The canary value {@{may be obtained by another buffer overflow that causes the canary value to be leaked}@}. <!--SR:!2025-04-06,144,310!2025-07-31,240,330-->
 
 ### address randomization
 

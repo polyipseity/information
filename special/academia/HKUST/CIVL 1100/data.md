@@ -36,7 +36,7 @@ See [Akashi Kaikyo Bridge](../../../../general/Akashi%20Kaikyo%20Bridge.md).
 
 See [Beijing National Stadium](../../../../general/Beijing%20National%20Stadium).
 
-- description ::@:: stadium in Beijing, China <!--SR:!2024-12-02,182,310!2025-04-05,299,350-->
+- description ::@:: stadium in Beijing, China <!--SR:!2027-01-19,777,330!2025-04-05,299,350-->
 - image ::@:: ![Beijing National Stadium image](../../../../archives/Wikimedia%20Commons/Beijing%20National%20Stadium%20from%20the%20Central%20Axis%20(20220905140702)%20(cropped).jpg) <!--SR:!2025-07-19,350,380!2025-11-20,457,400-->
 - shape ::@:: [bird nest](../../../../general/bird%20nest.md) <!--SR:!2025-07-20,342,372!2025-09-09,404,385-->
 
@@ -137,7 +137,7 @@ See [Great Pyramid of Giza](../../../../general/Great%20Pyramid%20of%20Giza.md).
 - base width ::@:: 230.33 m <!--SR:!2024-12-17,61,356!2026-05-26,569,396-->
 - construction period ::@:: 10~20 years around 2560 BC <!--SR:!2025-01-01,68,216!2026-02-17,488,396-->
 - description ::@:: largest pyramid in the Giza Necropolis, Egypt <!--SR:!2026-06-05,605,416!2026-11-12,742,416-->
-- height ::@:: current: 138.5 m, original: 146.6 m <!--SR:!2024-12-03,141,356!2026-04-26,540,396-->
+- height ::@:: current: 138.5 m, original: 146.6 m <!--SR:!2025-02-12,71,336!2026-04-26,540,396-->
 - weight ::@:: 5.9 million tonnes <!--SR:!2025-04-19,170,356!2026-12-18,768,416-->
 - tomb for ::@:: Egypt's 4th dynasty pharaoh Khufu <!--SR:!2026-01-21,457,376!2025-05-07,264,376-->
 

@@ -47,7 +47,7 @@ Parent parent(Child(*)());
 
 ## solutions
 
-The required interpretation of {@{a function declaration for the above ambiguous grammar is rarely the intended one}@}. To force the interpretation of a variable initialization, the typical solution is {@{using an alternative syntax that is unambiguous}@}. <!--SR:!2025-03-01,274,330!2024-12-02,188,310-->
+The required interpretation of {@{a function declaration for the above ambiguous grammar is rarely the intended one}@}. To force the interpretation of a variable initialization, the typical solution is {@{using an alternative syntax that is unambiguous}@}. <!--SR:!2025-03-01,274,330!2027-02-17,807,330-->
 
 ### solutions for C-style casts
 

@@ -66,7 +66,7 @@ C$: [cost structure](#cost%20structure)
 - CR: [customer relationships](#customer%20relationships)→::@::←R$: [revenue streams](#revenue%20streams) <!--SR:!2025-01-20,63,214!2025-06-17,288,292-->
 - R$: [revenue streams](#revenue%20streams)→::@::←KR: [key resources](#key%20resources) <!--SR:!2025-08-20,304,257!2025-06-12,259,257-->
 - KR: [key resources](#key%20resources)→::@::←KA: [key activities](#key%20activities) <!--SR:!2025-10-15,333,257!2025-03-14,218,274-->
-- KA: [key activities](#key%20activities)→::@::←KP: [key partnerships](#key%20partnerships) <!--SR:!2024-12-02,139,257!2025-04-18,151,234-->
+- KA: [key activities](#key%20activities)→::@::←KP: [key partnerships](#key%20partnerships) <!--SR:!2026-04-20,503,277!2025-04-18,151,234-->
 - KP: [key partnerships](#key%20partnerships)→::@::←C$: [cost structure](#cost%20structure) <!--SR:!2025-04-16,154,237!2025-05-26,268,274-->
 - C$: [cost structure](#cost%20structure)→::@::←_(end)_ <!--SR:!2025-01-30,219,314!2025-01-14,207,314-->
 
@@ -166,7 +166,7 @@ risk reduction
 - _(begin)_→::@::←accessibility <!--SR:!2025-06-10,276,277!2025-04-18,281,334-->
 - accessibility→::@::←brand or status <!--SR:!2025-06-19,261,254!2025-02-15,196,274-->
 - brand or status→::@::←convenience or usability <!--SR:!2025-03-27,135,214!2024-12-05,93,214-->
-- convenience or usability→::@::←cost reduction <!--SR:!2025-11-15,394,274!2024-12-02,101,237-->
+- convenience or usability→::@::←cost reduction <!--SR:!2025-11-15,394,274!2025-11-05,337,257-->
 - cost reduction→::@::←customization <!--SR:!2025-05-10,254,274!2025-01-29,104,177-->
 - customization→::@::←design <!--SR:!2024-12-31,99,257!2026-01-27,426,254-->
 - design→::@::←newness <!--SR:!2025-04-26,228,257!2024-12-21,65,234-->
@@ -266,7 +266,7 @@ subscription fee
 - _(begin)_→::@::←advertising <!--SR:!2025-05-02,251,274!2025-02-25,224,317-->
 - advertising→::@::←asset sale <!--SR:!2025-10-24,381,294!2026-05-10,528,317-->
 - asset sale→::@::←brokerage fee <!--SR:!2024-12-04,152,274!2025-02-22,177,274-->
-- brokerage fee→::@::←lending, renting, or leasing <!--SR:!2024-12-02,62,217!2025-09-18,322,254-->
+- brokerage fee→::@::←lending, renting, or leasing <!--SR:!2025-06-13,192,237!2025-09-18,322,254-->
 - lending, renting, or leasing→::@::←licensing <!--SR:!2025-04-03,223,257!2024-12-05,91,254-->
 - licensing→::@::←usage fee <!--SR:!2025-03-07,207,274!2025-06-03,198,254-->
 - usage fee→::@::←subscription fee <!--SR:!2025-08-04,291,254!2025-02-26,206,277-->

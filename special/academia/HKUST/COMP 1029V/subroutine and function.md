@@ -19,7 +19,7 @@ In VBA, both subroutine `Sub...End Sub` and function `Function...End Function` {
 
 ## exiting
 
-You can exit a subroutine or function by {@{`Exit Sub` and `Exit Function`}@}. <!--SR:!2024-12-03,218,310-->
+You can exit a subroutine or function by {@{`Exit Sub` and `Exit Function`}@}. <!--SR:!2027-06-29,938,330-->
 
 For functions, there is no `return` keyword. Instead, it is accomplished by doing two things: {@{setting the result by `FunctionName = Result` and then exiting the function}@}: <!--SR:!2026-08-19,694,330-->
 
