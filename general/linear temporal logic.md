@@ -197,5 +197,5 @@ This text incorporates [content](https://en.wikipedia.org/wiki/linear_temporal_l
 
 - [A presentation of LTL](http://www.dcs.qmul.ac.uk/~pm/SaR/2004ltl.pdf)
 - [Linear-Time Temporal Logic and Büchi Automata](http://www.cmi.ac.in/~madhavan/papers/pdf/isical97.pdf)
-- [LTL Teaching slides](http://www.inf.unibz.it/~artale/FM/slide3.pdf) of professor [Alessandro Artale](Alessandro%20Artale%20(page%20does%20not%20exist).md) at the [Free University of Bozen-Bolzano](Free%20University%20of%20Bozen-Bolzano.md)
+- [LTL Teaching slides](http://www.inf.unibz.it/~artale/FM/slide3.pdf) of professor [Alessandro Artale](Alessandro%20Artale.md) at the [Free University of Bozen-Bolzano](Free%20University%20of%20Bozen-Bolzano.md)
 - [LTL to Buchi translation algorithms](https://web.archive.org/web/20090830133455/http://spot.lip6.fr/wiki/LtlTranslationAlgorithms) a genealogy, from the website of [Spot](http://spot.lip6.fr/) a library for model checking.
