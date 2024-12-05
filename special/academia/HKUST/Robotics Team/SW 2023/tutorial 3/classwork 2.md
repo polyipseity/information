@@ -12,7 +12,7 @@ If we need a frequency output of 50Hz and on-time of 0.5ms, what are the possibl
 > [!success] solution
 >
 > $$\begin{aligned}
-> \mathrm{duty\ cycle}&=\frac{\frac{0.5}{1000}@}{\frac1{50}@}\\
+> \mathrm{duty\ cycle}&=\frac{\frac{0.5}{1000} }{\frac1{50} }\\
 > &=\frac{25}{1000}\\
 > &=\frac1{40}\\
 > 40&\mid\mathrm{autoreload}+1\\

@@ -165,7 +165,7 @@ $$\int_{a - \frac 1 2}^{a + \frac 1 2} \! \ln x \,\mathrm{d}x \le \ln a \qquad \
 > & \text{Its area is }\left( a + \frac 1 2 - \left( a - \frac 1 2 \right) \right) \ln a = \ln a\text{.} \\
 > & \text{Rotate the graph of }y = \ln a\text{ with }(a, \ln a)\text{ as the pivot} \\
 > & \text{such that the graph becomes tangent to}\ln x\text{ at }(a, \ln a)\text{,} \\
-> & \text{i.e. }y = \left( \frac{\mathrm{d}@}{\mathrm{d}u}\Bigr|_{u = a} \ln u \right) (x - a) + \ln a\text{.} \\
+> & \text{i.e. }y = \left( \frac{\mathrm{d} }{\mathrm{d}u}\Bigr|_{u = a} \ln u \right) (x - a) + \ln a\text{.} \\
 > & \text{The rectangle becomes a trapezium.} \\
 > & \text{The area of the trapezium is the same as the rectangle because} \\
 > & \text{the left side decreases by as much as the right side increases.} \\
@@ -173,8 +173,8 @@ $$\int_{a - \frac 1 2}^{a + \frac 1 2} \! \ln x \,\mathrm{d}x \le \ln a \qquad \
 > & \text{the tangent line is always higher than }\ln x\text{ except at }a\text{,} \\
 > & \text{where they meet.} \\
 > & \text{Then,} \\
-> & \begin{aligned} \ln x & \le \left( \frac{\mathrm{d}@}{\mathrm{d}u}\Bigr|_{u = a} \ln u \right) (x - a) + \ln a && \left( x \in \left[ a - \frac 1 2, a + \frac 1 2 \right] \right) \\
-> \int_{a - \frac 1 2}^{a + \frac 1 2} \! \ln x \,\mathrm{d}x & \le \int_{a - \frac 1 2}^{a + \frac 1 2} \! \left( \left( \frac{\mathrm{d}@}{\mathrm{d}u}\Bigr|_{u = a} \ln u \right) (x - a) + \ln a \right) \,\mathrm{d}x \\
+> & \begin{aligned} \ln x & \le \left( \frac{\mathrm{d} }{\mathrm{d}u}\Bigr|_{u = a} \ln u \right) (x - a) + \ln a && \left( x \in \left[ a - \frac 1 2, a + \frac 1 2 \right] \right) \\
+> \int_{a - \frac 1 2}^{a + \frac 1 2} \! \ln x \,\mathrm{d}x & \le \int_{a - \frac 1 2}^{a + \frac 1 2} \! \left( \left( \frac{\mathrm{d} }{\mathrm{d}u}\Bigr|_{u = a} \ln u \right) (x - a) + \ln a \right) \,\mathrm{d}x \\
 > & \le \int_{a - \frac 1 2}^{a + \frac 1 2} \! \ln a \,\mathrm{d}x && (\text{the trapezium and the rectangle have the same area}) \\
 > & \le \left( a + \frac 1 2 - \left( a - \frac 1 2 \right) \right) \ln a \\
 > & \le \ln a \end{aligned} \\
@@ -263,9 +263,9 @@ $$\sum_{k = 1}^n \sin kt = \frac {\cos \frac t 2 - \cos \left( n + \frac 1 2 \ri
 > & \text{Alternatively,} \\
 > & \begin{aligned} \sum_{k = 1}^n \sin kt & = \sum_{k = 1}^n \operatorname{Im} \left\{ e^{kti} \right\} \\
 > & = \operatorname{Im} \left\{ \sum_{k = 1}^n e^{kti} \right\} \\
-> & = \operatorname{Im} \left\{ \frac {e^{(n + 1)ti} - e^{ti}@} {e^{ti} - 1} \right\} \\
-> & = \operatorname{Im} \left\{ \frac {e^{\left( n + \frac 1 2 \right) ti} - e^{\frac t 2 i}@} {e^{\frac t 2 i} - e^{-\frac t 2 i}@} \right\} \\
-> & = \operatorname{Im} \left\{ \frac {e^{\left( n + \frac 1 2 \right) ti} - e^{\frac t 2 i}@} {2i \sin \frac t 2} \right\} \\
+> & = \operatorname{Im} \left\{ \frac {e^{(n + 1)ti} - e^{ti} } {e^{ti} - 1} \right\} \\
+> & = \operatorname{Im} \left\{ \frac {e^{\left( n + \frac 1 2 \right) ti} - e^{\frac t 2 i} } {e^{\frac t 2 i} - e^{-\frac t 2 i} } \right\} \\
+> & = \operatorname{Im} \left\{ \frac {e^{\left( n + \frac 1 2 \right) ti} - e^{\frac t 2 i} } {2i \sin \frac t 2} \right\} \\
 > & = \operatorname{Im} \left\{ \frac {\cos \left( n + \frac 1 2 \right) t + i \sin \left( n + \frac 1 2 \right) t - \cos \frac t 2 - i \sin \frac t 2} {2i \sin \frac t 2} \right\} \\
 > & = \operatorname{Im} \left\{ \frac {-i \cos \left( n + \frac 1 2 \right) t + \sin \left( n + \frac 1 2 \right) t + i \cos \frac t 2 - \sin \frac t 2} {2 \sin \frac t 2} \right\} \\
 > & = \frac {\cos \frac t 2 - \cos \left( n + \frac 1 2 \right) t} {2 \sin \frac t 2} \end{aligned}
@@ -281,12 +281,12 @@ from the definition of a Riemann integral.
 
 > $$\begin{aligned}
 > \int_0^a \! \sin t \,\mathrm{d}t & = \lim_{n \to +\infty} \frac a n \sum_{k = 1}^n \sin k \frac a n \\
-> & = \lim_{n \to +\infty} \frac a n \frac {\cos \frac a {2n} - \cos \left( n + \frac 1 2 \right) \frac a n } {2 \sin \frac a {2n}@} && \left( (\forall a \in \mathbb{R}_{> 0})(\exists N \in \mathbb{N}_{\ne 0})(\forall n \in \mathbb{N}_{\ne 0}) \left( n \ge N \implies \sin \frac a {2n} \ne 0 \right) \right) \\
+> & = \lim_{n \to +\infty} \frac a n \frac {\cos \frac a {2n} - \cos \left( n + \frac 1 2 \right) \frac a n } {2 \sin \frac a {2n} } && \left( (\forall a \in \mathbb{R}_{> 0})(\exists N \in \mathbb{N}_{\ne 0})(\forall n \in \mathbb{N}_{\ne 0}) \left( n \ge N \implies \sin \frac a {2n} \ne 0 \right) \right) \\
 > & = \lim_{n \to +\infty} \frac a n \frac {2 \sin \frac {n + 1} 2 \frac a n \sin \frac n 2 \frac a n} { 2 \sin \frac a {2n} } \\
 > & = \lim_{n \to +\infty} \frac a n \frac {\sin \frac {na + a} {2n} \sin \frac a 2} { \sin \frac a {2n} } \\
 > & = \lim_{n \to +\infty} \frac a n \left( \sin \frac a 2 \right) \frac {\sin \frac a 2 \cos \frac a {2n} + \sin \frac a {2n} \cos \frac a 2} { \sin \frac a {2n} } \\
 > & = \lim_{n \to +\infty} \frac a n \left( \sin^2 \frac a 2 \cot \frac a {2n} + \sin \frac a 2 \cos \frac a 2 \right) \\
-> & = \lim_{n \to +\infty} \left(2 \sin^2 \frac a 2 \frac {\frac a {2n}@} {\tan \frac a {2n}@} + \frac a n \sin \frac a 2 \cos \frac a 2 \right) \\
+> & = \lim_{n \to +\infty} \left(2 \sin^2 \frac a 2 \frac {\frac a {2n} } {\tan \frac a {2n} } + \frac a n \sin \frac a 2 \cos \frac a 2 \right) \\
 > & = 2 \sin^2 \frac a 2 \\
 > & = 1 - \cos a
 > \end{aligned}$$

@@ -31,9 +31,9 @@ When $f$ is {@{$f: \mathbb{R} \to \mathbb{R}_{\ne 0}$, then the logarithmic deri
 >
 > - $f := (7xy)^5, \operatorname{Logder}(f) = ?$ :@: $\operatorname{Logder}(f) = 5 \frac {x'} x + 5 \frac {y'} y$
 > - $f := -2.692u, \operatorname{Logder}(f) = ?$ :@: $\operatorname{Logder} = \frac {u'} u$
-> - $f := -\frac {(78.38uvw)^{8.39}@} {(59.2xy)^{9682} z^{-386}@}, \operatorname{Logder}(f) = ?$ :@: $\operatorname{Logder}(f) = 8.39 \frac {u'} u + 8.39 \frac {v'} v + 8.39 \frac {w'} w - 9682 \frac {x'} x - 9682 \frac {y'} y + 386 \frac {z'} z$
+> - $f := -\frac {(78.38uvw)^{8.39} } {(59.2xy)^{9682} z^{-386} }, \operatorname{Logder}(f) = ?$ :@: $\operatorname{Logder}(f) = 8.39 \frac {u'} u + 8.39 \frac {v'} v + 8.39 \frac {w'} w - 9682 \frac {x'} x - 9682 \frac {y'} y + 386 \frac {z'} z$
 > - $f := 4 x^{2y}, \operatorname{Logder}(f) = ?$ :@: $\operatorname{Logder}(f) = 2y \frac {x'} x + 2y' \ln x \qquad x > 0$
-> - $f := e^{x^{-2}@} (x - 3)^2 \left(z^2 + 1\right)^{42} (y - 5)^{x^2}, \operatorname{Logder}(f) = ?$ :@: $\operatorname{Logder}(f) = -2 x^{-3} x' + 2 \frac {x'} {x - 3} + 42 \frac {2zz'} {z^2 + 1} + x^2 \frac {y'} {y - 5} + 2xx' \ln (y - 5) \qquad y > 5$
+> - $f := e^{x^{-2} } (x - 3)^2 \left(z^2 + 1\right)^{42} (y - 5)^{x^2}, \operatorname{Logder}(f) = ?$ :@: $\operatorname{Logder}(f) = -2 x^{-3} x' + 2 \frac {x'} {x - 3} + 42 \frac {2zz'} {z^2 + 1} + x^2 \frac {y'} {y - 5} + 2xx' \ln (y - 5) \qquad y > 5$
 
 ## references
 

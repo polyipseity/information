@@ -66,9 +66,9 @@ Since [C++11](C++11.md), the preferred solution is {@{using uniform brace initia
 // Any one works:
 Parent parent(Child{});
 Parent parent{Child()};
-Parent parent{Child{}@};
+Parent parent{Child{}};
 Parent parent(     {});
-Parent parent{     {}@};
+Parent parent{     {}};
 ```
 
 Before [C++11](C++11.md), the two common solutions are {@{using extra parentheses or copy-initialization}@}:
