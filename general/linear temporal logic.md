@@ -96,16 +96,16 @@ Let φ, ψ, and ρ be LTL formulas. The following tables list {@{some of the use
 - finally and globally distributivity ::@:: __F__ \(φ ∨ ψ\) ≡ \(<!-- markdown separator -->__F__ φ\) ∨ \(<!-- markdown separator -->__F__ ψ\) <br/> __G__ \(φ ∧ ψ\) ≡ \(<!-- markdown separator -->__G__ φ\) ∧ \(<!-- markdown separator -->__G__ ψ\)
 - until distributivity ::@:: ρ __U__ \(φ ∨ ψ\) ≡ \(ρ __U__ φ\) ∨ \(ρ __U__ ψ\) <br/> \(φ ∧ ψ\) __U__ ρ ≡ \(φ __U__ ρ\) ∧ \(ψ __U__ ρ\)
 
-| Negation propagation                           |                                                |                                   |                                   |
-| ---------------------------------------------- | ---------------------------------------------- | --------------------------------- | --------------------------------- |
-| ___X__ is self-dual_                           | ___F__ and __G__ are dual_                     | ___U__ and __R__ are dual_        | ___W__ and __M__ are dual_        |
-| ¬<!-- markdown separator -->__X__ φ ≡ __X__ ¬φ | ¬<!-- markdown separator -->__F__ φ ≡ __G__ ¬φ | ¬ \(φ __U__ ψ\) ≡ \(¬φ __R__ ¬ψ\) | ¬ \(φ __W__ ψ\) ≡ \(¬φ __M__ ¬ψ\) |
-|                                                | ¬<!-- markdown separator -->__G__ φ ≡ __F__ ¬φ | ¬ \(φ __R__ ψ\) ≡ \(¬φ __U__ ¬ψ\) | ¬ \(φ __M__ ψ\) ≡ \(¬φ __W__ ¬ψ\) |
+| Negation propagation                            |                                                       |                                                       |                                                       |
+| ----------------------------------------------- | ----------------------------------------------------- | ----------------------------------------------------- | ----------------------------------------------------- |
+| _<!-- markdown separator -->__X__ is self-dual_ | _<!-- markdown separator -->__F__ and __G__ are dual_ | _<!-- markdown separator -->__U__ and __R__ are dual_ | _<!-- markdown separator -->__W__ and __M__ are dual_ |
+| ¬<!-- markdown separator -->__X__ φ ≡ __X__ ¬φ  | ¬<!-- markdown separator -->__F__ φ ≡ __G__ ¬φ        | ¬ \(φ __U__ ψ\) ≡ \(¬φ __R__ ¬ψ\)                     | ¬ \(φ __W__ ψ\) ≡ \(¬φ __M__ ¬ψ\)                     |
+|                                                 | ¬<!-- markdown separator -->__G__ φ ≡ __F__ ¬φ        | ¬ \(φ __R__ ψ\) ≡ \(¬φ __U__ ¬ψ\)                     | ¬ \(φ __M__ ψ\) ≡ \(¬φ __W__ ¬ψ\)                     |
 
-- ___X__ is self-dual_ ::@:: ¬<!-- markdown separator -->__X__ φ ≡ __X__ ¬φ
-- ___F__ and __G__ are dual_ ::@:: ¬<!-- markdown separator -->__F__ φ ≡ __G__ ¬φ <br/> ¬<!-- markdown separator -->__G__ φ ≡ __F__ ¬φ
-- ___U__ and __R__ are dual_ ::@:: ¬ \(φ __U__ ψ\) ≡ \(¬φ __R__ ¬ψ\) <br/> ¬ \(φ __R__ ψ\) ≡ \(¬φ __U__ ¬ψ\)
-- ___W__ and __M__ are dual_ ::@:: ¬ \(φ __W__ ψ\) ≡ \(¬φ __M__ ¬ψ\) <br/> ¬ \(φ __M__ ψ\) ≡ \(¬φ __W__ ¬ψ\)
+- _<!-- markdown separator -->__X__ is self-dual_ ::@:: ¬<!-- markdown separator -->__X__ φ ≡ __X__ ¬φ
+- _<!-- markdown separator -->__F__ and __G__ are dual_ ::@:: ¬<!-- markdown separator -->__F__ φ ≡ __G__ ¬φ <br/> ¬<!-- markdown separator -->__G__ φ ≡ __F__ ¬φ
+- _<!-- markdown separator -->__U__ and __R__ are dual_ ::@:: ¬ \(φ __U__ ψ\) ≡ \(¬φ __R__ ¬ψ\) <br/> ¬ \(φ __R__ ψ\) ≡ \(¬φ __U__ ¬ψ\)
+- _<!-- markdown separator -->__W__ and __M__ are dual_ ::@:: ¬ \(φ __W__ ψ\) ≡ \(¬φ __M__ ¬ψ\) <br/> ¬ \(φ __M__ ψ\) ≡ \(¬φ __W__ ¬ψ\)
 
 | Special temporal properties                                                          |                                                                                      |                                                                        |
 | ------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------ | ---------------------------------------------------------------------- |
