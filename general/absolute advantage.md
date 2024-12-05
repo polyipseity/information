@@ -50,9 +50,9 @@ You and your friends decided to help with fundraising for a local charity group 
 
 ## further reading
 
-- Irwin, Douglas A. (1996). [_Against the Tide: An Intellectual History of Free Trade_](https://archive.org/details/againsttideintel00irwi). Princeton University Press. [ISBN](ISBN.md) [978-0691058962](https://en.wikipedia.org/wiki/Special%3ABookSources/978-0691058962).
-- Smith, Adam (1776). _An Inquiry into the Nature and Causes of the Wealth of Nations (Vol 1)_. [ISBN](ISBN.md) [978-0865970069](https://en.wikipedia.org/wiki/Special%3ABookSources/978-0865970069).
-- Schumpeter, Joseph A. (1954). _History of economic analysis_. Routledge. [ISBN](ISBN.md) [9781134838707](https://en.wikipedia.org/wiki/Special%3ABookSources/9781134838707).
+- Irwin, Douglas A. (1996). [_Against the Tide: An Intellectual History of Free Trade_](https://archive.org/details/againsttideintel00irwi). Princeton University Press. [ISBN](ISBN.md) [978-0691058962](https://en.wikipedia.org/wiki/Special:BookSources/978-0691058962).
+- Smith, Adam (1776). _An Inquiry into the Nature and Causes of the Wealth of Nations (Vol 1)_. [ISBN](ISBN.md) [978-0865970069](https://en.wikipedia.org/wiki/Special:BookSources/978-0865970069).
+- Schumpeter, Joseph A. (1954). _History of economic analysis_. Routledge. [ISBN](ISBN.md) [9781134838707](https://en.wikipedia.org/wiki/Special:BookSources/9781134838707).
 - Trefler, Daniel (1995). "The Case of the Missing Trade and Other Mysteries". _The American Economic Review_. __85__ (5): 1029–1046. [JSTOR](JSTOR.md) [2950973](https://www.jstor.org/stable/2950973).
 
 ## see also
@@ -81,8 +81,8 @@ This text incorporates [content](https://en.wikipedia.org/wiki/absolute_advantag
 3. ["Absolute and Comparative Advantage"](https://web.archive.org/web/20100529042541/http://www.skidmore.edu/~mdas/AbsoluteandComparativeAdvantage.pdf) (PDF). _International Encyclopedia of the Social Sciences_ (2nd ed.). pp. 1–2. Archived from [the original](http://www.skidmore.edu/~mdas/AbsoluteandComparativeAdvantage.pdf) (PDF) on 2010-05-29. Retrieved 2009-05-04. <a id="^ref-3"></a>^ref-3
 4. [_International Trade: Theory and Policy_](https://web.archive.org/web/20190101013503/https://catalog.flatworldknowledge.com/bookhub/reader/28?e=fwk-61960-chab#fwk-61960-ch02_s02). Archived from [the original](https://catalog.flatworldknowledge.com/bookhub/reader/28?e=fwk-61960-chab#fwk-61960-ch02_s02) on 2019-01-01. Retrieved 2018-09-18. <a id="^ref-4"></a>^ref-4
 5. Harrington, James W. ["International Trade Theory"](http://faculty.washington.edu/jwh/349lec03.htm). _Geography 349 Absolute advantage_. University of Washington. Retrieved 2009-05-04. <a id="^ref-5"></a>^ref-5
-6. Bruce Bueno de Mesquita (2013), [_Principles of International Politics_](https://books.google.com/books?id=S7VG1yZP52gC&q=absolute+advantage+england+portugal&pg=PT357), Sage, pp. 329–330, [ISBN](ISBN.md) [9781483304663](https://en.wikipedia.org/wiki/Special%3ABookSources/9781483304663) <a id="^ref-6"></a>^ref-6
-7. Teofilo C. Daquila (2005), [_The Economies of Southeast Asia: Indonesia, Malaysia, Philippines, Singapore, and Thailand_](https://books.google.com/books?id=_aybCa4g1H4C&q=absolute+advantage), Nova Publishers, p. 124, [ISBN](ISBN.md) [9781594541889](https://en.wikipedia.org/wiki/Special%3ABookSources/9781594541889) <a id="^ref-7"></a>^ref-7
+6. Bruce Bueno de Mesquita (2013), [_Principles of International Politics_](https://books.google.com/books?id=S7VG1yZP52gC&q=absolute+advantage+england+portugal&pg=PT357), Sage, pp. 329–330, [ISBN](ISBN.md) [9781483304663](https://en.wikipedia.org/wiki/Special:BookSources/9781483304663) <a id="^ref-6"></a>^ref-6
+7. Teofilo C. Daquila (2005), [_The Economies of Southeast Asia: Indonesia, Malaysia, Philippines, Singapore, and Thailand_](https://books.google.com/books?id=_aybCa4g1H4C&q=absolute+advantage), Nova Publishers, p. 124, [ISBN](ISBN.md) [9781594541889](https://en.wikipedia.org/wiki/Special:BookSources/9781594541889) <a id="^ref-7"></a>^ref-7
 
 ## external links
 

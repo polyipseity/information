@@ -48,7 +48,7 @@ See the recent book by Sickles and Zelenyuk (2019) for comprehensive coverage of
 This text incorporates [content](https://en.wikipedia.org/wiki/productive_efficiency) from [Wikipedia](Wikipedia.md) available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.
 
 1. [Sickles, R., & Zelenyuk, V. (2019). Measurement of Productivity and Efficiency: Theory and Practice. Cambridge: Cambridge University Press. doi:10.1017/9781139565981](https://assets.cambridge.org/97811070/361765/frontmatter/9781107036161_frontmatter.pdf) <a id="^ref-1"></a>^ref-1
-2. Standish, Barry (1997). _Economics: Principles and Practice_. South Africa: Pearson Education. pp. 13–15. [ISBN](ISBN.md) [978-1-86891-069-4](https://en.wikipedia.org/wiki/Special%3ABookSources/978-1-86891-069-4). <a id="^ref-2"></a>^ref-2
+2. Standish, Barry (1997). _Economics: Principles and Practice_. South Africa: Pearson Education. pp. 13–15. [ISBN](ISBN.md) [978-1-86891-069-4](https://en.wikipedia.org/wiki/Special:BookSources/978-1-86891-069-4). <a id="^ref-2"></a>^ref-2
 3. Farrell, M. J. (1957). The measurement of productive efficiency. Journal of the Royal Statistical Society. Series A (General), 120(3):253–290. <a id="^ref-3"></a>^ref-3
 4. Debreu, G. (1951). The coefficient of resource utilization. Econometrica, 19(3):273–292. <a id="^ref-4"></a>^ref-4
 5. Shephard, R. W. (1953). Cost and Production Functions. Princeton, NJ: Princeton University Press. <a id="^ref-5"></a>^ref-5

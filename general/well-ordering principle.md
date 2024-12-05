@@ -19,5 +19,5 @@ The phrase "well-ordering principle" is sometimes taken to be {@{synonymous with
 
 This text incorporates [content](https://en.wikipedia.org/wiki/well-ordering_principle) from [Wikipedia](Wikipedia.md) available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.
 
-1. [Apostol, Tom](Tom%20M.%20Apostol.md) (1976). [_Introduction to Analytic Number Theory_](https://archive.org/details/introductiontoan00apos_0/page/13). New York: Springer-Verlag. pp. [13](https://archive.org/details/introductiontoan00apos_0/page/13). [ISBN](ISBN.md) [0-387-90163-9](https://en.wikipedia.org/wiki/Special%3ABookSources/0-387-90163-9). <a id="^ref-1"></a>^ref-1
+1. [Apostol, Tom](Tom%20M.%20Apostol.md) (1976). [_Introduction to Analytic Number Theory_](https://archive.org/details/introductiontoan00apos_0/page/13). New York: Springer-Verlag. pp. [13](https://archive.org/details/introductiontoan00apos_0/page/13). [ISBN](ISBN.md) [0-387-90163-9](https://en.wikipedia.org/wiki/Special:BookSources/0-387-90163-9). <a id="^ref-1"></a>^ref-1
 <!-- 2.  Lehman, Eric; Meyer, Albert R; Leighton, F Tom. [_Mathematics for Computer Science_](https://courses.csail.mit.edu/6.042/spring17/mcs.pdf) (PDF). Retrieved 2 May 2023 <a id="^ref-2"></a>^ref-2 -->

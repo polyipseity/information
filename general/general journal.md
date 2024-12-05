@@ -33,4 +33,4 @@ There {@{may be multiple debit or credit entries}@}, but {@{the sum of the debit
 
 This text incorporates [content](https://en.wikipedia.org/wiki/general_journal) from [Wikipedia](Wikipedia.md) available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.
 
-1. Jerry J. Weygandt; Paul D. Kimmel; Donald E. Kieso (4 May 2010). [_Accounting Principles, Peachtree Complete Accounting Workbook_](https://books.google.com/books?id=sIbsykiMY3MC&pg=PA60). John Wiley & Sons. p. 60. [ISBN](ISBN.md) [978-0-470-38667-5](https://en.wikipedia.org/wiki/Special%3ABookSources/978-0-470-38667-5). Retrieved 6 April 2012. <a id="^ref-1"></a>^ref-1
+1. Jerry J. Weygandt; Paul D. Kimmel; Donald E. Kieso (4 May 2010). [_Accounting Principles, Peachtree Complete Accounting Workbook_](https://books.google.com/books?id=sIbsykiMY3MC&pg=PA60). John Wiley & Sons. p. 60. [ISBN](ISBN.md) [978-0-470-38667-5](https://en.wikipedia.org/wiki/Special:BookSources/978-0-470-38667-5). Retrieved 6 April 2012. <a id="^ref-1"></a>^ref-1

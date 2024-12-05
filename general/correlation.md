@@ -21,6 +21,6 @@ Formally, random variables are {@{_dependent_}@} if {@{they do not satisfy a mat
 
 This text incorporates [content](https://en.wikipedia.org/wiki/correlation) from [Wikipedia](Wikipedia.md) available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.
 
-1. Croxton, Frederick Emory; Cowden, Dudley Johnstone; Klein, Sidney (1968) _Applied General Statistics_, Pitman. [ISBN](ISBN.md) [9780273403159](https://en.wikipedia.org/wiki/Special%3ABookSources/9780273403159) (page 625) <a id="^ref-1"></a>^ref-1
-2. Dietrich, Cornelius Frank (1991) _Uncertainty, Calibration and Probability: The Statistics of Scientific and Industrial Measurement_ 2nd Edition, A. Higler. [ISBN](ISBN.md) [9780750300605](https://en.wikipedia.org/wiki/Special%3ABookSources/9780750300605) (Page 331) <a id="^ref-2"></a>^ref-2
-3. Aitken, Alexander Craig (1957) _Statistical Mathematics_ 8th Edition. Oliver & Boyd. [ISBN](ISBN.md) [9780050013007](https://en.wikipedia.org/wiki/Special%3ABookSources/9780050013007) (Page 95) <a id="^ref-3"></a>^ref-3
+1. Croxton, Frederick Emory; Cowden, Dudley Johnstone; Klein, Sidney (1968) _Applied General Statistics_, Pitman. [ISBN](ISBN.md) [9780273403159](https://en.wikipedia.org/wiki/Special:BookSources/9780273403159) (page 625) <a id="^ref-1"></a>^ref-1
+2. Dietrich, Cornelius Frank (1991) _Uncertainty, Calibration and Probability: The Statistics of Scientific and Industrial Measurement_ 2nd Edition, A. Higler. [ISBN](ISBN.md) [9780750300605](https://en.wikipedia.org/wiki/Special:BookSources/9780750300605) (Page 331) <a id="^ref-2"></a>^ref-2
+3. Aitken, Alexander Craig (1957) _Statistical Mathematics_ 8th Edition. Oliver & Boyd. [ISBN](ISBN.md) [9780050013007](https://en.wikipedia.org/wiki/Special:BookSources/9780050013007) (Page 95) <a id="^ref-3"></a>^ref-3

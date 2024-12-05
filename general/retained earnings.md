@@ -72,5 +72,5 @@ A number of factors affect the decision of {@{the amount of profit that a corpor
 
 This text incorporates [content](https://en.wikipedia.org/wiki/retained_earnings) from [Wikipedia](Wikipedia.md) available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.
 
-1. Baumol, William J.; Blinder, Alan S. (March 20, 2015). _Microeconomics: Principles and Policy_ (13 ed.). Cengage Learning. p. 489. [ISBN](ISBN.md) [978-1305534049](https://en.wikipedia.org/wiki/Special%3ABookSources/978-1305534049). <a id="^ref-1"></a>^ref-1
+1. Baumol, William J.; Blinder, Alan S. (March 20, 2015). _Microeconomics: Principles and Policy_ (13 ed.). Cengage Learning. p. 489. [ISBN](ISBN.md) [978-1305534049](https://en.wikipedia.org/wiki/Special:BookSources/978-1305534049). <a id="^ref-1"></a>^ref-1
 2. ["What is a Retained Earnings Deficit? - Definition | Meaning | Example"](https://www.myaccountingcourse.com/accounting-dictionary/retained-earnings-deficit). _My Accounting Course_. Retrieved 2020-01-07. <a id="^ref-2"></a>^ref-2

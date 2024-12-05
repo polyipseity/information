@@ -211,7 +211,7 @@ These coefficients {@{satisfy a number of analogous properties to those for the 
 
 This text incorporates [content](https://en.wikipedia.org/wiki/Stirling_numbers_of_the_first_kind) from [Wikipedia](Wikipedia.md) available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.
 
-1. Wilf, Herbert S. (1990). _Generatingfunctionology_. San Diego, CA, USA: Academic Press. p. 73. [ISBN](ISBN.md) [978-148324857-8](https://en.wikipedia.org/wiki/Special%3ABookSources/978-148324857-8). <a id="^ref-1"></a>^ref-1
+1. Wilf, Herbert S. (1990). _Generatingfunctionology_. San Diego, CA, USA: Academic Press. p. 73. [ISBN](ISBN.md) [978-148324857-8](https://en.wikipedia.org/wiki/Special:BookSources/978-148324857-8). <a id="^ref-1"></a>^ref-1
 2. Knuth, Donald E. (1992). ["Two Notes on Notation"](https://www.jstor.org/stable/2325085). _American Mathematical Monthly_. __99__ (5): 403–422 – via JSTOR. <a id="^ref-2"></a>^ref-2
 3. Rényi, Alfred (1962). ["Théorie des éléments saillants d'une suite d'observations"](http://www.numdam.org/item/ASCFM_1962__8_2_7_0/). _Annales scientifiques de l'Université de Clermont. Mathématiques_. Tome 8 (2): 7–13. <a id="^ref-3"></a>^ref-3
 4. See section 6.2 and 6.5 of _Concrete Mathematics_. <a id="^ref-4"></a>^ref-4

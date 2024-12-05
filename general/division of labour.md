@@ -23,4 +23,4 @@ After {@{the [Neolithic Revolution](Neolithic%20Revolution.md)}@}, {@{pastoralis
 
 This text incorporates [content](https://en.wikipedia.org/wiki/division_of_labour) from [Wikipedia](Wikipedia.md) available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.
 
-1. Rosenberg, Nathan (1993). [_Exploring the Black Box: Technology, economics and history_](https://archive.org/details/exploringblackbo00rose). Cambridge University Press. pp. [25](https://archive.org/details/exploringblackbo00rose/page/25), 27–32, 37–8. [ISBN](ISBN.md) [0-521-459559](https://en.wikipedia.org/wiki/Special%3ABookSources/0-521-459559). <a id="^ref-1"></a>^ref-1
+1. Rosenberg, Nathan (1993). [_Exploring the Black Box: Technology, economics and history_](https://archive.org/details/exploringblackbo00rose). Cambridge University Press. pp. [25](https://archive.org/details/exploringblackbo00rose/page/25), 27–32, 37–8. [ISBN](ISBN.md) [0-521-459559](https://en.wikipedia.org/wiki/Special:BookSources/0-521-459559). <a id="^ref-1"></a>^ref-1

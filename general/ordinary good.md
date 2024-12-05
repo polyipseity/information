@@ -46,4 +46,4 @@ This text incorporates [content](https://en.wikipedia.org/wiki/ordinary_good) fr
 
 - [Hal Varian](Hal%20Varian.md), _Intermediate Microeconomics: A Modern Approach, Sixth Edition_, chapter 6
 
-<!-- ![microeconomics stub icon](https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Usdollar100front.jpg/40px-Usdollar100front.jpg) _This article related to [microeconomics](microeconomics.md) is a [stub](https://en.wikipedia.org/wiki/Wikipedia%3AStub). You can help Wikipedia by [expanding it](https://en.wikipedia.org/w/index.php?title=Ordinary_good&action=edit)._ -->
+<!-- ![microeconomics stub icon](https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Usdollar100front.jpg/40px-Usdollar100front.jpg) _This article related to [microeconomics](microeconomics.md) is a [stub](https://en.wikipedia.org/wiki/Wikipedia:Stub). You can help Wikipedia by [expanding it](https://en.wikipedia.org/w/index.php?title=Ordinary_good&action=edit)._ -->
