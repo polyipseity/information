@@ -96,16 +96,16 @@ Let φ, ψ, and ρ be LTL formulas. The following tables list {@{some of the use
 - finally and globally distributivity ::@:: __F__ \(φ ∨ ψ\) ≡ \(<!-- markdown separator -->__F__ φ\) ∨ \(<!-- markdown separator -->__F__ ψ\) <br/> __G__ \(φ ∧ ψ\) ≡ \(<!-- markdown separator -->__G__ φ\) ∧ \(<!-- markdown separator -->__G__ ψ\) <!--SR:!2024-12-08,3,257!2024-12-09,4,303-->
 - until distributivity ::@:: ρ __U__ \(φ ∨ ψ\) ≡ \(ρ __U__ φ\) ∨ \(ρ __U__ ψ\) <br/> \(φ ∧ ψ\) __U__ ρ ≡ \(φ __U__ ρ\) ∧ \(ψ __U__ ρ\) <!--SR:!2024-12-09,4,303!2024-12-08,3,270-->
 
-| Negation propagation                           |                                                |                                   |                                   |
-| ---------------------------------------------- | ---------------------------------------------- | --------------------------------- | --------------------------------- |
-| ___X__ is self-dual_                           | ___F__ and __G__ are dual_                     | ___U__ and __R__ are dual_        | ___W__ and __M__ are dual_        |
-| ¬<!-- markdown separator -->__X__ φ ≡ __X__ ¬φ | ¬<!-- markdown separator -->__F__ φ ≡ __G__ ¬φ | ¬ \(φ __U__ ψ\) ≡ \(¬φ __R__ ¬ψ\) | ¬ \(φ __W__ ψ\) ≡ \(¬φ __M__ ¬ψ\) |
-|                                                | ¬<!-- markdown separator -->__G__ φ ≡ __F__ ¬φ | ¬ \(φ __R__ ψ\) ≡ \(¬φ __U__ ¬ψ\) | ¬ \(φ __M__ ψ\) ≡ \(¬φ __W__ ¬ψ\) |
+| Negation propagation                            |                                                       |                                                       |                                                       |
+| ----------------------------------------------- | ----------------------------------------------------- | ----------------------------------------------------- | ----------------------------------------------------- |
+| _<!-- markdown separator -->__X__ is self-dual_ | _<!-- markdown separator -->__F__ and __G__ are dual_ | _<!-- markdown separator -->__U__ and __R__ are dual_ | _<!-- markdown separator -->__W__ and __M__ are dual_ |
+| ¬<!-- markdown separator -->__X__ φ ≡ __X__ ¬φ  | ¬<!-- markdown separator -->__F__ φ ≡ __G__ ¬φ        | ¬ \(φ __U__ ψ\) ≡ \(¬φ __R__ ¬ψ\)                     | ¬ \(φ __W__ ψ\) ≡ \(¬φ __M__ ¬ψ\)                     |
+|                                                 | ¬<!-- markdown separator -->__G__ φ ≡ __F__ ¬φ        | ¬ \(φ __R__ ψ\) ≡ \(¬φ __U__ ¬ψ\)                     | ¬ \(φ __M__ ψ\) ≡ \(¬φ __W__ ¬ψ\)                     |
 
-- ___X__ is self-dual_ ::@:: ¬<!-- markdown separator -->__X__ φ ≡ __X__ ¬φ <!--SR:!2024-12-09,4,290!2024-12-09,4,277-->
-- ___F__ and __G__ are dual_ ::@:: ¬<!-- markdown separator -->__F__ φ ≡ __G__ ¬φ <br/> ¬<!-- markdown separator -->__G__ φ ≡ __F__ ¬φ <!--SR:!2024-12-09,4,303!2024-12-09,4,290-->
-- ___U__ and __R__ are dual_ ::@:: ¬ \(φ __U__ ψ\) ≡ \(¬φ __R__ ¬ψ\) <br/> ¬ \(φ __R__ ψ\) ≡ \(¬φ __U__ ¬ψ\) <!--SR:!2024-12-09,4,303!2024-12-09,4,270-->
-- ___W__ and __M__ are dual_ ::@:: ¬ \(φ __W__ ψ\) ≡ \(¬φ __M__ ¬ψ\) <br/> ¬ \(φ __M__ ψ\) ≡ \(¬φ __W__ ¬ψ\) <!--SR:!2024-12-09,4,303!2024-12-09,4,290-->
+- _<!-- markdown separator -->__X__ is self-dual_ ::@:: ¬<!-- markdown separator -->__X__ φ ≡ __X__ ¬φ <!--SR:!2024-12-09,4,290!2024-12-09,4,277-->
+- _<!-- markdown separator -->__F__ and __G__ are dual_ ::@:: ¬<!-- markdown separator -->__F__ φ ≡ __G__ ¬φ <br/> ¬<!-- markdown separator -->__G__ φ ≡ __F__ ¬φ <!--SR:!2024-12-09,4,303!2024-12-09,4,290-->
+- _<!-- markdown separator -->__U__ and __R__ are dual_ ::@:: ¬ \(φ __U__ ψ\) ≡ \(¬φ __R__ ¬ψ\) <br/> ¬ \(φ __R__ ψ\) ≡ \(¬φ __U__ ¬ψ\) <!--SR:!2024-12-09,4,303!2024-12-09,4,270-->
+- _<!-- markdown separator -->__W__ and __M__ are dual_ ::@:: ¬ \(φ __W__ ψ\) ≡ \(¬φ __M__ ¬ψ\) <br/> ¬ \(φ __M__ ψ\) ≡ \(¬φ __W__ ¬ψ\) <!--SR:!2024-12-09,4,303!2024-12-09,4,290-->
 
 | Special temporal properties                                                          |                                                                                      |                                                                        |
 | ------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------ | ---------------------------------------------------------------------- |
@@ -197,5 +197,5 @@ This text incorporates [content](https://en.wikipedia.org/wiki/linear_temporal_l
 
 - [A presentation of LTL](http://www.dcs.qmul.ac.uk/~pm/SaR/2004ltl.pdf)
 - [Linear-Time Temporal Logic and Büchi Automata](http://www.cmi.ac.in/~madhavan/papers/pdf/isical97.pdf)
-- [LTL Teaching slides](http://www.inf.unibz.it/~artale/FM/slide3.pdf) of professor [Alessandro Artale](Alessandro%20Artale%20(page%20does%20not%20exist).md) at the [Free University of Bozen-Bolzano](Free%20University%20of%20Bozen-Bolzano.md)
+- [LTL Teaching slides](http://www.inf.unibz.it/~artale/FM/slide3.pdf) of professor [Alessandro Artale](Alessandro%20Artale.md) at the [Free University of Bozen-Bolzano](Free%20University%20of%20Bozen-Bolzano.md)
 - [LTL to Buchi translation algorithms](https://web.archive.org/web/20090830133455/http://spot.lip6.fr/wiki/LtlTranslationAlgorithms) a genealogy, from the website of [Spot](http://spot.lip6.fr/) a library for model checking.

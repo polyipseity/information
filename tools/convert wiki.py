@@ -35,7 +35,7 @@ _WIKI_HOST_URL = URL.build(scheme="https", host="en.wikipedia.org")
 _LIST_INDENT = "    "
 _MAX_CONCURRENT_REQUESTS_PER_HOST = 2
 _MARKDOWN_SEPARATOR = "<!-- markdown separator -->"
-_MARKDOWN_SEPARATOR_CHARACTERS = f"{punctuation}{whitespace}"
+_MARKDOWN_SEPARATOR_CHARACTERS = f"{punctuation}{whitespace}".replace("_", "")
 _BAD_TITLES = frozenset({"Edit this at Wikidata"})
 _IGNORED_NAME_PREFIXES = frozenset[str]()
 _PRESERVED_PAGE_PREFIXES = {

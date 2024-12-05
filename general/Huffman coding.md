@@ -64,7 +64,7 @@ Huffman coding uses {@{a specific method for choosing the representation for eac
 
 __Given__ ::@:: A set of symbols and their weights \(usually [proportional](proportionality%20(mathematics).md) to probabilities\). <!--SR:!2024-12-14,14,290!2024-12-15,15,290-->
 
-__Find__ ::@:: A [prefix-free binary code](prefix%20code.md) \(a set of codewords\) with minimum [expected](expected%20value.md) codeword length \(equivalently, a tree with minimum [weighted path length from the root](weighted%20path%20length%20from%20the%20root%20(page%20does%20not%20exist).md)\). <!--SR:!2024-12-14,14,290!2024-12-14,14,290-->
+__Find__ ::@:: A [prefix-free binary code](prefix%20code.md) \(a set of codewords\) with minimum [expected](expected%20value.md) codeword length \(equivalently, a tree with minimum [weighted path length from the root](weighted%20path%20length%20from%20the%20root.md)\). <!--SR:!2024-12-14,14,290!2024-12-14,14,290-->
 
 ### formalized description
 
