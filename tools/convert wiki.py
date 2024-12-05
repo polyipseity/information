@@ -39,14 +39,14 @@ _MARKDOWN_SEPARATOR_CHARACTERS = f"{punctuation}{whitespace}".replace("_", "")
 _BAD_TITLES = frozenset({"Edit this at Wikidata"})
 _IGNORED_NAME_PREFIXES = frozenset[str]()
 _PRESERVED_PAGE_PREFIXES = {
-    "Category:": f"{_WIKI_HOST_URL}/wiki/{{}}",
-    "Help:": f"{_WIKI_HOST_URL}/wiki/{{}}",
-    "Portal:": f"{_WIKI_HOST_URL}/wiki/{{}}",
-    "Special:": f"{_WIKI_HOST_URL}/wiki/{{}}",
-    "Talk:": f"{_WIKI_HOST_URL}/wiki/{{}}",
-    "Template:": f"{_WIKI_HOST_URL}/wiki/{{}}",
-    "Template talk:": f"{_WIKI_HOST_URL}/wiki/{{}}",
-    "Wikipedia": f"{_WIKI_HOST_URL}/wiki/{{}}",
+    "Category:": f"{_WIKI_HOST_URL}/wiki/Category:{{}}",
+    "Help:": f"{_WIKI_HOST_URL}/wiki/Help:{{}}",
+    "Portal:": f"{_WIKI_HOST_URL}/wiki/Portal:{{}}",
+    "Special:": f"{_WIKI_HOST_URL}/wiki/Special:{{}}",
+    "Talk:": f"{_WIKI_HOST_URL}/wiki/Talk:{{}}",
+    "Template:": f"{_WIKI_HOST_URL}/wiki/Template:{{}}",
+    "Template talk:": f"{_WIKI_HOST_URL}/wiki/Template%20talk:{{}}",
+    "Wikipedia": f"{_WIKI_HOST_URL}/wiki/Wikipedia:{{}}",
     "commons": "https://commons.wikimedia.org/wiki/{}",
     "oeis:": "https://oeis.org/{}",
     "q:": "https://en.wikiquote.org/wiki/{}",
