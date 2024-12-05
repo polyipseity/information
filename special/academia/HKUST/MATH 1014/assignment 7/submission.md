@@ -105,7 +105,7 @@ $$\sum_{k = 1}^{+\infty} k^2 \sin^p \frac 1 k$$
 
 ### Q7.b
 
-$$\sum_{k = 2}^{+\infty} \frac 1 {(\ln \ln k)^{p \ln k}@}$$
+$$\sum_{k = 2}^{+\infty} \frac 1 {(\ln \ln k)^{p \ln k} }$$
 
 > $$\begin{aligned}
 > & \phantom = \sum_{k = 2}^{+\infty} \frac 1 {(\ln \ln k)^{p \ln k} } && \cdots (1) \\

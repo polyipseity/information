@@ -1,6 +1,7 @@
 ---
 aliases:
   - HKUST reviews
+  - Hong Kong University of Science and Technology reviews
 tags:
   - flashcard/active/special/academia/HKUST/reviews
   - function/index
@@ -9,7 +10,7 @@ tags:
 
 # reviews
 
-- HKUST
+- Hong Kong University of Science and Technology
 
 The 4-character code following the course is the ratings, in the order of content, teaching, grading, and workload.
 

@@ -402,7 +402,7 @@ $$\begin{aligned}
 & = 0.18 \\
 \\
 & \phantom = P(\text{WBC = High} | \text{AP = Yes, P = Yes}) \\
-& = \sum_{\text{SIR} \in \set{\text{Yes}, \text{No} }@} P(\text{WBC = High} | \text{SIR}) P(\text{SIR} | \text{AP = Yes, P = Yes}) \\
+& = \sum_{\text{SIR} \in \set{\text{Yes}, \text{No} } } P(\text{WBC = High} | \text{SIR}) P(\text{SIR} | \text{AP = Yes, P = Yes}) \\
 & = 0.6 \cdot 0.7 + 0.3 \cdot (1 - 0.7) \\
 & = 0.42 + 0.09 \\
 & = 0.51 \\

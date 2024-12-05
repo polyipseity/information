@@ -50,7 +50,7 @@ U & = \frac{f}2nRT = \frac{nRT}{\gamma - 1} \\
 & = \frac{(K - 1)nRT}V \,\mathrm{d}V \\
 \frac{1}{T(\gamma - 1)} \,\mathrm{d}T & = \frac{K - 1}V \,\mathrm{d}V \\
 \frac{\ln T}{\gamma - 1} & = (K - 1)\ln V + C \\
-T^{\frac1{\gamma - 1}@} & = V^{K - 1}C \\
+T^{\frac1{\gamma - 1} } & = V^{K - 1}C \\
 T & = V^{(K - 1)(\gamma - 1)}C \\
 \frac{pV}{nR} & = V^{(K - 1)(\gamma - 1)}C \\
 pV^{1 + (K - 1)(1 - \gamma)} & = C \\
