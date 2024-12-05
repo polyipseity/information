@@ -30,4 +30,4 @@ For {@{a probabilistic proof}@}, see the reference.
 
 This text incorporates [content](https://en.wikipedia.org/wiki/maximum-minimums_identity) from [Wikipedia](Wikipedia.md) available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.
 
-- Ross, Sheldon \(2002\). [_A First Course in Probability_](https://archive.org/details/firstcourseinpro00ross). Englewood Cliffs: Prentice Hall. [ISBN](ISBN.md) [0-13-033851-6](https://en.wikipedia.org/wiki/BookSources/0-13-033851-6).
+- Ross, Sheldon \(2002\). [_A First Course in Probability_](https://archive.org/details/firstcourseinpro00ross). Englewood Cliffs: Prentice Hall. [ISBN](ISBN.md) [0-13-033851-6](https://en.wikipedia.org/wiki/Special%3ABookSources/0-13-033851-6).

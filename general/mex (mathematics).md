@@ -34,5 +34,5 @@ If {@{we change the game so that the player to move can take up to 3 stones only
 
 This text incorporates [content](https://en.wikipedia.org/wiki/mex_(mathematics)) from [Wikipedia](Wikipedia.md) available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.
 
-1. [Conway, John H.](John%20Horton%20Conway.md) \(2001\). _[On Numbers and Games](On%20Numbers%20and%20Games.md)_ \(2nd ed.\). A.K. Peters. p. 124. [ISBN](ISBN.md) [1-56881-127-6](https://en.wikipedia.org/wiki/BookSources/1-56881-127-6). <a id="^ref-1"></a>^ref-1
+1. [Conway, John H.](John%20Horton%20Conway.md) \(2001\). _[On Numbers and Games](On%20Numbers%20and%20Games.md)_ \(2nd ed.\). A.K. Peters. p. 124. [ISBN](ISBN.md) [1-56881-127-6](https://en.wikipedia.org/wiki/Special%3ABookSources/1-56881-127-6). <a id="^ref-1"></a>^ref-1
 2. Welsh, D. J. A.; Powell, M. B. \(1967\). ["An upper bound for the chromatic number of a graph and its application to timetabling problems"](https://doi.org/10.1093%2Fcomjnl%2F10.1.85). _[The Computer Journal](The%20Computer%20Journal.md)_<!-- markdown separator -->. __10__ \(1\): 85–86. [doi](digital%20object%20identifier.md):[10.1093/comjnl/10.1.85](https://doi.org/10.1093%2Fcomjnl%2F10.1.85). <a id="^ref-2"></a>^ref-2

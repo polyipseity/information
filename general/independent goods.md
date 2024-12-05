@@ -28,4 +28,4 @@ For example, a person's demand for nails is {@{usually independent of his or her
 
 This text incorporates [content](https://en.wikipedia.org/wiki/independent_goods) from [Wikipedia](Wikipedia.md) available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.
 
-1. R Varian, Hal (2006). _Intermediate Microeconomics : A modern approach 7th Edition_. W.W. Norton & Co. p. 754. [ISBN](ISBN.md) [0-393-92702-4](https://en.wikipedia.org/wiki/BookSources/0-393-92702-4). <a id="^ref-1"></a>^ref-1
+1. R Varian, Hal (2006). _Intermediate Microeconomics : A modern approach 7th Edition_. W.W. Norton & Co. p. 754. [ISBN](ISBN.md) [0-393-92702-4](https://en.wikipedia.org/wiki/Special%3ABookSources/0-393-92702-4). <a id="^ref-1"></a>^ref-1
