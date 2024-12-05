@@ -13,7 +13,7 @@ tags:
 
 In [accounting](accounting.md), __adjusting entries__ are {@{[journal](general%20journal.md) entries usually made at the end of an accounting period to allocate [income](income.md) and [expenditure](expense.md) to the period in which they actually occurred}@}. {@{The [revenue recognition principle](revenue%20recognition.md)}@} is {@{the basis of making adjusting entries that pertain to unearned and accrued revenues under [accrual-basis accounting](accrual.md)}@}. They are sometimes called {@{Balance Day adjustments because they are made on balance day}@}. <!--SR:!2025-02-18,110,290!2024-12-17,68,310!2025-02-11,107,290!2025-03-27,142,310-->
 
-Based on {@{the [matching principle](matching%20principle.md) of [accrual accounting](accrual.md)}@}, {@{[revenues](revenue.md) and associated [costs](cost.md) are recognized in the same accounting period}@}. However {@{the actual cash may be received or paid at a different time}@}. <!--SR:!2024-12-15,68,310!2025-05-21,185,310!2024-12-04,57,310-->
+Based on {@{the [matching principle](matching%20principle.md) of [accrual accounting](accrual.md)}@}, {@{[revenues](revenue.md) and associated [costs](cost.md) are recognized in the same accounting period}@}. However {@{the actual cash may be received or paid at a different time}@}. <!--SR:!2024-12-15,68,310!2025-05-21,185,310!2025-08-12,251,330-->
 
 ## types of adjusting entries
 
@@ -57,13 +57,13 @@ Unearned Revenue           $1  |
                                |
 ```
 
-The unearned revenue after the first month is {@{therefore $11 and revenue reported in the income statement is $1}@}. <!--SR:!2024-12-04,57,310-->
+The unearned revenue after the first month is {@{therefore $11 and revenue reported in the income statement is $1}@}. <!--SR:!2025-08-09,248,330-->
 
 ### accruals
 
 Accrued revenues are {@{revenues that have been recognized (that is, services have been performed or goods have been delivered), but their cash payment have not yet been recorded or received}@}. When the revenue is recognized, it is recorded as {@{a receivable}@}. <!--SR:!2025-04-08,151,310!2025-07-06,220,330-->
 
-Accrued expenses {@{have not yet been paid for, so they are recorded in a payable account}@}. {@{Expenses for interest, taxes, rent, and salaries}@} are commonly accrued for reporting purposes. <!--SR:!2024-12-05,58,310!2025-04-16,157,310-->
+Accrued expenses {@{have not yet been paid for, so they are recorded in a payable account}@}. {@{Expenses for interest, taxes, rent, and salaries}@} are commonly accrued for reporting purposes. <!--SR:!2025-08-17,255,330!2025-04-16,157,310-->
 
 {@{An income which has been earned but it has not been received yet during the accounting period}@}, like {@{rent, interest on investments, commission etc.}@} are examples of accrued income. <!--SR:!2025-07-25,236,330!2025-04-25,160,310-->
 

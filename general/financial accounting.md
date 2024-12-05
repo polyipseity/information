@@ -11,7 +11,7 @@ tags:
 
 # financial accounting
 
-__Financial accounting__ is {@{a branch of [accounting](accounting.md) concerned with the summary, analysis and reporting of financial transactions related to a business}@}.<sup>[\[1\]](#^ref-1)</sup> This involves {@{the preparation of [financial statements](financial%20audit.md) available for public use}@}. {@{[Stockholders](shareholder.md), [suppliers](vendor.md), [banks](bank.md), [employees](employment.md#employee), [government agencies](government%20agency.md), [business owners](businessperson.md), and other [stakeholders](stakeholder%20(corporate).md)}@} are examples of people {@{interested in receiving such information for decision making purposes}@}. <!--SR:!2024-12-04,65,310!2025-01-18,85,270!2025-04-01,139,290!2024-12-07,67,310-->
+__Financial accounting__ is {@{a branch of [accounting](accounting.md) concerned with the summary, analysis and reporting of financial transactions related to a business}@}.<sup>[\[1\]](#^ref-1)</sup> This involves {@{the preparation of [financial statements](financial%20audit.md) available for public use}@}. {@{[Stockholders](shareholder.md), [suppliers](vendor.md), [banks](bank.md), [employees](employment.md#employee), [government agencies](government%20agency.md), [business owners](businessperson.md), and other [stakeholders](stakeholder%20(corporate).md)}@} are examples of people {@{interested in receiving such information for decision making purposes}@}. <!--SR:!2025-09-11,281,330!2025-01-18,85,270!2025-04-01,139,290!2024-12-07,67,310-->
 
 Financial accountancy is governed by {@{both local and international accounting standards}@}. {@{[Generally Accepted Accounting Principles](accounting%20standard.md) (GAAP)}@} is {@{the standard framework of guidelines for financial accounting used in any given jurisdiction}@}. It includes {@{the standards, conventions and rules that accountants follow in recording and summarizing and in the preparation of financial statements}@}. <!--SR:!2025-08-06,254,330!2025-05-01,175,310!2025-05-13,184,310!2025-04-05,142,290-->
 
@@ -59,7 +59,7 @@ The statement of cash flows {@{considers the inputs and outputs in concrete cash
 > - {@{cash inflow}@}: {@{$20}@}
 > - {@{cash outflow}@}: {@{$7}@}
 > - {@{opening balance}@}: {@{$5}@}
-> - {@{__closing balance__}@}: {@{__$20 – $7 + $5 = $18__}@} <!--SR:!2025-06-28,221,330!2024-12-09,69,310!2024-12-04,65,310!2025-03-24,147,310!2025-03-19,143,310!2025-05-02,176,310!2025-09-07,278,330!2025-07-24,241,330-->
+> - {@{__closing balance__}@}: {@{__$20 – $7 + $5 = $18__}@} <!--SR:!2025-06-28,221,330!2024-12-09,69,310!2025-09-14,284,330!2025-03-24,147,310!2025-03-19,143,310!2025-05-02,176,310!2025-09-07,278,330!2025-07-24,241,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -70,7 +70,7 @@ The statement of cash flows {@{considers the inputs and outputs in concrete cash
 > - {@{cash inflow}@}: {@{$50 - _How much WikiTables received in cash for the first table. They didn't receive cash for the second table (sold in credit terms)._}@}
 > - {@{cash outflow}@}: {@{$50 - _How much they'd originally bought the 2 tables for._}@}
 > - {@{opening balance}@}: {@{$0}@}
-> - {@{__closing balance__}@}: {@{__$50 – 2 \* $25 + $0 = $50 – $50 = $0__ - _Indeed, the cash flow for the month of June for WikiTables amounts to $0 and not $50._}@} <!--SR:!2025-03-28,147,310!2025-08-09,254,330!2024-12-07,67,310!2025-02-23,120,290!2025-07-08,230,330!2024-12-05,65,310!2025-07-25,242,330!2025-07-20,240,330-->
+> - {@{__closing balance__}@}: {@{__$50 – 2 \* $25 + $0 = $50 – $50 = $0__ - _Indeed, the cash flow for the month of June for WikiTables amounts to $0 and not $50._}@} <!--SR:!2025-03-28,147,310!2025-08-09,254,330!2024-12-07,67,310!2025-02-23,120,290!2025-07-08,230,330!2025-09-12,281,330!2025-07-25,242,330!2025-07-20,240,330-->
 
 Important: the cash flow statement {@{only considers the exchange of __actual__ cash, and ignores what the person in question owes or is owed}@}. <!--SR:!2025-07-21,241,330-->
 
@@ -80,7 +80,7 @@ Important: the cash flow statement {@{only considers the exchange of __actual__ 
 
 The statement of financial performance is also called {@{income statement, profit & loss (p&l) statement, or statement of operations}@}. <!--SR:!2024-12-16,69,335-->
 
-The statement of profit or income statement represents {@{the changes in value of a company's [accounts](account%20(bookkeeping).md) over a set period (most commonly one [fiscal year](fiscal%20year.md))}@}, and may {@{compare the changes to changes in the same accounts over the previous period}@}. All changes are {@{summarized on the "bottom line" as [net income](net%20income.md), often reported as "net loss" when income is less than zero}@}. <!--SR:!2024-12-05,66,310!2025-03-22,131,290!2025-02-14,113,290-->
+The statement of profit or income statement represents {@{the changes in value of a company's [accounts](account%20(bookkeeping).md) over a set period (most commonly one [fiscal year](fiscal%20year.md))}@}, and may {@{compare the changes to changes in the same accounts over the previous period}@}. All changes are {@{summarized on the "bottom line" as [net income](net%20income.md), often reported as "net loss" when income is less than zero}@}. <!--SR:!2025-09-21,290,330!2025-03-22,131,290!2025-02-14,113,290-->
 
 The net profit or loss is determined by: <br/> {@{sales (revenue) <br/> – [cost of goods sold](cost%20of%20goods%20sold.md) <br/> – selling, general, administrative expenses (SGA) <br/> – [depreciation](depreciation.md)/amortization <br/> = earnings before interest and taxes ([EBIT](earnings%20before%20interest,%20taxes,%20depreciation%20and%20amortization.md)) <br/> – interest and tax expenses <br/> = profit/loss}@} <!--SR:!2024-12-25,62,230-->
 
@@ -90,7 +90,7 @@ The net profit or loss is determined by: <br/> {@{sales (revenue) <br/> – [cos
 
 The statement of financial position is also called {@{balance sheet}@}. <!--SR:!2025-06-11,200,335-->
 
-The balance sheet is {@{the financial statement showing a firm's [assets](asset.md), [liabilities](liability%20(financial%20accounting).md) and [equity](equity%20(finance).md) (capital) at a set point in time, usually the end of the fiscal year reported on the accompanying income statement}@}. The total assets {@{always equal the total combined liabilities and equity}@}. This statement best demonstrates {@{the basic accounting equation: _Assets = Liabilities + Equity_}@}. <!--SR:!2025-04-07,157,310!2024-12-06,66,310!2024-12-05,66,310-->
+The balance sheet is {@{the financial statement showing a firm's [assets](asset.md), [liabilities](liability%20(financial%20accounting).md) and [equity](equity%20(finance).md) (capital) at a set point in time, usually the end of the fiscal year reported on the accompanying income statement}@}. The total assets {@{always equal the total combined liabilities and equity}@}. This statement best demonstrates {@{the basic accounting equation: _Assets = Liabilities + Equity_}@}. <!--SR:!2025-04-07,157,310!2024-12-06,66,310!2025-09-17,286,330-->
 
 The statement can be used to {@{help show the financial position of a company}@} because {@{liability accounts are external claims on the firm's assets while equity accounts are internal claims on the firm's assets}@}. <!--SR:!2025-03-31,138,290!2024-12-06,67,310-->
 
@@ -102,7 +102,7 @@ Current assets are {@{the most liquid assets of a firm, which are expected to be
 - [accounts receivable](accounts%20receivable.md) ::@:: revenues earned but not yet collected <!--SR:!2025-04-28,172,310!2025-04-24,168,310-->
 - merchandise inventory ::@:: consists of goods and services a firm currently owns until it ends up getting sold <!--SR:!2025-04-15,149,290!2025-01-06,77,270-->
 - [investee companies](company.md) ::@:: expected to be held less than one financial period <!--SR:!2025-05-25,192,310!2025-02-13,107,290-->
-- [prepaid expenses](deferral.md) ::@:: expenses paid for in advance for use during that financial period <!--SR:!2025-03-31,152,310!2024-12-05,65,310-->
+- [prepaid expenses](deferral.md) ::@:: expenses paid for in advance for use during that financial period <!--SR:!2025-03-31,152,310!2025-09-16,285,330-->
 
 Non-current assets include {@{[fixed](fixed%20asset.md) or long-term assets and [intangible assets](intangible%20asset.md)}@}: <!--SR:!2025-03-15,135,290-->
 
@@ -126,7 +126,7 @@ This statement is {@{additional to the three main statements described above}@}.
 
 ### the stable measuring assumption
 
-One of the basic principles in accounting is {@{"The Measuring Unit principle"}@}: {@{"The unit of measure in accounting shall be the base money unit of the most relevant currency. This principle also assumes the unit of measure is stable; that is, changes in its general purchasing power are not considered sufficiently important to require adjustments to the basic financial statements."}@}<sup>[\[10\]](#^ref-10)</sup> <!--SR:!2024-12-05,65,310!2025-03-20,119,270-->
+One of the basic principles in accounting is {@{"The Measuring Unit principle"}@}: {@{"The unit of measure in accounting shall be the base money unit of the most relevant currency. This principle also assumes the unit of measure is stable; that is, changes in its general purchasing power are not considered sufficiently important to require adjustments to the basic financial statements."}@}<sup>[\[10\]](#^ref-10)</sup> <!--SR:!2025-09-16,285,330!2025-03-20,119,270-->
 
 This basic principle gives rise to the commonly used {@{[historical cost accounting](historical%20cost.md), i.e., financial capital maintenance in nominal monetary units}@}. It is based on {@{the stable measuring unit assumption}@} under which accountants {@{simply assume that money, the monetary unit of measure, is perfectly stable in real value, for the purpose of measuring (1) monetary items not inflation-indexed daily in terms of the Daily CPI and (2) constant real value non-monetary items not updated daily in terms of the Daily CPI, during low and high inflation and deflation}@}. <!--SR:!2025-06-10,206,310!2025-06-21,214,310!2025-01-31,92,270-->
 
@@ -138,7 +138,7 @@ The stable monetary unit assumption is {@{not applied during hyperinflation}@}. 
 
 Financial accountants produce {@{financial statements based on the accounting standards in a given jurisdiction}@}. These standards may be {@{the [Generally Accepted Accounting Principles](accounting%20standard.md) of a respective country, which are typically issued by a national standard setter}@}, or {@{[International Financial Reporting Standards](International%20Financial%20Reporting%20Standards.md) (IFRS), which are issued by the [International Accounting Standards Board](International%20Accounting%20Standards%20Board.md) (IASB)}@}. <!--SR:!2025-06-03,200,310!2024-12-28,71,270!2025-01-18,87,270-->
 
-Financial accountants serves the following purposes: {@{producing general purpose financial statements}@}; {@{producing information used by the management of a business entity for decision making, planning and performance evaluation}@}; and {@{producing financial statements for meeting regulatory requirements}@}. <!--SR:!2025-02-22,98,250!2024-12-04,13,317!2024-12-09,18,337-->
+Financial accountants serves the following purposes: {@{producing general purpose financial statements}@}; {@{producing information used by the management of a business entity for decision making, planning and performance evaluation}@}; and {@{producing financial statements for meeting regulatory requirements}@}. <!--SR:!2025-02-22,98,250!2025-01-29,56,337!2024-12-09,18,337-->
 
 Objectives include:
 
@@ -154,7 +154,7 @@ The {@{[accounting equation](accounting%20equation.md) ([Assets](asset.md) = [Li
 
 {@{The [trial balance](trial%20balance.md) (i.e. finding the current balances of all accounts), which is usually prepared using the [double-entry accounting system](double-entry%20bookkeeping.md)}@}, forms {@{the basis for preparing the financial statements}@}. All the figures in the trial balance are {@{rearranged to prepare a [profit & loss statement](income%20statement.md) and [balance sheet](balance%20sheet.md)}@}. Accounting standards {@{determine the format for these accounts ([SSAP](Generally%20Accepted%20Accounting%20Practice%20(UK).md), FRS, [IFRS](International%20Financial%20Reporting%20Standards.md))}@}. Financial statements {@{display the income and expenditure for the company and a summary of the assets, liabilities, and shareholders' or owners' equity of the company on the date to which the accounts were prepared}@}. <!--SR:!2025-04-22,165,310!2025-02-12,114,290!2025-04-08,157,310!2025-03-18,141,310!2025-03-09,108,250-->
 
-{@{[Asset](asset.md), [expense](expense.md), and [dividend](dividend.md) accounts}@} have {@{normal debit balances (i.e., debiting these types of accounts increases them)}@}. <!--SR:!2024-12-04,65,310!2025-01-21,90,290-->
+{@{[Asset](asset.md), [expense](expense.md), and [dividend](dividend.md) accounts}@} have {@{normal debit balances (i.e., debiting these types of accounts increases them)}@}. <!--SR:!2025-09-13,283,330!2025-01-21,90,290-->
 
 {@{[Liability](liability%20(financial%20accounting).md), [revenue](revenue.md), and [equity](equity%20(finance).md) accounts}@} have {@{normal credit balances (i.e., crediting these types of accounts increases them)}@}. <!--SR:!2025-04-27,172,310!2025-04-09,144,290-->
 
@@ -191,7 +191,7 @@ However, there are {@{instances of accounts, known as contra-accounts (contra-as
 
 ## related qualification
 
-{@{Many professional accountancy qualifications}@} cover the field of financial accountancy, including {@{[Certified Public Accountant](Certified%20Public%20Accountant.md) (CPA), [Chartered Accountant](chartered%20accountant.md) (CA) or other national designations}@}, {@{[American Institute of Certified Public Accountants](American%20Institute%20of%20Certified%20Public%20Accountants.md) ([AICPA](American%20Institute%20of%20Certified%20Public%20Accountants.md)), and [Chartered Certified Accountant](Association%20of%20Chartered%20Certified%20Accountants.md#qualifications) ([ACCA](Association%20of%20Chartered%20Certified%20Accountants.md))}@}. <!--SR:!2024-12-04,65,310!2025-03-22,117,250!2024-12-13,14,321-->
+{@{Many professional accountancy qualifications}@} cover the field of financial accountancy, including {@{[Certified Public Accountant](Certified%20Public%20Accountant.md) (CPA), [Chartered Accountant](chartered%20accountant.md) (CA) or other national designations}@}, {@{[American Institute of Certified Public Accountants](American%20Institute%20of%20Certified%20Public%20Accountants.md) ([AICPA](American%20Institute%20of%20Certified%20Public%20Accountants.md)), and [Chartered Certified Accountant](Association%20of%20Chartered%20Certified%20Accountants.md#qualifications) ([ACCA](Association%20of%20Chartered%20Certified%20Accountants.md))}@}. <!--SR:!2025-09-15,285,330!2025-03-22,117,250!2024-12-13,14,321-->
 
 ## see also
 

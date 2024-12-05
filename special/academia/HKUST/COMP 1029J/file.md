@@ -23,7 +23,7 @@ Path path2 = Paths.get("C:\\Documents", "aFileNotInTheProjectDirectory.txt");
 
 ## file metadata
 
-One can check whether {@{an __existing__ file}@} is readable or writeable using {@{`java.nio.file.Files.isReadable(path)` or `java.nio.file.Files.isWritable(path)` respectively}@}. <!--SR:!2024-12-05,237,330!2027-01-11,808,330-->
+One can check whether {@{an __existing__ file}@} is readable or writeable using {@{`java.nio.file.Files.isReadable(path)` or `java.nio.file.Files.isWritable(path)` respectively}@}. <!--SR:!2027-11-17,1077,350!2027-01-11,808,330-->
 
 ## text files
 

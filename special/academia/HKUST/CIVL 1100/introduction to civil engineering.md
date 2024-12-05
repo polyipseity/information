@@ -66,7 +66,7 @@ The content is in teaching order.
   - geo-technical engineering structures ::@:: design and construction of earthworks and foundations <!--SR:!2024-12-22,159,320!2025-01-26,217,350-->
     - [geo-technical engineering structure examples](#geo-technical%20engineering%20structure%20examples)
   - [geo-technical engineering risks](#geo-technical%20engineering%20risks)
-    - geo-technical engineering risk migration ::@:: soil improvement or retaining structures can migrate risk to society <!--SR:!2024-12-05,162,340!2025-07-09,335,377-->
+    - geo-technical engineering risk migration ::@:: soil improvement or retaining structures can migrate risk to society <!--SR:!2027-01-02,758,360!2025-07-09,335,377-->
 - hydraulic engineering ::@:: conveyance and flow of fluids, principally sewage and water <!--SR:!2026-02-12,460,285!2025-05-07,300,365-->
   - hydraulic engineering structures ::@:: design and construction of hydraulic structures <!--SR:!2025-09-24,372,324!2025-04-26,293,365-->
     - [hydraulic engineering structure examples](#hydraulic%20engineering%20structure%20examples)
@@ -78,10 +78,10 @@ The content is in teaching order.
     - waste engineering ::@:: methods of disposal (e.g. landfills and incineration), site investigation and remediation, solid waste management <!--SR:!2026-04-29,539,315!2025-06-19,318,372-->
     - [water engineering](#water%20engineering)
     - noise engineering ::@:: noise mitigation measures (e.g. noise barriers), noise monitoring (e.g. construction noise, traffic noise) <!--SR:!2025-10-17,388,327!2025-06-14,328,370-->
-    - environmental impact assessment (EIA) ::@:: a systematic identification and evaluation process to assess the potential impacts of a proposed project so that mitigation measures can be developed <!--SR:!2025-01-06,147,230!2024-12-04,162,332-->
+    - environmental impact assessment (EIA) ::@:: a systematic identification and evaluation process to assess the potential impacts of a proposed project so that mitigation measures can be developed <!--SR:!2025-01-06,147,230!2026-12-14,739,352-->
       - [environmental impact components](#environmental%20impact%20components)
       - environmental impact assessment in [Hong Kong](../../../../general/Hong%20Kong.md) ::@:: regulated by the Environmental Impact Assessment (Cap. 499) 1997 <!--SR:!2025-02-20,208,314!2025-03-13,235,352-->
-- transportation engineering ::@:: moving goods and people effectively, efficiently, safely, and sustainably <!--SR:!2025-05-11,264,312!2024-12-04,219,319-->
+- transportation engineering ::@:: moving goods and people effectively, efficiently, safely, and sustainably <!--SR:!2025-05-11,264,312!2026-11-01,696,319-->
   - transportation engineering structures ::@:: planning, design, construction, operation, and maintenance of transportational infrastructures <!--SR:!2025-02-21,200,300!2025-10-11,431,401-->
     - [transportation engineering structure examples](#transportation%20engineering%20structure%20examples)
 - materials engineering
@@ -914,7 +914,7 @@ polypropylene fiber reinforced concrete
 
 - _(begin)_→::@::←artificial stone <!--SR:!2025-07-09,265,297!2025-07-31,398,365-->
 - artificial stone→::@::←cellular concrete <!--SR:!2026-05-01,535,320!2025-07-28,331,335-->
-- cellular concrete→::@::←engineered cement composite <!--SR:!2025-12-11,413,270!2024-12-05,166,330-->
+- cellular concrete→::@::←engineered cement composite <!--SR:!2025-12-11,413,270!2026-06-02,544,330-->
 - engineered cement composite→::@::←fly ash concrete <!--SR:!2026-03-09,492,337!2025-09-02,341,320-->
 - fly ash concrete→::@::←polypropylene fiber reinforced concrete <!--SR:!2025-03-31,209,280!2025-08-14,344,335-->
 - polypropylene fiber reinforced concrete→::@::←_(end)_ <!--SR:!2025-06-10,311,372!2025-10-18,373,320-->
@@ -1053,7 +1053,7 @@ Hong Kong Code
 
 - _(begin)_→::@::←American Code <!--SR:!2025-09-20,383,380!2025-09-03,403,394-->
 - American Code→::@::←Australian Standard <!--SR:!2024-12-27,193,355!2025-12-14,487,395-->
-- Australian Standard→::@::←Chinese Code <!--SR:!2024-12-05,160,327!2025-02-16,233,357-->
+- Australian Standard→::@::←Chinese Code <!--SR:!2026-05-09,520,327!2025-02-16,233,357-->
 - Chinese Code→::@::←Eurocode <!--SR:!2025-12-17,426,335!2025-03-30,252,357-->
 - Eurocode→::@::←Hong Kong Code <!--SR:!2025-03-11,258,376!2026-07-19,600,357-->
 - Hong Kong Code→::@::←_(end)_ <!--SR:!2025-09-17,412,387!2025-02-21,263,350-->

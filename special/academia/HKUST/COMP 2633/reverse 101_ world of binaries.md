@@ -31,7 +31,7 @@ Preprocessing {@{transforms source program (text) into modified source program (
 
 Compilation {@{transforms modified source program (text) into assembly program (still text)}@}. GCC internally {@{uses the program `cc1`, part of the GCC}@}, for this step. To only run this step, the command is {@{`gcc -S <input>.i`, which outputs a `.s` file}@}. <!--SR:!2025-08-25,277,357!2025-08-24,274,343!2025-01-26,101,303-->
 
-Assembly {@{transforms assembly program (text) into relocatable object (binary)}@}. GCC internally {@{uses the program `as`, which we can use by itself}@}, for this step. To only run this step, the command is {@{`gcc -c <input>.s`, which outputs a `.o` file}@}. <!--SR:!2024-12-04,71,323!2025-07-25,247,330!2025-07-13,225,337-->
+Assembly {@{transforms assembly program (text) into relocatable object (binary)}@}. GCC internally {@{uses the program `as`, which we can use by itself}@}, for this step. To only run this step, the command is {@{`gcc -c <input>.s`, which outputs a `.o` file}@}. <!--SR:!2025-10-25,324,343!2025-07-25,247,330!2025-07-13,225,337-->
 
 Linking {@{transforms relocatable object (binary) into an ELF file (binary)}@}, which is the final product we want. GCC internally {@{uses the program `ld`, which we can use by itself}@}, for this step. To only run this step, the command is {@{`gcc <input>.o -o <output>`, which outputs the ELF file as `<output>`}@}. <!--SR:!2025-05-04,185,323!2024-12-23,88,345!2024-12-11,78,345-->
 
@@ -43,7 +43,7 @@ Assembly is {@{not a single language}@}. Rather, there are {@{multiple languages
 
 ### registers
 
-Registers {@{hold data of fixed small sizes}@}. x86, a {@{32-bit}@} architecture, has {@{8 general-purpose 32-bit registers, named `eax`, `ecx`, `edx`, `ebx`, `esp`, `ebp`, `esi`, and `edi`}@}. x86-64, a {@{64-bit}@} architecture, introduces {@{8 additional general-purpose 64-bit registers, named `r8`, `r9`, `r10`, `r11`, `r12`, `r13`, `r14`, and `r15`}@}, and upgrades {@{the old 8 general-purpose 32-bit registers to 64-bit and changing the starting `e` to `r`}@}. There is also {@{a special 32-bit or 64-bit register named `eip` (32-bit) or `rip` (64-bit)}@}, which {@{points to the current instruction being executed}@}. Unlike other registers, it {@{cannot be read from or written to directly}@}. Lastly, there is {@{another special 32-bit or 64-bit register named `eflags` (32-bit) or `rflags` (64-bit)}@}, which {@{holds various _flags_ (not _flag_ as in CTF) representing the current CPU status (state)}@}. The above registers are {@{the most commonly used ones, and there are many more not mentioned here}@}. <!--SR:!2025-08-28,277,343!2024-12-13,80,345!2025-02-05,105,303!2024-12-04,72,337!2025-07-06,232,330!2024-12-13,80,345!2025-08-03,255,330!2024-12-08,76,345!2025-10-13,314,343!2024-12-09,75,337!2025-04-02,159,325!2024-12-09,76,345-->
+Registers {@{hold data of fixed small sizes}@}. x86, a {@{32-bit}@} architecture, has {@{8 general-purpose 32-bit registers, named `eax`, `ecx`, `edx`, `ebx`, `esp`, `ebp`, `esi`, and `edi`}@}. x86-64, a {@{64-bit}@} architecture, introduces {@{8 additional general-purpose 64-bit registers, named `r8`, `r9`, `r10`, `r11`, `r12`, `r13`, `r14`, and `r15`}@}, and upgrades {@{the old 8 general-purpose 32-bit registers to 64-bit and changing the starting `e` to `r`}@}. There is also {@{a special 32-bit or 64-bit register named `eip` (32-bit) or `rip` (64-bit)}@}, which {@{points to the current instruction being executed}@}. Unlike other registers, it {@{cannot be read from or written to directly}@}. Lastly, there is {@{another special 32-bit or 64-bit register named `eflags` (32-bit) or `rflags` (64-bit)}@}, which {@{holds various _flags_ (not _flag_ as in CTF) representing the current CPU status (state)}@}. The above registers are {@{the most commonly used ones, and there are many more not mentioned here}@}. <!--SR:!2025-08-28,277,343!2024-12-13,80,345!2025-02-05,105,303!2025-11-08,338,357!2025-07-06,232,330!2024-12-13,80,345!2025-08-03,255,330!2024-12-08,76,345!2025-10-13,314,343!2024-12-09,75,337!2025-04-02,159,325!2024-12-09,76,345-->
 
 A register {@{does not need to be access in its entirety}@}. Instead, we can access {@{the lowest (least significant) bits of a register only}@}. To {@{access the entire register (64 bits)}@}, {@{change the register prefix to `r`, e.g. `rax`, `rsp`, `r8`}@}. To {@{access the lowest 32 bits}@}, {@{change the register prefix to `e` if the register name does not contain a number, or append `d` otherwise, e.g. `eax`, `esp`, `r8d`}@}. To {@{access the lowest 16 bits}@}, {@{remove the register prefix if the register name does not contain a number, or append `w` otherwise, e.g. `ax`, `sp`, `r8w`}@}. To {@{access the lowest 8 bits}@}, {@{remove the register prefix, remove the ending `x` if any, and append `l` if the register name does not contain a number, or append `b` otherwise, e.g. `al`, `spl`, `r8b`}@}. Note that {@{`epl`/`rpl` cannot have only its lowest 8 bits accessed, i.e. `ipl` is invalid}@}. For {@{4 of the registers, which are `eax`/`rax`, `ecx`/`rcx`, `edx`/`rdx`, and `ebx`/`rbx`}@}, we can {@{also access the 8 bits just above the lowest 8 bits}@} by {@{writing `ah`, `ch`, `dh`, or `bh`}@}. <!--SR:!2024-12-08,75,343!2025-09-01,282,357!2025-08-15,267,343!2024-12-06,73,345!2024-12-07,74,323!2025-09-05,286,357!2025-04-11,166,310!2024-12-20,85,345!2025-07-27,249,330!2025-07-14,223,323!2025-06-13,200,317!2025-09-06,285,343!2025-04-20,159,317!2025-06-30,227,330-->
 
@@ -69,7 +69,7 @@ Below is a list of common instructions (in learning order):
 - `add <dest> <src>` ::@:: Increment the value at `<dest>` by `<src>`. <!--SR:!2025-08-18,267,330!2025-08-12,264,343-->
 - `sub <dest> <src>` ::@:: Decrement the value at `<dest>` by `<src>`. <!--SR:!2024-12-18,83,345!2024-12-08,75,345-->
 - `imul <dest> <src>` ::@:: Multiply the value at `<dest>` by `<src>`, signed. <!--SR:!2025-07-24,233,337!2024-12-07,74,345-->
-- `idiv <src>` ::@:: Divide the value at `ax` (8-bit), `dx:ax` (16-bit), `edx:eax` (32-bit), or `rdx:rax` (64-bit) by `<src>`, truncated towards 0 and signed. <!--SR:!2025-01-06,81,270!2024-12-04,71,337-->
+- `idiv <src>` ::@:: Divide the value at `ax` (8-bit), `dx:ax` (16-bit), `edx:eax` (32-bit), or `rdx:rax` (64-bit) by `<src>`, truncated towards 0 and signed. <!--SR:!2025-01-06,81,270!2025-10-31,330,357-->
 - `and <dest> <src>` ::@:: Bitwise and the value at `<dest>` with `<src>`. <!--SR:!2024-12-06,74,343!2025-09-14,291,343-->
 - `or <dest> <src>` ::@:: Bitwise or the value at `<dest>` with `<src>`. <!--SR:!2024-12-17,83,345!2025-07-24,246,330-->
 - `xor <dest> <src>` ::@:: Bitwise exclusive-or the value at `<dest>` with `<src>`. <!--SR:!2024-12-12,79,345!2024-12-16,82,343-->
@@ -97,7 +97,7 @@ An assembly file {@{does not solely consists of instructions}@}. It also {@{cont
 A key idea in assembly that {@{code and data are treated the same}@}. Indeed, data is represented by {@{instructions (but should not be executed by our program) as well}@}. Some common data instructions include: <!--SR:!2024-12-11,78,337!2024-12-11,78,345-->
 
 - `db <data>...` ::@:: Define byte. Represents `<data>...` on a granular level of bytes. This is commonly used to store strings. Remember to add the null terminator for interoperability with C. <!--SR:!2024-12-24,89,345!2025-08-20,269,345-->
-- `dd <data>` ::@:: Define dword (4 bytes, double word). Represents `<data>` on a granular level of 4 bytes. This can also be used to store `float`s in C. <!--SR:!2024-12-04,72,343!2025-09-19,295,343-->
+- `dd <data>` ::@:: Define dword (4 bytes, double word). Represents `<data>` on a granular level of 4 bytes. This can also be used to store `float`s in C. <!--SR:!2025-11-10,340,363!2025-09-19,295,343-->
 - `dq <data>` ::@:: Define qword (8 bytes, quadruple word). Represents `<data>` on a granular level of 8 bytes. This can also be used to store `double`s in C. <!--SR:!2024-12-11,78,345!2025-07-08,234,337-->
 - `dw <data>` ::@:: Define word (2 bytes). Represents `<data>` on a granular level of 2 bytes. <!--SR:!2025-05-23,197,337!2025-06-26,225,337-->
 - `resb <size>` ::@:: Reserve `<size>` number of bytes. All modern operating systems will also fill it with zeros. It is commonly used in `.bss`. <!--SR:!2024-12-16,81,345!2024-12-06,73,345-->
@@ -109,7 +109,7 @@ Since {@{a program requires a starting point}@}, usually we are required to {@{[
 
 ### labels
 
-{@{Referencing code or data by their raw address}@} is {@{troublesome and error-prone}@}. We can instead {@{give names, called _labels_, to the code or data at particular addresses}@}. Then we can {@{use those names instead of raw addresses whenever referring to them, such as jump destination and data address}@}. The synax is {@{prepending `<label name>:` before the instruction, e.g. `my_int: dd 2633`, `my_uninit_int: resd 1`}@}. <!--SR:!2024-12-22,87,345!2024-12-04,71,323!2024-12-21,86,345!2025-10-20,321,357!2025-09-27,301,343-->
+{@{Referencing code or data by their raw address}@} is {@{troublesome and error-prone}@}. We can instead {@{give names, called _labels_, to the code or data at particular addresses}@}. Then we can {@{use those names instead of raw addresses whenever referring to them, such as jump destination and data address}@}. The synax is {@{prepending `<label name>:` before the instruction, e.g. `my_int: dd 2633`, `my_uninit_int: resd 1`}@}. <!--SR:!2024-12-22,87,345!2025-10-24,323,343!2024-12-21,86,345!2025-10-20,321,357!2025-09-27,301,343-->
 
 Label names are {@{global and unique across an assembly program, and appear in symbol tables of object files}@}. The assembler or linker will {@{transform them into constant addresses during assembly or linking}@}. The loader {@{(before execution of the program) may further modify those constant addresses}@}. <!--SR:!2025-06-26,223,330!2025-09-20,298,363!2024-12-07,75,345-->
 
@@ -119,10 +119,10 @@ To assemble an assembly program as an ELF with {@{NASM}@}, run {@{`nasm -f elf64
 
 ### stack and functions in assembly
 
-x86 and x86-64 makes it easy {@{to enumerate stacks (in both the data structure and memory allocation sense) and functions}@} by {@{providing the instructions `push`, `pop`, `call`, and `ret`}@}. Remember that the stack grows {@{in the negative direction (decreasing address)}@}. <!--SR:!2024-12-05,72,337!2024-12-13,80,343!2025-03-18,148,310-->
+x86 and x86-64 makes it easy {@{to enumerate stacks (in both the data structure and memory allocation sense) and functions}@} by {@{providing the instructions `push`, `pop`, `call`, and `ret`}@}. Remember that the stack grows {@{in the negative direction (decreasing address)}@}. <!--SR:!2025-11-03,333,357!2024-12-13,80,343!2025-03-18,148,310-->
 
 - `push <data>` ::@:: Copy `<data>` to the address pointed by `esp`/`rsp` and then decrement `esp`/`rsp` by the data size. The data size is either 4 or 8 bytes depending on the architecture (but not `<data>`). It can also be 2 bytes if explicitly specified (`push word <data>`), Note that flags are also manipulated. <!--SR:!2025-08-02,255,330!2025-07-27,238,345-->
-- `pop <dest>` ::@:: Copy the value at the address pointed by `esp`/`rsp` to `<dest>` and then increment `esp`/`rsp` by the data size. The data size is either 4 or 8 bytes depending on the architecture (but not the value at the stack top). It can also be 2 bytes if explicitly specified (`pop word <dest>`). Note that flags are also manipulated. <!--SR:!2025-05-09,173,325!2024-12-04,71,323-->
+- `pop <dest>` ::@:: Copy the value at the address pointed by `esp`/`rsp` to `<dest>` and then increment `esp`/`rsp` by the data size. The data size is either 4 or 8 bytes depending on the architecture (but not the value at the stack top). It can also be 2 bytes if explicitly specified (`pop word <dest>`). Note that flags are also manipulated. <!--SR:!2025-05-09,173,325!2025-10-23,322,343-->
 - `call <addr>` ::@:: Push (`push`) the address of the next instruction to the stack and jump to `<addr>`. It can help with implementing function calls in higher-level languages. Note that the _stack pointer_ and _base pointer_ are not modified to create a function frame, and needs to be done by the compiler or yourself. <!--SR:!2025-03-21,141,325!2025-08-18,269,343-->
 - `ret` ::@:: Pop (`pop`) the address of an instruction from the stack and jump to it. This is a bit like `pop eip`/`pop rip`, but this is illegal because `eip`/`rip` is a special register and cannot be read from or written to directly. It can help with implementing function returns in higher-level languages. Note that the _stack pointer_ and _base pointer_ are not modified to restore the function frame, and needs to be done by the compiler or yourself. <!--SR:!2025-07-02,230,345!2025-07-14,240,345-->
 
@@ -136,7 +136,7 @@ Apart from the above, below are some tools useful in general:
 
 ### tools for static analysis
 
-Static analysis is {@{analyzing the program without actually executing it}@}. Of course, {@{simulating its execution or constucting its control flow graph}@} is also static analysis as long as {@{the program is not actually executed by an actual runtime}@}. An analog is {@{staring at the program until it makes sense}@}. <!--SR:!2025-09-01,280,345!2024-12-06,73,345!2025-03-26,154,325!2024-12-05,72,337-->
+Static analysis is {@{analyzing the program without actually executing it}@}. Of course, {@{simulating its execution or constucting its control flow graph}@} is also static analysis as long as {@{the program is not actually executed by an actual runtime}@}. An analog is {@{staring at the program until it makes sense}@}. <!--SR:!2025-09-01,280,345!2024-12-06,73,345!2025-03-26,154,325!2025-11-05,335,357-->
 
 Some common tools are:
 
@@ -154,7 +154,7 @@ Dynamic analysis is {@{analyzing the program while executing it}@}. Techniques i
 Some common tools are:
 
 - GNU Debugger (`gdb`) ::@:: A commonly used program debugger on Linux. Best used with extensions like GDB Enhanced Features (GEF), `pwndbg`, etc. <!--SR:!2025-10-24,325,357!2024-12-06,73,337-->
-- Ghidra ::@:: An open-source powerful decompiler and disassembler developed by the National Security Agency (NSA). It can also act as a debugger itself or use `gdb` as its backend. <!--SR:!2025-05-29,202,337!2024-12-04,72,337-->
+- Ghidra ::@:: An open-source powerful decompiler and disassembler developed by the National Security Agency (NSA). It can also act as a debugger itself or use `gdb` as its backend. <!--SR:!2025-05-29,202,337!2025-11-04,334,357-->
 - `strace` ::@:: Trace system calls and signals in realtime. <!--SR:!2025-10-09,315,365!2025-08-07,258,330-->
 - `ltrace` ::@:: Trace library calls, e.g. `glibc`. <!--SR:!2025-09-13,290,343!2024-12-11,77,345-->
 

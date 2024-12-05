@@ -11,13 +11,13 @@ tags:
 
 > {@{![An example of a demand curve shifting.](../archives/Wikimedia%20Commons/Supply-and-demand.svg)}@}
 >
-> {@{An example of a demand curve shifting}@}. _D1_ and _D2_ are {@{alternative positions of the demand curve, _S_ is the supply curve, and _P_ and _Q_ are price and quantity respectively}@}. {@{The shift from D1 to D2}@} means {@{an increase in demand with consequences for the other variables}@} <!--SR:!2024-12-08,15,290!2024-12-07,14,290!2024-12-09,16,290!2024-12-07,14,290!2024-12-04,11,270-->
+> {@{An example of a demand curve shifting}@}. _D1_ and _D2_ are {@{alternative positions of the demand curve, _S_ is the supply curve, and _P_ and _Q_ are price and quantity respectively}@}. {@{The shift from D1 to D2}@} means {@{an increase in demand with consequences for the other variables}@} <!--SR:!2024-12-08,15,290!2024-12-07,14,290!2024-12-09,16,290!2024-12-07,14,290!2025-01-15,42,290-->
 
 A __demand curve__ is {@{a [graph](graph%20of%20a%20function.md) depicting the [inverse demand function](inverse%20demand%20function.md)}@},<sup>[\[1\]](#^ref-1)</sup> {@{a relationship between the price of a certain [commodity](commodity.md) \(the _y_-axis\) and the quantity of that commodity that is demanded at that price \(the _x_-axis\)}@}. Demand curves can be used either for {@{the price-quantity relationship for an individual consumer \(an __individual demand curve__\), or for all consumers in a particular market \(a __market demand curve__\)}@}. <!--SR:!2024-12-07,14,290!2024-12-09,16,290!2024-12-07,14,290-->
 
 It is generally assumed that {@{demand curves slope down}@}, as shown in the adjacent image. This is because of {@{the [law of demand](law%20of%20demand.md): for most goods, the quantity demanded falls if the price rises}@}.<sup>[\[2\]](#^ref-2)</sup> {@{Certain unusual situations}@} do not follow this law. These include {@{[Veblen goods](Veblen%20good.md), [Giffen goods](Giffen%20good.md), and speculative bubbles where buyers are attracted to a commodity if its price rises}@}. <!--SR:!2024-12-07,14,290!2024-12-07,14,290!2024-12-09,16,290!2024-12-08,15,290-->
 
-Demand curves are used to {@{estimate behaviour in [competitive markets](perfect%20competition.md)}@} and are often combined with {@{[supply curves](supply%20(economics).md)}@} to find {@{the [equilibrium price](economic%20equilibrium.md)}@} \(the price at which {@{sellers together are willing to sell the same amount as buyers together are willing to buy, also known as [market clearing](market%20clearing.md) price}@}\) and {@{the equilibrium quantity}@} \(the amount of {@{that good or service that will be produced and bought without surplus/excess supply or shortage/excess demand}@}\) of that market.<sup>[\[2\]](#^ref-2)</sup><sup>[\[57\]](#^ref-57)</sup> <!--SR:!2024-12-07,14,290!2024-12-04,12,270!2024-12-07,14,290!2024-12-07,14,290!2024-12-07,14,290!2024-12-05,12,270-->
+Demand curves are used to {@{estimate behaviour in [competitive markets](perfect%20competition.md)}@} and are often combined with {@{[supply curves](supply%20(economics).md)}@} to find {@{the [equilibrium price](economic%20equilibrium.md)}@} \(the price at which {@{sellers together are willing to sell the same amount as buyers together are willing to buy, also known as [market clearing](market%20clearing.md) price}@}\) and {@{the equilibrium quantity}@} \(the amount of {@{that good or service that will be produced and bought without surplus/excess supply or shortage/excess demand}@}\) of that market.<sup>[\[2\]](#^ref-2)</sup><sup>[\[57\]](#^ref-57)</sup> <!--SR:!2024-12-07,14,290!2025-01-20,47,290!2024-12-07,14,290!2024-12-07,14,290!2024-12-07,14,290!2025-01-20,46,290-->
 
 {@{Movement ["along the demand curve"](#movement%20along%20a%20demand%20curve)}@} refers to {@{how the quantity demanded changes when the price changes}@}. <!--SR:!2024-12-08,15,290!2024-12-08,15,290-->
 
@@ -27,7 +27,7 @@ Demand curves are {@{estimated by a variety of techniques}@}.<sup>[\[4\]](#^ref-
 
 ## shape of the demand curve
 
-In most circumstances {@{the demand curve has a negative slope, and therefore slopes downwards}@}. This is due to {@{the law of demand which conditions that there is an inverse relationship between price and the demand of commodity \(good or a service\)}@}. As {@{price goes up quantity demanded reduces and as price reduces quantity demanded increases}@}. <!--SR:!2024-12-07,14,290!2024-12-04,11,270!2024-12-08,15,290-->
+In most circumstances {@{the demand curve has a negative slope, and therefore slopes downwards}@}. This is due to {@{the law of demand which conditions that there is an inverse relationship between price and the demand of commodity \(good or a service\)}@}. As {@{price goes up quantity demanded reduces and as price reduces quantity demanded increases}@}. <!--SR:!2024-12-07,14,290!2025-01-14,41,290!2024-12-08,15,290-->
 
 For convenience, demand curves are often graphed as {@{straight lines}@}, where {@{_a_ and _b_ are parameters: $$Q=a+bP{\text{ where }}b<0 \,.$$}@} {@{The constant _a_}@} embodies {@{the effects of all factors other than price that affect demand}@}. If {@{income were to change}@}, for example, the effect of the change would be represented by {@{a change in the value of "a" and be reflected graphically as a shift of the demand curve}@}. {@{The constant _b_}@} is {@{the slope of the demand curve}@} and shows {@{how the price of the good affects the quantity demanded}@}.<sup>[\[6\]](#^ref-6)</sup> <!--SR:!2024-12-07,14,290!2024-12-07,14,290!2024-12-07,14,290!2024-12-07,14,290!2024-12-07,14,290!2024-12-07,14,290!2024-12-07,14,290!2024-12-07,14,290!2024-12-09,16,290-->
 
@@ -41,7 +41,7 @@ The graph of the demand curve uses {@{the [inverse demand function](inverse%20de
 
 The demand is {@{called _[convex](convex%20function.md)_ \(with respect to the [origin](origin%20(mathematics).md)<sup>[\[7\]](#^ref-7)</sup>\)}@} if {@{the \(generally down-sloping\) curve bends upwards}@}, _[concave](concave%20function.md)_ otherwise.<sup>[\[8\]](#^ref-8)</sup> <!--SR:!2024-12-07,14,290!2024-12-07,14,290-->
 
-The demand curvature is {@{fundamentally hard to estimate from the empirical data}@}, with some researchers suggesting that {@{demand with high convexity is practically improbable}@}. Demand curve are, however, considered to be {@{generally convex in accordance with [diminishing marginal utility](marginal%20utility.md)}@}.<sup>[\[9\]](#^ref-9)</sup> Theoretically, the demand curve is {@{equivalent to the [price-offer curve](price-consumption%20curve.md)}@} and can be derived by {@{charting the points of tangency between [budget lines](budget%20constraint.md) and [indifference curves](indifference%20curve.md)}@} for {@{all possible prices of the good in question}@}.<sup>[\[10\]](#^ref-10)</sup> <!--SR:!2024-12-08,15,290!2024-12-07,14,290!2024-12-08,15,290!2024-12-09,16,290!2024-12-04,12,270!2024-12-08,15,290-->
+The demand curvature is {@{fundamentally hard to estimate from the empirical data}@}, with some researchers suggesting that {@{demand with high convexity is practically improbable}@}. Demand curve are, however, considered to be {@{generally convex in accordance with [diminishing marginal utility](marginal%20utility.md)}@}.<sup>[\[9\]](#^ref-9)</sup> Theoretically, the demand curve is {@{equivalent to the [price-offer curve](price-consumption%20curve.md)}@} and can be derived by {@{charting the points of tangency between [budget lines](budget%20constraint.md) and [indifference curves](indifference%20curve.md)}@} for {@{all possible prices of the good in question}@}.<sup>[\[10\]](#^ref-10)</sup> <!--SR:!2024-12-08,15,290!2024-12-07,14,290!2024-12-08,15,290!2024-12-09,16,290!2025-01-18,45,290!2024-12-08,15,290-->
 
 ## assumptions underlying the derivation of the demand curve
 
@@ -54,7 +54,7 @@ The demand curvature is {@{fundamentally hard to estimate from the empirical dat
 ## three categories of demand curves
 
 - Individual demand curve: ::@:: the relationship between the quantity of a product a single consumer is willing to buy and its price. <!--SR:!2024-12-07,14,290!2024-12-07,14,290-->
-- Market demand curve: ::@:: the relationship between the quantity of a product that all consumers in the market are willing to buy and its price. The market demand curve can be obtained by adding up the individual demand curves of individual consumers in the industry horizontally. <!--SR:!2024-12-08,15,290!2024-12-04,12,270-->
+- Market demand curve: ::@:: the relationship between the quantity of a product that all consumers in the market are willing to buy and its price. The market demand curve can be obtained by adding up the individual demand curves of individual consumers in the industry horizontally. <!--SR:!2024-12-08,15,290!2025-01-18,45,290-->
 - Firm demand curve: ::@:: \(A firm demand curve may also be referred to as the demand curve of the market to which the firm is exposed.\) It refers to the relationship between the number of customers willing to buy a certain product from the enterprise and its price. <!--SR:!2024-12-07,14,290!2024-12-09,16,290-->
 
 The slope of the market industry demand curve is {@{greater than the slope of the individual demand curve}@}; the slope of the industry demand curve is {@{greater than the slope of the enterprise demand curve}@}.  The slope of the industry's demand curve is {@{greater than than the slope of a firm's demand curve}@}. <!--SR:!2024-12-07,14,290!2024-12-09,16,290!2024-12-17,18,329-->
@@ -67,7 +67,7 @@ The slope of the market industry demand curve is {@{greater than the slope of th
 
 When {@{[income](income.md) increases}@}, {@{the demand curve for [normal goods](normal%20good.md) shifts outward as more will be demanded at all prices}@}, while {@{the demand curve for [inferior goods](inferior%20good.md) shifts inward due to the increased attainability of superior substitutes}@}. With respect to {@{related goods}@}, when {@{the price of a good \(e.g. a hamburger\) rises}@}, {@{the demand curve for substitute goods \(e.g. chicken\) shifts out}@}, while {@{the demand curve for complementary goods \(e.g. ketchup\) shifts in}@} \(i.e. there is {@{more demand for substitute goods as they become more attractive in terms of value for money}@}, while demand for complementary goods {@{contracts in response to the contraction of quantity demanded of the underlying good}@}\).<sup>[\[11\]](#^ref-11)</sup> With {@{factors of individual demand and market demand, both complementary goods and substitutes}@} affect the demand curve. <!--SR:!2024-12-07,14,290!2024-12-07,14,290!2024-12-07,14,290!2024-12-09,16,290!2024-12-09,16,290!2024-12-08,15,290!2024-12-07,14,290!2024-12-09,16,290!2024-12-07,14,290!2024-12-07,14,290-->
 
-- Complementary goods are ::@:: goods A and B where the demand for the former and the price of the latter have an inverse relationship, with an increase in the price of the former leading to a decrease in the demand for the latter and vice versa, but there is no relationship between them as capital goods and consumer goods. <!--SR:!2024-12-05,12,270!2024-12-07,14,290-->
+- Complementary goods are ::@:: goods A and B where the demand for the former and the price of the latter have an inverse relationship, with an increase in the price of the former leading to a decrease in the demand for the latter and vice versa, but there is no relationship between them as capital goods and consumer goods. <!--SR:!2025-01-05,31,270!2024-12-07,14,290-->
 - Substitutes are ::@:: those goods for which there is a positive relationship between the demand for good A and the price of good B \(e.g., an increase in the price of one good is an increase in the demand for the other\) and which are in competition with each other. <!--SR:!2024-12-07,14,290!2024-12-07,14,290-->
 
 ### factors affecting individual demand
@@ -81,7 +81,7 @@ When {@{[income](income.md) increases}@}, {@{the demand curve for [normal goods]
 
 In addition to {@{the factors which can affect individual demand there}@} are {@{three factors that can cause the market demand curve to shift}@}: <!--SR:!2024-12-07,14,290!2024-12-07,14,290-->
 
-- a change in the number of ::@:: consumers, <!--SR:!2024-12-04,12,270!2024-12-07,14,290-->
+- a change in the number of ::@:: consumers, <!--SR:!2025-01-17,44,290!2024-12-07,14,290-->
 - a change in the distribution of tastes ::@:: among consumers, <!--SR:!2024-12-09,16,290!2024-12-09,16,290-->
 - a change in the distribution of income ::@:: among consumers with different tastes.<sup>[\[13\]](#^ref-13)</sup> <!--SR:!2024-12-09,16,290!2024-12-07,14,290-->
 
@@ -116,7 +116,7 @@ If {@{the price axis in the graph represents the price before addition of tax an
 
 - When the demand curve is perfectly inelastic \(vertical demand curve\), ::@:: all taxes are borne by the consumer. <!--SR:!2024-12-07,14,290!2024-12-07,14,290-->
 - When the demand curve is perfectly elastic \(horizontal demand curve\), ::@:: all taxes are borne by the supplier. <!--SR:!2024-12-07,14,290!2024-12-07,14,290-->
-- If the demand curve is more elastic (than the supply curve), ::@:: the supplier bears a larger share of the cost increase or tax. <sup>[\[16\]](#^ref-16)</sup> <!--SR:!2024-12-04,11,270!2024-12-09,16,290-->
+- If the demand curve is more elastic (than the supply curve), ::@:: the supplier bears a larger share of the cost increase or tax. <sup>[\[16\]](#^ref-16)</sup> <!--SR:!2025-01-16,43,290!2024-12-09,16,290-->
 
 ## derived demand
 
@@ -126,7 +126,7 @@ If {@{the price axis in the graph represents the price before addition of tax an
 
 The demand for goods can be further divorced into {@{the demand markets for final and [intermediate goods](intermediate%20good.md)}@}. An intermediate good is {@{a good utilized in the process of creating another good, effectively named the [final good](final%20good.md)}@}.<sup>[\[17\]](#^ref-17)</sup> It is important to note that {@{the cooperation of several inputs in many circumstances yields a final good}@} and thus {@{the demand for these goods is _derived_ from the demand of the final product}@}; this concept is {@{known as [derived demand](derived%20demand.md)}@}.<sup>[\[18\]](#^ref-18)</sup> {@{The relationship between the intermediate goods and the final good}@} is {@{direct and positive as demand for a final product increases demand for the intermediate goods used to make it}@}. <!--SR:!2024-12-07,14,290!2024-12-07,14,290!2024-12-07,14,290!2024-12-07,14,290!2024-12-07,14,290!2024-12-07,14,290!2024-12-09,16,290-->
 
-In order to {@{construct a derived demand curve}@}, {@{specific assumptions must be made and values held constant}@}. {@{The supply curves for other inputs, demand curve for the final good, and production conditions}@} must all be held constant to {@{ascertain an effective derived demand curve}@}.<sup>[\[18\]](#^ref-18)</sup> <!--SR:!2024-12-07,14,290!2024-12-09,16,290!2024-12-04,12,270!2024-12-07,14,290-->
+In order to {@{construct a derived demand curve}@}, {@{specific assumptions must be made and values held constant}@}. {@{The supply curves for other inputs, demand curve for the final good, and production conditions}@} must all be held constant to {@{ascertain an effective derived demand curve}@}.<sup>[\[18\]](#^ref-18)</sup> <!--SR:!2024-12-07,14,290!2024-12-09,16,290!2025-01-19,46,290!2024-12-07,14,290-->
 
 ## see also
 

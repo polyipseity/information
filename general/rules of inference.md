@@ -15,7 +15,7 @@ For example, the rule of inference called {@{_[modus ponens](modus%20ponens.md)_
 
 Typically, a rule of inference {@{preserves truth, a semantic property. In [many-valued logic](many-valued%20logic.md), it preserves a general designation}@}. But a rule of inference's action is {@{purely syntactic, and does not need to preserve any semantic property: any function from sets of formulae to formulae counts as a rule of inference}@}. Usually only rules that are [recursive](recursion.md) are {@{important; i.e. rules such that there is an [effective procedure](effective%20method.md) for determining whether any given formula is the conclusion of a given set of formulae according to the rule}@}. An example of a rule that is not effective in this sense is {@{the infinitary [ω-rule](ω-consistent%20theory.md)}@}.<sup>[\[1\]](#^ref-1)</sup> <!--SR:!2025-08-31,272,330!2025-03-10,135,294!2025-01-10,80,274!2025-06-15,194,274-->
 
-Popular rules of inference in [propositional logic](propositional%20calculus.md) include {@{_[modus ponens](modus%20ponens.md)_, _[modus tollens](modus%20tollens.md)_, and [contraposition](contraposition.md)}@}. First-order [predicate logic](first-order%20logic.md) uses rules of inference to {@{deal with [logical quantifiers](quantifier%20(logic).md)}@}. <!--SR:!2024-12-05,58,274!2025-01-08,84,294-->
+Popular rules of inference in [propositional logic](propositional%20calculus.md) include {@{_[modus ponens](modus%20ponens.md)_, _[modus tollens](modus%20tollens.md)_, and [contraposition](contraposition.md)}@}. First-order [predicate logic](first-order%20logic.md) uses rules of inference to {@{deal with [logical quantifiers](quantifier%20(logic).md)}@}. <!--SR:!2025-05-13,159,274!2025-01-08,84,294-->
 
 ## standard form
 

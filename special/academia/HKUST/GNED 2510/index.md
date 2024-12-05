@@ -37,9 +37,9 @@ The content is in teaching order.
 - topic: Innerview (I): Breaking your Mental Model
 - course logistics
 - SCARF (good) ::@:: sense of urgency, courage to try, awesomeness, relatedness, fresh perspective <!--SR:!2025-01-03,78,290!2024-12-06,57,310-->
-- hard skills, soft skills ::@:: Many jobs typically require a combination of them. <!--SR:!2024-12-05,56,310!2024-12-06,57,310-->
+- hard skills, soft skills ::@:: Many jobs typically require a combination of them. <!--SR:!2025-08-03,241,330!2024-12-06,57,310-->
   - hard skills ::@:: Skills acquired through formal education and training programs. <!--SR:!2024-12-10,61,310!2025-06-22,209,330-->
-  - soft skills ::@:: Skills that promote productivity, efficiency, effective communication, etc. <!--SR:!2024-12-25,69,310!2024-12-04,57,310-->
+  - soft skills ::@:: Skills that promote productivity, efficiency, effective communication, etc. <!--SR:!2024-12-25,69,310!2025-08-13,251,330-->
 - How many jobs should you include on your resume? ::@:: all of your previous jobs <!--SR:!2025-05-30,192,310!2025-04-19,155,310-->
 - [name tag](../../../name%20tag.md)
   - For easy reading, one’s name badge should be worn... ::@:: ... on the right chest near shoulder. <!--SR:!2025-06-03,182,310!2024-12-25,69,310-->
@@ -49,7 +49,7 @@ The content is in teaching order.
 - datetime: 2023-09-13T17:00:00+08:00/2023-09-13T18:50:00+08:00
 - topic: Innerview (II): Together we redefine Success
 - ideal life
-- powerful self-introduction ::@:: know yourself, know your passion, know your unique selling points (USP) <!--SR:!2024-12-05,58,310!2024-12-13,64,310-->
+- powerful self-introduction ::@:: know yourself, know your passion, know your unique selling points (USP) <!--SR:!2025-06-03,180,310!2024-12-13,64,310-->
 - psychometric assessments ::@:: STRONG, DISC maps <!--SR:!2025-07-30,239,330!2025-07-03,217,330-->
 
 ## week 3 tutorial
@@ -64,7 +64,7 @@ The content is in teaching order.
 - topic: Portfolio Building (I)
 - skill vs. will
 - job trends ::@:: AI in recruitment and selection, applicant tracking system <!--SR:!2025-04-02,141,310!2024-12-25,69,310-->
-  - applicant tracking system ::@:: Not your enemy! Prefer (reverse) chronological order, add keywords, and avoid fancy formatting. <!--SR:!2024-12-10,61,310!2024-12-05,56,310-->
+  - applicant tracking system ::@:: Not your enemy! Prefer (reverse) chronological order, add keywords, and avoid fancy formatting. <!--SR:!2024-12-10,61,310!2025-08-04,242,330-->
 - job description ::@:: Infer what attributes the job is look from from its job description. <!--SR:!2025-07-16,228,330!2024-12-25,69,310-->
 - [résumé](../../../résumé.md)
   - What color should a CV typed up in? ::@:: black <!--SR:!2025-06-29,214,330!2024-12-25,69,310-->
@@ -73,7 +73,7 @@ The content is in teaching order.
   - What order should your qualification be put in? ::@:: newest to oldest <!--SR:!2024-12-08,59,310!2024-12-06,59,310-->
   - IROAR ::@:: impact, results, outcomes, achievements, responsibilities <!--SR:!2025-07-17,229,330!2025-04-10,148,310-->
   - referees ::@:: 1 professor, 1 previous work supervisor, 1 volunteer team project lead <!--SR:!2025-05-28,184,310!2025-06-03,189,310-->
-  - profile summary ::@:: what I want and what I can do for you, altitude + skills + knowledge (ASK) <!--SR:!2024-12-25,69,310!2024-12-04,57,310-->
+  - profile summary ::@:: what I want and what I can do for you, altitude + skills + knowledge (ASK) <!--SR:!2024-12-25,69,310!2025-05-30,176,310-->
 - assignment 1: job description, curriculum vitae, and cover letter
   - due: 2023-10-11
 
@@ -113,7 +113,7 @@ The content is in teaching order.
 - datetime: 2023-10-18T17:00:00+08:00/2023-10-18T18:50:00+08:00
 - topic: Career and Employability Skills
 - networking
-  - networking advantages ::@:: know more people, fact checking, tapping into the hidden job market <!--SR:!2025-04-12,130,290!2024-12-05,58,310-->
+  - networking advantages ::@:: know more people, fact checking, tapping into the hidden job market <!--SR:!2025-04-12,130,290!2025-08-15,253,330-->
 - Where should you sit when you are waiting for an interview? ::@:: as front as possible <!--SR:!2024-12-09,60,310!2024-12-06,57,310-->
 - Where should you sit when you are in the interview room? ::@:: seats that are neither too special nor too seclusive <!--SR:!2024-12-06,57,310!2025-04-07,145,310-->
 - If your boss takes you and the team for lunch... ::@:: ... balance the food order with what everyone else is choosing. (But it can depend on the boss's style.) <!--SR:!2024-12-11,62,310!2025-06-26,212,330-->
@@ -128,7 +128,7 @@ The content is in teaching order.
   - dining etiquette
 - work cultures
 - How is a work offer properly confirmed? ::@:: confirm the draft employment contract <!--SR:!2024-12-07,60,310!2025-02-11,107,290-->
-- What if you need more time to consider a work offer? ::@:: Sincerely ask for more time to consider and state your expected reply time to the employer. <!--SR:!2025-07-13,225,330!2024-12-05,56,310-->
+- What if you need more time to consider a work offer? ::@:: Sincerely ask for more time to consider and state your expected reply time to the employer. <!--SR:!2025-07-13,225,330!2025-05-28,174,310-->
 - What to do after confirming an offer? ::@:: stop interviewing, nicely decline other work offers <!--SR:!2025-03-30,143,310!2024-12-25,69,310-->
 - job offer ::@:: Check if it is legitimate and is not missing any crucial information! <!--SR:!2025-05-30,186,310!2024-12-14,65,310-->
   - job offer crucial information ::@:: company logo, contact information, job title, job details, salary/compensation, benefits, expiration date <!--SR:!2024-12-25,62,250!2025-02-10,97,270-->
@@ -176,7 +176,7 @@ The content is in teaching order.
   - STAR-r / situation ::@:: set the scene <!--SR:!2024-12-06,57,310!2024-12-25,69,310-->
   - STAR-r / task ::@:: describe the purpose <!--SR:!2025-06-15,199,310!2025-06-21,207,330-->
   - STAR-r / action ::@:: explain what you did <!--SR:!2024-12-07,60,310!2024-12-11,62,310-->
-  - STAR-r / result ::@:: share the outcome <!--SR:!2024-12-05,56,310!2024-12-25,69,310-->
+  - STAR-r / result ::@:: share the outcome <!--SR:!2025-08-08,246,330!2024-12-25,69,310-->
   - STAR-r / reflection ::@:: what you would have done differently <!--SR:!2024-12-06,57,310!2024-12-06,57,310-->
 
 ## week 12 tutorial

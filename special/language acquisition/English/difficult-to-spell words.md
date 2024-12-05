@@ -18,7 +18,7 @@ English
 - [Wronskian](https://en.wiktionary.org/wiki/Wronskian) ::@:: (W\_n) The [determinant](../../../general/deteriminant.md) formed from $n$ [functions](../../../general/function%20(mathematics).md) and their first $n - 1$ [derivatives](../../../general/derivative.md). <!--SR:!2025-03-03,332,344!2025-01-28,298,344-->
 - [accommodate](https://en.wiktionary.org/wiki/accommodate) ::@:: (a\_e) To adapt. <!--SR:!2025-01-23,293,344!2025-01-29,85,264-->
 - [accumulate](https://en.wiktionary.org/wiki/accumulate) ::@:: (a\_e) To gradually increase in quantity. <!--SR:!2025-10-26,467,332!2025-06-10,417,374-->
-- [altitude](https://en.wiktionary.org/wiki/altitude) ::@:: (a\_e) Height of a location from a reference point, usually [sea level](../../../general/sea%20level.md). <!--SR:!2026-11-11,729,324!2024-12-05,244,324-->
+- [altitude](https://en.wiktionary.org/wiki/altitude) ::@:: (a\_e) Height of a location from a reference point, usually [sea level](../../../general/sea%20level.md). <!--SR:!2026-11-11,729,324!2027-02-11,798,324-->
 - [aluminium](https://en.wiktionary.org/wiki/aluminium) ::@:: (a\_m) A [chemical element](../../../general/chemical%20element.md) (_symbol_ Al) of [atomic number](../../../general/atomic%20number.md) 13, longer spelling. <!--SR:!2026-01-28,526,310!2025-02-08,309,330-->
 - [aluminum](https://en.wiktionary.org/wiki/aluminum) ::@:: (a\_m) A [chemical element](../../../general/chemical%20element.md) (_symbol_ Al) of [atomic number](../../../general/atomic%20number.md) 13, shorter spelling. <!--SR:!2025-10-08,458,310!2025-08-26,408,290-->
 - [ambiguous](https://en.wiktionary.org/wiki/ambiguous) ::@:: (a\_s) Open to multiple interpretations. <!--SR:!2025-10-02,452,396!2027-07-19,958,396-->

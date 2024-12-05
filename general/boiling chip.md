@@ -9,7 +9,7 @@ tags:
 
 # boiling chip
 
-A __boiling chip__ is {@{a tiny, rough piece of material added to [liquids](liquid.md) to smoothen [boiling](boiling.md)}@}. It prevents {@{[bumping](bumping%20(chemistry).md) due to [superheating](superheating.md) of liquid}@}. <!--SR:!2025-07-05,475,230!2024-12-05,432,270-->
+A __boiling chip__ is {@{a tiny, rough piece of material added to [liquids](liquid.md) to smoothen [boiling](boiling.md)}@}. It prevents {@{[bumping](bumping%20(chemistry).md) due to [superheating](superheating.md) of liquid}@}. <!--SR:!2025-07-05,475,230!2028-02-14,1166,270-->
 
 ## references
 

@@ -35,7 +35,7 @@ Command names can be {@{truncated at the end to produce an abbreviation if the a
 - `print <expression>` ::@:: evaluate and print an expression <!--SR:!2025-01-26,97,270!2025-09-29,300,330-->
 - `run [<args>...]` ::@:: run program (with args) <!--SR:!2025-07-18,246,330!2025-08-19,271,330-->
 - `set <storage> = <value>` ::@:: set storage to value <!--SR:!2025-01-13,88,345!2025-01-13,88,345-->
-- `set args <args>...` ::@:: set program args <!--SR:!2024-12-05,72,310!2025-06-15,220,330-->
+- `set args <args>...` ::@:: set program args <!--SR:!2025-10-12,311,330!2025-06-15,220,330-->
 - `si` ::@:: go to the next instruction stepping into functions <!--SR:!2025-08-07,263,330!2025-06-01,189,270-->
 - `starti [<args>...]` ::@:: start program and stop at its first instruction <!--SR:!2025-10-01,302,330!2025-03-27,137,290-->
 - `step` ::@:: go to the next (source) line stepping into functions <!--SR:!2025-04-27,167,310!2025-02-14,119,290-->
@@ -59,12 +59,12 @@ Command names can be {@{truncated at the end to produce an abbreviation if the a
 
 #### `pwndbg` heap
 
-- `heap` ::@:: iteratively print chunks on heap (`glibc` only) <!--SR:!2024-12-05,72,310!2025-09-12,286,330-->
+- `heap` ::@:: iteratively print chunks on heap (`glibc` only) <!--SR:!2025-10-11,310,330!2025-09-12,286,330-->
 - `heap_config` ::@:: show `glibc` allocator hacking configuration <!--SR:!2025-05-14,186,310!2025-08-18,267,330-->
 
 #### `pwndbg` memory
 
-- `vmmap [<address|name>]` ::@:: display memory mappings information (filtered binary address or name) <!--SR:!2025-04-06,161,310!2024-12-04,71,310-->
+- `vmmap [<address|name>]` ::@:: display memory mappings information (filtered binary address or name) <!--SR:!2025-04-06,161,310!2025-07-11,218,310-->
 
 #### `pwndbg` stack
 

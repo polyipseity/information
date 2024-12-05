@@ -89,7 +89,7 @@ and {@{$$\left\{ {n \atop 2}\right\}=2^{n-1}-1.$$}@} To see this, first note tha
 ### explicit formula
 
 {@{The Stirling numbers of the second kind}@} are given by the explicit formula: {@{$$\left\{ {n \atop k}\right\}={\frac {1}{k!} }\sum _{j=0}^{k}(-1)^{k-j}{k \choose j}j^{n}=\sum _{j=0}^{k}{\frac {(-1)^{k-j}j^{n} }{(k-j)!j!} }.$$}@}
-This can be derived by {@{using [inclusion-exclusion](inclusion–exclusion%20principle.md) to count the surjections from _n_ to _k_ and using the fact that the number of such surjections is $k!\left\{ {n \atop k}\right\}$}@}. <!--SR:!2025-01-29,71,310!2024-12-04,24,250!2025-01-30,72,310-->
+This can be derived by {@{using [inclusion-exclusion](inclusion–exclusion%20principle.md) to count the surjections from _n_ to _k_ and using the fact that the number of such surjections is $k!\left\{ {n \atop k}\right\}$}@}. <!--SR:!2025-01-29,71,310!2025-01-30,57,250!2025-01-30,72,310-->
 
 Additionally, this formula is {@{a special case of the _k_-th [forward difference](finite%20difference.md) of the [monomial](monomial.md) $x^{n}$ evaluated at _x_ = 0}@}: {@{$$\Delta ^{k}x^{n}=\sum _{j=0}^{k}(-1)^{k-j}{k \choose j}(x+j)^{n}.$$}@} Because {@{the [Bernoulli polynomials](Bernoulli%20polynomials.md) may be written in terms of these forward differences}@}, one {@{immediately obtains a relation in the [Bernoulli numbers](bernoulli%20number.md)}@}: {@{$$B_{m}(0) = \sum_{k = 0}^m \frac {(-1)^k} {k + 1} \left.\left(\Delta^k x^m\right)\right|_{x = 0} = \sum _{k=0}^{m}{\frac {(-1)^{k}k!}{k+1} }\left\{ {m \atop k}\right\}.$$}@} <!--SR:!2024-12-20,36,270!2025-01-18,49,250!2025-01-05,47,290!2025-01-02,48,290!2024-12-27,35,230-->
 
@@ -141,7 +141,7 @@ If {@{_X_ is a [random variable](random%20variable.md) with a [Poisson distribut
 
 Let {@{the random variable _X_ be the number of fixed points of a [uniformly distributed](discrete%20uniform%20distribution.md) [random permutation](random%20permutation.md) of a finite set of size _m_}@}. Then the _n_-th moment of _X_ is {@{$$E(X^{n})=\sum _{k=0}^{m}\left\{ {n \atop k}\right\}.$$ <p> __Note:__ The upper bound of summation is _m_, not _n_}@}. <!--SR:!2024-12-20,36,270!2024-12-20,36,270-->
 
-In other words, {@{the _n_-th moment of this [probability distribution](probability%20distribution.md)}@} is {@{the number of partitions of a set of size _n_ into no more than _m_ parts}@}. This is proved in the article on [random permutation statistics](random%20permutation%20statistics.md#moments%20of%20fixed%20points), although the notation is a bit different. <!--SR:!2025-01-26,68,310!2024-12-04,24,250-->
+In other words, {@{the _n_-th moment of this [probability distribution](probability%20distribution.md)}@} is {@{the number of partitions of a set of size _n_ into no more than _m_ parts}@}. This is proved in the article on [random permutation statistics](random%20permutation%20statistics.md#moments%20of%20fixed%20points), although the notation is a bit different. <!--SR:!2025-01-26,68,310!2025-01-30,57,250-->
 
 ### rhyming schemes
 

@@ -67,7 +67,7 @@ return _chain.from_iterable(await _gather(
 
 - _(begin)_→::@::←`**` <!--SR:!2025-09-10,287,342!2025-07-17,240,330-->
 - `**`→::@::←`*` <!--SR:!2025-08-06,259,342!2024-12-12,78,322-->
-- `*`→::@::←`/` <!--SR:!2024-12-05,71,322!2024-12-10,76,322-->
+- `*`→::@::←`/` <!--SR:!2025-10-20,319,342!2024-12-10,76,322-->
 - `/`→::@::←`//` <!--SR:!2025-08-13,264,342!2024-12-13,79,322-->
 - `//`→::@::←`%` <!--SR:!2025-06-20,218,330!2025-09-20,294,342-->
 - `%`→::@::←`+` <!--SR:!2025-09-17,293,342!2025-06-14,213,322-->
@@ -79,12 +79,12 @@ return _chain.from_iterable(await _gather(
 <!--pytextgen generate section="9cda"--><!-- The following content is generated at 2024-01-30T13:35:46.549289+08:00. Any edits will be overridden! -->
 
 - `**`:@:power <!--SR:!2025-07-20,243,330-->
-- `*`:@:multiplication <!--SR:!2024-12-05,72,322-->
+- `*`:@:multiplication <!--SR:!2025-10-26,325,342-->
 - `/`:@:division <!--SR:!2025-08-12,264,342-->
-- `//`:@:floor division <!--SR:!2024-12-04,71,322-->
+- `//`:@:floor division <!--SR:!2025-10-21,320,342-->
 - `%`:@:remainder; the resulting sign is the same as the divider, i.e. the number after the operator <!--SR:!2025-08-23,273,342-->
 - `+`:@:addition <!--SR:!2025-09-03,282,342-->
-- `-`:@:subtraction <!--SR:!2024-12-04,71,322-->
+- `-`:@:subtraction <!--SR:!2025-10-22,321,342-->
 
 <!--/pytextgen-->
 
@@ -141,11 +141,11 @@ return _chain.from_iterable(await _gather(
 
 - _(begin)_→::@::←`in` <!--SR:!2025-01-20,95,369!2025-01-25,100,369-->
 - `in`→::@::←`<` <!--SR:!2024-12-09,67,349!2024-12-25,69,349-->
-- `<`→::@::←`<=` <!--SR:!2024-12-05,63,349!2025-09-22,293,369-->
+- `<`→::@::←`<=` <!--SR:!2025-10-10,309,369!2025-09-22,293,369-->
 - `<=`→::@::←`>` <!--SR:!2024-12-07,60,349!2025-09-27,298,369-->
 - `>`→::@::←`>=` <!--SR:!2025-09-03,274,369!2025-01-25,100,369-->
 - `>=`→::@::←`!=` <!--SR:!2025-08-23,265,369!2025-02-03,96,309-->
-- `!=`→::@::←`==` <!--SR:!2024-12-04,62,349!2025-01-20,95,369-->
+- `!=`→::@::←`==` <!--SR:!2025-10-05,304,369!2025-01-20,95,369-->
 - `==`→::@::←_(end)_ <!--SR:!2025-07-19,235,369!2024-12-30,74,349-->
 
 <!--/pytextgen-->
@@ -241,7 +241,7 @@ Like lists, strings can be {@{indexed using the `string_var[n]`, which access th
 
 ## output
 
-In {@{a Jupyter notebook}@}, it outputs {@{the value of the last expression (and prints nothing if the last expression is `None`)}@}. Note that {@{assignments are not expressions, and do not produce output as the last expression}@}. To get it to print more things, {@{use `print(<any>...)`}@}. It can {@{print anything (and prints `None` if the last expression is `None`)}@}. Note that it automatically {@{adds a newline after the printed content, so each `print` outputs on a new line instead of being glued together in a single line}@}. Also, when multiple arguments are passed, {@{each argument is joined into a single string, separated by a space in between}@}. When {@{no arguments are passed, only a newline is printed}@}. <!--SR:!2024-12-13,66,343!2025-01-08,92,363!2025-01-13,97,363!2025-01-03,92,363!2024-12-05,66,343!2025-08-12,265,363!2025-08-06,260,363!2025-01-14,98,363-->
+In {@{a Jupyter notebook}@}, it outputs {@{the value of the last expression (and prints nothing if the last expression is `None`)}@}. Note that {@{assignments are not expressions, and do not produce output as the last expression}@}. To get it to print more things, {@{use `print(<any>...)`}@}. It can {@{print anything (and prints `None` if the last expression is `None`)}@}. Note that it automatically {@{adds a newline after the printed content, so each `print` outputs on a new line instead of being glued together in a single line}@}. Also, when multiple arguments are passed, {@{each argument is joined into a single string, separated by a space in between}@}. When {@{no arguments are passed, only a newline is printed}@}. <!--SR:!2024-12-13,66,343!2025-01-08,92,363!2025-01-13,97,363!2025-01-03,92,363!2025-10-13,312,363!2025-08-12,265,363!2025-08-06,260,363!2025-01-14,98,363-->
 
 Note that strings are outputted, escaped {@{with `\` properly (without unnecessary escapes)}@}, and preferably {@{wrapped in `'`, and only uses `"` if there is at least 1 `'` in the string but not any `"`}@}. <!--SR:!2025-01-25,100,374!2025-01-20,95,374-->
 
@@ -249,7 +249,7 @@ If {@{you do not want a newline to be printed automatically afterwards}@}, `prin
 
 ## variable
 
-To {@{assign a value or the result of an expression to a variable}@}, use {@{`=`}@}: <!--SR:!2025-06-27,222,322!2024-12-05,72,322-->
+To {@{assign a value or the result of an expression to a variable}@}, use {@{`=`}@}: <!--SR:!2025-06-27,222,322!2025-10-28,327,342-->
 
 ```Python
 variableName = 1 + 2
@@ -279,7 +279,7 @@ To get the type of a value, {@{use `type(<any>)`, which will return the type of 
 
 ### data type conversion
 
-We can convert a value (`value`) into other data types using {@{`float(value)`, `int(value)`, and `str(value)`}@}. If {@{the data type of `value` and the resulting data type are the same}@}, {@{the same value is simply returned}@}. Note that not all {@{conversions are valid, and will throw a `ValueError` if it is invalid}@}. <!--SR:!2025-01-09,93,360!2025-01-13,97,360!2024-12-04,64,340!2025-09-14,288,360-->
+We can convert a value (`value`) into other data types using {@{`float(value)`, `int(value)`, and `str(value)`}@}. If {@{the data type of `value` and the resulting data type are the same}@}, {@{the same value is simply returned}@}. Note that not all {@{conversions are valid, and will throw a `ValueError` if it is invalid}@}. <!--SR:!2025-01-09,93,360!2025-01-13,97,360!2025-10-04,303,360!2025-09-14,288,360-->
 
 - `bool(value)` ::@:: Converts `value` to a `bool`. If it is an `int` or `float`, converts to `True` unless `value` is zero, i.e. `value == 0`. If it is a `str` or `list`, converts to `True` unless `value` is empty, i.e. `value == ""` or `value == []`. There are also many other situations where `value` returns `True` unless `value` satisfies something, which will be unmentioned here. It is very difficult to get a `TypeError` or `ValueError` from this conversion, but possible with some very special types that will not be mentioned here. For exams, please use more explicit operations instead of this conversion, e.g. `len(list) == 0` instead of `not list`. <!--SR:!2025-01-02,74,366!2024-12-21,65,366-->
 - `float(value)` ::@:: Converts `value` to a `float`. If it is an `int`, the same value but in `float` is returned. If it is a `str`, it removes whitespaces (spaces) surrounding the string and then parse it as a `float`, and raises a `ValueError` if it is invalid, e.g. an empty string, the string `.` (but not `0.`, `.0`, etc.), contains alphabets (except for `e` as used in exponential notation, e.g. `1e+100` and `1.2e-100` are valid), etc. (But `float("1.")`, `float(".1")`, `float("  4.2  ")`, etc. are valid. In general, if the string is a valid `float` when treated as Python code, the string is valid.) <!--SR:!2025-06-16,211,340!2025-01-26,94,300-->

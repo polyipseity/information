@@ -424,7 +424,7 @@ return chain.from_iterable(await gather(
 - dichromate ion::@::Cr<sub>2</sub>O<sub>7</sub><sup>2-</sup> <!--SR:!2028-08-20,1669,278!2029-05-12,1985,325-->
 - nitride ion::@::N<sup>3-</sup> <!--SR:!2029-01-01,1786,287!2025-03-18,705,310-->
 - phosphate ion::@::PO<sub>4</sub><sup>3-</sup> <!--SR:!2025-03-25,502,239!2031-02-25,2373,296-->
-- manganate ion::@::MnO<sub>4</sub><sup>2-</sup> <!--SR:!2024-12-04,484,382!2029-11-11,1921,382-->
+- manganate ion::@::MnO<sub>4</sub><sup>2-</sup> <!--SR:!2031-11-07,2529,402!2029-11-11,1921,382-->
 
 <!--/pytextgen-->
 

@@ -334,7 +334,7 @@ return _chain.from_iterable(await _gather(
 - `AVERAGE(numbers...)`→::@::←`COUNTIF(values, criteria)` <!--SR:!2025-02-27,257,290!2025-04-28,259,290-->
 - `COUNTIF(values, criteria)`→::@::←`IF(boolean, value_if_true[, value_if_false = FALSE])` <!--SR:!2026-07-10,608,310!2025-03-09,231,290-->
 - `IF(boolean, value_if_true[, value_if_false = FALSE])`→::@::←`MAX(numbers...)` <!--SR:!2024-12-17,178,230!2024-12-26,211,270-->
-- `MAX(numbers...)`→::@::←`MIN(numbers...)` <!--SR:!2024-12-28,255,330!2024-12-04,237,330-->
+- `MAX(numbers...)`→::@::←`MIN(numbers...)` <!--SR:!2024-12-28,255,330!2027-11-18,1078,350-->
 - `MIN(numbers...)`→::@::←`RANK(number, numbers...)` <!--SR:!2025-01-23,171,210!2025-04-21,291,270-->
 - `RANK(number, numbers...)`→::@::←`STDEV(numbers...)` <!--SR:!2025-04-25,276,250!2025-08-22,358,270-->
 - `STDEV(numbers...)`→::@::←`SUM(numbers...)` <!--SR:!2025-03-03,304,330!2026-01-20,504,290-->
@@ -344,7 +344,7 @@ return _chain.from_iterable(await _gather(
 
 <!--pytextgen generate section="f123"--><!-- The following content is generated at 2024-01-31T12:52:39.120607+08:00. Any edits will be overridden! -->
 
-- `AVERAGE(numbers...)`:@:average <!--SR:!2024-12-04,233,330-->
+- `AVERAGE(numbers...)`:@:average <!--SR:!2027-10-31,1060,350-->
 - `COUNTIF(values, criteria)`:@:number of `values` satisfying `criteria` <!--SR:!2025-01-22,272,330-->
 - `IF(boolean, value_if_true[, value_if_false = FALSE])`:@:`value_if_true` if `boolean` is true, otherwise `value_if_false`; can be nested <!--SR:!2025-01-05,258,330-->
 - `MAX(numbers...)`:@:maximum <!--SR:!2024-12-14,241,330-->

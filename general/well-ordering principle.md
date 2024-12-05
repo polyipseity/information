@@ -13,7 +13,7 @@ tags:
 
 In [mathematics](mathematics.md), the __well-ordering principle__ states that {@{every non-empty subset of nonnegative integers contains a [least element](greatest%20element%20and%20least%20element.md)}@}.<sup>[\[1\]](#^ref-1)</sup> In other words, {@{the set of nonnegative integers is [well-ordered](well-order.md) by its "natural" or "magnitude" order}@} in which {@{$x$ precedes $y$ if and only if $y$ is either $x$ or the sum of $x$ and some nonnegative integer (other orderings include the ordering $2,4,6,..$.; and $1,3,5,..$.)}@}. <!--SR:!2028-03-18,1220,350!2024-12-09,70,318!2025-05-05,180,318-->
 
-The phrase "well-ordering principle" is sometimes taken to be {@{synonymous with the "[well-ordering theorem](well-ordering%20theorem.md)"}@}. On other occasions it is understood to be {@{the proposition that the set of [integers](integer.md) $\{\ldots ,-2,-1,0,1,2,3,\ldots \}$ contains a [well-ordered](well-order.md) subset, called the [natural numbers](natural%20number.md), in which every nonempty subset contains a least element}@}. <!--SR:!2024-12-04,66,318!2025-03-16,137,298-->
+The phrase "well-ordering principle" is sometimes taken to be {@{synonymous with the "[well-ordering theorem](well-ordering%20theorem.md)"}@}. On other occasions it is understood to be {@{the proposition that the set of [integers](integer.md) $\{\ldots ,-2,-1,0,1,2,3,\ldots \}$ contains a [well-ordered](well-order.md) subset, called the [natural numbers](natural%20number.md), in which every nonempty subset contains a least element}@}. <!--SR:!2025-09-23,293,338!2025-03-16,137,298-->
 
 ## references
 
