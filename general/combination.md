@@ -24,28 +24,28 @@ Although the set of three fruits was small enough to write a complete list of co
 - [binomial coefficient](binomial%20coefficient.md)
 - [combinatorics](combinatorics.md)
 - [block design](block%20design.md)
-- [Kneser graph](kneser%20graph.md)
+- [Kneser graph](Kneser%20graph.md)
 - [list of permutation topics](list%20of%20permutation%20topics.md)
 - [multiset](multiset.md)
 - [probability](probability.md)
 
 ## notes
 
-1. Reichl, Linda E. (2016). "2.2. Counting Microscopic States". _A Modern Course in Statistical Physics_. WILEY-VCH. p. 30. [ISBN](ISBN.md) [978-3-527-69048-0](https://en.wikipedia.org/wiki/Special:BookSources/978-3-527-69048-0). <a id="^ref-1"></a>^ref-1
+1. <a id="CITEREFReichl2016"></a> Reichl, Linda E. \(2016\). "2.2. Counting Microscopic States". _A Modern Course in Statistical Physics_. WILEY-VCH. p. 30. [ISBN](ISBN.md) [978-3-527-69048-0](https://en.wikipedia.org/wiki/Special:BookSources/978-3-527-69048-0). <a id="^ref-1"></a>^ref-1
 2. [Mazur 2010](#CITEREFMazur2010), p. 10 <a id="^ref-2"></a>^ref-2
 3. [Ryser 1963](#CITEREFRyser1963), p. 7 also referred to as an _unordered selection_. <a id="^ref-3"></a>^ref-3
-4. When the term _combination_ is used to refer to either situation (as in ([Brualdi 2010](#CITEREFBrualdi2010))) care must be taken to clarify whether sets or multisets are being discussed. <a id="^ref-4"></a>^ref-4
+4. When the term _combination_ is used to refer to either situation \(as in \([Brualdi 2010](#CITEREFBrualdi2010)\)\) care must be taken to clarify whether sets or multisets are being discussed. <a id="^ref-4"></a>^ref-4
 5. [Uspensky 1937](#CITEREFUspensky1937), p. 18 <a id="^ref-5"></a>^ref-5
-6. _High School Textbook for full-time student (Required) Mathematics Book II B_ (in Chinese) (2nd ed.). China: People's Education Press. June 2006. pp. 107–116. [ISBN](ISBN.md) [978-7-107-19616-4](https://en.wikipedia.org/wiki/Special:BookSources/978-7-107-19616-4). <a id="^ref-6"></a>^ref-6
-7. [_人教版高中数学选修2-3 (Mathematics textbook, volume 2-3, for senior high school, People's Education Press)_](http://www.shuxue9.com/pep/gzxuanxiu23/ebook/31.html). People's Education Press. p. 21. <a id="^ref-7"></a>^ref-7
+6. _High School Textbook for full-time student \(Required\) Mathematics Book II B_ \(in Chinese\) \(2nd ed.\). China: People's Education Press. June 2006. pp. 107–116. [ISBN](ISBN.md) [978-7-107-19616-4](https://en.wikipedia.org/wiki/Special:BookSources/978-7-107-19616-4). <a id="^ref-6"></a>^ref-6
+7. [_人教版高中数学选修2-3 \(Mathematics textbook, volume 2-3, for senior high school, People's Education Press\)_](http://www.shuxue9.com/pep/gzxuanxiu23/ebook/31.html). People's Education Press. p. 21. <a id="^ref-7"></a>^ref-7
 8. [Mazur 2010](#CITEREFMazur2010), p. 21 <a id="^ref-8"></a>^ref-8
-9. Lucia Moura. ["Generating Elementary Combinatorial Objects"](http://www.site.uottawa.ca/~lucia/courses/5165-09/GenCombObj.pdf) (PDF). _Site.uottawa.ca_. [Archived](https://ghostarchive.org/archive/20221009/http://www.site.uottawa.ca/~lucia/courses/5165-09/GenCombObj.pdf) (PDF) from the original on 9 October 2022. Retrieved 10 April 2017. <a id="^ref-9"></a>^ref-9
-10. ["SAGE : Subsets"](http://www.sagemath.org/doc/reference/sage/combinat/subset.html) (PDF). _Sagemath.org_. Retrieved 10 April 2017. <a id="^ref-10"></a>^ref-10
+9. <a id="CITEREFLucia Moura"></a> Lucia Moura. ["Generating Elementary Combinatorial Objects"](http://www.site.uottawa.ca/~lucia/courses/5165-09/GenCombObj.pdf) \(PDF\). _Site.uottawa.ca_. [Archived](https://ghostarchive.org/archive/20221009/http://www.site.uottawa.ca/~lucia/courses/5165-09/GenCombObj.pdf) \(PDF\) from the original on 9 October 2022. Retrieved 10 April 2017. <a id="^ref-9"></a>^ref-9
+10. ["SAGE : Subsets"](http://www.sagemath.org/doc/reference/sage/combinat/subset.html) \(PDF\). _Sagemath.org_. Retrieved 10 April 2017. <a id="^ref-10"></a>^ref-10
 11. [Brualdi 2010](#CITEREFBrualdi2010), p. 52 <a id="^ref-11"></a>^ref-11
 12. [Benjamin & Quinn 2003](#CITEREFBenjaminQuinn2003), p. 70 <a id="^ref-12"></a>^ref-12
-13. In the article [Stars and bars (combinatorics)](stars%20and%20bars%20(combinatorics).md) the roles of _n_ and _k_ are reversed. <a id="^ref-13"></a>^ref-13
+13. In the article [Stars and bars \(combinatorics\)](stars%20and%20bars%20(combinatorics).md) the roles of _n_ and _k_ are reversed. <a id="^ref-13"></a>^ref-13
 14. [Benjamin & Quinn 2003](#CITEREFBenjaminQuinn2003), pp. 71 –72 <a id="^ref-14"></a>^ref-14
-15. [Benjamin & Quinn 2003](#CITEREFBenjaminQuinn2003), p. 72 (identity 145) <a id="^ref-15"></a>^ref-15
+15. [Benjamin & Quinn 2003](#CITEREFBenjaminQuinn2003), p. 72 \(identity 145\) <a id="^ref-15"></a>^ref-15
 16. [Benjamin & Quinn 2003](#CITEREFBenjaminQuinn2003), p. 71 <a id="^ref-16"></a>^ref-16
 17. [Mazur 2010](#CITEREFMazur2010), p. 10 where the stars and bars are written as binary numbers, with stars = 0 and bars = 1. <a id="^ref-17"></a>^ref-17
 
@@ -53,12 +53,12 @@ Although the set of three fruits was small enough to write a complete list of co
 
 This text incorporates [content](https://en.wikipedia.org/wiki/combination) from [Wikipedia](Wikipedia.md) available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.
 
-- [Benjamin, Arthur T.](Arthur%20T.%20Benjamin.md); [Quinn, Jennifer J.](Jennifer%20Quinn.md) (2003), [_Proofs that Really Count: The Art of Combinatorial Proof_](Proofs%20That%20Really%20Count.md), The Dolciani Mathematical Expositions 27, The Mathematical Association of America, [ISBN](ISBN.md) [978-0-88385-333-7](https://en.wikipedia.org/wiki/Special:BookSources/978-0-88385-333-7)
-- [Brualdi, Richard A.](Richard%20A.%20Brualdi.md) (2010), _Introductory Combinatorics_ (5th ed.), Pearson Prentice Hall, [ISBN](ISBN.md) [978-0-13-602040-0](https://en.wikipedia.org/wiki/Special:BookSources/978-0-13-602040-0)
+- <a id="CITEREFBenjaminQuinn2003"></a> [Benjamin, Arthur T.](Arthur%20T.%20Benjamin.md); [Quinn, Jennifer J.](Jennifer%20Quinn.md) \(2003\), [_Proofs that Really Count: The Art of Combinatorial Proof_](Proofs%20That%20Really%20Count.md), The Dolciani Mathematical Expositions 27, The Mathematical Association of America, [ISBN](ISBN.md) [978-0-88385-333-7](https://en.wikipedia.org/wiki/Special:BookSources/978-0-88385-333-7)
+- <a id="CITEREFBrualdi2010"></a> [Brualdi, Richard A.](Richard%20A.%20Brualdi.md) \(2010\), _Introductory Combinatorics_ \(5th ed.\), Pearson Prentice Hall, [ISBN](ISBN.md) [978-0-13-602040-0](https://en.wikipedia.org/wiki/Special:BookSources/978-0-13-602040-0)
 - [Erwin Kreyszig](Erwin%20Kreyszig.md), _Advanced Engineering Mathematics_, John Wiley & Sons, INC, 1999.
-- Mazur, David R. (2010), _Combinatorics: A Guided Tour_, Mathematical Association of America, [ISBN](ISBN.md) [978-0-88385-762-5](https://en.wikipedia.org/wiki/Special:BookSources/978-0-88385-762-5)
-- [Ryser, Herbert John](H.%20J.%20Ryser.md) (1963), _Combinatorial Mathematics_, The Carus Mathematical Monographs 14, Mathematical Association of America
-- [Uspensky, James](J.%20V.%20Uspensky.md) (1937), [_Introduction to Mathematical Probability_](https://archive.org/details/in.ernet.dli.2015.263184/page/n25/mode/2up), McGraw-Hill
+- <a id="CITEREFMazur2010"></a> Mazur, David R. \(2010\), _Combinatorics: A Guided Tour_, Mathematical Association of America, [ISBN](ISBN.md) [978-0-88385-762-5](https://en.wikipedia.org/wiki/Special:BookSources/978-0-88385-762-5)
+- <a id="CITEREFRyser1963"></a> [Ryser, Herbert John](H.%20J.%20Ryser.md) \(1963\), _Combinatorial Mathematics_, The Carus Mathematical Monographs 14, Mathematical Association of America
+- <a id="CITEREFUspensky1937"></a> [Uspensky, James](J.%20V.%20Uspensky.md) \(1937\), [_Introduction to Mathematical Probability_](https://archive.org/details/in.ernet.dli.2015.263184/page/n25/mode/2up), McGraw-Hill
 
 ## external links
 
