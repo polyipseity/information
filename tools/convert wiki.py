@@ -74,6 +74,11 @@ if _names_map_overlap := frozenset(_names_map).intersection(_names_map_manual):
 _NAMES_MAP = _names_map | _names_map_manual
 
 
+def _bs4_new_element(tag_str: str) -> PageElement:
+    soup = BeautifulSoup(tag_str, "html.parser")
+    return soup.contents[0].extract()
+
+
 def _fix_name_maybe(name: str) -> str:
     return _NAMES_MAP.get(
         name,
@@ -344,6 +349,14 @@ async def wiki_html_to_plaintext(
                 isinstance(child, Tag) and child.name == "th" for child in ele.contents
             ):
                 suffix += f"|{' - |' * len(ele.contents)}\n"
+            else:
+                for child in ele.children:
+                    if isinstance(child, Tag) and child.name == "th":
+                        new_b = _bs4_new_element("<b></b>")
+                        for child_child in child.contents[:]:
+                            new_b.append(child_child.extract())
+                        child.append(new_b)
+
         case "td" | "th":
 
             def process_strings_tdh(strings: str):
