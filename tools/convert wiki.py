@@ -286,7 +286,15 @@ async def wiki_html_to_plaintext(
             if list_stack and (item := list_stack[-1]) >= 1:
                 prefix, suffix = f"{_LIST_INDENT * (len(list_stack) - 1)}{item}. ", "\n"
                 if str(ele.get("id", "")).startswith("cite_"):
-                    suffix = f' <a id="^ref-{item}"></a>^ref-{item}{suffix}'
+
+                    def process_strings_li_cite(strings: str):
+                        try:
+                            idx = strings.index("\n")
+                        except ValueError:
+                            idx = len(strings)
+                        return f'{strings[:idx]} <a id="^ref-{item}"></a>^ref-{item}{strings[idx:].rstrip()}'
+
+                    process_strings = process_strings_li_cite
             else:
                 prefix, suffix = f"{_LIST_INDENT * (len(list_stack) - 1)}- ", "\n"
         # citations
