@@ -176,7 +176,7 @@ Denote {@{the _n_ objects to partition by the integers 1, 2, ..., _n_}@}. Define
 
 This text incorporates [content](https://en.wikipedia.org/wiki/Stirling_numbers_of_the_second_kind) from [Wikipedia](Wikipedia.md) available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.
 
-1. Ronald L. Graham, Donald E. Knuth, Oren Patashnik (1988) _[Concrete Mathematics](Concrete%20Mathematics.md)_, Addison–Wesley, Reading MA. [ISBN](ISBN.md) [0-201-14236-8](https://en.wikipedia.org/wiki/Special%3ABookSources/0-201-14236-8), p. 244. <a id="^ref-1"></a>^ref-1
+1. Ronald L. Graham, Donald E. Knuth, Oren Patashnik (1988) _[Concrete Mathematics](Concrete%20Mathematics.md)_, Addison–Wesley, Reading MA. [ISBN](ISBN.md) [0-201-14236-8](https://en.wikipedia.org/wiki/Special:BookSources/0-201-14236-8), p. 244. <a id="^ref-1"></a>^ref-1
 2. ["Stirling Numbers of the Second Kind, Theorem 3.4.1"](https://discrete.openmathbooks.org/more/mdm/sec_adv-stirling.html). <a id="^ref-2"></a>^ref-2
 3. Confusingly, the notation that combinatorialists use for _falling_ factorials coincides with the notation used in [special functions](special%20functions.md) for _rising_ factorials; see [Pochhammer symbol](falling%20and%20rising%20factorials.md). <a id="^ref-3"></a>^ref-3
 4. Transformation of Series by a Variant of Stirling's Numbers, Imanuel Marx, _The American Mathematical Monthly_ __69__, #6 (June–July 1962), pp. 530–532, [JSTOR](JSTOR.md) [2311194](https://www.jstor.org/stable/2311194). <a id="^ref-4"></a>^ref-4
@@ -200,4 +200,4 @@ This text incorporates [content](https://en.wikipedia.org/wiki/Stirling_numbers_
 - [Weisstein, Eric W.](Eric%20W.%20Weisstein.md) ["Stirling Number of the Second Kind"](https://mathworld.wolfram.com/StirlingNumberoftheSecondKind.html). _[MathWorld](MathWorld.md)_.
 - [Calculator for Stirling Numbers of the Second Kind](http://austinmohr.com/home/?page_id=431)
 - [Set Partitions: Stirling Numbers](http://dlmf.nist.gov/26.8#vii)
-- Jack van der Elsen (2005). _Black and white transformations_. Maastricht. [ISBN](ISBN.md) [90-423-0263-1](https://en.wikipedia.org/wiki/Special%3ABookSources/90-423-0263-1).
+- Jack van der Elsen (2005). _Black and white transformations_. Maastricht. [ISBN](ISBN.md) [90-423-0263-1](https://en.wikipedia.org/wiki/Special:BookSources/90-423-0263-1).

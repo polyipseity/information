@@ -13,7 +13,7 @@ tags:
 
 <!-- ![](https://upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/50px-Question_book-new.svg.png) -->
 <!-- -->
-<!-- This article __needs additional citations for [verification](https://en.wikipedia.org/wiki/%3AVerifiability)__. Please help [improve this article](https://en.wikipedia.org/wiki/EditPage/Demand) by adding citations to reliable sources. Unsourced material may be challenged and removed._Find sources:_ ["Demand"](https://www.google.com/search?as_eq=wikipedia&q=%22Demand%22) – [news](https://www.google.com/search?tbm=nws&q=%22Demand%22+-wikipedia&tbs=ar:1) __·__ [newspapers](https://www.google.com/search?&q=%22Demand%22&tbs=bkt:s&tbm=bks) __·__ [books](https://www.google.com/search?tbs=bks:1&q=%22Demand%22+-wikipedia) __·__ [scholar](https://scholar.google.com/scholar?q=%22Demand%22) __·__ [JSTOR](https://www.jstor.org/action/doBasicSearch?Query=%22Demand%22&acc=on&wc=on) _\(January 2020\)_ _\(Learn how and when to remove this message\)_ -->
+<!-- This article __needs additional citations for [verification](https://en.wikipedia.org/wiki/Wikipedia:Verifiability)__. Please help [improve this article](https://en.wikipedia.org/wiki/Special:EditPage/Demand) by adding citations to reliable sources. Unsourced material may be challenged and removed._Find sources:_ ["Demand"](https://www.google.com/search?as_eq=wikipedia&q=%22Demand%22) – [news](https://www.google.com/search?tbm=nws&q=%22Demand%22+-wikipedia&tbs=ar:1) __·__ [newspapers](https://www.google.com/search?&q=%22Demand%22&tbs=bkt:s&tbm=bks) __·__ [books](https://www.google.com/search?tbs=bks:1&q=%22Demand%22+-wikipedia) __·__ [scholar](https://scholar.google.com/scholar?q=%22Demand%22) __·__ [JSTOR](https://www.jstor.org/action/doBasicSearch?Query=%22Demand%22&acc=on&wc=on) _\(January 2020\)_ _\(Learn how and when to remove this message\)_ -->
 
 In [economics](economics.md), __demand__ is {@{the quantity of a [good](goods.md) that consumers are willing and able to purchase at various prices during a given time}@}.<sup>[\[1\]](#^ref-1)</sup><sup>[\[2\]](#^ref-2)</sup> In economics {@{"demand" for a commodity is not the same thing as "desire" for it}@}. It refers to {@{both the desire to purchase and the ability to pay for a commodity}@}.<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2024-12-09,16,304!2024-12-08,15,304!2024-12-08,15,304-->
 
@@ -169,15 +169,15 @@ Demand management has {@{a defined set of processes, capabilities and recommende
 
 This text incorporates [content](https://en.wikipedia.org/wiki/demand) from [Wikipedia](Wikipedia.md) available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.
 
-1. [O'Sullivan, Arthur](Arthur%20O'Sullivan%20(economist).md); [Sheffrin, Steven M.](Steven%20M.%20Sheffrin.md) \(2003\). [_Economics: Principles in Action_](https://archive.org/details/economicsprincip00osul). Upper Saddle River, New Jersey: Pearson Prentice Hall. p. [79](https://archive.org/details/economicsprincip00osul/page/n95). [ISBN](ISBN.md) [9780131334830](https://en.wikipedia.org/wiki/BookSources/9780131334830). <a id="^ref-1"></a>^ref-1
-2. Sethi, D.K; Andrews, U. _ISC Economics_ \(18th ed.\). Macmillan. p. 9. [ISBN](ISBN.md) [9789386811684](https://en.wikipedia.org/wiki/BookSources/9789386811684). <a id="^ref-2"></a>^ref-2
-3. Sethi, D.K. _ISC Economics Frank_ \(18th ed.\). Macmillan Publisher. p. 10. [ISBN](ISBN.md) [9789386811684](https://en.wikipedia.org/wiki/BookSources/9789386811684). <a id="^ref-3"></a>^ref-3
-4. Sethi, D.K. _Frank ISC Economics_ \(18th ed.\). Macmillan. p. 11. [ISBN](ISBN.md) [9789386811684](https://en.wikipedia.org/wiki/BookSources/9789386811684). <a id="^ref-4"></a>^ref-4
-5. Sethi, D.K; Andrews, U. _Frank ISC Economics_ \(18th ed.\). Macmillan. p. 12. [ISBN](ISBN.md) [9789386811684](https://en.wikipedia.org/wiki/BookSources/9789386811684). <a id="^ref-5"></a>^ref-5
-6. Sethi, D.K; Andrews, U. _Frank ISC Economics_. Macmillan Publishers. p. 14. [ISBN](ISBN.md) [9789386811684](https://en.wikipedia.org/wiki/BookSources/9789386811684). <a id="^ref-6"></a>^ref-6
-7. Sethi, D.K; Andrews, U. _Frank ISC Economics_ \(18th ed.\). Macmillan. p. 15. [ISBN](ISBN.md) [9789386811684](https://en.wikipedia.org/wiki/BookSources/9789386811684). <a id="^ref-7"></a>^ref-7
-8. Sethi, D.K; Andrews, U. _ISC Economics_ \(18th ed.\). Macmillan. p. 17. [ISBN](ISBN.md) [9789386811684](https://en.wikipedia.org/wiki/BookSources/9789386811684). <a id="^ref-8"></a>^ref-8
-9. Kotler, Philip & Keller, Kevin L. \(2015\). Marketing Management, 15th Edition. Harlow, Pearson [ISBN](ISBN.md) [1-292-09262-9](https://en.wikipedia.org/wiki/BookSources/1-292-09262-9) <a id="^ref-9"></a>^ref-9
+1. [O'Sullivan, Arthur](Arthur%20O'Sullivan%20(economist).md); [Sheffrin, Steven M.](Steven%20M.%20Sheffrin.md) \(2003\). [_Economics: Principles in Action_](https://archive.org/details/economicsprincip00osul). Upper Saddle River, New Jersey: Pearson Prentice Hall. p. [79](https://archive.org/details/economicsprincip00osul/page/n95). [ISBN](ISBN.md) [9780131334830](https://en.wikipedia.org/wiki/Special:BookSources/9780131334830). <a id="^ref-1"></a>^ref-1
+2. Sethi, D.K; Andrews, U. _ISC Economics_ \(18th ed.\). Macmillan. p. 9. [ISBN](ISBN.md) [9789386811684](https://en.wikipedia.org/wiki/Special:BookSources/9789386811684). <a id="^ref-2"></a>^ref-2
+3. Sethi, D.K. _ISC Economics Frank_ \(18th ed.\). Macmillan Publisher. p. 10. [ISBN](ISBN.md) [9789386811684](https://en.wikipedia.org/wiki/Special:BookSources/9789386811684). <a id="^ref-3"></a>^ref-3
+4. Sethi, D.K. _Frank ISC Economics_ \(18th ed.\). Macmillan. p. 11. [ISBN](ISBN.md) [9789386811684](https://en.wikipedia.org/wiki/Special:BookSources/9789386811684). <a id="^ref-4"></a>^ref-4
+5. Sethi, D.K; Andrews, U. _Frank ISC Economics_ \(18th ed.\). Macmillan. p. 12. [ISBN](ISBN.md) [9789386811684](https://en.wikipedia.org/wiki/Special:BookSources/9789386811684). <a id="^ref-5"></a>^ref-5
+6. Sethi, D.K; Andrews, U. _Frank ISC Economics_. Macmillan Publishers. p. 14. [ISBN](ISBN.md) [9789386811684](https://en.wikipedia.org/wiki/Special:BookSources/9789386811684). <a id="^ref-6"></a>^ref-6
+7. Sethi, D.K; Andrews, U. _Frank ISC Economics_ \(18th ed.\). Macmillan. p. 15. [ISBN](ISBN.md) [9789386811684](https://en.wikipedia.org/wiki/Special:BookSources/9789386811684). <a id="^ref-7"></a>^ref-7
+8. Sethi, D.K; Andrews, U. _ISC Economics_ \(18th ed.\). Macmillan. p. 17. [ISBN](ISBN.md) [9789386811684](https://en.wikipedia.org/wiki/Special:BookSources/9789386811684). <a id="^ref-8"></a>^ref-8
+9. Kotler, Philip & Keller, Kevin L. \(2015\). Marketing Management, 15th Edition. Harlow, Pearson [ISBN](ISBN.md) [1-292-09262-9](https://en.wikipedia.org/wiki/Special:BookSources/1-292-09262-9) <a id="^ref-9"></a>^ref-9
 10. Colander, David C. Microeconomics 7th ed. pp. 132–133. McGraw-Hill 2008. <a id="^ref-10"></a>^ref-10
 11. The perfectly competitive firm's demand curve is not in fact flat. However, if there are numerous firms in the industry the demand curve of an individual firm is likely to be extremely elastic, for a discussion of residual demand curves see Perloff \(2008\) at pp. 245–246. <a id="^ref-11"></a>^ref-11
 12. The form of the inverse linear demand equation is P = a/b - 1/bQ. <a id="^ref-12"></a>^ref-12
@@ -192,4 +192,4 @@ This text incorporates [content](https://en.wikipedia.org/wiki/demand) from [Wik
 
 > ![Wikiquote logo](../archives/Wikimedia%20Commons/Wikiquote-logo.svg)
 >
-> Wikiquote has quotations related to ___[Demand](https://en.wikiquote.org/wiki/Special%3ASearch/Demand)___.
+> Wikiquote has quotations related to ___[Demand](https://en.wikiquote.org/wiki/Special:Search/Demand)___.

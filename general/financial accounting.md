@@ -205,10 +205,10 @@ However, there are {@{instances of accounts, known as contra-accounts (contra-as
 
 ## further reading
 
-- David Annand, [Introduction to Financial Accounting](https://open.bccampus.ca/find-open-textbooks/?uuid=0370418e-be7d-4541-b0d1-cf8a0fa0596f&contributor=&keyword=&subject=), Athabasca University, [ISBN](ISBN.md) [978-0-9953266-4-4](https://en.wikipedia.org/wiki/Special%3ABookSources/978-0-9953266-4-4)
-- [Financial Accounting](http://open.lib.umn.edu/financialaccounting/) (2015) [doi](digital%20object%20identifier.md):[10.24926/8668.0701](https://doi.org/10.24926%2F8668.0701) [ISBN](ISBN.md) [978-1-946135-10-0](https://en.wikipedia.org/wiki/Special%3ABookSources/978-1-946135-10-0)
+- David Annand, [Introduction to Financial Accounting](https://open.bccampus.ca/find-open-textbooks/?uuid=0370418e-be7d-4541-b0d1-cf8a0fa0596f&contributor=&keyword=&subject=), Athabasca University, [ISBN](ISBN.md) [978-0-9953266-4-4](https://en.wikipedia.org/wiki/Special:BookSources/978-0-9953266-4-4)
+- [Financial Accounting](http://open.lib.umn.edu/financialaccounting/) (2015) [doi](digital%20object%20identifier.md):[10.24926/8668.0701](https://doi.org/10.24926%2F8668.0701) [ISBN](ISBN.md) [978-1-946135-10-0](https://en.wikipedia.org/wiki/Special:BookSources/978-1-946135-10-0)
 - Johnny Jackson, [Introduction to Financial Accounting](https://learn.saylor.org/course/view.php?id=52), Thomas Edison State University.
-- Alexander, D., Britton, A., Jorissen, A., "International Financial Reporting and Analysis", Second Edition, 2005, [ISBN](ISBN.md) [978-1-84480-201-2](https://en.wikipedia.org/wiki/Special%3ABookSources/978-1-84480-201-2)
+- Alexander, D., Britton, A., Jorissen, A., "International Financial Reporting and Analysis", Second Edition, 2005, [ISBN](ISBN.md) [978-1-84480-201-2](https://en.wikipedia.org/wiki/Special:BookSources/978-1-84480-201-2)
 
 ## references
 
@@ -221,7 +221,7 @@ This text incorporates [content](https://en.wikipedia.org/wiki/financial_account
 5. ["IAS 1 - Presentation of Financial Statements"](https://www.iasplus.com/en-gb/standards/ias/ias1). [Deloitte Global](deloitte.md). Retrieved May 9, 2017. <a id="^ref-5"></a>^ref-5
 6. Larry M. Walther, Christopher J. Skousen, "Long-Term Assets", Ventus Publishing ApS, 2009 <a id="^ref-6"></a>^ref-6
 7. Gavin, Matt (30 August 2019). ["GAAP VS. IFRS: WHAT ARE THE KEY DIFFERENCES AND WHICH SHOULD YOU USE?"](https://online.hbs.edu/blog/post/gaap-vs-ifrs). _Harvard Business School Online_. Retrieved 2 November 2020. <a id="^ref-7"></a>^ref-7
-8. Malhotra, DK; Poteau, Ray (2016). _Financial Accounting I_. Academic Publishing. [ISBN](ISBN.md) [978-1627517300](https://en.wikipedia.org/wiki/Special%3ABookSources/978-1627517300). <a id="^ref-8"></a>^ref-8
-9. Fred., Phillips (2011). _Fundamentals of financial accounting_. Libby, Robert., Libby, Patricia A. (3rd ed.). Boston: McGraw-Hill Irwin. [ISBN](ISBN.md) [9780073527109](https://en.wikipedia.org/wiki/Special%3ABookSources/9780073527109). [OCLC](OCLC.md#OCLC) [457010553](https://search.worldcat.org/oclc/457010553). <a id="^ref-9"></a>^ref-9
+8. Malhotra, DK; Poteau, Ray (2016). _Financial Accounting I_. Academic Publishing. [ISBN](ISBN.md) [978-1627517300](https://en.wikipedia.org/wiki/Special:BookSources/978-1627517300). <a id="^ref-8"></a>^ref-8
+9. Fred., Phillips (2011). _Fundamentals of financial accounting_. Libby, Robert., Libby, Patricia A. (3rd ed.). Boston: McGraw-Hill Irwin. [ISBN](ISBN.md) [9780073527109](https://en.wikipedia.org/wiki/Special:BookSources/9780073527109). [OCLC](OCLC.md#OCLC) [457010553](https://search.worldcat.org/oclc/457010553). <a id="^ref-9"></a>^ref-9
 10. Paul H. Walgenbach, Norman E. Dittrich and Ernest I. Hanson, (1973), New York: Harcourt Grace Javonovich, Inc. Page 429. <a id="^ref-10"></a>^ref-10
 11. _Cost and Management Accounting. Intermediate_. The Institute of Cost Accountants of India. p. 17. <a id="^ref-11"></a>^ref-11

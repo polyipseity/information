@@ -32,22 +32,23 @@ VERSION = "∞"
 USER_AGENT = f"{NAME}/{VERSION} ({AUTHORS[0]['email']}) Python/{version}"
 
 _WIKI_HOST_URL = URL.build(scheme="https", host="en.wikipedia.org")
-_LIST_INDENT = "    "
 _MAX_CONCURRENT_REQUESTS_PER_HOST = 2
-_MARKDOWN_SEPARATOR = "<!-- markdown separator -->"
+_LIST_INDENT = "    "
 _MARKDOWN_SEPARATOR_CHARACTERS = f"{punctuation}{whitespace}".replace("_", "")
+_MARKDOWN_SEPARATOR = "<!-- markdown separator -->"
+_PAGE_DOES_NOT_EXIST_SUFFIX = " (page does not exist)"
 _BAD_TITLES = frozenset({"Edit this at Wikidata"})
 _IGNORED_NAME_PREFIXES = frozenset[str]()
 _PRESERVED_PAGE_PREFIXES = {
-    "Category:": f"{_WIKI_HOST_URL}/wiki/{{}}",
-    "Help:": f"{_WIKI_HOST_URL}/wiki/{{}}",
-    "Portal:": f"{_WIKI_HOST_URL}/wiki/{{}}",
-    "Special:": f"{_WIKI_HOST_URL}/wiki/{{}}",
-    "Talk:": f"{_WIKI_HOST_URL}/wiki/{{}}",
-    "Template:": f"{_WIKI_HOST_URL}/wiki/{{}}",
-    "Template talk:": f"{_WIKI_HOST_URL}/wiki/{{}}",
-    "Wikipedia": f"{_WIKI_HOST_URL}/wiki/{{}}",
-    "commons": "https://commons.wikimedia.org/wiki/{}",
+    "Category:": f"{_WIKI_HOST_URL}/wiki/Category:{{}}",
+    "Help:": f"{_WIKI_HOST_URL}/wiki/Help:{{}}",
+    "Portal:": f"{_WIKI_HOST_URL}/wiki/Portal:{{}}",
+    "Special:": f"{_WIKI_HOST_URL}/wiki/Special:{{}}",
+    "Talk:": f"{_WIKI_HOST_URL}/wiki/Talk:{{}}",
+    "Template:": f"{_WIKI_HOST_URL}/wiki/Template:{{}}",
+    "Template talk:": f"{_WIKI_HOST_URL}/wiki/Template%20talk:{{}}",
+    "Wikipedia:": f"{_WIKI_HOST_URL}/wiki/Wikipedia:{{}}",
+    "commons:": "https://commons.wikimedia.org/wiki/{}",
     "oeis:": "https://oeis.org/{}",
     "q:": "https://en.wikiquote.org/wiki/{}",
     "v:": "https://en.wikiversity.org/wiki/{}",
@@ -71,6 +72,11 @@ _names_map = {
 if _names_map_overlap := frozenset(_names_map).intersection(_names_map_manual):
     raise ValueError(_names_map_overlap)
 _NAMES_MAP = _names_map | _names_map_manual
+
+
+def _bs4_new_element(tag_str: str) -> PageElement:
+    soup = BeautifulSoup(tag_str, "html.parser")
+    return soup.contents[0].extract()
 
 
 def _fix_name_maybe(name: str) -> str:
@@ -150,7 +156,7 @@ async def wiki_html_to_plaintext(
         # bold
         case _ if (
             ele.name == "b" or __BOLD_FONT_STYLE_REGEX.search(str(ele.get("style", "")))
-        ) and "mw-heading" not in ele.get_attribute_list("class"):
+        ) and "mw-heading" not in classes:
             prefix, suffix = "__", "__"
             if (
                 ele.previous_sibling
@@ -228,19 +234,25 @@ async def wiki_html_to_plaintext(
         # mathematics
         case "math":
             if alt_text := ele.get("alttext"):
-                alt_text = str(alt_text)
-                alt_text_len = len(alt_text)
-                alt_text = alt_text.removeprefix(R"{\displaystyle ")
-                if len(alt_text) == alt_text_len:
-                    alt_text = alt_text.removeprefix(R"{\textstyle ")
-                if len(alt_text) <= alt_text_len:
-                    alt_text = alt_text.removesuffix(R"}")
+                alt_text = str(alt_text).strip()
+                orig_alt_text_len = len(alt_text)
+                alt_text = alt_text.removeprefix(R"{\displaystyle").lstrip()
+                if len(alt_text) == orig_alt_text_len:
+                    alt_text = alt_text.removeprefix(R"{\textstyle").lstrip()
+                if len(alt_text) < orig_alt_text_len:
+                    alt_text = (
+                        alt_text.removesuffix(R"}")
+                        # .rstrip() # The trailing space may be preceded by a backslash.
+                    )
+                if alt_text.endswith(R"\ "):
+                    alt_text += "{}"
+                else:
+                    alt_text = alt_text.rstrip()
                 alt_text = (
                     alt_text.replace(R":@:", R": @ :")
                     .replace(R"?@?", R"? @ ?")
                     .replace(R"{@{", R"{ @ {")
                     .replace(R"}@}", R"} @ }")
-                    .strip()
                 )
 
                 is_not_separate_paragraph = (
@@ -279,9 +291,22 @@ async def wiki_html_to_plaintext(
             if list_stack and (item := list_stack[-1]) >= 1:
                 prefix, suffix = f"{_LIST_INDENT * (len(list_stack) - 1)}{item}. ", "\n"
                 if str(ele.get("id", "")).startswith("cite_"):
-                    suffix = f' <a id="^ref-{item}"></a>^ref-{item}{suffix}'
+
+                    def process_strings_li_cite(strings: str):
+                        try:
+                            idx = strings.index("\n")
+                        except ValueError:
+                            idx = len(strings)
+                        return f'{strings[:idx]} <a id="^ref-{item}"></a>^ref-{item}{strings[idx:].rstrip()}'
+
+                    process_strings = process_strings_li_cite
             else:
                 prefix, suffix = f"{_LIST_INDENT * (len(list_stack) - 1)}- ", "\n"
+        # citations
+        case "cite":
+            if id := ele.get("id"):
+                id = str(id).replace("_", " ")
+                prefix = f'<a id="{id}"></a> '
         # tables
         case "tbody" | "thead":
             suffix = "\n\n"
@@ -324,6 +349,14 @@ async def wiki_html_to_plaintext(
                 isinstance(child, Tag) and child.name == "th" for child in ele.contents
             ):
                 suffix += f"|{' - |' * len(ele.contents)}\n"
+            else:
+                for child in ele.children:
+                    if isinstance(child, Tag) and child.name == "th":
+                        new_b = _bs4_new_element("<b></b>")
+                        for child_child in child.contents[:]:
+                            new_b.append(child_child.extract())
+                        child.append(new_b)
+
         case "td" | "th":
 
             def process_strings_tdh(strings: str):
@@ -336,11 +369,7 @@ async def wiki_html_to_plaintext(
 
             process_strings = process_strings_tdh
         # images
-        case (
-            _
-        ) if ele.name == "img" and "mwe-math-fallback-image-inline" not in ele.get_attribute_list(
-            "class"
-        ):
+        case _ if ele.name == "img" and "mwe-math-fallback-image-inline" not in classes:
 
             def process_strings_img(strings: str, ele: Tag = ele):
                 if src := ele.get("src"):
@@ -362,7 +391,7 @@ async def wiki_html_to_plaintext(
             suffix = "\n\n"
             process_strings = process_strings_img
         # figures
-        case _ if ele.name == "figure" or "tmulti" in ele.get_attribute_list("class"):
+        case _ if ele.name == "figure" or "tmulti" in classes:
 
             def process_strings_figure(strings: str):
                 return "".join(
@@ -373,13 +402,11 @@ async def wiki_html_to_plaintext(
             suffix = "\n\n"
             process_strings = process_strings_figure
         # links
-        case (
-            _
-        ) if ele.name == "a" and "mw-file-description" not in ele.get_attribute_list(
-            "class"
-        ):
+        case _ if ele.name == "a" and "mw-file-description" not in classes:
             if (title := ele.get("title")) and title not in _BAD_TITLES:
                 title = str(title)
+                if "new" in classes:
+                    title = title.removesuffix(_PAGE_DOES_NOT_EXIST_SUFFIX)
                 href = str(ele.get("href", ""))
                 to_fragment = (
                     href.split("#", 1)[-1].replace("_", " ") if "#" in href else ""

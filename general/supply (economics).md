@@ -127,10 +127,10 @@ There is {@{no such thing as a [monopoly](monopoly.md) supply curve}@}.<sup>[\[2
 
 This text incorporates [content](https://en.wikipedia.org/wiki/supply_(economics)) from [Wikipedia](Wikipedia.md) available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.
 
-1. [Mankiw, N. Gregory](Greg%20Mankiw.md) \(1998\). _Principles of Economics, Wall Street Journal Edition_. Dryden Press, San Diego. pp. 71–73. [ISBN](ISBN.md) [0-03-098238-3](https://en.wikipedia.org/wiki/BookSources/0-03-098238-3). <a id="^ref-1"></a>^ref-1
+1. [Mankiw, N. Gregory](Greg%20Mankiw.md) \(1998\). _Principles of Economics, Wall Street Journal Edition_. Dryden Press, San Diego. pp. 71–73. [ISBN](ISBN.md) [0-03-098238-3](https://en.wikipedia.org/wiki/Special:BookSources/0-03-098238-3). <a id="^ref-1"></a>^ref-1
 2. Melvin & Boyes, Microeconomics 5th ed. \(Houghton Mifflin 2002\) <a id="^ref-2"></a>^ref-2
 3. Ayers & Collins, Microeconomics \(Pearson 2003\) at 66. <a id="^ref-3"></a>^ref-3
-4. Rosen, Harvey \(2005\). _Public Finance_, p. 545. McGraw-Hill/Irwin, New York. [ISBN](ISBN.md) [0-07-287648-4](https://en.wikipedia.org/wiki/BookSources/0-07-287648-4). <a id="^ref-4"></a>^ref-4
+4. Rosen, Harvey \(2005\). _Public Finance_, p. 545. McGraw-Hill/Irwin, New York. [ISBN](ISBN.md) [0-07-287648-4](https://en.wikipedia.org/wiki/Special:BookSources/0-07-287648-4). <a id="^ref-4"></a>^ref-4
 5. Goodwin, N, Nelson, J; Ackerman, F & Weissskopf, T: Microeconomics in Context 2d ed. Page 83 Sharpe 2009 <a id="^ref-5"></a>^ref-5
 6. Goodwin, Nelson, Ackerman, & Weissskopf, Microeconomics in Context 2d ed. \(Sharpe 2009\) at 83. <a id="^ref-6"></a>^ref-6
 7. Samuelson & Nordhaus, Microeconomics, 17th ed. \(McGraw-Hill 2001\), p. 53. <a id="^ref-7"></a>^ref-7
@@ -144,7 +144,7 @@ This text incorporates [content](https://en.wikipedia.org/wiki/supply_(economics
 15. Mas-Colell, A., Whinston, M. Green, J.: [_Principles of Microeconomics_](https://www.amazon.com/Microeconomic-Theory-Andreu-Mas-Colell/dp/0195073401). Oxford University Press., pg 138. 1995. <a id="^ref-15"></a>^ref-15
 16. Perloff, Microeconomics Theory & Applications with Calculus \(Pearson 2008\) at 19. Png, Managerial Economics \(Blackwell 1999\) <a id="^ref-16"></a>^ref-16
 17. Ehnts, Dirk \(April 29, 2019\). ["The problem with the supply curve"](https://econoblog101.wordpress.com/2019/04/29/the-problem-with-the-supply-curve/). _econoblog101_. Retrieved October 18, 2022. <a id="^ref-17"></a>^ref-17
-18. Keen, Steve \(2011\). "Chapter 5: The price of everything and the value of nothing". [_Debunking Economics: The Naked Emperor Dethroned?_](https://archive.org/details/debunkingeconomi0000keen). [Zed Books](Zed%20Books.md). [ISBN](ISBN.md) [978-1848139923](https://en.wikipedia.org/wiki/BookSources/978-1848139923). <a id="^ref-18"></a>^ref-18
+18. Keen, Steve \(2011\). "Chapter 5: The price of everything and the value of nothing". [_Debunking Economics: The Naked Emperor Dethroned?_](https://archive.org/details/debunkingeconomi0000keen). [Zed Books](Zed%20Books.md). [ISBN](ISBN.md) [978-1848139923](https://en.wikipedia.org/wiki/Special:BookSources/978-1848139923). <a id="^ref-18"></a>^ref-18
 19. Colander, David C. \(2008\). _Microeconomics_ \(7th ed.\). McGraw-Hill. pp. 132–133 <a id="^ref-19"></a>^ref-19
 20. Colander p. 135. <a id="^ref-20"></a>^ref-20
 21. Pindyck & Rubinfeld, Microeconomics 5th ed. \(Prentice-Hall 2001\) at 335. <a id="^ref-21"></a>^ref-21

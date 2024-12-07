@@ -81,4 +81,4 @@ A recurrence relation {@{defines each term of a sequence in terms of the precedi
 
 This text incorporates [content](https://en.wikipedia.org/wiki/combinatorial_principles) from [Wikipedia](Wikipedia.md) available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.
 
-- van Lint, J.H.; Wilson, R.M. (2001). _A Course in Combinatorics_ (2nd ed.). Cambridge University Press. [ISBN](ISBN.md) [0-521-00601-5](https://en.wikipedia.org/wiki/Special%3ABookSources/0-521-00601-5).
+- van Lint, J.H.; Wilson, R.M. (2001). _A Course in Combinatorics_ (2nd ed.). Cambridge University Press. [ISBN](ISBN.md) [0-521-00601-5](https://en.wikipedia.org/wiki/Special:BookSources/0-521-00601-5).

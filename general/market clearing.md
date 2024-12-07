@@ -49,7 +49,7 @@ In {@{an unregulated and perfect market}@} {@{both labor market wages and produc
 This text incorporates [content](https://en.wikipedia.org/wiki/market_clearing) from [Wikipedia](Wikipedia.md) available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.
 
 1. ["New Keynesian Economics"](https://www.econlib.org/library/Enc/NewKeynesianEconomics.html). _Econlib_. Retrieved 2022-11-23. <a id="^ref-1"></a>^ref-1
-2. Arora, K.G. (2007). _Introductory Microeconomics_. India: McGraw-Hill Education (India) Pvt Limited. p. 260. [ISBN](ISBN.md) [9780070616615](https://en.wikipedia.org/wiki/BookSources/9780070616615). <a id="^ref-2"></a>^ref-2
+2. Arora, K.G. (2007). _Introductory Microeconomics_. India: McGraw-Hill Education (India) Pvt Limited. p. 260. [ISBN](ISBN.md) [9780070616615](https://en.wikipedia.org/wiki/Special:BookSources/9780070616615). <a id="^ref-2"></a>^ref-2
 3. ["New Classical Economics and Efficient Markets"](https://business.baylor.edu//Tom_Kelly/New%20Classical%20Economics%20and%20Efficient%20Markets.htm). _business.baylor.edu_. Retrieved 2022-11-23. <a id="^ref-3"></a>^ref-3
 
 ## sources
