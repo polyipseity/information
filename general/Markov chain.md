@@ -106,7 +106,7 @@ However, it is possible to {@{model this scenario as a Markov process}@}. Instea
 
 - Main article: [Continuous-time Markov chain](continuous-time%20Markov%20chain.md)
 
-{@{A continuous-time Markov chain \(_X_<sub>_t_</sub>\)<sub>_t_<!-- markdown separator --> ≥ 0</sub>}@} is defined by {@{a finite or countable state space _S_}@}, {@{a [transition rate matrix](transition-rate%20matrix.md) _Q_ with dimensions equal to that of the state space}@} and {@{initial probability distribution defined on the state space}@}. For {@{_i_<!-- markdown separator --> ≠ <!-- markdown separator -->_j_}@}, the elements _q_<sub>_ij_</sub> are {@{non-negative and describe the rate of the process transitions from state _i_ to state _j_}@}. {@{The elements _q_<sub>_ii_</sub> are chosen}@} such that {@{each row of the transition rate matrix sums to zero}@}, while {@{the row-sums of a probability transition matrix in a \(discrete\) Markov chain are all equal to one}@}. (Annotation: Note the matrix is called {@{transition _rate_ matrix, not transition _probability_ matrix}@}.)
+{@{A continuous-time Markov chain \(_X_<sub>_t_</sub>\)<sub>_t_<!-- markdown separator --> ≥ 0</sub>}@} is defined by {@{a finite or countable state space _S_}@}, {@{a [transition rate matrix](transition-rate%20matrix.md) _Q_ with dimensions equal to that of the state space}@} and {@{initial probability distribution defined on the state space}@}. For {@{_i_<!-- markdown separator --> ≠ <!-- markdown separator -->_j_}@}, the elements _q_<sub>_ij_</sub> are {@{non-negative and describe the rate of the process transitions from state _i_ to state _j_}@}. {@{The elements _q_<sub>_ij_</sub> are chosen}@} such that {@{each row of the transition rate matrix sums to zero}@}, while {@{the row-sums of a probability transition matrix in a \(discrete\) Markov chain are all equal to one}@}. (Annotation: Note the matrix is called {@{transition _rate_ matrix, not transition _probability_ matrix}@}.)
 
 There are {@{three equivalent definitions}@} of the process.<sup>[\[40\]](#^ref-40)</sup>
 
@@ -300,7 +300,7 @@ Markov chains are used in {@{[lattice QCD](lattice%20QCD.md)}@} simulations.<sup
 
 ### chemistry
 
-> {@{$${ \text{E}+{\underset {\text{Substrate} \atop \text{binding} }{\text{S} \rightleftharpoons \text{E} } }{\overset {\text{Catalytic} \atop \text{step} }{\text{S} \rightarrow \text{E} } }+\text{P} } $$}@}
+> {@{$${ \text{E}+{\underset {\text{Substrate} \atop \text{binding} }{\text{S} \rightleftharpoons \text{E} } }{\overset {\text{Catalytic} \atop \text{step} }{\text{S} \rightarrow \text{E} } }+\text{P} }$$}@}
 >
 > {@{[Michaelis-Menten kinetics](Michaelis–Menten%20kinetics.md)}@}. The enzyme \(E\) {@{binds a substrate \(S\) and produces a product \(P\)}@}. Each reaction is {@{a state transition in a Markov chain}@}.
 
