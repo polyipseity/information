@@ -49,7 +49,7 @@ return await memorize_table(
 - [Pythagorean identities](#Pythagorean%20identities)→::@::←[angle sum and difference](#angle%20sum%20and%20difference) <!--SR:!2027-06-27,1105,330!2028-09-15,1546,350-->
 - [angle sum and difference](#angle%20sum%20and%20difference)→::@::←[linear combination](#linear%20combination) <!--SR:!2026-09-25,660,289!2027-01-01,776,329-->
 - [linear combination](#linear%20combination)→::@::←[multiple-angle](#multiple-angle) <!--SR:!2027-07-01,1108,330!2027-07-22,1124,330-->
-- [multiple-angle](#multiple-angle)→::@::←[product-to-sum and sum-to-product](#product-to-sum%20and%20sum-to-product) <!--SR:!2024-12-07,354,270!2027-07-28,1128,330-->
+- [multiple-angle](#multiple-angle)→::@::←[product-to-sum and sum-to-product](#product-to-sum%20and%20sum-to-product) <!--SR:!2027-07-21,956,270!2027-07-28,1128,330-->
 - [product-to-sum and sum-to-product](#product-to-sum%20and%20sum-to-product)→::@::←_(end)_ <!--SR:!2028-08-29,1532,350!2025-03-31,535,310-->
 
 <!--/pytextgen-->
@@ -210,7 +210,7 @@ return await memorize_map(
 <!--pytextgen generate section="3759"--><!-- The following content is generated at 2024-07-10T23:43:06.932525+08:00. Any edits will be overridden! -->
 
 - sine:@:$$\sin \frac \theta 2 = \operatorname{sgn}\left(\sin \frac \theta 2\right) \sqrt{\frac {1 - \cos \theta} 2}$$ <!--SR:!2025-01-08,134,336-->
-- cosine:@:$$\cos \frac \theta 2 = \operatorname{sgn}\left(\cos \frac \theta 2\right) \sqrt{\frac {1 + \cos \theta} 2}$$ <!--SR:!2024-12-06,100,316-->
+- cosine:@:$$\cos \frac \theta 2 = \operatorname{sgn}\left(\cos \frac \theta 2\right) \sqrt{\frac {1 + \cos \theta} 2}$$ <!--SR:!2026-02-17,437,336-->
 - tangent:@:$$\tan \frac \theta 2 = \frac {1 - \cos \theta} {\sin \theta} = \frac {\sin \theta} {1 + \cos \theta} = \operatorname{sgn}(\sin \theta) \sqrt{\frac {1 - \cos \theta} {1 + \cos \theta} } = \csc \theta - \cot \theta = \frac {\tan \theta} {1 + \sec \theta} = \frac {-1 + \operatorname{sgn}(\cos \theta)\sqrt{1 + \tan^2 \theta} } {\tan \theta}$$ <!--SR:!2024-12-17,28,216-->
 - secant:@:$$\sec \frac \theta 2 = \operatorname{sgn}\left(\cos \frac \theta 2\right) \sqrt{\frac 2 {1 + \cos \theta} }$$ <!--SR:!2025-03-19,162,296-->
 - cosecant:@:$$\csc \frac \theta 2 = \operatorname{sgn}\left(\sin \frac \theta 2\right) \sqrt{\frac 2 {1 - \cos \theta} }$$ <!--SR:!2025-07-05,240,296-->
@@ -272,7 +272,7 @@ return await memorize_map(
 >
 > - $\sin 5.23 \cos 1.23$ ::@:: $\frac{\sin 6.46 + \sin 4}2$ <!--SR:!2025-06-29,380,307!2025-04-16,318,287-->
 > - $\cos(-3.21) \sin 0.23$ ::@:: $\frac{\sin 3.44 - \sin 2.98}2$ <!--SR:!2024-12-28,44,267!2024-12-20,24,167-->
-> - $\sin 6.22 \sin(-0.01)$ ::@:: $\frac{\cos 6.23 - \cos 6.21}2$ <!--SR:!2025-03-09,306,307!2024-12-06,9,147-->
+> - $\sin 6.22 \sin(-0.01)$ ::@:: $\frac{\cos 6.23 - \cos 6.21}2$ <!--SR:!2025-03-09,306,307!2024-12-20,13,147-->
 > - $\cos(-7.23) \cos(-1.23)$ ::@:: $\frac{\cos 6 + \cos 8.46}2$ <!--SR:!2024-12-28,41,207!2025-12-20,481,287-->
 
 ### sum-to-product

@@ -41,7 +41,7 @@ See also [Vim help files](https://vimhelp.org/).
 
 - quit current buffer ::@:: :q\[uit\]\<Enter\> <!--SR:!2026-12-19,1018,333!2025-07-20,625,313-->
 - quit current buffer, discard changes ::@:: :q\[uit\]!\<Enter\> <!--SR:!2028-03-29,1469,353!2025-09-14,709,313-->
-- write \[range=%\] to \[file=(current)\] ::@:: :\[range\]w\[rite\]\[!\] \[file\]\<Enter\> <!--SR:!2024-12-06,454,293!2029-05-13,1812,368-->
+- write \[range=%\] to \[file=(current)\] ::@:: :\[range\]w\[rite\]\[!\] \[file\]\<Enter\> <!--SR:!2028-07-26,1327,293!2029-05-13,1812,368-->
 - write to \[file=(current)\] and quit ::@:: :wq[!] \[file\]\<Enter\> <!--SR:!2027-03-14,1081,333!2028-03-09,1367,348-->
 
 ## insert

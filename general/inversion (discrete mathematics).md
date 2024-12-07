@@ -44,7 +44,7 @@ For example {@{${\mathtt {inv} }(\langle 1,2,\dots ,n\rangle )=0$}@} since {@{th
 
 {@{Three similar vectors are in use}@} that {@{condense the inversions of a permutation into a vector that uniquely determines it}@}. They are often called {@{_inversion vector_ or _[Lehmer code](lehmer%20code.md)_}@}. \(A list of sources is found [here](https://en.wikiversity.org/wiki/Inversion%20(discrete%20mathematics)).\) <!--SR:!2024-12-15,16,292!2024-12-14,15,292!2024-12-14,15,292-->
 
-This article uses {@{the term _inversion vector_ \($v$\) like [Wolfram](Wolfram%20Mathematica.md)}@}.<sup>[\[13\]](#^ref-13)</sup> {@{The remaining two vectors}@} are {@{sometimes called _left_ and _right inversion vector_}@}, but to {@{avoid confusion with the inversion vector}@} this article calls them {@{_left inversion count_ \($l$\) and _right inversion count_ \($r$\)}@}. Interpreted as {@{a [factorial number](factorial%20number%20system.md)}@} {@{the left inversion count gives the permutations reverse colexicographic}@},<sup>[\[14\]](#^ref-14)</sup> and {@{the right inversion count gives the lexicographic index}@}. <!--SR:!2024-12-15,16,292!2024-12-14,15,292!2024-12-15,16,292!2024-12-15,16,292!2024-12-15,16,292!2024-12-15,16,292!2024-12-06,3,212!2024-12-15,16,292-->
+This article uses {@{the term _inversion vector_ \($v$\) like [Wolfram](Wolfram%20Mathematica.md)}@}.<sup>[\[13\]](#^ref-13)</sup> {@{The remaining two vectors}@} are {@{sometimes called _left_ and _right inversion vector_}@}, but to {@{avoid confusion with the inversion vector}@} this article calls them {@{_left inversion count_ \($l$\) and _right inversion count_ \($r$\)}@}. Interpreted as {@{a [factorial number](factorial%20number%20system.md)}@} {@{the left inversion count gives the permutations reverse colexicographic}@},<sup>[\[14\]](#^ref-14)</sup> and {@{the right inversion count gives the lexicographic index}@}. <!--SR:!2024-12-15,16,292!2024-12-14,15,292!2024-12-15,16,292!2024-12-15,16,292!2024-12-15,16,292!2024-12-15,16,292!2024-12-17,10,232!2024-12-15,16,292-->
 
 > {@{![Rothe diagram of \(2, 5, 4, 6, 3, 1\)](../archives/Wikimedia%20Commons/Inversion%20example;%20Rothe%201.svg)}@}
 >
@@ -52,13 +52,13 @@ This article uses {@{the term _inversion vector_ \($v$\) like [Wolfram](Wolfram%
 
 __Inversion vector $v$:__ ::@:: With the _element-based_ definition $v(i)$ is the number of inversions whose _smaller_ \(right\) component is $i$.<sup>[\[3\]](#^ref-3)</sup> <!--SR:!2024-12-11,12,272!2024-12-11,12,272-->
 
-- inversion vector, in words ::@:: $v(i)$ is the number of elements in $\pi$ greater than $i$ before $i$. <!--SR:!2024-12-07,7,252!2024-12-14,15,292-->
+- inversion vector, in words ::@:: $v(i)$ is the number of elements in $\pi$ greater than $i$ before $i$. <!--SR:!2025-01-01,25,272!2024-12-14,15,292-->
 - inversion vector, symbolically ::@:: $$v(i)~~=~~\#\{k\mid k>i~\land ~\pi ^{-1}(k)<\pi ^{-1}(i)\}$$ <!--SR:!2024-12-11,12,272!2024-12-11,12,272-->
 
-__Left inversion count $l$:__ ::@:: With the _place-based_ definition $l(i)$ is the number of inversions whose _bigger_ \(right\) component is $i$. <!--SR:!2024-12-06,8,252!2024-12-14,15,292-->
+__Left inversion count $l$:__ ::@:: With the _place-based_ definition $l(i)$ is the number of inversions whose _bigger_ \(right\) component is $i$. <!--SR:!2024-12-27,20,252!2024-12-14,15,292-->
 
-- left inversion count, in words ::@:: $l(i)$ is the number of elements in $\pi$ greater than $\pi (i)$ before $\pi (i)$. <!--SR:!2024-12-06,8,252!2024-12-14,15,292-->
-- left inversion count, symbolically ::@:: $$l(i)~~=~~\#\left\{k\mid k<i~\land ~\pi (k)>\pi (i)\right\}$$ <!--SR:!2024-12-14,15,292!2024-12-06,8,252-->
+- left inversion count, in words ::@:: $l(i)$ is the number of elements in $\pi$ greater than $\pi (i)$ before $\pi (i)$. <!--SR:!2024-12-27,20,252!2024-12-14,15,292-->
+- left inversion count, symbolically ::@:: $$l(i)~~=~~\#\left\{k\mid k<i~\land ~\pi (k)>\pi (i)\right\}$$ <!--SR:!2024-12-14,15,292!2024-12-27,20,252-->
 
 __Right inversion count $r$, often called _[Lehmer code](lehmer%20code.md)_:__ ::@:: With the _place-based_ definition $r(i)$ is the number of inversions whose _smaller_ \(left\) component is $i$. <!--SR:!2024-12-09,11,272!2024-12-10,12,272-->
 
@@ -77,7 +77,7 @@ __Right inversion count $r$, often called _[Lehmer code](lehmer%20code.md)_:__ :
 
 It can be seen that {@{$v$ and $l$ always have the same digits}@}, and that {@{$l$ and $r$ are both related to the place-based inversion set}@}. {@{The nontrivial elements of $l$}@} are {@{the sums of the descending diagonals of the shown triangle}@}, and {@{those of $r$}@} are {@{the sums of the ascending diagonals}@}. \({@{Pairs in descending diagonals}@} have {@{the right components 2, 3, 4 in common}@}, while {@{pairs in ascending diagonals}@} have {@{the left components 1, 2, 3 in common}@}.\) <!--SR:!2024-12-14,15,292!2024-12-15,16,292!2024-12-14,15,292!2024-12-14,15,292!2024-12-14,15,292!2024-12-14,15,292!2024-12-14,15,292!2024-12-08,10,272!2024-12-10,12,272!2024-12-15,16,292-->
 
-{@{The default order of the table}@} is {@{reverse colex order by $\pi$, which is the same as colex order by $l$}@}. {@{Lex order by $\pi$ is the same as lex order by $r$}@}. <!--SR:!2024-12-15,16,292!2024-12-06,8,252!2024-12-15,16,292-->
+{@{The default order of the table}@} is {@{reverse colex order by $\pi$, which is the same as colex order by $l$}@}. {@{Lex order by $\pi$ is the same as lex order by $r$}@}. <!--SR:!2024-12-15,16,292!2024-12-27,20,252!2024-12-15,16,292-->
 
 > {@{__3-element permutations for comparison__}@}
 >

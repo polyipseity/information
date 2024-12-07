@@ -24,7 +24,7 @@ The model is based on three postulates:
 
 1. The electron revolves at {@{certain orbits only with certain distances from the nucleus called stationary orbits}@} {@{without radiating energy}@}. <a id="^23e80f"></a>^23e80f
 2. The stationary orbits have distances {@{for which the revolving electron has an [angular momentum](angular%20momentum.md) of an integer multiple of the reduced [Planck constant](Planck%20constant.md): $m_\mathrm{e} v r = \hbar n$}@}, where {@{$n\in\mathbb{Z}^+$ is called the [principal quantum number](principal%20quantum%20number.md)}@}. The orbits have definite energies called {@{[energy levels](energy%20level.md), energy shells, or energy states}@}. <a id="^f5a73f"></a>^f5a73f
-3. Electrons only gain or lose energy by {@{jumping from one stationary orbit to another}@}. [Electromagnetic radiation](electromagnetic%20radiation.md) of frequency $\nu$ is respectively {@{absorbed or emitted}@} according to the {@{[Planck relation](Planck%20relation.md): $\Delta{}E=E_2-E_1=h\nu$}@}, where {@{$h$ is the [Planck constant](Planck%20constant)}@}. <!--SR:!2027-11-05,1102,250!2024-12-06,234,250!2025-06-04,421,210!2028-04-12,1375,290!2028-03-28,1364,290!2029-04-04,1586,272!2026-03-28,918,332!2028-11-05,1555,292!2027-07-06,1198,332-->
+3. Electrons only gain or lose energy by {@{jumping from one stationary orbit to another}@}. [Electromagnetic radiation](electromagnetic%20radiation.md) of frequency $\nu$ is respectively {@{absorbed or emitted}@} according to the {@{[Planck relation](Planck%20relation.md): $\Delta{}E=E_2-E_1=h\nu$}@}, where {@{$h$ is the [Planck constant](Planck%20constant)}@}. <!--SR:!2027-11-05,1102,250!2027-03-08,821,270!2025-06-04,421,210!2028-04-12,1375,290!2028-03-28,1364,290!2029-04-04,1586,272!2026-03-28,918,332!2028-11-05,1555,292!2027-07-06,1198,332-->
 
 ## electron energy levels
 
@@ -76,7 +76,7 @@ The Bohr model fails to explain:
 > | {@{brightness}@} | {@{relative brightness of spectral lines}@} |
 > | {@{multiple [electrons](electron.md)}@} | {@{spectra of [atoms](atom.md) with multiple [electrons](electron.md)}@} |
 > | {@{naturalness}@} | {@{reason why the [angular momentum](angular%20momentum.md) is a intergral multiple of the [reduced Planck constant](Planck%20constant.md#reduced%20Planck%20constant)}@} |
-> | {@{structures}@} | {@{[fine structure](fine%20structure.md) and [hyperfine structure](hyperfine%20structure.md) of spectral lines}@} | <!--SR:!2025-05-31,366,353!2025-03-22,311,353!2027-05-17,908,353!2024-12-31,225,333!2025-05-03,328,361!2027-02-10,807,341!2024-12-07,207,341!2025-01-12,234,341-->
+> | {@{structures}@} | {@{[fine structure](fine%20structure.md) and [hyperfine structure](hyperfine%20structure.md) of spectral lines}@} | <!--SR:!2025-05-31,366,353!2025-03-22,311,353!2027-05-17,908,353!2024-12-31,225,333!2025-05-03,328,361!2027-02-10,807,341!2027-08-06,972,361!2025-01-12,234,341-->
 
 <!--/pytextgen-->
 

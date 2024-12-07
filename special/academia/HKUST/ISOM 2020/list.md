@@ -43,13 +43,13 @@ You can {@{use the [indexing](#indexing) notation to replace the _n_-th item of 
 
 To {@{add a new item (not replace existing items) to the back of a list}@}, use {@{`list.append(value)`}@}. Its return value is {@{nothing (`None`)}@}. <!--SR:!2025-02-13,113,294!2025-08-31,273,334!2025-01-26,99,294-->
 
-To {@{remove an the _n_-th existing item}@}. use {@{`list.pop(index)`, with `index` being _n_ - 1}@}. Note that `index` accepts {@{numbers in the same ways as in the [indexing](#indexing) notation, i.e. negative indices are accepted and have the same meaning}@}. Likewise, if {@{the index is out of range or `list` is empty}@}, then {@{an `IndexError` will be raised}@}. Not specifying {@{the `index` is also okay (`list.pop()`), and `index` will be set to `-1` by default, meaning the last item will be removed}@}. After removing the item, it will {@{return the removed item}@}. <!--SR:!2025-05-10,183,314!2025-04-02,153,314!2025-05-08,180,314!2025-08-26,269,334!2025-03-04,130,314!2024-12-07,67,314!2025-08-13,258,330-->
+To {@{remove an the _n_-th existing item}@}. use {@{`list.pop(index)`, with `index` being _n_ - 1}@}. Note that `index` accepts {@{numbers in the same ways as in the [indexing](#indexing) notation, i.e. negative indices are accepted and have the same meaning}@}. Likewise, if {@{the index is out of range or `list` is empty}@}, then {@{an `IndexError` will be raised}@}. Not specifying {@{the `index` is also okay (`list.pop()`), and `index` will be set to `-1` by default, meaning the last item will be removed}@}. After removing the item, it will {@{return the removed item}@}. <!--SR:!2025-05-10,183,314!2025-04-02,153,314!2025-05-08,180,314!2025-08-26,269,334!2025-03-04,130,314!2025-09-30,297,334!2025-08-13,258,330-->
 
 To {@{concatenate/join two lists (or strings)}@}, use {@{the `+` operator}@}. Note that {@{the resulting list is different from the original 2 lists, i.e. modifying the resulting list will not modify the original 2 lists}@}. Since {@{`str`s cannot be modified}@}, the above is irrelevant for strings. If {@{the `+` operator is applied between different types}@}, then {@{a `TypeError` will be raised}@}. <!--SR:!2025-01-08,83,336!2025-01-08,83,336!2025-01-08,83,336!2025-01-08,83,336!2025-01-08,83,336!2025-01-08,83,336-->
 
 ## length
 
-{@{The length (`int`) of a sequence, including but not limited to `list` and `str`}@}, can be determined by {@{`len(list)` (but not `list.len()`)}@}. <!--SR:!2025-08-21,266,334!2024-12-06,66,314-->
+{@{The length (`int`) of a sequence, including but not limited to `list` and `str`}@}, can be determined by {@{`len(list)` (but not `list.len()`)}@}. <!--SR:!2025-08-21,266,334!2025-09-26,293,334-->
 
 ## aggregate functions
 

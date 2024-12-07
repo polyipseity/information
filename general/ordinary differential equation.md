@@ -18,7 +18,7 @@ tags:
 
 An _[explicit](implicit%20function.md) ordinary differential equation of order n_ has the form: {@{$$F\left(x,y(x),y'(x),\ldots,y^{(n-1)}(x)\right)=y^{(n)}(x)$$, where $x$ is an [independent variable](dependent%20and%20independent%29variables.md), $y(x)$ is a [function](function%20(mathematics).md) of $x$, $y^{(d)}(x)$ are $d$-th [derivatives](derivative%20.md) of $y(x)$, and $F$ is a [formula](formula.md)}@}. <!--SR:!2028-01-12,1135,344-->
 
-An _[implicit](implicit%20function.md) ordinary differential equation of order n_ has the form: {@{$$F\left(x,y(x),y'(x),\ldots,y^{(n-1)}(x), y^{(n)}(x)\right)=0$$}@}, using the same notations as above. <!--SR:!2024-12-07,334,344-->
+An _[implicit](implicit%20function.md) ordinary differential equation of order n_ has the form: {@{$$F\left(x,y(x),y'(x),\ldots,y^{(n-1)}(x), y^{(n)}(x)\right)=0$$}@}, using the same notations as above. <!--SR:!2028-01-30,1149,344-->
 
 ### classifications
 

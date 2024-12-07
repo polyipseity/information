@@ -11,7 +11,7 @@ tags:
 
 # financial accounting
 
-__Financial accounting__ is {@{a branch of [accounting](accounting.md) concerned with the summary, analysis and reporting of financial transactions related to a business}@}.<sup>[\[1\]](#^ref-1)</sup> This involves {@{the preparation of [financial statements](financial%20audit.md) available for public use}@}. {@{[Stockholders](shareholder.md), [suppliers](vendor.md), [banks](bank.md), [employees](employment.md#employee), [government agencies](government%20agency.md), [business owners](businessperson.md), and other [stakeholders](stakeholder%20(corporate).md)}@} are examples of people {@{interested in receiving such information for decision making purposes}@}. <!--SR:!2025-09-11,281,330!2025-01-18,85,270!2025-04-01,139,290!2024-12-07,67,310-->
+__Financial accounting__ is {@{a branch of [accounting](accounting.md) concerned with the summary, analysis and reporting of financial transactions related to a business}@}.<sup>[\[1\]](#^ref-1)</sup> This involves {@{the preparation of [financial statements](financial%20audit.md) available for public use}@}. {@{[Stockholders](shareholder.md), [suppliers](vendor.md), [banks](bank.md), [employees](employment.md#employee), [government agencies](government%20agency.md), [business owners](businessperson.md), and other [stakeholders](stakeholder%20(corporate).md)}@} are examples of people {@{interested in receiving such information for decision making purposes}@}. <!--SR:!2025-09-11,281,330!2025-01-18,85,270!2025-04-01,139,290!2025-09-20,287,330-->
 
 Financial accountancy is governed by {@{both local and international accounting standards}@}. {@{[Generally Accepted Accounting Principles](accounting%20standard.md) (GAAP)}@} is {@{the standard framework of guidelines for financial accounting used in any given jurisdiction}@}. It includes {@{the standards, conventions and rules that accountants follow in recording and summarizing and in the preparation of financial statements}@}. <!--SR:!2025-08-06,254,330!2025-05-01,175,310!2025-05-13,184,310!2025-04-05,142,290-->
 
@@ -21,12 +21,12 @@ While financial accounting is {@{used to prepare accounting information for peop
 
 ## principles
 
-{@{Financial accounting and financial reporting}@} are often used as synonyms. <!--SR:!2024-12-06,66,310-->
+{@{Financial accounting and financial reporting}@} are often used as synonyms. <!--SR:!2025-09-21,288,330-->
 
 1. According to International Financial Reporting Standards: the objective of financial reporting is ... ::@:: To provide financial information that is useful to existing and potential investors, lenders and other creditors in making decisions about providing resources to the reporting entity.<sup>[\[3\]](#^ref-3)</sup> <!--SR:!2025-04-26,171,310!2025-01-22,87,270-->
 2. According to the European Accounting Association: ... ::@:: Capital maintenance is a competing objective of financial reporting.<sup>[\[4\]](#^ref-4)</sup> <!--SR:!2025-02-01,95,270!2025-03-21,139,290-->
 
-Financial accounting is {@{the preparation of financial statements that can be consumed by the public and the relevant stakeholders}@}. Financial information {@{would be useful to users if such qualitative characteristics are present}@}. When producing financial statements, the following must be complied with: {@{fundamental qualitative characteristics and enhancing qualitative characteristics}@}. <!--SR:!2025-03-19,143,310!2024-12-06,66,310!2025-02-07,107,290-->
+Financial accounting is {@{the preparation of financial statements that can be consumed by the public and the relevant stakeholders}@}. Financial information {@{would be useful to users if such qualitative characteristics are present}@}. When producing financial statements, the following must be complied with: {@{fundamental qualitative characteristics and enhancing qualitative characteristics}@}. <!--SR:!2025-03-19,143,310!2025-09-19,286,330!2025-02-07,107,290-->
 
 __Fundamental Qualitative Characteristics__ ::@:: relevance, faithful representation <!--SR:!2025-08-15,261,330!2025-04-20,165,310-->
 
@@ -70,7 +70,7 @@ The statement of cash flows {@{considers the inputs and outputs in concrete cash
 > - {@{cash inflow}@}: {@{$50 - _How much WikiTables received in cash for the first table. They didn't receive cash for the second table (sold in credit terms)._}@}
 > - {@{cash outflow}@}: {@{$50 - _How much they'd originally bought the 2 tables for._}@}
 > - {@{opening balance}@}: {@{$0}@}
-> - {@{__closing balance__}@}: {@{__$50 – 2 \* $25 + $0 = $50 – $50 = $0__ - _Indeed, the cash flow for the month of June for WikiTables amounts to $0 and not $50._}@} <!--SR:!2025-03-28,147,310!2025-08-09,254,330!2024-12-07,67,310!2025-02-23,120,290!2025-07-08,230,330!2025-09-12,281,330!2025-07-25,242,330!2025-07-20,240,330-->
+> - {@{__closing balance__}@}: {@{__$50 – 2 \* $25 + $0 = $50 – $50 = $0__ - _Indeed, the cash flow for the month of June for WikiTables amounts to $0 and not $50._}@} <!--SR:!2025-03-28,147,310!2025-08-09,254,330!2025-09-27,294,330!2025-02-23,120,290!2025-07-08,230,330!2025-09-12,281,330!2025-07-25,242,330!2025-07-20,240,330-->
 
 Important: the cash flow statement {@{only considers the exchange of __actual__ cash, and ignores what the person in question owes or is owed}@}. <!--SR:!2025-07-21,241,330-->
 
@@ -90,13 +90,13 @@ The net profit or loss is determined by: <br/> {@{sales (revenue) <br/> – [cos
 
 The statement of financial position is also called {@{balance sheet}@}. <!--SR:!2025-06-11,200,335-->
 
-The balance sheet is {@{the financial statement showing a firm's [assets](asset.md), [liabilities](liability%20(financial%20accounting).md) and [equity](equity%20(finance).md) (capital) at a set point in time, usually the end of the fiscal year reported on the accompanying income statement}@}. The total assets {@{always equal the total combined liabilities and equity}@}. This statement best demonstrates {@{the basic accounting equation: _Assets = Liabilities + Equity_}@}. <!--SR:!2025-04-07,157,310!2024-12-06,66,310!2025-09-17,286,330-->
+The balance sheet is {@{the financial statement showing a firm's [assets](asset.md), [liabilities](liability%20(financial%20accounting).md) and [equity](equity%20(finance).md) (capital) at a set point in time, usually the end of the fiscal year reported on the accompanying income statement}@}. The total assets {@{always equal the total combined liabilities and equity}@}. This statement best demonstrates {@{the basic accounting equation: _Assets = Liabilities + Equity_}@}. <!--SR:!2025-04-07,157,310!2025-09-18,285,330!2025-09-17,286,330-->
 
-The statement can be used to {@{help show the financial position of a company}@} because {@{liability accounts are external claims on the firm's assets while equity accounts are internal claims on the firm's assets}@}. <!--SR:!2025-03-31,138,290!2024-12-06,67,310-->
+The statement can be used to {@{help show the financial position of a company}@} because {@{liability accounts are external claims on the firm's assets while equity accounts are internal claims on the firm's assets}@}. <!--SR:!2025-03-31,138,290!2025-09-25,292,330-->
 
 Accounting standards often {@{set out a general format that companies are expected to follow when presenting their balance sheets}@}. [International Financial Reporting Standards](International%20Financial%20Reporting%20Standards.md) (IFRS) normally require that {@{companies report [current](current%20asset.md) assets and liabilities separately from non-current amounts}@}.<sup>[\[5\]](#^ref-5)</sup><sup>[\[6\]](#^ref-6)</sup> A GAAP-compliant balance sheet must {@{list assets and liabilities based on decreasing liquidity, from most liquid to least liquid. As a result, current assets/liabilities are listed first followed by non-current assets/liabilities}@}. However, an IFRS-compliant balance sheet must {@{list assets/liabilities based on increasing liquidity, from least liquid to most liquid. As a result, non-current assets/liabilities are listed first followed by current assets/liabilities}@}.<sup>[\[7\]](#^ref-7)</sup> <!--SR:!2025-01-15,85,270!2025-04-07,157,310!2025-03-23,127,270!2025-04-10,145,290-->
 
-Current assets are {@{the most liquid assets of a firm, which are expected to be realized within a 12-month period, or the firm's operating cycle, whichever is longer}@}. Current assets include: {@{[cash](cash.md), [accounts receivable](accounts%20receivable.md), merchandise inventory, [investee companies](company.md) (held less than a financial period), [prepaid expenses](deferral.md) (for use during the current financial period), etc.}@} <!--SR:!2024-12-06,67,310!2025-02-07,88,250-->
+Current assets are {@{the most liquid assets of a firm, which are expected to be realized within a 12-month period, or the firm's operating cycle, whichever is longer}@}. Current assets include: {@{[cash](cash.md), [accounts receivable](accounts%20receivable.md), merchandise inventory, [investee companies](company.md) (held less than a financial period), [prepaid expenses](deferral.md) (for use during the current financial period), etc.}@} <!--SR:!2025-09-22,289,330!2025-02-07,88,250-->
 
 - [cash](cash.md) ::@:: physical money <!--SR:!2025-04-18,164,310!2025-05-16,185,310-->
 - [accounts receivable](accounts%20receivable.md) ::@:: revenues earned but not yet collected <!--SR:!2025-04-28,172,310!2025-04-24,168,310-->
@@ -132,7 +132,7 @@ This basic principle gives rise to the commonly used {@{[historical cost account
 
 ### units of constant purchasing power
 
-The stable monetary unit assumption is {@{not applied during hyperinflation}@}. {@{IFRS}@} requires {@{entities to implement capital maintenance in units of constant purchasing power in terms of IAS 29 Financial Reporting in Hyperinflationary Economies}@}. <!--SR:!2025-02-21,117,290!2024-12-06,67,310!2025-01-16,84,270-->
+The stable monetary unit assumption is {@{not applied during hyperinflation}@}. {@{IFRS}@} requires {@{entities to implement capital maintenance in units of constant purchasing power in terms of IAS 29 Financial Reporting in Hyperinflationary Economies}@}. <!--SR:!2025-02-21,117,290!2025-09-26,293,330!2025-01-16,84,270-->
 
 ## objectives
 

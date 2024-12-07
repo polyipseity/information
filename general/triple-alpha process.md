@@ -22,7 +22,7 @@ Nuclear fusion reaction of two helium-4 nuclei {@{produces [beryllium-8](berylli
 
 - 1st step ::@:: $${}_2^4\mathrm{He} + {}_2^4\mathrm{He} \rightarrow {}_4^8\mathrm{Be} \quad (-0.0918\mathrm{\ MeV})$$ <!--SR:!2025-01-24,120,290!2025-02-04,81,290-->
   - 1st step / energy release ::@:: -0.0918 MeV <!--SR:!2024-12-08,83,270!2025-02-04,127,290-->
-- 2nd step ::@:: $${}_4^8\mathrm{Be} + {}_2^4\mathrm{He} \rightarrow {}_{\phantom{0}6}^{12}\mathrm{C} + 2 \gamma \quad (+7.367\mathrm{\ MeV})$$ <!--SR:!2024-12-07,16,150!2024-12-31,110,290-->
+- 2nd step ::@:: $${}_4^8\mathrm{Be} + {}_2^4\mathrm{He} \rightarrow {}_{\phantom{0}6}^{12}\mathrm{C} + 2 \gamma \quad (+7.367\mathrm{\ MeV})$$ <!--SR:!2025-01-01,25,150!2024-12-31,110,290-->
   - 2nd step / energy release ::@:: +7.367 MeV <!--SR:!2024-12-14,48,230!2025-03-01,124,250-->
 
 The net energy release of the process is {@{7.275 MeV}@}. <!--SR:!2025-01-15,108,270-->

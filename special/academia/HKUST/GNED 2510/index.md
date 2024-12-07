@@ -36,8 +36,8 @@ The content is in teaching order.
 - datetime: 2023-09-06T17:00:00+08:00/2023-09-06T18:50:00+08:00
 - topic: Innerview (I): Breaking your Mental Model
 - course logistics
-- SCARF (good) ::@:: sense of urgency, courage to try, awesomeness, relatedness, fresh perspective <!--SR:!2025-01-03,78,290!2024-12-06,57,310-->
-- hard skills, soft skills ::@:: Many jobs typically require a combination of them. <!--SR:!2025-08-03,241,330!2024-12-06,57,310-->
+- SCARF (good) ::@:: sense of urgency, courage to try, awesomeness, relatedness, fresh perspective <!--SR:!2025-01-03,78,290!2025-08-13,249,330-->
+- hard skills, soft skills ::@:: Many jobs typically require a combination of them. <!--SR:!2025-08-03,241,330!2025-08-15,251,330-->
   - hard skills ::@:: Skills acquired through formal education and training programs. <!--SR:!2024-12-10,61,310!2025-06-22,209,330-->
   - soft skills ::@:: Skills that promote productivity, efficiency, effective communication, etc. <!--SR:!2024-12-25,69,310!2025-08-13,251,330-->
 - How many jobs should you include on your resume? ::@:: all of your previous jobs <!--SR:!2025-05-30,192,310!2025-04-19,155,310-->
@@ -68,9 +68,9 @@ The content is in teaching order.
 - job description ::@:: Infer what attributes the job is look from from its job description. <!--SR:!2025-07-16,228,330!2024-12-25,69,310-->
 - [résumé](../../../résumé.md)
   - What color should a CV typed up in? ::@:: black <!--SR:!2025-06-29,214,330!2024-12-25,69,310-->
-  - How long should a CV roughly be? ::@:: 1 page <!--SR:!2024-12-06,57,310!2025-07-07,221,330-->
+  - How long should a CV roughly be? ::@:: 1 page <!--SR:!2025-08-14,250,330!2025-07-07,221,330-->
   - What things should NOT be included on a CV? ::@:: date of birth (DOB), gender, home address <!--SR:!2025-04-18,154,310!2024-12-13,64,310-->
-  - What order should your qualification be put in? ::@:: newest to oldest <!--SR:!2024-12-08,59,310!2024-12-06,59,310-->
+  - What order should your qualification be put in? ::@:: newest to oldest <!--SR:!2024-12-08,59,310!2025-08-21,257,330-->
   - IROAR ::@:: impact, results, outcomes, achievements, responsibilities <!--SR:!2025-07-17,229,330!2025-04-10,148,310-->
   - referees ::@:: 1 professor, 1 previous work supervisor, 1 volunteer team project lead <!--SR:!2025-05-28,184,310!2025-06-03,189,310-->
   - profile summary ::@:: what I want and what I can do for you, altitude + skills + knowledge (ASK) <!--SR:!2024-12-25,69,310!2025-05-30,176,310-->
@@ -98,7 +98,7 @@ The content is in teaching order.
   - stress identification ::@:: nervous, sweating, tired, trembling, weak, ... <!--SR:!2025-02-17,98,290!2025-05-06,167,310-->
   - stress relief ::@:: putting words on emotions, mindfulness, re-attribution, refocus, visualize, revalue, ... <!--SR:!2025-06-03,191,310!2025-05-25,182,310-->
 - SCARF ::@:: status, certainty, autonomy, relatedness, fairness <!--SR:!2025-07-12,224,330!2025-08-01,241,330-->
-  - SCARF / status ::@:: relative importance to others and seniority <!--SR:!2025-07-24,235,330!2024-12-07,60,310-->
+  - SCARF / status ::@:: relative importance to others and seniority <!--SR:!2025-07-24,235,330!2025-08-27,263,330-->
     - increase status ::@:: know the unknown, prepare, ... <!--SR:!2025-05-04,167,310!2024-12-25,69,310-->
     - decrease status ::@:: awkward questions, unfriendly interviewers, unequal, ... <!--SR:!2024-12-12,63,310!2025-04-28,162,310-->
   - SCARF / certainty ::@:: prediction confidence <!--SR:!2025-04-21,156,310!2025-06-02,181,310-->
@@ -114,8 +114,8 @@ The content is in teaching order.
 - topic: Career and Employability Skills
 - networking
   - networking advantages ::@:: know more people, fact checking, tapping into the hidden job market <!--SR:!2025-04-12,130,290!2025-08-15,253,330-->
-- Where should you sit when you are waiting for an interview? ::@:: as front as possible <!--SR:!2024-12-09,60,310!2024-12-06,57,310-->
-- Where should you sit when you are in the interview room? ::@:: seats that are neither too special nor too seclusive <!--SR:!2024-12-06,57,310!2025-04-07,145,310-->
+- Where should you sit when you are waiting for an interview? ::@:: as front as possible <!--SR:!2024-12-09,60,310!2025-08-09,245,330-->
+- Where should you sit when you are in the interview room? ::@:: seats that are neither too special nor too seclusive <!--SR:!2025-08-12,248,330!2025-04-07,145,310-->
 - If your boss takes you and the team for lunch... ::@:: ... balance the food order with what everyone else is choosing. (But it can depend on the boss's style.) <!--SR:!2024-12-11,62,310!2025-06-26,212,330-->
 - Emails should be replied within \_ hours, and phone calls should be returned within \_ hours ::@:: as soon as possible <!--SR:!2024-12-11,62,310!2025-07-15,227,330-->
 - If you order coffee/tea and it's too hot. What should you do? ::@:: Let it cool in the cup. <!--SR:!2025-05-09,171,310!2024-12-10,61,310-->
@@ -127,12 +127,12 @@ The content is in teaching order.
   - networking etiquette
   - dining etiquette
 - work cultures
-- How is a work offer properly confirmed? ::@:: confirm the draft employment contract <!--SR:!2024-12-07,60,310!2025-02-11,107,290-->
+- How is a work offer properly confirmed? ::@:: confirm the draft employment contract <!--SR:!2025-08-26,262,330!2025-02-11,107,290-->
 - What if you need more time to consider a work offer? ::@:: Sincerely ask for more time to consider and state your expected reply time to the employer. <!--SR:!2025-07-13,225,330!2025-05-28,174,310-->
 - What to do after confirming an offer? ::@:: stop interviewing, nicely decline other work offers <!--SR:!2025-03-30,143,310!2024-12-25,69,310-->
 - job offer ::@:: Check if it is legitimate and is not missing any crucial information! <!--SR:!2025-05-30,186,310!2024-12-14,65,310-->
   - job offer crucial information ::@:: company logo, contact information, job title, job details, salary/compensation, benefits, expiration date <!--SR:!2024-12-25,62,250!2025-02-10,97,270-->
-  - declining a job offer ::@:: act quick, communicate professionally, express appreciation <!--SR:!2025-07-08,222,330!2024-12-06,59,310-->
+  - declining a job offer ::@:: act quick, communicate professionally, express appreciation <!--SR:!2025-07-08,222,330!2025-08-20,256,330-->
 
 ## week 8 tutorial
 
@@ -171,13 +171,13 @@ The content is in teaching order.
 
 - datetime: 2023-11-15T17:00:00+08:00/2023-11-15T18:50:00+08:00
 - topic: Interview (III): Final Drilling of Mock Interview
-- interview goals ::@:: impress, express, tell stories (STAR-r) <!--SR:!2024-12-25,69,310!2024-12-06,57,310-->
+- interview goals ::@:: impress, express, tell stories (STAR-r) <!--SR:!2024-12-25,69,310!2025-08-08,244,330-->
 - STAR-r ::@:: situation, task, action, result, reflection <!--SR:!2025-04-07,151,310!2025-08-04,244,330-->
-  - STAR-r / situation ::@:: set the scene <!--SR:!2024-12-06,57,310!2024-12-25,69,310-->
+  - STAR-r / situation ::@:: set the scene <!--SR:!2025-08-10,246,330!2024-12-25,69,310-->
   - STAR-r / task ::@:: describe the purpose <!--SR:!2025-06-15,199,310!2025-06-21,207,330-->
-  - STAR-r / action ::@:: explain what you did <!--SR:!2024-12-07,60,310!2024-12-11,62,310-->
+  - STAR-r / action ::@:: explain what you did <!--SR:!2025-08-22,258,330!2024-12-11,62,310-->
   - STAR-r / result ::@:: share the outcome <!--SR:!2025-08-08,246,330!2024-12-25,69,310-->
-  - STAR-r / reflection ::@:: what you would have done differently <!--SR:!2024-12-06,57,310!2024-12-06,57,310-->
+  - STAR-r / reflection ::@:: what you would have done differently <!--SR:!2025-08-07,243,330!2025-08-11,247,330-->
 
 ## week 12 tutorial
 

@@ -65,7 +65,7 @@ The following interior structures are possible.
 
 - _(begin)_→::@::←[braced frame](braced%20frame.md) <!--SR:!2025-03-13,161,270!2025-01-16,172,315-->
 - [braced frame](braced%20frame.md)→::@::←[hinged frame](hinged%20frame.md) <!--SR:!2025-01-16,108,235!2025-01-22,106,235-->
-- [hinged frame](hinged%20frame.md)→::@::←[outrigger](#outrigger) <!--SR:!2024-12-16,43,150!2024-12-06,27,175-->
+- [hinged frame](hinged%20frame.md)→::@::←[outrigger](#outrigger) <!--SR:!2024-12-16,43,150!2025-01-21,45,175-->
 - [outrigger](#outrigger)→::@::←[rigid frame](rigid%20frame.md) <!--SR:!2025-05-25,238,275!2025-01-02,71,195-->
 - [rigid frame](rigid%20frame.md)→::@::←[shear-walled frame](#sheared-walled%20frame): [rigid frame](rigid%20frame.md) + [shear wall](shear%20wall.md) <!--SR:!2024-12-09,126,255!2025-08-02,273,255-->
 - [shear-walled frame](#sheared-walled%20frame): [rigid frame](rigid%20frame.md) + [shear wall](shear%20wall.md)→::@::←_(end)_ <!--SR:!2025-01-27,181,315!2025-03-17,170,255-->

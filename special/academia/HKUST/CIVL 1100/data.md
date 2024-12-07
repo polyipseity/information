@@ -239,7 +239,7 @@ See [Mont d'Ambin Base Tunnel](../../../../general/Mont%20d'Ambin%20Base%20Tunne
 
 See [Delta Works](../../../../general/Delat%20Works.md) and [Zuiderzee Works](../../../../general/Zuiderzee%20Works.md).
 
-- image ::@:: ![Netherlands North Sea Protection Works image](../../../../archives/Wikimedia%20Commons/Maeslantkering.jpg) <!--SR:!2026-07-05,595,396!2024-12-07,164,396-->
+- image ::@:: ![Netherlands North Sea Protection Works image](../../../../archives/Wikimedia%20Commons/Maeslantkering.jpg) <!--SR:!2026-07-05,595,396!2027-05-12,886,416-->
 
 ## Panama Canal
 
@@ -291,7 +291,7 @@ See [Thames Barrier](../../../../general/Thames%20Barrier.md).
 - [dam type](../../../../general/dam.md#types) ::@:: [barrage](barrage%20(dam).md) <!--SR:!2026-01-23,459,341!2025-10-10,433,397-->
 - height ::@:: 20.1 m <!--SR:!2025-01-21,133,261!2025-09-05,371,380-->
 - image ::@:: ![Thames Barrier image](../../../../archives/Wikimedia%20Commons/Thames%20Barrier%2003.jpg) <!--SR:!2025-02-16,228,360!2025-12-19,477,400-->
-- length ::@:: 520 m <!--SR:!2024-12-13,57,260!2024-12-06,196,330-->
+- length ::@:: 520 m <!--SR:!2024-12-13,57,260!2026-09-13,645,330-->
 
 ## Tsing Ma Bridge
 

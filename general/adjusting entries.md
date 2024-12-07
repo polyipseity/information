@@ -25,13 +25,13 @@ Most adjusting entries could be classified this way: {@{prepaid expenses, accrue
 | Revenues | Unearned revenues: for revenues received in cash and recorded as liabilities before they are earned | Accrued revenues: for revenues earned but not yet recorded and not yet received in cash |
 
 - prepaid expenses ::@:: for expenses paid in cash and recorded as assets before they are used <!--SR:!2024-12-20,71,310!2024-12-22,73,310-->
-- accrued expenses ::@:: for expenses incurred but not yet paid in cash and not yet recorded <!--SR:!2024-12-06,59,310!2025-08-04,244,330-->
+- accrued expenses ::@:: for expenses incurred but not yet paid in cash and not yet recorded <!--SR:!2025-08-21,257,330!2025-08-04,244,330-->
 - unearned revenues ::@:: for revenues received in cash and recorded as liabilities before they are earned <!--SR:!2024-12-11,64,310!2025-05-26,174,310-->
 - accrued revenues ::@:: for revenues earned but not yet recorded and not yet received in cash <!--SR:!2025-03-14,132,310!2024-12-10,63,310-->
 
 ### prepayments
 
-{@{Adjusting entries for prepayments}@} are necessary to {@{account for cash that has been received prior to delivery of goods or completion of services}@}. When {@{this cash is paid, it is first recorded in a prepaid expense asset account}@}; the account is {@{to be expensed either with the passage of time (e.g. rent, insurance) or through use and consumption (e.g. supplies)}@}. <!--SR:!2024-12-06,59,310!2025-05-17,177,310!2025-02-04,99,290!2025-07-04,219,330-->
+{@{Adjusting entries for prepayments}@} are necessary to {@{account for cash that has been received prior to delivery of goods or completion of services}@}. When {@{this cash is paid, it is first recorded in a prepaid expense asset account}@}; the account is {@{to be expensed either with the passage of time (e.g. rent, insurance) or through use and consumption (e.g. supplies)}@}. <!--SR:!2025-08-22,258,330!2025-05-17,177,310!2025-02-04,99,290!2025-07-04,219,330-->
 
 {@{A company receiving the cash for benefits yet to be delivered}@} will have to {@{record the amount in an unearned revenue [liability](liability%20(financial%20accounting).md) account}@}. Then, {@{an adjusting entry to recognize the revenue is used as necessary}@}. <!--SR:!2025-05-20,180,310!2025-06-10,195,310!2024-12-09,62,310-->
 

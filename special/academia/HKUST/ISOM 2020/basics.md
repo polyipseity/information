@@ -72,7 +72,7 @@ return _chain.from_iterable(await _gather(
 - `//`→::@::←`%` <!--SR:!2025-06-20,218,330!2025-09-20,294,342-->
 - `%`→::@::←`+` <!--SR:!2025-09-17,293,342!2025-06-14,213,322-->
 - `+`→::@::←`-` <!--SR:!2025-07-07,232,330!2024-12-11,77,322-->
-- `-`→::@::←_(end)_ <!--SR:!2024-12-06,72,322!2024-12-07,74,322-->
+- `-`→::@::←_(end)_ <!--SR:!2025-10-30,327,342!2025-11-07,335,342-->
 
 <!--/pytextgen-->
 
@@ -142,7 +142,7 @@ return _chain.from_iterable(await _gather(
 - _(begin)_→::@::←`in` <!--SR:!2025-01-20,95,369!2025-01-25,100,369-->
 - `in`→::@::←`<` <!--SR:!2024-12-09,67,349!2024-12-25,69,349-->
 - `<`→::@::←`<=` <!--SR:!2025-10-10,309,369!2025-09-22,293,369-->
-- `<=`→::@::←`>` <!--SR:!2024-12-07,60,349!2025-09-27,298,369-->
+- `<=`→::@::←`>` <!--SR:!2025-09-28,295,369!2025-09-27,298,369-->
 - `>`→::@::←`>=` <!--SR:!2025-09-03,274,369!2025-01-25,100,369-->
 - `>=`→::@::←`!=` <!--SR:!2025-08-23,265,369!2025-02-03,96,309-->
 - `!=`→::@::←`==` <!--SR:!2025-10-05,304,369!2025-01-20,95,369-->
@@ -255,7 +255,7 @@ To {@{assign a value or the result of an expression to a variable}@}, use {@{`=`
 variableName = 1 + 2
 ```
 
-One does not need to {@{declare the variable and its type before assigning to it}@}. Reassigning the variable (i.e. {@{replacing the variable value}@}) uses {@{the same syntax as above}@}. To {@{use the value of a variable}@}, {@{simply write the variable name}@}. <!--SR:!2025-09-26,300,342!2024-12-07,74,322!2025-05-15,188,322!2025-06-08,208,322!2024-12-09,75,322-->
+One does not need to {@{declare the variable and its type before assigning to it}@}. Reassigning the variable (i.e. {@{replacing the variable value}@}) uses {@{the same syntax as above}@}. To {@{use the value of a variable}@}, {@{simply write the variable name}@}. <!--SR:!2025-09-26,300,342!2025-11-01,329,342!2025-05-15,188,322!2025-06-08,208,322!2024-12-09,75,322-->
 
 Variable names are {@{case sensitive, cannot be keywords, cannot have some characters like spaces (but underscores `_` are okay), and cannot begin with some characters like numbers}@}. Also, while allowed, it is recommended to {@{not use builtin names, e.g. `print`, as we will no longer be able to use those builtin functions of variables later (replaced by us)}@}. <!--SR:!2025-03-18,141,310!2025-07-17,241,330-->
 
@@ -275,7 +275,7 @@ Below are common data types:
 
 Some interesting facts about `float`s:  `print`, for relatively small `float`s, {@{it always outputs at least 1 decimal place for `float`s, and outputs at most as many digits as needed to represent the number exactly}@}. For relatively large `floats`, {@{it outputs the float in exponential notation, e.g. `1e+100`, `1.2e-100`, etc.}@} `1` {@{is an `int` while `1.` and `1.0` are `float`s representing the same value `1`}@}. <!--SR:!2025-06-02,202,322!2025-04-02,153,310!2025-08-23,270,363-->
 
-To get the type of a value, {@{use `type(<any>)`, which will return the type of `<any>`}@}. Note that the return type is {@{a special type called classes, which we will not go into detail here}@}. On Jupyter, {@{without using `print` (i.e. placing `type(<any>)` as the last expression), it will simply print out the type name, e.g. `float`, `int`, etc.}@} In most other situations, including {@{evaluating `type(<any>)` in your local Python installation instead of Jupyter}@}, it will {@{print out `<class '<type>'>`, with `<type>` replaced by the type name, e.g. `<class 'float'>`, `<class 'int'>`, etc.}@} <!--SR:!2025-08-29,277,342!2024-12-07,73,322!2025-07-12,234,322!2025-05-14,187,322!2025-08-30,276,330-->
+To get the type of a value, {@{use `type(<any>)`, which will return the type of `<any>`}@}. Note that the return type is {@{a special type called classes, which we will not go into detail here}@}. On Jupyter, {@{without using `print` (i.e. placing `type(<any>)` as the last expression), it will simply print out the type name, e.g. `float`, `int`, etc.}@} In most other situations, including {@{evaluating `type(<any>)` in your local Python installation instead of Jupyter}@}, it will {@{print out `<class '<type>'>`, with `<type>` replaced by the type name, e.g. `<class 'float'>`, `<class 'int'>`, etc.}@} <!--SR:!2025-08-29,277,342!2025-10-28,325,342!2025-07-12,234,322!2025-05-14,187,322!2025-08-30,276,330-->
 
 ### data type conversion
 

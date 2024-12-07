@@ -50,7 +50,7 @@ The content is in teaching order.
   - design thinking video: <https://youtu.be/_r0VX-aU_T8>
   - design thinking processes ::@:: accept, empathize, define, ideate, prototype, test <!--SR:!2025-03-05,117,290!2024-12-25,69,310-->
   - design thinking use ::@:: Good for _wicked problems_, which are problems with little data and unclear outcome. <!--SR:!2025-07-01,216,330!2025-03-29,142,310-->
-- class culture ::@:: We come to class not to just _attend_ it, but participate with others. <!--SR:!2025-05-26,185,310!2024-12-07,58,310-->
+- class culture ::@:: We come to class not to just _attend_ it, but participate with others. <!--SR:!2025-05-26,185,310!2025-08-18,254,330-->
 - activity 1: art to building community
   - art to building community / debrief ::@:: Our story makes us unique. Approach situations with a "yes and"! <!--SR:!2025-08-06,246,330!2025-07-15,227,330-->
 - activity 2: workview sharing, activity 3: worldview sharing
@@ -201,8 +201,8 @@ The content is in teaching order.
 - activity 1: attention exercise ::@:: Learn to pay attention. Maybe try not looking at your phone. Go out and observe other things. Record your observations. <!--SR:!2024-12-14,27,397!2024-12-14,27,397-->
   - activity 1: attention exercise / debrief ::@:: Pay attention to paying attention. It is important to develop __attention of attention__: to know if your attention has wandered away. __Awareness of awareness__ is also important: an overarching awareness. <!--SR:!2024-12-13,26,397!2024-12-13,26,397-->
 - paying attention
-  - pay attention / types ::@:: __Noticing__ is paying attention at the current moment. __Reflecting__ is paying attention in retrospect. It may be _unfiltered_ (open) or _filtered_ (by attribute, value, etc.). <!--SR:!2024-12-07,21,377!2024-12-14,27,397-->
-- activity 2: gratefulness exercise ::@:: Spend 5 minutes to write down things that you are grateful for. The thing does not need to be big: it can be small things. <!--SR:!2024-12-06,20,377!2024-12-13,26,397-->
+  - pay attention / types ::@:: __Noticing__ is paying attention at the current moment. __Reflecting__ is paying attention in retrospect. It may be _unfiltered_ (open) or _filtered_ (by attribute, value, etc.). <!--SR:!2025-03-23,106,397!2024-12-14,27,397-->
+- activity 2: gratefulness exercise ::@:: Spend 5 minutes to write down things that you are grateful for. The thing does not need to be big: it can be small things. <!--SR:!2025-03-22,105,397!2024-12-13,26,397-->
   - activity 2: gratefulness exercise / debrief ::@:: You may find it surprisingly comfortable. You may see things that you have remembered in a different way. <p> "Participants who kept a gratitude journal weekly for 10 weeks or daily for two weeks experienced more gratitude, positive moods, optimism about the future, and better sleep." — Emmons, R. A., & McCullough, M. E. (2003). Counting blessings versus burdens: an experimental investigation of gratitude and subjective well-being in daily life. _Journal of personality and social psychology_, _84_(2), 377. <!--SR:!2024-12-13,26,397!2024-12-14,27,397-->
 - odyssey ::@:: Ideate own life's possibilities. This is using _reframing_. <!--SR:!2024-12-14,27,397!2024-12-13,26,397-->
   - odyssey / dysfunctional belief ::@:: "Life can be engineered – optimized or maxed-out." <br/> "Be the best version of you!" <p> In a way, they could be dysfunctional... <!--SR:!2024-12-14,27,397!2024-12-13,26,397-->

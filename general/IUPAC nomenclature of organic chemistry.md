@@ -387,7 +387,7 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - prefix: {@{([prefix for type count](#prefix%20for%20type%20count))yl-, alkyl-}@}
 > - suffix: {@{-ane}@}
 > - infix: {@{(none), (locant)}@}
-> - cyclic prefix: {@{cyclo-}@} <!--SR:!2029-12-16,2077,388!2028-05-28,1511,368!2024-12-06,523,348!2027-10-17,1405,368!2028-05-09,1497,368!2026-09-16,1012,348!2029-11-21,2057,388-->
+> - cyclic prefix: {@{cyclo-}@} <!--SR:!2029-12-16,2077,388!2028-05-28,1511,368!2031-10-14,2502,368!2027-10-17,1405,368!2028-05-09,1497,368!2026-09-16,1012,348!2029-11-21,2057,388-->
 
 <!-- markdownlint MD028 -->
 
@@ -632,7 +632,7 @@ return (
 - carboxylic acid→::@::←carboxylic acid derivative <!--SR:!2028-08-04,1590,306!2026-10-25,1301,346-->
 - carboxylic acid derivative→::@::←nitrile <!--SR:!2024-12-29,427,210!2025-06-24,292,247-->
 - nitrile→::@::←aldehyde <!--SR:!2024-12-08,8,130!2024-12-11,80,190-->
-- aldehyde→::@::←ketone <!--SR:!2026-12-29,1065,252!2024-12-06,598,250-->
+- aldehyde→::@::←ketone <!--SR:!2026-12-29,1065,252!2025-10-08,305,230-->
 - ketone→::@::←alcohol <!--SR:!2026-06-11,743,250!2025-01-11,52,150-->
 - alcohol→::@::←hydroperoxide <!--SR:!2027-05-18,1057,226!2026-10-20,1068,272-->
 - hydroperoxide→::@::←amine <!--SR:!2025-04-21,219,224!2025-02-02,257,252-->

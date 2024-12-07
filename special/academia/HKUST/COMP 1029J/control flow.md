@@ -81,7 +81,7 @@ Note that there is subtly with the `switch` statement. First, {@{only constant v
 
 ## iteration
 
-A `for` statement consists of {@{an initial statement, a condition, a loop statement, and a statement block to execute}@}: <!--SR:!2024-12-07,219,310-->
+A `for` statement consists of {@{an initial statement, a condition, a loop statement, and a statement block to execute}@}: <!--SR:!2027-07-11,946,330-->
 
 ```Java
 for (initial_statement; condition; loop_statement)

@@ -32,7 +32,7 @@ The content is in teaching order.
   - civil engineering characteristics ::@:: Oldest engineering discipline. Takes place on all levels, from municipal to nationals in the public sector, from homeowners to international companies in the private sector. <!--SR:!2025-01-14,171,301!2025-05-20,310,380-->
   - built environment ::@:: man-made using materials and natural resources, benefiting mankind, with environment protection and prudent urban planning <!--SR:!2025-04-23,252,312!2024-12-30,218,330-->
     - built environment example ::@:: Hoover Dam, a hydroelectric and reservoir project constructed on the Colorado River from 1931 to 1936, affects Las Vegas, United States significantly to the present. <!--SR:!2024-12-30,162,297!2025-03-15,237,345-->
-- civil engineering importance ::@:: improving living environments, productivity, and working efficiency <!--SR:!2025-12-11,429,340!2024-12-06,179,352-->
+- civil engineering importance ::@:: improving living environments, productivity, and working efficiency <!--SR:!2025-12-11,429,340!2027-04-22,866,372-->
   - [civil engineering examples](#civil%20engineering%20examples)
   - [civil engineering slogans in Hong Kong](#civil%20engineering%20slogans%20in%20Hong%20Kong)
 - civil engineering challenges
@@ -100,7 +100,7 @@ The content is in teaching order.
   - [civil engineer prospect examples](#civil%20engineer%20prospect%20examples)
   - civil engineer organization examples ::@:: contractors or construction companies, engineering consulting firms, government (working as civil servants) <!--SR:!2025-03-25,247,285!2025-03-18,266,330-->
     - civil government departments in [Hong Kong](../../../../general/Hong%20Kong.md) ::@:: Architectural Services Department (ArchSD), Buildings Department (BD), Housing Department (HD) <!--SR:!2025-10-27,397,332!2026-01-22,518,395-->
-      - Architectural Services Department (ArchSD) ::@:: governmental structures, markets, playgrounds, public schools <!--SR:!2026-10-22,714,357!2024-12-06,196,330-->
+      - Architectural Services Department (ArchSD) ::@:: governmental structures, markets, playgrounds, public schools <!--SR:!2026-10-22,714,357!2026-09-16,648,330-->
       - Buildings Department (BD) ::@:: illegal structures, private buildings <!--SR:!2025-09-23,388,295!2025-07-11,349,374-->
       - Housing Department (HD) ::@:: home ownership scheme, public housing <!--SR:!2026-07-04,612,310!2025-02-17,221,354-->
 
@@ -540,7 +540,7 @@ wood
 
 - _(begin)_→::@::←brick <!--SR:!2025-03-11,233,357!2026-12-30,786,332-->
 - brick→::@::←concrete <!--SR:!2025-03-03,185,305!2026-02-28,548,397-->
-- concrete→::@::←new synthetic materials <!--SR:!2025-11-26,382,301!2024-12-07,161,341-->
+- concrete→::@::←new synthetic materials <!--SR:!2025-11-26,382,301!2026-06-11,551,341-->
 - new synthetic materials→::@::←steel <!--SR:!2026-04-19,515,332!2025-09-08,375,340-->
 - steel→::@::←stone <!--SR:!2025-04-04,202,320!2026-12-18,745,360-->
 - stone→::@::←wood <!--SR:!2025-04-11,240,321!2025-09-06,361,332-->
@@ -775,7 +775,7 @@ levee
 <!--pytextgen generate section="234f"--><!-- The following content is generated at 2024-05-01T19:22:35.207913+08:00. Any edits will be overridden! -->
 
 - _(begin)_→::@::←canal <!--SR:!2025-09-06,359,340!2025-06-19,333,367-->
-- canal→::@::←channel <!--SR:!2027-03-28,851,377!2024-12-06,168,352-->
+- canal→::@::←channel <!--SR:!2027-03-28,851,377!2027-02-26,811,372-->
 - channel→::@::←dam <!--SR:!2025-12-15,420,327!2025-02-10,240,290-->
 - dam→::@::←levee <!--SR:!2024-12-18,169,340!2026-02-22,475,332-->
 - levee→::@::←_(end)_ <!--SR:!2025-11-22,467,395!2025-03-11,136,238-->
@@ -1151,7 +1151,7 @@ and the Structural Engineering Institute (SEI).
 - with investigators coming from the American Concrete Institute (ACI),→::@::←the American Society of Civil Engineers (ASCE), <!--SR:!2026-05-02,523,334!2025-05-18,269,310-->
 - the American Society of Civil Engineers (ASCE),→::@::←the Geode Institute (GI), <!--SR:!2025-02-04,190,290!2026-06-04,602,357-->
 - the Geode Institute (GI),→::@::←and the Structural Engineering Institute (SEI). <!--SR:!2025-10-29,426,357!2024-12-11,201,330-->
-- and the Structural Engineering Institute (SEI).→::@::←_(end)_ <!--SR:!2025-05-08,326,350!2024-12-06,196,330-->
+- and the Structural Engineering Institute (SEI).→::@::←_(end)_ <!--SR:!2025-05-08,326,350!2027-05-17,891,350-->
 
 <!--/pytextgen-->
 
@@ -1229,7 +1229,7 @@ water treatment
 - _(begin)_→::@::←groundwater quality control <!--SR:!2025-11-29,417,340!2027-04-06,857,377-->
 - groundwater quality control→::@::←wastewater recycling <!--SR:!2025-08-01,248,275!2024-12-26,92,260-->
 - wastewater recycling→::@::←wastewater treatment <!--SR:!2025-12-22,414,315!2025-01-16,186,317-->
-- wastewater treatment→::@::←water quality monitoring <!--SR:!2024-12-21,142,280!2024-12-07,157,315-->
+- wastewater treatment→::@::←water quality monitoring <!--SR:!2024-12-21,142,280!2026-04-16,495,315-->
 - water quality monitoring→::@::←water treatment <!--SR:!2026-09-09,666,344!2025-10-19,390,334-->
 - water treatment→::@::←_(end)_ <!--SR:!2025-03-13,240,354!2024-12-09,141,266-->
 

@@ -104,7 +104,7 @@ Let {@{$a, b \in \mathbb N$ and $b \ne 0$. Prove that $a \cdot b \ge a$}@}. <!--
 
 - strategy ::@:: Prove by induction. Use the definition of $\ge$. <!--SR:!2025-05-07,181,320!2024-12-14,73,320-->
 
-1. base case ::@:: Without loss of generality, fix $a \in \mathbb N$. When $b = 1$. then $$a \cdot b = a \cdot 1 = a \cdot S(0) = a + a \cdot 0 = a + 0 = a$$. Thus the theorem is proved when $b = 1$. <!--SR:!2025-02-11,112,300!2024-12-07,68,320-->
+1. base case ::@:: Without loss of generality, fix $a \in \mathbb N$. When $b = 1$. then $$a \cdot b = a \cdot 1 = a \cdot S(0) = a + a \cdot 0 = a + 0 = a$$. Thus the theorem is proved when $b = 1$. <!--SR:!2025-02-11,112,300!2025-10-09,306,340-->
 2. induction ::@:: Assume $a \cdot b \ge a$ for some $b \in \mathbb N_{\ne 0}$. Consider $S(b)$: $$\begin{aligned} a \cdot S(b) & = a + a \cdot b \\ & \ge a \cdot b && \text{definition of }\ge \\ & \ge a && \text{transitivity of }\ge \end{aligned}$$. Thus if the theorem is true for $b$, then it is also true for $S(b)$. By induction, the theorem is true for all $b \in \mathbb N_{\ne 0}$. <!--SR:!2024-12-12,71,320!2024-12-15,74,320-->
 
 ## pigeonhole principle: distance and equilateral triangle
@@ -120,6 +120,6 @@ We have {@{an equilateral triangle of side length 2. Amir chooses five points in
 
 Prove that {@{there are 3 students in COMP 2711H whose birthday is on the same day of the month}@}. We currently have 64 students. <!--SR:!2024-12-08,69,320-->
 
-- strategy ::@:: A trivial application of the pigeonhole principle. Of course, if Amir wants you to prove the slightly more generalized pigeonhole principle, use induction, which will not be shown here. <!--SR:!2025-07-08,215,320!2024-12-06,67,320-->
+- strategy ::@:: A trivial application of the pigeonhole principle. Of course, if Amir wants you to prove the slightly more generalized pigeonhole principle, use induction, which will not be shown here. <!--SR:!2025-07-08,215,320!2025-10-03,300,340-->
 
 1. solution ::@:: There are at most 31 days in a month. By the pigeonhole principle, there is at least a day with $\lceil 64 / 31 \rceil = 3$ students whose birthdays are on that day (ignoring the month).  (If Amir wants you to prove the slightly more generalized pigeonhole principle, use induction, which will not be shown here.) <!--SR:!2025-03-28,147,300!2025-04-07,159,320-->

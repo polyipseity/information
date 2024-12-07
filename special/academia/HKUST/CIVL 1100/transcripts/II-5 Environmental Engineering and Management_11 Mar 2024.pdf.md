@@ -442,7 +442,7 @@ Relationship between PPM and mg/L
 
 Concentration Units for Gases
 
-- concentration units for gases ::@:: mass of substance per unit volume of mixture, volume of substance per unit volume of mixture <!--SR:!2024-12-07,132,290!2025-03-07,203,310-->
+- concentration units for gases ::@:: mass of substance per unit volume of mixture, volume of substance per unit volume of mixture <!--SR:!2025-12-25,383,290!2025-03-07,203,310-->
   - volume of substance per unit volume of mixture for gases ::@:: ppm by volume (ppm<sub>v</sub>) <!--SR:!2025-04-27,258,330!2024-12-24,147,290-->
   - mass of substance per unit volume of mixture for gases ::@:: µg/m<sup>3</sup>, mg/m<sup>3</sup> <!--SR:!2025-02-17,193,310!2025-03-06,221,330-->
 

@@ -47,7 +47,7 @@ tags:
 > 2. ethical behavior
 > 3. both of them are
 >
-> - solution: {@{3}@} <!--SR:!2024-12-07,60,310-->
+> - solution: {@{3}@} <!--SR:!2025-08-26,262,330-->
 
 <!-- markdownlint MD028 -->
 

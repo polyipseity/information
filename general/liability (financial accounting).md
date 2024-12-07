@@ -32,7 +32,7 @@ Probably the most accepted accounting definition of liability is {@{the one used
 >
 > — F.49(b) <!--SR:!2025-05-13,174,310-->
 
-Regulations as to the recognition of liabilities are {@{different all over the world, but are roughly similar to those of the IASB}@}. <!--SR:!2024-12-06,59,310-->
+Regulations as to the recognition of liabilities are {@{different all over the world, but are roughly similar to those of the IASB}@}. <!--SR:!2025-06-08,183,310-->
 
 Examples of types of liabilities include: {@{money owing on a loan, money owing on a mortgage, or an [IOU](IOU.md)}@}. <!--SR:!2025-05-26,183,310-->
 
@@ -43,7 +43,7 @@ __Liabilities__ are {@{debts and obligations of the business they represent as _
 Liabilities are reported on a [balance sheet](balance%20sheet.md) and are {@{usually divided into two categories: [current liabilities](current%20liability.md) and [long-term liabilities](long-term%20liabilities.md)}@}. <!--SR:!2024-12-16,67,310-->
 
 - [current liabilities](current%20liability.md) ::@:: These liabilities are reasonably expected to be liquidated within a financial period (usually a year). They usually include payables such as [wages](wage.md), [accounts](account%20(bookkeeping).md), [taxes](tax.md), and [accounts payable](accounts%20payable.md), unearned revenue when [adjusting entries](adjusting%20entries.md), portions of long-term bonds to be paid this year, and short-term obligations (_e.g._ from purchase of equipment). Current liabilities are obligations whose liquidation is reasonably expected to require the use of current assets, the creation of other current liabilities, or the provision of services within the next year or operating cycle, whichever is longer. <!--SR:!2024-12-15,57,250!2024-12-28,69,270-->
-- [long-term liabilities](long-term%20liabilities.md) ::@:: These liabilities are reasonably expected _not_ to be liquidated within a financial period (usually a year). They usually include issued long-term [bonds](bond%20(finance).md), notes payable, long-term [leases](lease.md), [pension](pension.md) obligations, and long-term product [warranties](warranty.md). <!--SR:!2024-12-06,59,310!2025-06-20,202,310-->
+- [long-term liabilities](long-term%20liabilities.md) ::@:: These liabilities are reasonably expected _not_ to be liquidated within a financial period (usually a year). They usually include issued long-term [bonds](bond%20(finance).md), notes payable, long-term [leases](lease.md), [pension](pension.md) obligations, and long-term product [warranties](warranty.md). <!--SR:!2025-06-12,187,310!2025-06-20,202,310-->
 
 {@{Liabilities of uncertain value or timing}@} are called {@{provisions ([contingent liabilities](contingent%20liability.md))}@}. <!--SR:!2024-12-21,72,310!2024-12-13,64,310-->
 
