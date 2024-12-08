@@ -635,7 +635,7 @@ water
 <!--pytextgen generate section="736f"--><!-- The following content is generated at 2024-02-16T21:59:47.573916+08:00. Any edits will be overridden! -->
 
 - _(begin)_→::@::←air <!--SR:!2025-01-07,182,341!2025-12-28,486,401-->
-- air→::@::←environmental impact assessment (EIA) <!--SR:!2024-12-08,168,318!2025-09-08,364,338-->
+- air→::@::←environmental impact assessment (EIA) <!--SR:!2026-05-27,535,318!2025-09-08,364,338-->
 - environmental impact assessment (EIA)→::@::←noise <!--SR:!2025-08-23,349,327!2026-01-08,497,400-->
 - noise→::@::←waste <!--SR:!2026-02-04,446,360!2024-12-23,190,355-->
 - waste→::@::←water <!--SR:!2025-01-20,202,357!2025-03-30,251,360-->
@@ -1144,7 +1144,7 @@ and the Structural Engineering Institute (SEI).
 
 - _(begin)_→::@::←On 24 June 2021, a 12-story beachfront condominium, Champlain Towers South, in Miami suburb, Florida, United States partially collapsed, killing 98 people. <!--SR:!2025-07-11,303,320!2025-06-05,349,350-->
 - On 24 June 2021, a 12-story beachfront condominium, Champlain Towers South, in Miami suburb, Florida, United States partially collapsed, killing 98 people.→::@::←Main culprit is degradation of reinforced concrete structural support in ground-level parking garage, due to water penetration and corrosion of the reinforcing steel. <!--SR:!2025-04-16,247,315!2025-04-10,241,315-->
-- Main culprit is degradation of reinforced concrete structural support in ground-level parking garage, due to water penetration and corrosion of the reinforcing steel.→::@::←Other possible factors include corruption, insufficient reinforcing steel, and land subsidence. <!--SR:!2024-12-08,194,290!2025-08-02,322,317-->
+- Main culprit is degradation of reinforced concrete structural support in ground-level parking garage, due to water penetration and corrosion of the reinforcing steel.→::@::←Other possible factors include corruption, insufficient reinforcing steel, and land subsidence. <!--SR:!2026-06-25,564,290!2025-08-02,322,317-->
 - Other possible factors include corruption, insufficient reinforcing steel, and land subsidence.→::@::←The problems had been reported in 2018 and a US$15M program of remedial work has been approved, though no main structural work has taken place. <!--SR:!2025-11-27,384,294!2025-05-18,271,316-->
 - The problems had been reported in 2018 and a US$15M program of remedial work has been approved, though no main structural work has taken place.→::@::←On 25 August 2021, the National Institute of Standards and Technology (NIST) has been tasked with investigation, <!--SR:!2026-03-31,504,337!2025-11-17,413,335-->
 - On 25 August 2021, the National Institute of Standards and Technology (NIST) has been tasked with investigation,→::@::←with investigators coming from the American Concrete Institute (ACI), <!--SR:!2026-02-25,487,327!2025-06-05,278,307-->

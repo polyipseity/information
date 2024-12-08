@@ -98,7 +98,7 @@ There are four regimes depending on the value of the damping ratio $\zeta$:
 > - where
 >   - [spring](spring%20(device).md) properties: {@{$k$ is the [spring constant](Hooke's%20law.md), $m$ is the [mass](mass.md), and $c$ is the vicious damping coefficient}@}
 >   - derived properties: {@{$\omega_n = \sqrt{\frac{k}m}$ is the natural (undamped) [angular frequency](angular%20frequency.md), $\zeta = \frac{c}{2\sqrt{km} }$ is the damping ratio, $\omega = \omega_n\sqrt{1 - \zeta^2}$ is the [angular frequency](angular%20frequency.md), and $\lambda = \omega_n \zeta$ is the decay rate}@}
->   - initial properties: {@{$A$ is the initial [amplitude](amplitude.md) and $\varphi = \operatorname{atan2}\left(-\frac{v_0+\lambda A}\omega, A\right) \approx \operatorname{atan2}\left(-\frac{v_0}\omega, A\right)$ is the initial phase}@} <!--SR:!2025-06-01,350,290!2026-04-03,634,330!2026-06-16,573,270!2025-01-04,257,290!2024-12-29,237,270!2024-12-08,80,203-->
+>   - initial properties: {@{$A$ is the initial [amplitude](amplitude.md) and $\varphi = \operatorname{atan2}\left(-\frac{v_0+\lambda A}\omega, A\right) \approx \operatorname{atan2}\left(-\frac{v_0}\omega, A\right)$ is the initial phase}@} <!--SR:!2025-06-01,350,290!2026-04-03,634,330!2026-06-16,573,270!2025-01-04,257,290!2024-12-29,237,270!2025-01-19,42,183-->
 
 <!-- markdownlint MD028 -->
 
@@ -124,7 +124,7 @@ There are four regimes depending on the value of the damping ratio $\zeta$:
 > - where
 >   - [spring](spring%20(device).md) properties: {@{$k$ is the [spring constant](Hooke's%20law.md), $m$ is the [mass](mass.md), and $c$ is the vicious damping coefficient}@}
 >   - derived properties: {@{$\omega_n = \sqrt{\frac{k}m}$ is the natural (undamped) [angular frequency](angular%20frequency.md), $\zeta = \frac{c}{2\sqrt{km} }$ is the damping ratio, $\omega = \omega_n\sqrt{\zeta^2 - 1}$ is the [angular frequency](angular%20frequency.md), and $\lambda = \omega_n \zeta$ is the decay rate}@}
->   - initial properties: {@{$c_+ = \frac{\omega + \lambda}{2 \omega} x_0 + \frac1{2 \omega} v_0, c_- = \frac{\omega - \lambda}{2 \omega} x_0 - \frac1{2 \omega} v_0$ from the initial [displacement](displacement%20(geometry).md) $x_0$ and the initial [velocity](velocity.md) $v_0$; the $c_-$ term is negligible for large [time](time.md) $t$}@} <!--SR:!2026-02-10,545,310!2024-12-08,237,290!2026-02-21,499,270!2025-09-20,445,310!2025-09-29,364,230!2025-05-07,157,183-->
+>   - initial properties: {@{$c_+ = \frac{\omega + \lambda}{2 \omega} x_0 + \frac1{2 \omega} v_0, c_- = \frac{\omega - \lambda}{2 \omega} x_0 - \frac1{2 \omega} v_0$ from the initial [displacement](displacement%20(geometry).md) $x_0$ and the initial [velocity](velocity.md) $v_0$; the $c_-$ term is negligible for large [time](time.md) $t$}@} <!--SR:!2026-02-10,545,310!2027-07-20,954,310!2026-02-21,499,270!2025-09-20,445,310!2025-09-29,364,230!2025-05-07,157,183-->
 
 Additionally, for negative damping ratios:
 

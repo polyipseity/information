@@ -281,7 +281,7 @@ return _chain.from_iterable(await _gather(
 
 <!--/pytextgen-->
 
-Do not mix up the equal to operator `==` and {@{the assignment operator `=`}@}. <!--SR:!2024-12-08,237,330-->
+Do not mix up the equal to operator `==` and {@{the assignment operator `=`}@}. <!--SR:!2027-11-19,1076,350-->
 
 Also, one cannot chain {@{comparison operators, like `2 <= aNumber <= 5`. [logic operators](#logic%20operators) are needed instead, like `2 <= aNumber && aNumber <= 5`}@}. <!--SR:!2027-01-21,816,330-->
 

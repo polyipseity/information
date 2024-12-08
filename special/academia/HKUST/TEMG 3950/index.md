@@ -29,7 +29,7 @@ The content is in teaching order.
 - [information § product innovation elements](information.md#production%20innovation%20elements)
 - [product innovation § classification of innovation](../../../../general/product%20innovation.md#classification%20of%20innovation)
 - investor goals ::@:: Investors want to make money in the shortest amount of time. Maybe with the exception of biotechnology investors, considering it requires a long time to see returns. <!--SR:!2025-03-07,201,270!2025-01-28,198,310-->
-- good business opportunities ::@:: meet a need (most important), sufficient resources, right location, right price, right time <!--SR:!2024-12-08,126,230!2025-03-05,243,330-->
+- good business opportunities ::@:: meet a need (most important), sufficient resources, right location, right price, right time <!--SR:!2026-01-22,410,250!2025-03-05,243,330-->
 - [buyer utility map](../../../buyer%20utility%20map.md)
 - [_Blue Ocean Strategy_ § concept](../../../../general/Blue%20Ocean%20Strategy.md#concept)
   - blue ocean strategy example ::@:: [inventing the air fryer from observing French fries](../../../examples/inventing%20the%20air%20fryer%20from%20observing%20French%20fries.md) <!--SR:!2025-08-13,324,290!2025-01-05,182,310-->

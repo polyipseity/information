@@ -63,7 +63,7 @@ See [Burj Khalifa](../../../../general/Burj%20Khalifa.md).
 See [CCTV Headquarters](../../../../general/CCTV%20Headquarters.md).
 
 - description ::@:: skyscraper in the central business district of Beijing, China <!--SR:!2026-02-12,475,332!2025-08-30,398,387-->
-- height ::@:: roof: 234 m <!--SR:!2024-12-08,108,240!2026-03-08,556,397-->
+- height ::@:: roof: 234 m <!--SR:!2025-08-30,265,240!2026-03-08,556,397-->
 - image ::@:: ![CCTV Headquarters image](../../../../archives/Wikimedia%20Commons/China%20Central%20Television%20HQ,%20from%20China%20World%20Trade%20Centre%20(Cropped).jpg) <!--SR:!2025-03-20,235,360!2026-01-09,498,400-->
 - shape ::@:: big pants <!--SR:!2025-11-28,469,385!2025-12-25,483,400-->
 
@@ -245,14 +245,14 @@ See [Delta Works](../../../../general/Delat%20Works.md) and [Zuiderzee Works](..
 
 See [Panama Canal](../../../../general/Panama%20Canal.md).
 
-- image ::@:: ![Panama Canal image](../../../../archives/Wikimedia%20Commons/Panama%20canal%20panoramic%20view%20from%20the%20top%20of%20Ancon%20hill.jpg) <!--SR:!2025-09-02,349,376!2024-12-08,165,396-->
+- image ::@:: ![Panama Canal image](../../../../archives/Wikimedia%20Commons/Panama%20canal%20panoramic%20view%20from%20the%20top%20of%20Ancon%20hill.jpg) <!--SR:!2025-09-02,349,376!2027-05-19,892,416-->
 
 ## Parthenon
 
 See [Parthenon](../../../../general/Parthenon.md).
 
 - construction period ::@:: 447 BC to 438 BC, 9 years <!--SR:!2025-01-18,77,196!2026-08-22,629,396-->
-- dedication ::@:: Greek goddess Athena <!--SR:!2024-12-08,166,396!2026-12-11,763,416-->
+- dedication ::@:: Greek goddess Athena <!--SR:!2027-05-25,898,416!2026-12-11,763,416-->
 - description ::@:: temple on the Athenian Acropolis, Greece, dedicated to the Greek goddess Athena <!--SR:!2026-03-19,483,356!2026-11-27,751,416-->
 - geographic location ::@:: Athenian Acropolis, Greece <!--SR:!2026-10-09,678,376!2026-08-20,672,416-->
 - importance ::@:: most important surviving building of classical Greece <!--SR:!2025-12-29,437,376!2026-10-16,722,416-->

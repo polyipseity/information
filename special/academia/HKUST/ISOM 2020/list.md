@@ -39,7 +39,7 @@ If {@{the index (but not slicing) is out of range (regardless if it is positive 
 
 ## manipulation
 
-You can {@{use the [indexing](#indexing) notation to replace the _n_-th item of a list}@}. <!--SR:!2024-12-08,68,314-->
+You can {@{use the [indexing](#indexing) notation to replace the _n_-th item of a list}@}. <!--SR:!2025-10-06,302,334-->
 
 To {@{add a new item (not replace existing items) to the back of a list}@}, use {@{`list.append(value)`}@}. Its return value is {@{nothing (`None`)}@}. <!--SR:!2025-02-13,113,294!2025-08-31,273,334!2025-01-26,99,294-->
 

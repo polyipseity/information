@@ -32,7 +32,7 @@ Direct competitors are not {@{necessarily more important than indirect or potent
 >
 > If I were [Starbucks](Starbucks.md), a [coffee shop](coffeehouse.md) company, then...
 >
-> - an direct competitor of Starbucks ::@:: [Dunkin' Donuts](Dunkin'%20Donuts.md): serves mainly coffee to satisfy beverage need <!--SR:!2024-12-08,158,321!2025-05-29,294,341-->
+> - an direct competitor of Starbucks ::@:: [Dunkin' Donuts](Dunkin'%20Donuts.md): serves mainly coffee to satisfy beverage need <!--SR:!2026-11-08,700,341!2025-05-29,294,341-->
 > - an indirect competitor of Starbucks ::@:: [bars](bar%20(establishment).md): does not serve coffee but [alcoholic beverages](alcoholic%20beverage.md) to satisfy beverage need <!--SR:!2025-02-04,176,281!2025-07-11,327,341-->
 > - a potential competitor of Starbucks ::@:: [McDonald's](McDonald's.md): serves mainly coffee but usually as part of a meal to satisfy food need <!--SR:!2025-04-06,233,321!2025-08-07,349,341-->
 > - a non-competitor of Starbucks ::@:: [Walmart](Walmart.md): does not serve coffee and does not satisfy beverage need <!--SR:!2025-07-06,323,341!2025-05-14,282,341-->
@@ -184,7 +184,7 @@ It is very important to {@{add our own products to the visualization and make it
 
 If we are comparing two features only, we can {@{use a _xy_-grid and plot our and competitors' products}@}. If there are more features, {@{we can use a table, with the row headers being the features and the column headers being the products}@}. {@{A mix of both}@} is possible. <!--SR:!2025-06-01,293,341!2025-03-26,242,334!2026-09-16,659,330-->
 
-When listing the features, {@{use numbers}@} if possible. Do not be {@{vague}@}. Highlight {@{important features, such as the best product for each feature}@}. <!--SR:!2025-02-24,212,321!2025-05-09,278,341!2024-12-08,157,301-->
+When listing the features, {@{use numbers}@} if possible. Do not be {@{vague}@}. Highlight {@{important features, such as the best product for each feature}@}. <!--SR:!2025-02-24,212,321!2025-05-09,278,341!2026-09-24,655,321-->
 
 ## references
 

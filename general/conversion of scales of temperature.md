@@ -83,7 +83,7 @@ return await conversion_table(
 
 <!--pytextgen generate section="76bc"--><!-- The following content is generated at 2024-03-07T00:30:25.322423+08:00. Any edits will be overridden! -->
 
-- from [Celsius](Celsius.md): x °C ≘ (x + 273.15) K, to [Celsius](Celsius.md): x K ≘ (x − 273.15) °C:@:[Kelvin](Kelvin.md) <!--SR:!2024-12-08,273,330-->
+- from [Celsius](Celsius.md): x °C ≘ (x + 273.15) K, to [Celsius](Celsius.md): x K ≘ (x − 273.15) °C:@:[Kelvin](Kelvin.md) <!--SR:!2028-05-08,1247,350-->
 - from [Celsius](Celsius.md): x °C ≘ (x × 9/5 + 32) °F, to [Celsius](Celsius.md): x °F ≘ (x − 32) × 5/9 °C:@:[Fahrenheit](Fahrenheit.md) <!--SR:!2027-07-22,1017,350-->
 - from [Celsius](Celsius.md): x °C ≘ (x + 273.15) × 9/5 °R, to [Celsius](Celsius.md): x °R ≘ (x − 491.67) × 5/9 °C:@:[Rankine](Rankine%20scale.md) <!--SR:!2027-04-22,876,330-->
 

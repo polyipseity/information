@@ -84,7 +84,7 @@ return await memorize_map(
 - [calcium](calcium.md):@:brick red, light green (through [cobalt blue glass](cobalt%20glass.md)) <!--SR:!2025-02-05,92,150-->
 - [copper](copper.md)(I):@:blue-green <!--SR:!2024-12-25,22,130-->
 - [copper](copper.md)(II):@:green (non-halide), blue-green (halide) <!--SR:!2024-12-17,161,190-->
-- [iron](iron.md)(II):@:blue (very hot), gold, green to orange-brown, sparks <!--SR:!2024-12-08,61,150-->
+- [iron](iron.md)(II):@:blue (very hot), gold, green to orange-brown, sparks <!--SR:!2025-01-07,30,130-->
 - [iron](iron.md)(III):@:orange-brown <!--SR:!2025-03-23,121,170-->
 - [magnesium](magnesium.md):@:intense white <!--SR:!2025-07-01,235,250-->
 - [potassium](potassium.md):@:lilac, invisible (through [cobalt blue glass](cobalt%20glass.md)) <!--SR:!2025-06-16,282,190-->
@@ -104,7 +104,7 @@ return await memorize_map(
 - green to orange-brown:@:[iron](iron.md)(II) <!--SR:!2025-04-21,526,310-->
 - sparks:@:[iron](iron.md)(II) <!--SR:!2027-10-21,1124,290-->
 - orange-brown:@:[iron](iron.md)(III) <!--SR:!2027-09-27,1084,290-->
-- intense white:@:[magnesium](magnesium.md) <!--SR:!2024-12-08,362,250-->
+- intense white:@:[magnesium](magnesium.md) <!--SR:!2027-06-01,905,250-->
 - lilac:@:[potassium](potassium.md) <!--SR:!2025-04-16,539,310-->
 - invisible (through [cobalt blue glass](cobalt%20glass.md)):@:[potassium](potassium.md), [sodium](sodium.md) <!--SR:!2025-03-30,432,250-->
 - intense yellow:@:[sodium](sodium.md) <!--SR:!2025-02-10,451,290-->

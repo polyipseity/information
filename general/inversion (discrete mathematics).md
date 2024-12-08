@@ -28,7 +28,7 @@ Let {@{$\pi$ be a [permutation](permutation.md)}@}. There is {@{an __inversion__
 
 Inversions are usually defined for {@{permutations, but may also be defined for sequences}@}: Let {@{$S$ be a [sequence](sequence.md) \(or [multiset](multiset.md) permutation<sup>[\[7\]](#^ref-7)</sup>\)}@}. If {@{$i<j$ and $S(i)>S(j)$}@}, {@{either the pair of places $(i,j)$<sup>[\[7\]](#^ref-7)</sup><sup>[\[8\]](#^ref-8)</sup> or the pair of elements ${\bigl (}S(i),S(j){\bigr )}$}@}<sup>[\[9\]](#^ref-9)</sup> is {@{called an inversion of $S$}@}. <!--SR:!2024-12-14,15,292!2024-12-14,15,292!2024-12-15,16,292!2024-12-14,15,292!2024-12-14,15,292-->
 
-For sequences, {@{inversions according to the element-based definition are not unique}@}, because {@{different pairs of places may have the same pair of values}@}. <!--SR:!2024-12-08,10,272!2024-12-15,16,292-->
+For sequences, {@{inversions according to the element-based definition are not unique}@}, because {@{different pairs of places may have the same pair of values}@}. <!--SR:!2025-01-16,39,292!2024-12-15,16,292-->
 
 ### inversion number
 
@@ -75,7 +75,7 @@ __Right inversion count $r$, often called _[Lehmer code](lehmer%20code.md)_:__ :
 
 {@{The following sortable table}@} shows {@{the 24 permutations of four elements \(in the $\pi$ column\)}@} with {@{their place-based inversion sets \(in the p-b column\), inversion related vectors \(in the $v$, $l$, and $r$ columns\), and inversion numbers \(in the \# column\)}@}. \({@{The columns with smaller print and no heading}@} are {@{reflections of the columns next to them}@}, and can be used to {@{sort them in [colexicographic order](lexicographic%20order.md#colexicographic%20order)}@}.\) <!--SR:!2024-12-14,15,292!2024-12-14,15,292!2024-12-14,15,292!2024-12-14,15,292!2024-12-14,15,292!2024-12-09,11,272-->
 
-It can be seen that {@{$v$ and $l$ always have the same digits}@}, and that {@{$l$ and $r$ are both related to the place-based inversion set}@}. {@{The nontrivial elements of $l$}@} are {@{the sums of the descending diagonals of the shown triangle}@}, and {@{those of $r$}@} are {@{the sums of the ascending diagonals}@}. \({@{Pairs in descending diagonals}@} have {@{the right components 2, 3, 4 in common}@}, while {@{pairs in ascending diagonals}@} have {@{the left components 1, 2, 3 in common}@}.\) <!--SR:!2024-12-14,15,292!2024-12-15,16,292!2024-12-14,15,292!2024-12-14,15,292!2024-12-14,15,292!2024-12-14,15,292!2024-12-14,15,292!2024-12-08,10,272!2024-12-10,12,272!2024-12-15,16,292-->
+It can be seen that {@{$v$ and $l$ always have the same digits}@}, and that {@{$l$ and $r$ are both related to the place-based inversion set}@}. {@{The nontrivial elements of $l$}@} are {@{the sums of the descending diagonals of the shown triangle}@}, and {@{those of $r$}@} are {@{the sums of the ascending diagonals}@}. \({@{Pairs in descending diagonals}@} have {@{the right components 2, 3, 4 in common}@}, while {@{pairs in ascending diagonals}@} have {@{the left components 1, 2, 3 in common}@}.\) <!--SR:!2024-12-14,15,292!2024-12-15,16,292!2024-12-14,15,292!2024-12-14,15,292!2024-12-14,15,292!2024-12-14,15,292!2024-12-14,15,292!2025-01-16,39,292!2024-12-10,12,272!2024-12-15,16,292-->
 
 {@{The default order of the table}@} is {@{reverse colex order by $\pi$, which is the same as colex order by $l$}@}. {@{Lex order by $\pi$ is the same as lex order by $r$}@}. <!--SR:!2024-12-15,16,292!2024-12-27,20,252!2024-12-15,16,292-->
 

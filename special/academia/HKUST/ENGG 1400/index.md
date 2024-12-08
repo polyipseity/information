@@ -54,7 +54,7 @@ The content is in teaching order.
 - activity 1: art to building community
   - art to building community / debrief ::@:: Our story makes us unique. Approach situations with a "yes and"! <!--SR:!2025-08-06,246,330!2025-07-15,227,330-->
 - activity 2: workview sharing, activity 3: worldview sharing
-  - workview & worldview sharing / debrief ::@:: How is what you are currently doing coherent with your workview and worldview? <!--SR:!2024-12-25,69,310!2024-12-08,59,310-->
+  - workview & worldview sharing / debrief ::@:: How is what you are currently doing coherent with your workview and worldview? <!--SR:!2024-12-25,69,310!2025-08-18,253,330-->
 - assignments
   - [workview](assignments/workview/submission.md)
   - [worldview & journal](assignments/worldview%20&%20journal/submission.md)

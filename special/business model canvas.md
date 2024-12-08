@@ -216,7 +216,7 @@ personal assistance
 
 <!--pytextgen generate section="ca84"--><!-- The following content is generated at 2024-03-18T19:56:56.603002+08:00. Any edits will be overridden! -->
 
-- _(begin)_→::@::←automated services <!--SR:!2025-08-04,322,294!2024-12-08,178,310-->
+- _(begin)_→::@::←automated services <!--SR:!2025-08-04,322,294!2027-01-11,764,330-->
 - automated services→::@::←co-creation <!--SR:!2025-10-24,337,254!2025-01-04,167,274-->
 - co-creation→::@::←communities <!--SR:!2025-08-21,303,254!2026-04-09,539,314-->
 - communities→::@::←dedicated personal assistance <!--SR:!2025-03-26,226,277!2025-06-04,268,274-->

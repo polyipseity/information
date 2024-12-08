@@ -410,7 +410,7 @@ The content is in teaching order.
 - [HITS algorithm](../../../../general/HITS%20algorithm.md)
   - [§ steps](../../../../general/HITS%20algorithm.md#steps)
     - HITS algorithm variant ::@:: It does not matter because we only use the recursive expressions to calculate the new authority and hub values. <!--SR:!2025-11-07,386,377!2026-02-23,494,397-->
-    - HITS algorithm termination ::@:: Terminate the HITS algorithm when after rounding the values to a certain number of digits, the values have not changed. <!--SR:!2025-12-14,416,388!2024-12-08,140,388-->
+    - HITS algorithm termination ::@:: Terminate the HITS algorithm when after rounding the values to a certain number of digits, the values have not changed. <!--SR:!2025-12-14,416,388!2026-12-21,743,408-->
   - [§ in detail](../../../../general/HITS%20algorithm.md#in%20detail)
   - [§ authority update rule](../../../../general/HITS%20algorithm.md#authority%20update%20rule)
   - [§ hub update rule](../../../../general/HITS%20algorithm.md#hub%20update%20rule)

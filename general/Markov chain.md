@@ -217,9 +217,9 @@ Some authors call {@{a matrix _primitive_}@} iff {@{there exists some integer $k
 There are {@{several combinatorial results about the exponent}@} when {@{there are finitely many states}@}. Let {@{$n$ be the number of states}@}, then<sup>[\[55\]](#^ref-55)</sup> <!--SR:!2024-12-11,4,270!2024-12-11,4,281!2024-12-11,4,281-->
 
 - The exponent is {@{$\leq (n-1)^{2}+1$}@}. {@{The only case where it is an equality}@} is {@{when the graph of $M$ goes like $1\to 2\to \dots \to n\to 1{\text{ and } }2$}@}.
-- If $M$ has $k\geq 1$ diagonal entries, ::@:: then its exponent is $\leq 2n-k-1$. <!--SR:!2024-12-08,1,259!2024-12-08,1,267-->
+- If $M$ has $k\geq 1$ diagonal entries, ::@:: then its exponent is $\leq 2n-k-1$. <!--SR:!2024-12-11,3,259!2024-12-11,3,267-->
 - If $\mathrm {sign} (M)$ is symmetric, ::@:: then $M^{2}$ has positive diagonal entries, which by previous proposition means its exponent is $\leq 2n-2$. <!--SR:!2024-12-10,3,279!2024-12-11,4,307-->
-- \(Dulmage-Mendelsohn theorem\) ::@:: The exponent is $\leq n+s(n-2)$ where $s$ is the [girth of the graph](girth%20(graph%20theory).md). It can be improved to $\leq (d+1)+s(d+1-2)$ (Annotation: Replace with $n$ with $d + 1$.), where $d$ is the [diameter of the graph](distance%20(graph%20theory).md).<sup>[\[56\]](#^ref-56)</sup> <!--SR:!2024-12-08,1,241!2024-12-10,3,287-->
+- \(Dulmage-Mendelsohn theorem\) ::@:: The exponent is $\leq n+s(n-2)$ where $s$ is the [girth of the graph](girth%20(graph%20theory).md). It can be improved to $\leq (d+1)+s(d+1-2)$ (Annotation: Replace with $n$ with $d + 1$.), where $d$ is the [diameter of the graph](distance%20(graph%20theory).md).<sup>[\[56\]](#^ref-56)</sup> <!--SR:!2024-12-10,2,241!2024-12-10,3,287-->
 
 ### measure-preserving dynamical system
 
@@ -302,7 +302,7 @@ Markov chains are used in {@{[lattice QCD](lattice%20QCD.md)}@} simulations.<sup
 
 > {@{$${ \text{E}+{\underset {\text{Substrate} \atop \text{binding} }{\text{S} \rightleftharpoons \text{E} } }{\overset {\text{Catalytic} \atop \text{step} }{\text{S} \rightarrow \text{E} } }+\text{P} }$$}@}
 >
-> {@{[Michaelis-Menten kinetics](Michaelis–Menten%20kinetics.md)}@}. The enzyme \(E\) {@{binds a substrate \(S\) and produces a product \(P\)}@}. Each reaction is {@{a state transition in a Markov chain}@}. <!--SR:!2024-12-08,1,267!2024-12-11,4,307!2024-12-11,4,299!2024-12-11,4,307-->
+> {@{[Michaelis-Menten kinetics](Michaelis–Menten%20kinetics.md)}@}. The enzyme \(E\) {@{binds a substrate \(S\) and produces a product \(P\)}@}. Each reaction is {@{a state transition in a Markov chain}@}. <!--SR:!2024-12-12,4,287!2024-12-11,4,307!2024-12-11,4,299!2024-12-11,4,307-->
 
 {@{A reaction network}@} is {@{a chemical system involving multiple reactions and chemical species}@}. {@{The simplest stochastic models of such networks}@} treat the system as {@{a continuous time Markov chain}@} with the state {@{being the number of molecules of each species}@} and with reactions {@{modeled as possible transitions of the chain}@}.<sup>[\[64\]](#^ref-64)</sup> {@{Markov chains and continuous-time Markov processes}@} are {@{useful in chemistry}@} when {@{physical systems closely approximate the Markov property}@}. For example, imagine {@{a large number _n_ of molecules in solution in state A}@}, each of which can {@{undergo a chemical reaction to state B with a certain average rate}@}. Perhaps {@{the molecule is an enzyme}@}, and the states refer to {@{how it is folded}@}. {@{The state of any single enzyme}@} {@{follows a Markov chain}@}, and since {@{the molecules are essentially independent of each other}@}, {@{the number of molecules in state A or B at a time}@} is {@{_n_ times the probability a given molecule is in that state}@}. <!--SR:!2024-12-11,4,307!2024-12-11,4,307!2024-12-11,4,281!2024-12-11,4,281!2024-12-11,4,307!2024-12-11,4,281!2024-12-11,4,307!2024-12-11,4,281!2024-12-11,4,281!2024-12-11,4,299!2024-12-11,4,299!2024-12-11,4,307!2024-12-11,4,281!2024-12-11,4,307!2024-12-11,4,281!2024-12-11,4,281!2024-12-11,4,270!2024-12-11,4,299-->
 

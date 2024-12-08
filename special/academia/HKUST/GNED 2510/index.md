@@ -70,7 +70,7 @@ The content is in teaching order.
   - What color should a CV typed up in? ::@:: black <!--SR:!2025-06-29,214,330!2024-12-25,69,310-->
   - How long should a CV roughly be? ::@:: 1 page <!--SR:!2025-08-14,250,330!2025-07-07,221,330-->
   - What things should NOT be included on a CV? ::@:: date of birth (DOB), gender, home address <!--SR:!2025-04-18,154,310!2024-12-13,64,310-->
-  - What order should your qualification be put in? ::@:: newest to oldest <!--SR:!2024-12-08,59,310!2025-08-21,257,330-->
+  - What order should your qualification be put in? ::@:: newest to oldest <!--SR:!2025-08-17,252,330!2025-08-21,257,330-->
   - IROAR ::@:: impact, results, outcomes, achievements, responsibilities <!--SR:!2025-07-17,229,330!2025-04-10,148,310-->
   - referees ::@:: 1 professor, 1 previous work supervisor, 1 volunteer team project lead <!--SR:!2025-05-28,184,310!2025-06-03,189,310-->
   - profile summary ::@:: what I want and what I can do for you, altitude + skills + knowledge (ASK) <!--SR:!2024-12-25,69,310!2025-05-30,176,310-->
@@ -84,8 +84,8 @@ The content is in teaching order.
 - [cover letter](../../../cover%20letter.md)
   - cover letter advantage ::@:: positive impression, include extra information, mention referrer, emphasize your knowledge of the company <!--SR:!2025-03-14,130,290!2024-12-25,69,310-->
 - transferrable skills, portable skills
-- professional social media ::@:: LinkedIn <!--SR:!2024-12-13,64,310!2024-12-08,59,310-->
-- elevator pitch ::@:: self-introduce yourself in 60 seconds to impress potential employers <!--SR:!2024-12-25,69,310!2024-12-08,59,310-->
+- professional social media ::@:: LinkedIn <!--SR:!2024-12-13,64,310!2025-08-16,251,330-->
+- elevator pitch ::@:: self-introduce yourself in 60 seconds to impress potential employers <!--SR:!2024-12-25,69,310!2025-08-19,254,330-->
 - dress-up
 - networking
   - thank-you email (after networking)
@@ -122,7 +122,7 @@ The content is in teaching order.
 - After chatting with the guests in the upcoming networking practicum, you should... ::@:: Send a thank you note on the same day. <!--SR:!2024-12-10,61,310!2025-04-09,146,310-->
   - thank-you note (after networking)
 - interview preparation ::@:: prepare questions, "stalk" (gather information) on LinkedIn <!--SR:!2025-05-08,168,310!2024-12-13,64,310-->
-- etiquettes ::@:: social etiquette, networking etiquette, dining etiquette <!--SR:!2024-12-08,59,310!2025-03-23,137,310-->
+- etiquettes ::@:: social etiquette, networking etiquette, dining etiquette <!--SR:!2025-08-20,255,330!2025-03-23,137,310-->
   - social etiquette
   - networking etiquette
   - dining etiquette

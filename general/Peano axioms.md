@@ -23,11 +23,11 @@ When Peano formulated his axioms, {@{the language of [mathematical logic](mathem
 
 The Peano axioms {@{define the arithmetical properties of _[natural numbers](natural%20number.md)_, usually represented as a [set](set%20(mathematics).md) __N__ or $\mathbb {N}$}@}. The [non-logical symbols](non-logical%20symbol.md) for the axioms consist of {@{a constant symbol 0 and a unary function symbol _S_}@}. <!--SR:!2025-08-26,268,330!2025-08-07,255,330-->
 
-The first axiom states {@{that the constant 0 is a natural number}@}: <!--SR:!2024-12-08,68,310-->
+The first axiom states {@{that the constant 0 is a natural number}@}: <!--SR:!2025-09-29,295,330-->
 
 1. 1st axiom ::@:: 0 is a natural number. <!--SR:!2024-12-13,72,325!2024-12-21,80,325-->
 
-Peano's original formulation of the axioms {@{used 1 instead of 0 as the "first" natural number, while the axioms in _[Formulario mathematico](formulario%20mathematico.md)_ include zero}@}. <!--SR:!2024-12-08,69,325-->
+Peano's original formulation of the axioms {@{used 1 instead of 0 as the "first" natural number, while the axioms in _[Formulario mathematico](formulario%20mathematico.md)_ include zero}@}. <!--SR:!2025-10-19,315,345-->
 
 The next four axioms describe {@{the [equality](equality%20(mathematics).md) [relation](relation%20(mathematics).md)}@}. Since {@{they are logically valid in first-order logic with equality}@}, they are {@{not considered to be part of "the Peano axioms" in modern treatments}@}. <!--SR:!2024-12-19,78,325!2025-06-12,207,325!2025-05-11,185,325-->
 
