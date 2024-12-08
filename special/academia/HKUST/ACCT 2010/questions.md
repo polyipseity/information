@@ -223,3 +223,610 @@ tags:
 > 3. Net Income / Current Assets
 >
 > - solution: {@{2}@}
+
+## week 3 review
+
+> Q1. Income from operations essentially refers to
+>
+> 1. income from sales of goods
+> 2. income from provision of services
+> 3. income from principal business activities
+>
+> - solution: {@{3}@}
+> - explanation: {@{The other 2 are included in 3 already.}@}
+
+<!-- markdownlint MD028 -->
+
+> Q2. Income from other items essentially refers to
+>
+> 1. income from disposal of assets
+> 2. interest from money lent to debtors
+> 3. income from peripheral activities
+>
+> - solution: {@{3}@}
+> - explanation: {@{The other 2 are included in 3 already.}@}
+
+<!-- markdownlint MD028 -->
+
+> Q3. Which accounting methodology would give a more "decision relevant" information to investors?
+>
+> 1. Accrual accounting
+> 2. Cash based accounting
+> 3. Both of them would
+>
+> - solution: {@{1}@}
+
+<!-- markdownlint MD028 -->
+
+> Q4. Regarding sales of goods, income would be accrued (as earned) when
+>
+> 1. Sales contract concluded and signed
+> 2. Seller discharged all the obligations under contract
+> 3. Seller received the cash from customers
+>
+> - solution: {@{2}@}
+
+<!-- markdownlint MD028 -->
+
+> Q5. Regarding operating expenses, they are considered as accrued (as incurred) when...
+>
+> 1. Vendor or service contract concluded and signed
+> 2. Buyer of goods acknowledged receipt of merchandise or consumed fully the underlying services
+> 3. At the moment the entity paid out the cash
+>
+> - solution: {@{2}@}
+
+<!-- markdownlint MD028 -->
+
+> Q6. Which of the following is correct with respect to net profit margin
+>
+> 1. Normally, the bigger the better and it can be a multiple
+> 2. Normally, the bigger the better and expresses as a fraction
+> 3. Normally, the smaller the better
+>
+> - solution: {@{2}@}
+> - explanation: {@{For 1, it is extremely difficult for income from other activities to increase the net income so much that the net profit margin is at least 1...}@}
+
+## week 4 review
+
+> Q1. In an accounting cycle, when does a company prepare the period end adjusting entries?
+>
+> 1. right after making journal entries, and the adjusted balances would go the general ledger
+> 2. after unadjusted trial balance, period end adjusting entries would give rise to the adjusted trial balance
+> 3. period end adjustments are part of account closing procedures
+>
+> - solution: {@{2}@}
+> - explanation: {@{For 3, account closing procedures involve zeroing out temporary accounts, but this requires adjusted balances in the first place.}@}
+
+<!-- markdownlint MD028 -->
+
+> Q2. Why does a company make period end adjusting entries?
+>
+> 1. to update relevant account ledger balances, e.g., supplies consumption, deferred expenses etc.
+> 2. to comply with legislation requirements from say, Companies Act
+> 3. none of the above
+>
+> - solution: {@{1}@}
+> - explanation: {@{For 2, it should instead be to comply with GAAP or some other financial standards.}@}
+
+<!-- markdownlint MD028 -->
+
+> Q3. Trade receivables are an illustration of ...
+>
+> 1. accrued revenue
+> 2. deferred revenue
+> 3. contractual liability
+>
+> - solution: {@{1}@}
+> - explanation: {@{Trade receivables are receivables that are related to the principal business activities.}@}
+
+<!-- markdownlint MD028 -->
+
+> Q4. In the books of a landlord, prepaid rental received from a tenant is an/a
+>
+> 1. accrued revenue
+> 2. deferred revenue
+> 3. current asset
+>
+> - solution: {@{2}@}
+
+<!-- markdownlint MD028 -->
+
+> Q5. In the books of a tenant, prepaid rental made to a landlord is an/a ...
+>
+> 1. accrued expense
+> 2. deferred expense
+> 3. contractual liability
+>
+> - solution: {@{2}@}
+
+<!-- markdownlint MD028 -->
+
+> Q6. Which of the following is correct in describing earnings per share?
+>
+> 1. measures the operating performance and profitability of a company
+> 2. denotes how much net asset value is associated with one unit of common stock of a company
+> 3. represents the pre-tax income of a company
+>
+> - solution: {@{1}@}
+
+<!-- markdownlint MD028 -->
+
+> Q7. Which of the following is correct about total asset turnover?
+>
+> 1. net income over average total assets
+> 2. net sales over period end total assets
+> 3. net sales over average total assets
+>
+> - solution: {@{3}@}
+
+## week 5 review
+
+> Q1. Revenue is accrued since it's earned. We recognize revenue when...
+>
+> 1. when seller received cash from customers
+> 2. when seller discharged its obligations under contracts
+> 3. when goods have been loaded on vessel under FOB destination shipping terms
+>
+> - solution: {@{2}@}
+
+<!-- markdownlint MD028 -->
+
+> Q2. Which one of the followings is NOT used to bring _gross sales_ to _net sales_?
+>
+> 1. Sales returns and allowance
+> 2. Cost of Goods Sold
+> 3. Sales discounts
+>
+> - solution: {@{2}@}
+> - explanation: {@{It is not even in the equation...}@}
+
+<!-- markdownlint MD028 -->
+
+> Q3. Which one of the followings is an example of separable performance obligations in revenue recognition?
+>
+> 1. activate a SIM to connect customer to telecom network
+> 2. install operating system in a hardware device
+> 3. three-year after purchase unlimited mileage maintenance for motor vehicles offered by car manufacturer
+>
+> - solution: {@{2}@}
+> - explanation: {@{The question is a bit worded-badly... It means determining if the example can be treated as a separate performance obligation.}@}
+
+<!-- markdownlint MD028 -->
+
+> Q4. How do directors estimate bad-debt expenses at financial year end?
+>
+> 1. by percentage of credit sales
+> 2. by ageing of accounts receivable (ageing analysis)
+> 3. both of them could be used
+>
+> - solution: {@{3}@}
+
+<!-- markdownlint MD028 -->
+
+> Q5. Receivable turnover ratio is a
+>
+> 1. liquidity ratio
+> 2. profitability ratio
+> 3. efficiency (activity) ratio
+>
+> - solution: {@{3}@}
+
+## week 7 review
+
+> Q1. Concerning the accounting for inventory, it carries what kind of financial statements effect?
+>
+> 1. balance sheet
+> 2. income statement
+> 3. both of them
+>
+> - solution: {@{3}@}
+> - explanation: {@{It affects the balance sheet because it affects asset "Inventory". It affects the income statement because it affects expense "Cost of goods sold".}@}
+
+<!-- markdownlint MD028 -->
+
+> Q2. Which of the followings would give rise to balance sheet effect?
+>
+> 1. goods sold to customers
+> 2. unsold inventories
+> 3. none of the above
+>
+> - solution: {@{1}@}
+> - explanation: {@{1 affects asset "Inventory". 2 is not directly considered when preparing the balance sheet: without 1, it alone does nothing.}@}
+
+<!-- markdownlint MD028 -->
+
+> Q3. Which of the followings would give rise to income statement effect?
+>
+> 1. goods sold to customers
+> 2. ending inventories
+> 3. all of the above
+>
+> - solution: {@{1}@}
+> - explanation: {@{1 affects expense "Cost of goods sold". 2 is not directly considered when preparing the income statement: without 1, it alone does nothing.}@}
+
+<!-- markdownlint MD028 -->
+
+> Q4. ABC Co. trades with low volume, high value and heterogenous products, e.g., diamond what costing method should it use?
+>
+> 1. LIFO
+> 2. weighted average
+> 3. specific identification
+>
+> - solution: {@{3}@}
+
+<!-- markdownlint MD028 -->
+
+> Q5. XYZ Mart has its supermarket operations, what costing method is likely to be used?
+>
+> 1. specific identification
+> 2. weighted average
+> 3. LIFO
+>
+> - solution: {@{2}@}
+> - explanation: {@{FIFO would also be acceptable. LIFO is unlikely, since supermarket has perishable goods, so older goods are physically sold first.}@}
+
+<!-- markdownlint MD028 -->
+
+> Q6. Among the costing methods, which one would give the highest income before tax?
+>
+> 1. FIFO
+> 2. weighted average
+> 3. LIFO
+>
+> - solution: {@{1}@}
+
+<!-- markdownlint MD028 -->
+
+> Q7. What is the correct implication behind the accounting principle "Lower of Cost or Market"?
+>
+> 1. inventory should be reported at the lower of its cost or the amount at which it can be sold, at end of the year
+> 2. the above principle requires company to adjust market value movements of its inventories left unsold
+> 3. the inventory value is determined by the selling price of the last transaction done at the end of the year
+>
+> - solution: {@{1}@}
+
+## week 8 review
+
+> Q1. Why do directors make capital expenditure (CAPEX) in the businesses?
+>
+> 1. to capture future income generated from capital assets
+> 2. to get expected return from such investment
+> 3. both of them are the reasons
+>
+> - solution: {@{3}@}
+
+<!-- markdownlint MD028 -->
+
+> Q2. Interest on debt incurred prior to capital assets that are up and running, it should be...
+>
+> 1. an accrued interest expense
+> 2. a deferred interest expense
+> 3. it should not be an expense
+>
+> - solution: {@{3}@}
+
+<!-- markdownlint MD028 -->
+
+> Q3. For book depreciation purposes, acquisition costs include...
+>
+> 1. purchase price of capital assets
+> 2. purchase prince plus all other transaction costs necessary to get the capital assets operational
+> 3. purchase price plus financing charges and cash discounts
+>
+> - solution: {@{2}@}
+
+<!-- markdownlint MD028 -->
+
+> Q4. Among all the depreciation methods we learnt in class, which one of the followings is commonly used?
+>
+> 1. Straight line
+> 2. Units-of-production
+> 3. Accelerated depreciation
+>
+> - solution: {@{1}@}
+> - explanation: {@{Why go complicated when you can go simple...? ^_^}@}
+
+<!-- markdownlint MD028 -->
+
+> Q5. What is the objective behind impairment of assets (PPE)?
+>
+> 1. to adjust the estimated life of capital assets
+> 2. to find out the selling price of assets under disposal
+> 3. to find out whether the PPE's NBV is recoverable through estimated future cash flows
+>
+> - solution: {@{3}@}
+
+<!-- markdownlint MD028 -->
+
+> Q6. Concerning fixed asset turnover, it measures...
+>
+> 1. a company's ability to generate income relative to balance sheet assets
+> 2. how well a company is utilizing its fixed assets and resources
+> 3. the amount of capital that comes from debt
+>
+> - solution: {@{2}@}
+
+## week 9 review
+
+> Q1. How does debt differentiate itself from equity financing?
+>
+> 1. There is no difference because they are both financing options to a company.
+> 2. Debt financing is borrowing obtained from creditors, it represents a liability to a company.
+> 3. Equity financing is riskier than debt.
+>
+> - solution: {@{2}@}
+
+<!-- markdownlint MD028 -->
+
+> Q2. Concerning contingent liabilities, if the chance of occurrence is probable but the outcome is not subject to estimate, what do we do in terms of financial reporting?
+>
+> 1. Record it as liability on the account
+> 2. Make a corresponding note disclosure
+> 3. Note disclosure is not required
+>
+> - solution: {@{2}@}
+
+<!-- markdownlint MD028 -->
+
+> Q3. What does working capital mean?
+>
+> 1. current assets minus current liabilities
+> 2. current assets divided by current liabilities
+> 3. current assets add current liabilities
+>
+> - solution: {@{1}@}
+
+<!-- markdownlint MD028 -->
+
+> Q4. How do we deal with lease transactions concerning short-term lease with 12 months or less?
+>
+> 1. Dr. Lease expense; Cr. Cash
+> 2. Dr. Lease asset (ROU); Cr. Lease liability
+> 3. Both ways would do
+>
+> - solution: {@{1}@}
+
+<!-- markdownlint MD028 -->
+
+> Q5. Concerning lease transaction under recognition approach, which one of the following statements is correct?
+>
+> 1. it carries both balance sheet and income statement effect
+> 2. it carries only balance sheet effect
+> 3. it carries only income statement effect
+>
+> - solution: {@{1}@}
+
+<!-- markdownlint MD028 -->
+
+> Q6. Regarding time value of money (TVM), which of the followings is/are correct?
+>
+> 1. Money can grow over time
+> 2. A sum of money is worth more now than the same sum will be at a future date due to its earning potential
+> 3. Both of them are correct
+>
+> - solution: {@{3}@}
+
+<!-- markdownlint MD028 -->
+
+> Q7. What does accounts payable turnover refer to?
+>
+> 1. Cost of Goods Sold / Average Accounts Payable
+> 2. Total Supplier Purchases / Average Accounts Payable
+> 3. Net sales / Average Accounts Payable
+>
+> - solution: {@{2}@}
+> - explanation: {@{Funny history... The book has 1 as the definition instead. Anyways, in the exam, use 2.}@}
+
+<!-- markdownlint MD028 -->
+
+> Q8. If a company achieved an increasing accounts payable turnover ratio, which of the following is/are relevant?
+>
+> 1. it has plenty of cash available to pay off its short-term debt in a timely manner
+> 2. could also indicate the company is not reinvesting back into its business, which could result in a lower growth rate and lower earnings for the company in the long term
+> 3. both of them are relevant
+>
+> - solution: {@{3}@}
+
+## week 10 review
+
+> Q1. What are authorized shares of a limited liability company formed by shares?
+>
+> 1. issued shares
+> 2. unissued shares
+> 3. maximum number of shares that can be issued or sold to the public (approved by government authorities)
+>
+> - solution: {@{3}@}
+
+<!-- markdownlint MD028 -->
+
+> Q2. What do we call them for shares that have been authorized and sold?
+>
+> 1. issued shares
+> 2. unissued shares
+> 3. authorized shares
+>
+> - solution: {@{1}@}
+
+<!-- markdownlint MD028 -->
+
+> Q3. What do we call them for shares that are authorized but never have been sold?
+>
+> 1. issued shares
+> 2. unissued shares
+> 3. authorized shares
+>
+> - solution: {@{2}@}
+
+<!-- markdownlint MD028 -->
+
+> Q4. Issued shares that are owned by shareholders, we call them...
+>
+> 1. outstanding shares
+> 2. treasury shares
+> 3. preferred shares
+>
+> - solution: {@{1}@}
+
+<!-- markdownlint MD028 -->
+
+> Q5. Issued shares that have been repurchased by the company, we call them...
+>
+> 1. outstanding shares
+> 2. treasury shares
+> 3. ordinary shares or common stocks
+>
+> - solution: {@{2}@}
+
+<!-- markdownlint MD028 -->
+
+> Q6. Par value of shares refers to...
+>
+> 1. the nominal value of shares issued
+> 2. the legal capital required by the respective Companies Ordinance or Act
+> 3. all of the above
+>
+> - solution: {@{3}@}
+
+<!-- markdownlint MD028 -->
+
+> Q7. How do we proper accounting for cash dividend paid?
+>
+> 1. Dr. Dividend (R/E); Cr. Cash/Bank
+> 2. Dr. Dividend Expense; Cr. Cash/Bank
+> 3. Dr. Dividend (R/E); Cr. Common Stock
+>
+> - solution: {@{1}@}
+> - explanation: {@{Dividends are not expenses, by the definition of expense.}@}
+
+<!-- markdownlint MD028 -->
+
+> Q8. Which of the following is correct regarding stock split?
+>
+> 1. stock splits are essentially dividend
+> 2. stock splits change both the par value of each share and the total par value
+> 3. stock splits change only the par value of each share, but total par value remains unchanged
+>
+> - solution: {@{3}@}
+
+<!-- markdownlint MD028 -->
+
+> Q9. Why do investors subscribe preferred stock?
+>
+> 1. They prefer to have a fixed dividend rate, i.e., claim dividends prior to those common stockholders
+> 2. Preferred stock gives extra voting power to preferred stockholders in the Annual General Meeting
+> 3. They would like to exercise the voting power attached to preferred stocks in the Annual General Meeting
+>
+> - solution: {@{1}@}
+
+<!-- markdownlint MD028 -->
+
+> Q10. Which one of the following is not a market-to-book ratio?
+>
+> 1. P/E ratio
+> 2. EPS
+> 3. Dividend Yield
+>
+> - solution: {@{2}@}
+> - explanation: {@{2 is the only one that does not involve market price per share. <p> (Actually the professor uses "market-to-book ratio" instead oddly... "Market ratios" is a better term.)}@}
+
+## week 12 review
+
+> Q1. Why is Cash Flow Statement important?
+>
+> 1. It is required by the Financial Reporting Standards
+> 2. It is a key indicator of company's financial health
+> 3. Shareholders demand for the information
+>
+> - solution: {@{2}@}
+> - explanation: {@{1 and 3 are extensions of 2.}@}
+
+<!-- markdownlint MD028 -->
+
+> Q2. How is Cash Flow Statement connected to Balance Sheet and Income Statement?
+>
+> 1. It shows how cash flow moves in and out, together with the beginning balance of cash, it arrives at the ending balance of cash on Balance Sheet.
+> 2. Cash Flow Statement is linked to Income Statement by Net Profit under Indirect Method.
+> 3. Both of them are relevant.
+>
+> - solution: {@{3}@}
+
+<!-- markdownlint MD028 -->
+
+> Q3. What is Operating Activities behind Cash Flow Statement?
+>
+> 1. Cash in- and out-flows directly related to earnings from normal operations
+> 2. Cash in- and out-flows related to buy and sale of PPE and investments in shares or bonds of other companies
+> 3. Cash in- and out-flows related to external sources of financing, both debt and equity financing
+>
+> - solution: {@{1}@}
+
+<!-- markdownlint MD028 -->
+
+> Q4. What is Investing Activities behind Cash Flow Statement?
+>
+> 1. Cash in- and out-flows directly related to earnings from normal operations
+> 2. Cash in- and out-flows related to buy and sale of PPE and investments in shares or bonds of other companies
+> 3. Cash in- and out-flows related to external sources of financing, both debt and equity financing
+>
+> - solution: {@{2}@}
+
+<!-- markdownlint MD028 -->
+
+> Q5. What is Financing Activities behind Cash Flow Statement?
+>
+> 1. Cash in- and out-flows directly related to earnings from normal operations
+> 2. Cash in- and out-flows related to buy and sale of PPE and investments in shares or bonds of other companies
+> 3. Cash in- and out-flows related to external sources of financing, both debt and equity financing
+>
+> - solution: {@{3}@}
+
+<!-- markdownlint MD028 -->
+
+> Q6. According to the accounting equation model, how a change in Liabilities is related to a change in Cash?
+>
+> 1. Positively
+> 2. Negatively
+> 3. They are not related at all
+>
+> - solution: {@{1}@}
+
+<!-- markdownlint MD028 -->
+
+> Q7. According to the accounting equation model, how a change in Stockholders' Equity is related to a change in Cash?
+>
+> 1. Positively
+> 2. Negatively
+> 3. They are not related at all
+>
+> - solution: {@{1}@}
+
+<!-- markdownlint MD028 -->
+
+> Q8. According to the accounting equation model, how a change in Non-Cash Assets is related to a change in Cash?
+>
+> 1. Positively
+> 2. Negatively
+> 3. They are not related at all
+>
+> - solution: {@{2}@}
+
+<!-- markdownlint MD028 -->
+
+> Q9. If a sale of equipment produced a gain, it must be...
+>
+> 1. added to the net income when we prepare cash flow statement using indirect method
+> 2. subtracted from the net income when we prepare cash flow statement using indirect method
+> 3. no adjustment is needed using indirect method
+>
+> - solution: {@{2}@}
+
+<!-- markdownlint MD028 -->
+
+> Q10. If a sale of equipment incurred a loss, it must be...
+>
+> 1. added to the net income when we prepare cash flow statement using indirect method
+> 2. subtracted from the net income when we prepare cash flow statement using indirect method
+> 3. no adjustment is needed using indirect method
+>
+> - solution: {@{1}@}
