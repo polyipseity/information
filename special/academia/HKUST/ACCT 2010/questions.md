@@ -233,7 +233,7 @@ tags:
 > 3. income from principal business activities
 >
 > - solution: {@{3}@}
-> - explanation: {@{The other 2 are included in 3 already.}@}
+> - explanation: {@{The other 2 are included in 3 already.}@} <!--SR:!2024-12-12,4,321!2024-12-12,4,321-->
 
 <!-- markdownlint MD028 -->
 
@@ -244,7 +244,7 @@ tags:
 > 3. income from peripheral activities
 >
 > - solution: {@{3}@}
-> - explanation: {@{The other 2 are included in 3 already.}@}
+> - explanation: {@{The other 2 are included in 3 already.}@} <!--SR:!2024-12-12,4,321!2024-12-12,4,321-->
 
 <!-- markdownlint MD028 -->
 
@@ -254,7 +254,7 @@ tags:
 > 2. Cash based accounting
 > 3. Both of them would
 >
-> - solution: {@{1}@}
+> - solution: {@{1}@} <!--SR:!2024-12-12,4,321-->
 
 <!-- markdownlint MD028 -->
 
@@ -264,7 +264,7 @@ tags:
 > 2. Seller discharged all the obligations under contract
 > 3. Seller received the cash from customers
 >
-> - solution: {@{2}@}
+> - solution: {@{2}@} <!--SR:!2024-12-12,4,321-->
 
 <!-- markdownlint MD028 -->
 
@@ -274,7 +274,7 @@ tags:
 > 2. Buyer of goods acknowledged receipt of merchandise or consumed fully the underlying services
 > 3. At the moment the entity paid out the cash
 >
-> - solution: {@{2}@}
+> - solution: {@{2}@} <!--SR:!2024-12-12,4,321-->
 
 <!-- markdownlint MD028 -->
 
@@ -285,7 +285,7 @@ tags:
 > 3. Normally, the smaller the better
 >
 > - solution: {@{2}@}
-> - explanation: {@{For 1, it is extremely difficult for income from other activities to increase the net income so much that the net profit margin is at least 1...}@}
+> - explanation: {@{For 1, it is extremely difficult for income from other activities to increase the net income so much that the net profit margin is at least 1...}@} <!--SR:!2024-12-12,4,321!2024-12-12,4,321-->
 
 ## week 4 review
 
@@ -296,7 +296,7 @@ tags:
 > 3. period end adjustments are part of account closing procedures
 >
 > - solution: {@{2}@}
-> - explanation: {@{For 3, account closing procedures involve zeroing out temporary accounts, but this requires adjusted balances in the first place.}@}
+> - explanation: {@{For 3, account closing procedures involve zeroing out temporary accounts, but this requires adjusted balances in the first place.}@} <!--SR:!2024-12-12,4,321!2024-12-12,4,321-->
 
 <!-- markdownlint MD028 -->
 
@@ -307,7 +307,7 @@ tags:
 > 3. none of the above
 >
 > - solution: {@{1}@}
-> - explanation: {@{For 2, it should instead be to comply with GAAP or some other financial standards.}@}
+> - explanation: {@{For 2, it should instead be to comply with GAAP or some other financial standards.}@} <!--SR:!2024-12-12,4,321!2024-12-12,4,321-->
 
 <!-- markdownlint MD028 -->
 
@@ -318,7 +318,7 @@ tags:
 > 3. contractual liability
 >
 > - solution: {@{1}@}
-> - explanation: {@{Trade receivables are receivables that are related to the principal business activities.}@}
+> - explanation: {@{Trade receivables are receivables that are related to the principal business activities.}@} <!--SR:!2024-12-12,4,321!2024-12-12,4,321-->
 
 <!-- markdownlint MD028 -->
 
@@ -328,7 +328,7 @@ tags:
 > 2. deferred revenue
 > 3. current asset
 >
-> - solution: {@{2}@}
+> - solution: {@{2}@} <!--SR:!2024-12-12,4,321-->
 
 <!-- markdownlint MD028 -->
 
@@ -338,7 +338,7 @@ tags:
 > 2. deferred expense
 > 3. contractual liability
 >
-> - solution: {@{2}@}
+> - solution: {@{2}@} <!--SR:!2024-12-12,4,321-->
 
 <!-- markdownlint MD028 -->
 
@@ -348,7 +348,7 @@ tags:
 > 2. denotes how much net asset value is associated with one unit of common stock of a company
 > 3. represents the pre-tax income of a company
 >
-> - solution: {@{1}@}
+> - solution: {@{1}@} <!--SR:!2024-12-12,4,321-->
 
 <!-- markdownlint MD028 -->
 
@@ -358,7 +358,7 @@ tags:
 > 2. net sales over period end total assets
 > 3. net sales over average total assets
 >
-> - solution: {@{3}@}
+> - solution: {@{3}@} <!--SR:!2024-12-11,3,301-->
 
 ## week 5 review
 
@@ -368,7 +368,7 @@ tags:
 > 2. when seller discharged its obligations under contracts
 > 3. when goods have been loaded on vessel under FOB destination shipping terms
 >
-> - solution: {@{2}@}
+> - solution: {@{2}@} <!--SR:!2024-12-12,4,321-->
 
 <!-- markdownlint MD028 -->
 
@@ -379,7 +379,7 @@ tags:
 > 3. Sales discounts
 >
 > - solution: {@{2}@}
-> - explanation: {@{It is not even in the equation...}@}
+> - explanation: {@{It is not even in the equation...}@} <!--SR:!2024-12-12,4,321!2024-12-12,4,321-->
 
 <!-- markdownlint MD028 -->
 
@@ -390,7 +390,7 @@ tags:
 > 3. three-year after purchase unlimited mileage maintenance for motor vehicles offered by car manufacturer
 >
 > - solution: {@{2}@}
-> - explanation: {@{The question is a bit worded-badly... It means determining if the example can be treated as a separate performance obligation.}@}
+> - explanation: {@{The question is a bit worded-badly... It means determining if the example can be treated as a separate performance obligation.}@} <!--SR:!2024-12-12,4,321!2024-12-12,4,321-->
 
 <!-- markdownlint MD028 -->
 
@@ -400,7 +400,7 @@ tags:
 > 2. by ageing of accounts receivable (ageing analysis)
 > 3. both of them could be used
 >
-> - solution: {@{3}@}
+> - solution: {@{3}@} <!--SR:!2024-12-12,4,321-->
 
 <!-- markdownlint MD028 -->
 
@@ -410,7 +410,7 @@ tags:
 > 2. profitability ratio
 > 3. efficiency (activity) ratio
 >
-> - solution: {@{3}@}
+> - solution: {@{3}@} <!--SR:!2024-12-12,4,321-->
 
 ## week 7 review
 
@@ -421,7 +421,7 @@ tags:
 > 3. both of them
 >
 > - solution: {@{3}@}
-> - explanation: {@{It affects the balance sheet because it affects asset "Inventory". It affects the income statement because it affects expense "Cost of goods sold".}@}
+> - explanation: {@{It affects the balance sheet because it affects asset "Inventory". It affects the income statement because it affects expense "Cost of goods sold".}@} <!--SR:!2024-12-12,4,321!2024-12-12,4,321-->
 
 <!-- markdownlint MD028 -->
 
@@ -432,7 +432,7 @@ tags:
 > 3. none of the above
 >
 > - solution: {@{1}@}
-> - explanation: {@{1 affects asset "Inventory". 2 is not directly considered when preparing the balance sheet: without 1, it alone does nothing.}@}
+> - explanation: {@{1 affects asset "Inventory". 2 is not directly considered when preparing the balance sheet: without 1, it alone does nothing.}@} <!--SR:!2024-12-12,4,321!2024-12-12,4,321-->
 
 <!-- markdownlint MD028 -->
 
@@ -443,7 +443,7 @@ tags:
 > 3. all of the above
 >
 > - solution: {@{1}@}
-> - explanation: {@{1 affects expense "Cost of goods sold". 2 is not directly considered when preparing the income statement: without 1, it alone does nothing.}@}
+> - explanation: {@{1 affects expense "Cost of goods sold". 2 is not directly considered when preparing the income statement: without 1, it alone does nothing.}@} <!--SR:!2024-12-12,4,321!2024-12-12,4,321-->
 
 <!-- markdownlint MD028 -->
 
@@ -453,7 +453,7 @@ tags:
 > 2. weighted average
 > 3. specific identification
 >
-> - solution: {@{3}@}
+> - solution: {@{3}@} <!--SR:!2024-12-12,4,321-->
 
 <!-- markdownlint MD028 -->
 
@@ -464,7 +464,7 @@ tags:
 > 3. LIFO
 >
 > - solution: {@{2}@}
-> - explanation: {@{FIFO would also be acceptable. LIFO is unlikely, since supermarket has perishable goods, so older goods are physically sold first.}@}
+> - explanation: {@{FIFO would also be acceptable. LIFO is unlikely, since supermarket has perishable goods, so older goods are physically sold first.}@} <!--SR:!2024-12-12,4,321!2024-12-12,4,321-->
 
 <!-- markdownlint MD028 -->
 
@@ -474,7 +474,7 @@ tags:
 > 2. weighted average
 > 3. LIFO
 >
-> - solution: {@{1}@}
+> - solution: {@{1}@} <!--SR:!2024-12-12,4,321-->
 
 <!-- markdownlint MD028 -->
 
@@ -484,7 +484,7 @@ tags:
 > 2. the above principle requires company to adjust market value movements of its inventories left unsold
 > 3. the inventory value is determined by the selling price of the last transaction done at the end of the year
 >
-> - solution: {@{1}@}
+> - solution: {@{1}@} <!--SR:!2024-12-12,4,321-->
 
 ## week 8 review
 
@@ -494,7 +494,7 @@ tags:
 > 2. to get expected return from such investment
 > 3. both of them are the reasons
 >
-> - solution: {@{3}@}
+> - solution: {@{3}@} <!--SR:!2024-12-12,4,321-->
 
 <!-- markdownlint MD028 -->
 
@@ -504,7 +504,7 @@ tags:
 > 2. a deferred interest expense
 > 3. it should not be an expense
 >
-> - solution: {@{3}@}
+> - solution: {@{3}@} <!--SR:!2024-12-12,4,321-->
 
 <!-- markdownlint MD028 -->
 
@@ -514,7 +514,7 @@ tags:
 > 2. purchase prince plus all other transaction costs necessary to get the capital assets operational
 > 3. purchase price plus financing charges and cash discounts
 >
-> - solution: {@{2}@}
+> - solution: {@{2}@} <!--SR:!2024-12-12,4,321-->
 
 <!-- markdownlint MD028 -->
 
@@ -525,7 +525,7 @@ tags:
 > 3. Accelerated depreciation
 >
 > - solution: {@{1}@}
-> - explanation: {@{Why go complicated when you can go simple...? ^_^}@}
+> - explanation: {@{Why go complicated when you can go simple...? ^_^}@} <!--SR:!2024-12-12,4,321!2024-12-12,4,321-->
 
 <!-- markdownlint MD028 -->
 
@@ -535,7 +535,7 @@ tags:
 > 2. to find out the selling price of assets under disposal
 > 3. to find out whether the PPE's NBV is recoverable through estimated future cash flows
 >
-> - solution: {@{3}@}
+> - solution: {@{3}@} <!--SR:!2024-12-12,4,321-->
 
 <!-- markdownlint MD028 -->
 
@@ -545,7 +545,7 @@ tags:
 > 2. how well a company is utilizing its fixed assets and resources
 > 3. the amount of capital that comes from debt
 >
-> - solution: {@{2}@}
+> - solution: {@{2}@} <!--SR:!2024-12-12,4,321-->
 
 ## week 9 review
 
@@ -555,7 +555,7 @@ tags:
 > 2. Debt financing is borrowing obtained from creditors, it represents a liability to a company.
 > 3. Equity financing is riskier than debt.
 >
-> - solution: {@{2}@}
+> - solution: {@{2}@} <!--SR:!2024-12-12,4,321-->
 
 <!-- markdownlint MD028 -->
 
@@ -565,7 +565,7 @@ tags:
 > 2. Make a corresponding note disclosure
 > 3. Note disclosure is not required
 >
-> - solution: {@{2}@}
+> - solution: {@{2}@} <!--SR:!2024-12-12,4,321-->
 
 <!-- markdownlint MD028 -->
 
@@ -575,7 +575,7 @@ tags:
 > 2. current assets divided by current liabilities
 > 3. current assets add current liabilities
 >
-> - solution: {@{1}@}
+> - solution: {@{1}@} <!--SR:!2024-12-12,4,321-->
 
 <!-- markdownlint MD028 -->
 
@@ -585,7 +585,7 @@ tags:
 > 2. Dr. Lease asset (ROU); Cr. Lease liability
 > 3. Both ways would do
 >
-> - solution: {@{1}@}
+> - solution: {@{1}@} <!--SR:!2024-12-12,4,321-->
 
 <!-- markdownlint MD028 -->
 
@@ -595,7 +595,7 @@ tags:
 > 2. it carries only balance sheet effect
 > 3. it carries only income statement effect
 >
-> - solution: {@{1}@}
+> - solution: {@{1}@} <!--SR:!2024-12-12,4,321-->
 
 <!-- markdownlint MD028 -->
 
@@ -605,7 +605,7 @@ tags:
 > 2. A sum of money is worth more now than the same sum will be at a future date due to its earning potential
 > 3. Both of them are correct
 >
-> - solution: {@{3}@}
+> - solution: {@{3}@} <!--SR:!2024-12-12,4,321-->
 
 <!-- markdownlint MD028 -->
 
@@ -616,7 +616,7 @@ tags:
 > 3. Net sales / Average Accounts Payable
 >
 > - solution: {@{2}@}
-> - explanation: {@{Funny history... The book has 1 as the definition instead. Anyways, in the exam, use 2.}@}
+> - explanation: {@{Funny history... The book has 1 as the definition instead. Anyways, in the exam, use 2.}@} <!--SR:!2024-12-12,4,321!2024-12-12,4,321-->
 
 <!-- markdownlint MD028 -->
 
@@ -626,7 +626,7 @@ tags:
 > 2. could also indicate the company is not reinvesting back into its business, which could result in a lower growth rate and lower earnings for the company in the long term
 > 3. both of them are relevant
 >
-> - solution: {@{3}@}
+> - solution: {@{3}@} <!--SR:!2024-12-12,4,321-->
 
 ## week 10 review
 
@@ -636,7 +636,7 @@ tags:
 > 2. unissued shares
 > 3. maximum number of shares that can be issued or sold to the public (approved by government authorities)
 >
-> - solution: {@{3}@}
+> - solution: {@{3}@} <!--SR:!2024-12-12,4,321-->
 
 <!-- markdownlint MD028 -->
 
@@ -646,7 +646,7 @@ tags:
 > 2. unissued shares
 > 3. authorized shares
 >
-> - solution: {@{1}@}
+> - solution: {@{1}@} <!--SR:!2024-12-12,4,321-->
 
 <!-- markdownlint MD028 -->
 
@@ -656,7 +656,7 @@ tags:
 > 2. unissued shares
 > 3. authorized shares
 >
-> - solution: {@{2}@}
+> - solution: {@{2}@} <!--SR:!2024-12-12,4,321-->
 
 <!-- markdownlint MD028 -->
 
@@ -666,7 +666,7 @@ tags:
 > 2. treasury shares
 > 3. preferred shares
 >
-> - solution: {@{1}@}
+> - solution: {@{1}@} <!--SR:!2024-12-12,4,321-->
 
 <!-- markdownlint MD028 -->
 
@@ -676,7 +676,7 @@ tags:
 > 2. treasury shares
 > 3. ordinary shares or common stocks
 >
-> - solution: {@{2}@}
+> - solution: {@{2}@} <!--SR:!2024-12-12,4,321-->
 
 <!-- markdownlint MD028 -->
 
@@ -686,7 +686,7 @@ tags:
 > 2. the legal capital required by the respective Companies Ordinance or Act
 > 3. all of the above
 >
-> - solution: {@{3}@}
+> - solution: {@{3}@} <!--SR:!2024-12-12,4,321-->
 
 <!-- markdownlint MD028 -->
 
@@ -697,7 +697,7 @@ tags:
 > 3. Dr. Dividend (R/E); Cr. Common Stock
 >
 > - solution: {@{1}@}
-> - explanation: {@{Dividends are not expenses, by the definition of expense.}@}
+> - explanation: {@{Dividends are not expenses, by the definition of expense.}@} <!--SR:!2024-12-12,4,321!2024-12-12,4,321-->
 
 <!-- markdownlint MD028 -->
 
@@ -707,7 +707,7 @@ tags:
 > 2. stock splits change both the par value of each share and the total par value
 > 3. stock splits change only the par value of each share, but total par value remains unchanged
 >
-> - solution: {@{3}@}
+> - solution: {@{3}@} <!--SR:!2024-12-12,4,321-->
 
 <!-- markdownlint MD028 -->
 
@@ -717,7 +717,7 @@ tags:
 > 2. Preferred stock gives extra voting power to preferred stockholders in the Annual General Meeting
 > 3. They would like to exercise the voting power attached to preferred stocks in the Annual General Meeting
 >
-> - solution: {@{1}@}
+> - solution: {@{1}@} <!--SR:!2024-12-12,4,321-->
 
 <!-- markdownlint MD028 -->
 
@@ -728,7 +728,7 @@ tags:
 > 3. Dividend Yield
 >
 > - solution: {@{2}@}
-> - explanation: {@{2 is the only one that does not involve market price per share. <p> (Actually the professor uses "market-to-book ratio" instead oddly... "Market ratios" is a better term.)}@}
+> - explanation: {@{2 is the only one that does not involve market price per share. <p> (Actually the professor uses "market-to-book ratio" instead oddly... "Market ratios" is a better term.)}@} <!--SR:!2024-12-12,4,321!2024-12-12,4,321-->
 
 ## week 12 review
 
@@ -739,7 +739,7 @@ tags:
 > 3. Shareholders demand for the information
 >
 > - solution: {@{2}@}
-> - explanation: {@{1 and 3 are extensions of 2.}@}
+> - explanation: {@{1 and 3 are extensions of 2.}@} <!--SR:!2024-12-12,4,321!2024-12-12,4,321-->
 
 <!-- markdownlint MD028 -->
 
@@ -749,7 +749,7 @@ tags:
 > 2. Cash Flow Statement is linked to Income Statement by Net Profit under Indirect Method.
 > 3. Both of them are relevant.
 >
-> - solution: {@{3}@}
+> - solution: {@{3}@} <!--SR:!2024-12-12,4,321-->
 
 <!-- markdownlint MD028 -->
 
@@ -759,7 +759,7 @@ tags:
 > 2. Cash in- and out-flows related to buy and sale of PPE and investments in shares or bonds of other companies
 > 3. Cash in- and out-flows related to external sources of financing, both debt and equity financing
 >
-> - solution: {@{1}@}
+> - solution: {@{1}@} <!--SR:!2024-12-12,4,321-->
 
 <!-- markdownlint MD028 -->
 
@@ -769,7 +769,7 @@ tags:
 > 2. Cash in- and out-flows related to buy and sale of PPE and investments in shares or bonds of other companies
 > 3. Cash in- and out-flows related to external sources of financing, both debt and equity financing
 >
-> - solution: {@{2}@}
+> - solution: {@{2}@} <!--SR:!2024-12-12,4,321-->
 
 <!-- markdownlint MD028 -->
 
@@ -779,7 +779,7 @@ tags:
 > 2. Cash in- and out-flows related to buy and sale of PPE and investments in shares or bonds of other companies
 > 3. Cash in- and out-flows related to external sources of financing, both debt and equity financing
 >
-> - solution: {@{3}@}
+> - solution: {@{3}@} <!--SR:!2024-12-12,4,321-->
 
 <!-- markdownlint MD028 -->
 
@@ -789,7 +789,7 @@ tags:
 > 2. Negatively
 > 3. They are not related at all
 >
-> - solution: {@{1}@}
+> - solution: {@{1}@} <!--SR:!2024-12-12,4,321-->
 
 <!-- markdownlint MD028 -->
 
@@ -799,7 +799,7 @@ tags:
 > 2. Negatively
 > 3. They are not related at all
 >
-> - solution: {@{1}@}
+> - solution: {@{1}@} <!--SR:!2024-12-12,4,321-->
 
 <!-- markdownlint MD028 -->
 
@@ -809,7 +809,7 @@ tags:
 > 2. Negatively
 > 3. They are not related at all
 >
-> - solution: {@{2}@}
+> - solution: {@{2}@} <!--SR:!2024-12-12,4,321-->
 
 <!-- markdownlint MD028 -->
 
@@ -819,7 +819,7 @@ tags:
 > 2. subtracted from the net income when we prepare cash flow statement using indirect method
 > 3. no adjustment is needed using indirect method
 >
-> - solution: {@{2}@}
+> - solution: {@{2}@} <!--SR:!2024-12-12,4,321-->
 
 <!-- markdownlint MD028 -->
 
@@ -829,4 +829,4 @@ tags:
 > 2. subtracted from the net income when we prepare cash flow statement using indirect method
 > 3. no adjustment is needed using indirect method
 >
-> - solution: {@{1}@}
+> - solution: {@{1}@} <!--SR:!2024-12-12,4,321-->
