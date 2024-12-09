@@ -20,9 +20,9 @@ tags:
 ## examples
 
 - [`ОСВ общий.png`](../../../../archives/Wikimedia%20Commons/ОСВ%20общий.png) ::@:: ![`ОСВ общий.png`](../../../../archives/Wikimedia%20Commons/ОСВ%20общий.png)
-  - [`ОСВ общий.png`] / language ::@:: Yeah, it's in Russian...
-  - [`ОСВ общий.png`] / account captions ::@:: Notice they have used numbers to identify accounts. In this course, we should simply use the account captions (account names) directly.
-  - [`ОСВ общий.png`] / adjustments ::@:: In this example, the total debit and credit of all relevant adjusting entries of the same account are summed and recorded as one. <p> In exams, you should probably record them separately. When you record them separately, each adjusting entry should change either debit or credit but not both.
+  - [`ОСВ общий.png`](../../../../archives/Wikimedia%20Commons/ОСВ%20общий.png) / language ::@:: Yeah, it's in Russian...
+  - [`ОСВ общий.png`](../../../../archives/Wikimedia%20Commons/ОСВ%20общий.png) / account captions ::@:: Notice they have used numbers to identify accounts. In this course, we should simply use the account captions (account names) directly.
+  - [`ОСВ общий.png`](../../../../archives/Wikimedia%20Commons/ОСВ%20общий.png) / adjustments ::@:: In this example, the total debit and credit of all relevant adjusting entries of the same account are summed and recorded as one. <p> In exams, you should probably record them separately. When you record them separately, each adjusting entry should change either debit or credit but not both.
 
 ## format
 

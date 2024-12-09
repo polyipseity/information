@@ -24,20 +24,20 @@ tags:
 - reciprocals of 365 ::@:: average collection period, average days to pay payables, average days to sell inventory
 - surprising terms in equation ::@:: accounts payable turnover, earnings per share
 - surprising "net" in equation ::@:: fixed asset turnover, receivables turnover
-- cas flow ::@:: capital acquisitions ratio, free cash flow, quality of income
+- cash flow ::@:: capital acquisitions ratio, free cash flow, quality of income
 - cost of goods sold as numerator ::@:: fixed asset turnover, inventory turnover
-- net sales as numerator ::@:: receivables turnover, total asset turnover
+- net sales as numerator ::@:: fixed asset turnover, receivables turnover, total asset turnover
 
 ## list
 
 The list is not exhaustive.
 
-- [current ratio](../../../../general/current%20ratio.md) ::@:: $$\frac {\text{current assets (CA)} } {\text{current liabilities (CL)} }$$
-- [quick ratio](../../../../general/quick%20ratio.md#formula) ::@:: $$\frac {\text{quick assets (QA)} } {\text{current liabilities (CL)} } \,,$$ where $$\text{quick assets (QA)} = \text{current assets (CA)} - \text{inventory (I)} - \text{prepaid expenses (PE)} \,.$$
+- [current ratio](../../../../general/current%20ratio.md) ::@:: $$\frac {\text{current assets (CA)} } {\text{current liabilities (CL)} } \,,$$ noting that current assets include current contra-assets.
+- [quick ratio](../../../../general/quick%20ratio.md#formula) ::@:: $$\frac {\text{quick assets (QA)} } {\text{current liabilities (CL)} } \,,$$ where $$\text{quick assets (QA)} = \text{current assets (CA)} - \text{inventory (I)} - \text{prepaid expenses (PE)} \,,$$ noting that current assets include current contra-assets.
 - [earnings per share](../../../../general/earnings%20per%20share.md) ::@:: $$\frac {\text{net income} - \text{preferred dividends} } {\text{(time-)weighted average outstanding common shares} }$$
 - [net sales](../../../../general/sales%20(accounting).md#gross%20sales%20and%20net%20sales) ::@:: $${\text{gross sales} }-{\text{(customer discounts, returns, allowances)} }$$ For the service industry, the latter does not really exist, so it's simply gross sales, or operating revenues.
 - net profit margin ::@:: $$100\% \cdot \frac {\text{net income} } {\text{net sales} }$$ (Expressing it as a fraction or ratio, i.e. not multiplying by 100%, is also okay!)
-- [total asset turnover](../../../../general/asset%20turnover.md) ::@:: $$\frac {\text{net sales} } {\text{average total assets} }$$ The average total assets is not time-weighted. It is simply the average between the beginning balance and the ending balance.
+- [total asset turnover](../../../../general/asset%20turnover.md) ::@:: $$\frac {\text{net sales} } {\text{average total assets} }$$ The average total assets is not time-weighted. It is simply the average between the beginning balance and the ending balance. Note that total assets include contra-assets.
 - [receivables turnover ratio](../../../../general/receivables%20turnover%20ratio.md) ::@:: $$\frac {\text{net sales} } {\text{average net trade accounts receivables} }$$ Average net trade accounts receivable is not time-weighted, it is simply the average of the beginning and the ending balance. The adjective _net_ means discounts and allowances need to be removed. <p> "Net sales" should really be "net receivable sales" to only account for credit sales, but net credit sales are normally not reported separately.
 - average collection period ::@:: $$\frac {365} {\text{receivables turnover ratio} }$$
 - [inventory turnover](../../../../general/inventory%20turnover.md) ::@:: $$\frac {\text{cost of goods sold} } {\text{average inventory at cost} }$$ <p> Average inventory at cost is simply the average of the value of starting inventory and ending inventory. It is not time-weighted.

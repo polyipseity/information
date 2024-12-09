@@ -31,12 +31,12 @@ tags:
 - total ::@:: It's somewhat arbitrary. At least calculate: <br/> total current assets <br/> total cost: property and equipment <br/> net property and equipment: total cost less accumulated depreciation <br/> total assets <br/> total current liabilities <br/> total liabilities <br/> total stockholders' equity <br/> total liabilities and stockholders' equity
   - total / format ::@:: Indent the total at least twice. <p> Add a (over)line above the total. <p> For the two totals under assets, and liabilities and stockholders' equity, no need to indent, and additionally add double (under)lines below the totals.
 - negative number ::@:: Write negative numbers in brackets, not with a minus sign. For example, write `(42)` instead of `-42`.
-- casing ::@:: Use title case for basically everything!!! (Ignore that I have been NOT using title case in this note.)
+- casing ::@:: Use title case or for basically everything!!! (Ignore that I have been NOT using title case in this note.)
 - (root) ::@:: assets (+) <br/> liabilities and stockholders' equity (+)
   - (root) / (+) ::@:: (+) means "has children".
   - (root) / assets ::@:: example: <br/> current assets (+) <br/> property and equipment (+) <br/> intangible assets <br/> total assets: sum above appropriately
     - (root) / assets / current assets ::@:: example: <br/> cash <br/> short-term investments <br/> accounts receivable <br/> supplies <br/> prepaid expanses <br/> total current assets: sum above appropriately
-    - (root) / assets / property and equipment (+) ::@:: example: <br/> land <br/> buildings <br/> equipment <br/> total cast: sum above <br/> accumulated depreciation <br/> net property and equipment: sum above 2 <br/> operating lease right-of-use assets: note this is not summed above
+    - (root) / assets / property and equipment (+) ::@:: example: <br/> land <br/> buildings <br/> equipment <br/> total cost: sum above <br/> accumulated depreciation <br/> net property and equipment: sum above 2 <br/> operating lease right-of-use assets: note this is not summed above
   - (root) / liabilities and stockholders' equity ::@:: example: <br/> current liabilities (+) <br/> notes payable <br/> long-term lease liabilities <br/> total liabilities: sum above appropriately <br/> stockholders' equity (+) <br/> total liabilities and stockholders' equity: sum above appropriately
     - (root) / liabilities and stockholders' equity / current liabilities ::@:: example: <br/> accounts payable <br/> unearned revenue <br/> accrued expenses payable (+) <br/> total current liabilities: sum above appropriately
       - (root) / liabilities and stockholders' equity / current liabilities / accrued expenses payable ::@:: example: <br/> wages payable <br/> utilities payable <br/> current lease liabilities
