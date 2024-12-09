@@ -563,6 +563,10 @@ The content is in teaching order.
     - long question 4: 12 = 9 + 3
     - long question 5: 13 = 6 + 3 + 2 + 2
 - [final examination cheatsheet](final%20examination%20cheatsheet.md)
+- grades: ?/100
+  - According to past experiences, this professor will probably not release final examination grades.
+- report
+  - HKUST yellow answer book (0?, scary) ::@:: I had just realized that the left-hand side is intended for rough work... You are supposed to write your answers on the right-hand side near the end of the exam. Have I been using it wrongly the whole time? <p> I asked the professor after the exam and he said do not worry about it... Let's hope so.
 
 > Dear L456 Students,
 >
