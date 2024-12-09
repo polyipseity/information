@@ -33,7 +33,7 @@ Most adjusting entries could be classified this way: {@{prepaid expenses, accrue
 
 {@{Adjusting entries for prepayments}@} are necessary to {@{account for cash that has been received prior to delivery of goods or completion of services}@}. When {@{this cash is paid, it is first recorded in a prepaid expense asset account}@}; the account is {@{to be expensed either with the passage of time (e.g. rent, insurance) or through use and consumption (e.g. supplies)}@}. <!--SR:!2025-08-22,258,330!2025-05-17,177,310!2025-02-04,99,290!2025-07-04,219,330-->
 
-{@{A company receiving the cash for benefits yet to be delivered}@} will have to {@{record the amount in an unearned revenue [liability](liability%20(financial%20accounting).md) account}@}. Then, {@{an adjusting entry to recognize the revenue is used as necessary}@}. <!--SR:!2025-05-20,180,310!2025-06-10,195,310!2024-12-09,62,310-->
+{@{A company receiving the cash for benefits yet to be delivered}@} will have to {@{record the amount in an unearned revenue [liability](liability%20(financial%20accounting).md) account}@}. Then, {@{an adjusting entry to recognize the revenue is used as necessary}@}. <!--SR:!2025-05-20,180,310!2025-06-10,195,310!2025-09-04,269,330-->
 
 #### example
 
@@ -69,7 +69,7 @@ Accrued expenses {@{have not yet been paid for, so they are recorded in a payabl
 
 ### estimates
 
-A third classification of adjusting entry occurs {@{where the exact amount of an expense cannot easily be determined}@}. {@{The [depreciation](depreciation.md) of fixed assets}@}, for example, is {@{an expense which has to be estimated}@}. <!--SR:!2025-03-21,138,310!2024-12-13,66,310!2024-12-09,62,310-->
+A third classification of adjusting entry occurs {@{where the exact amount of an expense cannot easily be determined}@}. {@{The [depreciation](depreciation.md) of fixed assets}@}, for example, is {@{an expense which has to be estimated}@}. <!--SR:!2025-03-21,138,310!2024-12-13,66,310!2025-09-05,270,330-->
 
 The entry for bad debt expense can also be classified as an estimate.
 

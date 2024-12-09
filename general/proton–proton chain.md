@@ -23,7 +23,7 @@ The __proton–proton chain__, also commonly referred to as the __p–p chain__,
 
 The first step in all the branches is {@{the fusion of two [protons](proton.md) ([hydrogen](hydrogen.md)) into a [deuteron](deuteron.md)}@}. As the protons fuse, {@{one of them undergoes [β+ decay](positron%20emission.md), converting into a [neutron](neutron.md) by emitting a [positron](positron.md) and an [electron neutrino](electron%20neutrino.md)}@} (though a small amount of deuterium nuclei is produced by the [PEP reaction](#the%20PEP%20reaction)): {@{$$\mathrm{p} + \mathrm{p} \to {}_1^2 \mathrm{D} + \mathrm{e}^+ + \nu_{\mathrm{e} } + 0.42\text{ MeV}$$}@}. <!--SR:!2025-01-22,117,295!2025-01-29,123,295!2024-12-17,91,275-->
 
-- 1st step / energy release ::@:: 0.42 MeV <!--SR:!2025-01-18,118,290!2024-12-09,101,290-->
+- 1st step / energy release ::@:: 0.42 MeV <!--SR:!2025-01-18,118,290!2025-10-04,299,290-->
 
 The [positron](positron.md) will {@{[annihilate](annihilation.md) with an [electron](electron.md) from the environment into two [gamma rays](gamma%20ray.md). Including this annihilation and the energy of the neutrino}@}, the net reaction {@{$$\mathrm{p} + \mathrm{p} + \mathrm{e}^- \to {}_1^2 \mathrm{D} + \nu_{\mathrm{e} } + 2\, \gamma + 1.442\text{ MeV }$$}@}, which is the same as the [PEP reaction](#the%20PEP%20reaction). The relative amounts of energy {@{going to the neutrino and to the other products is variable}@}. <!--SR:!2024-12-15,94,270!2025-01-30,114,250!2025-03-07,148,270-->
 

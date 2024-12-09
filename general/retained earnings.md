@@ -33,7 +33,7 @@ If {@{a company is publicly held}@}, the balance of retained earnings account th
 
 Retained earnings are {@{reported in the [shareholders' equity](equity%20(finance).md) section of the corporation's [balance sheet](balance%20sheet.md)}@}. Corporations with net accumulated losses may {@{refer to negative shareholders' equity as positive _shareholders' deficit_}@}. A report of the movements in retained earnings is presented along with {@{[other comprehensive income](accumulated%20other%20comprehensive%20income.md) and changes in [share capital](share%20capital.md) in the [statement of changes in equity](statement%20of%20changes%20in%20equity.md)}@}. <!--SR:!2025-04-16,156,310!2025-02-15,103,290!2025-05-20,166,270-->
 
-Due to {@{the nature of [double-entry](double-entry%20bookkeeping.md) [accrual accounting](accrual.md)}@}, retained earnings {@{do not represent surplus cash available to a company}@}. Rather, they represent {@{how the company has managed its profits (i.e. whether it has distributed them as dividends or reinvested them in the business)}@}. When reinvested, those retained earnings are {@{reflected as increases in assets (which could include cash) or reductions to liabilities on the balance sheet}@}. <!--SR:!2025-06-13,188,310!2024-12-09,60,310!2025-07-09,223,330!2025-02-19,98,270-->
+Due to {@{the nature of [double-entry](double-entry%20bookkeeping.md) [accrual accounting](accrual.md)}@}, retained earnings {@{do not represent surplus cash available to a company}@}. Rather, they represent {@{how the company has managed its profits (i.e. whether it has distributed them as dividends or reinvested them in the business)}@}. When reinvested, those retained earnings are {@{reflected as increases in assets (which could include cash) or reductions to liabilities on the balance sheet}@}. <!--SR:!2025-06-13,188,310!2025-08-26,260,330!2025-07-09,223,330!2025-02-19,98,270-->
 
 ## stockholders' equity
 
@@ -47,7 +47,7 @@ A company is normally subject to {@{a company tax on the net income of the compa
 
 {@{The issue of [bonus shares](bonus%20share.md), even if funded out of retained earnings}@}, will in {@{most jurisdictions}@} {@{not be treated as a dividend distribution and not taxed in the hands of the shareholder}@}. <!--SR:!2025-04-15,156,310!2025-05-08,170,310!2024-12-16,57,270-->
 
-Retaining earnings by a company {@{increases the company's shareholder equity, which increases the value of each shareholder's shareholding}@}. This {@{increases the share price, which may result in a [capital gains tax](capital%20gains%20tax.md) liability when the shares are disposed of}@}. <!--SR:!2024-12-09,62,310!2025-01-27,81,270-->
+Retaining earnings by a company {@{increases the company's shareholder equity, which increases the value of each shareholder's shareholding}@}. This {@{increases the share price, which may result in a [capital gains tax](capital%20gains%20tax.md) liability when the shares are disposed of}@}. <!--SR:!2025-09-03,268,330!2025-01-27,81,270-->
 
 The decision of {@{whether a corporation should retain net income or have it paid out as dividends}@} depends on several factors including, but not limited to: <!--SR:!2025-08-03,243,330-->
 

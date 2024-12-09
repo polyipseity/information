@@ -9,7 +9,7 @@ tags:
 
 # luminosity
 
-__Luminosity__ is {@{an absolute measure of radiated [electromagnetic energy](electromagnetic%20radiation.md) ([light](light.md)) per [unit time](unit%20of%20time.md), and is synonymous with the [radiant power](radiant%20flux.md) emitted by a light-emitting object}@}. <!--SR:!2024-12-09,98,290-->
+__Luminosity__ is {@{an absolute measure of radiated [electromagnetic energy](electromagnetic%20radiation.md) ([light](light.md)) per [unit time](unit%20of%20time.md), and is synonymous with the [radiant power](radiant%20flux.md) emitted by a light-emitting object}@}. <!--SR:!2025-09-22,287,290-->
 
 ## references
 

@@ -9,7 +9,7 @@ tags:
 
 # zinc oxide
 
-__Zinc oxide__ is {@{a [chemical compound](chemical%20compound.md) with the [chemical formula](chemical%20formula.md) __[Zn](zinc.md)[O](oxygen.md)__}@}. It looks like {@{white [solid](solid.md) and yellow on heating due to [thermochromism](theromochromism.md)}@}. <!--SR:!2028-04-26,1437,350!2024-12-09,149,170-->
+__Zinc oxide__ is {@{a [chemical compound](chemical%20compound.md) with the [chemical formula](chemical%20formula.md) __[Zn](zinc.md)[O](oxygen.md)__}@}. It looks like {@{white [solid](solid.md) and yellow on heating due to [thermochromism](theromochromism.md)}@}. <!--SR:!2028-04-26,1437,350!2025-08-25,259,170-->
 
 ## references
 
