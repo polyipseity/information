@@ -48,7 +48,7 @@ This article uses {@{the term _inversion vector_ \($v$\) like [Wolfram](Wolfram%
 
 > {@{![Rothe diagram of \(2, 5, 4, 6, 3, 1\)](../archives/Wikimedia%20Commons/Inversion%20example;%20Rothe%201.svg)}@}
 >
-> {@{Rothe diagram of \(2, 5, 4, 6, 3, 1\)}@} (Annotation: Try to figure out {@{how one constructs the above Rothe diagram from the given sequence}@}.) <!--SR:!2024-12-15,16,292!2024-12-14,15,292!2024-12-10,12,272-->
+> {@{Rothe diagram of \(2, 5, 4, 6, 3, 1\)}@} (Annotation: Try to figure out {@{how one constructs the above Rothe diagram from the given sequence}@}.) <!--SR:!2024-12-15,16,292!2024-12-14,15,292!2025-01-27,48,292-->
 
 __Inversion vector $v$:__ ::@:: With the _element-based_ definition $v(i)$ is the number of inversions whose _smaller_ \(right\) component is $i$.<sup>[\[3\]](#^ref-3)</sup> <!--SR:!2024-12-11,12,272!2024-12-11,12,272-->
 
@@ -60,12 +60,12 @@ __Left inversion count $l$:__ ::@:: With the _place-based_ definition $l(i)$ is 
 - left inversion count, in words ::@:: $l(i)$ is the number of elements in $\pi$ greater than $\pi (i)$ before $\pi (i)$. <!--SR:!2024-12-27,20,252!2024-12-14,15,292-->
 - left inversion count, symbolically ::@:: $$l(i)~~=~~\#\left\{k\mid k<i~\land ~\pi (k)>\pi (i)\right\}$$ <!--SR:!2024-12-14,15,292!2024-12-27,20,252-->
 
-__Right inversion count $r$, often called _[Lehmer code](lehmer%20code.md)_:__ ::@:: With the _place-based_ definition $r(i)$ is the number of inversions whose _smaller_ \(left\) component is $i$. <!--SR:!2024-12-09,11,272!2024-12-10,12,272-->
+__Right inversion count $r$, often called _[Lehmer code](lehmer%20code.md)_:__ ::@:: With the _place-based_ definition $r(i)$ is the number of inversions whose _smaller_ \(left\) component is $i$. <!--SR:!2025-01-08,29,272!2025-01-12,33,272-->
 
 - right inversion count, in words ::@:: $r(i)$ is the number of elements in $\pi$ smaller than $\pi (i)$ after $\pi (i)$. <!--SR:!2024-12-14,15,292!2024-12-15,16,292-->
 - right inversion count, symbolically ::@:: $$r(i)~~=~~\#\{k\mid k>i~\land ~\pi (k)<\pi (i)\}$$ <!--SR:!2024-12-15,16,292!2024-12-14,15,292-->
 
-{@{Both $v$ and $r$}@} can be {@{found with the help of a [Rothe diagram](permutation.md#numbering%20permutations)}@}, which is {@{a [permutation matrix](permutation%20matrix.md)}@} with {@{the 1s represented by dots}@}, and {@{an inversion \(often represented by a cross\) in every position that has a dot to the right and below it}@}. $r(i)$ is the sum of inversions in row $i$ of the Rothe diagram, while $v(i)$ is the sum of inversions in column $i$. The permutation matrix of the inverse is the transpose, therefore $v$ of a permutation is $r$ of its inverse, and vice versa. <!--SR:!2024-12-14,15,292!2024-12-11,12,272!2024-12-09,11,272!2024-12-14,15,292!2024-12-15,16,292-->
+{@{Both $v$ and $r$}@} can be {@{found with the help of a [Rothe diagram](permutation.md#numbering%20permutations)}@}, which is {@{a [permutation matrix](permutation%20matrix.md)}@} with {@{the 1s represented by dots}@}, and {@{an inversion \(often represented by a cross\) in every position that has a dot to the right and below it}@}. $r(i)$ is the sum of inversions in row $i$ of the Rothe diagram, while $v(i)$ is the sum of inversions in column $i$. The permutation matrix of the inverse is the transpose, therefore $v$ of a permutation is $r$ of its inverse, and vice versa. <!--SR:!2024-12-14,15,292!2024-12-11,12,272!2025-01-19,40,292!2024-12-14,15,292!2024-12-15,16,292-->
 
 ## example: all permutations of four elements
 
@@ -73,9 +73,9 @@ __Right inversion count $r$, often called _[Lehmer code](lehmer%20code.md)_:__ :
 >
 > {@{The six possible inversions of a 4-element permutation}@} <!--SR:!2024-12-15,16,292!2024-12-15,16,292-->
 
-{@{The following sortable table}@} shows {@{the 24 permutations of four elements \(in the $\pi$ column\)}@} with {@{their place-based inversion sets \(in the p-b column\), inversion related vectors \(in the $v$, $l$, and $r$ columns\), and inversion numbers \(in the \# column\)}@}. \({@{The columns with smaller print and no heading}@} are {@{reflections of the columns next to them}@}, and can be used to {@{sort them in [colexicographic order](lexicographic%20order.md#colexicographic%20order)}@}.\) <!--SR:!2024-12-14,15,292!2024-12-14,15,292!2024-12-14,15,292!2024-12-14,15,292!2024-12-14,15,292!2024-12-09,11,272-->
+{@{The following sortable table}@} shows {@{the 24 permutations of four elements \(in the $\pi$ column\)}@} with {@{their place-based inversion sets \(in the p-b column\), inversion related vectors \(in the $v$, $l$, and $r$ columns\), and inversion numbers \(in the \# column\)}@}. \({@{The columns with smaller print and no heading}@} are {@{reflections of the columns next to them}@}, and can be used to {@{sort them in [colexicographic order](lexicographic%20order.md#colexicographic%20order)}@}.\) <!--SR:!2024-12-14,15,292!2024-12-14,15,292!2024-12-14,15,292!2024-12-14,15,292!2024-12-14,15,292!2025-01-08,29,272-->
 
-It can be seen that {@{$v$ and $l$ always have the same digits}@}, and that {@{$l$ and $r$ are both related to the place-based inversion set}@}. {@{The nontrivial elements of $l$}@} are {@{the sums of the descending diagonals of the shown triangle}@}, and {@{those of $r$}@} are {@{the sums of the ascending diagonals}@}. \({@{Pairs in descending diagonals}@} have {@{the right components 2, 3, 4 in common}@}, while {@{pairs in ascending diagonals}@} have {@{the left components 1, 2, 3 in common}@}.\) <!--SR:!2024-12-14,15,292!2024-12-15,16,292!2024-12-14,15,292!2024-12-14,15,292!2024-12-14,15,292!2024-12-14,15,292!2024-12-14,15,292!2025-01-16,39,292!2024-12-10,12,272!2024-12-15,16,292-->
+It can be seen that {@{$v$ and $l$ always have the same digits}@}, and that {@{$l$ and $r$ are both related to the place-based inversion set}@}. {@{The nontrivial elements of $l$}@} are {@{the sums of the descending diagonals of the shown triangle}@}, and {@{those of $r$}@} are {@{the sums of the ascending diagonals}@}. \({@{Pairs in descending diagonals}@} have {@{the right components 2, 3, 4 in common}@}, while {@{pairs in ascending diagonals}@} have {@{the left components 1, 2, 3 in common}@}.\) <!--SR:!2024-12-14,15,292!2024-12-15,16,292!2024-12-14,15,292!2024-12-14,15,292!2024-12-14,15,292!2024-12-14,15,292!2024-12-14,15,292!2025-01-16,39,292!2025-01-11,32,272!2024-12-15,16,292-->
 
 {@{The default order of the table}@} is {@{reverse colex order by $\pi$, which is the same as colex order by $l$}@}. {@{Lex order by $\pi$ is the same as lex order by $r$}@}. <!--SR:!2024-12-15,16,292!2024-12-27,20,252!2024-12-15,16,292-->
 

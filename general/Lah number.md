@@ -25,7 +25,7 @@ tags:
 
 # Lah number
 
-In [mathematics](mathematics.md), the __(signed and unsigned) Lah numbers__ are {@{[coefficients](coefficient.md) expressing [rising factorials](falling%20and%20rising%20factorials.md) in terms of [falling factorials](falling%20and%20rising%20factorials.md) and vice versa}@}. They were discovered by {@{[Ivo Lah](Ivo%20Lah.md) in 1954}@}.<sup>[\[1\]](#^ref-1)</sup><sup>[\[2\]](#^ref-2)</sup> Explicitly, {@{the unsigned Lah numbers $L(n,k)$}@} are given by {@{the formula involving the [binomial coefficient](binomial%20coefficient.md) $$L(n,k)={n-1 \choose k-1}{\frac {n!}{k!} }$$ for $n\geq k\geq 1$}@}. <!--SR:!2025-01-28,72,310!2024-12-09,29,270!2025-01-27,71,310!2025-01-27,71,310-->
+In [mathematics](mathematics.md), the __(signed and unsigned) Lah numbers__ are {@{[coefficients](coefficient.md) expressing [rising factorials](falling%20and%20rising%20factorials.md) in terms of [falling factorials](falling%20and%20rising%20factorials.md) and vice versa}@}. They were discovered by {@{[Ivo Lah](Ivo%20Lah.md) in 1954}@}.<sup>[\[1\]](#^ref-1)</sup><sup>[\[2\]](#^ref-2)</sup> Explicitly, {@{the unsigned Lah numbers $L(n,k)$}@} are given by {@{the formula involving the [binomial coefficient](binomial%20coefficient.md) $$L(n,k)={n-1 \choose k-1}{\frac {n!}{k!} }$$ for $n\geq k\geq 1$}@}. <!--SR:!2025-01-28,72,310!2025-03-29,109,290!2025-01-27,71,310!2025-01-27,71,310-->
 
 {@{Unsigned Lah numbers}@} have {@{an interesting meaning in [combinatorics](combinatorics.md)}@}: they {@{count the number of ways a [set](set%20(mathematics).md) of _n_ elements can be [partitioned](partition%20of%20a%20set.md) into _k_ nonempty linearly ordered [subsets](subset.md)}@}.<sup>[\[3\]](#^ref-3)</sup> Lah numbers are related to [Stirling numbers](Stirling%20number.md).<sup>[\[4\]](#^ref-4)</sup> (Annotation: Indeed, there is a combinatorial way to interpret the formula for Lah numbers. First, {@{_n_! counts the number of ways to order _n_ items. Then, $\binom {n - 1} {k - 1}$ counts the number of ways to insert _k_ − 1 "walls" in between the _n_ items (_n_ − 1 slots) to make _k_ nonempty labelled partitions. Finally, dividing by _k_! makes the partitions unlabeled}@}.) <!--SR:!2025-01-22,66,310!2025-01-27,71,310!2024-12-19,39,290!2025-01-28,72,310-->
 
@@ -55,7 +55,7 @@ The row sums are $1,1,3,13,73,501,4051,37633,\dots$ (sequence [A000262](https://
 
 Let {@{$x^{(n)}$ represent the [rising factorial](falling%20and%20rising%20factorials.md) $x(x+1)(x+2)\cdots (x+n-1)$ and let $(x)_{n}$ represent the [falling factorial](falling%20and%20rising%20factorials.md) $x(x-1)(x-2)\cdots (x-n+1)$}@}. The Lah numbers are {@{the coefficients that express each of these families of polynomials in terms of the other}@}. Explicitly, {@{$$x^{(n)}=\sum _{k=0}^{n}L(n,k)(x)_{k}$$and$$(x)_{n}=\sum _{k=0}^{n}(-1)^{n-k}L(n,k)x^{(k)}.$$}@} (Annotation: The change of basis to the falling factorials uses {@{unsigned while that to the rising factorials uses signed}@}.) <!--SR:!2025-01-25,69,310!2025-01-28,72,310!2025-01-23,67,310!2025-01-28,72,310-->
 
-For example, {@{$$x(x+1)(x+2)={\color {red}6}x+{\color {red}6}x(x-1)+{\color {red}1}x(x-1)(x-2)$$and$$x(x-1)(x-2)={\color {red}6}x-{\color {red}6}x(x+1)+{\color {red}1}x(x+1)(x+2),$$}@} where {@{the coefficients 6, 6, and 1 are exactly the Lah numbers $L(3,1)$, $L(3,2)$, and $L(3,3)$}@}. <!--SR:!2024-12-09,29,270!2025-01-27,71,310-->
+For example, {@{$$x(x+1)(x+2)={\color {red}6}x+{\color {red}6}x(x-1)+{\color {red}1}x(x-1)(x-2)$$and$$x(x-1)(x-2)={\color {red}6}x-{\color {red}6}x(x+1)+{\color {red}1}x(x+1)(x+2),$$}@} where {@{the coefficients 6, 6, and 1 are exactly the Lah numbers $L(3,1)$, $L(3,2)$, and $L(3,3)$}@}. <!--SR:!2025-02-28,80,270!2025-01-27,71,310-->
 
 ## identities and relations
 
@@ -73,7 +73,7 @@ The Lah numbers satisfy {@{the recurrence relations $${\begin{aligned}L(n+1,k)&=
 
 ### exponential generating function
 
-- exponential generating function for fixed _k_ ::@:: $$\sum_{n\geq k}L(n,k){\frac {x^{n} }{n!} }={\frac {1}{k!} }\left({\frac {x}{1-x} }\right)^{k}$$ <!--SR:!2025-01-17,52,250!2024-12-09,24,230-->
+- exponential generating function for fixed _k_ ::@:: $$\sum_{n\geq k}L(n,k){\frac {x^{n} }{n!} }={\frac {1}{k!} }\left({\frac {x}{1-x} }\right)^{k}$$ <!--SR:!2025-01-17,52,250!2025-02-05,57,230-->
 
 ### derivative of exp(1/_x_)
 

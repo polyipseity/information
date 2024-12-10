@@ -148,7 +148,7 @@ return _chain.from_iterable(await _gather(
 - `<`:@:lesser than <!--SR:!2027-08-02,992,350-->
 - `>`:@:greater than <!--SR:!2025-02-28,302,330-->
 - `<=`:@:lesser than or equal to <!--SR:!2024-12-24,248,330-->
-- `>=`:@:greater than or equal to <!--SR:!2024-12-09,237,330-->
+- `>=`:@:greater than or equal to <!--SR:!2027-11-23,1078,350-->
 - `<>`:@:not equal to <!--SR:!2025-01-23,273,330-->
 
 <!--/pytextgen-->
@@ -198,7 +198,7 @@ return _chain.from_iterable(await _gather(
 
 - _(begin)_→::@::←`NOT(boolean)` <!--SR:!2025-01-07,260,330!2025-03-01,304,330-->
 - `NOT(boolean)`→::@::←`AND(booleans...)` <!--SR:!2026-06-10,643,330!2025-02-09,285,330-->
-- `AND(booleans...)`→::@::←`OR(booleans...)` <!--SR:!2024-12-10,238,330!2026-09-20,720,330-->
+- `AND(booleans...)`→::@::←`OR(booleans...)` <!--SR:!2027-12-02,1087,350!2026-09-20,720,330-->
 - `OR(booleans...)`→::@::←_(end)_ <!--SR:!2024-12-16,242,330!2025-01-24,272,330-->
 
 <!--/pytextgen-->

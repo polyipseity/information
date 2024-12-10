@@ -36,7 +36,7 @@ tags:
     - `MEDIUMBLOB` ::@:: Up to 2<sup>24</sup> - 1 bytes of binary string. <!--SR:!2026-11-04,783,310!2025-01-31,385,330-->
     - `LONGBLOB` ::@:: Up to 2<sup>32</sup> - 1 bytes of binary string. <!--SR:!2025-08-06,391,290!2027-11-14,1140,330-->
   - `CHAR`, `VARCHAR` ::@:: Strings. Length of the former is fixed and of the latter is variable. <!--SR:!2025-02-12,393,330!2028-06-11,1286,330-->
-    - `CHAR` ::@:: Up to 2<sup>8</sup> - 1 bytes of fixed-size string. <!--SR:!2024-12-09,342,330!2027-11-24,1149,330-->
+    - `CHAR` ::@:: Up to 2<sup>8</sup> - 1 bytes of fixed-size string. <!--SR:!2029-03-17,1558,350!2027-11-24,1149,330-->
     - `VARCHAR` ::@:: Up to 2<sup>16</sup> - 1 bytes of string. Shared among columns in a row. <!--SR:!2025-03-27,428,330!2025-04-18,432,330-->
   - `TINYTEXT`, `TEXT`, `MEDIUMTEXT`, `LONGTEXT` ::@:: Unindexed prefix-indexable long strings. <!--SR:!2027-01-25,839,310!2028-03-06,1227,330-->
     - `TINYTEXT` ::@:: Up to 2<sup>8</sup> - 1 bytes of string. <!--SR:!2026-12-09,823,330!2025-03-23,424,330-->

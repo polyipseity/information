@@ -15,7 +15,7 @@ __Financial accounting__ is {@{a branch of [accounting](accounting.md) concerned
 
 Financial accountancy is governed by {@{both local and international accounting standards}@}. {@{[Generally Accepted Accounting Principles](accounting%20standard.md) (GAAP)}@} is {@{the standard framework of guidelines for financial accounting used in any given jurisdiction}@}. It includes {@{the standards, conventions and rules that accountants follow in recording and summarizing and in the preparation of financial statements}@}. <!--SR:!2025-08-06,254,330!2025-05-01,175,310!2025-05-13,184,310!2025-04-05,142,290-->
 
-On the other hand, {@{[International Financial Reporting Standards](International%20Financial%20Reporting%20Standards.md) (IFRS)}@} is {@{a set of accounting standards stating how particular types of transactions and other events should be reported in financial statements}@}. IFRS are issued by {@{the [International Accounting Standards Board](International%20Accounting%20Standards%20Board.md) (IASB)}@}.<sup>[\[2\]](#^ref-2)</sup> With {@{IFRS becoming more widespread on the international scene}@}, {@{_consistency_ in financial reporting has become more prevalent between global organizations}@}. <!--SR:!2025-06-18,212,310!2025-09-05,276,330!2025-07-07,229,330!2024-12-10,70,310!2025-07-25,244,330-->
+On the other hand, {@{[International Financial Reporting Standards](International%20Financial%20Reporting%20Standards.md) (IFRS)}@} is {@{a set of accounting standards stating how particular types of transactions and other events should be reported in financial statements}@}. IFRS are issued by {@{the [International Accounting Standards Board](International%20Accounting%20Standards%20Board.md) (IASB)}@}.<sup>[\[2\]](#^ref-2)</sup> With {@{IFRS becoming more widespread on the international scene}@}, {@{_consistency_ in financial reporting has become more prevalent between global organizations}@}. <!--SR:!2025-06-18,212,310!2025-09-05,276,330!2025-07-07,229,330!2025-10-11,305,330!2025-07-25,244,330-->
 
 While financial accounting is {@{used to prepare accounting information for people outside the organization or not involved in the day-to-day running of the company}@}, [managerial accounting](management%20accounting.md) {@{provides accounting information to help managers make decisions to manage the business}@}. <!--SR:!2025-03-11,133,290!2025-07-11,232,330-->
 
@@ -59,7 +59,7 @@ The statement of cash flows {@{considers the inputs and outputs in concrete cash
 > - {@{cash inflow}@}: {@{$20}@}
 > - {@{cash outflow}@}: {@{$7}@}
 > - {@{opening balance}@}: {@{$5}@}
-> - {@{__closing balance__}@}: {@{__$20 – $7 + $5 = $18__}@} <!--SR:!2025-06-28,221,330!2024-12-09,69,310!2025-09-14,284,330!2025-03-24,147,310!2025-03-19,143,310!2025-05-02,176,310!2025-09-07,278,330!2025-07-24,241,330-->
+> - {@{__closing balance__}@}: {@{__$20 – $7 + $5 = $18__}@} <!--SR:!2025-06-28,221,330!2025-10-05,299,330!2025-09-14,284,330!2025-03-24,147,310!2025-03-19,143,310!2025-05-02,176,310!2025-09-07,278,330!2025-07-24,241,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -106,7 +106,7 @@ Current assets are {@{the most liquid assets of a firm, which are expected to be
 
 Non-current assets include {@{[fixed](fixed%20asset.md) or long-term assets and [intangible assets](intangible%20asset.md)}@}: <!--SR:!2025-03-15,135,290-->
 
-- _fixed (long-term) assets_ ::@:: property, building, equipment (such as factory machinery) <!--SR:!2025-08-11,256,330!2024-12-10,70,310-->
+- _fixed (long-term) assets_ ::@:: property, building, equipment (such as factory machinery) <!--SR:!2025-08-11,256,330!2025-07-15,217,310-->
 - _intangible assets_ ::@:: copyrights, trademarks, patents, goodwill <!--SR:!2025-03-21,131,290!2025-05-06,179,310-->
 
 Liabilities include {@{current liabilities and long-term liabilities}@}: <!--SR:!2025-06-01,195,310-->
@@ -118,9 +118,9 @@ Liabilities include {@{current liabilities and long-term liabilities}@}: <!--SR:
 
 #### statement of retained earnings
 
-The statement of retained earnings is also called {@{statement of changes in equity}@}. <!--SR:!2024-12-09,62,335-->
+The statement of retained earnings is also called {@{statement of changes in equity}@}. <!--SR:!2025-09-29,293,355-->
 
-This statement is {@{additional to the three main statements described above}@}. It shows {@{how the distribution of income and transfer of dividends affects the wealth of shareholders in the company}@}. The concept of retained earnings means {@{profits of previous years that are accumulated till current period}@}. Basic proforma for this statement is as follows: <p> {@{retained earnings at the beginning of period <br/> + net income for the period <br/> – dividends <br/> = retained earnings at the end of period}@}.<sup>[\[9\]](#^ref-9)</sup> <!--SR:!2025-05-27,190,310!2024-12-09,69,310!2025-08-10,257,330!2025-06-04,201,310-->
+This statement is {@{additional to the three main statements described above}@}. It shows {@{how the distribution of income and transfer of dividends affects the wealth of shareholders in the company}@}. The concept of retained earnings means {@{profits of previous years that are accumulated till current period}@}. Basic proforma for this statement is as follows: <p> {@{retained earnings at the beginning of period <br/> + net income for the period <br/> – dividends <br/> = retained earnings at the end of period}@}.<sup>[\[9\]](#^ref-9)</sup> <!--SR:!2025-05-27,190,310!2025-10-06,300,330!2025-08-10,257,330!2025-06-04,201,310-->
 
 ## basic concepts
 
@@ -138,7 +138,7 @@ The stable monetary unit assumption is {@{not applied during hyperinflation}@}. 
 
 Financial accountants produce {@{financial statements based on the accounting standards in a given jurisdiction}@}. These standards may be {@{the [Generally Accepted Accounting Principles](accounting%20standard.md) of a respective country, which are typically issued by a national standard setter}@}, or {@{[International Financial Reporting Standards](International%20Financial%20Reporting%20Standards.md) (IFRS), which are issued by the [International Accounting Standards Board](International%20Accounting%20Standards%20Board.md) (IASB)}@}. <!--SR:!2025-06-03,200,310!2024-12-28,71,270!2025-01-18,87,270-->
 
-Financial accountants serves the following purposes: {@{producing general purpose financial statements}@}; {@{producing information used by the management of a business entity for decision making, planning and performance evaluation}@}; and {@{producing financial statements for meeting regulatory requirements}@}. <!--SR:!2025-02-22,98,250!2025-01-29,56,337!2024-12-09,18,337-->
+Financial accountants serves the following purposes: {@{producing general purpose financial statements}@}; {@{producing information used by the management of a business entity for decision making, planning and performance evaluation}@}; and {@{producing financial statements for meeting regulatory requirements}@}. <!--SR:!2025-02-22,98,250!2025-01-29,56,337!2025-02-12,64,337-->
 
 Objectives include:
 

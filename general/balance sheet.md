@@ -29,7 +29,7 @@ A balance sheet {@{summarizes an organization's or individual's assets, [equity]
 
 ### personal
 
-A personal balance sheet lists {@{current [assets](asset.md) such as cash in [checking accounts](transaction%20account.md) and [savings accounts](savings%20account.md)}@}, {@{long-term assets such as [common stock](common%20stock.md) and [real estate](real%20estate.md)}@}, {@{current liabilities such as [loan](loan.md) debt and [mortgage](mortgage.md) debt due, or overdue}@}, {@{long-term liabilities such as [mortgage](mortgage.md) and other loan debt}@}. {@{Securities and real estate values}@} are {@{listed at [market value](market%20value.md) rather than at [historical cost](historical%20cost.md) or [cost basis](cost%20basis.md)}@}. Personal [net worth](net%20worth.md) is {@{the difference between an individual's total assets and total liabilities}@}.<sup>[\[10\]](#^ref-10)</sup> <!--SR:!2025-08-23,259,330!2025-02-06,105,290!2025-06-19,206,330!2025-04-06,149,310!2024-12-27,72,290!2025-06-04,192,310!2024-12-09,62,310-->
+A personal balance sheet lists {@{current [assets](asset.md) such as cash in [checking accounts](transaction%20account.md) and [savings accounts](savings%20account.md)}@}, {@{long-term assets such as [common stock](common%20stock.md) and [real estate](real%20estate.md)}@}, {@{current liabilities such as [loan](loan.md) debt and [mortgage](mortgage.md) debt due, or overdue}@}, {@{long-term liabilities such as [mortgage](mortgage.md) and other loan debt}@}. {@{Securities and real estate values}@} are {@{listed at [market value](market%20value.md) rather than at [historical cost](historical%20cost.md) or [cost basis](cost%20basis.md)}@}. Personal [net worth](net%20worth.md) is {@{the difference between an individual's total assets and total liabilities}@}.<sup>[\[10\]](#^ref-10)</sup> <!--SR:!2025-08-23,259,330!2025-02-06,105,290!2025-06-19,206,330!2025-04-06,149,310!2024-12-27,72,290!2025-06-04,192,310!2025-09-05,269,330-->
 
 ### US small business
 
@@ -48,7 +48,7 @@ A personal balance sheet lists {@{current [assets](asset.md) such as cash in [ch
 > |                                                                                                                     | &ensp;&ensp;&ensp;&ensp; _Total owners' equity_ &ensp;&ensp;&ensp; $7&nbsp;800                                                              |
 > | _Total_ &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; __$37&nbsp;800__ | _Total_ &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; __$37&nbsp;800__ |
 
-A small business balance sheet lists {@{current assets such as cash, [accounts receivable](accounts%20receivable.md), and [inventory](inventory.md)}@}, {@{fixed assets such as land, buildings, and equipment}@}, {@{[intangible assets](intangible%20asset.md) such as [patents](patent.md)}@}, and {@{liabilities such as [accounts payable](accounts%20payable.md), accrued expenses, and long-term debt}@}. {@{[Contingent liabilities](contingent%20liability.md) such as [warranties](warranty.md)}@} are {@{noted in the footnotes to the balance sheet}@}. The small business's equity is {@{the difference between total assets and total liabilities}@}.<sup>[\[12\]](#^ref-12)</sup> <!--SR:!2025-07-29,239,330!2025-06-27,208,310!2024-12-10,63,310!2025-03-20,127,290!2025-08-10,249,330!2024-12-15,68,310!2024-12-31,71,270-->
+A small business balance sheet lists {@{current assets such as cash, [accounts receivable](accounts%20receivable.md), and [inventory](inventory.md)}@}, {@{fixed assets such as land, buildings, and equipment}@}, {@{[intangible assets](intangible%20asset.md) such as [patents](patent.md)}@}, and {@{liabilities such as [accounts payable](accounts%20payable.md), accrued expenses, and long-term debt}@}. {@{[Contingent liabilities](contingent%20liability.md) such as [warranties](warranty.md)}@} are {@{noted in the footnotes to the balance sheet}@}. The small business's equity is {@{the difference between total assets and total liabilities}@}.<sup>[\[12\]](#^ref-12)</sup> <!--SR:!2025-07-29,239,330!2025-06-27,208,310!2025-09-12,276,330!2025-03-20,127,290!2025-08-10,249,330!2024-12-15,68,310!2024-12-31,71,270-->
 
 ### charities
 
@@ -58,7 +58,7 @@ In {@{[England and Wales](England%20and%20Wales.md)}@}, {@{smaller [charities](c
 
 Guidelines for balance sheets of public business entities are given by {@{the [International Accounting Standards Board](International%20Accounting%20Standards%20Board.md) and numerous country-specific organizations/companies}@}. {@{The standard used by companies in the US}@} adheres to {@{[U.S. Generally Accepted Accounting Principles](Generally%20Accepted%20Accounting%20Principles%20(United%20States).md) (GAAP)}@}. {@{The [Federal Accounting Standards Advisory Board](Federal%20Accounting%20Standards%20Advisory%20Board.md) (FASAB)}@} is {@{a United States federal advisory committee whose mission is to develop generally accepted accounting principles (GAAP) for federal financial reporting entities}@}. <!--SR:!2024-12-25,67,270!2024-12-11,64,310!2025-07-19,231,330!2024-12-11,64,310!2024-12-20,71,310-->
 
-Balance sheet account names and usage depend on {@{the organization's country and the type of organization}@}. Government organizations {@{do not generally follow standards established for individuals or businesses}@}.<sup>[\[14\]](#^ref-14)</sup><sup>[\[15\]](#^ref-15)</sup><sup>[\[16\]](#^ref-16)</sup> <!--SR:!2025-07-08,222,330!2024-12-09,62,310-->
+Balance sheet account names and usage depend on {@{the organization's country and the type of organization}@}. Government organizations {@{do not generally follow standards established for individuals or businesses}@}.<sup>[\[14\]](#^ref-14)</sup><sup>[\[15\]](#^ref-15)</sup><sup>[\[16\]](#^ref-16)</sup> <!--SR:!2025-07-08,222,330!2025-09-06,270,330-->
 
 If applicable to the business, summary values for the following items should be included in the balance sheet:<sup>[\[17\]](#^ref-17)</sup>
 
@@ -77,7 +77,7 @@ Assets are {@{all the things the business owns}@}. This will include {@{property
 3. [inventories](inventory.md) ::@:: goods and materials that a business holds for the ultimate goal of resale, production or utilization <!--SR:!2025-06-05,191,310!2024-12-13,66,310-->
 4. cash at bank, [petty cash](petty%20cash.md), cash on hand ::@:: small amount of discretionary funds in the form of cash used for minor expenditures <!--SR:!2025-05-23,182,310!2025-08-06,246,330-->
 5. [prepaid expenses](deferral.md) for future services that will be used within one financial period ::@:: cash paid in advance for goods or services that will be consumed within one financial period <!--SR:!2025-04-27,152,310!2025-04-14,138,290-->
-6. revenue earned in arrears ([accrued revenue](accrual.md)) for services done but not yet received for the financial period ::@:: income that is recognized at the time a company delivers a service or good, even though the company has not yet been paid, and will pay within one financial period <!--SR:!2025-05-13,164,310!2024-12-10,63,310-->
+6. revenue earned in arrears ([accrued revenue](accrual.md)) for services done but not yet received for the financial period ::@:: income that is recognized at the time a company delivers a service or good, even though the company has not yet been paid, and will pay within one financial period <!--SR:!2025-05-13,164,310!2025-09-07,271,330-->
 7. [loan](loan.md) to (less than one financial period) ::@:: transfer of money by us to another with an agreement to pay it back within one financial period <!--SR:!2024-12-12,65,310!2025-07-17,229,330-->
 
 #### non-current assets
@@ -107,7 +107,7 @@ Assets are {@{all the things the business owns}@}. This will include {@{property
 
 ### net current assets
 
-__Net current assets__ means {@{current [assets](asset.md) minus current liabilities}@}.<sup>[\[19\]](#^ref-19)</sup> <!--SR:!2024-12-10,63,310-->
+__Net current assets__ means {@{current [assets](asset.md) minus current liabilities}@}.<sup>[\[19\]](#^ref-19)</sup> <!--SR:!2025-09-11,275,330-->
 
 ### equity / capital
 
@@ -138,7 +138,7 @@ Balance sheet substantiation is {@{an important process that is typically carrie
 
 Historically, balance sheet substantiation has been {@{a wholly manual process, driven by [spreadsheets](spreadsheet.md), [email](email.md) and manual monitoring and reporting}@}. In recent years {@{[software](software.md) solutions have been developed}@} to {@{bring a level of [process automation](business%20process%20automation.md), [standardization](standardization.md) and enhanced control to the balance sheet substantiation or account certification process}@}. These solutions are {@{suitable for organizations with a high volume of accounts and/or personnel involved in the balance sheet substantiation process}@} and can be used to {@{drive efficiencies, improve [transparency](transparency%20(behavior).md) and help to reduce risk}@}. <!--SR:!2025-05-19,169,310!2025-08-30,265,330!2025-03-30,129,290!2025-06-18,208,310!2025-06-30,215,330-->
 
-Balance sheet substantiation is {@{a key control process in the [SOX 404 top-down risk assessment](SOX%20404%20top–down%20risk%20assessment.md)}@}. <!--SR:!2024-12-09,62,310-->
+Balance sheet substantiation is {@{a key control process in the [SOX 404 top-down risk assessment](SOX%20404%20top–down%20risk%20assessment.md)}@}. <!--SR:!2025-06-19,191,310-->
 
 ## sample
 

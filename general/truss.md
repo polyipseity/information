@@ -11,7 +11,7 @@ tags:
 
 ## characteristics
 
-A truss consists of {@{typically (but not necessarily) straight members connected at joints or nodes}@}. Trusses are typically (but not necessarily) composed of {@{triangles (triangular units) because of its stability}@}. <!--SR:!2024-12-10,152,310!2026-06-25,582,330-->
+A truss consists of {@{typically (but not necessarily) straight members connected at joints or nodes}@}. Trusses are typically (but not necessarily) composed of {@{triangles (triangular units) because of its stability}@}. <!--SR:!2026-09-23,652,330!2026-06-25,582,330-->
 
 The joints are likely {@{pinned support}@}, so they can {@{resist translation but not rotation}@}. <!--SR:!2025-05-03,268,330!2025-05-04,269,330-->
 

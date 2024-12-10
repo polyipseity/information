@@ -17,7 +17,7 @@ tags:
 
 The discrete Fourier transform (DFT) {@{transforms a sequence of length $N$ into another sequence of length $N$}@}. It is defined by: {@{$$X[k] := \sum_{n = 0}^{N - 1} x[n] \cdot e^{-j 2\pi (k / N) n} = \sum_{n = 0}^{N - 1} x[n] \left(\cos(2 \pi (k / N) n) - j \sin(2 \pi (k / N) n) \right)$$}@}. <!--SR:!2025-07-13,260,330!2025-02-18,124,290-->
 
-The inverse discrete Fourier transform (IDFT) is {@{the inverse of DFT (duh)}@}. It {@{recovers the the original signal of length $N$ given a sequence of length $N$ transformed by DFT}@}. It is defined by: {@{$$x[n] := \frac 1 N \sum_{k = 0}^{N - 1} X[k] \cdot e^{j 2\pi (k / N) n} = \frac 1 N \sum_{k = 0}^{N - 1} X[k] \left(\cos(2 \pi (k / N) n) + j \sin(2 \pi (k / N) n) \right)$$}@}. One can see the formula is {@{almost the same as DFT}@}, except that {@{a factor of $1 / N$ is added, the input and output sequences are swapped, and the sign of the exponent is negated}@}. <!--SR:!2025-08-10,283,330!2025-02-15,136,310!2024-12-10,77,270!2025-09-05,303,330!2025-08-20,291,330-->
+The inverse discrete Fourier transform (IDFT) is {@{the inverse of DFT (duh)}@}. It {@{recovers the the original signal of length $N$ given a sequence of length $N$ transformed by DFT}@}. It is defined by: {@{$$x[n] := \frac 1 N \sum_{k = 0}^{N - 1} X[k] \cdot e^{j 2\pi (k / N) n} = \frac 1 N \sum_{k = 0}^{N - 1} X[k] \left(\cos(2 \pi (k / N) n) + j \sin(2 \pi (k / N) n) \right)$$}@}. One can see the formula is {@{almost the same as DFT}@}, except that {@{a factor of $1 / N$ is added, the input and output sequences are swapped, and the sign of the exponent is negated}@}. <!--SR:!2025-08-10,283,330!2025-02-15,136,310!2025-07-11,213,270!2025-09-05,303,330!2025-08-20,291,330-->
 
 The above formulas are {@{the most conventional way of writing them}@}. The only requirements for the formula of DFT and IDFT are that {@{the sign of the exponent is opposite (convention: $-$ for DFT, $+$ for IDFT) and the product of the two multiplication factors is $1 / N$ (convention: $1$ for DFT, $1 / N$ for IDFT)}@}. <!--SR:!2025-04-27,183,310!2025-09-04,302,330-->
 
@@ -49,7 +49,7 @@ The DFT is {@{a linear transform}@}. That is, {@{$$\mathcal{F}(\{a x_n + b y_n\}
 
 This shift from the time domain to the frequency domain has an intuitive interpretation. Interpret the argument (angle) of the complex number for each frequency as {@{its time offset}@}. Shifting a signal to the right (with warping) in the time domain {@{increases the time offset for all frequencies}@}. This means the complex number for each frequency is {@{multiplied (rotated) by $e^{-\frac {j 2\pi} N k n_0}$, changing its argument (angle) while keeping its modulus (length) unchanged}@}. This corresponds to {@{shifting its corresponding complex sinusoid in the time domain to the right (with warping)}@}. <!--SR:!2025-09-25,317,366!2025-03-25,155,326!2025-05-24,196,326!2025-05-21,195,326-->
 
-By duality, {@{shifting the signal in the frequency to the right by $k_0$ samples}@} corresponds to {@{multiplying the signal in the time domain by $e^{\frac{j 2\pi} N n k_0}$ (notice there is no negative sign)}@}. This can also be shown {@{directly from the definition}@}. <!--SR:!2025-09-18,312,366!2024-12-09,76,306!2025-04-19,180,333-->
+By duality, {@{shifting the signal in the frequency to the right by $k_0$ samples}@} corresponds to {@{multiplying the signal in the time domain by $e^{\frac{j 2\pi} N n k_0}$ (notice there is no negative sign)}@}. This can also be shown {@{directly from the definition}@}. <!--SR:!2025-09-18,312,366!2025-11-04,329,326!2025-04-19,180,333-->
 
 ### symmetry
 
@@ -127,10 +127,10 @@ Zero padding can {@{make the input size suitable}@} for {@{[fast Fourier transfo
 
 Fast Fourier transform (__FFT__) is {@{a fast algorithm for computing the DFT of a signal}@}. It works by {@{breaking down DFT of a long signal into several DFTs of shorter signals recursively}@}. <!--SR:!2025-10-08,325,373!2025-08-16,276,353-->
 
-Its time complexity, that is {@{how the running time grows with input size}@}, is {@{$O(n \log n)$, instead of $O(n^2)$ for DFT computed by its definition}@}. This means {@{for large input sizes, much time can be saved}@}. So in practice, {@{FFT is used over the traditional DFT}@}. <!--SR:!2024-12-10,84,353!2025-09-05,292,353!2025-07-24,257,353!2025-06-26,234,353-->
+Its time complexity, that is {@{how the running time grows with input size}@}, is {@{$O(n \log n)$, instead of $O(n^2)$ for DFT computed by its definition}@}. This means {@{for large input sizes, much time can be saved}@}. So in practice, {@{FFT is used over the traditional DFT}@}. <!--SR:!2026-01-23,409,373!2025-09-05,292,353!2025-07-24,257,353!2025-06-26,234,353-->
 
 The most common form of FFT is {@{the Cooley–Tukey algorithm}@} that {@{divides the signal into 2 equal-length signals recursively}@}, so {@{it requires the input size to be a power of 2}@}. This can be fixed using {@{[zero padding](#zero%20padding)}@}. This algorithm also {@{has other variants that divide the signal into arbitrary many equal-length signals recursively}@}, but this will not be discussed here. <!--SR:!2025-06-05,218,353!2025-08-23,280,353!2025-07-12,247,353!2025-06-21,230,353!2025-08-07,267,353-->
 
-Note that when {@{zero padding a signal for FFT}@}, it is important to {@{apply the zero-centered variant instead of the causal one}@}. (The reason is mentioned above already.) <!--SR:!2025-09-06,294,353!2024-12-09,83,353-->
+Note that when {@{zero padding a signal for FFT}@}, it is important to {@{apply the zero-centered variant instead of the causal one}@}. (The reason is mentioned above already.) <!--SR:!2025-09-06,294,353!2026-01-18,404,373-->
 
 Note that FFT is fundamentally {@{the same thing as DFT}@}, with the only difference being {@{how the values are actually computed}@}. <!--SR:!2025-07-22,260,353!2025-03-29,162,333-->

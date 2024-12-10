@@ -180,7 +180,7 @@ tags:
 > 3. alphabetical order of asset captions
 >
 > - solution: {@{2}@}
-> - explanation: {@{The standards require it. Note that GAAP generally requires decreasing liquidity, while IFRS requires increasing liquidity.}@} <!--SR:!2024-12-30,74,322!2024-12-09,62,322-->
+> - explanation: {@{The standards require it. Note that GAAP generally requires decreasing liquidity, while IFRS requires increasing liquidity.}@} <!--SR:!2024-12-30,74,322!2025-09-14,278,342-->
 
 <!-- markdownlint MD028 -->
 
@@ -222,7 +222,7 @@ tags:
 > 2. Current Assets / Current Liabilities
 > 3. Net Income / Current Assets
 >
-> - solution: {@{2}@} <!--SR:!2024-12-10,61,322-->
+> - solution: {@{2}@} <!--SR:!2025-09-13,277,342-->
 
 ## week 3 review
 

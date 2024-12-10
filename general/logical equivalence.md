@@ -46,7 +46,7 @@ $p\vee (p\wedge q)\equiv p$$p\wedge (p\vee q)\equiv p$
 - [material equivalence](if%20and%20only%20if.md) & primitives ::@:: $$p\iff q\equiv (p\wedge q)\vee (\neg p\wedge \neg q)$$ <!--SR:!2025-08-04,252,330!2024-12-17,77,330-->
 - [material equivalence](if%20and%20only%20if.md) & outer [negation](negation.md) ::@:: $$\neg (p\iff q)\equiv p\iff \neg q\equiv p\oplus q$$ <!--SR:!2024-12-18,77,330!2025-06-25,221,330-->
 
-where $\oplus$ {@{represents [XOR](exclusive%20or.md)}@}. <!--SR:!2024-12-10,70,321-->
+where $\oplus$ {@{represents [XOR](exclusive%20or.md)}@}. <!--SR:!2025-10-23,317,341-->
 
 ## relation to material equivalence
 

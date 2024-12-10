@@ -29,7 +29,7 @@ However, further knowledge memory model is {@{not exactly important in basic pwn
 
 ### memory mapping
 
-For pwn, it is more important to know {@{the typical memory mapping for a process}@}. A memory mapping is {@{called a segment, not to be confused with sections, as a segment can contain multiple sections}@}. We will learn about {@{4 segments, in the order of low (small) address to high (large) address: read-execute segment, read-write segment, heap, and stack}@}. There may {@{or may not be unmapped space in between the segments}@}. Ignoring those space, {@{read-execute segment, read-write segment, and heap are very close together}@}. The heap {@{can dynamically grow upwards (increasing address) at runtime}@}, while others {@{usually cannot grow}@}. The stack {@{is very close to the highest address and can dynamically grow downwards (decreasing address) at runtime}@}. <!--SR:!2025-05-09,171,310!2025-07-13,225,330!2024-12-15,66,310!2025-05-08,170,310!2024-12-09,60,310!2024-12-15,66,310!2025-08-21,256,330!2025-02-27,119,290-->
+For pwn, it is more important to know {@{the typical memory mapping for a process}@}. A memory mapping is {@{called a segment, not to be confused with sections, as a segment can contain multiple sections}@}. We will learn about {@{4 segments, in the order of low (small) address to high (large) address: read-execute segment, read-write segment, heap, and stack}@}. There may {@{or may not be unmapped space in between the segments}@}. Ignoring those space, {@{read-execute segment, read-write segment, and heap are very close together}@}. The heap {@{can dynamically grow upwards (increasing address) at runtime}@}, while others {@{usually cannot grow}@}. The stack {@{is very close to the highest address and can dynamically grow downwards (decreasing address) at runtime}@}. <!--SR:!2025-05-09,171,310!2025-07-13,225,330!2024-12-15,66,310!2025-05-08,170,310!2025-08-27,260,330!2024-12-15,66,310!2025-08-21,256,330!2025-02-27,119,290-->
 
 The meanings of the 4 segments are:
 
@@ -42,7 +42,7 @@ Note that the `.rodata` (read-only data) section is located on the read-execute 
 
 ## executable and linkable format
 
-For pwn, it is also important to know {@{the overall structure of an executable and linkable format (ELF) file}@}. ELF files are commonly used on {@{UNIX (including Linux) systems}@}. <!--SR:!2025-07-30,239,330!2024-12-09,60,310-->
+For pwn, it is also important to know {@{the overall structure of an executable and linkable format (ELF) file}@}. ELF files are commonly used on {@{UNIX (including Linux) systems}@}. <!--SR:!2025-07-30,239,330!2025-08-30,263,330-->
 
 Like {@{many file formats}@}, an ELF file has {@{a ELF header indicating that it is an ELF file and the properties of it (32 or 64 bit, offsets, ...)}@}. Its magic number, i.e. {@{the bytes an ELF file must start with}@}, is {@{`0x7F 'E' 'L' 'F'`}@}. Additionally, an ELF file has {@{a program header table at the beginning of the file right after the ELF header, and a section header table at the end of the file}@}. <!--SR:!2025-05-12,173,310!2024-12-24,68,310!2025-07-19,231,330!2025-05-22,170,310!2025-04-03,132,290-->
 
@@ -58,10 +58,10 @@ In x86 and x86-64, there are {@{two registers related to the stack: `esp`/`rsp` 
 
 There are {@{several instructions that modify the stack memory and the `rsp` and `rbp` registers appropriately}@}. Some of them are: {@{`push`, `pop`, `call`, `ret`, and `leave`}@}. <!--SR:!2024-12-24,68,310!2024-12-24,68,310-->
 
-- `push <src>` ::@:: Push `<src>` on top of the stack. This writes a value right below the address pointed by `rsp` and decrements `rsp`. <!--SR:!2024-12-10,61,310!2025-07-24,235,330-->
+- `push <src>` ::@:: Push `<src>` on top of the stack. This writes a value right below the address pointed by `rsp` and decrements `rsp`. <!--SR:!2025-09-03,267,330!2025-07-24,235,330-->
 - `pop <dest>` ::@:: Pop the top of the stack and write it to `<dest>`. This reads a value at the address pointed by `rsp` and increments `rsp`. <!--SR:!2024-12-16,67,310!2025-06-07,193,310-->
 - `call <address>` ::@:: This pushes (`push`) the `rip` (instruction pointer, pointing to the currently executing instruction) onto the stack, and then jumps (`jmp`) to `<address>`. `<address>`. This is usually used to call a function, in conjunction with `ret`. <!--SR:!2024-12-24,68,310!2025-08-16,252,330-->
-- `ret`::@:: This pops (`pop`) a value off from the stack and jumps (`jmp`) to it. (Note that this is similar to `pop rip`, but `pop rip` is invalid because `rip` cannot be modified directly.) This is usually used to return from a function, in conjunction with `call`. <!--SR:!2024-12-10,61,310!2025-01-11,79,290-->
+- `ret`::@:: This pops (`pop`) a value off from the stack and jumps (`jmp`) to it. (Note that this is similar to `pop rip`, but `pop rip` is invalid because `rip` cannot be modified directly.) This is usually used to return from a function, in conjunction with `call`. <!--SR:!2025-09-04,268,330!2025-01-11,79,290-->
 - `leave` ::@:: This sets `rsp` to `rbp`, effectively clearing the current stack frame. Then it pops (`pop`) a value off from the stack to `rbp`. This effectively restores the previous stack frame (the state right before the current function is called (`call`)). This is usually used to cleanup the stack and registers just before returning from a function (`ret`). <!--SR:!2025-05-26,189,310!2025-03-03,113,290-->
 
 A related instruction is {@{`lea`}@}: <!--SR:!2024-12-15,66,310-->
@@ -72,7 +72,7 @@ Since `lea` can {@{mostly be replaced with `add` and `imul` (with the exception 
 
 ## calling convention
 
-The instructions above are used to {@{implementing the concept of functions in assembly}@}. However, they {@{do not specify how they should be used}@}. A __calling convention__ specifies {@{how the above instructions are used to manipulate the stack in such a way to represent functions}@}. It is called a _convention_ because {@{the caller and callee (the function to be called by the caller) needs to follow the same (or compatible) calling conventions}@}, or otherwise {@{the stack will be manipulated incorrectly, and the program will likely crash}@}. <!--SR:!2025-08-25,261,330!2025-05-18,178,310!2025-06-02,179,310!2024-12-09,60,310!2024-12-12,63,310-->
+The instructions above are used to {@{implementing the concept of functions in assembly}@}. However, they {@{do not specify how they should be used}@}. A __calling convention__ specifies {@{how the above instructions are used to manipulate the stack in such a way to represent functions}@}. It is called a _convention_ because {@{the caller and callee (the function to be called by the caller) needs to follow the same (or compatible) calling conventions}@}, or otherwise {@{the stack will be manipulated incorrectly, and the program will likely crash}@}. <!--SR:!2025-08-25,261,330!2025-05-18,178,310!2025-06-02,179,310!2025-08-30,263,330!2024-12-12,63,310-->
 
 There are {@{many different incompatible calling conventions in use}@}. For x86, {@{there are many different ones, but for x86-64, there are only 2 common in use}@}. They are {@{the Microsoft x64 calling convention and the System V AMD64 ABI}@}. We will {@{only introduce a calling convention for x86-64, as the binaries you encounter in CTFs are most likely 64-bit, and that calling convention is the latter one because we are using Linux}@}. Further, you should be able to {@{extract the general principles of calling conventions from the example below and extrapolate them to others}@}. <!--SR:!2024-12-24,68,310!2025-06-17,204,330!2025-08-15,251,330!2025-06-25,211,330!2025-07-23,234,330-->
 
@@ -97,7 +97,7 @@ To {@{see the registers and the stack while running a program}@}, we will use {@
 Let's learn some basic `gdb` commands (not exclusive to `pwndbg`):
 
 - `apropos <regex>` ::@:: find text matching `<regex>` in the manual <!--SR:!2025-08-15,253,330!2024-12-24,68,310-->
-- `help [<topic>]` ::@:: find information about topic; if topic is not specified, then prints general help <!--SR:!2024-12-24,68,310!2024-12-09,60,310-->
+- `help [<topic>]` ::@:: find information about topic; if topic is not specified, then prints general help <!--SR:!2024-12-24,68,310!2025-08-28,261,330-->
 - `file <path>` ::@:: load binary file to debug <!--SR:!2024-12-12,63,310!2024-12-24,68,310-->
 - `run [<args>...]` ::@:: run program (with args) <!--SR:!2025-08-19,255,330!2025-04-30,164,310-->
 - `set args <args>...` ::@:: set program args <!--SR:!2024-12-13,64,310!2025-05-30,188,310-->
@@ -136,7 +136,7 @@ A buffer is {@{simply a portion of the memory used to store the data}@}. As {@{r
 
 The buffers we are usually interested in exploiting is {@{usually on the first three because we can write to the buffer}@}. We will only {@{focus on buffers on the stack because they are the easiest to exploit}@}. <!--SR:!2024-12-11,62,310!2025-05-15,174,310-->
 
-Buffer overflow, then, is {@{simply writing data outside the buffer}@}. Assume the buffer is {@{on the stack}@}. This is likely to {@{overwrite data on other unrelated buffers in the stack, corrupting them}@}. Usually, this {@{results in a program crash}@}. However, if we use buffer overflow to {@{write data to specific locations outside the buffer with specific values}@}, then we can {@{manipulate the program to do unintended things}@}. In CTFs, {@{this is used to find the flag in pwn challenges}@}. <!--SR:!2025-07-15,227,330!2025-08-26,262,330!2025-07-02,217,330!2025-08-09,247,330!2025-08-05,245,330!2025-07-10,224,330!2024-12-09,60,310-->
+Buffer overflow, then, is {@{simply writing data outside the buffer}@}. Assume the buffer is {@{on the stack}@}. This is likely to {@{overwrite data on other unrelated buffers in the stack, corrupting them}@}. Usually, this {@{results in a program crash}@}. However, if we use buffer overflow to {@{write data to specific locations outside the buffer with specific values}@}, then we can {@{manipulate the program to do unintended things}@}. In CTFs, {@{this is used to find the flag in pwn challenges}@}. <!--SR:!2025-07-15,227,330!2025-08-26,262,330!2025-07-02,217,330!2025-08-09,247,330!2025-08-05,245,330!2025-07-10,224,330!2025-08-26,259,330-->
 
 There are many ways to {@{manipulate the program using buffer overflow}@}, and we will {@{talk about only one interesting way related to function calls}@}. Recall that calling a function via `call` {@{pushes the address to jump to (the next instruction after `call` in the memory) after the function finishes to the stack}@}, and that the function returns {@{via `ret`, which pops the address that we have pushed before calling the function from the stack and jumps back to it, finishing the function call}@}. Using buffer overflow, we can {@{write to that location in the stack and change it to any value we want}@}. Then, when {@{the functions returns via `ret`}@}, instead of {@{jumping back to the caller, it jumps to an arbitrary location that we can freely specify}@}. <!--SR:!2024-12-24,68,310!2025-04-15,152,310!2025-03-24,139,290!2025-02-24,103,290!2025-07-17,229,330!2025-07-16,228,330!2025-01-06,81,329-->
 
@@ -193,7 +193,7 @@ If so, you are good to go! Otherwise, try harder.
 
 There are {@{protection schemes to inhibit exploitation of buffer overflow even if they exist}@}. We will talk about {@{two of them: [stack canaries](#stack%20canaries) and [address randomization](#address%20randomization)}@}. Of course, there is always the solution of {@{[avoiding buffer overflows](#avoiding%20buffer%20overflows) in the first place}@}. <!--SR:!2025-07-29,238,330!2024-12-24,68,310!2024-12-14,65,310-->
 
-We should know these protection so that {@{we can bypass them in pwn challenges}@}. To see what protections has been enabled for an executale, {@{run the `pwndbg` command `checksec`}@}. It will print {@{a list of protections and their status, some of which are not introduced here and you will need to look them up yourself}@}. For example: <!--SR:!2024-12-09,60,310!2024-12-24,68,310!2025-05-16,175,310-->
+We should know these protection so that {@{we can bypass them in pwn challenges}@}. To see what protections has been enabled for an executale, {@{run the `pwndbg` command `checksec`}@}. It will print {@{a list of protections and their status, some of which are not introduced here and you will need to look them up yourself}@}. For example: <!--SR:!2025-08-29,262,330!2024-12-24,68,310!2025-05-16,175,310-->
 
 ```shell
 pwndbg> checksec
@@ -236,7 +236,7 @@ Buffer overflow is often used to {@{jump to a particular function}@}. This can b
 
 To do so, the executable must {@{consists of position-independent code (PIC), making the executable a position-independent executable (PIE)}@}. Said code {@{can work properly regardless of the code's base (start) address (thus cannot refer to absolute addresses)}@}. Then the technique of {@{address space layout randomization (ASLR)}@} can be applied. Usually, it will {@{randomize the base (start) address of the program (read-execute and read-write segment are treated as one segment for ASLR), the heap, and the stack}@}. However, {@{as only the base (start) address of segments are randomized}@}, {@{functions and data inside the same segment still have the same relative offset to each other}@}. <!--SR:!2025-06-11,185,310!2024-12-24,68,310!2025-08-12,248,330!2024-12-24,68,310!2025-08-25,261,330!2024-12-24,68,310-->
 
-To bypass address randomization, we need to {@{know the exact versions of programs and libraries used}@}. Then, we {@{leak (obtain) the absolute address of any function or data in the same segment as the function we wanted to jump to}@}, perhaps {@{using another vulnerability}@}. Finally, {@{calculate the absolute address of the function we wanted to jump to using the relative offset, which can be found on the local machine, given the exact versions of programs and libraries are used}@}. <!--SR:!2024-12-10,61,310!2025-05-10,177,310!2025-07-14,226,330!2024-12-24,68,310-->
+To bypass address randomization, we need to {@{know the exact versions of programs and libraries used}@}. Then, we {@{leak (obtain) the absolute address of any function or data in the same segment as the function we wanted to jump to}@}, perhaps {@{using another vulnerability}@}. Finally, {@{calculate the absolute address of the function we wanted to jump to using the relative offset, which can be found on the local machine, given the exact versions of programs and libraries are used}@}. <!--SR:!2025-08-31,264,330!2025-05-10,177,310!2025-07-14,226,330!2024-12-24,68,310-->
 
 ## next week notes
 

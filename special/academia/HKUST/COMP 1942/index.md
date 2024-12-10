@@ -61,7 +61,7 @@ The content is in teaching order.
 - datetime: 2024-02-19T09:00:00+08:00/2024-02-19T10:30:00+08:00
 - [FP-growth algorithm § FP-tree](../../../../general/FP-growth%20algorithm.md#FP-tree)
 - [FP-growth algorithm § growth](../../../../general/FP-growth%20algorithm.md#growth)
-  - FP-growth algorithm growth step ::@:: We use the slightly modified algorithm, never return an empty item set, and use the growth shortcut. <!--SR:!2024-12-09,182,331!2025-01-10,213,347-->
+  - FP-growth algorithm growth step ::@:: We use the slightly modified algorithm, never return an empty item set, and use the growth shortcut. <!--SR:!2027-03-21,831,351!2025-01-10,213,347-->
 - [FP-growth algorithm § growth shortcut](../../../../general/FP-growth%20algorithm.md#growth%20shortcut)
 - project phase 1
   - deadline: 2024-02-21T09:00:00+08:00
@@ -434,7 +434,7 @@ The content is in teaching order.
   - [§ statement of theorem](../../../../general/Bayes'%20theorem.md#statement%20of%20theorem)
   - [§ Bayes' theorem for 3 events](../../../../general/Bayes'%20theorem.md#Bayes'%20theorem%20for%203%20events)
 - [conditional probability § Kolmogorov definition](../../../../general/conditional%20probability.md#Kolmogorov%20definition)
-- Bayesian belief network ::@:: [Bayesian network](../../../../general/Bayesian%20network.md) <!--SR:!2024-12-10,142,388!2026-06-15,597,408-->
+- Bayesian belief network ::@:: [Bayesian network](../../../../general/Bayesian%20network.md) <!--SR:!2027-01-03,754,408!2026-06-15,597,408-->
   - [§ graphical model](../../../../general/Bayesian%20network.md#graphical%20model)
 - [conditional dependence](../../../../general/conditional%20dependence.md)
 - [conditional independence](../../../../general/conditional%20independence.md)
@@ -471,7 +471,7 @@ The content is in teaching order.
 - common core requirements ::@:: mathematical models, quantitative data, quantitative methods <!--SR:!2025-05-30,258,357!2026-02-23,494,397-->
 - other topics
   - association thresholding ::@:: Instead of thresholding by frequency, we can threshold by number of frequent item sets found, which may be easier to choose. <!--SR:!2025-06-03,278,377!2025-01-27,161,337-->
-  - [clustering high-dimensional data § subspace clustering](../../../../general/clustering%20high-dimensional%20data.md#subspace%20clustering) ::@:: By removing some dimensions of the data, more interesting clusters may be found. It mitigates [curse of dimensionality](../../../../general/curse%20of%20dimensionality.md), where [distances between different pairs of points become similar](../../../../general/curse%20of%20dimensionality.md#distance%20function). <!--SR:!2024-12-09,135,337!2025-06-18,293,377-->
+  - [clustering high-dimensional data § subspace clustering](../../../../general/clustering%20high-dimensional%20data.md#subspace%20clustering) ::@:: By removing some dimensions of the data, more interesting clusters may be found. It mitigates [curse of dimensionality](../../../../general/curse%20of%20dimensionality.md), where [distances between different pairs of points become similar](../../../../general/curse%20of%20dimensionality.md#distance%20function). <!--SR:!2026-03-10,455,337!2025-06-18,293,377-->
   - ensemble of classifiers ::@:: We can output the prediction based on the majority prediction of the classifiers. <!--SR:!2025-08-24,347,377!2025-05-28,256,357-->
   - data warehouse questions ::@:: How to create the data warehouse over different types of data, such as a graph? <!--SR:!2026-01-23,472,397!2025-10-17,386,377-->
   - [word-sense disambiguation](word-sense%20disambiguation.md) ::@:: How to disambiguate between different entities of the same name on the Internet? <!--SR:!2026-01-25,474,397!2026-01-22,471,397-->
@@ -527,7 +527,7 @@ The content is in teaching order.
   - types: 80% long questions, 20% multiple choice questions
   - report
     - Very very tight time limit. Do the paper as-if you do not have enough time.
-      - handle midterm examination time limit ::@:: Do any midterm paper as if you do not have enough time. <!--SR:!2024-12-09,25,402!2024-12-09,25,402-->
+      - handle midterm examination time limit ::@:: Do any midterm paper as if you do not have enough time. <!--SR:!2025-04-26,137,422!2025-04-23,134,422-->
 - final examination
   - bonus question (+10%, max 100%): no
   - cheatsheet: 1 sheet of A4-sized paper, double-sided
@@ -537,4 +537,4 @@ The content is in teaching order.
   - types: 100% short or long questions, 0% multiple choice questions
   - report
     - Time is much more lenient.
-      - handle final examination time limit ::@:: While not as important, it is still a good idea to do any final paper as if you do not have enough time. <!--SR:!2024-12-09,25,402!2024-12-09,25,402-->
+      - handle final examination time limit ::@:: While not as important, it is still a good idea to do any final paper as if you do not have enough time. <!--SR:!2025-04-27,138,422!2025-04-25,136,422-->

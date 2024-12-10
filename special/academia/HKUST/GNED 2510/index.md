@@ -38,7 +38,7 @@ The content is in teaching order.
 - course logistics
 - SCARF (good) ::@:: sense of urgency, courage to try, awesomeness, relatedness, fresh perspective <!--SR:!2025-01-03,78,290!2025-08-13,249,330-->
 - hard skills, soft skills ::@:: Many jobs typically require a combination of them. <!--SR:!2025-08-03,241,330!2025-08-15,251,330-->
-  - hard skills ::@:: Skills acquired through formal education and training programs. <!--SR:!2024-12-10,61,310!2025-06-22,209,330-->
+  - hard skills ::@:: Skills acquired through formal education and training programs. <!--SR:!2025-09-03,267,330!2025-06-22,209,330-->
   - soft skills ::@:: Skills that promote productivity, efficiency, effective communication, etc. <!--SR:!2024-12-25,69,310!2025-08-13,251,330-->
 - How many jobs should you include on your resume? ::@:: all of your previous jobs <!--SR:!2025-05-30,192,310!2025-04-19,155,310-->
 - [name tag](../../../name%20tag.md)
@@ -64,7 +64,7 @@ The content is in teaching order.
 - topic: Portfolio Building (I)
 - skill vs. will
 - job trends ::@:: AI in recruitment and selection, applicant tracking system <!--SR:!2025-04-02,141,310!2024-12-25,69,310-->
-  - applicant tracking system ::@:: Not your enemy! Prefer (reverse) chronological order, add keywords, and avoid fancy formatting. <!--SR:!2024-12-10,61,310!2025-08-04,242,330-->
+  - applicant tracking system ::@:: Not your enemy! Prefer (reverse) chronological order, add keywords, and avoid fancy formatting. <!--SR:!2025-09-01,265,330!2025-08-04,242,330-->
 - job description ::@:: Infer what attributes the job is look from from its job description. <!--SR:!2025-07-16,228,330!2024-12-25,69,310-->
 - [résumé](../../../résumé.md)
   - What color should a CV typed up in? ::@:: black <!--SR:!2025-06-29,214,330!2024-12-25,69,310-->
@@ -103,9 +103,9 @@ The content is in teaching order.
     - decrease status ::@:: awkward questions, unfriendly interviewers, unequal, ... <!--SR:!2024-12-12,63,310!2025-04-28,162,310-->
   - SCARF / certainty ::@:: prediction confidence <!--SR:!2025-04-21,156,310!2025-06-02,181,310-->
   - SCARF / autonomy ::@:: sense of control over events <!--SR:!2025-05-22,181,310!2025-07-31,240,330-->
-    - increase autonomy ::@:: be flexible about choices, prepare, research salary ranges, talk permissions, ... <!--SR:!2024-12-25,69,310!2024-12-09,60,310-->
+    - increase autonomy ::@:: be flexible about choices, prepare, research salary ranges, talk permissions, ... <!--SR:!2024-12-25,69,310!2025-08-29,262,330-->
   - SCARF / relatedness ::@:: socially, ingroup or outgroup <!--SR:!2025-07-25,236,330!2025-07-21,232,330-->
-    - increase relatedness ::@:: create trust by non-verbal communication, firm handshake, discuss personal (but not too personal) things <!--SR:!2025-05-15,176,310!2024-12-09,60,310-->
+    - increase relatedness ::@:: create trust by non-verbal communication, firm handshake, discuss personal (but not too personal) things <!--SR:!2025-05-15,176,310!2025-08-28,261,330-->
   - SCARF / fairness ::@:: perception of fair exchanges with people <!--SR:!2025-06-15,202,330!2025-07-26,237,330-->
 
 ## week 7 tutorial
@@ -114,12 +114,12 @@ The content is in teaching order.
 - topic: Career and Employability Skills
 - networking
   - networking advantages ::@:: know more people, fact checking, tapping into the hidden job market <!--SR:!2025-04-12,130,290!2025-08-15,253,330-->
-- Where should you sit when you are waiting for an interview? ::@:: as front as possible <!--SR:!2024-12-09,60,310!2025-08-09,245,330-->
+- Where should you sit when you are waiting for an interview? ::@:: as front as possible <!--SR:!2025-08-27,260,330!2025-08-09,245,330-->
 - Where should you sit when you are in the interview room? ::@:: seats that are neither too special nor too seclusive <!--SR:!2025-08-12,248,330!2025-04-07,145,310-->
 - If your boss takes you and the team for lunch... ::@:: ... balance the food order with what everyone else is choosing. (But it can depend on the boss's style.) <!--SR:!2024-12-11,62,310!2025-06-26,212,330-->
 - Emails should be replied within \_ hours, and phone calls should be returned within \_ hours ::@:: as soon as possible <!--SR:!2024-12-11,62,310!2025-07-15,227,330-->
-- If you order coffee/tea and it's too hot. What should you do? ::@:: Let it cool in the cup. <!--SR:!2025-05-09,171,310!2024-12-10,61,310-->
-- After chatting with the guests in the upcoming networking practicum, you should... ::@:: Send a thank you note on the same day. <!--SR:!2024-12-10,61,310!2025-04-09,146,310-->
+- If you order coffee/tea and it's too hot. What should you do? ::@:: Let it cool in the cup. <!--SR:!2025-05-09,171,310!2025-09-04,268,330-->
+- After chatting with the guests in the upcoming networking practicum, you should... ::@:: Send a thank you note on the same day. <!--SR:!2025-09-02,266,330!2025-04-09,146,310-->
   - thank-you note (after networking)
 - interview preparation ::@:: prepare questions, "stalk" (gather information) on LinkedIn <!--SR:!2025-05-08,168,310!2024-12-13,64,310-->
 - etiquettes ::@:: social etiquette, networking etiquette, dining etiquette <!--SR:!2025-08-20,255,330!2025-03-23,137,310-->
@@ -148,7 +148,7 @@ The content is in teaching order.
 - topic: Interview (I): Interview Like a PRO
 - first impressions ::@:: Interviewers are busy people and likely make generalizations. <!--SR:!2024-12-25,69,310!2025-02-22,102,290-->
 - video interview
-  - video interview notes ::@:: cheatsheets stuck on screen (be aware of glasses reflection), correct angle, natural eye contact, smile <!--SR:!2024-12-09,60,310!2025-05-26,189,310-->
+  - video interview notes ::@:: cheatsheets stuck on screen (be aware of glasses reflection), correct angle, natural eye contact, smile <!--SR:!2025-08-30,263,330!2025-05-26,189,310-->
 - self-introduction
 - interview questions
 - Any questions? ::@:: Try to ask a question if you really do not have any to show that you care. <!--SR:!2025-04-22,157,310!2024-12-25,69,310-->

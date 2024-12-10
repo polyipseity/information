@@ -67,7 +67,7 @@ return _chain.from_iterable(await _gather(
 
 - _(begin)_→::@::←`**` <!--SR:!2025-09-10,287,342!2025-07-17,240,330-->
 - `**`→::@::←`*` <!--SR:!2025-08-06,259,342!2024-12-12,78,322-->
-- `*`→::@::←`/` <!--SR:!2025-10-20,319,342!2024-12-10,76,322-->
+- `*`→::@::←`/` <!--SR:!2025-10-20,319,342!2025-11-19,344,342-->
 - `/`→::@::←`//` <!--SR:!2025-08-13,264,342!2024-12-13,79,322-->
 - `//`→::@::←`%` <!--SR:!2025-06-20,218,330!2025-09-20,294,342-->
 - `%`→::@::←`+` <!--SR:!2025-09-17,293,342!2025-06-14,213,322-->
@@ -140,7 +140,7 @@ return _chain.from_iterable(await _gather(
 <!--pytextgen generate section="d123"--><!-- The following content is generated at 2024-01-30T13:35:46.633801+08:00. Any edits will be overridden! -->
 
 - _(begin)_→::@::←`in` <!--SR:!2025-01-20,95,369!2025-01-25,100,369-->
-- `in`→::@::←`<` <!--SR:!2024-12-09,67,349!2024-12-25,69,349-->
+- `in`→::@::←`<` <!--SR:!2025-11-03,328,369!2024-12-25,69,349-->
 - `<`→::@::←`<=` <!--SR:!2025-10-10,309,369!2025-09-22,293,369-->
 - `<=`→::@::←`>` <!--SR:!2025-09-28,295,369!2025-09-27,298,369-->
 - `>`→::@::←`>=` <!--SR:!2025-09-03,274,369!2025-01-25,100,369-->
@@ -255,7 +255,7 @@ To {@{assign a value or the result of an expression to a variable}@}, use {@{`=`
 variableName = 1 + 2
 ```
 
-One does not need to {@{declare the variable and its type before assigning to it}@}. Reassigning the variable (i.e. {@{replacing the variable value}@}) uses {@{the same syntax as above}@}. To {@{use the value of a variable}@}, {@{simply write the variable name}@}. <!--SR:!2025-09-26,300,342!2025-11-01,329,342!2025-05-15,188,322!2025-06-08,208,322!2024-12-09,75,322-->
+One does not need to {@{declare the variable and its type before assigning to it}@}. Reassigning the variable (i.e. {@{replacing the variable value}@}) uses {@{the same syntax as above}@}. To {@{use the value of a variable}@}, {@{simply write the variable name}@}. <!--SR:!2025-09-26,300,342!2025-11-01,329,342!2025-05-15,188,322!2025-06-08,208,322!2025-11-10,335,342-->
 
 Variable names are {@{case sensitive, cannot be keywords, cannot have some characters like spaces (but underscores `_` are okay), and cannot begin with some characters like numbers}@}. Also, while allowed, it is recommended to {@{not use builtin names, e.g. `print`, as we will no longer be able to use those builtin functions of variables later (replaced by us)}@}. <!--SR:!2025-03-18,141,310!2025-07-17,241,330-->
 
@@ -267,7 +267,7 @@ ISOM 2020 note: {@{`+=`, `-=`, `*=`, `/=`, etc.}@} are {@{not taught and should 
 
 Below are common data types:
 
-- `NoneType` :@: The type for the `None` value. <!--SR:!2024-12-10,76,322-->
+- `NoneType` :@: The type for the `None` value. <!--SR:!2025-11-20,345,342-->
 - `bool` :@: A boolean, which is either `True` or `False`. Note that `bool`s are also `int`s. In particular, `True == 1` and `False == 0`, and can be used in arithmetic operators. <!--SR:!2025-08-17,268,342-->
 - `float` :@: A floating point number with double precision (15 to 17 significant figures). One can effectively treat it as a decimal number for most purposes. `float` can hold integers as well, with only the internal representation being different from `int`. Example: `1.`, `3.14`, `9.20`, `2e3` (2×10<sup>3</sup>). <!--SR:!2025-05-05,169,310-->
 - `int` :@: An integer. Example: `42`. <!--SR:!2025-09-26,300,342-->
