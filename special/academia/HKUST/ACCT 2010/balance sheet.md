@@ -28,8 +28,8 @@ tags:
   - header / date ::@:: example: `December 31, 2019`
   - header / monetary unit ::@:: example: <br/> (none; not recommended) <br/> `(in million of dollars, except per share data)`
 - dollar sign ::@:: Add it before the first number and the last number (under `Total ...`) in each section under (root). The rest can be omitted.
-- total ::@:: It's somewhat arbitrary. At least calculate: <br/> total current assets <br/> total cost: property and equipment <br/> net property and equipment: total cost less accumulated depreciation <br/> total assets <br/> total current liabilities <br/> total liabilities <br/> total stockholders' equity <br/> total liabilities and stockholders' equity
-  - total / format ::@:: Indent the total at least twice. <p> Add a (over)line above the total. <p> For the two totals under assets, and liabilities and stockholders' equity, no need to indent, and additionally add double (under)lines below the totals.
+- totals ::@:: It's somewhat arbitrary. At least calculate: <br/> total current assets <br/> total cost: property and equipment <br/> net property and equipment: total cost less accumulated depreciation <br/> total assets <br/> total current liabilities <br/> total liabilities <br/> total stockholders' equity <br/> total liabilities and stockholders' equity
+  - totals / format ::@:: Indent totals at least twice. <p> Add a (over)line above totals. <p> For the two totals under assets, and liabilities and stockholders' equity, no need to indent, and additionally add double (under)lines below the totals.
 - negative number ::@:: Write negative numbers in brackets, not with a minus sign. For example, write `(42)` instead of `-42`.
 - casing ::@:: Use title case or for basically everything!!! (Ignore that I have been NOT using title case in this note.)
 - (root) ::@:: assets (+) <br/> liabilities and stockholders' equity (+)

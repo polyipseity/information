@@ -28,8 +28,8 @@ tags:
   - header / duration ::@:: example: `For the Year ended December 31, 2019`, `For the period September 1, 2024 to December 13, 2015`
   - header / monetary unit ::@:: example: <br/> (none; not recommended) <br/> `(in million of dollars, except per share data)`
 - dollar sign ::@:: Add it before the first number and the last 2 numbers ("net income", "earnings per share"). The rest can be omitted.
-- total ::@:: It's somewhat arbitrary. At least calculate: <br/> total revenue: or omit me if your revenue is simply one item <br/> total operating expenses <br/> income from operations <br/> income before taxes <br/> net income
-  - total / format ::@:: Indent the total at least once. <p> Add a (over)line above the total. <p> For income from operations, income before income taxes, and net income, do not indent and bold the names. <p> For net income (and earnings per share), additionally add double (under)lines below the totals.
+- totals ::@:: It's somewhat arbitrary. At least calculate: <br/> total revenue: or omit me if your revenue is simply one item <br/> total operating expenses <br/> income from operations <br/> income before taxes <br/> net income
+  - total / format ::@:: Indent totals at least once. <p> Add a (over)line above totals. <p> For income from operations, income before income taxes, and net income, do not indent and bold the names. <p> For net income (and earnings per share), additionally add double (under)lines below the totals.
 - negative number ::@:: Write negative numbers in brackets, not with a minus sign. For example, write `(42)` instead of `-42`.
   - negative number / expenses ::@:: Note that expenses, while they reduce net income, are still written as positive numbers. his includes income tax expense. <p> One exception is when the revenues and expenses are mixed together in the other items.
 - casing ::@:: Use title case for basically everything!!! (Ignore that I have been NOT using title case in this note.)
