@@ -77,14 +77,14 @@ __Market Ratios__
 <!-- markdownlint-disable-next-line MD036 -->
 __Others__
 
-- average collection period ::@:: $\frac {365} {\text{receivables turnover} }$
-- average days to pay payables ::@:: $\frac {365} {\text{accounts payable turnover} }$
-- average days to sell inventory ::@:: $\frac {365} {\text{inventory turnover} }$
-- capital acquisitions ratio ::@:: $\frac {\text{cash flows from operating activities} } {\text{cash paid for PPE} }$
-- [free cash flow](../../../../general/free%20cash%20flow.md) ::@:: $\text{cash flows from operating activities} - \text{dividends} - \text{capital expenditures}$
-- [net sales](../../../../general/sales%20(accounting).md#gross%20sales%20and%20net%20sales) ::@:: ${\text{gross sales} }-{\text{(customer discounts, returns, allowances)} }$
-- accounts payable turnover ::@:: $\frac {\text{total supplier purchases} } {\text{average accounts payable} }$
-- [working capital](../../../../general/working%20capital.md) ::@:: $\text{current assets} - \text{current liabilities}$
+- average collection period: $\frac {365} {\text{receivables turnover} }$
+- average days to pay payables: $\frac {365} {\text{accounts payable turnover} }$
+- average days to sell inventory: $\frac {365} {\text{inventory turnover} }$
+- capital acquisitions ratio: $\frac {\text{cash flows from operating activities} } {\text{cash paid for PPE} }$
+- [free cash flow](../../../../general/free%20cash%20flow.md): $\text{cash flows from operating activities} - \text{dividends} - \text{capital expenditures}$
+- [net sales](../../../../general/sales%20(accounting).md#gross%20sales%20and%20net%20sales): ${\text{gross sales} }-{\text{(customer discounts, returns, allowances)} }$
+- accounts payable turnover: $\frac {\text{total supplier purchases} } {\text{average accounts payable} }$
+- [working capital](../../../../general/working%20capital.md): $\text{current assets} - \text{current liabilities}$
 
 <!-- markdownlint-disable-next-line MD036 -->
 __Formats__
