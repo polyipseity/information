@@ -12,7 +12,7 @@ tags:
 
 # metalloid
 
-__Metalloids__ are {@{[chemical elements](chemical%20element.md) that have [properties](material%20properties.md) in between, or that are a mix of those of [metals](metal.md) and [nonmetals](nonmetal.md)}@}. <!--SR:!2024-12-11,404,270-->
+__Metalloids__ are {@{[chemical elements](chemical%20element.md) that have [properties](material%20properties.md) in between, or that are a mix of those of [metals](metal.md) and [nonmetals](nonmetal.md)}@}. <!--SR:!2029-02-16,1528,290-->
 
 ## properties
 

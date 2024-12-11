@@ -26,7 +26,7 @@ Most adjusting entries could be classified this way: {@{prepaid expenses, accrue
 
 - prepaid expenses ::@:: for expenses paid in cash and recorded as assets before they are used <!--SR:!2024-12-20,71,310!2024-12-22,73,310-->
 - accrued expenses ::@:: for expenses incurred but not yet paid in cash and not yet recorded <!--SR:!2025-08-21,257,330!2025-08-04,244,330-->
-- unearned revenues ::@:: for revenues received in cash and recorded as liabilities before they are earned <!--SR:!2024-12-11,64,310!2025-05-26,174,310-->
+- unearned revenues ::@:: for revenues received in cash and recorded as liabilities before they are earned <!--SR:!2025-06-24,195,310!2025-05-26,174,310-->
 - accrued revenues ::@:: for revenues earned but not yet recorded and not yet received in cash <!--SR:!2025-03-14,132,310!2025-09-12,276,330-->
 
 ### prepayments

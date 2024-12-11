@@ -35,7 +35,7 @@ The content is in teaching order.
 - [propositional calculus](../../../../general/propositional%20calculus.md)
   - [§ propositional calculus](../../../../general/propositional%20calculus.md#propositional%20calculus)
     - proposition ::@:: A declarative statement that is either true (1) or false (0). No third value is possible. Typically it is represented by _p_, _q_, _r_, and so forth. <!--SR:!2025-05-03,177,323!2025-10-07,303,343-->
-  - [truth table](../../../../general/truth%20table.md) ::@:: A table representing a boolean function. There are $n + 1$ columns, where the first $n$ columns are the inputs of the boolean function, while the last column is the output of the boolean function. There are $2^n$ rows, representing all possible combinations of the $n$ inputs mapping to the corresponding $2^n$ outputs. <!--SR:!2024-12-11,70,323!2025-03-30,150,323-->
+  - [truth table](../../../../general/truth%20table.md) ::@:: A table representing a boolean function. There are $n + 1$ columns, where the first $n$ columns are the inputs of the boolean function, while the last column is the output of the boolean function. There are $2^n$ rows, representing all possible combinations of the $n$ inputs mapping to the corresponding $2^n$ outputs. <!--SR:!2025-10-23,316,343!2025-03-30,150,323-->
     - [§ truth table](../../../../general/truth%20table.md#truth%20table)
   - boolean algebra operations ::@:: An operation that takes connections one or more propositions. These operations can be chained. <!--SR:!2024-12-19,78,323!2024-12-18,77,323-->
     - negation (not) ::@:: $\lnot p$: $$\begin{aligned} (0) & \mapsto 1 \\ (1) & \mapsto 0 \end{aligned}$$ <!--SR:!2024-12-20,79,323!2024-12-21,80,323-->

@@ -97,7 +97,7 @@ return _chain.from_iterable(await _gather(
 <!--pytextgen generate section="3b1a"--><!-- The following content is generated at 2024-02-01T11:50:25.871864+08:00. Any edits will be overridden! -->
 
 - `String`:@:A piece of text. Example: `"Hello"` <!--SR:!2024-12-22,249,330-->
-- `boolean`:@:Either true or false. Example: `true`, `false` <!--SR:!2024-12-11,240,330-->
+- `boolean`:@:Either true or false. Example: `true`, `false` <!--SR:!2027-12-14,1098,350-->
 - `char`:@:A single character. Example: `'a'`, `'3'`, `' '` <!--SR:!2025-02-12,290,330-->
 - `double`:@:A floating point number with double precision (15 to 17 significant figures). One can effectively treat it as a decimal number for most purposes. Example: `42d`, `5.`, `6.29d`, `3.12D`, `3.14` <!--SR:!2026-11-12,763,330-->
 - `float`:@:A floating point number with single precision (6 to 9 significant figures). One can effectively treat it as a decimal number for most purposes. Example: `42f`, `1.f`, `3.14f`, `9.20F` <!--SR:!2026-12-22,796,330-->

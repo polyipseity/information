@@ -116,8 +116,8 @@ The content is in teaching order.
   - networking advantages ::@:: know more people, fact checking, tapping into the hidden job market <!--SR:!2025-04-12,130,290!2025-08-15,253,330-->
 - Where should you sit when you are waiting for an interview? ::@:: as front as possible <!--SR:!2025-08-27,260,330!2025-08-09,245,330-->
 - Where should you sit when you are in the interview room? ::@:: seats that are neither too special nor too seclusive <!--SR:!2025-08-12,248,330!2025-04-07,145,310-->
-- If your boss takes you and the team for lunch... ::@:: ... balance the food order with what everyone else is choosing. (But it can depend on the boss's style.) <!--SR:!2024-12-11,62,310!2025-06-26,212,330-->
-- Emails should be replied within \_ hours, and phone calls should be returned within \_ hours ::@:: as soon as possible <!--SR:!2024-12-11,62,310!2025-07-15,227,330-->
+- If your boss takes you and the team for lunch... ::@:: ... balance the food order with what everyone else is choosing. (But it can depend on the boss's style.) <!--SR:!2025-09-02,265,330!2025-06-26,212,330-->
+- Emails should be replied within \_ hours, and phone calls should be returned within \_ hours ::@:: as soon as possible <!--SR:!2025-09-04,267,330!2025-07-15,227,330-->
 - If you order coffee/tea and it's too hot. What should you do? ::@:: Let it cool in the cup. <!--SR:!2025-05-09,171,310!2025-09-04,268,330-->
 - After chatting with the guests in the upcoming networking practicum, you should... ::@:: Send a thank you note on the same day. <!--SR:!2025-09-02,266,330!2025-04-09,146,310-->
   - thank-you note (after networking)
@@ -175,7 +175,7 @@ The content is in teaching order.
 - STAR-r ::@:: situation, task, action, result, reflection <!--SR:!2025-04-07,151,310!2025-08-04,244,330-->
   - STAR-r / situation ::@:: set the scene <!--SR:!2025-08-10,246,330!2024-12-25,69,310-->
   - STAR-r / task ::@:: describe the purpose <!--SR:!2025-06-15,199,310!2025-06-21,207,330-->
-  - STAR-r / action ::@:: explain what you did <!--SR:!2025-08-22,258,330!2024-12-11,62,310-->
+  - STAR-r / action ::@:: explain what you did <!--SR:!2025-08-22,258,330!2025-09-03,266,330-->
   - STAR-r / result ::@:: share the outcome <!--SR:!2025-08-08,246,330!2024-12-25,69,310-->
   - STAR-r / reflection ::@:: what you would have done differently <!--SR:!2025-08-07,243,330!2025-08-11,247,330-->
 

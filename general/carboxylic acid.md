@@ -48,7 +48,7 @@ Similary to [alcohols](alcohol.md), carboxylic acids can {@{react with [phosphor
 
 ### reduction
 
-Carboxylic acids {@{can be reduced to primary [alcohols](alcohol.md) directly using [lithium aluminium hydride](lithium%20aluminium%20hydride.md) in dry [diethyl ether](diethyl%20ether.md) and then add dilute [acid](acid.md)}@}. <!--SR:!2024-12-11,164,189-->
+Carboxylic acids {@{can be reduced to primary [alcohols](alcohol.md) directly using [lithium aluminium hydride](lithium%20aluminium%20hydride.md) in dry [diethyl ether](diethyl%20ether.md) and then add dilute [acid](acid.md)}@}. <!--SR:!2025-03-05,84,169-->
 
 ### reactions
 

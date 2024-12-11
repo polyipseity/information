@@ -103,7 +103,7 @@ See [CITIC Plaza](../../../../general/CITIC%20Plaza.md).
 See [Colosseum](../../../../general/Colosseum.md).
 
 - base widths ::@:: length: 189 m, width: 156 m <!--SR:!2026-02-23,455,336!2024-12-15,59,356-->
-- construction period ::@:: AD 72 to AD 80, 8 years <!--SR:!2025-03-29,125,216!2024-12-11,168,396-->
+- construction period ::@:: AD 72 to AD 80, 8 years <!--SR:!2025-03-29,125,216!2026-10-08,666,396-->
 - description ::@:: elliptical amphitheater in the center of Rome <!--SR:!2025-05-13,268,376!2025-12-11,420,376-->
 - geographic location ::@:: Rome <!--SR:!2026-02-17,488,396!2026-11-08,740,416-->
 - height ::@:: 48 m (4 storeys) <!--SR:!2025-01-13,110,276!2026-12-23,772,416-->
@@ -280,7 +280,7 @@ See [Sutong Yangtze River Bridge](../../../../general/Sutong%20Yangtze%20River%2
 See [Taipei 101](Taipei%20101.md).
 
 - description ::@:: skyscraper in Taipei, Taiwan <!--SR:!2025-03-31,295,350!2026-02-21,535,400-->
-- height ::@:: architectural: 508.2 m, tip: 509.2 m, top floor: 438 m <!--SR:!2024-12-11,17,130!2026-07-06,594,330-->
+- height ::@:: architectural: 508.2 m, tip: 509.2 m, top floor: 438 m <!--SR:!2025-01-01,21,130!2026-07-06,594,330-->
 - image ::@:: ![Taipei 101 image](../../../../archives/Wikimedia%20Commons/Tower%20of%20Taipei%20101(cropped).jpg) <!--SR:!2025-02-07,201,360!2025-07-04,321,380-->
 - [structural system](../../../../general/structural%20system.md) ::@:: concrete–steel composite<!-- flashcard 16556e6f-00ca-4a87-845c-f0ea2f56807a --> <!--SR:!2025-03-13,139,300!2025-08-01,343,380-->
 
@@ -315,7 +315,7 @@ See [Two Prudential Plaza](../../../../general/Two%20Prudential%20Plaza.md).
 
 - description ::@:: 64-story skyscraper located in the Loop area of Chicago, Illinois <!--SR:!2025-06-20,290,320!2025-08-31,399,385-->
 - height ::@:: architectural: 303 m, top floor: 250 m <!--SR:!2024-12-15,59,181!2025-12-20,488,384-->
-- image ::@:: ![Two Prudential Plaza image](../../../../archives/Wikimedia%20Commons/Two%20Prudential%20Plaza%20Chicago%20in%20May%202016.jpg) <!--SR:!2025-06-04,294,360!2024-12-11,64,320-->
+- image ::@:: ![Two Prudential Plaza image](../../../../archives/Wikimedia%20Commons/Two%20Prudential%20Plaza%20Chicago%20in%20May%202016.jpg) <!--SR:!2025-06-04,294,360!2025-07-04,205,320-->
 - [structural system](../../../../general/structural%20system.md) ::@:: reinforced concrete<!-- flashcard ecbdac25-22dc-429d-9976-d49408b1478d --> <!--SR:!2025-01-13,128,340!2025-12-30,488,400-->
 
 ## Water Cube

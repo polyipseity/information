@@ -71,7 +71,7 @@ return _chain.from_iterable(await _gather(
 - `/`→::@::←`//` <!--SR:!2025-08-13,264,342!2024-12-13,79,322-->
 - `//`→::@::←`%` <!--SR:!2025-06-20,218,330!2025-09-20,294,342-->
 - `%`→::@::←`+` <!--SR:!2025-09-17,293,342!2025-06-14,213,322-->
-- `+`→::@::←`-` <!--SR:!2025-07-07,232,330!2024-12-11,77,322-->
+- `+`→::@::←`-` <!--SR:!2025-07-07,232,330!2025-11-18,342,342-->
 - `-`→::@::←_(end)_ <!--SR:!2025-10-30,327,342!2025-11-07,335,342-->
 
 <!--/pytextgen-->
@@ -289,4 +289,4 @@ We can convert a value (`value`) into other data types using {@{`float(value)`, 
 
 ## input
 
-We can request user input {@{using `input(prompt)`, where `prompt` is an (optional) value (not necessarily a `str`) to be printed (like `print(...)`, but without automatically printing a newline and only accepts a single argument) before asking for input}@}. Note that some Juypter notebooks {@{automatically adds a space after printing the string, while other environments do not}@}. The user input ends when {@{user enters a newline to confirm the input, i.e. presses enter}@}. Then, it will {@{return a string, keeping any leading or trailing spaces, but not the newline the user typed at the end to confirm the input}@}. <!--SR:!2025-02-04,108,320!2025-09-21,294,360!2024-12-11,64,340!2025-11-01,328,360-->
+We can request user input {@{using `input(prompt)`, where `prompt` is an (optional) value (not necessarily a `str`) to be printed (like `print(...)`, but without automatically printing a newline and only accepts a single argument) before asking for input}@}. Note that some Juypter notebooks {@{automatically adds a space after printing the string, while other environments do not}@}. The user input ends when {@{user enters a newline to confirm the input, i.e. presses enter}@}. Then, it will {@{return a string, keeping any leading or trailing spaces, but not the newline the user typed at the end to confirm the input}@}. <!--SR:!2025-02-04,108,320!2025-09-21,294,360!2025-10-08,301,360!2025-11-01,328,360-->

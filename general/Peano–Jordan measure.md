@@ -31,7 +31,7 @@ A _simple set_, or _polyrectangle_, is then {@{finite [unions](union%20(set%20th
 
 $$S := R_1 \cup R_2 \cup \cdots \cup R_k \qquad k \ge 1$$
 
-However, the Jordan measure of a simple set cannot be defined as {@{the sum of measures of individual rectangles}@}. This is because {@{a simple set does not have an unique representation}@}, and the different representations give {@{inconsistent results if the above definition is used, as the amount of overlap can vary}@}. <!--SR:!2024-12-11,239,330!2027-01-29,821,330!2025-01-09,260,330-->
+However, the Jordan measure of a simple set cannot be defined as {@{the sum of measures of individual rectangles}@}. This is because {@{a simple set does not have an unique representation}@}, and the different representations give {@{inconsistent results if the above definition is used, as the amount of overlap can vary}@}. <!--SR:!2027-12-03,1087,350!2027-01-29,821,330!2025-01-09,260,330-->
 
 > {@{![finite union of 2D rectangles](../archives/Wikimedia%20Commons/Simple%20set1.png)}@}
 >

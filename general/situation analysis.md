@@ -15,7 +15,7 @@ tags:
 
 ### company
 
-Company involves {@{evaluating the company's capabilities, objectives, and strategies}@}. <!--SR:!2024-12-11,130,290-->
+Company involves {@{evaluating the company's capabilities, objectives, and strategies}@}. <!--SR:!2026-05-19,524,310-->
 
 ### competitors
 

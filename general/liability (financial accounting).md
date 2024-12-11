@@ -17,12 +17,12 @@ A liability is defined by the following characteristics:
 
 - [loan](loan.md) ::@:: Any type of borrowing from persons or banks for improving a business or personal income that is payable during short or long time; <!--SR:!2025-05-18,168,310!2025-06-10,195,310-->
 - [deferral](deferral.md) ::@::  A duty or responsibility to others that entails settlement by future transfer or use of assets, provision of services, or other transaction yielding an economic benefit, at a specified or determinable date, on occurrence of a specified event, or on demand; <!--SR:!2024-12-16,57,250!2025-02-14,102,290-->
-- [obligtion](obligation.md) ::@:: A duty or responsibility that obligates the entity to another, leaving it little or no discretion to avoid settlement; and, <!--SR:!2024-12-25,70,270!2024-12-11,64,310-->
+- [obligtion](obligation.md) ::@:: A duty or responsibility that obligates the entity to another, leaving it little or no discretion to avoid settlement; and, <!--SR:!2024-12-25,70,270!2025-09-18,281,330-->
 - [accrual](accrual.md) ::@:: A transaction or event obligating the entity that has already occurred. <!--SR:!2025-07-20,232,330!2025-04-16,160,310-->
 
 Liabilities in financial accounting {@{need not be legally enforceable; but can be based on equitable obligations or constructive obligations}@}. An __equitable obligation__ is {@{a duty based on ethical or moral considerations}@}. A __constructive obligation__ is {@{an obligation that is implied by a set of circumstances in a particular situation, as opposed to a contractually based obligation}@}. <!--SR:!2025-06-19,202,310!2024-12-15,68,310!2025-02-28,112,270-->
 
-The [accounting equation](accounting%20equation.md) {@{relates [assets](asset.md), liabilities, and [owner's equity](equity%20(finance).md): <p> __Assets = Liabilities + Owner's Equity__}@} <!--SR:!2024-12-11,64,310-->
+The [accounting equation](accounting%20equation.md) {@{relates [assets](asset.md), liabilities, and [owner's equity](equity%20(finance).md): <p> __Assets = Liabilities + Owner's Equity__}@} <!--SR:!2025-09-15,278,330-->
 
 {@{The accounting equation}@} is {@{the mathematical structure of the [balance sheet](balance%20sheet.md)}@}. <!--SR:!2025-08-14,252,330!2024-12-22,73,310-->
 
@@ -47,7 +47,7 @@ Liabilities are reported on a [balance sheet](balance%20sheet.md) and are {@{usu
 
 {@{Liabilities of uncertain value or timing}@} are called {@{provisions ([contingent liabilities](contingent%20liability.md))}@}. <!--SR:!2024-12-21,72,310!2024-12-13,64,310-->
 
-When {@{a company [deposits](deposit%20account.md) cash with a [bank](bank.md)}@}, the bank records {@{a liability on its balance sheet, representing the obligation to repay the depositor, usually on demand}@}. Simultaneously, in accordance with {@{the [double-entry](double-entry%20bookkeeping.md) principle}@}, the bank {@{records the cash, itself, as an asset}@}. The company, on the other hand, upon depositing the cash with the bank, records {@{a decrease in its cash and a corresponding increase in its bank deposits (an asset)}@}. <!--SR:!2025-09-04,268,330!2025-05-01,164,310!2024-12-17,68,310!2025-09-03,267,330!2024-12-11,62,310-->
+When {@{a company [deposits](deposit%20account.md) cash with a [bank](bank.md)}@}, the bank records {@{a liability on its balance sheet, representing the obligation to repay the depositor, usually on demand}@}. Simultaneously, in accordance with {@{the [double-entry](double-entry%20bookkeeping.md) principle}@}, the bank {@{records the cash, itself, as an asset}@}. The company, on the other hand, upon depositing the cash with the bank, records {@{a decrease in its cash and a corresponding increase in its bank deposits (an asset)}@}. <!--SR:!2025-09-04,268,330!2025-05-01,164,310!2024-12-17,68,310!2025-09-03,267,330!2025-09-06,269,330-->
 
 ## debits and credits
 

@@ -84,7 +84,7 @@ assert 7 * [42, 69] == [42, 69, 42, 69, 42, 69, 42, 69, 42, 69, 42, 69, 42, 69]
 
 ## mutability
 
-Note that there is a difference between strings and lists when it comes to {@{mutability}@}. Strings are {@{always immutable, while lists are mutable}@}. So any operation you have done on strings {@{does not change the original string itself, and reassigning to the variable is the only way to change the value of a variable containing a string}@}. Meanwhile, for lists, {@{there are operations that can change the original list. Compare using `+` and `append` to extend a list}@}: <!--SR:!2025-03-19,320,330!2024-12-11,221,310!2027-01-15,771,330!2026-11-11,755,330-->
+Note that there is a difference between strings and lists when it comes to {@{mutability}@}. Strings are {@{always immutable, while lists are mutable}@}. So any operation you have done on strings {@{does not change the original string itself, and reassigning to the variable is the only way to change the value of a variable containing a string}@}. Meanwhile, for lists, {@{there are operations that can change the original list. Compare using `+` and `append` to extend a list}@}: <!--SR:!2025-03-19,320,330!2027-07-17,948,330!2027-01-15,771,330!2026-11-11,755,330-->
 
 ```Python
 original = [1, 2, 3]
@@ -103,7 +103,7 @@ assert id(original) == id(new) # `id` can determine whether two objects are the 
 
 ## multidimensional
 
-In Python, there is {@{nothing special}@} about multidimensional sequences. It is literally {@{lists inside a list}@}: <!--SR:!2027-12-05,1090,350!2024-12-11,237,330-->
+In Python, there is {@{nothing special}@} about multidimensional sequences. It is literally {@{lists inside a list}@}: <!--SR:!2027-12-05,1090,350!2027-11-23,1077,350-->
 
 ```Python
 sudoku = [
