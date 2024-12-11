@@ -113,9 +113,9 @@ tags:
 - document vectors/matrix: sparse, not stored directly
 - indexing: speedup slow algorithms using inverted file
   - data structures: hash file, B-tree, tries (singular trie), etc.
-  - key -> value: both stored as strings
-  - inverted index: term, DF (optional, can be separate) -> (doc, TF) (posting in postings list), positions (optional)
-  - forward index: doc -> list of terms, TF max (optional)
+  - key → value: both stored as strings
+  - inverted index: term, DF (optional, can be separate) → (doc, TF) (posting in postings list), positions (optional)
+  - forward index: doc → list of terms, TF max (optional)
   - separate file: DF, N
 - represent words and docs with integer IDs
 - bool query: treated as bool terms connected by bool operators
@@ -136,12 +136,12 @@ tags:
       - $\operatorname{score}(Q, D) \mathrel{ {+}{=} } \operatorname{partial\ score}(Q_i, D)$
 - inverted overhead: consider n unique terms in a doc, sorted or unsorted postings list
 - overhead in practice: design requirements (library vs. newspapers/WWW), disk and memory size, batch/online update
-- forward index: doc -> list of terms, TF max (optional)
+- forward index: doc → list of terms, TF max (optional)
   - support delete
 - update = delete + create
 - decrease delete cost: mark as deleted, and periodically actual delete (maintenance)
-- typical indexes: map: term -> ID, URL -> ID; inverted: word -> (page ID, positions); forward: page ID -> terms; properties: page ID -> title, URL, last mod, size, etc.
-- link-based index (adjacency list): child ID -> parent IDs
+- typical indexes: map: term → ID, URL → ID; inverted: word → (page ID, positions); forward: page ID → terms; properties: page ID → title, URL, last mod, size, etc.
+- link-based index (adjacency list): child ID → parent IDs
 - batch/bulk insertion: index new documents starting with a blank index, then merge with master index
   - blank index is cheap and small, maybe can be in memory
   - batch size: too small: less chance of same term in many docs; too big: insert into blank index expensive
@@ -157,7 +157,7 @@ tags:
 
 ## extended bool model
 
-- bool filter -> VSM: AND: maybe too restricted; OR: same as VSM
+- bool filter → VSM: AND: maybe too restricted; OR: same as VSM
 - conjunctive: x AND y, x ∧ y
 - disjunctive: x OR y, x ∨ y
 - extended bool model: smoothly approximates the bool operators
@@ -191,13 +191,13 @@ tags:
   - link-based similarity: combine direct path, common ancestors, and common descendants; then combine with term-based similarity; combine method not matter
   - link formulas are ad-hoc
   - not directly usable in ranking, but for clustering to enhance retrieval speed and quality
-  - used to classify 195 documents from cnn.com using complete-link clustering method -> compare with CNN classes -> precision, recall
+  - used to classify 195 documents from cnn.com using complete-link clustering method → compare with CNN classes → precision, recall
 - WWW Index and Search Engine (WISE) at HKUST (1995)
   - page score is the weighted sum of its term-based score matching and scores inherited from its parents
     - $$\operatorname{score} = \alpha(\text{\# matches}) + \sum_{p \in \text{all direct parent links} } \beta(\text{\# matches} \in p) \qquad \alpha << \beta$$
   - most cited equals number of query terms found in direct parents
     - term frequency is ignored
-  - 1995-04-26: 2393 pages from cuhk.hk for diversity -> select 56 pages and subjectively construct 56 most relevant queries -> subjectively judge retrieved pages
+  - 1995-04-26: 2393 pages from cuhk.hk for diversity → select 56 pages and subjectively construct 56 most relevant queries → subjectively judge retrieved pages
 - problems with HyPursuit and WISE
   - related != similar, linked may not be similar but only related
   - does not account for diff between web and traditional docs
@@ -216,7 +216,7 @@ tags:
       - async iteration: PR values are updated immediately (order dependant)
     - expensive, but parallelizable as it depends on parent links only
     - no need to update if the graph updates
-      - Google runs it monthly, maybe more frequently now -> Google dance
+      - Google runs it monthly, maybe more frequently now → Google dance
     - no need to be exact
     - bad: favors big websites but not small websites (discovery issue), general websites
       - being linked does not mean relevant
@@ -273,9 +273,9 @@ A & = \begin{matrix} A \\ B \end{matrix} \begin{pmatrix} 0 & 1 \\ 0 & 0 \end{pma
     - applied after an iteration (including iteration 0)
   - diffusion effects: children of a page reinforce each other in terms of authority (prestige by association?)
 - integrate PR into Google: unknown; probably ranking algorithm based on PR (periodically offline-updated) and fancy/plain hits; efficient
-  - query -> keyword matcher -> matching results -> ranking (fancy/plain hits + PR) -> ranked results
+  - query → keyword matcher → matching results → ranking (fancy/plain hits + PR) → ranked results
 - integrate HITS: CLEVER architecture by Kleinberg
-  - query -> any SE -> ranked results -> re-ranking -> re-ranked results; ranked results -> graph-based information -> re-ranking
+  - query → any SE → ranked results → re-ranking → re-ranked results; ranked results → graph-based information → re-ranking
   - SE must be good enough to get good initial results
   - graph-based information
     - root set: contains query keywords; base set/topical subgraph: root set and direct parent and children of root set
@@ -287,18 +287,18 @@ A & = \begin{matrix} A \\ B \end{matrix} \begin{pmatrix} 0 & 1 \\ 0 & 0 \end{pma
 
 ## performance evaluation
 
-- why: compare, test for deviation, fine tine query, cost-benefit analysis, determine change in SE -> effect
+- why: compare, test for deviation, fine tine query, cost-benefit analysis, determine change in SE → effect
 - efficiency, effectiveness
 - evaluations
   - explicit: human judges determine the relevance of ranked results given queries, offline
   - behavioral: real user behavior logged (e.g. click, timestamp), online/realtime, metrics (e.g. total number of clicks, average rank of user clicks (ARUC))
-- explicit evaluation: offline -> guess query need/intent
+- explicit evaluation: offline → guess query need/intent
   - bad: human error, inconsistent, inefficient, expensive; relevancy is continuous, subjective, situational, temporal
-    - more assessors -> less relevant overlap
+    - more assessors → less relevant overlap
     - primary assessor: then no need other assessors
     - majority vote/intersection only
     - another assessor to resolve inconsistent evaluations
-    - better: auto filter relevant -> human judgement (e.g. SE pooling), human judgement to train auto
+    - better: auto filter relevant → human judgement (e.g. SE pooling), human judgement to train auto
 - confusion matrix: retrieved (true) vs un-retrieved; relevant (true) vs irrelevant
 - false positive, true negative, true positive, false negative
 - recall = TP/(TP + FN): ability to find all relevant items
@@ -316,7 +316,7 @@ A & = \begin{matrix} A \\ B \end{matrix} \begin{pmatrix} 0 & 1 \\ 0 & 0 \end{pma
   - precision (y)—recall (x) graph: looks decreasing zip-zag shape, start and end missing
     - interpolate: looks like decreasing staircase, start (x = 0) and end (y = 0) not missing
     - std 11 levels: 0.0, 0.1, ..., 1.0
-    - multiple queries: take average -> smooth when many queries
+    - multiple queries: take average → smooth when many queries
     - average precision (AP): area under the interpolated graph; $$\frac 1 {\text{\# relevant} } \sum_{k = 1}^{\text{\# retrieved} } P@k \cdot \operatorname{rel}(k)$$
     - mean average precision (MAP): average of AP for many queries
   - recall (y)—fallout (x) graph: similar to above, but increasing
@@ -338,7 +338,7 @@ A & = \begin{matrix} A \\ B \end{matrix} \begin{pmatrix} 0 & 1 \\ 0 & 0 \end{pma
 
 ## benchmarking
 
-- analytical performance difficult, too many factors -> benchmarking, environment-sensitive
+- analytical performance difficult, too many factors → benchmarking, environment-sensitive
 - benchmark collection: standard docs and queries, relevant docs for each query
   - SMART collection: <ftp://ftp.cs.cornell.edu/pub/smart>, Text Retrieval Conference (TREC): <http://trec.nist.gov/>
 - problems: benchmark-specific, resource-consuming, web/Asian languages, expose weakness
@@ -364,26 +364,26 @@ A & = \begin{matrix} A \\ B \end{matrix} \begin{pmatrix} 0 & 1 \\ 0 & 0 \end{pma
 
 ## text processing
 
-- IR: doc -> tokenize -> stem -> stopword -> index
-- NLP: doc -> tokenize -> lemmatize -> part-of-speech parsing -> stopword -> NER, etc. -> index
+- IR: doc → tokenize → stem → stopword → index
+- NLP: doc → tokenize → lemmatize → part-of-speech parsing → stopword → NER, etc. → index
 - text as: string, words, linguistic units
   - single term works well: phrase are too specific
-- index: tokenize -> stopword -> stem -> replace by term IDs -> count TF -> (optional) related terms for low TF -> (optional) phrases for high TF -> compute weights -> inverted & forward indices
-  - query: tokenize -> stopword -> stem -> replace by term IDs -> compute weights -> query vector -> compute similarities -> ranking
+- index: tokenize → stopword → stem → replace by term IDs → count TF → (optional) related terms for low TF → (optional) phrases for high TF → compute weights → inverted & forward indices
+  - query: tokenize → stopword → stem → replace by term IDs → compute weights → query vector → compute similarities → ranking
 - stopword, stem: search = index, search can be more restricted for stopword
 - stem: unify variations, smaller index, enhance recall
-  - improve IR, not lingustic; correctness is much less than 100%; incorrect stemming (e.g. fries -> fr)
+  - improve IR, not lingustic; correctness is much less than 100%; incorrect stemming (e.g. fries → fr)
   - why no stem?: general SE generally do not, domain-specific do
 - expand query terms: no stem, query become many terms OR-ed
   - precise but more time consuming
 - most: stem on both, suffix truncate more common than prefix, avoid over and under
-- stemming methods: automatic stemming -> affix removal, successor variety, table lookup, N-gram; affix removal -> longest match, simple removal, context sensitive
-- table lookup: term -> stem; space may be big; hard to capture all possibilities or context
+- stemming methods: automatic stemming → affix removal, successor variety, table lookup, N-gram; affix removal → longest match, simple removal, context sensitive
+- table lookup: term → stem; space may be big; hard to capture all possibilities or context
 - affix removal: remove suffixes (e.g. -ses, -ation, -ing)
-  - longest matching once; multiple times; avoid: ability -> NULL, sing -> s
+  - longest matching once; multiple times; avoid: ability → NULL, sing → s
   - bad: linguistic knowledge, cannot cover all cases, language dependent
 - context: consider other words
-  - example: Ati -> Aty, where A is context, then only apply this transform if A contains vowel
+  - example: Ati → Aty, where A is context, then only apply this transform if A contains vowel
   - many exceptions
 - Porter's algorithm (1980)
   - 60 suffixes grouped into 5 steps
@@ -392,13 +392,13 @@ A & = \begin{matrix} A \\ B \end{matrix} \begin{pmatrix} 0 & 1 \\ 0 & 0 \end{pma
 - corpora-based statistical stemming: statistical analysis of a corpus
   - good: auto and language independent
   - assumption: stems rarely change, variations are based on stem
-  - text mining: articles -> analysis/mining -> mapping rules
+  - text mining: articles → analysis/mining → mapping rules
 - successor variety: number of possible characters follow a string in a corpus (end-of-word is a character)
-  - a prefix has low variety -> unlikely stem
+  - a prefix has low variety → unlikely stem
   - cutoff method: segment when variety >= threshold (2)
   - peak and plateau method: character whose variety is greater than preceding and following character
   - entropy method: absolute variety does not consider frequency
-    - calculate information entropy: b = 2 -> in bits; $$H(X) = -\sum_{x \in \mathcal{X} } p(x) \log_b(p(x))$$
+    - calculate information entropy: b = 2 → in bits; $$H(X) = -\sum_{x \in \mathcal{X} } p(x) \log_b(p(x))$$
       - English entropy: 1.0~1.5 bits/0.6~1.3 bits
     - $p(x)$ is simply the probability of a character
     - then combine with cutoff method or peak and plateau method
@@ -406,7 +406,7 @@ A & = \begin{matrix} A \\ B \end{matrix} \begin{pmatrix} 0 & 1 \\ 0 & 0 \end{pma
     - heuristic method: 1st or 2nd; if 1st is likely prefix, choose 2nd
     - complete word method: complete word
 - shared bigram stemming
-  - 2-gram example: abcdef -> ab bc cd de ef
+  - 2-gram example: abcdef → ab bc cd de ef
   - similarity of 2 terms: Dice coefficient $$S = \frac C {A + B}$$, where $C$ is # shared unique bigrams, $A, B$ are # unique bigrams for the 2 words individually
   - 3-gram/trigram
   - cluster terms using coefficient, terms in a cluster probably has the same stem
@@ -422,7 +422,7 @@ A & = \begin{matrix} A \\ B \end{matrix} \begin{pmatrix} 0 & 1 \\ 0 & 0 \end{pma
   - explicit: explicitly mark as relevant and irrelevant; but users too lazy
   - implicit: user actions (clicks)
     - provide additional info: related pages, related queries, groups of docs
-- accept user relevant judgement -> feedback formula
+- accept user relevant judgement → feedback formula
 - reinforce relevant results, weaken non relevant results
 - optimal query: let $D_R'$ be the relevant docs centroid, $D_N'$ be the irrelevant docs centroid; $$Q_{\text{opt} } = C(D_R' - D_N') \qquad C\text{ is an arbitrary constant}$$
   - all relevant and irrelevant docs are not known
@@ -430,7 +430,7 @@ A & = \begin{matrix} A \\ B \end{matrix} \begin{pmatrix} 0 & 1 \\ 0 & 0 \end{pma
     - positive: relevant only; negative: irrelevant only; mixed: both
     - used docs: all, all relevant and highest-ranked irrelevant
     - doc vector: only use some, high weight terms, common terms in all relevant docs and common terms in all irrelevant docs
-  - relevant more valuable than irrelevant -> $\beta > \gamma$
+  - relevant more valuable than irrelevant → $\beta > \gamma$
   - effective when relevant docs are clustered
 - doc modification: move relevant closer to query and vice versa for irrelevant
   - relevant
@@ -456,12 +456,12 @@ A & = \begin{matrix} A \\ B \end{matrix} \begin{pmatrix} 0 & 1 \\ 0 & 0 \end{pma
   - implicit good: easily collectable, reflective of real usage
 - clickthrough, browsed docs
 - absolute feedback: results that are relevant or irrelevant
-  - problem: click != relevant, click paradox: user trust SE -> SE trust user
+  - problem: click != relevant, click paradox: user trust SE → SE trust user
 - relative feedback: results that are preferred over other results
   - NOT clicked, more reliable than absolute, 80% are correct
 - log clickthrough, and many other things, how to model?
 - eye tracking, fixation: 200-300 msec, saccades: 40-50 msec, pupil dilation
-  - results: golden triangle at top left; organic: 100%@1 -> 20%@10, ads: 50%@1->10%@8
+  - results: golden triangle at top left; organic: 100%@1 → 20%@10, ads: 50%@1->10%@8
   - main content at top left
   - fixation correlated with clicks, first link > second link even fixation similar
 - clickthrough analysis: record rank and pages that are clicked; better for relative feedback
@@ -512,7 +512,7 @@ A & = \begin{matrix} A \\ B \end{matrix} \begin{pmatrix} 0 & 1 \\ 0 & 0 \end{pma
 - term POV: content: meaning, index: docs containing words, search: find relevant docs
 - some term discriminate relevant docs better than others
   - in a vector space: spread out the docs
-    - adding a new term: not contain -> unchanged, contain -> dragged further away
+    - adding a new term: not contain → unchanged, contain → dragged further away
 - decision tree can represent containing terms
 - good index term decrease average similarity
   - average similarity: group average linkage; $$Q = \frac 1 {N (N - 1)} \sum_{i = 1}^N \sum_{j = 1, i \ne j}^N \operatorname{sim}(D_i, D_j)$$
@@ -523,13 +523,13 @@ A & = \begin{matrix} A \\ B \end{matrix} \begin{pmatrix} 0 & 1 \\ 0 & 0 \end{pma
   - relationship with TF: usually positive, and increasing initially, then decrease and eventually become negative increasing slowly
     - low TF but initially increasing: make docs containing them extremely close together
   - average similarity (compromise): average distance to centroid; $$Q = \frac 1 N \sum_{k = 1}^N \operatorname{sim}(C, D_k)$$
-- greedy and exhaustive term selection algorithm: identify words -> select similarity -> set term weights to 1 -> all terms are candidates -> compute DV for all -> select terms with highest DV -> removed selected terms from candidate -> repeat until enough terms
+- greedy and exhaustive term selection algorithm: identify words → select similarity → set term weights to 1 → all terms are candidates → compute DV for all → select terms with highest DV → removed selected terms from candidate → repeat until enough terms
 
 ## co-occurrence
 
 - simple text analysis assumption: human writings are not random
 - N-grams
-  - 2-grams example: alpha beta gamma -> alpha beta, beta gamma
+  - 2-grams example: alpha beta gamma → alpha beta, beta gamma
   - mostly meaningless, many unique N-grams
   - good: faster retrieval, improve recall, hurt precision
   - N = 2 or 3 for English

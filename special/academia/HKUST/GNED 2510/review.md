@@ -80,9 +80,9 @@ syllabus
 
 assignments
 
-- assignment 1: JD, CV & Cover Letter (due Oct 11 -> 13)
+- assignment 1: JD, CV & Cover Letter (due Oct 11 → Oct 13)
 - assingment ?: Networking Practicum Reflection (due Nov 4)
-- assignment 2: Video Interview Clips (due Nov 8 -> 15)
+- assignment 2: Video Interview Clips (due Nov 8 → Nov 15)
 - (the arrows mean the teacher delayed the deadline)
 
 ### teaching

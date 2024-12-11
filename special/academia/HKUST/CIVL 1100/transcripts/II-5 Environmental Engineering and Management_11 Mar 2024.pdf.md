@@ -191,7 +191,7 @@ Landfills in Hong Kong
 Sustainable Waste Management
 
 - sustainable waste management triangle ::@:: top: waste avoidance + 3Rs, left: incineration (waste-to-energy), right: landfill (methane (CH<sub>4</sub>) to energy)
-  - sustainable waste management triangle arrows ::@:: top -> left, right; left -> right
+  - sustainable waste management triangle arrows ::@:: top → left, right; left → right
 
 ## page 12
 
@@ -201,7 +201,7 @@ Sustainable Waste Management
   - reduce ::@:: reduce the amount of solid waste generation
   - reuse ::@:: multiple uses of an item in its original form with or without reconditioning
   - recycle ::@:: materials are collected and recovered to be used as raw material
-    - recycle example ::@:: plastic bottle (PET or HDPE) -> chips -> fiber -> T-shirt or bag
+    - recycle example ::@:: plastic bottle (PET or HDPE) → chips → fiber → T-shirt or bag
 
 ## page 13
 

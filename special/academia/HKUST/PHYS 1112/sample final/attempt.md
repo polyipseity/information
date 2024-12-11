@@ -401,10 +401,10 @@ A
 __draft__
 
 1. heat capacity ratio: 5/3, so Q/W = 5/2 for isobaric
-2. a->b: 100 K -> 150 K, isobaric, delta U = 1, Q = 5 / 3, W = 2 / 3
-3. b->c: 150 K -> 450 K, isochoric, delta U = 6, Q = 6, W = 0
-4. c->d: 450 K -> 300 K, isobaric, delta U = -3, Q = -5, W = -2
-5. d->a: 300 K -> 100 K, isochoric, delta U = -4, Q = -4, W = 0
+2. a→b: 100 K → 150 K, isobaric, delta U = 1, Q = 5 / 3, W = 2 / 3
+3. b→c: 150 K → 450 K, isochoric, delta U = 6, Q = 6, W = 0
+4. c→d: 450 K → 300 K, isobaric, delta U = -3, Q = -5, W = -2
+5. d→a: 300 K → 100 K, isochoric, delta U = -4, Q = -4, W = 0
 6. efficiency: (5 / 3 + 6) / (- 2 / 3 + 2) = 5.75
 
 ## 40
@@ -459,9 +459,9 @@ __draft__
 
 1. C_p = C_V + R = 37 + R ≈ 45.3144626
 2. gamma = 45.3144626 / 37 ≈ 1.22471521, so Q/W = 5.45007706 for isobaric process
-3. c->a: 0.16 m^3 -> 0.01 m^3, 820 K -> 51.25 K, isobaric, delta U = -1, Q = -1.22471521, W = -0.22471521
-4. a->b: 51.25 K -> 820 K, isochoric, delta U = 1, Q = 1, W = 0
-5. b->c: 0.01 m^3 -> 0.16 m^3, 820 K, isothermic, delta U = 0, dW = p dV = 2R(820)/V dV ≈ 13635.7187/V dV => W = 13635.7187(ln(0.16) - ln(0.01)) ≈ 37806.2399 J = 37806.2399 / (2(37)(820 - 51.25)) ≈ 0.664579036, Q ≈ 0.664579036
+3. c→a: 0.16 m^3 → 0.01 m^3, 820 K → 51.25 K, isobaric, delta U = -1, Q = -1.22471521, W = -0.22471521
+4. a→b: 51.25 K → 820 K, isochoric, delta U = 1, Q = 1, W = 0
+5. b→c: 0.01 m^3 → 0.16 m^3, 820 K, isothermic, delta U = 0, dW = p dV = 2R(820)/V dV ≈ 13635.7187/V dV => W = 13635.7187(ln(0.16) - ln(0.01)) ≈ 37806.2399 J = 37806.2399 / (2(37)(820 - 51.25)) ≈ 0.664579036, Q ≈ 0.664579036
 6. e = (0.664579036 - 0.22471521) / (0.664579036 + 1) ≈ 0.264249289
 
 ## 45
