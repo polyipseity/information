@@ -54,16 +54,20 @@ The tree will {@{have `n+2` nodes, numbered from `1` to `n+2`}@}. For {@{each no
  7     <i>degree</i>[<i>i</i>] ← <i>degree</i>[<i>i</i>] + 1
 </pre>
 
-```pseudocode
-Convert-Prüfer-to-Tree(a)
- 1 n ← length[a]
- 2 T ← a graph with n + 2 isolated nodes, numbered 1 to n + 2
- 3 degree ← an array of integers
- 4 for each node i in T do
- 5     degree[i] ← 1
- 6 for each value i in a do
- 7     degree[i] ← degree[i] + 1
-```
+> [!info]- code
+>
+> ```pseudocode
+> Convert-Prüfer-to-Tree(a)
+>  1 n ← length[a]
+>  2 T ← a graph with n + 2 isolated nodes, numbered 1 to n + 2
+>  3 degree ← an array of integers
+>  4 for each node i in T do
+>  5     degree[i] ← 1
+>  6 for each value i in a do
+>  7     degree[i] ← degree[i] + 1
+> ```
+
+<!-- markdownlint MD028 -->
 
 > __code flashcards__
 >
@@ -90,15 +94,19 @@ Next, for {@{each number in the sequence `a[i]`}@}, {@{find the first (lowest-nu
 14             <b>break</b>
 </pre>
 
-```psuedocode
- 8 for each value i in a do
- 9     for each node j in T do
-10         if degree[j] = 1 then
-11             Insert edge[i, j] into T
-12             degree[i] ← degree[i] - 1
-13             degree[j] ← degree[j] - 1
-14             break
-```
+> [!info]- code
+>
+> ```psuedocode
+>  8 for each value i in a do
+>  9     for each node j in T do
+> 10         if degree[j] = 1 then
+> 11             Insert edge[i, j] into T
+> 12             degree[i] ← degree[i] - 1
+> 13             degree[j] ← degree[j] - 1
+> 14             break
+> ```
+
+<!-- markdownlint MD028 -->
 
 > __code flashcards__
 >
@@ -129,20 +137,24 @@ At {@{the end of this loop}@} {@{two nodes with degree 1 will remain (call them 
 26 <b>return</b> <i>T</i>
 </pre>
 
-```psuedocode
-15 u ← v ← 0
-16 for each node i in T
-17     if degree[i] = 1 then
-18         if u = 0 then
-19             u ← i
-20         else
-21             v ← i
-22             break
-23 Insert edge[u, v] into T
-24 degree[u] ← degree[u] - 1
-25 degree[v] ← degree[v] - 1
-26 return T
-```
+> [!info]- code
+>
+> ```psuedocode
+> 15 u ← v ← 0
+> 16 for each node i in T
+> 17     if degree[i] = 1 then
+> 18         if u = 0 then
+> 19             u ← i
+> 20         else
+> 21             v ← i
+> 22             break
+> 23 Insert edge[u, v] into T
+> 24 degree[u] ← degree[u] - 1
+> 25 degree[v] ← degree[v] - 1
+> 26 return T
+> ```
+
+<!-- markdownlint MD028 -->
 
 > __code flashcards__
 >

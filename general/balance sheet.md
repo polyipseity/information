@@ -35,18 +35,18 @@ A personal balance sheet lists {@{current [assets](asset.md) such as cash in [ch
 
 > __Sample Small Business Balance Sheet__<sup>[\[11\]](#^ref-11)</sup>
 >
-> |                                                                                                                     |                                                                                                                                             |
-> | ------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
-> | __[Assets](asset.md) (current)__                                                                                    | __Liabilities and Owners' Equity__                                                                                                          |
-> | Cash &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; $6&nbsp;600   | ___Liabilities___                                                                                                                           |
-> | Accounts Receivable &ensp;&ensp; $6&nbsp;200                                                                        | [Notes Payable](promissory%20note.md) &ensp;&ensp;&ensp;&ensp;&ensp; $5&nbsp;000                                                            |
-> | __Assets (fixed)__                                                                                                  | Accounts Payable &ensp; $25&nbsp;000                                                                                                        |
-> | Tools and equipment &ensp; $25&nbsp;000                                                                             | &ensp;&ensp;&ensp;&ensp; _Total liabilities_ &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; $30&nbsp;000                                        |
-> |                                                                                                                     | ___Owners' equity___                                                                                                                        |
-> |                                                                                                                     | Capital Stock &ensp;&ensp;&ensp;&ensp;&ensp; $7&nbsp;000                                                                                    |
-> |                                                                                                                     | Retained Earnings &ensp;&ensp; $800                                                                                                         |
-> |                                                                                                                     | &ensp;&ensp;&ensp;&ensp; _Total owners' equity_ &ensp;&ensp;&ensp; $7&nbsp;800                                                              |
-> | _Total_ &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; __$37&nbsp;800__ | _Total_ &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; __$37&nbsp;800__ |
+> |                                                                                                                           |                                                                                                                                                   |
+> | ------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
+> | {@{__[Assets](asset.md) (current)__}@}                                                                                    | {@{__Liabilities and Owners' Equity__}@}                                                                                                          |
+> | {@{Cash}@} &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; $6&nbsp;600   | {@{___Liabilities___}@}                                                                                                                           |
+> | {@{Accounts Receivable}@} &ensp;&ensp; $6&nbsp;200                                                                        | {@{[Notes Payable](promissory%20note.md)}@} &ensp;&ensp;&ensp;&ensp;&ensp; $5&nbsp;000                                                            |
+> | {@{__Assets (fixed)__}@}                                                                                                  | {@{Accounts Payable}@} &ensp; $25&nbsp;000                                                                                                        |
+> | {@{Tools and equipment}@} &ensp; $25&nbsp;000                                                                             | &ensp;&ensp;&ensp;&ensp; {@{_Total liabilities_ &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; $30&nbsp;000}@}                                        |
+> |                                                                                                                           | {@{___Owners' equity___}@}                                                                                                                        |
+> |                                                                                                                           | {@{Capital Stock}@} &ensp;&ensp;&ensp;&ensp;&ensp; $7&nbsp;000                                                                                    |
+> |                                                                                                                           | {@{Retained Earnings}@} &ensp;&ensp; $800                                                                                                         |
+> |                                                                                                                           | &ensp;&ensp;&ensp;&ensp; {@{_Total owners' equity_ &ensp;&ensp;&ensp; $7&nbsp;800}@}                                                              |
+> | {@{_Total_ &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; __$37&nbsp;800__}@} | {@{_Total_ &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; __$37&nbsp;800__}@} |
 
 A small business balance sheet lists {@{current assets such as cash, [accounts receivable](accounts%20receivable.md), and [inventory](inventory.md)}@}, {@{fixed assets such as land, buildings, and equipment}@}, {@{[intangible assets](intangible%20asset.md) such as [patents](patent.md)}@}, and {@{liabilities such as [accounts payable](accounts%20payable.md), accrued expenses, and long-term debt}@}. {@{[Contingent liabilities](contingent%20liability.md) such as [warranties](warranty.md)}@} are {@{noted in the footnotes to the balance sheet}@}. The small business's equity is {@{the difference between total assets and total liabilities}@}.<sup>[\[12\]](#^ref-12)</sup> <!--SR:!2025-07-29,239,330!2025-06-27,208,310!2025-09-12,276,330!2025-03-20,127,290!2025-08-10,249,330!2024-12-15,68,310!2024-12-31,71,270-->
 
@@ -146,69 +146,203 @@ The following balance sheet is a very brief example prepared in accordance with 
 
 {@{Under IFRS}@} items are {@{always shown based on liquidity from the least liquid assets at the top, usually land and buildings to the most liquid, i.e. cash}@}. Then liabilities and equity {@{continue from the most immediate liability to be paid (usual account payable) to the least i.e. long-term debt such as mortgages and owner's equity at the very bottom}@}.<sup>[\[20\]](#^ref-20)</sup> <!--SR:!2025-08-08,247,330!2025-03-19,139,310!2025-04-29,143,270-->
 
-```text
-Consolidated Statement of Finance Position of XYZ, Ltd.
- As of 31 December 2025
-```
+<pre>
+<b>Consolidated Statement of Finance Position of XYZ, Ltd.</b>
+<b> As of 31 December 2025</b>
+</pre>
 
-```text
-ASSETS
- Non-Current Assets (Fixed Assets)
-  Property, Plant and Equipment (PPE)
-     Less : Accumulated Depreciation
-  Goodwill
-  Intangible Assets (Patent, Copyright, Trademark, etc.)
-     Less : Accumulated Amortization
-  Investments in Financial assets due after one year
-  Investments in Associates and Joint Ventures
-  Other Non-Current Assets, e.g. Deferred Tax Assets, Lease Receivable and Receivables due after one year
+<pre>
+<b><a href="asset.md" title="Asset">ASSETS</a></b>
+ <b>Non-Current Assets (<a href="fixed asset.md" title="Fixed Asset">Fixed Assets</a>)</b>
+  <a href="fixed asset.md" title="Property, Plant and Equipment">Property, Plant and Equipment</a> (PPE)
+     <i>Less&nbsp;: <a href="depreciation.md" title="Accumulated Depreciation">Accumulated Depreciation</a></i>
+  <a href="goodwill (accounting).md" title="Goodwill (accounting)">Goodwill</a>
+  <a href="intangible asset.md" title="Intangible asset">Intangible Assets</a> (Patent, Copyright, Trademark, etc.)
+     <i>Less&nbsp;: Accumulated Amortization</i>
+  Investments in <a href="financial asset.md" title="Financial assets">Financial assets</a> due after one year
+  <a href="consolidation (business).md" title="Consolidation (business)">Investments</a> in <a href="associate company.md" title="Associate company">Associates</a> and <a href="joint venture.md" title="Joint venture">Joint Ventures</a>
+  Other Non-Current Assets, e.g. <a href="deferred tax.md" title="Deferred Tax">Deferred Tax</a> Assets, <a href="finance lease.md" title="Finance lease">Lease Receivable</a> and Receivables due after one year
 
- Current Assets
-  Inventories
-  Prepaid Expenses
-  Investments in Financial assets due within one year
-  Non-Current and Current Assets Held for sale
-  Accounts Receivable (Debtors) due within one year
-     Less : Allowances for Doubtful debts
-  Cash and Cash Equivalents
-```
+ <b><a href="current asset.md" title="Current Asset">Current Assets</a></b>
+  <a href="inventory.md" title="Inventory">Inventories</a>
+  <a href="deferral.md" title="Prepaid Expense">Prepaid Expenses</a>
+  Investments in <a href="financial asset.md" title="Financial assets">Financial assets</a> due within one year
+  Non-Current and Current Assets <a href="available for sale.md" title="Available for sale">Held for sale</a>
+  <a href="accounts receivable.md" title="Accounts Receivable">Accounts Receivable</a> (Debtors) due within one year
+     <i>Less&nbsp;: <a href="bad debt.md" title="Bad debt">Allowances for Doubtful debts</a></i>
+  <a href="cash and cash equivalents.md" title="Cash and Cash Equivalents">Cash and Cash Equivalents</a>
+</pre>
 
-```text
-TOTAL ASSETS (this will match/balance the total for Liabilities and Equity below)
-```
+<pre>
+<b><span id="total assets"></span><span id="balance sheet total"></span>TOTAL ASSETS</b> (this will match/balance the total for Liabilities and Equity below)
+</pre>
 
-```text
-LIABILITIES and EQUITY
- Current Liabilities (Creditors: amounts falling due within one year)
-  Accounts Payable
-  Current Income Tax Payable
+<pre>
+<b>LIABILITIES and EQUITY</b>
+ <b>Current Liabilities (Creditors: amounts falling due within one year)</b>
+  <a href="accounts payable.md" title="Accounts Payable">Accounts Payable</a>
+  Current Income <a href="tax.md" title="Tax">Tax</a> Payable
   Current portion of Loans Payable
-  Short-term Provisions
-  Other Current Liabilities, e.g. Deferred income, Security deposits
+  <a href="provision (accounting).md" title="Provision (accounting)">Short-term Provisions</a>
+  Other Current Liabilities, e.g. <a href="deferral.md" title="Deferred income">Deferred income</a>, <a href="security deposit.md" title="Security deposit">Security deposits</a>
 
- Non-Current Liabilities (Creditors: amounts falling due after more than one year)
-  Loans Payable
-  Issued Debt Securities, e.g. Notes/Bonds Payable
-  Deferred Tax Liabilities
-  Provisions, e.g. Pension Obligations
-  Other Non-Current Liabilities, e.g. Lease Obligations
+ <b>Non-Current Liabilities (Creditors: amounts falling due after more than one year)</b>
+  <a href="loan.md" title="Loan">Loans</a> Payable
+  <a href="security (finance).md" title="Security (finance)">Issued Debt Securities</a>, e.g. Notes/Bonds Payable
+  <a href="deferred tax.md" title="Deferred Tax">Deferred Tax</a> Liabilities
+  <a href="provision (accounting).md" title="Provision (accounting)">Provisions</a>, e.g. Pension Obligations
+  Other Non-Current Liabilities, e.g. <a href="finance lease.md" title="Finance lease">Lease Obligations</a>
 
- EQUITY
-  Paid-in Capital
-    Share Capital (Ordinary Shares, Preference Shares)
-    Share Premium
-      Less: Treasury Shares
-  Retained Earnings
-  Revaluation Reserve
-  Other Accumulated Reserves
-  Accumulated Other Comprehensive Income
- 
-  Non-Controlling Interest
-```
+ <b>EQUITY</b>
+  <b><a href="paid-in capital.md" title="Paid-in Capital">Paid-in Capital</a></b>
+    <a href="share capital.md" title="Share capital">Share Capital</a> (<a href="common stock.md" title="Common stock">Ordinary Shares</a>, <a href="preferred stock.md" title="Preferred stock">Preference Shares</a>)
+    <a href="capital surplus.md" title="Share Premium">Share Premium</a>
+      <i>Less: <a href="treasury stock.md" title="Treasury Share">Treasury Shares</a></i>
+  <b><a href="retained earnings.md" title="Retained Earnings">Retained Earnings</a></b>
+  <b><a href="revaluation of fixed assets.md" title="Revaluation of fixed assets">Revaluation Reserve</a></b>
+  <b><a href="reserve (accounting).md" title="Reserve (accounting)">Other Accumulated Reserves</a></b>
+  <b><a href="accumulated other comprehensive income.md" title="Accumulated Other Comprehensive Income">Accumulated Other Comprehensive Income</a></b>
 
-```text
-TOTAL LIABILITIES and EQUITY (this will match/balance the total for Assets above)
-```
+  <b><a href="minority interest.md" title="Minority interest">Non-Controlling Interest</a></b>
+</pre>
+
+<pre>
+<b>TOTAL LIABILITIES and EQUITY</b> (this will match/balance the total for Assets above)
+</pre>
+
+> [!info]- code
+>
+> ```text
+> Consolidated Statement of Finance Position of XYZ, Ltd.
+>  As of 31 December 2025
+> ```
+>
+> ```text
+> ASSETS
+>  Non-Current Assets (Fixed Assets)
+>   Property, Plant and Equipment (PPE)
+>      Less : Accumulated Depreciation
+>   Goodwill
+>   Intangible Assets (Patent, Copyright, Trademark, etc.)
+>      Less : Accumulated Amortization
+>   Investments in Financial assets due after one year
+>   Investments in Associates and Joint Ventures
+>   Other Non-Current Assets, e.g. Deferred Tax Assets, Lease Receivable and Receivables due after one year
+> 
+>  Current Assets
+>   Inventories
+>   Prepaid Expenses
+>   Investments in Financial assets due within one year
+>   Non-Current and Current Assets Held for sale
+>   Accounts Receivable (Debtors) due within one year
+>      Less : Allowances for Doubtful debts
+>   Cash and Cash Equivalents
+> ```
+>
+> ```text
+> TOTAL ASSETS (this will match/balance the total for Liabilities and Equity below)
+> ```
+>
+> ```text
+> LIABILITIES and EQUITY
+>  Current Liabilities (Creditors: amounts falling due within one year)
+>   Accounts Payable
+>   Current Income Tax Payable
+>   Current portion of Loans Payable
+>   Short-term Provisions
+>   Other Current Liabilities, e.g. Deferred income, Security deposits
+> 
+>  Non-Current Liabilities (Creditors: amounts falling due after more than one year)
+>   Loans Payable
+>   Issued Debt Securities, e.g. Notes/Bonds Payable
+>   Deferred Tax Liabilities
+>   Provisions, e.g. Pension Obligations
+>   Other Non-Current Liabilities, e.g. Lease Obligations
+> 
+>  EQUITY
+>   Paid-in Capital
+>     Share Capital (Ordinary Shares, Preference Shares)
+>     Share Premium
+>       Less: Treasury Shares
+>   Retained Earnings
+>   Revaluation Reserve
+>   Other Accumulated Reserves
+>   Accumulated Other Comprehensive Income
+>  
+>   Non-Controlling Interest
+> ```
+>
+> ```text
+> TOTAL LIABILITIES and EQUITY (this will match/balance the total for Assets above)
+> ```
+
+<!-- markdownlint MD028 -->
+
+> __code flashcards__
+>
+> <pre>
+> {@{<b>Consolidated Statement of Finance Position of XYZ, Ltd.</b>}@}
+> {@{<b> As of 31 December 2025</b>}@}
+> </pre>
+>
+> <pre>
+> {@{<b><a href="asset.md" title="Asset">ASSETS</a></b>}@}
+>  {@{<b>Non-Current Assets (<a href="fixed asset.md" title="Fixed Asset">Fixed Assets</a>)</b>}@}
+>   {@{<a href="fixed asset.md" title="Property, Plant and Equipment">Property, Plant and Equipment</a> (PPE)}@}
+>      {@{<i>Less&nbsp;: <a href="depreciation.md" title="Accumulated Depreciation">Accumulated Depreciation</a></i>}@}
+>   {@{<a href="goodwill (accounting).md" title="Goodwill (accounting)">Goodwill</a>}@}
+>   {@{<a href="intangible asset.md" title="Intangible asset">Intangible Assets</a> (Patent, Copyright, Trademark, etc.)}@}
+>      {@{<i>Less&nbsp;: Accumulated Amortization</i>}@}
+>   {@{Investments in <a href="financial asset.md" title="Financial assets">Financial assets</a> due after one year}@}
+>   {@{<a href="consolidation (business).md" title="Consolidation (business)">Investments</a> in <a href="associate company.md" title="Associate company">Associates</a> and <a href="joint venture.md" title="Joint venture">Joint Ventures</a>}@}
+>   {@{Other Non-Current Assets, e.g. <a href="deferred tax.md" title="Deferred Tax">Deferred Tax</a> Assets, <a href="finance lease.md" title="Finance lease">Lease Receivable</a> and Receivables due after one year}@}
+>
+>  {@{<b><a href="current asset.md" title="Current Asset">Current Assets</a></b>}@}
+>   {@{<a href="inventory.md" title="Inventory">Inventories</a>}@}
+>   {@{<a href="deferral.md" title="Prepaid Expense">Prepaid Expenses</a>}@}
+>   {@{Investments in <a href="financial asset.md" title="Financial assets">Financial assets</a> due within one year}@}
+>   {@{Non-Current and Current Assets <a href="available for sale.md" title="Available for sale">Held for sale</a>}@}
+>   {@{<a href="accounts receivable.md" title="Accounts Receivable">Accounts Receivable</a> (Debtors) due within one year}@}
+>      {@{<i>Less&nbsp;: <a href="bad debt.md" title="Bad debt">Allowances for Doubtful debts</a></i>}@}
+>   {@{<a href="cash and cash equivalents.md" title="Cash and Cash Equivalents">Cash and Cash Equivalents</a>}@}
+> </pre>
+>
+> <pre>
+> {@{<b><span id="total assets"></span><span id="balance sheet total"></span>TOTAL ASSETS</b>}@} ({@{this will match/balance the total for Liabilities and Equity below}@})
+> </pre>
+>
+> <pre>
+> {@{<b>LIABILITIES and EQUITY</b>}@}
+>  {@{<b>Current Liabilities (Creditors: amounts falling due within one year)</b>}@}
+>   {@{<a href="accounts payable.md" title="Accounts Payable">Accounts Payable</a>}@}
+>   {@{Current Income <a href="tax.md" title="Tax">Tax</a> Payable}@}
+>   {@{Current portion of Loans Payable}@}
+>   {@{<a href="provision (accounting).md" title="Provision (accounting)">Short-term Provisions</a>}@}
+>   {@{Other Current Liabilities, e.g. <a href="deferral.md" title="Deferred income">Deferred income</a>, <a href="security deposit.md" title="Security deposit">Security deposits</a>}@}
+>
+>  {@{<b>Non-Current Liabilities (Creditors: amounts falling due after more than one year)</b>}@}
+>   {@{<a href="loan.md" title="Loan">Loans</a> Payable}@}
+>   {@{<a href="security (finance).md" title="Security (finance)">Issued Debt Securities</a>, e.g. Notes/Bonds Payable}@}
+>   {@{<a href="deferred tax.md" title="Deferred Tax">Deferred Tax</a> Liabilities}@}
+>   {@{<a href="provision (accounting).md" title="Provision (accounting)">Provisions</a>, e.g. Pension Obligations}@}
+>   {@{Other Non-Current Liabilities, e.g. <a href="finance lease.md" title="Finance lease">Lease Obligations</a>}@}
+>
+>  {@{<b>EQUITY</b>}@}
+>   {@{<b><a href="paid-in capital.md" title="Paid-in Capital">Paid-in Capital</a></b>}@}
+>     {@{<a href="share capital.md" title="Share capital">Share Capital</a> (<a href="common stock.md" title="Common stock">Ordinary Shares</a>, <a href="preferred stock.md" title="Preferred stock">Preference Shares</a>)}@}
+>     {@{<a href="capital surplus.md" title="Share Premium">Share Premium</a>}@}
+>       {@{<i>Less: <a href="treasury stock.md" title="Treasury Share">Treasury Shares</a></i>}@}
+>   {@{<b><a href="retained earnings.md" title="Retained Earnings">Retained Earnings</a></b>}@}
+>   {@{<b><a href="revaluation of fixed assets.md" title="Revaluation of fixed assets">Revaluation Reserve</a></b>}@}
+>   {@{<b><a href="reserve (accounting).md" title="Reserve (accounting)">Other Accumulated Reserves</a></b>}@}
+>   {@{<b><a href="accumulated other comprehensive income.md" title="Accumulated Other Comprehensive Income">Accumulated Other Comprehensive Income</a></b>}@}
+>
+>   {@{<b><a href="minority interest.md" title="Minority interest">Non-Controlling Interest</a></b>}@}
+> </pre>
+>
+> <pre>
+> {@{<b>TOTAL LIABILITIES and EQUITY</b>}@} ({@{this will match/balance the total for Assets above}@})
+> </pre>
 
 ## see also
 

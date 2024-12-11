@@ -13,7 +13,7 @@ tags:
   - language/in/English
 ---
 
-# statement of cash flow
+# statement of cash flows
 
 - HKUST ACCT 2010
 
@@ -35,7 +35,7 @@ tags:
 - (root) ::@:: cash flows from operating activities (+) <br/> cash flows for investing activities (+) <br/> cash flows from financing activities (+) <br/> net increase (decrease) in cash & cash equivalents: sum above <br/> cash & cash equivalents at beginning of period <br/> cash & cash equivalents at end of period: sum appropriately <!--SR:!2024-12-22,11,270!2024-12-20,9,250-->
   - (root) / (+) ::@:: (+) means "has children". <!--SR:!2024-12-12,4,270!2024-12-12,4,270-->
   - (root) / cash flows from operating activities ::@:: net income <br/> adjustments to reconcile net income to net cash provided by operating activities (+) <br/> net cash provided by operating activities: sum above <!--SR:!2024-12-20,9,250!2024-12-22,11,270-->
-    - (root) / cash flows from operating activities / adjustments to reconcile net income to net cash provided by operating activities ::@:: depreciation and amortization <br/> changes in assets and liabilities <!--SR:!2024-12-12,4,270!2024-12-20,9,250-->
+    - (root) / cash flows from operating activities / adjustments to reconcile net income to net cash provided by operating activities ::@:: depreciation and amortization <br/> changes in assets and liabilities (+) <!--SR:!2024-12-12,4,270!2024-12-20,9,250-->
       - (root) / cash flows from operating activities / adjustments to reconcile net income to net cash provided by operating activities / changes in assets and liabilities ::@:: examples: <br/> accounts receivable <br/> inventory <br/> prepaid expenses <br/> accounts payable <br/> accrued expenses <!--SR:!2024-12-21,10,270!2024-12-12,4,270-->
   - (root) / cash flows for investing activities ::@:: examples: <br/> purchases of property, plant and equipment <br/> proceeds from disposal of property, plant and equipment <br/> purchase of short-term investments <br/> proceeds from short-term investments <br/> net cash used by investing activities: sum above <!--SR:!2024-12-20,9,250!2024-12-20,9,250-->
   - (root) / cash flows from financing activities ::@:: examples: <br/> purchase of treasury stock <br/> proceeds from issuance of stock <br/> net cash used in financing activities: sum above <!--SR:!2024-12-21,10,270!2024-12-12,4,270-->

@@ -159,10 +159,10 @@ The content is in teaching order.
   - [financial statement analysis](../../../../general/financial%20statement%20analysis.md) / cross sectional ::@:: analyze at a single point of time across competitors to see if an entity is better or worse than others, i.e. relative strength <!--SR:!2025-03-11,120,314!2024-12-17,61,314-->
 - [current ratio](../../../../general/current%20ratio.md) ::@:: an liquidity ratio that measures whether a firm has enough resources to meet its short-term obligations <!--SR:!2025-01-06,81,334!2024-12-21,72,334-->
   - [§ current ratio](../../../../general/current%20ratio.md#current%20ratio)
-  - [current ratio](../../../../general/current%20ratio.md) / equation ::@:: $$\frac {\text{current assets (CA)} } {\text{current liabilities (CL)} }$$ <!--SR:!2025-01-05,80,334!2025-09-23,287,354-->
+  - [current ratio](../../../../general/current%20ratio.md) / equation ::@:: $$\frac {\text{current assets (CA)} } {\text{current liabilities (CL)} } \,,$$ noting that current assets include current contra-assets. <!--SR:!2025-01-05,80,334!2025-09-23,287,354-->
 - [quick ratio](../../../../general/quick%20ratio.md) ::@:: a liquidity ratio that measures the ability of a company to use near-cash assets (or 'quick' assets) to extinguish or retire current liabilities immediately; more conservative than the current ratio as it excludes inventory and prepaid expenses <!--SR:!2025-01-06,81,334!2025-01-06,81,334-->
   - [§ quick ratio](../../../../general/quick%20ratio.md#quick%20ratio)
-  - [quick ratio § formula](../../../../general/quick%20ratio.md#formula) ::@:: $$\frac {\text{quick assets (QA)} } {\text{current liabilities (CL)} } \,,$$ where $$\text{quick assets (QA)} = \text{current assets (CA)} - \text{inventory (I)} - \text{prepaid expenses (PE)} \,.$$ <!--SR:!2025-02-19,100,294!2025-01-05,80,334-->
+  - [quick ratio § formula](../../../../general/quick%20ratio.md#formula) ::@:: $$\frac {\text{quick assets (QA)} } {\text{current liabilities (CL)} } \,,$$ where $$\text{quick assets (QA)} = \text{current assets (CA)} - \text{inventory (I)} - \text{prepaid expenses (PE)} \,,$$ noting that current assets include current contra-assets. <!--SR:!2025-02-19,100,294!2025-01-05,80,334-->
 - use of financial ratios ::@:: Be careful... No single financial ratio does it all! They can also be manipulated, such as selling all revenue-generating fixed assets to increase the current ratio artificially, but this clearly kills the business. Therefore, financial analysts look at multiple ratios and other numbers, such as movement of fixed assets, fixed asset turnover ratio, etc. <!--SR:!2025-03-13,119,314!2025-05-09,173,334-->
 - [§ week 2 review](questions.md#week%202%20review)
 
@@ -188,7 +188,7 @@ The content is in teaching order.
 - transactions
   - [ACCT 2010/transaction](transaction.md)
   - transactions / recording ::@:: Find revenue earned. Find corresponding expenses incurred. Verify the accounting equation is in balance. <p> If there are no revenue earned or expenses incurred (e.g. a promise for another promise), no need to record the so-called "transaction". <!--SR:!2024-12-12,4,343!2024-12-12,4,343-->
-  - transactions / format ::@:: Optionally, add description to describe the transaction, and date. Then add account captions, debits first and then credits (optionally indent the credit accounts). Then write the corresponding amounts (negative numbers are represented using `()`, but should be rare). Optionally, indicate all relevant changes to _normal balances_ after the account captions, represented using, _in order_, `(∓XA, ±A, ∓XR, ±R, ±E, ±L, ±SE)`. Choose the appropriate ones. There can be multiple. There is neither contra-equity `∓XE` (use `±SE` instead) nor contra-liability `∓XL` (use `±L` instead). <!--SR:!2024-12-12,4,336!2024-12-12,4,336-->
+  - transactions / format ::@:: Optionally, add description to describe the transaction, and date. Then add account captions, debits first and then credits (optionally indent the credit accounts). Then write the corresponding amounts (there should be no negative numbers). Optionally, indicate all relevant changes to _normal balances_ after the account captions, represented using, _in order_, `(∓XA, ±A, ∓XR, ±R, ±E, ±L, ±SE)`. Choose the appropriate ones. There can be multiple. There is neither contra-equity `∓XE` (use `±SE` instead) nor contra-liability `∓XL` (use `±L` instead). <!--SR:!2024-12-12,4,336!2024-12-12,4,336-->
   - [debits and credits § T-accounts](../../../../general/debits%20and%20credits.md#T-accounts)
 - [financial statement analysis](../../../../general/financial%20statement%20analysis.md)
 - [net income](../../../../general/net%20income.md) ::@:: Also known as __net profit__. Simply add all revenues and subtract all expenses, except for dividends (which is not an expense by definition in the first place). <!--SR:!2024-12-12,4,343!2024-12-12,4,343-->
@@ -216,7 +216,7 @@ The content is in teaching order.
 ## week 5 lecture 2
 
 - datetime: 2024-10-03T13:30:00+08:00/2024-10-03T14:50:00+08:00
-- calculating pretax income ::@:: Make 3 columns. The 1st column shows `Unadjusted totals`, and then adjusting entries (e.g. `AJE *`). The 2nd column has the header `Revenues and gains`. The 3rd column has the header `Expenses and losses`. <p> Write the amounts under the correct header. If zero, omit. At the bottom, calculate the total (with overline and double underline) for each column. Subtract the 2nd column total by the 3rd column total to get the pretax income (optionally, add a subtraction sign in between and an equal sign at the end, e.g. `$1000 − $500 = $500 Pretax income`). <p> The first and last row with numbers should each have dollar signs before any numbers. <!--SR:!2024-12-12,4,343!2024-12-23,12,336-->
+- calculating pretax income ::@:: Make 3 columns. The 1st column has an empty header, then shows `Unadjusted totals` as its 1st row, and then adjusting entries (e.g. `AJE *`) as remaining rows. The 2nd column has the header `Revenues and gains`. The 3rd column has the header `Expenses and losses`. <p> Write the amounts under the correct header. If zero, omit. At the bottom, calculate the total (with overline and double underline) for each column. Subtract the 2nd column total by the 3rd column total to get the pretax income (optionally, add a subtraction sign in between and an equal sign at the end, e.g. `$1000 − $500 = $500 Pretax income`). <p> The first and last row with numbers should each have dollar signs before any numbers. <!--SR:!2024-12-12,4,343!2024-12-23,12,336-->
 - preparing financial statements from adjusted trial balance ::@:: Prepare income statement. Then prepare the statement of stockholders' equity, using net income from the income statement. Then prepare the balance sheet, using totals and ending balance from the statement of stockholders' equity. Finally, prepare the statement of cash flow, using the indirect method. <!--SR:!2024-12-12,4,336!2024-12-12,4,336-->
 - [statement of stockholders' equity](../../../../general/statement%20of%20changes%20in%20equity.md)
   - [ACCT/statement of stockholders' equity](statement%20of%20stockholders'%20equity.md)
@@ -290,7 +290,7 @@ The content is in teaching order.
 - [inventory turnover](../../../../general/inventory%20turnover.md) ::@:: $$\frac {\text{cost of goods sold} } {\text{average inventory at cost} }$$ <p> Average inventory at cost is simply the average of the value of starting inventory and ending inventory. It is not time-weighted. <!--SR:!2024-12-20,9,323!2024-12-12,4,336-->
   - inventory turnover / interpretation ::@:: This ratio reflects how many times average inventory was produced or purchased and sold during the period. <p> A higher ratio indicates that inventory moves more quickly (strong sales), thus reducing storage & obsolescence costs. <p> Caution: it could also mean ineffective buying (or without a good buying plan to meet the customers' demand). <!--SR:!2024-12-23,12,336!2024-12-12,4,343-->
   - average days to sell inventory ::@:: $$\frac {365} {\text{inventory turnover} }$$ <!--SR:!2024-12-12,4,343!2024-12-12,4,343-->
-    - average days to sell inventory / interpretation ::@:: his ratio indicates the average time it takes to produce/buy and deliver inventory to customers, i.e., to change inventory to COGS. <!--SR:!2024-12-12,4,343!2024-12-12,4,343-->
+    - average days to sell inventory / interpretation ::@:: This ratio indicates the average time it takes to produce/buy and deliver inventory to customers, i.e., to change inventory to COGS. <!--SR:!2024-12-12,4,343!2024-12-12,4,343-->
 - [inventory valuation](../../../../general/inventory%20valuation.md)
   - [perpetual inventory](../../../../general/perpetual%20inventory.md)
     - perpetual inventory / accounting ::@:: Purchased goods are directly added to asset "Inventory" on purchase. Sold goods are removed from asset "Inventory" on sale. <!--SR:!2024-12-12,4,343!2024-12-12,4,343-->
@@ -396,7 +396,7 @@ The content is in teaching order.
 - [secured loan](../../../../general/secured%20loan.md) ::@:: It is a loan in which the borrower pledges some asset (e.g. a car or property) as collateral for the loan, which then becomes a secured debt owed to the creditor who gives the loan. <p> The debt is thus secured against the collateral, and if the borrower defaults, the creditor takes possession of the asset used as collateral and may sell it to regain some or all of the amount originally loaned to the borrower. <!--SR:!2024-12-12,4,336!2024-12-12,4,336-->
 - notes payable
   - long-term notes payable ::@:: They are relatively small debt, usually filled from single source, e.g. banks. <!--SR:!2024-12-12,4,343!2024-12-12,4,343-->
-- [bond](../../../../general/bond%20(finance).md) ::@:: Is a type of security under which the issuer (debtor) owes the holder (creditor) a debt, and is obliged – depending on the terms – to provide cash flow to the creditor (e.g. repay the principal i.e. amount borrowed) of the bond at the maturity date as well as interest (called the coupon) over a specified amount of time. <!--SR:!2024-12-12,4,343!2024-12-12,4,343-->
+- [bond](../../../../general/bond%20(finance).md) ::@:: This is a type of security under which the issuer (debtor) owes the holder (creditor) a debt, and is obliged – depending on the terms – to provide cash flow to the creditor (e.g. repay the principal i.e. amount borrowed) of the bond at the maturity date as well as interest (called the coupon) over a specified amount of time. <!--SR:!2024-12-12,4,343!2024-12-12,4,343-->
   - bond / usage ::@:: Significant (say projects) debt needs are often filled by issuing bonds. They are issued to public, i.e., individuals as well as institutions. Issuers include companies, states & governments. <!--SR:!2024-12-12,4,343!2024-12-12,4,343-->
 
 ## week 9 lecture 2
@@ -456,7 +456,7 @@ The content is in teaching order.
   - preferred stock / cumulative ::@:: Any unpaid dividends from previous years (dividends in arrears) must be paid before common dividends are paid. <!--SR:!2024-12-12,4,343!2024-12-12,4,343-->
   - preferred stock / non-cumulative ::@:: Any dividends not paid in previous years are lost permanently. <!--SR:!2024-12-12,4,336!2024-12-12,4,343-->
 - [earnings per share](../../../../general/earnings%20per%20share.md) (EPS)
-  - earnings per share / interpretation ::@:: This ratio is often used to compare the dividend-paying performance of different investment alternatives.performance of different investment alternatives. <!--SR:!2024-12-12,4,343!2024-12-12,4,343-->
+  - earnings per share / interpretation ::@:: This ratio is often used to compare the dividend-paying performance of different investment alternatives. <!--SR:!2024-12-12,4,343!2024-12-12,4,343-->
 - [dividend yield](../../../../general/dividend%20yield.md) ::@:: $$\frac {\text{dividends per share} } {\text{market price per share} } \times 100\%$$ <!--SR:!2024-12-12,4,343!2024-12-12,4,336-->
   - dividend yield / interpretation ::@:: It reflects the return on investment which are attributed solely to dividends a company pays. <!--SR:!2024-12-12,4,343!2024-12-12,4,343-->
 - [price/earnings ratio](../../../../general/price–earnings%20ratio.md) ::@:: $$\frac {\text{market price per share} } {\text{earnings per share} }$$ <!--SR:!2024-12-12,4,343!2024-12-12,4,343-->
@@ -474,9 +474,9 @@ The content is in teaching order.
   - statement of cash flows / categories ::@:: operating activities, investing activities, financing activities <!--SR:!2024-12-12,4,343!2024-12-12,4,336-->
   - operating activities ::@:: Cash inflows and outflows directly related to earnings from normal operations. <!--SR:!2024-12-12,4,343!2024-12-12,4,343-->
     - operating activities / inflows ::@:: customers <br/> interest received from trade accounts <!--SR:!2024-12-12,4,343!2024-12-12,4,343-->
-    - operating activities / outflows ::@:: purchase of goods for resale and services (electricity, etc.) <br/> salaries and wages <br/> Income taxes <br/> interest on trade liabilities <!--SR:!2024-12-12,4,343!2024-12-12,4,343-->
+    - operating activities / outflows ::@:: purchase of goods for resale and services (electricity, etc.) <br/> salaries and wages <br/> income taxes <br/> interest on trade liabilities <!--SR:!2024-12-12,4,343!2024-12-12,4,343-->
   - investing activities ::@:: Cash inflows and outflows related to the acquisition or sale of productive facilities (e.g. fixed assets) and investments in the securities of other companies. <!--SR:!2024-12-12,4,343!2024-12-12,4,343-->
-    - investing activities / inflows ::@:: Sale or disposal of property, plant and equipment <br/> sale or maturity of investments in securities <br/> investment related interest income <!--SR:!2024-12-12,4,343!2024-12-20,9,316-->
+    - investing activities / inflows ::@:: sale or disposal of property, plant and equipment <br/> sale or maturity of investments in securities <br/> investment related interest income <!--SR:!2024-12-12,4,343!2024-12-20,9,316-->
     - investing activities / outflows ::@:: purchase of property, plant and equipment <br/> purchase of investments in securities <!--SR:!2024-12-12,4,343!2024-12-12,4,343-->
   - financing activities ::@:: Cash inflows and outflows related to external sources of financing (owners and creditors) for the enterprise. <!--SR:!2024-12-12,4,343!2024-12-12,4,343-->
     - financing activities / inflows ::@:: borrowings on notes, mortgages, bonds, etc. from creditors <br/> issuing stock to owners <!--SR:!2024-12-12,4,343!2024-12-12,4,343-->
@@ -514,10 +514,10 @@ The content is in teaching order.
     - investing activities / methods ::@:: direct method, indirect method (both are essentially the same for investing activities) <!--SR:!2024-12-12,4,343!2024-12-12,4,343-->
     - investing activities / calculation ::@:: purchase PPE or tangible assets for _cash_: outflow (−) <br/> sell or dispose PPE or intangible assets for _cash_: inflow (+) <br/> purchase investment securities for _cash_: outflow (−) <br/> sell (mature) investment securities for _cash_: inflow (+) <!--SR:!2024-12-12,4,343!2024-12-12,4,343-->
     - investing activities / interpretation ::@:: To assess a company's ability to internally finance its expansion needs <br/> Two categories: PPE, short- and long-term investments <!--SR:!2024-12-12,4,343!2024-12-12,4,343-->
-  - operating activities
-    - operating activities / methods ::@:: direct method, indirect method (both are essentially the same for operating activities) <!--SR:!2024-12-12,4,343!2024-12-12,4,343-->
-    - operating activities / calculation ::@:: borrow short-term loans for _cash_: inflow (+) <br/> repay short-term loans in _cash_: outflow (−) <br> issue bonds for _cash_: inflow (+) <br/> repay bonds in _cash_: outflow (−) <br/> issue stock in _cash_: inflow (+) <br/> repurchase stock for _cash_: outflow (−) <br/> pay _cash_ dividends: outflow (−) <!--SR:!2024-12-20,9,323!2024-12-23,12,343-->
-    - operating activities / interpretation ::@:: The long-term growth of a company is normally financed from 3 sources: internally generated funds; the issuance of shares; and money borrowed on a long-term basis <br/> Statement of cash flows shows how management has selected to fund its growth <br/> Financial analysts use this information to evaluate the capital structure & growth potential of a business <!--SR:!2024-12-12,4,343!2024-12-12,4,343-->
+  - financing activities
+    - financing activities / methods ::@:: direct method, indirect method (both are essentially the same for operating activities) <!--SR:!2024-12-12,4,343!2024-12-12,4,343-->
+    - financing activities / calculation ::@:: borrow short-term loans for _cash_: inflow (+) <br/> repay short-term loans in _cash_: outflow (−) <br> issue bonds for _cash_: inflow (+) <br/> repay bonds in _cash_: outflow (−) <br/> issue stock in _cash_: inflow (+) <br/> repurchase stock for _cash_: outflow (−) <br/> pay _cash_ dividends: outflow (−) <!--SR:!2024-12-20,9,323!2024-12-23,12,343-->
+    - financing activities / interpretation ::@:: The long-term growth of a company is normally financed from 3 sources: internally generated funds; the issuance of shares; and money borrowed on a long-term basis <br/> Statement of cash flows shows how management has selected to fund its growth <br/> Financial analysts use this information to evaluate the capital structure & growth potential of a business <!--SR:!2024-12-12,4,343!2024-12-12,4,343-->
 
 ## week 12 lecture 2
 
@@ -554,8 +554,19 @@ The content is in teaching order.
   - owners' equity
   - statement of cash flows
 - format: closed book, 2 sides of A4-sized cheatsheet, public examination approved calculator
-- content: multiple choice questions: 40@1 each; 5 long questions: 60
+- content: multiple choice questions, long questions
+  - multiple choice questions: 40@1 each
+  - long questions: 60 = 8 + 12 + 15 + 12 + 13
+    - long question 1: 8 = 2 + 6
+    - long question 2: 12 = 6 + 6
+    - long question 3: 15 = 2 + 3.5 + 3.5 + 6
+    - long question 4: 12 = 9 + 3
+    - long question 5: 13 = 6 + 3 + 2 + 2
 - [final examination cheatsheet](final%20examination%20cheatsheet.md)
+- grades: ?/100
+  - According to past experiences, this professor will probably not release final examination grades.
+- report
+  - HKUST yellow answer book (0?, scary) ::@:: I had just realized that the left-hand side is intended for rough work... You are supposed to write your answers on the right-hand side near the end of the exam. Have I been using it wrongly the whole time? <p> I asked the professor after the exam and he said do not worry about it... Let's hope so.
 
 > Dear L456 Students,
 >

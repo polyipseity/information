@@ -385,11 +385,11 @@ tags:
 
 > Q3. Which one of the followings is an example of separable performance obligations in revenue recognition?
 >
-> 1. activate a SIM to connect customer to telecom network
-> 2. install operating system in a hardware device
-> 3. three-year after purchase unlimited mileage maintenance for motor vehicles offered by car manufacturer
+> 1. activating a SIM to connect customer to telecom network
+> 2. installing operating system in a hardware device
+> 3. a three-year post-purchase unlimited mileage maintenance for motor vehicles offered by car manufacturer
 >
-> - solution: {@{2}@}
+> - solution: {@{3}@}
 > - explanation: {@{The question is a bit worded-badly... It means determining if the example can be treated as a separate performance obligation.}@} <!--SR:!2024-12-12,4,321!2024-12-12,4,321-->
 
 <!-- markdownlint MD028 -->
@@ -611,9 +611,9 @@ tags:
 
 > Q7. What does accounts payable turnover refer to?
 >
-> 1. Cost of Goods Sold / Average Accounts Payable
-> 2. Total Supplier Purchases / Average Accounts Payable
-> 3. Net sales / Average Accounts Payable
+> 1. cost of goods sold / average accounts payable
+> 2. total supplier purchases / average accounts payable
+> 3. net sales / average accounts payable
 >
 > - solution: {@{2}@}
 > - explanation: {@{Funny history... The book has 1 as the definition instead. Anyways, in the exam, use 2.}@} <!--SR:!2024-12-12,4,321!2024-12-12,4,321-->

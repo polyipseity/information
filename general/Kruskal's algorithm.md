@@ -55,17 +55,21 @@ The following code is implemented with {@{a [disjoint-set data structure](disjoi
     <b>return</b> F
 </pre>
 
-```psuedocode
-algorithm Kruskal(G) is
-    F:= ∅
-    for each v in G.V do
-        MAKE-SET(v)
-    for each {u, v} in G.E ordered by weight({u, v}), increasing do
-        if FIND-SET(u) ≠ FIND-SET(v) then
-            F := F ∪ { {u, v} }
-            UNION(FIND-SET(u), FIND-SET(v))
-    return F
-```
+> [!info]- code
+>
+> ```psuedocode
+> algorithm Kruskal(G) is
+>     F:= ∅
+>     for each v in G.V do
+>         MAKE-SET(v)
+>     for each {u, v} in G.E ordered by weight({u, v}), increasing do
+>         if FIND-SET(u) ≠ FIND-SET(v) then
+>             F := F ∪ { {u, v} }
+>             UNION(FIND-SET(u), FIND-SET(v))
+>     return F
+> ```
+
+<!-- markdownlint MD028 -->
 
 > __code flashcards__
 >
@@ -152,33 +156,37 @@ Kruskal's algorithm is {@{inherently sequential and hard to parallelize}@}. It i
     <b>return</b> E<sub>f</sub>
 </pre>
 
-```psuedocode
-function filter_kruskal(G) is
-    if |G.E| < kruskal_threshold:
-        return kruskal(G)
-    pivot = choose_random(G.E)
-    E≤, E> = partition(G.E, pivot)
-    A = filter_kruskal(E≤)
-    E> = filter(E>)
-    A = A ∪ filter_kruskal(E>)
-    return A
+> [!info]- code
+>
+> ```psuedocode
+> function filter_kruskal(G) is
+>     if |G.E| < kruskal_threshold:
+>         return kruskal(G)
+>     pivot = choose_random(G.E)
+>     E≤, E> = partition(G.E, pivot)
+>     A = filter_kruskal(E≤)
+>     E> = filter(E>)
+>     A = A ∪ filter_kruskal(E>)
+>     return A
+> 
+> function partition(E, pivot) is
+>     E≤ = ∅, E> = ∅
+>     foreach (u, v) in E do
+>         if weight(u, v) ≤ pivot then
+>             E≤ = E≤ ∪ {(u, v)}
+>         else
+>             E> = E> ∪ {(u, v)}
+>     return E≤, E>
+> 
+> function filter(E) is
+>     Ef = ∅
+>     foreach (u, v) in E do
+>         if find_set(u) ≠ find_set(v) then
+>             Ef = Ef ∪ {(u, v)}
+>     return Ef
+> ```
 
-function partition(E, pivot) is
-    E≤ = ∅, E> = ∅
-    foreach (u, v) in E do
-        if weight(u, v) ≤ pivot then
-            E≤ = E≤ ∪ {(u, v)}
-        else
-            E> = E> ∪ {(u, v)}
-    return E≤, E>
-
-function filter(E) is
-    Ef = ∅
-    foreach (u, v) in E do
-        if find_set(u) ≠ find_set(v) then
-            Ef = Ef ∪ {(u, v)}
-    return Ef
-```
+<!-- markdownlint MD028 -->
 
 > __code flashcards__
 >
