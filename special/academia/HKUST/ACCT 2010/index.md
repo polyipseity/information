@@ -566,7 +566,7 @@ The content is in teaching order.
 - grades: ?/100
   - According to past experiences, this professor will probably not release final examination grades.
 - report
-  - HKUST yellow answer book (0?, scary) ::@:: I had just realized that the left-hand side is intended for rough work... You are supposed to write your answers on the right-hand side near the end of the exam. Have I been using it wrongly the whole time? <p> I asked the professor after the exam and he said do not worry about it... Let's hope so.
+  - HKUST yellow answer book (0?, scary) ::@:: I had just realized that the left-hand side is intended for rough work... You are supposed to write your answers on the right-hand side near the end of the exam. Have I been using it wrongly the whole time? <p> I asked the professor after the exam and he said do not worry about it... Let's hope so. <!--SR:!2024-12-16,5,354!2024-12-16,5,354-->
 
 > Dear L456 Students,
 >
