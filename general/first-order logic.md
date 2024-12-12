@@ -19,7 +19,7 @@ There are many [deductive systems](formal%20system.md#deductive%20system) for fi
 
 First-order logic is the standard for {@{the formalization of mathematics into [axioms](axiomatic%20system.md), and is studied in the [foundations of mathematics](foundations%20of%20mathematics.md)}@}. {@{[Peano arithmetic](peano%20axioms.md) and [Zermelo–Fraenkel set theory](Zermelo–Fraenkel%20set%20theory.md)}@} are {@{axiomatizations of [number theory](number%20theory.md) and [set theory](set%20theory.md), respectively, into first-order logic}@}. No first-order theory, however, has {@{the strength to uniquely describe a structure with an infinite domain, such as the [natural numbers](natural%20number.md) or the [real line](number%20line.md)}@}. Axiom systems that {@{do fully describe these two structures, i.e. [categorical](categorical%20theory.md) axiom systems}@}, can be {@{obtained in stronger logics such as [second-order logic](second-order%20logic.md)}@}. <!--SR:!2025-05-30,193,310!2025-07-07,215,290!2025-01-11,79,270!2024-12-23,69,270!2025-04-01,152,310!2025-03-18,143,310-->
 
-The foundations of first-order logic were {@{developed independently by [Gottlob Frege](Gottlob%20Frege.md) and [Charles Sanders Peirce](Charles%20Sanders%20Peirce.md)}@}. For a history of first-order logic and how it came to dominate formal logic, see José Ferreirós (2001). <!--SR:!2024-12-12,58,250-->
+The foundations of first-order logic were {@{developed independently by [Gottlob Frege](Gottlob%20Frege.md) and [Charles Sanders Peirce](Charles%20Sanders%20Peirce.md)}@}. For a history of first-order logic and how it came to dominate formal logic, see José Ferreirós (2001). <!--SR:!2025-05-09,148,250-->
 
 ## references
 

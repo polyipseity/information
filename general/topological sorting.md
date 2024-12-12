@@ -198,7 +198,7 @@ In the first step, PE _j_ assigns {@{the $\lvert Q_j^1 \rvert$ indices $\sum _{i
 
 In step _k_, PE _j_ assigns {@{the $\lvert Q_j^k \rvert$ indices $a_{k-1}+\sum _{i=0}^{j-1}|Q_{i}^{k}|,\dots ,a_{k-1}+\left(\sum _{i=0}^{j}|Q_{i}^{k}|\right)-1$}@}, where {@{$a_{k-1}$ is the total number of processed vertices after step ⁠$k-1$⁠}@}. This procedure {@{repeats until there are no vertices left to process}@}, {@{hence $\sum _{i=0}^{p-1}|Q_{i}^{D+1}|=0$ (_D_ is the longest path in _G_)}@}. Below is {@{a high level, [single program, multiple data](single%20program,%20multiple%20data.md)}@} pseudo-code overview of this algorithm. <!--SR:!2024-12-19,19,339!2024-12-18,18,331!2024-12-15,15,307!2024-12-15,15,307!2024-12-18,18,331-->
 
-Note that {@{the [prefix sum](prefix%20sum.md#parallel%20algorithms)}@} for {@{the local offsets $a_{k-1}+\sum _{i=0}^{j-1}|Q_{i}^{k}|,\dots ,a_{k-1}+\left(\sum _{i=0}^{j}|Q_{i}^{k}|\right)-1$}@} can be {@{efficiently calculated in parallel}@}. <!--SR:!2024-12-17,17,318!2024-12-12,12,279!2024-12-19,19,339-->
+Note that {@{the [prefix sum](prefix%20sum.md#parallel%20algorithms)}@} for {@{the local offsets $a_{k-1}+\sum _{i=0}^{j-1}|Q_{i}^{k}|,\dots ,a_{k-1}+\left(\sum _{i=0}^{j}|Q_{i}^{k}|\right)-1$}@} can be {@{efficiently calculated in parallel}@}. <!--SR:!2024-12-17,17,318!2025-01-29,47,299!2024-12-19,19,339-->
 
 <pre>
 <b>p</b> processing elements with IDs from 0 to <i>p</i>-1
@@ -338,8 +338,8 @@ By {@{definition}@}, {@{the solution of a scheduling problem that includes a pre
 
 ## see also
 
-- [tsort](tsort.md), ::@:: a Unix program for topological sorting <!--SR:!2024-12-12,16,290!2025-02-12,63,310-->
-- [feedback arc set](feedback%20arc%20set.md), ::@:: a set of edges whose removal allows the remaining subgraph to be topologically sorted <!--SR:!2024-12-12,16,290!2024-12-12,16,290-->
+- [tsort](tsort.md), ::@:: a Unix program for topological sorting <!--SR:!2025-02-18,67,310!2025-02-12,63,310-->
+- [feedback arc set](feedback%20arc%20set.md), ::@:: a set of edges whose removal allows the remaining subgraph to be topologically sorted <!--SR:!2025-01-26,45,290!2025-02-17,66,310-->
 - [Tarjan's strongly connected components algorithm](Tarjan's%20strongly%20connected%20components%20algorithm.md), ::@:: an algorithm that gives the topologically sorted list of strongly connected components in a graph <!--SR:!2025-01-02,26,270!2025-01-22,42,290-->
 - [pre-topological order](pre-topological%20order.md)
 

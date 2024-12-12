@@ -54,7 +54,7 @@ The intuitive notion that {@{each natural number can be obtained by applying _su
 
 <!-- markdownlint-capture -->
 <!-- markdownlint-disable MD029 -->
-9. 9th axiom condition (set) ::@:: If _K_ is a set such that: 0 is in _K_, and for every natural number _n_, _n_ being in _K_ implies that _S_(_n_) is in _K_, then _K_ contains every natural number. <!--SR:!2024-12-12,71,322!2025-02-26,126,310-->
+9. 9th axiom condition (set) ::@:: If _K_ is a set such that: 0 is in _K_, and for every natural number _n_, _n_ being in _K_ implies that _S_(_n_) is in _K_, then _K_ contains every natural number. <!--SR:!2025-10-29,320,342!2025-02-26,126,310-->
 <!-- markdownlint-restore -->
 
 The induction axiom is sometimes stated in the following form:

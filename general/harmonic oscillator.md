@@ -19,7 +19,7 @@ tags:
 
 ## driven, damped harmonic oscillator
 
-The [ordinary differential equation](ordinary%20differential%20equation.md) for a driven harmonic oscillator with an externally applied force $F(t)$ can be derived from {@{[Newton's second law](Newton's%20laws%20of%20motion.md#second%20law), [Hooke's law](Hooke's%20law.md), and a _viscous [damping](damping.md) coefficient_}@}: <!--SR:!2024-12-12,267,332-->
+The [ordinary differential equation](ordinary%20differential%20equation.md) for a driven harmonic oscillator with an externally applied force $F(t)$ can be derived from {@{[Newton's second law](Newton's%20laws%20of%20motion.md#second%20law), [Hooke's law](Hooke's%20law.md), and a _viscous [damping](damping.md) coefficient_}@}: <!--SR:!2027-05-20,889,332-->
 
 > __ordinary differential equation__
 >
