@@ -511,7 +511,7 @@ tags:
 > Q3. For book depreciation purposes, acquisition costs include...
 >
 > 1. purchase price of capital assets
-> 2. purchase prince plus all other transaction costs necessary to get the capital assets operational
+> 2. purchase price plus all other transaction costs necessary to get the capital assets operational
 > 3. purchase price plus financing charges and cash discounts
 >
 > - solution: {@{2}@}
@@ -690,7 +690,7 @@ tags:
 
 <!-- markdownlint MD028 -->
 
-> Q7. How do we proper accounting for cash dividend paid?
+> Q7. How do we properly account for cash dividend paid?
 >
 > 1. Dr. Dividend (R/E); Cr. Cash/Bank
 > 2. Dr. Dividend Expense; Cr. Cash/Bank

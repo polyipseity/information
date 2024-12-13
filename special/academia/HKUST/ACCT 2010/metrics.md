@@ -21,12 +21,12 @@ tags:
 
 - easy metrics ::@:: current ratio, dividend yield, net profit margin, net sales, price/earnings ratio, quick ratio, net profit margin
 - non-ratios ::@:: free cash flow, working capital
-- reciprocals of 365 ::@:: average collection period, average days to pay payables, average days to sell inventory
+- reciprocals multiplied by 365 ::@:: average collection period, average days to pay payables, average days to sell inventory
 - surprising terms in equation ::@:: accounts payable turnover, earnings per share
-- surprising "net" in equation ::@:: fixed asset turnover, receivables turnover
+- surprising "net" in equation ::@:: current assets, fixed asset turnover, quick assets, receivables turnover, total assets
 - cash flow ::@:: capital acquisitions ratio, free cash flow, quality of income
 - cost of goods sold as numerator ::@:: fixed asset turnover, inventory turnover
-- net sales as numerator ::@:: fixed asset turnover, receivables turnover, total asset turnover
+- net sales as numerator ::@:: fixed asset turnover, receivables turnover (+credit), total asset turnover
 
 ## list
 

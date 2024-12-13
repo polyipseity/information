@@ -44,7 +44,7 @@ The content is in teaching order.
   - course intended learning outcomes (CILOs) ::@:: microeconomic analysis, decision making, demand-supply framework, market mechanism in different market structures, economic effect of the government, application
   - objectives ::@:: to analyze situations through the lens of microeconomics, but not memorization (Of course, some is still required...); a "way of economic thinking" should be developed on your own at the end
 - strength and weaknesses of economics ::@:: It can explain how rational individuals make choice under constraints. But it cannot explain well how a group of people (the society) evolve over a long period time; instead, these are studied by history, psychology, sociology, etc.
-- quirks about the professor ::@:: He does not follow the textbook strictly to deepen your thinking (good), makes exam questions based on current issues (cool), and does not care about attendance (good).
+- quirks about the professor ::@:: She does not follow the textbook strictly to deepen your thinking (good), makes exam questions based on current issues (cool), and does not care about attendance (good).
 - discussions
   - discussions / face mask ::@:: Should the government intervene in the (previously sky-high) selling price of face masks? This is known as [price control](price%20controls.md).
   - discussions / waste charging scheme ::@:: Should the government charge waste generation and how? What problems may arise?

@@ -41,7 +41,7 @@ __Asset Turnover Ratios__
 <!-- markdownlint-disable MD029 -->
 7. Total asset turnover ratio: $\frac {\text{net sales revenue} } {\text{average total assets} }$
 8. Fixed asset turnover ratio: $\frac {\text{net sales revenue} } {\text{averge net fixed assets} }$
-9. Receivables turnover ratio: $\frac {\text{net (credit) sales} } {\text{average net (trade) receivables} }$
+9. Receivables turnover ratio: $\frac {\text{net (credit) sales} } {\text{average net trade receivables} }$
 10. Inventory turnover ratio: $\frac {\text{cost of goods sold} } {\text{average inventory at cost} }$
 <!-- markdownlint-restore -->
 
