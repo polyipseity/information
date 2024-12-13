@@ -516,7 +516,7 @@ ID: 23456789
 - datetime: 2024-09-25T13:30:00+08:00/2024-09-25T14:50:00+08:00
 - [Bayes' theorem](../../../../general/Bayes'%20theorem.md#statement%20of%20the%20theorem)
   - Bayes' theorem / slight generalizations ::@:: As mentioned before, if there are multiple beliefs/classes, the _law of total probability_ may be used. <p> If we have multiple evidences, we treat the multiple evidences as one evidence. <!--SR:!2025-02-03,74,330!2025-01-22,64,330-->
-  - Bayes' theorem / continuous features ::@:: It works with continuous features, which are described by probability distribution functions (PDFs) instead of probability mass functions (PMFs). Intuitively, this is because the infinitesimals cancel out.
+  - Bayes' theorem / continuous features ::@:: It works with continuous features, which are described by probability distribution functions (PDFs) instead of probability mass functions (PMFs). Intuitively, this is because the infinitesimals cancel out. <!--SR:!2024-12-18,5,349!2024-12-18,5,349-->
 - [naive Bayes classifier](../../../../general/naive%20Bayes%20classifier.md) ::@:: __Naive Bayes classifiers__ are a family of linear "probabilistic classifiers" which assumes that the features are conditionally independent, given the target class. The strength (naivety) of this assumption is what gives the classifier its name. <!--SR:!2025-01-05,47,310!2025-02-03,74,330-->
   - naive Bayes classifier / assumption ::@:: _Features_ (but not _beliefs_!) are conditionally mutually independent, given the target class. <p> This assumption is incorrect in general, but works well in practice. <!--SR:!2025-02-05,76,330!2025-01-14,57,312-->
   - naive Bayes classifier / details ::@:: We only care about the relative probabilities of the possible beliefs given the same evidence, since we are trying to classify a piece of evidence. So the probability of the evidence is a constant in this scenario. <p> $$\begin{aligned} & \phantom = P(B_i \mid (e_1, \ldots, e_d)) \\ & = \frac {P(B_i) P((e_1, \ldots, e_d) \mid B_i)} {P((e_1, \ldots, e_d))} && \text{Bayes' theorem} \\ & \propto P(B_i) P((e_1, \ldots, e_d) \mid B_i) && \text{only care about relative probabilities} \\ & = P(B_i) P(e_1 | B_i) \cdots P(e_d | B_i) && \text{mutual independence} \end{aligned}$$ <p> Then our classifier simply chooses the belief with the highest relative probability given the same piece of evidence. <!--SR:!2025-02-03,74,330!2024-12-27,39,292-->
@@ -567,9 +567,9 @@ ID: 23456789
 - datetime: 2024-10-03T16:30:00+08:00/2024-10-03T18:20:00+08:00
 - [assignments/lab 3](assignments/lab%203/)
 - [_k_-nearest neighbors algorithm](../../../../general/k-nearest%20neighbors%20algorithm.md)
-- [Pandas](../../../../general/Pandas%20(software).md) ::@:: It is an open-source library, which provides high-performance, fast, easy-to-use data structures, and data analysis tools for manipulating numeric data and time series. In Pandas, we can import data from various file formats like _JSON_, _SQL_, _Microsoft Excel_, etc.
-  - Pandas vs. NumPy ::@:: The powerful tools of the former are __data frames and series__, whereas the powerful tool of the latter are _arrays_. <p> The basic idea of choice between them is that: When we work on _tabular data_, we prefer the former. When we work on _numerical data_, we prefer the latter.
-- [standard score](../../../../general/standard%20score.md) ::@:: $$z = \frac {x - \overline x} {S} \,,$$ where $z$ is the _z_ score of a sample, $x$ is the sample, $\overline x$ is the _sample mean_, and $S$ is the _sample standard deviation_ (its equation divides by $n - 1$ instead of $n$).
+- [Pandas](../../../../general/Pandas%20(software).md) ::@:: It is an open-source library, which provides high-performance, fast, easy-to-use data structures, and data analysis tools for manipulating numeric data and time series. In Pandas, we can import data from various file formats like _JSON_, _SQL_, _Microsoft Excel_, etc. <!--SR:!2024-12-18,5,349!2024-12-18,5,349-->
+  - Pandas vs. NumPy ::@:: The powerful tools of the former are __data frames and series__, whereas the powerful tool of the latter are _arrays_. <p> The basic idea of choice between them is that: When we work on _tabular data_, we prefer the former. When we work on _numerical data_, we prefer the latter. <!--SR:!2024-12-18,5,349!2024-12-18,5,349-->
+- [standard score](../../../../general/standard%20score.md) ::@:: $$z = \frac {x - \overline x} {S} \,,$$ where $z$ is the _z_ score of a sample, $x$ is the sample, $\overline x$ is the _sample mean_, and $S$ is the _sample standard deviation_ (its equation divides by $n - 1$ instead of $n$). <!--SR:!2024-12-18,5,349!2024-12-18,5,349-->
 
 ## week 5 lecture 2
 
@@ -598,20 +598,20 @@ ID: 23456789
   - _k_-nearest neighbors algorithm / applications ::@:: fast content-based image retrieval, fault detection for semiconductor manufacturing processes, handwritten character classification, intrusion detection <!--SR:!2025-01-08,49,310!2024-12-29,44,310-->
 - supplementary notes
   - [confusion matrix](../../../../general/confusion%20matrix.md)
-  - true positive (TP) ::@:: It refers to the number of predictions where the classifier correctly predicts the positive class as positive.
-  - true negative (TN) ::@:: It refers to the number of predictions where the classifier correctly predicts the negative class as negative.
-  - false positive (FP) ::@:: It refers to the number of predictions where the classifier incorrectly predicts the negative class as positive.
-  - false negative (FN) ::@:: It refers to the number of predictions where the classifier incorrectly predicts the positive class as negative.
-  - [accuracy](../../../../general/accuracy%20and%20precision.md) ::@:: $$\frac {\text{TP} + \text{TN} } {\text{\#} } = 1 - \text{error}$$
-    - error ::@:: $$\frac {\text{FP} + \text{FN} } {\text{\#} } = 1 - \text{accuracy}$$
-  - [precision](../../../../general/accuracy%20and%20precision.md) ::@:: $$\frac {\text{TP} } {\text{TP} + \text{FP} }$$
-  - [recall](../../../../general/precision%20and%20recall.md) ::@:: $$\frac {\text{TP} } {\text{TP} + \text{FN} }$$
-  - [F1-score](../../../../general/F-score.md) ::@:: $$\frac {2 \times \text{precision} \times \text{recall} } {\text{precision} + \text{recall} } = \frac {2\text{TP} } {2\text{TP} + \text{FP} + \text{FN} }$$ <p> In a perfect world, we want a model that has a precision of 1 and a recall of 1. That means a F1-score of 1, i.e., a 100% accuracy which is often not the case for a machine learning model.
-    - micro F1 ::@:: It is calculated by considering the total TP, total FP and total FN of the model. In this case, (it) = accuracy = precision = recall, since total FP = total FN.
-    - macro F1 ::@:: It calculates metrics for each class individually and then take unweighted mean of the measures.
-    - weighted F1 ::@:: It calculates metrics for each class individually and then take weighted mean of the measures, weighted by numbers of samples of each class.
-    - [Matthews correlation coefficient](../../../../general/phi%20coefficient.md) (MCC) ::@:: $$\frac {\text{TP} \times \text{TN} - \text{FP} \times \text{FN} } {\sqrt{(\text{TP} + \text{FP}) (\text{TP} + \text{FN}) (\text{TN} + \text{FP}) (\text{TN} + \text{FN})} }$$
-      - Matthews correlation coefficient / interpretation ::@:: It is a _best single-value classification metric_ which helps to _summarize_ a confusion matrix or error matrix. <p> It ranges between +1 and -1 as, where +1 is the best agreement between the predicted and actual values; 0 is no agreement, meaning that prediction is random according to the actual values; and -1 means the predicted values are always opposite of the actual values.
+  - true positive (TP) ::@:: It refers to the number of predictions where the classifier correctly predicts the positive class as positive. <!--SR:!2024-12-18,5,349!2024-12-18,5,349-->
+  - true negative (TN) ::@:: It refers to the number of predictions where the classifier correctly predicts the negative class as negative. <!--SR:!2024-12-18,5,349!2024-12-18,5,349-->
+  - false positive (FP) ::@:: It refers to the number of predictions where the classifier incorrectly predicts the negative class as positive. <!--SR:!2024-12-18,5,349!2024-12-18,5,349-->
+  - false negative (FN) ::@:: It refers to the number of predictions where the classifier incorrectly predicts the positive class as negative. <!--SR:!2024-12-18,5,349!2024-12-18,5,349-->
+  - [accuracy](../../../../general/accuracy%20and%20precision.md) ::@:: $$\frac {\text{TP} + \text{TN} } {\text{\#} } = 1 - \text{error}$$ <!--SR:!2024-12-18,5,349!2024-12-18,5,349-->
+    - error ::@:: $$\frac {\text{FP} + \text{FN} } {\text{\#} } = 1 - \text{accuracy}$$ <!--SR:!2024-12-18,5,349!2024-12-18,5,349-->
+  - [precision](../../../../general/accuracy%20and%20precision.md) ::@:: $$\frac {\text{TP} } {\text{TP} + \text{FP} }$$ <!--SR:!2024-12-18,5,349!2024-12-18,5,349-->
+  - [recall](../../../../general/precision%20and%20recall.md) ::@:: $$\frac {\text{TP} } {\text{TP} + \text{FN} }$$ <!--SR:!2024-12-18,5,349!2024-12-18,5,349-->
+  - [F1-score](../../../../general/F-score.md) ::@:: $$\frac {2 \times \text{precision} \times \text{recall} } {\text{precision} + \text{recall} } = \frac {2\text{TP} } {2\text{TP} + \text{FP} + \text{FN} }$$ <p> In a perfect world, we want a model that has a precision of 1 and a recall of 1. That means a F1-score of 1, i.e., a 100% accuracy which is often not the case for a machine learning model. <!--SR:!2024-12-18,5,349!2024-12-18,5,349-->
+    - micro F1 ::@:: It is calculated by considering the total TP, total FP and total FN of the model. In this case, (it) = accuracy = precision = recall, since total FP = total FN. <!--SR:!2024-12-16,3,329!2024-12-18,5,349-->
+    - macro F1 ::@:: It calculates metrics for each class individually and then take unweighted mean of the measures. <!--SR:!2024-12-18,5,349!2024-12-18,5,349-->
+    - weighted F1 ::@:: It calculates metrics for each class individually and then take weighted mean of the measures, weighted by numbers of samples of each class. <!--SR:!2024-12-18,5,349!2024-12-18,5,349-->
+    - [Matthews correlation coefficient](../../../../general/phi%20coefficient.md) (MCC) ::@:: $$\frac {\text{TP} \times \text{TN} - \text{FP} \times \text{FN} } {\sqrt{(\text{TP} + \text{FP}) (\text{TP} + \text{FN}) (\text{TN} + \text{FP}) (\text{TN} + \text{FN})} }$$ <!--SR:!2024-12-16,3,329!2024-12-18,5,349-->
+      - Matthews correlation coefficient / interpretation ::@:: It is a _best single-value classification metric_ which helps to _summarize_ a confusion matrix or error matrix. <p> It ranges between +1 and -1 as, where +1 is the best agreement between the predicted and actual values; 0 is no agreement, meaning that prediction is random according to the actual values; and -1 means the predicted values are always opposite of the actual values. <!--SR:!2024-12-18,5,349!2024-12-18,5,349-->
 
 ## week 6 lecture
 
@@ -629,7 +629,7 @@ ID: 23456789
 - datetime: 2024-10-10T16:30:00+08:00/2024-10-10T18:20:00+08:00
 - [assignments/lab 4](assignments/lab%204/)
 - [_k_-means clustering](../../../../general/k-means%20clustering.md)
-  - _k_-means clustering / variation ::@:: Another way to determine _k_ automatically is using a split–merge procedure. It works like normal KMC, but clusters are automatically merged or split based on conditions. <p> Possible conditions include centroid distances, cluster sizes, intracluster variances, etc.
+  - _k_-means clustering / variation ::@:: Another way to determine _k_ automatically is using a split–merge procedure. It works like normal KMC, but clusters are automatically merged or split based on conditions. <p> Possible conditions include centroid distances, cluster sizes, intracluster variances, etc. <!--SR:!2024-12-18,5,349!2024-12-18,5,349-->
 
 ## week 6 lecture 2
 
@@ -660,7 +660,7 @@ ID: 23456789
     - image classification / motivations ::@:: subdomain of __computer vision__: face recognition, labelling objects in an image, medical imaging, robotics <!--SR:!2024-12-22,36,290!2025-02-04,75,330-->
 - supplementary notes
   - _k_-means clustering
-    - _k_-means clustering / convergence ::@:: It always converges to a _local optimum_. (This is assuming a Euclidean distance function, but ignore this for this course...) <p> Using the sum of square error (SSE) as a loss function, we can mathematically prove the above by showing that both reassignment of data points and recomputing of centroids decreases the loss function monotonically.
+    - _k_-means clustering / convergence ::@:: It always converges to a _local optimum_. (This is assuming a Euclidean distance function, but ignore this for this course...) <p> Using the sum of square error (SSE) as a loss function, we can mathematically prove the above by showing that both reassignment of data points and recomputing of centroids decreases the loss function monotonically. <!--SR:!2024-12-18,5,349!2024-12-18,5,349-->
   - [principal component analysis](../../../../general/principal%20component%20analysis.md)
 - [neural network](../../../../general/neural%20network%20(machine%20learning).md) ::@:: __(Artificial) neural network__ (__(A)NN__) is one of the most powerful artificial intelligence and machine learning algorithms. It can approximate any [function](../../../../general/function%20(mathematics).md) from a certain [function space](../../../../general/function%20space.md), i.e. an _universal approximator_, by the [universal approximation theorem](../../../../general/universal%20approximation%20theorem.md). <p> As the name suggests, it draws inspiration from neurons in our brain and the way they are connected. <!--SR:!2025-01-31,72,330!2025-01-31,72,330-->
   - [§ artificial neurons](../../../../general/neural%20network%20(machine%20learning).md#artificial%20neurons)
@@ -695,7 +695,7 @@ ID: 23456789
 - datetime: 2024-10-17T16:30:00+08:00/2024-10-17T18:20:00+08:00
 - [assignments/lab 5](assignments/lab%205/)
 - [perceptron](../../../../general/perceptron.md)
-  - [perceptron](../../../../general/perceptron.md) / linear algebra ::@:: Given a data vector $\mathbf x$; and weights $\mathbf w$, the bias $\theta$, and the activation function $f$ of a perceptron, the result is computed by: $$y = f(\mathbf x \cdot \mathbf w + \theta) \,.$$ <p> Given $n$ row data vectors vertically stacked as a matrix $\mathbf X$, the $n$ results as a column vector is computed by: $$\mathbf y = f\left(\mathbf X \mathbf w + \mathbf 1 \theta \right) \,.$$
+  - [perceptron](../../../../general/perceptron.md) / linear algebra ::@:: Given a data vector $\mathbf x$; and weights $\mathbf w$, the bias $\theta$, and the activation function $f$ of a perceptron, the result is computed by: $$y = f(\mathbf x \cdot \mathbf w + \theta) \,.$$ <p> Given $n$ row data vectors vertically stacked as a matrix $\mathbf X$, the $n$ results as a column vector is computed by: $$\mathbf y = f\left(\mathbf X \mathbf w + \mathbf 1 \theta \right) \,.$$ <!--SR:!2024-12-18,5,349!2024-12-18,5,349-->
 
 ## week 7 lecture 2
 
@@ -735,10 +735,10 @@ ID: 23456789
 - datetime: 2024-10-24T16:30:00+08:00/2024-10-24T18:20:00+08:00
 - [assignments/lab 6](assignments/lab%206/)
 - [multilayer perceptron](../../../../general/multilayer%20perceptron.md) (MLP)
-- [TensorFlow](../../../../general/TensorFlow.md) ::@:: It is a software library for machine learning and artificial intelligence. It can be used across a range of tasks, but is used mainly for training and inference of neural networks.
-  - TensorFlow / dataset ::@:: Given a Pandas dataframe `x` (without the labels) and a Pandas column `y` (containing the labels), you probably want to do `tf.data.Dataset.from_tensor_slices((dict(x), y))` to make a TensorFlow dataset.
+- [TensorFlow](../../../../general/TensorFlow.md) ::@:: It is a software library for machine learning and artificial intelligence. It can be used across a range of tasks, but is used mainly for training and inference of neural networks. <!--SR:!2024-12-18,5,349!2024-12-18,5,349-->
+  - TensorFlow / dataset ::@:: Given a Pandas dataframe `x` (without the labels) and a Pandas column `y` (containing the labels), you probably want to do `tf.data.Dataset.from_tensor_slices((dict(x), y))` to make a TensorFlow dataset. <!--SR:!2024-12-18,5,349!2024-12-18,5,349-->
 - Keras
-  - Keras / `from_logits` ::@:: The cross entropy loss functions additionally accept `from_logits=False/True`. <p> Setting it to `False` does what you think it does. Setting it to `True` effectively pushes the softmax activation into the loss function, so you do not need to use a sigmoid or softmax activation function (i.e. no activation function) in the output layer. <p> This has the advantage of significantly simplifying the loss computation and making it more numerically stable.
+  - Keras / `from_logits` ::@:: The cross entropy loss functions additionally accept `from_logits=False/True`. <p> Setting it to `False` does what you think it does. Setting it to `True` effectively pushes the softmax activation into the loss function, so you do not need to use a sigmoid or softmax activation function (i.e. no activation function) in the output layer. <p> This has the advantage of significantly simplifying the loss computation and making it more numerically stable. <!--SR:!2024-12-18,5,349!2024-12-18,5,349-->
 
 ## week 8 lecture 2
 
@@ -871,7 +871,7 @@ ID: 23456789
   - multilayer perceptron / use ::@:: They are suitable for _classification prediction problems_ where inputs are assigned a class or label. <p> They are also suitable for _regression prediction problems_ where _a real-valued quantity is predicted given a set of inputs_. (Data is often provided in a tabular format, such as we would see in a CSV file or a spreadsheet.) <!--SR:!2024-12-16,3,322!2024-12-17,4,338-->
 - supplementary notes
   - [backpropagation](../../../../general/backpropagation.md)
-    - [backpropagation](../../../../general/backpropagation.md) / mathematics ::@:: The gradient computed for a weight parameter $w$ above can be obtained by evaluating $\frac {\partial E} {\partial w}$, the partial derivative of the error/loss function with respect to the weight. <p> Take biases as "nodes" that always output 1.
+    - [backpropagation](../../../../general/backpropagation.md) / mathematics ::@:: The gradient computed for a weight parameter $w$ above can be obtained by evaluating $\frac {\partial E} {\partial w}$, the partial derivative of the error/loss function with respect to the weight. <p> Take biases as "nodes" that always output 1. <!--SR:!2024-12-18,5,349!2024-12-18,5,349-->
 
 ## week 10 lecture
 
@@ -900,9 +900,9 @@ ID: 23456789
 - datetime: 2024-11-07T16:30:00+08:00/2024-11-07T18:20:00+08:00
 - [assignments/lab 7](assignments/lab%207/)
 - [digital image processing](../../../../general/digital%20image%20processing.md)
-- [data augmentation](../../../../general/data%20augmentation.md) ::@:: It has become fundamental in image classification, enriching training dataset _diversity_ to improve model _generalization_ and _performance_. The evolution of this practice has introduced a broad spectrum of techniques, including geometric transformations, color space adjustments, and noise injection.
-  - data augmentation / techniques ::@:: random cropping, random flipping, random rotation, random transformation, mixup, etc.
-  - data augmentation / mixup ::@:: (See <https://arxiv.org/abs/1710.09412>) It is a relatively new technique of data augmentation. It mixes two images to produce a new image in random proportion. The new image's label's one-hot encoding is mixed in the same proportion.
+- [data augmentation](../../../../general/data%20augmentation.md) ::@:: It has become fundamental in image classification, enriching training dataset _diversity_ to improve model _generalization_ and _performance_. The evolution of this practice has introduced a broad spectrum of techniques, including geometric transformations, color space adjustments, and noise injection. <!--SR:!2024-12-18,5,349!2024-12-18,5,349-->
+  - data augmentation / techniques ::@:: random cropping, random flipping, random rotation, random transformation, mixup, etc. <!--SR:!2024-12-18,5,349!2024-12-18,5,349-->
+  - data augmentation / mixup ::@:: (See <https://arxiv.org/abs/1710.09412>) It is a relatively new technique of data augmentation. It mixes two images to produce a new image in random proportion. The new image's label's one-hot encoding is mixed in the same proportion. <!--SR:!2024-12-18,5,349!2024-12-18,5,349-->
 
 ## week 10 lecture 2
 
@@ -1130,7 +1130,7 @@ ID: 23456789
 - datetime: 2024-11-29T13:30:00+08:00/2024-11-29T14:50:00+08:00
 - [ethics of artificial intelligence](../../../../general/ethics%20of%20artificial%20intelligence.md) ::@:: It is a term that refers to the _ethical issues surrounding the use of artificial intelligence (AI) technology_. <p> As the use of AI systems _becomes more prevalent_ across the globe, governments, industry groups and AI-focused executives are grappling with how to _ensure the technology is used ethically_. <!--SR:!2024-12-17,4,346!2024-12-16,3,319-->
   - ethics of artificial intelligence / key questions ::@:: What _AI applications are ethical_ for a given organization? How to ensure AI systems _operate fairly and unbiasedly_? What _processes_ are needed to ensure the above (functioning ethically) _over time_? <!--SR:!2024-12-16,3,319!2024-12-16,3,326-->
-  - ethics of artificial intelligence / definition ::@:: The United Kingdom's Alan Turing Institute defines it as a set of _values, principles, and techniques_ that employ widely accepted _standards of "right" and "wrong" to guide the development and use of AI technologies_.
+  - ethics of artificial intelligence / definition ::@:: The United Kingdom's Alan Turing Institute defines it as a set of _values, principles, and techniques_ that employ widely accepted _standards of "right" and "wrong" to guide the development and use of AI technologies_. <!--SR:!2024-12-18,5,349!2024-12-18,5,349-->
     - ethics of artificial intelligence / definition / in practice ::@:: In practice, this means organizations have the _right AI ethics policies and governance practices_ to ensure the technology is _used for good_ and _does not unintentionally harm people_. <!--SR:!2024-12-17,4,342!2024-12-16,3,319-->
   - ethics of artificial intelligence / harms ::@:: bias or unfairness, privacy invasion, unaccountability, unexplainability, unreliability <!--SR:!2024-12-17,4,345!2024-12-17,4,338-->
     - ethics of artificial intelligence / harms / privacy invasion ::@:: _Invading people's right to privacy_ by processing data without consent or handling it in a way that reveals personal information without an individual’s consent. <!--SR:!2024-12-17,4,345!2024-12-17,4,342-->
@@ -1179,7 +1179,7 @@ ID: 23456789
   - [NumPy](../../../../general/NumPy.md)
 - [assignments/assignment 2](assignments/assignment%202/)
   - [anti-spam techniques](../../../../general/anti-spam%20techniques.md) :;@:: rule-based systems → Bayesian classifiers → random forests, support vector machines → convolution neural networks → ??? (future)
-    - anti-spam techniques / convolutional neural networks ::@:: First, create a word-to-integer mapping for all words in the training data. Transform all text in the training data by replacing each word with its mapped integer. Then text is represented by a sequence of integers. We can treat this like an image, but one-dimensional, and use convolutional neural networks to classify if it is spam.
+    - anti-spam techniques / convolutional neural networks ::@:: First, create a word-to-integer mapping for all words in the training data. Transform all text in the training data by replacing each word with its mapped integer. Then text is represented by a sequence of integers. We can treat this like an image, but one-dimensional, and use convolutional neural networks to classify if it is spam. <!--SR:!2024-12-18,5,349!2024-12-18,5,349-->
 
 ## final examination
 
@@ -1271,5 +1271,5 @@ ID: 23456789
 
 ## aftermath
 
-- [reinforcement learning](../../../../general/reinforcement%20learning.md) ::@:: This topic is untaught and optional. <p> Reinforcement learning is one of the [three basic machine learning paradigms](../../../../general/machine%20learning.md#approaches), alongside [supervised learning](../../../../general/supervised%20learning.md) and [unsupervised learning](../../../../general/unsupervised%20learning.md). <p> [Q-learning](../../../../general/Q-learning.md) at its simplest stores data in tables. This approach becomes [infeasible](../../../../general/computational%20complexity%20theory.md) as the number of states/actions increases \(e.g., if the state space or action space were continuous\), as the probability of the agent visiting a particular state and performing a particular action diminishes.
+- [reinforcement learning](../../../../general/reinforcement%20learning.md) ::@:: This topic is untaught and optional. <p> Reinforcement learning is one of the [three basic machine learning paradigms](../../../../general/machine%20learning.md#approaches), alongside [supervised learning](../../../../general/supervised%20learning.md) and [unsupervised learning](../../../../general/unsupervised%20learning.md). <p> [Q-learning](../../../../general/Q-learning.md) at its simplest stores data in tables. This approach becomes [infeasible](../../../../general/computational%20complexity%20theory.md) as the number of states/actions increases \(e.g., if the state space or action space were continuous\), as the probability of the agent visiting a particular state and performing a particular action diminishes. <!--SR:!2024-12-18,5,349!2024-12-18,5,349-->
   - [assignments/lab 10](assignments/lab%2010/) (optional)
