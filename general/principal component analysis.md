@@ -117,7 +117,7 @@ return chain(
     - Use the cumulative variances as {@{a guide for choosing an appropriate value for the number of reduced dimensions _l_}@}. The goal is to {@{choose the smallest _l_ possible while ensuring the _l_-th cumulative variance _g<sub>l</sub>_ is reasonably high on a percentage basis}@}. For example, {@{one can choose the smallest _l_ such that $\frac {g_l} {g_p} \ge 0.9$}@}.
     - After choosing _l_ (or _l_ is given beforehand), only keep {@{the first _l_ columns of the eigenvector _V_ to make a _p_ × _l_ matrix __W__ and discard the rest}@}.
 9. __<!--pytextgen generate section="f098"--><!-- The following content is generated at 2024-11-12T13:56:48.778590+08:00. Any edits will be overridden! -->project the data (deviations from the mean) onto the new basis<!--/pytextgen-->__
-    - The projected data points are {@{the rows of the _n_ × _l_ matrix __T__}@}, computed by {@{$$\mathbf{T} = \mathbf{B} \mathbf{W}$$}@}. Notice that the deviations from the mean instead of the original data points are used.
+    - The projected data points are {@{the rows of the _n_ × _l_ matrix __T__}@}, computed by {@{$$\mathbf{T} = \mathbf{B} \mathbf{W}$$}@}. Note that {@{the deviations from the mean instead of the original data points are used}@}. Using the latter is {@{also acceptable as a variant}@}.
 
 ## references
 
