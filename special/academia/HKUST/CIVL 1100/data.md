@@ -233,7 +233,7 @@ See [Millau Viaduct](../../../../general/Millau%20Viaduct.md).
 See [Mont d'Ambin Base Tunnel](../../../../general/Mont%20d'Ambin%20Base%20Tunnel.md).
 
 - access tunnel lengths ::@:: up to 4 km <!--SR:!2025-08-27,372,377!2025-03-22,267,365-->
-- length ::@:: 57.5 km <!--SR:!2024-12-13,26,297!2025-06-26,324,374-->
+- length ::@:: 57.5 km <!--SR:!2025-02-27,76,297!2025-06-26,324,374-->
 
 ## Netherlands North Sea Protection Works
 
@@ -261,7 +261,7 @@ See [Parthenon](../../../../general/Parthenon.md).
 
 See [Stonecutters Bridge](../../../../general/Stonecutters%20Bridge.md).
 
-- bridge type ::@:: [cable-stayed bridge](../../../../general/cable-stayed%20bridge.md)<!-- flashcard ca1fa4c4-b487-40a0-9948-a808866a25eb --> <!--SR:!2024-12-12,177,361!2026-01-22,510,401-->
+- bridge type ::@:: [cable-stayed bridge](../../../../general/cable-stayed%20bridge.md)<!-- flashcard ca1fa4c4-b487-40a0-9948-a808866a25eb --> <!--SR:!2026-09-19,645,361!2026-01-22,510,401-->
 - description ::@:: bridge in Hong Kong <!--SR:!2024-12-19,186,345!2026-01-18,514,397-->
 - image ::@:: ![Stonecutters Bridge image](../../../../archives/Wikimedia%20Commons/Stonecutters'%20Bridge.jpg) <!--SR:!2026-01-03,492,400!2025-05-03,286,380-->
 - length ::@:: 1596 m, longest span: 1018 m <!--SR:!2025-01-07,33,200!2025-03-13,259,370-->
@@ -273,7 +273,7 @@ See [Sutong Yangtze River Bridge](../../../../general/Sutong%20Yangtze%20River%2
 - bridge type ::@:: [cable-stayed bridge](../../../../general/cable-stayed%20bridge.md)<!-- flashcard 30c74f35-b995-41af-8d8c-189c93fb1dfa --> <!--SR:!2025-05-24,285,360!2025-08-03,345,380-->
 - description ::@:: [cable-stayed bridge](../../../../general/cable-stayed%20bridge.md) in China <!--SR:!2025-04-08,239,310!2025-05-26,316,364-->
 - image ::@:: ![Sutong Yangtze River Bridge image](../../../../archives/Wikimedia%20Commons/Sutong%20Yangtze%20River%20Bridge.JPG) <!--SR:!2025-07-18,330,380!2025-05-14,295,380-->
-- length ::@:: 8206 m, longest span: 1088 m <!--SR:!2024-12-13,16,197!2025-02-02,212,355-->
+- length ::@:: 8206 m, longest span: 1088 m <!--SR:!2025-01-15,33,197!2025-02-02,212,355-->
 
 ## Taipei 101
 
@@ -291,7 +291,7 @@ See [Thames Barrier](../../../../general/Thames%20Barrier.md).
 - [dam type](../../../../general/dam.md#types) ::@:: [barrage](barrage%20(dam).md) <!--SR:!2026-01-23,459,341!2025-10-10,433,397-->
 - height ::@:: 20.1 m <!--SR:!2025-01-21,133,261!2025-09-05,371,380-->
 - image ::@:: ![Thames Barrier image](../../../../archives/Wikimedia%20Commons/Thames%20Barrier%2003.jpg) <!--SR:!2025-02-16,228,360!2025-12-19,477,400-->
-- length ::@:: 520 m <!--SR:!2024-12-13,57,260!2026-09-13,645,330-->
+- length ::@:: 520 m <!--SR:!2025-05-13,151,260!2026-09-13,645,330-->
 
 ## Tsing Ma Bridge
 

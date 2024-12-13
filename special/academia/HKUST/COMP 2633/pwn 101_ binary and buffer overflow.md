@@ -15,7 +15,7 @@ tags:
 
 __Pwn__, in a general context, means {@{the domination of a player in a video game or argument, or the successful hacking of a website or computer}@}. In CTFs, it is {@{one of the major categories and usually refers to __binary exploitation__}@}. <!--SR:!2025-05-25,183,310!2025-04-08,146,310-->
 
-__Binary exploitation__ is about {@{finding vulnerabilities in a program binary, and then exploiting them}@}. To find vulnerabilities without its source, we need to {@{reverse the binary, the basics of which are taught in [reverse 101](reverse%20101_%20world%20of%20binaries.md), so it is recommended that reverse is first learnt}@}. <!--SR:!2024-12-13,64,310!2025-08-21,257,330-->
+__Binary exploitation__ is about {@{finding vulnerabilities in a program binary, and then exploiting them}@}. To find vulnerabilities without its source, we need to {@{reverse the binary, the basics of which are taught in [reverse 101](reverse%20101_%20world%20of%20binaries.md), so it is recommended that reverse is first learnt}@}. <!--SR:!2025-09-14,275,330!2025-08-21,257,330-->
 
 A quick recap of types of tools used for reverse: {@{static analysis, dynamic analysis, and patching}@}. <!--SR:!2025-07-20,232,330-->
 
@@ -72,13 +72,13 @@ Since `lea` can {@{mostly be replaced with `add` and `imul` (with the exception 
 
 ## calling convention
 
-The instructions above are used to {@{implementing the concept of functions in assembly}@}. However, they {@{do not specify how they should be used}@}. A __calling convention__ specifies {@{how the above instructions are used to manipulate the stack in such a way to represent functions}@}. It is called a _convention_ because {@{the caller and callee (the function to be called by the caller) needs to follow the same (or compatible) calling conventions}@}, or otherwise {@{the stack will be manipulated incorrectly, and the program will likely crash}@}. <!--SR:!2025-08-25,261,330!2025-05-18,178,310!2025-06-02,179,310!2025-08-30,263,330!2024-12-12,63,310-->
+The instructions above are used to {@{implementing the concept of functions in assembly}@}. However, they {@{do not specify how they should be used}@}. A __calling convention__ specifies {@{how the above instructions are used to manipulate the stack in such a way to represent functions}@}. It is called a _convention_ because {@{the caller and callee (the function to be called by the caller) needs to follow the same (or compatible) calling conventions}@}, or otherwise {@{the stack will be manipulated incorrectly, and the program will likely crash}@}. <!--SR:!2025-08-25,261,330!2025-05-18,178,310!2025-06-02,179,310!2025-08-30,263,330!2025-09-13,274,330-->
 
 There are {@{many different incompatible calling conventions in use}@}. For x86, {@{there are many different ones, but for x86-64, there are only 2 common in use}@}. They are {@{the Microsoft x64 calling convention and the System V AMD64 ABI}@}. We will {@{only introduce a calling convention for x86-64, as the binaries you encounter in CTFs are most likely 64-bit, and that calling convention is the latter one because we are using Linux}@}. Further, you should be able to {@{extract the general principles of calling conventions from the example below and extrapolate them to others}@}. <!--SR:!2024-12-24,68,310!2025-06-17,204,330!2025-08-15,251,330!2025-06-25,211,330!2025-07-23,234,330-->
 
 ### System V AMD64 ABI
 
-The complete calling convention {@{would be too much to discuss here, so we will only discuss a (rather small) part of it}@}. Some parts of the process may {@{be optimized away by the compiler}@}. To avoid this, {@{pass `-O0` (for GCC) to disable optimization}@}. <!--SR:!2025-04-23,158,310!2024-12-13,64,310!2025-05-17,177,310-->
+The complete calling convention {@{would be too much to discuss here, so we will only discuss a (rather small) part of it}@}. Some parts of the process may {@{be optimized away by the compiler}@}. To avoid this, {@{pass `-O0` (for GCC) to disable optimization}@}. <!--SR:!2025-04-23,158,310!2025-09-19,280,330!2025-05-17,177,310-->
 
 A stack/function frame is {@{a portion of the stack that belongs to one function only}@}. Each time {@{one calls a function}@}, {@{a stack/function frame is added on top of the old one}@}. Each time {@{one returns from a function}@}, {@{the current stack/function frame is cleared and the old (the frame for the callee) is restored}@}. `rsp` and `rbp` then refers to {@{respectively the top and the bottom of the topmost stack/function frame (so the current function frame is in between `rsp` and `rbp`)}@}. <!--SR:!2024-12-16,67,310!2025-04-25,160,310!2025-07-10,222,330!2024-12-17,68,310!2024-12-24,68,310!2025-05-29,185,310-->
 
@@ -98,9 +98,9 @@ Let's learn some basic `gdb` commands (not exclusive to `pwndbg`):
 
 - `apropos <regex>` ::@:: find text matching `<regex>` in the manual <!--SR:!2025-08-15,253,330!2024-12-24,68,310-->
 - `help [<topic>]` ::@:: find information about topic; if topic is not specified, then prints general help <!--SR:!2024-12-24,68,310!2025-08-28,261,330-->
-- `file <path>` ::@:: load binary file to debug <!--SR:!2024-12-12,63,310!2024-12-24,68,310-->
+- `file <path>` ::@:: load binary file to debug <!--SR:!2025-09-15,276,330!2024-12-24,68,310-->
 - `run [<args>...]` ::@:: run program (with args) <!--SR:!2025-08-19,255,330!2025-04-30,164,310-->
-- `set args <args>...` ::@:: set program args <!--SR:!2024-12-13,64,310!2025-05-30,188,310-->
+- `set args <args>...` ::@:: set program args <!--SR:!2025-09-20,281,330!2025-05-30,188,310-->
 - `starti [<args>...]` ::@:: start program and stop at its first instruction <!--SR:!2024-12-17,68,310!2024-12-24,68,310-->
 - `disassemble <address|function>` ::@:: disassemble a specified address or function <!--SR:!2025-06-27,212,330!2024-12-24,68,310-->
 - `break <where>` ::@:: set a breakpoint <!--SR:!2024-12-24,68,310!2025-06-26,211,330-->
@@ -124,7 +124,7 @@ Let's also learn some basic `pwndbg` commands:
 
 - `down` ::@:: move down the backtrace or call stack <!--SR:!2025-08-14,250,330!2025-07-26,237,330-->
 - `up` ::@:: move up the backtrace or call stack <!--SR:!2025-08-27,263,330!2025-08-07,245,330-->
-- `checksec` ::@:: print the binary security settings <!--SR:!2024-12-12,63,310!2025-08-27,263,330-->
+- `checksec` ::@:: print the binary security settings <!--SR:!2025-09-10,271,330!2025-08-27,263,330-->
 - `stack <count> <offset>` ::@:: prints stack data with the specified count and offset <!--SR:!2025-09-06,269,330!2025-05-17,182,310-->
 - `vmmap [<address|name>]` ::@:: display memory mappings information (filtered binary address or name) <!--SR:!2024-12-16,67,310!2025-03-27,139,290-->
 
@@ -151,7 +151,7 @@ for (size_t idx = 0; idx <= 4; ++idx) { // Notice the `<=`.
 }
 ```
 
-The above example demonstrates how buffer overflow actually happens. The cases we are usually more interested in is {@{unsafe C string functions that accepts inputs (best if they can be provided by the user directly or indirectly) and writes to other buffers}@}, such as {@{`gets`, `scanf`, `strcpy`, etc.}@} These functions are vulnerable because {@{they will write to the buffer as long as there is data in the input without taking the buffer size into consideration at all}@}. So if {@{the input data is too large to be fit into the destination buffers}@}, then {@{a buffer overflow occurs as the excess data is written past the end of the destination buffers}@}, similar to the example above. An example: <!--SR:!2024-12-12,63,310!2025-08-02,242,330!2025-04-19,161,310!2025-05-28,186,310!2024-12-16,67,310-->
+The above example demonstrates how buffer overflow actually happens. The cases we are usually more interested in is {@{unsafe C string functions that accepts inputs (best if they can be provided by the user directly or indirectly) and writes to other buffers}@}, such as {@{`gets`, `scanf`, `strcpy`, etc.}@} These functions are vulnerable because {@{they will write to the buffer as long as there is data in the input without taking the buffer size into consideration at all}@}. So if {@{the input data is too large to be fit into the destination buffers}@}, then {@{a buffer overflow occurs as the excess data is written past the end of the destination buffers}@}, similar to the example above. An example: <!--SR:!2025-06-22,191,310!2025-08-02,242,330!2025-04-19,161,310!2025-05-28,186,310!2024-12-16,67,310-->
 
 ```C
 char buffer[4];

@@ -17,7 +17,7 @@ The __fundamental accounting equation__, also called {@{the __balance sheet equa
 
 The equation can {@{take various forms}@}, including: <!--SR:!2024-12-14,67,310-->
 
-- the equation in its simplest form ::@:: $A=L+E$ (i.e. ${\text{Assets} }={\text{Liabilities} }+{\text{Equity} }$) <sup>[\[1\]](#^ref-1)</sup><sup>[\[2\]](#^ref-2)</sup> <!--SR:!2025-07-05,219,330!2024-12-12,65,310-->
+- the equation in its simplest form ::@:: $A=L+E$ (i.e. ${\text{Assets} }={\text{Liabilities} }+{\text{Equity} }$) <sup>[\[1\]](#^ref-1)</sup><sup>[\[2\]](#^ref-2)</sup> <!--SR:!2025-07-05,219,330!2025-09-20,281,330-->
 - $A=OE+L$ (i.e. ${\text{Assets} }={\text{Liabilities} }+{\text{Owner’s Equity} }$)
 - $A=SE+L$ (i.e. ${\text{Assets} }={\text{Shareholders’ Equity} }+{\text{Liabilities} }$) <sup>[\[1\]](#^ref-1)</sup><sup>[\[2\]](#^ref-2)</sup>
 

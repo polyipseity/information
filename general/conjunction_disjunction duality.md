@@ -29,7 +29,7 @@ Since {@{the [Disjunctive Normal Form Theorem](disjunctive%20normal%20form.md) s
 
 ### De Morgan's laws
 
-[De Morgan's laws](De%20Morgan's%20laws.md) also {@{follow from the definitions of these connectives in terms of each other, whichever direction is taken to do it}@}.<sup>[\[1\]](#^ref-1)</sup> If {@{conjunction is taken as primitive}@}, then (4) follows immediately from (1), while (5) follows from (1) via (3):<sup>[\[1\]](#^ref-1)</sup> {@{$$\begin{aligned} \neg (\varphi \lor \psi ) & \equiv \neg \varphi \land \neg \psi \qquad (4) \\ \neg (\varphi \land \psi ) & \equiv \neg \varphi \lor \neg \psi \qquad (5) \end{aligned}$$}@}. <!--SR:!2025-02-06,105,290!2025-04-09,160,310!2024-12-13,73,310-->
+[De Morgan's laws](De%20Morgan's%20laws.md) also {@{follow from the definitions of these connectives in terms of each other, whichever direction is taken to do it}@}.<sup>[\[1\]](#^ref-1)</sup> If {@{conjunction is taken as primitive}@}, then (4) follows immediately from (1), while (5) follows from (1) via (3):<sup>[\[1\]](#^ref-1)</sup> {@{$$\begin{aligned} \neg (\varphi \lor \psi ) & \equiv \neg \varphi \land \neg \psi \qquad (4) \\ \neg (\varphi \land \psi ) & \equiv \neg \varphi \lor \neg \psi \qquad (5) \end{aligned}$$}@}. <!--SR:!2025-02-06,105,290!2025-04-09,160,310!2025-10-25,316,330-->
 
 ## negation is semantically equivalent to dual
 

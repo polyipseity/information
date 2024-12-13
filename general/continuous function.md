@@ -39,7 +39,7 @@ A __discontinuous function__ is {@{a function that is _not continuous_. By this 
 
 > [!tip] tips
 >
-> - [interior](interior%20(topology).md) of a real interval ::@:: For $a, b \in \mathbb{R}$, $(a, b)$ is the [interior](interior%20(topology).md) of $[a, b]$, $(a, b]$, $[a, b)$, and $(a, b)$. <!--SR:!2025-05-25,343,344!2024-12-13,213,330-->
+> - [interior](interior%20(topology).md) of a real interval ::@:: For $a, b \in \mathbb{R}$, $(a, b)$ is the [interior](interior%20(topology).md) of $[a, b]$, $(a, b]$, $[a, b)$, and $(a, b)$. <!--SR:!2025-05-25,343,344!2027-08-13,973,350-->
 > - relation of definitions between open intervals and semi-closed or closed intervals ::@:: One can interpret the definition for the semi-closed or closed interval differently. The function is continuous on an interval if the function is continuous on the corresponding open interval, and the endpoints $a$ satisfies $\lim_{x \to a^\pm} f(x) = f(a)$, choosing the direction such that the limit approaches the endpoint from the interval. <!--SR:!2026-05-13,575,310!2025-01-21,239,324-->
 
 <!-- markdownlint MD028 -->
@@ -56,7 +56,7 @@ A function is _discontinuous_ at a point {@{if the point is in the [topological 
 > [!tip] tips
 >
 > - neither continuous nor discontinuous ::@:: A function can be neither continuous nor discontinuous at a point. For example, $f(x > 0) = 0$ is neither continuous nor discontinuous at $-1$. It is however discontinuous at $0$.  An exaggerated example is that all [real-valued functions](real-valued%20function.md) are not defined at [Mount Everest](Mount%20Everest.md). <!--SR:!2025-11-04,438,310!2025-01-12,235,330-->
-> - [topological closure](closure%20(topology).md) of a real interval ::@:: For $a, b \in \mathbb{R}$, $[a, b]$ is the [topological closure](closure%20(topology).md) of $(a, b)$, $[a, b)$, $(a, b]$, and $[a, b]$. <!--SR:!2024-12-13,194,310!2027-01-30,820,344-->
+> - [topological closure](closure%20(topology).md) of a real interval ::@:: For $a, b \in \mathbb{R}$, $[a, b]$ is the [topological closure](closure%20(topology).md) of $(a, b)$, $[a, b)$, $(a, b]$, and $[a, b]$. <!--SR:!2027-03-18,825,330!2027-01-30,820,344-->
 
 <!-- markdownlint MD028 -->
 
@@ -90,7 +90,7 @@ The set of continuous functions is closed under {@{addition, subtraction, multip
 
 > [!info]- proof of the set of continuous functions being closed under basic arithmetic operations
 >
-> - proof of the set of continuous functions being closed under basic arithmetic operations / strategy ::@:: For a continuous function $f(x)$, $\lvert f(x) - f(c) \rvert$ can be made to be smaller than an arbitrary small real $\epsilon$ for inputs in an interval around $c$. So setup the required inequalities, transform them, and identify expressions like $\lvert f(x) - f(c) \rvert$ in said inequalities. Claim that such expressions can be made arbitrarily small. <!--SR:!2025-08-11,268,370!2024-12-12,81,370-->
+> - proof of the set of continuous functions being closed under basic arithmetic operations / strategy ::@:: For a continuous function $f(x)$, $\lvert f(x) - f(c) \rvert$ can be made to be smaller than an arbitrary small real $\epsilon$ for inputs in an interval around $c$. So setup the required inequalities, transform them, and identify expressions like $\lvert f(x) - f(c) \rvert$ in said inequalities. Claim that such expressions can be made arbitrarily small. <!--SR:!2025-08-11,268,370!2025-10-09,300,370-->
 >
 > Using the above definitions...
 >

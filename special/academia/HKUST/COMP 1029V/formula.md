@@ -348,7 +348,7 @@ return _chain.from_iterable(await _gather(
 - `COUNTIF(values, criteria)`:@:number of `values` satisfying `criteria` <!--SR:!2025-01-22,272,330-->
 - `IF(boolean, value_if_true[, value_if_false = FALSE])`:@:`value_if_true` if `boolean` is true, otherwise `value_if_false`; can be nested <!--SR:!2025-01-05,258,330-->
 - `MAX(numbers...)`:@:maximum <!--SR:!2024-12-14,241,330-->
-- `MIN(numbers...)`:@:minimum <!--SR:!2024-12-12,239,330-->
+- `MIN(numbers...)`:@:minimum <!--SR:!2027-02-10,789,330-->
 - `RANK(number, numbers...)`:@:rank of `number` in `numbers`, starting from 1 <!--SR:!2025-01-26,95,290-->
 - `STDEV(numbers...)`:@:standard deviation <!--SR:!2025-03-02,305,330-->
 - `SUM(numbers...)`:@:summation <!--SR:!2025-01-17,270,330-->

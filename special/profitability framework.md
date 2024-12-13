@@ -12,7 +12,7 @@ _I have no idea why this needs to be a framework, but here it is anyway._
 
 ## background
 
-The profitability framework is {@{an (extreme) abstraction of an _[income statement](../general/income%20statement.md)_ (also known as _profit and loss statement_)}@}. <!--SR:!2024-12-13,121,290-->
+The profitability framework is {@{an (extreme) abstraction of an _[income statement](../general/income%20statement.md)_ (also known as _profit and loss statement_)}@}. <!--SR:!2025-12-03,355,290-->
 
 ## the framework
 

@@ -55,7 +55,7 @@ You can of course put nested iterations inside iterations.
 
 ### `While`
 
-`While...Wend` can also perform iteration. A `While...Wend` statement consists of {@{a condition and a statement block}@}: <!--SR:!2024-12-12,222,310-->
+`While...Wend` can also perform iteration. A `While...Wend` statement consists of {@{a condition and a statement block}@}: <!--SR:!2027-07-23,952,330-->
 
 ```VB
 While

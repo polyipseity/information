@@ -105,7 +105,7 @@ The content is in teaching order.
     - artificial intelligence / periods / 1956–1974 ::@:: symbolic AI <!--SR:!2024-12-16,24,290!2025-01-09,40,270-->
     - artificial intelligence / periods / 1974–1980 ::@:: the first AI winter <!--SR:!2024-12-21,35,290!2024-12-21,37,292-->
     - artificial intelligence / periods / 1980–1987 ::@:: AI boom <!--SR:!2024-12-24,38,290!2024-12-24,38,290-->
-    - artificial intelligence / periods / 1987–1993 ::@:: the second AI winter <!--SR:!2024-12-29,41,292!2024-12-12,19,252-->
+    - artificial intelligence / periods / 1987–1993 ::@:: the second AI winter <!--SR:!2024-12-29,41,292!2025-01-29,47,252-->
     - artificial intelligence / periods / 1993–2011 ::@:: AI finally achieved some of its oldest goals, beginning to be adopted throughout the technology industry due to increasing computing power <!--SR:!2024-12-28,40,292!2025-01-05,50,292-->
     - artificial intelligence / periods / 2011–present (2024) ::@:: artificial general intelligence, big data, deep learning <!--SR:!2025-01-11,51,310!2025-01-23,46,270-->
   - artificial intelligence / history
@@ -115,11 +115,11 @@ The content is in teaching order.
     - artificial intelligence / history / 1959 ::@:: Arthur Samuel coined the term "__machine learning__", reporting on programming a computer "so that it will learn to play a better game of checkers than can be played by the person who wrote the program". <!--SR:!2024-12-29,41,292!2025-01-11,51,310-->
     - artificial intelligence / history / 1965 ::@:: The _first natural language processing computer program_, __ELIZA__, was created. <!--SR:!2025-01-22,64,330!2024-12-29,44,310-->
     - artificial intelligence / history / 1980s ::@:: Edward Albert Feigenbaum developed the _first expert system in artificial intelligence_. <!--SR:!2024-12-22,36,290!2025-01-11,51,310-->
-    - artificial intelligence / history / 1990s ::@:: Cynthia Breazeal, a pioneer of _social robotics_ and _human–robot interaction_, created the robot __Kismet__ at MIT in 1990s. Kismet was designed to engage in social interaction with humans, marking a significant step forward in the field of human-robot interaction. Breazeal's work has opened up new possibilities for how humans and robots can interact and coexist. <!--SR:!2025-01-18,49,252!2024-12-12,19,252-->
+    - artificial intelligence / history / 1990s ::@:: Cynthia Breazeal, a pioneer of _social robotics_ and _human–robot interaction_, created the robot __Kismet__ at MIT in 1990s. Kismet was designed to engage in social interaction with humans, marking a significant step forward in the field of human-robot interaction. Breazeal's work has opened up new possibilities for how humans and robots can interact and coexist. <!--SR:!2025-01-18,49,252!2024-12-22,9,232-->
     - artificial intelligence / history / 1997 ::@:: An IBM computer called __IBM Deep Blue__ _beat the world chess champion_, Garry Kasparov, after a six-game match: two wins for IBM, one for the champion and three draws. <!--SR:!2025-01-18,49,252!2025-03-23,102,292-->
     - artificial intelligence / history / 2002 ::@:: iRobot launched __Roomba__, an _autonomous vacuum cleaner that avoids obstacles_. <!--SR:!2025-01-12,55,312!2025-01-02,44,292-->
-    - artificial intelligence / history / 2009 ::@:: Google built the _first self-driving car_ to handle urban conditions. <!--SR:!2025-01-31,72,330!2024-12-13,20,270-->
-    - artificial intelligence / history / 2011 ::@:: IBM's __Watson__ supercomputer _defeated humans in the final Jeopardy match_. <!--SR:!2024-12-21,37,292!2024-12-13,20,270-->
+    - artificial intelligence / history / 2009 ::@:: Google built the _first self-driving car_ to handle urban conditions. <!--SR:!2025-01-31,72,330!2025-02-26,75,290-->
+    - artificial intelligence / history / 2011 ::@:: IBM's __Watson__ supercomputer _defeated humans in the final Jeopardy match_. <!--SR:!2024-12-21,37,292!2024-12-22,9,250-->
     - artificial intelligence / history / 2011–2014 ::@:: _Personal assistants_ like Siri, Google Now, Cortana use _speech recognition_ to answer questions and perform simple tasks. <!--SR:!2024-12-24,38,290!2025-01-12,55,312-->
     - artificial intelligence / history / 2014 ::@:: Ian Goodfellow comes up with __Generative Adversarial Network__ (__GAN__). <!--SR:!2025-01-08,49,310!2025-01-31,72,330-->
     - artificial intelligence / history / 2016 ::@:: __AlphaGo__ _beats professional Go player_ Lee Sedol 4-1. <!--SR:!2025-01-22,53,270!2024-12-23,37,290-->

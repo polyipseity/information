@@ -17,7 +17,7 @@ In logic, many common logical equivalences {@{exist and are often listed as laws
 
 ### general logical equivalences
 
-- identity laws ::@:: $$\begin{aligned} p \land \top & \equiv p \\ p \lor \bot & \equiv p \end{aligned}$$ <!--SR:!2025-04-12,163,321!2024-12-13,73,321-->
+- identity laws ::@:: $$\begin{aligned} p \land \top & \equiv p \\ p \lor \bot & \equiv p \end{aligned}$$ <!--SR:!2025-04-12,163,321!2025-11-04,326,341-->
 - domination laws ::@:: $$\begin{aligned} p \lor \top & \equiv \top \\ p \land \bot & \equiv \bot \end{aligned}$$ <!--SR:!2025-01-23,97,301!2025-08-11,258,330-->
 - idempotent or tautology laws ::@:: $$\begin{aligned} p \lor p & \equiv p \\ p \land p & \equiv p \end{aligned}$$ <!--SR:!2024-12-15,74,321!2025-07-15,236,330-->
 - [double negation](double%20negation.md) law ::@:: $$\neg (\neg p)\equiv p$$ <!--SR:!2025-08-02,251,330!2025-07-13,230,321-->
@@ -27,7 +27,7 @@ In logic, many common logical equivalences {@{exist and are often listed as laws
 - [De Morgan's laws](De%20Morgan's%20laws.md) ::@:: $$\begin{aligned} \lnot (p \land q) & \equiv \lnot p \lor \lnot q \\ \lnot (p \lor q) & \equiv \lnot p \land \lnot q \end{aligned}$$ <!--SR:!2025-05-05,180,321!2025-10-05,301,336-->
 - [absorption laws](absorption%20law.md) ::@:: $$\begin{aligned} p \lor (p \land q) & \equiv p \\ p \land (p \lor q) & \equiv p \end{aligned}$$ <!--SR:!2025-04-04,153,310!2025-08-28,272,336-->
 $p\vee (p\wedge q)\equiv p$$p\wedge (p\vee q)\equiv p$
-- negation laws ::@:: $$\begin{aligned} p \lor \lnot p & \equiv \top \\ p \land \lnot p & \equiv \bot \end{aligned}$$ <!--SR:!2024-12-15,74,329!2024-12-12,71,321-->
+- negation laws ::@:: $$\begin{aligned} p \lor \lnot p & \equiv \top \\ p \land \lnot p & \equiv \bot \end{aligned}$$ <!--SR:!2024-12-15,74,329!2025-10-28,319,341-->
 
 ### logical equivalences involving conditional statements
 

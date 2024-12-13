@@ -59,7 +59,7 @@ Value proposition design works for {@{both new ventures and established organiza
 
 The value proposition canvas has two parts: {@{the customer profile showing your customer understanding and the value map showing your product and its values. Achieve fit by having your product create value that satisfies customers}@}. <!--SR:!2025-04-04,235,289-->
 
-The value map itself has three parts: {@{products and services, pain relievers, and gain creators}@}. It corresponds to the three parts of the customer profile: {@{customer jobs, pains, and gains}@}. Fit is achieved when {@{pain relievers relieve pains and gain creators create gains that are important to the customer}@}. <!--SR:!2025-01-18,198,327!2025-05-02,304,330!2024-12-12,169,309-->
+The value map itself has three parts: {@{products and services, pain relievers, and gain creators}@}. It corresponds to the three parts of the customer profile: {@{customer jobs, pains, and gains}@}. Fit is achieved when {@{pain relievers relieve pains and gain creators create gains that are important to the customer}@}. <!--SR:!2025-01-18,198,327!2025-05-02,304,330!2026-12-05,722,329-->
 
 ### customer profile
 

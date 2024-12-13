@@ -45,7 +45,7 @@ Liabilities are reported on a [balance sheet](balance%20sheet.md) and are {@{usu
 - [current liabilities](current%20liability.md) ::@:: These liabilities are reasonably expected to be liquidated within a financial period (usually a year). They usually include payables such as [wages](wage.md), [accounts](account%20(bookkeeping).md), [taxes](tax.md), and [accounts payable](accounts%20payable.md), unearned revenue when [adjusting entries](adjusting%20entries.md), portions of long-term bonds to be paid this year, and short-term obligations (_e.g._ from purchase of equipment). Current liabilities are obligations whose liquidation is reasonably expected to require the use of current assets, the creation of other current liabilities, or the provision of services within the next year or operating cycle, whichever is longer. <!--SR:!2024-12-15,57,250!2024-12-28,69,270-->
 - [long-term liabilities](long-term%20liabilities.md) ::@:: These liabilities are reasonably expected _not_ to be liquidated within a financial period (usually a year). They usually include issued long-term [bonds](bond%20(finance).md), notes payable, long-term [leases](lease.md), [pension](pension.md) obligations, and long-term product [warranties](warranty.md). <!--SR:!2025-06-12,187,310!2025-06-20,202,310-->
 
-{@{Liabilities of uncertain value or timing}@} are called {@{provisions ([contingent liabilities](contingent%20liability.md))}@}. <!--SR:!2024-12-21,72,310!2024-12-13,64,310-->
+{@{Liabilities of uncertain value or timing}@} are called {@{provisions ([contingent liabilities](contingent%20liability.md))}@}. <!--SR:!2024-12-21,72,310!2025-06-28,197,310-->
 
 When {@{a company [deposits](deposit%20account.md) cash with a [bank](bank.md)}@}, the bank records {@{a liability on its balance sheet, representing the obligation to repay the depositor, usually on demand}@}. Simultaneously, in accordance with {@{the [double-entry](double-entry%20bookkeeping.md) principle}@}, the bank {@{records the cash, itself, as an asset}@}. The company, on the other hand, upon depositing the cash with the bank, records {@{a decrease in its cash and a corresponding increase in its bank deposits (an asset)}@}. <!--SR:!2025-09-04,268,330!2025-05-01,164,310!2024-12-17,68,310!2025-09-03,267,330!2025-09-06,269,330-->
 
@@ -55,7 +55,7 @@ A [debit](debits%20and%20credits.md) {@{either increases an asset or decreases a
 
 When {@{cash is deposited in a bank}@}, the bank is said to {@{"debit" its cash account, on the asset side, and "credit" its deposits account, on the liabilities side}@}. In this case, the bank is {@{debiting an asset and crediting a liability, which means that both increase}@}. <!--SR:!2025-05-10,172,310!2025-06-03,189,310!2025-04-23,158,310-->
 
-When {@{cash is withdrawn from a bank}@}, {@{the opposite happens: the bank "credits" its cash account and "debits" its deposits account}@}. In this case, the bank is {@{crediting an asset and debiting a liability, which means that both decrease}@}. <!--SR:!2025-07-06,220,330!2025-08-02,242,330!2024-12-13,66,310-->
+When {@{cash is withdrawn from a bank}@}, {@{the opposite happens: the bank "credits" its cash account and "debits" its deposits account}@}. In this case, the bank is {@{crediting an asset and debiting a liability, which means that both decrease}@}. <!--SR:!2025-07-06,220,330!2025-08-02,242,330!2025-09-25,286,330-->
 
 ## see also
 

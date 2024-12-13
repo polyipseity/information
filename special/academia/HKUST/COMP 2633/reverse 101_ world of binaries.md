@@ -25,9 +25,9 @@ Assuming you are using Linux. For developers, compiling a C program is {@{simply
 
 However, we can go further than this. The program `<output>` is {@{actually a format called an _Executable and Linkable Format_ (ELF) file}@}. The property we can about here is that {@{you can execute it, as evident from the "executable" in its name}@}. Details will be mentioned in later lectures. <!--SR:!2024-12-17,83,345!2025-11-29,357,365-->
 
-Instead, we are more interested in {@{the compilation process itself}@}. We like to think of compilation as a single process, but {@{it is really composed of several steps: preprocessing (`-E`), then compilation (`-S`), then assembly (`-c`), and finally linking (none)}@}. <!--SR:!2024-12-13,80,345!2025-10-29,326,343-->
+Instead, we are more interested in {@{the compilation process itself}@}. We like to think of compilation as a single process, but {@{it is really composed of several steps: preprocessing (`-E`), then compilation (`-S`), then assembly (`-c`), and finally linking (none)}@}. <!--SR:!2025-12-28,380,365!2025-10-29,326,343-->
 
-Preprocessing {@{transforms source program (text) into modified source program (still text)}@}. GCC internally {@{uses the program `cpp`, which we can use by itself}@}, for this step. To only run this step with GCC, the command is {@{`gcc -E <input>.c > <output>.i`, which writes to `<output>.i`}@}. <!--SR:!2024-12-12,79,345!2025-07-31,254,345!2025-03-20,139,303-->
+Preprocessing {@{transforms source program (text) into modified source program (still text)}@}. GCC internally {@{uses the program `cpp`, which we can use by itself}@}, for this step. To only run this step with GCC, the command is {@{`gcc -E <input>.c > <output>.i`, which writes to `<output>.i`}@}. <!--SR:!2025-12-22,374,365!2025-07-31,254,345!2025-03-20,139,303-->
 
 Compilation {@{transforms modified source program (text) into assembly program (still text)}@}. GCC internally {@{uses the program `cc1`, part of the GCC}@}, for this step. To only run this step, the command is {@{`gcc -S <input>.i`, which outputs a `.s` file}@}. <!--SR:!2025-08-25,277,357!2025-08-24,274,343!2025-01-26,101,303-->
 
@@ -43,7 +43,7 @@ Assembly is {@{not a single language}@}. Rather, there are {@{multiple languages
 
 ### registers
 
-Registers {@{hold data of fixed small sizes}@}. x86, a {@{32-bit}@} architecture, has {@{8 general-purpose 32-bit registers, named `eax`, `ecx`, `edx`, `ebx`, `esp`, `ebp`, `esi`, and `edi`}@}. x86-64, a {@{64-bit}@} architecture, introduces {@{8 additional general-purpose 64-bit registers, named `r8`, `r9`, `r10`, `r11`, `r12`, `r13`, `r14`, and `r15`}@}, and upgrades {@{the old 8 general-purpose 32-bit registers to 64-bit and changing the starting `e` to `r`}@}. There is also {@{a special 32-bit or 64-bit register named `eip` (32-bit) or `rip` (64-bit)}@}, which {@{points to the current instruction being executed}@}. Unlike other registers, it {@{cannot be read from or written to directly}@}. Lastly, there is {@{another special 32-bit or 64-bit register named `eflags` (32-bit) or `rflags` (64-bit)}@}, which {@{holds various _flags_ (not _flag_ as in CTF) representing the current CPU status (state)}@}. The above registers are {@{the most commonly used ones, and there are many more not mentioned here}@}. <!--SR:!2025-08-28,277,343!2024-12-13,80,345!2025-02-05,105,303!2025-11-08,338,357!2025-07-06,232,330!2024-12-13,80,345!2025-08-03,255,330!2025-12-04,361,365!2025-10-13,314,343!2025-08-25,258,337!2025-04-02,159,325!2025-12-11,366,365-->
+Registers {@{hold data of fixed small sizes}@}. x86, a {@{32-bit}@} architecture, has {@{8 general-purpose 32-bit registers, named `eax`, `ecx`, `edx`, `ebx`, `esp`, `ebp`, `esi`, and `edi`}@}. x86-64, a {@{64-bit}@} architecture, introduces {@{8 additional general-purpose 64-bit registers, named `r8`, `r9`, `r10`, `r11`, `r12`, `r13`, `r14`, and `r15`}@}, and upgrades {@{the old 8 general-purpose 32-bit registers to 64-bit and changing the starting `e` to `r`}@}. There is also {@{a special 32-bit or 64-bit register named `eip` (32-bit) or `rip` (64-bit)}@}, which {@{points to the current instruction being executed}@}. Unlike other registers, it {@{cannot be read from or written to directly}@}. Lastly, there is {@{another special 32-bit or 64-bit register named `eflags` (32-bit) or `rflags` (64-bit)}@}, which {@{holds various _flags_ (not _flag_ as in CTF) representing the current CPU status (state)}@}. The above registers are {@{the most commonly used ones, and there are many more not mentioned here}@}. <!--SR:!2025-08-28,277,343!2025-12-30,382,365!2025-02-05,105,303!2025-11-08,338,357!2025-07-06,232,330!2025-12-29,381,365!2025-08-03,255,330!2025-12-04,361,365!2025-10-13,314,343!2025-08-25,258,337!2025-04-02,159,325!2025-12-11,366,365-->
 
 A register {@{does not need to be accessed in its entirety}@}. Instead, we can access {@{the lowest (least significant) bits of a register only}@}. To {@{access the entire register (64 bits)}@}, {@{change the register prefix to `r`, e.g. `rax`, `rsp`, `r8`}@}. To {@{access the lowest 32 bits}@}, {@{change the register prefix to `e` if the register name does not contain a number, or append `d` otherwise, e.g. `eax`, `esp`, `r8d`}@}. To {@{access the lowest 16 bits}@}, {@{remove the register prefix if the register name does not contain a number, or append `w` otherwise, e.g. `ax`, `sp`, `r8w`}@}. To {@{access the lowest 8 bits}@}, {@{remove the register prefix, remove the ending `x` if any, and append `l` if the register name does not contain a number, or append `b` otherwise, e.g. `al`, `spl`, `r8b`}@}. Note that {@{`epl`/`rpl` cannot have only its lowest 8 bits accessed, i.e. `ipl` is invalid}@}. For {@{4 of the registers, which are `eax`/`rax`, `ecx`/`rcx`, `edx`/`rdx`, and `ebx`/`rbx`}@}, we can {@{also access the 8 bits just above the lowest 8 bits}@} by {@{writing `ah`, `ch`, `dh`, or `bh`}@}. <!--SR:!2025-12-01,358,363!2025-09-01,282,357!2025-08-15,267,343!2025-11-18,346,365!2025-08-05,241,323!2025-09-05,286,357!2025-04-11,166,310!2024-12-20,85,345!2025-07-27,249,330!2025-07-14,223,323!2025-06-13,200,317!2025-09-06,285,343!2025-04-20,159,317!2025-06-30,227,330-->
 
@@ -51,7 +51,7 @@ The register names of {@{4 registers were intended to have meanings}@}, with {@{
 
 ### syntax branches
 
-x86 has {@{two main syntax branches: _Intel syntax_ and _AT&T syntax_}@}. We will use the former here. Note that GCC {@{by default outputs the latter, and you need to specify `-masm=intel` (e.g. `gcc -S <input>.i -masm=intel`) to output the former}@}. <!--SR:!2024-12-12,78,323!2025-07-23,247,345-->
+x86 has {@{two main syntax branches: _Intel syntax_ and _AT&T syntax_}@}. We will use the former here. Note that GCC {@{by default outputs the latter, and you need to specify `-masm=intel` (e.g. `gcc -S <input>.i -masm=intel`) to output the former}@}. <!--SR:!2025-12-02,354,343!2025-07-23,247,345-->
 
 ### instructions
 
@@ -65,14 +65,14 @@ A note on endianness. For registers, {@{it does not make sense to talk about end
 
 Below is a list of common instructions (in learning order):
 
-- `mov <dest>, <src>` ::@:: Copy a value at `<src>` to `<dest>`. <!--SR:!2024-12-20,85,345!2024-12-12,79,345-->
+- `mov <dest>, <src>` ::@:: Copy a value at `<src>` to `<dest>`. <!--SR:!2024-12-20,85,345!2025-12-25,377,365-->
 - `add <dest> <src>` ::@:: Increment the value at `<dest>` by `<src>`. <!--SR:!2025-08-18,267,330!2025-08-12,264,343-->
 - `sub <dest> <src>` ::@:: Decrement the value at `<dest>` by `<src>`. <!--SR:!2024-12-18,83,345!2025-12-05,362,365-->
 - `imul <dest> <src>` ::@:: Multiply the value at `<dest>` by `<src>`, signed. <!--SR:!2025-07-24,233,337!2025-08-19,255,345-->
 - `idiv <src>` ::@:: Divide the value at `ax` (8-bit), `dx:ax` (16-bit), `edx:eax` (32-bit), or `rdx:rax` (64-bit) by `<src>`, truncated towards 0 and signed. <!--SR:!2025-01-06,81,270!2025-10-31,330,357-->
 - `and <dest> <src>` ::@:: Bitwise and the value at `<dest>` with `<src>`. <!--SR:!2025-11-26,354,363!2025-09-14,291,343-->
 - `or <dest> <src>` ::@:: Bitwise or the value at `<dest>` with `<src>`. <!--SR:!2024-12-17,83,345!2025-07-24,246,330-->
-- `xor <dest> <src>` ::@:: Bitwise exclusive-or the value at `<dest>` with `<src>`. <!--SR:!2024-12-12,79,345!2024-12-16,82,343-->
+- `xor <dest> <src>` ::@:: Bitwise exclusive-or the value at `<dest>` with `<src>`. <!--SR:!2025-12-23,375,365!2024-12-16,82,343-->
 - `inc <dest>` ::@:: Increment the value at `<dest>` by 1. <!--SR:!2024-12-16,82,345!2025-11-23,348,357-->
 - `dec <dest>` ::@:: Decrement the value at `<dest>` by 1. <!--SR:!2025-08-26,278,357!2025-07-22,245,330-->
 - `neg <dest>` ::@:: Negate the value at `<dest>`. <!--SR:!2025-08-25,261,345!2025-10-17,320,357-->
@@ -119,7 +119,7 @@ To assemble an assembly program as an ELF with {@{NASM}@}, run {@{`nasm -f elf64
 
 ### stack and functions in assembly
 
-x86 and x86-64 makes it easy {@{to enumerate stacks (in both the data structure and memory allocation sense) and functions}@} by {@{providing the instructions `push`, `pop`, `call`, and `ret`}@}. Remember that the stack grows {@{in the negative direction (decreasing address)}@}. <!--SR:!2025-11-03,333,357!2024-12-13,80,343!2025-03-18,148,310-->
+x86 and x86-64 makes it easy {@{to enumerate stacks (in both the data structure and memory allocation sense) and functions}@} by {@{providing the instructions `push`, `pop`, `call`, and `ret`}@}. Remember that the stack grows {@{in the negative direction (decreasing address)}@}. <!--SR:!2025-11-03,333,357!2025-12-26,378,363!2025-03-18,148,310-->
 
 - `push <data>` ::@:: Copy `<data>` to the address pointed by `esp`/`rsp` and then decrement `esp`/`rsp` by the data size. The data size is either 4 or 8 bytes depending on the architecture (but not `<data>`). It can also be 2 bytes if explicitly specified (`push word <data>`), Note that flags are also manipulated. <!--SR:!2025-08-02,255,330!2025-07-27,238,345-->
 - `pop <dest>` ::@:: Copy the value at the address pointed by `esp`/`rsp` to `<dest>` and then increment `esp`/`rsp` by the data size. The data size is either 4 or 8 bytes depending on the architecture (but not the value at the stack top). It can also be 2 bytes if explicitly specified (`pop word <dest>`). Note that flags are also manipulated. <!--SR:!2025-05-09,173,325!2025-10-23,322,343-->
@@ -144,7 +144,7 @@ Some common tools are:
 - Radare2 (`r2`) ::@:: Display information from object files (`.o`). To use it interactively, simply pass the filepath to the program. To use it non-interactively, pass `-c "aaaa; pdf @ sym.main; q!"` before the filepath. Common useful commands include `aaaa`, `pdf @ sym.main`, `?`, `<command>?`, etc. <!--SR:!2025-05-29,186,270!2025-02-22,113,290-->
 - Ghidra ::@:: An open-source powerful decompiler and disassembler developed by the National Security Agency (NSA). <!--SR:!2024-12-14,80,343!2025-10-16,319,357-->
 - `file <file>` ::@:: Determine possible file types of `<file>`. <!--SR:!2024-12-14,80,337!2025-07-21,244,330-->
-- `strings <file>` ::@:: Print sequences of printable strings in `<file>`. To exclude tiny strings, add `-n <minimum string length>` before `<file>`. <!--SR:!2024-12-13,79,345!2025-12-07,362,365-->
+- `strings <file>` ::@:: Print sequences of printable strings in `<file>`. To exclude tiny strings, add `-n <minimum string length>` before `<file>`. <!--SR:!2025-12-21,373,365!2025-12-07,362,365-->
 - `xxd <file>` ::@:: Make a hexdump. To reverse this process, add the `-r` option. <!--SR:!2024-12-16,82,345!2025-06-22,220,330-->
 
 ### tools for dynamic analysis
@@ -165,6 +165,6 @@ While analyzing a program, sometimes we want to {@{change the program behavior, 
 Some commo tools are:
 
 - GNU Debugger (`gdb`) ::@:: A commonly used program debugger on Linux. We can set breakpoints using `set <location>` so that the program will be suspended for debugging when it executes to that point. <!--SR:!2025-08-30,278,343!2025-07-22,234,345-->
-- `xxd` and a text editor, e.g. `vim` ::@:: Directly edit the program in heximal format. This does require you to know how instructions are actually stored as data, and is best for small patches. <!--SR:!2024-12-12,78,337!2025-12-09,364,365-->
+- `xxd` and a text editor, e.g. `vim` ::@:: Directly edit the program in heximal format. This does require you to know how instructions are actually stored as data, and is best for small patches. <!--SR:!2025-12-10,362,357!2025-12-09,364,365-->
 - Ghidra ::@:: An open-source powerful decompiler and disassembler developed by the National Security Agency (NSA). It can also patch code: right-click, press "Patch Instruction", and type assembly code. Best for more complicated patches. <!--SR:!2025-05-04,185,323!2025-12-03,360,365-->
 - Radare2 (`r2`) ::@:: Best for automated or procedural patches. We can interface with it in Python via the `r2pipe` module. <!--SR:!2025-06-08,197,323!2025-08-20,269,345-->

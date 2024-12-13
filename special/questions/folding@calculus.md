@@ -18,7 +18,7 @@ A paper of length $x$ and height $y$ is given. The lower right corner is to be f
 
 ## strategy
 
-- inspecting "A paper of length $x$ and height $y$ is given. The lower right corner is to be folded to the top edge forming a triangle as shown. Find the maximum and minimum area of the constructed triangle." :@: Realize that $x > y$, otherwise the folding is impossible. Further, the length of $x$ constrains the folding and needs to be considered. Parameterize the folding by the x-distance of the intersection of the middle horizontal line and the fold line from the right side. <!--SR:!2024-12-13,106,290-->
+- inspecting "A paper of length $x$ and height $y$ is given. The lower right corner is to be folded to the top edge forming a triangle as shown. Find the maximum and minimum area of the constructed triangle." :@: Realize that $x > y$, otherwise the folding is impossible. Further, the length of $x$ constrains the folding and needs to be considered. Parameterize the folding by the x-distance of the intersection of the middle horizontal line and the fold line from the right side. <!--SR:!2025-10-22,313,290-->
 
 ## solution
 

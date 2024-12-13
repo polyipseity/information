@@ -14,7 +14,7 @@ A __mixture__ is {@{a matter made up of multiple [chemical substances](chemical%
 
 Compare with [chemical substance § properties](chemical%20substance.md#properties).
 
-- composition ::@:: variable <!--SR:!2027-07-07,1104,290!2024-12-13,211,333-->
+- composition ::@:: variable <!--SR:!2027-07-07,1104,290!2027-08-12,972,353-->
 - formation ::@:: no [chemical reactions](chemical%20reaction.md), no to little energy change ([enthalpy of mixing](enthalpy%20of%20mixing.md)) <!--SR:!2025-02-28,329,270!2025-06-04,352,353-->
 - properties ::@:: each constituent keeps its properties <!--SR:!2025-08-29,644,310!2025-04-15,311,353-->
 - separation ::@:: separable by physical and chemical methods <!--SR:!2027-02-14,1014,330!2025-05-13,334,353-->
