@@ -21,12 +21,12 @@ tags:
 
 - easy metrics ::@:: current ratio, dividend yield, net profit margin, net sales, price/earnings ratio, quick ratio, net profit margin <!--SR:!2024-12-23,10,282!2024-12-30,17,302-->
 - non-ratios ::@:: free cash flow, working capital <!--SR:!2024-12-30,17,302!2024-12-30,17,302-->
-- reciprocals of 365 ::@:: average collection period, average days to pay payables, average days to sell inventory <!--SR:!2024-12-30,17,299!2024-12-30,17,302-->
+- reciprocals multiplied by 365 ::@:: average collection period, average days to pay payables, average days to sell inventory <!--SR:!2024-12-30,17,299!2024-12-30,17,302-->
 - surprising terms in equation ::@:: accounts payable turnover, earnings per share <!--SR:!2024-12-27,14,296!2024-12-30,17,302-->
-- surprising "net" in equation ::@:: fixed asset turnover, receivables turnover <!--SR:!2024-12-23,10,279!2024-12-30,17,302-->
+- surprising "net" in equation ::@:: current assets, fixed asset turnover, quick assets, receivables turnover, total assets <!--SR:!2024-12-23,10,279!2024-12-30,17,302-->
 - cash flow ::@:: capital acquisitions ratio, free cash flow, quality of income <!--SR:!2024-12-23,10,282!2024-12-30,17,299-->
 - cost of goods sold as numerator ::@:: fixed asset turnover, inventory turnover <!--SR:!2024-12-22,11,279!2024-12-28,15,290-->
-- net sales as numerator ::@:: fixed asset turnover, receivables turnover, total asset turnover <!--SR:!2024-12-22,11,282!2024-12-23,10,282-->
+- net sales as numerator ::@:: fixed asset turnover, receivables turnover (+credit), total asset turnover <!--SR:!2024-12-22,11,282!2024-12-23,10,282-->
 
 ## list
 
