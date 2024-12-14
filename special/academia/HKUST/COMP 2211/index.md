@@ -660,7 +660,7 @@ ID: 23456789
     - image classification / motivations ::@:: subdomain of __computer vision__: face recognition, labelling objects in an image, medical imaging, robotics <!--SR:!2024-12-22,36,290!2025-02-04,75,330-->
 - supplementary notes
   - _k_-means clustering
-    - _k_-means clustering / convergence ::@:: It always converges to a _local optimum_. (This is assuming a Euclidean distance function, but ignore this for this course...) <p> Using the sum of square error (SSE) as a loss function, we can mathematically prove the above by showing that both reassignment of data points and recomputing of centroids decreases the loss function monotonically. <!--SR:!2024-12-18,5,349!2024-12-18,5,349-->
+    - _k_-means clustering / convergence ::@:: It always converges to a _local optimum_. (This is assuming an Euclidean distance function, but ignore this for this course...) <p> Using the sum of square error (SSE) as a loss function, we can mathematically prove the above by showing that both reassignment of data points and recomputing of centroids decreases the loss function monotonically. <!--SR:!2024-12-18,5,349!2024-12-18,5,349-->
   - [principal component analysis](../../../../general/principal%20component%20analysis.md)
 - [neural network](../../../../general/neural%20network%20(machine%20learning).md) ::@:: __(Artificial) neural network__ (__(A)NN__) is one of the most powerful artificial intelligence and machine learning algorithms. It can approximate any [function](../../../../general/function%20(mathematics).md) from a certain [function space](../../../../general/function%20space.md), i.e. an _universal approximator_, by the [universal approximation theorem](../../../../general/universal%20approximation%20theorem.md). <p> As the name suggests, it draws inspiration from neurons in our brain and the way they are connected. <!--SR:!2025-01-31,72,330!2025-01-31,72,330-->
   - [§ artificial neurons](../../../../general/neural%20network%20(machine%20learning).md#artificial%20neurons)
@@ -901,7 +901,7 @@ ID: 23456789
 - [assignments/lab 7](assignments/lab%207/)
 - [digital image processing](../../../../general/digital%20image%20processing.md)
 - [data augmentation](../../../../general/data%20augmentation.md) ::@:: It has become fundamental in image classification, enriching training dataset _diversity_ to improve model _generalization_ and _performance_. The evolution of this practice has introduced a broad spectrum of techniques, including geometric transformations, color space adjustments, and noise injection. <!--SR:!2024-12-18,5,349!2024-12-18,5,349-->
-  - data augmentation / techniques ::@:: random cropping, random flipping, random rotation, random transformation, mixup, etc. <!--SR:!2024-12-18,5,349!2024-12-18,5,349-->
+  - data augmentation / techniques ::@:: random cropping, random flipping, random _mixup_, random rotation, random transformation, etc. <!--SR:!2024-12-18,5,349!2024-12-18,5,349-->
   - data augmentation / mixup ::@:: (See <https://arxiv.org/abs/1710.09412>) It is a relatively new technique of data augmentation. It mixes two images to produce a new image in random proportion. The new image's label's one-hot encoding is mixed in the same proportion. <!--SR:!2024-12-18,5,349!2024-12-18,5,349-->
 
 ## week 10 lecture 2
