@@ -36,12 +36,12 @@ $p\vee (p\wedge q)\equiv p$$p\wedge (p\vee q)\equiv p$
 - [material implication](material%20implication%20(rule%20of%20inference).md) & [disjunction](logical%20disjunction.md) ::@:: $$p\vee q\equiv \neg p\implies q$$ <!--SR:!2025-07-03,228,330!2025-03-08,135,310-->
 - [material implication](material%20implication%20(rule%20of%20inference).md) & [conjunction](logical%20conjunction.md) ::@:: $$p\wedge q\equiv \neg (p\implies \neg q)$$ <!--SR:!2025-05-29,200,330!2025-06-03,204,330-->
 - [material implication](material%20implication%20(rule%20of%20inference).md) & [negation](negation.md) ::@:: $$\neg (p\implies q)\equiv p\wedge \neg q$$ <!--SR:!2025-06-29,223,330!2024-12-22,68,310-->
-- [distributive laws](distributive%20property.md) ::@:: $$\begin{aligned} (p\implies q)\wedge (p\implies r) & \equiv p\implies (q\wedge r) \\ (p\implies q)\vee (p\implies r) & \equiv p\implies (q\vee r) \end{aligned}$$ <!--SR:!2025-09-22,295,350!2024-12-14,73,330-->
+- [distributive laws](distributive%20property.md) ::@:: $$\begin{aligned} (p\implies q)\wedge (p\implies r) & \equiv p\implies (q\wedge r) \\ (p\implies q)\vee (p\implies r) & \equiv p\implies (q\vee r) \end{aligned}$$ <!--SR:!2025-09-22,295,350!2025-11-12,333,350-->
 - [antidistributive laws](distributive%20property.md) ::@:: $$\begin{aligned} (p\implies r)\wedge (q\implies r) & \equiv (p\vee q)\implies r \\ (p\implies r)\vee (q\implies r) & \equiv (p\wedge q)\implies r \end{aligned}$$ <!--SR:!2025-06-09,209,330!2025-07-11,233,330-->
 
 ### logical equivalences involving biconditionals
 
-- [material equivalence](if%20and%20only%20if.md) & [material implication](material%20implication%20(rule%20of%20inference).md) ::@:: $$p\iff q\equiv (p\implies q)\wedge (q\implies p)$$ <!--SR:!2025-10-15,312,350!2024-12-14,74,330-->
+- [material equivalence](if%20and%20only%20if.md) & [material implication](material%20implication%20(rule%20of%20inference).md) ::@:: $$p\iff q\equiv (p\implies q)\wedge (q\implies p)$$ <!--SR:!2025-10-15,312,350!2025-11-19,340,350-->
 - [material equivalence](if%20and%20only%20if.md) & inner [negation](negation.md) ::@:: $$p\iff q\equiv \neg p\iff \neg q$$ <!--SR:!2025-09-28,298,350!2025-10-06,306,350-->
 - [material equivalence](if%20and%20only%20if.md) & primitives ::@:: $$p\iff q\equiv (p\wedge q)\vee (\neg p\wedge \neg q)$$ <!--SR:!2025-08-04,252,330!2024-12-17,77,330-->
 - [material equivalence](if%20and%20only%20if.md) & outer [negation](negation.md) ::@:: $$\neg (p\iff q)\equiv p\iff \neg q\equiv p\oplus q$$ <!--SR:!2024-12-18,77,330!2025-06-25,221,330-->

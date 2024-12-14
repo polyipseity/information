@@ -18,7 +18,7 @@ Assuming that we have $k$ clusters, {@{make $k$ initial means}@}. Repeat the fol
 1. __assignment step__ ::@:: Assign each observation to the nearest mean, using the (squared) [Euclidean distance](Euclidean%20distance.md). If there are two or more means of the same distance, arbitrarily choose one of them. <!--SR:!2026-11-12,719,333!2025-03-27,267,333-->
 2. __update step__ ::@:: Recalculate means (or [centroids](centroid.md)) using the assigned observations. <!--SR:!2026-06-03,575,310!2025-08-07,358,310-->
 
-The algorithm has converged {@{when the assignments no longer change}@}, but the resulting clusters are {@{not guaranteed to be the optimum}@}. <!--SR:!2024-12-14,182,313!2024-12-18,188,310-->
+The algorithm has converged {@{when the assignments no longer change}@}, but the resulting clusters are {@{not guaranteed to be the optimum}@}. <!--SR:!2026-07-08,571,313!2024-12-18,188,310-->
 
 The algorithm may not converge if {@{using a distance function other than the (squared) [Euclidean distance](Euclidean%20distance.md)}@}. <!--SR:!2026-01-11,475,313-->
 

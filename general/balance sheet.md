@@ -86,7 +86,7 @@ Assets are {@{all the things the business owns}@}. This will include {@{property
 
 <!-- list separator -->
 
-1. [property, plant and equipment](fixed%20asset.md) ::@:: assets and property that may not easily be converted into cash <!--SR:!2025-07-18,230,330!2024-12-14,67,310-->
+1. [property, plant and equipment](fixed%20asset.md) ::@:: assets and property that may not easily be converted into cash <!--SR:!2025-07-18,230,330!2025-10-02,292,330-->
 2. investment property, such as [real estate](real%20estate.md) held for investment purposes ::@:: the purchase, management and sale or rental of real estate for profit <!--SR:!2024-12-15,68,310!2024-12-28,66,250-->
 3. [intangible assets](intangible%20asset.md), such as patents, copyrights and goodwill ::@:: assets that lacks physical substance <!--SR:!2025-06-29,214,330!2025-08-14,252,330-->
 4. financial assets (excluding investments accounted for using the equity method, [accounts receivables](accounts%20receivable.md), and cash and [cash equivalents](cash%20and%20cash%20equivalents.md)), such as [notes receivables](notes%20receivable.md) ::@:: non-physical assets whose value is derived from a contractual claim <!--SR:!2024-12-22,61,270!2025-04-09,152,310-->
@@ -103,7 +103,7 @@ Assets are {@{all the things the business owns}@}. This will include {@{property
 5. [deferred tax](deferred%20tax.md) liabilities and deferred tax assets ::@:: notional assets or liabilities to reflect corporate income taxation on a basis that is the same or more similar to recognition of profits than the taxation treatment (≈ the matching principle vs. tax laws) <!--SR:!2025-02-20,114,290!2025-06-05,193,310-->
 6. [unearned revenue](deferral.md) for services paid for by customers but not yet provided ::@:: liabilities that arise when payment is received for goods or services that have yet to be delivered or fulfilled <!--SR:!2025-05-13,180,310!2025-07-16,215,290-->
 7. interests on [loan stock](debenture.md) ::@:: medium- to long-term debt instruments used by large companies to borrow money, at a fixed rate of interest <!--SR:!2024-12-19,70,310!2025-03-31,134,290-->
-8. creditors' equity ::@:: equivalent to liabilities (that excludes stockholders' equity), includes liabilities mentioned and not mentioned above (excluding stockholders' equity) <!--SR:!2025-03-30,144,310!2024-12-14,67,310-->
+8. creditors' equity ::@:: equivalent to liabilities (that excludes stockholders' equity), includes liabilities mentioned and not mentioned above (excluding stockholders' equity) <!--SR:!2025-03-30,144,310!2025-10-03,293,330-->
 
 ### net current assets
 

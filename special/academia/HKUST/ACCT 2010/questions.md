@@ -127,7 +127,7 @@ tags:
 > 2. balance sheet
 > 3. statement of cash flow
 >
-> - solution: {@{1, and also 3 if the revenues earned involve instantaneous transfer of cash}@} <!--SR:!2024-12-14,65,310-->
+> - solution: {@{1, and also 3 if the revenues earned involve instantaneous transfer of cash}@} <!--SR:!2025-09-25,285,330-->
 
 <!-- markdownlint MD028 -->
 

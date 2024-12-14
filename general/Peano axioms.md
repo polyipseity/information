@@ -11,7 +11,7 @@ tags:
 
 In [mathematical logic](mathematical%20logic.md), the __Peano axioms__ (/piˈɑːnoʊ/, \[peˈaːno\]), also known as {@{the __Dedekind–Peano axioms__ or the __Peano postulates__}@}, are {@{[axioms](axiom.md) for the [natural numbers](natural%20number.md) presented by the 19th-century Italian mathematician [Giuseppe Peano](Giuseppe%20Peano.md)}@}. These axioms have been used {@{nearly unchanged in a number of [metamathematical](metamathematics.md) investigations, including research into fundamental questions of whether [number theory](number%20theory.md) is [consistent](consistency.md) and [complete](completeness%20(logic).md)}@}. <!--SR:!2025-01-02,78,270!2025-01-12,83,285!2025-02-04,111,305-->
 
-The [axiomatization](axiomatic%20system.md#axiomatization) of [arithmetic](arithmetic.md) provided by Peano axioms is commonly called {@{__Peano arithmetic__}@}. <!--SR:!2024-12-14,73,325-->
+The [axiomatization](axiomatic%20system.md#axiomatization) of [arithmetic](arithmetic.md) provided by Peano axioms is commonly called {@{__Peano arithmetic__}@}. <!--SR:!2025-08-11,240,325-->
 
 The importance of formalizing [arithmetic](arithmetic.md) was not well appreciated until {@{the work of [Hermann Grassmann](Hermann%20Grassmann.md)}@}, who showed {@{in the 1860s that many facts in arithmetic could be derived from more basic facts about the [successor operation](successor%20function.md) and [induction](mathematical%20induction.md)}@}. In {@{1881, [Charles Sanders Peirce](Charles%20Sanders%20Peirce.md)}@} provided {@{an [axiomatization](axiomatic%20system.md#axiomatization) of natural-number arithmetic}@}. In {@{1888, [Richard Dedekind](Richard%20Dedekind.md)}@} proposed {@{another axiomatization of natural-number arithmetic}@}, and in {@{1889, Peano}@} published {@{a simplified version of them as a collection of axioms in his book _The principles of arithmetic presented by a new method_ ([Latin](Latin.md): _[Arithmetices principia, nova methodo exposita](arithmetices%20principia,%20nova%20methodo%20exposita.md)_)}@}. <!--SR:!2025-06-19,216,325!2025-03-15,140,305!2024-12-27,72,285!2024-12-20,79,325!2025-05-22,166,285!2025-02-20,114,305!2025-01-11,83,285!2025-01-08,84,285-->
 
@@ -72,7 +72,7 @@ If we use the second-order induction axiom, it is {@{possible to define [additio
 
 #### addition
 
-[Addition](addition.md#natural%20numbers) is {@{a function that [maps](map%20(mathematics).md) two natural numbers (two elements of __N__) to another one}@}. It is defined [recursively](recursion.md) as: {@{$${\begin{aligned}a+0&=a,&{\textrm {(1)} }\\a+S(b)&=S(a+b).&{\textrm {(2)} }\end{aligned} }$$}@} <!--SR:!2024-12-20,79,325!2024-12-14,73,325-->
+[Addition](addition.md#natural%20numbers) is {@{a function that [maps](map%20(mathematics).md) two natural numbers (two elements of __N__) to another one}@}. It is defined [recursively](recursion.md) as: {@{$${\begin{aligned}a+0&=a,&{\textrm {(1)} }\\a+S(b)&=S(a+b).&{\textrm {(2)} }\end{aligned} }$$}@} <!--SR:!2024-12-20,79,325!2025-11-11,332,345-->
 
 For example:
 
@@ -88,7 +88,7 @@ To {@{prove commutativity of addition}@}, first {@{prove $0+b=b$ and $S(a)+b=S(a
 
 Similarly, [multiplication](multiplication.md) is {@{a function mapping two natural numbers to another one}@}. Given {@{addition}@}, it is defined recursively as: {@{$${\begin{aligned}a\cdot 0&=0,\\a\cdot S(b)&=a+(a\cdot b).\end{aligned} }$$}@}. <!--SR:!2024-12-17,76,325!2025-09-28,299,345!2025-04-04,156,325-->
 
-It is easy to see that $S(0)$ is {@{the multiplicative [right identity](identity%20element.md): $$a\cdot S(0)=a+(a\cdot 0)=a+0=a$$}@}. <!--SR:!2024-12-14,74,325-->
+It is easy to see that $S(0)$ is {@{the multiplicative [right identity](identity%20element.md): $$a\cdot S(0)=a+(a\cdot 0)=a+0=a$$}@}. <!--SR:!2025-11-16,337,345-->
 
 To show that $S(0)$ is {@{also the multiplicative left identity requires the induction axiom due to the way multiplication is defined}@}: <!--SR:!2024-12-20,79,325-->
 
@@ -122,7 +122,7 @@ For any [predicate](predicate%20(mathematical%20logic).md) _φ_, if
 - axiom of induction condition with inequalities ::@:: for every _n_ ∈ __N__, if _φ_(_k_) is true for every _k_ ∈ __N__ such that _k_ ≤ _n_, then _φ_(_S_(_n_)) is true, <!--SR:!2025-05-31,201,325!2024-12-16,76,325-->
 - then for every _n_ ∈ __N__, _φ_(_n_) is true.
 
-This form of the induction axiom, called {@{_strong induction_, is a consequence of the standard formulation}@}, but is {@{often better suited for reasoning about the ≤ order}@}. For example, to {@{show that the naturals are [well-ordered](well-order.md)—every [nonempty](empty%20set.md) [subset](subset.md) of __N__ has a [least element](greatest%20element%20and%20least%20element.md)}@}—one can reason as follows. <!--SR:!2025-05-25,193,325!2025-06-19,215,325!2024-12-14,74,325-->
+This form of the induction axiom, called {@{_strong induction_, is a consequence of the standard formulation}@}, but is {@{often better suited for reasoning about the ≤ order}@}. For example, to {@{show that the naturals are [well-ordered](well-order.md)—every [nonempty](empty%20set.md) [subset](subset.md) of __N__ has a [least element](greatest%20element%20and%20least%20element.md)}@}—one can reason as follows. <!--SR:!2025-05-25,193,325!2025-06-19,215,325!2025-08-12,241,325-->
 
 - proving the naturals are well-ordered / base case ::@:: Let a nonempty _X_ ⊆ __N__ be given and assume _X_ has no least element. Because 0 is the least element of __N__, it must be that 0 ∉ _X_. <!--SR:!2025-03-01,128,305!2025-05-05,177,310-->
 - proving the naturals are well-ordered / induction ::@:: For any _n_ ∈ __N__, suppose for every _k_ ≤ _n_, _k_ ∉ _X_. Then _S_(_n_) ∉ _X_, for otherwise it would be the least element of _X_. <!--SR:!2025-02-05,111,305!2024-12-29,74,285-->

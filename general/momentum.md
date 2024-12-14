@@ -28,7 +28,7 @@ In [Newtonian mechanics](Newtonian%20mechanics.md), __momentum__ (pl.: {@{__mome
 
 ### conservation
 
-In {@{a [closed system](closed%20system.md) (one that does not exchange any matter with its surroundings and is not acted on by external forces)}@} the total momentum {@{remains constant}@}. This fact, known as {@{the __law of conservation of momentum__}@}, is implied by {@{[Newton's laws of motion](Newton's%20laws%20of%20motion.md)}@}. <!--SR:!2024-12-14,108,290!2025-05-15,231,330!2025-01-25,131,290!2025-05-13,231,330-->
+In {@{a [closed system](closed%20system.md) (one that does not exchange any matter with its surroundings and is not acted on by external forces)}@} the total momentum {@{remains constant}@}. This fact, known as {@{the __law of conservation of momentum__}@}, is implied by {@{[Newton's laws of motion](Newton's%20laws%20of%20motion.md)}@}. <!--SR:!2025-10-24,314,290!2025-05-15,231,330!2025-01-25,131,290!2025-05-13,231,330-->
 
 ## references
 

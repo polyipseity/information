@@ -35,7 +35,7 @@ English
 - [criterion](https://en.wiktionary.org/wiki/criterion) ::@:: (c\_n) A standard or test to judge and compare things. <!--SR:!2027-05-09,977,430!2025-08-27,409,350-->
 - [deliver](https://en.wiktionary.org/wiki/deliver) ::@:: (d\_r) To bring or transport something to its destination. <!--SR:!2025-10-25,473,396!2026-09-15,745,416-->
 - [diagnosis](https://en.wiktionary.org/wiki/diagnosis) ::@:: (d\_s) The process, or an instance of, of identification of the cause and nature of something. <!--SR:!2025-11-18,485,392!2026-11-28,838,433-->
-- [differentiate](https://en.wiktionary.org/wiki/differentiate) ::@:: (d\_e) To make different. <!--SR:!2025-03-02,328,344!2024-12-14,248,324-->
+- [differentiate](https://en.wiktionary.org/wiki/differentiate) ::@:: (d\_e) To make different. <!--SR:!2025-03-02,328,344!2027-12-28,1109,344-->
 - [dissipative](https://en.wiktionary.org/wiki/dissipative) ::@:: (d\_e) That dissipates or causes dissipation. <!--SR:!2025-04-06,356,344!2025-02-04,305,344-->
 - [esophagus](https://en.wiktionary.org/wiki/esophagus) ::@:: (e\_s) The tube that carries [food](../../../general/food.md) from the [pharynx](../../../general/pharynx.md) to the [stomach](../../../general/stomach.md), [American spelling](../../../general/American%20and%20British%20English%20spelling%20differences.md). <!--SR:!2027-02-08,793,324!2026-06-30,638,284-->
 - [exponentiation](https://en.wiktionary.org/wiki/exponentiation) ::@:: (e\_n) An [arithmetic operation](../../../general/arithmetic.md) involving multiplying a number by itself multiple times. <!--SR:!2025-02-18,319,344!2025-11-12,464,304-->
@@ -47,7 +47,7 @@ English
 - [guarantee](https://en.wiktionary.org/wiki/guarantee) ::@:: (g\_e) Assure that something will be done. <!--SR:!2025-04-11,337,363!2025-05-15,207,283-->
 - [hallucinate](https://en.wiktionary.org/wiki/hallucinate) ::@:: (h\_e) Perceive things that are not actually present. <!--SR:!2025-10-15,468,388!2026-11-06,723,348-->
 - [hydraulic](https://en.wiktionary.org/wiki/hydraulic) ::@:: (h\_c) Of or pertaining to [water](../../../general/water.md). <!--SR:!2026-10-20,808,432!2026-04-17,656,432-->
-- [imaginary](https://en.wiktionary.org/wiki/imaginary) ::@:: (i\_y) Existing only in the [imagination](../../../general/imagination.md). <!--SR:!2025-02-10,311,344!2024-12-14,271,344-->
+- [imaginary](https://en.wiktionary.org/wiki/imaginary) ::@:: (i\_y) Existing only in the [imagination](../../../general/imagination.md). <!--SR:!2025-02-10,311,344!2027-07-05,933,344-->
 - [incandescent](https://en.wiktionary.org/wiki/incandescent) ::@:: (i\_t) Emitting [light](../../../general/light.md) due to high [temperature](../../../general/temperature.md). <!--SR:!2026-02-06,547,324!2025-03-03,110,264-->
 - [infimum](https://en.wiktionary.org/wiki/infimum) ::@:: (i\_m) Given a [subset](../../../general/subset.md) $X$ of a [partially ordered set](../../../general/partially%20ordered%20set.md) $P$ with partial order $\ge$, the greatest element $y$ of $P$ such that every $x$ in $X$ satisfies $x \ge y$. <!--SR:!2025-06-30,389,390!2025-05-08,282,330-->
 - [intuition](https://en.wiktionary.org/wiki/intuition) ::@:: (i\_n) Acquiring [knowledge](../../../general/knowledge.md) without using conscious [reasoning](../../../general/reason.md). <!--SR:!2025-02-11,312,344!2025-03-05,334,344-->

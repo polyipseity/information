@@ -142,8 +142,8 @@ Some common tools are:
 
 - `objdump` ::@:: Dump information from object files (`.o`). Use `-d <file>` for disassembly, `-h <file>` for section headers, and add `-M intel` for outputting in the Intel syntax. <!--SR:!2025-01-17,99,325!2025-05-01,169,325-->
 - Radare2 (`r2`) ::@:: Display information from object files (`.o`). To use it interactively, simply pass the filepath to the program. To use it non-interactively, pass `-c "aaaa; pdf @ sym.main; q!"` before the filepath. Common useful commands include `aaaa`, `pdf @ sym.main`, `?`, `<command>?`, etc. <!--SR:!2025-05-29,186,270!2025-02-22,113,290-->
-- Ghidra ::@:: An open-source powerful decompiler and disassembler developed by the National Security Agency (NSA). <!--SR:!2024-12-14,80,343!2025-10-16,319,357-->
-- `file <file>` ::@:: Determine possible file types of `<file>`. <!--SR:!2024-12-14,80,337!2025-07-21,244,330-->
+- Ghidra ::@:: An open-source powerful decompiler and disassembler developed by the National Security Agency (NSA). <!--SR:!2025-12-31,382,363!2025-10-16,319,357-->
+- `file <file>` ::@:: Determine possible file types of `<file>`. <!--SR:!2025-12-20,371,357!2025-07-21,244,330-->
 - `strings <file>` ::@:: Print sequences of printable strings in `<file>`. To exclude tiny strings, add `-n <minimum string length>` before `<file>`. <!--SR:!2025-12-21,373,365!2025-12-07,362,365-->
 - `xxd <file>` ::@:: Make a hexdump. To reverse this process, add the `-r` option. <!--SR:!2024-12-16,82,345!2025-06-22,220,330-->
 

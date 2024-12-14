@@ -15,7 +15,7 @@ tags:
 
 The __fundamental accounting equation__, also called {@{the __balance sheet equation__}@}, is {@{the foundation for the [double-entry bookkeeping system](double-entry%20bookkeeping.md) and the cornerstone of the entire accounting science}@}. Like any equation, {@{each side will always be equal}@}. In the accounting equation, {@{every transaction will have a debit and credit entry, and the total debits (left side) will equal the total credits (right side)}@}. In other words, {@{the accounting equation will always be "in balance"}@}. <!--SR:!2025-07-05,220,330!2025-03-12,131,310!2025-08-12,251,330!2025-09-01,267,330!2025-08-14,252,330-->
 
-The equation can {@{take various forms}@}, including: <!--SR:!2024-12-14,67,310-->
+The equation can {@{take various forms}@}, including: <!--SR:!2025-10-01,291,330-->
 
 - the equation in its simplest form ::@:: $A=L+E$ (i.e. ${\text{Assets} }={\text{Liabilities} }+{\text{Equity} }$) <sup>[\[1\]](#^ref-1)</sup><sup>[\[2\]](#^ref-2)</sup> <!--SR:!2025-07-05,219,330!2025-09-20,281,330-->
 - $A=OE+L$ (i.e. ${\text{Assets} }={\text{Liabilities} }+{\text{Owner’s Equity} }$)

@@ -18,7 +18,7 @@ tags:
 ### statement for indefinite integrals
 
 1. conditions ::@:: Let $g: [a, b] \to I, f: I \to \mathbb{R}$. $I \subseteq \mathbb{R}$ is a real [interval](interval%20(mathematics).md). $f$ is [continuous](continuous%20function.md). $g$ is [differentiable](differentiable%20function.md) and $g'$ is [integrable](integral.md).<!-- flashcard 0f7756e3-85b4-48d0-a619-7d8062b916e1 --> <!--SR:!2025-01-12,169,274!2026-01-10,437,314-->
-2. result ::@:: $$\int \! f(g(x)) \cdot g'(x) \,\mathrm{d}x = \int \! f(u) \,\mathrm{d}u \qquad u := g(x), x \in [a, b]$$ <!--SR:!2025-10-22,426,310!2024-12-14,194,310-->
+2. result ::@:: $$\int \! f(g(x)) \cdot g'(x) \,\mathrm{d}x = \int \! f(u) \,\mathrm{d}u \qquad u := g(x), x \in [a, b]$$ <!--SR:!2025-10-22,426,310!2026-08-10,604,310-->
 
 ### proof
 

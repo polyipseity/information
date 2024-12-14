@@ -80,7 +80,7 @@ Intuitively, if a high-rise building is {@{a skier}@}, then {@{the building core
 
 Outriggers can {@{reduce the overturning moment in the core by transferring some moment to columns outside the core}@}. <!--SR:!2025-07-03,297,295-->
 
-For example, outriggers are used in {@{the [International Commerce Center](International%20Commerce%20Center.md)}@}. The building has {@{4 outriggers in 4 separate floors}@}. In each outrigger, {@{8 outriggers connect the core to the mega columns of the exterior structure, forming a hash (#) shape}@}. <!--SR:!2025-03-15,213,310!2024-12-14,146,295!2025-02-11,199,315-->
+For example, outriggers are used in {@{the [International Commerce Center](International%20Commerce%20Center.md)}@}. The building has {@{4 outriggers in 4 separate floors}@}. In each outrigger, {@{8 outriggers connect the core to the mega columns of the exterior structure, forming a hash (#) shape}@}. <!--SR:!2025-03-15,213,310!2026-02-18,431,295!2025-02-11,199,315-->
 
 #### exterior structures
 

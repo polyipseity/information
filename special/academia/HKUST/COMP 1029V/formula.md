@@ -72,7 +72,7 @@ return _chain.from_iterable(await _gather(
 - `^`→::@::←`*` <!--SR:!2024-12-26,250,330!2026-08-23,697,330-->
 - `*`→::@::←`/` <!--SR:!2026-11-14,758,330!2027-07-06,972,350-->
 - `/`→::@::←`+` <!--SR:!2025-01-14,265,330!2025-01-26,277,330-->
-- `+`→::@::←`-` <!--SR:!2024-12-24,251,330!2024-12-14,243,330-->
+- `+`→::@::←`-` <!--SR:!2024-12-24,251,330!2027-12-26,1107,350-->
 - `-`→::@::←_(end)_ <!--SR:!2025-02-13,292,330!2025-01-20,272,330-->
 
 <!--/pytextgen-->
@@ -263,7 +263,7 @@ return _chain.from_iterable(await _gather(
 - `LEFT(string, length)`→::@::←`LEN(string)` <!--SR:!2025-05-03,311,290!2025-01-10,192,230-->
 - `LEN(string)`→::@::←`LOWER(string)` <!--SR:!2025-01-29,192,270!2025-05-04,257,290-->
 - `LOWER(string)`→::@::←`RIGHT(string, length)` <!--SR:!2025-04-03,116,150!2026-01-30,426,250-->
-- `RIGHT(string, length)`→::@::←`SUBSTITUTE(string, old, new)` <!--SR:!2025-01-27,229,270!2024-12-14,172,250-->
+- `RIGHT(string, length)`→::@::←`SUBSTITUTE(string, old, new)` <!--SR:!2025-01-27,229,270!2026-02-17,430,250-->
 - `SUBSTITUTE(string, old, new)`→::@::←`UPPER(string)` <!--SR:!2025-08-04,291,230!2025-01-01,40,150-->
 - `UPPER(string)`→::@::←_(end)_ <!--SR:!2026-11-06,757,330!2025-01-24,240,290-->
 
@@ -347,7 +347,7 @@ return _chain.from_iterable(await _gather(
 - `AVERAGE(numbers...)`:@:average <!--SR:!2027-10-31,1060,350-->
 - `COUNTIF(values, criteria)`:@:number of `values` satisfying `criteria` <!--SR:!2025-01-22,272,330-->
 - `IF(boolean, value_if_true[, value_if_false = FALSE])`:@:`value_if_true` if `boolean` is true, otherwise `value_if_false`; can be nested <!--SR:!2025-01-05,258,330-->
-- `MAX(numbers...)`:@:maximum <!--SR:!2024-12-14,241,330-->
+- `MAX(numbers...)`:@:maximum <!--SR:!2027-12-16,1097,350-->
 - `MIN(numbers...)`:@:minimum <!--SR:!2027-02-10,789,330-->
 - `RANK(number, numbers...)`:@:rank of `number` in `numbers`, starting from 1 <!--SR:!2025-01-26,95,290-->
 - `STDEV(numbers...)`:@:standard deviation <!--SR:!2025-03-02,305,330-->
