@@ -393,6 +393,31 @@ The content is in teaching order.
 ## week 7 lecture 2
 
 - datetime: 2024-10-16T10:30:00+08:00/2024-10-16T11:50:00+08:00
+- [estimation theory](../../../../general/estimation%20theory.md) ::@:: It is a branch of statistics that deals with estimating the values of parameters based on measured empirical data that has a random component. The parameters describe an underlying physical setting in such a way that their value affects the distribution of the measured data. An _estimator_ attempts to approximate the unknown parameters using the measurements.
+- [statistical population](../../../../general/statistical%20population.md) ::@:: It is a set of similar items or events which is of interest for some question or experiment. <p> A statistical population can be a group of existing objects (e.g. the set of all stars within the Milky Way galaxy) or a hypothetical and potentially infinite group of objects conceived as a generalization from experience (e.g. the set of all possible hands in a game of poker).
+  - [statistical parameter](../../../../general/statistical%20parameter.md) ::@:: It is any quantity of a _statistical population_ that summarizes or describes an aspect of the population, such as a mean or a standard deviation.
+- [sampling](../../../../general/sampling%20(statistics).md)
+  - [statistic](../../../../general/statistic.md) ::@:: It is any quantity computed from values in a _sample_ which is considered for a statistical purpose. <p> Statistical purposes include estimating a population parameter, describing a sample, or evaluating a hypothesis.
+- [estimator](../../../../general/estimator.md) ::@:: It is a rule for calculating an estimate of a given quantity based on observed data: thus the rule (the estimator), the quantity of interest (the estimand) and its result (the estimate) are distinguished.[1] For example, the sample mean is a commonly used estimator of the population mean. <p> An estimator is itself a _random variable_.
+  - [estimate](../../../../general/estimation.md) ::@:: It is is a value that is usable for some purpose even if input data may be incomplete, uncertain, or unstable.
+  - estimator / notation ::@:: The parameter to be estimated (_estimand_), its _estimator_, and its _estimate_ (an realization of the estimator) usually have slightly different notations. <p> Usually, an estimate is uncapitalized compared to its corresponding estimator.
+    - estimator / notation / examples ::@:: Examples: <br/> $\mu, \overline X, \overline x$ are respectively the population mean, sample mean, and calculated sample mean of actual samples. <br/> $\operatorname E\left[X^k\right], \overline {X^k}, \overline {x^k}$ are respectively the _k_-th population moment about the origin, _k_-th sample moment about the origin, and calculated _k_-th population moment about the origin of actual samples. <br/> $\sigma^2, S_n^2/S_{n - 1}^2, s_n^2/s_{n - 1}^2$ are respectively the population variance, _uncorrected/corrected_ sample variance, and calculated _uncorrected/corrected_ sample variance of actual samples. <br/> $\theta, \hat \theta, \theta$ are respectively a generic population parameter of a CDF $F(x; \theta, \ldots)$, its estimator, and its estimate given actual samples. Notice that the notations for the first and the last are the same.
+- [sample mean](sample%20mean%20and%20covariance.md)
+  - sample mean / equation ::@:: Given _N_ samples of a random variable _X_, its _sample mean_ is: $$\overline X = \frac 1 N \sum_{k = 1}^N X_k \,.$$
+  - sample mean / properties ::@:: It is _unbiased_: $\operatorname E[\overline X] = \mu_X$. It has a variance that is inversely proportional to the number of samples$a: $\operatorname{Var}(X) = \frac {\sigma^2} N$.
+- [sample covariance](sample%20mean%20and%20covariance.md)
+  - sample covariance / equation ::@:: Given _N_ samples for each of the random variables _X_ and _Y_, their _sample covariance_ is: $$\operatorname{Cov}(X, Y) = \operatorname{Cov}(Y, X) = \frac 1 {N - 1} \sum_{k = 1}^N (X_k - \overline X) (Y_k - \overline Y) \,.$$ If _X_ and _Y_ are the same random variable _Z_, then it is also the _sample variance_ of _Z_: $$S_{Z, n - 1}^2 = \operatorname{Cov}(Z, Z) = \frac 1 {N - 1} \sum_{k = 1}^N (Z_k - \overline X)^2 \,.$$
+  - [sample variance](../../../../general/sample%20variance.md)
+    - sample variance / properties ::@:: It is _unbiased_ (for the _corrected_ one only): $\operatorname E\left[S_{X, n - 1}^2\right] = \sigma_X^2$.
+- sample moment
+  - sample moment / equations ::@:: Given _N_ samples of a random variable _X_, its _k-th raw sample moment_ and _k-th central sample moment_ are respectively: $$\begin{aligned} \overline {X^k} & = \frac 1 N \sum_{i = 1}^N X_i^k \\ \hat \mu_k & = \frac 1 N \sum_{i = 1}^N (X_i - \overline X)^k \,. \end{aligned}$$
+  - sample moment / properties ::@:: It is unbiased (for the _central_ one only): $\operatorname E\left[\overline {X^k}\right] = \operatorname E\left[X^k\right]$.
+- estimation theory
+  - estimation theory / types ::@:: point estimation, interval estimation
+- [point estimation](../../../../general/point%20estimation.md) ::@:: It involves the use of sample data to calculate a single value (known as a point estimate since it identifies a point in some parameter space) which is to serve as a "best guess" or "best estimate" of an unknown population parameter (for example, the population mean).
+  - point estimation / methods ::@:: method of moments estimation (MME), maximum likelihood estimation (MLE; untaught), Bayesian estimation (untaught), etc.
+- [interval estimation](../../../../general/interval%20estimation.md) ::@:: It is is the use of sample data to estimate an interval of possible values of a parameter of interest.
+  - interval estimation / methods ::@:: for the population mean, for the population variance, etc.
 
 ## week 7 tutorial
 
@@ -424,3 +449,77 @@ The content is in teaching order.
   - Inputted $\binom {100} 1$ as 1 instead of 100 into the calculator when evaluating a binomial distribution...
     - $\binom {100} 1$ (-1) ::@:: It evaluates to 100, not 1.
   - Simplified $\frac 4 {b^2} \left(b\right)$ into $\frac 4 {b^3}$ instead of $\frac 4 b$... (-1)
+
+## week 8 lecture
+
+- datetime: 2024-10-21T10:30:00+08:00/2024-10-21T11:50:00+08:00
+- [point estimation](../../../../general/point%20estimation.md)
+  - point estimation / motivation ::@:: Assume there is a random variable _X_. We know its probability distribution type $F$ (CDF) but not all of its parameters $\theta, \ldots$: $X \sim F(x; \theta, \ldots)$. <p> From a sample of _X_, we want to estimate the unknown parameters.
+
+## week 8 lecture 2
+
+- datetime: 2024-10-23T10:30:00+08:00/2024-10-23T11:50:00+08:00
+
+## week 8 tutorial
+
+- datetime: 2024-10-25T09:30:00+08:00/2024-10-25T10:20:00+08:00
+
+## week 9 lecture
+
+- datetime: 2024-10-28T10:30:00+08:00/2024-10-28T11:50:00+08:00
+
+## week 9 lecture 2
+
+- datetime: 2024-10-30T10:30:00+08:00/2024-10-30T11:50:00+08:00
+
+## week 9 tutorial
+
+- datetime: 2024-11-01T09:30:00+08:00/2024-11-01T10:20:00+08:00
+
+## week 10 lecture
+
+- datetime: 2024-11-04T10:30:00+08:00/2024-11-04T11:50:00+08:00
+
+## week 10 lecture 2
+
+- datetime: 2024-11-06T10:30:00+08:00/2024-11-06T11:50:00+08:00
+
+## week 10 tutorial
+
+- datetime: 2024-11-08T09:30:00+08:00/2024-11-08T10:20:00+08:00
+
+## week 11 lecture
+
+- datetime: 2024-11-11T10:30:00+08:00/2024-11-11T11:50:00+08:00
+
+## week 11 lecture 2
+
+- datetime: 2024-11-13T10:30:00+08:00/2024-11-13T11:50:00+08:00
+
+## week 11 tutorial
+
+- datetime: 2024-11-15T09:30:00+08:00/2024-11-15T10:20:00+08:00
+
+## week 12 lecture
+
+- datetime: 2024-11-18T10:30:00+08:00/2024-11-18T11:50:00+08:00
+
+## week 12 lecture 2
+
+- datetime: 2024-11-20T10:30:00+08:00/2024-11-20T11:50:00+08:00
+
+## week 12 tutorial
+
+- datetime: 2024-11-22T09:30:00+08:00/2024-11-22T10:20:00+08:00
+
+## week 13 lecture
+
+- datetime: 2024-11-25T10:30:00+08:00/2024-11-25T11:50:00+08:00
+
+## week 13 lecture 2
+
+- datetime: 2024-11-27T10:30:00+08:00/2024-11-27T11:50:00+08:00
+
+## week 13 tutorial
+
+- datetime: 2024-11-29T09:30:00+08:00/2024-11-29T10:20:00+08:00
