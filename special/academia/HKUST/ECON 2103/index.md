@@ -610,3 +610,52 @@ The content is in teaching order.
   - descriptive, normative (-1, MCQ) ::@:: Economist A thinks taxing consumption but not saving increases saving. Economist B thinks taxing consumption or saving does not affect much. <p> In this case, they disagree about the validity of a descriptive statement: taxing consumption but not saving increases saving. And this disagreement itself is also normative.
   - Why do economists make assumptions? (-1, MCQ) ::@:: It is to focus on relevant factors and make the real world easier to understand; but not for making it easier to teach economics (I still disagree with this being false...) or making alternative policies that are incomplete to be criticized.
   - banning ticket scalping (0, MCQ) ::@:: The question asked about which of the following is a _non_-effect of banning ticket scalping: decrease length of lines (length of queuing for tickets; maps to quantity demanded), decrease audience (number of people who actually gets the ticket; maps to quantity supplied), increase ticket prices, or decrease tax revenue. <p> The answer was decrease lines. But increase ticket prices does not make sense either. The instructor was also confused, and suggested that it may had been caused by incomplete modification of past paper questions.
+- check
+  - note: Sign up a timeslot on Canvas.
+  - datetime: 2024-11-22T15:30:00+08:00/2024-11-22T17:30:00+08:00, PT2H
+    - timeslot: 2024-11-22T16:20:00+08:00/2024-11-22T16:30:00+08:00, PT10M
+  - venue: Room 5047, LSK Bldg
+
+## final examination
+
+- datetime: 2024-12-18T09:30:00+08:00/2024-12-18T11:30:00+08:00, PT2H
+- venue: Lecture Theater A (401)
+- format: calculator with no information storage feature, closed book
+- grades: TODO/100
+  - statistics
+    - mean: TODO
+    - standard deviation: TODO
+    - low: TODO
+    - lower quartile: TODO
+    - median: TODO
+    - upper quartile: TODO
+    - high: TODO
+    - distribution: TODO
+- report
+  - TODO
+- check
+  - TODO
+
+> __ECON2103 - Regarding the Final Exam on Wednesday, 18 December__
+>
+> Dear all students,
+>
+> - On Wednesday, 18 December, the final exam will be held at the Lecture Theater A (LTA) from 9:30 am to 11:30 pm and last for 120 minutes.  
+> - TA will announce the seating plan later.
+> - It will be a closed-book exam, and no notes are allowed.
+> - There are around 4 short questions and 2 long questions (tentatively, I am still working on them), which require written answers using words/graphs/equations.
+> - Coverage: Cumulative, from the 1st lecture to the last, that is:
+>     1. (i) Based on the 10th edition: Ch1 (Ten Principles of Economics), Ch2 (Thinking Like an Economist), Ch3 (Interdependence and the Gains from Trade), Ch4 (The Market Forces of Supply and Demand), Ch5 (Elasticity and Its Application), Ch6 (Supply, Demand, and Government Policies), Ch7 (Consumers, Producers, and the Efficiency of Markets), Ch8 (Application: The Costs of Taxation), Ch10 (Externalities), Ch11 (Public Goods and Common Resources, Ch14 (The Cost of Production), Ch15 (Firms in Competitive Markets), Ch16 (Monopoly), Ch18 (Oligopoly);
+>     2. (ii) Based on the 9th edition: Ch1 (Ten Principles of Economics), Ch2 (Thinking Like an Economist), Ch3 (Interdependence and the Gains from Trade), Ch4 (The Market Forces of Supply and Demand), Ch5 (Elasticity and Its Application), Ch6 (Supply, Demand, and Government Policies), Ch7 (Consumers, Producers, and the Efficiency of Markets), Ch8 (Application: The Costs of Taxation), Ch10 (Externalities), Ch11 (Public Goods and Common Resources, Ch13 (The Cost of Production), Ch14 (Firms in Competitive Markets), Ch15 (Monopoly), Ch17 (Oligopoly);
+>     3. All materials, including PPT, textbooks, problem sets, and tutorial materials, will be covered.
+> - You can use a simple calculator during the exam. A simple calculator is one with a simple calculation function ONLY. You cannot use the calculator on a mobile phone or tablet or a calculator with an information storage feature.
+> - You should always keep your mobile phone in your backpack or bag.
+> - Please bring your HKUST Student ID card for identification purposes. Should you be unable to provide your HKUST student identification, I may ban you from the exam.
+> - Any cheating instances will be punished, and I will report them to the university.
+>
+> If you have questions or want to clarify anything, please contact me.
+>
+> Thank you very much.
+>
+> Best, <br/>
+> \(redacted\)

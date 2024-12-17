@@ -577,9 +577,21 @@ The content is in teaching order.
 
 - datetime: 2024-10-18T18:00:00+08:00/2024-10-18T21:00:00+08:00, PT3H
 - venue: Lecture Theater C
-- grades: ?/30
+- format: closed book
+- grades: TODO/30
+  - statistics
+    - mean: TODO
+    - standard deviation: TODO
+    - low: TODO
+    - lower quartile: TODO
+    - median: TODO
+    - upper quartile: TODO
+    - high: TODO
+    - distribution: TODO
 - report
   - TODO
+- check
+  - note: You will receive a scanned copy of your examination. Send email to Amir to appeal.
 - materials
   - [lecture video](https://youtu.be/eLwNjIOM8QE)
   - [midterm examination](https://canvas.ust.hk/courses/58174/modules/items/1444251)
@@ -1133,4 +1145,46 @@ The content is in teaching order.
 - [questions/2024-11-27 TA session](questions/2024-11-27%20TA%20session.md)
 - [week 10 problem set](questions/week%2010%20problem%20set.md)
 - materials
-  - lecture video: missing
+  - [lecture video](https://youtu.be/ib3lByadEvI)
+
+## week 14 TA session
+
+- datetime: 2024-12-06T16:00:00+08:00/2024-12-16:50:00+08:00
+- topic: solving weekly problem set 11
+- [questions/2024-12-06 TA session](questions/2024-12-06%20TA%20session.md)
+- [week 11 problem set](questions/week%2011%20problem%20set.md)
+- materials
+  - [lecture video](https://youtu.be/S7l6OKfqFb4)
+
+## week 15 TA session
+
+- datetime: 2024-12-14T16:00:00+08:00/2024-12-14T16:50:00+08:00
+- topic: solving weekly problem set 10, 12
+- [questions/2024-12-14 TA session](questions/2024-12-14%20TA%20session.md)
+- [week 10 problem set](questions/week%2010%20problem%20set.md)
+- [week 12 problem set](questions/week%2012%20problem%20set.md)
+- materials
+  - [lecture video](https://youtu.be/CnG19S0ifu8)
+
+## final examination
+
+- datetime: 2024-12-20T16:30:00+08:00/2024-12-20T19:00:00+08:00, PT2H30M
+- venue: \[SEAFRONT\]TST Sports Ctr ARENA
+- format: closed book
+- grades: TODO/30
+  - statistics
+    - mean: TODO
+    - standard deviation: TODO
+    - low: TODO
+    - lower quartile: TODO
+    - median: TODO
+    - upper quartile: TODO
+    - high: TODO
+    - distribution: TODO
+- report
+  - TODO
+- check
+  - note: You will receive a scanned copy of your examination. Send email to Amir to appeal.
+- materials
+  - lecture video: TODO
+  - final examination: TODO

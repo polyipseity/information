@@ -68,6 +68,8 @@ As Amir likes to assign many questions (e.g. 425 questions in a week), they are 
 - [2024-11-25 tutorial](2024-11-25%20tutorial.md)
 - [2024-11-27 TA session](2024-11-27%20TA%20session.md)
 - [2024-11-27](2024-11-27.md)
+- [2024-12-06 TA session](2024-12-06%20TA%20session.md)
+- [2024-12-14 TA session](2024-12-14%20TA%20session.md)
 
 ## weekly problem sets
 

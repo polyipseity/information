@@ -37,6 +37,11 @@ The content is in teaching order.
   - syllabus / inferential statistics: estimation of parameters: point estimation, interval estimation → hypothesis testing → simple linear regression → other topics: goodness of fit test, etc.
 - [assignments](assignments/)
 
+## children
+
+- [MATH 2411 final examination cheatsheet](MATH%202411%20final%20examination%20cheatsheet.pdf)
+- [MATH 2411 midterm examination cheatsheet](MATH%202411%20midterm%20examination%20cheatsheet.pdf)
+
 ## week 1 lecture
 
 - datetime: 2024-09-02T10:30:00+08:00/2024-09-02T11:50:00+08:00
@@ -450,6 +455,9 @@ The content is in teaching order.
   - Inputted $\binom {100} 1$ as 1 instead of 100 into the calculator when evaluating a binomial distribution...
     - $\binom {100} 1$ (-1) ::@:: It evaluates to 100, not 1.
   - Simplified $\frac 4 {b^2} \left(b\right)$ into $\frac 4 {b^3}$ instead of $\frac 4 b$... (-1)
+- check
+  - datetime: 2024-10-29T10:00:00+08:00/2024-10-29T11:00:00+08:00, PT1H
+  - venue: Room 3472 (Lift 25-26), Academic Building
 
 ## week 8 lecture
 
@@ -681,5 +689,44 @@ The content is in teaching order.
 - datetime: 2024-11-29T09:30:00+08:00/2024-11-29T10:20:00+08:00
 
 ## final examination
+
+- datetime: 2024-12-14T08:30:00+08:00/2024-12-14T11:00:00+08:00, PT2H30M
+- venue: S H Ho Sports Hall
+- format: closed book, calculator, 2 sides of a A4-sized cheatsheet
+  - [cheatsheet](MATH%202411%20final%20examination%20cheatsheet.pdf)
+- grades: TODO/100
+  - statistics
+    - mean: TODO
+    - standard deviation: TODO
+    - low: TODO
+    - lower quartile: TODO
+    - median: TODO
+    - upper quartile: TODO
+    - high: TODO
+    - distribution: TODO
+- report
+  - TODO
+- check
+  - datetime: 2024-12-20T14:30:00+08:00/2024-12-20T16:00:00+08:00, PT1H30M
+  - venue: Room 1410 (Lift 25-26), Academic Building
+
+> __Announcement on MATH 2411 Final Exam \[Fall 2024\]__
+>
+> __<u>MATH 2411 Final Exam \[Fall 2024\]</u>__ <br/>
+> Time: __16th December, 2024 (Monday), 8:30 am - 11:00 am__. (EARLY in the morning) <br/>
+> Venue: __S. H. Ho Sports Hall__
+>
+> Several things to note:
+>
+> - __You are advised to arrive before 8:20 am__. Please take your __student ID card__ with you. __If you are late for 30 minutes or more, you will NOT be admitted to the examination.__
+> - You are NOT allowed to leave the exam venue in the first 30 minutes or the last 20 minutes during the exam.
+> - If you need to go to toilet during the exam, you should raise your hand and remain seated first. The invigilator will bring your ID card to the Entrance for queuing.
+> - Each of you has been assigned a unique seat number. [__<u>Seating plan</u>__](https://canvas.ust.hk/courses/59562/files/9905191 "Seating Plan -L1.pdf") and [__<u>floor plan of the venue</u>__](https://canvas.ust.hk/courses/59562/files/9905192 "HALL-MATH2411.pdf") are attached.
+> - __Coverage__: Chapter 2 to Chapter 6. The materials which have been covered in midterm will be examined less. The software __R__ will NOT be tested. Optional topics such as Central Limit Theorem, Fisher z-transformation will NOT be tested.
+> - __Format__: Short questions + Long questions.  For short questions, give your answers directly; for long questions, you need show ALL your working steps to receive full marks.
+> - The final exam is a closed book examination. However, you are allowed to bring <u>a cheat sheet: one piece of A4 paper (double sided), printed or handwritten</u>. All the papers, including your cheat sheet and scratch paper will be collected when the exam ends, and you can take your cheat sheet back during the __Paper Checking Session \[Time/Date: 14:30-16:00, Dec 20, 2024 (Fri); Venue:   Room 1410 (Lifts 25/26) \]__.
+> - You can bring ONE calculator. No restriction of the model.
+> - Scratch paper will be provided. Do not use your own scratch\blank paper.
+> - Necessary statistical tables of the quantiles will be provided. Use the most appropriate values from the table and indicate in your answer which values you have used.
 
 ## aftermath
