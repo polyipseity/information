@@ -199,14 +199,14 @@ return _chain.from_iterable(await _gather(
 - _(begin)_→::@::←`NOT(boolean)` <!--SR:!2025-01-07,260,330!2025-03-01,304,330-->
 - `NOT(boolean)`→::@::←`AND(booleans...)` <!--SR:!2026-06-10,643,330!2025-02-09,285,330-->
 - `AND(booleans...)`→::@::←`OR(booleans...)` <!--SR:!2027-12-02,1087,350!2026-09-20,720,330-->
-- `OR(booleans...)`→::@::←_(end)_ <!--SR:!2024-12-16,242,330!2025-01-24,272,330-->
+- `OR(booleans...)`→::@::←_(end)_ <!--SR:!2027-12-23,1101,350!2025-01-24,272,330-->
 
 <!--/pytextgen-->
 
 <!--pytextgen generate section="ee13"--><!-- The following content is generated at 2024-02-05T12:43:07.023980+08:00. Any edits will be overridden! -->
 
 - `NOT(boolean)`:@:negate <!--SR:!2025-01-16,269,330-->
-- `AND(booleans...)`:@:every input is true <!--SR:!2024-12-16,244,330-->
+- `AND(booleans...)`:@:every input is true <!--SR:!2028-01-01,1110,350-->
 - `OR(booleans...)`:@:there exists true inputs <!--SR:!2025-02-10,289,330-->
 
 <!--/pytextgen-->
@@ -333,7 +333,7 @@ return _chain.from_iterable(await _gather(
 - _(begin)_→::@::←`AVERAGE(numbers...)` <!--SR:!2025-12-27,485,290!2027-11-05,1067,350-->
 - `AVERAGE(numbers...)`→::@::←`COUNTIF(values, criteria)` <!--SR:!2025-02-27,257,290!2025-04-28,259,290-->
 - `COUNTIF(values, criteria)`→::@::←`IF(boolean, value_if_true[, value_if_false = FALSE])` <!--SR:!2026-07-10,608,310!2025-03-09,231,290-->
-- `IF(boolean, value_if_true[, value_if_false = FALSE])`→::@::←`MAX(numbers...)` <!--SR:!2024-12-17,178,230!2024-12-26,211,270-->
+- `IF(boolean, value_if_true[, value_if_false = FALSE])`→::@::←`MAX(numbers...)` <!--SR:!2026-07-19,579,250!2024-12-26,211,270-->
 - `MAX(numbers...)`→::@::←`MIN(numbers...)` <!--SR:!2024-12-28,255,330!2027-11-18,1078,350-->
 - `MIN(numbers...)`→::@::←`RANK(number, numbers...)` <!--SR:!2025-01-23,171,210!2025-04-21,291,270-->
 - `RANK(number, numbers...)`→::@::←`STDEV(numbers...)` <!--SR:!2025-04-25,276,250!2025-08-22,358,270-->

@@ -13,7 +13,7 @@ tags:
 English
 
 - [Brønsted-Lowry acid](https://en.wiktionary.org/wiki/Brønsted-Lowry_acid) ::@:: (B\_y a\_d) A [chemical species](../../../general/chemical%20species.md) that can act as a donor of [protons](../../../general/proton.md). <!--SR:!2025-02-16,297,363!2027-01-20,784,343-->
-- [Brønsted-Lowry base](https://en.wiktionary.org/wiki/Brønsted-Lowry_base) ::@:: (B\_y b\_e) A [chemical species](../../../general/chemical%20species.md) that can act as an acceptor of [protons](../../../general/proton.md). <!--SR:!2024-12-15,254,363!2026-11-19,747,343-->
+- [Brønsted-Lowry base](https://en.wiktionary.org/wiki/Brønsted-Lowry_base) ::@:: (B\_y b\_e) A [chemical species](../../../general/chemical%20species.md) that can act as an acceptor of [protons](../../../general/proton.md). <!--SR:!2028-06-04,1265,383!2026-11-19,747,343-->
 - [Thursday](https://en.wiktionary.org/wiki/Thursday) ::@:: (T\_y) The 5th day of the week in many religious traditions, and the 4th day of the ISO 8601 week. <!--SR:!2026-05-03,596,396!2025-03-05,234,356-->
 - [Wronskian](https://en.wiktionary.org/wiki/Wronskian) ::@:: (W\_n) The [determinant](../../../general/deteriminant.md) formed from $n$ [functions](../../../general/function%20(mathematics).md) and their first $n - 1$ [derivatives](../../../general/derivative.md). <!--SR:!2025-03-03,332,344!2025-01-28,298,344-->
 - [accommodate](https://en.wiktionary.org/wiki/accommodate) ::@:: (a\_e) To adapt. <!--SR:!2025-01-23,293,344!2025-01-29,85,264-->
@@ -39,7 +39,7 @@ English
 - [dissipative](https://en.wiktionary.org/wiki/dissipative) ::@:: (d\_e) That dissipates or causes dissipation. <!--SR:!2025-04-06,356,344!2025-02-04,305,344-->
 - [esophagus](https://en.wiktionary.org/wiki/esophagus) ::@:: (e\_s) The tube that carries [food](../../../general/food.md) from the [pharynx](../../../general/pharynx.md) to the [stomach](../../../general/stomach.md), [American spelling](../../../general/American%20and%20British%20English%20spelling%20differences.md). <!--SR:!2027-02-08,793,324!2026-06-30,638,284-->
 - [exponentiation](https://en.wiktionary.org/wiki/exponentiation) ::@:: (e\_n) An [arithmetic operation](../../../general/arithmetic.md) involving multiplying a number by itself multiple times. <!--SR:!2025-02-18,319,344!2025-11-12,464,304-->
-- [fiancé](https://en.wiktionary.org/wiki/fiancé) ::@:: (f\_é) A [man](../../../general/man.md) who is [engaged](../../../general/engagement.md) to be [married](../../../general/marriage.md). <!--SR:!2024-12-15,272,344!2025-02-20,321,344-->
+- [fiancé](https://en.wiktionary.org/wiki/fiancé) ::@:: (f\_é) A [man](../../../general/man.md) who is [engaged](../../../general/engagement.md) to be [married](../../../general/marriage.md). <!--SR:!2027-07-11,936,344!2025-02-20,321,344-->
 - [fiancée](https://en.wiktionary.org/wiki/fiancée) ::@:: (f\_é) A [woman](../../../general/woman.md) who is [engaged](../../../general/engagement.md) to be [married](../../../general/marriage.md). <!--SR:!2027-02-09,862,344!2025-04-07,357,344-->
 - [finance](https://en.wiktionary.org/wiki/finance) ::@:: (f\_e) The study of [money](../../../general/money.md) and [capital assets](../../../general/capital%20asset.md). <!--SR:!2025-02-15,316,344!2025-01-24,294,344-->
 - [fomite](https://en.wiktionary.org/wiki/fomite) ::@:: (f\_e) An inanimate object that can carry infectious agents to transmit between hosts. <!--SR:!2025-11-15,454,376!2025-09-27,447,396-->

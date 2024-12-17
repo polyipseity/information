@@ -26,7 +26,7 @@ Hence, foundation-wise, low-rise buildings are {@{supported by shallow foundatio
 
 The structural system affects {@{the load distribution}@}. For example, a {@{structural steel undergoing overturning due to wind}@} would experience {@{tension at the wind-facing side and compression on the other side}@}. A {@{reinforced concrete (concrete with steel bars)}@} would experience the same thing, but {@{steel bars bear most of the tension while concrete bears most of the compression and the heavy vertical loading}@}. <!--SR:!2025-02-05,188,315!2026-06-10,553,315!2025-06-07,297,335!2026-05-27,547,315!2025-05-10,230,275-->
 
-We can {@{quantify}@} overturning. The {@{lateral stiffness}@} of a building is defined as {@{the force divided by the horizontal displacement at the building top, and has a unit of kN/mm}@}, somewhat similar to {@{[elastic modulus](elastic%20modulus.md)}@}. The aim is to {@{increase the lateral stiffness, which involves making the building stiff and strong}@}. <!--SR:!2025-04-19,259,335!2025-04-18,258,335!2024-12-16,148,295!2025-01-13,179,315!2025-05-17,282,335-->
+We can {@{quantify}@} overturning. The {@{lateral stiffness}@} of a building is defined as {@{the force divided by the horizontal displacement at the building top, and has a unit of kN/mm}@}, somewhat similar to {@{[elastic modulus](elastic%20modulus.md)}@}. The aim is to {@{increase the lateral stiffness, which involves making the building stiff and strong}@}. <!--SR:!2025-04-19,259,335!2025-04-18,258,335!2026-03-01,439,295!2025-01-13,179,315!2025-05-17,282,335-->
 
 ### classification
 
@@ -65,7 +65,7 @@ The following interior structures are possible.
 
 - _(begin)_→::@::←[braced frame](braced%20frame.md) <!--SR:!2025-03-13,161,270!2025-01-16,172,315-->
 - [braced frame](braced%20frame.md)→::@::←[hinged frame](hinged%20frame.md) <!--SR:!2025-01-16,108,235!2025-01-22,106,235-->
-- [hinged frame](hinged%20frame.md)→::@::←[outrigger](#outrigger) <!--SR:!2024-12-16,43,150!2025-01-21,45,175-->
+- [hinged frame](hinged%20frame.md)→::@::←[outrigger](#outrigger) <!--SR:!2025-02-23,68,150!2025-01-21,45,175-->
 - [outrigger](#outrigger)→::@::←[rigid frame](rigid%20frame.md) <!--SR:!2025-05-25,238,275!2025-01-02,71,195-->
 - [rigid frame](rigid%20frame.md)→::@::←[shear-walled frame](#sheared-walled%20frame): [rigid frame](rigid%20frame.md) + [shear wall](shear%20wall.md) <!--SR:!2025-11-02,328,255!2025-08-02,273,255-->
 - [shear-walled frame](#sheared-walled%20frame): [rigid frame](rigid%20frame.md) + [shear wall](shear%20wall.md)→::@::←_(end)_ <!--SR:!2025-01-27,181,315!2025-03-17,170,255-->
@@ -119,7 +119,7 @@ return await memorize_seq(
 - [buttress](buttress.md)→::@::←[diagrid](diagrid.md) <!--SR:!2025-07-03,224,235!2025-01-12,130,315-->
 - [diagrid](diagrid.md)→::@::←[exoskeleton](exoskeleton.md) <!--SR:!2025-04-14,215,275!2025-07-19,242,295-->
 - [exoskeleton](exoskeleton.md)→::@::←[space truss](space%20frame.md) <!--SR:!2025-01-03,142,255!2025-04-12,159,235-->
-- [space truss](space%20frame.md)→::@::←[superframe](superframe.md) <!--SR:!2024-12-17,143,295!2025-05-07,216,275-->
+- [space truss](space%20frame.md)→::@::←[superframe](superframe.md) <!--SR:!2026-02-12,422,295!2025-05-07,216,275-->
 - [superframe](superframe.md)→::@::←[tube](tube%20(structure).md) <!--SR:!2025-02-14,148,275!2025-01-19,84,195-->
 - [tube](tube%20(structure).md)→::@::←_(end)_ <!--SR:!2025-03-24,220,315!2025-03-17,215,315-->
 

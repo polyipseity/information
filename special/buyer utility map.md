@@ -90,12 +90,12 @@ simplicity: remove complexity or hassle
 
 <!--pytextgen generate section="aa92"--><!-- The following content is generated at 2024-04-22T01:24:34.799107+08:00. Any edits will be overridden! -->
 
-- _(begin)_→::@::←convenience: ease of spatial and temporal accessibility <!--SR:!2024-12-25,151,259!2024-12-17,166,310-->
+- _(begin)_→::@::←convenience: ease of spatial and temporal accessibility <!--SR:!2024-12-25,151,259!2026-12-02,715,330-->
 - convenience: ease of spatial and temporal accessibility→::@::←environmental friendliness <!--SR:!2025-05-05,242,279!2026-03-19,467,299-->
 - environmental friendliness→::@::←fun and image: conveyed feel, look, or attitude <!--SR:!2025-11-23,358,259!2025-04-17,163,239-->
 - fun and image: conveyed feel, look, or attitude→::@::←productivity: less effort, time, or money <!--SR:!2025-01-18,152,239!2025-01-03,134,239-->
 - productivity: less effort, time, or money→::@::←risk reduction: financial, physical, reputational <!--SR:!2025-08-16,284,250!2025-06-23,258,259-->
-- risk reduction: financial, physical, reputational→::@::←simplicity: remove complexity or hassle <!--SR:!2025-03-19,127,210!2024-12-15,147,259-->
+- risk reduction: financial, physical, reputational→::@::←simplicity: remove complexity or hassle <!--SR:!2025-03-19,127,210!2026-01-03,382,259-->
 - simplicity: remove complexity or hassle→::@::←_(end)_ <!--SR:!2026-05-02,505,310!2025-09-10,337,299-->
 
 <!--/pytextgen-->

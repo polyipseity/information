@@ -80,7 +80,7 @@ The tree will {@{have `n+2` nodes, numbered from `1` to `n+2`}@}. For {@{each no
 >  5     {@{<i>degree</i>[<i>i</i>] ← 1}@}
 >  6 {@{<b>for</b> each value <i>i</i> in <i>a</i>}@} <b>do</b>
 >  7     {@{<i>degree</i>[<i>i</i>] ← <i>degree</i>[<i>i</i>] + 1}@}
-> </pre> <!--SR:!2024-12-15,19,347!2025-03-12,88,367!2024-12-15,19,347!2025-03-12,88,367!2025-03-11,87,367!2024-12-15,19,347!2024-12-15,19,347!2024-12-15,19,347-->
+> </pre> <!--SR:!2025-03-20,93,367!2025-03-12,88,367!2025-03-18,91,367!2025-03-12,88,367!2025-03-11,87,367!2025-03-21,94,367!2025-03-18,91,367!2025-03-19,92,367-->
 
 Next, for {@{each number in the sequence `a[i]`}@}, {@{find the first (lowest-numbered) node, `j`, with degree equal to 1}@}, {@{add the edge `(j, a[i])` to the tree, and decrement the degrees of `j` and `a[i]`}@}. In pseudo-code: <!--SR:!2025-02-07,76,343!2025-02-12,80,343!2025-02-09,78,343-->
 
@@ -118,7 +118,7 @@ Next, for {@{each number in the sequence `a[i]`}@}, {@{find the first (lowest-nu
 > 12             {@{<i>degree</i>[<i>i</i>] ← <i>degree</i>[<i>i</i>] - 1}@}
 > 13             {@{<i>degree</i>[<i>j</i>] ← <i>degree</i>[<i>j</i>] - 1}@}
 > 14             {@{<b>break</b>}@}
-> </pre> <!--SR:!2025-03-12,88,367!2025-03-13,89,367!2025-03-13,89,367!2024-12-15,19,347!2024-12-15,19,347!2025-03-13,89,367!2024-12-15,19,347-->
+> </pre> <!--SR:!2025-03-12,88,367!2025-03-13,89,367!2025-03-13,89,367!2025-03-18,91,367!2025-03-17,90,367!2025-03-13,89,367!2025-03-20,93,367-->
 
 At {@{the end of this loop}@} {@{two nodes with degree 1 will remain (call them `u`, `v`)}@}. Lastly, {@{add the edge `(u,v)` to the tree}@}.<sup>[\[3\]](#^ref-3)</sup> <!--SR:!2025-02-10,79,343!2025-02-06,75,343!2025-02-10,79,343-->
 
@@ -171,7 +171,7 @@ At {@{the end of this loop}@} {@{two nodes with degree 1 will remain (call them 
 > 24 {@{<i>degree</i>[<i>u</i>] ← <i>degree</i>[<i>u</i>] - 1}@}
 > 25 {@{<i>degree</i>[<i>v</i>] ← <i>degree</i>[<i>v</i>] - 1}@}
 > 26 {@{<b>return</b> <i>T</i>}@}
-> </pre> <!--SR:!2024-12-15,19,347!2024-12-15,19,347!2024-12-15,19,347!2024-12-15,19,347!2025-03-11,87,367!2024-12-15,19,347!2024-12-15,19,347!2025-03-12,88,367!2025-03-13,89,367!2024-12-15,19,347!2024-12-15,19,347-->
+> </pre> <!--SR:!2025-03-20,93,367!2025-03-17,90,367!2025-03-16,89,367!2025-03-19,92,367!2025-03-11,87,367!2025-03-18,91,367!2025-03-17,90,367!2025-03-12,88,367!2025-03-13,89,367!2025-03-17,90,367!2025-03-21,94,367-->
 
 <!-- markdownlint MD028 -->
 
@@ -189,7 +189,7 @@ The immediate consequence is that {@{Prüfer sequences provide a [bijection](bij
 
 - Cayley's formula can be {@{strengthened to prove the following claim}@}: <p> {@{The number of spanning trees in a complete graph $K_{n}$ with a degree $d_{i}$ specified for each vertex $i$}@} is equal to {@{the [multinomial coefficient](multinomial%20theorem.md#multinomial%20coefficients) $${\binom {n-2}{d_{1}-1,\,d_{2}-1,\,\dots ,\,d_{n}-1} }={\frac {(n-2)!}{(d_{1}-1)!(d_{2}-1)!\cdots (d_{n}-1)!} }.$$}@} <p> The proof follows by {@{observing that in the Prüfer sequence number $i$ appears exactly $d_{i}-1$ times}@}.<sup>[\[4\]](#^ref-4)</sup>
 - Cayley's formula can be {@{generalized}@}: {@{a labeled tree is in fact a [spanning tree](spanning%20tree.md) of the labeled [complete graph](complete%20graph.md)}@}. By {@{placing restrictions on the enumerated Prüfer sequences}@}, similar methods can {@{give the number of spanning trees of a complete [bipartite graph](bipartite%20graph.md)}@}. If {@{_G_ is the complete bipartite graph with vertices 1 to _n_<sub>1</sub> in one partition and vertices _n_<sub>1</sub> + 1 to _n_ in the other partition}@}, {@{the number of labeled spanning trees of _G_}@} is {@{$n_{1}^{n_{2}-1}n_{2}^{n_{1}-1}$, where _n_<sub>2</sub> = _n_ − _n_<sub>1</sub>}@}.<sup>[\[4\]](#^ref-4)</sup>
-- {@{Generating uniformly distributed random Prüfer sequences and converting them into the corresponding trees}@} is {@{a straightforward method of generating uniformly distributed random labelled trees}@}.<sup>[\[4\]](#^ref-4)</sup> <!--SR:!2025-01-12,57,310!2025-01-03,50,290!2024-12-27,41,290!2025-01-11,56,310!2025-01-12,57,310!2025-01-11,56,310!2025-01-09,54,310!2025-01-11,56,310!2025-01-09,54,310!2025-01-11,56,310!2024-12-16,32,270!2025-01-11,56,310!2025-01-09,54,310-->
+- {@{Generating uniformly distributed random Prüfer sequences and converting them into the corresponding trees}@} is {@{a straightforward method of generating uniformly distributed random labelled trees}@}.<sup>[\[4\]](#^ref-4)</sup> <!--SR:!2025-01-12,57,310!2025-01-03,50,290!2024-12-27,41,290!2025-01-11,56,310!2025-01-12,57,310!2025-01-11,56,310!2025-01-09,54,310!2025-01-11,56,310!2025-01-09,54,310!2025-01-11,56,310!2025-04-17,121,290!2025-01-11,56,310!2025-01-09,54,310-->
 
 ## references
 

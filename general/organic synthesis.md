@@ -49,7 +49,7 @@ return await memorize_table(
 - availability→::@::←formation of [by-products](by-product.md) <!--SR:!2025-04-26,198,292!2027-02-27,1022,332-->
 - formation of [by-products](by-product.md)→::@::←number of steps <!--SR:!2025-06-04,335,292!2024-12-22,173,312-->
 - number of steps→::@::←[reaction rate](reaction%20rate.md) <!--SR:!2026-02-20,490,312!2025-01-30,440,292-->
-- [reaction rate](reaction%20rate.md)→::@::←[yield](yield%20(chemistry).md) <!--SR:!2024-12-15,417,292!2025-02-28,136,232-->
+- [reaction rate](reaction%20rate.md)→::@::←[yield](yield%20(chemistry).md) <!--SR:!2028-04-18,1218,292!2025-02-28,136,232-->
 - [yield](yield%20(chemistry).md)→::@::←_(end)_ <!--SR:!2026-08-17,881,332!2027-06-24,1198,352-->
 
 <!--/pytextgen-->

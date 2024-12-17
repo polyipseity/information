@@ -71,7 +71,7 @@ The content is in teaching order.
   - social identification ::@:: Modify yourself to match the beliefs you have on your own groups. <!--SR:!2025-05-08,171,332!2025-01-03,77,332-->
   - social comparison ::@:: Compare your groups with other groups. This maintains group differences. <!--SR:!2025-01-03,77,332!2025-03-14,125,312-->
 - activity 1: social identity exercise + reflection by drawing
-  - social identity exercise + reflection by drawing / debrief ::@:: Try identify your own social identities. You may discover how you are made from your past experiences. <!--SR:!2025-01-03,77,332!2024-12-15,58,312-->
+  - social identity exercise + reflection by drawing / debrief ::@:: Try identify your own social identities. You may discover how you are made from your past experiences. <!--SR:!2025-01-03,77,332!2025-08-26,252,332-->
 - activity 2: life wheel
   - life wheel / debrief ::@:: Evaluate your life in 10 categories from 1 to 10. Think of 3 categories to improve and imagine it. Finally, think of 1 action that you can do now to balance the wheel. <!--SR:!2025-01-03,77,332!2025-01-03,77,332-->
 - psychometric assessments ::@:: EQ-i<sup>2.0</sup>, STRONG <!--SR:!2025-01-03,77,332!2025-01-03,77,332-->

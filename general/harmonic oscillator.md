@@ -45,7 +45,7 @@ The above [inhomogeneous ordinary differential equation](ordinary%20differential
 
 - see: [step response](step%20response.md)
 
-Consider a system {@{with $\zeta < 1$, [initial values](initial%20value%20problem.md) $x(0) = x'(0) = 0$, and the following driving [force](force.md): $$\frac{F(t)}m = \begin{cases} \omega_n^2 x_F & t \ge 0 \\ 0 & t < 0 \end{cases}$$}@}. Physically, we expect {@{the system to oscillate around the new equilibrium with decaying [amplitude](amplitude.md)}@}. Solve the equation: <!--SR:!2024-12-16,18,170!2026-09-21,713,332-->
+Consider a system {@{with $\zeta < 1$, [initial values](initial%20value%20problem.md) $x(0) = x'(0) = 0$, and the following driving [force](force.md): $$\frac{F(t)}m = \begin{cases} \omega_n^2 x_F & t \ge 0 \\ 0 & t < 0 \end{cases}$$}@}. Physically, we expect {@{the system to oscillate around the new equilibrium with decaying [amplitude](amplitude.md)}@}. Solve the equation: <!--SR:!2025-01-17,31,170!2026-09-21,713,332-->
 
 > [!info]- details
 >
@@ -154,7 +154,7 @@ Through [nondimensionalization](nondimensionalization.md), the equation below {@
 > - where
 >   - properties: {@{$\tau$ is the [independent variable](dependent%20and%20independent%29variables.md), $q$ is the [dependent variable](dependent%20and%20independent%29variables.md), $\zeta$ is the damping ratio, and $f(\tau)$ is the [forcing function](forcing%20function%20(differential%20equations).md)}@} <!--SR:!2027-01-31,820,332!2026-11-19,758,332-->
 
-In terms of properties, the universal oscillator equation is {@{the same as the equation for a [driven, damped harmonic oscillator](#driven,%20damped%20harmonic%20oscillator) but with less [constants](constant%20(mathematics).md)}@}. <!--SR:!2024-12-16,271,332-->
+In terms of properties, the universal oscillator equation is {@{the same as the equation for a [driven, damped harmonic oscillator](#driven,%20damped%20harmonic%20oscillator) but with less [constants](constant%20(mathematics).md)}@}. <!--SR:!2027-06-03,898,332-->
 
 ## references
 

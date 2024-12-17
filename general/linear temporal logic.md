@@ -52,7 +52,7 @@ The additional logical operators are defined as follows:
 
 The additional temporal operators {@{__R__, __F__, and __G__}@} are defined as follows: <!--SR:!2024-12-27,17,323-->
 
-- __r__<!-- markdown separator -->elease ::@:: ψ __R__ φ ≡ ¬\(¬ψ __U__ ¬φ\) \(φ remains true until and including once ψ becomes true. If ψ never becomes true, φ must remain true forever. ψ __r__<!-- markdown separator -->eleases φ.\) <!--SR:!2024-12-17,7,250!2024-12-24,14,297-->
+- __r__<!-- markdown separator -->elease ::@:: ψ __R__ φ ≡ ¬\(¬ψ __U__ ¬φ\) \(φ remains true until and including once ψ becomes true. If ψ never becomes true, φ must remain true forever. ψ __r__<!-- markdown separator -->eleases φ.\) <!--SR:!2025-01-11,25,270!2024-12-24,14,297-->
 - __f__<!-- markdown separator -->inally ::@:: __F__ ψ ≡ __true__ __U__ ψ \(eventually ψ becomes true\) <!--SR:!2024-12-20,12,277!2024-12-24,14,297-->
 - __g__<!-- markdown separator -->lobally ::@:: __G__ ψ ≡ __false__ __R__ ψ ≡ ¬<!-- markdown separator -->__F__ ¬ψ \(ψ always remains true\) <!--SR:!2024-12-25,15,310!2024-12-24,14,297-->
 
@@ -60,13 +60,13 @@ The additional temporal operators {@{__R__, __F__, and __G__}@} are defined as f
 
 Some authors also define {@{a _weak until_ binary operator, denoted __W__}@}, with semantics {@{similar to that of the until operator but the stop condition is not required to occur \(similar to release\)}@}.<sup>[\[8\]](#^ref-8)</sup> It is sometimes useful since {@{both __U__ and __R__ can be defined in terms of the weak until}@}: <!--SR:!2024-12-28,18,323!2024-12-27,17,323!2024-12-25,15,310-->
 
-- __w__<!-- markdown separator -->eak until ::@:: _ψ_ __W__ _φ_ ≡ \(_ψ_ __U__ _φ_\) ∨ __G__ _ψ_ ≡ _ψ_ __U__ \(_φ_ ∨ __G__ _ψ_\) ≡ _φ_ __R__ \(_φ_ ∨ _ψ_\) <!--SR:!2024-12-21,11,303!2024-12-15,5,237-->
+- __w__<!-- markdown separator -->eak until ::@:: _ψ_ __W__ _φ_ ≡ \(_ψ_ __U__ _φ_\) ∨ __G__ _ψ_ ≡ _ψ_ __U__ \(_φ_ ∨ __G__ _ψ_\) ≡ _φ_ __R__ \(_φ_ ∨ _ψ_\) <!--SR:!2024-12-21,11,303!2025-01-03,17,257-->
 - __u__<!-- markdown separator -->ntil ::@:: _ψ_ __U__ _φ_ ≡ __F__<!-- markdown separator -->_φ_ ∧ \(_ψ_ __W__ _φ_\) <!--SR:!2024-12-20,12,277!2024-12-21,11,303-->
-- __r__<!-- markdown separator -->elease ::@:: _ψ_ __R__ _φ_ ≡ _φ_ __W__ \(_φ_ ∧ _ψ_\) <!--SR:!2024-12-15,5,263!2024-12-23,13,303-->
+- __r__<!-- markdown separator -->elease ::@:: _ψ_ __R__ _φ_ ≡ _φ_ __W__ \(_φ_ ∧ _ψ_\) <!--SR:!2024-12-31,14,263!2024-12-23,13,303-->
 
 {@{The _strong release_ binary operator, denoted __M__}@}, is {@{the dual of weak until}@}. It is defined {@{similar to the until operator, so that the release condition has to hold at some point}@}. Therefore, {@{it is stronger than the release operator}@}. <!--SR:!2024-12-27,17,310!2024-12-27,17,323!2024-12-27,17,323!2024-12-24,14,297-->
 
-- strong release (__M__) ::@:: _ψ_ __M__ _φ_ ≡ ¬\(¬<!-- markdown separator -->_ψ_ __W__ ¬<!-- markdown separator -->_φ_\) ≡ \(_ψ_ __R__ _φ_\) ∧ __F__ _ψ_ ≡ _ψ_ __R__ \(_φ_ ∧ __F__ _ψ_\) ≡ _φ_ __U__ \(_ψ_ ∧ _φ_\) <!--SR:!2024-12-15,5,263!2024-12-15,5,263-->
+- strong release (__M__) ::@:: _ψ_ __M__ _φ_ ≡ ¬\(¬<!-- markdown separator -->_ψ_ __W__ ¬<!-- markdown separator -->_φ_\) ≡ \(_ψ_ __R__ _φ_\) ∧ __F__ _ψ_ ≡ _ψ_ __R__ \(_φ_ ∧ __F__ _ψ_\) ≡ _φ_ __U__ \(_ψ_ ∧ _φ_\) <!--SR:!2024-12-31,14,263!2024-12-31,14,263-->
 
 {@{The semantics for the temporal operators}@} are pictorially presented as follows. <!--SR:!2024-12-27,17,323-->
 
@@ -94,7 +94,7 @@ Let φ, ψ, and ρ be LTL formulas. The following tables list {@{some of the use
 
 - next distributivity ::@:: __X__ \(φ ∨ ψ\) ≡ \(<!-- markdown separator -->__X__ φ\) ∨ \(<!-- markdown separator -->__X__ ψ\) <br/> __X__ \(φ ∧ ψ\) ≡ \(<!-- markdown separator -->__X__ φ\) ∧ \(<!-- markdown separator -->__X__ ψ\) <br/> __X__ \(φ __U__ ψ\)≡ \(<!-- markdown separator -->__X__ φ\) __U__ \(<!-- markdown separator -->__X__ ψ\) <!--SR:!2024-12-25,15,310!2024-12-27,17,310-->
 - finally and globally distributivity ::@:: __F__ \(φ ∨ ψ\) ≡ \(<!-- markdown separator -->__F__ φ\) ∨ \(<!-- markdown separator -->__F__ ψ\) <br/> __G__ \(φ ∧ ψ\) ≡ \(<!-- markdown separator -->__G__ φ\) ∧ \(<!-- markdown separator -->__G__ ψ\) <!--SR:!2024-12-20,12,277!2024-12-22,12,303-->
-- until distributivity ::@:: ρ __U__ \(φ ∨ ψ\) ≡ \(ρ __U__ φ\) ∨ \(ρ __U__ ψ\) <br/> \(φ ∧ ψ\) __U__ ρ ≡ \(φ __U__ ρ\) ∧ \(ψ __U__ ρ\) <!--SR:!2024-12-22,12,303!2024-12-17,9,270-->
+- until distributivity ::@:: ρ __U__ \(φ ∨ ψ\) ≡ \(ρ __U__ φ\) ∨ \(ρ __U__ ψ\) <br/> \(φ ∧ ψ\) __U__ ρ ≡ \(φ __U__ ρ\) ∧ \(ψ __U__ ρ\) <!--SR:!2024-12-22,12,303!2025-01-20,34,290-->
 
 | Negation propagation                            |                                                       |                                                       |                                                       |
 | ----------------------------------------------- | ----------------------------------------------------- | ----------------------------------------------------- | ----------------------------------------------------- |
@@ -114,7 +114,7 @@ Let φ, ψ, and ρ be LTL formulas. The following tables list {@{some of the use
 | __G__ φ ≡ φ ∧ __X__<!-- markdown separator -->\(<!-- markdown separator -->__G__ φ\) | __F__ φ ≡ φ ∨ __X__<!-- markdown separator -->\(<!-- markdown separator -->__F__ φ\) |                                                                        |
 
 - temporal idempotency ::@:: __F__ φ ≡ __F__ __F__ φ <br/> __G__ φ ≡ __G__ __G__ φ <br/> φ __U__ ψ ≡ φ __U__ \(φ __U__ ψ\) <!--SR:!2024-12-25,15,310!2024-12-20,12,290-->
-- temporal expansion ::@:: φ __U__ ψ ≡ ψ ∨ \( φ ∧ __X__<!-- markdown separator -->\(φ __U__ ψ\) \) <br/> φ __W__ ψ ≡ ψ ∨ \( φ ∧ __X__<!-- markdown separator -->\(φ __W__ ψ\) \) <br/> φ __R__ ψ ≡ ψ ∧ \(φ ∨ __X__<!-- markdown separator -->\(φ __R__ ψ\) \) <!--SR:!2024-12-21,13,303!2024-12-17,9,270-->
+- temporal expansion ::@:: φ __U__ ψ ≡ ψ ∨ \( φ ∧ __X__<!-- markdown separator -->\(φ __U__ ψ\) \) <br/> φ __W__ ψ ≡ ψ ∨ \( φ ∧ __X__<!-- markdown separator -->\(φ __W__ ψ\) \) <br/> φ __R__ ψ ≡ ψ ∧ \(φ ∨ __X__<!-- markdown separator -->\(φ __R__ ψ\) \) <!--SR:!2024-12-21,13,303!2025-01-09,23,270-->
 
 ## negation normal form
 
@@ -133,7 +133,7 @@ LTL can be shown to be {@{equivalent to the [monadic first-order logic of order]
 {@{[Computation tree logic](computation%20tree%20logic.md) \(CTL\) and linear temporal logic \(LTL\)}@} are {@{both a subset of [CTL\*](CTL*.md), but are incomparable}@}. For example, <!--SR:!2024-12-27,17,323!2024-12-26,16,310-->
 
 - No formula in CTL ::@:: can define the language that is defined by the LTL formula __F__\(__G__ p\). <!--SR:!2024-12-27,17,310!2024-12-22,12,290-->
-- No formula in LTL ::@:: can define the language that is defined by the CTL formulas __AG__\( p → \(__EX__<!-- markdown separator -->q ∧ __EX__<!-- markdown separator -->¬q\) \) or __AG__\(__EF__\(p\)\). <!--SR:!2024-12-17,9,257!2024-12-22,12,290-->
+- No formula in LTL ::@:: can define the language that is defined by the CTL formulas __AG__\( p → \(__EX__<!-- markdown separator -->q ∧ __EX__<!-- markdown separator -->¬q\) \) or __AG__\(__EF__\(p\)\). <!--SR:!2025-01-08,22,257!2024-12-22,12,290-->
 
 ## computational problems
 

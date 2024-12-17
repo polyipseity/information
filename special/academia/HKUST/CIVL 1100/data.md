@@ -102,7 +102,7 @@ See [CITIC Plaza](../../../../general/CITIC%20Plaza.md).
 
 See [Colosseum](../../../../general/Colosseum.md).
 
-- base widths ::@:: length: 189 m, width: 156 m <!--SR:!2026-02-23,455,336!2024-12-15,59,356-->
+- base widths ::@:: length: 189 m, width: 156 m <!--SR:!2026-02-23,455,336!2025-10-05,292,376-->
 - construction period ::@:: AD 72 to AD 80, 8 years <!--SR:!2025-03-29,125,216!2026-10-08,666,396-->
 - description ::@:: elliptical amphitheater in the center of Rome <!--SR:!2025-05-13,268,376!2025-12-11,420,376-->
 - geographic location ::@:: Rome <!--SR:!2026-02-17,488,396!2026-11-08,740,416-->
@@ -113,7 +113,7 @@ See [Colosseum](../../../../general/Colosseum.md).
 
 See [Eiffel Tower](../../../../general/Eiffel%20Tower.md).
 
-- description ::@:: tower on the Champ de Mars in Paris, France <!--SR:!2025-02-02,220,347!2024-12-15,205,330-->
+- description ::@:: tower on the Champ de Mars in Paris, France <!--SR:!2025-02-02,220,347!2027-07-08,933,350-->
 - height ::@:: architectural: 300 m, tip, 330 m, top floor: 276 m <!--SR:!2025-06-06,281,317!2025-01-31,244,330-->
 - image ::@:: ![Eiffel Tower image](../../../../archives/Wikimedia%20Commons/Tour%20Eiffel%20Wikimedia%20Commons%20(cropped).jpg) <!--SR:!2026-03-07,544,400!2026-03-13,549,400-->
 - shape ::@:: exponential <!--SR:!2025-03-03,272,350!2025-01-16,252,335-->
@@ -134,7 +134,7 @@ See [Golden Gate Bridge](../../../../general/Golden%20Gate%20Bridge.md).
 
 See [Great Pyramid of Giza](../../../../general/Great%20Pyramid%20of%20Giza.md).
 
-- base width ::@:: 230.33 m <!--SR:!2024-12-17,61,356!2026-05-26,569,396-->
+- base width ::@:: 230.33 m <!--SR:!2025-07-22,217,356!2026-05-26,569,396-->
 - construction period ::@:: 10~20 years around 2560 BC <!--SR:!2025-01-01,68,216!2026-02-17,488,396-->
 - description ::@:: largest pyramid in the Giza Necropolis, Egypt <!--SR:!2026-06-05,605,416!2026-11-12,742,416-->
 - height ::@:: current: 138.5 m, original: 146.6 m <!--SR:!2025-02-12,71,336!2026-04-26,540,396-->
@@ -314,7 +314,7 @@ See [Turin–Lyon high-speed railway](../../../../general/Turin–Lyon%20high-sp
 See [Two Prudential Plaza](../../../../general/Two%20Prudential%20Plaza.md).
 
 - description ::@:: 64-story skyscraper located in the Loop area of Chicago, Illinois <!--SR:!2025-06-20,290,320!2025-08-31,399,385-->
-- height ::@:: architectural: 303 m, top floor: 250 m <!--SR:!2024-12-15,59,181!2025-12-20,488,384-->
+- height ::@:: architectural: 303 m, top floor: 250 m <!--SR:!2025-05-20,154,201!2025-12-20,488,384-->
 - image ::@:: ![Two Prudential Plaza image](../../../../archives/Wikimedia%20Commons/Two%20Prudential%20Plaza%20Chicago%20in%20May%202016.jpg) <!--SR:!2025-06-04,294,360!2025-07-04,205,320-->
 - [structural system](../../../../general/structural%20system.md) ::@:: reinforced concrete<!-- flashcard ecbdac25-22dc-429d-9976-d49408b1478d --> <!--SR:!2025-01-13,128,340!2025-12-30,488,400-->
 

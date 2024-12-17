@@ -126,7 +126,7 @@ Products and services is {@{simply a list of what you offer}@}, and can also inc
 
 Pain relievers describe {@{how the products or services alleviate customer pains}@}. There is no need to {@{alleviate every identified pain}@}, and instead {@{it is better to alleviate some extreme pains extremely well}@}. Like products and services, pain relievers {@{can have different relevance to your customers}@}. <!--SR:!2025-01-12,207,329!2026-08-09,632,329!2025-05-28,285,290!2026-04-06,502,310-->
 
-Gain creators describe {@{how the products or services create customer gains}@}. There is also no need to {@{create every identified gain}@}, and instead {@{it is better to create some relevant gains extremely well}@}. Like products and services, gain creators {@{can have different relevance to your customers}@}. <!--SR:!2025-06-12,326,349!2025-01-19,200,329!2026-08-29,658,329!2024-12-15,166,309-->
+Gain creators describe {@{how the products or services create customer gains}@}. There is also no need to {@{create every identified gain}@}, and instead {@{it is better to create some relevant gains extremely well}@}. Like products and services, gain creators {@{can have different relevance to your customers}@}. <!--SR:!2025-06-12,326,349!2025-01-19,200,329!2026-08-29,658,329!2026-05-21,520,309-->
 
 There are several [common mistakes](#value%20map%20common%20mistakes) to be aware of.
 

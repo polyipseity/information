@@ -219,7 +219,7 @@ There are {@{several combinatorial results about the exponent}@} when {@{there a
 - The exponent is {@{$\leq (n-1)^{2}+1$}@}. {@{The only case where it is an equality}@} is {@{when the graph of $M$ goes like $1\to 2\to \dots \to n\to 1{\text{ and } }2$}@}.
 - If $M$ has $k\geq 1$ diagonal entries, ::@:: then its exponent is $\leq 2n-k-1$. <!--SR:!2024-12-21,10,279!2024-12-20,9,267-->
 - If $\mathrm {sign} (M)$ is symmetric, ::@:: then $M^{2}$ has positive diagonal entries, which by previous proposition means its exponent is $\leq 2n-2$. <!--SR:!2024-12-19,9,279!2024-12-23,12,307-->
-- \(Dulmage-Mendelsohn theorem\) ::@:: The exponent is $\leq n+s(n-2)$ where $s$ is the [girth of the graph](girth%20(graph%20theory).md). It can be improved to $\leq (d+1)+s(d+1-2)$ (Annotation: Replace with $n$ with $d + 1$.), where $d$ is the [diameter of the graph](distance%20(graph%20theory).md).<sup>[\[56\]](#^ref-56)</sup> <!--SR:!2024-12-15,5,241!2024-12-20,10,287-->
+- \(Dulmage-Mendelsohn theorem\) ::@:: The exponent is $\leq n+s(n-2)$ where $s$ is the [girth of the graph](girth%20(graph%20theory).md). It can be improved to $\leq (d+1)+s(d+1-2)$ (Annotation: Replace with $n$ with $d + 1$.), where $d$ is the [diameter of the graph](distance%20(graph%20theory).md).<sup>[\[56\]](#^ref-56)</sup> <!--SR:!2024-12-30,13,241!2024-12-20,10,287-->
 
 ### measure-preserving dynamical system
 

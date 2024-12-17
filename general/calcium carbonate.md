@@ -10,7 +10,7 @@ tags:
 
 __Calcium carbonate__, also known as {@{limestone}@}, is a solid [ionic compound](ionic%20compound.md). Its molecular formula is {@{CaCO<sub>3</sub>}@}. It looks like a {@{white solid}@}. <!--SR:!2025-02-08,678,319!2030-05-06,2034,317!2026-06-26,1116,298-->
 
-It is commonly found in {@{the [rocks](rock%20(geology).md) [limestone](limestone.md), [chalk](chalk.md), and [marble](marble.md)}@} as {@{the [minerals](mineral.md) [calcite](calcite.md), [aragonite](aragonite.md), and [dolomite](dolomite%20(mineral).md)}@}. <!--SR:!2028-02-23,1222,300!2024-12-16,377,250-->
+It is commonly found in {@{the [rocks](rock%20(geology).md) [limestone](limestone.md), [chalk](chalk.md), and [marble](marble.md)}@} as {@{the [minerals](mineral.md) [calcite](calcite.md), [aragonite](aragonite.md), and [dolomite](dolomite%20(mineral).md)}@}. <!--SR:!2028-02-23,1222,300!2027-07-18,943,250-->
 
 ## reactions
 

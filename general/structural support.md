@@ -13,7 +13,7 @@ tags:
 
 ### roller support
 
-A roller support prevents {@{vertical (relative to a support on the ground) translation}@}, but not {@{horizontal or lateral translation and rotation}@}. Its reaction force is {@{a single linear force perpendicular to the surface}@}. <!--SR:!2024-12-16,160,310!2026-04-29,524,310!2025-10-25,382,310-->
+A roller support prevents {@{vertical (relative to a support on the ground) translation}@}, but not {@{horizontal or lateral translation and rotation}@}. Its reaction force is {@{a single linear force perpendicular to the surface}@}. <!--SR:!2026-11-07,690,330!2026-04-29,524,310!2025-10-25,382,310-->
 
 A roller support is drawn as {@{a circle or a triangle with two or more circles underneath}@}. <!--SR:!2025-08-01,287,290-->
 

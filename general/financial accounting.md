@@ -48,7 +48,7 @@ The three components of financial statements are {@{[statement of cash flows](ca
 
 - see: [cash flow statement](cash%20flow%20statement.md)
 
-The statement of cash flows is also called {@{cash flow statement}@}. <!--SR:!2024-12-15,68,335-->
+The statement of cash flows is also called {@{cash flow statement}@}. <!--SR:!2025-11-01,319,355-->
 
 The statement of cash flows {@{considers the inputs and outputs in concrete cash within a stated period}@}. The general template of a cash flow statement is as follows: {@{_Cash Inflow - Cash Outflow + Opening Balance = Closing Balance_}@} <!--SR:!2025-05-07,180,310!2025-04-01,152,310-->
 
@@ -78,7 +78,7 @@ Important: the cash flow statement {@{only considers the exchange of __actual__ 
 
 - see: [income statement](income%20statement.md)
 
-The statement of financial performance is also called {@{income statement, profit & loss (p&l) statement, or statement of operations}@}. <!--SR:!2024-12-16,69,335-->
+The statement of financial performance is also called {@{income statement, profit & loss (p&l) statement, or statement of operations}@}. <!--SR:!2025-08-06,232,335-->
 
 The statement of profit or income statement represents {@{the changes in value of a company's [accounts](account%20(bookkeeping).md) over a set period (most commonly one [fiscal year](fiscal%20year.md))}@}, and may {@{compare the changes to changes in the same accounts over the previous period}@}. All changes are {@{summarized on the "bottom line" as [net income](net%20income.md), often reported as "net loss" when income is less than zero}@}. <!--SR:!2025-09-21,290,330!2025-03-22,131,290!2025-02-14,113,290-->
 
@@ -111,7 +111,7 @@ Non-current assets include {@{[fixed](fixed%20asset.md) or long-term assets and 
 
 Liabilities include {@{current liabilities and long-term liabilities}@}: <!--SR:!2025-06-01,195,310-->
 
-- _current liabilities_ ::@:: trade accounts payable, dividends payable, employee salaries payable, interest (e.g. on debt) payable <!--SR:!2025-04-20,142,270!2024-12-16,60,270-->
+- _current liabilities_ ::@:: trade accounts payable, dividends payable, employee salaries payable, interest (e.g. on debt) payable <!--SR:!2025-04-20,142,270!2025-05-25,159,270-->
 - _long-term liabilities_ ::@:: mortgage notes payable, bonds payable <!--SR:!2025-08-05,251,330!2025-05-17,187,310-->
 
 {@{Owner's equity, sometimes referred to as net assets}@}, is {@{represented differently depending on the type of business ownership}@}. Business ownership can be in the form of {@{a sole proprietorship, partnership, or a [corporation](corporation.md)}@}. For {@{a corporation}@}, the owner's equity portion {@{usually shows common stock, and retained earnings (earnings kept in the company)}@}. Retained earnings come from {@{the retained earnings statement, prepared prior to the balance sheet}@}.<sup>[\[8\]](#^ref-8)</sup> <!--SR:!2025-04-30,172,310!2025-04-12,146,290!2025-08-10,255,330!2025-06-17,211,310!2025-04-19,164,310!2025-03-29,137,290-->
@@ -143,7 +143,7 @@ Financial accountants serves the following purposes: {@{producing general purpos
 Objectives include:
 
 - __systematic recording of transactions__ ::@:: Basic objective of accounting is to systematically record the financial aspects of business transactions (i.e. book-keeping). These recorded transactions are later on classified and summarized logically for the preparation of financial statements and for their analysis and interpretation. <!--SR:!2025-06-26,205,290!2025-01-17,92,290-->
-- __ascertainment of result of above recorded transactions__ ::@:: Accountant prepares profit and loss account to know the result of business operations for a particular period of time. If expenses exceed revenue then it is said that the business is running under loss. The profit and loss account helps the management and different stakeholders in taking rational decisions. For example, if business is not proved to be remunerative or profitable, the cause of such a state of affairs can be investigated by the management for taking remedial steps. <!--SR:!2025-05-01,158,270!2024-12-16,60,270-->
+- __ascertainment of result of above recorded transactions__ ::@:: Accountant prepares profit and loss account to know the result of business operations for a particular period of time. If expenses exceed revenue then it is said that the business is running under loss. The profit and loss account helps the management and different stakeholders in taking rational decisions. For example, if business is not proved to be remunerative or profitable, the cause of such a state of affairs can be investigated by the management for taking remedial steps. <!--SR:!2025-05-01,158,270!2025-05-26,160,270-->
 - __ascertainment of the financial position of business__ ::@:: Businessman is not only interested in knowing the result of the business in terms of profits or loss for a particular period but is also anxious to know that what he owes (liability) to the outsiders and what he owns (assets) on a certain date. To know this, accountant prepares a financial position statement of assets and liabilities of the business at a particular point of time and helps in ascertaining the financial health of the business. <!--SR:!2025-03-05,106,250!2025-02-16,113,290-->
 - __providing information to the users for rational decision-making__ ::@:: Accounting as a 'language of business' communicates the financial result of an enterprise to various stakeholders by means of financial statements. Accounting aims to meet the financial information needs of the decision-makers and helps them in rational decision-making. <!--SR:!2025-03-07,133,310!2025-01-12,79,270-->
 - __to know the solvency position__ ::@:: By preparing the balance sheet, management not only reveals what is owned and owed by the enterprise, but also it gives the information regarding concern's ability to meet its liabilities in the short run (liquidity position) and also in the long-run (solvency position) as and when they fall due. <!--SR:!2025-07-19,220,310!2025-08-14,244,290-->

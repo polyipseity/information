@@ -18,7 +18,7 @@ tags:
 > where
 >
 > - [function](function%20(mathematics).md) properties: {@{$u$ is [displacement](displacement%20(geometry).md) from equilibrium at $n$-[dimensional](dimension.md) [position](position%20(geometry).md) $x$ and [time](time.md) $t$}@}
-> - [wave](wave.md) properties: {@{$c$ is a non-negative [real](real%20number.md) [coefficient](coefficient.md)}@} <!--SR:!2025-02-01,266,270!2027-12-31,1150,350!2024-12-17,282,330-->
+> - [wave](wave.md) properties: {@{$c$ is a non-negative [real](real%20number.md) [coefficient](coefficient.md)}@} <!--SR:!2025-02-01,266,270!2027-12-31,1150,350!2028-06-22,1283,350-->
 
 ## wave equation in one dimension
 

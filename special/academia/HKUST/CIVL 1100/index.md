@@ -86,7 +86,7 @@ The content is in teaching order.
   - torsion deformation ::@:: The object is likely to return to its original shape when torsion forces are removed. <!--SR:!2025-03-21,221,330!2025-08-12,348,350-->
   - torsion examples ::@:: drill pipes, power transmission shafts, tall buildings <!--SR:!2026-01-23,463,330!2025-02-19,207,330-->
 - [shear](../../../../general/shear%20force.md) ::@:: created by forces not acting on the same line; think of a rectangle being "parallelogramized" by 2 forces facing opposite directions <!--SR:!2025-08-18,354,350!2025-05-20,285,350-->
-  - shear examples ::@:: shear damage of road surface due to braking of heavy vehicles or fast running rainwater <!--SR:!2024-12-16,148,310!2025-03-24,224,330-->
+  - shear examples ::@:: shear damage of road surface due to braking of heavy vehicles or fast running rainwater <!--SR:!2026-09-13,635,330!2025-03-24,224,330-->
 - [structural support](../../../../general/structural%20support.md) ::@:: fixed support, pinned support, roller support <!--SR:!2026-04-07,515,330!2025-06-10,302,350-->
   - [§ roller support](../../../../general/structural%20support.md#roller%20support)
   - [§ pinned support](../../../../general/structural%20support.md#pinned%20support)
@@ -129,7 +129,7 @@ The content is in teaching order.
 - wall-frame ::@:: shear-walled frame: [rigid frame](../../../../general/rigid%20frame.md) + [shear wall](../../../../general/shear%20wall.md), see [shear wall § description](../../../../general/shear%20wall.md#description) <!--SR:!2025-02-15,203,330!2025-02-08,200,330-->
   - wall-frame stiffness ::@:: stiffer than rigid frame or shear wall alone <!--SR:!2025-09-22,326,290!2025-09-04,370,350-->
   - wall-frame economic limit ::@:: up to about 50 stories <!--SR:!2025-07-29,340,350!2025-02-12,205,330-->
-- framed tube ::@:: [tube](../../../../general/tube%20(structure).md) <!--SR:!2024-12-15,157,330!2025-03-16,216,330-->
+- framed tube ::@:: [tube](../../../../general/tube%20(structure).md) <!--SR:!2026-05-20,519,330!2025-03-16,216,330-->
   - [§ variation](../../../../general/tube%20(structure).md#variation)
 - core walls with outriggers ::@:: [structural system § outrigger](../../../../general/structural%20system.md#outrigger) <!--SR:!2025-05-05,256,330!2025-09-04,320,301-->
 

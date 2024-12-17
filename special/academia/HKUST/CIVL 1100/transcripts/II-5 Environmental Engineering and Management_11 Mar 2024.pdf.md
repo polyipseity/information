@@ -63,7 +63,7 @@ return await memorize_seq(
 - air pollution→::@::←land contamination <!--SR:!2025-05-05,223,270!2025-04-15,255,330-->
 - land contamination→::@::←noise pollution <!--SR:!2025-02-07,141,270!2025-05-16,255,290-->
 - noise pollution→::@::←solid waste disposal <!--SR:!2025-04-13,209,270!2025-11-18,365,290-->
-- solid waste disposal→::@::←water pollution <!--SR:!2024-12-15,140,290!2025-01-16,100,210-->
+- solid waste disposal→::@::←water pollution <!--SR:!2026-07-10,570,310!2025-01-16,100,210-->
 - water pollution→::@::←_(end)_ <!--SR:!2024-12-20,145,310!2025-01-11,174,310-->
 
 <!--/pytextgen-->
@@ -191,7 +191,7 @@ Landfills in Hong Kong
 Sustainable Waste Management
 
 - sustainable waste management triangle ::@:: top: waste avoidance + 3Rs, left: incineration (waste-to-energy), right: landfill (methane (CH<sub>4</sub>) to energy) <!--SR:!2025-06-14,257,290!2025-09-19,354,310-->
-  - sustainable waste management triangle arrows ::@:: top → left, right; left → right <!--SR:!2024-12-17,147,310!2025-02-06,198,310-->
+  - sustainable waste management triangle arrows ::@:: top → left, right; left → right <!--SR:!2026-09-10,632,330!2025-02-06,198,310-->
 
 ## page 12
 
@@ -227,7 +227,7 @@ Environmental Levy Scheme (Plastic Shopping Bags)
 
 - Environmental Levy Scheme ::@:: scheme to reduce plastic shopping bags <!--SR:!2025-03-28,239,330!2025-02-28,198,310-->
   - Environmental Levy Scheme launch time ::@:: launched in 2009 <!--SR:!2025-09-06,333,310!2025-04-21,256,330-->
-  - Environmental Levy Scheme coverage ::@:: 40 registered retailers with ~3100 retail outlets <!--SR:!2025-08-10,314,290!2024-12-16,146,310-->
+  - Environmental Levy Scheme coverage ::@:: 40 registered retailers with ~3100 retail outlets <!--SR:!2025-08-10,314,290!2026-09-09,631,330-->
   - Environmental Levy Scheme effect ::@:: -90% from registered retailers after 1 year. -25% in overall plastic bag consumption after covering all retail shops in 2015 <!--SR:!2025-03-07,183,270!2024-12-27,150,290-->
   - Environmental Levy Scheme income ::@:: HK$25.5 million in 2009 <!--SR:!2025-03-17,191,270!2026-02-21,470,310-->
 
@@ -390,7 +390,7 @@ return await memorize_seq(
 
 - _(begin)_→::@::←carbon dioxide (CO<sub>2</sub>) <!--SR:!2025-02-20,192,310!2025-02-16,188,310-->
 - carbon dioxide (CO<sub>2</sub>)→::@::←hydroflurocarbons (HFCs) <!--SR:!2025-04-13,185,230!2025-05-06,223,270-->
-- hydroflurocarbons (HFCs)→::@::←methane (CH<sub>4</sub>) <!--SR:!2024-12-15,54,250!2025-03-10,166,230-->
+- hydroflurocarbons (HFCs)→::@::←methane (CH<sub>4</sub>) <!--SR:!2025-06-25,190,270!2025-03-10,166,230-->
 - methane (CH<sub>4</sub>)→::@::←nitrous oxide (N<sub>2</sub>O) <!--SR:!2025-06-13,229,250!2026-01-09,395,290-->
 - nitrous oxide (N<sub>2</sub>O)→::@::←perflurocarbons (PFCs) <!--SR:!2025-01-25,123,230!2024-12-19,11,130-->
 - perflurocarbons (PFCs)→::@::←sulfur hexafluoride (SF<sub>6</sub>) <!--SR:!2025-04-22,133,270!2025-03-13,187,270-->
@@ -451,7 +451,7 @@ Concentration Units for Gases
 Relationship between ppm<sub>v</sub> and mg/m<sup>3</sup>
 
 - relationship between ppm<sub>v</sub> and mg/m<sup>3</sup> ::@:: [ideal gas law](../../../../../general/ideal%20gas%20law.md) <!--SR:!2025-04-05,226,310!2026-07-28,609,330-->
-  - ideal gas law equation ::@:: $$pV = nRT$$, where $p$ is the absolute pressure in atm, $V$ is the volume in m<sup>3</sup>, $n$ is the number of moles, $R \approx 0.082056\mathrm{\ L \cdot atm \cdot K^{-1} \cdot mol^{-1} }$ is the [ideal gas constant](../../../../../general/gas%20constant.md), and $T$ is the absolute temperature in K <!--SR:!2024-12-16,141,290!2025-05-14,273,330-->
+  - ideal gas law equation ::@:: $$pV = nRT$$, where $p$ is the absolute pressure in atm, $V$ is the volume in m<sup>3</sup>, $n$ is the number of moles, $R \approx 0.082056\mathrm{\ L \cdot atm \cdot K^{-1} \cdot mol^{-1} }$ is the [ideal gas constant](../../../../../general/gas%20constant.md), and $T$ is the absolute temperature in K <!--SR:!2026-07-09,569,310!2025-05-14,273,330-->
 
 ## page 38
 

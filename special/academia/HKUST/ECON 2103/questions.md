@@ -39,7 +39,7 @@ tags:
 > 3. the $45&nbsp;000 salary that you will be able to earn after having completed your graduate program
 > 4. the value of insurance coverage and other employee benefits you would have received if you retain your job
 >
-> - solution: {@{3}@} <!--SR:!2024-12-16,60,310-->
+> - solution: {@{3}@} <!--SR:!2025-08-30,256,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -84,10 +84,10 @@ tags:
 >
 > - Domestic (local) steel producers are threatened by foreign competition (imports). Let's impose a _tariff_ (fee) on importing steel. ::@:: The price of foreign steel may increase relative to domestic steel. Domestic steel producers may benefit from it. However, the average price of (domestic and imported) steel may rise, so downstream industries may have increased production cost and may pass them to consumers. <!--SR:!2024-12-24,68,310!2024-12-24,68,310-->
 > - Rents are increasing. Let's freeze rents. (This is a form of rent control.) ::@:: In the short term, poor people may be less likely to be evicted for their inability to pay rent. However, landlords may reduce maintenance on rental units to adapt to decreased rents. They may, in the long term, also construct fewer rental units because they are less profitable. <!--SR:!2025-04-05,136,310!2024-12-28,72,310-->
-> - Medical costs are high. The government decides to offset everyone's medical costs, especially for poor people. ::@:: People, especially the poor, may be able to benefit from more healthcare. However, medical cost may increase further due to increased demand. Taxes may go up to subsidize this increased spending, so people have less income after taxes. <!--SR:!2024-12-16,60,310!2025-04-21,139,290-->
+> - Medical costs are high. The government decides to offset everyone's medical costs, especially for poor people. ::@:: People, especially the poor, may be able to benefit from more healthcare. However, medical cost may increase further due to increased demand. Taxes may go up to subsidize this increased spending, so people have less income after taxes. <!--SR:!2025-06-18,183,310!2025-04-21,139,290-->
 > - Commercial fishing for tuna kills dolphins. Let's require domestic fisheries to use more expensive nets that lets dolphins escape. ::@:: It may protect the dolphins. However, the price of domestic tuna may increase relative to foreign tuna. This means domestic fisheries may be harmed (e.g. decrease in market share). Also, the average price of (domestic and imported) tuna may rise, so consumers may need to pay more. (The effects are similar to a _tariff_ (like above), but reversed, i.e. imposed on domestic producers instead.) <!--SR:!2024-12-20,64,310!2025-03-02,102,290-->
 > - Drug addiction is a problem. Let's make it a non-problem by legalizing the use of drugs. ::@:: Drugs become more available. This lowers drug prices. People may get addicted to drugs more easily. However, it may decrease enforcement costs, regulate the drug market, and make rehabilitating drug addicts easier. <!--SR:!2025-08-02,234,330!2025-08-01,233,330-->
-> - Drug addiction is a problem. Let's enforce drug laws more strictly. ::@:: Drugs become less available. This increases drug prices. People may get addicted to drugs less easily. However, it may increase drug trafficking activity due to increased profits if succeeded, increasing enforcement costs. Drug addicts may also commit more crimes in order to get money for drugs. <!--SR:!2024-12-16,60,310!2024-12-20,64,310-->
+> - Drug addiction is a problem. Let's enforce drug laws more strictly. ::@:: Drugs become less available. This increases drug prices. People may get addicted to drugs less easily. However, it may increase drug trafficking activity due to increased profits if succeeded, increasing enforcement costs. Drug addicts may also commit more crimes in order to get money for drugs. <!--SR:!2025-08-28,254,330!2024-12-20,64,310-->
 
 ### chapter 2 lecture
 
@@ -111,7 +111,7 @@ tags:
 > Explain the above Randy's decision by using a graph/graphs based on the concept of marginal utility/happiness, consumer surplus and marginal cost that we discussed in lectures. (5 points)
 >
 > - graph: {@{![graph](attachments/Pasted%20image%2020240922170908.png)}@}
-> - solution: {@{Assume Randy has bought the plan for a month. Then his marginal utility curve and marginal cost curve is as in the graph. The marginal cost is zero because he can enjoy unlimited data usage. The marginal utility decreases by assuming the law of diminishing utility. This corresponds to him using the mobile-data on urgent uses first, and then less urgent uses, and continue. The marginal utility stops at zero because (I believe) extra data usage cannot have negative marginal utility, but it does not matter for this analysis. The consumer surplus is the area between marginal utility and marginal cost, and represents the benefit of the mobile-data plan to him before he makes the decision of buying the plan. So we can infer the reason he is happy with the plan is because his consumer surplus in a month exceeds HK$800.}@} <!--SR:!2024-12-16,60,310!2025-04-22,150,310-->
+> - solution: {@{Assume Randy has bought the plan for a month. Then his marginal utility curve and marginal cost curve is as in the graph. The marginal cost is zero because he can enjoy unlimited data usage. The marginal utility decreases by assuming the law of diminishing utility. This corresponds to him using the mobile-data on urgent uses first, and then less urgent uses, and continue. The marginal utility stops at zero because (I believe) extra data usage cannot have negative marginal utility, but it does not matter for this analysis. The consumer surplus is the area between marginal utility and marginal cost, and represents the benefit of the mobile-data plan to him before he makes the decision of buying the plan. So we can infer the reason he is happy with the plan is because his consumer surplus in a month exceeds HK$800.}@} <!--SR:!2025-08-29,255,330!2025-04-22,150,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -166,7 +166,7 @@ tags:
 > 4. Teresa has CA in B and better specializes in B
 >
 > - solution: {@{4}@}
-> - explanation: {@{We only consider CA when thinking what to specialize. For Teresa, his/her opportunity cost for B is $$10 / 20 = 0.5~\text{A/B}$$, while that for Astor is $$30 / 30 = 1~\text{A/B}$$. So Teresa has CA in B and better specializes in B.}@} <!--SR:!2024-12-16,60,310!2024-12-28,72,310-->
+> - explanation: {@{We only consider CA when thinking what to specialize. For Teresa, his/her opportunity cost for B is $$10 / 20 = 0.5~\text{A/B}$$, while that for Astor is $$30 / 30 = 1~\text{A/B}$$. So Teresa has CA in B and better specializes in B.}@} <!--SR:!2025-09-01,258,330!2024-12-28,72,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -298,13 +298,13 @@ See [Hong Kong's waste problem: what is the new charging scheme and how can it c
 
 > Q1. How would waste charging based on the amount of waste work?
 >
-> - solution: {@{It increases the marginal cost of disposing waste from zero to a nonzero positive number. As a result, the marginal utility curve of disposing waste meets its marginal cost curve earlier, assuming the law of decreasing marginal utility holds. A rational person would dispose less waste.}@} <!--SR:!2024-12-16,60,310-->
+> - solution: {@{It increases the marginal cost of disposing waste from zero to a nonzero positive number. As a result, the marginal utility curve of disposing waste meets its marginal cost curve earlier, assuming the law of decreasing marginal utility holds. A rational person would dispose less waste.}@} <!--SR:!2025-06-19,184,310-->
 
 <!-- markdownlint MD028 -->
 
 > Q2. How would waste charging by imposing a fixed fee work?
 >
-> - solution: {@{It would not work. It does not increase the marginal cost of disposing waste from zero. As a result, unless the total utility of disposing waste does not exceed the initial fixed fee, a rational person would pay the fixed fee and still dispose as much as before.}@} <!--SR:!2024-12-16,60,310-->
+> - solution: {@{It would not work. It does not increase the marginal cost of disposing waste from zero. As a result, unless the total utility of disposing waste does not exceed the initial fixed fee, a rational person would pay the fixed fee and still dispose as much as before.}@} <!--SR:!2025-09-02,259,330-->
 
 <!-- markdownlint MD028 -->
 

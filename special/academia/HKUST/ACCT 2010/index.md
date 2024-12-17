@@ -76,7 +76,7 @@ The content is in teaching order.
 - [management accounting](../../../../general/management%20accounting.md)
   - [management accounting](../../../../general/management%20accounting.md) / objectives ::@:: internal reporting <!--SR:!2025-08-28,263,337!2025-08-28,264,337-->
   - [management accounting](../../../../general/management%20accounting.md) / users ::@:: managers <!--SR:!2024-12-30,74,317!2025-09-26,287,337-->
-  - [management accounting](../../../../general/management%20accounting.md) / applications ::@:: budgeting and costs control, drop or retain a segment, equipment replacement, make or buy decision, utilization of constrained resources, etc. <!--SR:!2025-01-18,75,277!2024-12-17,61,277-->
+  - [management accounting](../../../../general/management%20accounting.md) / applications ::@:: budgeting and costs control, drop or retain a segment, equipment replacement, make or buy decision, utilization of constrained resources, etc. <!--SR:!2025-01-18,75,277!2025-08-10,236,297-->
   - [management accounting](../../../../general/management%20accounting.md) / standards, report format ::@:: none, must be clearly presented and logical <!--SR:!2025-05-27,186,317!2024-12-30,74,317-->
 - [§ week 1 review](questions.md#week%201%20review)
 
@@ -126,10 +126,10 @@ The content is in teaching order.
   - [financial transaction](../../../../general/financial%20transaction.md) / principles ::@:: Each transaction affects _at least_ two accounts. The account names and change direction (debit or credit) are identified. Ensure that the account equation holds after a transaction. <!--SR:!2024-12-30,74,317!2025-03-22,137,317-->
   - [accounting equation](../../../../general/accounting%20equation.md) / A restaurant buys meat patties for $6&nbsp;000 in cash. ::@:: A, L, and SE do not change at all. The only change is that the amount under two accounts in A changed in opposite direction, i.e. transferred from the cash asset account to the inventory asset account. <!--SR:!2024-12-30,74,317!2025-08-18,256,337-->
   - [accounting equation](../../../../general/accounting%20equation.md) / A restaurant buys meat patties for $6&nbsp;000 _on credit_ (promise to pay later). ::@:: A increases by $6&nbsp;000, and L increases by $6&nbsp;000, balancing the accounting equation. Upon settlement of the liability (fulfilled the promise to pay), A decreases by $6&nbsp;000, and L decreases by $6&nbsp;000, still balancing the accounting equation. Overall, A, L, and SE do not change. <!--SR:!2024-12-30,74,317!2025-08-24,260,337-->
-- [chart of accounts](../../../../general/chart%20of%20accounts.md) ::@:: list of financial accounts and their identifiers, grouped into categories <!--SR:!2024-12-15,66,317!2025-09-30,290,337-->
+- [chart of accounts](../../../../general/chart%20of%20accounts.md) ::@:: list of financial accounts and their identifiers, grouped into categories <!--SR:!2025-10-08,295,337!2025-09-30,290,337-->
   - [chart of accounts](../../../../general/chart%20of%20accounts.md) / groups ::@:: as an example: assets, liabilities, stockholders' equity, revenues, expenses <!--SR:!2025-09-14,277,337!2025-03-20,122,297-->
   - [chart of accounts](../../../../general/chart%20of%20accounts.md) / assets ::@:: Accounts with "receivable" in the title are __always__ assets. Prepaid expenses is __always__ an asset. <!--SR:!2025-09-21,282,337!2025-07-28,239,337-->
-  - [chart of accounts](../../../../general/chart%20of%20accounts.md) / liabilities ::@:: Accounts with "payable" and "unearned" in the title are __always__ liabilities. <!--SR:!2024-12-16,67,317!2025-09-08,272,337-->
+  - [chart of accounts](../../../../general/chart%20of%20accounts.md) / liabilities ::@:: Accounts with "payable" and "unearned" in the title are __always__ liabilities. <!--SR:!2025-10-13,300,337!2025-09-08,272,337-->
   - [chart of accounts](../../../../general/chart%20of%20accounts.md) / revenues ::@:: Account titles are typically formed by joining their source and then the word "revenue". <!--SR:!2025-09-21,282,337!2025-09-10,274,337-->
   - [chart of accounts](../../../../general/chart%20of%20accounts.md) / expenses ::@:: Account titles are typically formed by joining their source and then the word "expense". The account for inventory sold is typically titled "Cost of Goods Sold". <!--SR:!2025-08-24,259,337!2024-12-30,74,317-->
 - [financial transaction](../../../../general/financial%20transaction.md)
@@ -156,7 +156,7 @@ The content is in teaching order.
   - [§ financial statement analysis](../../../../general/financial%20statement%20analysis.md#financial%20statement%20analysis)
   - [§ financial ratio analysis](../../../../general/financial%20statement%20analysis.md#financial%20ratio%20analysis) ::@:: ratios that show the relationship between two financial variables <!--SR:!2025-01-05,80,334!2025-05-10,174,334-->
   - [financial statement analysis](../../../../general/financial%20statement%20analysis.md) / time series ::@:: analyze over time to see if an entity is getting better or worse, i.e. trend analysis <!--SR:!2025-01-12,81,294!2025-01-05,80,334-->
-  - [financial statement analysis](../../../../general/financial%20statement%20analysis.md) / cross sectional ::@:: analyze at a single point of time across competitors to see if an entity is better or worse than others, i.e. relative strength <!--SR:!2025-03-11,120,314!2024-12-17,61,314-->
+  - [financial statement analysis](../../../../general/financial%20statement%20analysis.md) / cross sectional ::@:: analyze at a single point of time across competitors to see if an entity is better or worse than others, i.e. relative strength <!--SR:!2025-03-11,120,314!2025-06-27,192,314-->
 - [current ratio](../../../../general/current%20ratio.md) ::@:: an liquidity ratio that measures whether a firm has enough resources to meet its short-term obligations <!--SR:!2025-01-06,81,334!2024-12-21,72,334-->
   - [§ current ratio](../../../../general/current%20ratio.md#current%20ratio)
   - [current ratio](../../../../general/current%20ratio.md) / equation ::@:: $$\frac {\text{current assets (CA)} } {\text{current liabilities (CL)} } \,,$$ noting that current assets include current contra-assets. <!--SR:!2025-01-05,80,334!2025-09-23,287,354-->
@@ -566,7 +566,7 @@ The content is in teaching order.
 - grades: ?/100
   - According to past experiences, this professor will probably not release final examination grades.
 - report
-  - HKUST yellow answer book (0?, scary) ::@:: I had just realized that the left-hand side is intended for rough work... You are supposed to write your answers on the right-hand side near the end of the exam. Have I been using it wrongly the whole time? <p> I asked the professor after the exam and he said do not worry about it... Let's hope so. <!--SR:!2024-12-16,5,354!2024-12-16,5,354-->
+  - HKUST yellow answer book (0?, scary) ::@:: I had just realized that the left-hand side is intended for rough work... You are supposed to write your answers on the right-hand side near the end of the exam. Have I been using it wrongly the whole time? <p> I asked the professor after the exam and he said do not worry about it... Let's hope so. <!--SR:!2025-01-09,23,374!2025-01-09,23,374-->
 
 > Dear L456 Students,
 >

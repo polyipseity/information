@@ -363,7 +363,7 @@ return chain.from_iterable(await gather(
 - <span style="color: yellow; background-color: black;">yellow</span> (dilute):@:iron(III) ion <!--SR:!2027-09-13,1183,361-->
 - <span style="color: brown; background-color: white;">brown</span> (concentrated):@:iron(III) ion <!--SR:!2029-01-31,1603,381-->
 - <span style="color: purple; background-color: white;">purple</span>:@:titanium(III) ion <!--SR:!2025-08-06,473,242-->
-- <span style="color: violet;">violet</span>:@:vanadium(II) ion <!--SR:!2024-12-17,127,242-->
+- <span style="color: violet;">violet</span>:@:vanadium(II) ion <!--SR:!2025-10-27,314,242-->
 - <span style="color: red;">red</color>:@:manganese(III) ion <!--SR:!2025-07-03,212,302-->
 
 <!--/pytextgen-->
@@ -441,7 +441,7 @@ return chain.from_iterable(await gather(
 - nitrate ion:@:1- <!--SR:!2027-07-01,1176,270-->
 - nitrite ion:@:1- <!--SR:!2028-08-11,1747,312-->
 - hydrogencarbonate ion:@:1- <!--SR:!2028-08-20,1752,310-->
-- hydrogensulfite ion:@:1- <!--SR:!2024-12-16,746,319-->
+- hydrogensulfite ion:@:1- <!--SR:!2033-12-18,3288,339-->
 - hydrogensulfate ion:@:1- <!--SR:!2025-08-28,863,284-->
 - permanganate ion:@:1- <!--SR:!2025-03-12,226,250-->
 - oxide ion:@:2- <!--SR:!2026-10-22,1271,310-->

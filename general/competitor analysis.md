@@ -127,7 +127,7 @@ pricing: Find suitable prices catering to different market segment and economies
 
 ### when to do
 
-Competitor analysis can be done {@{anytime as needed}@}. For example, it can expose holes in existing products during {@{idea screening}@}, or determine suitable prices during {@{commercialization}@}. <!--SR:!2024-12-15,166,310!2025-04-06,252,341!2025-06-10,269,294-->
+Competitor analysis can be done {@{anytime as needed}@}. For example, it can expose holes in existing products during {@{idea screening}@}, or determine suitable prices during {@{commercialization}@}. <!--SR:!2026-12-01,714,330!2025-04-06,252,341!2025-06-10,269,294-->
 
 ### comparison parameters
 

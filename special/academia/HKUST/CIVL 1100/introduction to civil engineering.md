@@ -17,7 +17,7 @@ The content is in teaching order.
 
 - engineer
   - engineer, according to Wikipedia
-    - engineer jobs ::@:: analyze, _build_, _design_, invent, repair, test <!--SR:!2024-12-17,168,340!2025-07-08,334,378-->
+    - engineer jobs ::@:: analyze, _build_, _design_, invent, repair, test <!--SR:!2027-02-11,786,360!2025-07-08,334,378-->
     - engineer goals ::@:: fulfill functional objectives and requirements <!--SR:!2025-05-14,291,360!2025-02-21,225,360-->
     - engineer limitations ::@:: limited by cost, practicality, regulation, and safety <!--SR:!2024-12-24,195,350!2025-10-08,405,377-->
     - engineer methods ::@:: ingenuity, mathematics, scientific method and outlook <!--SR:!2026-03-11,503,337!2025-10-01,424,385-->
@@ -594,9 +594,9 @@ nuclear
 - agricultural→::@::←architectural <!--SR:!2025-01-31,212,357!2025-06-08,311,372-->
 - architectural→::@::←biomedical <!--SR:!2026-09-02,667,357!2026-11-06,711,360-->
 - biomedical→::@::←ceramic <!--SR:!2026-01-05,426,320!2026-03-07,528,357-->
-- ceramic→::@::←chemical <!--SR:!2024-12-15,154,320!2025-10-27,398,335-->
+- ceramic→::@::←chemical <!--SR:!2026-10-29,681,340!2025-10-27,398,335-->
 - chemical→::@::←civil <!--SR:!2026-01-19,455,337!2024-12-24,194,357-->
-- civil→::@::←computer <!--SR:!2026-06-14,576,354!2024-12-17,189,352-->
+- civil→::@::←computer <!--SR:!2026-06-14,576,354!2027-06-17,912,372-->
 - computer→::@::←electrical <!--SR:!2026-08-12,643,347!2025-01-18,142,315-->
 - electrical→::@::←industrial <!--SR:!2025-01-30,122,301!2025-04-27,178,250-->
 - industrial→::@::←manufacturing <!--SR:!2025-11-26,420,337!2025-08-18,341,332-->
@@ -1101,7 +1101,7 @@ water tower
 - power plant→::@::←storage facility <!--SR:!2025-01-30,185,300!2025-07-03,239,334-->
 - storage facility→::@::←tunnel <!--SR:!2024-12-21,103,280!2025-09-29,392,340-->
 - tunnel→::@::←unusual structure <!--SR:!2025-04-13,206,247!2026-04-05,535,340-->
-- unusual structure→::@::←water tower <!--SR:!2024-12-19,108,290!2024-12-16,28,250-->
+- unusual structure→::@::←water tower <!--SR:!2024-12-19,108,290!2025-03-25,98,270-->
 - water tower→::@::←_(end)_ <!--SR:!2025-11-24,467,387!2025-04-10,214,301-->
 
 <!--/pytextgen-->

@@ -159,7 +159,7 @@ return _chain.from_iterable(await _gather(
 - [flat-bottom(ed) flask](flat-bottom%20flask.md)→::@::←[gas jar/pneumatic trough](pneumatic%20trough.md) <!--SR:!2026-09-04,640,250!2024-12-20,54,150-->
 - [gas jar/pneumatic trough](pneumatic%20trough.md)→::@::←[glass stirring rod/glass rod/stir(ring) rod](glass%20rod.md) <!--SR:!2025-07-19,305,190!2027-10-26,1106,290-->
 - [glass stirring rod/glass rod/stir(ring) rod](glass%20rod.md)→::@::←[graduated pipette](graduated%20pipette.md) <!--SR:!2024-12-29,134,210!2025-07-09,258,150-->
-- [graduated pipette](graduated%20pipette.md)→::@::←[heat-resistant mat/heatproof mat](heatproof%20mat.md) <!--SR:!2025-05-19,472,250!2024-12-16,46,170-->
+- [graduated pipette](graduated%20pipette.md)→::@::←[heat-resistant mat/heatproof mat](heatproof%20mat.md) <!--SR:!2025-05-19,472,250!2025-03-08,81,170-->
 - [heat-resistant mat/heatproof mat](heatproof%20mat.md)→::@::←[measuring cylinder/graduated cylinder/mixing cylinder](graduated%20cylinder.md) <!--SR:!2027-07-04,1046,290!2025-05-25,272,250-->
 - [measuring cylinder/graduated cylinder/mixing cylinder](graduated%20cylinder.md)→::@::←[mortar and pestle](mortar%20and%20pestle.md) <!--SR:!2025-02-12,61,150!2026-07-27,697,250-->
 - [mortar and pestle](mortar%20and%20pestle.md)→::@::←[pipeclay triangle](pipeclay%20triangle.md) <!--SR:!2025-06-25,356,230!2026-08-20,785,270-->
@@ -174,7 +174,7 @@ return _chain.from_iterable(await _gather(
 - [test tube](test%20tube.md), boiling tube→::@::←[test tube brush](test%20tube%20brush.md) <!--SR:!2028-07-27,1514,350!2028-08-13,1528,350-->
 - [test tube brush](test%20tube%20brush.md)→::@::←[test tube holder](test%20tube%20holder.md) <!--SR:!2026-02-24,631,270!2025-11-25,442,310-->
 - [test tube holder](test%20tube%20holder.md)→::@::←[test tube rack](test%20tube%20rack.md) <!--SR:!2027-06-05,1029,290!2025-01-07,428,290-->
-- [test tube rack](test%20tube%20rack.md)→::@::←[thermometer](thermometer.md) <!--SR:!2024-12-15,36,150!2025-08-18,290,210-->
+- [test tube rack](test%20tube%20rack.md)→::@::←[thermometer](thermometer.md) <!--SR:!2025-02-11,56,150!2025-08-18,290,210-->
 - [thermometer](thermometer.md)→::@::←[tripod](tripod.md) <!--SR:!2025-05-10,354,270!2027-06-03,1008,290-->
 - [tripod](tripod.md)→::@::←[volumetric flask](volumetric%20flask.md) <!--SR:!2024-12-23,35,130!2025-04-05,511,310-->
 - [volumetric flask](volumetric%20flask.md)→::@::←[volumetric pipette/bulb pipette/belly pipette](volumetric%20pipette.md) <!--SR:!2024-12-19,123,230!2025-07-22,447,270-->
@@ -292,7 +292,7 @@ return _chain.from_iterable(await _gather(
 - [graduated pipette](graduated%20pipette.md):@:Rinse the equipment with deionized [water](water.md) and then the [solution](solution.md) to be delivered. <!--SR:!2024-12-23,382,250-->
 - [test tube](test%20tube.md), boiling tube:@:boiling tube: scaled-up to avoid [bumping](bumping%20(chemistry).md) <!--SR:!2027-12-10,1334,350-->
 - [volumetric flask](volumetric%20flask.md):@:Rinse the equipment with deionized [water](water.md) before use. <!--SR:!2024-12-24,471,310-->
-- [volumetric pipette/bulb pipette/belly pipette](volumetric%20pipette.md):@:Rinse the equipment with deionized [water](water.md) and then the [solution](solution.md) to be delivered. <!--SR:!2024-12-15,463,310-->
+- [volumetric pipette/bulb pipette/belly pipette](volumetric%20pipette.md):@:Rinse the equipment with deionized [water](water.md) and then the [solution](solution.md) to be delivered. <!--SR:!2028-11-16,1430,310-->
 
 <!--/pytextgen-->
 

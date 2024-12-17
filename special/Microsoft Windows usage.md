@@ -13,7 +13,7 @@ tags:
 
 - pop up window menu::@::Alt+Space <!--SR:!2025-06-11,474,250!2025-07-09,582,270-->
 - close window::@::<ul><li>Alt+F4</li><li>Alt+Space, C</li></ul> <!--SR:!2026-01-06,697,270!2027-01-10,936,270-->
-- restore window size::@::Alt+Space, R <!--SR:!2027-04-26,998,270!2024-12-17,350,210-->
+- restore window size::@::Alt+Space, R <!--SR:!2027-04-26,998,270!2026-12-23,736,210-->
 - move window::@::Alt+Space, M, ↑/↓/←/→, ↵Enter <!--SR:!2027-02-20,979,270!2025-12-19,819,330-->
 - resize window::@::Alt+Space, S, ↑/↓/←/→, ↵Enter <!--SR:!2025-02-20,143,170!2025-06-22,631,290-->
 - move window to bottom::@::Alt+Esc <!--SR:!2024-12-23,406,230!2025-07-11,362,250-->
