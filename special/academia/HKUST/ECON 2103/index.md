@@ -538,7 +538,6 @@ The content is in teaching order.
     - tax revenue / factors ::@:: Does a higher tax rate brings more tax revenue? Not necessarily! As tax increases, deadweight loss increases at an increasingly fast rate. Eventually, the deadweight loss reduces the tax revenue by too much. Imagine 100% tax rate: No one will produce and consume, so there is no tax revenue. <p> This can be seen in a supply and demand graph as well. As tax increases, quantity increasingly move to the left, approaching zero. This is the decrease in tax revenue due to deadweight loss. <p> The __Laffer curve__ illustrates a theoretical relationship between rates of taxation and the resulting levels of the government's tax revenue.
       - [Laffer curve](../../../../general/Laffer%20curve.md) ::@:: It illustrates a theoretical relationship between rates of taxation and the resulting levels of the government's tax revenue. It assumes that no tax revenue is raised at the extreme tax rates of 0% and 100%, meaning that there is a tax rate between 0% and 100% that maximizes government tax revenue.
 - [questions § chapter 8 lecture](questions.md#chapter%208%20lecture)
-<!-- TODO: to page 41 -->
 
 ## week 8 tutorial
 
@@ -551,10 +550,60 @@ The content is in teaching order.
 ## week 8 lecture 2
 
 - datetime: 2024-10-25T12:00:00+08:00/2024-10-25T13:20:00+08:00
+- announcements
+  - assigned reading: textbook chapter 13
+  - assignment: [problem set 9](assignments/problem%20set%209/submission.md)
+- [theory of the firm](../../../../general/theory%20of%20the%20firm.md) ::@:: It consists of a number of economic theories that explain and predict the nature of the firm, company, or corporation, including its existence, behaviour, structure, and relationship to the market.
+  - theory of the firm / history ::@:: Ronald Coase, Oliver E. Williamson
+  - theory of the firm / Ronald Coase ::@:: A firm buys raw materials, components, and professional services from others. Why does it not do all of these by itself? According to this economist, when transactions mediated over the market is too costly (e.g. contract, legal system, verification), firms can serve as an alternative to the market-price mechanism when it is more efficient to produce in a non-market environment. <p> Thus he focused on the _cost of make-or-buy_.
+    - theory of the firm / Ronald Coase / example ::@:: When you buy from Apple, technically you are buying the design from Apple, hardware from suppliers, etc. But the transaction costs of doing the above is too high, so you directly buy from Apple without interacting with other firms.
+  - theory of the firm / Oliver E. Williamson ::@:: Firms solve some problem with arm's-length market. For example, a coal mine depends on a railroad line. If these two are owned separately, opportunistic behavior arises (given the coal mine needs the railroad line, and the railroad line's only use is the coal mine). Vertical integration, i.e. both are owned by the same firm, solves this problem. Previously, vertical integration was believed to be a way _only_ to acquire market power. <p> Thus he focused on the _cost of governance_.
+    - asset specificity ::@:: But where should this vertical integration stop? It depends on the _specificity_ of assets. In the example above, both assets are very _specific_ to each other as they have no or much worse second-best uses.
+    - arm's-length transaction ::@:: Business transactions in which buyers and sellers act independently without one party influencing the other.
+  - theory of the firm / extensions ::@:: From thinking out of the black box of firms, we also have _contract theory_ and _outsourcing and supply chain_.
+- profit
+  - profit / types ::@:: two major types: accounting profit, economic profit
+  - [accounting profit](../../../../general/profit%20(accounting).md) ::@:: It is an income distributed to the owner in a profitable market production process (business). <p> In other words, accounting revenue minus accounting expenses (this glosses over accounting-specific terms). They are _explicit_ costs that appear on a firm's financial statements.
+  - [economic profit](../../../../general/profit%20(economic).md) ::@:: It is the difference between revenue that an economic entity has received from its outputs and total costs of its inputs, also known as _surplus value_. It is equal to total revenue minus total cost, including both _explicit_ and _implicit_ costs. <p> Therefore, economic profit is smaller than accounting profit.
+    - economic profit / example ::@:: You earn \$9&nbsp;000 monthly. You want to setup a photography school instead, which has an estimated revenue of \$30&nbsp;000 monthly and estimated expense of \$20&nbsp;000 monthly. <p> Accounting profit is \$10&nbsp;000 monthly, while economic profit is \$1&nbsp;000 monthly. <p> Question: What happens if you earn \$10&nbsp;000 monthly instead? \$11&nbsp;000?
+- [production function](../../../../general/production%20function.md) ::@:: It shows the relationship between the _quantity of inputs_ used to produce a good and the _quantity of output_ of that good. <p> It can be represented by a table, equation, or graph.
+  - production function / __format__: table ::@:: Column headers name the input on the left and the output on the right. Each row gives the input on the left and the corresponding output on the right. The rows have increasing input.
+  - production function / __format__: graph ::@:: Draw a _xy_ graph. The _x_-axis shows the input with its name (e.g. number of workers). The _y_-axis shows the output with its name (e.g. quantity of output). Plot the data points and connect the dots.
+- [marginal product](../../../../general/marginal%20product.md) ::@:: It is the increase in output arising from an additional unit of that input, _holding all other inputs constant_ (_ceteris paribus_). <p> If the input is labor, we have the __marginal product of labor__ (__MPL__): $$MPL = \frac {\Delta Q} {\Delta L} \,.$$
+  - marginal product / importance ::@:: Remember, _rational_ people think at the margin. This concept can help producers decide whether to increase input by comparing it against marginal costs (MC).
+- [diminishing returns](../../../../general/diminishing%20returns.md) ::@:: It is the _decrease in marginal (incremental) output_ of a production process as the amount of a single factor of production is incrementally increased, holding all other factors of production equal (_ceteris paribus_).
+- [total cost](../../../../general/total%20cost.md) ::@:: It is the _minimum financial cost_ of producing some quantity of output. This is the _total economic cost of production_ and is made up of _variable cost_, which varies according to the quantity of a good produced and includes inputs such as labor and raw materials, plus _fixed cost_, which is independent of the quantity of a good produced and includes inputs that cannot be varied in the short term such as buildings and machinery, including possibly _sunk costs_.
+  - total cost / __format__: table ::@:: Usually, the table columns are in this order: quantity (Q), fixed costs (FC), variable costs (VC), total costs (TC), marginal costs (MC), average fixed costs (AFC), average variable costs (AVC), average total costs (ATC). Omitting some of them or reordering them are fine.
+- [variable cost](../../../../general/variable%20cost.md) ::@:: They are costs that change as the quantity of the good or service that a business produces changes. Variable costs are the sum of marginal costs over all units produced. They can also be considered normal costs.
+- [fixed cost](../../../../general/fixed%20cost.md) ::@:: They are business expenses that are not dependent on the level of goods or services produced by the business. They tend to be recurring, such as interest or rents being paid per month. These costs also tend to be capital costs.
+- [marginal cost](../../../../general/marginal%20cost.md) ::@:: It is the change in the total cost that arises when the quantity produced is increased, i.e. the cost of producing additional quantity. In some contexts, it refers to an increment of one unit of output, and in others it refers to the rate of change of total cost as output is increased by an infinitesimal amount. <p> For the discrete case, this is: $$MC = \frac {\Delta TC} {\Delta Q} \,.$$
+  - marginal cost / importance ::@:: Remember, _rational_ people think at the margin. This concept can help producers decide whether to increase input by comparing it against marginal products (MP).
+  - marginal cost / __format__: table ::@:: Since marginal cost is computed from the difference of two total costs at two consecutive quantities, it is better to move the column (except for the column header) down by 0.5 rows.
+  - marginal cost / __format__: graph ::@:: Since marginal cost is computed from the difference of two total costs at two consecutive quantities, it is better to plot the points on _Q_ = 0.5, 1.5, 2.5, etc. instead
+- [average cost](../../../../general/average%20cost.md) ::@:: $$AC = \frac {TC} Q$$ <p> There are variants for total costs (TC), ATC; fixed costs (FC), AFC; and variable costs (VC), AVC. <p> Note that it is undefined when quantity is 0. So no need to plot the average costs or show them on a table when the quantity is 0.
+  - average cost / equality relation ::@:: $$AFC + AVC = ATC$$ <p> This is evident mathematically...
+- [questions § chapter 13 lecture](questions.md#chapter%2013%20lecture)
 
 ## week 9 lecture
 
 - datetime: 2024-10-28T16:30:00+08:00/2024-10-28T17:50:00+08:00
+- [average cost](../../../../general/average%20cost.md)
+  - average cost / graph ::@:: It looks like U-shaped. Whenever MC < AVC/ATC, AVC/ATC is falling. Whenever MC > AVC/ATC, AVC/ATC is rising. (Choose either AVC or ATC.) <p> The __efficient scale__ is the quantity that minimizes ATC. <p> It can also be interpreted as the slope (but _not_ derivative) from the origin to a point on the TC curve.
+- [marginal cost](../../../../general/marginal%20cost.md)
+  - marginal cost / graph ::@:: It looks like U-shaped. It must go through the minimum of the AVC curves and ATC curves. It reaches its minimum before the minimum of the AVC and ATC curves. (This is evident if you think about it mathematically...) <p> It can also be interpreted as the slope (derivative) of the TC curve.
+- [long run and short run](../../../../general/long%20run%20and%20short%20run.md) ::@:: In economics, the __long-run__ is a theoretical concept in which _all markets_ are in equilibrium, and _all prices and quantities_ have fully adjusted and are in equilibrium. The long-run contrasts with the __short-run__, in which there are some constraints and markets are not fully in equilibrium.
+  - long run and short run / microeconomics ::@:: There are no _fixed factors of production_ in the __long-run__, and there is enough _time_ for adjustment so that there are no constraints preventing _changing the output level_ by _changing the capital stock or by entering or leaving an industry_. This contrasts with the __short-run__, where some factors are _variable (dependent on the quantity produced)_ and others are _fixed (paid once)_, constraining entry or exit from an industry.
+- [average cost](../../../../general/average%20cost.md)
+  - average cost / long run ::@:: The ATC at any Q in the _long run_ is cost per unit using the most efficient mix of inputs for that Q (e.g., the factory size with the lowest ATC). That is, the ATC curve is a horizontal line.
+- [cost curve](../../../../general/cost%20curve.md) ::@:: It is a graph of the costs of production as a function of total quantity produced.
+  - cost curve / types ::@:: short run (SR), long run (LR)
+  - cost curve / short run (SR) ::@:: Add "short run" ("SR") before each of the following: fixed cost (FC), variable cost (VC), total cost (TC), marginal cost (MC), average fixed cost (AFC), average variable cost (AVC), average total cost (ATC).
+    - cost curve / short run (SR) / shifts ::@:: prices of factors of production, technology
+      - cost curve / short run (SR) / shifts / prices of factors of production ::@:: Either FC or VC increases. If FC increases, the FC, TC, AFC, and ATC curves shift up. If VC increases, the VC, TC, AVC, ATC, and MC curves shift up.
+      - cost curve / short run (SR) / shifts / technology ::@:: Both cost and product curves are affected. For example, FC increases due to more expensive technology, but VC decreases due to less labor needed. In this case, ATC increases at low output level but decreases at high output levels. <p> Using the example above, the ATC curve starts at a higher point than the old ATC curve, but increases more slowly such that it eventually falls behind the old ATC curve.
+  - cost curves / long run (LR) ::@:: Add "long run" ("LR") before each of the following: total cost (TC), marginal cost (MC), average total cost (ATC).
+    - cost curves / long run / example ::@:: Say we have 4 factories, each with a different SRATC curve. We want to choose 1 factory to put labor in to produce. <p> Plot the SRATc curves. In the long run, we can vary move labors to an arbitrary factory. So when deciding to output a certain amount, we always choose the factory with the lowest SRATC. So the LRATC is the lowest SRATC curve for each output level.
+    - cost curves / long run / scale ::@:: The __minimum efficient scale__ is given by the lowest point of the LRATC. Anything before that is __economies of scale__. Anything after that is __diseconomies of scale__.
 
 ## week 9 tutorial
 
@@ -565,6 +614,36 @@ The content is in teaching order.
 ## week 9 lecture 2
 
 - datetime: 2024-11-01T12:00:00+08:00/2024-11-01T13:20:00+08:00
+- [economies of scale](../../../../general/economies%20of%20scale.md) ::@:: When output increases, LRATC falls.
+  - economies of scale / causes ::@:: better specialization, bulk buying discount, more options or flexibility (different combination of inputs) in organization production activities
+- [diseconomies of scale](../../../../general/diseconomies%20of%20scale.md) ::@:: When output increases, LRATC rises.
+  - diseconomies of scale / causes ::@:: coordination problem in large organization due to complexity
+- constant returns to scale ::@:: When output increases, LRATC remains unchanged.
+- [questions § chapter 13 lecture](questions.md#chapter%2013%20lecture)
+- announcements
+  - assigned reading: textbook chapter 14
+  - assignment: [problem set 10](assignments/problem%20set%2010/submission.md)
+- [questions § chapter 14 lecture](questions.md#chapter%2014%20lecture)
+- [profit maximization](../../../../general/profit%20maximization.md) ::@:: It is the short run or long run process by which a firm may determine the price, input and output levels that will lead to the highest possible total profit (or just profit in short).
+  - profit maximization / mathematics ::@:: $$\mathrm{profit} = TR - TC$$
+- [total revenue](../../../../general/total%20revenue.md) ::@:: It is the total receipts a seller can obtain from selling goods or services to buyers. It can be written as P × Q, which is the price of the goods multiplied by the quantity of the sold goods. <p> $$TR = P \times Q$$
+  - total revenue / __format__: table ::@:: To describe revenue, the column headers are usually: quantity (Q), price (P), total revenue (TR), average revenue (AR), marginal revenue (MR)
+- [marginal revenue](../../../../general/marginal%20revenue.md) ::@:: It is a central concept in microeconomics that describes the additional total revenue generated by increasing product sales by 1 unit. <p> $$MR = \frac {\Delta TR} {\Delta Q}$$
+  - average revenue ::@:: $$AR = \frac {TR} Q = P$$ <p> Note it is undefined when quantity is 0. Also, it equaling the equilibrium price is only true if _the firm is in a perfect competitive market_.
+  - marginal revenue / __format__: table ::@:: Since marginal revenue compares two different quantities and prices, it is best to move the column (except header) down by 0.5 rows.
+- profit maximization
+  - profit maximization / marginalism ::@:: If MR > MC, sell more to increase profit. If MR < MC, sell less to increase profit. When MR = MC, profit is maximized. So in a way, (SR)MC is a _firm's (short run) supply curve_ (truncated below the minimum of the (SR)AVC curve).
+- [shutdown](../../../../general/shutdown%20(economics).md) ::@:: Technically, it occurs if _average revenue_ is below _average variable cost_ at the _profit-maximizing positive level of output_. Producing anything would not generate enough revenue to offset the associated _variable costs_ (The fixed cost is ignored because it is usually a _sunk cost_.); producing some output would add further costs in excess of revenues to the costs inevitably being incurred (the fixed costs). By not producing, the firm _loses only the fixed costs_. (In the long run, _exiting_ (not _shutdown_) the market incurs no costs, not even fixed costs.)
+  - shutdown vs. exit ::@:: The former is a short run decision: to not produce anything. The latter is a long run decision: to leave the market.
+  - shutdown / graph ::@:: In a _perfectly competitive market_, price equals the marginal revenue at all points. So MR curve is a horizontal line. We shutdown when the MR curve is below the minimum of the SRAVC curve. FC (thus SRATC) is ignored because it is usually a sunk cost. Otherwise, we produce to the quantity where MR = MC. So MR above the minimum of the SRAVC is the _firm's SR supply curve_.
+- [break-even point](../../../../general/break-even%20point.md) ::@:: It is the minimum of the SRATC curve. If MR intersects at this point, then there is neither economic profit nor economic loss, taking the FC into consideration. <p> Economic profit/loss is the rectangle enclosed by the MR curve, the quantity vertical line, and the corresponding point on the ATC extended into an infinite horizontal line.
+- entry & exit ::@::  This assumes the market is _perfectly competitive_, i.e. there are no barriers to entry and exit.
+  - exit ::@:: In the long run, all costs are variable. So we only consider TC. So a firm exits if TR < TC => P < ATC in order to cut losses. This assumes the market is _perfectly competitive_.
+  - entry ::@:: In the long run, all costs are variable. So we only consider TC. So a firm enters if TR > TC => P > ATC in order to make more profit. This assumes the market is _perfectly competitive_.
+  - entry & exit / efficiency ::@:: Assuming all firms are the _same_ and the market is _perfectly competitive_. <p> All firms have to produce at the base of the LRATC (efficient scale) in the _long run_. All firms make zero _economic profit_ (but they stay in business due to positive _accounting profit_). This also implies the _long run market supply_ is a horizontal line.
+    - entry & exit / efficiency / reason ::@:: Assuming all firms are the _same_ and the market is _perfectly competitive_. <p> If firms make positive economic profit, more firms enter. This increases market supply, so equilibrium price decreases, decreasing MR. Eventually enough firms enter to drive the price to zero economic profit. The reverse happens if firms make negative economic profit. In both cases, the price is eventually driven such that firms make zero economic profit.
+    - entry & exit / efficiency / conditions ::@:: The above assumes all firms are the _same_ and costs do not change as firms enter or exit the market. If either of this is not true, the LR supply curve can slope upward. <p> This is because lower cost firms will enter first. As price rises, increasingly higher cost firms will enter. The end result is that the marginal form has zero economic profit while all other lower cost firms have positive economic profit. <p> Alternatively, the upward LR supply curve can be interpreted as that consumers have to pay a higher price to induce more firms to enter the market (to produce). A horizontal curve means consumers do not need to do so.
+- [questions § chapter 14 lecture](questions.md#chapter%2014%20lecture)
 
 ## week 10 lecture
 
@@ -573,12 +652,45 @@ The content is in teaching order.
 ## week 10 tutorial
 
 - datetime: 2024-11-05T17:00:00+08:00/2024-11-05T17:50:00+08:00
+- status: canceled
 - [§ week 9 lecture 2](#week%209%20lecture%202)
 - [§ week 10 lecture](#week%2010%20lecture)
 
 ## week 10 lecture 2
 
 - datetime: 2024-11-08T12:00:00+08:00/2024-11-08T13:20:00+08:00
+- announcements
+  - assigned reading: textbook chapter 15
+  - assignment: [problem set 11](assignments/problem%20set%2011/submission.md)
+- [imperfect competition](../../../../general/imperfect%20competition.md) ::@:: It refers to a situation where the characteristics of an economic market do not fulfil all the necessary conditions of a perfectly competitive market. Imperfect competition causes market inefficiencies, resulting in market failure.
+  - imperfect competition / types ::@:: monopoly (e.g. De Beers diamonds), duopoly (e.g. credit cards, soft drinks), oligopoly (e.g. automobiles), monopolistic competition (e.g. hair stylists, restaurants)
+- [monopoly](../../../../general/monopoly.md) ::@:: It is the only firm in the market, it faces the whole market demand curve. <p> (Reminder: A competitive firm's demand is perfect elastic (horizontal line at market equilibrium price).)
+  - monopoly / effect ::@:: The market demand curve restricts a monopolist. The output effect refers to higher output raising revenue. The price effect refers to higher output leading to lower price, reducing revenue.
+  - monopoly / causes ::@:: There likely exists _barriers to entry_.
+- [market power](../../../../general/market%20power.md) ::@:: It refers to the ability to raise prices without losing all customers. <p> Perfectly competitive firms face a perfectly elastic (firm) demand curve, so it has no power, hence they are called _price takers_. Otherwise, they are called _price setters_.
+- [price discrimination](../../../../general/price%20discrimination.md) ::@:: Monopoly that have (some) information about the WTP of different customers can even charge different prices for different buyers according to their WTP.
+- [barriers to entry](../../../../general/barriers%20to%20entry.md) ::@:: Usually, they are: monopoly resources, government regulation, and production process.
+  - barriers to entry / monopoly resources ::@:: A key resource for production is owned by a single firm. <p> For example, De Beers owns most of the world's diamond mines.
+  - barriers to entry / government regulation ::@:: The government gives a single firm the exclusive right to produce some good or service. (Also see [legal monopoly](../../../../general/legal%20monopoly.md).) <p> Examples include copyright, patents, etc.
+    - [legal monopoly](../../../../general/legal%20monopoly.md) ::@:: It is a monopoly that is protected by law from competition.
+  - barriers to entry / production process ::@:: A single firm can produce output at a lower cost than can a larger number of producers. This may happen if FC is high but MC is low. (Also see [natural monopoly](../../../../general/natural%20monopoly.md).) <p> Examples include electricity, or industries with a decreasing or flat ATC curve for a wide range of output level. (Forever decreasing ATC may be rare...)
+    - [natural monopoly](../../../../general/natural%20monopoly.md) ::@:: It is is a monopoly in an industry in which high infrastructural costs and other barriers to entry relative to the size of the market give the largest supplier in an industry, often the first supplier in a market, an overwhelming advantage over potential competitors. Specifically, an industry is a natural monopoly if the total cost of one firm, producing the total output, is lower than the total cost of two or more firms producing the entire production.
+- [monopoly](../../../../general/monopoly.md)
+  - monopoly / marginal revenue ::@:: The MR for a monopoly is negatively sloping, and slopes more than the market demand curve (in fact, twice the absolute slope). It can even be negative. This is because increasing output increases MR by selling more, but decreases MR because previously sold units have to be sold at a reduced price, following the market demand curve. (This assumes the firm cannot practice _price discrimination_...) <p> Mathematically, differentiate the TR equation.
+  - monopoly / __format__: table ::@:: When calculating MR in a table, remember to add the price column as well!
+  - monopoly / profit maximization ::@:: We still follow MR = MC. But the intersection of MR = MC is different than that in a perfectly competitive market. Also, the price P needs to be found after calculating the quantity first, instead of the other way around. <p> Also, MR is not necessarily the equilibrium price P. In fact, there is no supply curve for a monopoly, since the monopolist is not faced with any price: changing the output and affect the price. So there is not even an equilibrium price.
+    - monopoly / profit maximization / demand elasticity ::@:: Assume the demand curve is linear. MR = 0 at the point where demand elasticity of the is exactly 1 (remember the definition of demand elasticity). This is the quantity produced if MC = 0. If MC > 0, then less will be produced, so the demand curve at said quantity is elastic.
+  - monopoly / equation ::@:: $$\begin{aligned} P & = a - bQ \\ TR & = P \times Q = aQ - bQ^2 \\ MR & = TR' = a - 2bQ \end{aligned}$$
+  - monopoly / deadweight loss ::@:: Since the MR curve meets the MC curve at a quantity less than the quantity where the MC curve meets the demand curve (the competitive equilibrium quantity), so there will be deadweight loss. <p> The consumers are obviously unhappy. The monopolist is okay, because the consumer surplus transferred to the producer surplus exceeds the producer surplus loss from the deadweight loss. This is a type of _rent-seeking_: increase in the monopolist's surplus without increasing total surplus.
+    - [rent-seeking](../../../../general/rent-seeking.md) ::@:: It is the act of growing one's existing wealth by manipulating the social or political environment without creating new wealth.
+- [price discrimination](../../../../general/price%20discrimination.md) ::@:: It is a microeconomic pricing strategy where identical or largely similar goods or services are sold at different prices by the same provider to different buyers based on which market segment they are perceived to be part of.
+  - price discrimination / classification ::@:: personalized pricing (first-degree price differentiation), product versioning (second-degree price differentiation), group pricing (third-degree price differentiation)
+  - perfect price discrimination ::@:: It is selling to each customer at a different price; this is also called one-to-one marketing. The optimal incarnation of this is called "perfect price discrimination" and maximizes the price that each customer is willing to pay. As such, in "first degree" price differentiation the entire consumer surplus is captured for each individual.
+    - perfect price discrimination / conditions ::@:: It requires a monopolist to know all buyers' WTP. Also no resale of goods between different buyers (arbitrage). So in practice, it is very difficult.
+    - perfect price discrimination / graph ::@:: The demand curve becomes the MR curve. The quantity produced is the same as the competitive equilibrium quantity again, so deadweight loss is eliminated. But producer surplus captures all surplus, and there is no consumer surplus.
+  - group pricing ::@:: age-based discounts, coupons (raise prices without affecting low-income groups, since low-income groups collect coupons, while high-income groups find it not worth the time), different prices in different countries (due to different income levels), financial aid for low income family by universities and colleges, premium airline tickets (e.g. business class)
+  - price discrimination / non-examples ::@:: Price differences that arise from cost differences, e.g. peak-Hour price for transportation: more workers to maintain the services; VIP room in restaurants: better services and decorations.
+- [questions § chapter 15 lecture](questions.md#chapter%2015%20lecture)
 
 ## midterm examination
 
@@ -615,6 +727,151 @@ The content is in teaching order.
   - datetime: 2024-11-22T15:30:00+08:00/2024-11-22T17:30:00+08:00, PT2H
     - timeslot: 2024-11-22T16:20:00+08:00/2024-11-22T16:30:00+08:00, PT10M
   - venue: Room 5047, LSK Bldg
+
+## week 11 lecture
+
+- datetime: 2024-11-11T16:30:00+08:00/2024-11-11T17:50:00+08:00
+- [monopoly](../../../../general/monopoly.md)
+  - monopoly / regulation ::@:: do nothing, regulate pricing (price ceiling), regulate by ownership (government-owned)
+    - monopoly / regulation / motivations ::@:: to prevent monopoly from extending its monopoly power to other goods, to prevent monopoly appearance to promote competitions
+    - monopoly / regulation / examples ::@:: Anti-competition laws would likely have blocked the merge of Coca-Cola and Pepsi. Antitrust laws make Microsoft cannot pre-install Internet Explore (IE) with Window products.
+    - monopoly / regulation / difficulties ::@:: Merge may lower production cost for efficiency. But it may make a monopoly which leads to inefficiency. It is hard to balance the benefits and costs. There will be disagreements between firms and governments, and resolving this by court is costly.
+    - monopoly / regulation / regulate pricing ::@:: Lower price and push quantity produced towards the competitive equilibrium quantity. Pricing cannot exceed certain level according to certain measurements: Usually on monopoly's profitability, such as return of capital/equity. Two main methods exist: MC pricing and AC pricing.
+      - monopoly / regulation / regulate pricing / MC pricing ::@:: Assume MC curve is lower than the ATC curve. <p> If the price is regulated to be the marginal cost, then the monopolist will produce the competitive equilibrium quantity, but at a economic loss. The government would probably subsidy the loss.
+      - monopoly / regulation / regulate pricing / AC pricing ::@:: Assume MC curve is lower than the ATC curve. <p> If the price is regulated such that the monopolist makes zero economic profit, then the monopolist will produce more than the profit maximizing quantity but less than the competitive equilibrium quantity. Thus there is still deadweight loss, but less than unregulated.
+    - monopoly / regulation / regulate by ownership ::@:: The government owns the monopolist. So profit is no longer the only objective, and there are other objectives. <p> But many cases shown that inefficiency, including expensive (ironically), less varieties, poor quality, would be the likely outcome...
+    - monopoly / regulation / do nothing ::@:: In the spirit of the Chicago School tradition, cost from regulating monopoly is larger than the inefficiency due to lacking competition. <p> Further, firms will try to do price discrimination (perfect would lead to zero deadweight loss), and this tends to move the quantity to the competitive equilibrium quantity, reducing deadweight loss.
+- [questions § chapter 15 lecture](questions.md#chapter%2015%20lecture)
+- announcements
+  - assigned reading: textbook chapter 15
+  - assignment: [problem set 12](assignments/problem%20set%2012/submission.md)
+- [oligopoly](../../../../general/oligopoly.md) ::@:: It is a market in which pricing control lies in the hands of a few sellers. <p> In such a situation, _strategic behaviors_ arise: A firm's decisions (for example, on P or Q) depend on other firms' decisions. _Game theory_ may be used to study this.
+  - oligopoly / strategic interaction ::@:: In a monopoly, there is no one else to interact. In a perfectly competitive market, you will not care about what others are doing. You only care about the equilibrium market price. <p> So this is why such interaction arises in duopoly or oligopoly only.
+- [game theory](../../../../general/game%20theory.md) ::@:: It is the study of [mathematical models](../../../../general/mathematical%20model.md) of strategic interactions. <p> It studies players (decision makers), strategies (players' complete plan of actions), and payoffs (outcomes, which can be rewards or punishments). Usually there are two players, but any number of players can be analyzed.
+  - game theory / strategy ::@:: A plan of action that describes what a player will do "in every circumstance" that can observe.
+- [battle of the sexes](../../../../general/battle%20of%20the%20sexes%20(game%20theory).md) ::@:: Imagine that a man and a woman hope to meet this evening, but have a choice between two events to attend: a prize fight and a ballet. The man would prefer to go to prize fight. The woman would prefer the ballet. Both would prefer to go to the same event rather than different ones. If they cannot communicate, where should they go?
+  - battle of the sexes / relation to business ::@:: It is a game-theory model of coordination in business.
+- [Nash equilibrium](../../../../general/Nash%20equilibrium.md) ::@:: In [game theory](../../../../general/game%20theory.md), it is the most commonly-used [solution concept](../../../../general/solution%20concept.md) for [non-cooperative games](../../../../general/non-cooperative%20game%20theory.md). It is a situation where no player could gain by changing their own strategy \(holding all other players' strategies fixed\). <p> If each player has chosen a [strategy](../../../../general/strategy%20(game%20theory).md) – an action plan based on what has happened so far in the game – and no one can increase one's own expected payoff by changing one's strategy while the other players keep theirs unchanged, then the current set of strategy choices constitutes this. <p> Note that the strategy may be pure (one could also considered pure as a degenerate form of mixed) or mixed.
+- [strategy](../../../../general/strategy%20(game%20theory).md)
+  - [strategy](../../../../general/strategy%20(game%20theory).md) / pure strategy ::@:: It means a strategy where the player must play a particular strategy from their strategy set.
+  - [strategy](../../../../general/strategy%20(game%20theory).md) / mixed strategy ::@:: It means a strategy where the player plays a strategy in their strategy set with a probability. Pure strategy can be treated as a degenerate form of mixed strategy, where one strategy is assigned the probability of 1 and the rest assigned 0. <p> In this context, the payoff may be called _expected payoff_ instead.
+- [prisoners' dilemma](../../../../general/prisoners'%20dilemma.md) ::@:: It is a [game theory](../../../../general/game%20theory.md) thought experiment involving two [rational agents](../../../../general/rational%20agent.md), each of whom can either cooperate for mutual benefit or betray their partner \("defect"\) for individual gain. The dilemma arises from the fact that while defecting is rational for each agent, cooperation yields a higher payoff for each.
+  - prisoners' dilemma / relation to business ::@:: It illustrates how difficult it is for competing firms to cooperate with each other. <p> Whatever they have agreed to, each player can do better by cheating (following self-interest).
+- [strategy](../../../../general/strategy%20(game%20theory).md)
+  - [strategic dominance](../../../../general/strategic%20dominance.md) ::@:: In [game theory](../../../../general/game%20theory.md), it is a [strategy](../../../../general/strategy%20(game%20theory).md) that is better than any other strategy for a player, no matter how that player's opponent or opponents play. Strategies that are dominated by another strategy can be eliminated from consideration, as they can be strictly improved upon. Some very simple games can be solved using dominance. <p> For example, in prisoners' dilemma, defecting is the dominant strategy. So rational players would both defect.
+- [questions § chapter 17 lecture](questions.md#chapter%2017%20lecture)
+
+## week 11 tutorial
+
+- datetime: 2024-11-12T17:00:00+08:00/2024-11-12T17:50:00+08:00
+- status: unscheduled
+- [§ week 10 lecture 2](#week%2010%20lecture%202)
+- [§ week 11 lecture](#week%2011%20lecture)
+
+## week 11 lecture 2
+
+- datetime: 2024-11-15T12:00:00+08:00/2024-11-15T13:20:00+08:00
+- oligopoly
+  - oligopoly / duopoly models ::@:: Bertrand duopoly: two firms compete by choosing prices; Cournot duopoly: two firms compete by choosing quantities (we only learn the latter)
+  - oligopoly / collusion ::@:: In a oligopoly, all firms may collude and act as one, like a monopolist. Then the profits are divided. <p> The problem is a firm may cheat and gain more profit for itself, so this is not a Nash equilibrium. Indeed, the Nash equilibrium would not be the monopoly price and quantity, but moved a bit towards the equilibrium price and quantity (but not completely). This movement increases with the number of firms in the oligopoly.. <p> (One can see if there are many firms, the resulting price and quantity would be arbitrarily close to the equilibrium price and quantity...)
+- [Cournot competition](../../../../general/Cournot%20competition.md) ::@:: It is an economic model used to describe an industry structure in which companies compete on the amount of output they will produce, which they decide on independently of each other and at the same time.
+- [questions § chapter 17 lecture](questions.md#chapter%2017%20lecture)
+
+## week 12 lecture
+
+- datetime: 2024-11-18T16:30:00+08:00/2024-11-18T17:50:00+08:00
+- [Cournot competition](../../../../general/Cournot%20competition.md)
+  - Cournot duopoly
+    - Cournot duopoly / method ::@:: Let two firms produced quantities be q1, q2. Find the _best response_ function for each firm by fixing the other firm's quantity, find TR, MR (differentiate TR), and set MR = MC. You should obtain two best response functions. The q1's function is in terms of q2's quantity, while q2's function is in terms of q1's quantity. Solve for q1\* and q2\* using, setting q1 = q1\*, q2 = q2\*. <p> You should probably also plot the best response functions on the graph (make sure the axis is correct) and find their intersection, which should be the same as the q1\*, q2\* found above.
+  - Cournot competition / Nash equilibrium ::@:: If a solution exist to all of the above best response functions, it is a Nash equilibrium. For each firm, given other firms' outputs are fixed, the best response functions give the best response to maximize its own profit by definition, so it has no incentive to change. Thus, it is a Nash equilibrium.
+  - Cournot competition / efficiency ::@:: The resulting equilibrium is not efficient. That is, it is not the competitive equilibrium. But it is closer to the competitive equilibrium than the monopoly one. This means there is still deadweight loss, though not as large as in monopoly. <p> As the number of firms increase, it gets closer to the competitive equilibrium (if there are _n_ firms, the equilibrium is _n_/(_n_ + 1) of the competitive equilibrium quantity). So a very large number of Cournot competitors behave like perfect competitors and are almost efficient.
+- [Bertrand competition](../../../../general/Bertrand%20competition.md) (untaught) ::@:: (untaught) It describes interactions among firms (sellers) that set prices and their customers (buyers) that choose quantities at the prices set.
+- oligopoly
+  - oligopoly / collusion
+    - oligopoly / collusion / game theory ::@:: Actually this is similar to prisoners' dilemma. Draw a payoff table and see it is very familiar... (Extension: Draw a table with more than 2 choices for each firm.) <p> The fact that the equilibrium is to renegade is bad for oligopoly firms: they cannot achieve monopoly profits; but this is good for the society: the quantity produced is closer to the competitive equilibrium quantity.
+- [cooperative game theory](../../../../general/cooperative%20game%20theory.md) ::@:: The above games we have described assume players cannot cooperate. However, this seems to violate our observations that "cooperation" is possible... <p> The hint is that, in the real world, such "games" are played over and over again. This is called a _repeated game_: A game that is repeated among the same players for many times, so long-term relationships are valuable. In repeated games, cooperations are more likely to occur.
+  - [tit for tat](../../../../general/tit%20for%20tat.md) ::@:: It is an English saying meaning "equivalent retaliation". <p> In game theory, it means you play the cooperative strategy in the first round (try to reach the cooperative equilibrium). In the following rounds, if the other player cooperates/cheats in the previous round, you cooperate/cheat, copying the other player's strategy in previous round (punishment for cheating).
+- [questions § chapter 17 lecture](questions.md#chapter%2017%20lecture)
+
+## week 12 tutorial
+
+- datetime: 2024-11-19T17:00:00+08:00/2024-11-19T17:50:00+08:00
+- [§ week 11 lecture 2](#week%2011%20lecture%202)
+- [§ week 12 lecture](#week%2012%20lecture)
+
+## week 12 lecture 2
+
+- datetime: 2024-11-22T12:00:00+08:00/2024-11-22T13:20:00+08:00
+- announcements
+  - assigned reading: textbook chapter 10
+  - assignment: [problem set 13](assignments/problem%20set%2013/submission.md)
+- [externality](../../../../general/externality.md) ::@:: It is an indirect cost or benefit to an uninvolved third party that arises as an effect of another party's (or parties') activity. Externalities can be considered as unpriced components that are involved in either consumer or producer market transactions. <p> A positive externality is when an individual's consumption in a market increases the well-being of others, but the individual does not charge the third party for the benefit. A negative externality is defined analogously.
+  - externality / effect ::@:: It is one major factors that causes a free-market to fail to maximize social surplus. We call this _market failure_. <p> The reason is because that when deciding "how much to do", people is not required/lack the incentive" to consider the externalities those activities create. People only concern their "private cost and benefit".
+  - externality / examples ::@:: Those who have promotion activities at the atrium do not bear the _external costs_ on others (annoyance, lost productivity). A self-disciplined student studying hard causing others to study do not gain the _external benefits_ on others (others studying to learn more). <p> From a society perspective, these external costs and benefits should be considered.
+  - externality / internalization ::@:: This makes people to consider externalities. Examples include subsidies (to promote positive externalities) and tax (to reduce negative externalities). This induces people to act "as if" they are "held responsible" for the externalities that they create.
+    - externality / internalization / examples ::@:: Schools could pay (subsidize) students to study. Taxes on cigarettes could be set to include the costs of illness created by second-hand smoke.
+    - externality / internalization / mechanism ::@:: The original supply curve and demand curve respectively show the _private cost_ and _private value_. By adding the externalities, we can obtain the supply curves and demand curves leading to the social equilibrium. <p> Taxes and subsidies may be applied to move the curves to the social equilibrium. Or consider applying _Coase theorem_...
+- How clean is "clean"? ::@:: Is there something called "completely clean"? Turns out it is impossible. Instead, it is a tradeoff: you clean, but you clean up to the point where you are _satisfied_ with the cleanness. The same may be applied for pollution and many other things... <p> Actually the above can be described economically: Consider "you will stop cleaning when you are _satisfied_ with the cleanness". You can associate cleaning with a cost, and cleanness with a benefit. When the marginal cost equals marginal benefit, then you are _satisfied_. It works like in a free market! The same can be applied for other situation. This is where the Coase theorem comes in.
+- [Coase theorem](../../../../general/Coase%20theorem.md) ::@:: It states that if the provision of a good or service results in an externality and trade in that good or service is possible, then bargaining will lead to a Pareto efficient outcome regardless of the initial allocation of property. A key condition for this outcome is that there are _sufficiently low transaction costs_ in the bargaining and exchange process.
+  - Coase theorem / named after ::@:: Ronald Harry Coase was a law professor at the University of Chicago.
+  - Coase theorem / example ::@:: An economist steeps into an elevator and noticed that a young girl is smoking. If there is no legal restriction, what can economist do? The economist can offer her \$10 to put it out.
+  - Coase theorem / mechanism ::@:: Externalities would often be internalized by negotiation between the private parties affected. By private negotiation (market), "externalities" could be "internalized", efficient outcome can be reached (inefficiency solved). <p> In a way, this can be interpreted as that externalities cause market failure because of "not clearly defined" private property right: no one "owns" the externalities. Defining ownership clearly solves this, and this is the key.
+  - Coase theorem / invariance ::@:: Regardless of the initial allocation of property/rights, the same efficient outcome will prevail. But the wealth distribution may be different. (In the examples above, cash flow direction would be reversed.) <p> For example, if it is more efficient to prevent cattle trampling a farmer's fields by fencing in the farm, rather than fencing in the cattle, the outcome of bargaining will be the fence around the farmer's fields, regardless of whether _victim rights_ or _unrestricted grazing-rights_ prevail. <p> (Note: Subsequent authors have shown that invariance is not generally true, however. Changing liability placement changes wealth distribution, which in turn affects demand and prices. But ignore this for the exams...)
+  - Coase theorem / limitations ::@:: It does not work very well when the costs of reaching agreements are high, such as externalities being produced by many people or firms, or if the legal costs for reaching or enforcing agreements are high. <br/> A particular example is global warming.
+- [carbon emission trading](../../../../general/carbon%20emission%20trading.md) ::@:: It is a type of emissions trading scheme designed for carbon dioxide (CO<sub>2</sub>) and other greenhouse gases (GHGs). <p> This is an application of Coase theorem.
+  - carbon emission trading / mechanism ::@:: The government sets a target for carbon emission. The government sells permits, which can be traded among firms, to emit according to its target. Then it auctions off the permits to firms. The government can earn more revenue, while using market mechanism to ensure that the permits are in firms who value them the most (highest WTP). This ensures economic efficiency: Activities that still create economic gain if emissions are considered will continue. Or investment on carbon reduction will increase if it is cheaper than buying permits. Changing market conditions and environment, which may change WTP, reallocates the permits through the market. <p> This, of course, assumes enforcement is perfect... And there are also other (not necessarily economic) problems not mentioned here.
+- [questions § chapter 10 lecture](questions.md#chapter%2010%20lecture)
+
+## week 13 lecture
+
+- datetime: 2024-11-25T16:30:00+08:00/2024-11-25T17:50:00+08:00
+- announcements
+  - assigned reading: textbook chapter 11
+  - assignment: [problem set 13](assignments/problem%20set%2013/submission.md)
+- [public good](../../../../general/public%20good%20(economics).md) ::@:: It is a good that is both non-excludable and non-rivalrous. Use by one person neither prevents access by other people, nor does it reduce availability to others. Therefore, the good can be used simultaneously by more than one person. <p> A public good must be valuable to more than one user, otherwise, its simultaneous availability to more than one person would be economically irrelevant.
+  - public good / motivation ::@:: There are goods and services that cannot be efficiently provided in private markets, such as clean streets, disease control, and law enforcement (police).
+- [excludability](../../../../general/excludability.md) ::@:: It is the degree to which a good, service or resource can be limited to only paying customers, or conversely, the degree to which a supplier, producer or other managing body (e.g. a government) can prevent consumption of a good.
+- [rivalry](../../../../general/rivalry%20(economics).md) ::@:: A good is said to be rivalrous or a rival if its consumption by one consumer prevents simultaneous consumption by other consumers, or if consumption by one party reduces the ability of another party to consume it. <p> A good is considered non-rivalrous or non-rival if, for any level of production, the cost of providing it to a marginal (additional) individual is zero. <p> A good is "anti-rivalrous" and "inclusive" if each person benefits more when other people consume it.
+- [public good](../../../../general/public%20good%20(economics).md)
+  - public good / examples ::@:: national defense, tornado siren, uncongested non-toll roads, etc.
+  - public good / aggregate demand curve ::@:: For private goods, we add the individual demand curves horizontally. That is, for each price, the quantities are added. <p> For public goods, the reverse happens: we add the individual demand curves vertically. That is, for each quantity, the prices are added. This is because a quantity of public good can be used by many individuals at the same time. <p> The efficient output is still given by MB = MC.
+- [common good](../../../../general/common%20good%20(economics).md) ::@:: They are defined in economics as goods that are rivalrous and non-excludable. <p> Examples include congested non-toll roads, the environment, ocean fish, etc.
+  - public good vs. common good ::@:: This is in contrast to a common good, such as wild fish stocks in the ocean, which is non-excludable but rivalrous to a certain degree. If too many fish were harvested, the stocks would deplete, limiting the access of fish for others.
+- [private good](../../../../general/private%20good.md) ::@:: It is defined in economics as "an item that yields positive benefits to people" that is excludable, i.e. its owners can exercise private property rights, preventing those who have not paid for it from using the good or consuming its benefits; and rivalrous, i.e. consumption by one necessarily prevents that of another. <p> Examples include clothing, congested toll roads, ice-cream cones, etc.
+- [club good](../../../../general/club%20good.md) ::@:: They are a type of good in economics, sometimes classified as a subtype of public goods that are excludable but non-rivalrous, at least until reaching a point where congestion occurs. Often these goods exhibit high excludability, but at the same time low rivalry in consumption. <p> Examples include cable TV, fire protection, uncongested toll roads, etc.
+- [excludability](../../../../general/excludability.md)
+  - excludability / problem ::@:: If a good or service is non-excludable, consumers can obtain it without payment. If they do so, then they are _free riders_.
+- [free-rider problem](../../../../general/free-rider%20problem.md) ::@:: It a type of market failure that occurs when those who benefit from resources, public goods and common pool resources do not pay for them or under-pay. Examples of such goods are public roads or public libraries or other services or utilities of a communal nature.
+- [Samaritan's dilemma](../../../../general/Samaritan's%20dilemma.md) ::@:: It hinges on the idea that when presented with charity, in some locations such as a soup kitchen, a person will act in one of two ways: using the charity to improve their situation, or coming to rely on charity as a means of survival. <p> Should we be charitable when charity creates bad incentives?
+  - Samaritan's dilemma ::@:: Should national medical insurance cover people who are not paying? If no, people who could neither afford treatment nor insurance would be harmed (high private and social cost). If yes, then why should any of us pay national medical insurance, since we will be compensated anyway? <p> Note in this case, national medical insurance is non-excludable, but it is rivalrous.
+- [rivalry](../../../../general/rivalry%20(economics).md)
+  - rivalary vs. scarcity ::@:: The latter refers to the opportunity cost of creating a good or services. The former refers to the use or consumption of a scarce good or service. <p> If a good or service is non-rivalrous, its use or consumption does not add to the scarcity.
+  - rivalary / problem ::@:: For a non-rivalrous good, it is economically inefficient to exclude it. Excluded people who want to use the good adds a lot of deadweight loss. But not excluding it means people will not pay for it. <p> So this is why government provides many non-rivalrous goods (including public goods), regardless if exclusion is possible. Examples include basic scientific research, radio, television, weather forecasting, etc.
+- [public good](../../../../general/public%20good%20(economics).md)
+  - public good / government ::@:: They are often provided by the governments. Private firms can hardly provide them because it will be money losing due to free riders. But the government collect taxes, so this solves the free rider problem while not excluding the public good to ensure maximum economic efficiency.
+  - public good / use ::@:: Because they are not excludable, the free-market quantity is zero, so it is less than the efficient quantity. This can be interpreted as that they are underused because individuals do not feel the positive externalities.
+- [common good](../../../../general/common%20good%20(economics).md)
+  - common good / use ::@:: The use of them tends to be excessive and inefficient because individuals are not required to bear/pay their opportunity cost. (Also see [tragedy of the commons](../../../../general/tragedy%20of%20the%20commons.md).)
+    - [tragedy of the commons](../../../../general/tragedy%20of%20the%20commons.md) ::@:: It is a concept which states that if many people enjoy unfettered access to a finite, valuable resource, such as a pasture, they will tend to overuse it and may end up destroying its value altogether. Even if some users exercised voluntary restraint, the other users would merely replace them, the predictable result being a "tragedy" for all.
+    - common good / use / example ::@:: Grand Banks of Newfoundland was very rich in cod fish. But due to overfishing, the fishery of cod collapsed. <p> If it could be owned (which is not, due to its non-excludability), the private owner would exclude it and avoid the fishery collapse. (Also see the example below.)
+      - Given both cows and elephants have commercial value, why is elephant but not cow facing extinction? ::@:: This is because cow is a private good, but elephant is a common good. This shows the _importance of property right_.
+- [public good](../../../../general/public%20good%20(economics).md)
+  - public good / summary ::@:: Markets work best for private goods, which are excludable and rival in consumption. Therefore, these goods are commonly provided by government, using cost-benefit analysis to determine how much to provide (though accurately estimate the cost and benefit may not be easy).
+- [common good](../../../../general/common%20good%20(economics).md)
+  - common good / summary ::@:: People use these resources without paying, so they tend to overuse them. Therefore, governments try to limit the use of common resources. But also consider this: Instead of "government regulation", according to the Coase Theorem, property right should be better defined (if possible).
+- [questions § chapter 11 lecture](questions.md#chapter%2011%20lecture)
+
+## week 13 tutorial
+
+- datetime: 2024-11-26T17:00:00+08:00/2024-11-26T17:50:00+08:00
+- [§ week 12 lecture 2](#week%2012%20lecture%202)
+- [§ week 13 lecture](#week%2013%20lecture)
+- [§ week 13 lecture 2](#week%2013%20lecture%202)
+
+## week 13 lecture 2
+
+- datetime: 2024-11-29T12:00:00+08:00/2024-11-29T13:20:00+08:00
+- We have taught everything!!! So just a lecture for you to ask questions.
 
 ## final examination
 

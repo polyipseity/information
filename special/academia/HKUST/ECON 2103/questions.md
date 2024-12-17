@@ -290,6 +290,65 @@ tags:
 >
 > - solution: {@{For 1, breakfast cereal has more substitutes, so its demand is more elastic, thus its deadweight loss due to tax would be higher. For 2, price elasticities of both supply and demand curves are more elastic in the long run, thus the deadweight loss in the long run would be higher. For 3, groceries are necessary goods while meals at fancy restaurants are luxury goods, so the latter is more elastic, thus its deadweight loss would be higher.}@}
 
+### chapter 13 lecture
+
+> Q1.The equilibrium (market) rent on office space has just increased by \$500/month. Determine the effects on accounting profit and economic profit if:
+>
+> 1. you rent your office space
+> 2. you own your office space
+>
+> Note: You are using your office space.
+>
+> - solution: {@{In 1, explicit cost increases by \$500/month. In 2, implicit cost increases by \$500/month, because you are using the office space that could have been rented out to the market.}@}
+
+<!-- markdownlint MD028 -->
+
+> Q2. Which of the following shifts the ATC curve upward at the XYZ Co.?
+>
+> 1. an increase in the hourly wage that XYZ pays its workers
+> 2. a decrease in the hourly wage that XYZ pays its workers
+> 3. an increase in the fixed amount of liability insurance premiums that XYZ pays for its business
+> 4. both answers 1 and 3 are correct
+>
+> - solution: {@{4}@}
+
+### chapter 14 lecture
+
+> Q1. Which of the following statements is correct?
+>
+> 1. For all firms, marginal revenue equals the price of the good
+> 2. Only for competitive firms does average revenue equal the price of the good
+> 3. Marginal revenue can be calculated as total revenue divided by the quantity sold
+> 4. Only for competitive firms does average revenue equal marginal revenue
+>
+> - solution: {@{2}@}
+
+### chapter 15 lecture
+
+> A reduction in a monopolist's fixed costs would
+>
+> 1. decrease the profit-maximizing price and increase the profit-maximizing quantity produced
+> 2. increase the profit-maximizing price and decrease the profit-maximizing quantity produced
+> 3. no effect on the profit-maximizing price or quantity
+> 4. possibly increase, decrease or not effect profit-maximizing price and quantity, depending on the elasticity of demand.
+>
+> - solution: {@{3}@}
+
+### chapter 17 lecture
+
+### chapter 10 lecture
+
+> Mary and Cathy are roommates. Mary assigns a \$30 value to smoking cigarettes. Cathy values smoke-free air at \$15. Which of the following scenarios is a successful example of the Coase theorem?
+>
+> 1. Cathy offers Mary \$20 not to smoke. Mary accepts and does not smoke.
+> 2. Mary pays Cathy \$16 so that Mary can smoke.
+> 3. Mary pays Cathy \$14 so that Mary can smoke.
+> 4. Cathy offers Mary \$15 not to smoke. Mary accepts and does not smoke.
+>
+> - solution: {@{2}@}
+
+### chapter 11 lecture
+
 ## tutorials
 
 ### waste charging
