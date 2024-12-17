@@ -577,9 +577,21 @@ The content is in teaching order.
 
 - datetime: 2024-10-18T18:00:00+08:00/2024-10-18T21:00:00+08:00, PT3H
 - venue: Lecture Theater C
-- grades: ?/30
+- format: closed book
+- grades: TODO/30
+  - statistics
+    - mean: TODO
+    - standard deviation: TODO
+    - low: TODO
+    - lower quartile: TODO
+    - median: TODO
+    - upper quartile: TODO
+    - high: TODO
+    - distribution: TODO
 - report
   - TODO
+- check
+  - note: You will receive a scanned copy of your examination. Send email to Amir to appeal.
 - materials
   - [lecture video](https://youtu.be/eLwNjIOM8QE)
   - [midterm examination](https://canvas.ust.hk/courses/58174/modules/items/1444251)
@@ -1083,6 +1095,7 @@ The content is in teaching order.
   - [strategic dominance](../../../../general/strategic%20dominance.md) ::@:: In [game theory](../../../../general/game%20theory.md), a __dominant strategy__ is a [strategy](../../../../general/strategy%20(game%20theory).md) that is better than any other strategy for a player, no matter how that player's opponent or opponents play. Strategies that are dominated by another strategy can be eliminated from consideration, as they can be strictly improved upon. Some very simple games can be solved using dominance. <p> For example, in prisoners' dilemma, defecting is the dominant strategy. So rational players would both defect. <!--SR:!2025-01-06,27,414!2025-01-07,28,414-->
 - [Nash equilibrium](../../../../general/Nash%20equilibrium.md) ::@:: In [game theory](../../../../general/game%20theory.md), the __Nash equilibrium__ is the most commonly-used [solution concept](../../../../general/solution%20concept.md) for [non-cooperative games](../../../../general/non-cooperative%20game%20theory.md). A Nash equilibrium is a situation where no player could gain by changing their own strategy \(holding all other players' strategies fixed\). <p> If each player has chosen a [strategy](../../../../general/strategy%20(game%20theory).md) – an action plan based on what has happened so far in the game – and no one can increase one's own expected payoff by changing one's strategy while the other players keep theirs unchanged, then the current set of strategy choices constitutes a Nash equilibrium. <p> Note that the strategy may be pure (one could also considered pure as a degenerate form of mixed) or mixed. <!--SR:!2025-01-06,27,414!2024-12-31,21,394-->
 - [rock paper scissors](../../../../general/rock%20paper%20scissors.md) ::@:: I think you should know what this is, right...? <!--SR:!2025-01-05,26,414!2025-01-05,26,414-->
+- [battle of the sexes](../../../../general/battle%20of%20the%20sexes%20(game%20theory).md) ::@:: Imagine that a man and a woman hope to meet this evening, but have a choice between two events to attend: a prize fight and a ballet. The man would prefer to go to prize fight. The woman would prefer the ballet. Both would prefer to go to the same event rather than different ones. If they cannot communicate, where should they go?
 - [matching pennies](../../../../general/matching%20pennies.md) ::@:: __Matching pennies__ is a [non-cooperative game](../../../../general/non-cooperative%20game%20theory.md) studied in [game theory](../../../../general/game%20theory.md). It is played between two players, Even and Odd. Each player has a [penny](../../../../general/penny.md) and must secretly turn the penny to heads or tails. The players then reveal their choices simultaneously. If the pennies match \(both heads or both tails\), then Even wins and keeps both pennies. If the pennies do not match \(one heads and one tails\), then Odd wins and keeps both pennies. <!--SR:!2025-01-05,26,414!2025-01-06,27,414-->
 - [strategy](../../../../general/strategy%20(game%20theory).md)
   - [strategy](../../../../general/strategy%20(game%20theory).md) / pure strategy ::@:: A __pure strategy__ means a strategy where the player must play a particular strategy from their strategy set. <!--SR:!2025-01-07,28,414!2024-12-31,21,394-->
@@ -1133,4 +1146,46 @@ The content is in teaching order.
 - [questions/2024-11-27 TA session](questions/2024-11-27%20TA%20session.md)
 - [week 10 problem set](questions/week%2010%20problem%20set.md)
 - materials
-  - lecture video: missing
+  - [lecture video](https://youtu.be/ib3lByadEvI)
+
+## week 14 TA session
+
+- datetime: 2024-12-06T16:00:00+08:00/2024-12-16:50:00+08:00
+- topic: solving weekly problem set 11
+- [questions/2024-12-06 TA session](questions/2024-12-06%20TA%20session.md)
+- [week 11 problem set](questions/week%2011%20problem%20set.md)
+- materials
+  - [lecture video](https://youtu.be/S7l6OKfqFb4)
+
+## week 15 TA session
+
+- datetime: 2024-12-14T16:00:00+08:00/2024-12-14T16:50:00+08:00
+- topic: solving weekly problem set 10, 12
+- [questions/2024-12-14 TA session](questions/2024-12-14%20TA%20session.md)
+- [week 10 problem set](questions/week%2010%20problem%20set.md)
+- [week 12 problem set](questions/week%2012%20problem%20set.md)
+- materials
+  - [lecture video](https://youtu.be/CnG19S0ifu8)
+
+## final examination
+
+- datetime: 2024-12-20T16:30:00+08:00/2024-12-20T19:00:00+08:00, PT2H30M
+- venue: \[SEAFRONT\]TST Sports Ctr ARENA
+- format: closed book
+- grades: TODO/30
+  - statistics
+    - mean: TODO
+    - standard deviation: TODO
+    - low: TODO
+    - lower quartile: TODO
+    - median: TODO
+    - upper quartile: TODO
+    - high: TODO
+    - distribution: TODO
+- report
+  - TODO
+- check
+  - note: You will receive a scanned copy of your examination. Send email to Amir to appeal.
+- materials
+  - lecture video: TODO
+  - final examination: TODO

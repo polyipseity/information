@@ -337,6 +337,10 @@ The content is in teaching order.
   - Forgot, something related to accrued expense, insurance, insurance premium...
     - insurance premium (-1, MCQ) ::@:: Insurance premium is a cost that you pay for the insurance, not a benefit that the insurance gives you! <!--SR:!2025-02-27,88,369!2025-02-22,83,369-->
   - Need to remember 5 reasons why a financial analyst uses the quick ratio... (-2, LQ)
+- check
+  - note: Send an email to TA by yourself to appoint a timing.
+  - datetime: 2024-11-05T14:20:00+08:00/2024-11-05T14:30:00+08:00, PT10M
+  - venue: Common Area on 6/F, LSKBB (Lift 1-2)
 
 ## week 8 lecture 2
 
@@ -567,6 +571,8 @@ The content is in teaching order.
   - According to past experiences, this professor will probably not release final examination grades.
 - report
   - HKUST yellow answer book (0?, scary) ::@:: I had just realized that the left-hand side is intended for rough work... You are supposed to write your answers on the right-hand side near the end of the exam. Have I been using it wrongly the whole time? <p> I asked the professor after the exam and he said do not worry about it... Let's hope so. <!--SR:!2025-01-09,23,374!2025-01-09,23,374-->
+- check
+  - note: Probably no checking from past experience...
 
 > Dear L456 Students,
 >
