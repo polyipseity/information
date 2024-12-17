@@ -57,7 +57,7 @@ The demand curvature is {@{fundamentally hard to estimate from the empirical dat
 - Market demand curve: ::@:: the relationship between the quantity of a product that all consumers in the market are willing to buy and its price. The market demand curve can be obtained by adding up the individual demand curves of individual consumers in the industry horizontally.
 - Firm demand curve: ::@:: \(A firm demand curve may also be referred to as the demand curve of the market to which the firm is exposed.\) It refers to the relationship between the number of customers willing to buy a certain product from the enterprise and its price.
 
-The slope of the market industry demand curve is {@{greater than the slope of the individual demand curve}@}; the slope of the industry demand curve is {@{greater than the slope of the enterprise demand curve}@}. The slope of the industry's demand curve is {@{greater than than the slope of a firm's demand curve}@}.
+The slope of the market industry demand curve is {@{greater than the slope of the individual demand curve}@}; the slope of the industry demand curve is {@{greater than the slope of the enterprise demand curve}@}. The slope of the industry's demand curve is {@{greater than the slope of a firm's demand curve}@}.
 
 ## shift of a demand curve
 
