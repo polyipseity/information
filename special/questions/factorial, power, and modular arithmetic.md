@@ -20,7 +20,7 @@ Prove that $$\sqrt{ \sum_{n = 1}^{N \ge 12} n!^m } \notin \mathbb{Z} \qquad m \i
 
 ## strategy
 
-- inspecting "$$\sqrt{ \sum_{n = 1}^{N \ge 12} n!^m } \notin \mathbb{Z} \qquad m \in \mathbb{Z}_{\ge 1}$$" :@: Problems involving integers may be solvable using modular arithmetic... In this specific case, consider square numbers modulus some numbers. Then consider the formula in question, ignoring the square root, modulus the same numbers. <!--SR:!2024-12-18,102,250-->
+- inspecting "$$\sqrt{ \sum_{n = 1}^{N \ge 12} n!^m } \notin \mathbb{Z} \qquad m \in \mathbb{Z}_{\ge 1}$$" :@: Problems involving integers may be solvable using modular arithmetic... In this specific case, consider square numbers modulus some numbers. Then consider the formula in question, ignoring the square root, modulus the same numbers. <!--SR:!2025-09-03,259,250-->
 - modular arithmetic tricks :@: Modular exponentiation cycles (e.g. $2^n \pmod m$) are your friends when dealing with exponentiation in modular arithmetic. And modular power cycles (e.g. $n^2 \pmod m$), but this is relatively trivial. <!--SR:!2025-01-20,135,290-->
 - numbers to modulus :@: Start checking from 2. The solution below uses $m = 3, 5, 9, 13$. <!--SR:!2025-04-03,185,270-->
 - desired outcome of modular arithmetic :@: Prove that under modular arithmetic, the formula in question without the square root does not equal all possible square numbers. <!--SR:!2025-10-19,318,290-->

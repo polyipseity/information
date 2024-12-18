@@ -13,7 +13,7 @@ tags:
 # import ../../tools/utility.py.md
 ```
 
-__Copernican heliocentrism__ is {@{the astronomical [model](scientific%20modelling.md) developed by [Nicolaus Copernicus](Nicolaus%20Copernicus.md)}@} and published in {@{1543}@}. This model {@{positioned the [Sun](Sun.md) at the center of the [universe](universe.md), motionless, with [Earth](Earth.md) and the other [planets](planet.md) moving around it in [circular orbits](circular%20orbit.md), modified by [epicycles](deferent%20and%20epicycle.md), and at uniform speeds}@}. The Copernican model displaced {@{the [Ptolemaic model](geocentric%20model.md#Ptolemaic%20model) that had prevailed for centuries, which had placed Earth at the center of the universe}@}. <!--SR:!2024-12-18,118,290!2025-01-04,50,190!2025-03-24,203,310!2025-02-06,168,310-->
+__Copernican heliocentrism__ is {@{the astronomical [model](scientific%20modelling.md) developed by [Nicolaus Copernicus](Nicolaus%20Copernicus.md)}@} and published in {@{1543}@}. This model {@{positioned the [Sun](Sun.md) at the center of the [universe](universe.md), motionless, with [Earth](Earth.md) and the other [planets](planet.md) moving around it in [circular orbits](circular%20orbit.md), modified by [epicycles](deferent%20and%20epicycle.md), and at uniform speeds}@}. The Copernican model displaced {@{the [Ptolemaic model](geocentric%20model.md#Ptolemaic%20model) that had prevailed for centuries, which had placed Earth at the center of the universe}@}. <!--SR:!2025-12-02,349,290!2025-01-04,50,190!2025-03-24,203,310!2025-02-06,168,310-->
 
 The model uses ideas such as:
 
@@ -63,7 +63,7 @@ return await memorize_seq(
 - _(begin)_→::@::←(center) [Sun](Sun.md) <!--SR:!2025-04-14,222,330!2025-02-04,168,310-->
 - (center) [Sun](Sun.md)→::@::←[Mercury](Mercury%20(planet).md) <!--SR:!2025-07-28,304,330!2025-07-25,302,330-->
 - [Mercury](Mercury%20(planet).md)→::@::←[Venus](Venus.md) <!--SR:!2024-12-29,124,290!2025-01-02,129,290-->
-- [Venus](Venus.md)→::@::←[Earth](Earth.md), with the [Moon](Moon.md) orbiting around it <!--SR:!2024-12-18,117,290!2024-12-30,124,290-->
+- [Venus](Venus.md)→::@::←[Earth](Earth.md), with the [Moon](Moon.md) orbiting around it <!--SR:!2025-11-29,346,290!2024-12-30,124,290-->
 - [Earth](Earth.md), with the [Moon](Moon.md) orbiting around it→::@::←[Mars](Mars.md) <!--SR:!2025-03-25,192,310!2025-09-27,323,290-->
 - [Mars](Mars.md)→::@::←[Jupiter](Jupiter.md) <!--SR:!2025-06-27,278,330!2026-02-22,440,310-->
 - [Jupiter](Jupiter.md)→::@::←[Saturn](Saturn.md) <!--SR:!2025-01-10,148,310!2025-06-07,265,330-->

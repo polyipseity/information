@@ -63,7 +63,7 @@ While
 Wend
 ```
 
-The semantics of `While...Wend` is {@{that the condition is executed first. If the condition is `True`, the statement block is executed and then we repeat the above process again. If the condition is `False`, the `While...Wend` statement ends its execution}@}. <!--SR:!2024-12-18,244,330-->
+The semantics of `While...Wend` is {@{that the condition is executed first. If the condition is `True`, the statement block is executed and then we repeat the above process again. If the condition is `False`, the `While...Wend` statement ends its execution}@}. <!--SR:!2028-01-03,1111,350-->
 
 ### `Do`
 

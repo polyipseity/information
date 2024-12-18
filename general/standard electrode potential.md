@@ -240,7 +240,7 @@ return (
 - MnO<sub>4</sub><sup>-</sup>(aq) + 8H<sup>+</sup>(aq) + 5e<sup>-</sup> ⇌ Mn<sup>2+</sup>(aq) + 4H<sub>2</sub>O(l):@:1.51 <!--SR:!2025-01-06,49,150-->
 - Co<sup>3+</sup>(aq) + e<sup>-</sup> ⇌ Co<sup>2+</sup>(aq):@:1.92 <!--SR:!2025-01-14,36,150-->
 - S<sub>2</sub>O<sub>8</sub><sup>2-</sup>(aq) + 2e<sup>-</sup> ⇌ 2SO<sub>4</sub><sup>2-</sup>(aq):@:2.01 <!--SR:!2024-12-31,24,130-->
-- F<sub>2</sub>(g) + 2e<sup>-</sup> ⇌ 2F<sup>-</sup>(aq):@:2.87 <!--SR:!2024-12-18,71,130-->
+- F<sub>2</sub>(g) + 2e<sup>-</sup> ⇌ 2F<sup>-</sup>(aq):@:2.87 <!--SR:!2025-03-23,95,130-->
 
 <!--/pytextgen-->
 

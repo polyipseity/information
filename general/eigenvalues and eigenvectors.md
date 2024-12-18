@@ -71,7 +71,7 @@ Suppose in the $n$ eigenvalues of an _n_-by-_n_ matrix, there are {@{$d$ distinc
 
 If {@{$d = n$}@} then {@{the right hand side is a product of $n$ distinct terms and is the same as the polynomial above}@}. The size of each eigenvalue's algebraic multiplicity respect the following relations: {@{$$\begin{aligned} 1 & \le \mu_A(\lambda_i) \le n \\ \mu_A & = \sum_{i = 1}^d \mu_A(\lambda_i) = n \end{aligned}$$}@}. <!--SR:!2025-09-16,336,346!2025-07-24,296,346!2025-08-22,318,346-->
 
-If {@{$\mu_A(\lambda_i) = 1$}@}, then $\lambda_i$ is {@{said to be a _simple eigenvalue_}@}. If {@{$\mu_A(\lambda_i)$ equals the geometric multiplicity of $\lambda_i$, $\gamma_A(\lambda_i)$}@}, defined in upcoming sections, then $\lambda_i$ is {@{said to be a _semisimple eigenvalue_}@}. <!--SR:!2025-07-29,301,346!2024-12-18,118,306!2025-06-15,264,346!2025-01-30,156,326-->
+If {@{$\mu_A(\lambda_i) = 1$}@}, then $\lambda_i$ is {@{said to be a _simple eigenvalue_}@}. If {@{$\mu_A(\lambda_i)$ equals the geometric multiplicity of $\lambda_i$, $\gamma_A(\lambda_i)$}@}, defined in upcoming sections, then $\lambda_i$ is {@{said to be a _semisimple eigenvalue_}@}. <!--SR:!2025-07-29,301,346!2026-05-01,499,326!2025-06-15,264,346!2025-01-30,156,326-->
 
 ### eigenspaces
 

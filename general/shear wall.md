@@ -14,7 +14,7 @@ Shear walls are {@{vertically continuous structures}@}, which are {@{much stiffe
 
 Economically, it makes sense {@{until up to about 35 stories}@}. Examples include {@{high-rise residential buildings}@}. <!--SR:!2024-12-22,164,310!2025-01-06,163,310-->
 
-It can be combined with {@{[rigid frame](rigid%20frame.md), constrained to deflect together}@}, to get a {@{shear-walled structure}@}. This provides {@{stiffer structure than rigid frame or shear walls alone}@}. It is economic up to {@{about 50 stories}@}. <!--SR:!2025-02-17,193,310!2024-12-18,160,310!2025-02-28,193,290!2025-01-03,160,310-->
+It can be combined with {@{[rigid frame](rigid%20frame.md), constrained to deflect together}@}, to get a {@{shear-walled structure}@}. This provides {@{stiffer structure than rigid frame or shear walls alone}@}. It is economic up to {@{about 50 stories}@}. <!--SR:!2025-02-17,193,310!2026-11-11,693,330!2025-02-28,193,290!2025-01-03,160,310-->
 
 In detail, the shear walls in a shear-walled structure often {@{form box-shaped (C-shaped) cores around elevators and stairs around the center of the building}@}. Such box-shaped core walls as a spatial system can {@{transmit lateral loads in both directions, and can resist all types of loads}@}. In practice, the shape of the cores are {@{governed by elevator and stair requirements}@}. <!--SR:!2025-01-31,181,310!2025-05-23,250,290!2025-07-21,292,290-->
 

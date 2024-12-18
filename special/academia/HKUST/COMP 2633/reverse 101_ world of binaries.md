@@ -39,7 +39,7 @@ It is okay that one does not understand everything above. The most important par
 
 ## assembly language
 
-Assembly is {@{not a single language}@}. Rather, there are {@{multiple languages, called _instruction set architecture_ (ISA)}@}. The most common ones are {@{x86 and x86-64}@}, which we will focus on. Other examples include {@{ARM32, ARM64, RISC-V, Power ISA, and MIPS}@}. <!--SR:!2024-12-18,84,343!2025-04-30,178,323!2025-12-02,359,365!2025-10-21,322,343-->
+Assembly is {@{not a single language}@}. Rather, there are {@{multiple languages, called _instruction set architecture_ (ISA)}@}. The most common ones are {@{x86 and x86-64}@}, which we will focus on. Other examples include {@{ARM32, ARM64, RISC-V, Power ISA, and MIPS}@}. <!--SR:!2026-01-18,396,363!2025-04-30,178,323!2025-12-02,359,365!2025-10-21,322,343-->
 
 ### registers
 
@@ -61,13 +61,13 @@ An instruction is specified by {@{the operation name and a comma-separated list 
 
 Memory reference has the syntax of {@{`[base + index * scale + offset]` (square brackets are required)}@}. `base` is {@{a register}@}, `index` is {@{another register}@}, `scale` is {@{either 1, 2, 4, or 8}@}, and `offset` is {@{a constant}@}. Any part of it can {@{be omitted, and then said part will be assumed 0}@}. Its semantics is that {@{the memory address to be used as the operand is calculated from the expression inside the square brackets}@}. Note that {@{at most 1 memory reference can be used in an instruction}@}. For example, if one wants to {@{copy the value from a memory address to another}@}, {@{two instructions are required, copy the value from the first address to a register, and then copy the value from the register to the second address}@}. One issue is that {@{a memory reference does not have a specified size}@}, so if {@{the operand size cannot be inferred from other operands}@}, then {@{we need to specify the size of the memory reference}@}. To do so, we can {@{prepend `byte` (1 byte), `word` (2 bytes), `dword` (4 bytes; double word), or `qword` (8 bytes; quadruple word) before the memory reference}@}. <!--SR:!2025-10-03,307,343!2024-12-19,85,345!2024-12-22,87,345!2025-07-05,232,330!2024-12-24,89,345!2025-04-13,162,310!2025-07-23,232,323!2025-07-01,227,330!2025-09-21,297,343!2025-09-04,285,357!2026-01-05,384,365!2025-12-10,365,365!2025-05-26,205,345!2025-09-21,295,343-->
 
-A note on endianness. For registers, {@{it does not make sense to talk about endianness as it requires each byte to have an address, which the bytes in a register do not have}@}. At most, you can get {@{the lowest (least significant) bits of a register, which is unambiguous}@}. For reading from or writing to memory addresses, it {@{does matter as the bytes have addresses}@}. Usually, it is {@{little-endian, which means the least significant bits are stored in the lowest (smallest) memory addresses}@}. <!--SR:!2024-12-19,84,345!2025-09-15,292,343!2024-12-18,84,345!2025-08-14,266,345-->
+A note on endianness. For registers, {@{it does not make sense to talk about endianness as it requires each byte to have an address, which the bytes in a register do not have}@}. At most, you can get {@{the lowest (least significant) bits of a register, which is unambiguous}@}. For reading from or writing to memory addresses, it {@{does matter as the bytes have addresses}@}. Usually, it is {@{little-endian, which means the least significant bits are stored in the lowest (smallest) memory addresses}@}. <!--SR:!2024-12-19,84,345!2025-09-15,292,343!2026-01-25,403,365!2025-08-14,266,345-->
 
 Below is a list of common instructions (in learning order):
 
 - `mov <dest>, <src>` ::@:: Copy a value at `<src>` to `<dest>`. <!--SR:!2024-12-20,85,345!2025-12-25,377,365-->
 - `add <dest> <src>` ::@:: Increment the value at `<dest>` by `<src>`. <!--SR:!2025-08-18,267,330!2025-08-12,264,343-->
-- `sub <dest> <src>` ::@:: Decrement the value at `<dest>` by `<src>`. <!--SR:!2024-12-18,83,345!2025-12-05,362,365-->
+- `sub <dest> <src>` ::@:: Decrement the value at `<dest>` by `<src>`. <!--SR:!2026-01-15,393,365!2025-12-05,362,365-->
 - `imul <dest> <src>` ::@:: Multiply the value at `<dest>` by `<src>`, signed. <!--SR:!2025-07-24,233,337!2025-08-19,255,345-->
 - `idiv <src>` ::@:: Divide the value at `ax` (8-bit), `dx:ax` (16-bit), `edx:eax` (32-bit), or `rdx:rax` (64-bit) by `<src>`, truncated towards 0 and signed. <!--SR:!2025-01-06,81,270!2025-10-31,330,357-->
 - `and <dest> <src>` ::@:: Bitwise and the value at `<dest>` with `<src>`. <!--SR:!2025-11-26,354,363!2025-09-14,291,343-->
@@ -88,7 +88,7 @@ Below is a list of common instructions (in learning order):
 
 ### sections
 
-An assembly file {@{does not solely consists of instructions}@}. It also {@{contains data or other metadata}@}. Sections {@{split the contents of an assembly file based on the type of content}@}. There are {@{many types of sections}@}, but the most commonly used ones are {@{`.data`, `.bss`, and `.text`}@}. To start a section, the syntax is {@{`section .<section name>`}@}, and {@{all content after this line and before the next section start or end of file}@} is part of this section. <!--SR:!2024-12-18,84,345!2024-12-19,85,345!2026-01-11,390,365!2025-09-10,288,343!2024-12-19,84,345!2026-01-08,387,365!2025-09-27,301,343-->
+An assembly file {@{does not solely consists of instructions}@}. It also {@{contains data or other metadata}@}. Sections {@{split the contents of an assembly file based on the type of content}@}. There are {@{many types of sections}@}, but the most commonly used ones are {@{`.data`, `.bss`, and `.text`}@}. To start a section, the syntax is {@{`section .<section name>`}@}, and {@{all content after this line and before the next section start or end of file}@} is part of this section. <!--SR:!2026-01-24,402,365!2024-12-19,85,345!2026-01-11,390,365!2025-09-10,288,343!2024-12-19,84,345!2026-01-08,387,365!2025-09-27,301,343-->
 
 - `.data` ::@:: It contains initialized data, that is, data that we know during assembly. It has read and write permissions. For C, this corresponds to global and static variables that are initialized. <!--SR:!2025-09-04,282,345!2025-04-13,167,310-->
 - `.bss` ::@:: It contains uninitialized data, that is, a memory space for our program to initialize data on during its execution. It has read and write permissions. For C, this corresponds to global and static variables that are uninitialized. <!--SR:!2025-09-09,287,343!2026-01-06,385,365-->
@@ -115,7 +115,7 @@ Label names are {@{global and unique across an assembly program, and appear in s
 
 ### assembling a program
 
-To assemble an assembly program as an ELF with {@{NASM}@}, run {@{`nasm -f elf64 <input>.s`, which produces a `.o` object file}@}. Then {@{link the resulting object file(s) using `gcc` or `ld`}@}. <!--SR:!2025-10-14,318,365!2025-02-21,116,297!2024-12-18,83,345-->
+To assemble an assembly program as an ELF with {@{NASM}@}, run {@{`nasm -f elf64 <input>.s`, which produces a `.o` object file}@}. Then {@{link the resulting object file(s) using `gcc` or `ld`}@}. <!--SR:!2025-10-14,318,365!2025-02-21,116,297!2026-01-17,395,365-->
 
 ### stack and functions in assembly
 

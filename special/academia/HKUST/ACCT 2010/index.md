@@ -146,7 +146,7 @@ The content is in teaching order.
   - [§ normal balances](../../../../general/trial%20balance.md#normal%20balances)
 - [adjusting entries](../../../../general/adjusting%20entries.md) ::@:: journal entries usually made at the end of an accounting period to allocate income and expenditure to the period in which they actually occurred <!--SR:!2025-01-05,80,334!2025-01-05,80,334-->
   - [§ adjusting entries](../../../../general/adjusting%20entries.md#adjusting%20entries)
-- [retained earnings](../../../../general/retained%20earnings.md) ::@:: accumulated net income of the corporation that is retained by the corporation at a particular point in time <!--SR:!2025-04-04,133,314!2024-12-18,69,334-->
+- [retained earnings](../../../../general/retained%20earnings.md) ::@:: accumulated net income of the corporation that is retained by the corporation at a particular point in time <!--SR:!2025-04-04,133,314!2025-11-01,318,354-->
   - [§ retained earnings](../../../../general/retained%20earnings.md#retained%20earnings)
 
 ## week 3 lecture 2

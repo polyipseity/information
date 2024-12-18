@@ -191,7 +191,7 @@ tags:
 > 3. maturity preference
 >
 > - solution: {@{3}@}
-> - explanation: {@{The standards require it. Maturity is a measure of how soon the liability is due, analogous to how mature crops are then harvested.}@} <!--SR:!2024-12-18,69,322!2025-01-02,77,322-->
+> - explanation: {@{The standards require it. Maturity is a measure of how soon the liability is due, analogous to how mature crops are then harvested.}@} <!--SR:!2025-10-21,307,342!2025-01-02,77,322-->
 
 <!-- markdownlint MD028 -->
 

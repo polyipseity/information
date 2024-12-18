@@ -24,7 +24,7 @@ Environmental Engineering and Management
 What is Environmental Engineering?
 
 - What is environmental engineering? ::@:: Apply science and engineering principles to solve environmental problems. <!--SR:!2025-03-27,238,330!2026-06-28,585,330-->
-  - environmental engineering relevance ::@:: practical and lots of satisfaction, prevent environment deterioration, related to daily life <!--SR:!2024-12-18,148,310!2025-01-17,180,310-->
+  - environmental engineering relevance ::@:: practical and lots of satisfaction, prevent environment deterioration, related to daily life <!--SR:!2026-03-22,459,310!2025-01-17,180,310-->
 
 ## page 3
 
@@ -337,7 +337,7 @@ Air Quality Health Index
 FORECAST of Health Risk
 
 - AQHI calculation ::@:: 3-hour moving average concentrations of 4 air pollutants <!--SR:!2025-02-08,184,310!2025-05-12,271,330-->
-  - AQHI calculation main pollutants ::@:: nitrogen dioxide (NO<sub>2</sub>), ozone (O<sub>3</sub>), particulate matter (PM<sub>2.5</sub>, PM<sub>10</sub>), sulfur dioxide (SO<sub>2</sub>) <!--SR:!2024-12-18,143,270!2025-04-06,246,330-->
+  - AQHI calculation main pollutants ::@:: nitrogen dioxide (NO<sub>2</sub>), ozone (O<sub>3</sub>), particulate matter (PM<sub>2.5</sub>, PM<sub>10</sub>), sulfur dioxide (SO<sub>2</sub>) <!--SR:!2026-01-07,385,270!2025-04-06,246,330-->
 
 ## page 29
 
