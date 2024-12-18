@@ -44,7 +44,7 @@ The content is in teaching order.
   - course intended learning outcomes (CILOs) ::@:: microeconomic analysis, decision making, demand-supply framework, market mechanism in different market structures, economic effect of the government, application
   - objectives ::@:: to analyze situations through the lens of microeconomics, but not memorization (Of course, some is still required...); a "way of economic thinking" should be developed on your own at the end
 - strength and weaknesses of economics ::@:: It can explain how rational individuals make choice under constraints. But it cannot explain well how a group of people (the society) evolve over a long period time; instead, these are studied by history, psychology, sociology, etc.
-- quirks about the professor ::@:: She does not follow the textbook strictly to deepen your thinking (good), makes exam questions based on current issues (cool), and does not care about attendance (good).
+- quirks about the professor ::@:: He does not follow the textbook strictly to deepen your thinking (good), makes exam questions based on current issues (cool), and does not care about attendance (good).
 - discussions
   - discussions / face mask ::@:: Should the government intervene in the (previously sky-high) selling price of face masks? This is known as [price control](price%20controls.md).
   - discussions / waste charging scheme ::@:: Should the government charge waste generation and how? What problems may arise?
@@ -579,7 +579,7 @@ The content is in teaching order.
 - [marginal cost](../../../../general/marginal%20cost.md) ::@:: It is the change in the total cost that arises when the quantity produced is increased, i.e. the cost of producing additional quantity. In some contexts, it refers to an increment of one unit of output, and in others it refers to the rate of change of total cost as output is increased by an infinitesimal amount. <p> For the discrete case, this is: $$MC = \frac {\Delta TC} {\Delta Q} \,.$$
   - marginal cost / importance ::@:: Remember, _rational_ people think at the margin. This concept can help producers decide whether to increase input by comparing it against marginal products (MP).
   - marginal cost / __format__: table ::@:: Since marginal cost is computed from the difference of two total costs at two consecutive quantities, it is better to move the column (except for the column header) down by 0.5 rows.
-  - marginal cost / __format__: graph ::@:: Since marginal cost is computed from the difference of two total costs at two consecutive quantities, it is better to plot the points on _Q_ = 0.5, 1.5, 2.5, etc. instead
+  - marginal cost / __format__: graph ::@:: Since marginal cost is computed from the difference of two total costs at two consecutive quantities, it is better to plot the points on _Q_ = 0.5, 1.5, 2.5, etc. instead.
 - [average cost](../../../../general/average%20cost.md) ::@:: $$AC = \frac {TC} Q$$ <p> There are variants for total costs (TC), ATC; fixed costs (FC), AFC; and variable costs (VC), AVC. <p> Note that it is undefined when quantity is 0. So no need to plot the average costs or show them on a table when the quantity is 0.
   - average cost / equality relation ::@:: $$AFC + AVC = ATC$$ <p> This is evident mathematically...
 - [questions § chapter 13 lecture](questions.md#chapter%2013%20lecture)
@@ -602,7 +602,7 @@ The content is in teaching order.
       - cost curve / short run (SR) / shifts / prices of factors of production ::@:: Either FC or VC increases. If FC increases, the FC, TC, AFC, and ATC curves shift up. If VC increases, the VC, TC, AVC, ATC, and MC curves shift up.
       - cost curve / short run (SR) / shifts / technology ::@:: Both cost and product curves are affected. For example, FC increases due to more expensive technology, but VC decreases due to less labor needed. In this case, ATC increases at low output level but decreases at high output levels. <p> Using the example above, the ATC curve starts at a higher point than the old ATC curve, but increases more slowly such that it eventually falls behind the old ATC curve.
   - cost curves / long run (LR) ::@:: Add "long run" ("LR") before each of the following: total cost (TC), marginal cost (MC), average total cost (ATC).
-    - cost curves / long run / example ::@:: Say we have 4 factories, each with a different SRATC curve. We want to choose 1 factory to put labor in to produce. <p> Plot the SRATc curves. In the long run, we can vary move labors to an arbitrary factory. So when deciding to output a certain amount, we always choose the factory with the lowest SRATC. So the LRATC is the lowest SRATC curve for each output level.
+    - cost curves / long run / example ::@:: Say we have 4 factories. We consider using 1 factory, 2 factories, 3 factories, and 4 factories separately. Then each has a different SRATC curve. We want to choose 1 factory usage pattern. <p> Plot the SRATC curves. In the long run, we can vary move labors to an arbitrary factory. So when deciding to output a certain amount, we always choose the factory with the lowest SRATC. So the LRATC is the lowest SRATC curve for each output level.
     - cost curves / long run / scale ::@:: The __minimum efficient scale__ is given by the lowest point of the LRATC. Anything before that is __economies of scale__. Anything after that is __diseconomies of scale__.
 
 ## week 9 tutorial
@@ -689,7 +689,7 @@ The content is in teaching order.
     - perfect price discrimination / conditions ::@:: It requires a monopolist to know all buyers' WTP. Also no resale of goods between different buyers (arbitrage). So in practice, it is very difficult.
     - perfect price discrimination / graph ::@:: The demand curve becomes the MR curve. The quantity produced is the same as the competitive equilibrium quantity again, so deadweight loss is eliminated. But producer surplus captures all surplus, and there is no consumer surplus.
   - group pricing ::@:: age-based discounts, coupons (raise prices without affecting low-income groups, since low-income groups collect coupons, while high-income groups find it not worth the time), different prices in different countries (due to different income levels), financial aid for low income family by universities and colleges, premium airline tickets (e.g. business class)
-  - price discrimination / non-examples ::@:: Price differences that arise from cost differences, e.g. peak-Hour price for transportation: more workers to maintain the services; VIP room in restaurants: better services and decorations.
+  - price discrimination / non-examples ::@:: Price differences that arise from cost differences, e.g. peak-hour price for transportation: more workers to maintain the services; VIP room in restaurants: better services and decorations.
 - [questions § chapter 15 lecture](questions.md#chapter%2015%20lecture)
 
 ## midterm examination
@@ -891,7 +891,7 @@ The content is in teaching order.
 - report
   - TODO
 - check
-  - TODO
+  - check examination format ::@:: All the questions require you to write a lot of text, and it feels more like writing essays... I was not quite sure the things I have written are what the teacher wants. <p> Next time, I should also check the examination format of each instructor and see if it suits me.
 
 > __ECON2103 - Regarding the Final Exam on Wednesday, 18 December__
 >
