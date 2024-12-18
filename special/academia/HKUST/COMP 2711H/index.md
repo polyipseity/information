@@ -25,7 +25,17 @@ The content is in teaching order.
   - homework: 10% × 4. It must be written in LaTeX. After submitting the homework, the instructor and TAs will read the submission and give feedback. You can then resubmit once more. The highest out of the 2 submission wills be counted. Resubmission may be disallowed if the initial submission is low quality or lacks effort.
   - midterm examination: 30%.
   - final examination: 30%. It covers the entire course.
+
+## children
+
 - [questions](questions/questions.md)
+
+## assessments
+
+- [homework 1](assignments/homework%201/submission.md): 10/10
+- [homework 2](assignments/homework%202/submission.md): 7.5/10 → 9/10
+- [homework 3](assignments/homework%203/submission.md): 9/10
+- [homework 4](assignments/homework%204/submission.md): 8/10
 
 ## week 1 lecture
 
@@ -205,6 +215,7 @@ The content is in teaching order.
 
 - datetime: 2024-09-16T18:00:00+08:00/2024-09-16T18:50:00+08:00
 - topic: more counting
+- assignments: [homework 1](assignments/homework%201/submission.md)
 - [permutation](../../../../general/permutation.md)
 - [combination](../../../../general/combination.md)
 - [questions/2024-09-16/tutorial](questions/2024-09-16%20tutorial.md)
@@ -212,7 +223,6 @@ The content is in teaching order.
 - materials
   - [lecture video](https://youtu.be/p0Lb0odJCfU)
   - Andreescu and Feng: solve problem 25 to problem 51
-- assignments: [homework 1](assignments/homework%201/submission.md)
 
 ## week 3 lecture 2
 
@@ -461,6 +471,7 @@ The content is in teaching order.
 
 - datetime: 2024-10-09T09:00:00+08:00/2024-10-09T10:20:00+08:00
 - topic: distance, shortest paths, matchings
+- assignments: [homework 2](assignments/homework%202/submission.md)
 - graph theory
   - graph theory / distance ::@:: The __distance__ between two vertices (repeats allowed) in a graph is the minimum number of edges in a path connecting the two vertices.
   - graph theory / eccentricity ::@:: The __eccentricity__ of a vertex in a graph is the maximum distance it can have with any vertex in the same graph.
@@ -490,7 +501,6 @@ The content is in teaching order.
   - [video: maximal and maximum matchings](https://youtu.be/bOJC93XxoFc)
   - [video: matchings and augmenting paths](https://youtu.be/IQZEURSSr30)
   - [video: incremental improvement – matching](https://youtu.be/8C_T4iTzPCU)
-- assignments: [homework 2](assignments/homework%202/submission.md)
 
 ## week 6 TA session
 
@@ -578,23 +588,50 @@ The content is in teaching order.
 - datetime: 2024-10-18T18:00:00+08:00/2024-10-18T21:00:00+08:00, PT3H
 - venue: Lecture Theater C
 - format: closed book
-- grades: TODO/30
+- grades: 15.5/30
   - statistics
-    - mean: TODO
-    - standard deviation: TODO
-    - low: TODO
-    - lower quartile: TODO
-    - median: TODO
-    - upper quartile: TODO
-    - high: TODO
-    - distribution: TODO
+    - mean: ?
+    - standard deviation: ?
+    - low: ?
+    - lower quartile: ?
+    - median: ?
+    - upper quartile: ?
+    - high: ?
+    - distribution: ?
 - report
-  - TODO
+  - How to do Amir's examinations? ::@:: I had spent too much time on writing things that were later discarded. This led to extremely messy layout (not enough papers) and wasted time. <p> What I should have done instead is to think carefully and make use of pencils for drafting.
+  - time limit ::@:: It depends on if you have the insight... whatever that is. Very difficult...
 - check
   - note: You will receive a scanned copy of your examination. Send email to Amir to appeal.
 - materials
   - [lecture video](https://youtu.be/eLwNjIOM8QE)
-  - [midterm examination](https://canvas.ust.hk/courses/58174/modules/items/1444251)
+  - [midterm examination](attachments/midterm.pdf) (source: <https://canvas.ust.hk/courses/58174/modules/items/1444251>)
+
+> Total Score: 15.5/30
+>
+> Grader: Amir
+>
+> Problem 1: 10/10
+>
+> i) Correct - 2 points
+> ii and iii) Correct, but extremely hard to read due to both untidiness and a bad choice of pen. Please make sure this does not happen in the final. Otherwise, we will simply not grade the solution.
+>
+> Problem 2: 5.5/10
+>
+> i) Correct solution, but no closed-form - 1.5 points
+> ii and iii) Nice job - 4 points
+>
+> Problem 3: 0/10
+>
+> Not chosen
+>
+> Problem 4: 0/10
+>
+> Wrong answer
+>
+> Note: Your answer sheet was extremely hard to understand and grade. Please make sure this does not happen in the final. Otherwise, you will get a 0. The grader should not struggle with reading your solution.
+>
+> Please write an email to Amir if you would like to submit a reasonable appeal. Be patient after sending the email. There are hundreds of messages in the queue, mostly because people submit unreasonable appeals that get rejected!
 
 ## week 8 lecture
 
@@ -835,6 +872,7 @@ The content is in teaching order.
 
 - datetime: 2024-11-06T09:00:00+08:00/2024-11-06T10:20:00+08:00
 - topic: countability, Cantor's theorem, Tarski's theorem, Schröder–Bernstein theorem
+- assignments: [homework 3](assignments/homework%203/submission.md)
 - bijection & cardinality
 - injection & cardinality
 - image of a function
@@ -1038,6 +1076,7 @@ The content is in teaching order.
 
 - datetime: 2024-11-20T09:00:00+08:00/2024-11-20T10:20:00+08:00
 - topic: Markov chains
+- assignments: [homework 4](assignments/homework%204/submission.md)
 - [stochastic process](../../../../general/stochastic%20process.md) ::@:: A __stochastic process__ is defined as a sequence of random variables.
 - [Markov chain](../../../../general/Markov%20chain.md) ::@:: In probability theory and statistics, a __Markov chain__ or __Markov process__ is a [stochastic process](../../../../general/stochastic%20process.md) describing a [sequence](../../../../general/sequence.md) of possible events in which the [probability](../../../../general/probability.md) of each event depends only on the state attained in the previous event. Informally, this may be thought of as, "What happens next depends only on the state of affairs _now_."
   - Markov chain / graph ::@:: A Markov chain can be represented by a weighted directed graph. The weights are such that that are within $(0, 1]$, and the total weight of outgoing edges from any vertex is 1.
@@ -1189,3 +1228,5 @@ The content is in teaching order.
 - materials
   - lecture video: TODO
   - final examination: TODO
+
+## aftermath

@@ -45,6 +45,7 @@ The content is in teaching order.
 - datetime: 2024-09-12T10:30:00+08:00/2024-09-12T12:20:00+08:00
 - course logistics
 - topic: What is Success?: Define your workview and worldview
+- assignments: [workview](assignments/workview/submission.md), [worldview & journal](assignments/worldview%20&%20journal/submission.md)
 - 4 typical kinds of thinking ::@:: business thinking (optimize), design thinking (build), engineering thinking (solve), research thinking (analyze)
 - design thinking
   - design thinking video: <https://youtu.be/_r0VX-aU_T8>
@@ -55,9 +56,6 @@ The content is in teaching order.
   - art to building community / debrief ::@:: Our story makes us unique. Approach situations with a "yes and"!
 - activity 2: workview sharing, activity 3: worldview sharing
   - workview & worldview sharing / debrief ::@:: How is what you are currently doing coherent with your workview and worldview?
-- assignments
-  - [workview](assignments/workview/submission.md)
-  - [worldview & journal](assignments/worldview%20&%20journal/submission.md)
 
 ## week 3 tutorial
 
@@ -79,6 +77,7 @@ The content is in teaching order.
 ## week 4 tutorial
 
 - datetime: 2024-09-26T10:30:00+08:00/2024-09-26T12:20:00+08:00
+- assignments: [PERMA assessment and reflection](assignments/PERMA%20assessment%20and%20reflection/submission.md)
 - positive psychology ::@:: happiness, well-being, etc.
 - PERMA ::@:: a portfolio approach to well-being: positive emotion, engagement (& motivation), relationships, meaning & purposes, accomplishment
   - PERMA element properties ::@:: contributes to well-being, being pursued for their own sakes, independent of other elements
@@ -91,8 +90,6 @@ The content is in teaching order.
 - activity 1: PERMA assessment and reflection ::@:: PERMA assessment, energy engagement map (& flow), incremental changes, sharing with others
 - activity 2: STRONG debriefing
   - STRONG debriefing / debrief ::@:: STRONG assess your job interests, NOT your job skills!
-- assignments
-  - [PERMA assessment and reflection](assignments/PERMA%20assessment%20and%20reflection/submission.md)
 
 ## week 5 tutorial
 
@@ -196,6 +193,7 @@ The content is in teaching order.
 ## week 10 tutorial
 
 - datetime: 2024-11-07T10:30:00+08:00/2024-11-07T12:20:00+08:00
+- assignments: [odyssey planning – 3 versions of my life](assignments/odyssey%20planning%20–%203%20versions%20of%20my%20life/submission.md)
 - mindfulness ::@:: Paying attention to the present moment on purpose non-judgementally.
   - mindfulness / simple ::@:: Attend to own breathing. Relax. Ask: What is the most important _right now_?
 - activity 1: attention exercise ::@:: Learn to pay attention. Maybe try not looking at your phone. Go out and observe other things. Record your observations.
@@ -209,8 +207,6 @@ The content is in teaching order.
   - odyssey / best practice ::@:: It is best to start with multiple ideas in parallel instead of prematurely committing to one path. Your mind can stay more open, and receive and conceive more novel innovations.
 - activity 3: odyssey planning – 3 versions of my life ::@:: Design 3 versions of "me": First is the story you tell today. Second is what if the story you tell today was no longer an option? Last is wild ideas: No more constraints!
   - activity 3: odyssey planning – 3 versions of my life / components ::@:: __Timeline__: It shows major milestones, with at least one per year. Use whatever you want to describe it. It could be drawings, pictures, words, etc. <br/> __Dashboard__: It shows how you rate your plan. <br/> __Title__: A 3 to 6-word descriptive title. <br/> __Questions__: What questions does this plan raise?
-- assignments
-  - [odyssey planning – 3 versions of my life](assignments/odyssey%20planning%20–%203%20versions%20of%20my%20life/submission.md)
 
 ## week 11 tutorial
 
@@ -224,6 +220,7 @@ The content is in teaching order.
 ## week 12 tutorial
 
 - datetime: 2024-11-21T10:30:00+08:00/2024-11-21T12:20:00+08:00
+- assignments: [letter to future self](assignments/letter%20to%20future%20self/submission.md), [final presentation](assignments/final%20presentation/submission.md)
 - activity 1: odyssey sharing ::@:: Share your odysseys with your group in groups of 3. Listen without judgement and be curious.
 - prototype ::@:: To bring ideas to life with little cost.
   - prototype / advantages ::@:: engage others with your ideas, expose assumptions, reduce risk, sneak up on your future!
@@ -235,9 +232,6 @@ The content is in teaching order.
   - activity 2: prototyping odysseys / feedback ::@:: Ask your peers for feedback on your prototype! <p> Feedback can be: I like (what worked?), I wish (what could change?), I wonder (new ideas?, questions?).
 - storytelling ::@:: Tell stories.
   - storytelling / why ::@:: appeal to human emotion to motivate change, connect the dots for yourself for meaning and purpose, connect with others, create new opportunities
-- assignments
-  - [letter to future self](assignments/letter%20to%20future%20self/submission.md)
-  - [final presentation](assignments/final%20presentation/submission.md)
 
 ## week 13 tutorial
 

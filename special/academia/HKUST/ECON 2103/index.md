@@ -889,9 +889,11 @@ The content is in teaching order.
     - high: TODO
     - distribution: TODO
 - report
+  - examination format ::@:: All the questions require you to write a lot of text, and it feels more like writing essays... I was not quite sure the things I have written are what the teacher wants. <p> Next time, I should also check the examination format of each instructor and see if it suits me.
+  - time limit ::@:: The time limit was barely enough to finish all questions because I had written many words, and had spent some time on thinking...
   - TODO
 - check
-  - check examination format ::@:: All the questions require you to write a lot of text, and it feels more like writing essays... I was not quite sure the things I have written are what the teacher wants. <p> Next time, I should also check the examination format of each instructor and see if it suits me.
+  - TODO
 
 > __ECON2103 - Regarding the Final Exam on Wednesday, 18 December__
 >

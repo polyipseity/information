@@ -822,6 +822,7 @@ ID: 23456789
   - When applying machine learning on large data sets, it is good practice to test which algorithms work best on a small subset of the data before running the best model on the whole data set, since the same algorithms that work best on small data sets almost always also work best on big sets of the same data. True or false? (-1) ::@:: False. Carefully read "... before running the best model on the whole data set".
   - calculating recall (-4.2) ::@:: Do not calculate recall wrongly. Also, prioritize checking cascading questions (questions that depend on the answer of previous questions).
   - identity of models (-1) ::@:: Two models are considered different if their parameters (but not hyperparameters) are the same. For example, two _k_-NN model on the same training data but with different _k_ are considered the same model. However, if the hyperparameters also affect the parameters, e.g. training hyperparameters, then in said cases, different hyperparameters usually implies different parameters.
+  - time limit ::@:: It was sufficient to finish all questions and check some questions thoroughly.
 - check
   - datetime: 2024-11-07T19:30:00+08:00/2024-11-07T21:00:00+08:00, PT1H30M
   - venue: Lecture Theater B
@@ -1201,21 +1202,34 @@ ID: 23456789
   - Topic 10: Minimax and Alpha-Beta Pruning
   - Topic 11: Ethics of Artificial Intelligence
 - format: closed book, calculator, no cheatsheet
-- grades: TODO/100
+- grades: 89/100 → 91.5/100
   - statistics
-    - mean: TODO
-    - standard deviation: TODO
-    - low: TODO
-    - lower quartile: TODO
-    - median: TODO
-    - upper quartile: TODO
-    - high: TODO
-    - distribution: TODO
+    - mean: 68.06 (provided: 69.17) → 68.28
+    - standard deviation: ? (provided: 15.42) → ?
+    - low: 0 → 0
+    - lower quartile: 60.71 → 60.75
+    - median: 72 (provided: 72.28) → 72
+    - upper quartile: 80.88 → 81.13
+    - high: 94.4 (provided: 94.4) → 94.4
+    - distribution: ![final examination distribution](attachments/comp2211-fall-2024-final-distribution.png)
 - report
-  - TODO
+  - perceptron and multilayer perceptron
+    - dropout, active neurons (-1) ::@:: The Keras (TensorFlow) implementation of dropout is random instead of being proportion-based. So it is theoretically possible for all neurons to be unchanged by dropout of 0.5.
+    - forward propagation, prediction (-2) ::@:: Forward propagation takes more memory than prediction because intermediate values needs to be stored for backward propagation later.
+  - DIP, CNN and K-means clustering
+    - VGGNet or ResNet for feature extraction (-1.5) ::@:: Since the question is only asking for feature extraction, I thought ResNet also being capable of performing classification means it is not appropriate. But both VGGNet and ResNet are only backbone models, and do not specify the tasks to be done. <p> For reference: <p> ResNet utilizes "skip connections", which allow the model to bypass certain layers during training. This helps prevent issues like vanishing gradients, making it easier to train deeper networks. As a result, ResNet can learn more complex features from images compared to shallower models. <p> By using a pre-trained ResNet model, we can leverage the knowledge it has gained from being trained on a large dataset (like ImageNet). This means it can recognize general features (e.g., edges, textures) that are useful across many different types of images, which enhances our model's ability to classify new images accurately.
+  - minimax and alpha–beta pruning
+    - alpha–beta pruning (-1) ::@:: I did not check carefully on each exploration of a new branch.
+  - AI ethics
+    - de-biasing data by removing sensitive features (-2) ::@:: This does not work because the sensitive features are correlated with many other non-sensitive features still in the dataset.
+    - ways to identify and resolve model biases (-1) ::@:: I need to write 2 answers. However, I have crossed out one that I had found unsatisfactory but have not added back a new one. Maybe time issue?
+  - time limit ::@:: It was sufficient to finish all questions and check some questions thoroughly.
 - check
   - datetime: 2024-12-18T11:00:00+08:00/2024-12-18T12:30:00+08:00, PT1H30M
   - venue: Lecture Theater D
+  - changes
+    - advanced Python programming: +2 (TA was mistaken)
+    - convolution neural network: +0.5 (padding)
 
 > Dear all,
 >

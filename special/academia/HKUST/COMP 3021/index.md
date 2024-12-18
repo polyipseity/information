@@ -42,21 +42,26 @@ The content is in teaching order.
 - venue: \[SEAFRONT\]TST Sports Ctr MP RM
 - format: no electronic devices, open book (unlimited), open notes (unlimited)
   - cheatsheet: none (I didn't prepare any...)
-- grades: TODO/100
+- grades: 82.92/100 → 83.33/100
   - statistics
-    - mean: TODO
-    - standard deviation: TODO
-    - low: TODO
-    - lower quartile: TODO
-    - median: TODO
-    - upper quartile: TODO
-    - high: TODO
-    - distribution: TODO
+    - mean: 41.08 (provided: 41.08) → 42.45
+    - standard deviation: ? (provided: 16.68) → ?
+    - low: 10.42 → 13.42
+    - lower quartile: 27.71 → 27.71
+    - median: 39.58 → 40.42
+    - upper quartile: 52.71 → 54.17
+    - high: 82.92 → 83.33
+    - distribution: ? → ?
 - report
-  - TODO
+  - examination format ::@:: There are 20 multiple choice questions (MCQ), each worth 5 score. Each MCQ has a variable number of choices, with the most up to about 10 choices. Choosing any wrong option yields 0 score. Otherwise, you get $\text{score} = 5 \cdot \frac {\text{\# of answers} } {\text{\# of solutions} }$.
+  - conservative strategy ::@:: Er... Somehow did not select any wrong answers. It was a very nice strategy to be conservative...
+  - time limit ::@:: The time limit was... kinda irrelevant here, since you always want to make sure you have not chosen any wrong answers.
 - check
   - datetime: 2024-12-18T12:30:00+08:00/2024-12-18T14:30:00+08:00, PT2H
   - venue: Room 2128C, Academic Building
+- materials
+  - [solution: version A](attachments/solutions-print-a.pdf)
+  - [solution: version B](attachments/solutions-print-b.pdf)
 
 > __COMP3021 Final exam on Dec 16 (Mon) at 4:30PM; Paper checking on Dec 18 (Wed)__
 >

@@ -35,12 +35,47 @@ The content is in teaching order.
   - syllabus / descriptive statistics: descriptive statistics
   - syllabus / probability theory: introduction to probability theory → discrete random variable, discrete probability distribution → continuous random variable, continuous probability distribution
   - syllabus / inferential statistics: estimation of parameters: point estimation, interval estimation → hypothesis testing → simple linear regression → other topics: goodness of fit test, etc.
-- [assignments](assignments/)
 
 ## children
 
+- [assignments](assignments/)
 - [MATH 2411 final examination cheatsheet](MATH%202411%20final%20examination%20cheatsheet.pdf)
 - [MATH 2411 midterm examination cheatsheet](MATH%202411%20midterm%20examination%20cheatsheet.pdf)
+
+## assessments
+
+- [assignment 1](assignments/assignent%201/index.md): 20/20, graded
+  - statistics: L1
+    - mean: 15.09
+    - low: 0
+    - lower quartile: 11.25
+    - median: 14
+    - upper quartile: 20
+    - high: 20
+- [assignment 2](assignments/assignent%202/index.md): 20/20, graded
+  - statistics: L1
+    - mean: 17.37
+    - low: 0
+    - lower quartile: 17
+    - median: 20
+    - upper quartile: 20
+    - high: 20
+- [assignment 3](assignments/assignent%203/index.md): 20/20, graded
+  - statistics: L1
+    - mean: 16.94
+    - low: 0
+    - lower quartile: 16.25
+    - median: 19.5
+    - upper quartile: 20
+    - high: 20
+- [assignment 4](assignments/assignent%204/index.md): TODO/20, graded
+  - statistics: L1
+    - mean: TODO
+    - low: TODO
+    - lower quartile: TODO
+    - median: TODO
+    - upper quartile: TODO
+    - high: TODO
 
 ## week 1 lecture
 
@@ -208,6 +243,7 @@ The content is in teaching order.
 ## week 3 lecture
 
 - datetime: 2024-09-16T10:30:00+08:00/2024-09-16T11:50:00+08:00
+- assignments: [assignment 1](assignments/assignent%201/index.md)
 - [probability axioms](../../../../general/probability%20axioms.md)
   - probability axioms / history ::@:: In 1933, a Russian mathematician named Andrei Nikolayevich Kolmogorov published the axiomatic structure of probability theory.
   - probability axioms / first axiom ::@:: The first axiom is __non-negativity__. The probability of any event in a sample space is nonnegative.
@@ -221,15 +257,6 @@ The content is in teaching order.
   - probability axioms / numeric bound ::@:: The probability of any event is in between 0 and 1, inclusive. The lower bound is the non-negativity axiom, while the upper bound can be proved using the normalization axiom, monotonicity theorem, with the larger set being the sample space.
   - probability axioms / complement rule ::@:: The probability of the complement of any event is one minus the probability of that event. Proof: $$P\left(A^\complement \right) = P(S - A) = P(S) - P(A) = 1 - P(A)$$
   - probability axioms / additive law ::@:: The __additive law__ is: $$P(A \cup B) = P(A) + P(B) - P(A \cap B) \,.$$ When _A_ and _B_ are disjoint, then _P_(_A_ ∩ _B_) is 0 and the above degenerates into the finite additivity theorem. <p> The above is a special case of the [inclusion–exclusion principle](../../../../general/inclusion–exclusion%20principle.md), which can handle any countable number of events: $$\mathbb {P} \left(\bigcup _{i=1}^{n}A_{i}\right)=\sum _{k=1}^{n}\left((-1)^{k-1}\sum _{I\subseteq \{1,\ldots ,n\} \atop |I|=k}\mathbb {P} (A_{I})\right) \,.$$
-- assignment
-  - [assignment 1](assignments/assignent%201/index.md): 20/20, graded
-    - statistics: L1
-      - mean: 15.09
-      - low: 0
-      - lower quartile: 11.25
-      - median: 14
-      - upper quartile: 20
-      - high: 20
 
 ## week 3 lecture 2
 
@@ -288,6 +315,7 @@ The content is in teaching order.
 ## week 5 lecture 2
 
 - datetime: 2024-10-02T10:30:00+08:00/2024-10-02T11:50:00+08:00
+- assignments: [assignment 2](assignments/assignent%202/index.md)
 - [random variable](../../../../general/random%20variable.md) (r.v.) ::@:: A __random variable__ (__r.v.__) is a mathematical function. Its _domain_ is the sample space. Its _range_ is a measurable space, usually a finite set of integers or the real numbers. The function need not be _injective_ (different samples need not map to different values). It is commonly denoted by capital letters, with its possible numerical values (also called __realizations__) by the same but lowercase letters. <p> A way to think about random variable is that it maps each outcome to a real number.
   - random variable / motivation ::@:: How do we describe random process more mathematically? Random variables can do so.
   - random variable / notations ::@:: Some notations for a random variable _X_ on the sample space _S_: $$\begin{aligned} \set{X = x} & = \set{s \in S \mid X(s) = x} \\ \set{X \le x} & = \set{s \in S \mid X(s) \le x} \\ P(X = x) & = P(\set{X = x}) \\ P(X \le x) & = P(\set{X \le x}) \end{aligned}$$
@@ -306,15 +334,6 @@ The content is in teaching order.
 - [variance](../../../../general/variance.md) ::@:: __Variance__ is the expected value of the squared deviation from the mean of a random variable. It is often represented by $\sigma ^{2}$, $s^{2}$, $\operatorname {Var} (X)$, $V(X)$, or $\mathbb {V} (X)$.
   - variance / discrete random variable ::@:: The variance fo a discrete random variable is $$\operatorname{Var}(X) = \sum_{x \in \mathcal X} \left((x - \mu)^2 p(x) \right) \,.$$ This is only defined if the sum exists, so it is possible for a discrete random variable to have undefined variance.
   - variance / properties ::@:: A well-known identity relating variance to expected value is $$\operatorname{Var}(X) = \operatorname E\left[X^2\right] - (\operatorname E[X])^2 = \operatorname E\left[X^2\right] - \mu^2 \,.$$ With this identity, the following properties can be proved: $$\begin{aligned} \operatorname{Var}(b) = 0 \\ \operatorname{Var}(aX) & = a^2 \operatorname{Var}(X) \\ \operatorname{Var}(aX + b) & = a^2 \operatorname{Var}(X) \\ \operatorname{Var}(aX \pm bY) & = a^2 \operatorname{Var}(X) + b^2 \operatorname{Var}(Y) && \text{important, uses }\pm \,, \end{aligned}$$ where _a_, _b_ are constants and _X_, _Y_ are random variables _independent_ from each other, i.e. $$P(X \le x, Y \le y) = P(X \le x) P(Y \le y) \,.$$
-- assignment
-  - [assignment 2](assignments/assignent%202/index.md): 20/20, graded
-    - statistics: L1
-      - mean: 17.37
-      - low: 0
-      - lower quartile: 17
-      - median: 20
-      - upper quartile: 20
-      - high: 20
 
 ## week 5 tutorial
 
@@ -455,6 +474,7 @@ The content is in teaching order.
   - Inputted $\binom {100} 1$ as 1 instead of 100 into the calculator when evaluating a binomial distribution...
     - $\binom {100} 1$ (-1) ::@:: It evaluates to 100, not 1.
   - Simplified $\frac 4 {b^2} \left(b\right)$ into $\frac 4 {b^3}$ instead of $\frac 4 b$... (-1)
+  - time limit ::@:: Time limit was really really tight. Only 10 minutes left for checking, even if you are familiar with the content.
 - check
   - datetime: 2024-10-29T10:00:00+08:00/2024-10-29T11:00:00+08:00, PT1H
   - venue: Room 3472 (Lift 25-26), Academic Building
@@ -530,6 +550,7 @@ The content is in teaching order.
 ## week 9 lecture 2
 
 - datetime: 2024-10-30T10:30:00+08:00/2024-10-30T11:50:00+08:00
+- assignments: [assignment 3](assignments/assignent%203/index.md)
 - [confidence interval](../../../../general/confidence%20interval.md)
   - confidence interval / normal distribution ::@:: We will only consider the confidence intervals when $X$ follows a normal distribution.
     - confidence interval / normal distribution / for variance with known mean ::@:: Assume $X \sim \mathcal N\left(\mu_X, \sigma_X^2\right)$. We use $$\begin{aligned} \sum_{i = 1}^n \left(\frac {X_i - \mu_X} {\sigma_X} \right)^2 & \sim \chi^2(n) \,. \end{aligned}$$ Then we have $$\begin{aligned} \Pr\left(\chi^2_{n, 1 - \alpha / 2} \le \sum_{i = 1}^n \left(\frac {X_i - \mu_X} {\sigma_X} \right)^2 \le \chi^2_{n, \alpha / 2} \right) & \ge 1 - \alpha \\ \Pr\left(\frac {\sum_{i = 1}^n (X_i - \mu_X)^2} {\chi^2_{n, \alpha / 2} } \le \sigma_X^2 \le \frac {\sum_{i = 1}^n (X_i - \mu_X)^2} {\chi^2_{n, 1 - \alpha / 2} } \right) & \ge 1 - \alpha \,, \end{aligned}$$ where $\chi^2_{n, \alpha}$ is $P\left(Y > \chi^2_{n, \alpha}\right) = \alpha \quad Y \sim \chi^2(n)$. (Remember, $\chi^2_{n, \alpha}$ is _not_ symmetric.)
@@ -594,6 +615,7 @@ The content is in teaching order.
 ## week 11 lecture 2
 
 - datetime: 2024-11-13T10:30:00+08:00/2024-11-13T11:50:00+08:00
+- assignments: [assignment 4](assignments/assignent%204/index.md)
 - [statistical hypothesis test](../../../../general/statistical%20hypothesis%20test.md)
   - statistical hypothesis test / normal distribution
     - statistical hypothesis test / normal distribution / for variance when mean is known ::@:: Assume $X \sim \mathcal N\left(\mu_X, \sigma_0^2\right)$. We use $$U_n := \sum_{i = 1}^n \left(\frac {X_i - \mu_X} {\sigma_0} \right)^2 \sim \mathcal \chi^2(n) \,.$$ Then we have $$\begin{aligned} p_l & = \Pr\left(U_n < \frac {\sum_{i = 1}^n (x_i - \mu_X)^2} {\sigma_0^2} \right) && \text{one-sided left} \\ p_r & = \Pr\left(U_n > \frac {\sum_{i = 1}^n (x_i - \mu_X)^2} {\sigma_0^2} \right) && \text{one-sided right} \\ p_{lr} & = 2 \min \set{p_l, p_r} && \text{one-sided two-sided} \,. \end{aligned}$$ <p> If using critical value, compare $\frac {\sum_{i = 1}^n (x_i - \mu_X)^2} {\sigma_0^2}$ against $\chi^2_{n, \alpha}$, $\chi^2_{n, 1 - \alpha}$, $\chi^2_{n, \alpha / 2}$, or $\chi^2_{n, 1 - \alpha / 2}$ (note: not symmetric); and $p := \alpha$. If using _p_-value, $p$ is the _p_-value. Note that when using _p_-value, $p_l + p_r = 1$.
@@ -694,18 +716,28 @@ The content is in teaching order.
 - venue: S H Ho Sports Hall
 - format: closed book, calculator, 2 sides of a A4-sized cheatsheet
   - [cheatsheet](MATH%202411%20final%20examination%20cheatsheet.pdf)
-- grades: TODO/100
-  - statistics
-    - mean: TODO
-    - standard deviation: TODO
-    - low: TODO
-    - lower quartile: TODO
-    - median: TODO
-    - upper quartile: TODO
-    - high: TODO
-    - distribution: TODO
+- grades: 100/100 → 100/100
+  - statistics: L1
+    - mean: 56.6
+    - standard deviation: ? → ?
+    - low: 2
+    - lower quartile: 36
+    - median: 62
+    - upper quartile: 75
+    - high: 100
+    - distribution: ? → ?
+  - statistics: L2
+    - mean: 63.3
+    - standard deviation: ? → ?
+    - low: 13
+    - lower quartile: 47
+    - median: 68.5
+    - upper quartile: 82
+    - high: 99
+    - distribution: ? → ?
 - report
-  - TODO
+  - Is a report necessary in this case...?
+  - time limit ::@:: The time limit was enough to finish all questions and check them for 20 minutes. This, of course, assumes you are very familiar with the methods used.
 - check
   - datetime: 2024-12-20T14:30:00+08:00/2024-12-20T16:00:00+08:00, PT1H30M
   - venue: Room 1410 (Lift 25-26), Academic Building
