@@ -77,7 +77,7 @@ if ("abc".equals(string)) {
 }
 ```
 
-Note that there is subtly with the `switch` statement. First, {@{only constant values but not variables can be used after `case`}@}. Second, {@{a `break` is needed before the next `case` or `default` to get the desirable behavior. It is possible to not have `break` but the semantics are more advanced than the `if...else` statement}@}. <!--SR:!2026-02-12,543,310!2024-12-19,247,330-->
+Note that there is subtly with the `switch` statement. First, {@{only constant values but not variables can be used after `case`}@}. Second, {@{a `break` is needed before the next `case` or `default` to get the desirable behavior. It is possible to not have `break` but the semantics are more advanced than the `if...else` statement}@}. <!--SR:!2026-02-12,543,310!2027-03-14,815,330-->
 
 ## iteration
 

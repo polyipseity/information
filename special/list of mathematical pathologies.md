@@ -40,7 +40,7 @@ Volterra's function is constructed {@{using increasingly smaller modified copies
 
 - derivative
   - derivative integrability
-    - derivative [Riemann integrability](../general/Riemann%20integral.md) ::@:: The derivative is not Riemann integrable on $[0, 1]$. Pathologically, the derivative exists everywhere and is [bounded](bounded%20function.md). <!--SR:!2024-12-19,63,286!2026-06-08,552,326-->
+    - derivative [Riemann integrability](../general/Riemann%20integral.md) ::@:: The derivative is not Riemann integrable on $[0, 1]$. Pathologically, the derivative exists everywhere and is [bounded](bounded%20function.md). <!--SR:!2025-06-17,180,286!2026-06-08,552,326-->
 
 ### empty function
 

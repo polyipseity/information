@@ -29,7 +29,7 @@ The first axiom states {@{that the constant 0 is a natural number}@}: <!--SR:!20
 
 Peano's original formulation of the axioms {@{used 1 instead of 0 as the "first" natural number, while the axioms in _[Formulario mathematico](formulario%20mathematico.md)_ include zero}@}. <!--SR:!2025-10-19,315,345-->
 
-The next four axioms describe {@{the [equality](equality%20(mathematics).md) [relation](relation%20(mathematics).md)}@}. Since {@{they are logically valid in first-order logic with equality}@}, they are {@{not considered to be part of "the Peano axioms" in modern treatments}@}. <!--SR:!2024-12-19,78,325!2025-06-12,207,325!2025-05-11,185,325-->
+The next four axioms describe {@{the [equality](equality%20(mathematics).md) [relation](relation%20(mathematics).md)}@}. Since {@{they are logically valid in first-order logic with equality}@}, they are {@{not considered to be part of "the Peano axioms" in modern treatments}@}. <!--SR:!2025-12-05,351,345!2025-06-12,207,325!2025-05-11,185,325-->
 
 <!-- markdownlint-capture -->
 <!-- markdownlint-disable MD029 -->
@@ -61,7 +61,7 @@ The induction axiom is sometimes stated in the following form:
 
 <!-- markdownlint-capture -->
 <!-- markdownlint-disable MD029 -->
-9. 9th axiom condition (predicate) ::@:: If _φ_ is a unary [predicate](predicate%20(mathematical%20logic).md) such that: _φ_(0) is true, and for every natural number _n_, _φ_(_n_) being true implies that _φ_(_S_(_n_)) is true, then _φ_(_n_) is true for every natural number _n_. <!--SR:!2024-12-19,78,325!2025-03-08,135,322-->
+9. 9th axiom condition (predicate) ::@:: If _φ_ is a unary [predicate](predicate%20(mathematical%20logic).md) such that: _φ_(0) is true, and for every natural number _n_, _φ_(_n_) being true implies that _φ_(_S_(_n_)) is true, then _φ_(_n_) is true for every natural number _n_. <!--SR:!2025-12-06,352,345!2025-03-08,135,322-->
 <!-- markdownlint-restore -->
 
 In Peano's original formulation, the induction axiom is {@{a [second-order axiom](second-order%20logic.md)}@}. It is now common to {@{replace this second-order principle with a weaker [first-order](first-order%20logic.md) induction scheme}@}. There are {@{important differences between the second-order and first-order formulations, as discussed in the section [§ Peano arithmetic as first-order theory](#peano%20arithmetic%20as%20first-order%20theory) below}@}. <!--SR:!2025-05-17,190,325!2025-05-17,186,310!2025-08-23,249,325-->

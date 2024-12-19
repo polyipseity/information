@@ -80,7 +80,7 @@ return chain(
 <!--pytextgen generate section="dd23"--><!-- The following content is generated at 2024-11-12T13:56:48.838480+08:00. Any edits will be overridden! -->
 
 - _(begin)_→::@::←organize the data set <!--SR:!2025-10-12,330,290!2025-01-30,171,310-->
-- organize the data set→::@::←calculate the empirical mean <!--SR:!2024-12-19,127,290!2025-12-04,356,290-->
+- organize the data set→::@::←calculate the empirical mean <!--SR:!2025-12-22,368,290!2025-12-04,356,290-->
 - calculate the empirical mean→::@::←calculate the deviations from the mean <!--SR:!2025-07-25,312,330!2026-01-19,433,310-->
 - calculate the deviations from the mean→::@::←find the covariance matrix <!--SR:!2025-02-03,176,310!2026-05-28,534,310-->
 - find the covariance matrix→::@::←find the eigenvectors and eigenvalues of the covariance matrix <!--SR:!2025-10-05,316,290!2026-05-17,533,330-->

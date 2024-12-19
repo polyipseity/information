@@ -201,7 +201,7 @@ In his 1870 essay "On the Graphical Representation of Supply and Demand", [Fleem
 
 ## criticism
 
-[Piero Sraffa](Piero%20Sraffa.md)'s critique focused on {@{the inconsistency (except in implausible circumstances) of partial equilibrium analysis and the rationale for the upward slope of the supply curve in a market for a produced consumption good}@}.<sup>[\[24\]](#^ref-24)</sup> The notability of Sraffa's critique is also demonstrated by [Paul Samuelson](Paul%20Samuelson.md)'s comments and engagements with it over many years, for example: <!--SR:!2024-12-19,21,270-->
+[Piero Sraffa](Piero%20Sraffa.md)'s critique focused on {@{the inconsistency (except in implausible circumstances) of partial equilibrium analysis and the rationale for the upward slope of the supply curve in a market for a produced consumption good}@}.<sup>[\[24\]](#^ref-24)</sup> The notability of Sraffa's critique is also demonstrated by [Paul Samuelson](Paul%20Samuelson.md)'s comments and engagements with it over many years, for example: <!--SR:!2025-03-11,82,290-->
 
 > What a cleaned-up version of Sraffa (1926) establishes is how _nearly empty_ are _all_ of Marshall's partial equilibrium boxes. To a logical purist of Wittgenstein and Sraffa class, the _Marshallian partial_ equilibrium box of _constant_ cost is even more empty than the box of _increasing_ cost.<sup>[\[25\]](#^ref-25)</sup>
 

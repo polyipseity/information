@@ -19,7 +19,7 @@ The [ordinary differential equation](ordinary%20differential%20equation.md) for 
 >
 > - where
 >   - [function](function%20(mathematics).md) properties: {@{$F_\mathrm{net}$ is the [net force](net%20force.md), $x$ is the [displacement](displacement%20(geometry).md) from equilibrium, and $t$ is the [time](time.md)}@}
->   - [oscillator](oscillation.md) properties: {@{$k$ is the [spring constant](Hooke's%20law.md) and $m$ is the [mass](mass.md)}@} <!--SR:!2025-02-10,306,349!2024-12-19,266,349!2025-04-26,388,369-->
+>   - [oscillator](oscillation.md) properties: {@{$k$ is the [spring constant](Hooke's%20law.md) and $m$ is the [mass](mass.md)}@} <!--SR:!2025-02-10,306,349!2027-07-06,929,349!2025-04-26,388,369-->
 
 For better physical meaning, it can be rewritten as:
 

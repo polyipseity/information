@@ -39,7 +39,7 @@ Due to {@{the nature of [double-entry](double-entry%20bookkeeping.md) [accrual a
 
 When {@{total assets are greater than total liabilities}@}, stockholders have {@{a positive equity (positive [book value](book%20value.md))}@}. Conversely, when {@{total liabilities are greater than total assets, stockholders have a negative stockholders' equity (negative book value) — also sometimes called stockholders' deficit}@}. A stockholders' deficit does not mean that {@{stockholders owe money to the corporation as they own only its net assets and are not accountable for its [liabilities](liability%20(financial%20accounting).md)}@}, though {@{it is one of the definitions of [insolvency](insolvency.md)}@}. This means that {@{the value of the assets of the company must rise above its liabilities}@} before the stockholders hold positive equity value in the company. <!--SR:!2025-09-22,282,330!2025-05-31,189,310!2025-06-06,193,310!2025-03-01,114,290!2025-06-07,193,310!2025-08-17,255,330-->
 
-- retained earnings equation ::@:: retained earnings = opening retained earnings + current year net profit from p&l a/c - dividends paid in the current year <!--SR:!2025-02-19,106,290!2024-12-19,70,310-->
+- retained earnings equation ::@:: retained earnings = opening retained earnings + current year net profit from p&l a/c - dividends paid in the current year <!--SR:!2025-02-19,106,290!2025-10-17,302,330-->
 
 ## tax implications
 

@@ -60,7 +60,7 @@ Another common way to {@{express the law of demand [without imposing a functiona
 
 ## demand versus supply
 
-On the one hand, {@{demand}@} refers to {@{the [demand curve](demand%20curve.md)}@}. {@{Changes in supply}@} are depicted graphically by {@{a shift in the supply curve to the left or right}@}.<sup>[\[1\]](#^ref-1)</sup> {@{Changes in the demand curve}@} are {@{usually caused by 5 major factors, namely}@}: {@{number of buyers, consumer income, tastes or preferences, price of related goods and future expectations}@}. <!--SR:!2025-02-01,63,310!2025-01-30,63,310!2025-02-13,75,329!2025-01-23,57,310!2025-01-29,62,310!2025-02-04,66,310!2024-12-19,29,270-->
+On the one hand, {@{demand}@} refers to {@{the [demand curve](demand%20curve.md)}@}. {@{Changes in supply}@} are depicted graphically by {@{a shift in the supply curve to the left or right}@}.<sup>[\[1\]](#^ref-1)</sup> {@{Changes in the demand curve}@} are {@{usually caused by 5 major factors, namely}@}: {@{number of buyers, consumer income, tastes or preferences, price of related goods and future expectations}@}. <!--SR:!2025-02-01,63,310!2025-01-30,63,310!2025-02-13,75,329!2025-01-23,57,310!2025-01-29,62,310!2025-02-04,66,310!2025-03-09,80,270-->
 
 > {@{![A change in quantity demanded is shown by a movement along the existing demand curve.](../archives/Wikimedia%20Commons/Quantity%20demanded.jpg)}@}
 >

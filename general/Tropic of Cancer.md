@@ -11,7 +11,7 @@ tags:
 
 The __Tropic of Cancer__, also known as {@{the __Northern Tropic__}@}, is {@{the [Earth](Earth.md)'s [northernmost](north.md) circle of [latitude](latitude.md) where the [Sun](Sun.md) can be seen [directly overhead](subsolar%20point.md)}@}. This happens on {@{the [June solstice](June%20solstice.md)}@}. The Sun also {@{touches 90 degrees below the horizon ([nadir](nadir.md)) on the [December solstice](December%20solstice.md) in locations along the Tropic of Cancer}@}. Its [southern](south.md) equivalent is {@{the [Tropic of Capricorn](Tropic%20of%20Capricorn.md)}@}. <!--SR:!2025-05-12,239,330!2025-06-02,256,330!2025-07-18,291,330!2025-06-02,252,330!2025-08-08,304,330-->
 
-Using a continuously updated formula, the circle is {@{currently 23°26′10.0″ (or 23.43611°) [north](north.md) of the [equator](equator.md)}@}, which approximates {@{[Earth](Earth.md)'s [axial tilt](axial%20tilt.md)}@}. <!--SR:!2024-12-19,70,190!2025-03-15,179,310-->
+Using a continuously updated formula, the circle is {@{currently 23°26′10.0″ (or 23.43611°) [north](north.md) of the [equator](equator.md)}@}, which approximates {@{[Earth](Earth.md)'s [axial tilt](axial%20tilt.md)}@}. <!--SR:!2025-05-01,133,190!2025-03-15,179,310-->
 
 ## name
 

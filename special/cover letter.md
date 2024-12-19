@@ -43,7 +43,7 @@ return await memorize_seq(
 
 - _(begin)_→::@::←create positive first impression <!--SR:!2025-07-13,396,310!2028-07-23,1365,350-->
 - create positive first impression→::@::←emphasize your knowledge of the company <!--SR:!2027-09-14,1036,310!2027-03-06,887,330-->
-- emphasize your knowledge of the company→::@::←include extra information not in the [résumé](résumé.md) <!--SR:!2024-12-19,191,250!2025-05-13,301,270-->
+- emphasize your knowledge of the company→::@::←include extra information not in the [résumé](résumé.md) <!--SR:!2026-04-12,479,250!2025-05-13,301,270-->
 - include extra information not in the [résumé](résumé.md)→::@::←mention your referees <!--SR:!2026-03-18,526,270!2025-03-03,225,250-->
 - mention your referees→::@::←_(end)_ <!--SR:!2025-03-03,309,310!2025-04-09,322,270-->
 

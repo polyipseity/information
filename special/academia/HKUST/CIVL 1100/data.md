@@ -172,7 +172,7 @@ See [Hong Kong Convention and Exhibition Centre](../../../../general/Hong%20Kong
 See [Hong Kong–Zhuhai–Macau Bridge](../../../../general/Hong%20Kong–Zhuhai–Macau%20Bridge.md).
 
 - bridge type ::@:: [bridge–tunnel](../../../../general/bridge–tunnel.md)<!-- flashcard 981d3cc6-47b4-4aad-8a99-bdeea2975b92 --> <!--SR:!2025-04-16,286,374!2025-09-03,402,394-->
-- description ::@:: fixed link consisting of tunnels and multiple bridges <!--SR:!2025-08-21,367,375!2024-12-19,209,330-->
+- description ::@:: fixed link consisting of tunnels and multiple bridges <!--SR:!2025-08-21,367,375!2027-07-29,952,350-->
 - image ::@:: ![Hong Kong–Zhuhai–Macau Bridge image](../../../../archives/Wikimedia%20Commons/West%20section%20of%20Hong%20Kong-Zhuhai-Macau%20Bridge%20(20180902174105).jpg) <!--SR:!2026-03-14,550,400!2025-11-13,451,400-->
 - length: 55 km
 
@@ -262,7 +262,7 @@ See [Parthenon](../../../../general/Parthenon.md).
 See [Stonecutters Bridge](../../../../general/Stonecutters%20Bridge.md).
 
 - bridge type ::@:: [cable-stayed bridge](../../../../general/cable-stayed%20bridge.md)<!-- flashcard ca1fa4c4-b487-40a0-9948-a808866a25eb --> <!--SR:!2026-09-19,645,361!2026-01-22,510,401-->
-- description ::@:: bridge in Hong Kong <!--SR:!2024-12-19,186,345!2026-01-18,514,397-->
+- description ::@:: bridge in Hong Kong <!--SR:!2027-05-21,883,365!2026-01-18,514,397-->
 - image ::@:: ![Stonecutters Bridge image](../../../../archives/Wikimedia%20Commons/Stonecutters'%20Bridge.jpg) <!--SR:!2026-01-03,492,400!2025-05-03,286,380-->
 - length ::@:: 1596 m, longest span: 1018 m <!--SR:!2025-01-07,33,200!2025-03-13,259,370-->
 
@@ -297,7 +297,7 @@ See [Thames Barrier](../../../../general/Thames%20Barrier.md).
 
 See [Tsing Ma Bridge](../../../../general/Tsing%20Ma%20Bridge.md).
 
-- bridge type ::@:: [double-decked](../../../../general/deck%20(bridge).md) [suspension bridge](../../../../general/suspension%20bridge.md)<!-- flashcard 54af6d8c-884f-4894-bb1a-ce65254b1063 --> <!--SR:!2024-12-19,156,297!2025-11-10,455,390-->
+- bridge type ::@:: [double-decked](../../../../general/deck%20(bridge).md) [suspension bridge](../../../../general/suspension%20bridge.md)<!-- flashcard 54af6d8c-884f-4894-bb1a-ce65254b1063 --> <!--SR:!2026-03-27,463,297!2025-11-10,455,390-->
 - description ::@:: [suspension bridge](../../../../general/suspension%20bridge.md) in [Hong Kong](../../../../general/Hong%20Kong.md) <!--SR:!2025-01-26,227,330!2025-12-18,488,392-->
 - image ::@:: ![Tsing Ma Bridge image](../../../../archives/Wikimedia%20Commons/Tsing%20Ma%20Bridge%202.jpg) <!--SR:!2026-01-15,503,400!2025-09-05,389,380-->
 - length ::@:: 2160 m, longest span: 1377 m <!--SR:!2025-10-31,353,280!2025-09-01,368,380-->
