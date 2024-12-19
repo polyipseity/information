@@ -197,7 +197,7 @@ This text incorporates [content](https://en.wikipedia.org/wiki/Carmichael_functi
 | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | - [Euler's totient function](Euler's%20totient%20function.md) _φ_\(_n_\) <br/> - [Jordan's totient function](Jordan's%20totient%20function.md) _J<sub>k</sub>_\(_n_\) <br/> - __Carmichael function__ \(reduced totient function\) _λ_\(_n_\) <br/> - [Nontotient](nontotient.md) <br/> - [Noncototient](noncototient.md) <br/> - [Highly totient number](highly%20totient%20number.md) <br/> - [Highly cototient number](highly%20cototient%20number.md) <br/> - [Sparsely totient number](sparsely%20totient%20number.md) |
 
-[Categories](https://en.wikipedia.org/wiki/Help:Category):
-
-- [Modular arithmetic](https://en.wikipedia.org/wiki/Category:Modular%20arithmetic)
-- [Functions and mappings](https://en.wikipedia.org/wiki/Category:Functions%20and%20mappings)
+> [Categories](https://en.wikipedia.org/wiki/Help:Category):
+>
+> - [Modular arithmetic](https://en.wikipedia.org/wiki/Category:Modular%20arithmetic)
+> - [Functions and mappings](https://en.wikipedia.org/wiki/Category:Functions%20and%20mappings)

@@ -254,9 +254,9 @@ This text incorporates [content](https://en.wikipedia.org/wiki/Markov_decision_p
 - <a id="CITEREFSuttonBarto2017"></a> Sutton, R. S.; Barto, A. G. \(2017\). [_Reinforcement Learning: An Introduction_](http://incompleteideas.net/sutton/book/the-book-2nd.html). Cambridge, MA: The MIT Press.
 - <a id="CITEREFTijms.2003"></a> Tijms., H.C. \(2003\). [_A First Course in Stochastic Models_](https://books.google.com/books?id=WibF8iVHaiMC). Wiley. [ISBN](ISBN.md) [9780470864289](https://en.wikipedia.org/wiki/Special:BookSources/9780470864289).
 
-[Categories](https://en.wikipedia.org/wiki/Help:Category):
-
-- [Optimal decisions](https://en.wikipedia.org/wiki/Category:Optimal%20decisions)
-- [Dynamic programming](https://en.wikipedia.org/wiki/Category:Dynamic%20programming)
-- [Markov processes](https://en.wikipedia.org/wiki/Category:Markov%20processes)
-- [Stochastic control](https://en.wikipedia.org/wiki/Category:Stochastic%20control)
+> [Categories](https://en.wikipedia.org/wiki/Help:Category):
+>
+> - [Optimal decisions](https://en.wikipedia.org/wiki/Category:Optimal%20decisions)
+> - [Dynamic programming](https://en.wikipedia.org/wiki/Category:Dynamic%20programming)
+> - [Markov processes](https://en.wikipedia.org/wiki/Category:Markov%20processes)
+> - [Stochastic control](https://en.wikipedia.org/wiki/Category:Stochastic%20control)
