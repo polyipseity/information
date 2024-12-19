@@ -122,7 +122,7 @@ The solution above assumes that {@{the state $s$ is known when action is to be t
 - CMDPs are solved ::@:: with [linear programs](linear%20programming.md) only, and [dynamic programming](dynamic%20programming.md) does not work.
 - The final policy ::@:: depends on the starting state.
 
-{@{The method of Lagrange multipliers}@} applies to CMDPs. {@{Many Lagrangian-based algorithms}@} have been developed. (Annotation: An example is {@{the natural policy gradient primal-dual method}@}.)
+{@{The method of Lagrange multipliers}@} applies to CMDPs. {@{Many Lagrangian-based algorithms}@} have been developed. (annotation: An example is {@{the natural policy gradient primal-dual method}@}.)
 
 - Natural policy gradient primal-dual method.<sup>[\[15\]](#^ref-15)</sup>
 
@@ -145,7 +145,7 @@ $y(i,a)$ is {@{a feasible solution to the D-LP}@} if {@{$y(i,a)$ is nonnative an
 
 #### continuous space: Hamilton–Jacobi–Bellman equation
 
-In continuous-time MDP, if {@{the state space and action space are continuous}@}, {@{the optimal criterion could be found by solving [Hamilton–Jacobi–Bellman \(HJB\) partial differential equation](Hamilton–Jacobi–Bellman%20equation.md)}@}. In order to {@{discuss the HJB equation}@}, we need to reformulate our problem {@{$${\begin{aligned}V(s(0),0)={}&\max _{a(t)=\pi (s(t))}\int _{0}^{T}r(s(t),a(t))\,dt+D[s(T)]\\{\text{s.t.} }\quad &{\frac {ds(t)}{dt} }=f[s(t),a(t), t]\end{aligned} }$$}@} (Annotation: The optimal value is {@{the maximum reward we can get in the process (the integral) plus the final reward}@}, such that {@{the process evolution, $s(t)$, is a valid evolution (the constraint)}@}.) $D(\cdot )$ is {@{the terminal reward function}@}, $s(t)$ is {@{the system state vector}@}, $a(t)$ is {@{the system control vector we try to find}@}. $f(\cdot )$ shows {@{how the state vector changes over time}@}. The Hamilton–Jacobi–Bellman equation is as follows: {@{$$0=\max _{a}(r(s,a, t)+{\frac {\partial V(s, t)}{\partial s} }f(s,a, t))$$}@} We could {@{solve the equation to find the optimal control $a(t)$}@}, which could {@{give us the optimal [value function](value%20function.md) $V^{*}$}@}.
+In continuous-time MDP, if {@{the state space and action space are continuous}@}, {@{the optimal criterion could be found by solving [Hamilton–Jacobi–Bellman \(HJB\) partial differential equation](Hamilton–Jacobi–Bellman%20equation.md)}@}. In order to {@{discuss the HJB equation}@}, we need to reformulate our problem {@{$${\begin{aligned}V(s(0),0)={}&\max _{a(t)=\pi (s(t))}\int _{0}^{T}r(s(t),a(t))\,dt+D[s(T)]\\{\text{s.t.} }\quad &{\frac {ds(t)}{dt} }=f[s(t),a(t), t]\end{aligned} }$$}@} (annotation: The optimal value is {@{the maximum reward we can get in the process (the integral) plus the final reward}@}, such that {@{the process evolution, $s(t)$, is a valid evolution (the constraint)}@}.) $D(\cdot )$ is {@{the terminal reward function}@}, $s(t)$ is {@{the system state vector}@}, $a(t)$ is {@{the system control vector we try to find}@}. $f(\cdot )$ shows {@{how the state vector changes over time}@}. The Hamilton–Jacobi–Bellman equation is as follows: {@{$$0=\max _{a}(r(s,a, t)+{\frac {\partial V(s, t)}{\partial s} }f(s,a, t))$$}@} We could {@{solve the equation to find the optimal control $a(t)$}@}, which could {@{give us the optimal [value function](value%20function.md) $V^{*}$}@}.
 
 ## reinforcement learning
 
@@ -172,15 +172,15 @@ In {@{learning automata theory}@}, a {@{__stochastic automaton__}@} consists of:
 - a set _x_ ::@:: of possible inputs,
 - a set Φ = { Φ<sub>1</sub>, ..., Φ<sub>_s_</sub> } ::@:: of possible internal states,
 - a set α = { α<sub>1</sub>, ..., α<sub>_r_</sub> } ::@:: of possible outputs, or actions, with _r_ ≤ _s_,
-- an initial state probability vector ::@:: _p_\(0\) = ≪ _p_<sub>1</sub>\(0\), ..., _p<sub>s</sub>_\(0\) ≫, (Annotation: This randomly selects the current state.)
-- a [computable function](computable%20function.md) _A_ which ::@:: after each time step _t_ generates _p_\(_t_ + 1\) from _p_\(_t_\), the current input, and the current state, and (Annotation: This makes the automata "learn" from an input.)
-- a function _G_: Φ → α which ::@:: generates the output at each time step. (Annotation: Note that the function only depends on the current state, not the current input.)
+- an initial state probability vector ::@:: _p_\(0\) = ≪ _p_<sub>1</sub>\(0\), ..., _p<sub>s</sub>_\(0\) ≫, (annotation: This randomly selects the current state.)
+- a [computable function](computable%20function.md) _A_ which ::@:: after each time step _t_ generates _p_\(_t_ + 1\) from _p_\(_t_\), the current input, and the current state, and (annotation: This makes the automata "learn" from an input.)
+- a function _G_: Φ → α which ::@:: generates the output at each time step. (annotation: Note that the function only depends on the current state, not the current input.)
 
 {@{The states of such an automaton}@} correspond to {@{the states of a "discrete-state discrete-parameter [Markov process](Markov%20chain.md)"}@}.<sup>[\[21\]](#^ref-21)</sup> At {@{each time step _t_ = 0,1,2,3,...}@}, the automaton {@{reads an input from its environment}@}, {@{updates P\(_t_\) to P\(_t_ + 1\) by _A_}@}, {@{randomly chooses a successor state according to the probabilities P\(_t_ + 1\)}@} and {@{outputs the corresponding action}@}. The automaton's environment, in turn, {@{reads the action and sends the next input to the automaton}@}.<sup>[\[20\]](#^ref-20)</sup>
 
 ### category theoretic interpretation
 
-Other than {@{the rewards}@}, a Markov decision process $(S,A,P)$ can be {@{understood in terms of [Category theory](category%20theory.md)}@}. Namely, let {@{${\mathcal {A} }$ denote the [free monoid](free%20monoid.md) with generating set _A_}@}. Let {@{__Dist__ denote the [Kleisli category](Kleisli%20category.md) of the [Giry monad](http://ncatlab.org/nlab/show/Giry+monad)}@}. Then {@{a functor ${\mathcal {A} }\to \mathbf {Dist}$}@} encodes {@{both the set _S_ of states and the probability function _P_}@}. (Annotation: Thus, {@{$(\mathcal A, F: \mathcal A \to \mathbf{Dist})$ may be used to represent $(S, A, P)$}@} instead.) (TODO: What is this abstract nonsense?)
+Other than {@{the rewards}@}, a Markov decision process $(S,A,P)$ can be {@{understood in terms of [Category theory](category%20theory.md)}@}. Namely, let {@{${\mathcal {A} }$ denote the [free monoid](free%20monoid.md) with generating set _A_}@}. Let {@{__Dist__ denote the [Kleisli category](Kleisli%20category.md) of the [Giry monad](http://ncatlab.org/nlab/show/Giry+monad)}@}. Then {@{a functor ${\mathcal {A} }\to \mathbf {Dist}$}@} encodes {@{both the set _S_ of states and the probability function _P_}@}. (annotation: Thus, {@{$(\mathcal A, F: \mathcal A \to \mathbf{Dist})$ may be used to represent $(S, A, P)$}@} instead.) (TODO: What is this abstract nonsense?)
 
 In this way, Markov decision processes could be {@{generalized from monoids \(categories with one object\) to arbitrary categories}@}. One can call {@{the result $({\mathcal {C} },F:{\mathcal {C} }\to \mathbf {Dist} )$}@} {@{a _context-dependent Markov decision process_}@}, because {@{moving from one object to another in ${\mathcal {C} }$}@} changes {@{the set of available actions and the set of possible states}@}.<!-- <sup>\[_[citation needed](https://en.wikipedia.org/wiki/Wikipedia:Citation%20needed)_\]</sup> -->
 
