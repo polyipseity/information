@@ -68,14 +68,14 @@ The content is in teaching order.
     - median: 19.5
     - upper quartile: 20
     - high: 20
-- [assignment 4](assignments/assignent%204/index.md): TODO/20, graded
+- [assignment 4](assignments/assignent%204/index.md): 20/20, graded
   - statistics: L1
-    - mean: TODO
-    - low: TODO
-    - lower quartile: TODO
-    - median: TODO
-    - upper quartile: TODO
-    - high: TODO
+    - mean: 16.79
+    - low: 0
+    - lower quartile: 16
+    - median: 20
+    - upper quartile: 20
+    - high: 20
 
 ## week 1 lecture
 
@@ -455,12 +455,12 @@ The content is in teaching order.
 - [cheatsheet](MATH%202411%20midterm%20examination%20cheatsheet.pdf)
 - grades: 48/50
   - statistics: L1
-    - mean: 29.93
-    - low: 2
-    - lower quartile: 22
-    - median: 30
-    - upper quartile: 37
-    - high: 50
+    - mean: 29.93 → 29.96
+    - low: 2 → 2
+    - lower quartile: 22 → 22
+    - median: 30 → 30
+    - upper quartile: 37 → 37
+    - high: 50 → 50
   - statistics: L2
     - mean: 32.14
     - low: 8
@@ -718,13 +718,13 @@ The content is in teaching order.
   - [cheatsheet](MATH%202411%20final%20examination%20cheatsheet.pdf)
 - grades: 100/100 → 100/100
   - statistics: L1
-    - mean: 56.6
+    - mean: 56.6 → 56.9
     - standard deviation: ? → ?
-    - low: 2
-    - lower quartile: 36
-    - median: 62
-    - upper quartile: 75
-    - high: 100
+    - low: 2 → 2
+    - lower quartile: 36 → 36.5
+    - median: 62 → 62
+    - upper quartile: 75 → 78
+    - high: 100 → 100
     - distribution: ? → ?
   - statistics: L2
     - mean: 63.3
@@ -738,6 +738,7 @@ The content is in teaching order.
 - report
   - Is a report necessary in this case...?
   - time limit ::@:: The time limit was enough to finish all questions and check them for 20 minutes. This, of course, assumes you are very familiar with the methods used.
+  - moment-generating function (0) ::@:: Remember to always check the domain of the expression you have gotten. If the domain is missing for some numbers, you may be able to evaluate $\operatorname E\left[e^{tX}\right]$ with $t$ set to the missing numbers to fill in the domain. For example, you may finally get $$\begin{cases} \frac {e^{5t} - e^{2t} } {3t}, & t \ne 0 \\ 1, & t = 0 \,. \end{cases}$$ <!-- <p> (The instructor said only I had gotten it correct...) -->
 - check
   - datetime: 2024-12-20T14:30:00+08:00/2024-12-20T16:00:00+08:00, PT1H30M
   - venue: Room 1410 (Lift 25-26), Academic Building
