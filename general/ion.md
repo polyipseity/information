@@ -447,7 +447,7 @@ return chain.from_iterable(await gather(
 - oxide ion:@:2- <!--SR:!2026-10-22,1271,310-->
 - sulfide ion:@:2- <!--SR:!2028-04-19,1267,250-->
 - sulfate ion:@:2- <!--SR:!2028-06-08,1688,310-->
-- sulfite ion:@:2- <!--SR:!2024-12-20,695,279-->
+- sulfite ion:@:2- <!--SR:!2030-04-12,1938,279-->
 - carbonate ion:@:2- <!--SR:!2029-01-16,1801,290-->
 - chromate ion:@:2- <!--SR:!2029-07-07,1759,279-->
 - dichromate ion:@:2- <!--SR:!2026-12-30,1322,310-->

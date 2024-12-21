@@ -35,7 +35,7 @@ os.system("cls" if os.name == "nt" else "clear")
 
 ## animation
 
-If you try to make an animation by clearing the screen and then printing different patterns each time, you will find that {@{the animation is too fast}@}. Fortunately, we can make Python wait for a while using {@{`time.sleep`, which accepts a decimal number in seconds}@}: <!--SR:!2024-12-20,246,330!2026-09-26,724,330-->
+If you try to make an animation by clearing the screen and then printing different patterns each time, you will find that {@{the animation is too fast}@}. Fortunately, we can make Python wait for a while using {@{`time.sleep`, which accepts a decimal number in seconds}@}: <!--SR:!2027-03-13,812,330!2026-09-26,724,330-->
 
 ```Python
 import time

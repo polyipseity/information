@@ -17,7 +17,7 @@ LTL was first {@{proposed for the [formal verification](formal%20verification.md
 
 ## syntax
 
-LTL is built up from {@{a finite set of [propositional variables](propositional%20variable.md) _AP_, the [logical operators](logical%20connective.md) ¬ and ∨}@}, and {@{the [temporal](temporal%20logic.md) [modal operators](modal%20operator.md) __X__ \(some literature uses __O__ or __N__\) and __U__}@}. Formally, {@{the set of LTL formulas over _AP_}@} is {@{inductively defined as follows}@}: <!--SR:!2024-12-27,17,323!2024-12-27,17,323!2024-12-25,15,310!2024-12-21,11,303-->
+LTL is built up from {@{a finite set of [propositional variables](propositional%20variable.md) _AP_, the [logical operators](logical%20connective.md) ¬ and ∨}@}, and {@{the [temporal](temporal%20logic.md) [modal operators](modal%20operator.md) __X__ \(some literature uses __O__ or __N__\) and __U__}@}. Formally, {@{the set of LTL formulas over _AP_}@} is {@{inductively defined as follows}@}: <!--SR:!2024-12-27,17,323!2024-12-27,17,323!2024-12-25,15,310!2025-01-22,32,303-->
 
 - if _p_ ∈ _AP_ ::@:: then _p_ is an LTL formula; <!--SR:!2024-12-27,17,323!2024-12-27,17,323-->
 - if _ψ_ and _φ_ are LTL formulas ::@:: then ¬ψ, φ ∨ ψ, __X__ ψ, and φ __U__ ψ are LTL formulas.<sup>[\[7\]](#^ref-7)</sup> <!--SR:!2024-12-27,17,323!2024-12-25,15,310-->
@@ -28,7 +28,7 @@ __X__ is read as {@{ne<!-- markdown separator -->__x__<!-- markdown separator --
 - __F__ ::@:: for __f__<!-- markdown separator -->inally <!--SR:!2024-12-27,17,323!2024-12-27,17,323-->
 - __R__ ::@:: for __r__<!-- markdown separator -->elease <!--SR:!2024-12-27,17,323!2024-12-28,18,323-->
 - __W__ ::@:: for __w__<!-- markdown separator -->eak until <!--SR:!2024-12-27,17,323!2024-12-28,18,323-->
-- __M__ ::@:: for __m__<!-- markdown separator -->ighty release <!--SR:!2024-12-21,11,290!2024-12-24,14,297-->
+- __M__ ::@:: for __m__<!-- markdown separator -->ighty release <!--SR:!2025-02-01,42,310!2024-12-24,14,297-->
 
 ## semantics
 
@@ -40,7 +40,7 @@ An LTL formula can be {@{_[satisfied](satisfiability.md)_ by an infinite sequenc
 - ne<!-- markdown separator -->__x__<!-- markdown separator -->t ::@:: _w_ ⊨ __X__ ψ if _w_<sup>1</sup> ⊨ ψ \(in the ne<!-- markdown separator -->__x__<!-- markdown separator -->t time step ψ must be true\) <!--SR:!2024-12-27,17,323!2024-12-28,18,323-->
 - __u__<!-- markdown separator -->ntil ::@:: _w_ ⊨ φ __U__ ψ if there exists _i_ ≥ 0 such that _w_<sup>_i_</sup> ⊨ ψ and for all 0 ≤ _k_ \< i, _w_<sup>_k_</sup> ⊨ φ \(φ must remain true __u__<!-- markdown separator -->ntil ψ becomes true\) <!--SR:!2024-12-27,17,310!2024-12-26,16,323-->
 
-We say {@{an ω-word _w_ satisfies an LTL formula ψ when _w_ ⊨ ψ}@}. {@{The [ω-language](omega%20language.md) _L_\(ψ\) defined by ψ}@} is {@{<!-- flashcard separator -->{_w_ \| _w_ ⊨ ψ}, which is the set of ω-words that satisfy ψ}@}. {@{A formula ψ is _satisfiable_}@} if {@{there exist an ω-word _w_ such that _w_ ⊨ ψ}@}. {@{A formula ψ is _valid_}@} if {@{for each ω-word _w_ over alphabet 2<sup>_AP_</sup>, we have _w_ ⊨ ψ}@}. <!--SR:!2024-12-25,15,310!2024-12-28,18,323!2024-12-28,18,323!2024-12-27,17,323!2024-12-27,17,310!2024-12-21,11,290!2024-12-27,17,323-->
+We say {@{an ω-word _w_ satisfies an LTL formula ψ when _w_ ⊨ ψ}@}. {@{The [ω-language](omega%20language.md) _L_\(ψ\) defined by ψ}@} is {@{<!-- flashcard separator -->{_w_ \| _w_ ⊨ ψ}, which is the set of ω-words that satisfy ψ}@}. {@{A formula ψ is _satisfiable_}@} if {@{there exist an ω-word _w_ such that _w_ ⊨ ψ}@}. {@{A formula ψ is _valid_}@} if {@{for each ω-word _w_ over alphabet 2<sup>_AP_</sup>, we have _w_ ⊨ ψ}@}. <!--SR:!2024-12-25,15,310!2024-12-28,18,323!2024-12-28,18,323!2024-12-27,17,323!2024-12-27,17,310!2025-02-01,42,310!2024-12-27,17,323-->
 
 The additional logical operators are defined as follows:
 
@@ -53,15 +53,15 @@ The additional logical operators are defined as follows:
 The additional temporal operators {@{__R__, __F__, and __G__}@} are defined as follows: <!--SR:!2024-12-27,17,323-->
 
 - __r__<!-- markdown separator -->elease ::@:: ψ __R__ φ ≡ ¬\(¬ψ __U__ ¬φ\) \(φ remains true until and including once ψ becomes true. If ψ never becomes true, φ must remain true forever. ψ __r__<!-- markdown separator -->eleases φ.\) <!--SR:!2025-01-11,25,270!2024-12-24,14,297-->
-- __f__<!-- markdown separator -->inally ::@:: __F__ ψ ≡ __true__ __U__ ψ \(eventually ψ becomes true\) <!--SR:!2024-12-20,12,277!2024-12-24,14,297-->
+- __f__<!-- markdown separator -->inally ::@:: __F__ ψ ≡ __true__ __U__ ψ \(eventually ψ becomes true\) <!--SR:!2025-01-22,32,277!2024-12-24,14,297-->
 - __g__<!-- markdown separator -->lobally ::@:: __G__ ψ ≡ __false__ __R__ ψ ≡ ¬<!-- markdown separator -->__F__ ¬ψ \(ψ always remains true\) <!--SR:!2024-12-25,15,310!2024-12-24,14,297-->
 
 ### weak until and strong release
 
 Some authors also define {@{a _weak until_ binary operator, denoted __W__}@}, with semantics {@{similar to that of the until operator but the stop condition is not required to occur \(similar to release\)}@}.<sup>[\[8\]](#^ref-8)</sup> It is sometimes useful since {@{both __U__ and __R__ can be defined in terms of the weak until}@}: <!--SR:!2024-12-28,18,323!2024-12-27,17,323!2024-12-25,15,310-->
 
-- __w__<!-- markdown separator -->eak until ::@:: _ψ_ __W__ _φ_ ≡ \(_ψ_ __U__ _φ_\) ∨ __G__ _ψ_ ≡ _ψ_ __U__ \(_φ_ ∨ __G__ _ψ_\) ≡ _φ_ __R__ \(_φ_ ∨ _ψ_\) <!--SR:!2024-12-21,11,303!2025-01-03,17,257-->
-- __u__<!-- markdown separator -->ntil ::@:: _ψ_ __U__ _φ_ ≡ __F__<!-- markdown separator -->_φ_ ∧ \(_ψ_ __W__ _φ_\) <!--SR:!2024-12-20,12,277!2024-12-21,11,303-->
+- __w__<!-- markdown separator -->eak until ::@:: _ψ_ __W__ _φ_ ≡ \(_ψ_ __U__ _φ_\) ∨ __G__ _ψ_ ≡ _ψ_ __U__ \(_φ_ ∨ __G__ _ψ_\) ≡ _φ_ __R__ \(_φ_ ∨ _ψ_\) <!--SR:!2025-01-24,34,303!2025-01-03,17,257-->
+- __u__<!-- markdown separator -->ntil ::@:: _ψ_ __U__ _φ_ ≡ __F__<!-- markdown separator -->_φ_ ∧ \(_ψ_ __W__ _φ_\) <!--SR:!2025-01-22,32,277!2025-01-24,34,303-->
 - __r__<!-- markdown separator -->elease ::@:: _ψ_ __R__ _φ_ ≡ _φ_ __W__ \(_φ_ ∧ _ψ_\) <!--SR:!2024-12-31,14,263!2024-12-23,13,303-->
 
 {@{The _strong release_ binary operator, denoted __M__}@}, is {@{the dual of weak until}@}. It is defined {@{similar to the until operator, so that the release condition has to hold at some point}@}. Therefore, {@{it is stronger than the release operator}@}. <!--SR:!2024-12-27,17,310!2024-12-27,17,323!2024-12-27,17,323!2024-12-24,14,297-->
@@ -80,7 +80,7 @@ Some authors also define {@{a _weak until_ binary operator, denoted __W__}@}, wi
 | {@{_ψ_ __U__ _φ_}@}                          | {@{$$\psi \;{\mathcal {U} }\,\varphi$$}@} | {@{__U__<!-- markdown separator -->ntil: _ψ_ has to hold _at least_ until _φ_ becomes true, which must hold at the current or a future position.}@}                                   | {@{![LTI until diagram](../archives/Wikimedia%20Commons/Ltluntil.svg)}@}                                                                                                                         |
 | {@{_ψ_ __R__ _φ_}@}                          | {@{$$\psi \;{\mathcal {R} }\,\varphi$$}@} | {@{__R__<!-- markdown separator -->elease: _φ_ has to be true until and including the point where _ψ_ first becomes true; if _ψ_ never becomes true, _φ_ must remain true forever.}@} | {@{![LTI release diagram with release](../archives/Wikimedia%20Commons/Ltlrelease-stop.svg) <p> ![LTI release diagram without release](../archives/Wikimedia%20Commons/Ltlrelease-nostop.svg)}@} |
 | {@{_ψ_ __W__ _φ_}@}                          | {@{$$\psi \;{\mathcal {W} }\,\varphi$$}@} | {@{__W__<!-- markdown separator -->eak until: _ψ_ has to hold _at least_ until _φ_<!-- markdown separator -->; if _φ_ never becomes true, _ψ_ must remain true forever.}@}            | {@{![LTI weak until diagram with until](../archives/Wikimedia%20Commons/Ltluntil.svg) <p> ![LTI weak until diagram without until](../archives/Wikimedia%20Commons/Ltlweakuntil2.svg)}@}          |
-| {@{_ψ_ __M__ _φ_}@}                          | {@{$$\psi \;{\mathcal {M} }\,\varphi$$}@} | {@{Strong release: _φ_ has to be true until and including the point where _ψ_ first becomes true, which must hold at the current or a future position.}@}                             | {@{![LTI strong release diagram](../archives/Wikimedia%20Commons/Ltlrelease-stop.svg)}@}                                                                                                         | <!--SR:!2024-12-27,17,323!2024-12-24,14,297!2024-12-25,15,290!2024-12-25,15,310!2024-12-25,15,310!2024-12-26,16,310!2024-12-25,15,310!2024-12-24,14,297!2024-12-28,18,323!2024-12-25,15,310!2024-12-25,15,310!2024-12-27,17,323!2024-12-27,17,323!2024-12-27,17,323!2024-12-27,17,323!2024-12-20,12,290!2024-12-27,17,323!2024-12-25,15,310!2024-12-27,17,323!2024-12-27,17,323!2024-12-25,15,310!2024-12-27,17,310!2024-12-24,14,297!2024-12-25,15,310!2024-12-27,17,323!2024-12-25,15,297!2024-12-27,17,323!2024-12-25,15,310-->
+| {@{_ψ_ __M__ _φ_}@}                          | {@{$$\psi \;{\mathcal {M} }\,\varphi$$}@} | {@{Strong release: _φ_ has to be true until and including the point where _ψ_ first becomes true, which must hold at the current or a future position.}@}                             | {@{![LTI strong release diagram](../archives/Wikimedia%20Commons/Ltlrelease-stop.svg)}@}                                                                                                         | <!--SR:!2024-12-27,17,323!2024-12-24,14,297!2024-12-25,15,290!2024-12-25,15,310!2024-12-25,15,310!2024-12-26,16,310!2024-12-25,15,310!2024-12-24,14,297!2024-12-28,18,323!2024-12-25,15,310!2024-12-25,15,310!2024-12-27,17,323!2024-12-27,17,323!2024-12-27,17,323!2024-12-27,17,323!2025-02-05,46,310!2024-12-27,17,323!2024-12-25,15,310!2024-12-27,17,323!2024-12-27,17,323!2024-12-25,15,310!2024-12-27,17,310!2024-12-24,14,297!2024-12-25,15,310!2024-12-27,17,323!2024-12-25,15,297!2024-12-27,17,323!2024-12-25,15,310-->
 
 ## equivalences
 
@@ -93,7 +93,7 @@ Let φ, ψ, and ρ be LTL formulas. The following tables list {@{some of the use
 | ρ __U__ \(φ ∨ ψ\) ≡ \(ρ __U__ φ\) ∨ \(ρ __U__ ψ\)                                                 | \(φ ∧ ψ\) __U__ ρ ≡ \(φ __U__ ρ\) ∧ \(ψ __U__ ρ\)                                                 |                                                                                                          |
 
 - next distributivity ::@:: __X__ \(φ ∨ ψ\) ≡ \(<!-- markdown separator -->__X__ φ\) ∨ \(<!-- markdown separator -->__X__ ψ\) <br/> __X__ \(φ ∧ ψ\) ≡ \(<!-- markdown separator -->__X__ φ\) ∧ \(<!-- markdown separator -->__X__ ψ\) <br/> __X__ \(φ __U__ ψ\)≡ \(<!-- markdown separator -->__X__ φ\) __U__ \(<!-- markdown separator -->__X__ ψ\) <!--SR:!2024-12-25,15,310!2024-12-27,17,310-->
-- finally and globally distributivity ::@:: __F__ \(φ ∨ ψ\) ≡ \(<!-- markdown separator -->__F__ φ\) ∨ \(<!-- markdown separator -->__F__ ψ\) <br/> __G__ \(φ ∧ ψ\) ≡ \(<!-- markdown separator -->__G__ φ\) ∧ \(<!-- markdown separator -->__G__ ψ\) <!--SR:!2024-12-20,12,277!2024-12-22,12,303-->
+- finally and globally distributivity ::@:: __F__ \(φ ∨ ψ\) ≡ \(<!-- markdown separator -->__F__ φ\) ∨ \(<!-- markdown separator -->__F__ ψ\) <br/> __G__ \(φ ∧ ψ\) ≡ \(<!-- markdown separator -->__G__ φ\) ∧ \(<!-- markdown separator -->__G__ ψ\) <!--SR:!2025-01-23,33,277!2024-12-22,12,303-->
 - until distributivity ::@:: ρ __U__ \(φ ∨ ψ\) ≡ \(ρ __U__ φ\) ∨ \(ρ __U__ ψ\) <br/> \(φ ∧ ψ\) __U__ ρ ≡ \(φ __U__ ρ\) ∧ \(ψ __U__ ρ\) <!--SR:!2024-12-22,12,303!2025-01-20,34,290-->
 
 | Negation propagation                            |                                                       |                                                       |                                                       |
@@ -104,7 +104,7 @@ Let φ, ψ, and ρ be LTL formulas. The following tables list {@{some of the use
 
 - _<!-- markdown separator -->__X__ is self-dual_ ::@:: ¬<!-- markdown separator -->__X__ φ ≡ __X__ ¬φ <!--SR:!2024-12-25,15,310!2024-12-24,14,297-->
 - _<!-- markdown separator -->__F__ and __G__ are dual_ ::@:: ¬<!-- markdown separator -->__F__ φ ≡ __G__ ¬φ <br/> ¬<!-- markdown separator -->__G__ φ ≡ __F__ ¬φ <!--SR:!2024-12-27,17,323!2024-12-25,15,310-->
-- _<!-- markdown separator -->__U__ and __R__ are dual_ ::@:: ¬ \(φ __U__ ψ\) ≡ \(¬φ __R__ ¬ψ\) <br/> ¬ \(φ __R__ ψ\) ≡ \(¬φ __U__ ¬ψ\) <!--SR:!2024-12-21,11,303!2024-12-24,14,290-->
+- _<!-- markdown separator -->__U__ and __R__ are dual_ ::@:: ¬ \(φ __U__ ψ\) ≡ \(¬φ __R__ ¬ψ\) <br/> ¬ \(φ __R__ ψ\) ≡ \(¬φ __U__ ¬ψ\) <!--SR:!2025-01-23,33,303!2024-12-24,14,290-->
 - _<!-- markdown separator -->__W__ and __M__ are dual_ ::@:: ¬ \(φ __W__ ψ\) ≡ \(¬φ __M__ ¬ψ\) <br/> ¬ \(φ __M__ ψ\) ≡ \(¬φ __W__ ¬ψ\) <!--SR:!2024-12-27,17,323!2024-12-27,17,310-->
 
 | Special temporal properties                                                          |                                                                                      |                                                                        |
@@ -113,8 +113,8 @@ Let φ, ψ, and ρ be LTL formulas. The following tables list {@{some of the use
 | φ __U__ ψ ≡ ψ ∨ \( φ ∧ __X__<!-- markdown separator -->\(φ __U__ ψ\) \)              | φ __W__ ψ ≡ ψ ∨ \( φ ∧ __X__<!-- markdown separator -->\(φ __W__ ψ\) \)              | φ __R__ ψ ≡ ψ ∧ \(φ ∨ __X__<!-- markdown separator -->\(φ __R__ ψ\) \) |
 | __G__ φ ≡ φ ∧ __X__<!-- markdown separator -->\(<!-- markdown separator -->__G__ φ\) | __F__ φ ≡ φ ∨ __X__<!-- markdown separator -->\(<!-- markdown separator -->__F__ φ\) |                                                                        |
 
-- temporal idempotency ::@:: __F__ φ ≡ __F__ __F__ φ <br/> __G__ φ ≡ __G__ __G__ φ <br/> φ __U__ ψ ≡ φ __U__ \(φ __U__ ψ\) <!--SR:!2024-12-25,15,310!2024-12-20,12,290-->
-- temporal expansion ::@:: φ __U__ ψ ≡ ψ ∨ \( φ ∧ __X__<!-- markdown separator -->\(φ __U__ ψ\) \) <br/> φ __W__ ψ ≡ ψ ∨ \( φ ∧ __X__<!-- markdown separator -->\(φ __W__ ψ\) \) <br/> φ __R__ ψ ≡ ψ ∧ \(φ ∨ __X__<!-- markdown separator -->\(φ __R__ ψ\) \) <!--SR:!2024-12-21,13,303!2025-01-09,23,270-->
+- temporal idempotency ::@:: __F__ φ ≡ __F__ __F__ φ <br/> __G__ φ ≡ __G__ __G__ φ <br/> φ __U__ ψ ≡ φ __U__ \(φ __U__ ψ\) <!--SR:!2024-12-25,15,310!2025-01-25,35,290-->
+- temporal expansion ::@:: φ __U__ ψ ≡ ψ ∨ \( φ ∧ __X__<!-- markdown separator -->\(φ __U__ ψ\) \) <br/> φ __W__ ψ ≡ ψ ∨ \( φ ∧ __X__<!-- markdown separator -->\(φ __W__ ψ\) \) <br/> φ __R__ ψ ≡ ψ ∧ \(φ ∨ __X__<!-- markdown separator -->\(φ __R__ ψ\) \) <!--SR:!2025-01-29,39,303!2025-01-09,23,270-->
 
 ## negation normal form
 

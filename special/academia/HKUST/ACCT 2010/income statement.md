@@ -19,7 +19,7 @@ tags:
 
 ## examples
 
-- [`Cascadia Wikimedians User Group - Income statement as of Dec 13, 2015.jpg`](../../../../archives/Wikimedia%20Commons/Cascadia%20Wikimedians%20User%20Group%20-%20Income%20statement%20as%20of%20Dec%2013,%202015.jpg) ::@:: ![`Cascadia Wikimedians User Group - Income statement as of Dec 13, 2015.jpg`](../../../../archives/Wikimedia%20Commons/Cascadia%20Wikimedians%20User%20Group%20-%20Income%20statement%20as%20of%20Dec%2013,%202015.jpg) <!--SR:!2024-12-27,14,290!2024-12-21,10,270-->
+- [`Cascadia Wikimedians User Group - Income statement as of Dec 13, 2015.jpg`](../../../../archives/Wikimedia%20Commons/Cascadia%20Wikimedians%20User%20Group%20-%20Income%20statement%20as%20of%20Dec%2013,%202015.jpg) ::@:: ![`Cascadia Wikimedians User Group - Income statement as of Dec 13, 2015.jpg`](../../../../archives/Wikimedia%20Commons/Cascadia%20Wikimedians%20User%20Group%20-%20Income%20statement%20as%20of%20Dec%2013,%202015.jpg) <!--SR:!2024-12-27,14,290!2025-01-17,27,270-->
   - [`Cascadia Wikimedians User Group - Income statement as of Dec 13, 2015.jpg`](../../../../archives/Wikimedia%20Commons/Cascadia%20Wikimedians%20User%20Group%20-%20Income%20statement%20as%20of%20Dec%2013,%202015.jpg) / gross profit ::@:: It should better be called `Total revenue` instead... <!--SR:!2024-12-28,15,290!2024-12-29,16,290-->
 
 ## format
@@ -27,8 +27,8 @@ tags:
 - header ::@:: company name, `(Consolidated) Statement of Income`, duration, (monetary unit) <!--SR:!2024-12-23,10,270!2024-12-23,10,270-->
   - header / duration ::@:: example: `For the Year ended December 31, 2019`, `For the period September 1, 2024 to December 13, 2015` <!--SR:!2024-12-28,15,290!2024-12-23,10,270-->
   - header / monetary unit ::@:: example: <br/> (none; not recommended) <br/> `(in million of dollars, except per share data)` <!--SR:!2024-12-29,16,290!2024-12-28,15,290-->
-- dollar sign ::@:: Add it before the first number and the last 2 numbers ("net income", "earnings per share"). The rest can be omitted. <!--SR:!2024-12-29,16,290!2024-12-20,9,250-->
-- totals ::@:: It's somewhat arbitrary. At least calculate: <br/> total revenue: or omit me if your revenue is simply one item <br/> total operating expenses <br/> income from operations <br/> income before taxes <br/> net income <!--SR:!2024-12-20,9,250!2024-12-23,10,270-->
+- dollar sign ::@:: Add it before the first number and the last 2 numbers ("net income", "earnings per share"). The rest can be omitted. <!--SR:!2024-12-29,16,290!2025-01-21,31,270-->
+- totals ::@:: It's somewhat arbitrary. At least calculate: <br/> total revenue: or omit me if your revenue is simply one item <br/> total operating expenses <br/> income from operations <br/> income before taxes <br/> net income <!--SR:!2025-01-14,24,250!2024-12-23,10,270-->
   - total / format ::@:: Indent totals at least once. <p> Add a (over)line above totals. <p> For income from operations, income before income taxes, and net income, do not indent and bold the names. <p> For net income (and earnings per share), additionally add double (under)lines below the totals. <!--SR:!2024-12-23,10,270!2024-12-23,10,270-->
 - negative number ::@:: Write negative numbers in brackets, not with a minus sign. For example, write `(42)` instead of `-42`. <!--SR:!2024-12-28,15,290!2024-12-29,16,290-->
   - negative number / expenses ::@:: Note that expenses, while they reduce net income, are still written as positive numbers. This includes income tax expense. <p> One exception is when the revenues and expenses are mixed together in the other items. <!--SR:!2024-12-27,14,290!2024-12-23,10,270-->

@@ -24,7 +24,7 @@ tags:
 - header ::@:: company name, `(Consolidated) Statement of Stockholders' Equity`, duration, (monetary unit) <!--SR:!2024-12-28,15,290!2024-12-27,14,290-->
   - header / duration ::@:: example: `Year Ended December 31, 2019` <!--SR:!2024-12-29,16,290!2024-12-23,10,270-->
   - header / monetary unit ::@:: example: <br/> (none; not recommended) <br/> `(in million of dollars)` <!--SR:!2024-12-28,15,290!2024-12-27,14,290-->
-- dollar sign ::@:: Add it before the first number and the last number (under `Ending balances`) for each column. The rest can be omitted. <!--SR:!2024-12-29,16,290!2024-12-21,10,270-->
+- dollar sign ::@:: Add it before the first number and the last number (under `Ending balances`) for each column. The rest can be omitted. <!--SR:!2024-12-29,16,290!2025-01-17,27,270-->
 - total ::@:: Calculate the total for each column and each row. <!--SR:!2024-12-29,16,290!2024-12-29,16,290-->
   - total / format ::@:: For `Ending balances`, each cell should be overlined and double underlined. <!--SR:!2024-12-23,12,270!2024-12-27,14,290-->
 - negative number ::@:: Write negative numbers in brackets, not with a minus sign. For example, write `(42)` instead of `-42`. <!--SR:!2024-12-29,16,290!2024-12-28,15,290-->

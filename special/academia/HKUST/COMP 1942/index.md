@@ -379,7 +379,7 @@ The content is in teaching order.
 - [Analytics Solver usage](../../../Analytic%20Solver%20usage.md): principal components
 - [data warehouse](../../../../general/data%20warehouse.md)
   - data warehouse > application ::@:: [online analytical processing](../../../../general/online%20analytical%20processing.md) (OLAP), used by many corporations <!--SR:!2026-02-23,494,388!2025-01-04,165,388-->
-  - data warehouse > advantage ::@:: data warehouses can speed up queries on a database <!--SR:!2024-12-21,137,337!2025-08-05,327,377-->
+  - data warehouse > advantage ::@:: data warehouses can speed up queries on a database <!--SR:!2026-03-28,462,337!2025-08-05,327,377-->
 
 ## week 13 lecture 1
 

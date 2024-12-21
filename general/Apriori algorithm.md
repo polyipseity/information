@@ -14,7 +14,7 @@ To understand the Apriori algorithm, notice that {@{for any database and two ite
 
 Then the Apriori algorithm uses a {@{"bottom up"}@} approach. The frequent sets {@{start from one item and then are extended one item at a time, called _candidate generation_}@}. The generation can cover all possible frequent sets because of the downward closure lemma. Then, {@{the candidates are tested against the support threshold and become the new frequent sets that are one item longer than the last generation}@}. Repeat this process until {@{there are no more candidates}@}. The output is {@{all frequent sets in all generations}@}. <!--SR:!2027-05-04,895,339!2026-10-06,728,330!2025-03-09,282,290!2025-03-01,299,339!2026-07-18,668,330-->
 
-Filtering the candidate, called the {@{_count step_}@}, is obvious, but candidate generation is not as obvious. For candidate generation, there are two steps: {@{_join step_ and _prune step_}@}. <!--SR:!2024-12-21,224,336!2025-05-11,310,363-->
+Filtering the candidate, called the {@{_count step_}@}, is obvious, but candidate generation is not as obvious. For candidate generation, there are two steps: {@{_join step_ and _prune step_}@}. <!--SR:!2027-01-13,753,336!2025-05-11,310,363-->
 
 For _join step_, one first consider, from the previous generation of frequent sets, all possible pairs of sets that {@{have a [symmetric difference](symmetric%20difference.md) of size 2, i.e. the set are the same except for 1 item, like $\set{1, 2, 3}$ and $\set{1, 20, 3}$}@}. Then, for each pair, {@{the union of the two sets is a new _possible_ candidate set, like $\set{1, 2, 3, 20}$ using the same example}@}. <!--SR:!2025-01-03,235,319!2027-01-30,820,330-->
 

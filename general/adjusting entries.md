@@ -24,7 +24,7 @@ Most adjusting entries could be classified this way: {@{prepaid expenses, accrue
 | Expenses | Prepaid expenses: for expenses paid in cash and recorded as assets before they are used             | Accrued expenses: for expenses incurred but not yet paid in cash and not yet recorded   |
 | Revenues | Unearned revenues: for revenues received in cash and recorded as liabilities before they are earned | Accrued revenues: for revenues earned but not yet recorded and not yet received in cash |
 
-- prepaid expenses ::@:: for expenses paid in cash and recorded as assets before they are used <!--SR:!2024-12-20,71,310!2024-12-22,73,310-->
+- prepaid expenses ::@:: for expenses paid in cash and recorded as assets before they are used <!--SR:!2025-10-28,311,330!2024-12-22,73,310-->
 - accrued expenses ::@:: for expenses incurred but not yet paid in cash and not yet recorded <!--SR:!2025-08-21,257,330!2025-08-04,244,330-->
 - unearned revenues ::@:: for revenues received in cash and recorded as liabilities before they are earned <!--SR:!2025-06-24,195,310!2025-05-26,174,310-->
 - accrued revenues ::@:: for revenues earned but not yet recorded and not yet received in cash <!--SR:!2025-03-14,132,310!2025-09-12,276,330-->
@@ -37,7 +37,7 @@ Most adjusting entries could be classified this way: {@{prepaid expenses, accrue
 
 #### example
 
-Assume {@{a magazine publishing company charges an annual subscription fee of $12}@}. The cash is {@{paid up-front at the start of the subscription}@}. The income, based on {@{[sales basis method](revenue%20recognition.md), is recognized upon delivery}@}. Therefore, the initial reporting of the receipt of annual subscription fee is indicated as: <!--SR:!2025-06-12,198,310!2024-12-21,72,310!2025-06-02,190,310-->
+Assume {@{a magazine publishing company charges an annual subscription fee of $12}@}. The cash is {@{paid up-front at the start of the subscription}@}. The income, based on {@{[sales basis method](revenue%20recognition.md), is recognized upon delivery}@}. Therefore, the initial reporting of the receipt of annual subscription fee is indicated as: <!--SR:!2025-06-12,198,310!2025-07-29,220,310!2025-06-02,190,310-->
 
 ```text
                         Debit  |  Credit

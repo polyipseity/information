@@ -13,7 +13,7 @@ In [mathematical logic](mathematical%20logic.md), the __Peano axioms__ (/piˈɑ�
 
 The [axiomatization](axiomatic%20system.md#axiomatization) of [arithmetic](arithmetic.md) provided by Peano axioms is commonly called {@{__Peano arithmetic__}@}. <!--SR:!2025-08-11,240,325-->
 
-The importance of formalizing [arithmetic](arithmetic.md) was not well appreciated until {@{the work of [Hermann Grassmann](Hermann%20Grassmann.md)}@}, who showed {@{in the 1860s that many facts in arithmetic could be derived from more basic facts about the [successor operation](successor%20function.md) and [induction](mathematical%20induction.md)}@}. In {@{1881, [Charles Sanders Peirce](Charles%20Sanders%20Peirce.md)}@} provided {@{an [axiomatization](axiomatic%20system.md#axiomatization) of natural-number arithmetic}@}. In {@{1888, [Richard Dedekind](Richard%20Dedekind.md)}@} proposed {@{another axiomatization of natural-number arithmetic}@}, and in {@{1889, Peano}@} published {@{a simplified version of them as a collection of axioms in his book _The principles of arithmetic presented by a new method_ ([Latin](Latin.md): _[Arithmetices principia, nova methodo exposita](arithmetices%20principia,%20nova%20methodo%20exposita.md)_)}@}. <!--SR:!2025-06-19,216,325!2025-03-15,140,305!2024-12-27,72,285!2024-12-20,79,325!2025-05-22,166,285!2025-02-20,114,305!2025-01-11,83,285!2025-01-08,84,285-->
+The importance of formalizing [arithmetic](arithmetic.md) was not well appreciated until {@{the work of [Hermann Grassmann](Hermann%20Grassmann.md)}@}, who showed {@{in the 1860s that many facts in arithmetic could be derived from more basic facts about the [successor operation](successor%20function.md) and [induction](mathematical%20induction.md)}@}. In {@{1881, [Charles Sanders Peirce](Charles%20Sanders%20Peirce.md)}@} provided {@{an [axiomatization](axiomatic%20system.md#axiomatization) of natural-number arithmetic}@}. In {@{1888, [Richard Dedekind](Richard%20Dedekind.md)}@} proposed {@{another axiomatization of natural-number arithmetic}@}, and in {@{1889, Peano}@} published {@{a simplified version of them as a collection of axioms in his book _The principles of arithmetic presented by a new method_ ([Latin](Latin.md): _[Arithmetices principia, nova methodo exposita](arithmetices%20principia,%20nova%20methodo%20exposita.md)_)}@}. <!--SR:!2025-06-19,216,325!2025-03-15,140,305!2024-12-27,72,285!2025-12-13,357,345!2025-05-22,166,285!2025-02-20,114,305!2025-01-11,83,285!2025-01-08,84,285-->
 
 {@{The nine Peano axioms}@} contain {@{three types of statements}@}. The first axiom {@{asserts the existence of at least one member of the set of natural numbers}@}. The next {@{four are general statements about [equality](equality%20(mathematics).md)}@}; in modern treatments {@{these are often not taken as part of the Peano axioms, but rather as axioms of the "underlying logic"}@}. The next three axioms are {@{[first-order](first-order%20logic.md) statements about natural numbers expressing the fundamental properties of the successor operation}@}. The ninth, final axiom is {@{a [second-order](second-order%20logic.md) statement of the principle of mathematical induction over the natural numbers, which makes this formulation close to [second-order arithmetic](second-order%20arithmetic.md)}@}. {@{A weaker first-order system}@} is obtained by {@{explicitly adding the addition and multiplication operation symbols and replacing the [second-order induction](second-order%20arithmetic.md#induction%20and%20comprehension%20schema) axiom with a first-order [axiom schema](axiom%20schema.md)}@}. The term _Peano arithmetic_ is sometimes used for {@{specifically naming this restricted system}@}. <!--SR:!2025-08-09,256,330!2025-08-16,262,330!2025-03-20,142,305!2025-07-31,248,330!2025-08-26,251,325!2025-11-01,325,345!2025-07-10,227,325!2025-08-19,245,325!2025-07-26,228,325!2025-09-17,284,330-->
 
@@ -25,7 +25,7 @@ The Peano axioms {@{define the arithmetical properties of _[natural numbers](nat
 
 The first axiom states {@{that the constant 0 is a natural number}@}: <!--SR:!2025-09-29,295,330-->
 
-1. 1st axiom ::@:: 0 is a natural number. <!--SR:!2025-11-05,327,345!2024-12-21,80,325-->
+1. 1st axiom ::@:: 0 is a natural number. <!--SR:!2025-11-05,327,345!2025-12-19,363,345-->
 
 Peano's original formulation of the axioms {@{used 1 instead of 0 as the "first" natural number, while the axioms in _[Formulario mathematico](formulario%20mathematico.md)_ include zero}@}. <!--SR:!2025-10-19,315,345-->
 
@@ -39,7 +39,7 @@ The next four axioms describe {@{the [equality](equality%20(mathematics).md) [re
 5. 5th axiom ::@:: For all _a_ and _b_, if _b_ is a natural number and _a_ = _b_, then _a_ is also a natural number. That is, the natural numbers are [closed](closure%20(mathematics).md) under equality. <!--SR:!2025-09-07,282,345!2025-10-27,320,345-->
 <!-- markdownlint-restore -->
 
-The remaining axioms {@{define the arithmetical properties of the natural numbers}@}. The naturals are {@{assumed to be closed under a single-valued "[successor](successor%20function.md)" [function](function%20(mathematics).md) _S_}@}. <!--SR:!2025-06-07,203,325!2024-12-21,80,325-->
+The remaining axioms {@{define the arithmetical properties of the natural numbers}@}. The naturals are {@{assumed to be closed under a single-valued "[successor](successor%20function.md)" [function](function%20(mathematics).md) _S_}@}. <!--SR:!2025-06-07,203,325!2025-12-14,358,345-->
 
 <!-- markdownlint-capture -->
 <!-- markdownlint-disable MD029 -->
@@ -72,7 +72,7 @@ If we use the second-order induction axiom, it is {@{possible to define [additio
 
 #### addition
 
-[Addition](addition.md#natural%20numbers) is {@{a function that [maps](map%20(mathematics).md) two natural numbers (two elements of __N__) to another one}@}. It is defined [recursively](recursion.md) as: {@{$${\begin{aligned}a+0&=a,&{\textrm {(1)} }\\a+S(b)&=S(a+b).&{\textrm {(2)} }\end{aligned} }$$}@} <!--SR:!2024-12-20,79,325!2025-11-11,332,345-->
+[Addition](addition.md#natural%20numbers) is {@{a function that [maps](map%20(mathematics).md) two natural numbers (two elements of __N__) to another one}@}. It is defined [recursively](recursion.md) as: {@{$${\begin{aligned}a+0&=a,&{\textrm {(1)} }\\a+S(b)&=S(a+b).&{\textrm {(2)} }\end{aligned} }$$}@} <!--SR:!2025-12-10,354,345!2025-11-11,332,345-->
 
 For example:
 
@@ -90,7 +90,7 @@ Similarly, [multiplication](multiplication.md) is {@{a function mapping two natu
 
 It is easy to see that $S(0)$ is {@{the multiplicative [right identity](identity%20element.md): $$a\cdot S(0)=a+(a\cdot 0)=a+0=a$$}@}. <!--SR:!2025-11-16,337,345-->
 
-To show that $S(0)$ is {@{also the multiplicative left identity requires the induction axiom due to the way multiplication is defined}@}: <!--SR:!2024-12-20,79,325-->
+To show that $S(0)$ is {@{also the multiplicative left identity requires the induction axiom due to the way multiplication is defined}@}: <!--SR:!2025-09-08,261,325-->
 
 - multiplicative left identity / base case ::@:: $S(0)$ is the left identity of 0: $S(0)\cdot 0=0$. <!--SR:!2025-05-20,192,325!2025-09-09,283,345-->
 - multiplication left identity / induction ::@:: If $S(0)$ is the left identity of $a$ (that is $S(0)\cdot a=a$), then $S(0)$ is also the left identity of $S(a)$: $S(0)\cdot S(a)=S(0)+S(0)\cdot a=S(0)+a=a+S(0)=S(a+0)=S(a)$, using commutativity of addition. <!--SR:!2025-01-08,84,285!2025-02-28,126,302-->

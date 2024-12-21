@@ -37,7 +37,7 @@ The content is in teaching order.
   - [civil engineering slogans in Hong Kong](#civil%20engineering%20slogans%20in%20Hong%20Kong)
 - civil engineering challenges
   - [civil engineering non-technical issues](#civil%20engineering%20non-technical%20issues)
-  - poor construction management consequences ::@:: Poor quality control and workmanship leads to high maintenance cost. Structural failure leads to loss of lives. <!--SR:!2025-06-25,284,300!2024-12-21,179,352-->
+  - poor construction management consequences ::@:: Poor quality control and workmanship leads to high maintenance cost. Structural failure leads to loss of lives. <!--SR:!2025-06-25,284,300!2027-05-07,867,372-->
     - poor quality control and workmanship consequences ::@:: cracks, stinky smell, water leakage <!--SR:!2025-01-12,193,352!2025-06-29,343,367-->
     - structural failure consequences ::@:: building toppling over, killing workers, prosecution <!--SR:!2024-12-31,189,270!2025-07-26,364,374-->
     - [structural failure example](#structural%20failure%20example)
@@ -463,7 +463,7 @@ testing materials
 - quality control→::@::←safety engineering <!--SR:!2025-02-12,195,301!2025-05-11,168,235-->
 - safety engineering→::@::←scheduling <!--SR:!2025-05-17,261,320!2025-11-12,407,340-->
 - scheduling→::@::←surveying building site <!--SR:!2025-01-14,149,241!2026-02-05,476,320-->
-- surveying building site→::@::←testing materials <!--SR:!2024-12-20,85,240!2025-05-20,207,272-->
+- surveying building site→::@::←testing materials <!--SR:!2025-07-12,203,240!2025-05-20,207,272-->
 - testing materials→::@::←_(end)_ <!--SR:!2025-02-21,236,347!2025-04-14,245,307-->
 
 <!--/pytextgen-->
@@ -1099,7 +1099,7 @@ water tower
 - building→::@::←dam <!--SR:!2025-05-03,277,361!2025-01-17,198,361-->
 - dam→::@::←power plant <!--SR:!2025-12-12,367,301!2025-07-27,283,258-->
 - power plant→::@::←storage facility <!--SR:!2025-01-30,185,300!2025-07-03,239,334-->
-- storage facility→::@::←tunnel <!--SR:!2024-12-21,103,280!2025-09-29,392,340-->
+- storage facility→::@::←tunnel <!--SR:!2025-10-12,295,280!2025-09-29,392,340-->
 - tunnel→::@::←unusual structure <!--SR:!2025-04-13,206,247!2026-04-05,535,340-->
 - unusual structure→::@::←water tower <!--SR:!2025-10-29,314,290!2025-03-25,98,270-->
 - water tower→::@::←_(end)_ <!--SR:!2025-11-24,467,387!2025-04-10,214,301-->
@@ -1229,7 +1229,7 @@ water treatment
 - _(begin)_→::@::←groundwater quality control <!--SR:!2025-11-29,417,340!2027-04-06,857,377-->
 - groundwater quality control→::@::←wastewater recycling <!--SR:!2025-08-01,248,275!2024-12-26,92,260-->
 - wastewater recycling→::@::←wastewater treatment <!--SR:!2025-12-22,414,315!2025-01-16,186,317-->
-- wastewater treatment→::@::←water quality monitoring <!--SR:!2024-12-21,142,280!2026-04-16,495,315-->
+- wastewater treatment→::@::←water quality monitoring <!--SR:!2026-01-29,404,280!2026-04-16,495,315-->
 - water quality monitoring→::@::←water treatment <!--SR:!2026-09-09,666,344!2025-10-19,390,334-->
 - water treatment→::@::←_(end)_ <!--SR:!2025-03-13,240,354!2026-05-18,524,286-->
 

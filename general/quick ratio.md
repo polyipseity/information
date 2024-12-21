@@ -23,7 +23,7 @@ The quick ratio is {@{similar to the [current ratio](current%20ratio.md)}@}, but
 
 - quick ratio formula ::@:: $${\text{Quick Ratio} }={\frac {\text{Quick Assets} }{\text{Current Liabilities} } }$$ <!--SR:!2025-07-31,241,330!2025-08-23,259,330-->
 
-Where quick assets can be defined as follows ::@:: $${\text{Quick Assets} }={\text{Cash and Cash Equivalents} }+{\text{Marketable Securities} }+{\text{Net Accounts Receivable} }={\text{Current Assets} }-{\text{Inventory} }-{\text{Prepaid Expenses} }$$ <!--SR:!2024-12-20,53,250!2024-12-28,64,270-->
+Where quick assets can be defined as follows ::@:: $${\text{Quick Assets} }={\text{Cash and Cash Equivalents} }+{\text{Marketable Securities} }+{\text{Net Accounts Receivable} }={\text{Current Assets} }-{\text{Inventory} }-{\text{Prepaid Expenses} }$$ <!--SR:!2025-06-24,185,270!2024-12-28,64,270-->
 
 Although the quick ratio is {@{a test for the financial viability of a business}@}, it {@{does not give a complete picture of the business's health}@}. For example, if {@{a business has large amounts in [accounts receivable](accounts%20receivable.md) due for payment after a long period, while also having larger [accounts payable](accounts%20payable.md) due for immediate payment}@}, the quick ratio {@{may look healthy when the business is actually about to run out of cash}@}. In contrast, if {@{a business has fast payment from customers, but long terms from suppliers}@}, it may {@{have a low quick ratio and yet be very healthy}@}. <!--SR:!2025-05-30,186,310!2025-05-22,181,310!2025-05-30,188,310!2025-05-01,151,290!2025-07-11,223,330!2025-03-12,115,290-->
 

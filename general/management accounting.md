@@ -19,7 +19,7 @@ According to {@{the [Institute of Management Accountants](Institute%20of%20Manag
 
 Management accountants (also called managerial accountants) look at {@{the events that happen in and around a business while considering the needs of the business}@}. From this, data and estimates emerge. Cost accounting is {@{the process of translating these estimates and data into knowledge that will ultimately be used to guide decision-making}@}.<sup>[\[5\]](#^ref-5)</sup> <!--SR:!2025-03-31,152,310!2025-05-07,179,310-->
 
-{@{The [Chartered Institute of Management Accountants](Chartered%20Institute%20of%20Management%20Accountants.md) (CIMA)}@} being the largest management accounting institute with over 100&nbsp;000 members describes Management accounting as {@{analysing information to advise business strategy and drive sustainable business success}@}.<sup>[\[6\]](#^ref-6)</sup> <!--SR:!2024-12-20,64,270!2024-12-28,71,270-->
+{@{The [Chartered Institute of Management Accountants](Chartered%20Institute%20of%20Management%20Accountants.md) (CIMA)}@} being the largest management accounting institute with over 100&nbsp;000 members describes Management accounting as {@{analysing information to advise business strategy and drive sustainable business success}@}.<sup>[\[6\]](#^ref-6)</sup> <!--SR:!2025-06-13,174,270!2024-12-28,71,270-->
 
 {@{The [Institute of Certified Management Accountants](Institute%20of%20Certified%20Management%20Accountants.md) (ICMA)}@} has over 15&nbsp;000 qualified professionals worldwide, with members in 50-countries. Its CMA postgraduate education program now is firmly established in 19 overseas markets, namely Bangladesh, Cambodia, China, Cyprus, Dubai, Hong Kong, India, Indonesia, Iran, Japan, Lebanon, Malaysia, Nepal, New Zealand, Papua New Guinea, Philippines; Singapore, Sri Lanka, Thailand and Vietnam. <!--SR:!2025-04-21,169,310-->
 
@@ -31,7 +31,7 @@ To facilitate its educational objectives, the Institute has {@{accredited a numb
 
 {@{The Association of International Certified Professional Accountants (AICPA)}@} states management accounting as {@{a practice that extends to the following three areas: [strategic management](strategic%20management.md), [performance management](business%20performance%20management.md), and [risk management](risk%20management.md)}@}. <!--SR:!2025-02-12,83,230!2024-12-31,73,270-->
 
-- [strategic management](strategic%20management.md) ::@:: advancing the role of the management accountant as a strategic partner in the organization <!--SR:!2024-12-20,64,270!2025-03-13,122,270-->
+- [strategic management](strategic%20management.md) ::@:: advancing the role of the management accountant as a strategic partner in the organization <!--SR:!2025-06-12,173,270!2025-03-13,122,270-->
 - [performance management](business%20performance%20management.md) ::@:: developing the practice of business decision-making and managing the performance of the organization <!--SR:!2025-08-07,255,330!2025-03-13,125,290-->
 - [risk management](risk%20management.md) ::@:: contributing to frameworks and practices for identifying, measuring, managing and reporting risks to the achievement of the objectives of the organization <!--SR:!2025-06-10,184,270!2025-01-05,77,270-->
 

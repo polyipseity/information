@@ -64,7 +64,7 @@ return await memorize_seq(
 - land contamination→::@::←noise pollution <!--SR:!2025-02-07,141,270!2025-05-16,255,290-->
 - noise pollution→::@::←solid waste disposal <!--SR:!2025-04-13,209,270!2025-11-18,365,290-->
 - solid waste disposal→::@::←water pollution <!--SR:!2026-07-10,570,310!2025-01-16,100,210-->
-- water pollution→::@::←_(end)_ <!--SR:!2024-12-20,145,310!2025-01-11,174,310-->
+- water pollution→::@::←_(end)_ <!--SR:!2026-03-23,457,310!2025-01-11,174,310-->
 
 <!--/pytextgen-->
 
@@ -293,7 +293,7 @@ Noise Pollution: A serious problem in Hong Kong?
 
 Noise Levels and Causes
 
-- noise level measure ::@:: sound pressure level, in dB(A) <!--SR:!2024-12-20,159,310!2025-04-01,243,330-->
+- noise level measure ::@:: sound pressure level, in dB(A) <!--SR:!2026-04-29,494,310!2025-04-01,243,330-->
   - airplane passing ::@:: 120 dB(A) <!--SR:!2025-02-17,193,310!2025-02-22,194,310-->
   - construction site ::@:: 110 dB(A) <!--SR:!2025-08-20,304,290!2025-03-26,219,310-->
   - concert ::@:: 100 dB(A) <!--SR:!2025-03-18,214,310!2025-03-22,218,310-->

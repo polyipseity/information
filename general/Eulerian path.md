@@ -25,7 +25,7 @@ tags:
 >
 > {@{Every vertex of this graph}@} has {@{an even degree}@}. Therefore, {@{this is an Eulerian graph}@}. {@{Following the edges in alphabetical order}@} gives {@{an Eulerian circuit/cycle}@}. <!--SR:!2025-02-27,76,342!2025-02-27,76,342!2025-02-17,68,316!2025-03-01,78,342!2025-03-04,81,342-->
 
-In [graph theory](graph%20theory.md), {@{an __Eulerian trail__ \(or __Eulerian path__\)}@} is {@{a [trail](path%20(graph%20theory).md#walk,%20trail,%20and%20path) in a finite [graph](graph%20(discrete%20mathematics).md) that visits every [edge](glossary%20of%20graph%20theory.md#edge) exactly once \(allowing for revisiting vertices\)}@}. Similarly, {@{an __Eulerian circuit__ or __Eulerian cycle__}@} is {@{an Eulerian trail that starts and ends on the same [vertex](vertex%20(graph%20theory).md)}@}. They were first {@{discussed by [Leonhard Euler](Leonhard%20Euler.md)}@} while {@{solving the famous [Seven Bridges of Königsberg](Seven%20Bridges%20of%20Königsberg.md) problem}@} in {@{1736}@}. The problem can be stated mathematically like this: <!--SR:!2025-02-25,74,342!2025-02-24,73,330!2025-02-06,55,322!2025-03-04,81,342!2025-02-26,75,330!2025-01-21,45,310!2024-12-21,20,282-->
+In [graph theory](graph%20theory.md), {@{an __Eulerian trail__ \(or __Eulerian path__\)}@} is {@{a [trail](path%20(graph%20theory).md#walk,%20trail,%20and%20path) in a finite [graph](graph%20(discrete%20mathematics).md) that visits every [edge](glossary%20of%20graph%20theory.md#edge) exactly once \(allowing for revisiting vertices\)}@}. Similarly, {@{an __Eulerian circuit__ or __Eulerian cycle__}@} is {@{an Eulerian trail that starts and ends on the same [vertex](vertex%20(graph%20theory).md)}@}. They were first {@{discussed by [Leonhard Euler](Leonhard%20Euler.md)}@} while {@{solving the famous [Seven Bridges of Königsberg](Seven%20Bridges%20of%20Königsberg.md) problem}@} in {@{1736}@}. The problem can be stated mathematically like this: <!--SR:!2025-02-25,74,342!2025-02-24,73,330!2025-02-06,55,322!2025-03-04,81,342!2025-02-26,75,330!2025-01-21,45,310!2025-02-17,58,282-->
 
 > Given {@{the graph in the image}@}, is it possible to {@{construct a [path](path%20(graph%20theory).md) \(or a [cycle](cycle%20(graph%20theory).md); i.e., a path starting and ending on the same vertex\) that visits each edge exactly once}@}? <!--SR:!2025-03-06,83,342!2025-03-02,79,342-->
 
@@ -94,7 +94,7 @@ This algorithm may also {@{be implemented with a [deque](double-ended%20queue.md
 >
 > <!-- - [v](https://en.wikipedia.org/wiki/Template:Hamiltonian%20platonic%20graphs.svg) -->
 > <!-- - [t](https://en.wikipedia.org/wiki/Template_talk:Hamiltonian%20platonic%20graphs.svg) -->
-> <!-- - [e](https://en.wikipedia.org/wiki/Special:EditPage/Template:Hamiltonian%20platonic%20graphs.svg) --> <!--SR:!2024-12-20,19,282!2025-02-08,57,322!2025-02-18,69,316!2025-01-11,35,302!2025-02-28,77,342-->
+> <!-- - [e](https://en.wikipedia.org/wiki/Special:EditPage/Template:Hamiltonian%20platonic%20graphs.svg) --> <!--SR:!2025-02-15,56,282!2025-02-08,57,322!2025-02-18,69,316!2025-01-11,35,302!2025-02-28,77,342-->
 
 ## counting Eulerian circuits
 

@@ -15,7 +15,7 @@ A __recurrent neural network__ (__RNN__) is {@{one of the two board types of [ne
 
 An RNN exhibits {@{temporal [dynamic behavior](dynamical%20system.md)}@}. This makes it suitable for datasets {@{with temporal relationship between the samples}@}. <!--SR:!2025-07-12,301,330!2025-04-08,225,330-->
 
-The term "recurrent neural network" is used to refer {@{to the class of networks with [infinite impulse response](infinite%20impulse%20response.md)}@}, while {@{"[convolutional neural network](convolutional%20neural%20network.md)" refers to the class of networks with [finite impulse response](finite%20impulse%20response.md)}@}. <!--SR:!2025-12-26,406,310!2024-12-20,130,290-->
+The term "recurrent neural network" is used to refer {@{to the class of networks with [infinite impulse response](infinite%20impulse%20response.md)}@}, while {@{"[convolutional neural network](convolutional%20neural%20network.md)" refers to the class of networks with [finite impulse response](finite%20impulse%20response.md)}@}. <!--SR:!2025-12-26,406,310!2026-05-28,523,310-->
 
 ## architectures
 
@@ -23,7 +23,7 @@ The term "recurrent neural network" is used to refer {@{to the class of networks
 
 ### Elman networks and Jordan networks
 
-An [Elman](Jeffrey%20Elman.md) network is {@{a 3-layer network with the addition of a context layer}@}. The middle hidden layer is {@{connected to the context layer with a fixed weight of 1}@}. The context layer connects {@{back to the middle hidden layer}@}. <!--SR:!2025-01-01,135,290!2025-01-30,171,310!2024-12-20,127,290-->
+An [Elman](Jeffrey%20Elman.md) network is {@{a 3-layer network with the addition of a context layer}@}. The middle hidden layer is {@{connected to the context layer with a fixed weight of 1}@}. The context layer connects {@{back to the middle hidden layer}@}. <!--SR:!2025-01-01,135,290!2025-01-30,171,310!2026-05-22,517,310-->
 
 [Jordan](Michael%20I.%20Jordan.md) network are {@{similar to Elman networks}@}. The exception is {@{that the context layer is fed from the output layer instead of the middle hidden layer}@}. <!--SR:!2026-04-06,479,310!2025-02-14,63,270-->
 

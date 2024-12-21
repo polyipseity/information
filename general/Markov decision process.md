@@ -71,7 +71,7 @@ In this example, we have
 
 The algorithm has {@{two steps, \(1\) a value update and \(2\) a policy update}@}, which are {@{repeated in some order for all the states until no further changes take place}@}. Both {@{recursively update a new estimation of the optimal policy}@} and {@{state value using an older estimation of those values}@}. <!--SR:!2024-12-26,15,309!2024-12-26,15,309!2024-12-28,17,309!2024-12-26,15,309-->
 
-- value update ::@:: $$V(s):=\sum _{s'}P_{\pi (s)}(s,s')\left(R_{\pi (s)}(s,s')+\gamma V(s')\right)$$ <!--SR:!2025-01-12,24,252!2024-12-21,10,272-->
+- value update ::@:: $$V(s):=\sum _{s'}P_{\pi (s)}(s,s')\left(R_{\pi (s)}(s,s')+\gamma V(s')\right)$$ <!--SR:!2025-01-12,24,252!2025-01-18,28,272-->
 - policy update ::@:: $$\pi (s):=\operatorname {argmax} _{a}\left\{\sum _{s'}P_{a}(s,s')\left(R_{a}(s,s')+\gamma V(s')\right)\right\}$$ <!--SR:!2024-12-22,12,270!2024-12-25,14,292-->
 
 Their order depends on {@{the variant of the algorithm}@}; one can {@{also do them for all states at once or state by state, and more often to some states than others}@}. As long as {@{no state is permanently excluded from either of the steps}@}, {@{the algorithm will eventually arrive at the correct solution}@}.<sup>[\[6\]](#^ref-6)</sup> <!--SR:!2024-12-28,17,309!2024-12-28,17,309!2024-12-27,16,309!2024-12-26,15,309-->
@@ -173,7 +173,7 @@ In {@{learning automata theory}@}, a {@{__stochastic automaton__}@} consists of:
 - a set Φ = { Φ<sub>1</sub>, ..., Φ<sub>_s_</sub> } ::@:: of possible internal states, <!--SR:!2024-12-25,14,292!2024-12-27,16,292-->
 - a set α = { α<sub>1</sub>, ..., α<sub>_r_</sub> } ::@:: of possible outputs, or actions, with _r_ ≤ _s_, <!--SR:!2024-12-27,16,292!2024-12-26,15,292-->
 - an initial state probability vector ::@:: _p_\(0\) = ≪ _p_<sub>1</sub>\(0\), ..., _p<sub>s</sub>_\(0\) ≫, (Annotation: This randomly selects the current state.) <!--SR:!2024-12-26,15,292!2024-12-25,14,292-->
-- a [computable function](computable%20function.md) _A_ which ::@:: after each time step _t_ generates _p_\(_t_ + 1\) from _p_\(_t_\), the current input, and the current state, and (Annotation: This makes the automata "learn" from an input.) <!--SR:!2024-12-21,10,272!2024-12-25,14,292-->
+- a [computable function](computable%20function.md) _A_ which ::@:: after each time step _t_ generates _p_\(_t_ + 1\) from _p_\(_t_\), the current input, and the current state, and (Annotation: This makes the automata "learn" from an input.) <!--SR:!2025-01-17,27,272!2024-12-25,14,292-->
 - a function _G_: Φ → α which ::@:: generates the output at each time step. (Annotation: Note that the function only depends on the current state, not the current input.) <!--SR:!2024-12-25,14,292!2024-12-27,16,292-->
 
 {@{The states of such an automaton}@} correspond to {@{the states of a "discrete-state discrete-parameter [Markov process](Markov%20chain.md)"}@}.<sup>[\[21\]](#^ref-21)</sup> At {@{each time step _t_ = 0,1,2,3,...}@}, the automaton {@{reads an input from its environment}@}, {@{updates P\(_t_\) to P\(_t_ + 1\) by _A_}@}, {@{randomly chooses a successor state according to the probabilities P\(_t_ + 1\)}@} and {@{outputs the corresponding action}@}. The automaton's environment, in turn, {@{reads the action and sends the next input to the automaton}@}.<sup>[\[20\]](#^ref-20)</sup> <!--SR:!2024-12-28,17,309!2024-12-28,17,309!2024-12-28,17,309!2024-12-28,17,309!2024-12-28,17,309!2024-12-28,17,309!2024-12-28,17,309!2024-12-28,17,309-->

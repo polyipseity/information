@@ -10,7 +10,7 @@ tags:
 
 ## derivation
 
-The [ordinary differential equation](ordinary%20differential%20equation.md) for damped harmonic oscillator can be derived from {@{[Newton's second law](Newton's%20laws%20of%20motion.md#second%20law), [Hooke's law](Hooke's%20law.md), and a _viscous damping coefficient_}@}: <!--SR:!2024-12-20,278,330-->
+The [ordinary differential equation](ordinary%20differential%20equation.md) for damped harmonic oscillator can be derived from {@{[Newton's second law](Newton's%20laws%20of%20motion.md#second%20law), [Hooke's law](Hooke's%20law.md), and a _viscous damping coefficient_}@}: <!--SR:!2028-06-05,1262,350-->
 
 > __ordinary differential equation__
 >
