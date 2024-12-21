@@ -216,7 +216,7 @@ async def wiki_html_to_plaintext(
         case "s" | "sub" | "sup" | "u":
             prefix, suffix = _tag_affixes(ele.name)
         # newlines
-        case "dd" | "dt" | "p":  # <dl>
+        case "div" | "dd" | "dt" | "p":  # <dl>
             suffix = "\n\n"
         # code
         case "code":
@@ -460,6 +460,7 @@ async def wiki_html_to_plaintext(
             "math_theorem",
             "portalbox",
             "tmulti",
+            "unsolved",
         }
         & classes
     ):
