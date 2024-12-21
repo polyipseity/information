@@ -155,7 +155,8 @@ async def wiki_html_to_plaintext(
             process_strings = lambda strings: _fix_name_maybe(strings.strip())
         # bold
         case _ if (
-            ele.name == "b" or __BOLD_FONT_STYLE_REGEX.search(str(ele.get("style", "")))
+            ele.name in {"b", "strong"}
+            or __BOLD_FONT_STYLE_REGEX.search(str(ele.get("style", "")))
         ) and "mw-heading" not in classes:
             prefix, suffix = "__", "__"
             if (
