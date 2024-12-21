@@ -278,14 +278,10 @@ async def wiki_html_to_plaintext(
                 ele.append(alt_text)
         # lists
         case "ol":
-            if list_stack:
-                prefix = "\n"
-            suffix = "\n\n"
+            prefix, suffix = ("\n" if list_stack else "\n\n"), "\n\n"
             list_stack += (0,)
         case "ul":
-            if list_stack:
-                prefix = "\n"
-            suffix = "\n\n"
+            prefix, suffix = ("\n" if list_stack else "\n\n"), "\n\n"
             list_stack += (-1,)
         case "li":
             if list_stack and (item := list_stack[-1]) >= 1:
@@ -390,17 +386,6 @@ async def wiki_html_to_plaintext(
 
             suffix = "\n\n"
             process_strings = process_strings_img
-        # figures
-        case _ if ele.name == "figure" or "tmulti" in classes:
-
-            def process_strings_figure(strings: str):
-                return "".join(
-                    f">{line.strip() and ' '}{line}"
-                    for line in strings.splitlines(keepends=True)
-                )
-
-            suffix = "\n\n"
-            process_strings = process_strings_figure
         # links
         case _ if ele.name == "a" and "mw-file-description" not in classes:
             if (title := ele.get("title")) and title not in _BAD_TITLES:
@@ -464,6 +449,27 @@ async def wiki_html_to_plaintext(
     if "hatnote" in classes:
         prefix = f"- {prefix.removesuffix('_')}"
         suffix = f"{suffix.removeprefix('_')}\n\n"
+
+    # blockquotes: categories, figures, portals, ...
+    if (
+        ele.name == "figure"
+        or {
+            "catlinks",
+            "math_theorem",
+            "portalbox",
+            "tmulti",
+        }
+        & classes
+    ):
+
+        def process_strings_blockquote(strings: str):
+            return "".join(
+                f">{line.strip() and ' '}{line}"
+                for line in strings.strip().splitlines(keepends=True)
+            )
+
+        suffix = "\n\n"
+        process_strings = process_strings_blockquote
 
     def process_children():
         nonlocal list_stack
