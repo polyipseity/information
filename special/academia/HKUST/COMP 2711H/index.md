@@ -47,7 +47,7 @@ The content is in teaching order.
     - proposition ::@:: A declarative statement that is either true (1) or false (0). No third value is possible. Typically it is represented by _p_, _q_, _r_, and so forth.
   - [truth table](../../../../general/truth%20table.md) ::@:: A table representing a boolean function. There are $n + 1$ columns, where the first $n$ columns are the inputs of the boolean function, while the last column is the output of the boolean function. There are $2^n$ rows, representing all possible combinations of the $n$ inputs mapping to the corresponding $2^n$ outputs.
     - [§ truth table](../../../../general/truth%20table.md#truth%20table)
-  - boolean algebra operations ::@:: An operation that takes connections one or more propositions. These operations can be chained.
+  - boolean algebra operations ::@:: An operation that takes and connects one or more propositions. These operations can be chained.
     - negation (not) ::@:: $\lnot p$: $$\begin{aligned} (0) & \mapsto 1 \\ (1) & \mapsto 0 \end{aligned}$$
     - disjunction (or) ::@:: $p \lor q$: $$\begin{aligned} (0, 0) & \mapsto 0 \\ (1, 0) & \mapsto 1 \\ (0, 1) & \mapsto 1 \\ (1, 1) & \mapsto 1 \end{aligned}$$
     - conjunction (and) ::@:: $p \land q$: $$\begin{aligned} (0, 0) & \mapsto 0 \\ (1, 0) & \mapsto 0 \\ (0, 1) & \mapsto 0 \\ (1, 1) & \mapsto 1 \end{aligned}$$
