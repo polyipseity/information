@@ -306,7 +306,7 @@ async def wiki_html_to_plaintext(
                 prefix = f'<a id="{id}"></a> '
         # tables
         case "tbody" | "thead":
-            suffix = "\n\n"
+            prefix, suffix = "\n", "\n\n"
 
             # normalize cells
             for tdh in tuple(ele.find_all(("td", "th"))):
@@ -456,6 +456,7 @@ async def wiki_html_to_plaintext(
         ele.name == "figure"
         or {
             "catlinks",
+            # "gallerybox",
             "math_theorem",
             "portalbox",
             "tmulti",
