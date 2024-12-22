@@ -259,7 +259,7 @@ return _chain.from_iterable(await _gather(
 <!--pytextgen generate section="305b"--><!-- The following content is generated at 2024-01-31T12:40:31.061300+08:00. Any edits will be overridden! -->
 
 - _(begin)_→::@::←(operator) `&` <!--SR:!2025-09-10,444,330!2025-03-07,307,330-->
-- (operator) `&`→::@::←`LEFT(string, length)` <!--SR:!2025-04-13,257,290!2024-12-22,204,270-->
+- (operator) `&`→::@::←`LEFT(string, length)` <!--SR:!2025-04-13,257,290!2027-01-29,768,290-->
 - `LEFT(string, length)`→::@::←`LEN(string)` <!--SR:!2025-05-03,311,290!2025-01-10,192,230-->
 - `LEN(string)`→::@::←`LOWER(string)` <!--SR:!2025-01-29,192,270!2025-05-04,257,290-->
 - `LOWER(string)`→::@::←`RIGHT(string, length)` <!--SR:!2025-04-03,116,150!2026-01-30,426,250-->

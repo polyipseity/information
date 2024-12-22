@@ -15,7 +15,7 @@ In [economics](economics.md), __gains from trade__ are {@{the net benefits to [e
 
 Gains from trade are commonly described as resulting from:
 
-- specialization in ::@:: production from [division of labor](division%20of%20labour.md), [economies of scale](economies%20of%20scale.md), [scope](economies%20of%20scope.md), and [agglomeration](economies%20of%20agglomeration.md)<sup>[\[5\]](#^ref-5)</sup> and relative availability of [factor resources](factors%20of%20production.md) in types of output by farms, businesses, location<sup>[\[6\]](#^ref-6)</sup> and [economies](economy.md) <!--SR:!2025-03-04,73,270!2024-12-22,28,270-->
+- specialization in ::@:: production from [division of labor](division%20of%20labour.md), [economies of scale](economies%20of%20scale.md), [scope](economies%20of%20scope.md), and [agglomeration](economies%20of%20agglomeration.md)<sup>[\[5\]](#^ref-5)</sup> and relative availability of [factor resources](factors%20of%20production.md) in types of output by farms, businesses, location<sup>[\[6\]](#^ref-6)</sup> and [economies](economy.md) <!--SR:!2025-03-04,73,270!2025-04-06,105,290-->
 - a resulting increase in ::@:: total [output possibilities](production–possibility%20frontier.md) <!--SR:!2025-01-25,55,310!2025-02-07,66,310-->
 - trade through ::@:: [markets](market%20(economics).md) from sale of one type of output for other, more highly valued goods.<sup>[\[7\]](#^ref-7)</sup> <!--SR:!2025-01-06,39,290!2025-02-04,63,310-->
 

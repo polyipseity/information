@@ -30,7 +30,7 @@ tags:
 - negative number ::@:: Write negative numbers in brackets, not with a minus sign. For example, write `(42)` instead of `-42`. <!--SR:!2024-12-29,16,290!2024-12-28,15,290-->
 - casing ::@:: Use title case for basically everything!!! (Ignore that I have been NOT using title case in this note.) <!--SR:!2024-12-28,15,290!2024-12-27,14,290-->
 - (root) ::@:: description: 1 column <br/> common stock: 1 column <br/> additional paid-in capital: 1 column <br/> retained earnings: 1 column <br/> total stockholders' equity: 1 column <!--SR:!2024-12-28,15,290!2024-12-27,14,290-->
-  - (root) / description ::@:: beginning balances <br/> stock issuance <br/> net income <br/> dividends declared: regardless if they are paid in this period <br/> ending balances <!--SR:!2024-12-22,11,270!2024-12-23,10,270-->
+  - (root) / description ::@:: beginning balances <br/> stock issuance <br/> net income <br/> dividends declared: regardless if they are paid in this period <br/> ending balances <!--SR:!2025-01-20,29,270!2024-12-23,10,270-->
   - (root) / common stock ::@:: (1) affected by beginning balances, stock issuance, stock repurchase <!--SR:!2024-12-27,14,290!2024-12-27,14,290-->
   - (root) / additional paid-in capital ::@:: (2) affected by beginning balances, stock issuance, stock repurchase <!--SR:!2024-12-28,15,290!2024-12-28,15,290-->
   - (root) / retained earnings ::@:: affected by beginning balances, net income, dividends declared <!--SR:!2024-12-29,16,290!2024-12-27,14,290-->

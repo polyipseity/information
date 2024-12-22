@@ -129,7 +129,7 @@ Since permutations are partitioned by number of cycles, one has {@{$$\sum _{k=0}
 
 {@{The table in section 6.1 of _Concrete Mathematics_}@} provides {@{a plethora of generalized forms of finite sums involving the Stirling numbers}@}. Several particular finite sums relevant to this article include <!--SR:!2025-01-14,59,319!2025-02-13,84,339-->
 
-- reversed increment by binomial coefficient ::@:: $$\left[{n \atop m}\right]=\sum _{k=m}^{n}\left[{n+1 \atop k+1}\right](-1)^{k-m}{\binom {k}{m} }$$ <!--SR:!2024-12-22,28,259!2025-02-13,61,279-->
+- reversed increment by binomial coefficient ::@:: $$\left[{n \atop m}\right]=\sum _{k=m}^{n}\left[{n+1 \atop k+1}\right](-1)^{k-m}{\binom {k}{m} }$$ <!--SR:!2025-03-08,76,259!2025-02-13,61,279-->
 - increment by combinatorial argument ::@:: $$\left[{n+1 \atop m+1}\right]=\sum _{k=m}^{n} \frac {n!} {k!} \left[{k \atop m}\right]$$  (Annotation: Permutate _n_ − _k_ elements from _n_ elements to a partition with linear order. Add the 1 element to make the partition a cycle. Partition the remaining _k_ elements into _m_ cycles.) <!--SR:!2025-01-19,59,319!2024-12-29,43,299-->
 - increment by summing up to _k_ ::@:: $$\left[{n + k +1 \atop n}\right]=\sum _{j=0}^{k}(n+j)\left[{n+j \atop j}\right]$$ <!--SR:!2025-01-27,58,279!2024-12-28,42,299-->
 - partition then choose partitions ::@:: $$\left[{n \atop l+m}\right]{\binom {l+m}{l} }=\sum _{k}{\binom {n}{k} }\left[{k \atop l}\right]\left[{n-k \atop m}\right]$$  (Annotation: Choose _k_ elements from _n_ elements. Partition _k_ elements into the chosen _l_ cycles. Partition the remaining _n_ − _k_ elements into the unchosen _m_ cycles.) <!--SR:!2025-01-24,72,331!2025-01-24,72,335-->
@@ -158,7 +158,7 @@ Other identities arise by {@{exchanging the order of summation, taking derivativ
 
 ### asymptotics
 
-The next estimate given in terms of the [Euler gamma constant](euler's%20constant.md) applies:<sup>[\[17\]](#^ref-17)</sup> ::@:: $$\left[{\begin{matrix}n+1\\k+1\end{matrix} }\right]{\underset {n\to \infty }{\sim } }{\frac {n!}{k!} }\left(\gamma +\ln n\right)^{k},\ {\text{ uniformly for } }k=o(\ln n).$$ <!--SR:!2024-12-22,13,211!2025-01-23,49,271-->
+The next estimate given in terms of the [Euler gamma constant](euler's%20constant.md) applies:<sup>[\[17\]](#^ref-17)</sup> ::@:: $$\left[{\begin{matrix}n+1\\k+1\end{matrix} }\right]{\underset {n\to \infty }{\sim } }{\frac {n!}{k!} }\left(\gamma +\ln n\right)^{k},\ {\text{ uniformly for } }k=o(\ln n).$$ <!--SR:!2025-01-19,28,211!2025-01-23,49,271-->
 
 For fixed $n$ (growing $k$) we have the following estimate: ::@:: $$\left[{\begin{matrix}n+k\\k\end{matrix} }\right]{\underset {k\to \infty }{\sim } }{\frac {k^{2n} }{2^{n}n!} }.$$ <!--SR:!2025-01-01,42,251!2025-03-20,97,271-->
 

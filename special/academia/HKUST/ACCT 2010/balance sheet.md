@@ -19,13 +19,13 @@ tags:
 
 ## examples
 
-- [`Balance sheet example .gif`](../../../../archives/Wikimedia%20Commons/Balance%20sheet%20example%20.gif) ::@:: ![`Balance sheet example .gif`](../../../../archives/Wikimedia%20Commons/Balance%20sheet%20example%20.gif) <!--SR:!2024-12-22,11,270!2024-12-29,16,290-->
+- [`Balance sheet example .gif`](../../../../archives/Wikimedia%20Commons/Balance%20sheet%20example%20.gif) ::@:: ![`Balance sheet example .gif`](../../../../archives/Wikimedia%20Commons/Balance%20sheet%20example%20.gif) <!--SR:!2025-01-20,29,270!2024-12-29,16,290-->
 - [`Cascadia Wikimedians User Group - Balance sheet as of Dec 31, 2015.jpg`](../../../../archives/Wikimedia%20Commons/Cascadia%20Wikimedians%20User%20Group%20-%20Balance%20sheet%20as%20of%20Dec%2031,%202015.jpg) ::@:: ![`Cascadia Wikimedians User Group - Balance sheet as of Dec 31, 2015.jpg`](../../../../archives/Wikimedia%20Commons/Cascadia%20Wikimedians%20User%20Group%20-%20Balance%20sheet%20as%20of%20Dec%2031,%202015.jpg) <!--SR:!2024-12-23,10,270!2024-12-23,10,270-->
 
 ## format
 
 - header ::@:: company name, `(Consolidated) Balance Sheet`, date, (monetary unit) <!--SR:!2024-12-29,16,290!2024-12-27,14,290-->
-  - header / date ::@:: example: `December 31, 2019` <!--SR:!2024-12-22,11,270!2024-12-23,10,270-->
+  - header / date ::@:: example: `December 31, 2019` <!--SR:!2025-01-30,39,290!2024-12-23,10,270-->
   - header / monetary unit ::@:: example: <br/> (none; not recommended) <br/> `(in million of dollars, except per share data)` <!--SR:!2024-12-28,15,290!2024-12-28,15,290-->
 - dollar sign ::@:: Add it before the first number and the last number (under `Total ...`) in each section under (root). The rest can be omitted. <!--SR:!2025-01-18,28,270!2024-12-27,14,290-->
 - totals ::@:: It's somewhat arbitrary. At least calculate: <br/> total current assets <br/> total cost: property and equipment <br/> net property and equipment: total cost less accumulated depreciation <br/> total assets <br/> total current liabilities <br/> total liabilities <br/> total stockholders' equity <br/> total liabilities and stockholders' equity <!--SR:!2024-12-23,10,270!2025-01-14,24,250-->

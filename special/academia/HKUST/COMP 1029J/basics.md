@@ -96,7 +96,7 @@ return _chain.from_iterable(await _gather(
 
 <!--pytextgen generate section="3b1a"--><!-- The following content is generated at 2024-02-01T11:50:25.871864+08:00. Any edits will be overridden! -->
 
-- `String`:@:A piece of text. Example: `"Hello"` <!--SR:!2024-12-22,249,330-->
+- `String`:@:A piece of text. Example: `"Hello"` <!--SR:!2028-01-31,1135,350-->
 - `boolean`:@:Either true or false. Example: `true`, `false` <!--SR:!2027-12-14,1098,350-->
 - `char`:@:A single character. Example: `'a'`, `'3'`, `' '` <!--SR:!2025-02-12,290,330-->
 - `double`:@:A floating point number with double precision (15 to 17 significant figures). One can effectively treat it as a decimal number for most purposes. Example: `42d`, `5.`, `6.29d`, `3.12D`, `3.14` <!--SR:!2026-11-12,763,330-->
@@ -195,7 +195,7 @@ return _chain.from_iterable(await _gather(
 - _(begin)_→::@::←`++` <!--SR:!2025-03-17,318,330!2025-02-23,299,330-->
 - `++`→::@::←`--` <!--SR:!2025-01-21,274,330!2025-01-30,277,330-->
 - `--`→::@::←`*` <!--SR:!2025-02-18,253,310!2026-03-18,538,310-->
-- `*`→::@::←`/` <!--SR:!2026-12-22,796,330!2024-12-22,251,330-->
+- `*`→::@::←`/` <!--SR:!2026-12-22,796,330!2028-02-08,1143,350-->
 - `/`→::@::←`%` <!--SR:!2025-01-17,270,330!2025-05-23,306,290-->
 - `%`→::@::←`+` <!--SR:!2025-03-14,314,330!2025-07-20,350,290-->
 - `+`→::@::←`-` <!--SR:!2025-02-10,288,330!2025-02-04,282,330-->

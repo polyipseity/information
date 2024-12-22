@@ -299,7 +299,7 @@ tags:
 >
 > Note: You are using your office space.
 >
-> - solution: {@{In 1, explicit cost increases by \$500/month. In 2, implicit cost increases by \$500/month, because you are using the office space that could have been rented out to the market.}@} <!--SR:!2024-12-22,4,334-->
+> - solution: {@{In 1, explicit cost increases by \$500/month. In 2, implicit cost increases by \$500/month, because you are using the office space that could have been rented out to the market.}@} <!--SR:!2025-01-08,17,354-->
 
 <!-- markdownlint MD028 -->
 
@@ -310,7 +310,7 @@ tags:
 > 3. an increase in the fixed amount of liability insurance premiums that XYZ pays for its business
 > 4. both answers 1 and 3 are correct
 >
-> - solution: {@{4}@} <!--SR:!2024-12-22,4,334-->
+> - solution: {@{4}@} <!--SR:!2025-01-09,18,354-->
 
 ### chapter 14 lecture
 
@@ -321,7 +321,7 @@ tags:
 > 3. Marginal revenue can be calculated as total revenue divided by the quantity sold
 > 4. Only for competitive firms does average revenue equal marginal revenue
 >
-> - solution: {@{2}@} <!--SR:!2024-12-22,4,334-->
+> - solution: {@{2}@} <!--SR:!2025-01-09,18,354-->
 
 ### chapter 15 lecture
 
@@ -332,7 +332,7 @@ tags:
 > 3. no effect on the profit-maximizing price or quantity
 > 4. possibly increase, decrease or not effect profit-maximizing price and quantity, depending on the elasticity of demand.
 >
-> - solution: {@{3}@} <!--SR:!2024-12-22,4,334-->
+> - solution: {@{3}@} <!--SR:!2025-01-08,17,354-->
 
 ### chapter 17 lecture
 
@@ -345,7 +345,7 @@ tags:
 > 3. Mary pays Cathy \$14 so that Mary can smoke.
 > 4. Cathy offers Mary \$15 not to smoke. Mary accepts and does not smoke.
 >
-> - solution: {@{2}@} <!--SR:!2024-12-22,4,334-->
+> - solution: {@{2}@} <!--SR:!2025-01-09,18,354-->
 
 ### chapter 11 lecture
 

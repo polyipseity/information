@@ -51,7 +51,7 @@ The content is in teaching order.
 - civil engineering solutions ::@:: smart cities <!--SR:!2026-03-06,545,400!2025-09-01,375,376-->
   - smart cities examples ::@:: Using technology to gather information, predict events, and notify people. <!--SR:!2025-03-24,304,335!2026-01-13,502,400-->
 - [civil engineering subdisciplines](#civil%20engineering%20subdisciplines)
-- structural engineering ::@:: analysis, design, and planning of structures to resist various loading and natural disasters <!--SR:!2026-05-20,589,360!2024-12-22,188,347-->
+- structural engineering ::@:: analysis, design, and planning of structures to resist various loading and natural disasters <!--SR:!2026-05-20,589,360!2027-06-07,897,367-->
   - [structural engineering examples](#structural%20engineering%20examples)
   - [natural disasters examples](#natural%20disaster%20examples)
   - structural engineering goals ::@:: safety: no collapse without warning, serviceability: deformation does not disrupt use <!--SR:!2025-12-21,395,292!2025-06-28,368,350-->
@@ -63,7 +63,7 @@ The content is in teaching order.
   - structural codes of practice or design codes ::@:: different countries have different standards <!--SR:!2025-05-25,340,350!2025-08-05,373,377-->
     - [structural code of practice examples](#structural%20code%20of%20practice%20examples)
 - geo-technical engineering ::@:: behavior of rock, soil, and underground water <!--SR:!2025-07-26,331,305!2025-03-01,249,367-->
-  - geo-technical engineering structures ::@:: design and construction of earthworks and foundations <!--SR:!2024-12-22,159,320!2025-01-26,217,350-->
+  - geo-technical engineering structures ::@:: design and construction of earthworks and foundations <!--SR:!2026-05-15,509,320!2025-01-26,217,350-->
     - [geo-technical engineering structure examples](#geo-technical%20engineering%20structure%20examples)
   - [geo-technical engineering risks](#geo-technical%20engineering%20risks)
     - geo-technical engineering risk migration ::@:: soil improvement or retaining structures can migrate risk to society <!--SR:!2027-01-02,758,360!2025-07-09,335,377-->
@@ -362,7 +362,7 @@ transportation
 - geo-technical→::@::←hydraulic <!--SR:!2026-04-13,508,340!2024-12-23,112,340-->
 - hydraulic→::@::←material <!--SR:!2026-04-12,556,360!2026-02-13,471,340-->
 - material→::@::←structural <!--SR:!2025-02-07,130,297!2025-01-26,167,260-->
-- structural→::@::←transportation <!--SR:!2024-12-22,171,340!2026-11-27,724,347-->
+- structural→::@::←transportation <!--SR:!2027-03-02,800,360!2026-11-27,724,347-->
 - transportation→::@::←_(end)_ <!--SR:!2025-01-08,192,350!2025-02-01,202,381-->
 
 <!--/pytextgen-->
@@ -401,7 +401,7 @@ Water Cube
 
 - _(begin)_→::@::←Beijing National Stadium <!--SR:!2025-08-26,362,380!2025-03-11,257,367-->
 - Beijing National Stadium→::@::←Burj Al Arab <!--SR:!2025-05-14,263,304!2026-12-13,761,370-->
-- Burj Al Arab→::@::←Burj Khalifa <!--SR:!2026-03-31,530,290!2024-12-22,190,352-->
+- Burj Al Arab→::@::←Burj Khalifa <!--SR:!2026-03-31,530,290!2027-06-27,917,372-->
 - Burj Khalifa→::@::←CCTV Headquarters <!--SR:!2025-06-15,286,320!2025-04-25,256,270-->
 - CCTV Headquarters→::@::←Eiffel Tower <!--SR:!2025-11-11,407,305!2026-08-07,604,312-->
 - Eiffel Tower→::@::←Hong Kong Convention and Exhibition Centre <!--SR:!2025-09-15,333,294!2025-03-04,182,305-->
