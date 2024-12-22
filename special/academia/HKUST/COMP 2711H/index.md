@@ -25,7 +25,17 @@ The content is in teaching order.
   - homework: 10% × 4. It must be written in LaTeX. After submitting the homework, the instructor and TAs will read the submission and give feedback. You can then resubmit once more. The highest out of the 2 submission wills be counted. Resubmission may be disallowed if the initial submission is low quality or lacks effort.
   - midterm examination: 30%.
   - final examination: 30%. It covers the entire course.
+
+## children
+
 - [questions](questions/questions.md)
+
+## assessments
+
+- [homework 1](assignments/homework%201/submission.md): 10/10
+- [homework 2](assignments/homework%202/submission.md): 7.5/10 → 9/10
+- [homework 3](assignments/homework%203/submission.md): 9/10
+- [homework 4](assignments/homework%204/submission.md): 8/10
 
 ## week 1 lecture
 
@@ -37,7 +47,7 @@ The content is in teaching order.
     - proposition ::@:: A declarative statement that is either true (1) or false (0). No third value is possible. Typically it is represented by _p_, _q_, _r_, and so forth. <!--SR:!2025-05-03,177,323!2025-10-07,303,343-->
   - [truth table](../../../../general/truth%20table.md) ::@:: A table representing a boolean function. There are $n + 1$ columns, where the first $n$ columns are the inputs of the boolean function, while the last column is the output of the boolean function. There are $2^n$ rows, representing all possible combinations of the $n$ inputs mapping to the corresponding $2^n$ outputs. <!--SR:!2025-10-23,316,343!2025-03-30,150,323-->
     - [§ truth table](../../../../general/truth%20table.md#truth%20table)
-  - boolean algebra operations ::@:: An operation that takes connections one or more propositions. These operations can be chained. <!--SR:!2025-08-31,255,323!2025-11-30,347,343-->
+  - boolean algebra operations ::@:: An operation that takes and connects one or more propositions. These operations can be chained. <!--SR:!2025-08-31,255,323!2025-11-30,347,343-->
     - negation (not) ::@:: $\lnot p$: $$\begin{aligned} (0) & \mapsto 1 \\ (1) & \mapsto 0 \end{aligned}$$ <!--SR:!2025-12-14,358,343!2025-12-13,357,343-->
     - disjunction (or) ::@:: $p \lor q$: $$\begin{aligned} (0, 0) & \mapsto 0 \\ (1, 0) & \mapsto 1 \\ (0, 1) & \mapsto 1 \\ (1, 1) & \mapsto 1 \end{aligned}$$ <!--SR:!2025-09-10,281,330!2025-09-14,285,343-->
     - conjunction (and) ::@:: $p \land q$: $$\begin{aligned} (0, 0) & \mapsto 0 \\ (1, 0) & \mapsto 0 \\ (0, 1) & \mapsto 0 \\ (1, 1) & \mapsto 1 \end{aligned}$$ <!--SR:!2025-06-27,219,330!2025-10-04,301,343-->
@@ -205,6 +215,7 @@ The content is in teaching order.
 
 - datetime: 2024-09-16T18:00:00+08:00/2024-09-16T18:50:00+08:00
 - topic: more counting
+- assignments: [homework 1](assignments/homework%201/submission.md)
 - [permutation](../../../../general/permutation.md)
 - [combination](../../../../general/combination.md)
 - [questions/2024-09-16/tutorial](questions/2024-09-16%20tutorial.md)
@@ -212,7 +223,6 @@ The content is in teaching order.
 - materials
   - [lecture video](https://youtu.be/p0Lb0odJCfU)
   - Andreescu and Feng: solve problem 25 to problem 51
-- assignments: [homework 1](assignments/homework%201/submission.md)
 
 ## week 3 lecture 2
 
@@ -461,6 +471,7 @@ The content is in teaching order.
 
 - datetime: 2024-10-09T09:00:00+08:00/2024-10-09T10:20:00+08:00
 - topic: distance, shortest paths, matchings
+- assignments: [homework 2](assignments/homework%202/submission.md)
 - graph theory
   - graph theory / distance ::@:: The __distance__ between two vertices (repeats allowed) in a graph is the minimum number of edges in a path connecting the two vertices. <!--SR:!2025-03-01,109,389!2025-01-28,77,369-->
   - graph theory / eccentricity ::@:: The __eccentricity__ of a vertex in a graph is the maximum distance it can have with any vertex in the same graph. <!--SR:!2025-02-28,108,389!2025-01-14,65,349-->
@@ -490,7 +501,6 @@ The content is in teaching order.
   - [video: maximal and maximum matchings](https://youtu.be/bOJC93XxoFc)
   - [video: matchings and augmenting paths](https://youtu.be/IQZEURSSr30)
   - [video: incremental improvement – matching](https://youtu.be/8C_T4iTzPCU)
-- assignments: [homework 2](assignments/homework%202/submission.md)
 
 ## week 6 TA session
 
@@ -578,23 +588,51 @@ The content is in teaching order.
 - datetime: 2024-10-18T18:00:00+08:00/2024-10-18T21:00:00+08:00, PT3H
 - venue: Lecture Theater C
 - format: closed book
-- grades: TODO/30
+- grades: 15.5/30
   - statistics
-    - mean: TODO
-    - standard deviation: TODO
-    - low: TODO
-    - lower quartile: TODO
-    - median: TODO
-    - upper quartile: TODO
-    - high: TODO
-    - distribution: TODO
+    - note: The department told instructors to not release statistics.
+    - mean: ?
+    - standard deviation: ?
+    - low: ?
+    - lower quartile: ?
+    - median: ?
+    - upper quartile: ?
+    - high: ?
+    - distribution: ?
 - report
-  - TODO
+  - How to do Amir's examinations? ::@:: I had spent too much time on writing things that were later discarded. This led to extremely messy layout (not enough papers) and wasted time. <p> What I should have done instead is to think carefully and make use of pencils for drafting.
+  - time limit ::@:: It depends on if you have the insight... whatever that is. Very difficult...
 - check
   - note: You will receive a scanned copy of your examination. Send email to Amir to appeal.
 - materials
   - [lecture video](https://youtu.be/eLwNjIOM8QE)
-  - [midterm examination](https://canvas.ust.hk/courses/58174/modules/items/1444251)
+  - [midterm examination](attachments/midterm.pdf) (source: <https://canvas.ust.hk/courses/58174/modules/items/1444251>)
+
+> Total Score: 15.5/30
+>
+> Grader: Amir
+>
+> Problem 1: 10/10
+>
+> i) Correct - 2 points
+> ii and iii) Correct, but extremely hard to read due to both untidiness and a bad choice of pen. Please make sure this does not happen in the final. Otherwise, we will simply not grade the solution.
+>
+> Problem 2: 5.5/10
+>
+> i) Correct solution, but no closed-form - 1.5 points
+> ii and iii) Nice job - 4 points
+>
+> Problem 3: 0/10
+>
+> Not chosen
+>
+> Problem 4: 0/10
+>
+> Wrong answer
+>
+> Note: Your answer sheet was extremely hard to understand and grade. Please make sure this does not happen in the final. Otherwise, you will get a 0. The grader should not struggle with reading your solution.
+>
+> Please write an email to Amir if you would like to submit a reasonable appeal. Be patient after sending the email. There are hundreds of messages in the queue, mostly because people submit unreasonable appeals that get rejected!
 
 ## week 8 lecture
 
@@ -835,6 +873,7 @@ The content is in teaching order.
 
 - datetime: 2024-11-06T09:00:00+08:00/2024-11-06T10:20:00+08:00
 - topic: countability, Cantor's theorem, Tarski's theorem, Schröder–Bernstein theorem
+- assignments: [homework 3](assignments/homework%203/submission.md)
 - bijection & cardinality
 - injection & cardinality
 - image of a function
@@ -1038,6 +1077,7 @@ The content is in teaching order.
 
 - datetime: 2024-11-20T09:00:00+08:00/2024-11-20T10:20:00+08:00
 - topic: Markov chains
+- assignments: [homework 4](assignments/homework%204/submission.md)
 - [stochastic process](../../../../general/stochastic%20process.md) ::@:: A __stochastic process__ is defined as a sequence of random variables. <!--SR:!2025-01-05,26,414!2025-01-07,28,414-->
 - [Markov chain](../../../../general/Markov%20chain.md) ::@:: In probability theory and statistics, a __Markov chain__ or __Markov process__ is a [stochastic process](../../../../general/stochastic%20process.md) describing a [sequence](../../../../general/sequence.md) of possible events in which the [probability](../../../../general/probability.md) of each event depends only on the state attained in the previous event. Informally, this may be thought of as, "What happens next depends only on the state of affairs _now_." <!--SR:!2025-01-07,28,414!2025-01-05,26,414-->
   - Markov chain / graph ::@:: A Markov chain can be represented by a weighted directed graph. The weights are such that that are within $(0, 1]$, and the total weight of outgoing edges from any vertex is 1. <!--SR:!2025-01-06,27,414!2024-12-31,21,394-->
@@ -1073,7 +1113,7 @@ The content is in teaching order.
   - Nim / graph ::@:: Use a tuple of natural numbers to represent the current state of Nim. Then Nim can be represented by an directed acyclic graph (DAG). <p> We can analyze this by labelling all vertices without outgoing edges as a losing position (for the current player). Then label all vertices with at least one outgoing edge to a losing position winning positions. Label all vertices with all outgoing edges to winning positions losing positions. Repeat this until the entire graph is labeled. We can label the vertices in reverse topological order, since any DAG has a topological order (and vice versa). <!--SR:!2025-01-05,26,414!2024-12-24,14,374-->
   - Nim / XOR-sum ::@:: The XOR-sum may be used to calculate a winning strategy for Nim. <!--SR:!2025-01-06,27,414!2025-01-07,28,414-->
 - [impartial game](../../../../general/impartial%20game.md) ::@:: In [combinatorial game theory](../../../../general/combinatorial%20game%20theory.md), an __impartial game__ is a [game](../../../../general/mathematical%20game.md) in which the allowable moves depend only on the position and not on which of the two players is currently moving, and where the payoffs are symmetric. <!--SR:!2025-01-07,28,414!2025-01-06,27,414-->
-- [Nimber](../../../../general/Nimber.md) ::@:: In [mathematics](../../../../general/mathematics.md), the __nimbers__, also called __Grundy numbers__, are introduced in [combinatorial game theory](../../../../general/combinatorial%20game%20theory.md), where they are defined as the values of heaps in the game [Nim](../../../../general/Nim.md). The nimbers are the [ordinal numbers](../../../../general/ordinal%20number.md) endowed with _nimber addition_ and _nimber multiplication_, which are distinct from [ordinal addition](../../../../general/ordinal%20arithmetic.md#addition) and [ordinal multiplication](../../../../general/ordinal%20arithmetic.md#multiplication). <p> Because of the [Sprague–Grundy theorem](../../../../general/Sprague–Grundy%20theorem.md) which states that every [impartial game](../../../../general/impartial%20game.md) is equivalent to a Nim heap of a certain size, nimbers arise in a much larger class of impartial games. <!--SR:!2024-12-31,21,394!2024-12-31,21,394-->
+- [nimber](../../../../general/nimber.md) ::@:: In [mathematics](../../../../general/mathematics.md), the __nimbers__, also called __Grundy numbers__, are introduced in [combinatorial game theory](../../../../general/combinatorial%20game%20theory.md), where they are defined as the values of heaps in the game [Nim](../../../../general/Nim.md). The nimbers are the [ordinal numbers](../../../../general/ordinal%20number.md) endowed with _nimber addition_ and _nimber multiplication_, which are distinct from [ordinal addition](../../../../general/ordinal%20arithmetic.md#addition) and [ordinal multiplication](../../../../general/ordinal%20arithmetic.md#multiplication). <p> Because of the [Sprague–Grundy theorem](../../../../general/Sprague–Grundy%20theorem.md) which states that every [impartial game](../../../../general/impartial%20game.md) is equivalent to a Nim heap of a certain size, nimbers arise in a much larger class of impartial games. <!--SR:!2024-12-31,21,394!2024-12-31,21,394-->
   - [mex](../../../../general/mex%20(mathematics).md) ::@:: The __mex__ \("__m__inimum __ex__cluded value"\) of a [subset](../../../../general/subset.md) of a [well-ordered](../../../../general/well-order.md) set is the smallest value from the whole set that does not belong to the subset. That is, it is the [minimum](../../../../general/maximum%20and%20minimum.md) value of the [complement set](../../../../general/complement%20(set%20theory).md). <!--SR:!2025-01-06,27,414!2025-01-07,28,414-->
   - Nimber / graph ::@:: Use a natural number to represent the current state of Nim with 1 lump. The natural number used this way is known as a __Nimber__. Then Nim can be represented by an directed acyclic graph (DAG). <p> We can analyze this by labelling all vertices without outgoing edges as 0. Then label vertices with outgoing edges by the [mex](../../../../general/mex%20(mathematics).md) (not _max_) of the labels of the vertices the outgoing edges reach. Repeat this until the entire graph is labeled. We can label the vertices in reverse topological order, since any DAG has a topological order (and vice versa). If the label is 0, it is a losing position, and otherwise it is a winning position. <p> By the Sprague–Grundy theorem, a Nim with several lumps is equivalent to a single Nimber (and thus is equivalent to a Nim with 1 lump), which is given by the mex of the several Nimbers representing the several lumps. Indeed, if the mex gives 0, the current state of Nim with several lumps is a losing position, and otherwise it is a winning position. <!--SR:!2024-12-31,21,394!2025-01-05,26,414-->
 - [Sprague–Grundy theorem](../../../../general/Sprague–Grundy%20theorem.md) ::@:: In [combinatorial game theory](../../../../general/combinatorial%20game%20theory.md), the __Sprague–Grundy theorem__ states that every [impartial game](../../../../general/impartial%20game.md) under the [normal play convention](../../../../general/normal%20play%20convention.md) is equivalent to a one-heap game of [nim](../../../../general/Nim.md), or to an infinite generalization of nim. It can therefore be represented as a [natural number](../../../../general/natural%20number.md), the size of the heap in its equivalent game of nim, as an [ordinal number](../../../../general/ordinal%20number.md) in the infinite generalization, or alternatively as a [nimber](../../../../general/nimber.md), the value of that one-heap game in an algebraic system whose addition operation combines multiple heaps to form a single equivalent heap in nim. <!--SR:!2024-12-31,21,394!2024-12-31,21,394-->
@@ -1174,6 +1214,7 @@ The content is in teaching order.
 - format: closed book
 - grades: TODO/30
   - statistics
+    - note: The department told instructors to not release statistics.
     - mean: TODO
     - standard deviation: TODO
     - low: TODO
@@ -1189,3 +1230,5 @@ The content is in teaching order.
 - materials
   - lecture video: TODO
   - final examination: TODO
+
+## aftermath

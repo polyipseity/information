@@ -35,12 +35,47 @@ The content is in teaching order.
   - syllabus / descriptive statistics: descriptive statistics
   - syllabus / probability theory: introduction to probability theory → discrete random variable, discrete probability distribution → continuous random variable, continuous probability distribution
   - syllabus / inferential statistics: estimation of parameters: point estimation, interval estimation → hypothesis testing → simple linear regression → other topics: goodness of fit test, etc.
-- [assignments](assignments/)
 
 ## children
 
+- [assignments](assignments/)
 - [MATH 2411 final examination cheatsheet](MATH%202411%20final%20examination%20cheatsheet.pdf)
 - [MATH 2411 midterm examination cheatsheet](MATH%202411%20midterm%20examination%20cheatsheet.pdf)
+
+## assessments
+
+- [assignment 1](assignments/assignent%201/index.md): 20/20, graded
+  - statistics: L1
+    - mean: 15.09
+    - low: 0
+    - lower quartile: 11.25
+    - median: 14
+    - upper quartile: 20
+    - high: 20
+- [assignment 2](assignments/assignent%202/index.md): 20/20, graded
+  - statistics: L1
+    - mean: 17.37
+    - low: 0
+    - lower quartile: 17
+    - median: 20
+    - upper quartile: 20
+    - high: 20
+- [assignment 3](assignments/assignent%203/index.md): 20/20, graded
+  - statistics: L1
+    - mean: 16.94
+    - low: 0
+    - lower quartile: 16.25
+    - median: 19.5
+    - upper quartile: 20
+    - high: 20
+- [assignment 4](assignments/assignent%204/index.md): 20/20, graded
+  - statistics: L1
+    - mean: 16.79
+    - low: 0
+    - lower quartile: 16
+    - median: 20
+    - upper quartile: 20
+    - high: 20
 
 ## week 1 lecture
 
@@ -208,6 +243,7 @@ The content is in teaching order.
 ## week 3 lecture
 
 - datetime: 2024-09-16T10:30:00+08:00/2024-09-16T11:50:00+08:00
+- assignments: [assignment 1](assignments/assignent%201/index.md)
 - [probability axioms](../../../../general/probability%20axioms.md)
   - probability axioms / history ::@:: In 1933, a Russian mathematician named Andrei Nikolayevich Kolmogorov published the axiomatic structure of probability theory. <!--SR:!2025-01-18,68,341!2025-01-14,64,341-->
   - probability axioms / first axiom ::@:: The first axiom is __non-negativity__. The probability of any event in a sample space is nonnegative. <!--SR:!2025-02-07,88,361!2025-02-08,89,358-->
@@ -221,15 +257,6 @@ The content is in teaching order.
   - probability axioms / numeric bound ::@:: The probability of any event is in between 0 and 1, inclusive. The lower bound is the non-negativity axiom, while the upper bound can be proved using the normalization axiom, monotonicity theorem, with the larger set being the sample space. <!--SR:!2025-02-05,86,361!2025-02-09,90,361-->
   - probability axioms / complement rule ::@:: The probability of the complement of any event is one minus the probability of that event. Proof: $$P\left(A^\complement \right) = P(S - A) = P(S) - P(A) = 1 - P(A)$$ <!--SR:!2025-02-06,87,361!2025-02-05,86,361-->
   - probability axioms / additive law ::@:: The __additive law__ is: $$P(A \cup B) = P(A) + P(B) - P(A \cap B) \,.$$ When _A_ and _B_ are disjoint, then _P_(_A_ ∩ _B_) is 0 and the above degenerates into the finite additivity theorem. <p> The above is a special case of the [inclusion–exclusion principle](../../../../general/inclusion–exclusion%20principle.md), which can handle any countable number of events: $$\mathbb {P} \left(\bigcup _{i=1}^{n}A_{i}\right)=\sum _{k=1}^{n}\left((-1)^{k-1}\sum _{I\subseteq \{1,\ldots ,n\} \atop |I|=k}\mathbb {P} (A_{I})\right) \,.$$ <!--SR:!2025-02-11,92,361!2025-01-18,68,341-->
-- assignment
-  - [assignment 1](assignments/assignent%201/index.md): 20/20, graded
-    - statistics: L1
-      - mean: 15.09
-      - low: 0
-      - lower quartile: 11.25
-      - median: 14
-      - upper quartile: 20
-      - high: 20
 
 ## week 3 lecture 2
 
@@ -288,6 +315,7 @@ The content is in teaching order.
 ## week 5 lecture 2
 
 - datetime: 2024-10-02T10:30:00+08:00/2024-10-02T11:50:00+08:00
+- assignments: [assignment 2](assignments/assignent%202/index.md)
 - [random variable](../../../../general/random%20variable.md) (r.v.) ::@:: A __random variable__ (__r.v.__) is a mathematical function. Its _domain_ is the sample space. Its _range_ is a measurable space, usually a finite set of integers or the real numbers. The function need not be _injective_ (different samples need not map to different values). It is commonly denoted by capital letters, with its possible numerical values (also called __realizations__) by the same but lowercase letters. <p> A way to think about random variable is that it maps each outcome to a real number. <!--SR:!2025-02-04,85,358!2025-01-04,60,341-->
   - random variable / motivation ::@:: How do we describe random process more mathematically? Random variables can do so. <!--SR:!2025-02-09,90,361!2025-02-11,92,361-->
   - random variable / notations ::@:: Some notations for a random variable _X_ on the sample space _S_: $$\begin{aligned} \set{X = x} & = \set{s \in S \mid X(s) = x} \\ \set{X \le x} & = \set{s \in S \mid X(s) \le x} \\ P(X = x) & = P(\set{X = x}) \\ P(X \le x) & = P(\set{X \le x}) \end{aligned}$$ <!--SR:!2025-02-09,90,361!2025-02-08,89,361-->
@@ -306,15 +334,6 @@ The content is in teaching order.
 - [variance](../../../../general/variance.md) ::@:: __Variance__ is the expected value of the squared deviation from the mean of a random variable. It is often represented by $\sigma ^{2}$, $s^{2}$, $\operatorname {Var} (X)$, $V(X)$, or $\mathbb {V} (X)$. <!--SR:!2025-02-10,91,361!2025-02-08,89,361-->
   - variance / discrete random variable ::@:: The variance fo a discrete random variable is $$\operatorname{Var}(X) = \sum_{x \in \mathcal X} \left((x - \mu)^2 p(x) \right) \,.$$ This is only defined if the sum exists, so it is possible for a discrete random variable to have undefined variance. <!--SR:!2025-02-04,85,358!2025-02-06,87,358-->
   - variance / properties ::@:: A well-known identity relating variance to expected value is $$\operatorname{Var}(X) = \operatorname E\left[X^2\right] - (\operatorname E[X])^2 = \operatorname E\left[X^2\right] - \mu^2 \,.$$ With this identity, the following properties can be proved: $$\begin{aligned} \operatorname{Var}(b) = 0 \\ \operatorname{Var}(aX) & = a^2 \operatorname{Var}(X) \\ \operatorname{Var}(aX + b) & = a^2 \operatorname{Var}(X) \\ \operatorname{Var}(aX \pm bY) & = a^2 \operatorname{Var}(X) + b^2 \operatorname{Var}(Y) && \text{important, uses }\pm \,, \end{aligned}$$ where _a_, _b_ are constants and _X_, _Y_ are random variables _independent_ from each other, i.e. $$P(X \le x, Y \le y) = P(X \le x) P(Y \le y) \,.$$ <!--SR:!2025-01-17,67,341!2025-02-09,90,361-->
-- assignment
-  - [assignment 2](assignments/assignent%202/index.md): 20/20, graded
-    - statistics: L1
-      - mean: 17.37
-      - low: 0
-      - lower quartile: 17
-      - median: 20
-      - upper quartile: 20
-      - high: 20
 
 ## week 5 tutorial
 
@@ -436,12 +455,12 @@ The content is in teaching order.
 - [cheatsheet](MATH%202411%20midterm%20examination%20cheatsheet.pdf)
 - grades: 48/50
   - statistics: L1
-    - mean: 29.93
-    - low: 2
-    - lower quartile: 22
-    - median: 30
-    - upper quartile: 37
-    - high: 50
+    - mean: 29.93 → 29.96
+    - low: 2 → 2
+    - lower quartile: 22 → 22
+    - median: 30 → 30
+    - upper quartile: 37 → 37
+    - high: 50 → 50
   - statistics: L2
     - mean: 32.14
     - low: 8
@@ -455,6 +474,7 @@ The content is in teaching order.
   - Inputted $\binom {100} 1$ as 1 instead of 100 into the calculator when evaluating a binomial distribution...
     - $\binom {100} 1$ (-1) ::@:: It evaluates to 100, not 1. <!--SR:!2025-03-11,98,384!2025-03-13,100,384-->
   - Simplified $\frac 4 {b^2} \left(b\right)$ into $\frac 4 {b^3}$ instead of $\frac 4 b$... (-1)
+  - time limit ::@:: Time limit was really really tight. Only 10 minutes left for checking, even if you are familiar with the content.
 - check
   - datetime: 2024-10-29T10:00:00+08:00/2024-10-29T11:00:00+08:00, PT1H
   - venue: Room 3472 (Lift 25-26), Academic Building
@@ -493,7 +513,7 @@ The content is in teaching order.
   - confidence interval / definition ::@:: Wikipedia uses $$P(T_1 < \theta < T_2) \ge \gamma \,,$$, with equality replacing $\ge$ when the distribution is continuous. This course uses $$P(T_1 \le \theta \le T_2) \ge 1 - \alpha \,,$$ with equality replacing $\ge$ when the distribution is continuous. <!--SR:!2025-01-03,15,357!2025-01-16,26,377-->
   - confidence interval / construction ::@:: Simply find two statistics. <p> In practice, the two statistics are found _symmetrically_ (i.e. the confidence interval of a random sample has the same probability of lying on the left or right of and outside the actual population parameter), so that its precision is the highest (the interval is the smallest), given the underlying probability is unimodal and symmetric. <!--SR:!2025-01-14,24,377!2025-01-16,26,377-->
   - confidence interval / interpretations ::@:: It can be expressed in terms of a long-run frequency in _repeated samples_, probability with respect to _a single theoretical (yet to be realized) sample_, _statistical significance_, etc. <!--SR:!2025-01-16,26,377!2025-01-15,25,377-->
-    - confidence interval / interpretations / misinterpretations ::@:: It does not mean for a given realized interval, there is a $1 - \alpha$% probability that the population parameter lies within the interval. The frequentist interpretation says once an interval is calculated, this interval _either covers_ the parameter value _or it does not_; it is no longer a matter of probability. <p> Less common interpretations include $1 - \alpha$% of the sample data lie within the confidence interval; and $1 - \alpha$% probability of the parameter estimate from a _repeat_ of the experiment falling within the confidence interval computed from a given experiment. <!--SR:!2025-01-08,18,357!2025-01-08,18,357-->
+    - confidence interval / interpretations / misinterpretations ::@:: It does not mean for a given realized interval, there is a $1 - \alpha$% probability that the population parameter lies within the interval. The frequentist interpretation says once an interval is calculated, this interval _either covers_ the parameter value _or it does not_; it is no longer a matter of probability. <p> Less common misinterpretations include $1 - \alpha$% of the sample data lie within the confidence interval; and $1 - \alpha$% probability of the parameter estimate from a _repeat_ of the experiment falling within the confidence interval computed from a given experiment. <!--SR:!2025-01-08,18,357!2025-01-08,18,357-->
 - [chi-squared distribution](../../../../general/chi-squared%20distribution.md) ::@:: It with $k$ _degrees of freedom_ is the distribution of a sum of the _squares_ of $k$ _independent standard normal random variables_. It is denoted $\chi^2(k)$ (in this course) or $\chi_k^2$. <!--SR:!2025-01-08,18,357!2025-01-16,26,377-->
   - chi-squared distribution / probability density function (PDF) ::@:: (Probably no need to memorize this...) $$f(y) = \begin{cases} \frac 1 {2^{n / 2} \Gamma(n / 2) } y^{n / 2 - 1} e^{-y / 2} & \text{if }y > 0, \\ 0 & \text{otherwise} \end{cases}$$ <!--SR:!2024-12-30,11,337!2024-12-30,11,337-->
   - chi-squared distribution / shape ::@:: It looks like a right-skewed (left-leaning) hill. The higher the $k$, the lower the peak and the fatter the hill. Note that for $k = 1, 2$, the peak is at $x = 0$. <!--SR:!2025-01-16,26,377!2025-01-09,19,357-->
@@ -507,7 +527,7 @@ The content is in teaching order.
   - normal distribution / sample mean ::@:: For _n_ samples of a population $X \sim \mathcal N\left(\mu_X, \sigma_X^2\right)$, we have $$\begin{aligned} \overline X & \sim \mathcal N\left(\mu_X, \sigma_X^2 / n\right) \\ (\overline X - \mu_X)\sqrt{n / \sigma_X^2} & \sim \mathcal N(0, 1) \,. \end{aligned}$$ <!--SR:!2025-01-15,25,377!2025-01-03,15,357-->
 - [Cochran's theorem](../../../../general/Cochran's%20theorem.md)
   - Cochran's theorem / special case ::@:: For _n_ samples of a population $X \sim \mathcal N\left(\mu_X, \sigma_X^2\right)$ and its _corresponding_ normalized population $Z \sim \mathcal N(0, 1)$, $\overline X$ and $S_{X, n - 1}^2$ (or $S_{X, n}^2$) are _independent_. Further, we have $$\begin{aligned} \sum_{i = 1}^n (Z_i - \overline Z)^2 & \sim \chi^2(n - 1) \\ \sum_{i = 1}^n \left(\frac {X_i - \overline X} {\sigma_X} \right)^2 = \frac {(n - 1) S_{X, n - 1}^2 } {\sigma_X^2} & \sim \chi^2(n - 1) \,. \end{aligned}$$ (For the second line, $n S_{X, n}^2 = (n - 1) S_{X, n - 1}^2$ would also work.) <!--SR:!2025-01-14,24,377!2024-12-30,11,337-->
-    - Cochran's theorem / special case / intuition ::@:: The SSE of a sample of a normal population, given the _population mean_ is known, has _n_ degrees of freedom. But only the sample mean is known, which has 1 degree of freedom. So if we compute the SSE of a sample using the _sample mean_ instead of the _population mean_, it has $n - 1$ degrees of freedom. <!--SR:!2025-01-15,25,377!2025-01-16,26,377-->
+    - Cochran's theorem / special case / intuition ::@:: The squared deviations from the mean (SDM) of a sample of a normal population, given the _population mean_ is known, has _n_ degrees of freedom. But only the sample mean is known, which has 1 degree of freedom. So if we compute the SDM of a sample using the _sample mean_ instead of the _population mean_, it has $n - 1$ degrees of freedom.F <!--SR:!2025-01-15,25,377!2025-01-16,26,377-->
       - Cochran's theorem / special case / intuition / execution ::@:: For example: Consider $$U_{n - 1} := \frac {(n - 1) S_{X, n - 1}^2 } {\sigma_X^2} \sim \chi^2(n - 1) \,.$$ Wrapping it in $\sqrt{n - 1 / U_{n - 1} }$, we get: $$\sqrt{\sigma_X^2 / S_{X, n - 1}^2} \,,$$ which can be used to replace $\sigma_X^2$ in $(\overline X - \mu_X) \sqrt{n / \sigma_X^2} \sim \mathcal N(0, 1)$ to $(\overline X - \mu_X) \sqrt{n / S_{X, n - 1}^2} \sim t(n - 1)$. <p> Another example: Consider $$U_{n - 2} := \frac {(n - 2) s_{\varepsilon, n - 2}^2 } {\sigma_\varepsilon^2} \sim \chi^2(n - 2) \,.$$ Wrapping it in $\sqrt{n - 2 / U_{n - 2} }$, we get: $$\sqrt{\sigma_\varepsilon^2 / S_{\varepsilon, n - 2}^2 } \,,$$ which can be used to replace $\sigma_\varepsilon^2$ in $(\hat \beta_1 - \beta_1) \sqrt{S_{XX} / \sigma_\varepsilon^2} \sim \mathcal N(0, 1)$ to $(\hat \beta_1 - \beta_1) \sqrt{S_{XX} / S_{\varepsilon, n - 2}^2} \sim t(n - 2)$. <!--SR:!2025-01-03,15,357!2025-01-08,18,357-->
   - Cochran's theorem / corollary ::@:: For _n_ samples of a population $X \sim \mathcal N\left(\mu_X, \sigma_X^2\right)$ and its _corresponding_ normalized population $Z \sim \mathcal N(0, 1)$, we have $$\begin{aligned} \overline Z \sqrt {n / S_{Z, n - 1}^2} & \sim t(n - 1) \\ (\overline X - \mu_X) \sqrt{n / S_{X, n - 1}^2} & \sim t(n - 1) \,. \end{aligned}$$ (Notice how similar this is to $(\overline X - \mu_X) \sqrt{n / \sigma_X^2} \sim \mathcal N(0, 1)$...) <!--SR:!2024-12-30,11,337!2025-01-15,25,377-->
 
@@ -530,6 +550,7 @@ The content is in teaching order.
 ## week 9 lecture 2
 
 - datetime: 2024-10-30T10:30:00+08:00/2024-10-30T11:50:00+08:00
+- assignments: [assignment 3](assignments/assignent%203/index.md)
 - [confidence interval](../../../../general/confidence%20interval.md)
   - confidence interval / normal distribution ::@:: We will only consider the confidence intervals when $X$ follows a normal distribution. <!--SR:!2025-01-16,26,377!2025-01-15,25,377-->
     - confidence interval / normal distribution / for variance with known mean ::@:: Assume $X \sim \mathcal N\left(\mu_X, \sigma_X^2\right)$. We use $$\begin{aligned} \sum_{i = 1}^n \left(\frac {X_i - \mu_X} {\sigma_X} \right)^2 & \sim \chi^2(n) \,. \end{aligned}$$ Then we have $$\begin{aligned} \Pr\left(\chi^2_{n, 1 - \alpha / 2} \le \sum_{i = 1}^n \left(\frac {X_i - \mu_X} {\sigma_X} \right)^2 \le \chi^2_{n, \alpha / 2} \right) & \ge 1 - \alpha \\ \Pr\left(\frac {\sum_{i = 1}^n (X_i - \mu_X)^2} {\chi^2_{n, \alpha / 2} } \le \sigma_X^2 \le \frac {\sum_{i = 1}^n (X_i - \mu_X)^2} {\chi^2_{n, 1 - \alpha / 2} } \right) & \ge 1 - \alpha \,, \end{aligned}$$ where $\chi^2_{n, \alpha}$ is $P\left(Y > \chi^2_{n, \alpha}\right) = \alpha \quad Y \sim \chi^2(n)$. (Remember, $\chi^2_{n, \alpha}$ is _not_ symmetric.) <!--SR:!2024-12-30,11,337!2024-12-30,11,337-->
@@ -594,6 +615,7 @@ The content is in teaching order.
 ## week 11 lecture 2
 
 - datetime: 2024-11-13T10:30:00+08:00/2024-11-13T11:50:00+08:00
+- assignments: [assignment 4](assignments/assignent%204/index.md)
 - [statistical hypothesis test](../../../../general/statistical%20hypothesis%20test.md)
   - statistical hypothesis test / normal distribution
     - statistical hypothesis test / normal distribution / for variance when mean is known ::@:: Assume $X \sim \mathcal N\left(\mu_X, \sigma_0^2\right)$. We use $$U_n := \sum_{i = 1}^n \left(\frac {X_i - \mu_X} {\sigma_0} \right)^2 \sim \mathcal \chi^2(n) \,.$$ Then we have $$\begin{aligned} p_l & = \Pr\left(U_n < \frac {\sum_{i = 1}^n (x_i - \mu_X)^2} {\sigma_0^2} \right) && \text{one-sided left} \\ p_r & = \Pr\left(U_n > \frac {\sum_{i = 1}^n (x_i - \mu_X)^2} {\sigma_0^2} \right) && \text{one-sided right} \\ p_{lr} & = 2 \min \set{p_l, p_r} && \text{one-sided two-sided} \,. \end{aligned}$$ <p> If using critical value, compare $\frac {\sum_{i = 1}^n (x_i - \mu_X)^2} {\sigma_0^2}$ against $\chi^2_{n, \alpha}$, $\chi^2_{n, 1 - \alpha}$, $\chi^2_{n, \alpha / 2}$, or $\chi^2_{n, 1 - \alpha / 2}$ (note: not symmetric); and $p := \alpha$. If using _p_-value, $p$ is the _p_-value. Note that when using _p_-value, $p_l + p_r = 1$. <!--SR:!2025-01-08,18,357!2024-12-30,11,337-->
@@ -694,18 +716,29 @@ The content is in teaching order.
 - venue: S H Ho Sports Hall
 - format: closed book, calculator, 2 sides of a A4-sized cheatsheet
   - [cheatsheet](MATH%202411%20final%20examination%20cheatsheet.pdf)
-- grades: TODO/100
-  - statistics
-    - mean: TODO
-    - standard deviation: TODO
-    - low: TODO
-    - lower quartile: TODO
-    - median: TODO
-    - upper quartile: TODO
-    - high: TODO
-    - distribution: TODO
+- grades: 100/100 → 100/100
+  - statistics: L1
+    - mean: 56.6 → 56.9
+    - standard deviation: ? → ?
+    - low: 2 → 2
+    - lower quartile: 36 → 36.5
+    - median: 62 → 62
+    - upper quartile: 75 → 78
+    - high: 100 → 100
+    - distribution: ? → ?
+  - statistics: L2
+    - mean: 63.3
+    - standard deviation: ? → ?
+    - low: 13
+    - lower quartile: 47
+    - median: 68.5
+    - upper quartile: 82
+    - high: 99
+    - distribution: ? → ?
 - report
-  - TODO
+  - Is a report necessary in this case...?
+  - time limit ::@:: The time limit was enough to finish all questions and check them for 20 minutes. This, of course, assumes you are very familiar with the methods used.
+  - moment-generating function (0) ::@:: Remember to always check the domain of the expression you have gotten. If the domain is missing for some numbers, you may be able to evaluate $\operatorname E\left[e^{tX}\right]$ with $t$ set to the missing numbers to fill in the domain. For example, you may finally get $$\begin{cases} \frac {e^{5t} - e^{2t} } {3t}, & t \ne 0 \\ 1, & t = 0 \,. \end{cases}$$ <!-- <p> (The instructor said only I had gotten it correct...) -->
 - check
   - datetime: 2024-12-20T14:30:00+08:00/2024-12-20T16:00:00+08:00, PT1H30M
   - venue: Room 1410 (Lift 25-26), Academic Building

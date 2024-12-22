@@ -48,7 +48,7 @@ This article uses {@{the term _inversion vector_ \($v$\) like [Wolfram](Wolfram%
 
 > {@{![Rothe diagram of \(2, 5, 4, 6, 3, 1\)](../archives/Wikimedia%20Commons/Inversion%20example;%20Rothe%201.svg)}@}
 >
-> {@{Rothe diagram of \(2, 5, 4, 6, 3, 1\)}@} (Annotation: Try to figure out {@{how one constructs the above Rothe diagram from the given sequence}@}.) <!--SR:!2025-02-04,49,292!2025-02-14,62,312!2025-01-27,48,292-->
+> {@{Rothe diagram of \(2, 5, 4, 6, 3, 1\)}@} (annotation: Try to figure out {@{how one constructs the above Rothe diagram from the given sequence}@}.) <!--SR:!2025-02-04,49,292!2025-02-14,62,312!2025-01-27,48,292-->
 
 __Inversion vector $v$:__ ::@:: With the _element-based_ definition $v(i)$ is the number of inversions whose _smaller_ \(right\) component is $i$.<sup>[\[3\]](#^ref-3)</sup> <!--SR:!2025-01-14,34,272!2025-01-14,34,272-->
 

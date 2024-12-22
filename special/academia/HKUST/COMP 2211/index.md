@@ -471,7 +471,7 @@ ID: 23456789
   - [NumPy § `numpy.transpose`](../../../NumPy/API%20reference/generated/numpy.transpose.md) ::@:: `numpy.transpose(a, axes=None)` <p> A view is returned if possible; otherwise, a copy is returned. `np.transpose` is also available as an array instance method, which _additionally_ allows passing a `tuple` of `axes` as separate arguments. <p> If `axes` is specified, it must be a `tuple` or `list` which contains a permutation of [0, 1, ..., N-1] where N is the number of axes of `a`. The i-th axis of the returned array will correspond to the axis numbered `axes[i]` of the input. If not specified (`axes is None`), defaults to `range(a.ndim)[::-1]`, which reverses the order of the axes. This implies `transpose(a).shape == a.shape[::-1]`. <!--SR:!2025-01-16,59,312!2025-02-24,75,272-->
   - [NumPy § `numpy.reshape`](../../../NumPy/API%20reference/generated/numpy.reshape.md) ::@:: `numpy.reshape(a, /, shape=None)` <p> A view is returned if possible; otherwise, a copy is returned. It is also available as an array instance method, which _additionally_ allows passing a `tuple` of `shape` as separate arguments. (Note that in this course, we are using the old version of NumPy, which has the parameter `newshape` instead of `shape`.) <p> The new `shape` should be compatible with the original shape. If an integer, then the result will be a 1-D array of that length. One shape dimension can be -1. In this case, the value is inferred from the length of the array and remaining dimensions. <!--SR:!2025-02-03,74,330!2025-01-03,45,310-->
   - [NumPy § `numpy.newaxis`](../../../NumPy/API%20reference/constants.md#numpy.newaxis), `None` ::@:: A convenient alias for `None`, useful for indexing arrays: `numpy.newaxis is None`. Note that this is considered _simple indexing_, and as thus returns a view if there are no other _advanced indices_. <p> Each `numpy.newaxis` object in the selection tuple serves to expand the dimensions of the resulting selection by one unit-length dimension. The added dimension is the position of the `numpy.newaxis` object in the selection tuple. <!--SR:!2025-01-15,58,312!2025-01-11,54,310-->
-  - [NumPy § `numpy.expand_dims`](../../../NumPy/API%20reference/generated/numpy.expand_dims.md) ::@:: `numpy.expand_dims(a, axis)` <p> A view is returned. `np.expand_dims` is also available as an array instance method, which _additionally_ allows passing a `tuple` of `axis` as separate arguments. <p> `axis` is an `int` or a `tuple` of `int`s specifying the position in the expanded axes where the new axis (or axes) is placed. (Annotation: The new axis is inserted after the specified position, similar to `list.insert`.) <!--SR:!2024-12-29,41,292!2025-02-02,73,330-->
+  - [NumPy § `numpy.expand_dims`](../../../NumPy/API%20reference/generated/numpy.expand_dims.md) ::@:: `numpy.expand_dims(a, axis)` <p> A view is returned. `np.expand_dims` is also available as an array instance method, which _additionally_ allows passing a `tuple` of `axis` as separate arguments. <p> `axis` is an `int` or a `tuple` of `int`s specifying the position in the expanded axes where the new axis (or axes) is placed. (annotation: The new axis is inserted after the specified position, similar to `list.insert`.) <!--SR:!2024-12-29,41,292!2025-02-02,73,330-->
 
 ## week 3 lecture
 
@@ -822,6 +822,7 @@ ID: 23456789
   - When applying machine learning on large data sets, it is good practice to test which algorithms work best on a small subset of the data before running the best model on the whole data set, since the same algorithms that work best on small data sets almost always also work best on big sets of the same data. True or false? (-1) ::@:: False. Carefully read "... before running the best model on the whole data set". <!--SR:!2025-03-14,93,366!2025-03-14,93,366-->
   - calculating recall (-4.2) ::@:: Do not calculate recall wrongly. Also, prioritize checking cascading questions (questions that depend on the answer of previous questions). <!--SR:!2025-03-12,91,366!2025-03-13,92,366-->
   - identity of models (-1) ::@:: Two models are considered different if their parameters (but not hyperparameters) are the same. For example, two _k_-NN model on the same training data but with different _k_ are considered the same model. However, if the hyperparameters also affect the parameters, e.g. training hyperparameters, then in said cases, different hyperparameters usually implies different parameters. <!--SR:!2025-03-02,82,366!2025-02-18,69,346-->
+  - time limit ::@:: It was sufficient to finish all questions and check some questions thoroughly.
 - check
   - datetime: 2024-11-07T19:30:00+08:00/2024-11-07T21:00:00+08:00, PT1H30M
   - venue: Lecture Theater B
@@ -1201,21 +1202,34 @@ ID: 23456789
   - Topic 10: Minimax and Alpha-Beta Pruning
   - Topic 11: Ethics of Artificial Intelligence
 - format: closed book, calculator, no cheatsheet
-- grades: TODO/100
+- grades: 89/100 → 91.5/100
   - statistics
-    - mean: TODO
-    - standard deviation: TODO
-    - low: TODO
-    - lower quartile: TODO
-    - median: TODO
-    - upper quartile: TODO
-    - high: TODO
-    - distribution: TODO
+    - mean: 68.06 (provided: 69.17) → 68.28
+    - standard deviation: ? (provided: 15.42) → ?
+    - low: 0 → 0
+    - lower quartile: 60.71 → 60.75
+    - median: 72 (provided: 72.28) → 72
+    - upper quartile: 80.88 → 81.13
+    - high: 94.4 (provided: 94.4) → 94.4
+    - distribution: ![final examination distribution](attachments/comp2211-fall-2024-final-distribution.png)
 - report
-  - TODO
+  - perceptron and multilayer perceptron
+    - dropout, active neurons (-1) ::@:: The Keras (TensorFlow) implementation of dropout is random instead of being proportion-based. So it is theoretically possible for all neurons to be unchanged by dropout of 0.5.
+    - forward propagation, prediction (-2) ::@:: Forward propagation takes more memory than prediction because intermediate values needs to be stored for backward propagation later.
+  - DIP, CNN and K-means clustering
+    - VGGNet or ResNet for feature extraction (-1.5) ::@:: Since the question is only asking for feature extraction, I thought ResNet also being capable of performing classification means it is not appropriate. But both VGGNet and ResNet are only backbone models, and do not specify the tasks to be done. <p> For reference: <p> ResNet utilizes "skip connections", which allow the model to bypass certain layers during training. This helps prevent issues like vanishing gradients, making it easier to train deeper networks. As a result, ResNet can learn more complex features from images compared to shallower models. <p> By using a pre-trained ResNet model, we can leverage the knowledge it has gained from being trained on a large dataset (like ImageNet). This means it can recognize general features (e.g., edges, textures) that are useful across many different types of images, which enhances our model's ability to classify new images accurately.
+  - minimax and alpha–beta pruning
+    - alpha–beta pruning (-1) ::@:: I did not check carefully on each exploration of a new branch.
+  - AI ethics
+    - de-biasing data by removing sensitive features (-2) ::@:: This does not work because the sensitive features are correlated with many other non-sensitive features still in the dataset.
+    - ways to identify and resolve model biases (-1) ::@:: I need to write 2 answers. However, I have crossed out one that I had found unsatisfactory but have not added back a new one. Maybe time issue?
+  - time limit ::@:: It was sufficient to finish all questions and check some questions thoroughly.
 - check
   - datetime: 2024-12-18T11:00:00+08:00/2024-12-18T12:30:00+08:00, PT1H30M
   - venue: Lecture Theater D
+  - changes
+    - advanced Python programming: +2 (TA was mistaken)
+    - convolution neural network: +0.5 (padding)
 
 > Dear all,
 >
