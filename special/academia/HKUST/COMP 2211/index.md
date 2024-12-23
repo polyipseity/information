@@ -822,7 +822,7 @@ ID: 23456789
   - When applying machine learning on large data sets, it is good practice to test which algorithms work best on a small subset of the data before running the best model on the whole data set, since the same algorithms that work best on small data sets almost always also work best on big sets of the same data. True or false? (-1) ::@:: False. Carefully read "... before running the best model on the whole data set".
   - calculating recall (-4.2) ::@:: Do not calculate recall wrongly. Also, prioritize checking cascading questions (questions that depend on the answer of previous questions).
   - identity of models (-1) ::@:: Two models are considered different if their parameters (but not hyperparameters) are the same. For example, two _k_-NN model on the same training data but with different _k_ are considered the same model. However, if the hyperparameters also affect the parameters, e.g. training hyperparameters, then in said cases, different hyperparameters usually implies different parameters.
-  - time limit ::@:: It was sufficient to finish all questions and check some questions thoroughly.
+  - time limit ::@:: It was sufficient to finish all questions (about 40 minutes left) and check some questions thoroughly.
 - check
   - datetime: 2024-11-07T19:30:00+08:00/2024-11-07T21:00:00+08:00, PT1H30M
   - venue: Lecture Theater B
@@ -1202,6 +1202,7 @@ ID: 23456789
   - Topic 10: Minimax and Alpha-Beta Pruning
   - Topic 11: Ethics of Artificial Intelligence
 - format: closed book, calculator, no cheatsheet
+- note: An error with one of the questions was found during the exam. As a result, 5 extra minutes were added.
 - grades: 89/100 → 91.5/100
   - statistics
     - mean: 68.06 (provided: 69.17) → 68.28
@@ -1223,7 +1224,7 @@ ID: 23456789
   - AI ethics
     - de-biasing data by removing sensitive features (-2) ::@:: This does not work because the sensitive features are correlated with many other non-sensitive features still in the dataset.
     - ways to identify and resolve model biases (-1) ::@:: I need to write 2 answers. However, I have crossed out one that I had found unsatisfactory but have not added back a new one. Maybe time issue?
-  - time limit ::@:: It was sufficient to finish all questions and check some questions thoroughly.
+  - time limit ::@:: It was sufficient to finish all questions (about 30 minutes left) and check some questions thoroughly.
 - check
   - datetime: 2024-12-18T11:00:00+08:00/2024-12-18T12:30:00+08:00, PT1H30M
   - venue: Lecture Theater D
