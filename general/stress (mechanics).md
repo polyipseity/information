@@ -1,0 +1,1 @@
+eng/stress (mechanics).md
