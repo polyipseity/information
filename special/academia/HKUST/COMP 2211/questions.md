@@ -72,7 +72,7 @@ tags:
 > 4. Content mining
 >
 > - solution: {@{4}@}
-> - explanation: {@{Too simple to code it...}@} <!--SR:!2024-12-16,4,270!2024-12-16,4,270-->
+> - explanation: {@{Too simple, simply hard code it...}@} <!--SR:!2024-12-16,4,270!2024-12-16,4,270-->
 
 <!-- markdownlint MD028 -->
 
@@ -582,10 +582,10 @@ tags:
 
 <!-- markdownlint MD028 -->
 
-> Q8. (simple) True or false. There are $n$ different beliefs $B_1, B_2, \cdots, B_n$. If the pieces of evidence are independent, then the following formula gives us the probability of belief $B$ given the evidence. $$P(B|E_1 \cap \cdots \cap E_n) = P(B) P(E_1|B) P(E_2|B) \cdots P(E_n|B)$$
+> Q8. (simple) True or false. There are $n$ different beliefs $B_1, B_2, \cdots, B_n$. If the pieces of evidence are independent, then the following formula gives us the probability of belief $B$ given the evidence. $$P(B|E_1 \cap \cdots \cap E_n) \overset ? = P(B) P(E_1|B) P(E_2|B) \cdots P(E_n|B)$$
 >
 > - solution: {@{false}@}
-> - explanation: {@{The denominator, which is the probability of the evidence $P(E_1 \cap \cdots \cap E_n)$, has been removed to derive the right hand side of the above equation (but the left hand side is not updated).}@} <!--SR:!2024-12-16,4,270!2024-12-16,4,270-->
+> - explanation: {@{The denominator, which is the probability of the evidence $P(E_1 \cap \cdots \cap E_n)$, has been removed to derive the right hand side of the above equation (but the left hand side is not updated). So the above equation does not hold (i.e. the left hand side does not equal the right hand side).}@} <!--SR:!2024-12-16,4,270!2024-12-16,4,270-->
 
 <!-- markdownlint MD028 -->
 
@@ -1202,7 +1202,7 @@ tags:
 
 > Q8. (medium) Describe the effect of gamma correction on an image with $\gamma < 1$.
 >
-> Note: Without context, $\gamma$ as described above is most likely the _decoding value_, but we are doing _encoding_.
+> Note: Without context, $\gamma$ as described above is most likely the _decoding value_, but we are doing _encoding_. One could argue this is confusing, but this is the current convention (unfortunately).
 >
 > - solution: {@{The image becomes darker.}@} <!--SR:!2024-12-16,4,270-->
 
@@ -1370,7 +1370,7 @@ tags:
 
 <!-- markdownlint MD028 -->
 
-> Q3. (simple) Which of the following is NOT one of the 5 fundamental principles of AI as mentioned in the lectures??
+> Q3. (simple) Which of the following is NOT one of the 5 fundamental principles of AI as mentioned in the lectures?
 >
 > 1. Autonomy
 > 2. Justice
@@ -1419,7 +1419,7 @@ tags:
 > 5. Rewards
 > 6. Policy
 >
-> - solution: {@{1. <br/> 2. <br/> 3. <br/> 4. <br/> 5. <br/> 6.}@} <!--SR:!2024-12-13,1,230-->
+> - solution: {@{1. the monkey <br/> 2. circus/training room <br/> 3. what the monkey observes <br/> 4. tricks performable by the monkey <br/> 5. food <br/> 6. a way to perform tricks as to get the most food (which, to the trainer, means a way to perform tricks elegantly)}@} <!--SR:!2024-12-13,1,230-->
 
 <!-- markdownlint MD028 -->
 
@@ -1548,6 +1548,8 @@ tags:
 > - the probability function $P(\cdots)$
 > - the states $S_0, S_1, S_2, S_3, S_4$
 > - $X_{t - 1}$ and $X_t$
+>
+> <!-- list separator -->
 >
 > - solution: {@{$a_{21} = P(X_t = S_1 \mid X_{t - 1} = S_2)$}@}
 > - explanation: {@{Usually, the _transition probability matrix_ is encoded as a _right/row stochastic matrix_, where each row adds up to 1. It is so called "right" because the probability distribution at the next step is computed by $\mathbf S_t = \mathbf S_{t - 1} \mathbf M$. <p> Another, but less common, way to encode it is as a _left/column stochastic matrix_, where each column adds up to 1. The next step probability distribution is computed by $\mathbf S_t =  \mathbf M \mathbf S_{t - 1}$. <p> Note: You should see in _value iteration_, we put the _right/row_ stochastic matrix $\mathbf M$ on the _left_ of the value vector $\mathbf V$ instead: $\mathbf M \mathbf V$. But this is because in value iteration, we are propagation the rewards _backwards_ instead of _forward_.}@} <!--SR:!2024-12-16,4,270!2024-12-16,4,270-->
