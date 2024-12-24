@@ -1224,7 +1224,7 @@ ID: 23456789
   - AI ethics
     - de-biasing data by removing sensitive features (-2) ::@:: This does not work because the sensitive features are correlated with many other non-sensitive features still in the dataset. <!--SR:!2024-12-27,5,359!2024-12-27,5,359-->
     - ways to identify and resolve model biases (-1) ::@:: I need to write 2 answers. However, I have crossed out one that I had found unsatisfactory but have not added back a new one. Maybe time issue? <!--SR:!2024-12-27,5,359!2024-12-27,5,359-->
-  - time limit ::@:: It was sufficient to finish all questions (about 30 minutes left) and check some questions thoroughly.
+  - time limit ::@:: It was sufficient to finish all questions (about 30 minutes left) and check some questions thoroughly. <!--SR:!2024-12-17,5,360!2024-12-17,5,360-->
 - check
   - datetime: 2024-12-18T11:00:00+08:00/2024-12-18T12:30:00+08:00, PT1H30M
   - venue: Lecture Theater D
