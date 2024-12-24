@@ -19,10 +19,10 @@ There are {@{many equivalent characterizations of uncountability}@}. A set _X_ i
 
 - function ::@:: There is no [injective function](injective%20function.md) \(hence no [bijection](bijection.md)\) from _X_ to the set of natural numbers.
 - sequence, function ::@:: _X_ is nonempty and for every ω-[sequence](sequence.md) of elements of _X_, there exists at least one element of X not included in it. That is, _X_ is nonempty and there is no [surjective function](surjective%20function.md) from the natural numbers to _X_.
-- cardinality ::@:: The [cardinality](cardinality.md) of _X_ is neither finite nor equal to $\aleph _{0}$ \([aleph-null](aleph%20number.md)\).
-- cardinality with choice ::@:: The set _X_ has cardinality strictly greater than $\aleph _{0}$.
+- cardinality using not equal to ::@:: The [cardinality](cardinality.md) of _X_ is neither finite nor equal to $\aleph _{0}$ \([aleph-null](aleph%20number.md)\).
+- cardinality using greater than ::@:: The set _X_ has cardinality strictly greater than $\aleph _{0}$.
 
-{@{The first three of these characterizations}@} can be {@{proven equivalent in [Zermelo–Fraenkel set theory](Zermelo–Fraenkel%20set%20theory.md) without the [axiom of choice](axiom%20of%20choice.md)}@}, but {@{the equivalence of the third and fourth cannot be proved without additional choice principles}@}.
+{@{The first three of these characterizations (annotation: function; sequence, function; cardinality using not equal to)}@} can be {@{proven equivalent in [Zermelo–Fraenkel set theory](Zermelo–Fraenkel%20set%20theory.md) without the [axiom of choice](axiom%20of%20choice.md)}@}, but {@{the equivalence of the third and fourth (annotation: cardinality using greater than) cannot be proved without additional choice principles}@}.
 
 ## properties
 
@@ -44,9 +44,9 @@ A more abstract example of an uncountable set is {@{the set of all countable [or
 
 {@{Without the [axiom of choice](axiom%20of%20choice.md)}@}, there {@{might exist cardinalities [incomparable](comparability.md) to $\aleph _{0}$}@} \(namely, {@{the cardinalities of [Dedekind-finite](Dedekind-infinite%20set.md) infinite sets}@}\). Sets of these cardinalities satisfy {@{the first three characterizations above, but not the fourth characterization}@}. Since {@{these sets are not larger than the natural numbers in the sense of cardinality}@}, some may not want to {@{call them uncountable}@}.
 
-If {@{the axiom of choice holds}@}, the following conditions on {@{a cardinal $\kappa$ are equivalent}@}:
+If {@{the axiom of choice holds}@}, the following conditions on {@{a cardinal $\kappa$ are equivalent (annotation: the conditions compare with $\aleph_0$ or $\alpha_1$)}@}:
 
-- not less than or equal to ::@:: $$\kappa \nleq \aleph _{0};$$
+- not less than or equal to ::@:: $\kappa \nleq \aleph _{0};$
 - greater than ::@:: $\kappa >\aleph _{0};$ and
 - greater than or equal to $\kappa \geq \aleph _{1}$, where $\aleph _{1}=|\omega _{1}|$ and $\omega _{1}$ is the least [initial ordinal](von%20Neumann%20cardinal%20assignment.md#initial%20ordinal%20of%20a%20cardinal) greater than $\omega .$
 

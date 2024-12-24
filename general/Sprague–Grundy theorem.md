@@ -109,7 +109,7 @@ As {@{an intermediate step to proving the main theorem}@}, we show that {@{for e
 
 Suppose that {@{$G+H$ is a ${\mathcal {P} }$-position}@}. Then {@{the previous player has a winning strategy for $A+G+H$}@}: respond to {@{moves in $A$ according to their winning strategy for $A$ \(which exists by virtue of $A$ being a ${\mathcal {P} }$-position\)}@}, and respond to {@{moves in $G+H$ according to their winning strategy for $G+H$ \(which exists for the analogous reason\)}@}. So {@{$A+G+H$ must also be a ${\mathcal {P} }$-position}@}.
 
-On the other hand, if {@{$G+H$ is an ${\mathcal {N} }$-position}@}, then {@{$A+G+H$ is also an ${\mathcal {N} }$-position}@}, because {@{the next player has a winning strategy}@}: choose {@{a ${\mathcal {P} }$-position from among the $G+H$ options}@}, and we conclude {@{from the previous paragraph that adding $A$ to that position is still a ${\mathcal {P} }$-position}@}. Thus, {@{in this case, $A+G+H$ must be a ${\mathcal {N} }$-position, just like $G+H$}@}.
+On the other hand, if {@{$G+H$ is an ${\mathcal {N} }$-position}@}, then {@{$A+G+H$ is also an ${\mathcal {N} }$-position}@}, because {@{the next player has a winning strategy}@}: choose {@{a ${\mathcal {P} }$-position from among the $G+H$ options}@}, and we conclude {@{from the previous paragraph that adding $A$ to that position is still a ${\mathcal {P} }$-position (annotation: and in this context, the previous player refers to the next player before choosing a $\mathcal P$-position from $G + H$)}@}. Thus, {@{in this case, $A+G+H$ must be a ${\mathcal {N} }$-position, just like $G+H$}@}.
 
 As {@{these are the only two cases}@}, {@{the lemma holds}@}.
 
