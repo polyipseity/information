@@ -76,7 +76,7 @@ If {@{neither _A_ has a maximum, nor _B_ has a minimum}@}, {@{the cut is called 
 
 ### surreal numbers
 
-{@{A construction resembling Dedekind cuts}@} is used for {@{\(one among many possible\) constructions of [surreal numbers](surreal%20number.md)}@}. The relevant notion in this case is {@{a Cuesta-Dutari cut}@},<sup>[\[7\]](#^ref-7)</sup> named after {@{the Spanish mathematician [Norberto Cuesta Dutari](Norberto%20Cuesta%20Dutari.md) \[[es](../../spa/Norberto%20Cuesta%20Dutari.md)\]}@}.
+{@{A construction resembling Dedekind cuts}@} is used for {@{\(one among many possible\) constructions of [surreal numbers](surreal%20number.md)}@}. The relevant notion in this case is {@{a Cuesta-Dutari cut}@},<sup>[\[7\]](#^ref-7)</sup> named after {@{the Spanish mathematician [Norberto Cuesta Dutari](Norberto%20Cuesta%20Dutari.md) \[[es](../spa/Norberto%20Cuesta%20Dutari.md)\]}@}.
 
 ### partially ordered sets
 
