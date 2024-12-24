@@ -39,7 +39,7 @@ return (
 )
 ```
 
-Loads can be specified in {@{3}@} ways: {@{point load (load at a point) in kN, line load (load over a line) in kN/m, and distributed load (load over an area) in kN/m<sup>2</sup>}@}.
+Loads can be specified in {@{three ways}@}: {@{point load (load at a point) in kN, line load (load over a line) in kN/m, and distributed load (load over an area) in kN/m<sup>2</sup>}@}.
 
 Loads on civil engineering can be separated into {@{<!--pytextgen generate section="28ba"--><!-- The following content is generated at 2024-05-14T01:02:39.496907+08:00. Any edits will be overridden! -->4<!--/pytextgen-->}@} main categories.
 

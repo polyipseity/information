@@ -25,9 +25,9 @@ Writing {@{several decades after Smith in 1808}@}, {@{[Robert Torrens](Robert%20
 
 > [I]f {@{I wish to know the extent of the advantage}@}, which arises to England, from her giving France a hundred pounds of [broadcloth](broadcloth.md), in exchange for a hundred pounds of lace, I {@{take the quantity of lace which she has acquired by this transaction}@}, and {@{compare it with the quantity which she might, at the same expense of labour and capital, have acquired by manufacturing it at home}@}. The lace that {@{remains, beyond what the labour and capital employed on the cloth, might have fabricated at home}@}, is {@{the amount of the advantage which England derives from the exchange}@}.<sup>[\[9\]](#^ref-9)</sup>
 
-In {@{1814}@} the {@{anonymously published pamphlet _Considerations on the Importation of Foreign Corn_}@} featured {@{the earliest recorded formulation of the concept of comparative advantage}@}.<sup>[\[10\]](#^ref-10)</sup><sup>[\[11\]](#^ref-11)</sup> Torrens would later {@{publish his work _External Corn Trade_ in 1815 acknowledging this pamphlet author's priority}@}.<sup>[\[10\]](#^ref-10)</sup>
+In {@{1814 the anonymously published pamphlet _Considerations on the Importation of Foreign Corn_}@} featured {@{the earliest recorded formulation of the concept of comparative advantage}@}.<sup>[\[10\]](#^ref-10)</sup><sup>[\[11\]](#^ref-11)</sup> Torrens would later {@{publish his work _External Corn Trade_ in 1815 acknowledging this pamphlet author's priority}@}.<sup>[\[10\]](#^ref-10)</sup>
 
-In {@{1817}@}, {@{[David Ricardo](David%20Ricardo.md)}@} published {@{what has since become known as the theory of comparative advantage in his book _[On the Principles of Political Economy and Taxation](On%20the%20Principles%20of%20Political%20Economy%20and%20Taxation.md)_}@}.
+In {@{1817, [David Ricardo](David%20Ricardo.md)}@} published {@{what has since become known as the theory of comparative advantage in his book _[On the Principles of Political Economy and Taxation](On%20the%20Principles%20of%20Political%20Economy%20and%20Taxation.md)_}@}.
 
 ### Ricardo's example
 

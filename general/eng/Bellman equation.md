@@ -85,7 +85,7 @@ For {@{a general stochastic sequential optimization problem with Markovian shock
 
 ## applications in economics
 
-{@{The first known application of a Bellman equation}@} in economics is due to {@{[Martin Beckmann](Martin%20J.%20Beckmann.md) and [Richard Muth](Richard%20Muth.md)}@}.<sup>[\[19\]](#^ref-19)</sup> {@{Martin Beckmann}@} also {@{wrote extensively on consumption theory}@} using the Bellman equation in {@{1959}@}. His work influenced {@{[Edmund S. Phelps](Edmund%20Phelps.md), among others}@}.
+{@{The first known application of a Bellman equation}@} in economics is due to {@{[Martin Beckmann](Martin%20J.%20Beckmann.md) and [Richard Muth](Richard%20Muth.md)}@}.<sup>[\[19\]](#^ref-19)</sup> {@{Martin Beckmann}@} also {@{wrote extensively on consumption theory}@} using {@{the Bellman equation in 1959}@}. His work influenced {@{[Edmund S. Phelps](Edmund%20Phelps.md), among others}@}.
 
 {@{A celebrated economic application}@} of a Bellman equation is {@{[Robert C. Merton](Robert%20C.%20Merton.md)'s seminal 1973 article}@} on {@{the [intertemporal capital asset pricing model](intertemporal%20CAPM.md)}@}.<sup>[\[20\]](#^ref-20)</sup> \(See also {@{[Merton's portfolio problem](Merton's%20portfolio%20problem.md)}@}\). {@{The solution to Merton's theoretical model, one in which investors chose between income today and future income or capital gains}@}, is a form of Bellman's equation. Because {@{economic applications of dynamic programming}@} usually {@{result in a Bellman equation that is a [difference equation](recurrence%20relation.md#difference%20equation)}@}, economists refer to {@{dynamic programming as a "recursive method"}@} and {@{a subfield of [recursive economics](recursive%20economics.md)}@} is now recognized within economics.
 
