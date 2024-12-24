@@ -66,7 +66,7 @@ with open(f"{NAME}.names map.json", "rt") as names_map_file:
     _names_map_manual = load(names_map_file)
 _names_map = {
     f"{filename[:1].upper()}{filename[1:-3]}": filename[:-3]
-    for filename in iglob("*.md", root_dir="../general/eng/")
+    for filename in iglob("*.md", root_dir="../general/")
 }
 if _names_map_overlap := frozenset(_names_map).intersection(_names_map_manual):
     raise ValueError(_names_map_overlap)
