@@ -9,7 +9,7 @@ aliases:
   - develop customer
   - develop customers
 tags:
-  - flashcard/active/general/customer_development
+  - flashcard/active/general/eng/customer_development
   - language/in/English
 ---
 
@@ -17,7 +17,7 @@ tags:
 
 ```Python
 # pytextgen generate module
-# import ../../tools/utility.py.md
+# import ../../../tools/utility.py.md
 ```
 
 ## importance

@@ -3,7 +3,7 @@ aliases:
   - Galileo's ship
   - Galileo's ships
 tags:
-  - flashcard/active/general/Galileo_s_ship
+  - flashcard/active/general/eng/Galileo_s_ship
   - language/in/English
 ---
 

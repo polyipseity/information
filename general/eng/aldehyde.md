@@ -3,7 +3,7 @@ aliases:
   - aldehyde
   - aldehydes
 tags:
-  - flashcard/active/general/aldehyde
+  - flashcard/active/general/eng/aldehyde
   - language/in/English
 ---
 
@@ -11,7 +11,7 @@ tags:
 
 ```Python
 # pytextgen generate module
-# import ../../tools/utility.py.md
+# import ../../../tools/utility.py.md
 ```
 
 ## physical properties

@@ -4,7 +4,7 @@ aliases:
   - supernovae
   - supernovas
 tags:
-  - flashcard/active/general/supernova
+  - flashcard/active/general/eng/supernova
   - language/in/English
 ---
 

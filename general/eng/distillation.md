@@ -4,7 +4,7 @@ aliases:
   - distillation
   - distills
 tags:
-  - flashcard/active/general/distillation
+  - flashcard/active/general/eng/distillation
   - language/in/English
 ---
 
@@ -20,7 +20,7 @@ The distilled product is the {@{_distillate_}@}, while the left behind product i
 
 In simple distillation, {@{the vapor is immediately passed into a [condenser](condenser.md)}@}. <!--SR:!2028-03-05,1237,270-->
 
-> {@{![Simple distillation setup](../archives/Wikimedia%20Commons/Simple%20distillation%20apparatus.svg)}@}
+> {@{![Simple distillation setup](../../archives/Wikimedia%20Commons/Simple%20distillation%20apparatus.svg)}@}
 >
 > Simple distillation setup
 >

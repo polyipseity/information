@@ -20,7 +20,7 @@ aliases:
   - L’Hôspital rule
   - L’Hôspital’s rule
 tags:
-  - flashcard/active/general/L_Hôpital_s_rule
+  - flashcard/active/general/eng/L_Hôpital_s_rule
   - language/in/English
 ---
 
@@ -28,7 +28,7 @@ tags:
 
 ```Python
 # pytextgen generate module
-# import ../../tools/utility.py.md
+# import ../../../tools/utility.py.md
 ```
 
 __{@{L'Hôpital's}@} rule__, also known as __{@{Bernoulli's}@} rule__, is {@{a [theorem](theorem.md) used for evaluating [limits](limit%20of%20a%20function.md) of [indeterminate forms](indeterminate%20form.md) from [derivatives](derivative.md)}@}. <!--SR:!2027-07-05,1007,340!2025-11-04,531,320!2025-01-22,326,340-->

@@ -5,7 +5,7 @@ aliases:
   - gamma-ray burst
   - gamma-ray bursts
 tags:
-  - flashcard/active/general/gamma-ray_burst
+  - flashcard/active/general/eng/gamma-ray_burst
   - language/in/English
 ---
 

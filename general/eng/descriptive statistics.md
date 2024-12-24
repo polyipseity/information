@@ -5,7 +5,7 @@ aliases:
   - descriptive statistics
   - descriptive stats
 tags:
-  - flashcard/active/general/descriptive_statistics
+  - flashcard/active/general/eng/descriptive_statistics
   - language/in/English
 ---
 

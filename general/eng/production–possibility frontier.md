@@ -5,7 +5,7 @@ aliases:
   - production–possibility frontier
   - production–possibility frontiers
 tags:
-  - flashcard/active/general/production-possibility_frontier
+  - flashcard/active/general/eng/production-possibility_frontier
   - language/in/English
 ---
 
@@ -17,7 +17,7 @@ This tradeoff is usually considered for {@{an [economy](economy.md), but also ap
 
 {@{Graphically bounding the [production set](production%20set.md)}@} for {@{fixed input quantities}@}, the PPF curve shows {@{the maximum possible production level of one commodity for any given production level of the other, given the existing state of technology}@}. By doing so, it {@{defines [productive efficiency](productive%20efficiency.md) in the context of that production set}@}: {@{a point on the frontier indicates efficient use of the available inputs (such as points B, D and C in the graph), a point beneath the curve (such as A) indicates inefficiency, and a point beyond the curve (such as X) indicates impossibility}@}. <!--SR:!2025-10-06,288,330!2025-04-13,150,310!2025-05-19,177,310!2025-07-29,231,330!2025-08-31,260,330-->
 
-> {@{![figure 1: a production possibilities frontier](../archives/Wikimedia%20Commons/Production%20Possibilities%20Frontier%20Curve.svg)}@}
+> {@{![figure 1: a production possibilities frontier](../../archives/Wikimedia%20Commons/Production%20Possibilities%20Frontier%20Curve.svg)}@}
 >
 > figure 1: {@{a production possibilities frontier}@} <!--SR:!2025-08-27,256,330!2025-10-15,297,330-->
 
@@ -33,7 +33,7 @@ From {@{a [macroeconomic](macroeconomics.md) perspective}@}, the PPF illustrates
 
 ## position
 
-> {@{![figure 2: unbiased expansion of a production possibility frontier](../archives/Wikimedia%20Commons/PPF%20expansion.svg)}@}
+> {@{![figure 2: unbiased expansion of a production possibility frontier](../../archives/Wikimedia%20Commons/PPF%20expansion.svg)}@}
 >
 > figure 2: {@{unbiased expansion of a production possibility frontier}@} <!--SR:!2024-12-29,73,310!2025-08-04,237,330-->
 
@@ -49,13 +49,13 @@ If {@{the two production goods depicted are [capital](capital%20(economics).md) 
 
 - see: [productive efficiency](productive%20efficiency.md), [Pareto efficiency](Pareto%20efficiency.md), [allocative efficiency](allocative%20efficiency.md)
 
-> {@{![figure 3: production-possibilities frontier for an economy with two products illustrating Pareto efficiency](../archives/Wikimedia%20Commons/04%20production-possibilities-frontier-1.png)}@}
+> {@{![figure 3: production-possibilities frontier for an economy with two products illustrating Pareto efficiency](../../archives/Wikimedia%20Commons/04%20production-possibilities-frontier-1.png)}@}
 >
 > figure 3: {@{production-possibilities frontier for an economy with two products illustrating Pareto efficiency}@} <!--SR:!2025-03-07,117,290!2025-08-28,257,330-->
 
 <!-- markdownlint MD028 -->
 
-> {@{![figure 4: frontier points that violate allocative efficiency](../archives/Wikimedia%20Commons/04%20production-possibilities-frontier-2.png)}@}
+> {@{![figure 4: frontier points that violate allocative efficiency](../../archives/Wikimedia%20Commons/04%20production-possibilities-frontier-2.png)}@}
 >
 > figure 4: {@{frontier points that violate allocative efficiency}@} <!--SR:!2025-02-17,95,270!2025-01-27,87,270-->
 
@@ -86,7 +86,7 @@ For an extensive discussion of various types of efficiency measures ([Farrell](M
 
 ### marginal rate of transformation
 
-> {@{![figure 5: the marginal rate of transformation increases when the transition is made from _AA_ to _BB_](../archives/Wikimedia%20Commons/PPF%20marginal%20rate%20of%20transformation.svg)}@}
+> {@{![figure 5: the marginal rate of transformation increases when the transition is made from _AA_ to _BB_](../../archives/Wikimedia%20Commons/PPF%20marginal%20rate%20of%20transformation.svg)}@}
 >
 > figure 5: {@{the marginal rate of transformation increases when the transition is made from _AA_ to _BB_}@} <!--SR:!2025-09-19,276,330!2025-09-18,275,330-->
 
@@ -96,19 +96,19 @@ The marginal rate of transformation can be {@{expressed in terms of either commo
 
 ## shape
 
-> {@{![figure 6a: standard PPF: increasing opportunity cost](../archives/Wikimedia%20Commons/PPF%20opportunity%20cost.svg)}@}
+> {@{![figure 6a: standard PPF: increasing opportunity cost](../../archives/Wikimedia%20Commons/PPF%20opportunity%20cost.svg)}@}
 >
 > figure 6a: {@{standard PPF: increasing opportunity cost}@} <!--SR:!2025-10-15,297,330!2025-07-30,232,330-->
 
 <!-- markdownlint MD028 -->
 
-> {@{![figure 6b: straight line PPF: constant opportunity cost](../archives/Wikimedia%20Commons/PPF%20opportunity%20cost%20straight.svg)}@}
+> {@{![figure 6b: straight line PPF: constant opportunity cost](../../archives/Wikimedia%20Commons/PPF%20opportunity%20cost%20straight.svg)}@}
 >
 > figure 6b: {@{straight line PPF: constant opportunity cost}@} <!--SR:!2025-09-18,275,330!2025-09-15,272,330-->
 
 <!-- markdownlint MD028 -->
 
-> {@{![figure 6c: inverted PPF: decreasing opportunity cost](../archives/Wikimedia%20Commons/PPF%20opportunity%20cost%20inverted.svg)}@}
+> {@{![figure 6c: inverted PPF: decreasing opportunity cost](../../archives/Wikimedia%20Commons/PPF%20opportunity%20cost%20inverted.svg)}@}
 >
 > figure 6c: {@{inverted PPF: decreasing opportunity cost}@} <!--SR:!2025-06-20,188,310!2025-04-22,152,310-->
 
@@ -122,7 +122,7 @@ With {@{[economies of scale](economies%20of%20scale.md)}@}, the PPF would {@{cur
 
 - see: [opportunity cost](opportunity%20cost.md)
 
-> {@{![figure 7: increasing butter from _A_ to _B_ carries little opportunity cost, but going from _C_ to _D_ the cost is great](../archives/Wikimedia%20Commons/PPF%20opportunity%20cost.svg)}@}
+> {@{![figure 7: increasing butter from _A_ to _B_ carries little opportunity cost, but going from _C_ to _D_ the cost is great](../../archives/Wikimedia%20Commons/PPF%20opportunity%20cost.svg)}@}
 >
 > figure 7: {@{increasing butter from _A_ to _B_ carries little opportunity cost, but going from _C_ to _D_ the cost is great}@} <!--SR:!2025-10-17,299,330!2024-12-29,73,310-->
 

@@ -2,7 +2,7 @@
 aliases:
   - CaCO3
 tags:
-  - flashcard/active/general/calcium_carbonate
+  - flashcard/active/general/eng/calcium_carbonate
   - language/in/English
 ---
 

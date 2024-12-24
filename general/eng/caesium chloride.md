@@ -4,13 +4,13 @@ aliases:
   - caesium chloride
   - cesium chloride
 tags:
-  - flashcard/active/general/caesium_chloride
+  - flashcard/active/general/eng/caesium_chloride
   - language/in/English
 ---
 
 # caesium chloride
 
-> {@{![CsCl polyhedra](../archives/Wikimedia%20Commons/CsCl%20polyhedra.png)}@}
+> {@{![CsCl polyhedra](../../archives/Wikimedia%20Commons/CsCl%20polyhedra.png)}@}
 >
 > {@{structure of caesium chloride}@} <!--SR:!2026-04-01,831,330!2026-03-27,827,330-->
 

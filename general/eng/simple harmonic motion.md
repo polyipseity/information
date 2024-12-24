@@ -3,7 +3,7 @@ aliases:
   - SHM
   - simple harmonic motion
 tags:
-  - flashcard/active/general/simple_harmonic_motion
+  - flashcard/active/general/eng/simple_harmonic_motion
   - language/in/English
 ---
 

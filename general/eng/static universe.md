@@ -11,7 +11,7 @@ aliases:
   - stationary universe
   - stationary universes
 tags:
-  - flashcard/active/general/static_universe
+  - flashcard/active/general/eng/static_universe
   - language/in/English
 ---
 

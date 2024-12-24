@@ -1,6 +1,6 @@
 ---
 tags:
-  - flashcard/active/general/sea_salt
+  - flashcard/active/general/eng/sea_salt
   - language/in/English
 ---
 
@@ -8,7 +8,7 @@ tags:
 
 ```Python
 # pytextgen generate module
-# import ../../tools/utility.py.md
+# import ../../../tools/utility.py.md
 ```
 
 ## production

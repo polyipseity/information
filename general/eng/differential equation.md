@@ -3,7 +3,7 @@ aliases:
   - DE
   - differential equation
 tags:
-  - flashcard/active/general/differential_equation
+  - flashcard/active/general/eng/differential_equation
   - language/in/English
 ---
 

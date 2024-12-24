@@ -5,7 +5,7 @@ aliases:
   - absolute advantage
   - absolute advantages
 tags:
-  - flashcard/active/general/absolute_advantage
+  - flashcard/active/general/eng/absolute_advantage
   - language/in/English
 ---
 

@@ -7,7 +7,7 @@ aliases:
   - dark night paradox
   - dark night paradoxes
 tags:
-  - flashcard/active/general/Olbers_s_paradox
+  - flashcard/active/general/eng/Olbers_s_paradox
   - language/in/English
 ---
 

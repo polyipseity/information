@@ -4,7 +4,7 @@ aliases:
   - "`printf`"
   - printf
 tags:
-  - flashcard/active/general/printf
+  - flashcard/active/general/eng/printf
   - language/in/English
 ---
 
@@ -12,7 +12,7 @@ tags:
 
 ```Python
 # pytextgen generate module
-# import ../../tools/utility.py.md
+# import ../../../tools/utility.py.md
 ```
 
 ## placeholder

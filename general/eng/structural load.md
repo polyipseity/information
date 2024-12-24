@@ -2,7 +2,7 @@
 aliases:
   - structural load
 tags:
-  - flashcard/active/general/structural_load
+  - flashcard/active/general/eng/structural_load
   - language/in/English
 ---
 
@@ -10,7 +10,7 @@ tags:
 
 ```Python
 # pytextgen generate module
-# import ../../tools/utility.py.md
+# import ../../../tools/utility.py.md
 ```
 
 ## loads on architectural and civil engineering structures

@@ -2,7 +2,7 @@
 aliases:
   - matter
 tags:
-  - flashcard/active/general/matter
+  - flashcard/active/general/eng/matter
   - language/in/English
 ---
 

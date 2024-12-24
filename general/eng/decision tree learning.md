@@ -2,7 +2,7 @@
 aliases:
   - decision tree learning
 tags:
-  - flashcard/active/general/decision_tree_learning
+  - flashcard/active/general/eng/decision_tree_learning
   - language/in/English
 ---
 

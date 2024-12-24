@@ -2,7 +2,7 @@
 aliases:
   - ice
 tags:
-  - flashcard/active/general/ice
+  - flashcard/active/general/eng/ice
   - language/in/English
 ---
 

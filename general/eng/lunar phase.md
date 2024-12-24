@@ -7,7 +7,7 @@ aliases:
   - moon phase
   - moon phases
 tags:
-  - flashcard/active/general/lunar_phase
+  - flashcard/active/general/eng/lunar_phase
   - language/in/English
 ---
 
@@ -15,7 +15,7 @@ tags:
 
 ```Python
 # pytextgen generate module
-# import ../../tools/utility.py.md
+# import ../../../tools/utility.py.md
 ```
 
 A __lunar phase__ or __Moon phase__ is {@{the apparent shape of the [Moon](Moon.md)'s directly sunlit portion as viewed from [Earth](Earth.md)}@}. In common usage, the four major phases are {@{the [new moon](new%20moon.md), the first quarter, the [full moon](full%20moon.md) and the last quarter}@}; the four minor phases are {@{waxing crescent, waxing gibbous, waning gibbous, and waning crescent}@}. A [lunar month](lunar%20month.md) is thus {@{the time between successive recurrences of the same phase}@}. The duration is {@{not perfectly constant due to [eccentricity](orbital%20eccentricity.md) of the Moon's orbit, but averages out to about 29.5 days, which is also the [synodic orbital period](orbital%20period.md#synodic%20period) of the Moon}@}. <!--SR:!2025-03-24,184,310!2025-03-25,192,310!2025-03-05,180,310!2025-05-18,222,310!2025-08-10,256,270-->

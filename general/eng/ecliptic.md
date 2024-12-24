@@ -5,7 +5,7 @@ aliases:
   - ecliptic planes
   - ecliptics
 tags:
-  - flashcard/active/general/ecliptic
+  - flashcard/active/general/eng/ecliptic
   - language/in/English
 ---
 

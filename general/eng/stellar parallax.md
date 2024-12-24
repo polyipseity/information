@@ -3,7 +3,7 @@ aliases:
   - stellar parallax
   - stellar parallaxes
 tags:
-  - flashcard/active/general/stellar_parallax
+  - flashcard/active/general/eng/stellar_parallax
   - language/in/English
 ---
 

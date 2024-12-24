@@ -8,7 +8,7 @@ aliases:
   - RCW 146
   - Sharpless 25
 tags:
-  - flashcard/active/general/Lagoon_Nebula
+  - flashcard/active/general/eng/Lagoon_Nebula
   - language/in/English
 ---
 

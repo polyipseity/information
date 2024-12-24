@@ -7,7 +7,7 @@ aliases:
   - fundamental accounting equation
   - fundamental accounting equations
 tags:
-  - flashcard/active/general/accounting_equation
+  - flashcard/active/general/eng/accounting_equation
   - language/in/English
 ---
 

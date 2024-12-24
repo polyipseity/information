@@ -3,7 +3,7 @@ aliases:
   - dark energies
   - dark energy
 tags:
-  - flashcard/active/general/dark_energy
+  - flashcard/active/general/eng/dark_energy
   - language/in/English
 ---
 

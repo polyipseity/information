@@ -2,7 +2,7 @@
 aliases:
   - R
 tags:
-  - flashcard/active/general/R__programming_language_
+  - flashcard/active/general/eng/R__programming_language_
   - language/in/English
 ---
 

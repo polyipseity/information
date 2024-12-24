@@ -2,7 +2,7 @@
 aliases:
   - archaeoastronomy
 tags:
-  - flashcard/active/general/archaeoastronomy
+  - flashcard/active/general/eng/archaeoastronomy
   - language/in/English
 ---
 

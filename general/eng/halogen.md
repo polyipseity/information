@@ -7,7 +7,7 @@ aliases:
   - halogen
   - halogens
 tags:
-  - flashcard/active/general/halogen
+  - flashcard/active/general/eng/halogen
   - language/in/English
 ---
 
@@ -15,7 +15,7 @@ tags:
 
 ```Python
 # pytextgen generate module
-# import ../../tools/utility.py.md
+# import ../../../tools/utility.py.md
 ```
 
 The __halogens__ {@{consist of the [chemical elements](chemical%20element.md) [fluorine](fluorine.md) (F), [chlorine](chlorine.md) (Cl), [bromine](bromine.md) (Br), [iodine](iodine.md) (I), [astatine](astatine.md) (As), and [tennessine](tennessine.md) (Ts)}@}. The halogens are {@{all colored, increasingly dark down the group, and [reactive](reactivity%20(chemistry).md)}@}. <!--SR:!2025-05-02,199,270!2026-10-20,779,250-->

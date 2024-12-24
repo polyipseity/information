@@ -3,7 +3,7 @@ aliases:
   - management accounting
   - managerial accounting
 tags:
-  - flashcard/active/general/management_accounting
+  - flashcard/active/general/eng/management_accounting
   - language/in/English
 ---
 

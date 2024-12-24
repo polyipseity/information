@@ -4,7 +4,7 @@ aliases:
   - Vitali sets
   - Vitali theorem
 tags:
-  - flashcard/active/general/Vitali_set
+  - flashcard/active/general/eng/Vitali_set
   - language/in/English
 ---
 
@@ -28,7 +28,7 @@ Every Vitali set $V$ is {@{uncountable}@}, and {@{$v-u$ is irrational for any $u
 
 ### non-measurability
 
-> {@{![A possible enumeration of the positive rational numbers](../archives/Wikimedia%20Commons/Diagonal%20argument.svg)}@}
+> {@{![A possible enumeration of the positive rational numbers](../../archives/Wikimedia%20Commons/Diagonal%20argument.svg)}@}
 >
 > {@{A possible enumeration of the positive rational numbers}@} <!--SR:!2024-12-26,15,309!2024-12-28,17,309-->
 

@@ -5,7 +5,7 @@ aliases:
   - Hooke's law
   - Hooke's laws
 tags:
-  - flashcard/active/general/Hooke_s_law
+  - flashcard/active/general/eng/Hooke_s_law
   - language/in/English
 ---
 

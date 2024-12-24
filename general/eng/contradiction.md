@@ -2,7 +2,7 @@
 aliases:
   - contradiction
 tags:
-  - flashcard/active/general/contradiction
+  - flashcard/active/general/eng/contradiction
   - language/in/English
 ---
 

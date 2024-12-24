@@ -3,7 +3,7 @@ aliases:
   - intermolecular force
   - intermolecular forces
 tags:
-  - flashcard/active/general/intermolecular_force
+  - flashcard/active/general/eng/intermolecular_force
   - language/in/English
 ---
 
@@ -11,7 +11,7 @@ tags:
 
 ```Python
 # pytextgen generate module
-# import ../../tools/utility.py.md
+# import ../../../tools/utility.py.md
 ```
 
 __Intermolecular forces__ are {@{attractive or replusive [forces](force.md) between [molecules](molecule.md)}@}. They are {@{relatively weak}@} compared to [intramolecular forces](intramolecular%20force.md). <!--SR:!2025-08-18,640,310!2026-05-29,878,330-->

@@ -11,7 +11,7 @@ aliases:
   - r-value
   - thermal insulance
 tags:
-  - flashcard/active/general/R-value__insulation_
+  - flashcard/active/general/eng/R-value__insulation_
   - language/in/English
 ---
 

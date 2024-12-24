@@ -9,7 +9,7 @@ aliases:
   - rising factorial
   - rising factorials
 tags:
-  - flashcard/active/general/falling_and_rising_factorials
+  - flashcard/active/general/eng/falling_and_rising_factorials
   - language/in/English
 ---
 

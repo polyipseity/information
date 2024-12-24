@@ -3,7 +3,7 @@ aliases:
   - solid mechanic
   - solid mechanics
 tags:
-  - flashcard/active/general/solid_mechanics
+  - flashcard/active/general/eng/solid_mechanics
   - language/in/English
 ---
 
@@ -11,7 +11,7 @@ tags:
 
 ```Python
 # pytextgen generate module
-# import ../../tools/utility.py.md
+# import ../../../tools/utility.py.md
 ```
 
 ## examples

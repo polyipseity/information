@@ -3,7 +3,7 @@ aliases:
   - solstice
   - solstices
 tags:
-  - flashcard/active/general/solstice
+  - flashcard/active/general/eng/solstice
   - language/in/English
 ---
 

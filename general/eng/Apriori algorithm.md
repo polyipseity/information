@@ -2,7 +2,7 @@
 aliases:
   - Apriori algorithm
 tags:
-  - flashcard/active/general/Apriori_algorithm
+  - flashcard/active/general/eng/Apriori_algorithm
   - language/in/English
 ---
 

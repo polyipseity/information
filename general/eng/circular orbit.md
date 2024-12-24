@@ -2,7 +2,7 @@
 aliases:
   - circular orbit
 tags:
-  - flashcard/active/general/circular_orbit
+  - flashcard/active/general/eng/circular_orbit
   - language/in/English
 ---
 

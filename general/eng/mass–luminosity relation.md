@@ -5,7 +5,7 @@ aliases:
   - mass–luminosity relationship
   - mass–luminosity relationships
 tags:
-  - flashcard/active/general/mass-luminosity_relation
+  - flashcard/active/general/eng/mass-luminosity_relation
   - language/in/English
 ---
 

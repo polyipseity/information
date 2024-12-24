@@ -3,7 +3,7 @@ aliases:
   - hydrocarbon
   - hydrocarbons
 tags:
-  - flashcard/active/general/hydrocarbon
+  - flashcard/active/general/eng/hydrocarbon
   - language/in/English
 ---
 
@@ -11,7 +11,7 @@ tags:
 
 ```Python
 # pytextgen generate module
-# import ../../tools/utility.py.md
+# import ../../../tools/utility.py.md
 ```
 
 ## types

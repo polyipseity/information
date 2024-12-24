@@ -5,7 +5,7 @@ aliases:
   - gravitational radii
   - gravitational radius
 tags:
-  - flashcard/active/general/Schwarzschild_radius
+  - flashcard/active/general/eng/Schwarzschild_radius
   - language/in/English
 ---
 

@@ -5,7 +5,7 @@ aliases:
   - decibel
   - decibels
 tags:
-  - flashcard/active/general/decibel
+  - flashcard/active/general/eng/decibel
   - language/in/English
 ---
 

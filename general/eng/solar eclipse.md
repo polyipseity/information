@@ -9,7 +9,7 @@ aliases:
   - total solar eclipse
   - total solar eclipses
 tags:
-  - flashcard/active/general/solar_eclipse
+  - flashcard/active/general/eng/solar_eclipse
   - language/in/English
 ---
 
@@ -17,7 +17,7 @@ tags:
 
 ```Python
 # pytextgen generate module
-# import ../../tools/utility.py.md
+# import ../../../tools/utility.py.md
 ```
 
 A __solar eclipse__ occurs when {@{the [Moon](Moon.md) passes between [Earth](Earth.md) and the [Sun](Sun.md), thereby obscuring the view of the Sun from a small part of Earth, totally or partially}@}. Such an alignment occurs {@{approximately every six months, during the [eclipse season](eclipsee%20season.md) in its [new moon](new%20moon.md) phase}@}, when {@{the Moon is closest to the plane of [Earth's orbit](Earth's%20orbit.md)}@}. <!--SR:!2025-01-04,131,290!2025-06-05,254,330!2025-05-29,248,330-->

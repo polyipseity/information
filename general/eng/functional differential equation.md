@@ -5,7 +5,7 @@ aliases:
   - functional differential equation
   - functional differential equations
 tags:
-  - flashcard/active/general/functional_differential_equation
+  - flashcard/active/general/eng/functional_differential_equation
   - language/in/English
 ---
 

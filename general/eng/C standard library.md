@@ -10,13 +10,13 @@ aliases:
   - cstdlib
   - stdlib.h
 tags:
-  - flashcard/active/general/C_standard_library
+  - flashcard/active/general/eng/C_standard_library
   - language/in/English
 ---
 
 # C standard library
 
-See [program support utilities](../special/C/program%20support%20utilities.md).
+See [program support utilities](../../special/C/program%20support%20utilities.md).
 
 ## references
 

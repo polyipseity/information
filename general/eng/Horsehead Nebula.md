@@ -4,7 +4,7 @@ aliases:
   - Barnard 33
   - Horsehead Nebula
 tags:
-  - flashcard/active/general/Horsehead_Nebula
+  - flashcard/active/general/eng/Horsehead_Nebula
   - language/in/English
 ---
 

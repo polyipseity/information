@@ -3,7 +3,7 @@ aliases:
   - absolute magnitude
   - absolute magnitudes
 tags:
-  - flashcard/active/general/absolute_magnitude
+  - flashcard/active/general/eng/absolute_magnitude
   - language/in/English
 ---
 

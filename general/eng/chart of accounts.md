@@ -2,7 +2,7 @@
 aliases:
   - chart of accounts
 tags:
-  - flashcard/active/general/chart_of_accounts
+  - flashcard/active/general/eng/chart_of_accounts
   - language/in/English
 ---
 

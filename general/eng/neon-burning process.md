@@ -13,7 +13,7 @@ aliases:
   - neon-burning process
   - neon-burning processes
 tags:
-  - flashcard/active/general/neon-burning_process
+  - flashcard/active/general/eng/neon-burning_process
   - language/in/English
 ---
 

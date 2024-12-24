@@ -10,13 +10,13 @@ aliases:
   - cstring
   - string.h
 tags:
-  - flashcard/active/general/C_string_handling
+  - flashcard/active/general/eng/C_string_handling
   - language/in/English
 ---
 
 # C string handling
 
-See [strings library](../special/C/strings%20library.md).
+See [strings library](../../special/C/strings%20library.md).
 
 ## references
 

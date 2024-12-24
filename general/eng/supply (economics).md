@@ -3,13 +3,13 @@ aliases:
   - supplies
   - supply
 tags:
-  - flashcard/active/general/supply__economics_
+  - flashcard/active/general/eng/supply__economics_
   - language/in/English
 ---
 
 # supply
 
-> {@{![An example of a nonlinear supply curve](../archives/Wikimedia%20Commons/Supply.gif)}@}
+> {@{![An example of a nonlinear supply curve](../../archives/Wikimedia%20Commons/Supply.gif)}@}
 >
 > {@{An example of a nonlinear supply curve}@} <!--SR:!2025-02-01,58,310!2025-02-10,67,310-->
 

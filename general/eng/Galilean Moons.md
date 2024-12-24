@@ -9,7 +9,7 @@ aliases:
   - Galilean satellite
   - Galilean satellites
 tags:
-  - flashcard/active/general/Galilean_Moons
+  - flashcard/active/general/eng/Galilean_Moons
   - language/in/English
 ---
 

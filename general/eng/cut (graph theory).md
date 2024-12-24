@@ -19,7 +19,7 @@ aliases:
   - s–t cut
   - s–t cuts
 tags:
-  - flashcard/active/general/cut__graph_theory_
+  - flashcard/active/general/eng/cut__graph_theory_
   - language/in/English
 ---
 
@@ -41,7 +41,7 @@ In {@{an unweighted undirected graph}@}, {@{the _size_ or _weight_ of a cut}@} i
 
 - see: [minimum cut](minimum%20cut.md)
 
-> {@{![a minimum cut](../archives/Wikimedia%20Commons/Min-cut.svg)}@}
+> {@{![a minimum cut](../../archives/Wikimedia%20Commons/Min-cut.svg)}@}
 >
 > {@{A minimum cut.}@} <!--SR:!2025-01-29,72,310!2025-01-29,72,310-->
 
@@ -53,7 +53,7 @@ In {@{an unweighted undirected graph}@}, {@{the _size_ or _weight_ of a cut}@} i
 
 - see: [maximum cut](maximum%20cut.md)
 
-> {@{![a maximum cut](../archives/Wikimedia%20Commons/Max-cut.svg)}@}
+> {@{![a maximum cut](../../archives/Wikimedia%20Commons/Max-cut.svg)}@}
 >
 > {@{A maximum cut.}@} <!--SR:!2025-03-03,92,290!2025-01-29,72,310-->
 

@@ -3,13 +3,13 @@ aliases:
   - complementary good
   - complementary goods
 tags:
-  - flashcard/active/general/complementary_good
+  - flashcard/active/general/eng/complementary_good
   - language/in/English
 ---
 
 # complementary good
 
-> {@{![Complementary goods exhibit a negative cross elasticity of demand: as the price of goods Y rises, the demand for good X falls.](../archives/Wikimedia%20Commons/Cross%20elasticity%20of%20demand%20complements.svg)}@}
+> {@{![Complementary goods exhibit a negative cross elasticity of demand: as the price of goods Y rises, the demand for good X falls.](../../archives/Wikimedia%20Commons/Cross%20elasticity%20of%20demand%20complements.svg)}@}
 >
 > {@{Complementary goods exhibit a negative [cross elasticity of demand](cross%20elasticity%20of%20demand.md): as the price of goods Y rises, the demand for good X falls.}@} <!--SR:!2025-02-06,65,310!2025-02-07,66,310-->
 
@@ -23,7 +23,7 @@ Complementarity may be driven by {@{[psychological processes](psychology.md) in 
 
 ## examples
 
-> {@{![Supply and demand of cars when the price of petrol decreases](../archives/Wikimedia%20Commons/Supply-and-demand.svg)}@}
+> {@{![Supply and demand of cars when the price of petrol decreases](../../archives/Wikimedia%20Commons/Supply-and-demand.svg)}@}
 >
 > {@{Supply and demand of cars when the price of petrol decreases}@} <!--SR:!2025-02-02,61,310!2025-01-31,59,310-->
 
@@ -31,7 +31,7 @@ An example of this would be {@{the demand for [cars](car.md) and [petrol](gasoli
 
 ## perfect complement
 
-> {@{![Indifference curve for perfect complements](../archives/Wikimedia%20Commons/Indifference-curves-perfect-complements.svg)}@}
+> {@{![Indifference curve for perfect complements](../../archives/Wikimedia%20Commons/Indifference-curves-perfect-complements.svg)}@}
 >
 > {@{[Indifference curve](indifference%20curve.md) for perfect complements}@} <!--SR:!2025-02-03,62,310!2025-02-04,63,310-->
 

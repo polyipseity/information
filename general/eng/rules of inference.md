@@ -3,7 +3,7 @@ aliases:
   - rules of inference
   - rules of inferences
 tags:
-  - flashcard/active/general/rules_of_inference
+  - flashcard/active/general/eng/rules_of_inference
   - language/in/English
 ---
 

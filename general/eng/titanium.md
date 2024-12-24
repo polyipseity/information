@@ -3,7 +3,7 @@ aliases:
   - Ti
   - titanium
 tags:
-  - flashcard/active/general/titanium
+  - flashcard/active/general/eng/titanium
   - language/in/English
 ---
 
@@ -11,7 +11,7 @@ tags:
 
 ```Python
 # pytextgen generate module
-# import ../../tools/utility.py.md
+# import ../../../tools/utility.py.md
 ```
 
 ## uses

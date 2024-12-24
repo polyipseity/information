@@ -7,7 +7,7 @@ aliases:
   - Hubble tuning-fork diagram
   - Hubble tuning-fork diagrams
 tags:
-  - flashcard/active/general/Hubble_sequence
+  - flashcard/active/general/eng/Hubble_sequence
   - language/in/English
 ---
 

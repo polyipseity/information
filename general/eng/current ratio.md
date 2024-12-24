@@ -5,7 +5,7 @@ aliases:
   - current ratio
   - current ratios
 tags:
-  - flashcard/active/general/current_ratio
+  - flashcard/active/general/eng/current_ratio
   - language/in/English
 ---
 

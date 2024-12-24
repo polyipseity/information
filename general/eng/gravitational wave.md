@@ -3,7 +3,7 @@ aliases:
   - gravitational wave
   - gravitational waves
 tags:
-  - flashcard/active/general/gravitational_wave
+  - flashcard/active/general/eng/gravitational_wave
   - language/in/English
 ---
 

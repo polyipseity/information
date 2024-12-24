@@ -4,7 +4,7 @@ aliases:
   - novae
   - novas
 tags:
-  - flashcard/active/general/nova
+  - flashcard/active/general/eng/nova
   - language/in/English
 ---
 

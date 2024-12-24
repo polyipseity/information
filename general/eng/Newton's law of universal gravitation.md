@@ -4,7 +4,7 @@ aliases:
   - Newton's law of universal gravitation
   - law of universal gravitation
 tags:
-  - flashcard/active/general/Newton_s_law_of_universal_gravitation
+  - flashcard/active/general/eng/Newton_s_law_of_universal_gravitation
   - language/in/English
 ---
 

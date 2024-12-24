@@ -3,7 +3,7 @@ aliases:
   - Ag2O
   - silver oxide
 tags:
-  - flashcard/active/general/silver_oxide
+  - flashcard/active/general/eng/silver_oxide
   - language/in/English
 ---
 

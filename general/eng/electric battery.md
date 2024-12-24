@@ -7,7 +7,7 @@ aliases:
   - electrical batteries
   - electrical battery
 tags:
-  - flashcard/active/general/electric_battery
+  - flashcard/active/general/eng/electric_battery
   - language/in/English
 ---
 
@@ -15,7 +15,7 @@ tags:
 
 ```Python
 # pytextgen generate module
-# import ../../tools/utility.py.md
+# import ../../../tools/utility.py.md
 ```
 
 A __battery__ is {@{a source of [electricity](electricity.md) composed of one or multiple [electrochemical cells](electrochemical%20cell.md)}@}. When discharging, the positive terminal is {@{the [cathode](cathode.md) and the negative terminal is the [anode](anode.md)}@}. <!--SR:!2025-05-20,399,230!2028-05-14,1455,350-->

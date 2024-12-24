@@ -2,7 +2,7 @@
 aliases:
   - fractional distillation
 tags:
-  - flashcard/active/general/fractional_distillation
+  - flashcard/active/general/eng/fractional_distillation
   - language/in/English
 ---
 

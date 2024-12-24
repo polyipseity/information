@@ -4,7 +4,7 @@ aliases:
   - visible light
   - visible radiation
 tags:
-  - flashcard/active/general/light
+  - flashcard/active/general/eng/light
   - language/in/English
 ---
 

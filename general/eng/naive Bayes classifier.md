@@ -9,7 +9,7 @@ aliases:
   - simple Bayes
   - simple bayes
 tags:
-  - flashcard/active/general/naive_Bayes_classifier
+  - flashcard/active/general/eng/naive_Bayes_classifier
   - language/in/English
 ---
 

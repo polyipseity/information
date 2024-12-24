@@ -3,7 +3,7 @@ aliases:
   - matter wave
   - matter waves
 tags:
-  - flashcard/active/general/matter_wave
+  - flashcard/active/general/eng/matter_wave
   - language/in/English
 ---
 

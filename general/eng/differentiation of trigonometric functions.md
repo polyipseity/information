@@ -4,7 +4,7 @@ aliases:
   - derivatives of trigonometric functions
   - differentiation of trigonometric functions
 tags:
-  - flashcard/active/general/differentiation_of_trigonometric_functions
+  - flashcard/active/general/eng/differentiation_of_trigonometric_functions
   - language/in/English
 ---
 
@@ -12,7 +12,7 @@ tags:
 
 ```Python
 # pytextgen generate module
-# import ../../tools/utility.py.md
+# import ../../../tools/utility.py.md
 ```
 
 ## list of derivatives

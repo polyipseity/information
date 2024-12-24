@@ -4,7 +4,7 @@ aliases:
   - samples
   - sampling
 tags:
-  - flashcard/active/general/sampling__statistics_
+  - flashcard/active/general/eng/sampling__statistics_
   - language/in/English
 ---
 

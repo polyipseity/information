@@ -3,7 +3,7 @@ aliases:
   - inductive set
   - inductive sets
 tags:
-  - flashcard/active/general/inductive_set
+  - flashcard/active/general/eng/inductive_set
   - language/in/English
 ---
 
@@ -11,7 +11,7 @@ tags:
 
 - This article is about {@{the notion in [descriptive set theory](descriptive%20set%20theory.md)}@}. For {@{the use in foundations of mathematics}@}, see {@{[axiom of infinity](axiom%20of%20infinity.md)}@}. <!--SR:!2024-12-26,4,272!2024-12-26,4,272!2024-12-26,4,272-->
 
-<!-- | ![](../archives/Wikimedia%20Commons/Text%20document%20with%20red%20question%20mark.svg) | This article includes a list of [general references](https://en.wikipedia.org/wiki/Wikipedia:Citing%20sources#General%20references), but __it lacks sufficient corresponding [inline citations](https://en.wikipedia.org/wiki/Wikipedia:Citing%20sources#Inline%20citations)__. Please help to [improve](https://en.wikipedia.org/wiki/Wikipedia:WikiProject%20Reliability) this article by [introducing](https://en.wikipedia.org/wiki/Wikipedia:When%20to%20cite) more precise citations. _\(March 2011\)__ \([Learn how and when to remove this message](https://en.wikipedia.org/wiki/Help:Maintenance%20template%20removal)\)_ | -->
+<!-- | ![](../../archives/Wikimedia%20Commons/Text%20document%20with%20red%20question%20mark.svg) | This article includes a list of [general references](https://en.wikipedia.org/wiki/Wikipedia:Citing%20sources#General%20references), but __it lacks sufficient corresponding [inline citations](https://en.wikipedia.org/wiki/Wikipedia:Citing%20sources#Inline%20citations)__. Please help to [improve](https://en.wikipedia.org/wiki/Wikipedia:WikiProject%20Reliability) this article by [introducing](https://en.wikipedia.org/wiki/Wikipedia:When%20to%20cite) more precise citations. _\(March 2011\)__ \([Learn how and when to remove this message](https://en.wikipedia.org/wiki/Help:Maintenance%20template%20removal)\)_ | -->
 
 <!-- _Bourbaki also defines an inductive set to be a partially ordered set that satisfies the hypothesis of [Zorn's lemma](Zorn's%20lemma.md) when nonempty._ -->
 
@@ -38,7 +38,7 @@ This text incorporates [content](https://en.wikipedia.org/wiki/inductive_set) fr
 
 |                                                                    |                                                                                                                                                                                                                                 |
 | ------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![set theory stub](../archives/Wikimedia%20Commons/CardContin.svg) | _This [set theory](set%20theory.md)-related article is a [stub](https://en.wikipedia.org/wiki/Wikipedia:Stub). You can help Wikipedia by [expanding it](https://en.wikipedia.org/w/index.php?title=Inductive_set&action=edit)._ |
+| ![set theory stub](../../archives/Wikimedia%20Commons/CardContin.svg) | _This [set theory](set%20theory.md)-related article is a [stub](https://en.wikipedia.org/wiki/Wikipedia:Stub). You can help Wikipedia by [expanding it](https://en.wikipedia.org/w/index.php?title=Inductive_set&action=edit)._ |
 
 > [Categories](https://en.wikipedia.org/wiki/Help:Category):
 >

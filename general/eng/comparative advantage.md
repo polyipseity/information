@@ -5,7 +5,7 @@ aliases:
   - comparative advantage
   - comparative advantages
 tags:
-  - flashcard/active/general/comparative_advantage
+  - flashcard/active/general/eng/comparative_advantage
   - language/in/English
 ---
 

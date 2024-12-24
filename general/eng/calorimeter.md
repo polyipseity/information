@@ -5,7 +5,7 @@ aliases:
   - calorimeter
   - calorimeters
 tags:
-  - flashcard/active/general/calorimeter
+  - flashcard/active/general/eng/calorimeter
   - language/in/English
 ---
 
@@ -13,7 +13,7 @@ tags:
 
 ```Python
 # pytextgen generate module
-# import ../../tools/utility.py.md
+# import ../../../tools/utility.py.md
 ```
 
 A __calorimeter__ is {@{an object used for [calorimetry](calorimetry.md)}@}. It can be used to {@{measure the [heat](heat.md) of [physical changes](physical%20change.md) or [chemical reactions](chemical%20reaction.md)}@}. <!--SR:!2028-07-25,1512,350!2025-07-16,573,310-->

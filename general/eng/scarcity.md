@@ -2,7 +2,7 @@
 aliases:
   - scarcity
 tags:
-  - flashcard/active/general/scarcity
+  - flashcard/active/general/eng/scarcity
   - language/in/English
 ---
 

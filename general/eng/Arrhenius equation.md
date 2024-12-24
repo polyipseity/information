@@ -2,7 +2,7 @@
 aliases:
   - Arrhenius equation
 tags:
-  - flashcard/active/general/Arrhenius_equation
+  - flashcard/active/general/eng/Arrhenius_equation
   - language/in/English
 ---
 

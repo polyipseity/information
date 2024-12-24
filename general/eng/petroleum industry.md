@@ -3,7 +3,7 @@ aliases:
   - petroleum industries
   - petroleum industry
 tags:
-  - flashcard/active/general/petroleum_industry
+  - flashcard/active/general/eng/petroleum_industry
   - language/in/English
 ---
 
@@ -11,7 +11,7 @@ tags:
 
 ```Python
 # pytextgen generate module
-# import ../../tools/utility.py.md
+# import ../../../tools/utility.py.md
 ```
 
 ## impact

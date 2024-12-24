@@ -3,7 +3,7 @@ aliases:
   - Hg
   - mercury
 tags:
-  - flashcard/active/general/mercury
+  - flashcard/active/general/eng/mercury
   - language/in/English
 ---
 
@@ -11,7 +11,7 @@ tags:
 
 ```Python
 # pytextgen generate module
-# import ../../tools/utility.py.md
+# import ../../../tools/utility.py.md
 ```
 
 ## uses

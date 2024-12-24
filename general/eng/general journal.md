@@ -3,7 +3,7 @@ aliases:
   - general journal
   - general journals
 tags:
-  - flashcard/active/general/general_journal
+  - flashcard/active/general/eng/general_journal
   - language/in/English
 ---
 

@@ -3,7 +3,7 @@ aliases:
   - price
   - prices
 tags:
-  - flashcard/active/general/price
+  - flashcard/active/general/eng/price
   - language/in/English
 ---
 
@@ -11,13 +11,13 @@ tags:
 
 - For other uses, see [price \(disambiguation\)](price%20(disambiguation).md).
 
-> {@{![The competitive price system according to Paul Samuelson](../archives/Wikimedia%20Commons/The%20competitive%20price%20system%20adapted%20from%20Samuelson,%201961.jpg)}@}
+> {@{![The competitive price system according to Paul Samuelson](../../archives/Wikimedia%20Commons/The%20competitive%20price%20system%20adapted%20from%20Samuelson,%201961.jpg)}@}
 >
 > {@{The competitive price system according to [Paul Samuelson](Paul%20Samuelson.md)}@} <!--SR:!2024-12-29,29,270!2025-02-10,67,310-->
 
 <!-- markdownlint MD028 -->
 
-> ![A price display for a tagged clothes item at Kohl's](../archives/Wikimedia%20Commons/Wireless%20in-store%20price%20display%20at%20a%20clothing%20retailer%20in%20NJ.jpg)
+> ![A price display for a tagged clothes item at Kohl's](../../archives/Wikimedia%20Commons/Wireless%20in-store%20price%20display%20at%20a%20clothing%20retailer%20in%20NJ.jpg)
 >
 > {@{A price display for a tagged clothes item at Kohl's}@} <!--SR:!2025-01-30,57,310-->
 

@@ -3,7 +3,7 @@ aliases:
   - arch
   - arches
 tags:
-  - flashcard/active/general/arch
+  - flashcard/active/general/eng/arch
   - language/in/English
 ---
 

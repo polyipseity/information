@@ -5,7 +5,7 @@ aliases:
   - otto cycle
   - otto cycles
 tags:
-  - flashcard/active/general/Otto_cycle
+  - flashcard/active/general/eng/Otto_cycle
   - language/in/English
 ---
 
@@ -13,7 +13,7 @@ tags:
 
 ```Python
 # pytextgen generate module
-# import ../../tools/utility.py.md
+# import ../../../tools/utility.py.md
 ```
 
 ## processes

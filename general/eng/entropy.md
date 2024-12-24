@@ -3,7 +3,7 @@ aliases:
   - entropies
   - entropy
 tags:
-  - flashcard/active/general/entropy
+  - flashcard/active/general/eng/entropy
   - language/in/English
 ---
 

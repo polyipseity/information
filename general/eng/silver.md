@@ -3,7 +3,7 @@ aliases:
   - Ag
   - silver
 tags:
-  - flashcard/active/general/silver
+  - flashcard/active/general/eng/silver
   - language/in/English
 ---
 
@@ -11,7 +11,7 @@ tags:
 
 ```Python
 # pytextgen generate module
-# import ../../tools/utility.py.md
+# import ../../../tools/utility.py.md
 ```
 
 ## uses

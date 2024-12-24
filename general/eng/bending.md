@@ -3,7 +3,7 @@ aliases:
   - bending
   - mechanical bending
 tags:
-  - flashcard/active/general/bending
+  - flashcard/active/general/eng/bending
   - language/in/English
 ---
 
@@ -11,7 +11,7 @@ tags:
 
 ```Python
 # pytextgen generate module
-# import ../../tools/utility.py.md
+# import ../../../tools/utility.py.md
 ```
 
 ## quasi-static bending of beams

@@ -2,7 +2,7 @@
 aliases:
   - virial theorem
 tags:
-  - flashcard/active/general/virial_theorem
+  - flashcard/active/general/eng/virial_theorem
   - language/in/English
 ---
 

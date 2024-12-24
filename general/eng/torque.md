@@ -4,7 +4,7 @@ aliases:
   - moment of force
   - torque
 tags:
-  - flashcard/active/general/torque
+  - flashcard/active/general/eng/torque
   - language/in/English
 ---
 
@@ -22,7 +22,7 @@ The principle of moments, also known as {@{[Varignon's theorem](Varignon's%20the
 
 A special case, often given as the definition of torque or moment in non-[physics](physics.md) fields, is as follows: {@{$$\tau = (\text{moment arm})(\text{force})$$}@} <!--SR:!2025-05-06,273,330-->
 
-> ![moment arm diagram](../archives/Wikimedia%20Commons/Moment%20arm.svg)
+> ![moment arm diagram](../../archives/Wikimedia%20Commons/Moment%20arm.svg)
 >
 > A diagram showing the moment arm for a force.
 

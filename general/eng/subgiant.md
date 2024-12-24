@@ -3,7 +3,7 @@ aliases:
   - subgiant
   - subgiants
 tags:
-  - flashcard/active/general/subgiant
+  - flashcard/active/general/eng/subgiant
   - language/in/English
 ---
 

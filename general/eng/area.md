@@ -2,7 +2,7 @@
 aliases:
   - area
 tags:
-  - flashcard/active/general/area
+  - flashcard/active/general/eng/area
   - language/in/English
 ---
 
@@ -10,7 +10,7 @@ tags:
 
 ```Python
 # pytextgen generate module
-# import ../../tools/utility.py.md
+# import ../../../tools/utility.py.md
 ```
 
 ## formal definition

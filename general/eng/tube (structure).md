@@ -5,7 +5,7 @@ aliases:
   - tube systems
   - tubes
 tags:
-  - flashcard/active/general/tube__structure_
+  - flashcard/active/general/eng/tube__structure_
   - language/in/English
 ---
 

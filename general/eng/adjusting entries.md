@@ -5,7 +5,7 @@ aliases:
   - adjustment entries
   - adjustment entry
 tags:
-  - flashcard/active/general/adjusting_entries
+  - flashcard/active/general/eng/adjusting_entries
   - language/in/English
 ---
 

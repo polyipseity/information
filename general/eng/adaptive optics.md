@@ -3,7 +3,7 @@ aliases:
   - adaptive optic
   - adaptive optics
 tags:
-  - flashcard/active/general/adaptive_optics
+  - flashcard/active/general/eng/adaptive_optics
   - language/in/English
 ---
 

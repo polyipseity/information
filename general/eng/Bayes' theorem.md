@@ -3,7 +3,7 @@ aliases:
   - Bayes theorem
   - Bayes' theorem
 tags:
-  - flashcard/active/general/Bayes__theorem
+  - flashcard/active/general/eng/Bayes__theorem
   - language/in/English
 ---
 

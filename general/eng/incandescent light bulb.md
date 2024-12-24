@@ -7,7 +7,7 @@ aliases:
   - incandescent light globe
   - incandescent light globes
 tags:
-  - flashcard/active/general/incandescent_light_bulb
+  - flashcard/active/general/eng/incandescent_light_bulb
   - language/in/English
 ---
 

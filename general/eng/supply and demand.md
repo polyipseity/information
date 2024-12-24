@@ -7,19 +7,19 @@ aliases:
   - supplies
   - supply
 tags:
-  - flashcard/active/general/supply_and_demand
+  - flashcard/active/general/eng/supply_and_demand
   - language/in/English
 ---
 
 # supply and demand
 
-> {@{![Supply and demand curves with economic equilibrium of price and quantity sold](../archives/Wikimedia%20Commons/Supply-demand-equilibrium.svg)}@}
+> {@{![Supply and demand curves with economic equilibrium of price and quantity sold](../../archives/Wikimedia%20Commons/Supply-demand-equilibrium.svg)}@}
 >
 > {@{Supply and demand curves with [economic equilibrium](economic%20equilibrium.md) of price and quantity sold}@} <!--SR:!2025-01-24,59,310!2025-02-01,66,310-->
 
 <!-- markdownlint MD028 -->
 
-> {@{![Supply chain as connected supply and demand curves](../archives/Wikimedia%20Commons/Supply%20and%20demand-stacked4.png)}@}
+> {@{![Supply chain as connected supply and demand curves](../../archives/Wikimedia%20Commons/Supply%20and%20demand-stacked4.png)}@}
 >
 > {@{[Supply chain](supply%20chain.md) as connected supply and demand curves}@} <!--SR:!2025-01-18,51,310!2025-01-18,54,310-->
 
@@ -85,15 +85,15 @@ Common determinants of demand are:
 
 ### history of the curves
 
-> ![Cournot's Recherches (1838)](../archives/Wikimedia%20Commons/Cournotdemand.gif)
+> ![Cournot's Recherches (1838)](../../archives/Wikimedia%20Commons/Cournotdemand.gif)
 >
 > Cournot's _Recherches_ (1838)
 >
-> ![Jenkin's Graphical Representation (1870)](../archives/Wikimedia%20Commons/Jenkincurves.gif)
+> ![Jenkin's Graphical Representation (1870)](../../archives/Wikimedia%20Commons/Jenkincurves.gif)
 >
 > Jenkin's _Graphical Representation_ (1870)
 >
->![Marshall's Principles (1890)](../archives/Wikimedia%20Commons/Marshalldemand.gif)
+>![Marshall's Principles (1890)](../../archives/Wikimedia%20Commons/Marshalldemand.gif)
 >
 > Marshall's _Principles_ (1890)
 >
@@ -121,7 +121,7 @@ A situation in a market when {@{the price is such that the quantity demanded by 
 
 - see: [demand curve](demand%20curve.md)
 
-> {@{![Right-shift of demand curve increases both price and quantity.](../archives/Wikimedia%20Commons/Supply-demand-right-shift-demand.svg)}@}
+> {@{![Right-shift of demand curve increases both price and quantity.](../../archives/Wikimedia%20Commons/Supply-demand-right-shift-demand.svg)}@}
 >
 > {@{Right-shift of [demand curve](demand%20curve.md) increases both price and quantity.}@} <!--SR:!2025-01-30,64,310!2025-01-27,62,310-->
 
@@ -133,7 +133,7 @@ If {@{the _demand decreases_}@}, then {@{the opposite happens: a shift of the cu
 
 - see: [supply (economics)](supply%20(economics).md)
 
-> {@{![Right-shift of supply curve decreases price and increases quantity.](../archives/Wikimedia%20Commons/Supply-demand-right-shift-supply.svg)}@}
+> {@{![Right-shift of supply curve decreases price and increases quantity.](../../archives/Wikimedia%20Commons/Supply-demand-right-shift-supply.svg)}@}
 >
 > {@{Right-shift of [supply curve](supply%20(economics).md) decreases price and increases quantity.}@} <!--SR:!2025-02-10,74,330!2025-02-09,73,330-->
 
@@ -175,7 +175,7 @@ The model of supply and demand accurately describes {@{the characteristic of met
 
 ## macroeconomic uses
 
-> ![Human-hours worked per week in the United States. Labor is supply, money is demand.](../archives/Wikimedia%20Commons/Human%20hours%20worked%20per%20week.webp)
+> ![Human-hours worked per week in the United States. Labor is supply, money is demand.](../../archives/Wikimedia%20Commons/Human%20hours%20worked%20per%20week.webp)
 >
 > {@{[Human-hours](man-hour.md) worked per week in the United States. [Labor](work%20(human%20activity).md) is supply, money is [demand](demand.md).}@} <!--SR:!2025-02-11,75,330-->
 

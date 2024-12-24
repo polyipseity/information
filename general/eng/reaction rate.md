@@ -5,7 +5,7 @@ aliases:
   - reaction rate
   - reaction rates
 tags:
-  - flashcard/active/general/reaction_rate
+  - flashcard/active/general/eng/reaction_rate
   - language/in/English
 ---
 
@@ -13,7 +13,7 @@ tags:
 
 ```Python
 # pytextgen generate module
-# import ../../tools/utility.py.md
+# import ../../../tools/utility.py.md
 ```
 
 ## definition

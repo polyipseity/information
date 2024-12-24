@@ -2,7 +2,7 @@
 aliases:
   - marginalism
 tags:
-  - flashcard/active/general/marginalism
+  - flashcard/active/general/eng/marginalism
   - language/in/English
 ---
 

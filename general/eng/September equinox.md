@@ -3,7 +3,7 @@ aliases:
   - September equinox
   - September equinoxes
 tags:
-  - flashcard/active/general/September_equinox
+  - flashcard/active/general/eng/September_equinox
   - language/in/English
 ---
 

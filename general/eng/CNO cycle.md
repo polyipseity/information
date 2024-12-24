@@ -11,7 +11,7 @@ aliases:
   - CNO cycle
   - CNO cycles
 tags:
-  - flashcard/active/general/CNO_cycle
+  - flashcard/active/general/eng/CNO_cycle
   - language/in/English
 ---
 

@@ -4,7 +4,7 @@ aliases:
   - group (periodic table)
   - groups
 tags:
-  - flashcard/active/general/group__periodic_table_
+  - flashcard/active/general/eng/group__periodic_table_
   - language/in/English
 ---
 
@@ -12,7 +12,7 @@ tags:
 
 ```Python
 # pytextgen generate module
-# import ../../tools/utility.py.md
+# import ../../../tools/utility.py.md
 ```
 
 A __group__ is {@{a column of [chemical elements](chemical%20element.md) in the [periodic table](periodic%20table.md)}@}. The elements have {@{similar [chemical](chemical%20property.md) or [physical](physical%20property.md) characteristics in their outermost [electron shells](electron%20shell.md)}@}. <!--SR:!2027-01-04,1068,350!2028-11-26,1534,310-->

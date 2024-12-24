@@ -3,7 +3,7 @@ aliases:
   - spectral color
   - spectral colors
 tags:
-  - flashcard/active/general/spectral_color
+  - flashcard/active/general/eng/spectral_color
   - language/in/English
 ---
 
@@ -11,7 +11,7 @@ tags:
 
 ```Python
 # pytextgen generate module
-# import ../../tools/utility.py.md
+# import ../../../tools/utility.py.md
 ```
 
 ## data

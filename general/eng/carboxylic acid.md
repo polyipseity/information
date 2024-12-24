@@ -3,7 +3,7 @@ aliases:
   - carboxylic acid
   - carboxylic acids
 tags:
-  - flashcard/active/general/carboxylic_acid
+  - flashcard/active/general/eng/carboxylic_acid
   - language/in/English
 ---
 
@@ -11,7 +11,7 @@ tags:
 
 ```Python
 # pytextgen generate module
-# import ../../tools/utility.py.md
+# import ../../../tools/utility.py.md
 ```
 
 ## physical properties

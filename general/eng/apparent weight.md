@@ -3,7 +3,7 @@ aliases:
   - apparent weight
   - apparent weights
 tags:
-  - flashcard/active/general/apparent_weight
+  - flashcard/active/general/eng/apparent_weight
   - language/in/English
 ---
 

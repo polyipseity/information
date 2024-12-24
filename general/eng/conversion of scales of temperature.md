@@ -3,7 +3,7 @@ aliases:
   - conversion of scales of temperature
   - conversions of scales of temperature
 tags:
-  - flashcard/active/general/conversion_of_scales_of_temperature
+  - flashcard/active/general/eng/conversion_of_scales_of_temperature
   - language/in/English
 ---
 
@@ -11,7 +11,7 @@ tags:
 
 ```Python
 # pytextgen generate module
-# import ../../tools/utility.py.md
+# import ../../../tools/utility.py.md
 from asyncio import gather as _gather
 from itertools import chain as _chain
 from pytextgen.util import Location as _Loc, NULL_LOCATION as _NULL_LOC

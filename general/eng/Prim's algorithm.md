@@ -5,13 +5,13 @@ aliases:
   - Prim's algorithm
   - Prim's algorithms
 tags:
-  - flashcard/active/general/Prim_s_algorithm
+  - flashcard/active/general/eng/Prim_s_algorithm
   - language/in/English
 ---
 
 # Prim's algorithm
 
-> ![A demo for Prim's algorithm based on Euclidean distance](../archives/Wikimedia%20Commons/PrimAlgDemo.gif)
+> ![A demo for Prim's algorithm based on Euclidean distance](../../archives/Wikimedia%20Commons/PrimAlgDemo.gif)
 >
 > {@{A demo for Prim's algorithm based on Euclidean distance}@} <!--SR:!2025-02-08,59,310-->
 
@@ -21,7 +21,7 @@ The algorithm was developed {@{in 1930}@} by {@{[Czech](Czechs.md) mathematician
 
 {@{Other well-known algorithms for this problem}@} include {@{[Kruskal's algorithm](Kruskal's%20algorithm.md) and [Borůvka's algorithm](Borůvka's%20algorithm.md)}@}.<sup>[\[8\]](#^ref-8)</sup> These algorithms {@{find the minimum spanning forest in a possibly disconnected graph}@}; in contrast, {@{the most basic form of Prim's algorithm only finds minimum spanning trees in connected graphs}@}. However, {@{running Prim's algorithm separately for each [connected component](component%20(graph%20theory).md) of the graph}@}, it can {@{also be used to find the minimum spanning forest}@}.<sup>[\[9\]](#^ref-9)</sup> In terms of {@{their asymptotic [time complexity](time%20complexity.md)}@}, these three algorithms are {@{equally fast for [sparse graphs](dense%20graph.md)}@}, but {@{slower than other more sophisticated algorithms}@}.<sup>[\[7\]](#^ref-7)</sup><sup>[\[6\]](#^ref-6)</sup> However, for {@{graphs that are sufficiently dense}@}, Prim's algorithm can be {@{made to run in [linear time](time%20complexity.md#linear%20time), meeting or improving the time bounds for other algorithms}@}.<sup>[\[10\]](#^ref-10)</sup> <!--SR:!2025-02-18,67,310!2025-02-16,65,310!2025-01-18,42,290!2025-02-16,65,310!2025-02-09,60,310!2025-02-11,62,310!2025-02-06,57,310!2025-01-23,43,290!2025-02-08,59,310!2025-02-08,59,310!2025-02-16,65,310-->
 
-> {@{![Prim's algorithm](../archives/Wikimedia%20Commons/Prim's%20algorithm.svg)}@}
+> {@{![Prim's algorithm](../../archives/Wikimedia%20Commons/Prim's%20algorithm.svg)}@}
 >
 > {@{Prim's algorithm starting at vertex A}@}. In the third step, {@{edges BD and AB both have weight 2, so BD is chosen arbitrarily}@}. After that step, {@{AB is no longer a candidate for addition to the tree}@} because {@{it links two nodes that are already in the tree}@}. <!--SR:!2025-02-10,61,310!2025-02-16,65,310!2025-01-29,47,290!2025-02-09,60,310!2025-02-18,67,310-->
 
@@ -51,7 +51,7 @@ As described above, {@{the starting vertex for the algorithm}@} will {@{be chose
 
 ## time complexity
 
-> ![The generation of a maze using a randomized Prim's algorithm. This maze is 30x20 in size.](../archives/Wikimedia%20Commons/MAZE%2030x20%20Prim.ogv)
+> ![The generation of a maze using a randomized Prim's algorithm. This maze is 30x20 in size.](../../archives/Wikimedia%20Commons/MAZE%2030x20%20Prim.ogv)
 >
 > Prim's algorithm has {@{many applications, such as in the [generation](maze%20generation%20algorithm.md) of this maze}@}, which {@{applies Prim's algorithm to a randomly weighted}@} [grid graph](lattice%20graph.md). <!--SR:!2025-02-12,63,310!2025-02-18,67,310-->
 
@@ -73,7 +73,7 @@ A first improved version uses {@{a heap to store all edges of the input graph, o
 
 Using {@{a simple [binary heap](binary%20heap.md) data structure}@}, Prim's algorithm can now be shown to {@{run in time [O](Big%20O%20notation.md)\(\|E\| log \|V\|\) where \|E\| is the number of edges and \|V\| is the number of vertices}@}. Using {@{a more sophisticated [Fibonacci heap](Fibonacci%20heap.md)}@}, this can be brought down to {@{[O](Big%20O%20notation.md)\(\|E\| + \|V\| log \|V\|\)}@}, which is {@{[asymptotically faster](asymptotic%20computational%20complexity.md) when the graph is [dense](dense%20graph.md) enough that \|E\| is [ω](Big%20O%20notation.md#Family%20of%20Bachmann.E2.80.93Landau%20notations)\(\|V\|\)}@}, and {@{[linear time](time%20complexity.md#linear%20time) when \|E\| is at least \|V\| log \|V\|}@}. For {@{graphs of even greater density \(having at least \|V\|<sup>_c_</sup> edges for some _c_ \> 1\)}@}, Prim's algorithm can be {@{made to run in linear time even more simply, by using a [_d_-ary heap](d-ary%20heap.md) in place of a Fibonacci heap}@}.<sup>[\[10\]](#^ref-10)</sup><sup>[\[11\]](#^ref-11)</sup> <!--SR:!2025-01-22,42,290!2025-01-15,39,290!2025-01-26,44,290!2025-01-15,39,290!2025-01-02,26,270!2025-02-10,61,310!2025-01-27,45,290!2025-01-22,42,290-->
 
-> {@{![Diagram to assist in proof of Prim's algorithm.](../archives/Wikimedia%20Commons/Prim's%20algorithm%20proof.svg)}@}
+> {@{![Diagram to assist in proof of Prim's algorithm.](../../archives/Wikimedia%20Commons/Prim's%20algorithm%20proof.svg)}@}
 >
 > {@{Demonstration of proof}@}. In this case, {@{the graph _Y<sub>1</sub>_ = _Y_ − _f_ + _e_ is already equal to _Y_}@}. In general, {@{the process may need to be repeated}@}. <!--SR:!2025-02-18,67,310!2025-02-16,65,310!2025-01-28,46,290!2025-02-16,65,310-->
 
@@ -128,4 +128,4 @@ This text incorporates [content](https://en.wikipedia.org/wiki/Prim's_algorithm)
 ## external links
 
 - [Prim's Algorithm progress on randomly distributed points](https://meyavuz.wordpress.com/2017/03/10/prims-algorithm-animation-for-randomly-distributed-points)
-- ![Wikimedia Commons logo](../archives/Wikimedia%20Commons/Commons-logo.svg) Media related to [Prim's algorithm](https://commons.wikimedia.org/wiki/Category:Prim%27s%20algorithm) at Wikimedia Commons
+- ![Wikimedia Commons logo](../../archives/Wikimedia%20Commons/Commons-logo.svg) Media related to [Prim's algorithm](https://commons.wikimedia.org/wiki/Category:Prim%27s%20algorithm) at Wikimedia Commons

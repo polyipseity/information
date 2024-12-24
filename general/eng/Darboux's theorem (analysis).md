@@ -6,7 +6,7 @@ aliases:
   - Darboux’s theorem
   - intermediate value property
 tags:
-  - flashcard/active/general/Darboux_s_theorem
+  - flashcard/active/general/eng/Darboux_s_theorem
   - language/in/English
 ---
 

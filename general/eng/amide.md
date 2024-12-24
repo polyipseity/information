@@ -3,7 +3,7 @@ aliases:
   - amide
   - amides
 tags:
-  - flashcard/active/general/amide
+  - flashcard/active/general/eng/amide
   - language/in/English
 ---
 
@@ -11,7 +11,7 @@ tags:
 
 ```Python
 # pytextgen generate module
-# import ../../tools/utility.py.md
+# import ../../../tools/utility.py.md
 ```
 
 ## physical properties

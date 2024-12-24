@@ -3,7 +3,7 @@ aliases:
   - circumpolar star
   - circumpolar stars
 tags:
-  - flashcard/active/general/circumpolar_star
+  - flashcard/active/general/eng/circumpolar_star
   - language/in/English
 ---
 

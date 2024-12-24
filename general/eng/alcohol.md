@@ -3,7 +3,7 @@ aliases:
   - alcohol
   - alcohols
 tags:
-  - flashcard/active/general/alcohol
+  - flashcard/active/general/eng/alcohol
   - language/in/English
 ---
 
@@ -11,7 +11,7 @@ tags:
 
 ```Python
 # pytextgen generate module
-# import ../../tools/utility.py.md
+# import ../../../tools/utility.py.md
 ```
 
 ## physical properties

@@ -3,7 +3,7 @@ aliases:
   - eclipse season
   - eclipse seasons
 tags:
-  - flashcard/active/general/eclipse_season
+  - flashcard/active/general/eng/eclipse_season
   - language/in/English
 ---
 

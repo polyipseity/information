@@ -4,7 +4,7 @@ aliases:
   - element symbol
   - element symbols
 tags:
-  - flashcard/active/general/chemical_symbol
+  - flashcard/active/general/eng/chemical_symbol
   - language/in/English
 ---
 
@@ -14,7 +14,7 @@ __Chemical symbols__ are {@{abbreviations for [chemical substances](chemical%20s
 
 ## extensions
 
-> {@{![Annotated element symbol](../archives/Wikimedia%20Commons/Atomic%20Symbol%20Mg.svg)}@}
+> {@{![Annotated element symbol](../../archives/Wikimedia%20Commons/Atomic%20Symbol%20Mg.svg)}@}
 >
 > Annotated element symbol <!--SR:!2026-06-23,850,330-->
 

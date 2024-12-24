@@ -4,7 +4,7 @@ aliases:
   - combination
   - combinations
 tags:
-  - flashcard/active/general/combination
+  - flashcard/active/general/eng/combination
   - language/in/English
 ---
 

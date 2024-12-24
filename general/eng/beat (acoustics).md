@@ -4,7 +4,7 @@ aliases:
   - beat (acoustics)
   - beats
 tags:
-  - flashcard/active/general/beat__acoustics_
+  - flashcard/active/general/eng/beat__acoustics_
   - language/in/English
 ---
 

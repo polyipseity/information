@@ -12,13 +12,13 @@ aliases:
   - ctime
   - time.h
 tags:
-  - flashcard/active/general/C_date_and_time_functions
+  - flashcard/active/general/eng/C_date_and_time_functions
   - language/in/English
 ---
 
 # C date and time functions
 
-See [date and time utilities](../special/C/date%20and%20time%20utilities.md).
+See [date and time utilities](../../special/C/date%20and%20time%20utilities.md).
 
 ## references
 

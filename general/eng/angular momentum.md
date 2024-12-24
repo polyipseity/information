@@ -17,7 +17,7 @@ aliases:
   - rotational momentum
   - rotational momentums
 tags:
-  - flashcard/active/general/angular_momentum
+  - flashcard/active/general/eng/angular_momentum
   - language/in/English
 ---
 

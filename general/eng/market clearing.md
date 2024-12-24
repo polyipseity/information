@@ -4,13 +4,13 @@ aliases:
   - market clearing
   - market clears
 tags:
-  - flashcard/active/general/market_clearing
+  - flashcard/active/general/eng/market_clearing
   - language/in/English
 ---
 
 # market clearing
 
-> ![market clearing in retail stores](../archives/Wikimedia%20Commons/Sales%20Poznan%202011.jpg)
+> ![market clearing in retail stores](../../archives/Wikimedia%20Commons/Sales%20Poznan%202011.jpg)
 >
 > In {@{[retail stores](retail%20format.md#retail%20types%20by%20marketing%20strategy)}@}, when {@{a business ends up with too much of a certain product, which remains unsold at its longstanding price (such as unsold summer clothing as the colder season approaches)}@}, the store will {@{typically discount the price until the excess stock is sold, a simple example of market clearing}@}. <!--SR:!2025-02-01,62,310!2025-01-03,38,290!2025-02-08,67,310-->
 

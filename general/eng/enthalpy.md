@@ -3,7 +3,7 @@ aliases:
   - enthalpies
   - enthalpy
 tags:
-  - flashcard/active/general/enthalpy
+  - flashcard/active/general/eng/enthalpy
   - language/in/English
 ---
 
@@ -11,7 +11,7 @@ tags:
 
 ```Python
 # pytextgen generate module
-# import ../../tools/utility.py.md
+# import ../../../tools/utility.py.md
 ```
 
 In [chemistry](chemistry.md), the enthalpy of reaction is {@{the heat change of reaction under constant [pressure](pressure.md) and [temperature](temperature.md)}@}. <!--SR:!2025-12-16,628,270-->

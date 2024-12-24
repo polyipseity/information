@@ -3,7 +3,7 @@ aliases:
   - structural support
   - structural supports
 tags:
-  - flashcard/active/general/structural_support
+  - flashcard/active/general/eng/structural_support
   - language/in/English
 ---
 

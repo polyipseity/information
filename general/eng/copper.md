@@ -3,7 +3,7 @@ aliases:
   - Cu
   - copper
 tags:
-  - flashcard/active/general/copper
+  - flashcard/active/general/eng/copper
   - language/in/English
 ---
 
@@ -11,7 +11,7 @@ tags:
 
 ```Python
 # pytextgen generate module
-# import ../../tools/utility.py.md
+# import ../../../tools/utility.py.md
 ```
 
 ## uses

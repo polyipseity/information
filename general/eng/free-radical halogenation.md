@@ -2,7 +2,7 @@
 aliases:
   - free radical halogenation
 tags:
-  - flashcard/active/general/free-radical_halogenation
+  - flashcard/active/general/eng/free-radical_halogenation
   - language/in/English
 ---
 
@@ -10,7 +10,7 @@ tags:
 
 ```Python
 # pytextgen generate module
-# import ../../tools/utility.py.md
+# import ../../../tools/utility.py.md
 ```
 
 __Free-radical halogenation__ is {@{a type of [halogenation](halogentaion.md), which is a type of [substitution reaction](substitution%20reaction.md)}@}. <!--SR:!2026-05-08,815,299-->

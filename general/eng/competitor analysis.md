@@ -2,7 +2,7 @@
 aliases:
   - competitor analysis
 tags:
-  - flashcard/active/general/competitor_analysis
+  - flashcard/active/general/eng/competitor_analysis
   - language/in/English
 ---
 
@@ -10,7 +10,7 @@ tags:
 
 ```Python
 # pytextgen generate module
-# import ../../tools/utility.py.md
+# import ../../../tools/utility.py.md
 ```
 
 ## outline

@@ -3,7 +3,7 @@ aliases:
   - Southern Tropic
   - Tropic of Capricorn
 tags:
-  - flashcard/active/general/Tropic_of_Capricorn
+  - flashcard/active/general/eng/Tropic_of_Capricorn
   - language/in/English
 ---
 

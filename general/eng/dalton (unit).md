@@ -4,7 +4,7 @@ aliases:
   - dalton (unit)
   - unified atomic mass unit
 tags:
-  - flashcard/active/general/dalton__unit_
+  - flashcard/active/general/eng/dalton__unit_
   - language/in/English
 ---
 

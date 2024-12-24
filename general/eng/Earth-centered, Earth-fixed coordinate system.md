@@ -4,7 +4,7 @@ aliases:
   - Earth-centered, Earth-fixed coordinate system
   - ecef
 tags:
-  - flashcard/active/general/Earth-centered__Earth-fixed_coordinate_system
+  - flashcard/active/general/eng/Earth-centered__Earth-fixed_coordinate_system
   - language/in/English
 ---
 

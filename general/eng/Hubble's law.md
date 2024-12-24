@@ -5,7 +5,7 @@ aliases:
   - Hubble-Lemaître law
   - Hubble–Lemaître law
 tags:
-  - flashcard/active/general/Hubble_s_law
+  - flashcard/active/general/eng/Hubble_s_law
   - language/in/English
 ---
 

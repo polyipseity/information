@@ -1,6 +1,6 @@
 ---
 tags:
-  - flashcard/active/general/weathering
+  - flashcard/active/general/eng/weathering
   - language/in/English
 ---
 
@@ -8,7 +8,7 @@ tags:
 
 ```Python
 # pytextgen generate module
-# import ../../tools/utility.py.md
+# import ../../../tools/utility.py.md
 ```
 
 __Weathering__ is {@{the deterioration of [material](material.md) through contact with external agents _[in situ](in%20situ.md)_}@}. It is distinct from {@{[erosion](erosion.md) which involves movement}@}. <!--SR:!2025-10-07,442,230!2026-04-29,857,330-->

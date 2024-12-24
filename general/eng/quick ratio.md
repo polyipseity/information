@@ -7,7 +7,7 @@ aliases:
   - quick ratio
   - quick ratios
 tags:
-  - flashcard/active/general/quick_ratio
+  - flashcard/active/general/eng/quick_ratio
   - language/in/English
 ---
 

@@ -2,7 +2,7 @@
 aliases:
   - dihydroxlation
 tags:
-  - flashcard/active/general/dihydroxylation
+  - flashcard/active/general/eng/dihydroxylation
   - language/in/English
 ---
 

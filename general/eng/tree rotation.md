@@ -3,13 +3,13 @@ aliases:
   - tree rotation
   - tree rotations
 tags:
-  - flashcard/active/general/tree_rotation
+  - flashcard/active/general/eng/tree_rotation
   - language/in/English
 ---
 
 # tree rotation
 
-> {@{![Generic tree rotations.](../archives/Wikimedia%20Commons/BinaryTreeRotations.svg)}@}
+> {@{![Generic tree rotations.](../../archives/Wikimedia%20Commons/BinaryTreeRotations.svg)}@}
 >
 > {@{Generic tree rotations.}@} <!--SR:!2024-12-26,4,270!2024-12-26,4,270-->
 
@@ -19,13 +19,13 @@ There exists {@{an inconsistency in different descriptions as to the definition 
 
 ## illustration
 
-> {@{![tree rotation](../archives/Wikimedia%20Commons/Tree%20rotation.png)}@}
+> {@{![tree rotation](../../archives/Wikimedia%20Commons/Tree%20rotation.png)}@}
 >
 > {@{tree rotation}@} <!--SR:!2024-12-26,4,270!2024-12-26,4,270-->
 
 <!-- markdownlint MD028 -->
 
-> {@{![tree rotation animation](../archives/Wikimedia%20Commons/Tree%20rotation%20animation%20250x250.gif)}@}
+> {@{![tree rotation animation](../../archives/Wikimedia%20Commons/Tree%20rotation%20animation%20250x250.gif)}@}
 >
 > {@{tree rotation animation}@} <!--SR:!2024-12-26,4,270!2024-12-26,4,270-->
 
@@ -35,7 +35,7 @@ Assuming {@{this is a [binary search tree](binary%20search%20tree.md)}@}, as sta
 
 ## detailed illustration
 
-> {@{![Pictorial description of how rotations are made.](../archives/Wikimedia%20Commons/Tree%20Rotations.gif)}@}
+> {@{![Pictorial description of how rotations are made.](../../archives/Wikimedia%20Commons/Tree%20Rotations.gif)}@}
 >
 > {@{Pictorial description of how rotations are made.}@} <!--SR:!2024-12-26,4,270!2024-12-26,4,270-->
 
@@ -120,7 +120,7 @@ Tree rotations are {@{used in a number of tree [data structures](data%20structur
 
 ## rotations for rebalancing
 
-> {@{![Pictorial description of how rotations cause rebalancing in an AVL tree.](../archives/Wikimedia%20Commons/Tree%20Rebalancing.gif)}@}
+> {@{![Pictorial description of how rotations cause rebalancing in an AVL tree.](../../archives/Wikimedia%20Commons/Tree%20Rebalancing.gif)}@}
 >
 > {@{Pictorial description of how rotations cause rebalancing in an AVL tree.}@} <!--SR:!2024-12-26,4,270!2024-12-25,3,250-->
 

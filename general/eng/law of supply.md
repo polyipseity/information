@@ -5,7 +5,7 @@ aliases:
   - laws of supplies
   - laws of supply
 tags:
-  - flashcard/active/general/law_of_supply
+  - flashcard/active/general/eng/law_of_supply
   - language/in/English
 ---
 

@@ -59,15 +59,14 @@ _PRESERVED_PAGE_PREFIXES = {
 _ARCHIVE_REGEXES = {
     compile(
         r"^https://upload.wikimedia.org/wikipedia/[^/]*/thumb/[0-9a-f]/[0-9a-f]{2}/([^/]*)/.*$"
-    ): ("File:{}", "../archives/Wikimedia Commons/{}"),
+    ): ("File:{}", "../../archives/Wikimedia Commons/{}"),
 }
 
 with open(f"{NAME}.names map.json", "rt") as names_map_file:
     _names_map_manual = load(names_map_file)
 _names_map = {
-    filename[:-3]: filename[:-3]
-    for filename in iglob("*.md", root_dir="../general/")
-    if filename[:1].isupper()
+    f"{filename[:1].upper()}{filename[1:-3]}": filename[:-3]
+    for filename in iglob("*.md", root_dir="../general/eng/")
 }
 if _names_map_overlap := frozenset(_names_map).intersection(_names_map_manual):
     raise ValueError(_names_map_overlap)

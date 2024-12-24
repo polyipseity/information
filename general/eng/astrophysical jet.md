@@ -5,7 +5,7 @@ aliases:
   - relativistic jet
   - relativistic jets
 tags:
-  - flashcard/active/general/astrophysical_jet
+  - flashcard/active/general/eng/astrophysical_jet
   - language/in/English
 ---
 

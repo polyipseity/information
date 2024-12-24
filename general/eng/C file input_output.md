@@ -14,13 +14,13 @@ aliases:
   - cstdio
   - stdio.h
 tags:
-  - flashcard/active/general/C_file_input_output
+  - flashcard/active/general/eng/C_file_input_output
   - language/in/English
 ---
 
 # C file input/output
 
-See [file input/output](../special/C/file%20input_output.md).
+See [file input/output](../../special/C/file%20input_output.md).
 
 ## references
 

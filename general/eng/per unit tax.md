@@ -5,7 +5,7 @@ aliases:
   - specific tax
   - specific taxes
 tags:
-  - flashcard/active/general/per_unit_tax
+  - flashcard/active/general/eng/per_unit_tax
   - language/in/English
 ---
 

@@ -5,7 +5,7 @@ aliases:
   - sun
   - suns
 tags:
-  - flashcard/active/general/Sun
+  - flashcard/active/general/eng/Sun
   - language/in/English
 ---
 

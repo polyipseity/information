@@ -3,7 +3,7 @@ aliases:
   - spiral galaxies
   - spiral galaxy
 tags:
-  - flashcard/active/general/spiral_galaxy
+  - flashcard/active/general/eng/spiral_galaxy
   - language/in/English
 ---
 

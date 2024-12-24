@@ -3,7 +3,7 @@ aliases:
   - Dedekind cut
   - Dedekind cuts
 tags:
-  - flashcard/active/general/Dedekind_cut
+  - flashcard/active/general/eng/Dedekind_cut
   - language/in/English
 ---
 
@@ -11,7 +11,7 @@ tags:
 
 - For {@{the American record producer known professionally as Dedekind Cut}@}, see {@{[Fred Warmsley](Fred%20Warmsley.md)}@}. <!--SR:!2024-12-26,4,270!2024-12-25,3,250-->
 
-> {@{![Dedekind used his cut to construct the [irrational](irrational%20number.md), [real numbers](real%20number.md).](../archives/Wikimedia%20Commons/Dedekind%20cut%20at%20square%20root%20of%20two.svg)}@}
+> {@{![Dedekind used his cut to construct the [irrational](irrational%20number.md), [real numbers](real%20number.md).](../../archives/Wikimedia%20Commons/Dedekind%20cut%20at%20square%20root%20of%20two.svg)}@}
 >
 > {@{Dedekind used his cut to construct the [irrational](irrational%20number.md), [real numbers](real%20number.md).}@} <!--SR:!2024-12-26,4,270!2024-12-26,4,270-->
 

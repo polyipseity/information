@@ -7,7 +7,7 @@ aliases:
   - ion
   - ions
 tags:
-  - flashcard/active/general/ion
+  - flashcard/active/general/eng/ion
   - language/in/English
 ---
 
@@ -15,7 +15,7 @@ tags:
 
 ```Python
 # pytextgen generate module
-# import ../../tools/utility.py.md
+# import ../../../tools/utility.py.md
 ```
 
 An __ion__ is an [atom](atom.md) or [molecule](molecule.md) with a net electrical charge. A {@{__cation__}@} is a {@{positively charged ion}@}, while an {@{__anion__}@} is a {@{negatively charged ion}@}.<!--SR:!2027-01-19,1447,365!2027-11-08,1684,370!2026-07-20,1290,352!2027-05-12,1546,374-->

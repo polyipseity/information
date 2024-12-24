@@ -3,7 +3,7 @@ aliases:
   - substitution effect
   - substitution effects
 tags:
-  - flashcard/active/general/substitution_effect
+  - flashcard/active/general/eng/substitution_effect
   - language/in/English
 ---
 
@@ -27,7 +27,7 @@ Economists had {@{long understood that changes in price could lead to two main r
 
 ## graphical analysis
 
-> {@{![graph for graphical analysis](../archives/Wikimedia%20Commons/Hicks%20Substitution%20effect.svg)}@}
+> {@{![graph for graphical analysis](../../archives/Wikimedia%20Commons/Hicks%20Substitution%20effect.svg)}@}
 >
 > {@{graph for graphical analysis}@} <!--SR:!2025-02-09,68,312!2025-02-09,68,312-->
 

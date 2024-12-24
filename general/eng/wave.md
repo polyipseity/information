@@ -3,7 +3,7 @@ aliases:
   - wave
   - waves
 tags:
-  - flashcard/active/general/wave
+  - flashcard/active/general/eng/wave
   - language/in/English
 ---
 

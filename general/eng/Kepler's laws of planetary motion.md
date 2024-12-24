@@ -9,7 +9,7 @@ aliases:
   - Kepler's laws
   - Kepler's laws of planetary motion
 tags:
-  - flashcard/active/general/Kepler_s_laws_of_planetary_motion
+  - flashcard/active/general/eng/Kepler_s_laws_of_planetary_motion
   - language/in/English
 ---
 
@@ -17,7 +17,7 @@ tags:
 
 ```Python
 # pytextgen generate module
-# import ../../tools/utility.py.md
+# import ../../../tools/utility.py.md
 ```
 
 The __Kepler's laws of planetary motion__ describe {@{the [orbits](Kepler%20orbit.md) of [planets](planet.md) around the [Sun](Sun.md)}@}. They were {@{published by [Johannes Kepler](Johannes%20Kepler.md) between 1609 and 1619}@}. They state that: <!--SR:!2026-01-05,712,310!2025-03-04,173,310-->

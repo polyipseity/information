@@ -3,7 +3,7 @@ aliases:
   - IG
   - information gain
 tags:
-  - flashcard/active/general/information_gain
+  - flashcard/active/general/eng/information_gain
   - language/in/English
 ---
 

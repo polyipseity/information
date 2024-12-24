@@ -3,7 +3,7 @@ aliases:
   - outer product
   - outer products
 tags:
-  - flashcard/active/general/outer_product
+  - flashcard/active/general/eng/outer_product
   - language/in/English
 ---
 

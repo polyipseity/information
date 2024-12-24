@@ -5,7 +5,7 @@ aliases:
   - sulfuric acid
   - sulphuric acid
 tags:
-  - flashcard/active/general/sulfuric_acid
+  - flashcard/active/general/eng/sulfuric_acid
   - language/in/English
 ---
 

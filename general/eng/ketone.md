@@ -3,7 +3,7 @@ aliases:
   - ketone
   - ketones
 tags:
-  - flashcard/active/general/ketone
+  - flashcard/active/general/eng/ketone
   - language/in/English
 ---
 
@@ -11,7 +11,7 @@ tags:
 
 ```Python
 # pytextgen generate module
-# import ../../tools/utility.py.md
+# import ../../../tools/utility.py.md
 ```
 
 ## physical properties

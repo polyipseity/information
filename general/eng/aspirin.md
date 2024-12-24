@@ -5,7 +5,7 @@ aliases:
   - acetylsaylicylic acid
   - aspirin
 tags:
-  - flashcard/active/general/aspirin
+  - flashcard/active/general/eng/aspirin
   - language/in/English
 ---
 
@@ -13,10 +13,10 @@ tags:
 
 ```Python
 # pytextgen generate module
-# import ../../tools/utility.py.md
+# import ../../../tools/utility.py.md
 ```
 
-> {@{![skeletal formula of aspirin](../archives/Wikimedia%20Commons/Aspirin-skeletal.svg)}@}
+> {@{![skeletal formula of aspirin](../../archives/Wikimedia%20Commons/Aspirin-skeletal.svg)}@}
 >
 > {@{[skeletal formula](skeletal%20formula.md) of aspirin}@} <!--SR:!2025-09-09,262,190!2029-04-05,1721,364-->
 

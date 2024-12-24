@@ -6,7 +6,7 @@ aliases:
   - NGC 6611
   - Star Queen Nebula
 tags:
-  - flashcard/active/general/Eagle_Nebula
+  - flashcard/active/general/eng/Eagle_Nebula
   - language/in/English
 ---
 

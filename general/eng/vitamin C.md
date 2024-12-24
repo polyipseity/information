@@ -5,13 +5,13 @@ aliases:
   - vitaminc C
   - ʟ-ascorbic acid
 tags:
-  - flashcard/active/general/vitamin_C
+  - flashcard/active/general/eng/vitamin_C
   - language/in/English
 ---
 
 # vitamin C
 
-> {@{![structure of vitamin C](../archives/Wikimedia%20Commons/L-Ascorbic%20acid.svg)}@}
+> {@{![structure of vitamin C](../../archives/Wikimedia%20Commons/L-Ascorbic%20acid.svg)}@}
 >
 > structure of vitamin C <!--SR:!2025-01-26,62,130-->
 

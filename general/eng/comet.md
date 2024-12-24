@@ -3,7 +3,7 @@ aliases:
   - comet
   - comets
 tags:
-  - flashcard/active/general/comet
+  - flashcard/active/general/eng/comet
   - language/in/English
 ---
 

@@ -3,13 +3,13 @@ aliases:
   - independent good
   - independent goods
 tags:
-  - flashcard/active/general/independent_goods
+  - flashcard/active/general/eng/independent_goods
   - language/in/English
 ---
 
 # independent goods
 
-> {@{![two goods that are independent have a zero cross price elasticity of demand](../archives/Wikimedia%20Commons/Cross%20elasticity%20of%20demand%20independent.svg)}@}
+> {@{![two goods that are independent have a zero cross price elasticity of demand](../../archives/Wikimedia%20Commons/Cross%20elasticity%20of%20demand%20independent.svg)}@}
 >
 > {@{Two goods that are independent have a zero cross price elasticity of demand}@}: {@{as the price of good Y rises, the demand for good X stays constant}@}. <!--SR:!2025-01-31,61,310!2025-02-07,66,310!2025-02-06,65,310-->
 

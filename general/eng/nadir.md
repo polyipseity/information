@@ -3,7 +3,7 @@ aliases:
   - nadir
   - nadirs
 tags:
-  - flashcard/active/general/nadir
+  - flashcard/active/general/eng/nadir
   - language/in/English
 ---
 

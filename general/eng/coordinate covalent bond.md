@@ -7,7 +7,7 @@ aliases:
   - dative bonding
   - dative bonds
 tags:
-  - flashcard/active/general/coordinate_covalent_bond
+  - flashcard/active/general/eng/coordinate_covalent_bond
   - language/in/English
 ---
 

@@ -4,7 +4,7 @@ aliases:
   - pH
   - pOH
 tags:
-  - flashcard/active/general/pH
+  - flashcard/active/general/eng/pH
   - language/in/English
 ---
 

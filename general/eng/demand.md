@@ -3,7 +3,7 @@ aliases:
   - demand
   - demands
 tags:
-  - flashcard/active/general/demand
+  - flashcard/active/general/eng/demand
   - language/in/English
 ---
 
@@ -190,6 +190,6 @@ This text incorporates [content](https://en.wikipedia.org/wiki/demand) from [Wik
 
 - [Friedman, Milton](Milton%20Friedman.md) \(December 1949\). "The Marshallian Demand Curve". _Journal of Political Economy_. __57__ \(6\): 463–495. [doi](digital%20object%20identifier.md):[10.1086/256879](https://doi.org/10.1086%2F256879). [JSTOR](JSTOR.md) [1826553](https://www.jstor.org/stable/1826553).
 
-> ![Wikiquote logo](../archives/Wikimedia%20Commons/Wikiquote-logo.svg)
+> ![Wikiquote logo](../../archives/Wikimedia%20Commons/Wikiquote-logo.svg)
 >
 > Wikiquote has quotations related to ___[Demand](https://en.wikiquote.org/wiki/Special:Search/Demand)___.

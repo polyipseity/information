@@ -3,7 +3,7 @@ aliases:
   - ester
   - esters
 tags:
-  - flashcard/active/general/ester
+  - flashcard/active/general/eng/ester
   - language/in/English
 ---
 
@@ -11,7 +11,7 @@ tags:
 
 ```Python
 # pytextgen generate module
-# import ../../tools/utility.py.md
+# import ../../../tools/utility.py.md
 ```
 
 ## physical properties

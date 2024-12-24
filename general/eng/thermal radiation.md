@@ -3,7 +3,7 @@ aliases:
   - thermal radiation
   - thermal radiations
 tags:
-  - flashcard/active/general/thermal_radiation
+  - flashcard/active/general/eng/thermal_radiation
   - language/in/English
 ---
 

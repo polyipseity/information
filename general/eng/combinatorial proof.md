@@ -3,7 +3,7 @@ aliases:
   - combinatorial proof
   - combinatorial proofs
 tags:
-  - flashcard/active/general/combinatorial_proof
+  - flashcard/active/general/eng/combinatorial_proof
   - language/in/English
 ---
 

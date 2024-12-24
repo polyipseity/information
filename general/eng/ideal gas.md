@@ -3,7 +3,7 @@ aliases:
   - ideal gas
   - ideal gases
 tags:
-  - flashcard/active/general/ideal_gas
+  - flashcard/active/general/eng/ideal_gas
   - language/in/English
 ---
 
@@ -11,7 +11,7 @@ tags:
 
 ```Python
 # pytextgen generate module
-# import ../../tools/utility.py.md
+# import ../../../tools/utility.py.md
 ```
 
 ## classical thermodynamic ideal gas

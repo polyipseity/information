@@ -3,7 +3,7 @@ aliases:
   - thermodynamic process
   - thermodynamic processes
 tags:
-  - flashcard/active/general/thermodynamic_process
+  - flashcard/active/general/eng/thermodynamic_process
   - language/in/English
 ---
 
@@ -11,7 +11,7 @@ tags:
 
 ```Python
 # pytextgen generate module
-# import ../../tools/utility.py.md
+# import ../../../tools/utility.py.md
 ```
 
 ## overview

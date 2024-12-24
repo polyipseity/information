@@ -3,7 +3,7 @@ aliases:
   - activity series
   - reactivity series
 tags:
-  - flashcard/active/general/reactivity_series
+  - flashcard/active/general/eng/reactivity_series
   - language/in/English
 ---
 
@@ -11,7 +11,7 @@ tags:
 
 ```Python
 # pytextgen generate module
-# import ../../tools/utility.py.md
+# import ../../../tools/utility.py.md
 ```
 
 A __reactivity series__ is {@{a progression of series of [metals](metal.md) arranged by their [reactivity](reactivity%20(chemistry).md)}@}. <!--SR:!2026-08-16,874,290-->

@@ -3,7 +3,7 @@ aliases:
   - isotope
   - isotopes
 tags:
-  - flashcard/active/general/isotope
+  - flashcard/active/general/eng/isotope
   - language/in/English
 ---
 

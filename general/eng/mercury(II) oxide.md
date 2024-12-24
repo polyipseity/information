@@ -5,7 +5,7 @@ aliases:
   - mercury oxide
   - mercury(II) oxide
 tags:
-  - flashcard/active/general/mercury_II__oxide
+  - flashcard/active/general/eng/mercury_II__oxide
   - language/in/English
 ---
 

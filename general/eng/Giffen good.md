@@ -3,7 +3,7 @@ aliases:
   - Giffen good
   - Giffen goods
 tags:
-  - flashcard/active/general/Giffen_good
+  - flashcard/active/general/eng/Giffen_good
   - language/in/English
 ---
 
@@ -11,7 +11,7 @@ tags:
 
 - Not to be confused with {@{[Veblen goods](Veblen%20good.md)}@}. <!--SR:!2025-02-24,75,329-->
 
-> {@{![Indifference map with two budget lines \(red\) depending on the price of Giffen good _x_](../archives/Wikimedia%20Commons/Giffenen.svg)}@}
+> {@{![Indifference map with two budget lines \(red\) depending on the price of Giffen good _x_](../../archives/Wikimedia%20Commons/Giffenen.svg)}@}
 >
 > {@{Indifference map with two budget lines \(red\) depending on the price of Giffen good _x_}@} <!--SR:!2025-02-13,65,310!2025-01-23,44,290-->
 
@@ -21,7 +21,7 @@ For {@{[ordinary goods](ordinary%20good.md)}@}, as {@{the [price](price.md) of t
 
 ## background
 
-> {@{![types of goods in economics](../archives/Wikimedia%20Commons/Types%20of%20goods.svg)}@}
+> {@{![types of goods in economics](../../archives/Wikimedia%20Commons/Types%20of%20goods.svg)}@}
 >
 > {@{Types of goods in economics}@} <!--SR:!2025-01-05,31,270!2025-02-07,59,310-->
 

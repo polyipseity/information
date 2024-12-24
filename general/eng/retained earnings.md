@@ -17,7 +17,7 @@ aliases:
   - retained loss
   - retained losses
 tags:
-  - flashcard/active/general/retained_earnings
+  - flashcard/active/general/eng/retained_earnings
   - language/in/English
 ---
 

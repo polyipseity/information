@@ -3,7 +3,7 @@ aliases:
   - revenue
   - revenues
 tags:
-  - flashcard/active/general/revenue
+  - flashcard/active/general/eng/revenue
   - language/in/English
 ---
 

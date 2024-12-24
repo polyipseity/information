@@ -3,7 +3,7 @@ aliases:
   - Mg(OH)2
   - magnesium hydroxide
 tags:
-  - flashcard/active/general/magnesium_hydroxide
+  - flashcard/active/general/eng/magnesium_hydroxide
   - language/in/English
 ---
 

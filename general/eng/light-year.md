@@ -5,7 +5,7 @@ aliases:
   - lightyear
   - lightyears
 tags:
-  - flashcard/active/general/light-year
+  - flashcard/active/general/eng/light-year
   - language/in/English
 ---
 

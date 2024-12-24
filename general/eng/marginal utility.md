@@ -3,7 +3,7 @@ aliases:
   - marginal utilities
   - marginal utility
 tags:
-  - flashcard/active/general/marginal_utility
+  - flashcard/active/general/eng/marginal_utility
   - language/in/English
 ---
 
@@ -77,7 +77,7 @@ Price is determined by {@{both marginal utility and marginal cost, and here is t
 
 ## quantified marginal utility
 
-> {@{![Diminishing marginal utility, given quantification](../archives/Wikimedia%20Commons/UtilityQuantified.svg)}@}
+> {@{![Diminishing marginal utility, given quantification](../../archives/Wikimedia%20Commons/UtilityQuantified.svg)}@}
 >
 > {@{Diminishing marginal utility, given quantification}@} <!--SR:!2025-02-04,66,310!2025-02-01,63,310-->
 

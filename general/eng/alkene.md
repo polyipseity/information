@@ -3,7 +3,7 @@ aliases:
   - alkene
   - alkenes
 tags:
-  - flashcard/active/general/alkene
+  - flashcard/active/general/eng/alkene
   - language/in/English
 ---
 
@@ -11,7 +11,7 @@ tags:
 
 ```Python
 # pytextgen generate module
-# import ../../tools/utility.py.md
+# import ../../../tools/utility.py.md
 ```
 
 An __alkene__ is {@{an [acyclic](open-chain%20compound.md) [unsaturated hydrocarbon](unsaturated%20hydrocarbon.md) containing [carbon](carbon.md)–carbon [double bonds](double%20bond.md)}@}. <!--SR:!2025-06-08,587,310-->

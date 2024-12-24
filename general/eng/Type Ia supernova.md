@@ -4,7 +4,7 @@ aliases:
   - Type Ia supernovae
   - Type Ia supernovas
 tags:
-  - flashcard/active/general/Type_Ia_supernova
+  - flashcard/active/general/eng/Type_Ia_supernova
   - language/in/English
 ---
 

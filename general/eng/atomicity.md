@@ -2,7 +2,7 @@
 aliases:
   - atomicity
 tags:
-  - flashcard/active/general/atomicity
+  - flashcard/active/general/eng/atomicity
   - language/in/English
 ---
 
@@ -10,7 +10,7 @@ tags:
 
 ```Python
 # pytextgen generate module
-# import ../../tools/utility.py.md
+# import ../../../tools/utility.py.md
 ```
 
 __Atomicity__ is {@{the number of atoms in a [molecule](molecule.md)}@}. <!--SR:!2025-11-25,741,330-->

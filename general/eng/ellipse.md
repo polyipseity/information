@@ -2,7 +2,7 @@
 aliases:
   - ellipse
 tags:
-  - flashcard/active/general/ellipse
+  - flashcard/active/general/eng/ellipse
   - language/in/English
 ---
 

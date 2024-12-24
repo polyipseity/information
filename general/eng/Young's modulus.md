@@ -2,7 +2,7 @@
 aliases:
   - Young's modulus
 tags:
-  - flashcard/active/general/Young_s_modulus
+  - flashcard/active/general/eng/Young_s_modulus
   - language/in/English
 ---
 

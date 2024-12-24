@@ -2,7 +2,7 @@
 aliases:
   - Leibniz integral rule
 tags:
-  - flashcard/active/general/Leibniz_integral_rule
+  - flashcard/active/general/eng/Leibniz_integral_rule
   - language/in/English
 ---
 

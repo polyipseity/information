@@ -2,7 +2,7 @@
 aliases:
   - organic synthesis
 tags:
-  - flashcard/active/general/organic_synthesis
+  - flashcard/active/general/eng/organic_synthesis
   - language/in/English
 ---
 
@@ -10,7 +10,7 @@ tags:
 
 ```Python
 # pytextgen generate module
-# import ../../tools/utility.py.md
+# import ../../../tools/utility.py.md
 ```
 
 ## considerations

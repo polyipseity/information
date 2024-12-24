@@ -3,7 +3,7 @@ aliases:
   - Milky Way
   - Milky Way galaxy
 tags:
-  - flashcard/active/general/Milky_Way
+  - flashcard/active/general/eng/Milky_Way
   - language/in/English
 ---
 

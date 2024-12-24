@@ -3,7 +3,7 @@ aliases:
   - conditional independence
   - conditional independent
 tags:
-  - flashcard/active/general/conditional_independence
+  - flashcard/active/general/eng/conditional_independence
   - language/in/English
 ---
 

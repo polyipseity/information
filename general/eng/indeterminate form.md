@@ -5,7 +5,7 @@ aliases:
   - indeterminate form
   - indeterminate forms
 tags:
-  - flashcard/active/general/L_Hôpital_s_rule
+  - flashcard/active/general/eng/L_Hôpital_s_rule
   - language/in/English
 ---
 
@@ -13,7 +13,7 @@ tags:
 
 ```Python
 # pytextgen generate module
-# import ../../tools/utility.py.md
+# import ../../../tools/utility.py.md
 ```
 
 ## evaluating indeterminate forms

@@ -1,6 +1,6 @@
 ---
 tags:
-  - flashcard/active/general/plum_pudding_model
+  - flashcard/active/general/eng/plum_pudding_model
   - language/in/English
 ---
 

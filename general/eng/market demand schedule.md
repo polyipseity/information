@@ -3,7 +3,7 @@ aliases:
   - market demand schedule
   - market demand schedules
 tags:
-  - flashcard/active/general/market_demand_schedule
+  - flashcard/active/general/eng/market_demand_schedule
   - language/in/English
 ---
 
@@ -13,7 +13,7 @@ In [economics](economics.md), a __market demand schedule__ is {@{a tabulation of
 
 Generally, there is {@{an inverse relationship between the price and the quantity demanded}@}.<sup>[\[1\]](#^ref-1)</sup><sup>[\[2\]](#^ref-2)</sup> {@{The graphical representation of a demand schedule}@} is {@{called a [demand curve](demand%20curve.md)}@}. <!--SR:!2025-02-01,63,310!2025-02-03,65,310!2025-02-02,64,310-->
 
-> {@{![An example of a market demand schedule](../archives/Wikimedia%20Commons/Market%20Demand%20Schedule%20copy.png)}@}
+> {@{![An example of a market demand schedule](../../archives/Wikimedia%20Commons/Market%20Demand%20Schedule%20copy.png)}@}
 >
 > {@{An example of a market demand schedule}@} <!--SR:!2025-01-04,41,290!2025-02-05,67,310-->
 

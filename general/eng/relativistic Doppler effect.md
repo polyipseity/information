@@ -5,7 +5,7 @@ aliases:
   - relativistic doppler effect
   - relativistic doppler shift
 tags:
-  - flashcard/active/general/relativistic_Doppler_effect
+  - flashcard/active/general/eng/relativistic_Doppler_effect
   - language/in/English
 ---
 

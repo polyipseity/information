@@ -3,7 +3,7 @@ aliases:
   - supercluster
   - supeerclusters
 tags:
-  - flashcard/active/general/supercluster
+  - flashcard/active/general/eng/supercluster
   - language/in/English
 ---
 

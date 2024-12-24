@@ -17,7 +17,7 @@ aliases:
   - information visualization
   - information viz
 tags:
-  - flashcard/active/general/data_and_information_visualization
+  - flashcard/active/general/eng/data_and_information_visualization
   - language/in/English
 ---
 

@@ -3,7 +3,7 @@ aliases:
   - Pauli exclusion principle
   - Pauli exclusion principles
 tags:
-  - flashcard/active/general/Pauli_exclusion_principle
+  - flashcard/active/general/eng/Pauli_exclusion_principle
   - language/in/English
 ---
 

@@ -3,7 +3,7 @@ aliases:
   - matrices
   - matrix
 tags:
-  - flashcard/active/general/matrix__mathematics_
+  - flashcard/active/general/eng/matrix__mathematics_
   - language/in/English
 ---
 

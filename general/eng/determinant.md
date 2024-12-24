@@ -5,7 +5,7 @@ aliases:
   - matrix determinant
   - matrix determinants
 tags:
-  - flashcard/active/general/determinant
+  - flashcard/active/general/eng/determinant
   - language/in/English
 ---
 

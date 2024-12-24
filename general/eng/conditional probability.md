@@ -3,7 +3,7 @@ aliases:
   - conditional probabilities
   - conditional probability
 tags:
-  - flashcard/active/general/conditional_probability
+  - flashcard/active/general/eng/conditional_probability
   - language/in/English
 ---
 

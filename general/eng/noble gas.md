@@ -10,7 +10,7 @@ aliases:
   - noble gas
   - noble gases
 tags:
-  - flashcard/active/general/noble_gas
+  - flashcard/active/general/eng/noble_gas
   - language/in/English
 ---
 

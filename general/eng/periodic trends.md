@@ -3,7 +3,7 @@ aliases:
   - periodic trend
   - periodic trends
 tags:
-  - flashcard/active/general/periodic_trends
+  - flashcard/active/general/eng/periodic_trends
   - language/in/English
 ---
 
@@ -11,7 +11,7 @@ tags:
 
 ```Python
 # pytextgen generate module
-# import ../../tools/utility.py.md
+# import ../../../tools/utility.py.md
 ```
 
 ## summary

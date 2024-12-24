@@ -5,7 +5,7 @@ aliases:
   - factors of produce
   - factors of production
 tags:
-  - flashcard/active/general/factors_of_production
+  - flashcard/active/general/eng/factors_of_production
   - language/in/English
 ---
 

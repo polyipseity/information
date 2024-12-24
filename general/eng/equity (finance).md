@@ -3,7 +3,7 @@ aliases:
   - equities
   - equity
 tags:
-  - flashcard/active/general/equity__finance_
+  - flashcard/active/general/eng/equity__finance_
   - language/in/English
 ---
 

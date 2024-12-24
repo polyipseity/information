@@ -5,7 +5,7 @@ aliases:
   - Tolman–Oppenheimer–Volkoff limit
   - Tolman–Oppenheimer–Volkoff limits
 tags:
-  - flashcard/active/general/Tolman-Oppenheimer-Volkoff_limit
+  - flashcard/active/general/eng/Tolman-Oppenheimer-Volkoff_limit
   - language/in/English
 ---
 

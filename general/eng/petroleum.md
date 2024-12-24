@@ -6,7 +6,7 @@ aliases:
   - oils
   - petroleum
 tags:
-  - flashcard/active/general/petroleum
+  - flashcard/active/general/eng/petroleum
   - language/in/English
 ---
 
@@ -14,7 +14,7 @@ tags:
 
 ```Python
 # pytextgen generate module
-# import ../../tools/utility.py.md
+# import ../../../tools/utility.py.md
 ```
 
 ## composition

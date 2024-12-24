@@ -2,7 +2,7 @@
 aliases:
   - supernova nucleosynthesis
 tags:
-  - flashcard/active/general/supernova_nucleosynthesis
+  - flashcard/active/general/eng/supernova_nucleosynthesis
   - language/in/English
 ---
 

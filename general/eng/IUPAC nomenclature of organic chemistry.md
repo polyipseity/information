@@ -2,7 +2,7 @@
 aliases:
   - IUPAC nomenclature of organic chemistry
 tags:
-  - flashcard/active/general/IUPAC_nomenclature_of_organic_chemistry
+  - flashcard/active/general/eng/IUPAC_nomenclature_of_organic_chemistry
   - language/in/English
 ---
 
@@ -10,7 +10,7 @@ tags:
 
 ```Python
 # pytextgen generate module
-# import ../../tools/utility.py.md
+# import ../../../tools/utility.py.md
 ```
 
 The __IUPAC nomenclature of organic chemistry__ is {@{a method of naming [organic compounds](organic%20compound.md)}@}. There is also the [IUPAC nomenclature of inorganic chemistry](IUPAC%20nomenclature%20of%20inorganic%20chemistry.md). <!--SR:!2029-01-22,1702,383-->

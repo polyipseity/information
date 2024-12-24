@@ -3,7 +3,7 @@ aliases:
   - ODE
   - ordinary differential equation
 tags:
-  - flashcard/active/general/ordinary_differential_equation
+  - flashcard/active/general/eng/ordinary_differential_equation
   - language/in/English
 ---
 
@@ -11,7 +11,7 @@ tags:
 
 ```Python
 # pytextgen generate module
-# import ../../tools/utility.py.md
+# import ../../../tools/utility.py.md
 ```
 
 ## definitions

@@ -7,7 +7,7 @@ aliases:
   - stellar coronae
   - stellar coronas
 tags:
-  - flashcard/active/general/stellar_corona
+  - flashcard/active/general/eng/stellar_corona
   - language/in/English
 ---
 

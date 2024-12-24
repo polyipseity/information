@@ -6,7 +6,7 @@ aliases:
   - list of moments of inertia
   - list of rotational inertias
 tags:
-  - flashcard/active/general/list_of_moments_of_inertia
+  - flashcard/active/general/eng/list_of_moments_of_inertia
   - language/in/English
 ---
 

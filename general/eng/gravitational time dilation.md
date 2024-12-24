@@ -3,7 +3,7 @@ aliases:
   - gravitational time dilation
   - gravitational time dilations
 tags:
-  - flashcard/active/general/gravitational_time_dilation
+  - flashcard/active/general/eng/gravitational_time_dilation
   - language/in/English
 ---
 

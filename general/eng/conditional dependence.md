@@ -3,7 +3,7 @@ aliases:
   - conditional dependence
   - conditional dependent
 tags:
-  - flashcard/active/general/conditional_dependence
+  - flashcard/active/general/eng/conditional_dependence
   - language/in/English
 ---
 

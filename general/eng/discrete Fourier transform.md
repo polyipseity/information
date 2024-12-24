@@ -4,7 +4,7 @@ aliases:
   - discrete Fourier transform
   - discrete Fourier transforms
 tags:
-  - flashcard/active/general/discrete_Fourier_transform
+  - flashcard/active/general/eng/discrete_Fourier_transform
   - language/in/English
 ---
 

@@ -3,7 +3,7 @@ aliases:
   - market economies
   - market economy
 tags:
-  - flashcard/active/general/market_economy
+  - flashcard/active/general/eng/market_economy
   - language/in/English
 ---
 

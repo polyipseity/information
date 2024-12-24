@@ -3,7 +3,7 @@ aliases:
   - chromatic aberration
   - chromatic aberrations
 tags:
-  - flashcard/active/general/chromatic_aberration
+  - flashcard/active/general/eng/chromatic_aberration
   - language/in/English
 ---
 

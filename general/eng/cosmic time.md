@@ -4,7 +4,7 @@ aliases:
   - look-back time
   - lookback time
 tags:
-  - flashcard/active/general/cosmic_time
+  - flashcard/active/general/eng/cosmic_time
   - language/in/English
 ---
 

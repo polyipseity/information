@@ -5,7 +5,7 @@ aliases:
   - Keplerian orbit
   - Keplerian orbits
 tags:
-  - flashcard/active/general/Kepler_orbit
+  - flashcard/active/general/eng/Kepler_orbit
   - language/in/English
 ---
 

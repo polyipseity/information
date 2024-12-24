@@ -2,7 +2,7 @@
 aliases:
   - nylon
 tags:
-  - flashcard/active/general/nylon
+  - flashcard/active/general/eng/nylon
   - language/in/English
 ---
 
@@ -10,7 +10,7 @@ tags:
 
 ```Python
 # pytextgen generate module
-# import ../../tools/utility.py.md
+# import ../../../tools/utility.py.md
 ```
 
 ## chemistry

@@ -3,7 +3,7 @@ aliases:
   - substitute good
   - substitute goods
 tags:
-  - flashcard/active/general/substitute_good
+  - flashcard/active/general/eng/substitute_good
   - language/in/English
 ---
 
@@ -19,7 +19,7 @@ Economic theory describes {@{two goods as being close substitutes if three condi
 2. products have the same or similar occasion ::@:: for use and <!--SR:!2025-01-28,58,310!2025-02-06,65,310-->
 3. products are sold in ::@:: the same geographic area <!--SR:!2025-01-26,56,310!2025-01-28,58,310-->
 
-> {@{![Figure 1: If the price of x_i increases, then demand for x_j increases](../archives/Wikimedia%20Commons/Cross%20elasticity%20of%20demand%20substitutes%20xi%20xj.svg)}@}
+> {@{![Figure 1: If the price of x_i increases, then demand for x_j increases](../../archives/Wikimedia%20Commons/Cross%20elasticity%20of%20demand%20substitutes%20xi%20xj.svg)}@}
 >
 > Figure 1: {@{If the price of $x_{i}$ increases, then demand for $x_{j}$ increases}@} <!--SR:!2025-02-18,76,330!2025-01-27,57,310-->
 
@@ -41,7 +41,7 @@ Let {@{$p_{i}$ be the [price](price.md) of good $x_{i}$}@}. Then, {@{$x_{j}$ is 
 
 {@{The fact that one good is substitutable for another}@} has {@{immediate economic consequences}@}: insofar {@{as one good can be substituted for another}@}, {@{the [demands](demand.md) for the two goods will be interrelated}@} by the fact that {@{customers can trade off one good for the other if it becomes advantageous to do so}@}. {@{Cross-price elasticity}@} helps us understand {@{the degree of substitutability of the two products}@}. {@{An increase in the price of a good}@} will {@{increase demand for its substitutes}@}, while {@{a decrease in the price of a good will decrease demand for its substitutes}@}, see Figure 2.<sup>[\[4\]](#^ref-4)</sup> <!--SR:!2025-02-17,75,330!2025-02-04,63,310!2025-01-26,56,310!2025-02-03,62,310!2025-01-24,54,310!2025-02-06,65,310!2025-01-25,55,310!2025-02-04,63,310!2025-01-16,47,290!2025-02-08,67,310-->
 
-> {@{![Figure 2: Graphical example of substitute goods](../archives/Wikimedia%20Commons/Substitute%20good%20chart.jpg)}@}
+> {@{![Figure 2: Graphical example of substitute goods](../../archives/Wikimedia%20Commons/Substitute%20good%20chart.jpg)}@}
 >
 > Figure 2: {@{Graphical example of substitute goods}@} <!--SR:!2025-02-08,67,310!2025-02-06,65,310-->
 
@@ -57,7 +57,7 @@ The cross-price elasticity may be {@{positive or negative, depending on whether 
 
 #### perfect substitutes
 
-> {@{![Figure 3: Utility functions of perfect substitutes](../archives/Wikimedia%20Commons/Indifference-curves-perfect-substitutes.svg)}@}
+> {@{![Figure 3: Utility functions of perfect substitutes](../../archives/Wikimedia%20Commons/Indifference-curves-perfect-substitutes.svg)}@}
 >
 > Figure 3: {@{Utility functions of perfect substitutes}@} <!--SR:!2025-01-25,55,310!2025-01-29,57,310-->
 
@@ -73,7 +73,7 @@ Perfect substitutes have {@{a high cross-elasticity of demand}@}. For example, i
 
 #### imperfect substitutes
 
-> {@{![Figure 4: Comparison of indifference curves of perfect and imperfect substitutes](../archives/Wikimedia%20Commons/Perfect-imperfect-substitutes-indifference-curve.png)}@}
+> {@{![Figure 4: Comparison of indifference curves of perfect and imperfect substitutes](../../archives/Wikimedia%20Commons/Perfect-imperfect-substitutes-indifference-curve.png)}@}
 >
 > Figure 4: {@{Comparison of indifference curves of perfect and imperfect substitutes}@} <!--SR:!2025-04-05,104,290!2025-02-08,67,310-->
 

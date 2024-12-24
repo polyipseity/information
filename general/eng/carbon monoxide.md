@@ -3,7 +3,7 @@ aliases:
   - CO
   - carbon monoxide
 tags:
-  - flashcard/active/general/carbon_monoxide
+  - flashcard/active/general/eng/carbon_monoxide
   - language/in/English
 ---
 

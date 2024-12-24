@@ -7,7 +7,7 @@ aliases:
   - memory unsafeties
   - memory unsafety
 tags:
-  - flashcard/active/general/memory_safety
+  - flashcard/active/general/eng/memory_safety
   - language/in/English
 ---
 

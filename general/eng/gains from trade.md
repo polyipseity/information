@@ -3,7 +3,7 @@ aliases:
   - gain from trade
   - gains from trade
 tags:
-  - flashcard/active/general/gains_from_trade
+  - flashcard/active/general/eng/gains_from_trade
   - language/in/English
 ---
 

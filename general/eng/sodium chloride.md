@@ -3,13 +3,13 @@ aliases:
   - NaCl
   - sodium chloride
 tags:
-  - flashcard/active/general/sodium_chloride
+  - flashcard/active/general/eng/sodium_chloride
   - language/in/English
 ---
 
 # sodium chloride
 
-> {@{![structure of sodium chloride](../archives/Wikimedia%20Commons/NaCl%20bonds.svg)}@}
+> {@{![structure of sodium chloride](../../archives/Wikimedia%20Commons/NaCl%20bonds.svg)}@}
 >
 > {@{structure of sodium chloride}@} <!--SR:!2027-10-25,1197,330!2029-01-26,1655,350-->
 

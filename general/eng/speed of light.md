@@ -3,7 +3,7 @@ aliases:
   - speed of light
   - speed of light in vacuum
 tags:
-  - flashcard/active/general/speed_of_light
+  - flashcard/active/general/eng/speed_of_light
   - language/in/English
 ---
 

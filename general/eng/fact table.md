@@ -3,7 +3,7 @@ aliases:
   - fact table
   - fact tables
 tags:
-  - flashcard/active/general/fact_table
+  - flashcard/active/general/eng/fact_table
   - language/in/English
 ---
 

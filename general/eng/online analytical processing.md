@@ -3,7 +3,7 @@ aliases:
   - OLAP
   - online analytical processing
 tags:
-  - flashcard/active/general/online_analytical_processing
+  - flashcard/active/general/eng/online_analytical_processing
   - language/in/English
 ---
 

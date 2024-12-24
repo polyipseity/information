@@ -1,6 +1,6 @@
 ---
 tags:
-  - flashcard/active/general/ore
+  - flashcard/active/general/eng/ore
   - language/in/English
 ---
 
@@ -8,7 +8,7 @@ tags:
 
 ```Python
 # pytextgen generate module
-# import ../../tools/utility.py.md
+# import ../../../tools/utility.py.md
 ```
 
 An __ore__ is {@{a [rock](rock%20(geology).md) or [sediment](sediment.md) containing valuable [minerals](mineral.md) [concentrated](concentration.md) above background levels.}@} <!--SR:!2026-02-18,590,230-->

@@ -5,7 +5,7 @@ aliases:
   - gravitational redshift
   - gravitational redshifts
 tags:
-  - flashcard/active/general/gravitational_redshift
+  - flashcard/active/general/eng/gravitational_redshift
   - language/in/English
 ---
 

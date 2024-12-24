@@ -5,7 +5,7 @@ aliases:
   - divisions of labor
   - divisions of labour
 tags:
-  - flashcard/active/general/division_of_labour
+  - flashcard/active/general/eng/division_of_labour
   - language/in/English
 ---
 

@@ -3,7 +3,7 @@ aliases:
   - financial statement analyses
   - financial statement analysis
 tags:
-  - flashcard/active/general/financial_statement_analysis
+  - flashcard/active/general/eng/financial_statement_analysis
   - language/in/English
 ---
 

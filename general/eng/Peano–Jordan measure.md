@@ -9,7 +9,7 @@ aliases:
   - Peano–Jordan measure
   - Peano–Jordan measures
 tags:
-  - flashcard/active/general/Peano-Jordan_measure
+  - flashcard/active/general/eng/Peano-Jordan_measure
   - language/in/English
 ---
 
@@ -33,13 +33,13 @@ $$S := R_1 \cup R_2 \cup \cdots \cup R_k \qquad k \ge 1$$
 
 However, the Jordan measure of a simple set cannot be defined as {@{the sum of measures of individual rectangles}@}. This is because {@{a simple set does not have an unique representation}@}, and the different representations give {@{inconsistent results if the above definition is used, as the amount of overlap can vary}@}. <!--SR:!2027-12-03,1087,350!2027-01-29,821,330!2025-01-09,260,330-->
 
-> {@{![finite union of 2D rectangles](../archives/Wikimedia%20Commons/Simple%20set1.png)}@}
+> {@{![finite union of 2D rectangles](../../archives/Wikimedia%20Commons/Simple%20set1.png)}@}
 >
 > {@{finite union of 2D rectangles}@} <!--SR:!2026-07-02,660,330!2025-02-03,255,343-->
 
 The above can be fixed by {@{rewriting any simple set as the union of mutually [disjoint](disjoint%20sets.md) rectangles}@}. The half-open interval requirement makes this possible. In fact, this rewriting is always allowed. This can be seen by {@{drawing several overlapping rectangles on a paper, then one can always find a way to cover the same area with non-overlapping rectangles}@}. Then the Jordan measure of a simple set can be defined as {@{the sum of measures of disjoint rectangles}@}. <!--SR:!2026-03-17,538,310!2026-09-04,707,330!2026-06-26,655,330-->
 
-> {@{![rewritten union of disjoint rectangles](../archives/Wikimedia%20Commons/Simple%20set2.png)}@}
+> {@{![rewritten union of disjoint rectangles](../../archives/Wikimedia%20Commons/Simple%20set2.png)}@}
 >
 > {@{rewritten union of disjoint rectangles}@} <!--SR:!2025-01-19,269,330!2025-04-14,329,363-->
 
@@ -58,7 +58,7 @@ m_*(B) := \sup_{S \subseteq B} m(S) \\
 m^*(B) := \inf_{S \supseteq B} m(S)
 \end{aligned}$$
 
-> {@{![squeezing a bounded set by simple sets](../archives/Wikimedia%20Commons/Jordan%20illustration.png)}@}
+> {@{![squeezing a bounded set by simple sets](../../archives/Wikimedia%20Commons/Jordan%20illustration.png)}@}
 >
 > {@{squeezing a bounded set by simple sets}@} <!--SR:!2027-01-15,810,330!2025-03-22,310,363-->
 

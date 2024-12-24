@@ -3,7 +3,7 @@ aliases:
   - data
   - datum
 tags:
-  - flashcard/active/general/data
+  - flashcard/active/general/eng/data
   - language/in/English
 ---
 

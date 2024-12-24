@@ -3,13 +3,13 @@ aliases:
   - ice 1h
   - ice Ih
 tags:
-  - flashcard/active/general/ice_Ih
+  - flashcard/active/general/eng/ice_Ih
   - language/in/English
 ---
 
 # ice I<sub>h</sub>
 
-> {@{![Structure of ice I<sub>h</sub>](../archives/Wikimedia%20Commons/Cryst%20struct%20ice.png)}@}
+> {@{![Structure of ice I<sub>h</sub>](../../archives/Wikimedia%20Commons/Cryst%20struct%20ice.png)}@}
 >
 > {@{[crystal structure](crystal%20structure.md) of ice I<sub>h</sub>}@} <!--SR:!2025-04-09,517,316!2026-01-29,790,336-->
 

@@ -13,7 +13,7 @@ aliases:
   - specificity & sensitivity
   - specificity and sensitivity
 tags:
-  - flashcard/active/general/sensitivity_and_specificity
+  - flashcard/active/general/eng/sensitivity_and_specificity
   - language/in/English
 ---
 

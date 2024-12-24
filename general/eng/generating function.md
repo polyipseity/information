@@ -3,7 +3,7 @@ aliases:
   - generating function
   - generating functions
 tags:
-  - flashcard/active/general/generating_function
+  - flashcard/active/general/eng/generating_function
   - language/in/English
 ---
 

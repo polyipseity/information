@@ -3,7 +3,7 @@ aliases:
   - molecule
   - molecules
 tags:
-  - flashcard/active/general/molecule
+  - flashcard/active/general/eng/molecule
   - language/in/English
 ---
 

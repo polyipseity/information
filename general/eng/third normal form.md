@@ -3,7 +3,7 @@ aliases:
   - 3NF
   - third normal form
 tags:
-  - flashcard/active/general/third_normal_form
+  - flashcard/active/general/eng/third_normal_form
   - language/in/English
 ---
 
@@ -11,7 +11,7 @@ tags:
 
 ```Python
 # pytextgen generate module
-# import ../../tools/utility.py.md
+# import ../../../tools/utility.py.md
 ```
 
 ## implementation

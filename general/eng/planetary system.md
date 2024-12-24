@@ -3,7 +3,7 @@ aliases:
   - planetary system
   - planetary systems
 tags:
-  - flashcard/active/general/planetary_system
+  - flashcard/active/general/eng/planetary_system
   - language/in/English
 ---
 

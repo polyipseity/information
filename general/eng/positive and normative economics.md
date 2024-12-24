@@ -3,7 +3,7 @@ aliases:
   - positive and normative economic
   - positive and normative economics
 tags:
-  - flashcard/active/general/positive_and_normative_economics
+  - flashcard/active/general/eng/positive_and_normative_economics
   - language/in/English
 ---
 

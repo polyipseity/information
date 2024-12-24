@@ -3,7 +3,7 @@ aliases:
   - financial transaction
   - financial transactions
 tags:
-  - flashcard/active/general/financial_transaction
+  - flashcard/active/general/eng/financial_transaction
   - language/in/English
 ---
 

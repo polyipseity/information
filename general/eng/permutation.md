@@ -4,7 +4,7 @@ aliases:
   - permutation
   - permutations
 tags:
-  - flashcard/active/general/permutation
+  - flashcard/active/general/eng/permutation
   - language/in/English
 ---
 

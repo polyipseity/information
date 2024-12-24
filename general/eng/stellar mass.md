@@ -3,7 +3,7 @@ aliases:
   - stellar mass
   - stellar masses
 tags:
-  - flashcard/active/general/stellar_mass
+  - flashcard/active/general/eng/stellar_mass
   - language/in/English
 ---
 

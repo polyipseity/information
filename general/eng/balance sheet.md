@@ -7,7 +7,7 @@ aliases:
   - statements of financial condition
   - statements of financial position
 tags:
-  - flashcard/active/general/balance_sheet
+  - flashcard/active/general/eng/balance_sheet
   - language/in/English
 ---
 

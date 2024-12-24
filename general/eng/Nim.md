@@ -4,7 +4,7 @@ aliases:
   - Nim
   - game of Nim
 tags:
-  - flashcard/active/general/Nim
+  - flashcard/active/general/eng/Nim
   - language/in/English
 ---
 

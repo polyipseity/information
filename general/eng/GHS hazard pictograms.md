@@ -1,6 +1,6 @@
 ---
 tags:
-  - flashcard/active/general/GHS_hazard_pictograms
+  - flashcard/active/general/eng/GHS_hazard_pictograms
   - language/in/English
 ---
 
@@ -8,7 +8,7 @@ tags:
 
 ```Python
 # pytextgen generate module
-# import ../../tools/utility.py.md
+# import ../../../tools/utility.py.md
 ```
 
 ## pictograms
@@ -19,15 +19,15 @@ return await memorize_table(
   __env__.cwf_sects('b9a823', 'dee23a'),
   ('name & pictogram', 'description',),
   (
-    ('GHS01: [explosive](explosive.md)', '![{}](../archives/Wikimedia%20Commons/GHS-pictogram-explos.svg)', '',),
-    ('GHS02: [flammable](flammability.md)', '![{}](../archives/Wikimedia%20Commons/GHS-pictogram-flamme.svg)', '',),
-    ('GHS03: [oxidizing](oxidizing%20agent.md)', '![{}](../archives/Wikimedia%20Commons/GHS-pictogram-rondflam.svg)', '',),
-    ('GHS04: [compressed gas](compressed%20fluid.md)', '![{}](../archives/Wikimedia%20Commons/GHS-pictogram-bottle.svg)', '',),
-    ('GHS05: [corrosive](corrosive%20substance.md)', '![{}](../archives/Wikimedia%20Commons/GHS-pictogram-acid.svg)', '',),
-    ('GHS06: [toxic](toxicity.md)', '![{}](../archives/Wikimedia%20Commons/GHS-pictogram-skull.svg)', '',),
-    ('GHS07: harmful', '![{}](../archives/Wikimedia%20Commons/GHS-pictogram-exclam.svg)', '',),
-    ('GHS08: [health hazard](health%20hazard.md)', '![{}](../archives/Wikimedia%20Commons/GHS-pictogram-silhouette.svg)', '',),
-    ('GHS09: [environmental hazard](environmental%20hazard.md)', '![{}](../archives/Wikimedia%20Commons/GHS-pictogram-pollu.svg)', '',),
+    ('GHS01: [explosive](explosive.md)', '![{}](../../archives/Wikimedia%20Commons/GHS-pictogram-explos.svg)', '',),
+    ('GHS02: [flammable](flammability.md)', '![{}](../../archives/Wikimedia%20Commons/GHS-pictogram-flamme.svg)', '',),
+    ('GHS03: [oxidizing](oxidizing%20agent.md)', '![{}](../../archives/Wikimedia%20Commons/GHS-pictogram-rondflam.svg)', '',),
+    ('GHS04: [compressed gas](compressed%20fluid.md)', '![{}](../../archives/Wikimedia%20Commons/GHS-pictogram-bottle.svg)', '',),
+    ('GHS05: [corrosive](corrosive%20substance.md)', '![{}](../../archives/Wikimedia%20Commons/GHS-pictogram-acid.svg)', '',),
+    ('GHS06: [toxic](toxicity.md)', '![{}](../../archives/Wikimedia%20Commons/GHS-pictogram-skull.svg)', '',),
+    ('GHS07: harmful', '![{}](../../archives/Wikimedia%20Commons/GHS-pictogram-exclam.svg)', '',),
+    ('GHS08: [health hazard](health%20hazard.md)', '![{}](../../archives/Wikimedia%20Commons/GHS-pictogram-silhouette.svg)', '',),
+    ('GHS09: [environmental hazard](environmental%20hazard.md)', '![{}](../../archives/Wikimedia%20Commons/GHS-pictogram-pollu.svg)', '',),
   ),
   lambda datum: (
     f'{cloze(datum[0])}<br/>{cloze(datum[1].format(datum[0]))}',
@@ -40,15 +40,15 @@ return await memorize_table(
 
 > | name & pictogram | description |
 > |-|-|
-> | {@{GHS01: [explosive](explosive.md)}@}<br/>{@{![GHS01: [explosive](explosive.md)](../archives/Wikimedia%20Commons/GHS-pictogram-explos.svg)}@} |  |
-> | {@{GHS02: [flammable](flammability.md)}@}<br/>{@{![GHS02: [flammable](flammability.md)](../archives/Wikimedia%20Commons/GHS-pictogram-flamme.svg)}@} |  |
-> | {@{GHS03: [oxidizing](oxidizing%20agent.md)}@}<br/>{@{![GHS03: [oxidizing](oxidizing%20agent.md)](../archives/Wikimedia%20Commons/GHS-pictogram-rondflam.svg)}@} |  |
-> | {@{GHS04: [compressed gas](compressed%20fluid.md)}@}<br/>{@{![GHS04: [compressed gas](compressed%20fluid.md)](../archives/Wikimedia%20Commons/GHS-pictogram-bottle.svg)}@} |  |
-> | {@{GHS05: [corrosive](corrosive%20substance.md)}@}<br/>{@{![GHS05: [corrosive](corrosive%20substance.md)](../archives/Wikimedia%20Commons/GHS-pictogram-acid.svg)}@} |  |
-> | {@{GHS06: [toxic](toxicity.md)}@}<br/>{@{![GHS06: [toxic](toxicity.md)](../archives/Wikimedia%20Commons/GHS-pictogram-skull.svg)}@} |  |
-> | {@{GHS07: harmful}@}<br/>{@{![GHS07: harmful](../archives/Wikimedia%20Commons/GHS-pictogram-exclam.svg)}@} |  |
-> | {@{GHS08: [health hazard](health%20hazard.md)}@}<br/>{@{![GHS08: [health hazard](health%20hazard.md)](../archives/Wikimedia%20Commons/GHS-pictogram-silhouette.svg)}@} |  |
-> | {@{GHS09: [environmental hazard](environmental%20hazard.md)}@}<br/>{@{![GHS09: [environmental hazard](environmental%20hazard.md)](../archives/Wikimedia%20Commons/GHS-pictogram-pollu.svg)}@} |  | <!--SR:!2027-10-22,1295,350!2025-11-27,741,330!2026-05-19,870,330!2027-04-03,1052,330!2027-07-14,1218,350!2026-07-21,921,330!2027-01-05,988,330!2027-07-03,1209,350!2028-05-13,1455,350!2025-08-08,600,310!2027-01-10,992,330!2026-06-28,891,330!2025-06-28,569,310!2025-11-30,737,330!2027-07-21,1223,350!2025-07-26,620,310!2027-10-16,1290,350!2026-03-03,781,310-->
+> | {@{GHS01: [explosive](explosive.md)}@}<br/>{@{![GHS01: [explosive](explosive.md)](../../archives/Wikimedia%20Commons/GHS-pictogram-explos.svg)}@} |  |
+> | {@{GHS02: [flammable](flammability.md)}@}<br/>{@{![GHS02: [flammable](flammability.md)](../../archives/Wikimedia%20Commons/GHS-pictogram-flamme.svg)}@} |  |
+> | {@{GHS03: [oxidizing](oxidizing%20agent.md)}@}<br/>{@{![GHS03: [oxidizing](oxidizing%20agent.md)](../../archives/Wikimedia%20Commons/GHS-pictogram-rondflam.svg)}@} |  |
+> | {@{GHS04: [compressed gas](compressed%20fluid.md)}@}<br/>{@{![GHS04: [compressed gas](compressed%20fluid.md)](../../archives/Wikimedia%20Commons/GHS-pictogram-bottle.svg)}@} |  |
+> | {@{GHS05: [corrosive](corrosive%20substance.md)}@}<br/>{@{![GHS05: [corrosive](corrosive%20substance.md)](../../archives/Wikimedia%20Commons/GHS-pictogram-acid.svg)}@} |  |
+> | {@{GHS06: [toxic](toxicity.md)}@}<br/>{@{![GHS06: [toxic](toxicity.md)](../../archives/Wikimedia%20Commons/GHS-pictogram-skull.svg)}@} |  |
+> | {@{GHS07: harmful}@}<br/>{@{![GHS07: harmful](../../archives/Wikimedia%20Commons/GHS-pictogram-exclam.svg)}@} |  |
+> | {@{GHS08: [health hazard](health%20hazard.md)}@}<br/>{@{![GHS08: [health hazard](health%20hazard.md)](../../archives/Wikimedia%20Commons/GHS-pictogram-silhouette.svg)}@} |  |
+> | {@{GHS09: [environmental hazard](environmental%20hazard.md)}@}<br/>{@{![GHS09: [environmental hazard](environmental%20hazard.md)](../../archives/Wikimedia%20Commons/GHS-pictogram-pollu.svg)}@} |  | <!--SR:!2027-10-22,1295,350!2025-11-27,741,330!2026-05-19,870,330!2027-04-03,1052,330!2027-07-14,1218,350!2026-07-21,921,330!2027-01-05,988,330!2027-07-03,1209,350!2028-05-13,1455,350!2025-08-08,600,310!2027-01-10,992,330!2026-06-28,891,330!2025-06-28,569,310!2025-11-30,737,330!2027-07-21,1223,350!2025-07-26,620,310!2027-10-16,1290,350!2026-03-03,781,310-->
 
 <!--/pytextgen-->
 

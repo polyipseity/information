@@ -25,7 +25,7 @@ aliases:
   - trigonometric integral
   - trigonometric integrals
 tags:
-  - flashcard/active/general/trigonometric_integral
+  - flashcard/active/general/eng/trigonometric_integral
   - language/in/English
 ---
 

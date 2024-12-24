@@ -5,7 +5,7 @@ aliases:
   - titrimetry
   - volumetric analysis
 tags:
-  - flashcard/active/general/titration
+  - flashcard/active/general/eng/titration
   - language/in/English
 ---
 
@@ -13,7 +13,7 @@ tags:
 
 ```Python
 # pytextgen generate module
-# import ../../tools/utility.py.md
+# import ../../../tools/utility.py.md
 ```
 
 __Titration__ is {@{[quantitative](quantitative%20research.md) [chemical method](analytical%20chemistry.md) to determine the [concentration](concentration.md) of an [analyte](analyte.md)}@}. <!--SR:!2027-07-13,1014,270-->

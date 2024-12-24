@@ -3,7 +3,7 @@ aliases:
   - Galilean invariance
   - Galilean relativity
 tags:
-  - flashcard/active/general/Galilean_invariance
+  - flashcard/active/general/eng/Galilean_invariance
   - language/in/English
 ---
 

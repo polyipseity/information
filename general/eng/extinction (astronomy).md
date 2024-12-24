@@ -4,7 +4,7 @@ aliases:
   - extinctions
   - interstellar reddening
 tags:
-  - flashcard/active/general/extinction__astronomy_
+  - flashcard/active/general/eng/extinction__astronomy_
   - language/in/English
 ---
 

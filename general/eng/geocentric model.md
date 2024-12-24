@@ -6,7 +6,7 @@ aliases:
   - geocentric models
   - geocentrism
 tags:
-  - flashcard/active/general/geocentric_model
+  - flashcard/active/general/eng/geocentric_model
   - language/in/English
 ---
 
@@ -14,7 +14,7 @@ tags:
 
 ```Python
 # pytextgen generate module
-# import ../../tools/utility.py.md
+# import ../../../tools/utility.py.md
 ```
 
 ## Ancient Greece

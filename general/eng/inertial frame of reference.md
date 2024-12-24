@@ -7,7 +7,7 @@ aliases:
   - inertial frames
   - inertial frames of reference
 tags:
-  - flashcard/active/general/inertial_frame_of_reference
+  - flashcard/active/general/eng/inertial_frame_of_reference
   - language/in/English
 ---
 

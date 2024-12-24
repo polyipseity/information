@@ -5,7 +5,7 @@ aliases:
   - Eddington luminosities
   - Eddington luminosity
 tags:
-  - flashcard/active/general/Eddington_luminosity
+  - flashcard/active/general/eng/Eddington_luminosity
   - language/in/English
 ---
 

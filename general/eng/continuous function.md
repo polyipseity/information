@@ -7,7 +7,7 @@ aliases:
   - discontinuous function
   - discontinuous functions
 tags:
-  - flashcard/active/general/continuous_function
+  - flashcard/active/general/eng/continuous_function
   - language/in/English
 ---
 

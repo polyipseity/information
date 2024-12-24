@@ -3,7 +3,7 @@ aliases:
   - unimodal
   - unimodality
 tags:
-  - flashcard/active/general/unimodality
+  - flashcard/active/general/eng/unimodality
   - language/in/English
 ---
 

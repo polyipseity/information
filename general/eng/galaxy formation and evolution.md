@@ -7,7 +7,7 @@ aliases:
   - galaxy formation and evolution
   - galaxy formations and evolutions
 tags:
-  - flashcard/active/general/galaxy_formation_and_evolution
+  - flashcard/active/general/eng/galaxy_formation_and_evolution
   - language/in/English
 ---
 

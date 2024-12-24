@@ -7,7 +7,7 @@ aliases:
   - halogenoalkane
   - halogenoalkanes
 tags:
-  - flashcard/active/general/haloalkane
+  - flashcard/active/general/eng/haloalkane
   - language/in/English
 ---
 
@@ -15,7 +15,7 @@ tags:
 
 ```Python
 # pytextgen generate module
-# import ../../tools/utility.py.md
+# import ../../../tools/utility.py.md
 ```
 
 ## physical properties

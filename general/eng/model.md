@@ -3,7 +3,7 @@ aliases:
   - model
   - models
 tags:
-  - flashcard/active/general/model
+  - flashcard/active/general/eng/model
   - language/in/English
 ---
 

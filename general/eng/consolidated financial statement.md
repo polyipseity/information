@@ -5,7 +5,7 @@ aliases:
   - consolidated financial statement
   - consolidated financial statements
 tags:
-  - flashcard/active/general/consolidated_financial_statement
+  - flashcard/active/general/eng/consolidated_financial_statement
   - language/in/English
 ---
 

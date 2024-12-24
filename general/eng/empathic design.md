@@ -3,7 +3,7 @@ aliases:
   - empathetic design
   - empathic design
 tags:
-  - flashcard/active/general/empathic_design
+  - flashcard/active/general/eng/empathic_design
   - language/in/English
 ---
 

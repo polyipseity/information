@@ -3,7 +3,7 @@ aliases:
   - derivative
   - derivatives
 tags:
-  - flashcard/active/general/derivative
+  - flashcard/active/general/eng/derivative
   - language/in/English
 ---
 

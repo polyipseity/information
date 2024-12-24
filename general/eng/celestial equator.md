@@ -3,7 +3,7 @@ aliases:
   - celestial equator
   - celestial equators
 tags:
-  - flashcard/active/general/celestial_equator
+  - flashcard/active/general/eng/celestial_equator
   - language/in/English
 ---
 

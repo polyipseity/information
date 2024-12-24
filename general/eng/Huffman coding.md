@@ -7,13 +7,13 @@ aliases:
   - Huffman encoding
   - Huffman encodings
 tags:
-  - flashcard/active/general/Huffman_coding
+  - flashcard/active/general/eng/Huffman_coding
   - language/in/English
 ---
 
 # Huffman coding
 
-> {@{![this is an example of a Huffman tree](../archives/Wikimedia%20Commons/Huffman%20tree%202.svg)}@}
+> {@{![this is an example of a Huffman tree](../../archives/Wikimedia%20Commons/Huffman%20tree%202.svg)}@}
 >
 > {@{Huffman tree generated}@} from {@{the exact frequencies of the text "this is an example of a huffman tree"}@}. {@{Encoding the sentence with this code}@} requires {@{135 \(or 147\) bits}@}, as opposed to {@{288 \(or 180\) bits if 36 characters of 8 \(or 5\) bits were used}@} \(This assumes that {@{the code tree structure is known to the decoder and thus does not need to be counted as part of the transmitted information}@}\). {@{The frequencies and codes of each character}@} are shown in the accompanying table.
 >
@@ -56,7 +56,7 @@ Huffman coding uses {@{a specific method for choosing the representation for eac
 <!-- -->
 <!-- This article __needs additional citations for [verification](https://en.wikipedia.org/wiki/Wikipedia:Verifiability)__. Please help [improve this article](https://en.wikipedia.org/wiki/Special:EditPage/Huffman%20coding) by adding citations to reliable sources. Unsourced material may be challenged and removed._Find sources:_ ["Huffman coding"](https://www.google.com/search?as_eq=wikipedia&q=%22Huffman+coding%22) – [news](https://www.google.com/search?tbm=nws&q=%22Huffman+coding%22+-wikipedia&tbs=ar:1) __·__ [newspapers](https://www.google.com/search?&q=%22Huffman+coding%22&tbs=bkt:s&tbm=bks) __·__ [books](https://www.google.com/search?tbs=bks:1&q=%22Huffman+coding%22+-wikipedia) __·__ [scholar](https://scholar.google.com/scholar?q=%22Huffman+coding%22) __·__ [JSTOR](https://www.jstor.org/action/doBasicSearch?Query=%22Huffman+coding%22&acc=on&wc=on) _\(December 2021\)_ _\(Learn how and when to remove this message\)_ -->
 
-> ![Constructing a Huffman Tree](../archives/Wikimedia%20Commons/HuffmanCodeAlg.png)
+> ![Constructing a Huffman Tree](../../archives/Wikimedia%20Commons/HuffmanCodeAlg.png)
 >
 > {@{Constructing a Huffman Tree}@} <!--SR:!2025-01-30,44,290-->
 
@@ -108,13 +108,13 @@ In general, {@{a Huffman code need not be unique}@}. Thus {@{the set of Huffman 
 
 ### compression
 
-> ![Visualisation of the use of Huffman coding to encode the message "A\_DEAD\_DAD\_CEDED\_A\_BAD\_BABE\_A\_BEADED\_ABACA\_BED".](../archives/Wikimedia%20Commons/Huffman%20coding%20visualisation.svg)
+> ![Visualisation of the use of Huffman coding to encode the message "A\_DEAD\_DAD\_CEDED\_A\_BAD\_BABE\_A\_BEADED\_ABACA\_BED".](../../archives/Wikimedia%20Commons/Huffman%20coding%20visualisation.svg)
 >
 > {@{Visualisation of the use of Huffman coding to encode the message "A\_DEAD\_DAD\_CEDED\_A\_BAD\_BABE\_A\_BEADED\_ABACA\_BED"}@}. In {@{steps 2 to 6}@}, the letters are {@{sorted by increasing frequency}@}, and {@{the least frequent two at each step are combined and reinserted into the list}@}, and {@{a partial tree is constructed}@}. The final tree in step 6 is {@{traversed to generate the dictionary in step 7}@}. Step 8 {@{uses it to encode the message}@}. <!--SR:!2025-02-15,60,310!2025-02-19,64,310!2025-02-18,63,310!2025-01-30,44,290!2025-02-08,56,310!2025-02-16,61,310!2025-02-10,58,310-->
 
 <!-- markdownlint MD028 -->
 
-> {@{![Huffman coding example](../archives/Wikimedia%20Commons/Huffman%20coding%20example.svg)}@}
+> {@{![Huffman coding example](../../archives/Wikimedia%20Commons/Huffman%20coding%20example.svg)}@}
 >
 > A source generates {@{4 different symbols $\{a_{1},a_{2},a_{3},a_{4}\}$ with probability $\{0.4;0.35;0.2;0.05\}$}@}. A binary tree is {@{generated from left to right}@} taking {@{the two least probable symbols and putting them together to form another equivalent symbol having a probability that equals the sum of the two symbols}@}. The process is {@{repeated until there is just one symbol}@}. The tree can then {@{be read backwards, from right to left, assigning different bits to different branches}@}. The final Huffman code is:
 >
@@ -231,7 +231,7 @@ If {@{weights corresponding to the alphabetically ordered inputs are in numerica
 
 ## references
 
-> ![Wikimedia Commons logo](../archives/Wikimedia%20Commons/Commons-logo.svg)
+> ![Wikimedia Commons logo](../../archives/Wikimedia%20Commons/Commons-logo.svg)
 >
 > Wikimedia Commons has media related to __[Huffman coding](https://commons.wikimedia.org/wiki/Category:Huffman%20coding)__.
 

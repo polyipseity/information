@@ -9,7 +9,7 @@ aliases:
   - support vector network
   - support vector networks
 tags:
-  - flashcard/active/general/support_vector_machine
+  - flashcard/active/general/eng/support_vector_machine
   - language/in/English
 ---
 

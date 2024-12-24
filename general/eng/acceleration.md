@@ -3,7 +3,7 @@ aliases:
   - acceleration
   - accelerations
 tags:
-  - flashcard/active/general/acceleration
+  - flashcard/active/general/eng/acceleration
   - language/in/English
 ---
 

@@ -5,13 +5,13 @@ aliases:
   - strongly connected component
   - strongly connected components
 tags:
-  - flashcard/active/general/strongly_connected_component
+  - flashcard/active/general/eng/strongly_connected_component
   - language/in/English
 ---
 
 # strongly connected component
 
-> {@{![Graph with strongly connected components marked](../archives/Wikimedia%20Commons/Scc-1.svg)}@}
+> {@{![Graph with strongly connected components marked](../../archives/Wikimedia%20Commons/Scc-1.svg)}@}
 >
 > {@{Graph with strongly connected components marked}@} <!--SR:!2024-12-25,15,297!2024-12-24,14,297-->
 
@@ -29,7 +29,7 @@ In {@{the [mathematical](mathematics.md) theory of [directed graphs](directed%20
 
 {@{The [binary relation](binary%20relation.md) of being strongly connected}@} is {@{an [equivalence relation](equivalence%20relation.md)}@}, and {@{the [induced subgraphs](induced%20subgraph.md) of its [equivalence classes](equivalence%20class.md) are called __strongly connected components__<!-- markdown separator -->}@}. Equivalently, {@{a __strongly connected component__ of a directed graph _G_ is a subgraph that is strongly connected}@}, and {@{is [maximal](maximal%20and%20minimal%20elements.md) with this property}@}: {@{no additional edges or vertices from _G_ can be included in the subgraph without breaking its property of being strongly connected}@}. {@{The collection of strongly connected components}@} forms {@{a partition of the set of vertices of _G_<!-- markdown separator -->}@}. {@{A strongly connected component _C_ is called _trivial_}@} when {@{_C_ consists of a single vertex which is not connected to itself with an edge}@}, and {@{_non-trivial_ otherwise}@}.<sup>[\[1\]](#^ref-1)</sup> <!--SR:!2024-12-25,15,297!2024-12-24,14,297!2024-12-23,14,297!2024-12-23,14,297!2024-12-25,15,297!2024-12-24,15,297!2024-12-24,15,297!2024-12-24,15,297!2024-12-24,15,297!2024-12-25,16,297!2024-12-24,14,297-->
 
-> {@{![The yellow [directed acyclic graph](directed%20acyclic%20graph.md) is the condensation of the blue directed graph.](../archives/Wikimedia%20Commons/Graph%20Condensation.svg)}@}
+> {@{![The yellow [directed acyclic graph](directed%20acyclic%20graph.md) is the condensation of the blue directed graph.](../../archives/Wikimedia%20Commons/Graph%20Condensation.svg)}@}
 >
 > {@{The yellow [directed acyclic graph](directed%20acyclic%20graph.md) is the condensation of the blue directed graph}@}. It is formed by {@{contracting each strongly connected component of the blue graph into a single yellow vertex}@}. <!--SR:!2025-02-04,45,297!2025-02-04,45,297!2024-12-23,14,297-->
 

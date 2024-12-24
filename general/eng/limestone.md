@@ -1,6 +1,6 @@
 ---
 tags:
-  - flashcard/active/general/limestone
+  - flashcard/active/general/eng/limestone
   - language/in/English
 ---
 
@@ -8,7 +8,7 @@ tags:
 
 ```Python
 # pytextgen generate module
-# import ../../tools/utility.py.md
+# import ../../../tools/utility.py.md
 ```
 
 ## uses

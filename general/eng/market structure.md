@@ -3,13 +3,13 @@ aliases:
   - market structure
   - market structures
 tags:
-  - flashcard/active/general/market_structure
+  - flashcard/active/general/eng/market_structure
   - language/in/English
 ---
 
 # market structure
 
-> ![Adam Smith](../archives/Wikimedia%20Commons/Adam%20Smith%20The%20Muir%20portrait.jpg)
+> ![Adam Smith](../../archives/Wikimedia%20Commons/Adam%20Smith%20The%20Muir%20portrait.jpg)
 >
 > {@{Adam Smith}@} <!--SR:!2025-02-18,70,320-->
 
@@ -62,7 +62,7 @@ __Quick Reference to Basic Market Structures__
 | [Monopsony](monopsony.md)                                 | No                               | Homogeneous or differentiated      | Many                  | One                  | Price taker (as there is only one buyer) |
 | [Oligopsony](oligopsony.md)                               | No                               | Homogeneous or differentiated      | Many                  | Few                  | Price taker                              |
 
-> ![Karl Marx](../archives/Wikimedia%20Commons/Karl%20Marx%20001.jpg)
+> ![Karl Marx](../../archives/Wikimedia%20Commons/Karl%20Marx%20001.jpg)
 >
 > {@{Karl Marx}@} <!--SR:!2025-02-20,72,320-->
 
@@ -169,5 +169,5 @@ This text incorporates [content](https://en.wikipedia.org/wiki/market_structure)
 >
 > [Resources in your library](https://ftl.toolforge.org/cgi-bin/ftl?st=wp&su=Market+structure)
 
-- ![Wikimedia Commons logo](../archives/Wikimedia%20Commons/Commons-logo.svg) Media related to [Market structure](https://commons.wikimedia.org/wiki/Category:Market%20structure) at Wikimedia Commons
+- ![Wikimedia Commons logo](../../archives/Wikimedia%20Commons/Commons-logo.svg) Media related to [Market structure](https://commons.wikimedia.org/wiki/Category:Market%20structure) at Wikimedia Commons
 - [Microeconomics](http://www.egwald.ca/economics/index.php) by Elmer G. Wiens: Online Interactive Models of Oligopoly, Differentiated Oligopoly, and Monopolistic Competition

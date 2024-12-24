@@ -5,13 +5,13 @@ aliases:
   - law of demand
   - laws of demand
 tags:
-  - flashcard/active/general/law_of_demand
+  - flashcard/active/general/eng/law_of_demand
   - language/in/English
 ---
 
 # law of demand
 
-> {@{![illustration of law of demand](../archives/Wikimedia%20Commons/Illustration%20of%20law%20of%20demand.jpg)}@}
+> {@{![illustration of law of demand](../../archives/Wikimedia%20Commons/Illustration%20of%20law%20of%20demand.jpg)}@}
 >
 > The demand curve, shown in blue, is {@{sloping downwards from left to right because price and quantity demanded are inversely related}@}. This relationship is contingent on {@{certain conditions remaining constant}@}. The supply curve, shown in orange, {@{intersects with the demand curve}@} at price (Pe) = 80 and quantity (Qe) = 120. Pe = 80 is {@{the equilibrium price at which quantity demanded is equal to the quantity supplied}@}. Similarly, Qe = 120 is {@{the equilibrium quantity at which the quantity demanded and supplied are at the equilibrium price}@}. Therefore, the intersection of the demand and supply curves provide us with {@{the efficient allocation of goods in an economy}@}. <!--SR:!2025-01-22,56,310!2025-02-14,76,329!2025-02-05,67,310!2025-01-30,63,310!2025-01-22,56,310!2025-02-14,76,329!2025-01-30,63,310-->
 
@@ -42,7 +42,7 @@ The famous law of demand was first __stated__ by Charles Davenant (1656-1714) in
 
 Skipping forward to 1890, economist [Alfred Marshall](Alfred%20Marshall.md) documented the __graphical illustration__ of the law of demand.<sup>[\[2\]](#^ref-2)</sup> In _Principles of Economics_ (1890), Alfred Marshall reconciled the demand and supply into a single analytical framework. The formulation of the demand curve was provided by the utility theory while supply curve was determined by the cost. This idea of demand and supply curve is what we still use today to develop the market equilibrium and to support a variety of other economic theories and concepts. Due to general agreement with the observation, economists have come to accept the validity of the law under most situations. Economist also see Alfred Marshall as the pioneer of the standard demand and supply diagrams and their use in economic analysis including welfare applications and consumer surplus.<sup>[\[10\]](#^ref-10)</sup>
 
-> {@{![Anything that affects the buying decision other than the product price will shift the demand curve.](../archives/Wikimedia%20Commons/Change%20in%20demand.png)}@}
+> {@{![Anything that affects the buying decision other than the product price will shift the demand curve.](../../archives/Wikimedia%20Commons/Change%20in%20demand.png)}@}
 >
 > {@{Anything that affects the buying decision other than the product price will shift the demand curve}@}. Considering {@{our example of mortgage rates}@}; with {@{a higher mortgage rate, demand curve will shift to the left from D0 to D1}@}. This means that {@{there is less demand for the housing market at every price}@}. On the other hand, with {@{lower mortgage rate demand curve shifts to the right from D0 to D2}@}, meaning {@{there is more demand for the housing market at every price}@}. <!--SR:!2025-01-30,63,310!2025-02-13,75,329!2025-02-02,64,310!2025-02-14,76,329!2025-02-13,75,329!2025-02-03,65,310!2025-02-11,73,329-->
 
@@ -62,7 +62,7 @@ Another common way to {@{express the law of demand [without imposing a functiona
 
 On the one hand, {@{demand}@} refers to {@{the [demand curve](demand%20curve.md)}@}. {@{Changes in supply}@} are depicted graphically by {@{a shift in the supply curve to the left or right}@}.<sup>[\[1\]](#^ref-1)</sup> {@{Changes in the demand curve}@} are {@{usually caused by 5 major factors, namely}@}: {@{number of buyers, consumer income, tastes or preferences, price of related goods and future expectations}@}. <!--SR:!2025-02-01,63,310!2025-01-30,63,310!2025-02-13,75,329!2025-01-23,57,310!2025-01-29,62,310!2025-02-04,66,310!2025-03-09,80,270-->
 
-> {@{![A change in quantity demanded is shown by a movement along the existing demand curve.](../archives/Wikimedia%20Commons/Quantity%20demanded.jpg)}@}
+> {@{![A change in quantity demanded is shown by a movement along the existing demand curve.](../../archives/Wikimedia%20Commons/Quantity%20demanded.jpg)}@}
 >
 > {@{A change in quantity demanded is shown by a movement along the existing demand curve}@}. By {@{starting out at P1}@}, {@{the associated willingness to purchase or quantity demanded}@} is Q1. Now, if {@{price goes up to P2}@}, there is {@{a lower willingness to purchase i.e., quantity demanded is Q2}@}. The demand curve {@{itself did not change}@} since {@{both the combination of P1Q1 and P2Q2 were already a part of the existing demand curve}@}. <!--SR:!2025-01-30,63,310!2025-02-04,66,310!2025-02-02,64,310!2025-02-08,70,329!2025-02-12,74,329!2025-02-11,73,329!2025-02-03,65,310!2025-02-12,74,329-->
 

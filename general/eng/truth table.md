@@ -3,7 +3,7 @@ aliases:
   - truth table
   - truth tables
 tags:
-  - flashcard/active/general/truth_table
+  - flashcard/active/general/eng/truth_table
   - language/in/English
 ---
 

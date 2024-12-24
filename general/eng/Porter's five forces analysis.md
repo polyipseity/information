@@ -5,13 +5,13 @@ aliases:
   - Porter's five forces analysis
   - Porter's five forces framework
 tags:
-  - flashcard/active/general/Porter_s_five_forces_analysis
+  - flashcard/active/general/eng/Porter_s_five_forces_analysis
   - language/in/English
 ---
 
 # Porter's five forces analysis
 
-> {@{![visual representation of the model](../archives/Wikimedia%20Commons/Elements%20of%20Industry%20Structure.svg)}@}
+> {@{![visual representation of the model](../../archives/Wikimedia%20Commons/Elements%20of%20Industry%20Structure.svg)}@}
 >
 > {@{visual representation of the model}@} <!--SR:!2025-01-28,166,310!2025-10-10,323,290-->
 

@@ -5,7 +5,7 @@ aliases:
   - limewater
   - slaked lime
 tags:
-  - flashcard/active/general/calcium_hydroxide
+  - flashcard/active/general/eng/calcium_hydroxide
   - language/in/English
 ---
 

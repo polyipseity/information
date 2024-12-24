@@ -3,13 +3,13 @@ aliases:
   - Carmichael function
   - Carmichael functions
 tags:
-  - flashcard/active/general/Carmichael_function
+  - flashcard/active/general/eng/Carmichael_function
   - language/in/English
 ---
 
 # Carmichael function
 
-> {@{![Carmichael _λ_ function: _λ_\(_n_\) for 1 ≤ _n_ ≤ 1000 \(compared to Euler _φ_ function\)](../archives/Wikimedia%20Commons/CarmichaelLambda.svg)}@}
+> {@{![Carmichael _λ_ function: _λ_\(_n_\) for 1 ≤ _n_ ≤ 1000 \(compared to Euler _φ_ function\)](../../archives/Wikimedia%20Commons/CarmichaelLambda.svg)}@}
 >
 > {@{Carmichael _λ_ function: _λ_\(_n_\) for 1 ≤ _n_ ≤ 1000 \(compared to Euler _φ_ function\)}@} <!--SR:!2024-12-26,4,281!2024-12-25,3,250-->
 

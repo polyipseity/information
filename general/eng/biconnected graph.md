@@ -3,7 +3,7 @@ aliases:
   - biconnected graph
   - biconnected graphs
 tags:
-  - flashcard/active/general/biconnected_graph
+  - flashcard/active/general/eng/biconnected_graph
   - language/in/English
 ---
 
@@ -31,25 +31,25 @@ This property is especially {@{useful in maintaining a graph with a two-fold [re
 
 ## examples
 
-> {@{![A biconnected graph on four vertices and four edges](../archives/Wikimedia%20Commons/4%20Node%20Biconnected.svg)}@}
+> {@{![A biconnected graph on four vertices and four edges](../../archives/Wikimedia%20Commons/4%20Node%20Biconnected.svg)}@}
 >
 > {@{A biconnected graph on four vertices and four edges}@} <!--SR:!2024-12-26,4,272!2024-12-26,4,272-->
 
 <!-- markdownlint MD028 -->
 
-> {@{![A graph that is not biconnected. The removal of vertex x would disconnect the graph.](../archives/Wikimedia%20Commons/4%20Node%20Not-Biconnected.svg)}@}
+> {@{![A graph that is not biconnected. The removal of vertex x would disconnect the graph.](../../archives/Wikimedia%20Commons/4%20Node%20Not-Biconnected.svg)}@}
 >
 > {@{A graph that is not biconnected. The removal of vertex x would disconnect the graph.}@} <!--SR:!2024-12-26,4,272!2024-12-26,4,272-->
 
 <!-- markdownlint MD028 -->
 
-> {@{![A biconnected graph on five vertices and six edges](../archives/Wikimedia%20Commons/5%20Node%20Biconnected.svg)}@}
+> {@{![A biconnected graph on five vertices and six edges](../../archives/Wikimedia%20Commons/5%20Node%20Biconnected.svg)}@}
 >
 > {@{A biconnected graph on five vertices and six edges}@} <!--SR:!2024-12-26,4,272!2024-12-26,4,272-->
 
 <!-- markdownlint MD028 -->
 
-> {@{![A graph that is not biconnected. The removal of vertex x would disconnect the graph.](../archives/Wikimedia%20Commons/5%20Node%20Not-Biconnected.svg)}@}
+> {@{![A graph that is not biconnected. The removal of vertex x would disconnect the graph.](../../archives/Wikimedia%20Commons/5%20Node%20Not-Biconnected.svg)}@}
 >
 > {@{A graph that is not biconnected. The removal of vertex x would disconnect the graph.}@} <!--SR:!2024-12-26,4,272!2024-12-26,4,272-->
 

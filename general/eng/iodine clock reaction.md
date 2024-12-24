@@ -3,7 +3,7 @@ aliases:
   - iodine clock reaction
   - iodine clock reactions
 tags:
-  - flashcard/active/general/iodine_clock_reaction
+  - flashcard/active/general/eng/iodine_clock_reaction
   - language/in/English
 ---
 
@@ -11,7 +11,7 @@ tags:
 
 ```Python
 # pytextgen generate module
-# import ../../tools/utility.py.md
+# import ../../../tools/utility.py.md
 ```
 
 ## hydrogen peroxide variation

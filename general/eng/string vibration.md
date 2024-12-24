@@ -5,7 +5,7 @@ aliases:
   - string wave
   - string waves
 tags:
-  - flashcard/active/general/string_vibration
+  - flashcard/active/general/eng/string_vibration
   - language/in/English
 ---
 

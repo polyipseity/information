@@ -3,7 +3,7 @@ aliases:
   - bonding in solids
   - bondings in solids
 tags:
-  - flashcard/active/general/bonding_in_solids
+  - flashcard/active/general/eng/bonding_in_solids
   - language/in/English
 ---
 
@@ -11,7 +11,7 @@ tags:
 
 ```Python
 # pytextgen generate module
-# import ../../tools/utility.py.md
+# import ../../../tools/utility.py.md
 ```
 
 ## basic kinds

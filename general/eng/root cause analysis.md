@@ -3,7 +3,7 @@ aliases:
   - RCA
   - root cause analysis
 tags:
-  - flashcard/active/general/root_cause_analysis
+  - flashcard/active/general/eng/root_cause_analysis
   - language/in/English
 ---
 

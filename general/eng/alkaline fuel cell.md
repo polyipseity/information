@@ -4,7 +4,7 @@ aliases:
   - alkaline fuel cell
   - alkaline fuel cells
 tags:
-  - flashcard/active/general/alkaline_fuel_cell
+  - flashcard/active/general/eng/alkaline_fuel_cell
   - language/in/English
 ---
 
@@ -12,7 +12,7 @@ tags:
 
 ```Python
 # pytextgen generate module
-# import ../../tools/utility.py.md
+# import ../../../tools/utility.py.md
 ```
 
 The __alkaline fuel cell__ (__AFC__) is {@{a [fuel cell](fuel%20cell.md) that consumes [hydrogen](hydrogen.md) and pure [oxygen](oxygen.md) to produce [water](water.md), [electricity](electricity.md), and [heat](heat.md)}@}. It has an efficiency of {@{70%}@}. <!--SR:!2026-07-27,742,250!2028-05-03,1450,352-->

@@ -3,7 +3,7 @@ aliases:
   - star formation
   - star formations
 tags:
-  - flashcard/active/general/star_formation
+  - flashcard/active/general/eng/star_formation
   - language/in/English
 ---
 

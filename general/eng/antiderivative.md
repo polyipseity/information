@@ -5,7 +5,7 @@ aliases:
   - antiderivative
   - antiderivatives
 tags:
-  - flashcard/active/general/antiderivative
+  - flashcard/active/general/eng/antiderivative
   - language/in/English
 ---
 

@@ -3,7 +3,7 @@ aliases:
   - 1st law of thermodynamics
   - first law of thermodynamics
 tags:
-  - flashcard/active/general/first_law_of_thermodynamics
+  - flashcard/active/general/eng/first_law_of_thermodynamics
   - language/in/English
 ---
 

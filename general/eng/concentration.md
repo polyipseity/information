@@ -3,7 +3,7 @@ aliases:
   - concentration
   - concentrations
 tags:
-  - flashcard/active/general/concentration
+  - flashcard/active/general/eng/concentration
   - language/in/English
 ---
 

@@ -3,7 +3,7 @@ aliases:
   - white dwarf
   - white dwarfs
 tags:
-  - flashcard/active/general/white_dwarf
+  - flashcard/active/general/eng/white_dwarf
   - language/in/English
 ---
 

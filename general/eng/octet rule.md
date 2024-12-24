@@ -2,7 +2,7 @@
 aliases:
   - octet rule
 tags:
-  - flashcard/active/general/octet_rule
+  - flashcard/active/general/eng/octet_rule
   - language/in/English
 ---
 
@@ -10,7 +10,7 @@ tags:
 
 ```Python
 # pytextgen generate module
-# import ../../tools/utility.py.md
+# import ../../../tools/utility.py.md
 ```
 
 The __octet rule__ is {@{a [chemical](chemistry.md) [rule of thumb](rule%20of%20thumb.md) that states [main-group elements](main-group%20element.md) tend to [bond](chemical%20bond.md) in a way such that each [atom](atom.md) has eight [electrons](electron.md) in its [valence shell](valence%20shell.md)}@}. Other similar rules are {@{the [duplet rule](#^duplet-rule) for [hydrogen](hydrogen.md), [helium](helium.md), and [lithium](lithium.md); and the [18-electron rule](18-electron%20rule.md) for [transition metals](transition%20metal.md)}@}. <!--SR:!2025-08-04,507,270!2026-11-22,828,290-->

@@ -13,7 +13,7 @@ aliases:
   - Prüfer sequence
   - Prüfer sequences
 tags:
-  - flashcard/active/general/Prüfer_sequence
+  - flashcard/active/general/eng/Prüfer_sequence
   - language/in/English
 ---
 
@@ -31,7 +31,7 @@ The Prüfer sequence of a labeled tree is {@{unique and has length _n_ − 2}@}.
 
 ### example
 
-> {@{![a labeled tree with Prüfer sequence](../archives/Wikimedia%20Commons/Tree%20graph.svg)}@}
+> {@{![a labeled tree with Prüfer sequence](../../archives/Wikimedia%20Commons/Tree%20graph.svg)}@}
 >
 > {@{A labeled tree with Prüfer sequence {4,4,4,5}.}@} <!--SR:!2024-12-27,41,290!2025-01-12,57,310-->
 

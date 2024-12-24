@@ -3,7 +3,7 @@ aliases:
   - synodic day
   - synodic days
 tags:
-  - flashcard/active/general/synodic_day
+  - flashcard/active/general/eng/synodic_day
   - language/in/English
 ---
 

@@ -3,7 +3,7 @@ aliases:
   - logical equivalence
   - logical equivalences
 tags:
-  - flashcard/active/general/logical_equivalence
+  - flashcard/active/general/eng/logical_equivalence
   - language/in/English
 ---
 

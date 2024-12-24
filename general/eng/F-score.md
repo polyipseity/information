@@ -17,7 +17,7 @@ aliases:
   - f-score
   - f-scores
 tags:
-  - flashcard/active/general/F-score
+  - flashcard/active/general/eng/F-score
   - language/in/English
 ---
 

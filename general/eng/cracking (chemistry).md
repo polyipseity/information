@@ -3,7 +3,7 @@ aliases:
   - cracking
   - cracking (chemistry)
 tags:
-  - flashcard/active/general/cracking__chemistry_
+  - flashcard/active/general/eng/cracking__chemistry_
   - language/in/English
 ---
 
@@ -11,7 +11,7 @@ tags:
 
 ```Python
 # pytextgen generate module
-# import ../../tools/utility.py.md
+# import ../../../tools/utility.py.md
 ```
 
 __Cracking__ is {@{the process of breaking down complex [organic compounds](organic%20compound.md) into smaller ones}@}. {@{[Alkanes](alkane.md), [alkenes](alkene.md), and sometimes [hydrogen](hydrogen.md) and [carbon](carbon.md)}@} are produced. <!--SR:!2026-08-25,843,290!2026-11-17,884,290-->

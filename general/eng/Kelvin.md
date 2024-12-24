@@ -3,7 +3,7 @@ aliases:
   - K
   - Kelvin
 tags:
-  - flashcard/active/general/Kelvin
+  - flashcard/active/general/eng/Kelvin
   - language/in/English
 ---
 

@@ -7,7 +7,7 @@ aliases:
   - specular reflection
   - specular reflections
 tags:
-  - flashcard/active/general/specular_reflection
+  - flashcard/active/general/eng/specular_reflection
   - language/in/English
 ---
 

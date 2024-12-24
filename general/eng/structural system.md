@@ -3,7 +3,7 @@ aliases:
   - structural system
   - structural systems
 tags:
-  - flashcard/active/general/structural_system
+  - flashcard/active/general/eng/structural_system
   - language/in/English
 ---
 
@@ -11,7 +11,7 @@ tags:
 
 ```Python
 # pytextgen generate module
-# import ../../tools/utility.py.md
+# import ../../../tools/utility.py.md
 ```
 
 ## high-rise buildings

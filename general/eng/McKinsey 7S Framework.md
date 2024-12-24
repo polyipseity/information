@@ -5,13 +5,13 @@ aliases:
   - Porter's five forces analysis
   - Porter's five forces framework
 tags:
-  - flashcard/active/general/Porter_s_five_forces_analysis
+  - flashcard/active/general/eng/Porter_s_five_forces_analysis
   - language/in/English
 ---
 
 # McKinsey 7S Framework
 
-> {@{![visual representation of the model](../archives/Wikimedia%20Commons/McKinsey%207S%20framework.svg)}@}
+> {@{![visual representation of the model](../../archives/Wikimedia%20Commons/McKinsey%207S%20framework.svg)}@}
 >
 > {@{visual representation of the model}@} <!--SR:!2025-09-08,279,250!2025-01-23,162,310-->
 

@@ -3,27 +3,27 @@ aliases:
   - bipartite graph
   - bipartite graphs
 tags:
-  - flashcard/active/general/bipartite_graph
+  - flashcard/active/general/eng/bipartite_graph
   - language/in/English
 ---
 
 # bipartite graph
 
-> ![a bipartite graph without cycles, two layers](../archives/Wikimedia%20Commons/Simple%20bipartite%20graph;%20two%20layers.svg)
+> ![a bipartite graph without cycles, two layers](../../archives/Wikimedia%20Commons/Simple%20bipartite%20graph;%20two%20layers.svg)
 >
-> ![a bipartite graph without cycles, no crossings](../archives/Wikimedia%20Commons/Simple%20bipartite%20graph;%20no%20crossings.svg)
+> ![a bipartite graph without cycles, no crossings](../../archives/Wikimedia%20Commons/Simple%20bipartite%20graph;%20no%20crossings.svg)
 >
 > example of {@{a bipartite graph without cycles}@} <!--SR:!2025-01-20,59,310-->
 
 <!-- markdownlint MD028 -->
 
-> {@{![complete bipartite graph with m = 5 and n = 3](../archives/Wikimedia%20Commons/Biclique%20K%203%205%20bicolor.svg)}@}
+> {@{![complete bipartite graph with m = 5 and n = 3](../../archives/Wikimedia%20Commons/Biclique%20K%203%205%20bicolor.svg)}@}
 >
 > {@{a [complete bipartite graph](complete%20bipartite%20graph.md) with _m_ = 5 and _n_ = 3}@} <!--SR:!2025-01-26,64,310!2025-01-20,59,310-->
 
 <!-- markdownlint MD028 -->
 
-> {@{![Heawood graph](../archives/Wikimedia%20Commons/Heawood%20graph%20bipartite%20(bicolor).svg)}@}
+> {@{![Heawood graph](../../archives/Wikimedia%20Commons/Heawood%20graph%20bipartite%20(bicolor).svg)}@}
 >
 > {@{the [Heawood graph](Heawood%20graph.md) is bipartite}@} <!--SR:!2025-02-24,73,270!2025-01-20,59,310-->
 
@@ -98,7 +98,7 @@ For {@{the [intersection graphs](intersection%20graph.md) of $n$ [line segments]
 
 - see: [odd cycle transversal](odd%20cycle%20transversal.md)
 
-> ![a graph with an odd cycle transversal of size 2](../archives/Wikimedia%20Commons/Odd%20Cycle%20Transversal%20of%20size%202.png)
+> ![a graph with an odd cycle transversal of size 2](../../archives/Wikimedia%20Commons/Odd%20Cycle%20Transversal%20of%20size%202.png)
 >
 > {@{A graph with an odd cycle transversal of size 2: removing the two blue bottom vertices leaves a bipartite graph.}@} <!--SR:!2025-01-28,66,310-->
 

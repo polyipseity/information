@@ -5,7 +5,7 @@ aliases:
   - NGC 5194
   - Whirlpool Galaxy
 tags:
-  - flashcard/active/general/Whirlpool_Galaxy
+  - flashcard/active/general/eng/Whirlpool_Galaxy
   - language/in/English
 ---
 

@@ -6,7 +6,7 @@ aliases:
   - critical value
   - critical vaues
 tags:
-  - flashcard/active/general/critical_point__mathematics_
+  - flashcard/active/general/eng/critical_point__mathematics_
   - language/in/English
 ---
 

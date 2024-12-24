@@ -7,7 +7,7 @@ aliases:
   - Gaussian integral
   - Gaussian integrals
 tags:
-  - flashcard/active/general/Gaussian_integral
+  - flashcard/active/general/eng/Gaussian_integral
   - language/in/English
 ---
 

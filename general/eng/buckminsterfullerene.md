@@ -4,7 +4,7 @@ aliases:
   - buckminsterfullerene
   - buckminsterfullerenes
 tags:
-  - flashcard/active/general/buckminsterfullerene
+  - flashcard/active/general/eng/buckminsterfullerene
   - language/in/English
 ---
 

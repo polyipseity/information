@@ -1,6 +1,6 @@
 ---
 tags:
-  - flashcard/active/general/internal_structure_of_Earth
+  - flashcard/active/general/eng/internal_structure_of_Earth
   - language/in/English
 ---
 
@@ -8,7 +8,7 @@ tags:
 
 ```Python
 # pytextgen generate module
-# import ../../tools/utility.py.md
+# import ../../../tools/utility.py.md
 ```
 
 ```Python
