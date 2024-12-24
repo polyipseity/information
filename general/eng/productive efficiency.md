@@ -9,13 +9,13 @@ tags:
 
 # productive efficiency
 
-> {@{![an example production possibilities frontier](../archives/Wikimedia%20Commons/Production%20Possibilities%20Frontier%20Curve.svg)}@}
+> {@{![an example production possibilities frontier](../../archives/Wikimedia%20Commons/Production%20Possibilities%20Frontier%20Curve.svg)}@}
 >
 > An example PPF: {@{points B, C and D are all productively efficient}@}, but {@{an economy at A would not be, because D involves more production of both goods}@}. Point X {@{cannot be achieved}@}.
 
 <!-- markdownlint MD028 -->
 
-> {@{![Productive efficiency occurs under competitive equilibrium at the minimum of average total cost for each good, such as the one shown here.](../archives/Wikimedia%20Commons/Productive%20efficiency.svg)}@}
+> {@{![Productive efficiency occurs under competitive equilibrium at the minimum of average total cost for each good, such as the one shown here.](../../archives/Wikimedia%20Commons/Productive%20efficiency.svg)}@}
 >
 > {@{Productive efficiency occurs under competitive equilibrium at the minimum of average total cost for each good, such as the one shown here.}@}
 

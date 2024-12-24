@@ -31,7 +31,7 @@ The Prüfer sequence of a labeled tree is {@{unique and has length _n_ − 2}@}.
 
 ### example
 
-> {@{![a labeled tree with Prüfer sequence](../archives/Wikimedia%20Commons/Tree%20graph.svg)}@}
+> {@{![a labeled tree with Prüfer sequence](../../archives/Wikimedia%20Commons/Tree%20graph.svg)}@}
 >
 > {@{A labeled tree with Prüfer sequence {4,4,4,5}.}@}
 

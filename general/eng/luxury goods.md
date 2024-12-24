@@ -11,7 +11,7 @@ tags:
 
 # luxury goods
 
-> ![Wine and foie gras](../archives/Wikimedia%20Commons/Foie%20gras%20with%20sauternes.jpg)
+> ![Wine and foie gras](../../archives/Wikimedia%20Commons/Foie%20gras%20with%20sauternes.jpg)
 >
 > {@{[Wine](wine.md) and [foie gras](foie%20gras.md)}@}
 
@@ -39,7 +39,7 @@ Some articles in the [microeconomics](microeconomics.md) discipline use {@{the t
 
 ### art history
 
-> ![secular Rococo luxury or treasure binding for a book](../archives/Wikimedia%20Commons/Ballbüchlein%20Griot%20KGM%2066-142.jpg)
+> ![secular Rococo luxury or treasure binding for a book](../../archives/Wikimedia%20Commons/Ballbüchlein%20Griot%20KGM%2066-142.jpg)
 >
 > {@{Secular [Rococo](Rococo.md) luxury or [treasure binding](treasure%20binding.md) for a book}@}, using {@{techniques from the making of gold boxes}@}, in {@{gold, [mother of pearl](nacre.md) and [hardstone](hardstone.md)}@}, {@{Berlin, 1750–1760}@}. By this time, such {@{lavish bindings were unusual}@}.
 
@@ -49,25 +49,25 @@ Though {@{often verging on the meaningless in modern marketing}@}, "luxury" rema
 
 ## market
 
-> ![Patek Philippe & Co. watch](../archives/Wikimedia%20Commons/Patek-Philippe%20MG%202583.jpg)
+> ![Patek Philippe & Co. watch](../../archives/Wikimedia%20Commons/Patek-Philippe%20MG%202583.jpg)
 >
 > {@{The invention of affordable [quartz watches](quartz%20clock.md)}@} caused {@{[mechanical watches](mechanical%20watch.md) to become primarily luxury goods}@}.
 
 <!-- markdownlint MD028 -->
 
-> ![luxury car](../archives/Wikimedia%20Commons/Rolls%20Royce%20Phantom%20-%20Flickr%20-%20Alexandre%20Prévot%20(5)%20(cropped).jpg)
+> ![luxury car](../../archives/Wikimedia%20Commons/Rolls%20Royce%20Phantom%20-%20Flickr%20-%20Alexandre%20Prévot%20(5)%20(cropped).jpg)
 >
 > {@{[Luxury car](luxury%20car.md)}@}
 
 <!-- markdownlint MD028 -->
 
-> ![seven different types of caviar](../archives/Wikimedia%20Commons/Seven%20types%20of%20caviar.jpg)
+> ![seven different types of caviar](../../archives/Wikimedia%20Commons/Seven%20types%20of%20caviar.jpg)
 >
 > {@{Seven different types of [caviar](caviar.md)}@}
 
 <!-- markdownlint MD028 -->
 
-> ![a luxury handbag](../archives/Wikimedia%20Commons/Kelly%20Bag.jpg)
+> ![a luxury handbag](../../archives/Wikimedia%20Commons/Kelly%20Bag.jpg)
 >
 > {@{A luxury [handbag](handbag.md)}@}. While {@{many handbags are valued on their ability to carry objects}@}, {@{designer handbags are valued based on [fashion](fashion.md)}@}.
 
@@ -108,7 +108,7 @@ In {@{2012}@}, {@{[China](Economy%20of%20China.md) surpassed [Japan](Economy%20o
 
 ## economics
 
-> {@{![Engels curves showing income elasticity of demand (YED)](../archives/Wikimedia%20Commons/Income%20elasticity%20of%20demand%20graph.svg)}@}
+> {@{![Engels curves showing income elasticity of demand (YED)](../../archives/Wikimedia%20Commons/Income%20elasticity%20of%20demand%20graph.svg)}@}
 >
 > {@{[Engels curves](Engel%20curve.md)}@} showing {@{[income elasticity of demand](income%20elasticity%20of%20demand.md) \(YED\)}@} of {@{[normal goods](normal%20good.md) \(comprising __luxury__ \(red\) and [necessity goods](necessity%20good.md) \(yellow\)\), [perfectly inelastic](elasticity%20(economics).md) \(green\) and [inferior goods](inferior%20good.md) \(blue\)}@}
 
@@ -124,7 +124,7 @@ In economics, {@{__superior goods__ or __luxury goods__}@} make up {@{a larger _
 
 - see: [positional good](positional%20good.md)
 
-> {@{![Crown of Empress Farah Pahlavi of Iran](../archives/Wikimedia%20Commons/Výstava%20valtice6.JPG)}@}
+> {@{![Crown of Empress Farah Pahlavi of Iran](../../archives/Wikimedia%20Commons/Výstava%20valtice6.JPG)}@}
 >
 > {@{Crown of Empress [Farah Pahlavi](Farah%20Pahlavi.md) of Iran}@}
 
@@ -170,7 +170,7 @@ Luxury brands use {@{seasonal boutiques to follow their well-heeled clientele}@}
 <!-- -->
 <!-- This section __does not [cite](https://en.wikipedia.org/wiki/Wikipedia:Citing%20sources) any [sources](https://en.wikipedia.org/wiki/Wikipedia:Verifiability)__. Please help [improve this section](https://en.wikipedia.org/wiki/Special:EditPage/Luxury%20goods) by adding citations to reliable sources. Unsourced material may be challenged and [removed](https://en.wikipedia.org/wiki/Wikipedia:Verifiability#Burden%20of%20evidence). _\(March 2018\)_ _\(Learn how and when to remove this message\)_ -->
 
-> ![A Brioni boutique at Wynn Las Vegas on the Las Vegas Strip, Las Vegas, Nevada.](../archives/Wikimedia%20Commons/Brioniboutique.jpg)
+> ![A Brioni boutique at Wynn Las Vegas on the Las Vegas Strip, Las Vegas, Nevada.](../../archives/Wikimedia%20Commons/Brioniboutique.jpg)
 >
 > {@{Most clothing in the world}@} is sold {@{in [finished condition in standardized sizes](ready-to-wear.md)}@}. Luxury stores such as this one produce {@{[bespoke clothing](bespoke%20tailoring.md)—clothing specifically designed for the person buying them}@}.
 

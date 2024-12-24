@@ -9,7 +9,7 @@ tags:
 
 # normal good
 
-> {@{![Example of a normal good](../archives/Wikimedia%20Commons/Income%20consumption%20curve%20graph%20-%20upward%20sloping%20(normal%20goods).svg)}@}
+> {@{![Example of a normal good](../../archives/Wikimedia%20Commons/Income%20consumption%20curve%20graph%20-%20upward%20sloping%20(normal%20goods).svg)}@}
 >
 > {@{__Example of a normal good:__}@} As {@{income increases from _B1_ to _B3_}@}, {@{the outward movement of utility curve _I_}@} dictates that {@{the quantity of good _X<sup>1</sup>_ increases in tandem}@}. Therefore, {@{_X<sup>1</sup>_ is a normal good}@}. Put another way, {@{the positively sloped income consumption curve}@} demonstrates that {@{_X<sup>1</sup>_ is normal}@}. {@{The [Engel curve](Engel%20curve.md) of _X<sup>1</sup>_}@} would {@{also be positively sloped}@}.
 
@@ -29,7 +29,7 @@ A good is classified as a normal good when {@{the income elasticity of demand is
 
 However, {@{the classification of normal and luxury goods}@} {@{vary from person to person}@}. A good that is considered to be a normal good to a lot of people {@{maybe considered to be luxury good to someone}@}. This depends on {@{a lot of factors such as geographical locations, socio economic conditions in a country, local traditions and many more}@}.
 
-> {@{![change in demand for both normal goods and luxury goods due to a change in income](../archives/Wikimedia%20Commons/Income%20consumption.jpg)}@}
+> {@{![change in demand for both normal goods and luxury goods due to a change in income](../../archives/Wikimedia%20Commons/Income%20consumption.jpg)}@}
 >
 > The graph shows {@{the change in demand for both normal goods and luxury goods due to a change in income}@}. When {@{the income rises from 500 to 700}@}, {@{the quantity demanded for normal goods rises from 800 to 900}@}.
 
@@ -56,7 +56,7 @@ __Examples of Normal vs. Inferior Goods__
 
 Another potential caveat is brought up by {@{"The Notion of Inferior Good in the Public Economy"}@} by {@{Professor Jurion of [University of Liège](University%20of%20Liège.md)}@} \(published {@{1978}@}\). {@{[Public goods](public%20good%20(economics).md) such as online news}@} are often {@{considered inferior goods}@}.<sup>[\[8\]](#^ref-8)</sup> However, {@{the conventional distinction between inferior and normal goods}@} may be {@{blurry for public goods}@}. \(At least, for {@{goods that are non-[rival](rivalry%20(economics).md) enough}@} that {@{they are conventionally understood as "public goods"}@}.\) {@{Consumption of many public goods will decrease}@} when {@{a rational consumer's income rises, due to replacement by private goods}@}, e.g. {@{building a private garden to replace use of public parks}@}. But when {@{effective congestion costs (costs due to many consumers using many of a normal good) to a consumer rises with the consumer's income}@}, even {@{a normal good with a low income elasticity of demand}@} \(independent of {@{the congestion costs associated with the non-[excludable](excludability.md) nature of the good}@}\) will {@{exhibit the same effect}@}. This makes it difficult to {@{distinguish inferior public goods from normal ones}@}.<sup>[\[9\]](#^ref-9)</sup>
 
-> {@{![Engels curves showing income elasticity of demand (YED) of normal goods (comprising luxury (red) and necessity goods (yellow)), perfectly inelastic (green) and inferior goods (blue)](../archives/Wikimedia%20Commons/Income%20elasticity%20of%20demand%20graph.svg)}@}
+> {@{![Engels curves showing income elasticity of demand (YED) of normal goods (comprising luxury (red) and necessity goods (yellow)), perfectly inelastic (green) and inferior goods (blue)](../../archives/Wikimedia%20Commons/Income%20elasticity%20of%20demand%20graph.svg)}@}
 >
 > {@{[Engels curves](Engel%20curve.md)}@} showing {@{[income elasticity of demand](income%20elasticity%20of%20demand.md) \(YED\)}@} of {@{__normal goods__ \(comprising [luxury](luxury%20goods.md) \(red\) and [necessity goods](necessity%20good.md) \(yellow\)\), [perfectly inelastic](elasticity%20(economics).md) \(green\) and [inferior goods](inferior%20good.md) \(blue\)}@}
 

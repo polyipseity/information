@@ -11,7 +11,7 @@ tags:
 
 ```Python
 # pytextgen generate module
-# import ../../tools/utility.py.md
+# import ../../../tools/utility.py.md
 ```
 
 A __physical property__ is {@{a [property](property.md) measurable without [chemical reactions](chemical%20reaction.md)}@}. It is contrasted with {@{[chemical property](chemical%20property.md)}@}.

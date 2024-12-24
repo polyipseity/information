@@ -11,7 +11,7 @@ tags:
 
 # vitamin C
 
-> {@{![structure of vitamin C](../archives/Wikimedia%20Commons/L-Ascorbic%20acid.svg)}@}
+> {@{![structure of vitamin C](../../archives/Wikimedia%20Commons/L-Ascorbic%20acid.svg)}@}
 >
 > structure of vitamin C
 

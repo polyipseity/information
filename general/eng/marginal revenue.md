@@ -11,7 +11,7 @@ tags:
 
 # marginal revenue
 
-> {@{![Linear marginal revenue (MR) and average revenue (AR) curves for a firm that is not in perfect competition](../archives/Wikimedia%20Commons/Average%20and%20marginal%20revenue.svg)}@}
+> {@{![Linear marginal revenue (MR) and average revenue (AR) curves for a firm that is not in perfect competition](../../archives/Wikimedia%20Commons/Average%20and%20marginal%20revenue.svg)}@}
 >
 > {@{Linear marginal revenue (MR) and average revenue (AR) curves for a firm that is not in [perfect competition](perfect%20competition.md)}@}
 
@@ -37,13 +37,13 @@ __Example 2:__ If {@{a firm's total revenue function is written as $R(Q)=P(Q)\cd
 
 ## marginal revenue curve
 
-> {@{![Marginal revenue under perfect competition](../archives/Wikimedia%20Commons/Costcurve%20-%20Marginal%20Cost%202.svg)}@}
+> {@{![Marginal revenue under perfect competition](../../archives/Wikimedia%20Commons/Costcurve%20-%20Marginal%20Cost%202.svg)}@}
 >
 > {@{Marginal revenue under perfect competition}@}
 
 <!-- markdownlint MD028 -->
 
-> {@{![Marginal revenue under monopoly](../archives/Wikimedia%20Commons/MarginalRevenue.jpg)}@}
+> {@{![Marginal revenue under monopoly](../../archives/Wikimedia%20Commons/MarginalRevenue.jpg)}@}
 >
 > {@{Marginal revenue under monopoly}@}
 

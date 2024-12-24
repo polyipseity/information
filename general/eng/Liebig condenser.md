@@ -8,7 +8,7 @@ tags:
 
 # Liebig condenser
 
-![LiebigCondenser](../archives/Wikimedia%20Commons/LiebigCondenser.jpg)
+![LiebigCondenser](../../archives/Wikimedia%20Commons/LiebigCondenser.jpg)
 
 A __Liebig condenser__ is {@{a [laboratory equipment](laboratory%20equipment.md) that is a [condenser](condenser.md) consisting of a straight [glass](glass.md) tube enclosed in a [water jacket](water%20jacket.md)}@}.
 

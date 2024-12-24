@@ -17,7 +17,7 @@ tags:
 
 ```Python
 # pytextgen generate module
-# import ../../tools/utility.py.md
+# import ../../../tools/utility.py.md
 ```
 
 The __Kepler's laws of planetary motion__ describe {@{the [orbits](Kepler%20orbit.md) of [planets](planet.md) around the [Sun](Sun.md)}@}. They were {@{published by [Johannes Kepler](Johannes%20Kepler.md) between 1609 and 1619}@}. They state that:

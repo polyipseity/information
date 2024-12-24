@@ -27,7 +27,7 @@ Economists had {@{long understood that changes in price could lead to two main r
 
 ## graphical analysis
 
-> {@{![graph for graphical analysis](../archives/Wikimedia%20Commons/Hicks%20Substitution%20effect.svg)}@}
+> {@{![graph for graphical analysis](../../archives/Wikimedia%20Commons/Hicks%20Substitution%20effect.svg)}@}
 >
 > {@{graph for graphical analysis}@}
 

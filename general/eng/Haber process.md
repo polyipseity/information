@@ -11,7 +11,7 @@ tags:
 
 ```Python
 # pytextgen generate module
-# import ../../tools/utility.py.md
+# import ../../../tools/utility.py.md
 ```
 
 The __Haber process__ or __Haber–Bosch process__ is {@{the main industrial process for [ammonia production](ammonia%20production.md)}@}.
@@ -67,7 +67,7 @@ Starting with a [natural gas](natural%20gas.md) feedstock:
 
 ### large-scale implementation
 
-> {@{![process flow diagram of the Haber process](../archives/Wikimedia%20Commons/Haber-Bosch-En.svg)}@}
+> {@{![process flow diagram of the Haber process](../../archives/Wikimedia%20Commons/Haber-Bosch-En.svg)}@}
 >
 > - <span style="border:thin solid black"><span style="border-left:1.2em solid;border-left-color:#ecbae7" title="#ECBAE7">&#xFEFF;</span></span> primary reformer
 > - <span style="border:thin solid black"><span style="border-left:1.2em solid;border-left-color:#4d94e1" title="#4D94E1">&#xFEFF;</span></span> air feed

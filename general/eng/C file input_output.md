@@ -20,7 +20,7 @@ tags:
 
 # C file input/output
 
-See [file input/output](../special/C/file%20input_output.md).
+See [file input/output](../../special/C/file%20input_output.md).
 
 ## references
 

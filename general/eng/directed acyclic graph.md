@@ -17,7 +17,7 @@ tags:
 
 # directed acyclic graph
 
-> ![Example of a directed acyclic graph](../archives/Wikimedia%20Commons/Tred-G.svg)
+> ![Example of a directed acyclic graph](../../archives/Wikimedia%20Commons/Tred-G.svg)
 >
 > {@{Example of a directed acyclic graph}@}
 
@@ -35,11 +35,11 @@ A [graph](graph%20(discrete%20mathematics).md) is formed by {@{[vertices](vertex
 
 ### reachability relation, transitive closure, and transitive reduction
 
-> ![A DAG](../archives/Wikimedia%20Commons/Tred-G.svg)
+> ![A DAG](../../archives/Wikimedia%20Commons/Tred-G.svg)
 >
 > {@{A DAG}@}
 >
-> {@{![Its transitive reduction](../archives/Wikimedia%20Commons/Tred-Gprime.svg)}@}
+> {@{![Its transitive reduction](../../archives/Wikimedia%20Commons/Tred-Gprime.svg)}@}
 >
 > {@{Its transitive reduction}@}
 
@@ -47,7 +47,7 @@ A [graph](graph%20(discrete%20mathematics).md) is formed by {@{[vertices](vertex
 
 {@{The [transitive closure](transitive%20closure.md) of a DAG}@} is {@{the graph with the most edges that has the same reachability relation as the DAG}@}. It has {@{an edge _u_ → _v_ for every pair of vertices \(_u_, _v_\) in the reachability relation ≤ of the DAG}@}, and may therefore be {@{thought of as a direct translation of the reachability relation ≤ into graph-theoretic terms}@}. The same method of {@{translating partial orders into DAGs works more generally}@}: for {@{every finite partially ordered set \(_S_, ≤\)}@}, the graph that has {@{a vertex for every element of _S_ and an edge for every pair of elements in ≤}@} is {@{automatically a transitively closed DAG}@}, and has {@{\(_S_, ≤\) as its reachability relation}@}. In this way, {@{every finite partially ordered set can be represented as a DAG}@}.
 
-> {@{![A [Hasse diagram](Hasse%20diagram.md) representing the partial order of set inclusion \(⊆\) among the subsets of a three-element set](../archives/Wikimedia%20Commons/Hasse%20diagram%20of%20powerset%20of%203.svg)}@}
+> {@{![A [Hasse diagram](Hasse%20diagram.md) representing the partial order of set inclusion \(⊆\) among the subsets of a three-element set](../../archives/Wikimedia%20Commons/Hasse%20diagram%20of%20powerset%20of%203.svg)}@}
 >
 > {@{A [Hasse diagram](Hasse%20diagram.md) representing the partial order of set inclusion \(⊆\) among the subsets of a three-element set}@}
 
@@ -55,11 +55,11 @@ A [graph](graph%20(discrete%20mathematics).md) is formed by {@{[vertices](vertex
 
 ### topological ordering
 
-> {@{![A [topological ordering](topological%20sorting.md) of a directed acyclic graph](../archives/Wikimedia%20Commons/Topological%20Ordering.svg)}@}
+> {@{![A [topological ordering](topological%20sorting.md) of a directed acyclic graph](../../archives/Wikimedia%20Commons/Topological%20Ordering.svg)}@}
 >
 > {@{A [topological ordering](topological%20sorting.md) of a directed acyclic graph}@}: {@{every [edge](glossary%20of%20graph%20theory.md#edge) goes from earlier in the ordering \(upper left\) to later in the ordering \(lower right\)}@}. A directed graph is {@{acyclic if and only if it has a topological ordering}@}.
 >
-> {@{![Adding the red edges to the blue directed acyclic graph produces another DAG, the [transitive closure](transitive%20closure.md) of the blue graph.](../archives/Wikimedia%20Commons/Transitive%20Closure.svg)}@}
+> {@{![Adding the red edges to the blue directed acyclic graph produces another DAG, the [transitive closure](transitive%20closure.md) of the blue graph.](../../archives/Wikimedia%20Commons/Transitive%20Closure.svg)}@}
 >
 > {@{Adding the red edges to the blue directed acyclic graph}@} {@{produces another DAG, the [transitive closure](transitive%20closure.md) of the blue graph}@}. For {@{each red or blue edge _u_ → _v_}@}, _v_ is {@{[reachable](reachability.md) from _u_: there exists a blue path starting at _u_ and ending at _v_}@}.
 
@@ -79,11 +79,11 @@ These numbers may be {@{computed by the [recurrence relation](recurrence%20relat
 
 ### related families of graphs
 
-> {@{![A [multitree](multitree.md), a DAG in which the subgraph reachable from any vertex induces an undirected tree \(e.g. in red\)](../archives/Wikimedia%20Commons/Butterfly%20multitree.svg)}@}
+> {@{![A [multitree](multitree.md), a DAG in which the subgraph reachable from any vertex induces an undirected tree \(e.g. in red\)](../../archives/Wikimedia%20Commons/Butterfly%20multitree.svg)}@}
 >
 > {@{A [multitree](multitree.md), a DAG in which the subgraph reachable from any vertex induces an undirected tree \(e.g. in red\)}@}
 >
-> {@{![A [polytree](polytree.md), a DAG formed by orienting the edges of an undirected tree](../archives/Wikimedia%20Commons/Polytree.svg)}@}
+> {@{![A [polytree](polytree.md), a DAG formed by orienting the edges of an undirected tree](../../archives/Wikimedia%20Commons/Polytree.svg)}@}
 >
 > {@{A [polytree](polytree.md), a DAG formed by orienting the edges of an undirected tree}@}
 
@@ -107,7 +107,7 @@ It is also possible to {@{check whether a given directed graph is a DAG in linea
 
 {@{Any undirected graph may be made into a DAG}@} by {@{choosing a [total order](total%20order.md) for its vertices and directing every edge from the earlier endpoint in the order to the later endpoint}@}. {@{The resulting [orientation](orientation%20(graph%20theory).md) of the edges}@} is {@{called an [acyclic orientation](acyclic%20orientation.md)}@}. {@{Different total orders}@} may {@{lead to the same acyclic orientation}@}, so {@{an _n_-vertex graph can have fewer than _n_! acyclic orientations}@}. {@{The number of acyclic orientations}@} is {@{equal to \|_χ_\(−1\)\|, where _χ_ is the [chromatic polynomial](chromatic%20polynomial.md) of the given graph}@}.<sup>[\[19\]](#^ref-19)</sup>
 
-> {@{![The yellow directed acyclic graph is the [condensation](strongly%20connected%20component.md#definitions) of the blue directed graph.](../archives/Wikimedia%20Commons/Graph%20Condensation.svg)}@}
+> {@{![The yellow directed acyclic graph is the [condensation](strongly%20connected%20component.md#definitions) of the blue directed graph.](../../archives/Wikimedia%20Commons/Graph%20Condensation.svg)}@}
 >
 > {@{The yellow directed acyclic graph is the [condensation](strongly%20connected%20component.md#definitions) of the blue directed graph}@}. It is formed by {@{[contracting](edge%20contraction.md) each [strongly connected component](strongly%20connected%20component.md) of the blue graph into a single yellow vertex}@}.
 
@@ -137,7 +137,7 @@ Some algorithms become {@{simpler when used on DAGs instead of general graphs}@}
 
 For instance, when {@{one cell of a [spreadsheet](spreadsheet.md) changes}@}, it is necessary to {@{recalculate the values of other cells that depend directly or indirectly on the changed cell}@}. For this problem, {@{the tasks to be scheduled}@} are {@{the recalculations of the values of individual cells of the spreadsheet}@}. {@{Dependencies arise}@} when {@{an expression in one cell uses a value from another cell}@}. In such a case, {@{the value that is used must be recalculated earlier than the expression that uses it}@}. {@{Topologically ordering the dependency graph}@}, and {@{using this topological order to schedule the cell updates}@}, allows {@{the whole spreadsheet to be updated with only a single evaluation per cell}@}.<sup>[\[31\]](#^ref-31)</sup> Similar problems of task ordering arise in {@{[makefiles](Make%20(software).md#makefile)}@} for {@{program compilation}@}<sup>[\[31\]](#^ref-31)</sup> and {@{[instruction scheduling](instruction%20scheduling.md)}@} for {@{low-level computer program optimization}@}.<sup>[\[32\]](#^ref-32)</sup>
 
-> {@{![PERT chart for a project with five milestones \(labeled 10–50\) and six tasks \(labeled A–F\). There are two critical paths, ADF and BC.](../archives/Wikimedia%20Commons/Pert%20chart%20colored.svg)}@}
+> {@{![PERT chart for a project with five milestones \(labeled 10–50\) and six tasks \(labeled A–F\). There are two critical paths, ADF and BC.](../../archives/Wikimedia%20Commons/Pert%20chart%20colored.svg)}@}
 >
 > {@{PERT chart for a project with five milestones \(labeled 10–50\) and six tasks \(labeled A–F\). There are two critical paths, ADF and BC.}@}
 
@@ -167,7 +167,7 @@ Sometimes {@{events are not associated with a specific physical time}@}. Provide
 
 ### genealogy and version history
 
-> ![Family tree of the [Ptolemaic dynasty](Ptolemaic%20dynasty.md), with many marriages between [close relatives](consanguinity.md) causing [pedigree collapse](pedigree%20collapse.md).](../archives/Wikimedia%20Commons/EgyptianPtolemies2.jpg)
+> ![Family tree of the [Ptolemaic dynasty](Ptolemaic%20dynasty.md), with many marriages between [close relatives](consanguinity.md) causing [pedigree collapse](pedigree%20collapse.md).](../../archives/Wikimedia%20Commons/EgyptianPtolemies2.jpg)
 >
 > {@{Family tree of the [Ptolemaic dynasty](Ptolemaic%20dynasty.md)}@}, with {@{many marriages between [close relatives](consanguinity.md) causing [pedigree collapse](pedigree%20collapse.md)}@}.
 
@@ -253,7 +253,7 @@ This text incorporates [content](https://en.wikipedia.org/wiki/directed_acyclic_
 
 ## external links
 
-> ![Wikimedia Commons logo](../archives/Wikimedia%20Commons/Commons-logo.svg)
+> ![Wikimedia Commons logo](../../archives/Wikimedia%20Commons/Commons-logo.svg)
 >
 > Wikimedia Commons has media related to __[directed acyclic graphs](https://commons.wikimedia.org/wiki/Category:Directed%20acyclic%20graphs)__.
 

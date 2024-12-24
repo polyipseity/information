@@ -31,25 +31,25 @@ This property is especially {@{useful in maintaining a graph with a two-fold [re
 
 ## examples
 
-> {@{![A biconnected graph on four vertices and four edges](../archives/Wikimedia%20Commons/4%20Node%20Biconnected.svg)}@}
+> {@{![A biconnected graph on four vertices and four edges](../../archives/Wikimedia%20Commons/4%20Node%20Biconnected.svg)}@}
 >
 > {@{A biconnected graph on four vertices and four edges}@}
 
 <!-- markdownlint MD028 -->
 
-> {@{![A graph that is not biconnected. The removal of vertex x would disconnect the graph.](../archives/Wikimedia%20Commons/4%20Node%20Not-Biconnected.svg)}@}
+> {@{![A graph that is not biconnected. The removal of vertex x would disconnect the graph.](../../archives/Wikimedia%20Commons/4%20Node%20Not-Biconnected.svg)}@}
 >
 > {@{A graph that is not biconnected. The removal of vertex x would disconnect the graph.}@}
 
 <!-- markdownlint MD028 -->
 
-> {@{![A biconnected graph on five vertices and six edges](../archives/Wikimedia%20Commons/5%20Node%20Biconnected.svg)}@}
+> {@{![A biconnected graph on five vertices and six edges](../../archives/Wikimedia%20Commons/5%20Node%20Biconnected.svg)}@}
 >
 > {@{A biconnected graph on five vertices and six edges}@}
 
 <!-- markdownlint MD028 -->
 
-> {@{![A graph that is not biconnected. The removal of vertex x would disconnect the graph.](../archives/Wikimedia%20Commons/5%20Node%20Not-Biconnected.svg)}@}
+> {@{![A graph that is not biconnected. The removal of vertex x would disconnect the graph.](../../archives/Wikimedia%20Commons/5%20Node%20Not-Biconnected.svg)}@}
 >
 > {@{A graph that is not biconnected. The removal of vertex x would disconnect the graph.}@}
 

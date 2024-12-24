@@ -11,7 +11,7 @@ tags:
 
 - Not to be confused with {@{[Veblen goods](Veblen%20good.md)}@}.
 
-> {@{![Indifference map with two budget lines \(red\) depending on the price of Giffen good _x_](../archives/Wikimedia%20Commons/Giffenen.svg)}@}
+> {@{![Indifference map with two budget lines \(red\) depending on the price of Giffen good _x_](../../archives/Wikimedia%20Commons/Giffenen.svg)}@}
 >
 > {@{Indifference map with two budget lines \(red\) depending on the price of Giffen good _x_}@}
 
@@ -21,7 +21,7 @@ For {@{[ordinary goods](ordinary%20good.md)}@}, as {@{the [price](price.md) of t
 
 ## background
 
-> {@{![types of goods in economics](../archives/Wikimedia%20Commons/Types%20of%20goods.svg)}@}
+> {@{![types of goods in economics](../../archives/Wikimedia%20Commons/Types%20of%20goods.svg)}@}
 >
 > {@{Types of goods in economics}@}
 

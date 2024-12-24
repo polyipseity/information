@@ -9,7 +9,7 @@ tags:
 
 # diamond
 
-> {@{![diamond structure](../archives/Wikimedia%20Commons/Diamond%20structure.gif)}@}
+> {@{![diamond structure](../../archives/Wikimedia%20Commons/Diamond%20structure.gif)}@}
 >
 > {@{[tetrahedral](tetrahedron.md) structure of diamond}@}
 

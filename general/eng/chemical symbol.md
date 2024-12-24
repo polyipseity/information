@@ -14,7 +14,7 @@ __Chemical symbols__ are {@{abbreviations for [chemical substances](chemical%20s
 
 ## extensions
 
-> {@{![Annotated element symbol](../archives/Wikimedia%20Commons/Atomic%20Symbol%20Mg.svg)}@}
+> {@{![Annotated element symbol](../../archives/Wikimedia%20Commons/Atomic%20Symbol%20Mg.svg)}@}
 >
 > Annotated element symbol
 

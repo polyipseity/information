@@ -28,7 +28,7 @@ An economic equilibrium is {@{a situation when the economic agent cannot change 
 
 ### example: competitive equilibrium
 
-> {@{![Competitive Equilibrium: Price equates supply and demand.](../archives/Wikimedia%20Commons/Price%20of%20market%20balance.gif)}@}
+> {@{![Competitive Equilibrium: Price equates supply and demand.](../../archives/Wikimedia%20Commons/Price%20of%20market%20balance.gif)}@}
 >
 > {@{Competitive Equilibrium: Price equates supply and demand.}@}
 >
@@ -56,7 +56,7 @@ In order to {@{determine if Property P3 is satisfied}@}, {@{the same situations 
 
 - see: [Nash equilibrium](Nash%20equilibrium.md), [Cournot model](Cournot%20competition.md)
 
-> {@{![Equilibrium quantities as a solution to two reaction functions in Cournot duopoly.](../archives/Wikimedia%20Commons/Economics%20Cournot%20diag4.svg)}@}
+> {@{![Equilibrium quantities as a solution to two reaction functions in Cournot duopoly.](../../archives/Wikimedia%20Commons/Economics%20Cournot%20diag4.svg)}@}
 >
 > {@{Equilibrium quantities as a solution to two reaction functions in Cournot duopoly}@}. {@{Firm 1's reaction function q1=R1(q2)}@} gives {@{its optimal output q1 to a given output q2 of firm 2}@}. Likewise, {@{firm 2's reaction function q2=R2(q1)}@}. {@{The _Cournot-Nash equilibrium_ occurs}@} where {@{the two reaction functions intersect and both firms are choosing the optimal output given the output of the other firm}@}.
 
@@ -86,7 +86,7 @@ An example may be:
 
 $${\begin{alignedat}{2}Q_{s}&=125+1.5\cdot P\\Q_{d}&=189-2.25\cdot P\\\\Q_{s}&=Q_{d}\\\\125+1.5\cdot P&=189-2.25\cdot P\\(1.5+2.25)\cdot P&=(189-125)\\P&={\frac {189-125}{1.5+2.25} }\\P&={\frac {64}{3.75} }\\P&=17.067\\\end{alignedat} }$$
 
-> {@{![simple supply and demand diagram](../archives/Wikimedia%20Commons/Simple%20supply%20and%20demand.svg)}@}
+> {@{![simple supply and demand diagram](../../archives/Wikimedia%20Commons/Simple%20supply%20and%20demand.svg)}@}
 >
 > {@{simple supply and demand diagram}@}
 

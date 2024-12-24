@@ -9,7 +9,7 @@ tags:
 
 # supply
 
-> {@{![An example of a nonlinear supply curve](../archives/Wikimedia%20Commons/Supply.gif)}@}
+> {@{![An example of a nonlinear supply curve](../../archives/Wikimedia%20Commons/Supply.gif)}@}
 >
 > {@{An example of a nonlinear supply curve}@}
 

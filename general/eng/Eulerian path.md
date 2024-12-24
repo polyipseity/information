@@ -15,13 +15,13 @@ tags:
 
 # Eulerian path
 
-> {@{![[multigraphs](multigraph.md) of [Königsberg Bridges](Seven%20Bridges%20of%20Königsberg.md) and [five room puzzles](five-room%20puzzle.md)](../archives/Wikimedia%20Commons/Comparison%207%20bridges%20of%20Konigsberg%205%20room%20puzzle%20graphs.svg)}@}
+> {@{![[multigraphs](multigraph.md) of [Königsberg Bridges](Seven%20Bridges%20of%20Königsberg.md) and [five room puzzles](five-room%20puzzle.md)](../../archives/Wikimedia%20Commons/Comparison%207%20bridges%20of%20Konigsberg%205%20room%20puzzle%20graphs.svg)}@}
 >
 > {@{[Multigraphs](multigraph.md)}@} of {@{both [Königsberg Bridges](Seven%20Bridges%20of%20Königsberg.md) and [Five room puzzles](five-room%20puzzle.md)}@} have {@{more than two odd vertices \(in orange\)}@}, thus {@{are not Eulerian and hence the puzzles have no solutions}@}.
 
 <!-- markdownlint MD028 -->
 
-> ![a labeled Eulerian graph](../archives/Wikimedia%20Commons/Labelled%20Eulergraph.svg)
+> ![a labeled Eulerian graph](../../archives/Wikimedia%20Commons/Labelled%20Eulergraph.svg)
 >
 > {@{Every vertex of this graph}@} has {@{an even degree}@}. Therefore, {@{this is an Eulerian graph}@}. {@{Following the edges in alphabetical order}@} gives {@{an Eulerian circuit/cycle}@}.
 
@@ -60,7 +60,7 @@ For {@{[directed graphs](directed%20graph.md)}@}, "path" has to be {@{replaced w
 
 ## constructing Eulerian trails and circuits
 
-> {@{![Eulerian trail puzzles](../archives/Wikimedia%20Commons/Eulerian%20path%20puzzles.svg)}@}
+> {@{![Eulerian trail puzzles](../../archives/Wikimedia%20Commons/Eulerian%20path%20puzzles.svg)}@}
 >
 > Using {@{Eulerian trails}@} to {@{solve puzzles involving drawing a shape with a continuous stroke}@}:
 >
@@ -88,7 +88,7 @@ By using {@{a data structure such as a [doubly linked list](doubly%20linked%20li
 
 This algorithm may also {@{be implemented with a [deque](double-ended%20queue.md)}@}. Because {@{it is only possible to get stuck when the deque represents a closed tour}@}, one should {@{rotate the deque by removing edges from the tail and adding them to the head until unstuck}@}, and then {@{continue until all edges are accounted for}@}. This {@{also takes linear time}@}, as {@{the number of rotations performed is never larger than $|E|$}@} \(intuitively, {@{any "bad" edges are moved to the head, while fresh edges are added to the tail}@}\)
 
-> {@{![Hamiltonian platonic graphs](../archives/Wikimedia%20Commons/Hamiltonian%20platonic%20graphs.svg)}@}
+> {@{![Hamiltonian platonic graphs](../../archives/Wikimedia%20Commons/Hamiltonian%20platonic%20graphs.svg)}@}
 >
 > {@{Orthographic projections and Schlegel diagrams}@} with {@{[Hamiltonian cycles](hamiltonian%20path.md) of the vertices of the five platonic solids}@} – {@{only the octahedron has an __Eulerian path__ or cycle}@}, by {@{extending its path with the dotted one}@}
 >
@@ -118,7 +118,7 @@ Eulerian trails are used in {@{[bioinformatics](bioinformatics.md)}@} to {@{reco
 
 ## in infinite graphs
 
-> {@{![An infinite graph with all vertex degrees equal to four but with no Eulerian line](../archives/Wikimedia%20Commons/Kely%20graph%20of%20F2%20clear.svg)}@}
+> {@{![An infinite graph with all vertex degrees equal to four but with no Eulerian line](../../archives/Wikimedia%20Commons/Kely%20graph%20of%20F2%20clear.svg)}@}
 >
 > {@{An infinite graph with all vertex degrees equal to four but with no Eulerian line}@}
 
@@ -139,7 +139,7 @@ The following result was {@{proved by Veblen in 1912}@}: {@{An undirected connec
 
 ## directed Eulerian graphs
 
-> {@{![a directed graph with all even degrees that is not Eulerian](../archives/Wikimedia%20Commons/Even%20directed%20graph%20that%20is%20not%20Eulerian%20counterexample.svg)}@}
+> {@{![a directed graph with all even degrees that is not Eulerian](../../archives/Wikimedia%20Commons/Even%20directed%20graph%20that%20is%20not%20Eulerian%20counterexample.svg)}@}
 >
 > {@{A directed graph with all even degrees that is not Eulerian}@}, serving as {@{a counterexample to the statement that a sufficient condition for a directed graph to be Eulerian is that it has all even degrees}@}
 
@@ -151,7 +151,7 @@ It is possible to {@{have a [directed graph](directed%20graph.md) that has all e
 
 ## mixed Eulerian graphs
 
-> {@{![an even but non-symmetric mixed graph that is Eulerian](../archives/Wikimedia%20Commons/Eulerian%20mixed%20graph%20that%20is%20even%20but%20not%20symmetric%20proving%20that%20evenness%20and%20symmetricness%20is%20not%20a%20necessary%20and%20sufficient%20condition%20for%20a%20mixed%20graph%20to%20be%20Eulerian.svg)}@}
+> {@{![an even but non-symmetric mixed graph that is Eulerian](../../archives/Wikimedia%20Commons/Eulerian%20mixed%20graph%20that%20is%20even%20but%20not%20symmetric%20proving%20that%20evenness%20and%20symmetricness%20is%20not%20a%20necessary%20and%20sufficient%20condition%20for%20a%20mixed%20graph%20to%20be%20Eulerian.svg)}@}
 >
 > {@{This mixed graph is Eulerian}@}. The graph is {@{even but not symmetric}@} which proves that {@{evenness and symmetricness are not necessary and sufficient conditions for a mixed graph to be Eulerian}@}.
 
@@ -161,13 +161,13 @@ It is possible to {@{have a [directed graph](directed%20graph.md) that has all e
 
 {@{The process of checking if a mixed graph is Eulerian}@} is {@{harder than checking if an undirected or directed graph is Eulerian}@} because {@{the balanced set condition concerns every possible subset of vertices}@}.
 
-> {@{![An even mixed graph that violates the balanced set condition and is therefore not Eulerian.](../archives/Wikimedia%20Commons/Even%20mixed%20graph%20that%20violates%20the%20balanced%20set%20condition%20and%20is%20therefore%20not%20Eulerian.svg)}@}
+> {@{![An even mixed graph that violates the balanced set condition and is therefore not Eulerian.](../../archives/Wikimedia%20Commons/Even%20mixed%20graph%20that%20violates%20the%20balanced%20set%20condition%20and%20is%20therefore%20not%20Eulerian.svg)}@}
 >
 > {@{An even mixed graph that violates the balanced set condition and is therefore not Eulerian.}@}
 
 <!-- markdownlint MD028 -->
 
-> {@{![An even mixed graph that satisfies the balanced set condition and is therefore an Eulerian mixed graph.](../archives/Wikimedia%20Commons/Even%20mixed%20graph%20satisfies%20the%20balanced%20set%20condition%20and%20is%20therefore%20an%20Eulerian%20mixed%20graph.svg)}@}
+> {@{![An even mixed graph that satisfies the balanced set condition and is therefore an Eulerian mixed graph.](../../archives/Wikimedia%20Commons/Even%20mixed%20graph%20satisfies%20the%20balanced%20set%20condition%20and%20is%20therefore%20an%20Eulerian%20mixed%20graph.svg)}@}
 >
 > {@{An even mixed graph that satisfies the balanced set condition and is therefore an Eulerian mixed graph.}@}
 
@@ -222,7 +222,7 @@ This text incorporates [content](https://en.wikipedia.org/wiki/Eulerian_path) fr
 
 ## external links
 
-> ![Wikimedia Commons logo](../archives/Wikimedia%20Commons/Commons-logo.svg)
+> ![Wikimedia Commons logo](../../archives/Wikimedia%20Commons/Commons-logo.svg)
 >
 > Wikimedia Commons has media related to __[Eulerian paths](https://commons.wikimedia.org/wiki/Category:Eulerian%20paths)__.
 

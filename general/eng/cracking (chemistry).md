@@ -11,7 +11,7 @@ tags:
 
 ```Python
 # pytextgen generate module
-# import ../../tools/utility.py.md
+# import ../../../tools/utility.py.md
 ```
 
 __Cracking__ is {@{the process of breaking down complex [organic compounds](organic%20compound.md) into smaller ones}@}. {@{[Alkanes](alkane.md), [alkenes](alkene.md), and sometimes [hydrogen](hydrogen.md) and [carbon](carbon.md)}@} are produced.

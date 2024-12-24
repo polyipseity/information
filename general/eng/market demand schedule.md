@@ -13,7 +13,7 @@ In [economics](economics.md), a __market demand schedule__ is {@{a tabulation of
 
 Generally, there is {@{an inverse relationship between the price and the quantity demanded}@}.<sup>[\[1\]](#^ref-1)</sup><sup>[\[2\]](#^ref-2)</sup> {@{The graphical representation of a demand schedule}@} is {@{called a [demand curve](demand%20curve.md)}@}.
 
-> {@{![An example of a market demand schedule](../archives/Wikimedia%20Commons/Market%20Demand%20Schedule%20copy.png)}@}
+> {@{![An example of a market demand schedule](../../archives/Wikimedia%20Commons/Market%20Demand%20Schedule%20copy.png)}@}
 >
 > {@{An example of a market demand schedule}@}
 

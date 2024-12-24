@@ -28,7 +28,7 @@ Every Vitali set $V$ is {@{uncountable}@}, and {@{$v-u$ is irrational for any $u
 
 ### non-measurability
 
-> {@{![A possible enumeration of the positive rational numbers](../archives/Wikimedia%20Commons/Diagonal%20argument.svg)}@}
+> {@{![A possible enumeration of the positive rational numbers](../../archives/Wikimedia%20Commons/Diagonal%20argument.svg)}@}
 >
 > {@{A possible enumeration of the positive rational numbers}@}
 

@@ -77,7 +77,7 @@ Price is determined by {@{both marginal utility and marginal cost, and here is t
 
 ## quantified marginal utility
 
-> {@{![Diminishing marginal utility, given quantification](../archives/Wikimedia%20Commons/UtilityQuantified.svg)}@}
+> {@{![Diminishing marginal utility, given quantification](../../archives/Wikimedia%20Commons/UtilityQuantified.svg)}@}
 >
 > {@{Diminishing marginal utility, given quantification}@}
 

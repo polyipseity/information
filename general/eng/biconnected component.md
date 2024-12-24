@@ -11,7 +11,7 @@ tags:
 
 - Not to be confused with {@{[vertex cut](vertex%20separator.md)}@}.
 
-> {@{![Each color corresponds to a biconnected component. Multi-colored vertices are cut vertices, and thus belong to multiple biconnected components.](../archives/Wikimedia%20Commons/Graph-Biconnected-Components.svg)}@}
+> {@{![Each color corresponds to a biconnected component. Multi-colored vertices are cut vertices, and thus belong to multiple biconnected components.](../../archives/Wikimedia%20Commons/Graph-Biconnected-Components.svg)}@}
 >
 > {@{Each color corresponds to a biconnected component}@}. {@{Multi-colored vertices are cut vertices, and thus belong to multiple biconnected components}@}.
 
@@ -110,7 +110,7 @@ The key fact is that {@{a nonroot vertex _v_ is a cut vertex \(or articulation p
 
 <!-- markdownlint MD028 -->
 
-> {@{![A demo of Tarjan's algorithm to find cut vertices. __D__ denotes depth and __L__ denotes lowpoint.](../archives/Wikimedia%20Commons/TarjanAPDemoDepth.gif)}@}
+> {@{![A demo of Tarjan's algorithm to find cut vertices. __D__ denotes depth and __L__ denotes lowpoint.](../../archives/Wikimedia%20Commons/TarjanAPDemoDepth.gif)}@}
 >
 > {@{A demo of Tarjan's algorithm to find cut vertices. __D__ denotes depth and __L__ denotes lowpoint.}@}
 
@@ -136,7 +136,7 @@ One can define {@{a [binary relation](binary%20relation.md) on the edges of an a
 
 {@{A __cutpoint__, __cut vertex__, or __articulation point__ of a graph _G_}@} is {@{a vertex that is shared by two or more blocks}@}. {@{The structure of the blocks and cutpoints of a connected graph}@} can be described by {@{a [tree](tree%20(graph%20theory).md) called the __block-cut tree__ or __BC-tree__}@}. This tree has {@{a vertex for each block and for each articulation point of the given graph}@}. There is {@{an edge in the block-cut tree for each pair of a block and an articulation point that belongs to that block}@}.<sup>[\[8\]](#^ref-8)</sup>
 
-> {@{![A graph, and is block-cut tree.](../archives/Wikimedia%20Commons/Block-cut%20tree2.svg)}@}
+> {@{![A graph, and is block-cut tree.](../../archives/Wikimedia%20Commons/Block-cut%20tree2.svg)}@}
 >
 > {@{A graph, and its block-cut tree.}@} <br/>
 > __Blocks__: <br/>

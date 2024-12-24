@@ -9,7 +9,7 @@ tags:
 
 # necessity good
 
-> {@{![Engels curves showing income elasticity of demand (YED) of normal goods (comprising luxury (red) and necessity goods (yellow)), perfectly inelastic (green) and inferior goods (blue)](../archives/Wikimedia%20Commons/Income%20elasticity%20of%20demand%20graph.svg)}@}
+> {@{![Engels curves showing income elasticity of demand (YED) of normal goods (comprising luxury (red) and necessity goods (yellow)), perfectly inelastic (green) and inferior goods (blue)](../../archives/Wikimedia%20Commons/Income%20elasticity%20of%20demand%20graph.svg)}@}
 >
 > {@{[Engels curves](Engel%20curve.md) showing [income elasticity of demand](income%20elasticity%20of%20demand.md) (YED)}@} of {@{[normal goods](normal%20good.md) (comprising [luxury](luxury%20goods.md) (red) and necessity goods (yellow)), [perfectly inelastic](elasticity%20(economics).md) (green) and [inferior goods](inferior%20good.md) (blue)}@}
 

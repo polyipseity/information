@@ -9,7 +9,7 @@ tags:
 
 # ice I<sub>h</sub>
 
-> {@{![Structure of ice I<sub>h</sub>](../archives/Wikimedia%20Commons/Cryst%20struct%20ice.png)}@}
+> {@{![Structure of ice I<sub>h</sub>](../../archives/Wikimedia%20Commons/Cryst%20struct%20ice.png)}@}
 >
 > {@{[crystal structure](crystal%20structure.md) of ice I<sub>h</sub>}@}
 

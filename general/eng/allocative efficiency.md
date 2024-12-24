@@ -46,7 +46,7 @@ __Optimal product mix__ ::@:: <p> The combination of products produced by the ec
 
 {@{Allocation efficiency occurs}@} when {@{there is an optimal distribution of goods and services, considering consumer's preference}@}. When {@{the price equals marginal cost of production}@}, {@{the allocation efficiency is at the output level}@}. This is because {@{the optimal distribution is achieved when the marginal utility of good equals the marginal cost}@}. {@{The price that consumer is willing to pay}@} is {@{same as the marginal utility of the consumer}@}.
 
-> {@{![allocative efficiency example](../archives/Wikimedia%20Commons/Allocative-efficiency-numbers.png)}@}
+> {@{![allocative efficiency example](../../archives/Wikimedia%20Commons/Allocative-efficiency-numbers.png)}@}
 >
 > {@{Allocative Efficiency example}@}
 

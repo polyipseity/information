@@ -9,7 +9,7 @@ tags:
 
 # demand curve
 
-> {@{![An example of a demand curve shifting.](../archives/Wikimedia%20Commons/Supply-and-demand.svg)}@}
+> {@{![An example of a demand curve shifting.](../../archives/Wikimedia%20Commons/Supply-and-demand.svg)}@}
 >
 > {@{An example of a demand curve shifting}@}. _D1_ and _D2_ are {@{alternative positions of the demand curve, _S_ is the supply curve, and _P_ and _Q_ are price and quantity respectively}@}. {@{The shift from D1 to D2}@} means {@{an increase in demand with consequences for the other variables}@}
 
@@ -35,7 +35,7 @@ The graph of the demand curve uses {@{the [inverse demand function](inverse%20de
 
 ### curvature
 
-> {@{![Convex demand curve](../archives/Wikimedia%20Commons/Monopoly%20Demand%20Curve.png)}@}
+> {@{![Convex demand curve](../../archives/Wikimedia%20Commons/Monopoly%20Demand%20Curve.png)}@}
 >
 > {@{Convex demand curve}@}
 
@@ -120,7 +120,7 @@ If {@{the price axis in the graph represents the price before addition of tax an
 
 ## derived demand
 
-> {@{![Derived demand](../archives/Wikimedia%20Commons/Supply%20and%20demand-stacked4.png)}@}
+> {@{![Derived demand](../../archives/Wikimedia%20Commons/Supply%20and%20demand-stacked4.png)}@}
 >
 > {@{Derived demand}@}
 
@@ -130,7 +130,7 @@ In order to {@{construct a derived demand curve}@}, {@{specific assumptions must
 
 ## see also
 
-> ![Wikimedia Commons logo](../archives/Wikimedia%20Commons/Commons-logo.svg)
+> ![Wikimedia Commons logo](../../archives/Wikimedia%20Commons/Commons-logo.svg)
 >
 > Wikimedia Commons has media related to ___[Supply and demand curves](https://commons.wikimedia.org/wiki/Category:Supply%20and%20demand%20curves)___.
 

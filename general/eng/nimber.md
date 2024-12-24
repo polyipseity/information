@@ -13,7 +13,7 @@ tags:
 
 - Not to be confused with {@{[Number](number.md)}@}.
 
-<!-- | ![](../archives/Wikimedia%20Commons/Ambox%20important.svg) | hide__This article has multiple issues.__ Please help __[improve it](https://en.wikipedia.org/wiki/Special:EditPage/Nimber)__ or discuss these issues on the __[talk page](https://en.wikipedia.org/wiki/Talk:Nimber)__. _\([Learn how and when to remove these messages](https://en.wikipedia.org/wiki/Help:Maintenance%20template%20removal)\)_| This article's __[lead section](https://en.wikipedia.org/wiki/Wikipedia:Manual%20of%20Style/Lead%20section) contains information that is not included elsewhere in the article__. _\(January 2019\)_ | <p>  <br/> | This article's [lead section](https://en.wikipedia.org/wiki/Wikipedia:Manual%20of%20Style/Lead%20section#Length) __may be too short to adequately [summarize](https://en.wikipedia.org/wiki/Wikipedia:Summary%20style) the key points__. _\(January 2019\)_ | | -->
+<!-- | ![](../../archives/Wikimedia%20Commons/Ambox%20important.svg) | hide__This article has multiple issues.__ Please help __[improve it](https://en.wikipedia.org/wiki/Special:EditPage/Nimber)__ or discuss these issues on the __[talk page](https://en.wikipedia.org/wiki/Talk:Nimber)__. _\([Learn how and when to remove these messages](https://en.wikipedia.org/wiki/Help:Maintenance%20template%20removal)\)_| This article's __[lead section](https://en.wikipedia.org/wiki/Wikipedia:Manual%20of%20Style/Lead%20section) contains information that is not included elsewhere in the article__. _\(January 2019\)_ | <p>  <br/> | This article's [lead section](https://en.wikipedia.org/wiki/Wikipedia:Manual%20of%20Style/Lead%20section#Length) __may be too short to adequately [summarize](https://en.wikipedia.org/wiki/Wikipedia:Summary%20style) the key points__. _\(January 2019\)_ | | -->
 
 In [mathematics](mathematics.md), {@{the __nimbers__, also called __Grundy numbers__}@}, are introduced in {@{[combinatorial game theory](combinatorial%20game%20theory.md)}@}, where they are {@{defined as the values of heaps in the game [Nim](Nim.md)}@}. The nimbers are {@{the [ordinal numbers](ordinal%20number.md) endowed with _nimber addition_ and _nimber multiplication_}@}, which are {@{distinct from [ordinal addition](ordinal%20arithmetic.md#addition) and [ordinal multiplication](ordinal%20arithmetic.md#multiplication)}@}.
 
@@ -85,7 +85,7 @@ The following tables exhibit {@{addition and multiplication among the first 16 n
 
 This subset is {@{closed under both operations}@}, since {@{16 is of the form 2<sup>2<sup>_n_</sup></sup>}@}. \(If you prefer simple text tables, they are [here](https://en.wikipedia.org/w/index.php?title=Nimber&oldid=383699838).\)
 
-> {@{![nimber addition table among the first 16 nimbers](../archives/Wikimedia%20Commons/Z2%5E4;%20Cayley%20table;%20binary.svg)}@}
+> {@{![nimber addition table among the first 16 nimbers](../../archives/Wikimedia%20Commons/Z2%5E4;%20Cayley%20table;%20binary.svg)}@}
 >
 > {@{Nimber addition}@} \(sequence {@{[A003987](https://oeis.org/A003987)}@} in the [OEIS](On-Line%20Encyclopedia%20of%20Integer%20Sequences.md)\) <br/>
 > This is also {@{the [Cayley table](cayley%20table.md) of [Z<sub>2</sub><sup>4</sup>](list%20of%20small%20groups.md#list%20of%20small%20abelian%20groups) – or the table of [bitwise](bitwise%20operation.md) [XOR](exclusive%20or.md) operations}@}. <br/>
@@ -93,7 +93,7 @@ This subset is {@{closed under both operations}@}, since {@{16 is of the form 2<
 
 <!-- markdownlint MD028 -->
 
-> {@{![nimber multiplication table among the first 16 nimbers](../archives/Wikimedia%20Commons/Nimbers%200...15%20multiplication.svg)}@}
+> {@{![nimber multiplication table among the first 16 nimbers](../../archives/Wikimedia%20Commons/Nimbers%200...15%20multiplication.svg)}@}
 >
 > {@{Nimber multiplication}@} \(sequence {@{[A051775](https://oeis.org/A051775)}@} in the [OEIS](On-Line%20Encyclopedia%20of%20Integer%20Sequences.md)\) <br/>
 > The nonzero elements form the [Cayley table](cayley%20table.md) of [Z<sub>15</sub>](list%20of%20small%20groups.md#list%20of%20small%20abelian%20groups). <br/>
@@ -101,7 +101,7 @@ This subset is {@{closed under both operations}@}, since {@{16 is of the form 2<
 
 <!-- markdownlint MD028 -->
 
-> {@{![nimber multiplication table among powers of two](../archives/Wikimedia%20Commons/Nimber%20products%20of%20powers%20of%20two.svg)}@}
+> {@{![nimber multiplication table among powers of two](../../archives/Wikimedia%20Commons/Nimber%20products%20of%20powers%20of%20two.svg)}@}
 >
 > {@{Nimber multiplication of [powers of two](power%20of%20two.md)}@} \(sequence {@{[A223541](https://oeis.org/A223541)}@} in the [OEIS](On-Line%20Encyclopedia%20of%20Integer%20Sequences.md)\) <br/>
 > {@{Calculating the nim-products of powers of two}@} is {@{a decisive point in the recursive algorithm of nimber-multiplication}@}.

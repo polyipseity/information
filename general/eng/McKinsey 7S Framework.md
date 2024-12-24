@@ -11,7 +11,7 @@ tags:
 
 # McKinsey 7S Framework
 
-> {@{![visual representation of the model](../archives/Wikimedia%20Commons/McKinsey%207S%20framework.svg)}@}
+> {@{![visual representation of the model](../../archives/Wikimedia%20Commons/McKinsey%207S%20framework.svg)}@}
 >
 > {@{visual representation of the model}@}
 

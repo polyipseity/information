@@ -16,7 +16,7 @@ tags:
 
 # C string handling
 
-See [strings library](../special/C/strings%20library.md).
+See [strings library](../../special/C/strings%20library.md).
 
 ## references
 

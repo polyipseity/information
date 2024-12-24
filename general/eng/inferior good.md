@@ -9,7 +9,7 @@ tags:
 
 # inferior good
 
-> {@{![example of inferior good](../archives/Wikimedia%20Commons/Inferior%20good.png)}@}
+> {@{![example of inferior good](../../archives/Wikimedia%20Commons/Inferior%20good.png)}@}
 >
 > {@{Good Y is a normal good}@} since {@{the amount purchased increases from Y1 to Y2 as the budget constraint shifts from BC1 to the higher income BC2}@}. {@{Good X is an inferior good}@} since {@{the amount bought decreases from X1 to X2 as income increases}@}.
 
@@ -17,7 +17,7 @@ In [economics](economics.md), __inferior goods__ are {@{those goods the demand f
 
 ## description
 
-> {@{![Engels curves showing income elasticity of demand (YED)](../archives/Wikimedia%20Commons/Income%20elasticity%20of%20demand%20graph.svg)}@}
+> {@{![Engels curves showing income elasticity of demand (YED)](../../archives/Wikimedia%20Commons/Income%20elasticity%20of%20demand%20graph.svg)}@}
 >
 > {@{[Engels curves](Engel%20curve.md)}@} showing {@{[income elasticity of demand](income%20elasticity%20of%20demand.md) \(YED\)}@} of {@{[normal goods](normal%20good.md) \(comprising [luxury](luxury%20goods.md) \(red\) and [necessity goods](necessity%20good.md) \(yellow\)\), [perfectly inelastic](elasticity%20(economics).md) \(green\) and __inferior goods__ \(blue\)}@}
 
@@ -41,7 +41,7 @@ Others are {@{very inconsistent across geographic regions or cultures}@}. {@{The
 
 ## income and substitution effects
 
-> ![generic Australian beer nuts](../archives/Wikimedia%20Commons/Home%20brand%20beer%20nuts.jpg)
+> ![generic Australian beer nuts](../../archives/Wikimedia%20Commons/Home%20brand%20beer%20nuts.jpg)
 >
 > An item such as {@{non-branded grocery products}@} are common inferior goods. There is {@{no set criteria of what constitutes an inferior good}@}, but economists refer to an inferior good as {@{any item preferred less when disposable consumer income increases}@}.
 

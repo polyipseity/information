@@ -10,7 +10,7 @@ tags:
 
 ```Python
 # pytextgen generate module
-# import ../../tools/utility.py.md
+# import ../../../tools/utility.py.md
 ```
 
 __Atomicity__ is {@{the number of atoms in a [molecule](molecule.md)}@}.

@@ -17,7 +17,7 @@ The name comes from {@{its connection to [Markov chains](Markov%20chain.md)}@}, 
 
 ## definition
 
-> {@{![Example of a simple MDP with three states \(green circles\) and two actions \(orange circles\), with two rewards \(orange arrows\)](../archives/Wikimedia%20Commons/Markov%20Decision%20Process.svg)}@}
+> {@{![Example of a simple MDP with three states \(green circles\) and two actions \(orange circles\), with two rewards \(orange arrows\)](../../archives/Wikimedia%20Commons/Markov%20Decision%20Process.svg)}@}
 >
 > Example of {@{a simple MDP with three states \(green circles\) and two actions \(orange circles\), with two rewards \(orange arrows\)}@}
 
@@ -50,7 +50,7 @@ These model classes form a hierarchy of information content: an explicit model t
 
 ## example
 
-> {@{![Pole Balancing example \(rendering of the environment from the [Open AI gym benchmark](Open%20AI%20gym%20benchmark.md)\)](../archives/Wikimedia%20Commons/Cartpole.gif)}@}
+> {@{![Pole Balancing example \(rendering of the environment from the [Open AI gym benchmark](Open%20AI%20gym%20benchmark.md)\)](../../archives/Wikimedia%20Commons/Cartpole.gif)}@}
 >
 > {@{Pole Balancing example \(rendering of the environment from the [Open AI gym benchmark](Open%20AI%20gym%20benchmark.md)\)}@}
 

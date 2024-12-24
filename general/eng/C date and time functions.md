@@ -18,7 +18,7 @@ tags:
 
 # C date and time functions
 
-See [date and time utilities](../special/C/date%20and%20time%20utilities.md).
+See [date and time utilities](../../special/C/date%20and%20time%20utilities.md).
 
 ## references
 

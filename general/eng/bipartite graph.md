@@ -9,21 +9,21 @@ tags:
 
 # bipartite graph
 
-> ![a bipartite graph without cycles, two layers](../archives/Wikimedia%20Commons/Simple%20bipartite%20graph;%20two%20layers.svg)
+> ![a bipartite graph without cycles, two layers](../../archives/Wikimedia%20Commons/Simple%20bipartite%20graph;%20two%20layers.svg)
 >
-> ![a bipartite graph without cycles, no crossings](../archives/Wikimedia%20Commons/Simple%20bipartite%20graph;%20no%20crossings.svg)
+> ![a bipartite graph without cycles, no crossings](../../archives/Wikimedia%20Commons/Simple%20bipartite%20graph;%20no%20crossings.svg)
 >
 > example of {@{a bipartite graph without cycles}@}
 
 <!-- markdownlint MD028 -->
 
-> {@{![complete bipartite graph with m = 5 and n = 3](../archives/Wikimedia%20Commons/Biclique%20K%203%205%20bicolor.svg)}@}
+> {@{![complete bipartite graph with m = 5 and n = 3](../../archives/Wikimedia%20Commons/Biclique%20K%203%205%20bicolor.svg)}@}
 >
 > {@{a [complete bipartite graph](complete%20bipartite%20graph.md) with _m_ = 5 and _n_ = 3}@}
 
 <!-- markdownlint MD028 -->
 
-> {@{![Heawood graph](../archives/Wikimedia%20Commons/Heawood%20graph%20bipartite%20(bicolor).svg)}@}
+> {@{![Heawood graph](../../archives/Wikimedia%20Commons/Heawood%20graph%20bipartite%20(bicolor).svg)}@}
 >
 > {@{the [Heawood graph](Heawood%20graph.md) is bipartite}@}
 
@@ -98,7 +98,7 @@ For {@{the [intersection graphs](intersection%20graph.md) of $n$ [line segments]
 
 - see: [odd cycle transversal](odd%20cycle%20transversal.md)
 
-> ![a graph with an odd cycle transversal of size 2](../archives/Wikimedia%20Commons/Odd%20Cycle%20Transversal%20of%20size%202.png)
+> ![a graph with an odd cycle transversal of size 2](../../archives/Wikimedia%20Commons/Odd%20Cycle%20Transversal%20of%20size%202.png)
 >
 > {@{A graph with an odd cycle transversal of size 2: removing the two blue bottom vertices leaves a bipartite graph.}@}
 

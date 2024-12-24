@@ -9,7 +9,7 @@ tags:
 
 # Carmichael function
 
-> {@{![Carmichael _λ_ function: _λ_\(_n_\) for 1 ≤ _n_ ≤ 1000 \(compared to Euler _φ_ function\)](../archives/Wikimedia%20Commons/CarmichaelLambda.svg)}@}
+> {@{![Carmichael _λ_ function: _λ_\(_n_\) for 1 ≤ _n_ ≤ 1000 \(compared to Euler _φ_ function\)](../../archives/Wikimedia%20Commons/CarmichaelLambda.svg)}@}
 >
 > {@{Carmichael _λ_ function: _λ_\(_n_\) for 1 ≤ _n_ ≤ 1000 \(compared to Euler _φ_ function\)}@}
 

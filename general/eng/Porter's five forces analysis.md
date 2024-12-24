@@ -11,7 +11,7 @@ tags:
 
 # Porter's five forces analysis
 
-> {@{![visual representation of the model](../archives/Wikimedia%20Commons/Elements%20of%20Industry%20Structure.svg)}@}
+> {@{![visual representation of the model](../../archives/Wikimedia%20Commons/Elements%20of%20Industry%20Structure.svg)}@}
 >
 > {@{visual representation of the model}@}
 

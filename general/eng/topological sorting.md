@@ -17,7 +17,7 @@ In {@{[computer science](computer%20science.md)}@}, {@{a __topological sort__ or
 
 ## examples
 
-> {@{![a directed acyclic graph](../archives/Wikimedia%20Commons/Directed%20acyclic%20graph%202.svg)}@}
+> {@{![a directed acyclic graph](../../archives/Wikimedia%20Commons/Directed%20acyclic%20graph%202.svg)}@}
 >
 > This graph has {@{many valid topological sorts}@}, including:
 >
@@ -190,7 +190,7 @@ On {@{a [parallel random-access machine](Parallel%20RAM.md)}@}, {@{a topological
 
 In the following, it is assumed that {@{the graph partition is stored on _p_ processing elements \(PE\)}@}, which are {@{labeled $0,\dots ,p-1$}@}. Each PE _i_ {@{initializes a set of local vertices $Q_{i}^{1}$ with [indegree](directed%20graph.md#indegree%20and%20outdegree) 0}@}, where the upper index {@{represents the current iteration}@}. Since {@{all vertices in the local sets $Q_{0}^{1},\dots ,Q_{p-1}^{1}$ have indegree 0}@}, i.e., they are {@{not adjacent}@}, they {@{can be given in an arbitrary order for a valid topological sorting}@}. To {@{assign a global index to each vertex}@}, {@{a [prefix sum](prefix%20sum.md) is calculated over the sizes of $Q_{0}^{1},\dots ,Q_{p-1}^{1}$}@}. So, each step, there are {@{$\sum _{i=0}^{p-1}|Q_{i}|$ vertices added to the topological sorting}@}.
 
-> ![Execution of the parallel topological sorting algorithm on a DAG with two processing elements.](../archives/Wikimedia%20Commons/Parallel%20Topological%20Sorting.gif)
+> ![Execution of the parallel topological sorting algorithm on a DAG with two processing elements.](../../archives/Wikimedia%20Commons/Parallel%20Topological%20Sorting.gif)
 >
 > {@{Execution of the parallel topological sorting algorithm on a DAG with two processing elements.}@}
 

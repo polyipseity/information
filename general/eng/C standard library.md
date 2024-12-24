@@ -16,7 +16,7 @@ tags:
 
 # C standard library
 
-See [program support utilities](../special/C/program%20support%20utilities.md).
+See [program support utilities](../../special/C/program%20support%20utilities.md).
 
 ## references
 
