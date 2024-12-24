@@ -9,7 +9,7 @@ tags:
 
 # edge cover
 
-In {@{[graph theory](graph%20theory.md)}@}, an __edge cover__ of {@{a [graph](graph%20(discrete%20mathematics).md) is a set of [edges](glossary%20of%20graph%20theory.md#edge) such that every [vertex](vertex%20(graph%20theory).md) of the graph is incident to at least one edge of the set}@}. In {@{[computer science](computer%20science.md)}@}, the __minimum edge cover problem__ is {@{the problem of finding an edge cover of minimum size}@}. It is {@{an [optimization problem](optimization%20problem.md) that belongs to the class of [covering problems](covering%20problems.md)}@} and can be {@{solved in [polynomial time](time%20complexity.md#polynomial%20time)}@}.
+In {@{[graph theory](graph%20theory.md)}@}, an __edge cover__ of {@{a [graph](graph%20(discrete%20mathematics).md) is a set of [edges](glossary%20of%20graph%20theory.md#edge) such that every [vertex](vertex%20(graph%20theory).md) of the graph is incident to at least one edge of the set}@}. In {@{[computer science](computer%20science.md)}@}, the __minimum edge cover problem__ is {@{the problem of finding an edge cover of minimum size}@}. It is {@{an [optimization problem](optimization%20problem.md) that belongs to the class of [covering problems](covering%20problems.md)}@} and can be {@{solved in [polynomial time](time%20complexity.md#polynomial%20time)}@}. <!--SR:!2024-12-26,4,270!2024-12-25,3,250!2024-12-26,4,270!2024-12-26,4,270!2024-12-26,4,270!2024-12-25,3,250-->
 
 > __[Covering/packing-problem pairs](linear%20programming.md#covering%2Fpacking%20dualities)__
 >
@@ -25,29 +25,29 @@ In {@{[graph theory](graph%20theory.md)}@}, an __edge cover__ of {@{a [graph](gr
 
 ## definition
 
-Formally, {@{an edge cover of a graph _G_}@} is {@{a set of edges _C_ such that each vertex in _G_ is incident with at least one edge in _C_}@}. The set _C_ is said to {@{_cover_ the vertices of _G_}@}. The following figure shows examples of edge coverings in two graphs \(the set _C_ is marked with red\). <p> {@{![examples of edge coverings in two graphs](../archives/Wikimedia%20Commons/Edge-cover.svg)}@}
+Formally, {@{an edge cover of a graph _G_}@} is {@{a set of edges _C_ such that each vertex in _G_ is incident with at least one edge in _C_}@}. The set _C_ is said to {@{_cover_ the vertices of _G_}@}. The following figure shows examples of edge coverings in two graphs \(the set _C_ is marked with red\). <p> {@{![examples of edge coverings in two graphs](../archives/Wikimedia%20Commons/Edge-cover.svg)}@} <!--SR:!2024-12-25,3,250!2024-12-26,4,270!2024-12-26,4,270!2024-12-26,4,270-->
 
-A __minimum edge covering__ is {@{an edge covering of smallest possible size}@}. {@{The __edge covering number__ _ρ_\(_G_\)}@} is {@{the size of a minimum edge covering}@}. The following figure shows examples of minimum edge coverings \(again, the set _C_ is marked with red\). <p> {@{![examples of minimum edge coverings](../archives/Wikimedia%20Commons/Minimum-edge-cover.svg)}@}
+A __minimum edge covering__ is {@{an edge covering of smallest possible size}@}. {@{The __edge covering number__ _ρ_\(_G_\)}@} is {@{the size of a minimum edge covering}@}. The following figure shows examples of minimum edge coverings \(again, the set _C_ is marked with red\). <p> {@{![examples of minimum edge coverings](../archives/Wikimedia%20Commons/Minimum-edge-cover.svg)}@} <!--SR:!2024-12-26,4,270!2024-12-25,3,250!2024-12-26,4,270!2024-12-25,3,250-->
 
-Note that the figure on the right is {@{not only an edge cover but also a [matching](matching%20(graph%20theory).md)}@}. In particular, it is {@{a [perfect matching](perfect%20matching.md): a matching _M_ in which every vertex is incident with exactly one edge in _M_}@}. {@{A perfect matching \(if it exists\)}@} is {@{always a minimum edge covering}@}.
+Note that the figure on the right is {@{not only an edge cover but also a [matching](matching%20(graph%20theory).md)}@}. In particular, it is {@{a [perfect matching](perfect%20matching.md): a matching _M_ in which every vertex is incident with exactly one edge in _M_}@}. {@{A perfect matching \(if it exists\)}@} is {@{always a minimum edge covering}@}. <!--SR:!2024-12-26,4,270!2024-12-26,4,270!2024-12-26,4,270!2024-12-26,4,270-->
 
 ### examples
 
-- The set of all edges ::@:: is an edge cover, assuming that there are no degree-0 vertices.
-- The [complete bipartite graph](complete%20bipartite%20graph.md) _K<sub>m,n</sub>_ ::@:: has edge covering number max\(_m_, _n_\).
+- The set of all edges ::@:: is an edge cover, assuming that there are no degree-0 vertices. <!--SR:!2024-12-26,4,270!2024-12-26,4,270-->
+- The [complete bipartite graph](complete%20bipartite%20graph.md) _K<sub>m,n</sub>_ ::@:: has edge covering number max\(_m_, _n_\). <!--SR:!2024-12-26,4,270!2024-12-26,4,270-->
 
 ## algorithms
 
-A smallest edge cover can be {@{found in [polynomial time](time%20complexity.md#polynomial%20time)}@} by {@{finding a [maximum matching](maximum%20cardinality%20matching.md) and extending it greedily so that all vertices are covered}@}.<sup>[\[1\]](#^ref-1)</sup><sup>[\[2\]](#^ref-2)</sup> In the following figure, {@{a maximum matching is marked with red}@}; {@{the extra edges that were added to cover unmatched nodes are marked with blue}@}. \({@{The figure on the right}@} {@{shows a graph in which a maximum matching is a [perfect matching](perfect%20matching.md)}@}; hence {@{it already covers all vertices and no extra edges were needed}@}.\) <p> {@{![examples of finding a maximum matching on two graphs](../archives/Wikimedia%20Commons/Minimum-edge-cover-from-maximum-matching.svg)}@}
+A smallest edge cover can be {@{found in [polynomial time](time%20complexity.md#polynomial%20time)}@} by {@{finding a [maximum matching](maximum%20cardinality%20matching.md) and extending it greedily so that all vertices are covered}@}.<sup>[\[1\]](#^ref-1)</sup><sup>[\[2\]](#^ref-2)</sup> In the following figure, {@{a maximum matching is marked with red}@}; {@{the extra edges that were added to cover unmatched nodes are marked with blue}@}. \({@{The figure on the right}@} {@{shows a graph in which a maximum matching is a [perfect matching](perfect%20matching.md)}@}; hence {@{it already covers all vertices and no extra edges were needed}@}.\) <p> {@{![examples of finding a maximum matching on two graphs](../archives/Wikimedia%20Commons/Minimum-edge-cover-from-maximum-matching.svg)}@} <!--SR:!2024-12-26,4,270!2024-12-26,4,270!2024-12-26,4,270!2024-12-26,4,270!2024-12-26,4,270!2024-12-25,3,250!2024-12-26,4,270!2024-12-26,4,270-->
 
-On the other hand, the related problem of {@{finding a smallest [vertex cover](vertex%20cover.md)}@} is {@{an [NP-hard](NP-hardness.md) problem}@}.<sup>[\[1\]](#^ref-1)</sup>
+On the other hand, the related problem of {@{finding a smallest [vertex cover](vertex%20cover.md)}@} is {@{an [NP-hard](NP-hardness.md) problem}@}.<sup>[\[1\]](#^ref-1)</sup> <!--SR:!2024-12-26,4,270!2024-12-26,4,270-->
 
-{@{Looking at the image}@} it already becomes obvious why, for {@{a given minimum edge cover $C$ and [maximum matching](maximum%20cardinality%20matching.md) $M$, letting $c$ and $m$ be the number of edges in $C$ and $M$ respectively}@}, we have:<sup>[\[3\]](#^ref-3)</sup> {@{$|V|=c+m$}@}. Indeed, {@{$C$ contains a maximum matching}@}, so {@{the edges of $C$ can be decomposed between the $m$ edges of a maximum matching, covering $2m$ vertices}@}, and {@{the $c-m$ other edges that each cover one other vertex}@}. Thus, as {@{$C$ covers all of the $|V|$ vertices, we have $|V|=2m+(c-m)$ giving the desired equality}@}.
+{@{Looking at the image}@} it already becomes obvious why, for {@{a given minimum edge cover $C$ and [maximum matching](maximum%20cardinality%20matching.md) $M$, letting $c$ and $m$ be the number of edges in $C$ and $M$ respectively}@}, we have:<sup>[\[3\]](#^ref-3)</sup> {@{$|V|=c+m$}@}. Indeed, {@{$C$ contains a maximum matching}@}, so {@{the edges of $C$ can be decomposed between the $m$ edges of a maximum matching, covering $2m$ vertices}@}, and {@{the $c-m$ other edges that each cover one other vertex}@}. Thus, as {@{$C$ covers all of the $|V|$ vertices, we have $|V|=2m+(c-m)$ giving the desired equality}@}. <!--SR:!2024-12-26,4,270!2024-12-26,4,270!2024-12-26,4,270!2024-12-26,4,270!2024-12-25,3,250!2024-12-26,4,270!2024-12-25,3,250-->
 
 ## see also
 
 - [Vertex cover](vertex%20cover.md)
-- [Set cover](set%20cover%20problem.md) – ::@:: the edge cover problem is a special case of the set cover problem: the elements of the _universe_ are vertices, and each _subset_ covers exactly two elements.
+- [Set cover](set%20cover%20problem.md) – ::@:: the edge cover problem is a special case of the set cover problem: the elements of the _universe_ are vertices, and each _subset_ covers exactly two elements. <!--SR:!2024-12-25,3,250!2024-12-26,4,270-->
 
 ## notes
 

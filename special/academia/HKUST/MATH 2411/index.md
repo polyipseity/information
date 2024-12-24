@@ -474,7 +474,7 @@ The content is in teaching order.
   - Inputted $\binom {100} 1$ as 1 instead of 100 into the calculator when evaluating a binomial distribution...
     - $\binom {100} 1$ (-1) ::@:: It evaluates to 100, not 1. <!--SR:!2025-03-11,98,384!2025-03-13,100,384-->
   - Simplified $\frac 4 {b^2} \left(b\right)$ into $\frac 4 {b^3}$ instead of $\frac 4 b$... (-1)
-  - time limit ::@:: Time limit was really really tight. Only 10 minutes left for checking, even if you are familiar with the content.
+  - time limit ::@:: Time limit was really really tight. Only 10 minutes left for checking, even if you are familiar with the content. <!--SR:!2024-12-27,5,367!2024-12-27,5,367-->
 - check
   - datetime: 2024-10-29T10:00:00+08:00/2024-10-29T11:00:00+08:00, PT1H
   - venue: Room 3472 (Lift 25-26), Academic Building
@@ -737,8 +737,8 @@ The content is in teaching order.
     - distribution: ? → ?
 - report
   - Is a report necessary in this case...?
-  - time limit ::@:: The time limit was enough to finish all questions and check them for 20 minutes. This, of course, assumes you are very familiar with the methods used.
-  - moment-generating function (0) ::@:: Remember to always check the domain of the expression you have gotten. If the domain is missing for some numbers, you may be able to evaluate $\operatorname E\left[e^{tX}\right]$ with $t$ set to the missing numbers to fill in the domain. For example, you may finally get $$\begin{cases} \frac {e^{5t} - e^{2t} } {3t}, & t \ne 0 \\ 1, & t = 0 \,. \end{cases}$$ <!-- <p> (The instructor said only I had gotten it correct...) -->
+  - time limit ::@:: The time limit was enough to finish all questions and check them for 20 minutes. This, of course, assumes you are very familiar with the methods used. <!--SR:!2024-12-27,5,367!2024-12-25,3,347-->
+  - moment-generating function (0) ::@:: Remember to always check the domain of the expression you have gotten. If the domain is missing for some numbers, you may be able to evaluate $\operatorname E\left[e^{tX}\right]$ with $t$ set to the missing numbers to fill in the domain. For example, you may finally get $$\begin{cases} \frac {e^{5t} - e^{2t} } {3t}, & t \ne 0 \\ 1, & t = 0 \,. \end{cases}$$ <!-- <p> (The instructor said only I had gotten it correct...) --> <!--SR:!2024-12-27,5,367!2024-12-27,5,367-->
 - check
   - datetime: 2024-12-20T14:30:00+08:00/2024-12-20T16:00:00+08:00, PT1H30M
   - venue: Room 1410 (Lift 25-26), Academic Building
