@@ -7,7 +7,7 @@ aliases:
   - satellite
   - satellites
 tags:
-  - flashcard/active/general/natural_satellite
+  - flashcard/active/general/eng/natural_satellite
   - language/in/English
 ---
 

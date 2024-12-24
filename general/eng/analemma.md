@@ -3,7 +3,7 @@ aliases:
   - analemma
   - analemmas
 tags:
-  - flashcard/active/general/analemma
+  - flashcard/active/general/eng/analemma
   - language/in/English
 ---
 

@@ -5,7 +5,7 @@ aliases:
   - marketing mix
   - marketing mixes
 tags:
-  - flashcard/active/general/marketing_mix
+  - flashcard/active/general/eng/marketing_mix
   - language/in/English
 ---
 

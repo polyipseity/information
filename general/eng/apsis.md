@@ -5,7 +5,7 @@ aliases:
   - apsis
   - perihelion
 tags:
-  - flashcard/active/general/apsis
+  - flashcard/active/general/eng/apsis
   - language/in/English
 ---
 

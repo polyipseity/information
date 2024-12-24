@@ -4,7 +4,7 @@ aliases:
   - economic equilibrium
   - economic equilibriums
 tags:
-  - flashcard/active/general/economic_equilibrium
+  - flashcard/active/general/eng/economic_equilibrium
   - language/in/English
 ---
 

@@ -3,7 +3,7 @@ aliases:
   - no-hair theorem
   - no-hair theorems
 tags:
-  - flashcard/active/general/no-hair_theorem
+  - flashcard/active/general/eng/no-hair_theorem
   - language/in/English
 ---
 

@@ -7,7 +7,7 @@ aliases:
   - odd function
   - odd functions
 tags:
-  - flashcard/active/general/even_and_odd_functions
+  - flashcard/active/general/eng/even_and_odd_functions
   - language/in/English
 ---
 

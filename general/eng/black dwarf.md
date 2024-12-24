@@ -3,7 +3,7 @@ aliases:
   - black dwarf
   - black dwarfs
 tags:
-  - flashcard/active/general/black_dwarf
+  - flashcard/active/general/eng/black_dwarf
   - language/in/English
 ---
 

@@ -3,7 +3,7 @@ aliases:
   - solar neutrino problem
   - solar neutrino problems
 tags:
-  - flashcard/active/general/solar_neutrino_problem
+  - flashcard/active/general/eng/solar_neutrino_problem
   - language/in/English
 ---
 

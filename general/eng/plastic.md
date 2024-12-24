@@ -3,7 +3,7 @@ aliases:
   - plastic
   - plastics
 tags:
-  - flashcard/active/general/plastic
+  - flashcard/active/general/eng/plastic
   - language/in/English
 ---
 

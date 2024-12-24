@@ -1,6 +1,6 @@
 ---
 tags:
-  - flashcard/active/general/extractive_metallurgy
+  - flashcard/active/general/eng/extractive_metallurgy
   - language/in/English
 ---
 

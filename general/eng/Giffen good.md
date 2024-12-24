@@ -3,7 +3,7 @@ aliases:
   - Giffen good
   - Giffen goods
 tags:
-  - flashcard/active/general/Giffen_good
+  - flashcard/active/general/eng/Giffen_good
   - language/in/English
 ---
 

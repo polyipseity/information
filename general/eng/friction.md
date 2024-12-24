@@ -3,7 +3,7 @@ aliases:
   - friction
   - frictions
 tags:
-  - flashcard/active/general/friction
+  - flashcard/active/general/eng/friction
   - language/in/English
 ---
 

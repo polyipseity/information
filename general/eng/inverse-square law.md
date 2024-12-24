@@ -3,7 +3,7 @@ aliases:
   - inverse-square law
   - inverse-square laws
 tags:
-  - flashcard/active/general/inverse-square_law
+  - flashcard/active/general/eng/inverse-square_law
   - language/in/English
 ---
 

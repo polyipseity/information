@@ -4,7 +4,7 @@ aliases:
   - alkanes
   - paraffin
 tags:
-  - flashcard/active/general/alkane
+  - flashcard/active/general/eng/alkane
   - language/in/English
 ---
 

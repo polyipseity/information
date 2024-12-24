@@ -3,7 +3,7 @@ aliases:
   - neutrino oscillation
   - neutrino oscillations
 tags:
-  - flashcard/active/general/neutrino_oscillation
+  - flashcard/active/general/eng/neutrino_oscillation
   - language/in/English
 ---
 

@@ -3,7 +3,7 @@ aliases:
   - irregular galaxies
   - irregular galaxy
 tags:
-  - flashcard/active/general/irregular_galaxy
+  - flashcard/active/general/eng/irregular_galaxy
   - language/in/English
 ---
 

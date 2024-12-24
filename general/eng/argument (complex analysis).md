@@ -5,7 +5,7 @@ aliases:
   - argument
   - argument (complex analysis)
 tags:
-  - flashcard/active/general/argument__complex_analysis_
+  - flashcard/active/general/eng/argument__complex_analysis_
   - language/in/English
 ---
 

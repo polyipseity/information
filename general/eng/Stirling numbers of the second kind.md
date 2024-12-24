@@ -5,7 +5,7 @@ aliases:
   - Stirling partition number
   - Stirling partition numbers
 tags:
-  - flashcard/active/general/Stirling_numbers_of_the_second_kind
+  - flashcard/active/general/eng/Stirling_numbers_of_the_second_kind
   - language/in/English
 ---
 

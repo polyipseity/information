@@ -3,7 +3,7 @@ aliases:
   - productive efficiencies
   - productive efficiency
 tags:
-  - flashcard/active/general/productive_efficiency
+  - flashcard/active/general/eng/productive_efficiency
   - language/in/English
 ---
 

@@ -3,7 +3,7 @@ aliases:
   - temperature
   - temperatures
 tags:
-  - flashcard/active/general/temperature
+  - flashcard/active/general/eng/temperature
   - language/in/English
 ---
 

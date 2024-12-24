@@ -3,7 +3,7 @@ aliases:
   - 2nd law of thermodynamics
   - second law of thermodynamics
 tags:
-  - flashcard/active/general/second_law_of_thermodynamics
+  - flashcard/active/general/eng/second_law_of_thermodynamics
   - language/in/English
 ---
 

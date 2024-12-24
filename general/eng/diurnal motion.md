@@ -3,7 +3,7 @@ aliases:
   - diurnal motion
   - diurnal motions
 tags:
-  - flashcard/active/general/diurnal_motion
+  - flashcard/active/general/eng/diurnal_motion
   - language/in/English
 ---
 

@@ -3,7 +3,7 @@ aliases:
   - market structure
   - market structures
 tags:
-  - flashcard/active/general/market_structure
+  - flashcard/active/general/eng/market_structure
   - language/in/English
 ---
 

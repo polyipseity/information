@@ -11,7 +11,7 @@ aliases:
   - Hertzsprung–Russell diagram
   - Hertzsprung–Russell diagrams
 tags:
-  - flashcard/active/general/Hertzsprung-Russell_diagram
+  - flashcard/active/general/eng/Hertzsprung-Russell_diagram
   - language/in/English
 ---
 

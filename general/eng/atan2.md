@@ -2,7 +2,7 @@
 aliases:
   - atan2
 tags:
-  - flashcard/active/general/atan2
+  - flashcard/active/general/eng/atan2
   - language/in/English
 ---
 

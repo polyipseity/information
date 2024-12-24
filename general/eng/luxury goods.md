@@ -5,7 +5,7 @@ aliases:
   - upmarket good
   - upmarket goods
 tags:
-  - flashcard/active/general/luxury_goods
+  - flashcard/active/general/eng/luxury_goods
   - language/in/English
 ---
 

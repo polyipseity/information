@@ -3,7 +3,7 @@ aliases:
   - biconnected graph
   - biconnected graphs
 tags:
-  - flashcard/active/general/biconnected_graph
+  - flashcard/active/general/eng/biconnected_graph
   - language/in/English
 ---
 

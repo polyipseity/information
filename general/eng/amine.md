@@ -3,7 +3,7 @@ aliases:
   - amine
   - amines
 tags:
-  - flashcard/active/general/amine
+  - flashcard/active/general/eng/amine
   - language/in/English
 ---
 

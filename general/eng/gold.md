@@ -3,7 +3,7 @@ aliases:
   - Au
   - gold
 tags:
-  - flashcard/active/general/gold
+  - flashcard/active/general/eng/gold
   - language/in/English
 ---
 

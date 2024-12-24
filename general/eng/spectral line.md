@@ -6,7 +6,7 @@ aliases:
   - spectral line
   - spectral lines
 tags:
-  - flashcard/active/general/spectral_line
+  - flashcard/active/general/eng/spectral_line
   - language/in/English
 ---
 

@@ -3,7 +3,7 @@ aliases:
   - primary standard
   - primary standards
 tags:
-  - flashcard/active/general/primary_standard
+  - flashcard/active/general/eng/primary_standard
   - language/in/English
 ---
 

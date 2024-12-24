@@ -3,7 +3,7 @@ aliases:
   - inferior good
   - inferior goods
 tags:
-  - flashcard/active/general/inferior_good
+  - flashcard/active/general/eng/inferior_good
   - language/in/English
 ---
 

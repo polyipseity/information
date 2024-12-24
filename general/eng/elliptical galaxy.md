@@ -3,7 +3,7 @@ aliases:
   - elliptical galaxies
   - elliptical galaxy
 tags:
-  - flashcard/active/general/elliptical_galaxy
+  - flashcard/active/general/eng/elliptical_galaxy
   - language/in/English
 ---
 

@@ -4,7 +4,7 @@ aliases:
   - ionisation energy
   - ionization energies
 tags:
-  - flashcard/active/general/ionization_energy
+  - flashcard/active/general/eng/ionization_energy
   - language/in/English
 ---
 

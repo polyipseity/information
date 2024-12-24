@@ -9,7 +9,7 @@ aliases:
   - p–p chain
   - p–p chains
 tags:
-  - flashcard/active/general/proton-proton_chain
+  - flashcard/active/general/eng/proton-proton_chain
   - language/in/English
 ---
 

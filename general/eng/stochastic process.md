@@ -3,7 +3,7 @@ aliases:
   - stochastic process
   - stochastic processes
 tags:
-  - flashcard/active/general/stochastic_process
+  - flashcard/active/general/eng/stochastic_process
   - language/in/English
 ---
 

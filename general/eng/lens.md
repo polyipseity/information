@@ -3,7 +3,7 @@ aliases:
   - lens
   - lenses
 tags:
-  - flashcard/active/general/lens
+  - flashcard/active/general/eng/lens
   - language/in/English
 ---
 

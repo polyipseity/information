@@ -3,7 +3,7 @@ aliases:
   - June solstice
   - June solstices
 tags:
-  - flashcard/active/general/June_solstice
+  - flashcard/active/general/eng/June_solstice
   - language/in/English
 ---
 

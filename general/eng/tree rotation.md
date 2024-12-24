@@ -3,7 +3,7 @@ aliases:
   - tree rotation
   - tree rotations
 tags:
-  - flashcard/active/general/tree_rotation
+  - flashcard/active/general/eng/tree_rotation
   - language/in/English
 ---
 

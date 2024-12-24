@@ -5,7 +5,7 @@ aliases:
   - minimum-maximums identities
   - minimum-maximums identity
 tags:
-  - flashcard/active/general/maximum-minimums_identity
+  - flashcard/active/general/eng/maximum-minimums_identity
   - language/in/English
 ---
 

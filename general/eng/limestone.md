@@ -1,6 +1,6 @@
 ---
 tags:
-  - flashcard/active/general/limestone
+  - flashcard/active/general/eng/limestone
   - language/in/English
 ---
 

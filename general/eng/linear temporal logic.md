@@ -5,7 +5,7 @@ aliases:
   - linear temporal logic
   - linear temporal logics
 tags:
-  - flashcard/active/general/linear_temporal_logic
+  - flashcard/active/general/eng/linear_temporal_logic
   - language/in/English
 ---
 

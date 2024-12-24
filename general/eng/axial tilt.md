@@ -5,7 +5,7 @@ aliases:
   - obliquities
   - obliquity
 tags:
-  - flashcard/active/general/axial_tilt
+  - flashcard/active/general/eng/axial_tilt
   - language/in/English
 ---
 

@@ -2,7 +2,7 @@
 aliases:
   - straight condenser
 tags:
-  - flashcard/active/general/Liebig_condenser
+  - flashcard/active/general/eng/Liebig_condenser
   - language/in/English
 ---
 

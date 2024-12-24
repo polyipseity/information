@@ -3,7 +3,7 @@ aliases:
   - economic
   - economics
 tags:
-  - flashcard/active/general/economics
+  - flashcard/active/general/eng/economics
   - language/in/English
 ---
 

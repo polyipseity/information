@@ -5,7 +5,7 @@ aliases:
   - topological sortings
   - topological sorts
 tags:
-  - flashcard/active/general/topological_sorting
+  - flashcard/active/general/eng/topological_sorting
   - language/in/English
 ---
 

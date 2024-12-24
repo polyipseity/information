@@ -19,7 +19,7 @@ aliases:
   - unsigned Stirling numbers of the 3rd kind
   - unsigned Stirling numbers of the third kind
 tags:
-  - flashcard/active/general/Lah_number
+  - flashcard/active/general/eng/Lah_number
   - language/in/English
 ---
 

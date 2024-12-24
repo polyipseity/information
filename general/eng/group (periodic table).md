@@ -4,7 +4,7 @@ aliases:
   - group (periodic table)
   - groups
 tags:
-  - flashcard/active/general/group__periodic_table_
+  - flashcard/active/general/eng/group__periodic_table_
   - language/in/English
 ---
 

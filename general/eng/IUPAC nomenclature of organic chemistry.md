@@ -2,7 +2,7 @@
 aliases:
   - IUPAC nomenclature of organic chemistry
 tags:
-  - flashcard/active/general/IUPAC_nomenclature_of_organic_chemistry
+  - flashcard/active/general/eng/IUPAC_nomenclature_of_organic_chemistry
   - language/in/English
 ---
 

@@ -5,7 +5,7 @@ aliases:
   - photonuclear reaction
   - phototransmutation
 tags:
-  - flashcard/active/general/photodisintegration
+  - flashcard/active/general/eng/photodisintegration
   - language/in/English
 ---
 

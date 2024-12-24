@@ -3,7 +3,7 @@ aliases:
   - allocative efficiencies
   - allocative efficiency
 tags:
-  - flashcard/active/general/allocative_efficiency
+  - flashcard/active/general/eng/allocative_efficiency
   - language/in/English
 ---
 

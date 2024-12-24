@@ -3,7 +3,7 @@ aliases:
   - correlation
   - correlations
 tags:
-  - flashcard/active/general/correlation
+  - flashcard/active/general/eng/correlation
   - language/in/English
 ---
 

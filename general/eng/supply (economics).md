@@ -3,7 +3,7 @@ aliases:
   - supplies
   - supply
 tags:
-  - flashcard/active/general/supply__economics_
+  - flashcard/active/general/eng/supply__economics_
   - language/in/English
 ---
 

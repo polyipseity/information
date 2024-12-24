@@ -11,7 +11,7 @@ aliases:
   - directed acyclic graph
   - directed acyclic graphs
 tags:
-  - flashcard/active/general/directed_acyclic_graph
+  - flashcard/active/general/eng/directed_acyclic_graph
   - language/in/English
 ---
 

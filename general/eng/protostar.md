@@ -3,7 +3,7 @@ aliases:
   - protostar
   - protostars
 tags:
-  - flashcard/active/general/protostar
+  - flashcard/active/general/eng/protostar
   - language/in/English
 ---
 

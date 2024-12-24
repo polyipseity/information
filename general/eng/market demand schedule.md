@@ -3,7 +3,7 @@ aliases:
   - market demand schedule
   - market demand schedules
 tags:
-  - flashcard/active/general/market_demand_schedule
+  - flashcard/active/general/eng/market_demand_schedule
   - language/in/English
 ---
 

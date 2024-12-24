@@ -2,7 +2,7 @@
 aliases:
   - propositional calculus
 tags:
-  - flashcard/active/general/propositional_calculus
+  - flashcard/active/general/eng/propositional_calculus
   - language/in/English
 ---
 

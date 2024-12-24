@@ -3,7 +3,7 @@ aliases:
   - Carmichael function
   - Carmichael functions
 tags:
-  - flashcard/active/general/Carmichael_function
+  - flashcard/active/general/eng/Carmichael_function
   - language/in/English
 ---
 

@@ -3,7 +3,7 @@ aliases:
   - Kruskal's algorithm
   - Kruskal's algorithms
 tags:
-  - flashcard/active/general/Kruskal_s_algorithm
+  - flashcard/active/general/eng/Kruskal_s_algorithm
   - language/in/English
 ---
 

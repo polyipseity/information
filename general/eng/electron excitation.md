@@ -3,7 +3,7 @@ aliases:
   - electron deexcitation
   - electron relaxation
 tags:
-  - flashcard/active/general/electron_excitation
+  - flashcard/active/general/eng/electron_excitation
   - language/in/English
 ---
 

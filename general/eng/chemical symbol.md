@@ -4,7 +4,7 @@ aliases:
   - element symbol
   - element symbols
 tags:
-  - flashcard/active/general/chemical_symbol
+  - flashcard/active/general/eng/chemical_symbol
   - language/in/English
 ---
 

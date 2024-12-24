@@ -3,7 +3,7 @@ aliases:
   - demand curve
   - demand curves
 tags:
-  - flashcard/active/general/demand_curve
+  - flashcard/active/general/eng/demand_curve
   - language/in/English
 ---
 

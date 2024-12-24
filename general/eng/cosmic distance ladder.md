@@ -7,7 +7,7 @@ aliases:
   - standard candle
   - standard candles
 tags:
-  - flashcard/active/general/cosmic_distance_ladder
+  - flashcard/active/general/eng/cosmic_distance_ladder
   - language/in/English
 ---
 

@@ -2,7 +2,7 @@
 aliases:
   - Mayer's relation
 tags:
-  - flashcard/active/general/Mayer_s_relation
+  - flashcard/active/general/eng/Mayer_s_relation
   - language/in/English
 ---
 

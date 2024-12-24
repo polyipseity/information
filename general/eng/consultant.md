@@ -5,7 +5,7 @@ aliases:
   - consultants
   - consulting
 tags:
-  - flashcard/active/general/consultant
+  - flashcard/active/general/eng/consultant
   - language/in/English
 ---
 

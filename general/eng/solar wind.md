@@ -3,7 +3,7 @@ aliases:
   - solar wind
   - solar winds
 tags:
-  - flashcard/active/general/solar_wind
+  - flashcard/active/general/eng/solar_wind
   - language/in/English
 ---
 

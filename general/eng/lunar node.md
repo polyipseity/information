@@ -5,7 +5,7 @@ aliases:
   - lunar node
   - lunar nodes
 tags:
-  - flashcard/active/general/lunar_node
+  - flashcard/active/general/eng/lunar_node
   - language/in/English
 ---
 

@@ -3,7 +3,7 @@ aliases:
   - tautologies
   - tautology 
 tags:
-  - flashcard/active/general/tautology__logic_
+  - flashcard/active/general/eng/tautology__logic_
   - language/in/English
 ---
 

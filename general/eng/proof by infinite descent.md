@@ -3,7 +3,7 @@ aliases:
   - proof by infinite descent
   - proofs by infinite descent
 tags:
-  - flashcard/active/general/proof_by_infinite_descent
+  - flashcard/active/general/eng/proof_by_infinite_descent
   - language/in/English
 ---
 

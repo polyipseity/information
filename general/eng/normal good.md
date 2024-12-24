@@ -3,7 +3,7 @@ aliases:
   - normal good
   - normal goods
 tags:
-  - flashcard/active/general/normal_good
+  - flashcard/active/general/eng/normal_good
   - language/in/English
 ---
 

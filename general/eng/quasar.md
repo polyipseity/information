@@ -9,7 +9,7 @@ aliases:
   - quasistellar object
   - quasistellar objects
 tags:
-  - flashcard/active/general/quasar
+  - flashcard/active/general/eng/quasar
   - language/in/English
 ---
 

@@ -9,7 +9,7 @@ aliases:
   - matching matrices
   - matching matrix
 tags:
-  - flashcard/active/general/confusion_matrix
+  - flashcard/active/general/eng/confusion_matrix
   - language/in/English
 ---
 

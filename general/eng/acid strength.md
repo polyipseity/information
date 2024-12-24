@@ -5,7 +5,7 @@ aliases:
   - strong acid
   - strong acids
 tags:
-  - flashcard/active/general/acid_strength
+  - flashcard/active/general/eng/acid_strength
   - language/in/English
 ---
 

@@ -12,7 +12,7 @@ aliases:
   - hyperlink induced topic search
   - hyperlink-induced topic search
 tags:
-  - flashcard/active/general/HITS_algorithm
+  - flashcard/active/general/eng/HITS_algorithm
   - language/in/English
 ---
 

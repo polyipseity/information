@@ -8,7 +8,7 @@ aliases:
   - minimum
   - minimums
 tags:
-  - flashcard/active/general/maximum_and_minimum
+  - flashcard/active/general/eng/maximum_and_minimum
   - language/in/English
 ---
 

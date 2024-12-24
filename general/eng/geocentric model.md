@@ -6,7 +6,7 @@ aliases:
   - geocentric models
   - geocentrism
 tags:
-  - flashcard/active/general/geocentric_model
+  - flashcard/active/general/eng/geocentric_model
   - language/in/English
 ---
 

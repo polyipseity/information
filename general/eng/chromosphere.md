@@ -3,7 +3,7 @@ aliases:
   - chromosphere
   - chromospheres
 tags:
-  - flashcard/active/general/chromosphere
+  - flashcard/active/general/eng/chromosphere
   - language/in/English
 ---
 

@@ -3,7 +3,7 @@ aliases:
   - Sprague–Grundy theorem
   - Sprague–Grundy theorems
 tags:
-  - flashcard/active/general/Sprague-Grundy_theorem
+  - flashcard/active/general/eng/Sprague-Grundy_theorem
   - language/in/English
 ---
 

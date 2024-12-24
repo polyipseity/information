@@ -3,7 +3,7 @@ aliases:
   - solar flare
   - solar flares
 tags:
-  - flashcard/active/general/solar_flare
+  - flashcard/active/general/eng/solar_flare
   - language/in/English
 ---
 

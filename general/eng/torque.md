@@ -4,7 +4,7 @@ aliases:
   - moment of force
   - torque
 tags:
-  - flashcard/active/general/torque
+  - flashcard/active/general/eng/torque
   - language/in/English
 ---
 

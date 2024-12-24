@@ -2,7 +2,7 @@
 aliases:
   - Ostwald process
 tags:
-  - flashcard/active/general/Ostwald_process
+  - flashcard/active/general/eng/Ostwald_process
   - language/in/English
 ---
 

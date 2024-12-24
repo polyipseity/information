@@ -11,7 +11,7 @@ aliases:
   - ket
   - kets
 tags:
-  - flashcard/active/general/bra-ket_notation
+  - flashcard/active/general/eng/bra-ket_notation
   - language/in/English
 ---
 

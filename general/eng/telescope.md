@@ -3,7 +3,7 @@ aliases:
   - telescope
   - telescopes
 tags:
-  - flashcard/active/general/telescope
+  - flashcard/active/general/eng/telescope
   - language/in/English
 ---
 

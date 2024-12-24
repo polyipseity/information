@@ -6,7 +6,7 @@ aliases:
   - Planck unit
   - Planck units
 tags:
-  - flashcard/active/general/Planck_units
+  - flashcard/active/general/eng/Planck_units
   - language/in/English
 ---
 

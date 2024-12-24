@@ -3,7 +3,7 @@ aliases:
   - uncountable set
   - uncountable sets
 tags:
-  - flashcard/active/general/uncountable_set
+  - flashcard/active/general/eng/uncountable_set
   - language/in/English
 ---
 

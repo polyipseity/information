@@ -5,7 +5,7 @@ aliases:
   - Prim's algorithm
   - Prim's algorithms
 tags:
-  - flashcard/active/general/Prim_s_algorithm
+  - flashcard/active/general/eng/Prim_s_algorithm
   - language/in/English
 ---
 

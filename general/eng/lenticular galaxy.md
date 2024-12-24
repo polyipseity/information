@@ -3,7 +3,7 @@ aliases:
   - lenticular galaxies
   - lenticular galaxy
 tags:
-  - flashcard/active/general/lenticular_galaxy
+  - flashcard/active/general/eng/lenticular_galaxy
   - language/in/English
 ---
 

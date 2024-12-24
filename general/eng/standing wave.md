@@ -5,7 +5,7 @@ aliases:
   - stationary wave
   - stationary waves
 tags:
-  - flashcard/active/general/standing_wave
+  - flashcard/active/general/eng/standing_wave
   - language/in/English
 ---
 

@@ -2,7 +2,7 @@
 aliases:
   - air separation
 tags:
-  - flashcard/active/general/air_separation
+  - flashcard/active/general/eng/air_separation
   - language/in/English
 ---
 

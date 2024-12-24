@@ -6,7 +6,7 @@ aliases:
   - telescope array
   - telescope arrays
 tags:
-  - flashcard/active/general/astronomical_interferometer
+  - flashcard/active/general/eng/astronomical_interferometer
   - language/in/English
 ---
 

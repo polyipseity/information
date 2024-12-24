@@ -4,7 +4,7 @@ aliases:
   - hierarchical clustering
   - hierarchical clusters
 tags:
-  - flashcard/active/general/hierarchical_clustering
+  - flashcard/active/general/eng/hierarchical_clustering
   - language/in/English
 ---
 

@@ -3,7 +3,7 @@ aliases:
   - Hg
   - mercury
 tags:
-  - flashcard/active/general/mercury
+  - flashcard/active/general/eng/mercury
   - language/in/English
 ---
 

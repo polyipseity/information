@@ -3,7 +3,7 @@ aliases:
   - price
   - prices
 tags:
-  - flashcard/active/general/price
+  - flashcard/active/general/eng/price
   - language/in/English
 ---
 

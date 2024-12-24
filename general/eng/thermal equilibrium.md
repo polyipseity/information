@@ -4,7 +4,7 @@ aliases:
   - thermal equilibrium
   - thermal equilibriums
 tags:
-  - flashcard/active/general/thermal_equilibrium
+  - flashcard/active/general/eng/thermal_equilibrium
   - language/in/English
 ---
 

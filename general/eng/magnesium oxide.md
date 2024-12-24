@@ -4,7 +4,7 @@ aliases:
   - magnesia
   - magnesium oxide
 tags:
-  - flashcard/active/general/magnesium_oxide
+  - flashcard/active/general/eng/magnesium_oxide
   - language/in/English
 ---
 

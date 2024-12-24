@@ -15,7 +15,7 @@ aliases:
   - undulation point
   - undulation points
 tags:
-  - flashcard/active/general/inflection_point
+  - flashcard/active/general/eng/inflection_point
   - language/in/English
 ---
 

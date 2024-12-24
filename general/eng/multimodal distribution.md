@@ -4,7 +4,7 @@ aliases:
   - multimodal distributions
   - multimodality
 tags:
-  - flashcard/active/general/multimodal_distribution
+  - flashcard/active/general/eng/multimodal_distribution
   - language/in/English
 ---
 

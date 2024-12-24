@@ -2,7 +2,7 @@
 aliases:
   - chemical changes
 tags:
-  - flashcard/active/general/chemical_change
+  - flashcard/active/general/eng/chemical_change
   - language/in/English
 ---
 

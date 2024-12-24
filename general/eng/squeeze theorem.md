@@ -8,7 +8,7 @@ aliases:
   - squeeze lemma
   - squeeze theorem
 tags:
-  - flashcard/active/general/squeeze_theorem
+  - flashcard/active/general/eng/squeeze_theorem
   - language/in/English
 ---
 

@@ -3,7 +3,7 @@ aliases:
   - asset
   - assets
 tags:
-  - flashcard/active/general/asset
+  - flashcard/active/general/eng/asset
   - language/in/English
 ---
 

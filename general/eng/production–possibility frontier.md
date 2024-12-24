@@ -5,7 +5,7 @@ aliases:
   - production–possibility frontier
   - production–possibility frontiers
 tags:
-  - flashcard/active/general/production-possibility_frontier
+  - flashcard/active/general/eng/production-possibility_frontier
   - language/in/English
 ---
 

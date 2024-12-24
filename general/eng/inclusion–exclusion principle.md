@@ -3,7 +3,7 @@ aliases:
   - inclusion–exclusion principle
   - inclusion–exclusion principles
 tags:
-  - flashcard/active/general/inclusion-exclusion_principle
+  - flashcard/active/general/eng/inclusion-exclusion_principle
   - language/in/English
 ---
 

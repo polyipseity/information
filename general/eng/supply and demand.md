@@ -7,7 +7,7 @@ aliases:
   - supplies
   - supply
 tags:
-  - flashcard/active/general/supply_and_demand
+  - flashcard/active/general/eng/supply_and_demand
   - language/in/English
 ---
 

@@ -7,7 +7,7 @@ aliases:
   - causalities
   - causality
 tags:
-  - flashcard/active/general/causality
+  - flashcard/active/general/eng/causality
   - language/in/English
 ---
 

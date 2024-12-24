@@ -3,7 +3,7 @@ aliases:
   - PR
   - PageRank
 tags:
-  - flashcard/active/general/PageRank
+  - flashcard/active/general/eng/PageRank
   - language/in/English
 ---
 

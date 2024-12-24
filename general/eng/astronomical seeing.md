@@ -2,7 +2,7 @@
 aliases:
   - astronomical seeing
 tags:
-  - flashcard/active/general/astronomical_seeing
+  - flashcard/active/general/eng/astronomical_seeing
   - language/in/English
 ---
 

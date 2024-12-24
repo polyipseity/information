@@ -5,7 +5,7 @@ aliases:
   - method of distinguished element
   - method of distinguished elements
 tags:
-  - flashcard/active/general/method_of_distinguished_element
+  - flashcard/active/general/eng/method_of_distinguished_element
   - language/in/English
 ---
 

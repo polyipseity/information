@@ -7,7 +7,7 @@ aliases:
   - Newtonian mechanic
   - Newtonian mechanics
 tags:
-  - flashcard/active/general/Newton_s_laws_of_motion
+  - flashcard/active/general/eng/Newton_s_laws_of_motion
   - language/in/English
 ---
 

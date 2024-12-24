@@ -3,7 +3,7 @@ aliases:
   - red-giant branch
   - red-giant branches
 tags:
-  - flashcard/active/general/red-giant_branch
+  - flashcard/active/general/eng/red-giant_branch
   - language/in/English
 ---
 

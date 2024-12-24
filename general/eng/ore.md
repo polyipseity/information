@@ -1,6 +1,6 @@
 ---
 tags:
-  - flashcard/active/general/ore
+  - flashcard/active/general/eng/ore
   - language/in/English
 ---
 

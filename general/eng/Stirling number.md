@@ -3,7 +3,7 @@ aliases:
   - Stirling number
   - Stirling numbers
 tags:
-  - flashcard/active/general/Stirling_number
+  - flashcard/active/general/eng/Stirling_number
   - language/in/English
 ---
 

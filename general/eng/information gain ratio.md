@@ -4,7 +4,7 @@ aliases:
   - information gain ratio
   - normalized information gain
 tags:
-  - flashcard/active/general/information_gain_ratio
+  - flashcard/active/general/eng/information_gain_ratio
   - language/in/English
 ---
 

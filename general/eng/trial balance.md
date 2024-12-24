@@ -3,7 +3,7 @@ aliases:
   - trial balance
   - trial balances
 tags:
-  - flashcard/active/general/trial_balance
+  - flashcard/active/general/eng/trial_balance
   - language/in/English
 ---
 

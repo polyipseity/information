@@ -2,7 +2,7 @@
 aliases:
   - kwashiorkor
 tags:
-  - flashcard/active/general/kwashiorkor
+  - flashcard/active/general/eng/kwashiorkor
   - language/in/English
 ---
 

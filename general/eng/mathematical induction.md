@@ -5,7 +5,7 @@ aliases:
   - mathematics induction
   - mathematics inductions
 tags:
-  - flashcard/active/general/mathematical_induction
+  - flashcard/active/general/eng/mathematical_induction
   - language/in/English
 ---
 

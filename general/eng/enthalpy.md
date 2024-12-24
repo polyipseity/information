@@ -3,7 +3,7 @@ aliases:
   - enthalpies
   - enthalpy
 tags:
-  - flashcard/active/general/enthalpy
+  - flashcard/active/general/eng/enthalpy
   - language/in/English
 ---
 

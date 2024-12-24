@@ -4,7 +4,7 @@ aliases:
   - minimum excluded value
   - minimum excluded values
 tags:
-  - flashcard/active/general/mex__mathematics_
+  - flashcard/active/general/eng/mex__mathematics_
   - language/in/English
 ---
 

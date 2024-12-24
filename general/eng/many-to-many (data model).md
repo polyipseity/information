@@ -3,7 +3,7 @@ aliases:
   - many-to-many
   - many-to-many (data model)
 tags:
-  - flashcard/active/general/many-to-many__data_model_
+  - flashcard/active/general/eng/many-to-many__data_model_
   - language/in/English
 ---
 

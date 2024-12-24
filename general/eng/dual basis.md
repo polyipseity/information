@@ -2,7 +2,7 @@
 aliases:
   - dual basis
 tags:
-  - flashcard/active/general/dual_basis
+  - flashcard/active/general/eng/dual_basis
   - language/in/English
 ---
 

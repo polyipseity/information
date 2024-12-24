@@ -5,7 +5,7 @@ aliases:
   - Earth's circumference
   - Earth's circumferences
 tags:
-  - flashcard/active/general/Earth_s_circumference
+  - flashcard/active/general/eng/Earth_s_circumference
   - language/in/English
 ---
 

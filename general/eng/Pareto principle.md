@@ -6,7 +6,7 @@ aliases:
   - law of the vital few
   - principle of factor sparsity
 tags:
-  - flashcard/active/general/Pareto_principle
+  - flashcard/active/general/eng/Pareto_principle
   - language/in/English
 ---
 

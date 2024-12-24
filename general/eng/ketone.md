@@ -3,7 +3,7 @@ aliases:
   - ketone
   - ketones
 tags:
-  - flashcard/active/general/ketone
+  - flashcard/active/general/eng/ketone
   - language/in/English
 ---
 

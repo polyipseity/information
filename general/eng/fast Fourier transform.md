@@ -5,7 +5,7 @@ aliases:
   - fast Fourier transform
   - fast Fourier transforms
 tags:
-  - flashcard/active/general/fast_Fourier_transform
+  - flashcard/active/general/eng/fast_Fourier_transform
   - language/in/English
 ---
 

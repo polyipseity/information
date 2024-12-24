@@ -6,7 +6,7 @@ aliases:
   - stone
   - stones
 tags:
-  - flashcard/active/general/rock__geology_
+  - flashcard/active/general/eng/rock__geology_
   - language/in/English
 ---
 

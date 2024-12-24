@@ -4,7 +4,7 @@ aliases:
   - law of conservation of energy
   - laws of conservation of energy
 tags:
-  - flashcard/active/general/conservation_of_energy
+  - flashcard/active/general/eng/conservation_of_energy
   - language/in/English
 ---
 

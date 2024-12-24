@@ -4,7 +4,7 @@ aliases:
   - mean value theorem
   - mean-value theorem
 tags:
-  - flashcard/active/general/mean_value_theorem
+  - flashcard/active/general/eng/mean_value_theorem
   - language/in/English
 ---
 

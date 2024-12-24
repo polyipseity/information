@@ -3,7 +3,7 @@ aliases:
   - demand
   - demands
 tags:
-  - flashcard/active/general/demand
+  - flashcard/active/general/eng/demand
   - language/in/English
 ---
 

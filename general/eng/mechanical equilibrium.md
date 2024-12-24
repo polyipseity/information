@@ -2,7 +2,7 @@
 aliases:
   - mechanical equilibrium
 tags:
-  - flashcard/active/general/mechanical_equilibrium
+  - flashcard/active/general/eng/mechanical_equilibrium
   - language/in/English
 ---
 

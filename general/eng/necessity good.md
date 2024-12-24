@@ -3,7 +3,7 @@ aliases:
   - necessity good
   - necessity goods
 tags:
-  - flashcard/active/general/necessity_good
+  - flashcard/active/general/eng/necessity_good
   - language/in/English
 ---
 

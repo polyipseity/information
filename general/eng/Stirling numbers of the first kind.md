@@ -7,7 +7,7 @@ aliases:
   - Stirling number of the first kind
   - Stirling numbers of the first kind
 tags:
-  - flashcard/active/general/Stirling_numbers_of_the_first_kind
+  - flashcard/active/general/eng/Stirling_numbers_of_the_first_kind
   - language/in/English
 ---
 

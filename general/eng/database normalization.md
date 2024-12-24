@@ -3,7 +3,7 @@ aliases:
   - database normalisation
   - database normalization
 tags:
-  - flashcard/active/general/database_normalization
+  - flashcard/active/general/eng/database_normalization
   - language/in/English
 ---
 

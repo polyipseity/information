@@ -5,7 +5,7 @@ aliases:
   - indeterminate form
   - indeterminate forms
 tags:
-  - flashcard/active/general/L_Hôpital_s_rule
+  - flashcard/active/general/eng/L_Hôpital_s_rule
   - language/in/English
 ---
 

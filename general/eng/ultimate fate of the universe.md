@@ -5,7 +5,7 @@ aliases:
   - ultimate end of the universe
   - ultimate fate of the universe
 tags:
-  - flashcard/active/general/ultimate_fate_of_the_universe
+  - flashcard/active/general/eng/ultimate_fate_of_the_universe
   - language/in/English
 ---
 

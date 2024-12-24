@@ -3,7 +3,7 @@ aliases:
   - photosphere
   - photospheres
 tags:
-  - flashcard/active/general/photosphere
+  - flashcard/active/general/eng/photosphere
   - language/in/English
 ---
 

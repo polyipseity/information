@@ -5,7 +5,7 @@ aliases:
   - stellar nurseries
   - stellar nursery
 tags:
-  - flashcard/active/general/molecular_cloud
+  - flashcard/active/general/eng/molecular_cloud
   - language/in/English
 ---
 

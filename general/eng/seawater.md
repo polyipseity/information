@@ -1,6 +1,6 @@
 ---
 tags:
-  - flashcard/active/general/seawater
+  - flashcard/active/general/eng/seawater
   - language/in/English
 ---
 

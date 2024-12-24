@@ -3,7 +3,7 @@ aliases:
   - classification
   - statistical classification
 tags:
-  - flashcard/active/general/statistical_classification
+  - flashcard/active/general/eng/statistical_classification
   - language/in/English
 ---
 

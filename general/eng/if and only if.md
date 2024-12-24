@@ -3,7 +3,7 @@ aliases:
   - if and only if
   - iff
 tags:
-  - flashcard/active/general/if_and_only_if
+  - flashcard/active/general/eng/if_and_only_if
   - language/in/English
 ---
 

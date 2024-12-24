@@ -3,7 +3,7 @@ aliases:
   - power
   - power (physics)
 tags:
-  - flashcard/active/general/power__physics_
+  - flashcard/active/general/eng/power__physics_
   - language/in/English
 ---
 

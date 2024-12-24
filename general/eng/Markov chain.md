@@ -3,7 +3,7 @@ aliases:
   - Markov chain
   - Markov chains
 tags:
-  - flashcard/active/general/Markov_chain
+  - flashcard/active/general/eng/Markov_chain
   - language/in/English
 ---
 

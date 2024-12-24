@@ -3,7 +3,7 @@ aliases:
   - predicate
   - predicates
 tags:
-  - flashcard/active/general/predicate__mathematical_logic_
+  - flashcard/active/general/eng/predicate__mathematical_logic_
   - language/in/English
 ---
 

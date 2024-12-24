@@ -2,7 +2,7 @@
 aliases:
   - nylon
 tags:
-  - flashcard/active/general/nylon
+  - flashcard/active/general/eng/nylon
   - language/in/English
 ---
 

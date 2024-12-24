@@ -3,7 +3,7 @@ aliases:
   - March equinox
   - March equinoxes
 tags:
-  - flashcard/active/general/March_equinox
+  - flashcard/active/general/eng/March_equinox
   - language/in/English
 ---
 

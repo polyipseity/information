@@ -3,7 +3,7 @@ aliases:
   - HUDF
   - Hubble Ultra-Deep Field
 tags:
-  - flashcard/active/general/Hubble_Ultra-Deep_Field
+  - flashcard/active/general/eng/Hubble_Ultra-Deep_Field
   - language/in/English
 ---
 

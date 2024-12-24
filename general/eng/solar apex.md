@@ -3,7 +3,7 @@ aliases:
   - apex of the Sun's way
   - solar apex
 tags:
-  - flashcard/active/general/solar_apex
+  - flashcard/active/general/eng/solar_apex
   - language/in/English
 ---
 

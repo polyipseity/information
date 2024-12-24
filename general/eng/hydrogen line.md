@@ -7,7 +7,7 @@ aliases:
   - hydrogen line
   - hydrogen lines
 tags:
-  - flashcard/active/general/hydrogen_line
+  - flashcard/active/general/eng/hydrogen_line
   - language/in/English
 ---
 

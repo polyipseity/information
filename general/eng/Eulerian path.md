@@ -9,7 +9,7 @@ aliases:
   - Eulerian walk
   - Eulerian walks
 tags:
-  - flashcard/active/general/Eulerian_path
+  - flashcard/active/general/eng/Eulerian_path
   - language/in/English
 ---
 

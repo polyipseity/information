@@ -3,7 +3,7 @@ aliases:
   - structural system
   - structural systems
 tags:
-  - flashcard/active/general/structural_system
+  - flashcard/active/general/eng/structural_system
   - language/in/English
 ---
 

@@ -3,7 +3,7 @@ aliases:
   - CoCl2
   - cobalt(II) chloride
 tags:
-  - flashcard/active/general/cobalt_II__chloride
+  - flashcard/active/general/eng/cobalt_II__chloride
   - language/in/English
 ---
 

@@ -6,7 +6,7 @@ aliases:
   - hydrostatic equilibria
   - hydrostatic equilibrium
 tags:
-  - flashcard/active/general/hydrostatic_equilibrium
+  - flashcard/active/general/eng/hydrostatic_equilibrium
   - language/in/English
 ---
 

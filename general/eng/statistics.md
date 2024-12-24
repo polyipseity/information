@@ -5,7 +5,7 @@ aliases:
   - statistics
   - stats
 tags:
-  - flashcard/active/general/statistics
+  - flashcard/active/general/eng/statistics
   - language/in/English
 ---
 

@@ -5,7 +5,7 @@ aliases:
   - law of demand
   - laws of demand
 tags:
-  - flashcard/active/general/law_of_demand
+  - flashcard/active/general/eng/law_of_demand
   - language/in/English
 ---
 

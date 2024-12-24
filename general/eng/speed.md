@@ -3,7 +3,7 @@ aliases:
   - speed
   - speeds
 tags:
-  - flashcard/active/general/speed
+  - flashcard/active/general/eng/speed
   - language/in/English
 ---
 

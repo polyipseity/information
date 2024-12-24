@@ -9,7 +9,7 @@ aliases:
   - knowledge hierarchy
   - wisdom hierarchy
 tags:
-  - flashcard/active/general/DIKW_pyramid
+  - flashcard/active/general/eng/DIKW_pyramid
   - language/in/English
 ---
 

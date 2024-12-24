@@ -10,7 +10,7 @@ aliases:
   - cstring
   - string.h
 tags:
-  - flashcard/active/general/C_string_handling
+  - flashcard/active/general/eng/C_string_handling
   - language/in/English
 ---
 

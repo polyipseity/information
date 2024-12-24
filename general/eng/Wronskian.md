@@ -5,7 +5,7 @@ aliases:
   - Wronskian determinants
   - Wronskians
 tags:
-  - flashcard/active/general/Wronskian
+  - flashcard/active/general/eng/Wronskian
   - language/in/English
 ---
 

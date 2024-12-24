@@ -5,7 +5,7 @@ aliases:
   - going-concern
   - going-concerns
 tags:
-  - flashcard/active/general/going_concern
+  - flashcard/active/general/eng/going_concern
   - language/in/English
 ---
 

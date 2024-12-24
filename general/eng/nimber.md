@@ -5,7 +5,7 @@ aliases:
   - nimber
   - nimbers
 tags:
-  - flashcard/active/general/nimber
+  - flashcard/active/general/eng/nimber
   - language/in/English
 ---
 

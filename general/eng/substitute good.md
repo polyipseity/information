@@ -3,7 +3,7 @@ aliases:
   - substitute good
   - substitute goods
 tags:
-  - flashcard/active/general/substitute_good
+  - flashcard/active/general/eng/substitute_good
   - language/in/English
 ---
 

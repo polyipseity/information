@@ -1,6 +1,6 @@
 ---
 tags:
-  - flashcard/active/general/atmosphere_of_Earth
+  - flashcard/active/general/eng/atmosphere_of_Earth
   - language/in/English
 ---
 

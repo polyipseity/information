@@ -3,7 +3,7 @@ aliases:
   - mass
   - masses
 tags:
-  - flashcard/active/general/mass
+  - flashcard/active/general/eng/mass
   - language/in/English
 ---
 

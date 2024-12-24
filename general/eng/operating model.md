@@ -3,7 +3,7 @@ aliases:
   - operating model
   - operating models
 tags:
-  - flashcard/active/general/operating_model
+  - flashcard/active/general/eng/operating_model
   - language/in/English
 ---
 

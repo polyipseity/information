@@ -3,7 +3,7 @@ aliases:
   - MECE principle
   - MECE principles
 tags:
-  - flashcard/active/general/MECE_principle
+  - flashcard/active/general/eng/MECE_principle
   - language/in/English
 ---
 

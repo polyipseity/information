@@ -3,7 +3,7 @@ aliases:
   - marginal utilities
   - marginal utility
 tags:
-  - flashcard/active/general/marginal_utility
+  - flashcard/active/general/eng/marginal_utility
   - language/in/English
 ---
 

@@ -3,7 +3,7 @@ aliases:
   - ideal gas
   - ideal gases
 tags:
-  - flashcard/active/general/ideal_gas
+  - flashcard/active/general/eng/ideal_gas
   - language/in/English
 ---
 

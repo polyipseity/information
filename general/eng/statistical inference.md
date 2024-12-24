@@ -4,7 +4,7 @@ aliases:
   - statistical inference
   - statistical inferences
 tags:
-  - flashcard/active/general/statistical_inference
+  - flashcard/active/general/eng/statistical_inference
   - language/in/English
 ---
 

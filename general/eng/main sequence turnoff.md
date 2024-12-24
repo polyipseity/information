@@ -7,7 +7,7 @@ aliases:
   - turnoff point
   - turnoff points
 tags:
-  - flashcard/active/general/main_sequence_turnoff
+  - flashcard/active/general/eng/main_sequence_turnoff
   - language/in/English
 ---
 

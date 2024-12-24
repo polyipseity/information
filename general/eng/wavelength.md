@@ -5,7 +5,7 @@ aliases:
   - wavelength
   - wavelengths
 tags:
-  - flashcard/active/general/wavelength
+  - flashcard/active/general/eng/wavelength
   - language/in/English
 ---
 

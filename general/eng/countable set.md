@@ -3,7 +3,7 @@ aliases:
   - countable set
   - countable sets
 tags:
-  - flashcard/active/general/countable_set
+  - flashcard/active/general/eng/countable_set
   - language/in/English
 ---
 

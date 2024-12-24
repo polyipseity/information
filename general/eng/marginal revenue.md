@@ -5,7 +5,7 @@ aliases:
   - marginal revenue
   - marginal revenues
 tags:
-  - flashcard/active/general/marginal_revenue
+  - flashcard/active/general/eng/marginal_revenue
   - language/in/English
 ---
 

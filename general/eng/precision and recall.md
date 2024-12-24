@@ -13,7 +13,7 @@ aliases:
   - recalls & precisions
   - recalls and precisions
 tags:
-  - flashcard/active/general/precision_and_recall
+  - flashcard/active/general/eng/precision_and_recall
   - language/in/English
 ---
 

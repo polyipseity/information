@@ -3,7 +3,7 @@ aliases:
   - iodine clock reaction
   - iodine clock reactions
 tags:
-  - flashcard/active/general/iodine_clock_reaction
+  - flashcard/active/general/eng/iodine_clock_reaction
   - language/in/English
 ---
 

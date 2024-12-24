@@ -3,7 +3,7 @@ aliases:
   - Bohr model
   - Rutherford–Bohr model
 tags:
-  - flashcard/active/general/Bohr_model
+  - flashcard/active/general/eng/Bohr_model
   - language/in/English
 ---
 

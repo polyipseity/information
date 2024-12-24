@@ -3,7 +3,7 @@ aliases:
   - general ledger
   - general ledgers
 tags:
-  - flashcard/active/general/general_ledger
+  - flashcard/active/general/eng/general_ledger
   - language/in/English
 ---
 

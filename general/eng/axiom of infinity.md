@@ -3,7 +3,7 @@ aliases:
   - axiom of infinity
   - axioms of infinity
 tags:
-  - flashcard/active/general/axiom_of_infinity
+  - flashcard/active/general/eng/axiom_of_infinity
   - language/in/English
 ---
 

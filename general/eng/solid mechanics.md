@@ -3,7 +3,7 @@ aliases:
   - solid mechanic
   - solid mechanics
 tags:
-  - flashcard/active/general/solid_mechanics
+  - flashcard/active/general/eng/solid_mechanics
   - language/in/English
 ---
 

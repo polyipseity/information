@@ -3,7 +3,7 @@ aliases:
   - Peano axiom
   - Peano axioms
 tags:
-  - flashcard/active/general/Peano_axioms
+  - flashcard/active/general/eng/Peano_axioms
   - language/in/English
 ---
 

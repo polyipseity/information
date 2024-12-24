@@ -3,7 +3,7 @@ aliases:
   - free bodies
   - free body
 tags:
-  - flashcard/active/general/free_body
+  - flashcard/active/general/eng/free_body
   - language/in/English
 ---
 

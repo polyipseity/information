@@ -3,7 +3,7 @@ aliases:
   - small-angle approximation
   - small-angle approximations
 tags:
-  - flashcard/active/general/small-angle_approximation
+  - flashcard/active/general/eng/small-angle_approximation
   - language/in/English
 ---
 

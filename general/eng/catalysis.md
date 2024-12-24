@@ -5,7 +5,7 @@ aliases:
   - catalysts
   - catalytic
 tags:
-  - flashcard/active/general/catalysis
+  - flashcard/active/general/eng/catalysis
   - language/in/English
 ---
 

@@ -2,7 +2,7 @@
 aliases:
   - atomicity
 tags:
-  - flashcard/active/general/atomicity
+  - flashcard/active/general/eng/atomicity
   - language/in/English
 ---
 

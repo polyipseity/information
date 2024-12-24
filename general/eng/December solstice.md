@@ -3,7 +3,7 @@ aliases:
   - December solstice
   - December solstices
 tags:
-  - flashcard/active/general/December_solstice
+  - flashcard/active/general/eng/December_solstice
   - language/in/English
 ---
 

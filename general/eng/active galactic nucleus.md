@@ -5,7 +5,7 @@ aliases:
   - active galaxies
   - active galaxy
 tags:
-  - flashcard/active/general/active_galactic_nucleus
+  - flashcard/active/general/eng/active_galactic_nucleus
   - language/in/English
 ---
 

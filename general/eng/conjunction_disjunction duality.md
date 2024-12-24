@@ -2,7 +2,7 @@
 aliases:
   - conjunction/disjunction duality
 tags:
-  - flashcard/active/general/conjunction_disjunction_duality
+  - flashcard/active/general/eng/conjunction_disjunction_duality
   - language/in/English
 ---
 

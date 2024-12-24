@@ -3,7 +3,7 @@ aliases:
   - season
   - seasons
 tags:
-  - flashcard/active/general/season
+  - flashcard/active/general/eng/season
   - language/in/English
 ---
 

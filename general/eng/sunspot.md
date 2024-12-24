@@ -3,7 +3,7 @@ aliases:
   - sunspot
   - sunspots
 tags:
-  - flashcard/active/general/sunspot
+  - flashcard/active/general/eng/sunspot
   - language/in/English
 ---
 

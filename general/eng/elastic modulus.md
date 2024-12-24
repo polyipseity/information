@@ -2,7 +2,7 @@
 aliases:
   - elastic modulus
 tags:
-  - flashcard/active/general/elastic_modulus
+  - flashcard/active/general/eng/elastic_modulus
   - language/in/English
 ---
 

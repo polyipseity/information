@@ -5,7 +5,7 @@ aliases:
   - galaxy merger
   - galaxy mergers
 tags:
-  - flashcard/active/general/galaxy_merger
+  - flashcard/active/general/eng/galaxy_merger
   - language/in/English
 ---
 

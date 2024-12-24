@@ -3,7 +3,7 @@ aliases:
   - artificial neuron
   - artificial neurons
 tags:
-  - flashcard/active/general/artificial_neuron
+  - flashcard/active/general/eng/artificial_neuron
   - language/in/English
 ---
 

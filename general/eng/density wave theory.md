@@ -5,7 +5,7 @@ aliases:
   - density wave theories
   - density wave theory
 tags:
-  - flashcard/active/general/density_wave_theory
+  - flashcard/active/general/eng/density_wave_theory
   - language/in/English
 ---
 

@@ -2,7 +2,7 @@
 aliases:
   - gravitational lens
 tags:
-  - flashcard/active/general/gravitational_lens
+  - flashcard/active/general/eng/gravitational_lens
   - language/in/English
 ---
 

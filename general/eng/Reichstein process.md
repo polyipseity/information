@@ -2,7 +2,7 @@
 aliases:
   - Reichstein process
 tags:
-  - flashcard/active/general/Reichstein_process
+  - flashcard/active/general/eng/Reichstein_process
   - language/in/English
 ---
 

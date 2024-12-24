@@ -2,7 +2,7 @@
 aliases:
   - structural load
 tags:
-  - flashcard/active/general/structural_load
+  - flashcard/active/general/eng/structural_load
   - language/in/English
 ---
 

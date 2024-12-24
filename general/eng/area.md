@@ -2,7 +2,7 @@
 aliases:
   - area
 tags:
-  - flashcard/active/general/area
+  - flashcard/active/general/eng/area
   - language/in/English
 ---
 

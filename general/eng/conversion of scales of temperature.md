@@ -3,7 +3,7 @@ aliases:
   - conversion of scales of temperature
   - conversions of scales of temperature
 tags:
-  - flashcard/active/general/conversion_of_scales_of_temperature
+  - flashcard/active/general/eng/conversion_of_scales_of_temperature
   - language/in/English
 ---
 

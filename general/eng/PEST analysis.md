@@ -4,7 +4,7 @@ aliases:
   - PESTEL analysis
   - PESTLE analysis
 tags:
-  - flashcard/active/general/PEST_analysis
+  - flashcard/active/general/eng/PEST_analysis
   - language/in/English
 ---
 

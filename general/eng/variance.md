@@ -3,7 +3,7 @@ aliases:
   - variance
   - variances
 tags:
-  - flashcard/active/general/variance
+  - flashcard/active/general/eng/variance
   - language/in/English
 ---
 

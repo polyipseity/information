@@ -5,7 +5,7 @@ aliases:
   - strongly connected component
   - strongly connected components
 tags:
-  - flashcard/active/general/strongly_connected_component
+  - flashcard/active/general/eng/strongly_connected_component
   - language/in/English
 ---
 

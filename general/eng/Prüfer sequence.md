@@ -13,7 +13,7 @@ aliases:
   - Prüfer sequence
   - Prüfer sequences
 tags:
-  - flashcard/active/general/Prüfer_sequence
+  - flashcard/active/general/eng/Prüfer_sequence
   - language/in/English
 ---
 

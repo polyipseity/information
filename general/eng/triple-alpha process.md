@@ -4,7 +4,7 @@ aliases:
   - triple-alpha process
   - triple-alpha processes
 tags:
-  - flashcard/active/general/triple-alpha_process
+  - flashcard/active/general/eng/triple-alpha_process
   - language/in/English
 ---
 

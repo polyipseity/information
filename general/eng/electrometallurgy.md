@@ -1,6 +1,6 @@
 ---
 tags:
-  - flashcard/active/general/electrometallurgy
+  - flashcard/active/general/eng/electrometallurgy
   - language/in/English
 ---
 

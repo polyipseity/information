@@ -17,7 +17,7 @@ aliases:
   - nonincreasing function
   - nonincreasing functions
 tags:
-  - flashcard/active/general/monotonic_function
+  - flashcard/active/general/eng/monotonic_function
   - language/in/English
 ---
 

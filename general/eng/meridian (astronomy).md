@@ -3,7 +3,7 @@ aliases:
   - meridian
   - meridians
 tags:
-  - flashcard/active/general/meridian__astronomy_
+  - flashcard/active/general/eng/meridian__astronomy_
   - language/in/English
 ---
 

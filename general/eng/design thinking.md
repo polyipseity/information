@@ -2,7 +2,7 @@
 aliases:
   - design thinking
 tags:
-  - flashcard/active/general/design_thinking
+  - flashcard/active/general/eng/design_thinking
   - language/in/English
 ---
 

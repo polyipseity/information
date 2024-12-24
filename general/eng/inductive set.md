@@ -3,7 +3,7 @@ aliases:
   - inductive set
   - inductive sets
 tags:
-  - flashcard/active/general/inductive_set
+  - flashcard/active/general/eng/inductive_set
   - language/in/English
 ---
 

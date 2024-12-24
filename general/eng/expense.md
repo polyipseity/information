@@ -3,7 +3,7 @@ aliases:
   - expense
   - expenses
 tags:
-  - flashcard/active/general/expense
+  - flashcard/active/general/eng/expense
   - language/in/English
 ---
 

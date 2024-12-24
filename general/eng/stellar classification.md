@@ -3,7 +3,7 @@ aliases:
   - stellar classification
   - stellar classifications
 tags:
-  - flashcard/active/general/stellar_classification
+  - flashcard/active/general/eng/stellar_classification
   - language/in/English
 ---
 

@@ -3,7 +3,7 @@ aliases:
   - H2CO3
   - carbonic acid
 tags:
-  - flashcard/active/general/carbonic_acid
+  - flashcard/active/general/eng/carbonic_acid
   - language/in/English
 ---
 

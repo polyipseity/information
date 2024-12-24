@@ -3,7 +3,7 @@ aliases:
   - biconnected component
   - biconnected components
 tags:
-  - flashcard/active/general/biconnected_component
+  - flashcard/active/general/eng/biconnected_component
   - language/in/English
 ---
 

@@ -3,7 +3,7 @@ aliases:
   - Zorn's lemma
   - Zorn's lemmas
 tags:
-  - flashcard/active/general/Zorn_s_lemma
+  - flashcard/active/general/eng/Zorn_s_lemma
   - language/in/English
 ---
 

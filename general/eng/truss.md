@@ -3,7 +3,7 @@ aliases:
   - truss
   - trusses
 tags:
-  - flashcard/active/general/truss
+  - flashcard/active/general/eng/truss
   - language/in/English
 ---
 

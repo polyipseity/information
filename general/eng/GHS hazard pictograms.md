@@ -1,6 +1,6 @@
 ---
 tags:
-  - flashcard/active/general/GHS_hazard_pictograms
+  - flashcard/active/general/eng/GHS_hazard_pictograms
   - language/in/English
 ---
 

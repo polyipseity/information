@@ -3,7 +3,7 @@ aliases:
   - edge cover
   - edge covers
 tags:
-  - flashcard/active/general/edge_cover
+  - flashcard/active/general/eng/edge_cover
   - language/in/English
 ---
 

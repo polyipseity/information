@@ -3,7 +3,7 @@ aliases:
   - Markov decision process
   - Markov decision processes
 tags:
-  - flashcard/active/general/Markov_decision_process
+  - flashcard/active/general/eng/Markov_decision_process
   - language/in/English
 ---
 

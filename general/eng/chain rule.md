@@ -2,7 +2,7 @@
 aliases:
   - chain rule
 tags:
-  - flashcard/active/general/chain_rule
+  - flashcard/active/general/eng/chain_rule
   - language/in/English
 ---
 

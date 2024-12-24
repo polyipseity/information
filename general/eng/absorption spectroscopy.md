@@ -4,7 +4,7 @@ aliases:
   - absorption spectroscopy
   - absorption spectrum
 tags:
-  - flashcard/active/general/absorption_spectroscopy
+  - flashcard/active/general/eng/absorption_spectroscopy
   - language/in/English
 ---
 

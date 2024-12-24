@@ -3,7 +3,7 @@ aliases:
   - list of trigonometric identities
   - trigonometric identities
 tags:
-  - flashcard/active/general/list_of_trigonometric_identities
+  - flashcard/active/general/eng/list_of_trigonometric_identities
   - language/in/English
 ---
 

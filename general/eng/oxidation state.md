@@ -2,7 +2,7 @@
 aliases:
   - oxidation number
 tags:
-  - flashcard/active/general/oxidation_state
+  - flashcard/active/general/eng/oxidation_state
   - language/in/English
 ---
 

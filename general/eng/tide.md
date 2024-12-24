@@ -3,7 +3,7 @@ aliases:
   - tide
   - tides
 tags:
-  - flashcard/active/general/tide
+  - flashcard/active/general/eng/tide
   - language/in/English
 ---
 

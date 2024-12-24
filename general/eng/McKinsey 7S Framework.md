@@ -5,7 +5,7 @@ aliases:
   - Porter's five forces analysis
   - Porter's five forces framework
 tags:
-  - flashcard/active/general/Porter_s_five_forces_analysis
+  - flashcard/active/general/eng/Porter_s_five_forces_analysis
   - language/in/English
 ---
 

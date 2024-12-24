@@ -3,7 +3,7 @@ aliases:
   - Dedekind cut
   - Dedekind cuts
 tags:
-  - flashcard/active/general/Dedekind_cut
+  - flashcard/active/general/eng/Dedekind_cut
   - language/in/English
 ---
 

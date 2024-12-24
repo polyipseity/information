@@ -6,7 +6,7 @@ aliases:
   - Messier 42
   - NGC 1976
 tags:
-  - flashcard/active/general/Orion_Nebula
+  - flashcard/active/general/eng/Orion_Nebula
   - language/in/English
 ---
 

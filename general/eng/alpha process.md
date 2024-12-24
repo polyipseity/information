@@ -9,7 +9,7 @@ aliases:
   - helium capture
   - helium captures
 tags:
-  - flashcard/active/general/alpha_process
+  - flashcard/active/general/eng/alpha_process
   - language/in/English
 ---
 

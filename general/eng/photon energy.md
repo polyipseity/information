@@ -3,7 +3,7 @@ aliases:
   - photon energies
   - photon energy
 tags:
-  - flashcard/active/general/photon_energy
+  - flashcard/active/general/eng/photon_energy
   - language/in/English
 ---
 

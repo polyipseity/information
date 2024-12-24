@@ -7,7 +7,7 @@ aliases:
   - Riemann integral
   - Riemann integrals
 tags:
-  - flashcard/active/general/Riemann_integral
+  - flashcard/active/general/eng/Riemann_integral
   - language/in/English
 ---
 

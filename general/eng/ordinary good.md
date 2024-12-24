@@ -3,7 +3,7 @@ aliases:
   - ordinary good
   - ordinary goods
 tags:
-  - flashcard/active/general/ordinary_good
+  - flashcard/active/general/eng/ordinary_good
   - language/in/English
 ---
 

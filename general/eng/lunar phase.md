@@ -7,7 +7,7 @@ aliases:
   - moon phase
   - moon phases
 tags:
-  - flashcard/active/general/lunar_phase
+  - flashcard/active/general/eng/lunar_phase
   - language/in/English
 ---
 

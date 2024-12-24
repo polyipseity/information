@@ -3,7 +3,7 @@ aliases:
   - substitution effect
   - substitution effects
 tags:
-  - flashcard/active/general/substitution_effect
+  - flashcard/active/general/eng/substitution_effect
   - language/in/English
 ---
 

@@ -3,7 +3,7 @@ aliases:
   - bipartite graph
   - bipartite graphs
 tags:
-  - flashcard/active/general/bipartite_graph
+  - flashcard/active/general/eng/bipartite_graph
   - language/in/English
 ---
 

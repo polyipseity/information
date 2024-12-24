@@ -2,7 +2,7 @@
 aliases:
   - Copernican heliocentrism
 tags:
-  - flashcard/active/general/Copernican_heliocentrism
+  - flashcard/active/general/eng/Copernican_heliocentrism
   - language/in/English
 ---
 

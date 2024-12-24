@@ -5,7 +5,7 @@ aliases:
   - limits
   - limits of a function
 tags:
-  - flashcard/active/general/limit_of_a_function
+  - flashcard/active/general/eng/limit_of_a_function
   - language/in/English
 ---
 

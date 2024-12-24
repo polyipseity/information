@@ -3,7 +3,7 @@ aliases:
   - Fe
   - iron
 tags:
-  - flashcard/active/general/iron
+  - flashcard/active/general/eng/iron
   - language/in/English
 ---
 

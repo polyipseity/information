@@ -3,7 +3,7 @@ aliases:
   - gravities of Earth
   - gravity of Earth
 tags:
-  - flashcard/active/general/gravity_of_Earth
+  - flashcard/active/general/eng/gravity_of_Earth
   - language/in/English
 ---
 

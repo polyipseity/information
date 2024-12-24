@@ -7,7 +7,7 @@ aliases:
   - Wien's law
   - Wien's laws
 tags:
-  - flashcard/active/general/Wien_approximation
+  - flashcard/active/general/eng/Wien_approximation
   - language/in/English
 ---
 

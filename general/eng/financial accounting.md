@@ -5,7 +5,7 @@ aliases:
   - financial accounting
   - financial reporting
 tags:
-  - flashcard/active/general/financial_accounting
+  - flashcard/active/general/eng/financial_accounting
   - language/in/English
 ---
 

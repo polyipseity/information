@@ -3,7 +3,7 @@ aliases:
   - thermal energies
   - thermal energy
 tags:
-  - flashcard/active/general/thermal_energy
+  - flashcard/active/general/eng/thermal_energy
   - language/in/English
 ---
 

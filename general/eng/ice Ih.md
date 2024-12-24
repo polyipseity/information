@@ -3,7 +3,7 @@ aliases:
   - ice 1h
   - ice Ih
 tags:
-  - flashcard/active/general/ice_Ih
+  - flashcard/active/general/eng/ice_Ih
   - language/in/English
 ---
 

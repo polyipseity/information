@@ -9,7 +9,7 @@ aliases:
   - the big dipper
   - the plough
 tags:
-  - flashcard/active/general/Big_Dipper
+  - flashcard/active/general/eng/Big_Dipper
   - language/in/English
 ---
 

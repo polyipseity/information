@@ -6,7 +6,7 @@ aliases:
   - heat capacity ratio
   - heat capacity ratios
 tags:
-  - flashcard/active/general/heat_capacity_ratio
+  - flashcard/active/general/eng/heat_capacity_ratio
   - language/in/English
 ---
 

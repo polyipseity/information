@@ -3,7 +3,7 @@ aliases:
   - cosmological principle
   - cosmological principles
 tags:
-  - flashcard/active/general/cosmological_principle
+  - flashcard/active/general/eng/cosmological_principle
   - language/in/English
 ---
 

@@ -9,7 +9,7 @@ aliases:
   - single
   - single-precision floating-point format
 tags:
-  - flashcard/active/general/single-precison_floating-point_format
+  - flashcard/active/general/eng/single-precison_floating-point_format
   - language/in/English
 ---
 

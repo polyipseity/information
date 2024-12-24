@@ -3,7 +3,7 @@ aliases:
   - first-order logic
   - first-order logics
 tags:
-  - flashcard/active/general/first-order_logic
+  - flashcard/active/general/eng/first-order_logic
   - language/in/English
 ---
 

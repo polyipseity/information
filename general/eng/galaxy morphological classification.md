@@ -2,7 +2,7 @@
 aliases:
   - galaxy morphological classification
 tags:
-  - flashcard/active/general/galaxy_morphological_classification
+  - flashcard/active/general/eng/galaxy_morphological_classification
   - language/in/English
 ---
 

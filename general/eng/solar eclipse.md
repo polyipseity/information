@@ -9,7 +9,7 @@ aliases:
   - total solar eclipse
   - total solar eclipses
 tags:
-  - flashcard/active/general/solar_eclipse
+  - flashcard/active/general/eng/solar_eclipse
   - language/in/English
 ---
 

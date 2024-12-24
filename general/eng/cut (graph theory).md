@@ -19,7 +19,7 @@ aliases:
   - s–t cut
   - s–t cuts
 tags:
-  - flashcard/active/general/cut__graph_theory_
+  - flashcard/active/general/eng/cut__graph_theory_
   - language/in/English
 ---
 

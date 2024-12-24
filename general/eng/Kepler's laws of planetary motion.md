@@ -9,7 +9,7 @@ aliases:
   - Kepler's laws
   - Kepler's laws of planetary motion
 tags:
-  - flashcard/active/general/Kepler_s_laws_of_planetary_motion
+  - flashcard/active/general/eng/Kepler_s_laws_of_planetary_motion
   - language/in/English
 ---
 

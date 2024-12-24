@@ -3,7 +3,7 @@ aliases:
   - CART
   - classification and regression tree
 tags:
-  - flashcard/active/general/classification_and_regression_tree
+  - flashcard/active/general/eng/classification_and_regression_tree
   - language/in/English
 ---
 

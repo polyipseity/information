@@ -5,7 +5,7 @@ aliases:
   - inversions
   - inversions (discrete mathematics)
 tags:
-  - flashcard/active/general/inversion__discrete_mathematics_
+  - flashcard/active/general/eng/inversion__discrete_mathematics_
   - language/in/English
 ---
 

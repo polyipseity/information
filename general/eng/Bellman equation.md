@@ -3,7 +3,7 @@ aliases:
   - Bellman equation
   - Bellman equations
 tags:
-  - flashcard/active/general/Bellman_equation
+  - flashcard/active/general/eng/Bellman_equation
   - language/in/English
 ---
 

@@ -6,7 +6,7 @@ aliases:
   - main-sequence fittings
   - spectroscopic parallax
 tags:
-  - flashcard/active/general/spectroscopic_parallax
+  - flashcard/active/general/eng/spectroscopic_parallax
   - language/in/English
 ---
 

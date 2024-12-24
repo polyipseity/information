@@ -3,7 +3,7 @@ aliases:
   - combinatorial principle
   - combinatorial principles
 tags:
-  - flashcard/active/general/combinatorial_principles
+  - flashcard/active/general/eng/combinatorial_principles
   - language/in/English
 ---
 

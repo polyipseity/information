@@ -5,7 +5,7 @@ aliases:
   - Planck's constant
   - Planck's constants
 tags:
-  - flashcard/active/general/Planck_constant
+  - flashcard/active/general/eng/Planck_constant
   - language/in/English
 ---
 

@@ -3,7 +3,7 @@ aliases:
   - independent good
   - independent goods
 tags:
-  - flashcard/active/general/independent_goods
+  - flashcard/active/general/eng/independent_goods
   - language/in/English
 ---
 

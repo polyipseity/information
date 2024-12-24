@@ -3,7 +3,7 @@ aliases:
   - photoelectric current
   - photovoltaic current
 tags:
-  - flashcard/active/general/photocurrent
+  - flashcard/active/general/eng/photocurrent
   - language/in/English
 ---
 

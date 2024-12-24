@@ -3,7 +3,7 @@ aliases:
   - celestial pole
   - celestial poles
 tags:
-  - flashcard/active/general/celestial_pole
+  - flashcard/active/general/eng/celestial_pole
   - language/in/English
 ---
 

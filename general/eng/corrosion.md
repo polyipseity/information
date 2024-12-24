@@ -2,7 +2,7 @@
 aliases:
   - corrosion
 tags:
-  - flashcard/active/general/corrosion
+  - flashcard/active/general/eng/corrosion
   - language/in/English
 ---
 

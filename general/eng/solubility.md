@@ -7,7 +7,7 @@ aliases:
   - solubility
   - soluble
 tags:
-  - flashcard/active/general/solubility
+  - flashcard/active/general/eng/solubility
   - language/in/English
 ---
 

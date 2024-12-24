@@ -3,7 +3,7 @@ aliases:
   - complementary good
   - complementary goods
 tags:
-  - flashcard/active/general/complementary_good
+  - flashcard/active/general/eng/complementary_good
   - language/in/English
 ---
 

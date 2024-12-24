@@ -5,7 +5,7 @@ aliases:
   - blackhole
   - blackholes
 tags:
-  - flashcard/active/general/black_hole
+  - flashcard/active/general/eng/black_hole
   - language/in/English
 ---
 

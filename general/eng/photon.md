@@ -2,7 +2,7 @@
 aliases:
   - photons
 tags:
-  - flashcard/active/general/photon
+  - flashcard/active/general/eng/photon
   - language/in/English
 ---
 

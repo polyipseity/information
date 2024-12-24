@@ -4,7 +4,7 @@ aliases:
   - total addressable market
   - total available market
 tags:
-  - flashcard/active/general/total_addressable_market
+  - flashcard/active/general/eng/total_addressable_market
   - language/in/English
 ---
 

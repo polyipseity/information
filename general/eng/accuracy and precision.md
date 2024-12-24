@@ -13,7 +13,7 @@ aliases:
   - precisions & accuracies
   - precisions and accuracies
 tags:
-  - flashcard/active/general/accuracy_and_precision
+  - flashcard/active/general/eng/accuracy_and_precision
   - language/in/English
 ---
 

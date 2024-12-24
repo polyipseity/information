@@ -3,7 +3,7 @@ aliases:
   - zero force member
   - zero force members
 tags:
-  - flashcard/active/general/zero_force_member
+  - flashcard/active/general/eng/zero_force_member
   - language/in/English
 ---
 

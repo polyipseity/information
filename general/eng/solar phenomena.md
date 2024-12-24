@@ -3,7 +3,7 @@ aliases:
   - solar phenomena
   - solar phenomenon
 tags:
-  - flashcard/active/general/solar_phenomena
+  - flashcard/active/general/eng/solar_phenomena
   - language/in/English
 ---
 

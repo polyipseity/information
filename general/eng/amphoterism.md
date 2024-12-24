@@ -3,7 +3,7 @@ aliases:
   - amphoteric
   - amphoterism
 tags:
-  - flashcard/active/general/amphoterism
+  - flashcard/active/general/eng/amphoterism
   - language/in/English
 ---
 

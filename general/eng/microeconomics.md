@@ -3,7 +3,7 @@ aliases:
   - microeconomic
   - microeconomics
 tags:
-  - flashcard/active/general/microeconomics
+  - flashcard/active/general/eng/microeconomics
   - language/in/English
 ---
 

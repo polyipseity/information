@@ -3,7 +3,7 @@ aliases:
   - flat Earth
   - flat earth
 tags:
-  - flashcard/active/general/flat_Earth
+  - flashcard/active/general/eng/flat_Earth
   - language/in/English
 ---
 

@@ -4,7 +4,7 @@ aliases:
   - market clearing
   - market clears
 tags:
-  - flashcard/active/general/market_clearing
+  - flashcard/active/general/eng/market_clearing
   - language/in/English
 ---
 

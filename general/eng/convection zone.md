@@ -3,7 +3,7 @@ aliases:
   - convection zone
   - convection zones
 tags:
-  - flashcard/active/general/convection_zone
+  - flashcard/active/general/eng/convection_zone
   - language/in/English
 ---
 

@@ -4,7 +4,7 @@ aliases:
   - Cosmic Background Explorer
   - Explorer 66
 tags:
-  - flashcard/active/general/Cosmic_Background_Explorer
+  - flashcard/active/general/eng/Cosmic_Background_Explorer
   - language/in/English
 ---
 

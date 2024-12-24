@@ -3,7 +3,7 @@ aliases:
   - Ti
   - titanium
 tags:
-  - flashcard/active/general/titanium
+  - flashcard/active/general/eng/titanium
   - language/in/English
 ---
 

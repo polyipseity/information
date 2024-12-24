@@ -3,7 +3,7 @@ aliases:
   - liabilities
   - liability
 tags:
-  - flashcard/active/general/liability__financial_accounting_
+  - flashcard/active/general/eng/liability__financial_accounting_
   - language/in/English
 ---
 

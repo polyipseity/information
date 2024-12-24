@@ -6,7 +6,7 @@ aliases:
   - chemical bonding
   - chemical bonds
 tags:
-  - flashcard/active/general/chemical_bond
+  - flashcard/active/general/eng/chemical_bond
   - language/in/English
 ---
 

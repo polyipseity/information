@@ -3,7 +3,7 @@ aliases:
   - opportunity cost
   - opportunity costs
 tags:
-  - flashcard/active/general/opportunity_cost
+  - flashcard/active/general/eng/opportunity_cost
   - language/in/English
 ---
 

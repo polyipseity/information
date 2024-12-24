@@ -4,7 +4,7 @@ aliases:
   - Vitali sets
   - Vitali theorem
 tags:
-  - flashcard/active/general/Vitali_set
+  - flashcard/active/general/eng/Vitali_set
   - language/in/English
 ---
 

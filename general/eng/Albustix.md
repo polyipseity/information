@@ -2,7 +2,7 @@
 aliases:
   - Albustix
 tags:
-  - flashcard/active/general/Albustix
+  - flashcard/active/general/eng/Albustix
   - language/in/English
 ---
 

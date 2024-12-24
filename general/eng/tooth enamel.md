@@ -3,7 +3,7 @@ aliases:
   - tooth enamel
   - tooth enamels
 tags:
-  - flashcard/active/general/tooth_enamel
+  - flashcard/active/general/eng/tooth_enamel
   - language/in/English
 ---
 

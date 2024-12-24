@@ -4,7 +4,7 @@ aliases:
   - splint (laboratory equipment)
   - splints
 tags:
-  - flashcard/active/general/splint__laboratory_equipment_
+  - flashcard/active/general/eng/splint__laboratory_equipment_
   - language/in/English
 ---
 

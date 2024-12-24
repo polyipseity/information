@@ -7,7 +7,7 @@ aliases:
   - Huffman encoding
   - Huffman encodings
 tags:
-  - flashcard/active/general/Huffman_coding
+  - flashcard/active/general/eng/Huffman_coding
   - language/in/English
 ---
 

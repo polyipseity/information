@@ -9,7 +9,7 @@ aliases:
   - eigenvectors
   - eigenvectors and eigenvalues
 tags:
-  - flashcard/active/general/eigenvalues_and_eigenvectors
+  - flashcard/active/general/eng/eigenvalues_and_eigenvectors
   - language/in/English
 ---
 

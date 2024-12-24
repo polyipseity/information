@@ -3,7 +3,7 @@ aliases:
   - skewness
   - skewnesses
 tags:
-  - flashcard/active/general/skewness
+  - flashcard/active/general/eng/skewness
   - language/in/English
 ---
 
