@@ -69,7 +69,7 @@ The method of distinguished element {@{singles out a "distinguished element" of 
 
 - see: [generating function](generating%20function.md)
 
-Generating functions can be thought of as {@{polynomials with infinitely many terms whose coefficients correspond to terms of a sequence}@}. This new representation of the sequence {@{opens up new methods for finding identities and closed forms pertaining to certain sequences}@}. {@{The (ordinary) generating function of a sequence _a_<sub>_n_</sub>}@} is {@{$$G(a_{n};x)=\sum _{n=0}^{\infty }a_{n}x^{n}.$$}@} <!--SR:!2025-03-15,102,290!2024-12-25,52,290!2025-01-13,71,310!2025-01-13,71,310-->
+Generating functions can be thought of as {@{polynomials with infinitely many terms whose coefficients correspond to terms of a sequence}@}. This new representation of the sequence {@{opens up new methods for finding identities and closed forms pertaining to certain sequences}@}. {@{The (ordinary) generating function of a sequence _a_<sub>_n_</sub>}@} is {@{$$G(a_{n};x)=\sum _{n=0}^{\infty }a_{n}x^{n}.$$}@} <!--SR:!2025-03-15,102,290!2025-07-23,210,310!2025-01-13,71,310!2025-01-13,71,310-->
 
 ## recurrence relation
 

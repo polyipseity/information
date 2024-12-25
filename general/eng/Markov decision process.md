@@ -23,12 +23,12 @@ The name comes from {@{its connection to [Markov chains](Markov%20chain.md)}@}, 
 
 A Markov decision process is {@{a 4-[tuple](tuple.md) $(S,A,P_{a},R_{a})$}@}, where: <!--SR:!2024-12-28,17,309-->
 
-- $S$ is ::@:: a [set](set%20(mathematics).md) of states called the _state space_. The state space may be discrete or continuous, like the [set of real numbers](real%20number.md). <!--SR:!2024-12-26,15,292!2024-12-25,14,292-->
-- $A$ is ::@:: a set of actions called the _action space_ \(alternatively, $A_{s}$ is the set of actions available from state $s$\). As for state, this set may be discrete or continuous. <!--SR:!2024-12-27,16,292!2024-12-25,14,292-->
+- $S$ is ::@:: a [set](set%20(mathematics).md) of states called the _state space_. The state space may be discrete or continuous, like the [set of real numbers](real%20number.md). <!--SR:!2024-12-26,15,292!2025-02-22,59,312-->
+- $A$ is ::@:: a set of actions called the _action space_ \(alternatively, $A_{s}$ is the set of actions available from state $s$\). As for state, this set may be discrete or continuous. <!--SR:!2024-12-27,16,292!2025-02-05,42,292-->
 - $P_{a}(s,s')$ is, on an intuitive level, {@{the probability that action $a$ in state $s$ at time $t$ will lead to state $s'$ at time $t+1$}@}. In general, this probability transition is defined to {@{satisfy $\Pr(s_{t+1}\in S'\mid s_{t}=s,a_{t}=a)=\int _{S'}P_{a}(s,s')ds',$ for every $S'\subseteq S$ measurable}@}. In case {@{the state space is discrete}@}, the integral is {@{intended with respect to the counting measure}@}, so that {@{the latter simplifies as $P_{a}(s,s')=\Pr(s_{t+1}=s'\mid s_{t}=s,a_{t}=a)$}@}; In case {@{$S\subseteq \mathbb {R} ^{d}$}@}, the integral is {@{usually intended with respect to the [Lebesgue measure](Lebesgue%20measure.md)}@}.
-- $R_{a}(s,s')$ is ::@:: the immediate reward \(or expected immediate reward\) received after transitioning from state $s$ to state $s'$, due to action $a$. <!--SR:!2024-12-25,14,292!2024-12-25,14,292-->
+- $R_{a}(s,s')$ is ::@:: the immediate reward \(or expected immediate reward\) received after transitioning from state $s$ to state $s'$, due to action $a$. <!--SR:!2025-02-22,59,312!2025-02-22,59,312-->
 
-A policy function $\pi$ is ::@:: a \(potentially probabilistic\) mapping from state space \($S$\) to action space \($A$\). <!--SR:!2024-12-25,14,292!2024-12-25,14,292-->
+A policy function $\pi$ is ::@:: a \(potentially probabilistic\) mapping from state space \($S$\) to action space \($A$\). <!--SR:!2025-02-22,59,312!2025-02-22,59,312-->
 
 ### optimization objective
 
@@ -58,10 +58,10 @@ An example of MDP is {@{the Pole-Balancing model}@}, which comes from {@{classic
 
 In this example, we have
 
-- $S$ is ::@:: the set of ordered tuples $(\theta ,{\dot {\theta } },x,{\dot {x} })\subset \mathbb {R} ^{4}$ given by pole angle, angular velocity, position of the cart and its speed. <!--SR:!2024-12-25,14,292!2024-12-25,14,292-->
-- $A$ is ::@:: $\{-1,1\}$, corresponding to applying a force on the left \(right\) on the cart. <!--SR:!2024-12-26,15,292!2024-12-25,14,292-->
-- $P_{a}(s,s')$ is ::@:: the transition of the system, which in this case is going to be deterministic and driven by the laws of mechanics. <!--SR:!2024-12-25,14,292!2024-12-27,16,292-->
-- $R_{a}(s,s')$ is ::@:: $1$ if the pole is up after the transition, zero otherwise. Therefore, this function only depend on $s'$ in this specific case. <!--SR:!2024-12-26,15,292!2024-12-25,14,290-->
+- $S$ is ::@:: the set of ordered tuples $(\theta ,{\dot {\theta } },x,{\dot {x} })\subset \mathbb {R} ^{4}$ given by pole angle, angular velocity, position of the cart and its speed. <!--SR:!2025-02-22,59,312!2025-02-22,59,312-->
+- $A$ is ::@:: $\{-1,1\}$, corresponding to applying a force on the left \(right\) on the cart. <!--SR:!2024-12-26,15,292!2025-02-22,59,312-->
+- $P_{a}(s,s')$ is ::@:: the transition of the system, which in this case is going to be deterministic and driven by the laws of mechanics. <!--SR:!2025-02-22,59,312!2024-12-27,16,292-->
+- $R_{a}(s,s')$ is ::@:: $1$ if the pole is up after the transition, zero otherwise. Therefore, this function only depend on $s'$ in this specific case. <!--SR:!2024-12-26,15,292!2025-02-21,58,310-->
 
 ## algorithms
 
@@ -72,7 +72,7 @@ In this example, we have
 The algorithm has {@{two steps, \(1\) a value update and \(2\) a policy update}@}, which are {@{repeated in some order for all the states until no further changes take place}@}. Both {@{recursively update a new estimation of the optimal policy}@} and {@{state value using an older estimation of those values}@}. <!--SR:!2024-12-26,15,309!2024-12-26,15,309!2024-12-28,17,309!2024-12-26,15,309-->
 
 - value update ::@:: $$V(s):=\sum _{s'}P_{\pi (s)}(s,s')\left(R_{\pi (s)}(s,s')+\gamma V(s')\right)$$ <!--SR:!2025-01-12,24,252!2025-01-18,28,272-->
-- policy update ::@:: $$\pi (s):=\operatorname {argmax} _{a}\left\{\sum _{s'}P_{a}(s,s')\left(R_{a}(s,s')+\gamma V(s')\right)\right\}$$ <!--SR:!2024-12-28,6,250!2024-12-25,14,292-->
+- policy update ::@:: $$\pi (s):=\operatorname {argmax} _{a}\left\{\sum _{s'}P_{a}(s,s')\left(R_{a}(s,s')+\gamma V(s')\right)\right\}$$ <!--SR:!2024-12-28,6,250!2025-02-02,39,292-->
 
 Their order depends on {@{the variant of the algorithm}@}; one can {@{also do them for all states at once or state by state, and more often to some states than others}@}. As long as {@{no state is permanently excluded from either of the steps}@}, {@{the algorithm will eventually arrive at the correct solution}@}.<sup>[\[6\]](#^ref-6)</sup> <!--SR:!2024-12-28,17,309!2024-12-28,17,309!2024-12-27,16,309!2024-12-26,15,309-->
 
@@ -118,9 +118,9 @@ The solution above assumes that {@{the state $s$ is known when action is to be t
 
 {@{Constrained Markov decision processes \(CMDPS\)}@} are {@{extensions to Markov decision process \(MDPs\)}@}. There are {@{three fundamental differences}@} between MDPs and CMDPs.<sup>[\[14\]](#^ref-14)</sup> <!--SR:!2024-12-28,17,309!2024-12-27,16,309!2024-12-27,16,309-->
 
-- There are multiple ::@:: costs incurred after applying an action instead of one. <!--SR:!2024-12-25,14,292!2024-12-25,14,292-->
+- There are multiple ::@:: costs incurred after applying an action instead of one. <!--SR:!2025-02-22,59,312!2025-02-22,59,312-->
 - CMDPs are solved ::@:: with [linear programs](linear%20programming.md) only, and [dynamic programming](dynamic%20programming.md) does not work. <!--SR:!2024-12-27,16,292!2024-12-27,16,292-->
-- The final policy ::@:: depends on the starting state. <!--SR:!2024-12-25,14,292!2024-12-25,14,292-->
+- The final policy ::@:: depends on the starting state. <!--SR:!2025-02-22,59,312!2025-02-22,59,312-->
 
 {@{The method of Lagrange multipliers}@} applies to CMDPs. {@{Many Lagrangian-based algorithms}@} have been developed. (annotation: An example is {@{the natural policy gradient primal-dual method}@}.) <!--SR:!2024-12-27,16,309!2024-12-28,17,309!2024-12-27,16,309-->
 
@@ -169,12 +169,12 @@ Another application of MDP process in {@{[machine learning](machine%20learning.m
 
 In {@{learning automata theory}@}, a {@{__stochastic automaton__}@} consists of: <!--SR:!2024-12-28,17,309!2024-12-28,17,309-->
 
-- a set _x_ ::@:: of possible inputs, <!--SR:!2024-12-26,15,292!2024-12-25,14,292-->
-- a set Φ = { Φ<sub>1</sub>, ..., Φ<sub>_s_</sub> } ::@:: of possible internal states, <!--SR:!2024-12-25,14,292!2024-12-27,16,292-->
+- a set _x_ ::@:: of possible inputs, <!--SR:!2024-12-26,15,292!2025-02-22,59,312-->
+- a set Φ = { Φ<sub>1</sub>, ..., Φ<sub>_s_</sub> } ::@:: of possible internal states, <!--SR:!2025-02-22,59,312!2024-12-27,16,292-->
 - a set α = { α<sub>1</sub>, ..., α<sub>_r_</sub> } ::@:: of possible outputs, or actions, with _r_ ≤ _s_, <!--SR:!2024-12-27,16,292!2024-12-26,15,292-->
-- an initial state probability vector ::@:: _p_\(0\) = ≪ _p_<sub>1</sub>\(0\), ..., _p<sub>s</sub>_\(0\) ≫, (annotation: This randomly selects the current state.) <!--SR:!2024-12-26,15,292!2024-12-25,14,292-->
-- a [computable function](computable%20function.md) _A_ which ::@:: after each time step _t_ generates _p_\(_t_ + 1\) from _p_\(_t_\), the current input, and the current state, and (annotation: This makes the automata "learn" from an input.) <!--SR:!2025-01-17,27,272!2024-12-25,14,292-->
-- a function _G_: Φ → α which ::@:: generates the output at each time step. (annotation: Note that the function only depends on the current state, not the current input.) <!--SR:!2024-12-25,14,292!2024-12-27,16,292-->
+- an initial state probability vector ::@:: _p_\(0\) = ≪ _p_<sub>1</sub>\(0\), ..., _p<sub>s</sub>_\(0\) ≫, (annotation: This randomly selects the current state.) <!--SR:!2024-12-26,15,292!2025-02-22,59,312-->
+- a [computable function](computable%20function.md) _A_ which ::@:: after each time step _t_ generates _p_\(_t_ + 1\) from _p_\(_t_\), the current input, and the current state, and (annotation: This makes the automata "learn" from an input.) <!--SR:!2025-01-17,27,272!2025-02-04,41,292-->
+- a function _G_: Φ → α which ::@:: generates the output at each time step. (annotation: Note that the function only depends on the current state, not the current input.) <!--SR:!2025-02-22,59,312!2024-12-27,16,292-->
 
 {@{The states of such an automaton}@} correspond to {@{the states of a "discrete-state discrete-parameter [Markov process](Markov%20chain.md)"}@}.<sup>[\[21\]](#^ref-21)</sup> At {@{each time step _t_ = 0,1,2,3,...}@}, the automaton {@{reads an input from its environment}@}, {@{updates P\(_t_\) to P\(_t_ + 1\) by _A_}@}, {@{randomly chooses a successor state according to the probabilities P\(_t_ + 1\)}@} and {@{outputs the corresponding action}@}. The automaton's environment, in turn, {@{reads the action and sends the next input to the automaton}@}.<sup>[\[20\]](#^ref-20)</sup> <!--SR:!2024-12-28,17,309!2024-12-28,17,309!2024-12-28,17,309!2024-12-28,17,309!2024-12-28,17,309!2024-12-28,17,309!2024-12-28,17,309!2024-12-28,17,309-->
 
@@ -206,7 +206,7 @@ In addition, {@{transition probability}@} is {@{sometimes written $\Pr(s,a,s')$,
 - [Quantum finite automata](quantum%20finite%20automaton.md)
 - [Partially observable Markov decision process](partially%20observable%20Markov%20decision%20process.md)
 - [Dynamic programming](dynamic%20programming.md)
-- [Bellman equation](Bellman%20equation.md) for ::@:: applications to economics. <!--SR:!2024-12-25,14,292!2024-12-25,14,292-->
+- [Bellman equation](Bellman%20equation.md) for ::@:: applications to economics. <!--SR:!2025-02-22,59,312!2025-02-22,59,312-->
 - [Hamilton–Jacobi–Bellman equation](Hamilton–Jacobi–Bellman%20equation.md)
 - [Optimal control](optimal%20control.md)
 - [Recursive economics](recursive%20economics.md)

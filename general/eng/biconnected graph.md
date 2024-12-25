@@ -27,7 +27,7 @@ This property is especially {@{useful in maintaining a graph with a two-fold [re
 
 {@{A __biconnected__ [undirected graph](graph%20(discrete%20mathematics).md#undirected%20graph)}@} is {@{a connected graph that is not broken into disconnected pieces by deleting any single vertex \(and its incident edges\)}@}. <!--SR:!2024-12-26,4,272!2024-12-26,4,272-->
 
-{@{A __biconnected__ [directed graph](directed%20graph.md)}@} is {@{one such that for any two vertices _v_ and _w_ there are two directed paths from _v_ to _w_ which have no vertices in common other than _v_ and _w_}@}. <!--SR:!2024-12-26,4,272!2024-12-25,3,252-->
+{@{A __biconnected__ [directed graph](directed%20graph.md)}@} is {@{one such that for any two vertices _v_ and _w_ there are two directed paths from _v_ to _w_ which have no vertices in common other than _v_ and _w_}@}. <!--SR:!2024-12-26,4,272!2025-01-04,10,272-->
 
 ## examples
 
@@ -53,7 +53,7 @@ This property is especially {@{useful in maintaining a graph with a two-fold [re
 >
 > {@{A graph that is not biconnected. The removal of vertex x would disconnect the graph.}@} <!--SR:!2024-12-26,4,272!2024-12-26,4,272-->
 
-__Nonseparable \(or 2-connected\) graphs \(or blocks\) with n nodes \(sequence {@{[A002218](https://oeis.org/A002218)}@} in the [OEIS](On-Line%20Encyclopedia%20of%20Integer%20Sequences.md)\)__ <!--SR:!2024-12-25,3,252-->
+__Nonseparable \(or 2-connected\) graphs \(or blocks\) with n nodes \(sequence {@{[A002218](https://oeis.org/A002218)}@} in the [OEIS](On-Line%20Encyclopedia%20of%20Integer%20Sequences.md)\)__ <!--SR:!2025-01-02,8,252-->
 
 | Vertices | Number of Possibilities             |
 |:--------:|:-----------------------------------:|

@@ -89,7 +89,7 @@ return _chain.from_iterable(await _gather(
 
 ### comparison operators
 
-Below are common comparison operators, all of which returns {@{booleans}@}. Operators have higher precedence than or same precedence as operators below it in the list: <!--SR:!2024-12-25,249,330-->
+Below are common comparison operators, all of which returns {@{booleans}@}. Operators have higher precedence than or same precedence as operators below it in the list: <!--SR:!2028-02-01,1133,350-->
 
 ```Python
 # pytextgen generate data

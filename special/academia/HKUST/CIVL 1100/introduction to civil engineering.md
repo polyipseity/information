@@ -144,7 +144,7 @@ quantity surveyor
 
 - _(begin)_→::@::←building services engineer <!--SR:!2025-09-29,378,335!2026-01-31,525,397-->
 - building services engineer→::@::←consulting civil engineer <!--SR:!2027-02-01,780,357!2025-07-07,312,337-->
-- consulting civil engineer→::@::←consulting environmental engineer <!--SR:!2024-12-25,183,347!2025-02-05,221,360-->
+- consulting civil engineer→::@::←consulting environmental engineer <!--SR:!2026-09-21,635,347!2025-02-05,221,360-->
 - consulting environmental engineer→::@::←consulting geo-technical engineer <!--SR:!2025-11-15,394,285!2025-08-10,342,306-->
 - consulting geo-technical engineer→::@::←consulting structural engineer <!--SR:!2025-01-06,179,315!2025-04-26,255,317-->
 - consulting structural engineer→::@::←contracting civil engineer <!--SR:!2025-09-07,361,335!2025-05-27,276,315-->
@@ -501,7 +501,7 @@ teaming up with others
 - _(begin)_→::@::←business procedures <!--SR:!2025-08-20,291,252!2026-03-19,557,401-->
 - business procedures→::@::←economics <!--SR:!2025-06-20,213,261!2025-02-10,193,285-->
 - economics→::@::←human behaviors <!--SR:!2025-02-04,127,300!2026-01-10,444,340-->
-- human behaviors→::@::←management principles <!--SR:!2024-12-25,139,300!2025-07-15,253,260-->
+- human behaviors→::@::←management principles <!--SR:!2026-02-21,423,300!2025-07-15,253,260-->
 - management principles→::@::←strong communication skills <!--SR:!2025-03-22,222,301!2025-07-08,306,320-->
 - strong communication skills→::@::←teaming up with others <!--SR:!2026-08-16,647,360!2025-08-04,345,380-->
 - teaming up with others→::@::←_(end)_ <!--SR:!2025-05-28,321,375!2025-03-17,198,272-->

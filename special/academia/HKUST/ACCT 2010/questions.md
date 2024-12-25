@@ -274,7 +274,7 @@ tags:
 > 2. Buyer of goods acknowledged receipt of merchandise or consumed fully the underlying services
 > 3. At the moment the entity paid out the cash
 >
-> - solution: {@{2}@} <!--SR:!2024-12-25,12,321-->
+> - solution: {@{2}@} <!--SR:!2025-02-16,53,341-->
 
 <!-- markdownlint MD028 -->
 
@@ -296,7 +296,7 @@ tags:
 > 3. period end adjustments are part of account closing procedures
 >
 > - solution: {@{2}@}
-> - explanation: {@{For 3, account closing procedures involve zeroing out temporary accounts, but this requires adjusted balances in the first place.}@} <!--SR:!2025-01-01,19,341!2024-12-25,12,321-->
+> - explanation: {@{For 3, account closing procedures involve zeroing out temporary accounts, but this requires adjusted balances in the first place.}@} <!--SR:!2025-01-01,19,341!2025-02-17,54,341-->
 
 <!-- markdownlint MD028 -->
 
@@ -390,7 +390,7 @@ tags:
 > 3. a three-year post-purchase unlimited mileage maintenance for motor vehicles offered by car manufacturer
 >
 > - solution: {@{3}@}
-> - explanation: {@{The question is a bit worded-badly... It means determining if the example can be treated as a separate performance obligation.}@} <!--SR:!2024-12-25,12,321!2025-01-01,19,341-->
+> - explanation: {@{The question is a bit worded-badly... It means determining if the example can be treated as a separate performance obligation.}@} <!--SR:!2025-02-17,54,341!2025-01-01,19,341-->
 
 <!-- markdownlint MD028 -->
 
@@ -432,7 +432,7 @@ tags:
 > 3. none of the above
 >
 > - solution: {@{1}@}
-> - explanation: {@{1 affects asset "Inventory". 2 is not directly considered when preparing the balance sheet: without 1, it alone does nothing.}@} <!--SR:!2024-12-25,12,321!2025-01-01,19,341-->
+> - explanation: {@{1 affects asset "Inventory". 2 is not directly considered when preparing the balance sheet: without 1, it alone does nothing.}@} <!--SR:!2025-02-18,55,341!2025-01-01,19,341-->
 
 <!-- markdownlint MD028 -->
 
@@ -636,7 +636,7 @@ tags:
 > 2. unissued shares
 > 3. maximum number of shares that can be issued or sold to the public (approved by government authorities)
 >
-> - solution: {@{3}@} <!--SR:!2024-12-25,12,321-->
+> - solution: {@{3}@} <!--SR:!2025-02-18,55,341-->
 
 <!-- markdownlint MD028 -->
 

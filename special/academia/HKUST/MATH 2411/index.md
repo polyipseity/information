@@ -737,7 +737,7 @@ The content is in teaching order.
     - distribution: ? → ?
 - report
   - Is a report necessary in this case...?
-  - time limit ::@:: The time limit was enough to finish all questions and check them for 20 minutes. This, of course, assumes you are very familiar with the methods used. <!--SR:!2024-12-27,5,367!2024-12-25,3,347-->
+  - time limit ::@:: The time limit was enough to finish all questions and check them for 20 minutes. This, of course, assumes you are very familiar with the methods used. <!--SR:!2024-12-27,5,367!2025-01-07,13,367-->
   - moment-generating function (0) ::@:: Remember to always check the domain of the expression you have gotten. If the domain is missing for some numbers, you may be able to evaluate $\operatorname E\left[e^{tX}\right]$ with $t$ set to the missing numbers to fill in the domain. For example, you may finally get $$\begin{cases} \frac {e^{5t} - e^{2t} } {3t}, & t \ne 0 \\ 1, & t = 0 \,. \end{cases}$$ <!-- <p> (The instructor said only I had gotten it correct...) --> <!--SR:!2024-12-27,5,367!2024-12-27,5,367-->
 - check
   - datetime: 2024-12-20T14:30:00+08:00/2024-12-20T16:00:00+08:00, PT1H30M

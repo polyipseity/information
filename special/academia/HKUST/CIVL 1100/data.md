@@ -87,7 +87,7 @@ See [Central Plaza (Hong Kong)](../../../../general/Central%20Plaza%20(Hong%20Ko
 See [Channel Tunnel](../../../../general/Channel%20Tunnel.md).
 
 - completion time ::@:: 1994 <!--SR:!2025-04-03,177,316!2026-04-28,565,396-->
-- rail tunnel length ::@:: 50.5 km (37.9 km underseas) <!--SR:!2025-01-01,43,216!2024-12-25,66,376-->
+- rail tunnel length ::@:: 50.5 km (37.9 km underseas) <!--SR:!2025-01-01,43,216!2025-09-03,252,376-->
 
 ## China International Trust and Investment Plaza
 
@@ -189,7 +189,7 @@ See [Hoover Dam](../../../../general/Hoover%20Dam.md).
 
 See [International Commerce Centre](International%20Commerce%20Centre.md).
 
-- description ::@:: tallest building in [Hong Kong](../../../../general/Hong%20Kong.md) <!--SR:!2024-12-25,214,330!2025-11-28,471,390-->
+- description ::@:: tallest building in [Hong Kong](../../../../general/Hong%20Kong.md) <!--SR:!2027-08-26,974,350!2025-11-28,471,390-->
 - height ::@:: architectural: 484 m, tip: 484 m, top floor: 468 m, roof: 484 m <!--SR:!2025-01-22,140,301!2025-01-15,231,330-->
 - image ::@:: ![International Commerce Centre image](../../../../archives/Wikimedia%20Commons/International%20Commerce%20Centre%20201008.jpg) <!--SR:!2025-03-17,232,360!2025-12-14,472,400-->
 - [structural system](../../../../general/structural%20system.md) ::@:: concrete–steel composite <!--SR:!2025-01-01,62,261!2026-02-24,538,401-->

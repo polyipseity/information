@@ -49,13 +49,13 @@ The content is in teaching order.
 - 4 typical kinds of thinking ::@:: business thinking (optimize), design thinking (build), engineering thinking (solve), research thinking (analyze) <!--SR:!2025-07-20,232,330!2025-09-01,264,330-->
 - design thinking
   - design thinking video: <https://youtu.be/_r0VX-aU_T8>
-  - design thinking processes ::@:: accept, empathize, define, ideate, prototype, test <!--SR:!2025-03-05,117,290!2024-12-25,69,310-->
+  - design thinking processes ::@:: accept, empathize, define, ideate, prototype, test <!--SR:!2025-03-05,117,290!2025-10-24,303,330-->
   - design thinking use ::@:: Good for _wicked problems_, which are problems with little data and unclear outcome. <!--SR:!2025-07-01,216,330!2025-03-29,142,310-->
 - class culture ::@:: We come to class not to just _attend_ it, but participate with others. <!--SR:!2025-05-26,185,310!2025-08-18,254,330-->
 - activity 1: art to building community
   - art to building community / debrief ::@:: Our story makes us unique. Approach situations with a "yes and"! <!--SR:!2025-08-06,246,330!2025-07-15,227,330-->
 - activity 2: workview sharing, activity 3: worldview sharing
-  - workview & worldview sharing / debrief ::@:: How is what you are currently doing coherent with your workview and worldview? <!--SR:!2024-12-25,69,310!2025-08-18,253,330-->
+  - workview & worldview sharing / debrief ::@:: How is what you are currently doing coherent with your workview and worldview? <!--SR:!2025-10-23,302,330!2025-08-18,253,330-->
 
 ## week 3 tutorial
 

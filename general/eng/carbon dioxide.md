@@ -23,7 +23,7 @@ When carbon dioxide is {@{passed into aqueous [calcium hydroxide](calcium%20hydr
 > test for carbon dioxide with calcium compouunds
 >
 > 1. {@{Ca(OH)<sub>2</sub>(aq) + CO<sub>2</sub>(g) → CaCO<sub>3</sub>(s) + H<sub>2</sub>O(l)}@}
-> 2. {@{CaCO<sub>3</sub>(s) + CO<sub>2</sub>(g) + H<sub>2</sub>O(l) → Ca(HCO<sub>3</sub>)<sub>2</sub>(aq)}@} <!--SR:!2027-08-15,1032,242!2024-12-25,555,282-->
+> 2. {@{CaCO<sub>3</sub>(s) + CO<sub>2</sub>(g) + H<sub>2</sub>O(l) → Ca(HCO<sub>3</sub>)<sub>2</sub>(aq)}@} <!--SR:!2027-08-15,1032,242!2029-04-10,1567,282-->
 
 ### hydrogencarbonate indicator
 
