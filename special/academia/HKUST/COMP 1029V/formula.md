@@ -72,7 +72,7 @@ return _chain.from_iterable(await _gather(
 - `^`→::@::←`*` <!--SR:!2024-12-26,250,330!2026-08-23,697,330-->
 - `*`→::@::←`/` <!--SR:!2026-11-14,758,330!2027-07-06,972,350-->
 - `/`→::@::←`+` <!--SR:!2025-01-14,265,330!2025-01-26,277,330-->
-- `+`→::@::←`-` <!--SR:!2024-12-24,251,330!2027-12-26,1107,350-->
+- `+`→::@::←`-` <!--SR:!2028-02-12,1145,350!2027-12-26,1107,350-->
 - `-`→::@::←_(end)_ <!--SR:!2025-02-13,292,330!2025-01-20,272,330-->
 
 <!--/pytextgen-->
@@ -147,7 +147,7 @@ return _chain.from_iterable(await _gather(
 - `=`:@:equal to <!--SR:!2025-02-04,282,330-->
 - `<`:@:lesser than <!--SR:!2027-08-02,992,350-->
 - `>`:@:greater than <!--SR:!2025-02-28,302,330-->
-- `<=`:@:lesser than or equal to <!--SR:!2024-12-24,248,330-->
+- `<=`:@:lesser than or equal to <!--SR:!2027-03-22,818,330-->
 - `>=`:@:greater than or equal to <!--SR:!2027-11-23,1078,350-->
 - `<>`:@:not equal to <!--SR:!2025-01-23,273,330-->
 
@@ -275,7 +275,7 @@ return _chain.from_iterable(await _gather(
 - `LEFT(string, length)`:@:get the first `length` characters in `string` <!--SR:!2025-01-14,266,330-->
 - `LEN(string)`:@:length of `string` <!--SR:!2025-01-01,257,330-->
 - `LOWER(string)`:@:convert to lowercase <!--SR:!2027-05-14,927,350-->
-- `RIGHT(string, length)`:@:get the last `length` characters in `string` <!--SR:!2024-12-24,246,330-->
+- `RIGHT(string, length)`:@:get the last `length` characters in `string` <!--SR:!2028-01-17,1119,350-->
 - `SUBSTITUTE(string, old, new)`:@:replace all occurrences of `old` with `new` in `string` <!--SR:!2027-05-14,902,330-->
 - `UPPER(string)`:@:convert to uppercase <!--SR:!2027-11-03,1065,350-->
 

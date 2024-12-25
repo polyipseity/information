@@ -11,9 +11,9 @@ tags:
 
 # linear temporal logic
 
-In [logic](logic.md), {@{__linear temporal logic__ or __linear-time temporal logic__<sup>[\[1\]](#^ref-1)</sup><sup>[\[2\]](#^ref-2)</sup> \(__LTL__\)}@} is {@{a [modal](modal%20logic.md) [temporal logic](temporal%20logic.md) with modalities referring to time}@}. In LTL, one can {@{encode [formulae](well-formed%20formula.md) about the future of [paths](path%20(graph%20theory).md)}@}, e.g., {@{a condition will eventually be true, a condition will be true until another fact becomes true}@}, etc. It is a fragment of {@{the more complex [CTL\*](CTL*.md)}@}, which {@{additionally allows branching time and [quantifiers](quantifier%20(logic).md)}@}. LTL is sometimes called {@{_propositional temporal logic_, abbreviated _PTL_}@}.<sup>[\[3\]](#^ref-3)</sup> In terms of {@{[expressive power](expressive%20power%20(computer%20science).md)}@}, linear temporal logic \(LTL\) is {@{a fragment of [first-order logic](first-order%20logic.md)}@}.<sup>[\[4\]](#^ref-4)</sup><sup>[\[5\]](#^ref-5)</sup> <!--SR:!2025-02-12,52,323!2024-12-26,16,310!2024-12-27,17,323!2024-12-24,14,297!2024-12-27,17,323!2024-12-25,15,310!2024-12-24,14,297!2024-12-24,14,297!2024-12-27,17,323-->
+In [logic](logic.md), {@{__linear temporal logic__ or __linear-time temporal logic__<sup>[\[1\]](#^ref-1)</sup><sup>[\[2\]](#^ref-2)</sup> \(__LTL__\)}@} is {@{a [modal](modal%20logic.md) [temporal logic](temporal%20logic.md) with modalities referring to time}@}. In LTL, one can {@{encode [formulae](well-formed%20formula.md) about the future of [paths](path%20(graph%20theory).md)}@}, e.g., {@{a condition will eventually be true, a condition will be true until another fact becomes true}@}, etc. It is a fragment of {@{the more complex [CTL\*](CTL*.md)}@}, which {@{additionally allows branching time and [quantifiers](quantifier%20(logic).md)}@}. LTL is sometimes called {@{_propositional temporal logic_, abbreviated _PTL_}@}.<sup>[\[3\]](#^ref-3)</sup> In terms of {@{[expressive power](expressive%20power%20(computer%20science).md)}@}, linear temporal logic \(LTL\) is {@{a fragment of [first-order logic](first-order%20logic.md)}@}.<sup>[\[4\]](#^ref-4)</sup><sup>[\[5\]](#^ref-5)</sup> <!--SR:!2025-02-12,52,323!2024-12-26,16,310!2024-12-27,17,323!2025-02-02,40,297!2024-12-27,17,323!2024-12-25,15,310!2025-02-20,58,317!2025-02-22,60,317!2024-12-27,17,323-->
 
-LTL was first {@{proposed for the [formal verification](formal%20verification.md) of computer programs}@} by {@{[Amir Pnueli](Amir%20Pnueli.md) in 1977}@}.<sup>[\[6\]](#^ref-6)</sup> <!--SR:!2024-12-26,16,323!2024-12-23,13,303-->
+LTL was first {@{proposed for the [formal verification](formal%20verification.md) of computer programs}@} by {@{[Amir Pnueli](Amir%20Pnueli.md) in 1977}@}.<sup>[\[6\]](#^ref-6)</sup> <!--SR:!2024-12-26,16,323!2025-01-31,38,303-->
 
 ## syntax
 
@@ -28,7 +28,7 @@ __X__ is read as {@{ne<!-- markdown separator -->__x__<!-- markdown separator --
 - __F__ ::@:: for __f__<!-- markdown separator -->inally <!--SR:!2024-12-27,17,323!2024-12-27,17,323-->
 - __R__ ::@:: for __r__<!-- markdown separator -->elease <!--SR:!2024-12-27,17,323!2024-12-28,18,323-->
 - __W__ ::@:: for __w__<!-- markdown separator -->eak until <!--SR:!2024-12-27,17,323!2024-12-28,18,323-->
-- __M__ ::@:: for __m__<!-- markdown separator -->ighty release <!--SR:!2025-02-01,42,310!2024-12-24,14,297-->
+- __M__ ::@:: for __m__<!-- markdown separator -->ighty release <!--SR:!2025-02-01,42,310!2025-02-22,60,317-->
 
 ## semantics
 
@@ -36,7 +36,7 @@ An LTL formula can be {@{_[satisfied](satisfiability.md)_ by an infinite sequenc
 
 - satisfaction of a propositional variable ::@:: _w_ ⊨ _p_ if _p_ ∈ _w_\(0\) <!--SR:!2024-12-26,16,323!2024-12-26,16,323-->
 - law of the excluded middle ::@:: _w_ ⊨ ¬ψ if _w_ ⊭ ψ <!--SR:!2024-12-26,16,310!2024-12-25,15,310-->
-- or ::@:: _w_ ⊨ φ ∨ ψ if _w_ ⊨ φ or _w_ ⊨ ψ <!--SR:!2024-12-26,16,323!2024-12-24,14,297-->
+- or ::@:: _w_ ⊨ φ ∨ ψ if _w_ ⊨ φ or _w_ ⊨ ψ <!--SR:!2024-12-26,16,323!2025-02-20,58,317-->
 - ne<!-- markdown separator -->__x__<!-- markdown separator -->t ::@:: _w_ ⊨ __X__ ψ if _w_<sup>1</sup> ⊨ ψ \(in the ne<!-- markdown separator -->__x__<!-- markdown separator -->t time step ψ must be true\) <!--SR:!2024-12-27,17,323!2024-12-28,18,323-->
 - __u__<!-- markdown separator -->ntil ::@:: _w_ ⊨ φ __U__ ψ if there exists _i_ ≥ 0 such that _w_<sup>_i_</sup> ⊨ ψ and for all 0 ≤ _k_ \< i, _w_<sup>_k_</sup> ⊨ φ \(φ must remain true __u__<!-- markdown separator -->ntil ψ becomes true\) <!--SR:!2024-12-27,17,310!2024-12-26,16,323-->
 
@@ -48,13 +48,13 @@ The additional logical operators are defined as follows:
 - implies ::@:: φ → ψ ≡ ¬φ ∨ ψ <!--SR:!2024-12-25,15,297!2024-12-25,15,310-->
 - material equivalence ::@:: φ ↔ ψ ≡ \(φ → ψ\) ∧ \( ψ → φ\) <!--SR:!2024-12-25,15,310!2024-12-27,17,323-->
 - true ::@:: __true__ ≡ _p_ ∨ ¬<!-- markdown separator -->_p_, where _p_ ∈ _AP_ <!--SR:!2024-12-27,17,323!2024-12-27,17,323-->
-- false ::@:: __false__ ≡ ¬<!-- markdown separator -->__true__ <!--SR:!2024-12-28,18,323!2024-12-24,14,297-->
+- false ::@:: __false__ ≡ ¬<!-- markdown separator -->__true__ <!--SR:!2024-12-28,18,323!2025-02-19,57,317-->
 
 The additional temporal operators {@{__R__, __F__, and __G__}@} are defined as follows: <!--SR:!2024-12-27,17,323-->
 
-- __r__<!-- markdown separator -->elease ::@:: ψ __R__ φ ≡ ¬\(¬ψ __U__ ¬φ\) \(φ remains true until and including once ψ becomes true. If ψ never becomes true, φ must remain true forever. ψ __r__<!-- markdown separator -->eleases φ.\) <!--SR:!2025-01-11,25,270!2024-12-24,14,297-->
-- __f__<!-- markdown separator -->inally ::@:: __F__ ψ ≡ __true__ __U__ ψ \(eventually ψ becomes true\) <!--SR:!2025-01-22,32,277!2024-12-24,14,297-->
-- __g__<!-- markdown separator -->lobally ::@:: __G__ ψ ≡ __false__ __R__ ψ ≡ ¬<!-- markdown separator -->__F__ ¬ψ \(ψ always remains true\) <!--SR:!2024-12-25,15,310!2024-12-24,14,297-->
+- __r__<!-- markdown separator -->elease ::@:: ψ __R__ φ ≡ ¬\(¬ψ __U__ ¬φ\) \(φ remains true until and including once ψ becomes true. If ψ never becomes true, φ must remain true forever. ψ __r__<!-- markdown separator -->eleases φ.\) <!--SR:!2025-01-11,25,270!2025-02-22,60,317-->
+- __f__<!-- markdown separator -->inally ::@:: __F__ ψ ≡ __true__ __U__ ψ \(eventually ψ becomes true\) <!--SR:!2025-01-22,32,277!2025-02-19,57,317-->
+- __g__<!-- markdown separator -->lobally ::@:: __G__ ψ ≡ __false__ __R__ ψ ≡ ¬<!-- markdown separator -->__F__ ¬ψ \(ψ always remains true\) <!--SR:!2024-12-25,15,310!2025-02-21,59,317-->
 
 ### weak until and strong release
 
@@ -62,9 +62,9 @@ Some authors also define {@{a _weak until_ binary operator, denoted __W__}@}, wi
 
 - __w__<!-- markdown separator -->eak until ::@:: _ψ_ __W__ _φ_ ≡ \(_ψ_ __U__ _φ_\) ∨ __G__ _ψ_ ≡ _ψ_ __U__ \(_φ_ ∨ __G__ _ψ_\) ≡ _φ_ __R__ \(_φ_ ∨ _ψ_\) <!--SR:!2025-01-24,34,303!2025-01-03,17,257-->
 - __u__<!-- markdown separator -->ntil ::@:: _ψ_ __U__ _φ_ ≡ __F__<!-- markdown separator -->_φ_ ∧ \(_ψ_ __W__ _φ_\) <!--SR:!2025-01-22,32,277!2025-01-24,34,303-->
-- __r__<!-- markdown separator -->elease ::@:: _ψ_ __R__ _φ_ ≡ _φ_ __W__ \(_φ_ ∧ _ψ_\) <!--SR:!2024-12-31,14,263!2024-12-23,13,303-->
+- __r__<!-- markdown separator -->elease ::@:: _ψ_ __R__ _φ_ ≡ _φ_ __W__ \(_φ_ ∧ _ψ_\) <!--SR:!2024-12-31,14,263!2025-01-31,38,303-->
 
-{@{The _strong release_ binary operator, denoted __M__}@}, is {@{the dual of weak until}@}. It is defined {@{similar to the until operator, so that the release condition has to hold at some point}@}. Therefore, {@{it is stronger than the release operator}@}. <!--SR:!2024-12-27,17,310!2024-12-27,17,323!2024-12-27,17,323!2024-12-24,14,297-->
+{@{The _strong release_ binary operator, denoted __M__}@}, is {@{the dual of weak until}@}. It is defined {@{similar to the until operator, so that the release condition has to hold at some point}@}. Therefore, {@{it is stronger than the release operator}@}. <!--SR:!2024-12-27,17,310!2024-12-27,17,323!2024-12-27,17,323!2025-02-02,40,297-->
 
 - strong release (__M__) ::@:: _ψ_ __M__ _φ_ ≡ ¬\(¬<!-- markdown separator -->_ψ_ __W__ ¬<!-- markdown separator -->_φ_\) ≡ \(_ψ_ __R__ _φ_\) ∧ __F__ _ψ_ ≡ _ψ_ __R__ \(_φ_ ∧ __F__ _ψ_\) ≡ _φ_ __U__ \(_ψ_ ∧ _φ_\) <!--SR:!2024-12-31,14,263!2024-12-31,14,263-->
 
@@ -80,7 +80,7 @@ Some authors also define {@{a _weak until_ binary operator, denoted __W__}@}, wi
 | {@{_ψ_ __U__ _φ_}@}                          | {@{$$\psi \;{\mathcal {U} }\,\varphi$$}@} | {@{__U__<!-- markdown separator -->ntil: _ψ_ has to hold _at least_ until _φ_ becomes true, which must hold at the current or a future position.}@}                                   | {@{![LTI until diagram](../../archives/Wikimedia%20Commons/Ltluntil.svg)}@}                                                                                                                         |
 | {@{_ψ_ __R__ _φ_}@}                          | {@{$$\psi \;{\mathcal {R} }\,\varphi$$}@} | {@{__R__<!-- markdown separator -->elease: _φ_ has to be true until and including the point where _ψ_ first becomes true; if _ψ_ never becomes true, _φ_ must remain true forever.}@} | {@{![LTI release diagram with release](../../archives/Wikimedia%20Commons/Ltlrelease-stop.svg) <p> ![LTI release diagram without release](../../archives/Wikimedia%20Commons/Ltlrelease-nostop.svg)}@} |
 | {@{_ψ_ __W__ _φ_}@}                          | {@{$$\psi \;{\mathcal {W} }\,\varphi$$}@} | {@{__W__<!-- markdown separator -->eak until: _ψ_ has to hold _at least_ until _φ_<!-- markdown separator -->; if _φ_ never becomes true, _ψ_ must remain true forever.}@}            | {@{![LTI weak until diagram with until](../../archives/Wikimedia%20Commons/Ltluntil.svg) <p> ![LTI weak until diagram without until](../../archives/Wikimedia%20Commons/Ltlweakuntil2.svg)}@}          |
-| {@{_ψ_ __M__ _φ_}@}                          | {@{$$\psi \;{\mathcal {M} }\,\varphi$$}@} | {@{Strong release: _φ_ has to be true until and including the point where _ψ_ first becomes true, which must hold at the current or a future position.}@}                             | {@{![LTI strong release diagram](../../archives/Wikimedia%20Commons/Ltlrelease-stop.svg)}@}                                                                                                         | <!--SR:!2024-12-27,17,323!2024-12-24,14,297!2024-12-25,15,290!2024-12-25,15,310!2024-12-25,15,310!2024-12-26,16,310!2024-12-25,15,310!2024-12-24,14,297!2024-12-28,18,323!2024-12-25,15,310!2024-12-25,15,310!2024-12-27,17,323!2024-12-27,17,323!2024-12-27,17,323!2024-12-27,17,323!2025-02-05,46,310!2024-12-27,17,323!2024-12-25,15,310!2024-12-27,17,323!2024-12-27,17,323!2024-12-25,15,310!2024-12-27,17,310!2024-12-24,14,297!2024-12-25,15,310!2024-12-27,17,323!2024-12-25,15,297!2024-12-27,17,323!2024-12-25,15,310-->
+| {@{_ψ_ __M__ _φ_}@}                          | {@{$$\psi \;{\mathcal {M} }\,\varphi$$}@} | {@{Strong release: _φ_ has to be true until and including the point where _ψ_ first becomes true, which must hold at the current or a future position.}@}                             | {@{![LTI strong release diagram](../../archives/Wikimedia%20Commons/Ltlrelease-stop.svg)}@}                                                                                                         | <!--SR:!2024-12-27,17,323!2025-02-20,58,317!2024-12-25,15,290!2024-12-25,15,310!2024-12-25,15,310!2024-12-26,16,310!2024-12-25,15,310!2025-02-22,60,317!2024-12-28,18,323!2024-12-25,15,310!2024-12-25,15,310!2024-12-27,17,323!2024-12-27,17,323!2024-12-27,17,323!2024-12-27,17,323!2025-02-05,46,310!2024-12-27,17,323!2024-12-25,15,310!2024-12-27,17,323!2024-12-27,17,323!2024-12-25,15,310!2024-12-27,17,310!2025-02-21,59,317!2024-12-25,15,310!2024-12-27,17,323!2024-12-25,15,297!2024-12-27,17,323!2024-12-25,15,310-->
 
 ## equivalences
 
@@ -102,9 +102,9 @@ Let φ, ψ, and ρ be LTL formulas. The following tables list {@{some of the use
 | ¬<!-- markdown separator -->__X__ φ ≡ __X__ ¬φ  | ¬<!-- markdown separator -->__F__ φ ≡ __G__ ¬φ        | ¬ \(φ __U__ ψ\) ≡ \(¬φ __R__ ¬ψ\)                     | ¬ \(φ __W__ ψ\) ≡ \(¬φ __M__ ¬ψ\)                     |
 |                                                 | ¬<!-- markdown separator -->__G__ φ ≡ __F__ ¬φ        | ¬ \(φ __R__ ψ\) ≡ \(¬φ __U__ ¬ψ\)                     | ¬ \(φ __M__ ψ\) ≡ \(¬φ __W__ ¬ψ\)                     |
 
-- _<!-- markdown separator -->__X__ is self-dual_ ::@:: ¬<!-- markdown separator -->__X__ φ ≡ __X__ ¬φ <!--SR:!2024-12-25,15,310!2024-12-24,14,297-->
+- _<!-- markdown separator -->__X__ is self-dual_ ::@:: ¬<!-- markdown separator -->__X__ φ ≡ __X__ ¬φ <!--SR:!2024-12-25,15,310!2025-02-21,59,317-->
 - _<!-- markdown separator -->__F__ and __G__ are dual_ ::@:: ¬<!-- markdown separator -->__F__ φ ≡ __G__ ¬φ <br/> ¬<!-- markdown separator -->__G__ φ ≡ __F__ ¬φ <!--SR:!2024-12-27,17,323!2024-12-25,15,310-->
-- _<!-- markdown separator -->__U__ and __R__ are dual_ ::@:: ¬ \(φ __U__ ψ\) ≡ \(¬φ __R__ ¬ψ\) <br/> ¬ \(φ __R__ ψ\) ≡ \(¬φ __U__ ¬ψ\) <!--SR:!2025-01-23,33,303!2024-12-24,14,290-->
+- _<!-- markdown separator -->__U__ and __R__ are dual_ ::@:: ¬ \(φ __U__ ψ\) ≡ \(¬φ __R__ ¬ψ\) <br/> ¬ \(φ __R__ ψ\) ≡ \(¬φ __U__ ¬ψ\) <!--SR:!2025-01-23,33,303!2025-02-20,58,310-->
 - _<!-- markdown separator -->__W__ and __M__ are dual_ ::@:: ¬ \(φ __W__ ψ\) ≡ \(¬φ __M__ ¬ψ\) <br/> ¬ \(φ __M__ ψ\) ≡ \(¬φ __W__ ¬ψ\) <!--SR:!2024-12-27,17,323!2024-12-27,17,310-->
 
 | Special temporal properties                                                          |                                                                                      |                                                                        |
@@ -120,11 +120,11 @@ Let φ, ψ, and ρ be LTL formulas. The following tables list {@{some of the use
 
 All the formulas of LTL can be {@{transformed into _negation normal form_}@}, where <!--SR:!2024-12-27,17,323-->
 
-- all negations ::@:: appear only in front of the atomic propositions, <!--SR:!2024-12-24,14,297!2024-12-26,16,310-->
-- only other logical operators ::@:: __true__, __false__, ∧, and ∨ can appear, and <!--SR:!2024-12-25,15,297!2024-12-24,14,290-->
+- all negations ::@:: appear only in front of the atomic propositions, <!--SR:!2025-02-20,58,317!2024-12-26,16,310-->
+- only other logical operators ::@:: __true__, __false__, ∧, and ∨ can appear, and <!--SR:!2024-12-25,15,297!2025-02-20,58,310-->
 - only the temporal operators ::@:: __X__, __U__, and __R__ can appear. <!--SR:!2024-12-27,17,323!2024-12-27,17,323-->
 
-{@{Using the above equivalences for negation propagation}@}, it is possible to {@{derive the normal form}@}. This normal form allows {@{__R__, __true__, __false__, and ∧ to appear in the formula, which are not fundamental operators of LTL}@}. Note that the transformation {@{to the negation normal form does not blow up the length of the formula}@}. This normal form is useful in {@{[translation from an LTL formula to a Büchi automaton](linear%20temporal%20logic%20to%20Büchi%20automaton.md)}@}. <!--SR:!2024-12-27,17,310!2024-12-24,14,297!2024-12-26,16,323!2024-12-25,15,310!2024-12-27,17,310-->
+{@{Using the above equivalences for negation propagation}@}, it is possible to {@{derive the normal form}@}. This normal form allows {@{__R__, __true__, __false__, and ∧ to appear in the formula, which are not fundamental operators of LTL}@}. Note that the transformation {@{to the negation normal form does not blow up the length of the formula}@}. This normal form is useful in {@{[translation from an LTL formula to a Büchi automaton](linear%20temporal%20logic%20to%20Büchi%20automaton.md)}@}. <!--SR:!2024-12-27,17,310!2025-02-21,59,317!2024-12-26,16,323!2024-12-25,15,310!2024-12-27,17,310-->
 
 ## relations with other logics
 
@@ -144,16 +144,16 @@ LTL can be shown to be {@{equivalent to the [monadic first-order logic of order]
 <!-- markdownlint-disable-next-line MD036 -->
 __automata-theoretic linear temporal logic model checking__
 
-LTL formulas are commonly used to {@{express constraints, specifications, or processes that a system should follow}@}. {@{The field of model checking}@} aims to {@{formally verify whether a system meets a given specification}@}. In the case of {@{automata-theoretic model checking}@}, {@{both the system of interest and a specification}@} are {@{expressed as separate [finite-state machines](finite-state%20machine.md), or automata}@}, and then {@{compared to evaluate whether the system is guaranteed to have the specified property}@}. In computer science, {@{this type of model checking}@} is often used to {@{verify that an algorithm is structured correctly}@}. <!--SR:!2024-12-25,15,310!2024-12-28,18,323!2024-12-24,14,297!2024-12-25,15,310!2024-12-27,17,323!2024-12-26,16,323!2024-12-27,17,323!2024-12-28,18,323!2024-12-24,14,297-->
+LTL formulas are commonly used to {@{express constraints, specifications, or processes that a system should follow}@}. {@{The field of model checking}@} aims to {@{formally verify whether a system meets a given specification}@}. In the case of {@{automata-theoretic model checking}@}, {@{both the system of interest and a specification}@} are {@{expressed as separate [finite-state machines](finite-state%20machine.md), or automata}@}, and then {@{compared to evaluate whether the system is guaranteed to have the specified property}@}. In computer science, {@{this type of model checking}@} is often used to {@{verify that an algorithm is structured correctly}@}. <!--SR:!2024-12-25,15,310!2024-12-28,18,323!2025-02-21,59,317!2024-12-25,15,310!2024-12-27,17,323!2024-12-26,16,323!2024-12-27,17,323!2024-12-28,18,323!2025-02-22,60,317-->
 
-To {@{check LTL specifications on infinite system runs}@}, a common technique is to {@{obtain a [Büchi automaton](Büchi%20automaton.md) that is equivalent to the model \(accepts an ω-word precisely if it is the model\)}@} and {@{another one that is equivalent to the negation of the property \(accepts an ω-word precisely it satisfies the negated property\)}@} \(cf. [linear temporal logic to Büchi automaton](linear%20temporal%20logic%20to%20Büchi%20automaton.md)\). In this case, if {@{there is an overlap in the set of ω-words accepted by the two automata}@}, it implies that {@{the model accepts some behaviors which violate the desired property}@}. If {@{there is no overlap, there are no property-violating behaviors which are accepted by the model}@}. Formally, {@{the intersection of the two non-deterministic Büchi automata is empty}@} {@{if and only if the model satisfies the specified property}@}.<sup>[\[12\]](#^ref-12)</sup> <!--SR:!2024-12-24,14,290!2024-12-26,16,323!2024-12-27,17,310!2024-12-25,15,310!2024-12-27,17,323!2024-12-24,14,297!2024-12-26,16,323!2024-12-27,17,323-->
+To {@{check LTL specifications on infinite system runs}@}, a common technique is to {@{obtain a [Büchi automaton](Büchi%20automaton.md) that is equivalent to the model \(accepts an ω-word precisely if it is the model\)}@} and {@{another one that is equivalent to the negation of the property \(accepts an ω-word precisely it satisfies the negated property\)}@} \(cf. [linear temporal logic to Büchi automaton](linear%20temporal%20logic%20to%20Büchi%20automaton.md)\). In this case, if {@{there is an overlap in the set of ω-words accepted by the two automata}@}, it implies that {@{the model accepts some behaviors which violate the desired property}@}. If {@{there is no overlap, there are no property-violating behaviors which are accepted by the model}@}. Formally, {@{the intersection of the two non-deterministic Büchi automata is empty}@} {@{if and only if the model satisfies the specified property}@}.<sup>[\[12\]](#^ref-12)</sup> <!--SR:!2025-02-19,57,310!2024-12-26,16,323!2024-12-27,17,310!2024-12-25,15,310!2024-12-27,17,323!2025-02-22,60,317!2024-12-26,16,323!2024-12-27,17,323-->
 
 <!-- markdownlint-disable-next-line MD036 -->
 __expressing important properties in formal verification__
 
-There are {@{two main types of properties that can be expressed using linear temporal logic}@}: {@{__[safety](safety%20and%20liveness%20properties.md)__ properties usually state that _something bad never happens_ \(__G__<!-- markdown separator -->¬<!-- markdown separator -->_ϕ_\)}@}, while {@{__[liveness](safety%20and%20liveness%20properties.md)__ properties state that _something good keeps happening_ \(__GF__<!-- markdown separator -->_ψ_ or __G__\(_ϕ_ →<!-- markdown separator -->__F__<!-- markdown separator -->_ψ_\)\)}@}.<sup>[\[13\]](#^ref-13)</sup> For example, a safety property may require that {@{an autonomous rover never drives over a cliff, or that a software product never allows a successful login with an incorrect password}@}. A liveness property may require that {@{the rover always continues to collect data samples, or that a software product repeatedly sends telemetry data}@}. <!--SR:!2024-12-28,18,323!2024-12-26,16,323!2024-12-27,17,323!2024-12-24,14,297!2024-12-26,16,323-->
+There are {@{two main types of properties that can be expressed using linear temporal logic}@}: {@{__[safety](safety%20and%20liveness%20properties.md)__ properties usually state that _something bad never happens_ \(__G__<!-- markdown separator -->¬<!-- markdown separator -->_ϕ_\)}@}, while {@{__[liveness](safety%20and%20liveness%20properties.md)__ properties state that _something good keeps happening_ \(__GF__<!-- markdown separator -->_ψ_ or __G__\(_ϕ_ →<!-- markdown separator -->__F__<!-- markdown separator -->_ψ_\)\)}@}.<sup>[\[13\]](#^ref-13)</sup> For example, a safety property may require that {@{an autonomous rover never drives over a cliff, or that a software product never allows a successful login with an incorrect password}@}. A liveness property may require that {@{the rover always continues to collect data samples, or that a software product repeatedly sends telemetry data}@}. <!--SR:!2024-12-28,18,323!2024-12-26,16,323!2024-12-27,17,323!2025-02-21,59,317!2024-12-26,16,323-->
 
-More generally, safety properties are {@{those for which every [counterexample](counterexample.md) has a finite prefix such that, however it is extended to an infinite path, it is still a counterexample}@}. For liveness properties, on the other hand, {@{every finite path (that may not satisfy the formula yet) can be extended to an infinite path that satisfies the formula}@}. <!--SR:!2024-12-27,17,323!2024-12-24,14,297-->
+More generally, safety properties are {@{those for which every [counterexample](counterexample.md) has a finite prefix such that, however it is extended to an infinite path, it is still a counterexample}@}. For liveness properties, on the other hand, {@{every finite path (that may not satisfy the formula yet) can be extended to an infinite path that satisfies the formula}@}. <!--SR:!2024-12-27,17,323!2025-02-21,59,317-->
 
 <!-- markdownlint-disable-next-line MD036 -->
 __specification language__
@@ -162,7 +162,7 @@ __specification language__
 
 ## extensions
 
-{@{Parametric linear temporal logic}@} extends LTL with {@{variables on the until-modality}@}.<sup>[\[14\]](#^ref-14)</sup> <!--SR:!2024-12-27,17,323!2024-12-24,14,297-->
+{@{Parametric linear temporal logic}@} extends LTL with {@{variables on the until-modality}@}.<sup>[\[14\]](#^ref-14)</sup> <!--SR:!2024-12-27,17,323!2025-02-22,60,317-->
 
 ## see also
 

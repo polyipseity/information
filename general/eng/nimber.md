@@ -77,7 +77,7 @@ Just as {@{in the case of nimber addition}@}, there is {@{a means of computing t
 
 > [!tip] tips
 >
-> - game theoretic interpretation ::@:: Unfortunately, there are no good game theoretic interpretations to _nim-multiplication_, unlike _nim-addition_ (which has the interpretation of combining two games). <p> Rather, it is best understood using abstract algebra. Nim-multiplication is an operation defined with respect to nim-addition in the same way as ordinary multiplication as an operation defined with respect to ordinary addition. <!--SR:!2024-12-16,4,297!2024-12-16,4,297-->
+> - game theoretic interpretation ::@:: Unfortunately, there are no good game theoretic interpretations to _nim-multiplication_, unlike _nim-addition_ (which has the interpretation of combining two games). <p> Rather, it is best understood using abstract algebra. Nim-multiplication is an operation defined with respect to nim-addition in the same way as ordinary multiplication as an operation defined with respect to ordinary addition. <!--SR:!2025-01-09,16,317!2025-01-08,15,317-->
 
 ## addition and multiplication tables
 

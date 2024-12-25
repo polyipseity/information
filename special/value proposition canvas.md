@@ -47,7 +47,7 @@ value: overwhelmed by true value creation vs. understand patterns of value creat
 - idea quality: involved in failed bold shiny projects vs. avoid wasting time in bad ideas→::@::←implementation: disappointed by failure of a good idea vs. design, test, and deliver what customers want <!--SR:!2025-05-07,247,289!2025-04-16,178,249-->
 - implementation: disappointed by failure of a good idea vs. design, test, and deliver what customers want→::@::←teamwork: frustrated by unproductive meetings and teams vs. leverage the team fully <!--SR:!2025-11-27,370,269!2025-03-16,220,289-->
 - teamwork: frustrated by unproductive meetings and teams vs. leverage the team fully→::@::←value: overwhelmed by true value creation vs. understand patterns of value creation <!--SR:!2025-02-17,183,249!2025-01-13,170,269-->
-- value: overwhelmed by true value creation vs. understand patterns of value creation→::@::←_(end)_ <!--SR:!2025-03-31,251,329!2024-12-24,169,289-->
+- value: overwhelmed by true value creation vs. understand patterns of value creation→::@::←_(end)_ <!--SR:!2025-03-31,251,329!2026-04-26,488,289-->
 
 <!--/pytextgen-->
 

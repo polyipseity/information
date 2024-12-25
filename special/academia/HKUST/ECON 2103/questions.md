@@ -28,7 +28,7 @@ tags:
 > 3. the value of your time, but not the price you pay for the ticket
 > 4. neither the price of the ticket nor the value of your time
 >
-> - solution: {@{1}@} <!--SR:!2024-12-24,68,310-->
+> - solution: {@{1}@} <!--SR:!2025-10-15,295,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -82,7 +82,7 @@ tags:
 
 > Q7. Think of possible (intended or unintended) consequences for each of the following problem-and-solution pair.
 >
-> - Domestic (local) steel producers are threatened by foreign competition (imports). Let's impose a _tariff_ (fee) on importing steel. ::@:: The price of foreign steel may increase relative to domestic steel. Domestic steel producers may benefit from it. However, the average price of (domestic and imported) steel may rise, so downstream industries may have increased production cost and may pass them to consumers. <!--SR:!2024-12-24,68,310!2024-12-24,68,310-->
+> - Domestic (local) steel producers are threatened by foreign competition (imports). Let's impose a _tariff_ (fee) on importing steel. ::@:: The price of foreign steel may increase relative to domestic steel. Domestic steel producers may benefit from it. However, the average price of (domestic and imported) steel may rise, so downstream industries may have increased production cost and may pass them to consumers. <!--SR:!2025-10-07,287,330!2025-10-09,289,330-->
 > - Rents are increasing. Let's freeze rents. (This is a form of rent control.) ::@:: In the short term, poor people may be less likely to be evicted for their inability to pay rent. However, landlords may reduce maintenance on rental units to adapt to decreased rents. They may, in the long term, also construct fewer rental units because they are less profitable. <!--SR:!2025-04-05,136,310!2024-12-28,72,310-->
 > - Medical costs are high. The government decides to offset everyone's medical costs, especially for poor people. ::@:: People, especially the poor, may be able to benefit from more healthcare. However, medical cost may increase further due to increased demand. Taxes may go up to subsidize this increased spending, so people have less income after taxes. <!--SR:!2025-06-18,183,310!2025-04-21,139,290-->
 > - Commercial fishing for tuna kills dolphins. Let's require domestic fisheries to use more expensive nets that lets dolphins escape. ::@:: It may protect the dolphins. However, the price of domestic tuna may increase relative to foreign tuna. This means domestic fisheries may be harmed (e.g. decrease in market share). Also, the average price of (domestic and imported) tuna may rise, so consumers may need to pay more. (The effects are similar to a _tariff_ (like above), but reversed, i.e. imposed on domestic producers instead.) <!--SR:!2025-07-05,196,310!2025-03-02,102,290-->
@@ -132,7 +132,7 @@ tags:
 > 4. all of the above
 >
 > - solution: {@{4}@}
-> - explanation: {@{When making an investment, one will consider its cost (1), its return (2), its risk (3), and its time needed (3). Time needed affects the _present value_ (PV) of return in the future. For example, high political instability will severely affect (3).}@} <!--SR:!2024-12-24,68,310!2025-07-06,197,310-->
+> - explanation: {@{When making an investment, one will consider its cost (1), its return (2), its risk (3), and its time needed (3). Time needed affects the _present value_ (PV) of return in the future. For example, high political instability will severely affect (3).}@} <!--SR:!2025-10-16,296,330!2025-07-06,197,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -144,7 +144,7 @@ tags:
 > 4. all of the above
 >
 > - solution: {@{4}@}
-> - explanation: {@{If the production–possibility frontiers (PPFs) for X and Y are both linear, then full specialization in one of the goods will always lead to the lowest marginal (or equal) opportunity cost for both A and B. Their total output will be the _largest_. <p> Note that if the PPFs are nonlinear, then full specialization may not always produce the _largest_ total output, and may or may not lead to a _larger_ total output.}@} <!--SR:!2024-12-24,68,310!2024-12-28,72,310-->
+> - explanation: {@{If the production–possibility frontiers (PPFs) for X and Y are both linear, then full specialization in one of the goods will always lead to the lowest marginal (or equal) opportunity cost for both A and B. Their total output will be the _largest_. <p> Note that if the PPFs are nonlinear, then full specialization may not always produce the _largest_ total output, and may or may not lead to a _larger_ total output.}@} <!--SR:!2025-10-08,288,330!2024-12-28,72,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -188,7 +188,7 @@ tags:
 > 4. none of the above
 >
 > - solution: {@{2}@}
-> - explanation: {@{Consider the marginal (opportunity) costs for Albert if he specializes in meat: $$16 / 24 = 2 / 3~\mathrm{potato/meat}$$. Also consider that if he specializes in potato: $$24 / 16 = 1.5~\mathrm{meat/potato}$$. If the marginal cost is lower than the marginal benefit, then Albert will exchange. In this case, if he specializes in meat, his marginal cost of meat is 2/3 potatoes per meat, which is lower than the marginal benefit of 1 potato per meat (market price) in the market. So he will specialize in meat and likes exchange.}@} <!--SR:!2025-04-20,138,290!2024-12-24,68,310-->
+> - explanation: {@{Consider the marginal (opportunity) costs for Albert if he specializes in meat: $$16 / 24 = 2 / 3~\mathrm{potato/meat}$$. Also consider that if he specializes in potato: $$24 / 16 = 1.5~\mathrm{meat/potato}$$. If the marginal cost is lower than the marginal benefit, then Albert will exchange. In this case, if he specializes in meat, his marginal cost of meat is 2/3 potatoes per meat, which is lower than the marginal benefit of 1 potato per meat (market price) in the market. So he will specialize in meat and likes exchange.}@} <!--SR:!2025-04-20,138,290!2025-07-23,211,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -200,7 +200,7 @@ tags:
 > 4. (300 airplanes, 25000 cars) and (200 airplanes, 40000 cars)
 >
 > - solution: {@{2}@}
-> - explanation: {@{Note that 100 cars is the marginal (opportunity) cost of an airplane. Thus, simply check if the change in airplane multiplied by -100 equals the change in cars.}@} <!--SR:!2024-12-24,68,310!2024-12-28,72,310-->
+> - explanation: {@{Note that 100 cars is the marginal (opportunity) cost of an airplane. Thus, simply check if the change in airplane multiplied by -100 equals the change in cars.}@} <!--SR:!2025-10-17,297,330!2024-12-28,72,310-->
 
 ### chapter 4 lecture
 

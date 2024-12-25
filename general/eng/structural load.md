@@ -105,7 +105,7 @@ return await memorize_seq(
 
 <!--pytextgen generate section="ab92"--><!-- The following content is generated at 2024-05-14T21:09:52.106487+08:00. Any edits will be overridden! -->
 
-- _(begin)_→::@::←[hydrostatic load](#hydrostatic%20load) <!--SR:!2024-12-24,164,310!2025-07-27,339,340-->
+- _(begin)_→::@::←[hydrostatic load](#hydrostatic%20load) <!--SR:!2026-05-23,515,310!2025-07-27,339,340-->
 - [hydrostatic load](#hydrostatic%20load)→::@::←[lateral load](#lateral%20load) <!--SR:!2025-07-13,278,288!2025-11-22,372,300-->
 - [lateral load](#lateral%20load)→::@::←[seismic load](#seismic%20load) <!--SR:!2025-05-27,247,288!2026-02-12,429,300-->
 - [seismic load](#seismic%20load)→::@::←[thermal load](#thermal%20load) <!--SR:!2025-08-01,257,260!2025-07-18,267,260-->
@@ -136,7 +136,7 @@ The consequences are {@{partial or complete collapse of structural elements or e
 
 #### thermal load
 
-Thermal load refers to load {@{caused by [temperature](temperature.md) changes leading to [thermal expansion](thermal%20expansion.md) (contraction) of structural and non-structural members}@}. <!--SR:!2024-12-24,156,308-->
+Thermal load refers to load {@{caused by [temperature](temperature.md) changes leading to [thermal expansion](thermal%20expansion.md) (contraction) of structural and non-structural members}@}. <!--SR:!2026-04-18,480,308-->
 
 For example, {@{a beam in between two fixed support creates thermal load under heating as the beam expands}@}. A solution would be {@{making the beam a simply supported beam instead, with one side a pinned support and the other side a roller support}@}. Then when thermal expansion occurs, {@{the beam can expand in the direction of the roller support, relieving the thermal load}@}. <!--SR:!2025-01-13,165,308!2025-03-13,213,310!2025-05-26,291,340-->
 

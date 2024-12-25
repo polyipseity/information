@@ -71,7 +71,7 @@ We can thus view Carmichael's theorem as {@{a sharpening of [Euler's theorem](Eu
 
 __Proof.__
 
-By definition, for {@{any integer $k$ with $\gcd(k,b)=1$ \(and thus also $\gcd(k,a)=1$\)}@}, we have that {@{$b\,|\,(k^{\lambda (b)}-1)$}@} , and therefore {@{$a\,|\,(k^{\lambda (b)}-1)$}@}. This establishes that {@{$k^{\lambda (b)}\equiv 1{\pmod {a} }$ for all _k_ relatively prime to _a_}@}. (annotation: This is {@{missing a step proving that the set of all integers $k$ satisfying $\gcd(k, b) = 1$ covers all equivalence classes modulo $a$ of integers co-prime to $a$}@}. To see this is the case, {@{assume $a, b \ge 1$ ($\lambda(n)$ is defined for positive integers $n$ only) and fix an arbitrary integer $1 \le r < a$ satisfying $\gcd(r, a) = 1$}@}. It is _not_ {@{necessary that $\gcd(r, b) = 1$, but we can prove (and construct) that there is some integer $m$ satisfying $\gcd(ma + r, b) = 1$}@}. Factorize {@{$b$ into its $n$ prime factors $p_1, \ldots, p_n$ ($p_i \ge 2$), ignoring their exponents}@}. It suffices {@{to check that none of the prime factors $p_i$ divide $ma + r$ for some integer $m$}@}. If {@{$p_i \mid a$, then $p_i \nmid (ma + r)$ for every $m$ since $p_i \nmid r$ by $\gcd(r, a) = 1$}@}. Otherwise, if {@{$p_i \nmid a$, then either $p_i \mid r$ or $p_i \nmid r$}@}. If {@{$p_i \mid r$, then $p_i \nmid (ma + r)$ for every $p_i \nmid m$. Otherwise, if $p_i \nmid r$, then $p_i \nmid (ma + r)$ for every $p_i \mid m$}@}. Then {@{$m = \prod_{\substack{i \in \set{1, \ldots, n} \\ p_i \nmid r } } p_i$ makes $\gcd(ma + r, b) = 1$}@}.) By {@{the consequence of minimality proved above}@}, we have {@{$\lambda (a)\,|\,\lambda (b)$}@}. <!--SR:!2024-12-26,4,281!2024-12-26,4,281!2024-12-26,4,281!2024-12-25,3,250!2024-12-26,4,270!2024-12-26,4,281!2024-12-16,4,292!2024-12-16,4,292!2024-12-16,4,292!2024-12-16,4,292!2024-12-16,4,292!2024-12-16,4,292!2024-12-16,4,292!2024-12-16,4,292!2024-12-16,4,292-->
+By definition, for {@{any integer $k$ with $\gcd(k,b)=1$ \(and thus also $\gcd(k,a)=1$\)}@}, we have that {@{$b\,|\,(k^{\lambda (b)}-1)$}@} , and therefore {@{$a\,|\,(k^{\lambda (b)}-1)$}@}. This establishes that {@{$k^{\lambda (b)}\equiv 1{\pmod {a} }$ for all _k_ relatively prime to _a_}@}. (annotation: This is {@{missing a step proving that the set of all integers $k$ satisfying $\gcd(k, b) = 1$ covers all equivalence classes modulo $a$ of integers co-prime to $a$}@}. To see this is the case, {@{assume $a, b \ge 1$ ($\lambda(n)$ is defined for positive integers $n$ only) and fix an arbitrary integer $1 \le r < a$ satisfying $\gcd(r, a) = 1$}@}. It is _not_ {@{necessary that $\gcd(r, b) = 1$, but we can prove (and construct) that there is some integer $m$ satisfying $\gcd(ma + r, b) = 1$}@}. Factorize {@{$b$ into its $n$ prime factors $p_1, \ldots, p_n$ ($p_i \ge 2$), ignoring their exponents}@}. It suffices {@{to check that none of the prime factors $p_i$ divide $ma + r$ for some integer $m$}@}. If {@{$p_i \mid a$, then $p_i \nmid (ma + r)$ for every $m$ since $p_i \nmid r$ by $\gcd(r, a) = 1$}@}. Otherwise, if {@{$p_i \nmid a$, then either $p_i \mid r$ or $p_i \nmid r$}@}. If {@{$p_i \mid r$, then $p_i \nmid (ma + r)$ for every $p_i \nmid m$. Otherwise, if $p_i \nmid r$, then $p_i \nmid (ma + r)$ for every $p_i \mid m$}@}. Then {@{$m = \prod_{\substack{i \in \set{1, \ldots, n} \\ p_i \nmid r } } p_i$ makes $\gcd(ma + r, b) = 1$}@}.) By {@{the consequence of minimality proved above}@}, we have {@{$\lambda (a)\,|\,\lambda (b)$}@}. <!--SR:!2024-12-26,4,281!2024-12-26,4,281!2024-12-26,4,281!2024-12-25,3,250!2024-12-26,4,270!2024-12-26,4,281!2025-01-09,16,312!2025-01-09,16,312!2025-01-08,15,312!2025-01-08,15,312!2025-01-09,16,312!2025-01-09,16,312!2025-01-04,11,292!2025-01-08,15,312!2025-01-08,15,312-->
 
 ### composition
 
@@ -128,15 +128,15 @@ indicates that 60.49% \(≈ 40000000\) of the integers 1 ≤ _n_ ≤ 67108863 ha
 
 ### prevailing interval
 
-For {@{all numbers _N_ and all but _o_\(_N_\)<sup>[\[8\]](#^ref-8)</sup> positive integers _n_ ≤ _N_ \(a "prevailing" majority\)}@}: {@{$$\lambda (n)={\frac {n}{(\ln n)^{\ln \ln \ln n+A+o(1)} } }$$}@} with {@{the constant<sup>[\[7\]](#^ref-7)</sup> $$A:=-1+\sum _{p\in \mathbb {P} }{\frac {\ln p}{(p-1)^{2} } }\approx 0.2269688$$}@} <!--SR:!2024-12-26,4,281!2024-12-23,1,230!2024-12-25,3,261-->
+For {@{all numbers _N_ and all but _o_\(_N_\)<sup>[\[8\]](#^ref-8)</sup> positive integers _n_ ≤ _N_ \(a "prevailing" majority\)}@}: {@{$$\lambda (n)={\frac {n}{(\ln n)^{\ln \ln \ln n+A+o(1)} } }$$}@} with {@{the constant<sup>[\[7\]](#^ref-7)</sup> $$A:=-1+\sum _{p\in \mathbb {P} }{\frac {\ln p}{(p-1)^{2} } }\approx 0.2269688$$}@} <!--SR:!2024-12-26,4,281!2024-12-25,1,210!2024-12-25,3,261-->
 
 ### lower bounds
 
-For {@{any sufficiently large number _N_ and for any Δ ≥ \(ln ln _N_\)<sup>3</sup>}@}, there are {@{at most $$N\exp \left(-0.69(\Delta \ln \Delta )^{\frac {1}{3} }\right)$$ positive integers _n_ ≤ _N_}@} such that {@{_λ_\(_n_\) ≤ _ne_<sup>−Δ</sup>}@}.<sup>[\[9\]](#^ref-9)</sup> <!--SR:!2024-12-23,1,230!2024-12-25,3,261!2024-12-25,3,261-->
+For {@{any sufficiently large number _N_ and for any Δ ≥ \(ln ln _N_\)<sup>3</sup>}@}, there are {@{at most $$N\exp \left(-0.69(\Delta \ln \Delta )^{\frac {1}{3} }\right)$$ positive integers _n_ ≤ _N_}@} such that {@{_λ_\(_n_\) ≤ _ne_<sup>−Δ</sup>}@}.<sup>[\[9\]](#^ref-9)</sup> <!--SR:!2024-12-25,1,210!2024-12-25,3,261!2024-12-25,3,261-->
 
 ### minimal order
 
-For {@{any sequence _n_<sub>1</sub> \< _n_<sub>2</sub> \< _n_<sub>3</sub> \< ⋯ of positive integers, any constant 0 \< _c_ \< ⁠1/ln 2⁠, and any sufficiently large _i_}@}:<sup>[\[10\]](#^ref-10)</sup><sup>[\[11\]](#^ref-11)</sup> {@{$$\lambda (n_{i})>\left(\ln n_{i}\right)^{c\ln \ln \ln n_{i} }.$$}@} <!--SR:!2024-12-25,3,261!2024-12-23,1,230-->
+For {@{any sequence _n_<sub>1</sub> \< _n_<sub>2</sub> \< _n_<sub>3</sub> \< ⋯ of positive integers, any constant 0 \< _c_ \< ⁠1/ln 2⁠, and any sufficiently large _i_}@}:<sup>[\[10\]](#^ref-10)</sup><sup>[\[11\]](#^ref-11)</sup> {@{$$\lambda (n_{i})>\left(\ln n_{i}\right)^{c\ln \ln \ln n_{i} }.$$}@} <!--SR:!2024-12-25,3,261!2024-12-26,2,230-->
 
 ### small values
 
@@ -144,7 +144,7 @@ For {@{a constant _c_ and any sufficiently large positive _A_, there exists an i
 
 ### image of the function
 
-The set of values of the Carmichael function has {@{counting function<sup>[\[12\]](#^ref-12)</sup> $${\frac {x}{(\ln x)^{\eta +o(1)} } },$$}@} where {@{$$\eta =1-{\frac {1+\ln \ln 2}{\ln 2} }\approx 0.08607$$}@} <!--SR:!2024-12-23,1,241!2024-12-23,1,230-->
+The set of values of the Carmichael function has {@{counting function<sup>[\[12\]](#^ref-12)</sup> $${\frac {x}{(\ln x)^{\eta +o(1)} } },$$}@} where {@{$$\eta =1-{\frac {1+\ln \ln 2}{\ln 2} }\approx 0.08607$$}@} <!--SR:!2024-12-26,2,241!2024-12-26,2,230-->
 
 ## use in cryptography
 

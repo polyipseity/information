@@ -172,7 +172,7 @@ risk reduction
 - design→::@::←newness <!--SR:!2025-04-26,228,257!2025-01-24,34,214-->
 - newness→::@::←performance <!--SR:!2024-12-31,168,277!2025-06-06,253,257-->
 - performance→::@::←performing the job well <!--SR:!2026-04-08,532,317!2025-08-20,351,294-->
-- performing the job well→::@::←price <!--SR:!2025-12-09,415,294!2024-12-24,166,274-->
+- performing the job well→::@::←price <!--SR:!2025-12-09,415,294!2026-03-24,455,274-->
 - price→::@::←risk reduction <!--SR:!2025-02-24,204,274!2025-03-28,228,274-->
 - risk reduction→::@::←_(end)_ <!--SR:!2025-10-02,364,297!2025-11-24,358,257-->
 

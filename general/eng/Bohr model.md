@@ -16,7 +16,7 @@ tags:
 
 The __Bohr model__ or __{@{Rutherford–Bohr}@} model__ is {@{an [atom](atom.md) model}@} where {@{a small, dense [nucleus](nucleus.md) is orbited by [electrons](electron.md)}@}. They are attracted by {@{electrostatic forces}@}. It was presented by {@{[Niels Bohr](Niels%20Bohr.md)}@} and {@{[Ernest Rutherford](Ernest%20Rutherford.md)}@} in {@{1913}@}. <!--SR:!2026-12-03,998,290!2026-06-04,964,330!2026-01-27,565,190!2025-01-27,570,310!2025-01-21,424,232!2026-02-12,826,332!2025-12-18,600,212-->
 
-The model gives almost exact results only when {@{two charged points orbit each other much slower than light}@}, like {@{an atom where one electron is far away from everything else}@}. <!--SR:!2024-12-24,417,290!2025-01-12,445,272-->
+The model gives almost exact results only when {@{two charged points orbit each other much slower than light}@}, like {@{an atom where one electron is far away from everything else}@}. <!--SR:!2028-04-16,1209,290!2025-01-12,445,272-->
 
 ## postulates
 
@@ -48,7 +48,7 @@ The combination of natural constants in the energy formula is the {@{Rydberg ene
 
 The energy of a photon emitted by a hydrogen atom is:
 {@{$$E=E_i-E_f=R_\mathrm{E}\left(\frac1{n_f^2}-\frac1{n_i^2}\right)$$}@}, where {@{$n_f$ is the final energy level and $n_i$ is the initial energy level}@}. Since the energy of a photon is $E=\frac{hc}\lambda$, by {@{making inverse of the wavelength $\frac1\lambda$ the subject}@}, the resulting constant is the {@{[Rydberg constant](Rydberg%20constant.md) $R_\infty$}@}:
-{@{$$\frac1\lambda=R_\infty\left(\frac1{n_f^2}-\frac1{n_i^2}\right)$$}@} The constant is {@{$R_\infty=\frac{R_\mathrm{E} }{hc}=10\,973\,731.568\,157(12)~\mathrm{m}^{-1}$}@}. <!--SR:!2028-04-21,1338,302!2025-10-09,763,322!2026-01-26,836,322!2025-05-02,580,302!2029-01-09,1489,302!2024-12-24,28,130-->
+{@{$$\frac1\lambda=R_\infty\left(\frac1{n_f^2}-\frac1{n_i^2}\right)$$}@} The constant is {@{$R_\infty=\frac{R_\mathrm{E} }{hc}=10\,973\,731.568\,157(12)~\mathrm{m}^{-1}$}@}. <!--SR:!2028-04-21,1338,302!2025-10-09,763,322!2026-01-26,836,322!2025-05-02,580,302!2029-01-09,1489,302!2025-01-08,15,130-->
 
 ## limitations
 

@@ -19,7 +19,7 @@ The content is in teaching order.
   - engineer, according to Wikipedia
     - engineer jobs ::@:: analyze, _build_, _design_, invent, repair, test <!--SR:!2027-02-11,786,360!2025-07-08,334,378-->
     - engineer goals ::@:: fulfill functional objectives and requirements <!--SR:!2025-05-14,291,360!2025-02-21,225,360-->
-    - engineer limitations ::@:: limited by cost, practicality, regulation, and safety <!--SR:!2024-12-24,195,350!2025-10-08,405,377-->
+    - engineer limitations ::@:: limited by cost, practicality, regulation, and safety <!--SR:!2027-07-20,938,370!2025-10-08,405,377-->
     - engineer methods ::@:: ingenuity, mathematics, scientific method and outlook <!--SR:!2026-03-11,503,337!2025-10-01,424,385-->
   - engineer, according to the World Federation of Engineering Organizations (WFEO)
     - engineer inspirations ::@:: art of using creativity, science and technology, traditional experience <!--SR:!2026-07-15,628,355!2025-02-25,250,330-->
@@ -28,7 +28,7 @@ The content is in teaching order.
   - differences between engineers and scientists ::@:: Scientists understand nature and make predictions, while engineers use scientific data and knowledge to design cities and protect us from nature. <!--SR:!2025-08-09,384,299!2026-08-28,633,330-->
 - civil engineering ::@:: construction, design, maintenance, and planning of the built environment, including buildings and infrastructure <!--SR:!2025-09-25,337,300!2025-06-01,315,380-->
   - "civil" meaning ::@:: "Civil" distinguishes non-military from military purposes. <!--SR:!2025-05-09,327,350!2025-09-22,417,397-->
-  - civil engineer characteristics ::@:: problem solvers <!--SR:!2025-11-14,410,335!2024-12-24,182,352-->
+  - civil engineer characteristics ::@:: problem solvers <!--SR:!2025-11-14,410,335!2027-05-22,879,372-->
   - civil engineering characteristics ::@:: Oldest engineering discipline. Takes place on all levels, from municipal to nationals in the public sector, from homeowners to international companies in the private sector. <!--SR:!2025-01-14,171,301!2025-05-20,310,380-->
   - built environment ::@:: man-made using materials and natural resources, benefiting mankind, with environment protection and prudent urban planning <!--SR:!2025-04-23,252,312!2024-12-30,218,330-->
     - built environment example ::@:: Hoover Dam, a hydroelectric and reservoir project constructed on the Colorado River from 1931 to 1936, affects Las Vegas, United States significantly to the present. <!--SR:!2024-12-30,162,297!2025-03-15,237,345-->
@@ -199,7 +199,7 @@ water and sewage treatment system
 - power plant→::@::←reservoir <!--SR:!2025-01-10,164,275!2025-03-20,147,300-->
 - reservoir→::@::←sewage treatment <!--SR:!2025-01-24,122,197!2025-03-13,189,261-->
 - sewage treatment→::@::←transport <!--SR:!2025-03-17,128,210!2026-03-21,463,301-->
-- transport→::@::←water and sewage treatment system <!--SR:!2026-02-13,465,340!2024-12-24,34,130-->
+- transport→::@::←water and sewage treatment system <!--SR:!2026-02-13,465,340!2025-03-01,67,150-->
 - water and sewage treatment system→::@::←_(end)_ <!--SR:!2025-12-24,482,401!2025-04-10,252,361-->
 
 <!--/pytextgen-->
@@ -359,7 +359,7 @@ transportation
 - _(begin)_→::@::←construction <!--SR:!2025-01-13,207,355!2027-02-18,827,395-->
 - construction→::@::←environmental <!--SR:!2025-07-26,325,340!2025-12-22,480,400-->
 - environmental→::@::←geo-technical <!--SR:!2025-11-28,416,327!2025-01-07,205,345-->
-- geo-technical→::@::←hydraulic <!--SR:!2026-04-13,508,340!2024-12-23,112,340-->
+- geo-technical→::@::←hydraulic <!--SR:!2026-04-13,508,340!2026-05-27,519,360-->
 - hydraulic→::@::←material <!--SR:!2026-04-12,556,360!2026-02-13,471,340-->
 - material→::@::←structural <!--SR:!2025-02-07,130,297!2025-01-26,167,260-->
 - structural→::@::←transportation <!--SR:!2027-03-02,800,360!2026-11-27,724,347-->
@@ -595,7 +595,7 @@ nuclear
 - architectural→::@::←biomedical <!--SR:!2026-09-02,667,357!2026-11-06,711,360-->
 - biomedical→::@::←ceramic <!--SR:!2026-01-05,426,320!2026-03-07,528,357-->
 - ceramic→::@::←chemical <!--SR:!2026-10-29,681,340!2025-10-27,398,335-->
-- chemical→::@::←civil <!--SR:!2026-01-19,455,337!2024-12-24,194,357-->
+- chemical→::@::←civil <!--SR:!2026-01-19,455,337!2027-08-02,951,377-->
 - civil→::@::←computer <!--SR:!2026-06-14,576,354!2027-06-17,912,372-->
 - computer→::@::←electrical <!--SR:!2026-08-12,643,347!2025-01-18,142,315-->
 - electrical→::@::←industrial <!--SR:!2025-01-30,122,301!2025-04-27,178,250-->
@@ -637,7 +637,7 @@ water
 - _(begin)_→::@::←air <!--SR:!2025-01-07,182,341!2025-12-28,486,401-->
 - air→::@::←environmental impact assessment (EIA) <!--SR:!2026-05-27,535,318!2025-09-08,364,338-->
 - environmental impact assessment (EIA)→::@::←noise <!--SR:!2025-08-23,349,327!2026-01-08,497,400-->
-- noise→::@::←waste <!--SR:!2026-02-04,446,360!2024-12-23,190,355-->
+- noise→::@::←waste <!--SR:!2026-02-04,446,360!2027-07-08,926,375-->
 - waste→::@::←water <!--SR:!2025-01-20,202,357!2025-03-30,251,360-->
 - water→::@::←_(end)_ <!--SR:!2025-11-18,455,400!2025-07-31,343,380-->
 
@@ -811,7 +811,7 @@ water distribution network
 - _(begin)_→::@::←sewage collection network <!--SR:!2025-05-20,182,321!2025-04-21,252,317-->
 - sewage collection network→::@::←storm water management <!--SR:!2025-09-09,318,267!2025-09-27,374,341-->
 - storm water management→::@::←water collection network <!--SR:!2025-09-05,372,340!2025-08-07,322,320-->
-- water collection network→::@::←water distribution network <!--SR:!2026-01-24,512,400!2024-12-24,181,352-->
+- water collection network→::@::←water distribution network <!--SR:!2026-01-24,512,400!2026-09-27,642,352-->
 - water distribution network→::@::←_(end)_ <!--SR:!2025-01-05,204,367!2026-02-13,440,321-->
 
 <!--/pytextgen-->
@@ -1017,7 +1017,7 @@ Taipei 101
 
 - _(begin)_→::@::←HSBC Main Building <!--SR:!2025-10-31,379,317!2025-04-01,312,330-->
 - HSBC Main Building→::@::←International Commerce Centre <!--SR:!2025-02-17,111,277!2025-05-06,208,334-->
-- International Commerce Centre→::@::←John Hancock Center <!--SR:!2025-10-04,361,320!2024-12-24,105,297-->
+- International Commerce Centre→::@::←John Hancock Center <!--SR:!2025-10-04,361,320!2025-11-06,317,297-->
 - John Hancock Center→::@::←Taipei 101 <!--SR:!2026-02-18,473,341!2025-10-16,373,312-->
 - Taipei 101→::@::←_(end)_ <!--SR:!2025-04-10,280,367!2025-03-18,141,301-->
 

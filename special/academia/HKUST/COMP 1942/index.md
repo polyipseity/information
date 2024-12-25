@@ -37,7 +37,7 @@ The content is in teaching order.
 
 - datetime: 2024-02-05T09:00:00+08:00/2024-02-05T10:30:00+08:00
 - [association rule learning § support](../../../../general/association%20rule%20learning.md#support)
-- support definition ::@:: We use "the number of transactions containing $X$" definition here. <!--SR:!2025-01-08,256,330!2024-12-23,244,330-->
+- support definition ::@:: We use "the number of transactions containing $X$" definition here. <!--SR:!2025-01-08,256,330!2027-03-08,804,330-->
 - [association rule learning § confidence](../../../../general/association%20rule%20learning.md#confidence)
 - [association rule learning § lift](../../../../general/association%20rule%20learning.md#lift)
 - [association rule learning § naive algorithms](../../../../general/association%20rule%20learning.md#naive%20algorithms)

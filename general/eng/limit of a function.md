@@ -77,7 +77,7 @@ The __algebraic limit theorem__ states that {@{for [real](real%20number.md) or [
 >
 > Also valid for one-sided limits and limits at infinity.
 >
-> - condition ::@:: $x$ is [real](real%20number.md) or [complex](complex%20number). Limits on the right side of the equations exist or are in [determinate form](#determinate%20forms). <!--SR:!2024-12-23,291,330!2025-02-17,263,344-->
+> - condition ::@:: $x$ is [real](real%20number.md) or [complex](complex%20number). Limits on the right side of the equations exist or are in [determinate form](#determinate%20forms). <!--SR:!2027-08-17,966,330!2025-02-17,263,344-->
 > - addition ::@:: $\lim_{x \to p} (f(x) + g(x)) = \lim_{x \to p} f(x) + \lim_{x \to p} g(x)$ <!--SR:!2027-12-29,1151,350!2025-01-06,232,344-->
 > - subtraction ::@:: $\lim_{x \to p} (f(x) - g(x)) = \lim_{x \to p} f(x) - \lim_{x \to p} g(x)$ <!--SR:!2027-07-02,1009,350!2025-05-23,344,364-->
 > - multiplication ::@:: $\lim_{x \to p} (f(x) \cdot g(x)) = \lim_{x \to p} f(x) \cdot \lim_{x \to p} g(x)$ <!--SR:!2027-09-20,1068,350!2026-10-10,723,344-->

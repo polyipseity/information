@@ -100,7 +100,7 @@ return await memorize_seq(
 - _(begin)_→::@::←(Cap. 311) Air Pollution Control Ordinance <!--SR:!2024-12-31,104,255!2025-11-13,409,375-->
 - (Cap. 311) Air Pollution Control Ordinance→::@::←(Cap. 354) Waste Disposal Ordinance <!--SR:!2025-07-08,229,275!2025-01-27,111,275-->
 - (Cap. 354) Waste Disposal Ordinance→::@::←(Cap. 358) Water Pollution Control Ordinance <!--SR:!2024-12-29,82,275!2025-04-03,165,315-->
-- (Cap. 358) Water Pollution Control Ordinance→::@::←(Cap. 400) Noise Pollution Control Ordinance <!--SR:!2025-03-13,133,255!2024-12-24,11,175-->
+- (Cap. 358) Water Pollution Control Ordinance→::@::←(Cap. 400) Noise Pollution Control Ordinance <!--SR:!2025-03-13,133,255!2025-01-13,20,175-->
 - (Cap. 400) Noise Pollution Control Ordinance→::@::←(Cap. 499) Environmental Impact Ordinance <!--SR:!2025-02-06,149,295!2025-05-16,188,295-->
 - (Cap. 499) Environmental Impact Ordinance→::@::←_(end)_ <!--SR:!2025-11-29,423,375!2025-08-30,326,355-->
 
@@ -301,7 +301,7 @@ Noise Levels and Causes
   - train passing ::@:: 80 dB(A) <!--SR:!2025-02-28,200,310!2025-02-05,184,310-->
   - highway (harm threshold) ::@:: 70 dB(A) <!--SR:!2025-02-16,192,310!2025-12-20,382,290-->
   - home with TV on ::@:: 60 dB(A) <!--SR:!2025-01-21,184,310!2025-01-05,168,310-->
-  - library ::@:: 40 dB(A) <!--SR:!2025-02-26,198,310!2024-12-23,148,310-->
+  - library ::@:: 40 dB(A) <!--SR:!2025-02-26,198,310!2026-03-31,462,310-->
   - park ::@:: 30 dB(A) <!--SR:!2025-04-23,258,330!2025-02-25,212,330-->
 
 ## page 25
@@ -443,7 +443,7 @@ Relationship between PPM and mg/L
 Concentration Units for Gases
 
 - concentration units for gases ::@:: mass of substance per unit volume of mixture, volume of substance per unit volume of mixture <!--SR:!2025-12-25,383,290!2025-03-07,203,310-->
-  - volume of substance per unit volume of mixture for gases ::@:: ppm by volume (ppm<sub>v</sub>) <!--SR:!2025-04-27,258,330!2024-12-24,147,290-->
+  - volume of substance per unit volume of mixture for gases ::@:: ppm by volume (ppm<sub>v</sub>) <!--SR:!2025-04-27,258,330!2026-08-08,592,310-->
   - mass of substance per unit volume of mixture for gases ::@:: µg/m<sup>3</sup>, mg/m<sup>3</sup> <!--SR:!2025-02-17,193,310!2025-03-06,221,330-->
 
 ## page 37

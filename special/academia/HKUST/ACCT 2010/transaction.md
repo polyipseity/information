@@ -93,11 +93,11 @@ tags:
 > | --------------------------------------- |:------------:|:-----------:|
 > | {@{Interest expense (+E, −SE)}@}        | {@{4145}@}   |             |
 > | {@{Bond premium (−L)}@}                 | {@{855}@}    |             |
-> | &nbsp;&nbsp;&nbsp;&nbsp;{@{Cash (−A)}@} |              | {@{5000}@}  | <!--SR:!2024-12-23,10,280!2024-12-30,17,300!2024-12-30,17,300!2024-12-30,17,300!2024-12-30,17,300!2025-01-27,37,290!2024-12-30,17,300!2024-12-30,17,300!2025-01-03,17,319-->
+> | &nbsp;&nbsp;&nbsp;&nbsp;{@{Cash (−A)}@} |              | {@{5000}@}  | <!--SR:!2025-01-20,27,280!2024-12-30,17,300!2024-12-30,17,300!2024-12-30,17,300!2024-12-30,17,300!2025-01-27,37,290!2024-12-30,17,300!2024-12-30,17,300!2025-01-03,17,319-->
 
 ## format
 
-- format ::@:: (optional) description <br/> (optional) date <br/> account captions <br/> corresponding amounts <br/> (optional) relevant changes to _normal balances_ <!--SR:!2024-12-23,10,280!2024-12-23,10,280-->
+- format ::@:: (optional) description <br/> (optional) date <br/> account captions <br/> corresponding amounts <br/> (optional) relevant changes to _normal balances_ <!--SR:!2025-01-20,27,280!2025-01-31,38,300-->
   - description ::@:: Optional. Simply describe the transaction. Usually use past tense. <!--SR:!2024-12-30,17,300!2024-12-30,17,300-->
   - date ::@:: Optional. The date of transaction. Examples: `January 1, 2024`, `December 31, 2024`. <!--SR:!2024-12-30,17,300!2024-12-30,17,300-->
   - account captions ::@:: Debits first, then credits. Optionally, indent the credited accounts. (This is the usual convention.) <!--SR:!2024-12-30,17,300!2024-12-30,17,300-->

@@ -77,7 +77,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 5. 3/2 sidereal days
 >
 > - solution: {@{2}@}
-> - explanation: {@{The planet is in prograde motion. Hence, the number of solar days per orbital period is $6 - 1 = 5\text{ solar days}$. Thus each solar day is $\frac {1 / 5} {1 / 6} = \frac 6 5\text{ sidereal days}$.}@} <!--SR:!2024-12-23,128,297!2024-12-25,130,297-->
+> - explanation: {@{The planet is in prograde motion. Hence, the number of solar days per orbital period is $6 - 1 = 5\text{ solar days}$. Thus each solar day is $\frac {1 / 5} {1 / 6} = \frac 6 5\text{ sidereal days}$.}@} <!--SR:!2026-01-08,380,297!2024-12-25,130,297-->
 
 <!-- markdownlint MD028 -->
 
