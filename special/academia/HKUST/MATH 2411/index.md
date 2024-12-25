@@ -763,3 +763,25 @@ The content is in teaching order.
 > - Necessary statistical tables of the quantiles will be provided. Use the most appropriate values from the table and indicate in your answer which values you have used.
 
 ## aftermath
+
+### total
+
+- grades: 100/100
+  - statistics: L1
+    - mean: 61.53
+    - standard deviation: ?
+    - low: 8.33
+    - lower quartile: 43.73
+    - median: 63.93
+    - upper quartile: 80.36
+    - high: 100
+    - distribution: ?
+  - statistics: L2
+    - mean: 67.41
+    - standard deviation: ?
+    - low: 22.28
+    - lower quartile: 53.33
+    - median: 70.39
+    - upper quartile: 84.59
+    - high: 99.35
+    - distribution: ?
