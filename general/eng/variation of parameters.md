@@ -56,46 +56,46 @@ Consider {@{a [linear ordinary differential equation](linear%20differential%20eq
 
 We now construct the solution [physically](physics.md). Consider {@{an infinitesimal [time](time.md) slice $\mathrm{d}t_0$ centered on time $t_0$}@}. We can interpret the system above {@{during the time slice $\mathrm{d}t_0$ as a system satisfying the homogeneous equation, distributed by an [impulse](impulse%20(physics).md) (change in [momentum](momentum.md)) of $mF(x) \,\mathrm{d}t_0$}@}.
 
-Mathematically, this can be written as {@{an [initial value problem](initial%20value%20problem.md), in which the system satisfies the homogeneous equation at all times, constrained by initial values at $t_0$: $$\begin{aligned} x_0''(t) + 2x_0'(t) + x_0(t) & = 0 \\ x_0'(t_0) & = F(t_0) \,\mathrm{d}t_0 \\ x_0(t_0) & = 0 \end{aligned}$$}@}. To derive the above initial value problem, first {@{ignore the [force](force.md) disturbance and [translate](translation%20(geometry).md) $x(t)$ to a new [function](function%20(mathematics).md) $x_0(t)$ such that $x_0(t_0) = x'_0(t_0) = 0$: $$\begin{aligned} x_0'(t) & = x'(t) - (x'(t_0)) \\ x_0(t) & = x(t) - tx'(t_0) - (x(t_0) - t_0x'(t_0)) \\ \\ x_0'(t_0) & = x'(t_0) - x'(t_0) = 0 \\ x_0(t_0) & = x(t_0) - t_0x'(t_0) - (x(t_0) - t_0x'(t_0)) = 0 \end{aligned}$$. This can be physically seen as changing the [frame of reference](frame%20of%20reference.md) so that the initial values at $t_0$ are all 0}@}. Then, {@{it is obvious that the initial values are all 0, except for $x_0'(t_0) = \frac{mF(x)}m \,\mathrm{d}t_0 = F(x) \,\mathrm{d}t_0$ by reconsidering the force disturbance}@}. The solution to the above initial value problem {@{can be solved like a homogeneous equation and is $$x_0(t) = (t - t_0) e^{t_0 - t} F(t_0) \,\mathrm{d}t_0$$}@}.
+Mathematically, this can be written as {@{an [initial value problem](initial%20value%20problem.md), in which the system satisfies the homogeneous equation at all times, constrained by initial values at $t_0$: $$\begin{aligned} x_{t_0}''(t) + 2x_{t_0}'(t) + x_{t_0}(t) & = 0 \\ x_{t_0}'(t_0) & = F(t_0) \,\mathrm{d}t_0 \\ x_{t_0}(t_0) & = 0 \end{aligned}$$}@}. To derive the above initial value problem, first {@{ignore the [force](force.md) disturbance and [translate](translation%20(geometry).md) $x(t)$ to a new [function](function%20(mathematics).md) $x_{t_0}(t)$ such that $x_{t_0}(t_0) = x'_{t_0}(t_0) = 0$: $$\begin{aligned} x_{t_0}'(t) & := x'(t) - (x'(t_0)) \\ x_{t_0}(t) & := x(t) - tx'(t_0) - (x(t_0) - t_0x'(t_0)) \\ & \text{Validate using }t = t_0 \\ x_{t_0}'(t_0) & = x'(t_0) - (x'(t_0)) = 0 \\ x_{t_0}(t_0) & = x(t_0) - t_0x'(t_0) - (x(t_0) - t_0x'(t_0)) = 0 \end{aligned}$$. This can be physically seen as changing the [frame of reference](frame%20of%20reference.md) so that the initial values at $t_0$ are all 0}@}. Then, {@{it is obvious that the initial values are all 0, except for $x_{t_0}'(t_0) = \frac{mF(x)}m \,\mathrm{d}t_0 = F(x) \,\mathrm{d}t_0$ by reconsidering the force disturbance}@}. The solution to the above initial value problem {@{can be solved like a homogeneous equation and is $$x_{t_0}(t) = (t - t_0) e^{t_0 - t} F(t_0) \,\mathrm{d}t_0$$}@}.
 
 > [!info]- details
 >
 > $$\begin{aligned}
-> x_0''(t) + 2x_0'(t) + x_0(t) & = 0 \\
+> x_{t_0}''(t) + 2x_0'(t) + x_{t_0}(t) & = 0 \\
 > r^2 + 2r + 1 & = 0  \\
 > r & = -1 \,(\text{multiplicity 2}) \\
-> x_0(t) & = (c_1 + c_2 t) e^{-t} \\
-> x_0'(t) & = (-c_1 + c_2 - c_2 t) e^{-t} \\
+> x_{t_0}(t) & = (c_1 + c_2 t) e^{-t} \\
+> x_{t_0}'(t) & = (-c_1 + c_2 - c_2 t) e^{-t} \\
 > \\
-> x_0(t_0) & = 0 \\
+> x_{t_0}(t_0) & = 0 \\
 > (c_1 + c_2 t_0) e^{-t_0} & = 0 \\
 > c_1 & = -c_2 t_0 \\
 > \\
-> x_0'(t_0) & = F(t_0) \,\mathrm{d}t_0 \\
+> x_{t_0}'(t_0) & = F(t_0) \,\mathrm{d}t_0 \\
 > (-c_1 + c_2 - c_2 t_0) e^{-t_0} & = F(t_0) \,\mathrm{d}t_0 \\
 > c_2 e^{-t_0} & = F(t_0) \,\mathrm{d}t_0 \\
 > c_2 & = e^{t_0} F(t_0) \,\mathrm{d}t_0 \\
 > c_1 & = -t_0 e^{t_0} F(t_0) \,\mathrm{d}t_0 \\
 > \\
-> x_0(t) & = (t - t_0) e^{t_0 - t} F(t_0) \,\mathrm{d}t_0
+> x_{t_0}(t) & = (t - t_0) e^{t_0 - t} F(t_0) \,\mathrm{d}t_0
 > \end{aligned}$$
 
-Consider the physical meaning of $x_0(t)$. It {@{describes $x(t)$, [translated](translatio%20(geometry).md) such that $x(t_0) = 0$, during an infinitesimal time slice $\mathrm{d}t_0$. Then, $x_0(t_0 + \,\mathrm{d}t_0)$ is simply how much $x(t)$ has moved during that time slice $\mathrm{d}t_0$. Thus, summing $x_0(t)$ from $0$ to $t$ produces $x(t) - x(0)$}@}. Finally, the solution, {@{assuming $x(0) = 0$, is: $$\begin{aligned} x(t) & = \int_0^t\! (t - t_0) e^{t_0 - t} F(t_0) \,\mathrm{d}t_0 \\ & = e^{-t} \int_0^t\! (t - t_0) e^{t_0} F(t_0) \,\mathrm{d}t_0 \\ & = e^{-t} t \int_0^t\! e^{t_0} F(t_0) \,\mathrm{d}t_0 - e^{-t} \int_0^t\! t_0 e^{t_0} F(t_0) \,\mathrm{d}t_0 \end{aligned}$$}@}.
+Consider the physical meaning of $x_{t_0}(t)$. It describes {@{the effect of $F(t_0) \,\mathrm{d}t_0$ during an infinitesimal time slice $\mathrm{d}t_0$ on the homogeneous version of $x(t)$, [translated](translatio%20(geometry).md) such that $x(t_0) = 0$ (since $x_{t_0}(t_0) = 0$)}@}. Thus, $x_{t_0}(t)$ gives {@{the difference from the homogeneous version of $x(t)$ at time $t$ caused by $F(t_0) \,\mathrm{d}t_0$ during the time interval $[t_0, t]$ (if $t_0 > t$, its effect is run backwards from $t_0$ to $t$)}@}. Finally, by linearity, {@{summing $x_{t_0}(t) \,\mathrm{d}t_0$ from $t_0 = 0$ to $t_0 = t$ accounts for the effect of $F(t)$ during $[0, t]$ on the homogeneous version of $x(t)$}@}. Finally, the solution, {@{assuming $x(0) = 0$, is: $$\begin{aligned} x(t) & = \int_0^t\! (t - t_0) e^{t_0 - t} F(t_0) \,\mathrm{d}t_0 \\ & = e^{-t} \int_0^t\! (t - t_0) e^{t_0} F(t_0) \,\mathrm{d}t_0 \\ & = e^{-t} t \int_0^t\! e^{t_0} F(t_0) \,\mathrm{d}t_0 - e^{-t} \int_0^t\! t_0 e^{t_0} F(t_0) \,\mathrm{d}t_0 \end{aligned}$$}@}.
 
-To assure ourselves, we can {@{verify that the above solution satisfies the original inhomogeneous differential equation (using the second expression above to make the proof shorter)}@}:
+To assure ourselves, we can {@{verify that the above solution satisfies the original inhomogeneous differential equation}@} (using {@{the second expression above to make the proof shorter}@} and applying {@{the [Leibniz integral rule](Leibniz%20integral%20rule.md) several times}@}):
 
 $$\begin{aligned}
 x(t) & = e^{-t} \int_0^t\! (t - t_0) e^{t_0} F(t_0) \,\mathrm{d}t_0 \\
 x'(t) & = e^{-t} \int_0^t\! e^{t_0} F(t_0) \,\mathrm{d}t_0 - e^{-t} \int_0^t\! (t - t_0) e^{t_0} F(t_0) \,\mathrm{d}t_0 \\
 & = e^{-t} \int_0^t\! e^{t_0} F(t_0) \,\mathrm{d}t_0 - x(t) \\
-x''(t) & = F(t_0) - e^{-t} \int_0^t\! e^{t_0} F(t_0) \,\mathrm{d}t_0 - x'(t) \\
-& = F(t_0) - 2x'(t) - x(t) \\
-x''(t) + 2x'(t) + x(t) & = F(t_0)
+x''(t) & = F(t) - e^{-t} \int_0^t\! e^{t_0} F(t_0) \,\mathrm{d}t_0 - x'(t) \\
+& = F(t) - 2x'(t) - x(t) \\
+x''(t) + 2x'(t) + x(t) & = F(t)
 \end{aligned}$$
 
 Remember that we have assumed $x(0) = 0$ above, but {@{this condition can be removed by recognizing that the above $x(t)$ is a particular solution. Adding the complementary solution, i.e. the solution to the corresponding homogeneous equation, gets us the general solution that can accommodate any [initial values](inital%20value%20problem.md), which is: $$\begin{aligned} x(t) = c_1 e^{-t} + c_2 e^{-t} t + e^{-t} t \int_0^t\! e^{t_0} F(t_0) \,\mathrm{d}t_0 - e^{-t} \int_0^t\! t_0 e^{t_0} F(t_0) \,\mathrm{d}t_0 \end{aligned}$$}@}.
 
-This explanation can be generalized to {@{higher order inhomogeneous differential equations}@}. Consider {@{a $n$-th order inhomogeneous linear differential equation: $$Dx(t) = F(t)$$, where $D$ is a $n$-th order linear [differential operator](differential%20operator.md)}@}. Then, {@{convert the equation into a homogeneous [initial value problem](initial%20value%20problem.md): $$Dx(t) = 0, \quad x(t_0) = x'(t_0) = \cdots = x^{(n - 2)}(t_0) = 0, x^{(n - 1)}(t_0) = F(t_0) \,\mathrm{d}t_0$$. Find its solution, remove $\mathrm{d}t_0$, and denote said expression $x_{t_0}(t)$}@}. Finally, calculate {@{a particular solution of the inhomogeneous equation as follows: $$x(t) = \int_{c}^t\! x_{t_0}(t) \,\mathrm{d}t_0$$, where $c$ is an arbitrary [constant](constant%20(mathematics).md). You can set $c$ to something convenient for finding the arbitrary constants in the general solution from initial values}@}. {@{Add the complementary solution}@} to get the general solution.
+This explanation can be generalized to {@{higher order inhomogeneous differential equations}@}. Consider {@{a $n$-th order inhomogeneous linear differential equation: $$Dx(t) = F(t)$$, where $D$ is a $n$-th order linear [differential operator](differential%20operator.md)}@}. Then, {@{convert the equation into a homogeneous [initial value problem](initial%20value%20problem.md): $$Dx(t) = 0, \quad x(t_0) = x'(t_0) = \cdots = x^{(n - 2)}(t_0) = 0, x^{(n - 1)}(t_0) = F(t_0) \,\mathrm{d}t_0$$. Find its solution, remove $\mathrm{d}t_0$ (this is not done in the first example), and denote said expression $x_{t_0}(t)$}@}. Finally, calculate {@{a particular solution of the inhomogeneous equation as follows: $$x(t) = \int_{c}^t\! x_{t_0}(t) \,\mathrm{d}t_0$$, where $c$ is an arbitrary [constant](constant%20(mathematics).md). You can set $c$ to something convenient for finding the arbitrary constants in the general solution from initial values}@}. {@{Add the complementary solution}@} to get the general solution.
 
 The relation between this explanation and variation of parameters is that {@{setting $n - 1$ [initial values](initial%20value%20problem.md) to 0 corresponds to the $n - 1$ assumptions made by variation of parameters}@}.
 

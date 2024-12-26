@@ -245,7 +245,7 @@ The principle of mathematical induction is usually stated as {@{an [axiom](axiom
 
 - The [trichotomy](law%20of%20trichotomy.md) axiom ::@:: For any natural numbers _n_ and _m_, _n_ is less than or equal to _m_ if and only if _m_ is not less than _n_.
 - For any natural number _n_, _n_ + 1 is ::@:: greater than _n_.
-- For any natural number _n_, no natural number is ::@:: ::@:: between _n_ and _n_ + 1.
+- For any natural number _n_, no natural number is ::@:: between _n_ and _n_ + 1.
 - No natural number is ::@:: less than zero.
 
 It can then be proved that {@{induction, given the above-listed axioms, implies the well-ordering principle}@}. The following proof {@{uses complete induction and the first and fourth axioms}@}.

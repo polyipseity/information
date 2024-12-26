@@ -94,7 +94,7 @@ The key fact is that {@{a nonroot vertex _v_ is a cut vertex \(or articulation p
 >     {@{childCount&nbsp;:= 0}@}
 >     {@{isArticulation&nbsp;:= <b>false</b>}@}
 >
->     <b>for {@{each</b> ni <b>in</b> adj[i]}@} <b>do</b>
+>     <b>for each</b> {@{ni <b>in</b> adj[i]}@} <b>do</b>
 >         <b>if</b> {@{<b>not</b> visited[ni]}@} <b>then</b>
 >             {@{parent[ni]&nbsp;:= i}@}
 >             {@{GetArticulationPoints(ni, d + 1)}@}
@@ -130,7 +130,7 @@ One can define {@{a [binary relation](binary%20relation.md) on the edges of an a
 
 ### block graph
 
-{@{The __block graph__ of a given graph _G_}@} is {@{the [intersection graph](intersection%20graph.md) of its blocks}@}. Thus, it has {@{one vertex for each block of _G_}@}, and {@{an edge between two vertices whenever the corresponding two blocks share a vertex}@}. {@{A graph _H_ is the block graph of another graph _G_}@} {@{exactly when all the blocks of _H_ are complete subgraphs}@}. {@{The graphs _H_ with this property}@} are known as {@{the [block graphs](block%20graph.md)}@}.<sup>[\[7\]](#^ref-7)</sup>
+{@{The __block graph__ of a given graph _G_}@} is {@{the [intersection graph](intersection%20graph.md) of its blocks}@}. Thus, it has {@{one vertex for each block of _G_}@}, and {@{an edge between two vertices whenever the corresponding two blocks share a vertex}@}. {@{A graph _H_ is the block graph of another graph _G_}@} {@{exactly when all the blocks of _H_ are complete subgraphs}@}. (annotation: Consider {@{two vertices _a_ and _b_ in the same block of _H_}@}. Since they are in the same block, {@{there is a cycle _C_ in the block containing _a_ and _b_}@}. If {@{_a_ and _b_ are adjacent in _C_ then they already have an edge between them}@}. Otherwise, {@{assume there is no edge between them}@}. Let {@{_A_ and _B_ respectively be the blocks in _G_ represented by _a_ and _b_ in _H_}@}. {@{The cycle _C_ without an edge between _a_ and _b_}@} means {@{_A_ is connected to one or more non-_B_ blocks via an articulation point, and then said non-_B_ blocks are connected to _B_ via another articulation point, and then similarly from _B_ to _A_}@}. But then {@{the articulation points mentioned above are not articulation points in the first place, since removing them does not make the graph disconnected}@}. This is {@{a contradiction, and so there must an edge between _a_ and _b_}@}. Thus, {@{blocks of _H_ are complete subgraphs}@}.) {@{The graphs _H_ with this property}@} are known as {@{the [block graphs](block%20graph.md)}@}.<sup>[\[7\]](#^ref-7)</sup>
 
 ### block-cut tree
 

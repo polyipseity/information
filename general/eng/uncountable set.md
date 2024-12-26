@@ -44,7 +44,7 @@ A more abstract example of an uncountable set is {@{the set of all countable [or
 
 {@{Without the [axiom of choice](axiom%20of%20choice.md)}@}, there {@{might exist cardinalities [incomparable](comparability.md) to $\aleph _{0}$}@} \(namely, {@{the cardinalities of [Dedekind-finite](Dedekind-infinite%20set.md) infinite sets}@}\). Sets of these cardinalities satisfy {@{the first three characterizations above, but not the fourth characterization}@}. Since {@{these sets are not larger than the natural numbers in the sense of cardinality}@}, some may not want to {@{call them uncountable}@}.
 
-If {@{the axiom of choice holds}@}, the following conditions on {@{a cardinal $\kappa$ are equivalent (annotation: the conditions compare with $\aleph_0$ or $\alpha_1$)}@}:
+If {@{the axiom of choice holds}@}, the following conditions on {@{a cardinal $\kappa$ are equivalent (annotation: the conditions compare with $\aleph_0$ or $\aleph_1$)}@}:
 
 - not less than or equal to ::@:: $\kappa \nleq \aleph _{0};$
 - greater than ::@:: $\kappa >\aleph _{0};$ and
