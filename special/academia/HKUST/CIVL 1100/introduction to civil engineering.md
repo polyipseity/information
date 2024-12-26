@@ -1227,7 +1227,7 @@ water treatment
 <!--pytextgen generate section="1123"--><!-- The following content is generated at 2024-02-16T21:59:48.139738+08:00. Any edits will be overridden! -->
 
 - _(begin)_→::@::←groundwater quality control <!--SR:!2025-11-29,417,340!2027-04-06,857,377-->
-- groundwater quality control→::@::←wastewater recycling <!--SR:!2025-08-01,248,275!2024-12-26,92,260-->
+- groundwater quality control→::@::←wastewater recycling <!--SR:!2025-08-01,248,275!2025-12-01,340,280-->
 - wastewater recycling→::@::←wastewater treatment <!--SR:!2025-12-22,414,315!2025-01-16,186,317-->
 - wastewater treatment→::@::←water quality monitoring <!--SR:!2026-01-29,404,280!2026-04-16,495,315-->
 - water quality monitoring→::@::←water treatment <!--SR:!2026-09-09,666,344!2025-10-19,390,334-->

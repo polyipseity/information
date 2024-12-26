@@ -211,7 +211,7 @@ find customer patterns
 <!--pytextgen generate section="49ba"--><!-- The following content is generated at 2024-03-13T22:31:33.738010+08:00. Any edits will be overridden! -->
 
 - _(begin)_→::@::←create a customer profile <!--SR:!2026-07-08,621,329!2025-06-21,335,349-->
-- create a customer profile→::@::←outline the interview <!--SR:!2024-12-26,170,289!2025-12-31,457,309-->
+- create a customer profile→::@::←outline the interview <!--SR:!2026-05-08,498,289!2025-12-31,457,309-->
 - outline the interview→::@::←interview <!--SR:!2025-07-15,353,349!2025-02-20,239,329-->
 - interview→::@::←capture new customer profile <!--SR:!2025-04-16,268,309!2025-02-14,230,329-->
 - capture new customer profile→::@::←review interview, and repeat from "outline the interview" several times, like 10 times <!--SR:!2025-02-21,207,270!2025-03-25,254,309-->

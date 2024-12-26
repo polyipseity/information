@@ -136,7 +136,7 @@ By [expressing the inverse DFT in terms of the DFT](#expressing%20the%20inverse%
 
 A useful property of the DFT is that {@{the inverse DFT can be easily expressed in terms of the (forward) DFT, via several well-known "tricks"}@}. (For example, in {@{computations}@}, it is {@{often convenient to only implement a fast Fourier transform corresponding to one transform direction and then to get the other transform direction from the first}@}.) <!--SR:!2025-05-25,206,310!2025-08-30,300,330!2025-08-23,292,330-->
 
-First, we can compute the inverse DFT by {@{reversing all but one of the inputs (Duhamel _et al._, 1988)}@}: {@{$$\mathcal F^{-1}(\set{x_n}) = \frac 1 N \mathcal F(\set{x_{N - n} })$$}@}. (As usual, the subscripts are {@{interpreted [modulo](modular%20arithmetic.md) _N_; thus, for $n = 0$, we have $x_{N - 0} = x_0$}@}.) <!--SR:!2025-06-25,249,330!2024-12-26,95,290!2025-09-03,301,330-->
+First, we can compute the inverse DFT by {@{reversing all but one of the inputs (Duhamel _et al._, 1988)}@}: {@{$$\mathcal F^{-1}(\set{x_n}) = \frac 1 N \mathcal F(\set{x_{N - n} })$$}@}. (As usual, the subscripts are {@{interpreted [modulo](modular%20arithmetic.md) _N_; thus, for $n = 0$, we have $x_{N - 0} = x_0$}@}.) <!--SR:!2025-06-25,249,330!2025-09-28,276,290!2025-09-03,301,330-->
 
 Second, one can also {@{conjugate the inputs and outputs}@}: {@{$$\mathcal F^{-1}(\mathbf x) = \frac 1 N \mathcal F(\mathbf x^*)^*$$}@}. <!--SR:!2025-04-16,178,310!2025-08-10,283,330-->
 

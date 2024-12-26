@@ -126,7 +126,7 @@ return await conversion_table(
 
 - from [Kelvin](Kelvin.md): x K ≘ (x − 273.15) °C, to [Kelvin](Kelvin.md): x °C ≘ (x + 273.15) K:@:[Celsius](Celsius.md) <!--SR:!2028-04-23,1233,350-->
 - from [Kelvin](Kelvin.md): x K ≘ (x × 9/5 − 459.67) °F, to [Kelvin](Kelvin.md): x °F ≘ (x + 459.67) × 5/9 K:@:[Fahrenheit](Fahrenheit.md) <!--SR:!2027-05-11,888,330-->
-- from [Kelvin](Kelvin.md): x K ≘ x × 9/5 °R, to [Kelvin](Kelvin.md): x °R ≘ x × 5/9 K:@:[Rankine](Rankine%20scale.md) <!--SR:!2024-12-26,286,330-->
+- from [Kelvin](Kelvin.md): x K ≘ x × 9/5 °R, to [Kelvin](Kelvin.md): x °R ≘ x × 5/9 K:@:[Rankine](Rankine%20scale.md) <!--SR:!2027-08-01,948,330-->
 
 <!--/pytextgen-->
 

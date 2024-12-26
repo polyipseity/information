@@ -84,7 +84,7 @@ return await memorize_table(
 - AX<sub>2</sub>E<sub>3</sub>→::@::←AX<sub>3</sub>E<sub>0</sub> <!--SR:!2027-01-22,1082,350!2025-10-10,541,290-->
 - AX<sub>3</sub>E<sub>0</sub>→::@::←AX<sub>3</sub>E<sub>1</sub> <!--SR:!2027-04-17,1146,350!2027-10-06,1281,350-->
 - AX<sub>3</sub>E<sub>1</sub>→::@::←AX<sub>3</sub>E<sub>2</sub> <!--SR:!2027-11-07,1308,350!2028-06-06,1472,350-->
-- AX<sub>3</sub>E<sub>2</sub>→::@::←AX<sub>4</sub>E<sub>0</sub> <!--SR:!2025-04-07,128,210!2024-12-26,301,310-->
+- AX<sub>3</sub>E<sub>2</sub>→::@::←AX<sub>4</sub>E<sub>0</sub> <!--SR:!2025-04-07,128,210!2027-07-17,933,310-->
 - AX<sub>4</sub>E<sub>0</sub>→::@::←AX<sub>4</sub>E<sub>1</sub> <!--SR:!2028-02-29,1396,350!2028-06-15,1480,350-->
 - AX<sub>4</sub>E<sub>1</sub>→::@::←AX<sub>4</sub>E<sub>2</sub> <!--SR:!2028-03-11,1405,350!2028-01-18,1361,350-->
 - AX<sub>4</sub>E<sub>2</sub>→::@::←AX<sub>5</sub>E<sub>0</sub> <!--SR:!2026-02-06,745,330!2026-12-29,979,330-->

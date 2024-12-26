@@ -53,9 +53,9 @@ The content is in teaching order.
     - high: 82.92 → 83.33
     - distribution: ? → ?
 - report
-  - examination format ::@:: There are 20 multiple choice questions (MCQ), each worth 5 score. Each MCQ has a variable number of choices, with the most up to about 10 choices. Choosing any wrong option yields 0 score. Otherwise, you get $\text{score} = 5 \cdot \frac {\text{\# of answers} } {\text{\# of solutions} }$. <!--SR:!2024-12-26,4,270!2024-12-26,4,270-->
-  - conservative strategy ::@:: Er... Somehow did not select any wrong answers. It was a very nice strategy to be conservative... <!--SR:!2024-12-26,4,270!2024-12-26,4,270-->
-  - time limit ::@:: The time limit was... kinda irrelevant here, since you always want to make sure you have not chosen any wrong answers. <!--SR:!2024-12-26,4,270!2024-12-26,4,270-->
+  - examination format ::@:: There are 20 multiple choice questions (MCQ), each worth 5 score. Each MCQ has a variable number of choices, with the most up to about 10 choices. Choosing any wrong option yields 0 score. Otherwise, you get $\text{score} = 5 \cdot \frac {\text{\# of answers} } {\text{\# of solutions} }$. <!--SR:!2025-01-11,16,290!2025-01-09,14,290-->
+  - conservative strategy ::@:: Er... Somehow did not select any wrong answers. It was a very nice strategy to be conservative... <!--SR:!2025-01-07,12,270!2025-01-11,16,290-->
+  - time limit ::@:: The time limit was... kinda irrelevant here, since you always want to make sure you have not chosen any wrong answers. <!--SR:!2025-01-05,10,270!2025-01-10,15,290-->
 - check
   - datetime: 2024-12-18T12:30:00+08:00/2024-12-18T14:30:00+08:00, PT2H
   - venue: Room 2128C, Academic Building

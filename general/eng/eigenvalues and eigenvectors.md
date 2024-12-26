@@ -195,7 +195,7 @@ Any [subspace](linear%20subspace.md) [spanned](linear%20span.md) by eigenvectors
 
 If {@{$\lambda$ is an eigenvalue of $T$}@}, then {@{the operator $(T − \lambda I)$ is not one-to-one, and therefore its [inverse](invertible%20matrix.md) $(T − \lambda I)^{-1}$ does not exist}@}. The converse is {@{true for finite-[dimensional](dimension%20(vector%20space).md) [vector spaces](vector%20space.md), but not for infinite-dimensional vector spaces}@}. In general, the operator $(T − \lambda I)$ {@{may not have an inverse even if $\lambda$ is not an eigenvalue}@}. <!--SR:!2025-06-04,239,355!2025-08-08,304,355!2025-12-15,416,375!2025-09-06,315,355-->
 
-For this reason, in [functional analysis](functional%20analysis.md) eigenvalues can be {@{generalized to the [spectrum](spectrum%20(functional%20analysis).md) of a [linear operator](linear%20map.md) $T$ as the set of all [scalars](scalar%20(mathematics).md) $\lambda$ for which the operator $(T − \lambda I)$ has no bounded inverse}@}. The spectrum of an operator always {@{contain all its eigenvalues but is not limited to them}@}. <!--SR:!2024-12-26,115,315!2025-12-24,423,375-->
+For this reason, in [functional analysis](functional%20analysis.md) eigenvalues can be {@{generalized to the [spectrum](spectrum%20(functional%20analysis).md) of a [linear operator](linear%20map.md) $T$ as the set of all [scalars](scalar%20(mathematics).md) $\lambda$ for which the operator $(T − \lambda I)$ has no bounded inverse}@}. The spectrum of an operator always {@{contain all its eigenvalues but is not limited to them}@}. <!--SR:!2025-12-23,362,315!2025-12-24,423,375-->
 
 ## dynamic equations
 
