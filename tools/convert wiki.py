@@ -62,7 +62,7 @@ _ARCHIVE_REGEXES = {
     ): ("File:{}", "../../archives/Wikimedia Commons/{}"),
 }
 
-with open(f"{NAME}.names map.json", "rt") as names_map_file:
+with open(f"{NAME}.names map.json", "rt", encoding="UTF-8") as names_map_file:
     _names_map_manual = load(names_map_file)
 _names_map = {
     f"{filename[:1].upper()}{filename[1:-3]}": filename[:-3]
