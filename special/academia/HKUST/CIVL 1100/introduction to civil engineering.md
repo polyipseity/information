@@ -1052,7 +1052,7 @@ Hong Kong Code
 <!--pytextgen generate section="2ff2"--><!-- The following content is generated at 2024-04-23T18:07:51.798230+08:00. Any edits will be overridden! -->
 
 - _(begin)_→::@::←American Code <!--SR:!2025-09-20,383,380!2025-09-03,403,394-->
-- American Code→::@::←Australian Standard <!--SR:!2024-12-27,193,355!2025-12-14,487,395-->
+- American Code→::@::←Australian Standard <!--SR:!2027-07-26,941,375!2025-12-14,487,395-->
 - Australian Standard→::@::←Chinese Code <!--SR:!2026-05-09,520,327!2025-02-16,233,357-->
 - Chinese Code→::@::←Eurocode <!--SR:!2025-12-17,426,335!2025-03-30,252,357-->
 - Eurocode→::@::←Hong Kong Code <!--SR:!2025-03-11,258,376!2026-07-19,600,357-->

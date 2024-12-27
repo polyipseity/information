@@ -49,7 +49,7 @@ otherwise: Substitute $u = \tan \frac t 2$.
 - _(begin)_→::@::←$\omega(t) = \omega(-t)$ _only_: Symmetry across $x = 0$, substitute $u = \cos t$. <!--SR:!2025-02-11,145,270!2025-07-14,285,330-->
 - $\omega(t) = \omega(-t)$ _only_: Symmetry across $x = 0$, substitute $u = \cos t$.→::@::←$\omega(t) = \omega(\pi - t)$ _only_: Symmetry across $x = \frac \pi 2$, substitute $u = \sin t$. <!--SR:!2025-04-07,179,270!2025-04-24,210,290-->
 - $\omega(t) = \omega(\pi - t)$ _only_: Symmetry across $x = \frac \pi 2$, substitute $u = \sin t$.→::@::←$\omega(t) = \omega(\pi + t)$ _only_: $\pi$-periodic, substitute $u = \tan t$. <!--SR:!2025-04-06,194,310!2025-01-28,152,310-->
-- $\omega(t) = \omega(\pi + t)$ _only_: $\pi$-periodic, substitute $u = \tan t$.→::@::←two preceding relations hold: Substitute $u = \cos 2t$. <!--SR:!2024-12-27,119,290!2025-07-18,288,330-->
+- $\omega(t) = \omega(\pi + t)$ _only_: $\pi$-periodic, substitute $u = \tan t$.→::@::←two preceding relations hold: Substitute $u = \cos 2t$. <!--SR:!2025-12-09,347,290!2025-07-18,288,330-->
 - two preceding relations hold: Substitute $u = \cos 2t$.→::@::←otherwise: Substitute $u = \tan \frac t 2$. <!--SR:!2025-04-27,210,310!2025-01-01,120,290-->
 - otherwise: Substitute $u = \tan \frac t 2$.→::@::←_(end)_ <!--SR:!2025-04-05,208,310!2025-03-21,196,310-->
 

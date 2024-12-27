@@ -43,7 +43,7 @@ For simple applications, Fourier's law is used in its one-dimensional form:
 >   - {@{$\frac{\partial Q}{\partial t}$ is the [heat](heat.md) transferred per unit [time](time.md), in W}@}
 >   - {@{$k$ is the [thermal conductivity](thermal%20conductivity%20and%20resistivity.md), in W⋅m<sup>-1</sup>⋅K<sup>-1</sup>}@}
 >   - {@{$\nabla T$ is the [temperature gradient](temperature%20gradient.md), in K⋅m<sup>-1</sup>}@}
->   - {@{$\mathrm{d}\mathbf{S}$ is a [vector area](vector%20area.md) element, in m<sup>2</sup>}@} <!--SR:!2024-12-27,222,250!2028-07-24,1307,350!2027-08-03,986,310!2025-11-25,495,310!2026-10-01,728,330-->
+>   - {@{$\mathrm{d}\mathbf{S}$ is a [vector area](vector%20area.md) element, in m<sup>2</sup>}@} <!--SR:!2026-07-04,554,250!2028-07-24,1307,350!2027-08-03,986,310!2025-11-25,495,310!2026-10-01,728,330-->
 
 For simple applications where the material is [homogeneous](homogeneity%20and%20heterogeneity.md) between two endpoints at constant [temperature](temperature.md), the above can be [integrated](integral.md) to give:
 

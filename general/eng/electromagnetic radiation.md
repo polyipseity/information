@@ -30,7 +30,7 @@ __Electromagnetic radiation__ (__EMR__) consists of {@{[waves](wave.md) of the [
 
 ### photoelectric effect
 
-{@{Electromagnetic radiation striking a material causes [electrons](electron.md) to be emitted.}@} This is known as the {@{[photoelectric effect](photoelectric%20effect.md)}@}. <!--SR:!2024-12-27,429,230!2025-02-11,590,310-->
+{@{Electromagnetic radiation striking a material causes [electrons](electron.md) to be emitted.}@} This is known as the {@{[photoelectric effect](photoelectric%20effect.md)}@}. <!--SR:!2027-09-10,987,230!2025-02-11,590,310-->
 
 ## references
 

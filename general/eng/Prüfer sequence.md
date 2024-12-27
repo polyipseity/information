@@ -33,7 +33,7 @@ The Prüfer sequence of a labeled tree is {@{unique and has length _n_ − 2}@}.
 
 > {@{![a labeled tree with Prüfer sequence](../../archives/Wikimedia%20Commons/Tree%20graph.svg)}@}
 >
-> {@{A labeled tree with Prüfer sequence {4,4,4,5}.}@} <!--SR:!2024-12-27,41,290!2025-01-12,57,310-->
+> {@{A labeled tree with Prüfer sequence {4,4,4,5}.}@} <!--SR:!2025-06-10,165,310!2025-01-12,57,310-->
 
 Consider the above algorithm run on the tree shown to the right. Initially, vertex 1 is the leaf with the smallest label, so it is removed first and 4 is put in the Prüfer sequence. Vertices 2 and 3 are removed next, so 4 is added twice more. Vertex 4 is now a leaf and has the smallest label, so it is removed and we append 5 to the sequence. We are left with only two vertices, so we stop. The tree's sequence is {4,4,4,5}.
 
@@ -189,7 +189,7 @@ The immediate consequence is that {@{Prüfer sequences provide a [bijection](bij
 
 - Cayley's formula can be {@{strengthened to prove the following claim}@}: <p> {@{The number of spanning trees in a complete graph $K_{n}$ with a degree $d_{i}$ specified for each vertex $i$}@} is equal to {@{the [multinomial coefficient](multinomial%20theorem.md#multinomial%20coefficients) $${\binom {n-2}{d_{1}-1,\,d_{2}-1,\,\dots ,\,d_{n}-1} }={\frac {(n-2)!}{(d_{1}-1)!(d_{2}-1)!\cdots (d_{n}-1)!} }.$$}@} <p> The proof follows by {@{observing that in the Prüfer sequence number $i$ appears exactly $d_{i}-1$ times}@}.<sup>[\[4\]](#^ref-4)</sup>
 - Cayley's formula can be {@{generalized}@}: {@{a labeled tree is in fact a [spanning tree](spanning%20tree.md) of the labeled [complete graph](complete%20graph.md)}@}. By {@{placing restrictions on the enumerated Prüfer sequences}@}, similar methods can {@{give the number of spanning trees of a complete [bipartite graph](bipartite%20graph.md)}@}. If {@{_G_ is the complete bipartite graph with vertices 1 to _n_<sub>1</sub> in one partition and vertices _n_<sub>1</sub> + 1 to _n_ in the other partition}@}, {@{the number of labeled spanning trees of _G_}@} is {@{$n_{1}^{n_{2}-1}n_{2}^{n_{1}-1}$, where _n_<sub>2</sub> = _n_ − _n_<sub>1</sub>}@}.<sup>[\[4\]](#^ref-4)</sup>
-- {@{Generating uniformly distributed random Prüfer sequences and converting them into the corresponding trees}@} is {@{a straightforward method of generating uniformly distributed random labelled trees}@}.<sup>[\[4\]](#^ref-4)</sup> <!--SR:!2025-01-12,57,310!2025-01-03,50,290!2024-12-27,41,290!2025-01-11,56,310!2025-01-12,57,310!2025-01-11,56,310!2025-01-09,54,310!2025-01-11,56,310!2025-01-09,54,310!2025-01-11,56,310!2025-04-17,121,290!2025-01-11,56,310!2025-01-09,54,310-->
+- {@{Generating uniformly distributed random Prüfer sequences and converting them into the corresponding trees}@} is {@{a straightforward method of generating uniformly distributed random labelled trees}@}.<sup>[\[4\]](#^ref-4)</sup> <!--SR:!2025-01-12,57,310!2025-01-03,50,290!2025-04-25,119,290!2025-01-11,56,310!2025-01-12,57,310!2025-01-11,56,310!2025-01-09,54,310!2025-01-11,56,310!2025-01-09,54,310!2025-01-11,56,310!2025-04-17,121,290!2025-01-11,56,310!2025-01-09,54,310-->
 
 ## references
 

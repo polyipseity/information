@@ -368,7 +368,7 @@ The content is in teaching order.
   - binomial distribution / variance ::@:: For $X \sim B(n, p) \,,$ $$\operatorname{Var}(X) = np(1 - p) \,.$$ <!--SR:!2025-01-17,67,338!2025-02-09,90,361-->
   - binomial distribution / _R_: evaluate PMF ::@:: `dbinom(<number of successes>, size=<number of trials>, prob=<success probability>)` <!--SR:!2024-12-29,51,328!2025-03-18,101,308-->
   - binomial distribution / _R_: evaluate CDF ::@:: `pbinom(<number of successes>, size=<number of trials>, prob=<success probability>)` <!--SR:!2025-01-17,70,348!2025-01-26,73,348-->
-  - binomial distribution / _R_: realize ::@:: `rbinom(<number of successes>, size=<number of trials>, prob=<success probability>)` <!--SR:!2024-12-27,48,328!2025-02-02,81,348-->
+  - binomial distribution / _R_: realize ::@:: `rbinom(<number of successes>, size=<number of trials>, prob=<success probability>)` <!--SR:!2025-06-01,156,328!2025-02-02,81,348-->
 - [Poisson distribution](../../../../general/Poisson%20distribution.md) ::@:: The __Poisson distribution__ is a discrete probability distribution that expresses the probability of a given number of events occurring in a fixed interval of time if these events occur with a known constant mean rate and independently of the time since the last event. It can also be used for the number of events in other types of intervals than time, and in dimension greater than 1 (e.g., number of events in a given area or volume). It is denoted $\operatorname{Pois}(\lambda)$, where $\lambda \in (0, \infty)$ is the expectation of number of events in a given interval. <!--SR:!2025-06-01,170,338!2025-02-11,92,361-->
   - Poisson distribution / probability _mass_ function ::@:: For $X \sim \operatorname{Pois}(\lambda) \,,$ $$p_X(k) = \begin{cases} e^{-\lambda} \frac {\lambda^k} {k!} & \text{for }k \in \mathbb N_0 \\ 0 & \text{otherwise} \,. \end{cases}$$ <!--SR:!2025-04-22,132,321!2025-01-14,64,338-->
   - Poisson distribution / proof of being probability distribution ::@:: It is also very easy to see its probability mass function is nonnegative (in fact, positive). To see it sums up to 1, realize that the sum actually contains a Maclaurin expansion of $e^\lambda$. <!--SR:!2025-01-25,72,348!2025-01-26,73,348-->
@@ -474,7 +474,7 @@ The content is in teaching order.
   - Inputted $\binom {100} 1$ as 1 instead of 100 into the calculator when evaluating a binomial distribution...
     - $\binom {100} 1$ (-1) ::@:: It evaluates to 100, not 1. <!--SR:!2025-03-11,98,384!2025-03-13,100,384-->
   - Simplified $\frac 4 {b^2} \left(b\right)$ into $\frac 4 {b^3}$ instead of $\frac 4 b$... (-1)
-  - time limit ::@:: Time limit was really really tight. Only 10 minutes left for checking, even if you are familiar with the content. <!--SR:!2024-12-27,5,367!2024-12-27,5,367-->
+  - time limit ::@:: Time limit was really really tight. Only 10 minutes left for checking, even if you are familiar with the content. <!--SR:!2025-01-21,25,387!2025-01-22,26,387-->
 - check
   - datetime: 2024-10-29T10:00:00+08:00/2024-10-29T11:00:00+08:00, PT1H
   - venue: Room 3472 (Lift 25-26), Academic Building
@@ -703,7 +703,7 @@ The content is in teaching order.
   - simple linear estimator / _R_: confidence level of estimators ::@:: If unknown error variance, then use `confint(lm(<y>~<x>), level=<confidence level>))`. <!--SR:!2025-01-14,24,377!2025-01-03,15,357-->
   - simple linear estimator / _R_: hypothesis testing of estimators ::@:: `summary(<model>)`, where `<model>` can be obtained by `lm(<y>~<x>[, data=<dataframe>])`. But note that the null hypothesis are respectively $\beta_0 = 0$ and $\beta_1 = 0$. <!--SR:!2025-01-14,24,377!2025-01-08,18,357-->
   - simple linear estimator / prediction ::@:: $$\hat y_{\mathrm{new} } = a + b x_{\mathrm{new} } \,,$$ which is a _point estimate_ of $y_{\mathrm{new} }$. <!--SR:!2025-01-14,24,377!2025-01-14,24,377-->
-    - simple linear estimator / prediction / interval ::@:: $$y_{\mathrm{new} } \pm t_{n - 2, \alpha / 2} \sqrt{s_{\varepsilon, n - 2}^2 \left(1 + \frac 1 n + \frac {(x_{\mathrm{new} } - \overline x)^2} {S_{XX} } \right)}$$ <!--SR:!2024-12-27,6,317!2025-01-09,19,357-->
+    - simple linear estimator / prediction / interval ::@:: $$y_{\mathrm{new} } \pm t_{n - 2, \alpha / 2} \sqrt{s_{\varepsilon, n - 2}^2 \left(1 + \frac 1 n + \frac {(x_{\mathrm{new} } - \overline x)^2} {S_{XX} } \right)}$$ <!--SR:!2024-12-30,3,297!2025-01-09,19,357-->
   - simple linear estimator / _R_: prediction ::@:: For a point estimate, use `predict(<model>, data.frame(x=<new x>))`. For an interval estimate, use `predict(<model>, data.frame(x=<new x>), interval="prediction", level=<confidence level>)`. <!--SR:!2025-01-08,18,357!2025-01-08,18,357-->
 
 ## week 13 tutorial
@@ -737,8 +737,8 @@ The content is in teaching order.
     - distribution: ? → ?
 - report
   - Is a report necessary in this case...?
-  - time limit ::@:: The time limit was enough to finish all questions and check them for 20 minutes. This, of course, assumes you are very familiar with the methods used. <!--SR:!2024-12-27,5,367!2025-01-07,13,367-->
-  - moment-generating function (0) ::@:: Remember to always check the domain of the expression you have gotten. If the domain is missing for some numbers, you may be able to evaluate $\operatorname E\left[e^{tX}\right]$ with $t$ set to the missing numbers to fill in the domain. For example, you may finally get $$\begin{cases} \frac {e^{5t} - e^{2t} } {3t}, & t \ne 0 \\ 1, & t = 0 \,. \end{cases}$$ <!-- <p> (The instructor said only I had gotten it correct...) --> <!--SR:!2024-12-27,5,367!2024-12-27,5,367-->
+  - time limit ::@:: The time limit was enough to finish all questions and check them for 20 minutes. This, of course, assumes you are very familiar with the methods used. <!--SR:!2025-01-22,26,387!2025-01-07,13,367-->
+  - moment-generating function (0) ::@:: Remember to always check the domain of the expression you have gotten. If the domain is missing for some numbers, you may be able to evaluate $\operatorname E\left[e^{tX}\right]$ with $t$ set to the missing numbers to fill in the domain. For example, you may finally get $$\begin{cases} \frac {e^{5t} - e^{2t} } {3t}, & t \ne 0 \\ 1, & t = 0 \,. \end{cases}$$ <!-- <p> (The instructor said only I had gotten it correct...) --> <!--SR:!2025-01-15,19,367!2025-01-21,25,387-->
 - check
   - datetime: 2024-12-20T14:30:00+08:00/2024-12-20T16:00:00+08:00, PT1H30M
   - venue: Room 1410 (Lift 25-26), Academic Building
