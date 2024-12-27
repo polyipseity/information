@@ -738,7 +738,7 @@ The content is in teaching order.
 - report
   - Is a report necessary in this case...?
   - time limit ::@:: The time limit was enough to finish all questions and check them for 20 minutes. This, of course, assumes you are very familiar with the methods used.
-  - moment-generating function (0) ::@:: Remember to always check the domain of the expression you have gotten. If the domain is missing for some numbers, you may be able to evaluate $\operatorname E\left[e^{tX}\right]$ with $t$ set to the missing numbers to fill in the domain. For example, you may finally get $$\begin{cases} \frac {e^{5t} - e^{2t} } {3t}, & t \ne 0 \\ 1, & t = 0 \,. \end{cases}$$ <!-- <p> (The instructor said only I had gotten it correct...) -->
+  - moment-generating function (0) ::@:: Remember to always check the domain of the expression you have gotten. If the domain is missing some numbers, you may still be able to evaluate $\operatorname E\left[e^{tX}\right]$ with $t$ set to the missing numbers to fill the domain. For example, after filling in the missing numbers, you may finally get $$\begin{cases} \frac {e^{5t} - e^{2t} } {3t}, & t \ne 0 \\ 1, & t = 0 \,. \end{cases}$$ <!-- <p> (The instructor said only I had gotten it correct...) -->
 - check
   - datetime: 2024-12-20T14:30:00+08:00/2024-12-20T16:00:00+08:00, PT1H30M
   - venue: Room 1410 (Lift 25-26), Academic Building
