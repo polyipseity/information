@@ -322,7 +322,7 @@ The content is in teaching order.
 - format: closed book, no cheatsheet, public examination approved calculator
 - content: multiple choice questions: 20@1 each; 2 long questions: 40
 - grades: 48/60 → 56/60
-  - statistics
+  - statistics: L4, L5, L6
     - mean: 36.78
     - low: 5
     - lower quartile: 31.5
@@ -567,12 +567,24 @@ The content is in teaching order.
     - long question 4: 12 = 9 + 3
     - long question 5: 13 = 6 + 3 + 2 + 2
 - [final examination cheatsheet](final%20examination%20cheatsheet.md)
-- grades: ?/100
-  - <s>According to past experiences, this professor will probably not release final examination grades.</s> Er, apparently he will post the score to Canvas and has paper checking this time?
+- grades: TODO/100
+  - note: <s>According to past experiences, this professor will probably not release final examination grades.</s> Er, apparently he will post the score to Canvas and has paper checking this time?
+  - statistics: L4, L5, L6
+    - mean: TODO
+    - standard deviation: TODO
+    - low: TODO
+    - lower quartile: TODO
+    - median: TODO
+    - upper quartile: TODO
+    - high: TODO
+    - distribution: TODO
 - report
   - HKUST yellow answer book (0?, scary) ::@:: I had just realized that the left-hand side is intended for rough work... You are supposed to write your answers on the right-hand side near the end of the exam. Have I been using it wrongly the whole time? <p> I asked the professor after the exam and he said do not worry about it... Let's hope so.
+  - TODO
 - check
-  - note: Probably no checking from past experience...
+  - note: <s>Probably no checking from past experience...</s> Not this time...?
+  - datetime: 2024-12-30T09:00:00+08:00/2024-12-30T12:00:00+08:00, PT3H
+  - venue: Room 4047, LSK Building
 
 > Dear L456 Students,
 >

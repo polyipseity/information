@@ -614,12 +614,12 @@ The content is in teaching order.
 >
 > Problem 1: 10/10
 >
-> i) Correct - 2 points
+> i) Correct - 2 points <br/>
 > ii and iii) Correct, but extremely hard to read due to both untidiness and a bad choice of pen. Please make sure this does not happen in the final. Otherwise, we will simply not grade the solution.
 >
 > Problem 2: 5.5/10
 >
-> i) Correct solution, but no closed-form - 1.5 points
+> i) Correct solution, but no closed-form - 1.5 points <br/>
 > ii and iii) Nice job - 4 points
 >
 > Problem 3: 0/10
@@ -1212,23 +1212,51 @@ The content is in teaching order.
 - datetime: 2024-12-20T16:30:00+08:00/2024-12-20T19:00:00+08:00, PT2H30M
 - venue: \[SEAFRONT\]TST Sports Ctr ARENA
 - format: closed book
-- grades: TODO/30
+- grades: 18.5/30
   - statistics
     - note: The department told instructors to not release statistics.
-    - mean: TODO
-    - standard deviation: TODO
-    - low: TODO
-    - lower quartile: TODO
-    - median: TODO
-    - upper quartile: TODO
-    - high: TODO
-    - distribution: TODO
+    - mean: ?
+    - standard deviation: ?
+    - low: ?
+    - lower quartile: ?
+    - median: ?
+    - upper quartile: ?
+    - high: ?
+    - distribution: ?
 - report
-  - TODO
+  - overall ::@:: It's acceptable, given the time constraints... It is not an ideal environment for solving complex problems.
 - check
   - note: You will receive a scanned copy of your examination. Send email to Amir to appeal.
 - materials
-  - lecture video: TODO
-  - final examination: TODO
+  - lecture video: (none)
+  - [final examination](attachments/final.pdf) (source: <https://canvas.ust.hk/courses/58174/modules/items/1462902>)
+
+> Total Score: 18.5/30
+>
+> Grader: Amir
+>
+> Problem 1: 4.5/10
+>
+> i) 2 pts - correct <br/>
+> ii) 0.5 pts - This doesn't count all cases, e.g. this one is missed: <br/>
+> 1AA <br/>
+> BB1 <br/>
+> iii) Wrong answer with messy explanations. I could not understand what you were doing here. <br/>
+> iv) Correct - 2 pts <br/>
+> v) Incorrect, |B|=|A|
+>
+> Problem 2: 6/10
+>
+> i and ii are OK - 5 pts. <br/>
+> iii) 1 pt - How about double-jump from b to d and then a reverse jump to b?
+>
+> Problem 3: 8/10
+>
+> i and ii) Excellent method - 4 pts <br/>
+> iii) wrong answer <br/>
+> iv) 2 pts - Correct method <br/>
+> v) 2 pts
+>
+> We hope you enjoyed this semester and wish you a happy new year!
 
 ## aftermath

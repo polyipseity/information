@@ -708,14 +708,19 @@ The content is in teaching order.
 - format: closed book, no cheatsheet, simple calculator (includes public examination approved calculator)
 - content: multiple choice questions: 40@1 each
 - grades: 37/40
-  - statistics: L4
+  - statistics: L4, L5, L6
     - mean: 29 (provided)
     - standard deviation: 5 (provided)
+    - median: 29 (provided)
+  - statistics: L4
+    - mean: 29.59
+    - standard deviation: ?
     - low: 0
     - lower quartile: 26.25
-    - median: 29 (provided)
+    - median: 29
     - upper quartile: 33.75
     - high: 37
+    - distribution: ?
 - report
   - long lines, sellers' personal preference (-1, MCQ) ::@:: Long lines (queuing for a good) are inefficient because they waste buyers' time, not because buyers who want the good most may not get the good — buyers who want the good most use the most time waiting for the good, while those who are not may give up waiting. It is only selling according to sellers' personal preference where the latter happens.
   - reasonable assumptions: tax on gasoline, deadweight loss (0, MCQ) ::@:: There was a question about tax on gasoline and deadweight loss. One of the options is the deadweight loss must decrease when the tax decreases. If the supply curve were completely inelastic, this would have not been true. However, since we are talking about gasoline, the supply curve is _assumed_ to be not completely inelastic, so the above is true. <p> In general, some _reasonable_ assumptions and _common sense_ are required to answer the questions. Indeed, there are many more _reasonable_ assumptions made above to answer such a question, e.g. the law of demand, the law of supply, etc.
@@ -878,22 +883,29 @@ The content is in teaching order.
 - datetime: 2024-12-18T09:30:00+08:00/2024-12-18T11:30:00+08:00, PT2H
 - venue: Lecture Theater A (401)
 - format: calculator with no information storage feature, closed book
-- grades: TODO/100
-  - statistics
-    - mean: TODO
-    - standard deviation: TODO
-    - low: TODO
-    - lower quartile: TODO
-    - median: TODO
-    - upper quartile: TODO
-    - high: TODO
-    - distribution: TODO
+- grades: 90/100
+  - statistics: L4, L5, L6
+    - mean: 54.46 (provided)
+    - standard deviation: 19.45 (provided)
+    - median: 52.5 (provided)
+  - statistics: L4
+    - mean: 60.45
+    - standard deviation: ?
+    - low: 0
+    - lower quartile: 44
+    - median: 62
+    - upper quartile: 76
+    - high: 93
+    - distribution: ?
 - report
   - examination format ::@:: All the questions require you to write a lot of text, and it feels more like writing essays... I was not quite sure the things I have written are what the teacher wants. <p> Next time, I should also check the examination format of each instructor and see if it suits me.
   - time limit ::@:: The time limit was barely enough to finish all questions because I had written many words, and had spent some time on thinking...
   - TODO
 - check
-  - TODO
+  - note: Sign up a timeslot on Canvas.
+  - datetime: 2024-12-30T08:40:00+08:00/2024-12-30T10:40:00+08:00, PT2H
+    - timeslot: 2024-12-30T10:00:00+08:00/2024-12-30T10:10:00+08:00, PT10M
+  - venue: Room 6054, LSK Building
 
 > __ECON2103 - Regarding the Final Exam on Wednesday, 18 December__
 >
