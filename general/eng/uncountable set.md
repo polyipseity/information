@@ -44,7 +44,7 @@ A more abstract example of an uncountable set is {@{the set of all countable [or
 
 {@{Without the [axiom of choice](axiom%20of%20choice.md)}@}, there {@{might exist cardinalities [incomparable](comparability.md) to $\aleph _{0}$}@} \(namely, {@{the cardinalities of [Dedekind-finite](Dedekind-infinite%20set.md) infinite sets}@}\). Sets of these cardinalities satisfy {@{the first three characterizations above, but not the fourth characterization}@}. Since {@{these sets are not larger than the natural numbers in the sense of cardinality}@}, some may not want to {@{call them uncountable}@}. <!--SR:!2025-01-07,12,270!2025-01-10,15,290!2025-01-02,8,250!2025-01-03,9,250!2025-01-07,12,270!2025-01-10,15,290-->
 
-If {@{the axiom of choice holds}@}, the following conditions on {@{a cardinal $\kappa$ are equivalent (annotation: the conditions compare with $\aleph_0$ or $\alpha_1$)}@}: <!--SR:!2025-01-11,16,290!2025-01-07,12,270-->
+If {@{the axiom of choice holds}@}, the following conditions on {@{a cardinal $\kappa$ are equivalent (annotation: the conditions compare with $\aleph_0$ or $\aleph_1$)}@}: <!--SR:!2025-01-11,16,290!2025-01-07,12,270-->
 
 - not less than or equal to ::@:: $\kappa \nleq \aleph _{0};$ <!--SR:!2025-01-10,15,290!2025-01-11,16,290-->
 - greater than ::@:: $\kappa >\aleph _{0};$ and <!--SR:!2025-01-05,11,270!2025-01-09,14,290-->

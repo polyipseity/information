@@ -25,7 +25,7 @@ tags:
 
 {@{A minimum spanning tree of a connected weighted graph}@} is {@{a connected subgraph, without cycles, for which the sum of the weights of all the edges in the subgraph is minimal}@}. For {@{a disconnected graph}@}, {@{a minimum spanning forest}@} is {@{composed of a minimum spanning tree for each [connected component](component%20(graph%20theory).md)}@}. <!--SR:!2025-02-11,62,310!2025-02-16,66,310!2025-02-16,66,310!2025-02-18,67,310!2025-01-22,42,290-->
 
-This algorithm was first published by {@{[Joseph Kruskal](Joseph%20Kruskal.md)}@} in {@{1956}@},<sup>[\[3\]](#^ref-3)</sup> and was {@{rediscovered soon afterward}@} by {@{[Loberman & Weinberger \(1957\)](#^ref-4)}@}.<sup>[\[4\]](#^ref-4)</sup> Other algorithms for this problem include {@{[Prim's algorithm](Prim's%20algorithm.md), [Borůvka's algorithm](Borůvka's%20algorithm.md), and the [reverse-delete algorithm](reverse-delete%20algorithm.md)}@}. <!--SR:!2025-01-24,44,290!2025-01-29,48,290!2025-01-14,38,290!2025-01-24,31,250!2025-01-03,27,270-->
+This algorithm was first published by {@{[Joseph Kruskal](Joseph%20Kruskal.md) in 1956}@},<sup>[\[3\]](#^ref-3)</sup> and was {@{rediscovered soon afterward}@} by {@{[Loberman & Weinberger \(1957\)](#^ref-4)}@}.<sup>[\[4\]](#^ref-4)</sup> Other algorithms for this problem include {@{[Prim's algorithm](Prim's%20algorithm.md), [Borůvka's algorithm](Borůvka's%20algorithm.md), and the [reverse-delete algorithm](reverse-delete%20algorithm.md)}@}. <!--SR:!2025-01-24,44,290!2025-01-29,48,290!2025-01-14,38,290!2025-01-24,31,250!2025-01-03,27,270-->
 
 ## algorithm
 

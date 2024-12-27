@@ -34,7 +34,7 @@ USER_AGENT = f"{NAME}/{VERSION} ({AUTHORS[0]['email']}) Python/{version}"
 _WIKI_HOST_URL = URL.build(scheme="https", host="en.wikipedia.org")
 _MAX_CONCURRENT_REQUESTS_PER_HOST = 2
 _LIST_INDENT = "    "
-_MARKDOWN_SEPARATOR_CHARACTERS = f"{punctuation}{whitespace}".replace("_", "")
+_MARKDOWN_SEPARATOR_CHARACTERS = f"{punctuation}{whitespace}\xa0".replace("_", "")
 _MARKDOWN_SEPARATOR = "<!-- markdown separator -->"
 _PAGE_DOES_NOT_EXIST_SUFFIX = " (page does not exist)"
 _BAD_TITLES = frozenset({"Edit this at Wikidata"})
@@ -62,11 +62,11 @@ _ARCHIVE_REGEXES = {
     ): ("File:{}", "../../archives/Wikimedia Commons/{}"),
 }
 
-with open(f"{NAME}.names map.json", "rt") as names_map_file:
+with open(f"{NAME}.names map.json", "rt", encoding="UTF-8") as names_map_file:
     _names_map_manual = load(names_map_file)
 _names_map = {
     f"{filename[:1].upper()}{filename[1:-3]}": filename[:-3]
-    for filename in iglob("*.md", root_dir="../general/eng/")
+    for filename in iglob("*.md", root_dir="../general/")
 }
 if _names_map_overlap := frozenset(_names_map).intersection(_names_map_manual):
     raise ValueError(_names_map_overlap)

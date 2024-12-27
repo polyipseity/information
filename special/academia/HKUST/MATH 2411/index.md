@@ -738,7 +738,7 @@ The content is in teaching order.
 - report
   - Is a report necessary in this case...?
   - time limit ::@:: The time limit was enough to finish all questions and check them for 20 minutes. This, of course, assumes you are very familiar with the methods used. <!--SR:!2025-01-22,26,387!2025-01-07,13,367-->
-  - moment-generating function (0) ::@:: Remember to always check the domain of the expression you have gotten. If the domain is missing for some numbers, you may be able to evaluate $\operatorname E\left[e^{tX}\right]$ with $t$ set to the missing numbers to fill in the domain. For example, you may finally get $$\begin{cases} \frac {e^{5t} - e^{2t} } {3t}, & t \ne 0 \\ 1, & t = 0 \,. \end{cases}$$ <!-- <p> (The instructor said only I had gotten it correct...) --> <!--SR:!2025-01-15,19,367!2025-01-21,25,387-->
+  - moment-generating function (0) ::@:: Remember to always check the domain of the expression you have gotten. If the domain is missing some numbers, you may still be able to evaluate $\operatorname E\left[e^{tX}\right]$ with $t$ set to the missing numbers to fill the domain. For example, after filling in the missing numbers, you may finally get $$\begin{cases} \frac {e^{5t} - e^{2t} } {3t}, & t \ne 0 \\ 1, & t = 0 \,. \end{cases}$$ <!-- <p> (The instructor said only I had gotten it correct...) --> <!--SR:!2025-01-15,19,367!2025-01-21,25,387-->
 - check
   - datetime: 2024-12-20T14:30:00+08:00/2024-12-20T16:00:00+08:00, PT1H30M
   - venue: Room 1410 (Lift 25-26), Academic Building
@@ -763,3 +763,25 @@ The content is in teaching order.
 > - Necessary statistical tables of the quantiles will be provided. Use the most appropriate values from the table and indicate in your answer which values you have used.
 
 ## aftermath
+
+### total
+
+- grades: 100/100
+  - statistics: L1
+    - mean: 61.53
+    - standard deviation: ?
+    - low: 8.33
+    - lower quartile: 43.73
+    - median: 63.93
+    - upper quartile: 80.36
+    - high: 100
+    - distribution: ?
+  - statistics: L2
+    - mean: 67.41
+    - standard deviation: ?
+    - low: 22.28
+    - lower quartile: 53.33
+    - median: 70.39
+    - upper quartile: 84.59
+    - high: 99.35
+    - distribution: ?

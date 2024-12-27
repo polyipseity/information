@@ -1295,3 +1295,16 @@ ID: 23456789
 - [reinforcement learning](../../../../general/reinforcement%20learning.md) ::@:: This topic is untaught and optional. <p> Reinforcement learning is one of the [three basic machine learning paradigms](../../../../general/machine%20learning.md#approaches), alongside [supervised learning](../../../../general/supervised%20learning.md) and [unsupervised learning](../../../../general/unsupervised%20learning.md). <p> [Q-learning](../../../../general/Q-learning.md) at its simplest stores data in tables. This approach becomes [infeasible](../../../../general/computational%20complexity%20theory.md) as the number of states/actions increases \(e.g., if the state space or action space were continuous\), as the probability of the agent visiting a particular state and performing a particular action diminishes. <!--SR:!2025-01-11,24,369!2025-01-03,16,349-->
   - [assignments/lab 10](assignments/lab%2010/) (optional)
   - [questions § introduction to reinforcement learning](questions.md#introduction%20to%20reinforcement%20learning)
+
+### total
+
+- grades: 93.06/100
+  - statistics
+    - mean: 77.52
+    - standard deviation: ?
+    - low: 0.2
+    - lower quartile: 72.47
+    - median: 81.66
+    - upper quartile: 87.45
+    - high: 96.3
+    - distribution: ?

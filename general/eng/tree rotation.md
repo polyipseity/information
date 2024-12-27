@@ -84,7 +84,7 @@ def right_rotation(treenode):
 > __code flashcards__
 >
 > <pre>
-> <span></span><!-- <span class="k"> --><span style="color: #008000; font-weight: bold;">def</span> {@{<!-- <span class="nf"> --><span style="color: #0000FF;">right_rotation</span><!-- <span class="p"> --><span style="">(</span><!-- <span class="n"> --><span style="">treenode</span><!-- <span class="p"> --><span style="">)}@}:</span>
+> <span></span><!-- <span class="k"> --><span style="color: #008000; font-weight: bold;">def</span> {@{<!-- <span class="nf"> --><span style="color: #0000FF;">right_rotation</span><!-- <span class="p"> --><span style="">(</span><!-- <span class="n"> --><span style="">treenode</span><!-- <span class="p"> --><span style="">):</span>}@}
 > <!-- <span class="w"> --><span style="color: #bbbbbb;">    </span><!-- <span class="sd"> --><span style="color: #BA2121; font-style: italic;">"""{@{Rotate the specified tree to the right.}@}"""</span>
 >     {@{<!-- <span class="n"> --><span style="">left</span><!-- <span class="p"> --><span style="">,</span> <!-- <span class="n"> --><span style="">Q</span><!-- <span class="p"> --><span style="">,</span> <!-- <span class="n"> --><span style="">C</span> <!-- <span class="o"> --><span style="color: #666666;">=</span> <!-- <span class="n"> --><span style="">treenode</span>}@}
 >     {@{<!-- <span class="n"> --><span style="">A</span><!-- <span class="p"> --><span style="">,</span> <!-- <span class="n"> --><span style="">P</span><!-- <span class="p"> --><span style="">,</span> <!-- <span class="n"> --><span style="">B</span> <!-- <span class="o"> --><span style="color: #666666;">=</span> <!-- <span class="n"> --><span style="">left</span>}@}
