@@ -26,7 +26,7 @@ tags:
 > 3. Let readers make informed business decisions.
 >
 > - solution: {@{3}@}
-> - explanation: {@{The ultimate goal of both 1 and 2 is 3.}@} <!--SR:!2025-02-06,96,290!2024-12-28,72,310-->
+> - explanation: {@{The ultimate goal of both 1 and 2 is 3.}@} <!--SR:!2025-02-06,96,290!2025-11-05,312,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -107,7 +107,7 @@ tags:
 > 2. balance sheet
 > 3. statement of cash flow
 >
-> - solution: {@{2}@} <!--SR:!2024-12-28,72,310-->
+> - solution: {@{2}@} <!--SR:!2025-10-30,306,330-->
 
 <!-- markdownlint MD028 -->
 

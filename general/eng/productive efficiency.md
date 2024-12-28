@@ -39,7 +39,7 @@ Due to {@{the nature and culture of [monopolistic](monopoly.md) companies}@}, th
 
 {@{A generalisation of these}@} is {@{the so-called directional distance function}@}, where {@{one can select any direction (or orientation) for measuring the production efficiency}@}. <!--SR:!2025-01-26,56,310!2025-02-08,67,310!2025-02-07,66,310-->
 
-{@{The most popular for estimating production efficiency}@} are {@{[data envelopment analysis](data%20envelopment%20analysis.md)<sup>[\[6\]](#^ref-6)</sup> and [stochastic frontier analysis](stochastic%20frontier%20analysis.md)}@}.<sup>[\[7\]](#^ref-7)</sup> <!--SR:!2025-02-03,63,310!2024-12-28,30,270-->
+{@{The most popular for estimating production efficiency}@} are {@{[data envelopment analysis](data%20envelopment%20analysis.md)<sup>[\[6\]](#^ref-6)</sup> and [stochastic frontier analysis](stochastic%20frontier%20analysis.md)}@}.<sup>[\[7\]](#^ref-7)</sup> <!--SR:!2025-02-03,63,310!2025-03-22,84,270-->
 
 See the recent book by Sickles and Zelenyuk (2019) for comprehensive coverage of the theory<!-- <sup>[_[which?](Wikipedia:Manual%20of%20Style_Words%20to%20watch.md#unsupported%20attributions)_]</sup> --> and related estimation and many references therein.<sup>[\[8\]](#^ref-8)</sup>
 

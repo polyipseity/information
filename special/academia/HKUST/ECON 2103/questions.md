@@ -55,7 +55,7 @@ tags:
 
 > Q4. How many chicken wings should a perfectly rational person buy and eat? The chicken wings cost $5 each.
 >
-> - solution: {@{The person should keep buying and eating chicken wings until the satisfaction the person gets from buying and eating an extra chicken wing (_marginal benefit_) is lower than its cost $5 (_marginal cost_). We assume that the _marginal benefit_ decreases the more chicken wings the person eats, because the person will get increasingly full. <p> By following the above, this maximizes the _net benefit_, i.e. _total benefit_ subtracted by _total cost_.}@} <!--SR:!2024-12-28,72,310-->
+> - solution: {@{The person should keep buying and eating chicken wings until the satisfaction the person gets from buying and eating an extra chicken wing (_marginal benefit_) is lower than its cost $5 (_marginal cost_). We assume that the _marginal benefit_ decreases the more chicken wings the person eats, because the person will get increasingly full. <p> By following the above, this maximizes the _net benefit_, i.e. _total benefit_ subtracted by _total cost_.}@} <!--SR:!2025-10-31,307,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -83,7 +83,7 @@ tags:
 > Q7. Think of possible (intended or unintended) consequences for each of the following problem-and-solution pair.
 >
 > - Domestic (local) steel producers are threatened by foreign competition (imports). Let's impose a _tariff_ (fee) on importing steel. ::@:: The price of foreign steel may increase relative to domestic steel. Domestic steel producers may benefit from it. However, the average price of (domestic and imported) steel may rise, so downstream industries may have increased production cost and may pass them to consumers. <!--SR:!2025-10-07,287,330!2025-10-09,289,330-->
-> - Rents are increasing. Let's freeze rents. (This is a form of rent control.) ::@:: In the short term, poor people may be less likely to be evicted for their inability to pay rent. However, landlords may reduce maintenance on rental units to adapt to decreased rents. They may, in the long term, also construct fewer rental units because they are less profitable. <!--SR:!2025-04-05,136,310!2024-12-28,72,310-->
+> - Rents are increasing. Let's freeze rents. (This is a form of rent control.) ::@:: In the short term, poor people may be less likely to be evicted for their inability to pay rent. However, landlords may reduce maintenance on rental units to adapt to decreased rents. They may, in the long term, also construct fewer rental units because they are less profitable. <!--SR:!2025-04-05,136,310!2025-11-03,310,330-->
 > - Medical costs are high. The government decides to offset everyone's medical costs, especially for poor people. ::@:: People, especially the poor, may be able to benefit from more healthcare. However, medical cost may increase further due to increased demand. Taxes may go up to subsidize this increased spending, so people have less income after taxes. <!--SR:!2025-06-18,183,310!2025-04-21,139,290-->
 > - Commercial fishing for tuna kills dolphins. Let's require domestic fisheries to use more expensive nets that lets dolphins escape. ::@:: It may protect the dolphins. However, the price of domestic tuna may increase relative to foreign tuna. This means domestic fisheries may be harmed (e.g. decrease in market share). Also, the average price of (domestic and imported) tuna may rise, so consumers may need to pay more. (The effects are similar to a _tariff_ (like above), but reversed, i.e. imposed on domestic producers instead.) <!--SR:!2025-07-05,196,310!2025-03-02,102,290-->
 > - Drug addiction is a problem. Let's make it a non-problem by legalizing the use of drugs. ::@:: Drugs become more available. This lowers drug prices. People may get addicted to drugs more easily. However, it may decrease enforcement costs, regulate the drug market, and make rehabilitating drug addicts easier. <!--SR:!2025-08-02,234,330!2025-08-01,233,330-->
@@ -102,7 +102,7 @@ tags:
 > 7. None of the above.
 >
 > - solution: {@{5}@}
-> - explanation: {@{The first two sentences are positive. The last sentence is normative.}@} <!--SR:!2025-04-20,148,310!2024-12-28,72,310-->
+> - explanation: {@{The first two sentences are positive. The last sentence is normative.}@} <!--SR:!2025-04-20,148,310!2025-11-04,311,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -144,7 +144,7 @@ tags:
 > 4. all of the above
 >
 > - solution: {@{4}@}
-> - explanation: {@{If the production–possibility frontiers (PPFs) for X and Y are both linear, then full specialization in one of the goods will always lead to the lowest marginal (or equal) opportunity cost for both A and B. Their total output will be the _largest_. <p> Note that if the PPFs are nonlinear, then full specialization may not always produce the _largest_ total output, and may or may not lead to a _larger_ total output.}@} <!--SR:!2025-10-08,288,330!2024-12-28,72,310-->
+> - explanation: {@{If the production–possibility frontiers (PPFs) for X and Y are both linear, then full specialization in one of the goods will always lead to the lowest marginal (or equal) opportunity cost for both A and B. Their total output will be the _largest_. <p> Note that if the PPFs are nonlinear, then full specialization may not always produce the _largest_ total output, and may or may not lead to a _larger_ total output.}@} <!--SR:!2025-10-08,288,330!2025-08-13,228,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -166,7 +166,7 @@ tags:
 > 4. Teresa has CA in B and better specializes in B
 >
 > - solution: {@{4}@}
-> - explanation: {@{We only consider CA when thinking what to specialize. For Teresa, his/her opportunity cost for B is $$10 / 20 = 0.5~\text{A/B}$$, while that for Astor is $$30 / 30 = 1~\text{A/B}$$. So Teresa has CA in B and better specializes in B.}@} <!--SR:!2025-09-01,258,330!2024-12-28,72,310-->
+> - explanation: {@{We only consider CA when thinking what to specialize. For Teresa, his/her opportunity cost for B is $$10 / 20 = 0.5~\text{A/B}$$, while that for Astor is $$30 / 30 = 1~\text{A/B}$$. So Teresa has CA in B and better specializes in B.}@} <!--SR:!2025-09-01,258,330!2025-11-02,309,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -200,7 +200,7 @@ tags:
 > 4. (300 airplanes, 25000 cars) and (200 airplanes, 40000 cars)
 >
 > - solution: {@{2}@}
-> - explanation: {@{Note that 100 cars is the marginal (opportunity) cost of an airplane. Thus, simply check if the change in airplane multiplied by -100 equals the change in cars.}@} <!--SR:!2025-10-17,297,330!2024-12-28,72,310-->
+> - explanation: {@{Note that 100 cars is the marginal (opportunity) cost of an airplane. Thus, simply check if the change in airplane multiplied by -100 equals the change in cars.}@} <!--SR:!2025-10-17,297,330!2025-11-09,316,330-->
 
 ### chapter 4 lecture
 

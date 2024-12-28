@@ -87,7 +87,7 @@ The [Bell series](bell%20series.md) of {@{a sequence _a_<sub>_n_</sub>}@} is an 
 
 ### Dirichlet series generating functions (DGFs)
 
-[Formal Dirichlet series](dirichlet%20series.md#Formal%20Dirichlet%20series) are often {@{classified as generating functions, although they are not strictly formal power series}@}. The _Dirichlet series generating function_ of {@{a sequence _a_<sub>_n_</sub>}@} is:<sup>[\[6\]](#^ref-6)</sup> {@{$$\operatorname {DG} (a_{n};s)=\sum _{n=1}^{\infty }{\frac {a_{n} }{n^{s} } }\,.$$}@} <!--SR:!2025-01-02,64,310!2024-12-31,62,310!2024-12-28,39,210-->
+[Formal Dirichlet series](dirichlet%20series.md#Formal%20Dirichlet%20series) are often {@{classified as generating functions, although they are not strictly formal power series}@}. The _Dirichlet series generating function_ of {@{a sequence _a_<sub>_n_</sub>}@} is:<sup>[\[6\]](#^ref-6)</sup> {@{$$\operatorname {DG} (a_{n};s)=\sum _{n=1}^{\infty }{\frac {a_{n} }{n^{s} } }\,.$$}@} <!--SR:!2025-01-02,64,310!2024-12-31,62,310!2025-03-22,84,210-->
 
 The Dirichlet series generating function is especially useful when {@{_a_<sub>_n_</sub> is a [multiplicative function](multiplicative%20function.md)}@}, in which case {@{it has an [Euler product](euler%20product.md) expression<sup>[\[7\]](#^ref-7)</sup> in terms of the function's Bell series}@}: {@{$$\operatorname {DG} (a_{n};s)=\prod _{p}\operatorname {BG} _{p}(a_{n};p^{-s})\,.$$}@} <!--SR:!2025-01-04,55,270!2025-01-14,58,250!2025-01-30,34,150-->
 
