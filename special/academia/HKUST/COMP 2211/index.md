@@ -807,14 +807,15 @@ ID: 23456789
 - format: closed book, calculator, no cheatsheet
 - grades: 89.8/100
   - statistics
-    - mean: 71.39 (provided)
-    - standard deviation: 15.61 (provided)
-    - low: 0
-    - lower quartile: 61.33
-    - median: 73.45 (provided)
-    - upper quartile: 84.55
-    - high: 95.5
-    - distribution: ![midterm examination distribution](attachments/comp2211-fall-2024-midterm-distribution.png)
+    - timestamps: (release) → 2024-12-28T20:49:00+08:00
+    - mean: ? (provided: 71.39) → 71.21
+    - standard deviation: ? (provided: 15.61) → ?
+    - low: 0 → 0
+    - lower quartile: 61.33 → 61.45
+    - median: ? (provided: 73.45) → 73.5
+    - upper quartile: 84.55 → 84.6
+    - high: 95.5 → 95.5
+    - distribution: ![midterm examination distribution](attachments/comp2211-fall-2024-midterm-distribution.png) → ?
 - report
   - provided answer space (-1) ::@:: The provided answer space may not fit the correct answer... what the fuck? Also, be more certain of yourself on slicing with negative increment.
   - D-fold validation error (-3) ::@:: If a validation error can either be 9/10 or 10/10, then it is better than a validation error of always 10/10.
@@ -1205,14 +1206,16 @@ ID: 23456789
 - note: An error with one of the questions was found during the exam. As a result, 5 extra minutes were added.
 - grades: 89/100 → 91.5/100
   - statistics
-    - mean: 68.06 (provided: 69.17) → 68.28
-    - standard deviation: ? (provided: 15.42) → ?
-    - low: 0 → 0
-    - lower quartile: 60.71 → 60.75
-    - median: 72 (provided: 72.28) → 72
-    - upper quartile: 80.88 → 81.13
-    - high: 94.4 (provided: 94.4) → 94.4
-    - distribution: ![final examination distribution](attachments/comp2211-fall-2024-final-distribution.png)
+    - note: They suddenly changed score almost a week after after the total scores had been calculated.
+    - timestamps: (release) → (after paper checking) → 2024-12-28T20:50:00+08:00
+    - mean: 68.06 (provided: 69.17) → 68.28 → 68.05
+    - standard deviation: ? (provided: 15.42) → ? → ?
+    - low: 0 → 0 → 0
+    - lower quartile: 60.71 → 60.75 → 60.4
+    - median: 72 (provided: 72.28) → 72 → 71.65
+    - upper quartile: 80.88 → 81.13 → 81.13
+    - high: 94.4 (provided: 94.4) → 94.4 → 93.9
+    - distribution: ![final examination distribution](attachments/comp2211-fall-2024-final-distribution.png) → ? → ?
 - report
   - perceptron and multilayer perceptron
     - dropout, active neurons (-1) ::@:: The Keras (TensorFlow) implementation of dropout is random instead of being proportion-based. So it is theoretically possible for all neurons to be unchanged by dropout of 0.5.
@@ -1300,6 +1303,7 @@ ID: 23456789
 
 - grades: 93.06/100
   - statistics
+    - timestamps: (release)
     - mean: 77.52
     - standard deviation: ?
     - low: 0.2
