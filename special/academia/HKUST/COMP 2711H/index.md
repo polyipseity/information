@@ -35,7 +35,7 @@ The content is in teaching order.
 - [homework 1](assignments/homework%201/submission.md): 10/10
 - [homework 2](assignments/homework%202/submission.md): 7.5/10 → 9/10
 - [homework 3](assignments/homework%203/submission.md): 9/10
-- [homework 4](assignments/homework%204/submission.md): 8/10
+- [homework 4](assignments/homework%204/submission.md): 8/10 → 10/10
 
 ## week 1 lecture
 
@@ -614,12 +614,12 @@ The content is in teaching order.
 >
 > Problem 1: 10/10
 >
-> i) Correct - 2 points
+> i) Correct - 2 points <br/>
 > ii and iii) Correct, but extremely hard to read due to both untidiness and a bad choice of pen. Please make sure this does not happen in the final. Otherwise, we will simply not grade the solution.
 >
 > Problem 2: 5.5/10
 >
-> i) Correct solution, but no closed-form - 1.5 points
+> i) Correct solution, but no closed-form - 1.5 points <br/>
 > ii and iii) Nice job - 4 points
 >
 > Problem 3: 0/10
@@ -852,7 +852,7 @@ The content is in teaching order.
 - datetime: 2024-11-04T18:00:00+08:00/2024-11-04T18:50:00+08:00
 - topic: axiom of infinity, bijections
 - [Zermelo–Fraenkel set theory](../../../../general/Zermelo–Fraenkel%20set%20theory.md)
-  - Zermelo–Fraenkel set theory / natural numbers ::@:: 0 is empty set. The successor is defined as: $s(n) := n \cup \set{n}$. Define inequalities: $$\begin{aligned} n & \le m && \text{if }n \subseteq m \\ n & < m && \text{if }n \in m \,.\end{aligned}$$ <!--SR:!2024-12-29,26,402!2025-05-16,139,422-->
+  - Zermelo–Fraenkel set theory / natural numbers ::@:: 0 is empty set. The successor is defined as: $s(n) := n \cup \set{n}$. Define inequalities: $$\begin{aligned} n & \le m && \text{if }n \subseteq m \\ n & < m && \text{if }n \subsetneq m\text{ (in this case, }n \in m\text{ also works and is equivalent)} \,.\end{aligned}$$ <!--SR:!2024-12-29,26,402!2025-05-16,139,422-->
   - Zermelo–Fraenkel set theory / inductive set ::@:: An __inductive set__ $X$ is a set satisfying $$\begin{aligned} \emptyset & \in X \\ \forall x \quad x \in X & \implies s(x) \in X \,. \end{aligned}$$ <p> This is somewhat similar to induction using Peano axioms, but there are important differences. In particular, induction is not an axiom but a theorem using ZFC set theory. <!--SR:!2024-12-29,26,402!2024-12-30,27,402-->
   - Zermelo–Fraenkel set theory / unique minimal inductive set ::@:: There is an unique inductive set $\mathbb N$ that is a member of every inductive set. <p> To construct such a set, informally, take the intersection of all inductive sets. Formally, let $\Phi(I)$ is the formula that says "_I_ is inductive". There is an unique set $W$ such that $$\forall x(x\in W\leftrightarrow \forall I(\Phi (I)\to x\in I)) \,.$$ It is constructed: $$W=\{x\in I:\forall J(\Phi (J)\to x\in J)\}\,,$$ where $I$ is an inductive set. <!--SR:!2025-02-12,56,362!2025-04-11,104,402-->
 - [axiom of infinity](../../../../general/axiom%20of%20infinity.md) ::@:: It guarantees the existence of at least one infinite set, namely a set containing the natural numbers. <!--SR:!2024-12-29,26,402!2024-12-29,26,402-->
@@ -860,7 +860,7 @@ The content is in teaching order.
 - [finite set](../../../../general/finite%20set.md) ::@:: Formally, a set $S$ is called __finite__ if there exists a [bijection](../../../../general/bijection.md) $$f\colon S\to n$$for some natural number $n$ \(natural numbers are defined as sets in [Zermelo-Fraenkel set theory](../../../../general//Zermelo–Fraenkel%20set%20theory.md)\). The number $n$ is the set's cardinality, denoted as $|S|$. <!--SR:!2024-12-29,26,402!2025-04-09,102,402-->
 - [infinite set](../../../../general/infinite%20set.md) ::@:: In set theory, an __infinite set__ is a set that is not a finite set. Infinite sets may be countable or uncountable. <!--SR:!2025-03-29,97,402!2024-12-29,26,402-->
 - [bijection](../../../../general/bijection.md) ::@:: A __bijection__, __bijective function__, or __one-to-one correspondence__ between two mathematical [sets](../../../../general/set%20(mathematics).md) is a [function](../../../../general/function%20(mathematics).md) such that each element of the second set \(the [codomain](../../../../general/codomain.md)\) is the image of exactly one element of the first set \(the [domain](../../../../general/domain%20of%20a%20function.md)\). <p> Simple properties: $$\begin{aligned} \lvert x \rvert & = \lvert x \rvert \\ \lvert x \rvert = \lvert y \rvert & \iff \lvert y \rvert = \lvert x \rvert \\ \lvert x \rvert = \lvert y \rvert \text{ and } \lvert y \rvert = \lvert z \rvert & \implies \lvert x \rvert = \lvert z \rvert \,. \end{aligned}$$ <!--SR:!2025-05-15,138,422!2024-12-29,26,402-->
-  - bijection / countable examples ::@:: $$\begin{aligned} \lvert \mathbb N \rvert & = \lvert E \rvert && \text{even numbers} \\ & = \lvert \mathbb P \rvert \\ & = \lvert \mathbb N^k \rvert && k \in \mathbb N \\ & = \left\lvert \bigcup_{k = 1}^\infty \mathbb N^k \right\rvert && \text{countable union of countable sets is countable} \,. \end{aligned}$$ <!--SR:!2024-12-29,26,402!2024-12-30,27,402-->
+  - bijection / countable examples ::@:: $$\begin{aligned} \lvert \mathbb N \rvert & = \lvert E \rvert && \text{even numbers} \\ & = \lvert \mathbb P \rvert \\ & = \lvert \mathbb N^k \rvert && k \in \mathbb N \\ & = \left\lvert \bigcup_{k = 1}^\infty \mathbb N^k \right\rvert && \text{countable union of countable sets is countable} \,. \end{aligned}$$ <p> (The countably infinite union case additionally requires the axiom of countable choice.) <!--SR:!2024-12-29,26,402!2024-12-30,27,402-->
 - [injective function](../../../../general/injective%20function.md)
   - injective function / cardinality ::@:: If there is an injective function from $X$ to $Y$, then $\lvert X \rvert \le \lvert Y \rvert$. <!--SR:!2025-05-15,138,422!2024-12-30,27,402-->
 - [questions/2024-11-04/tutorial](questions/2024-11-04%20tutorial.md)
@@ -881,7 +881,7 @@ The content is in teaching order.
 - [uncountable set](../../../../general/uncountable%20set.md)
 - theorem: infinite set minus finite set ::@:: An infinite set minus a finite set is still infinite. <!--SR:!2024-12-29,26,402!2024-12-29,26,402-->
 - theorem: countably infinite subset in an infinite set ::@:: There is a countably infinite subset in an infinite set. One can keep extracting an element from an infinite set to make a countably infinite subset. <!--SR:!2024-12-29,26,402!2025-05-14,137,422-->
-- theorem: countable (finite or infinite) set plus countable (finite or infinite) set ::@:: A countable union of countable sets is countable. <!--SR:!2025-05-15,138,422!2024-12-29,26,402-->
+- theorem: countable (finite or infinite) set plus countable (finite or infinite) set ::@:: A countable union of countable sets is countable. <p> (The countably infinite union case additionally requires the axiom of countable choice.) <!--SR:!2025-05-15,138,422!2024-12-29,26,402-->
 - theorem: natural numbers, rational numbers ::@:: $$\lvert \mathbb N \rvert = \lvert \mathbb Q \rvert$$ <!--SR:!2025-05-17,140,422!2024-12-29,26,402-->
 - theorem: set of functions from the natural numbers to either 0 or 1 ::@:: The set of functions from the natural numbers to either 0 or 1 is uncountable. First, interpret the functions as "real numbers". For example, for a function _f_, the _i_-th digit is _f_(_i_). Apply Cantor's diagonal argument. <!--SR:!2025-05-13,136,422!2024-12-29,26,402-->
 - [Cantor's theorem](../../../../general/Cantor's%20theorem.md) ::@:: For every set $A$ (including the empty set), $\lvert A \rvert < \lvert P(A) \rvert$. <p> To prove this, assume the existence of a bijection $f$ between $A$ and $P(A)$ and consider the set $T = \set{a \in A \mid a \notin f(a)} \subseteq P(A)$. <!--SR:!2024-12-30,27,402!2025-04-10,103,402-->
@@ -1212,23 +1212,51 @@ The content is in teaching order.
 - datetime: 2024-12-20T16:30:00+08:00/2024-12-20T19:00:00+08:00, PT2H30M
 - venue: \[SEAFRONT\]TST Sports Ctr ARENA
 - format: closed book
-- grades: TODO/30
+- grades: 18.5/30
   - statistics
     - note: The department told instructors to not release statistics.
-    - mean: TODO
-    - standard deviation: TODO
-    - low: TODO
-    - lower quartile: TODO
-    - median: TODO
-    - upper quartile: TODO
-    - high: TODO
-    - distribution: TODO
+    - mean: ?
+    - standard deviation: ?
+    - low: ?
+    - lower quartile: ?
+    - median: ?
+    - upper quartile: ?
+    - high: ?
+    - distribution: ?
 - report
-  - TODO
+  - overall ::@:: It's acceptable, given the time constraints... It is not an ideal environment for solving complex problems.
 - check
   - note: You will receive a scanned copy of your examination. Send email to Amir to appeal.
 - materials
-  - lecture video: TODO
-  - final examination: TODO
+  - lecture video: (none)
+  - [final examination](attachments/final.pdf) (source: <https://canvas.ust.hk/courses/58174/modules/items/1462902>)
+
+> Total Score: 18.5/30
+>
+> Grader: Amir
+>
+> Problem 1: 4.5/10
+>
+> i) 2 pts - correct <br/>
+> ii) 0.5 pts - This doesn't count all cases, e.g. this one is missed: <br/>
+> 1AA <br/>
+> BB1 <br/>
+> iii) Wrong answer with messy explanations. I could not understand what you were doing here. <br/>
+> iv) Correct - 2 pts <br/>
+> v) Incorrect, |B|=|A|
+>
+> Problem 2: 6/10
+>
+> i and ii are OK - 5 pts. <br/>
+> iii) 1 pt - How about double-jump from b to d and then a reverse jump to b?
+>
+> Problem 3: 8/10
+>
+> i and ii) Excellent method - 4 pts <br/>
+> iii) wrong answer <br/>
+> iv) 2 pts - Correct method <br/>
+> v) 2 pts
+>
+> We hope you enjoyed this semester and wish you a happy new year!
 
 ## aftermath

@@ -29,7 +29,7 @@ If {@{a vector of $n$ predictions is generated from a sample of $n$ data points 
 
 In [matrix](matrix%20multiplication.md) notation, {@{$$\operatorname {MSE} ={\frac {1}{n} }\sum _{i=1}^{n}(e_{i})^{2}={\frac {1}{n} }\mathbf {e} ^{\mathsf {T} }\mathbf {e}$$}@} where {@{$e_{i}$ is $(Y_{i}-{\hat {Y_{i} } })$ and $\mathbf {e}$ is a $n\times 1$ column vector}@}. <!--SR:!2024-12-31,4,287!2024-12-31,4,287-->
 
-The MSE can also be computed on {@{_q_ data points that were not used in estimating the model}@}, either because {@{they were held back for this purpose, or because these data have been newly obtained}@}. Within this process, known as {@{[cross-validation](cross-validation%20(statistics).md)}@}, the MSE is often called {@{the [test MSE](test%20MSE.md)}@},<sup>[\[4\]](#^ref-4)</sup> and is computed as {@{$$\operatorname {MSE} ={\frac {1}{q} }\sum _{i=n+1}^{n+q}\left(Y_{i}-{\hat {Y_{i} } }\right)^{2}$$}@} <!--SR:!2024-12-31,4,270!2024-12-31,4,270!2024-12-31,4,287!2024-12-31,4,287!2024-12-31,4,287-->
+The MSE can also be computed on {@{_q_ data points that were not used in estimating the model}@}, either because {@{they were held back for this purpose (annotation: validation/test dataset), or because these data have been newly obtained (annotation: new dataset)}@}. Within this process, known as {@{[cross-validation](cross-validation%20(statistics).md)}@}, the MSE is often called {@{the [test MSE](test%20MSE.md)}@},<sup>[\[4\]](#^ref-4)</sup> and is computed as {@{$$\operatorname {MSE} ={\frac {1}{q} }\sum _{i=n+1}^{n+q}\left(Y_{i}-{\hat {Y_{i} } }\right)^{2}$$}@} <!--SR:!2024-12-31,4,270!2024-12-31,4,270!2024-12-31,4,287!2024-12-31,4,287!2024-12-31,4,287-->
 
 ### estimator
 
@@ -96,7 +96,7 @@ Values of MSE may be used for {@{comparative purposes}@}. {@{Two or more [statis
 
 Both {@{[analysis of variance](analysis%20of%20variance.md) and [linear regression](linear%20regression.md) techniques}@} {@{estimate the MSE as part of the analysis}@} and {@{use the estimated MSE to determine the [statistical significance](statistical%20significance.md) of the factors or predictors under study}@}. {@{The goal of [experimental design](design%20of%20experiments.md)}@} is to construct experiments in such a way that {@{when the observations are analyzed, the MSE is close to zero relative to the magnitude of at least one of the estimated treatment effects}@}. <!--SR:!2024-12-31,4,287!2024-12-31,4,270!2024-12-31,4,287!2024-12-31,4,270!2024-12-30,3,250-->
 
-In {@{[one-way analysis of variance](one-way%20analysis%20of%20variance.md)}@}, MSE can be calculated by {@{the division of the sum of squared errors and the degree of freedom}@}. Also, {@{the f-value}@} is {@{the ratio of the mean squared treatment and the MSE}@}. <!--SR:!2024-12-31,4,287!2024-12-31,4,287!2024-12-31,4,287!2024-12-31,4,287-->
+In {@{[one-way analysis of variance](one-way%20analysis%20of%20variance.md)}@}, MSE can be calculated by {@{the division of the sum of squared errors by the degree of freedom}@}. Also, {@{the f-value}@} is {@{the ratio of the mean squared treatment and the MSE}@}. <!--SR:!2024-12-31,4,287!2024-12-31,4,287!2024-12-31,4,287!2024-12-31,4,287-->
 
 MSE is also used in {@{several [stepwise regression](stepwise%20regression.md) techniques}@} as part of {@{the determination as to how many predictors from a candidate set to include in a model for a given set of observations}@}. <!--SR:!2024-12-30,3,267!2024-12-31,4,287-->
 
@@ -148,7 +148,7 @@ Like {@{[variance](variance.md)}@}, mean squared error has {@{the disadvantage o
 
 ## notes
 
-1. This can be proved by {@{[Jensen's inequality](Jensen's%20inequality.md)}@} as follows. {@{The fourth [central moment](central%20moment.md)}@} is {@{an upper bound for the square of variance}@}, so that {@{the least value for their ratio is one}@}, therefore, {@{the least value for the [excess kurtosis](kurtosis.md#excess%20kurtosis) is −2}@}, achieved, for instance, by {@{a Bernoulli with _p_=1/2}@}. <a id="^ref-1"></a>^ref-1 <!--SR:!2024-12-31,4,270!2024-12-31,4,287!2024-12-31,4,287!2024-12-31,4,287!2024-12-30,3,250!2024-12-31,4,287-->
+1. This can be proved by {@{[Jensen's inequality](Jensen's%20inequality.md)}@} as follows. {@{The fourth [central moment](central%20moment.md)}@} is {@{an upper bound for the square of variance (annotation: $\operatorname E\left[X^4\right] \ge \left(\operatorname E\left[X^2\right]\right)^2$)}@}, so that {@{the least value for their ratio is one}@}, therefore, {@{the least value for the [excess kurtosis](kurtosis.md#excess%20kurtosis) is −2}@}, achieved, for instance, by {@{a Bernoulli with _p_=1/2}@}. <a id="^ref-1"></a>^ref-1 <!--SR:!2024-12-31,4,270!2024-12-31,4,287!2024-12-31,4,287!2024-12-31,4,287!2024-12-30,3,250!2024-12-31,4,287-->
 
 ## references
 
