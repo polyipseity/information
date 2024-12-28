@@ -35,7 +35,7 @@ The content is in teaching order.
 - [homework 1](assignments/homework%201/submission.md): 10/10
 - [homework 2](assignments/homework%202/submission.md): 7.5/10 → 9/10
 - [homework 3](assignments/homework%203/submission.md): 9/10
-- [homework 4](assignments/homework%204/submission.md): 8/10
+- [homework 4](assignments/homework%204/submission.md): 8/10 → 10/10
 
 ## week 1 lecture
 
