@@ -254,6 +254,10 @@ async def wiki_html_to_plaintext(
                     .replace(R"{@{", R"{ @ {")
                     .replace(R"}@}", R"} @ }")
                 )
+                while (
+                    alt_text_2 := alt_text.replace(R"{{", "{@{").replace(R"}}", "}@}")
+                ) != alt_text:
+                    alt_text = alt_text_2
 
                 is_not_separate_paragraph = (
                     (parent := ele.parent)
@@ -266,13 +270,14 @@ async def wiki_html_to_plaintext(
                 )
                 inline = is_not_separate_paragraph and is_inline
 
-                prefix, suffix = "$" if inline else "$$", "$" if inline else "$$"
+                prefix, suffix = " $" if inline else " $$", "$" if inline else "$$"
 
-                # for char in ".,":
-                #     if alt_text.endswith(char):
-                #         suffix += alt_text[-1]
-                #         alt_text = alt_text[:-1]
-                # alt_text = alt_text.strip()
+                if inline:
+                    for char in ".,":
+                        if alt_text.endswith(char):
+                            suffix += alt_text[-1]
+                            alt_text = alt_text[:-1]
+                    alt_text = alt_text.rstrip()
 
                 ele.clear()
                 ele.append(alt_text)
@@ -365,7 +370,10 @@ async def wiki_html_to_plaintext(
 
             process_strings = process_strings_tdh
         # images
-        case _ if ele.name == "img" and "mwe-math-fallback-image-inline" not in classes:
+        case _ if ele.name == "img" and not {
+            "mwe-math-fallback-image-display",
+            "mwe-math-fallback-image-inline",
+        } & classes:
 
             def process_strings_img(strings: str, ele: Tag = ele):
                 if src := ele.get("src"):
