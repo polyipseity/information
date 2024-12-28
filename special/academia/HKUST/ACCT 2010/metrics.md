@@ -25,7 +25,7 @@ tags:
 - surprising terms in equation ::@:: accounts payable turnover, earnings per share
 - surprising "net" in equation ::@:: current assets, fixed asset turnover, quick assets, receivables turnover, total assets
 - cash flow ::@:: capital acquisitions ratio, free cash flow, quality of income
-- cost of goods sold as numerator ::@:: fixed asset turnover, inventory turnover
+- cost of goods sold as numerator ::@:: inventory turnover
 - net sales as numerator ::@:: fixed asset turnover, receivables turnover (+credit), total asset turnover
 
 ## list

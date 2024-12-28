@@ -25,7 +25,7 @@ tags:
 ## format
 
 - header ::@:: company name, `(Consolidated) Statement of Cash Flows`, duration, (monetary unit)
-  - header / duration ::@:: example: `For the Year ended December 31, 2019`, `For the period September 1, 2024 to December 13, 2015`
+  - header / duration ::@:: example: `For the Year ended December 31, 2019`, `For the period September 1, 2024 to December 13, 2025`
   - header / monetary unit ::@:: example: <br/> (none; not recommended) <br/> `(in million of dollars, except per share data)`
 - dollar sign ::@:: Add it before the first number ("net income") and the last numbers ("cash & cash equivalents at end of period"). The rest can be omitted.
 - total ::@:: Calculate "net cash provided by operating activities", "net cash provided by investing activities", "net cash provided by financing activities", and "cash & cash equivalents at end of period" from "cash & cash equivalents at beginning of period".
