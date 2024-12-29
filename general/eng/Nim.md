@@ -249,7 +249,7 @@ Thus, there exists {@{a move to a state where _p_<sub>_m_</sub> is even}@}. Conv
 
 ### index-_k_ nim
 
-A generalization of multi-heap nim was called {@{"nim<!-- LaTeX separator -->${}_{k}$" or "index-_k_" nim by [E. H. Moore](E.%20H.%20Moore.md)}@},<sup>[\[12\]](#^ref-12)</sup> who {@{analyzed it in 1910}@}. In index-_k_ nim, instead of {@{removing objects from only one heap}@}, players can {@{remove objects from at least one but up to _k_ different heaps}@}. The number of elements that may be removed {@{from each heap may be either arbitrary or limited to at most _r_ elements, like in the "subtraction game" above}@}.
+A generalization of multi-heap nim was called {@{"nim<sub>_k_</sub>" or "index-_k_" nim by [E. H. Moore](E.%20H.%20Moore.md)}@},<sup>[\[12\]](#^ref-12)</sup> who {@{analyzed it in 1910}@}. In index-_k_ nim, instead of {@{removing objects from only one heap}@}, players can {@{remove objects from at least one but up to _k_ different heaps}@}. The number of elements that may be removed {@{from each heap may be either arbitrary or limited to at most _r_ elements, like in the "subtraction game" above}@}.
 
 The winning strategy is as follows: Like in ordinary multi-heap nim, one {@{considers the binary representation of the heap sizes (or heap sizes modulo _r_ + 1)}@}. In ordinary nim {@{one forms the XOR-sum (or sum modulo 2) of each binary digit, and the winning strategy is to make each XOR sum zero}@}. In the generalization to index-_k_ nim, {@{one forms the sum of each binary digit modulo _k_ + 1 (this is no longer the XOR-sum, but a generalization of it)}@}.
 

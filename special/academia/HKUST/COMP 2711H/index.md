@@ -842,7 +842,7 @@ The content is in teaching order.
 - union of sets ::@:: $$a \cup b = \bigcup \set{a, b}$$
 - [Cartesian product](../../../../general/Cartesian%20product.md) ::@:: $$\begin{aligned} A\times B & =\{(a,b)\mid a\in A\ {\text{ and }}\ b\in B\} \\ A \times B & = \{x\in {\mathcal {P}}({\mathcal {P}}(A\cup B))\mid \exists a\in A\ \exists b\in B:x=(a,b) \}\end{aligned}$$
 - [relation](../../../../general/relation%20(mathematics).md) ::@:: A __relation__ from $X$ to $Y$ is a subset of $X \times Y$.
-- [function](../../../../general/function%20(mathematics).md) ::@:: A __function__ from $X$ to $Y$ is a relation from $X$ to $Y$ that is right-unique (for a fixed $x \in X$ in the left, $y \in Y$ is unique in the right) and left-total (there is a ordered pair with $x$ in the left for every $x \in X$).
+- [function](../../../../general/function%20(mathematics).md) ::@:: A __function__ from $X$ to $Y$ is a relation from $X$ to $Y$ that is right-unique (for a fixed $x \in X$ in the left, $y \in Y$ is unique in the right; i.e. each $x \in X$ pairs to _at most_ 1 $y \in Y$) and left-total (there is a ordered pair with $x$ in the left for every $x \in X$; i.e. each $x \in X$ pairs to _at least_ 1 $y \in Y$).
 - [questions/2024-11-04/lecture](questions/2024-11-04%20lecture.md)
 - materials
   - [video playlist: intro to set theory (watch the first 10 lectures)](https://youtu.be/f_MrWycJRZ8?list=PLjJhPCaCziSQyON7NLc8Ac8ibdm6_iDQf)
