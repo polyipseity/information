@@ -1,0 +1,4432 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%" viewBox="-21 -8 384 512">
+ <title>Highly composite numbers</title>
+ <desc>Plot of the number of divisors of integers from 1 to 1000, colour-coded by units digit by CMG Lee. Highly-composite numbers are labelled in bold and superior highly-composite numbers are starred. Prime numbers are those with exactly 2 divisors. In the SVG file, hover over a bar to see its statistics.</desc>
+ <style type="text/css">
+  #main  { font-size:8px;font-family:Helvetica,Arial,sans-serif;text-anchor:middle;fill:#000000; }
+  #main:hover            { stroke-opacity:0.25;fill-opacity:0.25; }
+  .nofade, .active:hover { stroke-opacity:1;   fill-opacity:1;    }
+  .active { cursor:crosshair; }
+  text    { stroke:none; }
+ </style>
+ <defs>
+  <path id="grid_x" d="M 0 0 V 500"/>
+  <path id="grid_y" d="M 0 -0.5 H -1.5"/>
+  <g id="grid_x_5" stroke="#000000" stroke-width="0.25" stroke-opacity="0.25">
+   <use xlink:href="#grid_x" transform="translate(5, 0)"/>
+   <use xlink:href="#grid_x" transform="translate(10,0)"/>
+   <use xlink:href="#grid_x" transform="translate(15,0)"/>
+   <use xlink:href="#grid_x" transform="translate(20,0)"/>
+   <use xlink:href="#grid_x" transform="translate(25,0)" stroke-opacity="0.5"/>
+  </g>
+  <g id="grid_y_5" stroke="#000000" stroke-width="0.5" stroke-opacity="0.5">
+   <use xlink:href="#grid_y"/>
+   <use xlink:href="#grid_y" transform="translate(0,10)"/>
+   <use xlink:href="#grid_y" transform="translate(0,20)"/>
+   <use xlink:href="#grid_y" transform="translate(0,30)"/>
+   <use xlink:href="#grid_y" transform="translate(0,40)"/>
+   <use xlink:href="#grid_y" transform="translate(0,50)" stroke-opacity="0.75"/>
+  </g>
+  <g id="grid">
+   <use xlink:href="#grid_y_5" transform="translate(0,50)"/>
+   <use xlink:href="#grid_y_5" transform="translate(0,100)"/>
+   <use xlink:href="#grid_y_5" transform="translate(0,150)"/>
+   <use xlink:href="#grid_y_5" transform="translate(0,200)"/>
+   <use xlink:href="#grid_y_5" transform="translate(0,250)"/>
+   <use xlink:href="#grid_y_5" transform="translate(0,300)"/>
+   <use xlink:href="#grid_y_5" transform="translate(0,350)"/>
+   <use xlink:href="#grid_y_5" transform="translate(0,400)"/>
+   <use xlink:href="#grid_y_5" transform="translate(0,450)"/>
+   <use xlink:href="#grid_y_5"/>
+   <use xlink:href="#grid_x_5"/>
+   <use xlink:href="#grid_x_5" transform="translate(25, 0)"/>
+   <use xlink:href="#grid_x_5" transform="translate(50, 0)"/>
+   <use xlink:href="#grid_x_5" transform="translate(75, 0)"/>
+   <use xlink:href="#grid_x_5" transform="translate(100,0)"/>
+   <g stroke="none">
+    <text x="0"   y="-1">0</text>
+    <text x="50"  y="-1">10</text>
+    <text x="100" y="-1">20</text>
+    <text x="-10" y="4" font-style="italic">n</text>
+   </g>
+  </g>
+ </defs>
+ <g id="main">
+  <rect x="-4999" y="-4999" width="9999" height="9999" fill="#ffffff"/>
+  <g>
+   <use xlink:href="#grid"/>
+   <text x="125" y="-1">divisors</text>
+  </g>
+  <g transform="translate(170,0)">
+   <use xlink:href="#grid"/>
+   <use xlink:href="#grid_x_5" transform="translate(125,0)"/>
+   <use xlink:href="#grid_x_5" transform="translate(150,0)"/>
+   <text x="150" y="-1">30</text>
+   <text x="175" y="-1">divisors</text>
+  </g>
+  <g text-anchor="end" stroke="none" stroke-dasharray="1,2">
+
+  <g transform="translate(0,0)">
+   <g class="active">
+    <text x="5" y="0" text-anchor="start" dx="0" dy="0" font-weight="bold">1</text>
+    <rect x="0" y="0" width="5" height="0.9" fill="#663300"/>
+    <title>1 has 1 divisor: 1</title>
+   </g>
+   <path d="M 0,0 V 0" stroke="#000000"/>
+   <g class="active">
+    <text x="10" y="1" text-anchor="start" dx="0" dy="0" font-weight="bold">2*</text>
+    <rect x="0" y="1" width="10" height="0.9" fill="#cc0000"/>
+    <title>2 has 2 divisors: 1, 2</title>
+   </g>
+   <path d="M 5,0 V 1" stroke="#000000"/>
+   <g class="active">
+    <rect x="0" y="2" width="10" height="0.9" fill="#ff6600"/>
+    <title>3 has 2 divisors: 1, 3</title>
+   </g>
+   <g class="active">
+    <text x="15" y="3" text-anchor="start" dx="1" dy="1" font-weight="bold">4</text>
+    <rect x="0" y="3" width="15" height="0.9" fill="#ffcc00"/>
+    <title>4 has 3 divisors: 1, 2, 4</title>
+   </g>
+   <path d="M 10,1 V 3" stroke="#000000"/>
+   <g class="active">
+    <rect x="0" y="4" width="10" height="0.9" fill="#009900"/>
+    <title>5 has 2 divisors: 1, 5</title>
+   </g>
+   <g class="active">
+    <text x="20" y="5" text-anchor="start" dx="1" dy="3" font-weight="bold">6*</text>
+    <rect x="0" y="5" width="20" height="0.9" fill="#0000ff"/>
+    <title>6 has 4 divisors: 1, 2, 3, 6</title>
+   </g>
+   <path d="M 15,3 V 5" stroke="#000000"/>
+   <g class="active">
+    <rect x="0" y="6" width="10" height="0.9" fill="#9900cc"/>
+    <title>7 has 2 divisors: 1, 7</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="7" width="20" height="0.9" fill="#999999"/>
+    <title>8 has 4 divisors: 1, 2, 4, 8</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="8" width="15" height="0.9" fill="#0099ff"/>
+    <title>9 has 3 divisors: 1, 3, 9</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="9" width="20" height="0.9" fill="#000000"/>
+    <title>10 has 4 divisors: 1, 2, 5, 10</title>
+   </g>
+   <text x="-2" y="9" dy="4">10</text>
+   <g class="active">
+    <rect x="0" y="10" width="10" height="0.9" fill="#663300"/>
+    <title>11 has 2 divisors: 1, 11</title>
+   </g>
+   <g class="active">
+    <text x="30" y="11" text-anchor="start" dx="0" dy="0" font-weight="bold">12*</text>
+    <rect x="0" y="11" width="30" height="0.9" fill="#cc0000"/>
+    <title>12 has 6 divisors: 1, 2, 3, 4, 6, 12</title>
+   </g>
+   <path d="M 20,5 V 11" stroke="#000000"/>
+   <g class="active">
+    <rect x="0" y="12" width="10" height="0.9" fill="#ff6600"/>
+    <title>13 has 2 divisors: 1, 13</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="13" width="20" height="0.9" fill="#ffcc00"/>
+    <title>14 has 4 divisors: 1, 2, 7, 14</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="14" width="20" height="0.9" fill="#009900"/>
+    <title>15 has 4 divisors: 1, 3, 5, 15</title>
+   </g>
+   <g class="active">
+    <text x="25" y="15" text-anchor="start" dx="-1" dy="1" font-size="5">16</text>
+    <rect x="0" y="15" width="25" height="0.9" fill="#0000ff"/>
+    <title>16 has 5 divisors: 1, 2, 4, 8, 16</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="16" width="10" height="0.9" fill="#9900cc"/>
+    <title>17 has 2 divisors: 1, 17</title>
+   </g>
+   <g class="active">
+    <text x="30" y="17" text-anchor="start" dx="0" dy="0" font-size="7">18</text>
+    <rect x="0" y="17" width="30" height="0.9" fill="#999999"/>
+    <title>18 has 6 divisors: 1, 2, 3, 6, 9, 18</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="18" width="10" height="0.9" fill="#0099ff"/>
+    <title>19 has 2 divisors: 1, 19</title>
+   </g>
+   <g class="active">
+    <text x="30" y="19" text-anchor="start" dx="1" dy="4" font-size="7">20</text>
+    <rect x="0" y="19" width="30" height="0.9" fill="#000000"/>
+    <title>20 has 6 divisors: 1, 2, 4, 5, 10, 20</title>
+   </g>
+   <text x="-2" y="19" dy="4">20</text>
+   <g class="active">
+    <rect x="0" y="20" width="20" height="0.9" fill="#663300"/>
+    <title>21 has 4 divisors: 1, 3, 7, 21</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="21" width="20" height="0.9" fill="#cc0000"/>
+    <title>22 has 4 divisors: 1, 2, 11, 22</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="22" width="10" height="0.9" fill="#ff6600"/>
+    <title>23 has 2 divisors: 1, 23</title>
+   </g>
+   <g class="active">
+    <text x="40" y="23" text-anchor="start" dx="1" dy="3" font-weight="bold">24</text>
+    <rect x="0" y="23" width="40" height="0.9" fill="#ffcc00"/>
+    <title>24 has 8 divisors: 1, 2, 3, 4, 6, 8, 12, 24</title>
+   </g>
+   <path d="M 30,11 V 23" stroke="#000000"/>
+   <g class="active">
+    <rect x="0" y="24" width="15" height="0.9" fill="#009900"/>
+    <title>25 has 3 divisors: 1, 5, 25</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="25" width="20" height="0.9" fill="#0000ff"/>
+    <title>26 has 4 divisors: 1, 2, 13, 26</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="26" width="20" height="0.9" fill="#9900cc"/>
+    <title>27 has 4 divisors: 1, 3, 9, 27</title>
+   </g>
+   <g class="active">
+    <text x="30" y="27" text-anchor="start" dx="1" dy="1" font-size="5">28</text>
+    <rect x="0" y="27" width="30" height="0.9" fill="#999999"/>
+    <title>28 has 6 divisors: 1, 2, 4, 7, 14, 28</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="28" width="10" height="0.9" fill="#0099ff"/>
+    <title>29 has 2 divisors: 1, 29</title>
+   </g>
+   <g class="active">
+    <text x="40" y="29" text-anchor="start" dx="1" dy="3" font-size="7">30</text>
+    <rect x="0" y="29" width="40" height="0.9" fill="#000000"/>
+    <title>30 has 8 divisors: 1, 2, 3, 5, 6, 10, 15, 30</title>
+   </g>
+   <text x="-2" y="29" dy="4">30</text>
+   <g class="active">
+    <rect x="0" y="30" width="10" height="0.9" fill="#663300"/>
+    <title>31 has 2 divisors: 1, 31</title>
+   </g>
+   <g class="active">
+    <text x="30" y="31" text-anchor="start" dx="1" dy="3" font-size="5">32</text>
+    <rect x="0" y="31" width="30" height="0.9" fill="#cc0000"/>
+    <title>32 has 6 divisors: 1, 2, 4, 8, 16, 32</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="32" width="20" height="0.9" fill="#ff6600"/>
+    <title>33 has 4 divisors: 1, 3, 11, 33</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="33" width="20" height="0.9" fill="#ffcc00"/>
+    <title>34 has 4 divisors: 1, 2, 17, 34</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="34" width="20" height="0.9" fill="#009900"/>
+    <title>35 has 4 divisors: 1, 5, 7, 35</title>
+   </g>
+   <g class="active">
+    <text x="45" y="35" text-anchor="start" dx="1" dy="4" font-weight="bold">36</text>
+    <rect x="0" y="35" width="45" height="0.9" fill="#0000ff"/>
+    <title>36 has 9 divisors: 1, 2, 3, 4, 6, 9, 12, 18, 36</title>
+   </g>
+   <path d="M 40,23 V 35" stroke="#000000"/>
+   <g class="active">
+    <rect x="0" y="36" width="10" height="0.9" fill="#9900cc"/>
+    <title>37 has 2 divisors: 1, 37</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="37" width="20" height="0.9" fill="#999999"/>
+    <title>38 has 4 divisors: 1, 2, 19, 38</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="38" width="20" height="0.9" fill="#0099ff"/>
+    <title>39 has 4 divisors: 1, 3, 13, 39</title>
+   </g>
+   <g class="active">
+    <text x="40" y="39" text-anchor="start" dx="0" dy="2" font-size="5">40</text>
+    <rect x="0" y="39" width="40" height="0.9" fill="#000000"/>
+    <title>40 has 8 divisors: 1, 2, 4, 5, 8, 10, 20, 40</title>
+   </g>
+   <text x="-2" y="39" dy="4">40</text>
+   <g class="active">
+    <rect x="0" y="40" width="10" height="0.9" fill="#663300"/>
+    <title>41 has 2 divisors: 1, 41</title>
+   </g>
+   <g class="active">
+    <text x="40" y="41" text-anchor="start" dx="0" dy="5" font-size="5">42</text>
+    <rect x="0" y="41" width="40" height="0.9" fill="#cc0000"/>
+    <title>42 has 8 divisors: 1, 2, 3, 6, 7, 14, 21, 42</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="42" width="10" height="0.9" fill="#ff6600"/>
+    <title>43 has 2 divisors: 1, 43</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="43" width="30" height="0.9" fill="#ffcc00"/>
+    <title>44 has 6 divisors: 1, 2, 4, 11, 22, 44</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="44" width="30" height="0.9" fill="#009900"/>
+    <title>45 has 6 divisors: 1, 3, 5, 9, 15, 45</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="45" width="20" height="0.9" fill="#0000ff"/>
+    <title>46 has 4 divisors: 1, 2, 23, 46</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="46" width="10" height="0.9" fill="#9900cc"/>
+    <title>47 has 2 divisors: 1, 47</title>
+   </g>
+   <g class="active">
+    <text x="50" y="47" text-anchor="start" dx="1" dy="3" font-weight="bold">48</text>
+    <rect x="0" y="47" width="50" height="0.9" fill="#999999"/>
+    <title>48 has 10 divisors: 1, 2, 3, 4, 6, 8, 12, 16, 24, 48</title>
+   </g>
+   <path d="M 45,35 V 47" stroke="#000000"/>
+   <g class="active">
+    <rect x="0" y="48" width="15" height="0.9" fill="#0099ff"/>
+    <title>49 has 3 divisors: 1, 7, 49</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="49" width="30" height="0.9" fill="#000000"/>
+    <title>50 has 6 divisors: 1, 2, 5, 10, 25, 50</title>
+   </g>
+   <text x="-2" y="49" dy="4">50</text>
+   <g class="active">
+    <rect x="0" y="50" width="20" height="0.9" fill="#663300"/>
+    <title>51 has 4 divisors: 1, 3, 17, 51</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="51" width="30" height="0.9" fill="#cc0000"/>
+    <title>52 has 6 divisors: 1, 2, 4, 13, 26, 52</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="52" width="10" height="0.9" fill="#ff6600"/>
+    <title>53 has 2 divisors: 1, 53</title>
+   </g>
+   <g class="active">
+    <text x="40" y="53" text-anchor="start" dx="1" dy="0" font-size="5">54</text>
+    <rect x="0" y="53" width="40" height="0.9" fill="#ffcc00"/>
+    <title>54 has 8 divisors: 1, 2, 3, 6, 9, 18, 27, 54</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="54" width="20" height="0.9" fill="#009900"/>
+    <title>55 has 4 divisors: 1, 5, 11, 55</title>
+   </g>
+   <g class="active">
+    <text x="40" y="55" text-anchor="start" dx="1" dy="3" font-size="5">56</text>
+    <rect x="0" y="55" width="40" height="0.9" fill="#0000ff"/>
+    <title>56 has 8 divisors: 1, 2, 4, 7, 8, 14, 28, 56</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="56" width="20" height="0.9" fill="#9900cc"/>
+    <title>57 has 4 divisors: 1, 3, 19, 57</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="57" width="20" height="0.9" fill="#999999"/>
+    <title>58 has 4 divisors: 1, 2, 29, 58</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="58" width="10" height="0.9" fill="#0099ff"/>
+    <title>59 has 2 divisors: 1, 59</title>
+   </g>
+   <g class="active">
+    <text x="60" y="59" text-anchor="start" dx="1" dy="3" font-weight="bold">60*</text>
+    <rect x="0" y="59" width="60" height="0.9" fill="#000000"/>
+    <title>60 has 12 divisors: 1, 2, 3, 4, 5, 6, 10, 12, 15, 20, 30, 60</title>
+   </g>
+   <path d="M 50,47 V 59" stroke="#000000"/>
+   <text x="-2" y="59" dy="4">60</text>
+   <g class="active">
+    <rect x="0" y="60" width="10" height="0.9" fill="#663300"/>
+    <title>61 has 2 divisors: 1, 61</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="61" width="20" height="0.9" fill="#cc0000"/>
+    <title>62 has 4 divisors: 1, 2, 31, 62</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="62" width="30" height="0.9" fill="#ff6600"/>
+    <title>63 has 6 divisors: 1, 3, 7, 9, 21, 63</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="63" width="35" height="0.9" fill="#ffcc00"/>
+    <title>64 has 7 divisors: 1, 2, 4, 8, 16, 32, 64</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="64" width="20" height="0.9" fill="#009900"/>
+    <title>65 has 4 divisors: 1, 5, 13, 65</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="65" width="40" height="0.9" fill="#0000ff"/>
+    <title>66 has 8 divisors: 1, 2, 3, 6, 11, 22, 33, 66</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="66" width="10" height="0.9" fill="#9900cc"/>
+    <title>67 has 2 divisors: 1, 67</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="67" width="30" height="0.9" fill="#999999"/>
+    <title>68 has 6 divisors: 1, 2, 4, 17, 34, 68</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="68" width="20" height="0.9" fill="#0099ff"/>
+    <title>69 has 4 divisors: 1, 3, 23, 69</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="69" width="40" height="0.9" fill="#000000"/>
+    <title>70 has 8 divisors: 1, 2, 5, 7, 10, 14, 35, 70</title>
+   </g>
+   <text x="-2" y="69" dy="4">70</text>
+   <g class="active">
+    <rect x="0" y="70" width="10" height="0.9" fill="#663300"/>
+    <title>71 has 2 divisors: 1, 71</title>
+   </g>
+   <g class="active">
+    <text x="60" y="71" text-anchor="start" dx="1" dy="3" font-size="7">72</text>
+    <rect x="0" y="71" width="60" height="0.9" fill="#cc0000"/>
+    <title>72 has 12 divisors: 1, 2, 3, 4, 6, 8, 9, 12, 18, 24, 36, 72</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="72" width="10" height="0.9" fill="#ff6600"/>
+    <title>73 has 2 divisors: 1, 73</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="73" width="20" height="0.9" fill="#ffcc00"/>
+    <title>74 has 4 divisors: 1, 2, 37, 74</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="74" width="30" height="0.9" fill="#009900"/>
+    <title>75 has 6 divisors: 1, 3, 5, 15, 25, 75</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="75" width="30" height="0.9" fill="#0000ff"/>
+    <title>76 has 6 divisors: 1, 2, 4, 19, 38, 76</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="76" width="20" height="0.9" fill="#9900cc"/>
+    <title>77 has 4 divisors: 1, 7, 11, 77</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="77" width="40" height="0.9" fill="#999999"/>
+    <title>78 has 8 divisors: 1, 2, 3, 6, 13, 26, 39, 78</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="78" width="10" height="0.9" fill="#0099ff"/>
+    <title>79 has 2 divisors: 1, 79</title>
+   </g>
+   <g class="active">
+    <text x="50" y="79" text-anchor="start" dx="1" dy="3" font-size="5">80</text>
+    <rect x="0" y="79" width="50" height="0.9" fill="#000000"/>
+    <title>80 has 10 divisors: 1, 2, 4, 5, 8, 10, 16, 20, 40, 80</title>
+   </g>
+   <text x="-2" y="79" dy="4">80</text>
+   <g class="active">
+    <rect x="0" y="80" width="25" height="0.9" fill="#663300"/>
+    <title>81 has 5 divisors: 1, 3, 9, 27, 81</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="81" width="20" height="0.9" fill="#cc0000"/>
+    <title>82 has 4 divisors: 1, 2, 41, 82</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="82" width="10" height="0.9" fill="#ff6600"/>
+    <title>83 has 2 divisors: 1, 83</title>
+   </g>
+   <g class="active">
+    <text x="60" y="83" text-anchor="start" dx="1" dy="3" font-size="7">84</text>
+    <rect x="0" y="83" width="60" height="0.9" fill="#ffcc00"/>
+    <title>84 has 12 divisors: 1, 2, 3, 4, 6, 7, 12, 14, 21, 28, 42, 84</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="84" width="20" height="0.9" fill="#009900"/>
+    <title>85 has 4 divisors: 1, 5, 17, 85</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="85" width="20" height="0.9" fill="#0000ff"/>
+    <title>86 has 4 divisors: 1, 2, 43, 86</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="86" width="20" height="0.9" fill="#9900cc"/>
+    <title>87 has 4 divisors: 1, 3, 29, 87</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="87" width="40" height="0.9" fill="#999999"/>
+    <title>88 has 8 divisors: 1, 2, 4, 8, 11, 22, 44, 88</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="88" width="10" height="0.9" fill="#0099ff"/>
+    <title>89 has 2 divisors: 1, 89</title>
+   </g>
+   <g class="active">
+    <text x="60" y="89" text-anchor="start" dx="1" dy="3" font-size="7">90</text>
+    <rect x="0" y="89" width="60" height="0.9" fill="#000000"/>
+    <title>90 has 12 divisors: 1, 2, 3, 5, 6, 9, 10, 15, 18, 30, 45, 90</title>
+   </g>
+   <text x="-2" y="89" dy="4">90</text>
+   <g class="active">
+    <rect x="0" y="90" width="20" height="0.9" fill="#663300"/>
+    <title>91 has 4 divisors: 1, 7, 13, 91</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="91" width="30" height="0.9" fill="#cc0000"/>
+    <title>92 has 6 divisors: 1, 2, 4, 23, 46, 92</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="92" width="20" height="0.9" fill="#ff6600"/>
+    <title>93 has 4 divisors: 1, 3, 31, 93</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="93" width="20" height="0.9" fill="#ffcc00"/>
+    <title>94 has 4 divisors: 1, 2, 47, 94</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="94" width="20" height="0.9" fill="#009900"/>
+    <title>95 has 4 divisors: 1, 5, 19, 95</title>
+   </g>
+   <g class="active">
+    <text x="60" y="95" text-anchor="start" dx="1" dy="3" font-size="7">96</text>
+    <rect x="0" y="95" width="60" height="0.9" fill="#0000ff"/>
+    <title>96 has 12 divisors: 1, 2, 3, 4, 6, 8, 12, 16, 24, 32, 48, 96</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="96" width="10" height="0.9" fill="#9900cc"/>
+    <title>97 has 2 divisors: 1, 97</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="97" width="30" height="0.9" fill="#999999"/>
+    <title>98 has 6 divisors: 1, 2, 7, 14, 49, 98</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="98" width="30" height="0.9" fill="#0099ff"/>
+    <title>99 has 6 divisors: 1, 3, 9, 11, 33, 99</title>
+   </g>
+   <g class="active">
+    <text x="45" y="99" text-anchor="start" dx="1" dy="3" font-size="5">100</text>
+    <rect x="0" y="99" width="45" height="0.9" fill="#000000"/>
+    <title>100 has 9 divisors: 1, 2, 4, 5, 10, 20, 25, 50, 100</title>
+   </g>
+   <text x="-2" y="99" dy="4">100</text>
+   <g class="active">
+    <rect x="0" y="100" width="10" height="0.9" fill="#663300"/>
+    <title>101 has 2 divisors: 1, 101</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="101" width="40" height="0.9" fill="#cc0000"/>
+    <title>102 has 8 divisors: 1, 2, 3, 6, 17, 34, 51, 102</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="102" width="10" height="0.9" fill="#ff6600"/>
+    <title>103 has 2 divisors: 1, 103</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="103" width="40" height="0.9" fill="#ffcc00"/>
+    <title>104 has 8 divisors: 1, 2, 4, 8, 13, 26, 52, 104</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="104" width="40" height="0.9" fill="#009900"/>
+    <title>105 has 8 divisors: 1, 3, 5, 7, 15, 21, 35, 105</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="105" width="20" height="0.9" fill="#0000ff"/>
+    <title>106 has 4 divisors: 1, 2, 53, 106</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="106" width="10" height="0.9" fill="#9900cc"/>
+    <title>107 has 2 divisors: 1, 107</title>
+   </g>
+   <g class="active">
+    <text x="60" y="107" text-anchor="start" dx="1" dy="3" font-size="7">108</text>
+    <rect x="0" y="107" width="60" height="0.9" fill="#999999"/>
+    <title>108 has 12 divisors: 1, 2, 3, 4, 6, 9, 12, 18, 27, 36, 54, 108</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="108" width="10" height="0.9" fill="#0099ff"/>
+    <title>109 has 2 divisors: 1, 109</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="109" width="40" height="0.9" fill="#000000"/>
+    <title>110 has 8 divisors: 1, 2, 5, 10, 11, 22, 55, 110</title>
+   </g>
+   <text x="-2" y="109" dy="4">110</text>
+   <g class="active">
+    <rect x="0" y="110" width="20" height="0.9" fill="#663300"/>
+    <title>111 has 4 divisors: 1, 3, 37, 111</title>
+   </g>
+   <g class="active">
+    <text x="50" y="111" text-anchor="start" dx="1" dy="3" font-size="5">112</text>
+    <rect x="0" y="111" width="50" height="0.9" fill="#cc0000"/>
+    <title>112 has 10 divisors: 1, 2, 4, 7, 8, 14, 16, 28, 56, 112</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="112" width="10" height="0.9" fill="#ff6600"/>
+    <title>113 has 2 divisors: 1, 113</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="113" width="40" height="0.9" fill="#ffcc00"/>
+    <title>114 has 8 divisors: 1, 2, 3, 6, 19, 38, 57, 114</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="114" width="20" height="0.9" fill="#009900"/>
+    <title>115 has 4 divisors: 1, 5, 23, 115</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="115" width="30" height="0.9" fill="#0000ff"/>
+    <title>116 has 6 divisors: 1, 2, 4, 29, 58, 116</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="116" width="30" height="0.9" fill="#9900cc"/>
+    <title>117 has 6 divisors: 1, 3, 9, 13, 39, 117</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="117" width="20" height="0.9" fill="#999999"/>
+    <title>118 has 4 divisors: 1, 2, 59, 118</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="118" width="20" height="0.9" fill="#0099ff"/>
+    <title>119 has 4 divisors: 1, 7, 17, 119</title>
+   </g>
+   <g class="active">
+    <text x="80" y="119" text-anchor="start" dx="1" dy="3" font-weight="bold">120*</text>
+    <rect x="0" y="119" width="80" height="0.9" fill="#000000"/>
+    <title>120 has 16 divisors: 1, 2, 3, 4, 5, 6, 8, 10, 12, 15, 20, 24, 30, 40, 60, 120</title>
+   </g>
+   <path d="M 60,59 V 119" stroke="#000000"/>
+   <text x="-2" y="119" dy="4">120</text>
+   <g class="active">
+    <rect x="0" y="120" width="15" height="0.9" fill="#663300"/>
+    <title>121 has 3 divisors: 1, 11, 121</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="121" width="20" height="0.9" fill="#cc0000"/>
+    <title>122 has 4 divisors: 1, 2, 61, 122</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="122" width="20" height="0.9" fill="#ff6600"/>
+    <title>123 has 4 divisors: 1, 3, 41, 123</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="123" width="30" height="0.9" fill="#ffcc00"/>
+    <title>124 has 6 divisors: 1, 2, 4, 31, 62, 124</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="124" width="20" height="0.9" fill="#009900"/>
+    <title>125 has 4 divisors: 1, 5, 25, 125</title>
+   </g>
+   <g class="active">
+    <text x="60" y="125" text-anchor="start" dx="1" dy="3" font-size="5">126</text>
+    <rect x="0" y="125" width="60" height="0.9" fill="#0000ff"/>
+    <title>126 has 12 divisors: 1, 2, 3, 6, 7, 9, 14, 18, 21, 42, 63, 126</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="126" width="10" height="0.9" fill="#9900cc"/>
+    <title>127 has 2 divisors: 1, 127</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="127" width="40" height="0.9" fill="#999999"/>
+    <title>128 has 8 divisors: 1, 2, 4, 8, 16, 32, 64, 128</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="128" width="20" height="0.9" fill="#0099ff"/>
+    <title>129 has 4 divisors: 1, 3, 43, 129</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="129" width="40" height="0.9" fill="#000000"/>
+    <title>130 has 8 divisors: 1, 2, 5, 10, 13, 26, 65, 130</title>
+   </g>
+   <text x="-2" y="129" dy="4">130</text>
+   <g class="active">
+    <rect x="0" y="130" width="10" height="0.9" fill="#663300"/>
+    <title>131 has 2 divisors: 1, 131</title>
+   </g>
+   <g class="active">
+    <text x="60" y="131" text-anchor="start" dx="1" dy="3" font-size="5">132</text>
+    <rect x="0" y="131" width="60" height="0.9" fill="#cc0000"/>
+    <title>132 has 12 divisors: 1, 2, 3, 4, 6, 11, 12, 22, 33, 44, 66, 132</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="132" width="20" height="0.9" fill="#ff6600"/>
+    <title>133 has 4 divisors: 1, 7, 19, 133</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="133" width="20" height="0.9" fill="#ffcc00"/>
+    <title>134 has 4 divisors: 1, 2, 67, 134</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="134" width="40" height="0.9" fill="#009900"/>
+    <title>135 has 8 divisors: 1, 3, 5, 9, 15, 27, 45, 135</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="135" width="40" height="0.9" fill="#0000ff"/>
+    <title>136 has 8 divisors: 1, 2, 4, 8, 17, 34, 68, 136</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="136" width="10" height="0.9" fill="#9900cc"/>
+    <title>137 has 2 divisors: 1, 137</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="137" width="40" height="0.9" fill="#999999"/>
+    <title>138 has 8 divisors: 1, 2, 3, 6, 23, 46, 69, 138</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="138" width="10" height="0.9" fill="#0099ff"/>
+    <title>139 has 2 divisors: 1, 139</title>
+   </g>
+   <g class="active">
+    <text x="60" y="139" text-anchor="start" dx="1" dy="3" font-size="5">140</text>
+    <rect x="0" y="139" width="60" height="0.9" fill="#000000"/>
+    <title>140 has 12 divisors: 1, 2, 4, 5, 7, 10, 14, 20, 28, 35, 70, 140</title>
+   </g>
+   <text x="-2" y="139" dy="4">140</text>
+   <g class="active">
+    <rect x="0" y="140" width="20" height="0.9" fill="#663300"/>
+    <title>141 has 4 divisors: 1, 3, 47, 141</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="141" width="20" height="0.9" fill="#cc0000"/>
+    <title>142 has 4 divisors: 1, 2, 71, 142</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="142" width="20" height="0.9" fill="#ff6600"/>
+    <title>143 has 4 divisors: 1, 11, 13, 143</title>
+   </g>
+   <g class="active">
+    <text x="75" y="143" text-anchor="start" dx="-4" dy="6" font-size="5">144</text>
+    <rect x="0" y="143" width="75" height="0.9" fill="#ffcc00"/>
+    <title>144 has 15 divisors: 1, 2, 3, 4, 6, 8, 9, 12, 16, 18, 24, 36, 48, 72, 144</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="144" width="20" height="0.9" fill="#009900"/>
+    <title>145 has 4 divisors: 1, 5, 29, 145</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="145" width="20" height="0.9" fill="#0000ff"/>
+    <title>146 has 4 divisors: 1, 2, 73, 146</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="146" width="30" height="0.9" fill="#9900cc"/>
+    <title>147 has 6 divisors: 1, 3, 7, 21, 49, 147</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="147" width="30" height="0.9" fill="#999999"/>
+    <title>148 has 6 divisors: 1, 2, 4, 37, 74, 148</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="148" width="10" height="0.9" fill="#0099ff"/>
+    <title>149 has 2 divisors: 1, 149</title>
+   </g>
+   <g class="active">
+    <text x="60" y="149" text-anchor="start" dx="1" dy="3" font-size="5">150</text>
+    <rect x="0" y="149" width="60" height="0.9" fill="#000000"/>
+    <title>150 has 12 divisors: 1, 2, 3, 5, 6, 10, 15, 25, 30, 50, 75, 150</title>
+   </g>
+   <text x="-2" y="149" dy="4">150</text>
+   <g class="active">
+    <rect x="0" y="150" width="10" height="0.9" fill="#663300"/>
+    <title>151 has 2 divisors: 1, 151</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="151" width="40" height="0.9" fill="#cc0000"/>
+    <title>152 has 8 divisors: 1, 2, 4, 8, 19, 38, 76, 152</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="152" width="30" height="0.9" fill="#ff6600"/>
+    <title>153 has 6 divisors: 1, 3, 9, 17, 51, 153</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="153" width="40" height="0.9" fill="#ffcc00"/>
+    <title>154 has 8 divisors: 1, 2, 7, 11, 14, 22, 77, 154</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="154" width="20" height="0.9" fill="#009900"/>
+    <title>155 has 4 divisors: 1, 5, 31, 155</title>
+   </g>
+   <g class="active">
+    <text x="60" y="155" text-anchor="start" dx="1" dy="2" font-size="5">156</text>
+    <rect x="0" y="155" width="60" height="0.9" fill="#0000ff"/>
+    <title>156 has 12 divisors: 1, 2, 3, 4, 6, 12, 13, 26, 39, 52, 78, 156</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="156" width="10" height="0.9" fill="#9900cc"/>
+    <title>157 has 2 divisors: 1, 157</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="157" width="20" height="0.9" fill="#999999"/>
+    <title>158 has 4 divisors: 1, 2, 79, 158</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="158" width="20" height="0.9" fill="#0099ff"/>
+    <title>159 has 4 divisors: 1, 3, 53, 159</title>
+   </g>
+   <g class="active">
+    <text x="60" y="159" text-anchor="start" dx="1" dy="3" font-size="5">160</text>
+    <rect x="0" y="159" width="60" height="0.9" fill="#000000"/>
+    <title>160 has 12 divisors: 1, 2, 4, 5, 8, 10, 16, 20, 32, 40, 80, 160</title>
+   </g>
+   <text x="-2" y="159" dy="4">160</text>
+   <g class="active">
+    <rect x="0" y="160" width="20" height="0.9" fill="#663300"/>
+    <title>161 has 4 divisors: 1, 7, 23, 161</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="161" width="50" height="0.9" fill="#cc0000"/>
+    <title>162 has 10 divisors: 1, 2, 3, 6, 9, 18, 27, 54, 81, 162</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="162" width="10" height="0.9" fill="#ff6600"/>
+    <title>163 has 2 divisors: 1, 163</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="163" width="30" height="0.9" fill="#ffcc00"/>
+    <title>164 has 6 divisors: 1, 2, 4, 41, 82, 164</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="164" width="40" height="0.9" fill="#009900"/>
+    <title>165 has 8 divisors: 1, 3, 5, 11, 15, 33, 55, 165</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="165" width="20" height="0.9" fill="#0000ff"/>
+    <title>166 has 4 divisors: 1, 2, 83, 166</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="166" width="10" height="0.9" fill="#9900cc"/>
+    <title>167 has 2 divisors: 1, 167</title>
+   </g>
+   <g class="active">
+    <text x="80" y="167" text-anchor="start" dx="1" dy="3" font-size="7">168</text>
+    <rect x="0" y="167" width="80" height="0.9" fill="#999999"/>
+    <title>168 has 16 divisors: 1, 2, 3, 4, 6, 7, 8, 12, 14, 21, 24, 28, 42, 56, 84, 168</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="168" width="15" height="0.9" fill="#0099ff"/>
+    <title>169 has 3 divisors: 1, 13, 169</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="169" width="40" height="0.9" fill="#000000"/>
+    <title>170 has 8 divisors: 1, 2, 5, 10, 17, 34, 85, 170</title>
+   </g>
+   <text x="-2" y="169" dy="4">170</text>
+   <g class="active">
+    <rect x="0" y="170" width="30" height="0.9" fill="#663300"/>
+    <title>171 has 6 divisors: 1, 3, 9, 19, 57, 171</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="171" width="30" height="0.9" fill="#cc0000"/>
+    <title>172 has 6 divisors: 1, 2, 4, 43, 86, 172</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="172" width="10" height="0.9" fill="#ff6600"/>
+    <title>173 has 2 divisors: 1, 173</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="173" width="40" height="0.9" fill="#ffcc00"/>
+    <title>174 has 8 divisors: 1, 2, 3, 6, 29, 58, 87, 174</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="174" width="30" height="0.9" fill="#009900"/>
+    <title>175 has 6 divisors: 1, 5, 7, 25, 35, 175</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="175" width="50" height="0.9" fill="#0000ff"/>
+    <title>176 has 10 divisors: 1, 2, 4, 8, 11, 16, 22, 44, 88, 176</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="176" width="20" height="0.9" fill="#9900cc"/>
+    <title>177 has 4 divisors: 1, 3, 59, 177</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="177" width="20" height="0.9" fill="#999999"/>
+    <title>178 has 4 divisors: 1, 2, 89, 178</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="178" width="10" height="0.9" fill="#0099ff"/>
+    <title>179 has 2 divisors: 1, 179</title>
+   </g>
+   <g class="active">
+    <text x="90" y="179" text-anchor="start" dx="1" dy="3" font-weight="bold">180</text>
+    <rect x="0" y="179" width="90" height="0.9" fill="#000000"/>
+    <title>180 has 18 divisors: 1, 2, 3, 4, 5, 6, 9, 10, 12, 15, 18, 20, 30, 36, 45, 60, 90, 180</title>
+   </g>
+   <path d="M 80,119 V 179" stroke="#000000"/>
+   <text x="-2" y="179" dy="4">180</text>
+   <g class="active">
+    <rect x="0" y="180" width="10" height="0.9" fill="#663300"/>
+    <title>181 has 2 divisors: 1, 181</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="181" width="40" height="0.9" fill="#cc0000"/>
+    <title>182 has 8 divisors: 1, 2, 7, 13, 14, 26, 91, 182</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="182" width="20" height="0.9" fill="#ff6600"/>
+    <title>183 has 4 divisors: 1, 3, 61, 183</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="183" width="40" height="0.9" fill="#ffcc00"/>
+    <title>184 has 8 divisors: 1, 2, 4, 8, 23, 46, 92, 184</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="184" width="20" height="0.9" fill="#009900"/>
+    <title>185 has 4 divisors: 1, 5, 37, 185</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="185" width="40" height="0.9" fill="#0000ff"/>
+    <title>186 has 8 divisors: 1, 2, 3, 6, 31, 62, 93, 186</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="186" width="20" height="0.9" fill="#9900cc"/>
+    <title>187 has 4 divisors: 1, 11, 17, 187</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="187" width="30" height="0.9" fill="#999999"/>
+    <title>188 has 6 divisors: 1, 2, 4, 47, 94, 188</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="188" width="40" height="0.9" fill="#0099ff"/>
+    <title>189 has 8 divisors: 1, 3, 7, 9, 21, 27, 63, 189</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="189" width="40" height="0.9" fill="#000000"/>
+    <title>190 has 8 divisors: 1, 2, 5, 10, 19, 38, 95, 190</title>
+   </g>
+   <text x="-2" y="189" dy="4">190</text>
+   <g class="active">
+    <rect x="0" y="190" width="10" height="0.9" fill="#663300"/>
+    <title>191 has 2 divisors: 1, 191</title>
+   </g>
+   <g class="active">
+    <text x="70" y="191" text-anchor="start" dx="1" dy="3" font-size="5">192</text>
+    <rect x="0" y="191" width="70" height="0.9" fill="#cc0000"/>
+    <title>192 has 14 divisors: 1, 2, 3, 4, 6, 8, 12, 16, 24, 32, 48, 64, 96, 192</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="192" width="10" height="0.9" fill="#ff6600"/>
+    <title>193 has 2 divisors: 1, 193</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="193" width="20" height="0.9" fill="#ffcc00"/>
+    <title>194 has 4 divisors: 1, 2, 97, 194</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="194" width="40" height="0.9" fill="#009900"/>
+    <title>195 has 8 divisors: 1, 3, 5, 13, 15, 39, 65, 195</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="195" width="45" height="0.9" fill="#0000ff"/>
+    <title>196 has 9 divisors: 1, 2, 4, 7, 14, 28, 49, 98, 196</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="196" width="10" height="0.9" fill="#9900cc"/>
+    <title>197 has 2 divisors: 1, 197</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="197" width="60" height="0.9" fill="#999999"/>
+    <title>198 has 12 divisors: 1, 2, 3, 6, 9, 11, 18, 22, 33, 66, 99, 198</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="198" width="10" height="0.9" fill="#0099ff"/>
+    <title>199 has 2 divisors: 1, 199</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="199" width="60" height="0.9" fill="#000000"/>
+    <title>200 has 12 divisors: 1, 2, 4, 5, 8, 10, 20, 25, 40, 50, 100, 200</title>
+   </g>
+   <text x="-2" y="199" dy="4">200</text>
+   <g class="active">
+    <rect x="0" y="200" width="20" height="0.9" fill="#663300"/>
+    <title>201 has 4 divisors: 1, 3, 67, 201</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="201" width="20" height="0.9" fill="#cc0000"/>
+    <title>202 has 4 divisors: 1, 2, 101, 202</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="202" width="20" height="0.9" fill="#ff6600"/>
+    <title>203 has 4 divisors: 1, 7, 29, 203</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="203" width="60" height="0.9" fill="#ffcc00"/>
+    <title>204 has 12 divisors: 1, 2, 3, 4, 6, 12, 17, 34, 51, 68, 102, 204</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="204" width="20" height="0.9" fill="#009900"/>
+    <title>205 has 4 divisors: 1, 5, 41, 205</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="205" width="20" height="0.9" fill="#0000ff"/>
+    <title>206 has 4 divisors: 1, 2, 103, 206</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="206" width="30" height="0.9" fill="#9900cc"/>
+    <title>207 has 6 divisors: 1, 3, 9, 23, 69, 207</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="207" width="50" height="0.9" fill="#999999"/>
+    <title>208 has 10 divisors: 1, 2, 4, 8, 13, 16, 26, 52, 104, 208</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="208" width="20" height="0.9" fill="#0099ff"/>
+    <title>209 has 4 divisors: 1, 11, 19, 209</title>
+   </g>
+   <g class="active">
+    <text x="80" y="209" text-anchor="start" dx="1" dy="3" font-size="5">210</text>
+    <rect x="0" y="209" width="80" height="0.9" fill="#000000"/>
+    <title>210 has 16 divisors: 1, 2, 3, 5, 6, 7, 10, 14, 15, 21, 30, 35, 42, 70, 105, 210</title>
+   </g>
+   <text x="-2" y="209" dy="4">210</text>
+   <g class="active">
+    <rect x="0" y="210" width="10" height="0.9" fill="#663300"/>
+    <title>211 has 2 divisors: 1, 211</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="211" width="30" height="0.9" fill="#cc0000"/>
+    <title>212 has 6 divisors: 1, 2, 4, 53, 106, 212</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="212" width="20" height="0.9" fill="#ff6600"/>
+    <title>213 has 4 divisors: 1, 3, 71, 213</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="213" width="20" height="0.9" fill="#ffcc00"/>
+    <title>214 has 4 divisors: 1, 2, 107, 214</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="214" width="20" height="0.9" fill="#009900"/>
+    <title>215 has 4 divisors: 1, 5, 43, 215</title>
+   </g>
+   <g class="active">
+    <text x="80" y="215" text-anchor="start" dx="1" dy="3" font-size="5">216</text>
+    <rect x="0" y="215" width="80" height="0.9" fill="#0000ff"/>
+    <title>216 has 16 divisors: 1, 2, 3, 4, 6, 8, 9, 12, 18, 24, 27, 36, 54, 72, 108, 216</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="216" width="20" height="0.9" fill="#9900cc"/>
+    <title>217 has 4 divisors: 1, 7, 31, 217</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="217" width="20" height="0.9" fill="#999999"/>
+    <title>218 has 4 divisors: 1, 2, 109, 218</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="218" width="20" height="0.9" fill="#0099ff"/>
+    <title>219 has 4 divisors: 1, 3, 73, 219</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="219" width="60" height="0.9" fill="#000000"/>
+    <title>220 has 12 divisors: 1, 2, 4, 5, 10, 11, 20, 22, 44, 55, 110, 220</title>
+   </g>
+   <text x="-2" y="219" dy="4">220</text>
+   <g class="active">
+    <rect x="0" y="220" width="20" height="0.9" fill="#663300"/>
+    <title>221 has 4 divisors: 1, 13, 17, 221</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="221" width="40" height="0.9" fill="#cc0000"/>
+    <title>222 has 8 divisors: 1, 2, 3, 6, 37, 74, 111, 222</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="222" width="10" height="0.9" fill="#ff6600"/>
+    <title>223 has 2 divisors: 1, 223</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="223" width="60" height="0.9" fill="#ffcc00"/>
+    <title>224 has 12 divisors: 1, 2, 4, 7, 8, 14, 16, 28, 32, 56, 112, 224</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="224" width="45" height="0.9" fill="#009900"/>
+    <title>225 has 9 divisors: 1, 3, 5, 9, 15, 25, 45, 75, 225</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="225" width="20" height="0.9" fill="#0000ff"/>
+    <title>226 has 4 divisors: 1, 2, 113, 226</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="226" width="10" height="0.9" fill="#9900cc"/>
+    <title>227 has 2 divisors: 1, 227</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="227" width="60" height="0.9" fill="#999999"/>
+    <title>228 has 12 divisors: 1, 2, 3, 4, 6, 12, 19, 38, 57, 76, 114, 228</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="228" width="10" height="0.9" fill="#0099ff"/>
+    <title>229 has 2 divisors: 1, 229</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="229" width="40" height="0.9" fill="#000000"/>
+    <title>230 has 8 divisors: 1, 2, 5, 10, 23, 46, 115, 230</title>
+   </g>
+   <text x="-2" y="229" dy="4">230</text>
+   <g class="active">
+    <rect x="0" y="230" width="40" height="0.9" fill="#663300"/>
+    <title>231 has 8 divisors: 1, 3, 7, 11, 21, 33, 77, 231</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="231" width="40" height="0.9" fill="#cc0000"/>
+    <title>232 has 8 divisors: 1, 2, 4, 8, 29, 58, 116, 232</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="232" width="10" height="0.9" fill="#ff6600"/>
+    <title>233 has 2 divisors: 1, 233</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="233" width="60" height="0.9" fill="#ffcc00"/>
+    <title>234 has 12 divisors: 1, 2, 3, 6, 9, 13, 18, 26, 39, 78, 117, 234</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="234" width="20" height="0.9" fill="#009900"/>
+    <title>235 has 4 divisors: 1, 5, 47, 235</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="235" width="30" height="0.9" fill="#0000ff"/>
+    <title>236 has 6 divisors: 1, 2, 4, 59, 118, 236</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="236" width="20" height="0.9" fill="#9900cc"/>
+    <title>237 has 4 divisors: 1, 3, 79, 237</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="237" width="40" height="0.9" fill="#999999"/>
+    <title>238 has 8 divisors: 1, 2, 7, 14, 17, 34, 119, 238</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="238" width="10" height="0.9" fill="#0099ff"/>
+    <title>239 has 2 divisors: 1, 239</title>
+   </g>
+   <g class="active">
+    <text x="100" y="239" text-anchor="start" dx="1" dy="3" font-weight="bold">240</text>
+    <rect x="0" y="239" width="100" height="0.9" fill="#000000"/>
+    <title>240 has 20 divisors: 1, 2, 3, 4, 5, 6, 8, 10, 12, 15, 16, 20, 24, 30, 40, 48, 60, 80, 120, 240</title>
+   </g>
+   <path d="M 90,179 V 239" stroke="#000000"/>
+   <text x="-2" y="239" dy="4">240</text>
+   <g class="active">
+    <rect x="0" y="240" width="10" height="0.9" fill="#663300"/>
+    <title>241 has 2 divisors: 1, 241</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="241" width="30" height="0.9" fill="#cc0000"/>
+    <title>242 has 6 divisors: 1, 2, 11, 22, 121, 242</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="242" width="30" height="0.9" fill="#ff6600"/>
+    <title>243 has 6 divisors: 1, 3, 9, 27, 81, 243</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="243" width="30" height="0.9" fill="#ffcc00"/>
+    <title>244 has 6 divisors: 1, 2, 4, 61, 122, 244</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="244" width="30" height="0.9" fill="#009900"/>
+    <title>245 has 6 divisors: 1, 5, 7, 35, 49, 245</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="245" width="40" height="0.9" fill="#0000ff"/>
+    <title>246 has 8 divisors: 1, 2, 3, 6, 41, 82, 123, 246</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="246" width="20" height="0.9" fill="#9900cc"/>
+    <title>247 has 4 divisors: 1, 13, 19, 247</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="247" width="40" height="0.9" fill="#999999"/>
+    <title>248 has 8 divisors: 1, 2, 4, 8, 31, 62, 124, 248</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="248" width="20" height="0.9" fill="#0099ff"/>
+    <title>249 has 4 divisors: 1, 3, 83, 249</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="249" width="40" height="0.9" fill="#000000"/>
+    <title>250 has 8 divisors: 1, 2, 5, 10, 25, 50, 125, 250</title>
+   </g>
+   <text x="-2" y="249" dy="4">250</text>
+   <g class="active">
+    <rect x="0" y="250" width="10" height="0.9" fill="#663300"/>
+    <title>251 has 2 divisors: 1, 251</title>
+   </g>
+   <g class="active">
+    <text x="90" y="251" text-anchor="start" dx="1" dy="3" font-size="5">252</text>
+    <rect x="0" y="251" width="90" height="0.9" fill="#cc0000"/>
+    <title>252 has 18 divisors: 1, 2, 3, 4, 6, 7, 9, 12, 14, 18, 21, 28, 36, 42, 63, 84, 126, 252</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="252" width="20" height="0.9" fill="#ff6600"/>
+    <title>253 has 4 divisors: 1, 11, 23, 253</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="253" width="20" height="0.9" fill="#ffcc00"/>
+    <title>254 has 4 divisors: 1, 2, 127, 254</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="254" width="40" height="0.9" fill="#009900"/>
+    <title>255 has 8 divisors: 1, 3, 5, 15, 17, 51, 85, 255</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="255" width="45" height="0.9" fill="#0000ff"/>
+    <title>256 has 9 divisors: 1, 2, 4, 8, 16, 32, 64, 128, 256</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="256" width="10" height="0.9" fill="#9900cc"/>
+    <title>257 has 2 divisors: 1, 257</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="257" width="40" height="0.9" fill="#999999"/>
+    <title>258 has 8 divisors: 1, 2, 3, 6, 43, 86, 129, 258</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="258" width="20" height="0.9" fill="#0099ff"/>
+    <title>259 has 4 divisors: 1, 7, 37, 259</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="259" width="60" height="0.9" fill="#000000"/>
+    <title>260 has 12 divisors: 1, 2, 4, 5, 10, 13, 20, 26, 52, 65, 130, 260</title>
+   </g>
+   <text x="-2" y="259" dy="4">260</text>
+   <g class="active">
+    <rect x="0" y="260" width="30" height="0.9" fill="#663300"/>
+    <title>261 has 6 divisors: 1, 3, 9, 29, 87, 261</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="261" width="20" height="0.9" fill="#cc0000"/>
+    <title>262 has 4 divisors: 1, 2, 131, 262</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="262" width="10" height="0.9" fill="#ff6600"/>
+    <title>263 has 2 divisors: 1, 263</title>
+   </g>
+   <g class="active">
+    <text x="80" y="263" text-anchor="start" dx="1" dy="3" font-size="5">264</text>
+    <rect x="0" y="263" width="80" height="0.9" fill="#ffcc00"/>
+    <title>264 has 16 divisors: 1, 2, 3, 4, 6, 8, 11, 12, 22, 24, 33, 44, 66, 88, 132, 264</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="264" width="20" height="0.9" fill="#009900"/>
+    <title>265 has 4 divisors: 1, 5, 53, 265</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="265" width="40" height="0.9" fill="#0000ff"/>
+    <title>266 has 8 divisors: 1, 2, 7, 14, 19, 38, 133, 266</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="266" width="20" height="0.9" fill="#9900cc"/>
+    <title>267 has 4 divisors: 1, 3, 89, 267</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="267" width="30" height="0.9" fill="#999999"/>
+    <title>268 has 6 divisors: 1, 2, 4, 67, 134, 268</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="268" width="10" height="0.9" fill="#0099ff"/>
+    <title>269 has 2 divisors: 1, 269</title>
+   </g>
+   <g class="active">
+    <text x="80" y="269" text-anchor="start" dx="1" dy="3" font-size="5">270</text>
+    <rect x="0" y="269" width="80" height="0.9" fill="#000000"/>
+    <title>270 has 16 divisors: 1, 2, 3, 5, 6, 9, 10, 15, 18, 27, 30, 45, 54, 90, 135, 270</title>
+   </g>
+   <text x="-2" y="269" dy="4">270</text>
+   <g class="active">
+    <rect x="0" y="270" width="10" height="0.9" fill="#663300"/>
+    <title>271 has 2 divisors: 1, 271</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="271" width="50" height="0.9" fill="#cc0000"/>
+    <title>272 has 10 divisors: 1, 2, 4, 8, 16, 17, 34, 68, 136, 272</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="272" width="40" height="0.9" fill="#ff6600"/>
+    <title>273 has 8 divisors: 1, 3, 7, 13, 21, 39, 91, 273</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="273" width="20" height="0.9" fill="#ffcc00"/>
+    <title>274 has 4 divisors: 1, 2, 137, 274</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="274" width="30" height="0.9" fill="#009900"/>
+    <title>275 has 6 divisors: 1, 5, 11, 25, 55, 275</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="275" width="60" height="0.9" fill="#0000ff"/>
+    <title>276 has 12 divisors: 1, 2, 3, 4, 6, 12, 23, 46, 69, 92, 138, 276</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="276" width="10" height="0.9" fill="#9900cc"/>
+    <title>277 has 2 divisors: 1, 277</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="277" width="20" height="0.9" fill="#999999"/>
+    <title>278 has 4 divisors: 1, 2, 139, 278</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="278" width="30" height="0.9" fill="#0099ff"/>
+    <title>279 has 6 divisors: 1, 3, 9, 31, 93, 279</title>
+   </g>
+   <g class="active">
+    <text x="80" y="279" text-anchor="start" dx="1" dy="3" font-size="5">280</text>
+    <rect x="0" y="279" width="80" height="0.9" fill="#000000"/>
+    <title>280 has 16 divisors: 1, 2, 4, 5, 7, 8, 10, 14, 20, 28, 35, 40, 56, 70, 140, 280</title>
+   </g>
+   <text x="-2" y="279" dy="4">280</text>
+   <g class="active">
+    <rect x="0" y="280" width="10" height="0.9" fill="#663300"/>
+    <title>281 has 2 divisors: 1, 281</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="281" width="40" height="0.9" fill="#cc0000"/>
+    <title>282 has 8 divisors: 1, 2, 3, 6, 47, 94, 141, 282</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="282" width="10" height="0.9" fill="#ff6600"/>
+    <title>283 has 2 divisors: 1, 283</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="283" width="30" height="0.9" fill="#ffcc00"/>
+    <title>284 has 6 divisors: 1, 2, 4, 71, 142, 284</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="284" width="40" height="0.9" fill="#009900"/>
+    <title>285 has 8 divisors: 1, 3, 5, 15, 19, 57, 95, 285</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="285" width="40" height="0.9" fill="#0000ff"/>
+    <title>286 has 8 divisors: 1, 2, 11, 13, 22, 26, 143, 286</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="286" width="20" height="0.9" fill="#9900cc"/>
+    <title>287 has 4 divisors: 1, 7, 41, 287</title>
+   </g>
+   <g class="active">
+    <text x="90" y="287" text-anchor="start" dx="1" dy="3" font-size="5">288</text>
+    <rect x="0" y="287" width="90" height="0.9" fill="#999999"/>
+    <title>288 has 18 divisors: 1, 2, 3, 4, 6, 8, 9, 12, 16, 18, 24, 32, 36, 48, 72, 96, 144, 288</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="288" width="15" height="0.9" fill="#0099ff"/>
+    <title>289 has 3 divisors: 1, 17, 289</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="289" width="40" height="0.9" fill="#000000"/>
+    <title>290 has 8 divisors: 1, 2, 5, 10, 29, 58, 145, 290</title>
+   </g>
+   <text x="-2" y="289" dy="4">290</text>
+   <g class="active">
+    <rect x="0" y="290" width="20" height="0.9" fill="#663300"/>
+    <title>291 has 4 divisors: 1, 3, 97, 291</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="291" width="30" height="0.9" fill="#cc0000"/>
+    <title>292 has 6 divisors: 1, 2, 4, 73, 146, 292</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="292" width="10" height="0.9" fill="#ff6600"/>
+    <title>293 has 2 divisors: 1, 293</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="293" width="60" height="0.9" fill="#ffcc00"/>
+    <title>294 has 12 divisors: 1, 2, 3, 6, 7, 14, 21, 42, 49, 98, 147, 294</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="294" width="20" height="0.9" fill="#009900"/>
+    <title>295 has 4 divisors: 1, 5, 59, 295</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="295" width="40" height="0.9" fill="#0000ff"/>
+    <title>296 has 8 divisors: 1, 2, 4, 8, 37, 74, 148, 296</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="296" width="40" height="0.9" fill="#9900cc"/>
+    <title>297 has 8 divisors: 1, 3, 9, 11, 27, 33, 99, 297</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="297" width="20" height="0.9" fill="#999999"/>
+    <title>298 has 4 divisors: 1, 2, 149, 298</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="298" width="20" height="0.9" fill="#0099ff"/>
+    <title>299 has 4 divisors: 1, 13, 23, 299</title>
+   </g>
+   <g class="active">
+    <text x="90" y="299" text-anchor="start" dx="1" dy="3" font-size="5">300</text>
+    <rect x="0" y="299" width="90" height="0.9" fill="#000000"/>
+    <title>300 has 18 divisors: 1, 2, 3, 4, 5, 6, 10, 12, 15, 20, 25, 30, 50, 60, 75, 100, 150, 300</title>
+   </g>
+   <text x="-2" y="299" dy="4">300</text>
+   <g class="active">
+    <rect x="0" y="300" width="20" height="0.9" fill="#663300"/>
+    <title>301 has 4 divisors: 1, 7, 43, 301</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="301" width="20" height="0.9" fill="#cc0000"/>
+    <title>302 has 4 divisors: 1, 2, 151, 302</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="302" width="20" height="0.9" fill="#ff6600"/>
+    <title>303 has 4 divisors: 1, 3, 101, 303</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="303" width="50" height="0.9" fill="#ffcc00"/>
+    <title>304 has 10 divisors: 1, 2, 4, 8, 16, 19, 38, 76, 152, 304</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="304" width="20" height="0.9" fill="#009900"/>
+    <title>305 has 4 divisors: 1, 5, 61, 305</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="305" width="60" height="0.9" fill="#0000ff"/>
+    <title>306 has 12 divisors: 1, 2, 3, 6, 9, 17, 18, 34, 51, 102, 153, 306</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="306" width="10" height="0.9" fill="#9900cc"/>
+    <title>307 has 2 divisors: 1, 307</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="307" width="60" height="0.9" fill="#999999"/>
+    <title>308 has 12 divisors: 1, 2, 4, 7, 11, 14, 22, 28, 44, 77, 154, 308</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="308" width="20" height="0.9" fill="#0099ff"/>
+    <title>309 has 4 divisors: 1, 3, 103, 309</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="309" width="40" height="0.9" fill="#000000"/>
+    <title>310 has 8 divisors: 1, 2, 5, 10, 31, 62, 155, 310</title>
+   </g>
+   <text x="-2" y="309" dy="4">310</text>
+   <g class="active">
+    <rect x="0" y="310" width="10" height="0.9" fill="#663300"/>
+    <title>311 has 2 divisors: 1, 311</title>
+   </g>
+   <g class="active">
+    <text x="80" y="311" text-anchor="start" dx="1" dy="3" font-size="5">312</text>
+    <rect x="0" y="311" width="80" height="0.9" fill="#cc0000"/>
+    <title>312 has 16 divisors: 1, 2, 3, 4, 6, 8, 12, 13, 24, 26, 39, 52, 78, 104, 156, 312</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="312" width="10" height="0.9" fill="#ff6600"/>
+    <title>313 has 2 divisors: 1, 313</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="313" width="20" height="0.9" fill="#ffcc00"/>
+    <title>314 has 4 divisors: 1, 2, 157, 314</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="314" width="60" height="0.9" fill="#009900"/>
+    <title>315 has 12 divisors: 1, 3, 5, 7, 9, 15, 21, 35, 45, 63, 105, 315</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="315" width="30" height="0.9" fill="#0000ff"/>
+    <title>316 has 6 divisors: 1, 2, 4, 79, 158, 316</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="316" width="10" height="0.9" fill="#9900cc"/>
+    <title>317 has 2 divisors: 1, 317</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="317" width="40" height="0.9" fill="#999999"/>
+    <title>318 has 8 divisors: 1, 2, 3, 6, 53, 106, 159, 318</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="318" width="20" height="0.9" fill="#0099ff"/>
+    <title>319 has 4 divisors: 1, 11, 29, 319</title>
+   </g>
+   <g class="active">
+    <text x="70" y="319" text-anchor="start" dx="1" dy="1" font-size="5">320</text>
+    <rect x="0" y="319" width="70" height="0.9" fill="#000000"/>
+    <title>320 has 14 divisors: 1, 2, 4, 5, 8, 10, 16, 20, 32, 40, 64, 80, 160, 320</title>
+   </g>
+   <text x="-2" y="319" dy="4">320</text>
+   <g class="active">
+    <rect x="0" y="320" width="20" height="0.9" fill="#663300"/>
+    <title>321 has 4 divisors: 1, 3, 107, 321</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="321" width="40" height="0.9" fill="#cc0000"/>
+    <title>322 has 8 divisors: 1, 2, 7, 14, 23, 46, 161, 322</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="322" width="20" height="0.9" fill="#ff6600"/>
+    <title>323 has 4 divisors: 1, 17, 19, 323</title>
+   </g>
+   <g class="active">
+    <text x="75" y="323" text-anchor="start" dx="1" dy="3" font-size="5">324</text>
+    <rect x="0" y="323" width="75" height="0.9" fill="#ffcc00"/>
+    <title>324 has 15 divisors: 1, 2, 3, 4, 6, 9, 12, 18, 27, 36, 54, 81, 108, 162, 324</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="324" width="30" height="0.9" fill="#009900"/>
+    <title>325 has 6 divisors: 1, 5, 13, 25, 65, 325</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="325" width="20" height="0.9" fill="#0000ff"/>
+    <title>326 has 4 divisors: 1, 2, 163, 326</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="326" width="20" height="0.9" fill="#9900cc"/>
+    <title>327 has 4 divisors: 1, 3, 109, 327</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="327" width="40" height="0.9" fill="#999999"/>
+    <title>328 has 8 divisors: 1, 2, 4, 8, 41, 82, 164, 328</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="328" width="20" height="0.9" fill="#0099ff"/>
+    <title>329 has 4 divisors: 1, 7, 47, 329</title>
+   </g>
+   <g class="active">
+    <text x="80" y="329" text-anchor="start" dx="1" dy="3" font-size="5">330</text>
+    <rect x="0" y="329" width="80" height="0.9" fill="#000000"/>
+    <title>330 has 16 divisors: 1, 2, 3, 5, 6, 10, 11, 15, 22, 30, 33, 55, 66, 110, 165, 330</title>
+   </g>
+   <text x="-2" y="329" dy="4">330</text>
+   <g class="active">
+    <rect x="0" y="330" width="10" height="0.9" fill="#663300"/>
+    <title>331 has 2 divisors: 1, 331</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="331" width="30" height="0.9" fill="#cc0000"/>
+    <title>332 has 6 divisors: 1, 2, 4, 83, 166, 332</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="332" width="30" height="0.9" fill="#ff6600"/>
+    <title>333 has 6 divisors: 1, 3, 9, 37, 111, 333</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="333" width="20" height="0.9" fill="#ffcc00"/>
+    <title>334 has 4 divisors: 1, 2, 167, 334</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="334" width="20" height="0.9" fill="#009900"/>
+    <title>335 has 4 divisors: 1, 5, 67, 335</title>
+   </g>
+   <g class="active">
+    <text x="100" y="335" text-anchor="start" dx="1" dy="3" font-size="7">336</text>
+    <rect x="0" y="335" width="100" height="0.9" fill="#0000ff"/>
+    <title>336 has 20 divisors: 1, 2, 3, 4, 6, 7, 8, 12, 14, 16, 21, 24, 28, 42, 48, 56, 84, 112, 168, 336</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="336" width="10" height="0.9" fill="#9900cc"/>
+    <title>337 has 2 divisors: 1, 337</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="337" width="30" height="0.9" fill="#999999"/>
+    <title>338 has 6 divisors: 1, 2, 13, 26, 169, 338</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="338" width="20" height="0.9" fill="#0099ff"/>
+    <title>339 has 4 divisors: 1, 3, 113, 339</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="339" width="60" height="0.9" fill="#000000"/>
+    <title>340 has 12 divisors: 1, 2, 4, 5, 10, 17, 20, 34, 68, 85, 170, 340</title>
+   </g>
+   <text x="-2" y="339" dy="4">340</text>
+   <g class="active">
+    <rect x="0" y="340" width="20" height="0.9" fill="#663300"/>
+    <title>341 has 4 divisors: 1, 11, 31, 341</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="341" width="60" height="0.9" fill="#cc0000"/>
+    <title>342 has 12 divisors: 1, 2, 3, 6, 9, 18, 19, 38, 57, 114, 171, 342</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="342" width="20" height="0.9" fill="#ff6600"/>
+    <title>343 has 4 divisors: 1, 7, 49, 343</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="343" width="40" height="0.9" fill="#ffcc00"/>
+    <title>344 has 8 divisors: 1, 2, 4, 8, 43, 86, 172, 344</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="344" width="40" height="0.9" fill="#009900"/>
+    <title>345 has 8 divisors: 1, 3, 5, 15, 23, 69, 115, 345</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="345" width="20" height="0.9" fill="#0000ff"/>
+    <title>346 has 4 divisors: 1, 2, 173, 346</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="346" width="10" height="0.9" fill="#9900cc"/>
+    <title>347 has 2 divisors: 1, 347</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="347" width="60" height="0.9" fill="#999999"/>
+    <title>348 has 12 divisors: 1, 2, 3, 4, 6, 12, 29, 58, 87, 116, 174, 348</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="348" width="10" height="0.9" fill="#0099ff"/>
+    <title>349 has 2 divisors: 1, 349</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="349" width="60" height="0.9" fill="#000000"/>
+    <title>350 has 12 divisors: 1, 2, 5, 7, 10, 14, 25, 35, 50, 70, 175, 350</title>
+   </g>
+   <text x="-2" y="349" dy="4">350</text>
+   <g class="active">
+    <rect x="0" y="350" width="40" height="0.9" fill="#663300"/>
+    <title>351 has 8 divisors: 1, 3, 9, 13, 27, 39, 117, 351</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="351" width="60" height="0.9" fill="#cc0000"/>
+    <title>352 has 12 divisors: 1, 2, 4, 8, 11, 16, 22, 32, 44, 88, 176, 352</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="352" width="10" height="0.9" fill="#ff6600"/>
+    <title>353 has 2 divisors: 1, 353</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="353" width="40" height="0.9" fill="#ffcc00"/>
+    <title>354 has 8 divisors: 1, 2, 3, 6, 59, 118, 177, 354</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="354" width="20" height="0.9" fill="#009900"/>
+    <title>355 has 4 divisors: 1, 5, 71, 355</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="355" width="30" height="0.9" fill="#0000ff"/>
+    <title>356 has 6 divisors: 1, 2, 4, 89, 178, 356</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="356" width="40" height="0.9" fill="#9900cc"/>
+    <title>357 has 8 divisors: 1, 3, 7, 17, 21, 51, 119, 357</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="357" width="20" height="0.9" fill="#999999"/>
+    <title>358 has 4 divisors: 1, 2, 179, 358</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="358" width="10" height="0.9" fill="#0099ff"/>
+    <title>359 has 2 divisors: 1, 359</title>
+   </g>
+   <g class="active">
+    <text x="120" y="359" text-anchor="start" dx="1" dy="3" font-weight="bold">360*</text>
+    <rect x="0" y="359" width="120" height="0.9" fill="#000000"/>
+    <title>360 has 24 divisors: 1, 2, 3, 4, 5, 6, 8, 9, 10, 12, 15, 18, 20, 24, 30, 36, 40, 45, 60, 72, 90, 120, 180, 360</title>
+   </g>
+   <path d="M 100,239 V 359" stroke="#000000"/>
+   <text x="-2" y="359" dy="4">360</text>
+   <g class="active">
+    <rect x="0" y="360" width="15" height="0.9" fill="#663300"/>
+    <title>361 has 3 divisors: 1, 19, 361</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="361" width="20" height="0.9" fill="#cc0000"/>
+    <title>362 has 4 divisors: 1, 2, 181, 362</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="362" width="30" height="0.9" fill="#ff6600"/>
+    <title>363 has 6 divisors: 1, 3, 11, 33, 121, 363</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="363" width="60" height="0.9" fill="#ffcc00"/>
+    <title>364 has 12 divisors: 1, 2, 4, 7, 13, 14, 26, 28, 52, 91, 182, 364</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="364" width="20" height="0.9" fill="#009900"/>
+    <title>365 has 4 divisors: 1, 5, 73, 365</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="365" width="40" height="0.9" fill="#0000ff"/>
+    <title>366 has 8 divisors: 1, 2, 3, 6, 61, 122, 183, 366</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="366" width="10" height="0.9" fill="#9900cc"/>
+    <title>367 has 2 divisors: 1, 367</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="367" width="50" height="0.9" fill="#999999"/>
+    <title>368 has 10 divisors: 1, 2, 4, 8, 16, 23, 46, 92, 184, 368</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="368" width="30" height="0.9" fill="#0099ff"/>
+    <title>369 has 6 divisors: 1, 3, 9, 41, 123, 369</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="369" width="40" height="0.9" fill="#000000"/>
+    <title>370 has 8 divisors: 1, 2, 5, 10, 37, 74, 185, 370</title>
+   </g>
+   <text x="-2" y="369" dy="4">370</text>
+   <g class="active">
+    <rect x="0" y="370" width="20" height="0.9" fill="#663300"/>
+    <title>371 has 4 divisors: 1, 7, 53, 371</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="371" width="60" height="0.9" fill="#cc0000"/>
+    <title>372 has 12 divisors: 1, 2, 3, 4, 6, 12, 31, 62, 93, 124, 186, 372</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="372" width="10" height="0.9" fill="#ff6600"/>
+    <title>373 has 2 divisors: 1, 373</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="373" width="40" height="0.9" fill="#ffcc00"/>
+    <title>374 has 8 divisors: 1, 2, 11, 17, 22, 34, 187, 374</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="374" width="40" height="0.9" fill="#009900"/>
+    <title>375 has 8 divisors: 1, 3, 5, 15, 25, 75, 125, 375</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="375" width="40" height="0.9" fill="#0000ff"/>
+    <title>376 has 8 divisors: 1, 2, 4, 8, 47, 94, 188, 376</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="376" width="20" height="0.9" fill="#9900cc"/>
+    <title>377 has 4 divisors: 1, 13, 29, 377</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="377" width="80" height="0.9" fill="#999999"/>
+    <title>378 has 16 divisors: 1, 2, 3, 6, 7, 9, 14, 18, 21, 27, 42, 54, 63, 126, 189, 378</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="378" width="10" height="0.9" fill="#0099ff"/>
+    <title>379 has 2 divisors: 1, 379</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="379" width="60" height="0.9" fill="#000000"/>
+    <title>380 has 12 divisors: 1, 2, 4, 5, 10, 19, 20, 38, 76, 95, 190, 380</title>
+   </g>
+   <text x="-2" y="379" dy="4">380</text>
+   <g class="active">
+    <rect x="0" y="380" width="20" height="0.9" fill="#663300"/>
+    <title>381 has 4 divisors: 1, 3, 127, 381</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="381" width="20" height="0.9" fill="#cc0000"/>
+    <title>382 has 4 divisors: 1, 2, 191, 382</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="382" width="10" height="0.9" fill="#ff6600"/>
+    <title>383 has 2 divisors: 1, 383</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="383" width="80" height="0.9" fill="#ffcc00"/>
+    <title>384 has 16 divisors: 1, 2, 3, 4, 6, 8, 12, 16, 24, 32, 48, 64, 96, 128, 192, 384</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="384" width="40" height="0.9" fill="#009900"/>
+    <title>385 has 8 divisors: 1, 5, 7, 11, 35, 55, 77, 385</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="385" width="20" height="0.9" fill="#0000ff"/>
+    <title>386 has 4 divisors: 1, 2, 193, 386</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="386" width="30" height="0.9" fill="#9900cc"/>
+    <title>387 has 6 divisors: 1, 3, 9, 43, 129, 387</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="387" width="30" height="0.9" fill="#999999"/>
+    <title>388 has 6 divisors: 1, 2, 4, 97, 194, 388</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="388" width="10" height="0.9" fill="#0099ff"/>
+    <title>389 has 2 divisors: 1, 389</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="389" width="80" height="0.9" fill="#000000"/>
+    <title>390 has 16 divisors: 1, 2, 3, 5, 6, 10, 13, 15, 26, 30, 39, 65, 78, 130, 195, 390</title>
+   </g>
+   <text x="-2" y="389" dy="4">390</text>
+   <g class="active">
+    <rect x="0" y="390" width="20" height="0.9" fill="#663300"/>
+    <title>391 has 4 divisors: 1, 17, 23, 391</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="391" width="60" height="0.9" fill="#cc0000"/>
+    <title>392 has 12 divisors: 1, 2, 4, 7, 8, 14, 28, 49, 56, 98, 196, 392</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="392" width="20" height="0.9" fill="#ff6600"/>
+    <title>393 has 4 divisors: 1, 3, 131, 393</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="393" width="20" height="0.9" fill="#ffcc00"/>
+    <title>394 has 4 divisors: 1, 2, 197, 394</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="394" width="20" height="0.9" fill="#009900"/>
+    <title>395 has 4 divisors: 1, 5, 79, 395</title>
+   </g>
+   <g class="active">
+    <text x="90" y="395" text-anchor="start" dx="1" dy="3" font-size="5">396</text>
+    <rect x="0" y="395" width="90" height="0.9" fill="#0000ff"/>
+    <title>396 has 18 divisors: 1, 2, 3, 4, 6, 9, 11, 12, 18, 22, 33, 36, 44, 66, 99, 132, 198, 396</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="396" width="10" height="0.9" fill="#9900cc"/>
+    <title>397 has 2 divisors: 1, 397</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="397" width="20" height="0.9" fill="#999999"/>
+    <title>398 has 4 divisors: 1, 2, 199, 398</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="398" width="40" height="0.9" fill="#0099ff"/>
+    <title>399 has 8 divisors: 1, 3, 7, 19, 21, 57, 133, 399</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="399" width="75" height="0.9" fill="#000000"/>
+    <title>400 has 15 divisors: 1, 2, 4, 5, 8, 10, 16, 20, 25, 40, 50, 80, 100, 200, 400</title>
+   </g>
+   <text x="-2" y="399" dy="4">400</text>
+   <g class="active">
+    <rect x="0" y="400" width="10" height="0.9" fill="#663300"/>
+    <title>401 has 2 divisors: 1, 401</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="401" width="40" height="0.9" fill="#cc0000"/>
+    <title>402 has 8 divisors: 1, 2, 3, 6, 67, 134, 201, 402</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="402" width="20" height="0.9" fill="#ff6600"/>
+    <title>403 has 4 divisors: 1, 13, 31, 403</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="403" width="30" height="0.9" fill="#ffcc00"/>
+    <title>404 has 6 divisors: 1, 2, 4, 101, 202, 404</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="404" width="50" height="0.9" fill="#009900"/>
+    <title>405 has 10 divisors: 1, 3, 5, 9, 15, 27, 45, 81, 135, 405</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="405" width="40" height="0.9" fill="#0000ff"/>
+    <title>406 has 8 divisors: 1, 2, 7, 14, 29, 58, 203, 406</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="406" width="20" height="0.9" fill="#9900cc"/>
+    <title>407 has 4 divisors: 1, 11, 37, 407</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="407" width="80" height="0.9" fill="#999999"/>
+    <title>408 has 16 divisors: 1, 2, 3, 4, 6, 8, 12, 17, 24, 34, 51, 68, 102, 136, 204, 408</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="408" width="10" height="0.9" fill="#0099ff"/>
+    <title>409 has 2 divisors: 1, 409</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="409" width="40" height="0.9" fill="#000000"/>
+    <title>410 has 8 divisors: 1, 2, 5, 10, 41, 82, 205, 410</title>
+   </g>
+   <text x="-2" y="409" dy="4">410</text>
+   <g class="active">
+    <rect x="0" y="410" width="20" height="0.9" fill="#663300"/>
+    <title>411 has 4 divisors: 1, 3, 137, 411</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="411" width="30" height="0.9" fill="#cc0000"/>
+    <title>412 has 6 divisors: 1, 2, 4, 103, 206, 412</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="412" width="20" height="0.9" fill="#ff6600"/>
+    <title>413 has 4 divisors: 1, 7, 59, 413</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="413" width="60" height="0.9" fill="#ffcc00"/>
+    <title>414 has 12 divisors: 1, 2, 3, 6, 9, 18, 23, 46, 69, 138, 207, 414</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="414" width="20" height="0.9" fill="#009900"/>
+    <title>415 has 4 divisors: 1, 5, 83, 415</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="415" width="60" height="0.9" fill="#0000ff"/>
+    <title>416 has 12 divisors: 1, 2, 4, 8, 13, 16, 26, 32, 52, 104, 208, 416</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="416" width="20" height="0.9" fill="#9900cc"/>
+    <title>417 has 4 divisors: 1, 3, 139, 417</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="417" width="40" height="0.9" fill="#999999"/>
+    <title>418 has 8 divisors: 1, 2, 11, 19, 22, 38, 209, 418</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="418" width="10" height="0.9" fill="#0099ff"/>
+    <title>419 has 2 divisors: 1, 419</title>
+   </g>
+   <g class="active">
+    <text x="120" y="419" text-anchor="start" dx="1" dy="3" font-size="7">420</text>
+    <rect x="0" y="419" width="120" height="0.9" fill="#000000"/>
+    <title>420 has 24 divisors: 1, 2, 3, 4, 5, 6, 7, 10, 12, 14, 15, 20, 21, 28, 30, 35, 42, 60, 70, 84, 105, 140, 210, 420</title>
+   </g>
+   <text x="-2" y="419" dy="4">420</text>
+   <g class="active">
+    <rect x="0" y="420" width="10" height="0.9" fill="#663300"/>
+    <title>421 has 2 divisors: 1, 421</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="421" width="20" height="0.9" fill="#cc0000"/>
+    <title>422 has 4 divisors: 1, 2, 211, 422</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="422" width="30" height="0.9" fill="#ff6600"/>
+    <title>423 has 6 divisors: 1, 3, 9, 47, 141, 423</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="423" width="40" height="0.9" fill="#ffcc00"/>
+    <title>424 has 8 divisors: 1, 2, 4, 8, 53, 106, 212, 424</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="424" width="30" height="0.9" fill="#009900"/>
+    <title>425 has 6 divisors: 1, 5, 17, 25, 85, 425</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="425" width="40" height="0.9" fill="#0000ff"/>
+    <title>426 has 8 divisors: 1, 2, 3, 6, 71, 142, 213, 426</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="426" width="20" height="0.9" fill="#9900cc"/>
+    <title>427 has 4 divisors: 1, 7, 61, 427</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="427" width="30" height="0.9" fill="#999999"/>
+    <title>428 has 6 divisors: 1, 2, 4, 107, 214, 428</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="428" width="40" height="0.9" fill="#0099ff"/>
+    <title>429 has 8 divisors: 1, 3, 11, 13, 33, 39, 143, 429</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="429" width="40" height="0.9" fill="#000000"/>
+    <title>430 has 8 divisors: 1, 2, 5, 10, 43, 86, 215, 430</title>
+   </g>
+   <text x="-2" y="429" dy="4">430</text>
+   <g class="active">
+    <rect x="0" y="430" width="10" height="0.9" fill="#663300"/>
+    <title>431 has 2 divisors: 1, 431</title>
+   </g>
+   <g class="active">
+    <text x="100" y="431" text-anchor="start" dx="1" dy="3" font-size="5">432</text>
+    <rect x="0" y="431" width="100" height="0.9" fill="#cc0000"/>
+    <title>432 has 20 divisors: 1, 2, 3, 4, 6, 8, 9, 12, 16, 18, 24, 27, 36, 48, 54, 72, 108, 144, 216, 432</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="432" width="10" height="0.9" fill="#ff6600"/>
+    <title>433 has 2 divisors: 1, 433</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="433" width="40" height="0.9" fill="#ffcc00"/>
+    <title>434 has 8 divisors: 1, 2, 7, 14, 31, 62, 217, 434</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="434" width="40" height="0.9" fill="#009900"/>
+    <title>435 has 8 divisors: 1, 3, 5, 15, 29, 87, 145, 435</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="435" width="30" height="0.9" fill="#0000ff"/>
+    <title>436 has 6 divisors: 1, 2, 4, 109, 218, 436</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="436" width="20" height="0.9" fill="#9900cc"/>
+    <title>437 has 4 divisors: 1, 19, 23, 437</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="437" width="40" height="0.9" fill="#999999"/>
+    <title>438 has 8 divisors: 1, 2, 3, 6, 73, 146, 219, 438</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="438" width="10" height="0.9" fill="#0099ff"/>
+    <title>439 has 2 divisors: 1, 439</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="439" width="80" height="0.9" fill="#000000"/>
+    <title>440 has 16 divisors: 1, 2, 4, 5, 8, 10, 11, 20, 22, 40, 44, 55, 88, 110, 220, 440</title>
+   </g>
+   <text x="-2" y="439" dy="4">440</text>
+   <g class="active">
+    <rect x="0" y="440" width="45" height="0.9" fill="#663300"/>
+    <title>441 has 9 divisors: 1, 3, 7, 9, 21, 49, 63, 147, 441</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="441" width="40" height="0.9" fill="#cc0000"/>
+    <title>442 has 8 divisors: 1, 2, 13, 17, 26, 34, 221, 442</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="442" width="10" height="0.9" fill="#ff6600"/>
+    <title>443 has 2 divisors: 1, 443</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="443" width="60" height="0.9" fill="#ffcc00"/>
+    <title>444 has 12 divisors: 1, 2, 3, 4, 6, 12, 37, 74, 111, 148, 222, 444</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="444" width="20" height="0.9" fill="#009900"/>
+    <title>445 has 4 divisors: 1, 5, 89, 445</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="445" width="20" height="0.9" fill="#0000ff"/>
+    <title>446 has 4 divisors: 1, 2, 223, 446</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="446" width="20" height="0.9" fill="#9900cc"/>
+    <title>447 has 4 divisors: 1, 3, 149, 447</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="447" width="70" height="0.9" fill="#999999"/>
+    <title>448 has 14 divisors: 1, 2, 4, 7, 8, 14, 16, 28, 32, 56, 64, 112, 224, 448</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="448" width="10" height="0.9" fill="#0099ff"/>
+    <title>449 has 2 divisors: 1, 449</title>
+   </g>
+   <g class="active">
+    <text x="90" y="449" text-anchor="start" dx="1" dy="3" font-size="5">450</text>
+    <rect x="0" y="449" width="90" height="0.9" fill="#000000"/>
+    <title>450 has 18 divisors: 1, 2, 3, 5, 6, 9, 10, 15, 18, 25, 30, 45, 50, 75, 90, 150, 225, 450</title>
+   </g>
+   <text x="-2" y="449" dy="4">450</text>
+   <g class="active">
+    <rect x="0" y="450" width="20" height="0.9" fill="#663300"/>
+    <title>451 has 4 divisors: 1, 11, 41, 451</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="451" width="30" height="0.9" fill="#cc0000"/>
+    <title>452 has 6 divisors: 1, 2, 4, 113, 226, 452</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="452" width="20" height="0.9" fill="#ff6600"/>
+    <title>453 has 4 divisors: 1, 3, 151, 453</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="453" width="20" height="0.9" fill="#ffcc00"/>
+    <title>454 has 4 divisors: 1, 2, 227, 454</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="454" width="40" height="0.9" fill="#009900"/>
+    <title>455 has 8 divisors: 1, 5, 7, 13, 35, 65, 91, 455</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="455" width="80" height="0.9" fill="#0000ff"/>
+    <title>456 has 16 divisors: 1, 2, 3, 4, 6, 8, 12, 19, 24, 38, 57, 76, 114, 152, 228, 456</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="456" width="10" height="0.9" fill="#9900cc"/>
+    <title>457 has 2 divisors: 1, 457</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="457" width="20" height="0.9" fill="#999999"/>
+    <title>458 has 4 divisors: 1, 2, 229, 458</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="458" width="40" height="0.9" fill="#0099ff"/>
+    <title>459 has 8 divisors: 1, 3, 9, 17, 27, 51, 153, 459</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="459" width="60" height="0.9" fill="#000000"/>
+    <title>460 has 12 divisors: 1, 2, 4, 5, 10, 20, 23, 46, 92, 115, 230, 460</title>
+   </g>
+   <text x="-2" y="459" dy="4">460</text>
+   <g class="active">
+    <rect x="0" y="460" width="10" height="0.9" fill="#663300"/>
+    <title>461 has 2 divisors: 1, 461</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="461" width="80" height="0.9" fill="#cc0000"/>
+    <title>462 has 16 divisors: 1, 2, 3, 6, 7, 11, 14, 21, 22, 33, 42, 66, 77, 154, 231, 462</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="462" width="10" height="0.9" fill="#ff6600"/>
+    <title>463 has 2 divisors: 1, 463</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="463" width="50" height="0.9" fill="#ffcc00"/>
+    <title>464 has 10 divisors: 1, 2, 4, 8, 16, 29, 58, 116, 232, 464</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="464" width="40" height="0.9" fill="#009900"/>
+    <title>465 has 8 divisors: 1, 3, 5, 15, 31, 93, 155, 465</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="465" width="20" height="0.9" fill="#0000ff"/>
+    <title>466 has 4 divisors: 1, 2, 233, 466</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="466" width="10" height="0.9" fill="#9900cc"/>
+    <title>467 has 2 divisors: 1, 467</title>
+   </g>
+   <g class="active">
+    <text x="90" y="467" text-anchor="start" dx="1" dy="3" font-size="5">468</text>
+    <rect x="0" y="467" width="90" height="0.9" fill="#999999"/>
+    <title>468 has 18 divisors: 1, 2, 3, 4, 6, 9, 12, 13, 18, 26, 36, 39, 52, 78, 117, 156, 234, 468</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="468" width="20" height="0.9" fill="#0099ff"/>
+    <title>469 has 4 divisors: 1, 7, 67, 469</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="469" width="40" height="0.9" fill="#000000"/>
+    <title>470 has 8 divisors: 1, 2, 5, 10, 47, 94, 235, 470</title>
+   </g>
+   <text x="-2" y="469" dy="4">470</text>
+   <g class="active">
+    <rect x="0" y="470" width="20" height="0.9" fill="#663300"/>
+    <title>471 has 4 divisors: 1, 3, 157, 471</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="471" width="40" height="0.9" fill="#cc0000"/>
+    <title>472 has 8 divisors: 1, 2, 4, 8, 59, 118, 236, 472</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="472" width="20" height="0.9" fill="#ff6600"/>
+    <title>473 has 4 divisors: 1, 11, 43, 473</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="473" width="40" height="0.9" fill="#ffcc00"/>
+    <title>474 has 8 divisors: 1, 2, 3, 6, 79, 158, 237, 474</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="474" width="30" height="0.9" fill="#009900"/>
+    <title>475 has 6 divisors: 1, 5, 19, 25, 95, 475</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="475" width="60" height="0.9" fill="#0000ff"/>
+    <title>476 has 12 divisors: 1, 2, 4, 7, 14, 17, 28, 34, 68, 119, 238, 476</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="476" width="30" height="0.9" fill="#9900cc"/>
+    <title>477 has 6 divisors: 1, 3, 9, 53, 159, 477</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="477" width="20" height="0.9" fill="#999999"/>
+    <title>478 has 4 divisors: 1, 2, 239, 478</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="478" width="10" height="0.9" fill="#0099ff"/>
+    <title>479 has 2 divisors: 1, 479</title>
+   </g>
+   <g class="active">
+    <text x="120" y="479" text-anchor="start" dx="1" dy="3" font-size="7">480</text>
+    <rect x="0" y="479" width="120" height="0.9" fill="#000000"/>
+    <title>480 has 24 divisors: 1, 2, 3, 4, 5, 6, 8, 10, 12, 15, 16, 20, 24, 30, 32, 40, 48, 60, 80, 96, 120, 160, 240, 480</title>
+   </g>
+   <text x="-2" y="479" dy="4">480</text>
+   <g class="active">
+    <rect x="0" y="480" width="20" height="0.9" fill="#663300"/>
+    <title>481 has 4 divisors: 1, 13, 37, 481</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="481" width="20" height="0.9" fill="#cc0000"/>
+    <title>482 has 4 divisors: 1, 2, 241, 482</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="482" width="40" height="0.9" fill="#ff6600"/>
+    <title>483 has 8 divisors: 1, 3, 7, 21, 23, 69, 161, 483</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="483" width="45" height="0.9" fill="#ffcc00"/>
+    <title>484 has 9 divisors: 1, 2, 4, 11, 22, 44, 121, 242, 484</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="484" width="20" height="0.9" fill="#009900"/>
+    <title>485 has 4 divisors: 1, 5, 97, 485</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="485" width="60" height="0.9" fill="#0000ff"/>
+    <title>486 has 12 divisors: 1, 2, 3, 6, 9, 18, 27, 54, 81, 162, 243, 486</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="486" width="10" height="0.9" fill="#9900cc"/>
+    <title>487 has 2 divisors: 1, 487</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="487" width="40" height="0.9" fill="#999999"/>
+    <title>488 has 8 divisors: 1, 2, 4, 8, 61, 122, 244, 488</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="488" width="20" height="0.9" fill="#0099ff"/>
+    <title>489 has 4 divisors: 1, 3, 163, 489</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="489" width="60" height="0.9" fill="#000000"/>
+    <title>490 has 12 divisors: 1, 2, 5, 7, 10, 14, 35, 49, 70, 98, 245, 490</title>
+   </g>
+   <text x="-2" y="489" dy="4">490</text>
+   <g class="active">
+    <rect x="0" y="490" width="10" height="0.9" fill="#663300"/>
+    <title>491 has 2 divisors: 1, 491</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="491" width="60" height="0.9" fill="#cc0000"/>
+    <title>492 has 12 divisors: 1, 2, 3, 4, 6, 12, 41, 82, 123, 164, 246, 492</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="492" width="20" height="0.9" fill="#ff6600"/>
+    <title>493 has 4 divisors: 1, 17, 29, 493</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="493" width="40" height="0.9" fill="#ffcc00"/>
+    <title>494 has 8 divisors: 1, 2, 13, 19, 26, 38, 247, 494</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="494" width="60" height="0.9" fill="#009900"/>
+    <title>495 has 12 divisors: 1, 3, 5, 9, 11, 15, 33, 45, 55, 99, 165, 495</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="495" width="50" height="0.9" fill="#0000ff"/>
+    <title>496 has 10 divisors: 1, 2, 4, 8, 16, 31, 62, 124, 248, 496</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="496" width="20" height="0.9" fill="#9900cc"/>
+    <title>497 has 4 divisors: 1, 7, 71, 497</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="497" width="40" height="0.9" fill="#999999"/>
+    <title>498 has 8 divisors: 1, 2, 3, 6, 83, 166, 249, 498</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="498" width="10" height="0.9" fill="#0099ff"/>
+    <title>499 has 2 divisors: 1, 499</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="499" width="60" height="0.9" fill="#000000"/>
+    <title>500 has 12 divisors: 1, 2, 4, 5, 10, 20, 25, 50, 100, 125, 250, 500</title>
+   </g>
+   <text x="-2" y="499" dy="4">500</text>
+   <path d="M 120,359 V 500" stroke="#000000"/>
+   </g>
+  <g transform="translate(170,0)">
+   <g class="active">
+    <rect x="0" y="0" width="20" height="0.9" fill="#663300"/>
+    <title>501 has 4 divisors: 1, 3, 167, 501</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="1" width="20" height="0.9" fill="#cc0000"/>
+    <title>502 has 4 divisors: 1, 2, 251, 502</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="2" width="10" height="0.9" fill="#ff6600"/>
+    <title>503 has 2 divisors: 1, 503</title>
+   </g>
+   <g class="active">
+    <text x="120" y="3" text-anchor="start" dx="1" dy="3" font-size="7">504</text>
+    <rect x="0" y="3" width="120" height="0.9" fill="#ffcc00"/>
+    <title>504 has 24 divisors: 1, 2, 3, 4, 6, 7, 8, 9, 12, 14, 18, 21, 24, 28, 36, 42, 56, 63, 72, 84, 126, 168, 252, 504</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="4" width="20" height="0.9" fill="#009900"/>
+    <title>505 has 4 divisors: 1, 5, 101, 505</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="5" width="40" height="0.9" fill="#0000ff"/>
+    <title>506 has 8 divisors: 1, 2, 11, 22, 23, 46, 253, 506</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="6" width="30" height="0.9" fill="#9900cc"/>
+    <title>507 has 6 divisors: 1, 3, 13, 39, 169, 507</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="7" width="30" height="0.9" fill="#999999"/>
+    <title>508 has 6 divisors: 1, 2, 4, 127, 254, 508</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="8" width="10" height="0.9" fill="#0099ff"/>
+    <title>509 has 2 divisors: 1, 509</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="9" width="80" height="0.9" fill="#000000"/>
+    <title>510 has 16 divisors: 1, 2, 3, 5, 6, 10, 15, 17, 30, 34, 51, 85, 102, 170, 255, 510</title>
+   </g>
+   <text x="-2" y="9" dy="4">510</text>
+   <g class="active">
+    <rect x="0" y="10" width="20" height="0.9" fill="#663300"/>
+    <title>511 has 4 divisors: 1, 7, 73, 511</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="11" width="50" height="0.9" fill="#cc0000"/>
+    <title>512 has 10 divisors: 1, 2, 4, 8, 16, 32, 64, 128, 256, 512</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="12" width="40" height="0.9" fill="#ff6600"/>
+    <title>513 has 8 divisors: 1, 3, 9, 19, 27, 57, 171, 513</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="13" width="20" height="0.9" fill="#ffcc00"/>
+    <title>514 has 4 divisors: 1, 2, 257, 514</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="14" width="20" height="0.9" fill="#009900"/>
+    <title>515 has 4 divisors: 1, 5, 103, 515</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="15" width="60" height="0.9" fill="#0000ff"/>
+    <title>516 has 12 divisors: 1, 2, 3, 4, 6, 12, 43, 86, 129, 172, 258, 516</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="16" width="20" height="0.9" fill="#9900cc"/>
+    <title>517 has 4 divisors: 1, 11, 47, 517</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="17" width="40" height="0.9" fill="#999999"/>
+    <title>518 has 8 divisors: 1, 2, 7, 14, 37, 74, 259, 518</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="18" width="20" height="0.9" fill="#0099ff"/>
+    <title>519 has 4 divisors: 1, 3, 173, 519</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="19" width="80" height="0.9" fill="#000000"/>
+    <title>520 has 16 divisors: 1, 2, 4, 5, 8, 10, 13, 20, 26, 40, 52, 65, 104, 130, 260, 520</title>
+   </g>
+   <text x="-2" y="19" dy="4">520</text>
+   <g class="active">
+    <rect x="0" y="20" width="10" height="0.9" fill="#663300"/>
+    <title>521 has 2 divisors: 1, 521</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="21" width="60" height="0.9" fill="#cc0000"/>
+    <title>522 has 12 divisors: 1, 2, 3, 6, 9, 18, 29, 58, 87, 174, 261, 522</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="22" width="10" height="0.9" fill="#ff6600"/>
+    <title>523 has 2 divisors: 1, 523</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="23" width="30" height="0.9" fill="#ffcc00"/>
+    <title>524 has 6 divisors: 1, 2, 4, 131, 262, 524</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="24" width="60" height="0.9" fill="#009900"/>
+    <title>525 has 12 divisors: 1, 3, 5, 7, 15, 21, 25, 35, 75, 105, 175, 525</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="25" width="20" height="0.9" fill="#0000ff"/>
+    <title>526 has 4 divisors: 1, 2, 263, 526</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="26" width="20" height="0.9" fill="#9900cc"/>
+    <title>527 has 4 divisors: 1, 17, 31, 527</title>
+   </g>
+   <g class="active">
+    <text x="100" y="27" text-anchor="start" dx="1" dy="3" font-size="5">528</text>
+    <rect x="0" y="27" width="100" height="0.9" fill="#999999"/>
+    <title>528 has 20 divisors: 1, 2, 3, 4, 6, 8, 11, 12, 16, 22, 24, 33, 44, 48, 66, 88, 132, 176, 264, 528</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="28" width="15" height="0.9" fill="#0099ff"/>
+    <title>529 has 3 divisors: 1, 23, 529</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="29" width="40" height="0.9" fill="#000000"/>
+    <title>530 has 8 divisors: 1, 2, 5, 10, 53, 106, 265, 530</title>
+   </g>
+   <text x="-2" y="29" dy="4">530</text>
+   <g class="active">
+    <rect x="0" y="30" width="30" height="0.9" fill="#663300"/>
+    <title>531 has 6 divisors: 1, 3, 9, 59, 177, 531</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="31" width="60" height="0.9" fill="#cc0000"/>
+    <title>532 has 12 divisors: 1, 2, 4, 7, 14, 19, 28, 38, 76, 133, 266, 532</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="32" width="20" height="0.9" fill="#ff6600"/>
+    <title>533 has 4 divisors: 1, 13, 41, 533</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="33" width="40" height="0.9" fill="#ffcc00"/>
+    <title>534 has 8 divisors: 1, 2, 3, 6, 89, 178, 267, 534</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="34" width="20" height="0.9" fill="#009900"/>
+    <title>535 has 4 divisors: 1, 5, 107, 535</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="35" width="40" height="0.9" fill="#0000ff"/>
+    <title>536 has 8 divisors: 1, 2, 4, 8, 67, 134, 268, 536</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="36" width="20" height="0.9" fill="#9900cc"/>
+    <title>537 has 4 divisors: 1, 3, 179, 537</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="37" width="20" height="0.9" fill="#999999"/>
+    <title>538 has 4 divisors: 1, 2, 269, 538</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="38" width="30" height="0.9" fill="#0099ff"/>
+    <title>539 has 6 divisors: 1, 7, 11, 49, 77, 539</title>
+   </g>
+   <g class="active">
+    <text x="120" y="39" text-anchor="start" dx="1" dy="3" font-size="7">540</text>
+    <rect x="0" y="39" width="120" height="0.9" fill="#000000"/>
+    <title>540 has 24 divisors: 1, 2, 3, 4, 5, 6, 9, 10, 12, 15, 18, 20, 27, 30, 36, 45, 54, 60, 90, 108, 135, 180, 270, 540</title>
+   </g>
+   <text x="-2" y="39" dy="4">540</text>
+   <g class="active">
+    <rect x="0" y="40" width="10" height="0.9" fill="#663300"/>
+    <title>541 has 2 divisors: 1, 541</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="41" width="20" height="0.9" fill="#cc0000"/>
+    <title>542 has 4 divisors: 1, 2, 271, 542</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="42" width="20" height="0.9" fill="#ff6600"/>
+    <title>543 has 4 divisors: 1, 3, 181, 543</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="43" width="60" height="0.9" fill="#ffcc00"/>
+    <title>544 has 12 divisors: 1, 2, 4, 8, 16, 17, 32, 34, 68, 136, 272, 544</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="44" width="20" height="0.9" fill="#009900"/>
+    <title>545 has 4 divisors: 1, 5, 109, 545</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="45" width="80" height="0.9" fill="#0000ff"/>
+    <title>546 has 16 divisors: 1, 2, 3, 6, 7, 13, 14, 21, 26, 39, 42, 78, 91, 182, 273, 546</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="46" width="10" height="0.9" fill="#9900cc"/>
+    <title>547 has 2 divisors: 1, 547</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="47" width="30" height="0.9" fill="#999999"/>
+    <title>548 has 6 divisors: 1, 2, 4, 137, 274, 548</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="48" width="30" height="0.9" fill="#0099ff"/>
+    <title>549 has 6 divisors: 1, 3, 9, 61, 183, 549</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="49" width="60" height="0.9" fill="#000000"/>
+    <title>550 has 12 divisors: 1, 2, 5, 10, 11, 22, 25, 50, 55, 110, 275, 550</title>
+   </g>
+   <text x="-2" y="49" dy="4">550</text>
+   <g class="active">
+    <rect x="0" y="50" width="20" height="0.9" fill="#663300"/>
+    <title>551 has 4 divisors: 1, 19, 29, 551</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="51" width="80" height="0.9" fill="#cc0000"/>
+    <title>552 has 16 divisors: 1, 2, 3, 4, 6, 8, 12, 23, 24, 46, 69, 92, 138, 184, 276, 552</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="52" width="20" height="0.9" fill="#ff6600"/>
+    <title>553 has 4 divisors: 1, 7, 79, 553</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="53" width="20" height="0.9" fill="#ffcc00"/>
+    <title>554 has 4 divisors: 1, 2, 277, 554</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="54" width="40" height="0.9" fill="#009900"/>
+    <title>555 has 8 divisors: 1, 3, 5, 15, 37, 111, 185, 555</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="55" width="30" height="0.9" fill="#0000ff"/>
+    <title>556 has 6 divisors: 1, 2, 4, 139, 278, 556</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="56" width="10" height="0.9" fill="#9900cc"/>
+    <title>557 has 2 divisors: 1, 557</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="57" width="60" height="0.9" fill="#999999"/>
+    <title>558 has 12 divisors: 1, 2, 3, 6, 9, 18, 31, 62, 93, 186, 279, 558</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="58" width="20" height="0.9" fill="#0099ff"/>
+    <title>559 has 4 divisors: 1, 13, 43, 559</title>
+   </g>
+   <g class="active">
+    <text x="100" y="59" text-anchor="start" dx="1" dy="3" font-size="5">560</text>
+    <rect x="0" y="59" width="100" height="0.9" fill="#000000"/>
+    <title>560 has 20 divisors: 1, 2, 4, 5, 7, 8, 10, 14, 16, 20, 28, 35, 40, 56, 70, 80, 112, 140, 280, 560</title>
+   </g>
+   <text x="-2" y="59" dy="4">560</text>
+   <g class="active">
+    <rect x="0" y="60" width="40" height="0.9" fill="#663300"/>
+    <title>561 has 8 divisors: 1, 3, 11, 17, 33, 51, 187, 561</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="61" width="20" height="0.9" fill="#cc0000"/>
+    <title>562 has 4 divisors: 1, 2, 281, 562</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="62" width="10" height="0.9" fill="#ff6600"/>
+    <title>563 has 2 divisors: 1, 563</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="63" width="60" height="0.9" fill="#ffcc00"/>
+    <title>564 has 12 divisors: 1, 2, 3, 4, 6, 12, 47, 94, 141, 188, 282, 564</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="64" width="20" height="0.9" fill="#009900"/>
+    <title>565 has 4 divisors: 1, 5, 113, 565</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="65" width="20" height="0.9" fill="#0000ff"/>
+    <title>566 has 4 divisors: 1, 2, 283, 566</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="66" width="50" height="0.9" fill="#9900cc"/>
+    <title>567 has 10 divisors: 1, 3, 7, 9, 21, 27, 63, 81, 189, 567</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="67" width="40" height="0.9" fill="#999999"/>
+    <title>568 has 8 divisors: 1, 2, 4, 8, 71, 142, 284, 568</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="68" width="10" height="0.9" fill="#0099ff"/>
+    <title>569 has 2 divisors: 1, 569</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="69" width="80" height="0.9" fill="#000000"/>
+    <title>570 has 16 divisors: 1, 2, 3, 5, 6, 10, 15, 19, 30, 38, 57, 95, 114, 190, 285, 570</title>
+   </g>
+   <text x="-2" y="69" dy="4">570</text>
+   <g class="active">
+    <rect x="0" y="70" width="10" height="0.9" fill="#663300"/>
+    <title>571 has 2 divisors: 1, 571</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="71" width="60" height="0.9" fill="#cc0000"/>
+    <title>572 has 12 divisors: 1, 2, 4, 11, 13, 22, 26, 44, 52, 143, 286, 572</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="72" width="20" height="0.9" fill="#ff6600"/>
+    <title>573 has 4 divisors: 1, 3, 191, 573</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="73" width="40" height="0.9" fill="#ffcc00"/>
+    <title>574 has 8 divisors: 1, 2, 7, 14, 41, 82, 287, 574</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="74" width="30" height="0.9" fill="#009900"/>
+    <title>575 has 6 divisors: 1, 5, 23, 25, 115, 575</title>
+   </g>
+   <g class="active">
+    <text x="105" y="75" text-anchor="start" dx="1" dy="3" font-size="5">576</text>
+    <rect x="0" y="75" width="105" height="0.9" fill="#0000ff"/>
+    <title>576 has 21 divisors: 1, 2, 3, 4, 6, 8, 9, 12, 16, 18, 24, 32, 36, 48, 64, 72, 96, 144, 192, 288, 576</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="76" width="10" height="0.9" fill="#9900cc"/>
+    <title>577 has 2 divisors: 1, 577</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="77" width="30" height="0.9" fill="#999999"/>
+    <title>578 has 6 divisors: 1, 2, 17, 34, 289, 578</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="78" width="20" height="0.9" fill="#0099ff"/>
+    <title>579 has 4 divisors: 1, 3, 193, 579</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="79" width="60" height="0.9" fill="#000000"/>
+    <title>580 has 12 divisors: 1, 2, 4, 5, 10, 20, 29, 58, 116, 145, 290, 580</title>
+   </g>
+   <text x="-2" y="79" dy="4">580</text>
+   <g class="active">
+    <rect x="0" y="80" width="20" height="0.9" fill="#663300"/>
+    <title>581 has 4 divisors: 1, 7, 83, 581</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="81" width="40" height="0.9" fill="#cc0000"/>
+    <title>582 has 8 divisors: 1, 2, 3, 6, 97, 194, 291, 582</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="82" width="20" height="0.9" fill="#ff6600"/>
+    <title>583 has 4 divisors: 1, 11, 53, 583</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="83" width="40" height="0.9" fill="#ffcc00"/>
+    <title>584 has 8 divisors: 1, 2, 4, 8, 73, 146, 292, 584</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="84" width="60" height="0.9" fill="#009900"/>
+    <title>585 has 12 divisors: 1, 3, 5, 9, 13, 15, 39, 45, 65, 117, 195, 585</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="85" width="20" height="0.9" fill="#0000ff"/>
+    <title>586 has 4 divisors: 1, 2, 293, 586</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="86" width="10" height="0.9" fill="#9900cc"/>
+    <title>587 has 2 divisors: 1, 587</title>
+   </g>
+   <g class="active">
+    <text x="90" y="87" text-anchor="start" dx="1" dy="3" font-size="5">588</text>
+    <rect x="0" y="87" width="90" height="0.9" fill="#999999"/>
+    <title>588 has 18 divisors: 1, 2, 3, 4, 6, 7, 12, 14, 21, 28, 42, 49, 84, 98, 147, 196, 294, 588</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="88" width="20" height="0.9" fill="#0099ff"/>
+    <title>589 has 4 divisors: 1, 19, 31, 589</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="89" width="40" height="0.9" fill="#000000"/>
+    <title>590 has 8 divisors: 1, 2, 5, 10, 59, 118, 295, 590</title>
+   </g>
+   <text x="-2" y="89" dy="4">590</text>
+   <g class="active">
+    <rect x="0" y="90" width="20" height="0.9" fill="#663300"/>
+    <title>591 has 4 divisors: 1, 3, 197, 591</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="91" width="50" height="0.9" fill="#cc0000"/>
+    <title>592 has 10 divisors: 1, 2, 4, 8, 16, 37, 74, 148, 296, 592</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="92" width="10" height="0.9" fill="#ff6600"/>
+    <title>593 has 2 divisors: 1, 593</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="93" width="80" height="0.9" fill="#ffcc00"/>
+    <title>594 has 16 divisors: 1, 2, 3, 6, 9, 11, 18, 22, 27, 33, 54, 66, 99, 198, 297, 594</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="94" width="40" height="0.9" fill="#009900"/>
+    <title>595 has 8 divisors: 1, 5, 7, 17, 35, 85, 119, 595</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="95" width="30" height="0.9" fill="#0000ff"/>
+    <title>596 has 6 divisors: 1, 2, 4, 149, 298, 596</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="96" width="20" height="0.9" fill="#9900cc"/>
+    <title>597 has 4 divisors: 1, 3, 199, 597</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="97" width="40" height="0.9" fill="#999999"/>
+    <title>598 has 8 divisors: 1, 2, 13, 23, 26, 46, 299, 598</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="98" width="10" height="0.9" fill="#0099ff"/>
+    <title>599 has 2 divisors: 1, 599</title>
+   </g>
+   <g class="active">
+    <text x="120" y="99" text-anchor="start" dx="1" dy="3" font-size="7">600</text>
+    <rect x="0" y="99" width="120" height="0.9" fill="#000000"/>
+    <title>600 has 24 divisors: 1, 2, 3, 4, 5, 6, 8, 10, 12, 15, 20, 24, 25, 30, 40, 50, 60, 75, 100, 120, 150, 200, 300, 600</title>
+   </g>
+   <text x="-2" y="99" dy="4">600</text>
+   <g class="active">
+    <rect x="0" y="100" width="10" height="0.9" fill="#663300"/>
+    <title>601 has 2 divisors: 1, 601</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="101" width="40" height="0.9" fill="#cc0000"/>
+    <title>602 has 8 divisors: 1, 2, 7, 14, 43, 86, 301, 602</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="102" width="30" height="0.9" fill="#ff6600"/>
+    <title>603 has 6 divisors: 1, 3, 9, 67, 201, 603</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="103" width="30" height="0.9" fill="#ffcc00"/>
+    <title>604 has 6 divisors: 1, 2, 4, 151, 302, 604</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="104" width="30" height="0.9" fill="#009900"/>
+    <title>605 has 6 divisors: 1, 5, 11, 55, 121, 605</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="105" width="40" height="0.9" fill="#0000ff"/>
+    <title>606 has 8 divisors: 1, 2, 3, 6, 101, 202, 303, 606</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="106" width="10" height="0.9" fill="#9900cc"/>
+    <title>607 has 2 divisors: 1, 607</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="107" width="60" height="0.9" fill="#999999"/>
+    <title>608 has 12 divisors: 1, 2, 4, 8, 16, 19, 32, 38, 76, 152, 304, 608</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="108" width="40" height="0.9" fill="#0099ff"/>
+    <title>609 has 8 divisors: 1, 3, 7, 21, 29, 87, 203, 609</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="109" width="40" height="0.9" fill="#000000"/>
+    <title>610 has 8 divisors: 1, 2, 5, 10, 61, 122, 305, 610</title>
+   </g>
+   <text x="-2" y="109" dy="4">610</text>
+   <g class="active">
+    <rect x="0" y="110" width="20" height="0.9" fill="#663300"/>
+    <title>611 has 4 divisors: 1, 13, 47, 611</title>
+   </g>
+   <g class="active">
+    <text x="90" y="111" text-anchor="start" dx="1" dy="3" font-size="5">612</text>
+    <rect x="0" y="111" width="90" height="0.9" fill="#cc0000"/>
+    <title>612 has 18 divisors: 1, 2, 3, 4, 6, 9, 12, 17, 18, 34, 36, 51, 68, 102, 153, 204, 306, 612</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="112" width="10" height="0.9" fill="#ff6600"/>
+    <title>613 has 2 divisors: 1, 613</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="113" width="20" height="0.9" fill="#ffcc00"/>
+    <title>614 has 4 divisors: 1, 2, 307, 614</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="114" width="40" height="0.9" fill="#009900"/>
+    <title>615 has 8 divisors: 1, 3, 5, 15, 41, 123, 205, 615</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="115" width="80" height="0.9" fill="#0000ff"/>
+    <title>616 has 16 divisors: 1, 2, 4, 7, 8, 11, 14, 22, 28, 44, 56, 77, 88, 154, 308, 616</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="116" width="10" height="0.9" fill="#9900cc"/>
+    <title>617 has 2 divisors: 1, 617</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="117" width="40" height="0.9" fill="#999999"/>
+    <title>618 has 8 divisors: 1, 2, 3, 6, 103, 206, 309, 618</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="118" width="10" height="0.9" fill="#0099ff"/>
+    <title>619 has 2 divisors: 1, 619</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="119" width="60" height="0.9" fill="#000000"/>
+    <title>620 has 12 divisors: 1, 2, 4, 5, 10, 20, 31, 62, 124, 155, 310, 620</title>
+   </g>
+   <text x="-2" y="119" dy="4">620</text>
+   <g class="active">
+    <rect x="0" y="120" width="40" height="0.9" fill="#663300"/>
+    <title>621 has 8 divisors: 1, 3, 9, 23, 27, 69, 207, 621</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="121" width="20" height="0.9" fill="#cc0000"/>
+    <title>622 has 4 divisors: 1, 2, 311, 622</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="122" width="20" height="0.9" fill="#ff6600"/>
+    <title>623 has 4 divisors: 1, 7, 89, 623</title>
+   </g>
+   <g class="active">
+    <text x="100" y="123" text-anchor="start" dx="1" dy="3" font-size="5">624</text>
+    <rect x="0" y="123" width="100" height="0.9" fill="#ffcc00"/>
+    <title>624 has 20 divisors: 1, 2, 3, 4, 6, 8, 12, 13, 16, 24, 26, 39, 48, 52, 78, 104, 156, 208, 312, 624</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="124" width="25" height="0.9" fill="#009900"/>
+    <title>625 has 5 divisors: 1, 5, 25, 125, 625</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="125" width="20" height="0.9" fill="#0000ff"/>
+    <title>626 has 4 divisors: 1, 2, 313, 626</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="126" width="40" height="0.9" fill="#9900cc"/>
+    <title>627 has 8 divisors: 1, 3, 11, 19, 33, 57, 209, 627</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="127" width="30" height="0.9" fill="#999999"/>
+    <title>628 has 6 divisors: 1, 2, 4, 157, 314, 628</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="128" width="20" height="0.9" fill="#0099ff"/>
+    <title>629 has 4 divisors: 1, 17, 37, 629</title>
+   </g>
+   <g class="active">
+    <text x="120" y="129" text-anchor="start" dx="1" dy="3" font-size="7">630</text>
+    <rect x="0" y="129" width="120" height="0.9" fill="#000000"/>
+    <title>630 has 24 divisors: 1, 2, 3, 5, 6, 7, 9, 10, 14, 15, 18, 21, 30, 35, 42, 45, 63, 70, 90, 105, 126, 210, 315, 630</title>
+   </g>
+   <text x="-2" y="129" dy="4">630</text>
+   <g class="active">
+    <rect x="0" y="130" width="10" height="0.9" fill="#663300"/>
+    <title>631 has 2 divisors: 1, 631</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="131" width="40" height="0.9" fill="#cc0000"/>
+    <title>632 has 8 divisors: 1, 2, 4, 8, 79, 158, 316, 632</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="132" width="20" height="0.9" fill="#ff6600"/>
+    <title>633 has 4 divisors: 1, 3, 211, 633</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="133" width="20" height="0.9" fill="#ffcc00"/>
+    <title>634 has 4 divisors: 1, 2, 317, 634</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="134" width="20" height="0.9" fill="#009900"/>
+    <title>635 has 4 divisors: 1, 5, 127, 635</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="135" width="60" height="0.9" fill="#0000ff"/>
+    <title>636 has 12 divisors: 1, 2, 3, 4, 6, 12, 53, 106, 159, 212, 318, 636</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="136" width="30" height="0.9" fill="#9900cc"/>
+    <title>637 has 6 divisors: 1, 7, 13, 49, 91, 637</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="137" width="40" height="0.9" fill="#999999"/>
+    <title>638 has 8 divisors: 1, 2, 11, 22, 29, 58, 319, 638</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="138" width="30" height="0.9" fill="#0099ff"/>
+    <title>639 has 6 divisors: 1, 3, 9, 71, 213, 639</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="139" width="80" height="0.9" fill="#000000"/>
+    <title>640 has 16 divisors: 1, 2, 4, 5, 8, 10, 16, 20, 32, 40, 64, 80, 128, 160, 320, 640</title>
+   </g>
+   <text x="-2" y="139" dy="4">640</text>
+   <g class="active">
+    <rect x="0" y="140" width="10" height="0.9" fill="#663300"/>
+    <title>641 has 2 divisors: 1, 641</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="141" width="40" height="0.9" fill="#cc0000"/>
+    <title>642 has 8 divisors: 1, 2, 3, 6, 107, 214, 321, 642</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="142" width="10" height="0.9" fill="#ff6600"/>
+    <title>643 has 2 divisors: 1, 643</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="143" width="60" height="0.9" fill="#ffcc00"/>
+    <title>644 has 12 divisors: 1, 2, 4, 7, 14, 23, 28, 46, 92, 161, 322, 644</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="144" width="40" height="0.9" fill="#009900"/>
+    <title>645 has 8 divisors: 1, 3, 5, 15, 43, 129, 215, 645</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="145" width="40" height="0.9" fill="#0000ff"/>
+    <title>646 has 8 divisors: 1, 2, 17, 19, 34, 38, 323, 646</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="146" width="10" height="0.9" fill="#9900cc"/>
+    <title>647 has 2 divisors: 1, 647</title>
+   </g>
+   <g class="active">
+    <text x="100" y="147" text-anchor="start" dx="1" dy="3" font-size="5">648</text>
+    <rect x="0" y="147" width="100" height="0.9" fill="#999999"/>
+    <title>648 has 20 divisors: 1, 2, 3, 4, 6, 8, 9, 12, 18, 24, 27, 36, 54, 72, 81, 108, 162, 216, 324, 648</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="148" width="20" height="0.9" fill="#0099ff"/>
+    <title>649 has 4 divisors: 1, 11, 59, 649</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="149" width="60" height="0.9" fill="#000000"/>
+    <title>650 has 12 divisors: 1, 2, 5, 10, 13, 25, 26, 50, 65, 130, 325, 650</title>
+   </g>
+   <text x="-2" y="149" dy="4">650</text>
+   <g class="active">
+    <rect x="0" y="150" width="40" height="0.9" fill="#663300"/>
+    <title>651 has 8 divisors: 1, 3, 7, 21, 31, 93, 217, 651</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="151" width="30" height="0.9" fill="#cc0000"/>
+    <title>652 has 6 divisors: 1, 2, 4, 163, 326, 652</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="152" width="10" height="0.9" fill="#ff6600"/>
+    <title>653 has 2 divisors: 1, 653</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="153" width="40" height="0.9" fill="#ffcc00"/>
+    <title>654 has 8 divisors: 1, 2, 3, 6, 109, 218, 327, 654</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="154" width="20" height="0.9" fill="#009900"/>
+    <title>655 has 4 divisors: 1, 5, 131, 655</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="155" width="50" height="0.9" fill="#0000ff"/>
+    <title>656 has 10 divisors: 1, 2, 4, 8, 16, 41, 82, 164, 328, 656</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="156" width="30" height="0.9" fill="#9900cc"/>
+    <title>657 has 6 divisors: 1, 3, 9, 73, 219, 657</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="157" width="40" height="0.9" fill="#999999"/>
+    <title>658 has 8 divisors: 1, 2, 7, 14, 47, 94, 329, 658</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="158" width="10" height="0.9" fill="#0099ff"/>
+    <title>659 has 2 divisors: 1, 659</title>
+   </g>
+   <g class="active">
+    <text x="120" y="159" text-anchor="start" dx="1" dy="3" font-size="7">660</text>
+    <rect x="0" y="159" width="120" height="0.9" fill="#000000"/>
+    <title>660 has 24 divisors: 1, 2, 3, 4, 5, 6, 10, 11, 12, 15, 20, 22, 30, 33, 44, 55, 60, 66, 110, 132, 165, 220, 330, 660</title>
+   </g>
+   <text x="-2" y="159" dy="4">660</text>
+   <g class="active">
+    <rect x="0" y="160" width="10" height="0.9" fill="#663300"/>
+    <title>661 has 2 divisors: 1, 661</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="161" width="20" height="0.9" fill="#cc0000"/>
+    <title>662 has 4 divisors: 1, 2, 331, 662</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="162" width="40" height="0.9" fill="#ff6600"/>
+    <title>663 has 8 divisors: 1, 3, 13, 17, 39, 51, 221, 663</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="163" width="40" height="0.9" fill="#ffcc00"/>
+    <title>664 has 8 divisors: 1, 2, 4, 8, 83, 166, 332, 664</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="164" width="40" height="0.9" fill="#009900"/>
+    <title>665 has 8 divisors: 1, 5, 7, 19, 35, 95, 133, 665</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="165" width="60" height="0.9" fill="#0000ff"/>
+    <title>666 has 12 divisors: 1, 2, 3, 6, 9, 18, 37, 74, 111, 222, 333, 666</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="166" width="20" height="0.9" fill="#9900cc"/>
+    <title>667 has 4 divisors: 1, 23, 29, 667</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="167" width="30" height="0.9" fill="#999999"/>
+    <title>668 has 6 divisors: 1, 2, 4, 167, 334, 668</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="168" width="20" height="0.9" fill="#0099ff"/>
+    <title>669 has 4 divisors: 1, 3, 223, 669</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="169" width="40" height="0.9" fill="#000000"/>
+    <title>670 has 8 divisors: 1, 2, 5, 10, 67, 134, 335, 670</title>
+   </g>
+   <text x="-2" y="169" dy="4">670</text>
+   <g class="active">
+    <rect x="0" y="170" width="20" height="0.9" fill="#663300"/>
+    <title>671 has 4 divisors: 1, 11, 61, 671</title>
+   </g>
+   <g class="active">
+    <text x="120" y="171" text-anchor="start" dx="1" dy="3" font-size="7">672</text>
+    <rect x="0" y="171" width="120" height="0.9" fill="#cc0000"/>
+    <title>672 has 24 divisors: 1, 2, 3, 4, 6, 7, 8, 12, 14, 16, 21, 24, 28, 32, 42, 48, 56, 84, 96, 112, 168, 224, 336, 672</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="172" width="10" height="0.9" fill="#ff6600"/>
+    <title>673 has 2 divisors: 1, 673</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="173" width="20" height="0.9" fill="#ffcc00"/>
+    <title>674 has 4 divisors: 1, 2, 337, 674</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="174" width="60" height="0.9" fill="#009900"/>
+    <title>675 has 12 divisors: 1, 3, 5, 9, 15, 25, 27, 45, 75, 135, 225, 675</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="175" width="45" height="0.9" fill="#0000ff"/>
+    <title>676 has 9 divisors: 1, 2, 4, 13, 26, 52, 169, 338, 676</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="176" width="10" height="0.9" fill="#9900cc"/>
+    <title>677 has 2 divisors: 1, 677</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="177" width="40" height="0.9" fill="#999999"/>
+    <title>678 has 8 divisors: 1, 2, 3, 6, 113, 226, 339, 678</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="178" width="20" height="0.9" fill="#0099ff"/>
+    <title>679 has 4 divisors: 1, 7, 97, 679</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="179" width="80" height="0.9" fill="#000000"/>
+    <title>680 has 16 divisors: 1, 2, 4, 5, 8, 10, 17, 20, 34, 40, 68, 85, 136, 170, 340, 680</title>
+   </g>
+   <text x="-2" y="179" dy="4">680</text>
+   <g class="active">
+    <rect x="0" y="180" width="20" height="0.9" fill="#663300"/>
+    <title>681 has 4 divisors: 1, 3, 227, 681</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="181" width="40" height="0.9" fill="#cc0000"/>
+    <title>682 has 8 divisors: 1, 2, 11, 22, 31, 62, 341, 682</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="182" width="10" height="0.9" fill="#ff6600"/>
+    <title>683 has 2 divisors: 1, 683</title>
+   </g>
+   <g class="active">
+    <text x="90" y="183" text-anchor="start" dx="1" dy="3" font-size="5">684</text>
+    <rect x="0" y="183" width="90" height="0.9" fill="#ffcc00"/>
+    <title>684 has 18 divisors: 1, 2, 3, 4, 6, 9, 12, 18, 19, 36, 38, 57, 76, 114, 171, 228, 342, 684</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="184" width="20" height="0.9" fill="#009900"/>
+    <title>685 has 4 divisors: 1, 5, 137, 685</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="185" width="40" height="0.9" fill="#0000ff"/>
+    <title>686 has 8 divisors: 1, 2, 7, 14, 49, 98, 343, 686</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="186" width="20" height="0.9" fill="#9900cc"/>
+    <title>687 has 4 divisors: 1, 3, 229, 687</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="187" width="50" height="0.9" fill="#999999"/>
+    <title>688 has 10 divisors: 1, 2, 4, 8, 16, 43, 86, 172, 344, 688</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="188" width="20" height="0.9" fill="#0099ff"/>
+    <title>689 has 4 divisors: 1, 13, 53, 689</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="189" width="80" height="0.9" fill="#000000"/>
+    <title>690 has 16 divisors: 1, 2, 3, 5, 6, 10, 15, 23, 30, 46, 69, 115, 138, 230, 345, 690</title>
+   </g>
+   <text x="-2" y="189" dy="4">690</text>
+   <g class="active">
+    <rect x="0" y="190" width="10" height="0.9" fill="#663300"/>
+    <title>691 has 2 divisors: 1, 691</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="191" width="30" height="0.9" fill="#cc0000"/>
+    <title>692 has 6 divisors: 1, 2, 4, 173, 346, 692</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="192" width="60" height="0.9" fill="#ff6600"/>
+    <title>693 has 12 divisors: 1, 3, 7, 9, 11, 21, 33, 63, 77, 99, 231, 693</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="193" width="20" height="0.9" fill="#ffcc00"/>
+    <title>694 has 4 divisors: 1, 2, 347, 694</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="194" width="20" height="0.9" fill="#009900"/>
+    <title>695 has 4 divisors: 1, 5, 139, 695</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="195" width="80" height="0.9" fill="#0000ff"/>
+    <title>696 has 16 divisors: 1, 2, 3, 4, 6, 8, 12, 24, 29, 58, 87, 116, 174, 232, 348, 696</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="196" width="20" height="0.9" fill="#9900cc"/>
+    <title>697 has 4 divisors: 1, 17, 41, 697</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="197" width="20" height="0.9" fill="#999999"/>
+    <title>698 has 4 divisors: 1, 2, 349, 698</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="198" width="20" height="0.9" fill="#0099ff"/>
+    <title>699 has 4 divisors: 1, 3, 233, 699</title>
+   </g>
+   <g class="active">
+    <text x="90" y="199" text-anchor="start" dx="1" dy="3" font-size="5">700</text>
+    <rect x="0" y="199" width="90" height="0.9" fill="#000000"/>
+    <title>700 has 18 divisors: 1, 2, 4, 5, 7, 10, 14, 20, 25, 28, 35, 50, 70, 100, 140, 175, 350, 700</title>
+   </g>
+   <text x="-2" y="199" dy="4">700</text>
+   <g class="active">
+    <rect x="0" y="200" width="10" height="0.9" fill="#663300"/>
+    <title>701 has 2 divisors: 1, 701</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="201" width="80" height="0.9" fill="#cc0000"/>
+    <title>702 has 16 divisors: 1, 2, 3, 6, 9, 13, 18, 26, 27, 39, 54, 78, 117, 234, 351, 702</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="202" width="20" height="0.9" fill="#ff6600"/>
+    <title>703 has 4 divisors: 1, 19, 37, 703</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="203" width="70" height="0.9" fill="#ffcc00"/>
+    <title>704 has 14 divisors: 1, 2, 4, 8, 11, 16, 22, 32, 44, 64, 88, 176, 352, 704</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="204" width="40" height="0.9" fill="#009900"/>
+    <title>705 has 8 divisors: 1, 3, 5, 15, 47, 141, 235, 705</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="205" width="20" height="0.9" fill="#0000ff"/>
+    <title>706 has 4 divisors: 1, 2, 353, 706</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="206" width="20" height="0.9" fill="#9900cc"/>
+    <title>707 has 4 divisors: 1, 7, 101, 707</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="207" width="60" height="0.9" fill="#999999"/>
+    <title>708 has 12 divisors: 1, 2, 3, 4, 6, 12, 59, 118, 177, 236, 354, 708</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="208" width="10" height="0.9" fill="#0099ff"/>
+    <title>709 has 2 divisors: 1, 709</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="209" width="40" height="0.9" fill="#000000"/>
+    <title>710 has 8 divisors: 1, 2, 5, 10, 71, 142, 355, 710</title>
+   </g>
+   <text x="-2" y="209" dy="4">710</text>
+   <g class="active">
+    <rect x="0" y="210" width="30" height="0.9" fill="#663300"/>
+    <title>711 has 6 divisors: 1, 3, 9, 79, 237, 711</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="211" width="40" height="0.9" fill="#cc0000"/>
+    <title>712 has 8 divisors: 1, 2, 4, 8, 89, 178, 356, 712</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="212" width="20" height="0.9" fill="#ff6600"/>
+    <title>713 has 4 divisors: 1, 23, 31, 713</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="213" width="80" height="0.9" fill="#ffcc00"/>
+    <title>714 has 16 divisors: 1, 2, 3, 6, 7, 14, 17, 21, 34, 42, 51, 102, 119, 238, 357, 714</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="214" width="40" height="0.9" fill="#009900"/>
+    <title>715 has 8 divisors: 1, 5, 11, 13, 55, 65, 143, 715</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="215" width="30" height="0.9" fill="#0000ff"/>
+    <title>716 has 6 divisors: 1, 2, 4, 179, 358, 716</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="216" width="20" height="0.9" fill="#9900cc"/>
+    <title>717 has 4 divisors: 1, 3, 239, 717</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="217" width="20" height="0.9" fill="#999999"/>
+    <title>718 has 4 divisors: 1, 2, 359, 718</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="218" width="10" height="0.9" fill="#0099ff"/>
+    <title>719 has 2 divisors: 1, 719</title>
+   </g>
+   <g class="active">
+    <text x="150" y="219" text-anchor="start" dx="1" dy="3" font-weight="bold">720</text>
+    <rect x="0" y="219" width="150" height="0.9" fill="#000000"/>
+    <title>720 has 30 divisors: 1, 2, 3, 4, 5, 6, 8, 9, 10, 12, 15, 16, 18, 20, 24, 30, 36, 40, 45, 48, 60, 72, 80, 90, 120, 144, 180, 240, 360, 720</title>
+   </g>
+   <path d="M 120,0 V 219" stroke="#000000"/>
+   <text x="-2" y="219" dy="4">720</text>
+   <g class="active">
+    <rect x="0" y="220" width="20" height="0.9" fill="#663300"/>
+    <title>721 has 4 divisors: 1, 7, 103, 721</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="221" width="30" height="0.9" fill="#cc0000"/>
+    <title>722 has 6 divisors: 1, 2, 19, 38, 361, 722</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="222" width="20" height="0.9" fill="#ff6600"/>
+    <title>723 has 4 divisors: 1, 3, 241, 723</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="223" width="30" height="0.9" fill="#ffcc00"/>
+    <title>724 has 6 divisors: 1, 2, 4, 181, 362, 724</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="224" width="30" height="0.9" fill="#009900"/>
+    <title>725 has 6 divisors: 1, 5, 25, 29, 145, 725</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="225" width="60" height="0.9" fill="#0000ff"/>
+    <title>726 has 12 divisors: 1, 2, 3, 6, 11, 22, 33, 66, 121, 242, 363, 726</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="226" width="10" height="0.9" fill="#9900cc"/>
+    <title>727 has 2 divisors: 1, 727</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="227" width="80" height="0.9" fill="#999999"/>
+    <title>728 has 16 divisors: 1, 2, 4, 7, 8, 13, 14, 26, 28, 52, 56, 91, 104, 182, 364, 728</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="228" width="35" height="0.9" fill="#0099ff"/>
+    <title>729 has 7 divisors: 1, 3, 9, 27, 81, 243, 729</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="229" width="40" height="0.9" fill="#000000"/>
+    <title>730 has 8 divisors: 1, 2, 5, 10, 73, 146, 365, 730</title>
+   </g>
+   <text x="-2" y="229" dy="4">730</text>
+   <g class="active">
+    <rect x="0" y="230" width="20" height="0.9" fill="#663300"/>
+    <title>731 has 4 divisors: 1, 17, 43, 731</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="231" width="60" height="0.9" fill="#cc0000"/>
+    <title>732 has 12 divisors: 1, 2, 3, 4, 6, 12, 61, 122, 183, 244, 366, 732</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="232" width="10" height="0.9" fill="#ff6600"/>
+    <title>733 has 2 divisors: 1, 733</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="233" width="20" height="0.9" fill="#ffcc00"/>
+    <title>734 has 4 divisors: 1, 2, 367, 734</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="234" width="60" height="0.9" fill="#009900"/>
+    <title>735 has 12 divisors: 1, 3, 5, 7, 15, 21, 35, 49, 105, 147, 245, 735</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="235" width="60" height="0.9" fill="#0000ff"/>
+    <title>736 has 12 divisors: 1, 2, 4, 8, 16, 23, 32, 46, 92, 184, 368, 736</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="236" width="20" height="0.9" fill="#9900cc"/>
+    <title>737 has 4 divisors: 1, 11, 67, 737</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="237" width="60" height="0.9" fill="#999999"/>
+    <title>738 has 12 divisors: 1, 2, 3, 6, 9, 18, 41, 82, 123, 246, 369, 738</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="238" width="10" height="0.9" fill="#0099ff"/>
+    <title>739 has 2 divisors: 1, 739</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="239" width="60" height="0.9" fill="#000000"/>
+    <title>740 has 12 divisors: 1, 2, 4, 5, 10, 20, 37, 74, 148, 185, 370, 740</title>
+   </g>
+   <text x="-2" y="239" dy="4">740</text>
+   <g class="active">
+    <rect x="0" y="240" width="40" height="0.9" fill="#663300"/>
+    <title>741 has 8 divisors: 1, 3, 13, 19, 39, 57, 247, 741</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="241" width="40" height="0.9" fill="#cc0000"/>
+    <title>742 has 8 divisors: 1, 2, 7, 14, 53, 106, 371, 742</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="242" width="10" height="0.9" fill="#ff6600"/>
+    <title>743 has 2 divisors: 1, 743</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="243" width="80" height="0.9" fill="#ffcc00"/>
+    <title>744 has 16 divisors: 1, 2, 3, 4, 6, 8, 12, 24, 31, 62, 93, 124, 186, 248, 372, 744</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="244" width="20" height="0.9" fill="#009900"/>
+    <title>745 has 4 divisors: 1, 5, 149, 745</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="245" width="20" height="0.9" fill="#0000ff"/>
+    <title>746 has 4 divisors: 1, 2, 373, 746</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="246" width="30" height="0.9" fill="#9900cc"/>
+    <title>747 has 6 divisors: 1, 3, 9, 83, 249, 747</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="247" width="60" height="0.9" fill="#999999"/>
+    <title>748 has 12 divisors: 1, 2, 4, 11, 17, 22, 34, 44, 68, 187, 374, 748</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="248" width="20" height="0.9" fill="#0099ff"/>
+    <title>749 has 4 divisors: 1, 7, 107, 749</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="249" width="80" height="0.9" fill="#000000"/>
+    <title>750 has 16 divisors: 1, 2, 3, 5, 6, 10, 15, 25, 30, 50, 75, 125, 150, 250, 375, 750</title>
+   </g>
+   <text x="-2" y="249" dy="4">750</text>
+   <g class="active">
+    <rect x="0" y="250" width="10" height="0.9" fill="#663300"/>
+    <title>751 has 2 divisors: 1, 751</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="251" width="50" height="0.9" fill="#cc0000"/>
+    <title>752 has 10 divisors: 1, 2, 4, 8, 16, 47, 94, 188, 376, 752</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="252" width="20" height="0.9" fill="#ff6600"/>
+    <title>753 has 4 divisors: 1, 3, 251, 753</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="253" width="40" height="0.9" fill="#ffcc00"/>
+    <title>754 has 8 divisors: 1, 2, 13, 26, 29, 58, 377, 754</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="254" width="20" height="0.9" fill="#009900"/>
+    <title>755 has 4 divisors: 1, 5, 151, 755</title>
+   </g>
+   <g class="active">
+    <text x="120" y="255" text-anchor="start" dx="1" dy="3" font-size="5">756</text>
+    <rect x="0" y="255" width="120" height="0.9" fill="#0000ff"/>
+    <title>756 has 24 divisors: 1, 2, 3, 4, 6, 7, 9, 12, 14, 18, 21, 27, 28, 36, 42, 54, 63, 84, 108, 126, 189, 252, 378, 756</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="256" width="10" height="0.9" fill="#9900cc"/>
+    <title>757 has 2 divisors: 1, 757</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="257" width="20" height="0.9" fill="#999999"/>
+    <title>758 has 4 divisors: 1, 2, 379, 758</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="258" width="40" height="0.9" fill="#0099ff"/>
+    <title>759 has 8 divisors: 1, 3, 11, 23, 33, 69, 253, 759</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="259" width="80" height="0.9" fill="#000000"/>
+    <title>760 has 16 divisors: 1, 2, 4, 5, 8, 10, 19, 20, 38, 40, 76, 95, 152, 190, 380, 760</title>
+   </g>
+   <text x="-2" y="259" dy="4">760</text>
+   <g class="active">
+    <rect x="0" y="260" width="10" height="0.9" fill="#663300"/>
+    <title>761 has 2 divisors: 1, 761</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="261" width="40" height="0.9" fill="#cc0000"/>
+    <title>762 has 8 divisors: 1, 2, 3, 6, 127, 254, 381, 762</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="262" width="20" height="0.9" fill="#ff6600"/>
+    <title>763 has 4 divisors: 1, 7, 109, 763</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="263" width="30" height="0.9" fill="#ffcc00"/>
+    <title>764 has 6 divisors: 1, 2, 4, 191, 382, 764</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="264" width="60" height="0.9" fill="#009900"/>
+    <title>765 has 12 divisors: 1, 3, 5, 9, 15, 17, 45, 51, 85, 153, 255, 765</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="265" width="20" height="0.9" fill="#0000ff"/>
+    <title>766 has 4 divisors: 1, 2, 383, 766</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="266" width="20" height="0.9" fill="#9900cc"/>
+    <title>767 has 4 divisors: 1, 13, 59, 767</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="267" width="90" height="0.9" fill="#999999"/>
+    <title>768 has 18 divisors: 1, 2, 3, 4, 6, 8, 12, 16, 24, 32, 48, 64, 96, 128, 192, 256, 384, 768</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="268" width="10" height="0.9" fill="#0099ff"/>
+    <title>769 has 2 divisors: 1, 769</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="269" width="80" height="0.9" fill="#000000"/>
+    <title>770 has 16 divisors: 1, 2, 5, 7, 10, 11, 14, 22, 35, 55, 70, 77, 110, 154, 385, 770</title>
+   </g>
+   <text x="-2" y="269" dy="4">770</text>
+   <g class="active">
+    <rect x="0" y="270" width="20" height="0.9" fill="#663300"/>
+    <title>771 has 4 divisors: 1, 3, 257, 771</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="271" width="30" height="0.9" fill="#cc0000"/>
+    <title>772 has 6 divisors: 1, 2, 4, 193, 386, 772</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="272" width="10" height="0.9" fill="#ff6600"/>
+    <title>773 has 2 divisors: 1, 773</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="273" width="60" height="0.9" fill="#ffcc00"/>
+    <title>774 has 12 divisors: 1, 2, 3, 6, 9, 18, 43, 86, 129, 258, 387, 774</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="274" width="30" height="0.9" fill="#009900"/>
+    <title>775 has 6 divisors: 1, 5, 25, 31, 155, 775</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="275" width="40" height="0.9" fill="#0000ff"/>
+    <title>776 has 8 divisors: 1, 2, 4, 8, 97, 194, 388, 776</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="276" width="40" height="0.9" fill="#9900cc"/>
+    <title>777 has 8 divisors: 1, 3, 7, 21, 37, 111, 259, 777</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="277" width="20" height="0.9" fill="#999999"/>
+    <title>778 has 4 divisors: 1, 2, 389, 778</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="278" width="20" height="0.9" fill="#0099ff"/>
+    <title>779 has 4 divisors: 1, 19, 41, 779</title>
+   </g>
+   <g class="active">
+    <text x="120" y="279" text-anchor="start" dx="1" dy="3" font-size="5">780</text>
+    <rect x="0" y="279" width="120" height="0.9" fill="#000000"/>
+    <title>780 has 24 divisors: 1, 2, 3, 4, 5, 6, 10, 12, 13, 15, 20, 26, 30, 39, 52, 60, 65, 78, 130, 156, 195, 260, 390, 780</title>
+   </g>
+   <text x="-2" y="279" dy="4">780</text>
+   <g class="active">
+    <rect x="0" y="280" width="20" height="0.9" fill="#663300"/>
+    <title>781 has 4 divisors: 1, 11, 71, 781</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="281" width="40" height="0.9" fill="#cc0000"/>
+    <title>782 has 8 divisors: 1, 2, 17, 23, 34, 46, 391, 782</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="282" width="40" height="0.9" fill="#ff6600"/>
+    <title>783 has 8 divisors: 1, 3, 9, 27, 29, 87, 261, 783</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="283" width="75" height="0.9" fill="#ffcc00"/>
+    <title>784 has 15 divisors: 1, 2, 4, 7, 8, 14, 16, 28, 49, 56, 98, 112, 196, 392, 784</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="284" width="20" height="0.9" fill="#009900"/>
+    <title>785 has 4 divisors: 1, 5, 157, 785</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="285" width="40" height="0.9" fill="#0000ff"/>
+    <title>786 has 8 divisors: 1, 2, 3, 6, 131, 262, 393, 786</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="286" width="10" height="0.9" fill="#9900cc"/>
+    <title>787 has 2 divisors: 1, 787</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="287" width="30" height="0.9" fill="#999999"/>
+    <title>788 has 6 divisors: 1, 2, 4, 197, 394, 788</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="288" width="20" height="0.9" fill="#0099ff"/>
+    <title>789 has 4 divisors: 1, 3, 263, 789</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="289" width="40" height="0.9" fill="#000000"/>
+    <title>790 has 8 divisors: 1, 2, 5, 10, 79, 158, 395, 790</title>
+   </g>
+   <text x="-2" y="289" dy="4">790</text>
+   <g class="active">
+    <rect x="0" y="290" width="20" height="0.9" fill="#663300"/>
+    <title>791 has 4 divisors: 1, 7, 113, 791</title>
+   </g>
+   <g class="active">
+    <text x="120" y="291" text-anchor="start" dx="1" dy="3" font-size="5">792</text>
+    <rect x="0" y="291" width="120" height="0.9" fill="#cc0000"/>
+    <title>792 has 24 divisors: 1, 2, 3, 4, 6, 8, 9, 11, 12, 18, 22, 24, 33, 36, 44, 66, 72, 88, 99, 132, 198, 264, 396, 792</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="292" width="20" height="0.9" fill="#ff6600"/>
+    <title>793 has 4 divisors: 1, 13, 61, 793</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="293" width="20" height="0.9" fill="#ffcc00"/>
+    <title>794 has 4 divisors: 1, 2, 397, 794</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="294" width="40" height="0.9" fill="#009900"/>
+    <title>795 has 8 divisors: 1, 3, 5, 15, 53, 159, 265, 795</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="295" width="30" height="0.9" fill="#0000ff"/>
+    <title>796 has 6 divisors: 1, 2, 4, 199, 398, 796</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="296" width="10" height="0.9" fill="#9900cc"/>
+    <title>797 has 2 divisors: 1, 797</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="297" width="80" height="0.9" fill="#999999"/>
+    <title>798 has 16 divisors: 1, 2, 3, 6, 7, 14, 19, 21, 38, 42, 57, 114, 133, 266, 399, 798</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="298" width="20" height="0.9" fill="#0099ff"/>
+    <title>799 has 4 divisors: 1, 17, 47, 799</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="299" width="90" height="0.9" fill="#000000"/>
+    <title>800 has 18 divisors: 1, 2, 4, 5, 8, 10, 16, 20, 25, 32, 40, 50, 80, 100, 160, 200, 400, 800</title>
+   </g>
+   <text x="-2" y="299" dy="4">800</text>
+   <g class="active">
+    <rect x="0" y="300" width="30" height="0.9" fill="#663300"/>
+    <title>801 has 6 divisors: 1, 3, 9, 89, 267, 801</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="301" width="20" height="0.9" fill="#cc0000"/>
+    <title>802 has 4 divisors: 1, 2, 401, 802</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="302" width="20" height="0.9" fill="#ff6600"/>
+    <title>803 has 4 divisors: 1, 11, 73, 803</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="303" width="60" height="0.9" fill="#ffcc00"/>
+    <title>804 has 12 divisors: 1, 2, 3, 4, 6, 12, 67, 134, 201, 268, 402, 804</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="304" width="40" height="0.9" fill="#009900"/>
+    <title>805 has 8 divisors: 1, 5, 7, 23, 35, 115, 161, 805</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="305" width="40" height="0.9" fill="#0000ff"/>
+    <title>806 has 8 divisors: 1, 2, 13, 26, 31, 62, 403, 806</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="306" width="20" height="0.9" fill="#9900cc"/>
+    <title>807 has 4 divisors: 1, 3, 269, 807</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="307" width="40" height="0.9" fill="#999999"/>
+    <title>808 has 8 divisors: 1, 2, 4, 8, 101, 202, 404, 808</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="308" width="10" height="0.9" fill="#0099ff"/>
+    <title>809 has 2 divisors: 1, 809</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="309" width="100" height="0.9" fill="#000000"/>
+    <title>810 has 20 divisors: 1, 2, 3, 5, 6, 9, 10, 15, 18, 27, 30, 45, 54, 81, 90, 135, 162, 270, 405, 810</title>
+   </g>
+   <text x="-2" y="309" dy="4">810</text>
+   <g class="active">
+    <rect x="0" y="310" width="10" height="0.9" fill="#663300"/>
+    <title>811 has 2 divisors: 1, 811</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="311" width="60" height="0.9" fill="#cc0000"/>
+    <title>812 has 12 divisors: 1, 2, 4, 7, 14, 28, 29, 58, 116, 203, 406, 812</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="312" width="20" height="0.9" fill="#ff6600"/>
+    <title>813 has 4 divisors: 1, 3, 271, 813</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="313" width="40" height="0.9" fill="#ffcc00"/>
+    <title>814 has 8 divisors: 1, 2, 11, 22, 37, 74, 407, 814</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="314" width="20" height="0.9" fill="#009900"/>
+    <title>815 has 4 divisors: 1, 5, 163, 815</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="315" width="100" height="0.9" fill="#0000ff"/>
+    <title>816 has 20 divisors: 1, 2, 3, 4, 6, 8, 12, 16, 17, 24, 34, 48, 51, 68, 102, 136, 204, 272, 408, 816</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="316" width="20" height="0.9" fill="#9900cc"/>
+    <title>817 has 4 divisors: 1, 19, 43, 817</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="317" width="20" height="0.9" fill="#999999"/>
+    <title>818 has 4 divisors: 1, 2, 409, 818</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="318" width="60" height="0.9" fill="#0099ff"/>
+    <title>819 has 12 divisors: 1, 3, 7, 9, 13, 21, 39, 63, 91, 117, 273, 819</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="319" width="60" height="0.9" fill="#000000"/>
+    <title>820 has 12 divisors: 1, 2, 4, 5, 10, 20, 41, 82, 164, 205, 410, 820</title>
+   </g>
+   <text x="-2" y="319" dy="4">820</text>
+   <g class="active">
+    <rect x="0" y="320" width="10" height="0.9" fill="#663300"/>
+    <title>821 has 2 divisors: 1, 821</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="321" width="40" height="0.9" fill="#cc0000"/>
+    <title>822 has 8 divisors: 1, 2, 3, 6, 137, 274, 411, 822</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="322" width="10" height="0.9" fill="#ff6600"/>
+    <title>823 has 2 divisors: 1, 823</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="323" width="40" height="0.9" fill="#ffcc00"/>
+    <title>824 has 8 divisors: 1, 2, 4, 8, 103, 206, 412, 824</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="324" width="60" height="0.9" fill="#009900"/>
+    <title>825 has 12 divisors: 1, 3, 5, 11, 15, 25, 33, 55, 75, 165, 275, 825</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="325" width="40" height="0.9" fill="#0000ff"/>
+    <title>826 has 8 divisors: 1, 2, 7, 14, 59, 118, 413, 826</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="326" width="10" height="0.9" fill="#9900cc"/>
+    <title>827 has 2 divisors: 1, 827</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="327" width="90" height="0.9" fill="#999999"/>
+    <title>828 has 18 divisors: 1, 2, 3, 4, 6, 9, 12, 18, 23, 36, 46, 69, 92, 138, 207, 276, 414, 828</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="328" width="10" height="0.9" fill="#0099ff"/>
+    <title>829 has 2 divisors: 1, 829</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="329" width="40" height="0.9" fill="#000000"/>
+    <title>830 has 8 divisors: 1, 2, 5, 10, 83, 166, 415, 830</title>
+   </g>
+   <text x="-2" y="329" dy="4">830</text>
+   <g class="active">
+    <rect x="0" y="330" width="20" height="0.9" fill="#663300"/>
+    <title>831 has 4 divisors: 1, 3, 277, 831</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="331" width="70" height="0.9" fill="#cc0000"/>
+    <title>832 has 14 divisors: 1, 2, 4, 8, 13, 16, 26, 32, 52, 64, 104, 208, 416, 832</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="332" width="30" height="0.9" fill="#ff6600"/>
+    <title>833 has 6 divisors: 1, 7, 17, 49, 119, 833</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="333" width="40" height="0.9" fill="#ffcc00"/>
+    <title>834 has 8 divisors: 1, 2, 3, 6, 139, 278, 417, 834</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="334" width="20" height="0.9" fill="#009900"/>
+    <title>835 has 4 divisors: 1, 5, 167, 835</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="335" width="60" height="0.9" fill="#0000ff"/>
+    <title>836 has 12 divisors: 1, 2, 4, 11, 19, 22, 38, 44, 76, 209, 418, 836</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="336" width="40" height="0.9" fill="#9900cc"/>
+    <title>837 has 8 divisors: 1, 3, 9, 27, 31, 93, 279, 837</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="337" width="20" height="0.9" fill="#999999"/>
+    <title>838 has 4 divisors: 1, 2, 419, 838</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="338" width="10" height="0.9" fill="#0099ff"/>
+    <title>839 has 2 divisors: 1, 839</title>
+   </g>
+   <g class="active">
+    <text x="160" y="339" text-anchor="start" dx="1" dy="3" font-weight="bold">840</text>
+    <rect x="0" y="339" width="160" height="0.9" fill="#000000"/>
+    <title>840 has 32 divisors: 1, 2, 3, 4, 5, 6, 7, 8, 10, 12, 14, 15, 20, 21, 24, 28, 30, 35, 40, 42, 56, 60, 70, 84, 105, 120, 140, 168, 210, 280, 420, 840</title>
+   </g>
+   <path d="M 150,219 V 339" stroke="#000000"/>
+   <text x="-2" y="339" dy="4">840</text>
+   <g class="active">
+    <rect x="0" y="340" width="15" height="0.9" fill="#663300"/>
+    <title>841 has 3 divisors: 1, 29, 841</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="341" width="20" height="0.9" fill="#cc0000"/>
+    <title>842 has 4 divisors: 1, 2, 421, 842</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="342" width="20" height="0.9" fill="#ff6600"/>
+    <title>843 has 4 divisors: 1, 3, 281, 843</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="343" width="30" height="0.9" fill="#ffcc00"/>
+    <title>844 has 6 divisors: 1, 2, 4, 211, 422, 844</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="344" width="30" height="0.9" fill="#009900"/>
+    <title>845 has 6 divisors: 1, 5, 13, 65, 169, 845</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="345" width="60" height="0.9" fill="#0000ff"/>
+    <title>846 has 12 divisors: 1, 2, 3, 6, 9, 18, 47, 94, 141, 282, 423, 846</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="346" width="30" height="0.9" fill="#9900cc"/>
+    <title>847 has 6 divisors: 1, 7, 11, 77, 121, 847</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="347" width="50" height="0.9" fill="#999999"/>
+    <title>848 has 10 divisors: 1, 2, 4, 8, 16, 53, 106, 212, 424, 848</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="348" width="20" height="0.9" fill="#0099ff"/>
+    <title>849 has 4 divisors: 1, 3, 283, 849</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="349" width="60" height="0.9" fill="#000000"/>
+    <title>850 has 12 divisors: 1, 2, 5, 10, 17, 25, 34, 50, 85, 170, 425, 850</title>
+   </g>
+   <text x="-2" y="349" dy="4">850</text>
+   <g class="active">
+    <rect x="0" y="350" width="20" height="0.9" fill="#663300"/>
+    <title>851 has 4 divisors: 1, 23, 37, 851</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="351" width="60" height="0.9" fill="#cc0000"/>
+    <title>852 has 12 divisors: 1, 2, 3, 4, 6, 12, 71, 142, 213, 284, 426, 852</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="352" width="10" height="0.9" fill="#ff6600"/>
+    <title>853 has 2 divisors: 1, 853</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="353" width="40" height="0.9" fill="#ffcc00"/>
+    <title>854 has 8 divisors: 1, 2, 7, 14, 61, 122, 427, 854</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="354" width="60" height="0.9" fill="#009900"/>
+    <title>855 has 12 divisors: 1, 3, 5, 9, 15, 19, 45, 57, 95, 171, 285, 855</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="355" width="40" height="0.9" fill="#0000ff"/>
+    <title>856 has 8 divisors: 1, 2, 4, 8, 107, 214, 428, 856</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="356" width="10" height="0.9" fill="#9900cc"/>
+    <title>857 has 2 divisors: 1, 857</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="357" width="80" height="0.9" fill="#999999"/>
+    <title>858 has 16 divisors: 1, 2, 3, 6, 11, 13, 22, 26, 33, 39, 66, 78, 143, 286, 429, 858</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="358" width="10" height="0.9" fill="#0099ff"/>
+    <title>859 has 2 divisors: 1, 859</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="359" width="60" height="0.9" fill="#000000"/>
+    <title>860 has 12 divisors: 1, 2, 4, 5, 10, 20, 43, 86, 172, 215, 430, 860</title>
+   </g>
+   <text x="-2" y="359" dy="4">860</text>
+   <g class="active">
+    <rect x="0" y="360" width="40" height="0.9" fill="#663300"/>
+    <title>861 has 8 divisors: 1, 3, 7, 21, 41, 123, 287, 861</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="361" width="20" height="0.9" fill="#cc0000"/>
+    <title>862 has 4 divisors: 1, 2, 431, 862</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="362" width="10" height="0.9" fill="#ff6600"/>
+    <title>863 has 2 divisors: 1, 863</title>
+   </g>
+   <g class="active">
+    <text x="120" y="363" text-anchor="start" dx="1" dy="3" font-size="5">864</text>
+    <rect x="0" y="363" width="120" height="0.9" fill="#ffcc00"/>
+    <title>864 has 24 divisors: 1, 2, 3, 4, 6, 8, 9, 12, 16, 18, 24, 27, 32, 36, 48, 54, 72, 96, 108, 144, 216, 288, 432, 864</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="364" width="20" height="0.9" fill="#009900"/>
+    <title>865 has 4 divisors: 1, 5, 173, 865</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="365" width="20" height="0.9" fill="#0000ff"/>
+    <title>866 has 4 divisors: 1, 2, 433, 866</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="366" width="30" height="0.9" fill="#9900cc"/>
+    <title>867 has 6 divisors: 1, 3, 17, 51, 289, 867</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="367" width="60" height="0.9" fill="#999999"/>
+    <title>868 has 12 divisors: 1, 2, 4, 7, 14, 28, 31, 62, 124, 217, 434, 868</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="368" width="20" height="0.9" fill="#0099ff"/>
+    <title>869 has 4 divisors: 1, 11, 79, 869</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="369" width="80" height="0.9" fill="#000000"/>
+    <title>870 has 16 divisors: 1, 2, 3, 5, 6, 10, 15, 29, 30, 58, 87, 145, 174, 290, 435, 870</title>
+   </g>
+   <text x="-2" y="369" dy="4">870</text>
+   <g class="active">
+    <rect x="0" y="370" width="20" height="0.9" fill="#663300"/>
+    <title>871 has 4 divisors: 1, 13, 67, 871</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="371" width="40" height="0.9" fill="#cc0000"/>
+    <title>872 has 8 divisors: 1, 2, 4, 8, 109, 218, 436, 872</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="372" width="30" height="0.9" fill="#ff6600"/>
+    <title>873 has 6 divisors: 1, 3, 9, 97, 291, 873</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="373" width="40" height="0.9" fill="#ffcc00"/>
+    <title>874 has 8 divisors: 1, 2, 19, 23, 38, 46, 437, 874</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="374" width="40" height="0.9" fill="#009900"/>
+    <title>875 has 8 divisors: 1, 5, 7, 25, 35, 125, 175, 875</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="375" width="60" height="0.9" fill="#0000ff"/>
+    <title>876 has 12 divisors: 1, 2, 3, 4, 6, 12, 73, 146, 219, 292, 438, 876</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="376" width="10" height="0.9" fill="#9900cc"/>
+    <title>877 has 2 divisors: 1, 877</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="377" width="20" height="0.9" fill="#999999"/>
+    <title>878 has 4 divisors: 1, 2, 439, 878</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="378" width="20" height="0.9" fill="#0099ff"/>
+    <title>879 has 4 divisors: 1, 3, 293, 879</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="379" width="100" height="0.9" fill="#000000"/>
+    <title>880 has 20 divisors: 1, 2, 4, 5, 8, 10, 11, 16, 20, 22, 40, 44, 55, 80, 88, 110, 176, 220, 440, 880</title>
+   </g>
+   <text x="-2" y="379" dy="4">880</text>
+   <g class="active">
+    <rect x="0" y="380" width="10" height="0.9" fill="#663300"/>
+    <title>881 has 2 divisors: 1, 881</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="381" width="90" height="0.9" fill="#cc0000"/>
+    <title>882 has 18 divisors: 1, 2, 3, 6, 7, 9, 14, 18, 21, 42, 49, 63, 98, 126, 147, 294, 441, 882</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="382" width="10" height="0.9" fill="#ff6600"/>
+    <title>883 has 2 divisors: 1, 883</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="383" width="60" height="0.9" fill="#ffcc00"/>
+    <title>884 has 12 divisors: 1, 2, 4, 13, 17, 26, 34, 52, 68, 221, 442, 884</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="384" width="40" height="0.9" fill="#009900"/>
+    <title>885 has 8 divisors: 1, 3, 5, 15, 59, 177, 295, 885</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="385" width="20" height="0.9" fill="#0000ff"/>
+    <title>886 has 4 divisors: 1, 2, 443, 886</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="386" width="10" height="0.9" fill="#9900cc"/>
+    <title>887 has 2 divisors: 1, 887</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="387" width="80" height="0.9" fill="#999999"/>
+    <title>888 has 16 divisors: 1, 2, 3, 4, 6, 8, 12, 24, 37, 74, 111, 148, 222, 296, 444, 888</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="388" width="20" height="0.9" fill="#0099ff"/>
+    <title>889 has 4 divisors: 1, 7, 127, 889</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="389" width="40" height="0.9" fill="#000000"/>
+    <title>890 has 8 divisors: 1, 2, 5, 10, 89, 178, 445, 890</title>
+   </g>
+   <text x="-2" y="389" dy="4">890</text>
+   <g class="active">
+    <rect x="0" y="390" width="50" height="0.9" fill="#663300"/>
+    <title>891 has 10 divisors: 1, 3, 9, 11, 27, 33, 81, 99, 297, 891</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="391" width="30" height="0.9" fill="#cc0000"/>
+    <title>892 has 6 divisors: 1, 2, 4, 223, 446, 892</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="392" width="20" height="0.9" fill="#ff6600"/>
+    <title>893 has 4 divisors: 1, 19, 47, 893</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="393" width="40" height="0.9" fill="#ffcc00"/>
+    <title>894 has 8 divisors: 1, 2, 3, 6, 149, 298, 447, 894</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="394" width="20" height="0.9" fill="#009900"/>
+    <title>895 has 4 divisors: 1, 5, 179, 895</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="395" width="80" height="0.9" fill="#0000ff"/>
+    <title>896 has 16 divisors: 1, 2, 4, 7, 8, 14, 16, 28, 32, 56, 64, 112, 128, 224, 448, 896</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="396" width="40" height="0.9" fill="#9900cc"/>
+    <title>897 has 8 divisors: 1, 3, 13, 23, 39, 69, 299, 897</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="397" width="20" height="0.9" fill="#999999"/>
+    <title>898 has 4 divisors: 1, 2, 449, 898</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="398" width="20" height="0.9" fill="#0099ff"/>
+    <title>899 has 4 divisors: 1, 29, 31, 899</title>
+   </g>
+   <g class="active">
+    <text x="135" y="399" text-anchor="start" dx="1" dy="3" font-size="5">900</text>
+    <rect x="0" y="399" width="135" height="0.9" fill="#000000"/>
+    <title>900 has 27 divisors: 1, 2, 3, 4, 5, 6, 9, 10, 12, 15, 18, 20, 25, 30, 36, 45, 50, 60, 75, 90, 100, 150, 180, 225, 300, 450, 900</title>
+   </g>
+   <text x="-2" y="399" dy="4">900</text>
+   <g class="active">
+    <rect x="0" y="400" width="20" height="0.9" fill="#663300"/>
+    <title>901 has 4 divisors: 1, 17, 53, 901</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="401" width="40" height="0.9" fill="#cc0000"/>
+    <title>902 has 8 divisors: 1, 2, 11, 22, 41, 82, 451, 902</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="402" width="40" height="0.9" fill="#ff6600"/>
+    <title>903 has 8 divisors: 1, 3, 7, 21, 43, 129, 301, 903</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="403" width="40" height="0.9" fill="#ffcc00"/>
+    <title>904 has 8 divisors: 1, 2, 4, 8, 113, 226, 452, 904</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="404" width="20" height="0.9" fill="#009900"/>
+    <title>905 has 4 divisors: 1, 5, 181, 905</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="405" width="40" height="0.9" fill="#0000ff"/>
+    <title>906 has 8 divisors: 1, 2, 3, 6, 151, 302, 453, 906</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="406" width="10" height="0.9" fill="#9900cc"/>
+    <title>907 has 2 divisors: 1, 907</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="407" width="30" height="0.9" fill="#999999"/>
+    <title>908 has 6 divisors: 1, 2, 4, 227, 454, 908</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="408" width="30" height="0.9" fill="#0099ff"/>
+    <title>909 has 6 divisors: 1, 3, 9, 101, 303, 909</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="409" width="80" height="0.9" fill="#000000"/>
+    <title>910 has 16 divisors: 1, 2, 5, 7, 10, 13, 14, 26, 35, 65, 70, 91, 130, 182, 455, 910</title>
+   </g>
+   <text x="-2" y="409" dy="4">910</text>
+   <g class="active">
+    <rect x="0" y="410" width="10" height="0.9" fill="#663300"/>
+    <title>911 has 2 divisors: 1, 911</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="411" width="100" height="0.9" fill="#cc0000"/>
+    <title>912 has 20 divisors: 1, 2, 3, 4, 6, 8, 12, 16, 19, 24, 38, 48, 57, 76, 114, 152, 228, 304, 456, 912</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="412" width="20" height="0.9" fill="#ff6600"/>
+    <title>913 has 4 divisors: 1, 11, 83, 913</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="413" width="20" height="0.9" fill="#ffcc00"/>
+    <title>914 has 4 divisors: 1, 2, 457, 914</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="414" width="40" height="0.9" fill="#009900"/>
+    <title>915 has 8 divisors: 1, 3, 5, 15, 61, 183, 305, 915</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="415" width="30" height="0.9" fill="#0000ff"/>
+    <title>916 has 6 divisors: 1, 2, 4, 229, 458, 916</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="416" width="20" height="0.9" fill="#9900cc"/>
+    <title>917 has 4 divisors: 1, 7, 131, 917</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="417" width="80" height="0.9" fill="#999999"/>
+    <title>918 has 16 divisors: 1, 2, 3, 6, 9, 17, 18, 27, 34, 51, 54, 102, 153, 306, 459, 918</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="418" width="10" height="0.9" fill="#0099ff"/>
+    <title>919 has 2 divisors: 1, 919</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="419" width="80" height="0.9" fill="#000000"/>
+    <title>920 has 16 divisors: 1, 2, 4, 5, 8, 10, 20, 23, 40, 46, 92, 115, 184, 230, 460, 920</title>
+   </g>
+   <text x="-2" y="419" dy="4">920</text>
+   <g class="active">
+    <rect x="0" y="420" width="20" height="0.9" fill="#663300"/>
+    <title>921 has 4 divisors: 1, 3, 307, 921</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="421" width="20" height="0.9" fill="#cc0000"/>
+    <title>922 has 4 divisors: 1, 2, 461, 922</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="422" width="20" height="0.9" fill="#ff6600"/>
+    <title>923 has 4 divisors: 1, 13, 71, 923</title>
+   </g>
+   <g class="active">
+    <text x="120" y="423" text-anchor="start" dx="1" dy="3" font-size="5">924</text>
+    <rect x="0" y="423" width="120" height="0.9" fill="#ffcc00"/>
+    <title>924 has 24 divisors: 1, 2, 3, 4, 6, 7, 11, 12, 14, 21, 22, 28, 33, 42, 44, 66, 77, 84, 132, 154, 231, 308, 462, 924</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="424" width="30" height="0.9" fill="#009900"/>
+    <title>925 has 6 divisors: 1, 5, 25, 37, 185, 925</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="425" width="20" height="0.9" fill="#0000ff"/>
+    <title>926 has 4 divisors: 1, 2, 463, 926</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="426" width="30" height="0.9" fill="#9900cc"/>
+    <title>927 has 6 divisors: 1, 3, 9, 103, 309, 927</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="427" width="60" height="0.9" fill="#999999"/>
+    <title>928 has 12 divisors: 1, 2, 4, 8, 16, 29, 32, 58, 116, 232, 464, 928</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="428" width="10" height="0.9" fill="#0099ff"/>
+    <title>929 has 2 divisors: 1, 929</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="429" width="80" height="0.9" fill="#000000"/>
+    <title>930 has 16 divisors: 1, 2, 3, 5, 6, 10, 15, 30, 31, 62, 93, 155, 186, 310, 465, 930</title>
+   </g>
+   <text x="-2" y="429" dy="4">930</text>
+   <g class="active">
+    <rect x="0" y="430" width="30" height="0.9" fill="#663300"/>
+    <title>931 has 6 divisors: 1, 7, 19, 49, 133, 931</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="431" width="30" height="0.9" fill="#cc0000"/>
+    <title>932 has 6 divisors: 1, 2, 4, 233, 466, 932</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="432" width="20" height="0.9" fill="#ff6600"/>
+    <title>933 has 4 divisors: 1, 3, 311, 933</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="433" width="20" height="0.9" fill="#ffcc00"/>
+    <title>934 has 4 divisors: 1, 2, 467, 934</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="434" width="40" height="0.9" fill="#009900"/>
+    <title>935 has 8 divisors: 1, 5, 11, 17, 55, 85, 187, 935</title>
+   </g>
+   <g class="active">
+    <text x="120" y="435" text-anchor="start" dx="1" dy="3" font-size="5">936</text>
+    <rect x="0" y="435" width="120" height="0.9" fill="#0000ff"/>
+    <title>936 has 24 divisors: 1, 2, 3, 4, 6, 8, 9, 12, 13, 18, 24, 26, 36, 39, 52, 72, 78, 104, 117, 156, 234, 312, 468, 936</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="436" width="10" height="0.9" fill="#9900cc"/>
+    <title>937 has 2 divisors: 1, 937</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="437" width="40" height="0.9" fill="#999999"/>
+    <title>938 has 8 divisors: 1, 2, 7, 14, 67, 134, 469, 938</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="438" width="20" height="0.9" fill="#0099ff"/>
+    <title>939 has 4 divisors: 1, 3, 313, 939</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="439" width="60" height="0.9" fill="#000000"/>
+    <title>940 has 12 divisors: 1, 2, 4, 5, 10, 20, 47, 94, 188, 235, 470, 940</title>
+   </g>
+   <text x="-2" y="439" dy="4">940</text>
+   <g class="active">
+    <rect x="0" y="440" width="10" height="0.9" fill="#663300"/>
+    <title>941 has 2 divisors: 1, 941</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="441" width="40" height="0.9" fill="#cc0000"/>
+    <title>942 has 8 divisors: 1, 2, 3, 6, 157, 314, 471, 942</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="442" width="20" height="0.9" fill="#ff6600"/>
+    <title>943 has 4 divisors: 1, 23, 41, 943</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="443" width="50" height="0.9" fill="#ffcc00"/>
+    <title>944 has 10 divisors: 1, 2, 4, 8, 16, 59, 118, 236, 472, 944</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="444" width="80" height="0.9" fill="#009900"/>
+    <title>945 has 16 divisors: 1, 3, 5, 7, 9, 15, 21, 27, 35, 45, 63, 105, 135, 189, 315, 945</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="445" width="40" height="0.9" fill="#0000ff"/>
+    <title>946 has 8 divisors: 1, 2, 11, 22, 43, 86, 473, 946</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="446" width="10" height="0.9" fill="#9900cc"/>
+    <title>947 has 2 divisors: 1, 947</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="447" width="60" height="0.9" fill="#999999"/>
+    <title>948 has 12 divisors: 1, 2, 3, 4, 6, 12, 79, 158, 237, 316, 474, 948</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="448" width="20" height="0.9" fill="#0099ff"/>
+    <title>949 has 4 divisors: 1, 13, 73, 949</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="449" width="60" height="0.9" fill="#000000"/>
+    <title>950 has 12 divisors: 1, 2, 5, 10, 19, 25, 38, 50, 95, 190, 475, 950</title>
+   </g>
+   <text x="-2" y="449" dy="4">950</text>
+   <g class="active">
+    <rect x="0" y="450" width="20" height="0.9" fill="#663300"/>
+    <title>951 has 4 divisors: 1, 3, 317, 951</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="451" width="80" height="0.9" fill="#cc0000"/>
+    <title>952 has 16 divisors: 1, 2, 4, 7, 8, 14, 17, 28, 34, 56, 68, 119, 136, 238, 476, 952</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="452" width="10" height="0.9" fill="#ff6600"/>
+    <title>953 has 2 divisors: 1, 953</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="453" width="60" height="0.9" fill="#ffcc00"/>
+    <title>954 has 12 divisors: 1, 2, 3, 6, 9, 18, 53, 106, 159, 318, 477, 954</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="454" width="20" height="0.9" fill="#009900"/>
+    <title>955 has 4 divisors: 1, 5, 191, 955</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="455" width="30" height="0.9" fill="#0000ff"/>
+    <title>956 has 6 divisors: 1, 2, 4, 239, 478, 956</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="456" width="40" height="0.9" fill="#9900cc"/>
+    <title>957 has 8 divisors: 1, 3, 11, 29, 33, 87, 319, 957</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="457" width="20" height="0.9" fill="#999999"/>
+    <title>958 has 4 divisors: 1, 2, 479, 958</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="458" width="20" height="0.9" fill="#0099ff"/>
+    <title>959 has 4 divisors: 1, 7, 137, 959</title>
+   </g>
+   <g class="active">
+    <text x="140" y="459" text-anchor="start" dx="1" dy="3" font-size="5">960</text>
+    <rect x="0" y="459" width="140" height="0.9" fill="#000000"/>
+    <title>960 has 28 divisors: 1, 2, 3, 4, 5, 6, 8, 10, 12, 15, 16, 20, 24, 30, 32, 40, 48, 60, 64, 80, 96, 120, 160, 192, 240, 320, 480, 960</title>
+   </g>
+   <text x="-2" y="459" dy="4">960</text>
+   <g class="active">
+    <rect x="0" y="460" width="15" height="0.9" fill="#663300"/>
+    <title>961 has 3 divisors: 1, 31, 961</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="461" width="40" height="0.9" fill="#cc0000"/>
+    <title>962 has 8 divisors: 1, 2, 13, 26, 37, 74, 481, 962</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="462" width="30" height="0.9" fill="#ff6600"/>
+    <title>963 has 6 divisors: 1, 3, 9, 107, 321, 963</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="463" width="30" height="0.9" fill="#ffcc00"/>
+    <title>964 has 6 divisors: 1, 2, 4, 241, 482, 964</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="464" width="20" height="0.9" fill="#009900"/>
+    <title>965 has 4 divisors: 1, 5, 193, 965</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="465" width="80" height="0.9" fill="#0000ff"/>
+    <title>966 has 16 divisors: 1, 2, 3, 6, 7, 14, 21, 23, 42, 46, 69, 138, 161, 322, 483, 966</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="466" width="10" height="0.9" fill="#9900cc"/>
+    <title>967 has 2 divisors: 1, 967</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="467" width="60" height="0.9" fill="#999999"/>
+    <title>968 has 12 divisors: 1, 2, 4, 8, 11, 22, 44, 88, 121, 242, 484, 968</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="468" width="40" height="0.9" fill="#0099ff"/>
+    <title>969 has 8 divisors: 1, 3, 17, 19, 51, 57, 323, 969</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="469" width="40" height="0.9" fill="#000000"/>
+    <title>970 has 8 divisors: 1, 2, 5, 10, 97, 194, 485, 970</title>
+   </g>
+   <text x="-2" y="469" dy="4">970</text>
+   <g class="active">
+    <rect x="0" y="470" width="10" height="0.9" fill="#663300"/>
+    <title>971 has 2 divisors: 1, 971</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="471" width="90" height="0.9" fill="#cc0000"/>
+    <title>972 has 18 divisors: 1, 2, 3, 4, 6, 9, 12, 18, 27, 36, 54, 81, 108, 162, 243, 324, 486, 972</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="472" width="20" height="0.9" fill="#ff6600"/>
+    <title>973 has 4 divisors: 1, 7, 139, 973</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="473" width="20" height="0.9" fill="#ffcc00"/>
+    <title>974 has 4 divisors: 1, 2, 487, 974</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="474" width="60" height="0.9" fill="#009900"/>
+    <title>975 has 12 divisors: 1, 3, 5, 13, 15, 25, 39, 65, 75, 195, 325, 975</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="475" width="50" height="0.9" fill="#0000ff"/>
+    <title>976 has 10 divisors: 1, 2, 4, 8, 16, 61, 122, 244, 488, 976</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="476" width="10" height="0.9" fill="#9900cc"/>
+    <title>977 has 2 divisors: 1, 977</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="477" width="40" height="0.9" fill="#999999"/>
+    <title>978 has 8 divisors: 1, 2, 3, 6, 163, 326, 489, 978</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="478" width="20" height="0.9" fill="#0099ff"/>
+    <title>979 has 4 divisors: 1, 11, 89, 979</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="479" width="90" height="0.9" fill="#000000"/>
+    <title>980 has 18 divisors: 1, 2, 4, 5, 7, 10, 14, 20, 28, 35, 49, 70, 98, 140, 196, 245, 490, 980</title>
+   </g>
+   <text x="-2" y="479" dy="4">980</text>
+   <g class="active">
+    <rect x="0" y="480" width="30" height="0.9" fill="#663300"/>
+    <title>981 has 6 divisors: 1, 3, 9, 109, 327, 981</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="481" width="20" height="0.9" fill="#cc0000"/>
+    <title>982 has 4 divisors: 1, 2, 491, 982</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="482" width="10" height="0.9" fill="#ff6600"/>
+    <title>983 has 2 divisors: 1, 983</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="483" width="80" height="0.9" fill="#ffcc00"/>
+    <title>984 has 16 divisors: 1, 2, 3, 4, 6, 8, 12, 24, 41, 82, 123, 164, 246, 328, 492, 984</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="484" width="20" height="0.9" fill="#009900"/>
+    <title>985 has 4 divisors: 1, 5, 197, 985</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="485" width="40" height="0.9" fill="#0000ff"/>
+    <title>986 has 8 divisors: 1, 2, 17, 29, 34, 58, 493, 986</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="486" width="40" height="0.9" fill="#9900cc"/>
+    <title>987 has 8 divisors: 1, 3, 7, 21, 47, 141, 329, 987</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="487" width="60" height="0.9" fill="#999999"/>
+    <title>988 has 12 divisors: 1, 2, 4, 13, 19, 26, 38, 52, 76, 247, 494, 988</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="488" width="20" height="0.9" fill="#0099ff"/>
+    <title>989 has 4 divisors: 1, 23, 43, 989</title>
+   </g>
+   <g class="active">
+    <text x="120" y="489" text-anchor="start" dx="1" dy="3" font-size="5">990</text>
+    <rect x="0" y="489" width="120" height="0.9" fill="#000000"/>
+    <title>990 has 24 divisors: 1, 2, 3, 5, 6, 9, 10, 11, 15, 18, 22, 30, 33, 45, 55, 66, 90, 99, 110, 165, 198, 330, 495, 990</title>
+   </g>
+   <text x="-2" y="489" dy="4">990</text>
+   <g class="active">
+    <rect x="0" y="490" width="10" height="0.9" fill="#663300"/>
+    <title>991 has 2 divisors: 1, 991</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="491" width="60" height="0.9" fill="#cc0000"/>
+    <title>992 has 12 divisors: 1, 2, 4, 8, 16, 31, 32, 62, 124, 248, 496, 992</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="492" width="20" height="0.9" fill="#ff6600"/>
+    <title>993 has 4 divisors: 1, 3, 331, 993</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="493" width="40" height="0.9" fill="#ffcc00"/>
+    <title>994 has 8 divisors: 1, 2, 7, 14, 71, 142, 497, 994</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="494" width="20" height="0.9" fill="#009900"/>
+    <title>995 has 4 divisors: 1, 5, 199, 995</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="495" width="60" height="0.9" fill="#0000ff"/>
+    <title>996 has 12 divisors: 1, 2, 3, 4, 6, 12, 83, 166, 249, 332, 498, 996</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="496" width="10" height="0.9" fill="#9900cc"/>
+    <title>997 has 2 divisors: 1, 997</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="497" width="20" height="0.9" fill="#999999"/>
+    <title>998 has 4 divisors: 1, 2, 499, 998</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="498" width="40" height="0.9" fill="#0099ff"/>
+    <title>999 has 8 divisors: 1, 3, 9, 27, 37, 111, 333, 999</title>
+   </g>
+   <g class="active">
+    <rect x="0" y="499" width="80" height="0.9" fill="#000000"/>
+    <title>1000 has 16 divisors: 1, 2, 4, 5, 8, 10, 20, 25, 40, 50, 100, 125, 200, 250, 500, 1000</title>
+   </g>
+   <text x="-2" y="499" dy="4">1000</text>
+   <path d="M 160,339 V 500" stroke="#000000"/>
+   </g>
+  </g>
+ </g>
+</svg>
+
+<!-- Perl script to create above; please do not remove.
+#!/usr/bin/perl
+use strict;
+
+my $block_x_pitch = 170;
+my $block_x_max = 2;
+my $block_y_max = 500;
+my @colours = ("#000000", "#663300", "#cc0000", "#ff6600", "#ffcc00",
+               "#009900", "#0000ff", "#9900cc", "#999999", "#0099ff");
+my %offset_xs = (1  => 0, 2  => 0, 12 => 0, 16 => -1, 18  => 0, 40  => 0, 42  => 0, 144 => -4);
+my %offset_ys = (1  => 0, 2  => 0, 4  => 1, 12 =>  0, 16  => 1, 18  => 0, 20  => 4, 28  => 1,
+                 36 => 4, 40 => 2, 42 => 5, 54 =>  0, 144 => 6, 156 => 2, 320 => 1);
+my @shcns = (2, 6, 12, 60, 120, 360);
+my $out_graph = "";
+
+sub list_divisors {
+ my @divisors = ();
+ my $n = $_[0];
+ my $sqrt_n = sqrt($n);
+ for (my $i = 1; $i < $sqrt_n; ++$i) { if ($n % $i == 0) { push @divisors, ($i, $n / $i); } }
+ if ($sqrt_n == int($sqrt_n)) { push @divisors, $sqrt_n; } # tweak squares
+ return sort { $a <=> $b } @divisors;
+}
+
+my $last_hcn_y     = 0;
+my $last_hcn_width = 0;
+for (my $block_x = 0; $block_x < $block_x_max; ++$block_x) {
+ my $x = $block_x * $block_x_pitch;
+ $out_graph .= qq`
+  <g transform="translate(${x},0)">`;
+ for (my $block_y = 0; $block_y < $block_y_max; ++$block_y) {
+  my $n = $block_y_max * $block_x + $block_y + 1;
+  my $n_mod_10 = $n % 10;
+  my @divisors = &list_divisors($n);
+  my $n_divisor = @divisors;
+  my $width = $n_divisor * 5;
+  $out_graph .= qq`
+   <g class="active">`;
+  if ($last_hcn_width < $width or ($last_hcn_width < $width * 1.5 and $n > 12)) {
+   my $modifier =
+    qq` dx="` . (exists $offset_xs{$n} ? $offset_xs{$n} : 1) . qq`"` .
+    qq` dy="` . (exists $offset_ys{$n} ? $offset_ys{$n} : 3) . qq`"` .
+    ($last_hcn_width < $width ? qq` font-weight="bold"` :
+     qq` font-size="` . ($last_hcn_width == $width ? "7" : "5") . qq`"`);
+   $out_graph .= qq`
+    <text x="${width}" y="${block_y}" text-anchor="start"${modifier}>${n}` .
+    (grep(/^${n}$/, @shcns) ? qq`*` : qq``) . qq`</text>`;
+  }
+  my $fill = $colours[$n_mod_10];
+  my $out_divisor = ($n_divisor == 1 ? qq`: ` : qq`s: `) . join(qq`, `, @divisors);
+  $out_graph .= qq`
+    <rect x="0" y="${block_y}" width="${width}" height="0.9" fill="${fill}"/>
+    <title>${n} has ${n_divisor} divisor${out_divisor}</title>
+   </g>`;
+  if ($last_hcn_width < $width) {
+   $out_graph .= qq`
+   <path d="M ${last_hcn_width},${last_hcn_y} V ${block_y}" stroke="#000000"/>`;
+   $last_hcn_width = $width;
+   $last_hcn_y     = $block_y;
+  }
+  if ($n_mod_10 == 0) {
+   $out_graph .= qq`
+   <text x="-2" y="${block_y}" dy="4">${n}</text>`;
+  }
+ }
+ $out_graph .= qq`
+   <path d="M ${last_hcn_width},${last_hcn_y} V ${block_y_max}" stroke="#000000"/>
+   </g>`;
+ $last_hcn_y = 0;
+}
+
+my $double_dash = "-" . "-";
+my $file_out = $0; $file_out =~ s/[^\.]*$/svg/;
+open (FILE_OUT, ">$file_out");
+print FILE_OUT qq`<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%" viewBox="-21 -8 384 512">
+ <title>Highly composite numbers</title>
+ <desc>Plot of the number of divisors of integers from 1 to 1000, colour-coded by units digit by CMG Lee. Highly-composite numbers are labelled in bold and superior highly-composite numbers are starred. Prime numbers are those with exactly 2 divisors. In the SVG file, hover over a bar to see its statistics.</desc>
+ <style type="text/css">
+  #main  { font-size:8px;font-family:Helvetica,Arial,sans-serif;text-anchor:middle;fill:#000000; }
+  #main:hover            { stroke-opacity:0.25;fill-opacity:0.25; }
+  .nofade, .active:hover { stroke-opacity:1;   fill-opacity:1;    }
+  .active { cursor:crosshair; }
+  text    { stroke:none; }
+ </style>
+ <defs>
+  <path id="grid_x" d="M 0 0 V 500"/>
+  <path id="grid_y" d="M 0 -0.5 H -1.5"/>
+  <g id="grid_x_5" stroke="#000000" stroke-width="0.25" stroke-opacity="0.25">
+   <use xlink:href="#grid_x" transform="translate(5, 0)"/>
+   <use xlink:href="#grid_x" transform="translate(10,0)"/>
+   <use xlink:href="#grid_x" transform="translate(15,0)"/>
+   <use xlink:href="#grid_x" transform="translate(20,0)"/>
+   <use xlink:href="#grid_x" transform="translate(25,0)" stroke-opacity="0.5"/>
+  </g>
+  <g id="grid_y_5" stroke="#000000" stroke-width="0.5" stroke-opacity="0.5">
+   <use xlink:href="#grid_y"/>
+   <use xlink:href="#grid_y" transform="translate(0,10)"/>
+   <use xlink:href="#grid_y" transform="translate(0,20)"/>
+   <use xlink:href="#grid_y" transform="translate(0,30)"/>
+   <use xlink:href="#grid_y" transform="translate(0,40)"/>
+   <use xlink:href="#grid_y" transform="translate(0,50)" stroke-opacity="0.75"/>
+  </g>
+  <g id="grid">
+   <use xlink:href="#grid_y_5" transform="translate(0,50)"/>
+   <use xlink:href="#grid_y_5" transform="translate(0,100)"/>
+   <use xlink:href="#grid_y_5" transform="translate(0,150)"/>
+   <use xlink:href="#grid_y_5" transform="translate(0,200)"/>
+   <use xlink:href="#grid_y_5" transform="translate(0,250)"/>
+   <use xlink:href="#grid_y_5" transform="translate(0,300)"/>
+   <use xlink:href="#grid_y_5" transform="translate(0,350)"/>
+   <use xlink:href="#grid_y_5" transform="translate(0,400)"/>
+   <use xlink:href="#grid_y_5" transform="translate(0,450)"/>
+   <use xlink:href="#grid_y_5"/>
+   <use xlink:href="#grid_x_5"/>
+   <use xlink:href="#grid_x_5" transform="translate(25, 0)"/>
+   <use xlink:href="#grid_x_5" transform="translate(50, 0)"/>
+   <use xlink:href="#grid_x_5" transform="translate(75, 0)"/>
+   <use xlink:href="#grid_x_5" transform="translate(100,0)"/>
+   <g stroke="none">
+    <text x="0"   y="-1">0</text>
+    <text x="50"  y="-1">10</text>
+    <text x="100" y="-1">20</text>
+    <text x="-10" y="4" font-style="italic">n</text>
+   </g>
+  </g>
+ </defs>
+ <g id="main">
+  <rect x="-4999" y="-4999" width="9999" height="9999" fill="#ffffff"/>
+  <g>
+   <use xlink:href="#grid"/>
+   <text x="125" y="-1">divisors</text>
+  </g>
+  <g transform="translate(${block_x_pitch},0)">
+   <use xlink:href="#grid"/>
+   <use xlink:href="#grid_x_5" transform="translate(125,0)"/>
+   <use xlink:href="#grid_x_5" transform="translate(150,0)"/>
+   <text x="150" y="-1">30</text>
+   <text x="175" y="-1">divisors</text>
+  </g>
+  <g text-anchor="end" stroke="none" stroke-dasharray="1,2">
+${out_graph}
+  </g>
+ </g>
+</svg>
+
+<!${double_dash} Perl script to create above; please do not remove.
+`;
+open (FILE_IN, $0);
+while (<FILE_IN>) { print FILE_OUT $_; }
+close FILE_IN;
+print FILE_OUT "# ${double_dash}>";
+close FILE_OUT;
+# -->
