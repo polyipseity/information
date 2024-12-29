@@ -1224,7 +1224,7 @@ The content is in teaching order.
     - high: ?
     - distribution: ?
 - report
-  - overall ::@:: It's acceptable, given the time constraints... It is not an ideal environment for solving complex problems.
+  - overall ::@:: It's acceptable, given the time constraints... It is not an ideal environment for solving complex problems. <!--SR:!2025-01-02,5,408!2025-01-02,5,408-->
 - check
   - note: You will receive a scanned copy of your examination. Send email to Amir to appeal.
 - materials
