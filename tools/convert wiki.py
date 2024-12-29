@@ -255,7 +255,7 @@ async def wiki_html_to_plaintext(
                     .replace(R"}@}", R"} @ }")
                 )
                 while (
-                    alt_text_2 := alt_text.replace(R"{{", "{@{").replace(R"}}", "}@}")
+                    alt_text_2 := alt_text.replace(R"{{", "{ {").replace(R"}}", "} }")
                 ) != alt_text:
                     alt_text = alt_text_2
 
