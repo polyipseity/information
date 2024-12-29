@@ -24,12 +24,12 @@
               child {node {$b$:1} } } }
       child {node {$f$:6}
           child {node {$d$:2}
-              child {node {$b$:1}}
+              child {node {$b$:1} }
               child {node {$a$:1} } } }
       child {node {$d$:2}
-          child {node {$a$:1}}
+          child {node {$a$:1} }
           child {node {$b$:1} } }
-      child {node {$a$:1}};
+      child {node {$a$:1} };
       % Node links within the tree
       \draw[->, dashed] (TREE-1-1) -- (TREE-2-1);
       \draw[->, dashed] (TREE-2-1) -- (TREE-3);
@@ -72,7 +72,7 @@
         level 1/.style={sibling distance=2.5cm},
         level 2/.style={sibling distance=2.5cm}]
       \node (TREE) {root:3}
-      child {node {$d$:3}};
+      child {node {$d$:3} };
       % Node links within the tree
     \end{scope}
     %%%%% THE TABLE
@@ -101,7 +101,7 @@
         level 1/.style={sibling distance=2.5cm},
         level 2/.style={sibling distance=2.5cm}]
       \node (TREE) {root:3}
-      child {node {$d$:2}};
+      child {node {$d$:2} };
       % Node links within the tree
     \end{scope}
     %%%%% THE TABLE
@@ -130,7 +130,7 @@
         level 1/.style={sibling distance=2.5cm},
         level 2/.style={sibling distance=2.5cm}]
       \node (TREE) {root:5}
-      child {node {$f$:2}};
+      child {node {$f$:2} };
       % Node links within the tree
     \end{scope}
     %%%%% THE TABLE

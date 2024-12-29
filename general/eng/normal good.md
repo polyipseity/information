@@ -23,7 +23,7 @@ In economics, {@{the concept of elasticity, and specifically income elasticity o
 
 In mathematical terms, the formula can be written as follows:
 
-{@{$\xi _{i}={\frac {\Delta Q_{/}Q}{\Delta Y/Y}}$}@}, where {@{$Q$ is the original quantity demanded and $Y$ is the original income, before any change}@}.
+{@{$\xi _{i}={\frac {\Delta Q_{/}Q}{\Delta Y/Y} }$}@}, where {@{$Q$ is the original quantity demanded and $Y$ is the original income, before any change}@}.
 
 A good is classified as a normal good when {@{the income elasticity of demand is greater than zero and has a value less than one}@} (annotation: If {@{normal goods include luxury goods}@}, then {@{the value does not need to be less than one}@}.). If {@{we look into a simple hypothetical example}@}, the demand for apples {@{increases by 10% for a 30% increase in income}@}, then {@{the income elasticity for apples would be 0.33 and hence apples are considered to be a normal good}@}. {@{Other types of goods like luxury and inferior goods}@} are also {@{classified using the income elasticity of demand}@}. The income elasticity of demand for luxury goods will have {@{a value of greater than one}@} and inferior goods will have {@{a value of less than one}@}. Luxury goods also have {@{a positive correlation of demand and income, but with luxury goods, a greater proportion of peoples income are spent on a luxury item}@}, for example, {@{a sports car}@}. On the other hand, with inferior or normal goods, {@{people spend a lesser proportion of their income}@}. Practically, {@{a higher income group of people spend more on luxury items}@} and {@{a lower income group of people spend more of their income on inferior or normal goods}@}.
 

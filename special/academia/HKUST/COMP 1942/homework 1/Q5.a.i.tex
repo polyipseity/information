@@ -28,15 +28,15 @@
         ]
         \node [root] {$T$}    % root node, here tree start, after it are children
         child { node [env] {$T_1$:no}
-                edge from parent node [above] {Age = young}}
+                edge from parent node [above] {Age = young} }
         child { node [env] {$T_2$:yes}
-                edge from parent node [above] {Age = middle}}
+                edge from parent node [above] {Age = middle} }
         child { node [env] {$T_3$}
                 child { node [env] {$T_{3, 1}$:no}
-                        edge from parent node [above] {HasMacBook = no}}
+                        edge from parent node [above] {HasMacBook = no} }
                 child { node [env] {$T_{3, 2}$:yes}
-                        edge from parent node [above] {HasMacBook = yes}}
-                edge from parent node [above] {Age = old}}
+                        edge from parent node [above] {HasMacBook = yes} }
+                edge from parent node [above] {Age = old} }
         ;
     \end{tikzpicture}
     \caption{Decision tree}
