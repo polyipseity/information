@@ -99,7 +99,7 @@ return await memorize_seq(
 
 - _(begin)_→::@::←(Cap. 311) Air Pollution Control Ordinance <!--SR:!2024-12-31,104,255!2025-11-13,409,375-->
 - (Cap. 311) Air Pollution Control Ordinance→::@::←(Cap. 354) Waste Disposal Ordinance <!--SR:!2025-07-08,229,275!2025-01-27,111,275-->
-- (Cap. 354) Waste Disposal Ordinance→::@::←(Cap. 358) Water Pollution Control Ordinance <!--SR:!2024-12-29,82,275!2025-04-03,165,315-->
+- (Cap. 354) Waste Disposal Ordinance→::@::←(Cap. 358) Water Pollution Control Ordinance <!--SR:!2025-08-14,228,275!2025-04-03,165,315-->
 - (Cap. 358) Water Pollution Control Ordinance→::@::←(Cap. 400) Noise Pollution Control Ordinance <!--SR:!2025-03-13,133,255!2025-01-13,20,175-->
 - (Cap. 400) Noise Pollution Control Ordinance→::@::←(Cap. 499) Environmental Impact Ordinance <!--SR:!2025-02-06,149,295!2025-05-16,188,295-->
 - (Cap. 499) Environmental Impact Ordinance→::@::←_(end)_ <!--SR:!2025-11-29,423,375!2025-08-30,326,355-->
@@ -267,7 +267,7 @@ HATS Stage 2A — Overall Layout
 Sewage Conveyance System
 
 - HATS Stage 2A
-  - HATS Stage 2A tunnel ::@:: a drop shaft, a tunnel, and a riser shaft, from PTWs to SCISTW across the Victoria Harbour <!--SR:!2024-12-29,122,310!2025-02-21,193,310-->
+  - HATS Stage 2A tunnel ::@:: a drop shaft, a tunnel, and a riser shaft, from PTWs to SCISTW across the Victoria Harbour <!--SR:!2026-01-11,378,310!2025-02-21,193,310-->
     - HATS Stage 2A tunnel sizes ::@:: 21 km tunnel, about 70 to 160 m (inside bedrock) below sea level <!--SR:!2025-01-04,137,250!2025-06-05,293,330-->
 
 ## page 21

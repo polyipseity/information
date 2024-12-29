@@ -200,7 +200,7 @@ return await conversion_table(
 
 - [Celsius](Celsius.md):@:from [Rankine](Rankine%20scale.md): x °R ≘ (x − 491.67) × 5/9 °C, to [Rankine](Rankine%20scale.md): x °C ≘ (x + 273.15) × 9/5 °R <!--SR:!2025-04-21,273,230-->
 - [Kelvin](Kelvin.md):@:from [Rankine](Rankine%20scale.md): x °R ≘ x × 5/9 K, to [Rankine](Rankine%20scale.md): x K ≘ x × 9/5 °R <!--SR:!2027-08-20,1039,350-->
-- [Fahrenheit](Fahrenheit.md):@:from [Rankine](Rankine%20scale.md): x °R ≘ (x − 459.67) °F, to [Rankine](Rankine%20scale.md): x °F ≘ (x + 459.67) °R <!--SR:!2024-12-29,209,250-->
+- [Fahrenheit](Fahrenheit.md):@:from [Rankine](Rankine%20scale.md): x °R ≘ (x − 459.67) °F, to [Rankine](Rankine%20scale.md): x °F ≘ (x + 459.67) °R <!--SR:!2026-12-30,731,270-->
 
 <!--/pytextgen-->
 

@@ -22,7 +22,7 @@ __Catalytic converter__ is a {@{device that converts toxic pollutants into less-
 > - {@{C + 2NO<sub>2</sub> → CO<sub>2</sub> + 2NO}@}
 > - {@{CO + NO → CO<sub>2</sub> + $\frac{1}{2}$N<sub>2</sub>}@}
 > - {@{2CO + NO<sub>2</sub> → 2CO<sub>2</sub> + $\frac{1}{2}$N<sub>2</sub>}@}
-> - {@{H<sub>2</sub> + NO → H<sub>2</sub>O + $\frac{1}{2}$N<sub>2</sub>}@} <!--SR:!2025-11-12,463,190!2026-02-13,854,250!2026-10-25,755,210!2024-12-29,82,130-->
+> - {@{H<sub>2</sub> + NO → H<sub>2</sub>O + $\frac{1}{2}$N<sub>2</sub>}@} <!--SR:!2025-11-12,463,190!2026-02-13,854,250!2026-10-25,755,210!2025-04-18,110,130-->
 
 ### oxidation
 

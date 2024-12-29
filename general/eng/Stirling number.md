@@ -106,7 +106,7 @@ See the specific articles for details.
 
 Abramowitz and Stegun give {@{the following symmetric formulae that relate the Stirling numbers of the first and second kind}@}.<sup>[\[9\]](#^ref-9)</sup> <!--SR:!2025-01-28,72,310-->
 
-- symmetric formulae ::@:: $$\left[{n \atop k}\right]=\sum _{j=n}^{2n-k}(-1)^{j-k}{\binom {2n-k}{j} }{\binom {j-1}{k-1} }\left\{ {j-k \atop j-n}\right\}$$ and $$\left\{ {n \atop k}\right\}=\sum _{j=n}^{2n-k}(-1)^{j-k}{\binom {2n-k}{j} }{\binom {j-1}{k-1} }\left[{j-k \atop j-n}\right]$$ <!--SR:!2024-12-29,4,130!2025-02-16,73,270-->
+- symmetric formulae ::@:: $$\left[{n \atop k}\right]=\sum _{j=n}^{2n-k}(-1)^{j-k}{\binom {2n-k}{j} }{\binom {j-1}{k-1} }\left\{ {j-k \atop j-n}\right\}$$ and $$\left\{ {n \atop k}\right\}=\sum _{j=n}^{2n-k}(-1)^{j-k}{\binom {2n-k}{j} }{\binom {j-1}{k-1} }\left[{j-k \atop j-n}\right]$$ <!--SR:!2025-01-03,5,130!2025-02-16,73,270-->
 
 ## Stirling numbers with negative integral values
 

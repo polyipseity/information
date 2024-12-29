@@ -78,7 +78,7 @@ See [CN Tower](../../../../general/CN%20Tower.md).
 See [Central Plaza (Hong Kong)](../../../../general/Central%20Plaza%20(Hong%20Kong).md).
 
 - description ::@:: super tall skyscraper in Wan Chai, Hong Kong <!--SR:!2027-03-06,830,375!2025-10-02,399,377-->
-- height ::@:: architectural: 373.9 m, top floor: 299 m <!--SR:!2024-12-29,57,221!2025-09-25,392,376-->
+- height ::@:: architectural: 373.9 m, top floor: 299 m <!--SR:!2025-05-06,128,221!2025-09-25,392,376-->
 - image ::@:: ![Central Plaza (Hong Kong) image](../../../../archives/Wikimedia%20Commons/Hong%20Kong%20Convention%20and%20Exhibition%20Centre%20200906(cropped).jpg) <!--SR:!2025-02-03,158,360!2025-11-07,446,400-->
 - [structural system](../../../../general/structural%20system.md) ::@:: reinforced concrete<!-- flashcard 90e284d1-1940-43c0-b5d7-1b8bea6e3c3e --> <!--SR:!2026-08-09,590,341!2025-07-15,330,381-->
 
