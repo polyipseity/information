@@ -124,7 +124,7 @@ For example, when there is {@{water buildup in the soil}@}, there is {@{increase
 
 Lateral load may be caused by {@{bulk materials, [groundwater](groundwater.md), or [soil](soil.md)}@}. <!--SR:!2025-02-21,209,310-->
 
-For example, there is lateral soil load on {@{retaining walls of a slope because the soil of a slope on the retained side tends to slip down, pushing the walls towards the excavated side}@}. This lateral soil load can cause {@{lateral deflection, toppling of the retaining structure, or even a landslide}@}. <!--SR:!2024-12-30,155,300!2026-10-01,645,320-->
+For example, there is lateral soil load on {@{retaining walls of a slope because the soil of a slope on the retained side tends to slip down, pushing the walls towards the excavated side}@}. This lateral soil load can cause {@{lateral deflection, toppling of the retaining structure, or even a landslide}@}. <!--SR:!2026-04-09,465,300!2026-10-01,645,320-->
 
 To protect against soil loads, {@{retaining structures are built and weep holes may be installed}@}. Alternatively, {@{slopes on natural terrain can become man-made slopes, such as cut slopes, fill slopes, or retaining walls}@}. <!--SR:!2025-05-17,237,280!2026-07-07,581,320-->
 

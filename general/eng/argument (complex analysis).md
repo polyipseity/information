@@ -20,7 +20,7 @@ An __argument__ of a [complex number](complex%20number.md) $z = x + iy$, denoted
 
 ## principal value
 
-The _[principal value](principal%20value.md)_ of $\arg z$ {@{is the value in the open-closed [interval](interval%20(mathematics).md) $(-\pi \mathrm{\ rad},\pi \mathrm{\ rad}]$, sometimes denoted $\operatorname{Arg} z$}@}. <!--SR:!2024-12-30,290,330-->
+The _[principal value](principal%20value.md)_ of $\arg z$ {@{is the value in the open-closed [interval](interval%20(mathematics).md) $(-\pi \mathrm{\ rad},\pi \mathrm{\ rad}]$, sometimes denoted $\operatorname{Arg} z$}@}. <!--SR:!2027-08-14,957,330-->
 
 ## references
 

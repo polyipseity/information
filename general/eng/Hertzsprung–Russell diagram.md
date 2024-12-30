@@ -17,7 +17,7 @@ tags:
 
 # Hertzsprung–Russell diagram
 
-The __Hertzsprung–Russell diagram__ (abbreviated as __H–R diagram__, __HR diagram__ or __HRD__) is {@{a [scatter plot](scatter%20plot.md) of [stars](star.md) showing the relationship between the stars' [absolute magnitudes](absolute%20magnitude.md) or [luminosities](luminosity.md) and their [stellar classifications](stellar%20classification.md) or [effective temperatures](effective%20temperature.md)}@}. The diagram was created {@{independently in 1911 by [Ejnar Hertzsprung](Ejnar%20Hertzsprung.md) and by [Henry Norris Russell](Henry%20Norris%20Russell.md) in 1913}@}, and represented a major step towards {@{an understanding of [stellar evolution](stellar%20evolution.md)}@}. <!--SR:!2025-05-23,214,310!2024-12-30,92,250!2025-05-01,214,330-->
+The __Hertzsprung–Russell diagram__ (abbreviated as __H–R diagram__, __HR diagram__ or __HRD__) is {@{a [scatter plot](scatter%20plot.md) of [stars](star.md) showing the relationship between the stars' [absolute magnitudes](absolute%20magnitude.md) or [luminosities](luminosity.md) and their [stellar classifications](stellar%20classification.md) or [effective temperatures](effective%20temperature.md)}@}. The diagram was created {@{independently in 1911 by [Ejnar Hertzsprung](Ejnar%20Hertzsprung.md) and by [Henry Norris Russell](Henry%20Norris%20Russell.md) in 1913}@}, and represented a major step towards {@{an understanding of [stellar evolution](stellar%20evolution.md)}@}. <!--SR:!2025-05-23,214,310!2025-02-16,48,230!2025-05-01,214,330-->
 
 ## forms of diagram
 
