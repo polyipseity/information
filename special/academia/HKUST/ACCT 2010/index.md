@@ -188,7 +188,7 @@ The content is in teaching order.
 - transactions
   - [ACCT 2010/transaction](transaction.md)
   - transactions / recording ::@:: Find revenue earned. Find corresponding expenses incurred. Verify the accounting equation is in balance. <p> If there are no revenue earned or expenses incurred (e.g. a promise for another promise), no need to record the so-called "transaction".
-  - transactions / format ::@:: Optionally, add description to describe the transaction, and date. Then add account captions, debits first and then credits (optionally indent the credit accounts). Then write the corresponding amounts (there should be no negative numbers). Optionally, indicate all relevant changes to _normal balances_ after the account captions, represented using, _in order_, `(∓XA, ±A, ∓XR, ±R, ±E, ±L, ±SE)`. Choose the appropriate ones. There can be multiple. There is neither contra-equity `∓XE` (use `±SE` instead) nor contra-liability `∓XL` (use `±L` instead).
+  - transactions / format ::@:: Optionally, add description to describe the transaction, and date. Then add account captions, debits first and then credits (optionally indent the credit accounts). Then write the corresponding amounts (there should be no negative numbers). Optionally, indicate all relevant changes to _normal balances_ after the account captions, represented using, _in order_, `(∓XA, ±A, ∓XR, ±R, ±E, ±L, ±SE)`. Choose the appropriate ones. There can be multiple. There is neither contra-equity `∓XSE` (use `±SE` instead) nor contra-liability `∓XL` (use `±L` instead).
   - [debits and credits § T-accounts](../../../../general/debits%20and%20credits.md#T-accounts)
 - [financial statement analysis](../../../../general/financial%20statement%20analysis.md)
 - [net income](../../../../general/net%20income.md) ::@:: Also known as __net profit__. Simply add all revenues and subtract all expenses, except for dividends (which is not an expense by definition in the first place).
@@ -567,17 +567,18 @@ The content is in teaching order.
     - long question 4: 12 = 9 + 3
     - long question 5: 13 = 6 + 3 + 2 + 2
 - [final examination cheatsheet](final%20examination%20cheatsheet.md)
-- grades: TODO/100
+- grades: 91/100 → 91/100
   - note: <s>According to past experiences, this professor will probably not release final examination grades.</s> Er, apparently he will post the score to Canvas and has paper checking this time?
   - statistics: L4, L5, L6
-    - mean: TODO
-    - standard deviation: TODO
-    - low: TODO
-    - lower quartile: TODO
-    - median: TODO
-    - upper quartile: TODO
-    - high: TODO
-    - distribution: TODO
+    - timestamps: (release) → 2024-12-30T17:54:54+08:00
+    - mean: ? → 57.14
+    - standard deviation: ? → ?
+    - low: ? → 0
+    - lower quartile: ? → 44.63
+    - median: ? → 58
+    - upper quartile: ? → 72.38
+    - high: ? → 92
+    - distribution: ? → ?
 - report
   - HKUST yellow answer book (0?, scary) ::@:: I had just realized that the left-hand side is intended for rough work... You are supposed to write your answers on the right-hand side near the end of the exam. Have I been using it wrongly the whole time? <p> I asked the professor after the exam and he said do not worry about it... Let's hope so.
   - TODO

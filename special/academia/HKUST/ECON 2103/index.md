@@ -708,7 +708,7 @@ The content is in teaching order.
 - format: closed book, no cheatsheet, simple calculator (includes public examination approved calculator)
 - content: multiple choice questions: 40@1 each
 - grades: 37/40
-  - statistics: L4, L5, L6
+  - statistics: L4, L5
     - mean: 29 (provided)
     - standard deviation: 5 (provided)
     - median: 29 (provided)
@@ -883,20 +883,21 @@ The content is in teaching order.
 - datetime: 2024-12-18T09:30:00+08:00/2024-12-18T11:30:00+08:00, PT2H
 - venue: Lecture Theater A (401)
 - format: calculator with no information storage feature, closed book
-- grades: 90/100
-  - statistics: L4, L5, L6
+- grades: 90/100 → 90/100
+  - statistics: L4, L5
     - mean: 54.46 (provided)
     - standard deviation: 19.45 (provided)
     - median: 52.5 (provided)
   - statistics: L4
-    - mean: 60.45
-    - standard deviation: ?
-    - low: 0
-    - lower quartile: 44
-    - median: 62
-    - upper quartile: 76
-    - high: 93
-    - distribution: ?
+    - timestamps: (release) → 2024-12-30T17:52:39+08:00
+    - mean: 60.45 → 60.49
+    - standard deviation: ? → ?
+    - low: 0 → 0
+    - lower quartile: 44 → 44
+    - median: 62 → 62
+    - upper quartile: 76 → 77
+    - high: 93 → 93
+    - distribution: ? → ?
 - report
   - examination format ::@:: All the questions require you to write a lot of text, and it feels more like writing essays... I was not quite sure the things I have written are what the teacher wants. <p> Next time, I should also check the examination format of each instructor and see if it suits me.
   - time limit ::@:: The time limit was barely enough to finish all questions because I had written many words, and had spent some time on thinking...
