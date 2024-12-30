@@ -139,7 +139,7 @@ int anInteger2 = (int) "-3.14"; // no compilation error; but a runtime error whe
 
 ## operators
 
-The assignment operator {@{assigns a value to a variable}@}: <!--SR:!2024-12-30,255,330-->
+The assignment operator {@{assigns a value to a variable}@}: <!--SR:!2028-03-05,1161,350-->
 
 ```Java
 theAnswerToLifeTheUniverseAndEverything = 42

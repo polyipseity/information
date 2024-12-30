@@ -169,7 +169,7 @@ tags:
 > 3. separate entity
 >
 > - solution: {@{2}@}
-> - explanation: {@{1 is important, but not satisfying it only changes the accounting basis. 3 is also important, but not satisfying it only makes the financial statement improper. 2 is the most important one, as not satisfying it means financial statements can be deceptive, misleading others in their decision making.}@} <!--SR:!2025-01-02,77,322!2024-12-30,74,322-->
+> - explanation: {@{1 is important, but not satisfying it only changes the accounting basis. 3 is also important, but not satisfying it only makes the financial statement improper. 2 is the most important one, as not satisfying it means financial statements can be deceptive, misleading others in their decision making.}@} <!--SR:!2025-01-02,77,322!2025-11-27,332,342-->
 
 <!-- markdownlint MD028 -->
 
@@ -180,7 +180,7 @@ tags:
 > 3. alphabetical order of asset captions
 >
 > - solution: {@{2}@}
-> - explanation: {@{The standards require it. Note that GAAP generally requires decreasing liquidity, while IFRS requires increasing liquidity.}@} <!--SR:!2024-12-30,74,322!2025-09-14,278,342-->
+> - explanation: {@{The standards require it. Note that GAAP generally requires decreasing liquidity, while IFRS requires increasing liquidity.}@} <!--SR:!2025-11-28,333,342!2025-09-14,278,342-->
 
 <!-- markdownlint MD028 -->
 

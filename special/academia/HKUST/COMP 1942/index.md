@@ -336,7 +336,7 @@ The content is in teaching order.
   - [§ long short-term memory](../../../../general/recurrent%20neural%20network.md#long%20short-term%20memory)
   - [§ gated recurrent unit](../../../../general/recurrent%20neural%20network.md#gated%20recurrent%20unit)
 - [convolutional neural network](../../../../general/convolutional%20neural%20network.md)
-  - convolutional neural network application ::@:: image similarity search <!--SR:!2024-12-30,144,337!2026-04-05,533,397-->
+  - convolutional neural network application ::@:: image similarity search <!--SR:!2026-10-28,667,357!2026-04-05,533,397-->
 - [support vector machine](../../../../general/support%20vector%20machine.md)
   - [§ linear SVM](../../../../general/support%20vector%20machine.md#linear%20SVM)
   - [§ hard-margin](../../../../general/support%20vector%20machine.md#hard-margin)

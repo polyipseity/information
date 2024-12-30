@@ -30,8 +30,8 @@ The content is in teaching order.
   - "civil" meaning ::@:: "Civil" distinguishes non-military from military purposes. <!--SR:!2025-05-09,327,350!2025-09-22,417,397-->
   - civil engineer characteristics ::@:: problem solvers <!--SR:!2025-11-14,410,335!2027-05-22,879,372-->
   - civil engineering characteristics ::@:: Oldest engineering discipline. Takes place on all levels, from municipal to nationals in the public sector, from homeowners to international companies in the private sector. <!--SR:!2025-01-14,171,301!2025-05-20,310,380-->
-  - built environment ::@:: man-made using materials and natural resources, benefiting mankind, with environment protection and prudent urban planning <!--SR:!2025-04-23,252,312!2024-12-30,218,330-->
-    - built environment example ::@:: Hoover Dam, a hydroelectric and reservoir project constructed on the Colorado River from 1931 to 1936, affects Las Vegas, United States significantly to the present. <!--SR:!2024-12-30,162,297!2025-03-15,237,345-->
+  - built environment ::@:: man-made using materials and natural resources, benefiting mankind, with environment protection and prudent urban planning <!--SR:!2025-04-23,252,312!2027-09-20,994,350-->
+    - built environment example ::@:: Hoover Dam, a hydroelectric and reservoir project constructed on the Colorado River from 1931 to 1936, affects Las Vegas, United States significantly to the present. <!--SR:!2026-04-30,486,297!2025-03-15,237,345-->
 - civil engineering importance ::@:: improving living environments, productivity, and working efficiency <!--SR:!2025-12-11,429,340!2027-04-22,866,372-->
   - [civil engineering examples](#civil%20engineering%20examples)
   - [civil engineering slogans in Hong Kong](#civil%20engineering%20slogans%20in%20Hong%20Kong)
@@ -236,7 +236,7 @@ water security
 - climate change→::@::←extreme weather <!--SR:!2025-08-18,343,337!2025-01-04,199,350-->
 - extreme weather→::@::←food security <!--SR:!2026-03-19,492,330!2025-03-06,235,347-->
 - food security→::@::←mega-cities <!--SR:!2025-12-02,460,372!2025-08-03,319,320-->
-- mega-cities→::@::←water security <!--SR:!2025-03-02,229,360!2024-12-30,187,354-->
+- mega-cities→::@::←water security <!--SR:!2025-03-02,229,360!2025-04-02,93,334-->
 - water security→::@::←_(end)_ <!--SR:!2025-04-28,318,350!2026-02-08,496,357-->
 
 <!--/pytextgen-->

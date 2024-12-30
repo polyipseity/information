@@ -19,7 +19,7 @@ If condition Then
 End If
 ```
 
-The semantics of `If...Then...End If` is obvious: {@{If the condition is `True`, then the statement block is executed. Otherwise, it is not executed. Note that the condition itself is always executed.}@} <!--SR:!2024-12-30,252,330-->
+The semantics of `If...Then...End If` is obvious: {@{If the condition is `True`, then the statement block is executed. Otherwise, it is not executed. Note that the condition itself is always executed.}@} <!--SR:!2028-02-19,1146,350-->
 
 An `If...Then...Else...End If` statement consists of {@{a condition and two statement blocks}@}: <!--SR:!2025-02-28,301,330-->
 
