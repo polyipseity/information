@@ -1493,7 +1493,7 @@ tags:
 <!-- markdownlint MD028 -->
 
 > Q9. (advanced) Suppose a prize box contains five 1-dollar coins, five 2-dollar coins, and five 5-dollar coins. Coins are drawn one by one from the prize box. Let $$\begin{align*}
->     X_k &= \text{ the total amount drawn from the box after the }k^{\text{th}} \text{ draw} \\
+>     X_k &= \text{ the total amount drawn from the box after the }k^{\text{th} } \text{ draw} \\
 >     M &= \text{ the sequence } \{ X_0, X_1, X_2, \cdots, X_{15} \}
 >    \end{align*}$$
 >
@@ -1507,9 +1507,9 @@ tags:
 
 > Q10. (advanced) Suppose a prize box contains five 1-dollar coins, five 2-dollar coins, and five 5-dollar coins. Coins are drawn one by one from the prize box. Let $$\begin{align*}
 >     X_k &= \text{ a tuple } (a, b, c) \text{, where } \\
->     a &= \text{ the total number of 1-dollar coins drawn after the } k^{\text{th}} \text{ draw} \\
->     b &= \text{ the total number of 2-dollar coins drawn after the } k^{\text{th}} \text{ draw} \\
->     c &= \text{ the total number of 5-dollar coins drawn after the } k^{\text{th}} \text{ draw} \\
+>     a &= \text{ the total number of 1-dollar coins drawn after the } k^{\text{th} } \text{ draw} \\
+>     b &= \text{ the total number of 2-dollar coins drawn after the } k^{\text{th} } \text{ draw} \\
+>     c &= \text{ the total number of 5-dollar coins drawn after the } k^{\text{th} } \text{ draw} \\
 >     M &= \text{ the sequence } \{ X_0, X_1, X_2, \cdots, X_{15} \}
 >    \end{align*}$$
 >
@@ -1595,8 +1595,8 @@ tags:
 
 > Q17. (simple) Consider solving a Markov chain with state space $\{ S_1, S_2, \cdots, S_N \}$ by _value iteration_, with a threshold $\varepsilon$. Which of the following correctly describes the stopping condition?
 >
-> 1. $\max_{s\in \{ S_1, S_2, \cdots, S_N \}} | V_k(s) - V_{k-1}(s) | < \varepsilon$
-> 2. $\max_{s_a, s_b \in \{ S_1, S_2, \cdots, S_N \}} | V_k(s_a) - V_{k}(s_b) | < \varepsilon$
+> 1. $\max_{s\in \{ S_1, S_2, \cdots, S_N \} } | V_k(s) - V_{k-1}(s) | < \varepsilon$
+> 2. $\max_{s_a, s_b \in \{ S_1, S_2, \cdots, S_N \} } | V_k(s_a) - V_{k}(s_b) | < \varepsilon$
 > 3. $\max_{k\in \{ 1, 2, \cdots, N \} } | V_k(s) - V_{k-1}(s) | < \varepsilon$
 > 4. $\max_{k\in \{ 1, 2, \cdots, N \} } | V_k(s_a) - V_{k}(s_b) | < \varepsilon$
 >

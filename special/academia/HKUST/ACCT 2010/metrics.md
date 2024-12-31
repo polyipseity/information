@@ -19,7 +19,7 @@ tags:
 
 ## mnemonics
 
-- easy metrics ::@:: current ratio, dividend yield, net profit margin, net sales, price/earnings ratio, quick ratio, net profit margin <!--SR:!2025-01-21,28,282!2025-02-20,52,302-->
+- easy metrics ::@:: current ratio, dividend yield, net profit margin, net sales, price/earnings ratio, quick ratio <!--SR:!2025-01-21,28,282!2025-02-20,52,302-->
 - non-ratios ::@:: free cash flow, working capital <!--SR:!2025-03-12,72,322!2025-03-13,73,322-->
 - reciprocals multiplied by 365 ::@:: average collection period, average days to pay payables, average days to sell inventory <!--SR:!2025-03-07,67,319!2025-02-18,50,302-->
 - surprising terms in equation ::@:: accounts payable turnover, earnings per share <!--SR:!2025-02-04,39,296!2025-03-14,74,322-->

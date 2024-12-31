@@ -60,13 +60,13 @@ The additional temporal operators {@{__R__, __F__, and __G__}@} are defined as f
 
 Some authors also define {@{a _weak until_ binary operator, denoted __W__}@}, with semantics {@{similar to that of the until operator but the stop condition is not required to occur \(similar to release\)}@}.<sup>[\[8\]](#^ref-8)</sup> It is sometimes useful since {@{both __U__ and __R__ can be defined in terms of the weak until}@}: <!--SR:!2025-03-19,81,343!2025-03-15,78,343!2025-02-12,49,310-->
 
-- __w__<!-- markdown separator -->eak until ::@:: _ψ_ __W__ _φ_ ≡ \(_ψ_ __U__ _φ_\) ∨ __G__ _ψ_ ≡ _ψ_ __U__ \(_φ_ ∨ __G__ _ψ_\) ≡ _φ_ __R__ \(_φ_ ∨ _ψ_\) <!--SR:!2025-01-24,34,303!2025-01-03,17,257-->
-- __u__<!-- markdown separator -->ntil ::@:: _ψ_ __U__ _φ_ ≡ __F__<!-- markdown separator -->_φ_ ∧ \(_ψ_ __W__ _φ_\) <!--SR:!2025-01-22,32,277!2025-01-24,34,303-->
-- __r__<!-- markdown separator -->elease ::@:: _ψ_ __R__ _φ_ ≡ _φ_ __W__ \(_φ_ ∧ _ψ_\) <!--SR:!2025-02-07,38,263!2025-01-31,38,303-->
+- __w__<!-- markdown separator -->eak until (annotation: in terms of ___u__<!-- markdown separator -->ntil_, ___u__<!-- markdown separator -->ntil_, ___r__<!-- markdown separator -->elease_) ::@:: _ψ_ __W__ _φ_ ≡ \(_ψ_ __U__ _φ_\) ∨ __G__ _ψ_ ≡ _ψ_ __U__ \(_φ_ ∨ __G__ _ψ_\) ≡ _φ_ __R__ \(_φ_ ∨ _ψ_\) <!--SR:!2025-01-24,34,303!2025-01-03,17,257-->
+- __u__<!-- markdown separator -->ntil (annotation: in terms of ___w__<!-- markdown separator -->eak until_) ::@:: _ψ_ __U__ _φ_ ≡ __F__<!-- markdown separator -->_φ_ ∧ \(_ψ_ __W__ _φ_\) <!--SR:!2025-01-22,32,277!2025-01-24,34,303-->
+- __r__<!-- markdown separator -->elease (annotation: in terms of ___w__<!-- markdown separator -->eak until_) ::@:: _ψ_ __R__ _φ_ ≡ _φ_ __W__ \(_φ_ ∧ _ψ_\) <!--SR:!2025-02-07,38,263!2025-01-31,38,303-->
 
 {@{The _strong release_ binary operator, denoted __M__}@}, is {@{the dual of weak until}@}. It is defined {@{similar to the until operator, so that the release condition has to hold at some point}@}. Therefore, {@{it is stronger than the release operator}@}. <!--SR:!2025-03-11,74,330!2025-03-15,78,343!2025-02-22,57,323!2025-02-02,40,297-->
 
-- strong release (__M__) ::@:: _ψ_ __M__ _φ_ ≡ ¬\(¬<!-- markdown separator -->_ψ_ __W__ ¬<!-- markdown separator -->_φ_\) ≡ \(_ψ_ __R__ _φ_\) ∧ __F__ _ψ_ ≡ _ψ_ __R__ \(_φ_ ∧ __F__ _ψ_\) ≡ _φ_ __U__ \(_ψ_ ∧ _φ_\) <!--SR:!2025-01-07,7,243!2025-02-23,54,283-->
+- strong release (__M__) (annotation: in terms of ___w__<!-- markdown separator -->eak util_, ___r__<!-- markdown separator -->elease_, ___r__<!-- markdown separator -->elease_, ___u__<!-- markdown separator -->ntil_) ::@:: _ψ_ __M__ _φ_ ≡ ¬\(¬<!-- markdown separator -->_ψ_ __W__ ¬<!-- markdown separator -->_φ_\) ≡ \(_ψ_ __R__ _φ_\) ∧ __F__ _ψ_ ≡ _ψ_ __R__ \(_φ_ ∧ __F__ _ψ_\) ≡ _φ_ __U__ \(_ψ_ ∧ _φ_\) <!--SR:!2025-01-07,7,243!2025-02-23,54,283-->
 
 {@{The semantics for the temporal operators}@} are pictorially presented as follows. <!--SR:!2025-03-15,78,343-->
 

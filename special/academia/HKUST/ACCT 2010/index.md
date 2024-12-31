@@ -188,7 +188,7 @@ The content is in teaching order.
 - transactions
   - [ACCT 2010/transaction](transaction.md)
   - transactions / recording ::@:: Find revenue earned. Find corresponding expenses incurred. Verify the accounting equation is in balance. <p> If there are no revenue earned or expenses incurred (e.g. a promise for another promise), no need to record the so-called "transaction". <!--SR:!2025-01-02,20,363!2025-01-01,19,363-->
-  - transactions / format ::@:: Optionally, add description to describe the transaction, and date. Then add account captions, debits first and then credits (optionally indent the credit accounts). Then write the corresponding amounts (there should be no negative numbers). Optionally, indicate all relevant changes to _normal balances_ after the account captions, represented using, _in order_, `(∓XA, ±A, ∓XR, ±R, ±E, ±L, ±SE)`. Choose the appropriate ones. There can be multiple. There is neither contra-equity `∓XE` (use `±SE` instead) nor contra-liability `∓XL` (use `±L` instead). <!--SR:!2025-01-01,19,356!2025-01-02,20,356-->
+  - transactions / format ::@:: Optionally, add description to describe the transaction, and date. Then add account captions, debits first and then credits (optionally indent the credit accounts). Then write the corresponding amounts (there should be no negative numbers). Optionally, indicate all relevant changes to _normal balances_ after the account captions, represented using, _in order_, `(∓XA, ±A, ∓XR, ±R, ±E, ±L, ±SE)`. Choose the appropriate ones. There can be multiple. There is neither contra-equity `∓XSE` (use `±SE` instead) nor contra-liability `∓XL` (use `±L` instead). <!--SR:!2025-01-01,19,356!2025-01-02,20,356-->
   - [debits and credits § T-accounts](../../../../general/debits%20and%20credits.md#T-accounts)
 - [financial statement analysis](../../../../general/financial%20statement%20analysis.md)
 - [net income](../../../../general/net%20income.md) ::@:: Also known as __net profit__. Simply add all revenues and subtract all expenses, except for dividends (which is not an expense by definition in the first place). <!--SR:!2025-03-31,90,383!2025-01-02,20,363-->
@@ -252,8 +252,8 @@ The content is in teaching order.
   - [bad debt](../../../../general/bad%20debt.md) / net realizable value of accounts receivable ::@:: In the balance sheet, the following is presented: <p> Accounts receivable <br/> Less: Allowance for doubtful accounts <br/> ------------------------------------------ <br/> Net realizable value of accounts receivable <!--SR:!2025-03-03,62,363!2025-01-02,20,363-->
     - [net realizable value](../../../../general/net%20realizable%20value.md) ::@:: It is a measure of a fixed or current asset's worth when held in inventory, in the field of accounting. <!--SR:!2025-01-02,20,363!2025-03-31,90,383-->
   - [bad debt](../../../../general/bad%20debt.md) / estimation ::@:: There are two methods: % of credit sales method, ageing of accounts receivable <!--SR:!2025-01-02,20,356!2025-01-02,20,363-->
-    - [bad debt](../../../../general/bad%20debt.md) / estimation / % of credit sales method ::@:: $$\text{credit sales} \times \text{estimated bad debt from experience}$$ At year end adjustments, simply expend the above amount to bad debt expense. <!--SR:!2025-04-01,91,383!2025-01-01,19,356-->
-    - [bad debt](../../../../general/bad%20debt.md) / estimation / ageing of accounts receivable ::@:: At year end adjustments, split the accounts receivable by age (intervals). For each age interval, estimate % uncollectible. Multiply the percentage for each age interval, and then sum them up together to get a final number. Then, at year end adjustments, expend to bad debt expense an amount such that the "Allowance for doubtful accounts" will have a _credit_ (not _debit_) balance of the above final number. (Do not simply expend the above final number!) <!--SR:!2025-02-08,44,343!2025-01-02,20,356-->
+    - [bad debt](../../../../general/bad%20debt.md) / estimation / % of credit sales method ::@:: $$\text{credit sales} \times \text{estimated bad debt from experience}$$ At year end adjustments, simply debit the above amount from "Allowance for doubtful accounts" and credit to "Bad debt expense". <!--SR:!2025-04-01,91,383!2025-01-01,19,356-->
+    - [bad debt](../../../../general/bad%20debt.md) / estimation / ageing of accounts receivable ::@:: At year end adjustments, split the accounts receivable by age (intervals). For each age interval, estimate % uncollectible. Multiply the percentage for each age interval, and then sum them up together to get a final number. Then, at year end adjustments, debit from "Bad debt expense" and credit to "Allowance for doubtful accounts" an amount such that "Allowance for doubtful accounts" will have a _credit_ (not _debit_) balance of the above final number. (That is, do not simply debit and credit the above final number!) <!--SR:!2025-02-08,44,343!2025-01-02,20,356-->
 - [receivables turnover ratio](../../../../general/receivables%20turnover%20ratio.md) ::@:: $$\frac {\text{net credit sales} } {\text{average net trade accounts receivables} }$$ Average net trade accounts receivable is not time-weighted, it is simply the average of the beginning and the ending balance. The adjective _net_ means discounts and allowances need to be removed. <p> "Net credit sales" may be "net sales" in practice, since net credit sales are normally not reported separately. <!--SR:!2025-01-19,29,316!2025-01-29,39,343-->
   - [receivables turnover ratio](../../../../general/receivables%20turnover%20ratio.md) / interpretation ::@:: It measures how many times average receivables are recorded and collected for the year. <p> A higher ratio benefits the company because it can collect the money earlier for investment. It is related to how generous payment schedules are. A sudden decline in the ratio may mean a company is extending payment deadlines to prop up lagging sales or recording bad sales. <!--SR:!2025-02-01,39,343!2025-01-01,19,363-->
   - average collection period ::@:: $$\frac {365} {\text{receivables turnover ratio} }$$ <!--SR:!2025-01-02,20,363!2025-01-02,20,363-->
@@ -372,7 +372,7 @@ The content is in teaching order.
   - impairment / indicators ::@:: examples: <br/> significant pattern of decline in the market price of the PPE <br/> lower demand for a medium to long-term period for the asset's service due to global economic conditions <br/> severe change in economic or legal factors affecting the company or its assets <br/> obsolescence or physical damage to the PPE <br/> asset is held for disposal or is part of a restructuring <!--SR:!2025-02-21,59,363!2025-01-20,30,323-->
   - impairment / recoverability ::@:: If the assets' estimated future cash flows (FCF) is at least its net book value (NBV), nothing happens. Otherwise, impairment occurs. <!--SR:!2025-01-01,19,356!2025-01-02,20,363-->
     - [discounted cash flow](../../../../general/discounted%20cash%20flow.md) ::@:: It is a method used to value a security, project, company, or asset, that incorporates the time value of money. <!--SR:!2025-03-31,90,383!2025-02-27,63,363-->
-  - impairment / measurement ::@:: The FCF is below NBV. Now measure the fair value (FV) of the asset. This may be computed from the FCF using discounted cash flow (DCF; not covered now). It should be the case that FV ≤ FCF. The difference between FV and NBV is the impairment loss. <p> The adjustment entry debits expense "Impairment loss" and credits the relevant assets. <!--SR:!2025-03-28,87,376!2025-01-02,20,356-->
+  - impairment / measurement ::@:: The FCF is below NBV. Now measure the fair value (FV) of the asset. This may be computed from the FCF using discounted cash flow (DCF; not covered now), or other methods. It should be the case that FV ≤ FCF. The difference between FV and NBV is the impairment loss. <p> The adjustment entry debits expense "Impairment loss" and credits the relevant assets. <!--SR:!2025-03-28,87,376!2025-01-02,20,356-->
     - [fair value](../../../../general/fair%20value.md) ::@:: It is a rational and unbiased estimate of the potential market price of a good, service, or asset. <!--SR:!2025-03-30,89,383!2025-01-02,20,363-->
 - fixed asset
   - fixed asset / disposal ::@:: When you sell or dispose an asset, you need to add an journal entry. Due to accumulated depreciation, some care is needed to handle this. <p> Debit whatever you have received for the disposal. Then credit contra-asset "Accumulated depreciation" to remove the _corresponding_ accumulated depreciation, Then credit the relevant asset at its _cost_. Check if debit and credit balances out. If so, there is neither gain nor loss. Otherwise, there is either _gain_ or _loss_. Finally, either credit the gain or debit the loss. <!--SR:!2025-02-25,61,363!2025-01-02,20,363-->
@@ -494,7 +494,7 @@ The content is in teaching order.
   - cash equation ::@:: $$\text{cash and cash equivalents (CCE)} \\ = \text{liabilities (L)} + \text{stockholders' equity (SE)} - \text{non-cash assets}$$ <!--SR:!2025-01-01,19,363!2025-01-02,20,356-->
   - operating activities
     - operating activities / methods ::@:: direct method, indirect method (almost all companies use the latter) <!--SR:!2025-01-01,19,363!2025-01-02,20,356-->
-    - operating activities / calculation ::@:: Indirect method: Start with net income. Add depreciation and amortization (no actual cash has outflowed). Then remove gains and add loss of investing assets (not operating activities, accounted for in investing activities). Then compute difference between accrual-basis accounting and cash-basis accounting and add and remove accordingly. <p> The last step in details: <br/> __operating (non-cash current) assets increase/decrease__: opposite <br/> __operating (current) liabilities increase/decrease__: same <!--SR:!2025-03-06,65,363!2025-01-02,20,363-->
+    - operating activities / calculation ::@:: Indirect method: Start with net income. Add depreciation and amortization (no actual cash has outflowed). Then remove gains and add loss of investing assets (not operating activities, accounted for in investing activities). Then compute differences between accrual-basis accounting and cash-basis accounting and add and remove accordingly. <p> The last step (computing the differences) in details: <br/> __operating (non-cash current) assets increase/decrease__: opposite <br/> __operating (current) liabilities increase/decrease__: same <!--SR:!2025-03-06,65,363!2025-01-02,20,363-->
     - operating activities / interpretation ::@:: To avoid firms with rising net income but falling cash flow from operations <br/> Only source of cash over the long run <br/> Investors will not invest in a company if cash generated from operations will not be available to pay dividends or expansion <br/> Creditors will not lend money if they do not believe that cash generated from operations will be available to pay back the loan <!--SR:!2025-01-02,20,363!2025-01-02,20,363-->
 
 > Dear Students,
@@ -567,20 +567,34 @@ The content is in teaching order.
     - long question 4: 12 = 9 + 3
     - long question 5: 13 = 6 + 3 + 2 + 2
 - [final examination cheatsheet](final%20examination%20cheatsheet.md)
-- grades: TODO/100
+- grades: 91/100 → 91/100
   - note: <s>According to past experiences, this professor will probably not release final examination grades.</s> Er, apparently he will post the score to Canvas and has paper checking this time?
   - statistics: L4, L5, L6
-    - mean: TODO
-    - standard deviation: TODO
-    - low: TODO
-    - lower quartile: TODO
-    - median: TODO
-    - upper quartile: TODO
-    - high: TODO
-    - distribution: TODO
+    - timestamps: (release) → 2024-12-30T17:54:54+08:00
+    - mean: ? → 57.14
+    - standard deviation: ? → ?
+    - low: ? → 0
+    - lower quartile: ? → 44.63
+    - median: ? → 58
+    - upper quartile: ? → 72.38
+    - high: ? → 92
+    - distribution: ? → ?
 - report
-  - HKUST yellow answer book (0?, scary) ::@:: I had just realized that the left-hand side is intended for rough work... You are supposed to write your answers on the right-hand side near the end of the exam. Have I been using it wrongly the whole time? <p> I asked the professor after the exam and he said do not worry about it... Let's hope so. <!--SR:!2025-01-09,23,374!2025-01-09,23,374-->
-  - TODO
+  - HKUST yellow answer book (0?, scary) ::@:: I had just realized that the left-hand side is intended for rough work... You are supposed to write your answers on the right-hand side near the end of the exam. Have I been using it wrongly the whole time? <p> I asked the professor after the exam and he said do not worry about it... Let's hope so. <p> Update: Yes, awesome! <!--SR:!2025-01-09,23,374!2025-01-09,23,374-->
+  - overall
+    - overall / bullet points ::@:: For questions that can be answered using bullet points, 1 mark means 1 bullet point. Try to not merge your points together into one bullet point, even if the TA said she would try to distinguish the points. And if you cannot think of enough bullet points to match the marks, force yourself to write that many bullet points anyway.
+    - overall / stupid points ::@:: Recalling and writing the definition of concepts, as stupid as it sounds, gives marks...
+  - multiple choice questions (−4, multiple choice questions) ::@:: 90% (36/40) accuracy. The solution was not given.
+  - long question 2 (−2, long question)
+    - long question 2 / explain why operating cash flow is negative but net income is positive using the cash flow statement (−2) ::@:: There were 9 points, and you need to answer 6 points for full marks. <p> First, not enough bullet points were written. Second, apparently the following are some of the points they want: net income includes the effects of accrual and deferral; indirect method reverses these effects to get the operating cash flow; etc.
+  - long question 3 (0, long question)
+    - long question 3 / interest expense at the last payment period (0) ::@:: When a debt is specified in terms of fixed payments, the calculated interest expense may cause the fixed payment to underpay or overpay the principal. In that case, adjust the interest expense such that the fixed payment repays the principal exactly. <p> This is a minor detail that many may gloss over... and causes uncertainty in exams.
+  - long question 4 (−1, long question)
+    - long question 4 / explain your decision made among three choices using present value of money (−1) ::@:: Only two bullet points had been written. No official solution was given, and you probably should copy from the textbook or something...
+  - long question 5 (−2, long question)
+    - long question 5 / Is earnings per share (EPS) a good indicator of a company's future performance? (−1) ::@:: No, obviously. But I have only written two bullet points. <p> The three points are: no; because EPS indicates the company's performance in the past period, not the future; stock price is a better indicator (price/earnings ratio also acceptable).
+    - long question 5 / describe stock split (0) ::@:: The two points are: each stock of a company gets split into several stocks with proportionally smaller market price; the par value per stock decreases but the total par value remains the same.
+    - long question 5 / reason for stock split after a surge in stock price (−1) ::@:: Missing one bullet point. <p> The two points are: make the stock price to a reasonable market range; and attract more investors to increase trade volume.
 - check
   - note: <s>Probably no checking from past experience...</s> Not this time...?
   - datetime: 2024-12-30T09:00:00+08:00/2024-12-30T12:00:00+08:00, PT3H

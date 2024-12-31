@@ -107,13 +107,13 @@ Consider the following demand and supply schedule:
 | 2.00          | 18&nbsp;000 | 6&nbsp;000  |
 | 1.00          | 20&nbsp;000 | 4&nbsp;000  |
 
-- The equilibrium price in the market is $5.00 where ::@:: demand and supply are equal at 12&nbsp;000 units <!--SR:!2025-01-27,58,310!2025-02-16,75,325-->
-- If the current market price was $3.00 (<$5.00) – ::@:: there would be excess demand for 8&nbsp;000 units, creating a shortage. <!--SR:!2025-02-13,72,325!2025-02-16,75,325-->
-- If the current market price was $8.00 (>$5.00) – ::@:: there would be excess supply of 12&nbsp;000 units. <!--SR:!2025-01-31,61,310!2025-02-06,66,310-->
+- The equilibrium price in the market is \$5.00 where ::@:: demand and supply are equal at 12&nbsp;000 units <!--SR:!2025-01-27,58,310!2025-02-16,75,325-->
+- If the current market price was \$3.00 (<\$5.00) – ::@:: there would be excess demand for 8&nbsp;000 units, creating a shortage. <!--SR:!2025-02-13,72,325!2025-02-16,75,325-->
+- If the current market price was \$8.00 (>\$5.00) – ::@:: there would be excess supply of 12&nbsp;000 units. <!--SR:!2025-01-31,61,310!2025-02-06,66,310-->
 
-When {@{there is a shortage in the market}@} we see that, to {@{correct this disequilibrium, the price of the good will be increased back to a price of $5.00}@}, thus {@{lessening the quantity demanded and increasing the quantity supplied thus that the market is in balance}@}. <!--SR:!2025-02-12,71,325!2025-02-14,73,325!2025-01-23,51,305-->
+When {@{there is a shortage in the market}@} we see that, to {@{correct this disequilibrium, the price of the good will be increased back to a price of \$5.00}@}, thus {@{lessening the quantity demanded and increasing the quantity supplied thus that the market is in balance}@}. <!--SR:!2025-02-12,71,325!2025-02-14,73,325!2025-01-23,51,305-->
 
-When {@{there is an oversupply of a good}@}, such as when price is above $6.00, then we see that {@{producers will decrease the price to increase the quantity demanded for the good}@}, thus {@{eliminating the excess and taking the market back to equilibrium}@}. <!--SR:!2025-02-09,69,325!2025-02-15,74,325!2025-01-01,37,290-->
+When {@{there is an oversupply of a good}@}, such as when price is above \$6.00, then we see that {@{producers will decrease the price to increase the quantity demanded for the good}@}, thus {@{eliminating the excess and taking the market back to equilibrium}@}. <!--SR:!2025-02-09,69,325!2025-02-15,74,325!2025-01-01,37,290-->
 
 ### influences changing price
 

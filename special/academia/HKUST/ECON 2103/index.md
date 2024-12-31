@@ -708,11 +708,13 @@ The content is in teaching order.
 - format: closed book, no cheatsheet, simple calculator (includes public examination approved calculator)
 - content: multiple choice questions: 40@1 each
 - grades: 37/40
-  - statistics: L4, L5, L6
+  - statistics: L4, L5
+    - timestamps: (release)
     - mean: 29 (provided)
     - standard deviation: 5 (provided)
     - median: 29 (provided)
   - statistics: L4
+    - timestamps: (release)
     - mean: 29.59
     - standard deviation: ?
     - low: 0
@@ -720,6 +722,16 @@ The content is in teaching order.
     - median: 29
     - upper quartile: 33.75
     - high: 37
+    - distribution: ?
+  - statistics: L5
+    - timestamps: 2024-12-31T10:17:00+08:00
+    - mean: 26.67
+    - standard deviation: ?
+    - low: ?
+    - lower quartile: 25.5
+    - median: 28
+    - upper quartile: 32.5
+    - high: 38
     - distribution: ?
 - report
   - long lines, sellers' personal preference (-1, MCQ) ::@:: Long lines (queuing for a good) are inefficient because they waste buyers' time, not because buyers who want the good most may not get the good — buyers who want the good most use the most time waiting for the good, while those who are not may give up waiting. It is only selling according to sellers' personal preference where the latter happens. <!--SR:!2025-05-16,140,412!2025-05-18,142,412-->
@@ -883,24 +895,38 @@ The content is in teaching order.
 - datetime: 2024-12-18T09:30:00+08:00/2024-12-18T11:30:00+08:00, PT2H
 - venue: Lecture Theater A (401)
 - format: calculator with no information storage feature, closed book
-- grades: 90/100
-  - statistics: L4, L5, L6
+- grades: 90/100 → 90/100
+  - statistics: L4, L5
     - mean: 54.46 (provided)
     - standard deviation: 19.45 (provided)
     - median: 52.5 (provided)
   - statistics: L4
-    - mean: 60.45
+    - timestamps: (release) → 2024-12-30T17:52:39+08:00
+    - mean: 60.45 → 60.49
+    - standard deviation: ? → ?
+    - low: 0 → 0
+    - lower quartile: 44 → 44
+    - median: 62 → 62
+    - upper quartile: 76 → 77
+    - high: 93 → 93
+    - distribution: ? → ?
+  - statistics: L5
+    - timestamps: 2024-12-31T10:17:00+08:00
+    - mean: 46.57
     - standard deviation: ?
-    - low: 0
-    - lower quartile: 44
-    - median: 62
-    - upper quartile: 76
-    - high: 93
+    - low: ?
+    - lower quartile: 35
+    - median: 46
+    - upper quartile: 59.5
+    - high: 87
     - distribution: ?
 - report
   - examination format ::@:: All the questions require you to write a lot of text, and it feels more like writing essays... I was not quite sure the things I have written are what the teacher wants. <p> Next time, I should also check the examination format of each instructor and see if it suits me. <!--SR:!2025-01-23,27,411!2025-01-24,28,411-->
   - time limit ::@:: The time limit was barely enough to finish all questions because I had written many words, and had spent some time on thinking... <!--SR:!2025-01-23,27,411!2025-01-24,28,411-->
-  - TODO
+  - Q2: single-priced monopoly (−6, short question)
+    - Q2: single-priced monopoly / Must it be inefficient? (−6) ::@:: No. It is efficient if the demand curve is completely elastic. (Though this means no matter how high the price the monopolist sets to, it is efficient...) <p> An unintended answer, since the question has not specified if regulations are in place, is that there is regulation that forces the monopolist to use marginal cost pricing. In this case, it is also efficient.
+  - Q3: sports facility entrance fee (−4, short question)
+    - Q3: sports facility entrance fee / Should the operator charge an entrance fee if there are _operating_ costs associated with it? (−4) ::@:: Yes, the operator should charge at the marginal operating cost. <p> I thought the question was talking about fixed costs instead of variable costs when it mentioned _operating_ costs.
 - check
   - note: Sign up a timeslot on Canvas.
   - datetime: 2024-12-30T08:40:00+08:00/2024-12-30T10:40:00+08:00, PT2H
