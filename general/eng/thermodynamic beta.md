@@ -15,7 +15,7 @@ tags:
 >
 > - where
 >   - {@{$\beta$ is the __thermodynamic beta__ of a system at [thermodynamic temperature](thermodynamic%20temperature.md) $T$}@}
->   - {@{$k_\text{B} = 1.380\,649 \times 10^{-23} \mathrm{\ J \cdot K^{-1} }$ is the [Boltzmann constant](Boltzmann%20constant.md)}@} <!--SR:!2025-05-25,390,310!2026-11-30,823,330!2024-12-31,239,270-->
+>   - {@{$k_\text{B} = 1.380\,649 \times 10^{-23} \mathrm{\ J \cdot K^{-1} }$ is the [Boltzmann constant](Boltzmann%20constant.md)}@} <!--SR:!2025-05-25,390,310!2026-11-30,823,330!2026-10-07,645,270-->
 
 ## references
 

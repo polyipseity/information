@@ -23,7 +23,7 @@ tags:
 
 ## variable
 
-To assign a value or the result of an expression to a variable, use {@{`=`}@}: <!--SR:!2024-12-31,256,330-->
+To assign a value or the result of an expression to a variable, use {@{`=`}@}: <!--SR:!2028-03-11,1166,350-->
 
 ```Java
 variableName = 1 + 2;

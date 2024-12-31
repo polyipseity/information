@@ -29,7 +29,7 @@ To facilitate its educational objectives, the Institute has {@{accredited a numb
 
 - see: [decision theory](decision%20theory.md), [management accounting principles](management%20accounting%20principles.md)
 
-{@{The Association of International Certified Professional Accountants (AICPA)}@} states management accounting as {@{a practice that extends to the following three areas: [strategic management](strategic%20management.md), [performance management](business%20performance%20management.md), and [risk management](risk%20management.md)}@}. <!--SR:!2025-02-12,83,230!2024-12-31,73,270-->
+{@{The Association of International Certified Professional Accountants (AICPA)}@} states management accounting as {@{a practice that extends to the following three areas: [strategic management](strategic%20management.md), [performance management](business%20performance%20management.md), and [risk management](risk%20management.md)}@}. <!--SR:!2025-02-12,83,230!2025-07-16,197,270-->
 
 - [strategic management](strategic%20management.md) ::@:: advancing the role of the management accountant as a strategic partner in the organization <!--SR:!2025-06-12,173,270!2025-03-13,122,270-->
 - [performance management](business%20performance%20management.md) ::@:: developing the practice of business decision-making and managing the performance of the organization <!--SR:!2025-08-07,255,330!2025-03-13,125,290-->
@@ -87,7 +87,7 @@ Given the above, {@{one view of the progression of the accounting and finance ca
 
 - see: [Grenzplankostenrechnung](Grenzplankostenrechnung.md)
 
-{@{Grenzplankostenrechnung (GPK)}@} is {@{a German costing methodology, developed in the late 1940s and 1960s}@}, designed to {@{provide a consistent and accurate application of how managerial costs are calculated and assigned to a product or service}@}. The term Grenzplankostenrechnung, often referred to as GPK, has best been translated as {@{either _marginal planned cost accounting_<sup>[\[17\]](#^ref-17)</sup> or _flexible analytic cost planning and accounting_}@}.<sup>[\[18\]](#^ref-18)</sup> <!--SR:!2024-12-31,73,270!2025-05-06,178,310!2025-02-19,109,290!2025-07-12,195,270-->
+{@{Grenzplankostenrechnung (GPK)}@} is {@{a German costing methodology, developed in the late 1940s and 1960s}@}, designed to {@{provide a consistent and accurate application of how managerial costs are calculated and assigned to a product or service}@}. The term Grenzplankostenrechnung, often referred to as GPK, has best been translated as {@{either _marginal planned cost accounting_<sup>[\[17\]](#^ref-17)</sup> or _flexible analytic cost planning and accounting_}@}.<sup>[\[18\]](#^ref-18)</sup> <!--SR:!2025-10-02,275,290!2025-05-06,178,310!2025-02-19,109,290!2025-07-12,195,270-->
 
 The origins of GPK are credited to {@{Hans Georg Plaut, an automotive engineer, and Wolfgang Kilger, an academic}@}, working towards {@{the mutual goal of identifying and delivering a sustained methodology designed to correct and enhance cost accounting information}@}. GPK is published in {@{cost accounting textbooks, notably _Flexible Plankostenrechnung und Deckungsbeitragsrechnung_<sup>[\[19\]](#^ref-19)</sup> and taught at German-speaking universities}@}. <!--SR:!2025-02-28,126,290!2025-06-09,183,270!2025-05-17,151,250-->
 

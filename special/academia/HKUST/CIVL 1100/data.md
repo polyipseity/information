@@ -324,4 +324,4 @@ See [Water Cube](../../../../general/Water%20Cube.md).
 
 - description ::@:: swimming center in Beijing, China <!--SR:!2025-04-14,290,346!2025-11-30,475,394-->
 - image ::@:: ![Water Cube image](../../../../archives/Wikimedia%20Commons/国家游泳中心夜景.jpg) <!--SR:!2026-01-29,514,400!2026-03-27,561,400-->
-- shape ::@:: cube covered with bubbles <!--SR:!2025-03-19,264,370!2024-12-31,207,330-->
+- shape ::@:: cube covered with bubbles <!--SR:!2025-03-19,264,370!2027-08-03,945,350-->

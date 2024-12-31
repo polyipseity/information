@@ -39,7 +39,7 @@ The content is in teaching order.
   - [civil engineering non-technical issues](#civil%20engineering%20non-technical%20issues)
   - poor construction management consequences ::@:: Poor quality control and workmanship leads to high maintenance cost. Structural failure leads to loss of lives. <!--SR:!2025-06-25,284,300!2027-05-07,867,372-->
     - poor quality control and workmanship consequences ::@:: cracks, stinky smell, water leakage <!--SR:!2025-01-12,193,352!2025-06-29,343,367-->
-    - structural failure consequences ::@:: building toppling over, killing workers, prosecution <!--SR:!2024-12-31,189,270!2025-07-26,364,374-->
+    - structural failure consequences ::@:: building toppling over, killing workers, prosecution <!--SR:!2026-05-23,508,270!2025-07-26,364,374-->
     - [structural failure example](#structural%20failure%20example)
   - civil engineering design challenges ::@:: complex shapes, long-span structures, underground structures <!--SR:!2026-02-12,475,340!2025-08-06,374,377-->
     - [complex shape examples](#complex%20shape%20examples)
@@ -151,7 +151,7 @@ quantity surveyor
 - contracting civil engineer→::@::←engineering geologist <!--SR:!2025-07-29,302,297!2025-04-20,152,275-->
 - engineering geologist→::@::←environmental consultant <!--SR:!2025-11-10,381,305!2025-05-31,280,305-->
 - environmental consultant→::@::←quantity surveyor <!--SR:!2025-06-18,217,300!2025-01-22,163,280-->
-- quantity surveyor→::@::←_(end)_ <!--SR:!2025-01-10,187,340!2024-12-31,120,340-->
+- quantity surveyor→::@::←_(end)_ <!--SR:!2025-01-10,187,340!2026-02-13,409,340-->
 
 <!--/pytextgen-->
 

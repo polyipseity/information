@@ -49,7 +49,7 @@ A method is declared like a {@{[subroutine or function](subroutine%20and%20funct
 
 ### constructor
 
-VBA {@{only supports constructors with no parameters by having a subroutine named `Class_Initialize`, but not parameterized constructors natively}@}. However, we can emulate the latter by {@{adding a subroutine that acts like a constructor and hopes the user remembers to call the constructor after creating the object}@}. A better method is using {@{the factory pattern, but it will not be introduced here}@}. Using the example above: <!--SR:!2026-06-15,646,330!2026-09-21,720,330!2024-12-31,236,320-->
+VBA {@{only supports constructors with no parameters by having a subroutine named `Class_Initialize`, but not parameterized constructors natively}@}. However, we can emulate the latter by {@{adding a subroutine that acts like a constructor and hopes the user remembers to call the constructor after creating the object}@}. A better method is using {@{the factory pattern, but it will not be introduced here}@}. Using the example above: <!--SR:!2026-06-15,646,330!2026-09-21,720,330!2027-11-09,1043,340-->
 
 ```VB
 Sub Initialize(ByVal NewHaHa As String, ByVal NewHeHe As Double)

@@ -168,9 +168,9 @@ risk reduction
 - brand or status→::@::←convenience or usability <!--SR:!2025-03-27,135,214!2025-09-18,287,234-->
 - convenience or usability→::@::←cost reduction <!--SR:!2025-11-15,394,274!2025-11-05,337,257-->
 - cost reduction→::@::←customization <!--SR:!2025-05-10,254,274!2025-01-29,104,177-->
-- customization→::@::←design <!--SR:!2024-12-31,99,257!2026-01-27,426,254-->
+- customization→::@::←design <!--SR:!2025-09-11,254,257!2026-01-27,426,254-->
 - design→::@::←newness <!--SR:!2025-04-26,228,257!2025-01-24,34,214-->
-- newness→::@::←performance <!--SR:!2024-12-31,168,277!2025-06-06,253,257-->
+- newness→::@::←performance <!--SR:!2025-03-26,85,257!2025-06-06,253,257-->
 - performance→::@::←performing the job well <!--SR:!2026-04-08,532,317!2025-08-20,351,294-->
 - performing the job well→::@::←price <!--SR:!2025-12-09,415,294!2026-03-24,455,274-->
 - price→::@::←risk reduction <!--SR:!2025-02-24,204,274!2025-03-28,228,274-->
