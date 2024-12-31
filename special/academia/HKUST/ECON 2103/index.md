@@ -709,10 +709,12 @@ The content is in teaching order.
 - content: multiple choice questions: 40@1 each
 - grades: 37/40
   - statistics: L4, L5
+    - timestamps: (release)
     - mean: 29 (provided)
     - standard deviation: 5 (provided)
     - median: 29 (provided)
   - statistics: L4
+    - timestamps: (release)
     - mean: 29.59
     - standard deviation: ?
     - low: 0
@@ -720,6 +722,16 @@ The content is in teaching order.
     - median: 29
     - upper quartile: 33.75
     - high: 37
+    - distribution: ?
+  - statistics: L5
+    - timestamps: 2024-12-31T10:17:00+08:00
+    - mean: 26.67
+    - standard deviation: ?
+    - low: ?
+    - lower quartile: 25.5
+    - median: 28
+    - upper quartile: 32.5
+    - high: 38
     - distribution: ?
 - report
   - long lines, sellers' personal preference (-1, MCQ) ::@:: Long lines (queuing for a good) are inefficient because they waste buyers' time, not because buyers who want the good most may not get the good — buyers who want the good most use the most time waiting for the good, while those who are not may give up waiting. It is only selling according to sellers' personal preference where the latter happens.
@@ -898,6 +910,16 @@ The content is in teaching order.
     - upper quartile: 76 → 77
     - high: 93 → 93
     - distribution: ? → ?
+  - statistics: L5
+    - timestamps: 2024-12-31T10:17:00+08:00
+    - mean: 46.57
+    - standard deviation: ?
+    - low: ?
+    - lower quartile: 35
+    - median: 46
+    - upper quartile: 59.5
+    - high: 87
+    - distribution: ?
 - report
   - examination format ::@:: All the questions require you to write a lot of text, and it feels more like writing essays... I was not quite sure the things I have written are what the teacher wants. <p> Next time, I should also check the examination format of each instructor and see if it suits me.
   - time limit ::@:: The time limit was barely enough to finish all questions because I had written many words, and had spent some time on thinking...
