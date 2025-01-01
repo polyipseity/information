@@ -859,6 +859,7 @@ ID: 23456789
     - `tf.keras.initializers.HeNormal()` ::@:: It draws samples from a truncated normal distribution centered on 0 with `stddev = sqrt(2 / fan_in)` where `fan_in` is the number of input units in the weight tensor.
     - `tf.keras.initializers.HeUniform()` ::@:: Draws samples from a uniform distribution within `[-limit, limit]`, where `limit = sqrt(6 / fan_in)` (`fan_in` is the number of input units in the weight tensor).
   - ReLU / use ::@:: For hidden layers: multilayer perceptron (MLP), convolutional neural network (CNN).
+  - ReLU / properties ::@:: continuous, linear, piecewise, differentiable almost everywhere <p> (The first 3 properties were the official solution to a question in the final examination. Please answer the first 3 properties to avoid losing marks. Also see the final examination report below.)
 - [sigmoid](../../../../general/logistic%20function.md) ::@:: $$f(x) = \frac 1 {1 + e^{-x} }$$
   - sigmoid / initialization ::@:: Good to scale input data to \[0, 1\] before training \(as the range of the activation function is \(0, 1\)\). Good to use a "Glorot Normal" or "Glorot Uniform" weight initialization (also called Xavier). <p> Code: `kernel_initializer=tf.keras.initializers.GlorotNormal()`, `kernel_initializer=tf.keras.initializers.GlorotUniform()`
     - `tf.keras.initializers.GlorotNormal()` ::@:: Draws samples from a truncated normal distribution centered on 0 with `stddev = sqrt(2 / (fan_in + fan_out))` where `fan_in` is the number of input units in the weight tensor and `fan_out` is the number of output units in the weight tensor.
@@ -1026,7 +1027,7 @@ ID: 23456789
   - convolutional neural network / use ::@:: financial time series, image segmentation, medical image analysis, natural language processing, recommendation systems, speech recognition, etc.
   - convolutional neural network / history ::@:: They were developed in the _late 1980s_ and then forgotten about due to _the lack of processing power_. But then we had had graphical processing units (GPUs), and research was given new life!!
   - convolutional neural network / definition (simplified) ::@:: It is a neural network with a convolution operation in _at least_ one of its layers.
-  - convolutional neural network / structure ::@:: Each pixel _channel_ in an image is a _feature_, so corresponds to an input node. <p> In a convolutional neural network, there can be multiple kernels of the same size (but with different weights). The weights are the numbers in a kernel. Each kernel may also has a bias. Then weights are learnt as-in a regular neural network. <p> For each kernel, there are width \* height \* depth (depth is channel count for image input or kernel count for convolution input) weights. If there are biases, each kernel has an additional weight for the bias. Finally, a convolutional layer may ahve multiple kernels, so simply multiply the above number by the number of kernels.
+  - convolutional neural network / structure ::@:: Each pixel _channel_ in an image is a _feature_, so corresponds to an input node. <p> In a convolutional neural network, there can be multiple kernels of the same size (but with different weights). The weights are the numbers in a kernel. Each kernel may also has a bias. Then weights are learnt as-in a regular neural network. <p> For each kernel, there are width \* height \* depth (depth is channel count for image input or kernel count for convolution input) weights. If there are biases, each kernel has an additional weight for the bias. Finally, a convolutional layer may have multiple kernels, so simply multiply the above number by the number of kernels.
   - convolutional neural network / intuition ::@:: The idea is that a convolutional layer extracts features of an image. Earlier layers extract tiny-scale features while later layers extract large-scale features.
   - convolutional neural network / architecture ::@:: It usually starts with an input layer. <p> Then there are usually several groups, each consisting of one or more convolution layers (each has _activation function_) and then a pooling layer. The convolution layers typically get smaller in size but deeper (more kernels/feature maps). These are used for _feature learning_. <p> Then there is a flatten layer. Finally there are some dense layers and an output layer. These are used for _classification_.
 - kernel
@@ -1206,7 +1207,6 @@ ID: 23456789
 - note: An error with one of the questions was found during the exam. As a result, 5 extra minutes were added.
 - grades: 89/100 → 91.5/100
   - statistics
-    - note: They suddenly changed score almost a week after after the total scores had been calculated.
     - timestamps: (release) → (after paper checking) → 2024-12-28T20:50:00+08:00
     - mean: 68.06 (provided: 69.17) → 68.28 → 68.05
     - standard deviation: ? (provided: 15.42) → ? → ?
@@ -1217,6 +1217,7 @@ ID: 23456789
     - high: 94.4 (provided: 94.4) → 94.4 → 93.9
     - distribution: ![final examination distribution](attachments/comp2211-fall-2024-final-distribution.png) → ? → ?
 - report
+  - time limit ::@:: It was sufficient to finish all questions (about 30 minutes left) and check some questions thoroughly.
   - perceptron and multilayer perceptron
     - dropout, active neurons (-1) ::@:: The Keras (TensorFlow) implementation of dropout is random instead of being proportion-based. So it is theoretically possible for all neurons to be unchanged by dropout of 0.5.
     - forward propagation, prediction (-2) ::@:: Forward propagation takes more memory than prediction because intermediate values needs to be stored for backward propagation later.
@@ -1227,7 +1228,8 @@ ID: 23456789
   - AI ethics
     - de-biasing data by removing sensitive features (-2) ::@:: This does not work because the sensitive features are correlated with many other non-sensitive features still in the dataset.
     - ways to identify and resolve model biases (-1) ::@:: I need to write 2 answers. However, I have crossed out one that I had found unsatisfactory but have not added back a new one. Maybe time issue?
-  - time limit ::@:: It was sufficient to finish all questions (about 30 minutes left) and check some questions thoroughly.
+  - incident (0) ::@:: They suddenly changed score almost a week after after the total scores had been calculated.
+    - incident / question (0) ::@:: The question asked us to write down 3 properties of ReLU. The solution was "continuous, linear, piecewise". <p> They had changed the marking scheme to such that if we did not answer the above 3 properties but gave other reasonable properties, 0.5 marks out of 1.5 marks were deducted. <p> (I don't remember answering the above 3 properties exactly, but probably something like "continuous, differentiable almost everywhere, ???" but somehow didn't have change in my score... Hehe)
 - check
   - datetime: 2024-12-18T11:00:00+08:00/2024-12-18T12:30:00+08:00, PT1H30M
   - venue: Lecture Theater D

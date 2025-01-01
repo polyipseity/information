@@ -446,7 +446,7 @@ The content is in teaching order.
 ## week 10 lecture 2
 
 - datetime: 2024-11-07T13:30:00+08:00/2024-11-07T14:50:00+08:00
-- [dividend](../../../../general/dividend.md) ::@:: It a distribution of profits by a corporation to its shareholders, after which the stock exchange decreases the price of the stock by the dividend to remove volatility.
+- [dividend](../../../../general/dividend.md) ::@:: It is a distribution of profits by a corporation to its shareholders, after which the stock exchange decreases the price of the stock by the dividend to remove volatility.
   - cash dividend ::@:: Without a qualifier at the front, dividend means this.
     - cash dividend / source ::@:: Must be paid out of retained earnings, i.e. retained earnings should not be negative after paying the cash dividend.
     - cash dividend / declared but not paid (before end date) ::@:: debit equity "Retained earnings", credit liability "Dividends payable" (effectively, SE becomes L)
@@ -491,7 +491,7 @@ The content is in teaching order.
 - datetime: 2024-11-14T13:30:00+08:00/2024-11-14T14:50:00+08:00
 - status: canceled: typhoon signal 8
 - [statement of cash flows](../../../../general/cash%20flow%20statement.md)
-  - cash equation ::@:: $$\text{cash and cash equivalents (CCE)} \\ = \text{liabilities (L)} + \text{stockholders' equity (SE)} - \text{non-cash assets}$$
+  - cash equation ::@:: $$\text{cash and cash equivalents (CCE)} \\ = \text{liabilities (L)} + \text{stockholders' equity (SE)} - \text{non-cash assets (NCA)}$$ <p> (Deriving this equation from the original accounting equation was in a final examination question...)
   - operating activities
     - operating activities / methods ::@:: direct method, indirect method (almost all companies use the latter)
     - operating activities / calculation ::@:: Indirect method: Start with net income. Add depreciation and amortization (no actual cash has outflowed). Then remove gains and add loss of investing assets (not operating activities, accounted for in investing activities). Then compute differences between accrual-basis accounting and cash-basis accounting and add and remove accordingly. <p> The last step (computing the differences) in details: <br/> __operating (non-cash current) assets increase/decrease__: opposite <br/> __operating (current) liabilities increase/decrease__: same
