@@ -23,7 +23,7 @@ The term "recurrent neural network" is used to refer {@{to the class of networks
 
 ### Elman networks and Jordan networks
 
-An [Elman](Jeffrey%20Elman.md) network is {@{a 3-layer network with the addition of a context layer}@}. The middle hidden layer is {@{connected to the context layer with a fixed weight of 1}@}. The context layer connects {@{back to the middle hidden layer}@}. <!--SR:!2025-01-01,135,290!2025-01-30,171,310!2026-05-22,517,310-->
+An [Elman](Jeffrey%20Elman.md) network is {@{a 3-layer network with the addition of a context layer}@}. The middle hidden layer is {@{connected to the context layer with a fixed weight of 1}@}. The context layer connects {@{back to the middle hidden layer}@}. <!--SR:!2026-01-31,395,290!2025-01-30,171,310!2026-05-22,517,310-->
 
 [Jordan](Michael%20I.%20Jordan.md) network are {@{similar to Elman networks}@}. The exception is {@{that the context layer is fed from the output layer instead of the middle hidden layer}@}. <!--SR:!2026-04-06,479,310!2025-02-14,63,270-->
 
@@ -39,7 +39,7 @@ Long short-term memory (LSTM) is {@{a [deep learning](deep%20learning.md) system
 
 - see: [gated recurrent unit](gated%20recurrent%20unit.md)
 
-Gated recurrent units (GRUs) are {@{a gating mechanism in RNN introduced in 2014}@}. They have {@{fewer parameters than LSTM, as they lack an output gate}@}. This may make {@{the training time shorter and the training requiring fewer data samples}@}. <!--SR:!2025-02-23,178,310!2025-01-01,137,290!2025-01-04,152,310-->
+Gated recurrent units (GRUs) are {@{a gating mechanism in RNN introduced in 2014}@}. They have {@{fewer parameters than LSTM, as they lack an output gate}@}. This may make {@{the training time shorter and the training requiring fewer data samples}@}. <!--SR:!2025-02-23,178,310!2026-02-01,396,290!2025-01-04,152,310-->
 
 ## references
 

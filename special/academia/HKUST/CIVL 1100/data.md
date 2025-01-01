@@ -87,7 +87,7 @@ See [Central Plaza (Hong Kong)](../../../../general/Central%20Plaza%20(Hong%20Ko
 See [Channel Tunnel](../../../../general/Channel%20Tunnel.md).
 
 - completion time ::@:: 1994 <!--SR:!2025-04-03,177,316!2026-04-28,565,396-->
-- rail tunnel length ::@:: 50.5 km (37.9 km underseas) <!--SR:!2025-01-01,43,216!2025-09-03,252,376-->
+- rail tunnel length ::@:: 50.5 km (37.9 km underseas) <!--SR:!2025-04-05,94,216!2025-09-03,252,376-->
 
 ## China International Trust and Investment Plaza
 
@@ -135,7 +135,7 @@ See [Golden Gate Bridge](../../../../general/Golden%20Gate%20Bridge.md).
 See [Great Pyramid of Giza](../../../../general/Great%20Pyramid%20of%20Giza.md).
 
 - base width ::@:: 230.33 m <!--SR:!2025-07-22,217,356!2026-05-26,569,396-->
-- construction period ::@:: 10~20 years around 2560 BC <!--SR:!2025-01-01,68,216!2026-02-17,488,396-->
+- construction period ::@:: 10~20 years around 2560 BC <!--SR:!2025-05-31,150,216!2026-02-17,488,396-->
 - description ::@:: largest pyramid in the Giza Necropolis, Egypt <!--SR:!2026-06-05,605,416!2026-11-12,742,416-->
 - height ::@:: current: 138.5 m, original: 146.6 m <!--SR:!2025-02-12,71,336!2026-04-26,540,396-->
 - weight ::@:: 5.9 million tonnes <!--SR:!2025-04-19,170,356!2026-12-18,768,416-->
@@ -192,7 +192,7 @@ See [International Commerce Centre](International%20Commerce%20Centre.md).
 - description ::@:: tallest building in [Hong Kong](../../../../general/Hong%20Kong.md) <!--SR:!2027-08-26,974,350!2025-11-28,471,390-->
 - height ::@:: architectural: 484 m, tip: 484 m, top floor: 468 m, roof: 484 m <!--SR:!2025-01-22,140,301!2025-01-15,231,330-->
 - image ::@:: ![International Commerce Centre image](../../../../archives/Wikimedia%20Commons/International%20Commerce%20Centre%20201008.jpg) <!--SR:!2025-03-17,232,360!2025-12-14,472,400-->
-- [structural system](../../../../general/structural%20system.md) ::@:: concrete–steel composite <!--SR:!2025-01-01,62,261!2026-02-24,538,401-->
+- [structural system](../../../../general/structural%20system.md) ::@:: concrete–steel composite <!--SR:!2025-06-14,164,261!2026-02-24,538,401-->
 
 ## Itaipu Dam
 
@@ -280,7 +280,7 @@ See [Sutong Yangtze River Bridge](../../../../general/Sutong%20Yangtze%20River%2
 See [Taipei 101](Taipei%20101.md).
 
 - description ::@:: skyscraper in Taipei, Taiwan <!--SR:!2025-03-31,295,350!2026-02-21,535,400-->
-- height ::@:: architectural: 508.2 m, tip: 509.2 m, top floor: 438 m <!--SR:!2025-01-01,21,130!2026-07-06,594,330-->
+- height ::@:: architectural: 508.2 m, tip: 509.2 m, top floor: 438 m <!--SR:!2025-01-27,26,130!2026-07-06,594,330-->
 - image ::@:: ![Taipei 101 image](../../../../archives/Wikimedia%20Commons/Tower%20of%20Taipei%20101(cropped).jpg) <!--SR:!2025-02-07,201,360!2025-07-04,321,380-->
 - [structural system](../../../../general/structural%20system.md) ::@:: concrete–steel composite<!-- flashcard 16556e6f-00ca-4a87-845c-f0ea2f56807a --> <!--SR:!2025-03-13,139,300!2025-08-01,343,380-->
 

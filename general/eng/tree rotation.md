@@ -15,7 +15,7 @@ tags:
 
 In {@{[discrete mathematics](discrete%20mathematics.md)}@}, __tree rotation__ is {@{an operation on a [binary tree](binary%20tree.md) that changes the structure without interfering with the order of the elements}@}. A tree rotation {@{moves one node up in the tree and one node down}@}. It is used to {@{change the shape of the tree}@}, and in particular {@{to decrease its height by moving smaller subtrees down and larger subtrees up}@}, resulting in {@{improved performance of many tree operations}@}. <!--SR:!2025-01-09,14,290!2025-01-04,10,270!2025-01-11,16,290!2025-01-09,14,290!2025-01-10,15,290!2025-01-09,14,290-->
 
-There exists {@{an inconsistency in different descriptions as to the definition of the __direction of rotations__}@}. Some say that {@{the direction of rotation reflects the direction that a node is moving upon rotation \(a left child rotating into its parent's location is a right rotation\)}@} while {@{others say that the direction of rotation reflects which subtree is rotating \(a left subtree rotating into its parent's location is a left rotation, the opposite of the former\)}@}. This article takes {@{the approach of the directional movement of the rotating node (annotation: the former one)}@}. <!--SR:!2025-01-09,14,290!2025-01-01,7,250!2025-01-10,15,290!2025-01-05,11,270-->
+There exists {@{an inconsistency in different descriptions as to the definition of the __direction of rotations__}@}. Some say that {@{the direction of rotation reflects the direction that a node is moving upon rotation \(a left child rotating into its parent's location is a right rotation\)}@} while {@{others say that the direction of rotation reflects which subtree is rotating \(a left subtree rotating into its parent's location is a left rotation, the opposite of the former\)}@}. This article takes {@{the approach of the directional movement of the rotating node (annotation: the former one)}@}. <!--SR:!2025-01-09,14,290!2025-01-26,25,270!2025-01-10,15,290!2025-01-05,11,270-->
 
 ## illustration
 
@@ -65,7 +65,7 @@ The programmer must {@{also make sure that the root's parent points to the pivot
 
 ## inorder invariance
 
-The tree rotation renders {@{the [inorder traversal](tree%20traversal.md#inorder%20traversal) of the binary tree [invariant](invariant%20(mathematics).md#invariants%20in%20computer%20science)}@}. This implies {@{the order of the elements is not affected when a rotation is performed in any part of the tree}@}. Here are the inorder traversals of the trees shown above: <!--SR:!2025-01-05,11,270!2025-01-01,7,250-->
+The tree rotation renders {@{the [inorder traversal](tree%20traversal.md#inorder%20traversal) of the binary tree [invariant](invariant%20(mathematics).md#invariants%20in%20computer%20science)}@}. This implies {@{the order of the elements is not affected when a rotation is performed in any part of the tree}@}. Here are the inorder traversals of the trees shown above: <!--SR:!2025-01-05,11,270!2025-01-26,25,270-->
 
 ```text
 Left tree: ((A, P, B), Q, C)        Right tree: (A, P, (B, Q, C))
@@ -138,7 +138,7 @@ A tree can be {@{rebalanced using rotations}@}. After {@{a rotation}@}, {@{the s
 
 {@{The [rotation distance](rotation%20distance.md) between any two binary trees with the same number of nodes}@} is {@{the minimum number of rotations needed to transform one into the other}@}. With this distance, {@{the set of _n_-node binary trees becomes a [metric space](metric%20space.md)}@}: {@{the distance is symmetric, positive when given two different trees, and satisfies the [triangle inequality](triangle%20inequality.md)}@}. <!--SR:!2025-01-05,11,270!2025-01-07,12,270!2025-01-11,16,290!2025-01-10,15,290-->
 
-It is {@{an [open problem](open%20problem.md)}@} {@{whether there exists a [polynomial time](time%20complexity.md#polynomial%20time) [algorithm](algorithm.md) for calculating rotation distance}@}, though {@{several variants of the rotation distance problem admit polynomial time algorithms}@}.<sup>[\[1\]](#^ref-1)</sup><sup>[\[2\]](#^ref-2)</sup><sup>[\[3\]](#^ref-3)</sup> <!--SR:!2025-01-09,14,290!2025-01-06,12,270!2025-01-01,7,250-->
+It is {@{an [open problem](open%20problem.md)}@} {@{whether there exists a [polynomial time](time%20complexity.md#polynomial%20time) [algorithm](algorithm.md) for calculating rotation distance}@}, though {@{several variants of the rotation distance problem admit polynomial time algorithms}@}.<sup>[\[1\]](#^ref-1)</sup><sup>[\[2\]](#^ref-2)</sup><sup>[\[3\]](#^ref-3)</sup> <!--SR:!2025-01-09,14,290!2025-01-06,12,270!2025-01-18,17,250-->
 
 {@{[Daniel Sleator](Daniel%20Sleator.md), [Robert Tarjan](Robert%20Tarjan.md) and [William Thurston](William%20Thurston.md)}@} showed that {@{the rotation distance between any two _n_-node trees \(for _n_ ≥ 11\) is at most 2<!-- markdown separator -->_n_<!-- markdown separator --> − 6}@}, and that {@{some pairs of trees are this far apart as soon as _n_ is sufficiently large}@}.<sup>[\[4\]](#^ref-4)</sup> {@{Lionel Pournin}@} showed that, {@{in fact, such pairs exist whenever _n_ ≥ 11}@}.<sup>[\[5\]](#^ref-5)</sup> <!--SR:!2025-01-02,8,250!2025-01-07,12,270!2025-01-04,10,270!2025-01-06,12,270!2025-01-07,12,270-->
 
@@ -146,7 +146,7 @@ It is {@{an [open problem](open%20problem.md)}@} {@{whether there exists a [poly
 
 - [AVL tree](AVL%20tree.md), [red–black tree](red–black%20tree.md), and [splay tree](splay%20tree.md), ::@:: kinds of [binary search tree](binary%20search%20tree.md) data structures that use rotations to maintain balance. <!--SR:!2025-01-11,16,290!2025-01-09,14,290-->
 - [Associativity](associative%20property.md) of a binary operation ::@:: means that performing a tree rotation on it does not change the final result. <!--SR:!2025-01-09,14,290!2025-01-11,16,290-->
-- The [Day–Stout–Warren algorithm](Day–Stout–Warren%20algorithm.md) ::@:: balances an unbalanced BST. <!--SR:!2025-01-07,12,270!2025-01-01,7,250-->
+- The [Day–Stout–Warren algorithm](Day–Stout–Warren%20algorithm.md) ::@:: balances an unbalanced BST. <!--SR:!2025-01-07,12,270!2025-01-26,25,270-->
 - [Tamari lattice](Tamari%20lattice.md), ::@:: a partially ordered set in which the elements can be defined as binary trees and the ordering between elements is defined by tree rotation. <!--SR:!2025-01-05,11,270!2025-01-10,15,290-->
 
 ## references

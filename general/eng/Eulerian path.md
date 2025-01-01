@@ -133,7 +133,7 @@ In {@{an [infinite graph](glossary%20of%20graph%20theory.md#infinite)}@}, {@{the
 
 Euler stated {@{a necessary condition for a finite graph to be Eulerian as all vertices must have even degree}@}. {@{Hierholzer}@} {@{proved this is a sufficient condition}@} in {@{a paper published in 1873}@}. This leads to {@{the following necessary and sufficient statement for what a finite graph must have to be Eulerian}@}: {@{An undirected connected finite graph}@} is {@{Eulerian if and only if every vertex of G has even degree}@}.<sup>[\[20\]](#^ref-20)</sup> <!--SR:!2025-02-07,56,322!2025-03-04,81,342!2025-03-04,81,342!2025-02-09,58,322!2025-03-06,83,342!2025-02-18,69,316!2025-03-05,82,342-->
 
-The following result was {@{proved by Veblen in 1912}@}: {@{An undirected connected graph is Eulerian}@} {@{if and only if it is the disjoint union of some cycles}@}.<sup>[\[20\]](#^ref-20)</sup> <!--SR:!2025-01-01,30,302!2025-02-16,67,316!2025-02-27,76,342-->
+The following result was {@{proved by Veblen in 1912}@}: {@{An undirected connected graph is Eulerian}@} {@{if and only if it is the disjoint union of some cycles}@}.<sup>[\[20\]](#^ref-20)</sup> <!--SR:!2025-04-04,93,302!2025-02-16,67,316!2025-02-27,76,342-->
 
 {@{Hierholzer}@} developed {@{a linear time algorithm for constructing an Eulerian tour in an undirected graph}@}. <!--SR:!2025-02-05,54,322!2025-02-27,76,330-->
 

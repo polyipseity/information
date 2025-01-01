@@ -81,7 +81,7 @@ return _chain.from_iterable(await _gather(
 
 - `^`:@:power <!--SR:!2025-01-15,268,330-->
 - `*`:@:multiplication <!--SR:!2025-01-06,262,330-->
-- `/`:@:division <!--SR:!2025-01-01,259,330-->
+- `/`:@:division <!--SR:!2028-03-24,1178,350-->
 - `+`:@:addition <!--SR:!2025-01-03,260,330-->
 - `-`:@:subtraction <!--SR:!2027-07-25,985,350-->
 
@@ -264,7 +264,7 @@ return _chain.from_iterable(await _gather(
 - `LEN(string)`→::@::←`LOWER(string)` <!--SR:!2025-01-29,192,270!2025-05-04,257,290-->
 - `LOWER(string)`→::@::←`RIGHT(string, length)` <!--SR:!2025-04-03,116,150!2026-01-30,426,250-->
 - `RIGHT(string, length)`→::@::←`SUBSTITUTE(string, old, new)` <!--SR:!2025-01-27,229,270!2026-02-17,430,250-->
-- `SUBSTITUTE(string, old, new)`→::@::←`UPPER(string)` <!--SR:!2025-08-04,291,230!2025-01-01,40,150-->
+- `SUBSTITUTE(string, old, new)`→::@::←`UPPER(string)` <!--SR:!2025-08-04,291,230!2025-03-01,59,150-->
 - `UPPER(string)`→::@::←_(end)_ <!--SR:!2026-11-06,757,330!2025-01-24,240,290-->
 
 <!--/pytextgen-->
@@ -273,7 +273,7 @@ return _chain.from_iterable(await _gather(
 
 - (operator) `&`:@:concatenation <!--SR:!2027-10-03,1039,350-->
 - `LEFT(string, length)`:@:get the first `length` characters in `string` <!--SR:!2025-01-14,266,330-->
-- `LEN(string)`:@:length of `string` <!--SR:!2025-01-01,257,330-->
+- `LEN(string)`:@:length of `string` <!--SR:!2028-03-15,1169,350-->
 - `LOWER(string)`:@:convert to lowercase <!--SR:!2027-05-14,927,350-->
 - `RIGHT(string, length)`:@:get the last `length` characters in `string` <!--SR:!2028-01-17,1119,350-->
 - `SUBSTITUTE(string, old, new)`:@:replace all occurrences of `old` with `new` in `string` <!--SR:!2027-05-14,902,330-->

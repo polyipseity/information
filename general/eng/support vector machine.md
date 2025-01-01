@@ -29,7 +29,7 @@ Geometrically, the distance {@{between these 2 hyperplanes is $\frac 2 {\lVert \
 
 Put the above together to get the following {@{[quadratic programming](quadratic%20programming.md), which has efficient algorithms to compute the solution}@}: {@{$$\begin{align} & \underset{\mathbf{w},\;b}{\operatorname{minimize} } && \lVert \mathbf{w} \rVert^2_2 \\ & \text{subject to} && y_i \left(\mathbf{w}^\intercal \mathbf{x}_i - b \right) \geq 1 \quad \forall i \in \{1,\dots,n\} \end{align}$$}@}. <!--SR:!2025-04-21,202,270!2025-03-18,189,270-->
 
-The {@{$\mathbf{w}$ and $b$ that solve this quadratic programming problem}@} determine the final classifier, {@{$$\mathbf{x} \mapsto \operatorname{sgn}\left(\mathbf{w}^\intercal \mathbf{x} - b \right)$$}@}, where $\operatorname{sgn}(*)$ is {@{the [sign function](sign%20function.md)}@}. <!--SR:!2025-01-01,151,310!2025-03-08,201,310!2025-07-15,303,330-->
+The {@{$\mathbf{w}$ and $b$ that solve this quadratic programming problem}@} determine the final classifier, {@{$$\mathbf{x} \mapsto \operatorname{sgn}\left(\mathbf{w}^\intercal \mathbf{x} - b \right)$$}@}, where $\operatorname{sgn}(*)$ is {@{the [sign function](sign%20function.md)}@}. <!--SR:!2026-10-10,647,330!2025-03-08,201,310!2025-07-15,303,330-->
 
 An important consequence of the above description is that {@{the max-margin hyperplane is completely determined by $\mathbf{x}_i$ in the training data that lie closest to it}@}. These $\mathbf{x}_i$ are called {@{_support vectors_}@}. <!--SR:!2025-06-01,269,330!2025-02-13,170,310-->
 

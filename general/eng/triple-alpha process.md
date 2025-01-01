@@ -22,7 +22,7 @@ Nuclear fusion reaction of two helium-4 nuclei {@{produces [beryllium-8](berylli
 
 - 1st step ::@:: $${}_2^4\mathrm{He} + {}_2^4\mathrm{He} \rightarrow {}_4^8\mathrm{Be} \quad (-0.0918\mathrm{\ MeV})$$ <!--SR:!2025-01-24,120,290!2025-02-04,81,290-->
   - 1st step / energy release ::@:: -0.0918 MeV <!--SR:!2025-07-18,222,270!2025-02-04,127,290-->
-- 2nd step ::@:: $${}_4^8\mathrm{Be} + {}_2^4\mathrm{He} \rightarrow {}_{\phantom{0}6}^{12}\mathrm{C} + 2 \gamma \quad (+7.367\mathrm{\ MeV})$$ <!--SR:!2025-01-01,25,150!2025-02-25,56,270-->
+- 2nd step ::@:: $${}_4^8\mathrm{Be} + {}_2^4\mathrm{He} \rightarrow {}_{\phantom{0}6}^{12}\mathrm{C} + 2 \gamma \quad (+7.367\mathrm{\ MeV})$$ <!--SR:!2025-02-08,38,150!2025-02-25,56,270-->
   - 2nd step / energy release ::@:: +7.367 MeV <!--SR:!2025-03-31,107,230!2025-03-01,124,250-->
 
 The net energy release of the process is {@{7.275 MeV}@}. <!--SR:!2025-01-15,108,270-->
@@ -32,7 +32,7 @@ As a side effect of the process, {@{some carbon nuclei fuse with additional heli
 1. [alpha capture](alpha%20process.md) ::@:: $${}_{\phantom{0}6}^{12}\mathrm{C} + {}_2^4\mathrm{He} \rightarrow {}_{\phantom{0}8}^{16}\mathrm{O} + \gamma \quad (+7.162\mathrm{\ MeV})$$ <!--SR:!2025-05-13,136,210!2025-01-17,40,230-->
     - [alpha capture](alpha%20process.md) / energy release ::@:: +7.162 MeV <!--SR:!2025-01-17,43,170!2025-07-28,232,270-->
 
-Nuclear fusion reactions of {@{helium with hydrogen produces [lithium-5](isotopes%20of%20lithium.md#lithium-5)}@}, which also is {@{highly unstable, and decays back into smaller nuclei with a half-life of 3.7×10<sup>−22</sup> s}@}. <!--SR:!2025-01-22,117,290!2025-01-01,36,170-->
+Nuclear fusion reactions of {@{helium with hydrogen produces [lithium-5](isotopes%20of%20lithium.md#lithium-5)}@}, which also is {@{highly unstable, and decays back into smaller nuclei with a half-life of 3.7×10<sup>−22</sup> s}@}. <!--SR:!2025-01-22,117,290!2025-03-01,59,170-->
 
 ## references
 

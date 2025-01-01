@@ -77,7 +77,7 @@ The content is in teaching order.
 ## week 5 lecture
 
 - datetime: 2024-02-27T18:00:00+08:00/2024-02-27T20:30:00+08:00
-- How to build a user-centric product? ::@:: idea generation → customer segmentation → [design thinking](../../../../general/design%20thinking.md) → customer profile → value proposition canvas → business model canvas <!--SR:!2025-06-12,255,275!2025-01-01,61,275-->
+- How to build a user-centric product? ::@:: idea generation → customer segmentation → [design thinking](../../../../general/design%20thinking.md) → customer profile → value proposition canvas → business model canvas <!--SR:!2025-06-12,255,275!2025-06-18,168,275-->
 - [design thinking § in business](../../../../general/design%20thinking.md#in%20business)
 - [d.school design thinking bootleg § process modules](../../../d.school%20design%20thinking%20bootleg.md#process%20modules)
 - [design thinking § ideation: divergent and convergent thinking](../../../../general/design%20thinking.md#ideation%20divergent%20and%20convergent%20thinking)
@@ -160,7 +160,7 @@ The content is in teaching order.
   - deduction ::@:: application; arrive at conclusions based on given premises and rules <!--SR:!2025-06-30,304,361!2025-07-22,302,361-->
   - evaluation ::@:: unbiased, unemotional; systematically assess, determine, or examine the effectiveness, quality, or value of something <!--SR:!2025-10-01,356,321!2025-09-17,350,361-->
   - inference ::@:: generalize; draw rules or predictions based on observed examples <!--SR:!2025-08-09,319,361!2025-07-31,311,361-->
-  - interpretation ::@:: explain or understand meaning, implications, or significance of something <!--SR:!2025-01-01,137,301!2025-07-27,307,361-->
+  - interpretation ::@:: explain or understand meaning, implications, or significance of something <!--SR:!2026-07-27,572,321!2025-07-27,307,361-->
 - critical thinking pop quiz
   - content: 10 4-choice questions
   - effect: 0.5% of course grade

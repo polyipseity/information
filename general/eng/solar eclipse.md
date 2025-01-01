@@ -26,7 +26,7 @@ A __solar eclipse__ occurs when {@{the [Moon](Moon.md) passes between [Earth](Ea
 
 The [Sun](Sun.md)'s distance from [Earth](Earth.md) is {@{about 400 times the [Moon](Moon.md)'s [distance](lunar%20distance.md), and the Sun's [diameter](diameter.md) is also about 400 times the Moon's [diameter](diameter.md)}@}. Because these ratios are approximately the same, {@{the Sun and the Moon as seen from Earth appear to be approximately the same size: about 0.5 [degree of arc](degree%20(angle).md) in [angular measure](angular%20diameter.md)}@}. <!--SR:!2025-04-08,209,310!2026-05-24,511,310-->
 
-The [Moon](Moon.md)'s orbit around [Earth](Earth.md) is {@{slightly [elliptical](elliptic%20orbit.md), as is Earth's orbit around the [Sun](Sun.md)}@}. The [apparent sizes](angular%20diameter.md) of the Sun and Moon therefore {@{vary}@}. The [magnitude of an eclipse](magnitude%20of%20eclipse.md) is {@{the ratio of the apparent size of the Moon to the apparent size of the Sun during an eclipse}@}. <!--SR:!2025-03-25,182,310!2025-05-01,211,310!2025-01-01,132,310-->
+The [Moon](Moon.md)'s orbit around [Earth](Earth.md) is {@{slightly [elliptical](elliptic%20orbit.md), as is Earth's orbit around the [Sun](Sun.md)}@}. The [apparent sizes](angular%20diameter.md) of the Sun and Moon therefore {@{vary}@}. The [magnitude of an eclipse](magnitude%20of%20eclipse.md) is {@{the ratio of the apparent size of the Moon to the apparent size of the Sun during an eclipse}@}. <!--SR:!2025-03-25,182,310!2025-05-01,211,310!2026-02-16,411,310-->
 
 There are {@{three main types of solar eclipses: [total eclipse](#total%20eclipse), [annular eclipse](#annular%20eclipse), and [partial eclipse](#partial%20eclipse)}@}. <!--SR:!2025-01-27,151,310-->
 

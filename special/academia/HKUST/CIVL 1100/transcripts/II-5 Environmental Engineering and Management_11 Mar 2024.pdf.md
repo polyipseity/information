@@ -345,7 +345,7 @@ Indoor Air Quality
 
 - sick building syndrome ::@:: fatigue, headache, nasal congestion <!--SR:!2025-05-10,275,330!2025-03-04,219,330-->
 - common indoor air pollutant ::@:: 12 parameters <!--SR:!2025-12-24,423,310!2025-05-05,266,330-->
-  - common indoor air pollutant examples ::@:: carbon dioxide (CO<sub>2</sub>), carbon monoxide (CO), respirable suspended particulate (RSP/PM<sub>10</sub>) <!--SR:!2025-04-29,217,270!2025-01-01,157,310-->
+  - common indoor air pollutant examples ::@:: carbon dioxide (CO<sub>2</sub>), carbon monoxide (CO), respirable suspended particulate (RSP/PM<sub>10</sub>) <!--SR:!2025-04-29,217,270!2026-05-06,490,310-->
     - carbon dioxide limits ::@:: excellent: < 800 ppmv; good: < 1000 ppmv <!--SR:!2025-05-09,226,270!2025-03-18,80,290-->
     - carbon monoxide limits ::@:: excellent: < 2000 μg/m<sup>3</sup>, < 1.7 ppmv; good: < 10000 μg/m<sup>3</sup>, < 8.7 ppmv <!--SR:!2025-04-29,128,210!2025-01-17,167,310-->
     - respirable suspended particulate limits ::@:: excellent: < 20 μg/m<sup>3</sup>; good: < 180 μg/m<sup>3</sup> <!--SR:!2025-05-10,222,270!2025-06-02,237,290-->
