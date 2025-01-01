@@ -12,70 +12,70 @@ tags:
 <!-- | ![](../../archives/Wikimedia%20Commons/Text%20document%20with%20red%20question%20mark.svg) | This article includes a list of [general references](https://en.wikipedia.org/wiki/Wikipedia:Citing%20sources#General%20references), but __it lacks sufficient corresponding [inline citations](https://en.wikipedia.org/wiki/Wikipedia:Citing%20sources#Inline%20citations)__. Please help to [improve](https://en.wikipedia.org/wiki/Wikipedia:WikiProject%20Reliability) this article by [introducing](https://en.wikipedia.org/wiki/Wikipedia:When%20to%20cite) more precise citations. _\(June 2015\)__ \([Learn how and when to remove this message](https://en.wikipedia.org/wiki/Help:Maintenance%20template%20removal)\)_ | -->
 
 - This article is about {@{an integer that is a factor of another integer}@}. For {@{a number used to divide another number in a division operation}@}, see {@{[Division \(mathematics\)](division%20(mathematics).md)}@}. For other uses, see [Divisor \(disambiguation\)](divisor%20(disambiguation).md).
-- "Divisible" redirects here. For {@{divisibility of groups}@}, see {@{[Divisible group](divisible%20group.md)}@}.
+- "Divisible" redirects here. For {@{divisibility of groups}@}, see {@{[Divisible group](divisible%20group.md)}@}. <!--SR:!2025-01-05,4,270!2025-01-05,4,270!2025-01-05,4,270!2025-01-05,4,270!2025-01-05,4,270-->
 
 > {@{![The divisors of 10 illustrated with [Cuisenaire rods](Cuisenaire%20rods.md): 1, 2, 5, and 10](../../archives/Wikimedia%20Commons/Cuisenaire%20ten.JPG)}@}
 >
-> {@{The divisors of 10 illustrated with [Cuisenaire rods](Cuisenaire%20rods.md): 1, 2, 5, and 10}@}
+> {@{The divisors of 10 illustrated with [Cuisenaire rods](Cuisenaire%20rods.md): 1, 2, 5, and 10}@} <!--SR:!2025-01-05,4,270!2025-01-05,4,270-->
 
-In {@{[mathematics](mathematics.md)}@}, {@{a __divisor__ of an integer  $n$, also called a __factor__ of  $n$}@}, is {@{an [integer](integer.md)  $m$ that may be multiplied by some integer to produce  $n$}@}.<sup>[\[1\]](#^ref-1)</sup> In this case, one also says that {@{$n$ is a _[multiple](multiple%20(mathematics).md)_ of  $m$}@}. An integer  $n$ is {@{__divisible__ or __evenly divisible__ by another integer  $m$ if  $m$ is a divisor of  $n$}@}; this implies {@{dividing  $n$ by  $m$ leaves no remainder}@}.
+In {@{[mathematics](mathematics.md)}@}, {@{a __divisor__ of an integer  $n$, also called a __factor__ of  $n$}@}, is {@{an [integer](integer.md)  $m$ that may be multiplied by some integer to produce  $n$}@}.<sup>[\[1\]](#^ref-1)</sup> In this case, one also says that {@{$n$ is a _[multiple](multiple%20(mathematics).md)_ of  $m$}@}. An integer  $n$ is {@{__divisible__ or __evenly divisible__ by another integer  $m$ if  $m$ is a divisor of  $n$}@}; this implies {@{dividing  $n$ by  $m$ leaves no remainder}@}. <!--SR:!2025-01-05,4,270!2025-01-05,4,270!2025-01-05,4,270!2025-01-05,4,270!2025-01-05,4,270!2025-01-05,4,270-->
 
 ## definition
 
-An [integer](integer.md) $n$ is {@{divisible by a nonzero integer  $m$ if there exists an integer  $k$ such that  $n=km$}@}. This is written as {@{$$m\mid n.$$}@} This may be read as that {@{$m$ divides  $n$,  $m$ is a divisor of  $n$,  $m$ is a factor of  $n$, or  $n$ is a multiple of  $m$}@}. If  {@{$m$ does not divide  $n$}@}, then the notation is {@{$m\nmid n$}@}.<sup>[\[2\]](#^ref-2)</sup><sup>[\[3\]](#^ref-3)</sup>
+An [integer](integer.md) $n$ is {@{divisible by a nonzero integer  $m$ if there exists an integer  $k$ such that  $n=km$}@}. This is written as {@{$$m\mid n.$$}@} This may be read as that {@{$m$ divides  $n$,  $m$ is a divisor of  $n$,  $m$ is a factor of  $n$, or  $n$ is a multiple of  $m$}@}. If  {@{$m$ does not divide  $n$}@}, then the notation is {@{$m\nmid n$}@}.<sup>[\[2\]](#^ref-2)</sup><sup>[\[3\]](#^ref-3)</sup> <!--SR:!2025-01-05,4,270!2025-01-05,4,270!2025-01-05,4,270!2025-01-05,4,270!2025-01-05,4,270-->
 
-There are {@{two conventions, distinguished by whether  $m$ is permitted to be zero}@}:
+There are {@{two conventions, distinguished by whether  $m$ is permitted to be zero}@}: <!--SR:!2025-01-05,4,270-->
 
-- With the convention without an additional constraint on  $m$, ::@:: $m\mid 0$ for every integer  $m$.<sup>[\[2\]](#^ref-2)</sup><sup>[\[3\]](#^ref-3)</sup>
-- With the convention that  $m$ be nonzero, ::@:: $m\mid 0$ for every nonzero integer  $m$.<sup>[\[4\]](#^ref-4)</sup><sup>[\[5\]](#^ref-5)</sup>
+- With the convention without an additional constraint on  $m$, ::@:: $m\mid 0$ for every integer  $m$.<sup>[\[2\]](#^ref-2)</sup><sup>[\[3\]](#^ref-3)</sup> <!--SR:!2025-01-05,4,270!2025-01-05,4,270-->
+- With the convention that  $m$ be nonzero, ::@:: $m\mid 0$ for every nonzero integer  $m$.<sup>[\[4\]](#^ref-4)</sup><sup>[\[5\]](#^ref-5)</sup> <!--SR:!2025-01-05,4,270!2025-01-05,4,270-->
 
 ## general
 
-Divisors can be {@{[negative](negative%20number.md) as well as positive}@}, although often {@{the term is restricted to positive divisors}@}. For example, there are {@{six divisors of 4; they are 1, 2, 4, −1, −2, and −4}@}, but {@{only the positive ones \(1, 2, and 4\) would usually be mentioned}@}.
+Divisors can be {@{[negative](negative%20number.md) as well as positive}@}, although often {@{the term is restricted to positive divisors}@}. For example, there are {@{six divisors of 4; they are 1, 2, 4, −1, −2, and −4}@}, but {@{only the positive ones \(1, 2, and 4\) would usually be mentioned}@}. <!--SR:!2025-01-05,4,270!2025-01-05,4,270!2025-01-05,4,270!2025-01-05,4,270-->
 
-{@{1 and −1}@} {@{divide \(are divisors of\) every integer}@}. {@{Every integer \(and its negation\)}@} is {@{a divisor of itself}@}. {@{Integers divisible by 2 are called [even](parity%20(mathematics).md)}@}, and {@{integers not divisible by 2 are called [odd](parity%20(mathematics).md)}@}.
+{@{1 and −1}@} {@{divide \(are divisors of\) every integer}@}. {@{Every integer \(and its negation\)}@} is {@{a divisor of itself}@}. {@{Integers divisible by 2 are called [even](parity%20(mathematics).md)}@}, and {@{integers not divisible by 2 are called [odd](parity%20(mathematics).md)}@}. <!--SR:!2025-01-05,4,270!2025-01-05,4,270!2025-01-05,4,270!2025-01-05,4,270!2025-01-05,4,270!2025-01-05,4,270-->
 
-{@{1, −1,  $n$ and  $-n$}@} are known as {@{the __trivial divisors__ of  $n$}@}. {@{A divisor of  $n$ that is not a trivial divisor}@} is known as {@{a __non-trivial divisor__ \(or strict divisor<sup>[\[6\]](#^ref-6)</sup>\)}@}. {@{A nonzero integer with at least one non-trivial divisor}@} is known as {@{a [composite number](composite%20number.md)}@}, while {@{the [units](unit%20(ring%20theory).md) −1 and 1 and [prime numbers](prime%20number.md)}@} have {@{no non-trivial divisors}@}.
+{@{1, −1,  $n$ and  $-n$}@} are known as {@{the __trivial divisors__ of  $n$}@}. {@{A divisor of  $n$ that is not a trivial divisor}@} is known as {@{a __non-trivial divisor__ \(or strict divisor<sup>[\[6\]](#^ref-6)</sup>\)}@}. {@{A nonzero integer with at least one non-trivial divisor}@} is known as {@{a [composite number](composite%20number.md)}@}, while {@{the [units](unit%20(ring%20theory).md) −1 and 1 and [prime numbers](prime%20number.md)}@} have {@{no non-trivial divisors}@}. <!--SR:!2025-01-05,4,270!2025-01-05,4,270!2025-01-05,4,270!2025-01-05,4,270!2025-01-05,4,270!2025-01-04,3,250!2025-01-05,4,270!2025-01-05,4,270-->
 
-There are {@{[divisibility rules](divisibility%20rule.md)}@} that {@{allow one to recognize certain divisors of a number from the number's digits}@}.
+There are {@{[divisibility rules](divisibility%20rule.md)}@} that {@{allow one to recognize certain divisors of a number from the number's digits}@}. <!--SR:!2025-01-05,4,270!2025-01-05,4,270-->
 
 ## examples
 
 > {@{![Plot of the number of divisors of integers from 1 to 1000. [Prime numbers](prime%20number.md) have exactly 2 divisors, and [highly composite numbers](highly%20composite%20number.md) are in bold.](../../archives/Wikimedia%20Commons/Highly%20composite%20numbers.svg)}@}
 >
-> Plot of {@{the number of divisors of integers from 1 to 1000}@}. {@{[Prime numbers](prime%20number.md) have exactly 2 divisors}@}, and {@{[highly composite numbers](highly%20composite%20number.md) are in bold}@}.
+> Plot of {@{the number of divisors of integers from 1 to 1000}@}. {@{[Prime numbers](prime%20number.md) have exactly 2 divisors}@}, and {@{[highly composite numbers](highly%20composite%20number.md) are in bold}@}. <!--SR:!2025-01-05,4,270!2025-01-05,4,270!2025-01-05,4,270!2025-01-05,4,270-->
 
-- 7 is a divisor of 42 because $7\times 6=42$, so we can ::@:: say $7\mid 42$. It can also be said that 42 is divisible by 7, 42 is a [multiple](multiple%20(mathematics).md) of 7, 7 divides 42, or 7 is a factor of 42.
-- The non-trivial divisors of 6 ::@:: are 2, −2, 3, −3.
-- The positive divisors of 42 ::@:: are 1, 2, 3, 6, 7, 14, 21, 42.
-- The [set](set%20(mathematics).md) of all positive divisors of 60,  $A=\{1,2,3,4,5,6,10,12,15,20,30,60\}$, [partially ordered](partially%20ordered%20set.md) by divisibility, has ::@:: the [Hasse diagram](Hasse%20diagram.md): ![Lattice of the divisors of 60, including the prime factorisation of each number](../../archives/Wikimedia%20Commons/Lattice%20of%20the%20divisibility%20of%2060%3B%20factors.svg)
+- 7 is a divisor of 42 because $7\times 6=42$, so we can ::@:: say $7\mid 42$. It can also be said that 42 is divisible by 7, 42 is a [multiple](multiple%20(mathematics).md) of 7, 7 divides 42, or 7 is a factor of 42. <!--SR:!2025-01-05,4,270!2025-01-05,4,270-->
+- The non-trivial divisors of 6 ::@:: are 2, −2, 3, −3. <!--SR:!2025-01-05,4,270!2025-01-05,4,270-->
+- The positive divisors of 42 ::@:: are 1, 2, 3, 6, 7, 14, 21, 42. <!--SR:!2025-01-05,4,270!2025-01-05,4,270-->
+- The [set](set%20(mathematics).md) of all positive divisors of 60,  $A=\{1,2,3,4,5,6,10,12,15,20,30,60\}$, [partially ordered](partially%20ordered%20set.md) by divisibility, has ::@:: the [Hasse diagram](Hasse%20diagram.md): ![Lattice of the divisors of 60, including the prime factorisation of each number](../../archives/Wikimedia%20Commons/Lattice%20of%20the%20divisibility%20of%2060%3B%20factors.svg) <!--SR:!2025-01-05,4,270!2025-01-05,4,270-->
 
 ## further notions and facts
 
 There are some elementary rules:
 
-- (annotation: transitivity) ::@:: If  $a\mid b$ and  $b\mid c$, then  $a\mid c;$ that is, divisibility is a [transitive relation](transitive%20relation.md).
-- (annotation: associate) ::@:: If  $a\mid b$ and  $b\mid a$, then  $a=b$ or  $a=-b$. \(That is,  $a$ and  $b$ are [associates](divisibility%20(ring%20theory).md).\)
-- (annotation: linearity) ::@:: If  $a\mid b$ and  $a\mid c$, then  $a\mid (b+c)$ holds, as does  $a\mid (b-c)$.<sup>[\[a\]](#^ref-a)</sup> However, if  $a\mid b$ and  $c\mid b$, then  $(a+c)\mid b$ does _not_ always hold \(for example,  $2\mid 6$ and  $3\mid 6$ but 5 does not divide 6\).
-- (annotation: multiplication) ::@:: $a\mid b\iff ac\mid bc$ for nonzero  $c$. This follows immediately from writing  $ka=b\iff kac=bc$.
-- (annotation: [Euclid's lemma](Euclid's%20lemma.md)) ::@:: If  $a\mid bc$, and  $\gcd(a,b)=1$, then  $a\mid c$.<sup>[\[b\]](#^ref-b)</sup> This is called [Euclid's lemma](Euclid's%20lemma.md).
-- (annotation: prime divisibility) ::@:: If  $p$ is a prime number and  $p\mid ab$ then  $p\mid a$ or  $p\mid b$.
+- (annotation: transitivity) ::@:: If  $a\mid b$ and  $b\mid c$, then  $a\mid c;$ that is, divisibility is a [transitive relation](transitive%20relation.md). <!--SR:!2025-01-05,4,270!2025-01-05,4,270-->
+- (annotation: associate) ::@:: If  $a\mid b$ and  $b\mid a$, then  $a=b$ or  $a=-b$. \(That is,  $a$ and  $b$ are [associates](divisibility%20(ring%20theory).md).\) <!--SR:!2025-01-05,4,270!2025-01-05,4,270-->
+- (annotation: linearity) ::@:: If  $a\mid b$ and  $a\mid c$, then  $a\mid (b+c)$ holds, as does  $a\mid (b-c)$.<sup>[\[a\]](#^ref-a)</sup> However, if  $a\mid b$ and  $c\mid b$, then  $(a+c)\mid b$ does _not_ always hold \(for example,  $2\mid 6$ and  $3\mid 6$ but 5 does not divide 6\). <!--SR:!2025-01-05,4,270!2025-01-05,4,270-->
+- (annotation: multiplication) ::@:: $a\mid b\iff ac\mid bc$ for nonzero  $c$. This follows immediately from writing  $ka=b\iff kac=bc$. <!--SR:!2025-01-05,4,270!2025-01-05,4,270-->
+- (annotation: [Euclid's lemma](Euclid's%20lemma.md)) ::@:: If  $a\mid bc$, and  $\gcd(a,b)=1$, then  $a\mid c$.<sup>[\[b\]](#^ref-b)</sup> This is called [Euclid's lemma](Euclid's%20lemma.md). <!--SR:!2025-01-05,4,270!2025-01-05,4,270-->
+- (annotation: prime divisibility) ::@:: If  $p$ is a prime number and  $p\mid ab$ then  $p\mid a$ or  $p\mid b$. <!--SR:!2025-01-05,4,270!2025-01-05,4,270-->
 
-{@{A positive divisor of  $n$ that is different from  $n$}@} is called {@{a __proper divisor__ or an __aliquot part__ of  $n$}@} \(for example, {@{the proper divisors of 6}@} are {@{1, 2, and 3}@}\). {@{A number that does not evenly divide  $n$ but leaves a remainder}@} is sometimes called {@{an __aliquant part__ of  $n$}@}.
+{@{A positive divisor of  $n$ that is different from  $n$}@} is called {@{a __proper divisor__ or an __aliquot part__ of  $n$}@} \(for example, {@{the proper divisors of 6}@} are {@{1, 2, and 3}@}\). {@{A number that does not evenly divide  $n$ but leaves a remainder}@} is sometimes called {@{an __aliquant part__ of  $n$}@}. <!--SR:!2025-01-05,4,270!2025-01-04,3,250!2025-01-05,4,270!2025-01-05,4,270!2025-01-05,4,270!2025-01-05,4,270-->
 
-{@{An integer  $n>1$ whose only proper divisor is 1}@} is called {@{a [prime number](prime%20number.md)}@}. Equivalently, a prime number is {@{a positive integer that has exactly two positive factors: 1 and itself}@}.
+{@{An integer  $n>1$ whose only proper divisor is 1}@} is called {@{a [prime number](prime%20number.md)}@}. Equivalently, a prime number is {@{a positive integer that has exactly two positive factors: 1 and itself}@}. <!--SR:!2025-01-05,4,270!2025-01-05,4,270!2025-01-05,4,270-->
 
-{@{Any positive divisor of  $n$}@} is {@{a product of [prime divisors](prime%20number.md#unique%20factorization) of  $n$ raised to some power}@}. This is a consequence of {@{the [fundamental theorem of arithmetic](fundamental%20theorem%20of%20arithmetic.md)}@}.
+{@{Any positive divisor of  $n$}@} is {@{a product of [prime divisors](prime%20number.md#unique%20factorization) of  $n$ raised to some power}@}. This is a consequence of {@{the [fundamental theorem of arithmetic](fundamental%20theorem%20of%20arithmetic.md)}@}. <!--SR:!2025-01-05,4,270!2025-01-05,4,270!2025-01-05,4,270-->
 
-A number  $n$ is said to be {@{[perfect](perfect%20number.md) if it equals the sum of its proper divisors}@}, {@{[deficient](deficient%20number.md) if the sum of its proper divisors is less than  $n$}@}, and {@{[abundant](abundant%20number.md) if this sum exceeds  $n$}@}.
+A number  $n$ is said to be {@{[perfect](perfect%20number.md) if it equals the sum of its proper divisors}@}, {@{[deficient](deficient%20number.md) if the sum of its proper divisors is less than  $n$}@}, and {@{[abundant](abundant%20number.md) if this sum exceeds  $n$}@}. <!--SR:!2025-01-05,4,270!2025-01-05,4,270!2025-01-05,4,270-->
 
-{@{The total number of positive divisors of  $n$}@} is {@{a [multiplicative function](multiplicative%20function.md)  $d(n)$}@}, meaning that {@{when two numbers  $m$ and  $n$ are [relatively prime](coprime%20integers.md), then  $d(mn)=d(m)\times d(n)$}@}. For instance,  {@{$d(42)=8=2\times 2\times 2=d(2)\times d(3)\times d(7)$}@}; {@{the eight divisors of 42 are 1, 2, 3, 6, 7, 14, 21 and 42}@}. However, the number of positive divisors is {@{not a totally multiplicative function}@}: if {@{the two numbers  $m$ and  $n$ share a common divisor, then it might not be true that  $d(mn)=d(m)\times d(n)$}@}. {@{The sum of the positive divisors of  $n$}@} is {@{another multiplicative function  $\sigma (n)$}@} \(for example,  {@{$\sigma (42)=96=3\times 4\times 8=\sigma (2)\times \sigma (3)\times \sigma (7)=1+2+3+6+7+14+21+42$}@}\). Both of these functions are examples of {@{[divisor functions](divisor%20function.md)}@}.
+{@{The total number of positive divisors of  $n$}@} is {@{a [multiplicative function](multiplicative%20function.md)  $d(n)$}@}, meaning that {@{when two numbers  $m$ and  $n$ are [relatively prime](coprime%20integers.md), then  $d(mn)=d(m)\times d(n)$}@}. For instance,  {@{$d(42)=8=2\times 2\times 2=d(2)\times d(3)\times d(7)$}@}; {@{the eight divisors of 42 are 1, 2, 3, 6, 7, 14, 21 and 42}@}. However, the number of positive divisors is {@{not a totally multiplicative function}@}: if {@{the two numbers  $m$ and  $n$ share a common divisor, then it might not be true that  $d(mn)=d(m)\times d(n)$}@}. {@{The sum of the positive divisors of  $n$}@} is {@{another multiplicative function  $\sigma (n)$}@} \(for example,  {@{$\sigma (42)=96=3\times 4\times 8=\sigma (2)\times \sigma (3)\times \sigma (7)=1+2+3+6+7+14+21+42$}@}\). Both of these functions are examples of {@{[divisor functions](divisor%20function.md)}@}. <!--SR:!2025-01-05,4,270!2025-01-05,4,270!2025-01-05,4,270!2025-01-05,4,270!2025-01-05,4,270!2025-01-05,4,270!2025-01-05,4,270!2025-01-05,4,270!2025-01-04,3,250!2025-01-05,4,270!2025-01-05,4,270-->
 
-If {@{the [prime factorization](integer%20factorization.md) of  $n$ is given by $$n=p_{1}^{\nu _{1}@}\,p_{2}^{\nu _{2}@}\cdots p_{k}^{\nu _{k}@}$$}@} then {@{the number of positive divisors of  $n$ is $$d(n)=(\nu _{1}+1)(\nu _{2}+1)\cdots (\nu _{k}+1),$$}@} and {@{each of the divisors has the form $$p_{1}^{\mu _{1}@}\,p_{2}^{\mu _{2}@}\cdots p_{k}^{\mu _{k}@}$$}@} where {@{$0\leq \mu _{i}\leq \nu _{i}$ for each  $1\leq i\leq k$}@}.
+If {@{the [prime factorization](integer%20factorization.md) of  $n$ is given by $$n=p_{1}^{\nu _{1}@}\,p_{2}^{\nu _{2}@}\cdots p_{k}^{\nu _{k}@}$$}@} then {@{the number of positive divisors of  $n$ is $$d(n)=(\nu _{1}+1)(\nu _{2}+1)\cdots (\nu _{k}+1),$$}@} and {@{each of the divisors has the form $$p_{1}^{\mu _{1}@}\,p_{2}^{\mu _{2}@}\cdots p_{k}^{\mu _{k}@}$$}@} where {@{$0\leq \mu _{i}\leq \nu _{i}$ for each  $1\leq i\leq k$}@}. <!--SR:!2025-01-02,1,230!2025-01-04,3,250!2025-01-05,4,270!2025-01-02,1,230-->
 
-For every natural  $n$, ::@:: $d(n)<2{\sqrt {n}@}$. (annotation: Proof is {@{by pairing positive divisors that multiplies to $n$ and observing $\lfloor \sqrt n \rfloor$ is the maximum number of pairs}@}.)
+For every natural  $n$, ::@:: $d(n)<2{\sqrt {n}@}$. (annotation: Proof is {@{by pairing positive divisors that multiplies to $n$ and observing $\lfloor \sqrt n \rfloor$ is the maximum number of pairs}@}.) <!--SR:!2025-01-05,4,270!2025-01-05,4,270-->
 
-Also,<sup>[\[7\]](#^ref-7)</sup> {@{$$d(1)+d(2)+\cdots +d(n)=n\ln n+(2\gamma -1)n+O({\sqrt {n}@}),$$}@} where {@{$\gamma$ is [Euler–Mascheroni constant](Euler's%20constant.md)}@}. One interpretation of this result is that {@{a randomly chosen positive integer _n_ has an average number of divisors of about  $\ln n$}@}. However, this is {@{a result from the contributions of [numbers with "abnormally many" divisors](highly%20composite%20number.md)}@}.
+Also,<sup>[\[7\]](#^ref-7)</sup> {@{$$d(1)+d(2)+\cdots +d(n)=n\ln n+(2\gamma -1)n+O({\sqrt {n}@}),$$}@} where {@{$\gamma$ is [Euler–Mascheroni constant](Euler's%20constant.md)}@}. One interpretation of this result is that {@{a randomly chosen positive integer _n_ has an average number of divisors of about  $\ln n$}@}. However, this is {@{a result from the contributions of [numbers with "abnormally many" divisors](highly%20composite%20number.md)}@}. <!--SR:!2025-01-05,4,270!2025-01-04,3,250!2025-01-05,4,270!2025-01-05,4,270-->
 
 ## in abstract algebra
 
@@ -87,7 +87,7 @@ Also,<sup>[\[7\]](#^ref-7)</sup> {@{$$d(1)+d(2)+\cdots +d(n)=n\ln n+(2\gamma -1)
 
 - Main article: [Division lattice](division%20lattice.md)
 
-In {@{definitions that allow the divisor to be 0}@}, {@{the relation of divisibility}@} turns {@{the set  $\mathbb {N}$ of [non-negative](sign%20(mathematics).md#non-negative%20and%20non-positive) integers}@} into {@{a [partially ordered set](partially%20ordered%20set.md) that is a [complete distributive lattice](lattice%20(order).md)}@}. {@{The largest element of this lattice is 0}@} and {@{the smallest is 1}@}. {@{The meet operation __∧__}@} is given by {@{the [greatest common divisor](greatest%20common%20divisor.md)}@} and {@{the join operation __∨__}@} by {@{the [least common multiple](least%20common%20multiple.md)}@}. {@{This lattice is isomorphic}@} to {@{the [dual](duality%20(order%20theory).md) of the [lattice of subgroups](lattice%20of%20subgroups.md) of the infinite [cyclic group](cyclic%20group.md) Z}@}.
+In {@{definitions that allow the divisor to be 0}@}, {@{the relation of divisibility}@} turns {@{the set  $\mathbb {N}$ of [non-negative](sign%20(mathematics).md#non-negative%20and%20non-positive) integers}@} into {@{a [partially ordered set](partially%20ordered%20set.md) that is a [complete distributive lattice](lattice%20(order).md)}@}. {@{The largest element of this lattice is 0}@} and {@{the smallest is 1}@}. {@{The meet operation __∧__}@} is given by {@{the [greatest common divisor](greatest%20common%20divisor.md)}@} and {@{the join operation __∨__}@} by {@{the [least common multiple](least%20common%20multiple.md)}@}. {@{This lattice is isomorphic}@} to {@{the [dual](duality%20(order%20theory).md) of the [lattice of subgroups](lattice%20of%20subgroups.md) of the infinite [cyclic group](cyclic%20group.md) Z}@}. <!--SR:!2025-01-05,4,270!2025-01-05,4,270!2025-01-05,4,270!2025-01-05,4,270!2025-01-05,4,270!2025-01-05,4,270!2025-01-05,4,270!2025-01-05,4,270!2025-01-05,4,270!2025-01-05,4,270!2025-01-05,4,270!2025-01-04,3,250-->
 
 ## see also
 
@@ -102,7 +102,7 @@ In {@{definitions that allow the divisor to be 0}@}, {@{the relation of divisibi
 ## notes
 
 1. a. $a\mid b,\,a\mid c$  $\Rightarrow \exists j\colon ja=b,\,\exists k\colon ka=c$  $\Rightarrow \exists j,k\colon (j+k)a=b+c$  $\Rightarrow a\mid (b+c)$. Similarly,  $a\mid b,\,a\mid c$  $\Rightarrow \exists j\colon ja=b,\,\exists k\colon ka=c$  $\Rightarrow \exists j,k\colon (j-k)a=b-c$  $\Rightarrow a\mid (b-c)$. <a id="^ref-a"></a>^ref-a
-2. b. $\gcd$ refers to ::@:: the [greatest common divisor](greatest%20common%20divisor.md). <a id="^ref-b"></a>^ref-b
+2. b. $\gcd$ refers to ::@:: the [greatest common divisor](greatest%20common%20divisor.md). <a id="^ref-b"></a>^ref-b <!--SR:!2025-01-05,4,270!2025-01-05,4,270-->
 
 ## citations
 
