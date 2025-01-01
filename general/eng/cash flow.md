@@ -1,0 +1,147 @@
+---
+aliases:
+  - cash flow
+  - cash flows
+  - cashflow
+  - cashflows
+tags:
+  - flashcard/active/general/eng/cash_flow
+  - language/in/English
+---
+
+# cash flow
+
+- For other uses, see [Cash flow \(disambiguation\)](cash%20flow%20(disambiguation).md).
+
+| Part of [a series](https://en.wikipedia.org/wiki/Category:Accounting) on <br/> __[Accounting](accounting.md)__                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+| ![ledger](../../archives/Wikimedia%20Commons/Ledger.png)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| - __[Historical cost](historical%20cost.md)__ <br/> - __[Constant purchasing power](constant%20purchasing%20power%20accounting.md)__ <br/> - __[Management](management%20accounting.md)__ <br/> - __[Tax](tax%20accounting%20in%20the%20United%20States.md)__                                                                                                                                                                                                                                                                                                                                          |
+| <!-- hide --> __Major types__ <p> - [Audit](audit.md) <br/> - [Budget](budget.md) <br/> - [Cost](cost%20accounting.md) <br/> - [Forensic](forensic%20accounting.md) <br/> - [Financial](financial%20accounting.md) <br/> - [Fund](fund%20accounting.md) <br/> - [Governmental](governmental%20accounting.md) <br/> - [Management](management%20accounting.md) <br/> - [Social](social%20accounting.md) <br/> - [Tax](tax%20accounting%20in%20the%20United%20States.md)                                                                                                                                 |
+| <!-- hide --> __Key concepts__ <p> - [Accounting period](accounting%20period.md) <br/> - [Accrual](accrual.md) <br/> - [Constant purchasing power](constant%20purchasing%20power%20accounting.md) <br/> - [Economic entity](economic%20entity.md) <br/> - [Fair value](fair%20value.md) <br/> - [Going concern](going%20concern.md) <br/> - [Historical cost](historical%20cost.md) <br/> - [Matching principle](matching%20principle.md) <br/> - [Materiality](materiality%20(auditing).md) <br/> - [Revenue recognition](revenue%20recognition.md) <br/> - [Unit of account](unit%20of%20account.md) |
+| <!-- hide --> __Selected accounts__ <p> - [Assets](asset.md) <br/> - [Cash](cash.md) <br/> - [Cost of goods sold](cost%20of%20goods%20sold.md) <br/> - [Depreciation](depreciation.md) / [Amortization \(business\)](amortization%20(accounting).md) <br/> - [Equity](equity%20(finance).md) <br/> - [Expenses](expense.md) <br/> - [Goodwill](goodwill%20(accounting).md) <br/> - [Liabilities](liability%20(financial%20accounting).md) <br/> - [Profit](profit%20(accounting).md) <br/> - [Revenue](revenue.md)                                                                                     |
+| <!-- hide --> __[Accounting standards](accounting%20standard.md)__ <p> - [Generally-accepted principles](accounting%20standard.md) <br/> - [Generally-accepted auditing standards](Generally%20Accepted%20Auditing%20Standards.md) <br/> - [Convergence](convergence%20of%20accounting%20standards.md) <br/> - [International Financial Reporting Standards](International%20Financial%20Reporting%20Standards.md) <br/> - [International Standards on Auditing](International%20Standards%20on%20Auditing.md) <br/> - [Management Accounting Principles](management%20accounting%20principles.md)     |
+| <!-- hide --> __[Financial statements](financial%20statement.md)__ <p> - [Annual report](annual%20report.md) <br/> - [Balance sheet](balance%20sheet.md) <br/> - [Cash-flow](cash%20flow%20statement.md) <br/> - [Equity](statement%20of%20changes%20in%20equity.md) <br/> - [Income](income%20statement.md) <br/> - [Management discussion](financial%20statement.md#management%20discussion%20and%20analysis) <br/> - [Notes to the financial statements](financial%20statement.md#notes)                                                                                                            |
+| <!-- hide --> __[Bookkeeping](bookkeeping.md)__ <p> - [Bank reconciliation](bank%20reconciliation.md) <br/> - [Debits and credits](debits%20and%20credits.md) <br/> - [Double-entry system](double-entry%20bookkeeping.md) <br/> - [FIFO and LIFO](FIFO%20and%20LIFO%20accounting.md) <br/> - [Journal](general%20journal.md) <br/> - [Ledger](ledger.md) / [General ledger](general%20ledger.md) <br/> - [Trial balance](trial%20balance.md)                                                                                                                                                          |
+| <!-- hide --> __[Auditing](audit.md)__ <p> - [Financial](financial%20audit.md) <br/> - [Internal](internal%20audit.md) <br/> - [Firms](accounting%20network.md) <br/> - [Report](auditor's%20report.md) <br/> - [Sarbanes–Oxley Act](Sarbanes–Oxley%20Act.md)                                                                                                                                                                                                                                                                                                                                          |
+| <!-- hide --> __People and organizations__ <p> - [Accountants](accountant.md) <br/> - [Accounting organizations](https://en.wikipedia.org/wiki/Category:Accounting%20organizations) <br/> - [Luca Pacioli](Luca%20Pacioli.md)                                                                                                                                                                                                                                                                                                                                                                          |
+| <!-- hide --> __Development__ <p> - [History](history%20of%20accounting.md) <br/> - [Research](accounting%20research.md) <br/> - [Positive accounting](positive%20accounting.md) <br/> - [Sarbanes–Oxley Act](Sarbanes–Oxley%20Act.md)                                                                                                                                                                                                                                                                                                                                                                 |
+| <!-- hide --> __Misconduct__ <p> - [Creative](creative%20accounting.md) <br/> - [Earnings management](earnings%20management.md) <br/> - [Error account](error%20account.md) <br/> - [Hollywood](Hollywood%20accounting.md) <br/> - [Off-balance-sheet](off-balance-sheet.md) <br/> - [Two sets of books](two%20sets%20of%20books.md)                                                                                                                                                                                                                                                                   |
+<!-- -->
+<!-- | - [v](https://en.wikipedia.org/wiki/Template:Accounting) <br/> - [t](https://en.wikipedia.org/wiki/Template%20talk:Accounting) <br/> - [e](https://en.wikipedia.org/wiki/Special:EditPage/Template%3AAccounting) | -->
+
+__Cash flow__, {@{in general, refers to payments made into or out of a business, project, or financial product}@}.<sup>[\[1\]](#^ref-1)</sup> It can also {@{refer more specifically to a real or virtual movement of [money](cash.md)}@}.
+
+- Cash flow, in its narrow sense, is ::@:: a [payment](payment.md) \(in a [currency](currency.md)\), especially from one [central bank](central%20bank.md) account to another. The term 'cash flow' is mostly used to describe payments that are expected to happen in the future, are thus uncertain, and therefore need to be [forecast](cash%20flow%20forecasting.md) with cash flows.
+- A cash flow \(CF\) is determined by ::@:: its time _t_, [nominal amount](real%20and%20nominal%20value.md) _N_, currency CCY, and account A; symbolically, CF = CF\(_t_, _N_, CCY, A\).
+
+Cash flows are narrowly interconnected with {@{the concepts of [value](value%20(economics).md), interest rate, and [liquidity](liquidity.md)}@}. {@{A cash flow that shall happen on a future day _t<sub>N</sub>_}@} can be {@{transformed into a cash flow of the same value in _t_<sub>0</sub>}@}. This transformation process is known as {@{[discounting](discounting.md)}@}, and it takes into account {@{the [time value of money](time%20value%20of%20money.md) by adjusting the nominal amount of the cash flow based on the prevailing [interest rates](interest%20rate.md) at the time}@}.
+
+## cash flow analysis
+
+<!-- | ![](../../archives/Wikimedia%20Commons/Question%20book-new.svg) | This section __does not [cite](https://en.wikipedia.org/wiki/Wikipedia:Citing%20sources) any [sources](https://en.wikipedia.org/wiki/Wikipedia:Verifiability)__. Please help [improve this section](https://en.wikipedia.org/wiki/Special:EditPage/Cash%20flow) by [adding citations to reliable sources](https://en.wikipedia.org/wiki/Help:Referencing%20for%20beginners). Unsourced material may be challenged and [removed](https://en.wikipedia.org/wiki/Wikipedia:Verifiability#Burden%20of%20evidence). _\(January 2024\)__ \([Learn how and when to remove this message](https://en.wikipedia.org/wiki/Help:Maintenance%20template%20removal)\)_ | -->
+
+Cash flows are often {@{transformed into measures that give information e.g. on a company's value and situation}@}:
+
+- (annotation: value) ::@:: to determine a project's [rate of return](accounting%20rate%20of%20return.md) or value. The time of cash flows into and out of projects are used as inputs in financial models such as [internal rate of return](internal%20rate%20of%20return.md) and [net present value](net%20present%20value.md).
+- (annotation: liquidity) ::@:: to determine problems with a business's [liquidity](accounting%20liquidity.md). Being profitable does not necessarily mean being liquid. A company can fail because of a shortage of cash even while profitable.
+- (annotation: profits) ::@:: as an alternative measure of a business's [profits](profit%20(accounting).md) when it is believed that [accrual accounting](accrual.md) concepts do not represent economic realities. For instance, a company may be notionally profitable but generating little operational cash \(as may be the case for a company that barters its products rather than selling for cash\). In such a case, the company may be deriving additional operating cash by issuing shares or raising additional debt finance.
+- (annotation: quality) ::@:: cash flow can be used to evaluate the 'quality' of income generated by [accrual accounting](accrual.md). When net [income](income.md) is composed of large non-cash items it is considered low quality.
+- (annotation: risk) ::@:: to evaluate the risks within a financial product, e.g., matching cash requirements, evaluating default risk, re-investment requirements, etc.
+
+Cash flow notion is based {@{loosely on cash flow statement accounting standards}@}. The term is {@{flexible and can refer to time intervals spanning over past-future}@}. It can refer to {@{the total of all flows involved or a subset of those flows}@}.
+
+Within {@{cash flow analysis}@}, {@{3 types of cash flow}@} are present and used for the cash flow statement: (annotation: they are {@{cash flow from operating, investing, financing activities}@})
+
+- Cash flow from operating activities - ::@:: a measure of the cash generated by a company's regular business operations. Operating cash flow indicates whether a company can produce sufficient cash flow to cover current expenses and pay debts.
+- Cash flow from investing activities - ::@:: the amount of cash generated from investing activities such as purchasing physical assets, investments in securities, or the sale of securities or assets.
+- Cash flow from financing activities - ::@:: the net flows of cash that are used to fund the company. This includes transactions involving dividends, equity, and debt.
+
+## business' financials
+
+<!-- | ![](../../archives/Wikimedia%20Commons/Question%20book-new.svg) | This section __does not [cite](https://en.wikipedia.org/wiki/Wikipedia:Citing%20sources) any [sources](https://en.wikipedia.org/wiki/Wikipedia:Verifiability)__. Please help [improve this section](https://en.wikipedia.org/wiki/Special:EditPage/Cash%20flow) by [adding citations to reliable sources](https://en.wikipedia.org/wiki/Help:Referencing%20for%20beginners). Unsourced material may be challenged and [removed](https://en.wikipedia.org/wiki/Wikipedia:Verifiability#Burden%20of%20evidence). _\(January 2024\)__ \([Learn how and when to remove this message](https://en.wikipedia.org/wiki/Help:Maintenance%20template%20removal)\)_ | -->
+
+{@{The \(total\) net cash flow}@} of a company {@{over a period \(typically a quarter, half year, or a full year\)}@} is {@{equal to the change in cash balance over this period}@}: {@{positive if the cash balance increases \(more cash becomes available\), negative if the cash balance decreases}@}. {@{The total net cash flow for a project}@} is {@{the sum of cash flows that are classified in three areas}@}: (annotation: they are {@{operational cash flow (OCF), change in net working capital, [capital expenditure](capital%20expenditure.md)}@})
+
+- [Operational cash flows](operating%20cash%20flow.md): ::@:: cash received or expended as a result of the company's internal business activities. Operating cash flow of a project is determined by:
+  - (annotation: OCF / incremental earnings) ::@:: OCF = incremental earnings+depreciation=\(earning before interest and tax−tax\)+depreciation
+  - (annotation: OCF / EBIT) ::@:: OCF = earning before interest and tax\*\(1−tax rate\)+ depreciation
+  - (annotation: OCF / full form) ::@:: OCF = \(revenue − cost of good sold − operating expense − depreciation\)\* \(1−tax rate\)+depreciation
+  - (annotation: OCF / depreciation shield) ::@:: OCF = \(Revenue − cost of good sold − operating expense\)\* \(1−tax rate\)+ depreciation\* \(tax rate\)
+    - {@{Depreciation\*\(tax rate\) which locates at the end of the formula}@} is called {@{depreciation shield}@} through which we can see that {@{there is a negative relation between depreciation and cash flow (annotation: more depreciation (more negative) means more cash flow (more positive))}@}.
+- Changing in net working capital: ::@:: it is the cost or revenue related to the company's short-term asset like inventory.
+- [Capital spending](capital%20expenditure.md): ::@:: this is the cost or gain related to the company's fix asset such as the cash used to buy a new equipment or the cash which is gained from selling an old equipment.
+
+{@{The sum of the three component above}@} will be {@{the cash flow for a project}@}.
+
+And {@{the cash flow for a company}@} also {@{include three parts}@}: (annotation: they are {@{operating, investment, financing cash flow}@})
+
+- [Operating cash flow](operating%20cash%20flow.md): ::@:: refers to the cash received or loss because of the internal activities of a company such as the cash received from sales revenue or the cash paid to the workers.
+- Investment cash flow: ::@:: refers to the cash flow which related to the company's fixed assets such as equipment building and so on such as the cash used to buy a new equipment or a building
+- Financing cash flow: ::@:: cash flow from a company's financing activities like issuing stock or paying dividends.
+
+{@{The sum of the three components above}@} will be {@{the total cash flow of a company}@}.
+
+## examples
+
+| Description                          | Amount \(\$\) | totals \(\$\) |
+| ------------------------------------ | ------------- | ------------- |
+| {@{__Cash flow from operations__}@}  |               | {@{__+70__}@} |
+| &emsp;Sales \(paid in cash\)         | +30           |               |
+| &emsp;Incoming loan                  | +50           |               |
+| &emsp;Loan repayment                 | -5            |               |
+| &emsp;Taxes                          | -5            |               |
+| {@{__Cash flow from investments__}@} |               | {@{__-10__}@} |
+| &emsp;Purchased capital              | -10           |               |
+| {@{__Total__}@}                      |               | {@{__60__}@}  |
+
+The net cash flow only {@{provides a limited amount of information}@}. Compare, for instance, the cash flows over three years of two companies:
+
+|                                 | Company A  |            |            | Company B  |            |            |
+| ------------------------------- | ---------- | ---------- | ---------- | ---------- | ---------- | ---------- |
+|                                 | __Year 1__ | __Year 2__ | __Year 3__ | __Year 1__ | __Year 2__ | __Year 3__ |
+| {@{Cash flow from operations}@} | +20M       | +21M       | +22M       | +10M       | +11M       | +12M       |
+| {@{Cash flow from financing}@}  | +5M        | +5M        | +5M        | +5M        | +5M        | +5M        |
+| {@{Cash flow from investment}@} | -15M       | -15M       | -15M       | 0M         | 0M         | 0M         |
+| {@{Net cash flow}@}             | +10M       | +11M       | +12M       | +15M       | +16M       | +17M       |
+
+Company B has {@{a higher yearly cash flow}@}. However, Company A is {@{actually earning more cash by its core activities and has already spent 45M in long term investments}@}, of which {@{the revenues will only show up after three years}@}.
+
+## see also
+
+- [Capital gain](capital%20gain.md)
+- [Cash flow sign convention](cash%20flow%20sign%20convention.md)
+- [Cash flow hedge](cash%20flow%20hedge.md)
+- [Cash flow forecasting](cash%20flow%20forecasting.md)
+- [Cash flow statement](cash%20flow%20statement.md)
+- [Investment](investment.md)
+- [Owner earnings](owner%20earnings.md)
+- [Passive income](passive%20income.md)
+- [Profit](profit%20(economics).md)
+- [Return of capital](return%20of%20capital.md)
+- [Return on equity](return%20on%20equity.md)
+
+## references
+
+This text incorporates [content](https://en.wikipedia.org/wiki/cash_flow) from [Wikipedia](Wikipedia.md) available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.
+
+1. <a id="CITEREFKollerGoedhartWessels2015"></a> Koller, Tim; Goedhart, Marc; Wessels, David \(2015\). _Valuation: measuring and managing the value of companies_. McKinsey & Company \(Sixth University ed.\). Hoboken, NJ: Wiley. [ISBN](ISBN.md) [978-1-118-87370-0](https://en.wikipedia.org/wiki/Special:BookSources/978-1-118-87370-0). <a id="^ref-1"></a>^ref-1
+
+## further reading
+
+- Auerbach, A. J., & Devereux, M. P. \(2013\). _[Consumption and cash-flow taxes in an international setting](http://eprints.lse.ac.uk/58056/1/__lse.ac.uk_storage_LIBRARY_Secondary_libfile_shared_repository_Content_STICERD_PEP%20discussion%20papers_pep03.pdf)_ \(No. w19579\). STICERD - Public Economics Programme Discussion Papers 03, Suntory and Toyota International Centres for Economics and Related Disciplines, LSE. National Bureau of Economic Research.
+
+## external links
+
+- [A Review of Academic Research on the Reporting of Cash Flows from Operations](https://ssrn.com/abstract=2014857)
+
+|                                                                                                                                                                                                                                                   |                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| __[Authority control databases](https://en.wikipedia.org/wiki/Help:Authority%20control): National [![edit](../../archives/Wikimedia%20Commons/OOjs%20UI%20icon%20edit-ltr-progressive.svg)](https://www.wikidata.org/wiki/Q1047513#identifiers)__ | - [Germany](https://d-nb.info/gnd/4136230-5) <br/> - [United States](https://id.loc.gov/authorities/sh85020584) <br/> - [France](https://catalogue.bnf.fr/ark:/12148/cb12098489x) <br/> - [BnF data](https://data.bnf.fr/ark:/12148/cb12098489x) <br/> - [Czech Republic](https://aleph.nkp.cz/F/?func=find-c&local_base=aut&ccl_term=ica=ph191032&CON_LNG=ENG) <br/> - [Israel](https://www.nli.org.il/en/authorities/987007284722405171) |
+
+> [Categories](https://en.wikipedia.org/wiki/Help:Category):
+>
+> - [Cash flow](https://en.wikipedia.org/wiki/Category:Cash%20flow)
+> - [Accounting terminology](https://en.wikipedia.org/wiki/Category:Accounting%20terminology)
+> - [Corporate finance](https://en.wikipedia.org/wiki/Category:Corporate%20finance)
+> - [Fundamental analysis](https://en.wikipedia.org/wiki/Category:Fundamental%20analysis)

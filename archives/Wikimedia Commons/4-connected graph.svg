@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -50 100 100" width="500" height="500" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>4-vertex connected graph</title>
+	<defs><circle id="node" cx="0" cy="0" r="5" fill="cyan" stroke="black"/></defs>
+	<path d="M0,-40 L36.64,-20 V20 L0,40 L-36.64,20 V-20Z L36.64,20 H-36.64 Z
+		M0,40 L-36.64,-20 H36.64 Z" stroke="black" fill="none"/>
+	<use xlink:href="#node" y="-40"/><use xlink:href="#node" y="40"/>
+	<use xlink:href="#node" x="-36.64" y="-20"/><use xlink:href="#node" x="36.64" y="-20"/>
+	<use xlink:href="#node" x="-36.64" y="20"/><use xlink:href="#node" x="36.64" y="20"/>
+</svg>
+

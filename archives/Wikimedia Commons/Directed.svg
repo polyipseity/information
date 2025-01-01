@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="250" height="225" version="1.0">
+  <g transform="translate(0 2)">
+    <path fill="none" stroke="#000" stroke-width="4.99999905" d="M53.918417 30.25H182.96968"/>
+    <path id="a" fill="#000" fill-opacity="1" fill-rule="evenodd" stroke="none" stroke-linecap="butt" stroke-linejoin="miter" stroke-opacity="1" stroke-width="1" d="m196.87444 30.530121-21.44987-12.349718v24.733811l21.44987-12.384093z"/>
+  </g>
+  <g transform="translate(0 2)">
+    <path fill="none" stroke="#000" stroke-width="4.99999762" d="M49.228763 61.218153 113.65969 172.81573"/>
+    <use xlink:href="#a" width="250" height="225" transform="rotate(-120 124.63107321 84.39838321)"/>
+  </g>
+  <g transform="translate(0 2)">
+    <path fill="none" stroke="#000" stroke-width="4.99999714" d="m143.45526 161.53001 58.3394-101.046758"/>
+    <use xlink:href="#a" width="250" height="225" transform="rotate(-60 218.62570515 29.70154739)"/>
+    <use xlink:href="#a" width="250" height="225" transform="rotate(120 125.5308313 84.40882545)"/>
+  </g>
+  <g transform="translate(0 2)">
+    <path id="b" fill="#007fff" fill-opacity="1" fill-rule="evenodd" stroke="#000070" stroke-dasharray="none" stroke-dashoffset="0" stroke-miterlimit="4" stroke-opacity="1" stroke-width="3.75001814" d="M51.301509 30a19.301508 19.301508 0 1 1-38.603016 0 19.301508 19.301508 0 1 1 38.603016 0z"/>
+    <use xlink:href="#b" width="250" height="225" transform="translate(186)"/>
+    <use xlink:href="#b" width="250" height="225" transform="translate(93 161)"/>
+  </g>
+</svg>
