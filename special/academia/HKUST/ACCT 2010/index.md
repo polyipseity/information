@@ -450,7 +450,7 @@ The content is in teaching order.
   - cash dividend ::@:: Without a qualifier at the front, dividend means this.
     - cash dividend / source ::@:: Must be paid out of retained earnings, i.e. retained earnings should not be negative after paying the cash dividend.
     - cash dividend / declared but not paid (before end date) ::@:: debit equity "Retained earnings", credit liability "Dividends payable" (effectively, SE becomes L)
-    - cash dividend / declared and paid (at end date) ::@:: debit liability "Retained earnings" or equity "Dividends payable", credit asset "Cash" (effectively, A decreases with SE or L)
+    - cash dividend / declared and paid (at end date) ::@:: debit equity "Retained earnings" or liability "Dividends payable", credit asset "Cash" (effectively, A decreases with SE or L)
   - stock dividend ::@:: A distribution of additional shares of shares to its stockholders on a pro rata basis (proportional) at no cost to stockholders.
     - stock dividend / accounting ::@:: debit equity "Retained earnings", credit equity "Common stock" (par value), _maybe_ credit equity "Additional paid-in capital" (market value minus par value, for small stock dividend only) (effectively, account transfer in SE)
     - stock dividend / par value or market value ::@:: large stock dividend: >20~25% of outstanding shares, use par value <br/> small stock dividend: otherwise, use market value
