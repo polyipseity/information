@@ -48,7 +48,7 @@ tags:
 
 {@{Relations among morphisms \(such as _fg_ = _h_\)}@} are often {@{depicted using [commutative diagrams](commutative%20diagram.md)}@}, with {@{"points" \(corners\) representing objects and "arrows" representing morphisms}@}.
 
-[Morphisms](morphism.md) can have {@{any of the following properties}@}. A morphism _f_ : _a_ → _b_ is:
+[Morphisms](morphism.md) can have {@{any of the following properties}@}. A morphism {@{_f_ : _a_ → _b_}@} is:
 
 - a [monomorphism](monomorphism.md) \(or _monic_\) ::@:: if _f_ ∘ _g_<sub>1</sub> = _f_ ∘ _g_<sub>2</sub> implies _g_<sub>1</sub> = _g_<sub>2</sub> for all morphisms _g_<sub>1</sub>, _g<sub>2</sub>_ : _x_ → _a_. (annotation: intuitively, for every object _x_, $\mathrm{hom}(x, a)$ is preserved in $\mathrm{hom}(x, b)$ by _f_)
 - an [epimorphism](epimorphism.md) \(or _epic_\) ::@:: if _g_<sub>1</sub> ∘ _f_ = _g_<sub>2</sub> ∘ _f_ implies _g<sub>1</sub>_ = _g<sub>2</sub>_ for all morphisms _g_<sub>1</sub>, _g_<sub>2</sub> : _b_ → _x_. (annotation: intuitively, for every object _x_, $\mathrm{hom}(b, x)$ is preserved in $\mathrm{hom}(a, x)$ by _f_)
