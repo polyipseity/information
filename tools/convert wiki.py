@@ -529,7 +529,7 @@ async def main() -> None:
             html, out_to_archive=out_to_archive, session=session, refs=refs
         )
     output = output.replace(
-        "\xa0", "&nbsp;"  # replace non-breaking spaces with `&nbsp;`
+        "\xa0", " "  # replace non-breaking spaces with spaces
     ).strip()
 
     if out_to_archive:
