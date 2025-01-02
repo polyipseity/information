@@ -446,11 +446,11 @@ The content is in teaching order.
 ## week 10 lecture 2
 
 - datetime: 2024-11-07T13:30:00+08:00/2024-11-07T14:50:00+08:00
-- [dividend](../../../../general/dividend.md) ::@:: It a distribution of profits by a corporation to its shareholders, after which the stock exchange decreases the price of the stock by the dividend to remove volatility. <!--SR:!2025-04-08,97,383!2025-04-09,98,383-->
+- [dividend](../../../../general/dividend.md) ::@:: It is a distribution of profits by a corporation to its shareholders, after which the stock exchange decreases the price of the stock by the dividend to remove volatility. <!--SR:!2025-04-08,97,383!2025-04-09,98,383-->
   - cash dividend ::@:: Without a qualifier at the front, dividend means this. <!--SR:!2025-04-11,99,376!2025-04-08,96,376-->
     - cash dividend / source ::@:: Must be paid out of retained earnings, i.e. retained earnings should not be negative after paying the cash dividend. <!--SR:!2025-04-11,99,383!2025-04-07,96,376-->
     - cash dividend / declared but not paid (before end date) ::@:: debit equity "Retained earnings", credit liability "Dividends payable" (effectively, SE becomes L) <!--SR:!2025-04-15,103,383!2025-04-15,103,383-->
-    - cash dividend / declared and paid (at end date) ::@:: debit liability "Retained earnings" or equity "Dividends payable", credit asset "Cash" (effectively, A decreases with SE or L) <!--SR:!2025-04-13,101,383!2025-02-20,58,356-->
+    - cash dividend / declared and paid (at end date) ::@:: debit equity "Retained earnings" or liability "Dividends payable", credit asset "Cash" (effectively, A decreases with SE or L) <!--SR:!2025-04-13,101,383!2025-02-20,58,356-->
   - stock dividend ::@:: A distribution of additional shares of shares to its stockholders on a pro rata basis (proportional) at no cost to stockholders. <!--SR:!2025-02-25,61,363!2025-04-11,99,383-->
     - stock dividend / accounting ::@:: debit equity "Retained earnings", credit equity "Common stock" (par value), _maybe_ credit equity "Additional paid-in capital" (market value minus par value, for small stock dividend only) (effectively, account transfer in SE) <!--SR:!2025-01-20,30,323!2025-04-13,101,383-->
     - stock dividend / par value or market value ::@:: large stock dividend: >20~25% of outstanding shares, use par value <br/> small stock dividend: otherwise, use market value <!--SR:!2025-02-07,43,343!2025-03-13,71,363-->
@@ -491,7 +491,7 @@ The content is in teaching order.
 - datetime: 2024-11-14T13:30:00+08:00/2024-11-14T14:50:00+08:00
 - status: canceled: typhoon signal 8
 - [statement of cash flows](../../../../general/cash%20flow%20statement.md)
-  - cash equation ::@:: $$\text{cash and cash equivalents (CCE)} \\ = \text{liabilities (L)} + \text{stockholders' equity (SE)} - \text{non-cash assets}$$ <!--SR:!2025-04-08,97,383!2025-04-10,98,376-->
+  - cash equation ::@:: $$\text{cash and cash equivalents (CCE)} \\ = \text{liabilities (L)} + \text{stockholders' equity (SE)} - \text{non-cash assets (NCA)}$$ <!--SR:!2025-04-08,97,383!2025-04-10,98,376--> <p> (Deriving this equation from the original accounting equation was in a final examination question...)
   - operating activities
     - operating activities / methods ::@:: direct method, indirect method (almost all companies use the latter) <!--SR:!2025-04-08,97,383!2025-04-10,98,376-->
     - operating activities / calculation ::@:: Indirect method: Start with net income. Add depreciation and amortization (no actual cash has outflowed). Then remove gains and add loss of investing assets (not operating activities, accounted for in investing activities). Then compute differences between accrual-basis accounting and cash-basis accounting and add and remove accordingly. <p> The last step (computing the differences) in details: <br/> __operating (non-cash current) assets increase/decrease__: opposite <br/> __operating (current) liabilities increase/decrease__: same <!--SR:!2025-03-06,65,363!2025-03-19,76,363-->

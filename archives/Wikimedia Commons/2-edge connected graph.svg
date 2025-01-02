@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="150" height="170" version="1.1" xmlns="http://www.w3.org/2000/svg">
+	<marker id="a" overflow="visible" orient="auto">
+		<circle r="5" fill="#0ff" stroke="#000"/>
+	</marker>
+	<g fill="none" stroke="#000" stroke-width="1.5">
+		<path d="m15 50 59 103"/>
+		<path d="m74 16 59 103"/>
+		<path d="m134.62 119.43-59.624 34.424-59.624-34.424 6e-5 -68.848 59.624-34.424 59.624 34.424z" marker-end="url(#a)" marker-mid="url(#a)" marker-start="url(#a)"/>
+	</g>
+</svg>
