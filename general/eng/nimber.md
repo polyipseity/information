@@ -19,7 +19,7 @@ In [mathematics](mathematics.md), {@{the __nimbers__, also called __Grundy numbe
 
 Because of {@{the [Sprague–Grundy theorem](Sprague–Grundy%20theorem.md)}@} which {@{states that every [impartial game](impartial%20game.md) is equivalent to a Nim heap of a certain size}@}, nimbers {@{arise in a much larger class of impartial games}@}. They may also occur in {@{[partisan games](partisan%20game.md)}@} like {@{[Domineering](Domineering.md)}@}. <!--SR:!2025-01-12,17,305!2025-01-12,17,305!2025-01-12,17,313!2025-01-12,17,305!2025-01-10,15,290-->
 
-{@{The nimber addition and multiplication operations}@} are {@{associative and commutative}@}. Each nimber is {@{its own [additive inverse](additive%20inverse.md)}@}. In particular for {@{some pairs of ordinals, their nimber sum is smaller than either addend}@}.<sup>[\[1\]](#^ref-1)</sup> {@{The [minimum excludant](mex%20(mathematics).md) operation}@} is {@{applied to sets of nimbers}@}. <!--SR:!2025-01-12,17,305!2025-01-12,17,305!2025-01-12,17,305!2025-01-12,17,305!2025-01-09,14,290!2025-01-02,8,250-->
+{@{The nimber addition and multiplication operations}@} are {@{associative and commutative}@}. Each nimber is {@{its own [additive inverse](additive%20inverse.md)}@}. In particular for {@{some pairs of ordinals, their nimber sum is smaller than either addend}@}.<sup>[\[1\]](#^ref-1)</sup> {@{The [minimum excludant](mex%20(mathematics).md) operation}@} is {@{applied to sets of nimbers}@}. <!--SR:!2025-01-12,17,305!2025-01-12,17,305!2025-01-12,17,305!2025-01-12,17,305!2025-01-09,14,290!2025-01-23,21,250-->
 
 ## uses
 
@@ -27,7 +27,7 @@ Because of {@{the [Sprague–Grundy theorem](Sprague–Grundy%20theorem.md)}@} w
 
 - Main article: [Nim](Nim.md)
 
-Nim is {@{a game in which two players take turns removing objects from distinct heaps}@}. As {@{moves depend only on the position and not on which of the two players is currently moving, and where the payoffs are symmetric}@}, Nim is {@{an impartial game}@}. On each turn, a player {@{must remove at least one object, and may remove any number of objects provided they all come from the same heap}@}. The goal of the game is {@{to be the player who removes the last object}@}. The nimber of a heap is {@{simply the number of objects in that heap}@}. Using {@{nim addition}@}, one can {@{calculate the nimber of the game as a whole}@}. The winning strategy is {@{to force the nimber of the game to 0 for the opponent's turn}@}.<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2025-01-09,14,290!2025-01-09,14,290!2025-01-11,16,290!2025-01-09,14,290!2025-01-12,17,313!2025-01-10,15,290!2025-01-07,12,285!2025-01-02,8,250!2025-01-12,17,305-->
+Nim is {@{a game in which two players take turns removing objects from distinct heaps}@}. As {@{moves depend only on the position and not on which of the two players is currently moving, and where the payoffs are symmetric}@}, Nim is {@{an impartial game}@}. On each turn, a player {@{must remove at least one object, and may remove any number of objects provided they all come from the same heap}@}. The goal of the game is {@{to be the player who removes the last object}@}. The nimber of a heap is {@{simply the number of objects in that heap}@}. Using {@{nim addition}@}, one can {@{calculate the nimber of the game as a whole}@}. The winning strategy is {@{to force the nimber of the game to 0 for the opponent's turn}@}.<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2025-01-09,14,290!2025-01-09,14,290!2025-01-11,16,290!2025-01-09,14,290!2025-01-12,17,313!2025-01-10,15,290!2025-01-07,12,285!2025-01-21,19,250!2025-01-12,17,305-->
 
 ### Cram
 
@@ -61,7 +61,7 @@ For {@{finite ordinals}@}, {@{the __nim-sum__ is easily evaluated on a computer}
 
 Nimber multiplication is {@{associative and commutative, with the ordinal 1 as the multiplicative [identity element](identity%20element.md)}@}. Moreover, {@{nimber multiplication [distributes over](distributive%20property.md) nimber addition}@}.<sup>[\[4\]](#^ref-4)</sup> <!--SR:!2025-01-12,17,305!2025-01-09,14,290-->
 
-Thus, except for {@{the fact that nimbers form a [proper class](class%20(set%20theory).md) and not a set}@}, {@{the class of nimbers forms a [ring](ring%20(mathematics).md)}@}. In fact, it {@{even determines an [algebraically closed field](algebraically%20closed%20field.md) of [characteristic](characteristic%20(algebra).md) 2}@}, with {@{the nimber multiplicative inverse of a nonzero ordinal _α_ given}@} by {@{$$\alpha ^{-1}=\operatorname {mex} (S),$$}@} where {@{_S_ is the smallest set of ordinals \(nimbers\)}@} such that <!--SR:!2025-01-12,17,305!2025-01-02,8,250!2025-01-09,14,290!2025-01-11,16,290!2025-01-11,16,290!2025-01-12,17,313-->
+Thus, except for {@{the fact that nimbers form a [proper class](class%20(set%20theory).md) and not a set}@}, {@{the class of nimbers forms a [ring](ring%20(mathematics).md)}@}. In fact, it {@{even determines an [algebraically closed field](algebraically%20closed%20field.md) of [characteristic](characteristic%20(algebra).md) 2}@}, with {@{the nimber multiplicative inverse of a nonzero ordinal _α_ given}@} by {@{$$\alpha ^{-1}=\operatorname {mex} (S),$$}@} where {@{_S_ is the smallest set of ordinals \(nimbers\)}@} such that <!--SR:!2025-01-12,17,305!2025-01-29,27,270!2025-01-09,14,290!2025-01-11,16,290!2025-01-11,16,290!2025-01-12,17,313-->
 
 1. mex(_S_), base ::@:: 0 is an element of _S_; <!--SR:!2025-01-09,14,290!2025-01-12,17,305-->
 2. mex(_S_), induction ::@:: if 0 \< _α_<!-- markdown separator -->′ \< _α_ and _β'_ is an element of _S_, then ${\tfrac {1+(\alpha '\oplus \alpha )\beta '}{\alpha '} }$ is also an element of _S_. <!--SR:!2025-01-03,9,265!2025-01-06,12,270-->
@@ -73,7 +73,7 @@ Just as {@{in the case of nimber addition}@}, there is {@{a means of computing t
 1. The nimber product of a Fermat 2-power \(numbers of the form 2<sup>2<sup>_n_</sup></sup>\) with a smaller number ::@:: is equal to their ordinary product; <!--SR:!2025-01-12,17,305!2025-01-12,17,305-->
 2. The nimber square of a Fermat 2-power _x_ ::@:: is equal to 3<!-- markdown separator -->_x_/2 as evaluated under the ordinary multiplication of natural numbers. <!--SR:!2025-01-03,9,265!2025-01-12,17,313-->
 
-{@{The smallest algebraically closed field of nimbers}@} is {@{the set of nimbers less than the ordinal _ω<sup>ω<sup>ω</sup></sup>_, where _ω_ is the smallest infinite ordinal}@}. It follows that {@{as a nimber, _ω<sup>ω<sup>ω</sup></sup>_ is [transcendental](transcendental%20number.md) over the field}@}.<sup>[\[5\]](#^ref-5)</sup> <!--SR:!2025-01-12,17,305!2025-01-10,15,290!2025-01-02,8,250-->
+{@{The smallest algebraically closed field of nimbers}@} is {@{the set of nimbers less than the ordinal _ω<sup>ω<sup>ω</sup></sup>_, where _ω_ is the smallest infinite ordinal}@}. It follows that {@{as a nimber, _ω<sup>ω<sup>ω</sup></sup>_ is [transcendental](transcendental%20number.md) over the field}@}.<sup>[\[5\]](#^ref-5)</sup> <!--SR:!2025-01-12,17,305!2025-01-10,15,290!2025-01-22,20,250-->
 
 > [!tip] tips
 >
@@ -89,7 +89,7 @@ This subset is {@{closed under both operations}@}, since {@{16 is of the form 2<
 >
 > {@{Nimber addition}@} \(sequence {@{[A003987](https://oeis.org/A003987)}@} in the [OEIS](On-Line%20Encyclopedia%20of%20Integer%20Sequences.md)\) <br/>
 > This is also {@{the [Cayley table](cayley%20table.md) of [Z<sub>2</sub><sup>4</sup>](list%20of%20small%20groups.md#list%20of%20small%20abelian%20groups) – or the table of [bitwise](bitwise%20operation.md) [XOR](exclusive%20or.md) operations}@}. <br/>
-> The small matrices show {@{the single digits of the binary numbers}@}. <!--SR:!2025-01-02,8,273!2025-01-10,15,290!2025-01-04,10,285!2025-01-12,17,313!2025-01-07,12,285-->
+> The small matrices show {@{the single digits of the binary numbers}@}. <!--SR:!2025-01-24,22,273!2025-01-10,15,290!2025-01-04,10,285!2025-01-12,17,313!2025-01-07,12,285-->
 
 <!-- markdownlint MD028 -->
 
@@ -97,14 +97,14 @@ This subset is {@{closed under both operations}@}, since {@{16 is of the form 2<
 >
 > {@{Nimber multiplication}@} \(sequence {@{[A051775](https://oeis.org/A051775)}@} in the [OEIS](On-Line%20Encyclopedia%20of%20Integer%20Sequences.md)\) <br/>
 > The nonzero elements form the [Cayley table](cayley%20table.md) of [Z<sub>15</sub>](list%20of%20small%20groups.md#list%20of%20small%20abelian%20groups). <br/>
-> The small matrices are permuted binary [Walsh matrices](walsh%20matrix.md). <!--SR:!2025-01-11,16,290!2025-01-09,14,290!2025-01-02,8,265-->
+> The small matrices are permuted binary [Walsh matrices](walsh%20matrix.md). <!--SR:!2025-01-11,16,290!2025-01-09,14,290!2025-01-06,4,245-->
 
 <!-- markdownlint MD028 -->
 
 > {@{![nimber multiplication table among powers of two](../../archives/Wikimedia%20Commons/Nimber%20products%20of%20powers%20of%20two.svg)}@}
 >
 > {@{Nimber multiplication of [powers of two](power%20of%20two.md)}@} \(sequence {@{[A223541](https://oeis.org/A223541)}@} in the [OEIS](On-Line%20Encyclopedia%20of%20Integer%20Sequences.md)\) <br/>
-> {@{Calculating the nim-products of powers of two}@} is {@{a decisive point in the recursive algorithm of nimber-multiplication}@}. <!--SR:!2025-01-12,17,313!2025-01-07,12,270!2025-01-02,8,273!2025-01-04,10,285!2025-01-12,17,313-->
+> {@{Calculating the nim-products of powers of two}@} is {@{a decisive point in the recursive algorithm of nimber-multiplication}@}. <!--SR:!2025-01-12,17,313!2025-01-07,12,270!2025-01-06,4,253!2025-01-04,10,285!2025-01-12,17,313-->
 
 ## see also
 

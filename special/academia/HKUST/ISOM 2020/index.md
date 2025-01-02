@@ -78,7 +78,7 @@ The content is in teaching order.
   - [§ Python list](list.md#Python%20list)
   - [§ syntax](list.md#syntax)
   - [§ indexing](list.md#indexing)
-    - [list § indexing](list.md#indexing) / note ::@:: We have not learnt slicing so far, so do not use it. <!--SR:!2025-01-02,77,344!2025-01-02,77,344-->
+    - [list § indexing](list.md#indexing) / note ::@:: We have not learnt slicing so far, so do not use it. <!--SR:!2026-01-01,364,364!2025-12-31,363,364-->
   - [§ manipulation](list.md#manipulation)
   - [§ length](list.md#length)
   - [§ aggregate functions](list.md#aggregate%20functions)
@@ -119,7 +119,7 @@ The content is in teaching order.
   - [§ data types](basics.md#data%20types)
     - addition: type `bool`
   - [§ comparison operators](basics.md#comparison%20operators)
-    - [basics § comparison operators](basics.md#comparison%20operators) / note ::@:: One CAN chain comparison operators in Python, unlike other languages. See contents inside. <!--SR:!2025-01-02,77,352!2025-01-12,86,352-->
+    - [basics § comparison operators](basics.md#comparison%20operators) / note ::@:: One CAN chain comparison operators in Python, unlike other languages. See contents inside. <!--SR:!2026-01-15,378,372!2025-01-12,86,352-->
 - [control flow](control%20flow.md)
   - [§ Python control flow](control%20flow.md#Python%20control%20flow)
   - [§ branching](control%20flow.md#branching)

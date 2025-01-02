@@ -26,7 +26,7 @@ Confidence expresses {@{how confident you can be about Y being true given X is t
 
 Lift is {@{the ratio of the observed support of a rule to that expected if the antecedent and the consequent are [independent](independence%20(probability%20theory).md)}@}. For two item sets X and Y, and {@{a rule $X \Rightarrow Y$ with X as the antecedent and Y as the consequent, the lift of the rule is defined as $\operatorname{lift}(X \Rightarrow Y) = \frac {\operatorname{conf}(X \Rightarrow Y)} {\operatorname{supp}(Y)} = \frac {\operatorname{supp}(X \cup Y)} {\operatorname{supp}(X) \times \operatorname{supp}(Y)}$}@}. <!--SR:!2025-01-15,87,290!2027-10-24,1051,350-->
 
-Lift expresses {@{the observed co-occurrence of X and Y compared to that expected if X and Y are [independent](independence%20(probability%20theory).md)}@}. Note that the lift is unchanged even if {@{the antecedent and the consequent are exchanged, i.e. $\operatorname{lift}(X \Rightarrow Y) = \operatorname{lift}(Y \Rightarrow X)$}@}. <!--SR:!2027-04-17,877,330!2025-01-02,252,330-->
+Lift expresses {@{the observed co-occurrence of X and Y compared to that expected if X and Y are [independent](independence%20(probability%20theory).md)}@}. Note that the lift is unchanged even if {@{the antecedent and the consequent are exchanged, i.e. $\operatorname{lift}(X \Rightarrow Y) = \operatorname{lift}(Y \Rightarrow X)$}@}. <!--SR:!2027-04-17,877,330!2027-04-14,832,330-->
 
 ### conviction
 

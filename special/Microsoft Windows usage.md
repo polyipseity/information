@@ -21,7 +21,7 @@ tags:
 - maximize window::@::<ul><li>Alt+Space, X</li><li>⊞Win+↑</li></ul> <!--SR:!2025-01-27,422,230!2025-07-22,593,270-->
 - maximize window vertically::@::⊞Win+⇧Shift+↑ <!--SR:!2025-01-05,429,250!2025-02-01,427,230-->
 - minimize all windows::@::<ul><li>⊞Win+M</li><li>⊞Win+D</li></ul> <!--SR:!2025-05-08,220,170!2025-01-27,479,270-->
-- toggle unfocused windows::@::⊞Win+Home <!--SR:!2025-01-02,172,190!2025-03-19,117,150-->
+- toggle unfocused windows::@::⊞Win+Home <!--SR:!2025-11-29,331,190!2025-03-19,117,150-->
 - toggle fullscreen::@::<ul><li>F11</li><li>⊞Win+⇧Shift+↵Enter (UWP apps only)</li></ul> <!--SR:!2027-08-08,1007,250!2029-02-25,1534,310-->
 - show all windows and workspaces::@::⊞Win+Tab↹ <!--SR:!2025-04-07,201,210!2025-07-27,666,290-->
 - move window to the left/right side::@::⊞Win+←/→ <!--SR:!2025-03-16,548,270!2025-02-13,335,210-->

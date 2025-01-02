@@ -169,7 +169,7 @@ tags:
 > 3. separate entity
 >
 > - solution: {@{2}@}
-> - explanation: {@{1 is important, but not satisfying it only changes the accounting basis. 3 is also important, but not satisfying it only makes the financial statement improper. 2 is the most important one, as not satisfying it means financial statements can be deceptive, misleading others in their decision making.}@} <!--SR:!2025-01-02,77,322!2025-11-27,332,342-->
+> - explanation: {@{1 is important, but not satisfying it only changes the accounting basis. 3 is also important, but not satisfying it only makes the financial statement improper. 2 is the most important one, as not satisfying it means financial statements can be deceptive, misleading others in their decision making.}@} <!--SR:!2025-12-05,337,342!2025-11-27,332,342-->
 
 <!-- markdownlint MD028 -->
 
@@ -191,7 +191,7 @@ tags:
 > 3. maturity preference
 >
 > - solution: {@{3}@}
-> - explanation: {@{The standards require it. Maturity is a measure of how soon the liability is due, analogous to how mature crops are then harvested.}@} <!--SR:!2025-10-21,307,342!2025-01-02,77,322-->
+> - explanation: {@{The standards require it. Maturity is a measure of how soon the liability is due, analogous to how mature crops are then harvested.}@} <!--SR:!2025-10-21,307,342!2025-12-14,346,342-->
 
 <!-- markdownlint MD028 -->
 
@@ -201,7 +201,7 @@ tags:
 > 2. Asset + Liabilities = Stockholders' Equity
 > 3. Asset - Liabilities = Stockholders' Equity
 >
-> - solution: {@{2}@} <!--SR:!2025-01-02,77,322-->
+> - solution: {@{2}@} <!--SR:!2025-12-15,347,342-->
 
 <!-- markdownlint MD028 -->
 

@@ -406,7 +406,7 @@ Water Cube
 - CCTV Headquarters→::@::←Eiffel Tower <!--SR:!2025-11-11,407,305!2026-08-07,604,312-->
 - Eiffel Tower→::@::←Hong Kong Convention and Exhibition Centre <!--SR:!2025-09-15,333,294!2025-03-04,182,305-->
 - Hong Kong Convention and Exhibition Centre→::@::←Water Cube <!--SR:!2025-05-22,266,337!2025-05-09,258,320-->
-- Water Cube→::@::←_(end)_ <!--SR:!2025-10-12,432,401!2025-01-02,201,357-->
+- Water Cube→::@::←_(end)_ <!--SR:!2025-10-12,432,401!2027-09-14,985,377-->
 
 <!--/pytextgen-->
 

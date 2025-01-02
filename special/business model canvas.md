@@ -294,7 +294,7 @@ In cost structures, costs can be {@{fixed costs or variable costs}@}. Costs can 
 
 ### fit
 
-Business model fit can be achieved by {@{reiteration between changing the value propositions and the rest of the business model}@}, because these two {@{are interdependent on each other: changing one entails changing the other}@}. The changes can be {@{big or small}@}: pivot {@{means making radical changes to the business model because your code idea requires more exploration}@}, while iteration {@{means reorienting the business model slightly but still closely related to the original}@}. <!--SR:!2025-07-14,279,289!2026-07-08,589,329!2025-03-01,223,329!2025-01-02,179,329!2025-01-04,166,309-->
+Business model fit can be achieved by {@{reiteration between changing the value propositions and the rest of the business model}@}, because these two {@{are interdependent on each other: changing one entails changing the other}@}. The changes can be {@{big or small}@}: pivot {@{means making radical changes to the business model because your code idea requires more exploration}@}, while iteration {@{means reorienting the business model slightly but still closely related to the original}@}. <!--SR:!2025-07-14,279,289!2026-07-08,589,329!2025-03-01,223,329!2026-08-15,590,329!2025-01-04,166,309-->
 
 ## comparison with other models
 
