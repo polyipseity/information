@@ -163,9 +163,7 @@ Given {@{a set $X$ of nonempty sets and its union $U:=\bigcup X$ \(which exists 
 
 {@{The name "Zorn's lemma"}@} appears to be {@{due to [John Tukey](John%20Tukey.md)}@}, who {@{used it in his book _Convergence and Uniformity in Topology_ in 1940}@}. {@{[Bourbaki](Nicolas%20Bourbaki.md)'s _Théorie des Ensembles_ of 1939}@} refers to {@{a similar maximal principle as "le théorème de Zorn"}@}.<sup>[\[21\]](#^ref-21)</sup> {@{The name "[Kuratowski–Zorn lemma](../pol/lemat%20Kuratowskiego-Zorna.md)"}@} {@{prevails in Poland and Russia}@}.
 
-> __![Portal:Mathematics icon](../../archives/Wikimedia%20Commons/Nuvola%20apps%20edu%20mathematics%20blue-p.svg)
->
-> [Mathematics portal](https://en.wikipedia.org/wiki/Portal:Mathematics)__
+> __![Portal:Mathematics icon](../../archives/Wikimedia%20Commons/Nuvola%20apps%20edu%20mathematics%20blue-p.svg) [Mathematics portal](https://en.wikipedia.org/wiki/Portal:Mathematics)__
 
 ## equivalent forms of Zorn's lemma
 

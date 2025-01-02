@@ -155,9 +155,7 @@ More recent efforts to {@{introduce undergraduates to categories as a foundation
 
 ## see also
 
-> __![Portal:Mathematics icon](../../archives/Wikimedia%20Commons/Nuvola%20apps%20edu%20mathematics%20blue-p.svg)__
->
-> __[Mathematics portal](https://en.wikipedia.org/wiki/Portal:Mathematics)__
+> __![Portal:Mathematics icon](../../archives/Wikimedia%20Commons/Nuvola%20apps%20edu%20mathematics%20blue-p.svg) [Mathematics portal](https://en.wikipedia.org/wiki/Portal:Mathematics)__
 
 - [Domain theory](domain%20theory.md)
 - [Enriched category theory](enriched%20category.md)
