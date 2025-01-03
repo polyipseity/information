@@ -644,7 +644,7 @@ tags:
 > 4. None of the above
 >
 > - solution: {@{4}@}
-> - explanation: {@{For 1, this is an obvious use case. For 2, one way is taking the neighbor average weighted by inverse distances. For 3, while it does not require all data to be of the same scale, this would make the distance of each feature not considered with the same weight.}@}
+> - explanation: {@{For 1 and 2, classification is an obvious use case. For regression, one way is taking the neighbor average weighted by inverse distances. For 3, while it does not require all data to be of the same scale, this would make the distance of each feature not considered with the same weight.}@}
 
 <!-- markdownlint MD028 -->
 
