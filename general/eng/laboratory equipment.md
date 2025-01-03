@@ -194,7 +194,7 @@ return _chain.from_iterable(await _gather(
 - [Liebig condenser](Liebig%20condenser.md):@:![Liebig condenser](../../archives/Wikimedia%20Commons/LiebigCondenser.jpg) <!--SR:!2026-06-14,891,330-->
 - [beaker](beaker.md):@:![beaker](../../archives/Wikimedia%20Commons/Glassware-%20Beaker.jpg) <!--SR:!2026-09-27,913,330-->
 - [burette](burette.md):@:![burette](../../archives/Wikimedia%20Commons/Burette.svg) <!--SR:!2026-01-13,771,330-->
-- [burette clamp](burette%20clamp.md):@:![burette clamp](../../archives/Wikimedia%20Commons/Burette%20with%20Clamp(3).jpg) <!--SR:!2025-01-03,427,290-->
+- [burette clamp](burette%20clamp.md):@:![burette clamp](../../archives/Wikimedia%20Commons/Burette%20with%20Clamp(3).jpg) <!--SR:!2028-05-25,1238,290-->
 - [clamp](clamp.md):@:![clamp](../../archives/Wikimedia%20Commons/Utility%20clamp1.jpg) <!--SR:!2028-04-24,1441,350-->
 - [conical flask/Erlenmeyer flask/titration flask](Erlenmeyer%20flask.md):@:![conical flask/Erlenmeyer flask/titration flask](../../archives/Wikimedia%20Commons/250%20mL%20Erlenmeyer%20flask.jpg) <!--SR:!2027-01-21,1082,350-->
 - [crucible](crucible.md):@:![crucible](../../archives/Wikimedia%20Commons/Czochralski%20method%20used%20crucible%201.jpg) <!--SR:!2027-01-10,1073,350-->

@@ -211,7 +211,7 @@ return _chain.from_iterable(await _gather(
 - `/`:@:division; if both operands are of integral types, then round-towards-zero division <!--SR:!2025-02-05,100,270-->
 - `%`:@:remainder; the resulting sign is the same as the dividend, i.e. the number before the operator <!--SR:!2025-06-14,322,290-->
 - `+`:@:addition <!--SR:!2025-01-19,272,330-->
-- `-`:@:subtraction <!--SR:!2025-01-03,256,330-->
+- `-`:@:subtraction <!--SR:!2028-03-13,1165,350-->
 
 <!--/pytextgen-->
 
@@ -260,7 +260,7 @@ return _chain.from_iterable(await _gather(
 
 <!--pytextgen generate section="d123"--><!-- The following content is generated at 2024-01-30T13:35:46.651317+08:00. Any edits will be overridden! -->
 
-- _(begin)_→::@::←`<` <!--SR:!2025-01-03,107,190!2025-01-07,239,310-->
+- _(begin)_→::@::←`<` <!--SR:!2025-10-23,293,210!2025-01-07,239,310-->
 - `<`→::@::←`>` <!--SR:!2025-02-17,296,330!2025-01-28,275,330-->
 - `>`→::@::←`<=` <!--SR:!2026-02-26,514,310!2027-03-22,845,310-->
 - `<=`→::@::←`>=` <!--SR:!2026-12-22,796,330!2025-05-09,306,290-->

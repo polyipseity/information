@@ -26,7 +26,7 @@ The content is in teaching order.
 ## week 2 lecture
 
 - datetime: 2024-02-05T16:00:00+08:00/2024-02-05T18:00:00+08:00
-- 3 covered fields ::@:: civil and structural engineering, environmental engineering, geo-technical engineering <!--SR:!2025-01-03,225,290!2027-11-28,1069,350-->
+- 3 covered fields ::@:: civil and structural engineering, environmental engineering, geo-technical engineering <!--SR:!2027-06-28,906,310!2027-11-28,1069,350-->
 - [introduction to civil engineering](introduction%20to%20civil%20engineering.md)
 - [data](data.md)
 

@@ -38,7 +38,7 @@ Business viability describes {@{how the business can survive}@}. The three impor
 
 The three factors above are {@{interdependent and must be balanced for a successful business}@}. Deep understanding of {@{the business model, market, and technology}@} is required. <!--SR:!2025-04-28,255,290!2025-01-05,155,270-->
 
-Design thinking can be used in {@{design conceptualization}@}. It is the {@{most important stage of product development}@} because it is {@{at the start of the product development and requires the least effort, so it produces the highest rate of return}@}. The rate of return decreases along the stages as {@{mistakes in later stages become much more costly}@}. <!--SR:!2026-06-14,574,310!2025-01-03,176,310!2026-03-21,505,310!2025-09-22,338,290-->
+Design thinking can be used in {@{design conceptualization}@}. It is the {@{most important stage of product development}@} because it is {@{at the start of the product development and requires the least effort, so it produces the highest rate of return}@}. The rate of return decreases along the stages as {@{mistakes in later stages become much more costly}@}. <!--SR:!2026-06-14,574,310!2027-01-26,753,330!2026-03-21,505,310!2025-09-22,338,290-->
 
 During ideation, we can use divergent and convergent thinking to {@{find the right problem (from many pains to a problem), and then find the right solution (from many solutions to few prototypes)}@}, but {@{do not mix these processes}@}. <!--SR:!2026-02-21,465,290!2025-03-06,213,310-->
 

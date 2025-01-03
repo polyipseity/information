@@ -82,7 +82,7 @@ return _chain.from_iterable(await _gather(
 - `^`:@:power <!--SR:!2025-01-15,268,330-->
 - `*`:@:multiplication <!--SR:!2025-01-06,262,330-->
 - `/`:@:division <!--SR:!2028-03-24,1178,350-->
-- `+`:@:addition <!--SR:!2025-01-03,260,330-->
+- `+`:@:addition <!--SR:!2028-03-29,1181,350-->
 - `-`:@:subtraction <!--SR:!2027-07-25,985,350-->
 
 <!--/pytextgen-->

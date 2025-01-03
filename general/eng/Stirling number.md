@@ -75,7 +75,7 @@ Similarly, {@{composing the change of basis from $x^{(n)}$ to $x^{n}$ with the c
 
 ## inversion relations and the Stirling transform
 
-For {@{any pair of sequences, $\{f_{n}\}$ and $\{g_{n}\}$}@}, related by {@{a finite sum Stirling number formula given by $$g_{n}=\sum _{k=0}^{n}\left\{ {\begin{matrix}n\\k\end{matrix} }\right\}f_{k},$$ for all integers $n\geq 0$}@}, we have {@{a corresponding [inversion formula](generating%20function%20transformation.md#inversion%20relations%20and%20generating%20function%20identities) for $f_{n}$ given by $$f_{n}=\sum _{k=0}^{n}\left[{\begin{matrix}n\\k\end{matrix} }\right](-1)^{n-k}g_{k}.$$}@} {@{The lower indices}@} could be {@{any integer between $0$ and $n$}@}. <!--SR:!2025-01-28,72,310!2025-01-05,49,290!2025-02-23,78,270!2025-01-03,47,290!2025-01-28,72,310-->
+For {@{any pair of sequences, $\{f_{n}\}$ and $\{g_{n}\}$}@}, related by {@{a finite sum Stirling number formula given by $$g_{n}=\sum _{k=0}^{n}\left\{ {\begin{matrix}n\\k\end{matrix} }\right\}f_{k},$$ for all integers $n\geq 0$}@}, we have {@{a corresponding [inversion formula](generating%20function%20transformation.md#inversion%20relations%20and%20generating%20function%20identities) for $f_{n}$ given by $$f_{n}=\sum _{k=0}^{n}\left[{\begin{matrix}n\\k\end{matrix} }\right](-1)^{n-k}g_{k}.$$}@} {@{The lower indices}@} could be {@{any integer between $0$ and $n$}@}. <!--SR:!2025-01-28,72,310!2025-01-05,49,290!2025-02-23,78,270!2025-07-08,186,310!2025-01-28,72,310-->
 
 {@{These inversion relations between the two sequences}@} translate into {@{functional equations between the sequence [exponential generating functions](generating%20function.md) given by the [Stirling (generating function) transform](Stirling%20transform.md)}@} as {@{$${\widehat {G} }(z)={\widehat {F} }\left(e^{z}-1\right)$$ and $${\widehat {F} }(z)={\widehat {G} }\left(\log(1+z)\right).$$}@} (annotation: The above two relations can be {@{derived from each other by replacing $z$ with $e^z - 1$ or $\ln (1 + z)$}@}.) <!--SR:!2025-01-27,71,310!2025-03-26,97,270!2025-02-21,76,270!2025-01-26,70,310-->
 
@@ -89,7 +89,7 @@ __Table of similarities__ (not really a table anymore...)
 
 - __[Stirling numbers of the first kind](Stirling%20numbers%20of%20the%20first%20kind.md)__ vs. __[Stirling numbers of the second kind](Stirling%20numbers%20of%20the%20second%20kind.md)__
 - recurrence relation ::@:: $$\left[{n+1 \atop k}\right]=n\left[{n \atop k}\right]+\left[{n \atop k-1}\right]$$ <p> vs. <p> $$\left\{ {n+1 \atop k}\right\}=k\left\{ {n \atop k}\right\}+\left\{ {n \atop k-1}\right\}$$ <!--SR:!2025-01-26,70,310!2025-01-23,67,310-->
-- summation ::@:: $$\sum _{k=0}^{n}\left[{n \atop k}\right]=n!$$ <p> vs. <p> $$\sum _{k=0}^{n}\left\{ {n \atop k}\right\}=B_{n}$$, where $B_{n}$ is the n-th [Bell number](Bell%20number.md) <!--SR:!2025-01-23,67,310!2025-01-03,47,290-->
+- summation ::@:: $$\sum _{k=0}^{n}\left[{n \atop k}\right]=n!$$ <p> vs. <p> $$\sum _{k=0}^{n}\left\{ {n \atop k}\right\}=B_{n}$$, where $B_{n}$ is the n-th [Bell number](Bell%20number.md) <!--SR:!2025-01-23,67,310!2025-07-13,191,310-->
 - polynomial summation ::@:: $$\sum _{k=0}^{n}\left[{n \atop k}\right]x^{k}=x^{(n)}$$, where $\{x^{(n)}\}_{n\in \mathbb {N} }$ is the [rising factorials](falling%20and%20rising%20factorials.md) <p> vs. <p> $$\sum _{k=0}^{n}\left\{ {n \atop k}\right\}x^{k}=T_{n}(x)$$, where $\{T_{n}\}_{n\in \mathbb {N} }$ is the [Touchard polynomials](Touchard%20polynomials.md) <!--SR:!2025-01-26,57,250!2025-04-02,106,290-->
 - special cases ::@:: $$\left[{n \atop 0}\right]=\delta _{n},\ \left[{n \atop n-1}\right]={\binom {n}{2} },\ \left[{n \atop n}\right]=1$$ <p> vs. <p> $$\left\{ {n \atop 0}\right\}=\delta _{n},\ \left\{ {n \atop n-1}\right\}={\binom {n}{2} },\ \left\{ {n \atop n}\right\}=1$$ <!--SR:!2025-01-23,67,310!2025-01-05,49,290-->
 - increment by binomial coefficient ::@:: $$\left[{n+1 \atop k+1}\right]=\sum _{j=k}^{n}\left[{n \atop j}\right]{\binom {j}{k} }$$ <p> vs. <p> $$\left\{ {n+1 \atop k+1}\right\}=\sum _{j=k}^{n}{\binom {n}{j} }\left\{ {j \atop k}\right\}$$  (annotation: Choose _n_ - _j_ elements from _n_ + 1 elements to form a maybe empty partition. Add the 1 element to ensure it is nonempty. Partition the remaining _j_ elements into _k_ partitions.) <!--SR:!2025-02-22,77,270!2025-01-04,48,290-->
@@ -106,7 +106,7 @@ See the specific articles for details.
 
 Abramowitz and Stegun give {@{the following symmetric formulae that relate the Stirling numbers of the first and second kind}@}.<sup>[\[9\]](#^ref-9)</sup> <!--SR:!2025-01-28,72,310-->
 
-- symmetric formulae ::@:: $$\left[{n \atop k}\right]=\sum _{j=n}^{2n-k}(-1)^{j-k}{\binom {2n-k}{j} }{\binom {j-1}{k-1} }\left\{ {j-k \atop j-n}\right\}$$ and $$\left\{ {n \atop k}\right\}=\sum _{j=n}^{2n-k}(-1)^{j-k}{\binom {2n-k}{j} }{\binom {j-1}{k-1} }\left[{j-k \atop j-n}\right]$$ <!--SR:!2025-01-03,5,130!2025-02-16,73,270-->
+- symmetric formulae ::@:: $$\left[{n \atop k}\right]=\sum _{j=n}^{2n-k}(-1)^{j-k}{\binom {2n-k}{j} }{\binom {j-1}{k-1} }\left\{ {j-k \atop j-n}\right\}$$ and $$\left\{ {n \atop k}\right\}=\sum _{j=n}^{2n-k}(-1)^{j-k}{\binom {2n-k}{j} }{\binom {j-1}{k-1} }\left[{j-k \atop j-n}\right]$$ <!--SR:!2025-01-10,7,130!2025-02-16,73,270-->
 
 ## Stirling numbers with negative integral values
 
@@ -134,7 +134,7 @@ For example, $\left[{-5 \atop k}\right]={\frac {1}{120} }{\Bigl (}5-{\frac {10}{
 | __−4__   | $${\tfrac {-1}{24} }$$ | $${\tfrac {-25}{288} }$$  | $${\tfrac {-415}{3456} }$$    | $${\tfrac {-5845}{41472} }$$     | $${\tfrac {-76111}{497664} }$$       |
 | __−5__   | $${\tfrac {1}{120} }$$ | $${\tfrac {137}{7200} }$$ | $${\tfrac {12019}{432000} }$$ | $${\tfrac {874853}{25920000} }$$ | $${\tfrac {58067611}{1555200000} }$$ |
 
-In this case {@{$\sum _{n=1}^{\infty }\left[{-n \atop -k}\right]=B_{k}$}@} where {@{$B_{k}$ is a [Bell number](Bell%20number.md)}@}, and so one may {@{define the negative Bell numbers by $\sum _{n=1}^{\infty }\left[{-n \atop k}\right]=:B_{-k}$}@}. <!--SR:!2025-01-03,51,290!2025-01-27,71,310!2025-01-03,47,290-->
+In this case {@{$\sum _{n=1}^{\infty }\left[{-n \atop -k}\right]=B_{k}$}@} where {@{$B_{k}$ is a [Bell number](Bell%20number.md)}@}, and so one may {@{define the negative Bell numbers by $\sum _{n=1}^{\infty }\left[{-n \atop k}\right]=:B_{-k}$}@}. <!--SR:!2025-01-28,25,270!2025-01-27,71,310!2025-05-19,136,290-->
 
 For example, this produces $\sum _{n=1}^{\infty }\left[{-n \atop 1}\right]=B_{-1}={\frac {1}{e} }\sum _{j=1}^{\infty }{\frac {1}{j\cdot j!} }={\frac {1}{e} }\int _{0}^{1}{\frac {e^{t}-1}{t} }dt=0.4848291\dots$, generally $B_{-k}={\frac {1}{e} }\sum _{j=1}^{\infty }{\frac {1}{j^{k}j!} }$.
 

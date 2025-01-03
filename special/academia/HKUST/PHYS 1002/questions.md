@@ -414,7 +414,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 5. 5400 solar masses
 >
 > - solution: {@{4}@}
-> - explanation: {@{Assuming the fuel burnt is proportional to luminosity. Then, the lifetime of a star is: $$\tau = M / L \propto M^{-3}$$. Derive the proportionality between mass and luminosity: $$M / L \propto M^{-3} \implies M^4 \propto L \implies M \propto L^{0.25}$$. So the star mass is predicted to be: $$(2147\,483\,647)^{0.25} \approx 215.269482~\mathrm{solar\ masses}$$. So the answer is 220 solar masses.}@} <!--SR:!2025-01-22,120,311!2025-01-03,111,311-->
+> - explanation: {@{Assuming the fuel burnt is proportional to luminosity. Then, the lifetime of a star is: $$\tau = M / L \propto M^{-3}$$. Derive the proportionality between mass and luminosity: $$M / L \propto M^{-3} \implies M^4 \propto L \implies M \propto L^{0.25}$$. So the star mass is predicted to be: $$(2147\,483\,647)^{0.25} \approx 215.269482~\mathrm{solar\ masses}$$. So the answer is 220 solar masses.}@} <!--SR:!2025-01-22,120,311!2025-12-16,347,311-->
 
 ## 2024-07-25
 

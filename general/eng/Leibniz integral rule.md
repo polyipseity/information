@@ -20,7 +20,7 @@ In [calculus](calculus.md), the __Leibniz integral rule__ is {@{a rule that allo
 
 > [!tip] tips
 >
-> - [intuition](intuition.md) ::@:: $f(x, b(x)) b'(x)$ represents the change caused by moving the right endpoint, $-f(x, a(x)) a'(x)$ represents the change caused by moving the left endpoint, and $\int_{a(x)}^{b(x)} \! f_x(x, t) \, \mathrm{d}x$ represents the change of the [integral](integral.md) caused by changing $x$. <!--SR:!2025-07-17,408,310!2025-01-03,227,344-->
+> - [intuition](intuition.md) ::@:: $f(x, b(x)) b'(x)$ represents the change caused by moving the right endpoint, $-f(x, a(x)) a'(x)$ represents the change caused by moving the left endpoint, and $\int_{a(x)}^{b(x)} \! f_x(x, t) \, \mathrm{d}x$ represents the change of the [integral](integral.md) caused by changing $x$. <!--SR:!2025-07-17,408,310!2027-02-23,781,344-->
 
 ## examples
 

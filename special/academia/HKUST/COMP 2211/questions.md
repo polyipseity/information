@@ -281,7 +281,7 @@ tags:
 > 3. `np.dot(M, C)`, where `C` is an array of shape (22, 11)
 > 4. `np.dot(D, M)`, where `D` is an array of shape (11, 33)
 >
-> - solution: {@{1}@} <!--SR:!2025-01-03,10,270-->
+> - solution: {@{1}@} <!--SR:!2025-02-10,38,290-->
 
 <!-- markdownlint MD028 -->
 
@@ -644,7 +644,7 @@ tags:
 > 4. None of the above
 >
 > - solution: {@{4}@}
-> - explanation: {@{For 1, this is an obvious use case. For 2, one way is taking the neighbor average weighted by inverse distances. For 3, while it does not require all data to be of the same scale, this would make the distance of each feature not considered with the same weight.}@} <!--SR:!2025-01-08,15,290!2025-01-03,10,270-->
+> - explanation: {@{For 1, this is an obvious use case. For 2, one way is taking the neighbor average weighted by inverse distances. For 3, while it does not require all data to be of the same scale, this would make the distance of each feature not considered with the same weight.}@} <!--SR:!2025-01-08,15,290!2025-01-29,26,270-->
 
 <!-- markdownlint MD028 -->
 
@@ -973,7 +973,7 @@ tags:
 > model.add(Dense(10, activation='sigmoid'))
 > ```
 >
-> - solution: {@{`Dropout(...)` can be ignored since they have no parameters. <br/> input → `Dense(1000, ...)`: 500 \* 1000 + 1000 = 501000 <br/> `Dense(1000, ...)` → `Dense(400, ...)`: 1000 \* 400 + 400 = 400400 <br/> `Dense(400, ...)` → `Dense(10, ...)`: 400 \* 10 + 10 = 4010 <br/> total params: 501000 + 400400 + 4010 = 905410}@} <!--SR:!2025-01-03,10,270-->
+> - solution: {@{`Dropout(...)` can be ignored since they have no parameters. <br/> input → `Dense(1000, ...)`: 500 \* 1000 + 1000 = 501000 <br/> `Dense(1000, ...)` → `Dense(400, ...)`: 1000 \* 400 + 400 = 400400 <br/> `Dense(400, ...)` → `Dense(10, ...)`: 400 \* 10 + 10 = 4010 <br/> total params: 501000 + 400400 + 4010 = 905410}@} <!--SR:!2025-02-10,38,290-->
 
 <!-- markdownlint MD028 -->
 
@@ -1060,7 +1060,7 @@ tags:
 > 3. The updates are proportional to the output of the weight layer
 > 4. The output layer weights are used when computing the loss of the hidden layer
 >
-> - solution: {@{2, 4}@} <!--SR:!2025-01-03,10,270-->
+> - solution: {@{2, 4}@} <!--SR:!2025-02-11,39,290-->
 
 ## digital image processing fundamentals
 
@@ -1094,7 +1094,7 @@ tags:
 > Describe in words what transformation was applied.
 >
 > - solution: {@{The image is translated to the left (not right) and upwards (not downwards) each by 1 pixel.}@}
-> - explanation: {@{While the transformation matrix describes a transformation to the right and downwards each by 1 pixel, notice that it is applied to the input coordinates instead of the output coordinates. <p> In general, the transformations are reversed if you apply it to the input coordinates instead of the output coordinates. For a simple example, consider $f(x) = x$. Then compare between $f_{\text{new} }(x) = f(x) + 1 = x + 1$ and $f_{\text{new} }(x + 1) = f(x) = x \implies f_{\text{new} }(x) = f(x - 1) = x - 1$.}@} <!--SR:!2025-01-03,10,270!2025-01-03,10,270-->
+> - explanation: {@{While the transformation matrix describes a transformation to the right and downwards each by 1 pixel, notice that it is applied to the input coordinates instead of the output coordinates. <p> In general, the transformations are reversed if you apply it to the input coordinates instead of the output coordinates. For a simple example, consider $f(x) = x$. Then compare between $f_{\text{new} }(x) = f(x) + 1 = x + 1$ and $f_{\text{new} }(x + 1) = f(x) = x \implies f_{\text{new} }(x) = f(x - 1) = x - 1$.}@} <!--SR:!2025-01-08,5,250!2025-01-29,26,270-->
 
 <!-- markdownlint MD028 -->
 
@@ -1419,7 +1419,7 @@ tags:
 > 5. Rewards
 > 6. Policy
 >
-> - solution: {@{1. the monkey <br/> 2. circus/training room <br/> 3. what the monkey observes <br/> 4. tricks performable by the monkey <br/> 5. food <br/> 6. a way to perform tricks as to get the most food (which, to the trainer, means a way to perform tricks elegantly)}@} <!--SR:!2025-01-03,7,250-->
+> - solution: {@{1. the monkey <br/> 2. circus/training room <br/> 3. what the monkey observes <br/> 4. tricks performable by the monkey <br/> 5. food <br/> 6. a way to perform tricks as to get the most food (which, to the trainer, means a way to perform tricks elegantly)}@} <!--SR:!2025-01-28,25,270-->
 
 <!-- markdownlint MD028 -->
 
@@ -1552,7 +1552,7 @@ tags:
 > <!-- list separator -->
 >
 > - solution: {@{$a_{21} = P(X_t = S_1 \mid X_{t - 1} = S_2)$}@}
-> - explanation: {@{Usually, the _transition probability matrix_ is encoded as a _right/row stochastic matrix_, where each row adds up to 1. It is so called "right" because the probability distribution at the next step is computed by $\mathbf S_t = \mathbf S_{t - 1} \mathbf M$. <p> Another, but less common, way to encode it is as a _left/column stochastic matrix_, where each column adds up to 1. The next step probability distribution is computed by $\mathbf S_t =  \mathbf M \mathbf S_{t - 1}$. <p> Note: You should see in _value iteration_, we put the _right/row_ stochastic matrix $\mathbf M$ on the _left_ of the value vector $\mathbf V$ instead: $\mathbf M \mathbf V$. But this is because in value iteration, we are propagation the rewards _backwards_ instead of _forward_.}@} <!--SR:!2025-01-09,16,290!2025-01-03,10,270-->
+> - explanation: {@{Usually, the _transition probability matrix_ is encoded as a _right/row stochastic matrix_, where each row adds up to 1. It is so called "right" because the probability distribution at the next step is computed by $\mathbf S_t = \mathbf S_{t - 1} \mathbf M$. <p> Another, but less common, way to encode it is as a _left/column stochastic matrix_, where each column adds up to 1. The next step probability distribution is computed by $\mathbf S_t =  \mathbf M \mathbf S_{t - 1}$. <p> Note: You should see in _value iteration_, we put the _right/row_ stochastic matrix $\mathbf M$ on the _left_ of the value vector $\mathbf V$ instead: $\mathbf M \mathbf V$. But this is because in value iteration, we are propagation the rewards _backwards_ instead of _forward_.}@} <!--SR:!2025-01-09,16,290!2025-01-29,26,270-->
 
 <!-- markdownlint MD028 -->
 
@@ -1582,7 +1582,7 @@ tags:
 
 > Q15. (simple) State __one__ advantage and __one__ disadvantage of solving a Markov system algebraically.
 >
-> - solution: {@{(for reference) An advantage is that we get the _exact_ solution. <p> An disadvantage is that the time it takes to solve algebraically increases with the number of states.}@} <!--SR:!2025-01-03,10,270-->
+> - solution: {@{(for reference) An advantage is that we get the _exact_ solution. <p> An disadvantage is that the time it takes to solve algebraically increases with the number of states.}@} <!--SR:!2025-02-11,39,290-->
 
 <!-- markdownlint MD028 -->
 

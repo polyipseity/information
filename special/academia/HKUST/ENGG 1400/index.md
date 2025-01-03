@@ -60,19 +60,19 @@ The content is in teaching order.
 ## week 3 tutorial
 
 - datetime: 2024-09-19T10:30:00+08:00/2024-09-19T12:20:00+08:00
-- work motivations ::@:: autonomy, mastery, purpose <!--SR:!2025-01-03,77,332!2025-01-03,77,332-->
-- relationship between workview & worldview ::@:: If they integrate with each other, great! If they do not, then you may find jobs unfulfilling and want to quit it. <!--SR:!2025-01-03,77,332!2025-01-03,77,332-->
-- course framework ::@:: design thinking, meaning-making, discovery & support <!--SR:!2025-05-12,174,332!2025-01-03,77,332-->
+- work motivations ::@:: autonomy, mastery, purpose <!--SR:!2025-09-21,261,332!2025-12-26,357,352-->
+- relationship between workview & worldview ::@:: If they integrate with each other, great! If they do not, then you may find jobs unfulfilling and want to quit it. <!--SR:!2025-12-28,359,352!2025-12-25,356,352-->
+- course framework ::@:: design thinking, meaning-making, discovery & support <!--SR:!2025-05-12,174,332!2025-09-20,260,332-->
 - warm-up activity: Choose a person from the picture that resonate with you the most. Explain why.
 - society identity theory ::@:: Groups are part of our identity and self-esteem (Tajfel, 1970). 3 mental processes involved are social categorization, social identification, and social comparison. <!--SR:!2025-02-12,100,312!2025-05-02,166,332-->
-  - social categorization ::@:: Characterize people by their groups. Leads to prejudice. <!--SR:!2025-01-03,77,332!2025-01-03,77,332-->
-  - social identification ::@:: Modify yourself to match the beliefs you have on your own groups. <!--SR:!2025-05-08,171,332!2025-01-03,77,332-->
-  - social comparison ::@:: Compare your groups with other groups. This maintains group differences. <!--SR:!2025-01-03,77,332!2025-03-14,125,312-->
+  - social categorization ::@:: Characterize people by their groups. Leads to prejudice. <!--SR:!2025-12-20,351,352!2025-12-22,353,352-->
+  - social identification ::@:: Modify yourself to match the beliefs you have on your own groups. <!--SR:!2025-05-08,171,332!2025-12-23,354,352-->
+  - social comparison ::@:: Compare your groups with other groups. This maintains group differences. <!--SR:!2025-12-27,358,352!2025-03-14,125,312-->
 - activity 1: social identity exercise + reflection by drawing
-  - social identity exercise + reflection by drawing / debrief ::@:: Try identify your own social identities. You may discover how you are made from your past experiences. <!--SR:!2025-01-03,77,332!2025-08-26,252,332-->
+  - social identity exercise + reflection by drawing / debrief ::@:: Try identify your own social identities. You may discover how you are made from your past experiences. <!--SR:!2025-12-19,350,352!2025-08-26,252,332-->
 - activity 2: life wheel
-  - life wheel / debrief ::@:: Evaluate your life in 10 categories from 1 to 10. Think of 3 categories to improve and imagine it. Finally, think of 1 action that you can do now to balance the wheel. <!--SR:!2025-01-03,77,332!2025-01-03,77,332-->
-- psychometric assessments ::@:: EQ-i<sup>2.0</sup>, STRONG <!--SR:!2025-01-03,77,332!2025-01-03,77,332-->
+  - life wheel / debrief ::@:: Evaluate your life in 10 categories from 1 to 10. Think of 3 categories to improve and imagine it. Finally, think of 1 action that you can do now to balance the wheel. <!--SR:!2025-12-24,355,352!2025-12-23,354,352-->
+- psychometric assessments ::@:: EQ-i<sup>2.0</sup>, STRONG <!--SR:!2025-12-18,349,352!2025-12-21,352,352-->
 
 ## week 4 tutorial
 
