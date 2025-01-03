@@ -30,57 +30,57 @@ tags:
 <!-- -->
 <!-- | - [v](https://en.wikipedia.org/wiki/Template:Accounting) <br/> - [t](https://en.wikipedia.org/wiki/Template%20talk:Accounting) <br/> - [e](https://en.wikipedia.org/wiki/Special:EditPage/Template%3AAccounting) | -->
 
-__Cash flow__, {@{in general, refers to payments made into or out of a business, project, or financial product}@}.<sup>[\[1\]](#^ref-1)</sup> It can also {@{refer more specifically to a real or virtual movement of [money](cash.md)}@}.
+__Cash flow__, {@{in general, refers to payments made into or out of a business, project, or financial product}@}.<sup>[\[1\]](#^ref-1)</sup> It can also {@{refer more specifically to a real or virtual movement of [money](cash.md)}@}. <!--SR:!2025-01-07,4,270!2025-01-07,4,270-->
 
-- Cash flow, in its narrow sense, is ::@:: a [payment](payment.md) \(in a [currency](currency.md)\), especially from one [central bank](central%20bank.md) account to another. The term 'cash flow' is mostly used to describe payments that are expected to happen in the future, are thus uncertain, and therefore need to be [forecast](cash%20flow%20forecasting.md) with cash flows.
-- A cash flow \(CF\) is determined by ::@:: its time _t_, [nominal amount](real%20and%20nominal%20value.md) _N_, currency CCY, and account A; symbolically, CF = CF\(_t_, _N_, CCY, A\).
+- Cash flow, in its narrow sense, is ::@:: a [payment](payment.md) \(in a [currency](currency.md)\), especially from one [central bank](central%20bank.md) account to another. The term 'cash flow' is mostly used to describe payments that are expected to happen in the future, are thus uncertain, and therefore need to be [forecast](cash%20flow%20forecasting.md) with cash flows. <!--SR:!2025-01-06,3,250!2025-01-07,4,270-->
+- A cash flow \(CF\) is determined by ::@:: its time _t_, [nominal amount](real%20and%20nominal%20value.md) _N_, currency CCY, and account A; symbolically, CF = CF\(_t_, _N_, CCY, A\). <!--SR:!2025-01-07,4,270!2025-01-07,4,270-->
 
-Cash flows are narrowly interconnected with {@{the concepts of [value](value%20(economics).md), interest rate, and [liquidity](liquidity.md)}@}. {@{A cash flow that shall happen on a future day _t<sub>N</sub>_}@} can be {@{transformed into a cash flow of the same value in _t_<sub>0</sub>}@}. This transformation process is known as {@{[discounting](discounting.md)}@}, and it takes into account {@{the [time value of money](time%20value%20of%20money.md) by adjusting the nominal amount of the cash flow based on the prevailing [interest rates](interest%20rate.md) at the time}@}.
+Cash flows are narrowly interconnected with {@{the concepts of [value](value%20(economics).md), interest rate, and [liquidity](liquidity.md)}@}. {@{A cash flow that shall happen on a future day _t<sub>N</sub>_}@} can be {@{transformed into a cash flow of the same value in _t_<sub>0</sub>}@}. This transformation process is known as {@{[discounting](discounting.md)}@}, and it takes into account {@{the [time value of money](time%20value%20of%20money.md) by adjusting the nominal amount of the cash flow based on the prevailing [interest rates](interest%20rate.md) at the time}@}. <!--SR:!2025-01-07,4,270!2025-01-07,4,270!2025-01-07,4,270!2025-01-07,4,270!2025-01-07,4,270-->
 
 ## cash flow analysis
 
 <!-- | ![](../../archives/Wikimedia%20Commons/Question%20book-new.svg) | This section __does not [cite](https://en.wikipedia.org/wiki/Wikipedia:Citing%20sources) any [sources](https://en.wikipedia.org/wiki/Wikipedia:Verifiability)__. Please help [improve this section](https://en.wikipedia.org/wiki/Special:EditPage/Cash%20flow) by [adding citations to reliable sources](https://en.wikipedia.org/wiki/Help:Referencing%20for%20beginners). Unsourced material may be challenged and [removed](https://en.wikipedia.org/wiki/Wikipedia:Verifiability#Burden%20of%20evidence). _\(January 2024\)__ \([Learn how and when to remove this message](https://en.wikipedia.org/wiki/Help:Maintenance%20template%20removal)\)_ | -->
 
-Cash flows are often {@{transformed into measures that give information e.g. on a company's value and situation}@}:
+Cash flows are often {@{transformed into measures that give information e.g. on a company's value and situation}@}: <!--SR:!2025-01-07,4,270-->
 
-- (annotation: value) ::@:: to determine a project's [rate of return](accounting%20rate%20of%20return.md) or value. The time of cash flows into and out of projects are used as inputs in financial models such as [internal rate of return](internal%20rate%20of%20return.md) and [net present value](net%20present%20value.md).
-- (annotation: liquidity) ::@:: to determine problems with a business's [liquidity](accounting%20liquidity.md). Being profitable does not necessarily mean being liquid. A company can fail because of a shortage of cash even while profitable.
-- (annotation: profits) ::@:: as an alternative measure of a business's [profits](profit%20(accounting).md) when it is believed that [accrual accounting](accrual.md) concepts do not represent economic realities. For instance, a company may be notionally profitable but generating little operational cash \(as may be the case for a company that barters its products rather than selling for cash\). In such a case, the company may be deriving additional operating cash by issuing shares or raising additional debt finance.
-- (annotation: quality) ::@:: cash flow can be used to evaluate the 'quality' of income generated by [accrual accounting](accrual.md). When net [income](income.md) is composed of large non-cash items it is considered low quality.
-- (annotation: risk) ::@:: to evaluate the risks within a financial product, e.g., matching cash requirements, evaluating default risk, re-investment requirements, etc.
+- (annotation: value) ::@:: to determine a project's [rate of return](accounting%20rate%20of%20return.md) or value. The time of cash flows into and out of projects are used as inputs in financial models such as [internal rate of return](internal%20rate%20of%20return.md) and [net present value](net%20present%20value.md). <!--SR:!2025-01-07,4,270!2025-01-07,4,270-->
+- (annotation: liquidity) ::@:: to determine problems with a business's [liquidity](accounting%20liquidity.md). Being profitable does not necessarily mean being liquid. A company can fail because of a shortage of cash even while profitable. <!--SR:!2025-01-07,4,270!2025-01-07,4,270-->
+- (annotation: profits) ::@:: as an alternative measure of a business's [profits](profit%20(accounting).md) when it is believed that [accrual accounting](accrual.md) concepts do not represent economic realities. For instance, a company may be notionally profitable but generating little operational cash \(as may be the case for a company that barters its products rather than selling for cash\). In such a case, the company may be deriving additional operating cash by issuing shares or raising additional debt finance. <!--SR:!2025-01-06,3,250!2025-01-06,3,250-->
+- (annotation: quality) ::@:: cash flow can be used to evaluate the 'quality' of income generated by [accrual accounting](accrual.md). When net [income](income.md) is composed of large non-cash items it is considered low quality. <!--SR:!2025-01-07,4,270!2025-01-07,4,270-->
+- (annotation: risk) ::@:: to evaluate the risks within a financial product, e.g., matching cash requirements, evaluating default risk, re-investment requirements, etc. <!--SR:!2025-01-07,4,270!2025-01-07,4,270-->
 
-Cash flow notion is based {@{loosely on cash flow statement accounting standards}@}. The term is {@{flexible and can refer to time intervals spanning over past-future}@}. It can refer to {@{the total of all flows involved or a subset of those flows}@}.
+Cash flow notion is based {@{loosely on cash flow statement accounting standards}@}. The term is {@{flexible and can refer to time intervals spanning over past-future}@}. It can refer to {@{the total of all flows involved or a subset of those flows}@}. <!--SR:!2025-01-07,4,270!2025-01-07,4,270!2025-01-07,4,270-->
 
-Within {@{cash flow analysis}@}, {@{3 types of cash flow}@} are present and used for the cash flow statement: (annotation: they are {@{cash flow from operating, investing, financing activities}@})
+Within {@{cash flow analysis}@}, {@{3 types of cash flow}@} are present and used for the cash flow statement: (annotation: they are {@{cash flow from operating, investing, financing activities}@}) <!--SR:!2025-01-07,4,270!2025-01-07,4,270!2025-01-07,4,270-->
 
-- Cash flow from operating activities - ::@:: a measure of the cash generated by a company's regular business operations. Operating cash flow indicates whether a company can produce sufficient cash flow to cover current expenses and pay debts.
-- Cash flow from investing activities - ::@:: the amount of cash generated from investing activities such as purchasing physical assets, investments in securities, or the sale of securities or assets.
-- Cash flow from financing activities - ::@:: the net flows of cash that are used to fund the company. This includes transactions involving dividends, equity, and debt.
+- Cash flow from operating activities - ::@:: a measure of the cash generated by a company's regular business operations. Operating cash flow indicates whether a company can produce sufficient cash flow to cover current expenses and pay debts. <!--SR:!2025-01-07,4,270!2025-01-07,4,270-->
+- Cash flow from investing activities - ::@:: the amount of cash generated from investing activities such as purchasing physical assets, investments in securities, or the sale of securities or assets. <!--SR:!2025-01-07,4,270!2025-01-07,4,270-->
+- Cash flow from financing activities - ::@:: the net flows of cash that are used to fund the company. This includes transactions involving dividends, equity, and debt. <!--SR:!2025-01-07,4,270!2025-01-07,4,270-->
 
 ## business' financials
 
 <!-- | ![](../../archives/Wikimedia%20Commons/Question%20book-new.svg) | This section __does not [cite](https://en.wikipedia.org/wiki/Wikipedia:Citing%20sources) any [sources](https://en.wikipedia.org/wiki/Wikipedia:Verifiability)__. Please help [improve this section](https://en.wikipedia.org/wiki/Special:EditPage/Cash%20flow) by [adding citations to reliable sources](https://en.wikipedia.org/wiki/Help:Referencing%20for%20beginners). Unsourced material may be challenged and [removed](https://en.wikipedia.org/wiki/Wikipedia:Verifiability#Burden%20of%20evidence). _\(January 2024\)__ \([Learn how and when to remove this message](https://en.wikipedia.org/wiki/Help:Maintenance%20template%20removal)\)_ | -->
 
-{@{The \(total\) net cash flow}@} of a company {@{over a period \(typically a quarter, half year, or a full year\)}@} is {@{equal to the change in cash balance over this period}@}: {@{positive if the cash balance increases \(more cash becomes available\), negative if the cash balance decreases}@}. {@{The total net cash flow for a project}@} is {@{the sum of cash flows that are classified in three areas}@}: (annotation: they are {@{operational cash flow (OCF), change in net working capital, [capital expenditure](capital%20expenditure.md)}@})
+{@{The \(total\) net cash flow}@} of a company {@{over a period \(typically a quarter, half year, or a full year\)}@} is {@{equal to the change in cash balance over this period}@}: {@{positive if the cash balance increases \(more cash becomes available\), negative if the cash balance decreases}@}. {@{The total net cash flow for a project}@} is {@{the sum of cash flows that are classified in three areas}@}: (annotation: they are {@{operational cash flow (OCF), change in net working capital, [capital expenditure](capital%20expenditure.md)}@}) <!--SR:!2025-01-07,4,270!2025-01-07,4,270!2025-01-07,4,270!2025-01-07,4,270!2025-01-07,4,270!2025-01-07,4,270!2025-01-06,3,250-->
 
-- [Operational cash flows](operating%20cash%20flow.md): ::@:: cash received or expended as a result of the company's internal business activities. Operating cash flow of a project is determined by:
-  - (annotation: OCF / incremental earnings) ::@:: OCF = incremental earnings+depreciation=\(earning before interest and tax−tax\)+depreciation
-  - (annotation: OCF / EBIT) ::@:: OCF = earning before interest and tax\*\(1−tax rate\)+ depreciation
-  - (annotation: OCF / full form) ::@:: OCF = \(revenue − cost of good sold − operating expense − depreciation\)\* \(1−tax rate\)+depreciation
-  - (annotation: OCF / depreciation shield) ::@:: OCF = \(Revenue − cost of good sold − operating expense\)\* \(1−tax rate\)+ depreciation\* \(tax rate\)
+- [Operational cash flows](operating%20cash%20flow.md): ::@:: cash received or expended as a result of the company's internal business activities. Operating cash flow of a project is determined by: <!--SR:!2025-01-07,4,270!2025-01-07,4,270-->
+  - (annotation: OCF / incremental earnings) ::@:: OCF = incremental earnings+depreciation=\(earning before interest and tax−tax\)+depreciation <!--SR:!2025-01-07,4,270!2025-01-07,4,270-->
+  - (annotation: OCF / EBIT) ::@:: OCF = earning before interest and tax\*\(1−tax rate\)+ depreciation <!--SR:!2025-01-07,4,270!2025-01-07,4,270-->
+  - (annotation: OCF / full form) ::@:: OCF = \(revenue − cost of good sold − operating expense − depreciation\)\* \(1−tax rate\)+depreciation <!--SR:!2025-01-07,4,270!2025-01-07,4,270-->
+  - (annotation: OCF / depreciation shield) ::@:: OCF = \(Revenue − cost of good sold − operating expense\)\* \(1−tax rate\)+ depreciation\* \(tax rate\) <!--SR:!2025-01-07,4,270!2025-01-07,4,270-->
     - {@{Depreciation\*\(tax rate\) which locates at the end of the formula}@} is called {@{depreciation shield}@} through which we can see that {@{there is a negative relation between depreciation and cash flow (annotation: more depreciation (more negative) means more cash flow (more positive))}@}.
-- Changing in net working capital: ::@:: it is the cost or revenue related to the company's short-term asset like inventory.
-- [Capital spending](capital%20expenditure.md): ::@:: this is the cost or gain related to the company's fix asset such as the cash used to buy a new equipment or the cash which is gained from selling an old equipment.
+- Changing in net working capital: ::@:: it is the cost or revenue related to the company's short-term asset like inventory. <!--SR:!2025-01-07,4,270!2025-01-07,4,270-->
+- [Capital spending](capital%20expenditure.md): ::@:: this is the cost or gain related to the company's fix asset such as the cash used to buy a new equipment or the cash which is gained from selling an old equipment. <!--SR:!2025-01-07,4,270!2025-01-07,4,270-->
 
-{@{The sum of the three component above}@} will be {@{the cash flow for a project}@}.
+{@{The sum of the three component above}@} will be {@{the cash flow for a project}@}. <!--SR:!2025-01-07,4,270!2025-01-07,4,270-->
 
-And {@{the cash flow for a company}@} also {@{include three parts}@}: (annotation: they are {@{operating, investment, financing cash flow}@})
+And {@{the cash flow for a company}@} also {@{include three parts}@}: (annotation: they are {@{operating, investment, financing cash flow}@}) <!--SR:!2025-01-07,4,270!2025-01-07,4,270!2025-01-07,4,270-->
 
-- [Operating cash flow](operating%20cash%20flow.md): ::@:: refers to the cash received or loss because of the internal activities of a company such as the cash received from sales revenue or the cash paid to the workers.
-- Investment cash flow: ::@:: refers to the cash flow which related to the company's fixed assets such as equipment building and so on such as the cash used to buy a new equipment or a building
-- Financing cash flow: ::@:: cash flow from a company's financing activities like issuing stock or paying dividends.
+- [Operating cash flow](operating%20cash%20flow.md): ::@:: refers to the cash received or loss because of the internal activities of a company such as the cash received from sales revenue or the cash paid to the workers. <!--SR:!2025-01-06,3,250!2025-01-07,4,270-->
+- Investment cash flow: ::@:: refers to the cash flow which related to the company's fixed assets such as equipment building and so on such as the cash used to buy a new equipment or a building <!--SR:!2025-01-07,4,270!2025-01-07,4,270-->
+- Financing cash flow: ::@:: cash flow from a company's financing activities like issuing stock or paying dividends. <!--SR:!2025-01-07,4,270!2025-01-07,4,270-->
 
-{@{The sum of the three components above}@} will be {@{the total cash flow of a company}@}.
+{@{The sum of the three components above}@} will be {@{the total cash flow of a company}@}. <!--SR:!2025-01-07,4,270!2025-01-07,4,270-->
 
 ## examples
 
@@ -93,9 +93,9 @@ And {@{the cash flow for a company}@} also {@{include three parts}@}: (annotatio
 | &emsp;Taxes                          | -5            |               |
 | {@{__Cash flow from investments__}@} |               | {@{__-10__}@} |
 | &emsp;Purchased capital              | -10           |               |
-| {@{__Total__}@}                      |               | {@{__60__}@}  |
+| {@{__Total__}@}                      |               | {@{__60__}@}  | <!--SR:!2025-01-07,4,270!2025-01-07,4,270!2025-01-07,4,270!2025-01-07,4,270!2025-01-07,4,270!2025-01-07,4,270-->
 
-The net cash flow only {@{provides a limited amount of information}@}. Compare, for instance, the cash flows over three years of two companies:
+The net cash flow only {@{provides a limited amount of information}@}. Compare, for instance, the cash flows over three years of two companies: <!--SR:!2025-01-07,4,270-->
 
 |                                 | Company A  |            |            | Company B  |            |            |
 | ------------------------------- | ---------- | ---------- | ---------- | ---------- | ---------- | ---------- |
@@ -103,9 +103,9 @@ The net cash flow only {@{provides a limited amount of information}@}. Compare, 
 | {@{Cash flow from operations}@} | +20M       | +21M       | +22M       | +10M       | +11M       | +12M       |
 | {@{Cash flow from financing}@}  | +5M        | +5M        | +5M        | +5M        | +5M        | +5M        |
 | {@{Cash flow from investment}@} | -15M       | -15M       | -15M       | 0M         | 0M         | 0M         |
-| {@{Net cash flow}@}             | +10M       | +11M       | +12M       | +15M       | +16M       | +17M       |
+| {@{Net cash flow}@}             | +10M       | +11M       | +12M       | +15M       | +16M       | +17M       | <!--SR:!2025-01-07,4,270!2025-01-07,4,270!2025-01-07,4,270!2025-01-07,4,270-->
 
-Company B has {@{a higher yearly cash flow}@}. However, Company A is {@{actually earning more cash by its core activities and has already spent 45M in long term investments}@}, of which {@{the revenues will only show up after three years}@}.
+Company B has {@{a higher yearly cash flow}@}. However, Company A is {@{actually earning more cash by its core activities and has already spent 45M in long term investments}@}, of which {@{the revenues will only show up after three years}@}. <!--SR:!2025-01-07,4,270!2025-01-07,4,270!2025-01-07,4,270-->
 
 ## see also
 
