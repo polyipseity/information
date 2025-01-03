@@ -3,7 +3,7 @@ from anyio import Path
 from asyncio import gather, run
 from bs4 import BeautifulSoup, NavigableString, PageElement, Tag
 from bs4.element import PreformattedString
-from contextlib import contextmanager
+from contextlib import contextmanager, suppress
 from copy import copy
 from glob import iglob
 from jaraco.clipboard import paste_html  # type: ignore
@@ -474,23 +474,25 @@ async def wiki_html_to_plaintext(
                         if not await redirect_file.exists():
                             # no async
                             with _with_cwd(_CONVERTED_WIKI_LANGUAGE_DIRECTORY):
-                                # `src` <- `dst`
-                                symlink(
-                                    f"{to_filename}.md",
-                                    redirect_file.relative_to(
-                                        _CONVERTED_WIKI_LANGUAGE_DIRECTORY
-                                    ),
-                                    target_is_directory=False,
-                                )
+                                with suppress(FileExistsError):
+                                    # `src` <- `dst`
+                                    symlink(
+                                        f"{to_filename}.md",
+                                        redirect_file.relative_to(
+                                            _CONVERTED_WIKI_LANGUAGE_DIRECTORY
+                                        ),
+                                        target_is_directory=False,
+                                    )
                             with _with_cwd(_CONVERTED_WIKI_DIRECTORY):
-                                # `src` <- `dst`
-                                symlink(
-                                    redirect_file.relative_to(
-                                        _CONVERTED_WIKI_DIRECTORY
-                                    ),
-                                    f"{from_filename}.md",
-                                    target_is_directory=False,
-                                )
+                                with suppress(FileExistsError):
+                                    # `src` <- `dst`
+                                    symlink(
+                                        redirect_file.relative_to(
+                                            _CONVERTED_WIKI_DIRECTORY
+                                        ),
+                                        f"{from_filename}.md",
+                                        target_is_directory=False,
+                                    )
             elif href := ele.get("href"):
                 href = str(href)
                 if href.startswith(f"{_WIKI_HOST_URL}/wiki/") and "#" in href:
