@@ -1,0 +1,1 @@
+eng/strict n-category.md
