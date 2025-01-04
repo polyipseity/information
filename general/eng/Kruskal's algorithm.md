@@ -19,7 +19,7 @@ tags:
 >
 > - __Class__ ::@:: [Minimum spanning tree algorithm](minimum%20spanning%20tree.md) <!--SR:!2025-02-17,66,310!2025-02-16,66,310-->
 > - __Data structure__ ::@:: [Graph](graph%20(abstract%20data%20type).md) <!--SR:!2025-02-16,66,310!2025-02-18,67,310-->
-> - __[Worst-case](best,%20worst%20and%20average%20case.md) [performance](time%20complexity.md)__ ::@:: $O(|E|\log |V|)$ <!--SR:!2025-01-04,28,270!2025-01-08,6,210-->
+> - __[Worst-case](best,%20worst%20and%20average%20case.md) [performance](time%20complexity.md)__ ::@:: $O(|E|\log |V|)$ <!--SR:!2025-03-24,79,270!2025-01-08,6,210-->
 
 {@{__Kruskal's algorithm__}@}<sup>[\[1\]](#^ref-1)</sup> finds {@{a [minimum spanning forest](minimum%20spanning%20tree.md) of an undirected [edge-weighted graph](glossary%20of%20graph%20theory.md#weighted%20graph)}@}. If {@{the graph is [connected](connectivity%20(graph%20theory).md)}@}, it {@{finds a [minimum spanning tree](minimum%20spanning%20tree.md)}@}. It is {@{a [greedy algorithm](greedy%20algorithm.md) that in each step adds to the forest the lowest-weight edge that will not form a [cycle](cycle%20(graph%20theory).md)}@}.<sup>[\[2\]](#^ref-2)</sup> {@{The key steps of the algorithm}@} are {@{[sorting](sorting.md) and the use of a [disjoint-set data structure](disjoint-set%20data%20structure.md) to detect cycles}@}. Its running time is {@{dominated by the time to sort all of the graph edges by their weight}@}. <!--SR:!2025-02-09,60,310!2025-02-11,62,310!2025-02-12,63,310!2025-02-09,60,310!2025-01-29,48,290!2025-02-08,59,310!2025-02-17,66,310!2025-02-18,67,310-->
 

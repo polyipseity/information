@@ -81,7 +81,7 @@ Just as {@{in the case of nimber addition}@}, there is {@{a means of computing t
 
 ## addition and multiplication tables
 
-The following tables exhibit {@{addition and multiplication among the first 16 nimbers}@}. <!--SR:!2025-01-04,10,270-->
+The following tables exhibit {@{addition and multiplication among the first 16 nimbers}@}. <!--SR:!2025-02-12,39,290-->
 
 This subset is {@{closed under both operations}@}, since {@{16 is of the form 2<sup>2<sup>_n_</sup></sup>}@}. \(If you prefer simple text tables, they are [here](https://en.wikipedia.org/w/index.php?title=Nimber&oldid=383699838).\) <!--SR:!2025-01-09,14,290!2025-01-12,17,305-->
 
@@ -89,7 +89,7 @@ This subset is {@{closed under both operations}@}, since {@{16 is of the form 2<
 >
 > {@{Nimber addition}@} \(sequence {@{[A003987](https://oeis.org/A003987)}@} in the [OEIS](On-Line%20Encyclopedia%20of%20Integer%20Sequences.md)\) <br/>
 > This is also {@{the [Cayley table](cayley%20table.md) of [Z<sub>2</sub><sup>4</sup>](list%20of%20small%20groups.md#list%20of%20small%20abelian%20groups) – or the table of [bitwise](bitwise%20operation.md) [XOR](exclusive%20or.md) operations}@}. <br/>
-> The small matrices show {@{the single digits of the binary numbers}@}. <!--SR:!2025-01-24,22,273!2025-01-10,15,290!2025-01-04,10,285!2025-01-12,17,313!2025-01-07,12,285-->
+> The small matrices show {@{the single digits of the binary numbers}@}. <!--SR:!2025-01-24,22,273!2025-01-10,15,290!2025-02-01,28,285!2025-01-12,17,313!2025-01-07,12,285-->
 
 <!-- markdownlint MD028 -->
 
@@ -104,7 +104,7 @@ This subset is {@{closed under both operations}@}, since {@{16 is of the form 2<
 > {@{![nimber multiplication table among powers of two](../../archives/Wikimedia%20Commons/Nimber%20products%20of%20powers%20of%20two.svg)}@}
 >
 > {@{Nimber multiplication of [powers of two](power%20of%20two.md)}@} \(sequence {@{[A223541](https://oeis.org/A223541)}@} in the [OEIS](On-Line%20Encyclopedia%20of%20Integer%20Sequences.md)\) <br/>
-> {@{Calculating the nim-products of powers of two}@} is {@{a decisive point in the recursive algorithm of nimber-multiplication}@}. <!--SR:!2025-01-12,17,313!2025-01-07,12,270!2025-01-06,4,253!2025-01-04,10,285!2025-01-12,17,313-->
+> {@{Calculating the nim-products of powers of two}@} is {@{a decisive point in the recursive algorithm of nimber-multiplication}@}. <!--SR:!2025-01-12,17,313!2025-01-07,12,270!2025-01-06,4,253!2025-02-15,42,305!2025-01-12,17,313-->
 
 ## see also
 

@@ -378,7 +378,7 @@ The content is in teaching order.
     - § computing PCA using the covariance method > data transformation ::@:: Also, instead of transforming the mean-subtracted data using $\mathbf{T} = \mathbf{B} \mathbf{\Phi}$, the original data $\mathbf{Y} = \mathbf{X}^\intercal$ is transformed, and in a different way: $\mathbf{T}' = \mathbf{\Phi}^\intercal \mathbf{Y}$. Each column instead of each row of $\mathbf{T}'$ is a data point. Even more specifically, the data points are transformed one by one: $\mathbf{T}'_i = \mathbf{\Phi}^\intercal \mathbf{Y}_i$. <!--SR:!2025-02-19,181,337!2025-02-02,166,337-->
 - [Analytics Solver usage](../../../Analytic%20Solver%20usage.md): principal components
 - [data warehouse](../../../../general/data%20warehouse.md)
-  - data warehouse > application ::@:: [online analytical processing](../../../../general/online%20analytical%20processing.md) (OLAP), used by many corporations <!--SR:!2026-02-23,494,388!2025-01-04,165,388-->
+  - data warehouse > application ::@:: [online analytical processing](../../../../general/online%20analytical%20processing.md) (OLAP), used by many corporations <!--SR:!2026-02-23,494,388!2026-10-06,640,388-->
   - data warehouse > advantage ::@:: data warehouses can speed up queries on a database <!--SR:!2026-03-28,462,337!2025-08-05,327,377-->
 
 ## week 13 lecture 1

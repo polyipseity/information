@@ -32,7 +32,7 @@ __Catalytic converter__ is a {@{device that converts toxic pollutants into less-
 >
 > - {@{C + O<sub>2</sub> → CO<sub>2</sub>}@}
 > - {@{CO + $\frac{1}{2}$O<sub>2</sub> → CO<sub>2</sub>}@}
-> - {@{$a$ C$_x$H$_y$ + $b$ O<sub>2</sub> → $c$ CO<sub>2</sub> + $d$ H<sub>2</sub>O}@} where $a,b,c,d,x,y\in\mathbb{Z}$ <!--SR:!2025-05-29,732,270!2025-01-04,536,310!2026-09-28,1088,253-->
+> - {@{$a$ C$_x$H$_y$ + $b$ O<sub>2</sub> → $c$ CO<sub>2</sub> + $d$ H<sub>2</sub>O}@} where $a,b,c,d,x,y\in\mathbb{Z}$ <!--SR:!2025-05-29,732,270!2029-07-24,1662,310!2026-09-28,1088,253-->
 
 ## references
 

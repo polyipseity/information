@@ -200,7 +200,7 @@ array([[[1., 1.],
         [1., 1.]]])
 ```
 
-{@{The [`random`](../../API%20reference/generated/numpy.random.Generator.random.md#numpy.random.Generator.random "numpy.random.Generator.random") method of the result of `default_rng`}@} will {@{create an array filled with random values between 0 and 1}@}. It is included with {@{the [`numpy.random`](../../API%20reference/generated/index.md#module-numpy.random "numpy.random") library}@}. Below, two arrays are {@{created with shapes (2,3) and (2,3,2), respectively}@}. The seed is set to 42 so {@{you can reproduce these pseudorandom numbers}@}: <!--SR:!2025-01-04,49,290!2025-02-04,75,330!2025-02-02,73,330!2025-01-24,65,310!2025-01-20,61,310-->
+{@{The [`random`](../../API%20reference/generated/numpy.random.Generator.random.md#numpy.random.Generator.random "numpy.random.Generator.random") method of the result of `default_rng`}@} will {@{create an array filled with random values between 0 and 1}@}. It is included with {@{the [`numpy.random`](../../API%20reference/generated/index.md#module-numpy.random "numpy.random") library}@}. Below, two arrays are {@{created with shapes (2,3) and (2,3,2), respectively}@}. The seed is set to 42 so {@{you can reproduce these pseudorandom numbers}@}: <!--SR:!2025-07-23,200,310!2025-02-04,75,330!2025-02-02,73,330!2025-01-24,65,310!2025-01-20,61,310-->
 
 ```Python
 >>> import numpy as np

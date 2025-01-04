@@ -91,7 +91,7 @@ ADouble = Range("A1") ' runtime error
 ADouble = 3.14 ' okay
 ```
 
-In some circumstances, the value can be {@{implicitly converted to the type of the variable, though sometimes with loss of data}@}: <!--SR:!2025-01-04,240,325-->
+In some circumstances, the value can be {@{implicitly converted to the type of the variable, though sometimes with loss of data}@}: <!--SR:!2027-12-17,1077,345-->
 
 ```VB
 Dim ALong as Long

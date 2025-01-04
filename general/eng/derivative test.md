@@ -106,7 +106,7 @@ The _higher-order derivative test_ or _general derivative test_ can {@{determine
 > 2. {@{If $f'(c)=\cdots=f^{(n-1)}(c)=0$ and $f^{(n)}(c)\ne0$,}@}
 > 3. {@{then:<ul><li>If $n$ is even and $f^{(n)}(c)<0$, $c$ is a [strict local maximum](maximum%20and%20minimum.md) of $f$. $f$ is weakly (strictly if $n = 2$) [concave](concave%20function.md) around $c$.</li><li>If $n$ is even and $f^{(n)}(c)>0$, $c$ is a [strict local minimum](maximum%20and%20minimum.md) of $f$. $f$ is weakly (strictly if $n = 2$) [convex](convex%20function.md) around $c$.</li><li>If $n$ is odd and $f^{(n)}(c)<0$, $c$ is a [stationary falling inflection point](inflection%20point.md) and not a [local extremum](maximum%20and%20minimum.md) of $f$.</li><li>If $n$ is odd and $f^{(n)}(c)>0$, $c$ is a [stationary rising inflection point](inflection%20point.md) and not a [local extremum](maximum%20and%20minimum.md) of $f$.</li></ul>}@}  (annotation: {@{One can memorize most of the above by considering the graph of a function $n = 1$ for odd $n$ and $n = 2$ for even $n$.}@}) <!--SR:!2025-08-13,418,299!2025-01-15,321,339!2025-07-30,409,299!2025-02-19,77,295!2025-02-18,89,355-->
 
-The _one-sided higher-order derivative test_ is {@{stronger than the two-sided higher-order derivative test, as the two-sided version can be derived from the one-sided one by combining conclusions}@}. <!--SR:!2025-01-04,312,339-->
+The _one-sided higher-order derivative test_ is {@{stronger than the two-sided higher-order derivative test, as the two-sided version can be derived from the one-sided one by combining conclusions}@}. <!--SR:!2027-11-29,1059,339-->
 
 > __one-sided higher-order derivative test__
 >

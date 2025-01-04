@@ -217,7 +217,7 @@ personal assistance
 <!--pytextgen generate section="ca84"--><!-- The following content is generated at 2024-03-18T19:56:56.603002+08:00. Any edits will be overridden! -->
 
 - _(begin)_→::@::←automated services <!--SR:!2025-08-04,322,294!2027-01-11,764,330-->
-- automated services→::@::←co-creation <!--SR:!2025-10-24,337,254!2025-01-04,167,274-->
+- automated services→::@::←co-creation <!--SR:!2025-10-24,337,254!2026-10-08,642,294-->
 - co-creation→::@::←communities <!--SR:!2025-08-21,303,254!2026-04-09,539,314-->
 - communities→::@::←dedicated personal assistance <!--SR:!2025-03-26,226,277!2025-06-04,268,274-->
 - dedicated personal assistance→::@::←personal assistance <!--SR:!2025-02-04,208,317!2025-01-10,191,317-->
@@ -294,7 +294,7 @@ In cost structures, costs can be {@{fixed costs or variable costs}@}. Costs can 
 
 ### fit
 
-Business model fit can be achieved by {@{reiteration between changing the value propositions and the rest of the business model}@}, because these two {@{are interdependent on each other: changing one entails changing the other}@}. The changes can be {@{big or small}@}: pivot {@{means making radical changes to the business model because your code idea requires more exploration}@}, while iteration {@{means reorienting the business model slightly but still closely related to the original}@}. <!--SR:!2025-07-14,279,289!2026-07-08,589,329!2025-03-01,223,329!2026-08-15,590,329!2025-01-04,166,309-->
+Business model fit can be achieved by {@{reiteration between changing the value propositions and the rest of the business model}@}, because these two {@{are interdependent on each other: changing one entails changing the other}@}. The changes can be {@{big or small}@}: pivot {@{means making radical changes to the business model because your code idea requires more exploration}@}, while iteration {@{means reorienting the business model slightly but still closely related to the original}@}. <!--SR:!2025-07-14,279,289!2026-07-08,589,329!2025-03-01,223,329!2026-08-15,590,329!2026-12-14,709,329-->
 
 ## comparison with other models
 

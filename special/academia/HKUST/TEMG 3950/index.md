@@ -34,7 +34,7 @@ The content is in teaching order.
 - [_Blue Ocean Strategy_ § concept](../../../../general/Blue%20Ocean%20Strategy.md#concept)
   - blue ocean strategy example ::@:: [inventing the air fryer from observing French fries](../../../examples/inventing%20the%20air%20fryer%20from%20observing%20French%20fries.md) <!--SR:!2025-08-13,324,290!2025-01-05,182,310-->
 - International Business Plan Competition ::@:: IBPC <!--SR:!2025-02-22,234,330!2025-04-24,282,330-->
-- transferrable technology ::@:: Technology that can potentially target multiple market segments. <!--SR:!2025-04-09,269,330!2025-01-04,181,310-->
+- transferrable technology ::@:: Technology that can potentially target multiple market segments. <!--SR:!2025-04-09,269,330!2027-02-17,774,330-->
 - reading assignment: [IBM prioritization grid](../../../IBM%20prioritization%20grid.md), [market segmentation](../../../market%20segmentation.md)
 - [assignment W2](assignment%20W2/assignment%20W2.md)
 
@@ -172,7 +172,7 @@ The content is in teaching order.
     - consultant after 1 to 2 years ::@:: Analyst, Associate, Specialist: doing the work; enter from BA, BS, MPhil, or MSc <!--SR:!2025-01-11,152,321!2025-03-17,200,341-->
     - consultant after 2 to 4 years ::@:: As. Consultant, Consultant, Sr. Consultant: doing the work; enter from JD, MBA, MD, or PhD, exit to project member of big firms or manager in small firms, and further top MBA <!--SR:!2025-04-17,226,341!2026-04-06,462,321-->
     - consultant after 4 to 6 years ::@:: Eng. Manager, Mg. Consultant, Project Leader: managing the work; exit to manager of big firms or director of small firms, and further top EMBA <!--SR:!2025-01-24,123,281!2025-08-30,334,361-->
-    - consultant after 6 to 9 years ::@:: As. Partner, Principal: selling the work; exit to director of big firms or general manager (GM) of small firms, and further top EMBA <!--SR:!2025-08-30,307,301!2025-01-04,149,321-->
+    - consultant after 6 to 9 years ::@:: As. Partner, Principal: selling the work; exit to director of big firms or general manager (GM) of small firms, and further top EMBA <!--SR:!2025-08-30,307,301!2026-04-27,478,321-->
     - consultant after 9 years or more ::@:: Director, Partner, VP: managing the business; exit to CEO or retire rich <!--SR:!2025-03-10,199,341!2025-08-10,320,361-->
 - nature of complex problems ::@:: modeled by time-varying multi-variable optimization problems with constraints <!--SR:!2025-02-13,185,361!2025-12-20,450,381-->
   - solving complex problems ::@:: MECE frameworks for patterns, 5-step persuasive selling for presentation <!--SR:!2025-11-29,432,381!2026-05-05,528,341-->

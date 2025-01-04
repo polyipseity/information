@@ -233,7 +233,7 @@ water security
 <!--pytextgen generate section="9f12"--><!-- The following content is generated at 2024-02-16T21:59:47.097705+08:00. Any edits will be overridden! -->
 
 - _(begin)_→::@::←climate change <!--SR:!2026-12-02,768,345!2025-02-24,228,350-->
-- climate change→::@::←extreme weather <!--SR:!2025-08-18,343,337!2025-01-04,199,350-->
+- climate change→::@::←extreme weather <!--SR:!2025-08-18,343,337!2026-12-09,704,350-->
 - extreme weather→::@::←food security <!--SR:!2026-03-19,492,330!2025-03-06,235,347-->
 - food security→::@::←mega-cities <!--SR:!2025-12-02,460,372!2025-08-03,319,320-->
 - mega-cities→::@::←water security <!--SR:!2025-03-02,229,360!2025-04-02,93,334-->
@@ -742,7 +742,7 @@ tunnel
 
 - _(begin)_→::@::←embankment <!--SR:!2025-09-25,357,320!2025-06-28,320,380-->
 - embankment→::@::←pile foundation <!--SR:!2026-03-06,512,340!2025-02-18,218,360-->
-- pile foundation→::@::←shallow foundation <!--SR:!2025-01-07,170,317!2025-01-04,191,355-->
+- pile foundation→::@::←shallow foundation <!--SR:!2025-01-07,170,317!2026-11-13,678,355-->
 - shallow foundation→::@::←tunnel <!--SR:!2025-09-06,333,321!2025-01-14,103,212-->
 - tunnel→::@::←_(end)_ <!--SR:!2025-01-15,195,350!2026-01-29,412,317-->
 

@@ -27,7 +27,7 @@ This property is especially {@{useful in maintaining a graph with a two-fold [re
 
 {@{A __biconnected__ [undirected graph](graph%20(discrete%20mathematics).md#undirected%20graph)}@} is {@{a connected graph that is not broken into disconnected pieces by deleting any single vertex \(and its incident edges\)}@}. <!--SR:!2025-01-10,15,292!2025-01-11,16,292-->
 
-{@{A __biconnected__ [directed graph](directed%20graph.md)}@} is {@{one such that for any two vertices _v_ and _w_ there are two directed paths from _v_ to _w_ which have no vertices in common other than _v_ and _w_}@}. <!--SR:!2025-01-09,14,292!2025-01-04,10,272-->
+{@{A __biconnected__ [directed graph](directed%20graph.md)}@} is {@{one such that for any two vertices _v_ and _w_ there are two directed paths from _v_ to _w_ which have no vertices in common other than _v_ and _w_}@}. <!--SR:!2025-01-09,14,292!2025-02-12,39,292-->
 
 ## examples
 

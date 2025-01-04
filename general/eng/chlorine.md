@@ -14,7 +14,7 @@ tags:
 
 ### oxyanions and oxyacids
 
-Chlorine {@{[disproportionates](disproportionation.md) to produce [chloride](chloride.md) and [hypochlorite](hypochlorite.md) ions in [solutions](solution%20(chemistry).md). It is much more likely to do so in [alkaline](alkali.md) solutions than in [acidic](acid.md) solutions}@}: <!--SR:!2025-01-04,389,250-->
+Chlorine {@{[disproportionates](disproportionation.md) to produce [chloride](chloride.md) and [hypochlorite](hypochlorite.md) ions in [solutions](solution%20(chemistry).md). It is much more likely to do so in [alkaline](alkali.md) solutions than in [acidic](acid.md) solutions}@}: <!--SR:!2027-09-02,971,250-->
 
 > [disproportionation](disproportionation.md) of chlorine
 >

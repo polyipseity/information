@@ -21,7 +21,7 @@ The format outlined below is {@{only recommended and does not need to be followe
 To optimize the résumé for successful application and {@{[applicant tracking system](applicant%20tracking%20system.md)}@}: <!--SR:!2028-07-30,1370,350-->
 
 - content ::@:: include: email address, keywords, LinkedIn link, phone number; exclude: date of birth, gender, home address <!--SR:!2025-05-07,334,250!2025-04-02,297,353-->
-- fonts ::@:: 1 font style only; name: 14; contact: 8; body: 11 or 12; header: 11 or 12, bold <!--SR:!2025-01-04,264,250!2025-03-22,288,353-->
+- fonts ::@:: 1 font style only; name: 14; contact: 8; body: 11 or 12; header: 11 or 12, bold <!--SR:!2027-07-21,928,270!2025-03-22,288,353-->
 - formatting ::@:: consistent, minimal <!--SR:!2026-01-13,560,310!2025-05-03,329,373-->
 - length ::@:: 1 single-sided page <!--SR:!2028-01-14,1205,350!2025-04-21,319,373-->
 - line spacing ::@:: single <!--SR:!2028-03-20,1250,350!2025-06-24,372,373-->

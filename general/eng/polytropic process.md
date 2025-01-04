@@ -138,8 +138,8 @@ return _chain.from_iterable(await _gather(
 - under [ideal gas law](ideal%20gas%20law.md), [heat](heat.md) and [work](work%20(physics).md) flow in the opposite direction; when [volume](volume.md) increases, [temperature](temperature.md) increases:@:0 < _n_ < 1 <!--SR:!2027-06-18,916,330-->
 - $pV = C$; under [ideal gas law](ideal%20gas%20law.md), equivalent to [isothermic process](isothermic%20process.md), and [heat](heat.md) and [work](work%20(physics).md) flow in opposite direction:@:_n_ = 1 <!--SR:!2028-04-16,1230,350-->
 - under [ideal gas law](ideal%20gas%20law.md), [heat](heat.md) and [work](work%20(physics).md) flow in the opposite direction; when [volume](volume.md) increases, [temperature](temperature.md) decreases:@:1 < _n_ < _γ_ <!--SR:!2026-04-02,582,310-->
-- under [ideal gas law](ideal%20gas%20law.md), equivalent to [isentropic process](isentropic%20process.md), and there is no [heat](heat.md) flow:@:_n_ = _γ_ <!--SR:!2025-01-04,295,330-->
-- under [ideal gas law](ideal%20gas%20law.md), [heat](heat.md) and [work](work%20(physics).md) flow in the same direction:@:_γ_ < _n_ < +∞ <!--SR:!2025-01-04,245,270-->
+- under [ideal gas law](ideal%20gas%20law.md), equivalent to [isentropic process](isentropic%20process.md), and there is no [heat](heat.md) flow:@:_n_ = _γ_ <!--SR:!2028-09-09,1344,350-->
+- under [ideal gas law](ideal%20gas%20law.md), [heat](heat.md) and [work](work%20(physics).md) flow in the same direction:@:_γ_ < _n_ < +∞ <!--SR:!2026-10-30,664,270-->
 - $V = C$, equivalent to [isochoric process](isochoric%20process.md); there is no [work](work%20(physics).md):@:_n_ = +∞ <!--SR:!2027-07-31,1026,350-->
 
 <!--/pytextgen-->
