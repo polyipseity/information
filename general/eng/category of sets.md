@@ -1,0 +1,92 @@
+---
+aliases:
+  - categories of sets
+  - category of sets
+tags:
+  - flashcard/active/general/eng/category_of_sets
+  - language/in/English
+---
+
+# category of sets
+
+In {@{the [mathematical](mathematics.md) field of [category theory](category%20theory.md)}@}, {@{the __category of sets__, denoted by __Set__}@}, is {@{the [category](category%20(mathematics).md) whose [objects](category%20theory.md) are [sets](set%20(mathematics).md)}@}. {@{The arrows or [morphisms](morphism.md) between sets _A_ and _B_}@} are {@{the [functions](function%20(mathematics).md) from _A_ to _B_}@}, and {@{the composition of morphisms is the [composition of functions](function%20composition.md)}@}.
+
+{@{Many other categories \(such as the [category of groups](category%20of%20groups.md), with [group homomorphisms](group%20homomorphisms.md) as arrows\)}@} {@{add structure to the objects of the category of sets or restrict the arrows to functions of a particular kind \(or both\)}@}.
+
+## properties of the category of sets
+
+{@{The axioms of a category are satisfied by __Set__}@} because {@{composition of functions is [associative](associative%20property.md)}@}, and because {@{every set _X_ has an [identity function](identity%20function.md) id<sub>_X_</sub> : _X_ → _X_ which serves as identity element for function composition}@}.
+
+{@{The [epimorphisms](epimorphism.md) in __Set__ are the [surjective](surjective.md) maps}@}, {@{the [monomorphisms](monomorphism.md) are the [injective](injective.md) maps}@}, and {@{the [isomorphisms](isomorphism%20(category%20theory).md#category%20theoretic%20view) are the [bijective](bijective.md) maps}@}.
+
+{@{The [empty set](empty%20set.md) serves as the [initial object](initial%20object.md) in __Set__}@} with {@{[empty functions](empty%20function.md#standard%20functions) as morphisms}@}. {@{Every [singleton](singleton%20(mathematics).md) is a [terminal object](terminal%20object.md)}@}, with {@{the functions mapping all elements of the source sets to the single target element as morphisms}@}. There are thus {@{no [zero objects](zero%20object.md) in __Set__}@}.
+
+The category __Set__ is {@{[complete and co-complete](complete%20category.md)}@}. {@{The [product](product%20(category%20theory).md) in this category}@} is given by {@{the [cartesian product](Cartesian%20product.md) of sets}@}. {@{The [coproduct](coproduct%20(category%20theory).md)}@} is given by {@{the [disjoint union](disjoint%20union.md)}@}: given {@{sets _A_<sub>_i_</sub> where _i_ ranges over some index set _I_}@}, we construct {@{the coproduct as the union of _A_<sub>_i_</sub>×{_i_} \(the cartesian product with _i_ serves to ensure that all the components stay disjoint\)}@}.
+
+__Set__ is {@{the prototype of a [concrete category](concrete%20category.md)}@}; other categories are {@{concrete if they are "built on" __Set__ in some well-defined way}@}.
+
+{@{Every two-element set}@} serves as {@{a [subobject classifier](subobject%20classifier.md) in __Set__}@}. {@{The power object of a set _A_}@} is given by {@{its [power set](power%20set.md)}@}, and {@{the [exponential object](exponential%20object.md) of the sets _A_ and _B_}@} is given by {@{the set of all functions from _A_ to _B_}@}. __Set__ is thus {@{a [topos](topos.md)}@} \(and in particular {@{[cartesian closed](Cartesian%20closed%20category.md) and [exact in the sense of Barr](regular%20category.md#exact%20(effective)%20categories)}@}\).
+
+__Set__ is not {@{[abelian](abelian%20category.md), [additive](additive%20category.md) nor [preadditive](preadditive%20category.md)}@}.
+
+{@{Every non-empty set}@} is {@{an [injective object](injective%20object.md) in __Set__}@}. {@{Every set}@} is {@{a [projective object](projective%20module.md) in __Set__ \(assuming the [axiom of choice](axiom%20of%20choice.md)\)}@}.
+
+{@{The [finitely presentable objects](accessible%20category.md)}@} in __Set__ are {@{the finite sets}@}. Since {@{every set is a [direct limit](direct%20limit.md) of its finite subsets}@}, the category __Set__ is {@{a [locally finitely presentable category](accessible%20category.md)}@}.
+
+If {@{_C_ is an arbitrary category}@}, {@{the [contravariant functors](contravariant%20functor.md#covariance%20and%20contravariance) from _C_ to __Set__}@} are often an important object of study. If {@{_A_ is an object of _C_}@}, then {@{the functor from _C_ to __Set__ that sends _X_ to Hom<sub>_C_</sub>\(_X_,_A_\) \(the set of morphisms in _C_ from _X_ to _A_\)}@} (annotation: a morphism in _C_, {@{$f: X \to Y$, is sent to $\circ f$ (composition with $f$ on the right), which accepts a $(Y \to A) \in \mathrm{Hom}_C(Y, A)$ and outputs a $(X \to A) \in \mathrm{Hom}_C(X, A)$; we can see the direction is reversed}@}) is an example of such a functor. If {@{_C_ is a [small category](category%20(mathematics).md#small%20and%20large%20categories) \(i.e. the collection of its objects forms a set\)}@}, then {@{the contravariant functors from _C_ to __Set__, together with natural transformations as morphisms}@}, form {@{a new category, a [functor category](functor%20category.md)}@} known as {@{the category of [presheaves](presheaves.md#presheaves) on _C_}@}.
+
+## foundations for the category of sets
+
+In {@{[Zermelo–Fraenkel set theory](Zermelo–Fraenkel%20set%20theory.md)}@} {@{the collection of all sets is not a set}@}; this follows from {@{the [axiom of foundation](axiom%20of%20foundation.md)}@}. One refers to {@{collections that are not sets as [proper classes](proper%20class.md)}@}. One cannot {@{handle proper classes as one handles sets}@}; in particular, one cannot {@{write that those proper classes belong to a collection \(either a set or a proper class\)}@}. This is a problem because {@{it means that the category of sets cannot be formalized straightforwardly in this setting}@}. {@{Categories like __Set__ whose collection of objects forms a proper class}@} are known as {@{[large categories](large%20category.md#small%20and%20large%20categories)}@}, to {@{distinguish them from the small categories whose objects form a set}@}.
+
+{@{One way to resolve the problem}@} is to {@{work in a system that gives formal status to proper classes, such as [NBG set theory](NBG%20set%20theory.md)}@}. In this setting, {@{categories formed from sets are said to be _small_}@} and {@{those \(like __Set__\) that are formed from proper classes are said to be _large_}@}.
+
+{@{Another solution}@} is to {@{assume the existence of [Grothendieck universes](Grothendieck%20universe.md)}@}. Roughly speaking, a Grothendieck universe is {@{a set which is itself a model of ZF\(C\)}@} \(for instance {@{if a set belongs to a universe, its elements and its powerset will belong to the universe}@}\). {@{The existence of Grothendieck universes}@} \(other than {@{the empty set and the set $V_{\omega }$ of all [hereditarily finite sets](hereditarily%20finite%20set.md)}@}\) is {@{not implied by the usual ZF axioms}@}; it is {@{an additional, independent axiom, roughly equivalent to the existence of [strongly inaccessible cardinals](strongly%20inaccessible%20cardinal.md)}@}. Assuming this extra axiom, one can {@{limit the objects of __Set__ to the elements of a particular universe}@}. \(There is {@{no "set of all sets" within the model}@}, but one can {@{still reason about the class _U_ of all inner sets, i.e., elements of _U_}@}.\)
+
+In {@{one variation of this scheme}@}, the class of sets is {@{the union of the entire tower of Grothendieck universes}@}. \(This is {@{necessarily a [proper class](proper%20class.md)}@}, but {@{each Grothendieck universe is a set because it is an element of some larger Grothendieck universe}@}.\) However, one {@{does not work directly with the "category of all sets"}@}. Instead, theorems are {@{expressed in terms of the category __Set__<sub>_U_</sub>}@} whose {@{objects are the elements of a sufficiently large Grothendieck universe _U_}@}, and are then {@{shown not to depend on the particular choice of _U_}@}. As {@{a foundation for [category theory](category%20theory.md)}@}, this approach is {@{well matched to a system like [Tarski–Grothendieck set theory](Tarski–Grothendieck%20set%20theory.md)}@} in which {@{one cannot reason directly about proper classes}@}; {@{its principal disadvantage}@} is that {@{a theorem can be true of all __Set__<sub>_U_</sub> but not of __Set__}@}.
+
+Various other solutions, and variations on the above, have been proposed.<sup>[\[1\]](#^ref-1)</sup><sup>[\[2\]](#^ref-2)</sup><sup>[\[3\]](#^ref-3)</sup>
+
+{@{The same issues arise with other concrete categories}@}, such as {@{the [category of groups](category%20of%20groups.md) or the [category of topological spaces](category%20of%20topological%20spaces.md)}@}.
+
+## see also
+
+- [Category of topological spaces](category%20of%20topological%20spaces.md)
+- [Set theory](set%20theory.md)
+- [Small set \(category theory\)](small%20set%20(category%20theory).md)
+- [Category of measurable spaces](category%20of%20measurable%20spaces.md)
+- [Elementary Theory of the Category of Sets](Elementary%20Theory%20of%20the%20Category%20of%20Sets.md)
+
+## notes
+
+1. [Mac Lane 1969](#CITEREFMac%20Lane1969) <a id="^ref-1"></a>^ref-1
+2. [Feferman 1969](#CITEREFFeferman1969) <a id="^ref-2"></a>^ref-2
+3. [Blass 1984](#CITEREFBlass1984) <a id="^ref-3"></a>^ref-3
+
+## references
+
+This text incorporates [content](https://en.wikipedia.org/wiki/category_of_sets) from [Wikipedia](Wikipedia.md) available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.
+
+- <a id="CITEREFBlass1984"></a> Blass, A. \(1984\). ["The interaction between category theory and set theory"](http://www.math.lsa.umich.edu/~ablass/interact.pdf) \(PDF\). _Mathematical Applications of Category Theory_. Contemporary Mathematics. Vol. 30. American Mathematical Society. pp. 5–29. [doi](doi%20(identifier).md):[10.1090/conm/030/749767](https://doi.org/10.1090%2Fconm%2F030%2F749767). [ISBN](ISBN%20(identifier).md) [978-0-8218-5032-9](https://en.wikipedia.org/wiki/Special:BookSources/978-0-8218-5032-9).
+- <a id="CITEREFFeferman1969"></a> Feferman, S. \(1969\). ["Set-theoretical foundations of category theory"](https://books.google.com/books?id=QEh8CwAAQBAJ&pg=PA201). _[Mac Lane 1969](#CITEREFMac%20Lane1969)_. Lecture Notes in Mathematics. Vol. 106. pp. 201–247. [doi](doi%20(identifier).md):[10.1007/BFb0059148](https://doi.org/10.1007%2FBFb0059148). [ISBN](ISBN%20(identifier).md) [978-3-540-04625-7](https://en.wikipedia.org/wiki/Special:BookSources/978-3-540-04625-7).
+- Lawvere, F.W. [An elementary theory of the category of sets \(long version\) with commentary](http://www.tac.mta.ca/tac/reprints/articles/11/tr11.pdf)
+- <a id="CITEREFMac Lane1969"></a> Mac Lane, S. \(2006\) \[1969\]. "One universe as a foundation for category theory". In Mac Lane, S. \(ed.\). _Reports of the Midwest Category Seminar III_. Lecture Notes in Mathematics. Vol. 106. Springer. pp. 192–200. [doi](doi%20(identifier).md):[10.1007/BFb0059147](https://doi.org/10.1007%2FBFb0059147). [ISBN](ISBN%20(identifier).md) [978-3-540-36150-3](https://en.wikipedia.org/wiki/Special:BookSources/978-3-540-36150-3).
+- <a id="CITEREFMac Lane1998"></a> [Mac Lane, Saunders](Saunders%20Mac%20Lane.md) \(September 1998\). [_Categories for the Working Mathematician_](https://books.google.com/books?id=eBvhyc4z8HQC). [Graduate Texts in Mathematics](Graduate%20Texts%20in%20Mathematics.md). Vol. 5. Springer. [ISBN](ISBN%20(identifier).md) [0-387-98403-8](https://en.wikipedia.org/wiki/Special:BookSources/0-387-98403-8).
+- <a id="CITEREFPareigis1970"></a> Pareigis, Bodo \(1970\), _Categories and functors_, Pure and applied mathematics, vol. 39, [Academic Press](Academic%20Press.md), [ISBN](ISBN%20(identifier).md) [978-0-12-545150-5](https://en.wikipedia.org/wiki/Special:BookSources/978-0-12-545150-5)
+
+## external links
+
+- [A231344    Number of morphisms in full subcategories of Set spanned by {<!-- flashcard separator -->{}, {1}, {1, 2}, ..., {1, 2, ..., n}<!-- flashcard separator -->}](http://oeis.org/A231344) at [OEIS](OEIS.md).
+
+| <!-- hide <p> - [v](https://en.wikipedia.org/wiki/Template:Foundations-footer) <br/> - [t](https://en.wikipedia.org/wiki/Template%20talk:Foundations-footer) <br/> - [e](https://en.wikipedia.org/wiki/Special:EditPage/Template%3AFoundations-footer) <p>  <p>  <br/> --> Major topics in [Foundations of Mathematics](foundations%20of%20mathematics.md) |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| __[Mathematical logic](mathematical%20logic.md)__                                                                                                                                                                                                                                                                                                          | - [Peano axioms](Peano%20axioms.md) <br/> - [Mathematical induction](mathematical%20induction.md) <br/> - [Formal system](formal%20system.md)  <br/>     - [Axiomatic system](axiomatic%20system.md) <br/>     - [Hilbert system](Hilbert%20system.md) <br/>     - [Natural deduction](natural%20deduction.md) <p>  <p> - [Mathematical proof](mathematical%20proof.md) <br/> - [Model theory](model%20theory.md) <br/> - [Mathematical constructivism](mathematical%20constructivism.md) <br/> - [Modal logic](modal%20logic.md) <br/> - [List of mathematical logic topics](list%20of%20mathematical%20logic%20topics.md) |
+| __[Set theory](set%20theory.md)__                                                                                                                                                                                                                                                                                                                          | - [Set](set%20(mathematics).md) <br/> - [Naive set theory](naive%20set%20theory.md) <br/> - [Axiomatic set theory](set%20theory.md#axiomatic%20set%20theory) <br/> - [Zermelo set theory](Zermelo%20set%20theory.md) <br/> - [Zermelo–Fraenkel set theory](Zermelo–Fraenkel%20set%20theory.md) <br/> - [Constructive set theory](constructive%20set%20theory.md) <br/> - [Descriptive set theory](descriptive%20set%20theory.md) <br/> - [Determinacy](determinacy.md) <br/> - [Russell's paradox](Russell's%20paradox.md) <br/> - [List of set theory topics](list%20of%20set%20theory%20topics.md)                        |
+| __[Type theory](type%20theory.md)__                                                                                                                                                                                                                                                                                                                        | - [Axiom of reducibility](axiom%20of%20reducibility.md) <br/> - [Simple type theory](history%20of%20type%20theory.md#theory%20of%20simple%20types) <br/> - [Dependent type theory](dependent%20type.md) <br/> - [Intuitionistic type theory](intuitionistic%20type%20theory.md) <br/> - [Homotopy type theory](homotopy%20type%20theory.md) <br/> - [Univalent foundations](univalent%20foundations.md) <br/> - [Girard's paradox](Girard's%20paradox.md#Girard's%20paradox)                                                                                                                                                |
+| __[Category theory](category%20theory.md)__                                                                                                                                                                                                                                                                                                                | - [Category](category%20(mathematics).md) <br/> - [Topos theory](topos.md) <br/> - __Category of sets__ <br/> - [Higher category theory](higher%20category%20theory.md) <br/> - [∞-groupoid](∞-groupoid.md) <br/> - [∞-topos theory](∞-topos.md) <br/> - [Mathematical structuralism](structuralism%20(philosophy%20of%20mathematics).md) <br/> - [Glossary of category theory](glossary%20of%20category%20theory.md) <br/> - [List of category theory topics](list%20of%20category%20theory%20topics.md)                                                                                                                   |
+
+> [Categories](https://en.wikipedia.org/wiki/Help:Category):
+>
+> - [Foundations of mathematics](https://en.wikipedia.org/wiki/Category:Foundations%20of%20mathematics)
+> - [Categories in category theory](https://en.wikipedia.org/wiki/Category:Categories%20in%20category%20theory)
+> - [Basic concepts in set theory](https://en.wikipedia.org/wiki/Category:Basic%20concepts%20in%20set%20theory)

@@ -3,11 +3,13 @@ from anyio import Path
 from asyncio import gather, run
 from bs4 import BeautifulSoup, NavigableString, PageElement, Tag
 from bs4.element import PreformattedString
+from contextlib import contextmanager, suppress
 from copy import copy
 from glob import iglob
 from jaraco.clipboard import paste_html  # type: ignore
 from json import load
 from logging import INFO, basicConfig
+from os import chdir, getcwd, symlink
 from pathlib import PurePath
 from pyarchivist.Wikimedia_Commons.main import (
     Args as pyarchivist_Wikimedia_Commons_Args,
@@ -20,6 +22,17 @@ from sys import argv, version
 from typing import Callable, Mapping, MutableSet
 from urllib.parse import quote
 from yarl import URL
+
+
+@contextmanager
+def _with_cwd(cwd: Path):
+    old_cwd = getcwd()
+    chdir(cwd)
+    try:
+        yield
+    finally:
+        chdir(old_cwd)
+
 
 NAME = PurePath(__file__).name
 AUTHORS = (
@@ -61,12 +74,14 @@ _ARCHIVE_REGEXES = {
         r"^https://upload.wikimedia.org/wikipedia/[^/]*/thumb/[0-9a-f]/[0-9a-f]{2}/([^/]*)/.*$"
     ): ("File:{}", "../../archives/Wikimedia Commons/{}"),
 }
+_CONVERTED_WIKI_DIRECTORY = Path("../general")
+_CONVERTED_WIKI_LANGUAGE_DIRECTORY = _CONVERTED_WIKI_DIRECTORY / "eng"
 
 with open(f"{NAME}.names map.json", "rt", encoding="UTF-8") as names_map_file:
     _names_map_manual = load(names_map_file)
 _names_map = {
     f"{filename[:1].upper()}{filename[1:-3]}": filename[:-3]
-    for filename in iglob("*.md", root_dir="../general/")
+    for filename in iglob("*.md", root_dir=_CONVERTED_WIKI_DIRECTORY)
 }
 if _names_map_overlap := frozenset(_names_map).intersection(_names_map_manual):
     raise ValueError(_names_map_overlap)
@@ -441,10 +456,43 @@ async def wiki_html_to_plaintext(
                 elif not any(
                     to.startswith(prefix) for prefix in _IGNORED_NAME_PREFIXES
                 ):
+                    # prefix, suffix = (
+                    #     "[",
+                    #     f"]({_markdown_link_target(_fix_name_maybe(to), _fix_name_maybe(to_fragment))})",
+                    # )
+                    from_filename, to_filename = _fix_name_maybe(
+                        title
+                    ), _fix_name_maybe(to)
                     prefix, suffix = (
                         "[",
-                        f"]({_markdown_link_target(_fix_name_maybe(to), _fix_name_maybe(to_fragment))})",
+                        f"]({_markdown_link_target(from_filename, _fix_name_maybe(to_fragment))})",
                     )
+                    if from_filename != to_filename:
+                        redirect_file = (
+                            _CONVERTED_WIKI_LANGUAGE_DIRECTORY / f"{from_filename}.md"
+                        )
+                        if not await redirect_file.exists():
+                            # no async
+                            with _with_cwd(_CONVERTED_WIKI_LANGUAGE_DIRECTORY):
+                                with suppress(FileExistsError):
+                                    # `src` <- `dst`
+                                    symlink(
+                                        f"{to_filename}.md",
+                                        redirect_file.relative_to(
+                                            _CONVERTED_WIKI_LANGUAGE_DIRECTORY
+                                        ),
+                                        target_is_directory=False,
+                                    )
+                            with _with_cwd(_CONVERTED_WIKI_DIRECTORY):
+                                with suppress(FileExistsError):
+                                    # `src` <- `dst`
+                                    symlink(
+                                        redirect_file.relative_to(
+                                            _CONVERTED_WIKI_DIRECTORY
+                                        ),
+                                        f"{from_filename}.md",
+                                        target_is_directory=False,
+                                    )
             elif href := ele.get("href"):
                 href = str(href)
                 if href.startswith(f"{_WIKI_HOST_URL}/wiki/") and "#" in href:
@@ -526,7 +574,10 @@ async def main() -> None:
         },
     ) as session:
         output = await wiki_html_to_plaintext(
-            html, out_to_archive=out_to_archive, session=session, refs=refs
+            html,
+            out_to_archive=out_to_archive,
+            session=session,
+            refs=refs,
         )
     output = output.replace(
         "\xa0", " "  # replace non-breaking spaces with spaces
