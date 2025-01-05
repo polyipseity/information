@@ -39,7 +39,7 @@ tags:
 
 - properties ::@:: 5: total, associative, identity, divisible, commutative <!--SR:!2025-01-07,4,270!2025-01-07,4,270-->
 - partial magma ::@:: (none) <!--SR:!2025-01-07,4,270!2025-01-07,4,270-->
-- semigroupoid ::@:: associative <!--SR:!2025-01-05,1,210!2025-01-06,3,250-->
+- semigroupoid ::@:: associative <!--SR:!2025-01-07,2,210!2025-01-06,3,250-->
 - small category ::@:: associative, identity <!--SR:!2025-01-07,4,270!2025-01-07,4,270-->
 - groupoid ::@:: associative, identity, divisible <!--SR:!2025-01-07,4,270!2025-01-06,3,250-->
 - commutative groupoid ::@:: associative, identity, divisible, commutative <!--SR:!2025-01-06,2,230!2025-01-07,4,270-->
@@ -55,7 +55,7 @@ tags:
 - associative quasigroup ::@:: total, associative, divisible <!--SR:!2025-01-06,3,250!2025-01-06,3,250-->
 - commutative-and-associative quasigroup ::@:: total, associative, divisible, commutative <!--SR:!2025-01-07,4,270!2025-01-06,3,250-->
 - monoid ::@:: total, associative, identity <!--SR:!2025-01-06,3,250!2025-01-06,2,230-->
-- commutative monoid ::@:: total, associative, identity, commutative <!--SR:!2025-01-06,2,230!2025-01-05,1,210-->
+- commutative monoid ::@:: total, associative, identity, commutative <!--SR:!2025-01-06,2,230!2025-01-06,1,190-->
 - group ::@:: total, associative, identity, divisible <!--SR:!2025-01-07,4,270!2025-01-07,4,270-->
 - abelian group ::@:: total, associative, identity, divisible, commutative <!--SR:!2025-01-07,4,270!2025-01-07,4,270-->
 

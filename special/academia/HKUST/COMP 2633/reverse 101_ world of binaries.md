@@ -128,7 +128,7 @@ x86 and x86-64 makes it easy {@{to enumerate stacks (in both the data structure 
 
 ## tools
 
-There are many types of tools to help us with reversing a program. The three types we will talk about are {@{static analysis, dynamic analysis, and patching}@}. <!--SR:!2025-01-05,87,290-->
+There are many types of tools to help us with reversing a program. The three types we will talk about are {@{static analysis, dynamic analysis, and patching}@}. <!--SR:!2025-12-29,358,310-->
 
 Apart from the above, below are some tools useful in general:
 

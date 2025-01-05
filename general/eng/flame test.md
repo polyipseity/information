@@ -82,7 +82,7 @@ return await memorize_map(
 <!--pytextgen generate section="2837ca"--><!-- The following content is generated at 2024-01-04T20:17:51.882656+08:00. Any edits will be overridden! -->
 
 - [calcium](calcium.md):@:brick red, light green (through [cobalt blue glass](cobalt%20glass.md)) <!--SR:!2025-02-05,92,150-->
-- [copper](copper.md)(I):@:blue-green <!--SR:!2025-01-05,11,130-->
+- [copper](copper.md)(I):@:blue-green <!--SR:!2025-01-20,15,130-->
 - [copper](copper.md)(II):@:green (non-halide), blue-green (halide) <!--SR:!2025-10-19,306,190-->
 - [iron](iron.md)(II):@:blue (very hot), gold, green to orange-brown, sparks <!--SR:!2025-01-07,30,130-->
 - [iron](iron.md)(III):@:orange-brown <!--SR:!2025-03-23,121,170-->

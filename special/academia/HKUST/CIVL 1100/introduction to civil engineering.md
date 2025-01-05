@@ -544,7 +544,7 @@ wood
 - new synthetic materials→::@::←steel <!--SR:!2026-04-19,515,332!2025-09-08,375,340-->
 - steel→::@::←stone <!--SR:!2025-04-04,202,320!2026-12-18,745,360-->
 - stone→::@::←wood <!--SR:!2025-04-11,240,321!2025-09-06,361,332-->
-- wood→::@::←_(end)_ <!--SR:!2026-01-17,513,394!2025-01-05,144,360-->
+- wood→::@::←_(end)_ <!--SR:!2026-01-17,513,394!2026-12-17,711,380-->
 
 <!--/pytextgen-->
 
@@ -812,7 +812,7 @@ water distribution network
 - sewage collection network→::@::←storm water management <!--SR:!2025-09-09,318,267!2025-09-27,374,341-->
 - storm water management→::@::←water collection network <!--SR:!2025-09-05,372,340!2025-08-07,322,320-->
 - water collection network→::@::←water distribution network <!--SR:!2026-01-24,512,400!2026-09-27,642,352-->
-- water distribution network→::@::←_(end)_ <!--SR:!2025-01-05,204,367!2026-02-13,440,321-->
+- water distribution network→::@::←_(end)_ <!--SR:!2027-10-26,1024,387!2026-02-13,440,321-->
 
 <!--/pytextgen-->
 

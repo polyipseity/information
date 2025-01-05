@@ -9,7 +9,7 @@ tags:
 
 # substitution effect
 
-In {@{[economics](economics.md) and particularly in [consumer choice theory](consumer%20choice.md)}@}, the __substitution effect__ is {@{one component of the effect of a change in the price of a good upon the amount of that good demanded by a consumer}@}, the other being {@{the [income effect](consumer%20choice.md#income%20effect)}@}. <!--SR:!2025-01-27,58,312!2025-01-05,40,292!2025-02-09,68,312-->
+In {@{[economics](economics.md) and particularly in [consumer choice theory](consumer%20choice.md)}@}, the __substitution effect__ is {@{one component of the effect of a change in the price of a good upon the amount of that good demanded by a consumer}@}, the other being {@{the [income effect](consumer%20choice.md#income%20effect)}@}. <!--SR:!2025-01-27,58,312!2025-06-18,164,312!2025-02-09,68,312-->
 
 When {@{a good's price decreases, if hypothetically the same consumption bundle were to be retained}@}, income would be {@{freed up which could be spent on a combination of more of each of the goods}@}. Thus {@{the new total consumption bundle chosen}@}, compared to the old one, reflects both {@{the effect of the changed [relative prices](relative%20price.md) of the two goods (one unit of one good can now be traded for a different quantity of the other good than before as the ratio of their prices has changed) _and_ the effect of the freed-up income}@}. {@{The effect of the relative price change is called the _substitution effect_}@}, while {@{the effect due to income having been freed up is called the _[income effect](consumer%20choice.md#income%20effect)_}@}. <!--SR:!2025-02-03,64,312!2025-02-09,68,312!2025-01-26,57,312!2025-04-27,114,292!2025-02-09,68,312!2025-02-02,63,312-->
 

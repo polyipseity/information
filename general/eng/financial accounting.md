@@ -187,7 +187,7 @@ However, there are {@{instances of accounts, known as contra-accounts (contra-as
 
 1. objectives ::@:: Financial accounting aims at presenting 'true and fair' view of transactions, profit and loss for a period and statement of financial position (balance sheet) on a given date. It aims at computing 'true and fair' view of the cost of production/services offered by the firm.<sup>[\[11\]](#^ref-11)</sup> Cost accounting aims at computing cost of production/service in a scientific manner and facilitate cost control and cost reduction. <!--SR:!2025-01-29,92,270!2025-02-12,112,290-->
 2. audiences ::@:: Financial accounting reports the results and position of business to government, creditors, investors, and external parties. Cost accounting is an internal reporting system for an organisation's own management for decision making. <!--SR:!2025-01-06,81,290!2025-02-13,107,290-->
-3. classification ::@:: In financial accounting, cost classification is based on type of transactions, e.g. salaries, repairs, insurance, stores etc. In cost accounting, classification is basically on the basis of functions, activities, products, process and on internal planning and control and information needs of the organization. <!--SR:!2025-01-18,85,270!2025-01-05,77,270-->
+3. classification ::@:: In financial accounting, cost classification is based on type of transactions, e.g. salaries, repairs, insurance, stores etc. In cost accounting, classification is basically on the basis of functions, activities, products, process and on internal planning and control and information needs of the organization. <!--SR:!2025-01-18,85,270!2025-08-03,210,270-->
 
 ## related qualification
 

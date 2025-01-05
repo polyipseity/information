@@ -80,7 +80,7 @@ The content is in teaching order.
 - assignments: [PERMA assessment and reflection](assignments/PERMA%20assessment%20and%20reflection/submission.md)
 - positive psychology ::@:: happiness, well-being, etc. <!--SR:!2025-01-30,86,357!2025-02-02,89,357-->
 - PERMA ::@:: a portfolio approach to well-being: positive emotion, engagement (& motivation), relationships, meaning & purposes, accomplishment <!--SR:!2025-01-31,87,357!2025-01-09,65,337-->
-  - PERMA element properties ::@:: contributes to well-being, being pursued for their own sakes, independent of other elements <!--SR:!2025-01-05,61,337!2025-02-04,91,357-->
+  - PERMA element properties ::@:: contributes to well-being, being pursued for their own sakes, independent of other elements <!--SR:!2025-10-21,289,357!2025-02-04,91,357-->
   - positive emotion ::@:: hedonic treadmill, happiness returns to its baseline level <!--SR:!2025-02-02,89,357!2025-02-04,91,357-->
   - engagement (& motivation) ::@:: They drive you to do the things you want. <!--SR:!2025-01-29,85,357!2025-02-03,90,357-->
   - relationships ::@:: According to a Harvard study of adult development, the people who were the most satisfied in their relationships at age 50 were the healthiest at age 80. <!--SR:!2025-02-04,91,357!2025-02-04,91,357-->

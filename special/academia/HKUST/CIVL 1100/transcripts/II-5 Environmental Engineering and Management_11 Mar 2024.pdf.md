@@ -199,7 +199,7 @@ Sustainable Waste Management
 
 - 3Rs ::@:: (highest priority) reduce, reuse, recycle (lowest priority) <!--SR:!2025-07-02,314,330!2025-03-05,201,310-->
   - reduce ::@:: reduce the amount of solid waste generation <!--SR:!2025-03-24,235,330!2025-04-21,258,330-->
-  - reuse ::@:: multiple uses of an item in its original form with or without reconditioning <!--SR:!2025-01-12,168,310!2025-01-05,161,310-->
+  - reuse ::@:: multiple uses of an item in its original form with or without reconditioning <!--SR:!2025-01-12,168,310!2026-11-30,694,330-->
   - recycle ::@:: materials are collected and recovered to be used as raw material <!--SR:!2026-03-17,488,310!2025-04-17,252,330-->
     - recycle example ::@:: plastic bottle (PET or HDPE) → chips → fiber → T-shirt or bag <!--SR:!2026-01-24,409,290!2025-03-26,235,330-->
 
@@ -300,7 +300,7 @@ Noise Levels and Causes
   - drilling ::@:: 90 dB(A) <!--SR:!2025-01-31,187,310!2025-04-23,237,290-->
   - train passing ::@:: 80 dB(A) <!--SR:!2025-02-28,200,310!2025-02-05,184,310-->
   - highway (harm threshold) ::@:: 70 dB(A) <!--SR:!2025-02-16,192,310!2025-12-20,382,290-->
-  - home with TV on ::@:: 60 dB(A) <!--SR:!2025-01-21,184,310!2025-01-05,168,310-->
+  - home with TV on ::@:: 60 dB(A) <!--SR:!2025-01-21,184,310!2026-06-09,520,310-->
   - library ::@:: 40 dB(A) <!--SR:!2025-02-26,198,310!2026-03-31,462,310-->
   - park ::@:: 30 dB(A) <!--SR:!2025-04-23,258,330!2025-02-25,212,330-->
 

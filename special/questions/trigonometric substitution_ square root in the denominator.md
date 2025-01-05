@@ -17,7 +17,7 @@ Evaluate $$\int \! \frac {x^2} {\sqrt{3x^2 + 8} } \,\mathrm{d}x$$.
 ## strategy
 
 - inspecting "$$\int \! \frac {x^2} {\sqrt{3x^2 + 8} } \,\mathrm{d}x$$" :@: Consider that $x \in \mathbb{R}$ (valid for all reals) and $\tan^2 \theta + 1 = \sec^2 \theta$. Substitute $x = \sqrt{\frac 8 3} \tan \theta \quad \theta \in \left( -\frac \pi 2, \frac \pi 2 \right)$. <!--SR:!2025-06-06,218,270-->
-- logarithm simplification tricks :@: First, $\ln(a(x + y)) + C = \ln a + \ln(x + y) + C$, of which $\ln a$ can be absorbed into $C$ to become $\ln(x + y) + C$. Second, $\ln \left\lvert a + \sqrt{a^2 \pm 1} \right\rvert = -\ln \left\lvert a - \sqrt{a^2 \pm 1} \right\rvert$. <!--SR:!2025-01-05,124,290-->
+- logarithm simplification tricks :@: First, $\ln(a(x + y)) + C = \ln a + \ln(x + y) + C$, of which $\ln a$ can be absorbed into $C$ to become $\ln(x + y) + C$. Second, $\ln \left\lvert a + \sqrt{a^2 \pm 1} \right\rvert = -\ln \left\lvert a - \sqrt{a^2 \pm 1} \right\rvert$. <!--SR:!2025-03-05,59,270-->
 
 ## solution
 
