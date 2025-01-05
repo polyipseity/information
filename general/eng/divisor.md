@@ -73,7 +73,7 @@ A number  $n$ is said to be {@{[perfect](perfect%20number.md) if it equals the s
 
 If {@{the [prime factorization](integer%20factorization.md) of  $n$ is given by $$n=p_{1}^{\nu _{1} }\,p_{2}^{\nu _{2} }\cdots p_{k}^{\nu _{k} }$$}@} then {@{the number of positive divisors of  $n$ is $$d(n)=(\nu _{1}+1)(\nu _{2}+1)\cdots (\nu _{k}+1),$$}@} and {@{each of the divisors has the form $$p_{1}^{\mu _{1} }\,p_{2}^{\mu _{2} }\cdots p_{k}^{\mu _{k} }$$}@} where {@{$0\leq \mu _{i}\leq \nu _{i}$ for each  $1\leq i\leq k$}@}.
 
-For every natural  $n$, ::@:: $d(n)<2{\sqrt {n} }$. (annotation: Proof is {@{by pairing positive divisors that multiplies to $n$ and observing $\lfloor \sqrt n \rfloor$ is the maximum number of pairs}@}.)
+For every natural  $n$, ::@:: $d(n)<2{\sqrt {n} }$. (annotation: Proof is by pairing positive divisors that multiplies to $n$ and observing $\lfloor \sqrt n \rfloor$ is the maximum number of pairs.)
 
 Also,<sup>[\[7\]](#^ref-7)</sup> {@{$$d(1)+d(2)+\cdots +d(n)=n\ln n+(2\gamma -1)n+O({\sqrt {n} }),$$}@} where {@{$\gamma$ is [Euler–Mascheroni constant](Euler's%20constant.md)}@}. One interpretation of this result is that {@{a randomly chosen positive integer _n_ has an average number of divisors of about  $\ln n$}@}. However, this is {@{a result from the contributions of [numbers with "abnormally many" divisors](highly%20composite%20number.md)}@}.
 

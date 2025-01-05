@@ -759,7 +759,7 @@ ID: 23456789
 
 - datetime: 2024-10-30T13:30:00+08:00/2024-10-30T14:50:00+08:00
 - Keras
-  - Keras / procedures ::@:: import the required libraries and define a global variable → load the data → explore the data → build the model → compile the model → train the model → evaluate the model accuracy → save the model → use the model → plotting the confusion matrix
+  - Keras / procedures ::@:: import the required libraries and define a global variable → load the data → explore the data → build the model → compile the model → train the model → evaluate the model accuracy → save the model → use the model → plot the confusion matrix
     - Keras / procedures / import the required libraries and define a global variable ::@:: For example, import `keras`, `matplotlib.pyplot` (as `plt`), `numpy` (as `np`), `pandas` (as `pd`), `seaborn` (as `sn`), `tensorflow` as (`tf`), etc.
     - Keras / procedures / load the data ::@:: For example, use `(x_train, y_train), (x_test, y_test) = keras.datasets.mnist.load_data()`.
     - Keras / procedures / explore the data ::@:: For example, use `pd.DataFrame(data)`, `plt.figure(figsize=(<width in inches>, <height in inches>))`, `plt.imshow(image[, cmap=<cmap; e.g. plt.cm.binary>])`, and `plt.show()`.
@@ -775,7 +775,7 @@ ID: 23456789
     - Keras / procedures / save the model ::@:: Save the model to a HDFS (Hadoop Distributed File System) file (`.h5` extension): `model.save(<model name>, save_format="h5")`. The model can then be loaded using `model = load_model(<model name>)`.
       - HDFS ::@:: Hadoop Distributed File System
     - Keras / procedures / use the model ::@:: Use the model using `predictions = model.predict([x_test])`. <p>  In this example, it returns a `(10000, 10)` Numpy array. Each row in this array is a probability distribution (sums up to 1 due to `softmax`). Choose the label with the highest probability as the prediction using `prediction_results = np.argmax(predictions, axis=1)`.
-    - Keras / procedures / plotting the confusion matrix ::@:: The confusion matrix shows what numbers are recognized well by the model and what numbers the model usually confuses to recognize correctly. <p> For example, use `cm = tensorflow.math.confusion_matrix(y_test, prediction_results)` and `sn.heatmap(cm, annot=True, linewidths=.5, fmt="d", square=True, ax=plt.subplots(figsize=(9, 9))[1])`, etc.
+    - Keras / procedures / plot the confusion matrix ::@:: The confusion matrix shows what numbers are recognized well by the model and what numbers the model usually confuses to recognize correctly. <p> For example, use `cm = tensorflow.math.confusion_matrix(y_test, prediction_results)` and `sn.heatmap(cm, annot=True, linewidths=.5, fmt="d", square=True, ax=plt.subplots(figsize=(9, 9))[1])`, etc.
 
 ## week 9 lab
 
@@ -969,7 +969,7 @@ ID: 23456789
     - kernel / edge handling / constant padding ::@:: Pad the image with a constant. If the constant is zero it is also known as zero padding.
     - kernel / edge handling / extend/replicate ::@:: Extend the values on the four edges of an image infinitely far away.
     - kernel / edge handling / ignore (no padding) ::@:: Simply do not compute the convolution if it requires reading a pixel off the image. In this case, the resulting convolution is smaller than the input image.
-    - kernel / edge handling / reflect ::@:: Reflect the values across edges of an image. It is slightly different from _mirror_. <p> For example: `...5432112345|12345|5432112345...`. Notice that the mirrors are lines (thin mirror) and is placed on the edges.
+    - kernel / edge handling / reflect ::@:: Reflect the values across edges of an image. It is slightly different from _mirror_. <p> For example: `...1234554321|12345|5432112345...`. Notice that the mirrors are lines (thin mirror) and is placed on the edges.
     - kernel / edge handling / mirror ::@:: Reflect the values across edge pixels of an image. It is slightly different from _reflect_. <p> For example: `...12345432|12345|43212345...`. Notice that the mirrors are pixels (thick mirror) and is placed on the edge pixels.
   - [convolution](../../../../general/convolution.md)
 
@@ -995,7 +995,7 @@ ID: 23456789
 - reference materials: Self-reading, but err... maybe tested?
   - image cropping ::@:: Sometimes, you may want to crop the region of interest (ROI) for further processing. For instance, in a face detection application, you may want to drop a face from an image. <p> Simply use Numpy slicing, keeping in mind that an image is typically represented by `(height, width[, channels])`.
   - image padding ::@:: In OpenCV, you can use `cv2.copyMakeBorder(...)`.
-    - `cv2.copyMakeBorder(src, top, bottom, left, right, borderType[, value = 0])` ::@:: For example: `img = cv2.copyMakeBorder(img, 50, 50, 50, 50, cv2.BORDER_CONSTANT, 128)`, `img = cv2.copyMakeBorder(img, 50, 50, 50, 50, cv2.BORDER_REFLECT)`, `img = cv2.copyMakeBorder(img, 50, 50, 50, 50, cv2.BORER_REPLICATE)`.
+    - `cv2.copyMakeBorder(src, top, bottom, left, right, borderType[, value = 0])` ::@:: For example: `img = cv2.copyMakeBorder(img, 50, 50, 50, 50, cv2.BORDER_CONSTANT, 128)`, `img = cv2.copyMakeBorder(img, 50, 50, 50, 50, cv2.BORDER_REFLECT)`, `img = cv2.copyMakeBorder(img, 50, 50, 50, 50, cv2.BORDER_REPLICATE)`.
   - image histogram ::@:: An image histogram is a graphical representation of _the number of pixels in an image as a function of their intensity_. <p> In OpenCV, you can use `cv2.calcHist(...)`.
     - `cv2.calcHist(images, channels, mask, histSize, ranges[, hist[, accumulate]])` ::@:: For example: `hist = cv2.calcHist([imgUint], [0], None, [256], [0, 256])`.
   - brightness adjustment
