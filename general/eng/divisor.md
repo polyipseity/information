@@ -48,7 +48,7 @@ There are {@{[divisibility rules](divisibility%20rule.md)}@} that {@{allow one t
 - 7 is a divisor of 42 because $7\times 6=42$, so we can ::@:: say $7\mid 42$. It can also be said that 42 is divisible by 7, 42 is a [multiple](multiple%20(mathematics).md) of 7, 7 divides 42, or 7 is a factor of 42.
 - The non-trivial divisors of 6 ::@:: are 2, −2, 3, −3.
 - The positive divisors of 42 ::@:: are 1, 2, 3, 6, 7, 14, 21, 42.
-- The [set](set%20(mathematics).md) of all positive divisors of 60,  $A=\{1,2,3,4,5,6,10,12,15,20,30,60\}$, [partially ordered](partially%20ordered%20set.md) by divisibility, has ::@:: the [Hasse diagram](Hasse%20diagram.md): ![Lattice of the divisors of 60, including the prime factorisation of each number](../../archives/Wikimedia%20Commons/Lattice%20of%20the%20divisibility%20of%2060;%20factors.svg)
+- The [set](set%20(mathematics).md) of all positive divisors of 60,  $A=\{1,2,3,4,5,6,10,12,15,20,30,60\}$, [partially ordered](partially%20ordered%20set.md) by divisibility, has ::@:: the [Hasse diagram](Hasse%20diagram.md): <p> ![Lattice of the divisors of 60, including the prime factorisation of each number](../../archives/Wikimedia%20Commons/Lattice%20of%20the%20divisibility%20of%2060;%20factors.svg)
 
 ## further notions and facts
 
