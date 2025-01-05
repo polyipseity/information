@@ -188,6 +188,8 @@ async def main(args: Arguments):
                 results = list[_Path]()
 
                 async def process_file(file: _Path):
+                    if await file.is_symlink():
+                        return
                     path = await file.resolve(strict=True)
                     if path.suffix != ".md" or any(
                         await _gather(*(ex.samefile(path) for ex in excludes))
