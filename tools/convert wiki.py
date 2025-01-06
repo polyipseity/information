@@ -126,7 +126,7 @@ async def wiki_html_to_plaintext(
     *,
     out_to_archive: MutableSet[str],
     list_stack: tuple[int, ...] = (),
-    math: bool = False,
+    escape: bool = True,
     refs: bool,
     session: ClientSession,
     __HEADER_PATTERN: Pattern[str] = compile(r"h(\d?)"),
@@ -141,7 +141,7 @@ async def wiki_html_to_plaintext(
 
     if not isinstance(ele, Tag):
         return (
-            (ele if math else escape_markdown(ele))
+            (escape_markdown(ele) if escape else ele)
             if isinstance(ele, NavigableString)
             and not isinstance(ele, PreformattedString)
             and not isinstance(ele.parent, BeautifulSoup)
@@ -545,7 +545,7 @@ async def wiki_html_to_plaintext(
                 child,
                 out_to_archive=out_to_archive,
                 list_stack=list_stack,
-                math=ele.name == "math",
+                escape=ele.name not in {"code", "math"},
                 refs=refs,
                 session=session,
             )
