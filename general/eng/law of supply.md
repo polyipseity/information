@@ -27,7 +27,7 @@ For example, a job paying £20/hr attracts {@{more interest than a job paying £
 
 ## affecting factors
 
-There are {@{various non-price determinants that can cause a shift in a supply curve}@}.<sup>[\[6\]](#^ref-6)</sup> For example, if {@{the costs of production, such as wages, decrease}@}, then {@{the manufacturers can produce more goods for the same price, so the quantity supplied will increase}@}. If {@{the number of suppliers increases, or if the capacity of a factory producing the goods increases}@}, {@{the quantity supplied will increase}@}. <!--SR:!2025-01-06,43,290!2025-02-04,66,310!2025-02-04,66,310!2025-02-04,66,310!2025-02-04,66,310-->
+There are {@{various non-price determinants that can cause a shift in a supply curve}@}.<sup>[\[6\]](#^ref-6)</sup> For example, if {@{the costs of production, such as wages, decrease}@}, then {@{the manufacturers can produce more goods for the same price, so the quantity supplied will increase}@}. If {@{the number of suppliers increases, or if the capacity of a factory producing the goods increases}@}, {@{the quantity supplied will increase}@}. <!--SR:!2025-06-28,173,310!2025-02-04,66,310!2025-02-04,66,310!2025-02-04,66,310!2025-02-04,66,310-->
 
 Other factors can include {@{government policy}@}—{@{government subsidies to encourage certain products decreases the overall cost of production}@}. However, {@{government [taxation](tax.md) can cause the cost of production to rise}@}. For some products, such as {@{in agriculture, the quantity supplied is dependent on the weather}@}. <!--SR:!2025-02-04,66,310!2025-02-05,67,310!2025-02-05,67,310!2025-02-05,67,310-->
 

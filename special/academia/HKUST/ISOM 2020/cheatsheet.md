@@ -31,7 +31,7 @@ The cheatsheet is provided during the final examination.
 
 - `int` ::@:: integer <!--SR:!2025-01-11,66,310!2025-01-12,67,310-->
 - `float` ::@:: floating point <!--SR:!2025-01-09,64,310!2025-01-07,62,310-->
-- `bool` ::@:: `True` or `False` <!--SR:!2025-01-12,67,310!2025-01-06,61,310-->
+- `bool` ::@:: `True` or `False` <!--SR:!2025-01-12,67,310!2025-09-30,267,330-->
 - `str` ::@:: string <!--SR:!2025-01-07,62,310!2025-01-09,64,310-->
 - `[...]` ::@:: list <!--SR:!2025-01-07,62,310!2025-01-09,64,310-->
 
@@ -43,7 +43,7 @@ The cheatsheet is provided during the final examination.
 - `**` ::@:: to the power of <!--SR:!2025-01-09,64,310!2025-01-11,66,310-->
 - `/` ::@:: division <!--SR:!2025-01-07,62,310!2025-01-12,67,310-->
 - `//` ::@:: floor division <!--SR:!2025-01-09,64,310!2025-01-08,63,310-->
-- `%` ::@:: mod <!--SR:!2025-01-07,62,310!2025-01-06,61,310-->
+- `%` ::@:: mod <!--SR:!2025-01-07,62,310!2025-10-01,268,330-->
 
 ## input / output
 
@@ -57,8 +57,8 @@ The cheatsheet is provided during the final examination.
 - `abs()` ::@:: absolute value <!--SR:!2025-01-07,62,310!2025-01-07,62,310-->
 - `math.sqrt()` ::@:: square root of <!--SR:!2025-01-11,66,310!2025-01-07,62,310-->
 - `round()` ::@:: round off the input value <!--SR:!2025-01-11,66,310!2025-01-09,64,310-->
-- `type()` ::@:: return data type of input <!--SR:!2025-01-06,61,310!2025-01-07,62,310-->
-- `int()` ::@:: convert input to integer <!--SR:!2025-01-06,61,310!2025-01-12,67,310-->
+- `type()` ::@:: return data type of input <!--SR:!2025-09-30,267,330!2025-01-07,62,310-->
+- `int()` ::@:: convert input to integer <!--SR:!2025-10-01,268,330!2025-01-12,67,310-->
 - `float()` ::@:: convert input to float <!--SR:!2025-01-12,67,310!2025-01-07,62,310-->
 - `str()` ::@:: convert input to str <!--SR:!2025-01-11,66,310!2025-01-11,66,310-->
 
@@ -69,7 +69,7 @@ The cheatsheet is provided during the final examination.
 - `in` ::@:: check existence in a list / string <!--SR:!2025-01-09,64,310!2025-01-12,67,310-->
 - `not in` ::@:: check if not exists in a list / string <!--SR:!2025-01-07,62,310!2025-01-12,67,310-->
 - `list.append()` ::@:: add a new element in the list <!--SR:!2025-01-12,67,310!2025-01-11,66,310-->
-- `list.pop()` ::@:: remove and return an item at a specific index <!--SR:!2025-01-06,61,310!2025-01-07,62,310-->
+- `list.pop()` ::@:: remove and return an item at a specific index <!--SR:!2025-10-01,268,330!2025-01-07,62,310-->
 - `list.count()` ::@:: count the occurrence of the input item <!--SR:!2025-01-12,67,310!2025-01-12,67,310-->
 - `list.index()` ::@:: find the index of the input item <!--SR:!2025-01-07,62,310!2025-01-07,62,310-->
 - `len()` ::@:: return the number of elements in the input list <!--SR:!2025-01-09,64,310!2025-01-12,67,310-->
@@ -80,7 +80,7 @@ The cheatsheet is provided during the final examination.
 
 ## relational operators
 
-- `==` ::@:: is equal? <!--SR:!2025-01-07,62,310!2025-01-06,61,310-->
+- `==` ::@:: is equal? <!--SR:!2025-01-07,62,310!2025-09-30,267,330-->
 - `!=` ::@:: is not equal? <!--SR:!2025-01-08,63,310!2025-01-12,67,310-->
 - `<` ::@:: is less than? <!--SR:!2025-01-12,67,310!2025-01-11,66,310-->
 - `>` ::@:: is greater than? <!--SR:!2025-01-09,64,310!2025-01-12,67,310-->
@@ -89,7 +89,7 @@ The cheatsheet is provided during the final examination.
 
 ## boolean operators
 
-- `and` ::@:: are both operands `True`? <!--SR:!2025-01-06,61,310!2025-01-09,64,310-->
+- `and` ::@:: are both operands `True`? <!--SR:!2025-09-30,267,330!2025-01-09,64,310-->
 - `or` ::@:: is/are either (or both) of the operands `True`? <!--SR:!2025-01-11,66,310!2025-01-11,66,310-->
 - `not` ::@:: flip `True`/`False` to one another <!--SR:!2025-01-09,64,310!2025-01-09,64,310-->
 
@@ -109,7 +109,7 @@ else:
 ## loop
 
 - keywords ::@:: `for ... in ...: ...`, `while True: ...` <!--SR:!2025-01-12,67,310!2025-01-07,62,310-->
-- `break` ::@:: terminate a loop <!--SR:!2025-01-06,61,310!2025-01-11,66,310-->
+- `break` ::@:: terminate a loop <!--SR:!2025-09-30,267,330!2025-01-11,66,310-->
 
 ```Python
 for <variable> in <iterable>:

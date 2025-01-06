@@ -9,7 +9,7 @@ tags:
 
 # rules of inference
 
-In [logic](logic.md) and [philosophy of logic](philosophy%20of%20logic.md), specifically in [deductive reasoning](deductive%20reasoning.md), a __rule of inference__, {@{__inference rule__ or __transformation rule__}@} is {@{a [logical form](logical%20form.md) consisting of a function which takes premises, analyzes their [syntax](syntax%20(logic).md), and returns a conclusion (or [conclusions](multiple-conclusion%20logic.md))}@}. <!--SR:!2025-09-11,283,334!2025-01-06,77,274-->
+In [logic](logic.md) and [philosophy of logic](philosophy%20of%20logic.md), specifically in [deductive reasoning](deductive%20reasoning.md), a __rule of inference__, {@{__inference rule__ or __transformation rule__}@} is {@{a [logical form](logical%20form.md) consisting of a function which takes premises, analyzes their [syntax](syntax%20(logic).md), and returns a conclusion (or [conclusions](multiple-conclusion%20logic.md))}@}. <!--SR:!2025-09-11,283,334!2025-10-27,294,294-->
 
 For example, the rule of inference called {@{_[modus ponens](modus%20ponens.md)_}@} takes {@{two premises, one in the form "If p then q" and another in the form "p", and returns the conclusion "q"}@}. The rule is {@{[valid](validity%20(logic).md) with respect to the semantics of [classical logic](classical%20logic.md) (as well as the semantics of many other [non-classical logics](non-classical%20logic.md))}@}, in the sense that {@{if the premises are true (under an interpretation), then so is the conclusion}@}. <!--SR:!2025-09-29,275,294!2025-08-25,269,334!2025-02-16,116,294!2025-10-30,321,334-->
 

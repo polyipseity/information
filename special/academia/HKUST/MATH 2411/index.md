@@ -154,7 +154,7 @@ The content is in teaching order.
   - frequency table (quantitative) ::@:: Data is grouped into numerically ordered non-overlapping _categories_ or _class intervals_. Then a _summary table_ is drawn based on the grouped data. This condenses the data and allows for quicker data interpretation. <!--SR:!2025-04-19,154,290!2025-05-24,187,310-->
     - frequency table (quantitative) / procedure ::@:: Decide the number of class intervals (usually 5 to 20). Divide the data into that many intervals (usually covering the data range evenly). Adjust the class interval boundaries to avoid overlapping (as endpoints are inclusive). Construct the summary table. <!--SR:!2025-05-05,149,250!2025-04-05,161,310-->
     - frequency table (quantitative) / table headers ::@:: class interval, class midpoint, frequency, relative frequency, ... <!--SR:!2025-06-01,193,310!2025-05-21,155,270-->
-  - histogram ::@:: A bar chart based on the frequency table. The x-axis labels the class intervals while the y-axis labels the frequency or density (relative frequency). <!--SR:!2025-07-04,213,310!2025-01-06,81,270-->
+  - histogram ::@:: A bar chart based on the frequency table. The x-axis labels the class intervals while the y-axis labels the frequency or density (relative frequency). <!--SR:!2025-07-04,213,310!2025-11-14,312,290-->
     - histogram / _R_ ::@:: use `hist(...)`, or `histogram(...)` after importing `library(lattice)` (different style) <!--SR:!2025-06-07,213,330!2025-06-10,216,330-->
 - [descriptive statistics](../../../../general/descriptive%20statistics.md)
   - modality ::@:: It is the number of peaks (local modes) in the probability distribution. If there are no significant peaks, then it is _uniform_. If there are peaks, it may be _unimodal_ (1), _bimodal_ (2), ...; or _multimodal_ (>1) in general for multiple peaks. <!--SR:!2025-10-16,315,330!2025-07-10,241,330-->
@@ -186,7 +186,7 @@ The content is in teaching order.
   - first _n_ observations / _R_ ::@:: use `head(...)` <!--SR:!2025-06-11,217,330!2025-07-23,250,330-->
   - scatter plot ::@:: Plots data that comes as pairs. Good for visualizing relationship between two variables (e.g. regression). <!--SR:!2025-10-11,310,330!2025-01-09,93,290-->
     - scatter plot / _R_ ::@:: use `plot(...)` <!--SR:!2025-08-02,258,330!2025-07-06,237,330-->
-  - frequency table (categorical) ::@:: Categorical data is already pre-grouped. Then a _summary table_ is drawn based on the categories. This condenses the data and allows for quicker data interpretation. <!--SR:!2025-05-14,180,310!2025-01-06,81,270-->
+  - frequency table (categorical) ::@:: Categorical data is already pre-grouped. Then a _summary table_ is drawn based on the categories. This condenses the data and allows for quicker data interpretation. <!--SR:!2025-05-14,180,310!2025-11-13,311,290-->
     - frequency table (categorical) / table headers ::@:: \<variable name\>, count, cumulative count (if ordinal), percent, cumulative percent (if ordinal), ... <!--SR:!2025-01-22,60,250!2025-02-05,105,270-->
   - pie chart ::@:: A filled circle showing proportions of different categories. <!--SR:!2025-07-27,253,330!2025-04-13,166,310-->
     - pie chart / _R_ ::@:: use `pie(...)` <!--SR:!2025-07-13,241,330!2025-06-29,232,330-->
@@ -207,7 +207,7 @@ The content is in teaching order.
     - probability sampling / stratified sampling ::@:: Individuals are split into groups based on certain characters. Then simple random sampling is applied on each group. <!--SR:!2025-05-05,174,310!2025-09-08,265,290-->
     - probability sampling / cluster sampling ::@:: Split the population into clusters and select some of the clusters (cannot select an individual in a cluster without selecting other in the same cluster). <!--SR:!2025-01-29,82,270!2025-06-01,189,310-->
   - [non-probability sampling](../../../../general/sampling%20(statistics).md#nonprobability%20sampling) ::@:: It supports weaker statistical inferences from a sample to the population. The advantage is that non-probability sampling may be more convenient in many contexts. <!--SR:!2025-06-14,211,310!2025-05-30,205,310-->
-    - non-probability sampling / examples ::@:: convenience sampling, purposive sampling, voluntary response sampling, snowball sampling, ... <!--SR:!2025-03-14,128,290!2025-01-06,81,270-->
+    - non-probability sampling / examples ::@:: convenience sampling, purposive sampling, voluntary response sampling, snowball sampling, ... <!--SR:!2025-03-14,128,290!2025-08-14,220,270-->
     - non-probability sampling / convenience sampling ::@:: Sampling whoever is most convenient to you, e.g. nearest people. <!--SR:!2025-06-01,201,310!2025-06-04,209,310-->
     - non-probability sampling / voluntary response sampling ::@:: Individuals in a population are made known of your sample and voluntarily decides to participate or not. <!--SR:!2025-01-15,97,290!2025-03-26,152,310-->
     - non-probability sampling / purposive sampling ::@:: A _non-probabilistic_ method is used to select individuals in a population. <!--SR:!2025-05-25,202,330!2025-07-09,240,330-->

@@ -80,7 +80,7 @@ return _chain.from_iterable(await _gather(
 <!--pytextgen generate section="9cda"--><!-- The following content is generated at 2024-01-31T12:32:22.752951+08:00. Any edits will be overridden! -->
 
 - `^`:@:power <!--SR:!2025-01-15,268,330-->
-- `*`:@:multiplication <!--SR:!2025-01-06,262,330-->
+- `*`:@:multiplication <!--SR:!2028-04-12,1192,350-->
 - `/`:@:division <!--SR:!2028-03-24,1178,350-->
 - `+`:@:addition <!--SR:!2028-03-29,1181,350-->
 - `-`:@:subtraction <!--SR:!2027-07-25,985,350-->

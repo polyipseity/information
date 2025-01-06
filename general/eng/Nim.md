@@ -94,7 +94,7 @@ The key to the theory of the game is {@{the [binary](binary%20number.md) [digita
   010_2    2_10    The nim-sum of heaps A, B, and C, 3 ⊕ 4 ⊕ 5 = 2
 ```
 
-An equivalent procedure, which is often easier to perform mentally, is to {@{express the heap sizes as sums of distinct [powers](exponentiation.md) of 2, cancel pairs of equal powers, and then add what is left}@}: <!--SR:!2025-01-06,65,310-->
+An equivalent procedure, which is often easier to perform mentally, is to {@{express the heap sizes as sums of distinct [powers](exponentiation.md) of 2, cancel pairs of equal powers, and then add what is left}@}: <!--SR:!2025-07-28,203,310-->
 
 ```text
 3 = 0 + 2 + 1 =     2   1      Heap A
@@ -116,7 +116,7 @@ As a particular simple case, if {@{there are only two heaps left}@}, the strateg
 
 When {@{played as a misère game}@}, nim strategy is {@{different only when the normal play move would leave only heaps of size one}@}. In that case, the correct move is to {@{leave an odd number of heaps of size one (in normal play, the correct move would be to leave an even number of such heaps)}@}. <!--SR:!2025-01-08,67,321!2025-01-11,70,321!2025-01-11,70,321-->
 
-These strategies for normal play and a misère game are {@{the same until the number of heaps with at least two objects is exactly equal to one}@}. At that point, the next player {@{removes either all objects (or all but one) from the heap that has two or more}@}, so {@{no heaps will have more than one object (in other words, so all remaining heaps have exactly one object each)}@}, so {@{the players are forced to alternate removing exactly one object until the game ends}@}. In normal play, the player {@{leaves an even number of non-zero heaps, so the same player takes last}@}; in misère play, the player {@{leaves an odd number of non-zero heaps, so the other player takes last}@}. <!--SR:!2025-04-17,140,321!2025-04-12,135,321!2025-01-20,77,321!2025-01-11,70,321!2025-01-18,75,321!2025-01-06,65,310-->
+These strategies for normal play and a misère game are {@{the same until the number of heaps with at least two objects is exactly equal to one}@}. At that point, the next player {@{removes either all objects (or all but one) from the heap that has two or more}@}, so {@{no heaps will have more than one object (in other words, so all remaining heaps have exactly one object each)}@}, so {@{the players are forced to alternate removing exactly one object until the game ends}@}. In normal play, the player {@{leaves an even number of non-zero heaps, so the same player takes last}@}; in misère play, the player {@{leaves an odd number of non-zero heaps, so the other player takes last}@}. <!--SR:!2025-04-17,140,321!2025-04-12,135,321!2025-01-20,77,321!2025-01-11,70,321!2025-01-18,75,321!2025-10-18,285,330-->
 
 In a misère game with heaps of sizes three, four and five, the strategy would be applied like this:
 
@@ -143,7 +143,7 @@ Let {@{_x_<sub>1</sub>, ..., _x<sub>n</sub>_ be the sizes of the heaps before a 
 
 The theorem follows by {@{induction on the length of the game from these two lemmas}@}. <!--SR:!2025-01-08,67,321-->
 
-__Lemma 1__. ::@:: If _s_ = 0, then _t_ ≠ 0 no matter what move is made. <!--SR:!2025-01-06,65,310!2025-01-08,67,321-->
+__Lemma 1__. ::@:: If _s_ = 0, then _t_ ≠ 0 no matter what move is made. <!--SR:!2025-10-11,278,330!2025-01-08,67,321-->
 
 _Proof of Lemma 1:_ ::@:: If there is no possible move, then the lemma is [vacuously true](vacuous%20truth.md) (and the first player loses the normal play game by definition). Otherwise, any move in heap _k_ will produce _t_ = _x<sub>k</sub>_ ⊕ _y<sub>k</sub>_ from (*). This number is nonzero, since _x<sub>k</sub>_ ≠ _y<sub>k</sub>_. <!--SR:!2025-01-11,70,321!2025-01-08,67,321-->
 
@@ -257,7 +257,7 @@ Again, the winning strategy is {@{to move such that this sum is zero for every d
 
 ### building nim
 
-Building nim is {@{a variant of nim wherein the two players first construct the game of nim}@}. Given {@{_n_ stones and _s_ empty piles}@}, the players, {@{alternating turns, place exactly one stone into a pile of their choice}@}.<sup>[\[13\]](#^ref-13)</sup> Once {@{all the stones are placed}@}, {@{a game of Nim begins, starting with the next player that would move. This game is denoted _BN(n,s)_}@}. <!--SR:!2025-01-08,67,321!2025-01-11,70,321!2025-01-11,70,321!2025-01-06,65,310!2025-01-18,75,321-->
+Building nim is {@{a variant of nim wherein the two players first construct the game of nim}@}. Given {@{_n_ stones and _s_ empty piles}@}, the players, {@{alternating turns, place exactly one stone into a pile of their choice}@}.<sup>[\[13\]](#^ref-13)</sup> Once {@{all the stones are placed}@}, {@{a game of Nim begins, starting with the next player that would move. This game is denoted _BN(n,s)_}@}. <!--SR:!2025-01-08,67,321!2025-01-11,70,321!2025-01-11,70,321!2025-10-12,279,330!2025-01-18,75,321-->
 
 ### higher-dimensional nim
 

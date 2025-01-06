@@ -78,7 +78,7 @@ The content is in teaching order.
     - waste engineering ::@:: methods of disposal (e.g. landfills and incineration), site investigation and remediation, solid waste management <!--SR:!2026-04-29,539,315!2025-06-19,318,372-->
     - [water engineering](#water%20engineering)
     - noise engineering ::@:: noise mitigation measures (e.g. noise barriers), noise monitoring (e.g. construction noise, traffic noise) <!--SR:!2025-10-17,388,327!2025-06-14,328,370-->
-    - environmental impact assessment (EIA) ::@:: a systematic identification and evaluation process to assess the potential impacts of a proposed project so that mitigation measures can be developed <!--SR:!2025-01-06,147,230!2026-12-14,739,352-->
+    - environmental impact assessment (EIA) ::@:: a systematic identification and evaluation process to assess the potential impacts of a proposed project so that mitigation measures can be developed <!--SR:!2025-12-10,338,230!2026-12-14,739,352-->
       - [environmental impact components](#environmental%20impact%20components)
       - environmental impact assessment in [Hong Kong](../../../../general/Hong%20Kong.md) ::@:: regulated by the Environmental Impact Assessment (Cap. 499) 1997 <!--SR:!2025-02-20,208,314!2025-03-13,235,352-->
 - transportation engineering ::@:: moving goods and people effectively, efficiently, safely, and sustainably <!--SR:!2025-05-11,264,312!2026-11-01,696,319-->
@@ -146,7 +146,7 @@ quantity surveyor
 - building services engineer→::@::←consulting civil engineer <!--SR:!2027-02-01,780,357!2025-07-07,312,337-->
 - consulting civil engineer→::@::←consulting environmental engineer <!--SR:!2026-09-21,635,347!2025-02-05,221,360-->
 - consulting environmental engineer→::@::←consulting geo-technical engineer <!--SR:!2025-11-15,394,285!2025-08-10,342,306-->
-- consulting geo-technical engineer→::@::←consulting structural engineer <!--SR:!2025-01-06,179,315!2025-04-26,255,317-->
+- consulting geo-technical engineer→::@::←consulting structural engineer <!--SR:!2026-07-30,570,315!2025-04-26,255,317-->
 - consulting structural engineer→::@::←contracting civil engineer <!--SR:!2025-09-07,361,335!2025-05-27,276,315-->
 - contracting civil engineer→::@::←engineering geologist <!--SR:!2025-07-29,302,297!2025-04-20,152,275-->
 - engineering geologist→::@::←environmental consultant <!--SR:!2025-11-10,381,305!2025-05-31,280,305-->
@@ -1192,7 +1192,7 @@ water transport
 - bicycle path→::@::←highway <!--SR:!2025-01-20,199,360!2025-03-05,232,360-->
 - highway→::@::←pier <!--SR:!2025-10-07,364,320!2025-03-17,217,300-->
 - pier→::@::←pipeline <!--SR:!2025-01-24,136,360!2025-02-06,194,314-->
-- pipeline→::@::←railroad <!--SR:!2025-12-17,397,275!2025-01-06,112,295-->
+- pipeline→::@::←railroad <!--SR:!2025-12-17,397,275!2025-03-03,56,275-->
 - railroad→::@::←water transport <!--SR:!2025-12-17,426,340!2025-04-24,255,315-->
 - water transport→::@::←_(end)_ <!--SR:!2026-03-20,555,400!2025-07-05,322,380-->
 

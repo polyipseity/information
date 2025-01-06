@@ -100,7 +100,7 @@ Current assets are {@{the most liquid assets of a firm, which are expected to be
 
 - [cash](cash.md) ::@:: physical money <!--SR:!2025-04-18,164,310!2025-05-16,185,310-->
 - [accounts receivable](accounts%20receivable.md) ::@:: revenues earned but not yet collected <!--SR:!2025-04-28,172,310!2025-04-24,168,310-->
-- merchandise inventory ::@:: consists of goods and services a firm currently owns until it ends up getting sold <!--SR:!2025-04-15,149,290!2025-01-06,77,270-->
+- merchandise inventory ::@:: consists of goods and services a firm currently owns until it ends up getting sold <!--SR:!2025-04-15,149,290!2025-10-23,290,290-->
 - [investee companies](company.md) ::@:: expected to be held less than one financial period <!--SR:!2025-05-25,192,310!2025-02-13,107,290-->
 - [prepaid expenses](deferral.md) ::@:: expenses paid for in advance for use during that financial period <!--SR:!2025-03-31,152,310!2025-09-16,285,330-->
 
@@ -186,7 +186,7 @@ However, there are {@{instances of accounts, known as contra-accounts (contra-as
 - see: [cost accounting](cost%20accounting.md)
 
 1. objectives ::@:: Financial accounting aims at presenting 'true and fair' view of transactions, profit and loss for a period and statement of financial position (balance sheet) on a given date. It aims at computing 'true and fair' view of the cost of production/services offered by the firm.<sup>[\[11\]](#^ref-11)</sup> Cost accounting aims at computing cost of production/service in a scientific manner and facilitate cost control and cost reduction. <!--SR:!2025-01-29,92,270!2025-02-12,112,290-->
-2. audiences ::@:: Financial accounting reports the results and position of business to government, creditors, investors, and external parties. Cost accounting is an internal reporting system for an organisation's own management for decision making. <!--SR:!2025-01-06,81,290!2025-02-13,107,290-->
+2. audiences ::@:: Financial accounting reports the results and position of business to government, creditors, investors, and external parties. Cost accounting is an internal reporting system for an organisation's own management for decision making. <!--SR:!2025-08-25,231,290!2025-02-13,107,290-->
 3. classification ::@:: In financial accounting, cost classification is based on type of transactions, e.g. salaries, repairs, insurance, stores etc. In cost accounting, classification is basically on the basis of functions, activities, products, process and on internal planning and control and information needs of the organization. <!--SR:!2025-01-18,85,270!2025-08-03,210,270-->
 
 ## related qualification

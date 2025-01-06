@@ -9,7 +9,7 @@ tags:
 
 # inductive set
 
-- This article is about {@{the notion in [descriptive set theory](descriptive%20set%20theory.md)}@}. For {@{the use in foundations of mathematics}@}, see {@{[axiom of infinity](axiom%20of%20infinity.md)}@}. <!--SR:!2025-01-09,14,292!2025-01-10,15,292!2025-01-06,11,272-->
+- This article is about {@{the notion in [descriptive set theory](descriptive%20set%20theory.md)}@}. For {@{the use in foundations of mathematics}@}, see {@{[axiom of infinity](axiom%20of%20infinity.md)}@}. <!--SR:!2025-01-09,14,292!2025-01-10,15,292!2025-02-19,44,292-->
 
 <!-- | ![](../../archives/Wikimedia%20Commons/Text%20document%20with%20red%20question%20mark.svg) | This article includes a list of [general references](https://en.wikipedia.org/wiki/Wikipedia:Citing%20sources#General%20references), but __it lacks sufficient corresponding [inline citations](https://en.wikipedia.org/wiki/Wikipedia:Citing%20sources#Inline%20citations)__. Please help to [improve](https://en.wikipedia.org/wiki/Wikipedia:WikiProject%20Reliability) this article by [introducing](https://en.wikipedia.org/wiki/Wikipedia:When%20to%20cite) more precise citations. _\(March 2011\)__ \([Learn how and when to remove this message](https://en.wikipedia.org/wiki/Help:Maintenance%20template%20removal)\)_ | -->
 
@@ -19,7 +19,7 @@ In {@{[descriptive set theory](descriptive%20set%20theory.md)}@}, an __inductive
 
 The inductive sets form {@{a [boldface pointclass](pointclass.md#boldface%20pointclasses)}@}; that is, they are {@{closed under [continuous](continuous%20function.md) [preimages](image%20(mathematics).md#inverse%20image)}@}. In {@{the [Wadge hierarchy](Wadge%20hierarchy.md)}@}, they {@{lie above the [projective sets](projective%20hierarchy.md) and below the sets in [L\(R\)](L(R).md)}@}. Assuming {@{sufficient [determinacy](determinacy.md)}@}, the class of inductive sets has {@{the [scale property](scale%20(descriptive%20set%20theory).md) and thus the [prewellordering property](prewellordering.md)}@}. <!--SR:!2025-01-10,15,292!2025-01-11,16,292!2025-01-21,19,252!2025-01-08,5,232!2025-01-09,14,292!2025-01-09,14,292-->
 
-The term can have {@{a number of different meanings}@}:<sup>[\[1\]](#^ref-1)</sup> <!--SR:!2025-01-06,11,272-->
+The term can have {@{a number of different meanings}@}:<sup>[\[1\]](#^ref-1)</sup> <!--SR:!2025-02-18,43,292-->
 
 - Russell's definition, ::@:: an inductive set is a nonempty partially ordered set in which every element has a successor. An example is the set of natural numbers N, where 0 is the first element, and the others are produced by adding 1 successively.<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2025-01-31,26,272!2025-01-07,12,272-->
 - Roitman considers ::@:: the same construction in a more concrete form: the elements are sets, the empty set $\emptyset$ among them, and the successor of every element $y$ is the set $y\cup \{y\}$. In particular, every inductive set contains the sequence $\emptyset ,\{\emptyset \},\{\emptyset ,\{\emptyset \}\},\{\emptyset ,\{\emptyset \},\{\emptyset ,\{\emptyset \}\}\},\dots$.<sup>[\[3\]](#^ref-3)</sup> <!--SR:!2025-01-25,22,252!2025-01-10,15,292-->

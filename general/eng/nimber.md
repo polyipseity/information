@@ -33,7 +33,7 @@ Nim is {@{a game in which two players take turns removing objects from distinct 
 
 - Main article: [Cram \(game\)](Cram%20(game).md)
 
-Cram is {@{a game often played on a rectangular board}@} in which {@{players take turns placing dominoes either horizontally or vertically until no more dominoes can be placed}@}. {@{The first player that cannot make a move}@} loses. As {@{the possible moves for both players are the same}@}, it is {@{an impartial game and can have a nimber value}@}. For example, any board {@{that is an even size by an even size will have a nimber of 0}@}. Any board {@{that is even by odd will have a non-zero nimber}@}. Any {@{2 × _n_ board will have a nimber of 0 for all even _n_ and a nimber of 1 for all odd _n_}@}. <!--SR:!2025-01-12,17,313!2025-01-06,12,285!2025-01-12,17,305!2025-02-20,46,305!2025-01-10,15,290!2025-01-12,17,305!2025-01-12,17,305!2025-01-12,17,313-->
+Cram is {@{a game often played on a rectangular board}@} in which {@{players take turns placing dominoes either horizontally or vertically until no more dominoes can be placed}@}. {@{The first player that cannot make a move}@} loses. As {@{the possible moves for both players are the same}@}, it is {@{an impartial game and can have a nimber value}@}. For example, any board {@{that is an even size by an even size will have a nimber of 0}@}. Any board {@{that is even by odd will have a non-zero nimber}@}. Any {@{2 × _n_ board will have a nimber of 0 for all even _n_ and a nimber of 1 for all odd _n_}@}. <!--SR:!2025-01-12,17,313!2025-02-08,33,285!2025-01-12,17,305!2025-02-20,46,305!2025-01-10,15,290!2025-01-12,17,305!2025-01-12,17,305!2025-01-12,17,313-->
 
 ### Northcott's game
 
@@ -53,7 +53,7 @@ For {@{finite ordinals}@}, {@{the __nim-sum__ is easily evaluated on a computer}
 
 {@{This property of addition}@} follows from the fact that {@{both mex and XOR yield a winning strategy for Nim and there can be only one such strategy}@}; or {@{it can be shown directly by induction}@}: Let {@{_α_ and _β_ be two finite ordinals}@}, and assume that {@{the nim-sum of all pairs with one of them reduced is already defined}@}. The only number {@{whose XOR with _α_ is _α_ ⊕ _β_ is _β_, and vice versa}@}; thus {@{_α_ ⊕ _β_ is excluded}@}. {@{$$\zeta :=\alpha \oplus \beta \oplus \gamma$$}@} On the other hand, for {@{any ordinal _γ_ \< _α_ ⊕ _β_}@} (annotation: This is trying to {@{prove that _α_ ⊕ _β_ is the mex}@}.), {@{XORing _ξ_ with all of _α_, _β_ and _γ_ must lead to a reduction for one of them}@} \(since {@{the leading 1 in _ξ_ must be present in at least one of the three}@}\); since {@{$$\zeta \oplus \gamma =\alpha \oplus \beta >\gamma ,$$}@} (annotation: In words, it means {@{XORing _ξ_ with _γ_ must increase _γ_, thus XORing _ξ_ with all of _a_, _β_ decrease either _a_ or _β_}@}.) we must have {@{either $${\begin{aligned}\alpha >\zeta \oplus \alpha &=\beta \oplus \gamma ,\\[4pt]\beta >\zeta \oplus \beta &=\alpha \oplus \gamma ;\end{aligned} }$$}@} thus {@{_γ_ is included as either $${\begin{aligned}\alpha \oplus \beta & > \gamma = (\beta \oplus \gamma )\oplus \beta = (\zeta \oplus \alpha) \oplus \beta ,\\[4pt] \alpha \oplus \beta & > \gamma = \alpha \oplus (\alpha \oplus \gamma ) = \alpha \oplus (\zeta \oplus \beta) ;\end{aligned} }$$}@} and hence {@{_α_ ⊕ _β_ is the minimum excluded ordinal}@}. <!--SR:!2025-01-12,17,313!2025-01-11,16,290!2025-01-12,17,305!2025-02-07,35,293!2025-02-03,31,270!2025-01-10,15,290!2025-02-03,31,270!2025-01-12,17,313!2025-01-09,14,290!2025-01-11,16,290!2025-01-09,14,290!2025-01-12,17,305!2025-01-10,15,290!2025-02-05,33,270!2025-02-04,32,270!2025-01-07,12,285!2025-01-12,17,313-->
 
-{@{Nimber addition}@} is {@{[associative](associative%20property.md) and [commutative](commutative%20property.md), with 0 as the additive [identity element](identity%20element.md)}@}. Moreover, {@{a nimber is its own [additive inverse](additive%20inverse.md)}@}.<sup>[\[4\]](#^ref-4)</sup> It follows that {@{_α_ ⊕ _β_ = 0 [if and only if](if%20and%20only%20if.md) _α_ = _β_}@}. <!--SR:!2025-01-06,12,270!2025-01-11,16,290!2025-01-12,17,313!2025-01-12,17,305-->
+{@{Nimber addition}@} is {@{[associative](associative%20property.md) and [commutative](commutative%20property.md), with 0 as the additive [identity element](identity%20element.md)}@}. Moreover, {@{a nimber is its own [additive inverse](additive%20inverse.md)}@}.<sup>[\[4\]](#^ref-4)</sup> It follows that {@{_α_ ⊕ _β_ = 0 [if and only if](if%20and%20only%20if.md) _α_ = _β_}@}. <!--SR:!2025-02-08,33,270!2025-01-11,16,290!2025-01-12,17,313!2025-01-12,17,305-->
 
 ## multiplication
 
@@ -64,7 +64,7 @@ Nimber multiplication is {@{associative and commutative, with the ordinal 1 as t
 Thus, except for {@{the fact that nimbers form a [proper class](class%20(set%20theory).md) and not a set}@}, {@{the class of nimbers forms a [ring](ring%20(mathematics).md)}@}. In fact, it {@{even determines an [algebraically closed field](algebraically%20closed%20field.md) of [characteristic](characteristic%20(algebra).md) 2}@}, with {@{the nimber multiplicative inverse of a nonzero ordinal _α_ given}@} by {@{$$\alpha ^{-1}=\operatorname {mex} (S),$$}@} where {@{_S_ is the smallest set of ordinals \(nimbers\)}@} such that <!--SR:!2025-01-12,17,305!2025-01-29,27,270!2025-01-09,14,290!2025-01-11,16,290!2025-01-11,16,290!2025-01-12,17,313-->
 
 1. mex(_S_), base ::@:: 0 is an element of _S_; <!--SR:!2025-01-09,14,290!2025-01-12,17,305-->
-2. mex(_S_), induction ::@:: if 0 \< _α_<!-- markdown separator -->′ \< _α_ and _β'_ is an element of _S_, then ${\tfrac {1+(\alpha '\oplus \alpha )\beta '}{\alpha '} }$ is also an element of _S_. <!--SR:!2025-01-08,5,245!2025-01-06,12,270-->
+2. mex(_S_), induction ::@:: if 0 \< _α_<!-- markdown separator -->′ \< _α_ and _β'_ is an element of _S_, then ${\tfrac {1+(\alpha '\oplus \alpha )\beta '}{\alpha '} }$ is also an element of _S_. <!--SR:!2025-01-08,5,245!2025-01-12,6,250-->
 
 For {@{all natural numbers _n_}@}, {@{the set of nimbers less than 2<sup>2<sup>_n_</sup></sup>}@} form {@{the [Galois field](finite%20field.md) GF\(2<sup>2<sup>_n_</sup></sup>\) of order 2<sup>2<sup>_n_</sup></sup>}@}. (TODO: What is this abstract nonsense?) Therefore, {@{the set of finite nimbers}@} is {@{isomorphic to the [direct limit](direct%20limit.md) as _n_ → ∞ of the fields GF\(2<sup>2<sup>_n_</sup></sup>\)}@}. This subfield is {@{not algebraically closed}@}, since {@{no field GF\(2<sup>_k_</sup>\) with _k_ not a power of 2 is contained in any of those fields, and therefore not in their direct limit}@}; for instance {@{the polynomial _x_<sup>3</sup> + _x_ + 1}@}, which {@{has a root in GF\(2<sup>3</sup>\)}@}, {@{does not have a root in the set of finite nimbers}@}. <!--SR:!2025-01-07,12,285!2025-01-09,14,290!2025-01-12,17,305!2025-01-10,15,290!2025-01-12,17,313!2025-01-09,14,290!2025-01-12,17,313!2025-01-11,16,290!2025-02-06,32,285!2025-01-12,17,305-->
 
@@ -97,14 +97,14 @@ This subset is {@{closed under both operations}@}, since {@{16 is of the form 2<
 >
 > {@{Nimber multiplication}@} \(sequence {@{[A051775](https://oeis.org/A051775)}@} in the [OEIS](On-Line%20Encyclopedia%20of%20Integer%20Sequences.md)\) <br/>
 > The nonzero elements form the [Cayley table](cayley%20table.md) of [Z<sub>15</sub>](list%20of%20small%20groups.md#list%20of%20small%20abelian%20groups). <br/>
-> The small matrices are permuted binary [Walsh matrices](walsh%20matrix.md). <!--SR:!2025-01-11,16,290!2025-01-09,14,290!2025-01-06,4,245-->
+> The small matrices are permuted binary [Walsh matrices](walsh%20matrix.md). <!--SR:!2025-01-11,16,290!2025-01-09,14,290!2025-01-08,2,225-->
 
 <!-- markdownlint MD028 -->
 
 > {@{![nimber multiplication table among powers of two](../../archives/Wikimedia%20Commons/Nimber%20products%20of%20powers%20of%20two.svg)}@}
 >
 > {@{Nimber multiplication of [powers of two](power%20of%20two.md)}@} \(sequence {@{[A223541](https://oeis.org/A223541)}@} in the [OEIS](On-Line%20Encyclopedia%20of%20Integer%20Sequences.md)\) <br/>
-> {@{Calculating the nim-products of powers of two}@} is {@{a decisive point in the recursive algorithm of nimber-multiplication}@}. <!--SR:!2025-01-12,17,313!2025-01-07,12,270!2025-01-06,4,253!2025-02-15,42,305!2025-01-12,17,313-->
+> {@{Calculating the nim-products of powers of two}@} is {@{a decisive point in the recursive algorithm of nimber-multiplication}@}. <!--SR:!2025-01-12,17,313!2025-01-07,12,270!2025-01-08,2,233!2025-02-15,42,305!2025-01-12,17,313-->
 
 ## see also
 
