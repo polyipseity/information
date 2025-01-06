@@ -40,6 +40,7 @@ Let {@{_C_ and _D_ be [categories](category%20(mathematics).md)}@}. {@{A __funct
 - (annotation: morphism) ::@:: associates each [morphism](morphism.md) $f\colon X\to Y$ in _C_ to a morphism $F(f)\colon F(X)\to F(Y)$ in _D_ such that the following two conditions hold: (annotation: identity, composition)
   - (annotation: identity) ::@:: $F(\mathrm {id} _{X})=\mathrm {id} _{F(X)}\,\!$ for every object $X$ in _C_,
   - (annotation: composition) ::@:: $F(g\circ f)=F(g)\circ F(f)$ for all morphisms $f\colon X\to Y\,\!$ and $g\colon Y\to Z$ in _C_.
+- (annotation: functor, notes) ::@:: (annotation: The object and morphism mappings are _not_ required to be injective or surjective. For example, see [constant functor](constant%20functor.md#examples), which maps every object to the same object and every morphism to the identity morphism of that object.)
 
 That is, functors must {@{preserve [identity morphisms](morphism.md#definition) and [composition](function%20composition.md) of morphisms}@}.
 
@@ -211,7 +212,7 @@ Functors sometimes {@{appear in [functional programming](functional%20programmin
 7. <a id="CITEREFMac LaneMoerdijk1992"></a> [Mac Lane, Saunders](Saunders%20Mac%20Lane.md); [Moerdijk, Ieke](Ieke%20Moerdijk.md) \(1992\), _Sheaves in geometry and logic: a first introduction to topos theory_, Springer, [ISBN](ISBN%20(identifier).md) [978-0-387-97710-2](https://en.wikipedia.org/wiki/Special:BookSources/978-0-387-97710-2) <a id="^ref-7"></a>^ref-7
 8. <a id="CITEREFHazewinkelGubareniGubareniKirichenko2004"></a> [Hazewinkel, Michiel](Michiel%20Hazewinkel.md); [Gubareni, Nadezhda Mikhaĭlovna](Nadezhda%20Mikhaĭlovna.md); [Gubareni, Nadiya](Nadiya%20Gubareni.md); [Kirichenko, Vladimir V.](Vladimir%20V.%20Kirichenko.md) \(2004\), _Algebras, rings and modules_, Springer, [ISBN](ISBN%20(identifier).md) [978-1-4020-2690-4](https://en.wikipedia.org/wiki/Special:BookSources/978-1-4020-2690-4) <a id="^ref-8"></a>^ref-8
 9. [Jacobson \(2009\)](#CITEREFJacobson2009), p. 20, ex. 2. <a id="^ref-9"></a>^ref-9
-10. It's not entirely clear that Haskell datatypes truly form a category. See [https://wiki.haskell.org/Hask](https://wiki.haskell.org/Hask) for more details. <a id="^ref-10"></a>^ref-10
+10. It's {@{not entirely clear that Haskell datatypes truly form a category}@}. See [https://wiki.haskell.org/Hask](https://wiki.haskell.org/Hask) for more details. <a id="^ref-10"></a>^ref-10
 11. See [https://wiki.haskell.org/Category\_theory/Functor\#Functors\_in\_Haskell](https://wiki.haskell.org/Category_theory/Functor#Functors_in_Haskell) for more information. <a id="^ref-11"></a>^ref-11
 
 ## references
