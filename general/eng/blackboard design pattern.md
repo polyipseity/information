@@ -1,0 +1,1 @@
+blackboard (design pattern).md
