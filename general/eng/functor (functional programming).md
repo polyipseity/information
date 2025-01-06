@@ -13,9 +13,9 @@ tags:
 
 - This article is about {@{the design pattern for mapping functions over a generic type}@}. For {@{the term "functor" as used in C++}@}, see {@{[function object](function%20object.md)}@}. <!--SR:!2025-01-10,4,291!2025-01-10,4,275!2025-01-10,4,291-->
 
-> {@{![Applying `fmap \(+1\)` to a binary tree of integers increments each integer in the tree by one.](../../archives/Wikimedia%20Commons/Tree%20as%20a%20functor.svg)}@}
+> {@{![Applying `fmap (+1)` to a binary tree of integers increments each integer in the tree by one.](../../archives/Wikimedia%20Commons/Tree%20as%20a%20functor.svg)}@}
 >
-> {@{Applying `fmap \(+1\)` to a binary tree of integers increments each integer in the tree by one.}@} <!--SR:!2025-01-10,4,275!2025-01-10,4,275-->
+> {@{Applying `fmap (+1)` to a binary tree of integers increments each integer in the tree by one.}@} <!--SR:!2025-01-10,4,275!2025-01-10,4,275-->
 
 In {@{[functional programming](functional%20programming.md)}@}, {@{a __functor__}@} is {@{a [design pattern](design%20pattern.md) inspired by [the definition from category theory](functor.md)}@} that {@{allows one to apply a [function](function%20(mathematics).md) to values inside a [generic type](generic%20type.md) without changing the structure of the generic type}@}. In {@{[Haskell](Haskell.md)}@} this idea can be {@{captured in a [type class](type%20class.md)}@}: <!--SR:!2025-01-10,4,275!2025-01-10,4,291!2025-01-10,4,275!2025-01-10,4,275!2025-01-10,4,270!2025-01-10,4,275-->
 
