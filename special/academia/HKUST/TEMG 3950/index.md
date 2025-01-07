@@ -273,7 +273,7 @@ The content is in teaching order.
   - [§ usage](../../../profitability%20framework.md#usage)
   - abbreviations
     - R&D ::@:: research & development <!--SR:!2026-11-05,710,410!2027-05-09,860,410-->
-    - S&M ::@:: sales & marketing <!--SR:!2025-01-07,168,390!2026-07-12,620,410-->
+    - S&M ::@:: sales & marketing <!--SR:!2027-06-21,895,410!2026-07-12,620,410-->
     - G&A ::@:: general & administration <!--SR:!2026-04-30,555,410!2026-08-01,630,410-->
     - CAGR ::@:: compound average growth rate; $$\text{CAGR} = \left(\frac {V_{\text{end} } } {V_{\text{start} } } \right)^{\frac 1 t} - 1$$ <!--SR:!2025-09-25,374,390!2026-07-26,625,410-->
 - interview note-taking technique using 1 sheet of A4 paper

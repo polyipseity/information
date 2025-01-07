@@ -24,7 +24,7 @@ Apart from location, cells and ranges can also have {@{user-defined names}@}. Yo
 
 ## formula
 
-Apart from inputting data into cells, cells can also {@{compute}@}. To do so, use {@{[formulas](formula.md)}@}. <!--SR:!2027-03-23,858,330!2025-01-07,259,330-->
+Apart from inputting data into cells, cells can also {@{compute}@}. To do so, use {@{[formulas](formula.md)}@}. <!--SR:!2027-03-23,858,330!2028-03-30,1178,350-->
 
 ## see also
 

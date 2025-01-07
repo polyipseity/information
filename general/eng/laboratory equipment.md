@@ -173,7 +173,7 @@ return _chain.from_iterable(await _gather(
 - [stand/retort stand/ring stand/support stand](retort%20stand.md)→::@::←[test tube](test%20tube.md), boiling tube <!--SR:!2025-06-27,185,190!2025-02-02,157,190-->
 - [test tube](test%20tube.md), boiling tube→::@::←[test tube brush](test%20tube%20brush.md) <!--SR:!2028-07-27,1514,350!2028-08-13,1528,350-->
 - [test tube brush](test%20tube%20brush.md)→::@::←[test tube holder](test%20tube%20holder.md) <!--SR:!2026-02-24,631,270!2025-11-25,442,310-->
-- [test tube holder](test%20tube%20holder.md)→::@::←[test tube rack](test%20tube%20rack.md) <!--SR:!2027-06-05,1029,290!2025-01-07,428,290-->
+- [test tube holder](test%20tube%20holder.md)→::@::←[test tube rack](test%20tube%20rack.md) <!--SR:!2027-06-05,1029,290!2029-09-27,1724,310-->
 - [test tube rack](test%20tube%20rack.md)→::@::←[thermometer](thermometer.md) <!--SR:!2025-02-11,56,150!2025-08-18,290,210-->
 - [thermometer](thermometer.md)→::@::←[tripod](tripod.md) <!--SR:!2025-05-10,354,270!2027-06-03,1008,290-->
 - [tripod](tripod.md)→::@::←[volumetric flask](volumetric%20flask.md) <!--SR:!2025-02-07,45,130!2025-04-05,511,310-->

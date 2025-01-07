@@ -164,7 +164,7 @@ Also, one CAN chain {@{comparison operators in Python, unlike other languages. F
 
 ### logic operators
 
-Below are common logic operators, all of which {@{accept two booleans and return a boolean}@}. Operators have higher precedence than or same precedence as operators below it in the list: <!--SR:!2025-01-07,263,330-->
+Below are common logic operators, all of which {@{accept two booleans and return a boolean}@}. Operators have higher precedence than or same precedence as operators below it in the list: <!--SR:!2028-04-17,1196,350-->
 
 ```Python
 # pytextgen generate data

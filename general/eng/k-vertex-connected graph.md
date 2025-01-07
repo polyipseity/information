@@ -13,48 +13,48 @@ tags:
 
 > {@{![A graph with connectivity 4](../../archives/Wikimedia%20Commons/4-connected%20graph.svg)}@}
 >
-> {@{A graph with connectivity 4.}@} <!--SR:!2025-01-07,4,270!2025-01-07,4,270-->
+> {@{A graph with connectivity 4.}@} <!--SR:!2025-01-23,16,290!2025-01-23,16,290-->
 
-In {@{[graph theory](graph%20theory.md)}@}, {@{a connected [graph](graph%20(discrete%20mathematics).md) _G_}@} is said to be {@{___k_-vertex-connected__ \(or ___k_-connected__\)}@} if {@{it has more than _k_ [vertices](vertex%20(graph%20theory).md) and remains [connected](connectivity%20(graph%20theory).md) whenever fewer than _k_ vertices are removed}@}. <!--SR:!2025-01-07,4,270!2025-01-07,4,270!2025-01-07,4,270!2025-01-07,4,270-->
+In {@{[graph theory](graph%20theory.md)}@}, {@{a connected [graph](graph%20(discrete%20mathematics).md) _G_}@} is said to be {@{___k_-vertex-connected__ \(or ___k_-connected__\)}@} if {@{it has more than _k_ [vertices](vertex%20(graph%20theory).md) and remains [connected](connectivity%20(graph%20theory).md) whenever fewer than _k_ vertices are removed}@}. <!--SR:!2025-01-23,16,290!2025-01-23,16,290!2025-01-23,16,290!2025-01-23,16,290-->
 
-{@{The __vertex-connectivity__, or just __connectivity__}@}, of {@{a graph is the largest _k_ for which the graph is _k_-vertex-connected}@}. <!--SR:!2025-01-07,4,270!2025-01-07,4,270-->
+{@{The __vertex-connectivity__, or just __connectivity__}@}, of {@{a graph is the largest _k_ for which the graph is _k_-vertex-connected}@}. <!--SR:!2025-01-23,16,290!2025-01-23,16,290-->
 
 ## definitions
 
-{@{A graph \(other than a [complete graph](complete%20graph.md)\)}@} has {@{connectivity _k_ if _k_ is the size of the smallest subset of vertices such that the graph becomes disconnected if you delete them}@}.<sup>[\[1\]](#^ref-1)</sup> In {@{[complete graphs](complete%20graph.md)}@}, there is {@{no subset whose removal would disconnect the graph}@}. Some sources {@{modify the definition of connectivity to handle this case}@}, by {@{defining it as the size of the smallest subset of vertices whose deletion results in either a disconnected graph or a single vertex}@}. For this variation, {@{the connectivity of a complete graph $K_{n}$ is $n-1$}@}.<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2025-01-07,4,270!2025-01-07,4,270!2025-01-07,4,270!2025-01-07,4,270!2025-01-07,4,270!2025-01-07,4,270!2025-01-07,4,270-->
+{@{A graph \(other than a [complete graph](complete%20graph.md)\)}@} has {@{connectivity _k_ if _k_ is the size of the smallest subset of vertices such that the graph becomes disconnected if you delete them}@}.<sup>[\[1\]](#^ref-1)</sup> In {@{[complete graphs](complete%20graph.md)}@}, there is {@{no subset whose removal would disconnect the graph}@}. Some sources {@{modify the definition of connectivity to handle this case}@}, by {@{defining it as the size of the smallest subset of vertices whose deletion results in either a disconnected graph or a single vertex}@}. For this variation, {@{the connectivity of a complete graph $K_{n}$ is $n-1$}@}.<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2025-01-23,16,290!2025-01-22,15,290!2025-01-23,16,290!2025-01-23,16,290!2025-01-22,15,290!2025-01-22,15,290!2025-01-22,15,290-->
 
-An equivalent definition is that {@{a graph with at least two vertices is _k_-connected}@} if, {@{for every pair of its vertices, it is possible to find _k_ vertex-independent [paths](path%20(graph%20theory).md) connecting these vertices; see [Menger's theorem](Menger's%20theorem.md)}@} \([Diestel 2005](#CITEREFDiestel2005), p. 55\). This definition {@{produces the same answer, _n_ − 1, for the connectivity of the complete graph _K_<sub>_n_</sub>}@}.<sup>[\[1\]](#^ref-1)</sup> <!--SR:!2025-01-07,4,270!2025-01-13,7,250!2025-01-07,4,270-->
+An equivalent definition is that {@{a graph with at least two vertices is _k_-connected}@} if, {@{for every pair of its vertices, it is possible to find _k_ vertex-independent [paths](path%20(graph%20theory).md) connecting these vertices; see [Menger's theorem](Menger's%20theorem.md)}@} \([Diestel 2005](#CITEREFDiestel2005), p. 55\). This definition {@{produces the same answer, _n_ − 1, for the connectivity of the complete graph _K_<sub>_n_</sub>}@}.<sup>[\[1\]](#^ref-1)</sup> <!--SR:!2025-01-23,16,290!2025-01-13,7,250!2025-01-23,16,290-->
 
-{@{A 1-connected graph is called [connected](connectivity%20(graph%20theory).md#connected%20vertices%20and%20graphs)}@}; {@{a 2-connected graph is called [biconnected](biconnected%20graph.md)}@}. {@{A 3-connected graph is called triconnected}@}. <!--SR:!2025-01-07,4,270!2025-01-07,4,270!2025-01-07,4,270-->
+{@{A 1-connected graph is called [connected](connectivity%20(graph%20theory).md#connected%20vertices%20and%20graphs)}@}; {@{a 2-connected graph is called [biconnected](biconnected%20graph.md)}@}. {@{A 3-connected graph is called triconnected}@}. <!--SR:!2025-01-23,16,290!2025-01-22,15,290!2025-01-22,15,290-->
 
 ## applications
 
 ### components
 
-Every graph {@{decomposes into a disjoint union of [1-connected components](component%20(graph%20theory).md)}@}. 1-connected graphs {@{decompose into a tree of [biconnected components](biconnected%20component.md)}@}. 2-connected graphs {@{decompose into a tree of [triconnected components](SPQR%20tree.md)}@}. <!--SR:!2025-01-07,4,270!2025-01-07,4,270!2025-01-07,4,270-->
+Every graph {@{decomposes into a disjoint union of [1-connected components](component%20(graph%20theory).md)}@}. 1-connected graphs {@{decompose into a tree of [biconnected components](biconnected%20component.md)}@}. 2-connected graphs {@{decompose into a tree of [triconnected components](SPQR%20tree.md)}@}. <!--SR:!2025-01-23,16,290!2025-01-22,15,290!2025-01-22,15,290-->
 
 ### polyhedral combinatorics
 
-{@{The 1-[skeleton](n-skeleton.md) (annotation: i.e. vertices and edges of the polytope represented as a graph) of any _k_-dimensional convex [polytope](polytope.md)}@} forms {@{a _k_-vertex-connected graph \([Balinski's theorem](Balinski's%20theorem.md)\)}@}.<sup>[\[3\]](#^ref-3)</sup> As {@{a partial converse, [Steinitz's theorem](Steinitz's%20theorem.md)}@} states that {@{any 3-vertex-connected [planar graph](planar%20graph.md) forms the skeleton of a convex [polyhedron](polyhedron.md)}@}. <!--SR:!2025-01-13,7,250!2025-01-13,7,250!2025-01-07,4,270!2025-01-07,4,270-->
+{@{The 1-[skeleton](n-skeleton.md) (annotation: i.e. vertices and edges of the polytope represented as a graph) of any _k_-dimensional convex [polytope](polytope.md)}@} forms {@{a _k_-vertex-connected graph \([Balinski's theorem](Balinski's%20theorem.md)\)}@}.<sup>[\[3\]](#^ref-3)</sup> As {@{a partial converse, [Steinitz's theorem](Steinitz's%20theorem.md)}@} states that {@{any 3-vertex-connected [planar graph](planar%20graph.md) forms the skeleton of a convex [polyhedron](polyhedron.md)}@}. <!--SR:!2025-01-13,7,250!2025-01-13,7,250!2025-01-23,16,290!2025-01-18,11,270-->
 
 ## computational complexity
 
-{@{The vertex-connectivity of an input graph _G_}@} can be {@{computed in polynomial time in the following way}@}<sup>[\[4\]](#^ref-4)</sup> consider {@{all possible pairs $(s,t)$ of nonadjacent nodes to disconnect}@}, using {@{[Menger's theorem](Menger's%20theorem.md) to justify that the minimal-size separator for $(s,t)$ is the number of pairwise vertex-independent paths between them}@}, encode the input by {@{doubling each vertex as an edge (annotation: Transform the undirected graph to a digraph by replacing each edge with a pair of directed edges. For each vertex, double it by replacing it with two vertices, one with the original incoming edges and the other with the original outgoing edges. Additionally, connect the former to the latter with a directed edge.)}@} to {@{reduce to a computation of the number of pairwise edge-independent paths}@}, and {@{compute the maximum number of such paths by computing the [maximum flow](maximum%20flow%20problem.md) in the graph between $s$ and $t$ with capacity 1 to each edge}@}, noting that {@{a flow of $k$ in this graph corresponds, by the [integral flow theorem](maximum%20flow%20problem.md#integral%20flow%20theorem), to $k$ pairwise edge-independent paths from $s$ to $t$}@}. <!--SR:!2025-01-07,4,270!2025-01-07,4,270!2025-01-07,4,270!2025-01-07,4,270!2025-01-07,4,270!2025-01-07,4,270!2025-01-07,4,270!2025-01-07,4,270-->
+{@{The vertex-connectivity of an input graph _G_}@} can be {@{computed in polynomial time in the following way}@}<sup>[\[4\]](#^ref-4)</sup> consider {@{all possible pairs $(s,t)$ of nonadjacent nodes to disconnect}@}, using {@{[Menger's theorem](Menger's%20theorem.md) to justify that the minimal-size separator for $(s,t)$ is the number of pairwise vertex-independent paths between them}@}, encode the input by {@{doubling each vertex as an edge (annotation: Transform the undirected graph to a digraph by replacing each edge with a pair of directed edges. For each vertex, double it by replacing it with two vertices, one with the original incoming edges and the other with the original outgoing edges. Additionally, connect the former to the latter with a directed edge.)}@} to {@{reduce to a computation of the number of pairwise edge-independent paths}@}, and {@{compute the maximum number of such paths by computing the [maximum flow](maximum%20flow%20problem.md) in the graph between $s$ and $t$ with capacity 1 to each edge}@}, noting that {@{a flow of $k$ in this graph corresponds, by the [integral flow theorem](maximum%20flow%20problem.md#integral%20flow%20theorem), to $k$ pairwise edge-independent paths from $s$ to $t$}@}. <!--SR:!2025-01-23,16,290!2025-01-23,16,290!2025-01-18,11,270!2025-01-18,11,270!2025-01-23,16,290!2025-01-23,16,290!2025-01-23,16,290!2025-01-23,16,290-->
 
 ## properties
 
-Let {@{_k≥2_}@}. <!--SR:!2025-01-07,4,270-->
+Let {@{_k≥2_}@}. <!--SR:!2025-01-23,16,290-->
 
-- (annotation: _k≥2_) Every _k_-connected graph of order (annotation: i.e. number of vertices) at least $2k$ ::@:: contains a [cycle](cycle%20(graph%20theory).md) of length at least $2k$ <!--SR:!2025-01-13,7,250!2025-01-07,4,270-->
-- (annotation: _k≥2_) In a _k_-connected graph, ::@:: any $k$ vertices in $G$ lie on a common [cycle](cycle%20(graph%20theory).md).<sup>[\[5\]](#^ref-5)</sup> <!--SR:!2025-01-07,4,270!2025-01-07,4,270-->
+- (annotation: _k≥2_) Every _k_-connected graph of order (annotation: i.e. number of vertices) at least $2k$ ::@:: contains a [cycle](cycle%20(graph%20theory).md) of length at least $2k$ <!--SR:!2025-01-13,7,250!2025-01-18,11,270-->
+- (annotation: _k≥2_) In a _k_-connected graph, ::@:: any $k$ vertices in $G$ lie on a common [cycle](cycle%20(graph%20theory).md).<sup>[\[5\]](#^ref-5)</sup> <!--SR:!2025-01-18,11,270!2025-01-23,16,290-->
 
 {@{The [cycle space](cycle%20space.md) of a 3-connected graph}@} is generated by {@{its non-separating [induced cycles](induced%20path.md)}@}. <sup>[\[6\]](#^ref-6)</sup> <!--SR:!2025-01-18,12,270!2025-01-18,12,270-->
 
 ## _k_-linked graph
 
-{@{A graph with at least $2k$ vertices}@} is called ___k_-linked__ if {@{there are $k$ (vertex-)disjoint paths connecting $a_i$ to $b_i$ for any sequences $a_{1},\dots ,a_{k}$ and $b_{1},\dots ,b_{k}$ of $2k$ distinct vertices}@}. {@{Every _k_-linked graph}@} is {@{$(2k-1)$-connected graph, but not necessarily $2k$-connected}@}. <sup>[\[7\]](#^ref-7)</sup> <!--SR:!2025-01-07,4,270!2025-01-07,4,270!2025-01-07,4,270!2025-01-07,4,270-->
+{@{A graph with at least $2k$ vertices}@} is called ___k_-linked__ if {@{there are $k$ (vertex-)disjoint paths connecting $a_i$ to $b_i$ for any sequences $a_{1},\dots ,a_{k}$ and $b_{1},\dots ,b_{k}$ of $2k$ distinct vertices}@}. {@{Every _k_-linked graph}@} is {@{$(2k-1)$-connected graph, but not necessarily $2k$-connected}@}. <sup>[\[7\]](#^ref-7)</sup> <!--SR:!2025-01-18,11,270!2025-01-18,11,270!2025-01-22,15,290!2025-01-18,11,270-->
 
-If {@{a graph is $2k$-connected and has average degree of at least $16k$}@}, then {@{it is $k$-linked}@}. <sup>[\[8\]](#^ref-8)</sup> <!--SR:!2025-01-13,7,250!2025-01-07,4,270-->
+If {@{a graph is $2k$-connected and has average degree of at least $16k$}@}, then {@{it is $k$-linked}@}. <sup>[\[8\]](#^ref-8)</sup> <!--SR:!2025-01-13,7,250!2025-01-22,15,290-->
 
 ## see also
 

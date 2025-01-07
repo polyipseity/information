@@ -24,7 +24,7 @@ The values can be {@{anything}@} while the keys can be {@{almost anything, as th
 
 ## lookup
 
-To lookup the value for a key, simply write {@{`dictionary[key]`}@}. To check whether a key is in a dictionary, use {@{the `in` operator: `key in dictionary`}@}. <!--SR:!2025-01-07,260,330!2027-04-18,907,350-->
+To lookup the value for a key, simply write {@{`dictionary[key]`}@}. To check whether a key is in a dictionary, use {@{the `in` operator: `key in dictionary`}@}. <!--SR:!2028-04-03,1182,350!2027-04-18,907,350-->
 
 ## modification
 

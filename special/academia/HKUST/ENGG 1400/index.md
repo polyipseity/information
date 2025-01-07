@@ -84,7 +84,7 @@ The content is in teaching order.
   - positive emotion ::@:: hedonic treadmill, happiness returns to its baseline level <!--SR:!2025-02-02,89,357!2025-02-04,91,357-->
   - engagement (& motivation) ::@:: They drive you to do the things you want. <!--SR:!2025-01-29,85,357!2025-02-03,90,357-->
   - relationships ::@:: According to a Harvard study of adult development, the people who were the most satisfied in their relationships at age 50 were the healthiest at age 80. <!--SR:!2025-02-04,91,357!2025-02-04,91,357-->
-  - meaning & purpose ::@:: For example, you probably want to have a job or two jobs that make both meaning and money. <!--SR:!2025-01-07,63,337!2025-02-03,90,357-->
+  - meaning & purpose ::@:: For example, you probably want to have a job or two jobs that make both meaning and money. <!--SR:!2025-10-26,292,357!2025-02-03,90,357-->
   - accomplishment ::@:: Accomplishment could be physical or emotional ones, which are obtained after successfully doing certain things. <!--SR:!2025-02-01,88,357!2025-02-04,91,357-->
   - PERMA limitations ::@:: Maybe there are other things that you feel are important to your own well-being but are not included... So feel free to add your own ones. <!--SR:!2025-01-30,86,357!2025-02-01,88,357-->
 - activity 1: PERMA assessment and reflection ::@:: PERMA assessment, energy engagement map (& flow), incremental changes, sharing with others <!--SR:!2025-02-04,91,357!2025-02-03,90,357-->

@@ -358,7 +358,7 @@ transportation
 
 - _(begin)_→::@::←construction <!--SR:!2025-01-13,207,355!2027-02-18,827,395-->
 - construction→::@::←environmental <!--SR:!2025-07-26,325,340!2025-12-22,480,400-->
-- environmental→::@::←geo-technical <!--SR:!2025-11-28,416,327!2025-01-07,205,345-->
+- environmental→::@::←geo-technical <!--SR:!2025-11-28,416,327!2026-12-16,708,345-->
 - geo-technical→::@::←hydraulic <!--SR:!2026-04-13,508,340!2026-05-27,519,360-->
 - hydraulic→::@::←material <!--SR:!2026-04-12,556,360!2026-02-13,471,340-->
 - material→::@::←structural <!--SR:!2025-02-07,130,297!2025-01-26,167,260-->
@@ -634,7 +634,7 @@ water
 
 <!--pytextgen generate section="736f"--><!-- The following content is generated at 2024-02-16T21:59:47.573916+08:00. Any edits will be overridden! -->
 
-- _(begin)_→::@::←air <!--SR:!2025-01-07,182,341!2025-12-28,486,401-->
+- _(begin)_→::@::←air <!--SR:!2027-05-11,854,361!2025-12-28,486,401-->
 - air→::@::←environmental impact assessment (EIA) <!--SR:!2026-05-27,535,318!2025-09-08,364,338-->
 - environmental impact assessment (EIA)→::@::←noise <!--SR:!2025-08-23,349,327!2026-01-08,497,400-->
 - noise→::@::←waste <!--SR:!2026-02-04,446,360!2027-07-08,926,375-->
@@ -742,7 +742,7 @@ tunnel
 
 - _(begin)_→::@::←embankment <!--SR:!2025-09-25,357,320!2025-06-28,320,380-->
 - embankment→::@::←pile foundation <!--SR:!2026-03-06,512,340!2025-02-18,218,360-->
-- pile foundation→::@::←shallow foundation <!--SR:!2025-01-07,170,317!2026-11-13,678,355-->
+- pile foundation→::@::←shallow foundation <!--SR:!2027-01-16,739,337!2026-11-13,678,355-->
 - shallow foundation→::@::←tunnel <!--SR:!2025-09-06,333,321!2025-01-14,103,212-->
 - tunnel→::@::←_(end)_ <!--SR:!2025-01-15,195,350!2026-01-29,412,317-->
 
