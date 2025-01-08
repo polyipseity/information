@@ -46,7 +46,7 @@ A set is {@{_[uncountable](uncountable%20set.md)_ if it is not countable}@}, i.e
 
 ## history
 
-In {@{1874, in [his first set theory article](Cantor's%20first%20set%20theory%20article.md)}@}, Cantor {@{proved that the set of [real numbers](real%20number.md) is uncountable}@}, thus {@{showing that not all infinite sets are countable}@}.<sup>[\[16\]](#^ref-16)</sup> In {@{1878, he}@} used {@{one-to-one correspondences to define and compare cardinalities}@}.<sup>[\[17\]](#^ref-17)</sup> In {@{1883, he}@} extended {@{the natural numbers with his infinite [ordinals](ordinal%20number.md)}@}, and {@{used sets of ordinals to produce an infinity of sets having different infinite cardinalities}@}.<sup>[\[18\]](#^ref-18)</sup> <!--SR:!2025-02-22,46,290!2025-01-11,16,290!2025-02-05,33,270!2025-01-08,5,230!2025-02-23,47,290!2025-02-16,42,290!2025-01-21,19,250!2025-01-21,19,250-->
+In {@{1874, in [his first set theory article](Cantor's%20first%20set%20theory%20article.md)}@}, Cantor {@{proved that the set of [real numbers](real%20number.md) is uncountable}@}, thus {@{showing that not all infinite sets are countable}@}.<sup>[\[16\]](#^ref-16)</sup> In {@{1878, he}@} used {@{one-to-one correspondences to define and compare cardinalities}@}.<sup>[\[17\]](#^ref-17)</sup> In {@{1883, he}@} extended {@{the natural numbers with his infinite [ordinals](ordinal%20number.md)}@}, and {@{used sets of ordinals to produce an infinity of sets having different infinite cardinalities}@}.<sup>[\[18\]](#^ref-18)</sup> <!--SR:!2025-02-22,46,290!2025-01-11,16,290!2025-02-05,33,270!2025-01-20,12,230!2025-02-23,47,290!2025-02-16,42,290!2025-01-21,19,250!2025-01-21,19,250-->
 
 ## introduction
 

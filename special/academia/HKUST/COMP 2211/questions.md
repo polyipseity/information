@@ -72,7 +72,7 @@ tags:
 > 4. Content mining
 >
 > - solution: {@{4}@}
-> - explanation: {@{Too simple, simply hard code it...}@} <!--SR:!2025-03-05,57,310!2025-01-08,15,290-->
+> - explanation: {@{Too simple, simply hard code it...}@} <!--SR:!2025-03-05,57,310!2025-03-09,60,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -83,7 +83,7 @@ tags:
 > 3. Keras
 > 4. scikit-learn
 >
-> - solution: {@{4}@} <!--SR:!2025-01-08,15,290-->
+> - solution: {@{4}@} <!--SR:!2025-03-09,60,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -132,14 +132,14 @@ tags:
 
 > Q2. What does `print(len("hehehaha"))` output?
 >
-> - solution: {@{`8`}@} <!--SR:!2025-01-08,15,290-->
+> - solution: {@{`8`}@} <!--SR:!2025-03-10,61,310-->
 
 <!-- markdownlint MD028 -->
 
 > Q3. What does `print(len(r"\n Desmond is a good guy na!\n"))` output?
 >
 > - solution: {@{`30`}@}
-> - explanation: {@{Notice the `r` before the string beginning.}@} <!--SR:!2025-03-06,58,310!2025-01-08,15,290-->
+> - explanation: {@{Notice the `r` before the string beginning.}@} <!--SR:!2025-03-06,58,310!2025-03-12,63,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -194,7 +194,7 @@ tags:
 
 > Q8. Return the maximum value within a NumPy array `a`.
 >
-> - solution: {@{`numpy.max(a)`, `a.max()`}@} <!--SR:!2025-01-08,15,290-->
+> - solution: {@{`numpy.max(a)`, `a.max()`}@} <!--SR:!2025-03-11,62,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -224,7 +224,7 @@ tags:
 > 3. `M + C`, where `C` is an array of shape (5, 3)
 > 4. `M + D`, where `D` is an array of shape (5, 1)
 >
-> - solution: {@{4}@} <!--SR:!2025-01-08,15,290-->
+> - solution: {@{4}@} <!--SR:!2025-03-11,62,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -289,7 +289,7 @@ tags:
 >
 > Your code should be at most one to two lines, and should not contain any loops.
 >
-> - solution: {@{`numpy.zeros((1920, 1080), dtype=numpy.uint8)`, `numpy.full((1920, 1080), fill_value=0, dtype=numpy.uint8)`}@} <!--SR:!2025-01-08,15,290-->
+> - solution: {@{`numpy.zeros((1920, 1080), dtype=numpy.uint8)`, `numpy.full((1920, 1080), fill_value=0, dtype=numpy.uint8)`}@} <!--SR:!2025-03-08,59,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -323,7 +323,7 @@ tags:
 > 3. It is a package
 > 4. It is a library
 >
-> - solution: {@{2}@} <!--SR:!2025-01-08,15,290-->
+> - solution: {@{2}@} <!--SR:!2025-03-12,63,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -336,7 +336,7 @@ tags:
 > print(haha)
 > ```
 >
-> - solution: {@{`[147 258 369]`}@} <!--SR:!2025-01-08,15,290-->
+> - solution: {@{`[147 258 369]`}@} <!--SR:!2025-03-09,60,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -344,7 +344,7 @@ tags:
 >
 > Your code should be at most one to two lines, and should not contain any loops.
 >
-> - solution: {@{`a[a >= numpy.average(a)]`, `a[a >= numpy.mean(a)]`}@} <!--SR:!2025-01-08,15,290-->
+> - solution: {@{`a[a >= numpy.average(a)]`, `a[a >= numpy.mean(a)]`}@} <!--SR:!2025-03-07,58,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -352,7 +352,7 @@ tags:
 >
 > Your code should be at most one to two lines, and should not contain any loops. Hint: use `numpy.argsort`.
 >
-> - solution: {@{`a[numpy.argsort(a)[-2]]`}@} <!--SR:!2025-01-08,15,290-->
+> - solution: {@{`a[numpy.argsort(a)[-2]]`}@} <!--SR:!2025-03-09,60,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -360,7 +360,7 @@ tags:
 >
 > Your code should be at most one to two lines, and should not contain any loops. Hint: the last question might help.
 >
-> - solution: {@{`students[numpy.argsort(marks)[-len(students) // 4:]]`}@} <!--SR:!2025-01-08,15,290-->
+> - solution: {@{`students[numpy.argsort(marks)[-len(students) // 4:]]`}@} <!--SR:!2025-03-11,62,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -382,7 +382,7 @@ tags:
 >
 > Your code should be at most one to two lines, and should not contain any loops.
 >
-> - solution: {@{`print(a * np.ones((2211, 1), dtype=int))`, `print(a + np.zeros((2211, 1), dtype=int))`}@} <!--SR:!2025-01-08,15,290-->
+> - solution: {@{`print(a * np.ones((2211, 1), dtype=int))`, `print(a + np.zeros((2211, 1), dtype=int))`}@} <!--SR:!2025-03-08,59,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -496,7 +496,7 @@ tags:
 >
 > Your code should be at most five lines and should not contain any loops.
 >
-> - solution: {@{`(a[..., numpy.newaxis] == numpy.arange(len(a))).astype(int)`}@} <!--SR:!2025-01-08,15,290-->
+> - solution: {@{`(a[..., numpy.newaxis] == numpy.arange(len(a))).astype(int)`}@} <!--SR:!2025-02-22,45,290-->
 
 <!-- markdownlint MD028 -->
 
@@ -506,14 +506,14 @@ tags:
 >
 > Your code should be at most five lines, and should not contain any loops. Try not to hard-code the numbers "2211" and "300" into your code.
 >
-> - solution: {@{`dists = numpy.sqrt(numpy.sum((X[..., numpy.newaxis, :] - Y) ** 2, axis=-1))`}@} <!--SR:!2025-01-08,15,290-->
+> - solution: {@{`dists = numpy.sqrt(numpy.sum((X[..., numpy.newaxis, :] - Y) ** 2, axis=-1))`}@} <!--SR:!2025-03-08,59,310-->
 
 <!-- markdownlint MD028 -->
 
 > Q32. Are there any differences between the output from `print(str(a))` and `print(repr(a))`? Assume `a` is a NumPy array.
 >
 > - solution: {@{Yes. Try it out yourself!}@}
-> - explanation: {@{The `repr` representation is used when you explicitly write `repr(a)` or if you are printing the value without `print` in interactive Python. Otherwise, the `str` representation is used. <p> In this file, we use the `str` representation if `print` is used, otherwise we use the `repr` representation. In exams, you should see what they ask for.}@} <!--SR:!2025-01-08,15,290!2025-03-03,55,310-->
+> - explanation: {@{The `repr` representation is used when you explicitly write `repr(a)` or if you are printing the value without `print` in interactive Python. Otherwise, the `str` representation is used. <p> In this file, we use the `str` representation if `print` is used, otherwise we use the `repr` representation. In exams, you should see what they ask for.}@} <!--SR:!2025-03-08,59,310!2025-03-03,55,310-->
 
 ## naive Bayes classifier
 
@@ -557,7 +557,7 @@ tags:
 > 3. $P(E \mid F) = P(E)$
 >
 > - solution: {@{2, 3}@}
-> - explanation: {@{1 holds when additionally, $P(E) = P(F)$.}@} <!--SR:!2025-01-08,15,290!2025-03-05,57,310-->
+> - explanation: {@{1 holds when additionally, $P(E) = P(F)$.}@} <!--SR:!2025-03-08,59,310!2025-03-05,57,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -567,7 +567,7 @@ tags:
 > 2. $P(B_1 \cap \cdots \cap B_n|E) = \frac{ P(E | B_1 \cap \cdots \cap B_n)P(B_1 \cap \cdots \cap B_n) }{ P(E) }$
 > 3. $P(B_1 \cap \cdots \cap B_n | E_1 \cap \cdots \cap E_n) = \frac{ P(B_1 \cap \cdots \cap B_n \cap E_1 \cap \cdots \cap E_n) }{ P(E_1 \cap \cdots \cap E_n) }$
 >
-> - solution: {@{none}@} <!--SR:!2025-01-08,15,290-->
+> - solution: {@{none}@} <!--SR:!2025-03-09,60,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -593,7 +593,7 @@ tags:
 >
 > What is the motivation behind such a formula?
 >
-> - solution: {@{To avoid floating-point underflow.}@} <!--SR:!2025-01-08,15,290-->
+> - solution: {@{To avoid floating-point underflow.}@} <!--SR:!2025-03-06,57,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -632,7 +632,7 @@ tags:
 
 > Q4. To select the best K for our problem, we often divide our data into the training set, validation set, and test set, and check the performance of some K on the validation set. Explain why we do this on the validation set but not the training or test set.
 >
-> - solution: {@{(for reference) If we were to do so on the training set, the optimal K would have been 1. If we were to do so on the test set, then it would have defeated the purpose of the test data – reflecting the performance of our model on unseen data.}@} <!--SR:!2025-01-08,15,290-->
+> - solution: {@{(for reference) If we were to do so on the training set, the optimal K would have been 1. If we were to do so on the test set, then it would have defeated the purpose of the test data – reflecting the performance of our model on unseen data.}@} <!--SR:!2025-03-10,61,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -644,7 +644,7 @@ tags:
 > 4. None of the above
 >
 > - solution: {@{4}@}
-> - explanation: {@{For 1 and 2, classification is an obvious use case. For regression, one way is taking the neighbor average weighted by inverse distances. For 3, while it does not require all data to be of the same scale, this would make the distance of each feature not considered with the same weight.}@} <!--SR:!2025-01-08,15,290!2025-01-29,26,270-->
+> - explanation: {@{For 1 and 2, classification is an obvious use case. For regression, one way is taking the neighbor average weighted by inverse distances. For 3, while it does not require all data to be of the same scale, this would make the distance of each feature not considered with the same weight.}@} <!--SR:!2025-03-06,57,310!2025-01-29,26,270-->
 
 <!-- markdownlint MD028 -->
 
@@ -653,7 +653,7 @@ tags:
 > 1. continuous variable
 > 2. categorical variable
 >
-> - solution: {@{1, 1, 2}@} <!--SR:!2025-01-08,15,290-->
+> - solution: {@{1, 1, 2}@} <!--SR:!2025-03-09,60,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -680,7 +680,7 @@ tags:
 > Using the L1 distance metric and KNN classification algorithm, propose 2 ways to produce new images from <!-- a given image -->the first image, such that the produced images have the same L1 distances to <!-- the original image -->the first image as the second image.
 >
 > - solution: {@{One solution is masking out certain pixels in the first image such that the sum of masked out pixels equals the L1 distance. <p> Another solution is adjusting the brightness of the first image.}@}
-> - explanation: {@{Look up adversarial machine learning, a relatively new field...}@} <!--SR:!2025-03-02,54,310!2025-01-08,15,290-->
+> - explanation: {@{Look up adversarial machine learning, a relatively new field...}@} <!--SR:!2025-03-02,54,310!2025-03-08,59,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -748,7 +748,7 @@ tags:
 >        [0.78, 0.15, 0.10]])
 > ```
 >
-> - solution: {@{0, 1, 0, 2}@} <!--SR:!2025-01-08,15,290-->
+> - solution: {@{0, 1, 0, 2}@} <!--SR:!2025-03-10,61,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -756,7 +756,7 @@ tags:
 >
 > Your code should be at most one or two lines, and it should not contain any loops. Hint: look at the `numpy.argmin` function.
 >
-> - solution: {@{`numpy.argmin(dists, axis=1)`, `numpy.argmin(dists, axis=-1)`}@} <!--SR:!2025-01-08,15,290-->
+> - solution: {@{`numpy.argmin(dists, axis=1)`, `numpy.argmin(dists, axis=-1)`}@} <!--SR:!2025-03-06,57,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -893,7 +893,7 @@ tags:
 > 4. w = [-1, -1], bias = -2
 >
 > - solution: {@{1, 2, 4}@}
-> - explanation: {@{Check if the weights and biases can be scaled together to get the original perceptron.}@} <!--SR:!2025-01-08,15,290!2025-01-08,15,290-->
+> - explanation: {@{Check if the weights and biases can be scaled together to get the original perceptron.}@} <!--SR:!2025-03-11,62,310!2025-03-07,58,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -905,7 +905,7 @@ tags:
 > 4. w = [-1, -1], bias = -2
 >
 > - solution: {@{1, 2}@}
-> - explanation: {@{First, check if the decision boundary is the same, which is the same as the previous question. Second, check if the resulting classification is the same for the same side of the decision boundary. <p> 4 has the classification flipped because it has its parameters scaled by a negative number.}@} <!--SR:!2025-03-02,54,310!2025-01-08,15,290-->
+> - explanation: {@{First, check if the decision boundary is the same, which is the same as the previous question. Second, check if the resulting classification is the same for the same side of the decision boundary. <p> 4 has the classification flipped because it has its parameters scaled by a negative number.}@} <!--SR:!2025-03-02,54,310!2025-03-11,62,310-->
 
 ## multilayer perceptron
 
@@ -916,7 +916,7 @@ tags:
 > 3. MLP is a feed-forward neural network designed to work exactly as human brains learn.
 > 4. To use MLP for supervised learning, we always need to apply a suitable loss function at the end of the network.
 >
-> - solution: {@{4}@} <!--SR:!2025-01-08,15,290-->
+> - solution: {@{4}@} <!--SR:!2025-03-11,62,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -956,7 +956,7 @@ tags:
 > _________________________________________________________________
 > ```
 >
-> - solution: {@{`flatten` → `Layer_1`: (32 \* 32) \* 4096 + 4096 = 4198400 <br/> `Layer_1` → `Layer_2`, `Layer_2` → `Layer_3`, `Layer_3` → `Layer_4`: 4096 \* 4096 + 4096 = 16781312 (for each in between layers) <br/> `Layer_4` → `Layer_5`: 4096 \* 10 + 10 = 40970 <br/> total params: 4198400 + 16781312 \* 3 + 40970 = 54583306}@} <!--SR:!2025-01-08,15,290-->
+> - solution: {@{`flatten` → `Layer_1`: (32 \* 32) \* 4096 + 4096 = 4198400 <br/> `Layer_1` → `Layer_2`, `Layer_2` → `Layer_3`, `Layer_3` → `Layer_4`: 4096 \* 4096 + 4096 = 16781312 (for each in between layers) <br/> `Layer_4` → `Layer_5`: 4096 \* 10 + 10 = 40970 <br/> total params: 4198400 + 16781312 \* 3 + 40970 = 54583306}@} <!--SR:!2025-03-06,57,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -1002,7 +1002,7 @@ tags:
 > 3. Considering from the point of view of the hyperplane for classification, overfitted models tend to have a more curvatured decision boundary than well-fitted model.
 > 4. Considering from the point of view of the hyperplane for classification, overfitted models tend to have a less curvatured decision boundary than well-fitted model.
 >
-> - solution: {@{1, 3}@} <!--SR:!2025-01-08,15,290-->
+> - solution: {@{1, 3}@} <!--SR:!2025-03-10,61,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -1013,7 +1013,7 @@ tags:
 > 3. Reducing the number of training data can help avoid over-fitting.
 > 4. Reducing the number of training epochs can help avoid over-fitting.
 >
-> - solution: {@{3}@} <!--SR:!2025-01-08,15,290-->
+> - solution: {@{3}@} <!--SR:!2025-02-23,46,290-->
 
 <!-- markdownlint MD028 -->
 
@@ -1037,7 +1037,7 @@ tags:
 >
 > Hint: Draw a graph of the above equations. Track the dependencies.
 >
-> - solution: {@{$$\begin{aligned} \frac {\partial e} {\partial a} & = \frac {\partial e} {\partial c} \frac {\partial c} {\partial a} = d \cdot b = (b + 1) \cdot b = 30 \\ \frac {\partial e} {\partial b} & = \frac {\partial e} {\partial c} \frac {\partial c} {\partial b} + \frac {\partial e} {\partial d} \frac {\partial d} {\partial b} = d \cdot a + c \cdot 1 = (b + 1) \cdot a + (a \cdot b) = 22 \end{aligned}$$}@} <!--SR:!2025-01-08,15,290-->
+> - solution: {@{$$\begin{aligned} \frac {\partial e} {\partial a} & = \frac {\partial e} {\partial c} \frac {\partial c} {\partial a} = d \cdot b = (b + 1) \cdot b = 30 \\ \frac {\partial e} {\partial b} & = \frac {\partial e} {\partial c} \frac {\partial c} {\partial b} + \frac {\partial e} {\partial d} \frac {\partial d} {\partial b} = d \cdot a + c \cdot 1 = (b + 1) \cdot a + (a \cdot b) = 22 \end{aligned}$$}@} <!--SR:!2025-03-07,58,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -1072,7 +1072,7 @@ tags:
 > 4. (199, 99)
 >
 > - solution: {@{3}@}
-> - explanation: {@{I mean... it is just a convention. It could be any other convention, depending on your context. <p> This convention is used in libraries processing images with NumPy arrays. So that explains why it is 0-based.}@} <!--SR:!2025-03-04,56,310!2025-01-08,15,290-->
+> - explanation: {@{I mean... it is just a convention. It could be any other convention, depending on your context. <p> This convention is used in libraries processing images with NumPy arrays. So that explains why it is 0-based.}@} <!--SR:!2025-03-04,56,310!2025-03-12,63,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -1094,7 +1094,7 @@ tags:
 > Describe in words what transformation was applied.
 >
 > - solution: {@{The image is translated to the left (not right) and upwards (not downwards) each by 1 pixel.}@}
-> - explanation: {@{While the transformation matrix describes a transformation to the right and downwards each by 1 pixel, notice that it is applied to the input coordinates instead of the output coordinates. <p> In general, the transformations are reversed if you apply it to the input coordinates instead of the output coordinates. For a simple example, consider $f(x) = x$. Then compare between $f_{\text{new} }(x) = f(x) + 1 = x + 1$ and $f_{\text{new} }(x + 1) = f(x) = x \implies f_{\text{new} }(x) = f(x - 1) = x - 1$.}@} <!--SR:!2025-01-08,5,250!2025-01-29,26,270-->
+> - explanation: {@{While the transformation matrix describes a transformation to the right and downwards each by 1 pixel, notice that it is applied to the input coordinates instead of the output coordinates. <p> In general, the transformations are reversed if you apply it to the input coordinates instead of the output coordinates. For a simple example, consider $f(x) = x$. Then compare between $f_{\text{new} }(x) = f(x) + 1 = x + 1$ and $f_{\text{new} }(x + 1) = f(x) = x \implies f_{\text{new} }(x) = f(x - 1) = x - 1$.}@} <!--SR:!2025-01-26,18,270!2025-01-29,26,270-->
 
 <!-- markdownlint MD028 -->
 
@@ -1122,7 +1122,7 @@ tags:
 >
 > For each pixel, fill in the missing pixel intensity or mark the cell with a $\times$ if the pixel intensity cannot be determined.
 >
-> - solution: {@{$$\begin{array}{|c|c|c|c|c|c|c|} \hline 0 & 0 & 0      & 0      & 0      & 0 & 0 \\ \hline 0 & 0 & 0      & 0      & 0      & 0 & 0 \\ \hline 0 & 0 & \times & \times & \times & 0 & 0 \\ \hline 0 & 0 & \times & 4      & \times & 0 & 0 \\ \hline 0 & 0 & \times & \times & \times & 0 & 0 \\ \hline 0 & 0 & 0      & 0      & 0      & 0 & 0 \\ \hline 0 & 0 & 0      & 0      & 0      & 0 & 0 \\ \hline \end{array}$$}@} <!--SR:!2025-01-08,15,290-->
+> - solution: {@{$$\begin{array}{|c|c|c|c|c|c|c|} \hline 0 & 0 & 0      & 0      & 0      & 0 & 0 \\ \hline 0 & 0 & 0      & 0      & 0      & 0 & 0 \\ \hline 0 & 0 & \times & \times & \times & 0 & 0 \\ \hline 0 & 0 & \times & 4      & \times & 0 & 0 \\ \hline 0 & 0 & \times & \times & \times & 0 & 0 \\ \hline 0 & 0 & 0      & 0      & 0      & 0 & 0 \\ \hline 0 & 0 & 0      & 0      & 0      & 0 & 0 \\ \hline \end{array}$$}@} <!--SR:!2025-03-10,61,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -1178,7 +1178,7 @@ tags:
 >
 > For each pixel, fill in the missing pixel intensity or mark the cell with a $\times$ if the pixel intensity cannot be determined.
 >
-> - solution: {@{$$\begin{array}{|c|c|c|c|c|c|c|} \hline 4      & 4      & 4      & \times & 5 & 5 & 5 \\ \hline 4      & 4      & 4      & \times & 5 & 5 & 5 \\ \hline 4      & 4      & 4      & \times & 5 & 5 & 5 \\ \hline \times & \times & \times & \times & 9 & 9 & 9 \\ \hline \times & \times & \times & 6      & 7 & 7 & 7 \\ \hline \times & \times & \times & 6      & 7 & 7 & 7 \\ \hline \times & \times & \times & 6      & 7 & 7 & 7 \\ \hline \end{array}$$}@} <!--SR:!2025-01-08,15,290-->
+> - solution: {@{$$\begin{array}{|c|c|c|c|c|c|c|} \hline 4      & 4      & 4      & \times & 5 & 5 & 5 \\ \hline 4      & 4      & 4      & \times & 5 & 5 & 5 \\ \hline 4      & 4      & 4      & \times & 5 & 5 & 5 \\ \hline \times & \times & \times & \times & 9 & 9 & 9 \\ \hline \times & \times & \times & 6      & 7 & 7 & 7 \\ \hline \times & \times & \times & 6      & 7 & 7 & 7 \\ \hline \times & \times & \times & 6      & 7 & 7 & 7 \\ \hline \end{array}$$}@} <!--SR:!2025-03-12,63,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -1216,7 +1216,7 @@ tags:
 > 4. The resulting image consists of pure black and pure white, and no other colors.
 >
 > - solution: {@{2}@}
-> - explanation: {@{This depends on your definition of the threshold function. The threshold function used in this course is 255 if larger than or _equal to_ the threshold.}@} <!--SR:!2025-01-09,16,290!2025-01-08,15,290-->
+> - explanation: {@{This depends on your definition of the threshold function. The threshold function used in this course is 255 if larger than or _equal to_ the threshold.}@} <!--SR:!2025-01-09,16,290!2025-02-22,45,290-->
 
 <!-- markdownlint MD028 -->
 
@@ -1233,7 +1233,7 @@ tags:
 > 3. The total number of parameters depends on the stride.
 > 4. The total number of parameters depends on the padding.
 >
-> - solution: {@{1, 2}@} <!--SR:!2025-01-08,15,290-->
+> - solution: {@{1, 2}@} <!--SR:!2025-03-12,63,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -1244,7 +1244,7 @@ tags:
 > 3. Convolution preserves spatial context while dense layers will lose spatial context by flattening everything.
 > 4. Convolutional layers are more similar to how the human visual system works, where different areas of the brain are activated by different levels of features.
 >
-> - solution: {@{3, 4}@} <!--SR:!2025-01-08,15,290-->
+> - solution: {@{3, 4}@} <!--SR:!2025-03-12,63,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -1261,7 +1261,7 @@ tags:
 >
 > Explain which method is better and why?
 >
-> - solution: {@{Actually they are the same thing. The mathematical operations are the same.}@} <!--SR:!2025-01-08,15,290-->
+> - solution: {@{Actually they are the same thing. The mathematical operations are the same.}@} <!--SR:!2025-03-11,62,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -1280,7 +1280,7 @@ tags:
 > 3. It is not a differentiable operation.
 > 4. The number of learnable parameters in a pooling layer is the same as the filter size.
 >
-> - solution: {@{3, 4}@} <!--SR:!2025-01-08,15,290-->
+> - solution: {@{3, 4}@} <!--SR:!2025-03-10,61,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -1298,7 +1298,7 @@ tags:
 > 4. The higher the dropout rate, the better the model performance.
 >
 > - solution: {@{3, 4}@}
-> - explanation: {@{For 3, the implementation of dropout in Keras (by extension, TensorFlow) uses a random mask, which is not guaranteed to turn off 50% of neurons. Theoretically, its randomness could mean none of the neurons are turned off. Other libraries may use a different implementation (e.g. guaranteeing 50% of the neurons are turned off), but ignore this for the examinations. <p> This is likely tested in the examinations...}@} <!--SR:!2025-03-02,54,310!2025-01-08,15,290-->
+> - explanation: {@{For 3, the implementation of dropout in Keras (by extension, TensorFlow) uses a random mask, which is not guaranteed to turn off 50% of neurons. Theoretically, its randomness could mean none of the neurons are turned off. Other libraries may use a different implementation (e.g. guaranteeing 50% of the neurons are turned off), but ignore this for the examinations. <p> This is likely tested in the examinations...}@} <!--SR:!2025-03-02,54,310!2025-03-07,58,310-->
 
 ## minimax & alpha–beta pruning
 
@@ -1321,7 +1321,7 @@ tags:
 > 3. Dijkstra's
 > 4. Bellman-Ford
 >
-> - solution: {@{2}@} <!--SR:!2025-01-08,15,290-->
+> - solution: {@{2}@} <!--SR:!2025-03-11,62,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -1377,25 +1377,25 @@ tags:
 > 3. Non-maleficence
 > 4. Benevolence
 >
-> - solution: {@{4}@} <!--SR:!2025-01-08,15,290-->
+> - solution: {@{4}@} <!--SR:!2025-03-12,63,310-->
 
 <!-- markdownlint MD028 -->
 
 > Q4. (medium) One of the problems with setting principles for AI is that the principles may conflict with each other. With regards to the collection of healthcare data, which 2 principles have a conflict?
 >
-> - solution: {@{__Autonomy__ and __beneficence__. The former says people should have control over their use of data, but people not agreeing to their data being used means healthcare models based on said healthcare data is less accurate, which harms the society.}@} <!--SR:!2025-01-08,15,290-->
+> - solution: {@{__Autonomy__ and __beneficence__. The former says people should have control over their use of data, but people not agreeing to their data being used means healthcare models based on said healthcare data is less accurate, which harms the society.}@} <!--SR:!2025-03-06,57,310-->
 
 <!-- markdownlint MD028 -->
 
 > Q5. (medium) State __two__ ways to reduce the chances of introducing an unfair bias in an AI system.
 >
-> - solution: {@{(for reference) Ensure the training data used for the model is free from bias. <br/> Performing regular tests and audits. <br/> Ensure that the training data includes some samples from minority groups.}@} <!--SR:!2025-01-08,15,290-->
+> - solution: {@{(for reference) Ensure the training data used for the model is free from bias. <br/> Performing regular tests and audits. <br/> Ensure that the training data includes some samples from minority groups.}@} <!--SR:!2025-03-09,60,310-->
 
 <!-- markdownlint MD028 -->
 
 > Q6. (medium) State __one__ advantage and __one__ disadvantage of using AI systems for resume screening.
 >
-> - solution: {@{(for reference) Advantages are it increases productivity and is cheaper for companies. <p> Disadvantages are it may be biased based on gender or biased against minorities. There is also a lack of transparency (on why a person is hired or not hired).}@} <!--SR:!2025-01-08,15,290-->
+> - solution: {@{(for reference) Advantages are it increases productivity and is cheaper for companies. <p> Disadvantages are it may be biased based on gender or biased against minorities. There is also a lack of transparency (on why a person is hired or not hired).}@} <!--SR:!2025-03-12,63,310-->
 
 ## introduction to reinforcement learning
 
@@ -1406,7 +1406,7 @@ tags:
 > 3. Training data
 >
 > - solution: {@{1}@}
-> - explanation: {@{The 6 (major) components are agent, environment, observations, actions, rewards, and policy.}@} <!--SR:!2025-03-04,56,310!2025-01-08,15,290-->
+> - explanation: {@{The 6 (major) components are agent, environment, observations, actions, rewards, and policy.}@} <!--SR:!2025-03-04,56,310!2025-02-23,46,290-->
 
 <!-- markdownlint MD028 -->
 
@@ -1457,7 +1457,7 @@ tags:
 > 4. $X_0$ is a state.
 > 5. None of the above.
 >
-> - solution: {@{2}@} <!--SR:!2025-01-08,15,290-->
+> - solution: {@{2}@} <!--SR:!2025-03-10,61,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -1488,7 +1488,7 @@ tags:
 >
 > Using the definition of a Markov chain, justify or refute the student's claim.
 >
-> - solution: {@{No. <p> Simply consider a Markov chain with 1 state that always transit back to itself. Or consider that one can run a Markov chain infinitely many times, but a Markov chain (usually) has finitely many states, so by the pigeonhole principle, at least one state must repeat itself.}@} <!--SR:!2025-01-08,15,290-->
+> - solution: {@{No. <p> Simply consider a Markov chain with 1 state that always transit back to itself. Or consider that one can run a Markov chain infinitely many times, but a Markov chain (usually) has finitely many states, so by the pigeonhole principle, at least one state must repeat itself.}@} <!--SR:!2025-03-11,62,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -1517,14 +1517,14 @@ tags:
 >
 > Is $M$ a Markov chain? Explain your answer.
 >
-> - solution: {@{Yes. <p> The key is to realize that knowing the entire state history does not allow us to make better predictions than knowing only the current state. The key difference from the previous question is that the entire state history in the context of the previous Markov chain is encoded as the current state in the context of this Markov chain.}@} <!--SR:!2025-01-08,15,290-->
+> - solution: {@{Yes. <p> The key is to realize that knowing the entire state history does not allow us to make better predictions than knowing only the current state. The key difference from the previous question is that the entire state history in the context of the previous Markov chain is encoded as the current state in the context of this Markov chain.}@} <!--SR:!2025-03-09,60,310-->
 
 <!-- markdownlint MD028 -->
 
 > Q11. (simple) True or false: A transition probability matrix in a Markov chain must be a square matrix.
 >
 > - solution: {@{true}@}
-> - explanation: {@{While technically you could have a non-square matrix, it would not be useful in practice, especially when you want to run the Markov chain multiple times.}@} <!--SR:!2025-01-08,15,290!2025-01-09,16,290-->
+> - explanation: {@{While technically you could have a non-square matrix, it would not be useful in practice, especially when you want to run the Markov chain multiple times.}@} <!--SR:!2025-03-08,59,310!2025-01-09,16,290-->
 
 <!-- markdownlint MD028 -->
 
@@ -1570,13 +1570,13 @@ tags:
 >      = & P(E|X_1 = A)P(X_1=A) + P(E|X_1 = B)P(X_1=B) + P(E|X_1 = C)P(X_1=C) \,.
 >    \end{align*}$$ This formula was taught in the topic "Naive Bayes Classifier".
 >
-> - solution: {@{$$\begin{aligned} M^2_{s,t} & = \sum_{m = 0}^2 M_{s, m} M_{m, t} \\ & = \sum_{m = 0}^2 P(X_1 = m \mid X_0 = s) P(X_2 = t \mid X_1 = m) \\ & = P(X_2 = t \mid X_0 = s) \end{aligned}$$}@} <!--SR:!2025-01-08,15,290-->
+> - solution: {@{$$\begin{aligned} M^2_{s,t} & = \sum_{m = 0}^2 M_{s, m} M_{m, t} \\ & = \sum_{m = 0}^2 P(X_1 = m \mid X_0 = s) P(X_2 = t \mid X_1 = m) \\ & = P(X_2 = t \mid X_0 = s) \end{aligned}$$}@} <!--SR:!2025-03-07,58,310-->
 
 <!-- markdownlint MD028 -->
 
 > Q14. (medium) Given a typical _transition probability matrix_ $\mathbf M$, a (vertex-based) rewards $\mathbf R$, and a discount factor $\gamma \in (0, 1)$, how to compute the exact expected reward starting from state $s$, $V(s)$?
 >
-> - solution: {@{Solve for the exact solution for $\mathbf V$ in $$\mathbf V = \mathbf R + \gamma \mathbf M \mathbf V \,.$$ <p> Note: You should see in _value iteration_, we put the _right/row_ stochastic matrix $\mathbf M$ on the _left_ of the value vector $\mathbf V$ instead: $\mathbf M \mathbf V$. But this is because in value iteration, we are propagation the rewards _backwards_ instead of _forward_.}@} <!--SR:!2025-01-08,15,290-->
+> - solution: {@{Solve for the exact solution for $\mathbf V$ in $$\mathbf V = \mathbf R + \gamma \mathbf M \mathbf V \,.$$ <p> Note: You should see in _value iteration_, we put the _right/row_ stochastic matrix $\mathbf M$ on the _left_ of the value vector $\mathbf V$ instead: $\mathbf M \mathbf V$. But this is because in value iteration, we are propagation the rewards _backwards_ instead of _forward_.}@} <!--SR:!2025-03-09,60,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -1589,7 +1589,7 @@ tags:
 > Q16. (medium) True or false: Consider a Markov chain with a state space $\{ S_1, S_2, \cdots, S_N \}$ and a discount factor $\gamma \in (0, 1)$. Each $V_1(S_1), V_1(S_2), \cdots, V_1(S_N)$ is finite. Then, using _value iteration_, $\lim_{n\to\infty} V_n(\text{state}_i)$ converges for any $\text{state}_i \in \text{state space}$.
 >
 > - solution: {@{true}@}
-> - explanation: {@{If you want to prove this, consider the matrix function $\mathbf V_{t + 1}(\mathbf V_{t}) = \mathbf R + \gamma \mathbf M \mathbf V_t$ and look up the __contraction mapping theorem__ (also known as the [__Banach fixed-point theorem__](../../../../general/Banach%20fixed-point%20theorem.md)). But this is out of scope.}@} <!--SR:!2025-01-08,15,290!2025-03-02,54,310-->
+> - explanation: {@{If you want to prove this, consider the matrix function $\mathbf V_{t + 1}(\mathbf V_{t}) = \mathbf R + \gamma \mathbf M \mathbf V_t$ and look up the __contraction mapping theorem__ (also known as the [__Banach fixed-point theorem__](../../../../general/Banach%20fixed-point%20theorem.md)). But this is out of scope.}@} <!--SR:!2025-03-07,58,310!2025-03-02,54,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -1601,7 +1601,7 @@ tags:
 > 4. $\max_{k\in \{ 1, 2, \cdots, N \} } | V_k(s_a) - V_{k}(s_b) | < \varepsilon$
 >
 > - solution: {@{1}@}
-> - explanation: {@{There may be other ways to determining convergence. But 2, 3, and 4 are definitely not the "other ways" as they do not even make sense.}@} <!--SR:!2025-01-09,16,290!2025-01-08,15,290-->
+> - explanation: {@{There may be other ways to determining convergence. But 2, 3, and 4 are definitely not the "other ways" as they do not even make sense.}@} <!--SR:!2025-01-09,16,290!2025-03-10,61,310-->
 
 <!-- markdownlint MD028 -->
 

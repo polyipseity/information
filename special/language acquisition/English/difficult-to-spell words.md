@@ -67,7 +67,7 @@ English
 - [plagiarize](https://en.wiktionary.org/wiki/plagiarize) ::@:: (p\_e) To copy others' work and present it as one's own. <!--SR:!2025-01-29,299,344!2027-09-18,1019,324-->
 - [polynomial](https://en.wiktionary.org/wiki/polynomial) ::@:: (p\_l) A [mathematical expression](../../../general/expression%20(mathematics).md) that is a [sum](../../../general/summation.md) of [constant](../../../general/constant%20(mathematics).md) [coefficients](../../../general/coefficient.md) multipled with [indeterminates](../../../general/indeterminate%20(variable).md) raised to a nonnegative [integer](../../../general/integer.md) [power](../../../general/exponentiation.md). <!--SR:!2026-12-06,746,324!2027-03-29,916,344-->
 - [preamble](https://en.wiktionary.org/wiki/preamble) ::@:: (p\_e) An introduction to a [document](../../../general/document.md). <!--SR:!2025-06-02,410,372!2025-01-24,284,352-->
-- [precedence](https://en.wiktionary.org/wiki/precedence) ::@:: (p\_e) The state of preceding in importance or priority. <!--SR:!2026-08-30,770,430!2025-01-08,254,370-->
+- [precedence](https://en.wiktionary.org/wiki/precedence) ::@:: (p\_e) The state of preceding in importance or priority. <!--SR:!2026-08-30,770,430!2028-07-17,1286,390-->
 - [proprietary](https://en.wiktionary.org/wiki/proprietary) ::@:: (p\_y) Of or relating to [property](../../../general/property.md) or ownership. <!--SR:!2026-03-31,596,396!2025-01-24,57,156-->
 - [receipt](https://en.wiktionary.org/wiki/receipt) ::@:: (r\_t) The act of receiving or having been received. <!--SR:!2025-12-05,507,388!2025-04-25,238,288-->
 - [recipe](https://en.wiktionary.org/wiki/recipe) ::@:: (r\_e) A set of instructions for making [food](../../../general/food.md). <!--SR:!2025-07-06,423,408!2025-01-24,266,388-->

@@ -189,7 +189,7 @@ More precisely, {@{a real-valued continuous-time stochastic process $X$ with a p
 
 #### independence
 
-{@{Two stochastic processes $X$ and $Y$ defined on the same probability space $(\Omega ,{\mathcal {F} },P)$ with the same index set $T$}@} are said be __independent__ if {@{for all $n\in \mathbb {N}$ and for every choice of epochs $t_{1},\ldots ,t_{n}\in T$}@}, {@{the random vectors $\left(X(t_{1}),\ldots ,X(t_{n})\right)$ and $\left(Y(t_{1}),\ldots ,Y(t_{n})\right)$ are independent}@}.<sup>[\[177\]](#^ref-177)</sup><sup>[\[515\]](#^ref-515)</sup> <!--SR:!2025-02-13,49,307!2025-01-27,37,296!2025-01-08,22,250-->
+{@{Two stochastic processes $X$ and $Y$ defined on the same probability space $(\Omega ,{\mathcal {F} },P)$ with the same index set $T$}@} are said be __independent__ if {@{for all $n\in \mathbb {N}$ and for every choice of epochs $t_{1},\ldots ,t_{n}\in T$}@}, {@{the random vectors $\left(X(t_{1}),\ldots ,X(t_{n})\right)$ and $\left(Y(t_{1}),\ldots ,Y(t_{n})\right)$ are independent}@}.<sup>[\[177\]](#^ref-177)</sup><sup>[\[515\]](#^ref-515)</sup> <!--SR:!2025-02-13,49,307!2025-01-27,37,296!2025-03-25,76,270-->
 
 #### uncorrelatedness
 

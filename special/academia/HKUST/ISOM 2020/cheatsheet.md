@@ -38,16 +38,16 @@ The cheatsheet is provided during the final examination.
 ## arithmetic operators
 
 - `+` ::@:: addition <!--SR:!2025-01-09,64,310!2025-01-11,66,310-->
-- `-` ::@:: subtraction <!--SR:!2025-01-09,64,310!2025-01-08,63,310-->
+- `-` ::@:: subtraction <!--SR:!2025-01-09,64,310!2025-10-09,274,330-->
 - `*` ::@:: multiplication <!--SR:!2025-10-02,268,330!2025-01-11,66,310-->
 - `**` ::@:: to the power of <!--SR:!2025-01-09,64,310!2025-01-11,66,310-->
 - `/` ::@:: division <!--SR:!2025-10-03,269,330!2025-01-12,67,310-->
-- `//` ::@:: floor division <!--SR:!2025-01-09,64,310!2025-01-08,63,310-->
+- `//` ::@:: floor division <!--SR:!2025-01-09,64,310!2025-10-09,274,330-->
 - `%` ::@:: mod <!--SR:!2025-10-01,267,330!2025-10-01,268,330-->
 
 ## input / output
 
-- `print()` ::@:: display the input value(s), optionally `end` with specific input <!--SR:!2025-01-08,63,310!2025-01-12,67,310-->
+- `print()` ::@:: display the input value(s), optionally `end` with specific input <!--SR:!2025-10-07,272,330!2025-01-12,67,310-->
 - `input()` ::@:: ask user for input <!--SR:!2025-01-09,64,310!2025-09-26,262,330-->
 - `\n` ::@:: escape character: line break <!--SR:!2025-01-12,67,310!2025-10-04,270,330-->
 - `\t` ::@:: escape character: tab <!--SR:!2025-09-27,263,330!2025-01-11,66,310-->
@@ -64,7 +64,7 @@ The cheatsheet is provided during the final examination.
 
 ## list / string operations
 
-- `list[...]` ::@:: locate an item at the specific index in a list <!--SR:!2025-01-08,63,310!2025-01-11,66,310-->
+- `list[...]` ::@:: locate an item at the specific index in a list <!--SR:!2025-10-10,275,330!2025-01-11,66,310-->
 - `+` ::@:: combine two lists / strings <!--SR:!2025-01-11,66,310!2025-01-12,67,310-->
 - `in` ::@:: check existence in a list / string <!--SR:!2025-01-09,64,310!2025-01-12,67,310-->
 - `not in` ::@:: check if not exists in a list / string <!--SR:!2025-10-01,267,330!2025-01-12,67,310-->
@@ -75,17 +75,17 @@ The cheatsheet is provided during the final examination.
 - `len()` ::@:: return the number of elements in the input list <!--SR:!2025-01-09,64,310!2025-01-12,67,310-->
 - `max()` ::@:: find the biggest element in the input list <!--SR:!2025-10-06,272,330!2025-01-09,64,310-->
 - `min()` ::@:: find the smallest element in the input list <!--SR:!2025-01-09,64,310!2025-01-12,67,310-->
-- `sum()` ::@:: find the sum of all elements of the input list <!--SR:!2025-01-09,64,310!2025-01-08,63,310-->
+- `sum()` ::@:: find the sum of all elements of the input list <!--SR:!2025-01-09,64,310!2025-10-07,272,330-->
 - `range()` ::@:: create a number sequence starting from zero <!--SR:!2025-01-09,64,310!2025-01-12,67,310-->
 
 ## relational operators
 
 - `==` ::@:: is equal? <!--SR:!2025-09-29,265,330!2025-09-30,267,330-->
-- `!=` ::@:: is not equal? <!--SR:!2025-01-08,63,310!2025-01-12,67,310-->
+- `!=` ::@:: is not equal? <!--SR:!2025-10-08,273,330!2025-01-12,67,310-->
 - `<` ::@:: is less than? <!--SR:!2025-01-12,67,310!2025-01-11,66,310-->
 - `>` ::@:: is greater than? <!--SR:!2025-01-09,64,310!2025-01-12,67,310-->
 - `<=` ::@:: is less than or equal to? <!--SR:!2025-01-11,66,310!2025-01-11,66,310-->
-- `>=` ::@:: is greater than or equal to? <!--SR:!2025-01-09,64,310!2025-01-08,63,310-->
+- `>=` ::@:: is greater than or equal to? <!--SR:!2025-01-09,64,310!2025-10-08,273,330-->
 
 ## boolean operators
 

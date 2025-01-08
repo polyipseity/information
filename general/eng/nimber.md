@@ -15,7 +15,7 @@ tags:
 
 <!-- | ![](../../archives/Wikimedia%20Commons/Ambox%20important.svg) | hide__This article has multiple issues.__ Please help __[improve it](https://en.wikipedia.org/wiki/Special:EditPage/Nimber)__ or discuss these issues on the __[talk page](https://en.wikipedia.org/wiki/Talk:Nimber)__. _\([Learn how and when to remove these messages](https://en.wikipedia.org/wiki/Help:Maintenance%20template%20removal)\)_| This article's __[lead section](https://en.wikipedia.org/wiki/Wikipedia:Manual%20of%20Style/Lead%20section) contains information that is not included elsewhere in the article__. _\(January 2019\)_ | <p>  <br/> | This article's [lead section](https://en.wikipedia.org/wiki/Wikipedia:Manual%20of%20Style/Lead%20section#Length) __may be too short to adequately [summarize](https://en.wikipedia.org/wiki/Wikipedia:Summary%20style) the key points__. _\(January 2019\)_ | | -->
 
-In [mathematics](mathematics.md), {@{the __nimbers__, also called __Grundy numbers__}@}, are introduced in {@{[combinatorial game theory](combinatorial%20game%20theory.md)}@}, where they are {@{defined as the values of heaps in the game [Nim](Nim.md)}@}. The nimbers are {@{the [ordinal numbers](ordinal%20number.md) endowed with _nimber addition_ and _nimber multiplication_}@}, which are {@{distinct from [ordinal addition](ordinal%20arithmetic.md#addition) and [ordinal multiplication](ordinal%20arithmetic.md#multiplication)}@}. <!--SR:!2025-01-08,13,293!2025-01-12,17,313!2025-01-12,17,305!2025-01-12,17,313!2025-01-12,17,313-->
+In [mathematics](mathematics.md), {@{the __nimbers__, also called __Grundy numbers__}@}, are introduced in {@{[combinatorial game theory](combinatorial%20game%20theory.md)}@}, where they are {@{defined as the values of heaps in the game [Nim](Nim.md)}@}. The nimbers are {@{the [ordinal numbers](ordinal%20number.md) endowed with _nimber addition_ and _nimber multiplication_}@}, which are {@{distinct from [ordinal addition](ordinal%20arithmetic.md#addition) and [ordinal multiplication](ordinal%20arithmetic.md#multiplication)}@}. <!--SR:!2025-03-01,52,313!2025-01-12,17,313!2025-01-12,17,305!2025-01-12,17,313!2025-01-12,17,313-->
 
 Because of {@{the [Sprague–Grundy theorem](Sprague–Grundy%20theorem.md)}@} which {@{states that every [impartial game](impartial%20game.md) is equivalent to a Nim heap of a certain size}@}, nimbers {@{arise in a much larger class of impartial games}@}. They may also occur in {@{[partisan games](partisan%20game.md)}@} like {@{[Domineering](Domineering.md)}@}. <!--SR:!2025-01-12,17,305!2025-01-12,17,305!2025-01-12,17,313!2025-01-12,17,305!2025-01-10,15,290-->
 
@@ -64,7 +64,7 @@ Nimber multiplication is {@{associative and commutative, with the ordinal 1 as t
 Thus, except for {@{the fact that nimbers form a [proper class](class%20(set%20theory).md) and not a set}@}, {@{the class of nimbers forms a [ring](ring%20(mathematics).md)}@}. In fact, it {@{even determines an [algebraically closed field](algebraically%20closed%20field.md) of [characteristic](characteristic%20(algebra).md) 2}@}, with {@{the nimber multiplicative inverse of a nonzero ordinal _α_ given}@} by {@{$$\alpha ^{-1}=\operatorname {mex} (S),$$}@} where {@{_S_ is the smallest set of ordinals \(nimbers\)}@} such that <!--SR:!2025-01-12,17,305!2025-01-29,27,270!2025-01-09,14,290!2025-01-11,16,290!2025-01-11,16,290!2025-01-12,17,313-->
 
 1. mex(_S_), base ::@:: 0 is an element of _S_; <!--SR:!2025-01-09,14,290!2025-01-12,17,305-->
-2. mex(_S_), induction ::@:: if 0 \< _α_<!-- markdown separator -->′ \< _α_ and _β'_ is an element of _S_, then ${\tfrac {1+(\alpha '\oplus \alpha )\beta '}{\alpha '} }$ is also an element of _S_. <!--SR:!2025-01-08,5,245!2025-01-12,6,250-->
+2. mex(_S_), induction ::@:: if 0 \< _α_<!-- markdown separator -->′ \< _α_ and _β'_ is an element of _S_, then ${\tfrac {1+(\alpha '\oplus \alpha )\beta '}{\alpha '} }$ is also an element of _S_. <!--SR:!2025-01-20,12,245!2025-01-12,6,250-->
 
 For {@{all natural numbers _n_}@}, {@{the set of nimbers less than 2<sup>2<sup>_n_</sup></sup>}@} form {@{the [Galois field](finite%20field.md) GF\(2<sup>2<sup>_n_</sup></sup>\) of order 2<sup>2<sup>_n_</sup></sup>}@}. (TODO: What is this abstract nonsense?) Therefore, {@{the set of finite nimbers}@} is {@{isomorphic to the [direct limit](direct%20limit.md) as _n_ → ∞ of the fields GF\(2<sup>2<sup>_n_</sup></sup>\)}@}. This subfield is {@{not algebraically closed}@}, since {@{no field GF\(2<sup>_k_</sup>\) with _k_ not a power of 2 is contained in any of those fields, and therefore not in their direct limit}@}; for instance {@{the polynomial _x_<sup>3</sup> + _x_ + 1}@}, which {@{has a root in GF\(2<sup>3</sup>\)}@}, {@{does not have a root in the set of finite nimbers}@}. <!--SR:!2025-02-26,50,305!2025-01-09,14,290!2025-01-12,17,305!2025-01-10,15,290!2025-01-12,17,313!2025-01-09,14,290!2025-01-12,17,313!2025-01-11,16,290!2025-02-06,32,285!2025-01-12,17,305-->
 
@@ -77,7 +77,7 @@ Just as {@{in the case of nimber addition}@}, there is {@{a means of computing t
 
 > [!tip] tips
 >
-> - game theoretic interpretation ::@:: Unfortunately, there are no good game theoretic interpretations to _nim-multiplication_, unlike _nim-addition_ (which has the interpretation of combining two games). <p> Rather, it is best understood using abstract algebra. Nim-multiplication is an operation defined with respect to nim-addition in the same way as ordinary multiplication as an operation defined with respect to ordinary addition. <!--SR:!2025-01-09,16,317!2025-01-08,15,317-->
+> - game theoretic interpretation ::@:: Unfortunately, there are no good game theoretic interpretations to _nim-multiplication_, unlike _nim-addition_ (which has the interpretation of combining two games). <p> Rather, it is best understood using abstract algebra. Nim-multiplication is an operation defined with respect to nim-addition in the same way as ordinary multiplication as an operation defined with respect to ordinary addition. <!--SR:!2025-01-09,16,317!2025-03-17,68,337-->
 
 ## addition and multiplication tables
 
@@ -97,14 +97,14 @@ This subset is {@{closed under both operations}@}, since {@{16 is of the form 2<
 >
 > {@{Nimber multiplication}@} \(sequence {@{[A051775](https://oeis.org/A051775)}@} in the [OEIS](On-Line%20Encyclopedia%20of%20Integer%20Sequences.md)\) <br/>
 > The nonzero elements form the [Cayley table](cayley%20table.md) of [Z<sub>15</sub>](list%20of%20small%20groups.md#list%20of%20small%20abelian%20groups). <br/>
-> The small matrices are permuted binary [Walsh matrices](walsh%20matrix.md). <!--SR:!2025-01-11,16,290!2025-01-09,14,290!2025-01-08,2,225-->
+> The small matrices are permuted binary [Walsh matrices](walsh%20matrix.md). <!--SR:!2025-01-11,16,290!2025-01-09,14,290!2025-01-13,5,225-->
 
 <!-- markdownlint MD028 -->
 
 > {@{![nimber multiplication table among powers of two](../../archives/Wikimedia%20Commons/Nimber%20products%20of%20powers%20of%20two.svg)}@}
 >
 > {@{Nimber multiplication of [powers of two](power%20of%20two.md)}@} \(sequence {@{[A223541](https://oeis.org/A223541)}@} in the [OEIS](On-Line%20Encyclopedia%20of%20Integer%20Sequences.md)\) <br/>
-> {@{Calculating the nim-products of powers of two}@} is {@{a decisive point in the recursive algorithm of nimber-multiplication}@}. <!--SR:!2025-01-12,17,313!2025-02-22,46,290!2025-01-08,2,233!2025-02-15,42,305!2025-01-12,17,313-->
+> {@{Calculating the nim-products of powers of two}@} is {@{a decisive point in the recursive algorithm of nimber-multiplication}@}. <!--SR:!2025-01-12,17,313!2025-02-22,46,290!2025-01-13,5,233!2025-02-15,42,305!2025-01-12,17,313-->
 
 ## see also
 

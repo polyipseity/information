@@ -73,7 +73,7 @@ Therefore, it is essential to {@{be aware of the elasticity of demand}@}. A mono
 
 ## marginal revenue and marginal benefit
 
-__Example 1:__ Suppose {@{consumers want to buy an additional lipstick}@}. If {@{the consumer is willing to pay \$50 for this extra lipstick}@}, {@{the marginal income of the purchase is \$50}@}. However, {@{the more lipsticks consumers have, the less they pay for the next lipstick}@}. This is because as {@{consumers accumulate more and more lipsticks}@}, {@{the benefits of having an additional lipstick will be reduced}@}. <!--SR:!2025-01-31,59,317!2025-02-10,69,317!2025-02-06,65,317!2025-02-06,65,317!2025-01-08,41,297!2025-02-10,69,317-->
+__Example 1:__ Suppose {@{consumers want to buy an additional lipstick}@}. If {@{the consumer is willing to pay \$50 for this extra lipstick}@}, {@{the marginal income of the purchase is \$50}@}. However, {@{the more lipsticks consumers have, the less they pay for the next lipstick}@}. This is because as {@{consumers accumulate more and more lipsticks}@}, {@{the benefits of having an additional lipstick will be reduced}@}. <!--SR:!2025-01-31,59,317!2025-02-10,69,317!2025-02-06,65,317!2025-02-06,65,317!2025-06-23,166,317!2025-02-10,69,317-->
 
 __Example 2:__ Suppose customers are {@{considering buying 10 computers}@}. If {@{the marginal income of the 11th computer is \$2, and the computer company is willing to sell the 11th component to maximize its consumer interest}@}, {@{the company's marginal income is \$2 and consumers' marginal income is \$2}@}. <!--SR:!2025-02-10,69,317!2025-02-01,60,317!2025-01-29,59,317-->
 

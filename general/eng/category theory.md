@@ -75,7 +75,7 @@ tags:
 
 - (annotation: covariant functor definition, object) ::@:: for each object _x_ in _C_, an object _F_\(_x_\) in _D_; and <!--SR:!2025-01-21,14,290!2025-01-21,14,290-->
 - (annotation: covariant functor definition, morphism) ::@:: for each morphism _f_ : _x_ → _y_ in _C_, a morphism _F_\(_f_\) : _F_\(_x_\) → _F_\(_y_\) in _D_, <!--SR:!2025-01-23,16,290!2025-01-23,16,290-->
-- (annotation: covariant functor definition, notes) ::@:: (annotation: The object and morphism mappings are _not_ required to be injective or surjective. For example, see [constant functor](constant%20functor.md#examples), which maps every object to the same object and every morphism to the identity morphism of that object.) <!--SR:!2025-01-08,4,289!2025-01-08,4,289-->
+- (annotation: covariant functor definition, notes) ::@:: (annotation: The object and morphism mappings are _not_ required to be injective or surjective. For example, see [constant functor](constant%20functor.md#examples), which maps every object to the same object and every morphism to the identity morphism of that object.) <!--SR:!2025-01-25,17,309!2025-01-25,17,309-->
 
 such that the following two properties hold:
 

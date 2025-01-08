@@ -121,7 +121,7 @@ If {@{$n\geq 2$ and $1\leq k\leq n-1$}@}, then {@{$${\frac {1}{2} }(k^{2}+k+2)k^
 
 For {@{fixed value of $k$}@}, the asymptotic value of the Stirling numbers of the second kind as $n\rightarrow \infty$ is {@{given by $$\left\{ {n \atop k}\right\}{\underset {n\to \infty }{\sim } }{\frac {k^{n} }{k!} }.$$}@} <!--SR:!2025-04-28,132,290!2025-01-17,35,210-->
 
-If {@{$n=o({\sqrt {k} })$ (where _o_ denotes the [little o notation](big%20O%20notation.md#little-o%20notation))}@} then {@{$$\left\{ {n+k \atop k}\right\}{\underset {k\to \infty }{\sim } }{\frac {k^{2n} }{2^{n}n!} }.$$}@}<sup>[\[13\]](#^ref-13)</sup> <!--SR:!2025-01-08,18,250!2025-01-18,49,250-->
+If {@{$n=o({\sqrt {k} })$ (where _o_ denotes the [little o notation](big%20O%20notation.md#little-o%20notation))}@} then {@{$$\left\{ {n+k \atop k}\right\}{\underset {k\to \infty }{\sim } }{\frac {k^{2n} }{2^{n}n!} }.$$}@}<sup>[\[13\]](#^ref-13)</sup> <!--SR:!2025-02-24,47,250!2025-01-18,49,250-->
 
 {@{A uniformly valid approximation}@} also exists: for {@{all _k_ such that 1 < _k_ < _n_}@}, one has $$\left\{ {n \atop k}\right\}\sim {\sqrt {\frac {v-1}{v(1-G)} } }\left({\frac {v-1}{v-G} }\right)^{n-k}{\frac {k^{n} }{n^{k} } }e^{k(1-G)}\left({n \atop k}\right),$$ where {@{$v=n/k$, and $G\in (0,1)$ is the unique solution to $G=ve^{G-v}$}@}.<sup>[\[14\]](#^ref-14)</sup> Relative error is {@{bounded by about $0.066/n$}@}. <!--SR:!2025-07-12,188,310!2025-01-29,71,310!2025-01-18,49,250!2025-01-18,49,250-->
 
@@ -151,13 +151,13 @@ In other words, {@{the _n_-th moment of this [probability distribution](probabil
 
 ### _r_-Stirling numbers of the second kind
 
-{@{The _r_-Stirling number of the second kind $\left\{ {n \atop k}\right\}_{r}$}@} counts {@{the number of partitions of a set of _n_ objects into _k_ non-empty disjoint subsets, such that the first _r_ elements are in distinct subsets}@}.<sup>[\[15\]](#^ref-15)</sup> These numbers {@{satisfy the recurrence relation $$\left\{ {n \atop k}\right\}_{r}=k\left\{ {n-1 \atop k}\right\}_{r}+\left\{ {n-1 \atop k-1}\right\}_{r}$$}@} Some combinatorial identities and a connection between these numbers and context-free grammars can be found in <sup>[\[16\]](#^ref-16)</sup>. <!--SR:!2025-01-08,18,250!2025-05-22,137,290!2025-05-20,135,290-->
+{@{The _r_-Stirling number of the second kind $\left\{ {n \atop k}\right\}_{r}$}@} counts {@{the number of partitions of a set of _n_ objects into _k_ non-empty disjoint subsets, such that the first _r_ elements are in distinct subsets}@}.<sup>[\[15\]](#^ref-15)</sup> These numbers {@{satisfy the recurrence relation $$\left\{ {n \atop k}\right\}_{r}=k\left\{ {n-1 \atop k}\right\}_{r}+\left\{ {n-1 \atop k-1}\right\}_{r}$$}@} Some combinatorial identities and a connection between these numbers and context-free grammars can be found in <sup>[\[16\]](#^ref-16)</sup>. <!--SR:!2025-02-24,47,250!2025-05-22,137,290!2025-05-20,135,290-->
 
 ### associated Stirling numbers of the second kind
 
 {@{An _r_-associated Stirling number of the second kind}@} is {@{the number of ways to partition a set of _n_ objects into _k_ subsets, with each subset containing at least _r_ elements}@}.<sup>[\[17\]](#^ref-17)</sup> It is denoted by {@{$S_{r}(n,k)$}@} and obeys {@{the recurrence relation $$S_{r}(n+1,k)=k\ S_{r}(n,k)+{\binom {n}{r-1} }S_{r}(n-r+1,k-1)$$}@} (annotation: The first term {@{counts the number of ways to add an element to an existing partition, while the second term counts the number of ways to create a new partition with _r_ − 1 elements and the new element}@}.) <!--SR:!2025-01-28,23,270!2025-01-28,23,270!2025-01-30,72,310!2025-01-18,49,250!2025-05-24,139,290-->
 
-{@{The 2-associated numbers}@} (sequence {@{[A008299](https://oeis.org/A008299)}@} in the [OEIS](On-Line%20Encyclopedia%20of%20Integer%20Sequences.md)) appear elsewhere as {@{"Ward numbers" and as the magnitudes of the coefficients of [Mahler polynomials](Mahler%20polynomial.md)}@}. <!--SR:!2025-05-26,143,290!2025-01-08,18,250!2025-01-28,23,270-->
+{@{The 2-associated numbers}@} (sequence {@{[A008299](https://oeis.org/A008299)}@} in the [OEIS](On-Line%20Encyclopedia%20of%20Integer%20Sequences.md)) appear elsewhere as {@{"Ward numbers" and as the magnitudes of the coefficients of [Mahler polynomials](Mahler%20polynomial.md)}@}. <!--SR:!2025-05-26,143,290!2025-02-24,47,250!2025-01-28,23,270-->
 
 ### reduced Stirling numbers of the second kind
 

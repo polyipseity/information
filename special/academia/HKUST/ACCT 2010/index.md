@@ -295,7 +295,7 @@ The content is in teaching order.
   - [perpetual inventory](../../../../general/perpetual%20inventory.md)
     - perpetual inventory / accounting ::@:: Purchased goods are directly added to asset "Inventory" on purchase. Sold goods are removed from asset "Inventory" on sale. <!--SR:!2025-02-07,43,343!2025-02-23,59,363-->
   - [periodic inventory](../../../../general/periodic%20inventory.md)
-    - periodic inventory / accounting ::@:: Purchased goods are added to asset "Purchases" on purchase. Sold goods are ignored. <p> At year end, the actual cost of goods sold is computed. Two adjustment entries are added. First, both the asset "Purchases" and the asset "Inventory (beginning)" are credited to zero balance, and the expense "Cost of goods sold" is debited. Then, the expense "Cost of goods sold" is credited such that it matches the actual cost of goods sold, and the asset "Inventory (ending)" is debited. <!--SR:!2025-01-08,8,343!2025-03-02,61,356-->
+    - periodic inventory / accounting ::@:: Purchased goods are added to asset "Purchases" on purchase. Sold goods are ignored. <p> At year end, the actual cost of goods sold is computed. Two adjustment entries are added. First, both the asset "Purchases" and the asset "Inventory (beginning)" are credited to zero balance, and the expense "Cost of goods sold" is debited. Then, the expense "Cost of goods sold" is credited such that it matches the actual cost of goods sold, and the asset "Inventory (ending)" is debited. <!--SR:!2025-02-03,26,343!2025-03-02,61,356-->
 - [§ week 7 review](questions.md#week%207%20review)
 
 ## week 8 lecture 1

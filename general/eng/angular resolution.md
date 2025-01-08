@@ -21,7 +21,7 @@ According to the criterion, diffraction through a circular [aperture](aperture.m
 >
 > - {@{$\theta \approx \sin \theta = 1.22 \frac \lambda D \quad\mathrm{(considering\ that\ \sin \theta \approx \theta)}$}@}
 >
-> where {@{_θ_ is _angular resolution_ in [radians](radian.md), _λ_ is the [wavelength](wavelength.md), and _D_ is the [diameter](diameter.md) of the [aperture](aperture.md)}@}. <!--SR:!2025-02-20,503,330!2025-01-08,247,270!2025-07-14,591,310-->
+> where {@{_θ_ is _angular resolution_ in [radians](radian.md), _λ_ is the [wavelength](wavelength.md), and _D_ is the [diameter](diameter.md) of the [aperture](aperture.md)}@}. <!--SR:!2025-02-20,503,330!2026-11-05,666,270!2025-07-14,591,310-->
 
 ## references
 

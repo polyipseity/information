@@ -61,7 +61,7 @@ return await memorize_table(
 - [contact process](contact%20process.md)→::@::←[fermentation](fermentation.md) <!--SR:!2026-03-18,499,310!2029-07-03,1658,310-->
 - [fermentation](fermentation.md)→::@::←[food browning](food%20browning.md) <!--SR:!2027-04-03,1048,330!2026-12-01,850,270-->
 - [food browning](food%20browning.md)→::@::←[hydrolysis](hydrolysis.md) of [starch](starch.md) <!--SR:!2027-04-14,1056,330!2025-11-04,720,330-->
-- [hydrolysis](hydrolysis.md) of [starch](starch.md)→::@::←_(end)_ <!--SR:!2028-06-07,1474,350!2025-01-08,128,230-->
+- [hydrolysis](hydrolysis.md) of [starch](starch.md)→::@::←_(end)_ <!--SR:!2028-06-07,1474,350!2025-10-29,294,230-->
 
 <!--/pytextgen-->
 
