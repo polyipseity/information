@@ -406,7 +406,7 @@ async def wiki_html_to_plaintext(
                             formats[1].format(to_archive.replace("_", " "))
                         )
 
-                    return f"{strings}![]({src_url_str})"
+                    return f"{strings}![{escape_markdown(str(ele.get("alt", "")).strip())}]({src_url_str})"
                 return strings
 
             suffix = "\n\n"
