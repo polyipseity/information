@@ -506,7 +506,7 @@ tags:
 >
 > Your code should be at most five lines, and should not contain any loops. Try not to hard-code the numbers "2211" and "300" into your code.
 >
-> - solution: {@{`dists = numpy.sqrt(numpy.sum((X[..., numpy.newaxis, :] - Y) ** 2, axis=-1))`}@}
+> - solution: {@{`dists = numpy.sqrt(numpy.sum((X[..., numpy.newaxis, :] - T) ** 2, axis=-1))`}@}
 
 <!-- markdownlint MD028 -->
 
