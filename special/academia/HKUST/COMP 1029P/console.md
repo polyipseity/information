@@ -13,7 +13,7 @@ How to control the output?
 
 ## print
 
-Note that when you call `print`, even if you have not added newlines to the string, {@{a newline is always printed at the end}@}. To prevent that, {@{pass `end=""` to `print` as well, like `print(value, end="")`}@}. You can also specify {@{nonempty strings}@} for `end`. The effect of `end` is that {@{it will be also be printed after printing the value to be printed. Since `end` is by default a newline `\n`, a newline is always printed at the end when you only do `print(value)`}@}. <!--SR:!2026-03-17,591,330!2025-01-09,262,330!2027-07-26,987,350!2027-05-05,892,330-->
+Note that when you call `print`, even if you have not added newlines to the string, {@{a newline is always printed at the end}@}. To prevent that, {@{pass `end=""` to `print` as well, like `print(value, end="")`}@}. You can also specify {@{nonempty strings}@} for `end`. The effect of `end` is that {@{it will be also be printed after printing the value to be printed. Since `end` is by default a newline `\n`, a newline is always printed at the end when you only do `print(value)`}@}. <!--SR:!2026-03-17,591,330!2028-04-15,1192,350!2027-07-26,987,350!2027-05-05,892,330-->
 
 ## clear
 

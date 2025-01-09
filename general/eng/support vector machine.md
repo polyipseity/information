@@ -21,7 +21,7 @@ Any [hyperplane](hyperplane.md) (e.g. {@{any point for 1D, any line for 2D, any 
 
 ### hard-margin
 
-If the training data is {@{[linearly separable](linear%20separability.md)}@}, we can {@{select 2 parallel [hyperplanes](hyperplane.md) that both separates the 2 classes of data in the training data}@}, such that {@{the distance between the 2 hyperplanes is as large as possible}@}. The region {@{bounded by these 2 hyperplanes is called the _margin_}@}, and {@{the _maximum-margin hyperplane_ is the hyperplane that lies halfway between them}@}. <!--SR:!2025-07-14,303,330!2025-01-29,139,250!2025-01-09,159,310!2025-03-15,194,310!2025-04-29,229,290-->
+If the training data is {@{[linearly separable](linear%20separability.md)}@}, we can {@{select 2 parallel [hyperplanes](hyperplane.md) that both separates the 2 classes of data in the training data}@}, such that {@{the distance between the 2 hyperplanes is as large as possible}@}. The region {@{bounded by these 2 hyperplanes is called the _margin_}@}, and {@{the _maximum-margin hyperplane_ is the hyperplane that lies halfway between them}@}. <!--SR:!2025-07-14,303,330!2025-01-29,139,250!2026-11-22,682,330!2025-03-15,194,310!2025-04-29,229,290-->
 
 With a {@{normalized or standardized dataset}@}, the 2 hyperplanes can be described by {@{the equations}@}: {@{$$\mathbf{w}^\intercal \mathbf{x} - b = 1$$ with anything on or above this boundary is of class 1}@}, and {@{$$\mathbf{w}^\intercal \mathbf{x} - b = -1$$ with anything on or below this boundary is of class -1}@}. <!--SR:!2025-02-12,125,310!2025-05-20,259,330!2025-03-27,217,330!2025-05-13,255,330-->
 

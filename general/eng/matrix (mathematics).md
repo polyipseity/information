@@ -27,7 +27,7 @@ The subtraction of {@{a matrix __A__ by another matrix __B__ of the same size}@}
 
 #### transposition
 
-The _transpose_ of {@{an _m_-by-_n_ matrix __A__}@} is {@{the _n_-by-_m_ matrix denoted by __A__<sup>T</sup>, __A__<sup>tr</sup>, or <sup>t</sup>__A__}@}. It is formed by {@{swapping the row index with the column index for every element of __A__}@}: {@{$$\left(\mathbf{A}^{\text{T} }\right)_{j, i} = \mathbf{A}_{i, j} \qquad \text{where }1 \le i \le m\text{ and }1 \le j \le n$$}@} <!--SR:!2025-03-01,196,310!2025-05-27,267,330!2025-07-13,302,330!2025-01-09,156,310-->
+The _transpose_ of {@{an _m_-by-_n_ matrix __A__}@} is {@{the _n_-by-_m_ matrix denoted by __A__<sup>T</sup>, __A__<sup>tr</sup>, or <sup>t</sup>__A__}@}. It is formed by {@{swapping the row index with the column index for every element of __A__}@}: {@{$$\left(\mathbf{A}^{\text{T} }\right)_{j, i} = \mathbf{A}_{i, j} \qquad \text{where }1 \le i \le m\text{ and }1 \le j \le n$$}@} <!--SR:!2025-03-01,196,310!2025-05-27,267,330!2025-07-13,302,330!2026-11-12,672,330-->
 
 ### matrix multiplication
 

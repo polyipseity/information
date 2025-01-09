@@ -27,7 +27,7 @@ tags:
 > 4. AI is the science and engineering of making intelligent machines.
 >
 > - solution: {@{4}@}
-> - explanation: {@{This definition is due to Alan Turing.}@} <!--SR:!2025-01-09,16,290!2025-01-09,16,290-->
+> - explanation: {@{This definition is due to Alan Turing.}@} <!--SR:!2025-03-17,67,310!2025-03-15,65,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -38,7 +38,7 @@ tags:
 > 3. Frank Rosenblatt
 > 4. Desmond <!-- ____ -->
 >
-> - solution: {@{1}@} <!--SR:!2025-01-09,16,290-->
+> - solution: {@{1}@} <!--SR:!2025-03-16,66,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -93,7 +93,7 @@ tags:
 > 2. Convolutional Neural Network (CNN)
 > 3. Minimax and Alpha-Beta Pruning
 >
-> - solution: {@{3}@} <!--SR:!2025-01-09,16,290-->
+> - solution: {@{3}@} <!--SR:!2025-03-17,67,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -104,7 +104,7 @@ tags:
 > 3. The second AI winter happened in 1987–1993
 > 4. The natural language processing AI, ELIZA, passes the Turing test
 >
-> - solution: {@{4}@} <!--SR:!2025-01-09,16,290-->
+> - solution: {@{4}@} <!--SR:!2025-03-17,67,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -171,7 +171,7 @@ tags:
 >        [13, 14, 15, 16]])
 > ```
 >
-> - solution: {@{`numpy.arange(1, 17).reshape((4, 4))`}@} <!--SR:!2025-01-09,16,290-->
+> - solution: {@{`numpy.arange(1, 17).reshape((4, 4))`}@} <!--SR:!2025-03-17,67,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -188,7 +188,7 @@ tags:
 >         [13, 14, 15, 16]]])
 > ```
 >
-> - solution: {@{\(3, 2, 4\)}@} <!--SR:!2025-01-09,16,290-->
+> - solution: {@{\(3, 2, 4\)}@} <!--SR:!2025-03-17,67,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -200,7 +200,7 @@ tags:
 
 > Q9. Return the minimum value within a NumPy array `a`.
 >
-> - solution: {@{`numpy.min(a)`, `a.min()`}@} <!--SR:!2025-01-09,16,290-->
+> - solution: {@{`numpy.min(a)`, `a.min()`}@} <!--SR:!2025-03-17,67,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -213,7 +213,7 @@ tags:
 > print(a.transpose())
 > ```
 >
-> - solution: {@{(newlines omitted) `[[1 5] [2 6] [3 7] [4 8]]`}@} <!--SR:!2025-01-09,16,290-->
+> - solution: {@{(newlines omitted) `[[1 5] [2 6] [3 7] [4 8]]`}@} <!--SR:!2025-03-15,65,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -237,7 +237,7 @@ tags:
 > print(a + b)
 > ```
 >
-> - solution: {@{(newlines omitted) `[[3 5 6 8] [3 6 9 12]])`}@} <!--SR:!2025-01-09,16,290-->
+> - solution: {@{(newlines omitted) `[[3 5 6 8] [3 6 9 12]])`}@} <!--SR:!2025-03-15,65,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -302,7 +302,7 @@ tags:
 > print(a + b)
 > ```
 >
-> - solution: {@{(newlines omitted) `[[24 24 23 23] [12 13 14 15]])`}@} <!--SR:!2025-01-09,16,290-->
+> - solution: {@{(newlines omitted) `[[24 24 23 23] [12 13 14 15]])`}@} <!--SR:!2025-02-26,48,290-->
 
 <!-- markdownlint MD028 -->
 
@@ -426,7 +426,7 @@ tags:
 >
 > Your code should be at most one to two lines, and should not contain any loops.
 >
-> - solution: {@{`print(2 * a + 4 * np.arange(2211).reshape((2211, 1)))`}@} <!--SR:!2025-01-09,16,290-->
+> - solution: {@{`print(2 * a + 4 * np.arange(2211).reshape((2211, 1)))`}@} <!--SR:!2025-03-16,66,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -454,7 +454,7 @@ tags:
 > ```
 >
 > - solution: {@{(almost always) `True`}@}
-> - explanation: {@{`time1` performs an element-wise operation using pure Python while `time2` uses NumPy arrays to do the same thing, so `time2` is most likely faster.}@} <!--SR:!2025-03-03,55,310!2025-01-09,16,290-->
+> - explanation: {@{`time1` performs an element-wise operation using pure Python while `time2` uses NumPy arrays to do the same thing, so `time2` is most likely faster.}@} <!--SR:!2025-03-03,55,310!2025-03-17,67,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -474,7 +474,7 @@ tags:
 > 4. `5 // 3 == 1`
 >
 > - solution: {@{2}@}
-> - explanation: {@{To be fair, this question is unlikely to be tested... It is simply trying to show that `float`s have limited precision.}@} <!--SR:!2025-01-09,16,290!2025-01-09,16,290-->
+> - explanation: {@{To be fair, this question is unlikely to be tested... It is simply trying to show that `float`s have limited precision.}@} <!--SR:!2025-03-17,67,310!2025-03-16,66,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -488,7 +488,7 @@ tags:
 > print(haha)
 > ```
 >
-> - solution: {@{`[1 2 999]`}@} <!--SR:!2025-01-09,16,290-->
+> - solution: {@{`[1 2 999]`}@} <!--SR:!2025-03-17,67,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -519,7 +519,7 @@ tags:
 
 > Q1. (simple) True or false: The naive Bayes classifier uses a labeled dataset.
 >
-> - solution: {@{true}@} <!--SR:!2025-01-09,16,290-->
+> - solution: {@{true}@} <!--SR:!2025-03-17,67,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -535,7 +535,7 @@ tags:
 
 > Q3. (medium) Consider a random bit string with length 4 (a bit string is a sequence of 0s and 1s, e.g. 0000 or 0101). What is the probability that it contains two consecutive 0s, given that the first bit is 0?
 >
-> - solution: {@{$$1/2 + 1/2 \times 1/4 = 5/8$$}@} <!--SR:!2025-01-09,16,290-->
+> - solution: {@{$$1/2 + 1/2 \times 1/4 = 5/8$$}@} <!--SR:!2025-03-16,66,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -546,7 +546,7 @@ tags:
 > 1. Since the breath analyzer has an error rate of 5%, a student claims the probability that the driver is drunk driving should be 95%. Explain why this intuition is wrong.
 > 2. Using Bayes Theorem, find the true probability that the driver is drunk driving, i.e. find $P( \text{ drunk driving } | \text{ reported drunk by breath analyzer } )$.
 >
-> - solution: {@{For 1, it neglects the base rate, i.e. 1 in 1000 drivers drunk drives (see base rate fallacy). <p> For 2, this is $$\frac {1 / 1000 \times 0.95} {(1 / 1000 \times 0.95) + (999 / 1000 \times 0.05)} \approx 1.87\% \,.$$}@} <!--SR:!2025-01-09,16,290-->
+> - solution: {@{For 1, it neglects the base rate, i.e. 1 in 1000 drivers drunk drives (see base rate fallacy). <p> For 2, this is $$\frac {1 / 1000 \times 0.95} {(1 / 1000 \times 0.95) + (999 / 1000 \times 0.05)} \approx 1.87\% \,.$$}@} <!--SR:!2025-03-17,67,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -578,14 +578,14 @@ tags:
 > 3. The naive Bayes classifier always predicts correct results.
 > 4. None of the above
 >
-> - solution: {@{2}@} <!--SR:!2025-01-09,16,290-->
+> - solution: {@{2}@} <!--SR:!2025-03-17,67,310-->
 
 <!-- markdownlint MD028 -->
 
 > Q8. (simple) True or false. There are $n$ different beliefs $B_1, B_2, \cdots, B_n$. If the pieces of evidence are independent, then the following formula gives us the probability of belief $B$ given the evidence. $$P(B|E_1 \cap \cdots \cap E_n) \overset ? = P(B) P(E_1|B) P(E_2|B) \cdots P(E_n|B)$$
 >
 > - solution: {@{false}@}
-> - explanation: {@{The denominator, which is the probability of the evidence $P(E_1 \cap \cdots \cap E_n)$, has been removed to derive the right hand side of the above equation (but the left hand side is not updated). So the above equation does not hold (i.e. the left hand side does not equal the right hand side).}@} <!--SR:!2025-03-03,55,310!2025-01-09,16,290-->
+> - explanation: {@{The denominator, which is the probability of the evidence $P(E_1 \cap \cdots \cap E_n)$, has been removed to derive the right hand side of the above equation (but the left hand side is not updated). So the above equation does not hold (i.e. the left hand side does not equal the right hand side).}@} <!--SR:!2025-03-03,55,310!2025-03-15,65,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -620,13 +620,13 @@ tags:
 > 2. Distance metric
 > 3. Number of samples
 >
-> - solution: {@{1, 2}@} <!--SR:!2025-01-09,16,290-->
+> - solution: {@{1, 2}@} <!--SR:!2025-03-16,66,310-->
 
 <!-- markdownlint MD028 -->
 
 > Q3. Suppose we have two points, A and B, in a Cartesian coordinate system, where the location of A is (1,5) and the location of B is (4,1). The L1 (Manhattan) distance between A and B is \_\_\_, and the L2 (Euclidean) distance between A and B is \_\_\_.
 >
-> - solution: {@{7, 5}@} <!--SR:!2025-01-09,16,290-->
+> - solution: {@{7, 5}@} <!--SR:!2025-03-17,67,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -710,7 +710,7 @@ tags:
 > 3. The "K" in K-means clustering refers to the number of data points
 > 4. K-means clustering achieves categorization of data points
 >
-> - solution: {@{4}@} <!--SR:!2025-01-09,16,290-->
+> - solution: {@{4}@} <!--SR:!2025-03-17,67,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -721,13 +721,13 @@ tags:
 > 3. Choose K random points to be the initial centroids
 > 4. Recompute the centroids according to the labelling
 >
-> - solution: {@{3 → 1 → 2 → 4}@} <!--SR:!2025-01-09,16,290-->
+> - solution: {@{3 → 1 → 2 → 4}@} <!--SR:!2025-03-17,67,310-->
 
 <!-- markdownlint MD028 -->
 
 > Q3. In an iteration of K-means clustering, the data points with coordinates (9,7), (9,2) and (7,9) are labelled as "Category 1". What is the new position of the centroid for "Category 1"?
 >
-> - solution: {@{\(25/3, 6\)}@} <!--SR:!2025-01-09,16,290-->
+> - solution: {@{\(25/3, 6\)}@} <!--SR:!2025-03-15,65,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -735,7 +735,7 @@ tags:
 >
 > Your code should be at most one or two lines, and it should not contain any loops.
 >
-> - solution: {@{`numpy.average(data, axis=0)`, `numpy.mean(data, axis=0)`}@} <!--SR:!2025-01-09,16,290-->
+> - solution: {@{`numpy.average(data, axis=0)`, `numpy.mean(data, axis=0)`}@} <!--SR:!2025-03-16,66,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -769,7 +769,7 @@ tags:
 >        [ 0.9, 0.59, 0.65]])
 > ```
 >
-> - solution: {@{0.67372101, 0.2805352, 0.38626416, 0.51048996}@} <!--SR:!2025-01-09,16,290-->
+> - solution: {@{0.67372101, 0.2805352, 0.38626416, 0.51048996}@} <!--SR:!2025-03-16,66,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -777,13 +777,13 @@ tags:
 >
 > Your code should be at most one or two lines, and it should not contain any loops. Hint: reviewing the last question of the self test on Python Fundamentals might help :D
 >
-> - solution: {@{`numpy.sqrt(numpy.sum((data - centroid) ** 2, axis=-1))`, `numpy.sqrt(numpy.sum((data - centroid) ** 2, axis=1))`}@} <!--SR:!2025-01-09,16,290-->
+> - solution: {@{`numpy.sqrt(numpy.sum((data - centroid) ** 2, axis=-1))`, `numpy.sqrt(numpy.sum((data - centroid) ** 2, axis=1))`}@} <!--SR:!2025-03-16,66,310-->
 
 <!-- markdownlint MD028 -->
 
 > Q9. Can K-means clustering under Euclidean distance produce any kind of cluster shapes?
 >
-> - solution: {@{No. The shape needs to be circles or ellipsoids.}@} <!--SR:!2025-01-09,16,290-->
+> - solution: {@{No. The shape needs to be circles or ellipsoids.}@} <!--SR:!2025-03-16,66,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -795,7 +795,7 @@ tags:
 > 4. Customer segmentation
 >
 > - solution: {@{4}@}
-> - explanation: {@{It is the closest to clustering...}@} <!--SR:!2025-03-06,58,310!2025-01-09,16,290-->
+> - explanation: {@{It is the closest to clustering...}@} <!--SR:!2025-03-06,58,310!2025-03-17,67,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -806,7 +806,7 @@ tags:
 > 3. K-means clustering always minimizes the sum of inter-cluster distance.
 > 4. K-means clustering is deterministic - i.e. it always produces the same result on the same dataset.
 >
-> - solution: {@{1. true (false if not using Euclidean distance, but ignore this for exams) <br/> 2. true <br/> 3. false, not necessarily global minimum, only local minimum <br/> 4. false (assuming initial centroids are initialized randomly, which is usually the case)}@} <!--SR:!2025-01-09,16,290-->
+> - solution: {@{1. true (false if not using Euclidean distance, but ignore this for exams) <br/> 2. true <br/> 3. false, not necessarily global minimum, only local minimum <br/> 4. false (assuming initial centroids are initialized randomly, which is usually the case)}@} <!--SR:!2025-03-15,65,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -827,7 +827,7 @@ tags:
 > array([0.56, 0.38, 0.48, 0.51, 0.7, 0.98, 0.6, 0.87, 0.61, 0.54])
 > ```
 >
-> - solution: {@{centroid 0: (0.02 + 0.45 + 0.41 + 0.03)/4 = 0.2275 <br/> centroid 1: (0.93 + 0.7 + 0.78 + 0.52 + 0.59 + 0.53)/6 = 0.675}@} <!--SR:!2025-01-09,16,290-->
+> - solution: {@{centroid 0: (0.02 + 0.45 + 0.41 + 0.03)/4 = 0.2275 <br/> centroid 1: (0.93 + 0.7 + 0.78 + 0.52 + 0.59 + 0.53)/6 = 0.675}@} <!--SR:!2025-03-15,65,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -835,7 +835,7 @@ tags:
 >
 > Try to not use any explicit Python loops. The solution below has 4 lines.
 >
-> - solution: <p> {@{`squared_dists = numpy.sum((centroids[..., numpy.newaxis, :] - data) ** 2, axis=-1)` <br/> `mins = numpy.argmin(squared_dists, axis=-2)` <br/> `min_mask = numpy.arange(len(centroids))[..., numpy.newaxis] == mins` <br/> `centroids = numpy.mean(numpy.repeat(data[numpy.newaxis, ...], len(centroids), axis=0), axis=-2, where=min_mask[..., numpy.newaxis])` <p> Note: This code will result in `nan`s if some centroids have no data points assigned to it. See if you can figure out a solution yourself...}@} <!--SR:!2025-01-09,16,290-->
+> - solution: <p> {@{`squared_dists = numpy.sum((centroids[..., numpy.newaxis, :] - data) ** 2, axis=-1)` <br/> `mins = numpy.argmin(squared_dists, axis=-2)` <br/> `min_mask = numpy.arange(len(centroids))[..., numpy.newaxis] == mins` <br/> `centroids = numpy.mean(numpy.repeat(data[numpy.newaxis, ...], len(centroids), axis=0), axis=-2, where=min_mask[..., numpy.newaxis])` <p> Note: This code will result in `nan`s if some centroids have no data points assigned to it. See if you can figure out a solution yourself...}@} <!--SR:!2025-03-17,67,310-->
 
 ## perceptron
 
@@ -847,7 +847,7 @@ tags:
 > 4. Every parameter must be updated during an epoch.
 >
 > - solution: {@{1}@}
-> - explanation: {@{Even if the activation function is nonlinear, the input to the activation function is linear. Unless you are doing regression, otherwise the nonlinear activation function cannot magically make the classification nonlinear.}@} <!--SR:!2025-03-06,58,310!2025-01-09,16,290-->
+> - explanation: {@{Even if the activation function is nonlinear, the input to the activation function is linear. Unless you are doing regression, otherwise the nonlinear activation function cannot magically make the classification nonlinear.}@} <!--SR:!2025-03-06,58,310!2025-03-16,66,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -858,13 +858,13 @@ tags:
 > 3. Its output is equivalent to the direct result of a weighted sum of the inputs plus a bias.
 > 4. For a perceptron with n inputs and 1 output, there should be n+1 parameters, including bias.
 >
-> - solution: {@{2, 4}@} <!--SR:!2025-01-09,16,290-->
+> - solution: {@{2, 4}@} <!--SR:!2025-03-15,65,310-->
 
 <!-- markdownlint MD028 -->
 
 > Q3. Suppose we have a dataset with many data points, each with N features. Each feature is either positive (with value 1) or negative (with value -1). We say a data point is "positive" if it has more positive features than negative features, and "negative" otherwise. Design the weights, bias and activation function of a perceptron to classify positive data points from negative data points.
 >
-> - solution: {@{Actually you do not need to tune the weights and biases: leave the former at 1 and the latter at 0. Simply tune the activation function to behave as described above.}@} <!--SR:!2025-01-09,16,290-->
+> - solution: {@{Actually you do not need to tune the weights and biases: leave the former at 1 and the latter at 0. Simply tune the activation function to behave as described above.}@} <!--SR:!2025-03-15,65,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -875,13 +875,13 @@ tags:
 > 3. choice of having a bias term or not
 > 4. choice of the number of inputs
 >
-> - solution: {@{1, 2, 3}@} <!--SR:!2025-01-09,16,290-->
+> - solution: {@{1, 2, 3}@} <!--SR:!2025-03-16,66,310-->
 
 <!-- markdownlint MD028 -->
 
 > Q5. Suppose we use perceptron to learn on K training samples where each sample is represented in n-dimensional space. We stopped training after e epochs. How many arithmetic operations were done during training? Express it in terms of K, e and n. (arithmetic operations include both multiplication and addition, ignore the operations for parameter update and the operations in the activation function)
 >
-> - solution: {@{2eKn (remember to include the bias addition)}@} <!--SR:!2025-01-09,16,290-->
+> - solution: {@{2eKn (remember to include the bias addition)}@} <!--SR:!2025-03-15,65,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -927,7 +927,7 @@ tags:
 > 3. Activation functions have to be continuous and differentiable at every point.
 > 4. One problem with the sigmoid activation functions is that it may cause a vanishing gradient problem in the saturation zone.
 >
-> - solution: {@{4}@} <!--SR:!2025-01-09,16,290-->
+> - solution: {@{4}@} <!--SR:!2025-03-17,67,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -991,7 +991,7 @@ tags:
 > 4. It is based on the recursive use of the Leibniz integral rule.
 >
 > - solution: {@{2, 3}@}
-> - explanation: {@{Theoretically, you could do 1 for adversarial machine learning... an example is finding "bad" inputs (that look mostly indistinguishable to the original input) that cause the network to produce any classification you desire. And 4 is something completely unrelated...}@} <!--SR:!2025-01-09,16,290!2025-01-09,16,290-->
+> - explanation: {@{Theoretically, you could do 1 for adversarial machine learning... an example is finding "bad" inputs (that look mostly indistinguishable to the original input) that cause the network to produce any classification you desire. And 4 is something completely unrelated...}@} <!--SR:!2025-03-17,67,310!2025-03-17,67,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -1085,7 +1085,7 @@ tags:
 > 3. The resulting image will be brighter.
 > 4. No image can be formed.
 >
-> - solution: {@{2}@} <!--SR:!2025-01-09,16,290-->
+> - solution: {@{2}@} <!--SR:!2025-03-16,66,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -1204,7 +1204,7 @@ tags:
 >
 > Note: Without context, $\gamma$ as described above is most likely the _decoding value_, but we are doing _encoding_. One could argue this is confusing, but this is the current convention (unfortunately).
 >
-> - solution: {@{The image becomes darker.}@} <!--SR:!2025-01-09,16,290-->
+> - solution: {@{The image becomes darker.}@} <!--SR:!2025-02-26,48,290-->
 
 <!-- markdownlint MD028 -->
 
@@ -1216,13 +1216,13 @@ tags:
 > 4. The resulting image consists of pure black and pure white, and no other colors.
 >
 > - solution: {@{2}@}
-> - explanation: {@{This depends on your definition of the threshold function. The threshold function used in this course is 255 if larger than or _equal to_ the threshold.}@} <!--SR:!2025-01-09,16,290!2025-02-22,45,290-->
+> - explanation: {@{This depends on your definition of the threshold function. The threshold function used in this course is 255 if larger than or _equal to_ the threshold.}@} <!--SR:!2025-03-15,65,310!2025-02-22,45,290-->
 
 <!-- markdownlint MD028 -->
 
 > Q10. (simple) What is the advantage of using Otsu's <!-- osu!: Haha Hehe Desmond GOOD guy --> method for image thresholding compared to the regular image thresholding algorithm?
 >
-> - solution: {@{The result is reproducible.}@} <!--SR:!2025-01-09,16,290-->
+> - solution: {@{The result is reproducible.}@} <!--SR:!2025-03-15,65,310-->
 
 ## convolutional neural network
 
@@ -1250,7 +1250,7 @@ tags:
 
 > Q3. Suppose we have a conventional CNN architecture: input 32\*32\*3 RGB image, first convolutional layer has 256 3\*3 filters, followed by a 2\*2 (non-overlapping) max pooling layer, followed by convolutional layer with 128 3\*3 filters, followed by another 2\*2 (non-overlapping) max pooling layer, followed by convolutional layer with 64 3\*3 filters, then a 2\*2 (non-overlapping) max pooling layer, then a flattening layer, a dense layer with 1000 neurons, and output layer with 10 neurons. What is the total number of parameters in the network, including bias, assuming no padding is done for any convolutional layer?
 >
-> - solution: {@{input shape to flattening layer: 32\*32\*3 → 30\*30\*256 → 15\*15\*256 → 13\*13\*128 → 6\*6\*128 → 4\*4\*64 → 2\*2\*64 <br/> total params: (3\*3\*3 \* 256 + 256) + (3\*3\*256 \* 128 + 128) + (3\*3\*128 \* 64 + 64) + (2\*2\*64 \* 1000 + 1000) + (1000 \* 10 + 10) = 643010}@} <!--SR:!2025-01-09,16,290-->
+> - solution: {@{input shape to flattening layer: 32\*32\*3 → 30\*30\*256 → 15\*15\*256 → 13\*13\*128 → 6\*6\*128 → 4\*4\*64 → 2\*2\*64 <br/> total params: (3\*3\*3 \* 256 + 256) + (3\*3\*256 \* 128 + 128) + (3\*3\*128 \* 64 + 64) + (2\*2\*64 \* 1000 + 1000) + (1000 \* 10 + 10) = 643010}@} <!--SR:!2025-03-17,67,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -1269,7 +1269,7 @@ tags:
 >
 > Explain why CNNs can improve performance on image classification.
 >
-> - solution: {@{(for reference) Convolutional layers automates feature engineering on a large scale and are likely much better than humans at extracting image features.}@} <!--SR:!2025-01-09,16,290-->
+> - solution: {@{(for reference) Convolutional layers automates feature engineering on a large scale and are likely much better than humans at extracting image features.}@} <!--SR:!2025-03-16,66,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -1332,7 +1332,7 @@ tags:
 > 3. Alpha–beta pruning is guaranteed to speed up the minimax algorithm.
 > 4. We can use GPU to speed up the minimax algorithm.
 >
-> - solution: {@{1. false, not perfect information <br/> 2. false, theoretically possible, but practically too many nodes in the game tree <br/> 3. false <br/> 4. false, because GPUs are only good at matrix multiplication (Actually, true would also make sense, considering GPGPUs (general-purpose graphical processing units)...)}@} <!--SR:!2025-01-09,16,290-->
+> - solution: {@{1. false, not perfect information <br/> 2. false, theoretically possible, but practically too many nodes in the game tree <br/> 3. false <br/> 4. false, because GPUs are only good at matrix multiplication (Actually, true would also make sense, considering GPGPUs (general-purpose graphical processing units)...)}@} <!--SR:!2025-03-17,67,310-->
 
 ## ethics of artificial intelligence
 
@@ -1445,7 +1445,7 @@ tags:
 > 2. The __state__ of a Markov chain at time $t$ is...
 > 3. The __state space__ of a Markov chain is...
 >
-> - solution: {@{1. definition 3 <br/> 2. definition 1 <br/> 3. definition 2}@} <!--SR:!2025-01-09,16,290-->
+> - solution: {@{1. definition 3 <br/> 2. definition 1 <br/> 3. definition 2}@} <!--SR:!2025-03-16,66,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -1478,7 +1478,7 @@ tags:
 >
 > Do you agree with the student's claim? Justify your answer.
 >
-> - solution: {@{No. <p> For a Markov chain, the state at time $t$ is independent of the values previous processes $X_1, X_2, \cdots, X_{t - 2}$ take. But it _may_ (or _may not_) depend on $X_{t - 1}$.}@} <!--SR:!2025-01-09,16,290-->
+> - solution: {@{No. <p> For a Markov chain, the state at time $t$ is independent of the values previous processes $X_1, X_2, \cdots, X_{t - 2}$ take. But it _may_ (or _may not_) depend on $X_{t - 1}$.}@} <!--SR:!2025-03-15,65,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -1501,7 +1501,7 @@ tags:
 >
 > Is $M$ a Markov chain? Explain your answer.
 >
-> - solution: {@{No. <p> The key is to realize that knowing the entire state history (in this case, which additionally allows us to know how many of each coin has been drawn) allows us to make better predictions than knowing only the current state.}@} <!--SR:!2025-01-09,16,290-->
+> - solution: {@{No. <p> The key is to realize that knowing the entire state history (in this case, which additionally allows us to know how many of each coin has been drawn) allows us to make better predictions than knowing only the current state.}@} <!--SR:!2025-03-16,66,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -1524,7 +1524,7 @@ tags:
 > Q11. (simple) True or false: A transition probability matrix in a Markov chain must be a square matrix.
 >
 > - solution: {@{true}@}
-> - explanation: {@{While technically you could have a non-square matrix, it would not be useful in practice, especially when you want to run the Markov chain multiple times.}@} <!--SR:!2025-03-08,59,310!2025-01-09,16,290-->
+> - explanation: {@{While technically you could have a non-square matrix, it would not be useful in practice, especially when you want to run the Markov chain multiple times.}@} <!--SR:!2025-03-08,59,310!2025-03-15,65,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -1552,7 +1552,7 @@ tags:
 > <!-- list separator -->
 >
 > - solution: {@{$a_{21} = P(X_t = S_1 \mid X_{t - 1} = S_2)$}@}
-> - explanation: {@{Usually, the _transition probability matrix_ is encoded as a _right/row stochastic matrix_, where each row adds up to 1. It is so called "right" because the probability distribution at the next step is computed by $\mathbf S_t = \mathbf S_{t - 1} \mathbf M$. <p> Another, but less common, way to encode it is as a _left/column stochastic matrix_, where each column adds up to 1. The next step probability distribution is computed by $\mathbf S_t =  \mathbf M \mathbf S_{t - 1}$. <p> Note: You should see in _value iteration_, we put the _right/row_ stochastic matrix $\mathbf M$ on the _left_ of the value vector $\mathbf V$ instead: $\mathbf M \mathbf V$. But this is because in value iteration, we are propagation the rewards _backwards_ instead of _forward_.}@} <!--SR:!2025-01-09,16,290!2025-01-29,26,270-->
+> - explanation: {@{Usually, the _transition probability matrix_ is encoded as a _right/row stochastic matrix_, where each row adds up to 1. It is so called "right" because the probability distribution at the next step is computed by $\mathbf S_t = \mathbf S_{t - 1} \mathbf M$. <p> Another, but less common, way to encode it is as a _left/column stochastic matrix_, where each column adds up to 1. The next step probability distribution is computed by $\mathbf S_t =  \mathbf M \mathbf S_{t - 1}$. <p> Note: You should see in _value iteration_, we put the _right/row_ stochastic matrix $\mathbf M$ on the _left_ of the value vector $\mathbf V$ instead: $\mathbf M \mathbf V$. But this is because in value iteration, we are propagation the rewards _backwards_ instead of _forward_.}@} <!--SR:!2025-03-16,66,310!2025-01-29,26,270-->
 
 <!-- markdownlint MD028 -->
 
@@ -1601,7 +1601,7 @@ tags:
 > 4. $\max_{k\in \{ 1, 2, \cdots, N \} } | V_k(s_a) - V_{k}(s_b) | < \varepsilon$
 >
 > - solution: {@{1}@}
-> - explanation: {@{There may be other ways to determining convergence. But 2, 3, and 4 are definitely not the "other ways" as they do not even make sense.}@} <!--SR:!2025-01-09,16,290!2025-03-10,61,310-->
+> - explanation: {@{There may be other ways to determining convergence. But 2, 3, and 4 are definitely not the "other ways" as they do not even make sense.}@} <!--SR:!2025-03-15,65,310!2025-03-10,61,310-->
 
 <!-- markdownlint MD028 -->
 

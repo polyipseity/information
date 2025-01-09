@@ -21,7 +21,7 @@ In the case when {@{_C_ and its opposite _C_<sup>op</sup> are equivalent}@}, {@{
 
 ## formal definition
 
-We define {@{the elementary language of category theory}@} as {@{the two-sorted [first order language](first%20order%20language.md) with objects and morphisms as distinct sorts}@}, together with {@{the relations of an object being the source or target of a morphism and a symbol for composing two morphisms}@}. <!--SR:!2025-01-09,3,250!2025-01-10,4,270!2025-01-10,4,270-->
+We define {@{the elementary language of category theory}@} as {@{the two-sorted [first order language](first%20order%20language.md) with objects and morphisms as distinct sorts}@}, together with {@{the relations of an object being the source or target of a morphism and a symbol for composing two morphisms}@}. <!--SR:!2025-01-19,10,270!2025-01-10,4,270!2025-01-10,4,270-->
 
 Let {@{σ be any statement in this language}@}. We form {@{the dual σ<sup>op</sup>}@} as follows: <!--SR:!2025-01-10,4,270!2025-01-10,4,270-->
 
@@ -40,10 +40,10 @@ Applying duality, this means that {@{a morphism in some category _C_ is a monomo
 
 - An example comes from {@{reversing the direction of inequalities in a [partial order](partial%20order.md#partial%20order)}@}. So if {@{_X_ is a [set](set%20(mathematics).md) and ≤ a partial order relation}@}, we can {@{define a new partial order relation ≤<sub>new</sub>}@} by <p> &emsp; {@{_x_ ≤<sub>new</sub> _y_ if and only if _y_ ≤ _x_}@}. <!--SR:!2025-01-10,4,270!2025-01-10,4,270!2025-01-10,4,270!2025-01-10,4,270-->
 
-{@{This example on orders}@} is a special case, since {@{partial orders correspond to a certain kind of category in which Hom\(_A_,_B_\) can have at most one element}@}. In {@{applications to logic}@}, this then looks like {@{a very general description of negation \(that is, proofs run in the opposite direction\)}@}. For example, if {@{we take the opposite of a [lattice](lattice%20theory.md)}@}, we will find that {@{_meets_ and _joins_ have their roles interchanged}@}. This is an abstract form of {@{[De Morgan's laws](De%20Morgan's%20laws.md), or of [duality](duality%20(order%20theory).md) applied to lattices}@}. <!--SR:!2025-01-10,4,270!2025-01-10,4,270!2025-01-10,4,270!2025-01-09,3,250!2025-01-10,4,270!2025-01-10,4,270!2025-01-10,4,270-->
+{@{This example on orders}@} is a special case, since {@{partial orders correspond to a certain kind of category in which Hom\(_A_,_B_\) can have at most one element}@}. In {@{applications to logic}@}, this then looks like {@{a very general description of negation \(that is, proofs run in the opposite direction\)}@}. For example, if {@{we take the opposite of a [lattice](lattice%20theory.md)}@}, we will find that {@{_meets_ and _joins_ have their roles interchanged}@}. This is an abstract form of {@{[De Morgan's laws](De%20Morgan's%20laws.md), or of [duality](duality%20(order%20theory).md) applied to lattices}@}. <!--SR:!2025-01-10,4,270!2025-01-10,4,270!2025-01-10,4,270!2025-01-20,11,270!2025-01-10,4,270!2025-01-10,4,270!2025-01-10,4,270-->
 
 - [Limits](limit%20(category%20theory).md) and [colimits](limit%20(category%20theory).md) ::@:: are dual notions. <!--SR:!2025-01-10,4,270!2025-01-10,4,270-->
-- [Fibrations](fibration.md) and [cofibrations](cofibration.md) ::@:: are examples of dual notions in [algebraic topology](algebraic%20topology.md) and [homotopy theory](homotopy%20theory.md). In this context, the duality is often called [Eckmann–Hilton duality](Eckmann–Hilton%20duality.md). <!--SR:!2025-01-09,3,250!2025-01-10,4,270-->
+- [Fibrations](fibration.md) and [cofibrations](cofibration.md) ::@:: are examples of dual notions in [algebraic topology](algebraic%20topology.md) and [homotopy theory](homotopy%20theory.md). In this context, the duality is often called [Eckmann–Hilton duality](Eckmann–Hilton%20duality.md). <!--SR:!2025-01-18,9,250!2025-01-10,4,270-->
 
 ## see also
 

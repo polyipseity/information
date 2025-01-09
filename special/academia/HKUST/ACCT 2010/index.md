@@ -580,7 +580,7 @@ The content is in teaching order.
     - high: ? → 92
     - distribution: ? → ?
 - report
-  - HKUST yellow answer book (0?, scary) ::@:: I had just realized that the left-hand side is intended for rough work... You are supposed to write your answers on the right-hand side near the end of the exam. Have I been using it wrongly the whole time? <p> I asked the professor after the exam and he said do not worry about it... Let's hope so. <p> Update: Yes, awesome! <!--SR:!2025-01-09,23,374!2025-01-09,23,374-->
+  - HKUST yellow answer book (0?, scary) ::@:: I had just realized that the left-hand side is intended for rough work... You are supposed to write your answers on the right-hand side near the end of the exam. Have I been using it wrongly the whole time? <p> I asked the professor after the exam and he said do not worry about it... Let's hope so. <p> Update: Yes, awesome! <!--SR:!2025-05-07,118,394!2025-05-09,120,394-->
   - overall
     - overall / bullet points ::@:: For questions that can be answered using bullet points, 1 mark means 1 bullet point. Try to not merge your points together into one bullet point, even if the TA said she would try to distinguish the points. And if you cannot think of enough bullet points to match the marks, force yourself to write that many bullet points anyway. <!--SR:!2025-02-01,26,388!2025-01-31,25,388-->
     - overall / stupid points ::@:: Recalling and writing the definition of concepts, as stupid as it sounds, gives marks... <!--SR:!2025-01-31,25,388!2025-02-01,26,388-->

@@ -106,7 +106,7 @@ The content is in teaching order.
   - artificial intelligence / prerequisites ::@:: algorithms, data analysis, mathematics, programming, will to learn <!--SR:!2025-02-02,73,330!2025-01-15,58,312-->
   - artificial intelligence / periods
     - artificial intelligence / periods / 1950–1956 ::@:: birth of artificial intelligence <!--SR:!2025-04-13,110,290!2025-04-22,116,292-->
-    - artificial intelligence / periods / 1956–1974 ::@:: symbolic AI <!--SR:!2025-03-26,99,310!2025-01-09,40,270-->
+    - artificial intelligence / periods / 1956–1974 ::@:: symbolic AI <!--SR:!2025-03-26,99,310!2025-04-30,111,270-->
     - artificial intelligence / periods / 1974–1980 ::@:: the first AI winter <!--SR:!2025-05-11,141,310!2025-04-07,107,292-->
     - artificial intelligence / periods / 1980–1987 ::@:: AI boom <!--SR:!2025-04-14,111,290!2025-04-16,113,290-->
     - artificial intelligence / periods / 1987–1993 ::@:: the second AI winter <!--SR:!2025-04-27,119,292!2025-01-29,47,252-->
@@ -823,7 +823,7 @@ ID: 23456789
   - When applying machine learning on large data sets, it is good practice to test which algorithms work best on a small subset of the data before running the best model on the whole data set, since the same algorithms that work best on small data sets almost always also work best on big sets of the same data. True or false? (-1) ::@:: False. Carefully read "... before running the best model on the whole data set". <!--SR:!2025-03-14,93,366!2025-03-14,93,366-->
   - calculating recall (-4.2) ::@:: Do not calculate recall wrongly. Also, prioritize checking cascading questions (questions that depend on the answer of previous questions). <!--SR:!2025-03-12,91,366!2025-03-13,92,366-->
   - identity of models (-1) ::@:: Two models are considered different if their parameters (but not hyperparameters) are the same. For example, two _k_-NN model on the same training data but with different _k_ are considered the same model. However, if the hyperparameters also affect the parameters, e.g. training hyperparameters, then in said cases, different hyperparameters usually implies different parameters. <!--SR:!2025-03-02,82,366!2025-02-18,69,346-->
-  - time limit ::@:: It was sufficient to finish all questions (about 40 minutes left) and check some questions thoroughly. <!--SR:!2025-03-21,72,380!2025-01-09,15,360-->
+  - time limit ::@:: It was sufficient to finish all questions (about 40 minutes left) and check some questions thoroughly. <!--SR:!2025-03-21,72,380!2025-03-26,76,380-->
 - check
   - datetime: 2024-11-07T19:30:00+08:00/2024-11-07T21:00:00+08:00, PT1H30M
   - venue: Lecture Theater B
@@ -1049,7 +1049,7 @@ ID: 23456789
   - dropout layer / motivation ::@:: _Large_ neural network trained on _relatively small_ datasets can overfit the training data. This has the effect of the model learning _statistical noise_ in the training data. <!--SR:!2025-04-17,101,382!2025-03-13,68,362-->
   - dropout layer / effect ::@:: It forces nodes within a layer to probabilistically take on more or less responsibility for the inputs. <p> Because the outputs of a layer under dropout are randomly _subsampled_, it has the effect of reducing the capacity or thinning the network during training. As such, a wider network, e.g. more nodes, may be required when using dropout. <!--SR:!2025-04-12,97,386!2025-04-16,100,382-->
   - dropout layer / use ::@:: It is implemented per-layer. It can be used with most types of layers, and may be implemented on any or all hidden layers in the network and the input. It is _not_ used on the output layer. <p> A parameter is introduced that specifies the probability at which the outputs of the layer are dropped out, or inversely, the probability at which outputs of the layer are retained. A common value is 0.5. <!--SR:!2025-02-24,54,345!2025-03-08,63,361-->
-  - dropout layer / implementation ::@:: There may be multiple implementations. <p> The Keras (TensorFlow) implementation of dropout is random instead of being proportion-based. So it is theoretically possible for all neurons to be unchanged by dropout of 0.5. (Take note of this for the examinations!) <!--SR:!2025-01-09,5,364!2025-01-09,5,364-->
+  - dropout layer / implementation ::@:: There may be multiple implementations. <p> The Keras (TensorFlow) implementation of dropout is random instead of being proportion-based. So it is theoretically possible for all neurons to be unchanged by dropout of 0.5. (Take note of this for the examinations!) <!--SR:!2025-02-02,24,384!2025-02-02,24,384-->
 - [convolutional neural network](../../../../general/convolutional%20neural%20network.md)
   - convolutional neural network / procedures ::@:: Refer to the Keras procedures above. It's basically the same thing... <!--SR:!2025-04-09,94,379!2025-04-16,100,382-->
 - [one-hot encoding](../../../../general/one-hot.md) ::@:: It is a group of bits among which the legal combinations of values are only those with a single high (1) bit and all the others low (0). For example, `[0 1 1 2 0]` is converted into `[ [1 0 0] [0 1 0] [0 1 0] [0 0 1] [1 0 0] ]`. <!--SR:!2025-04-11,96,386!2025-04-03,89,379-->

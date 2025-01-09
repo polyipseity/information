@@ -13,9 +13,9 @@ tags:
 >
 > {@{Generic tree rotations.}@} <!--SR:!2025-01-10,15,290!2025-01-11,16,290-->
 
-In {@{[discrete mathematics](discrete%20mathematics.md)}@}, __tree rotation__ is {@{an operation on a [binary tree](binary%20tree.md) that changes the structure without interfering with the order of the elements}@}. A tree rotation {@{moves one node up in the tree and one node down}@}. It is used to {@{change the shape of the tree}@}, and in particular {@{to decrease its height by moving smaller subtrees down and larger subtrees up}@}, resulting in {@{improved performance of many tree operations}@}. <!--SR:!2025-01-09,14,290!2025-02-10,37,290!2025-01-11,16,290!2025-01-09,14,290!2025-01-10,15,290!2025-01-09,14,290-->
+In {@{[discrete mathematics](discrete%20mathematics.md)}@}, __tree rotation__ is {@{an operation on a [binary tree](binary%20tree.md) that changes the structure without interfering with the order of the elements}@}. A tree rotation {@{moves one node up in the tree and one node down}@}. It is used to {@{change the shape of the tree}@}, and in particular {@{to decrease its height by moving smaller subtrees down and larger subtrees up}@}, resulting in {@{improved performance of many tree operations}@}. <!--SR:!2025-03-08,58,310!2025-02-10,37,290!2025-01-11,16,290!2025-03-08,58,310!2025-01-10,15,290!2025-03-06,56,310-->
 
-There exists {@{an inconsistency in different descriptions as to the definition of the __direction of rotations__}@}. Some say that {@{the direction of rotation reflects the direction that a node is moving upon rotation \(a left child rotating into its parent's location is a right rotation\)}@} while {@{others say that the direction of rotation reflects which subtree is rotating \(a left subtree rotating into its parent's location is a left rotation, the opposite of the former\)}@}. This article takes {@{the approach of the directional movement of the rotating node (annotation: the former one)}@}. <!--SR:!2025-01-09,14,290!2025-01-26,25,270!2025-01-10,15,290!2025-02-16,42,290-->
+There exists {@{an inconsistency in different descriptions as to the definition of the __direction of rotations__}@}. Some say that {@{the direction of rotation reflects the direction that a node is moving upon rotation \(a left child rotating into its parent's location is a right rotation\)}@} while {@{others say that the direction of rotation reflects which subtree is rotating \(a left subtree rotating into its parent's location is a left rotation, the opposite of the former\)}@}. This article takes {@{the approach of the directional movement of the rotating node (annotation: the former one)}@}. <!--SR:!2025-03-04,54,310!2025-01-26,25,270!2025-01-10,15,290!2025-02-16,42,290-->
 
 ## illustration
 
@@ -29,7 +29,7 @@ There exists {@{an inconsistency in different descriptions as to the definition 
 >
 > {@{tree rotation animation}@} <!--SR:!2025-01-11,16,290!2025-01-11,16,290-->
 
-{@{The right rotation operation}@} as shown in the adjacent image is performed {@{with _Q_ as the root and hence is a right rotation on, or rooted at, _Q_}@}. This operation results in {@{a rotation of the tree in the clockwise direction}@}. {@{The inverse operation}@} is {@{the left rotation, which results in a movement in a counter-clockwise direction}@} \(the left rotation shown above is {@{rooted at _P_}@}\). The key to understanding how a rotation functions is {@{to understand its constraints}@}. In particular {@{the order of the leaves of the tree \(when read left to right for example\) cannot change}@} \(another way to think of it is that {@{the order that the leaves would be visited in an in-order traversal must be the same after the operation as before}@}\). Another constraint is {@{the main property of a binary search tree}@}, namely that {@{all nodes in the right subtree are greater than the parent and all nodes in the left subtree are less than the [parent](tree%20(abstract%20data%20type).md)}@}. Notice that {@{the [right child](binary%20tree.md#right%20child) of a left child of the root of a sub-tree}@} \(for example node B in the diagram for the tree rooted at Q\) can {@{become the left child of the root}@}, that itself {@{becomes the right child of the "new" root in the rotated sub-tree}@}, without {@{violating either of those constraints}@}. As seen in the diagram, {@{the order of the leaves doesn't change}@}. The opposite operation also {@{preserves the order and is the second kind of rotation}@}. <!--SR:!2025-01-10,15,290!2025-01-10,15,290!2025-01-09,14,290!2025-01-11,16,290!2025-01-09,14,290!2025-01-11,16,290!2025-01-09,14,290!2025-02-04,32,270!2025-01-10,15,290!2025-01-10,15,290!2025-01-10,15,290!2025-01-09,14,290!2025-01-10,15,290!2025-02-03,29,270!2025-01-09,14,290!2025-01-11,16,290!2025-02-22,47,290-->
+{@{The right rotation operation}@} as shown in the adjacent image is performed {@{with _Q_ as the root and hence is a right rotation on, or rooted at, _Q_}@}. This operation results in {@{a rotation of the tree in the clockwise direction}@}. {@{The inverse operation}@} is {@{the left rotation, which results in a movement in a counter-clockwise direction}@} \(the left rotation shown above is {@{rooted at _P_}@}\). The key to understanding how a rotation functions is {@{to understand its constraints}@}. In particular {@{the order of the leaves of the tree \(when read left to right for example\) cannot change}@} \(another way to think of it is that {@{the order that the leaves would be visited in an in-order traversal must be the same after the operation as before}@}\). Another constraint is {@{the main property of a binary search tree}@}, namely that {@{all nodes in the right subtree are greater than the parent and all nodes in the left subtree are less than the [parent](tree%20(abstract%20data%20type).md)}@}. Notice that {@{the [right child](binary%20tree.md#right%20child) of a left child of the root of a sub-tree}@} \(for example node B in the diagram for the tree rooted at Q\) can {@{become the left child of the root}@}, that itself {@{becomes the right child of the "new" root in the rotated sub-tree}@}, without {@{violating either of those constraints}@}. As seen in the diagram, {@{the order of the leaves doesn't change}@}. The opposite operation also {@{preserves the order and is the second kind of rotation}@}. <!--SR:!2025-01-10,15,290!2025-01-10,15,290!2025-03-05,55,310!2025-01-11,16,290!2025-03-05,55,310!2025-01-11,16,290!2025-03-05,55,310!2025-02-04,32,270!2025-01-10,15,290!2025-01-10,15,290!2025-01-10,15,290!2025-03-06,56,310!2025-01-10,15,290!2025-02-03,29,270!2025-03-04,54,310!2025-01-11,16,290!2025-02-22,47,290-->
 
 Assuming {@{this is a [binary search tree](binary%20search%20tree.md)}@}, as stated above, the elements must be {@{interpreted as variables that can be compared to each other}@}. {@{The alphabetic characters to the left}@} are {@{used as placeholders for these variables}@}. In the animation to the right, {@{capital alphabetic characters are used as variable placeholders}@} while {@{lowercase Greek letters are placeholders for an entire set of variables}@}. The circles {@{represent individual nodes and the triangles represent subtrees}@}. Each subtree could be {@{empty, consist of a single node, or consist of any number of nodes}@}. <!--SR:!2025-02-23,47,290!2025-01-29,27,270!2025-01-11,16,290!2025-01-10,15,290!2025-01-11,16,290!2025-01-10,15,290!2025-01-11,16,290!2025-02-22,47,290-->
 
@@ -41,7 +41,7 @@ Assuming {@{this is a [binary search tree](binary%20search%20tree.md)}@}, as sta
 
 When {@{a subtree is rotated}@}, {@{the subtree side upon which it is rotated increases its height by one node}@} while {@{the other subtree decreases its height}@}. This makes {@{tree rotations useful for rebalancing a tree}@}. <!--SR:!2025-01-10,15,290!2025-01-29,27,270!2025-01-11,16,290!2025-01-10,15,290-->
 
-Consider the terminology of {@{__Root__ for the parent node of the subtrees to rotate}@}, {@{__Pivot__ for the node which will become the new parent node}@}, {@{__RS__ for the side of rotation and __OS__ for the opposite side of rotation}@}. For the root Q in the diagram above, __RS__ is C and __OS__ is P. Using these terms, the pseudo code for the rotation is: <!--SR:!2025-01-10,15,290!2025-01-09,14,290!2025-01-09,14,290-->
+Consider the terminology of {@{__Root__ for the parent node of the subtrees to rotate}@}, {@{__Pivot__ for the node which will become the new parent node}@}, {@{__RS__ for the side of rotation and __OS__ for the opposite side of rotation}@}. For the root Q in the diagram above, __RS__ is C and __OS__ is P. Using these terms, the pseudo code for the rotation is: <!--SR:!2025-01-10,15,290!2025-03-06,56,310!2025-03-07,57,310-->
 
 ```pseudocode
 let Pivot = Root.OS
@@ -57,9 +57,9 @@ Root = Pivot
 > {@{Root.OS = Pivot.RS}@}
 > {@{Pivot.RS = Root}@}
 > {@{Root = Pivot}@}
-> </pre> <!--SR:!2025-01-09,14,290!2025-01-09,14,290!2025-02-05,33,270!2025-02-12,39,290-->
+> </pre> <!--SR:!2025-03-04,54,310!2025-03-08,58,310!2025-02-05,33,270!2025-02-12,39,290-->
 
-This is a {@{constant time}@} operation. <!--SR:!2025-01-09,14,290-->
+This is a {@{constant time}@} operation. <!--SR:!2025-03-05,55,310-->
 
 The programmer must {@{also make sure that the root's parent points to the pivot after the rotation}@}. Also, the programmer should note that {@{this operation may result in a new root for the entire tree and take care to update pointers accordingly}@}. <!--SR:!2025-01-10,15,290!2025-01-10,15,290-->
 
@@ -89,7 +89,7 @@ def right_rotation(treenode):
 >     {@{<!-- <span class="n"> --><span style="">left</span><!-- <span class="p"> --><span style="">,</span> <!-- <span class="n"> --><span style="">Q</span><!-- <span class="p"> --><span style="">,</span> <!-- <span class="n"> --><span style="">C</span> <!-- <span class="o"> --><span style="color: #666666;">=</span> <!-- <span class="n"> --><span style="">treenode</span>}@}
 >     {@{<!-- <span class="n"> --><span style="">A</span><!-- <span class="p"> --><span style="">,</span> <!-- <span class="n"> --><span style="">P</span><!-- <span class="p"> --><span style="">,</span> <!-- <span class="n"> --><span style="">B</span> <!-- <span class="o"> --><span style="color: #666666;">=</span> <!-- <span class="n"> --><span style="">left</span>}@}
 >     {@{<!-- <span class="k"> --><span style="color: #008000; font-weight: bold;">return</span> <!-- <span class="p"> --><span style="">(</span><!-- <span class="n"> --><span style="">A</span><!-- <span class="p"> --><span style="">,</span> <!-- <span class="n"> --><span style="">P</span><!-- <span class="p"> --><span style="">,</span> <!-- <span class="p"> --><span style="">(</span><!-- <span class="n"> --><span style="">B</span><!-- <span class="p"> --><span style="">,</span> <!-- <span class="n"> --><span style="">Q</span><!-- <span class="p"> --><span style="">,</span> <!-- <span class="n"> --><span style="">C</span><!-- <span class="p"> --><span style="">))</span>}@}
-> </pre> <!--SR:!2025-01-09,14,290!2025-01-10,15,290!2025-01-10,15,290!2025-01-09,14,290!2025-01-11,16,290-->
+> </pre> <!--SR:!2025-03-04,54,310!2025-01-10,15,290!2025-01-10,15,290!2025-03-07,57,310!2025-01-11,16,290-->
 
 Another way of looking at it is:
 
@@ -114,7 +114,7 @@ Set Q's left child to be P.
 All other connections are left as-is.
 ```
 
-There are {@{also _double rotations_}@}, which are {@{combinations of left and right rotations}@}. {@{A _double left_ rotation at X}@} can be defined to be {@{a right rotation at the right child of X followed by a left rotation at X}@}; similarly, {@{a _double right_ rotation at X}@} can be defined to be {@{a left rotation at the left child of X followed by a right rotation at X}@}. <!--SR:!2025-01-09,14,290!2025-01-11,16,290!2025-01-09,14,290!2025-02-23,47,290!2025-02-23,47,290!2025-01-09,14,290-->
+There are {@{also _double rotations_}@}, which are {@{combinations of left and right rotations}@}. {@{A _double left_ rotation at X}@} can be defined to be {@{a right rotation at the right child of X followed by a left rotation at X}@}; similarly, {@{a _double right_ rotation at X}@} can be defined to be {@{a left rotation at the left child of X followed by a right rotation at X}@}. <!--SR:!2025-03-05,55,310!2025-01-11,16,290!2025-03-07,57,310!2025-02-23,47,290!2025-02-23,47,290!2025-03-07,57,310-->
 
 Tree rotations are {@{used in a number of tree [data structures](data%20structure.md)}@} such as {@{[AVL trees](AVL%20tree.md), [red–black trees](red–black%20tree.md), [WAVL trees](WAVL%20tree.md), [splay trees](splay%20tree.md), and [treaps](treap.md)}@}. They require {@{only constant time because they are _local_ transformations}@}: they {@{only operate on 5 nodes, and need not examine the rest of the tree}@}. <!--SR:!2025-02-10,37,290!2025-01-10,15,290!2025-02-23,47,290!2025-01-11,16,290-->
 
@@ -124,7 +124,7 @@ Tree rotations are {@{used in a number of tree [data structures](data%20structur
 >
 > {@{Pictorial description of how rotations cause rebalancing in an AVL tree.}@} <!--SR:!2025-01-10,15,290!2025-01-26,23,250-->
 
-A tree can be {@{rebalanced using rotations}@}. After {@{a rotation}@}, {@{the side of the rotation increases its height by 1 whilst the side opposite the rotation decreases its height similarly}@}. Therefore, {@{one can strategically apply rotations to nodes whose left child and right child differ in height by more than 1}@}. {@{Self-balancing binary search trees}@} {@{apply this operation automatically}@}. A type of tree which uses this rebalancing technique is {@{the [AVL tree](AVL%20tree.md)}@}. <!--SR:!2025-02-22,47,290!2025-01-11,16,290!2025-01-10,15,290!2025-01-11,16,290!2025-01-09,14,290!2025-01-11,16,290!2025-01-11,16,290-->
+A tree can be {@{rebalanced using rotations}@}. After {@{a rotation}@}, {@{the side of the rotation increases its height by 1 whilst the side opposite the rotation decreases its height similarly}@}. Therefore, {@{one can strategically apply rotations to nodes whose left child and right child differ in height by more than 1}@}. {@{Self-balancing binary search trees}@} {@{apply this operation automatically}@}. A type of tree which uses this rebalancing technique is {@{the [AVL tree](AVL%20tree.md)}@}. <!--SR:!2025-02-22,47,290!2025-01-11,16,290!2025-01-10,15,290!2025-01-11,16,290!2025-03-08,58,310!2025-01-11,16,290!2025-01-11,16,290-->
 
 ## rotation distance
 
@@ -134,18 +134,18 @@ A tree can be {@{rebalanced using rotations}@}. After {@{a rotation}@}, {@{the s
 >
 > _Can {@{the rotation distance between two binary trees be computed in polynomial time}@}?_
 >
-> [\(more unsolved problems in computer science\)](list%20of%20unsolved%20problems%20in%20computer%20science.md) <!--SR:!2025-01-09,14,290-->
+> [\(more unsolved problems in computer science\)](list%20of%20unsolved%20problems%20in%20computer%20science.md) <!--SR:!2025-03-08,58,310-->
 
 {@{The [rotation distance](rotation%20distance.md) between any two binary trees with the same number of nodes}@} is {@{the minimum number of rotations needed to transform one into the other}@}. With this distance, {@{the set of _n_-node binary trees becomes a [metric space](metric%20space.md)}@}: {@{the distance is symmetric, positive when given two different trees, and satisfies the [triangle inequality](triangle%20inequality.md)}@}. <!--SR:!2025-02-15,41,290!2025-02-23,47,290!2025-01-11,16,290!2025-01-10,15,290-->
 
-It is {@{an [open problem](open%20problem.md)}@} {@{whether there exists a [polynomial time](time%20complexity.md#polynomial%20time) [algorithm](algorithm.md) for calculating rotation distance}@}, though {@{several variants of the rotation distance problem admit polynomial time algorithms}@}.<sup>[\[1\]](#^ref-1)</sup><sup>[\[2\]](#^ref-2)</sup><sup>[\[3\]](#^ref-3)</sup> <!--SR:!2025-01-09,14,290!2025-02-22,47,290!2025-01-18,17,250-->
+It is {@{an [open problem](open%20problem.md)}@} {@{whether there exists a [polynomial time](time%20complexity.md#polynomial%20time) [algorithm](algorithm.md) for calculating rotation distance}@}, though {@{several variants of the rotation distance problem admit polynomial time algorithms}@}.<sup>[\[1\]](#^ref-1)</sup><sup>[\[2\]](#^ref-2)</sup><sup>[\[3\]](#^ref-3)</sup> <!--SR:!2025-03-04,54,310!2025-02-22,47,290!2025-01-18,17,250-->
 
 {@{[Daniel Sleator](Daniel%20Sleator.md), [Robert Tarjan](Robert%20Tarjan.md) and [William Thurston](William%20Thurston.md)}@} showed that {@{the rotation distance between any two _n_-node trees \(for _n_ ≥ 11\) is at most 2<!-- markdown separator -->_n_<!-- markdown separator --> − 6}@}, and that {@{some pairs of trees are this far apart as soon as _n_ is sufficiently large}@}.<sup>[\[4\]](#^ref-4)</sup> {@{Lionel Pournin}@} showed that, {@{in fact, such pairs exist whenever _n_ ≥ 11}@}.<sup>[\[5\]](#^ref-5)</sup> <!--SR:!2025-01-29,27,270!2025-02-08,32,270!2025-02-11,38,290!2025-02-08,33,270!2025-02-09,33,270-->
 
 ## see also
 
-- [AVL tree](AVL%20tree.md), [red–black tree](red–black%20tree.md), and [splay tree](splay%20tree.md), ::@:: kinds of [binary search tree](binary%20search%20tree.md) data structures that use rotations to maintain balance. <!--SR:!2025-01-11,16,290!2025-01-09,14,290-->
-- [Associativity](associative%20property.md) of a binary operation ::@:: means that performing a tree rotation on it does not change the final result. <!--SR:!2025-01-09,14,290!2025-01-11,16,290-->
+- [AVL tree](AVL%20tree.md), [red–black tree](red–black%20tree.md), and [splay tree](splay%20tree.md), ::@:: kinds of [binary search tree](binary%20search%20tree.md) data structures that use rotations to maintain balance. <!--SR:!2025-01-11,16,290!2025-03-06,56,310-->
+- [Associativity](associative%20property.md) of a binary operation ::@:: means that performing a tree rotation on it does not change the final result. <!--SR:!2025-03-07,57,310!2025-01-11,16,290-->
 - The [Day–Stout–Warren algorithm](Day–Stout–Warren%20algorithm.md) ::@:: balances an unbalanced BST. <!--SR:!2025-02-23,47,290!2025-01-26,25,270-->
 - [Tamari lattice](Tamari%20lattice.md), ::@:: a partially ordered set in which the elements can be defined as binary trees and the ordering between elements is defined by tree rotation. <!--SR:!2025-02-14,40,290!2025-01-10,15,290-->
 
