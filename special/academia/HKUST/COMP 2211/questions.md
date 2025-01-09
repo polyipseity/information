@@ -237,7 +237,7 @@ tags:
 > print(a + b)
 > ```
 >
-> - solution: {@{(newlines omitted) `[[3 5 6 8] [3 6 9 12]])`}@}
+> - solution: {@{(newlines omitted) `[[3 5 6 8] [3 6 9 12]]`}@}
 
 <!-- markdownlint MD028 -->
 
@@ -302,7 +302,7 @@ tags:
 > print(a + b)
 > ```
 >
-> - solution: {@{(newlines omitted) `[[24 24 23 23] [12 13 14 15]])`}@}
+> - solution: {@{(newlines omitted) `[[24 24 23 23] [12 13 14 15]]`}@}
 
 <!-- markdownlint MD028 -->
 
