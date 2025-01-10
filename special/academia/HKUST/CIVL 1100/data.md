@@ -155,7 +155,7 @@ See [Great Wall of China](../../../../general/Great%20Wall%20of%20China.md).
 See [HSBC Building (Hong Kong)](HSBC%20Building%20(Hong%20Kong).md).
 
 - description ::@:: headquarters building of [The Hongkong and Shanghai Banking Corporation](HSBC%20(Hong%20Kong).md) <!--SR:!2025-01-15,197,354!2025-03-05,256,330-->
-- height ::@:: roof: 178.8 m <!--SR:!2025-01-10,70,221!2025-05-07,325,350-->
+- height ::@:: roof: 178.8 m <!--SR:!2025-06-13,154,221!2025-05-07,325,350-->
 - image ::@:: ![HSBC Main Building image](../../../../archives/Wikimedia%20Commons/HK%20HSBC%20Main%20Building%202008%20(cropped).jpg) <!--SR:!2025-06-05,312,380!2026-02-04,519,400-->
 - [structural system](../../../../general/structural%20system.md) ::@:: steel [suspended structure](../../../../general/suspended%20structure.md)<!-- flashcard b5c46b64-11cf-4605-a97e-3a159f12185f --> <!--SR:!2026-06-14,601,341!2025-10-22,432,401-->
 

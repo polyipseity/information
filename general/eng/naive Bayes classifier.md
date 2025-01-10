@@ -29,7 +29,7 @@ The joint probability model can {@{be rewritten as follows, using the [chain rul
 
 After rewriting the joint probability model, {@{the "naive" assumptions come into play: Assume that all features of $\mathbf{x}$ are [mutually independent](independence%20(probability%20theory).md), conditional on the class $C_k$}@}, written mathematically as: {@{$$p(x_i \mid x_{i + 1}, \ldots, x_n, C_k) = p(x_i \mid C_k)$$}@}. <!--SR:!2026-04-17,468,310!2025-01-11,152,310-->
 
-With the assumption, the joint probability model can {@{be simplified}@}: {@{$$\begin{aligned} p(C_k \mid \mathbf{x}) & \propto p(C_k, x_1, \ldots, x_n) && (p(\mathbf{x}) = \text{const.}) \\ & = p(C_k) p(x_1 \mid C_k) p(x_2 \mid C_k) \cdots p(x_n \mid C_k) \\ & = p(C_k) \prod_{i = 1}^n p(x_i \mid C_k) \end{aligned}$$}@}. <!--SR:!2025-01-10,155,310!2025-05-21,223,270-->
+With the assumption, the joint probability model can {@{be simplified}@}: {@{$$\begin{aligned} p(C_k \mid \mathbf{x}) & \propto p(C_k, x_1, \ldots, x_n) && (p(\mathbf{x}) = \text{const.}) \\ & = p(C_k) p(x_1 \mid C_k) p(x_2 \mid C_k) \cdots p(x_n \mid C_k) \\ & = p(C_k) \prod_{i = 1}^n p(x_i \mid C_k) \end{aligned}$$}@}. <!--SR:!2026-11-06,665,330!2025-05-21,223,270-->
 
 To conclude, {@{with the above assumptions}@}, {@{the conditional probability of class $C_k$ given features $\mathbf{x}$}@} is: {@{$$p(C_k \mid \mathbf{x}) = \frac 1 Z p(C_k) \prod_{i = 1}^n p(x_i \mid C_k)$$}@}, where {@{$Z = p(\mathbf{x}) = \sum_k p(C_k) p(\mathbf{x} \mid C_k)$ is a scaling factor dependent on $\mathbf{x}$ only}@}. <!--SR:!2025-03-28,201,310!2026-05-29,532,310!2025-11-16,343,290!2025-04-28,207,270-->
 

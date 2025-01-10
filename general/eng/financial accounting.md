@@ -36,7 +36,7 @@ __Fundamental Qualitative Characteristics__ ::@:: relevance, faithful representa
 __Enhancing Qualitative Characteristics__ ::@:: verifiability, comparability, understandability, timeliness <!--SR:!2025-01-20,95,290!2025-07-16,237,330-->
 
 - __Verifiability__ ::@:: Verifiability implies consensus between the different knowledgeable and independent users of financial information. Such information must be supported by sufficient evidence to follow the principle of objectivity. <!--SR:!2025-03-05,127,290!2025-01-26,90,270-->
-- __Comparability__ ::@:: Comparability is the uniform application of accounting methods across entities in the same industry. The principle of consistency is under comparability. Consistency is the uniform application of accounting across points in time within an entity. <!--SR:!2025-01-10,85,290!2025-03-15,135,290-->
+- __Comparability__ ::@:: Comparability is the uniform application of accounting methods across entities in the same industry. The principle of consistency is under comparability. Consistency is the uniform application of accounting across points in time within an entity. <!--SR:!2025-09-17,250,290!2025-03-15,135,290-->
 - __Understandability__ ::@:: Understandability means that accounting reports should be expressed as clearly as possible and should be understood by those to whom the information is relevant. <!--SR:!2025-04-26,169,310!2025-03-19,130,290-->
 - __Timeliness__ ::@:: Timeliness implies that financial information must be presented to the users before a decision is to be made. <!--SR:!2025-10-02,298,330!2025-07-01,224,330-->
 

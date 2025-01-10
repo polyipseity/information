@@ -1356,7 +1356,7 @@ tags:
 > 4. justice
 > 5. explicability
 >
-> - solution: {@{1, 3, 1, 5, 4, 2, 1}@} <!--SR:!2025-01-10,17,250-->
+> - solution: {@{1, 3, 1, 5, 4, 2, 1}@} <!--SR:!2025-02-24,45,250-->
 
 <!-- markdownlint MD028 -->
 
