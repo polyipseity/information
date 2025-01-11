@@ -1,0 +1,1 @@
+amortization (accounting).md
