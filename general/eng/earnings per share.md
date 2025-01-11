@@ -133,7 +133,7 @@ This text incorporates [content](https://en.wikipedia.org/wiki/earnings_per_shar
 
 |                                                                                                                                                                                                                                                   |                                              |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:| -------------------------------------------- |
-| __[Authority control databases](https://en.wikipedia.org/wiki/Help:Authority%20control): National [![edit](../../archives/Wikimedia%20Commons/OOjs%20UI%20icon%20edit-ltr-progressive.svg)](https://www.wikidata.org/wiki/Q1134378#identifiers)__ | - [Germany](https://d-nb.info/gnd/4402984-6) |
+| __[Authority control databases](https://en.wikipedia.org/wiki/Help:Authority%20control): National [![Edit this at Wikidata](../../archives/Wikimedia%20Commons/OOjs%20UI%20icon%20edit-ltr-progressive.svg)](https://www.wikidata.org/wiki/Q1134378#identifiers)__ | - [Germany](https://d-nb.info/gnd/4402984-6) |
 
 > [Categories](https://en.wikipedia.org/wiki/Help:Category):
 >
