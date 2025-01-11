@@ -126,19 +126,21 @@ The class of {@{all [graphs](graph%20theory.md)}@} forms {@{another concrete cat
 | __[Top](category%20of%20topological%20spaces.md)__                   | [topological spaces](topological%20space.md)                                      | [continuous functions](continuous%20function.md#continuous%20functions%20between%20topological%20spaces) |
 | [__Man__<sup>_p_</sup>](category%20of%20manifolds.md)                | [smooth manifolds](differentiable%20manifold.md#definition)                       | _p_-times [continuously differentiable](differentiable%20function.md#continuously%20differentiable) maps |
 
-- __Set__ ::@:: objects: sets <br/> morphisms: functions
-- __Ord__ ::@:: objects: preordered sets <br/> morphisms: monotone-increasing functions
-- __Mon__ ::@:: objects: monoids <br/> morphisms: monoid homomorphisms
-- __Grp__ ::@:: objects: groups <br/> morphisms: group homomorphisms
-- __Grph__ ::@:: objects: graphs <br/> morphisms: graph homomorphisms
-- __Ring__ ::@:: objects: rings <br/> morphisms: ring homomorphisms
-- __Field__ ::@:: objects: fields <br/> morphisms: field homomorphisms
-- ___R_-Mod__ ::@:: objects: _R_-modules, where _R_ is a ring <br/> morphisms: _R_-module homomorphisms
-- __Vect__<sub>_K_</sub> ::@:: objects: vector spaces over the field _K_ <br/> morphisms: _K_-linear maps
-- __Met__ ::@:: objects: metric spaces <br/> morphisms: short maps
-- __Meas__ ::@:: objects: measure spaces <br/> morphisms: measurable functions
-- __Top__ ::@:: objects: topological spaces <br/> morphisms: continuous functions
-- __Man__<sup>_p_</sup> ::@:: objects: smooth manifolds <br/> morphisms: _p_-times continuously differentiable maps
+> __flashcards__
+>
+> - __Set__ ::@:: objects: sets <br/> morphisms: functions
+> - __Ord__ ::@:: objects: preordered sets <br/> morphisms: monotone-increasing functions
+> - __Mon__ ::@:: objects: monoids <br/> morphisms: monoid homomorphisms
+> - __Grp__ ::@:: objects: groups <br/> morphisms: group homomorphisms
+> - __Grph__ ::@:: objects: graphs <br/> morphisms: graph homomorphisms
+> - __Ring__ ::@:: objects: rings <br/> morphisms: ring homomorphisms
+> - __Field__ ::@:: objects: fields <br/> morphisms: field homomorphisms
+> - ___R_-Mod__ ::@:: objects: _R_-modules, where _R_ is a ring <br/> morphisms: _R_-module homomorphisms
+> - __Vect__<sub>_K_</sub> ::@:: objects: vector spaces over the field _K_ <br/> morphisms: _K_-linear maps
+> - __Met__ ::@:: objects: metric spaces <br/> morphisms: short maps
+> - __Meas__ ::@:: objects: measure spaces <br/> morphisms: measurable functions
+> - __Top__ ::@:: objects: topological spaces <br/> morphisms: continuous functions
+> - __Man__<sup>_p_</sup> ::@:: objects: smooth manifolds <br/> morphisms: _p_-times continuously differentiable maps
 
 {@{[Fiber bundles](fiber%20bundle.md) with [bundle maps](bundle%20map.md) between them}@} form {@{a concrete category}@}.
 

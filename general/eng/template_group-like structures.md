@@ -37,27 +37,31 @@ tags:
 > | __[Group](group%20(mathematics).md)__                       | <div style="background: #9EFF9E; color: black; vertical-align: middle; text-align: center;">Required</div> | <div style="background: #9EFF9E; color: black; vertical-align: middle; text-align: center;">Required</div> | <div style="background: #9EFF9E; color: black; vertical-align: middle; text-align: center;">Required</div> | <div style="background: #9EFF9E; color: black; vertical-align: middle; text-align: center;">Required</div> | <div style="background: #FFC7C7; color: black; vertical-align: middle; text-align: center;">Unneeded</div> |
 > | __[Abelian group](abelian%20group.md)__                     | <div style="background: #9EFF9E; color: black; vertical-align: middle; text-align: center;">Required</div> | <div style="background: #9EFF9E; color: black; vertical-align: middle; text-align: center;">Required</div> | <div style="background: #9EFF9E; color: black; vertical-align: middle; text-align: center;">Required</div> | <div style="background: #9EFF9E; color: black; vertical-align: middle; text-align: center;">Required</div> | <div style="background: #9EFF9E; color: black; vertical-align: middle; text-align: center;">Required</div> |
 
-- properties ::@:: 5: total, associative, identity, divisible, commutative
-- partial magma ::@:: (none)
-- semigroupoid ::@:: associative
-- small category ::@:: associative, identity
-- groupoid ::@:: associative, identity, divisible
-- commutative groupoid ::@:: associative, identity, divisible, commutative
-- magma ::@:: total
-- commutative magma ::@:: total, commutative
-- quasigroup ::@:: total, divisible
-- commutative quasigroup ::@:: total, divisible, commutative
-- unital magma ::@:: total, identity
-- commutative unital magma ::@:: total, identity, commutative
-- loop ::@:: total, identity, divisible
-- semigroup ::@:: total, associative
-- commutative semigroup ::@:: total, associative, commutative
-- associative quasigroup ::@:: total, associative, divisible
-- commutative-and-associative quasigroup ::@:: total, associative, divisible, commutative
-- monoid ::@:: total, associative, identity
-- commutative monoid ::@:: total, associative, identity, commutative
-- group ::@:: total, associative, identity, divisible
-- abelian group ::@:: total, associative, identity, divisible, commutative
+<!-- markdownlint MD028 -->
+
+> __flashcards__
+>
+> - properties ::@:: 5: total, associative, identity, divisible, commutative
+> - partial magma ::@:: (none)
+> - semigroupoid ::@:: associative
+> - small category ::@:: associative, identity
+> - groupoid ::@:: associative, identity, divisible
+> - commutative groupoid ::@:: associative, identity, divisible, commutative
+> - magma ::@:: total
+> - commutative magma ::@:: total, commutative
+> - quasigroup ::@:: total, divisible
+> - commutative quasigroup ::@:: total, divisible, commutative
+> - unital magma ::@:: total, identity
+> - commutative unital magma ::@:: total, identity, commutative
+> - loop ::@:: total, identity, divisible
+> - semigroup ::@:: total, associative
+> - commutative semigroup ::@:: total, associative, commutative
+> - associative quasigroup ::@:: total, associative, divisible
+> - commutative-and-associative quasigroup ::@:: total, associative, divisible, commutative
+> - monoid ::@:: total, associative, identity
+> - commutative monoid ::@:: total, associative, identity, commutative
+> - group ::@:: total, associative, identity, divisible
+> - abelian group ::@:: total, associative, identity, divisible, commutative
 
 ## references
 

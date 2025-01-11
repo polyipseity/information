@@ -24,10 +24,12 @@ Most adjusting entries could be classified this way: {@{prepaid expenses, accrue
 | Expenses | Prepaid expenses: for expenses paid in cash and recorded as assets before they are used             | Accrued expenses: for expenses incurred but not yet paid in cash and not yet recorded   |
 | Revenues | Unearned revenues: for revenues received in cash and recorded as liabilities before they are earned | Accrued revenues: for revenues earned but not yet recorded and not yet received in cash |
 
-- prepaid expenses ::@:: for expenses paid in cash and recorded as assets before they are used
-- accrued expenses ::@:: for expenses incurred but not yet paid in cash and not yet recorded
-- unearned revenues ::@:: for revenues received in cash and recorded as liabilities before they are earned
-- accrued revenues ::@:: for revenues earned but not yet recorded and not yet received in cash
+> __flashcards__
+>
+> - prepaid expenses ::@:: for expenses paid in cash and recorded as assets before they are used
+> - accrued expenses ::@:: for expenses incurred but not yet paid in cash and not yet recorded
+> - unearned revenues ::@:: for revenues received in cash and recorded as liabilities before they are earned
+> - accrued revenues ::@:: for revenues earned but not yet recorded and not yet received in cash
 
 ### prepayments
 

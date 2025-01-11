@@ -72,10 +72,12 @@ This table shows {@{some mathematical operations on $x_{n}$ in the time domain a
 | real part in frequency      | $${\frac {1}{2} }\left(x_{n}+x_{N-n}^{*}\right)$$  | $$\operatorname {Re} {\left(X_{k}\right)}$$        |
 | imaginary part in frequency | $${\frac {1}{2i} }\left(x_{n}-x_{N-n}^{*}\right)$$ | $$\operatorname {Im} {\left(X_{k}\right)}$$        |
 
-- real part in time ::@:: frequency: $$\frac 1 2 (X_k + X^*_{N - k})$$
-- imaginary part in time ::@:: frequency: $$\frac 1 {2i} (X_k - X^*_{N - k})$$
-- real part in frequency ::@:: time: $$\frac 1 2 (x_n + x^*_{N - n})$$
-- imaginary part in frequency ::@:: time: $$\frac 1 {2i} (x_n - x^*_{N - n})$$
+> __flashcards__
+>
+> - real part in time ::@:: frequency: $$\frac 1 2 (X_k + X^*_{N - k})$$
+> - imaginary part in time ::@:: frequency: $$\frac 1 {2i} (X_k - X^*_{N - k})$$
+> - real part in frequency ::@:: time: $$\frac 1 2 (x_n + x^*_{N - n})$$
+> - imaginary part in frequency ::@:: time: $$\frac 1 {2i} (x_n - x^*_{N - n})$$
 
 ### orthogonality
 
