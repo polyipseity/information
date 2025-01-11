@@ -1,11 +1,11 @@
 {
-  "baseFontSize": 16,
+  "baseFontSize": 18,
   "translucency": true,
   "theme": "system",
   "accentColor": "#d4bbff",
-  "interfaceFontFamily": "Calibri,Arial",
-  "textFontFamily": "Courier New,Courier,Arial",
-  "monospaceFontFamily": "Consolas,Arial",
+  "interfaceFontFamily": "Calibri,Liberation Sans,Arial",
+  "textFontFamily": "Cascadia Mono,Consolas,Liberation Sans,Arial",
+  "monospaceFontFamily": "Consolas,Liberation Mono,Arial",
   "enabledCssSnippets": [
     "increase audio min width",
     "white content image background"
