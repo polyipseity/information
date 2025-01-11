@@ -277,7 +277,7 @@ workmanship
 
 <!--pytextgen generate section="1e12"--><!-- The following content is generated at 2024-05-01T19:22:34.848790+08:00. Any edits will be overridden! -->
 
-- _(begin)_→::@::←budgeting <!--SR:!2025-01-11,187,341!2026-03-04,543,400-->
+- _(begin)_→::@::←budgeting <!--SR:!2027-06-08,878,361!2026-03-04,543,400-->
 - budgeting→::@::←construction management <!--SR:!2025-01-31,151,320!2025-11-24,451,355-->
 - construction management→::@::←economics <!--SR:!2025-09-15,333,255!2025-04-19,240,300-->
 - economics→::@::←impacts to surrounding <!--SR:!2025-03-15,215,300!2025-04-26,191,260-->
@@ -953,7 +953,7 @@ wave
 - earthquake→::@::←fire <!--SR:!2025-10-26,391,335!2025-04-04,255,360-->
 - fire→::@::←flood <!--SR:!2026-10-18,692,344!2025-06-11,279,266-->
 - flood→::@::←strong wind <!--SR:!2025-09-09,280,300!2026-02-20,467,317-->
-- strong wind→::@::←wave <!--SR:!2025-01-11,218,290!2025-08-18,314,294-->
+- strong wind→::@::←wave <!--SR:!2027-06-09,879,310!2025-08-18,314,294-->
 - wave→::@::←_(end)_ <!--SR:!2027-09-06,976,377!2025-02-17,210,315-->
 
 <!--/pytextgen-->

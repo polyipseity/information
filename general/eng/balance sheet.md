@@ -52,7 +52,7 @@ A small business balance sheet lists {@{current assets such as cash, [accounts r
 
 ### charities
 
-In {@{[England and Wales](England%20and%20Wales.md)}@}, {@{smaller [charities](charitable%20organization.md) which are not also companies}@} are {@{permitted to file a statement of [assets](asset.md) and liabilities instead of a balance sheet}@}. This statement {@{lists the charity's main assets and liabilities as at the end of its financial year}@}.<sup>[\[13\]](#^ref-13)</sup> <!--SR:!2025-06-02,189,310!2025-08-15,253,330!2025-01-11,76,270!2025-08-16,254,330-->
+In {@{[England and Wales](England%20and%20Wales.md)}@}, {@{smaller [charities](charitable%20organization.md) which are not also companies}@} are {@{permitted to file a statement of [assets](asset.md) and liabilities instead of a balance sheet}@}. This statement {@{lists the charity's main assets and liabilities as at the end of its financial year}@}.<sup>[\[13\]](#^ref-13)</sup> <!--SR:!2025-06-02,189,310!2025-08-15,253,330!2025-08-10,210,270!2025-08-16,254,330-->
 
 ## public business entities structure
 

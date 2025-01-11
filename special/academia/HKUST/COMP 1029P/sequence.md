@@ -21,7 +21,7 @@ To define a list in Python, {@{enclose all items in square brackets `[]` and sep
 
 ## length
 
-{@{The length of a sequence}@} can be determined by {@{`len(sequence)`}@}. <!--SR:!2025-01-11,263,330!2026-04-10,462,386-->
+{@{The length of a sequence}@} can be determined by {@{`len(sequence)`}@}. <!--SR:!2028-04-22,1197,350!2026-04-10,462,386-->
 
 ## indexing
 

@@ -97,7 +97,7 @@ Notice that both iterations involve {@{left multiplying the hub vector by $\math
 
 ### normalization
 
-The authority or hub vector can be normalized by {@{dividing the vector by its length ([norm](norm%20(mathematics).md))}@}. Afterwards, the length {@{of the vector will be 1}@}. <!--SR:!2025-02-02,164,314!2025-01-11,158,314-->
+The authority or hub vector can be normalized by {@{dividing the vector by its length ([norm](norm%20(mathematics).md))}@}. Afterwards, the length {@{of the vector will be 1}@}. <!--SR:!2025-02-02,164,314!2026-12-04,692,334-->
 
 The length is {@{usually defined as the [taxicab norm](norm%20(mathematics).md#taxicab%20norm%20or%20Manhattan%20norm) (_p_ = 1) or the conventional [Euclidean norm](norm%20(mathematics).md#Euclidean%20norm) (_p_ = 2)}@}. In the former, length is {@{the sum of absolute values of vector elements}@}. In the latter, length is {@{the square root of sum of squares of vector elements}@}. Both are {@{generalized by the [_p_-norm](norm%20(mathematics).md#_p_-norm)}@}: {@{$$\lVert \mathbf{x} \rVert_p := \left(\sum_{i = 1}^n \lvert x_i \rvert^p \right)^{\frac 1 p}$$}@}. <!--SR:!2025-07-09,301,334!2026-11-14,673,334!2025-06-01,271,334!2025-02-26,191,314!2025-03-24,214,314-->
 

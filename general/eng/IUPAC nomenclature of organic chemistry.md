@@ -631,9 +631,9 @@ return (
 - cation→::@::←carboxylic acid <!--SR:!2028-03-22,1421,275!2026-01-18,914,276-->
 - carboxylic acid→::@::←carboxylic acid derivative <!--SR:!2028-08-04,1590,306!2026-10-25,1301,346-->
 - carboxylic acid derivative→::@::←nitrile <!--SR:!2027-06-13,896,210!2025-06-24,292,247-->
-- nitrile→::@::←aldehyde <!--SR:!2025-01-11,3,130!2025-05-14,154,190-->
+- nitrile→::@::←aldehyde <!--SR:!2025-01-13,2,130!2025-05-14,154,190-->
 - aldehyde→::@::←ketone <!--SR:!2026-12-29,1065,252!2025-10-08,305,230-->
-- ketone→::@::←alcohol <!--SR:!2026-06-11,743,250!2025-01-11,52,150-->
+- ketone→::@::←alcohol <!--SR:!2026-06-11,743,250!2025-03-27,75,150-->
 - alcohol→::@::←hydroperoxide <!--SR:!2027-05-18,1057,226!2026-10-20,1068,272-->
 - hydroperoxide→::@::←amine <!--SR:!2025-04-21,219,224!2025-02-02,257,252-->
 - amine→::@::←_(lowest)_ <!--SR:!2025-04-28,532,236!2025-10-24,421,247-->
@@ -675,8 +675,8 @@ return await memorize_table(
 - _(begin)_→::@::←[acetic acid](acetic%20acid.md) <!--SR:!2029-10-15,1799,384!2031-10-07,2510,404-->
 - [acetic acid](acetic%20acid.md)→::@::←[acetone](acetone.md) <!--SR:!2026-06-28,862,364!2030-01-25,1877,384-->
 - [acetone](acetone.md)→::@::←[chloroform](chloroform.md) <!--SR:!2027-03-26,1038,344!2025-11-25,553,364-->
-- [chloroform](chloroform.md)→::@::←[formaldehyde](formaldehyde.md) <!--SR:!2026-03-22,482,344!2025-01-11,242,304-->
-- [formaldehyde](formaldehyde.md)→::@::←[isopropyl alcohol](isopropyl%20alochol.md) <!--SR:!2025-04-07,336,324!2025-01-11,177,344-->
+- [chloroform](chloroform.md)→::@::←[formaldehyde](formaldehyde.md) <!--SR:!2026-03-22,482,344!2027-01-14,733,304-->
+- [formaldehyde](formaldehyde.md)→::@::←[isopropyl alcohol](isopropyl%20alochol.md) <!--SR:!2025-04-07,336,324!2026-09-12,609,344-->
 - [isopropyl alcohol](isopropyl%20alochol.md)→::@::←_(end)_ <!--SR:!2029-01-30,1604,384!2026-08-30,707,304-->
 
 <!--/pytextgen-->

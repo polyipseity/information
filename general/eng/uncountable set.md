@@ -11,11 +11,11 @@ tags:
 
 - "Uncountable" redirects here. For {@{the linguistic concept}@}, see {@{[Uncountable noun](mass%20noun.md)}@}. <!--SR:!2025-02-23,47,290!2025-02-18,43,290-->
 
-In [mathematics](mathematics.md), an __uncountable set__, informally, is {@{an [infinite set](infinite%20set.md) that contains too many [elements](element%20(mathematics).md) to be [countable](countable%20set.md)}@}. {@{The uncountability of a set}@} is {@{closely related to its [cardinal number](cardinal%20number.md)}@}: a set is {@{uncountable if its cardinal number is larger than [aleph-null](aleph%20number.md), the cardinality of the [natural numbers](natural%20number.md)}@}. <!--SR:!2025-01-31,26,270!2025-03-04,54,310!2025-01-11,16,290!2025-02-08,33,270-->
+In [mathematics](mathematics.md), an __uncountable set__, informally, is {@{an [infinite set](infinite%20set.md) that contains too many [elements](element%20(mathematics).md) to be [countable](countable%20set.md)}@}. {@{The uncountability of a set}@} is {@{closely related to its [cardinal number](cardinal%20number.md)}@}: a set is {@{uncountable if its cardinal number is larger than [aleph-null](aleph%20number.md), the cardinality of the [natural numbers](natural%20number.md)}@}. <!--SR:!2025-01-31,26,270!2025-03-04,54,310!2025-03-19,67,310!2025-02-08,33,270-->
 
 ## characterizations
 
-There are {@{many equivalent characterizations of uncountability}@}. A set _X_ is {@{uncountable if and only if any of the following conditions hold}@}: <!--SR:!2025-02-13,39,290!2025-01-11,16,290-->
+There are {@{many equivalent characterizations of uncountability}@}. A set _X_ is {@{uncountable if and only if any of the following conditions hold}@}: <!--SR:!2025-02-13,39,290!2025-03-19,67,310-->
 
 - function ::@:: There is no [injective function](injective%20function.md) \(hence no [bijection](bijection.md)\) from _X_ to the set of natural numbers. <!--SR:!2025-02-16,41,290!2025-03-13,62,310-->
 - sequence, function ::@:: _X_ is nonempty and for every ω-[sequence](sequence.md) of elements of _X_, there exists at least one element of X not included in it. That is, _X_ is nonempty and there is no [surjective function](surjective%20function.md) from the natural numbers to _X_. <!--SR:!2025-01-30,26,270!2025-02-18,43,290-->
@@ -26,13 +26,13 @@ There are {@{many equivalent characterizations of uncountability}@}. A set _X_ i
 
 ## properties
 
-- If an uncountable set _X_ is a subset of set _Y_, ::@:: then _Y_ is uncountable. <!--SR:!2025-01-11,16,290!2025-03-05,55,310-->
+- If an uncountable set _X_ is a subset of set _Y_, ::@:: then _Y_ is uncountable. <!--SR:!2025-03-19,67,310!2025-03-05,55,310-->
 
 ## examples
 
-The best known example of an uncountable set is {@{the set ⁠$\mathbb {R}$⁠ of all [real numbers](real%20number.md)}@}; {@{[Cantor's diagonal argument](Cantor's%20diagonal%20argument.md)}@} shows that this set is uncountable. {@{The diagonalization proof technique}@} can also be {@{used to show that several other sets are uncountable}@}, such as {@{the set of all infinite [sequences](sequence.md) of [natural numbers](natural%20number.md) ⁠$\mathbb {N}$⁠, and the [set of all subsets](power%20set.md) of the set of natural numbers}@}. {@{The cardinality of ⁠$\mathbb {R}$}@}⁠ is often called {@{the [cardinality of the continuum](cardinality%20of%20the%20continuum.md)}@}, and denoted by {@{${\mathfrak {c} }$, or $2^{\aleph _{0} }$, or $\beth _{1}$ \([beth-one](cardinality%20of%20the%20continuum.md)\)}@}. <!--SR:!2025-02-23,47,290!2025-02-23,47,290!2025-02-18,43,290!2025-02-22,47,290!2025-01-22,20,250!2025-03-05,55,310!2025-01-11,16,290!2025-01-27,24,250-->
+The best known example of an uncountable set is {@{the set ⁠$\mathbb {R}$⁠ of all [real numbers](real%20number.md)}@}; {@{[Cantor's diagonal argument](Cantor's%20diagonal%20argument.md)}@} shows that this set is uncountable. {@{The diagonalization proof technique}@} can also be {@{used to show that several other sets are uncountable}@}, such as {@{the set of all infinite [sequences](sequence.md) of [natural numbers](natural%20number.md) ⁠$\mathbb {N}$⁠, and the [set of all subsets](power%20set.md) of the set of natural numbers}@}. {@{The cardinality of ⁠$\mathbb {R}$}@}⁠ is often called {@{the [cardinality of the continuum](cardinality%20of%20the%20continuum.md)}@}, and denoted by {@{${\mathfrak {c} }$, or $2^{\aleph _{0} }$, or $\beth _{1}$ \([beth-one](cardinality%20of%20the%20continuum.md)\)}@}. <!--SR:!2025-02-23,47,290!2025-02-23,47,290!2025-02-18,43,290!2025-02-22,47,290!2025-01-22,20,250!2025-03-05,55,310!2025-03-19,67,310!2025-01-27,24,250-->
 
-{@{The [Cantor set](Cantor%20set.md)}@} is {@{an uncountable [subset](subset.md) of ⁠$\mathbb {R}$⁠}@}. The Cantor set is {@{a [fractal](fractal.md)}@} and has {@{[Hausdorff dimension](hausdorff%20dimension.md) greater than zero but less than one \(⁠$\mathbb {R}$⁠ has dimension one\)}@}. This is {@{an example of the following fact}@}: {@{any subset of ⁠$\mathbb {R}$⁠ of Hausdorff dimension strictly greater than zero must be uncountable}@}. <!--SR:!2025-01-11,16,290!2025-03-07,57,310!2025-02-18,43,290!2025-02-13,39,290!2025-02-23,47,290!2025-02-03,31,270-->
+{@{The [Cantor set](Cantor%20set.md)}@} is {@{an uncountable [subset](subset.md) of ⁠$\mathbb {R}$⁠}@}. The Cantor set is {@{a [fractal](fractal.md)}@} and has {@{[Hausdorff dimension](hausdorff%20dimension.md) greater than zero but less than one \(⁠$\mathbb {R}$⁠ has dimension one\)}@}. This is {@{an example of the following fact}@}: {@{any subset of ⁠$\mathbb {R}$⁠ of Hausdorff dimension strictly greater than zero must be uncountable}@}. <!--SR:!2025-03-19,67,310!2025-03-07,57,310!2025-02-18,43,290!2025-02-13,39,290!2025-02-23,47,290!2025-02-03,31,270-->
 
 Another example of an uncountable set is {@{the set of all [functions](function%20(mathematics).md) from ⁠$\mathbb {R}$⁠ to ⁠$\mathbb {R}$}@}⁠. This set is {@{even "more uncountable" than ⁠$\mathbb {R}$⁠}@} in the sense that {@{the cardinality of this set is $\beth _{2}$ \([beth-two](beth%20number.md#beth%20two)\), which is larger than $\beth _{1}$}@}. <!--SR:!2025-02-13,39,290!2025-02-18,43,290!2025-02-15,41,290-->
 
@@ -44,9 +44,9 @@ A more abstract example of an uncountable set is {@{the set of all countable [or
 
 {@{Without the [axiom of choice](axiom%20of%20choice.md)}@}, there {@{might exist cardinalities [incomparable](comparability.md) to $\aleph _{0}$}@} \(namely, {@{the cardinalities of [Dedekind-finite](Dedekind-infinite%20set.md) infinite sets}@}\). Sets of these cardinalities satisfy {@{the first three characterizations above, but not the fourth characterization}@}. Since {@{these sets are not larger than the natural numbers in the sense of cardinality}@}, some may not want to {@{call them uncountable}@}. <!--SR:!2025-02-23,47,290!2025-03-09,58,310!2025-01-29,27,270!2025-01-26,23,250!2025-02-23,47,290!2025-03-14,63,310-->
 
-If {@{the axiom of choice holds}@}, the following conditions on {@{a cardinal $\kappa$ are equivalent (annotation: the conditions compare with $\aleph_0$ or $\aleph_1$)}@}: <!--SR:!2025-01-11,16,290!2025-02-23,47,290-->
+If {@{the axiom of choice holds}@}, the following conditions on {@{a cardinal $\kappa$ are equivalent (annotation: the conditions compare with $\aleph_0$ or $\aleph_1$)}@}: <!--SR:!2025-03-19,67,310!2025-02-23,47,290-->
 
-- not less than or equal to ::@:: $\kappa \nleq \aleph _{0};$ <!--SR:!2025-03-08,57,310!2025-01-11,16,290-->
+- not less than or equal to ::@:: $\kappa \nleq \aleph _{0};$ <!--SR:!2025-03-08,57,310!2025-03-19,67,310-->
 - greater than ::@:: $\kappa >\aleph _{0};$ and <!--SR:!2025-02-17,43,290!2025-03-08,58,310-->
 - greater than or equal to $\kappa \geq \aleph _{1}$, where $\aleph _{1}=|\omega _{1}|$ and $\omega _{1}$ is the least [initial ordinal](von%20Neumann%20cardinal%20assignment.md#initial%20ordinal%20of%20a%20cardinal) greater than $\omega .$
 

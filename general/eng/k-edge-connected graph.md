@@ -33,7 +33,7 @@ Let {@{$G=(V,E)$ be an arbitrary graph}@}. If {@{the [subgraph](glossary%20of%20
 
 Edge connectivity is {@{the dual concept to [girth](girth%20(graph%20theory).md), the length of the shortest cycle in a graph}@}, in the sense that {@{the girth of a [planar graph](planar%20graph.md) is the edge connectivity of its [dual graph](dual%20graph.md), and vice versa}@}. These concepts are {@{unified in [matroid theory](matroid.md)}@} by {@{the [girth of a matroid](matroid%20girth.md), the size of the smallest dependent set in the matroid}@}. For {@{a [graphic matroid](graphic%20matroid.md)}@}, {@{the matroid girth equals the girth of the underlying graph}@}, while {@{for a co-graphic matroid it equals the edge connectivity}@}.<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2025-01-23,16,290!2025-01-14,8,250!2025-01-18,11,270!2025-01-13,7,250!2025-01-23,16,290!2025-01-18,11,270!2025-01-14,5,250-->
 
-{@{The 2-edge-connected graphs}@} can also be characterized by {@{the absence of [bridges](bridge%20(graph%20theory).md)}@}, by {@{the existence of an [ear decomposition](ear%20decomposition.md)}@}, or by {@{[Robbins' theorem](Robbins'%20theorem.md) according to which these are exactly the graphs that have a [strong orientation](strong%20orientation.md)}@}.<sup>[\[3\]](#^ref-3)</sup> <!--SR:!2025-01-22,15,290!2025-01-23,16,290!2025-01-23,16,290!2025-01-11,5,230-->
+{@{The 2-edge-connected graphs}@} can also be characterized by {@{the absence of [bridges](bridge%20(graph%20theory).md)}@}, by {@{the existence of an [ear decomposition](ear%20decomposition.md)}@}, or by {@{[Robbins' theorem](Robbins'%20theorem.md) according to which these are exactly the graphs that have a [strong orientation](strong%20orientation.md)}@}.<sup>[\[3\]](#^ref-3)</sup> <!--SR:!2025-01-22,15,290!2025-01-23,16,290!2025-01-23,16,290!2025-01-22,11,230-->
 
 ## computational aspects
 
@@ -43,9 +43,9 @@ If {@{_n_ is the number of vertices in the graph}@}, this simple algorithm would
 
 An improved algorithm will {@{solve the maximum flow problem for every pair _\(u,v\)_ where _u_ is arbitrarily fixed while _v_ varies over all vertices}@}. This {@{reduces the complexity to $O(n^{4})$}@} and is {@{sound since, if a [cut](cut%20(graph%20theory).md) of capacity less than _k_ exists, it is bound to separate _u_ from some other vertex}@}. It can be further improved by {@{an algorithm of [Gabow](Harold%20N.%20Gabow.md)}@} that runs in {@{worst case $O(n^{3})$ time}@}. <sup>[\[4\]](#^ref-4)</sup> <!--SR:!2025-01-23,16,290!2025-01-22,15,290!2025-01-22,15,290!2025-01-18,11,270!2025-01-18,11,270-->
 
-{@{The Karger–Stein variant of [Karger's algorithm](Karger's%20algorithm.md)}@} provides {@{a faster [randomized algorithm](randomized%20algorithm.md) for determining the connectivity}@}, with {@{expected runtime $O(n^{2}\log ^{3}n)$}@}.<sup>[\[5\]](#^ref-5)</sup> <!--SR:!2025-01-11,5,230!2025-01-22,15,290!2025-01-11,5,230-->
+{@{The Karger–Stein variant of [Karger's algorithm](Karger's%20algorithm.md)}@} provides {@{a faster [randomized algorithm](randomized%20algorithm.md) for determining the connectivity}@}, with {@{expected runtime $O(n^{2}\log ^{3}n)$}@}.<sup>[\[5\]](#^ref-5)</sup> <!--SR:!2025-01-24,13,230!2025-01-22,15,290!2025-01-23,12,230-->
 
-A related problem: finding {@{the minimum _k_-edge-connected spanning subgraph of _G_ \(that is: select as few as possible edges in _G_ that your selection is _k_-edge-connected\)}@} is {@{NP-hard for $k\geq 2$}@}.<sup>[\[6\]](#^ref-6)</sup> <!--SR:!2025-01-11,5,230!2025-01-22,15,290-->
+A related problem: finding {@{the minimum _k_-edge-connected spanning subgraph of _G_ \(that is: select as few as possible edges in _G_ that your selection is _k_-edge-connected\)}@} is {@{NP-hard for $k\geq 2$}@}.<sup>[\[6\]](#^ref-6)</sup> <!--SR:!2025-01-23,12,230!2025-01-22,15,290-->
 
 ## see also
 

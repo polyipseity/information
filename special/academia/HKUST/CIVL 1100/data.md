@@ -45,7 +45,7 @@ See [Beijing National Stadium](../../../../general/Beijing%20National%20Stadium)
 See [Burj Al Arab](../../../../general/Burj%20Al%20Arab.md).
 
 - description ::@:: luxury hotel in Dubai, United Arab Emirates <!--SR:!2025-08-09,324,307!2026-03-07,555,397-->
-- height ::@:: architectural: 321 m, top floor: 197.5 m <!--SR:!2025-01-11,131,220!2025-07-14,334,365-->
+- height ::@:: architectural: 321 m, top floor: 197.5 m <!--SR:!2025-10-26,288,220!2025-07-14,334,365-->
 - image ::@:: ![Burj Al Arab image](../../../../archives/Wikimedia%20Commons/Burj%20Al%20Arab,%20Dubai,%20by%20Joi%20Ito%20Dec2007.jpg) <!--SR:!2025-10-24,408,380!2026-01-10,498,400-->
 - shape ::@:: sail of a ship <!--SR:!2025-04-03,254,357!2025-04-27,278,372-->
 

@@ -105,7 +105,7 @@ __Presheaves \(over a topological space\)__
 
 __Constant functor__ <p> ::@:: &emsp; The functor _C_ → _D_ which maps every object of _C_ to a fixed object _X_ in _D_ and every morphism in _C_ to the identity morphism on _X_. Such a functor is called a _constant_ or _selection_ functor. (annotation: note that functors are not required to be injective or surjective) <!--SR:!2025-01-27,17,317!2025-01-27,17,306-->
 
-__Endofunctor__ <p> ::@:: &emsp; A functor that maps a category to that same category; e.g., [polynomial functor](polynomial%20functor.md). <!--SR:!2025-01-11,1,250!2025-01-19,10,270-->
+__Endofunctor__ <p> ::@:: &emsp; A functor that maps a category to that same category; e.g., [polynomial functor](polynomial%20functor.md). <!--SR:!2025-01-15,4,270!2025-01-19,10,270-->
 
 __Identity functor__ <p> ::@:: &emsp; In category _C_, written 1<sub>_C_</sub> or id<sub>_C_</sub>, maps an object to itself and a morphism to itself. The identity functor is an endofunctor. <!--SR:!2025-01-26,16,290!2025-01-27,17,317-->
 
@@ -144,7 +144,7 @@ __Tangent and cotangent bundles__
 
 &emsp; The map which {@{sends every [differentiable manifold](differentiable%20manifold.md) to its [tangent bundle](tangent%20bundle.md) and every [smooth map](smooth%20map.md) to its [derivative](derivative.md)}@} is {@{a covariant functor from the category of differentiable manifolds to the category of [vector bundles](vector%20bundle.md)}@}. <!--SR:!2025-01-18,9,266!2025-01-18,9,266-->
 
-&emsp; {@{Doing this constructions pointwise}@} gives {@{the [tangent space](tangent%20space.md)}@}, {@{a covariant functor from the category of pointed differentiable manifolds to the category of real vector spaces}@}. Likewise, {@{[cotangent space](cotangent%20space.md)}@} is {@{a contravariant functor, essentially the composition of the tangent space with the [dual space](#dual%20vector%20space) above}@}. <!--SR:!2025-01-20,11,297!2025-01-20,11,297!2025-01-11,2,230!2025-01-19,10,286!2025-01-26,16,290-->
+&emsp; {@{Doing this constructions pointwise}@} gives {@{the [tangent space](tangent%20space.md)}@}, {@{a covariant functor from the category of pointed differentiable manifolds to the category of real vector spaces}@}. Likewise, {@{[cotangent space](cotangent%20space.md)}@} is {@{a contravariant functor, essentially the composition of the tangent space with the [dual space](#dual%20vector%20space) above}@}. <!--SR:!2025-01-20,11,297!2025-01-20,11,297!2025-01-16,5,230!2025-01-19,10,286!2025-01-26,16,290-->
 
 <!-- markdownlint-disable-next-line MD036 -->
 __Group actions/representations__

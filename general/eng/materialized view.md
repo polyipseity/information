@@ -37,7 +37,7 @@ The cost of answering a query depends on {@{the view (materialized or not) to be
 
 ### greedy algorithm
 
-We assume that {@{each view is equally likely to be queried}@}. We also assume the top view $\top$ {@{is materialized}@}, and the bottom view $\bot$ {@{is ignored and assumed does not exist}@}. <!--SR:!2025-01-11,156,310!2026-09-16,628,330!2026-08-16,605,330-->
+We assume that {@{each view is equally likely to be queried}@}. We also assume the top view $\top$ {@{is materialized}@}, and the bottom view $\bot$ {@{is ignored and assumed does not exist}@}. <!--SR:!2026-11-11,669,330!2026-09-16,628,330!2026-08-16,605,330-->
 
 Let $S$ be {@{the set of materialized views}@}. Define the total cost function {@{accepting a set of materialized views $C(S)$ as the total cost of accessing each possible views once, taking the materialized views into consideration}@}. Next, define the gain {@{$G(A, B)$ accepting 2 sets of materialized views, as $G(A, B) = C(B) - C(A)$, i.e. the total cost reduction of materializing $A$ over materializing $B$}@}. Finally, define the benefit {@{$B(v, S) = G(S \cup \set{v}, S)$, i.e. the total cost reduction of _additionally_ materializing $v$ over only materializing $S$}@}. <!--SR:!2025-07-25,312,330!2025-01-24,136,250!2025-04-22,224,290!2026-01-24,432,310-->
 

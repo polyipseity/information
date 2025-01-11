@@ -27,7 +27,7 @@ PCA can be thought of {@{fitting an (hyper)[ellipsoid](ellipsoid.md) (a (hyper)[
 
 ## computing PCA using the covariance method
 
-The following is a detailed description of PCA using {@{the covariance method as opposed to the correlation method}@}. <!--SR:!2025-01-11,152,310-->
+The following is a detailed description of PCA using {@{the covariance method as opposed to the correlation method}@}. <!--SR:!2026-05-01,475,310-->
 
 The goal is to {@{transform a given data set __X__ of dimension _p_ to another data set __Y__ of dimension _l_, where $p \ge l$}@}. Equivalently, matrix __Y__ is {@{the [Karhunen–Loève transform](Kosambi–Karhunen–Loève%20theorem.md) (KLT) of matrix __X__}@}: {@{$$\mathbf{Y} = \mathbb{KLT}\{\mathbf{X}\}$$}@} <!--SR:!2026-06-01,524,310!2025-06-29,293,330!2025-05-29,267,330-->
 

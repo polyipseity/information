@@ -97,7 +97,7 @@ Remember that we have assumed $x(0) = 0$ above, but {@{this condition can be rem
 
 This explanation can be generalized to {@{higher order inhomogeneous differential equations}@}. Consider {@{a $n$-th order inhomogeneous linear differential equation: $$Dx(t) = F(t)$$, where $D$ is a $n$-th order linear [differential operator](differential%20operator.md)}@}. Then, {@{convert the equation into a homogeneous [initial value problem](initial%20value%20problem.md): $$Dx(t) = 0, \quad x(t_0) = x'(t_0) = \cdots = x^{(n - 2)}(t_0) = 0, x^{(n - 1)}(t_0) = F(t_0) \,\mathrm{d}t_0$$. Find its solution, remove $\mathrm{d}t_0$ (this is not done in the first example), and denote said expression $x_{t_0}(t)$}@}. Finally, calculate {@{a particular solution of the inhomogeneous equation as follows: $$x(t) = \int_{c}^t\! x_{t_0}(t) \,\mathrm{d}t_0$$, where $c$ is an arbitrary [constant](constant%20(mathematics).md). You can set $c$ to something convenient for finding the arbitrary constants in the general solution from initial values}@}. {@{Add the complementary solution}@} to get the general solution. <!--SR:!2028-08-05,1307,350!2026-04-28,582,310!2026-05-06,588,310!2027-06-22,909,330!2026-10-22,737,330-->
 
-The relation between this explanation and variation of parameters is that {@{setting $n - 1$ [initial values](initial%20value%20problem.md) to 0 corresponds to the $n - 1$ assumptions made by variation of parameters}@}. <!--SR:!2025-01-11,292,330-->
+The relation between this explanation and variation of parameters is that {@{setting $n - 1$ [initial values](initial%20value%20problem.md) to 0 corresponds to the $n - 1$ assumptions made by variation of parameters}@}. <!--SR:!2027-09-01,963,330-->
 
 ## references
 
