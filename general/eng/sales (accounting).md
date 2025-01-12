@@ -17,23 +17,23 @@ tags:
 
 # sales
 
-In {@{[bookkeeping](bookkeeping.md), [accounting](accounting.md), and [financial accounting](financial%20accounting.md)}@}, {@{__net sales__}@} are {@{operating [revenues](revenue.md) earned by a company for selling its products or rendering its services}@}. Also referred to as {@{__revenue__}@}, they are reported directly on {@{the [income statement](income%20statement.md) as _Sales_ or _Net sales_}@}.
+In {@{[bookkeeping](bookkeeping.md), [accounting](accounting.md), and [financial accounting](financial%20accounting.md)}@}, {@{__net sales__}@} are {@{operating [revenues](revenue.md) earned by a company for selling its products or rendering its services}@}. Also referred to as {@{__revenue__}@}, they are reported directly on {@{the [income statement](income%20statement.md) as _Sales_ or _Net sales_}@}. <!--SR:!2025-01-16,4,270!2025-01-16,4,270!2025-01-16,4,270!2025-01-16,4,270!2025-01-16,4,270-->
 
-In {@{financial ratios that use income statement sales values}@}, "sales" refers to {@{net sales, not [gross sales](gross%20sales.md#gross%20sales%20and%20net%20sales)}@}. [Sales](sales.md) are {@{the unique transactions that occur in professional [selling](selling.md) or during [marketing](marketing.md) initiatives}@}.
+In {@{financial ratios that use income statement sales values}@}, "sales" refers to {@{net sales, not [gross sales](gross%20sales.md#gross%20sales%20and%20net%20sales)}@}. [Sales](sales.md) are {@{the unique transactions that occur in professional [selling](selling.md) or during [marketing](marketing.md) initiatives}@}. <!--SR:!2025-01-16,4,270!2025-01-16,4,270!2025-01-16,4,270-->
 
-Revenue is {@{earned when goods are delivered or services are rendered}@}.<sup>[\[1\]](#^ref-1)</sup> The term sales in {@{a [marketing](marketing.md), [advertising](advertising.md) or a general business context}@} often refers to {@{a fee in which a buyer has agreed to purchase some products at a set time in the future}@}. From {@{an accounting standpoint}@}, sales do not {@{occur until the product is delivered}@}. "{@{Outstanding orders}@}" refers to {@{sales orders that have not been filled}@}.
+Revenue is {@{earned when goods are delivered or services are rendered}@}.<sup>[\[1\]](#^ref-1)</sup> The term sales in {@{a [marketing](marketing.md), [advertising](advertising.md) or a general business context}@} often refers to {@{a fee in which a buyer has agreed to purchase some products at a set time in the future}@}. From {@{an accounting standpoint}@}, sales do not {@{occur until the product is delivered}@}. "{@{Outstanding orders}@}" refers to {@{sales orders that have not been filled}@}. <!--SR:!2025-01-16,4,270!2025-01-16,4,270!2025-01-16,4,270!2025-01-16,4,270!2025-01-16,4,270!2025-01-16,4,270!2025-01-16,4,270-->
 
 |   |                 |   |       |
 | - | --------------- | - | ----- |
 |   | Consulting fee. |   | 20000 |
 
-A sale is {@{a transfer of property for money or credit}@}.<sup>[\[2\]](#^ref-2)</sup> In {@{[double-entry bookkeeping](double-entry%20bookkeeping.md)}@}, {@{a sale of [merchandise](merchandise.md)}@} is recorded {@{in the [general journal](general%20journal.md) as a [debit](debits%20and%20credits.md) to cash or [accounts receivable](accounts%20receivable.md) and a [credit](debits%20and%20credits.md) to the sales account}@}.<sup>[\[3\]](#^ref-3)</sup> The amount recorded is {@{the actual monetary value of the transaction, not the [list price](list%20price.md) of the merchandise}@}. {@{A [discount](discounts%20and%20allowances.md) from list price}@} {@{might be noted if it applies to the sale}@}.
+A sale is {@{a transfer of property for money or credit}@}.<sup>[\[2\]](#^ref-2)</sup> In {@{[double-entry bookkeeping](double-entry%20bookkeeping.md)}@}, {@{a sale of [merchandise](merchandise.md)}@} is recorded {@{in the [general journal](general%20journal.md) as a [debit](debits%20and%20credits.md) to cash or [accounts receivable](accounts%20receivable.md) and a [credit](debits%20and%20credits.md) to the sales account}@}.<sup>[\[3\]](#^ref-3)</sup> The amount recorded is {@{the actual monetary value of the transaction, not the [list price](list%20price.md) of the merchandise}@}. {@{A [discount](discounts%20and%20allowances.md) from list price}@} {@{might be noted if it applies to the sale}@}. <!--SR:!2025-01-15,3,250!2025-01-16,4,270!2025-01-16,4,270!2025-01-16,4,270!2025-01-16,4,270!2025-01-16,4,270!2025-01-16,4,270-->
 
-{@{Fees for services}@} are {@{recorded separately from sales of merchandise}@}, but {@{the bookkeeping transactions for recording "sales" of services}@} are {@{similar to those for recording sales of tangible goods}@}.<sup>\[_[citation needed](https://en.wikipedia.org/wiki/Wikipedia:Citation%20needed)_\]</sup>
+{@{Fees for services}@} are {@{recorded separately from sales of merchandise}@}, but {@{the bookkeeping transactions for recording "sales" of services}@} are {@{similar to those for recording sales of tangible goods}@}.<sup>\[_[citation needed](https://en.wikipedia.org/wiki/Wikipedia:Citation%20needed)_\]</sup> <!--SR:!2025-01-16,4,270!2025-01-16,4,270!2025-01-16,4,270!2025-01-16,4,270-->
 
 ## gross sales and net sales
 
-(annotation: net sales equation) ::@:: $${\text{Net sales} }={\text{Gross sales} }-{\text{(Customer discounts, returns, allowances)} }$$
+(annotation: net sales equation) ::@:: $${\text{Net sales} }={\text{Gross sales} }-{\text{(Customer discounts, returns, allowances)} }$$ <!--SR:!2025-01-16,4,270!2025-01-16,4,270-->
 
 > __General Journal - Merchandise return example__
 >
@@ -44,9 +44,9 @@ A sale is {@{a transfer of property for money or credit}@}.<sup>[\[2\]](#^ref-2)
 > |            | Full credit for {@{customer return of merchandise purchased on account}@}. |             |              |
 > | 8-7        | {@{Inventory}@}                                                            | {@{15.00}@} |              |
 > |            | &ensp;{@{Cost of goods sold}@}                                             |             | {@{15.00}@}  |
-> |            | Restore {@{returned merchandise to inventory}@}.                           |             |              |
+> |            | Restore {@{returned merchandise to inventory}@}.                           |             |              | <!--SR:!2025-01-16,4,270!2025-01-16,4,270!2025-01-16,4,270!2025-01-16,4,270!2025-01-16,4,270!2025-01-16,4,270!2025-01-16,4,270!2025-01-16,4,270!2025-01-16,4,270!2025-01-16,4,270!2025-01-16,4,270!2025-01-16,4,270!2025-01-16,4,270!2025-01-16,4,270-->
 
-{@{__Gross sales__}@} are {@{the sum of all sales during a time period}@}. {@{Net sales}@} are {@{gross sales minus sales returns, sales allowances, and sales discounts}@}. Gross sales do not {@{normally appear on an [income statement](income%20statement.md)}@}. {@{The sales figures reported on an income statement}@} are net sales.<sup>[\[4\]](#^ref-4)</sup>
+{@{__Gross sales__}@} are {@{the sum of all sales during a time period}@}. {@{Net sales}@} are {@{gross sales minus sales returns, sales allowances, and sales discounts}@}. Gross sales do not {@{normally appear on an [income statement](income%20statement.md)}@}. {@{The sales figures reported on an income statement}@} are net sales.<sup>[\[4\]](#^ref-4)</sup> <!--SR:!2025-01-16,4,270!2025-01-16,4,270!2025-01-16,4,270!2025-01-16,4,270!2025-01-16,4,270!2025-01-16,4,270-->
 
 <!--
 - sales returns are refunds to customers for returned merchandise / credit notes
