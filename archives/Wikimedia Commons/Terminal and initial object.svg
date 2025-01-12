@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="640" height="344" viewBox="-40 -20 80 43"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    line {fill:none; stroke:#FF6600; stroke-width:0.4px}
+    polyline {fill:none; stroke:#FF6600; stroke-width:0.5px}
+    path {fill:none; stroke:#FF6600; stroke-width:0.6px}
+    circle {fill:#0000AA; stroke:none}
+    .obj {fill:#FFFF99; stroke:none}
+    text {font-family:serif; font-size:6px; fill:#000000; stroke:none}
+    .curs {font-family:URW Chancery L,cursive}
+   ]]>
+  </style>
+ </defs>
+
+<!-- zero object -->
+ <g>
+  <circle class="obj" cx="0" cy="0" r="4"/>
+  <circle cx="0" cy="0" r="2"/>
+  <text x="-5.5" y="10">{0}</text>
+ </g>
+
+<!-- a morphism from A′ to terminal object -->
+ <g>
+  <circle class="obj" cx="-32" cy="0" transform="scale(1,5)" r="4"/>
+  <circle cx="-32" cy="18" r="1"/>
+  <circle cx="-32" cy="12" r="1"/>
+  <circle cx="-32"  cy="6" r="1"/>
+  <circle cx="-32"  cy="0" r="2"/>
+  <circle cx="-32" cy="-6" r="1"/>
+  <circle cx="-32" cy="-12" r="1"/>
+  <circle cx="-32" cy="-18" r="1"/>
+  <text x="-30" y="22" class="curs">A′</text>
+ </g>
+ <g>
+  <line x1="-32" y1="18" x2="0" y2="0"/>
+  <polyline points="-22,10.375 -20,11.25 -22,14.375"/>
+ </g>
+ <g>
+  <line x1="-32" y1="12" x2="0" y2="0"/>
+  <polyline points="-18,4.75 -16,6 -18,8.75"/>
+ </g>
+ <g>
+  <line x1="-32"  y1="6" x2="0" y2="0"/>
+  <polyline points="-22,2.125 -20,3.75 -22,6.125"/>
+ </g>
+ <g>
+  <line x1="-32"  y1="0" x2="0" y2="0"/>
+  <polyline points="-18,-2 -16,0 -18,2"/>
+ </g>
+ <g>
+  <line x1="-32" y1="-6" x2="0" y2="0"/>
+  <polyline points="-22,-6.125 -20,-3.75 -22,-2.125"/>
+ </g>
+ <g>
+  <line x1="-32" y1="-12" x2="0" y2="0"/>
+  <polyline points="-18,-8.75 -16,-6 -18,-4.75"/>
+ </g>
+ <g>
+  <line x1="-32" y1="-18" x2="0" y2="0"/>
+  <polyline points="-22,-14.375 -20,-11.25 -22,-10.375"/>
+ </g>
+
+<!-- a monomorphism from initial object to A -->
+ <g>
+  <circle class="obj" cx="32" cy="0" transform="scale(1,5)" r="4"/>
+  <circle cx="32" cy="18" r="1"/>
+  <circle cx="32" cy="12" r="1"/>
+  <circle cx="32"  cy="6" r="1"/>
+  <circle cx="32"  cy="0" r="2"/>
+  <text x="34" y="1">0</text>
+  <circle cx="32" cy="-6" r="1"/>
+  <circle cx="32" cy="-12" r="1"/>
+  <circle cx="32" cy="-18" r="1"/>
+  <text x="26" y="22" class="curs">A</text>
+ </g>
+ <g>
+  <path d="M2,-2 C0,-2,0,0,2,0 L32,0"/>
+  <polyline points="14,-2 16,0 14,2"/>
+ </g>
+
+</svg>
