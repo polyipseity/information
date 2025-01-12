@@ -65,7 +65,7 @@ Any category {@{with [fibre products](pullback%20(category%20theory).md) \(pullb
 
 This text incorporates [content](https://en.wikipedia.org/wiki/equaliser_(mathematics)) from [Wikipedia](Wikipedia.md) available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.
 
-- [Equalizer](https://ncatlab.org/nlab/show/equalizer) at the [_n_<!-- markdown separator -->Lab](NLab.md)
+- [Equalizer](https://ncatlab.org/nlab/show/equalizer) at the [_n_<!-- markdown separator -->Lab](nLab.md)
 
 ## external links
 

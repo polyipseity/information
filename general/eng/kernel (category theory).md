@@ -59,7 +59,7 @@ As mentioned above, a kernel is {@{a type of binary equaliser, or [difference ke
 This text incorporates [content](https://en.wikipedia.org/wiki/kernel_(category_theory)) from [Wikipedia](Wikipedia.md) available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.
 
 - <a id="CITEREFAwodey2010"></a> [Awodey, Steve](Steve%20Awodey.md) \(2010\) \[2006\]. [_Category Theory_](https://web.archive.org/web/20180521155021/http://angg.twu.net/MINICATS/awodey__category_theory.pdf) \(PDF\). Oxford Logic Guides. Vol. 49 \(2nd ed.\). Oxford University Press. [ISBN](ISBN%20(identifier).md) [978-0-19-923718-0](https://en.wikipedia.org/wiki/Special:BookSources/978-0-19-923718-0). Archived from [the original](http://angg.twu.net/MINICATS/awodey__category_theory.pdf) \(PDF\) on 2018-05-21. Retrieved 2018-06-29.
-- [Kernel](https://ncatlab.org/nlab/show/kernel) at the [_n_<!-- markdown separator -->Lab](NLab.md)
+- [Kernel](https://ncatlab.org/nlab/show/kernel) at the [_n_<!-- markdown separator -->Lab](nLab.md)
 
 > [Category](https://en.wikipedia.org/wiki/Help:Category):
 >

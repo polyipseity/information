@@ -216,7 +216,7 @@ This text incorporates [content](https://en.wikipedia.org/wiki/category_(mathema
 - <a id="CITEREFMac Lane1998"></a> [Mac Lane, Saunders](Saunders%20Mac%20Lane.md) \(1998\), _[Categories for the Working Mathematician](Categories%20for%20the%20Working%20Mathematician.md)_, Graduate Texts in Mathematics, vol. 5 \(2nd ed.\), Springer-Verlag, [ISBN](ISBN.md) [0-387-98403-8](https://en.wikipedia.org/wiki/Special:BookSources/0-387-98403-8).
 - <a id="CITEREFMarquis2006"></a> Marquis, Jean-Pierre \(2006\), ["Category Theory"](http://plato.stanford.edu/entries/category-theory/), in Zalta, Edward N. \(ed.\), _[Stanford Encyclopedia of Philosophy](Stanford%20Encyclopedia%20of%20Philosophy.md)_.
 - <a id="CITEREFSica2006"></a> Sica, Giandomenico \(2006\), _What is category theory?_, Advanced studies in mathematics and logic, vol. 3, Polimetrica, [ISBN](ISBN.md) [978-88-7699-031-1](https://en.wikipedia.org/wiki/Special:BookSources/978-88-7699-031-1).
-- [category](https://ncatlab.org/nlab/show/category) at the [_n_<!-- markdown separator -->Lab](NLab.md)
+- [category](https://ncatlab.org/nlab/show/category) at the [_n_<!-- markdown separator -->Lab](nLab.md)
 
 > <!-- hide <p> - [v](https://en.wikipedia.org/wiki/Template:Category%20theory) <br/> - [t](https://en.wikipedia.org/wiki/Template%20talk:Category%20theory) <br/> - [e](https://en.wikipedia.org/wiki/Special:EditPage/Template%3ACategory%20theory) <p>  <p>  <br/> -->
 > __[Category theory](category%20theory.md)__

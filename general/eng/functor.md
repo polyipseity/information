@@ -227,7 +227,7 @@ This text incorporates [content](https://en.wikipedia.org/wiki/functor) from [Wi
 > ![Wiktionary logo](../../archives/Wikimedia%20Commons/Wiktionary-logo-en-v2.svg) Look up ___[functor](https://en.wiktionary.org/wiki/functor)___ in Wiktionary, the free dictionary.
 
 - ["Functor"](https://www.encyclopediaofmath.org/index.php?title=Functor), _[Encyclopedia of Mathematics](Encyclopedia%20of%20Mathematics.md)_, [EMS Press](European%20Mathematical%20Society.md), 2001 \[1994\]
-- see [functor](https://ncatlab.org/nlab/show/functor) at the [_n_<!-- markdown separator -->Lab](NLab.md) and the variations discussed and linked to there.
+- see [functor](https://ncatlab.org/nlab/show/functor) at the [_n_<!-- markdown separator -->Lab](nLab.md) and the variations discussed and linked to there.
 - [André Joyal](André%20Joyal.md), [CatLab](http://ncatlab.org/nlab), a wiki project dedicated to the exposition of categorical mathematics
 - <a id="CITEREFHillman2001"></a> Hillman, Chris \(2001\). ["A Categorical Primer"](https://web.archive.org/web/19970503051012/http://www.math.washington.edu:80/~hillman/PUB/categorical.ps). [CiteSeerX](CiteSeerX%20(identifier).md) [10.1.1.24.3264](https://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.24.3264). Archived from [the original](http://www.math.washington.edu/~hillman/PUB/categorical.ps) on 1997-05-03.
 - J. Adamek, H. Herrlich, G. Stecker, [Abstract and Concrete Categories-The Joy of Cats](http://katmat.math.uni-bremen.de/acc/acc.pdf) [Archived](https://web.archive.org/web/20150421081851/http://katmat.math.uni-bremen.de/acc/acc.pdf) 2015-04-21 at the [Wayback Machine](Wayback%20Machine.md)

@@ -120,7 +120,7 @@ This text incorporates [content](https://en.wikipedia.org/wiki/Yoneda_lemma) fro
 - <a id="CITEREFLeinster2014"></a> Leinster, Tom \(2014\), _Basic Category Theory_, [arXiv](ArXiv%20(identifier).md):[1612.09375](https://arxiv.org/abs/1612.09375), [doi](doi%20(identifier).md):[10.1017/CBO9781107360068](https://doi.org/10.1017%2FCBO9781107360068), [ISBN](ISBN%20(identifier).md) [978-1-107-04424-1](https://en.wikipedia.org/wiki/Special:BookSources/978-1-107-04424-1)
 - [_Category Theory_](https://books.google.com/books?id=UCgUDAAAQBAJ&pg=PA187), Oxford University Press, 17 June 2010, [ISBN](ISBN%20(identifier).md) [978-0-19-958736-0](https://en.wikipedia.org/wiki/Special:BookSources/978-0-19-958736-0)
 
-- [Yoneda lemma](https://ncatlab.org/nlab/show/Yoneda+lemma) at the [_n_<!-- markdown separator -->Lab](NLab.md)
+- [Yoneda lemma](https://ncatlab.org/nlab/show/Yoneda+lemma) at the [_n_<!-- markdown separator -->Lab](nLab.md)
 
 ## external links
 
