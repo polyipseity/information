@@ -37,27 +37,31 @@ tags:
 > | __[Group](group%20(mathematics).md)__                       | <div style="background: #9EFF9E; color: black; vertical-align: middle; text-align: center;">Required</div> | <div style="background: #9EFF9E; color: black; vertical-align: middle; text-align: center;">Required</div> | <div style="background: #9EFF9E; color: black; vertical-align: middle; text-align: center;">Required</div> | <div style="background: #9EFF9E; color: black; vertical-align: middle; text-align: center;">Required</div> | <div style="background: #FFC7C7; color: black; vertical-align: middle; text-align: center;">Unneeded</div> |
 > | __[Abelian group](abelian%20group.md)__                     | <div style="background: #9EFF9E; color: black; vertical-align: middle; text-align: center;">Required</div> | <div style="background: #9EFF9E; color: black; vertical-align: middle; text-align: center;">Required</div> | <div style="background: #9EFF9E; color: black; vertical-align: middle; text-align: center;">Required</div> | <div style="background: #9EFF9E; color: black; vertical-align: middle; text-align: center;">Required</div> | <div style="background: #9EFF9E; color: black; vertical-align: middle; text-align: center;">Required</div> |
 
-- properties ::@:: 5: total, associative, identity, divisible, commutative <!--SR:!2025-01-21,14,290!2025-01-22,15,290-->
-- partial magma ::@:: (none) <!--SR:!2025-01-22,15,290!2025-01-22,15,290-->
-- semigroupoid ::@:: associative <!--SR:!2025-01-15,5,210!2025-01-13,7,250-->
-- small category ::@:: associative, identity <!--SR:!2025-01-22,15,290!2025-01-23,16,290-->
-- groupoid ::@:: associative, identity, divisible <!--SR:!2025-01-18,11,270!2025-01-13,7,250-->
-- commutative groupoid ::@:: associative, identity, divisible, commutative <!--SR:!2025-01-14,3,210!2025-01-22,15,290-->
-- magma ::@:: total <!--SR:!2025-01-23,16,290!2025-01-22,15,290-->
-- commutative magma ::@:: total, commutative <!--SR:!2025-01-23,16,290!2025-01-23,16,290-->
-- quasigroup ::@:: total, divisible <!--SR:!2025-01-13,7,250!2025-01-13,7,250-->
-- commutative quasigroup ::@:: total, divisible, commutative <!--SR:!2025-01-21,14,290!2025-01-23,16,290-->
-- unital magma ::@:: total, identity <!--SR:!2025-01-21,14,290!2025-01-21,14,290-->
-- commutative unital magma ::@:: total, identity, commutative <!--SR:!2025-01-21,14,290!2025-01-19,12,270-->
-- loop ::@:: total, identity, divisible <!--SR:!2025-01-14,8,250!2025-01-24,13,230-->
-- semigroup ::@:: total, associative <!--SR:!2025-01-28,17,250!2025-01-13,7,250-->
-- commutative semigroup ::@:: total, associative, commutative <!--SR:!2025-01-13,5,230!2025-01-22,11,230-->
-- associative quasigroup ::@:: total, associative, divisible <!--SR:!2025-01-13,7,250!2025-01-13,7,250-->
-- commutative-and-associative quasigroup ::@:: total, associative, divisible, commutative <!--SR:!2025-01-21,14,290!2025-01-13,5,230-->
-- monoid ::@:: total, associative, identity <!--SR:!2025-01-18,12,270!2025-01-28,17,250-->
-- commutative monoid ::@:: total, associative, identity, commutative <!--SR:!2025-01-13,7,250!2025-01-17,5,170-->
-- group ::@:: total, associative, identity, divisible <!--SR:!2025-01-23,16,290!2025-01-21,14,290-->
-- abelian group ::@:: total, associative, identity, divisible, commutative <!--SR:!2025-01-22,15,290!2025-01-23,16,290-->
+<!-- markdownlint MD028 -->
+
+> __flashcards__
+>
+> - properties ::@:: 5: total, associative, identity, divisible, commutative <!--SR:!2025-01-21,14,290!2025-01-22,15,290-->
+> - partial magma ::@:: (none) <!--SR:!2025-01-22,15,290!2025-01-22,15,290-->
+> - semigroupoid ::@:: associative <!--SR:!2025-01-15,5,210!2025-01-13,7,250-->
+> - small category ::@:: associative, identity <!--SR:!2025-01-22,15,290!2025-01-23,16,290-->
+> - groupoid ::@:: associative, identity, divisible <!--SR:!2025-01-18,11,270!2025-01-13,7,250-->
+> - commutative groupoid ::@:: associative, identity, divisible, commutative <!--SR:!2025-01-14,3,210!2025-01-22,15,290-->
+> - magma ::@:: total <!--SR:!2025-01-23,16,290!2025-01-22,15,290-->
+> - commutative magma ::@:: total, commutative <!--SR:!2025-01-23,16,290!2025-01-23,16,290-->
+> - quasigroup ::@:: total, divisible <!--SR:!2025-01-13,7,250!2025-01-13,7,250-->
+> - commutative quasigroup ::@:: total, divisible, commutative <!--SR:!2025-01-21,14,290!2025-01-23,16,290-->
+> - unital magma ::@:: total, identity <!--SR:!2025-01-21,14,290!2025-01-21,14,290-->
+> - commutative unital magma ::@:: total, identity, commutative <!--SR:!2025-01-21,14,290!2025-01-19,12,270-->
+> - loop ::@:: total, identity, divisible <!--SR:!2025-01-14,8,250!2025-01-24,13,230-->
+> - semigroup ::@:: total, associative <!--SR:!2025-01-28,17,250!2025-01-13,7,250-->
+> - commutative semigroup ::@:: total, associative, commutative <!--SR:!2025-01-13,5,230!2025-01-22,11,230-->
+> - associative quasigroup ::@:: total, associative, divisible <!--SR:!2025-01-13,7,250!2025-01-13,7,250-->
+> - commutative-and-associative quasigroup ::@:: total, associative, divisible, commutative <!--SR:!2025-01-21,14,290!2025-01-13,5,230-->
+> - monoid ::@:: total, associative, identity <!--SR:!2025-01-18,12,270!2025-01-28,17,250-->
+> - commutative monoid ::@:: total, associative, identity, commutative <!--SR:!2025-01-13,7,250!2025-01-17,5,170-->
+> - group ::@:: total, associative, identity, divisible <!--SR:!2025-01-23,16,290!2025-01-21,14,290-->
+> - abelian group ::@:: total, associative, identity, divisible, commutative <!--SR:!2025-01-22,15,290!2025-01-23,16,290-->
 
 ## references
 

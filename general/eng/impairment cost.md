@@ -1,0 +1,1 @@
+impairment (financial reporting).md

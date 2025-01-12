@@ -111,8 +111,9 @@ This text incorporates [content](https://en.wikipedia.org/wiki/impairment_(finan
 - <a id="CITEREFBDO2013"></a> ["IFRS in practice: IAS 36 _Impairment of assets_"](http://www.bdointernational.com/Services/Audit/IFRS/IFRS%20in%20Practice/Documents/IFRS%20in%20Practice%20-%20IAS%2036%20Impairment%20of%20Asstes%20%28print%29.pdf) \(PDF\). [BDO International](BDO%20Global.md). December 2013.
 - <a id="CITEREFEY2014"></a> ["Impairment of financial instruments under IFRS 9"](http://www.ey.com/Publication/vwLUAssets/Applying_IFRS:_Impairment_of_financial_instruments_under_IFRS_9/$FILE/Apply-FI-Dec2014.pdf) \(PDF\). [Ernst & Young](Ernst%20&%20Young.md). December 2014.
 
-| __[Authority control databases](https://en.wikipedia.org/wiki/Help:Authority%20control): National [![edit](../../archives/Wikimedia%20Commons/OOjs%20UI%20icon%20edit-ltr-progressive.svg) <p>](https://www.wikidata.org/wiki/Q1650951#identifiers)__ | - [Germany](https://d-nb.info/gnd/1044915609) |
-| -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:| --------------------------------------------- |
+|                                                                                                                                                                                                                                                                    |                                               |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:| --------------------------------------------- |
+| __[Authority control databases](https://en.wikipedia.org/wiki/Help:Authority%20control): National [![Edit this at Wikidata](../../archives/Wikimedia%20Commons/OOjs%20UI%20icon%20edit-ltr-progressive.svg)](https://www.wikidata.org/wiki/Q1650951#identifiers)__ | - [Germany](https://d-nb.info/gnd/1044915609) |
 
 > [Categories](https://en.wikipedia.org/wiki/Help:Category):
 >

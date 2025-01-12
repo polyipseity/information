@@ -126,19 +126,21 @@ The class of {@{all [graphs](graph%20theory.md)}@} forms {@{another concrete cat
 | __[Top](category%20of%20topological%20spaces.md)__                   | [topological spaces](topological%20space.md)                                      | [continuous functions](continuous%20function.md#continuous%20functions%20between%20topological%20spaces) |
 | [__Man__<sup>_p_</sup>](category%20of%20manifolds.md)                | [smooth manifolds](differentiable%20manifold.md#definition)                       | _p_-times [continuously differentiable](differentiable%20function.md#continuously%20differentiable) maps |
 
-- __Set__ ::@:: objects: sets <br/> morphisms: functions <!--SR:!2025-01-22,15,290!2025-01-22,15,290-->
-- __Ord__ ::@:: objects: preordered sets <br/> morphisms: monotone-increasing functions <!--SR:!2025-01-23,16,290!2025-01-22,15,290-->
-- __Mon__ ::@:: objects: monoids <br/> morphisms: monoid homomorphisms <!--SR:!2025-01-23,16,290!2025-01-22,15,290-->
-- __Grp__ ::@:: objects: groups <br/> morphisms: group homomorphisms <!--SR:!2025-01-23,16,290!2025-01-22,15,290-->
-- __Grph__ ::@:: objects: graphs <br/> morphisms: graph homomorphisms <!--SR:!2025-01-21,14,290!2025-01-22,15,290-->
-- __Ring__ ::@:: objects: rings <br/> morphisms: ring homomorphisms <!--SR:!2025-01-22,15,290!2025-01-22,15,290-->
-- __Field__ ::@:: objects: fields <br/> morphisms: field homomorphisms <!--SR:!2025-01-22,15,290!2025-01-22,15,290-->
-- ___R_-Mod__ ::@:: objects: _R_-modules, where _R_ is a ring <br/> morphisms: _R_-module homomorphisms <!--SR:!2025-01-22,15,290!2025-01-23,16,290-->
-- __Vect__<sub>_K_</sub> ::@:: objects: vector spaces over the field _K_ <br/> morphisms: _K_-linear maps <!--SR:!2025-01-22,15,290!2025-01-21,14,290-->
-- __Met__ ::@:: objects: metric spaces <br/> morphisms: short maps <!--SR:!2025-01-23,16,290!2025-01-21,14,290-->
-- __Meas__ ::@:: objects: measure spaces <br/> morphisms: measurable functions <!--SR:!2025-01-23,16,290!2025-01-23,16,290-->
-- __Top__ ::@:: objects: topological spaces <br/> morphisms: continuous functions <!--SR:!2025-01-22,15,290!2025-01-23,16,290-->
-- __Man__<sup>_p_</sup> ::@:: objects: smooth manifolds <br/> morphisms: _p_-times continuously differentiable maps <!--SR:!2025-01-21,14,290!2025-01-23,16,290-->
+> __flashcards__
+>
+> - __Set__ ::@:: objects: sets <br/> morphisms: functions <!--SR:!2025-01-22,15,290!2025-01-22,15,290-->
+> - __Ord__ ::@:: objects: preordered sets <br/> morphisms: monotone-increasing functions <!--SR:!2025-01-23,16,290!2025-01-22,15,290-->
+> - __Mon__ ::@:: objects: monoids <br/> morphisms: monoid homomorphisms <!--SR:!2025-01-23,16,290!2025-01-22,15,290-->
+> - __Grp__ ::@:: objects: groups <br/> morphisms: group homomorphisms <!--SR:!2025-01-23,16,290!2025-01-22,15,290-->
+> - __Grph__ ::@:: objects: graphs <br/> morphisms: graph homomorphisms <!--SR:!2025-01-21,14,290!2025-01-22,15,290-->
+> - __Ring__ ::@:: objects: rings <br/> morphisms: ring homomorphisms <!--SR:!2025-01-22,15,290!2025-01-22,15,290-->
+> - __Field__ ::@:: objects: fields <br/> morphisms: field homomorphisms <!--SR:!2025-01-22,15,290!2025-01-22,15,290-->
+> - ___R_-Mod__ ::@:: objects: _R_-modules, where _R_ is a ring <br/> morphisms: _R_-module homomorphisms <!--SR:!2025-01-22,15,290!2025-01-23,16,290-->
+> - __Vect__<sub>_K_</sub> ::@:: objects: vector spaces over the field _K_ <br/> morphisms: _K_-linear maps <!--SR:!2025-01-22,15,290!2025-01-21,14,290-->
+> - __Met__ ::@:: objects: metric spaces <br/> morphisms: short maps <!--SR:!2025-01-23,16,290!2025-01-21,14,290-->
+> - __Meas__ ::@:: objects: measure spaces <br/> morphisms: measurable functions <!--SR:!2025-01-23,16,290!2025-01-23,16,290-->
+> - __Top__ ::@:: objects: topological spaces <br/> morphisms: continuous functions <!--SR:!2025-01-22,15,290!2025-01-23,16,290-->
+> - __Man__<sup>_p_</sup> ::@:: objects: smooth manifolds <br/> morphisms: _p_-times continuously differentiable maps <!--SR:!2025-01-21,14,290!2025-01-23,16,290-->
 
 {@{[Fiber bundles](fiber%20bundle.md) with [bundle maps](bundle%20map.md) between them}@} form {@{a concrete category}@}. <!--SR:!2025-01-23,16,290!2025-01-23,16,290-->
 
@@ -214,7 +216,7 @@ This text incorporates [content](https://en.wikipedia.org/wiki/category_(mathema
 - <a id="CITEREFMac Lane1998"></a> [Mac Lane, Saunders](Saunders%20Mac%20Lane.md) \(1998\), _[Categories for the Working Mathematician](Categories%20for%20the%20Working%20Mathematician.md)_, Graduate Texts in Mathematics, vol. 5 \(2nd ed.\), Springer-Verlag, [ISBN](ISBN.md) [0-387-98403-8](https://en.wikipedia.org/wiki/Special:BookSources/0-387-98403-8).
 - <a id="CITEREFMarquis2006"></a> Marquis, Jean-Pierre \(2006\), ["Category Theory"](http://plato.stanford.edu/entries/category-theory/), in Zalta, Edward N. \(ed.\), _[Stanford Encyclopedia of Philosophy](Stanford%20Encyclopedia%20of%20Philosophy.md)_.
 - <a id="CITEREFSica2006"></a> Sica, Giandomenico \(2006\), _What is category theory?_, Advanced studies in mathematics and logic, vol. 3, Polimetrica, [ISBN](ISBN.md) [978-88-7699-031-1](https://en.wikipedia.org/wiki/Special:BookSources/978-88-7699-031-1).
-- [category](https://ncatlab.org/nlab/show/category) at the [_n_<!-- markdown separator -->Lab](NLab.md)
+- [category](https://ncatlab.org/nlab/show/category) at the [_n_<!-- markdown separator -->Lab](nLab.md)
 
 > <!-- hide <p> - [v](https://en.wikipedia.org/wiki/Template:Category%20theory) <br/> - [t](https://en.wikipedia.org/wiki/Template%20talk:Category%20theory) <br/> - [e](https://en.wikipedia.org/wiki/Special:EditPage/Template%3ACategory%20theory) <p>  <p>  <br/> -->
 > __[Category theory](category%20theory.md)__
@@ -240,7 +242,7 @@ This text incorporates [content](https://en.wikipedia.org/wiki/category_(mathema
 
 |                                                                                                                                                                                                                                                       |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 | -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| __[Authority control databases](https://en.wikipedia.org/wiki/Help:Authority%20control): National [![edit](../../archives/Wikimedia%20Commons/OOjs%20UI%20icon%20edit-ltr-progressive.svg)](https://www.wikidata.org/wiki/Q719395#identifiers)__ | - [Germany](https://d-nb.info/gnd/4129930-9) <br/> - [United States](https://id.loc.gov/authorities/sh85020992) <br/> - [France](https://catalogue.bnf.fr/ark:/12148/cb11940303j) <br/> - [BnF data](https://data.bnf.fr/ark:/12148/cb11940303j) <br/> - [Japan](https://id.ndl.go.jp/auth/ndlna/00565160) <br/> - [Latvia](https://kopkatalogs.lv/F?func=direct&local_base=lnc10&doc_number=000153887&P_CON_LNG=ENG) <br/> - [Israel](https://www.nli.org.il/en/authorities/987007284853105171) |
+| __[Authority control databases](https://en.wikipedia.org/wiki/Help:Authority%20control): National [![Edit this at Wikidata](../../archives/Wikimedia%20Commons/OOjs%20UI%20icon%20edit-ltr-progressive.svg)](https://www.wikidata.org/wiki/Q719395#identifiers)__ | - [Germany](https://d-nb.info/gnd/4129930-9) <br/> - [United States](https://id.loc.gov/authorities/sh85020992) <br/> - [France](https://catalogue.bnf.fr/ark:/12148/cb11940303j) <br/> - [BnF data](https://data.bnf.fr/ark:/12148/cb11940303j) <br/> - [Japan](https://id.ndl.go.jp/auth/ndlna/00565160) <br/> - [Latvia](https://kopkatalogs.lv/F?func=direct&local_base=lnc10&doc_number=000153887&P_CON_LNG=ENG) <br/> - [Israel](https://www.nli.org.il/en/authorities/987007284853105171) |
 
 > [Categories](https://en.wikipedia.org/wiki/Help:Category):
 >

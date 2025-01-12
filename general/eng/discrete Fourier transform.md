@@ -72,10 +72,12 @@ This table shows {@{some mathematical operations on $x_{n}$ in the time domain a
 | real part in frequency      | $${\frac {1}{2} }\left(x_{n}+x_{N-n}^{*}\right)$$  | $$\operatorname {Re} {\left(X_{k}\right)}$$        |
 | imaginary part in frequency | $${\frac {1}{2i} }\left(x_{n}-x_{N-n}^{*}\right)$$ | $$\operatorname {Im} {\left(X_{k}\right)}$$        |
 
-- real part in time ::@:: frequency: $$\frac 1 2 (X_k + X^*_{N - k})$$ <!--SR:!2025-06-29,248,336!2025-07-13,260,336-->
-- imaginary part in time ::@:: frequency: $$\frac 1 {2i} (X_k - X^*_{N - k})$$ <!--SR:!2025-05-27,204,296!2025-08-15,268,336-->
-- real part in frequency ::@:: time: $$\frac 1 2 (x_n + x^*_{N - n})$$ <!--SR:!2025-12-27,373,316!2025-09-24,320,356-->
-- imaginary part in frequency ::@:: time: $$\frac 1 {2i} (x_n - x^*_{N - n})$$ <!--SR:!2025-03-08,144,316!2025-05-23,205,336-->
+> __flashcards__
+>
+> - real part in time ::@:: frequency: $$\frac 1 2 (X_k + X^*_{N - k})$$ <!--SR:!2025-06-29,248,336!2025-07-13,260,336-->
+> - imaginary part in time ::@:: frequency: $$\frac 1 {2i} (X_k - X^*_{N - k})$$ <!--SR:!2025-05-27,204,296!2025-08-15,268,336-->
+> - real part in frequency ::@:: time: $$\frac 1 2 (x_n + x^*_{N - n})$$ <!--SR:!2025-12-27,373,316!2025-09-24,320,356-->
+> - imaginary part in frequency ::@:: time: $$\frac 1 {2i} (x_n - x^*_{N - n})$$ <!--SR:!2025-03-08,144,316!2025-05-23,205,336-->
 
 ### orthogonality
 

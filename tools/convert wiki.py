@@ -71,6 +71,9 @@ _PRESERVED_PAGE_PREFIXES = {
 }
 _ARCHIVE_REGEXES = {
     compile(
+        r"^https://upload.wikimedia.org/wikipedia/[^/]*/[0-9a-f]/[0-9a-f]{2}/([^/]*)$"
+    ): ("File:{}", "../../archives/Wikimedia Commons/{}"),
+    compile(
         r"^https://upload.wikimedia.org/wikipedia/[^/]*/thumb/[0-9a-f]/[0-9a-f]{2}/([^/]*)/.*$"
     ): ("File:{}", "../../archives/Wikimedia Commons/{}"),
 }
