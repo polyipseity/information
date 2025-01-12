@@ -16,7 +16,7 @@ tags:
 
 The __Bohr model__ or __{@{Rutherford–Bohr}@} model__ is {@{an [atom](atom.md) model}@} where {@{a small, dense [nucleus](nucleus.md) is orbited by [electrons](electron.md)}@}. They are attracted by {@{electrostatic forces}@}. It was presented by {@{[Niels Bohr](Niels%20Bohr.md)}@} and {@{[Ernest Rutherford](Ernest%20Rutherford.md) in 1913}@}. <!--SR:!2026-12-03,998,290!2026-06-04,964,330!2026-01-27,565,190!2025-01-27,570,310!2025-01-21,424,232!2026-02-12,826,332-->
 
-The model gives almost exact results only when {@{two charged points orbit each other much slower than light}@}, like {@{an atom where one electron is far away from everything else}@}. <!--SR:!2028-04-16,1209,290!2025-01-12,445,272-->
+The model gives almost exact results only when {@{two charged points orbit each other much slower than light}@}, like {@{an atom where one electron is far away from everything else}@}. <!--SR:!2028-04-16,1209,290!2029-08-28,1689,292-->
 
 ## postulates
 
@@ -76,7 +76,7 @@ The Bohr model fails to explain:
 > | {@{brightness}@} | {@{relative brightness of spectral lines}@} |
 > | {@{multiple [electrons](electron.md)}@} | {@{spectra of [atoms](atom.md) with multiple [electrons](electron.md)}@} |
 > | {@{naturalness}@} | {@{reason why the [angular momentum](angular%20momentum.md) is a intergral multiple of the [reduced Planck constant](Planck%20constant.md#reduced%20Planck%20constant)}@} |
-> | {@{structures}@} | {@{[fine structure](fine%20structure.md) and [hyperfine structure](hyperfine%20structure.md) of spectral lines}@} | <!--SR:!2025-05-31,366,353!2025-03-22,311,353!2027-05-17,908,353!2027-01-19,749,333!2025-05-03,328,361!2027-02-10,807,341!2027-08-06,972,361!2025-01-12,234,341-->
+> | {@{structures}@} | {@{[fine structure](fine%20structure.md) and [hyperfine structure](hyperfine%20structure.md) of spectral lines}@} | <!--SR:!2025-05-31,366,353!2025-03-22,311,353!2027-05-17,908,353!2027-01-19,749,333!2025-05-03,328,361!2027-02-10,807,341!2027-08-06,972,361!2027-03-21,798,341-->
 
 <!--/pytextgen-->
 

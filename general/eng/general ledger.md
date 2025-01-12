@@ -15,7 +15,7 @@ In [bookkeeping](bookkeeping.md), a __general ledger__ is {@{a bookkeeping [ledg
 
 The general ledger contains {@{a page for all accounts in the chart of accounts<sup>[\[5\]](#^ref-5)</sup> arranged by account categories}@}. The general ledger is usually divided into {@{at least seven main categories: assets, liabilities, owner's equity, revenue, expenses, gains and losses}@}.<sup>[\[6\]](#^ref-6)</sup> It is {@{the system of record}@} for {@{an organization’s financial transactions}@}.<sup>[\[7\]](#^ref-7)</sup> The main categories of the general ledger may be further subdivided into {@{[subledgers](subledger.md) to include additional details of such accounts as cash, accounts receivable, accounts payable, etc.}@} <!--SR:!2025-09-10,272,330!2025-02-18,97,270!2025-09-01,265,330!2025-10-10,297,330!2025-03-31,130,290-->
 
-{@{The extraction of account balances}@} is called {@{a [trial balance](trial%20balance.md)}@}. The purpose of the trial balance is, {@{at a preliminary stage of the [financial statement](financial%20statement.md) preparation process, to ensure the equality of the total [debits](debits%20and%20credits.md) and [credits](debits%20and%20credits.md)}@}.<sup>[\[8\]](#^ref-8)</sup> <!--SR:!2025-09-19,280,330!2025-07-20,232,330!2025-01-12,81,290-->
+{@{The extraction of account balances}@} is called {@{a [trial balance](trial%20balance.md)}@}. The purpose of the trial balance is, {@{at a preliminary stage of the [financial statement](financial%20statement.md) preparation process, to ensure the equality of the total [debits](debits%20and%20credits.md) and [credits](debits%20and%20credits.md)}@}.<sup>[\[8\]](#^ref-8)</sup> <!--SR:!2025-09-19,280,330!2025-07-20,232,330!2025-08-30,230,290-->
 
 ## process
 

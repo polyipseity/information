@@ -13,7 +13,7 @@ The empathy map can create {@{a shared understanding of user pains and gains, an
 
 ## structure
 
-The empathy map consists of {@{the user or persona at the center, and in Z order of the 4 quadrants: says, thinks, does, and feels}@}. The user is in the center to {@{remind who are we researching for}@}. <!--SR:!2025-07-01,297,290!2025-01-12,188,310-->
+The empathy map consists of {@{the user or persona at the center, and in Z order of the 4 quadrants: says, thinks, does, and feels}@}. The user is in the center to {@{remind who are we researching for}@}. <!--SR:!2025-07-01,297,290!2027-03-26,803,330-->
 
 - says ::@:: What the user says, ideally verbatim. Can overlap with thinks. <!--SR:!2025-01-18,179,310!2025-02-05,201,310-->
 - thinks ::@:: What the user thinks. Can overlap with says. Take note of thoughts that the user is unwilling to vocalize, such as body language, choice of words, tone, etc. <!--SR:!2025-04-01,207,270!2025-08-21,333,290-->

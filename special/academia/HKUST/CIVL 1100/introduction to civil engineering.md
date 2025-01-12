@@ -38,7 +38,7 @@ The content is in teaching order.
 - civil engineering challenges
   - [civil engineering non-technical issues](#civil%20engineering%20non-technical%20issues)
   - poor construction management consequences ::@:: Poor quality control and workmanship leads to high maintenance cost. Structural failure leads to loss of lives. <!--SR:!2025-06-25,284,300!2027-05-07,867,372-->
-    - poor quality control and workmanship consequences ::@:: cracks, stinky smell, water leakage <!--SR:!2025-01-12,193,352!2025-06-29,343,367-->
+    - poor quality control and workmanship consequences ::@:: cracks, stinky smell, water leakage <!--SR:!2027-08-08,938,372!2025-06-29,343,367-->
     - structural failure consequences ::@:: building toppling over, killing workers, prosecution <!--SR:!2026-05-23,508,270!2025-07-26,364,374-->
     - [structural failure example](#structural%20failure%20example)
   - civil engineering design challenges ::@:: complex shapes, long-span structures, underground structures <!--SR:!2026-02-12,475,340!2025-08-06,374,377-->

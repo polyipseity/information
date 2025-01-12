@@ -55,7 +55,7 @@ A function is _discontinuous_ at a point {@{if the point is in the [topological 
 
 > [!tip] tips
 >
-> - neither continuous nor discontinuous ::@:: A function can be neither continuous nor discontinuous at a point. For example, $f(x > 0) = 0$ is neither continuous nor discontinuous at $-1$. It is however discontinuous at $0$.  An exaggerated example is that all [real-valued functions](real-valued%20function.md) are not defined at [Mount Everest](Mount%20Everest.md). <!--SR:!2025-11-04,438,310!2025-01-12,235,330-->
+> - neither continuous nor discontinuous ::@:: A function can be neither continuous nor discontinuous at a point. For example, $f(x > 0) = 0$ is neither continuous nor discontinuous at $-1$. It is however discontinuous at $0$.  An exaggerated example is that all [real-valued functions](real-valued%20function.md) are not defined at [Mount Everest](Mount%20Everest.md). <!--SR:!2025-11-04,438,310!2027-12-18,1070,350-->
 > - [topological closure](closure%20(topology).md) of a real interval ::@:: For $a, b \in \mathbb{R}$, $[a, b]$ is the [topological closure](closure%20(topology).md) of $(a, b)$, $[a, b)$, $(a, b]$, and $[a, b]$. <!--SR:!2027-03-18,825,330!2027-01-30,820,344-->
 
 <!-- markdownlint MD028 -->
