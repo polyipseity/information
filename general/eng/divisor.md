@@ -35,7 +35,7 @@ Divisors can be {@{[negative](negative%20number.md) as well as positive}@}, alth
 
 {@{1 and −1}@} {@{divide \(are divisors of\) every integer}@}. {@{Every integer \(and its negation\)}@} is {@{a divisor of itself}@}. {@{Integers divisible by 2 are called [even](parity%20(mathematics).md)}@}, and {@{integers not divisible by 2 are called [odd](parity%20(mathematics).md)}@}. <!--SR:!2025-01-21,16,290!2025-01-20,15,290!2025-01-20,15,290!2025-01-20,15,290!2025-01-20,15,290!2025-01-21,16,290-->
 
-{@{1, −1,  $n$ and  $-n$}@} are known as {@{the __trivial divisors__ of  $n$}@}. {@{A divisor of  $n$ that is not a trivial divisor}@} is known as {@{a __non-trivial divisor__ \(or strict divisor<sup>[\[6\]](#^ref-6)</sup>\)}@}. {@{A nonzero integer with at least one non-trivial divisor}@} is known as {@{a [composite number](composite%20number.md)}@}, while {@{the [units](unit%20(ring%20theory).md) −1 and 1 and [prime numbers](prime%20number.md)}@} have {@{no non-trivial divisors}@}. <!--SR:!2025-01-19,14,290!2025-01-21,16,290!2025-01-21,16,290!2025-01-21,16,290!2025-01-21,16,290!2025-01-13,9,250!2025-01-21,16,290!2025-01-19,14,290-->
+{@{1, −1,  $n$ and  $-n$}@} are known as {@{the __trivial divisors__ of  $n$}@}. {@{A divisor of  $n$ that is not a trivial divisor}@} is known as {@{a __non-trivial divisor__ \(or strict divisor<sup>[\[6\]](#^ref-6)</sup>\)}@}. {@{A nonzero integer with at least one non-trivial divisor}@} is known as {@{a [composite number](composite%20number.md)}@}, while {@{the [units](unit%20(ring%20theory).md) −1 and 1 and [prime numbers](prime%20number.md)}@} have {@{no non-trivial divisors}@}. <!--SR:!2025-01-19,14,290!2025-01-21,16,290!2025-01-21,16,290!2025-01-21,16,290!2025-01-21,16,290!2025-02-15,33,270!2025-01-21,16,290!2025-01-19,14,290-->
 
 There are {@{[divisibility rules](divisibility%20rule.md)}@} that {@{allow one to recognize certain divisors of a number from the number's digits}@}. <!--SR:!2025-01-20,15,290!2025-01-20,15,290-->
 
@@ -61,7 +61,7 @@ There are some elementary rules:
 - (annotation: [Euclid's lemma](Euclid's%20lemma.md)) ::@:: If  $a\mid bc$, and  $\gcd(a,b)=1$, then  $a\mid c$.<sup>[\[b\]](#^ref-b)</sup> This is called [Euclid's lemma](Euclid's%20lemma.md). <!--SR:!2025-01-19,14,290!2025-01-19,14,290-->
 - (annotation: prime divisibility) ::@:: If  $p$ is a prime number and  $p\mid ab$ then  $p\mid a$ or  $p\mid b$. <!--SR:!2025-01-20,15,290!2025-01-21,16,290-->
 
-{@{A positive divisor of  $n$ that is different from  $n$}@} is called {@{a __proper divisor__ or an __aliquot part__ of  $n$}@} \(for example, {@{the proper divisors of 6}@} are {@{1, 2, and 3}@}\). {@{A number that does not evenly divide  $n$ but leaves a remainder}@} is sometimes called {@{an __aliquant part__ of  $n$}@}. <!--SR:!2025-01-21,16,290!2025-01-13,9,250!2025-01-20,15,290!2025-01-19,14,290!2025-01-19,14,290!2025-01-19,14,290-->
+{@{A positive divisor of  $n$ that is different from  $n$}@} is called {@{a __proper divisor__ or an __aliquot part__ of  $n$}@} \(for example, {@{the proper divisors of 6}@} are {@{1, 2, and 3}@}\). {@{A number that does not evenly divide  $n$ but leaves a remainder}@} is sometimes called {@{an __aliquant part__ of  $n$}@}. <!--SR:!2025-01-21,16,290!2025-02-15,33,270!2025-01-20,15,290!2025-01-19,14,290!2025-01-19,14,290!2025-01-19,14,290-->
 
 {@{An integer  $n>1$ whose only proper divisor is 1}@} is called {@{a [prime number](prime%20number.md)}@}. Equivalently, a prime number is {@{a positive integer that has exactly two positive factors: 1 and itself}@}. <!--SR:!2025-01-20,15,290!2025-01-20,15,290!2025-01-21,16,290-->
 
@@ -75,7 +75,7 @@ If {@{the [prime factorization](integer%20factorization.md) of  $n$ is given by 
 
 For every natural  $n$, ::@:: $d(n)<2{\sqrt {n} }$. (annotation: Proof is by pairing positive divisors that multiplies to $n$ and observing $\lfloor \sqrt n \rfloor$ is the maximum number of pairs.) <!--SR:!2025-01-20,15,290!2025-01-19,14,290-->
 
-Also,<sup>[\[7\]](#^ref-7)</sup> {@{$$d(1)+d(2)+\cdots +d(n)=n\ln n+(2\gamma -1)n+O({\sqrt {n} }),$$}@} where {@{$\gamma$ is [Euler–Mascheroni constant](Euler's%20constant.md)}@}. One interpretation of this result is that {@{a randomly chosen positive integer _n_ has an average number of divisors of about  $\ln n$}@}. However, this is {@{a result from the contributions of [numbers with "abnormally many" divisors](highly%20composite%20number.md)}@}. <!--SR:!2025-01-15,10,270!2025-01-13,9,250!2025-01-15,10,270!2025-01-19,14,290-->
+Also,<sup>[\[7\]](#^ref-7)</sup> {@{$$d(1)+d(2)+\cdots +d(n)=n\ln n+(2\gamma -1)n+O({\sqrt {n} }),$$}@} where {@{$\gamma$ is [Euler–Mascheroni constant](Euler's%20constant.md)}@}. One interpretation of this result is that {@{a randomly chosen positive integer _n_ has an average number of divisors of about  $\ln n$}@}. However, this is {@{a result from the contributions of [numbers with "abnormally many" divisors](highly%20composite%20number.md)}@}. <!--SR:!2025-01-15,10,270!2025-02-15,33,270!2025-01-15,10,270!2025-01-19,14,290-->
 
 ## in abstract algebra
 

@@ -131,7 +131,7 @@ Competitor analysis can be done {@{anytime as needed}@}. For example, it can exp
 
 ### comparison parameters
 
-Common parameters used for comparison, {@{most important first}@}: <!--SR:!2025-01-13,183,314-->
+Common parameters used for comparison, {@{most important first}@}: <!--SR:!2027-03-19,795,334-->
 
 ```Python
 # pytextgen generate data

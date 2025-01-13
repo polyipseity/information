@@ -50,7 +50,7 @@ __Continuing operations formula__ <p> ::@:: &emsp; $\text{Earnings per share} = 
 
 ## diluted earnings per share
 
-{@{_Diluted earnings per share_ \(diluted EPS\)}@} is {@{a company's earnings per share calculated using fully diluted [shares outstanding](shares%20outstanding.md)}@} \(i.e. {@{including the impact of [stock option](employee%20stock%20option.md) grants and [convertible bonds](convertible%20bond.md)}@}\). Diluted EPS indicates {@{a "worst case" scenario}@}, one that reflects {@{the issuance of stock for all outstanding options, warrants and convertible securities that would reduce earnings per share}@}.<sup>[\[3\]](#^ref-3)</sup> <!--SR:!2025-01-22,15,290!2025-01-21,14,290!2025-01-23,16,290!2025-01-23,16,290!2025-01-13,7,250-->
+{@{_Diluted earnings per share_ \(diluted EPS\)}@} is {@{a company's earnings per share calculated using fully diluted [shares outstanding](shares%20outstanding.md)}@} \(i.e. {@{including the impact of [stock option](employee%20stock%20option.md) grants and [convertible bonds](convertible%20bond.md)}@}\). Diluted EPS indicates {@{a "worst case" scenario}@}, one that reflects {@{the issuance of stock for all outstanding options, warrants and convertible securities that would reduce earnings per share}@}.<sup>[\[3\]](#^ref-3)</sup> <!--SR:!2025-01-22,15,290!2025-01-21,14,290!2025-01-23,16,290!2025-01-23,16,290!2025-02-08,26,270-->
 
 ### calculations
 
@@ -70,7 +70,7 @@ _Diluted shares:_ ::@:: To calculate the total number of shares used in the calc
 - [Written put options](written%20put%20options.md)
 - [Contingently issuable shares](contingently%20issuable%20shares.md)
 
-_Earnings:_ ::@:: The numerator used in calculating diluted EPS is adjusted to take into account the impact that the conversion of any securities would have on earnings. For example, interest would be added back<sup>[\[9\]](#^ref-9)</sup> to earnings to reflect the conversion of any outstanding convertible bonds, preferred dividends would be added back to reflect the conversion of convertible preferred stock, and any impact of these changes on other financial items, such as royalties and taxes, would also be adjusted. <!--SR:!2025-01-18,11,270!2025-01-13,7,250-->
+_Earnings:_ ::@:: The numerator used in calculating diluted EPS is adjusted to take into account the impact that the conversion of any securities would have on earnings. For example, interest would be added back<sup>[\[9\]](#^ref-9)</sup> to earnings to reflect the conversion of any outstanding convertible bonds, preferred dividends would be added back to reflect the conversion of convertible preferred stock, and any impact of these changes on other financial items, such as royalties and taxes, would also be adjusted. <!--SR:!2025-01-18,11,270!2025-01-30,17,250-->
 
 As mentioned above, a helpful way to {@{consider the effect of dilutive instruments on EPS}@} is to {@{think about the "as if" method, in the sense that "if the instrument is converted, how does it affect EPS?"}@} <!-- (annotation: Something feels off...) For example, let Company XYZ have Net Income = \$2,000,000, there are 50,000 shares of common stock outstanding, and \$1,000,000 of 10% bonds, convertible into 50,000 shares of common stock. Company A's tax rate is 25%. Basic EPS = \(\$2,000,000 - \(\$1,000,000\*10%\)\)/50,000 = \$38 Diluted EPS = \(\$2,000,000 + \(25%\*\(\$1,000,000\*10%\)\)\) / 50,000 + 50,000 = \$20.25 Note that other than accounting for the shares of common stock added in the denominator of the EPS equation, we also add back the taxes that would have been taken out from Net income if the bonds were not converted. In conclusion, the "as if" method is helpful in considering the effect on dilutive instruments on EPS because it helps us think about the overall effect rather than just thinking about the numerator and denominator of the equation separately. --> <!--SR:!2025-01-22,15,290!2025-01-22,15,290-->
 
@@ -87,7 +87,7 @@ Under {@{[International Financial Reporting Standards](International%20Financial
 - contractual rights to purchase shares
 - contingent issuance contracts or agreement
 
-The earnings per share requirements of {@{U.S. GAAP, FASB ASC 260: EPS}@}, are a result of {@{the FASB's cooperation with the IASB to narrow the difference between IFRS and US GAAP}@}. {@{A few differences}@} remain. <!--SR:!2025-01-13,7,250!2025-01-23,16,290!2025-01-23,16,290-->
+The earnings per share requirements of {@{U.S. GAAP, FASB ASC 260: EPS}@}, are a result of {@{the FASB's cooperation with the IASB to narrow the difference between IFRS and US GAAP}@}. {@{A few differences}@} remain. <!--SR:!2025-01-31,18,250!2025-01-23,16,290!2025-01-23,16,290-->
 
 The differences that remain are the result of differences in {@{the application of the treasury stock method, the treatment of contracts that may be settled in shares or cash, and contingently issuable shares}@}. <!--SR:!2025-01-14,8,250-->
 

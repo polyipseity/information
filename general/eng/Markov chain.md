@@ -206,7 +206,7 @@ It can be shown that {@{a finite state irreducible Markov chain is ergodic if it
 
 #### terminology
 
-Some authors call {@{any irreducible, positive recurrent Markov chains ergodic, even periodic ones}@}.<sup>[\[51\]](#^ref-51)</sup> In fact, {@{merely irreducible Markov chains correspond to [ergodic processes](ergodicity.md)}@}, defined {@{according to [ergodic theory](ergodic%20theory.md)}@}.<sup>[\[52\]](#^ref-52)</sup> <!--SR:!2025-01-13,25,279!2025-03-19,80,347!2025-03-20,81,347-->
+Some authors call {@{any irreducible, positive recurrent Markov chains ergodic, even periodic ones}@}.<sup>[\[51\]](#^ref-51)</sup> In fact, {@{merely irreducible Markov chains correspond to [ergodic processes](ergodicity.md)}@}, defined {@{according to [ergodic theory](ergodic%20theory.md)}@}.<sup>[\[52\]](#^ref-52)</sup> <!--SR:!2025-03-24,70,279!2025-03-19,80,347!2025-03-20,81,347-->
 
 Some authors call {@{a matrix _primitive_}@} iff {@{there exists some integer $k$ such that all entries of $M^{k}$ are positive}@}.<sup>[\[53\]](#^ref-53)</sup> (annotation: $M$ is {@{the transition probability matrix}@}.) Some authors call it {@{_regular_}@}.<sup>[\[54\]](#^ref-54)</sup> <!--SR:!2025-03-17,79,347!2025-03-15,77,339!2025-03-20,81,347!2025-03-06,68,321-->
 

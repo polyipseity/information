@@ -138,7 +138,7 @@ The consequences are {@{partial or complete collapse of structural elements or e
 
 Thermal load refers to load {@{caused by [temperature](temperature.md) changes leading to [thermal expansion](thermal%20expansion.md) (contraction) of structural and non-structural members}@}. <!--SR:!2026-04-18,480,308-->
 
-For example, {@{a beam in between two fixed support creates thermal load under heating as the beam expands}@}. A solution would be {@{making the beam a simply supported beam instead, with one side a pinned support and the other side a roller support}@}. Then when thermal expansion occurs, {@{the beam can expand in the direction of the roller support, relieving the thermal load}@}. <!--SR:!2025-01-13,165,308!2025-03-13,213,310!2025-05-26,291,340-->
+For example, {@{a beam in between two fixed support creates thermal load under heating as the beam expands}@}. A solution would be {@{making the beam a simply supported beam instead, with one side a pinned support and the other side a roller support}@}. Then when thermal expansion occurs, {@{the beam can expand in the direction of the roller support, relieving the thermal load}@}. <!--SR:!2026-12-12,698,328!2025-03-13,213,310!2025-05-26,291,340-->
 
 #### wind load
 

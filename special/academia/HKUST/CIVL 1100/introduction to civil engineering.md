@@ -195,7 +195,7 @@ water and sewage treatment system
 - bridge→::@::←building <!--SR:!2025-05-05,282,372!2025-04-22,268,360-->
 - building→::@::←dam <!--SR:!2027-02-03,782,360!2026-03-05,544,400-->
 - dam→::@::←pipeline <!--SR:!2025-04-29,194,224!2026-03-12,518,341-->
-- pipeline→::@::←power plant <!--SR:!2025-01-13,152,260!2025-08-31,313,281-->
+- pipeline→::@::←power plant <!--SR:!2026-07-20,553,280!2025-08-31,313,281-->
 - power plant→::@::←reservoir <!--SR:!2026-04-06,451,275!2025-03-20,147,300-->
 - reservoir→::@::←sewage treatment <!--SR:!2025-01-24,122,197!2025-03-13,189,261-->
 - sewage treatment→::@::←transport <!--SR:!2025-03-17,128,210!2026-03-21,463,301-->
@@ -356,7 +356,7 @@ transportation
 
 <!--pytextgen generate section="137b"--><!-- The following content is generated at 2024-05-01T19:22:34.905642+08:00. Any edits will be overridden! -->
 
-- _(begin)_→::@::←construction <!--SR:!2025-01-13,207,355!2027-02-18,827,395-->
+- _(begin)_→::@::←construction <!--SR:!2027-10-18,1008,375!2027-02-18,827,395-->
 - construction→::@::←environmental <!--SR:!2025-07-26,325,340!2025-12-22,480,400-->
 - environmental→::@::←geo-technical <!--SR:!2025-11-28,416,327!2026-12-16,708,345-->
 - geo-technical→::@::←hydraulic <!--SR:!2026-04-13,508,340!2026-05-27,519,360-->
@@ -459,7 +459,7 @@ testing materials
 - logistics→::@::←planning <!--SR:!2025-06-11,237,294!2025-11-05,401,335-->
 - planning→::@::←procuring materials <!--SR:!2025-01-24,186,317!2025-02-03,175,277-->
 - procuring materials→::@::←quality assurance <!--SR:!2025-01-23,173,300!2025-03-23,213,281-->
-- quality assurance→::@::←quality control <!--SR:!2026-11-12,742,377!2025-01-13,182,352-->
+- quality assurance→::@::←quality control <!--SR:!2026-11-12,742,377!2027-06-11,879,372-->
 - quality control→::@::←safety engineering <!--SR:!2025-02-12,195,301!2025-05-11,168,235-->
 - safety engineering→::@::←scheduling <!--SR:!2025-05-17,261,320!2025-11-12,407,340-->
 - scheduling→::@::←surveying building site <!--SR:!2025-01-14,149,241!2026-02-05,476,320-->
@@ -708,7 +708,7 @@ soil liquefaction
 
 - _(begin)_→::@::←debris flow <!--SR:!2025-03-31,235,314!2025-11-14,459,398-->
 - debris flow→::@::←landslide <!--SR:!2025-06-10,294,335!2025-04-29,260,335-->
-- landslide→::@::←rockfall <!--SR:!2025-01-13,137,312!2025-03-02,211,320-->
+- landslide→::@::←rockfall <!--SR:!2026-03-22,433,312!2025-03-02,211,320-->
 - rockfall→::@::←soil liquefaction <!--SR:!2025-12-11,392,290!2025-08-03,318,270-->
 - soil liquefaction→::@::←_(end)_ <!--SR:!2025-12-10,483,392!2025-09-25,340,295-->
 

@@ -26,7 +26,7 @@ Hence, foundation-wise, low-rise buildings are {@{supported by shallow foundatio
 
 The structural system affects {@{the load distribution}@}. For example, a {@{structural steel undergoing overturning due to wind}@} would experience {@{tension at the wind-facing side and compression on the other side}@}. A {@{reinforced concrete (concrete with steel bars)}@} would experience the same thing, but {@{steel bars bear most of the tension while concrete bears most of the compression and the heavy vertical loading}@}. <!--SR:!2025-02-05,188,315!2026-06-10,553,315!2025-06-07,297,335!2026-05-27,547,315!2025-05-10,230,275-->
 
-We can {@{quantify}@} overturning. The {@{lateral stiffness}@} of a building is defined as {@{the force divided by the horizontal displacement at the building top, and has a unit of kN/mm}@}, somewhat similar to {@{[elastic modulus](elastic%20modulus.md)}@}. The aim is to {@{increase the lateral stiffness, which involves making the building stiff and strong}@}. <!--SR:!2025-04-19,259,335!2025-04-18,258,335!2026-03-01,439,295!2025-01-13,179,315!2025-05-17,282,335-->
+We can {@{quantify}@} overturning. The {@{lateral stiffness}@} of a building is defined as {@{the force divided by the horizontal displacement at the building top, and has a unit of kN/mm}@}, somewhat similar to {@{[elastic modulus](elastic%20modulus.md)}@}. The aim is to {@{increase the lateral stiffness, which involves making the building stiff and strong}@}. <!--SR:!2025-04-19,259,335!2025-04-18,258,335!2026-03-01,439,295!2027-03-06,782,335!2025-05-17,282,335-->
 
 ### classification
 

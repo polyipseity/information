@@ -140,7 +140,7 @@ return (
 > bromides
 >
 > - general solubility: {@{<span style="color: green;">soluble</span>}@}
-> - exception(s): {@{Ag<sup>+</sup>, Pb<sup>2+</sup>, Cu<sup>+</sup>, and Hg<sub>2</sub><sup>2+</sup> compounds}@} <!--SR:!2026-11-12,1147,266!2025-01-13,492,190-->
+> - exception(s): {@{Ag<sup>+</sup>, Pb<sup>2+</sup>, Cu<sup>+</sup>, and Hg<sub>2</sub><sup>2+</sup> compounds}@} <!--SR:!2026-11-12,1147,266!2025-09-22,252,170-->
 
 <!-- markdownlint MD028 -->
 

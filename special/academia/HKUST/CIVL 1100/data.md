@@ -106,7 +106,7 @@ See [Colosseum](../../../../general/Colosseum.md).
 - construction period ::@:: AD 72 to AD 80, 8 years <!--SR:!2025-03-29,125,216!2026-10-08,666,396-->
 - description ::@:: elliptical amphitheater in the center of Rome <!--SR:!2025-05-13,268,376!2025-12-11,420,376-->
 - geographic location ::@:: Rome <!--SR:!2026-02-17,488,396!2026-11-08,740,416-->
-- height ::@:: 48 m (4 storeys) <!--SR:!2025-01-13,110,276!2026-12-23,772,416-->
+- height ::@:: 48 m (4 storeys) <!--SR:!2025-11-11,302,276!2026-12-23,772,416-->
 - importance ::@:: largest amphitheater in the Roman Empire, greatest works of Roman architecture and engineering <!--SR:!2026-07-15,628,396!2026-04-16,555,396-->
 
 ## Eiffel Tower
@@ -316,7 +316,7 @@ See [Two Prudential Plaza](../../../../general/Two%20Prudential%20Plaza.md).
 - description ::@:: 64-story skyscraper located in the Loop area of Chicago, Illinois <!--SR:!2025-06-20,290,320!2025-08-31,399,385-->
 - height ::@:: architectural: 303 m, top floor: 250 m <!--SR:!2025-05-20,154,201!2025-12-20,488,384-->
 - image ::@:: ![Two Prudential Plaza image](../../../../archives/Wikimedia%20Commons/Two%20Prudential%20Plaza%20Chicago%20in%20May%202016.jpg) <!--SR:!2025-06-04,294,360!2025-07-04,205,320-->
-- [structural system](../../../../general/structural%20system.md) ::@:: reinforced concrete<!-- flashcard ecbdac25-22dc-429d-9976-d49408b1478d --> <!--SR:!2025-01-13,128,340!2025-12-30,488,400-->
+- [structural system](../../../../general/structural%20system.md) ::@:: reinforced concrete<!-- flashcard ecbdac25-22dc-429d-9976-d49408b1478d --> <!--SR:!2026-03-24,435,340!2025-12-30,488,400-->
 
 ## Water Cube
 

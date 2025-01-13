@@ -13,7 +13,7 @@ tags:
 
 <!-- | ![](../../archives/Wikimedia%20Commons/Text%20document%20with%20red%20question%20mark.svg) | This article includes a [list of references](https://en.wikipedia.org/wiki/Wikipedia:Citing%20sources), [related reading](https://en.wikipedia.org/wiki/Wikipedia:Further%20reading), or [external links](https://en.wikipedia.org/wiki/Wikipedia:External%20links), __but its sources remain unclear because it lacks [inline citations](https://en.wikipedia.org/wiki/Wikipedia:Citing%20sources#Inline%20citations)__. Please help [improve](https://en.wikipedia.org/wiki/Wikipedia:WikiProject%20Reliability) this article by [introducing](https://en.wikipedia.org/wiki/Wikipedia:When%20to%20cite) more precise citations. _\(October 2011\)__ \([Learn how and when to remove this message](https://en.wikipedia.org/wiki/Help:Maintenance%20template%20removal)\)_ | -->
 
-In {@{the field of [mathematics](mathematics.md) known as [convex analysis](convex%20analysis.md)}@}, {@{the __characteristic function__ of a set}@} is {@{a [convex function](convex%20function.md) that indicates the membership \(or non-membership\) of a given element in that set}@}. It is similar to {@{the usual [indicator function](indicator%20function.md)}@}, and one can {@{freely convert between the two}@}, but {@{the characteristic function as defined below is better-suited to the methods of convex analysis}@}. <!--SR:!2025-01-21,16,290!2025-01-21,16,290!2025-01-13,9,250!2025-01-19,14,290!2025-01-21,16,290!2025-01-19,14,290-->
+In {@{the field of [mathematics](mathematics.md) known as [convex analysis](convex%20analysis.md)}@}, {@{the __characteristic function__ of a set}@} is {@{a [convex function](convex%20function.md) that indicates the membership \(or non-membership\) of a given element in that set}@}. It is similar to {@{the usual [indicator function](indicator%20function.md)}@}, and one can {@{freely convert between the two}@}, but {@{the characteristic function as defined below is better-suited to the methods of convex analysis}@}. <!--SR:!2025-01-21,16,290!2025-01-21,16,290!2025-02-15,33,270!2025-01-19,14,290!2025-01-21,16,290!2025-01-19,14,290-->
 
 ## definition
 
@@ -31,7 +31,7 @@ then {@{the indicator and characteristic functions are related}@} by {@{the equa
 
 ## subgradient
 
-{@{The [subgradient](subderivative.md) (annotation: i.e. subderivative, a generalization of the _derivative_ to convex functions at _non-differentiable points_) of $\chi _{A}(x)$ for a set $A$}@} is {@{the [tangent cone](tangent%20cone.md) (annotation: a generalization of _tangent space_ to a manifold to the case of certain spaces with _singularities_) of that set in $x$}@}. <!--SR:!2025-01-13,9,250!2025-01-13,9,250-->
+{@{The [subgradient](subderivative.md) (annotation: i.e. subderivative, a generalization of the _derivative_ to convex functions at _non-differentiable points_) of $\chi _{A}(x)$ for a set $A$}@} is {@{the [tangent cone](tangent%20cone.md) (annotation: a generalization of _tangent space_ to a manifold to the case of certain spaces with _singularities_) of that set in $x$}@}. <!--SR:!2025-02-06,24,250!2025-02-05,23,250-->
 
 ## bibliography
 

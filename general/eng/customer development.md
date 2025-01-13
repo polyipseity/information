@@ -36,7 +36,7 @@ One can create {@{a customer profile that shows a typical person}@} for each cus
 
 > [!example] examples
 >
-> - customers of a service selling meal plans to elderly ::@:: Buyers: Children of the elderly, as the elderly are unlikely to know how to use the service by themselves. Users: Elderly. <!--SR:!2025-06-12,308,330!2025-01-13,188,310-->
+> - customers of a service selling meal plans to elderly ::@:: Buyers: Children of the elderly, as the elderly are unlikely to know how to use the service by themselves. Users: Elderly. <!--SR:!2025-06-12,308,330!2026-08-22,586,310-->
 
 ### customer validation
 

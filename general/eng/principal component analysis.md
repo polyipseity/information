@@ -87,7 +87,7 @@ return chain(
 - find the eigenvectors and eigenvalues of the covariance matrix→::@::←rearrange the eigenvectors and eigenvalues <!--SR:!2025-03-08,186,270!2025-04-08,199,290-->
 - rearrange the eigenvectors and eigenvalues→::@::←compute the cumulative variance for each eigenvector <!--SR:!2025-02-19,184,310!2025-01-20,147,290-->
 - compute the cumulative variance for each eigenvector→::@::←select a subset of the eigenvectors as the new basis vectors <!--SR:!2025-04-13,218,290!2025-03-01,168,270-->
-- select a subset of the eigenvectors as the new basis vectors→::@::←project the data (deviations from the mean) onto the new basis <!--SR:!2025-05-27,221,270!2025-01-13,158,310-->
+- select a subset of the eigenvectors as the new basis vectors→::@::←project the data (deviations from the mean) onto the new basis <!--SR:!2025-05-27,221,270!2026-05-18,490,310-->
 - project the data (deviations from the mean) onto the new basis→::@::←_(end)_ <!--SR:!2025-01-31,172,310!2025-01-21,166,310-->
 
 <!--/pytextgen-->

@@ -100,7 +100,7 @@ return await memorize_seq(
 - _(begin)_→::@::←(Cap. 311) Air Pollution Control Ordinance <!--SR:!2025-09-22,265,255!2025-11-13,409,375-->
 - (Cap. 311) Air Pollution Control Ordinance→::@::←(Cap. 354) Waste Disposal Ordinance <!--SR:!2025-07-08,229,275!2025-01-27,111,275-->
 - (Cap. 354) Waste Disposal Ordinance→::@::←(Cap. 358) Water Pollution Control Ordinance <!--SR:!2025-08-14,228,275!2025-04-03,165,315-->
-- (Cap. 358) Water Pollution Control Ordinance→::@::←(Cap. 400) Noise Pollution Control Ordinance <!--SR:!2025-03-13,133,255!2025-01-13,20,175-->
+- (Cap. 358) Water Pollution Control Ordinance→::@::←(Cap. 400) Noise Pollution Control Ordinance <!--SR:!2025-03-13,133,255!2025-01-22,9,155-->
 - (Cap. 400) Noise Pollution Control Ordinance→::@::←(Cap. 499) Environmental Impact Ordinance <!--SR:!2025-02-06,149,295!2025-05-16,188,295-->
 - (Cap. 499) Environmental Impact Ordinance→::@::←_(end)_ <!--SR:!2025-11-29,423,375!2025-08-30,326,355-->
 
@@ -316,7 +316,7 @@ Properties of Sound Waves
 Air Pollution: A serious problem in Hong Kong?
 
 - regional air pollution concerns ::@:: outdoor and indoor air pollution <!--SR:!2025-10-16,381,310!2025-03-04,202,310-->
-- global air pollution concerns ::@:: acid rain and climate change <!--SR:!2025-05-16,275,330!2025-01-13,168,310-->
+- global air pollution concerns ::@:: acid rain and climate change <!--SR:!2025-05-16,275,330!2027-01-03,720,330-->
 - 3 major reasons causing air pollution in Hong Kong: <https://youtube.com/watch?v=XVvsQyyZHVg&feature=related>
   - industrial activities in China's Pearl River Delta
   - land use change affects air circulation
