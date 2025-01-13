@@ -222,6 +222,10 @@ archives/Wikimedia Commons
 - [Fr-en.ogg](Fr-en.ogg): <a href="https://commons.wikimedia.org/wiki/File:Fr-en.ogg">Vion Nicolas</a>, <a href="https://creativecommons.org/licenses/by/2.0/fr/deed.en">CC BY 2.0 fr</a>, via Wikimedia Commons
 - [Fr-on.ogg](Fr-on.ogg): <a href="https://commons.wikimedia.org/wiki/File:Fr-on.ogg">Vion Nicolas</a>, <a href="https://creativecommons.org/licenses/by/2.0/fr/deed.en">CC BY 2.0 fr</a>, via Wikimedia Commons
 - [Fr-un-fr BE.ogg](Fr-un-fr%20BE.ogg): <a href="https://commons.wikimedia.org/wiki/File:Fr-un-fr_BE.ogg">See page for author</a>, <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, via Wikimedia Commons
+- [Functor co-cone (extended).svg](Functor%20co-cone%20%28extended%29.svg): <a href="https://commons.wikimedia.org/wiki/File:Functor_co-cone_(extended).svg">Ryan Reich</a>, Public domain, via Wikimedia Commons
+- [Functor co-cone.svg](Functor%20co-cone.svg): <a href="https://commons.wikimedia.org/wiki/File:Functor_co-cone.svg">Ryan Reich</a>, Public domain, via Wikimedia Commons
+- [Functor cone (extended).svg](Functor%20cone%20%28extended%29.svg): <a href="https://commons.wikimedia.org/wiki/File:Functor_cone_(extended).svg">Ryan Reich</a>, Public domain, via Wikimedia Commons
+- [Functor cone.svg](Functor%20cone.svg): <a href="https://commons.wikimedia.org/wiki/File:Functor_cone.svg">Ryan Reich</a>, Public domain, via Wikimedia Commons
 - [GHS-pictogram-acid.svg](GHS-pictogram-acid.svg): <a href="https://commons.wikimedia.org/wiki/File:GHS-pictogram-acid.svg">See page for author</a>, Public domain, via Wikimedia Commons
 - [GHS-pictogram-bottle.svg](GHS-pictogram-bottle.svg): <a href="https://commons.wikimedia.org/wiki/File:GHS-pictogram-bottle.svg">See page for author</a>, Public domain, via Wikimedia Commons
 - [GHS-pictogram-exclam.svg](GHS-pictogram-exclam.svg): <a href="https://commons.wikimedia.org/wiki/File:GHS-pictogram-exclam.svg">See page for author</a>, Public domain, via Wikimedia Commons
