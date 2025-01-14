@@ -25,7 +25,7 @@ tags:
 
 {@{A minimum spanning tree of a connected weighted graph}@} is {@{a connected subgraph, without cycles, for which the sum of the weights of all the edges in the subgraph is minimal}@}. For {@{a disconnected graph}@}, {@{a minimum spanning forest}@} is {@{composed of a minimum spanning tree for each [connected component](component%20(graph%20theory).md)}@}. <!--SR:!2025-02-11,62,310!2025-02-16,66,310!2025-02-16,66,310!2025-02-18,67,310!2025-01-22,42,290-->
 
-This algorithm was first published by {@{[Joseph Kruskal](Joseph%20Kruskal.md) in 1956}@},<sup>[\[3\]](#^ref-3)</sup> and was {@{rediscovered soon afterward}@} by {@{[Loberman & Weinberger \(1957\)](#^ref-4)}@}.<sup>[\[4\]](#^ref-4)</sup> Other algorithms for this problem include {@{[Prim's algorithm](Prim's%20algorithm.md), [Borůvka's algorithm](Borůvka's%20algorithm.md), and the [reverse-delete algorithm](reverse-delete%20algorithm.md)}@}. <!--SR:!2025-01-24,44,290!2025-01-29,48,290!2025-01-14,38,290!2025-01-24,31,250-->
+This algorithm was first published by {@{[Joseph Kruskal](Joseph%20Kruskal.md) in 1956}@},<sup>[\[3\]](#^ref-3)</sup> and was {@{rediscovered soon afterward}@} by {@{[Loberman & Weinberger \(1957\)](#^ref-4)}@}.<sup>[\[4\]](#^ref-4)</sup> Other algorithms for this problem include {@{[Prim's algorithm](Prim's%20algorithm.md), [Borůvka's algorithm](Borůvka's%20algorithm.md), and the [reverse-delete algorithm](reverse-delete%20algorithm.md)}@}. <!--SR:!2025-01-24,44,290!2025-01-29,48,290!2025-05-06,112,290!2025-01-24,31,250-->
 
 ## algorithm
 
@@ -216,7 +216,7 @@ Kruskal's algorithm is {@{inherently sequential and hard to parallelize}@}. It i
 >         {@{<b>if</b> find_set(u) ≠ find_set(v)}@} <b>then</b>
 >             {@{E<sub>f</sub> = E<sub>f</sub> ∪ {(u, v)}<!-- flashcard separator -->}@}
 >     {@{<b>return</b> E<sub>f</sub>}@}
-> </pre> <!--SR:!2025-02-09,60,310!2025-02-16,66,310!2025-02-07,58,310!2025-02-18,67,310!2025-01-15,39,290!2025-02-16,66,310!2025-02-12,63,310!2025-01-14,12,250!2025-02-10,61,310!2025-02-17,67,310!2025-02-08,59,310!2025-02-11,62,310!2025-02-08,59,310!2025-02-06,57,310!2025-02-11,62,310!2025-02-18,67,310!2025-02-12,63,310!2025-02-17,67,310!2025-02-16,66,310!2025-03-26,79,270!2025-02-17,66,310!2025-02-18,67,310-->
+> </pre> <!--SR:!2025-02-09,60,310!2025-02-16,66,310!2025-02-07,58,310!2025-02-18,67,310!2025-01-15,39,290!2025-02-16,66,310!2025-02-12,63,310!2025-02-14,31,250!2025-02-10,61,310!2025-02-17,67,310!2025-02-08,59,310!2025-02-11,62,310!2025-02-08,59,310!2025-02-06,57,310!2025-02-11,62,310!2025-02-18,67,310!2025-02-12,63,310!2025-02-17,67,310!2025-02-16,66,310!2025-03-26,79,270!2025-02-17,66,310!2025-02-18,67,310-->
 
 Filter-Kruskal {@{lends itself better to parallelization}@} as {@{sorting, filtering, and partitioning can easily be performed in parallel}@} by {@{distributing the edges between the processors}@}.<sup>[\[7\]](#^ref-7)</sup> <!--SR:!2025-02-12,63,310!2025-02-08,59,310!2025-02-12,63,310-->
 

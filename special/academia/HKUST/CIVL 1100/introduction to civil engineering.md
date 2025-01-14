@@ -29,7 +29,7 @@ The content is in teaching order.
 - civil engineering ::@:: construction, design, maintenance, and planning of the built environment, including buildings and infrastructure <!--SR:!2025-09-25,337,300!2025-06-01,315,380-->
   - "civil" meaning ::@:: "Civil" distinguishes non-military from military purposes. <!--SR:!2025-05-09,327,350!2025-09-22,417,397-->
   - civil engineer characteristics ::@:: problem solvers <!--SR:!2025-11-14,410,335!2027-05-22,879,372-->
-  - civil engineering characteristics ::@:: Oldest engineering discipline. Takes place on all levels, from municipal to nationals in the public sector, from homeowners to international companies in the private sector. <!--SR:!2025-01-14,171,301!2025-05-20,310,380-->
+  - civil engineering characteristics ::@:: Oldest engineering discipline. Takes place on all levels, from municipal to nationals in the public sector, from homeowners to international companies in the private sector. <!--SR:!2026-12-29,714,321!2025-05-20,310,380-->
   - built environment ::@:: man-made using materials and natural resources, benefiting mankind, with environment protection and prudent urban planning <!--SR:!2025-04-23,252,312!2027-09-20,994,350-->
     - built environment example ::@:: Hoover Dam, a hydroelectric and reservoir project constructed on the Colorado River from 1931 to 1936, affects Las Vegas, United States significantly to the present. <!--SR:!2026-04-30,486,297!2025-03-15,237,345-->
 - civil engineering importance ::@:: improving living environments, productivity, and working efficiency <!--SR:!2025-12-11,429,340!2027-04-22,866,372-->
@@ -462,7 +462,7 @@ testing materials
 - quality assurance→::@::←quality control <!--SR:!2026-11-12,742,377!2027-06-11,879,372-->
 - quality control→::@::←safety engineering <!--SR:!2025-02-12,195,301!2025-05-11,168,235-->
 - safety engineering→::@::←scheduling <!--SR:!2025-05-17,261,320!2025-11-12,407,340-->
-- scheduling→::@::←surveying building site <!--SR:!2025-01-14,149,241!2026-02-05,476,320-->
+- scheduling→::@::←surveying building site <!--SR:!2026-06-04,506,261!2026-02-05,476,320-->
 - surveying building site→::@::←testing materials <!--SR:!2025-07-12,203,240!2025-05-20,207,272-->
 - testing materials→::@::←_(end)_ <!--SR:!2025-02-21,236,347!2025-04-14,245,307-->
 
@@ -674,7 +674,7 @@ socioeconomic
 - _(begin)_→::@::←biological <!--SR:!2025-04-13,248,327!2025-09-04,404,394-->
 - biological→::@::←chemical <!--SR:!2025-12-06,424,337!2025-03-18,247,357-->
 - chemical→::@::←cultural <!--SR:!2025-10-17,333,280!2027-03-26,849,377-->
-- cultural→::@::←physical <!--SR:!2026-07-28,649,365!2025-01-14,132,300-->
+- cultural→::@::←physical <!--SR:!2026-07-28,649,365!2026-07-24,556,320-->
 - physical→::@::←socioeconomic <!--SR:!2025-08-22,264,277!2025-04-02,244,361-->
 - socioeconomic→::@::←_(end)_ <!--SR:!2026-10-27,667,354!2025-05-29,247,277-->
 
@@ -743,7 +743,7 @@ tunnel
 - _(begin)_→::@::←embankment <!--SR:!2025-09-25,357,320!2025-06-28,320,380-->
 - embankment→::@::←pile foundation <!--SR:!2026-03-06,512,340!2025-02-18,218,360-->
 - pile foundation→::@::←shallow foundation <!--SR:!2027-01-16,739,337!2026-11-13,678,355-->
-- shallow foundation→::@::←tunnel <!--SR:!2025-09-06,333,321!2025-01-14,103,212-->
+- shallow foundation→::@::←tunnel <!--SR:!2025-09-06,333,321!2025-11-26,316,232-->
 - tunnel→::@::←_(end)_ <!--SR:!2025-01-15,195,350!2026-01-29,412,317-->
 
 <!--/pytextgen-->

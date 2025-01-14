@@ -42,7 +42,7 @@ When {@{a [raw material](raw%20material.md) or a similar economic good is for sa
 According to {@{[Milton Friedman](Milton%20Friedman.md)}@}, price has {@{__five functions__ in a __free-enterprise exchange economy__}@} which is {@{characterized by private ownership of the means of production}@}:<sup>[\[3\]](#^ref-3)</sup> <!--SR:!2025-01-21,47,290!2025-02-08,65,310!2025-02-02,60,310-->
 
 - __Transmitting__ ::@:: information about changes in the relative importance of different end-products and factors of production. <!--SR:!2025-01-22,48,290!2025-02-10,67,310-->
-- __Providing__ an incentive for enterprise ::@:: \(a\) to produce those products valued most highly by the market, and \(b\) to use methods of production that economize relatively scarce factors of production. <!--SR:!2025-02-05,62,310!2025-01-14,45,290-->
+- __Providing__ an incentive for enterprise ::@:: \(a\) to produce those products valued most highly by the market, and \(b\) to use methods of production that economize relatively scarce factors of production. <!--SR:!2025-02-05,62,310!2025-07-15,182,310-->
 - __Providing__ an incentive to owners of resources ::@:: to direct them into the most highly remunerated uses <!--SR:!2025-02-06,63,310!2025-02-08,65,310-->
 - __Distributing__ ::@:: output among the owners of resources <!--SR:!2025-02-07,64,310!2025-02-08,65,310-->
 - __Rationing__ ::@:: fixed supplies of goods among consumers. <!--SR:!2025-02-10,67,310!2025-02-09,66,310-->
@@ -97,7 +97,7 @@ On {@{[restaurant](restaurant.md) [menus](menu.md)}@}, {@{the market price \(oft
 
 __Basic Price__: ::@:: It is the amount that producer receive from buyer for a unit of good or service produced minus any taxes payable and plus subsidies payable on that unit as the result of its production or sales. It does not include any producer transport charges which are involved separately.<sup>[\[11\]](#^ref-11)</sup> <!--SR:!2025-01-29,46,250!2025-03-20,81,270-->
 
-__Pay What You Decide__ \(PWYD\): ::@:: a pricing system which allows the purchaser to choose a price to pay based on their circumstances and the benefit which the goods or services provide for them.<sup>[\[12\]](#^ref-12)</sup> <!--SR:!2025-01-14,45,290!2025-02-09,66,310-->
+__Pay What You Decide__ \(PWYD\): ::@:: a pricing system which allows the purchaser to choose a price to pay based on their circumstances and the benefit which the goods or services provide for them.<sup>[\[12\]](#^ref-12)</sup> <!--SR:!2025-07-13,180,310!2025-02-09,66,310-->
 
 __Producer Price Index__: ::@:: this index measures the average change in the selling price of domestic producers' products over time.<sup>[\[13\]](#^ref-13)</sup> <!--SR:!2025-04-18,110,290!2025-02-09,66,310-->
 

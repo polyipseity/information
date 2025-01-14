@@ -71,7 +71,7 @@ return _chain.from_iterable(await _gather(
 - _(begin)_→::@::←`^` <!--SR:!2025-11-09,452,310!2025-03-09,307,330-->
 - `^`→::@::←`*` <!--SR:!2027-03-28,822,330!2026-08-23,697,330-->
 - `*`→::@::←`/` <!--SR:!2026-11-14,758,330!2027-07-06,972,350-->
-- `/`→::@::←`+` <!--SR:!2025-01-14,265,330!2025-01-26,277,330-->
+- `/`→::@::←`+` <!--SR:!2028-05-04,1206,350!2025-01-26,277,330-->
 - `+`→::@::←`-` <!--SR:!2028-02-12,1145,350!2027-12-26,1107,350-->
 - `-`→::@::←_(end)_ <!--SR:!2025-02-13,292,330!2025-01-20,272,330-->
 
@@ -272,7 +272,7 @@ return _chain.from_iterable(await _gather(
 <!--pytextgen generate section="29ca"--><!-- The following content is generated at 2024-01-31T12:40:31.103335+08:00. Any edits will be overridden! -->
 
 - (operator) `&`:@:concatenation <!--SR:!2027-10-03,1039,350-->
-- `LEFT(string, length)`:@:get the first `length` characters in `string` <!--SR:!2025-01-14,266,330-->
+- `LEFT(string, length)`:@:get the first `length` characters in `string` <!--SR:!2027-06-13,880,330-->
 - `LEN(string)`:@:length of `string` <!--SR:!2028-03-15,1169,350-->
 - `LOWER(string)`:@:convert to lowercase <!--SR:!2027-05-14,927,350-->
 - `RIGHT(string, length)`:@:get the last `length` characters in `string` <!--SR:!2028-01-17,1119,350-->

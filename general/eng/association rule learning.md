@@ -14,7 +14,7 @@ tags:
 
 ### support
 
-Support is {@{how frequently the item set appears in the data set}@}. For a item set X, it is defined as {@{$\operatorname{supp}(X) = P(X) = \frac {\text{number of transactions containing }X} {\text{total number of transactions} }$}@}. An alternative definition is simply {@{the number of transactions containing X}@}, in which case adjust the equations below yourself accordingly. <!--SR:!2025-01-14,261,330!2028-03-10,1160,350!2027-07-18,975,350-->
+Support is {@{how frequently the item set appears in the data set}@}. For a item set X, it is defined as {@{$\operatorname{supp}(X) = P(X) = \frac {\text{number of transactions containing }X} {\text{total number of transactions} }$}@}. An alternative definition is simply {@{the number of transactions containing X}@}, in which case adjust the equations below yourself accordingly. <!--SR:!2028-04-17,1189,350!2028-03-10,1160,350!2027-07-18,975,350-->
 
 ### confidence
 
@@ -30,7 +30,7 @@ Lift expresses {@{the observed co-occurrence of X and Y compared to that expecte
 
 ### conviction
 
-Conviction is {@{the ratio of the incorrectness of a rule, if the antecedent and the consequent are [independent](independence%20(probability%20theory).md), to the observed incorrectness}@}. For two item sets X and Y, and {@{a rule $X \Rightarrow Y$ with X as the antecedent and Y as the consequent, the lift of the rule is defined as $\operatorname{conv}(X \Rightarrow Y) = \frac {\operatorname{supp}(\lnot Y)} {\operatorname{conf}(X \Rightarrow \lnot Y)} = \frac {1 - \operatorname{supp}(Y)} {1 - \operatorname{conf}(X \Rightarrow Y)}$}@}. <!--SR:!2025-09-23,391,290!2025-01-14,240,290-->
+Conviction is {@{the ratio of the incorrectness of a rule, if the antecedent and the consequent are [independent](independence%20(probability%20theory).md), to the observed incorrectness}@}. For two item sets X and Y, and {@{a rule $X \Rightarrow Y$ with X as the antecedent and Y as the consequent, the lift of the rule is defined as $\operatorname{conv}(X \Rightarrow Y) = \frac {\operatorname{supp}(\lnot Y)} {\operatorname{conf}(X \Rightarrow \lnot Y)} = \frac {1 - \operatorname{supp}(Y)} {1 - \operatorname{conf}(X \Rightarrow Y)}$}@}. <!--SR:!2025-09-23,391,290!2026-12-09,694,290-->
 
 Conviction expresses {@{how often X fails to predict Y if X and Y are [independent](independence%20(probability%20theory).md) compared to that observed}@}. <!--SR:!2026-07-14,608,310-->
 
