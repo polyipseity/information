@@ -57,7 +57,7 @@ While {@{every isomorphism is a bimorphism, a bimorphism is not necessarily an i
 
 ### endomorphisms and automorphisms
 
-{@{A morphism _f_ : _X_ → _X_ \(that is, a morphism with identical source and target\)}@} is {@{an [endomorphism](endomorphism.md) of _X_}@}. {@{A __split endomorphism__}@} is {@{an idempotent endomorphism _f_ <!-- if _f_ -->that additionally admits a decomposition _f_ = _h_ ∘ _g_ with _g_ ∘ _h_ = id}@}. In particular, {@{the [Karoubi envelope](Karoubi%20envelope.md) of a category}@} {@{splits every idempotent morphism (annotation: not just idempotent endomorphism)}@}.
+{@{A morphism _f_ : _X_ → _X_ \(that is, a morphism with identical source and target\)}@} is {@{an [endomorphism](endomorphism.md) of _X_}@}. {@{A __split endomorphism__}@} is {@{an idempotent endomorphism _f_ <!-- if _f_ -->that additionally admits a decomposition _f_ = _h_ ∘ _g_ with _g_ ∘ _h_ = id}@}. In particular, {@{the [Karoubi envelope](Karoubi%20envelope.md) of a category}@} {@{splits every idempotent morphism (annotation: note that a idempotent morphism must be an endomorphism, or otherwise you cannot compose it with itself)}@}.
 
 {@{An [automorphism](automorphism.md)}@} is {@{a morphism that is both an endomorphism and an isomorphism}@}. In {@{every category, the automorphisms of an object always form a [group](group%20(mathematics).md)}@}, called {@{the [automorphism group](automorphism%20group.md) of the object}@}.
 
