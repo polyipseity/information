@@ -23,7 +23,7 @@ Economic theory describes {@{two goods as being close substitutes if three condi
 >
 > Figure 1: {@{If the price of $x_{i}$ increases, then demand for $x_{j}$ increases}@} <!--SR:!2025-02-18,76,330!2025-01-27,57,310-->
 
-{@{Performance characteristics}@} describe {@{what the product does for the customer; a solution to customers' needs or wants}@}.<sup>[\[3\]](#^ref-3)</sup> For example, a beverage would {@{quench a customer's thirst}@}. <!--SR:!2025-01-26,56,310!2025-01-15,46,290!2025-02-04,63,310-->
+{@{Performance characteristics}@} describe {@{what the product does for the customer; a solution to customers' needs or wants}@}.<sup>[\[3\]](#^ref-3)</sup> For example, a beverage would {@{quench a customer's thirst}@}. <!--SR:!2025-01-26,56,310!2025-05-28,133,290!2025-02-04,63,310-->
 
 {@{A product's occasion for use}@} describes {@{when, where and how it is used}@}.<sup>[\[3\]](#^ref-3)</sup> For example, orange juice and soft drinks are {@{both beverages but are used by consumers in different occasions \(i.e. breakfast vs during the day\)}@}. <!--SR:!2025-02-02,61,310!2025-01-26,56,310!2025-02-07,66,310-->
 

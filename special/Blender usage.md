@@ -36,7 +36,7 @@ See also [Blender manual](https://docs.blender.org/manual/en/dev/interface/keyma
 
 ### editing
 
-- delete w/ confirmation::@::X <!--SR:!2030-07-20,2063,330!2025-01-15,519,316-->
+- delete w/ confirmation::@::X <!--SR:!2030-07-20,2063,330!2029-07-13,1640,316-->
 - delete w/o confirmation::@::Delete <!--SR:!2025-01-28,571,330!2029-08-14,1802,316-->
 
 ### editor

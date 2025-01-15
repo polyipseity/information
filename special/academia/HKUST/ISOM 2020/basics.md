@@ -214,7 +214,7 @@ return _chain.from_iterable(await _gather(
 
 <!--pytextgen generate section="ee13"--><!-- The following content is generated at 2024-01-30T13:35:46.696328+08:00. Any edits will be overridden! -->
 
-- `not`:@:negate <!--SR:!2025-01-15,90,369-->
+- `not`:@:negate <!--SR:!2026-04-19,459,389-->
 - `and`:@:and <!--SR:!2025-01-25,100,369-->
 - `or`:@:or <!--SR:!2025-01-20,95,369-->
 

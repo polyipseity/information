@@ -25,7 +25,7 @@ Treating {@{calcium [salts](salt%20(chemistry).md) with a strong [base](base%20(
 
 ### tests
 
-Calcium hydroxide can be used to test for {@{[carbon dioxide](carbon%20dioxide.md)}@}. <!--SR:!2025-01-15,584,298-->
+Calcium hydroxide can be used to test for {@{[carbon dioxide](carbon%20dioxide.md)}@}. <!--SR:!2031-08-26,2414,318-->
 
 ## preparation steps
 

@@ -46,7 +46,7 @@ public class Name {
 }
 ```
 
-To make the class accessible to code in other files, {@{prepend `public` before `class` and ensure the file containing the class has the same filename (excluding the `.java` extension) as the class name. In this example, `Name.java` is the filename}@}. <!--SR:!2025-01-15,265,330-->
+To make the class accessible to code in other files, {@{prepend `public` before `class` and ensure the file containing the class has the same filename (excluding the `.java` extension) as the class name. In this example, `Name.java` is the filename}@}. <!--SR:!2027-06-07,873,330-->
 
 Then to create an object, one uses {@{`new`}@}: <!--SR:!2027-05-15,900,330-->
 
@@ -74,7 +74,7 @@ void aMethod(String arg1, int arg2) {
 }
 ```
 
-The return type indicates {@{the type of the method output}@}. The `void` type is {@{a special return type indicating no method output}@}. To return a non-`void` value, use {@{`return`, like `return valueOfReturnType;`}@}. <!--SR:!2025-01-15,268,330!2028-02-04,1136,350!2026-09-06,711,330-->
+The return type indicates {@{the type of the method output}@}. The `void` type is {@{a special return type indicating no method output}@}. To return a non-`void` value, use {@{`return`, like `return valueOfReturnType;`}@}. <!--SR:!2028-05-23,1224,350!2028-02-04,1136,350!2026-09-06,711,330-->
 
 The parameter types indicates {@{the types of the method inputs}@}. It is possible to have {@{no parameters}@}. Each parameter is {@{separated by `,`, with the parameter type appearing before the parameter name}@}. <!--SR:!2028-01-23,1128,350!2026-09-30,728,330!2025-02-18,292,330-->
 

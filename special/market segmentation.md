@@ -22,7 +22,7 @@ Traditional variables include {@{[demographic](#demographic%20segmentation), [ge
 
 #### demographic segmentation
 
-Demographic segmentation divides the market by {@{factual and physical data}@}. <!--SR:!2025-01-15,178,270-->
+Demographic segmentation divides the market by {@{factual and physical data}@}. <!--SR:!2026-05-11,481,270-->
 
 #### geographic segmentation
 
