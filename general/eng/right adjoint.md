@@ -1,0 +1,1 @@
+adjoint functors.md
