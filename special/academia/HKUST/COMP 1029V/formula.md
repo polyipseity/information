@@ -205,7 +205,7 @@ return _chain.from_iterable(await _gather(
 
 <!--pytextgen generate section="ee13"--><!-- The following content is generated at 2024-02-05T12:43:07.023980+08:00. Any edits will be overridden! -->
 
-- `NOT(boolean)`:@:negate <!--SR:!2025-01-16,269,330-->
+- `NOT(boolean)`:@:negate <!--SR:!2028-05-27,1227,350-->
 - `AND(booleans...)`:@:every input is true <!--SR:!2028-01-01,1110,350-->
 - `OR(booleans...)`:@:there exists true inputs <!--SR:!2025-02-10,289,330-->
 

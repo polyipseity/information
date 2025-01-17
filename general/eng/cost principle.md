@@ -26,7 +26,7 @@ tags:
 <!-- -->
 <!-- | - [v](https://en.wikipedia.org/wiki/Template:Accounting) <br/> - [t](https://en.wikipedia.org/wiki/Template%20talk:Accounting) <br/> - [e](https://en.wikipedia.org/wiki/Special:EditPage/Template%3AAccounting) | -->
 
-In {@{[accounting](accounting.md)}@}, {@{the __cost principle__}@} is {@{part of the [generally accepted accounting principles](generally%20accepted%20accounting%20principles.md)}@}. Assets should {@{always be recorded at their cost, when the asset is new and also for the life of the asset}@}. For instance, {@{land purchased for \$30,000}@} is {@{appraised at the much higher value because the housing market has risen}@}, but {@{the reported value of the land will remain \$30,000}@}.<sup>[\[1\]](#^ref-1)</sup><sup>[\[2\]](#^ref-2)</sup><sup>[\[3\]](#^ref-3)</sup> <!--SR:!2025-01-16,4,270!2025-01-16,4,270!2025-01-16,4,270!2025-01-16,4,270!2025-01-16,4,270!2025-01-16,4,270!2025-01-16,4,270-->
+In {@{[accounting](accounting.md)}@}, {@{the __cost principle__}@} is {@{part of the [generally accepted accounting principles](generally%20accepted%20accounting%20principles.md)}@}. Assets should {@{always be recorded at their cost, when the asset is new and also for the life of the asset}@}. For instance, {@{land purchased for \$30,000}@} is {@{appraised at the much higher value because the housing market has risen}@}, but {@{the reported value of the land will remain \$30,000}@}.<sup>[\[1\]](#^ref-1)</sup><sup>[\[2\]](#^ref-2)</sup><sup>[\[3\]](#^ref-3)</sup> <!--SR:!2025-02-01,16,290!2025-02-01,16,290!2025-01-30,14,290!2025-01-31,15,290!2025-01-30,14,290!2025-01-31,15,290!2025-02-01,16,290-->
 
 ## references
 

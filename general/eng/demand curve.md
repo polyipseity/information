@@ -116,7 +116,7 @@ If {@{the price axis in the graph represents the price before addition of tax an
 
 - When the demand curve is perfectly inelastic \(vertical demand curve\), ::@:: all taxes are borne by the consumer. <!--SR:!2025-02-01,56,310!2025-01-30,54,310-->
 - When the demand curve is perfectly elastic \(horizontal demand curve\), ::@:: all taxes are borne by the supplier. <!--SR:!2025-02-01,56,310!2025-02-02,57,310-->
-- If the demand curve is more elastic (than the supply curve), ::@:: the supplier bears a larger share of the cost increase or tax. <sup>[\[16\]](#^ref-16)</sup> <!--SR:!2025-01-16,43,290!2025-02-14,67,310-->
+- If the demand curve is more elastic (than the supply curve), ::@:: the supplier bears a larger share of the cost increase or tax. <sup>[\[16\]](#^ref-16)</sup> <!--SR:!2025-07-07,172,310!2025-02-14,67,310-->
 
 ## derived demand
 

@@ -29,7 +29,7 @@ The [positron](positron.md) will {@{[annihilate](annihilation.md) with an [elect
 
 - 1st step + annihilation / energy release ::@:: 1.442 MeV <!--SR:!2025-09-11,261,275!2025-04-07,174,315-->
 
-After it is formed, the [deuteron](deuteron.md) produced in the first stage can {@{fuse with another [proton](proton.md) to produce the stable, light [isotope](isotope.md) of [helium](helium.md), <sup>3</sup>He}@}: {@{$${}_1^2 \mathrm{D} + {}_1^1 \mathrm{H} \to {}_2^3 \mathrm{He} + \gamma + 5.493\text{ MeV}$$}@}. <!--SR:!2025-01-16,114,295!2025-01-24,106,255-->
+After it is formed, the [deuteron](deuteron.md) produced in the first stage can {@{fuse with another [proton](proton.md) to produce the stable, light [isotope](isotope.md) of [helium](helium.md), <sup>3</sup>He}@}: {@{$${}_1^2 \mathrm{D} + {}_1^1 \mathrm{H} \to {}_2^3 \mathrm{He} + \gamma + 5.493\text{ MeV}$$}@}. <!--SR:!2025-12-17,335,295!2025-01-24,106,255-->
 
 - 2nd step / energy release ::@:: 5.493 MeV <!--SR:!2025-01-22,28,130!2025-02-08,32,210-->
 

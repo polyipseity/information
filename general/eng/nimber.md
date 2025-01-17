@@ -97,14 +97,14 @@ This subset is {@{closed under both operations}@}, since {@{16 is of the form 2<
 >
 > {@{Nimber multiplication}@} \(sequence {@{[A051775](https://oeis.org/A051775)}@} in the [OEIS](On-Line%20Encyclopedia%20of%20Integer%20Sequences.md)\) <br/>
 > The nonzero elements form the [Cayley table](cayley%20table.md) of [Z<sub>15</sub>](list%20of%20small%20groups.md#list%20of%20small%20abelian%20groups). <br/>
-> The small matrices are permuted binary [Walsh matrices](walsh%20matrix.md). <!--SR:!2025-02-27,47,290!2025-03-04,54,310!2025-01-16,3,205-->
+> The small matrices are permuted binary [Walsh matrices](walsh%20matrix.md). <!--SR:!2025-02-27,47,290!2025-03-04,54,310!2025-01-22,6,205-->
 
 <!-- markdownlint MD028 -->
 
 > {@{![nimber multiplication table among powers of two](../../archives/Wikimedia%20Commons/Nimber%20products%20of%20powers%20of%20two.svg)}@}
 >
 > {@{Nimber multiplication of [powers of two](power%20of%20two.md)}@} \(sequence {@{[A223541](https://oeis.org/A223541)}@} in the [OEIS](On-Line%20Encyclopedia%20of%20Integer%20Sequences.md)\) <br/>
-> {@{Calculating the nim-products of powers of two}@} is {@{a decisive point in the recursive algorithm of nimber-multiplication}@}. <!--SR:!2025-03-07,54,313!2025-02-22,46,290!2025-01-16,3,213!2025-02-15,42,305!2025-03-07,54,313-->
+> {@{Calculating the nim-products of powers of two}@} is {@{a decisive point in the recursive algorithm of nimber-multiplication}@}. <!--SR:!2025-03-07,54,313!2025-02-22,46,290!2025-01-22,6,213!2025-02-15,42,305!2025-03-07,54,313-->
 
 ## see also
 

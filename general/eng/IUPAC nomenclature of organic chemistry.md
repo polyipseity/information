@@ -469,7 +469,7 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - formula: {@{RCOR'}@}
 > - prefix: {@{oxo- (=O), ([prefix for carbon count](#prefix%20for%20carbon%20count))oyl- (-COR'), alkoyl- (-COR')}@}
 > - suffix: {@{-one}@}
-> - infix: {@{(locant)}@} <!--SR:!2025-12-23,823,300!2026-10-01,825,280!2025-03-13,595,321!2025-03-19,92,130!2025-01-16,228,342!2028-07-31,1552,362-->
+> - infix: {@{(locant)}@} <!--SR:!2025-12-23,823,300!2026-10-01,825,280!2025-03-13,595,321!2025-03-19,92,130!2027-03-07,780,342!2028-07-31,1552,362-->
 
 <!-- markdownlint MD028 -->
 
@@ -631,7 +631,7 @@ return (
 - cation→::@::←carboxylic acid <!--SR:!2028-03-22,1421,275!2026-01-18,914,276-->
 - carboxylic acid→::@::←carboxylic acid derivative <!--SR:!2028-08-04,1590,306!2026-10-25,1301,346-->
 - carboxylic acid derivative→::@::←nitrile <!--SR:!2027-06-13,896,210!2025-06-24,292,247-->
-- nitrile→::@::←aldehyde <!--SR:!2025-01-16,1,130!2025-05-14,154,190-->
+- nitrile→::@::←aldehyde <!--SR:!2025-01-18,2,150!2025-05-14,154,190-->
 - aldehyde→::@::←ketone <!--SR:!2026-12-29,1065,252!2025-10-08,305,230-->
 - ketone→::@::←alcohol <!--SR:!2026-06-11,743,250!2025-03-27,75,150-->
 - alcohol→::@::←hydroperoxide <!--SR:!2027-05-18,1057,226!2026-10-20,1068,272-->
