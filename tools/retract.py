@@ -65,6 +65,7 @@ async def _exec(
             **kwargs,
         )
         stdout, stderr = await proc.communicate(input=input)
+        await proc.wait()
     stdout, stderr = (
         stdout.decode(errors="backslashreplace"),
         stderr.decode(errors="backslashreplace"),

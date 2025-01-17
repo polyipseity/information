@@ -1,0 +1,1 @@
+dual (category theory).md

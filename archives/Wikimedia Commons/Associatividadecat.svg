@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" height="100%" width="100%" version="1.1" viewBox="0 0 497.66012 578.14844">
+ <defs>
+  <marker id="Arrow1Mend" refY="0" refX="0" overflow="visible" orient="auto">
+   <path d="m0 0 5-5-17.5 5 17.5 5-5-5z" fill-rule="evenodd" transform="matrix(-.4 0 0 -.4 -4 0)" stroke="#000" stroke-width="1pt"/>
+  </marker>
+ </defs>
+ <g font-family="cmmi10" font-style="italic" fill="#000000">
+  <text font-size="144px" y="116.39062" x="2.125">a</text>
+  <text font-size="72px" y="59.957031" x="221.47852">h</text>
+  <text font-size="144px" y="134.53125" x="405.18356">b</text>
+  <text font-size="72px" y="329.26352" x="260.33191">g</text>
+  <text font-size="144px" y="534.53125" x="392.94919">d</text>
+  <text font-size="144px" y="516.39062" x="3.390625">c</text>
+  <text font-size="72px" y="553.38281" x="218.92969">f</text>
+ </g>
+ <g stroke-linejoin="round" stroke="#000" stroke-linecap="round" stroke-width="7" fill="none">
+  <path marker-end="url(#Arrow1Mend)" d="m119.24 85.383h250"/>
+  <path marker-end="url(#Arrow1Mend)" d="m44.242 160.38v250"/>
+  <path marker-end="url(#Arrow1Mend)" d="m444.24 160.38v250"/>
+  <path marker-end="url(#Arrow1Mend)" d="m119.24 485.38h250"/>
+  <path marker-end="url(#Arrow1Mend)" d="m369.24 160.38-250 250"/>
+ </g>
+</svg>
