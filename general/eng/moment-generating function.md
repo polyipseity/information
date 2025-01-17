@@ -58,13 +58,13 @@ Here are {@{some examples of the moment-generating function and the characterist
 
 > __flashcards__
 >
-> - [degenerate](degenerate%20distribution.md) $\delta _{a}$ ::@:: $M_X(t) = e^{ta}$, $\varphi(t) = e^{ita}$
-> - [Bernoulli](Bernoulli%20distribution.md) $P(X=1)=p$ ::@:: $M_X(t) = 1-p+pe^{t}$, $\varphi(t) = 1-p+pe^{it}$
-> - [binomial](binomial%20distribution.md) $B(n,p)$ ::@:: $M_X(t) = \left(1-p+pe^{t}\right)^{n}$, $\varphi(t) = \left(1-p+pe^{it}\right)^{n}$
-> - [Poisson](Poisson%20distribution.md) $\operatorname {Pois} (\lambda )$ ::@:: $M_X(t) = e^{\lambda (e^{t}-1)}$, $\varphi(t) = e^{\lambda (e^{it}-1)}$
-> - [uniform \(continuous\)](uniform%20distribution%20(continuous).md) $\operatorname {U} (a,b)$ ::@:: $M_X(t) = {\frac {e^{tb}-e^{ta} }{t(b-a)} }$, $\varphi(t) = {\frac {e^{itb}-e^{ita} }{it(b-a)} }$
-> - [normal](normal%20distribution.md) $N(\mu ,\sigma ^{2})$ ::@:: $M_X(t) = e^{t\mu +{\frac {1}{2} }\sigma ^{2}t^{2} }$, $\varphi(t) = e^{it\mu -{\frac {1}{2} }\sigma ^{2}t^{2} }$
-> - [multivariate normal](multivariate%20normal%20distribution.md) $N(\boldsymbol {\mu } ,\mathbf {\Sigma } )$ ::@:: $M_X(t) = e^{\mathbf {t} ^{\mathrm {T} }\left({\boldsymbol {\mu } }+{\frac {1}{2} }\mathbf {\Sigma t} \right)}$, $\varphi(t) = e^{\mathbf {t} ^{\mathrm {T} }\left(i{\boldsymbol {\mu } }-{\frac {1}{2} }{\boldsymbol {\Sigma } }\mathbf {t} \right)}$
+> - [degenerate](degenerate%20distribution.md) $\delta _{a}$ ::@:: $M_X(t) = e^{ta}$, $\varphi_X(t) = e^{ita}$
+> - [Bernoulli](Bernoulli%20distribution.md) $P(X=1)=p$ ::@:: $M_X(t) = 1-p+pe^{t}$, $\varphi_X(t) = 1-p+pe^{it}$
+> - [binomial](binomial%20distribution.md) $B(n,p)$ ::@:: $M_X(t) = \left(1-p+pe^{t}\right)^{n}$, $\varphi_X(t) = \left(1-p+pe^{it}\right)^{n}$
+> - [Poisson](Poisson%20distribution.md) $\operatorname {Pois} (\lambda )$ ::@:: $M_X(t) = e^{\lambda (e^{t}-1)}$, $\varphi_X(t) = e^{\lambda (e^{it}-1)}$
+> - [uniform \(continuous\)](uniform%20distribution%20(continuous).md) $\operatorname {U} (a,b)$ ::@:: $M_X(t) = {\frac {e^{tb}-e^{ta} }{t(b-a)} }$, $\varphi_X(t) = {\frac {e^{itb}-e^{ita} }{it(b-a)} }$
+> - [normal](normal%20distribution.md) $N(\mu ,\sigma ^{2})$ ::@:: $M_X(t) = e^{t\mu +{\frac {1}{2} }\sigma ^{2}t^{2} }$, $\varphi_X(t) = e^{it\mu -{\frac {1}{2} }\sigma ^{2}t^{2} }$
+> - [multivariate normal](multivariate%20normal%20distribution.md) $N(\boldsymbol {\mu } ,\mathbf {\Sigma } )$ ::@:: $M_X(t) = e^{\mathbf {t} ^{\mathrm {T} }\left({\boldsymbol {\mu } }+{\frac {1}{2} }\mathbf {\Sigma t} \right)}$, $\varphi_X(t) = e^{\mathbf {t} ^{\mathrm {T} }\left(i{\boldsymbol {\mu } }-{\frac {1}{2} }{\boldsymbol {\Sigma } }\mathbf {t} \right)}$
 > - examples of distribution without moment-generating function ::@:: [Cauchy](Cauchy%20distribution.md) $\operatorname {Cauchy} (\mu ,\theta )$, [multivariate Cauchy](multivariate%20Cauchy%20distribution.md#multivariate%20Cauchy%20distribution) $\operatorname {MultiCauchy} (\boldsymbol \mu , \mathbf \Sigma )$
 
 ## calculation
