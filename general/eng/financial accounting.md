@@ -132,7 +132,7 @@ This basic principle gives rise to the commonly used {@{[historical cost account
 
 ### units of constant purchasing power
 
-The stable monetary unit assumption is {@{not applied during hyperinflation}@}. {@{IFRS}@} requires {@{entities to implement capital maintenance in units of constant purchasing power}@} in terms of {@{IAS 29 Financial Reporting in Hyperinflationary Economies}@}. <!--SR:!2025-02-21,117,290!2025-09-26,293,330!2025-08-31,227,270-->
+The stable monetary unit assumption is {@{not applied during hyperinflation}@}. {@{IFRS}@} requires {@{entities to implement capital maintenance in units of constant purchasing power}@} in terms of {@{IAS 29 Financial Reporting in Hyperinflationary Economies}@}. <!--SR:!2025-02-21,117,290!2025-09-26,293,330!2025-08-31,227,270!2025-01-19,3,306-->
 
 ## objectives
 
