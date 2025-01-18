@@ -41,7 +41,7 @@ __Price of inputs:__ ::@:: Inputs include land, labor, energy and raw materials.
 
 __Number of suppliers:__ ::@:: The market supply curve is the horizontal summation of the individual supply curves. As more firms enter the industry, the market supply curve will shift out, driving down prices. <!--SR:!2025-01-20,46,290!2025-01-18,44,290-->
 
-__Government policies and regulations:__ ::@:: [Government intervention](market%20intervention.md) can have a significant effect on supply.<sup>[\[7\]](#^ref-7)</sup> Government intervention can take many forms including environmental and health regulations, hour and wage laws, taxes, electrical and natural gas rates and zoning and land use regulations.<sup>[\[8\]](#^ref-8)</sup> <!--SR:!2025-01-17,43,290!2025-02-08,65,310-->
+__Government policies and regulations:__ ::@:: [Government intervention](market%20intervention.md) can have a significant effect on supply.<sup>[\[7\]](#^ref-7)</sup> Government intervention can take many forms including environmental and health regulations, hour and wage laws, taxes, electrical and natural gas rates and zoning and land use regulations.<sup>[\[8\]](#^ref-8)</sup> <!--SR:!2025-05-21,124,290!2025-02-08,65,310-->
 
 This list is {@{not exhaustive}@}. {@{All facts and circumstances that are relevant to a seller's willingness or ability to produce and sell goods}@} can affect supply.<sup>[\[9\]](#^ref-9)</sup> For example, if {@{the forecast is for snow}@} retail sellers will respond by {@{increasing their stocks of snow sleds or skis or winter clothing or bread and milk}@}. <!--SR:!2025-02-07,64,310!2025-02-08,65,310!2025-02-08,65,310!2025-06-22,164,310-->
 
@@ -73,7 +73,7 @@ By convention in {@{the context of [supply and demand](supply%20and%20demand.md)
 
 ## shape of the short-run supply curve
 
-{@{The Law of Diminishing Marginal Returns \(LDMR\)}@} shapes {@{the SRMC curve}@}. The LDMR states that {@{as production increases eventually a point \(the point of diminishing marginal returns\) will be reached}@} after which {@{additional units of output resulting from fixed increments of the labor input will be successively smaller}@}. That is, beyond {@{the point of diminishing marginal returns}@} {@{the [marginal product of labor](marginal%20product%20of%20labor.md) will continually decrease}@} and hence {@{a continually higher selling price would be necessary to induce the firm to produce more and more output}@}. <!--SR:!2025-02-07,64,310!2025-01-17,43,290!2025-01-18,44,290!2025-02-01,58,310!2025-02-07,64,310!2025-01-17,43,290!2025-02-08,65,310-->
+{@{The Law of Diminishing Marginal Returns \(LDMR\)}@} shapes {@{the SRMC curve}@}. The LDMR states that {@{as production increases eventually a point \(the point of diminishing marginal returns\) will be reached}@} after which {@{additional units of output resulting from fixed increments of the labor input will be successively smaller}@}. That is, beyond {@{the point of diminishing marginal returns}@} {@{the [marginal product of labor](marginal%20product%20of%20labor.md) will continually decrease}@} and hence {@{a continually higher selling price would be necessary to induce the firm to produce more and more output}@}. <!--SR:!2025-02-07,64,310!2025-05-19,122,290!2025-01-18,44,290!2025-02-01,58,310!2025-02-07,64,310!2025-05-22,125,290!2025-02-08,65,310-->
 
 ## from firm to market supply curve
 
@@ -95,7 +95,7 @@ Note: not all assumptions that can be made for individual supply functions ::@::
 
 Significant determinants include:
 
-__Complexity of production:__ Much depends on {@{the complexity of the production process}@}. Textile production is {@{relatively simple}@}. The labor is {@{largely unskilled and production facilities are little more than buildings—no special structures are needed}@}. Thus, {@{the PES for textiles is elastic}@}. On the other hand, the PES for {@{specific types of motor vehicles is relatively inelastic}@}. Auto manufacture is {@{a multi-stage process that requires specialized equipment, skilled labor, a large suppliers network and large R&D costs}@}. <!--SR:!2025-02-08,65,310!2025-02-10,67,310!2025-02-09,66,310!2025-02-04,61,310!2025-02-06,63,310!2025-01-17,43,290-->
+__Complexity of production:__ Much depends on {@{the complexity of the production process}@}. Textile production is {@{relatively simple}@}. The labor is {@{largely unskilled and production facilities are little more than buildings—no special structures are needed}@}. Thus, {@{the PES for textiles is elastic}@}. On the other hand, the PES for {@{specific types of motor vehicles is relatively inelastic}@}. Auto manufacture is {@{a multi-stage process that requires specialized equipment, skilled labor, a large suppliers network and large R&D costs}@}. <!--SR:!2025-02-08,65,310!2025-02-10,67,310!2025-02-09,66,310!2025-02-04,61,310!2025-02-06,63,310!2025-05-20,123,290-->
 
 __Time to respond:__ ::@:: The more time a producer has to respond to price changes the more elastic the supply. For example, a cotton farmer cannot immediately respond to an increase in the price of soybeans. <!--SR:!2025-02-06,63,310!2025-02-08,65,310-->
 

@@ -69,7 +69,7 @@ Consumers of perfect substitutes {@{base their rational decision-making process 
 
 An example of perfect substitutes is {@{butter from two different producers}@}; the producer may be {@{different but their purpose and usage are the same}@}. <!--SR:!2025-02-07,66,310!2025-01-24,54,310-->
 
-Perfect substitutes have {@{a high cross-elasticity of demand}@}. For example, if {@{[Country Crock](Country%20Crock.md) and Imperial margarine have the same price listed for the same amount of spread}@}, but {@{one brand increases its price}@}, its sales will {@{fall by a certain amount. In response, the other brand's sales will increase by the same amount}@}. <!--SR:!2025-02-08,67,310!2025-01-17,45,290!2025-02-17,75,330!2025-02-17,75,330-->
+Perfect substitutes have {@{a high cross-elasticity of demand}@}. For example, if {@{[Country Crock](Country%20Crock.md) and Imperial margarine have the same price listed for the same amount of spread}@}, but {@{one brand increases its price}@}, its sales will {@{fall by a certain amount. In response, the other brand's sales will increase by the same amount}@}. <!--SR:!2025-02-08,67,310!2025-05-29,132,290!2025-02-17,75,330!2025-02-17,75,330-->
 
 #### imperfect substitutes
 
@@ -129,7 +129,7 @@ Additionally substitute goods have {@{a large impact on markets, consumer and se
 
 1. Markets characterised by close/perfect substitute goods experience {@{great [volatility](volatility%20(finance).md) in prices}@}.<sup>[\[22\]](#^ref-22)</sup> This volatility {@{negatively impacts producers' profits, as it is possible to earn higher profits in markets with fewer substitute products}@}. That is, perfect substitute results in {@{profits being driven down to zero as seen in perfectly competitive markets equilibrium}@}.
 2. As a result of {@{the intense competition caused the availability of substitute goods}@}, {@{low quality products can arise}@}. Since {@{prices are reduced to capture a larger share of the market}@}, firms try to {@{reduce their utilisation of resources which in turn will reduce their costs}@}.<sup>[\[22\]](#^ref-22)</sup>
-3. In a market with close/perfect substitutes, customers have {@{a wide range of products to choose from}@}. As {@{the number of substitutes increase, the probability that every consumer selects what is right for them also increases}@}.<sup>[\[22\]](#^ref-22)</sup> That is, consumers can {@{reach a higher overall utility level from the availability of substitute products}@}. <!--SR:!2025-02-08,67,310!2025-01-17,45,290!2025-05-02,116,290!2025-01-28,58,310!2025-02-06,65,310!2025-01-26,56,310!2025-06-30,170,310!2025-02-07,66,310!2025-01-28,58,310!2025-02-18,76,330-->
+3. In a market with close/perfect substitutes, customers have {@{a wide range of products to choose from}@}. As {@{the number of substitutes increase, the probability that every consumer selects what is right for them also increases}@}.<sup>[\[22\]](#^ref-22)</sup> That is, consumers can {@{reach a higher overall utility level from the availability of substitute products}@}. <!--SR:!2025-02-08,67,310!2025-07-19,183,310!2025-05-02,116,290!2025-01-28,58,310!2025-02-06,65,310!2025-01-26,56,310!2025-06-30,170,310!2025-02-07,66,310!2025-01-28,58,310!2025-02-18,76,330-->
 
 ## see also
 

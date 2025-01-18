@@ -24,7 +24,7 @@ Environmental Engineering and Management
 What is Environmental Engineering?
 
 - What is environmental engineering? ::@:: Apply science and engineering principles to solve environmental problems. <!--SR:!2025-03-27,238,330!2026-06-28,585,330-->
-  - environmental engineering relevance ::@:: practical and lots of satisfaction, prevent environment deterioration, related to daily life <!--SR:!2026-03-22,459,310!2025-01-17,180,310-->
+  - environmental engineering relevance ::@:: practical and lots of satisfaction, prevent environment deterioration, related to daily life <!--SR:!2026-03-22,459,310!2027-02-26,770,330-->
 
 ## page 3
 
@@ -214,7 +214,7 @@ How to provide motivation for waste reduction, reuse and recycling?
 
 MSW Waste Charging Scheme
 
-- MSW waste charging scheme passing date ::@:: 2021-09-26 by Legco <!--SR:!2025-01-17,55,230!2025-04-16,214,270-->
+- MSW waste charging scheme passing date ::@:: 2021-09-26 by Legco <!--SR:!2025-05-24,127,230!2025-04-16,214,270-->
   - MSW waste charging scheme preparation period ::@:: 18 months <!--SR:!2025-03-03,203,310!2026-07-17,600,330-->
   - MSW waste charging scheme details ::@:: buy designated bags (0.11 HKD/L) at ~4000 selling points <!--SR:!2025-03-02,180,270!2025-04-05,245,330-->
   - MSW waste charging scheme penalty ::@:: max HK$25&nbsp;000 fine and 6 months in prison <!--SR:!2025-10-15,330,310!2025-01-26,187,310-->
@@ -347,7 +347,7 @@ Indoor Air Quality
 - common indoor air pollutant ::@:: 12 parameters <!--SR:!2025-12-24,423,310!2025-05-05,266,330-->
   - common indoor air pollutant examples ::@:: carbon dioxide (CO<sub>2</sub>), carbon monoxide (CO), respirable suspended particulate (RSP/PM<sub>10</sub>) <!--SR:!2025-04-29,217,270!2026-05-06,490,310-->
     - carbon dioxide limits ::@:: excellent: < 800 ppmv; good: < 1000 ppmv <!--SR:!2025-05-09,226,270!2025-03-18,80,290-->
-    - carbon monoxide limits ::@:: excellent: < 2000 μg/m<sup>3</sup>, < 1.7 ppmv; good: < 10000 μg/m<sup>3</sup>, < 8.7 ppmv <!--SR:!2025-04-29,128,210!2025-01-17,167,310-->
+    - carbon monoxide limits ::@:: excellent: < 2000 μg/m<sup>3</sup>, < 1.7 ppmv; good: < 10000 μg/m<sup>3</sup>, < 8.7 ppmv <!--SR:!2025-04-29,128,210!2026-06-19,518,310-->
     - respirable suspended particulate limits ::@:: excellent: < 20 μg/m<sup>3</sup>; good: < 180 μg/m<sup>3</sup> <!--SR:!2025-05-10,222,270!2025-06-02,237,290-->
 
 ## page 30
@@ -392,7 +392,7 @@ return await memorize_seq(
 - carbon dioxide (CO<sub>2</sub>)→::@::←hydroflurocarbons (HFCs) <!--SR:!2025-04-13,185,230!2025-05-06,223,270-->
 - hydroflurocarbons (HFCs)→::@::←methane (CH<sub>4</sub>) <!--SR:!2025-06-25,190,270!2025-03-10,166,230-->
 - methane (CH<sub>4</sub>)→::@::←nitrous oxide (N<sub>2</sub>O) <!--SR:!2025-06-13,229,250!2026-01-09,395,290-->
-- nitrous oxide (N<sub>2</sub>O)→::@::←perflurocarbons (PFCs) <!--SR:!2025-01-25,123,230!2025-01-17,2,130-->
+- nitrous oxide (N<sub>2</sub>O)→::@::←perflurocarbons (PFCs) <!--SR:!2025-01-25,123,230!2025-01-20,3,130-->
 - perflurocarbons (PFCs)→::@::←sulfur hexafluoride (SF<sub>6</sub>) <!--SR:!2025-04-22,133,270!2025-03-13,187,270-->
 - sulfur hexafluoride (SF<sub>6</sub>)→::@::←_(end)_ <!--SR:!2025-02-14,186,310!2025-03-30,222,310-->
 

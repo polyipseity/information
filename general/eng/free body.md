@@ -19,7 +19,7 @@ Depending on the selection of the free body, the same force in a system can be {
 
 ## example
 
-For example, say there are 3 objects stacked on top of each other. {@{Any part of the 3-object stack}@} can be a free body, such as {@{the entire body, the object at the middle, or even a part of the object at the middle}@}. In practice, the free body is selected {@{such that it is easiest to analyze the situation, such as having the fewest external forces}@}. <!--SR:!2025-02-13,201,310!2025-02-21,214,330!2025-01-17,180,310-->
+For example, say there are 3 objects stacked on top of each other. {@{Any part of the 3-object stack}@} can be a free body, such as {@{the entire body, the object at the middle, or even a part of the object at the middle}@}. In practice, the free body is selected {@{such that it is easiest to analyze the situation, such as having the fewest external forces}@}. <!--SR:!2025-02-13,201,310!2025-02-21,214,330!2027-02-27,771,330-->
 
 ## references
 

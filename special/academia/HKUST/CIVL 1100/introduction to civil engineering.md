@@ -878,7 +878,7 @@ developing strengthening techniques for damaged structures or structural members
 <!--pytextgen generate section="198b"--><!-- The following content is generated at 2024-05-01T19:22:35.365059+08:00. Any edits will be overridden! -->
 
 - _(begin)_→::@::←choosing suitable materials to resurface a road like asphalt pavement <!--SR:!2025-06-24,304,335!2025-05-03,280,370-->
-- choosing suitable materials to resurface a road like asphalt pavement→::@::←designing a concrete mix for a large building <!--SR:!2025-01-17,192,340!2026-07-05,626,347-->
+- choosing suitable materials to resurface a road like asphalt pavement→::@::←designing a concrete mix for a large building <!--SR:!2026-10-29,650,340!2026-07-05,626,347-->
 - designing a concrete mix for a large building→::@::←developing strengthening techniques for damaged structures or structural members like a damaged column <!--SR:!2025-08-18,347,335!2025-01-19,115,297-->
 - developing strengthening techniques for damaged structures or structural members like a damaged column→::@::←_(end)_ <!--SR:!2025-03-02,231,345!2025-07-13,317,324-->
 
@@ -1096,7 +1096,7 @@ water tower
 
 - _(begin)_→::@::←bridge <!--SR:!2026-09-02,679,355!2025-11-12,457,400-->
 - bridge→::@::←building <!--SR:!2025-01-24,203,350!2026-01-07,496,400-->
-- building→::@::←dam <!--SR:!2025-05-03,277,361!2025-01-17,198,361-->
+- building→::@::←dam <!--SR:!2025-05-03,277,361!2027-09-27,983,381-->
 - dam→::@::←power plant <!--SR:!2025-12-12,367,301!2025-07-27,283,258-->
 - power plant→::@::←storage facility <!--SR:!2025-01-30,185,300!2025-07-03,239,334-->
 - storage facility→::@::←tunnel <!--SR:!2025-10-12,295,280!2025-09-29,392,340-->
