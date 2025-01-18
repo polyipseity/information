@@ -13,7 +13,7 @@ tags:
 
 # total sum of squares
 
-In {@{[statistical data analysis](statistics.md)}@} {@{the __total sum of squares__ \(__TSS__ or __SST__\)}@} is {@{a quantity that appears as part of a standard way of presenting results of such analyses}@}. For {@{a set of observations, $y_{i},i\leq n$}@}, it is defined as {@{the sum over all squared differences between the observations and their overall [mean](mean.md) ${\bar {y} }$}@}:<sup>[\[1\]](#^ref-1)</sup> {@{$$\mathrm {TSS} =\sum _{i=1}^{n}\left(y_{i}-{\bar {y} }\right)^{2}$$}@} <!--SR:!2025-01-17,12,270!2025-01-21,16,290!2025-01-21,16,290!2025-01-19,14,290!2025-01-19,14,290!2025-01-21,16,290-->
+In {@{[statistical data analysis](statistics.md)}@} {@{the __total sum of squares__ \(__TSS__ or __SST__\)}@} is {@{a quantity that appears as part of a standard way of presenting results of such analyses}@}. For {@{a set of observations, $y_{i},i\leq n$}@}, it is defined as {@{the sum over all squared differences between the observations and their overall [mean](mean.md) ${\bar {y} }$}@}:<sup>[\[1\]](#^ref-1)</sup> {@{$$\mathrm {TSS} =\sum _{i=1}^{n}\left(y_{i}-{\bar {y} }\right)^{2}$$}@} <!--SR:!2025-03-01,43,290!2025-01-21,16,290!2025-01-21,16,290!2025-01-19,14,290!2025-01-19,14,290!2025-01-21,16,290-->
 
 For {@{wide classes of [linear models](linear%20regression.md)}@}, the total sum of squares equals {@{the [explained sum of squares](explained%20sum%20of%20squares.md) plus the [residual sum of squares](residual%20sum%20of%20squares.md)}@}. For {@{proof of this in the multivariate OLS case}@}, see {@{[partitioning in the general OLS model](explained%20sum%20of%20squares.md#Partitioning%20in%20the%20general%20OLS%20model)}@}. <!--SR:!2025-01-20,15,290!2025-01-19,14,290!2025-01-20,15,290!2025-01-20,15,290-->
 

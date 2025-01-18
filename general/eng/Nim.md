@@ -104,7 +104,7 @@ An equivalent procedure, which is often easier to perform mentally, is to {@{exp
 2 =                 2          What is left after canceling 1s and 4s
 ```
 
-In normal play, the winning strategy is {@{to finish every move with a nim-sum of 0}@}. This is always possible if {@{the nim-sum is not zero before the move}@}. If {@{the nim-sum is zero}@}, then {@{the next player will lose if the other player does not make a mistake}@}. To find out which move to make, let X be {@{the nim-sum of all the heap sizes}@}. Find {@{a heap where the nim-sum of X and heap-size is less than the heap-size}@}; the winning strategy is {@{to play in such a heap, reducing that heap to the nim-sum of its original size with X}@}. In the example above, taking the nim-sum of the sizes is _X_ = 3 ⊕ 4 ⊕ 5 = 2. The nim-sums of the heap sizes A=3, B=4, and C=5 with X=2 are <!--SR:!2025-10-22,287,330!2025-04-18,141,321!2025-04-18,141,321!2025-11-05,301,341!2025-11-15,308,341!2025-01-17,74,321!2025-02-12,87,281-->
+In normal play, the winning strategy is {@{to finish every move with a nim-sum of 0}@}. This is always possible if {@{the nim-sum is not zero before the move}@}. If {@{the nim-sum is zero}@}, then {@{the next player will lose if the other player does not make a mistake}@}. To find out which move to make, let X be {@{the nim-sum of all the heap sizes}@}. Find {@{a heap where the nim-sum of X and heap-size is less than the heap-size}@}; the winning strategy is {@{to play in such a heap, reducing that heap to the nim-sum of its original size with X}@}. In the example above, taking the nim-sum of the sizes is _X_ = 3 ⊕ 4 ⊕ 5 = 2. The nim-sums of the heap sizes A=3, B=4, and C=5 with X=2 are <!--SR:!2025-10-22,287,330!2025-04-18,141,321!2025-04-18,141,321!2025-11-05,301,341!2025-11-15,308,341!2025-12-10,327,341!2025-02-12,87,281-->
 
 - _A_ ⊕ _X_ = 3 ⊕ 2 = 1 [Since (011) ⊕ (010) = 001]
 - _B_ ⊕ _X_ = 4 ⊕ 2 = 6
@@ -170,7 +170,7 @@ from which the strategy above follows by {@{the [Sprague–Grundy theorem](Sprag
 
 ### the 21 game
 
-- see ::@:: [21 (drinking game)](21%20(drinking%20game).md) <!--SR:!2025-01-17,74,321!2025-10-28,293,341-->
+- see ::@:: [21 (drinking game)](21%20(drinking%20game).md) <!--SR:!2025-12-04,321,341!2025-10-28,293,341-->
 
 The game "21" is played as {@{a misère game with any number of players who take turns saying a number}@}. The first player {@{says "1" and each player in turn increases the number by 1, 2, or 3, but may not exceed 21}@}; the player {@{forced to say "21" loses}@}. This can be modeled as {@{a subtraction game with a heap of 21 − _n_ objects}@}. The winning strategy for {@{the two-player version of this game is to always say a multiple of 4}@}; it is then {@{guaranteed that the other player will ultimately have to say 21}@}; so in the standard version, wherein {@{the first player opens with "1", they start with a losing move}@}. <!--SR:!2025-01-19,76,321!2025-11-01,297,341!2025-11-12,307,341!2025-11-07,303,341!2025-10-29,294,341!2025-11-06,302,341!2025-04-16,139,321-->
 
@@ -198,7 +198,7 @@ A similar version is the "100 game": {@{Two players start from 0 and alternately
 
 ### a multiple-heap rule
 
-- see ::@:: [Wythoff's game](Wythoff's%20game.md) <!--SR:!2025-01-17,74,321!2025-01-19,76,321-->
+- see ::@:: [Wythoff's game](Wythoff's%20game.md) <!--SR:!2025-12-05,322,341!2025-01-19,76,321-->
 
 In another variation of nim, besides {@{removing any number of objects from a single heap}@}, one is {@{permitted to remove the same number of objects from each heap}@}. <!--SR:!2025-11-21,314,341!2025-06-23,192,321-->
 
@@ -240,7 +240,7 @@ In [Grundy's game](Grundy's%20game.md), another variation of nim, a number of ob
 
 Greedy nim is a variation wherein {@{the players are restricted to choosing stones from only the largest pile}@}.<sup>[\[10\]](#^ref-10)</sup> It is {@{a finite [impartial game](impartial%20game.md)}@}. Greedy nim misère has {@{the same rules as greedy nim, but the last player able to make a move loses}@}. <!--SR:!2025-10-29,294,341!2025-10-24,289,330!2025-01-19,76,321-->
 
-Let {@{the largest number of stones in a pile be _m_ and the second largest number of stones in a pile be _n_}@}. Let {@{_p_<sub>_m_</sub> be the number of piles having _m_ stones and _p_<sub>_n_</sub> be the number of piles having _n_ stones}@}. Then there is a theorem that {@{game positions with _p_<sub>_m_</sub> even are _P_ positions (winning positions for the _p_-revious player)}@}.<sup>[\[11\]](#^ref-11)</sup> This theorem can be shown by {@{considering the positions where _p_<sub>_m_</sub> is odd}@}. If {@{_p_<sub>_m_</sub> is larger than 1}@}, {@{all stones may be removed from this pile to reduce _p_<sub>_m_</sub> by 1 and the new _p_<sub>_m_</sub> will be even}@}. If {@{_p_<sub>_m_</sub> = 1 (i.e. the largest heap is unique)}@}, there are {@{two cases}@}: <!--SR:!2025-01-17,74,321!2025-11-16,309,341!2025-02-12,35,301!2025-10-30,295,341!2025-01-21,78,321!2025-11-24,317,341!2025-11-18,311,341!2025-11-21,314,341-->
+Let {@{the largest number of stones in a pile be _m_ and the second largest number of stones in a pile be _n_}@}. Let {@{_p_<sub>_m_</sub> be the number of piles having _m_ stones and _p_<sub>_n_</sub> be the number of piles having _n_ stones}@}. Then there is a theorem that {@{game positions with _p_<sub>_m_</sub> even are _P_ positions (winning positions for the _p_-revious player)}@}.<sup>[\[11\]](#^ref-11)</sup> This theorem can be shown by {@{considering the positions where _p_<sub>_m_</sub> is odd}@}. If {@{_p_<sub>_m_</sub> is larger than 1}@}, {@{all stones may be removed from this pile to reduce _p_<sub>_m_</sub> by 1 and the new _p_<sub>_m_</sub> will be even}@}. If {@{_p_<sub>_m_</sub> = 1 (i.e. the largest heap is unique)}@}, there are {@{two cases}@}: <!--SR:!2025-12-09,326,341!2025-11-16,309,341!2025-02-12,35,301!2025-10-30,295,341!2025-01-21,78,321!2025-11-24,317,341!2025-11-18,311,341!2025-11-21,314,341-->
 
 - If _p_<sub>_n_</sub> is odd, ::@:: the size of the largest heap is reduced to _n_ (so now the new _p_<sub>_m_</sub> is even). <!--SR:!2025-04-15,138,321!2025-07-01,192,310-->
 - If _p_<sub>_n_</sub> is even, ::@:: the largest heap is removed entirely, leaving an even number of largest heaps. <!--SR:!2025-11-24,317,341!2025-01-20,77,321-->
@@ -265,7 +265,7 @@ _n_-d nim is played on {@{a $k_{1}\times \dots \times k_{n}$ board}@}, whereon {
 
 ### graph nim
 
-The starting board is {@{a disconnected graph}@}, and players {@{take turns to remove adjacent vertices}@}.<sup>[\[15\]](#^ref-15)</sup> <!--SR:!2025-11-01,297,341!2025-01-17,74,321-->
+The starting board is {@{a disconnected graph}@}, and players {@{take turns to remove adjacent vertices}@}.<sup>[\[15\]](#^ref-15)</sup> <!--SR:!2025-11-01,297,341!2025-12-11,328,341-->
 
 ### candy nim
 

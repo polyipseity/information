@@ -168,7 +168,7 @@ The content is in teaching order.
     - addition: `list(value)`
 - [control flow](control%20flow.md)
   - [§ iteration](control%20flow.md#iteration)
-    - [control flow § iteration](control%20flow.md#iteration) / note ::@:: Yes, did you know you can put branches (`if`) and loops (`for`, `while`) inside branches (`if`) and loops (`for`, `while`)? <!--SR:!2025-01-17,90,352!2025-12-27,363,372-->
+    - [control flow § iteration](control%20flow.md#iteration) / note ::@:: Yes, did you know you can put branches (`if`) and loops (`for`, `while`) inside branches (`if`) and loops (`for`, `while`)? <!--SR:!2026-03-28,435,372!2025-12-27,363,372-->
 - week 4 exercise: 1/1, graded
 - [week 5 lab attendance waiver](assignments/lab%204/lab%204%20waiver%20submission.ipynb): ?/1, ignored due to public holiday
 

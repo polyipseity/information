@@ -183,7 +183,7 @@ Moreover, Zorn's lemma \(or one of its equivalent forms\) implies {@{some major 
 
 1. [Banach's extension theorem](Banach's%20extension%20theorem.md) ::@:: which is used to prove one of the most fundamental results in functional analysis, the [Hahn–Banach theorem](Hahn–Banach%20theorem.md) <!--SR:!2025-03-10,60,318!2025-03-06,53,310-->
 2. Every vector space ::@:: has a [basis](basis%20(linear%20algebra).md), a result from linear algebra \(to which it is equivalent<sup>[\[24\]](#^ref-24)</sup>\). In particular, the real numbers, as a vector space over the rational numbers, possess a Hamel basis. <!--SR:!2025-03-02,50,310!2025-02-17,43,290-->
-3. Every commutative unital ring ::@:: has a [maximal ideal](maximal%20ideal.md), a result from ring theory known as [Krull's theorem](Krull's%20theorem.md), to which Zorn's lemma is equivalent<sup>[\[25\]](#^ref-25)</sup> <!--SR:!2025-03-21,69,318!2025-01-17,11,238-->
+3. Every commutative unital ring ::@:: has a [maximal ideal](maximal%20ideal.md), a result from ring theory known as [Krull's theorem](Krull's%20theorem.md), to which Zorn's lemma is equivalent<sup>[\[25\]](#^ref-25)</sup> <!--SR:!2025-03-21,69,318!2025-02-24,38,258-->
 4. [Tychonoff's theorem](Tychonoff's%20theorem.md) ::@:: in topology \(to which it is also equivalent<sup>[\[26\]](#^ref-26)</sup>\) <!--SR:!2025-03-10,60,318!2025-03-18,67,330-->
 5. Every [proper filter](filter%20(mathematics).md#proper%20filter) ::@:: is contained in an [ultrafilter](ultrafilter.md), a result that yields the [completeness theorem](Gödel's%20completeness%20theorem.md) of [first-order logic](first-order%20logic.md)<sup>[\[27\]](#^ref-27)</sup> <!--SR:!2025-03-07,54,310!2025-02-09,34,290-->
 

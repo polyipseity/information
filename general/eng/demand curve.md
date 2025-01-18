@@ -39,7 +39,7 @@ The graph of the demand curve uses {@{the [inverse demand function](inverse%20de
 >
 > {@{Convex demand curve}@} <!--SR:!2025-02-06,60,310!2025-02-01,56,310-->
 
-The demand is {@{called _[convex](convex%20function.md)_ \(with respect to the [origin](origin%20(mathematics).md)<sup>[\[7\]](#^ref-7)</sup>\)}@} if {@{the \(generally down-sloping\) curve bends upwards}@}, _[concave](concave%20function.md)_ otherwise.<sup>[\[8\]](#^ref-8)</sup> <!--SR:!2025-01-17,41,290!2025-01-31,55,310-->
+The demand is {@{called _[convex](convex%20function.md)_ \(with respect to the [origin](origin%20(mathematics).md)<sup>[\[7\]](#^ref-7)</sup>\)}@} if {@{the \(generally down-sloping\) curve bends upwards}@}, _[concave](concave%20function.md)_ otherwise.<sup>[\[8\]](#^ref-8)</sup> <!--SR:!2025-06-30,164,310!2025-01-31,55,310-->
 
 The demand curvature is {@{fundamentally hard to estimate from the empirical data}@}, with some researchers suggesting that {@{demand with high convexity is practically improbable}@}. Demand curve are, however, considered to be {@{generally convex in accordance with [diminishing marginal utility](marginal%20utility.md)}@}.<sup>[\[9\]](#^ref-9)</sup> Theoretically, the demand curve is {@{equivalent to the [price-offer curve](price-consumption%20curve.md)}@} and can be derived by {@{charting the points of tangency between [budget lines](budget%20constraint.md) and [indifference curves](indifference%20curve.md)}@} for {@{all possible prices of the good in question}@}.<sup>[\[10\]](#^ref-10)</sup> <!--SR:!2025-02-09,63,310!2025-01-18,42,290!2025-02-09,63,310!2025-02-14,67,310!2025-01-18,45,290!2025-02-08,62,310-->
 
@@ -74,14 +74,14 @@ When {@{[income](income.md) increases}@}, {@{the demand curve for [normal goods]
 
 - Changes in the prices of ::@:: related goods \(substitutes and complements\) <!--SR:!2025-02-02,57,310!2025-02-05,59,310-->
 - Changes in [disposable income](disposable%20income.md), ::@:: the magnitude of the shift also being related to the [income elasticity of demand](income%20elasticity%20of%20demand.md). <!--SR:!2025-02-02,57,310!2025-02-01,56,310-->
-- Changes in tastes and preferences. ::@:: Tastes and preferences are assumed to be fixed in the [short-run](long%20run%20and%20short%20run.md). This assumption of fixed preferences is a necessary condition for aggregation of individual demand curves to derive market demand. <!--SR:!2025-01-30,54,310!2025-01-17,41,290-->
+- Changes in tastes and preferences. ::@:: Tastes and preferences are assumed to be fixed in the [short-run](long%20run%20and%20short%20run.md). This assumption of fixed preferences is a necessary condition for aggregation of individual demand curves to derive market demand. <!--SR:!2025-01-30,54,310!2025-06-28,162,310-->
 - Changes in ::@:: expectations.<sup>[\[2\]](#^ref-2)</sup><sup>[\[61\]](#^ref-61)</sup> <!--SR:!2025-02-14,67,310!2025-02-03,58,310-->
 
 ### factors affecting market demand
 
 In addition to {@{the factors which can affect individual demand there}@} are {@{three factors that can cause the market demand curve to shift}@}: <!--SR:!2025-01-31,55,310!2025-02-01,56,310-->
 
-- a change in the number of ::@:: consumers, <!--SR:!2025-01-17,44,290!2025-01-31,55,310-->
+- a change in the number of ::@:: consumers, <!--SR:!2025-07-12,176,310!2025-01-31,55,310-->
 - a change in the distribution of tastes ::@:: among consumers, <!--SR:!2025-02-14,67,310!2025-02-14,67,310-->
 - a change in the distribution of income ::@:: among consumers with different tastes.<sup>[\[13\]](#^ref-13)</sup> <!--SR:!2025-02-14,67,310!2025-01-31,55,310-->
 

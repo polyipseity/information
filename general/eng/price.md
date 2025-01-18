@@ -23,7 +23,7 @@ tags:
 
 A __price__ is {@{the \(usually not negative\) [quantity](quantity.md) of [payment](payment.md) or [compensation](financial%20compensation.md) expected, required, or given by one [party](party%20(law).md) to another in return for [goods](goods.md) or [services](service%20(economics).md)}@}. In some situations, especially when {@{the product is a service rather than a physical good}@}, the price for the service may be {@{called something else such as "rent" or "tuition"}@}.<sup>[\[1\]](#^ref-1)</sup> Prices are influenced by {@{production [costs](cost.md), [supply](supply%20(economics).md) of the desired product, and [demand](demand.md) for the product}@}. A price may be determined by {@{a [monopolist](monopoly.md) or may be imposed on the firm by market conditions}@}. <!--SR:!2025-02-08,65,310!2025-02-08,65,310!2025-02-07,64,310!2025-02-07,64,310!2025-02-07,64,310-->
 
-Price can be quoted in {@{currency, quantities of goods or vouchers}@}. <!--SR:!2025-01-17,44,290-->
+Price can be quoted in {@{currency, quantities of goods or vouchers}@}. <!--SR:!2025-05-26,129,290-->
 
 - In modern [economies](economy.md), prices are generally expressed in ::@:: units of some form of [currency](currency.md). \(More specifically, for [raw materials](raw%20material.md) they are expressed as currency per unit weight, e.g. euros per kilogram or Rands per KG.\) <!--SR:!2025-06-22,164,310!2025-01-21,47,290-->
 - Although prices could be [quoted](request%20for%20quotation.md) as quantities of other goods or services, ::@:: this sort of [barter exchange](barter.md) is rarely seen. Prices are sometimes quoted in terms of vouchers such as trading stamps and air miles. <!--SR:!2025-01-18,44,290!2025-02-07,64,310-->
@@ -59,7 +59,7 @@ According to {@{[Milton Friedman](Milton%20Friedman.md)}@}, price has {@{__five 
 
 In {@{April 2020, for the first time in history}@}, due to {@{the global health/economic crisis situation}@}, {@{the price of [West Texas Intermediate benchmark crude oil](West%20Texas%20Intermediate.md) for May delivery contracts turned negative}@}, with a barrel of oil at -\$37.63 a barrel, a one-day drop of \$55.90, or 306%, according to Dow Jones Market Data. "Negative prices means {@{someone with a long position in oil would have to pay someone to take that oil off of their hands}@}. Why would they do that? The main reason is {@{a fear that if forced to take delivery of crude on the expiration of the May oil [contract](futures%20contract.md)}@}, there {@{would be nowhere to put it as a glut of crude fills up available storage}@}."<sup>[\[4\]](#^ref-4)</sup> In a sense {@{the price is still positive}@}, just {@{the direction of payment reverses, i.e. in this case you are paid to take some [goods](goods.md)}@}. <!--SR:!2025-01-20,46,290!2025-02-08,65,310!2025-03-25,84,270!2025-02-05,63,310!2025-02-10,67,310!2025-02-09,66,310!2025-01-19,46,290!2025-02-04,61,310-->
 
-{@{[Negative interest rates](interest%20rate.md#negative%20interest%20rates)}@} are {@{a similar concept}@}. <!--SR:!2025-02-10,67,310!2025-01-17,44,290-->
+{@{[Negative interest rates](interest%20rate.md#negative%20interest%20rates)}@} are {@{a similar concept}@}. <!--SR:!2025-02-10,67,310!2025-07-11,175,310-->
 
 ## Austrian School theory
 
