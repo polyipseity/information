@@ -134,8 +134,8 @@ Similar statements apply to {@{the dual situation of terminal morphisms from <!-
 
 Indeed, {@{all pairs of adjoint functors arise from universal constructions in this manner}@}. Let {@{$F$ and $G$ be a pair of adjoint functors with unit $\eta$ and co-unit $\epsilon$}@} \(see the article on [adjoint functors](adjoint%20functors.md) for the definitions\). Then we have {@{a universal morphism for each object in ${\mathcal {C} }$ and ${\mathcal {D} }$}@}:
 
-- For each object $X$ in ${\mathcal {C} }$, ::@:: $(F(X),\eta _{X})$ is a universal morphism from $X$ to $G$. That is, for all $f:X\to G(Y)$ there exists a unique $g:F(X)\to Y$ for which the following diagrams commute.
-- For each object $Y$ in ${\mathcal {D} }$, ::@:: $(G(Y),\epsilon _{Y})$ is a universal morphism from $F$ to $Y$. That is, for all $g:F(X)\to Y$ there exists a unique $f:X\to G(Y)$ for which the following diagrams commute.
+- For each object $X$ in ${\mathcal {C} }$, $(F(X),\eta _{X})$ is a universal morphism from $X$ to $G$. ::@:: That is, for all $f:X\to G(Y)$ there exists a unique $g:F(X)\to Y$ for which the following diagrams commute.
+- For each object $Y$ in ${\mathcal {D} }$, $(G(Y),\epsilon _{Y})$ is a universal morphism from $F$ to $Y$. ::@:: That is, for all $g:F(X)\to Y$ there exists a unique $f:X\to G(Y)$ for which the following diagrams commute.
 
 &emsp; {@{![The unit and counit of an adjunction, which are natural transformations between functors, are an important example of universal morphisms.](../../archives/Wikimedia%20Commons/Universal%20morphisms%20appear%20as%20the%20unit%20and%20counit%20of%20adjunctions.svg)}@} (annotation: {@{commutative diagrams for left-adjoint functor $F$, right-adjoint functor $G$, unit $\eta$, and co-unit $\varepsilon$}@})
 
