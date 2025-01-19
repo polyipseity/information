@@ -10,7 +10,7 @@
     "flashcardDeckOrder": "PrevDeckComplete_Random",
     "convertHighlightsToClozes": false,
     "convertBoldTextToClozes": false,
-    "convertCurlyBracketsToClozes": true,
+    "convertCurlyBracketsToClozes": false,
     "clozePatterns": [
       "{@{[123;;]answer[;;hint]}@}"
     ],
