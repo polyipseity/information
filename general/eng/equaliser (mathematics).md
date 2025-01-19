@@ -3,8 +3,10 @@ aliases:
   - difference kernel
   - difference kernels
   - equaliser
+  - equaliser (mathematics)
   - equalisers
   - equalizer
+  - equalizer (mathematics)
   - equalizers
 tags:
   - flashcard/active/general/eng/equaliser__mathematics_
