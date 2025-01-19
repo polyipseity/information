@@ -11,7 +11,7 @@ tags:
 
 # financial accounting
 
-__Financial accounting__ is {@{a branch of [accounting](accounting.md) concerned with the summary, analysis and reporting of financial transactions related to a business}@}.<sup>[\[1\]](#^ref-1)</sup> This involves {@{the preparation of [financial statements](financial%20audit.md) available for public use}@}. {@{[Stockholders](shareholder.md), [suppliers](vendor.md), [banks](bank.md), [employees](employment.md#employee), [government agencies](government%20agency.md), [business owners](businessperson.md), and other [stakeholders](stakeholder%20(corporate).md)}@} are examples of people {@{interested in receiving such information for decision making purposes}@}. <!--SR:!2025-09-11,281,330!2025-01-18,85,270!2025-04-01,139,290!2025-09-20,287,330-->
+__Financial accounting__ is {@{a branch of [accounting](accounting.md) concerned with the summary, analysis and reporting of financial transactions related to a business}@}.<sup>[\[1\]](#^ref-1)</sup> This involves {@{the preparation of [financial statements](financial%20audit.md) available for public use}@}. {@{[Stockholders](shareholder.md), [suppliers](vendor.md), [banks](bank.md), [employees](employment.md#employee), [government agencies](government%20agency.md), [business owners](businessperson.md), and other [stakeholders](stakeholder%20(corporate).md)}@} are examples of people {@{interested in receiving such information for decision making purposes}@}. <!--SR:!2025-09-11,281,330!2025-09-05,229,270!2025-04-01,139,290!2025-09-20,287,330-->
 
 Financial accountancy is governed by {@{both local and international accounting standards}@}. {@{[Generally Accepted Accounting Principles](accounting%20standard.md) (GAAP)}@} is {@{the standard framework of guidelines for financial accounting used in any given jurisdiction}@}. It includes {@{the standards, conventions and rules that accountants follow in recording and summarizing and in the preparation of financial statements}@}. <!--SR:!2025-08-06,254,330!2025-05-01,175,310!2025-05-13,184,310!2025-04-05,142,290-->
 
@@ -132,11 +132,11 @@ This basic principle gives rise to the commonly used {@{[historical cost account
 
 ### units of constant purchasing power
 
-The stable monetary unit assumption is {@{not applied during hyperinflation}@}. {@{IFRS}@} requires {@{entities to implement capital maintenance in units of constant purchasing power}@} in terms of {@{IAS 29 Financial Reporting in Hyperinflationary Economies}@}. <!--SR:!2025-02-21,117,290!2025-09-26,293,330!2025-08-31,227,270!2025-01-19,3,306-->
+The stable monetary unit assumption is {@{not applied during hyperinflation}@}. {@{IFRS}@} requires {@{entities to implement capital maintenance in units of constant purchasing power}@} in terms of {@{IAS 29 Financial Reporting in Hyperinflationary Economies}@}. <!--SR:!2025-02-21,117,290!2025-09-26,293,330!2025-08-31,227,270!2025-01-29,10,306-->
 
 ## objectives
 
-Financial accountants produce {@{financial statements based on the accounting standards in a given jurisdiction}@}. These standards may be {@{the [Generally Accepted Accounting Principles](accounting%20standard.md) of a respective country, which are typically issued by a national standard setter}@}, or {@{[International Financial Reporting Standards](International%20Financial%20Reporting%20Standards.md) (IFRS), which are issued by the [International Accounting Standards Board](International%20Accounting%20Standards%20Board.md) (IASB)}@}. <!--SR:!2025-06-03,200,310!2025-07-04,188,270!2025-01-18,87,270-->
+Financial accountants produce {@{financial statements based on the accounting standards in a given jurisdiction}@}. These standards may be {@{the [Generally Accepted Accounting Principles](accounting%20standard.md) of a respective country, which are typically issued by a national standard setter}@}, or {@{[International Financial Reporting Standards](International%20Financial%20Reporting%20Standards.md) (IFRS), which are issued by the [International Accounting Standards Board](International%20Accounting%20Standards%20Board.md) (IASB)}@}. <!--SR:!2025-06-03,200,310!2025-07-04,188,270!2025-12-08,323,290-->
 
 Financial accountants serves the following purposes: {@{producing general purpose financial statements}@}; {@{producing information used by the management of a business entity for decision making, planning and performance evaluation}@}; and {@{producing financial statements for meeting regulatory requirements}@}. <!--SR:!2025-02-22,98,250!2025-01-29,56,337!2025-02-12,64,337-->
 
@@ -187,7 +187,7 @@ However, there are {@{instances of accounts, known as contra-accounts (contra-as
 
 1. objectives ::@:: Financial accounting aims at presenting 'true and fair' view of transactions, profit and loss for a period and statement of financial position (balance sheet) on a given date. It aims at computing 'true and fair' view of the cost of production/services offered by the firm.<sup>[\[11\]](#^ref-11)</sup> Cost accounting aims at computing cost of production/service in a scientific manner and facilitate cost control and cost reduction. <!--SR:!2025-01-29,92,270!2025-02-12,112,290-->
 2. audiences ::@:: Financial accounting reports the results and position of business to government, creditors, investors, and external parties. Cost accounting is an internal reporting system for an organisation's own management for decision making. <!--SR:!2025-08-25,231,290!2025-02-13,107,290-->
-3. classification ::@:: In financial accounting, cost classification is based on type of transactions, e.g. salaries, repairs, insurance, stores etc. In cost accounting, classification is basically on the basis of functions, activities, products, process and on internal planning and control and information needs of the organization. <!--SR:!2025-01-18,85,270!2025-08-03,210,270-->
+3. classification ::@:: In financial accounting, cost classification is based on type of transactions, e.g. salaries, repairs, insurance, stores etc. In cost accounting, classification is basically on the basis of functions, activities, products, process and on internal planning and control and information needs of the organization. <!--SR:!2025-09-06,230,270!2025-08-03,210,270-->
 
 ## related qualification
 

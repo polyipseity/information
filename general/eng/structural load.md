@@ -142,7 +142,7 @@ For example, {@{a beam in between two fixed support creates thermal load under h
 
 #### wind load
 
-[Wind](wind.md) is {@{movement of air}@}. When wind moves past a building, {@{wind changes in velocity}@}. Then, {@{the pressure of air changes}@}. Positive pressure outside {@{causes inward forces while negative causes outward (uplift for roof) forces}@}. This is wind load. It also depends on {@{building shape, wind direction, and wind speed}@}. <!--SR:!2025-03-21,232,320!2025-01-18,186,310!2026-05-07,533,320!2025-03-10,223,320!2025-11-22,415,320-->
+[Wind](wind.md) is {@{movement of air}@}. When wind moves past a building, {@{wind changes in velocity}@}. Then, {@{the pressure of air changes}@}. Positive pressure outside {@{causes inward forces while negative causes outward (uplift for roof) forces}@}. This is wind load. It also depends on {@{building shape, wind direction, and wind speed}@}. <!--SR:!2025-03-21,232,320!2027-03-28,798,330!2026-05-07,533,320!2025-03-10,223,320!2025-11-22,415,320-->
 
 Wind load causes {@{lateral deflection, which may further lead to toppling of the structure, such as collapse of bridges}@}. Less serious consequences include {@{damage to individual structural elements such as roofs, walls, and windows; and causes excessive building vibrations}@}. <!--SR:!2025-02-22,200,320!2026-04-30,481,300-->
 

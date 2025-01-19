@@ -15,7 +15,7 @@ tags:
 
 ### two events
 
-For two [events](event%20(probability%20theory).md) $A$ and $B$ such that {@{$\mathbb P(A) > 0$}@}, the chain rule states that: {@{$$\mathbb P(A \cap B) = \mathbb P(B \mid A) \mathbb P(A)$$}@}, which can be proved easily from {@{the [definition of conditional probability](conditional%20probability.md#Kolmogorov%20definition)}@}. <!--SR:!2025-02-12,184,310!2025-01-19,160,310!2025-03-06,195,310-->
+For two [events](event%20(probability%20theory).md) $A$ and $B$ such that {@{$\mathbb P(A) > 0$}@}, the chain rule states that: {@{$$\mathbb P(A \cap B) = \mathbb P(B \mid A) \mathbb P(A)$$}@}, which can be proved easily from {@{the [definition of conditional probability](conditional%20probability.md#Kolmogorov%20definition)}@}. <!--SR:!2025-02-12,184,310!2026-12-06,686,330!2025-03-06,195,310-->
 
 ### finitely many events
 

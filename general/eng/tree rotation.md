@@ -138,7 +138,7 @@ A tree can be {@{rebalanced using rotations}@}. After {@{a rotation}@}, {@{the s
 
 {@{The [rotation distance](rotation%20distance.md) between any two binary trees with the same number of nodes}@} is {@{the minimum number of rotations needed to transform one into the other}@}. With this distance, {@{the set of _n_-node binary trees becomes a [metric space](metric%20space.md)}@}: {@{the distance is symmetric, positive when given two different trees, and satisfies the [triangle inequality](triangle%20inequality.md)}@}. <!--SR:!2025-02-15,41,290!2025-02-23,47,290!2025-03-18,66,310!2025-03-12,61,310-->
 
-It is {@{an [open problem](open%20problem.md)}@} {@{whether there exists a [polynomial time](time%20complexity.md#polynomial%20time) [algorithm](algorithm.md) for calculating rotation distance}@}, though {@{several variants of the rotation distance problem admit polynomial time algorithms}@}.<sup>[\[1\]](#^ref-1)</sup><sup>[\[2\]](#^ref-2)</sup><sup>[\[3\]](#^ref-3)</sup> <!--SR:!2025-03-04,54,310!2025-02-22,47,290!2025-01-18,17,250-->
+It is {@{an [open problem](open%20problem.md)}@} {@{whether there exists a [polynomial time](time%20complexity.md#polynomial%20time) [algorithm](algorithm.md) for calculating rotation distance}@}, though {@{several variants of the rotation distance problem admit polynomial time algorithms}@}.<sup>[\[1\]](#^ref-1)</sup><sup>[\[2\]](#^ref-2)</sup><sup>[\[3\]](#^ref-3)</sup> <!--SR:!2025-03-04,54,310!2025-02-22,47,290!2025-03-22,62,270-->
 
 {@{[Daniel Sleator](Daniel%20Sleator.md), [Robert Tarjan](Robert%20Tarjan.md) and [William Thurston](William%20Thurston.md)}@} showed that {@{the rotation distance between any two _n_-node trees \(for _n_ ≥ 11\) is at most 2<!-- markdown separator -->_n_<!-- markdown separator --> − 6}@}, and that {@{some pairs of trees are this far apart as soon as _n_ is sufficiently large}@}.<sup>[\[4\]](#^ref-4)</sup> {@{Lionel Pournin}@} showed that, {@{in fact, such pairs exist whenever _n_ ≥ 11}@}.<sup>[\[5\]](#^ref-5)</sup> <!--SR:!2025-01-29,27,270!2025-02-08,32,270!2025-02-11,38,290!2025-02-08,33,270!2025-02-09,33,270-->
 
@@ -147,7 +147,7 @@ It is {@{an [open problem](open%20problem.md)}@} {@{whether there exists a [poly
 - [AVL tree](AVL%20tree.md), [red–black tree](red–black%20tree.md), and [splay tree](splay%20tree.md), ::@:: kinds of [binary search tree](binary%20search%20tree.md) data structures that use rotations to maintain balance. <!--SR:!2025-03-15,63,310!2025-03-06,56,310-->
 - [Associativity](associative%20property.md) of a binary operation ::@:: means that performing a tree rotation on it does not change the final result. <!--SR:!2025-03-07,57,310!2025-03-20,67,310-->
 - The [Day–Stout–Warren algorithm](Day–Stout–Warren%20algorithm.md) ::@:: balances an unbalanced BST. <!--SR:!2025-02-23,47,290!2025-01-26,25,270-->
-- [Tamari lattice](Tamari%20lattice.md), ::@:: a partially ordered set in which the elements can be defined as binary trees and the ordering between elements is defined by tree rotation. <!--SR:!2025-02-14,40,290!2025-01-18,8,270-->
+- [Tamari lattice](Tamari%20lattice.md), ::@:: a partially ordered set in which the elements can be defined as binary trees and the ordering between elements is defined by tree rotation. <!--SR:!2025-02-14,40,290!2025-02-10,22,270-->
 
 ## references
 

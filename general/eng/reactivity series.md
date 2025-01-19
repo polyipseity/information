@@ -152,7 +152,7 @@ return _chain.from_iterable(await _gather(
 - [antimony](antimony.md)→::@::←[bismuth](bismuth.md) <!--SR:!2028-01-26,1121,270!2025-11-08,643,290-->
 - [bismuth](bismuth.md)→::@::←[copper](copper.md) <!--SR:!2025-06-26,204,210!2025-01-25,397,250-->
 - [copper](copper.md)→::@::←[tungsten](tungsten.md) <!--SR:!2025-10-22,593,270!2025-02-02,436,270-->
-- [tungsten](tungsten.md)→::@::←[mercury](mercury%20(element).md) <!--SR:!2025-10-31,297,230!2025-01-18,16,130-->
+- [tungsten](tungsten.md)→::@::←[mercury](mercury%20(element).md) <!--SR:!2025-10-31,297,230!2025-01-28,9,130-->
 - [mercury](mercury%20(element).md)→::@::←[silver](silver.md) <!--SR:!2026-08-12,877,330!2025-12-30,464,310-->
 - [silver](silver.md)→::@::←[gold](gold.md) <!--SR:!2026-06-26,904,330!2028-04-01,1423,350-->
 - [gold](gold.md)→::@::←[platinum](platinum.md) <!--SR:!2028-01-27,1369,350!2027-04-17,1146,350-->

@@ -128,7 +128,7 @@ indicates that 60.49% \(≈ 40000000\) of the integers 1 ≤ _n_ ≤ 67108863 ha
 
 ### prevailing interval
 
-For {@{all numbers _N_ and all but _o_\(_N_\)<sup>[\[8\]](#^ref-8)</sup> positive integers _n_ ≤ _N_ \(a "prevailing" majority\)}@}: {@{$$\lambda (n)={\frac {n}{(\ln n)^{\ln \ln \ln n+A+o(1)} } }$$}@} with {@{the constant<sup>[\[7\]](#^ref-7)</sup> $$A:=-1+\sum _{p\in \mathbb {P} }{\frac {\ln p}{(p-1)^{2} } }\approx 0.2269688$$}@} <!--SR:!2025-02-11,35,281!2025-01-19,7,190!2025-01-24,22,261-->
+For {@{all numbers _N_ and all but _o_\(_N_\)<sup>[\[8\]](#^ref-8)</sup> positive integers _n_ ≤ _N_ \(a "prevailing" majority\)}@}: {@{$$\lambda (n)={\frac {n}{(\ln n)^{\ln \ln \ln n+A+o(1)} } }$$}@} with {@{the constant<sup>[\[7\]](#^ref-7)</sup> $$A:=-1+\sum _{p\in \mathbb {P} }{\frac {\ln p}{(p-1)^{2} } }\approx 0.2269688$$}@} <!--SR:!2025-02-11,35,281!2025-02-02,14,190!2025-01-24,22,261-->
 
 ### lower bounds
 
@@ -140,7 +140,7 @@ For {@{any sequence _n_<sub>1</sub> \< _n_<sub>2</sub> \< _n_<sub>3</sub> \< ⋯
 
 ### small values
 
-For {@{a constant _c_ and any sufficiently large positive _A_, there exists an integer _n_ \> _A_}@} such that<sup>[\[11\]](#^ref-11)</sup> {@{$$\lambda (n)<\left(\ln A\right)^{c\ln \ln \ln A}.$$}@} Moreover, _n_ is {@{of the form $$n=\prod _{\substack{q\in \mathbb {P} \\ (q-1)|m} }q$$ for some square-free integer _m_ \< \(ln _A_\)<sup>_c_ ln ln ln _A_</sup>}@}.<sup>[\[10\]](#^ref-10)</sup> <!--SR:!2025-02-05,33,281!2025-01-19,18,261!2025-01-19,18,261-->
+For {@{a constant _c_ and any sufficiently large positive _A_, there exists an integer _n_ \> _A_}@} such that<sup>[\[11\]](#^ref-11)</sup> {@{$$\lambda (n)<\left(\ln A\right)^{c\ln \ln \ln A}.$$}@} Moreover, _n_ is {@{of the form $$n=\prod _{\substack{q\in \mathbb {P} \\ (q-1)|m} }q$$ for some square-free integer _m_ \< \(ln _A_\)<sup>_c_ ln ln ln _A_</sup>}@}.<sup>[\[10\]](#^ref-10)</sup> <!--SR:!2025-02-05,33,281!2025-03-07,47,261!2025-03-06,46,261-->
 
 ### image of the function
 
@@ -158,7 +158,7 @@ For {@{prime powers _p_<sup>_r_</sup>, _r_ <!-- \> -->≥ 1}@}, if {@{$$a^{p^{r-
 
 ### sharpening the result for higher powers of two
 
-For {@{_a_ coprime to \(powers of\) 2}@} we have {@{_a_ = 1 + 2<!-- markdown separator -->_h_<sub>2</sub> for some integer _h_<sub>2</sub>}@}. (annotation: The reason {@{we cannot do the same for higher powers of odd primes is that _a_ would have had _multiple_ possible forms, one for each positive integer less than _p_: 1 + _ph_<sub>2</sub>, ..., (_p_ − 1) + _ph_<sub>2</sub>}@}.) Then, <p> {@{$a^{2}=1+4h_{2}(h_{2}+1)=1+8{\binom {h_{2}+1}{2} }=:1+8h_{3}$}@}, <p> where $h_{3}$ is an integer. With _r_ = 3, this is written {@{$$a^{2^{r-2} }=1+2^{r}h_{r}.$$}@} {@{Squaring both sides}@} gives {@{$$a^{2^{r-1} }=\left(1+2^{r}h_{r}\right)^{2}=1+2^{r+1}\left(h_{r}+2^{r-1}h_{r}^{2}\right)=:1+2^{r+1}h_{r+1},$$}@} where $h_{r+1}$ is an integer. It {@{follows by induction}@} that {@{$$a^{2^{r-2} }=a^{ {\frac {1}{2} }\varphi (2^{r})}\equiv 1{\pmod {2^{r} } }$$ for all $r\geq 3$ and all _a_ coprime to $2^{r}$}@}.<sup>[\[13\]](#^ref-13)</sup> <!--SR:!2025-02-25,49,301!2025-03-26,73,321!2025-01-18,17,250!2025-02-25,49,301!2025-02-03,31,270!2025-01-24,22,261!2025-02-05,33,281!2025-01-30,28,281!2025-02-14,37,306-->
+For {@{_a_ coprime to \(powers of\) 2}@} we have {@{_a_ = 1 + 2<!-- markdown separator -->_h_<sub>2</sub> for some integer _h_<sub>2</sub>}@}. (annotation: The reason {@{we cannot do the same for higher powers of odd primes is that _a_ would have had _multiple_ possible forms, one for each positive integer less than _p_: 1 + _ph_<sub>2</sub>, ..., (_p_ − 1) + _ph_<sub>2</sub>}@}.) Then, <p> {@{$a^{2}=1+4h_{2}(h_{2}+1)=1+8{\binom {h_{2}+1}{2} }=:1+8h_{3}$}@}, <p> where $h_{3}$ is an integer. With _r_ = 3, this is written {@{$$a^{2^{r-2} }=1+2^{r}h_{r}.$$}@} {@{Squaring both sides}@} gives {@{$$a^{2^{r-1} }=\left(1+2^{r}h_{r}\right)^{2}=1+2^{r+1}\left(h_{r}+2^{r-1}h_{r}^{2}\right)=:1+2^{r+1}h_{r+1},$$}@} where $h_{r+1}$ is an integer. It {@{follows by induction}@} that {@{$$a^{2^{r-2} }=a^{ {\frac {1}{2} }\varphi (2^{r})}\equiv 1{\pmod {2^{r} } }$$ for all $r\geq 3$ and all _a_ coprime to $2^{r}$}@}.<sup>[\[13\]](#^ref-13)</sup> <!--SR:!2025-02-25,49,301!2025-03-26,73,321!2025-03-23,63,270!2025-02-25,49,301!2025-02-03,31,270!2025-01-24,22,261!2025-02-05,33,281!2025-01-30,28,281!2025-02-14,37,306-->
 
 ### integers with multiple prime factors
 
