@@ -86,7 +86,7 @@ The content is in teaching order.
     - [transportation engineering structure examples](#transportation%20engineering%20structure%20examples)
 - materials engineering
   - materials engineering characteristics ::@:: spans almost all engineering disciplines because materials are used in designs <!--SR:!2026-04-18,565,357!2025-06-05,319,367-->
-  - materials engineer jobs ::@:: highly varied <!--SR:!2025-01-19,222,330!2025-12-05,478,392-->
+  - materials engineer jobs ::@:: highly varied <!--SR:!2027-01-24,733,330!2025-12-05,478,392-->
     - [materials engineer job examples](#materials%20engineer%20job%20examples)
   - materials engineering materials ::@:: development of improved or new materials <!--SR:!2025-01-21,201,317!2025-06-04,348,350-->
     - [materials engineering material examples](#materials%20engineering%20material%20examples)
@@ -318,7 +318,7 @@ We Engineer Hong Kong’s Development
 
 - _(begin)_→::@::←興土木 利民生 齊拓展 創明天 <!--SR:!2025-04-12,243,314!2027-07-27,950,350-->
 - 興土木 利民生 齊拓展 創明天→::@::←We Bring The Best Engineering To Life <!--SR:!2025-12-02,420,324!2025-05-30,178,287-->
-- We Bring The Best Engineering To Life→::@::←卓越工程 建設香港 <!--SR:!2025-03-21,227,312!2025-01-18,165,297-->
+- We Bring The Best Engineering To Life→::@::←卓越工程 建設香港 <!--SR:!2025-03-21,227,312!2026-05-26,490,297-->
 - 卓越工程 建設香港→::@::←We Engineer Hong Kong’s Development <!--SR:!2025-04-13,265,357!2026-01-08,443,330-->
 - We Engineer Hong Kong’s Development→::@::←_(end)_ <!--SR:!2025-11-28,473,392!2025-08-08,349,380-->
 
@@ -597,7 +597,7 @@ nuclear
 - ceramic→::@::←chemical <!--SR:!2026-10-29,681,340!2025-10-27,398,335-->
 - chemical→::@::←civil <!--SR:!2026-01-19,455,337!2027-08-02,951,377-->
 - civil→::@::←computer <!--SR:!2026-06-14,576,354!2027-06-17,912,372-->
-- computer→::@::←electrical <!--SR:!2026-08-12,643,347!2025-01-18,142,315-->
+- computer→::@::←electrical <!--SR:!2026-08-12,643,347!2026-04-16,450,315-->
 - electrical→::@::←industrial <!--SR:!2025-01-30,122,301!2025-04-27,178,250-->
 - industrial→::@::←manufacturing <!--SR:!2025-11-26,420,337!2025-08-18,341,332-->
 - manufacturing→::@::←mechanical <!--SR:!2025-09-08,380,377!2026-07-28,643,357-->
@@ -638,7 +638,7 @@ water
 - air→::@::←environmental impact assessment (EIA) <!--SR:!2026-05-27,535,318!2025-09-08,364,338-->
 - environmental impact assessment (EIA)→::@::←noise <!--SR:!2025-08-23,349,327!2026-01-08,497,400-->
 - noise→::@::←waste <!--SR:!2026-02-04,446,360!2027-07-08,926,375-->
-- waste→::@::←water <!--SR:!2025-01-20,202,357!2025-03-30,251,360-->
+- waste→::@::←water <!--SR:!2027-10-08,990,377!2025-03-30,251,360-->
 - water→::@::←_(end)_ <!--SR:!2025-11-18,455,400!2025-07-31,343,380-->
 
 <!--/pytextgen-->
@@ -879,7 +879,7 @@ developing strengthening techniques for damaged structures or structural members
 
 - _(begin)_→::@::←choosing suitable materials to resurface a road like asphalt pavement <!--SR:!2025-06-24,304,335!2025-05-03,280,370-->
 - choosing suitable materials to resurface a road like asphalt pavement→::@::←designing a concrete mix for a large building <!--SR:!2026-10-29,650,340!2026-07-05,626,347-->
-- designing a concrete mix for a large building→::@::←developing strengthening techniques for damaged structures or structural members like a damaged column <!--SR:!2025-08-18,347,335!2025-01-19,115,297-->
+- designing a concrete mix for a large building→::@::←developing strengthening techniques for damaged structures or structural members like a damaged column <!--SR:!2025-08-18,347,335!2025-12-27,340,297-->
 - developing strengthening techniques for damaged structures or structural members like a damaged column→::@::←_(end)_ <!--SR:!2025-03-02,231,345!2025-07-13,317,324-->
 
 <!--/pytextgen-->
@@ -1189,7 +1189,7 @@ water transport
 
 - _(begin)_→::@::←airport <!--SR:!2025-01-22,179,290!2025-10-07,430,395-->
 - airport→::@::←bicycle path <!--SR:!2025-03-09,237,355!2025-12-19,472,357-->
-- bicycle path→::@::←highway <!--SR:!2025-01-20,199,360!2025-03-05,232,360-->
+- bicycle path→::@::←highway <!--SR:!2027-10-01,983,380!2025-03-05,232,360-->
 - highway→::@::←pier <!--SR:!2025-10-07,364,320!2025-03-17,217,300-->
 - pier→::@::←pipeline <!--SR:!2025-01-24,136,360!2025-02-06,194,314-->
 - pipeline→::@::←railroad <!--SR:!2025-12-17,397,275!2025-03-03,56,275-->

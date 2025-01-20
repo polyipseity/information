@@ -165,7 +165,7 @@ See [Hong Kong Convention and Exhibition Centre](../../../../general/Hong%20Kong
 
 - description ::@:: events venue in Wan Chai, Hong Kong <!--SR:!2025-11-12,466,315!2025-10-23,445,394-->
 - image ::@:: ![Hong Kong Convention and Exhibition Centre image](../../../../archives/Wikimedia%20Commons/HKCEC.jpg) <!--SR:!2025-07-14,345,380!2026-01-04,493,400-->
-- shape ::@:: bird/turtle rooftop <!--SR:!2025-01-20,235,330!2025-10-10,432,392-->
+- shape ::@:: bird/turtle rooftop <!--SR:!2027-03-10,779,330!2025-10-10,432,392-->
 
 ## Hong Kong–Zhuhai–Macau Bridge
 
@@ -251,7 +251,7 @@ See [Panama Canal](../../../../general/Panama%20Canal.md).
 
 See [Parthenon](../../../../general/Parthenon.md).
 
-- construction period ::@:: 447 BC to 438 BC, 9 years <!--SR:!2025-01-18,77,196!2026-08-22,629,396-->
+- construction period ::@:: 447 BC to 438 BC, 9 years <!--SR:!2025-06-20,151,196!2026-08-22,629,396-->
 - dedication ::@:: Greek goddess Athena <!--SR:!2027-05-25,898,416!2026-12-11,763,416-->
 - description ::@:: temple on the Athenian Acropolis, Greece, dedicated to the Greek goddess Athena <!--SR:!2026-03-19,483,356!2026-11-27,751,416-->
 - geographic location ::@:: Athenian Acropolis, Greece <!--SR:!2026-10-09,678,376!2026-08-20,672,416-->

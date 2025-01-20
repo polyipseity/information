@@ -17,7 +17,7 @@ tags:
 
 > {@{![[multigraphs](multigraph.md) of [Königsberg Bridges](Seven%20Bridges%20of%20Königsberg.md) and [five room puzzles](five-room%20puzzle.md)](../../archives/Wikimedia%20Commons/Comparison%207%20bridges%20of%20Konigsberg%205%20room%20puzzle%20graphs.svg)}@}
 >
-> {@{[Multigraphs](multigraph.md)}@} of {@{both [Königsberg Bridges](Seven%20Bridges%20of%20Königsberg.md) and [Five room puzzles](five-room%20puzzle.md)}@} have {@{more than two odd vertices \(in orange\)}@}, thus {@{are not Eulerian and hence the puzzles have no solutions}@}. <!--SR:!2025-02-22,73,342!2025-02-11,60,322!2025-03-04,81,342!2025-02-18,69,316!2025-01-20,44,310-->
+> {@{[Multigraphs](multigraph.md)}@} of {@{both [Königsberg Bridges](Seven%20Bridges%20of%20Königsberg.md) and [Five room puzzles](five-room%20puzzle.md)}@} have {@{more than two odd vertices \(in orange\)}@}, thus {@{are not Eulerian and hence the puzzles have no solutions}@}. <!--SR:!2025-02-22,73,342!2025-02-11,60,322!2025-03-04,81,342!2025-02-18,69,316!2025-07-30,191,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -82,7 +82,7 @@ While {@{the _graph traversal_ in Fleury's algorithm is linear in the number of 
 
 - Choose {@{any starting vertex _v_}@}, and {@{follow a trail of edges from that vertex until returning to _v_}@}. It is {@{not possible to get stuck at any vertex other than _v_}@}, because {@{the even degree of all vertices ensures that, when the trail enters another vertex _w_ there must be an unused edge leaving _w_}@}. {@{The tour formed in this way}@} is {@{a closed tour, but may not cover all the vertices and edges of the initial graph}@}.
 - As long as {@{there exists a vertex _u_ that belongs to the current tour but that has adjacent edges not part of the tour}@}, start {@{another trail from _u_, following unused edges until returning to _u_}@}, and {@{join the tour formed in this way to the previous tour}@}.
-- Since we {@{assume the original graph is [connected](connectivity%20(graph%20theory).md#connected%20vertices%20and%20graphs)}@}, {@{repeating the previous step will exhaust all edges of the graph}@}. <!--SR:!2025-02-20,71,330!2025-02-17,68,316!2025-03-04,81,342!2025-03-01,78,342!2025-03-03,80,342!2025-02-09,58,322!2025-03-04,81,342!2025-01-20,44,310!2025-02-16,67,316!2025-02-27,76,330!2025-02-05,54,322-->
+- Since we {@{assume the original graph is [connected](connectivity%20(graph%20theory).md#connected%20vertices%20and%20graphs)}@}, {@{repeating the previous step will exhaust all edges of the graph}@}. <!--SR:!2025-02-20,71,330!2025-02-17,68,316!2025-03-04,81,342!2025-03-01,78,342!2025-03-03,80,342!2025-02-09,58,322!2025-03-04,81,342!2025-07-31,192,330!2025-02-16,67,316!2025-02-27,76,330!2025-02-05,54,322-->
 
 By using {@{a data structure such as a [doubly linked list](doubly%20linked%20list.md)}@} {@{to maintain the set of unused edges incident to each vertex, to maintain the list of vertices on the current tour that have unused edges, and to maintain the tour itself}@}, {@{the individual operations of the algorithm}@} \({@{finding unused edges exiting each vertex, finding a new starting vertex for a tour, and connecting two tours that share a vertex}@}\) may be {@{performed in constant time each}@}, so {@{the overall algorithm takes [linear time](time%20complexity.md#linear%20time), $O(|E|)$}@}.<sup>[\[9\]](#^ref-9)</sup> <!--SR:!2025-03-01,78,342!2025-04-19,103,302!2025-03-03,80,342!2025-03-01,78,342!2025-02-05,54,322!2025-02-09,58,322-->
 

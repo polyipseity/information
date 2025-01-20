@@ -61,7 +61,7 @@ The _first derivative test_ can {@{determine [extrema](maximum%20and%20minimum.m
 > 2. {@{If there exists $\epsilon>0$ such that:<ul><li>(left (`-`)) $f'(x) \le 0$ ($f'(x) < 0$) for all $x\in(c-\epsilon,c)$, then $f$ has a [(strict) local minimum](maximum%20and%20minimum.md) at $c$ from the left.</li><li>(left (`-`)) $f'(x) \ge 0$ ($f'(x) > 0$) for all $x\in(c-\epsilon,c)$, then $f$ has a [(strict) local maximum](maximum%20and%20minimum.md) at $c$ from the left.</li><li>(right (`+`)) $f'(x) \le 0$ ($f'(x) < 0$) for all $x\in(c,c+\epsilon)$, then $f$ has a [(strict) local maximum](maximum%20and%20minimum.md) at $c$ from the right.</li><li>(right (`+`)) $f'(x) \ge 0$ ($f'(x) > 0$) for all $x\in(c,c+\epsilon)$, then $f$ has a [(strict) local minimum](maximum%20and%20minimum.md) at $c$ from the right.</li></ul>}@} (annotation: {@{Think of a graph and its first derivative.}@})
 > 3. {@{If needed, combine the above conclusions from both sides. <p> Strictness of [extremum](maximum%20and%20minimum.md) at $c$ is preserved if and only if both sides are [strict local maxima](maximum%20and%20minimum.md) or both sides are [strict local minima](maximum%20and%20minimum.md).}@} <!--SR:!2025-04-30,318,259!2026-08-26,644,279!2026-05-20,627,319!2025-02-16,87,355!2025-11-04,291,355-->
 
-The _one-sided first derivative test_ is {@{a variant of the first derivative test that covers a different set of functions. Neither of the two tests are stronger than the other}@}. <!--SR:!2025-01-20,325,339-->
+The _one-sided first derivative test_ is {@{a variant of the first derivative test that covers a different set of functions. Neither of the two tests are stronger than the other}@}. <!--SR:!2028-01-25,1100,339-->
 
 > __one-sided first derivative test__
 >

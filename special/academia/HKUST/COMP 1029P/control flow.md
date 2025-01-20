@@ -9,7 +9,7 @@ tags:
 
 # Python control flow
 
-Keep in mind a thing mostly unique to Python: {@{Indentation matters in Python, so do not omit the indentations shown below.}@} <!--SR:!2025-01-20,95,358-->
+Keep in mind a thing mostly unique to Python: {@{Indentation matters in Python, so do not omit the indentations shown below.}@} <!--SR:!2026-04-29,464,378-->
 
 ## branching
 
@@ -46,7 +46,7 @@ else:
 
 The semantics of `if...elif...else` can be found by consider the semantics of chaining `if...else`: {@{The statement after the first `true` condition is executed. If there are no `true` conditions, the statement block after `else` is executed if there is an `else`. Otherwise, nothing is executed}@}. Note that {@{the conditions up until the first `true` condition (inclusive) are themselves always executed in the appearance order, ignoring statement blocks along the way. If there are no `true` conditions, all conditions are always executed in the appearance order, followed by the `else` statement block if there is one}@}. <!--SR:!2026-07-11,611,310!2027-04-01,807,323-->
 
-If {@{there are no statements to be executed in a branch}@}, you {@{must still put a properly indented `pass` statement, which does nothing, for that branch}@}. This is also {@{true for other control flow constructs introduced below}@}. For example: <!--SR:!2025-01-20,95,358!2025-01-20,95,358!2025-01-20,95,358-->
+If {@{there are no statements to be executed in a branch}@}, you {@{must still put a properly indented `pass` statement, which does nothing, for that branch}@}. This is also {@{true for other control flow constructs introduced below}@}. For example: <!--SR:!2026-05-02,467,378!2026-05-01,466,378!2026-05-03,468,378-->
 
 ```Python
 if condition:
@@ -68,7 +68,7 @@ Iterables can be {@{ranges, strings, lists, and many more not mentioned here}@}.
 
 To emulate the traditional `for` loop, one uses {@{`range` and specifies the starting point (inclusive), ending point (exclusive), and step}@}. A `for` loop with code in the form of `for (int idx = begin; idx < end; idx += step)` translates to {@{`for idx in range(begin, end, step):` (if `step` is negative, then `idx < end` becomes `idx > end`)}@}. `range(begin, end, step)` has shorter forms: {@{`range(begin, end)` is equivalent to `range(begin, end, 1)` and `range(end)` is equivalent to `range(0, end, 1)`}@}. <!--SR:!2025-01-25,278,330!2026-01-21,492,310!2025-02-18,295,330-->
 
-In Python, `while` can also perform iteration. A `while` statement consists of {@{a condition and a statement block}@}: <!--SR:!2025-01-19,271,330-->
+In Python, `while` can also perform iteration. A `while` statement consists of {@{a condition and a statement block}@}: <!--SR:!2028-06-13,1240,350-->
 
 ```Python
 while condition:

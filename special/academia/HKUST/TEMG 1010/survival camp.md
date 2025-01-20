@@ -45,7 +45,7 @@ We went over some leadership theory and did some group activities, basically.
   - 6 feedback guidelines / sift & sort ::@:: Personally choose to accept or ignore feedback. <!--SR:!2025-01-31,55,310!2025-02-01,56,310-->
   - 6 feedback guidelines / timely ::@:: Sometimes, now may not be the best time. Maybe later? <!--SR:!2025-02-13,67,310!2025-02-13,67,310-->
 - [emotional intelligence](../../../../general/emotional%20intelligence.md) — Daniel Goleman ::@:: empathy, motivation, self-awareness, self-regulation <!--SR:!2025-02-08,63,310!2025-02-04,59,310-->
-- [functional leadership model](../../../../general/functional%20leadership%20model.md) — John Adair ::@:: develop the team, help the individual, progress the task <!--SR:!2025-01-19,43,290!2025-02-08,63,310-->
+- [functional leadership model](../../../../general/functional%20leadership%20model.md) — John Adair ::@:: develop the team, help the individual, progress the task <!--SR:!2025-05-28,128,290!2025-02-08,63,310-->
 - [situational leadership theory](../../../../general/situational%20leadership%20theory.md) — Hersey and Blanchard ::@:: supporting, coaching, delegating, directing <!--SR:!2025-02-13,67,310!2025-02-13,67,310-->
 - personality types: 4 birds ::@:: dove, peacock, owl, eagle <!--SR:!2025-02-13,67,310!2025-02-13,67,310-->
   - <https://richardstep.com/dope-personality-type-quiz/dope-bird-4-personality-types-test-questions-online-version/>

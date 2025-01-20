@@ -122,7 +122,7 @@ In practice, {@{the $x$ sequence is usually length _N_ or less}@}, and $y_{_{N} 
 
 ### cross-correlation theorem
 
-Similar to above, by {@{applying the [circular convolution theorem](#ciruclar%20convolution%20theorem)}@}, {@{the [cross-correlation](cross-correlation.md) of $x$ and $y_{_{N} }$}@} is given by: {@{$$(x\star y_{_{N} })_{n}\triangleq \sum _{\ell =-\infty }^{\infty }x_{\ell }^{*}\cdot (y_{_{N} })_{n+\ell } = \sum_{\ell =-\infty }^{\infty} x_{-\ell }^{*} \cdot (y_{_N })_{n-\ell} = (x^*_{-n} * y_{_N })_n ={\mathcal {F} }^{-1}\left\{X^{*}\cdot Y\right\}_{n}$$}@}, considering that {@{the DFT of $\{x^*_{-n} \}$ is $X^*$ by [time and frequency reversal](#time%20and%20frequency%20reversal), and [conjugation in time](#conjugation%20in%20time)}@}. <!--SR:!2025-01-20,104,307!2025-03-22,153,327!2025-05-11,186,327!2025-04-30,179,332-->
+Similar to above, by {@{applying the [circular convolution theorem](#ciruclar%20convolution%20theorem)}@}, {@{the [cross-correlation](cross-correlation.md) of $x$ and $y_{_{N} }$}@} is given by: {@{$$(x\star y_{_{N} })_{n}\triangleq \sum _{\ell =-\infty }^{\infty }x_{\ell }^{*}\cdot (y_{_{N} })_{n+\ell } = \sum_{\ell =-\infty }^{\infty} x_{-\ell }^{*} \cdot (y_{_N })_{n-\ell} = (x^*_{-n} * y_{_N })_n ={\mathcal {F} }^{-1}\left\{X^{*}\cdot Y\right\}_{n}$$}@}, considering that {@{the DFT of $\{x^*_{-n} \}$ is $X^*$ by [time and frequency reversal](#time%20and%20frequency%20reversal), and [conjugation in time](#conjugation%20in%20time)}@}. <!--SR:!2025-12-02,316,307!2025-03-22,153,327!2025-05-11,186,327!2025-04-30,179,332-->
 
 ### uniqueness of the discrete Fourier transform
 

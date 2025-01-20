@@ -16,7 +16,7 @@ tags:
 
 ## variable
 
-Before using a variable, it needs to be {@{declared using the keyword `Dim` first}@}. The syntax is {@{`Dim VariableName As Type`}@}. You can also declare multiple variables in one line, like {@{`Dim VariableName1 As Type1, VariableName2 As Type2`}@}. <!--SR:!2025-01-19,271,330!2027-01-18,820,330!2026-06-22,651,330-->
+Before using a variable, it needs to be {@{declared using the keyword `Dim` first}@}. The syntax is {@{`Dim VariableName As Type`}@}. You can also declare multiple variables in one line, like {@{`Dim VariableName1 As Type1, VariableName2 As Type2`}@}. <!--SR:!2027-07-05,895,330!2027-01-18,820,330!2026-06-22,651,330-->
 
 To assign variables, use {@{the equals operator `=`, like `Variable = Value`}@}. For object types (basically anything that are not simple types like numbers, strings, booleans), you need to {@{prepend `Set` before the variable as well, like `Set ObjectVariable = Value`}@}. <!--SR:!2025-02-22,295,330!2025-12-29,476,310-->
 
@@ -64,7 +64,7 @@ return _chain.from_iterable(await _gather(
 <!--pytextgen generate section="652a"--><!-- The following content is generated at 2024-03-07T00:04:17.291438+08:00. Any edits will be overridden! -->
 
 - _(begin)_→::@::←`Boolean` <!--SR:!2025-04-08,334,345!2028-02-28,1156,350-->
-- `Boolean`→::@::←`Double` <!--SR:!2025-01-19,272,330!2025-02-24,300,330-->
+- `Boolean`→::@::←`Double` <!--SR:!2028-06-12,1238,350!2025-02-24,300,330-->
 - `Double`→::@::←`Integer` <!--SR:!2026-05-07,567,330!2027-03-14,856,330-->
 - `Integer`→::@::←`Long` <!--SR:!2025-07-31,359,290!2027-11-05,1045,345-->
 - `Long`→::@::←`Single` <!--SR:!2025-08-03,313,305!2027-11-02,1043,345-->

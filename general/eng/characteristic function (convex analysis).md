@@ -17,15 +17,15 @@ In {@{the field of [mathematics](mathematics.md) known as [convex analysis](conv
 
 ## definition
 
-Let {@{$X$ be a [set](set%20(mathematics).md), and let $A$ be a [subset](subset.md) of $X$}@}. The __characteristic function__ of $A$ is the function {@{$$\chi _{A}:X\to \mathbb {R} \cup \{+\infty \}$$}@} taking {@{values in the [extended real number line](extended%20real%20number%20line.md) defined by $$\chi _{A}(x):={\begin{cases}0,&x\in A;\\+\infty ,&x\not \in A.\end{cases} }$$}@} <!--SR:!2025-01-20,15,290!2025-01-20,15,290!2025-03-17,57,310-->
+Let {@{$X$ be a [set](set%20(mathematics).md), and let $A$ be a [subset](subset.md) of $X$}@}. The __characteristic function__ of $A$ is the function {@{$$\chi _{A}:X\to \mathbb {R} \cup \{+\infty \}$$}@} taking {@{values in the [extended real number line](extended%20real%20number%20line.md) defined by $$\chi _{A}(x):={\begin{cases}0,&x\in A;\\+\infty ,&x\not \in A.\end{cases} }$$}@} <!--SR:!2025-03-21,60,310!2025-03-23,62,310!2025-03-17,57,310-->
 
 ## relationship with the indicator function
 
-Let {@{$\mathbf {1} _{A}:X\to \mathbb {R}$}@} denote {@{the usual indicator function: $$\mathbf {1} _{A}(x):={\begin{cases}1,&x\in A;\\0,&x\not \in A.\end{cases} }$$}@} If one adopts the conventions that (annotation: the conventions are {@{related to arithmetic operations and infinities}@}) <!--SR:!2025-01-21,16,290!2025-01-20,15,290!2025-03-18,58,310-->
+Let {@{$\mathbf {1} _{A}:X\to \mathbb {R}$}@} denote {@{the usual indicator function: $$\mathbf {1} _{A}(x):={\begin{cases}1,&x\in A;\\0,&x\not \in A.\end{cases} }$$}@} If one adopts the conventions that (annotation: the conventions are {@{related to arithmetic operations and infinities}@}) <!--SR:!2025-01-21,16,290!2025-03-22,61,310!2025-03-18,58,310-->
 
-- (annotation: multiplication with positive infinity) ::@:: for any $a\in \mathbb {R} \cup \{+\infty \}$, $a+(+\infty )=+\infty$ and $a(+\infty )=+\infty$, except $0(+\infty )=0$; <!--SR:!2025-01-20,15,290!2025-01-21,16,290-->
-- (annotation: division by 0) ::@:: ${\frac {1}{0} }=+\infty$; and <!--SR:!2025-03-17,57,310!2025-01-20,15,290-->
-- (annotation: division by positive infinity) ::@:: ${\frac {1}{+\infty } }=0$; <!--SR:!2025-03-16,56,310!2025-01-20,15,290-->
+- (annotation: multiplication with positive infinity) ::@:: for any $a\in \mathbb {R} \cup \{+\infty \}$, $a+(+\infty )=+\infty$ and $a(+\infty )=+\infty$, except $0(+\infty )=0$; <!--SR:!2025-03-22,61,310!2025-01-21,16,290-->
+- (annotation: division by 0) ::@:: ${\frac {1}{0} }=+\infty$; and <!--SR:!2025-03-17,57,310!2025-03-21,60,310-->
+- (annotation: division by positive infinity) ::@:: ${\frac {1}{+\infty } }=0$; <!--SR:!2025-03-16,56,310!2025-03-24,63,310-->
 
 then {@{the indicator and characteristic functions are related}@} by {@{the equations $$\mathbf {1} _{A}(x)={\frac {1}{1+\chi _{A}(x)} }$$ and $$\chi _{A}(x)=(+\infty )\left(1-\mathbf {1} _{A}(x)\right).$$}@} <!--SR:!2025-01-21,16,290!2025-01-21,16,290-->
 

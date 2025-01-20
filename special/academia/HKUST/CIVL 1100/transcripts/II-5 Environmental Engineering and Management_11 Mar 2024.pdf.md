@@ -207,7 +207,7 @@ Sustainable Waste Management
 
 How to provide motivation for waste reduction, reuse and recycling?
 
-- How to charge your MSW? ::@:: fixed charge, proxy system, quantity-based system <!--SR:!2025-01-19,182,310!2026-09-03,634,330-->
+- How to charge your MSW? ::@:: fixed charge, proxy system, quantity-based system <!--SR:!2027-03-13,781,330!2026-09-03,634,330-->
   - quantity-based system example ::@:: Taipei (not Taiwan as a whole) implemented MSW charging by bag in 2000. Compared to before, -37% after 1 year and -62% after 7 years. <!--SR:!2025-06-10,245,270!2025-10-26,347,290-->
 
 ## page 14
@@ -392,7 +392,7 @@ return await memorize_seq(
 - carbon dioxide (CO<sub>2</sub>)→::@::←hydroflurocarbons (HFCs) <!--SR:!2025-04-13,185,230!2025-05-06,223,270-->
 - hydroflurocarbons (HFCs)→::@::←methane (CH<sub>4</sub>) <!--SR:!2025-06-25,190,270!2025-03-10,166,230-->
 - methane (CH<sub>4</sub>)→::@::←nitrous oxide (N<sub>2</sub>O) <!--SR:!2025-06-13,229,250!2026-01-09,395,290-->
-- nitrous oxide (N<sub>2</sub>O)→::@::←perflurocarbons (PFCs) <!--SR:!2025-01-25,123,230!2025-01-20,3,130-->
+- nitrous oxide (N<sub>2</sub>O)→::@::←perflurocarbons (PFCs) <!--SR:!2025-01-25,123,230!2025-01-25,4,130-->
 - perflurocarbons (PFCs)→::@::←sulfur hexafluoride (SF<sub>6</sub>) <!--SR:!2025-04-22,133,270!2025-03-13,187,270-->
 - sulfur hexafluoride (SF<sub>6</sub>)→::@::←_(end)_ <!--SR:!2025-02-14,186,310!2025-03-30,222,310-->
 

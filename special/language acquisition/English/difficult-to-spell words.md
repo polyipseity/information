@@ -74,14 +74,14 @@ English
 - [recipient](https://en.wiktionary.org/wiki/recipient) ::@:: (r\_t) One who receives. <!--SR:!2026-01-23,558,408!2025-09-21,362,308-->
 - [reciprocity](https://en.wiktionary.org/wiki/reciprocity) ::@:: (r\_y) Mutual dependence, action, or influence. <!--SR:!2025-11-01,493,408!2025-08-24,406,348-->
 - [recruit](https://en.wiktionary.org/wiki/recruit) ::@:: (r\_t) Enroll new [employees](../../../general/employment.md#employee). <!--SR:!2025-02-26,327,372!2025-03-18,347,372-->
-- [reservoir](https://en.wiktionary.org/wiki/reservoir) ::@:: (r\_r) A source or sink of something. <!--SR:!2025-01-20,304,330!2025-01-21,269,290-->
+- [reservoir](https://en.wiktionary.org/wiki/reservoir) ::@:: (r\_r) A source or sink of something. <!--SR:!2027-10-20,1003,330!2025-01-21,269,290-->
 - [rudimentary](https://en.wiktionary.org/wiki/rudimentary) ::@:: (r\_y) Basic, minimal. <!--SR:!2025-04-28,381,372!2027-07-02,1010,372-->
 - [sacred](https://en.wiktionary.org/wiki/sacred) ::@:: (s\_d) Not to be profaned or violated; inviolable. <!--SR:!2025-10-14,428,376!2025-07-01,288,336-->
 - [scarce](https://en.wiktionary.org/wiki/scarce) ::@:: (s\_e) Uncommon, rare. <!--SR:!2025-08-20,394,376!2025-07-28,345,336-->
 - [scared](https://en.wiktionary.org/wiki/scared) ::@:: (s\_d) Feeling fear; afraid, frightened. <!--SR:!2026-01-07,529,396!2026-08-18,718,416-->
 - [scissors](https://en.wiktionary.org/wiki/scissors) ::@:: (s\_s) A tool used for cutting thin material, consisting of two crossing blades attached at a pivot point in such a way that the blades slide across each other when the handles are closed. <!--SR:!2026-01-10,480,332!2025-06-30,396,392-->
 - [sinusoidal](https://en.wiktionary.org/wiki/sinusoidal) ::@:: (s\_l) Having the shape or characteristics of a [sine wave](../../../general/sine%20wave.md). <!--SR:!2027-01-03,767,324!2025-03-06,222,244-->
-- [supremum](https://en.wiktionary.org/wiki/supremum) ::@:: (s\_m) Given a [subset](../../../general/subset.md) $X$ of a [partially ordered set](../../../general/partially%20ordered%20set.md) $P$ with partial order $\le$, the least element $y$ of $P$ such that every $x$ in $X$ satisfies $x \le y$. <!--SR:!2026-05-25,647,410!2025-01-18,257,370-->
+- [supremum](https://en.wiktionary.org/wiki/supremum) ::@:: (s\_m) Given a [subset](../../../general/subset.md) $X$ of a [partially ordered set](../../../general/partially%20ordered%20set.md) $P$ with partial order $\le$, the least element $y$ of $P$ such that every $x$ in $X$ satisfies $x \le y$. <!--SR:!2026-05-25,647,410!2028-08-16,1304,390-->
 - [tennessine](https://en.wiktionary.org/wiki/tennessine) ::@:: (t\_e) A [chemical element](../../../general/chemical%20element.md) (_symbol_ Ts) of [atomic number](../../../general/atomic%20number.md) 117. <!--SR:!2026-10-23,679,332!2025-06-17,391,392-->
 - [theoretical](https://en.wiktionary.org/wiki/theoretical) ::@:: (t\_l) Of or relating to theory rather than practice. <!--SR:!2027-02-13,825,330!2026-02-02,521,290-->
 - [trachea](https://en.wiktionary.org/wiki/trachea) ::@:: (t\_a) A thin [cartilaginous](../../../general/cartilage.md) tube that connects the [larynx](../../../general/larynx.md) to the [bronchi](../../../general/bronchus.md). <!--SR:!2026-07-29,611,284!2026-11-15,799,344-->
@@ -89,7 +89,7 @@ English
 - [trigonometry](https://en.wiktionary.org/wiki/trigonometry) ::@:: (t\_y) The branch of [mathematics](../../../general/mathematics.md) concerned with the relations between angles and ratios of sides. <!--SR:!2026-04-02,565,290!2026-08-02,629,290-->
 - [ubiquitous](https://en.wiktionary.org/wiki/ubiquitous) ::@:: (u\_s) Widespread. <!--SR:!2025-02-23,300,388!2026-09-24,695,348-->
 - [vacuous](https://en.wiktionary.org/wiki/vacuous) ::@:: (v\_s) Empty, void. <!--SR:!2028-04-28,1242,364!2025-12-24,514,324-->
-- [vacuum](https://en.wiktionary.org/wiki/vacuum) ::@:: (v\_m) A region of [space](../../../general/space.md) containing no [matter](../../../general/matter.md). <!--SR:!2025-01-20,290,344!2028-06-10,1275,364-->
+- [vacuum](https://en.wiktionary.org/wiki/vacuum) ::@:: (v\_m) A region of [space](../../../general/space.md) containing no [matter](../../../general/matter.md). <!--SR:!2028-10-23,1372,364!2028-06-10,1275,364-->
 - [vehicle](https://en.wiktionary.org/wiki/vehicle) ::@:: (v\_e) A spacious device for transporting things. <!--SR:!2026-10-30,783,416!2025-06-08,334,376-->
 - [viscous](https://en.wiktionary.org/wiki/viscous) ::@:: (v\_s) Having a thick and stick consistency between [solid](../../../general/solid.md) and [liquid](../../../general/liquid.md). <!--SR:!2028-03-05,1199,364!2025-09-01,433,324-->
 - [volunteer](https://en.wiktionary.org/wiki/volunteer) ::@:: (v\_r) To do or offer to do something voluntarily. <!--SR:!2025-03-28,357,372!2025-04-09,369,372-->

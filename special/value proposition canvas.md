@@ -59,7 +59,7 @@ Value proposition design works for {@{both new ventures and established organiza
 
 The value proposition canvas has two parts: {@{the customer profile showing your customer understanding and the value map showing your product and its values. Achieve fit by having your product create value that satisfies customers}@}. <!--SR:!2025-04-04,235,289-->
 
-The value map itself has three parts: {@{products and services, pain relievers, and gain creators}@}. It corresponds to the three parts of the customer profile: {@{customer jobs, pains, and gains}@}. Fit is achieved when {@{pain relievers relieve pains and gain creators create gains that are important to the customer}@}. <!--SR:!2025-01-18,198,327!2025-05-02,304,330!2026-12-05,722,329-->
+The value map itself has three parts: {@{products and services, pain relievers, and gain creators}@}. It corresponds to the three parts of the customer profile: {@{customer jobs, pains, and gains}@}. Fit is achieved when {@{pain relievers relieve pains and gain creators create gains that are important to the customer}@}. <!--SR:!2027-07-06,896,347!2025-05-02,304,330!2026-12-05,722,329-->
 
 ### customer profile
 
@@ -126,7 +126,7 @@ Products and services is {@{simply a list of what you offer}@}, and can also inc
 
 Pain relievers describe {@{how the products or services alleviate customer pains}@}. There is no need to {@{alleviate every identified pain}@}, and instead {@{it is better to alleviate some extreme pains extremely well}@}. Like products and services, pain relievers {@{can have different relevance to your customers}@}. <!--SR:!2027-08-09,939,349!2026-08-09,632,329!2025-05-28,285,290!2026-04-06,502,310-->
 
-Gain creators describe {@{how the products or services create customer gains}@}. There is also no need to {@{create every identified gain}@}, and instead {@{it is better to create some relevant gains extremely well}@}. Like products and services, gain creators {@{can have different relevance to your customers}@}. <!--SR:!2025-06-12,326,349!2025-01-19,200,329!2026-08-29,658,329!2026-05-21,520,309-->
+Gain creators describe {@{how the products or services create customer gains}@}. There is also no need to {@{create every identified gain}@}, and instead {@{it is better to create some relevant gains extremely well}@}. Like products and services, gain creators {@{can have different relevance to your customers}@}. <!--SR:!2025-06-12,326,349!2027-07-17,907,349!2026-08-29,658,329!2026-05-21,520,309-->
 
 There are several [common mistakes](#value%20map%20common%20mistakes) to be aware of.
 
@@ -260,7 +260,7 @@ conclusion: make progress
 - hypothesis: extract hypotheses→::@::←hypothesis: prioritize hypotheses <!--SR:!2025-07-29,366,349!2026-08-03,629,329-->
 - hypothesis: prioritize hypotheses→::@::←test: design tests <!--SR:!2026-07-28,572,309!2025-02-05,199,270-->
 - test: design tests→::@::←test: prioritize tests <!--SR:!2025-07-09,282,309!2025-11-28,450,310-->
-- test: prioritize tests→::@::←test: run tests <!--SR:!2025-01-18,213,329!2026-04-24,515,310-->
+- test: prioritize tests→::@::←test: run tests <!--SR:!2026-12-27,705,329!2026-04-24,515,310-->
 - test: run tests→::@::←conclusion: capture findings <!--SR:!2025-08-14,301,269!2025-11-30,404,309-->
 - conclusion: capture findings→::@::←conclusion: make progress <!--SR:!2025-02-09,213,329!2025-11-16,404,309-->
 - conclusion: make progress→::@::←_(end)_ <!--SR:!2025-02-14,218,329!2025-07-29,301,270-->

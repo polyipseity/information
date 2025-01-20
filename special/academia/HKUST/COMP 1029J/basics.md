@@ -84,7 +84,7 @@ return _chain.from_iterable(await _gather(
 
 <!--pytextgen generate section="652a"--><!-- The following content is generated at 2024-01-29T08:31:35.198780+08:00. Any edits will be overridden! -->
 
-- _(begin)_→::@::←`String` <!--SR:!2025-01-20,275,330!2027-07-12,976,350-->
+- _(begin)_→::@::←`String` <!--SR:!2028-06-26,1253,350!2027-07-12,976,350-->
 - `String`→::@::←`boolean` <!--SR:!2026-10-27,749,330!2028-05-21,1223,350-->
 - `boolean`→::@::←`char` <!--SR:!2025-02-03,281,330!2025-02-21,296,330-->
 - `char`→::@::←`double` <!--SR:!2025-08-13,366,290!2027-01-18,812,330-->
@@ -210,7 +210,7 @@ return _chain.from_iterable(await _gather(
 - `*`:@:multiplication <!--SR:!2025-03-01,303,330-->
 - `/`:@:division; if both operands are of integral types, then round-towards-zero division <!--SR:!2025-02-05,100,270-->
 - `%`:@:remainder; the resulting sign is the same as the dividend, i.e. the number before the operator <!--SR:!2025-06-14,322,290-->
-- `+`:@:addition <!--SR:!2025-01-19,272,330-->
+- `+`:@:addition <!--SR:!2028-06-12,1239,350-->
 - `-`:@:subtraction <!--SR:!2028-03-13,1165,350-->
 
 <!--/pytextgen-->
@@ -324,7 +324,7 @@ return _chain.from_iterable(await _gather(
 
 <!--pytextgen generate section="d882"--><!-- The following content is generated at 2024-02-20T14:26:40.998968+08:00. Any edits will be overridden! -->
 
-- _(begin)_→::@::←`!` <!--SR:!2025-01-18,273,330!2026-02-19,570,330-->
+- _(begin)_→::@::←`!` <!--SR:!2028-06-14,1241,350!2026-02-19,570,330-->
 - `!`→::@::←`&&` <!--SR:!2026-08-12,635,310!2026-12-22,796,330-->
 - `&&`→::@::←<code>&#124;&#124;</code> <!--SR:!2025-01-24,277,330!2028-05-16,1220,350-->
 - <code>&#124;&#124;</code>→::@::←_(end)_ <!--SR:!2027-11-25,1083,350!2026-06-07,643,330-->

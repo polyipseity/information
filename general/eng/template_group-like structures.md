@@ -46,7 +46,7 @@ tags:
 > - semigroupoid ::@:: associative <!--SR:!2025-01-31,16,230!2025-01-31,18,250-->
 > - small category ::@:: associative, identity <!--SR:!2025-01-22,15,290!2025-01-23,16,290-->
 > - groupoid ::@:: associative, identity, divisible <!--SR:!2025-03-02,42,290!2025-01-30,17,250-->
-> - commutative groupoid ::@:: associative, identity, divisible, commutative <!--SR:!2025-01-20,6,210!2025-01-22,15,290-->
+> - commutative groupoid ::@:: associative, identity, divisible, commutative <!--SR:!2025-02-02,13,210!2025-01-22,15,290-->
 > - magma ::@:: total <!--SR:!2025-01-23,16,290!2025-01-22,15,290-->
 > - commutative magma ::@:: total, commutative <!--SR:!2025-01-23,16,290!2025-01-23,16,290-->
 > - quasigroup ::@:: total, divisible <!--SR:!2025-02-07,25,270!2025-02-01,19,250-->

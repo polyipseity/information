@@ -18,7 +18,7 @@ There are {@{6 general mechanisms}@} for creating arrays: <!--SR:!2025-02-03,74,
 
 1. Conversion ::@:: from other Python structures (i.e. lists and tuples) <!--SR:!2025-02-03,74,330!2025-02-02,73,330-->
 2. Intrinsic ::@:: NumPy array creation functions (e.g. arange, ones, zeros, etc.) <!--SR:!2025-02-04,75,330!2025-01-21,62,310-->
-3. Replicating, joining, or mutating ::@:: existing arrays <!--SR:!2025-01-20,61,310!2025-02-01,72,330-->
+3. Replicating, joining, or mutating ::@:: existing arrays <!--SR:!2025-07-30,190,310!2025-02-01,72,330-->
 4. Reading ::@:: arrays from disk, either from standard or custom formats <!--SR:!2025-02-03,74,330!2025-02-04,75,330-->
 5. Creating arrays ::@:: from raw bytes through the use of strings or buffers <!--SR:!2025-02-02,73,330!2025-01-21,62,310-->
 6. Use of ::@:: special library functions (e.g., random) <!--SR:!2025-02-05,76,330!2025-02-05,76,330-->
@@ -40,7 +40,7 @@ NumPy arrays can be defined using {@{Python sequences such as lists and tuples}@
 >>> a3D = np.array([[[1, 2], [3, 4]], [[5, 6], [7, 8]]])
 ```
 
-When {@{you use [`numpy.array`](../../API%20reference/generated/numpy.array.md#numpy.array "numpy.array") to define a new array}@}, you should {@{consider the [dtype](data%20types.md) of the elements in the array}@}, which {@{can be specified explicitly}@}. This feature gives you {@{more control over the underlying data structures and how the elements are handled in C/C++ functions}@}. When {@{values do not fit and you are using a `dtype`}@}, NumPy may {@{raise an error}@}: <!--SR:!2025-01-25,66,310!2025-02-02,73,330!2025-01-20,61,310!2025-01-22,63,310!2025-02-04,75,330!2025-01-21,62,310-->
+When {@{you use [`numpy.array`](../../API%20reference/generated/numpy.array.md#numpy.array "numpy.array") to define a new array}@}, you should {@{consider the [dtype](data%20types.md) of the elements in the array}@}, which {@{can be specified explicitly}@}. This feature gives you {@{more control over the underlying data structures and how the elements are handled in C/C++ functions}@}. When {@{values do not fit and you are using a `dtype`}@}, NumPy may {@{raise an error}@}: <!--SR:!2025-01-25,66,310!2025-02-02,73,330!2025-10-14,266,330!2025-01-22,63,310!2025-02-04,75,330!2025-01-21,62,310-->
 
 ```Python
 >>> import numpy as np
@@ -108,7 +108,7 @@ array([1. ,  1.6,  2.2,  2.8,  3.4,  4. ])
 
 {@{The 2D array creation functions}@} e.g. {@{[`numpy.eye`](../../API%20reference/generated/numpy.eye.md#numpy.eye "numpy.eye"), [`numpy.diag`](../../API%20reference/generated/numpy.diag.md#numpy.diag "numpy.diag"), and [`numpy.vander`](../../API%20reference/generated/numpy.vander.md#numpy.vander "numpy.vander")}@} define {@{properties of special matrices represented as 2D arrays}@}. <!--SR:!2025-01-24,65,310!2025-01-21,62,310!2025-01-23,64,310-->
 
-{@{`np.eye(n, m)`}@} defines {@{a 2D identity matrix}@}. {@{The elements where i=j (row index and column index are equal)}@} are {@{1 and the rest are 0}@}, as such: <!--SR:!2025-01-20,61,310!2025-01-20,61,310!2025-01-22,63,310!2025-02-02,73,330-->
+{@{`np.eye(n, m)`}@} defines {@{a 2D identity matrix}@}. {@{The elements where i=j (row index and column index are equal)}@} are {@{1 and the rest are 0}@}, as such: <!--SR:!2025-10-13,265,330!2025-10-15,267,330!2025-01-22,63,310!2025-02-02,73,330-->
 
 ```Python
 >>> import numpy as np
@@ -164,7 +164,7 @@ array([[ 1,  1,  1,  1],
 
 ### general ndarray creation functions
 
-{@{The ndarray creation functions}@} e.g. {@{[`numpy.ones`](../../API%20reference/generated/numpy.ones.md#numpy.ones "numpy.ones"), [`numpy.zeros`](../../API%20reference/generated/numpy.zeros.md#numpy.zeros "numpy.zeros"), and [`random`](../../API%20reference/generated/numpy.random.Generator.random.md#numpy.random.Generator.random "numpy.random.Generator.random")}@} define {@{arrays based upon the desired shape}@}. The ndarray creation functions can {@{create arrays with any dimension by specifying how many dimensions and length along that dimension in a tuple or list}@}. <!--SR:!2025-01-21,62,310!2025-02-03,74,330!2025-01-20,61,310!2025-01-24,65,310-->
+{@{The ndarray creation functions}@} e.g. {@{[`numpy.ones`](../../API%20reference/generated/numpy.ones.md#numpy.ones "numpy.ones"), [`numpy.zeros`](../../API%20reference/generated/numpy.zeros.md#numpy.zeros "numpy.zeros"), and [`random`](../../API%20reference/generated/numpy.random.Generator.random.md#numpy.random.Generator.random "numpy.random.Generator.random")}@} define {@{arrays based upon the desired shape}@}. The ndarray creation functions can {@{create arrays with any dimension by specifying how many dimensions and length along that dimension in a tuple or list}@}. <!--SR:!2025-01-21,62,310!2025-02-03,74,330!2025-10-09,261,330!2025-01-24,65,310-->
 
 {@{[`numpy.zeros`](../../API%20reference/generated/numpy.zeros.md#numpy.zeros "numpy.zeros")}@} will {@{create an array filled with 0 values with the specified shape}@}. The default dtype is {@{`float64`}@}: <!--SR:!2025-01-26,67,310!2025-02-04,75,330!2025-01-21,62,310-->
 
@@ -183,7 +183,7 @@ array([[[0., 0.],
         [0., 0.]]])
 ```
 
-{@{[`numpy.ones`](../../API%20reference/generated/numpy.ones.md#numpy.ones "numpy.ones")}@} will {@{create an array filled with 1 values}@}. It is {@{identical to `zeros` in all other respects}@} as such: <!--SR:!2025-01-25,66,310!2025-01-20,61,310!2025-01-20,61,310-->
+{@{[`numpy.ones`](../../API%20reference/generated/numpy.ones.md#numpy.ones "numpy.ones")}@} will {@{create an array filled with 1 values}@}. It is {@{identical to `zeros` in all other respects}@} as such: <!--SR:!2025-01-25,66,310!2025-10-14,266,330!2025-10-16,268,330-->
 
 ```Python
 >>> import numpy as np
@@ -200,7 +200,7 @@ array([[[1., 1.],
         [1., 1.]]])
 ```
 
-{@{The [`random`](../../API%20reference/generated/numpy.random.Generator.random.md#numpy.random.Generator.random "numpy.random.Generator.random") method of the result of `default_rng`}@} will {@{create an array filled with random values between 0 and 1}@}. It is included with {@{the [`numpy.random`](../../API%20reference/generated/index.md#module-numpy.random "numpy.random") library}@}. Below, two arrays are {@{created with shapes (2,3) and (2,3,2), respectively}@}. The seed is set to 42 so {@{you can reproduce these pseudorandom numbers}@}: <!--SR:!2025-07-23,200,310!2025-02-04,75,330!2025-02-02,73,330!2025-01-24,65,310!2025-01-20,61,310-->
+{@{The [`random`](../../API%20reference/generated/numpy.random.Generator.random.md#numpy.random.Generator.random "numpy.random.Generator.random") method of the result of `default_rng`}@} will {@{create an array filled with random values between 0 and 1}@}. It is included with {@{the [`numpy.random`](../../API%20reference/generated/index.md#module-numpy.random "numpy.random") library}@}. Below, two arrays are {@{created with shapes (2,3) and (2,3,2), respectively}@}. The seed is set to 42 so {@{you can reproduce these pseudorandom numbers}@}: <!--SR:!2025-07-23,200,310!2025-02-04,75,330!2025-02-02,73,330!2025-01-24,65,310!2025-10-08,260,330-->
 
 ```Python
 >>> import numpy as np
@@ -217,7 +217,7 @@ array([[[0.77395605, 0.43887844],
         [0.37079802, 0.92676499]]])
 ```
 
-{@{[`numpy.indices`](../../API%20reference/generated/numpy.indices.md#numpy.indices "numpy.indices")}@} will {@{create a set of arrays (stacked as a one-higher dimensioned array), one per dimension with each representing variation in that dimension}@}. This is particularly useful for {@{evaluating functions of multiple dimensions on a regular grid}@}: <!--SR:!2025-01-20,61,310!2025-05-28,155,310!2025-02-01,72,330-->
+{@{[`numpy.indices`](../../API%20reference/generated/numpy.indices.md#numpy.indices "numpy.indices")}@} will {@{create a set of arrays (stacked as a one-higher dimensioned array), one per dimension with each representing variation in that dimension}@}. This is particularly useful for {@{evaluating functions of multiple dimensions on a regular grid}@}: <!--SR:!2025-10-12,264,330!2025-05-28,155,310!2025-02-01,72,330-->
 
 ```Python
 >>> import numpy as np
@@ -232,7 +232,7 @@ array([[[0, 0, 0],
 
 ## replicating, joining, or mutating existing arrays
 
-Once {@{you have created arrays}@}, you can {@{replicate, join, or mutate those existing arrays to create new arrays}@}. When you {@{assign an array or its elements to a new variable}@}, you have to {@{explicitly [`numpy.copy`](../../API%20reference/generated/numpy.copy.md#numpy.copy "numpy.copy") the array}@}, otherwise {@{the variable is a view into the original array}@}. Consider the following example: <!--SR:!2025-02-02,73,330!2025-01-20,61,310!2025-02-04,75,330!2025-01-26,67,310!2025-02-02,73,330-->
+Once {@{you have created arrays}@}, you can {@{replicate, join, or mutate those existing arrays to create new arrays}@}. When you {@{assign an array or its elements to a new variable}@}, you have to {@{explicitly [`numpy.copy`](../../API%20reference/generated/numpy.copy.md#numpy.copy "numpy.copy") the array}@}, otherwise {@{the variable is a view into the original array}@}. Consider the following example: <!--SR:!2025-02-02,73,330!2025-10-13,265,330!2025-02-04,75,330!2025-01-26,67,310!2025-02-02,73,330-->
 
 ```Python
 >>> import numpy as np
@@ -243,7 +243,7 @@ Once {@{you have created arrays}@}, you can {@{replicate, join, or mutate those 
 a = [2 3 3 4 5 6] ; b = [2 3]
 ```
 
-In this example, you {@{did not create a new array}@}. You {@{created a variable, `b` that viewed the first 2 elements of `a`}@}. When {@{you added 1 to `b`}@} you would {@{get the same result by adding 1 to `a[:2]`}@}. If {@{you want to create a _new_ array}@}, use {@{the [`numpy.copy`](../../API%20reference/generated/numpy.copy.md#numpy.copy "numpy.copy") array creation routine}@} as such: <!--SR:!2025-01-22,63,310!2025-02-05,76,330!2025-01-20,61,310!2025-02-01,72,330!2025-01-23,64,310!2025-01-22,63,310-->
+In this example, you {@{did not create a new array}@}. You {@{created a variable, `b` that viewed the first 2 elements of `a`}@}. When {@{you added 1 to `b`}@} you would {@{get the same result by adding 1 to `a[:2]`}@}. If {@{you want to create a _new_ array}@}, use {@{the [`numpy.copy`](../../API%20reference/generated/numpy.copy.md#numpy.copy "numpy.copy") array creation routine}@} as such: <!--SR:!2025-01-22,63,310!2025-02-05,76,330!2025-10-10,262,330!2025-02-01,72,330!2025-01-23,64,310!2025-01-22,63,310-->
 
 ```Python
 >>> import numpy as np
@@ -279,7 +279,7 @@ This is {@{the most common case of large array creation}@}. The details {@{depen
 
 ### standard binary formats
 
-{@{Various fields}@} have {@{standard formats for array data}@}. The following lists {@{the ones with known Python libraries to read them and return NumPy arrays}@} (there may be {@{others for which it is possible to read and convert to NumPy arrays so check the last section as well}@}) <!--SR:!2025-01-20,61,310!2025-02-05,76,330!2025-01-26,67,310!2025-01-26,67,310-->
+{@{Various fields}@} have {@{standard formats for array data}@}. The following lists {@{the ones with known Python libraries to read them and return NumPy arrays}@} (there may be {@{others for which it is possible to read and convert to NumPy arrays so check the last section as well}@}) <!--SR:!2025-10-15,267,330!2025-02-05,76,330!2025-01-26,67,310!2025-01-26,67,310-->
 
 - HDF5 ::@:: h5py <!--SR:!2025-02-02,73,330!2025-01-25,66,310-->
 - FITS ::@:: Astropy <!--SR:!2025-01-23,64,310!2025-02-01,72,330-->
@@ -318,7 +318,7 @@ There are {@{a variety of approaches one can use}@}. If {@{the file has a relati
 
 ## use of special library functions (e.g., SciPy, pandas, and OpenCV)
 
-NumPy is {@{the fundamental library for array containers in the Python Scientific Computing stack}@}. {@{Many Python libraries}@}, including {@{SciPy, Pandas, and OpenCV}@}, use {@{NumPy ndarrays as the common format for data exchange}@}. These libraries can {@{create, operate on, and work with NumPy arrays}@}. <!--SR:!2025-01-21,62,310!2025-01-20,61,310!2025-02-01,72,330!2025-01-26,67,310!2025-02-05,76,330-->
+NumPy is {@{the fundamental library for array containers in the Python Scientific Computing stack}@}. {@{Many Python libraries}@}, including {@{SciPy, Pandas, and OpenCV}@}, use {@{NumPy ndarrays as the common format for data exchange}@}. These libraries can {@{create, operate on, and work with NumPy arrays}@}. <!--SR:!2025-01-21,62,310!2025-10-11,263,330!2025-02-01,72,330!2025-01-26,67,310!2025-02-05,76,330-->
 
 ## references
 
