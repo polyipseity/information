@@ -41,7 +41,7 @@ return await memorize_seq(
 )
 ```
 
-The following properties make nylons suitable for {@{clothing fibers, fishing lines and nets, racket strings, ropes, etc.}@} <!--SR:!2025-01-21,244,170-->
+The following properties make nylons suitable for {@{clothing fibers, fishing lines and nets, racket strings, ropes, etc.}@} <!--SR:!2026-03-12,415,170-->
 
 <!--pytextgen generate section="bba2"--><!-- The following content is generated at 2024-03-07T10:21:21.098669+08:00. Any edits will be overridden! -->
 

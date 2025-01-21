@@ -19,14 +19,14 @@ tags:
 
 ## mnemonics
 
-- easy metrics ::@:: current ratio, dividend yield, net profit margin, net sales, price/earnings ratio, quick ratio <!--SR:!2025-01-21,28,282!2025-02-20,52,302-->
+- easy metrics ::@:: current ratio, dividend yield, net profit margin, net sales, price/earnings ratio, quick ratio <!--SR:!2025-04-13,82,282!2025-02-20,52,302-->
 - non-ratios ::@:: free cash flow, working capital <!--SR:!2025-03-12,72,322!2025-03-13,73,322-->
 - reciprocals multiplied by 365 ::@:: average collection period, average days to pay payables, average days to sell inventory <!--SR:!2025-03-07,67,319!2025-02-18,50,302-->
 - surprising terms in equation ::@:: accounts payable turnover, earnings per share <!--SR:!2025-02-04,39,296!2025-03-14,74,322-->
 - surprising "net" in equation ::@:: current assets, fixed asset turnover, quick assets, receivables turnover, total assets <!--SR:!2025-01-31,38,299!2025-02-18,50,302-->
-- cash flow ::@:: capital acquisitions ratio, free cash flow, quality of income <!--SR:!2025-01-21,28,282!2025-02-17,49,299-->
-- cost of goods sold as numerator ::@:: inventory turnover <!--SR:!2025-01-21,30,279!2025-02-12,46,290-->
-- net sales as numerator ::@:: fixed asset turnover, receivables turnover (+credit), total asset turnover <!--SR:!2025-01-21,30,282!2025-01-21,28,282-->
+- cash flow ::@:: capital acquisitions ratio, free cash flow, quality of income <!--SR:!2025-05-10,109,302!2025-02-17,49,299-->
+- cost of goods sold as numerator ::@:: inventory turnover <!--SR:!2025-04-18,87,279!2025-02-12,46,290-->
+- net sales as numerator ::@:: fixed asset turnover, receivables turnover (+credit), total asset turnover <!--SR:!2025-04-19,88,282!2025-04-12,81,282-->
 
 ## list
 

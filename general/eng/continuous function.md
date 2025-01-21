@@ -40,7 +40,7 @@ A __discontinuous function__ is {@{a function that is _not continuous_. By this 
 > [!tip] tips
 >
 > - [interior](interior%20(topology).md) of a real interval ::@:: For $a, b \in \mathbb{R}$, $(a, b)$ is the [interior](interior%20(topology).md) of $[a, b]$, $(a, b]$, $[a, b)$, and $(a, b)$. <!--SR:!2025-05-25,343,344!2027-08-13,973,350-->
-> - relation of definitions between open intervals and semi-closed or closed intervals ::@:: One can interpret the definition for the semi-closed or closed interval differently. The function is continuous on an interval if the function is continuous on the corresponding open interval, and the endpoints $a$ satisfies $\lim_{x \to a^\pm} f(x) = f(a)$, choosing the direction such that the limit approaches the endpoint from the interval. <!--SR:!2026-05-13,575,310!2025-01-21,239,324-->
+> - relation of definitions between open intervals and semi-closed or closed intervals ::@:: One can interpret the definition for the semi-closed or closed interval differently. The function is continuous on an interval if the function is continuous on the corresponding open interval, and the endpoints $a$ satisfies $\lim_{x \to a^\pm} f(x) = f(a)$, choosing the direction such that the limit approaches the endpoint from the interval. <!--SR:!2026-05-13,575,310!2027-03-06,774,324-->
 
 <!-- markdownlint MD028 -->
 

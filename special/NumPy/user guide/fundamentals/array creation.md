@@ -17,13 +17,13 @@ tags:
 There are {@{6 general mechanisms}@} for creating arrays: <!--SR:!2025-02-03,74,330-->
 
 1. Conversion ::@:: from other Python structures (i.e. lists and tuples) <!--SR:!2025-02-03,74,330!2025-02-02,73,330-->
-2. Intrinsic ::@:: NumPy array creation functions (e.g. arange, ones, zeros, etc.) <!--SR:!2025-02-04,75,330!2025-01-21,62,310-->
+2. Intrinsic ::@:: NumPy array creation functions (e.g. arange, ones, zeros, etc.) <!--SR:!2025-02-04,75,330!2025-10-18,270,330-->
 3. Replicating, joining, or mutating ::@:: existing arrays <!--SR:!2025-07-30,190,310!2025-02-01,72,330-->
 4. Reading ::@:: arrays from disk, either from standard or custom formats <!--SR:!2025-02-03,74,330!2025-02-04,75,330-->
-5. Creating arrays ::@:: from raw bytes through the use of strings or buffers <!--SR:!2025-02-02,73,330!2025-01-21,62,310-->
+5. Creating arrays ::@:: from raw bytes through the use of strings or buffers <!--SR:!2025-02-02,73,330!2025-08-02,193,310-->
 6. Use of ::@:: special library functions (e.g., random) <!--SR:!2025-02-05,76,330!2025-02-05,76,330-->
 
-You can use these methods to {@{create ndarrays or [structured arrays](structured%20arrays.md)}@}. This document will cover general methods for {@{ndarray creation}@}. <!--SR:!2025-02-04,75,330!2025-01-21,62,310-->
+You can use these methods to {@{create ndarrays or [structured arrays](structured%20arrays.md)}@}. This document will cover general methods for {@{ndarray creation}@}. <!--SR:!2025-02-04,75,330!2025-10-18,270,330-->
 
 ## converting Python sequences to NumPy arrays
 
@@ -40,7 +40,7 @@ NumPy arrays can be defined using {@{Python sequences such as lists and tuples}@
 >>> a3D = np.array([[[1, 2], [3, 4]], [[5, 6], [7, 8]]])
 ```
 
-When {@{you use [`numpy.array`](../../API%20reference/generated/numpy.array.md#numpy.array "numpy.array") to define a new array}@}, you should {@{consider the [dtype](data%20types.md) of the elements in the array}@}, which {@{can be specified explicitly}@}. This feature gives you {@{more control over the underlying data structures and how the elements are handled in C/C++ functions}@}. When {@{values do not fit and you are using a `dtype`}@}, NumPy may {@{raise an error}@}: <!--SR:!2025-01-25,66,310!2025-02-02,73,330!2025-10-14,266,330!2025-01-22,63,310!2025-02-04,75,330!2025-01-21,62,310-->
+When {@{you use [`numpy.array`](../../API%20reference/generated/numpy.array.md#numpy.array "numpy.array") to define a new array}@}, you should {@{consider the [dtype](data%20types.md) of the elements in the array}@}, which {@{can be specified explicitly}@}. This feature gives you {@{more control over the underlying data structures and how the elements are handled in C/C++ functions}@}. When {@{values do not fit and you are using a `dtype`}@}, NumPy may {@{raise an error}@}: <!--SR:!2025-01-25,66,310!2025-02-02,73,330!2025-10-14,266,330!2025-01-22,63,310!2025-02-04,75,330!2025-10-18,270,330-->
 
 ```Python
 >>> import numpy as np
@@ -92,7 +92,7 @@ array([2., 3., 4., 5., 6., 7., 8., 9.])
 array([2. , 2.1, 2.2, 2.3, 2.4, 2.5, 2.6, 2.7, 2.8, 2.9])
 ```
 
-Note: {@{best practice for [`numpy.arange`](../../API%20reference/generated/numpy.arange.md#numpy.arange "numpy.arange")}@} is {@{to use integer start, end, and step values}@}. There are {@{some subtleties regarding `dtype`}@}. In the second example, {@{the `dtype` is defined}@}. In the third example, the array is {@{`dtype=float` to accommodate the step size of `0.1`}@}. Due to {@{roundoff error}@}, {@{the `stop` value is sometimes included}@}. <!--SR:!2025-02-02,73,330!2025-01-21,62,310!2025-02-04,75,330!2025-01-24,65,310!2025-01-21,62,310!2025-01-25,66,310!2025-02-01,72,330-->
+Note: {@{best practice for [`numpy.arange`](../../API%20reference/generated/numpy.arange.md#numpy.arange "numpy.arange")}@} is {@{to use integer start, end, and step values}@}. There are {@{some subtleties regarding `dtype`}@}. In the second example, {@{the `dtype` is defined}@}. In the third example, the array is {@{`dtype=float` to accommodate the step size of `0.1`}@}. Due to {@{roundoff error}@}, {@{the `stop` value is sometimes included}@}. <!--SR:!2025-02-02,73,330!2025-10-20,272,330!2025-02-04,75,330!2025-01-24,65,310!2025-10-20,272,330!2025-01-25,66,310!2025-02-01,72,330-->
 
 {@{[`numpy.linspace`](../../API%20reference/generated/numpy.linspace.md#numpy.linspace "numpy.linspace")}@} will {@{create arrays with a specified number of elements}@}, and {@{spaced equally between the specified beginning and end values}@}. For example: <!--SR:!2025-01-22,63,310!2025-01-26,67,310!2025-02-01,72,330-->
 
@@ -106,7 +106,7 @@ array([1. ,  1.6,  2.2,  2.8,  3.4,  4. ])
 
 ### 2D array creation functions
 
-{@{The 2D array creation functions}@} e.g. {@{[`numpy.eye`](../../API%20reference/generated/numpy.eye.md#numpy.eye "numpy.eye"), [`numpy.diag`](../../API%20reference/generated/numpy.diag.md#numpy.diag "numpy.diag"), and [`numpy.vander`](../../API%20reference/generated/numpy.vander.md#numpy.vander "numpy.vander")}@} define {@{properties of special matrices represented as 2D arrays}@}. <!--SR:!2025-01-24,65,310!2025-01-21,62,310!2025-01-23,64,310-->
+{@{The 2D array creation functions}@} e.g. {@{[`numpy.eye`](../../API%20reference/generated/numpy.eye.md#numpy.eye "numpy.eye"), [`numpy.diag`](../../API%20reference/generated/numpy.diag.md#numpy.diag "numpy.diag"), and [`numpy.vander`](../../API%20reference/generated/numpy.vander.md#numpy.vander "numpy.vander")}@} define {@{properties of special matrices represented as 2D arrays}@}. <!--SR:!2025-01-24,65,310!2025-08-03,194,310!2025-01-23,64,310-->
 
 {@{`np.eye(n, m)`}@} defines {@{a 2D identity matrix}@}. {@{The elements where i=j (row index and column index are equal)}@} are {@{1 and the rest are 0}@}, as such: <!--SR:!2025-10-13,265,330!2025-10-15,267,330!2025-01-22,63,310!2025-02-02,73,330-->
 
@@ -140,7 +140,7 @@ array([[0, 1, 0, 0],
 array([1, 4])
 ```
 
-{@{`numpy.vander(x, n)`}@} defines {@{a Vandermonde matrix as a 2D NumPy array}@}. {@{Each column of the Vandermonde matrix}@} is {@{a decreasing power of the input 1D array or list or tuple, `x` where the highest polynomial order is `n-1`}@}. (annotation: Given {@{a 1D array `x`}@}, the {@{_m_-th (1-based) column is the 1D array `x ** (n - m)`}@}) This array creation routine is helpful in {@{generating linear least squares models}@}, as such: <!--SR:!2025-01-24,65,310!2025-01-22,63,310!2025-01-21,62,310!2025-02-03,74,330!2025-02-03,74,330!2025-01-23,64,310!2025-02-02,73,330-->
+{@{`numpy.vander(x, n)`}@} defines {@{a Vandermonde matrix as a 2D NumPy array}@}. {@{Each column of the Vandermonde matrix}@} is {@{a decreasing power of the input 1D array or list or tuple, `x` where the highest polynomial order is `n-1`}@}. (annotation: Given {@{a 1D array `x`}@}, the {@{_m_-th (1-based) column is the 1D array `x ** (n - m)`}@}) This array creation routine is helpful in {@{generating linear least squares models}@}, as such: <!--SR:!2025-01-24,65,310!2025-01-22,63,310!2025-10-19,271,330!2025-02-03,74,330!2025-02-03,74,330!2025-01-23,64,310!2025-02-02,73,330-->
 
 ```Python
 >>> import numpy as np
@@ -164,9 +164,9 @@ array([[ 1,  1,  1,  1],
 
 ### general ndarray creation functions
 
-{@{The ndarray creation functions}@} e.g. {@{[`numpy.ones`](../../API%20reference/generated/numpy.ones.md#numpy.ones "numpy.ones"), [`numpy.zeros`](../../API%20reference/generated/numpy.zeros.md#numpy.zeros "numpy.zeros"), and [`random`](../../API%20reference/generated/numpy.random.Generator.random.md#numpy.random.Generator.random "numpy.random.Generator.random")}@} define {@{arrays based upon the desired shape}@}. The ndarray creation functions can {@{create arrays with any dimension by specifying how many dimensions and length along that dimension in a tuple or list}@}. <!--SR:!2025-01-21,62,310!2025-02-03,74,330!2025-10-09,261,330!2025-01-24,65,310-->
+{@{The ndarray creation functions}@} e.g. {@{[`numpy.ones`](../../API%20reference/generated/numpy.ones.md#numpy.ones "numpy.ones"), [`numpy.zeros`](../../API%20reference/generated/numpy.zeros.md#numpy.zeros "numpy.zeros"), and [`random`](../../API%20reference/generated/numpy.random.Generator.random.md#numpy.random.Generator.random "numpy.random.Generator.random")}@} define {@{arrays based upon the desired shape}@}. The ndarray creation functions can {@{create arrays with any dimension by specifying how many dimensions and length along that dimension in a tuple or list}@}. <!--SR:!2025-10-20,272,330!2025-02-03,74,330!2025-10-09,261,330!2025-01-24,65,310-->
 
-{@{[`numpy.zeros`](../../API%20reference/generated/numpy.zeros.md#numpy.zeros "numpy.zeros")}@} will {@{create an array filled with 0 values with the specified shape}@}. The default dtype is {@{`float64`}@}: <!--SR:!2025-01-26,67,310!2025-02-04,75,330!2025-01-21,62,310-->
+{@{[`numpy.zeros`](../../API%20reference/generated/numpy.zeros.md#numpy.zeros "numpy.zeros")}@} will {@{create an array filled with 0 values with the specified shape}@}. The default dtype is {@{`float64`}@}: <!--SR:!2025-01-26,67,310!2025-02-04,75,330!2025-10-18,270,330-->
 
 ```Python
 >>> import numpy as np
@@ -284,11 +284,11 @@ This is {@{the most common case of large array creation}@}. The details {@{depen
 - HDF5 ::@:: h5py <!--SR:!2025-02-02,73,330!2025-01-25,66,310-->
 - FITS ::@:: Astropy <!--SR:!2025-01-23,64,310!2025-02-01,72,330-->
 
-Examples of {@{formats that cannot be read directly but for which it is not hard to convert}@} are those formats supported by libraries like {@{PIL (able to read and write many image formats such as jpg, png, etc)}@}. <!--SR:!2025-01-21,62,310!2025-01-26,67,310-->
+Examples of {@{formats that cannot be read directly but for which it is not hard to convert}@} are those formats supported by libraries like {@{PIL (able to read and write many image formats such as jpg, png, etc)}@}. <!--SR:!2025-10-19,271,330!2025-01-26,67,310-->
 
 ### common ASCII formats
 
-{@{Delimited files}@} such as {@{comma separated value (csv) and tab separated value (tsv) files}@} are {@{used for programs like Excel and LabView}@}. Python functions can {@{read and parse these files line-by-line}@}. NumPy has {@{two standard routines for importing a file with delimited data}@} {@{[`numpy.loadtxt`](../../API%20reference/generated/numpy.loadtxt.md#numpy.loadtxt "numpy.loadtxt") and [`numpy.genfromtxt`](../../API%20reference/generated/numpy.genfromtxt.md#numpy.genfromtxt "numpy.genfromtxt")}@}. These functions have {@{more involved use cases in [reading and writing files](../how-tos/reading%20and%20writing%20files.md)}@}. A simple example given a `simple.csv`: <!--SR:!2025-01-25,66,310!2025-01-24,65,310!2025-02-02,73,330!2025-02-05,76,330!2025-08-29,227,330!2025-01-22,63,310!2025-01-21,62,310-->
+{@{Delimited files}@} such as {@{comma separated value (csv) and tab separated value (tsv) files}@} are {@{used for programs like Excel and LabView}@}. Python functions can {@{read and parse these files line-by-line}@}. NumPy has {@{two standard routines for importing a file with delimited data}@} {@{[`numpy.loadtxt`](../../API%20reference/generated/numpy.loadtxt.md#numpy.loadtxt "numpy.loadtxt") and [`numpy.genfromtxt`](../../API%20reference/generated/numpy.genfromtxt.md#numpy.genfromtxt "numpy.genfromtxt")}@}. These functions have {@{more involved use cases in [reading and writing files](../how-tos/reading%20and%20writing%20files.md)}@}. A simple example given a `simple.csv`: <!--SR:!2025-01-25,66,310!2025-01-24,65,310!2025-02-02,73,330!2025-02-05,76,330!2025-08-29,227,330!2025-01-22,63,310!2025-10-17,269,330-->
 
 ```shell
 $ cat simple.csv
@@ -314,11 +314,11 @@ array([[0., 0.],
 
 ## creating arrays from raw bytes through the use of strings or buffers
 
-There are {@{a variety of approaches one can use}@}. If {@{the file has a relatively simple format}@} then {@{one can write a simple I/O library and use the NumPy `fromfile()` function and `tofile()` method}@} to {@{read and write NumPy arrays directly (mind your byteorder though!)}@}. If {@{a good C or C++ library exists that read the data}@}, one can {@{wrap that library with a variety of techniques}@} though that certainly is {@{much more work and requires significantly more advanced knowledge to interface with C or C++}@}. <!--SR:!2025-01-22,63,310!2025-01-21,62,310!2025-01-23,64,310!2025-02-01,72,330!2025-02-01,72,330!2025-02-04,75,330!2025-02-01,72,330-->
+There are {@{a variety of approaches one can use}@}. If {@{the file has a relatively simple format}@} then {@{one can write a simple I/O library and use the NumPy `fromfile()` function and `tofile()` method}@} to {@{read and write NumPy arrays directly (mind your byteorder though!)}@}. If {@{a good C or C++ library exists that read the data}@}, one can {@{wrap that library with a variety of techniques}@} though that certainly is {@{much more work and requires significantly more advanced knowledge to interface with C or C++}@}. <!--SR:!2025-01-22,63,310!2025-10-17,269,330!2025-01-23,64,310!2025-02-01,72,330!2025-02-01,72,330!2025-02-04,75,330!2025-02-01,72,330-->
 
 ## use of special library functions (e.g., SciPy, pandas, and OpenCV)
 
-NumPy is {@{the fundamental library for array containers in the Python Scientific Computing stack}@}. {@{Many Python libraries}@}, including {@{SciPy, Pandas, and OpenCV}@}, use {@{NumPy ndarrays as the common format for data exchange}@}. These libraries can {@{create, operate on, and work with NumPy arrays}@}. <!--SR:!2025-01-21,62,310!2025-10-11,263,330!2025-02-01,72,330!2025-01-26,67,310!2025-02-05,76,330-->
+NumPy is {@{the fundamental library for array containers in the Python Scientific Computing stack}@}. {@{Many Python libraries}@}, including {@{SciPy, Pandas, and OpenCV}@}, use {@{NumPy ndarrays as the common format for data exchange}@}. These libraries can {@{create, operate on, and work with NumPy arrays}@}. <!--SR:!2025-08-05,196,310!2025-10-11,263,330!2025-02-01,72,330!2025-01-26,67,310!2025-02-05,76,330-->
 
 ## references
 

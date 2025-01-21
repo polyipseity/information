@@ -74,7 +74,7 @@ English
 - [recipient](https://en.wiktionary.org/wiki/recipient) ::@:: (r\_t) One who receives. <!--SR:!2026-01-23,558,408!2025-09-21,362,308-->
 - [reciprocity](https://en.wiktionary.org/wiki/reciprocity) ::@:: (r\_y) Mutual dependence, action, or influence. <!--SR:!2025-11-01,493,408!2025-08-24,406,348-->
 - [recruit](https://en.wiktionary.org/wiki/recruit) ::@:: (r\_t) Enroll new [employees](../../../general/employment.md#employee). <!--SR:!2025-02-26,327,372!2025-03-18,347,372-->
-- [reservoir](https://en.wiktionary.org/wiki/reservoir) ::@:: (r\_r) A source or sink of something. <!--SR:!2027-10-20,1003,330!2025-01-21,269,290-->
+- [reservoir](https://en.wiktionary.org/wiki/reservoir) ::@:: (r\_r) A source or sink of something. <!--SR:!2027-10-20,1003,330!2027-03-11,779,290-->
 - [rudimentary](https://en.wiktionary.org/wiki/rudimentary) ::@:: (r\_y) Basic, minimal. <!--SR:!2025-04-28,381,372!2027-07-02,1010,372-->
 - [sacred](https://en.wiktionary.org/wiki/sacred) ::@:: (s\_d) Not to be profaned or violated; inviolable. <!--SR:!2025-10-14,428,376!2025-07-01,288,336-->
 - [scarce](https://en.wiktionary.org/wiki/scarce) ::@:: (s\_e) Uncommon, rare. <!--SR:!2025-08-20,394,376!2025-07-28,345,336-->

@@ -11,7 +11,7 @@ tags:
 
 # horizontal coordinate system
 
-The __horizontal coordinate system__ is {@{a [celestial coordinate system](astronomical%20coordinate%20systems.md) that uses the observer's local [horizon](horizon.md) as the [fundamental plane](fundamental%20plane%20(spherical%20coordinates).md) to define two [angles](angle.md)}@}: {@{__altitude__ and [__azimuth__](azimuth.md)}@}. <!--SR:!2025-02-23,176,310!2025-01-21,127,250-->
+The __horizontal coordinate system__ is {@{a [celestial coordinate system](astronomical%20coordinate%20systems.md) that uses the observer's local [horizon](horizon.md) as the [fundamental plane](fundamental%20plane%20(spherical%20coordinates).md) to define two [angles](angle.md)}@}: {@{__altitude__ and [__azimuth__](azimuth.md)}@}. <!--SR:!2025-02-23,176,310!2025-12-03,316,250-->
 
 ## definition
 

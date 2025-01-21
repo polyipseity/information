@@ -154,7 +154,7 @@ The {@{[accounting equation](accounting%20equation.md) ([Assets](asset.md) = [Li
 
 {@{The [trial balance](trial%20balance.md) (i.e. finding the current balances of all accounts), which is usually prepared using the [double-entry accounting system](double-entry%20bookkeeping.md)}@}, forms {@{the basis for preparing the financial statements}@}. All the figures in the trial balance are {@{rearranged to prepare a [profit & loss statement](income%20statement.md) and [balance sheet](balance%20sheet.md)}@}. Accounting standards {@{determine the format for these accounts ([SSAP](Generally%20Accepted%20Accounting%20Practice%20(UK).md), FRS, [IFRS](International%20Financial%20Reporting%20Standards.md))}@}. Financial statements {@{display the income and expenditure for the company and a summary of the assets, liabilities, and shareholders' or owners' equity of the company on the date to which the accounts were prepared}@}. <!--SR:!2025-04-22,165,310!2025-02-12,114,290!2025-04-08,157,310!2025-03-18,141,310!2025-03-09,108,250-->
 
-{@{[Asset](asset.md), [expense](expense.md), and [dividend](dividend.md) accounts}@} have {@{normal debit balances (i.e., debiting these types of accounts increases them)}@}. <!--SR:!2025-09-13,283,330!2025-01-21,90,290-->
+{@{[Asset](asset.md), [expense](expense.md), and [dividend](dividend.md) accounts}@} have {@{normal debit balances (i.e., debiting these types of accounts increases them)}@}. <!--SR:!2025-09-13,283,330!2026-01-20,364,310-->
 
 {@{[Liability](liability%20(financial%20accounting).md), [revenue](revenue.md), and [equity](equity%20(finance).md) accounts}@} have {@{normal credit balances (i.e., crediting these types of accounts increases them)}@}. <!--SR:!2025-04-27,172,310!2025-04-09,144,290-->
 

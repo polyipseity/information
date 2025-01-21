@@ -25,7 +25,7 @@ A __price__ is {@{the \(usually not negative\) [quantity](quantity.md) of [payme
 
 Price can be quoted in {@{currency, quantities of goods or vouchers}@}. <!--SR:!2025-05-26,129,290-->
 
-- In modern [economies](economy.md), prices are generally expressed in ::@:: units of some form of [currency](currency.md). \(More specifically, for [raw materials](raw%20material.md) they are expressed as currency per unit weight, e.g. euros per kilogram or Rands per KG.\) <!--SR:!2025-06-22,164,310!2025-01-21,47,290-->
+- In modern [economies](economy.md), prices are generally expressed in ::@:: units of some form of [currency](currency.md). \(More specifically, for [raw materials](raw%20material.md) they are expressed as currency per unit weight, e.g. euros per kilogram or Rands per KG.\) <!--SR:!2025-06-22,164,310!2025-06-07,137,290-->
 - Although prices could be [quoted](request%20for%20quotation.md) as quantities of other goods or services, ::@:: this sort of [barter exchange](barter.md) is rarely seen. Prices are sometimes quoted in terms of vouchers such as trading stamps and air miles. <!--SR:!2025-07-16,178,310!2025-02-07,64,310-->
 - In some circumstances, cigarettes have been used as ::@:: currency, for example in prisons, in times of [hyperinflation](hyperinflation.md), and in some places during World War II. In a [black market](black%20market.md) economy, [barter](barter.md) is also relatively common. <!--SR:!2025-05-27,128,290!2025-02-07,64,310-->
 
@@ -33,13 +33,13 @@ In {@{many financial transactions}@}, it is {@{customary to quote prices in othe
 
 "Price" sometimes refers to {@{the quantity of payment requested by a seller of goods or services, rather than the eventual payment amount}@}. In business this requested amount is often referred to as {@{the offer price or selling price, while the actual payment may be called transaction price or traded price}@}. <!--SR:!2025-06-21,163,310!2025-02-09,66,310-->
 
-{@{Economic price theory}@} asserts that in {@{a free market economy the [market price](price.md#market%20price) reflects the interaction between [supply and demand](supply%20and%20demand.md)}@}:<sup>[\[2\]](#^ref-2)</sup> the price is {@{set so as to equate the quantity being supplied and that being demanded}@}. In turn, these quantities are determined by {@{the [marginal utility](marginal%20utility.md) of the asset to different buyers and to different sellers}@}. {@{Supply and demand, and hence price}@}, may be influenced by {@{other factors, such as government subsidy or manipulation through industry collusion}@}. <!--SR:!2025-02-09,66,310!2025-01-21,47,290!2025-07-27,189,310!2025-02-01,58,310!2025-02-03,61,310!2025-06-15,158,310-->
+{@{Economic price theory}@} asserts that in {@{a free market economy the [market price](price.md#market%20price) reflects the interaction between [supply and demand](supply%20and%20demand.md)}@}:<sup>[\[2\]](#^ref-2)</sup> the price is {@{set so as to equate the quantity being supplied and that being demanded}@}. In turn, these quantities are determined by {@{the [marginal utility](marginal%20utility.md) of the asset to different buyers and to different sellers}@}. {@{Supply and demand, and hence price}@}, may be influenced by {@{other factors, such as government subsidy or manipulation through industry collusion}@}. <!--SR:!2025-02-09,66,310!2025-06-05,135,290!2025-07-27,189,310!2025-02-01,58,310!2025-02-03,61,310!2025-06-15,158,310-->
 
 When {@{a [raw material](raw%20material.md) or a similar economic good is for sale at multiple locations}@}, {@{the [law of one price](law%20of%20one%20price.md) is generally believed to hold}@}. This essentially states that {@{the cost difference between the locations cannot be greater than that representing shipping, taxes, other distribution costs and more}@}. <!--SR:!2025-02-07,64,310!2025-02-09,66,310!2025-02-10,67,310-->
 
 ## functions of prices
 
-According to {@{[Milton Friedman](Milton%20Friedman.md)}@}, price has {@{__five functions__ in a __free-enterprise exchange economy__}@} which is {@{characterized by private ownership of the means of production}@}:<sup>[\[3\]](#^ref-3)</sup> <!--SR:!2025-01-21,47,290!2025-02-08,65,310!2025-02-02,60,310-->
+According to {@{[Milton Friedman](Milton%20Friedman.md)}@}, price has {@{__five functions__ in a __free-enterprise exchange economy__}@} which is {@{characterized by private ownership of the means of production}@}:<sup>[\[3\]](#^ref-3)</sup> <!--SR:!2025-06-06,136,290!2025-02-08,65,310!2025-02-02,60,310-->
 
 - __Transmitting__ ::@:: information about changes in the relative importance of different end-products and factors of production. <!--SR:!2025-01-22,48,290!2025-02-10,67,310-->
 - __Providing__ an incentive for enterprise ::@:: \(a\) to produce those products valued most highly by the market, and \(b\) to use methods of production that economize relatively scarce factors of production. <!--SR:!2025-02-05,62,310!2025-07-15,182,310-->

@@ -91,7 +91,7 @@ These numbers may be {@{computed by the [recurrence relation](recurrence%20relat
 
 {@{A _[polytree](polytree.md)_ \(also called a _directed tree_\)}@} is {@{a multitree formed by orienting the edges of an undirected tree}@}.<sup>[\[15\]](#^ref-15)</sup> <!--SR:!2025-02-19,64,330!2025-02-19,64,330-->
 
-{@{An _[arborescence](arborescence%20(graph%20theory).md)_}@} is {@{a polytree formed by [orienting](orientation%20(graph%20theory).md) the edges of an undirected tree away from a particular vertex}@}, called {@{the _root_ of the arborescence}@}. <!--SR:!2025-01-21,39,307!2025-02-06,55,330!2025-03-11,83,350-->
+{@{An _[arborescence](arborescence%20(graph%20theory).md)_}@} is {@{a polytree formed by [orienting](orientation%20(graph%20theory).md) the edges of an undirected tree away from a particular vertex}@}, called {@{the _root_ of the arborescence}@}. <!--SR:!2025-05-18,117,307!2025-02-06,55,330!2025-03-11,83,350-->
 
 ## computational problems
 

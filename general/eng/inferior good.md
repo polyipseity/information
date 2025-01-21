@@ -49,7 +49,7 @@ Others are {@{very inconsistent across geographic regions or cultures}@}. {@{The
 
 ### income effect
 
-The income effect describes {@{the relationship between an increase in real income and demand for a good}@}. Inferior goods {@{experience negative income effect}@}, where {@{its consumption decreases when a consumer's income increases}@}.<sup>[\[10\]](#^ref-10)</sup> {@{The increase in real income}@} means {@{consumers can afford a bundle of goods that give them higher utility}@}. Inferior goods are {@{unlikely to provide the latter, thus why its consumption decreases}@}. <!--SR:!2025-01-23,44,290!2025-02-02,56,310!2025-01-23,44,290!2025-01-23,44,290!2025-02-05,58,310!2025-01-21,43,290-->
+The income effect describes {@{the relationship between an increase in real income and demand for a good}@}. Inferior goods {@{experience negative income effect}@}, where {@{its consumption decreases when a consumer's income increases}@}.<sup>[\[10\]](#^ref-10)</sup> {@{The increase in real income}@} means {@{consumers can afford a bundle of goods that give them higher utility}@}. Inferior goods are {@{unlikely to provide the latter, thus why its consumption decreases}@}. <!--SR:!2025-01-23,44,290!2025-02-02,56,310!2025-01-23,44,290!2025-01-23,44,290!2025-02-05,58,310!2025-05-29,128,290-->
 
 ### substitution effect
 
@@ -57,7 +57,7 @@ The substitution effect is {@{the effect that a change in relative prices of sub
 
 ### overall change in demand for an inferior good
 
-{@{The income and substitution effects}@} work {@{in opposite directions for an inferior good}@}. When {@{an inferior good's price decreases}@}, {@{the income effect reduces the quantity consumed}@}, whilst {@{the substitution effect increases the amount consumed}@}. In practice, it has been observed that {@{the substitution effect is usually larger than the income effect}@} due to {@{the small amount of gross income allocated by consumers on any given good}@}, and thus {@{the change in demand is usually insignificant in comparison to the substitution effect}@}.<sup>[\[10\]](#^ref-10)</sup> <!--SR:!2025-02-05,58,310!2025-02-08,61,310!2025-02-15,67,310!2025-02-14,66,310!2025-02-04,58,310!2025-02-07,60,310!2025-02-04,58,310!2025-01-21,47,290-->
+{@{The income and substitution effects}@} work {@{in opposite directions for an inferior good}@}. When {@{an inferior good's price decreases}@}, {@{the income effect reduces the quantity consumed}@}, whilst {@{the substitution effect increases the amount consumed}@}. In practice, it has been observed that {@{the substitution effect is usually larger than the income effect}@} due to {@{the small amount of gross income allocated by consumers on any given good}@}, and thus {@{the change in demand is usually insignificant in comparison to the substitution effect}@}.<sup>[\[10\]](#^ref-10)</sup> <!--SR:!2025-02-05,58,310!2025-02-08,61,310!2025-02-15,67,310!2025-02-14,66,310!2025-02-04,58,310!2025-02-07,60,310!2025-02-04,58,310!2025-06-03,133,290-->
 
 ## Giffen goods
 

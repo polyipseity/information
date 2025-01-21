@@ -14,7 +14,7 @@ tags:
 # import ../../../tools/utility.py.md
 ```
 
-The __Bohr model__ or __{@{Rutherford–Bohr}@} model__ is {@{an [atom](atom.md) model}@} where {@{a small, dense [nucleus](nucleus.md) is orbited by [electrons](electron.md)}@}. They are attracted by {@{electrostatic forces}@}. It was presented by {@{[Niels Bohr](Niels%20Bohr.md)}@} and {@{[Ernest Rutherford](Ernest%20Rutherford.md) in 1913}@}. <!--SR:!2026-12-03,998,290!2026-06-04,964,330!2026-01-27,565,190!2025-01-27,570,310!2025-01-21,424,232!2026-02-12,826,332-->
+The __Bohr model__ or __{@{Rutherford–Bohr}@} model__ is {@{an [atom](atom.md) model}@} where {@{a small, dense [nucleus](nucleus.md) is orbited by [electrons](electron.md)}@}. They are attracted by {@{electrostatic forces}@}. It was presented by {@{[Niels Bohr](Niels%20Bohr.md)}@} and {@{[Ernest Rutherford](Ernest%20Rutherford.md) in 1913}@}. <!--SR:!2026-12-03,998,290!2026-06-04,964,330!2026-01-27,565,190!2025-01-27,570,310!2027-10-02,984,232!2026-02-12,826,332-->
 
 The model gives almost exact results only when {@{two charged points orbit each other much slower than light}@}, like {@{an atom where one electron is far away from everything else}@}. <!--SR:!2028-04-16,1209,290!2029-08-28,1689,292-->
 

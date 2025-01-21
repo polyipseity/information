@@ -55,7 +55,7 @@ For simple applications where the material is [homogeneous](homogeneity%20and%20
 >   - {@{$\frac{Q}{\Delta t}$ is the [heat](heat.md) transferred per unit [time](time.md), in W}@}
 >   - {@{$k$ is the [thermal conductivity](thermal%20conductivity%20and%20resistivity.md), in W⋅m<sup>-1</sup>⋅K<sup>-1</sup>}@}
 >   - {@{$\frac{\Delta T}{\Delta x}$ is the [temperature](temperature.md) change per unit distance along the $x$-direction which is perpendicular to the surface, in K⋅m<sup>-1</sup>}@}
->   - {@{$A$ is the cross-sectional [surface area](surface20area.md), in m<sup>2</sup>}@} <!--SR:!2027-08-25,967,330!2025-03-02,292,290!2025-01-21,269,290!2028-03-18,1206,350!2025-08-24,452,310!2027-11-18,1112,350-->
+>   - {@{$A$ is the cross-sectional [surface area](surface20area.md), in m<sup>2</sup>}@} <!--SR:!2027-08-25,967,330!2025-03-02,292,290!2027-03-12,780,290!2028-03-18,1206,350!2025-08-24,452,310!2027-11-18,1112,350-->
 
 ## references
 

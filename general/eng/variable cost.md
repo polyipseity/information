@@ -34,7 +34,7 @@ The level of variable cost is {@{influenced by many factors}@}, such as {@{[fixe
 
 ## examples
 
-Some common examples include {@{sales commission, labor costs, and the costs of [raw materials](raw%20material.md)}@}. <!--SR:!2025-01-21,10,270-->
+Some common examples include {@{sales commission, labor costs, and the costs of [raw materials](raw%20material.md)}@}. <!--SR:!2025-02-18,28,270-->
 
 For {@{a [business which produces clothing](clothing%20industry.md)}@}, variable cost would include {@{the direct material, i.e., cloth, and the direct labor}@}. If the business uses {@{a room, a [sewing machine](sewing%20machine.md)}@}, and 8 hours of a laborer's time with 6 yards of cloth to make a shirt, then {@{the cost of labor and cloth increases if two shirts are produced}@}, and {@{those are the variable costs}@}. {@{The facility and equipment}@} are {@{fixed costs, incurred regardless of whether even one shirt is made}@}. <!--SR:!2025-01-26,15,290!2025-01-26,15,290!2025-01-27,16,290!2025-01-26,15,290!2025-01-26,15,290!2025-01-26,15,290!2025-01-27,16,290-->
 
@@ -55,7 +55,7 @@ The amount of materials and labor that {@{goes into each shirt increases with th
 
 {@{Over a five-year horizon}@}, {@{all costs can become variable costs}@}. The business can {@{decide to shut down and sell off its buildings and equipment}@} if {@{long-run total cost exceeds their long-run total revenue}@}, or to {@{expand and increase the amount of both of them}@} if {@{their long-run total revenue exceeds their long-run total cost}@}, which would {@{include their variable costs}@}. It can {@{change its entire labor force, managerial as well as line workers}@}. <!--SR:!2025-01-25,14,290!2025-01-25,14,290!2025-01-26,15,290!2025-01-26,15,290!2025-01-27,16,290!2025-01-27,16,290!2025-01-25,14,290!2025-01-26,15,290-->
 
-Thus, {@{which costs are classified as variable and which as fixed}@} {@{depends on the time horizon}@}, most {@{simply classified into short run and long run}@}, but really {@{with an entire range of time horizons}@}. <!--SR:!2025-01-21,10,270!2025-01-25,14,290!2025-01-26,15,290!2025-01-25,14,290-->
+Thus, {@{which costs are classified as variable and which as fixed}@} {@{depends on the time horizon}@}, most {@{simply classified into short run and long run}@}, but really {@{with an entire range of time horizons}@}. <!--SR:!2025-02-27,37,290!2025-01-25,14,290!2025-01-26,15,290!2025-01-25,14,290-->
 
 ## see also
 

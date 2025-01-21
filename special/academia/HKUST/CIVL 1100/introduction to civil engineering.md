@@ -88,7 +88,7 @@ The content is in teaching order.
   - materials engineering characteristics ::@:: spans almost all engineering disciplines because materials are used in designs <!--SR:!2026-04-18,565,357!2025-06-05,319,367-->
   - materials engineer jobs ::@:: highly varied <!--SR:!2027-01-24,733,330!2025-12-05,478,392-->
     - [materials engineer job examples](#materials%20engineer%20job%20examples)
-  - materials engineering materials ::@:: development of improved or new materials <!--SR:!2025-01-21,201,317!2025-06-04,348,350-->
+  - materials engineering materials ::@:: development of improved or new materials <!--SR:!2026-10-19,636,317!2025-06-04,348,350-->
     - [materials engineering material examples](#materials%20engineering%20material%20examples)
   - materials engineering repair ::@:: design of materials and methods to repair <!--SR:!2025-05-24,339,350!2025-11-16,461,395-->
     - materials engineering repair examples ::@:: fiber reinforced polymer retrofit system, retrofit using damper, slab retrofit using steel plate and carbon fiber reinforced polymer <!--SR:!2025-06-27,293,320!2026-01-19,459,332-->

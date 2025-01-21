@@ -105,7 +105,7 @@ One of these algorithms, first described by {@{[Kahn \(1962\)](#^ref-2)}@}, work
 
 If {@{the graph is a [DAG](directed%20acyclic%20graph.md)}@}, {@{a solution will be contained in the list L \(although the solution is not necessarily unique\)}@}. Otherwise, {@{the graph must have at least one cycle and therefore a topological sort is impossible}@}. <!--SR:!2025-03-21,92,359!2025-03-08,81,351!2025-01-29,43,299-->
 
-Reflecting {@{the non-uniqueness of the resulting sort}@}, {@{the structure S can be simply a set or a queue or a stack}@}. Depending on {@{the order that nodes n are removed from set S}@}, {@{a different solution is created}@}. {@{A variation of Kahn's algorithm that breaks ties [lexicographically](lexicographic%20order.md)}@} forms {@{a key component of the [Coffman–Graham algorithm](Coffman–Graham%20algorithm.md) for parallel scheduling and [layered graph drawing](layered%20graph%20drawing.md)}@}. <!--SR:!2025-02-24,69,338!2025-03-15,86,359!2025-02-19,64,319!2025-02-20,65,319!2025-02-01,46,314!2025-01-21,39,298-->
+Reflecting {@{the non-uniqueness of the resulting sort}@}, {@{the structure S can be simply a set or a queue or a stack}@}. Depending on {@{the order that nodes n are removed from set S}@}, {@{a different solution is created}@}. {@{A variation of Kahn's algorithm that breaks ties [lexicographically](lexicographic%20order.md)}@} forms {@{a key component of the [Coffman–Graham algorithm](Coffman–Graham%20algorithm.md) for parallel scheduling and [layered graph drawing](layered%20graph%20drawing.md)}@}. <!--SR:!2025-02-24,69,338!2025-03-15,86,359!2025-02-19,64,319!2025-02-20,65,319!2025-02-01,46,314!2025-05-14,113,298-->
 
 ### depth-first search
 
@@ -288,7 +288,7 @@ Note that {@{the [prefix sum](prefix%20sum.md#parallel%20algorithms)}@} for {@{t
 >     <b>while</b> {@{global size of <i>Q</i> &gt; 0}@}
 >
 >     {@{<b>return</b> localOrder}@}
-> </pre> <!--SR:!2025-03-16,87,359!2025-02-25,70,351!2025-03-13,85,351!2025-02-27,72,334!2025-03-16,87,359!2025-03-21,92,359!2025-03-08,81,351!2025-03-20,91,359!2025-01-21,39,311!2025-02-05,50,307!2025-03-17,88,359!2025-02-23,68,334!2025-02-25,70,338!2025-03-09,81,338!2025-03-20,91,359!2025-02-07,52,331!2025-03-21,92,359!2025-03-18,89,359!2025-03-19,90,359!2025-02-22,67,327!2025-03-09,81,338!2025-03-11,83,351-->
+> </pre> <!--SR:!2025-03-16,87,359!2025-02-25,70,351!2025-03-13,85,351!2025-02-27,72,334!2025-03-16,87,359!2025-03-21,92,359!2025-03-08,81,351!2025-03-20,91,359!2025-05-20,119,311!2025-02-05,50,307!2025-03-17,88,359!2025-02-23,68,334!2025-02-25,70,338!2025-03-09,81,338!2025-03-20,91,359!2025-02-07,52,331!2025-03-21,92,359!2025-03-18,89,359!2025-03-19,90,359!2025-02-22,67,327!2025-03-09,81,338!2025-03-11,83,351-->
 
 {@{The communication cost}@} depends {@{heavily on the given graph partition}@}. As for {@{runtime}@}, on {@{a [CRCW-PRAM](parallel%20RAM.md) model that allows fetch-and-decrement in constant time}@}, this algorithm {@{runs in ${\mathcal {O} }\left({\frac {m+n}{p} }+D(\Delta +\log n)\right)$}@}, where {@{_m_ is the number of edges, _n_ is the number of vertices, _D_ is again the longest path in _G_ and _Δ_ the maximum degree}@}.<sup>[\[7\]](#^ref-7)</sup> <!--SR:!2025-02-27,72,351!2025-02-15,59,318!2025-02-20,65,319!2025-03-02,63,278!2025-01-25,6,238!2025-05-25,125,311-->
 

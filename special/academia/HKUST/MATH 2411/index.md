@@ -82,7 +82,7 @@ The content is in teaching order.
 - datetime: 2024-09-02T10:30:00+08:00/2024-09-02T11:50:00+08:00
 - course logistics
 - [statistics](../../../../general/statistics.md)
-  - statistics / definition (data) ::@:: a mathematical science that pertains to the _data_ collection, analysis, interpretation, explanation, and presentation <!--SR:!2025-08-25,272,330!2025-01-21,105,290-->
+  - statistics / definition (data) ::@:: a mathematical science that pertains to the _data_ collection, analysis, interpretation, explanation, and presentation <!--SR:!2025-08-25,272,330!2025-11-26,309,290-->
     - statistics / definition (data) / examples ::@:: Almost all fields of studies make use of data and statistics. _Statistical literacy_ has become a very important thing. <!--SR:!2025-12-21,353,310!2025-06-24,228,330-->
   - statistics / definition (decision making) ::@:: a method for processing and analyzing the collected data so as to help reduce the uncertainty inherent in _decision making_ <!--SR:!2025-07-16,246,330!2025-06-22,218,310-->
     - statistics / definition (decision making) / examples ::@:: choosing the best medication, driving to work in the shortest time, marketing (and choosing good grade courses) <!--SR:!2025-07-24,251,330!2025-03-26,136,290-->
@@ -474,7 +474,7 @@ The content is in teaching order.
   - Inputted $\binom {100} 1$ as 1 instead of 100 into the calculator when evaluating a binomial distribution...
     - $\binom {100} 1$ (-1) ::@:: It evaluates to 100, not 1. <!--SR:!2025-03-11,98,384!2025-03-13,100,384-->
   - Simplified $\frac 4 {b^2} \left(b\right)$ into $\frac 4 {b^3}$ instead of $\frac 4 b$... (-1)
-  - time limit ::@:: Time limit was really really tight. Only 10 minutes left for checking, even if you are familiar with the content. <!--SR:!2025-01-21,25,387!2025-01-22,26,387-->
+  - time limit ::@:: Time limit was really really tight. Only 10 minutes left for checking, even if you are familiar with the content. <!--SR:!2025-06-01,131,407!2025-01-22,26,387-->
 - check
   - datetime: 2024-10-29T10:00:00+08:00/2024-10-29T11:00:00+08:00, PT1H
   - venue: Room 3472 (Lift 25-26), Academic Building
@@ -738,7 +738,7 @@ The content is in teaching order.
 - report
   - Is a report necessary in this case...?
   - time limit ::@:: The time limit was enough to finish all questions and check them for 20 minutes. This, of course, assumes you are very familiar with the methods used. <!--SR:!2025-01-22,26,387!2025-03-15,67,387-->
-  - moment-generating function (0) ::@:: Remember to always check the domain of the expression you have gotten. If the domain is missing some numbers, you may still be able to evaluate $\operatorname E\left[e^{tX}\right]$ with $t$ set to the missing numbers to fill the domain. For example, after filling in the missing numbers, you may finally get $$\begin{cases} \frac {e^{5t} - e^{2t} } {3t}, & t \ne 0 \\ 1, & t = 0 \,. \end{cases}$$ <!-- <p> (The instructor said only I had gotten it correct...) --> <!--SR:!2025-04-23,98,387!2025-01-21,25,387-->
+  - moment-generating function (0) ::@:: Remember to always check the domain of the expression you have gotten. If the domain is missing some numbers, you may still be able to evaluate $\operatorname E\left[e^{tX}\right]$ with $t$ set to the missing numbers to fill the domain. For example, after filling in the missing numbers, you may finally get $$\begin{cases} \frac {e^{5t} - e^{2t} } {3t}, & t \ne 0 \\ 1, & t = 0 \,. \end{cases}$$ <!-- <p> (The instructor said only I had gotten it correct...) --> <!--SR:!2025-04-23,98,387!2025-06-02,132,407-->
 - check
   - datetime: 2024-12-20T14:30:00+08:00/2024-12-20T16:00:00+08:00, PT1H30M
   - venue: Room 1410 (Lift 25-26), Academic Building

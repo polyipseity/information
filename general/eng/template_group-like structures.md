@@ -41,7 +41,7 @@ tags:
 
 > __flashcards__
 >
-> - properties ::@:: 5: total, associative, identity, divisible, commutative <!--SR:!2025-01-21,14,290!2025-01-22,15,290-->
+> - properties ::@:: 5: total, associative, identity, divisible, commutative <!--SR:!2025-03-20,58,310!2025-01-22,15,290-->
 > - partial magma ::@:: (none) <!--SR:!2025-01-22,15,290!2025-01-22,15,290-->
 > - semigroupoid ::@:: associative <!--SR:!2025-01-31,16,230!2025-01-31,18,250-->
 > - small category ::@:: associative, identity <!--SR:!2025-01-22,15,290!2025-01-23,16,290-->
@@ -50,17 +50,17 @@ tags:
 > - magma ::@:: total <!--SR:!2025-01-23,16,290!2025-01-22,15,290-->
 > - commutative magma ::@:: total, commutative <!--SR:!2025-01-23,16,290!2025-01-23,16,290-->
 > - quasigroup ::@:: total, divisible <!--SR:!2025-02-07,25,270!2025-02-01,19,250-->
-> - commutative quasigroup ::@:: total, divisible, commutative <!--SR:!2025-01-21,14,290!2025-01-23,16,290-->
-> - unital magma ::@:: total, identity <!--SR:!2025-01-21,14,290!2025-01-21,14,290-->
-> - commutative unital magma ::@:: total, identity, commutative <!--SR:!2025-01-21,14,290!2025-03-03,43,290-->
+> - commutative quasigroup ::@:: total, divisible, commutative <!--SR:!2025-03-02,40,290!2025-01-23,16,290-->
+> - unital magma ::@:: total, identity <!--SR:!2025-03-17,55,310!2025-03-02,40,290-->
+> - commutative unital magma ::@:: total, identity, commutative <!--SR:!2025-03-20,58,310!2025-03-03,43,290-->
 > - loop ::@:: total, identity, divisible <!--SR:!2025-02-12,29,270!2025-01-24,13,230-->
 > - semigroup ::@:: total, associative <!--SR:!2025-01-28,17,250!2025-01-30,17,250-->
 > - commutative semigroup ::@:: total, associative, commutative <!--SR:!2025-01-29,16,250!2025-01-22,11,230-->
 > - associative quasigroup ::@:: total, associative, divisible <!--SR:!2025-01-31,18,250!2025-01-23,4,210-->
-> - commutative-and-associative quasigroup ::@:: total, associative, divisible, commutative <!--SR:!2025-01-21,14,290!2025-01-24,11,230-->
+> - commutative-and-associative quasigroup ::@:: total, associative, divisible, commutative <!--SR:!2025-03-01,39,290!2025-01-24,11,230-->
 > - monoid ::@:: total, associative, identity <!--SR:!2025-03-03,43,290!2025-01-28,17,250-->
 > - commutative monoid ::@:: total, associative, identity, commutative <!--SR:!2025-02-01,19,250!2025-01-26,9,170-->
-> - group ::@:: total, associative, identity, divisible <!--SR:!2025-01-23,16,290!2025-01-21,14,290-->
+> - group ::@:: total, associative, identity, divisible <!--SR:!2025-01-23,16,290!2025-03-18,56,310-->
 > - abelian group ::@:: total, associative, identity, divisible, commutative <!--SR:!2025-01-22,15,290!2025-01-23,16,290-->
 
 ## references
