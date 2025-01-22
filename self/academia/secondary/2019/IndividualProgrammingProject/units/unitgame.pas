@@ -1513,17 +1513,17 @@ begin
     with GLObjectsOpaque do
     begin
       glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, EBO);
-      PDataGLuint:=GLObjectListsOpaque.EBO.List;
+      PDataGLuint:=GLObjectListsOpaque.EBO.List^;
       glBufferData(GL_ELEMENT_ARRAY_BUFFER, SizeOf(GLuint) * GLObjectListsOpaque.EBO.Count, PDataGLuint, GL_STATIC_DRAW);
 
       glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, 0);
 
       glBindBuffer(GL_ARRAY_BUFFER, VBOV);
-      PDataGLfloat:=GLObjectListsOpaque.VBOV.List;
+      PDataGLfloat:=GLObjectListsOpaque.VBOV.List^;
       glBufferData(GL_ARRAY_BUFFER, SizeOf(GLfloat) * GLObjectListsOpaque.VBOV.Count, PDataGLfloat, GL_STATIC_DRAW);
 
       glBindBuffer(GL_ARRAY_BUFFER, VBOC);
-      PDataGLfloat:=GLObjectListsOpaque.VBOC.List;
+      PDataGLfloat:=GLObjectListsOpaque.VBOC.List^;
       glBufferData(GL_ARRAY_BUFFER, SizeOf(GLfloat) * GLObjectListsOpaque.VBOC.Count, PDataGLfloat, GL_STATIC_DRAW);
 
       glBindBuffer(GL_ARRAY_BUFFER, 0);
@@ -1560,17 +1560,17 @@ begin
     with GLObjectsTranslucent do
     begin
       glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, EBO);
-      PDataGLuint:=GLObjectListsTranslucent.EBO.List;
+      PDataGLuint:=GLObjectListsTranslucent.EBO.List^;
       glBufferData(GL_ELEMENT_ARRAY_BUFFER, SizeOf(GLuint) * GLObjectListsTranslucent.EBO.Count, PDataGLuint, GL_STREAM_DRAW);
 
       glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, 0);
 
       glBindBuffer(GL_ARRAY_BUFFER, VBOV);
-      PDataGLfloat:=GLObjectListsTranslucent.VBOV.List;
+      PDataGLfloat:=GLObjectListsTranslucent.VBOV.List^;
       glBufferData(GL_ARRAY_BUFFER, SizeOf(GLfloat) * GLObjectListsTranslucent.VBOV.Count, PDataGLfloat, GL_STREAM_DRAW);
 
       glBindBuffer(GL_ARRAY_BUFFER, VBOC);
-      PDataGLfloat:=GLObjectListsTranslucent.VBOC.List;
+      PDataGLfloat:=GLObjectListsTranslucent.VBOC.List^;
       glBufferData(GL_ARRAY_BUFFER, SizeOf(GLfloat) * GLObjectListsTranslucent.VBOC.Count, PDataGLfloat, GL_STREAM_DRAW);
 
       glBindBuffer(GL_ARRAY_BUFFER, 0);
