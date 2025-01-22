@@ -345,7 +345,7 @@ return _chain.from_iterable(await _gather(
 <!--pytextgen generate section="f123"--><!-- The following content is generated at 2024-01-31T12:52:39.120607+08:00. Any edits will be overridden! -->
 
 - `AVERAGE(numbers...)`:@:average <!--SR:!2027-10-31,1060,350-->
-- `COUNTIF(values, criteria)`:@:number of `values` satisfying `criteria` <!--SR:!2025-01-22,272,330-->
+- `COUNTIF(values, criteria)`:@:number of `values` satisfying `criteria` <!--SR:!2028-06-13,1238,350-->
 - `IF(boolean, value_if_true[, value_if_false = FALSE])`:@:`value_if_true` if `boolean` is true, otherwise `value_if_false`; can be nested <!--SR:!2028-03-25,1175,350-->
 - `MAX(numbers...)`:@:maximum <!--SR:!2027-12-16,1097,350-->
 - `MIN(numbers...)`:@:minimum <!--SR:!2027-02-10,789,330-->

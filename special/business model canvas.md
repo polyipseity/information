@@ -113,7 +113,7 @@ segmented: splitting slightly different customer segments
 - mass market: not distinguishing between customer segments→::@::←multi-sided platforms: serving interdependent customer segments <!--SR:!2025-06-12,200,254!2025-04-04,150,277-->
 - multi-sided platforms: serving interdependent customer segments→::@::←niche market: focusing on specific, specialized customer segments <!--SR:!2026-01-02,432,277!2025-03-31,200,254-->
 - niche market: focusing on specific, specialized customer segments→::@::←segmented: splitting slightly different customer segments <!--SR:!2025-06-10,253,254!2025-03-25,76,157-->
-- segmented: splitting slightly different customer segments→::@::←_(end)_ <!--SR:!2025-01-22,185,274!2025-09-04,308,254-->
+- segmented: splitting slightly different customer segments→::@::←_(end)_ <!--SR:!2026-06-13,507,274!2025-09-04,308,254-->
 
 <!--/pytextgen-->
 

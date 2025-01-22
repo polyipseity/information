@@ -95,11 +95,11 @@ Additionally, this formula is {@{a special case of the _k_-th [forward differenc
 
 The evaluation of {@{incomplete exponential [Bell polynomial](Bell%20polynomials.md) _B_<sub>_n_,_k_</sub>(_x_<sub>1</sub>,_x_<sub>2</sub>,...) on the sequence of ones}@} equals {@{a Stirling number of the second kind: $$\left\{ {n \atop k}\right\}=B_{n,k}(1,1,\dots ,1) \,.$$}@} <!--SR:!2025-01-27,69,310!2025-03-23,92,270-->
 
-Another explicit formula given in {@{the _NIST Handbook of Mathematical Functions_}@} is {@{$$\left\{ {n \atop k}\right\}=\sum _{\begin{array}{c}c_{1}+\ldots +c_{k}=n-k\\c_{1},\ldots ,\ c_{k}\ \geq \ 0\end{array} }1^{c_{1} }2^{c_{2} }\cdots k^{c_{k} } \,.$$}@} <!--SR:!2025-01-30,72,310!2025-01-22,45,250-->
+Another explicit formula given in {@{the _NIST Handbook of Mathematical Functions_}@} is {@{$$\left\{ {n \atop k}\right\}=\sum _{\begin{array}{c}c_{1}+\ldots +c_{k}=n-k\\c_{1},\ldots ,\ c_{k}\ \geq \ 0\end{array} }1^{c_{1} }2^{c_{2} }\cdots k^{c_{k} } \,.$$}@} <!--SR:!2025-01-30,72,310!2025-02-15,24,230-->
 
 ### parity
 
-{@{The [parity](parity%20(mathematics).md) of a Stirling number of the second kind}@} is {@{same as the parity of a related [binomial coefficient](binomial%20coefficient.md)}@}: <p> {@{$\left\{ {n \atop k}\right\}\equiv {\binom {z}{w} }\ {\pmod {2} },$ where $z=n-\left\lceil \displaystyle {\frac {k+1}{2} }\right\rceil ,\ w=\left\lfloor \displaystyle {\frac {k-1}{2} }\right\rfloor .$}@} This relation is specified by {@{mapping _n_ and _k_ coordinates onto the [Sierpiński triangle](Sierpiński%20triangle.md)}@}. <!--SR:!2025-07-15,191,310!2025-01-25,23,270!2025-01-22,53,250!2025-07-14,190,310-->
+{@{The [parity](parity%20(mathematics).md) of a Stirling number of the second kind}@} is {@{same as the parity of a related [binomial coefficient](binomial%20coefficient.md)}@}: <p> {@{$\left\{ {n \atop k}\right\}\equiv {\binom {z}{w} }\ {\pmod {2} },$ where $z=n-\left\lceil \displaystyle {\frac {k+1}{2} }\right\rceil ,\ w=\left\lfloor \displaystyle {\frac {k-1}{2} }\right\rfloor .$}@} This relation is specified by {@{mapping _n_ and _k_ coordinates onto the [Sierpiński triangle](Sierpiński%20triangle.md)}@}. <!--SR:!2025-07-15,191,310!2025-01-25,23,270!2025-06-01,130,250!2025-07-14,190,310-->
 
 More directly, let {@{two sets contain positions of 1's in binary representations of results of respective expressions}@}: {@{$${\begin{aligned}\mathbb {A} :\ \sum _{i\in \mathbb {A} }2^{i}&=n-k,\\\mathbb {B} :\ \sum _{j\in \mathbb {B} }2^{j}&=\left\lfloor {\dfrac {k-1}{2} }\right\rfloor .\\\end{aligned} }$$}@} One can {@{mimic a [bitwise AND](bitwise%20operation.md#AND) operation by intersecting these two sets: $${\begin{Bmatrix}n\\k\end{Bmatrix} }\,{\bmod {\,} }2={\begin{cases}0,&\mathbb {A} \cap \mathbb {B} \neq \emptyset ;\\1,&\mathbb {A} \cap \mathbb {B} =\emptyset ;\end{cases} }$$}@} to {@{obtain the parity of a Stirling number of the second kind in [_O_(1)](Big%20O%20notation.md) time}@}. In {@{[pseudocode](pseudocode.md): $${\begin{Bmatrix}n\\k\end{Bmatrix} }\,{\bmod {\,} }2:=\left[\left(\left(n-k\right)\ \And \ \left(\left(k-1\right)\,\mathrm {div} \,2\right)\right)=0\right];$$}@} where {@{$\left[b\right]$ is the [Iverson bracket](Iverson%20bracket.md)}@}. <!--SR:!2025-03-25,107,290!2025-03-30,99,270!2025-01-30,72,310!2025-01-25,67,310!2025-05-23,124,250!2025-07-13,189,310-->
 
@@ -115,7 +115,7 @@ For {@{a fixed integer _k_}@}, {@{the Stirling numbers of the second kind}@} hav
 
 ### lower and upper bounds
 
-If {@{$n\geq 2$ and $1\leq k\leq n-1$}@}, then {@{$${\frac {1}{2} }(k^{2}+k+2)k^{n-k-1}-1\leq \left\{ {n \atop k}\right\}\leq {\frac {1}{2} }{n \choose k}k^{n-k}$$}@} <sup>[\[12\]](#^ref-12)</sup> <!--SR:!2025-03-25,94,270!2025-01-22,8,170-->
+If {@{$n\geq 2$ and $1\leq k\leq n-1$}@}, then {@{$${\frac {1}{2} }(k^{2}+k+2)k^{n-k-1}-1\leq \left\{ {n \atop k}\right\}\leq {\frac {1}{2} }{n \choose k}k^{n-k}$$}@} <sup>[\[12\]](#^ref-12)</sup> <!--SR:!2025-03-25,94,270!2025-02-06,15,170-->
 
 ### asymptotic approximation
 

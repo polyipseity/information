@@ -187,7 +187,7 @@ The content is in teaching order.
   - scatter plot ::@:: Plots data that comes as pairs. Good for visualizing relationship between two variables (e.g. regression). <!--SR:!2025-10-11,310,330!2026-01-19,375,310-->
     - scatter plot / _R_ ::@:: use `plot(...)` <!--SR:!2025-08-02,258,330!2025-07-06,237,330-->
   - frequency table (categorical) ::@:: Categorical data is already pre-grouped. Then a _summary table_ is drawn based on the categories. This condenses the data and allows for quicker data interpretation. <!--SR:!2025-05-14,180,310!2025-11-13,311,290-->
-    - frequency table (categorical) / table headers ::@:: \<variable name\>, count, cumulative count (if ordinal), percent, cumulative percent (if ordinal), ... <!--SR:!2025-01-22,60,250!2025-02-05,105,270-->
+    - frequency table (categorical) / table headers ::@:: \<variable name\>, count, cumulative count (if ordinal), percent, cumulative percent (if ordinal), ... <!--SR:!2025-06-21,150,250!2025-02-05,105,270-->
   - pie chart ::@:: A filled circle showing proportions of different categories. <!--SR:!2025-07-27,253,330!2025-04-13,166,310-->
     - pie chart / _R_ ::@:: use `pie(...)` <!--SR:!2025-07-13,241,330!2025-06-29,232,330-->
   - bar chart ::@:: Bars showing counts of different categories. <!--SR:!2025-06-18,223,330!2025-08-22,274,330-->
@@ -474,7 +474,7 @@ The content is in teaching order.
   - Inputted $\binom {100} 1$ as 1 instead of 100 into the calculator when evaluating a binomial distribution...
     - $\binom {100} 1$ (-1) ::@:: It evaluates to 100, not 1. <!--SR:!2025-03-11,98,384!2025-03-13,100,384-->
   - Simplified $\frac 4 {b^2} \left(b\right)$ into $\frac 4 {b^3}$ instead of $\frac 4 b$... (-1)
-  - time limit ::@:: Time limit was really really tight. Only 10 minutes left for checking, even if you are familiar with the content. <!--SR:!2025-06-01,131,407!2025-01-22,26,387-->
+  - time limit ::@:: Time limit was really really tight. Only 10 minutes left for checking, even if you are familiar with the content. <!--SR:!2025-06-01,131,407!2025-06-11,140,407-->
 - check
   - datetime: 2024-10-29T10:00:00+08:00/2024-10-29T11:00:00+08:00, PT1H
   - venue: Room 3472 (Lift 25-26), Academic Building
@@ -737,7 +737,7 @@ The content is in teaching order.
     - distribution: ? → ?
 - report
   - Is a report necessary in this case...?
-  - time limit ::@:: The time limit was enough to finish all questions and check them for 20 minutes. This, of course, assumes you are very familiar with the methods used. <!--SR:!2025-01-22,26,387!2025-03-15,67,387-->
+  - time limit ::@:: The time limit was enough to finish all questions and check them for 20 minutes. This, of course, assumes you are very familiar with the methods used. <!--SR:!2025-06-10,139,407!2025-03-15,67,387-->
   - moment-generating function (0) ::@:: Remember to always check the domain of the expression you have gotten. If the domain is missing some numbers, you may still be able to evaluate $\operatorname E\left[e^{tX}\right]$ with $t$ set to the missing numbers to fill the domain. For example, after filling in the missing numbers, you may finally get $$\begin{cases} \frac {e^{5t} - e^{2t} } {3t}, & t \ne 0 \\ 1, & t = 0 \,. \end{cases}$$ <!-- <p> (The instructor said only I had gotten it correct...) --> <!--SR:!2025-04-23,98,387!2025-06-02,132,407-->
 - check
   - datetime: 2024-12-20T14:30:00+08:00/2024-12-20T16:00:00+08:00, PT1H30M

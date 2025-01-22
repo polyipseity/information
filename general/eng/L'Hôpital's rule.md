@@ -31,7 +31,7 @@ tags:
 # import ../../../tools/utility.py.md
 ```
 
-__{@{L'Hôpital's}@} rule__, also known as __{@{Bernoulli's}@} rule__, is {@{a [theorem](theorem.md) used for evaluating [limits](limit%20of%20a%20function.md) of [indeterminate forms](indeterminate%20form.md) from [derivatives](derivative.md)}@}. <!--SR:!2027-07-05,1007,340!2025-11-04,531,320!2025-01-22,326,340-->
+__{@{L'Hôpital's}@} rule__, also known as __{@{Bernoulli's}@} rule__, is {@{a [theorem](theorem.md) used for evaluating [limits](limit%20of%20a%20function.md) of [indeterminate forms](indeterminate%20form.md) from [derivatives](derivative.md)}@}. <!--SR:!2027-07-05,1007,340!2025-11-04,531,320!2029-03-28,1526,360-->
 
 > __L'Hôpital's rule__
 >

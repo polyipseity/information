@@ -29,7 +29,7 @@ In [graph theory](graph%20theory.md), {@{an __Eulerian trail__ \(or __Eulerian p
 
 > Given {@{the graph in the image}@}, is it possible to {@{construct a [path](path%20(graph%20theory).md) \(or a [cycle](cycle%20(graph%20theory).md); i.e., a path starting and ending on the same vertex\) that visits each edge exactly once}@}? <!--SR:!2025-03-06,83,342!2025-03-02,79,342-->
 
-Euler [proved](mathematical%20proof.md) that {@{a necessary condition for the existence of Eulerian circuits is that all vertices in the graph have an [even](parity%20(mathematics).md) [degree](degree%20(graph%20theory).md)}@}, and {@{stated without proof that [connected graphs](connectivity%20(graph%20theory).md) with all vertices of even degree have an Eulerian circuit}@}. {@{The first complete proof of this latter claim}@} was {@{published posthumously in 1873}@} by {@{[Carl Hierholzer](Carl%20Hierholzer.md)}@}.<sup>[\[1\]](#^ref-1)</sup> This is known as {@{__Euler's Theorem:__}@} <!--SR:!2025-01-22,46,322!2025-01-27,51,322!2025-03-05,82,342!2025-04-21,100,290!2025-02-17,68,316!2025-03-03,80,342-->
+Euler [proved](mathematical%20proof.md) that {@{a necessary condition for the existence of Eulerian circuits is that all vertices in the graph have an [even](parity%20(mathematics).md) [degree](degree%20(graph%20theory).md)}@}, and {@{stated without proof that [connected graphs](connectivity%20(graph%20theory).md) with all vertices of even degree have an Eulerian circuit}@}. {@{The first complete proof of this latter claim}@} was {@{published posthumously in 1873}@} by {@{[Carl Hierholzer](Carl%20Hierholzer.md)}@}.<sup>[\[1\]](#^ref-1)</sup> This is known as {@{__Euler's Theorem:__}@} <!--SR:!2025-08-15,205,342!2025-01-27,51,322!2025-03-05,82,342!2025-04-21,100,290!2025-02-17,68,316!2025-03-03,80,342-->
 
 > {@{__Euler's Theorem__}@} — {@{A connected graph has an Euler cycle}@} {@{[if and only if](if%20and%20only%20if.md) every vertex has even degree}@}. <!--SR:!2025-02-27,76,342!2025-02-23,74,342!2025-03-02,79,342-->
 
@@ -51,7 +51,7 @@ For {@{[directed graphs](directed%20graph.md)}@}, "path" has to be {@{replaced w
 
 ## properties
 
-- An undirected graph has an Eulerian cycle ::@:: if and only if every vertex has even degree, and all of its vertices with nonzero degree belong to a single [connected component](component%20(graph%20theory).md).<sup>[\[6\]](#^ref-6)</sup> <!--SR:!2025-02-19,70,330!2025-01-22,46,322-->
+- An undirected graph has an Eulerian cycle ::@:: if and only if every vertex has even degree, and all of its vertices with nonzero degree belong to a single [connected component](component%20(graph%20theory).md).<sup>[\[6\]](#^ref-6)</sup> <!--SR:!2025-02-19,70,330!2025-08-14,204,342-->
 - An undirected graph can be decomposed into edge-disjoint [cycles](cycle%20(graph%20theory).md) ::@:: if and only if all of its vertices have even degree. So, a graph has an Eulerian cycle if and only if it can be decomposed into edge-disjoint cycles and its nonzero-degree vertices belong to a single connected component. <!--SR:!2025-01-25,49,322!2025-01-26,50,322-->
 - An undirected graph has an Eulerian trail ::@:: if and only if exactly zero or two vertices have odd degree, and all of its vertices with nonzero degree belong to a single connected component.<sup>[\[6\]](#^ref-6)</sup> <!--SR:!2025-02-26,75,342!2025-02-16,67,316-->
 - A directed graph has an Eulerian cycle ::@:: if and only if every vertex has equal [in degree](degree%20(graph%20theory).md) and [out degree](degree%20(graph%20theory).md), and all of its vertices with nonzero degree belong to a single [strongly connected component](strongly%20connected%20component.md). <!--SR:!2025-02-17,68,316!2025-02-05,54,322-->
@@ -182,7 +182,7 @@ It is possible to {@{have a [directed graph](directed%20graph.md) that has all e
 
 ## notes
 
-1. Some people reserve {@{the terms _path_ and _cycle_}@} to {@{mean _non-self-intersecting_ path and cycle}@}. {@{A \(potentially\) self-intersecting path}@} is {@{known as a __trail__ or an __open walk__}@}; and {@{a \(potentially\) self-intersecting cycle}@}, {@{a __circuit__ or a __closed walk__}@}. {@{This ambiguity can be avoided}@} by {@{using the terms Eulerian trail and Eulerian circuit when self-intersection is allowed}@}. <a id="^note-1"></a>^note-1 <!--SR:!2025-03-02,79,342!2025-02-28,77,342!2025-03-05,82,342!2025-02-26,75,342!2025-03-05,82,342!2025-03-04,81,342!2025-01-22,46,310!2025-03-05,82,342-->
+1. Some people reserve {@{the terms _path_ and _cycle_}@} to {@{mean _non-self-intersecting_ path and cycle}@}. {@{A \(potentially\) self-intersecting path}@} is {@{known as a __trail__ or an __open walk__}@}; and {@{a \(potentially\) self-intersecting cycle}@}, {@{a __circuit__ or a __closed walk__}@}. {@{This ambiguity can be avoided}@} by {@{using the terms Eulerian trail and Eulerian circuit when self-intersection is allowed}@}. <a id="^note-1"></a>^note-1 <!--SR:!2025-03-02,79,342!2025-02-28,77,342!2025-03-05,82,342!2025-02-26,75,342!2025-03-05,82,342!2025-03-04,81,342!2025-08-07,197,330!2025-03-05,82,342-->
 
 ## references
 

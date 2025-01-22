@@ -19,7 +19,7 @@ To create an array, {@{enclose the multiple values in `{}`}@}: <!--SR:!2026-12-1
 String[] aStringArray = { "Hello", ",", "world", "!" };
 ```
 
-Less ideally, an array can be {@{created and initialized}@} separately: <!--SR:!2025-01-22,275,330-->
+Less ideally, an array can be {@{created and initialized}@} separately: <!--SR:!2028-06-26,1251,350-->
 
 ```Java
 String[] aStringArray = new String[4];

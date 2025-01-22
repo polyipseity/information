@@ -73,7 +73,7 @@ Just as {@{in the case of nimber addition}@}, there is {@{a means of computing t
 1. The nimber product of a Fermat 2-power \(numbers of the form 2<sup>2<sup>_n_</sup></sup>\) with a smaller number ::@:: is equal to their ordinary product; <!--SR:!2025-03-03,50,305!2025-03-28,75,325-->
 2. The nimber square of a Fermat 2-power _x_ ::@:: is equal to 3<!-- markdown separator -->_x_/2 as evaluated under the ordinary multiplication of natural numbers. <!--SR:!2025-01-28,25,265!2025-03-05,52,313-->
 
-{@{The smallest algebraically closed field of nimbers}@} is {@{the set of nimbers less than the ordinal _ω<sup>ω<sup>ω</sup></sup>_, where _ω_ is the smallest infinite ordinal}@}. It follows that {@{as a nimber, _ω<sup>ω<sup>ω</sup></sup>_ is [transcendental](transcendental%20number.md) over the field}@}.<sup>[\[5\]](#^ref-5)</sup> <!--SR:!2025-03-25,72,325!2025-03-09,58,310!2025-01-22,20,250-->
+{@{The smallest algebraically closed field of nimbers}@} is {@{the set of nimbers less than the ordinal _ω<sup>ω<sup>ω</sup></sup>_, where _ω_ is the smallest infinite ordinal}@}. It follows that {@{as a nimber, _ω<sup>ω<sup>ω</sup></sup>_ is [transcendental](transcendental%20number.md) over the field}@}.<sup>[\[5\]](#^ref-5)</sup> <!--SR:!2025-03-25,72,325!2025-03-09,58,310!2025-04-05,73,270-->
 
 > [!tip] tips
 >
@@ -97,14 +97,14 @@ This subset is {@{closed under both operations}@}, since {@{16 is of the form 2<
 >
 > {@{Nimber multiplication}@} \(sequence {@{[A051775](https://oeis.org/A051775)}@} in the [OEIS](On-Line%20Encyclopedia%20of%20Integer%20Sequences.md)\) <br/>
 > The nonzero elements form the [Cayley table](cayley%20table.md) of [Z<sub>15</sub>](list%20of%20small%20groups.md#list%20of%20small%20abelian%20groups). <br/>
-> The small matrices are permuted binary [Walsh matrices](walsh%20matrix.md). <!--SR:!2025-02-27,47,290!2025-03-04,54,310!2025-01-22,6,205-->
+> The small matrices are permuted binary [Walsh matrices](walsh%20matrix.md). <!--SR:!2025-02-27,47,290!2025-03-04,54,310!2025-01-25,3,185-->
 
 <!-- markdownlint MD028 -->
 
 > {@{![nimber multiplication table among powers of two](../../archives/Wikimedia%20Commons/Nimber%20products%20of%20powers%20of%20two.svg)}@}
 >
 > {@{Nimber multiplication of [powers of two](power%20of%20two.md)}@} \(sequence {@{[A223541](https://oeis.org/A223541)}@} in the [OEIS](On-Line%20Encyclopedia%20of%20Integer%20Sequences.md)\) <br/>
-> {@{Calculating the nim-products of powers of two}@} is {@{a decisive point in the recursive algorithm of nimber-multiplication}@}. <!--SR:!2025-03-07,54,313!2025-02-22,46,290!2025-01-22,6,213!2025-02-15,42,305!2025-03-07,54,313-->
+> {@{Calculating the nim-products of powers of two}@} is {@{a decisive point in the recursive algorithm of nimber-multiplication}@}. <!--SR:!2025-03-07,54,313!2025-02-22,46,290!2025-01-25,3,193!2025-02-15,42,305!2025-03-07,54,313-->
 
 ## see also
 

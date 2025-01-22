@@ -21,17 +21,17 @@ In {@{[graph theory](graph%20theory.md)}@}, {@{a connected [graph](graph%20(disc
 
 ## definitions
 
-{@{A graph \(other than a [complete graph](complete%20graph.md)\)}@} has {@{connectivity _k_ if _k_ is the size of the smallest subset of vertices such that the graph becomes disconnected if you delete them}@}.<sup>[\[1\]](#^ref-1)</sup> In {@{[complete graphs](complete%20graph.md)}@}, there is {@{no subset whose removal would disconnect the graph}@}. Some sources {@{modify the definition of connectivity to handle this case}@}, by {@{defining it as the size of the smallest subset of vertices whose deletion results in either a disconnected graph or a single vertex}@}. For this variation, {@{the connectivity of a complete graph $K_{n}$ is $n-1$}@}.<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2025-01-23,16,290!2025-01-22,15,290!2025-01-23,16,290!2025-01-23,16,290!2025-01-22,15,290!2025-01-22,15,290!2025-01-22,15,290-->
+{@{A graph \(other than a [complete graph](complete%20graph.md)\)}@} has {@{connectivity _k_ if _k_ is the size of the smallest subset of vertices such that the graph becomes disconnected if you delete them}@}.<sup>[\[1\]](#^ref-1)</sup> In {@{[complete graphs](complete%20graph.md)}@}, there is {@{no subset whose removal would disconnect the graph}@}. Some sources {@{modify the definition of connectivity to handle this case}@}, by {@{defining it as the size of the smallest subset of vertices whose deletion results in either a disconnected graph or a single vertex}@}. For this variation, {@{the connectivity of a complete graph $K_{n}$ is $n-1$}@}.<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2025-01-23,16,290!2025-03-25,62,310!2025-01-23,16,290!2025-01-23,16,290!2025-03-26,63,310!2025-03-26,63,310!2025-03-23,60,310-->
 
 An equivalent definition is that {@{a graph with at least two vertices is _k_-connected}@} if, {@{for every pair of its vertices, it is possible to find _k_ vertex-independent [paths](path%20(graph%20theory).md) connecting these vertices; see [Menger's theorem](Menger's%20theorem.md)}@} \([Diestel 2005](#CITEREFDiestel2005), p. 55\). This definition {@{produces the same answer, _n_ − 1, for the connectivity of the complete graph _K_<sub>_n_</sub>}@}.<sup>[\[1\]](#^ref-1)</sup> <!--SR:!2025-01-23,16,290!2025-02-08,26,270!2025-01-23,16,290-->
 
-{@{A 1-connected graph is called [connected](connectivity%20(graph%20theory).md#connected%20vertices%20and%20graphs)}@}; {@{a 2-connected graph is called [biconnected](biconnected%20graph.md)}@}. {@{A 3-connected graph is called triconnected}@}. <!--SR:!2025-01-23,16,290!2025-01-22,15,290!2025-01-22,15,290-->
+{@{A 1-connected graph is called [connected](connectivity%20(graph%20theory).md#connected%20vertices%20and%20graphs)}@}; {@{a 2-connected graph is called [biconnected](biconnected%20graph.md)}@}. {@{A 3-connected graph is called triconnected}@}. <!--SR:!2025-01-23,16,290!2025-03-23,60,310!2025-03-24,61,310-->
 
 ## applications
 
 ### components
 
-Every graph {@{decomposes into a disjoint union of [1-connected components](component%20(graph%20theory).md)}@}. 1-connected graphs {@{decompose into a tree of [biconnected components](biconnected%20component.md)}@}. 2-connected graphs {@{decompose into a tree of [triconnected components](SPQR%20tree.md)}@}. <!--SR:!2025-01-23,16,290!2025-01-22,15,290!2025-01-22,15,290-->
+Every graph {@{decomposes into a disjoint union of [1-connected components](component%20(graph%20theory).md)}@}. 1-connected graphs {@{decompose into a tree of [biconnected components](biconnected%20component.md)}@}. 2-connected graphs {@{decompose into a tree of [triconnected components](SPQR%20tree.md)}@}. <!--SR:!2025-01-23,16,290!2025-03-22,59,310!2025-03-07,44,290-->
 
 ### polyhedral combinatorics
 
@@ -52,9 +52,9 @@ Let {@{_k≥2_}@}. <!--SR:!2025-01-23,16,290-->
 
 ## _k_-linked graph
 
-{@{A graph with at least $2k$ vertices}@} is called ___k_-linked__ if {@{there are $k$ (vertex-)disjoint paths connecting $a_i$ to $b_i$ for any sequences $a_{1},\dots ,a_{k}$ and $b_{1},\dots ,b_{k}$ of $2k$ distinct vertices}@}. {@{Every _k_-linked graph}@} is {@{$(2k-1)$-connected graph, but not necessarily $2k$-connected}@}. <sup>[\[7\]](#^ref-7)</sup> <!--SR:!2025-02-27,39,290!2025-03-01,41,290!2025-01-22,15,290!2025-03-02,42,290-->
+{@{A graph with at least $2k$ vertices}@} is called ___k_-linked__ if {@{there are $k$ (vertex-)disjoint paths connecting $a_i$ to $b_i$ for any sequences $a_{1},\dots ,a_{k}$ and $b_{1},\dots ,b_{k}$ of $2k$ distinct vertices}@}. {@{Every _k_-linked graph}@} is {@{$(2k-1)$-connected graph, but not necessarily $2k$-connected}@}. <sup>[\[7\]](#^ref-7)</sup> <!--SR:!2025-02-27,39,290!2025-03-01,41,290!2025-03-22,59,310!2025-03-02,42,290-->
 
-If {@{a graph is $2k$-connected and has average degree of at least $16k$}@}, then {@{it is $k$-linked}@}. <sup>[\[8\]](#^ref-8)</sup> <!--SR:!2025-01-30,17,250!2025-01-22,15,290-->
+If {@{a graph is $2k$-connected and has average degree of at least $16k$}@}, then {@{it is $k$-linked}@}. <sup>[\[8\]](#^ref-8)</sup> <!--SR:!2025-01-30,17,250!2025-03-05,42,290-->
 
 ## see also
 

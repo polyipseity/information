@@ -15,9 +15,9 @@ tags:
 
 {@{__Min-plus matrix multiplication__, also known as __distance product__}@}, is {@{an operation on [matrices](matrix%20(mathematics).md)}@}. <!--SR:!2025-03-01,43,290!2025-03-03,43,290-->
 
-Given {@{two $n\times n$ matrices $A=(a_{ij})$ and $B=(b_{ij})$}@}, {@{their distance product $C=(c_{ij})=A\star B$}@} is defined as {@{an $n\times n$ matrix such that $c_{ij}=\min _{k=1}^{n}\{a_{ik}+b_{kj}\}$}@}. This is {@{standard matrix multiplication}@} for {@{the semi-ring of [tropical numbers](tropical%20geometry.md) in the min convention}@}. <!--SR:!2025-01-22,16,290!2025-01-22,16,290!2025-01-22,16,290!2025-01-22,16,290!2025-02-02,20,250-->
+Given {@{two $n\times n$ matrices $A=(a_{ij})$ and $B=(b_{ij})$}@}, {@{their distance product $C=(c_{ij})=A\star B$}@} is defined as {@{an $n\times n$ matrix such that $c_{ij}=\min _{k=1}^{n}\{a_{ik}+b_{kj}\}$}@}. This is {@{standard matrix multiplication}@} for {@{the semi-ring of [tropical numbers](tropical%20geometry.md) in the min convention}@}. <!--SR:!2025-03-30,67,310!2025-03-30,67,310!2025-03-30,67,310!2025-03-30,67,310!2025-02-02,20,250-->
 
-This operation is closely related to {@{the [shortest path problem](shortest%20path%20problem.md)}@}. If {@{$W$ is an $n\times n$ matrix containing the edge weights of a [graph](graph%20(discrete%20mathematics).md)}@}, then {@{$W^{k}$ gives the distances between vertices using paths of length at most $k$ edges}@}, and {@{$W^{n}$ is the [distance matrix](distance%20matrix.md) of the graph}@}. <!--SR:!2025-01-22,16,290!2025-01-22,16,290!2025-03-03,43,290!2025-01-22,16,290-->
+This operation is closely related to {@{the [shortest path problem](shortest%20path%20problem.md)}@}. If {@{$W$ is an $n\times n$ matrix containing the edge weights of a [graph](graph%20(discrete%20mathematics).md)}@}, then {@{$W^{k}$ gives the distances between vertices using paths of length at most $k$ edges}@}, and {@{$W^{n}$ is the [distance matrix](distance%20matrix.md) of the graph}@}. <!--SR:!2025-03-30,67,310!2025-03-30,67,310!2025-03-03,43,290!2025-03-30,67,310-->
 
 ## references
 
