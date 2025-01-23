@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CONFIG>
   <ProjectOptions>
-    <Version Value="11"/>
+    <Version Value="12"/>
     <PathDelim Value="\"/>
     <General>
       <Flags>
         <MainUnitHasUsesSectionForAllUnits Value="False"/>
+        <CompatibilityMode Value="True"/>
       </Flags>
       <SessionStorage Value="InProjectDir"/>
-      <MainUnit Value="0"/>
       <Title Value="IndividualProgrammingProject"/>
       <Scaled Value="True"/>
       <ResourceType Value="res"/>
@@ -62,7 +62,7 @@
           </Linking>
           <Other>
             <Verbosity>
-              <ShoLineNum Value="True"/>
+              <ShowLineNum Value="True"/>
               <ShowAll Value="True"/>
               <ShowDebugInfo Value="True"/>
               <ShowUsedFiles Value="True"/>
@@ -117,7 +117,7 @@
           </Linking>
           <Other>
             <Verbosity>
-              <ShoLineNum Value="True"/>
+              <ShowLineNum Value="True"/>
               <ShowAll Value="True"/>
               <ShowDebugInfo Value="True"/>
               <ShowUsedFiles Value="True"/>
@@ -162,7 +162,7 @@
           </Linking>
           <Other>
             <Verbosity>
-              <ShoLineNum Value="True"/>
+              <ShowLineNum Value="True"/>
               <ShowAll Value="True"/>
               <ShowDebugInfo Value="True"/>
               <ShowUsedFiles Value="True"/>
@@ -191,7 +191,6 @@
     </PublishOptions>
     <RunParams>
       <FormatVersion Value="2"/>
-      <Modes Count="0"/>
     </RunParams>
     <RequiredPackages Count="4">
       <Item1>
@@ -281,7 +280,7 @@
     </Linking>
     <Other>
       <Verbosity>
-        <ShoLineNum Value="True"/>
+        <ShowLineNum Value="True"/>
         <ShowAll Value="True"/>
         <ShowDebugInfo Value="True"/>
         <ShowUsedFiles Value="True"/>

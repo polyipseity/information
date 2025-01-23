@@ -57,11 +57,11 @@ type
     type
       TArrayGLuint = specialize TArray<GLuint>;
       TFPGListGLuint = specialize TFPGList<GLuint>;
-      TFPGListArrayGLuint = array[0..MaxGListSize] of GLuint;
+      TFPGListArrayGLuint = GLuint;
       PFPGListArrayGLuint = ^TFPGListArrayGLuint;
       TArrayGLfloat = specialize TArray<GLfloat>;
       TFPGListGLfloat = specialize TFPGList<GLfloat>;
-      TFPGListArrayGLfloat = array[0..MaxGListSize] of GLfloat;
+      TFPGListArrayGLfloat = GLfloat;
       PFPGListArrayGLfloat = ^TFPGListArrayGLfloat;
     class procedure ObjectLabel(const Identifier: GLenum; const Name: GLuint; const Label_: string);
     class procedure Translated2(var Input: Tmatrix4_double; const x, y, z: GLdouble);

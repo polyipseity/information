@@ -1,7 +1,4 @@
-########################################
-# Pascal
-# https://github.com/github/gitignore/blob/master/Global/Lazarus.gitignore
-
+# https://github.com/github/gitignore/blob/d49bd6f0f797b97a4fe2bf09cecf4c2782f3ab6b/Global/Lazarus.gitignore {
 # Lazarus compiler-generated binaries (safe to delete)
 *.exe
 *.dll
@@ -32,3 +29,8 @@ lib/
 
 # Application bundle for Mac OS
 *.app/
+# }
+
+# custom {
+ppas.bat
+# }
