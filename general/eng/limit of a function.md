@@ -47,7 +47,7 @@ If the limit does not exist, then {@{the [oscillation](oscillation%20(mathematic
 
 > [!example] examples
 >
-> - function at an [isolated point](isolated%20point.md): $f(x \in \set{0}) = 0$ :@: It has no one-sided limits at every [real](real%20number.md), including $0$. <!--SR:!2025-01-23,243,344-->
+> - function at an [isolated point](isolated%20point.md): $f(x \in \set{0}) = 0$ :@: It has no one-sided limits at every [real](real%20number.md), including $0$. <!--SR:!2028-03-17,1149,364-->
 
 ### examples
 

@@ -292,7 +292,7 @@ The content is in teaching order.
     - "change in _demand_" vs "change in _quantity demanded_"
     - change in demand ::@:: change in the relation between quantity demanded at each price <!--SR:!2025-03-04,97,382!2025-02-16,83,371-->
       - change in demand / graph ::@:: Usually, we move the demand curve horizontally, not vertically. Note that for a straight line, these two produce the same results. <!--SR:!2025-03-10,102,382!2025-02-17,84,371-->
-      - change in demand / factors ::@:: They are _non-price determinants_ of demand: consumer preferences, expectation about the future, income, number of buyers (e.g. population growth), prices of _related_ goods. <!--SR:!2025-01-23,59,351!2025-02-05,74,366-->
+      - change in demand / factors ::@:: They are _non-price determinants_ of demand: consumer preferences, expectation about the future, income, number of buyers (e.g. population growth), prices of _related_ goods. <!--SR:!2025-08-15,204,351!2025-02-05,74,366-->
         - change in demand / factors / consumer preferences ::@:: What consumers prefer. For example, fashion may affect it. <!--SR:!2025-02-27,92,371!2025-02-22,88,371-->
         - change in demand / factors / income ::@:: What consumers buy responds to their incomes. Examples include normal goods, inferior goods, etc. <!--SR:!2025-03-09,101,382!2025-03-08,100,382-->
 - types of goods ::@:: ordinary goods ← normal goods (luxury/superior goods, necessity goods), Giffen goods → inferior goods <!--SR:!2025-07-24,188,331!2025-03-10,102,379-->
@@ -925,8 +925,8 @@ The content is in teaching order.
     - high: 87
     - distribution: ?
 - report
-  - examination format ::@:: All the questions require you to write a lot of text, and it feels more like writing essays... I was not quite sure the things I have written are what the teacher wants. <p> Next time, I should also check the examination format of each instructor and see if it suits me. <!--SR:!2025-01-23,27,411!2025-01-24,28,411-->
-  - time limit ::@:: The time limit was barely enough to finish all questions because I had written many words, and had spent some time on thinking... <!--SR:!2025-01-23,27,411!2025-01-24,28,411-->
+  - examination format ::@:: All the questions require you to write a lot of text, and it feels more like writing essays... I was not quite sure the things I have written are what the teacher wants. <p> Next time, I should also check the examination format of each instructor and see if it suits me. <!--SR:!2025-06-23,151,431!2025-01-24,28,411-->
+  - time limit ::@:: The time limit was barely enough to finish all questions because I had written many words, and had spent some time on thinking... <!--SR:!2025-06-22,150,431!2025-01-24,28,411-->
   - Q2: single-priced monopoly (−6, short question)
     - Q2: single-priced monopoly / Must it be inefficient? (−6) ::@:: No. It is efficient if the demand curve is completely elastic. (Though this means no matter how high the price the monopolist sets to, it is efficient...) <p> An unintended answer, since the question has not specified if regulations are in place, is that there is regulation that forces the monopolist to use marginal cost pricing. In this case, it is also efficient. <!--SR:!2025-02-02,27,417!2025-02-02,27,417-->
   - Q3: sports facility entrance fee (−4, short question)

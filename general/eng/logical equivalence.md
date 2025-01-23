@@ -18,7 +18,7 @@ In logic, many common logical equivalences {@{exist and are often listed as laws
 ### general logical equivalences
 
 - identity laws ::@:: $$\begin{aligned} p \land \top & \equiv p \\ p \lor \bot & \equiv p \end{aligned}$$ <!--SR:!2025-04-12,163,321!2025-11-04,326,341-->
-- domination laws ::@:: $$\begin{aligned} p \lor \top & \equiv \top \\ p \land \bot & \equiv \bot \end{aligned}$$ <!--SR:!2025-01-23,97,301!2025-08-11,258,330-->
+- domination laws ::@:: $$\begin{aligned} p \lor \top & \equiv \top \\ p \land \bot & \equiv \bot \end{aligned}$$ <!--SR:!2026-03-11,412,321!2025-08-11,258,330-->
 - idempotent or tautology laws ::@:: $$\begin{aligned} p \lor p & \equiv p \\ p \land p & \equiv p \end{aligned}$$ <!--SR:!2025-11-11,329,341!2025-07-15,236,330-->
 - [double negation](double%20negation.md) law ::@:: $$\neg (\neg p)\equiv p$$ <!--SR:!2025-08-02,251,330!2025-07-13,230,321-->
 - [commutative laws](commutative%20property.md) ::@:: $$\begin{aligned} p\vee q & \equiv q\vee p \\ p\wedge q &\equiv q\wedge p \end{aligned}$$ <!--SR:!2025-10-02,299,341!2025-07-26,245,330-->

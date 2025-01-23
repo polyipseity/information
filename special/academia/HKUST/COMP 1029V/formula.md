@@ -149,7 +149,7 @@ return _chain.from_iterable(await _gather(
 - `>`:@:greater than <!--SR:!2025-02-28,302,330-->
 - `<=`:@:lesser than or equal to <!--SR:!2027-03-22,818,330-->
 - `>=`:@:greater than or equal to <!--SR:!2027-11-23,1078,350-->
-- `<>`:@:not equal to <!--SR:!2025-01-23,273,330-->
+- `<>`:@:not equal to <!--SR:!2028-06-18,1242,350-->
 
 <!--/pytextgen-->
 
@@ -335,7 +335,7 @@ return _chain.from_iterable(await _gather(
 - `COUNTIF(values, criteria)`→::@::←`IF(boolean, value_if_true[, value_if_false = FALSE])` <!--SR:!2026-07-10,608,310!2025-03-09,231,290-->
 - `IF(boolean, value_if_true[, value_if_false = FALSE])`→::@::←`MAX(numbers...)` <!--SR:!2026-07-19,579,250!2026-07-24,575,270-->
 - `MAX(numbers...)`→::@::←`MIN(numbers...)` <!--SR:!2028-03-02,1160,350!2027-11-18,1078,350-->
-- `MIN(numbers...)`→::@::←`RANK(number, numbers...)` <!--SR:!2025-01-23,171,210!2025-04-21,291,270-->
+- `MIN(numbers...)`→::@::←`RANK(number, numbers...)` <!--SR:!2026-01-20,362,210!2025-04-21,291,270-->
 - `RANK(number, numbers...)`→::@::←`STDEV(numbers...)` <!--SR:!2025-04-25,276,250!2025-08-22,358,270-->
 - `STDEV(numbers...)`→::@::←`SUM(numbers...)` <!--SR:!2025-03-03,304,330!2026-01-20,504,290-->
 - `SUM(numbers...)`→::@::←_(end)_ <!--SR:!2025-02-26,254,290!2026-02-05,476,270-->

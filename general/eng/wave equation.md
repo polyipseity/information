@@ -51,7 +51,7 @@ u(x, t) &= F(x - ct) + G(x + ct)
 
 > [!tip] tips
 >
-> - reason why one can swap [partial derivatives](partial%20derivative.md) ::@:: Think of $\frac{\partial}{\partial t}$ as an [operator](operator%20(mathematics).md). Then for [functions](function%20(mathematics).md) of class $C^2$, $\frac{\partial}{\partial x}\frac{\partial}{\partial y}=\frac{\partial}{\partial y}\frac{\partial}{\partial x}$. The interpretation is that [differentiation](derivative.md) does not depend on the order of operation for sufficiently [smooth](smoothness.md) functions. This is known as [Schwarz's theorem](symmetry%20of%20second%20derivatives.md#Schwarz's%20theorem). <!--SR:!2025-10-02,445,270!2025-01-23,242,334-->
+> - reason why one can swap [partial derivatives](partial%20derivative.md) ::@:: Think of $\frac{\partial}{\partial t}$ as an [operator](operator%20(mathematics).md). Then for [functions](function%20(mathematics).md) of class $C^2$, $\frac{\partial}{\partial x}\frac{\partial}{\partial y}=\frac{\partial}{\partial y}\frac{\partial}{\partial x}$. The interpretation is that [differentiation](derivative.md) does not depend on the order of operation for sufficiently [smooth](smoothness.md) functions. This is known as [Schwarz's theorem](symmetry%20of%20second%20derivatives.md#Schwarz's%20theorem). <!--SR:!2025-10-02,445,270!2027-04-10,807,334-->
 
 ## references
 

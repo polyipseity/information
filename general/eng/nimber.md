@@ -19,7 +19,7 @@ In [mathematics](mathematics.md), {@{the __nimbers__, also called __Grundy numbe
 
 Because of {@{the [Sprague–Grundy theorem](Sprague–Grundy%20theorem.md)}@} which {@{states that every [impartial game](impartial%20game.md) is equivalent to a Nim heap of a certain size}@}, nimbers {@{arise in a much larger class of impartial games}@}. They may also occur in {@{[partisan games](partisan%20game.md)}@} like {@{[Domineering](Domineering.md)}@}. <!--SR:!2025-03-24,71,325!2025-03-25,72,325!2025-03-30,77,333!2025-03-26,73,325!2025-03-13,62,310-->
 
-{@{The nimber addition and multiplication operations}@} are {@{associative and commutative}@}. Each nimber is {@{its own [additive inverse](additive%20inverse.md)}@}. In particular for {@{some pairs of ordinals, their nimber sum is smaller than either addend}@}.<sup>[\[1\]](#^ref-1)</sup> {@{The [minimum excludant](mex%20(mathematics).md) operation}@} is {@{applied to sets of nimbers}@}. <!--SR:!2025-03-26,73,325!2025-03-28,75,325!2025-03-03,50,305!2025-03-27,74,325!2025-03-06,56,310!2025-01-23,21,250-->
+{@{The nimber addition and multiplication operations}@} are {@{associative and commutative}@}. Each nimber is {@{its own [additive inverse](additive%20inverse.md)}@}. In particular for {@{some pairs of ordinals, their nimber sum is smaller than either addend}@}.<sup>[\[1\]](#^ref-1)</sup> {@{The [minimum excludant](mex%20(mathematics).md) operation}@} is {@{applied to sets of nimbers}@}. <!--SR:!2025-03-26,73,325!2025-03-28,75,325!2025-03-03,50,305!2025-03-27,74,325!2025-03-06,56,310!2025-04-09,76,270-->
 
 ## uses
 

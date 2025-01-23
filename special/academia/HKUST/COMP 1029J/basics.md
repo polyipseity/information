@@ -275,7 +275,7 @@ return _chain.from_iterable(await _gather(
 - `<`:@:lesser than <!--SR:!2027-10-28,1059,350-->
 - `>`:@:greater than <!--SR:!2028-03-01,1158,350-->
 - `<=`:@:lesser than or equal to <!--SR:!2027-05-25,909,330-->
-- `>=`:@:greater than or equal to <!--SR:!2025-01-23,276,330-->
+- `>=`:@:greater than or equal to <!--SR:!2028-07-04,1258,350-->
 - `==`:@:equal to <!--SR:!2025-02-01,279,330-->
 - `!=`:@:not equal to <!--SR:!2027-09-26,1036,350-->
 

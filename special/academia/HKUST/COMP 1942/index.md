@@ -31,7 +31,7 @@ The content is in teaching order.
 - data warehouse ::@:: Knowledge database containing _pre-computed_ results from data sources. <!--SR:!2026-11-20,771,330!2026-07-09,660,330-->
 - dimension reduction ::@:: Reducing _dimensionality_ while minimizing _information loss_. One can visualize this by imagine many data points lying close to a line in a $xy$ graph. Then instead of representing each data point with two numbers, $x$ and $y$, we can represent each data point with one number representing the distance from the origin to the point on the line closest to the original data point. Information loss is the distance between the original point and the point on the line closest to the origin point. <!--SR:!2025-06-27,333,290!2027-03-19,853,330-->
 - web database ::@:: Using data from the web, e.g. ranking webpages. <!--SR:!2025-02-05,278,330!2025-02-28,295,330-->
-- [delimiter](../../../../general/delimiter.md) definition ::@:: The text each data point is separated by. For example, `column 1,column 2,column 3` is delimited by `,`. <!--SR:!2025-01-23,269,330!2028-04-13,1186,350-->
+- [delimiter](../../../../general/delimiter.md) definition ::@:: The text each data point is separated by. For example, `column 1,column 2,column 3` is delimited by `,`. <!--SR:!2028-06-01,1225,350!2028-04-13,1186,350-->
 
 ## week 2 lecture 1
 

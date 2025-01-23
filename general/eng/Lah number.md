@@ -53,7 +53,7 @@ The row sums are $1,1,3,13,73,501,4051,37633,\dots$ (sequence [A000262](https://
 
 ## rising and falling factorials
 
-Let {@{$x^{(n)}$ represent the [rising factorial](falling%20and%20rising%20factorials.md) $x(x+1)(x+2)\cdots (x+n-1)$ and let $(x)_{n}$ represent the [falling factorial](falling%20and%20rising%20factorials.md) $x(x-1)(x-2)\cdots (x-n+1)$}@}. The Lah numbers are {@{the coefficients that express each of these families of polynomials in terms of the other}@}. Explicitly, {@{$$x^{(n)}=\sum _{k=0}^{n}L(n,k)(x)_{k}$$and$$(x)_{n}=\sum _{k=0}^{n}(-1)^{n-k}L(n,k)x^{(k)}.$$}@} (annotation: The change of basis to the falling factorials uses {@{unsigned while that to the rising factorials uses signed}@}.) <!--SR:!2025-01-25,69,310!2025-01-28,72,310!2025-01-23,67,310!2025-01-28,72,310-->
+Let {@{$x^{(n)}$ represent the [rising factorial](falling%20and%20rising%20factorials.md) $x(x+1)(x+2)\cdots (x+n-1)$ and let $(x)_{n}$ represent the [falling factorial](falling%20and%20rising%20factorials.md) $x(x-1)(x-2)\cdots (x-n+1)$}@}. The Lah numbers are {@{the coefficients that express each of these families of polynomials in terms of the other}@}. Explicitly, {@{$$x^{(n)}=\sum _{k=0}^{n}L(n,k)(x)_{k}$$and$$(x)_{n}=\sum _{k=0}^{n}(-1)^{n-k}L(n,k)x^{(k)}.$$}@} (annotation: The change of basis to the falling factorials uses {@{unsigned while that to the rising factorials uses signed}@}.) <!--SR:!2025-01-25,69,310!2025-01-28,72,310!2025-11-04,285,330!2025-01-28,72,310-->
 
 For example, {@{$$x(x+1)(x+2)={\color {red}6}x+{\color {red}6}x(x-1)+{\color {red}1}x(x-1)(x-2)$$and$$x(x-1)(x-2)={\color {red}6}x-{\color {red}6}x(x+1)+{\color {red}1}x(x+1)(x+2),$$}@} where {@{the coefficients 6, 6, and 1 are exactly the Lah numbers $L(3,1)$, $L(3,2)$, and $L(3,3)$}@}. <!--SR:!2025-02-28,80,270!2025-01-27,71,310-->
 
@@ -61,7 +61,7 @@ For example, {@{$$x(x+1)(x+2)={\color {red}6}x+{\color {red}6}x(x-1)+{\color {re
 
 The Lah numbers {@{satisfy a variety of identities and relations}@}. <!--SR:!2025-01-24,68,310-->
 
-In [Karamata](Jovan%20Karamata.md)–[Knuth](Donald%20Knuth.md) notation for [Stirling numbers](Stirling%20number.md) {@{$$L(n,k)=\sum _{j=k}^{n}\left[{n \atop j}\right]\left\{ {j \atop k}\right\}$$}@} where {@{$\left[{n \atop j}\right]$ are the [Stirling numbers of the first kind](Stirling%20numbers%20of%20the%20first%20kind.md) and $\left\{ {j \atop k}\right\}$ are the [Stirling numbers of the second kind](stirling%20numbers%20of%20the%20second%20kind.md)}@}. <!--SR:!2025-05-16,133,290!2025-01-23,67,310-->
+In [Karamata](Jovan%20Karamata.md)–[Knuth](Donald%20Knuth.md) notation for [Stirling numbers](Stirling%20number.md) {@{$$L(n,k)=\sum _{j=k}^{n}\left[{n \atop j}\right]\left\{ {j \atop k}\right\}$$}@} where {@{$\left[{n \atop j}\right]$ are the [Stirling numbers of the first kind](Stirling%20numbers%20of%20the%20first%20kind.md) and $\left\{ {j \atop k}\right\}$ are the [Stirling numbers of the second kind](stirling%20numbers%20of%20the%20second%20kind.md)}@}. <!--SR:!2025-05-16,133,290!2025-11-07,288,330-->
 
 - alternative ways to write the formula ::@::  $$L(n,k)={n-1 \choose k-1}{\frac {n!}{k!} }={n \choose k}{\frac {(n-1)!}{(k-1)!} }={n \choose k}{n-1 \choose k-1}(n-k)!$$ <!--SR:!2025-03-18,91,270!2025-01-25,69,310-->
 - formula with square ::@:: $$L(n,k)={\frac {n!(n-1)!}{k!(k-1)!} }\cdot {\frac {1}{(n-k)!} }=\left({\frac {n!}{k!} }\right)^{2}{\frac {k}{n(n-k)!} }$$ <!--SR:!2025-03-26,97,270!2025-05-25,141,290-->

@@ -285,7 +285,7 @@ workmanship
 - lifecycle→::@::←maintenance <!--SR:!2025-12-17,426,317!2025-07-04,213,292-->
 - maintenance→::@::←politics <!--SR:!2025-07-03,231,261!2025-04-18,249,312-->
 - politics→::@::←social <!--SR:!2025-03-24,246,360!2025-05-03,262,337-->
-- social→::@::←workmanship <!--SR:!2025-04-30,244,300!2025-01-23,141,210-->
+- social→::@::←workmanship <!--SR:!2025-04-30,244,300!2025-11-22,303,210-->
 - workmanship→::@::←_(end)_ <!--SR:!2025-09-26,419,385!2025-04-05,258,355-->
 
 <!--/pytextgen-->
@@ -458,7 +458,7 @@ testing materials
 - designing temporary structures→::@::←logistics <!--SR:!2025-11-28,421,340!2025-06-25,197,277-->
 - logistics→::@::←planning <!--SR:!2025-06-11,237,294!2025-11-05,401,335-->
 - planning→::@::←procuring materials <!--SR:!2025-01-24,186,317!2025-02-03,175,277-->
-- procuring materials→::@::←quality assurance <!--SR:!2025-01-23,173,300!2025-03-23,213,281-->
+- procuring materials→::@::←quality assurance <!--SR:!2026-07-03,526,300!2025-03-23,213,281-->
 - quality assurance→::@::←quality control <!--SR:!2026-11-12,742,377!2027-06-11,879,372-->
 - quality control→::@::←safety engineering <!--SR:!2025-02-12,195,301!2025-05-11,168,235-->
 - safety engineering→::@::←scheduling <!--SR:!2025-05-17,261,320!2025-11-12,407,340-->

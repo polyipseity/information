@@ -19,7 +19,7 @@ The importance of formalizing [arithmetic](arithmetic.md) was not well appreciat
 
 ## historical second-order formulation
 
-When Peano formulated his axioms, {@{the language of [mathematical logic](mathematical%20logic.md) was in its infancy}@}. The system of logical notation he created to present the axioms did not prove to be popular, although it was {@{the genesis of the modern notation for [set membership](element%20(mathematics).md) (∈, which comes from Peano's ε)}@}. Peano {@{maintained a clear distinction between mathematical and logical symbols, which was not yet common in mathematics}@}; such a separation had first been introduced in {@{the _[Begriffsschrift](begriffsschrift.md)_ by [Gottlob Frege](Gottlob%20Frege.md), published in 1879}@}. Peano was {@{unaware of Frege's work and independently recreated his logical apparatus}@} based on {@{the work of [Boole](George%20Boole.md) and [Schröder](Ernst%20Schröder%20(mathematician).md)}@}. <!--SR:!2025-11-30,347,345!2025-05-27,194,310!2025-05-30,197,310!2025-02-04,99,270!2025-01-23,97,285!2025-08-21,265,330-->
+When Peano formulated his axioms, {@{the language of [mathematical logic](mathematical%20logic.md) was in its infancy}@}. The system of logical notation he created to present the axioms did not prove to be popular, although it was {@{the genesis of the modern notation for [set membership](element%20(mathematics).md) (∈, which comes from Peano's ε)}@}. Peano {@{maintained a clear distinction between mathematical and logical symbols, which was not yet common in mathematics}@}; such a separation had first been introduced in {@{the _[Begriffsschrift](begriffsschrift.md)_ by [Gottlob Frege](Gottlob%20Frege.md), published in 1879}@}. Peano was {@{unaware of Frege's work and independently recreated his logical apparatus}@} based on {@{the work of [Boole](George%20Boole.md) and [Schröder](Ernst%20Schröder%20(mathematician).md)}@}. <!--SR:!2025-11-30,347,345!2025-05-27,194,310!2025-05-30,197,310!2025-02-04,99,270!2025-10-24,274,285!2025-08-21,265,330-->
 
 The Peano axioms {@{define the arithmetical properties of _[natural numbers](natural%20number.md)_, usually represented as a [set](set%20(mathematics).md) __N__ or $\mathbb {N}$}@}. The [non-logical symbols](non-logical%20symbol.md) for the axioms consist of {@{a constant symbol 0 and a unary function symbol _S_}@}. <!--SR:!2025-08-26,268,330!2025-08-07,255,330-->
 
@@ -105,7 +105,7 @@ Thus, {@{$(\mathbb {N} ,+,0,\cdot ,S(0))$}@} is {@{a commutative [semiring](semi
 
 #### inequalities
 
-{@{The usual [total order](total%20order.md) relation ≤ on natural numbers}@} can be defined as follows, assuming 0 is a natural number: {@{For all _a_, _b_ ∈ __N__, _a_ ≤ _b_ if and only if there exists some _c_ ∈ __N__ such that _a_ + _c_ = _b_}@}. <!--SR:!2025-01-23,99,305!2025-09-10,284,345-->
+{@{The usual [total order](total%20order.md) relation ≤ on natural numbers}@} can be defined as follows, assuming 0 is a natural number: {@{For all _a_, _b_ ∈ __N__, _a_ ≤ _b_ if and only if there exists some _c_ ∈ __N__ such that _a_ + _c_ = _b_}@}. <!--SR:!2026-03-17,418,325!2025-09-10,284,345-->
 
 This relation is {@{stable under addition and multiplication}@}: for $a,b,c\in \mathbb {N}$, if _a_ ≤ _b_, then: <!--SR:!2025-11-02,326,345-->
 

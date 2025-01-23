@@ -13,7 +13,7 @@ tags:
 
 > {@{![Indifference map with two budget lines \(red\) depending on the price of Giffen good _x_](../../archives/Wikimedia%20Commons/Giffenen.svg)}@}
 >
-> {@{Indifference map with two budget lines \(red\) depending on the price of Giffen good _x_}@} <!--SR:!2025-02-13,65,310!2025-01-23,44,290-->
+> {@{Indifference map with two budget lines \(red\) depending on the price of Giffen good _x_}@} <!--SR:!2025-02-13,65,310!2025-07-19,177,310-->
 
 In {@{[microeconomics](microeconomics.md) and [consumer theory](consumer%20choice.md)}@}, {@{a __Giffen good__}@} is {@{a product that people consume more of as the price rises and vice versa}@}, violating {@{the [law of demand](law%20of%20demand.md)}@}. <!--SR:!2025-02-24,75,329!2025-02-04,58,310!2025-02-07,59,310!2025-02-15,67,310-->
 

@@ -128,7 +128,7 @@ return await memorize_seq(
 - (define) design guidelines: a strategy to solve your design challenge, abstract enough to allow for multiple solutions→::@::←(define) point of view (POV): make your design challenge into an actionable statement <!--SR:!2025-03-04,183,230!2025-02-24,172,210-->
 - (define) point of view (POV): make your design challenge into an actionable statement→::@::←(define) why-how laddering: from need, asking "Why?" to follow the chain of reasoning to the root need, and then find other needs by asking "How?" to follow back down the chain <!--SR:!2025-01-30,58,130!2025-01-30,84,190-->
 - (define) why-how laddering: from need, asking "Why?" to follow the chain of reasoning to the root need, and then find other needs by asking "How?" to follow back down the chain→::@::←(define/ideate) "how might we" questions: questions to stimulate ideation that are suitably narrow and suitably board <!--SR:!2025-01-26,36,130!2025-08-05,250,210-->
-- (define/ideate) "how might we" questions: questions to stimulate ideation that are suitably narrow and suitably board→::@::←(define/ideate) powers of ten: change the scale by orders of magnitude <!--SR:!2025-03-11,84,150!2025-01-23,51,170-->
+- (define/ideate) "how might we" questions: questions to stimulate ideation that are suitably narrow and suitably board→::@::←(define/ideate) powers of ten: change the scale by orders of magnitude <!--SR:!2025-03-11,84,150!2025-02-19,27,150-->
 - (define/ideate) powers of ten: change the scale by orders of magnitude→::@::←_(end)_ <!--SR:!2026-06-06,604,330!2025-05-01,250,270-->
 
 <!--/pytextgen-->

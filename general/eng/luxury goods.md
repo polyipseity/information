@@ -150,7 +150,7 @@ Luxury brands use {@{distinct boutique types}@} to {@{tailor the experiences of 
 
 ### flagship boutiques
 
-{@{Flagship boutiques}@} are {@{grand, multi-story boutiques in major cities}@} that are {@{merchandised with a wide range of collections and staffed by a large team of sales associates}@}. They also offer {@{supplemental services, like jewelry cleaning, hot stamping, on-site service}@}.<sup>[\[46\]](#^ref-46)</sup> <!--SR:!2025-02-15,67,310!2025-02-12,64,310!2025-01-31,54,310!2025-01-23,47,290-->
+{@{Flagship boutiques}@} are {@{grand, multi-story boutiques in major cities}@} that are {@{merchandised with a wide range of collections and staffed by a large team of sales associates}@}. They also offer {@{supplemental services, like jewelry cleaning, hot stamping, on-site service}@}.<sup>[\[46\]](#^ref-46)</sup> <!--SR:!2025-02-15,67,310!2025-02-12,64,310!2025-01-31,54,310!2025-08-04,193,310-->
 
 Many luxury brands use flagship boutiques to {@{illustrate their unique vision or heritage}@},<sup>[\[47\]](#^ref-47)</sup> often through {@{distinctive architecture<sup>[\[48\]](#^ref-48)</sup> that transforms them from storefronts to tourist attractions}@}.<sup>[\[49\]](#^ref-49)</sup> <!--SR:!2025-02-13,65,310!2025-02-13,65,310-->
 
