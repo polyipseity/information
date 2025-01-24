@@ -926,7 +926,7 @@ The content is in teaching order.
     - distribution: ?
 - report
   - examination format ::@:: All the questions require you to write a lot of text, and it feels more like writing essays... I was not quite sure the things I have written are what the teacher wants. <p> Next time, I should also check the examination format of each instructor and see if it suits me. <!--SR:!2025-06-23,151,431!2025-01-24,28,411-->
-    - examination format / solution ::@:: Turns out their official solutions are very short. A 12-point question has two or three bullet points, each with a sentence... But everyone is writing essays...
+    - examination format / solution ::@:: Turns out their official solutions are very short. A 12-point question has two or three bullet points, each with a sentence... But everyone is writing essays... <!--SR:!2025-01-28,5,403!2025-01-28,5,403-->
   - time limit ::@:: The time limit was barely enough to finish all questions because I had written many words, and had spent some time on thinking... <!--SR:!2025-06-22,150,431!2025-01-24,28,411-->
   - Q2: single-priced monopoly (−6, short question)
     - Q2: single-priced monopoly / Must it be inefficient? (−6) ::@:: No. It is efficient if the demand curve is completely elastic. (Though this means no matter how high the price the monopolist sets to, it is efficient...) <p> An unintended answer, since the question has not specified if regulations are in place, is that there is regulation that forces the monopolist to use marginal cost pricing. In this case, it is also efficient. <!--SR:!2025-02-02,27,417!2025-02-02,27,417-->
