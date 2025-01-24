@@ -199,7 +199,7 @@ return _chain.from_iterable(await _gather(
 - _(begin)_→::@::←`NOT(boolean)` <!--SR:!2028-04-04,1183,350!2025-03-01,304,330-->
 - `NOT(boolean)`→::@::←`AND(booleans...)` <!--SR:!2026-06-10,643,330!2025-02-09,285,330-->
 - `AND(booleans...)`→::@::←`OR(booleans...)` <!--SR:!2027-12-02,1087,350!2026-09-20,720,330-->
-- `OR(booleans...)`→::@::←_(end)_ <!--SR:!2027-12-23,1101,350!2025-01-24,272,330-->
+- `OR(booleans...)`→::@::←_(end)_ <!--SR:!2027-12-23,1101,350!2027-07-11,898,330-->
 
 <!--/pytextgen-->
 
@@ -265,7 +265,7 @@ return _chain.from_iterable(await _gather(
 - `LOWER(string)`→::@::←`RIGHT(string, length)` <!--SR:!2025-04-03,116,150!2026-01-30,426,250-->
 - `RIGHT(string, length)`→::@::←`SUBSTITUTE(string, old, new)` <!--SR:!2025-01-27,229,270!2026-02-17,430,250-->
 - `SUBSTITUTE(string, old, new)`→::@::←`UPPER(string)` <!--SR:!2025-08-04,291,230!2025-03-01,59,150-->
-- `UPPER(string)`→::@::←_(end)_ <!--SR:!2026-11-06,757,330!2025-01-24,240,290-->
+- `UPPER(string)`→::@::←_(end)_ <!--SR:!2026-11-06,757,330!2027-09-15,964,310-->
 
 <!--/pytextgen-->
 

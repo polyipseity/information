@@ -144,7 +144,7 @@ Examples include {@{[LVMH](LVMH.md), the largest luxury goods producer in the wo
 
 ## luxury boutiques
 
-{@{The sale of luxury goods}@} requires {@{a high level of client service, human touch, and brand consistency}@}. Since {@{the early 2010s}@}, many luxury brands have {@{invested in their own boutiques rather than wholesalers like department stores}@}. {@{Three of the world's biggest luxury conglomerates— LVMH, Kering, and Richemont}@} — significantly increased {@{the share of annual sales captured from their directly operated stores and e-commerce over the past decade}@}.<sup>[\[44\]](#^ref-44)</sup><sup>[\[45\]](#^ref-45)</sup> <!--SR:!2025-02-14,66,310!2025-02-01,55,310!2025-02-04,58,310!2025-02-01,55,310!2025-02-11,63,310!2025-01-24,45,290-->
+{@{The sale of luxury goods}@} requires {@{a high level of client service, human touch, and brand consistency}@}. Since {@{the early 2010s}@}, many luxury brands have {@{invested in their own boutiques rather than wholesalers like department stores}@}. {@{Three of the world's biggest luxury conglomerates— LVMH, Kering, and Richemont}@} — significantly increased {@{the share of annual sales captured from their directly operated stores and e-commerce over the past decade}@}.<sup>[\[44\]](#^ref-44)</sup><sup>[\[45\]](#^ref-45)</sup> <!--SR:!2025-02-14,66,310!2025-02-01,55,310!2025-02-04,58,310!2025-02-01,55,310!2025-02-11,63,310!2025-06-01,128,290-->
 
 Luxury brands use {@{distinct boutique types}@} to {@{tailor the experiences of different client groups}@}. <!--SR:!2025-02-04,58,310!2025-01-31,54,310-->
 

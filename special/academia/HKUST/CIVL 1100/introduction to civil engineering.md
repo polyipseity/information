@@ -197,7 +197,7 @@ water and sewage treatment system
 - dam→::@::←pipeline <!--SR:!2025-04-29,194,224!2026-03-12,518,341-->
 - pipeline→::@::←power plant <!--SR:!2026-07-20,553,280!2025-08-31,313,281-->
 - power plant→::@::←reservoir <!--SR:!2026-04-06,451,275!2025-03-20,147,300-->
-- reservoir→::@::←sewage treatment <!--SR:!2025-01-24,122,197!2025-03-13,189,261-->
+- reservoir→::@::←sewage treatment <!--SR:!2025-09-27,246,197!2025-03-13,189,261-->
 - sewage treatment→::@::←transport <!--SR:!2025-03-17,128,210!2026-03-21,463,301-->
 - transport→::@::←water and sewage treatment system <!--SR:!2026-02-13,465,340!2025-03-01,67,150-->
 - water and sewage treatment system→::@::←_(end)_ <!--SR:!2025-12-24,482,401!2025-04-10,252,361-->
@@ -457,7 +457,7 @@ testing materials
 - contracting→::@::←designing temporary structures <!--SR:!2026-01-17,372,215!2025-04-22,236,295-->
 - designing temporary structures→::@::←logistics <!--SR:!2025-11-28,421,340!2025-06-25,197,277-->
 - logistics→::@::←planning <!--SR:!2025-06-11,237,294!2025-11-05,401,335-->
-- planning→::@::←procuring materials <!--SR:!2025-01-24,186,317!2025-02-03,175,277-->
+- planning→::@::←procuring materials <!--SR:!2027-04-19,815,337!2025-02-03,175,277-->
 - procuring materials→::@::←quality assurance <!--SR:!2026-07-03,526,300!2025-03-23,213,281-->
 - quality assurance→::@::←quality control <!--SR:!2026-11-12,742,377!2027-06-11,879,372-->
 - quality control→::@::←safety engineering <!--SR:!2025-02-12,195,301!2025-05-11,168,235-->
@@ -1095,7 +1095,7 @@ water tower
 <!--pytextgen generate section="1002"--><!-- The following content is generated at 2024-05-01T19:22:35.524682+08:00. Any edits will be overridden! -->
 
 - _(begin)_→::@::←bridge <!--SR:!2026-09-02,679,355!2025-11-12,457,400-->
-- bridge→::@::←building <!--SR:!2025-01-24,203,350!2026-01-07,496,400-->
+- bridge→::@::←building <!--SR:!2027-01-09,715,350!2026-01-07,496,400-->
 - building→::@::←dam <!--SR:!2025-05-03,277,361!2027-09-27,983,381-->
 - dam→::@::←power plant <!--SR:!2025-12-12,367,301!2025-07-27,283,258-->
 - power plant→::@::←storage facility <!--SR:!2025-01-30,185,300!2025-07-03,239,334-->
@@ -1191,7 +1191,7 @@ water transport
 - airport→::@::←bicycle path <!--SR:!2025-03-09,237,355!2025-12-19,472,357-->
 - bicycle path→::@::←highway <!--SR:!2027-10-01,983,380!2025-03-05,232,360-->
 - highway→::@::←pier <!--SR:!2025-10-07,364,320!2025-03-17,217,300-->
-- pier→::@::←pipeline <!--SR:!2025-01-24,136,360!2025-02-06,194,314-->
+- pier→::@::←pipeline <!--SR:!2026-12-01,676,380!2025-02-06,194,314-->
 - pipeline→::@::←railroad <!--SR:!2025-12-17,397,275!2025-03-03,56,275-->
 - railroad→::@::←water transport <!--SR:!2025-12-17,426,340!2025-04-24,255,315-->
 - water transport→::@::←_(end)_ <!--SR:!2026-03-20,555,400!2025-07-05,322,380-->

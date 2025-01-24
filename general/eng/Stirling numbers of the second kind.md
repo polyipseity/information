@@ -55,7 +55,7 @@ Below is {@{a [triangular array](triangular%20array.md) of values for the Stirli
 | __9__            | 0     | 1     | 255   | 3025  | 7770  | 6951  | 2646  | 462   | 36    | 1     |        |
 | __10__           | 0     | 1     | 511   | 9330  | 34105 | 42525 | 22827 | 5880  | 750   | 45    | 1      |
 
-As with {@{the [binomial coefficients](binomial%20coefficient.md)}@}, this table {@{could be extended to _k_ > _n_, but the entries would all be 0}@}. <!--SR:!2025-01-24,66,310!2025-01-28,70,310-->
+As with {@{the [binomial coefficients](binomial%20coefficient.md)}@}, this table {@{could be extended to _k_ > _n_, but the entries would all be 0}@}. <!--SR:!2025-11-02,282,330!2025-01-28,70,310-->
 
 ## properties
 
@@ -71,7 +71,7 @@ Another recurrence relation is {@{given by $$\left\lbrace {\begin{matrix}n\\k\en
 
 ### simple identities
 
-Some simple identities include {@{$$\left\{ {n \atop n-1}\right\}={\binom {n}{2} }.$$}@} This is because {@{dividing _n_ elements into _n_ − 1 sets necessarily means dividing it into one set of size 2 and _n_ − 2 sets of size 1. Therefore we need only pick those two elements}@}; <!--SR:!2025-01-24,66,310!2025-01-26,68,310-->
+Some simple identities include {@{$$\left\{ {n \atop n-1}\right\}={\binom {n}{2} }.$$}@} This is because {@{dividing _n_ elements into _n_ − 1 sets necessarily means dividing it into one set of size 2 and _n_ − 2 sets of size 1. Therefore we need only pick those two elements}@}; <!--SR:!2025-11-03,283,330!2025-01-26,68,310-->
 
 and {@{$$\left\{ {n \atop 2}\right\}=2^{n-1}-1.$$}@} To see this, first note that {@{there are 2<sup>_n_</sup> _ordered_ pairs of complementary subsets _A_ and _B_}@}. In one case, {@{_A_ is empty, and in another _B_ is empty, so 2<sup>_n_</sup> − 2 ordered pairs of subsets remain}@}. Finally, since {@{we want _unordered_ pairs rather than _ordered_ pairs we divide this last number by 2}@}, giving the result above. <!--SR:!2025-07-10,186,310!2025-07-24,201,310!2025-01-27,69,310!2025-01-26,68,310-->
 
@@ -107,7 +107,7 @@ More directly, let {@{two sets contain positions of 1's in binary representation
 
 ### generating functions
 
-For {@{a fixed integer _n_}@}, {@{the [ordinary generating function](generating%20function.md#Ordinary%20generating%20function%20(OGF)) for Stirling numbers of the second kind $\left\{ {n \atop 0}\right\},\left\{ {n \atop 1}\right\},\ldots$}@} is {@{given by $$\sum _{k=0}^{n}\left\{ {n \atop k}\right\}x^{k}=T_{n}(x),$$}@} where {@{$T_{n}(x)$ are [Touchard polynomials](Touchard%20polynomials.md)}@}. If {@{one sums the Stirling numbers against the falling factorial instead}@}, one can show the following identities, among others: {@{$$\sum _{k=0}^{n}\left\{ {n \atop k}\right\}(x)_{k}=x^{n}$$ and $$\sum _{k=0}^n\left\{ {n+1 \atop k + 1}\right\}(x)_k=(x + 1)^{n},$$}@} which has special case {@{$$\sum _{k=0}^{n}\left\{ {n \atop k}\right\}(n)_{k}=n^{n}.$$}@} <!--SR:!2025-01-30,72,310!2025-01-24,67,310!2025-08-02,209,310!2025-05-09,139,290!2025-05-24,142,290!2025-02-14,59,250!2025-03-30,99,270-->
+For {@{a fixed integer _n_}@}, {@{the [ordinary generating function](generating%20function.md#Ordinary%20generating%20function%20(OGF)) for Stirling numbers of the second kind $\left\{ {n \atop 0}\right\},\left\{ {n \atop 1}\right\},\ldots$}@} is {@{given by $$\sum _{k=0}^{n}\left\{ {n \atop k}\right\}x^{k}=T_{n}(x),$$}@} where {@{$T_{n}(x)$ are [Touchard polynomials](Touchard%20polynomials.md)}@}. If {@{one sums the Stirling numbers against the falling factorial instead}@}, one can show the following identities, among others: {@{$$\sum _{k=0}^{n}\left\{ {n \atop k}\right\}(x)_{k}=x^{n}$$ and $$\sum _{k=0}^n\left\{ {n+1 \atop k + 1}\right\}(x)_k=(x + 1)^{n},$$}@} which has special case {@{$$\sum _{k=0}^{n}\left\{ {n \atop k}\right\}(n)_{k}=n^{n}.$$}@} <!--SR:!2025-01-30,72,310!2025-11-08,288,330!2025-08-02,209,310!2025-05-09,139,290!2025-05-24,142,290!2025-02-14,59,250!2025-03-30,99,270-->
 
 For {@{a fixed integer _k_}@}, {@{the Stirling numbers of the second kind}@} have {@{rational ordinary generating function $$\sum _{n=k}^{\infty }\left\{ {n \atop k}\right\}x^{n-k}=\prod _{r=1}^{k}{\frac {1}{1-rx} }={\frac {1}{x^{k+1}(1/x)_{k+1} } }$$}@} and have {@{an [exponential generating function](generating%20function.md#Exponential%20generating%20function%20(EGF)) given by $$\sum _{n=k}^{\infty }\left\{ {n \atop k}\right\}{\frac {x^{n} }{n!} }={\frac {(e^{x}-1)^{k} }{k!} }.$$}@} <!--SR:!2025-08-04,211,310!2025-05-02,134,290!2025-02-07,52,230!2025-03-29,98,270-->
 

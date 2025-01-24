@@ -59,7 +59,7 @@ For example, {@{$$x(x+1)(x+2)={\color {red}6}x+{\color {red}6}x(x-1)+{\color {re
 
 ## identities and relations
 
-The Lah numbers {@{satisfy a variety of identities and relations}@}. <!--SR:!2025-01-24,68,310-->
+The Lah numbers {@{satisfy a variety of identities and relations}@}. <!--SR:!2025-11-14,294,330-->
 
 In [Karamata](Jovan%20Karamata.md)–[Knuth](Donald%20Knuth.md) notation for [Stirling numbers](Stirling%20number.md) {@{$$L(n,k)=\sum _{j=k}^{n}\left[{n \atop j}\right]\left\{ {j \atop k}\right\}$$}@} where {@{$\left[{n \atop j}\right]$ are the [Stirling numbers of the first kind](Stirling%20numbers%20of%20the%20first%20kind.md) and $\left\{ {j \atop k}\right\}$ are the [Stirling numbers of the second kind](stirling%20numbers%20of%20the%20second%20kind.md)}@}. <!--SR:!2025-05-16,133,290!2025-11-07,288,330-->
 
@@ -87,7 +87,7 @@ For example, $$\begin{aligned} {\frac {\textrm {d} }{ {\textrm {d} }x} }e^{\frac
 
 ## practical application
 
-In recent years, Lah numbers have been used {@{in [steganography](steganography.md) for hiding data in images}@}. Compared to {@{alternatives such as [DCT](discrete%20cosine%20transform.md), [DFT](discrete%20Fourier%20transform.md) and [DWT](discrete%20wavelet%20transform.md)}@}, it has {@{lower complexity of calculation—$O(n\log n)$—of their integer coefficients}@}.<sup>[\[9\]](#^ref-9)</sup><sup>[\[10\]](#^ref-10)</sup> {@{The Lah and Laguerre transforms}@} naturally arise in {@{the perturbative description of the [chromatic dispersion](dispersion%20(optics).md)}@}.<sup>[\[11\]](#^ref-11)</sup><sup>[\[12\]](#^ref-12)</sup> In Lah-Laguerre optics, such an approach tremendously speeds up optimization problems. <!--SR:!2025-01-28,72,310!2025-01-28,72,310!2025-01-25,69,310!2025-01-24,68,310!2025-01-28,72,310-->
+In recent years, Lah numbers have been used {@{in [steganography](steganography.md) for hiding data in images}@}. Compared to {@{alternatives such as [DCT](discrete%20cosine%20transform.md), [DFT](discrete%20Fourier%20transform.md) and [DWT](discrete%20wavelet%20transform.md)}@}, it has {@{lower complexity of calculation—$O(n\log n)$—of their integer coefficients}@}.<sup>[\[9\]](#^ref-9)</sup><sup>[\[10\]](#^ref-10)</sup> {@{The Lah and Laguerre transforms}@} naturally arise in {@{the perturbative description of the [chromatic dispersion](dispersion%20(optics).md)}@}.<sup>[\[11\]](#^ref-11)</sup><sup>[\[12\]](#^ref-12)</sup> In Lah-Laguerre optics, such an approach tremendously speeds up optimization problems. <!--SR:!2025-01-28,72,310!2025-01-28,72,310!2025-01-25,69,310!2025-08-21,209,310!2025-01-28,72,310-->
 
 ## see also
 

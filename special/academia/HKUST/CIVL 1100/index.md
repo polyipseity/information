@@ -58,7 +58,7 @@ The content is in teaching order.
     - "strong" object examples ::@:: table leg <!--SR:!2025-07-25,336,350!2025-05-12,277,350-->
     - "weak" object examples ::@:: mattress <!--SR:!2025-06-21,308,350!2025-04-18,239,321-->
   - relative deformation ::@:: Amount of deformation also depends on the original length of the object. <!--SR:!2025-12-15,431,350!2025-03-03,218,330-->
-    - relative deformation examples ::@:: Compare deforming a thin mattress and a thick mattress. <!--SR:!2025-01-24,187,330!2025-07-21,333,350-->
+    - relative deformation examples ::@:: Compare deforming a thin mattress and a thick mattress. <!--SR:!2027-05-27,853,350!2025-07-21,333,350-->
   - [stress](../../../../general/stress%20(mechanics).md)
     - [§ uniaxial normal](../../../../general/stress%20(mechanics).md#uniaxial%20normal)
   - [strain](../../../../general/strain%20(mechanics).md)

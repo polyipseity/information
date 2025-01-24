@@ -41,7 +41,7 @@ English
 - [exponentiation](https://en.wiktionary.org/wiki/exponentiation) ::@:: (e\_n) An [arithmetic operation](../../../general/arithmetic.md) involving multiplying a number by itself multiple times. <!--SR:!2025-02-18,319,344!2025-11-12,464,304-->
 - [fiancé](https://en.wiktionary.org/wiki/fiancé) ::@:: (f\_é) A [man](../../../general/man.md) who is [engaged](../../../general/engagement.md) to be [married](../../../general/marriage.md). <!--SR:!2027-07-11,936,344!2025-02-20,321,344-->
 - [fiancée](https://en.wiktionary.org/wiki/fiancée) ::@:: (f\_é) A [woman](../../../general/woman.md) who is [engaged](../../../general/engagement.md) to be [married](../../../general/marriage.md). <!--SR:!2027-02-09,862,344!2025-04-07,357,344-->
-- [finance](https://en.wiktionary.org/wiki/finance) ::@:: (f\_e) The study of [money](../../../general/money.md) and [capital assets](../../../general/capital%20asset.md). <!--SR:!2025-02-15,316,344!2025-01-24,294,344-->
+- [finance](https://en.wiktionary.org/wiki/finance) ::@:: (f\_e) The study of [money](../../../general/money.md) and [capital assets](../../../general/capital%20asset.md). <!--SR:!2025-02-15,316,344!2028-11-15,1391,364-->
 - [fomite](https://en.wiktionary.org/wiki/fomite) ::@:: (f\_e) An inanimate object that can carry infectious agents to transmit between hosts. <!--SR:!2025-11-15,454,376!2025-09-27,447,396-->
 - [governance](https://en.wiktionary.org/wiki/governance) ::@:: (g\_e) The action or manner of governing. <!--SR:!2028-08-08,1314,350!2025-02-14,315,330-->
 - [guarantee](https://en.wiktionary.org/wiki/guarantee) ::@:: (g\_e) Assure that something will be done. <!--SR:!2025-04-11,337,363!2025-05-15,207,283-->
@@ -66,11 +66,11 @@ English
 - [plagiarism](https://en.wiktionary.org/wiki/plagiarism) ::@:: (p\_m) Copying of others' work and presenting it as one's own. <!--SR:!2026-12-31,761,324!2025-03-17,308,304-->
 - [plagiarize](https://en.wiktionary.org/wiki/plagiarize) ::@:: (p\_e) To copy others' work and present it as one's own. <!--SR:!2025-01-29,299,344!2027-09-18,1019,324-->
 - [polynomial](https://en.wiktionary.org/wiki/polynomial) ::@:: (p\_l) A [mathematical expression](../../../general/expression%20(mathematics).md) that is a [sum](../../../general/summation.md) of [constant](../../../general/constant%20(mathematics).md) [coefficients](../../../general/coefficient.md) multipled with [indeterminates](../../../general/indeterminate%20(variable).md) raised to a nonnegative [integer](../../../general/integer.md) [power](../../../general/exponentiation.md). <!--SR:!2026-12-06,746,324!2027-03-29,916,344-->
-- [preamble](https://en.wiktionary.org/wiki/preamble) ::@:: (p\_e) An introduction to a [document](../../../general/document.md). <!--SR:!2025-06-02,410,372!2025-01-24,284,352-->
+- [preamble](https://en.wiktionary.org/wiki/preamble) ::@:: (p\_e) An introduction to a [document](../../../general/document.md). <!--SR:!2025-06-02,410,372!2027-10-22,1001,352-->
 - [precedence](https://en.wiktionary.org/wiki/precedence) ::@:: (p\_e) The state of preceding in importance or priority. <!--SR:!2026-08-30,770,430!2028-07-17,1286,390-->
-- [proprietary](https://en.wiktionary.org/wiki/proprietary) ::@:: (p\_y) Of or relating to [property](../../../general/property.md) or ownership. <!--SR:!2026-03-31,596,396!2025-01-24,57,156-->
+- [proprietary](https://en.wiktionary.org/wiki/proprietary) ::@:: (p\_y) Of or relating to [property](../../../general/property.md) or ownership. <!--SR:!2026-03-31,596,396!2025-04-24,90,156-->
 - [receipt](https://en.wiktionary.org/wiki/receipt) ::@:: (r\_t) The act of receiving or having been received. <!--SR:!2025-12-05,507,388!2025-04-25,238,288-->
-- [recipe](https://en.wiktionary.org/wiki/recipe) ::@:: (r\_e) A set of instructions for making [food](../../../general/food.md). <!--SR:!2025-07-06,423,408!2025-01-24,266,388-->
+- [recipe](https://en.wiktionary.org/wiki/recipe) ::@:: (r\_e) A set of instructions for making [food](../../../general/food.md). <!--SR:!2025-07-06,423,408!2028-12-03,1409,408-->
 - [recipient](https://en.wiktionary.org/wiki/recipient) ::@:: (r\_t) One who receives. <!--SR:!2026-01-23,558,408!2025-09-21,362,308-->
 - [reciprocity](https://en.wiktionary.org/wiki/reciprocity) ::@:: (r\_y) Mutual dependence, action, or influence. <!--SR:!2025-11-01,493,408!2025-08-24,406,348-->
 - [recruit](https://en.wiktionary.org/wiki/recruit) ::@:: (r\_t) Enroll new [employees](../../../general/employment.md#employee). <!--SR:!2025-02-26,327,372!2025-03-18,347,372-->

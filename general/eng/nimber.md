@@ -89,7 +89,7 @@ This subset is {@{closed under both operations}@}, since {@{16 is of the form 2<
 >
 > {@{Nimber addition}@} \(sequence {@{[A003987](https://oeis.org/A003987)}@} in the [OEIS](On-Line%20Encyclopedia%20of%20Integer%20Sequences.md)\) <br/>
 > This is also {@{the [Cayley table](cayley%20table.md) of [Z<sub>2</sub><sup>4</sup>](list%20of%20small%20groups.md#list%20of%20small%20abelian%20groups) – or the table of [bitwise](bitwise%20operation.md) [XOR](exclusive%20or.md) operations}@}. <br/>
-> The small matrices show {@{the single digits of the binary numbers}@}. <!--SR:!2025-01-24,22,273!2025-03-10,59,310!2025-02-01,28,285!2025-03-30,77,333!2025-02-26,50,305-->
+> The small matrices show {@{the single digits of the binary numbers}@}. <!--SR:!2025-03-27,62,273!2025-03-10,59,310!2025-02-01,28,285!2025-03-30,77,333!2025-02-26,50,305-->
 
 <!-- markdownlint MD028 -->
 

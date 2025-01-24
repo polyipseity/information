@@ -46,7 +46,7 @@ The list is not exhaustive.
 - [working capital](../../../../general/working%20capital.md) ::@:: $$\text{current assets (CA)} - \text{current liabilities (CL)}$$ <!--SR:!2025-03-07,67,319!2025-02-19,51,302-->
 - accounts payable turnover ::@:: $$\frac {\text{total supplier purchases} } {\text{average accounts payable} }$$ Average accounts payable is not time-weighted. It is simply the average of the beginning balance and ending balance. <p> (Funny history... The book has "cost of goods sold" as the numerator instead. Anyways, use the above definition.) <!--SR:!2025-04-10,80,276!2025-02-21,53,302-->
 - average days to pay payables ::@:: $$\frac {365} {\text{accounts payable turnover} }$$ <!--SR:!2025-02-12,46,290!2025-03-10,70,322-->
-- [dividend yield](../../../../general/dividend%20yield.md) ::@:: $$\frac {\text{dividends per share} } {\text{market price per share} } \times 100\%$$ <!--SR:!2025-04-15,85,282!2025-01-24,34,282-->
+- [dividend yield](../../../../general/dividend%20yield.md) ::@:: $$\frac {\text{dividends per share} } {\text{market price per share} } \times 100\%$$ <!--SR:!2025-04-15,85,282!2025-06-08,135,302-->
 - [price/earnings ratio](../../../../general/price–earnings%20ratio.md) ::@:: $$\frac {\text{market price per share} } {\text{earnings per share} }$$ <!--SR:!2025-03-09,69,322!2025-03-10,70,322-->
 - quality of income ratio ::@:: $$\frac {\text{cash flow from operating activities} } {\text{net income} }$$ <!--SR:!2025-02-19,51,302!2025-03-13,73,322-->
 - capital acquisitions ratio ::@:: $$\frac {\text{cash flow from operating activities} } {\text{cash paid for PPE} }$$ <!--SR:!2025-03-14,74,322!2025-02-13,36,302-->

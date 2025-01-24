@@ -120,7 +120,7 @@ Let {@{$X_{t}$ be the random variable describing the state of the process at tim
 
 #### jump chain/holding time definition
 
-Define {@{a discrete-time Markov chain _Y_<sub>_n_</sub>}@} to describe {@{the _n_<!-- markdown separator -->th jump of the process}@} and {@{variables _S_<sub>1</sub>, _S_<sub>2</sub>, _S_<sub>3</sub>, ... to describe holding times in each of the states}@} where {@{_S_<sub>_i_</sub> follows the [exponential distribution](exponential%20distribution.md)}@} with {@{rate parameter −<!-- markdown separator -->_q_<sub>_Y_<sub>_i_</sub>_Y_<sub>_i_</sub></sub>}@}. <!--SR:!2025-02-20,43,319!2025-03-09,71,321!2025-05-27,127,301!2025-01-24,33,299!2025-03-22,83,347-->
+Define {@{a discrete-time Markov chain _Y_<sub>_n_</sub>}@} to describe {@{the _n_<!-- markdown separator -->th jump of the process}@} and {@{variables _S_<sub>1</sub>, _S_<sub>2</sub>, _S_<sub>3</sub>, ... to describe holding times in each of the states}@} where {@{_S_<sub>_i_</sub> follows the [exponential distribution](exponential%20distribution.md)}@} with {@{rate parameter −<!-- markdown separator -->_q_<sub>_Y_<sub>_i_</sub>_Y_<sub>_i_</sub></sub>}@}. <!--SR:!2025-02-20,43,319!2025-03-09,71,321!2025-05-27,127,301!2025-05-06,102,299!2025-03-22,83,347-->
 
 #### transition probability definition
 

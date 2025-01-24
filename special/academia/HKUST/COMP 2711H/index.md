@@ -601,7 +601,7 @@ The content is in teaching order.
     - distribution: ?
 - report
   - How to do Amir's examinations? ::@:: I had spent too much time on writing things that were later discarded. This led to extremely messy layout (not enough papers) and wasted time. <p> What I should have done instead is to think carefully and make use of pencils for drafting. <!--SR:!2025-04-14,87,405!2025-01-25,29,425-->
-  - time limit ::@:: It depends on if you have the insight... whatever that is. Very difficult... <!--SR:!2025-01-25,29,425!2025-01-24,28,425-->
+  - time limit ::@:: It depends on if you have the insight... whatever that is. Very difficult... <!--SR:!2025-01-25,29,425!2025-07-03,160,445-->
 - check
   - note: You will receive a scanned copy of your examination. Send email to Amir to appeal.
 - materials

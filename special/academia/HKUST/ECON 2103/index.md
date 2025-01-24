@@ -355,7 +355,7 @@ The content is in teaching order.
       - [necessity good](../../../../general/necessity%20good.md) ::@:: A good for which demand increases less than what is proportional as income rises, so that expenditures on the good become a less significant proportion of overall spending. <!--SR:!2025-03-11,103,386!2025-03-11,103,386-->
       - [goods § types of goods](../../../../general/goods.md#types%20of%20goods)
     - price elasticity of demand / factors / broadness of definition ::@:: If you define your goods broadly (e.g. soft drinks), then elasticity is lower, and vice versa (e.g. Coca-Cola). <p> An extreme example to bring the point is that if you define your goods to be "all goods in existence", then a consumer can never "escape" from consuming said goods by definition. <!--SR:!2025-02-23,89,371!2025-03-05,98,386-->
-    - price elasticity of demand / factors / time frame ::@:: The longer the time frame we are considering, the higher the elasticity, and vice versa. <p> An example is car fuel. If the price of car fuel rises, in the short run, you will likely just accept it, but in the long run, you may be thinking of eventually switching to an electric car. <!--SR:!2025-01-24,60,350!2025-03-10,102,379-->
+    - price elasticity of demand / factors / time frame ::@:: The longer the time frame we are considering, the higher the elasticity, and vice versa. <p> An example is car fuel. If the price of car fuel rises, in the short run, you will likely just accept it, but in the long run, you may be thinking of eventually switching to an electric car. <!--SR:!2025-11-15,295,370!2025-03-10,102,379-->
       - [long run and short run](../../../../general/long%20run%20and%20short%20run.md)
   - price elasticity of demand / sign ::@:: It is usually negative. However, positive elasticity is possible for Giffen goods... <!--SR:!2025-02-24,90,371!2025-03-07,99,382-->
     - [Giffen good](../../../../general/Giffen%20good.md) ::@:: It is a product that people consume more of as the price rises and vice versa, violating the law of demand. <!--SR:!2025-02-21,87,371!2025-02-27,93,386-->
@@ -925,9 +925,9 @@ The content is in teaching order.
     - high: 87
     - distribution: ?
 - report
-  - examination format ::@:: All the questions require you to write a lot of text, and it feels more like writing essays... I was not quite sure the things I have written are what the teacher wants. <p> Next time, I should also check the examination format of each instructor and see if it suits me. <!--SR:!2025-06-23,151,431!2025-01-24,28,411-->
+  - examination format ::@:: All the questions require you to write a lot of text, and it feels more like writing essays... I was not quite sure the things I have written are what the teacher wants. <p> Next time, I should also check the examination format of each instructor and see if it suits me. <!--SR:!2025-06-23,151,431!2025-05-17,113,411-->
     - examination format / solution ::@:: Turns out their official solutions are very short. A 12-point question has two or three bullet points, each with a sentence... But everyone is writing essays... <!--SR:!2025-01-28,5,403!2025-01-28,5,403-->
-  - time limit ::@:: The time limit was barely enough to finish all questions because I had written many words, and had spent some time on thinking... <!--SR:!2025-06-22,150,431!2025-01-24,28,411-->
+  - time limit ::@:: The time limit was barely enough to finish all questions because I had written many words, and had spent some time on thinking... <!--SR:!2025-06-22,150,431!2025-06-29,156,431-->
   - Q2: single-priced monopoly (−6, short question)
     - Q2: single-priced monopoly / Must it be inefficient? (−6) ::@:: No. It is efficient if the demand curve is completely elastic. (Though this means no matter how high the price the monopolist sets to, it is efficient...) <p> An unintended answer, since the question has not specified if regulations are in place, is that there is regulation that forces the monopolist to use marginal cost pricing. In this case, it is also efficient. <!--SR:!2025-02-02,27,417!2025-02-02,27,417-->
   - Q3: sports facility entrance fee (−4, short question)

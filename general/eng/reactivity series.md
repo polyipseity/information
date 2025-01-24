@@ -186,7 +186,7 @@ return _chain.from_iterable(await _gather(
 - [tin](tin.md):@:Sn<sup>2+</sup> <!--SR:!2028-04-27,1437,350-->
 - [lead](lead.md):@:Pb<sup>2+</sup> <!--SR:!2026-05-15,866,330-->
 - [antimony](antimony.md):@:Sb<sup>3+</sup> <!--SR:!2025-11-10,332,210-->
-- [bismuth](bismuth.md):@:Bi<sup>3+</sup> <!--SR:!2025-01-24,178,270-->
+- [bismuth](bismuth.md):@:Bi<sup>3+</sup> <!--SR:!2026-11-28,673,290-->
 - [copper](copper.md):@:Cu<sup>2+</sup> <!--SR:!2025-04-11,504,310-->
 - [tungsten](tungsten.md):@:W<sup>3+</sup> <!--SR:!2025-07-09,575,310-->
 - [mercury](mercury%20(element).md):@:Hg<sup>2+</sup> <!--SR:!2025-12-14,469,270-->
@@ -274,7 +274,7 @@ return _chain.from_iterable(await _gather(
 - reacts with concentrated [mineral acids](mineral%20acid.md):@:[titanium](titanium.md) <!--SR:!2026-01-01,477,325-->
 - reacts with [acids](acid.md), poorly with [steam](steam.md):@:[manganese](manganese.md), [zinc](zinc.md), [chromium](chromium.md), [iron](iron.md), [cadmium](cadmium.md), [cobalt](cobalt.md), [nickel](nickel.md), [tin](tin.md), [lead](lead.md) <!--SR:!2025-01-29,17,130-->
 - may react with some strong [oxidizing agents](oxidizing%20agent.md):@:[antimony](antimony.md), [bismuth](bismuth.md), [tungsten](tungsten.md), [mercury](mercury%20(element).md), [silver](silver.md), [gold](gold.md), [platinum](platinum.md) <!--SR:!2026-06-17,554,285-->
-- reacts slowly with [air](air.md):@:[copper](copper.md) <!--SR:!2025-01-24,247,345-->
+- reacts slowly with [air](air.md):@:[copper](copper.md) <!--SR:!2028-04-09,1171,365-->
 
 <!--/pytextgen-->
 

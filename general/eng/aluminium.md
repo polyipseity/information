@@ -48,7 +48,7 @@ return await memorize_table(
 <!--pytextgen generate section="f123"--><!-- The following content is generated at 2024-01-04T20:17:51.226811+08:00. Any edits will be overridden! -->
 
 - _(begin)_→::@::←aircraft bodies <!--SR:!2026-05-09,866,330!2027-11-27,1328,350-->
-- aircraft bodies→::@::←kitchen foil <!--SR:!2025-01-24,148,210!2026-02-12,671,270-->
+- aircraft bodies→::@::←kitchen foil <!--SR:!2025-12-03,313,210!2026-02-12,671,270-->
 - kitchen foil→::@::←overhead power cables <!--SR:!2025-07-16,317,250!2025-04-02,76,150-->
 - overhead power cables→::@::←soft drink cans <!--SR:!2027-09-24,1081,290!2025-08-06,302,230-->
 - soft drink cans→::@::←window frames <!--SR:!2025-06-24,501,270!2025-10-06,631,270-->
