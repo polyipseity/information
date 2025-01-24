@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   width="884"
+   height="634"
+   viewBox="0 0 884 634"
+   xml:space="preserve"
+   xml:lang="en"
+   id="svg869"
+   sodipodi:docname="Diminishing returns graph.svg"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"><metadata
+   id="metadata875"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><defs
+   id="defs873" /><sodipodi:namedview
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1"
+   objecttolerance="10"
+   gridtolerance="10"
+   guidetolerance="10"
+   inkscape:pageopacity="0"
+   inkscape:pageshadow="2"
+   inkscape:window-width="1902"
+   inkscape:window-height="942"
+   id="namedview871"
+   showgrid="false"
+   inkscape:zoom="0.99434389"
+   inkscape:cx="169.46893"
+   inkscape:cy="257.86113"
+   inkscape:window-x="0"
+   inkscape:window-y="0"
+   inkscape:window-maximized="0"
+   inkscape:current-layer="svg869"
+   showguides="true" />
+<title
+   id="title833">Diminishing returns graph</title>
+<style
+   type="text/css"
+   id="style835">
+	circle{
+		fill: currentColor;
+	}
+	line, path{
+		fill: none;
+		stroke: currentColor;
+		stroke-width: 2.5;
+	}
+	text{
+		fill: currentColor;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 24px;
+		text-anchor: end;
+	}
+	.axis   { stroke-linecap: square; }
+	.left   { text-anchor: start; }
+	.centre { text-anchor: middle; }
+	.blue   { color: #0070C0; }
+	.red    { color: #f00; }
+	.value  { stroke-width: 3.5; stroke-linecap: round; }
+</style>
+<line
+   class="y axis"
+   x1="51"
+   y1="571"
+   x2="51"
+   y2="20"
+   id="line837" />
+<line
+   class="x axis"
+   x1="51"
+   y1="571"
+   x2="851"
+   y2="571"
+   id="line839" />
+<path
+   class="red value"
+   d="m 51,571 c 302.44425,0.49033 203.32504,-420.85293 475.76223,-420 82.35033,0.25781 112.52275,25.82275 163.72696,103.57964"
+   id="path841"
+   sodipodi:nodetypes="csc" />
+
+<line
+   class="blue"
+   x1="526.00793"
+   y1="569.61432"
+   x2="526.00793"
+   y2="148.61433"
+   stroke-dasharray="7"
+   id="line845" />
+<circle
+   class="blue"
+   cx="526.40338"
+   cy="151.35556"
+   r="7"
+   id="circle847" />
+
+
+<text
+   transform="translate(32 22) rotate(-90)"
+   id="text853">Output</text>
+<text
+   x="851"
+   y="597"
+   id="text855">Input</text>
+<text
+   x="37"
+   y="592"
+   id="text857">0</text>
+
+
+
+<text
+   x="517.62744"
+   y="116.33195"
+   class="blue centre"
+   id="text867"
+   style="font-size:18.6667px"><tspan
+     sodipodi:role="line"
+     id="tspan881"
+     x="517.62744"
+     y="116.33195"
+     style="font-size:18.6667px;text-align:end;text-anchor:end">Point of</tspan><tspan
+     sodipodi:role="line"
+     x="517.62744"
+     y="139.66533"
+     id="tspan893"
+     style="font-size:18.6667px;text-align:end;text-anchor:end">Maximum Yield</tspan></text>
+<line
+   class="blue"
+   x1="51.455036"
+   y1="150.5"
+   x2="526.00793"
+   y2="150.5"
+   stroke-dasharray="7.43189"
+   id="line877" /><text
+   x="178.82047"
+   y="426.46594"
+   id="text859"><tspan
+     sodipodi:role="line"
+     id="tspan889"
+     x="178.82047"
+     y="426.46594"
+     style="text-align:center;text-anchor:middle">Increasing</tspan><tspan
+     sodipodi:role="line"
+     id="tspan891"
+     x="178.82047"
+     y="456.46594"
+     style="text-align:center;text-anchor:middle">returns</tspan></text><text
+   x="420.9837"
+   y="428.96594"
+   class="centre"
+   id="text863">Diminishing<tspan
+   x="420.9837"
+   y="453.96594"
+   id="tspan861">returns</tspan></text><text
+   x="613.14819"
+   y="426.46594"
+   class="left"
+   id="text865"><tspan
+     sodipodi:role="line"
+     id="tspan885"
+     x="613.14819"
+     y="426.46594"
+     style="text-align:center;text-anchor:middle">Negative</tspan><tspan
+     sodipodi:role="line"
+     id="tspan887"
+     x="613.14819"
+     y="456.46594"
+     style="text-align:center;text-anchor:middle">returns</tspan></text><circle
+   class="blue"
+   cx="319.77759"
+   cy="318.0484"
+   id="circle895"
+   r="7" /><line
+   class="blue"
+   x1="319.22839"
+   y1="569.18884"
+   x2="319.22839"
+   y2="322.92715"
+   stroke-dasharray="5.35372"
+   id="line897" /><text
+   x="310.55792"
+   y="284.04865"
+   class="blue centre"
+   id="text903"
+   style="font-size:18.6667px"><tspan
+     sodipodi:role="line"
+     id="tspan899"
+     x="310.55792"
+     y="284.04865"
+     style="font-size:18.6667px;text-align:end;text-anchor:end">Point of</tspan><tspan
+     sodipodi:role="line"
+     x="310.55792"
+     y="307.38202"
+     id="tspan901"
+     style="font-size:18.6667px;text-align:end;text-anchor:end">Diminishing Returns</tspan></text><line
+   class="blue"
+   x1="57.127117"
+   y1="317.89871"
+   x2="325.51395"
+   y2="317.89871"
+   stroke-dasharray="5.58905"
+   id="line905" /></svg>

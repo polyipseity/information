@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" width="703" height="1094" viewBox="0 0 703 1094"
+	xmlns="http://www.w3.org/2000/svg"
+	xmlns:xlink="http://www.w3.org/1999/xlink"
+	xml:space="preserve"
+	xml:lang="en">
+<title>Diminishing returns graphs</title>
+<defs>
+	<style type="text/css">
+		line, path, polyline{
+			fill: none;
+			stroke: #000;
+			stroke-width: 4;
+		}
+		text{
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: 11px;
+			text-anchor: middle;
+		}
+
+		/* Text-related classes */
+		.large { font-size: 21px; }
+		.sub   { font-size: 11px; }
+		.serif {
+			font-family: "Times New Roman", Times, serif;
+			font-size: 23px;
+			font-weight: bold;
+			font-style: italic;
+			fill: #757272;
+		}
+
+		/* Annotations */
+		.pointer{
+			stroke: #000;
+			stroke-linecap: round;
+			stroke-linejoin: round;
+			opacity: 0.35;
+		}
+		.pointer-text{
+			font-size: 16px;
+			font-style: italic;
+			letter-spacing: 0.5px;
+		}
+
+		/* Arrows */
+		.arrow, .arrow-guide{
+			stroke: #4472c4;
+			stroke-width: 2;
+		}
+		.arrow{
+			marker-end: url(#arrowhead);
+		}
+
+		/* Graphs */
+		.frame{
+			fill: #fff;
+			stroke: #b3b1b1;
+			stroke-width: 4;
+			stroke-linejoin: round;
+		}
+		.label{
+			font-size: 19px;
+			font-style: italic;
+			letter-spacing: -1px;
+		}
+		.origin{
+			fill: #b3b1b1;
+			font-size: 20px;
+			font-weight: bold;
+			text-anchor: end;
+		}
+		.rule{
+			stroke: #a9a9a9;
+			stroke-linejoin: round;
+			stroke-dasharray: 12.25, 5;
+		}
+		.value{
+			stroke: #e42444;
+			stroke-width: 7;
+			stroke-linecap: round;
+			stroke-linejoin: round;
+		}
+	</style>
+
+	<marker id="arrowhead"
+		viewBox="0 0 11 12"
+		refX="0"
+		refY="6"
+		markerWidth="11"
+		markerHeight="12"
+		markerUnits="userSpaceOnUse"
+		orient="auto"
+	><polygon fill="#4472c4" points="
+		11 6
+		0  0
+		0  12
+	"/></marker>
+</defs>
+
+<g id="total-output">
+	<desc>Output vs. input</desc>
+	<rect class="frame" x="85" y="2" width="544" height="460"/>
+	<line class="rule" x1="553" y1="75" x2="553" y2="461"/>
+	<line class="rule" x1="293" y1="461" x2="293" y2="203"/>
+	<line class="rule" x1="217" y1="349" x2="217" y2="461"/>
+	<path class="value" d="
+		M 93 456
+		c 75.5 -23.5 112.9 -103.7 158.5 -187.5
+		c 33.7 -62 74.1 -132.6 130 -168
+		c 41 -26 102 -43 171 -40
+	"/>
+	<g>
+		<line class="arrow" x1="180" x2="180" y1="126" y2="70"/>
+		<line class="arrow" x1="180" x2="180" y1="126" y2="182"/>
+		<line class="arrow" x1="181" x2="181" y1="264" y2="208"/>
+		<line class="arrow" x1="181" x2="181" y1="264" y2="320"/>
+		<circle r="7.5" cx="293"   cy="196"/>
+		<circle r="7.5" cx="216.5" cy="333.5"/>
+		<circle r="7.5" cx="552.5" cy="60.5"/>
+		<line class="arrow-guide" x1="165" y1="59"  x2="551" y2="59"/>
+		<line class="arrow-guide" x1="167" y1="195" x2="288" y2="195"/>
+		<line class="arrow-guide" x1="171" y1="332" x2="213" y2="332"/>
+	</g>
+	<g>
+		<polyline class="pointer" points="419,83 441,60 435,57"/>
+		<text class="pointer-text" x="440" y="47">Total Product</text>
+	</g>
+	<text class="origin" x="82" y="485">0</text>
+	<text class="label" x="219" y="492">L<tspan dy="1" class="sub">1</tspan></text>
+	<text class="label" x="294" y="492">L<tspan dy="1" class="sub">2</tspan></text>
+	<text class="label" x="556" y="492">L<tspan dy="1" class="sub">3</tspan></text>
+	<text class="large" transform="translate(52 236) rotate(-90)">Total Output</text>
+</g>
+
+<g id="unit-output-per-unit-input">
+	<desc>Output per unit input vs. input</desc>
+	<rect class="frame" x="85" y="561" width="544" height="460"/>
+	<line class="rule" x1="553" y1="1020" x2="553" y2="508"/>
+	<line class="rule" x1="293" y1="1020" x2="293" y2="508"/>
+	<line class="rule" x1="217" y1="508" x2="217" y2="1020"/>
+	<path class="value" d="
+		M 91.5 914.5
+		c 27 -58 76 -150 152 -131
+		c 49.3 12.3 105.3 59.8 156 111
+		c 61.7 62.4 124.1 106.8 153.5 119.5
+	"/>
+	<path class="value" d="
+		M 551.5 914.5
+		c -38.2 -19.6 -70 -35 -137 -70.7
+		c -40.4 -21.5 -83.8 -32.7 -121 -33.3
+		c -57 -1 -153 64 -202 108
+	"/>
+	<g><circle r="7.5" cx="552.5" cy="1013.7"/><text class="serif" x="570" y="1002">C</text></g>
+	<g><circle r="7.5" cx="293"   cy="808.7"/><text class="serif" x="309" y="800">B</text></g>
+	<g><circle r="7.5" cx="216.5" cy="781.7"/><text class="serif" x="235" y="770">A</text></g>
+	<g><line class="pointer" x1="437" y1="822" x2="414" y2="845"/><text class="pointer-text" x="449" y="808">Average Product</text></g>
+	<g><line class="pointer" x1="393" y1="961" x2="425" y2="920"/><text class="pointer-text" x="388" y="995">Marginal Product</text></g>
+	<text class="origin" x="82" y="1047">0</text>
+	<text class="label" x="219" y="1051">L<tspan dy="1" class="sub">1</tspan></text>
+	<text class="label" x="294" y="1051">L<tspan dy="1" class="sub">2</tspan></text>
+	<text class="label" x="556" y="1051">L<tspan dy="1" class="sub">3</tspan></text>
+	<text class="large" transform="translate(52 791) rotate(-90)">Unit Output per Unit Input</text>
+	<text class="large" x="374" y="1078">Units of Input, (L)</text>
+</g>
+</svg>
