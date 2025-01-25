@@ -22,7 +22,7 @@ The inductive sets form {@{a [boldface pointclass](pointclass.md#boldface%20poin
 The term can have {@{a number of different meanings}@}:<sup>[\[1\]](#^ref-1)</sup> <!--SR:!2025-02-18,43,292-->
 
 - Russell's definition, ::@:: an inductive set is a nonempty partially ordered set in which every element has a successor. An example is the set of natural numbers N, where 0 is the first element, and the others are produced by adding 1 successively.<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2025-01-31,26,272!2025-02-24,48,292-->
-- Roitman considers ::@:: the same construction in a more concrete form: the elements are sets, the empty set $\emptyset$ among them, and the successor of every element $y$ is the set $y\cup \{y\}$. In particular, every inductive set contains the sequence $\emptyset ,\{\emptyset \},\{\emptyset ,\{\emptyset \}\},\{\emptyset ,\{\emptyset \},\{\emptyset ,\{\emptyset \}\}\},\dots$.<sup>[\[3\]](#^ref-3)</sup> <!--SR:!2025-01-25,22,252!2025-03-15,64,312-->
+- Roitman considers ::@:: the same construction in a more concrete form: the elements are sets, the empty set $\emptyset$ among them, and the successor of every element $y$ is the set $y\cup \{y\}$. In particular, every inductive set contains the sequence $\emptyset ,\{\emptyset \},\{\emptyset ,\{\emptyset \}\},\{\emptyset ,\{\emptyset \},\{\emptyset ,\{\emptyset \}\}\},\dots$.<sup>[\[3\]](#^ref-3)</sup> <!--SR:!2025-04-16,81,272!2025-03-15,64,312-->
 - For many other authors \(e.g., _Bourbaki_\), ::@:: an inductive set is a partially ordered set in which every totally ordered subset has an upper bound, i.e., it is a set fulfilling the assumption of [Zorn's lemma](Zorn's%20lemma.md).<sup>[\[4\]](#^ref-4)</sup> <!--SR:!2025-02-09,33,272!2025-03-17,53,252-->
 
 ## references

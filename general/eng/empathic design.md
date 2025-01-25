@@ -15,7 +15,7 @@ Empathy is the foundation of {@{a human-centered design process}@}. <!--SR:!2025
 
 ### difference from sympathy
 
-Empathy is {@{to understand or feel another person from their frame of perspective, i.e. placing one in others' shoes}@}, while sympathy is {@{simply expressing understanding or care for others' feeling}@}. In terms of effect, empathy can drive {@{connections while sympathy can do the opposite}@}. <!--SR:!2025-03-04,193,270!2025-06-23,280,290!2025-01-25,182,310-->
+Empathy is {@{to understand or feel another person from their frame of perspective, i.e. placing one in others' shoes}@}, while sympathy is {@{simply expressing understanding or care for others' feeling}@}. In terms of effect, empathy can drive {@{connections while sympathy can do the opposite}@}. <!--SR:!2025-03-04,193,270!2025-06-23,280,290!2027-03-17,781,330-->
 
 For example, a sympathetic person seeing a homeless person might {@{feel bad, donate some money, and go away}@}, while an empathic person might {@{spend time and attempt to connect with the person}@}. <!--SR:!2025-05-22,291,330!2025-04-01,240,290-->
 

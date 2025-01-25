@@ -15,7 +15,7 @@ tags:
 
 # subroutine and function
 
-In VBA, both subroutine `Sub...End Sub` and function `Function...End Function` {@{group code together}@}, making them very similar things. The difference is that {@{subroutines always return nothing while functions always return something}@}. <!--SR:!2025-01-25,278,330!2027-08-05,961,330-->
+In VBA, both subroutine `Sub...End Sub` and function `Function...End Function` {@{group code together}@}, making them very similar things. The difference is that {@{subroutines always return nothing while functions always return something}@}. <!--SR:!2028-07-16,1268,350!2027-08-05,961,330-->
 
 ## exiting
 

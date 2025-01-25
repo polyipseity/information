@@ -94,7 +94,7 @@ A note regarding accuracy is that {@{there may be some inaccuracies involved whe
 
 ### comparison operators
 
-Below are common comparison operators, all of which returns {@{a boolean}@}. Operators have higher precedence than or same precedence as operators below it in the list: <!--SR:!2025-01-25,100,369-->
+Below are common comparison operators, all of which returns {@{a boolean}@}. Operators have higher precedence than or same precedence as operators below it in the list: <!--SR:!2026-06-12,503,389-->
 
 ```Python
 # pytextgen generate data
@@ -139,11 +139,11 @@ return _chain.from_iterable(await _gather(
 
 <!--pytextgen generate section="d123"--><!-- The following content is generated at 2024-01-30T13:35:46.633801+08:00. Any edits will be overridden! -->
 
-- _(begin)_→::@::←`in` <!--SR:!2026-05-17,481,389!2025-01-25,100,369-->
+- _(begin)_→::@::←`in` <!--SR:!2026-05-17,481,389!2026-06-18,509,389-->
 - `in`→::@::←`<` <!--SR:!2025-11-03,328,369!2025-11-21,331,369-->
 - `<`→::@::←`<=` <!--SR:!2025-10-10,309,369!2025-09-22,293,369-->
 - `<=`→::@::←`>` <!--SR:!2025-09-28,295,369!2025-09-27,298,369-->
-- `>`→::@::←`>=` <!--SR:!2025-09-03,274,369!2025-01-25,100,369-->
+- `>`→::@::←`>=` <!--SR:!2025-09-03,274,369!2026-06-19,510,389-->
 - `>=`→::@::←`!=` <!--SR:!2025-08-23,265,369!2025-02-03,96,309-->
 - `!=`→::@::←`==` <!--SR:!2025-10-05,304,369!2026-05-21,485,389-->
 - `==`→::@::←_(end)_ <!--SR:!2025-07-19,235,369!2025-12-19,354,369-->
@@ -152,13 +152,13 @@ return _chain.from_iterable(await _gather(
 
 <!--pytextgen generate section="cc23"--><!-- The following content is generated at 2024-01-30T13:35:46.619801+08:00. Any edits will be overridden! -->
 
-- `in`:@:membership test <!--SR:!2025-01-25,100,369-->
+- `in`:@:membership test <!--SR:!2026-06-19,510,389-->
 - `<`:@:lesser than <!--SR:!2025-12-20,355,369-->
-- `<=`:@:lesser than or equal to <!--SR:!2025-01-25,100,369-->
-- `>`:@:greater than <!--SR:!2025-01-25,100,369-->
-- `>=`:@:greater than or equal to <!--SR:!2025-01-25,100,369-->
-- `!=`:@:not equal to <!--SR:!2025-01-25,100,369-->
-- `==`:@:equal to <!--SR:!2025-01-25,100,369-->
+- `<=`:@:lesser than or equal to <!--SR:!2026-06-11,502,389-->
+- `>`:@:greater than <!--SR:!2026-06-18,509,389-->
+- `>=`:@:greater than or equal to <!--SR:!2026-06-17,508,389-->
+- `!=`:@:not equal to <!--SR:!2026-06-22,513,389-->
+- `==`:@:equal to <!--SR:!2026-06-21,512,389-->
 
 <!--/pytextgen-->
 
@@ -168,7 +168,7 @@ Also, one CAN chain {@{comparison operators in Python, unlike other languages. F
 
 ### logic operators
 
-Below are common logic operators, all of which {@{accept two booleans and return a boolean}@}. Operators have higher precedence than or same precedence as operators below it in the list: <!--SR:!2025-01-25,100,369-->
+Below are common logic operators, all of which {@{accept two booleans and return a boolean}@}. Operators have higher precedence than or same precedence as operators below it in the list: <!--SR:!2026-02-02,373,369-->
 
 ```Python
 # pytextgen generate data
@@ -205,9 +205,9 @@ return _chain.from_iterable(await _gather(
 
 <!--pytextgen generate section="d882"--><!-- The following content is generated at 2024-01-30T13:35:46.722323+08:00. Any edits will be overridden! -->
 
-- _(begin)_→::@::←`not` <!--SR:!2025-01-25,100,369!2025-01-25,100,369-->
-- `not`→::@::←`and` <!--SR:!2025-01-25,100,369!2026-05-16,480,389-->
-- `and`→::@::←`or` <!--SR:!2025-06-20,209,349!2025-01-25,100,369-->
+- _(begin)_→::@::←`not` <!--SR:!2026-06-14,505,389!2026-06-17,508,389-->
+- `not`→::@::←`and` <!--SR:!2026-06-15,506,389!2026-05-16,480,389-->
+- `and`→::@::←`or` <!--SR:!2025-06-20,209,349!2026-06-16,507,389-->
 - `or`→::@::←_(end)_ <!--SR:!2026-05-19,483,389!2025-07-12,229,369-->
 
 <!--/pytextgen-->
@@ -215,7 +215,7 @@ return _chain.from_iterable(await _gather(
 <!--pytextgen generate section="ee13"--><!-- The following content is generated at 2024-01-30T13:35:46.696328+08:00. Any edits will be overridden! -->
 
 - `not`:@:negate <!--SR:!2026-04-19,459,389-->
-- `and`:@:and <!--SR:!2025-01-25,100,369-->
+- `and`:@:and <!--SR:!2026-06-13,504,389-->
 - `or`:@:or <!--SR:!2026-05-23,487,389-->
 
 <!--/pytextgen-->
@@ -235,7 +235,7 @@ To define a string in Python, {@{enclose the string in either double quotes `"ex
 
 `\` is {@{the escape character}@}. Apart from {@{escaping quotes (`\"`, `\'`) and itself (`\\`)}@}, it can also {@{represent a newline using `\n` and a tab character (kinda like a wider space, but not exactly) using `\t`}@}. <!--SR:!2026-01-05,356,363!2025-11-04,322,363!2025-09-03,279,363-->
 
-To {@{find the length of a string}@}, use {@{`len(str)`, which returns an `int` representing the number of characters in `str`}@}. To {@{concatenate/join two strings}@}, use {@{the `+` operator}@}. If {@{the `+` operator is applied between a `str` and another (incompatible) type}@}, then {@{a `TypeError` will be raised}@}. <!--SR:!2026-05-20,484,389!2025-11-05,319,369!2025-01-25,100,369!2025-01-25,100,369!2025-02-03,105,386!2026-05-22,486,406-->
+To {@{find the length of a string}@}, use {@{`len(str)`, which returns an `int` representing the number of characters in `str`}@}. To {@{concatenate/join two strings}@}, use {@{the `+` operator}@}. If {@{the `+` operator is applied between a `str` and another (incompatible) type}@}, then {@{a `TypeError` will be raised}@}. <!--SR:!2026-05-20,484,389!2025-11-05,319,369!2026-06-20,511,389!2026-06-16,507,389!2025-02-03,105,386!2026-05-22,486,406-->
 
 Like lists, strings can be {@{indexed using the `string_var[n]`, which access the _n_ + 1-th character of the string}@}. If {@{the index is out of range}@}, then {@{an `IndexError` will be raised}@}. But unlike lists, strings {@{cannot be modified using the indexing notation, because strings in Python are immutable (not modifiable)}@}. <!--SR:!2025-03-19,124,397!2025-03-21,126,397!2025-03-19,124,397!2025-03-18,123,397-->
 
@@ -243,7 +243,7 @@ Like lists, strings can be {@{indexed using the `string_var[n]`, which access th
 
 In {@{a Jupyter notebook}@}, it outputs {@{the value of the last expression (and prints nothing if the last expression is `None`)}@}. Note that {@{assignments are not expressions, and do not produce output as the last expression}@}. To get it to print more things, {@{use `print(<any>...)`}@}. It can {@{print anything (and prints `None` if the last expression is `None`)}@}. Note that it automatically {@{adds a newline after the printed content, so each `print` outputs on a new line instead of being glued together in a single line}@}. Also, when multiple arguments are passed, {@{each argument is joined into a single string, separated by a space in between}@}. When {@{no arguments are passed, only a newline is printed}@}. <!--SR:!2025-10-27,318,363!2026-04-11,458,383!2025-12-30,351,363!2026-04-05,457,383!2025-10-13,312,363!2025-08-12,265,363!2025-08-06,260,363!2026-05-20,491,383-->
 
-Note that strings are outputted, escaped {@{with `\` properly (without unnecessary escapes)}@}, and preferably {@{wrapped in `'`, and only uses `"` if there is at least 1 `'` in the string but not any `"`}@}. <!--SR:!2025-01-25,100,374!2026-05-24,488,394-->
+Note that strings are outputted, escaped {@{with `\` properly (without unnecessary escapes)}@}, and preferably {@{wrapped in `'`, and only uses `"` if there is at least 1 `'` in the string but not any `"`}@}. <!--SR:!2026-06-25,516,394!2026-05-24,488,394-->
 
 If {@{you do not want a newline to be printed automatically afterwards}@}, `print` has {@{the `end` argument, which is used like `print(..., end=...)`}@}. The value passed to it {@{must be either a `str` or `None`, and `None` is the default value if you do not specify `end` and represents a newline, explaining why a newline is automatically printed without using `end`}@}. If `end` is used, then {@{after printing the passed objects as strings, the string passed to `end` is also printed (or if `end` is `None`, a newline is printed)}@}. For example, {@{`print(..., end="")` disables automatically printing a newline afterwards, while `print(..., end=" ")` automatically prints a space instead of a newline afterwards}@}. <!--SR:!2025-05-03,166,392!2025-03-06,116,372!2025-05-02,165,392!2025-01-30,81,352!2025-03-04,114,372-->
 

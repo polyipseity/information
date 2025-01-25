@@ -43,7 +43,7 @@ In this case, the output _y_ is {@{simply the net input _u_ multiplied by a cons
 
 - see: [rectifier](rectifier%20(neural%20networks).md)
 
-The __rectifier__ or {@{__ReLU__ (__rectified linear unit__)}@} is an activation function defined as {@{the positive part of its argument}@}: {@{$$y = u^+ = \max(0, u) = \frac {u + \lvert u \rvert} 2 = \begin{cases} u & \text{if }u > 0 \\ 0 & \text{otherwise} \end{cases}$$}@}. <!--SR:!2025-05-14,256,330!2025-04-07,226,330!2025-01-25,170,310-->
+The __rectifier__ or {@{__ReLU__ (__rectified linear unit__)}@} is an activation function defined as {@{the positive part of its argument}@}: {@{$$y = u^+ = \max(0, u) = \frac {u + \lvert u \rvert} 2 = \begin{cases} u & \text{if }u > 0 \\ 0 & \text{otherwise} \end{cases}$$}@}. <!--SR:!2025-05-14,256,330!2025-04-07,226,330!2027-01-23,728,330-->
 
 ## references
 

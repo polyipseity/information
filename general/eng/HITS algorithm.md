@@ -51,7 +51,7 @@ Let $k$ be {@{the current number of iterations}@}, and $\mathbf{A}_k$ and $\math
 
 ### authority update rule
 
-For each $p$, we {@{update $a(p)$ to $a(p) = \sum_{q \in p_{\text{to} } } h(q)$ where $p_{\text{to} }$ are all pages linking to $p$}@}. That is, a page's authority value is {@{the sum of the hub values of nodes pointing to it}@}. This can also be expressed {@{using [matrix multiplication](matrix%20multiplication.md)}@}: {@{$\mathbf{A}_k \gets \mathbf{M}^\intercal \mathbf{H}_{k - 1}$}@}. <!--SR:!2025-03-11,205,314!2025-01-25,156,310!2025-05-29,267,334!2025-02-15,185,314-->
+For each $p$, we {@{update $a(p)$ to $a(p) = \sum_{q \in p_{\text{to} } } h(q)$ where $p_{\text{to} }$ are all pages linking to $p$}@}. That is, a page's authority value is {@{the sum of the hub values of nodes pointing to it}@}. This can also be expressed {@{using [matrix multiplication](matrix%20multiplication.md)}@}: {@{$\mathbf{A}_k \gets \mathbf{M}^\intercal \mathbf{H}_{k - 1}$}@}. <!--SR:!2025-03-11,205,314!2026-05-31,491,310!2025-05-29,267,334!2025-02-15,185,314-->
 
 Consider the authority vector after several updates (without normalization):
 

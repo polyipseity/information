@@ -83,7 +83,7 @@ return _chain.from_iterable(await _gather(
 - `/`:@:division <!--SR:!2027-07-14,946,330-->
 - `//`:@:floor division <!--SR:!2028-07-05,1258,350-->
 - `%`:@:remainder; the resulting sign is the same as the divider, i.e. the number after the operator <!--SR:!2026-06-20,651,330-->
-- `+`:@:addition <!--SR:!2025-01-25,276,330-->
+- `+`:@:addition <!--SR:!2028-07-04,1256,350-->
 - `-`:@:subtraction <!--SR:!2027-11-11,1069,350-->
 
 <!--/pytextgen-->

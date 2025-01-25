@@ -75,7 +75,7 @@ tags:
 
 - (annotation: covariant functor definition, object) ::@:: for each object _x_ in _C_, an object _F_\(_x_\) in _D_; and <!--SR:!2025-03-20,58,310!2025-03-20,58,310-->
 - (annotation: covariant functor definition, morphism) ::@:: for each morphism _f_ : _x_ → _y_ in _C_, a morphism _F_\(_f_\) : _F_\(_x_\) → _F_\(_y_\) in _D_, <!--SR:!2025-03-29,65,310!2025-03-30,66,310-->
-- (annotation: covariant functor definition, notes) ::@:: (annotation: The object and morphism mappings are _not_ required to be injective or surjective. For example, see [constant functor](constant%20functor.md#examples), which maps every object to the same object and every morphism to the identity morphism of that object.) <!--SR:!2025-01-25,17,309!2025-01-25,17,309-->
+- (annotation: covariant functor definition, notes) ::@:: (annotation: The object and morphism mappings are _not_ required to be injective or surjective. For example, see [constant functor](constant%20functor.md#examples), which maps every object to the same object and every morphism to the identity morphism of that object.) <!--SR:!2025-04-11,76,329!2025-04-09,74,329-->
 
 such that the following two properties hold:
 
@@ -116,7 +116,7 @@ It is a natural question to ask: under {@{which conditions can two categories be
 
 - The [functor category](functor%20category.md) _D_<sup>_C_</sup> ::@:: has as objects the functors from _C_ to _D_ and as morphisms the natural transformations of such functors. The [Yoneda lemma](Yoneda%20lemma.md) is one of the most famous basic results of category theory; it describes representable functors in functor categories. <!--SR:!2025-03-22,59,310!2025-03-28,64,310-->
 - [Duality](dual%20(category%20theory).md): ::@:: Every statement, theorem, or definition in category theory has a _dual_ which is essentially obtained by "reversing all the arrows". If one statement is true in a category _C_ then its dual is true in the dual category _C_<sup>op</sup>. This duality, which is transparent at the level of category theory, is often obscured in applications and can lead to surprising relationships. <!--SR:!2025-03-29,65,310!2025-03-25,62,310-->
-- [Adjoint functors](adjoint%20functors.md): ::@:: A functor can be left \(or right\) adjoint to another functor that maps in the opposite direction. Such a pair of adjoint functors typically arises from a construction defined by a universal property; this can be seen as a more abstract and powerful view on universal properties. <!--SR:!2025-01-25,13,230!2025-03-20,58,310-->
+- [Adjoint functors](adjoint%20functors.md): ::@:: A functor can be left \(or right\) adjoint to another functor that maps in the opposite direction. Such a pair of adjoint functors typically arises from a construction defined by a universal property; this can be seen as a more abstract and powerful view on universal properties. <!--SR:!2025-02-24,30,230!2025-03-20,58,310-->
 
 ### higher-dimensional categories
 

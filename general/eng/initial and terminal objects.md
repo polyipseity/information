@@ -88,7 +88,7 @@ Initial and terminal objects may also {@{be characterized in terms of [universal
 
 - {@{A [universal morphism](universal%20morphism.md) from an object _X_ to a functor _U_}@} can be defined as {@{an initial object in the [comma category](comma%20category.md) \(_X_ ↓ _U_\)}@}. Dually, {@{a universal morphism from _U_ to _X_}@} is {@{a terminal object in \(_U_ ↓ _X_\)}@}.
 - {@{The limit of a diagram _F_}@} is {@{a terminal object in Cone\(_F_\), the [category of cones](category%20of%20cones.md#category%20of%20cones) to _F_}@}. Dually, {@{a colimit of _F_}@} is {@{an initial object in the category of cones from _F_}@}.
-- A [representation of a functor](representable%20functor.md) _F_ to __Set__ is ::@:: an initial object in the [category of elements](category%20of%20elements.md) of _F_. <!--SR:!2025-01-29,13,292!2025-01-25,3,217-->
+- A [representation of a functor](representable%20functor.md) _F_ to __Set__ is ::@:: an initial object in the [category of elements](category%20of%20elements.md) of _F_. <!--SR:!2025-01-29,13,292!2025-02-01,7,217-->
 - The notion of [final functor](final%20functor.md) \(respectively, initial functor\) is ::@:: a generalization of the notion of final object \(respectively, initial object\). <!--SR:!2025-02-02,17,312!2025-02-01,16,297-->
 
 ### other properties
