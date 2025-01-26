@@ -71,7 +71,7 @@ return _chain.from_iterable(await _gather(
 - _(begin)_→::@::←`^` <!--SR:!2025-11-09,452,310!2025-03-09,307,330-->
 - `^`→::@::←`*` <!--SR:!2027-03-28,822,330!2026-08-23,697,330-->
 - `*`→::@::←`/` <!--SR:!2026-11-14,758,330!2027-07-06,972,350-->
-- `/`→::@::←`+` <!--SR:!2028-05-04,1206,350!2025-01-26,277,330-->
+- `/`→::@::←`+` <!--SR:!2028-05-04,1206,350!2028-07-08,1259,350-->
 - `+`→::@::←`-` <!--SR:!2028-02-12,1145,350!2027-12-26,1107,350-->
 - `-`→::@::←_(end)_ <!--SR:!2025-02-13,292,330!2028-06-11,1237,350-->
 
@@ -349,7 +349,7 @@ return _chain.from_iterable(await _gather(
 - `IF(boolean, value_if_true[, value_if_false = FALSE])`:@:`value_if_true` if `boolean` is true, otherwise `value_if_false`; can be nested <!--SR:!2028-03-25,1175,350-->
 - `MAX(numbers...)`:@:maximum <!--SR:!2027-12-16,1097,350-->
 - `MIN(numbers...)`:@:minimum <!--SR:!2027-02-10,789,330-->
-- `RANK(number, numbers...)`:@:rank of `number` in `numbers`, starting from 1 <!--SR:!2025-01-26,95,290-->
+- `RANK(number, numbers...)`:@:rank of `number` in `numbers`, starting from 1 <!--SR:!2026-02-17,387,310-->
 - `STDEV(numbers...)`:@:standard deviation <!--SR:!2025-03-02,305,330-->
 - `SUM(numbers...)`:@:summation <!--SR:!2028-05-30,1229,350-->
 

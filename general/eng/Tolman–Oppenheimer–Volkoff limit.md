@@ -11,7 +11,7 @@ tags:
 
 # Tolman–Oppenheimer–Volkoff limit
 
-The {@{__Tolman–Oppenheimer–Volkoff limit__ (or __TOV limit__)}@} is {@{an upper bound to the [mass](star.md#mass) of cold, non-rotating [neutron stars](neutron%20star.md)}@}, analogous to {@{the [Chandrasekhar limit](Chandrasekhar%20limit.md) for [white dwarf](white%20dwarf.md) stars}@}. Stars more massive than the TOV limit {@{collapse into a [black hole](black%20hole.md)}@}. <!--SR:!2025-06-30,253,330!2025-01-26,118,290!2025-06-13,241,330!2025-07-19,267,330-->
+The {@{__Tolman–Oppenheimer–Volkoff limit__ (or __TOV limit__)}@} is {@{an upper bound to the [mass](star.md#mass) of cold, non-rotating [neutron stars](neutron%20star.md)}@}, analogous to {@{the [Chandrasekhar limit](Chandrasekhar%20limit.md) for [white dwarf](white%20dwarf.md) stars}@}. Stars more massive than the TOV limit {@{collapse into a [black hole](black%20hole.md)}@}. <!--SR:!2025-06-30,253,330!2026-01-09,348,290!2025-06-13,241,330!2025-07-19,267,330-->
 
 {@{The original calculation in 1939}@}, which neglected {@{complications such as nuclear forces between neutrons}@}, placed this limit at {@{approximately 0.7 [solar masses](solar%20mass.md) ([M<sub>☉</sub>](solar%20mass.md))}@}. Later, more refined analyses have resulted in {@{larger values}@}. <!--SR:!2025-08-10,199,210!2025-04-05,179,310!2025-03-27,175,310!2025-07-03,255,330-->
 

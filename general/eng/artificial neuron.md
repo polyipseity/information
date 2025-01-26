@@ -37,7 +37,7 @@ In this case, the output _y_ is {@{simply the net input _u_ multiplied by a cons
 
 - see: [sigmoid function](sigmoid%20function.md)
 
-[Sigmoid functions](sigmoid%20function.md) are {@{fairly simple non-linear activation functions}@}. Usually, it refers to the {@{[logistic function](logistic%20function.md) with _L_ = 1, _k_ = 1, and _x_<sub>0</sub> = 0}@}: {@{$$y = \frac L {1 + e^{-k(u - x_0)} } = \frac 1 {1 + e^{-u} }$$}@}. Its more practical counterpart is {@{the [hyperbolic tangent](hyperbolic%20function.md) ($\tanh$)}@}: {@{$$y = \frac {\sinh u} {\cosh u} = \frac {e^u - e^{-u} } {e^u + e^{-u} } = \frac {e^{2u} - 1} {e^{2u} + 1}$$}@} <!--SR:!2026-07-29,587,330!2026-03-02,466,310!2025-01-26,153,290!2026-01-07,377,290!2025-02-10,164,270-->
+[Sigmoid functions](sigmoid%20function.md) are {@{fairly simple non-linear activation functions}@}. Usually, it refers to the {@{[logistic function](logistic%20function.md) with _L_ = 1, _k_ = 1, and _x_<sub>0</sub> = 0}@}: {@{$$y = \frac L {1 + e^{-k(u - x_0)} } = \frac 1 {1 + e^{-u} }$$}@}. Its more practical counterpart is {@{the [hyperbolic tangent](hyperbolic%20function.md) ($\tanh$)}@}: {@{$$y = \frac {\sinh u} {\cosh u} = \frac {e^u - e^{-u} } {e^u + e^{-u} } = \frac {e^{2u} - 1} {e^{2u} + 1}$$}@} <!--SR:!2026-07-29,587,330!2026-03-02,466,310!2026-04-20,449,290!2026-01-07,377,290!2025-02-10,164,270-->
 
 ### rectifier
 

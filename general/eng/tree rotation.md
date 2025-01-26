@@ -15,7 +15,7 @@ tags:
 
 In {@{[discrete mathematics](discrete%20mathematics.md)}@}, __tree rotation__ is {@{an operation on a [binary tree](binary%20tree.md) that changes the structure without interfering with the order of the elements}@}. A tree rotation {@{moves one node up in the tree and one node down}@}. It is used to {@{change the shape of the tree}@}, and in particular {@{to decrease its height by moving smaller subtrees down and larger subtrees up}@}, resulting in {@{improved performance of many tree operations}@}. <!--SR:!2025-03-08,58,310!2025-02-10,37,290!2025-03-19,67,310!2025-03-08,58,310!2025-03-11,60,310!2025-03-06,56,310-->
 
-There exists {@{an inconsistency in different descriptions as to the definition of the __direction of rotations__}@}. Some say that {@{the direction of rotation reflects the direction that a node is moving upon rotation \(a left child rotating into its parent's location is a right rotation\)}@} while {@{others say that the direction of rotation reflects which subtree is rotating \(a left subtree rotating into its parent's location is a left rotation, the opposite of the former\)}@}. This article takes {@{the approach of the directional movement of the rotating node (annotation: the former one)}@}. <!--SR:!2025-03-04,54,310!2025-01-26,25,270!2025-03-10,59,310!2025-02-16,42,290-->
+There exists {@{an inconsistency in different descriptions as to the definition of the __direction of rotations__}@}. Some say that {@{the direction of rotation reflects the direction that a node is moving upon rotation \(a left child rotating into its parent's location is a right rotation\)}@} while {@{others say that the direction of rotation reflects which subtree is rotating \(a left subtree rotating into its parent's location is a left rotation, the opposite of the former\)}@}. This article takes {@{the approach of the directional movement of the rotating node (annotation: the former one)}@}. <!--SR:!2025-03-04,54,310!2025-05-03,97,290!2025-03-10,59,310!2025-02-16,42,290-->
 
 ## illustration
 
@@ -65,7 +65,7 @@ The programmer must {@{also make sure that the root's parent points to the pivot
 
 ## inorder invariance
 
-The tree rotation renders {@{the [inorder traversal](tree%20traversal.md#inorder%20traversal) of the binary tree [invariant](invariant%20(mathematics).md#invariants%20in%20computer%20science)}@}. This implies {@{the order of the elements is not affected when a rotation is performed in any part of the tree}@}. Here are the inorder traversals of the trees shown above: <!--SR:!2025-02-17,43,290!2025-01-26,25,270-->
+The tree rotation renders {@{the [inorder traversal](tree%20traversal.md#inorder%20traversal) of the binary tree [invariant](invariant%20(mathematics).md#invariants%20in%20computer%20science)}@}. This implies {@{the order of the elements is not affected when a rotation is performed in any part of the tree}@}. Here are the inorder traversals of the trees shown above: <!--SR:!2025-02-17,43,290!2025-05-02,96,290-->
 
 ```text
 Left tree: ((A, P, B), Q, C)        Right tree: (A, P, (B, Q, C))
@@ -122,7 +122,7 @@ Tree rotations are {@{used in a number of tree [data structures](data%20structur
 
 > {@{![Pictorial description of how rotations cause rebalancing in an AVL tree.](../../archives/Wikimedia%20Commons/Tree%20Rebalancing.gif)}@}
 >
-> {@{Pictorial description of how rotations cause rebalancing in an AVL tree.}@} <!--SR:!2025-02-25,46,290!2025-01-26,23,250-->
+> {@{Pictorial description of how rotations cause rebalancing in an AVL tree.}@} <!--SR:!2025-02-25,46,290!2025-04-20,84,270-->
 
 A tree can be {@{rebalanced using rotations}@}. After {@{a rotation}@}, {@{the side of the rotation increases its height by 1 whilst the side opposite the rotation decreases its height similarly}@}. Therefore, {@{one can strategically apply rotations to nodes whose left child and right child differ in height by more than 1}@}. {@{Self-balancing binary search trees}@} {@{apply this operation automatically}@}. A type of tree which uses this rebalancing technique is {@{the [AVL tree](AVL%20tree.md)}@}. <!--SR:!2025-02-22,47,290!2025-03-15,63,310!2025-03-12,61,310!2025-03-17,65,310!2025-03-08,58,310!2025-03-17,65,310!2025-03-17,64,310-->
 
@@ -146,7 +146,7 @@ It is {@{an [open problem](open%20problem.md)}@} {@{whether there exists a [poly
 
 - [AVL tree](AVL%20tree.md), [red–black tree](red–black%20tree.md), and [splay tree](splay%20tree.md), ::@:: kinds of [binary search tree](binary%20search%20tree.md) data structures that use rotations to maintain balance. <!--SR:!2025-03-15,63,310!2025-03-06,56,310-->
 - [Associativity](associative%20property.md) of a binary operation ::@:: means that performing a tree rotation on it does not change the final result. <!--SR:!2025-03-07,57,310!2025-03-20,67,310-->
-- The [Day–Stout–Warren algorithm](Day–Stout–Warren%20algorithm.md) ::@:: balances an unbalanced BST. <!--SR:!2025-02-23,47,290!2025-01-26,25,270-->
+- The [Day–Stout–Warren algorithm](Day–Stout–Warren%20algorithm.md) ::@:: balances an unbalanced BST. <!--SR:!2025-02-23,47,290!2025-02-09,14,250-->
 - [Tamari lattice](Tamari%20lattice.md), ::@:: a partially ordered set in which the elements can be defined as binary trees and the ordering between elements is defined by tree rotation. <!--SR:!2025-02-14,40,290!2025-02-10,22,270-->
 
 ## references

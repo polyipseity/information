@@ -75,7 +75,7 @@ while condition:
   statement_block
 ```
 
-The semantics of `while` is {@{that the condition is executed first. If the condition is `true`, the statement block is executed and then we repeat the above process again. If the condition is `false`, the `while` statement ends its execution}@}. <!--SR:!2025-01-26,274,330-->
+The semantics of `while` is {@{that the condition is executed first. If the condition is `true`, the statement block is executed and then we repeat the above process again. If the condition is `false`, the `while` statement ends its execution}@}. <!--SR:!2027-07-18,903,330-->
 
 If {@{there are no statements to be executed in an iteration}@}, you {@{must still put a properly indented `pass` statement, which does nothing, for that iteration}@}. For example: <!--SR:!2026-04-12,450,385!2025-12-04,323,365-->
 

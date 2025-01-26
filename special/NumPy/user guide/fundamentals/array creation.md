@@ -64,9 +64,9 @@ unsigned c: [4294967293 4294967293 4294967293] uint32
 signed c: [-3 -3 -3] int64
 ```
 
-Notice when {@{you perform operations with two arrays of the same `dtype`: `uint32`}@}, the resulting array is {@{the same type}@}. When {@{you perform operations with different `dtype`}@}, NumPy will {@{assign a new type that satisfies all of the array elements involved in the computation, here `uint32` and `int32` can both be represented in as `int64`}@}. <!--SR:!2025-01-26,67,310!2025-02-01,72,330!2025-01-26,67,310!2025-10-23,273,330-->
+Notice when {@{you perform operations with two arrays of the same `dtype`: `uint32`}@}, the resulting array is {@{the same type}@}. When {@{you perform operations with different `dtype`}@}, NumPy will {@{assign a new type that satisfies all of the array elements involved in the computation, here `uint32` and `int32` can both be represented in as `int64`}@}. <!--SR:!2025-11-07,285,330!2025-02-01,72,330!2025-11-14,292,330!2025-10-23,273,330-->
 
-The default NumPy behavior is to {@{create arrays in either 32 or 64-bit signed integers (platform dependent and matches C `long` size) or double precision floating point numbers}@}. If {@{you expect your integer arrays to be a specific type}@}, then {@{you need to specify the `dtype` while you create the array}@}. <!--SR:!2025-02-03,74,330!2025-01-26,67,310!2025-02-02,73,330-->
+The default NumPy behavior is to {@{create arrays in either 32 or 64-bit signed integers (platform dependent and matches C `long` size) or double precision floating point numbers}@}. If {@{you expect your integer arrays to be a specific type}@}, then {@{you need to specify the `dtype` while you create the array}@}. <!--SR:!2025-02-03,74,330!2025-11-08,286,330!2025-02-02,73,330-->
 
 ## intrinsic NumPy array creation functions
 
@@ -94,7 +94,7 @@ array([2. , 2.1, 2.2, 2.3, 2.4, 2.5, 2.6, 2.7, 2.8, 2.9])
 
 Note: {@{best practice for [`numpy.arange`](../../API%20reference/generated/numpy.arange.md#numpy.arange "numpy.arange")}@} is {@{to use integer start, end, and step values}@}. There are {@{some subtleties regarding `dtype`}@}. In the second example, {@{the `dtype` is defined}@}. In the third example, the array is {@{`dtype=float` to accommodate the step size of `0.1`}@}. Due to {@{roundoff error}@}, {@{the `stop` value is sometimes included}@}. <!--SR:!2025-02-02,73,330!2025-10-20,272,330!2025-02-04,75,330!2025-10-30,279,330!2025-10-20,272,330!2025-11-01,280,330!2025-02-01,72,330-->
 
-{@{[`numpy.linspace`](../../API%20reference/generated/numpy.linspace.md#numpy.linspace "numpy.linspace")}@} will {@{create arrays with a specified number of elements}@}, and {@{spaced equally between the specified beginning and end values}@}. For example: <!--SR:!2025-10-24,275,330!2025-01-26,67,310!2025-02-01,72,330-->
+{@{[`numpy.linspace`](../../API%20reference/generated/numpy.linspace.md#numpy.linspace "numpy.linspace")}@} will {@{create arrays with a specified number of elements}@}, and {@{spaced equally between the specified beginning and end values}@}. For example: <!--SR:!2025-10-24,275,330!2025-11-09,287,330!2025-02-01,72,330-->
 
 ```Python
 >>> import numpy as np
@@ -166,7 +166,7 @@ array([[ 1,  1,  1,  1],
 
 {@{The ndarray creation functions}@} e.g. {@{[`numpy.ones`](../../API%20reference/generated/numpy.ones.md#numpy.ones "numpy.ones"), [`numpy.zeros`](../../API%20reference/generated/numpy.zeros.md#numpy.zeros "numpy.zeros"), and [`random`](../../API%20reference/generated/numpy.random.Generator.random.md#numpy.random.Generator.random "numpy.random.Generator.random")}@} define {@{arrays based upon the desired shape}@}. The ndarray creation functions can {@{create arrays with any dimension by specifying how many dimensions and length along that dimension in a tuple or list}@}. <!--SR:!2025-10-20,272,330!2025-02-03,74,330!2025-10-09,261,330!2025-08-14,202,310-->
 
-{@{[`numpy.zeros`](../../API%20reference/generated/numpy.zeros.md#numpy.zeros "numpy.zeros")}@} will {@{create an array filled with 0 values with the specified shape}@}. The default dtype is {@{`float64`}@}: <!--SR:!2025-01-26,67,310!2025-02-04,75,330!2025-10-18,270,330-->
+{@{[`numpy.zeros`](../../API%20reference/generated/numpy.zeros.md#numpy.zeros "numpy.zeros")}@} will {@{create an array filled with 0 values with the specified shape}@}. The default dtype is {@{`float64`}@}: <!--SR:!2025-11-13,291,330!2025-02-04,75,330!2025-10-18,270,330-->
 
 ```Python
 >>> import numpy as np
@@ -232,7 +232,7 @@ array([[[0, 0, 0],
 
 ## replicating, joining, or mutating existing arrays
 
-Once {@{you have created arrays}@}, you can {@{replicate, join, or mutate those existing arrays to create new arrays}@}. When you {@{assign an array or its elements to a new variable}@}, you have to {@{explicitly [`numpy.copy`](../../API%20reference/generated/numpy.copy.md#numpy.copy "numpy.copy") the array}@}, otherwise {@{the variable is a view into the original array}@}. Consider the following example: <!--SR:!2025-02-02,73,330!2025-10-13,265,330!2025-02-04,75,330!2025-01-26,67,310!2025-02-02,73,330-->
+Once {@{you have created arrays}@}, you can {@{replicate, join, or mutate those existing arrays to create new arrays}@}. When you {@{assign an array or its elements to a new variable}@}, you have to {@{explicitly [`numpy.copy`](../../API%20reference/generated/numpy.copy.md#numpy.copy "numpy.copy") the array}@}, otherwise {@{the variable is a view into the original array}@}. Consider the following example: <!--SR:!2025-02-02,73,330!2025-10-13,265,330!2025-02-04,75,330!2025-11-11,289,330!2025-02-02,73,330-->
 
 ```Python
 >>> import numpy as np
@@ -279,12 +279,12 @@ This is {@{the most common case of large array creation}@}. The details {@{depen
 
 ### standard binary formats
 
-{@{Various fields}@} have {@{standard formats for array data}@}. The following lists {@{the ones with known Python libraries to read them and return NumPy arrays}@} (there may be {@{others for which it is possible to read and convert to NumPy arrays so check the last section as well}@}) <!--SR:!2025-10-15,267,330!2025-02-05,76,330!2025-01-26,67,310!2025-01-26,67,310-->
+{@{Various fields}@} have {@{standard formats for array data}@}. The following lists {@{the ones with known Python libraries to read them and return NumPy arrays}@} (there may be {@{others for which it is possible to read and convert to NumPy arrays so check the last section as well}@}) <!--SR:!2025-10-15,267,330!2025-02-05,76,330!2025-11-10,288,330!2025-11-16,294,330-->
 
 - HDF5 ::@:: h5py <!--SR:!2025-02-02,73,330!2025-11-10,289,330-->
 - FITS ::@:: Astropy <!--SR:!2025-08-09,198,310!2025-02-01,72,330-->
 
-Examples of {@{formats that cannot be read directly but for which it is not hard to convert}@} are those formats supported by libraries like {@{PIL (able to read and write many image formats such as jpg, png, etc)}@}. <!--SR:!2025-10-19,271,330!2025-01-26,67,310-->
+Examples of {@{formats that cannot be read directly but for which it is not hard to convert}@} are those formats supported by libraries like {@{PIL (able to read and write many image formats such as jpg, png, etc)}@}. <!--SR:!2025-10-19,271,330!2025-08-19,205,310-->
 
 ### common ASCII formats
 
@@ -318,7 +318,7 @@ There are {@{a variety of approaches one can use}@}. If {@{the file has a relati
 
 ## use of special library functions (e.g., SciPy, pandas, and OpenCV)
 
-NumPy is {@{the fundamental library for array containers in the Python Scientific Computing stack}@}. {@{Many Python libraries}@}, including {@{SciPy, Pandas, and OpenCV}@}, use {@{NumPy ndarrays as the common format for data exchange}@}. These libraries can {@{create, operate on, and work with NumPy arrays}@}. <!--SR:!2025-08-05,196,310!2025-10-11,263,330!2025-02-01,72,330!2025-01-26,67,310!2025-02-05,76,330-->
+NumPy is {@{the fundamental library for array containers in the Python Scientific Computing stack}@}. {@{Many Python libraries}@}, including {@{SciPy, Pandas, and OpenCV}@}, use {@{NumPy ndarrays as the common format for data exchange}@}. These libraries can {@{create, operate on, and work with NumPy arrays}@}. <!--SR:!2025-08-05,196,310!2025-10-11,263,330!2025-02-01,72,330!2025-11-15,293,330!2025-02-05,76,330-->
 
 ## references
 

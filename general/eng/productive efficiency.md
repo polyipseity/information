@@ -37,7 +37,7 @@ Due to {@{the nature and culture of [monopolistic](monopoly.md) companies}@}, th
 
 {@{The most popular measures of efficiency}@} include {@{Farrell measure<sup>[\[3\]](#^ref-3)</sup> (also known as Debreu–Farrell measure, since Debreu (1951) has similar ideas<sup>[\[4\]](#^ref-4)</sup>)}@}. This measure is also {@{the reciprocal of the Shephard's distance function}@}.<sup>[\[5\]](#^ref-5)</sup> These can be defined with either {@{the input orientation (fix outputs and measure maximal possible reduction in inputs)}@} or {@{the output orientation (fix inputs and measure maximal possible expansion in outputs)}@}. <!--SR:!2025-02-08,67,310!2025-02-10,55,250!2025-04-26,112,290!2025-02-08,67,310!2025-02-03,63,310-->
 
-{@{A generalisation of these}@} is {@{the so-called directional distance function}@}, where {@{one can select any direction (or orientation) for measuring the production efficiency}@}. <!--SR:!2025-01-26,56,310!2025-02-08,67,310!2025-02-07,66,310-->
+{@{A generalisation of these}@} is {@{the so-called directional distance function}@}, where {@{one can select any direction (or orientation) for measuring the production efficiency}@}. <!--SR:!2025-09-18,235,330!2025-02-08,67,310!2025-02-07,66,310-->
 
 {@{The most popular for estimating production efficiency}@} are {@{[data envelopment analysis](data%20envelopment%20analysis.md)<sup>[\[6\]](#^ref-6)</sup> and [stochastic frontier analysis](stochastic%20frontier%20analysis.md)}@}.<sup>[\[7\]](#^ref-7)</sup> <!--SR:!2025-02-03,63,310!2025-03-22,84,270-->
 

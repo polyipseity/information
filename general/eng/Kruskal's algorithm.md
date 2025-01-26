@@ -31,7 +31,7 @@ This algorithm was first published by {@{[Joseph Kruskal](Joseph%20Kruskal.md) i
 
 The algorithm performs the following steps:
 
-- Create ::@:: a forest \(a set of trees\) initially consisting of a separate single-vertex tree for each vertex in the input graph. <!--SR:!2025-02-10,61,310!2025-01-26,45,290-->
+- Create ::@:: a forest \(a set of trees\) initially consisting of a separate single-vertex tree for each vertex in the input graph. <!--SR:!2025-02-10,61,310!2025-06-08,133,290-->
 - Sort ::@:: the graph edges by weight. <!--SR:!2025-02-17,67,310!2025-02-17,67,310-->
 - Loop through ::@:: the edges of the graph, in ascending sorted order by their weight. For each edge: <!--SR:!2025-02-10,61,310!2025-02-12,63,310-->
   - Test ::@:: whether adding the edge to the current forest would create a cycle. <!--SR:!2025-02-18,67,310!2025-02-07,58,310-->
@@ -120,7 +120,7 @@ We show that {@{the following proposition ___P___ is true by [induction](mathema
 - Now assume {@{___P___ is true for some non-final edge set _F_}@} and {@{let _T_ be a minimum spanning tree that contains _F_}@}.
   - If {@{the next chosen edge _e_ is also in _T_}@}, then {@{___P___ is true for _F_ + _e_}@}.
   - Otherwise, if {@{_e_ is not in _T_}@} then {@{_T_ + _e_ has a cycle _C_}@}. The cycle _C_ contains {@{edges which do not belong to _F_ + _e_}@}, since {@{_e_ does not form a cycle when added to _F_ but does in _T_}@}. Let {@{_f_ be an edge which is in _C_ but not in _F_ + _e_}@}. Note that {@{_f_ also belongs to _T_, since _f_ belongs to _T_ + _e_ but not _F_ + _e_}@}. By ___P___, {@{_f_ has not been considered by the algorithm}@}. _f_ {@{must therefore have a weight at least as large as _e_}@}. Then {@{_T_ − _f_ + _e_ is a tree, and it has the same or less weight as _T_}@}. However {@{since _T_ is a minimum spanning tree then _T_ − _f_ + _e_ has the same weight as _T_}@}, otherwise {@{we get a contradiction and _T_ would not be a minimum spanning tree}@}. So {@{_T_ − _f_ + _e_ is a minimum spanning tree containing _F_ + _e_}@} and {@{again ___P___ holds}@}.
-- Therefore, by {@{the principle of induction}@}, {@{___P___ holds when _F_ has become a spanning tree}@}, which is {@{only possible if _F_ is a minimum spanning tree itself}@}. <!--SR:!2025-02-11,62,310!2025-02-09,60,310!2025-02-12,63,310!2025-02-17,67,310!2025-02-16,66,310!2025-02-07,58,310!2025-02-06,57,310!2025-02-17,67,310!2025-02-16,66,310!2025-02-17,66,310!2025-02-12,63,310!2025-02-07,58,310!2025-02-16,66,310!2025-02-17,67,310!2025-02-17,67,310!2025-01-28,47,290!2025-02-16,66,310!2025-07-22,178,310!2025-01-26,45,290!2025-02-12,63,310!2025-02-10,61,310!2025-02-17,67,310!2025-02-17,66,310-->
+- Therefore, by {@{the principle of induction}@}, {@{___P___ holds when _F_ has become a spanning tree}@}, which is {@{only possible if _F_ is a minimum spanning tree itself}@}. <!--SR:!2025-02-11,62,310!2025-02-09,60,310!2025-02-12,63,310!2025-02-17,67,310!2025-02-16,66,310!2025-02-07,58,310!2025-02-06,57,310!2025-02-17,67,310!2025-02-16,66,310!2025-02-17,66,310!2025-02-12,63,310!2025-02-07,58,310!2025-02-16,66,310!2025-02-17,67,310!2025-02-17,67,310!2025-01-28,47,290!2025-02-16,66,310!2025-07-22,178,310!2025-07-30,185,310!2025-02-12,63,310!2025-02-10,61,310!2025-02-17,67,310!2025-02-17,66,310-->
 
 ## parallel algorithm
 

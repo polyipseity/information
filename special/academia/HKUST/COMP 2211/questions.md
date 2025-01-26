@@ -1094,7 +1094,7 @@ tags:
 > Describe in words what transformation was applied.
 >
 > - solution: {@{The image is translated to the left (not right) and upwards (not downwards) each by 1 pixel.}@}
-> - explanation: {@{While the transformation matrix describes a transformation to the right and downwards each by 1 pixel, notice that it is applied to the input coordinates instead of the output coordinates. <p> In general, the transformations are reversed if you apply it to the input coordinates instead of the output coordinates. For a simple example, consider $f(x) = x$. Then compare between $f_{\text{new} }(x) = f(x) + 1 = x + 1$ and $f_{\text{new} }(x + 1) = f(x) = x \implies f_{\text{new} }(x) = f(x - 1) = x - 1$.}@} <!--SR:!2025-01-26,18,270!2025-01-29,26,270-->
+> - explanation: {@{While the transformation matrix describes a transformation to the right and downwards each by 1 pixel, notice that it is applied to the input coordinates instead of the output coordinates. <p> In general, the transformations are reversed if you apply it to the input coordinates instead of the output coordinates. For a simple example, consider $f(x) = x$. Then compare between $f_{\text{new} }(x) = f(x) + 1 = x + 1$ and $f_{\text{new} }(x + 1) = f(x) = x \implies f_{\text{new} }(x) = f(x - 1) = x - 1$.}@} <!--SR:!2025-03-17,50,270!2025-01-29,26,270-->
 
 <!-- markdownlint MD028 -->
 

@@ -29,7 +29,7 @@ Instead, we are more interested in {@{the compilation process itself}@}. We like
 
 Preprocessing {@{transforms source program (text) into modified source program (still text)}@}. GCC internally {@{uses the program `cpp`, which we can use by itself}@}, for this step. To only run this step with GCC, the command is {@{`gcc -E <input>.c > <output>.i`, which writes to `<output>.i`}@}. <!--SR:!2025-12-22,374,365!2025-07-31,254,345!2025-03-20,139,303-->
 
-Compilation {@{transforms modified source program (text) into assembly program (still text)}@}. GCC internally {@{uses the program `cc1`, part of the GCC}@}, for this step. To only run this step, the command is {@{`gcc -S <input>.i`, which outputs a `.s` file}@}. <!--SR:!2025-08-25,277,357!2025-08-24,274,343!2025-01-26,101,303-->
+Compilation {@{transforms modified source program (text) into assembly program (still text)}@}. GCC internally {@{uses the program `cc1`, part of the GCC}@}, for this step. To only run this step, the command is {@{`gcc -S <input>.i`, which outputs a `.s` file}@}. <!--SR:!2025-08-25,277,357!2025-08-24,274,343!2025-12-02,310,303-->
 
 Assembly {@{transforms assembly program (text) into relocatable object (binary)}@}. GCC internally {@{uses the program `as`, which we can use by itself}@}, for this step. To only run this step, the command is {@{`gcc -c <input>.s`, which outputs a `.o` file}@}. <!--SR:!2025-10-25,324,343!2025-07-25,247,330!2025-07-13,225,337-->
 

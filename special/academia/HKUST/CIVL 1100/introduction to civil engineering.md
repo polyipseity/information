@@ -63,7 +63,7 @@ The content is in teaching order.
   - structural codes of practice or design codes ::@:: different countries have different standards <!--SR:!2025-05-25,340,350!2025-08-05,373,377-->
     - [structural code of practice examples](#structural%20code%20of%20practice%20examples)
 - geo-technical engineering ::@:: behavior of rock, soil, and underground water <!--SR:!2025-07-26,331,305!2025-03-01,249,367-->
-  - geo-technical engineering structures ::@:: design and construction of earthworks and foundations <!--SR:!2026-05-15,509,320!2025-01-26,217,350-->
+  - geo-technical engineering structures ::@:: design and construction of earthworks and foundations <!--SR:!2026-05-15,509,320!2027-02-24,759,350-->
     - [geo-technical engineering structure examples](#geo-technical%20engineering%20structure%20examples)
   - [geo-technical engineering risks](#geo-technical%20engineering%20risks)
     - geo-technical engineering risk migration ::@:: soil improvement or retaining structures can migrate risk to society <!--SR:!2027-01-02,758,360!2025-07-09,335,377-->
@@ -361,7 +361,7 @@ transportation
 - environmental→::@::←geo-technical <!--SR:!2025-11-28,416,327!2026-12-16,708,345-->
 - geo-technical→::@::←hydraulic <!--SR:!2026-04-13,508,340!2026-05-27,519,360-->
 - hydraulic→::@::←material <!--SR:!2026-04-12,556,360!2026-02-13,471,340-->
-- material→::@::←structural <!--SR:!2025-02-07,130,297!2025-01-26,167,260-->
+- material→::@::←structural <!--SR:!2025-02-07,130,297!2026-04-05,434,260-->
 - structural→::@::←transportation <!--SR:!2027-03-02,800,360!2026-11-27,724,347-->
 - transportation→::@::←_(end)_ <!--SR:!2027-07-23,926,370!2025-02-01,202,381-->
 

@@ -41,7 +41,7 @@ Carmichael proved {@{two theorems that, together}@}, establish that if {@{_λ_\(
 
 This implies that {@{the order of every element of the multiplicative group of integers modulo _n_ divides _λ_\(_n_\)}@}. Carmichael calls {@{an element _a_ for which $a^{\lambda (n)}$ is the least power of _a_ congruent to 1 \(mod _n_\)}@} {@{a _primitive λ-root modulo n_}@}.<sup>[\[3\]](#^ref-3)</sup> \(This is {@{not to be confused with a [primitive root modulo _n_](primitive%20root%20modulo%20n.md)}@}, which Carmichael sometimes refers to as {@{a primitive $\varphi$-root modulo _n_}@}.\) <!--SR:!2025-02-25,49,301!2025-02-25,49,301!2025-03-26,73,321!2025-02-16,42,290!2025-03-27,74,321-->
 
-> Theorem 2 ::@:: — For every positive integer _n_ there exists a primitive _λ_-root modulo _n_. Moreover, if _g_ is such a root, then there are $\varphi (\lambda (n))$ primitive _λ_-roots that are congruent to powers of _g_.<sup>[\[4\]](#^ref-4)</sup> <!--SR:!2025-03-03,50,301!2025-01-26,25,281-->
+> Theorem 2 ::@:: — For every positive integer _n_ there exists a primitive _λ_-root modulo _n_. Moreover, if _g_ is such a root, then there are $\varphi (\lambda (n))$ primitive _λ_-roots that are congruent to powers of _g_.<sup>[\[4\]](#^ref-4)</sup> <!--SR:!2025-03-03,50,301!2025-05-07,101,301-->
 
 If {@{_g_ is one of the primitive _λ_-roots guaranteed by the theorem}@}, then {@{$g^{m}\equiv 1{\pmod {n} }$ has no positive integer solutions _m_ less than _λ_\(_n_\)}@}, showing that {@{there is no positive _m_ \< _λ_\(_n_\) such that $a^{m}\equiv 1{\pmod {n} }$ for all _a_ relatively prime to _n_}@}. <!--SR:!2025-03-07,57,310!2025-03-26,73,321!2025-02-04,32,281-->
 
@@ -132,7 +132,7 @@ For {@{all numbers _N_ and all but _o_\(_N_\)<sup>[\[8\]](#^ref-8)</sup> positiv
 
 ### lower bounds
 
-For {@{any sufficiently large number _N_ and for any Δ ≥ \(ln ln _N_\)<sup>3</sup>}@}, there are {@{at most $$N\exp \left(-0.69(\Delta \ln \Delta )^{\frac {1}{3} }\right)$$ positive integers _n_ ≤ _N_}@} such that {@{_λ_\(_n_\) ≤ _ne_<sup>−Δ</sup>}@}.<sup>[\[9\]](#^ref-9)</sup> <!--SR:!2025-01-26,18,210!2025-01-26,23,261!2025-01-26,25,281-->
+For {@{any sufficiently large number _N_ and for any Δ ≥ \(ln ln _N_\)<sup>3</sup>}@}, there are {@{at most $$N\exp \left(-0.69(\Delta \ln \Delta )^{\frac {1}{3} }\right)$$ positive integers _n_ ≤ _N_}@} such that {@{_λ_\(_n_\) ≤ _ne_<sup>−Δ</sup>}@}.<sup>[\[9\]](#^ref-9)</sup> <!--SR:!2025-02-03,8,190!2025-02-08,13,241!2025-04-07,71,281-->
 
 ### minimal order
 

@@ -96,7 +96,7 @@ Let φ, ψ, and ρ be LTL formulas. The following tables list {@{some of the use
 >
 > - next distributivity ::@:: __X__ \(φ ∨ ψ\) ≡ \(<!-- markdown separator -->__X__ φ\) ∨ \(<!-- markdown separator -->__X__ ψ\) <br/> __X__ \(φ ∧ ψ\) ≡ \(<!-- markdown separator -->__X__ φ\) ∧ \(<!-- markdown separator -->__X__ ψ\) <br/> __X__ \(φ __U__ ψ\)≡ \(<!-- markdown separator -->__X__ φ\) __U__ \(<!-- markdown separator -->__X__ ψ\) <!--SR:!2025-03-01,66,330!2025-03-10,73,330-->
 > - finally and globally distributivity ::@:: __F__ \(φ ∨ ψ\) ≡ \(<!-- markdown separator -->__F__ φ\) ∨ \(<!-- markdown separator -->__F__ ψ\) <br/> __G__ \(φ ∧ ψ\) ≡ \(<!-- markdown separator -->__G__ φ\) ∧ \(<!-- markdown separator -->__G__ ψ\) <!--SR:!2025-05-30,127,297!2025-02-12,52,323-->
-> - until distributivity ::@:: ρ __U__ \(φ ∨ ψ\) ≡ \(ρ __U__ φ\) ∨ \(ρ __U__ ψ\) <br/> \(φ ∧ ψ\) __U__ ρ ≡ \(φ __U__ ρ\) ∧ \(ψ __U__ ρ\) <!--SR:!2025-01-26,35,303!2025-04-29,99,290-->
+> - until distributivity ::@:: ρ __U__ \(φ ∨ ψ\) ≡ \(ρ __U__ φ\) ∨ \(ρ __U__ ψ\) <br/> \(φ ∧ ψ\) __U__ ρ ≡ \(φ __U__ ρ\) ∧ \(ψ __U__ ρ\) <!--SR:!2025-05-12,106,303!2025-04-29,99,290-->
 
 | Negation propagation                            |                                                       |                                                       |                                                       |
 | ----------------------------------------------- | ----------------------------------------------------- | ----------------------------------------------------- | ----------------------------------------------------- |
@@ -143,7 +143,7 @@ LTL can be shown to be {@{equivalent to the [monadic first-order logic of order]
 
 ## computational problems
 
-{@{[Model checking](model%20checking.md) and satisfiability against an LTL formula}@} are {@{[PSPACE-complete](PSPACE-complete.md) problems}@}. {@{LTL synthesis and the problem of verification of games against an LTL winning condition}@} is {@{[2EXPTIME-complete](2-EXPTIME.md)}@}.<sup>[\[11\]](#^ref-11)</sup> <!--SR:!2025-02-08,45,297!2025-03-15,78,343!2025-01-26,35,303!2025-03-09,73,343-->
+{@{[Model checking](model%20checking.md) and satisfiability against an LTL formula}@} are {@{[PSPACE-complete](PSPACE-complete.md) problems}@}. {@{LTL synthesis and the problem of verification of games against an LTL winning condition}@} is {@{[2EXPTIME-complete](2-EXPTIME.md)}@}.<sup>[\[11\]](#^ref-11)</sup> <!--SR:!2025-02-08,45,297!2025-03-15,78,343!2025-02-14,19,283!2025-03-09,73,343-->
 
 ## applications
 

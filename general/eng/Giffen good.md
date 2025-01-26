@@ -73,7 +73,7 @@ Giffen goods are {@{difficult to study}@} because {@{the definition requires a n
 
 {@{The Giffen nature of the Irish potato}@} was also {@{later discredited}@} by {@{[Sherwin Rosen](Sherwin%20Rosen.md) of the [University of Chicago](University%20of%20Chicago.md)}@} in {@{his 1999 paper _Potato Paradoxes_}@}.<sup>[\[12\]](#^ref-12)</sup> Rosen showed that {@{the phenomenon could be explained by a normal [demand](supply%20and%20demand.md) model}@}. <!--SR:!2025-02-04,58,310!2025-02-12,64,310!2025-01-31,51,309!2025-02-15,67,310!2025-02-07,59,310-->
 
-{@{Charles Read}@} has shown {@{with quantitative evidence that [bacon](bacon.md) pigs showed Giffen-style behaviour}@} during the Irish Famine, but {@{that potatoes did not}@}.<sup>[\[13\]](#^ref-13)</sup><sup>[\[14\]](#^ref-14)</sup> <!--SR:!2025-02-14,66,310!2025-01-26,47,290!2025-02-04,58,310-->
+{@{Charles Read}@} has shown {@{with quantitative evidence that [bacon](bacon.md) pigs showed Giffen-style behaviour}@} during the Irish Famine, but {@{that potatoes did not}@}.<sup>[\[13\]](#^ref-13)</sup><sup>[\[14\]](#^ref-14)</sup> <!--SR:!2025-02-14,66,310!2025-06-13,138,290!2025-02-04,58,310-->
 
 ### other proposed examples
 
