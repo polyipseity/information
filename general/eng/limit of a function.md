@@ -97,7 +97,7 @@ When the limit on the right of the equation does not exist but are in the follow
 > - {@{$\frac{q}\infty = 0 \quad \text{if } q \ne \infty \text{ and } q \ne -\infty$}@}
 > - {@{$\infty^q = \begin{cases} 0 & \text{if } q < 0 \\ \infty & \text{if } q > 0 \end{cases}$}@}
 > - {@{$q^\infty = \begin{cases} 0 & \text{if } 0 < q < 1 \\ \infty & \text{if } q > 1 \end{cases}$}@}
-> - {@{$q^{-\infty} = \begin{cases} \infty & \text{if } 0 < q < 1 \\ 0 & \text{if } q > 1 \end{cases}$}@} <!--SR:!2025-09-26,458,310!2025-11-05,511,310!2025-06-14,391,290!2026-02-14,565,290!2025-01-27,275,290!2025-09-11,445,330-->
+> - {@{$q^{-\infty} = \begin{cases} \infty & \text{if } 0 < q < 1 \\ 0 & \text{if } q > 1 \end{cases}$}@} <!--SR:!2025-09-26,458,310!2025-11-05,511,310!2025-06-14,391,290!2026-02-14,565,290!2027-04-08,801,290!2025-09-11,445,330-->
 
 ### limits of compositions of functions
 

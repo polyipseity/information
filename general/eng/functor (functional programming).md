@@ -11,13 +11,13 @@ tags:
 
 # functor
 
-- This article is about {@{the design pattern for mapping functions over a generic type}@}. For {@{the term "functor" as used in C++}@}, see {@{[function object](function%20object.md)}@}. <!--SR:!2025-01-27,17,311!2025-04-03,67,315!2025-01-27,17,311-->
+- This article is about {@{the design pattern for mapping functions over a generic type}@}. For {@{the term "functor" as used in C++}@}, see {@{[function object](function%20object.md)}@}. <!--SR:!2025-04-08,71,331!2025-04-03,67,315!2025-04-11,74,331-->
 
 > {@{![Applying `fmap (+1)` to a binary tree of integers increments each integer in the tree by one.](../../archives/Wikimedia%20Commons/Tree%20as%20a%20functor.svg)}@}
 >
 > {@{Applying `fmap (+1)` to a binary tree of integers increments each integer in the tree by one.}@} <!--SR:!2025-04-05,69,315!2025-04-04,68,315-->
 
-In {@{[functional programming](functional%20programming.md)}@}, {@{a __functor__}@} is {@{a [design pattern](design%20pattern.md) inspired by [the definition from category theory](functor.md)}@} that {@{allows one to apply a [function](function%20(mathematics).md) to values inside a [generic type](generic%20type.md) without changing the structure of the generic type}@}. In {@{[Haskell](Haskell.md)}@} this idea can be {@{captured in a [type class](type%20class.md)}@}: <!--SR:!2025-04-05,69,315!2025-01-27,17,311!2025-04-04,68,315!2025-04-04,68,315!2025-04-03,67,310!2025-04-05,69,315-->
+In {@{[functional programming](functional%20programming.md)}@}, {@{a __functor__}@} is {@{a [design pattern](design%20pattern.md) inspired by [the definition from category theory](functor.md)}@} that {@{allows one to apply a [function](function%20(mathematics).md) to values inside a [generic type](generic%20type.md) without changing the structure of the generic type}@}. In {@{[Haskell](Haskell.md)}@} this idea can be {@{captured in a [type class](type%20class.md)}@}: <!--SR:!2025-04-05,69,315!2025-04-13,76,331!2025-04-04,68,315!2025-04-04,68,315!2025-04-03,67,310!2025-04-05,69,315-->
 
 ```Haskell
 class Functor f where
@@ -49,7 +49,7 @@ fmap (g . h) = (fmap g) . (fmap h)
 
 \(where `.` {@{stands for [function composition](function%20composition.md)}@}\). <!--SR:!2025-04-03,67,315-->
 
-In {@{[Scala](scala%20(programming%20language).md)}@} {@{a [trait](trait%20(computer%20programming).md) can be used}@}: <!--SR:!2025-04-04,68,315!2025-01-27,17,311-->
+In {@{[Scala](scala%20(programming%20language).md)}@} {@{a [trait](trait%20(computer%20programming).md) can be used}@}: <!--SR:!2025-04-04,68,315!2025-04-12,75,331-->
 
 ```Scala
 trait Functor[F[_]] {
@@ -69,7 +69,7 @@ Functors form {@{a base for more complex abstractions}@} like {@{[Applicative Fu
 
 ## examples
 
-In {@{Haskell}@}, {@{lists}@} are a simple example of a functor. We may {@{implement `fmap` as}@} (annotation: The first statement is {@{the base case for an empty list}@}. The second statement {@{applies a function to the first element and applies the functor with the function to the remaining elements, which is recursive}@}.) <!--SR:!2025-04-04,68,315!2025-03-15,48,295!2025-04-03,67,315!2025-01-27,17,311!2025-04-03,67,310-->
+In {@{Haskell}@}, {@{lists}@} are a simple example of a functor. We may {@{implement `fmap` as}@} (annotation: The first statement is {@{the base case for an empty list}@}. The second statement {@{applies a function to the first element and applies the functor with the function to the remaining elements, which is recursive}@}.) <!--SR:!2025-04-04,68,315!2025-03-15,48,295!2025-04-03,67,315!2025-04-09,72,331!2025-04-03,67,310-->
 
 ```Haskell
 fmap f []     = []
@@ -81,7 +81,7 @@ fmap f (x:xs) = (f x) : fmap f xs
 > <pre>
 > <span></span><!-- <span class="nf"> --><span style="color: #0000FF;">fmap</span><!-- <span class="w"> --><span style="color: #bbbbbb;"> </span>{@{<!-- <span class="n"> --><span style="">f</span><!-- <span class="w"> --><span style="color: #bbbbbb;"> </span><!-- <span class="kt"> --><span style="color: #B00040;">[]</span><!-- <span class="w"> --><span style="color: #bbbbbb;">     </span><!-- <span class="ow"> --><span style="color: #AA22FF; font-weight: bold;">=</span><!-- <span class="w"> --><span style="color: #bbbbbb;"> </span><!-- <span class="kt"> --><span style="color: #B00040;">[]</span>}@}
 > <!-- <span class="nf"> --><span style="color: #0000FF;">fmap</span><!-- <span class="w"> --><span style="color: #bbbbbb;"> </span>{@{<!-- <span class="n"> --><span style="">f</span><!-- <span class="w"> --><span style="color: #bbbbbb;"> </span><!-- <span class="p"> --><span style="">(</span><!-- <span class="n"> --><span style="">x</span><!-- <span class="kt"> --><span style="color: #B00040;">:</span><!-- <span class="n"> --><span style="">xs</span><!-- <span class="p"> --><span style="">)</span><!-- <span class="w"> --><span style="color: #bbbbbb;"> </span><!-- <span class="ow"> --><span style="color: #AA22FF; font-weight: bold;">=</span><!-- <span class="w"> --><span style="color: #bbbbbb;"> </span><!-- <span class="p"> --><span style="">(</span><!-- <span class="n"> --><span style="">f</span><!-- <span class="w"> --><span style="color: #bbbbbb;"> </span><!-- <span class="n"> --><span style="">x</span><!-- <span class="p"> --><span style="">)</span><!-- <span class="w"> --><span style="color: #bbbbbb;"> </span><!-- <span class="kt"> --><span style="color: #B00040;">:</span><!-- <span class="w"> --><span style="color: #bbbbbb;"> </span><!-- <span class="n"> --><span style="">fmap</span><!-- <span class="w"> --><span style="color: #bbbbbb;"> </span><!-- <span class="n"> --><span style="">f</span><!-- <span class="w"> --><span style="color: #bbbbbb;"> </span><!-- <span class="n"> --><span style="">xs</span>}@}
-> </pre> <!--SR:!2025-04-05,69,315!2025-01-27,17,311-->
+> </pre> <!--SR:!2025-04-05,69,315!2025-04-10,73,331-->
 
 {@{A binary tree}@} may similarly be described as a functor: (annotation: The first statement {@{defines a binary tree recursively}@}. The second to fourth statements {@{define a functor that applies a function to each node in the binary tree}@}.) <!--SR:!2025-04-05,69,315!2025-04-05,69,315!2025-04-05,69,315-->
 

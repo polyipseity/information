@@ -130,7 +130,7 @@ Regarding {@{the items in the equity section}@}, the following disclosures are r
 
 ## substantiation
 
-__Balance sheet substantiation__ is {@{the [accounting](accounting.md) process conducted by [businesses](business.md) on a regular basis}@} to {@{confirm that the balances held in the primary accounting [system of record](system%20of%20record.md) (e.g. [SAP](SAP%20ERP.md), [Oracle](Oracle%20Database.md), other ERP system's General Ledger) are reconciled (in balance with) with the balance and transaction records held in the same or supporting sub-systems}@}. <!--SR:!2025-03-18,125,290!2025-01-27,97,290-->
+__Balance sheet substantiation__ is {@{the [accounting](accounting.md) process conducted by [businesses](business.md) on a regular basis}@} to {@{confirm that the balances held in the primary accounting [system of record](system%20of%20record.md) (e.g. [SAP](SAP%20ERP.md), [Oracle](Oracle%20Database.md), other ERP system's General Ledger) are reconciled (in balance with) with the balance and transaction records held in the same or supporting sub-systems}@}. <!--SR:!2025-03-18,125,290!2025-11-03,280,290-->
 
 Balance sheet substantiation includes {@{multiple processes including [reconciliation](bank%20reconciliation.md) (at a transactional or at a balance level) of the account, a process of review of the reconciliation and any pertinent supporting documentation}@}, and {@{a formal [certification](certification.md) (sign-off) of the account in a predetermined form driven by corporate policy}@}. <!--SR:!2025-02-14,90,250!2025-06-30,211,310-->
 

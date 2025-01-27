@@ -69,7 +69,7 @@ The _Poisson generating function_ of {@{a sequence _a_<sub>_n_</sub>}@} is {@{$$
 
 The _Lambert series_ of {@{a sequence _a_<sub>_n_</sub>}@} is {@{$$\operatorname {LG} (a_{n};x)=\sum _{n=1}^{\infty }a_{n}{\frac {x^{n} }{1-x^{n} } }\,.$$}@} Note that in a Lambert series {@{the index _n_ starts at 1, not at 0, as the first term would otherwise be undefined}@}. <!--SR:!2025-09-10,254,330!2025-06-05,149,270!2025-11-12,303,330-->
 
-The Lambert series coefficients in the power series expansions {@{$$b_{n}:=[x^{n}]\operatorname {LG} (a_{n};x)$$ (where $[x^n]$ means extracting the coefficient of the indeterminate $x^n$) for integers _n_ ≥ 1}@} are {@{related by the [divisor sum](divisor%20sum%20identities.md) $$b_{n}=\sum _{d|n}a_{d}\,.$$}@} <!--SR:!2025-03-03,101,290!2025-01-27,68,270-->
+The Lambert series coefficients in the power series expansions {@{$$b_{n}:=[x^{n}]\operatorname {LG} (a_{n};x)$$ (where $[x^n]$ means extracting the coefficient of the indeterminate $x^n$) for integers _n_ ≥ 1}@} are {@{related by the [divisor sum](divisor%20sum%20identities.md) $$b_{n}=\sum _{d|n}a_{d}\,.$$}@} <!--SR:!2025-03-03,101,290!2025-08-02,187,270-->
 
 > [!tip] tips
 >
@@ -241,7 +241,7 @@ In calculus, often {@{the growth rate of the coefficients of a power series}@} c
 For instance, if {@{an ordinary generating function _G_(_a_<sub>_n_</sub>; _x_) that has a finite radius of convergence of _r_}@} can be written as {@{$$G(a_{n};x)={\frac {A(x)+B(x)\left(1-{\frac {x}{r} }\right)^{-\beta } }{x^{\alpha } } }$$}@} where {@{each of _A_(_x_) and _B_(_x_) is a function that is [analytic](analytic%20function.md) to a radius of convergence greater than _r_ (or is [entire](entire%20function.md)), and where _B_(_r_) ≠ 0}@} then: <!--SR:!2025-09-24,267,330!2025-04-01,101,250!2025-05-13,128,250-->
 
 - asymptotic growth of an ordinary generating function using [gamma function](gamma%20function.md) ::@:: $$a_{n}\sim {\frac {B(r)}{r^{\alpha }\Gamma (\beta )} }\,n^{\beta -1}\left({\frac {1}{r} }\right)^{n}$$ <!--SR:!2025-02-26,46,210!2025-01-30,71,270-->
-- asymptotic growth of an ordinary generating function using [binomial coefficient](binomial%20coefficient.md) ::@:: $$a_n \sim {\frac {B(r)}{r^{\alpha } } }{\binom {n+\beta -1}{n} }\left({\frac {1}{r} }\right)^{n}$$ (the right hand side equals the right hand side for multiset coefficient, not just asymptotic to it) <!--SR:!2025-01-27,70,270!2025-04-06,85,230-->
+- asymptotic growth of an ordinary generating function using [binomial coefficient](binomial%20coefficient.md) ::@:: $$a_n \sim {\frac {B(r)}{r^{\alpha } } }{\binom {n+\beta -1}{n} }\left({\frac {1}{r} }\right)^{n}$$ (the right hand side equals the right hand side for multiset coefficient, not just asymptotic to it) <!--SR:!2025-08-06,191,270!2025-04-06,85,230-->
 - asymptotic growth of an ordinary generating function using [multiset coefficient](multiset.md#counting%20multisets) ::@:: $$a_n \sim {\frac {B(r)}{r^{\alpha } } }\left(\!\!{\binom {\beta }{n} }\!\!\right)\left({\frac {1}{r} }\right)^{n}$$ (the right hand side equals the right hand side for binomial coefficient, not just asymptotic to it) <!--SR:!2025-02-02,72,270!2025-02-23,91,290-->
 
 ... using {@{the [gamma function](gamma%20function.md), a [binomial coefficient](binomial%20coefficient.md), or a [multiset coefficient](multiset.md#counting%20multisets)}@}. Note that {@{limit as _n_ goes to infinity of the ratio of _a_<sub>_n_</sub> to any of these expressions}@} is {@{guaranteed to be 1; not merely that _a_<sub>_n_</sub> is proportional to them}@}. <!--SR:!2025-09-29,272,330!2025-04-24,142,310!2025-09-26,269,330-->
@@ -449,7 +449,7 @@ Generating function transformations can come into play when we seek to express a
 
 There are also {@{integral formulas for converting between a sequence's OGF, _F_(_z_), and its exponential generating function, or EGF, _F̂_(_z_), and vice versa}@} given by <!--SR:!2025-03-30,126,310-->
 
-- exponential generating function to ordinary generating function ::@:: $$F(z)=\int _{0}^{\infty }{\hat {F} }(tz)e^{-t}\,dt\,,$$ <!--SR:!2025-03-15,88,230!2025-01-27,70,270-->
+- exponential generating function to ordinary generating function ::@:: $$F(z)=\int _{0}^{\infty }{\hat {F} }(tz)e^{-t}\,dt\,,$$ <!--SR:!2025-03-15,88,230!2025-08-05,190,270-->
 - ordinary generating function to exponential generating function ::@:: $${\hat {F} }(z)={\frac {1}{2\pi } }\int _{-\pi }^{\pi }F\left(ze^{-i\vartheta }\right)e^{e^{i\vartheta } }\,d\vartheta \,,$$ <!--SR:!2025-02-13,30,230!2025-03-16,89,230-->
 
 provided that {@{these integrals converge for appropriate values of _z_}@}. <!--SR:!2025-11-17,308,330-->

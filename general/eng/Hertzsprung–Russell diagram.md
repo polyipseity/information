@@ -21,7 +21,7 @@ The __Hertzsprung–Russell diagram__ (abbreviated as __H–R diagram__, __HR di
 
 ## forms of diagram
 
-There are {@{several forms of the Hertzsprung–Russell diagram, and the [nomenclature](nomenclature.md) is not very well defined}@}. All forms share the same general layout: {@{[stars](star.md) of greater [luminosity](luminosity.md) are toward the top of the diagram, and stars with higher surface [temperature](temperature.md) are toward the left side of the diagram}@}. <!--SR:!2025-07-12,270,330!2025-01-27,140,310-->
+There are {@{several forms of the Hertzsprung–Russell diagram, and the [nomenclature](nomenclature.md) is not very well defined}@}. All forms share the same general layout: {@{[stars](star.md) of greater [luminosity](luminosity.md) are toward the top of the diagram, and stars with higher surface [temperature](temperature.md) are toward the left side of the diagram}@}. <!--SR:!2025-07-12,270,330!2026-04-06,434,310-->
 
 The original diagram displayed {@{the [spectral type](stellar%20classification.md#spectral%20type) of [stars](star.md) on the horizontal axis and the [absolute visual magnitude](absolute%20magnitude.md) on the vertical axis}@}. <!--SR:!2025-04-07,174,270-->
 
@@ -29,7 +29,7 @@ Another form of the diagram plots {@{the effective surface [temperature](tempera
 
 ## interpretation
 
-Most of the [stars](star.md) occupy {@{the region in the diagram along the longest diagonal line called the [main sequence](main%20sequence.md)}@}. During the stage of their lives in which stars are found on the main sequence line, they are {@{[fusing hydrogen](proton–proton%20chain.md) in their cores}@}. <!--SR:!2025-01-27,127,290!2025-03-21,178,310-->
+Most of the [stars](star.md) occupy {@{the region in the diagram along the longest diagonal line called the [main sequence](main%20sequence.md)}@}. During the stage of their lives in which stars are found on the main sequence line, they are {@{[fusing hydrogen](proton–proton%20chain.md) in their cores}@}. <!--SR:!2026-02-06,375,290!2025-03-21,178,310-->
 
 ## references
 
