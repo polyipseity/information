@@ -29,7 +29,7 @@ To assign a value or the result of an expression to a variable, use {@{`=`}@}: <
 variableName = 1 + 2;
 ```
 
-One must {@{declare a variable, prefixed with the type of the variable, i.e. what the variable can hold}@}, before assigning things to it. Optionally, {@{one can declare a variable and assign to it}@} simultaneously: <!--SR:!2026-08-04,687,330!2025-01-28,281,330-->
+One must {@{declare a variable, prefixed with the type of the variable, i.e. what the variable can hold}@}, before assigning things to it. Optionally, {@{one can declare a variable and assign to it}@} simultaneously: <!--SR:!2026-08-04,687,330!2028-07-28,1277,350-->
 
 ```Java
 int anIntegerVariable; // `int` means the variable can hold integers
@@ -261,7 +261,7 @@ return _chain.from_iterable(await _gather(
 <!--pytextgen generate section="d123"--><!-- The following content is generated at 2024-01-30T13:35:46.651317+08:00. Any edits will be overridden! -->
 
 - _(begin)_→::@::←`<` <!--SR:!2025-10-23,293,210!2027-11-04,1031,330-->
-- `<`→::@::←`>` <!--SR:!2025-02-17,296,330!2025-01-28,275,330-->
+- `<`→::@::←`>` <!--SR:!2025-02-17,296,330!2028-07-02,1251,350-->
 - `>`→::@::←`<=` <!--SR:!2026-02-26,514,310!2027-03-22,845,310-->
 - `<=`→::@::←`>=` <!--SR:!2026-12-22,796,330!2025-05-09,306,290-->
 - `>=`→::@::←`==` <!--SR:!2025-12-03,412,310!2025-03-26,137,170-->

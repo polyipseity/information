@@ -64,7 +64,7 @@ Demand curve is {@{a graphical presentation of the "[law of demand](law%20of%20d
 5. Irregular demand — ::@:: Consumer purchases vary on a seasonal, monthly, weekly, daily, or even hourly basis. <!--SR:!2025-08-11,202,324!2025-02-20,72,324-->
 6. Full demand — ::@:: Consumers are adequately buying all products put into the marketplace. <!--SR:!2025-02-22,74,324!2025-02-17,70,324-->
 7. Overfull demand — ::@:: More consumers would like to buy the product than can be satisfied. <!--SR:!2025-02-17,70,324!2025-02-11,65,324-->
-8. Unwholesome demand — ::@:: Consumers may be attracted to products that have undesirable social consequences.<sup>[\[9\]](#^ref-9)</sup> <!--SR:!2025-01-28,50,304!2025-02-01,56,310-->
+8. Unwholesome demand — ::@:: Consumers may be attracted to products that have undesirable social consequences.<sup>[\[9\]](#^ref-9)</sup> <!--SR:!2025-08-26,210,324!2025-02-01,56,310-->
 
 ## price elasticity of demand
 

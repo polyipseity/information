@@ -61,6 +61,6 @@ tags:
 - final examination
   - report
     - Remember the conditions for the algebraic limit theorem...
-      - algebraic limit theorem conditions (0) ::@:: If you try to split an expression in a limit into several limits, and find that the smaller limits do not exist, the algebraic limit theorem probably does not apply... <!--SR:!2025-01-28,61,310!2025-02-05,67,310-->
+      - algebraic limit theorem conditions (0) ::@:: If you try to split an expression in a limit into several limits, and find that the smaller limits do not exist, the algebraic limit theorem probably does not apply... <!--SR:!2025-10-21,266,330!2025-02-05,67,310-->
     - Manual calculations may possibly yield human errors...
     - Label a number on a graph wrongly.

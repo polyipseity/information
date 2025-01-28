@@ -13,33 +13,33 @@ tags:
 
 In [mathematics](mathematics.md), particularly in {@{[combinatorics](combinatorics.md)}@}, {@{a __Stirling number of the second kind__ (or __Stirling partition number__)}@} is {@{the number of ways to [partition a set](partition%20of%20a%20set.md) of _n_ objects into _k_ non-empty subsets}@} and is denoted by {@{$S(n,k)$ or $\textstyle \left\{ {n \atop k}\right\}$}@}.<sup>[\[1\]](#^ref-1)</sup> Stirling numbers of the second kind occur in {@{the field of [mathematics](mathematics.md) called [combinatorics](combinatorics.md) and the study of [partitions](integer%20partition.md)}@}. They are named {@{after [James Stirling](James%20Stirling%20(mathematician).md)}@}. <!--SR:!2025-01-30,72,310!2025-01-30,72,310!2025-01-30,72,310!2025-01-30,72,310!2025-08-28,213,310!2025-01-29,71,310-->
 
-{@{The Stirling numbers of the [first](Stirling%20numbers%20of%20the%20first%20kind.md) and second kind}@} can be {@{understood as inverses of one another when viewed as [triangular matrices](triangular%20matrix.md)}@}. This article is {@{devoted to specifics of Stirling numbers of the second kind}@}. {@{Identities linking the two kinds}@} appear in the article on [Stirling numbers](Stirling%20number.md). <!--SR:!2025-01-28,70,310!2025-11-26,303,330!2025-11-26,303,330!2025-01-29,72,310-->
+{@{The Stirling numbers of the [first](Stirling%20numbers%20of%20the%20first%20kind.md) and second kind}@} can be {@{understood as inverses of one another when viewed as [triangular matrices](triangular%20matrix.md)}@}. This article is {@{devoted to specifics of Stirling numbers of the second kind}@}. {@{Identities linking the two kinds}@} appear in the article on [Stirling numbers](Stirling%20number.md). <!--SR:!2025-11-27,303,330!2025-11-26,303,330!2025-11-26,303,330!2025-01-29,72,310-->
 
 ## definition
 
 {@{The Stirling numbers of the second kind}@}, written {@{$S(n,k)$ or $\lbrace \textstyle {n \atop k}\rbrace$ or with other notations}@}, count {@{the number of ways to [partition](partition%20of%20a%20set.md) a [set](set%20(mathematics).md) of $n$ labelled objects into $k$ nonempty unlabelled subsets}@}. Equivalently, they count {@{the number of different [equivalence relations](equivalence%20relation.md) with precisely $k$ equivalence classes that can be defined on an $n$ element set}@}. In fact, there is {@{a [bijection](bijection.md) between the set of partitions and the set of equivalence relations on a given set}@}. Obviously, <p> {@{$\left\{ {n \atop n}\right\}=1$ for _n_ ≥ 0, and $\left\{ {n \atop 1}\right\}=1$ for _n_ ≥ 1}@}, <p> as {@{the only way to partition an _n_-element set into _n_ parts is to put each element of the set into its own part}@}, and {@{the only way to partition a nonempty set into one part is to put all of the elements in the same part}@}. Unlike {@{[Stirling numbers of the first kind](Stirling%20numbers%20of%20the%20first%20kind.md)}@}, they can be {@{calculated using a one-sum formula:<sup>[\[2\]](#^ref-2)</sup> $$\left\{ {n \atop k}\right\}={\frac {1}{k!} }\sum _{i=0}^{k}(-1)^{k-i}{\binom {k}{i} }i^{n}=\sum _{i=0}^{k}{\frac {(-1)^{k-i}i^{n} }{(k-i)!i!} }.$$}@} <!--SR:!2025-01-29,71,310!2025-11-20,298,330!2025-11-19,297,330!2025-01-30,72,310!2025-01-30,72,310!2025-01-30,72,310!2025-01-30,72,310!2025-11-08,287,330!2025-07-25,202,310!2025-05-25,126,250-->
 
-{@{The Stirling numbers of the first kind}@} may be characterized as {@{the numbers that arise when one expresses powers of an indeterminate _x_ in terms of the [falling factorials](falling%20and%20rising%20factorials.md)<sup>[\[3\]](#^ref-3)</sup> $$(x)_{n}=x(x-1)(x-2)\cdots (x-n+1).$$}@} (In particular, {@{(_x_)<sub>0</sub> = 1 because it is an [empty product](empty%20product.md)}@}.) <!--SR:!2025-01-29,72,310!2025-11-26,303,330!2025-01-28,70,310-->
+{@{The Stirling numbers of the first kind}@} may be characterized as {@{the numbers that arise when one expresses powers of an indeterminate _x_ in terms of the [falling factorials](falling%20and%20rising%20factorials.md)<sup>[\[3\]](#^ref-3)</sup> $$(x)_{n}=x(x-1)(x-2)\cdots (x-n+1).$$}@} (In particular, {@{(_x_)<sub>0</sub> = 1 because it is an [empty product](empty%20product.md)}@}.) <!--SR:!2025-01-29,72,310!2025-11-26,303,330!2025-11-30,306,330-->
 
 {@{Stirling numbers of the second kind}@} satisfy {@{the relation $$\sum _{k=0}^{n}\left\{ {n \atop k}\right\}(x)_{k}=x^{n}.$$}@} <!--SR:!2025-01-30,72,310!2025-03-31,100,270-->
 
 ## notation
 
-{@{Various notations}@} have been used for {@{Stirling numbers of the second kind}@}. {@{The brace notation $\textstyle \lbrace {n \atop k}\rbrace$}@} was {@{used by Imanuel Marx and Antonio Salmeri in 1962 for variants of these numbers}@}.<sup>[\[4\]](#^ref-4)</sup><sup>[\[5\]](#^ref-5)</sup> This led {@{[Knuth](Donald%20Knuth.md) to use it, as shown here, in the first volume of _[The Art of Computer Programming](The%20Art%20of%20Computer%20Programming.md)_ (1968)}@}.<sup>[\[6\]](#^ref-6)</sup><sup>[\[7\]](#^ref-7)</sup> According to the third edition of _The Art of Computer Programming_, this notation was {@{also used earlier by [Jovan Karamata](Jovan%20Karamata.md) in 1935}@}.<sup>[\[8\]](#^ref-8)</sup><sup>[\[9\]](#^ref-9)</sup> {@{The notation _S_(_n_, _k_)}@} was used by {@{[Richard Stanley](Richard%20P.%20Stanley.md) in his book _[Enumerative Combinatorics](enumerative%20combinatorics.md)_ and also, much earlier, by many other writers}@}.<sup>[\[6\]](#^ref-6)</sup> <!--SR:!2025-01-30,72,310!2025-01-30,72,310!2025-01-28,70,310!2025-03-28,97,270!2025-01-30,72,310!2025-01-30,72,310!2025-01-30,72,310!2025-01-28,71,310-->
+{@{Various notations}@} have been used for {@{Stirling numbers of the second kind}@}. {@{The brace notation $\textstyle \lbrace {n \atop k}\rbrace$}@} was {@{used by Imanuel Marx and Antonio Salmeri in 1962 for variants of these numbers}@}.<sup>[\[4\]](#^ref-4)</sup><sup>[\[5\]](#^ref-5)</sup> This led {@{[Knuth](Donald%20Knuth.md) to use it, as shown here, in the first volume of _[The Art of Computer Programming](The%20Art%20of%20Computer%20Programming.md)_ (1968)}@}.<sup>[\[6\]](#^ref-6)</sup><sup>[\[7\]](#^ref-7)</sup> According to the third edition of _The Art of Computer Programming_, this notation was {@{also used earlier by [Jovan Karamata](Jovan%20Karamata.md) in 1935}@}.<sup>[\[8\]](#^ref-8)</sup><sup>[\[9\]](#^ref-9)</sup> {@{The notation _S_(_n_, _k_)}@} was used by {@{[Richard Stanley](Richard%20P.%20Stanley.md) in his book _[Enumerative Combinatorics](enumerative%20combinatorics.md)_ and also, much earlier, by many other writers}@}.<sup>[\[6\]](#^ref-6)</sup> <!--SR:!2025-01-30,72,310!2025-01-30,72,310!2025-11-29,305,330!2025-03-28,97,270!2025-01-30,72,310!2025-01-30,72,310!2025-01-30,72,310!2025-09-05,220,310-->
 
-The notations used on this page for Stirling numbers are {@{not universal, and may conflict with notations in other sources}@}. <!--SR:!2025-01-28,70,310-->
+The notations used on this page for Stirling numbers are {@{not universal, and may conflict with notations in other sources}@}. <!--SR:!2025-09-02,217,310-->
 
 ## relation to Bell numbers
 
 - see: [Bell number](Bell%20number.md)
 
-Since {@{the Stirling number $\left\{ {n \atop k}\right\}$ counts set partitions of an _n_-element set into _k_ parts}@}, {@{the sum $$B_{n}=\sum _{k=0}^{n}\left\{ {n \atop k}\right\}$$ over all values of _k_}@} is {@{the total number of partitions of a set with _n_ members}@}. This number is {@{known as the _n_-th [Bell number](Bell%20number.md)}@}. <!--SR:!2025-01-28,70,310!2025-01-29,72,310!2025-11-07,286,330!2025-08-28,213,310-->
+Since {@{the Stirling number $\left\{ {n \atop k}\right\}$ counts set partitions of an _n_-element set into _k_ parts}@}, {@{the sum $$B_{n}=\sum _{k=0}^{n}\left\{ {n \atop k}\right\}$$ over all values of _k_}@} is {@{the total number of partitions of a set with _n_ members}@}. This number is {@{known as the _n_-th [Bell number](Bell%20number.md)}@}. <!--SR:!2025-12-01,307,330!2025-01-29,72,310!2025-11-07,286,330!2025-08-28,213,310-->
 
 Analogously, {@{the [ordered Bell numbers](ordered%20Bell%20number.md)}@} can be computed from {@{the Stirling numbers of the second kind via $$a_{n}=\sum _{k=0}^{n}k!\left\{ {n \atop k}\right\}.$$}@}<sup>[\[10\]](#^ref-10)</sup> <!--SR:!2025-11-21,299,330!2025-05-09,139,290-->
 
 ## table of values
 
-Below is {@{a [triangular array](triangular%20array.md) of values for the Stirling numbers of the second kind}@} (sequence {@{[A008277](https://oeis.org/A008277)}@} in the [OEIS](On-Line%20Encyclopedia%20of%20Integer%20Sequences.md)): <!--SR:!2025-01-30,72,310!2025-01-28,24,270-->
+Below is {@{a [triangular array](triangular%20array.md) of values for the Stirling numbers of the second kind}@} (sequence {@{[A008277](https://oeis.org/A008277)}@} in the [OEIS](On-Line%20Encyclopedia%20of%20Integer%20Sequences.md)): <!--SR:!2025-01-30,72,310!2025-02-09,12,250-->
 
 | ___k___\\___n___ | __0__ | __1__ | __2__ | __3__ | __4__ | __5__ | __6__ | __7__ | __8__ | __9__ | __10__ |
 | ----------------:| -----:| -----:| -----:| -----:| -----:| -----:| -----:| -----:| -----:| -----:| ------:|
@@ -55,7 +55,7 @@ Below is {@{a [triangular array](triangular%20array.md) of values for the Stirli
 | __9__            | 0     | 1     | 255   | 3025  | 7770  | 6951  | 2646  | 462   | 36    | 1     |        |
 | __10__           | 0     | 1     | 511   | 9330  | 34105 | 42525 | 22827 | 5880  | 750   | 45    | 1      |
 
-As with {@{the [binomial coefficients](binomial%20coefficient.md)}@}, this table {@{could be extended to _k_ > _n_, but the entries would all be 0}@}. <!--SR:!2025-11-02,282,330!2025-01-28,70,310-->
+As with {@{the [binomial coefficients](binomial%20coefficient.md)}@}, this table {@{could be extended to _k_ > _n_, but the entries would all be 0}@}. <!--SR:!2025-11-02,282,330!2025-11-28,304,330-->
 
 ## properties
 
@@ -75,11 +75,11 @@ Some simple identities include {@{$$\left\{ {n \atop n-1}\right\}={\binom {n}{2}
 
 and {@{$$\left\{ {n \atop 2}\right\}=2^{n-1}-1.$$}@} To see this, first note that {@{there are 2<sup>_n_</sup> _ordered_ pairs of complementary subsets _A_ and _B_}@}. In one case, {@{_A_ is empty, and in another _B_ is empty, so 2<sup>_n_</sup> − 2 ordered pairs of subsets remain}@}. Finally, since {@{we want _unordered_ pairs rather than _ordered_ pairs we divide this last number by 2}@}, giving the result above. <!--SR:!2025-07-10,186,310!2025-07-24,201,310!2025-11-26,303,330!2025-08-20,206,310-->
 
-{@{Another explicit expansion of the recurrence-relation}@} gives {@{identities in the spirit of the above example}@}. <!--SR:!2025-11-21,299,330!2025-01-28,70,310-->
+{@{Another explicit expansion of the recurrence-relation}@} gives {@{identities in the spirit of the above example}@}. <!--SR:!2025-11-21,299,330!2025-09-01,216,310-->
 
 ### identities
 
-{@{The table in section 6.1 of _Concrete Mathematics_}@} provides {@{a plethora of generalized forms of finite sums involving the Stirling numbers}@}. Several particular finite sums relevant to this article include <!--SR:!2025-01-30,72,310!2025-01-28,70,310-->
+{@{The table in section 6.1 of _Concrete Mathematics_}@} provides {@{a plethora of generalized forms of finite sums involving the Stirling numbers}@}. Several particular finite sums relevant to this article include <!--SR:!2025-01-30,72,310!2025-09-03,218,310-->
 
 - increment by binomial coefficient ::@:: $$\left\{ {n+1 \atop k+1}\right\}=\sum _{j=k}^{n}{n \choose j}\left\{ {j \atop k}\right\}$$ (annotation: Choose _n_ - _j_ elements from _n_ + 1 elements to form a maybe empty partition. Add the 1 element to ensure it is nonempty. Partition the remaining _j_ elements into _k_ partitions.) <!--SR:!2025-03-24,93,270!2025-01-29,71,310-->
 - increment by combinatorial argument ::@:: $$\left\{ {n+1 \atop k+1}\right\}=\sum _{j=k}^{n}(k+1)^{n-j}\left\{ {j \atop k}\right\}$$ (annotation: Choose _n_ - _j_ elements from _n_ + 1 elements. They may be assigned to any of the _k_ + 1 partitions. Partition the remaining _j_ elements into _k_ partitions. Assign the extra element to ensure the the extra partition is nonempty.) <!--SR:!2025-03-17,93,270!2025-03-28,97,270-->
@@ -155,9 +155,9 @@ In other words, {@{the _n_-th moment of this [probability distribution](probabil
 
 ### associated Stirling numbers of the second kind
 
-{@{An _r_-associated Stirling number of the second kind}@} is {@{the number of ways to partition a set of _n_ objects into _k_ subsets, with each subset containing at least _r_ elements}@}.<sup>[\[17\]](#^ref-17)</sup> It is denoted by {@{$S_{r}(n,k)$}@} and obeys {@{the recurrence relation $$S_{r}(n+1,k)=k\ S_{r}(n,k)+{\binom {n}{r-1} }S_{r}(n-r+1,k-1)$$}@} (annotation: The first term {@{counts the number of ways to add an element to an existing partition, while the second term counts the number of ways to create a new partition with _r_ − 1 elements and the new element}@}.) <!--SR:!2025-01-28,23,270!2025-01-28,23,270!2025-01-30,72,310!2025-05-19,120,250!2025-05-24,139,290-->
+{@{An _r_-associated Stirling number of the second kind}@} is {@{the number of ways to partition a set of _n_ objects into _k_ subsets, with each subset containing at least _r_ elements}@}.<sup>[\[17\]](#^ref-17)</sup> It is denoted by {@{$S_{r}(n,k)$}@} and obeys {@{the recurrence relation $$S_{r}(n+1,k)=k\ S_{r}(n,k)+{\binom {n}{r-1} }S_{r}(n-r+1,k-1)$$}@} (annotation: The first term {@{counts the number of ways to add an element to an existing partition, while the second term counts the number of ways to create a new partition with _r_ − 1 elements and the new element}@}.) <!--SR:!2025-04-01,63,270!2025-02-09,12,250!2025-01-30,72,310!2025-05-19,120,250!2025-05-24,139,290-->
 
-{@{The 2-associated numbers}@} (sequence {@{[A008299](https://oeis.org/A008299)}@} in the [OEIS](On-Line%20Encyclopedia%20of%20Integer%20Sequences.md)) appear elsewhere as {@{"Ward numbers" and as the magnitudes of the coefficients of [Mahler polynomials](Mahler%20polynomial.md)}@}. <!--SR:!2025-05-26,143,290!2025-02-24,47,250!2025-01-28,23,270-->
+{@{The 2-associated numbers}@} (sequence {@{[A008299](https://oeis.org/A008299)}@} in the [OEIS](On-Line%20Encyclopedia%20of%20Integer%20Sequences.md)) appear elsewhere as {@{"Ward numbers" and as the magnitudes of the coefficients of [Mahler polynomials](Mahler%20polynomial.md)}@}. <!--SR:!2025-05-26,143,290!2025-02-24,47,250!2025-03-30,61,270-->
 
 ### reduced Stirling numbers of the second kind
 

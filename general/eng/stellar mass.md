@@ -9,7 +9,7 @@ tags:
 
 # stellar mass
 
-__Stellar mass__ is {@{a phrase that is used by [astronomers](astronomer.md) to describe the [mass](mass.md) of a [star](star.md)}@}. It is usually enumerated in terms of {@{the [Sun](Sun.md)'s mass as a proportion of a [solar mass](solar%20mass.md) (_M_<sub>☉</sub>)}@}. <!--SR:!2025-02-01,144,310!2025-01-28,140,310-->
+__Stellar mass__ is {@{a phrase that is used by [astronomers](astronomer.md) to describe the [mass](mass.md) of a [star](star.md)}@}. It is usually enumerated in terms of {@{the [Sun](Sun.md)'s mass as a proportion of a [solar mass](solar%20mass.md) (_M_<sub>☉</sub>)}@}. <!--SR:!2025-02-01,144,310!2026-09-21,601,330-->
 
 ## references
 

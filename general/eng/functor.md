@@ -40,7 +40,7 @@ Let {@{_C_ and _D_ be [categories](category%20(mathematics).md)}@}. {@{A __funct
 - (annotation: morphism) ::@:: associates each [morphism](morphism.md) $f\colon X\to Y$ in _C_ to a morphism $F(f)\colon F(X)\to F(Y)$ in _D_ such that the following two conditions hold: (annotation: identity, composition) <!--SR:!2025-04-07,71,326!2025-03-15,48,290-->
   - (annotation: identity) ::@:: $F(\mathrm {id} _{X})=\mathrm {id} _{F(X)}\,\!$ for every object $X$ in _C_, <!--SR:!2025-04-03,67,310!2025-04-13,76,337-->
   - (annotation: composition) ::@:: $F(g\circ f)=F(g)\circ F(f)$ for all morphisms $f\colon X\to Y\,\!$ and $g\colon Y\to Z$ in _C_. <!--SR:!2025-04-10,73,337!2025-04-03,67,310-->
-- (annotation: functor, notes) ::@:: (annotation: The object and morphism mappings are _not_ required to be injective or surjective. For example, see [constant functor](constant%20functor.md#examples), which maps every object to the same object and every morphism to the identity morphism of that object.) <!--SR:!2025-01-28,18,327!2025-01-28,18,327-->
+- (annotation: functor, notes) ::@:: (annotation: The object and morphism mappings are _not_ required to be injective or surjective. For example, see [constant functor](constant%20functor.md#examples), which maps every object to the same object and every morphism to the identity morphism of that object.) <!--SR:!2025-04-22,84,347!2025-04-22,84,347-->
 
 That is, functors must {@{preserve [identity morphisms](morphism.md#definition) and [composition](function%20composition.md) of morphisms}@}. <!--SR:!2025-04-14,77,337-->
 
@@ -213,7 +213,7 @@ Functors sometimes {@{appear in [functional programming](functional%20programmin
 8. <a id="CITEREFHazewinkelGubareniGubareniKirichenko2004"></a> [Hazewinkel, Michiel](Michiel%20Hazewinkel.md); [Gubareni, Nadezhda Mikhaĭlovna](Nadezhda%20Mikhaĭlovna.md); [Gubareni, Nadiya](Nadiya%20Gubareni.md); [Kirichenko, Vladimir V.](Vladimir%20V.%20Kirichenko.md) \(2004\), _Algebras, rings and modules_, Springer, [ISBN](ISBN%20(identifier).md) [978-1-4020-2690-4](https://en.wikipedia.org/wiki/Special:BookSources/978-1-4020-2690-4) <a id="^ref-8"></a>^ref-8
 9. [Jacobson \(2009\)](#CITEREFJacobson2009), p. 20, ex. 2. <a id="^ref-9"></a>^ref-9
 10. It's {@{not entirely clear that Haskell datatypes truly form a category}@}. See [https://wiki.haskell.org/Hask](https://wiki.haskell.org/Hask) for more details. <a id="^ref-10"></a>^ref-10
-11. See [https://wiki.haskell.org/Category\_theory/Functor\#Functors\_in\_Haskell](https://wiki.haskell.org/Category_theory/Functor#Functors_in_Haskell) for more information. <a id="^ref-11"></a>^ref-11 <!--SR:!2025-01-28,18,327-->
+11. See [https://wiki.haskell.org/Category\_theory/Functor\#Functors\_in\_Haskell](https://wiki.haskell.org/Category_theory/Functor#Functors_in_Haskell) for more information. <a id="^ref-11"></a>^ref-11 <!--SR:!2025-04-21,83,347-->
 
 ## references
 

@@ -24,7 +24,7 @@ tags:
     - `TINYINT` ::@:: Signed is from -2<sup>7</sup> to 2<sup>7</sup> - 1 and unsigned is from 0 to 2<sup>8</sup> - 1. <!--SR:!2027-01-14,833,310!2025-03-01,407,330-->
     - `SMALLINT` ::@:: Signed is from -2<sup>15</sup> to 2<sup>15</sup> - 1 and unsigned is 0 to 2<sup>16</sup> - 1. <!--SR:!2025-02-27,405,330!2028-04-07,1193,330-->
     - `INT`, `INTEGER` ::@:: Signed is from -2<sup>23</sup> to 2<sup>23</sup> - 1 and unsigned is from 0 to 2<sup>24</sup> - 1. <!--SR:!2025-04-08,422,330!2026-01-25,567,290-->
-    - `MEDIUMINT` ::@:: Signed is from -2<sup>31</sup> to 2<sup>31</sup> - 1 and unsigned is from 0 to 2<sup>32</sup> - 1. <!--SR:!2026-11-25,809,310!2025-01-28,381,330-->
+    - `MEDIUMINT` ::@:: Signed is from -2<sup>31</sup> to 2<sup>31</sup> - 1 and unsigned is from 0 to 2<sup>32</sup> - 1. <!--SR:!2026-11-25,809,310!2029-10-27,1733,350-->
     - `BIGINT` ::@:: Signed is from -2<sup>63</sup> to 2<sup>63</sup> - 1 and unsigned is from 0 to 2<sup>64</sup> - 1. <!--SR:!2027-12-27,1187,330!2025-04-06,422,330-->
 - string data types ::@:: `BINARY`, `BLOB`, `CHAR`, `ENUM`, `SET`, `TEXT`, `VARBINARY`, `VARCHAR` <!--SR:!2027-03-10,871,310!2026-03-22,594,290-->
   - `BINARY`, `VARBINARY` ::@:: Binary strings. Length of the former is fixed and of the latter is variable. <!--SR:!2029-04-03,1572,350!2025-05-16,454,330-->

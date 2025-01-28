@@ -1419,7 +1419,7 @@ tags:
 > 5. Rewards
 > 6. Policy
 >
-> - solution: {@{1. the monkey <br/> 2. circus/training room <br/> 3. what the monkey observes <br/> 4. tricks performable by the monkey <br/> 5. food <br/> 6. a way to perform tricks as to get the most food (which, to the trainer, means a way to perform tricks elegantly)}@} <!--SR:!2025-01-28,25,270-->
+> - solution: {@{1. the monkey <br/> 2. circus/training room <br/> 3. what the monkey observes <br/> 4. tricks performable by the monkey <br/> 5. food <br/> 6. a way to perform tricks as to get the most food (which, to the trainer, means a way to perform tricks elegantly)}@} <!--SR:!2025-04-05,67,270-->
 
 <!-- markdownlint MD028 -->
 

@@ -54,7 +54,7 @@ See [Burj Al Arab](../../../../general/Burj%20Al%20Arab.md).
 See [Burj Khalifa](../../../../general/Burj%20Khalifa.md).
 
 - description ::@:: skyscraper in Dubai, United Arab Emirates <!--SR:!2026-06-15,574,317!2025-08-07,356,374-->
-- height ::@:: architectural: 828 m, tip: 829.8 m, top floor: 585.4 m <!--SR:!2025-01-28,110,261!2025-09-17,384,377-->
+- height ::@:: architectural: 828 m, tip: 829.8 m, top floor: 585.4 m <!--SR:!2025-03-23,54,241!2025-09-17,384,377-->
 - image ::@:: ![Burj Khalifa image](../../../../archives/Wikimedia%20Commons/Burj%20Khalifa.jpg) <!--SR:!2025-07-08,324,380!2025-04-18,271,380-->
 - [structural system](../../../../general/structural%20system.md) ::@:: aluminum, reinforced concrete, steel<!-- flashcard e75e9185-3454-4c54-a9c9-5a05c6b26732 --> <!--SR:!2025-10-15,407,341!2025-02-01,232,330-->
 
@@ -226,7 +226,7 @@ See [Millau Viaduct](../../../../general/Millau%20Viaduct.md).
 - length ::@:: 2450 m = 204 m + 342 m × 6 + 204 m, longest span: 342 m <!--SR:!2025-03-02,114,296!2026-02-17,488,396-->
 - image ::@:: ![Millau Viaduct image](../../../../archives/Wikimedia%20Commons/ViaducdeMillau.jpg) <!--SR:!2026-11-14,740,416!2025-10-14,411,396-->
 - opening time ::@:: 2004-12-16, 09:00 <!--SR:!2025-04-24,123,256!2025-05-30,281,376-->
-- width ::@:: 32.05 m <!--SR:!2025-01-28,77,336!2025-08-02,326,376-->
+- width ::@:: 32.05 m <!--SR:!2025-03-07,38,316!2025-08-02,326,376-->
 
 ## Mont Cenis Base Tunnel
 

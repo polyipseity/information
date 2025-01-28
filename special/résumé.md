@@ -59,7 +59,7 @@ return await memorize_seq(
 
 - _(begin)_→::@::←[profile summary](#profile%20summary) <!--SR:!2026-09-21,765,330!2027-07-24,1068,350-->
 - [profile summary](#profile%20summary)→::@::←[education](#education) <!--SR:!2026-09-24,768,330!2025-05-16,359,310-->
-- [education](#education)→::@::←[experience](#experience) <!--SR:!2026-03-13,600,310!2025-01-28,190,270-->
+- [education](#education)→::@::←[experience](#experience) <!--SR:!2026-03-13,600,310!2027-01-12,714,290-->
 - [experience](#experience)→::@::←[achievements](#achievements) <!--SR:!2025-02-06,217,250!2027-04-09,892,310-->
 - [achievements](#achievements)→::@::←[skills](#skills) <!--SR:!2027-08-05,977,290!2026-03-24,610,310-->
 - [skills](#skills)→::@::←[others](#others) <!--SR:!2026-07-27,725,330!2028-03-26,1166,310-->
