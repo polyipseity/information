@@ -13,29 +13,29 @@ tags:
 # profit
 
 - This article is about {@{profit in accounting and business}@}. For {@{profit in [economics](economics.md) and [political economy](political%20economy.md)}@}, see {@{[Profit \(economics\)](profit%20(economics).md)}@}.
-- "{@{PBIT}@}" redirects here. For {@{the measurement of computer storage}@}, see {@{[Petabit](petabit.md#multiple%20bits)}@}.
+- "{@{PBIT}@}" redirects here. For {@{the measurement of computer storage}@}, see {@{[Petabit](petabit.md#multiple%20bits)}@}. <!--SR:!2025-01-31,4,270!2025-01-31,4,270!2025-01-31,4,270!2025-01-31,4,270!2025-01-31,4,270!2025-01-31,4,270-->
 
 <!-- | ![](../../archives/Wikimedia%20Commons/Text%20document%20with%20red%20question%20mark.svg) | This article includes a [list of references](https://en.wikipedia.org/wiki/Wikipedia:Citing%20sources), [related reading](https://en.wikipedia.org/wiki/Wikipedia:Further%20reading), or [external links](https://en.wikipedia.org/wiki/Wikipedia:External%20links), __but its sources remain unclear because it lacks [inline citations](https://en.wikipedia.org/wiki/Wikipedia:Citing%20sources#Inline%20citations)__. Please help [improve](https://en.wikipedia.org/wiki/Wikipedia:WikiProject%20Reliability) this article by [introducing](https://en.wikipedia.org/wiki/Wikipedia:When%20to%20cite) more precise citations. _\(May 2020\)__\([Learn how and when to remove this message](https://en.wikipedia.org/wiki/Help:Maintenance%20template%20removal)\)_ | -->
 
 > {@{![Stock index chart of 2020 with stock market crash](../../archives/Wikimedia%20Commons/Stock-indices-2020crash%2Brecovery.svg)}@}
 >
-> {@{Stock index chart}@} showing {@{the recovery after the [2020 Stock Market Crash](2020%20stock%20market%20crash.md)}@}
+> {@{Stock index chart}@} showing {@{the recovery after the [2020 Stock Market Crash](2020%20stock%20market%20crash.md)}@} <!--SR:!2025-01-31,4,270!2025-01-31,4,270!2025-01-31,4,270-->
 
-{@{__Profit__}@}, in {@{[accounting](accounting.md)}@}, is {@{an [income](income.md) distributed to the [owner](ownership.md) in a [profitable](profit%20(economics).md) [market production](market%20production.md) process \([business](business.md)\)}@}. Profit is a measure of {@{[profitability](profitability.md) which is the owner's major interest in the income-formation process of market production}@}. There are {@{several profit measures in common use}@}.
+{@{__Profit__}@}, in {@{[accounting](accounting.md)}@}, is {@{an [income](income.md) distributed to the [owner](ownership.md) in a [profitable](profit%20(economics).md) [market production](market%20production.md) process \([business](business.md)\)}@}. Profit is a measure of {@{[profitability](profitability.md) which is the owner's major interest in the income-formation process of market production}@}. There are {@{several profit measures in common use}@}. <!--SR:!2025-01-31,4,270!2025-01-31,4,270!2025-01-31,4,270!2025-01-30,3,250!2025-01-31,4,270-->
 
-{@{Income formation in market production}@} is always {@{a balance between income generation and [income distribution](income%20distribution.md)}@}. The income generated is always {@{distributed to the [stakeholders](stakeholder%20(corporate).md) of production as [economic value](economic%20value.md) within the review period}@}. The profit is {@{the share of income formation the owner is able to keep to themselves in the income distribution process}@}. Profit is {@{one of the major sources of [economic](economics.md) [well-being](well-being.md)}@} because {@{it means incomes and opportunities to develop production}@}. The words {@{"income", "profit" and "earnings"}@} are {@{synonyms in this context}@}.
+{@{Income formation in market production}@} is always {@{a balance between income generation and [income distribution](income%20distribution.md)}@}. The income generated is always {@{distributed to the [stakeholders](stakeholder%20(corporate).md) of production as [economic value](economic%20value.md) within the review period}@}. The profit is {@{the share of income formation the owner is able to keep to themselves in the income distribution process}@}. Profit is {@{one of the major sources of [economic](economics.md) [well-being](well-being.md)}@} because {@{it means incomes and opportunities to develop production}@}. The words {@{"income", "profit" and "earnings"}@} are {@{synonyms in this context}@}. <!--SR:!2025-01-31,4,270!2025-01-31,4,270!2025-01-31,4,270!2025-01-31,4,270!2025-01-31,4,270!2025-01-31,4,270!2025-01-31,4,270!2025-01-31,4,270-->
 
 ## other terms
 
-[Net sales](net%20sales.md) ::@:: = [gross sales](gross%20sales.md#gross%20sales%20and%20net%20sales) – \(customer discounts, returns, and allowances\)
+[Net sales](net%20sales.md) ::@:: = [gross sales](gross%20sales.md#gross%20sales%20and%20net%20sales) – \(customer discounts, returns, and allowances\) <!--SR:!2025-01-31,4,270!2025-01-31,4,270-->
 
-[Gross profit](gross%20profit.md) ::@:: = [net sales](net%20sales.md) – [cost of goods sold](cost%20of%20goods%20sold.md)
+[Gross profit](gross%20profit.md) ::@:: = [net sales](net%20sales.md) – [cost of goods sold](cost%20of%20goods%20sold.md) <!--SR:!2025-01-31,4,270!2025-01-31,4,270-->
 
-[Operating profit](operating%20profit.md) ::@:: = [gross profit](gross%20profit.md) – total [operating expenses](operating%20expense.md)
+[Operating profit](operating%20profit.md) ::@:: = [gross profit](gross%20profit.md) – total [operating expenses](operating%20expense.md) <!--SR:!2025-01-31,4,270!2025-01-31,4,270-->
 
-[Net profit](net%20profit.md) ::@:: = [operating profit](operating%20profit.md) – taxes – interest
+[Net profit](net%20profit.md) ::@:: = [operating profit](operating%20profit.md) – taxes – interest <!--SR:!2025-01-31,4,270!2025-01-31,4,270-->
 
-[Net profit](net%20profit.md) (annotation: full form) ::@:: = [net sales](net%20sales.md) – [cost of goods sold](cost%20of%20goods%20sold.md) – [operating expense](operating%20expense.md) – taxes – interest
+[Net profit](net%20profit.md) (annotation: full form) ::@:: = [net sales](net%20sales.md) – [cost of goods sold](cost%20of%20goods%20sold.md) – [operating expense](operating%20expense.md) – taxes – interest <!--SR:!2025-01-31,4,270!2025-01-31,4,270-->
 
 ## see also
 

@@ -83,29 +83,29 @@ The content is in teaching order.
 - datetime: 2025-01-20T08:30:00-05:00/2025-01-20T09:50:00-05:00
   - local: 2025-01-20T21:30:00+08:00/2025-01-20T22:50:00+08:00
 - [jazz](../../../../general/jazz.md)
-  - jazz / Why America? ::@:: unique combination of cultural and musical influences, unique history with regard to African Americans
-- [blues](../../../../general/blues.md) ::@:: a music style from the United States consisting of usually a 3 chords and a 12-bar form; all American music owes its origin to this genre
-  - blues / characteristics ::@:: call and response, sadness
-  - blues / examples ::@:: "Crossroad" — Robert Johnson
-  - blues / ambiguity ::@:: It may refer to a genre, a song form, or a sound/note.
-  - blues / origins ::@:: Alabama, Mississippi; black immigration to escape lynching, persecution, and prosecution in the 1880s and 1890s
-  - blues / contribution to jazz ::@:: blue melodies, blue notes, call and response, simplicity and freedom
-  - [blue note](../../../../general/blue%20note.md) ::@:: a note that—for expressive purposes—is sung or played at a slightly different pitch from standard; added by African Americans in their interpretation of the pentatonic scales
-- [gospel music](../../../../general/gospel%20music.md) ::@:: a traditional genre of Christian music and a cornerstone of Christian media
-  - gospel music / contribution to jazz ::@:: call and response, a tradition from Africa
-  - [call and response](../../../../general/call%20and%20response.md) ::@:: the idea of having some musicians playing the background while the main instruments improvise; in gospel music, Latin music, etc.
-    - call and response / examples ::@:: Little Richard, prison songs
+  - jazz / Why America? ::@:: unique combination of cultural and musical influences, unique history with regard to African Americans <!--SR:!2025-01-31,4,300!2025-01-31,4,300-->
+- [blues](../../../../general/blues.md) ::@:: a music style from the United States consisting of usually a 3 chords and a 12-bar form; all American music owes its origin to this genre <!--SR:!2025-01-31,4,300!2025-01-31,4,300-->
+  - blues / characteristics ::@:: call and response, sadness <!--SR:!2025-01-31,4,300!2025-01-31,4,300-->
+  - blues / examples ::@:: "Crossroad" — Robert Johnson <!--SR:!2025-01-31,4,300!2025-01-31,4,300-->
+  - blues / ambiguity ::@:: It may refer to a genre, a song form, or a sound/note. <!--SR:!2025-01-31,4,300!2025-01-31,4,300-->
+  - blues / origins ::@:: Alabama, Mississippi; black immigration to escape lynching, persecution, and prosecution in the 1880s and 1890s <!--SR:!2025-01-30,3,280!2025-01-31,4,300-->
+  - blues / contribution to jazz ::@:: blue melodies, blue notes, call and response, simplicity and freedom <!--SR:!2025-01-31,4,300!2025-01-31,4,300-->
+  - [blue note](../../../../general/blue%20note.md) ::@:: a note that—for expressive purposes—is sung or played at a slightly different pitch from standard; added by African Americans in their interpretation of the pentatonic scales <!--SR:!2025-01-31,4,300!2025-01-31,4,300-->
+- [gospel music](../../../../general/gospel%20music.md) ::@:: a traditional genre of Christian music and a cornerstone of Christian media <!--SR:!2025-01-31,4,300!2025-01-31,4,300-->
+  - gospel music / contribution to jazz ::@:: call and response, a tradition from Africa <!--SR:!2025-01-31,4,300!2025-01-31,4,300-->
+  - [call and response](../../../../general/call%20and%20response.md) ::@:: the idea of having some musicians playing the background while the main instruments improvise; in gospel music, Latin music, etc. <!--SR:!2025-01-31,4,300!2025-01-31,4,300-->
+    - call and response / examples ::@:: Little Richard, prison songs <!--SR:!2025-01-31,4,300!2025-01-31,4,300-->
 - [march](../../../../general/march%20(music).md)
-  - march / origins ::@:: Many instruments used by military bands for marching were left after the civil war.
-  - march / instruments ::@:: bass/snare drum, clarinet, sousaphone, trombone, trumpet
-  - march / characteristics ::@:: meant for soldiers so they could march in time; ragtime took these and added syncopation
-  - march / examples ::@:: "Stars and Strips" — John Phillip Sousa; social events in parades
-- [ragtime](../../../../general/ragtime.md) ::@:: a music style during 1897—1917; mainly piano
-  - ragtime / characteristics ::@:: marches but with syncopation
+  - march / origins ::@:: Many instruments used by military bands for marching were left after the civil war. <!--SR:!2025-01-31,4,300!2025-01-31,4,300-->
+  - march / instruments ::@:: bass/snare drum, clarinet, sousaphone, trombone, trumpet <!--SR:!2025-01-31,4,300!2025-01-31,4,300-->
+  - march / characteristics ::@:: meant for soldiers so they could march in time; ragtime took these and added syncopation <!--SR:!2025-01-31,4,300!2025-01-31,4,300-->
+  - march / examples ::@:: "Stars and Strips" — John Phillip Sousa; social events in parades <!--SR:!2025-01-30,3,280!2025-01-31,4,300-->
+- [ragtime](../../../../general/ragtime.md) ::@:: a music style during 1897—1917; mainly piano <!--SR:!2025-01-31,4,300!2025-01-31,4,300-->
+  - ragtime / characteristics ::@:: marches but with syncopation <!--SR:!2025-01-31,4,300!2025-01-31,4,300-->
   - [syncopation](../../../../general/syncopation.md)
-  - [Scott Joplin](../../../../general/Scott%20Joplin.md) (1868–1917) ::@:: father of ragtime, wrote many classics: The Entertainer, Maple Leaf Rag (first music to sell over a million copies)
+  - [Scott Joplin](../../../../general/Scott%20Joplin.md) (1868–1917) ::@:: father of ragtime, wrote many classics: The Entertainer, Maple Leaf Rag (first music to sell over a million copies) <!--SR:!2025-01-30,3,280!2025-01-31,4,300-->
 - [jazz](../../../../general/jazz.md)
-  - jazz / influences ::@:: primarily blues, gospel music, march, ragtime, coming together in New Orleans
+  - jazz / influences ::@:: primarily blues, gospel music, march, ragtime, coming together in New Orleans <!--SR:!2025-01-31,4,300!2025-01-31,4,300-->
 - assignments: [African traits in early jazz](questions.md#African%20traits%20in%20early%20jazz)
 
 ## week 2 lecture 2
