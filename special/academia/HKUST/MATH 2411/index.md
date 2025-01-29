@@ -1,5 +1,7 @@
 ---
 aliases:
+  - Applied Statistics
+  - Applied Statistics index
   - HKUST MATH 2411
   - HKUST MATH 2411 index
   - HKUST MATH2411

@@ -4,6 +4,8 @@ aliases:
   - CIVL 1100 index
   - CIVL1100
   - CIVL1100 index
+  - Discovering Civil and Environmental Engineering
+  - Discovering Civil and Environmental Engineering index
   - HKUST CIVL 1100
   - HKUST CIVL 1100 index
   - HKUST CIVL1100

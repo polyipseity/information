@@ -6,6 +6,8 @@ aliases:
   - HKUST PHYS1002
   - HKUST PHYS1002 index
   - HKUST PHYS1002 indexes
+  - Introduction to Astrophysics and Astronomy
+  - Introduction to Astrophysics and Astronomy index
   - PHYS 1002
   - PHYS 1002 index
   - PHYS 1002 indexes

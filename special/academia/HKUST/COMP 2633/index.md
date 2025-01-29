@@ -4,6 +4,8 @@ aliases:
   - COMP 2633 index
   - COMP2633
   - COMP2633 index
+  - Competitive Programming in Cybersecurity I
+  - Competitive Programming in Cybersecurity I index
   - HKUST COMP 2633
   - HKUST COMP 2633 index
   - HKUST COMP2633

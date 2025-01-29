@@ -4,6 +4,8 @@ aliases:
   - ENGG 2010 index
   - ENGG2010
   - ENGG2010 index
+  - Engineering Seminar Series
+  - Engineering Seminar Series index
   - HKUST ENGG 2010
   - HKUST ENGG 2010 index
   - HKUST ENGG2010

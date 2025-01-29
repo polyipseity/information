@@ -1,5 +1,7 @@
 ---
 aliases:
+  - ENTERPRIZE (RoboMaster)
+  - ENTERPRIZE (RoboMaster) index
   - HKUST ISDN 0003
   - HKUST ISDN 0003 index
   - HKUST ISDN0003

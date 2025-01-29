@@ -1,5 +1,7 @@
 ---
 aliases:
+  - A Survey on Big Data in Science and Society
+  - A Survey on Big Data in Science and Society index
   - DASC 2210
   - DASC 2210 index
   - DASC2210

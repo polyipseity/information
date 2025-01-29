@@ -1,5 +1,7 @@
 ---
 aliases:
+  - Calculus II
+  - Calculus II index
   - MATH 1014
   - MATH 1014 index
   - MATH1014

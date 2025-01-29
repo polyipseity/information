@@ -1,5 +1,7 @@
 ---
 aliases:
+  - Calculus IB
+  - Calculus IB index
   - MATH 1013
   - MATH 1013 index
   - MATH1013

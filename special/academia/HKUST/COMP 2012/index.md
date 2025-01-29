@@ -8,6 +8,8 @@ aliases:
   - HKUST COMP 2012 index
   - HKUST COMP2012
   - HKUST COMP2012 index
+  - Object-Oriented Programming and Data Structures
+  - Object-Oriented Programming and Data Structures index
 tags:
   - flashcard/active/special/academia/HKUST/COMP_2012/index
   - function/index

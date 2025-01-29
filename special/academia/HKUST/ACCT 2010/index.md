@@ -8,6 +8,8 @@ aliases:
   - HKUST ACCT 2010 index
   - HKUST ACCT2010
   - HKUST ACCT2010 index
+  - Principles of Accounting I
+  - Principles of Accounting I index
 tags:
   - flashcard/active/special/academia/HKUST/ACCT_2010/index
   - function/index

@@ -4,6 +4,8 @@ aliases:
   - COMP 2211 index
   - COMP2211
   - COMP2211 index
+  - Exploring Artificial Intelligence
+  - Exploring Artificial Intelligence index
   - HKUST COMP 2211
   - HKUST COMP 2211 index
   - HKUST COMP2211

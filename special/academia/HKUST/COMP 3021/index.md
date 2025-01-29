@@ -8,6 +8,8 @@ aliases:
   - HKUST COMP 3021 index
   - HKUST COMP3021
   - HKUST COMP3021 index
+  - Java Programming
+  - Java Programming index
 tags:
   - flashcard/active/special/academia/HKUST/COMP_3021/index
   - function/index

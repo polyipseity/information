@@ -8,6 +8,8 @@ aliases:
   - HKUST COMP 4321 index
   - HKUST COMP4321
   - HKUST COMP4321 index
+  - Search Engines for Web and Enterprise Data
+  - Search Engines for Web and Enterprise Data index
 tags:
   - flashcard/active/special/academia/HKUST/COMP_4321/index
   - function/index

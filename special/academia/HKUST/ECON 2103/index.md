@@ -8,6 +8,8 @@ aliases:
   - HKUST ECON 2103 index
   - HKUST ECON2103
   - HKUST ECON2103 index
+  - Principles of Microeconomics
+  - Principles of Microeconomics index
 tags:
   - flashcard/active/special/academia/HKUST/ECON_2103/index
   - function/index

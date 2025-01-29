@@ -8,6 +8,8 @@ aliases:
   - HKUST COMP 1029J index
   - HKUST COMP1029J
   - HKUST COMP1029J index
+  - Java Programming Bridging Course
+  - Java Programming Bridging Course index
 tags:
   - flashcard/active/special/academia/HKUST/COMP_1029J/index
   - function/index

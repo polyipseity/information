@@ -1,5 +1,7 @@
 ---
 aliases:
+  - General Physics I with Calculus
+  - General Physics I with Calculus index
   - HKUST PHYS 1112
   - HKUST PHYS 1112 index
   - HKUST PHYS1112

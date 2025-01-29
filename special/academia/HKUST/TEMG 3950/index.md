@@ -4,6 +4,8 @@ aliases:
   - HKUST TEMG 3950 index
   - HKUST TEMG3950
   - HKUST TEMG3950 index
+  - T&M Case Analysis and Product Innovation
+  - T&M Case Analysis and Product Innovation index
   - TEMG 3950
   - TEMG 3950 index
   - TEMG3950
