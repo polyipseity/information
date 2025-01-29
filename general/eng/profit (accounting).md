@@ -17,7 +17,7 @@ tags:
 
 <!-- | ![](../../archives/Wikimedia%20Commons/Text%20document%20with%20red%20question%20mark.svg) | This article includes a [list of references](https://en.wikipedia.org/wiki/Wikipedia:Citing%20sources), [related reading](https://en.wikipedia.org/wiki/Wikipedia:Further%20reading), or [external links](https://en.wikipedia.org/wiki/Wikipedia:External%20links), __but its sources remain unclear because it lacks [inline citations](https://en.wikipedia.org/wiki/Wikipedia:Citing%20sources#Inline%20citations)__. Please help [improve](https://en.wikipedia.org/wiki/Wikipedia:WikiProject%20Reliability) this article by [introducing](https://en.wikipedia.org/wiki/Wikipedia:When%20to%20cite) more precise citations. _\(May 2020\)__\([Learn how and when to remove this message](https://en.wikipedia.org/wiki/Help:Maintenance%20template%20removal)\)_ | -->
 
-> {@{![Stock index chart of 2020 with stock market crash](../../archives/Wikimedia%20Commons/Stock-indices-2020crash%2Brecovery.svg)}@}
+> {@{![Stock index chart of 2020 with stock market crash](../../archives/Wikimedia%20Commons/Stock-indices-2020crash+recovery.svg)}@}
 >
 > {@{Stock index chart}@} showing {@{the recovery after the [2020 Stock Market Crash](2020%20stock%20market%20crash.md)}@} <!--SR:!2025-01-31,4,270!2025-01-31,4,270!2025-01-31,4,270-->
 
@@ -35,7 +35,7 @@ tags:
 
 [Net profit](net%20profit.md) ::@:: = [operating profit](operating%20profit.md) – taxes – interest <!--SR:!2025-01-31,4,270!2025-01-31,4,270-->
 
-[Net profit](net%20profit.md) (annotation: full form) ::@:: = [net sales](net%20sales.md) – [cost of goods sold](cost%20of%20goods%20sold.md) – [operating expense](operating%20expense.md) – taxes – interest <!--SR:!2025-01-31,4,270!2025-01-31,4,270-->
+(annotation: full form) [Net profit](net%20profit.md) ::@:: = [net sales](net%20sales.md) – [cost of goods sold](cost%20of%20goods%20sold.md) – [operating expense](operating%20expense.md) – taxes – interest <!--SR:!2025-01-31,4,270!2025-01-31,4,270-->
 
 ## see also
 
