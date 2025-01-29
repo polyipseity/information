@@ -1,0 +1,96 @@
+---
+aliases:
+  - exponential law
+  - exponential laws
+  - exponential object
+  - exponential objects
+  - map object
+  - map objects
+tags:
+  - flashcard/active/general/eng/exponential_object
+  - language/in/English
+---
+
+# exponential object
+
+In {@{[mathematics](mathematics.md), specifically in [category theory](category%20theory.md)}@}, {@{an __exponential object__ or __map object__}@} is {@{the [categorical](category%20theory.md) generalization of a [function space](function%20space.md) in [set theory](set%20theory.md)}@}. {@{[Categories](category%20(mathematics).md) with all [finite products](product%20(category%20theory).md) and exponential objects}@} are called {@{[cartesian closed categories](Cartesian%20closed%20category.md)}@}. {@{Categories \(such as [subcategories](subcategory.md) of __[Top](category%20of%20topological%20spaces.md)__\) without adjoined products}@} {@{may still have an __exponential law__}@}.<sup>[\[1\]](#^ref-1)</sup><sup>[\[2\]](#^ref-2)</sup>
+
+## definition
+
+Let $\mathbf {C}$ be {@{a category, let $Z$ and $Y$ be [objects](object%20(category%20theory).md) of $\mathbf {C}$, and let $\mathbf {C}$ have all [binary products](product%20(category%20theory).md) with $Y$}@}. {@{An object $Z^{Y}$ together with a [morphism](morphism.md) $\mathrm {eval} \colon (Z^{Y}\times Y)\to Z$}@} is an _exponential object_ {@{if for any object $X$ and morphism $g\colon X\times Y\to Z$}@} there {@{is a unique morphism $\lambda g\colon X\to Z^{Y}$ \(called the _transpose_ of $g$\) such that the following diagram [commutes](commutative%20diagram.md)}@}: <p> &emsp; {@{![Universal property of the exponential object](../../archives/Wikimedia%20Commons/ExponentialObject-01.svg)}@} {@{This assignment of a unique $\lambda g$ to each $g$}@} establishes {@{an [isomorphism](isomorphism.md) \([bijection](bijection.md)\) of [hom-sets](hom-set.md#hom-set), $\mathrm {Hom} (X\times Y,Z)\cong \mathrm {Hom} (X,Z^{Y})$}@}.
+
+{@{If $Z^{Y}$ exists for all objects $Z,Y$ in $\mathbf {C}$}@}, then {@{the [functor](functor.md) $(-)^{Y}\colon \mathbf {C} \to \mathbf {C}$ defined on objects by $Z\mapsto Z^{Y}$ and on arrows by $(f\colon X\to Z)\mapsto (f^{Y}\colon X^{Y}\to Z^{Y})$}@}, is {@{a [right adjoint](right%20adjoint.md) to the product functor $-\times Y$}@}. For this reason, {@{the morphisms $\lambda g$ and $g$ are sometimes called _exponential adjoints_ of one another}@}.<sup>[\[3\]](#^ref-3)</sup>
+
+### equational definition
+
+Alternatively, the exponential object may be {@{defined through equations}@}:
+
+- Existence of $\lambda g$ ::@:: is guaranteed by existence of the operation $\lambda -$. (annotation: the operation is defined for any morphism $g$)
+- Commutativity of the diagrams above ::@:: is guaranteed by the equality $\forall g\colon X\times Y\to Z,\ \mathrm {eval} \circ (\lambda g\times \mathrm {id} _{Y})=g$.
+- Uniqueness of $\lambda g$ ::@:: is guaranteed by the equality $\forall h\colon X\to Z^{Y},\ \lambda (\mathrm {eval} \circ (h\times \mathrm {id} _{Y}))=h$. (annotation: an abuse of notation to help with understanding: $\mathrm{eval} \circ (h \times \mathrm {id}_Y) = \lambda^{-1} h$)
+
+### universal property
+
+{@{The exponential $Z^{Y}$}@} is given by {@{a [universal morphism](universal%20morphism.md) from the product functor $-\times Y$ to the object $Z$}@}. This universal morphism consists of {@{an object $Z^{Y}$ and a morphism $\mathrm {eval} \colon (Z^{Y}\times Y)\to Z$}@}.
+
+## examples
+
+In {@{the [category of sets](category%20of%20sets.md)}@}, {@{an exponential object $Z^{Y}$ is the set of all [functions](function%20(mathematics).md) $Y\to Z$}@}.<sup>[\[4\]](#^ref-4)</sup> {@{The map $\mathrm {eval} \colon (Z^{Y}\times Y)\to Z$}@} is {@{just the [evaluation map](apply.md), which sends the pair $(f,y)$ to $f(y)$}@}. For {@{any map $g\colon X\times Y\to Z$ the map $\lambda g\colon X\to Z^{Y}$}@} is {@{the [curried](currying.md) form of $g$: $$\lambda g(x)(y)=g(x,y).\,$$ (annotation: If we fix $x$, then $g(x, y)$ becomes a function of $y$, which $\lambda g(x)$ obtains.)}@}
+
+{@{A [Heyting algebra](Heyting%20algebra.md) $H$}@} is {@{just a bounded [lattice](lattice%20(order).md) that has all exponential objects}@}. {@{Heyting implication, $Y\Rightarrow Z$}@}, is {@{an alternative notation for $Z^{Y}$}@}. {@{The above adjunction results}@} translate to {@{implication \($\Rightarrow :H\times H\to H$\) being [right adjoint](right%20adjoint.md) to [meet](join%20and%20meet.md) \($\wedge :H\times H\to H$\)}@}. This adjunction can be written as {@{$(-\wedge Y)\dashv (Y\Rightarrow -)$, or more fully as: $$(-\wedge Y):H{\stackrel {\longrightarrow }{\underset {\longleftarrow }{\top } } }H:(Y\Rightarrow -)$$}@}
+
+In {@{the [category of topological spaces](category%20of%20topological%20spaces.md)}@}, {@{the exponential object $Z^{Y}$ exists}@} {@{provided that $Y$ is a [locally compact](locally%20compact%20space.md) [Hausdorff space](Hausdorff%20space.md)}@}. In that case, {@{the space $Z^{Y}$}@} is {@{the set of all [continuous functions](continuous%20function%20(topology).md#continuous%20functions%20between%20topological%20spaces) from $Y$ to $Z$ together with the [compact-open topology](compact-open%20topology.md)}@}. {@{The evaluation map}@} is {@{the same as in the category of sets; it is continuous with the above topology}@}.<sup>[\[5\]](#^ref-5)</sup> If {@{$Y$ is not locally compact Hausdorff}@}, {@{the exponential object may not exist}@} \(the space $Z^{Y}$ {@{still exists, but it may fail to be an exponential object since the evaluation function need not be continuous}@}\). For this reason the category of {@{topological spaces fails to be [cartesian closed](Cartesian%20closed.md)}@}. However, the category of {@{locally compact topological spaces is not cartesian closed either}@}, since {@{$Z^{Y}$ need not be locally compact for locally compact spaces $Z$ and $Y$}@}. {@{A cartesian closed category of spaces}@} is, for example, given by {@{the [full subcategory](subcategory.md#formal%20definition) spanned by the [compactly generated](compactly%20generated%20space.md) Hausdorff spaces}@}.
+
+In {@{[functional programming languages](functional%20programming%20language.md)}@}, {@{the morphism $\operatorname {eval}$}@} is often {@{[called $\operatorname {apply}$](apply.md)}@}, and {@{the syntax $\lambda g$}@} is often {@{[written $\operatorname {curry} (g)$](function%20application.md#representation)}@}. The morphism $\operatorname {eval}$ should not be confused with {@{the [`eval`](eval.md) function in some [programming languages](programming%20language.md), which evaluates quoted expressions}@}.
+
+## see also
+
+- [Closed monoidal category](closed%20monoidal%20category.md)
+
+## notes
+
+1. [Exponential law for spaces](https://ncatlab.org/nlab/show/exponential+law+for+spaces) at the [_n_<!-- markdown separator -->Lab](nLab.md) <a id="^ref-1"></a>^ref-1
+2. [Convenient category of topological spaces](https://ncatlab.org/nlab/show/convenient+category+of+topological+spaces) at the [_n_<!-- markdown separator -->Lab](nLab.md) <a id="^ref-2"></a>^ref-2
+3. <a id="CITEREFGoldblatt1984"></a> [Goldblatt, Robert](Robert%20Goldblatt.md) \(1984\). "Chapter 3: Arrows instead of epsilon". _Topoi : the categorial analysis of logic_. Studies in Logic and the Foundations of Mathematics \#98 \(Revised ed.\). [North-Holland](North-Holland%20Publishing%20Company.md#imprints). p. 72. [ISBN](ISBN%20(identifier).md) [978-0-444-86711-7](https://en.wikipedia.org/wiki/Special:BookSources/978-0-444-86711-7). <a id="^ref-3"></a>^ref-3
+4. <a id="CITEREFMac Lane1978"></a> [Mac Lane, Saunders](Saunders%20Mac%20Lane.md) \(1978\). "Chapter 4: Adjoints". _Categories for the working mathematician_. graduate texts in mathematics. Vol. 5 \(2nd ed.\). Springer-Verlag. p. 98. [doi](doi%20(identifier).md):[10.1007/978-1-4757-4721-8\_5](https://doi.org/10.1007%2F978-1-4757-4721-8_5). [ISBN](ISBN%20(identifier).md) [978-0387984032](https://en.wikipedia.org/wiki/Special:BookSources/978-0387984032). <a id="^ref-4"></a>^ref-4
+5. [Joseph J. Rotman](Joseph%20J.%20Rotman.md), _An Introduction to Algebraic Topology_ \(1988\) Springer-Verlag [ISBN](ISBN%20(identifier).md) [0-387-96678-1](https://en.wikipedia.org/wiki/Special:BookSources/0-387-96678-1) _\(See Chapter 11 for proof.\)_ <a id="^ref-5"></a>^ref-5
+
+## references
+
+This text incorporates [content](https://en.wikipedia.org/wiki/exponential_object) from [Wikipedia](Wikipedia.md) available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.
+
+- <a id="CITEREFAdámekHorst HerrlichGeorge Strecker2006"></a> Adámek, Jiří; [Horst Herrlich](Horst%20Herrlich.md); George Strecker \(2006\) \[1990\]. [_Abstract and Concrete Categories \(The Joy of Cats\)_](http://katmat.math.uni-bremen.de/acc/). John Wiley & Sons.
+- <a id="CITEREFAwodey2010"></a> [Awodey, Steve](Steve%20Awodey.md) \(2010\). "Chapter 6: Exponentials". _Category theory_. Oxford New York: Oxford University Press. [ISBN](ISBN%20(identifier).md) [978-0199237180](https://en.wikipedia.org/wiki/Special:BookSources/978-0199237180).
+- <a id="CITEREFMac Lane1998"></a> Mac Lane, Saunders \(1998\). "Chapter 4: Adjoints". _[Categories for the working mathematician](Categories%20for%20the%20Working%20Mathematician.md)_. New York: Springer. [ISBN](ISBN%20(identifier).md) [978-0387984032](https://en.wikipedia.org/wiki/Special:BookSources/978-0387984032).
+
+## external links
+
+- [Interactive Web page](https://web.archive.org/web/20080916162345/http://www.j-paine.org/cgi-bin/webcats/webcats.php)which generates examples of exponential objects and other categorical constructions. Written by [Jocelyn Paine](https://web.archive.org/web/20081223001815/http://www.j-paine.org/).
+
+> <!-- hide <p> - [v](https://en.wikipedia.org/wiki/Template:Category%20theory) <br/> - [t](https://en.wikipedia.org/wiki/Template%20talk:Category%20theory) <br/> - [e](https://en.wikipedia.org/wiki/Special:EditPage/Template%3ACategory%20theory) <p>  <p>  <br/> -->
+> __[Category theory](category%20theory.md)__
+>
+> | Key concepts                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+> | ----------------------------------------------------------:| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+> | __Key concepts__                                           | - [Category](category%20(mathematics).md)  <br/>     - [Abelian](abelian%20category.md) <br/>     - [Additive](additive%20category.md) <br/>     - [Concrete](concrete%20category.md) <br/>     - [Pre-abelian](pre-abelian%20category.md) <br/>     - [Preadditive](preadditive%20category.md) <br/>     - [Bicategory](bicategory.md) <p>  <p> - [Adjoint functors](adjoint%20functors.md) <br/> - [CCC](Cartesian%20closed%20category.md) <br/> - [Commutative diagram](commutative%20diagram.md) <br/> - [End](end%20(category%20theory).md) <br/> - [Exponential](exponential%20object.md) <br/> - [Functor](functor.md) <br/> - [Kan extension](Kan%20extension.md) <br/> - [Morphism](morphism.md) <br/> - [Natural transformation](natural%20transformation.md) <br/> - [Universal property](universal%20property.md) <br/> - [Yoneda lemma](Yoneda%20lemma.md) |
+> | __[Universal constructions](universal%20construction.md)__ | __[Limits](limit%20(category%20theory).md)__ <br/> - [Terminal objects](initial%20and%20terminal%20objects.md) <br/> - [Products](product%20(category%20theory).md) <br/> - [Equalizers](equaliser%20(mathematics).md)  <br/>     - [Kernels](kernel%20(category%20theory).md) <p>  <p> - [Pullbacks](pullback%20(category%20theory).md) <br/> - [Inverse limit](inverse%20limit.md) <p> __[Colimits](colimit.md)__ <br/> - [Initial objects](initial%20and%20terminal%20objects.md) <br/> - [Coproducts](coproduct.md) <br/> - [Coequalizers](coequalizer.md)  <br/>     - [Cokernels and quotients](cokernel.md) <p>  <p> - [Pushout](pushout%20(category%20theory).md) <br/> - [Direct limit](direct%20limit.md)                                                                                                                                                     |
+> | __[Algebraic categories](algebraic%20category.md)__        | - [Sets](category%20of%20sets.md) <br/> - [Relations](category%20of%20relations.md) <br/> - [Magmas](category%20of%20magmas.md#category%20of%20magmas) <br/> - [Groups](category%20of%20groups.md) <br/> - [Abelian groups](category%20of%20abelian%20groups.md) <br/> - [Rings](category%20of%20rings.md) \([Fields](category%20of%20rings.md#category%20of%20fields)\) <br/> - [Modules](category%20of%20modules.md) \([Vector spaces](category%20of%20modules.md#example%20the%20category%20of%20vector%20spaces)\)                                                                                                                                                                                                                                                                                                                                                  |
+> | __Constructions on categories__                            | - [Free category](free%20category.md) <br/> - [Functor category](functor%20category.md) <br/> - [Kleisli category](Kleisli%20category.md) <br/> - [Opposite category](opposite%20category.md) <br/> - [Quotient category](quotient%20category.md) <br/> - [Product category](product%20category.md) <br/> - [Comma category](comma%20category.md) <br/> - [Subcategory](subcategory.md)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+>
+> | [Higher category theory](higher%20category%20theory.md) |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+> | -------------------------------------------------------:| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+> | __Key concepts__                                        | - [Categorification](categorification.md) <br/> - [Enriched category](enriched%20category.md) <br/> - [Higher-dimensional algebra](higher-dimensional%20algebra.md) <br/> - [Homotopy hypothesis](homotopy%20hypothesis.md) <br/> - [Model category](model%20category.md) <br/> - [Simplex category](simplex%20category.md) <br/> - [String diagram](string%20diagram.md) <br/> - [Topos](topos.md)                                                                                                                                                |
+> | __n-categories__                                        | __[Weak n-categories](weak%20n-category.md)__ <br/> - [Bicategory](bicategory.md) \([pseudofunctor](pseudo-functor.md)\) <br/> - [Tricategory](tricategory.md) <br/> - [Tetracategory](tetracategory.md) <br/> - [Kan complex](quasi-category.md) <br/> - [∞-groupoid](∞-groupoid.md) <br/> - [∞-topos](∞-topos.md) <p> __[Strict n-categories](strict%20n-category.md#strict%20higher%20categories)__ <br/> - [2-category](strict%202-category.md) \([2-functor](2-functor.md)\) <br/> - [3-category](3-category.md#strict%20higher%20categories) |
+> | __[Categorified](categorification.md) concepts__        | - [2-group](2-group.md) <br/> - [2-ring](2-ring.md) <br/> - [_E<sub>n</sub>_-ring](en-ring.md) <br/> - \([Traced](traced%20monoidal%20category.md)\)\([Symmetric](symmetric%20monoidal%20category.md)\) [monoidal category](monoidal%20category.md) <br/> - [n-group](n-group%20(category%20theory).md) <br/> - [n-monoid](n-monoid.md)                                                                                                                                                                                                            |
+>
+> [![A simple triangular commutative diagram](../../archives/Wikimedia%20Commons/Commutative%20diagram%20for%20morphism.svg)](commutative%20diagram.md)
+>
+> - ![category icon](../../archives/Wikimedia%20Commons/Symbol%20category%20class.svg) __[Category](https://en.wikipedia.org/wiki/Category:Category%20theory)__
+> - ![list icon](../../archives/Wikimedia%20Commons/Symbol%20list%20class.svg) __[Outline](outline%20of%20category%20theory.md)__
+> - ![list icon](../../archives/Wikimedia%20Commons/Symbol%20list%20class.svg) __[Glossary](glossary%20of%20category%20theory.md)__
+
+<!-- markdownlint MD028 -->
+
+> [Category](https://en.wikipedia.org/wiki/Help:Category):
+>
+> - [Objects \(category theory\)](https://en.wikipedia.org/wiki/Category:Objects%20%28category%20theory%29)
