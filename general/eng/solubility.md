@@ -369,7 +369,7 @@ return await memorize_map(
 - [copper(II) sulfide](copper(II)%20sulfide.md):@:<span style="color: red;">insoluble</span> <!--SR:!2025-06-11,301,258-->
 - [lead(II) bromide](lead(II)%20bromide.md):@:<span style="background-color: black; color: yellow;">slightly soluble</span> <!--SR:!2025-06-27,178,198-->
 - [lead(II) chloride](lead(II)%20chloride.md):@:<span style="background-color: black; color: yellow;">slightly soluble</span> <!--SR:!2026-11-22,727,278-->
-- [lead(II) iodide](lead(II)%20iodide.md):@:<span style="background-color: black; color: yellow;">slightly soluble</span> <!--SR:!2025-01-29,20,130-->
+- [lead(II) iodide](lead(II)%20iodide.md):@:<span style="background-color: black; color: yellow;">slightly soluble</span> <!--SR:!2025-02-09,11,130-->
 - [lead(II) sulfate](lead(II)%20sulfate.md):@:<span style="color: red;">insoluble</span> <!--SR:!2025-02-13,27,130-->
 - [lithium phosphate](lithium%20phosphate.md):@:<span style="background-color: black; color: yellow;">slightly soluble</span> <!--SR:!2025-09-11,315,198-->
 - [mercury(I) bromide](mercury(I)%20bromide.md):@:<span style="color: red;">insoluble</span> <!--SR:!2026-03-27,660,318-->
@@ -383,7 +383,7 @@ return await memorize_map(
 - [silver ethanoate](silver%20ethanoate.md):@:<span style="background-color: black; color: yellow;">slightly soluble</span> <!--SR:!2025-08-23,455,298-->
 - [silver iodide](silver%20iodide.md):@:<span style="color: red;">insoluble</span> <!--SR:!2025-06-11,404,298-->
 - [silver nitrate](silver%20nitrate.md):@:<span style="color: green;">soluble</span> <!--SR:!2026-06-24,692,318-->
-- [silver sulfate](silver%20sulfate.md):@:<span style="background-color: black; color: yellow;">slightly soluble</span> <!--SR:!2025-01-29,26,130-->
+- [silver sulfate](silver%20sulfate.md):@:<span style="background-color: black; color: yellow;">slightly soluble</span> <!--SR:!2025-03-04,34,130-->
 - [sodium carbonate](sodium%20carbonate.md):@:<span style="color: green;">soluble</span> <!--SR:!2025-03-02,333,298-->
 - [sodium chloride](sodium%20chloride.md):@:<span style="color: green;">soluble</span> <!--SR:!2026-09-04,807,338-->
 - [sodium fluoride](sodium%20fluoride.md):@:<span style="color: green;">soluble</span> <!--SR:!2026-01-28,587,318-->
@@ -397,7 +397,7 @@ return await memorize_map(
 - [strontium sulfate](strontium%20sulfate.md):@:<span style="background-color: black; color: yellow;">slightly soluble</span> <!--SR:!2025-02-27,122,158-->
 - [thallium(I) hydroxide](thallium(I)%20hydroxide.md):@:<span style="color: green;">soluble</span> <!--SR:!2026-03-09,504,258-->
 - [thallium(I) oxide](thallium(I)%20oxide.md):@:<span style="color: violet;">reacts</span> <!--SR:!2025-12-30,519,278-->
-- [thallium(III) oxide](thallium(III)%20oxide.md):@:<span style="color: red;">insoluble</span> <!--SR:!2025-01-29,39,198-->
+- [thallium(III) oxide](thallium(III)%20oxide.md):@:<span style="color: red;">insoluble</span> <!--SR:!2025-04-19,80,198-->
 - [uranyl carbonate](uranyl%20carbonate.md):@:<span style="color: green;">soluble</span> <!--SR:!2027-01-28,797,298-->
 
 <!--/pytextgen-->

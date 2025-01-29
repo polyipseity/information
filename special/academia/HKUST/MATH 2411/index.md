@@ -97,7 +97,7 @@ The content is in teaching order.
   - inferential statistics / procedures ::@:: analysis of variance, estimation of parameters, goodness of fit test, hypothesis testing, probability distribution, regression, ... <!--SR:!2025-02-16,122,290!2025-02-26,119,290-->
     - inferential statistics / procedures / analysis of variance ::@:: used to test the difference between two or more means <!--SR:!2025-09-20,294,330!2025-02-01,103,290-->
     - inferential statistics / procedures / estimation of parameters ::@:: estimate unknown parameters of a population based on a sample of the population <!--SR:!2025-10-17,316,330!2025-04-22,168,310-->
-    - inferential statistics / procedures / goodness of fit test ::@:: test how well a hypothesized statistical model (distribution) fits the observed samples <!--SR:!2025-01-29,99,270!2025-03-26,152,290-->
+    - inferential statistics / procedures / goodness of fit test ::@:: test how well a hypothesized statistical model (distribution) fits the observed samples <!--SR:!2025-10-29,273,270!2025-03-26,152,290-->
     - inferential statistics / procedures / hypothesis testing ::@:: test a statement about the unknown parameters <!--SR:!2025-06-19,224,330!2026-02-04,387,310-->
     - inferential statistics / procedures / probability distribution ::@:: mathematical function that gives the probabilities of occurrence of possible outcomes for an experiment <!--SR:!2025-09-15,289,330!2025-10-26,297,290-->
     - inferential statistics / procedures / regression ::@:: estimate the relationships between a dependent variable (output) and one or more independent variables (inputs) <!--SR:!2025-06-24,227,330!2025-08-01,258,330-->
@@ -205,7 +205,7 @@ The content is in teaching order.
     - probability sampling / simple random sampling ::@:: All individual in a population has equal probability of being selected. <!--SR:!2025-08-08,263,330!2025-09-09,285,330-->
     - probability sampling / systematic sampling ::@:: A _probabilistic_ method is used to select individuals of a population, such as sampling every third person. <!--SR:!2025-05-06,183,310!2025-09-30,301,330-->
     - probability sampling / stratified sampling ::@:: Individuals are split into groups based on certain characters. Then simple random sampling is applied on each group. <!--SR:!2025-05-05,174,310!2025-09-08,265,290-->
-    - probability sampling / cluster sampling ::@:: Split the population into clusters and select some of the clusters (cannot select an individual in a cluster without selecting other in the same cluster). <!--SR:!2025-01-29,82,270!2025-06-01,189,310-->
+    - probability sampling / cluster sampling ::@:: Split the population into clusters and select some of the clusters (cannot select an individual in a cluster without selecting other in the same cluster). <!--SR:!2025-09-02,216,270!2025-06-01,189,310-->
   - [non-probability sampling](../../../../general/sampling%20(statistics).md#nonprobability%20sampling) ::@:: It supports weaker statistical inferences from a sample to the population. The advantage is that non-probability sampling may be more convenient in many contexts. <!--SR:!2025-06-14,211,310!2025-05-30,205,310-->
     - non-probability sampling / examples ::@:: convenience sampling, purposive sampling, voluntary response sampling, snowball sampling, ... <!--SR:!2025-03-14,128,290!2025-08-14,220,270-->
     - non-probability sampling / convenience sampling ::@:: Sampling whoever is most convenient to you, e.g. nearest people. <!--SR:!2025-06-01,201,310!2025-06-04,209,310-->

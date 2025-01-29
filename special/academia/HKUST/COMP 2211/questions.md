@@ -644,7 +644,7 @@ tags:
 > 4. None of the above
 >
 > - solution: {@{4}@}
-> - explanation: {@{For 1 and 2, classification is an obvious use case. For regression, one way is taking the neighbor average weighted by inverse distances. For 3, while it does not require all data to be of the same scale, this would make the distance of each feature not considered with the same weight.}@} <!--SR:!2025-03-06,57,310!2025-01-29,26,270-->
+> - explanation: {@{For 1 and 2, classification is an obvious use case. For regression, one way is taking the neighbor average weighted by inverse distances. For 3, while it does not require all data to be of the same scale, this would make the distance of each feature not considered with the same weight.}@} <!--SR:!2025-03-06,57,310!2025-05-07,98,290-->
 
 <!-- markdownlint MD028 -->
 
@@ -1094,7 +1094,7 @@ tags:
 > Describe in words what transformation was applied.
 >
 > - solution: {@{The image is translated to the left (not right) and upwards (not downwards) each by 1 pixel.}@}
-> - explanation: {@{While the transformation matrix describes a transformation to the right and downwards each by 1 pixel, notice that it is applied to the input coordinates instead of the output coordinates. <p> In general, the transformations are reversed if you apply it to the input coordinates instead of the output coordinates. For a simple example, consider $f(x) = x$. Then compare between $f_{\text{new} }(x) = f(x) + 1 = x + 1$ and $f_{\text{new} }(x + 1) = f(x) = x \implies f_{\text{new} }(x) = f(x - 1) = x - 1$.}@} <!--SR:!2025-03-17,50,270!2025-01-29,26,270-->
+> - explanation: {@{While the transformation matrix describes a transformation to the right and downwards each by 1 pixel, notice that it is applied to the input coordinates instead of the output coordinates. <p> In general, the transformations are reversed if you apply it to the input coordinates instead of the output coordinates. For a simple example, consider $f(x) = x$. Then compare between $f_{\text{new} }(x) = f(x) + 1 = x + 1$ and $f_{\text{new} }(x + 1) = f(x) = x \implies f_{\text{new} }(x) = f(x - 1) = x - 1$.}@} <!--SR:!2025-03-17,50,270!2025-05-07,98,290-->
 
 <!-- markdownlint MD028 -->
 
@@ -1552,7 +1552,7 @@ tags:
 > <!-- list separator -->
 >
 > - solution: {@{$a_{21} = P(X_t = S_1 \mid X_{t - 1} = S_2)$}@}
-> - explanation: {@{Usually, the _transition probability matrix_ is encoded as a _right/row stochastic matrix_, where each row adds up to 1. It is so called "right" because the probability distribution at the next step is computed by $\mathbf S_t = \mathbf S_{t - 1} \mathbf M$. <p> Another, but less common, way to encode it is as a _left/column stochastic matrix_, where each column adds up to 1. The next step probability distribution is computed by $\mathbf S_t =  \mathbf M \mathbf S_{t - 1}$. <p> Note: You should see in _value iteration_, we put the _right/row_ stochastic matrix $\mathbf M$ on the _left_ of the value vector $\mathbf V$ instead: $\mathbf M \mathbf V$. But this is because in value iteration, we are propagation the rewards _backwards_ instead of _forward_.}@} <!--SR:!2025-03-16,66,310!2025-01-29,26,270-->
+> - explanation: {@{Usually, the _transition probability matrix_ is encoded as a _right/row stochastic matrix_, where each row adds up to 1. It is so called "right" because the probability distribution at the next step is computed by $\mathbf S_t = \mathbf S_{t - 1} \mathbf M$. <p> Another, but less common, way to encode it is as a _left/column stochastic matrix_, where each column adds up to 1. The next step probability distribution is computed by $\mathbf S_t =  \mathbf M \mathbf S_{t - 1}$. <p> Note: You should see in _value iteration_, we put the _right/row_ stochastic matrix $\mathbf M$ on the _left_ of the value vector $\mathbf V$ instead: $\mathbf M \mathbf V$. But this is because in value iteration, we are propagation the rewards _backwards_ instead of _forward_.}@} <!--SR:!2025-03-16,66,310!2025-04-07,68,270-->
 
 <!-- markdownlint MD028 -->
 

@@ -61,6 +61,6 @@ Aggregate functions {@{summarize a result from a list}@}. <!--SR:!2025-03-22,145
 
 ## search functions
 
-- `val in list`, `val not in list` ::@:: Returns a `bool` indicating whether `val` is in `list`. Equality is compared using `==`, so `0.0 in [0]` is `True` instead of `False`. The `not in` operator simply inverts the `bool` returned by `in` operator. <!--SR:!2025-01-29,82,360!2025-01-31,84,360-->
+- `val in list`, `val not in list` ::@:: Returns a `bool` indicating whether `val` is in `list`. Equality is compared using `==`, so `0.0 in [0]` is `True` instead of `False`. The `not in` operator simply inverts the `bool` returned by `in` operator. <!--SR:!2026-03-10,405,380!2025-01-31,84,360-->
 - `list.count(val)` ::@:: Count the number of `val`s in `list`. Returns `0` if `val` is not found in the list. Equality is compared using `==`, so `[0, 0.0].count(0.0)` is `2` instead of `1`. <!--SR:!2025-05-11,175,336!2026-01-30,387,356-->
 - `list.index(val)` ::@:: Returns the index of `val` in `list`. The index of the leftmost item is returned if there are multiple matching items. Raises `ValueError` if `val` is not found in the list. Equality is compared using `==`, so `[0, 0.0].index(0.0)` is `0` instead of `1`. <!--SR:!2026-01-29,386,356!2026-01-26,383,356-->

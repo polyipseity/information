@@ -47,7 +47,7 @@ Let {@{$p_{i}$ be the [price](price.md) of good $x_{i}$}@}. Then, {@{$x_{j}$ is 
 
 {@{The relationship between [demand schedules](demand%20curve.md)}@} determines {@{whether goods are classified as substitutes or complements}@}. {@{The [cross-price elasticity of demand](cross%20elasticity%20of%20demand.md)}@} shows {@{the relationship between two goods}@}, it captures {@{the responsiveness of the quantity demanded of one good to a change in price of another good}@}.<sup>[\[5\]](#^ref-5)</sup> <!--SR:!2025-02-07,66,310!2025-09-27,244,330!2025-01-31,59,310!2025-09-17,235,330!2025-09-29,246,330-->
 
-{@{Cross-Price Elasticity of Demand \(_E_<sub>x,y</sub>\)}@} is calculated with the following formula: <p> {@{_E_<sub>x,y</sub> = Percentage Change in Quantity Demanded for Good X __/__ Percentage Change in Price of Good Y}@} <!--SR:!2025-02-06,65,310!2025-01-29,57,310-->
+{@{Cross-Price Elasticity of Demand \(_E_<sub>x,y</sub>\)}@} is calculated with the following formula: <p> {@{_E_<sub>x,y</sub> = Percentage Change in Quantity Demanded for Good X __/__ Percentage Change in Price of Good Y}@} <!--SR:!2025-02-06,65,310!2025-07-25,177,310-->
 
 The cross-price elasticity may be {@{positive or negative, depending on whether the goods are complements or substitutes}@}. A substitute good is {@{a good with a positive cross elasticity of demand}@}. This means that, if {@{good $x_{j}$ is a substitute for good $x_{i}$}@}, {@{an increase in the price of $x_{i}$ will result in a leftward movement along the demand curve of $x_{i}$}@} and {@{cause the demand curve for $x_{j}$ to [shift out](demand%20curve.md#changes%20that%20increase%20demand)}@}. {@{A decrease in the price of $x_{i}$ will result in a rightward movement along the demand curve of $x_{i}$}@} and {@{cause the demand curve for $x_{j}$ to [shift in](demand%20curve.md#changes%20that%20decrease%20demand)}@}. Furthermore, perfect substitutes have {@{a higher cross elasticity of demand than imperfect substitutes do}@}. <!--SR:!2025-06-11,156,310!2025-06-15,160,310!2025-02-03,62,310!2025-01-30,58,310!2025-02-04,63,310!2025-09-12,231,330!2025-10-03,249,330!2025-05-02,116,290-->
 
@@ -59,7 +59,7 @@ The cross-price elasticity may be {@{positive or negative, depending on whether 
 
 > {@{![Figure 3: Utility functions of perfect substitutes](../../archives/Wikimedia%20Commons/Indifference-curves-perfect-substitutes.svg)}@}
 >
-> Figure 3: {@{Utility functions of perfect substitutes}@} <!--SR:!2025-09-18,236,330!2025-01-29,57,310-->
+> Figure 3: {@{Utility functions of perfect substitutes}@} <!--SR:!2025-09-18,236,330!2025-07-28,180,310-->
 
 {@{Perfect substitutes}@} refer to {@{a pair of goods with uses identical to one another}@}.<sup>[\[6\]](#^ref-6)</sup> In that case, {@{the [utility](utility.md) of a combination of the two goods}@} is {@{an increasing function of the sum of the quantity of each good}@}. That is, {@{the more the consumer can consume \(in total quantity\)}@}, {@{the higher level of utility will be achieved}@}, see figure 3. <!--SR:!2025-02-07,66,310!2025-02-18,76,330!2025-09-20,238,330!2025-04-30,116,290!2025-02-01,60,310!2025-02-04,63,310-->
 
@@ -87,7 +87,7 @@ Imperfect substitutes have {@{a low cross-elasticity of demand}@}. If {@{two bra
 
 ### gross and net substitutes
 
-If {@{two goods are imperfect substitutes}@}, economists can {@{distinguish them as gross substitutes or net substitutes}@}. Good $x_{j}$ is {@{a __gross substitute__ for good $x_{i}$ if, when the price of good $x_{i}$ increases, spending on good $x_{j}$ increases}@}, as described above. Gross substitutability is {@{not a symmetric relationship}@}. Even if {@{$x_{j}$ is a gross substitute for $x_{i}$, it may not be true that $x_{i}$ is a gross substitute for $x_{j}$}@}. <!--SR:!2025-01-29,57,310!2025-01-31,59,310!2025-02-17,75,330!2025-01-31,59,310!2025-02-07,66,310-->
+If {@{two goods are imperfect substitutes}@}, economists can {@{distinguish them as gross substitutes or net substitutes}@}. Good $x_{j}$ is {@{a __gross substitute__ for good $x_{i}$ if, when the price of good $x_{i}$ increases, spending on good $x_{j}$ increases}@}, as described above. Gross substitutability is {@{not a symmetric relationship}@}. Even if {@{$x_{j}$ is a gross substitute for $x_{i}$, it may not be true that $x_{i}$ is a gross substitute for $x_{j}$}@}. <!--SR:!2025-09-26,240,330!2025-01-31,59,310!2025-02-17,75,330!2025-01-31,59,310!2025-02-07,66,310-->
 
 Two goods are {@{__net substitutes__ when the demand for good X increases when the price of good Y increases and the utility derived from the substitute remains constant}@}.<sup>[\[10\]](#^ref-10)</sup> <!--SR:!2025-01-30,58,310-->
 

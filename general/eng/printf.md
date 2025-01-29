@@ -102,7 +102,7 @@ return await memorize_table(
 
 <!--pytextgen generate section="c19d"--><!-- The following content is generated at 2024-01-04T20:17:52.598048+08:00. Any edits will be overridden! -->
 
-- _(begin)_→::@::←_n_$ <!--SR:!2025-01-29,254,297!2027-03-10,1002,349-->
+- _(begin)_→::@::←_n_$ <!--SR:!2027-02-23,755,297!2027-03-10,1002,349-->
 - _n_$→::@::←_(end)_ <!--SR:!2026-06-16,778,337!2026-11-30,920,349-->
 
 <!--/pytextgen-->

@@ -132,13 +132,13 @@ This basic principle gives rise to the commonly used {@{[historical cost account
 
 ### units of constant purchasing power
 
-The stable monetary unit assumption is {@{not applied during hyperinflation}@}. {@{IFRS}@} requires {@{entities to implement capital maintenance in units of constant purchasing power}@} in terms of {@{IAS 29 Financial Reporting in Hyperinflationary Economies}@}. <!--SR:!2025-02-21,117,290!2025-09-26,293,330!2025-08-31,227,270!2025-01-29,10,306-->
+The stable monetary unit assumption is {@{not applied during hyperinflation}@}. {@{IFRS}@} requires {@{entities to implement capital maintenance in units of constant purchasing power}@} in terms of {@{IAS 29 Financial Reporting in Hyperinflationary Economies}@}. <!--SR:!2025-02-21,117,290!2025-09-26,293,330!2025-08-31,227,270!2025-02-28,30,306-->
 
 ## objectives
 
 Financial accountants produce {@{financial statements based on the accounting standards in a given jurisdiction}@}. These standards may be {@{the [Generally Accepted Accounting Principles](accounting%20standard.md) of a respective country, which are typically issued by a national standard setter}@}, or {@{[International Financial Reporting Standards](International%20Financial%20Reporting%20Standards.md) (IFRS), which are issued by the [International Accounting Standards Board](International%20Accounting%20Standards%20Board.md) (IASB)}@}. <!--SR:!2025-06-03,200,310!2025-07-04,188,270!2025-12-08,323,290-->
 
-Financial accountants serves the following purposes: {@{producing general purpose financial statements}@}; {@{producing information used by the management of a business entity for decision making, planning and performance evaluation}@}; and {@{producing financial statements for meeting regulatory requirements}@}. <!--SR:!2025-02-22,98,250!2025-01-29,56,337!2025-02-12,64,337-->
+Financial accountants serves the following purposes: {@{producing general purpose financial statements}@}; {@{producing information used by the management of a business entity for decision making, planning and performance evaluation}@}; and {@{producing financial statements for meeting regulatory requirements}@}. <!--SR:!2025-02-22,98,250!2025-08-09,192,337!2025-02-12,64,337-->
 
 Objectives include:
 
@@ -185,7 +185,7 @@ However, there are {@{instances of accounts, known as contra-accounts (contra-as
 
 - see: [cost accounting](cost%20accounting.md)
 
-1. objectives ::@:: Financial accounting aims at presenting 'true and fair' view of transactions, profit and loss for a period and statement of financial position (balance sheet) on a given date. It aims at computing 'true and fair' view of the cost of production/services offered by the firm.<sup>[\[11\]](#^ref-11)</sup> Cost accounting aims at computing cost of production/service in a scientific manner and facilitate cost control and cost reduction. <!--SR:!2025-01-29,92,270!2025-02-12,112,290-->
+1. objectives ::@:: Financial accounting aims at presenting 'true and fair' view of transactions, profit and loss for a period and statement of financial position (balance sheet) on a given date. It aims at computing 'true and fair' view of the cost of production/services offered by the firm.<sup>[\[11\]](#^ref-11)</sup> Cost accounting aims at computing cost of production/service in a scientific manner and facilitate cost control and cost reduction. <!--SR:!2025-10-04,248,270!2025-02-12,112,290-->
 2. audiences ::@:: Financial accounting reports the results and position of business to government, creditors, investors, and external parties. Cost accounting is an internal reporting system for an organisation's own management for decision making. <!--SR:!2025-08-25,231,290!2025-02-13,107,290-->
 3. classification ::@:: In financial accounting, cost classification is based on type of transactions, e.g. salaries, repairs, insurance, stores etc. In cost accounting, classification is basically on the basis of functions, activities, products, process and on internal planning and control and information needs of the organization. <!--SR:!2025-09-06,230,270!2025-08-03,210,270-->
 

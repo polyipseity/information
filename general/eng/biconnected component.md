@@ -120,7 +120,7 @@ The key fact is that {@{a nonroot vertex _v_ is a cut vertex \(or articulation p
 
 In {@{the [online](online%20algorithm.md) version of the problem}@}, {@{vertices and edges are added \(but not removed\) dynamically}@}, and {@{a data structure must maintain the biconnected components}@}. {@{[Jeffery Westbrook](Jeffery%20Westbrook.md) and [Robert Tarjan](Robert%20Tarjan.md) \(1992\)}@} <sup>[\[4\]](#^ref-4)</sup> developed {@{an efficient data structure for this problem based on [disjoint-set data structures](disjoint-set%20data%20structure.md)}@}. Specifically, it {@{processes _n_ vertex additions and _m_ edge additions in _O_\(_m_ _α_\(_m_, _n_\)\) total time}@}, where {@{_α_ is the [inverse Ackermann function](Ackermann%20function.md#inverse)}@}. This time bound is {@{proved to be optimal}@}. <!--SR:!2025-03-21,69,315!2025-03-09,59,315!2025-02-19,41,290!2025-03-22,56,255!2025-02-03,29,270!2025-03-29,61,255!2025-02-05,33,275!2025-03-21,69,315-->
 
-{@{[Uzi Vishkin](Uzi%20Vishkin.md) and [Robert Tarjan](Robert%20Tarjan.md) \(1985\)}@} <sup>[\[5\]](#^ref-5)</sup> designed {@{a [parallel algorithm](parallel%20algorithm.md) on CRCW [PRAM](parallel%20RAM.md)}@} that {@{runs in _O_\(log _n_\) time with _n_ + _m_ processors}@}. <!--SR:!2025-02-17,28,235!2025-02-24,48,295!2025-01-29,12,215-->
+{@{[Uzi Vishkin](Uzi%20Vishkin.md) and [Robert Tarjan](Robert%20Tarjan.md) \(1985\)}@} <sup>[\[5\]](#^ref-5)</sup> designed {@{a [parallel algorithm](parallel%20algorithm.md) on CRCW [PRAM](parallel%20RAM.md)}@} that {@{runs in _O_\(log _n_\) time with _n_ + _m_ processors}@}. <!--SR:!2025-02-17,28,235!2025-02-24,48,295!2025-02-24,26,215-->
 
 ## related structures
 

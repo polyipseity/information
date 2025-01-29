@@ -74,7 +74,7 @@ C$: [cost structure](#cost%20structure)
 
 #### customer segments
 
-The customer segments building block shows {@{the different groups an organization is trying to serve}@}. Customers are the heart of any business model because {@{without them, no business can work}@}. <!--SR:!2025-01-29,185,274!2027-02-22,786,334-->
+The customer segments building block shows {@{the different groups an organization is trying to serve}@}. Customers are the heart of any business model because {@{without them, no business can work}@}. <!--SR:!2027-01-10,711,294!2027-02-22,786,334-->
 
 Customers should be separated into different segments if {@{they have different needs, need different [distribution channels](#channels), different [customer relationships](#customer%20relationships), very different profitability, or needing different aspects of your products}@}. <!--SR:!2025-11-17,354,257-->
 
@@ -167,7 +167,7 @@ risk reduction
 - accessibility→::@::←brand or status <!--SR:!2025-06-19,261,254!2025-02-15,196,274-->
 - brand or status→::@::←convenience or usability <!--SR:!2025-03-27,135,214!2025-09-18,287,234-->
 - convenience or usability→::@::←cost reduction <!--SR:!2025-11-15,394,274!2025-11-05,337,257-->
-- cost reduction→::@::←customization <!--SR:!2025-05-10,254,274!2025-01-29,104,177-->
+- cost reduction→::@::←customization <!--SR:!2025-05-10,254,274!2025-07-31,183,177-->
 - customization→::@::←design <!--SR:!2025-09-11,254,257!2026-01-27,426,254-->
 - design→::@::←newness <!--SR:!2025-04-26,228,257!2025-04-08,74,214-->
 - newness→::@::←performance <!--SR:!2025-03-26,85,257!2025-06-06,253,257-->

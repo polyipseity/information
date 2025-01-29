@@ -97,7 +97,7 @@ __Table of similarities__ (not really a table anymore...)
 - increment by summing up to _k_ ::@:: $$\left[{n+k+1 \atop n}\right]=\sum _{j=0}^{k}(n+j)\left[{n+j \atop j}\right]$$ <p> vs. <p> $$\left\{ {n+k+1 \atop k}\right\}=\sum _{j=0}^{k}j\left\{ {n+j \atop j}\right\}$$ <!--SR:!2025-02-21,62,230!2025-03-25,96,270-->
 - partition then choose partitions ::@:: $$\left[{n \atop l+m}\right]{\binom {l+m}{l} }=\sum _{k}{\binom {n}{k} }\left[{k \atop l}\right]\left[{n-k \atop m}\right]$$ (annotation: Choose _k_ elements from _n_ elements. Partition _k_ elements into the chosen _l_ cycles. Partition the remaining _n_ − _k_ elements into the unchosen _m_ cycles.) <p> vs. <p> $$\left\{ {n \atop l+m}\right\}{\binom {l+m}{l} }=\sum _{k}{\binom {n}{k} }\left\{ {k \atop l}\right\}\left\{ {n-k \atop m}\right\}$$  (annotation: Choose _k_ elements from _n_ elements. Partition _k_ elements into the chosen _l_ partitions. Partition the remaining _n_ − _k_ elements into the unchosen _m_ partitions.) <!--SR:!2025-06-29,160,270!2025-04-03,107,290-->
 - asymptote for growing _k_ ::@:: $$\left[{n+k \atop k}\right]{\underset {k\to \infty }{\sim } }{\frac {k^{2n} }{2^{n}n!} }.$$ <p> vs. <p> $$\left\{ {n+k \atop k}\right\}{\underset {k\to \infty }{\sim } }{\frac {k^{2n} }{2^{n}n!} }$$ <!--SR:!2025-02-16,78,270!2025-03-27,98,270-->
-- exponential generating function for fixed _k_ ::@:: $$\sum _{n=k}^{\infty }\left[{n \atop k}\right]{\frac {x^{n} }{n!} }={\frac {(-\log(1-x))^{k} }{k!} }.$$ <p> vs. <p> $$\sum _{n=k}^{\infty }\left\{ {n \atop k}\right\}{\frac {x^{n} }{n!} }={\frac {(e^{x}-1)^{k} }{k!} }$$ <!--SR:!2025-01-29,59,250!2025-03-22,95,270-->
+- exponential generating function for fixed _k_ ::@:: $$\sum _{n=k}^{\infty }\left[{n \atop k}\right]{\frac {x^{n} }{n!} }={\frac {(-\log(1-x))^{k} }{k!} }.$$ <p> vs. <p> $$\sum _{n=k}^{\infty }\left\{ {n \atop k}\right\}{\frac {x^{n} }{n!} }={\frac {(e^{x}-1)^{k} }{k!} }$$ <!--SR:!2025-06-26,148,250!2025-03-22,95,270-->
 - explicit formula ::@:: $$\left[{n \atop k}\right]=\sum _{0\leq i_{1}<\ldots <i_{n-k}<n}i_{1}i_{2}\cdots i_{n-k}.$$ <p> vs. <p> $$\left\{ {n \atop k}\right\}=\sum _{\begin{array}{c}c_{1}+\ldots +c_{k}=n-k\\c_{1},\ldots ,\ c_{k}\ \geq \ 0\end{array} }1^{c_{1} }2^{c_{2} }\cdots k^{c_{k} }$$ <!--SR:!2025-05-11,110,250!2025-06-15,141,250-->
 
 See the specific articles for details.
@@ -106,7 +106,7 @@ See the specific articles for details.
 
 Abramowitz and Stegun give {@{the following symmetric formulae that relate the Stirling numbers of the first and second kind}@}.<sup>[\[9\]](#^ref-9)</sup> <!--SR:!2025-09-09,224,310-->
 
-- symmetric formulae ::@:: $$\left[{n \atop k}\right]=\sum _{j=n}^{2n-k}(-1)^{j-k}{\binom {2n-k}{j} }{\binom {j-1}{k-1} }\left\{ {j-k \atop j-n}\right\}$$ and $$\left\{ {n \atop k}\right\}=\sum _{j=n}^{2n-k}(-1)^{j-k}{\binom {2n-k}{j} }{\binom {j-1}{k-1} }\left[{j-k \atop j-n}\right]$$ <!--SR:!2025-01-29,10,130!2025-02-16,73,270-->
+- symmetric formulae ::@:: $$\left[{n \atop k}\right]=\sum _{j=n}^{2n-k}(-1)^{j-k}{\binom {2n-k}{j} }{\binom {j-1}{k-1} }\left\{ {j-k \atop j-n}\right\}$$ and $$\left\{ {n \atop k}\right\}=\sum _{j=n}^{2n-k}(-1)^{j-k}{\binom {2n-k}{j} }{\binom {j-1}{k-1} }\left[{j-k \atop j-n}\right]$$ <!--SR:!2025-02-10,12,130!2025-02-16,73,270-->
 
 ## Stirling numbers with negative integral values
 

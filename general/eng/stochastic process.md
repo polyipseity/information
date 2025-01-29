@@ -201,7 +201,7 @@ If {@{two stochastic processes $X$ and $Y$ are independent}@}, then {@{they are 
 
 #### orthogonality
 
-{@{Two stochastic processes $\left\{X_{t}\right\}$ and $\left\{Y_{t}\right\}$}@} are called __orthogonal__ if {@{their cross-correlation $\operatorname {R} _{\mathbf {X} \mathbf {Y} }(t_{1},t_{2})=\operatorname {E} [X(t_{1}){\overline {Y(t_{2})} }]$ is zero for all times}@}.<sup>[\[178\]](#^ref-178)</sup><sup>[\[142\]](#^ref-142)</sup> Formally: {@{$$\left\{X_{t}\right\},\left\{Y_{t}\right\}{\text{ orthogonal} }\quad \iff \quad \operatorname {R} _{\mathbf {X} \mathbf {Y} }(t_{1},t_{2})=0\quad \forall t_{1},t_{2}\,.$$}@} <!--SR:!2025-02-17,53,316!2025-01-29,26,296!2025-01-30,37,296-->
+{@{Two stochastic processes $\left\{X_{t}\right\}$ and $\left\{Y_{t}\right\}$}@} are called __orthogonal__ if {@{their cross-correlation $\operatorname {R} _{\mathbf {X} \mathbf {Y} }(t_{1},t_{2})=\operatorname {E} [X(t_{1}){\overline {Y(t_{2})} }]$ is zero for all times}@}.<sup>[\[178\]](#^ref-178)</sup><sup>[\[142\]](#^ref-142)</sup> Formally: {@{$$\left\{X_{t}\right\},\left\{Y_{t}\right\}{\text{ orthogonal} }\quad \iff \quad \operatorname {R} _{\mathbf {X} \mathbf {Y} }(t_{1},t_{2})=0\quad \forall t_{1},t_{2}\,.$$}@} <!--SR:!2025-02-17,53,316!2025-04-18,79,296!2025-01-30,37,296-->
 
 #### Skorokhod space
 

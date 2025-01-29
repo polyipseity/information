@@ -120,7 +120,7 @@ Let φ, ψ, and ρ be LTL formulas. The following tables list {@{some of the use
 > __flashcards__
 >
 > - temporal idempotency ::@:: __F__ φ ≡ __F__ __F__ φ <br/> __G__ φ ≡ __G__ __G__ φ <br/> φ __U__ ψ ≡ φ __U__ \(φ __U__ ψ\) <!--SR:!2025-02-12,49,310!2025-05-08,103,290-->
-> - temporal expansion ::@:: φ __U__ ψ ≡ ψ ∨ \( φ ∧ __X__<!-- markdown separator -->\(φ __U__ ψ\) \) <br/> φ __W__ ψ ≡ ψ ∨ \( φ ∧ __X__<!-- markdown separator -->\(φ __W__ ψ\) \) <br/> φ __R__ ψ ≡ ψ ∧ \(φ ∨ __X__<!-- markdown separator -->\(φ __R__ ψ\) \) <!--SR:!2025-01-29,39,303!2025-03-15,65,270-->
+> - temporal expansion ::@:: φ __U__ ψ ≡ ψ ∨ \( φ ∧ __X__<!-- markdown separator -->\(φ __U__ ψ\) \) <br/> φ __W__ ψ ≡ ψ ∨ \( φ ∧ __X__<!-- markdown separator -->\(φ __W__ ψ\) \) <br/> φ __R__ ψ ≡ ψ ∧ \(φ ∨ __X__<!-- markdown separator -->\(φ __R__ ψ\) \) <!--SR:!2025-05-26,117,303!2025-03-15,65,270-->
 
 ## negation normal form
 

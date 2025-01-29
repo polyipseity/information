@@ -99,6 +99,6 @@ while condition:
   pass # required, otherwise error
 ```
 
-If {@{you want to stop a `while` loop early in the loop}@}, use {@{the `break` statement}@}. This will {@{stop the innermost `for` or `while` loop}@}. <!--SR:!2025-01-29,85,351!2025-02-01,88,351!2025-02-01,88,351-->
+If {@{you want to stop a `while` loop early in the loop}@}, use {@{the `break` statement}@}. This will {@{stop the innermost `for` or `while` loop}@}. <!--SR:!2026-03-18,413,371!2025-02-01,88,351!2025-02-01,88,351-->
 
 ISOM 2020 note: {@{We have only learnt `while True`. ONLY USE `while True` in your exercises, labs, and exams.}@} If {@{you really need a condition to stop the loop}@}, use {@{`break` under an `if` statement checking for said condition}@}. <!--SR:!2025-01-30,86,351!2025-02-03,90,351!2025-01-30,86,351-->

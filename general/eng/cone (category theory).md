@@ -57,7 +57,7 @@ Likewise, {@{the __category of co-cones from _F_<!-- markdown separator -->__}@}
 
 {@{Dually}@}, {@{a cone φ from _F_ to _L_ is a universal cone}@} if {@{for any other cone ψ from _F_ to _N_ there is a unique morphism from φ to ψ}@}. <p> ![A commutative diagram depicting a universal co-cone under a functor.](../../archives/Wikimedia%20Commons/Functor%20co-cone%20%28extended%29.svg) Equivalently, {@{a universal cone from _F_}@} is {@{a universal morphism from _F_ to Δ}@}, or {@{an [initial object](initial%20object.md) in \(_F_ ↓ Δ\)}@}. <!--SR:!2025-02-02,14,290!2025-02-05,17,312!2025-02-05,17,312!2025-02-03,15,290!2025-02-04,16,290!2025-02-05,17,312-->
 
-The limit of _F_ is {@{a universal cone to _F_, and the colimit is a universal cone from _F_}@}. As with {@{all universal constructions}@}, {@{universal cones are not guaranteed to exist for all diagrams _F_}@}, but {@{if they do exist they are unique up to a unique isomorphism \(in the comma category \(Δ ↓ _F_\)\)}@}. <!--SR:!2025-02-04,16,290!2025-02-05,17,312!2025-02-05,17,312!2025-01-29,10,270-->
+The limit of _F_ is {@{a universal cone to _F_, and the colimit is a universal cone from _F_}@}. As with {@{all universal constructions}@}, {@{universal cones are not guaranteed to exist for all diagrams _F_}@}, but {@{if they do exist they are unique up to a unique isomorphism \(in the comma category \(Δ ↓ _F_\)\)}@}. <!--SR:!2025-02-04,16,290!2025-02-05,17,312!2025-02-05,17,312!2025-02-25,27,270-->
 
 ## see also
 
