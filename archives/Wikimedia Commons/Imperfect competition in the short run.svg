@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="400" width="580" version="1.0" y="0" x="0" xmlns:cc="http://creativecommons.org/ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<style>
+ .text1{font-size:40px;fill:#000000;font-family:Bitstream Vera Sans}
+ .cl1{fill-rule:nonzero;fill:#000000;}
+ .cl2{stroke-linejoin:miter;stroke:#000000;stroke-linecap:butt;stroke-width:2.700;fill:none;}
+ .cl3{font-size:25px;font-family:Bitstream Vera Sans;fill:#000000;}
+ .cl4{font-size:23px;font-family:Bitstream Vera Sans;fill:#000000; font-size:21px;;}
+</style>
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <path style="stroke-linejoin:miter;stroke:#000000;stroke-linecap:butt;stroke-width:0.856px;fill:none" d="M 519.687,356.526 43.685,355.801 41.659,43.443"/>
+ <path style="stroke-linejoin:miter;stroke:#4040ff;stroke-linecap:butt;stroke-width:2.505;fill:none" d="M 71.252,210.422 C 194.636,481.272 449.310,55.289 449.310,55.289"/>
+ <text class="cl3" y="62.230" x="460.781">MC</text>
+ <text class="cl3" y="28.006" x="10.854">Price</text>
+ <text style="font-size:23px;font-family:Bitstream Vera Sans;fill:#000000" y="379.821" x="463.511">Quantity</text>
+ <path class="cl1" d="m 41.502,37.688 6.925,17.257 c 0,0 -5.981,-8.428 -13.221,0 l 6.296,-17.257 z"/>
+ <path class="cl1" d="m 533.784,355.466 -17.257,6.925 c 0,0 8.428,-5.981 0,-13.221 l 17.257,6.296 z"/>
+ <path style="stroke-linejoin:miter;stroke:#ff0000;stroke-linecap:butt;stroke-width:2.512;fill:none" d="M 71.256,136.781 C 264.038,377.305 404.934,182.943 404.934,182.943"/>
+ <path class="cl2" d="M 42.190,77.108 494.605,355.246"/>
+ <text style="font-size:25px;font-family:Bitstream Vera Sans;fill:#000000; font-size:20px;" y="312.963" x="456.565">D=AR=P</text>
+ <text class="cl3" y="181.098" x="423.559">ATC</text>
+ <text class="cl3" y="188.651" x="15.495">P</text>
+ <path style="stroke-linejoin:miter;stroke:#000000;stroke-linecap:butt;stroke-dasharray:6.484, 6.484;stroke-width:1.621;fill:none" d="m 216.476,186.318 0,169.786"/>
+ <text class="cl3" y="373.964" x="208.507">Q</text>
+ <path style="stroke-linejoin:miter;stroke:#000000;stroke-linecap:butt;stroke-dasharray:7.199,7.199;stroke-width:1.799;fill:none" d="m 213.402,249.143 -172.475,0"/>
+ <path class="cl2" d="M 42.875,78.715 267.965,357.648"/>
+ <path style="stroke-linejoin:miter;stroke:#000000;stroke-linecap:butt;stroke-dasharray:6,6;stroke-width:1.5;fill:none" d="m 215.564,184.303 -173.553,0"/>
+ <text class="cl3" y="343.111" x="274.895">MR</text>
+ <text y="45.021" x="227.272" class="text1"><tspan x="227.272" y="45.021"/></text>
+ <rect style="fill-opacity:0.703;fill:#ffffff" height="61.7" width="170" y="186" x="43.8"/>
+ <text class="cl4" y="210.445" x="75.330">Economic</text>
+ <text class="cl4" y="235.741" x="96.845">profit</text>
+</svg>
