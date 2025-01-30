@@ -470,6 +470,9 @@ async def wiki_html_to_plaintext(
                         "[",
                         f"]({_markdown_link_target(from_filename, _fix_name_maybe(to_fragment))})",
                     )
+                    from_filename, to_filename = from_filename.replace(
+                        "/", "_"
+                    ), to_filename.replace("/", "_")
                     if from_filename != to_filename:
                         redirect_file = (
                             _CONVERTED_WIKI_LANGUAGE_DIRECTORY / f"{from_filename}.md"
