@@ -21,7 +21,7 @@ Shares outstanding can be calculated as {@{either basic or fully diluted}@}. {@{
 
 ### public traded companies' investor relations
 
-{@{The financial reporting obligation of the publicly traded company}@} also ensures {@{the publication of issued and outstanding shares}@}. {@{The reports are usually available}@} in {@{the investor relations section of the company's website}@}. {@{Web directories}@} are {@{supporting direct access to company websites}@}.<sup>[\[1\]](#^ref-1)</sup> {@{Publicly traded companies}@} bundle {@{the reports in the investor relations section}@}, e.g. [Deutsche Bank](Deutsche%20Bank.md),<sup>[\[2\]](#^ref-2)</sup> Eni S.p.a.,<sup>[\[3\]](#^ref-3)</sup> [AB InBev](AB%20InBev.md),<sup>[\[4\]](#^ref-4)</sup> EDP - Energias do Brasil SA<sup>[\[5\]](#^ref-5)</sup> or Accor SA.<sup>[\[6\]](#^ref-6)</sup>
+{@{The financial reporting obligation of the publicly traded company}@} also ensures {@{the publication of issued and outstanding shares}@}. {@{The reports are usually available}@} in {@{the investor relations section of the company's website}@}. {@{Web directories}@} are {@{supporting direct access to company websites}@}.<sup>[\[1\]](#^ref-1)</sup> {@{Publicly traded companies}@} {@{bundle the reports in the investor relations section}@}, e.g. [Deutsche Bank](Deutsche%20Bank.md),<sup>[\[2\]](#^ref-2)</sup> Eni S.p.a.,<sup>[\[3\]](#^ref-3)</sup> [AB InBev](AB%20InBev.md),<sup>[\[4\]](#^ref-4)</sup> EDP - Energias do Brasil SA<sup>[\[5\]](#^ref-5)</sup> or Accor SA.<sup>[\[6\]](#^ref-6)</sup>
 
 ### authorized information service
 

@@ -136,7 +136,7 @@ A similar result {@{even holds for moments of random vectors}@}. The _problem of
 
 ## partial moments
 
-Partial moments are sometimes referred to as {@{"one-sided moments"}@}. {@{The _n_-th order lower and upper partial moments with respect to a reference point _r_}@} may be expressed as {@{$$\mu _{n}^{-}(r)=\int _{-\infty }^{r}(r-x)^{n}\,f(x)\,\mathrm {d} x,$$ $$\mu _{n}^{+}(r)=\int _{r}^{\infty }(x-r)^{n}\,f(x)\,\mathrm {d} x.$$}@} If {@{the integral function does not converge}@}, {@{the partial moment does not exist}@}.
+Partial moments are sometimes referred to as {@{"one-sided moments"}@}. {@{The _n_-th order lower and upper partial moments with respect to a reference point _r_}@} may be expressed as {@{$$\mu _{n}^{-}(r)=\int _{-\infty }^{r}(r-x)^{n}\,f(x)\,\mathrm {d} x,$$ <br/> $$\mu _{n}^{+}(r)=\int _{r}^{\infty }(x-r)^{n}\,f(x)\,\mathrm {d} x.$$}@} If {@{the integral function does not converge}@}, {@{the partial moment does not exist}@}.
 
 Partial moments are normalized by {@{being raised to the power 1/_n_}@}. {@{The [upside potential ratio](upside%20potential%20ratio.md)}@} may be expressed as {@{a ratio of a first-order upper partial moment to a normalized second-order lower partial moment}@}.
 
