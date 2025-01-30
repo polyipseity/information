@@ -9,21 +9,21 @@ tags:
 
 # issued shares
 
-In {@{[economics](economics.md) and [law](law.md)}@}, {@{__issued shares__}@} are {@{the [shares](shares.md) of a [corporation](corporation.md) which have been allocated \(allotted\) and are subsequently held by [shareholders](shareholders.md)}@}.<sup>[\[1\]](#^ref-1)</sup><sup>[\[2\]](#^ref-2)</sup> {@{The act of creating new issued shares}@} is called {@{_issuance_}@}. {@{Allotment}@} is {@{simply the transfer of shares to a subscriber}@}. After allotment, {@{a subscriber becomes a shareholder, though usually that also requires formal entry in a [share registry](share%20registry.md)}@}.<sup>[\[3\]](#^ref-3)</sup>
+In {@{[economics](economics.md) and [law](law.md)}@}, {@{__issued shares__}@} are {@{the [shares](shares.md) of a [corporation](corporation.md) which have been allocated \(allotted\) and are subsequently held by [shareholders](shareholders.md)}@}.<sup>[\[1\]](#^ref-1)</sup><sup>[\[2\]](#^ref-2)</sup> {@{The act of creating new issued shares}@} is called {@{_issuance_}@}. {@{Allotment}@} is {@{simply the transfer of shares to a subscriber}@}. After allotment, {@{a subscriber becomes a shareholder, though usually that also requires formal entry in a [share registry](share%20registry.md)}@}.<sup>[\[3\]](#^ref-3)</sup> <!--SR:!2025-02-02,4,270!2025-02-02,4,284!2025-02-02,4,284!2025-02-02,4,284!2025-02-02,4,270!2025-02-02,4,270!2025-02-02,4,270!2025-02-02,4,284-->
 
 ## overview
 
-{@{The number of shares that can be issued}@} is {@{limited to the total [authorized shares](shares%20authorized.md)}@}. Issued shares are {@{those shares which the [board of directors](board%20of%20directors.md) and/or shareholders have agreed to issue, and which have been issued}@}. Issued shares are {@{the sum of [outstanding shares](outstanding%20shares.md) held by shareholders; and [treasury shares](treasury%20shares.md)}@} are {@{shares which had been issued but have been repurchased by the corporation}@}. The latter {@{generally have no voting rights or rights to dividends}@}.
+{@{The number of shares that can be issued}@} is {@{limited to the total [authorized shares](shares%20authorized.md)}@}. Issued shares are {@{those shares which the [board of directors](board%20of%20directors.md) and/or shareholders have agreed to issue, and which have been issued}@}. Issued shares are {@{the sum of [outstanding shares](outstanding%20shares.md) held by shareholders; and [treasury shares](treasury%20shares.md)}@} are {@{shares which had been issued but have been repurchased by the corporation}@}. The latter {@{generally have no voting rights or rights to dividends}@}. <!--SR:!2025-02-02,4,270!2025-02-02,4,284!2025-02-02,4,270!2025-02-02,4,270!2025-02-02,4,284!2025-02-02,4,270-->
 
-{@{The issued shares of a corporation}@} form the {@{[equity capital](equity%20(finance).md) of the corporation}@}, and some corporations are required {@{by law to have a minimum value of equity capital}@}, while {@{others may not need any or just a nominal number}@}. {@{The value of the issued shares}@} is determined {@{at the time they are issued and the value does not change}@}, in relation to {@{the issuing corporation after that time}@}.<sup>[\[4\]](#^ref-4)</sup>
+{@{The issued shares of a corporation}@} form the {@{[equity capital](equity%20(finance).md) of the corporation}@}, and some corporations are required {@{by law to have a minimum value of equity capital}@}, while {@{others may not need any or just a nominal number}@}. {@{The value of the issued shares}@} is determined {@{at the time they are issued and the value does not change}@}, in relation to {@{the issuing corporation after that time}@}.<sup>[\[4\]](#^ref-4)</sup> <!--SR:!2025-02-02,4,284!2025-02-02,4,270!2025-02-02,4,270!2025-02-02,4,270!2025-02-02,4,284!2025-02-02,4,270!2025-02-02,4,270-->
 
-Shares are most commonly {@{issued fully paid}@}, in which case {@{the liability of the shareholders is limited to the amount paid on the shares}@}; but they may also be {@{issued shares that are [partly paid](partly%20paid.md)}@}, with {@{unlimited liability, subject to guarantee, or some other form}@}.<sup>[\[5\]](#^ref-5)</sup>
+Shares are most commonly {@{issued fully paid}@}, in which case {@{the liability of the shareholders is limited to the amount paid on the shares}@}; but they may also be {@{issued shares that are [partly paid](partly%20paid.md)}@}, with {@{unlimited liability, subject to guarantee, or some other form}@}.<sup>[\[5\]](#^ref-5)</sup> <!--SR:!2025-02-02,4,270!2025-02-02,4,270!2025-02-02,4,270!2025-02-02,4,284-->
 
 ### basic formulae
 
-(annotation: shares authorized) ::@:: $${\rm { {Shares\ authorized}={\rm { {Shares\ issued}+{\rm {Shares\ unissued} } } } } }$$
+(annotation: shares authorized) ::@:: $${\rm { {Shares\ authorized}={\rm { {Shares\ issued}+{\rm {Shares\ unissued} } } } } }$$ <!--SR:!2025-02-02,4,270!2025-02-02,4,270-->
 
-(annotation: shares issued) ::@:: $${\rm { {Shares\ issued}={\rm { {Shares\ outstanding}+{\rm {Treasury\ shares} } } } } }$$
+(annotation: shares issued) ::@:: $${\rm { {Shares\ issued}={\rm { {Shares\ outstanding}+{\rm {Treasury\ shares} } } } } }$$ <!--SR:!2025-02-02,4,270!2025-02-02,4,284-->
 
 ## see also
 
@@ -39,7 +39,7 @@ This text incorporates [content](https://en.wikipedia.org/wiki/issued_shares) fr
 2. ["Issued shares"](http://financial-dictionary.thefreedictionary.com/Issued+Shares). _TheFreeDictionary.com_. Retrieved 2018-10-16. <a id="^ref-2"></a>^ref-2
 3. <a id="CITEREFK.1999"></a> K., Shim, Jae \(1999\). [_Schaum's outline of theory and problems of financial accounting_](https://archive.org/details/schaumsfinancial00jaek/page/233). Siegel, Joel G. \(2nd ed.\). New York: McGraw-Hill. pp. [233](https://archive.org/details/schaumsfinancial00jaek/page/233). [ISBN](ISBN%20(identifier).md) [0071341668](https://en.wikipedia.org/wiki/Special:BookSources/0071341668). [OCLC](OCLC%20(identifier).md#OCLC) [41497076](https://search.worldcat.org/oclc/41497076). <a id="^ref-3"></a>^ref-3
 4. ["Definition of EQUITY CAPITAL"](https://www.merriam-webster.com/dictionary/equity%20capital). _<www.merriam-webster.com>_. Retrieved 2018-10-16. <a id="^ref-4"></a>^ref-4
-5. <a id="CITEREFLisam"></a> Lisam, Heinrickh. ["Beleggen in aandelen"](https://beleggen.info/aandelen/). _beleggen.info_ \(in Dutch\). Retrieved 2018-10-16. <a id="^ref-5"></a>^ref-5
+5. <a id="CITEREFLisam"></a> Lisam, Heinrickh. ["Beleggen in aandelen"](https://beleggen.info/aandelen/). _beleggen.info_ \(in Dutch\). Retrieved 2018-10-16. <a id="^ref-5"></a>^ref-5 <!--SR:!2025-01-30,1,244-->
 
 ## external links
 
