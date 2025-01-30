@@ -39,7 +39,7 @@ This text incorporates [content](https://en.wikipedia.org/wiki/issued_shares) fr
 2. ["Issued shares"](http://financial-dictionary.thefreedictionary.com/Issued+Shares). _TheFreeDictionary.com_. Retrieved 2018-10-16. <a id="^ref-2"></a>^ref-2
 3. <a id="CITEREFK.1999"></a> K., Shim, Jae \(1999\). [_Schaum's outline of theory and problems of financial accounting_](https://archive.org/details/schaumsfinancial00jaek/page/233). Siegel, Joel G. \(2nd ed.\). New York: McGraw-Hill. pp. [233](https://archive.org/details/schaumsfinancial00jaek/page/233). [ISBN](ISBN%20(identifier).md) [0071341668](https://en.wikipedia.org/wiki/Special:BookSources/0071341668). [OCLC](OCLC%20(identifier).md#OCLC) [41497076](https://search.worldcat.org/oclc/41497076). <a id="^ref-3"></a>^ref-3
 4. ["Definition of EQUITY CAPITAL"](https://www.merriam-webster.com/dictionary/equity%20capital). _<www.merriam-webster.com>_. Retrieved 2018-10-16. <a id="^ref-4"></a>^ref-4
-5. <a id="CITEREFLisam"></a> Lisam, Heinrickh. ["Beleggen in aandelen"](https://beleggen.info/aandelen/). _beleggen.info_ \(in Dutch\). Retrieved 2018-10-16. <a id="^ref-5"></a>^ref-5 <!--SR:!2025-01-31,1,224-->
+5. <a id="CITEREFLisam"></a> Lisam, Heinrickh. ["Beleggen in aandelen"](https://beleggen.info/aandelen/). _beleggen.info_ \(in Dutch\). Retrieved 2018-10-16. <a id="^ref-5"></a>^ref-5
 
 ## external links
 
