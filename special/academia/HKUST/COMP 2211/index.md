@@ -820,9 +820,9 @@ ID: 23456789
     - distribution: ![midterm examination distribution](attachments/comp2211-fall-2024-midterm-distribution.png) → ?
 - report
   - provided answer space (-1) ::@:: The provided answer space may not fit the correct answer... what the fuck? Also, be more certain of yourself on slicing with negative increment. <!--SR:!2025-03-04,84,366!2025-03-01,81,366-->
-  - D-fold validation error (-3) ::@:: If a validation error can either be 9/10 or 10/10, then it is better than a validation error of always 10/10. <!--SR:!2025-03-13,92,366!2025-03-14,93,366-->
+  - D-fold validation error (-3) ::@:: If a validation error can either be 9/10 or 10/10, then it is better than a validation error of always 10/10. <!--SR:!2025-03-13,92,366!2025-03-14,93,366-->
     - What should you do if you see a time-wasting question? ::@:: De-prioritize it. Do it last. And do not spend time to check it afterwards unless you have checked everything else carefully. <!--SR:!2025-02-24,85,363!2025-03-05,92,363-->
-  - When applying machine learning on large data sets, it is good practice to test which algorithms work best on a small subset of the data before running the best model on the whole data set, since the same algorithms that work best on small data sets almost always also work best on big sets of the same data. True or false? (-1) ::@:: False. Carefully read "... before running the best model on the whole data set". <!--SR:!2025-03-14,93,366!2025-03-14,93,366-->
+  - When applying machine learning on large data sets, it is good practice to test which algorithms work best on a small subset of the data before running the best model on the whole data set, since the same algorithms that work best on small data sets almost always also work best on big sets of the same data. True or false? (-1) ::@:: False. Carefully read "... before running the best model on the whole data set". <!--SR:!2025-03-14,93,366!2025-03-14,93,366-->
   - calculating recall (-4.2) ::@:: Do not calculate recall wrongly. Also, prioritize checking cascading questions (questions that depend on the answer of previous questions). <!--SR:!2025-03-12,91,366!2025-03-13,92,366-->
   - identity of models (-1) ::@:: Two models are considered different if their parameters (but not hyperparameters) are the same. For example, two _k_-NN model on the same training data but with different _k_ are considered the same model. However, if the hyperparameters also affect the parameters, e.g. training hyperparameters, then in said cases, different hyperparameters usually implies different parameters. <!--SR:!2025-03-02,82,366!2025-02-18,69,346-->
   - time limit ::@:: It was sufficient to finish all questions (about 40 minutes left) and check some questions thoroughly. <!--SR:!2025-03-21,72,380!2025-03-26,76,380-->
@@ -1242,7 +1242,7 @@ ID: 23456789
 
 > Dear all,
 >
-> This is a gentle reminder that your COMP 2211 final examination will be held from __08:30 am -11:30 am on December 14, 2024 (Saturday)__ __in [Seafront] TST Sports Ctr ARENA__ for most of you (except those approved of special arrangements). You will be assigned a random seat in the venue. The exact seating plan will be announced later.
+> This is a gentle reminder that your COMP 2211 final examination will be held from __08:30 am -11:30 am on December 14, 2024 (Saturday)__ __in [Seafront] TST Sports Ctr ARENA__ for most of you (except those approved of special arrangements). You will be assigned a random seat in the venue. The exact seating plan will be announced later.
 >
 > The final exam coverage will include all the materials (lectures, labs, PAs) from the start of this semester. Please refer to the following for details.
 >
@@ -1258,7 +1258,7 @@ ID: 23456789
 > - Topic 10: Minimax and Alpha-Beta Pruning
 > - Topic 11: Ethics of Artificial Intelligence
 >
-> The exam is closed-book-closed notes (no cheat sheet is allowed), and the format will be similar to the one in the midterm exam and the past exam samples. You can only use H.K.E.A.A.-approved calculators ([https://www.hkeaa.edu.hk/DocLibrary/IPE/cal/CALc2022.pdf](https://www.hkeaa.edu.hk/DocLibrary/IPE/cal/CALc2022.pdf)); we will provide some blank sheets for your rough work.
+> The exam is closed-book-closed notes (no cheat sheet is allowed), and the format will be similar to the one in the midterm exam and the past exam samples. You can only use H.K.E.A.A.-approved calculators ([https://www.hkeaa.edu.hk/DocLibrary/IPE/cal/CALc2022.pdf](https://www.hkeaa.edu.hk/DocLibrary/IPE/cal/CALc2022.pdf)); we will provide some blank sheets for your rough work.
 >
 > As the exam date gets closer, we'll provide more information about the arrangement.
 >
@@ -1271,9 +1271,9 @@ ID: 23456789
 
 > Dear all,
 >
-> This is a reminder that the COMP 2211 final exam will take place tomorrow (14 December 2024, Saturday) from 8:30 AM to 11:30 AM in __Seafront TST Sports Ctr ARENA__, except for those with special arrangements. Please check your assigned seat at [https://course.cse.ust.hk/comp2211/final-seating-plan.html](https://course.cse.ust.hk/comp2211/final-seating-plan.html) before coming.
+> This is a reminder that the COMP 2211 final exam will take place tomorrow (14 December 2024, Saturday) from 8:30 AM to 11:30 AM in __Seafront TST Sports Ctr ARENA__, except for those with special arrangements. Please check your assigned seat at [https://course.cse.ust.hk/comp2211/final-seating-plan.html](https://course.cse.ust.hk/comp2211/final-seating-plan.html) before coming.
 >
-> The exam will have __9 questions__:
+> The exam will have __9 questions__:
 >
 > - 1 True/False (with 10 sub-questions)
 > - ~2 programming questions
@@ -1281,21 +1281,21 @@ ID: 23456789
 >
 > The final exam will mainly cover the material we covered after the midterm, but we might still include questions on the topics from before the midterm.
 >
-> We suggest you take some time to look over all the questions and decide which ones to tackle first. Also, __try not to spend too much time on any single question__ so you have enough time to finish them all.
+> We suggest you take some time to look over all the questions and decide which ones to tackle first. Also, __try not to spend too much time on any single question__ so you have enough time to finish them all.
 >
 > Here are some Q&A about the midterm:
 >
 > - Question: Do we need to review lab materials/PAs in addition to lecture notes? <br/> Answer: Yes, all materials—lecture notes, lab exercises, and PAs—are included. Most questions will focus on concepts rather than programming.
 > - Question: Can we use a calculator during the exam? <br/> Answer: Yes, you can use a calculator, but only HKEA-approved ones.
 > - Question: Can we use blank sheets for draft work? <br/> Answer: Yes, you can use blank sheets for draft work. Some will be attached to the question papers.
-> - Question: Can we use cheat sheets? <br/> Answer: __No__, but we will provide references to useful functions for solving problems.
-> - Question: Do we need to memorize any formulas? <br/> Answer: No, __except for formulas related to Naïve Bayes__. We will provide any formulas you might need.
+> - Question: Can we use cheat sheets? <br/> Answer: __No__, but we will provide references to useful functions for solving problems.
+> - Question: Do we need to memorize any formulas? <br/> Answer: No, __except for formulas related to Naïve Bayes__. We will provide any formulas you might need.
 >
 > If you have any further questions, please let us know.
 >
 > Thanks, and see you all tomorrow morning.
 >
-> Best, <br/>
+> Best, <br/>
 > \(redacted\)
 
 ## aftermath

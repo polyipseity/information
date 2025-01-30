@@ -748,18 +748,18 @@ The content is in teaching order.
 > __Announcement on MATH 2411 Final Exam \[Fall 2024\]__
 >
 > __<u>MATH 2411 Final Exam \[Fall 2024\]</u>__ <br/>
-> Time: __16th December, 2024 (Monday), 8:30 am - 11:00 am__. (EARLY in the morning) <br/>
-> Venue: __S. H. Ho Sports Hall__
+> Time: __16th December, 2024 (Monday), 8:30 am - 11:00 am__. (EARLY in the morning) <br/>
+> Venue: __S. H. Ho Sports Hall__
 >
 > Several things to note:
 >
-> - __You are advised to arrive before 8:20 am__. Please take your __student ID card__ with you. __If you are late for 30 minutes or more, you will NOT be admitted to the examination.__
+> - __You are advised to arrive before 8:20 am__. Please take your __student ID card__ with you. __If you are late for 30 minutes or more, you will NOT be admitted to the examination.__
 > - You are NOT allowed to leave the exam venue in the first 30 minutes or the last 20 minutes during the exam.
 > - If you need to go to toilet during the exam, you should raise your hand and remain seated first. The invigilator will bring your ID card to the Entrance for queuing.
-> - Each of you has been assigned a unique seat number. [__<u>Seating plan</u>__](https://canvas.ust.hk/courses/59562/files/9905191 "Seating Plan -L1.pdf") and [__<u>floor plan of the venue</u>__](https://canvas.ust.hk/courses/59562/files/9905192 "HALL-MATH2411.pdf") are attached.
-> - __Coverage__: Chapter 2 to Chapter 6. The materials which have been covered in midterm will be examined less. The software __R__ will NOT be tested. Optional topics such as Central Limit Theorem, Fisher z-transformation will NOT be tested.
-> - __Format__: Short questions + Long questions.  For short questions, give your answers directly; for long questions, you need show ALL your working steps to receive full marks.
-> - The final exam is a closed book examination. However, you are allowed to bring <u>a cheat sheet: one piece of A4 paper (double sided), printed or handwritten</u>. All the papers, including your cheat sheet and scratch paper will be collected when the exam ends, and you can take your cheat sheet back during the __Paper Checking Session \[Time/Date: 14:30-16:00, Dec 20, 2024 (Fri); Venue:   Room 1410 (Lifts 25/26) \]__.
+> - Each of you has been assigned a unique seat number. [__<u>Seating plan</u>__](https://canvas.ust.hk/courses/59562/files/9905191 "Seating Plan -L1.pdf") and [__<u>floor plan of the venue</u>__](https://canvas.ust.hk/courses/59562/files/9905192 "HALL-MATH2411.pdf") are attached.
+> - __Coverage__: Chapter 2 to Chapter 6. The materials which have been covered in midterm will be examined less. The software __R__ will NOT be tested. Optional topics such as Central Limit Theorem, Fisher z-transformation will NOT be tested.
+> - __Format__: Short questions + Long questions.  For short questions, give your answers directly; for long questions, you need show ALL your working steps to receive full marks.
+> - The final exam is a closed book examination. However, you are allowed to bring <u>a cheat sheet: one piece of A4 paper (double sided), printed or handwritten</u>. All the papers, including your cheat sheet and scratch paper will be collected when the exam ends, and you can take your cheat sheet back during the __Paper Checking Session \[Time/Date: 14:30-16:00, Dec 20, 2024 (Fri); Venue:   Room 1410 (Lifts 25/26) \]__.
 > - You can bring ONE calculator. No restriction of the model.
 > - Scratch paper will be provided. Do not use your own scratch\blank paper.
 > - Necessary statistical tables of the quantiles will be provided. Use the most appropriate values from the table and indicate in your answer which values you have used.

@@ -69,18 +69,18 @@ The content is in teaching order.
 >
 > Reminder about the final exam:
 >
-> - __Date:__ December 16 (Monday), 4:30PM
-> - __Location:__ \[SEAFRONT\]TST Sports Ctr MP RM
-> - __Duration:__ 2 hours, 4:30PM - 6:30PM
+> - __Date:__ December 16 (Monday), 4:30PM
+> - __Location:__ \[SEAFRONT\]TST Sports Ctr MP RM
+> - __Duration:__ 2 hours, 4:30PM - 6:30PM
 > - Please bring your student ID card.
-> - You are ___not___ allowed to use any electronic devices. In other words, calculators, mobile phones, smart watches, laptops etc. are _not_ allowed.
+> - You are ___not___ allowed to use any electronic devices. In other words, calculators, mobile phones, smart watches, laptops etc. are _not_ allowed.
 > - You can only use ball pen with black or blue ink to write your answers. Your paper will not be marked if you use a pencil.
 > - You are allowed to bring any printed or written materials.
 >
 > Paper checking session:
 >
-> - __Date:__ December 18 (Wednesday), 12:30PM - 2:30PM
-> - __Location:__ 2128C
+> - __Date:__ December 18 (Wednesday), 12:30PM - 2:30PM
+> - __Location:__ 2128C
 > - If you are unable to attend, you may designate another student to check your exam paper on your behalf. Please email us the name and student ID of the designated student in advance.
 > - Any appeals regarding the exam grades must be submitted no later than the paper checking session. Appeals submitted afterwards will not be entertained.
 >
