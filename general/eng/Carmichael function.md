@@ -61,7 +61,7 @@ __Proof:__ If {@{_m_ = _kλ_\(_n_\) + _r_ with 0 ≤ _r_ \< _λ_\(_n_\)}@}, then
 
 ### _λ_\(_n_\) divides _φ_\(_n_\)
 
-This follows from {@{elementary [group theory](group%20theory.md)}@}, because {@{the exponent of any [finite group](finite%20group.md) must divide the order of the group}@}. {@{_λ_\(_n_\) is the exponent of the multiplicative group of integers modulo _n_}@} while {@{_φ_\(_n_\) is the order of that group}@}. In particular, {@{the two must be equal in the cases where the multiplicative group is cyclic}@} due to {@{the existence of a [primitive root](primitive%20root%20modulo%20n.md), which is the case for odd prime powers}@}. <!--SR:!2025-02-23,47,290!2025-03-17,66,321!2025-01-31,27,281!2025-03-02,50,301!2025-02-27,47,290!2025-01-30,26,270-->
+This follows from {@{elementary [group theory](group%20theory.md)}@}, because {@{the exponent of any [finite group](finite%20group.md) must divide the order of the group}@}. {@{_λ_\(_n_\) is the exponent of the multiplicative group of integers modulo _n_}@} while {@{_φ_\(_n_\) is the order of that group}@}. In particular, {@{the two must be equal in the cases where the multiplicative group is cyclic}@} due to {@{the existence of a [primitive root](primitive%20root%20modulo%20n.md), which is the case for odd prime powers}@}. <!--SR:!2025-02-23,47,290!2025-03-17,66,321!2025-01-31,27,281!2025-03-02,50,301!2025-02-27,47,290!2025-05-05,95,290-->
 
 We can thus view Carmichael's theorem as {@{a sharpening of [Euler's theorem](Euler's%20theorem.md)}@}. <!--SR:!2025-03-04,54,310-->
 
@@ -89,7 +89,7 @@ If {@{$r_{\mathrm {max} }=\max _{i}\{r_{i}\}$ is the biggest exponent in the pri
 
 For {@{any _n_ ≥ 16}@}:<sup>[\[6\]](#^ref-6)</sup><sup>[\[7\]](#^ref-7)</sup> $${\frac {1}{n} }\sum _{i\leq n}\lambda (i)={\frac {n}{\ln n} }e^{B(1+o(1))\ln \ln n/(\ln \ln \ln n)}$$ \(called {@{Erdős approximation}@} in the following\) with the constant $$B:=e^{-\gamma }\prod _{p\in \mathbb {P} }\left({1-{\frac {1}{(p-1)^{2}(p+1)} } }\right)\approx 0.34537$$ and {@{_γ_ ≈ 0.57721, the [Euler–Mascheroni constant](Euler's%20constant.md)}@}. <!--SR:!2025-02-25,49,301!2025-02-23,47,290!2025-04-16,82,281-->
 
-The following table gives some overview {@{over the first 2<sup>26</sup> – 1 = 67108863 values of the _λ_ function}@}, for {@{both, the exact average and its Erdős-approximation}@}. <!--SR:!2025-01-30,28,281!2025-03-25,72,321-->
+The following table gives some overview {@{over the first 2<sup>26</sup> – 1 = 67108863 values of the _λ_ function}@}, for {@{both, the exact average and its Erdős-approximation}@}. <!--SR:!2025-04-22,82,281!2025-03-25,72,321-->
 
 Additionally given is some overview over {@{the more easily accessible "logarithm over logarithm" values}@} {@{LoL\(_n_\) := ⁠ln _λ_\(_n_\)/ln _n_⁠}@} with <!--SR:!2025-02-25,49,301!2025-03-27,74,321-->
 
@@ -158,7 +158,7 @@ For {@{prime powers _p_<sup>_r_</sup>, _r_ <!-- \> -->≥ 1}@}, if {@{$$a^{p^{r-
 
 ### sharpening the result for higher powers of two
 
-For {@{_a_ coprime to \(powers of\) 2}@} we have {@{_a_ = 1 + 2<!-- markdown separator -->_h_<sub>2</sub> for some integer _h_<sub>2</sub>}@}. (annotation: The reason {@{we cannot do the same for higher powers of odd primes is that _a_ would have had _multiple_ possible forms, one for each positive integer less than _p_: 1 + _ph_<sub>2</sub>, ..., (_p_ − 1) + _ph_<sub>2</sub>}@}.) Then, <p> {@{$a^{2}=1+4h_{2}(h_{2}+1)=1+8{\binom {h_{2}+1}{2} }=:1+8h_{3}$}@}, <p> where $h_{3}$ is an integer. With _r_ = 3, this is written {@{$$a^{2^{r-2} }=1+2^{r}h_{r}.$$}@} {@{Squaring both sides}@} gives {@{$$a^{2^{r-1} }=\left(1+2^{r}h_{r}\right)^{2}=1+2^{r+1}\left(h_{r}+2^{r-1}h_{r}^{2}\right)=:1+2^{r+1}h_{r+1},$$}@} where $h_{r+1}$ is an integer. It {@{follows by induction}@} that {@{$$a^{2^{r-2} }=a^{ {\frac {1}{2} }\varphi (2^{r})}\equiv 1{\pmod {2^{r} } }$$ for all $r\geq 3$ and all _a_ coprime to $2^{r}$}@}.<sup>[\[13\]](#^ref-13)</sup> <!--SR:!2025-02-25,49,301!2025-03-26,73,321!2025-03-23,63,270!2025-02-25,49,301!2025-02-03,31,270!2025-04-17,83,281!2025-02-05,33,281!2025-01-30,28,281!2025-02-14,37,306-->
+For {@{_a_ coprime to \(powers of\) 2}@} we have {@{_a_ = 1 + 2<!-- markdown separator -->_h_<sub>2</sub> for some integer _h_<sub>2</sub>}@}. (annotation: The reason {@{we cannot do the same for higher powers of odd primes is that _a_ would have had _multiple_ possible forms, one for each positive integer less than _p_: 1 + _ph_<sub>2</sub>, ..., (_p_ − 1) + _ph_<sub>2</sub>}@}.) Then, <p> {@{$a^{2}=1+4h_{2}(h_{2}+1)=1+8{\binom {h_{2}+1}{2} }=:1+8h_{3}$}@}, <p> where $h_{3}$ is an integer. With _r_ = 3, this is written {@{$$a^{2^{r-2} }=1+2^{r}h_{r}.$$}@} {@{Squaring both sides}@} gives {@{$$a^{2^{r-1} }=\left(1+2^{r}h_{r}\right)^{2}=1+2^{r+1}\left(h_{r}+2^{r-1}h_{r}^{2}\right)=:1+2^{r+1}h_{r+1},$$}@} where $h_{r+1}$ is an integer. It {@{follows by induction}@} that {@{$$a^{2^{r-2} }=a^{ {\frac {1}{2} }\varphi (2^{r})}\equiv 1{\pmod {2^{r} } }$$ for all $r\geq 3$ and all _a_ coprime to $2^{r}$}@}.<sup>[\[13\]](#^ref-13)</sup> <!--SR:!2025-02-25,49,301!2025-03-26,73,321!2025-03-23,63,270!2025-02-25,49,301!2025-02-03,31,270!2025-04-17,83,281!2025-02-05,33,281!2025-05-18,108,301!2025-02-14,37,306-->
 
 ### integers with multiple prime factors
 

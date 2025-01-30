@@ -24,11 +24,11 @@ We went over some leadership theory and did some group activities, basically.
 
 - [Johari window](../../../../general/Johari%20window.md) ::@:: known to self/unknown to self × known to others/unknown to others (4 combinations) <!--SR:!2025-02-13,67,310!2025-02-04,59,310-->
   - Johari window / open area ::@:: known to self × known to others <!--SR:!2025-02-02,57,310!2025-02-01,56,310-->
-  - Johari window / blind area ::@:: unknown to self × known to others <!--SR:!2025-01-30,54,310!2025-01-31,55,310-->
+  - Johari window / blind area ::@:: unknown to self × known to others <!--SR:!2025-09-21,234,330!2025-01-31,55,310-->
   - Johari window / hidden area ::@:: known to self × unknown to others <!--SR:!2025-02-13,67,310!2025-02-13,67,310-->
   - Johari window / unknown area ::@:: unknown to self × unknown to others <!--SR:!2025-02-02,57,310!2025-01-31,55,310-->
   - Johari window / ask ::@:: known to self ← unknown to self <!--SR:!2025-02-03,58,310!2025-02-05,60,310-->
-  - Johari window / tell ::@:: known to others ← unknown to others <!--SR:!2025-02-13,67,310!2025-01-30,54,310-->
+  - Johari window / tell ::@:: known to others ← unknown to others <!--SR:!2025-02-13,67,310!2025-09-17,230,330-->
   - Johari window / feedback ::@:: known to self × known to others ← unknown to self × known to others <!--SR:!2025-02-07,62,310!2025-02-03,58,310-->
   - Johari window / self-disclosure ::@:: known to self × known to others ← known to self × unknown to others <!--SR:!2025-02-07,62,310!2025-02-13,67,310-->
   - Johari window / shared discovery ::@:: known to self × known to others ← unknown to self × unknown to others <!--SR:!2025-02-13,67,310!2025-02-04,59,310-->
@@ -40,7 +40,7 @@ We went over some leadership theory and did some group activities, basically.
 - 6 feedback guidelines ::@:: behavior, comfortable, no buts, own it, sift & sort, timely <!--SR:!2025-02-13,67,310!2025-02-04,59,310-->
   - 6 feedback guidelines / behavior ::@:: Focus on things that can be changed, not personality. <!--SR:!2025-02-13,67,310!2025-02-04,59,310-->
   - 6 feedback guidelines / comfortable ::@:: Ensure others are comfortable with your feedback. <!--SR:!2025-02-05,60,310!2025-02-01,56,310-->
-  - 6 feedback guidelines / no buts ::@:: Do not counter others' feedback. Simply ignore it personally if you find it unhelpful. <!--SR:!2025-01-30,54,310!2025-02-13,67,310-->
+  - 6 feedback guidelines / no buts ::@:: Do not counter others' feedback. Simply ignore it personally if you find it unhelpful. <!--SR:!2025-09-16,229,330!2025-02-13,67,310-->
   - 6 feedback guidelines / own it ::@:: Make specific statements about "I". <!--SR:!2025-02-03,58,310!2025-02-05,60,310-->
   - 6 feedback guidelines / sift & sort ::@:: Personally choose to accept or ignore feedback. <!--SR:!2025-01-31,55,310!2025-02-01,56,310-->
   - 6 feedback guidelines / timely ::@:: Sometimes, now may not be the best time. Maybe later? <!--SR:!2025-02-13,67,310!2025-02-13,67,310-->

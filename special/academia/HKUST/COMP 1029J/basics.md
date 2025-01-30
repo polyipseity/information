@@ -193,7 +193,7 @@ return _chain.from_iterable(await _gather(
 <!--pytextgen generate section="f21a"--><!-- The following content is generated at 2024-01-30T13:35:46.620801+08:00. Any edits will be overridden! -->
 
 - _(begin)_→::@::←`++` <!--SR:!2025-03-17,318,330!2025-02-23,299,330-->
-- `++`→::@::←`--` <!--SR:!2028-06-27,1253,350!2025-01-30,277,330-->
+- `++`→::@::←`--` <!--SR:!2028-06-27,1253,350!2028-07-14,1261,350-->
 - `--`→::@::←`*` <!--SR:!2025-02-18,253,310!2026-03-18,538,310-->
 - `*`→::@::←`/` <!--SR:!2026-12-22,796,330!2028-02-08,1143,350-->
 - `/`→::@::←`%` <!--SR:!2028-05-30,1229,350!2025-05-23,306,290-->
@@ -217,7 +217,7 @@ return _chain.from_iterable(await _gather(
 
 ### comparison operators
 
-Below are common comparison operators, all of which returns {@{a `boolean` value}@}. Operators have higher precedence than or same precedence as operators below it in the list: <!--SR:!2025-01-30,283,330-->
+Below are common comparison operators, all of which returns {@{a `boolean` value}@}. Operators have higher precedence than or same precedence as operators below it in the list: <!--SR:!2028-08-11,1289,350-->
 
 ```Python
 # pytextgen generate data

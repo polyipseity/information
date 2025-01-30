@@ -19,7 +19,7 @@ tags:
 
 > ![A price display for a tagged clothes item at Kohl's](../../archives/Wikimedia%20Commons/Wireless%20in-store%20price%20display%20at%20a%20clothing%20retailer%20in%20NJ.jpg)
 >
-> {@{A price display for a tagged clothes item at Kohl's}@} <!--SR:!2025-01-30,57,310-->
+> {@{A price display for a tagged clothes item at Kohl's}@} <!--SR:!2025-10-07,250,330-->
 
 A __price__ is {@{the \(usually not negative\) [quantity](quantity.md) of [payment](payment.md) or [compensation](financial%20compensation.md) expected, required, or given by one [party](party%20(law).md) to another in return for [goods](goods.md) or [services](service%20(economics).md)}@}. In some situations, especially when {@{the product is a service rather than a physical good}@}, the price for the service may be {@{called something else such as "rent" or "tuition"}@}.<sup>[\[1\]](#^ref-1)</sup> Prices are influenced by {@{production [costs](cost.md), [supply](supply%20(economics).md) of the desired product, and [demand](demand.md) for the product}@}. A price may be determined by {@{a [monopolist](monopoly.md) or may be imposed on the firm by market conditions}@}. <!--SR:!2025-02-08,65,310!2025-02-08,65,310!2025-02-07,64,310!2025-02-07,64,310!2025-02-07,64,310-->
 

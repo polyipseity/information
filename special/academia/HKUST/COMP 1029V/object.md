@@ -45,7 +45,7 @@ An attribute is declared like a {@{[variable](basics.md#variable)}@}. <!--SR:!20
 
 ## method
 
-A method is declared like a {@{[subroutine or function](subroutine%20and%20function.md)}@}. <!--SR:!2025-01-30,278,330-->
+A method is declared like a {@{[subroutine or function](subroutine%20and%20function.md)}@}. <!--SR:!2028-07-17,1264,350-->
 
 ### constructor
 

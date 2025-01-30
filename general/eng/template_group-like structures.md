@@ -45,7 +45,7 @@ tags:
 > - partial magma ::@:: (none) <!--SR:!2025-03-26,63,310!2025-03-26,63,310-->
 > - semigroupoid ::@:: associative <!--SR:!2025-01-31,16,230!2025-01-31,18,250-->
 > - small category ::@:: associative, identity <!--SR:!2025-03-26,63,310!2025-03-30,66,310-->
-> - groupoid ::@:: associative, identity, divisible <!--SR:!2025-03-02,42,290!2025-01-30,17,250-->
+> - groupoid ::@:: associative, identity, divisible <!--SR:!2025-03-02,42,290!2025-03-12,41,250-->
 > - commutative groupoid ::@:: associative, identity, divisible, commutative <!--SR:!2025-02-02,13,210!2025-03-26,63,310-->
 > - magma ::@:: total <!--SR:!2025-03-31,67,310!2025-03-26,63,310-->
 > - commutative magma ::@:: total, commutative <!--SR:!2025-03-31,67,310!2025-03-30,66,310-->
@@ -54,9 +54,9 @@ tags:
 > - unital magma ::@:: total, identity <!--SR:!2025-03-17,55,310!2025-03-02,40,290-->
 > - commutative unital magma ::@:: total, identity, commutative <!--SR:!2025-03-20,58,310!2025-03-03,43,290-->
 > - loop ::@:: total, identity, divisible <!--SR:!2025-02-12,29,270!2025-03-07,42,250-->
-> - semigroup ::@:: total, associative <!--SR:!2025-03-10,41,250!2025-01-30,17,250-->
+> - semigroup ::@:: total, associative <!--SR:!2025-03-10,41,250!2025-03-16,45,250-->
 > - commutative semigroup ::@:: total, associative, commutative <!--SR:!2025-03-08,38,250!2025-02-09,12,210-->
-> - associative quasigroup ::@:: total, associative, divisible <!--SR:!2025-01-31,18,250!2025-01-30,7,210-->
+> - associative quasigroup ::@:: total, associative, divisible <!--SR:!2025-01-31,18,250!2025-02-15,16,210-->
 > - commutative-and-associative quasigroup ::@:: total, associative, divisible, commutative <!--SR:!2025-03-01,39,290!2025-02-19,26,230-->
 > - monoid ::@:: total, associative, identity <!--SR:!2025-03-03,43,290!2025-03-29,60,270-->
 > - commutative monoid ::@:: total, associative, identity, commutative <!--SR:!2025-02-01,19,250!2025-02-11,16,170-->

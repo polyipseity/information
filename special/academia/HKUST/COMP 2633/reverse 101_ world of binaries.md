@@ -105,7 +105,7 @@ A key idea in assembly that {@{code and data are treated the same}@}. Indeed, da
 - `resq <size>` ::@:: Reserve `<size>` number of qwords (8 bytes, quadruple word). All modern operating systems will also fill it with zeros. It is commonly used in `.bss`. <!--SR:!2025-05-24,185,325!2026-01-12,391,365-->
 - `resw <size>` ::@:: Reserve `<size>` number of word (2 bytes). All modern operating systems will also fill it with zeros. It is commonly used in `.bss`. <!--SR:!2025-03-27,155,323!2025-09-19,298,357-->
 
-Since {@{a program requires a starting point}@}, usually we are required to {@{[label](#labels) the starting instruction with the name `_start`, and make it global by prepending the line `global _start` before the line with the `_start` label}@}. <!--SR:!2025-01-30,105,303!2025-10-19,323,365-->
+Since {@{a program requires a starting point}@}, usually we are required to {@{[label](#labels) the starting instruction with the name `_start`, and make it global by prepending the line `global _start` before the line with the `_start` label}@}. <!--SR:!2026-04-22,447,323!2025-10-19,323,365-->
 
 ### labels
 

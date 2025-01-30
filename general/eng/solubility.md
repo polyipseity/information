@@ -389,7 +389,7 @@ return await memorize_map(
 - [sodium fluoride](sodium%20fluoride.md):@:<span style="color: green;">soluble</span> <!--SR:!2026-01-28,587,318-->
 - [sodium hydroxide](sodium%20hydroxide.md):@:<span style="color: green;">soluble</span> <!--SR:!2026-07-27,777,338-->
 - [sodium oxide](sodium%20oxide.md):@:<span style="color: violet;">reacts</span> <!--SR:!2028-08-23,1323,338-->
-- [sodium phosphate](sodium%20phosphate.md):@:<span style="color: green;">soluble</span> <!--SR:!2025-01-30,296,278-->
+- [sodium phosphate](sodium%20phosphate.md):@:<span style="color: green;">soluble</span> <!--SR:!2027-05-03,823,278-->
 - [sodium sulfide](sodium%20sulfide.md):@:<span style="color: violet;">reacts</span> <!--SR:!2026-11-23,720,278-->
 - [sodium sulfite](sodium%20sulfite.md):@:<span style="color: green;">soluble</span> <!--SR:!2025-10-11,460,278-->
 - [strontium hydroxide](strontium%20hydroxide.md):@:<span style="background-color: black; color: yellow;">slightly soluble</span> <!--SR:!2025-02-13,24,130-->

@@ -45,7 +45,7 @@ The content is in teaching order.
 
 - datetime: 2025-01-13T08:30:00-05:00/2025-01-13T09:50:00-05:00
   - local: 2025-01-13T21:30:00+08:00/2025-01-13T22:50:00+08:00
-- [jazz](../../../../general/jazz.md) ::@:: an _attitude_ or _approach_ about making music rooted in New Orleans, United States in the early 20th century <!--SR:!2025-01-30,9,261!2025-02-06,16,301-->
+- [jazz](../../../../general/jazz.md) ::@:: an _attitude_ or _approach_ about making music rooted in New Orleans, United States in the early 20th century <!--SR:!2025-03-04,33,281!2025-02-06,16,301-->
   - What is jazz? / students' answers: United States, created for rebellion
   - jazz / examples
     - "Struttin' with Some Barbecue" (1927) — Louis Armstrong and His Hot Five
@@ -105,7 +105,7 @@ The content is in teaching order.
   - blues / characteristics ::@:: call and response, sadness <!--SR:!2025-01-31,4,300!2025-01-31,4,300-->
   - blues / examples ::@:: "Crossroad" — Robert Johnson <!--SR:!2025-01-31,4,300!2025-01-31,4,300-->
   - blues / ambiguity ::@:: It may refer to a genre, a song form, or a sound/note. <!--SR:!2025-01-31,4,300!2025-01-31,4,300-->
-  - blues / origins ::@:: Alabama, Mississippi; black immigration to escape lynching, persecution, and prosecution in the 1880s and 1890s <!--SR:!2025-01-30,3,280!2025-01-31,4,300-->
+  - blues / origins ::@:: Alabama, Mississippi; black immigration to escape lynching, persecution, and prosecution in the 1880s and 1890s <!--SR:!2025-02-08,9,280!2025-01-31,4,300-->
   - blues / contribution to jazz ::@:: blue melodies, blue notes, call and response, simplicity and freedom <!--SR:!2025-01-31,4,300!2025-01-31,4,300-->
   - [blue note](../../../../general/blue%20note.md) ::@:: a note that—for expressive purposes—is sung or played at a slightly different pitch from standard; added by African Americans in their interpretation of the pentatonic scales <!--SR:!2025-01-31,4,300!2025-01-31,4,300-->
 - [gospel music](../../../../general/gospel%20music.md) ::@:: a traditional genre of Christian music and a cornerstone of Christian media <!--SR:!2025-01-31,4,300!2025-01-31,4,300-->
@@ -116,11 +116,11 @@ The content is in teaching order.
   - march / origins ::@:: Many instruments used by military bands for marching were left after the civil war. <!--SR:!2025-01-31,4,300!2025-01-31,4,300-->
   - march / instruments ::@:: bass/snare drum, clarinet, sousaphone, trombone, trumpet <!--SR:!2025-01-31,4,300!2025-01-31,4,300-->
   - march / characteristics ::@:: meant for soldiers so they could march in time; ragtime took these and added syncopation <!--SR:!2025-01-31,4,300!2025-01-31,4,300-->
-  - march / examples ::@:: "Stars and Strips" — John Phillip Sousa; social events in parades <!--SR:!2025-01-30,3,280!2025-01-31,4,300-->
+  - march / examples ::@:: "Stars and Strips" — John Phillip Sousa; social events in parades <!--SR:!2025-02-08,9,280!2025-01-31,4,300-->
 - [ragtime](../../../../general/ragtime.md) ::@:: a music style during 1897–1917; mainly piano <!--SR:!2025-01-31,4,300!2025-01-31,4,300-->
   - ragtime / characteristics ::@:: marches but with syncopation <!--SR:!2025-01-31,4,300!2025-01-31,4,300-->
   - [syncopation](../../../../general/syncopation.md)
-  - [Scott Joplin](../../../../general/Scott%20Joplin.md) (1868–1917) ::@:: father of ragtime, wrote many classics: The Entertainer, Maple Leaf Rag (first music to sell over a million copies) <!--SR:!2025-01-30,3,280!2025-01-31,4,300-->
+  - [Scott Joplin](../../../../general/Scott%20Joplin.md) (1868–1917) ::@:: father of ragtime, wrote many classics: The Entertainer, Maple Leaf Rag (first music to sell over a million copies) <!--SR:!2025-02-08,9,280!2025-01-31,4,300-->
 - [jazz](../../../../general/jazz.md)
   - jazz / influences ::@:: primarily blues, gospel music, march, ragtime, coming together in New Orleans <!--SR:!2025-01-31,4,300!2025-01-31,4,300-->
 - assignments: [African traits in early jazz](questions.md#African%20traits%20in%20early%20jazz)

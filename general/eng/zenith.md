@@ -9,7 +9,7 @@ tags:
 
 # zenith
 
-The __zenith__ (UK: /ˈzɛnɪθ/, US: /ˈziːnɪθ/) is {@{an imaginary point directly "above" a particular location, on the [celestial sphere](celestial%20sphre.md)}@}. Its opposite is {@{the [nadir](nadir.md)}@}. <!--SR:!2025-01-30,159,310!2026-10-23,647,330-->
+The __zenith__ (UK: /ˈzɛnɪθ/, US: /ˈziːnɪθ/) is {@{an imaginary point directly "above" a particular location, on the [celestial sphere](celestial%20sphre.md)}@}. Its opposite is {@{the [nadir](nadir.md)}@}. <!--SR:!2026-06-05,491,310!2026-10-23,647,330-->
 
 ## references
 
