@@ -27,7 +27,7 @@ To prove {@{the existence of a mathematical object that can be viewed as a maxim
 
 > If {@{you are building a mathematical object in stages}@} and find that \(i\) {@{you have not finished even after infinitely many stages}@}, and \(ii\) {@{there seems to be nothing to stop you continuing to build}@}, then {@{Zorn’s lemma may well be able to help you}@}.
 >
-> — {@{[William Timothy Gowers](Timothy%20Gowers.md)}@}, "{@{How to use Zorn's lemma}@}"<sup>[\[7\]](#^ref-7)</sup>
+> — {@{[William Timothy Gowers](Timothy%20Gowers.md)}@}, "{@{How to use Zorn's lemma}@}"<sup>[\[7\]](#^ref-7)</sup>
 
 ## statement of the lemma
 
