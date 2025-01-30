@@ -1,5 +1,7 @@
 ---
 aliases:
+  - C Programming Bridging Course
+  - C Programming Bridging Course index
   - COMP 1029C
   - COMP 1029C index
   - COMP1029C

@@ -8,6 +8,8 @@ aliases:
   - HKUST COMP 2011 index
   - HKUST COMP2011
   - HKUST COMP2011 index
+  - Programming with C++
+  - Programming with C++ index
 tags:
   - flashcard/active/special/academia/HKUST/COMP_2011/index
   - function/index

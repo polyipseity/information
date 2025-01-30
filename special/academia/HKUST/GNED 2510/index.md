@@ -1,5 +1,7 @@
 ---
 aliases:
+  - Career Building
+  - Career Building index
   - GNED 2510
   - GNED 2510 index
   - GNED2510

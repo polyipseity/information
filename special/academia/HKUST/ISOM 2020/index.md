@@ -1,5 +1,7 @@
 ---
 aliases:
+  - Coding for Business
+  - Coding for Business index
   - HKUST ISOM 2020
   - HKUST ISOM 2020 index
   - HKUST ISOM2020

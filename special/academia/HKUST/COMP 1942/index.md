@@ -4,6 +4,8 @@ aliases:
   - COMP 1942 index
   - COMP1942
   - COMP1942 index
+  - Exploring and Visualizing Data
+  - Exploring and Visualizing Data index
   - HKUST COMP 1942
   - HKUST COMP 1942 index
   - HKUST COMP1942

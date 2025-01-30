@@ -1,5 +1,7 @@
 ---
 aliases:
+  - Academic English for University Studies
+  - Academic English for University Studies index
   - HKUST LANG 1403A
   - HKUST LANG 1403A index
   - HKUST LANG1403A

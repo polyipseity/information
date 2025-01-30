@@ -8,6 +8,8 @@ aliases:
   - HKUST COMP 1029P index
   - HKUST COMP1029P
   - HKUST COMP1029P index
+  - Python Programming Bridging Course
+  - Python Programming Bridging Course index
 tags:
   - flashcard/active/special/academia/HKUST/COMP_1029P/index
   - function/index

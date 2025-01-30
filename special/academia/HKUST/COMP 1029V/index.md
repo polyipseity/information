@@ -4,6 +4,8 @@ aliases:
   - COMP 1029V index
   - COMP1029V
   - COMP1029V index
+  - Excel VBA Programming Bridging Course
+  - Excel VBA Programming Bridging Course index
   - HKUST COMP 1029V
   - HKUST COMP 1029V index
   - HKUST COMP1029V

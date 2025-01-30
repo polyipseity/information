@@ -1,5 +1,7 @@
 ---
 aliases:
+  - Designing Your Life for Engineering Students
+  - Designing Your Life for Engineering Students index
   - ENGG 1400
   - ENGG 1400 index
   - ENGG1400

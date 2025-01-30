@@ -4,6 +4,8 @@ aliases:
   - HKUST TEMG 1010 index
   - HKUST TEMG1010
   - HKUST TEMG1010 index
+  - T&M Professional Activities
+  - T&M Professional Activities index
   - TEMG 1010
   - TEMG 1010 index
   - TEMG1010

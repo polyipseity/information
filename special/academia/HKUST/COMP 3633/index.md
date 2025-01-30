@@ -4,6 +4,8 @@ aliases:
   - COMP 3633 index
   - COMP3633
   - COMP3633 index
+  - Competitive Programming in Cybersecurity II
+  - Competitive Programming in Cybersecurity II index
   - HKUST COMP 3633
   - HKUST COMP 3633 index
   - HKUST COMP3633
