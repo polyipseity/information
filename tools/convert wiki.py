@@ -157,10 +157,12 @@ async def wiki_html_to_plaintext(
 
     if "reference" in classes:
         if refs:
-            ref_content = __REF_CONTENT_REGEX.search("".join(ele.stripped_strings))
-            ref_content = ref_content[1] if ref_content else 0
-            return f"<sup>[{escape_markdown(f'[{ref_content}]')}]({_markdown_fragment(f'^ref-{ref_content}')})</sup>"
-        return ""
+            ref_str = "".join(ele.stripped_strings)
+            if ref_content := __REF_CONTENT_REGEX.search(ref_str):
+                ref_content = ref_content[1]
+                return f"<sup>[{escape_markdown(f'[{ref_content}]')}]({_markdown_fragment(f'^ref-{ref_content}')})</sup>"
+        else:
+            return ""
 
     process_strings: Callable[[str], str] = lambda strings: strings
     joiner = ""
@@ -585,9 +587,11 @@ async def main() -> None:
             session=session,
             refs=refs,
         )
-    output = output.replace(
-        "\xa0", " "  # replace non-breaking spaces with spaces
-    ).strip()
+    output = (
+        output.replace("\xa0", " ")  # replace non-breaking spaces with spaces
+        .replace("\u200a", "&hairsp;")  # replace hair spaces with its HTML entity
+        .strip()
+    )
 
     if out_to_archive:
         try:
