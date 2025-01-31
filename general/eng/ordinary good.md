@@ -9,7 +9,7 @@ tags:
 
 # ordinary good
 
-An __ordinary good__ is {@{a [microeconomic](microeconomics.md) concept used in [consumer theory](consumer%20choice.md)}@}. It is defined as {@{a [good](goods.md) which creates an increase in quantity demanded when the price for the good drops or conversely a decrease in quantity demanded if the price for the good increases, _[ceteris paribus](ceteris%20paribus.md)_}@}. It is {@{the opposite of a [Giffen good](Giffen%20goods.md)}@}. <!--SR:!2025-01-31,54,310!2025-07-13,175,310!2025-02-20,71,321-->
+An __ordinary good__ is {@{a [microeconomic](microeconomics.md) concept used in [consumer theory](consumer%20choice.md)}@}. It is defined as {@{a [good](goods.md) which creates an increase in quantity demanded when the price for the good drops or conversely a decrease in quantity demanded if the price for the good increases, _[ceteris paribus](ceteris%20paribus.md)_}@}. It is {@{the opposite of a [Giffen good](Giffen%20goods.md)}@}. <!--SR:!2025-09-25,237,330!2025-07-13,175,310!2025-02-20,71,321-->
 
 Since {@{the existence of Giffen goods outside the realm of economic theory is still contested}@}, {@{the pairing of Giffen goods with ordinary goods has gotten less traction in economics textbooks}@} than {@{the pairing [normal good](normal%20good.md)/[inferior good](inferior%20good.md)}@} used to {@{distinguish responses to income changes}@}. {@{The usage of "ordinary good"}@} is still useful since {@{it allows a simple representation of price and income changes}@}. {@{A normal good is always ordinary}@}, while {@{an ordinary good can be normal, inferior or sticky}@}. <!--SR:!2025-02-03,57,310!2025-02-21,72,321!2025-05-26,126,290!2025-02-23,74,321!2025-02-20,71,321!2025-02-05,58,310!2025-02-22,73,321!2025-02-19,70,321-->
 

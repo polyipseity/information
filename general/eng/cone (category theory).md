@@ -35,7 +35,7 @@ If {@{_F_ is a diagram of type _J_ in _C_}@}, the following statements are equiv
 
 - (annotation: cone) ::@:: ψ is a cone from _N_ to _F_ <!--SR:!2025-02-05,17,312!2025-02-04,16,290-->
 - (annotation: cone, natural transformation) ::@:: ψ is a [natural transformation](natural%20transformation.md) from Δ\(_N_\) to _F_ <!--SR:!2025-02-02,14,290!2025-02-05,17,312-->
-- (annotation: cone, comma category) ::@:: \(_N_, ψ\) is an object in the [comma category](comma%20category.md) \(Δ ↓ _F_\) (annotation: note that this is actually a slice category, meaning the _F_ on the right is more accurately the functor from __1__ to _F_) <!--SR:!2025-02-03,15,290!2025-01-31,12,292-->
+- (annotation: cone, comma category) ::@:: \(_N_, ψ\) is an object in the [comma category](comma%20category.md) \(Δ ↓ _F_\) (annotation: note that this is actually a slice category, meaning the _F_ on the right is more accurately the functor from __1__ to _F_) <!--SR:!2025-02-03,15,290!2025-03-22,50,312-->
 
 {@{The dual statements}@} are also equivalent: <!--SR:!2025-02-04,16,290-->
 

@@ -24,7 +24,7 @@ tags:
 - $M_{10}$ ::@:: number of attributes where _A_ has value 1 and _B_ has value 0 <!--SR:!2025-03-12,205,330!2025-05-25,263,330-->
 - $M_{11}$ ::@:: number of attributes where _A_ has value 1 and _B_ has value 1 <!--SR:!2025-05-21,260,330!2025-05-30,267,330-->
 
-The simple matching coefficient is defined as {@{$$\text{SMC} = \frac {\text{number of matching attributes} } {\text{number of attributes} } = \frac {M_{00} + M_{11} } {M_{00} + M_{01} + M_{10} + M_{11} }$$}@}. <!--SR:!2025-01-31,162,310-->
+The simple matching coefficient is defined as {@{$$\text{SMC} = \frac {\text{number of matching attributes} } {\text{number of attributes} } = \frac {M_{00} + M_{11} } {M_{00} + M_{01} + M_{10} + M_{11} }$$}@}. <!--SR:!2026-12-27,695,330-->
 
 ## references
 

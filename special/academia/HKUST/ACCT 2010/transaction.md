@@ -97,7 +97,7 @@ tags:
 
 ## format
 
-- format ::@:: (optional) description <br/> (optional) date <br/> account captions <br/> corresponding amounts <br/> (optional) relevant changes to _normal balances_ <!--SR:!2025-04-10,79,280!2025-01-31,38,300-->
+- format ::@:: (optional) description <br/> (optional) date <br/> account captions <br/> corresponding amounts <br/> (optional) relevant changes to _normal balances_ <!--SR:!2025-04-10,79,280!2025-05-24,113,300-->
   - description ::@:: Optional. Simply describe the transaction. Usually use past tense. <!--SR:!2025-03-13,73,320!2025-03-12,72,320-->
   - date ::@:: Optional. The date of transaction. Examples: `January 1, 2024`, `December 31, 2024`. <!--SR:!2025-02-21,53,300!2025-03-14,74,320-->
   - account captions ::@:: Debits first, then credits. Optionally, indent the credited accounts. (This is the usual convention.) <!--SR:!2025-03-13,73,320!2025-03-13,73,320-->

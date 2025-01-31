@@ -15,7 +15,7 @@ Cepheids are {@{important cosmic benchmarks for scaling [galactic and extragalac
 
 This characteristic of classical Cepheids was {@{discovered in 1908 by [Henrietta Swan Leavitt](Henrietta%20Swan%20Leavitt.md)}@} after {@{studying thousands of variable stars in the [Magellanic Clouds](Magellanic%20Clouds.md)}@}. The discovery {@{establishes the _true luminosity_ of a Cepheid by observing its pulsation period}@}. This in turn {@{gives the distance to the star by comparing its known luminosity to its observed brightness}@}, calibrated by {@{directly observing the [parallax](parallax%20in%20astronomy.md) distance to the closest Cepheids such as RS Puppis and [Polaris](polaris.md)}@}. <!--SR:!2025-08-31,223,230!2025-02-01,121,290!2025-03-25,168,310!2025-08-20,269,290!2025-05-16,180,270-->
 
-The term _Cepheid_ originates from {@{[Delta Cephei](Delta%20Cephei.md) in the constellation [Cepheus](Cepheus%20(constellation).md)}@}, identified by {@{[John Goodricke](John%20Goodricke.md) in 1784}@}. It was {@{the first of its type to be identified}@}. <!--SR:!2025-06-02,210,290!2025-01-31,100,230!2025-07-15,265,330-->
+The term _Cepheid_ originates from {@{[Delta Cephei](Delta%20Cephei.md) in the constellation [Cepheus](Cepheus%20(constellation).md)}@}, identified by {@{[John Goodricke](John%20Goodricke.md) in 1784}@}. It was {@{the first of its type to be identified}@}. <!--SR:!2025-06-02,210,290!2025-09-13,225,230!2025-07-15,265,330-->
 
 ## references
 

@@ -23,7 +23,7 @@ PCA is most commonly used when {@{many of the variables are highly correlated wi
 
 ## intuition
 
-PCA can be thought of {@{fitting an (hyper)[ellipsoid](ellipsoid.md) (a (hyper)[sphere](sphere.md) that are scaled differently along different axes) to the data}@}, where each axis {@{of the ellipsoid (which are perpendicular to each other) represents a principal component}@}. The axis {@{length represents the variance of the data along that axis}@}. Axes with the least length means {@{the data does not differ much in said axis}@}, thus removing said axes {@{reduces dimensionality while minimizing information loss}@}. <!--SR:!2026-06-15,508,310!2025-10-07,346,290!2026-04-11,484,310!2025-04-13,230,330!2025-01-31,170,310-->
+PCA can be thought of {@{fitting an (hyper)[ellipsoid](ellipsoid.md) (a (hyper)[sphere](sphere.md) that are scaled differently along different axes) to the data}@}, where each axis {@{of the ellipsoid (which are perpendicular to each other) represents a principal component}@}. The axis {@{length represents the variance of the data along that axis}@}. Axes with the least length means {@{the data does not differ much in said axis}@}, thus removing said axes {@{reduces dimensionality while minimizing information loss}@}. <!--SR:!2026-06-15,508,310!2025-10-07,346,290!2026-04-11,484,310!2025-04-13,230,330!2027-01-30,729,330-->
 
 ## computing PCA using the covariance method
 
@@ -88,7 +88,7 @@ return chain(
 - rearrange the eigenvectors and eigenvalues→::@::←compute the cumulative variance for each eigenvector <!--SR:!2025-02-19,184,310!2026-03-22,426,290-->
 - compute the cumulative variance for each eigenvector→::@::←select a subset of the eigenvectors as the new basis vectors <!--SR:!2025-04-13,218,290!2025-03-01,168,270-->
 - select a subset of the eigenvectors as the new basis vectors→::@::←project the data (deviations from the mean) onto the new basis <!--SR:!2025-05-27,221,270!2026-05-18,490,310-->
-- project the data (deviations from the mean) onto the new basis→::@::←_(end)_ <!--SR:!2025-01-31,172,310!2026-06-20,515,310-->
+- project the data (deviations from the mean) onto the new basis→::@::←_(end)_ <!--SR:!2027-02-08,738,330!2026-06-20,515,310-->
 
 <!--/pytextgen-->
 

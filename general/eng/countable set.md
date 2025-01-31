@@ -9,7 +9,7 @@ tags:
 
 # countable set
 
-- "Countable" redirects here. For {@{the linguistic concept}@}, see {@{[Count noun](count%20noun.md)}@}. For {@{the statistical concept}@}, see {@{[Count data](count%20data.md)}@}. For {@{the company}@}, see {@{[Countable \(app\)](Countable%20(company).md)}@}. Not to be confused with {@{[\(recursively\) enumerable sets](computably%20enumerable%20set.md)}@}. <!--SR:!2025-03-04,54,310!2025-01-31,27,270!2025-03-18,66,310!2025-02-16,42,290!2025-02-22,47,290!2025-03-17,65,310!2025-03-19,67,310-->
+- "Countable" redirects here. For {@{the linguistic concept}@}, see {@{[Count noun](count%20noun.md)}@}. For {@{the statistical concept}@}, see {@{[Count data](count%20data.md)}@}. For {@{the company}@}, see {@{[Countable \(app\)](Countable%20(company).md)}@}. Not to be confused with {@{[\(recursively\) enumerable sets](computably%20enumerable%20set.md)}@}. <!--SR:!2025-03-04,54,310!2025-05-13,102,290!2025-03-18,66,310!2025-02-16,42,290!2025-02-22,47,290!2025-03-17,65,310!2025-03-19,67,310-->
 
 In [mathematics](mathematics.md), a [set](set%20(mathematics).md) is __countable__ {@{if either it is [finite](finite%20set.md) or it can be made in [one to one correspondence](bijection.md) with the set of [natural numbers](natural%20number.md)}@}.<sup>[\[a\]](#^ref-a)</sup> Equivalently, a set is _countable_ if {@{there exists an [injective function](injective%20function.md) from it into the natural numbers}@}; this means that {@{each element in the set may be associated to a unique natural number, or that the elements of the set can be counted one at a time}@}, although {@{the counting may never finish due to an infinite number of elements}@}. <!--SR:!2025-03-07,57,310!2025-02-27,47,290!2025-03-10,59,310!2025-02-05,33,270-->
 
@@ -30,14 +30,14 @@ A set $S$ is {@{_countable_}@} if: <!--SR:!2025-02-23,47,290-->
 - countable, cardinality ::@:: Its [cardinality](cardinality.md) $|S|$ is less than or equal to $\aleph _{0}$ \([aleph-null](aleph%20number.md#aleph-null)\), the cardinality of the set of [natural numbers](natural%20number.md) $\mathbb {N}$.<sup>[\[9\]](#^ref-9)</sup> <!--SR:!2025-02-22,46,290!2025-02-01,27,270-->
 - countable, function from ::@:: There exists an [injective function](injective%20function.md) from $S$ to $\mathbb {N}$.<sup>[\[10\]](#^ref-10)</sup><sup>[\[11\]](#^ref-11)</sup> <!--SR:!2025-03-06,56,310!2025-02-14,40,290-->
 - countable, function to ::@:: $S$ is empty or there exists a [surjective function](surjective%20function.md) from $\mathbb {N}$ to $S$.<sup>[\[11\]](#^ref-11)</sup> <!--SR:!2025-02-13,39,290!2025-02-05,33,270-->
-- countable, mapping ::@:: There exists a [bijective](bijection.md) mapping between $S$ and a subset of $\mathbb {N}$.<sup>[\[12\]](#^ref-12)</sup> <!--SR:!2025-03-08,58,310!2025-01-31,27,270-->
+- countable, mapping ::@:: There exists a [bijective](bijection.md) mapping between $S$ and a subset of $\mathbb {N}$.<sup>[\[12\]](#^ref-12)</sup> <!--SR:!2025-03-08,58,310!2025-05-13,102,290-->
 - countable, finiteness ::@:: $S$ is either [finite](finite%20set.md) \($|S|<\aleph _{0}$\) or countably infinite.<sup>[\[5\]](#^ref-5)</sup> <!--SR:!2025-03-08,58,310!2025-03-11,60,310-->
 
 All of these definitions are {@{equivalent}@}. <!--SR:!2025-03-10,59,310-->
 
 A set $S$ is {@{_countably [infinite](infinite%20set.md)_}@} if: <!--SR:!2025-03-12,61,310-->
 
-- countably infinite, cardinality ::@:: Its cardinality $|S|$ is exactly $\aleph _{0}$.<sup>[\[9\]](#^ref-9)</sup> <!--SR:!2025-01-31,27,270!2025-03-19,67,310-->
+- countably infinite, cardinality ::@:: Its cardinality $|S|$ is exactly $\aleph _{0}$.<sup>[\[9\]](#^ref-9)</sup> <!--SR:!2025-04-17,76,270!2025-03-19,67,310-->
 - countably infinite, function ::@:: There is an injective and surjective \(and therefore [bijective](bijection.md)\) mapping between $S$ and $\mathbb {N}$. <!--SR:!2025-03-12,61,310!2025-03-16,64,310-->
 - countably infinite, mapping ::@:: $S$ has a [one-to-one correspondence](bijection.md) with $\mathbb {N}$.<sup>[\[13\]](#^ref-13)</sup> <!--SR:!2025-03-14,63,310!2025-03-13,62,310-->
 - countably infinite, sequence ::@:: The elements of $S$ can be arranged in an infinite sequence $a_{0},a_{1},a_{2},\ldots$, where $a_{i}$ is distinct from $a_{j}$ for $i\neq j$ and every element of $S$ is listed.<sup>[\[14\]](#^ref-14)</sup><sup>[\[15\]](#^ref-15)</sup> <!--SR:!2025-03-05,55,310!2025-03-17,65,310-->
@@ -82,7 +82,7 @@ As for {@{the case of infinite sets}@}, {@{a set $S$ is countably infinite}@} if
 
 > Theorem — The [Cartesian product](Cartesian%20product.md) of {@{finitely many countable sets is countable}@}.<sup>[\[21\]](#^ref-21)</sup><sup>[\[b\]](#^ref-b)</sup> <!--SR:!2025-03-19,67,310-->
 
-{@{The set of all [integers](integer.md) $\mathbb {Z}$ and the set of all [rational numbers](rational%20number.md) $\mathbb {Q}$}@} may {@{intuitively seem much bigger than $\mathbb {N}$}@}. But {@{looks can be deceiving}@}. If {@{a pair is treated as the [numerator](fraction.md) and [denominator](fraction.md) of a [vulgar fraction](fraction.md#simple,%20common,%20or%20vulgar%20fractions) \(a fraction in the form of $a/b$ where $a$ and $b\neq 0$ are integers\)}@}, then {@{for every positive fraction, we can come up with a distinct natural number corresponding to it}@}. This representation also {@{includes the natural numbers, since every natural number $n$ is also a fraction $n/1$}@}. So we can conclude that {@{there are exactly as many positive rational numbers as there are positive integers}@}. This is {@{also true for all rational numbers}@}, as can be seen below. <!--SR:!2025-05-13,104,290!2025-05-06,96,290!2025-03-19,67,310!2025-02-26,46,290!2025-03-13,62,310!2025-03-12,61,310!2025-03-14,63,310!2025-01-31,27,270-->
+{@{The set of all [integers](integer.md) $\mathbb {Z}$ and the set of all [rational numbers](rational%20number.md) $\mathbb {Q}$}@} may {@{intuitively seem much bigger than $\mathbb {N}$}@}. But {@{looks can be deceiving}@}. If {@{a pair is treated as the [numerator](fraction.md) and [denominator](fraction.md) of a [vulgar fraction](fraction.md#simple,%20common,%20or%20vulgar%20fractions) \(a fraction in the form of $a/b$ where $a$ and $b\neq 0$ are integers\)}@}, then {@{for every positive fraction, we can come up with a distinct natural number corresponding to it}@}. This representation also {@{includes the natural numbers, since every natural number $n$ is also a fraction $n/1$}@}. So we can conclude that {@{there are exactly as many positive rational numbers as there are positive integers}@}. This is {@{also true for all rational numbers}@}, as can be seen below. <!--SR:!2025-05-13,104,290!2025-05-06,96,290!2025-03-19,67,310!2025-02-26,46,290!2025-03-13,62,310!2025-03-12,61,310!2025-03-14,63,310!2025-04-17,76,270-->
 
 > Theorem — $\mathbb {Z}$ \(the set of all integers\) and $\mathbb {Q}$ \(the set of all rational numbers\) are {@{countable}@}.<sup>[\[c\]](#^ref-c)</sup> <!--SR:!2025-03-14,63,310-->
 

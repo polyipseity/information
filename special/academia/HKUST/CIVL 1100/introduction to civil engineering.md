@@ -278,7 +278,7 @@ workmanship
 <!--pytextgen generate section="1e12"--><!-- The following content is generated at 2024-05-01T19:22:34.848790+08:00. Any edits will be overridden! -->
 
 - _(begin)_→::@::←budgeting <!--SR:!2027-06-08,878,361!2026-03-04,543,400-->
-- budgeting→::@::←construction management <!--SR:!2025-01-31,151,320!2025-11-24,451,355-->
+- budgeting→::@::←construction management <!--SR:!2026-05-29,483,320!2025-11-24,451,355-->
 - construction management→::@::←economics <!--SR:!2025-09-15,333,255!2025-04-19,240,300-->
 - economics→::@::←impacts to surrounding <!--SR:!2025-03-15,215,300!2025-04-26,191,260-->
 - impacts to surrounding→::@::←lifecycle <!--SR:!2025-04-01,238,320!2025-05-10,261,320-->
@@ -591,7 +591,7 @@ nuclear
 <!--pytextgen generate section="ee13"--><!-- The following content is generated at 2024-04-23T18:07:51.639356+08:00. Any edits will be overridden! -->
 
 - _(begin)_→::@::←agricultural <!--SR:!2025-11-19,421,310!2025-12-04,477,392-->
-- agricultural→::@::←architectural <!--SR:!2025-01-31,212,357!2025-06-08,311,372-->
+- agricultural→::@::←architectural <!--SR:!2027-02-27,757,357!2025-06-08,311,372-->
 - architectural→::@::←biomedical <!--SR:!2026-09-02,667,357!2026-11-06,711,360-->
 - biomedical→::@::←ceramic <!--SR:!2026-01-05,426,320!2026-03-07,528,357-->
 - ceramic→::@::←chemical <!--SR:!2026-10-29,681,340!2025-10-27,398,335-->

@@ -29,7 +29,7 @@ tags:
 > 4. South America
 > 5. Manabi
 >
-> - solution: {@{3}@} <!--SR:!2025-01-31,4,270-->
+> - solution: {@{3}@} <!--SR:!2025-02-16,16,290-->
 
 <!-- markdownlint MD028 -->
 
@@ -42,7 +42,7 @@ tags:
 > 3. sad notes
 > 4. critical notes played out-of-tune or "off-key"
 >
-> - solution: {@{4}@} <!--SR:!2025-01-31,4,270-->
+> - solution: {@{4}@} <!--SR:!2025-02-15,15,290-->
 
 <!-- markdownlint MD028 -->
 
@@ -55,7 +55,7 @@ tags:
 > 3. New Jersey
 > 4. New Orleans
 >
-> - solution: {@{4}@} <!--SR:!2025-01-31,4,270-->
+> - solution: {@{4}@} <!--SR:!2025-02-15,15,290-->
 
 <!-- markdownlint MD028 -->
 
@@ -63,7 +63,7 @@ tags:
 >
 > What centuries were African Slaves taken to America?
 >
-> - solution: {@{17th to 19th century}@} <!--SR:!2025-01-31,4,270-->
+> - solution: {@{17th to 19th century}@} <!--SR:!2025-02-16,16,290-->
 
 <!-- markdownlint MD028 -->
 
@@ -76,7 +76,7 @@ tags:
 > 3. Asian Traditions
 > 4. South American Traditions
 >
-> - solution: {@{1}@} <!--SR:!2025-01-31,4,270-->
+> - solution: {@{1}@} <!--SR:!2025-02-16,16,290-->
 
 ## Sydney Bechet
 
@@ -88,7 +88,7 @@ tags:
 >
 > What instruments did Sydney Bechet play?
 >
-> - solution: {@{clarinet, soprano saxophone}@} <!--SR:!2025-01-31,4,270-->
+> - solution: {@{clarinet, soprano saxophone}@} <!--SR:!2025-02-15,15,290-->
 
 <!-- markdownlint MD028 -->
 
@@ -96,7 +96,7 @@ tags:
 >
 > Where was Sydney Bechet from?
 >
-> - solution: {@{New Orleans, United States}@} <!--SR:!2025-01-31,4,270-->
+> - solution: {@{New Orleans, United States}@} <!--SR:!2025-02-14,14,290-->
 
 <!-- markdownlint MD028 -->
 
@@ -104,4 +104,4 @@ tags:
 >
 > Why was Sydney Bechet important and what are some of his contributions in jazz?
 >
-> - solution: {@{(for reference) <p> He was important because he contributed significantly to the development of Jazz. He helped develop swing, and he was the first influential person to use the soprano saxophone to play jazz, leading it becoming a popular jazz instrument.}@} <!--SR:!2025-01-31,4,270-->
+> - solution: {@{(for reference) <p> He was important because he contributed significantly to the development of Jazz. He helped develop swing, and he was the first influential person to use the soprano saxophone to play jazz, leading it becoming a popular jazz instrument.}@} <!--SR:!2025-02-12,12,270-->

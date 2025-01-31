@@ -58,7 +58,7 @@ Loads on civil engineering can be separated into {@{<!--pytextgen generate secti
 - _(begin)_→::@::←[dead load](#dead%20load) <!--SR:!2025-03-12,225,328!2025-07-26,338,340-->
 - [dead load](#dead%20load)→::@::←[environmental load](#environmental%20load) <!--SR:!2026-06-30,531,310!2026-01-12,448,310-->
 - [environmental load](#environmental%20load)→::@::←[live load](#live%20load) <!--SR:!2025-05-07,225,270!2026-02-01,374,308-->
-- [live load](#live%20load)→::@::←[load combinations](#load%20combinations) <!--SR:!2026-09-14,602,320!2025-01-31,196,310-->
+- [live load](#live%20load)→::@::←[load combinations](#load%20combinations) <!--SR:!2026-09-14,602,320!2027-05-29,848,330-->
 - [load combinations](#load%20combinations)→::@::←[other loads](#other%20loads) <!--SR:!2025-11-22,367,290!2025-03-03,207,320-->
 - [other loads](#other%20loads)→::@::←_(end)_ <!--SR:!2025-07-17,331,340!2025-03-27,236,320-->
 
@@ -72,7 +72,7 @@ Generally, dead load (and live load) internally {@{deflects beams and floors}@}.
 
 ### live load
 
-The live load includes {@{loads that are temporary or moving}@}. This includes {@{moving things, such as moving vehicles, people, and storage}@}; {@{non-permanent fixtures such as ceiling lights, furniture, and pipe ducts}@}. The load can vary in {@{location and magnitude}@}. In building codes such as {@{_Minimum Design Load for Buildings and Other Structures_, ASCE 7-05}@}, the live load is {@{tabulated and usually assumed uniform on building floors}@}. <!--SR:!2025-01-31,194,310!2026-10-11,676,340!2026-01-18,409,290!2026-05-31,566,330!2025-10-10,321,270!2026-09-20,659,340-->
+The live load includes {@{loads that are temporary or moving}@}. This includes {@{moving things, such as moving vehicles, people, and storage}@}; {@{non-permanent fixtures such as ceiling lights, furniture, and pipe ducts}@}. The load can vary in {@{location and magnitude}@}. In building codes such as {@{_Minimum Design Load for Buildings and Other Structures_, ASCE 7-05}@}, the live load is {@{tabulated and usually assumed uniform on building floors}@}. <!--SR:!2027-05-14,833,330!2026-10-11,676,340!2026-01-18,409,290!2026-05-31,566,330!2025-10-10,321,270!2026-09-20,659,340-->
 
 Generally, live load has {@{similar effects to dead load}@}. <!--SR:!2025-03-22,235,330-->
 
