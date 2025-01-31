@@ -30,7 +30,7 @@ Probably the most accepted accounting definition of liability is {@{the one used
 
 > A liability is {@{a present obligation of the enterprise arising from past events, the settlement of which is expected to result in an outflow from the enterprise of resources embodying economic benefits}@}
 >
-> — F.49(b)
+> —&hairsp;F.49(b)
 
 Regulations as to the recognition of liabilities are {@{different all over the world, but are roughly similar to those of the IASB}@}.
 

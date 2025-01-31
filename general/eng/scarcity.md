@@ -12,7 +12,7 @@ In [economics](economics.md), __scarcity__ "refers to {@{the basic fact of life 
 
 > "The best example is perhaps [Walras](Léon%20Walras.md)' definition of social wealth, i.e., economic goods.<sup>[\[3\]](#^ref-3)</sup> 'By social wealth', says Walras, 'I mean all things, material or immaterial (it does not matter which in this context), that are {@{scarce}@}, that is to say, {@{on the one hand, useful to us}@} and, {@{on the other hand, only available to us in limited quantity}@}'."<sup>[\[4\]](#^ref-4)</sup>
 >
-> — Guido Montani (1987)
+> —&hairsp;Guido Montani (1987)
 
 {@{British economist [Lionel Robbins](Lionel%20Robbins.md)}@} is famous for his [definition of economics](definitions%20of%20economics.md) which uses scarcity: "Economics is {@{the science which studies human behaviour as a relationship between ends and scarce means which have alternative uses}@}."<sup>[\[5\]](#^ref-5)</sup> Economic theory views {@{absolute and relative scarcity as distinct concepts}@} and is "{@{quick in emphasizing that it is relative scarcity that defines economics}@}."<sup>[\[6\]](#^ref-6)</sup> Current economic theory is {@{derived in large part from the concept of relative scarcity}@} which "states that {@{goods are scarce because there are not enough resources to produce all the goods that people want to consume}@}".<sup>[\[6\]](#^ref-6)</sup>
 

@@ -29,11 +29,11 @@ Generating functions were first introduced by [Abraham de Moivre](Abraham%20de%2
 
 > _A generating function is {@{a device somewhat similar to a bag}@}. Instead of carrying many little objects detachedly, which could be embarrassing, we {@{put them all in a bag, and then we have only one object to carry, the bag}@}._
 
-— [George Pólya](George%20Pólya.md), _[Mathematics and plausible reasoning](Mathematics%20and%20Plausible%20Reasoning.md)_ (1954)
+—&hairsp;[George Pólya](George%20Pólya.md), _[Mathematics and plausible reasoning](Mathematics%20and%20Plausible%20Reasoning.md)_ (1954)
 
 > _A generating function is {@{a clothesline on which we hang up a sequence of numbers}@} for display._
 
-— [Herbert Wilf](Herbert%20Wilf.md), _[Generatingfunctionology](http://www.math.upenn.edu/~wilf/DownldGF.html)_ (1994)
+—&hairsp;[Herbert Wilf](Herbert%20Wilf.md), _[Generatingfunctionology](http://www.math.upenn.edu/~wilf/DownldGF.html)_ (1994)
 
 ### convergence
 

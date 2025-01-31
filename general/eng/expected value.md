@@ -41,7 +41,7 @@ In {@{the foreword to his treatise}@}, Huygens wrote:
 
 > It should be said, also, that for {@{some time some of the best mathematicians of France have occupied themselves with this kind of calculus}@} so that {@{no one should attribute to me the honour of the first invention. This does not belong to me}@}. But these savants, although {@{they put each other to the test by proposing to each other many questions difficult to solve, have hidden their methods}@}. I have had therefore {@{to examine and go deeply for myself into this matter by beginning with the elements}@}, and it is {@{impossible for me for this reason to affirm that I have even started from the same principle}@}. But finally {@{I have found that my answers in many cases do not differ from theirs}@}.
 >
-> — Edwards \(2002\)
+> —&hairsp;Edwards \(2002\)
 
 In {@{the mid-nineteenth century, [Pafnuty Chebyshev](Pafnuty%20Chebyshev.md)}@} became {@{the first person to think systematically in terms of the expectations of [random variables](random%20variable.md)}@}.<sup>[\[6\]](#^ref-6)</sup>
 
