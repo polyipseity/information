@@ -166,7 +166,8 @@ This text incorporates [content](https://en.wikipedia.org/wiki/standard_score) f
 
 - [z-score calculator](https://zscorecalculator.org/)
 
-> <!-- hide <p> - [v](https://en.wikipedia.org/wiki/Template:Statistics) <br/> - [t](https://en.wikipedia.org/wiki/Template%20talk:Statistics) <br/> - [e](https://en.wikipedia.org/wiki/Special:EditPage/Template%3AStatistics) <p>  <p>  <br/> --> [Statistics](statistics.md)
+> <!-- hide <p> - [v](https://en.wikipedia.org/wiki/Template:Statistics) <br/> - [t](https://en.wikipedia.org/wiki/Template%20talk:Statistics) <br/> - [e](https://en.wikipedia.org/wiki/Special:EditPage/Template%3AStatistics) <p>  <p>  <br/> -->
+> [Statistics](statistics.md)
 >
 > - [Outline](outline%20of%20statistics.md) <br/> - [Index](list%20of%20statistics%20articles.md) |  |
 >

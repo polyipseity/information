@@ -244,7 +244,8 @@ This text incorporates [content](https://en.wikipedia.org/wiki/simple_linear_reg
 - [Wolfram MathWorld's explanation of Least Squares Fitting, and how to calculate it](http://mathworld.wolfram.com/LeastSquaresFitting.html)
 - [Mathematics of simple regression \(Robert Nau, Duke University\)](http://people.duke.edu/~rnau/mathreg.htm)
 
-> <!-- hide <p> - [v](https://en.wikipedia.org/wiki/Template:Statistics) <br/> - [t](https://en.wikipedia.org/wiki/Template%20talk:Statistics) <br/> - [e](https://en.wikipedia.org/wiki/Special:EditPage/Template%3AStatistics) <p>  <p>  <br/> --> [Statistics](statistics.md)
+> <!-- hide <p> - [v](https://en.wikipedia.org/wiki/Template:Statistics) <br/> - [t](https://en.wikipedia.org/wiki/Template%20talk:Statistics) <br/> - [e](https://en.wikipedia.org/wiki/Special:EditPage/Template%3AStatistics) <p>  <p>  <br/> -->
+> [Statistics](statistics.md)
 >
 > - [Outline](outline%20of%20statistics.md) <br/> - [Index](list%20of%20statistics%20articles.md) |  |
 >

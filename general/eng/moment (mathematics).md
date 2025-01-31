@@ -193,7 +193,8 @@ This text incorporates [content](https://en.wikipedia.org/wiki/moment_(mathemati
 | - [raw moment](raw%20moment.md) <br/> - [central moment](central%20moment.md) <br/> - [mean](expected%20value.md) <br/> - [variance](variance.md) <br/> - [standard deviation](standard%20deviation.md) <br/> - [skewness](skewness.md) <br/> - [kurtosis](kurtosis.md) <br/> - [L-moment](L-moment.md)                                                                                                              |                                                                                                                          |
 | - [moment-generating function](moment-generating%20function.md) \(mgf\) <br/> - [characteristic function](characteristic%20function%20(probability%20theory).md) <br/> - [probability-generating function](probability-generating%20function.md) \(pgf\) <br/> - [cumulant](cumulant.md) <br/> - [combinant](combinant.md)                                                                                           |                                                                                                                          |
 
-> <!-- hide <p> - [v](https://en.wikipedia.org/wiki/Template:Statistics) <br/> - [t](https://en.wikipedia.org/wiki/Template%20talk:Statistics) <br/> - [e](https://en.wikipedia.org/wiki/Special:EditPage/Template%3AStatistics) <p>  <p>  <br/> --> [Statistics](statistics.md)
+> <!-- hide <p> - [v](https://en.wikipedia.org/wiki/Template:Statistics) <br/> - [t](https://en.wikipedia.org/wiki/Template%20talk:Statistics) <br/> - [e](https://en.wikipedia.org/wiki/Special:EditPage/Template%3AStatistics) <p>  <p>  <br/> -->
+> [Statistics](statistics.md)
 >
 > - [Outline](outline%20of%20statistics.md) <br/> - [Index](list%20of%20statistics%20articles.md) |  |
 >
