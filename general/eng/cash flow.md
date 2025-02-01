@@ -63,7 +63,7 @@ Within {@{cash flow analysis}@}, {@{3 types of cash flow}@} are present and used
 
 {@{The \(total\) net cash flow}@} of a company {@{over a period \(typically a quarter, half year, or a full year\)}@} is {@{equal to the change in cash balance over this period}@}: {@{positive if the cash balance increases \(more cash becomes available\), negative if the cash balance decreases}@}. {@{The total net cash flow for a project}@} is {@{the sum of cash flows that are classified in three areas}@}: (annotation: they are {@{operational cash flow (OCF), change in net working capital, [capital expenditure](capital%20expenditure.md)}@})
 
-- [Operational cash flows](operating%20cash%20flow.md): ::@:: cash received or expended as a result of the company's internal business activities. Operating cash flow of a project is determined by:
+- [Operational cash flows](operating%20cash%20flow.md): (annotation: Not to be confused with cash flow from operations (CFO) or operating/operational cash flow (OCF) in _accounting_!!!) ::@:: cash received or expended as a result of the company's internal business activities. Operating cash flow of a project is determined by:
   - (annotation: OCF / incremental earnings) ::@:: OCF = incremental earnings+depreciation=\(earning before interest and tax−tax\)+depreciation
   - (annotation: OCF / EBIT) ::@:: OCF = earning before interest and tax\*\(1−tax rate\)+ depreciation
   - (annotation: OCF / full form) ::@:: OCF = \(revenue − cost of good sold − operating expense − depreciation\)\* \(1−tax rate\)+depreciation

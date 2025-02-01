@@ -33,7 +33,7 @@ Formally, if {@{_X_ is a [set](set%20(mathematics).md)}@}, the identity function
 
 In other words, {@{the function value _f_\(_x_\) in the codomain _X_}@} is {@{always the same as the input element _x_ in the domain _X_}@}. The identity function on _X_ is clearly {@{an [injective function](injective%20function.md) as well as a [surjective function](surjective%20function.md) \(its codomain is also its [range](range%20(function).md)\), so it is [bijective](bijection.md)}@}.<sup>[\[2\]](#^ref-2)</sup>
 
-{@{The identity function _f_ on _X_}@} is often denoted{@{ by id<sub>_X_</sub>}@}.
+{@{The identity function _f_ on _X_}@} is often denoted {@{by id<sub>_X_</sub>}@}.
 
 In {@{[set theory](set%20theory.md)}@}, where a function is defined as {@{a particular kind of [binary relation](binary%20relation.md)}@}, the identity function is given by {@{the [identity relation](identity%20relation.md#particular%20homogeneous%20relations), or _diagonal_ of _X_}@}.<sup>[\[3\]](#^ref-3)</sup>
 
