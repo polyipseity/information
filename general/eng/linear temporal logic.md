@@ -28,7 +28,7 @@ __X__ is read as {@{ne<!-- markdown separator -->__x__<!-- markdown separator --
 - __F__ ::@:: for __f__<!-- markdown separator -->inally <!--SR:!2025-03-15,78,343!2025-02-22,57,323-->
 - __R__ ::@:: for __r__<!-- markdown separator -->elease <!--SR:!2025-03-16,79,343!2025-03-17,79,343-->
 - __W__ ::@:: for __w__<!-- markdown separator -->eak until <!--SR:!2025-03-15,78,343!2025-03-17,79,343-->
-- __M__ ::@:: for __m__<!-- markdown separator -->ighty release <!--SR:!2025-02-01,42,310!2025-02-22,60,317-->
+- __M__ ::@:: for __m__<!-- markdown separator -->ighty release <!--SR:!2025-08-03,183,330!2025-02-22,60,317-->
 
 ## semantics
 
@@ -40,7 +40,7 @@ An LTL formula can be {@{_[satisfied](satisfiability.md)_ by an infinite sequenc
 - ne<!-- markdown separator -->__x__<!-- markdown separator -->t ::@:: _w_ ⊨ __X__ ψ if _w_<sup>1</sup> ⊨ ψ \(in the ne<!-- markdown separator -->__x__<!-- markdown separator -->t time step ψ must be true\) <!--SR:!2025-02-22,57,323!2025-03-18,80,343-->
 - __u__<!-- markdown separator -->ntil ::@:: _w_ ⊨ φ __U__ ψ if there exists _i_ ≥ 0 such that _w_<sup>_i_</sup> ⊨ ψ and for all 0 ≤ _k_ \< i, _w_<sup>_k_</sup> ⊨ φ \(φ must remain true __u__<!-- markdown separator -->ntil ψ becomes true\) <!--SR:!2025-03-13,76,330!2025-02-17,53,323-->
 
-We say {@{an ω-word _w_ satisfies an LTL formula ψ when _w_ ⊨ ψ}@}. {@{The [ω-language](omega%20language.md) _L_\(ψ\) defined by ψ}@} is {@{<!-- flashcard separator -->{_w_ \| _w_ ⊨ ψ}, which is the set of ω-words that satisfy ψ}@}. {@{A formula ψ is _satisfiable_}@} if {@{there exist an ω-word _w_ such that _w_ ⊨ ψ}@}. {@{A formula ψ is _valid_}@} if {@{for each ω-word _w_ over alphabet 2<sup>_AP_</sup>, we have _w_ ⊨ ψ}@}. <!--SR:!2025-03-01,66,330!2025-03-20,82,343!2025-03-21,83,343!2025-03-15,78,343!2025-03-13,76,330!2025-02-01,42,310!2025-03-16,79,343-->
+We say {@{an ω-word _w_ satisfies an LTL formula ψ when _w_ ⊨ ψ}@}. {@{The [ω-language](omega%20language.md) _L_\(ψ\) defined by ψ}@} is {@{<!-- flashcard separator -->{_w_ \| _w_ ⊨ ψ}, which is the set of ω-words that satisfy ψ}@}. {@{A formula ψ is _satisfiable_}@} if {@{there exist an ω-word _w_ such that _w_ ⊨ ψ}@}. {@{A formula ψ is _valid_}@} if {@{for each ω-word _w_ over alphabet 2<sup>_AP_</sup>, we have _w_ ⊨ ψ}@}. <!--SR:!2025-03-01,66,330!2025-03-20,82,343!2025-03-21,83,343!2025-03-15,78,343!2025-03-13,76,330!2025-06-14,133,310!2025-03-16,79,343-->
 
 The additional logical operators are defined as follows:
 

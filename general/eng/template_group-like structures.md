@@ -49,7 +49,7 @@ tags:
 > - commutative groupoid ::@:: associative, identity, divisible, commutative <!--SR:!2025-02-02,13,210!2025-03-26,63,310-->
 > - magma ::@:: total <!--SR:!2025-03-31,67,310!2025-03-26,63,310-->
 > - commutative magma ::@:: total, commutative <!--SR:!2025-03-31,67,310!2025-03-30,66,310-->
-> - quasigroup ::@:: total, divisible <!--SR:!2025-02-07,25,270!2025-02-01,19,250-->
+> - quasigroup ::@:: total, divisible <!--SR:!2025-02-07,25,270!2025-03-23,50,250-->
 > - commutative quasigroup ::@:: total, divisible, commutative <!--SR:!2025-03-02,40,290!2025-03-08,44,290-->
 > - unital magma ::@:: total, identity <!--SR:!2025-03-17,55,310!2025-03-02,40,290-->
 > - commutative unital magma ::@:: total, identity, commutative <!--SR:!2025-03-20,58,310!2025-03-03,43,290-->
@@ -59,7 +59,7 @@ tags:
 > - associative quasigroup ::@:: total, associative, divisible <!--SR:!2025-04-07,66,270!2025-02-15,16,210-->
 > - commutative-and-associative quasigroup ::@:: total, associative, divisible, commutative <!--SR:!2025-03-01,39,290!2025-02-19,26,230-->
 > - monoid ::@:: total, associative, identity <!--SR:!2025-03-03,43,290!2025-03-29,60,270-->
-> - commutative monoid ::@:: total, associative, identity, commutative <!--SR:!2025-02-01,19,250!2025-02-11,16,170-->
+> - commutative monoid ::@:: total, associative, identity, commutative <!--SR:!2025-04-12,70,270!2025-02-11,16,170-->
 > - group ::@:: total, associative, identity, divisible <!--SR:!2025-03-31,67,310!2025-03-18,56,310-->
 > - abelian group ::@:: total, associative, identity, divisible, commutative <!--SR:!2025-03-26,63,310!2025-03-30,66,310-->
 

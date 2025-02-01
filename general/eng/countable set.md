@@ -13,7 +13,7 @@ tags:
 
 In [mathematics](mathematics.md), a [set](set%20(mathematics).md) is __countable__ {@{if either it is [finite](finite%20set.md) or it can be made in [one to one correspondence](bijection.md) with the set of [natural numbers](natural%20number.md)}@}.<sup>[\[a\]](#^ref-a)</sup> Equivalently, a set is _countable_ if {@{there exists an [injective function](injective%20function.md) from it into the natural numbers}@}; this means that {@{each element in the set may be associated to a unique natural number, or that the elements of the set can be counted one at a time}@}, although {@{the counting may never finish due to an infinite number of elements}@}. <!--SR:!2025-03-07,57,310!2025-02-27,47,290!2025-03-10,59,310!2025-02-05,33,270-->
 
-In more technical terms, {@{assuming the [axiom of countable choice](axiom%20of%20countable%20choice.md)}@}, a set is {@{_countable_ if its [cardinality](cardinality.md) \(the number of elements of the set\) is not greater than that of the natural numbers}@}. A countable set {@{that is not finite is said to be __countably infinite__}@}. <!--SR:!2025-05-12,103,290!2025-02-01,28,270!2025-02-17,43,290-->
+In more technical terms, {@{assuming the [axiom of countable choice](axiom%20of%20countable%20choice.md)}@}, a set is {@{_countable_ if its [cardinality](cardinality.md) \(the number of elements of the set\) is not greater than that of the natural numbers}@}. A countable set {@{that is not finite is said to be __countably infinite__}@}. <!--SR:!2025-05-12,103,290!2025-04-21,79,270!2025-02-17,43,290-->
 
 The concept is attributed to {@{[Georg Cantor](Georg%20Cantor.md)}@}, who {@{proved the existence of [uncountable sets](uncountable%20set.md), that is, sets that are not countable}@}; for example {@{the set of the [real numbers](real%20number.md)}@}. <!--SR:!2025-03-14,63,310!2025-03-07,57,310!2025-02-22,47,290-->
 
@@ -27,7 +27,7 @@ Although {@{the terms "countable" and "countably infinite" as defined here are q
 
 A set $S$ is {@{_countable_}@} if: <!--SR:!2025-02-23,47,290-->
 
-- countable, cardinality ::@:: Its [cardinality](cardinality.md) $|S|$ is less than or equal to $\aleph _{0}$ \([aleph-null](aleph%20number.md#aleph-null)\), the cardinality of the set of [natural numbers](natural%20number.md) $\mathbb {N}$.<sup>[\[9\]](#^ref-9)</sup> <!--SR:!2025-02-22,46,290!2025-02-01,27,270-->
+- countable, cardinality ::@:: Its [cardinality](cardinality.md) $|S|$ is less than or equal to $\aleph _{0}$ \([aleph-null](aleph%20number.md#aleph-null)\), the cardinality of the set of [natural numbers](natural%20number.md) $\mathbb {N}$.<sup>[\[9\]](#^ref-9)</sup> <!--SR:!2025-02-22,46,290!2025-05-13,101,290-->
 - countable, function from ::@:: There exists an [injective function](injective%20function.md) from $S$ to $\mathbb {N}$.<sup>[\[10\]](#^ref-10)</sup><sup>[\[11\]](#^ref-11)</sup> <!--SR:!2025-03-06,56,310!2025-02-14,40,290-->
 - countable, function to ::@:: $S$ is empty or there exists a [surjective function](surjective%20function.md) from $\mathbb {N}$ to $S$.<sup>[\[11\]](#^ref-11)</sup> <!--SR:!2025-02-13,39,290!2025-02-05,33,270-->
 - countable, mapping ::@:: There exists a [bijective](bijection.md) mapping between $S$ and a subset of $\mathbb {N}$.<sup>[\[12\]](#^ref-12)</sup> <!--SR:!2025-03-08,58,310!2025-05-13,102,290-->

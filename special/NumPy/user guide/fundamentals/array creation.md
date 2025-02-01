@@ -18,7 +18,7 @@ There are {@{6 general mechanisms}@} for creating arrays: <!--SR:!2025-02-03,74,
 
 1. Conversion ::@:: from other Python structures (i.e. lists and tuples) <!--SR:!2025-02-03,74,330!2025-02-02,73,330-->
 2. Intrinsic ::@:: NumPy array creation functions (e.g. arange, ones, zeros, etc.) <!--SR:!2025-02-04,75,330!2025-10-18,270,330-->
-3. Replicating, joining, or mutating ::@:: existing arrays <!--SR:!2025-07-30,190,310!2025-02-01,72,330-->
+3. Replicating, joining, or mutating ::@:: existing arrays <!--SR:!2025-07-30,190,310!2025-12-25,327,350-->
 4. Reading ::@:: arrays from disk, either from standard or custom formats <!--SR:!2025-02-03,74,330!2025-02-04,75,330-->
 5. Creating arrays ::@:: from raw bytes through the use of strings or buffers <!--SR:!2025-02-02,73,330!2025-08-02,193,310-->
 6. Use of ::@:: special library functions (e.g., random) <!--SR:!2025-02-05,76,330!2025-02-05,76,330-->
@@ -64,7 +64,7 @@ unsigned c: [4294967293 4294967293 4294967293] uint32
 signed c: [-3 -3 -3] int64
 ```
 
-Notice when {@{you perform operations with two arrays of the same `dtype`: `uint32`}@}, the resulting array is {@{the same type}@}. When {@{you perform operations with different `dtype`}@}, NumPy will {@{assign a new type that satisfies all of the array elements involved in the computation, here `uint32` and `int32` can both be represented in as `int64`}@}. <!--SR:!2025-11-07,285,330!2025-02-01,72,330!2025-11-14,292,330!2025-10-23,273,330-->
+Notice when {@{you perform operations with two arrays of the same `dtype`: `uint32`}@}, the resulting array is {@{the same type}@}. When {@{you perform operations with different `dtype`}@}, NumPy will {@{assign a new type that satisfies all of the array elements involved in the computation, here `uint32` and `int32` can both be represented in as `int64`}@}. <!--SR:!2025-11-07,285,330!2026-01-02,335,350!2025-11-14,292,330!2025-10-23,273,330-->
 
 The default NumPy behavior is to {@{create arrays in either 32 or 64-bit signed integers (platform dependent and matches C `long` size) or double precision floating point numbers}@}. If {@{you expect your integer arrays to be a specific type}@}, then {@{you need to specify the `dtype` while you create the array}@}. <!--SR:!2025-02-03,74,330!2025-11-08,286,330!2025-02-02,73,330-->
 
@@ -92,9 +92,9 @@ array([2., 3., 4., 5., 6., 7., 8., 9.])
 array([2. , 2.1, 2.2, 2.3, 2.4, 2.5, 2.6, 2.7, 2.8, 2.9])
 ```
 
-Note: {@{best practice for [`numpy.arange`](../../API%20reference/generated/numpy.arange.md#numpy.arange "numpy.arange")}@} is {@{to use integer start, end, and step values}@}. There are {@{some subtleties regarding `dtype`}@}. In the second example, {@{the `dtype` is defined}@}. In the third example, the array is {@{`dtype=float` to accommodate the step size of `0.1`}@}. Due to {@{roundoff error}@}, {@{the `stop` value is sometimes included}@}. <!--SR:!2025-02-02,73,330!2025-10-20,272,330!2025-02-04,75,330!2025-10-30,279,330!2025-10-20,272,330!2025-11-01,280,330!2025-02-01,72,330-->
+Note: {@{best practice for [`numpy.arange`](../../API%20reference/generated/numpy.arange.md#numpy.arange "numpy.arange")}@} is {@{to use integer start, end, and step values}@}. There are {@{some subtleties regarding `dtype`}@}. In the second example, {@{the `dtype` is defined}@}. In the third example, the array is {@{`dtype=float` to accommodate the step size of `0.1`}@}. Due to {@{roundoff error}@}, {@{the `stop` value is sometimes included}@}. <!--SR:!2025-02-02,73,330!2025-10-20,272,330!2025-02-04,75,330!2025-10-30,279,330!2025-10-20,272,330!2025-11-01,280,330!2025-12-24,326,350-->
 
-{@{[`numpy.linspace`](../../API%20reference/generated/numpy.linspace.md#numpy.linspace "numpy.linspace")}@} will {@{create arrays with a specified number of elements}@}, and {@{spaced equally between the specified beginning and end values}@}. For example: <!--SR:!2025-10-24,275,330!2025-11-09,287,330!2025-02-01,72,330-->
+{@{[`numpy.linspace`](../../API%20reference/generated/numpy.linspace.md#numpy.linspace "numpy.linspace")}@} will {@{create arrays with a specified number of elements}@}, and {@{spaced equally between the specified beginning and end values}@}. For example: <!--SR:!2025-10-24,275,330!2025-11-09,287,330!2025-12-21,323,350-->
 
 ```Python
 >>> import numpy as np
@@ -102,7 +102,7 @@ Note: {@{best practice for [`numpy.arange`](../../API%20reference/generated/nump
 array([1. ,  1.6,  2.2,  2.8,  3.4,  4. ])
 ```
 
-{@{The advantage of this creation function}@} is that {@{you guarantee the number of elements and the starting and end point}@}. {@{The previous `arange(start, stop, step)`}@} will {@{not include the value `stop`}@}. <!--SR:!2025-11-06,285,330!2025-10-24,274,330!2025-02-01,72,330!2025-02-03,74,330-->
+{@{The advantage of this creation function}@} is that {@{you guarantee the number of elements and the starting and end point}@}. {@{The previous `arange(start, stop, step)`}@} will {@{not include the value `stop`}@}. <!--SR:!2025-11-06,285,330!2025-10-24,274,330!2025-12-31,333,350!2025-02-03,74,330-->
 
 ### 2D array creation functions
 
@@ -217,7 +217,7 @@ array([[[0.77395605, 0.43887844],
         [0.37079802, 0.92676499]]])
 ```
 
-{@{[`numpy.indices`](../../API%20reference/generated/numpy.indices.md#numpy.indices "numpy.indices")}@} will {@{create a set of arrays (stacked as a one-higher dimensioned array), one per dimension with each representing variation in that dimension}@}. This is particularly useful for {@{evaluating functions of multiple dimensions on a regular grid}@}: <!--SR:!2025-10-12,264,330!2025-05-28,155,310!2025-02-01,72,330-->
+{@{[`numpy.indices`](../../API%20reference/generated/numpy.indices.md#numpy.indices "numpy.indices")}@} will {@{create a set of arrays (stacked as a one-higher dimensioned array), one per dimension with each representing variation in that dimension}@}. This is particularly useful for {@{evaluating functions of multiple dimensions on a regular grid}@}: <!--SR:!2025-10-12,264,330!2025-05-28,155,310!2025-12-28,330,350-->
 
 ```Python
 >>> import numpy as np
@@ -243,7 +243,7 @@ Once {@{you have created arrays}@}, you can {@{replicate, join, or mutate those 
 a = [2 3 3 4 5 6] ; b = [2 3]
 ```
 
-In this example, you {@{did not create a new array}@}. You {@{created a variable, `b` that viewed the first 2 elements of `a`}@}. When {@{you added 1 to `b`}@} you would {@{get the same result by adding 1 to `a[:2]`}@}. If {@{you want to create a _new_ array}@}, use {@{the [`numpy.copy`](../../API%20reference/generated/numpy.copy.md#numpy.copy "numpy.copy") array creation routine}@} as such: <!--SR:!2025-10-21,272,330!2025-02-05,76,330!2025-10-10,262,330!2025-02-01,72,330!2025-10-25,275,330!2025-10-21,272,330-->
+In this example, you {@{did not create a new array}@}. You {@{created a variable, `b` that viewed the first 2 elements of `a`}@}. When {@{you added 1 to `b`}@} you would {@{get the same result by adding 1 to `a[:2]`}@}. If {@{you want to create a _new_ array}@}, use {@{the [`numpy.copy`](../../API%20reference/generated/numpy.copy.md#numpy.copy "numpy.copy") array creation routine}@} as such: <!--SR:!2025-10-21,272,330!2025-02-05,76,330!2025-10-10,262,330!2025-12-29,331,350!2025-10-25,275,330!2025-10-21,272,330-->
 
 ```Python
 >>> import numpy as np
@@ -256,7 +256,7 @@ a =  [1 2 3 4] b =  [2 3]
 
 For more information and examples look at [copies and Views](../quickstart.md#copies%20and%20views).
 
-There are {@{a number of routines to join existing arrays}@} e.g. {@{[`numpy.vstack`](../../API%20reference/generated/numpy.vstack.md#numpy.vstack "numpy.vstack"), [`numpy.hstack`](../../API%20reference/generated/numpy.hstack.md#numpy.hstack "numpy.hstack"), and [`numpy.block`](../../API%20reference/generated/numpy.block.md#numpy.block "numpy.block")}@}. Here is an example of {@{joining four 2-by-2 arrays into a 4-by-4 array using `block`}@}: <!--SR:!2025-10-24,274,330!2025-02-01,72,330!2025-11-11,290,330-->
+There are {@{a number of routines to join existing arrays}@} e.g. {@{[`numpy.vstack`](../../API%20reference/generated/numpy.vstack.md#numpy.vstack "numpy.vstack"), [`numpy.hstack`](../../API%20reference/generated/numpy.hstack.md#numpy.hstack "numpy.hstack"), and [`numpy.block`](../../API%20reference/generated/numpy.block.md#numpy.block "numpy.block")}@}. Here is an example of {@{joining four 2-by-2 arrays into a 4-by-4 array using `block`}@}: <!--SR:!2025-10-24,274,330!2025-12-27,329,350!2025-11-11,290,330-->
 
 ```Python
 >>> import numpy as np
@@ -282,7 +282,7 @@ This is {@{the most common case of large array creation}@}. The details {@{depen
 {@{Various fields}@} have {@{standard formats for array data}@}. The following lists {@{the ones with known Python libraries to read them and return NumPy arrays}@} (there may be {@{others for which it is possible to read and convert to NumPy arrays so check the last section as well}@}) <!--SR:!2025-10-15,267,330!2025-02-05,76,330!2025-11-10,288,330!2025-11-16,294,330-->
 
 - HDF5 ::@:: h5py <!--SR:!2025-02-02,73,330!2025-11-10,289,330-->
-- FITS ::@:: Astropy <!--SR:!2025-08-09,198,310!2025-02-01,72,330-->
+- FITS ::@:: Astropy <!--SR:!2025-08-09,198,310!2025-12-22,324,350-->
 
 Examples of {@{formats that cannot be read directly but for which it is not hard to convert}@} are those formats supported by libraries like {@{PIL (able to read and write many image formats such as jpg, png, etc)}@}. <!--SR:!2025-10-19,271,330!2025-08-19,205,310-->
 
@@ -314,11 +314,11 @@ array([[0., 0.],
 
 ## creating arrays from raw bytes through the use of strings or buffers
 
-There are {@{a variety of approaches one can use}@}. If {@{the file has a relatively simple format}@} then {@{one can write a simple I/O library and use the NumPy `fromfile()` function and `tofile()` method}@} to {@{read and write NumPy arrays directly (mind your byteorder though!)}@}. If {@{a good C or C++ library exists that read the data}@}, one can {@{wrap that library with a variety of techniques}@} though that certainly is {@{much more work and requires significantly more advanced knowledge to interface with C or C++}@}. <!--SR:!2025-10-23,274,330!2025-10-17,269,330!2025-10-24,274,330!2025-02-01,72,330!2025-02-01,72,330!2025-02-04,75,330!2025-02-01,72,330-->
+There are {@{a variety of approaches one can use}@}. If {@{the file has a relatively simple format}@} then {@{one can write a simple I/O library and use the NumPy `fromfile()` function and `tofile()` method}@} to {@{read and write NumPy arrays directly (mind your byteorder though!)}@}. If {@{a good C or C++ library exists that read the data}@}, one can {@{wrap that library with a variety of techniques}@} though that certainly is {@{much more work and requires significantly more advanced knowledge to interface with C or C++}@}. <!--SR:!2025-10-23,274,330!2025-10-17,269,330!2025-10-24,274,330!2025-12-26,328,350!2025-12-30,332,350!2025-02-04,75,330!2025-12-19,321,350-->
 
 ## use of special library functions (e.g., SciPy, pandas, and OpenCV)
 
-NumPy is {@{the fundamental library for array containers in the Python Scientific Computing stack}@}. {@{Many Python libraries}@}, including {@{SciPy, Pandas, and OpenCV}@}, use {@{NumPy ndarrays as the common format for data exchange}@}. These libraries can {@{create, operate on, and work with NumPy arrays}@}. <!--SR:!2025-08-05,196,310!2025-10-11,263,330!2025-02-01,72,330!2025-11-15,293,330!2025-02-05,76,330-->
+NumPy is {@{the fundamental library for array containers in the Python Scientific Computing stack}@}. {@{Many Python libraries}@}, including {@{SciPy, Pandas, and OpenCV}@}, use {@{NumPy ndarrays as the common format for data exchange}@}. These libraries can {@{create, operate on, and work with NumPy arrays}@}. <!--SR:!2025-08-05,196,310!2025-10-11,263,330!2025-12-23,325,350!2025-11-15,293,330!2025-02-05,76,330-->
 
 ## references
 

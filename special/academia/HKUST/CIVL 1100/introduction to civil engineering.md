@@ -363,7 +363,7 @@ transportation
 - hydraulic→::@::←material <!--SR:!2026-04-12,556,360!2026-02-13,471,340-->
 - material→::@::←structural <!--SR:!2025-02-07,130,297!2026-04-05,434,260-->
 - structural→::@::←transportation <!--SR:!2027-03-02,800,360!2026-11-27,724,347-->
-- transportation→::@::←_(end)_ <!--SR:!2027-07-23,926,370!2025-02-01,202,381-->
+- transportation→::@::←_(end)_ <!--SR:!2027-07-23,926,370!2027-12-24,1056,401-->
 
 <!--/pytextgen-->
 
@@ -844,7 +844,7 @@ Tsing Ma Bridge
 
 <!--pytextgen generate section="e7f2"--><!-- The following content is generated at 2024-02-16T21:59:47.773549+08:00. Any edits will be overridden! -->
 
-- _(begin)_→::@::←Akashi Kaikyo Bridge <!--SR:!2025-02-01,124,298!2025-05-27,320,377-->
+- _(begin)_→::@::←Akashi Kaikyo Bridge <!--SR:!2026-02-11,375,298!2025-05-27,320,377-->
 - Akashi Kaikyo Bridge→::@::←Hong Kong–Zhuhai–Macau Bridge <!--SR:!2025-06-20,300,327!2025-08-19,321,307-->
 - Hong Kong–Zhuhai–Macau Bridge→::@::←Stonecutters Bridge <!--SR:!2025-10-05,319,320!2026-03-31,447,300-->
 - Stonecutters Bridge→::@::←Sutong Yangtze River Bridge <!--SR:!2025-12-19,437,337!2026-04-03,502,340-->

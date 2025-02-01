@@ -56,7 +56,7 @@ See [Burj Khalifa](../../../../general/Burj%20Khalifa.md).
 - description ::@:: skyscraper in Dubai, United Arab Emirates <!--SR:!2026-06-15,574,317!2025-08-07,356,374-->
 - height ::@:: architectural: 828 m, tip: 829.8 m, top floor: 585.4 m <!--SR:!2025-03-23,54,241!2025-09-17,384,377-->
 - image ::@:: ![Burj Khalifa image](../../../../archives/Wikimedia%20Commons/Burj%20Khalifa.jpg) <!--SR:!2025-07-08,324,380!2025-04-18,271,380-->
-- [structural system](../../../../general/structural%20system.md) ::@:: aluminum, reinforced concrete, steel<!-- flashcard e75e9185-3454-4c54-a9c9-5a05c6b26732 --> <!--SR:!2025-10-15,407,341!2025-02-01,232,330-->
+- [structural system](../../../../general/structural%20system.md) ::@:: aluminum, reinforced concrete, steel<!-- flashcard e75e9185-3454-4c54-a9c9-5a05c6b26732 --> <!--SR:!2025-10-15,407,341!2027-03-07,764,330-->
 
 ## CCTV Headquarters
 

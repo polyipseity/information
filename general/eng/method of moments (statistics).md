@@ -19,7 +19,7 @@ In {@{[statistics](statistics.md)}@}, {@{the __method of moments__}@} is {@{a me
 
 It starts by {@{expressing the population [moments](moment%20(mathematics).md) \(i.e., the [expected values](expected%20value.md) of powers of the [random variable](random%20variable.md) under consideration\) as functions of the parameters of interest}@}. Those expressions are then {@{set equal to the sample moments}@}. {@{The number of such equations}@} is {@{the same as the number of parameters to be estimated}@}. Those equations are then {@{solved for the parameters of interest}@}. The solutions are {@{estimates of those parameters}@}. <!--SR:!2025-02-26,43,290!2025-02-26,45,290!2025-03-24,67,310!2025-03-16,60,310!2025-03-19,63,310!2025-03-22,65,310-->
 
-The method of moments was introduced by {@{[Pafnuty Chebyshev](Pafnuty%20Chebyshev.md) in 1887}@} in {@{the proof of the [central limit theorem](central%20limit%20theorem.md)}@}. The idea of {@{matching empirical moments of a distribution to the population moments}@} dates back {@{at least to [Karl Pearson](Karl%20Pearson.md)}@}.<sup>[\[1\]](#^ref-1)</sup> <!--SR:!2025-02-01,24,250!2025-02-07,28,270!2025-03-21,64,310!2025-02-24,43,290-->
+The method of moments was introduced by {@{[Pafnuty Chebyshev](Pafnuty%20Chebyshev.md) in 1887}@} in {@{the proof of the [central limit theorem](central%20limit%20theorem.md)}@}. The idea of {@{matching empirical moments of a distribution to the population moments}@} dates back {@{at least to [Karl Pearson](Karl%20Pearson.md)}@}.<sup>[\[1\]](#^ref-1)</sup> <!--SR:!2025-04-05,63,250!2025-02-07,28,270!2025-03-21,64,310!2025-02-24,43,290-->
 
 ## method
 

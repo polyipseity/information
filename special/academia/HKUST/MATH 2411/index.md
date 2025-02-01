@@ -97,7 +97,7 @@ The content is in teaching order.
   - inferential statistics / key terms ::@:: _population_: a collection of all objects of interest, _sample_: an analyzed part of the _population_; _parameter_: a numerical measure describing a _population_, _statistic_: a numerical measure describing a _sample_ <!--SR:!2025-07-03,235,330!2025-03-29,139,290-->
   - inferential statistics / reasons for sampling ::@:: cost-effectiveness, practicality <!--SR:!2025-02-06,112,290!2025-07-21,249,330-->
   - inferential statistics / procedures ::@:: analysis of variance, estimation of parameters, goodness of fit test, hypothesis testing, probability distribution, regression, ... <!--SR:!2025-02-16,122,290!2025-02-26,119,290-->
-    - inferential statistics / procedures / analysis of variance ::@:: used to test the difference between two or more means <!--SR:!2025-09-20,294,330!2025-02-01,103,290-->
+    - inferential statistics / procedures / analysis of variance ::@:: used to test the difference between two or more means <!--SR:!2025-09-20,294,330!2026-03-23,415,310-->
     - inferential statistics / procedures / estimation of parameters ::@:: estimate unknown parameters of a population based on a sample of the population <!--SR:!2025-10-17,316,330!2025-04-22,168,310-->
     - inferential statistics / procedures / goodness of fit test ::@:: test how well a hypothesized statistical model (distribution) fits the observed samples <!--SR:!2025-10-29,273,270!2025-03-26,152,290-->
     - inferential statistics / procedures / hypothesis testing ::@:: test a statement about the unknown parameters <!--SR:!2025-06-19,224,330!2026-02-04,387,310-->

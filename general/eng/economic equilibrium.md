@@ -35,7 +35,7 @@ An economic equilibrium is {@{a situation when the economic agent cannot change 
 > - P – ::@:: price <!--SR:!2025-02-03,64,325!2025-02-15,74,325-->
 > - Q – ::@:: quantity demanded and supplied <!--SR:!2025-02-07,67,310!2025-02-16,75,325-->
 > - S – ::@:: supply curve <!--SR:!2025-02-03,64,325!2025-02-13,72,325-->
-> - D – ::@:: demand curve <!--SR:!2025-02-08,68,325!2025-02-01,62,310-->
+> - D – ::@:: demand curve <!--SR:!2025-02-08,68,325!2025-10-26,267,330-->
 > - P<sub>0</sub> – ::@:: equilibrium price <!--SR:!2025-02-15,74,325!2025-09-28,246,330-->
 > - A – excess demand – ::@:: when P<P<sub>0</sub> <!--SR:!2025-02-11,71,325!2025-02-06,66,310-->
 > - B – excess supply – ::@:: when P>P<sub>0</sub> <!--SR:!2025-02-10,70,325!2025-02-16,75,325-->

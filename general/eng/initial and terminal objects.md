@@ -32,20 +32,20 @@ tags:
 # initial and terminal objects
 
 - "{@{Zero object}@}" redirects here. For {@{zero object in an algebraic structure}@}, see {@{[zero object \(algebra\)](zero%20object%20(algebra).md)}@}.
-- "{@{Terminal element}@}" redirects here. For {@{the project management concept}@}, see {@{[work breakdown structure](work%20breakdown%20structure.md)}@}. <!--SR:!2025-02-02,17,312!2025-02-01,16,297!2025-04-06,65,317!2025-04-06,65,317!2025-02-02,17,312!2025-02-03,18,319-->
+- "{@{Terminal element}@}" redirects here. For {@{the project management concept}@}, see {@{[work breakdown structure](work%20breakdown%20structure.md)}@}. <!--SR:!2025-02-02,17,312!2025-04-11,69,317!2025-04-06,65,317!2025-04-06,65,317!2025-02-02,17,312!2025-02-03,18,319-->
 
-In {@{[category theory](category%20theory.md), a branch of [mathematics](mathematics.md)}@}, {@{an __initial object__}@} of {@{a [category](category%20(mathematics).md) _C_ is an object _I_ in _C_ such that for every object _X_ in _C_, there exists precisely one [morphism](morphism.md) _I_ → _X_}@}. <!--SR:!2025-04-05,64,317!2025-03-31,60,317!2025-02-01,16,297-->
+In {@{[category theory](category%20theory.md), a branch of [mathematics](mathematics.md)}@}, {@{an __initial object__}@} of {@{a [category](category%20(mathematics).md) _C_ is an object _I_ in _C_ such that for every object _X_ in _C_, there exists precisely one [morphism](morphism.md) _I_ → _X_}@}. <!--SR:!2025-04-05,64,317!2025-03-31,60,317!2025-04-11,69,317-->
 
-{@{The [dual](dual%20(category%20theory).md) notion}@} is that of {@{a __terminal object__ \(also called __terminal element__\)}@}: _T_ is {@{terminal if for every object _X_ in _C_ there exists exactly one morphism _X_ → _T_}@}. Initial objects are also called {@{__coterminal__ or __universal__}@}, and terminal objects are also called {@{__final__}@}. <!--SR:!2025-03-31,60,317!2025-02-02,17,312!2025-02-01,16,290!2025-04-06,65,317!2025-04-05,64,317-->
+{@{The [dual](dual%20(category%20theory).md) notion}@} is that of {@{a __terminal object__ \(also called __terminal element__\)}@}: _T_ is {@{terminal if for every object _X_ in _C_ there exists exactly one morphism _X_ → _T_}@}. Initial objects are also called {@{__coterminal__ or __universal__}@}, and terminal objects are also called {@{__final__}@}. <!--SR:!2025-03-31,60,317!2025-02-02,17,312!2025-04-09,67,310!2025-04-06,65,317!2025-04-05,64,317-->
 
-If {@{an object is both initial and terminal}@}, it is called {@{a __zero object__ or __null object__}@}. {@{A __pointed category__}@} is {@{one with a zero object}@}. <!--SR:!2025-02-01,16,297!2025-03-30,59,317!2025-03-30,59,317!2025-02-02,17,317-->
+If {@{an object is both initial and terminal}@}, it is called {@{a __zero object__ or __null object__}@}. {@{A __pointed category__}@} is {@{one with a zero object}@}. <!--SR:!2025-04-11,69,317!2025-03-30,59,317!2025-03-30,59,317!2025-02-02,17,317-->
 
 {@{A [strict initial object](strict%20initial%20object.md) _I_}@} is one {@{for which every morphism into _I_ is an [isomorphism](isomorphism.md)}@}. <!--SR:!2025-02-02,17,312!2025-02-02,17,317-->
 
 ## examples
 
 - {@{The [empty set](empty%20set.md)}@} is {@{the unique initial object in __Set__, the [category of sets](category%20of%20sets.md)}@}. {@{Every one-element set \([singleton](singleton%20(mathematics).md)\)}@} is {@{a terminal object in this category}@}; there are {@{no zero objects}@}. Similarly, {@{the empty space}@} is {@{the unique initial object in __Top__, the [category of topological spaces](category%20of%20topological%20spaces.md)}@} and {@{every one-point space is a terminal object in this category}@}.
-- In the category __[Rel](category%20of%20relations.md)__ of sets and relations, ::@:: the empty set is the unique initial object, the unique terminal object, and hence the unique zero object. <!--SR:!2025-02-02,17,312!2025-02-01,16,297-->
+- In the category __[Rel](category%20of%20relations.md)__ of sets and relations, ::@:: the empty set is the unique initial object, the unique terminal object, and hence the unique zero object. <!--SR:!2025-02-02,17,312!2025-04-11,69,317-->
 
 > {@{![Center: the zero object. <br/> Left half: all elements of an object maps to zero, the terminal morphism. <br/> Right half: 0 maps to 0, the initial monomorphism.](../../archives/Wikimedia%20Commons/Terminal%20and%20initial%20object.svg)}@}
 >
@@ -67,34 +67,34 @@ If {@{an object is both initial and terminal}@}, it is called {@{a __zero object
 
 ### existence and uniqueness
 
-{@{Initial and terminal objects}@} are {@{not required to exist in a given category}@}. However, {@{if they do exist, they are essentially unique}@}. Specifically, if {@{_I_<sub>1</sub> and _I_<sub>2</sub> are two different initial objects}@}, then {@{there is a unique [isomorphism](isomorphism.md) between them}@}. Moreover, {@{if _I_ is an initial object then any object isomorphic to _I_ is also an initial object}@}. The same is {@{true for terminal objects}@}. <!--SR:!2025-02-02,17,312!2025-02-01,16,297!2025-02-02,17,312!2025-02-01,16,297!2025-03-31,60,317!2025-02-01,16,297!2025-02-02,17,312-->
+{@{Initial and terminal objects}@} are {@{not required to exist in a given category}@}. However, {@{if they do exist, they are essentially unique}@}. Specifically, if {@{_I_<sub>1</sub> and _I_<sub>2</sub> are two different initial objects}@}, then {@{there is a unique [isomorphism](isomorphism.md) between them}@}. Moreover, {@{if _I_ is an initial object then any object isomorphic to _I_ is also an initial object}@}. The same is {@{true for terminal objects}@}. <!--SR:!2025-02-02,17,312!2025-04-11,69,317!2025-02-02,17,312!2025-04-11,69,317!2025-03-31,60,317!2025-04-10,68,317!2025-02-02,17,312-->
 
 For {@{[complete categories](complete%20category.md)}@} there is {@{an existence theorem for initial objects}@}. Specifically, {@{a \([locally small](locally%20small%20category.md#small%20and%20large%20categories)\) complete category _C_ has an initial object}@} {@{if and only if there exist a set _I_ \(not a [proper class](proper%20class.md)\) and an _I_-[indexed family](indexed%20family.md) \(_K_<sub>_i_</sub>\) of objects of _C_}@} such that {@{for any object _X_ of _C_, there is at least one morphism _K_<sub>_i_</sub> → _X_ for some _i_ ∈ _I_}@}. <!--SR:!2025-03-31,60,317!2025-02-02,17,317!2025-02-08,8,277!2025-04-06,65,317!2025-02-09,18,257-->
 
 ### equivalent formulations
 
-{@{Terminal objects in a category _C_}@} may also be defined as {@{[limits](limit%20(category%20theory).md) of the unique empty [diagram](diagram%20(category%20theory).md) __0__ → _C_}@}. Since {@{the empty category is vacuously a [discrete category](discrete%20category.md)}@}, a terminal object can be thought of {@{as an [empty product](empty%20product.md) \(a product is indeed the limit of the discrete diagram {_X_<sub>_i_</sub>}, in general\)}@}. Dually, {@{an initial object is a [colimit](limit%20(category%20theory).md) of the empty diagram __0__ → _C_}@} and can be thought of as {@{an [empty](empty%20sum.md) [coproduct](coproduct.md) or categorical sum}@}. <!--SR:!2025-02-01,16,297!2025-03-30,59,317!2025-02-01,16,297!2025-02-16,25,277!2025-04-03,62,310!2025-03-02,33,277-->
+{@{Terminal objects in a category _C_}@} may also be defined as {@{[limits](limit%20(category%20theory).md) of the unique empty [diagram](diagram%20(category%20theory).md) __0__ → _C_}@}. Since {@{the empty category is vacuously a [discrete category](discrete%20category.md)}@}, a terminal object can be thought of {@{as an [empty product](empty%20product.md) \(a product is indeed the limit of the discrete diagram {_X_<sub>_i_</sub>}, in general\)}@}. Dually, {@{an initial object is a [colimit](limit%20(category%20theory).md) of the empty diagram __0__ → _C_}@} and can be thought of as {@{an [empty](empty%20sum.md) [coproduct](coproduct.md) or categorical sum}@}. <!--SR:!2025-04-11,69,317!2025-03-30,59,317!2025-04-11,69,317!2025-02-16,25,277!2025-04-03,62,310!2025-03-02,33,277-->
 
-It follows that {@{any [functor](functor.md) which preserves limits will take terminal objects to terminal objects}@}, and {@{any functor which preserves colimits will take initial objects to initial objects}@}. For example, {@{the initial object in any [concrete category](concrete%20category.md) with [free objects](free%20object.md)}@} will be {@{the free object generated by the empty set}@} \(since {@{the [free functor](free%20functor.md#free%20functor)}@}, being {@{[left adjoint](left%20adjoint.md) to the [forgetful functor](forgetful%20functor.md) to __Set__}@}, {@{preserves colimits}@}\). <!--SR:!2025-02-01,16,297!2025-02-01,16,297!2025-03-02,33,277!2025-03-18,46,290!2025-02-02,17,312!2025-02-02,11,237!2025-02-01,16,297-->
+It follows that {@{any [functor](functor.md) which preserves limits will take terminal objects to terminal objects}@}, and {@{any functor which preserves colimits will take initial objects to initial objects}@}. For example, {@{the initial object in any [concrete category](concrete%20category.md) with [free objects](free%20object.md)}@} will be {@{the free object generated by the empty set}@} \(since {@{the [free functor](free%20functor.md#free%20functor)}@}, being {@{[left adjoint](left%20adjoint.md) to the [forgetful functor](forgetful%20functor.md) to __Set__}@}, {@{preserves colimits}@}\). <!--SR:!2025-04-10,68,317!2025-03-23,50,297!2025-03-02,33,277!2025-03-18,46,290!2025-02-02,17,312!2025-02-02,11,237!2025-04-11,69,317-->
 
-Initial and terminal objects may also {@{be characterized in terms of [universal properties](universal%20property.md) and [adjoint functors](adjoint%20functors.md)}@}. Let {@{__1__ be the discrete category with a single object \(denoted by •\)}@}, and let {@{_U_ : _C_ → __1__ be the unique \(constant\) functor to __1__}@}. Then <!--SR:!2025-03-30,59,317!2025-02-01,16,297!2025-02-02,17,312-->
+Initial and terminal objects may also {@{be characterized in terms of [universal properties](universal%20property.md) and [adjoint functors](adjoint%20functors.md)}@}. Let {@{__1__ be the discrete category with a single object \(denoted by •\)}@}, and let {@{_U_ : _C_ → __1__ be the unique \(constant\) functor to __1__}@}. Then <!--SR:!2025-03-30,59,317!2025-04-11,69,317!2025-02-02,17,312-->
 
 - An initial object _I_ in _C_ is ::@:: a [universal morphism](universal%20morphism.md) from • to _U_. (annotation: That every object has an unique morphism from the initial object corresponds to the unique morphism requirement in a universal morphism.) The functor which sends • to _I_ is left adjoint to _U_. <!--SR:!2025-02-10,19,257!2025-03-01,32,277-->
 - A terminal object _T_ in _C_ is ::@:: a universal morphism from _U_ to •. (annotation: That every object has an unique morphism to the terminal object corresponds to the unique morphism requirement in a universal morphism.) The functor which sends • to _T_ is right adjoint to _U_. <!--SR:!2025-02-28,32,277!2025-02-10,19,277-->
 
 ### relation to other categorical constructions
 
-{@{Many natural constructions in category theory}@} can be {@{formulated in terms of finding an initial or terminal object in a suitable category}@}. <!--SR:!2025-02-01,16,297!2025-02-02,17,312-->
+{@{Many natural constructions in category theory}@} can be {@{formulated in terms of finding an initial or terminal object in a suitable category}@}. <!--SR:!2025-04-10,68,317!2025-02-02,17,312-->
 
 - {@{A [universal morphism](universal%20morphism.md) from an object _X_ to a functor _U_}@} can be defined as {@{an initial object in the [comma category](comma%20category.md) \(_X_ ↓ _U_\)}@}. Dually, {@{a universal morphism from _U_ to _X_}@} is {@{a terminal object in \(_U_ ↓ _X_\)}@}.
 - {@{The limit of a diagram _F_}@} is {@{a terminal object in Cone\(_F_\), the [category of cones](category%20of%20cones.md#category%20of%20cones) to _F_}@}. Dually, {@{a colimit of _F_}@} is {@{an initial object in the category of cones from _F_}@}.
-- A [representation of a functor](representable%20functor.md) _F_ to __Set__ is ::@:: an initial object in the [category of elements](category%20of%20elements.md) of _F_. <!--SR:!2025-02-05,7,272!2025-02-01,7,217-->
-- The notion of [final functor](final%20functor.md) \(respectively, initial functor\) is ::@:: a generalization of the notion of final object \(respectively, initial object\). <!--SR:!2025-02-02,17,312!2025-02-01,16,297-->
+- A [representation of a functor](representable%20functor.md) _F_ to __Set__ is ::@:: an initial object in the [category of elements](category%20of%20elements.md) of _F_. <!--SR:!2025-02-05,7,272!2025-02-17,16,217-->
+- The notion of [final functor](final%20functor.md) \(respectively, initial functor\) is ::@:: a generalization of the notion of final object \(respectively, initial object\). <!--SR:!2025-02-02,17,312!2025-04-11,69,317-->
 
 ### other properties
 
-- The [endomorphism monoid](endomorphism%20monoid.md) of an initial or terminal object _I_ is trivial: ::@:: End\(_I_\) = Hom\(_I_, _I_\) = { id<sub>_I_</sub> }. <!--SR:!2025-02-01,16,297!2025-03-30,59,317-->
-- If a category _C_ has a zero object 0, ::@:: then for any pair of objects _X_ and _Y_ in _C_, the unique composition _X_ → 0 → _Y_ is a [zero morphism](zero%20morphism.md) from _X_ to _Y_. <!--SR:!2025-02-01,16,297!2025-02-03,18,319-->
+- The [endomorphism monoid](endomorphism%20monoid.md) of an initial or terminal object _I_ is trivial: ::@:: End\(_I_\) = Hom\(_I_, _I_\) = { id<sub>_I_</sub> }. <!--SR:!2025-04-10,68,317!2025-03-30,59,317-->
+- If a category _C_ has a zero object 0, ::@:: then for any pair of objects _X_ and _Y_ in _C_, the unique composition _X_ → 0 → _Y_ is a [zero morphism](zero%20morphism.md) from _X_ to _Y_. <!--SR:!2025-02-08,7,277!2025-02-03,18,319-->
 
 ## references
 

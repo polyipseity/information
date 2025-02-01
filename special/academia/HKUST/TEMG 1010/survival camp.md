@@ -23,7 +23,7 @@ So many tiring and wet activities... While some of them were fun, I would have m
 We went over some leadership theory and did some group activities, basically.
 
 - [Johari window](../../../../general/Johari%20window.md) ::@:: known to self/unknown to self × known to others/unknown to others (4 combinations) <!--SR:!2025-02-13,67,310!2025-02-04,59,310-->
-  - Johari window / open area ::@:: known to self × known to others <!--SR:!2025-02-02,57,310!2025-02-01,56,310-->
+  - Johari window / open area ::@:: known to self × known to others <!--SR:!2025-02-02,57,310!2025-10-01,242,330-->
   - Johari window / blind area ::@:: unknown to self × known to others <!--SR:!2025-09-21,234,330!2025-09-26,238,330-->
   - Johari window / hidden area ::@:: known to self × unknown to others <!--SR:!2025-02-13,67,310!2025-02-13,67,310-->
   - Johari window / unknown area ::@:: unknown to self × unknown to others <!--SR:!2025-02-02,57,310!2025-09-27,239,330-->
@@ -35,14 +35,14 @@ We went over some leadership theory and did some group activities, basically.
   - Johari window / self-discovery ::@:: known to self × unknown to others ← unknown to self × unknown to others <!--SR:!2025-02-07,62,310!2025-02-13,67,310-->
 - 3 feedback models ::@:: commend → recommend → commend, keep → improve → stop → start (KISS), John Heron self and peer feedback <!--SR:!2025-02-13,67,310!2025-09-28,240,330-->
   - commend → recommend → commend ::@:: Suitable for individual feedback. <p> (The sandwich model strikes again...) <!--SR:!2025-02-06,61,310!2025-02-02,57,310-->
-  - keep → improve → stop → start (KISS) ::@:: Suitable for improving team performance. <p> (Isn't this eliminate, reduce, raise, create (ERRC)?) <!--SR:!2025-02-01,56,310!2025-02-05,60,310-->
+  - keep → improve → stop → start (KISS) ::@:: Suitable for improving team performance. <p> (Isn't this eliminate, reduce, raise, create (ERRC)?) <!--SR:!2025-07-25,174,310!2025-02-05,60,310-->
   - John Heron self and peer feedback ::@:: Suitable for gather personal feedback. <!--SR:!2025-02-06,61,310!2025-02-06,61,310-->
 - 6 feedback guidelines ::@:: behavior, comfortable, no buts, own it, sift & sort, timely <!--SR:!2025-02-13,67,310!2025-02-04,59,310-->
   - 6 feedback guidelines / behavior ::@:: Focus on things that can be changed, not personality. <!--SR:!2025-02-13,67,310!2025-02-04,59,310-->
-  - 6 feedback guidelines / comfortable ::@:: Ensure others are comfortable with your feedback. <!--SR:!2025-02-05,60,310!2025-02-01,56,310-->
+  - 6 feedback guidelines / comfortable ::@:: Ensure others are comfortable with your feedback. <!--SR:!2025-02-05,60,310!2025-07-27,176,310-->
   - 6 feedback guidelines / no buts ::@:: Do not counter others' feedback. Simply ignore it personally if you find it unhelpful. <!--SR:!2025-09-16,229,330!2025-02-13,67,310-->
   - 6 feedback guidelines / own it ::@:: Make specific statements about "I". <!--SR:!2025-02-03,58,310!2025-02-05,60,310-->
-  - 6 feedback guidelines / sift & sort ::@:: Personally choose to accept or ignore feedback. <!--SR:!2025-09-29,241,330!2025-02-01,56,310-->
+  - 6 feedback guidelines / sift & sort ::@:: Personally choose to accept or ignore feedback. <!--SR:!2025-09-29,241,330!2025-07-28,177,310-->
   - 6 feedback guidelines / timely ::@:: Sometimes, now may not be the best time. Maybe later? <!--SR:!2025-02-13,67,310!2025-02-13,67,310-->
 - [emotional intelligence](../../../../general/emotional%20intelligence.md) — Daniel Goleman ::@:: empathy, motivation, self-awareness, self-regulation <!--SR:!2025-02-08,63,310!2025-02-04,59,310-->
 - [functional leadership model](../../../../general/functional%20leadership%20model.md) — John Adair ::@:: develop the team, help the individual, progress the task <!--SR:!2025-05-28,128,290!2025-02-08,63,310-->

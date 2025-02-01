@@ -244,7 +244,7 @@ Hong Kong Harbour Area Treatment Scheme Stage I (HATS)
 - Hong Kong Harbour Area Treatment Scheme Stage I ::@:: HATS Stage 1 <!--SR:!2025-03-26,237,330!2025-04-16,251,330-->
   - HATS Stage 1 scheme period ::@:: 1994 to 2001 <!--SR:!2025-10-18,342,290!2025-06-17,213,250-->
   - HATS Stage 1 scheme cost ::@:: HK$8.2 billion <!--SR:!2025-05-15,152,270!2025-05-18,229,270-->
-  - HATS Stage 1 details ::@:: Stonecutters Island Sewage Treatment Works (SCISTW), sewage tunnel of 23.6 km, upgrade 8 preliminary treatment works (PTWs) <!--SR:!2025-06-09,242,270!2025-02-01,181,310-->
+  - HATS Stage 1 details ::@:: Stonecutters Island Sewage Treatment Works (SCISTW), sewage tunnel of 23.6 km, upgrade 8 preliminary treatment works (PTWs) <!--SR:!2025-06-09,242,270!2026-08-17,562,310-->
   - HATS Stage 1 geographic coverage ::@:: collect sewage from Kowloon, Kwai Tsing, Tseung Kwan O, and north-eastern Hong Kong Island to SCISTW <!--SR:!2025-04-15,211,270!2026-09-12,641,330-->
   - HATS Stage 1 coverage in numbers ::@:: 3.5 million people, 75% from harbour area <!--SR:!2025-12-19,384,290!2025-06-01,248,290-->
   - HATS Stage 1 capacities ::@:: current: ~1.4M m<sup>3</sup>/d, max: 1.7M m<sup>3</sup>/d <!--SR:!2026-02-07,459,310!2026-04-04,503,310-->
@@ -321,7 +321,7 @@ Air Pollution: A serious problem in Hong Kong?
   - industrial activities in China's Pearl River Delta
   - land use change affects air circulation
   - air pollution regulations are outdated (16 years old)
-  - 3 major reasons causing air pollution in Hong Kong ::@:: air pollution regulations are outdated (16 years old), industrial activities in China's Pearl River Delta, land use change affects air circulation <!--SR:!2025-02-01,188,310!2025-04-15,236,310-->
+  - 3 major reasons causing air pollution in Hong Kong ::@:: air pollution regulations are outdated (16 years old), industrial activities in China's Pearl River Delta, land use change affects air circulation <!--SR:!2026-09-12,588,310!2025-04-15,236,310-->
 
 ## page 27
 
