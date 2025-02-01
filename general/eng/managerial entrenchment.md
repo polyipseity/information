@@ -1,0 +1,1 @@
+management entrenchment.md
