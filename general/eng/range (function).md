@@ -1,0 +1,1 @@
+range of a function.md
