@@ -107,6 +107,14 @@ def _fix_name_maybe(name: str) -> str:
     )
 
 
+def _fix_filename(
+    filename: str,
+    *,
+    __BAD_CHARACTERS: Pattern[str] = compile(r"[/:\\]"),
+) -> str:
+    return __BAD_CHARACTERS.sub("_", filename)
+
+
 def _markdown_fragment(fragment: str) -> str:
     return (
         fragment
@@ -115,9 +123,7 @@ def _markdown_fragment(fragment: str) -> str:
 
 
 def _markdown_link_target(page: str, fragment: str) -> str:
-    return (
-        f"{page.replace('/', '_').replace(' ', '%20')}.md{_markdown_fragment(fragment)}"
-    )
+    return f"{_fix_filename(page).replace(' ', '%20')}.md{_markdown_fragment(fragment)}"
 
 
 def _tag_affixes(name: str) -> tuple[str, str]:
@@ -472,9 +478,9 @@ async def wiki_html_to_plaintext(
                         "[",
                         f"]({_markdown_link_target(from_filename, _fix_name_maybe(to_fragment))})",
                     )
-                    from_filename, to_filename = from_filename.replace(
-                        "/", "_"
-                    ), to_filename.replace("/", "_")
+                    from_filename, to_filename = _fix_filename(
+                        from_filename
+                    ), _fix_filename(to_filename)
                     if from_filename != to_filename:
                         redirect_file = (
                             _CONVERTED_WIKI_LANGUAGE_DIRECTORY / f"{from_filename}.md"
