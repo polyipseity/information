@@ -79,7 +79,7 @@ for loop_variables in iterable:
   pass # required, otherwise error
 ```
 
-If {@{you want to stop a `for` loop early}@}, use {@{the `break` statement}@}. This will {@{stop the innermost `for` or `while` loop}@}. <!--SR:!2026-03-20,414,371!2025-02-02,89,351!2025-02-02,89,351-->
+If {@{you want to stop a `for` loop early}@}, use {@{the `break` statement}@}. This will {@{stop the innermost `for` or `while` loop}@}. <!--SR:!2026-03-20,414,371!2026-04-07,429,371!2026-04-12,434,371-->
 
 ### while-iteration
 
@@ -90,7 +90,7 @@ while condition:
   statement_block
 ```
 
-The semantics of `while` is {@{that the condition is executed first. If the condition is `true`, the statement block is executed and then we repeat the above process again. If the condition is `false`, the `while` statement ends its execution}@}. <!--SR:!2025-02-02,89,351-->
+The semantics of `while` is {@{that the condition is executed first. If the condition is `true`, the statement block is executed and then we repeat the above process again. If the condition is `false`, the `while` statement ends its execution}@}. <!--SR:!2026-04-11,433,371-->
 
 If {@{there are no statements to be executed in a `while`-iteration}@}, you {@{must still put a properly indented `pass` statement, which does nothing, for that iteration}@}. For example: <!--SR:!2025-02-07,93,357!2025-02-06,92,357-->
 

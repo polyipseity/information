@@ -106,7 +106,7 @@ while (condition)
   statement_block
 ```
 
-The semantics of `while` is {@{that the condition is executed first. If the condition is `true`, the statement block is executed and then we repeat the above process again. If the condition is `false`, the `while` statement ends its execution}@}. <!--SR:!2025-02-02,283,330-->
+The semantics of `while` is {@{that the condition is executed first. If the condition is `true`, the statement block is executed and then we repeat the above process again. If the condition is `false`, the `while` statement ends its execution}@}. <!--SR:!2027-08-29,938,330-->
 
 One can also first run the statement block instead of the condition by using a `do...while` statement, which consists of {@{a statement block and a condition}@}: <!--SR:!2026-12-22,796,330-->
 

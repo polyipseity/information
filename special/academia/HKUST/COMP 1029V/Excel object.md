@@ -13,7 +13,7 @@ tags:
 
 ### `Range`
 
-The `Range` object can refer to {@{a cell or a range}@}. We can pass {@{a cell reference, a range reference, or even a user-defined name: `Range(reference)`, such as `Range("C3")`, `Range("A2:B5")`, `Range("UserDefinedName")`}@}. By default, the worksheet the range is on is {@{the currently active worksheet}@}. <!--SR:!2028-01-17,1125,350!2026-10-09,670,310!2025-02-02,281,330-->
+The `Range` object can refer to {@{a cell or a range}@}. We can pass {@{a cell reference, a range reference, or even a user-defined name: `Range(reference)`, such as `Range("C3")`, `Range("A2:B5")`, `Range("UserDefinedName")`}@}. By default, the worksheet the range is on is {@{the currently active worksheet}@}. <!--SR:!2028-01-17,1125,350!2026-10-09,670,310!2027-08-18,927,330-->
 
 ### `Cells`
 

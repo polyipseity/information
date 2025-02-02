@@ -23,10 +23,10 @@ So many tiring and wet activities... While some of them were fun, I would have m
 We went over some leadership theory and did some group activities, basically.
 
 - [Johari window](../../../../general/Johari%20window.md) ::@:: known to self/unknown to self × known to others/unknown to others (4 combinations) <!--SR:!2025-02-13,67,310!2025-02-04,59,310-->
-  - Johari window / open area ::@:: known to self × known to others <!--SR:!2025-02-02,57,310!2025-10-01,242,330-->
+  - Johari window / open area ::@:: known to self × known to others <!--SR:!2025-10-09,249,330!2025-10-01,242,330-->
   - Johari window / blind area ::@:: unknown to self × known to others <!--SR:!2025-09-21,234,330!2025-09-26,238,330-->
   - Johari window / hidden area ::@:: known to self × unknown to others <!--SR:!2025-02-13,67,310!2025-02-13,67,310-->
-  - Johari window / unknown area ::@:: unknown to self × unknown to others <!--SR:!2025-02-02,57,310!2025-09-27,239,330-->
+  - Johari window / unknown area ::@:: unknown to self × unknown to others <!--SR:!2025-10-08,248,330!2025-09-27,239,330-->
   - Johari window / ask ::@:: known to self ← unknown to self <!--SR:!2025-02-03,58,310!2025-02-05,60,310-->
   - Johari window / tell ::@:: known to others ← unknown to others <!--SR:!2025-02-13,67,310!2025-09-17,230,330-->
   - Johari window / feedback ::@:: known to self × known to others ← unknown to self × known to others <!--SR:!2025-02-07,62,310!2025-02-03,58,310-->
@@ -34,7 +34,7 @@ We went over some leadership theory and did some group activities, basically.
   - Johari window / shared discovery ::@:: known to self × known to others ← unknown to self × unknown to others <!--SR:!2025-02-13,67,310!2025-02-04,59,310-->
   - Johari window / self-discovery ::@:: known to self × unknown to others ← unknown to self × unknown to others <!--SR:!2025-02-07,62,310!2025-02-13,67,310-->
 - 3 feedback models ::@:: commend → recommend → commend, keep → improve → stop → start (KISS), John Heron self and peer feedback <!--SR:!2025-02-13,67,310!2025-09-28,240,330-->
-  - commend → recommend → commend ::@:: Suitable for individual feedback. <p> (The sandwich model strikes again...) <!--SR:!2025-02-06,61,310!2025-02-02,57,310-->
+  - commend → recommend → commend ::@:: Suitable for individual feedback. <p> (The sandwich model strikes again...) <!--SR:!2025-02-06,61,310!2025-10-07,247,330-->
   - keep → improve → stop → start (KISS) ::@:: Suitable for improving team performance. <p> (Isn't this eliminate, reduce, raise, create (ERRC)?) <!--SR:!2025-07-25,174,310!2025-02-05,60,310-->
   - John Heron self and peer feedback ::@:: Suitable for gather personal feedback. <!--SR:!2025-02-06,61,310!2025-02-06,61,310-->
 - 6 feedback guidelines ::@:: behavior, comfortable, no buts, own it, sift & sort, timely <!--SR:!2025-02-13,67,310!2025-02-04,59,310-->

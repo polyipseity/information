@@ -128,7 +128,7 @@ indicates that 60.49% \(≈ 40000000\) of the integers 1 ≤ _n_ ≤ 67108863 ha
 
 ### prevailing interval
 
-For {@{all numbers _N_ and all but _o_\(_N_\)<sup>[\[8\]](#^ref-8)</sup> positive integers _n_ ≤ _N_ \(a "prevailing" majority\)}@}: {@{$$\lambda (n)={\frac {n}{(\ln n)^{\ln \ln \ln n+A+o(1)} } }$$}@} with {@{the constant<sup>[\[7\]](#^ref-7)</sup> $$A:=-1+\sum _{p\in \mathbb {P} }{\frac {\ln p}{(p-1)^{2} } }\approx 0.2269688$$}@} <!--SR:!2025-02-11,35,281!2025-02-02,14,190!2025-03-24,59,261-->
+For {@{all numbers _N_ and all but _o_\(_N_\)<sup>[\[8\]](#^ref-8)</sup> positive integers _n_ ≤ _N_ \(a "prevailing" majority\)}@}: {@{$$\lambda (n)={\frac {n}{(\ln n)^{\ln \ln \ln n+A+o(1)} } }$$}@} with {@{the constant<sup>[\[7\]](#^ref-7)</sup> $$A:=-1+\sum _{p\in \mathbb {P} }{\frac {\ln p}{(p-1)^{2} } }\approx 0.2269688$$}@} <!--SR:!2025-02-11,35,281!2025-02-28,26,190!2025-03-24,59,261-->
 
 ### lower bounds
 

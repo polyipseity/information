@@ -13,7 +13,7 @@ tags:
 >
 > {@{Two goods that are independent have a zero cross price elasticity of demand}@}: {@{as the price of good Y rises, the demand for good X stays constant}@}. <!--SR:!2025-10-22,264,330!2025-02-07,66,310!2025-02-06,65,310-->
 
-__Independent goods__ are {@{[goods](goods.md) that have a zero [cross elasticity of demand](cross%20elasticity%20of%20demand.md)}@}. {@{Changes in the price of one good}@} will {@{have no effect on the [demand](demand.md) for an independent good}@}. Thus {@{independent goods}@} are {@{neither [complements](complementary%20good.md) nor [substitutes](substitute%20good.md)}@}. <!--SR:!2025-02-08,67,310!2025-02-07,66,310!2025-10-25,266,330!2025-02-02,63,310!2025-02-02,63,310-->
+__Independent goods__ are {@{[goods](goods.md) that have a zero [cross elasticity of demand](cross%20elasticity%20of%20demand.md)}@}. {@{Changes in the price of one good}@} will {@{have no effect on the [demand](demand.md) for an independent good}@}. Thus {@{independent goods}@} are {@{neither [complements](complementary%20good.md) nor [substitutes](substitute%20good.md)}@}. <!--SR:!2025-02-08,67,310!2025-02-07,66,310!2025-10-25,266,330!2025-11-03,274,330!2025-11-05,276,330-->
 
 For example, a person's demand for nails is {@{usually independent of his or her demand for bread}@}, since {@{they are two unrelated types of goods}@}. Note that this concept is {@{subjective and depends on the consumer's personal [utility function](utility.md#functions)}@}. <!--SR:!2025-10-24,265,330!2025-02-06,65,310!2025-02-08,67,310-->
 

@@ -58,7 +58,7 @@ __Continuing operations formula__ <p> ::@:: &emsp; $\text{Earnings per share} = 
 
 ### U.S. GAAP
 
-{@{Calculations of diluted EPS under [U.S. GAAP](Generally%20Accepted%20Accounting%20Principles%20(United%20States).md)}@} are described under {@{Statement No. 128 of the Financial Accounting Standards Board \(FAS No. 128\)}@}.<sup>[\[8\]](#^ref-8)</sup> The objective of diluted EPS is to {@{measure the performance of a company over the reporting period}@} {@{taking into account the dilutive effect of potential common stock that could be issued by the company}@}. To {@{compute diluted EPS}@}, {@{both the denominator \(outstanding shares\) and the numerator \(earnings\)}@} may need to be adjusted. <!--SR:!2025-03-30,66,310!2025-02-02,19,250!2025-03-26,63,310!2025-03-17,55,310!2025-03-20,58,310!2025-03-08,44,290-->
+{@{Calculations of diluted EPS under [U.S. GAAP](Generally%20Accepted%20Accounting%20Principles%20(United%20States).md)}@} are described under {@{Statement No. 128 of the Financial Accounting Standards Board \(FAS No. 128\)}@}.<sup>[\[8\]](#^ref-8)</sup> The objective of diluted EPS is to {@{measure the performance of a company over the reporting period}@} {@{taking into account the dilutive effect of potential common stock that could be issued by the company}@}. To {@{compute diluted EPS}@}, {@{both the denominator \(outstanding shares\) and the numerator \(earnings\)}@} may need to be adjusted. <!--SR:!2025-03-30,66,310!2025-03-24,50,250!2025-03-26,63,310!2025-03-17,55,310!2025-03-20,58,310!2025-03-08,44,290-->
 
 _Diluted shares:_ ::@:: To calculate the total number of shares used in the calculation, FASB prescribes using the treasury method to calculate the dilutive effect of any instruments that could result in the issuance of shares, including: <!--SR:!2025-03-03,43,290!2025-03-02,40,290-->
 
@@ -89,7 +89,7 @@ Under {@{[International Financial Reporting Standards](International%20Financial
 
 The earnings per share requirements of {@{U.S. GAAP, FASB ASC 260: EPS}@}, are a result of {@{the FASB's cooperation with the IASB to narrow the difference between IFRS and US GAAP}@}. {@{A few differences}@} remain. <!--SR:!2025-03-19,47,250!2025-03-09,45,290!2025-03-30,66,310-->
 
-The differences that remain are the result of differences in {@{the application of the treasury stock method, the treatment of contracts that may be settled in shares or cash, and contingently issuable shares}@}. <!--SR:!2025-02-02,19,250-->
+The differences that remain are the result of differences in {@{the application of the treasury stock method, the treatment of contracts that may be settled in shares or cash, and contingently issuable shares}@}. <!--SR:!2025-03-24,50,250-->
 
 ## see also
 

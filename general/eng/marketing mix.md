@@ -19,7 +19,7 @@ __Product__ refers to {@{the offered products or services}@}. For example, it in
 
 __Price__ refers to {@{the monetary and psychological costs}@}. For example, it includes {@{bundling, credit terms, discounts, list pricing, etc.}@} <!--SR:!2026-04-25,504,310!2025-04-15,222,310-->
 
-__Place__ refers to {@{the physical locations of sale or distribution channels}@}. For example, it includes {@{channel, distribution, inventory, logistics, etc.}@} <!--SR:!2025-02-02,170,310!2025-07-08,282,290-->
+__Place__ refers to {@{the physical locations of sale or distribution channels}@}. For example, it includes {@{channel, distribution, inventory, logistics, etc.}@} <!--SR:!2027-02-02,730,330!2025-07-08,282,290-->
 
 __Promotion__ refers to {@{the marketing communications used to reach customers}@}. For example, it includes {@{advertising, publicity, sales force, sales promotion, etc.}@} <!--SR:!2025-03-01,190,310!2026-05-26,524,310-->
 

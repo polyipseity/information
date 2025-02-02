@@ -586,7 +586,7 @@ One may check that the [integral](integral.md) is indeed zero by considering the
 
 > [!tip] tips
 >
-> - takeaway ::@:: The Leibniz integral rule can be used to simplify integrands, though be aware of the conditions. Also, [inequalities](inequality%20(mathematics).md) can be used to evaluate [integrals](integral.md) with [limits](limit%20of%20a%20function.md). <!--SR:!2025-02-02,252,288!2025-07-20,392,364-->
+> - takeaway ::@:: The Leibniz integral rule can be used to simplify integrands, though be aware of the conditions. Also, [inequalities](inequality%20(mathematics).md) can be used to evaluate [integrals](integral.md) with [limits](limit%20of%20a%20function.md). <!--SR:!2027-01-29,726,288!2025-07-20,392,364-->
 
 ## references
 

@@ -48,7 +48,7 @@ return await memorize_seq(
 - [define](#define) (green)→::@::←[ideate](#ideate) (yellow) <!--SR:!2025-06-21,296,270!2025-11-05,352,250-->
 - [ideate](#ideate) (yellow)→::@::←[prototype](#prototype) (red) <!--SR:!2025-07-26,324,290!2025-04-02,229,270-->
 - [prototype](#prototype) (red)→::@::←[test](#test) (brown) <!--SR:!2025-05-31,286,290!2026-07-23,578,310-->
-- [test](#test) (brown)→::@::←_(end)_ <!--SR:!2025-04-15,290,330!2025-02-02,234,330-->
+- [test](#test) (brown)→::@::←_(end)_ <!--SR:!2025-04-15,290,330!2027-03-14,770,330-->
 
 <!--/pytextgen-->
 
@@ -117,13 +117,13 @@ return await memorize_seq(
 <!--pytextgen generate section="0a8b"--><!-- The following content is generated at 2024-03-22T20:40:48.789313+08:00. Any edits will be overridden! -->
 
 - _(begin)_→::@::←(empathize) assume a beginner's mindset <!--SR:!2025-02-11,199,270!2025-04-10,286,330-->
-- (empathize) assume a beginner's mindset→::@::←(empathize) extreme users: find amplified pains and gains <!--SR:!2025-02-02,221,290!2026-03-13,502,310-->
+- (empathize) assume a beginner's mindset→::@::←(empathize) extreme users: find amplified pains and gains <!--SR:!2026-11-05,641,290!2026-03-13,502,310-->
 - (empathize) extreme users: find amplified pains and gains→::@::←(empathize) interview for empathy: interview with two <!--SR:!2025-03-19,219,270!2025-02-05,147,250-->
 - (empathize) interview for empathy: interview with two→::@::←(empathize) interview preparation: prepare, prioritize, and refine questions <!--SR:!2025-10-03,349,270!2025-04-05,282,330-->
 - (empathize) interview preparation: prepare, prioritize, and refine questions→::@::←(empathize) what, how, why: from the concrete to the abstract <!--SR:!2025-03-27,65,130!2025-03-06,163,210-->
 - (empathize) what, how, why: from the concrete to the abstract→::@::←(empathize/define) journey map: dissect a user process to gain insights <!--SR:!2025-02-03,7,130!2025-03-01,43,170-->
 - (empathize/define) journey map: dissect a user process to gain insights→::@::←(empathize/define) story share-and-capture: after interviews, exchange stories with the team to gain further insights <!--SR:!2025-05-15,259,250!2025-10-19,322,230-->
-- (empathize/define) story share-and-capture: after interviews, exchange stories with the team to gain further insights→::@::←(define) 2×2 matrix: plot a _xy_ graph to reveal relations and for visualization <!--SR:!2025-02-20,30,130!2025-02-02,24,130-->
+- (empathize/define) story share-and-capture: after interviews, exchange stories with the team to gain further insights→::@::←(define) 2×2 matrix: plot a _xy_ graph to reveal relations and for visualization <!--SR:!2025-02-20,30,130!2025-03-05,31,130-->
 - (define) 2×2 matrix: plot a _xy_ graph to reveal relations and for visualization→::@::←(define) design guidelines: a strategy to solve your design challenge, abstract enough to allow for multiple solutions <!--SR:!2025-07-28,329,270!2025-03-05,67,130-->
 - (define) design guidelines: a strategy to solve your design challenge, abstract enough to allow for multiple solutions→::@::←(define) point of view (POV): make your design challenge into an actionable statement <!--SR:!2025-03-04,183,230!2025-02-24,172,210-->
 - (define) point of view (POV): make your design challenge into an actionable statement→::@::←(define) why-how laddering: from need, asking "Why?" to follow the chain of reasoning to the root need, and then find other needs by asking "How?" to follow back down the chain <!--SR:!2025-04-18,78,130!2025-03-13,42,170-->

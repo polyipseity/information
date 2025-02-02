@@ -36,7 +36,7 @@ For sequences, {@{inversions according to the element-based definition are not u
 
 For example {@{${\mathtt {inv} }(\langle 1,2,\dots ,n\rangle )=0$}@} since {@{the sequence is ordered}@}. Also, {@{when $n=2m$ is even}@}, {@{${\mathtt {inv} }(\langle m+1,m+2,\dots ,2m,1,2,\dots ,m\rangle )=m^{2}$}@} \(because {@{each pair $(1\leq i\leq m<j\leq 2m)$ is an inversion}@}\). This last example shows that {@{a set that is intuitively "nearly sorted" can still have a quadratic number of inversions}@}. <!--SR:!2025-08-09,194,312!2025-02-23,68,312!2025-02-23,68,312!2025-02-03,48,292!2025-02-23,68,312!2025-02-16,64,312-->
 
-{@{The inversion number}@} is {@{the number of crossings in the arrow diagram of the permutation}@},<sup>[\[6\]](#^ref-6)</sup> {@{the permutation's [Kendall tau distance](Kendall%20tau%20distance.md) from the identity permutation}@}, and {@{the sum of each of the inversion related vectors defined below}@}. <!--SR:!2025-02-16,64,312!2025-02-02,47,292!2025-05-26,132,292!2025-02-23,68,312-->
+{@{The inversion number}@} is {@{the number of crossings in the arrow diagram of the permutation}@},<sup>[\[6\]](#^ref-6)</sup> {@{the permutation's [Kendall tau distance](Kendall%20tau%20distance.md) from the identity permutation}@}, and {@{the sum of each of the inversion related vectors defined below}@}. <!--SR:!2025-02-16,64,312!2025-08-14,193,312!2025-05-26,132,292!2025-02-23,68,312-->
 
 {@{Other measures of sortedness}@} include {@{the minimum number of elements that can be deleted from the sequence to yield a fully sorted sequence}@}, {@{the number and lengths of sorted "runs" within the sequence}@}, {@{the Spearman footrule \(sum of distances of each element from its sorted position\)}@}, and {@{the smallest number of exchanges needed to sort the sequence}@}.<sup>[\[11\]](#^ref-11)</sup> {@{Standard [comparison sorting](comparison%20sort.md) algorithms}@} can be {@{adapted to compute the inversion number in time O\(_n_ log _n_\)}@}.<sup>[\[12\]](#^ref-12)</sup> <!--SR:!2025-02-16,64,312!2025-02-14,62,312!2025-02-21,66,312!2025-06-18,137,292!2025-02-23,68,312!2025-02-20,65,312!2025-02-19,64,312-->
 
@@ -71,7 +71,7 @@ __Right inversion count $r$, often called _[Lehmer code](lehmer%20code.md)_:__ :
 
 > {@{![The six possible inversions of a 4-element permutation](../../archives/Wikimedia%20Commons/2-element%20subsets%20of%204%20elements;%20array,%20hexagonal.svg)}@}
 >
-> {@{The six possible inversions of a 4-element permutation}@} <!--SR:!2025-02-23,68,312!2025-02-02,47,292-->
+> {@{The six possible inversions of a 4-element permutation}@} <!--SR:!2025-02-23,68,312!2025-08-09,188,312-->
 
 {@{The following sortable table}@} shows {@{the 24 permutations of four elements \(in the $\pi$ column\)}@} with {@{their place-based inversion sets \(in the p-b column\), inversion related vectors \(in the $v$, $l$, and $r$ columns\), and inversion numbers \(in the \# column\)}@}. \({@{The columns with smaller print and no heading}@} are {@{reflections of the columns next to them}@}, and can be used to {@{sort them in [colexicographic order](lexicographic%20order.md#colexicographic%20order)}@}.\) <!--SR:!2025-02-13,61,312!2025-02-14,62,312!2025-06-04,128,292!2025-02-16,64,312!2025-02-14,62,312!2025-04-29,111,292-->
 

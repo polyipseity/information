@@ -113,7 +113,7 @@ See [Colosseum](../../../../general/Colosseum.md).
 
 See [Eiffel Tower](../../../../general/Eiffel%20Tower.md).
 
-- description ::@:: tower on the Champ de Mars in Paris, France <!--SR:!2025-02-02,220,347!2027-07-08,933,350-->
+- description ::@:: tower on the Champ de Mars in Paris, France <!--SR:!2027-03-05,761,347!2027-07-08,933,350-->
 - height ::@:: architectural: 300 m, tip, 330 m, top floor: 276 m <!--SR:!2025-06-06,281,317!2028-02-15,1110,350-->
 - image ::@:: ![Eiffel Tower image](../../../../archives/Wikimedia%20Commons/Tour%20Eiffel%20Wikimedia%20Commons%20(cropped).jpg) <!--SR:!2026-03-07,544,400!2026-03-13,549,400-->
 - shape ::@:: exponential <!--SR:!2025-03-03,272,350!2028-03-21,1160,355-->
@@ -264,7 +264,7 @@ See [Stonecutters Bridge](../../../../general/Stonecutters%20Bridge.md).
 - bridge type ::@:: [cable-stayed bridge](../../../../general/cable-stayed%20bridge.md)<!-- flashcard ca1fa4c4-b487-40a0-9948-a808866a25eb --> <!--SR:!2026-09-19,645,361!2026-01-22,510,401-->
 - description ::@:: bridge in Hong Kong <!--SR:!2027-05-21,883,365!2026-01-18,514,397-->
 - image ::@:: ![Stonecutters Bridge image](../../../../archives/Wikimedia%20Commons/Stonecutters'%20Bridge.jpg) <!--SR:!2026-01-03,492,400!2025-05-03,286,380-->
-- length ::@:: 1596 m, longest span: 1018 m <!--SR:!2025-02-02,9,160!2025-03-13,259,370-->
+- length ::@:: 1596 m, longest span: 1018 m <!--SR:!2025-02-15,13,160!2025-03-13,259,370-->
 
 ## Sutong Yangtze River Bridge
 
@@ -273,7 +273,7 @@ See [Sutong Yangtze River Bridge](../../../../general/Sutong%20Yangtze%20River%2
 - bridge type ::@:: [cable-stayed bridge](../../../../general/cable-stayed%20bridge.md)<!-- flashcard 30c74f35-b995-41af-8d8c-189c93fb1dfa --> <!--SR:!2025-05-24,285,360!2025-08-03,345,380-->
 - description ::@:: [cable-stayed bridge](../../../../general/cable-stayed%20bridge.md) in China <!--SR:!2025-04-08,239,310!2025-05-26,316,364-->
 - image ::@:: ![Sutong Yangtze River Bridge image](../../../../archives/Wikimedia%20Commons/Sutong%20Yangtze%20River%20Bridge.JPG) <!--SR:!2025-07-18,330,380!2025-05-14,295,380-->
-- length ::@:: 8206 m, longest span: 1088 m <!--SR:!2025-03-24,68,197!2025-02-02,212,355-->
+- length ::@:: 8206 m, longest span: 1088 m <!--SR:!2025-03-24,68,197!2027-02-28,756,355-->
 
 ## Taipei 101
 
