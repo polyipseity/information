@@ -1,0 +1,16 @@
+assignment:
+  comments: {}
+  content: ''
+  grade:
+    entered: 100
+    graded anonymously: null
+    possible: 100
+  id: 310333
+  properties: {}
+  submissions:
+  - datetime: ''
+  title: HW2
+course:
+  id: 54709
+  name: COMP1942 (L1)
+type: submission/HKUST Canvas

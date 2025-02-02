@@ -35,13 +35,13 @@ If {@{_F_ is a diagram of type _J_ in _C_}@}, the following statements are equiv
 
 - (annotation: cone) ::@:: ψ is a cone from _N_ to _F_ <!--SR:!2025-02-05,17,312!2025-02-04,16,290-->
 - (annotation: cone, natural transformation) ::@:: ψ is a [natural transformation](natural%20transformation.md) from Δ\(_N_\) to _F_ <!--SR:!2025-03-31,57,310!2025-02-05,17,312-->
-- (annotation: cone, comma category) ::@:: \(_N_, ψ\) is an object in the [comma category](comma%20category.md) \(Δ ↓ _F_\) (annotation: note that this is actually a slice category, meaning the _F_ on the right is more accurately the functor from __1__ to _F_) <!--SR:!2025-02-03,15,290!2025-03-22,50,312-->
+- (annotation: cone, comma category) ::@:: \(_N_, ψ\) is an object in the [comma category](comma%20category.md) \(Δ ↓ _F_\) (annotation: note that this is actually a slice category, meaning the _F_ on the right is more accurately the functor that maps the only object in __1__ to _F_) <!--SR:!2025-02-03,15,290!2025-03-22,50,312-->
 
 {@{The dual statements}@} are also equivalent: <!--SR:!2025-02-04,16,290-->
 
 - (annotation: co-cone) ::@:: ψ is a co-cone from _F_ to _N_ <!--SR:!2025-02-04,16,290!2025-02-03,15,290-->
 - (annotation: co-cone, natural transformation) ::@:: ψ is a [natural transformation](natural%20transformation.md) from _F_ to Δ\(_N_\) <!--SR:!2025-02-05,17,312!2025-02-04,16,290-->
-- (annotation: co-cone, comma category) ::@:: \(_N_, ψ\) is an object in the [comma category](comma%20category.md) \(_F_ ↓ Δ\) (annotation: note that this is actually a co-slice category, meaning the _F_ on the left is more accurately the functor from __1__ to _F_) <!--SR:!2025-02-03,15,290!2025-02-04,16,290-->
+- (annotation: co-cone, comma category) ::@:: \(_N_, ψ\) is an object in the [comma category](comma%20category.md) \(_F_ ↓ Δ\) (annotation: note that this is actually a co-slice category, meaning the _F_ on the left is more accurately the functor that maps the only object in __1__ to _F_) <!--SR:!2025-02-03,15,290!2025-02-04,16,290-->
 
 {@{These statements can all be verified}@} by {@{a straightforward application of the definitions}@}. Thinking of {@{cones as natural transformations}@} we see that they are {@{just morphisms in _C_<sup>_J_</sup> with source \(or target\) a constant functor}@}. <!--SR:!2025-02-03,15,290!2025-02-03,15,290!2025-02-03,15,290!2025-02-03,15,290-->
 

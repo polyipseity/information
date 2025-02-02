@@ -41,7 +41,7 @@ Giffen goods {@{should not be confused with [Veblen goods](Veblen%20good.md)}@}:
 
 > As {@{Mr. Giffen has pointed out}@}, {@{a rise in the price of bread}@} makes {@{so large a drain on the resources of the poorer labouring families}@} and {@{raises the marginal utility of money to them so much}@} that {@{they are forced to curtail their consumption of meat and the more expensive farinaceous foods}@}: and, {@{bread being still the cheapest food which they can get and will take}@}, they {@{consume more, and not less of it}@}.
 >
-> — Alfred Marshall, _Principles of Economics_ \(1895 ed.\)<sup>[\[3\]](#^ref-3)</sup> <!--SR:!2025-02-06,58,310!2025-02-11,63,310!2025-02-25,76,329!2025-10-06,246,330!2025-02-13,65,310!2025-02-12,64,310!2025-02-12,64,310-->
+> —&hairsp;Alfred Marshall, _Principles of Economics_ \(1895 ed.\)<sup>[\[3\]](#^ref-3)</sup> <!--SR:!2025-02-06,58,310!2025-02-11,63,310!2025-02-25,76,329!2025-10-06,246,330!2025-02-13,65,310!2025-02-12,64,310!2025-02-12,64,310-->
 
 There are {@{three necessary conditions for this situation to arise}@}:<sup>[\[4\]](#^ref-4)</sup> <!--SR:!2025-02-06,58,310-->
 

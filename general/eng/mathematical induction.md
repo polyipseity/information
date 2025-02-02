@@ -17,7 +17,7 @@ __Mathematical induction__ is {@{a method for [proving](mathematical%20proof.md)
 
 > Mathematical induction proves that {@{we can climb as high as we like on a ladder}@}, by proving that {@{we can climb onto the bottom rung (the __basis__) and that from each rung we can climb up to the next one (the __step__)}@}.
 >
-> — _[Concrete Mathematics](Concrete%20Mathematics.md)_, page 3 margins. <!--SR:!2025-08-28,245,330!2025-08-30,247,330-->
+> —&hairsp;_[Concrete Mathematics](Concrete%20Mathematics.md)_, page 3 margins. <!--SR:!2025-08-28,245,330!2025-08-30,247,330-->
 
 A __proof by induction__ consists of {@{two cases}@}. The first, {@{the __base case__, proves the statement for $n=0$ without assuming any knowledge of other cases}@}. The second case, {@{the __induction step__, proves that _if_ the statement holds for any given case $n=k$, _then_ it must also hold for the next case $n=k+1$}@}. These two steps establish that {@{the statement holds for every natural number $n$}@}. The base case does not {@{necessarily begin with $n=0$, but often with $n=1$, and possibly with any fixed natural number $n=N$}@}, establishing {@{the truth of the statement for all natural numbers $n\geq N$}@}. <!--SR:!2025-09-07,255,330!2025-08-29,247,330!2025-09-01,249,330!2025-05-03,151,310!2025-08-29,246,330!2025-06-20,177,310-->
 

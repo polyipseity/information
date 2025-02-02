@@ -107,6 +107,14 @@ def _fix_name_maybe(name: str) -> str:
     )
 
 
+def _fix_filename(
+    filename: str,
+    *,
+    __BAD_CHARACTERS: Pattern[str] = compile(r"[/:\\]"),
+) -> str:
+    return __BAD_CHARACTERS.sub("_", filename)
+
+
 def _markdown_fragment(fragment: str) -> str:
     return (
         fragment
@@ -115,9 +123,7 @@ def _markdown_fragment(fragment: str) -> str:
 
 
 def _markdown_link_target(page: str, fragment: str) -> str:
-    return (
-        f"{page.replace('/', '_').replace(' ', '%20')}.md{_markdown_fragment(fragment)}"
-    )
+    return f"{_fix_filename(page).replace(' ', '%20')}.md{_markdown_fragment(fragment)}"
 
 
 def _tag_affixes(name: str) -> tuple[str, str]:
@@ -157,10 +163,12 @@ async def wiki_html_to_plaintext(
 
     if "reference" in classes:
         if refs:
-            ref_content = __REF_CONTENT_REGEX.search("".join(ele.stripped_strings))
-            ref_content = ref_content[1] if ref_content else 0
-            return f"<sup>[{escape_markdown(f'[{ref_content}]')}]({_markdown_fragment(f'^ref-{ref_content}')})</sup>"
-        return ""
+            ref_str = "".join(ele.stripped_strings)
+            if ref_content := __REF_CONTENT_REGEX.search(ref_str):
+                ref_content = ref_content[1]
+                return f"<sup>[{escape_markdown(f'[{ref_content}]')}]({_markdown_fragment(f'^ref-{ref_content}')})</sup>"
+        else:
+            return ""
 
     process_strings: Callable[[str], str] = lambda strings: strings
     joiner = ""
@@ -470,9 +478,9 @@ async def wiki_html_to_plaintext(
                         "[",
                         f"]({_markdown_link_target(from_filename, _fix_name_maybe(to_fragment))})",
                     )
-                    from_filename, to_filename = from_filename.replace(
-                        "/", "_"
-                    ), to_filename.replace("/", "_")
+                    from_filename, to_filename = _fix_filename(
+                        from_filename
+                    ), _fix_filename(to_filename)
                     if from_filename != to_filename:
                         redirect_file = (
                             _CONVERTED_WIKI_LANGUAGE_DIRECTORY / f"{from_filename}.md"
@@ -585,9 +593,11 @@ async def main() -> None:
             session=session,
             refs=refs,
         )
-    output = output.replace(
-        "\xa0", " "  # replace non-breaking spaces with spaces
-    ).strip()
+    output = (
+        output.replace("\xa0", " ")  # replace non-breaking spaces with spaces
+        .replace("\u200a", "&hairsp;")  # replace hair spaces with its HTML entity
+        .strip()
+    )
 
     if out_to_archive:
         try:

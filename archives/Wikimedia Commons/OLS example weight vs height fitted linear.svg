@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="100%" height="100%" viewBox="1390 -759 480 300">
+ <title>OLS example weight vs height fitted linear</title>
+ <desc>Graph of points and linear least squares fit in the simple linear regression numerical example by CMG Lee. In the SVG file, hover over a point to display its coordinates.</desc>
+ <style type="text/css">
+.main { font-family:Helvetica,Arial,sans-serif; font-size:20px; text-anchor:middle;
+        fill:#000000; stroke:none; }
+text  { stroke:none; cursor:default; }
+.var  { font-style:italic; }
+.grid { stroke:#000000; stroke-opacity:0.2; }
+ </style>
+ <defs>
+  <pattern id="pattern_hatch" patternUnits="userSpaceOnUse" width="4" height="4">
+   <path d="M 0,0 H 4 V 4 H 0" fill="#cc0000"/>
+   <path d="M 1,0 H 3 L 0,3 V 1 M 1,4 H 3 L 4,3 V 1" fill="#ff9999"/>
+  </pattern>
+  <pattern id="pattern_grid_1" patternUnits="userSpaceOnUse" width="10" height="10">
+   <rect class="grid" width="9999" height="9999" fill="none"/>
+  </pattern>
+  <pattern id="pattern_grid_5" patternUnits="userSpaceOnUse" width="50" height="50">
+   <rect class="grid" width="9999" height="9999" fill="url(#pattern_grid_1)"/>
+  </pattern>
+  <pattern id="pattern_grid_10" patternUnits="userSpaceOnUse" width="100" height="100">
+   <rect class="grid" width="9999" height="9999" fill="url(#pattern_grid_5)"/>
+  </pattern>
+  <rect id="frame" x="1450" y="-750" width="400" height="250"/>
+  <clipPath id="clip_frame"><use xlink:href="#frame"/></clipPath>
+  <circle id="marker" cx="0" cy="0" r="3" fill="#000099"/>
+ </defs>
+ <circle cx="0" cy="0" r="99999" fill="#ffffff"/>
+ <g class="main">
+  <use xlink:href="#frame" fill="url(#pattern_grid_10)" stroke="#000000"/>
+  <g stroke="#ff0000" clip-path="url(#clip_frame)">
+   <path d="M 1450,-497.824  L 1850,-742.912"/>
+   <path d="M 1450,-496.8137 L 1850,-743.5121" stroke-dasharray="4,4"/>
+  </g>
+  <text transform="translate(1650,-640) rotate(-30)" y="0.7ex" fill="#cc0000"
+   ><tspan class="var">y</tspan><tspan>&#160;= 61.272</tspan><tspan class="var">x</tspan
+   ><tspan>&#160;&#8722; 39.062</tspan></text>
+  <text transform="translate(1600,-565) rotate(-30)" y="0.7ex" fill="url(#pattern_hatch)"
+   ><tspan class="var">y</tspan><tspan>&#160;= 61.6746</tspan><tspan class="var">x</tspan
+   ><tspan>&#160;&#8722; 39.7468</tspan></text>
+  <use xlink:href="#marker" transform="translate(1470,-522.1)"><title>(147, 52.21)</title></use>
+  <use xlink:href="#marker" transform="translate(1500,-531.2)"><title>(150, 53.12)</title></use>
+  <use xlink:href="#marker" transform="translate(1520,-544.8)"><title>(152, 54.48)</title></use>
+  <use xlink:href="#marker" transform="translate(1550,-558.4)"><title>(155, 55.84)</title></use>
+  <use xlink:href="#marker" transform="translate(1570,-572.0)"><title>(157, 57.20)</title></use>
+  <use xlink:href="#marker" transform="translate(1600,-585.7)"><title>(160, 58.57)</title></use>
+  <use xlink:href="#marker" transform="translate(1630,-599.3)"><title>(163, 59.93)</title></use>
+  <use xlink:href="#marker" transform="translate(1650,-612.9)"><title>(165, 61.29)</title></use>
+  <use xlink:href="#marker" transform="translate(1680,-631.1)"><title>(168, 63.11)</title></use>
+  <use xlink:href="#marker" transform="translate(1700,-644.7)"><title>(170, 64.47)</title></use>
+  <use xlink:href="#marker" transform="translate(1730,-662.8)"><title>(173, 66.28)</title></use>
+  <use xlink:href="#marker" transform="translate(1750,-681.0)"><title>(175, 68.10)</title></use>
+  <use xlink:href="#marker" transform="translate(1780,-699.2)"><title>(178, 69.92)</title></use>
+  <use xlink:href="#marker" transform="translate(1800,-721.9)"><title>(180, 72.19)</title></use>
+  <use xlink:href="#marker" transform="translate(1830,-744.6)"><title>(183, 74.46)</title></use>
+  <text transform="translate(1428,-750)" y="0.7ex">75</text>
+  <text transform="translate(1428,-700)" y="0.7ex">70</text>
+  <text transform="translate(1428,-650)" y="0.7ex">65</text>
+  <text transform="translate(1428,-600)" y="0.7ex">60</text>
+  <text transform="translate(1428,-550)" y="0.7ex">55</text>
+  <text transform="translate(1428,-502)" y="0.7ex">50</text>
+  <text transform="translate(1400,-628) rotate(-90)"
+        y="0.7ex"><tspan class="var">y</tspan><tspan>, kg</tspan></text>
+  <text transform="translate(1650,-470)"
+        y="0.7ex"><tspan class="var">x</tspan><tspan>, m</tspan></text>
+  <text transform="translate(1450,-486)" y="0.7ex">1.45</text>
+  <text transform="translate(1500,-486)" y="0.7ex">1.50</text>
+  <text transform="translate(1550,-486)" y="0.7ex">1.55</text>
+  <text transform="translate(1600,-486)" y="0.7ex">1.60</text>
+  <text transform="translate(1650,-486)" y="0.7ex">1.65</text>
+  <text transform="translate(1700,-486)" y="0.7ex">1.70</text>
+  <text transform="translate(1750,-486)" y="0.7ex">1.75</text>
+  <text transform="translate(1800,-486)" y="0.7ex">1.80</text>
+  <text transform="translate(1850,-486)" y="0.7ex">1.85</text>
+ </g>
+</svg>

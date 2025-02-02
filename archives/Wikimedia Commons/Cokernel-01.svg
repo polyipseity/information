@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" 
+   width="200px" height="200px" viewBox="0 0 200 215">
+<title>Cokernel</title>
+<defs>
+	<marker id="EndArrow" viewBox="0 0 10 10" refX="10" refY="5"
+		markerUnits="strokeWidth" orient="auto"
+		markerWidth="10" markerHeight="10">
+		<polyline points="10,5 0,10 4,5 0,0 10,5" fill="black" />
+	</marker>
+</defs>
+<g stroke="black" stroke-width="1" marker-end="url(#EndArrow)" >
+	<line x1="20" y1="180" x2="180" y2="20" />
+	<line x1="185" x2="185" y1="25" y2="180" />
+	<line x1="20" y1="190" x2="175" y2="190" />
+</g>
+<g  font-style="italic" stroke-width=".1" font-family="DejaVu Sans" font-weight="normal">
+<text font-size="20">
+	<tspan x="2" y="195">X</tspan>
+	<tspan dx="160">Q</tspan>
+	<tspan dx="-15" dy="-175">Y</tspan>
+</text>
+<text font-size="17">
+	<tspan x="80" y="110">f</tspan>
+	<tspan dx="100" dy="10">q</tspan>
+	<tspan dx="-100" dy="83">0</tspan>
+	<tspan dy="5" font-size="12">XQ</tspan>
+</text>
+</g>
+</svg>

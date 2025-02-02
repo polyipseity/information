@@ -1,0 +1,1 @@
+marginal product of labor.md
