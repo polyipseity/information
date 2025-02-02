@@ -410,7 +410,7 @@ def parse_properties(
 
 @final
 class ParseCommentResult(NamedTuple):
-    id: str
+    id: int | str
     content: str
     author: str
     datetime: datetime | str
@@ -437,6 +437,8 @@ def parse_comments(
                     id = " ".join(comment_ele.get_attribute_list("id", ["comment--1"]))[
                         len("comment-") :
                     ]
+                    with suppress(ValueError):
+                        id = int(id)
 
                     content_ele = comment_ele.select_one(".comment_content")
                     content = "" if content_ele is None else html_to_text(content_ele)
@@ -485,6 +487,8 @@ def parse_comments(
                     id = " ".join(
                         comment_ele.get_attribute_list("id", ["submission_comment_-1"])
                     )[len("submission_comment_") :]
+                    with suppress(ValueError):
+                        id = int(id)
 
                     content_ele = comment_ele.select_one(".comment")
                     content = "" if content_ele is None else html_to_text(content_ele)
@@ -533,7 +537,7 @@ def convert(
         date_match := __DATE_REGEX.search(html_text)
     ):
         return None
-    course_ID, assign_ID, submission_ID = (
+    course_id, assign_id, stu_id = (
         int(url_match[1]),
         int(url_match[2]),
         int(url_match[3]) if url_match[3] else -1,
@@ -546,16 +550,14 @@ def convert(
         return None
 
     page_type = (
-        AssignmentPageType.ASSIGNMENT
-        if submission_ID == -1
-        else AssignmentPageType.SUBMISSION
+        AssignmentPageType.ASSIGNMENT if stu_id == -1 else AssignmentPageType.SUBMISSION
     )
     soup = BeautifulSoup(html_text, "html.parser")
 
     if (
         (
             course_name_ele := soup.select_one(
-                f'*[href="https://canvas.ust.hk/courses/{course_ID}"]'
+                f'*[href="https://canvas.ust.hk/courses/{course_id}"]'
             )
         )
         is None
@@ -575,16 +577,21 @@ def convert(
     )
 
     data: Mapping[str, object] = {  # type: ignore
+        "type": "submission/HKUST Canvas",
         "course": {
-            "id": course_ID,
+            "id": course_id,
             "name": course_name,
         },
         "assignment": {
-            "id": assign_ID,
+            "id": assign_id,
             "title": title,
             "content": content,
             "properties": properties,
-            "submissions": ({"id": submission_ID, "datetime": submission_datetime},),
+            "submissions": (
+                {
+                    "datetime": submission_datetime,
+                },
+            ),
             "grade": {
                 "possible": possible_grade,
                 "entered": entered_grade,
