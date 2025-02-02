@@ -7,6 +7,7 @@ from datetime import datetime, timedelta
 from enum import StrEnum
 from io import StringIO
 from re import Pattern, compile as re_compile
+from sys import stderr
 from typing import Callable, Collection, Mapping, NamedTuple, Sequence, final
 from yaml import safe_dump
 
@@ -622,7 +623,7 @@ async def main() -> int:
 
     if result is None:
         return 1
-    print(result, end="")
+    print(result, file=stderr, end="")
 
     return 0
 
