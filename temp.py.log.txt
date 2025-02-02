@@ -1,0 +1,67 @@
+Failed: private\special\academia\HKUST\COMP 2211\assignments\assignment 1\Assignment 1_ Captcha using clustering.html
+Failed: private\special\academia\HKUST\COMP 2211\assignments\assignment 1\solution\COMP 2211 Programming Assignment 1_ Grade Appeal.html
+Failed: private\special\academia\HKUST\COMP 2211\assignments\assignment 1\solution\COMP2211 PA1 Marks.html
+Failed: private\special\academia\HKUST\COMP 2211\assignments\assignment 2\solution\COMP 2211 Programming Assignment 2｜ Grade Appeal.html
+Failed: private\special\academia\HKUST\COMP 2211\assignments\lab 1\COMP 2211 Lab 1.html
+Failed: private\special\academia\HKUST\COMP 2211\assignments\lab 10\COMP 2211 Lab 10｜ Reinforcement Learning.html
+Failed: private\special\academia\HKUST\COMP 2211\assignments\lab 2\COMP 2211 Lab 2_ Naive Bayes.html
+Failed: private\special\academia\HKUST\COMP 2211\assignments\lab 2\solution\COMP 2211 Lab 2_ Naive Bayes - common mistakes.html
+Failed: private\special\academia\HKUST\COMP 2211\assignments\lab 3\COMP 2211 Lab 3｜ K-Nearest Neighbors Classifier.html
+Failed: private\special\academia\HKUST\COMP 2211\assignments\lab 4\COMP 2211 Lab 4_ K-Means .html
+Failed: private\special\academia\HKUST\COMP 2211\assignments\lab 5\COMP 2211 Lab 5｜ Simple Perceptron.html
+Failed: private\special\academia\HKUST\COMP 2211\assignments\lab 7\COMP 2211 Lab 7｜ Digital Image Processing Fundamentals.html
+Failed: private\special\academia\HKUST\DASC 2210\Hands-On Activity on Data Cleaning\assignment.html
+Failed: private\special\academia\HKUST\ENGG 1400\assignments\PERMA assessment and reflection\Assignment 3 - PERMA Assessment and Reflection.html
+Failed: private\special\academia\HKUST\ISOM 2020\assignments\lab 5\Lab 5 Submission.html
+Failed: private\special\academia\HKUST\LANG 1403A\video assignment 2 - individual multimodal video\Center for Language Education.html
+Failed: private\special\academia\HKUST\LANG 1403A\writing assignment 1 - academic blog practice\W1 submission.html
+Failed: private\special\academia\HKUST\LANG 1403A\writing assignment 2 - academic blog writing\Center for Language Education.html
+Failed: special\academia\HKUST\COMP 1029J\exercise for lesson 2\Exercise for Lesson 2.html
+Failed: special\academia\HKUST\COMP 1029J\exercise for lesson 3\Exercise for Lesson 3.html
+Failed: special\academia\HKUST\COMP 1029J\exercise for lesson 4\Exercise for Lesson 4.html
+Failed: special\academia\HKUST\COMP 1029J\exercise for lesson 5\Exercise for Lesson 5.html
+Failed: special\academia\HKUST\COMP 1029P\exercise for lesson 2\Exercise for Lesson 2.html
+Failed: special\academia\HKUST\COMP 1029P\exercise for lesson 3\Exercise for Lesson 3.html
+Failed: special\academia\HKUST\COMP 1029P\exercise for lesson 3\attachments\Review Questions - Lesson 3.1.html
+Failed: special\academia\HKUST\COMP 1029P\exercise for lesson 3\attachments\Review Questions - Lesson 3.2.html
+Failed: special\academia\HKUST\COMP 1029P\exercise for lesson 4\Exercise for Lesson 4.html
+Failed: special\academia\HKUST\COMP 1029P\exercise for lesson 5\Exercise for Lesson 5.html
+Failed: special\academia\HKUST\COMP 1029P\exercise for lesson 5\attachments\Lesson 5.3 - Drawing Trees.html
+Failed: special\academia\HKUST\COMP 1029V\exercise for lesson 2\Exercise for Lesson 2.html
+Failed: special\academia\HKUST\COMP 1029V\exercise for lesson 3\Exercise for Lesson 3.html
+Failed: special\academia\HKUST\COMP 1029V\exercise for lesson 4\Exercise for Lesson 4.html
+Failed: special\academia\HKUST\COMP 1029V\exercise for lesson 5\Exercise for Lesson 5.html
+Failed: special\academia\HKUST\COMP 1942\project\Project_ COMP1942 (L1) - Exploring and Visualizing Data.html
+Failed: special\academia\HKUST\COMP 2011\assignment 1\COMP2011 PA1.html
+Failed: special\academia\HKUST\COMP 2011\assignment 1\sample\COMP2011 PA1 - How to run the sample executable_.html
+Failed: special\academia\HKUST\COMP 2011\assignment 2\COMP2011 PA2.html
+Failed: special\academia\HKUST\COMP 2011\assignment 2\sample\COMP2011 PA1 - How to run the sample executable_.html
+Failed: special\academia\HKUST\COMP 2011\assignment 3\COMP2011 PA3 - Memory Leak Checking.html
+Failed: special\academia\HKUST\COMP 2011\assignment 3\COMP2011 PA3.html
+Failed: special\academia\HKUST\COMP 2011\lab 1\COMP2011 Lab 1.html
+Failed: special\academia\HKUST\COMP 2011\lab 2\COMP2011 Lab 2.html
+Failed: special\academia\HKUST\COMP 2011\lab 3\COMP2011 Lab 3.html
+Failed: special\academia\HKUST\COMP 2011\lab 4\COMP2011 Lab 4.html
+Failed: special\academia\HKUST\COMP 2011\lab 5\COMP2011 Lab 5.html
+Failed: special\academia\HKUST\COMP 2011\lab 6\COMP2011 2023F Lab6 Alien Word Parsing.html
+Failed: special\academia\HKUST\COMP 2011\lab 7\COMP2011 Lab 7.html
+Failed: special\academia\HKUST\COMP 2011\lab 8\COMP2011 Lab 8.html
+Failed: special\academia\HKUST\COMP 2012\VS Code Installation and Usage.html
+Failed: special\academia\HKUST\COMP 2012\assignment 1\COMP 2012 Assignment 1_ Food Ordering System.html
+Failed: special\academia\HKUST\COMP 2012\assignment 1\solution\Marking Scheme and Appeal Procedure.html
+Failed: special\academia\HKUST\COMP 2012\assignment 2\COMP 2012 Assignment 2_ Fairy Chess Pieces.html
+Failed: special\academia\HKUST\COMP 2012\assignment 2\solution\Marking Scheme and Appeal Procedure.html
+Failed: special\academia\HKUST\COMP 2012\assignment 3\COMP 2012 Assignment 3_ Pet Adoption Center Management System (PACMS).html
+Failed: special\academia\HKUST\COMP 2012\assignment 3\solution\Marking Scheme and Appeal Procedure.html
+Failed: special\academia\HKUST\COMP 2012\lab 1\COMP 2012 Lab 1_ Class Basics.html
+Failed: special\academia\HKUST\COMP 2012\lab 2\COMP 2012 Lab 2_ Constructor & Destructor.html
+Failed: special\academia\HKUST\COMP 2012\lab 3\COMP 2012 Lab 3_ Music Management.html
+Failed: special\academia\HKUST\COMP 2012\lab 4\COMP 2012 Lab 4_ Order Management.html
+Failed: special\academia\HKUST\COMP 2012\lab 5\Lab 5 Implementing a Zoo Management System.html
+Failed: special\academia\HKUST\COMP 2012\lab 6\Lab 6 Mathematical Foundations of Neural Networks.html
+Failed: special\academia\HKUST\COMP 2012\lab 7\COMP 2012 Lab 7_ Decision Trees and Random Forests.html
+Failed: special\academia\HKUST\COMP 2012\lab 8\Lab 8 Shopping Cart Manager.html
+Failed: special\academia\HKUST\Robotics Team\SW 2023\tutorial 3\PWM.html
+Failed: special\academia\HKUST\Robotics Team\SW 2023\tutorial 3\homework\homework.html
+Failed: special\academia\HKUST\Robotics Team\SW 2023\tutorial 4\Bluetooth problem solving (win11).html
+Failed: special\academia\HKUST\Robotics Team\SW 2023\tutorial 4\UART.html
