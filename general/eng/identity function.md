@@ -17,40 +17,40 @@ tags:
 
 # identity function
 
-- Not to be confused with {@{[Null function](null%20function.md) or [Empty function](empty%20function.md#standard%20functions)}@}.
+- Not to be confused with {@{[Null function](null%20function.md) or [Empty function](empty%20function.md#standard%20functions)}@}. <!--SR:!2025-02-06,4,270-->
 
 > {@{![[Graph](graph%20of%20a%20function.md) of the identity function on the [real numbers](real%20number.md)](../../archives/Wikimedia%20Commons/Function-x.svg)}@}
 >
-> [Graph](graph%20of%20a%20function.md) of {@{the identity function on the [real numbers](real%20number.md)}@}
+> [Graph](graph%20of%20a%20function.md) of {@{the identity function on the [real numbers](real%20number.md)}@} <!--SR:!2025-02-06,4,270!2025-02-06,4,270-->
 
-In {@{[mathematics](mathematics.md)}@}, {@{an __identity function__, also called an __identity relation__, __identity map__ or __identity transformation__}@}, is {@{a [function](function%20(mathematics).md) that always returns the value that was used as its [argument](argument%20of%20a%20function.md), unchanged}@}. That is, when {@{_f_ is the identity function}@}, the [equality](equality%20(mathematics).md) {@{_f_\(_x_\) = _x_ is true for all values of _x_ to which _f_ can be applied}@}.
+In {@{[mathematics](mathematics.md)}@}, {@{an __identity function__, also called an __identity relation__, __identity map__ or __identity transformation__}@}, is {@{a [function](function%20(mathematics).md) that always returns the value that was used as its [argument](argument%20of%20a%20function.md), unchanged}@}. That is, when {@{_f_ is the identity function}@}, the [equality](equality%20(mathematics).md) {@{_f_\(_x_\) = _x_ is true for all values of _x_ to which _f_ can be applied}@}. <!--SR:!2025-02-06,4,270!2025-02-06,4,270!2025-02-06,4,270!2025-02-06,4,270!2025-02-06,4,270-->
 
 ## definition
 
-Formally, if {@{_X_ is a [set](set%20(mathematics).md)}@}, the identity function _f_ on _X_ is defined to be {@{a function with _X_ as its [domain](domain%20of%20a%20function.md) and [codomain](codomain.md)}@}, satisfying
+Formally, if {@{_X_ is a [set](set%20(mathematics).md)}@}, the identity function _f_ on _X_ is defined to be {@{a function with _X_ as its [domain](domain%20of%20a%20function.md) and [codomain](codomain.md)}@}, satisfying <!--SR:!2025-02-06,4,270!2025-02-06,4,270-->
 
-{@{_f_\(_x_\) = _x_   for all elements _x_}@} in _X_.<sup>[\[1\]](#^ref-1)</sup>
+{@{_f_\(_x_\) = _x_   for all elements _x_}@} in _X_.<sup>[\[1\]](#^ref-1)</sup> <!--SR:!2025-02-06,4,270-->
 
-In other words, {@{the function value _f_\(_x_\) in the codomain _X_}@} is {@{always the same as the input element _x_ in the domain _X_}@}. The identity function on _X_ is clearly {@{an [injective function](injective%20function.md) as well as a [surjective function](surjective%20function.md) \(its codomain is also its [range](range%20(function).md)\), so it is [bijective](bijection.md)}@}.<sup>[\[2\]](#^ref-2)</sup>
+In other words, {@{the function value _f_\(_x_\) in the codomain _X_}@} is {@{always the same as the input element _x_ in the domain _X_}@}. The identity function on _X_ is clearly {@{an [injective function](injective%20function.md) as well as a [surjective function](surjective%20function.md) \(its codomain is also its [range](range%20(function).md)\), so it is [bijective](bijection.md)}@}.<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2025-02-06,4,270!2025-02-06,4,270!2025-02-06,4,270-->
 
-{@{The identity function _f_ on _X_}@} is often denoted {@{by id<sub>_X_</sub>}@}.
+{@{The identity function _f_ on _X_}@} is often denoted {@{by id<sub>_X_</sub>}@}. <!--SR:!2025-02-06,4,270!2025-02-06,4,270-->
 
-In {@{[set theory](set%20theory.md)}@}, where a function is defined as {@{a particular kind of [binary relation](binary%20relation.md)}@}, the identity function is given by {@{the [identity relation](identity%20relation.md#particular%20homogeneous%20relations), or _diagonal_ of _X_}@}.<sup>[\[3\]](#^ref-3)</sup>
+In {@{[set theory](set%20theory.md)}@}, where a function is defined as {@{a particular kind of [binary relation](binary%20relation.md)}@}, the identity function is given by {@{the [identity relation](identity%20relation.md#particular%20homogeneous%20relations), or _diagonal_ of _X_}@}.<sup>[\[3\]](#^ref-3)</sup> <!--SR:!2025-02-06,4,270!2025-02-06,4,270!2025-02-06,4,270-->
 
 ## algebraic properties
 
-If {@{_f_ : _X_ → _Y_ is any function}@}, then {@{_f_ ∘ id<sub>_X_</sub> = _f_ = id<sub>_Y_</sub> ∘ _f_, where "∘" denotes [function composition](function%20composition.md)}@}.<sup>[\[4\]](#^ref-4)</sup> In particular, {@{id<sub>_X_</sub>}@} is {@{the [identity element](identity%20element.md) of the [monoid](monoid.md) of all functions from _X_ to _X_ \(under function composition\)}@}.
+If {@{_f_ : _X_ → _Y_ is any function}@}, then {@{_f_ ∘ id<sub>_X_</sub> = _f_ = id<sub>_Y_</sub> ∘ _f_, where "∘" denotes [function composition](function%20composition.md)}@}.<sup>[\[4\]](#^ref-4)</sup> In particular, {@{id<sub>_X_</sub>}@} is {@{the [identity element](identity%20element.md) of the [monoid](monoid.md) of all functions from _X_ to _X_ \(under function composition\)}@}. <!--SR:!2025-02-06,4,270!2025-02-06,4,270!2025-02-06,4,270!2025-02-06,4,270-->
 
-Since {@{the identity element of a monoid is [unique](unique%20(mathematics).md)}@},<sup>[\[5\]](#^ref-5)</sup> one can alternately define {@{the identity function on _M_ to be this identity element}@}. Such a definition generalizes to the concept of {@{an [identity morphism](identity%20morphism.md#identity) in [category theory](category%20theory.md), where the [endomorphisms](endomorphism.md) of _M_ need not be functions}@}.
+Since {@{the identity element of a monoid is [unique](unique%20(mathematics).md)}@},<sup>[\[5\]](#^ref-5)</sup> one can alternately define {@{the identity function on _M_ to be this identity element}@}. Such a definition generalizes to the concept of {@{an [identity morphism](identity%20morphism.md#identity) in [category theory](category%20theory.md), where the [endomorphisms](endomorphism.md) of _M_ need not be functions}@}. <!--SR:!2025-02-06,4,270!2025-02-06,4,270!2025-02-06,4,270-->
 
 ## properties
 
-- The identity function is a [linear operator](linear%20map.md) ::@:: when applied to [vector spaces](vector%20space.md).<sup>[\[6\]](#^ref-6)</sup>
-- In an _n_-[dimensional](dimension%20(vector%20space).md) [vector space](vector%20space.md) the identity function ::@:: is represented by the [identity matrix](identity%20matrix.md) _I_<sub>_n_</sub>, regardless of the [basis](basis%20(linear%20algebra).md) chosen for the space.<sup>[\[7\]](#^ref-7)</sup>
-- The identity function on the positive [integers](integer.md) ::@:: is a [completely multiplicative function](completely%20multiplicative%20function.md) \(essentially multiplication by 1\), considered in [number theory](number%20theory.md).<sup>[\[8\]](#^ref-8)</sup>
-- In a [metric space](metric%20space.md) the identity function ::@:: is trivially an [isometry](isometry.md). An object without any [symmetry](symmetry.md) has as its [symmetry group](symmetry%20group.md) the [trivial group](trivial%20group.md) containing only this isometry \(symmetry type C<sub>1</sub>\).<sup>[\[9\]](#^ref-9)</sup>
-- In a [topological space](topological%20space.md), ::@:: the identity function is always [continuous](continuous%20function.md#continuous%20functions%20between%20topological%20spaces).<sup>[\[10\]](#^ref-10)</sup>
-- The identity function ::@:: is [idempotent](idempotence.md).<sup>[\[11\]](#^ref-11)</sup>
+- The identity function is a [linear operator](linear%20map.md) ::@:: when applied to [vector spaces](vector%20space.md).<sup>[\[6\]](#^ref-6)</sup> <!--SR:!2025-02-06,4,270!2025-02-06,4,270-->
+- In an _n_-[dimensional](dimension%20(vector%20space).md) [vector space](vector%20space.md) the identity function ::@:: is represented by the [identity matrix](identity%20matrix.md) _I_<sub>_n_</sub>, regardless of the [basis](basis%20(linear%20algebra).md) chosen for the space.<sup>[\[7\]](#^ref-7)</sup> <!--SR:!2025-02-06,4,270!2025-02-06,4,270-->
+- The identity function on the positive [integers](integer.md) ::@:: is a [completely multiplicative function](completely%20multiplicative%20function.md) \(essentially multiplication by 1\), considered in [number theory](number%20theory.md).<sup>[\[8\]](#^ref-8)</sup> <!--SR:!2025-02-06,4,270!2025-02-06,4,270-->
+- In a [metric space](metric%20space.md) the identity function ::@:: is trivially an [isometry](isometry.md). An object without any [symmetry](symmetry.md) has as its [symmetry group](symmetry%20group.md) the [trivial group](trivial%20group.md) containing only this isometry \(symmetry type C<sub>1</sub>\).<sup>[\[9\]](#^ref-9)</sup> <!--SR:!2025-02-06,4,270!2025-02-06,4,270-->
+- In a [topological space](topological%20space.md), ::@:: the identity function is always [continuous](continuous%20function.md#continuous%20functions%20between%20topological%20spaces).<sup>[\[10\]](#^ref-10)</sup> <!--SR:!2025-02-06,4,270!2025-02-06,4,270-->
+- The identity function ::@:: is [idempotent](idempotence.md).<sup>[\[11\]](#^ref-11)</sup> <!--SR:!2025-02-06,4,270!2025-02-06,4,270-->
 
 ## see also
 
