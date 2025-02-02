@@ -146,7 +146,7 @@ The content is in teaching order.
 - [jazz](../../../../general/jazz.md)
   - [jazz (word)](../../../../general/jazz%20(word).md) ::@:: No one definitively knows where the word comes from. But there are some theories... <!--SR:!2025-02-20,18,335!2025-02-20,18,335-->
     - jazz (word) / older spelling ::@:: It used to be called this, but it could be changed to "ass" without the "j". <!--SR:!2025-02-20,18,335!2025-02-20,18,335-->
-    - jazz (word) / theories ::@:: an African word that means "speed up", jasmine perfume that prostitutes wore in the red-light district of New Orleans <!--SR:!2025-02-15,13,315!2025-02-20,18,335-->
+    - jazz (word) / theories ::@:: an African word that means "speed up", jasmine perfume that prostitutes wore in the red-light district of New Orleans, a word meaning "procreation" <!--SR:!2025-02-15,13,315!2025-02-20,18,335-->
 - Victrola ::@:: The first recordings on the Victrola came out in 1901. Jazz recording did not come up until 1917. <!--SR:!2025-02-15,13,315!2025-02-15,13,315-->
 - [Livery Stable Blues](../../../../general/Livery%20Stable%20Blues.md) ::@:: first ever jazz recording by the Original Dixieland Jass Band (all white musicians) in 1917, composed by Nick LaRocca <!--SR:!2025-02-20,18,335!2025-02-19,17,335-->
 - assignments: [Sydney Bechet](questions.md#Sydney%20Bechet)

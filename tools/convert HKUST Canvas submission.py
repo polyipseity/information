@@ -257,8 +257,9 @@ def parse_grade(
             entered_grade = entered_grade_ele.text.strip()
             possible_grade = (
                 ""
-                if entered_grade_ele.next_sibling is None
-                else entered_grade_ele.next_sibling.text.strip().split(maxsplit=1)[-1]
+                if (possible_grade_ele := entered_grade_ele.next_sibling) is None
+                or not (possible_grade_text := possible_grade_ele.text.strip())
+                else possible_grade_text.split(maxsplit=1)[-1]
             )
             graded_anonymously = None
 
@@ -555,16 +556,15 @@ def convert(
     soup = BeautifulSoup(html_text, "html.parser")
 
     if (
-        (
-            course_name_ele := soup.select_one(
-                f'*[href="https://canvas.ust.hk/courses/{course_id}"]'
-            )
+        course_name_ele := soup.select_one(
+            f'*[href="https://canvas.ust.hk/courses/{course_id}"]'
         )
-        is None
-        or (title_content := parse_title_and_content(soup, page_type=page_type)) is None
-        or (grade := parse_grade(soup, page_type=page_type)) is None
-    ):
+    ) is None or (
+        title_content := parse_title_and_content(soup, page_type=page_type)
+    ) is None:
         return None
+    if (grade := parse_grade(soup, page_type=page_type)) is None:
+        grade = ParseGradeResult("", "", None)
 
     course_name = course_name_ele.text.strip()
     title, content = title_content
