@@ -32,7 +32,7 @@ tags:
 # initial and terminal objects
 
 - "{@{Zero object}@}" redirects here. For {@{zero object in an algebraic structure}@}, see {@{[zero object \(algebra\)](zero%20object%20(algebra).md)}@}.
-- "{@{Terminal element}@}" redirects here. For {@{the project management concept}@}, see {@{[work breakdown structure](work%20breakdown%20structure.md)}@}. <!--SR:!2025-04-18,75,332!2025-04-11,69,317!2025-04-06,65,317!2025-04-06,65,317!2025-04-17,74,332!2025-02-03,18,319-->
+- "{@{Terminal element}@}" redirects here. For {@{the project management concept}@}, see {@{[work breakdown structure](work%20breakdown%20structure.md)}@}. <!--SR:!2025-04-18,75,332!2025-04-11,69,317!2025-04-06,65,317!2025-04-06,65,317!2025-04-17,74,332!2025-04-26,82,339-->
 
 In {@{[category theory](category%20theory.md), a branch of [mathematics](mathematics.md)}@}, {@{an __initial object__}@} of {@{a [category](category%20(mathematics).md) _C_ is an object _I_ in _C_ such that for every object _X_ in _C_, there exists precisely one [morphism](morphism.md) _I_ → _X_}@}. <!--SR:!2025-04-05,64,317!2025-03-31,60,317!2025-04-11,69,317-->
 
@@ -94,7 +94,7 @@ Initial and terminal objects may also {@{be characterized in terms of [universal
 ### other properties
 
 - The [endomorphism monoid](endomorphism%20monoid.md) of an initial or terminal object _I_ is trivial: ::@:: End\(_I_\) = Hom\(_I_, _I_\) = { id<sub>_I_</sub> }. <!--SR:!2025-04-10,68,317!2025-03-30,59,317-->
-- If a category _C_ has a zero object 0, ::@:: then for any pair of objects _X_ and _Y_ in _C_, the unique composition _X_ → 0 → _Y_ is a [zero morphism](zero%20morphism.md) from _X_ to _Y_. <!--SR:!2025-02-08,7,277!2025-02-03,18,319-->
+- If a category _C_ has a zero object 0, ::@:: then for any pair of objects _X_ and _Y_ in _C_, the unique composition _X_ → 0 → _Y_ is a [zero morphism](zero%20morphism.md) from _X_ to _Y_. <!--SR:!2025-02-08,7,277!2025-04-02,58,319-->
 
 ## references
 

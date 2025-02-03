@@ -83,7 +83,7 @@ If {@{you want to stop a `for` loop early}@}, use {@{the `break` statement}@}. T
 
 ### while-iteration
 
-In Python, `while` can also perform iteration. A `while` statement consists of {@{a condition and a statement block}@}: <!--SR:!2025-02-03,90,351-->
+In Python, `while` can also perform iteration. A `while` statement consists of {@{a condition and a statement block}@}: <!--SR:!2026-04-17,438,371-->
 
 ```Python
 while condition:
@@ -101,4 +101,4 @@ while condition:
 
 If {@{you want to stop a `while` loop early in the loop}@}, use {@{the `break` statement}@}. This will {@{stop the innermost `for` or `while` loop}@}. <!--SR:!2026-03-18,413,371!2026-03-31,423,371!2026-03-30,422,371-->
 
-ISOM 2020 note: {@{We have only learnt `while True`. ONLY USE `while True` in your exercises, labs, and exams.}@} If {@{you really need a condition to stop the loop}@}, use {@{`break` under an `if` statement checking for said condition}@}. <!--SR:!2026-03-21,415,371!2025-02-03,90,351!2026-03-25,419,371-->
+ISOM 2020 note: {@{We have only learnt `while True`. ONLY USE `while True` in your exercises, labs, and exams.}@} If {@{you really need a condition to stop the loop}@}, use {@{`break` under an `if` statement checking for said condition}@}. <!--SR:!2026-03-21,415,371!2026-04-18,439,371!2026-03-25,419,371-->

@@ -705,7 +705,7 @@ The content is in teaching order.
   - simple linear estimator / _R_: confidence level of estimators ::@:: If unknown error variance, then use `confint(lm(<y>~<x>), level=<confidence level>))`. <!--SR:!2025-04-14,90,377!2025-02-27,55,357-->
   - simple linear estimator / _R_: hypothesis testing of estimators ::@:: `summary(<model>)`, where `<model>` can be obtained by `lm(<y>~<x>[, data=<dataframe>])`. But note that the null hypothesis are respectively $\beta_0 = 0$ and $\beta_1 = 0$. <!--SR:!2025-05-17,123,397!2025-04-07,89,377-->
   - simple linear estimator / prediction ::@:: $$\hat y_{\mathrm{new} } = a + b x_{\mathrm{new} } \,,$$ which is a _point estimate_ of $y_{\mathrm{new} }$. <!--SR:!2025-05-18,124,397!2025-05-18,124,397-->
-    - simple linear estimator / prediction / interval ::@:: $$y_{\mathrm{new} } \pm t_{n - 2, \alpha / 2} \sqrt{s_{\varepsilon, n - 2}^2 \left(1 + \frac 1 n + \frac {(x_{\mathrm{new} } - \overline x)^2} {S_{XX} } \right)}$$ <!--SR:!2025-02-03,26,297!2025-04-15,96,377-->
+    - simple linear estimator / prediction / interval ::@:: $$y_{\mathrm{new} } \pm t_{n - 2, \alpha / 2} \sqrt{s_{\varepsilon, n - 2}^2 \left(1 + \frac 1 n + \frac {(x_{\mathrm{new} } - \overline x)^2} {S_{XX} } \right)}$$ <!--SR:!2025-04-24,80,297!2025-04-15,96,377-->
   - simple linear estimator / _R_: prediction ::@:: For a point estimate, use `predict(<model>, data.frame(x=<new x>))`. For an interval estimate, use `predict(<model>, data.frame(x=<new x>), interval="prediction", level=<confidence level>)`. <!--SR:!2025-03-15,66,357!2025-03-16,67,357-->
 
 ## week 13 tutorial

@@ -59,7 +59,7 @@ Demand curve is {@{a graphical presentation of the "[law of demand](law%20of%20d
 
 1. Negative demand — ::@:: Consumers dislike the product and may even pay to avoid it. <!--SR:!2025-02-15,68,324!2025-02-15,68,324-->
 2. Nonexistent demand — ::@:: Consumers may be unaware of or uninterested in the product. <!--SR:!2025-02-20,72,324!2025-02-22,74,324-->
-3. Latent demand — ::@:: Consumers may share a strong need that cannot be satisfied by an existing product. <!--SR:!2025-02-03,58,310!2025-02-16,69,324-->
+3. Latent demand — ::@:: Consumers may share a strong need that cannot be satisfied by an existing product. <!--SR:!2025-10-13,252,330!2025-02-16,69,324-->
 4. Declining demand — ::@:: Consumers begin to buy the product less frequently or not at all. <!--SR:!2025-02-11,65,324!2025-02-23,75,324-->
 5. Irregular demand — ::@:: Consumer purchases vary on a seasonal, monthly, weekly, daily, or even hourly basis. <!--SR:!2025-08-11,202,324!2025-02-20,72,324-->
 6. Full demand — ::@:: Consumers are adequately buying all products put into the marketplace. <!--SR:!2025-02-22,74,324!2025-02-17,70,324-->
@@ -126,7 +126,7 @@ Demand management has {@{a defined set of processes, capabilities and recommende
 
 {@{__Seasonal demand:__}@} Some services {@{do not have a year-round demand, and might be required only at a certain period of time}@}. Seasons all over the world are {@{diverse}@}. Seasonal demands create {@{many problems for service organizations}@}, such as {@{idling the capacity, fixed cost and excess expenditure on marketing and promotions}@}. Strategies used by firms to overcome this may include {@{nurturing the service consumption habit of customers so as to make the demand unseasonal}@}, or {@{recognizing markets elsewhere in the world during the off-season period}@}. Hence, this presents {@{an opportunity to target different markets with the appropriate season in different parts of the world}@}. For example, the need for Christmas cards {@{comes around once a year}@}. <!--SR:!2025-02-12,66,324!2025-02-23,75,324!2025-02-23,75,324!2025-02-16,69,324!2025-06-18,148,304!2025-02-11,65,324!2025-02-11,65,324!2025-02-11,65,324!2025-02-17,70,324-->
 
-{@{[Demand patterns](demand%20patterns.md)}@} need to be {@{studied in different segments of the market}@}. Service organizations need to {@{constantly study changing demands related to their service offerings over various time periods}@}. They have to {@{develop a system to chart these demand fluctuations}@}, which helps them in {@{predicting the demand cycles}@}. Demands {@{do fluctuate randomly}@}; therefore, {@{they should be followed on a daily, weekly or monthly basis}@}. <!--SR:!2025-02-03,58,310!2025-02-17,70,324!2025-02-22,74,324!2025-02-15,68,324!2025-02-15,68,324!2025-02-23,75,324!2025-02-15,68,324-->
+{@{[Demand patterns](demand%20patterns.md)}@} need to be {@{studied in different segments of the market}@}. Service organizations need to {@{constantly study changing demands related to their service offerings over various time periods}@}. They have to {@{develop a system to chart these demand fluctuations}@}, which helps them in {@{predicting the demand cycles}@}. Demands {@{do fluctuate randomly}@}; therefore, {@{they should be followed on a daily, weekly or monthly basis}@}. <!--SR:!2025-10-14,253,330!2025-02-17,70,324!2025-02-22,74,324!2025-02-15,68,324!2025-02-15,68,324!2025-02-23,75,324!2025-02-15,68,324-->
 
 ## criticism
 

@@ -457,7 +457,7 @@ testing materials
 - contracting→::@::←designing temporary structures <!--SR:!2026-01-17,372,215!2025-04-22,236,295-->
 - designing temporary structures→::@::←logistics <!--SR:!2025-11-28,421,340!2025-06-25,197,277-->
 - logistics→::@::←planning <!--SR:!2025-06-11,237,294!2025-11-05,401,335-->
-- planning→::@::←procuring materials <!--SR:!2027-04-19,815,337!2025-02-03,175,277-->
+- planning→::@::←procuring materials <!--SR:!2027-04-19,815,337!2026-12-10,675,297-->
 - procuring materials→::@::←quality assurance <!--SR:!2026-07-03,526,300!2025-03-23,213,281-->
 - quality assurance→::@::←quality control <!--SR:!2026-11-12,742,377!2027-06-11,879,372-->
 - quality control→::@::←safety engineering <!--SR:!2025-02-12,195,301!2025-05-11,168,235-->

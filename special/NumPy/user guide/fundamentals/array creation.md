@@ -14,12 +14,12 @@ tags:
 
 ## introduction
 
-There are {@{6 general mechanisms}@} for creating arrays: <!--SR:!2025-02-03,74,330-->
+There are {@{6 general mechanisms}@} for creating arrays: <!--SR:!2026-01-12,343,350-->
 
-1. Conversion ::@:: from other Python structures (i.e. lists and tuples) <!--SR:!2025-02-03,74,330!2026-01-06,338,350-->
+1. Conversion ::@:: from other Python structures (i.e. lists and tuples) <!--SR:!2026-01-13,344,350!2026-01-06,338,350-->
 2. Intrinsic ::@:: NumPy array creation functions (e.g. arange, ones, zeros, etc.) <!--SR:!2025-02-04,75,330!2025-10-18,270,330-->
 3. Replicating, joining, or mutating ::@:: existing arrays <!--SR:!2025-07-30,190,310!2025-12-25,327,350-->
-4. Reading ::@:: arrays from disk, either from standard or custom formats <!--SR:!2025-02-03,74,330!2025-02-04,75,330-->
+4. Reading ::@:: arrays from disk, either from standard or custom formats <!--SR:!2026-01-12,343,350!2025-02-04,75,330-->
 5. Creating arrays ::@:: from raw bytes through the use of strings or buffers <!--SR:!2025-10-07,247,330!2025-08-02,193,310-->
 6. Use of ::@:: special library functions (e.g., random) <!--SR:!2025-02-05,76,330!2025-02-05,76,330-->
 
@@ -50,7 +50,7 @@ Traceback (most recent call last):
 OverflowError: Python integer 128 out of bounds for int8
 ```
 
-{@{An 8-bit signed integer}@} represents {@{integers from -128 to 127}@}. Assigning {@{the `int8` array to integers outside of this range}@} results in {@{overflow}@}. This feature can {@{often be misunderstood}@}. If {@{you perform calculations with mismatching `dtypes`}@}, you can {@{get unwanted results}@}, for example: <!--SR:!2025-02-04,75,330!2025-02-05,76,330!2025-02-03,74,330!2025-02-05,76,330!2025-02-05,76,330!2025-10-27,276,330!2025-10-26,275,330-->
+{@{An 8-bit signed integer}@} represents {@{integers from -128 to 127}@}. Assigning {@{the `int8` array to integers outside of this range}@} results in {@{overflow}@}. This feature can {@{often be misunderstood}@}. If {@{you perform calculations with mismatching `dtypes`}@}, you can {@{get unwanted results}@}, for example: <!--SR:!2025-02-04,75,330!2025-02-05,76,330!2026-01-09,340,350!2025-02-05,76,330!2025-02-05,76,330!2025-10-27,276,330!2025-10-26,275,330-->
 
 ```Python
 >>> import numpy as np
@@ -66,11 +66,11 @@ signed c: [-3 -3 -3] int64
 
 Notice when {@{you perform operations with two arrays of the same `dtype`: `uint32`}@}, the resulting array is {@{the same type}@}. When {@{you perform operations with different `dtype`}@}, NumPy will {@{assign a new type that satisfies all of the array elements involved in the computation, here `uint32` and `int32` can both be represented in as `int64`}@}. <!--SR:!2025-11-07,285,330!2026-01-02,335,350!2025-11-14,292,330!2025-10-23,273,330-->
 
-The default NumPy behavior is to {@{create arrays in either 32 or 64-bit signed integers (platform dependent and matches C `long` size) or double precision floating point numbers}@}. If {@{you expect your integer arrays to be a specific type}@}, then {@{you need to specify the `dtype` while you create the array}@}. <!--SR:!2025-02-03,74,330!2025-11-08,286,330!2026-01-03,335,350-->
+The default NumPy behavior is to {@{create arrays in either 32 or 64-bit signed integers (platform dependent and matches C `long` size) or double precision floating point numbers}@}. If {@{you expect your integer arrays to be a specific type}@}, then {@{you need to specify the `dtype` while you create the array}@}. <!--SR:!2026-01-10,341,350!2025-11-08,286,330!2026-01-03,335,350-->
 
 ## intrinsic NumPy array creation functions
 
-NumPy has {@{over 40 built-in functions for creating arrays as laid out in the [array creation routines](../../../API%20reference/generated/array%20creation%20routines.md)}@}. These functions {@{can be split into roughly three categories}@}, based on the dimension of the array they create: <!--SR:!2025-02-03,74,330!2025-10-26,276,330-->
+NumPy has {@{over 40 built-in functions for creating arrays as laid out in the [array creation routines](../../../API%20reference/generated/array%20creation%20routines.md)}@}. These functions {@{can be split into roughly three categories}@}, based on the dimension of the array they create: <!--SR:!2026-01-13,344,350!2025-10-26,276,330-->
 
 1. 1D arrays
 2. 2D arrays
@@ -102,7 +102,7 @@ Note: {@{best practice for [`numpy.arange`](../../API%20reference/generated/nump
 array([1. ,  1.6,  2.2,  2.8,  3.4,  4. ])
 ```
 
-{@{The advantage of this creation function}@} is that {@{you guarantee the number of elements and the starting and end point}@}. {@{The previous `arange(start, stop, step)`}@} will {@{not include the value `stop`}@}. <!--SR:!2025-11-06,285,330!2025-10-24,274,330!2025-12-31,333,350!2025-02-03,74,330-->
+{@{The advantage of this creation function}@} is that {@{you guarantee the number of elements and the starting and end point}@}. {@{The previous `arange(start, stop, step)`}@} will {@{not include the value `stop`}@}. <!--SR:!2025-11-06,285,330!2025-10-24,274,330!2025-12-31,333,350!2026-01-13,344,350-->
 
 ### 2D array creation functions
 
@@ -140,7 +140,7 @@ array([[0, 1, 0, 0],
 array([1, 4])
 ```
 
-{@{`numpy.vander(x, n)`}@} defines {@{a Vandermonde matrix as a 2D NumPy array}@}. {@{Each column of the Vandermonde matrix}@} is {@{a decreasing power of the input 1D array or list or tuple, `x` where the highest polynomial order is `n-1`}@}. (annotation: Given {@{a 1D array `x`}@}, the {@{_m_-th (1-based) column is the 1D array `x ** (n - m)`}@}) This array creation routine is helpful in {@{generating linear least squares models}@}, as such: <!--SR:!2025-10-25,274,330!2025-08-08,198,310!2025-10-19,271,330!2025-02-03,74,330!2025-02-03,74,330!2025-10-22,272,330!2026-01-04,336,350-->
+{@{`numpy.vander(x, n)`}@} defines {@{a Vandermonde matrix as a 2D NumPy array}@}. {@{Each column of the Vandermonde matrix}@} is {@{a decreasing power of the input 1D array or list or tuple, `x` where the highest polynomial order is `n-1`}@}. (annotation: Given {@{a 1D array `x`}@}, the {@{_m_-th (1-based) column is the 1D array `x ** (n - m)`}@}) This array creation routine is helpful in {@{generating linear least squares models}@}, as such: <!--SR:!2025-10-25,274,330!2025-08-08,198,310!2025-10-19,271,330!2025-09-29,238,330!2026-01-10,341,350!2025-10-22,272,330!2026-01-04,336,350-->
 
 ```Python
 >>> import numpy as np
@@ -164,7 +164,7 @@ array([[ 1,  1,  1,  1],
 
 ### general ndarray creation functions
 
-{@{The ndarray creation functions}@} e.g. {@{[`numpy.ones`](../../API%20reference/generated/numpy.ones.md#numpy.ones "numpy.ones"), [`numpy.zeros`](../../API%20reference/generated/numpy.zeros.md#numpy.zeros "numpy.zeros"), and [`random`](../../API%20reference/generated/numpy.random.Generator.random.md#numpy.random.Generator.random "numpy.random.Generator.random")}@} define {@{arrays based upon the desired shape}@}. The ndarray creation functions can {@{create arrays with any dimension by specifying how many dimensions and length along that dimension in a tuple or list}@}. <!--SR:!2025-10-20,272,330!2025-02-03,74,330!2025-10-09,261,330!2025-08-14,202,310-->
+{@{The ndarray creation functions}@} e.g. {@{[`numpy.ones`](../../API%20reference/generated/numpy.ones.md#numpy.ones "numpy.ones"), [`numpy.zeros`](../../API%20reference/generated/numpy.zeros.md#numpy.zeros "numpy.zeros"), and [`random`](../../API%20reference/generated/numpy.random.Generator.random.md#numpy.random.Generator.random "numpy.random.Generator.random")}@} define {@{arrays based upon the desired shape}@}. The ndarray creation functions can {@{create arrays with any dimension by specifying how many dimensions and length along that dimension in a tuple or list}@}. <!--SR:!2025-10-20,272,330!2026-01-11,342,350!2025-10-09,261,330!2025-08-14,202,310-->
 
 {@{[`numpy.zeros`](../../API%20reference/generated/numpy.zeros.md#numpy.zeros "numpy.zeros")}@} will {@{create an array filled with 0 values with the specified shape}@}. The default dtype is {@{`float64`}@}: <!--SR:!2025-11-13,291,330!2025-02-04,75,330!2025-10-18,270,330-->
 
@@ -271,11 +271,11 @@ array([[ 1.,  1.,  1.,  0.],
        [ 0.,  0.,  0., -4.]])
 ```
 
-Other routines {@{use similar syntax to join ndarrays}@}. Check the routine's documentation for further examples and syntax. <!--SR:!2025-02-03,74,330-->
+Other routines {@{use similar syntax to join ndarrays}@}. Check the routine's documentation for further examples and syntax. <!--SR:!2026-01-12,343,350-->
 
 ## reading arrays from disk, either from standard or custom formats
 
-This is {@{the most common case of large array creation}@}. The details {@{depend greatly on the format of data on disk}@}. This section gives {@{general pointers on how to handle various formats}@}. For {@{more detailed examples of IO}@} look at {@{[how to read and write files](../how-tos/reading%20and%20writing%20files.md)}@}. <!--SR:!2025-02-03,74,330!2025-11-02,281,330!2025-10-19,269,330!2025-02-05,76,330!2025-02-05,76,330-->
+This is {@{the most common case of large array creation}@}. The details {@{depend greatly on the format of data on disk}@}. This section gives {@{general pointers on how to handle various formats}@}. For {@{more detailed examples of IO}@} look at {@{[how to read and write files](../how-tos/reading%20and%20writing%20files.md)}@}. <!--SR:!2026-01-11,342,350!2025-11-02,281,330!2025-10-19,269,330!2025-02-05,76,330!2025-02-05,76,330-->
 
 ### standard binary formats
 

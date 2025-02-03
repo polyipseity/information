@@ -27,9 +27,9 @@ We went over some leadership theory and did some group activities, basically.
   - Johari window / blind area ::@:: unknown to self × known to others <!--SR:!2025-09-21,234,330!2025-09-26,238,330-->
   - Johari window / hidden area ::@:: known to self × unknown to others <!--SR:!2025-02-13,67,310!2025-02-13,67,310-->
   - Johari window / unknown area ::@:: unknown to self × unknown to others <!--SR:!2025-10-08,248,330!2025-09-27,239,330-->
-  - Johari window / ask ::@:: known to self ← unknown to self <!--SR:!2025-02-03,58,310!2025-02-05,60,310-->
+  - Johari window / ask ::@:: known to self ← unknown to self <!--SR:!2025-10-14,253,330!2025-02-05,60,310-->
   - Johari window / tell ::@:: known to others ← unknown to others <!--SR:!2025-02-13,67,310!2025-09-17,230,330-->
-  - Johari window / feedback ::@:: known to self × known to others ← unknown to self × known to others <!--SR:!2025-02-07,62,310!2025-02-03,58,310-->
+  - Johari window / feedback ::@:: known to self × known to others ← unknown to self × known to others <!--SR:!2025-02-07,62,310!2025-10-13,252,330-->
   - Johari window / self-disclosure ::@:: known to self × known to others ← known to self × unknown to others <!--SR:!2025-02-07,62,310!2025-02-13,67,310-->
   - Johari window / shared discovery ::@:: known to self × known to others ← unknown to self × unknown to others <!--SR:!2025-02-13,67,310!2025-02-04,59,310-->
   - Johari window / self-discovery ::@:: known to self × unknown to others ← unknown to self × unknown to others <!--SR:!2025-02-07,62,310!2025-02-13,67,310-->
@@ -41,7 +41,7 @@ We went over some leadership theory and did some group activities, basically.
   - 6 feedback guidelines / behavior ::@:: Focus on things that can be changed, not personality. <!--SR:!2025-02-13,67,310!2025-02-04,59,310-->
   - 6 feedback guidelines / comfortable ::@:: Ensure others are comfortable with your feedback. <!--SR:!2025-02-05,60,310!2025-07-27,176,310-->
   - 6 feedback guidelines / no buts ::@:: Do not counter others' feedback. Simply ignore it personally if you find it unhelpful. <!--SR:!2025-09-16,229,330!2025-02-13,67,310-->
-  - 6 feedback guidelines / own it ::@:: Make specific statements about "I". <!--SR:!2025-02-03,58,310!2025-02-05,60,310-->
+  - 6 feedback guidelines / own it ::@:: Make specific statements about "I". <!--SR:!2025-10-15,254,330!2025-02-05,60,310-->
   - 6 feedback guidelines / sift & sort ::@:: Personally choose to accept or ignore feedback. <!--SR:!2025-09-29,241,330!2025-07-28,177,310-->
   - 6 feedback guidelines / timely ::@:: Sometimes, now may not be the best time. Maybe later? <!--SR:!2025-02-13,67,310!2025-02-13,67,310-->
 - [emotional intelligence](../../../../general/emotional%20intelligence.md) — Daniel Goleman ::@:: empathy, motivation, self-awareness, self-regulation <!--SR:!2025-02-08,63,310!2025-02-04,59,310-->

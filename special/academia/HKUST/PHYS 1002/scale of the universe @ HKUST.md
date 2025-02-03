@@ -78,7 +78,7 @@ A real model of this scale factor currently exists in {@{Washington DC, with the
 
 ## scale factor of 10 quintillion
 
-To comprehend {@{the [Milky Way](../../../../general/Milky%20Way.md)}@}, the scale factor can be {@{10<sup>19</sup>, i.e. 10 quintillion}@}. Consider the Sun {@{to be the center and placed at the large sundial of HKUST}@}. Distance, if provided, is {@{the distance to the center}@}. <!--SR:!2025-02-11,168,310!2025-02-20,159,306!2025-02-03,164,318!2025-07-28,301,338-->
+To comprehend {@{the [Milky Way](../../../../general/Milky%20Way.md)}@}, the scale factor can be {@{10<sup>19</sup>, i.e. 10 quintillion}@}. Consider the Sun {@{to be the center and placed at the large sundial of HKUST}@}. Distance, if provided, is {@{the distance to the center}@}. <!--SR:!2025-02-11,168,310!2025-02-20,159,306!2027-01-25,721,338!2025-07-28,301,338-->
 
 ```Python
 # pytextgen generate data
