@@ -72,30 +72,30 @@ The content is in teaching order.
 - topic: Introduction to OM
 - about the instructor
 - course logistics
-- [operations management](../../../../general/operations%20management.md) ::@:: to manage how a firm creates its products and/or services
-  - operations management / examples ::@:: Intel: CPU, HSKH Medical: healthcare services, Ernst & Young: accounting services, HSBC: financial services, HKUST: education service
-  - operations management / transformation ::@:: design, analyze, and improve the _transformation_ of _inputs_ to _outputs_, to deliver the firm's _products and services_ ("physics" of the business world)
-    - operations management / transformation / elements ::@:: capital (finance), labor (management), raw resources (purchasing), technology (engineering), transformed by operations, to final products (marketing)
-  - operations management / features ::@:: generality and broadness, modeling and abstraction, quantitative analysis, practical relevance
-  - operations management / generality and broadness ::@:: apply to many business settings
-    - operations management / generality and broadness / examples ::@:: Little's Law: flow time, flow rate, inventory level; newsvendor model: production and ordering level under uncertainty
-  - operations management / modeling and abstraction ::@:: captures the key decision-making step and trade-off from a complex setting, and then apply the results back; simplifications are needed, which is convenient but can also bring limitation
-  - operations management / quantitative analysis ::@:: mathematical tools are needed; relatively easy now, difficult later; but understanding the problem/picture is more important
-  - operations management / practical relevance ::@:: focuses on real-world business problems and usually has substantial implications on humans; good business acumen are needed: key trade-offs, managerial insights
-    - operations management / practical relevance / examples ::@:: allocation of ICU beds during the pandemic; fairness, equity, social responsibility, not just profit maximization
-  - operations management / steps ::@:: description, optimization
-  - operations management / description ::@:: estimate and understand the dynamics and performance of the system (like physics), e.g. expected waiting time, average inventory level, expected revenue
-  - operations management / optimization ::@:: identify the ways to improve the system performance (like engineering), e.g. how to order, how to allocate
+- [operations management](../../../../general/operations%20management.md) ::@:: to manage how a firm creates its products and/or services <!--SR:!2025-02-07,4,270!2025-02-07,4,270-->
+  - operations management / examples ::@:: Intel: CPU, HSKH Medical: healthcare services, Ernst & Young: accounting services, HSBC: financial services, HKUST: education service <!--SR:!2025-02-07,4,270!2025-02-07,4,270-->
+  - operations management / transformation ::@:: design, analyze, and improve the _transformation_ of _inputs_ to _outputs_, to deliver the firm's _products and services_ ("physics" of the business world) <!--SR:!2025-02-06,3,250!2025-02-07,4,270-->
+    - operations management / transformation / elements ::@:: capital (finance), labor (management), raw resources (purchasing), technology (engineering), transformed by operations, to final products (marketing) <!--SR:!2025-02-06,3,250!2025-02-07,4,270-->
+  - operations management / features ::@:: generality and broadness, modeling and abstraction, quantitative analysis, practical relevance <!--SR:!2025-02-07,4,270!2025-02-06,3,250-->
+  - operations management / generality and broadness ::@:: apply to many business settings <!--SR:!2025-02-07,4,270!2025-02-07,4,270-->
+    - operations management / generality and broadness / examples ::@:: Little's Law: flow time, flow rate, inventory level; newsvendor model: production and ordering level under uncertainty <!--SR:!2025-02-06,3,250!2025-02-07,4,270-->
+  - operations management / modeling and abstraction ::@:: captures the key decision-making step and trade-off from a complex setting, and then apply the results back; simplifications are needed, which is convenient but can also bring limitation <!--SR:!2025-02-06,3,250!2025-02-07,4,270-->
+  - operations management / quantitative analysis ::@:: mathematical tools are needed; relatively easy now, difficult later; but understanding the problem/picture is more important <!--SR:!2025-02-06,3,250!2025-02-07,4,270-->
+  - operations management / practical relevance ::@:: focuses on real-world business problems and usually has substantial implications on humans; good business acumen are needed: key trade-offs, managerial insights <!--SR:!2025-02-07,4,270!2025-02-07,4,270-->
+    - operations management / practical relevance / examples ::@:: allocation of ICU beds during the pandemic; fairness, equity, social responsibility, not just profit maximization <!--SR:!2025-02-07,4,270!2025-02-07,4,270-->
+  - operations management / steps ::@:: description, optimization <!--SR:!2025-02-07,4,270!2025-02-07,4,270-->
+  - operations management / description ::@:: estimate and understand the dynamics and performance of the system (like physics), e.g. expected waiting time, average inventory level, expected revenue <!--SR:!2025-02-07,4,270!2025-02-07,4,270-->
+  - operations management / optimization ::@:: identify the ways to improve the system performance (like engineering), e.g. how to order, how to allocate <!--SR:!2025-02-06,3,250!2025-02-07,4,270-->
   - operations management / decisions
-    - operations management / decisions / examples ::@:: capacity, demand, inventory, pricing, supply chain
+    - operations management / decisions / examples ::@:: capacity, demand, inventory, pricing, supply chain <!--SR:!2025-02-07,4,270!2025-02-07,4,270-->
   - operations management / concepts
-    - operations management / concepts / examples ::@:: manufacturing strategy, just-in-time (JIT) production, business process re-engineering, business analytics, sustainability
-  - operations management / current topics ::@:: balancing profitability and sustainability, coordination in complex global supply network, customer touchpoints with technology, enhancing performance using data
-  - operations management / reasons for studying ::@:: career development, rich opportunities, understanding real world firm decisions
-    - operations management / reasons for studying / understanding real world firm decisions ::@:: Look inside the box. For example, there are many processes before putting products onto a storefront, such as customer services (management), distribution centers (inventory), suppliers (supply chain), plants (capacity)
-    - operations management / reasons for studying / rich opportunities ::@:: management consulting, supply-chain management, synergy with other areas (e.g. accounting, finance, marketing, technology)
-    - operations management / reasons for studying / career development ::@:: case interview, future study, stock-pitching/investment competitions
-  - operations management / learning methods ::@:: business magazines and news media, lectures, spreadsheet analysis, real world examples; understand concepts using examples, then solve problems, then gain managerial insights
+    - operations management / concepts / examples ::@:: manufacturing strategy, just-in-time (JIT) production, business process re-engineering, business analytics, sustainability <!--SR:!2025-02-06,3,250!2025-02-07,4,270-->
+  - operations management / current topics ::@:: balancing profitability and sustainability, coordination in complex global supply network, customer touchpoints with technology, enhancing performance using data <!--SR:!2025-02-07,4,270!2025-02-06,3,250-->
+  - operations management / reasons for studying ::@:: career development, rich opportunities, understanding real world firm decisions <!--SR:!2025-02-07,4,270!2025-02-07,4,270-->
+    - operations management / reasons for studying / understanding real world firm decisions ::@:: Look inside the box. For example, there are many processes before putting products onto a storefront, such as customer services (management), distribution centers (inventory), suppliers (supply chain), plants (capacity) <!--SR:!2025-02-06,3,250!2025-02-07,4,270-->
+    - operations management / reasons for studying / rich opportunities ::@:: management consulting, supply-chain management, synergy with other areas (e.g. accounting, finance, marketing, technology) <!--SR:!2025-02-07,4,270!2025-02-06,3,250-->
+    - operations management / reasons for studying / career development ::@:: case interview, future study, stock-pitching/investment competitions <!--SR:!2025-02-06,3,250!2025-02-07,4,270-->
+  - operations management / learning methods ::@:: business magazines and news media, lectures, spreadsheet analysis, real world examples; understand concepts using examples, then solve problems, then gain managerial insights <!--SR:!2025-02-06,3,250!2025-02-06,3,250-->
 
 ## midterm examination
 
