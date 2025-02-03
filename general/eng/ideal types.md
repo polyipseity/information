@@ -1,0 +1,1 @@
+ideal type.md
