@@ -74,6 +74,7 @@ The content is in teaching order.
   - types of costs / timing ::@:: product vs. period
   - types of costs / variability ::@:: variable vs. fixed
 - [direct costs](../../../../general/direct%20costs.md) ::@:: convenient and easily traceable to a cost object, e.g. cost of labors and materials to produce a product
+  - [cost object](../../../../general/cost%20object.md) ::@:: a term used primarily in cost accounting to describe something to which costs are assigned
 - [indirect costs](../../../../general/indirect%20costs.md) ::@:: inconvenient or hardly traceable to a cost object, e.g. advertising, depreciation, supervision, utilities
 - [variable cost](../../../../general/variable%20cost.md) ::@:: costs that change according to the activity level; usually we assume the variable cost is proportional to the activity level (constant marginal cost)
 - [fixed cost](../../../../general/fixed%20cost.md) ::@:: costs that do not change regardless of the activity level (within a reasonable range); average cost or per-unit cost varies inversely with the activity level
