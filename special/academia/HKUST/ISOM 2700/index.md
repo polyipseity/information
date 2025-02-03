@@ -76,7 +76,7 @@ The content is in teaching order.
   - operations management / examples ::@:: Intel: CPU, HSKH Medical: healthcare services, Ernst & Young: accounting services, HSBC: financial services, HKUST: education service
   - operations management / transformation ::@:: design, analyze, and improve the _transformation_ of _inputs_ to _outputs_, to deliver the firm's _products and services_ ("physics" of the business world)
     - operations management / transformation / elements ::@:: capital (finance), labor (management), raw resources (purchasing), technology (engineering), transformed by operations, to final products (marketing)
-  - operations management / features ::@:: generality and broadness, modeling and abstraction, quantitative analysis, practical relevance
+  - operations management / features ::@:: generality and broadness, modeling and abstraction, practical relevance, quantitative analysis
   - operations management / generality and broadness ::@:: apply to many business settings
     - operations management / generality and broadness / examples ::@:: Little's Law: flow time, flow rate, inventory level; newsvendor model: production and ordering level under uncertainty
   - operations management / modeling and abstraction ::@:: captures the key decision-making step and trade-off from a complex setting, and then apply the results back; simplifications are needed, which is convenient but can also bring limitation
@@ -89,7 +89,7 @@ The content is in teaching order.
   - operations management / decisions
     - operations management / decisions / examples ::@:: capacity, demand, inventory, pricing, supply chain
   - operations management / concepts
-    - operations management / concepts / examples ::@:: manufacturing strategy, just-in-time (JIT) production, business process re-engineering, business analytics, sustainability
+    - operations management / concepts / examples ::@:: (chronological order) manufacturing strategy, just-in-time (JIT) production, business process re-engineering, business analytics, sustainability
   - operations management / current topics ::@:: balancing profitability and sustainability, coordination in complex global supply network, customer touchpoints with technology, enhancing performance using data
   - operations management / reasons for studying ::@:: career development, rich opportunities, understanding real world firm decisions
     - operations management / reasons for studying / understanding real world firm decisions ::@:: Look inside the box. For example, there are many processes before putting products onto a storefront, such as customer services (management), distribution centers (inventory), suppliers (supply chain), plants (capacity)
