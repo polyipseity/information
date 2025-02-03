@@ -1,0 +1,1 @@
+economic rent.md

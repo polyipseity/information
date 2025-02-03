@@ -1,0 +1,1 @@
+lean manufacturing.md
