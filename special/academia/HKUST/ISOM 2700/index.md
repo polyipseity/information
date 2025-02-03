@@ -78,7 +78,7 @@ The content is in teaching order.
     - operations management / transformation / elements ::@:: capital (finance), labor (management), raw resources (purchasing), technology (engineering), transformed by operations, to final products (marketing)
   - operations management / features ::@:: generality and broadness, modeling and abstraction, quantitative analysis, practical relevance
   - operations management / generality and broadness ::@:: apply to many business settings
-    - operations management / generality and broadness / examples ::@:: Little's Law: flow time, flow rate, inventory level; Newsvendor model: production and ordering level under uncertainty
+    - operations management / generality and broadness / examples ::@:: Little's Law: flow time, flow rate, inventory level; newsvendor model: production and ordering level under uncertainty
   - operations management / modeling and abstraction ::@:: captures the key decision-making step and trade-off from a complex setting, and then apply the results back; simplifications are needed, which is convenient but can also bring limitation
   - operations management / quantitative analysis ::@:: mathematical tools are needed; relatively easy now, difficult later; but understanding the problem/picture is more important
   - operations management / practical relevance ::@:: focuses on real-world business problems and usually has substantial implications on humans; good business acumen are needed: key trade-offs, managerial insights
@@ -96,6 +96,8 @@ The content is in teaching order.
     - operations management / reasons for studying / rich opportunities ::@:: management consulting, supply-chain management, synergy with other areas (e.g. accounting, finance, marketing, technology)
     - operations management / reasons for studying / career development ::@:: case interview, future study, stock-pitching/investment competitions
   - operations management / learning methods ::@:: business magazines and news media, lectures, spreadsheet analysis, real world examples; understand concepts using examples, then solve problems, then gain managerial insights
+
+## midterm examination
 
 ## final examination
 
