@@ -11,21 +11,6 @@ from sys import stderr
 from typing import Callable, Collection, Mapping, NamedTuple, Sequence, final
 from yaml import safe_dump
 
-_MONTH_NAMES = (
-    "Jan",
-    "Feb",
-    "Mar",
-    "Apr",
-    "May",
-    "Jun",
-    "Jul",
-    "Aug",
-    "Sep",
-    "Oct",
-    "Nov",
-    "Dec",
-)
-
 
 @final
 class AssignmentPageType(StrEnum):
@@ -116,35 +101,24 @@ def parse_datetime(
     string: str,
     *,
     reference_datetime: datetime,
-    __TIME_REGEX: Pattern[str] = re_compile(r"\d+([ap]m)"),
     __FORMATS: Sequence[tuple[Callable[[str, datetime], str], str]] = (
-        (lambda s, dt: s, "%b %d, %Y at %H:%M:%S%p"),
-        (lambda s, dt: s, "%b %d, %Y by %H:%M:%S%p"),
-        (lambda s, dt: s, "%b %d, %Y at %H:%M%p"),
-        (lambda s, dt: s, "%b %d, %Y by %H:%M%p"),
-        (lambda s, dt: s, "%b %d, %Y at %H%p"),
-        (lambda s, dt: s, "%b %d, %Y by %H%p"),
-        (lambda s, dt: f"{dt.year} {s}", "%Y  %b %d at %H:%M:%S%p"),
-        (lambda s, dt: f"{dt.year} {s}", "%Y  %b %d by %H:%M:%S%p"),
-        (lambda s, dt: f"{dt.year} {s}", "%Y  %b %d at %H:%M%p"),
-        (lambda s, dt: f"{dt.year} {s}", "%Y  %b %d by %H:%M%p"),
-        (lambda s, dt: f"{dt.year} {s}", "%Y  %b %d at %H%p"),
-        (lambda s, dt: f"{dt.year} {s}", "%Y  %b %d by %H%p"),
+        (lambda s, dt: s, "%d/%m/%Y at %H:%M:%S%p"),
+        (lambda s, dt: f"{dt.year} {s}", "%d %b %Y at %H:%M:%S"),
+        (lambda s, dt: f"{dt.year} {s}", "%Y  %d %b at %H:%M:%S"),
+        (lambda s, dt: s, "%d %b %Y"),
     ),
 ) -> ParseDatetimeResult | None:
-    start_index = -1
-    for month_name in _MONTH_NAMES:
-        with suppress(ValueError):
-            start_index = string.index(month_name)
-    if (
-        start_index == -1
-        or (time_match := __TIME_REGEX.search(string, pos=start_index)) is None
-    ):
-        return None
-    end_index = time_match.end()
+    string = string.replace(" Sept ", " Sep ")
+    if "上午" in string:
+        string = f"{string[:string.index('上午')]}{string[string.index('上午')+len('上午'):]}am"
+    if "下午" in string:
+        string = f"{string[:string.index('下午')]}{string[string.index('下午')+len('下午'):]}pm"
+
+    start_index = 0
+    end_index = len(string)
 
     string = string[start_index:end_index].replace("\n", " ")
-    delta = timedelta(hours=12) if time_match[1] == "pm" else timedelta()
+    delta = timedelta(hours=12) if string.endswith("pm") else timedelta()
     if string.endswith("12am") or string.endswith("12pm"):
         delta -= timedelta(hours=12)
 
@@ -178,7 +152,7 @@ def parse_title_and_content(
                 return None
             title = title_ele.text.strip()
 
-            content_ele = title_ele.find_next("p")
+            content_ele = title_ele.find_next(attrs={"class": "leading-4"})
             content = html_to_text(content_ele) if isinstance(content_ele, Tag) else ""
 
         case _:
@@ -203,6 +177,7 @@ def parse_grade(
             if (
                 (grade_ele := soup.find(string="Total Score")) is None
                 or (grade_ele := grade_ele.parent) is None
+                or (grade_ele := grade_ele.parent) is None
                 or (grade_ele := grade_ele.next_sibling) is None
             ):
                 return None
@@ -218,9 +193,7 @@ def parse_grade(
             ) is not None and isinstance(
                 test_cases_ele := test_cases_ele.find_next("ul"), Tag
             ):
-                for test_case_ele in test_cases_ele.children:
-                    if not isinstance(test_case_ele, Tag):
-                        continue
+                for test_case_ele in test_cases_ele.select("li"):
                     correct = (
                         test_case_ele.find(attrs={"data-icon": "check"}) is not None
                     )
@@ -275,7 +248,7 @@ def parse_properties(
     match page_type:
         case AssignmentPageType.SUBMISSION:
             submission_datetime_ele = soup.find(
-                text="Auto Grader graded your submission on"
+                string="Auto Grader graded your submission on"
             )
             submission_datetime_ele = (
                 None
@@ -286,7 +259,7 @@ def parse_properties(
                 string=re_compile(r"^Submission Report #\d+$")
             )
 
-            retries_remaining_ele = selected_assignment_ele.find(
+            retries_remaining_ele = soup.find(
                 string=re_compile(r"^Remaining Submission Attempts:\d+$")
             )
             properties_raw["retries remaining"] = (
@@ -296,9 +269,7 @@ def parse_properties(
             )
 
             type_ele = selected_assignment_ele.select_one(".rounded-md")
-            properties_raw["type"] = (
-                "" if type_ele is None else type_ele.text.strip().lower()
-            )
+            properties_raw["type"] = "" if type_ele is None else type_ele.text.strip()
 
             release_datetime_ele = selected_assignment_ele.select_one(".text-gray-600")
             properties_raw["release datetime"] = (
@@ -312,7 +283,11 @@ def parse_properties(
             )
             due_ele = None if due_ele is None else due_ele.parent
             due_ele = None if due_ele is None else due_ele.next_sibling
-            properties_raw["due"] = "" if due_ele is None else due_ele.text.strip()
+            properties_raw["due"] = (
+                ""
+                if due_ele is None
+                else due_ele.text.strip()[len("Due on ") :].lstrip()
+            )
 
             retry_limit_ele = selected_assignment_ele.find(
                 attrs={"data-icon": "rotate-right"}
@@ -345,7 +320,7 @@ def parse_properties(
     submission_id = -1
     if submission_id_ele is not None:
         submission_id = submission_id_ele.text[
-            submission_id_ele.text.index("#") + 1 :
+            submission_id_ele.text.index("#") + len("#") :
         ].rstrip()
         with suppress(ValueError):
             submission_id = int(submission_id)
@@ -354,14 +329,21 @@ def parse_properties(
         generic = True
         match key:
             case "due" | "release datetime":
+                reference_datetime2 = reference_datetime
+                if key == "release datetime":
+                    reference_datetime2 = reference_datetime2.replace(
+                        hour=0, minute=0, second=0
+                    )
                 if (
-                    dt := parse_datetime(val, reference_datetime=reference_datetime)
+                    dt := parse_datetime(val, reference_datetime=reference_datetime2)
                 ) is not None:
                     properties[key] = dt.result
                     generic = False
             case "retries remaining" | "retry limit":
                 try:
-                    val2 = int(val[val.index(":") + 1 :])
+                    val2 = int(
+                        (val[val.index(":") + len(":") :].split(maxsplit=1) or ("",))[0]
+                    )
                 except ValueError:
                     properties[key] = -1
                 else:
@@ -427,7 +409,7 @@ def convert(
     if (
         (
             selected_assign_ele := soup.select_one(
-                f'*[href="https://zinc.cse.ust.hk/assignments/{assign_id}"]'
+                f'a[href="https://zinc.cse.ust.hk/assignments/{assign_id}"]'
             )
         )
         is None
