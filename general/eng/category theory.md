@@ -227,7 +227,7 @@ This text incorporates [content](https://en.wikipedia.org/wiki/category_theory) 
 
 > ![Wikimedia Commons logo](../../archives/Wikimedia%20Commons/Commons-logo.svg)
 >
-> Wikimedia Commons has media related to __[Category theory](https://commons.wikimedia.org/wiki/Category%3ACategory%20theory)__.
+> Wikimedia Commons has media related to ___[Category theory](https://commons.wikimedia.org/wiki/Category%3ACategory%20theory)___.
 
 <!-- markdownlint MD028 -->
 

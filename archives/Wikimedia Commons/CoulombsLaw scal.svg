@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 550 440"
+     xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     font-family="Times New Roman, Liberation Serif, STIX Two Math, Latin Modern Math, Cambria Math, serif"
+     font-size="32" >
+
+  <title>Coulomb's Law</title>
+  <desc>
+    The vector text decoration is a problem.
+    An overbar can be used to get F&#772; but F&#x20D1; or F&#x20D7; would be better.
+    Most fonts do not have the latter two, and even if they do, the metrics may not work.
+    Liberation Sans has them, but they mostly overlap the character and become almost invisible.
+    Math typesetting conventions vary by country.
+    Bold Roman (bold says vector).
+    Bold Italic (bold says vector, and italic says variable).
+    Regular Italic with decoration (hat or arrow to distinguish vector variable from ordinary variable).
+    There may be Bold Roman/Italic with hat to show unit vector, but bold with arrow decoration seems uncommon.
+  </desc>
+
+  <metadata>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:cc="http://creativecommons.org/ns#">
+      <cc:Work rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:creator rdf:resource="https://en.wikipedia.org/wiki/en:User:Dna-webmaster" />
+        <dc:contributor rdf:resource="https://commons.wikimedia.org/wiki/User:Maksim"/>
+        <dc:contributor rdf:resource="https://commons.wikimedia.org/wiki/User:Jfmelero"/>
+        <dc:contributor rdf:resource="https://commons.wikimedia.org/wiki/User:RJB1"/>
+        <dc:contributor rdf:resource="http://commons.wikimedia.org/wiki/User:JoKalliauer"/>
+        <dc:contributor rdf:resource="http://commons.wikimedia.org/wiki/User:Glrx"/>
+        <dc:source rdf:resource="http://commons.wikimedia.org/wiki/File:CoulombsLaw.svg"/>
+        <cc:license rdf:resource="https://creativecommons.org/licenses/by/3.0/deed.en" />
+        <cc:attributionURL rdf:resource="http://commons.wikimedia.org/wiki/File:CoulombsLaw_scal.svg"/>
+        <cc:attributionName>User:Dna-Dennis</cc:attributionName>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+
+  <defs>
+    <style type="text/css">
+      .sub {font-size:20px; baseline-shift:sub;}
+      .sup {font-size:20px; baseline-shift:super;}
+      .big {font-size:48px;}
+      .var {font-style:italic;}
+      .vec {font-style:italic; font-weight:bold;}
+    </style>
+    
+    <radialGradient id="gprime" cx="-12.83" cy="25.35" r="40" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#737fde" stop-opacity=".73" offset="0"/>
+      <stop stop-color="#2f2fd3" offset=".5"/>
+      <stop stop-color="#000074" offset="1"/>
+    </radialGradient>
+    
+    <radialGradient id="hprime" cx="-12.83" cy="25.35" r="40" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#e9a2a2" stop-opacity=".73" offset="0"/>
+      <stop stop-color="#d52222" offset=".5"/>
+      <stop stop-color="#860822" offset="1"/>
+    </radialGradient>
+
+    <g id="vector">
+      <g transform="matrix(0 .2194 .2832 0 0 0)">
+        <path d="m26.488 211.89h17.656v-167.75h26.487l-35.315-44.144-35.316 44.144h26.488z" />
+      </g>
+    </g>
+
+    <g id="charge">
+      <path d="m0 0 c-22 0-39.8 17.8-39.791 39.783 0 22 17.8 39.8 39.791 39.783 22 0 39.8-17.8 39.775-39.783 0-22-17.8-39.8-39.775-39.783z"
+            stroke="#6b9e9e" stroke-width=".43"/>
+    </g>
+  </defs>
+
+  <g transform="translate(-233.27 -38.78)">
+    <g fill="#afafaf">
+      <title>dimension lines</title>
+      <path stroke="#6b9e9e" d="m361.76 68.46h1.75v281.15h-1.75z" stroke-width=".02"/>
+      <path stroke="#6b9e9e" d="m649.63 69.46h1.75v280.15h-1.75z" stroke-width=".02"/>
+      <path d="m378.74 344.04-15.286 3.6309 15.286 3.6472v-2.7354h58.086v-.0326h139.48v-1.7585h-139.48v-.0326h-58.086v-2.7191zm255.68 0v2.7191h-58.086v1.8236h58.086v2.7354l15.286-3.6472z"/>
+      <text x="509.39" y="342.23" fill="#000" class="var" text-anchor="middle">r</text>
+    </g>
+
+    <g text-anchor="middle">
+      <g>
+        <title>Upper Charges</title>
+        <use xlink:href="#vector" transform="translate(262.92 97.04)" fill="#15159f" />
+        <use xlink:href="#charge" x="362.62" y="64.39" fill="url(#gprime)" />
+        <text x="290" y="82.93">
+            <tspan class="vec">F</tspan><tspan class="sub" dx="-5">12</tspan>
+        </text>
+        <text fill="#fff" x="362" y="112.18">+<tspan class="var">q</tspan><tspan class="sub">1</tspan></text>
+
+        <use xlink:href="#vector" transform="translate(750.42 97.04) scale(-1 1)" fill="#15159f" />
+        <use xlink:href="#charge" x="651.12" y="64.39" fill="url(#gprime)" />
+        <text x="710" y="83.32">
+          <tspan class="vec">F</tspan><tspan class="sub" dx="-5">21</tspan>
+        </text>
+        <text fill="#fff" x="650" y="112.18">+<tspan class="var">q</tspan><tspan class="sub">2</tspan></text>
+      </g>
+      
+      <g>
+        <title>Lower Charges</title>
+        <use xlink:href="#vector" transform="translate(461.89 246.32) scale(-1 1)" fill="#15159f" />
+        <use xlink:href="#charge" x="362.59" y="213.67" fill="url(#gprime)" />
+        <text x="420" y="228.71">
+          <tspan class="vec">F</tspan><tspan class="sub" dx="-5">12</tspan>
+        </text>
+        <text fill="#fff" x="362" y="261.46">+<tspan class="var">q</tspan><tspan class="sub">1</tspan></text>
+
+        <use xlink:href="#vector" transform="translate(550.11 246.32)" fill="#b80b2f" />
+        <use xlink:href="#charge" x="650.81" y="213.67" fill="url(#hprime)" />
+        <text x="580" y="232.89">
+          <tspan class="vec">F</tspan><tspan class="sub" dx="-5">21</tspan>
+        </text>
+        <text fill="#fff" x="650" y="261.51">−<tspan class="var">q</tspan><tspan class="sub">2</tspan></text>
+      </g>
+
+      <g transform="translate(550 440)">
+        <title>Equation</title>
+        <text text-anchor="end">
+          <tspan>
+            <tspan class="big">|</tspan><tspan class="vec">F</tspan><tspan class="sub" dx="-5">12</tspan><tspan class="big">|</tspan>
+          </tspan>
+          <tspan>=</tspan>
+          <tspan>
+            <tspan class="big">|</tspan><tspan class="vec">F</tspan><tspan class="sub" dx="-5">21</tspan><tspan class="big">|</tspan>
+          </tspan>
+          <tspan>= <tspan class="var">k</tspan><tspan class="sub">e</tspan></tspan>
+          <tspan text-anchor="middle">
+            <tspan x="60" y="-28">|<tspan class="var">q</tspan><tspan class="sub">1</tspan> × <tspan class="var">q</tspan><tspan class="sub">2</tspan>|</tspan>
+            <tspan x="60" y="-18">______</tspan>
+            <tspan x="60" y="20"><tspan class="var">r</tspan><tspan class="sup"> 2</tspan></tspan>
+          </tspan>
+        </text>
+      </g>
+
+    </g>
+    
+  </g>
+</svg>

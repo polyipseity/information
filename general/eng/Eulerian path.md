@@ -224,7 +224,7 @@ This text incorporates [content](https://en.wikipedia.org/wiki/Eulerian_path) fr
 
 > ![Wikimedia Commons logo](../../archives/Wikimedia%20Commons/Commons-logo.svg)
 >
-> Wikimedia Commons has media related to __[Eulerian paths](https://commons.wikimedia.org/wiki/Category:Eulerian%20paths)__.
+> Wikimedia Commons has media related to ___[Eulerian paths](https://commons.wikimedia.org/wiki/Category:Eulerian%20paths)___.
 
 - [Discussion of early mentions of Fleury's algorithm](http://mathforum.org/kb/message.jspa?messageID=3648262&tstart=135).
 - [_Euler tour_](http://www.encyclopediaofmath.org/index.php/Euler_tour) at [Encyclopedia of Mathematics](Encyclopedia%20of%20Mathematics.md).

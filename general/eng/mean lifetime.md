@@ -1,0 +1,1 @@
+exponential decay.md

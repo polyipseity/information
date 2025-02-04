@@ -174,7 +174,7 @@ __specification language__
 
 > ![Wikimedia Commons](../../archives/Wikimedia%20Commons/Commons-logo.svg)
 >
-> Wikimedia Commons has media related to __[Linear temporal logic](https://commons.wikimedia.org/wiki/Category:Linear%20temporal%20logic)__.
+> Wikimedia Commons has media related to ___[Linear temporal logic](https://commons.wikimedia.org/wiki/Category:Linear%20temporal%20logic)___.
 
 - [action language](action%20language.md)
 - [metric temporal logic](metric%20temporal%20logic.md)

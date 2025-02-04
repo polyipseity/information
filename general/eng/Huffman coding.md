@@ -233,7 +233,7 @@ If {@{weights corresponding to the alphabetically ordered inputs are in numerica
 
 > ![Wikimedia Commons logo](../../archives/Wikimedia%20Commons/Commons-logo.svg)
 >
-> Wikimedia Commons has media related to __[Huffman coding](https://commons.wikimedia.org/wiki/Category:Huffman%20coding)__.
+> Wikimedia Commons has media related to ___[Huffman coding](https://commons.wikimedia.org/wiki/Category:Huffman%20coding)___.
 
 This text incorporates [content](https://en.wikipedia.org/wiki/Huffman_coding) from [Wikipedia](Wikipedia.md) available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.
 
