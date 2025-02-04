@@ -500,7 +500,7 @@ teaming up with others
 
 - _(begin)_→::@::←business procedures <!--SR:!2025-08-20,291,252!2026-03-19,557,401-->
 - business procedures→::@::←economics <!--SR:!2025-06-20,213,261!2025-02-10,193,285-->
-- economics→::@::←human behaviors <!--SR:!2025-02-04,127,300!2026-01-10,444,340-->
+- economics→::@::←human behaviors <!--SR:!2026-02-23,384,300!2026-01-10,444,340-->
 - human behaviors→::@::←management principles <!--SR:!2026-02-21,423,300!2025-07-15,253,260-->
 - management principles→::@::←strong communication skills <!--SR:!2025-03-22,222,301!2025-07-08,306,320-->
 - strong communication skills→::@::←teaming up with others <!--SR:!2026-08-16,647,360!2025-08-04,345,380-->
@@ -1149,7 +1149,7 @@ and the Structural Engineering Institute (SEI).
 - The problems had been reported in 2018 and a US$15M program of remedial work has been approved, though no main structural work has taken place.→::@::←On 25 August 2021, the National Institute of Standards and Technology (NIST) has been tasked with investigation, <!--SR:!2026-03-31,504,337!2025-11-17,413,335-->
 - On 25 August 2021, the National Institute of Standards and Technology (NIST) has been tasked with investigation,→::@::←with investigators coming from the American Concrete Institute (ACI), <!--SR:!2026-02-25,487,327!2025-06-05,278,307-->
 - with investigators coming from the American Concrete Institute (ACI),→::@::←the American Society of Civil Engineers (ASCE), <!--SR:!2026-05-02,523,334!2025-05-18,269,310-->
-- the American Society of Civil Engineers (ASCE),→::@::←the Geode Institute (GI), <!--SR:!2025-02-04,190,290!2026-06-04,602,357-->
+- the American Society of Civil Engineers (ASCE),→::@::←the Geode Institute (GI), <!--SR:!2026-08-09,551,290!2026-06-04,602,357-->
 - the Geode Institute (GI),→::@::←and the Structural Engineering Institute (SEI). <!--SR:!2025-10-29,426,357!2027-06-14,915,350-->
 - and the Structural Engineering Institute (SEI).→::@::←_(end)_ <!--SR:!2025-05-08,326,350!2027-05-17,891,350-->
 

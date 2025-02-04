@@ -24,7 +24,7 @@ In {@{[computer science](computer%20science.md) and [discrete mathematics](discr
 
 Let {@{$\pi$ be a [permutation](permutation.md)}@}. There is {@{an __inversion__ of $\pi$ between $i$ and $j$}@} if {@{$i<j$ and $\pi (i)>\pi (j)$}@}. The inversion is indicated by {@{an ordered pair containing either the places $(i,j)$<sup>[\[1\]](#^ref-1)</sup><sup>[\[2\]](#^ref-2)</sup> or the elements ${\bigl (}\pi (i),\pi (j){\bigr )}$}@}.<sup>[\[3\]](#^ref-3)</sup><sup>[\[4\]](#^ref-4)</sup><sup>[\[5\]](#^ref-5)</sup> <!--SR:!2025-02-23,68,312!2025-02-21,66,312!2025-02-23,68,312!2025-02-20,65,312-->
 
-{@{The [inversion set](#example%20all%20permutations%20of%20four%20elements)}@} is {@{the set of all inversions}@}. {@{A permutation's inversion set using place-based notation}@} is {@{the same as the [inverse permutation's](permutation.md#definition) inversion set using element-based notation}@} with {@{the two components of each ordered pair exchanged}@}. Likewise, {@{a permutation's inversion set using element-based notation}@} is {@{the same as the inverse permutation's inversion set using place-based notation}@} with {@{the two components of each ordered pair exchanged}@}.<sup>[\[6\]](#^ref-6)</sup> <!--SR:!2025-02-19,67,310!2025-02-04,49,292!2025-02-23,68,312!2025-02-23,68,312!2025-02-13,61,312!2025-07-21,176,312!2025-02-16,64,312!2025-02-23,68,312-->
+{@{The [inversion set](#example%20all%20permutations%20of%20four%20elements)}@} is {@{the set of all inversions}@}. {@{A permutation's inversion set using place-based notation}@} is {@{the same as the [inverse permutation's](permutation.md#definition) inversion set using element-based notation}@} with {@{the two components of each ordered pair exchanged}@}. Likewise, {@{a permutation's inversion set using element-based notation}@} is {@{the same as the inverse permutation's inversion set using place-based notation}@} with {@{the two components of each ordered pair exchanged}@}.<sup>[\[6\]](#^ref-6)</sup> <!--SR:!2025-02-19,67,310!2025-06-27,143,292!2025-02-23,68,312!2025-02-23,68,312!2025-02-13,61,312!2025-07-21,176,312!2025-02-16,64,312!2025-02-23,68,312-->
 
 Inversions are usually defined for {@{permutations, but may also be defined for sequences}@}: Let {@{$S$ be a [sequence](sequence.md) \(or [multiset](multiset.md) permutation<sup>[\[7\]](#^ref-7)</sup>\)}@}. If {@{$i<j$ and $S(i)>S(j)$}@}, {@{either the pair of places $(i,j)$<sup>[\[7\]](#^ref-7)</sup><sup>[\[8\]](#^ref-8)</sup> or the pair of elements ${\bigl (}S(i),S(j){\bigr )}$}@}<sup>[\[9\]](#^ref-9)</sup> is {@{called an inversion of $S$}@}. <!--SR:!2025-02-16,64,312!2025-02-16,64,312!2025-02-20,65,312!2025-02-15,63,312!2025-02-16,64,312-->
 
@@ -48,7 +48,7 @@ This article uses {@{the term _inversion vector_ \($v$\) like [Wolfram](Wolfram%
 
 > {@{![Rothe diagram of \(2, 5, 4, 6, 3, 1\)](../../archives/Wikimedia%20Commons/Inversion%20example;%20Rothe%201.svg)}@}
 >
-> {@{Rothe diagram of \(2, 5, 4, 6, 3, 1\)}@} (annotation: Try to figure out {@{how one constructs the above Rothe diagram from the given sequence}@}.) <!--SR:!2025-02-04,49,292!2025-02-14,62,312!2025-06-19,143,292-->
+> {@{Rothe diagram of \(2, 5, 4, 6, 3, 1\)}@} (annotation: Try to figure out {@{how one constructs the above Rothe diagram from the given sequence}@}.) <!--SR:!2025-06-28,144,292!2025-02-14,62,312!2025-06-19,143,292-->
 
 __Inversion vector $v$:__ ::@:: With the _element-based_ definition $v(i)$ is the number of inversions whose _smaller_ \(right\) component is $i$.<sup>[\[3\]](#^ref-3)</sup> <!--SR:!2025-04-19,95,272!2025-05-26,132,292-->
 
@@ -63,7 +63,7 @@ __Left inversion count $l$:__ ::@:: With the _place-based_ definition $l(i)$ is 
 __Right inversion count $r$, often called _[Lehmer code](lehmer%20code.md)_:__ ::@:: With the _place-based_ definition $r(i)$ is the number of inversions whose _smaller_ \(left\) component is $i$. <!--SR:!2025-03-28,79,272!2025-04-15,93,272-->
 
 - right inversion count, in words ::@:: $r(i)$ is the number of elements in $\pi$ smaller than $\pi (i)$ after $\pi (i)$. <!--SR:!2025-05-31,125,292!2025-06-14,134,292-->
-- right inversion count, symbolically ::@:: $$r(i)~~=~~\#\{k\mid k>i~\land ~\pi (k)<\pi (i)\}$$ <!--SR:!2025-02-04,49,292!2025-05-29,124,292-->
+- right inversion count, symbolically ::@:: $$r(i)~~=~~\#\{k\mid k>i~\land ~\pi (k)<\pi (i)\}$$ <!--SR:!2025-06-26,142,292!2025-05-29,124,292-->
 
 {@{Both $v$ and $r$}@} can be {@{found with the help of a [Rothe diagram](permutation.md#numbering%20permutations)}@}, which is {@{a [permutation matrix](permutation%20matrix.md)}@} with {@{the 1s represented by dots}@}, and {@{an inversion \(often represented by a cross\) in every position that has a dot to the right and below it}@}. $r(i)$ is the sum of inversions in row $i$ of the Rothe diagram, while $v(i)$ is the sum of inversions in column $i$. The permutation matrix of the inverse is the transpose, therefore $v$ of a permutation is $r$ of its inverse, and vice versa. <!--SR:!2025-02-16,64,312!2025-08-10,195,312!2025-05-13,114,292!2025-02-16,64,312!2025-06-23,140,292-->
 

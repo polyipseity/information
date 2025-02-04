@@ -22,7 +22,7 @@ tags:
 - easy metrics ::@:: current ratio, dividend yield, net profit margin, net sales, price/earnings ratio, quick ratio <!--SR:!2025-04-13,82,282!2025-02-20,52,302-->
 - non-ratios ::@:: free cash flow, working capital <!--SR:!2025-03-12,72,322!2025-03-13,73,322-->
 - reciprocals multiplied by 365 ::@:: average collection period, average days to pay payables, average days to sell inventory <!--SR:!2025-03-07,67,319!2025-02-18,50,302-->
-- surprising terms in equation ::@:: accounts payable turnover, earnings per share <!--SR:!2025-02-04,39,296!2025-03-14,74,322-->
+- surprising terms in equation ::@:: accounts payable turnover, earnings per share <!--SR:!2025-05-31,116,296!2025-03-14,74,322-->
 - surprising "net" in equation ::@:: current assets, fixed asset turnover, quick assets, receivables turnover, total assets <!--SR:!2025-05-27,116,299!2025-02-18,50,302-->
 - cash flow ::@:: capital acquisitions ratio, free cash flow, quality of income <!--SR:!2025-05-10,109,302!2025-02-17,49,299-->
 - cost of goods sold as numerator ::@:: inventory turnover <!--SR:!2025-04-18,87,279!2025-02-12,46,290-->

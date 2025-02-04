@@ -33,7 +33,7 @@ Most adjusting entries could be classified this way: {@{prepaid expenses, accrue
 
 ### prepayments
 
-{@{Adjusting entries for prepayments}@} are necessary to {@{account for cash that has been received prior to delivery of goods or completion of services}@}. When {@{this cash is paid, it is first recorded in a prepaid expense asset account}@}; the account is {@{to be expensed either with the passage of time (e.g. rent, insurance) or through use and consumption (e.g. supplies)}@}. <!--SR:!2025-08-22,258,330!2025-05-17,177,310!2025-02-04,99,290!2025-07-04,219,330-->
+{@{Adjusting entries for prepayments}@} are necessary to {@{account for cash that has been received prior to delivery of goods or completion of services}@}. When {@{this cash is paid, it is first recorded in a prepaid expense asset account}@}; the account is {@{to be expensed either with the passage of time (e.g. rent, insurance) or through use and consumption (e.g. supplies)}@}. <!--SR:!2025-08-22,258,330!2025-05-17,177,310!2026-03-12,401,310!2025-07-04,219,330-->
 
 {@{A company receiving the cash for benefits yet to be delivered}@} will have to {@{record the amount in an unearned revenue [liability](liability%20(financial%20accounting).md) account}@}. Then, {@{an adjusting entry to recognize the revenue is used as necessary}@}. <!--SR:!2025-05-20,180,310!2025-06-10,195,310!2025-09-04,269,330-->
 
@@ -77,7 +77,7 @@ The entry for bad debt expense can also be classified as an estimate.
 
 ### inventory
 
-In {@{a periodic [inventory](inventory.md) system}@}, an adjusting entry is used to {@{determine the [cost of goods sold](cost%20of%20goods%20sold.md) expense}@}. This entry is {@{not necessary for a company using [perpetual inventory](perpetual%20inventory.md)}@}. <!--SR:!2025-04-12,154,310!2025-02-04,99,290!2025-05-13,178,310-->
+In {@{a periodic [inventory](inventory.md) system}@}, an adjusting entry is used to {@{determine the [cost of goods sold](cost%20of%20goods%20sold.md) expense}@}. This entry is {@{not necessary for a company using [perpetual inventory](perpetual%20inventory.md)}@}. <!--SR:!2025-04-12,154,310!2026-03-13,402,310!2025-05-13,178,310-->
 
 ## see also
 

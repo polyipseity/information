@@ -90,7 +90,7 @@ Consider {@{the multiplicative [monoid](monoid.md) of positive [integers](intege
   - if maps _f_ : _A_ → _C_, _g_ : _B_ → _C_ and _h_ : _D_ → _B_ are given and
   - the pullback of _f_ and _g_ is given by _r_ : _P_ → _A_ and _s_ : _P_ → _B_, and
   - the pullback of _s_ and _h_ is given by _t_ : _Q_ → _P_ and _u_ : _Q_ → _D_ ,
-  - then the pullback of _f_ and _gh_ is given by _rt_ : _Q_ → _A_ and _u_ : _Q_ → _D_. <!--SR:!2025-02-17,15,290!2025-02-18,16,290!2025-02-08,7,250!2025-02-08,7,250!2025-02-16,14,290!2025-02-18,16,290!2025-02-14,12,270!2025-02-16,14,290!2025-02-04,2,250!2025-02-18,16,290!2025-02-17,15,290!2025-02-16,14,290!2025-02-14,12,270-->
+  - then the pullback of _f_ and _gh_ is given by _rt_ : _Q_ → _A_ and _u_ : _Q_ → _D_. <!--SR:!2025-02-17,15,290!2025-02-18,16,290!2025-02-08,7,250!2025-02-08,7,250!2025-02-16,14,290!2025-02-18,16,290!2025-02-14,12,270!2025-02-16,14,290!2025-02-11,7,270!2025-02-18,16,290!2025-02-17,15,290!2025-02-16,14,290!2025-02-14,12,270-->
 
   Graphically this means that {@{two pullback squares, placed side by side and sharing one morphism}@}, form {@{a larger pullback square when ignoring the inner shared morphism}@}. {@{$${\begin{array}{ccccc}Q&{\xrightarrow {t} }&P&{\xrightarrow {r} }&A\\\downarrow _{u}&&\downarrow _{s}&&\downarrow _{f}\\D&{\xrightarrow {h} }&B&{\xrightarrow {g} }&C\end{array} }$$}@}
 - Any category with pullbacks and products ::@:: has equalizers. <!--SR:!2025-02-17,15,290!2025-02-14,12,270-->

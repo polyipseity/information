@@ -33,7 +33,7 @@ Direct competitors are not {@{necessarily more important than indirect or potent
 > If I were [Starbucks](Starbucks.md), a [coffee shop](coffeehouse.md) company, then...
 >
 > - an direct competitor of Starbucks ::@:: [Dunkin' Donuts](Dunkin'%20Donuts.md): serves mainly coffee to satisfy beverage need <!--SR:!2026-11-08,700,341!2025-05-29,294,341-->
-> - an indirect competitor of Starbucks ::@:: [bars](bar%20(establishment).md): does not serve coffee but [alcoholic beverages](alcoholic%20beverage.md) to satisfy beverage need <!--SR:!2025-02-04,176,281!2025-07-11,327,341-->
+> - an indirect competitor of Starbucks ::@:: [bars](bar%20(establishment).md): does not serve coffee but [alcoholic beverages](alcoholic%20beverage.md) to satisfy beverage need <!--SR:!2026-12-25,689,301!2025-07-11,327,341-->
 > - a potential competitor of Starbucks ::@:: [McDonald's](McDonald's.md): serves mainly coffee but usually as part of a meal to satisfy food need <!--SR:!2025-04-06,233,321!2025-08-07,349,341-->
 > - a non-competitor of Starbucks ::@:: [Walmart](Walmart.md): does not serve coffee and does not satisfy beverage need <!--SR:!2025-07-06,323,341!2025-05-14,282,341-->
 
@@ -72,7 +72,7 @@ why: Why are people using competitors' products?
 - _(begin)_→::@::←compare: Identify similarities and differences between our and their products. <!--SR:!2026-02-12,381,261!2025-04-15,260,334-->
 - compare: Identify similarities and differences between our and their products.→::@::←copy: Identify advantages and capabilities our products lack compared to others. <!--SR:!2025-03-05,191,274!2025-06-06,281,301-->
 - copy: Identify advantages and capabilities our products lack compared to others.→::@::←discover: Identify unmet needs. <!--SR:!2025-03-27,160,241!2025-02-25,168,241-->
-- discover: Identify unmet needs.→::@::←how: What is our strategy? <!--SR:!2025-04-02,169,221!2025-02-04,112,241-->
+- discover: Identify unmet needs.→::@::←how: What is our strategy? <!--SR:!2025-04-02,169,221!2025-11-06,275,241-->
 - how: What is our strategy?→::@::←pricing: Compare prices. <!--SR:!2025-04-18,103,170!2025-06-15,175,241-->
 - pricing: Compare prices.→::@::←who: Who are the competitors? 3 to 5 is usually enough. <!--SR:!2025-03-15,169,261!2025-04-15,82,241-->
 - who: Who are the competitors? 3 to 5 is usually enough.→::@::←why: Why are people using competitors' products? <!--SR:!2025-12-09,420,301!2025-03-09,175,241-->

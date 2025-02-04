@@ -280,7 +280,7 @@ Sewage Conveyance System
 
 Clean Victoria Harbor
 
-- HATS result ::@:: clean Victoria Harbor <!--SR:!2025-02-04,180,310!2025-03-20,233,330-->
+- HATS result ::@:: clean Victoria Harbor <!--SR:!2027-03-18,772,330!2025-03-20,233,330-->
   - HATS result example ::@:: On 2017-10-29, 3000 swimmers participate in a previously-discontinued annual cross-harbor race. The race continues to be held. <!--SR:!2025-04-05,143,230!2025-03-28,237,330-->
 
 ## page 23

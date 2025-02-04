@@ -13,7 +13,7 @@ tags:
 
 ## definition
 
-Let $V$ be a [vector space](vector%20space.md) over a [field](field%20(mathematics).md) $F$. A finite [set](set%20(mathematics).md) of $n$ [vectors](vector%20(mathematics%20and%20physics).md) $\vec{v_1}, \vec{v_2}, \ldots, \vec{v_n}$ from $V$ are _linearly dependent_, {@{if and only if there exists $n$ [scalars](scalar%20(mathematics).md) $k_1, k_2, \ldots, k_n$ from $F$ that are not all [zero elements](zero%20element.md), such that $$k_1 \vec{v_1} + k_2 \vec{v_2} + \cdots + k_n \vec{v_n} = \vec{0}$$. [Inversely](inverse%20(logic).md), a finite set of vectors is _linearly independent_ if and only if it is not linearly dependent, i.e. the above equation can only be satisfied by $k_1 = k_2 = \cdots = k_n = 0$}@}. <!--SR:!2025-02-04,266,290-->
+Let $V$ be a [vector space](vector%20space.md) over a [field](field%20(mathematics).md) $F$. A finite [set](set%20(mathematics).md) of $n$ [vectors](vector%20(mathematics%20and%20physics).md) $\vec{v_1}, \vec{v_2}, \ldots, \vec{v_n}$ from $V$ are _linearly dependent_, {@{if and only if there exists $n$ [scalars](scalar%20(mathematics).md) $k_1, k_2, \ldots, k_n$ from $F$ that are not all [zero elements](zero%20element.md), such that $$k_1 \vec{v_1} + k_2 \vec{v_2} + \cdots + k_n \vec{v_n} = \vec{0}$$. [Inversely](inverse%20(logic).md), a finite set of vectors is _linearly independent_ if and only if it is not linearly dependent, i.e. the above equation can only be satisfied by $k_1 = k_2 = \cdots = k_n = 0$}@}. <!--SR:!2028-01-11,1071,310-->
 
 > [!example] examples
 >

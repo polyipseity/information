@@ -249,7 +249,7 @@ For {@{a subset of states _A_<!-- markdown separator --> ⊆ <!-- markdown separ
 
 ### time reversal
 
-For {@{a CTMC _X_<sub>_t_</sub>}@}, {@{the time-reversed process}@} is {@{defined to be ${\hat {X} }_{t}=X_{T-t}$}@}. By {@{[Kelly's lemma](kelly's%20lemma.md)}@} this process has {@{the same stationary distribution as the forward process}@}. <!--SR:!2025-02-24,57,319!2025-03-11,74,347!2025-03-15,76,339!2025-02-04,44,319!2025-03-20,81,339-->
+For {@{a CTMC _X_<sub>_t_</sub>}@}, {@{the time-reversed process}@} is {@{defined to be ${\hat {X} }_{t}=X_{T-t}$}@}. By {@{[Kelly's lemma](kelly's%20lemma.md)}@} this process has {@{the same stationary distribution as the forward process}@}. <!--SR:!2025-02-24,57,319!2025-03-11,74,347!2025-03-15,76,339!2025-02-25,21,299!2025-03-20,81,339-->
 
 {@{A chain is said to be _reversible_}@} if {@{the reversed process is the same as the forward process}@}. {@{[Kolmogorov's criterion](Kolmogorov's%20criterion.md)}@} states that {@{the necessary and sufficient condition for a process to be reversible is that the product of transition rates around a closed loop must be the same in both directions}@}. <!--SR:!2025-03-16,78,339!2025-03-17,78,347!2025-03-04,67,321!2025-05-19,110,307-->
 
