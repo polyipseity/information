@@ -255,7 +255,7 @@ This text incorporates [content](https://en.wikipedia.org/wiki/directed_acyclic_
 
 > ![Wikimedia Commons logo](../../archives/Wikimedia%20Commons/Commons-logo.svg)
 >
-> Wikimedia Commons has media related to __[directed acyclic graphs](https://commons.wikimedia.org/wiki/Category:Directed%20acyclic%20graphs)__.
+> Wikimedia Commons has media related to ___[directed acyclic graphs](https://commons.wikimedia.org/wiki/Category:Directed%20acyclic%20graphs)___.
 
 - [Weisstein, Eric W.](Eric%20W.%20Weisstein.md), ["Acyclic Digraph"](https://mathworld.wolfram.com/AcyclicDigraph.html), _[MathWorld](MathWorld.md)_
 - [DAGitty](http://www.dagitty.net/) – an online tool for creating DAGs
