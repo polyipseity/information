@@ -175,21 +175,23 @@ def parse_title_and_content(
 ) -> ParseTitleAndContentResult | None:
     match page_type:
         case AssignmentPageType.ASSIGNMENT:
-            if (title := soup.select_one(".assignment-title .title-content")) is None:
+            if (
+                title_ele := soup.select_one(".assignment-title .title-content")
+            ) is None:
                 return None
-            title = title.text.strip()
+            title = title_ele.text.strip()
 
-            content = soup.select_one('*[data-resource-type="assignment.body"]')
-            content = "" if content is None else html_to_text(content)
+            content_ele = soup.select_one('*[data-resource-type="assignment.body"]')
+            content = "" if content_ele is None else html_to_text(content_ele)
 
         case AssignmentPageType.SUBMISSION:
             if (
-                title := soup.select_one(
+                title_ele := soup.select_one(
                     ".submission-details-header__heading:not(.submission_header)"
                 )
             ) is None:
                 return None
-            title = title.text.strip()
+            title = title_ele.text.strip()
 
             content = ""
 
@@ -590,6 +592,7 @@ def convert(
             "submissions": (
                 {
                     "datetime": submission_datetime,
+                    "id": -1,
                 },
             ),
             "grade": {
