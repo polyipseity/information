@@ -178,41 +178,22 @@ async def wiki_html_to_plaintext(
         case name if (header_match := __HEADER_PATTERN.match(name)):
             prefix, suffix = f"{'#' * int(header_match[1] or '1')} ", "\n\n"
             process_strings = lambda strings: _fix_name_maybe(strings.strip())
-        # bold
+        # bold, italic, bold & italic
         case _ if (
-            ele.name in {"b", "strong"}
+            ele.name in {"b", "i", "strong"}
             or __BOLD_FONT_STYLE_REGEX.search(str(ele.get("style", "")))
-        ) and "mw-heading" not in classes:
-            prefix, suffix = "__", "__"
-            if (
-                ele.previous_sibling
-                and isinstance(ele.previous_sibling, NavigableString)
-                and ele.previous_sibling.rstrip(_MARKDOWN_SEPARATOR_CHARACTERS)
-                == ele.previous_sibling
-            ):
-                prefix = f"{_MARKDOWN_SEPARATOR}{prefix}"
-            if (
-                ele.next_sibling
-                and isinstance(ele.next_sibling, NavigableString)
-                and ele.next_sibling.lstrip(_MARKDOWN_SEPARATOR_CHARACTERS)
-                == ele.next_sibling
-            ):
-                suffix += _MARKDOWN_SEPARATOR
-
-            def process_strings_b(strings: str):
-                nonlocal prefix, suffix
-                match = __PROCESS_STRINGS_BI_REGEX.match(strings)
-                assert match
-                prefix = f"{match[1]}{prefix}"
-                suffix += match[3]
-                return match[2]
-
-            process_strings = process_strings_b
-        # italic
-        case _ if ele.name == "i" or __ITALIC_FONT_STYLE_REGEX.search(
-            str(ele.get("style", ""))
+            or __ITALIC_FONT_STYLE_REGEX.search(str(ele.get("style", "")))
         ):
-            prefix, suffix = "_", "_"
+            bold = ele.name in {"b", "strong"} or __BOLD_FONT_STYLE_REGEX.search(
+                str(ele.get("style", ""))
+            )
+            italic = ele.name in {"i"} or __ITALIC_FONT_STYLE_REGEX.search(
+                str(ele.get("style", ""))
+            )
+            bold = "__" if bold else ""
+            italic = "_" if italic else ""
+
+            prefix, suffix = f"{bold}{italic}", f"{italic}{bold}"
             if (
                 ele.previous_sibling
                 and isinstance(ele.previous_sibling, NavigableString)
@@ -228,7 +209,7 @@ async def wiki_html_to_plaintext(
             ):
                 suffix += _MARKDOWN_SEPARATOR
 
-            def process_strings_i(strings: str):
+            def process_strings_bi(strings: str):
                 nonlocal prefix, suffix
                 match = __PROCESS_STRINGS_BI_REGEX.match(strings)
                 assert match
@@ -236,7 +217,7 @@ async def wiki_html_to_plaintext(
                 suffix += match[3]
                 return match[2]
 
-            process_strings = process_strings_i
+            process_strings = process_strings_bi
         # literal tags
         case "s" | "sub" | "sup" | "u":
             prefix, suffix = _tag_affixes(ele.name)
