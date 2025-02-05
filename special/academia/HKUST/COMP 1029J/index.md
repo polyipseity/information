@@ -34,11 +34,13 @@ The content is in teaching order.
 
 - [string](string.md)
 - [control flow](control%20flow.md)
+- [assignments/exercise for lesson 2](assignments/exercise%20for%20lesson%202/index.md)
 
 ## lesson 3
 
 - [object](object.md)
 - [array](array.md)
+- [assignments/exercise for lesson 3](assignments/exercise%20for%20lesson%203/index.md)
 
 ## lesson 4
 
@@ -46,10 +48,12 @@ The content is in teaching order.
 - [error](error.md)
 - [file](file.md)
 - [recursion](recursion.md)
+- [assignments/exercise for lesson 4](assignments/exercise%20for%20lesson%204/index.md)
 
 ## lesson 5
 
 - [Greenfoot](Greenfoot.md)
+- [assignments/exercise for lesson 5](assignments/exercise%20for%20lesson%205/index.md)
 
 ## assessments
 
