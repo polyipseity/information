@@ -376,7 +376,12 @@ def parse_properties(
                     generic = False
             case "file types":
                 properties[key] = (
-                    tuple(val2.strip() for val2 in val.split(",")) if val else ()
+                    tuple(
+                        val2.lstrip().removeprefix("and ").strip()
+                        for val2 in val.split(",")
+                    )
+                    if val
+                    else ()
                 )
                 generic = False
             case _:
