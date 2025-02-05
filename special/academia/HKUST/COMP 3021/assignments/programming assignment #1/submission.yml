@@ -1,0 +1,127 @@
+assignment:
+  comments:
+    3243775:
+      attachments: []
+      author: (self)
+      content: https://github.com/polyipseity/hkust-comp-3021/tree/pa/1
+      datetime: 2024-10-19 20:25:00+08:00
+      id: 3243775
+    3243844:
+      attachments: []
+      author: (self)
+      content: https://github.com/polyipseity/hkust-comp-3021/tree/pa/1 (d2d3c25984d0b5201be17197bb17ca5c6f676c1e)
+      datetime: 2024-10-19 23:52:00+08:00
+      id: 3243844
+    3243845:
+      attachments: []
+      author: (self)
+      content: https://github.com/polyipseity/hkust-comp-3021/tree/pa/1 (3c7520b40863d70c724485c85c318b7ad87131a2)
+      datetime: 2024-10-19 23:55:00+08:00
+      id: 3243845
+    3244244:
+      attachments: []
+      author: LI, Shangyu
+      content: 'Grading Tests (100 pts for 1 to 6): 100 100 100 100 30 0.'
+      datetime: 2024-10-20 19:23:00+08:00
+      id: 3244244
+  content: 'Materials
+
+
+
+    Project description can be found in the pdf: comp3021_pa1.pdf
+
+
+
+    Actions
+
+
+
+
+
+
+
+
+
+    The code template: COMP3021-PA1-template.zip
+
+
+
+
+
+    Download COMP3021-PA1-template.zip
+
+    FAQs
+
+
+
+    1. What does it exactly mean for "have at least three commits separated in two
+    days"?
+
+    A: You should have at least 3 commits, and the span of the total time over the
+    three commits is at least 2 days.
+
+    2. What is the @Data annotation on AccountManager? The description does not mention
+    it.
+
+    A: This is from the Lombok package, I forgot to delete it. You can delete it or
+    use the Lombok package.
+
+    3. What is the Order.getRestaurant() method used in DispatchSystem.writeOrders()?
+    I neither see that method in the description nor see there''s any fields in Order
+    related to Restaurant.
+
+    A: This is one of the getters and setters methods of a class. I would say they
+    are trivial to mention in the description. You may add them to your needs, i.e.
+    you need to add the getRestaurant() method to cater to the writeOrders() method.
+
+    4. Are the methods Rider.getRiderById(), Customer.getCustomerById() and Restaurant.getRestaurantById()
+    static? The description seems not mentioning it but I think it could be static.
+
+    A: Yes, make it static.
+
+    5. Why are all Integer, Double, etc. not primitive in this PA? I thought there
+    might be potential NPEs.
+
+    A: The boxing classes can be used in Java collections directly while the primitives
+    cannot. And the NPEs will also help you prevent the hidden logic bugs in your
+    project.
+
+    6. What should I do if I encounter an account with an already registered ID?
+
+    A: This is a typo in SampleInputAcounts.txt. You do not need to handle the case
+    and it will not happen in the grading data. You can also modify those 3 records
+    to sequential ids, but don''t forget that the output files may be changed accordingly.
+
+    7. What does the member estimatedTime mean?
+
+    A: The field estimatedTime in Order class means the time elapsed in the delivery
+    process.
+
+    8. Does it has any limitation on access control of any instance variable defined
+    in any class? (Like private, public, protected, default.)
+
+    A: We will test your code in JUnit Test (test/java/hk/ust/comp3021/*.java) by
+    invoking the functions just like you did in the main method in DispatchSystem.java.
+    You may test your accessibility on your own by simply implementing the JUnit Tests.'
+  grade:
+    entered: 71.67
+    graded anonymously: false
+    possible: 100
+  id: 341832
+  properties:
+    available:
+      end: 2024-10-19 23:59:00+08:00
+      start: null
+    due: 2024-10-19 23:59:00+08:00
+    file types:
+    - zip
+    points: 100
+    submitting: a file upload
+  submissions:
+  - datetime: 2024-10-19 23:55:00+08:00
+    id: -1
+  title: 'Programming Assignment #1'
+course:
+  id: 58181
+  name: COMP3021 (L1)
+type: submission/HKUST Canvas

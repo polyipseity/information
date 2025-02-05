@@ -1,0 +1,172 @@
+assignment:
+  comments:
+    3306546:
+      attachments: []
+      author: (self)
+      content: https://github.com/polyipseity/hkust-comp-3021/tree/pa/2
+      datetime: 2024-11-30 14:57:00+08:00
+      id: 3306546
+    3306997:
+      attachments: []
+      author: (self)
+      content: https://github.com/polyipseity/hkust-comp-3021/tree/pa/2
+      datetime: 2024-11-30 23:29:00+08:00
+      id: 3306997
+    3307005:
+      attachments: []
+      author: (self)
+      content: https://github.com/polyipseity/hkust-comp-3021/tree/pa/2
+      datetime: 2024-11-30 23:42:00+08:00
+      id: 3307005
+    3307017:
+      attachments: []
+      author: (self)
+      content: https://github.com/polyipseity/hkust-comp-3021/tree/pa/2
+      datetime: 2024-11-30 23:51:00+08:00
+      id: 3307017
+    3313346:
+      attachments: []
+      author: LAM, Chun Kit
+      content: 'Task 2.1 (20/20):
+
+        OK!
+
+
+        Task2.2 (10/10):
+
+        OK!
+
+
+        Task 2.3 (20/20):
+
+        OK!
+
+
+        Task 2.4 (20/20):
+
+        OK!
+
+
+        Task 2.5 (20/20):
+
+        OK!
+
+
+        Task 2.6 (10/10):
+
+        OK!
+
+
+        Total = 100'
+      datetime: 2024-12-04 21:14:00+08:00
+      id: 3313346
+  content: 'Materials
+
+
+
+    The project description can be found in the pdf: comp3021_pa2.pdf
+
+
+
+    Actions
+
+
+
+
+
+
+
+
+
+    The code template: COMP3021-PA2-template.zip
+
+
+
+
+
+    Download COMP3021-PA2-template.zip
+
+    FAQ
+
+
+
+
+    Part 2.6 (Parallel Array Task) is NOT a bonus part. It is mandatory.
+
+
+
+    In part 2.6, you are allowed to use 1 mutable temporary array for each algorithm.
+
+
+
+    You should make sure that you copied the "build.gradle" file into your repository,
+    as the build script is different from the lab template.
+
+
+
+    If you got garbled characters in the test output, try to change your console font.
+    Try to check Editor -> Color Scheme -> Console Font, and change the font to something
+    else, e.g. something used by the editor font.
+
+
+
+    The map function on a stream is not considered as mutation.
+
+
+
+    Adding elements to a list, or changing its elements, is considered mutation.
+
+
+
+    Local variables are variables defined inside a function. Class fields or function
+    parameters are not considered as local variables.
+
+
+
+    There is a typo in TaskPoolTest.TestTerminate. Please change line 52 from
+
+    tasks.add(() -> {
+
+
+
+    to
+
+
+    pool.addTask(() -> {
+
+
+
+    and delete line 56, i.e.
+
+    assert false;
+
+
+
+
+
+
+    For the performance requirement in task 2.6, we will run the tests 5 times and
+    check the best run. As long as your speedup for that run is good (takes 50% time
+    comparing with the sequential implementation), you will get the full score.'
+  grade:
+    entered: 100
+    graded anonymously: false
+    possible: 100
+  id: 341833
+  properties:
+    available:
+      end: 2024-12-02 23:59:00+08:00
+      start: null
+    due: 2024-11-30 23:59:00+08:00
+    file types:
+    - zip
+    points: 100
+    submitting: a file upload
+  submissions:
+  - datetime: 2024-11-30 23:51:00+08:00
+    id: -1
+  title: 'Programming Assignment #2'
+course:
+  id: 58181
+  name: COMP3021 (L1)
+type: submission/HKUST Canvas

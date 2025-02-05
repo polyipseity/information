@@ -1,0 +1,50 @@
+assignment:
+  comments:
+    3257079:
+      attachments: []
+      author: (self)
+      content: https://github.com/polyipseity/hkust-comp-3021/tree/lab/7
+      datetime: 2024-10-29 23:01:00+08:00
+      id: 3257079
+  content: 'Provide the link to your GitHub repositories and a screenshot of the execution
+    results.
+
+    JUnitTest.java
+
+
+
+
+
+    Download JUnitTest.java
+
+    lab7Function.txt
+
+
+
+
+
+    Download lab7Function.txt'
+  grade:
+    entered: ''
+    graded anonymously: null
+    possible: ''
+  id: 341839
+  properties:
+    available:
+      end: 2024-10-29 23:59:00+08:00
+      start: 2024-10-20 00:00:00+08:00
+    due: 2024-10-29 23:59:00+08:00
+    file types:
+    - png
+    - jpeg
+    - and jpg
+    points: 0
+    submitting: a file upload
+  submissions:
+  - datetime: 2024-10-29 23:01:00+08:00
+    id: -1
+  title: Lab#7 (not graded)
+course:
+  id: 58181
+  name: COMP3021 (L1)
+type: submission/HKUST Canvas
