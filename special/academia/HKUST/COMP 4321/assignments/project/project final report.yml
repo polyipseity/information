@@ -1,0 +1,44 @@
+assignment:
+  comments:
+    3177465:
+      attachments: []
+      author: MA, Shuai
+      content: 'We deduct the score a little because:
+
+
+        1. We cannot find the final report. Only one file containing some basic database
+        design. However, we cannot find the required 8-10 page report.
+
+
+        2. No child link and parent links are displayed in the demonstration video
+
+
+        3. The project codee structure is hard to read and the comments are not comprehensive
+        enough. Additionaly, there are some code files with hard-to-read names'
+      datetime: 2024-05-20 14:47:00+08:00
+      id: 3177465
+  content: "Please follow the submission guidelines provided in Project Description.pdf\n\
+    \n\nActions\n\n\n\n\n\n\n\n , and submit your project work in a .zip file. You\
+    \ may want to check the popular Q&As (TBA) as well."
+  grade:
+    entered: 28.2
+    graded anonymously: false
+    possible: 30
+  id: 323968
+  properties:
+    available:
+      end: 2024-05-12 23:59:00+08:00
+      start: null
+    due: 2024-05-10 23:59:00+08:00
+    file types:
+    - zip
+    points: 30
+    submitting: a file upload
+  submissions:
+  - datetime: 2024-05-10 23:58:00+08:00
+    id: -1
+  title: Project Final Report
+course:
+  id: 56316
+  name: COMP4321 (LX)
+type: submission/HKUST Canvas
