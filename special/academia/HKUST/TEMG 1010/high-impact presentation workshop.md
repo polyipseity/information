@@ -20,7 +20,7 @@ The speaker talked about how to give a high-impact presentation. While I may not
 When presenting, {@{content}@} is an important aspect. <!--SR:!2025-02-13,67,310-->
 
 - introduction ::@:: Introduce your content from the large picture to the objective at hand. <!--SR:!2025-02-13,67,310!2025-02-07,62,310-->
-- forgetting content ::@:: It is okay to forget content, as long as you do not forget too much of them (remember at least ~80%). The audience will not notice that you have forgotten. <!--SR:!2025-02-12,66,310!2025-02-05,60,310-->
+- forgetting content ::@:: It is okay to forget content, as long as you do not forget too much of them (remember at least ~80%). The audience will not notice that you have forgotten. <!--SR:!2025-02-12,66,310!2025-10-23,260,330-->
 
 ## action
 
@@ -36,7 +36,7 @@ Another important aspect is {@{your body movement}@}. <!--SR:!2025-02-12,66,310-
 - leg movement ::@:: You can move around when presenting. Try to move around for a bit, but not too much (sometimes, stand on a position for a while). The most important thing to control is the distance to the audience. <!--SR:!2025-02-13,67,310!2025-02-13,67,310-->
   - leg movement / distance to the audience ::@:: If you are close to the audience, you sound more authoritative. Try to have various distance to the audience, preferring to be closer. <!--SR:!2025-02-13,67,310!2025-10-20,258,330-->
 - microphone vs. clip mic ::@:: Both are okay. But with a microphone, you can control the distance to the microphone to control your voice for more effects. <!--SR:!2025-02-13,67,310!2025-02-13,67,310-->
-- speech speed ::@:: Try to have various speech speed. If you say a sentence too quick, make the next sentence slower, and vice versa, like a rollercoaster. You can slow down your speech to emphasize something. <!--SR:!2025-02-12,66,310!2025-02-05,60,310-->
+- speech speed ::@:: Try to have various speech speed. If you say a sentence too quick, make the next sentence slower, and vice versa, like a rollercoaster. You can slow down your speech to emphasize something. <!--SR:!2025-02-12,66,310!2025-10-22,259,330-->
 - filler ::@:: Avoid fillers. Think quietly. It is okay to be silent. If you do not look embarrassed to be silent, the audience will be the one to feel embarrassed instead. <!--SR:!2025-02-12,66,310!2025-02-13,67,310-->
 - tone ::@:: Vary your tone between moving up and down for different sentences. A common mistake is always moving up/down. Moving up makes every sentence feel like a question. <!--SR:!2025-02-13,67,310!2025-02-13,67,310-->
 - pitch ::@:: Try to have lower pitch (most of the time) to make you feel more authoritative and serious. <!--SR:!2025-02-13,67,310!2025-02-12,66,310-->

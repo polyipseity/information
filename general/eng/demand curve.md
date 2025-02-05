@@ -19,7 +19,7 @@ It is generally assumed that {@{demand curves slope down}@}, as shown in the adj
 
 Demand curves are used to {@{estimate behaviour in [competitive markets](perfect%20competition.md)}@} and are often combined with {@{[supply curves](supply%20(economics).md)}@} to find {@{the [equilibrium price](economic%20equilibrium.md)}@} \(the price at which {@{sellers together are willing to sell the same amount as buyers together are willing to buy, also known as [market clearing](market%20clearing.md) price}@}\) and {@{the equilibrium quantity}@} \(the amount of {@{that good or service that will be produced and bought without surplus/excess supply or shortage/excess demand}@}\) of that market.<sup>[\[2\]](#^ref-2)</sup><sup>[\[57\]](#^ref-57)</sup> <!--SR:!2025-09-25,237,330!2025-07-29,190,310!2025-09-21,234,330!2025-09-17,230,330!2025-10-07,247,330!2025-06-05,136,290-->
 
-{@{Movement ["along the demand curve"](#movement%20along%20a%20demand%20curve)}@} refers to {@{how the quantity demanded changes when the price changes}@}. <!--SR:!2025-02-05,59,310!2025-02-05,59,310-->
+{@{Movement ["along the demand curve"](#movement%20along%20a%20demand%20curve)}@} refers to {@{how the quantity demanded changes when the price changes}@}. <!--SR:!2025-10-20,257,330!2025-10-19,256,330-->
 
 {@{__Shift of the demand curve__ [as a whole](#shift%20of%20a%20demand%20curve) occurs}@} when {@{a factor other than price causes the price curve itself to [translate](translation%20(geometry).md) along the x-axis}@}; this may be associated with {@{an advertising campaign or perceived change in the quality of the good}@}.<sup>[\[3\]](#^ref-3)</sup> <!--SR:!2025-02-14,67,310!2025-10-02,243,330!2025-02-09,63,310-->
 
@@ -72,7 +72,7 @@ When {@{[income](income.md) increases}@}, {@{the demand curve for [normal goods]
 
 ### factors affecting individual demand
 
-- Changes in the prices of ::@:: related goods \(substitutes and complements\) <!--SR:!2025-10-09,249,330!2025-02-05,59,310-->
+- Changes in the prices of ::@:: related goods \(substitutes and complements\) <!--SR:!2025-10-09,249,330!2025-10-21,258,330-->
 - Changes in [disposable income](disposable%20income.md), ::@:: the magnitude of the shift also being related to the [income elasticity of demand](income%20elasticity%20of%20demand.md). <!--SR:!2025-08-01,180,310!2025-10-04,245,330-->
 - Changes in tastes and preferences. ::@:: Tastes and preferences are assumed to be fixed in the [short-run](long%20run%20and%20short%20run.md). This assumption of fixed preferences is a necessary condition for aggregation of individual demand curves to derive market demand. <!--SR:!2025-07-19,170,310!2025-06-28,162,310-->
 - Changes in ::@:: expectations.<sup>[\[2\]](#^ref-2)</sup><sup>[\[61\]](#^ref-61)</sup> <!--SR:!2025-02-14,67,310!2025-10-16,255,330-->

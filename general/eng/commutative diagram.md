@@ -31,13 +31,13 @@ A commutative diagram often consists of {@{three parts: (annotation: objects, mo
 In {@{algebra texts}@}, {@{the type of morphism}@} can be {@{denoted with different arrow usages}@}: <!--SR:!2025-02-06,4,270!2025-02-06,4,270!2025-02-06,4,270-->
 
 - A [monomorphism](monomorphism.md) ::@:: may be labeled with a $\hookrightarrow$<sup>[\[3\]](#^ref-3)</sup> or a $\rightarrowtail$.<sup>[\[4\]](#^ref-4)</sup> <!--SR:!2025-02-06,4,270!2025-02-06,4,270-->
-- An [epimorphism](epimorphism.md) ::@:: may be labeled with a $\twoheadrightarrow$. <!--SR:!2025-02-06,4,270!2025-02-05,3,250-->
+- An [epimorphism](epimorphism.md) ::@:: may be labeled with a $\twoheadrightarrow$. <!--SR:!2025-02-06,4,270!2025-02-13,8,250-->
 - An [isomorphism](isomorphism.md) ::@:: may be labeled with a ${\overset {\sim }{\rightarrow } }$. <!--SR:!2025-02-06,4,270!2025-02-06,4,270-->
 - The dashed arrow ::@:: typically represents the claim that the indicated morphism exists \(whenever the rest of the diagram holds\); the arrow may be optionally labeled as $\exists$. <!--SR:!2025-02-06,4,270!2025-02-06,4,270-->
   - If the morphism is in addition unique, ::@:: then the dashed arrow may be labeled $!$ or $\exists !$. <!--SR:!2025-02-06,4,270!2025-02-06,4,270-->
 - If the morphism acts between two arrows \(such as in the case of [higher category theory](higher%20category%20theory.md)\), ::@:: it's called preferably a [natural transformation](natural%20transformation.md) and may be labelled as $\Rightarrow$ \(as seen below in this article\). <!--SR:!2025-02-06,4,270!2025-02-06,4,270-->
 
-{@{The meanings of different arrows}@} are {@{not entirely standardized}@}: {@{the arrows used for monomorphisms, epimorphisms, and isomorphisms}@} are {@{also used for [injections](injective%20function.md), [surjections](surjection.md), and [bijections](bijection.md)}@}, as well as {@{the cofibrations, fibrations, and weak equivalences in a [model category](model%20category.md)}@}. <!--SR:!2025-02-06,4,270!2025-02-06,4,270!2025-02-06,4,270!2025-02-06,4,270!2025-02-05,3,250-->
+{@{The meanings of different arrows}@} are {@{not entirely standardized}@}: {@{the arrows used for monomorphisms, epimorphisms, and isomorphisms}@} are {@{also used for [injections](injective%20function.md), [surjections](surjection.md), and [bijections](bijection.md)}@}, as well as {@{the cofibrations, fibrations, and weak equivalences in a [model category](model%20category.md)}@}. <!--SR:!2025-02-06,4,270!2025-02-06,4,270!2025-02-06,4,270!2025-02-06,4,270!2025-02-15,10,270-->
 
 ### verifying commutativity
 
@@ -75,9 +75,9 @@ Here, since {@{the first equality follows from the last two}@}, it {@{suffices t
 
 - Main article: [Higher category theory](higher%20category%20theory.md)
 
-In {@{higher category theory}@}, one considers {@{not only objects and arrows, but arrows between the arrows, arrows between arrows between arrows, and so on [ad infinitum](https://en.wiktionary.org/wiki/ad%20infinitum)}@}. For example, {@{the category of small categories __Cat__}@} is {@{naturally a 2-category}@}, with {@{[functors](functor.md) as its arrows and [natural transformations](natural%20transformation.md) as the arrows between functors}@}. In this setting, commutative diagrams {@{may include these higher arrows as well}@}, which are often {@{depicted in the following style: $\Rightarrow$}@}. For example, the following \(somewhat trivial\) diagram depicts {@{two categories __C__ and __D__, together with two functors F, G : __C__ → __D__ and a natural transformation α : F ⇒ G}@}: <p> {@{![A diagram depicting two functors and a natural transformation between them.](../../archives/Wikimedia%20Commons/2-commutative-diagram.svg)}@} <!--SR:!2025-02-06,4,270!2025-02-06,4,270!2025-02-06,4,270!2025-02-06,4,270!2025-02-05,3,250!2025-02-06,4,270!2025-02-06,4,270!2025-02-06,4,270!2025-02-06,4,270-->
+In {@{higher category theory}@}, one considers {@{not only objects and arrows, but arrows between the arrows, arrows between arrows between arrows, and so on [ad infinitum](https://en.wiktionary.org/wiki/ad%20infinitum)}@}. For example, {@{the category of small categories __Cat__}@} is {@{naturally a 2-category}@}, with {@{[functors](functor.md) as its arrows and [natural transformations](natural%20transformation.md) as the arrows between functors}@}. In this setting, commutative diagrams {@{may include these higher arrows as well}@}, which are often {@{depicted in the following style: $\Rightarrow$}@}. For example, the following \(somewhat trivial\) diagram depicts {@{two categories __C__ and __D__, together with two functors F, G : __C__ → __D__ and a natural transformation α : F ⇒ G}@}: <p> {@{![A diagram depicting two functors and a natural transformation between them.](../../archives/Wikimedia%20Commons/2-commutative-diagram.svg)}@} <!--SR:!2025-02-06,4,270!2025-02-06,4,270!2025-02-06,4,270!2025-02-06,4,270!2025-02-15,10,270!2025-02-06,4,270!2025-02-06,4,270!2025-02-06,4,270!2025-02-06,4,270-->
 
-There are {@{two kinds of composition in a 2-category}@} \(called {@{__vertical composition__ and __horizontal composition__}@}\), and they may also be depicted via {@{[pasting diagrams](pasting%20diagrams.md) \(see [2-category\#Definition](2-category.md#definition) for examples\)}@}. <!--SR:!2025-02-05,3,250!2025-02-06,4,270!2025-02-06,4,270-->
+There are {@{two kinds of composition in a 2-category}@} \(called {@{__vertical composition__ and __horizontal composition__}@}\), and they may also be depicted via {@{[pasting diagrams](pasting%20diagrams.md) \(see [2-category\#Definition](2-category.md#definition) for examples\)}@}. <!--SR:!2025-02-15,10,270!2025-02-06,4,270!2025-02-06,4,270-->
 
 ## diagrams as functors
 
@@ -85,7 +85,7 @@ There are {@{two kinds of composition in a 2-category}@} \(called {@{__vertical 
 
 {@{A commutative diagram in a category _C_}@} can be interpreted as {@{a [functor](functor.md) from an index category _J_ to _C_}@}; one calls the functor {@{a __[diagram](diagram%20(category%20theory).md)__}@}. <!--SR:!2025-02-06,4,270!2025-02-06,4,270!2025-02-06,4,270-->
 
-More formally, a commutative diagram is {@{a visualization of a diagram indexed by a [poset category](posetal%20category.md)}@}. Such a diagram typically includes: {@{(annotation: nodes, arrows, commutativity)}@} <!--SR:!2025-02-05,3,250!2025-02-06,4,270-->
+More formally, a commutative diagram is {@{a visualization of a diagram indexed by a [poset category](posetal%20category.md)}@}. Such a diagram typically includes: {@{(annotation: nodes, arrows, commutativity)}@} <!--SR:!2025-02-15,10,270!2025-02-06,4,270-->
 
 - a node ::@:: for every object in the index category, <!--SR:!2025-02-06,4,270!2025-02-06,4,270-->
 - an arrow ::@:: for a generating set of morphisms \(omitting identity maps and morphisms that can be expressed as compositions\), <!--SR:!2025-02-06,4,270!2025-02-06,4,270-->
@@ -95,7 +95,7 @@ Conversely, given {@{a commutative diagram}@}, it {@{defines a poset category}@}
 
 - the objects ::@:: are the nodes, <!--SR:!2025-02-06,4,270!2025-02-06,4,270-->
 - there is a morphism between any two objects ::@:: if and only if there is a \(directed\) path between the nodes, <!--SR:!2025-02-06,4,270!2025-02-06,4,270-->
-- with the relation that this morphism is unique ::@:: \(any composition of maps is defined by its domain and target: this is the commutativity axiom\). <!--SR:!2025-02-05,3,250!2025-02-06,4,270-->
+- with the relation that this morphism is unique ::@:: \(any composition of maps is defined by its domain and target: this is the commutativity axiom\). <!--SR:!2025-02-15,10,270!2025-02-06,4,270-->
 
 However, {@{not every diagram commutes \(the notion of diagram strictly generalizes commutative diagram\)}@}. As a simple example, the diagram of {@{a single object with an endomorphism \($f\colon X\to X$\)}@}, or {@{with two parallel arrows \($\bullet \rightrightarrows \bullet$, that is, $f,g\colon X\to Y$, sometimes called the [free quiver](free%20quiver.md)\), as used in the definition of [equalizer](equaliser%20(mathematics).md)}@} {@{need not commute}@}. Further, {@{diagrams may be messy or impossible to draw}@}, when {@{the number of objects or morphisms is large \(or even infinite\)}@}. <!--SR:!2025-02-06,4,270!2025-02-06,4,270!2025-02-06,4,270!2025-02-06,4,270!2025-02-06,4,270!2025-02-06,4,270-->
 

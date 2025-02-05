@@ -441,7 +441,7 @@ The content is in teaching order.
 - share capital
   - share capital / trade ::@:: Transactions between two investors (in the secondary markets) that do not affect the corporation's accounting records (entity concept). <!--SR:!2025-04-13,101,383!2025-04-09,98,383-->
   - share capital / accounting
-    - share capital / accounting / issue ::@:: debit asset "Cash", credit equity "Common stock", credit equity "Additional paid-in capital" <!--SR:!2025-02-05,42,336!2025-04-09,98,383-->
+    - share capital / accounting / issue ::@:: debit asset "Cash", credit equity "Common stock", credit equity "Additional paid-in capital" <!--SR:!2025-06-29,144,336!2025-04-09,98,383-->
     - share capital / accounting / repurchase ::@:: debit contra-equity "Treasury stock" (using cost), credit asset "Cash" <!--SR:!2025-03-17,74,356!2025-04-10,98,376-->
     - share capital / accounting / reissue (after repurchase) ::@:: debit asset "Cash" (using actual received cash), credit contra-equity "Treasury stock" (using corresponding cost), credit or debit equity "Additional paid-in capital" (to balance the entry) <!--SR:!2025-04-13,101,383!2025-03-10,68,363-->
 

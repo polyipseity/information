@@ -57,7 +57,7 @@ For some applications, the following variant may be useful.
 
 > __Corollary__ — <sup>[\[12\]](#^ref-12)</sup> Let {@{$P$ be a partially ordered set in which every chain has an upper bound and $a$ an element in $P$}@}. Then {@{there exists a maximal element $b$ in $P$ such that $b\geq a$}@}. <!--SR:!2025-02-28,51,310!2025-03-10,60,318-->
 
-Indeed, let {@{$Q=\{x\in P\mid x\geq a\}$ with the partial ordering from $P$}@}. Then, for {@{a chain in $Q$, an upper bound in $P$ is in $Q$ and so $Q$ satisfies the hypothesis of Zorn's lemma}@} and {@{a maximal element in $Q$ is a maximal element in $P$ as well}@}. <!--SR:!2025-03-27,74,330!2025-03-25,59,258!2025-02-05,31,270-->
+Indeed, let {@{$Q=\{x\in P\mid x\geq a\}$ with the partial ordering from $P$}@}. Then, for {@{a chain in $Q$, an upper bound in $P$ is in $Q$ and so $Q$ satisfies the hypothesis of Zorn's lemma}@} and {@{a maximal element in $Q$ is a maximal element in $P$ as well}@}. <!--SR:!2025-03-27,74,330!2025-03-25,59,258!2025-04-30,84,270-->
 
 ## example applications
 
@@ -193,7 +193,7 @@ In this sense, {@{Zorn's lemma is a powerful tool}@}, {@{applicable to many area
 
 - See also: [Axiom of dependent choice](axiom%20of%20dependent%20choice.md)
 
-{@{A weakened form of Zorn's lemma}@} can be {@{proven from ZF + DC \(Zermelo–Fraenkel set theory with the axiom of choice replaced by the [axiom of dependent choice](axiom%20of%20dependent%20choice.md)\)}@}. Zorn's lemma can be {@{expressed straightforwardly}@} by observing that {@{the set having no maximal element would be equivalent to stating that the set's ordering relation would be entire (annotation: each element $x$ in the set has an another element $y$ in the same set larger than $x$)}@}, which would {@{allow us to apply the axiom of dependent choice to construct a countable chain}@}. As a result, {@{any partially ordered set with exclusively finite chains must have a maximal element}@}.<sup>[\[28\]](#^ref-28)</sup> <!--SR:!2025-03-28,75,330!2025-02-05,33,270!2025-03-28,75,330!2025-04-05,68,270!2025-03-01,52,310!2025-03-06,53,310-->
+{@{A weakened form of Zorn's lemma}@} can be {@{proven from ZF + DC \(Zermelo–Fraenkel set theory with the axiom of choice replaced by the [axiom of dependent choice](axiom%20of%20dependent%20choice.md)\)}@}. Zorn's lemma can be {@{expressed straightforwardly}@} by observing that {@{the set having no maximal element would be equivalent to stating that the set's ordering relation would be entire (annotation: each element $x$ in the set has an another element $y$ in the same set larger than $x$)}@}, which would {@{allow us to apply the axiom of dependent choice to construct a countable chain}@}. As a result, {@{any partially ordered set with exclusively finite chains must have a maximal element}@}.<sup>[\[28\]](#^ref-28)</sup> <!--SR:!2025-03-28,75,330!2025-05-02,86,270!2025-03-28,75,330!2025-04-05,68,270!2025-03-01,52,310!2025-03-06,53,310-->
 
 More generally, {@{strengthening the axiom of dependent choice to higher ordinals}@} allows us to {@{generalize the statement in the previous paragraph to higher cardinalities}@}.<sup>[\[28\]](#^ref-28)</sup> In {@{the limit where we allow arbitrarily large ordinals}@}, we {@{recover the proof of the full Zorn's lemma using the axiom of choice in the preceding section}@}. <!--SR:!2025-03-29,76,330!2025-03-29,76,330!2025-02-07,35,290!2025-03-04,54,310-->
 

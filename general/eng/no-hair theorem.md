@@ -9,7 +9,7 @@ tags:
 
 # no-hair theorem
 
-The __no-hair theorem__ (which is {@{a hypothesis}@}) states that {@{all stationary [black hole](black%20hole.md) solutions of the [Einstein–Maxwell equations](einstein%20field%20equations.md#Einstein%E2%80%93Maxwell%20equations) of [gravitation](gravity.md) and [electromagnetism](electromagnetism.md) in [general relativity](general%20relativity.md) can be completely characterized by only three independent _externally_ observable [classical](classical%20physics.md) parameters}@}: {@{[mass](mass.md), [electric charge](electric%20charge.md), and [angular momentum](angular%20momentum.md)}@}. <!--SR:!2025-06-26,251,330!2025-03-15,54,230!2025-02-05,10,277-->
+The __no-hair theorem__ (which is {@{a hypothesis}@}) states that {@{all stationary [black hole](black%20hole.md) solutions of the [Einstein–Maxwell equations](einstein%20field%20equations.md#Einstein%E2%80%93Maxwell%20equations) of [gravitation](gravity.md) and [electromagnetism](electromagnetism.md) in [general relativity](general%20relativity.md) can be completely characterized by only three independent _externally_ observable [classical](classical%20physics.md) parameters}@}: {@{[mass](mass.md), [electric charge](electric%20charge.md), and [angular momentum](angular%20momentum.md)}@}. <!--SR:!2025-06-26,251,330!2025-03-15,54,230!2025-03-17,40,297-->
 
 ## references
 

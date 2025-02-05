@@ -28,9 +28,9 @@ tags:
 
 - header ::@:: company name, `(Adjusted/Unadjusted/Post-closing) Trial Balance`, date, (monetary unit) <!--SR:!2025-02-15,48,290!2025-02-25,59,310-->
   - header / date ::@:: Not duration, surprisingly. Example: `At December 31, 2019` <!--SR:!2025-05-13,106,290!2025-02-28,62,310-->
-  - header / monetary unit ::@:: example: <br/> (none; not recommended) <br/> `(in million of dollars)` <!--SR:!2025-02-05,40,290!2025-02-25,59,310-->
+  - header / monetary unit ::@:: example: <br/> (none; not recommended) <br/> `(in million of dollars)` <!--SR:!2025-07-15,160,310!2025-02-25,59,310-->
 - dollar sign ::@:: There is no need to add it. It is supposed to be done in a spreadsheet anyway. <!--SR:!2025-03-02,63,310!2025-02-06,41,290-->
-- total ::@:: Calculate the total debit and credit for unadjusted, adjustments, and adjusted. The debit and credit should always equal. <!--SR:!2025-02-05,40,290!2025-02-26,60,310-->
+- total ::@:: Calculate the total debit and credit for unadjusted, adjustments, and adjusted. The debit and credit should always equal. <!--SR:!2025-07-14,159,310!2025-02-26,60,310-->
 - negative number ::@:: There should be no negative numbers. <!--SR:!2025-02-25,59,310!2025-02-26,60,310-->
 - casing ::@:: Use title case for basically everything!!! (Ignore that I have been NOT using title case in this note.) <!--SR:!2025-03-02,63,310!2025-03-04,65,310-->
 - (root) ::@:: accounts: 1 column <br/> unadjusted: 2 columns <br> adjustments: ≥2 columns <br/> adjusted: 2 columns <!--SR:!2025-03-05,66,310!2025-03-03,64,310-->

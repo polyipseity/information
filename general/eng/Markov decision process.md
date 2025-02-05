@@ -24,7 +24,7 @@ The name comes from {@{its connection to [Markov chains](Markov%20chain.md)}@}, 
 A Markov decision process is {@{a 4-[tuple](tuple.md) $(S,A,P_{a},R_{a})$}@}, where: <!--SR:!2025-03-14,76,329-->
 
 - $S$ is ::@:: a [set](set%20(mathematics).md) of states called the _state space_. The state space may be discrete or continuous, like the [set of real numbers](real%20number.md). <!--SR:!2025-02-28,64,312!2025-02-22,59,312-->
-- $A$ is ::@:: a set of actions called the _action space_ \(alternatively, $A_{s}$ is the set of actions available from state $s$\). As for state, this set may be discrete or continuous. <!--SR:!2025-03-04,67,312!2025-02-05,42,292-->
+- $A$ is ::@:: a set of actions called the _action space_ \(alternatively, $A_{s}$ is the set of actions available from state $s$\). As for state, this set may be discrete or continuous. <!--SR:!2025-03-04,67,312!2025-07-25,170,312-->
 - $P_{a}(s,s')$ is, on an intuitive level, {@{the probability that action $a$ in state $s$ at time $t$ will lead to state $s'$ at time $t+1$}@}. In general, this probability transition is defined to {@{satisfy $\Pr(s_{t+1}\in S'\mid s_{t}=s,a_{t}=a)=\int _{S'}P_{a}(s,s')ds',$ for every $S'\subseteq S$ measurable}@}. In case {@{the state space is discrete}@}, the integral is {@{intended with respect to the counting measure}@}, so that {@{the latter simplifies as $P_{a}(s,s')=\Pr(s_{t+1}=s'\mid s_{t}=s,a_{t}=a)$}@}; In case {@{$S\subseteq \mathbb {R} ^{d}$}@}, the integral is {@{usually intended with respect to the [Lebesgue measure](Lebesgue%20measure.md)}@}.
 - $R_{a}(s,s')$ is ::@:: the immediate reward \(or expected immediate reward\) received after transitioning from state $s$ to state $s'$, due to action $a$. <!--SR:!2025-02-22,59,312!2025-02-22,59,312-->
 

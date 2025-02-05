@@ -20,7 +20,7 @@ The primary reaction is:
 
 > primary reaction
 >
-> - {@{$\ce{N2(g) + 3H2(g) <=>[\text{finely divided iron}][\text{400–450 °C, 200 atm}] 2NH3(g)}\qquad\Delta{}H=-91.8\ \text{kJ mol}^{-1}$}@} <!--SR:!2025-02-05,73,130-->
+> - {@{$\ce{N2(g) + 3H2(g) <=>[\text{finely divided iron}][\text{400–450 °C, 200 atm}] 2NH3(g)}\qquad\Delta{}H=-91.8\ \text{kJ mol}^{-1}$}@} <!--SR:!2025-05-11,95,130-->
 
 ## process
 

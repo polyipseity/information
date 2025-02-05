@@ -30,7 +30,7 @@ In the case of {@{vectors with real components}@}, this definition is {@{the sam
 
 The complex dot product leads to {@{the notions of [Hermitian forms](sesquilinear%20form.md#hermitian%20form) and general [inner product spaces](inner%20product%20space.md)}@}, which are {@{widely used in mathematics and [physics](physics.md)}@}. <!--SR:!2025-07-11,261,330!2025-05-03,190,310-->
 
-{@{The self dot product of a complex vector $\mathbf a \cdot \mathbf a = {\mathbf a}^{\mathrm H} \mathbf a$}@}, involving {@{the conjugate transpose of a row vector}@}, is also known as {@{the __norm squared__, $\mathbf a \cdot \mathbf a = \lVert \mathbf a \rVert^2$, after the [Euclidean norm](Euclidean%20space.md#Euclidean%20norm)}@}; it is {@{a vector generalization of the _[absolute square](square%20(algebra).md#absolute%20square)_ of a complex scalar (see also: [squared Euclidean distance](Euclidean%20distance.md#squared%20Euclidean%20distance))}@}. <!--SR:!2025-05-17,214,330!2025-07-30,275,330!2025-06-30,253,330!2025-02-05,131,290-->
+{@{The self dot product of a complex vector $\mathbf a \cdot \mathbf a = {\mathbf a}^{\mathrm H} \mathbf a$}@}, involving {@{the conjugate transpose of a row vector}@}, is also known as {@{the __norm squared__, $\mathbf a \cdot \mathbf a = \lVert \mathbf a \rVert^2$, after the [Euclidean norm](Euclidean%20space.md#Euclidean%20norm)}@}; it is {@{a vector generalization of the _[absolute square](square%20(algebra).md#absolute%20square)_ of a complex scalar (see also: [squared Euclidean distance](Euclidean%20distance.md#squared%20Euclidean%20distance))}@}. <!--SR:!2025-05-17,214,330!2025-07-30,275,330!2025-06-30,253,330!2026-07-18,528,310-->
 
 ## references
 

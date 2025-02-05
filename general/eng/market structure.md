@@ -124,7 +124,7 @@ Different aspects that have been taken into account to {@{measure the innovative
 > | {@{[Oligopoly](oligopoly.md)}@}                                 | {@{0.2 to 0.6}@}         |
 > | {@{[Monopoly](monopoly.md)}@}                                   | {@{0.6 and above}@}      |
 >
-> {@{Herfindahls index and types of market structure}@} <!--SR:!2025-02-21,73,320!2025-02-22,74,320!2025-02-22,74,320!2025-02-11,65,320!2025-02-22,74,320!2025-02-22,74,320!2025-02-28,79,338!2025-02-18,70,320!2025-02-05,56,318-->
+> {@{Herfindahls index and types of market structure}@} <!--SR:!2025-02-21,73,320!2025-02-22,74,320!2025-02-22,74,320!2025-02-11,65,320!2025-02-22,74,320!2025-02-22,74,320!2025-02-28,79,338!2025-02-18,70,320!2025-08-05,181,318-->
 
 ## see also
 

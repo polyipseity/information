@@ -31,7 +31,7 @@ then {@{the indicator and characteristic functions are related}@} by {@{the equa
 
 ## subgradient
 
-{@{The [subgradient](subderivative.md) (annotation: i.e. subderivative, a generalization of the _derivative_ to convex functions at _non-differentiable points_) of $\chi _{A}(x)$ for a set $A$}@} is {@{the [tangent cone](tangent%20cone.md) (annotation: a generalization of _tangent space_ to a manifold to the case of certain spaces with _singularities_) of that set in $x$}@}. <!--SR:!2025-02-06,24,250!2025-02-05,23,250-->
+{@{The [subgradient](subderivative.md) (annotation: i.e. subderivative, a generalization of the _derivative_ to convex functions at _non-differentiable points_) of $\chi _{A}(x)$ for a set $A$}@} is {@{the [tangent cone](tangent%20cone.md) (annotation: a generalization of _tangent space_ to a manifold to the case of certain spaces with _singularities_) of that set in $x$}@}. <!--SR:!2025-02-06,24,250!2025-04-05,59,250-->
 
 ## bibliography
 

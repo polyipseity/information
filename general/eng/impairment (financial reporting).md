@@ -19,7 +19,7 @@ Asset impairment was first addressed by {@{the [International Accounting Standar
 
 In {@{[United States](United%20States.md) [GAAP](accounting%20standard.md)}@}, {@{the [Financial Accounting Standards Board](Financial%20Accounting%20Standards%20Board.md) \(FASB\)}@} introduced the concept in {@{1995 with the release of [SFAS 121](list%20of%20FASB%20pronouncements.md)}@}.<sup>[\[3\]](#^ref-3)</sup> SFAS 121 was subsequently replaced by {@{[SFAS 144](list%20of%20FASB%20pronouncements.md) in August 2001}@}.<sup>[\[3\]](#^ref-3)</sup> <!--SR:!2025-03-29,67,310!2025-02-28,43,290!2025-02-15,18,190!2025-02-06,24,250-->
 
-The issue of {@{impairment of financial assets exposed deficiencies in the IAS 36 framework}@} during {@{the [2008 financial crisis](2007–2008%20financial%20crisis.md)}@}, and the IASB issued {@{an [exposure draft](exposure%20draft.md) in November 2009}@} that {@{proposed an impairment model based on expected losses rather than incurred losses for all financial assets recorded at amortised cost}@}.<sup>[\[4\]](#^ref-4)</sup> {@{The IASB and FASB made joint efforts to devise a common impairment model}@}, but {@{the FASB eventually decided to propose an alternative scheme in January 2011}@}.<sup>[\[5\]](#^ref-5)</sup> The IASB issued {@{a new exposure draft in January 2013}@},<sup>[\[5\]](#^ref-5)</sup> which later {@{led to the adoption of [IFRS 9](IFRS%209.md) in July 2014}@},<sup>[\[6\]](#^ref-6)</sup> effective for {@{annual periods beginning on or after January 1, 2018}@}.<sup>[\[7\]](#^ref-7)</sup> The FASB is {@{still considering the matter}@}.<sup>[\[8\]](#^ref-8)</sup> <!--SR:!2025-04-25,80,270!2025-03-06,44,290!2025-04-01,56,250!2025-04-23,78,270!2025-03-28,66,310!2025-02-05,23,250!2025-02-06,24,250!2025-02-15,26,230!2025-02-11,28,270!2025-03-27,65,310-->
+The issue of {@{impairment of financial assets exposed deficiencies in the IAS 36 framework}@} during {@{the [2008 financial crisis](2007–2008%20financial%20crisis.md)}@}, and the IASB issued {@{an [exposure draft](exposure%20draft.md) in November 2009}@} that {@{proposed an impairment model based on expected losses rather than incurred losses for all financial assets recorded at amortised cost}@}.<sup>[\[4\]](#^ref-4)</sup> {@{The IASB and FASB made joint efforts to devise a common impairment model}@}, but {@{the FASB eventually decided to propose an alternative scheme in January 2011}@}.<sup>[\[5\]](#^ref-5)</sup> The IASB issued {@{a new exposure draft in January 2013}@},<sup>[\[5\]](#^ref-5)</sup> which later {@{led to the adoption of [IFRS 9](IFRS%209.md) in July 2014}@},<sup>[\[6\]](#^ref-6)</sup> effective for {@{annual periods beginning on or after January 1, 2018}@}.<sup>[\[7\]](#^ref-7)</sup> The FASB is {@{still considering the matter}@}.<sup>[\[8\]](#^ref-8)</sup> <!--SR:!2025-04-25,80,270!2025-03-06,44,290!2025-04-01,56,250!2025-04-23,78,270!2025-03-28,66,310!2025-04-05,59,250!2025-02-06,24,250!2025-02-15,26,230!2025-02-11,28,270!2025-03-27,65,310-->
 
 ## scope
 
@@ -53,7 +53,7 @@ The FASB [Accounting Standards Codification](Accounting%20Standards%20Codificati
 
 ## IAS 36 framework
 
-Impairment is {@{currently governed by [IAS 36](list%20of%20International%20Financial%20Reporting%20Standards.md)}@}. The impairment cost is calculated using either the Incurred Loss Model or the Expected Loss Model. <!--SR:!2025-02-05,23,250-->
+Impairment is {@{currently governed by [IAS 36](list%20of%20International%20Financial%20Reporting%20Standards.md)}@}. The impairment cost is calculated using either the Incurred Loss Model or the Expected Loss Model. <!--SR:!2025-04-06,60,250-->
 
 ### Incurred Loss Model
 
@@ -78,7 +78,7 @@ To {@{calculate [depreciation](depreciation.md) on the asset}@}, {@{the new non-
 
 ### consequential asset value increases
 
-{@{Reversal of impairment losses}@} is {@{required for investments in [debt instruments](bond%20market.md)}@}, but {@{no reversal is permitted under [IFRS](International%20Financial%20Reporting%20Standards.md)}@} for {@{any impairment changes recognized in net income for equity instruments accounted for in [OCI](accumulated%20other%20comprehensive%20income.md#other%20comprehensive%20income) (annotation: other comprehensive income)}@}; however, {@{subsequent changes in the equity investment's fair value}@} are {@{recognized in [OCI](accumulated%20other%20comprehensive%20income.md#other%20comprehensive%20income)}@}. <!--SR:!2025-03-23,62,310!2025-03-01,43,290!2025-02-15,33,270!2025-02-05,23,250!2025-03-28,66,310!2025-03-28,66,310-->
+{@{Reversal of impairment losses}@} is {@{required for investments in [debt instruments](bond%20market.md)}@}, but {@{no reversal is permitted under [IFRS](International%20Financial%20Reporting%20Standards.md)}@} for {@{any impairment changes recognized in net income for equity instruments accounted for in [OCI](accumulated%20other%20comprehensive%20income.md#other%20comprehensive%20income) (annotation: other comprehensive income)}@}; however, {@{subsequent changes in the equity investment's fair value}@} are {@{recognized in [OCI](accumulated%20other%20comprehensive%20income.md#other%20comprehensive%20income)}@}. <!--SR:!2025-03-23,62,310!2025-03-01,43,290!2025-02-15,33,270!2025-04-06,60,250!2025-03-28,66,310!2025-03-28,66,310-->
 
 ## see also
 

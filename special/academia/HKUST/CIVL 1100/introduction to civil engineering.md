@@ -55,7 +55,7 @@ The content is in teaching order.
   - [structural engineering examples](#structural%20engineering%20examples)
   - [natural disasters examples](#natural%20disaster%20examples)
   - structural engineering goals ::@:: safety: no collapse without warning, serviceability: deformation does not disrupt use <!--SR:!2025-12-21,395,292!2025-06-28,368,350-->
-  - construction material factors ::@:: depends on availability, cost, project nature <!--SR:!2025-10-24,426,357!2025-02-05,212,355-->
+  - construction material factors ::@:: depends on availability, cost, project nature <!--SR:!2025-10-24,426,357!2027-03-04,757,355-->
     - [construction material examples](#construction%20material%20examples)
       - [reinforced concrete structure examples](#reinforced%20concrete%20structure%20examples)
       - [steel or concrete–steel composite structure examples](#steel%20or%20concrete–steel%20composite%20structure%20examples)
@@ -144,7 +144,7 @@ quantity surveyor
 
 - _(begin)_→::@::←building services engineer <!--SR:!2025-09-29,378,335!2026-01-31,525,397-->
 - building services engineer→::@::←consulting civil engineer <!--SR:!2027-02-01,780,357!2025-07-07,312,337-->
-- consulting civil engineer→::@::←consulting environmental engineer <!--SR:!2026-09-21,635,347!2025-02-05,221,360-->
+- consulting civil engineer→::@::←consulting environmental engineer <!--SR:!2026-09-21,635,347!2025-05-24,108,340-->
 - consulting environmental engineer→::@::←consulting geo-technical engineer <!--SR:!2025-11-15,394,285!2025-08-10,342,306-->
 - consulting geo-technical engineer→::@::←consulting structural engineer <!--SR:!2026-07-30,570,315!2025-04-26,255,317-->
 - consulting structural engineer→::@::←contracting civil engineer <!--SR:!2025-09-07,361,335!2025-05-27,276,315-->
