@@ -5,13 +5,17 @@ aliases:
   - USFQ MUS-4100E question
   - USFQ MUS-4100E questions
 tags:
-  - flashcard/active/special/academia/USFQ/MUS-4100E/questions
+  - flashcard/active/special/academia/USFQ/MUS-4100E/questions/index
   - language/in/English
 ---
 
 # questions
 
 - USFQ MUS-4100E
+
+## children
+
+- [quiz 1](quiz%201.md)
 
 ## African traits in early jazz
 

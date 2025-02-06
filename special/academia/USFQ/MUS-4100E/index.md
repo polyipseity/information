@@ -70,7 +70,7 @@ The content is in teaching order.
     - rhythm / [beat](../../../../general/beat%20(music).md) ::@:: the "thing" you clap to when listening
     - rhythm / [meter](../../../../general/metre%20(music).md) ::@:: number of beats in a cycle <p> jazz: almost always 4, later 3 also appears
   - [syncopation](../../../../general/syncopation.md) ::@:: offbeat accent; makes the music bounce <p> ragtime: big part
-- assignments: (none)
+- assignment: (none)
 
 ## week 1 lecture 2
 
@@ -95,7 +95,7 @@ The content is in teaching order.
   - [_Plessy v. Ferguson_](../../../../general/Plessy%20v.%20Ferguson.md) ::@:: A 1897 Supreme Court case that ruled racial segregation were constitutional as long as the facilities were equal in quality, a doctrine later known as "separate but equal". <p> This made segregation institutionalized, e.g. schools, transports, etc.
   - Jim Crow laws / end ::@:: Segregation remained primarily in the south until the civil rights movement in the 1960s.
 - [Creoles of color](../../../../general/Creoles%20of%20color.md) ::@:: They are mixed race people living in New Orleans. Racial segregation meant musicians had to play with the black community. They brought their virtuosity to black bands.  
-- assignments: read "African Music in Early Jazz"
+- assignment: read "African Music in Early Jazz"
 
 ## week 2 lecture
 
@@ -123,7 +123,7 @@ The content is in teaching order.
   - [Scott Joplin](../../../../general/Scott%20Joplin.md) (1868–1917) ::@:: father of ragtime, wrote many classics: The Entertainer, Maple Leaf Rag (first music to sell over a million copies)
 - [jazz](../../../../general/jazz.md)
   - jazz / influences ::@:: primarily blues, gospel music, march, ragtime, coming together in New Orleans
-- assignments: [African traits in early jazz](questions.md#African%20traits%20in%20early%20jazz)
+- quiz (attendance): [African traits in early jazz](questions/index.md#African%20traits%20in%20early%20jazz)
 
 ## week 2 lecture 2
 
@@ -149,7 +149,7 @@ The content is in teaching order.
     - jazz (word) / theories ::@:: an African word that means "speed up", jasmine perfume that prostitutes wore in the red-light district of New Orleans, a word meaning "procreation"
 - Victrola ::@:: The first recordings on the Victrola came out in 1901. Jazz recording did not come up until 1917.
 - [Livery Stable Blues](../../../../general/Livery%20Stable%20Blues.md) ::@:: first ever jazz recording by the Original Dixieland Jass Band (all white musicians) in 1917, composed by Nick LaRocca
-- assignments: [Sydney Bechet](questions.md#Sydney%20Bechet)
+- assignment (attendance): [Sydney Bechet](questions/index.md#Sydney%20Bechet)
 
 ## week 3 lecture
 
@@ -175,9 +175,23 @@ The content is in teaching order.
   - [Hot Seven](../../../../general/Louis%20Armstrong%20and%20His%20Hot%20Seven.md) (1927) ::@:: It was a jazz studio group organized to make a series of recordings for Okeh Records in Chicago, Illinois, in May 1927.
   - Louis Armstrong / claim to fame ::@:: A series of recordings from 1925 to 1298 made by Louis Armstrong under Hot Five and Hot Seven made Louis famous.
   - Louis Armstrong / jazz after him ::@:: becoming an art form, becoming more serious, embraced by White America, moved to center from New Orleans to New York, swing
-- assignments: (none)
+- assignment: (none)
 
 ## week 3 lecture 2
 
-- datetime: 2025-01-29T08:30:00-05:00/2025-01-29T09:50:00-05:00
-  - local: 2025-01-29T21:30:00+08:00/2025-01-29T22:50:00+08:00
+- datetime: 2025-01-29T08:30:00-05:00/2025-01-29T08:45:00-05:00
+  - local: 2025-01-29T21:30:00+08:00/2025-01-29T21:45:00+08:00
+- quiz: [quiz 1](questions/quiz%201.md)
+- assignment: read "The Great Migration"
+
+## week 4 lecture
+
+- datetime: 2025-02-03T08:30:00-05:00/2025-02-03T09:50:00-05:00
+  - local: 2025-02-03T21:30:00+08:00/2025-02-03T22:50:00+08:00
+- assignment: (none)
+
+## week 4 lecture 2
+
+- datetime: 2025-02-05T08:30:00-05:00/2025-02-05T09:50:00-05:00
+  - local: 2025-02-05T21:30:00+08:00/2025-02-05T22:50:00+08:00
+- assignment: (none)
