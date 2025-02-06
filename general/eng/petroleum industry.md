@@ -50,7 +50,7 @@ return await memorize_seq(
 
 - _(begin)_→::@::←+: attracts local or overseas investment <!--SR:!2028-03-30,1403,354!2029-05-19,1729,354-->
 - +: attracts local or overseas investment→::@::←+: creates job opportunities <!--SR:!2027-08-09,1121,330!2026-09-07,941,334-->
-- +: creates job opportunities→::@::←+: generates income for the government <!--SR:!2025-02-06,440,294!2026-09-18,950,334-->
+- +: creates job opportunities→::@::←+: generates income for the government <!--SR:!2028-08-23,1294,294!2026-09-18,950,334-->
 - +: generates income for the government→::@::←+: improves infrastructure <!--SR:!2025-05-08,320,274!2026-04-06,753,314-->
 - +: improves infrastructure→::@::←-: emits gaseous pollutants <!--SR:!2025-02-21,164,270!2025-03-25,303,254-->
 - -: emits gaseous pollutants→::@::←-: generates waste that may be harmful or toxic <!--SR:!2025-12-01,610,274!2027-10-12,1049,314-->

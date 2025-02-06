@@ -38,7 +38,7 @@ tags:
 - Cash Flow
 - Incremental
 
-It is often important for businesses to {@{distinguish between relevant and irrelevant costs when analyzing alternatives}@} because {@{erroneously considering irrelevant costs can lead to unsound business decisions}@}.<sup>[\[1\]](#^ref-1)</sup> Also, {@{ignoring irrelevant data in analysis}@} can {@{save time and effort}@}. <!--SR:!2025-02-07,4,270!2025-02-07,4,270!2025-02-07,4,270!2025-02-06,3,250-->
+It is often important for businesses to {@{distinguish between relevant and irrelevant costs when analyzing alternatives}@} because {@{erroneously considering irrelevant costs can lead to unsound business decisions}@}.<sup>[\[1\]](#^ref-1)</sup> Also, {@{ignoring irrelevant data in analysis}@} can {@{save time and effort}@}. <!--SR:!2025-02-07,4,270!2025-02-07,4,270!2025-02-07,4,270!2025-02-18,12,270-->
 
 {@{Types of _irrelevant_ costs}@} are:<sup>[\[3\]](#^ref-3)</sup> (annotation: {@{sunk costs, committed costs, notional or non cash costs}@}) <!--SR:!2025-02-07,4,270!2025-02-07,4,270-->
 

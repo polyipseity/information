@@ -45,7 +45,7 @@ The content is in teaching order.
 
 - datetime: 2025-01-13T08:30:00-05:00/2025-01-13T09:50:00-05:00
   - local: 2025-01-13T21:30:00+08:00/2025-01-13T22:50:00+08:00
-- [jazz](../../../../general/jazz.md) ::@:: an _attitude_ or _approach_ about making music rooted in New Orleans, United States in the early 20th century <!--SR:!2025-03-04,33,281!2025-02-06,16,301-->
+- [jazz](../../../../general/jazz.md) ::@:: an _attitude_ or _approach_ about making music rooted in New Orleans, United States in the early 20th century <!--SR:!2025-03-04,33,281!2025-04-17,70,321-->
   - What is jazz? / students' answers: United States, created for rebellion
   - jazz / examples
     - "Struttin' with Some Barbecue" (1927) — Louis Armstrong and His Hot Five
@@ -62,13 +62,13 @@ The content is in teaching order.
   - jazz / Why does the music sound so different? ::@:: It is an _attitude_ or _approach_ that _evolves_ over time. <!--SR:!2025-04-03,58,310!2025-04-03,58,310-->
   - jazz / descriptive words ::@:: chord progressions, different from others, improvisation, living, traditional & non-traditional <!--SR:!2025-03-16,43,290!2025-02-07,17,301-->
 - [music](../../../../general/music.md)
-  - music / basic parts ::@:: harmony, melody, rhythm, timbre <!--SR:!2025-02-06,16,301!2025-04-09,63,310-->
+  - music / basic parts ::@:: harmony, melody, rhythm, timbre <!--SR:!2025-04-17,70,321!2025-04-09,63,310-->
   - [melody](../../../../general/melody.md) ::@:: a sequence of pitches over time, "horizontal" <!--SR:!2025-03-15,42,290!2025-03-10,38,301-->
   - [harmony](../../../../general/harmony.md) ::@:: multiple pitches at the same time, "vertical"; cannot copyright <!--SR:!2025-04-12,66,321!2025-02-07,17,301-->
   - [timbre](../../../../general/timbre.md) ::@:: tone color, tone quality; the way the tone sounds like <!--SR:!2025-04-03,58,310!2025-03-22,48,301-->
   - [rhythm](../../../../general/rhythm.md) ::@:: timing of pitches; beat, meter <!--SR:!2025-04-12,66,321!2025-04-03,58,310-->
     - rhythm / [beat](../../../../general/beat%20(music).md) ::@:: the "thing" you clap to when listening <!--SR:!2025-03-30,55,310!2025-04-12,66,321-->
-    - rhythm / [meter](../../../../general/metre%20(music).md) ::@:: number of beats in a cycle <p> jazz: almost always 4, later 3 also appears <!--SR:!2025-03-22,45,301!2025-02-06,16,301-->
+    - rhythm / [meter](../../../../general/metre%20(music).md) ::@:: number of beats in a cycle <p> jazz: almost always 4, later 3 also appears <!--SR:!2025-03-22,45,301!2025-04-16,69,321-->
   - [syncopation](../../../../general/syncopation.md) ::@:: offbeat accent; makes the music bounce <p> ragtime: big part <!--SR:!2025-04-03,58,310!2025-04-03,58,310-->
 - assignments: (none)
 

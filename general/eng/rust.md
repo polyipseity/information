@@ -38,7 +38,7 @@ After forming iron hydroxides, {@{[dehydration](dehydration%20reaction.md) occur
 > - {@{Fe(OH)<sub>3</sub>(s) ⇌ FeO(OH)(s) + H<sub>2</sub>O(l)}@}
 > - {@{2FeO(OH)(s) ⇌ Fe<sub>2</sub>O<sub>3</sub>(s) + H<sub>2</sub>O(l)}@} <!--SR:!2025-12-26,763,330!2027-02-04,947,290!2026-07-15,860,330-->
 
-{@{[Ferroxyl indicator solution](ferroxyl%20indicator%20solution.md)}@} can be used to detect rusting. {@{Place the iron and indicator in a warm gel containing [sodium chloride](sodium%20chloride.md)}@} to speed up the reaction. <!--SR:!2025-02-06,178,270!2025-02-28,422,250-->
+{@{[Ferroxyl indicator solution](ferroxyl%20indicator%20solution.md)}@} can be used to detect rusting. {@{Place the iron and indicator in a warm gel containing [sodium chloride](sodium%20chloride.md)}@} to speed up the reaction. <!--SR:!2026-06-01,480,270!2025-02-28,422,250-->
 
 ## prevention
 

@@ -19,7 +19,7 @@ tags:
 
 ## direct labour cost
 
-{@{The direct labour cost}@} is {@{the cost of workers who can be easily identified with the unit of production}@}. {@{Types of labour who are considered to be part of the direct labour cost}@} are {@{the assembly workers on an [assembly line](assembly%20line.md)}@}. <!--SR:!2025-02-07,4,270!2025-02-06,3,250!2025-02-07,4,270!2025-02-07,4,270-->
+{@{The direct labour cost}@} is {@{the cost of workers who can be easily identified with the unit of production}@}. {@{Types of labour who are considered to be part of the direct labour cost}@} are {@{the assembly workers on an [assembly line](assembly%20line.md)}@}. <!--SR:!2025-02-07,4,270!2025-02-17,11,270!2025-02-07,4,270!2025-02-07,4,270-->
 
 ## manufacturing overhead
 
@@ -29,7 +29,7 @@ tags:
 
 1. Indirect labour cost: ::@:: The indirect labour cost is the cost associated with workers, such as supervisors and [material handling](material%20handling.md) team, who are not directly involved in the production. <!--SR:!2025-02-07,4,270!2025-02-07,4,270-->
 2. Indirect materials cost: ::@:: Indirect materials cost is the cost associated with consumables, such as lubricants, [grease](grease%20(lubricant).md), and [water](water.md), that are not used as raw materials. <!--SR:!2025-02-07,4,270!2025-02-07,4,270-->
-3. Other indirect manufacturing cost: ::@:: includes machine depreciation, [land rent](land%20rent.md#land%20rent), [property insurance](property%20insurance.md), [electricity](electricity.md), freight and transportation, or any expenses that keep the [factory](factory.md) operating. <!--SR:!2025-02-06,3,250!2025-02-06,3,250-->
+3. Other indirect manufacturing cost: ::@:: includes machine depreciation, [land rent](land%20rent.md#land%20rent), [property insurance](property%20insurance.md), [electricity](electricity.md), freight and transportation, or any expenses that keep the [factory](factory.md) operating. <!--SR:!2025-02-13,7,250!2025-02-15,9,250-->
 
 ## references
 

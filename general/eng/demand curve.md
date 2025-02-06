@@ -31,13 +31,13 @@ In most circumstances {@{the demand curve has a negative slope, and therefore sl
 
 For convenience, demand curves are often graphed as {@{straight lines}@}, where {@{_a_ and _b_ are parameters: $$Q=a+bP{\text{ where } }b<0 \,.$$}@} {@{The constant _a_}@} embodies {@{the effects of all factors other than price that affect demand}@}. If {@{income were to change}@}, for example, the effect of the change would be represented by {@{a change in the value of "a" and be reflected graphically as a shift of the demand curve}@}. {@{The constant _b_}@} is {@{the slope of the demand curve}@} and shows {@{how the price of the good affects the quantity demanded}@}.<sup>[\[6\]](#^ref-6)</sup> <!--SR:!2025-10-15,254,330!2025-10-04,245,330!2025-10-04,245,330!2025-10-07,247,330!2025-10-09,249,330!2025-09-27,239,330!2025-09-21,233,330!2025-09-23,235,330!2025-02-14,67,310-->
 
-The graph of the demand curve uses {@{the [inverse demand function](inverse%20demand%20function.md)}@} in which {@{price is expressed as a function of quantity}@}. {@{The standard form of the demand equation can be converted to the inverse equation}@} by {@{solving for P: $$P={\frac {Q-a}{b} } \,.$$}@}<sup>[\[6\]](#^ref-6)</sup> <!--SR:!2025-09-26,238,330!2025-02-08,62,310!2025-02-06,60,310!2025-09-14,227,330-->
+The graph of the demand curve uses {@{the [inverse demand function](inverse%20demand%20function.md)}@} in which {@{price is expressed as a function of quantity}@}. {@{The standard form of the demand equation can be converted to the inverse equation}@} by {@{solving for P: $$P={\frac {Q-a}{b} } \,.$$}@}<sup>[\[6\]](#^ref-6)</sup> <!--SR:!2025-09-26,238,330!2025-02-08,62,310!2025-10-25,261,330!2025-09-14,227,330-->
 
 ### curvature
 
 > {@{![Convex demand curve](../../archives/Wikimedia%20Commons/Monopoly%20Demand%20Curve.png)}@}
 >
-> {@{Convex demand curve}@} <!--SR:!2025-02-06,60,310!2025-10-02,243,330-->
+> {@{Convex demand curve}@} <!--SR:!2025-10-24,260,330!2025-10-02,243,330-->
 
 The demand is {@{called _[convex](convex%20function.md)_ \(with respect to the [origin](origin%20(mathematics).md)<sup>[\[7\]](#^ref-7)</sup>\)}@} if {@{the \(generally down-sloping\) curve bends upwards}@}, _[concave](concave%20function.md)_ otherwise.<sup>[\[8\]](#^ref-8)</sup> <!--SR:!2025-06-30,164,310!2025-09-29,241,330-->
 
@@ -104,11 +104,11 @@ There is {@{movement _along_ a demand curve}@} when {@{a change in price causes 
 
 The elasticity of demand indicates {@{how sensitive the demand for a good is to a price change}@}. If {@{the elasticity's [absolute value](absolute%20value.md) is between zero and 1, demand is said to be inelastic}@}; if {@{it equals 1, demand is "unitary elastic"}@}; if {@{it is greater than 1, demand is elastic}@}. A small value—inelastic demand—implies that {@{changes in price have little influence on demand}@}. High elasticity indicates that {@{consumers will respond to a price rise by buying much less of the good}@}. For examples of elasticities of particular goods, see the article section, ["Selected price elasticities"](price%20elasticity%20of%20demand.md#selected%20price%20elasticities). <!--SR:!2025-09-22,234,330!2025-10-05,246,330!2025-02-09,63,310!2025-02-08,62,310!2025-10-03,244,330!2025-09-18,231,330-->
 
-The elasticity of demand usually will {@{vary depending on the price}@}. If {@{the demand curve is linear}@}, {@{demand is inelastic at high prices and elastic at low prices, with unitary elasticity somewhere in between}@}. There does exist {@{a family of demand curves with constant elasticity for all prices}@}. They have {@{the demand equation $Q=aP^{c}$, where _c_ is the elasticity of demand and _a_ is a parameter for the size of the market}@}. These demand curves are {@{smoothly curving with steep slopes for high values of price and gentle slopes for low values}@}. <!--SR:!2025-10-15,254,330!2025-02-14,67,310!2025-02-06,60,310!2025-02-14,67,310!2025-02-14,67,310!2025-10-03,244,330-->
+The elasticity of demand usually will {@{vary depending on the price}@}. If {@{the demand curve is linear}@}, {@{demand is inelastic at high prices and elastic at low prices, with unitary elasticity somewhere in between}@}. There does exist {@{a family of demand curves with constant elasticity for all prices}@}. They have {@{the demand equation $Q=aP^{c}$, where _c_ is the elasticity of demand and _a_ is a parameter for the size of the market}@}. These demand curves are {@{smoothly curving with steep slopes for high values of price and gentle slopes for low values}@}. <!--SR:!2025-10-15,254,330!2025-02-14,67,310!2025-08-13,188,310!2025-02-14,67,310!2025-02-14,67,310!2025-10-03,244,330-->
 
 ## taxes and subsidies
 
-{@{A sales tax on the commodity}@} does not {@{directly change the demand curve, if the price axis in the graph represents the price including tax}@}. Similarly, {@{a subsidy on the commodity}@} does not {@{directly change the demand curve, if the price axis in the graph represents the price after deduction of the subsidy}@}. <!--SR:!2025-02-06,60,310!2025-02-09,63,310!2025-02-09,63,310!2025-09-20,233,330-->
+{@{A sales tax on the commodity}@} does not {@{directly change the demand curve, if the price axis in the graph represents the price including tax}@}. Similarly, {@{a subsidy on the commodity}@} does not {@{directly change the demand curve, if the price axis in the graph represents the price after deduction of the subsidy}@}. <!--SR:!2025-10-23,259,330!2025-02-09,63,310!2025-02-09,63,310!2025-09-20,233,330-->
 
 If {@{the price axis in the graph represents the price before addition of tax and/or subtraction of subsidy}@} then {@{the demand curve moves inward when a tax is introduced, and outward when a subsidy is introduced}@}. <!--SR:!2025-07-31,179,310!2025-10-16,255,330-->
 

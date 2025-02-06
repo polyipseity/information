@@ -41,7 +41,7 @@ Consider the above algorithm run on the tree shown to the right. Initially, vert
 
 Let {@{`{a[1], a[2], ..., a[n]}`}@} be {@{a Prüfer sequence}@}: <!--SR:!2025-02-10,79,343!2025-02-09,78,343-->
 
-The tree will {@{have `n+2` nodes, numbered from `1` to `n+2`}@}. For {@{each node}@} {@{set its degree to the number of times it appears in the sequence plus 1}@}. For instance, in pseudo-code: <!--SR:!2025-02-08,77,343!2025-02-06,75,343!2025-02-08,77,343-->
+The tree will {@{have `n+2` nodes, numbered from `1` to `n+2`}@}. For {@{each node}@} {@{set its degree to the number of times it appears in the sequence plus 1}@}. For instance, in pseudo-code: <!--SR:!2025-02-08,77,343!2026-02-01,360,363!2025-02-08,77,343-->
 
 <pre>
 <b>Convert-Prüfer-to-Tree</b>(<i>a</i>)
@@ -120,7 +120,7 @@ Next, for {@{each number in the sequence `a[i]`}@}, {@{find the first (lowest-nu
 > 14             {@{<b>break</b>}@}
 > </pre> <!--SR:!2025-03-12,88,367!2025-03-13,89,367!2025-03-13,89,367!2025-03-18,91,367!2025-03-17,90,367!2025-03-13,89,367!2025-03-20,93,367-->
 
-At {@{the end of this loop}@} {@{two nodes with degree 1 will remain (call them `u`, `v`)}@}. Lastly, {@{add the edge `(u,v)` to the tree}@}.<sup>[\[3\]](#^ref-3)</sup> <!--SR:!2025-02-10,79,343!2025-02-06,75,343!2025-02-10,79,343-->
+At {@{the end of this loop}@} {@{two nodes with degree 1 will remain (call them `u`, `v`)}@}. Lastly, {@{add the edge `(u,v)` to the tree}@}.<sup>[\[3\]](#^ref-3)</sup> <!--SR:!2025-02-10,79,343!2026-02-02,361,363!2025-02-10,79,343-->
 
 <pre>
 15 <i>u</i> ← <i>v</i> ← 0

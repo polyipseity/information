@@ -27,7 +27,7 @@ tags:
 - header ::@:: company name, `(Consolidated) Statement of Cash Flows`, duration, (monetary unit) <!--SR:!2025-03-01,63,310!2025-02-26,60,310-->
   - header / duration ::@:: example: `For the Year ended December 31, 2019`, `For the period September 1, 2024 to December 13, 2025` <!--SR:!2025-02-23,58,310!2025-02-14,47,290-->
   - header / monetary unit ::@:: example: <br/> (none; not recommended) <br/> `(in million of dollars, except per share data)` <!--SR:!2025-02-23,58,310!2025-02-27,61,310-->
-- dollar sign ::@:: Add it before the first number ("net income") and the last numbers ("cash & cash equivalents at end of period"). The rest can be omitted. <!--SR:!2025-02-15,48,290!2025-02-06,41,290-->
+- dollar sign ::@:: Add it before the first number ("net income") and the last numbers ("cash & cash equivalents at end of period"). The rest can be omitted. <!--SR:!2025-02-15,48,290!2025-07-19,163,310-->
 - total ::@:: Calculate "net cash provided by operating activities", "net cash provided by investing activities", "net cash provided by financing activities", and "cash & cash equivalents at end of period" from "cash & cash equivalents at beginning of period". <!--SR:!2025-02-12,46,290!2025-02-12,46,290-->
   - total / format ::@:: Add a (over)line above the total. <p> For "cash & cash equivalents at end of period", additionally add double (under)lines below the total. <!--SR:!2025-02-23,58,310!2025-02-24,58,310-->
 - negative number ::@:: Write negative numbers in brackets, not with a minus sign. For example, write `(42)` instead of `-42`. <!--SR:!2025-02-23,58,310!2025-03-03,64,310-->

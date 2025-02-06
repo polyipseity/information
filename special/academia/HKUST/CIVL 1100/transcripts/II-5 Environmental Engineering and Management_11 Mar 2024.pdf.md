@@ -100,8 +100,8 @@ return await memorize_seq(
 - _(begin)_→::@::←(Cap. 311) Air Pollution Control Ordinance <!--SR:!2025-09-22,265,255!2025-11-13,409,375-->
 - (Cap. 311) Air Pollution Control Ordinance→::@::←(Cap. 354) Waste Disposal Ordinance <!--SR:!2025-07-08,229,275!2025-03-25,57,255-->
 - (Cap. 354) Waste Disposal Ordinance→::@::←(Cap. 358) Water Pollution Control Ordinance <!--SR:!2025-08-14,228,275!2025-04-03,165,315-->
-- (Cap. 358) Water Pollution Control Ordinance→::@::←(Cap. 400) Noise Pollution Control Ordinance <!--SR:!2025-03-13,133,255!2025-02-06,15,155-->
-- (Cap. 400) Noise Pollution Control Ordinance→::@::←(Cap. 499) Environmental Impact Ordinance <!--SR:!2025-02-06,149,295!2025-05-16,188,295-->
+- (Cap. 358) Water Pollution Control Ordinance→::@::←(Cap. 400) Noise Pollution Control Ordinance <!--SR:!2025-03-13,133,255!2025-02-28,22,155-->
+- (Cap. 400) Noise Pollution Control Ordinance→::@::←(Cap. 499) Environmental Impact Ordinance <!--SR:!2025-04-25,78,275!2025-05-16,188,295-->
 - (Cap. 499) Environmental Impact Ordinance→::@::←_(end)_ <!--SR:!2025-11-29,423,375!2025-08-30,326,355-->
 
 <!--/pytextgen-->
@@ -191,7 +191,7 @@ Landfills in Hong Kong
 Sustainable Waste Management
 
 - sustainable waste management triangle ::@:: top: waste avoidance + 3Rs, left: incineration (waste-to-energy), right: landfill (methane (CH<sub>4</sub>) to energy) <!--SR:!2025-06-14,257,290!2025-09-19,354,310-->
-  - sustainable waste management triangle arrows ::@:: top → left, right; left → right <!--SR:!2026-09-10,632,330!2025-02-06,198,310-->
+  - sustainable waste management triangle arrows ::@:: top → left, right; left → right <!--SR:!2026-09-10,632,330!2027-06-05,849,330-->
 
 ## page 12
 
@@ -392,7 +392,7 @@ return await memorize_seq(
 - carbon dioxide (CO<sub>2</sub>)→::@::←hydroflurocarbons (HFCs) <!--SR:!2025-04-13,185,230!2025-05-06,223,270-->
 - hydroflurocarbons (HFCs)→::@::←methane (CH<sub>4</sub>) <!--SR:!2025-06-25,190,270!2025-03-10,166,230-->
 - methane (CH<sub>4</sub>)→::@::←nitrous oxide (N<sub>2</sub>O) <!--SR:!2025-06-13,229,250!2026-01-09,395,290-->
-- nitrous oxide (N<sub>2</sub>O)→::@::←perflurocarbons (PFCs) <!--SR:!2025-03-26,60,210!2025-02-06,4,130-->
+- nitrous oxide (N<sub>2</sub>O)→::@::←perflurocarbons (PFCs) <!--SR:!2025-03-26,60,210!2025-02-11,5,130-->
 - perflurocarbons (PFCs)→::@::←sulfur hexafluoride (SF<sub>6</sub>) <!--SR:!2025-04-22,133,270!2025-03-13,187,270-->
 - sulfur hexafluoride (SF<sub>6</sub>)→::@::←_(end)_ <!--SR:!2025-02-14,186,310!2025-03-30,222,310-->
 
@@ -418,7 +418,7 @@ Observed climate change in Hong Kong
 Concentration Units for Liquids
 
 - concentration units for liquids ::@:: mass of substance per unit mass of mixture, mass of substance per unit volume of mixture <!--SR:!2025-06-07,242,270!2026-04-06,500,310-->
-  - mass of substance per unit volume of mixture units for liquids ::@:: mol/L (mol is not strictly mass), mg/L <!--SR:!2026-07-09,592,330!2025-02-06,185,310-->
+  - mass of substance per unit volume of mixture units for liquids ::@:: mol/L (mol is not strictly mass), mg/L <!--SR:!2026-07-09,592,330!2026-09-02,573,310-->
   - mass of substance per unit mass of mixture units for liquids ::@:: parts per billion (ppb) by weight, parts per million (ppm) by weight <!--SR:!2025-03-09,205,310!2025-06-21,306,330-->
 
 ## page 34

@@ -266,7 +266,7 @@ tags:
 > 4. excess capacity
 >
 > - solution: {@{3}@}
-> - explanation: {@{It would only affect the equilibrium price and quantity.}@} <!--SR:!2025-02-20,86,356!2025-02-06,74,356-->
+> - explanation: {@{It would only affect the equilibrium price and quantity.}@} <!--SR:!2025-02-20,86,356!2026-02-05,364,376-->
 
 ### chapter 8 lecture
 
