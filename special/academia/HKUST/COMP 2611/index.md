@@ -41,7 +41,7 @@ The content is in teaching order.
 
 ## children
 
-- [questions](questions.md)
+<!-- - [questions](questions.md) -->
 
 ## week 1 lecture
 
