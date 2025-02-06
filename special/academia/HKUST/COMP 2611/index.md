@@ -89,6 +89,16 @@ The content is in teaching order.
   - information age / applications ::@:: artificial intelligence, automobile computers, human genome project, search engines, world wide web
   - information age / trend ::@:: electronics technology continues to evolve due to increased capacity and reduced cost, e.g. vacuum tubes (1950s), transistors (1950, 1960s) to integrated circuits (1960s, 1970s), very large scale integrated (VLSI) circuits (since 1980s)
 
+## week 1 lab
+
+- datetime: 2025-02-04T15:00:00+08:00/2025-02-04T15:50:00+08:00
+- status: unscheduled, no lab
+
+## week 1 tutorial
+
+- datetime: 2025-02-04T18:00:00+08:00/2025-02-04T18:50:00+08:00
+- status: unscheduled, no tutorial
+
 ## assignments
 
 ## midterm examination
