@@ -29,14 +29,6 @@ The content is in teaching order.
     - midterm exam: 35%
     - final exam: 50%
 - logistics
-  - course learning outcomes (CLOs) ::@:: assembly language, digital logic, instruction set architecture (ISA), organizational paradigms, processor & memory
-  - topics ::@:: brief digital circuit, data representation and arithmetic, instruction set architecture and assembly, computer architecture
-    1. digital logic: combinational, sequential
-    2. data representation: integer, fractional, character
-    3. instruction set architecture (ISA)
-    4. MIPS assembly language
-    5. processor: datapath, control; pipeline
-    6. memory system: cache, virtual memory
 
 ## children
 
