@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"
+width="320px" height="320px" viewBox="-80 -80 160 160">
+<title>Tschirnhausen cubic</title>
+<desc>y = x^2 - x - 2</desc>
+<defs>
+  <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
+    <path d="M0,0h20v20" fill="none" stroke="black" stroke-width=".5" stroke-dasharray="2,2"/>
+  </pattern>
+</defs>
+<rect x="-80" y="-80" width="100%" height="100%" fill="url(#grid)"/>
+<g stroke="black" fill="none">
+  <path d="M-80,0h160 M0,-140V8v200" stroke-width=".75"/>
+  <path d="M-80,-80v160h160" stroke-width=".5" stroke-dasharray="2,2"/>
+  <path id="neg" d="M-3,10 Q -1.375,-1.375 0.25,-2.1875 1.875,-3 3.5,6.75" 
+    stroke="red" transform="scale(20,-20)" stroke-width=".05"/>
+</g>
+<text font-size="6" stroke="none" fill="black" text-anchor="left" font-family="New Century Schoolbook" >
+  <tspan x="-79" y="5">&#x2212;4</tspan>
+  <tspan x="-62" y="5">&#x2212;3</tspan>
+  <tspan x="-44" y="5">&#x2212;2</tspan>
+  <tspan x="-24" y="5">&#x2212;1</tspan>
+  <tspan x="3" y="5">0</tspan>
+  <tspan x="19" y="5">1</tspan>
+  <tspan x="37" y="5">2</tspan>
+  <tspan x="58" y="5">3</tspan>
+  <tspan x="77" y="5">4</tspan>
+  <tspan x="-5" y="-76">4</tspan>
+  <tspan x="-5" y="-58">3</tspan>
+  <tspan x="-5" y="-38">2</tspan>
+  <tspan x="-5" y="-18">1</tspan>
+  <tspan x="-8" y="79">&#x2212;4</tspan>
+  <tspan x="-8" y="62">&#x2212;3</tspan>
+  <tspan x="-8" y="42">&#x2212;2</tspan>
+  <tspan x="-8" y="22">&#x2212;1</tspan>
+</text>
+<text font-size="7" stroke="none" fill="black" text-anchor="left" font-family="New Century Schoolbook" font-style="italic">
+  <tspan x="10" y="-60">y = x</tspan><tspan dy="-2" dx="1" font-size="5">2</tspan><tspan dy="3" dx="-1">&#x2212; x&#x2212; 2</tspan>
+</text>
+</svg>

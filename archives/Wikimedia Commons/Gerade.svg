@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="600" version="1.0">
+  <path fill="none" stroke="#000" d="M1 244h600"/>
+  <path fill="none" stroke="#000" stroke-dasharray="1 8" d="M1 179h601M1 446h601M1 46h601M1 112h601M1 576h601M1 510h601M1 378h601M1 312h601M147 4v601M545 4v601M477 4v601M412 4v601M344 4v601M278 4v601M81 3v601"/>
+  <text xml:space="preserve" x="203" y="126" font-family="Bitstream Vera Sans" font-weight="400" style="line-height:0%"><tspan x="203" y="126" font-size="12" style="line-height:1.25">2</tspan></text>
+  <text xml:space="preserve" x="285" y="259" font-family="Bitstream Vera Sans" font-weight="400" style="line-height:0%"><tspan x="285" y="259" font-size="12" style="line-height:1.25">1</tspan></text>
+  <text xml:space="preserve" x="351" y="259" font-family="Bitstream Vera Sans" font-weight="400" style="line-height:0%"><tspan x="351" y="259" font-size="12" style="line-height:1.25">2</tspan></text>
+  <text xml:space="preserve" x="418" y="259" font-family="Bitstream Vera Sans" font-weight="400" style="line-height:0%"><tspan x="418" y="259" font-size="12" style="line-height:1.25">3</tspan></text>
+  <text xml:space="preserve" x="484" y="259" font-family="Bitstream Vera Sans" font-weight="400" style="line-height:0%"><tspan x="484" y="259" font-size="12" style="line-height:1.25">4</tspan></text>
+  <text xml:space="preserve" x="550" y="259" font-family="Bitstream Vera Sans" font-weight="400" style="line-height:0%"><tspan x="550" y="259" font-size="12" style="line-height:1.25">5</tspan></text>
+  <path fill="none" stroke="#000" stroke-width="1.6" d="M213 599V1"/>
+  <text xml:space="preserve" x="204" y="192" font-family="Bitstream Vera Sans" font-weight="400" style="line-height:0%"><tspan x="204" y="192" font-size="12" style="line-height:1.25">1</tspan></text>
+  <text xml:space="preserve" x="203" y="60" font-family="Bitstream Vera Sans" font-weight="400" style="line-height:0%"><tspan x="203" y="60" font-size="12" style="line-height:1.25">3</tspan></text>
+  <text xml:space="preserve" x="198" y="324" font-family="Bitstream Vera Sans" font-weight="400" style="line-height:0%"><tspan x="198" y="324" font-size="12" style="line-height:1.25">-1</tspan></text>
+  <text xml:space="preserve" x="153" y="259" font-family="Bitstream Vera Sans" font-weight="400" style="line-height:0%"><tspan x="153" y="259" font-size="12" style="line-height:1.25">-1</tspan></text>
+  <text xml:space="preserve" x="198" y="390" font-family="Bitstream Vera Sans" font-weight="400" style="line-height:0%"><tspan x="198" y="390" font-size="12" style="line-height:1.25">-2</tspan></text>
+  <text xml:space="preserve" x="198" y="456" font-family="Bitstream Vera Sans" font-weight="400" style="line-height:0%"><tspan x="198" y="456" font-size="12" style="line-height:1.25">-3</tspan></text>
+  <text xml:space="preserve" x="198" y="522" font-family="Bitstream Vera Sans" font-weight="400" style="line-height:0%"><tspan x="198" y="522" font-size="12" style="line-height:1.25">-4</tspan></text>
+  <text xml:space="preserve" x="198" y="588" font-family="Bitstream Vera Sans" font-weight="400" style="line-height:0%"><tspan x="198" y="588" font-size="12" style="line-height:1.25">-5</tspan></text>
+  <text xml:space="preserve" x="87" y="259" font-family="Bitstream Vera Sans" font-weight="400" style="line-height:0%"><tspan x="87" y="259" font-size="12" style="line-height:1.25">-2</tspan></text>
+  <path fill="none" stroke="red" stroke-width="2.5" d="M-3 405 602 22"/>
+  <text xml:space="preserve" x="219" y="259" font-family="Bitstream Vera Sans" font-weight="400" style="line-height:0%"><tspan x="219" y="259" font-size="12" style="line-height:1.25">0</tspan></text>
+</svg>
