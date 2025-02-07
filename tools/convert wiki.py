@@ -184,8 +184,10 @@ async def wiki_html_to_plaintext(
             or __BOLD_FONT_STYLE_REGEX.search(str(ele.get("style", "")))
             or __ITALIC_FONT_STYLE_REGEX.search(str(ele.get("style", "")))
         ):
-            bold = ele.name in {"b", "strong"} or __BOLD_FONT_STYLE_REGEX.search(
-                str(ele.get("style", ""))
+            bold = (
+                ele.name in {"b", "strong"}
+                or __BOLD_FONT_STYLE_REGEX.search(str(ele.get("style", "")))
+                and "mw-heading" not in classes
             )
             italic = ele.name in {"i"} or __ITALIC_FONT_STYLE_REGEX.search(
                 str(ele.get("style", ""))
