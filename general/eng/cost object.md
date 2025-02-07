@@ -11,9 +11,9 @@ tags:
 
 <!-- | ![](../../archives/Wikimedia%20Commons/Ambox%20important.svg) | This article __possibly contains [original research](https://en.wikipedia.org/wiki/Wikipedia:No%20original%20research)__. Please [improve it](https://en.wikipedia.org/w/index.php?title=Cost_object&action=edit) by [verifying](https://en.wikipedia.org/wiki/Wikipedia:Verifiability) the claims made and adding [inline citations](https://en.wikipedia.org/wiki/Wikipedia:Citing%20sources#Inline%20citations). Statements consisting only of original research should be removed. _\(January 2008\)__\([Learn how and when to remove this message](https://en.wikipedia.org/wiki/Help:Maintenance%20template%20removal)\)_ | -->
 
-{@{A __cost object__}@} is {@{a term used primarily in [cost accounting](cost%20accounting.md) to describe something to which [costs](accounting%20cost.md) are assigned}@}.<sup>[\[1\]](#^ref-1)</sup> {@{Common examples of cost objects}@} are {@{product lines, geographic territories, customers, departments or anything else for which management would like to quantify cost}@}.<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2025-02-07,4,270!2025-02-07,4,270!2025-02-07,4,270!2025-02-07,4,270-->
+{@{A __cost object__}@} is {@{a term used primarily in [cost accounting](cost%20accounting.md) to describe something to which [costs](accounting%20cost.md) are assigned}@}.<sup>[\[1\]](#^ref-1)</sup> {@{Common examples of cost objects}@} are {@{product lines, geographic territories, customers, departments or anything else for which management would like to quantify cost}@}.<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2025-02-22,15,290!2025-02-22,15,290!2025-02-21,14,290!2025-02-19,12,270-->
 
-{@{The use of cost objects}@} is common within {@{[activity based costing](activity%20based%20costing.md) and [Grenzplankostenrechnung](Grenzplankostenrechnung.md) systems}@}.<sup>\[_[citation needed](https://en.wikipedia.org/wiki/Wikipedia:Citation%20needed)_\]</sup> <!--SR:!2025-02-07,4,270!2025-02-17,11,270-->
+{@{The use of cost objects}@} is common within {@{[activity based costing](activity%20based%20costing.md) and [Grenzplankostenrechnung](Grenzplankostenrechnung.md) systems}@}.<sup>\[_[citation needed](https://en.wikipedia.org/wiki/Wikipedia:Citation%20needed)_\]</sup> <!--SR:!2025-02-23,16,290!2025-02-17,11,270-->
 
 ## see also
 

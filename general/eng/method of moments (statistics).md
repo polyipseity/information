@@ -19,7 +19,7 @@ In {@{[statistics](statistics.md)}@}, {@{the __method of moments__}@} is {@{a me
 
 It starts by {@{expressing the population [moments](moment%20(mathematics).md) \(i.e., the [expected values](expected%20value.md) of powers of the [random variable](random%20variable.md) under consideration\) as functions of the parameters of interest}@}. Those expressions are then {@{set equal to the sample moments}@}. {@{The number of such equations}@} is {@{the same as the number of parameters to be estimated}@}. Those equations are then {@{solved for the parameters of interest}@}. The solutions are {@{estimates of those parameters}@}. <!--SR:!2025-02-26,43,290!2025-02-26,45,290!2025-03-24,67,310!2025-03-16,60,310!2025-03-19,63,310!2025-03-22,65,310-->
 
-The method of moments was introduced by {@{[Pafnuty Chebyshev](Pafnuty%20Chebyshev.md) in 1887}@} in {@{the proof of the [central limit theorem](central%20limit%20theorem.md)}@}. The idea of {@{matching empirical moments of a distribution to the population moments}@} dates back {@{at least to [Karl Pearson](Karl%20Pearson.md)}@}.<sup>[\[1\]](#^ref-1)</sup> <!--SR:!2025-04-05,63,250!2025-02-07,28,270!2025-03-21,64,310!2025-02-24,43,290-->
+The method of moments was introduced by {@{[Pafnuty Chebyshev](Pafnuty%20Chebyshev.md) in 1887}@} in {@{the proof of the [central limit theorem](central%20limit%20theorem.md)}@}. The idea of {@{matching empirical moments of a distribution to the population moments}@} dates back {@{at least to [Karl Pearson](Karl%20Pearson.md)}@}.<sup>[\[1\]](#^ref-1)</sup> <!--SR:!2025-04-05,63,250!2025-05-22,104,290!2025-03-21,64,310!2025-02-24,43,290-->
 
 ## method
 
@@ -55,7 +55,7 @@ An example application of the method of moments is to {@{estimate polynomial pro
 
 Let {@{$X_{1},X_{2},\cdots$ be independent random variables with mean 0 and variance 1}@}, then let {@{$S_{n}:={\frac {1}{\sqrt {n} } }\sum _{i=1}^{n}X_{i}$}@}. We can compute {@{the moments of $S_{n}$ as $n \to \infty$ as $$E[S_{n}^{0}]=1,E[S_{n}^{1}]=0,E[S_{n}^{2}]=1,E[S_{n}^{3}]=0,\cdots$$}@} Explicit expansion shows that {@{$$E[S_{n}^{2k+1}]=0;\quad E[S_{n}^{2k}]={\frac { {\binom {n}{k} }{\frac {(2k)!}{2^{k} } } }{n^{k} } }={\frac {n(n-1)\cdots (n-k+1)}{n^{k} } }(2k-1)!!$$}@} where the numerator is {@{the number of ways to select $k$ distinct pairs of balls by picking one each from $2k$ buckets, each containing balls numbered from $1$ to $n$}@}. (annotation: Alternatively, {@{$\frac {(2k)!} {2^k k!}$ is the number of ways to pair up $2k$ buckets, and $P(n, k) = \binom n k k!$ is the number of ways to assign numbers from $1$ to $n$ to the $k$ pairs}@}. Multiplying them gives up the numerator.) At {@{the $n\to \infty$ limit}@}, {@{all moments converge to that of a standard normal distribution}@}. More analysis then show that {@{this convergence in moments imply a convergence in distribution}@}. <!--SR:!2025-03-18,62,310!2025-02-25,42,290!2025-03-24,67,310!2025-02-12,12,230!2025-02-27,46,290!2025-02-11,30,270!2025-02-23,42,290!2025-03-16,60,310!2025-02-18,39,290-->
 
-{@{Essentially this argument}@} was published {@{by Chebyshev in 1887}@}.<sup>[\[3\]](#^ref-3)</sup> <!--SR:!2025-02-18,39,290!2025-02-07,28,270-->
+{@{Essentially this argument}@} was published {@{by Chebyshev in 1887}@}.<sup>[\[3\]](#^ref-3)</sup> <!--SR:!2025-02-18,39,290!2025-05-21,103,290-->
 
 ### uniform distribution
 

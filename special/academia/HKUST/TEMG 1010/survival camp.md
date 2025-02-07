@@ -29,10 +29,10 @@ We went over some leadership theory and did some group activities, basically.
   - Johari window / unknown area ::@:: unknown to self × unknown to others <!--SR:!2025-10-08,248,330!2025-09-27,239,330-->
   - Johari window / ask ::@:: known to self ← unknown to self <!--SR:!2025-10-14,253,330!2025-10-21,258,330-->
   - Johari window / tell ::@:: known to others ← unknown to others <!--SR:!2025-02-13,67,310!2025-09-17,230,330-->
-  - Johari window / feedback ::@:: known to self × known to others ← unknown to self × known to others <!--SR:!2025-02-07,62,310!2025-10-13,252,330-->
-  - Johari window / self-disclosure ::@:: known to self × known to others ← known to self × unknown to others <!--SR:!2025-02-07,62,310!2025-02-13,67,310-->
+  - Johari window / feedback ::@:: known to self × known to others ← unknown to self × known to others <!--SR:!2025-11-01,267,330!2025-10-13,252,330-->
+  - Johari window / self-disclosure ::@:: known to self × known to others ← known to self × unknown to others <!--SR:!2025-11-02,268,330!2025-02-13,67,310-->
   - Johari window / shared discovery ::@:: known to self × known to others ← unknown to self × unknown to others <!--SR:!2025-02-13,67,310!2025-10-19,257,330-->
-  - Johari window / self-discovery ::@:: known to self × unknown to others ← unknown to self × unknown to others <!--SR:!2025-02-07,62,310!2025-02-13,67,310-->
+  - Johari window / self-discovery ::@:: known to self × unknown to others ← unknown to self × unknown to others <!--SR:!2025-11-03,269,330!2025-02-13,67,310-->
 - 3 feedback models ::@:: commend → recommend → commend, keep → improve → stop → start (KISS), John Heron self and peer feedback <!--SR:!2025-02-13,67,310!2025-09-28,240,330-->
   - commend → recommend → commend ::@:: Suitable for individual feedback. <p> (The sandwich model strikes again...) <!--SR:!2025-10-27,263,330!2025-10-07,247,330-->
   - keep → improve → stop → start (KISS) ::@:: Suitable for improving team performance. <p> (Isn't this eliminate, reduce, raise, create (ERRC)?) <!--SR:!2025-07-25,174,310!2025-10-26,263,330-->

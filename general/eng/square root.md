@@ -16,8 +16,8 @@ tags:
 
 > __examples of square root laws not true in general for [complex numbers](complex%20number.md)__
 >
-> - $\sqrt{zw} = \sqrt z \sqrt w \qquad (-\pi < \operatorname{Arg} z + \operatorname{Arg} w \le \pi)$ ::@:: <br/> __counterexample__: $z = -1, w = -1$ <!--SR:!2025-02-07,4,274!2025-02-16,10,274-->
-> - $\sqrt{\frac z w} = \frac{\sqrt z}{\sqrt w} \qquad (-\pi < \operatorname{Arg} z - \operatorname{Arg} w \le \pi)$ ::@:: <br/> __counterexample__: $z = 1, w = -1$ <!--SR:!2025-02-17,11,274!2025-02-07,4,274-->
+> - $\sqrt{zw} = \sqrt z \sqrt w \qquad (-\pi < \operatorname{Arg} z + \operatorname{Arg} w \le \pi)$ ::@:: <br/> __counterexample__: $z = -1, w = -1$ <!--SR:!2025-02-19,12,274!2025-02-16,10,274-->
+> - $\sqrt{\frac z w} = \frac{\sqrt z}{\sqrt w} \qquad (-\pi < \operatorname{Arg} z - \operatorname{Arg} w \le \pi)$ ::@:: <br/> __counterexample__: $z = 1, w = -1$ <!--SR:!2025-02-17,11,274!2025-02-23,16,294-->
 > - $\sqrt{z^a} = \left( \sqrt z \right)^a \qquad (a \in \mathbb{C}, \operatorname{Arg} z \ne \pi)$ ::@:: <br/> __counterexample__: $z = -1$ <!--SR:!2026-06-05,636,290!2025-06-03,317,250-->
 
 ## references

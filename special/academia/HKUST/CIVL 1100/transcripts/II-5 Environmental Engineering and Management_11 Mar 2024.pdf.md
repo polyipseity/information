@@ -61,7 +61,7 @@ return await memorize_seq(
 
 - _(begin)_→::@::←air pollution <!--SR:!2026-12-25,713,330!2025-03-07,222,330-->
 - air pollution→::@::←land contamination <!--SR:!2025-05-05,223,270!2025-04-15,255,330-->
-- land contamination→::@::←noise pollution <!--SR:!2025-02-07,141,270!2025-05-16,255,290-->
+- land contamination→::@::←noise pollution <!--SR:!2026-02-24,382,270!2025-05-16,255,290-->
 - noise pollution→::@::←solid waste disposal <!--SR:!2025-04-13,209,270!2025-11-18,365,290-->
 - solid waste disposal→::@::←water pollution <!--SR:!2026-07-10,570,310!2025-08-14,210,210-->
 - water pollution→::@::←_(end)_ <!--SR:!2026-03-23,457,310!2027-01-26,745,330-->
@@ -287,7 +287,7 @@ Clean Victoria Harbor
 
 Noise Pollution: A serious problem in Hong Kong?
 
-- sound vs. noise ::@:: noise is undesirable sound <!--SR:!2025-02-07,185,310!2025-03-21,230,330-->
+- sound vs. noise ::@:: noise is undesirable sound <!--SR:!2027-04-13,795,330!2025-03-21,230,330-->
 
 ## page 24
 

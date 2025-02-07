@@ -109,7 +109,7 @@ Reflecting {@{the non-uniqueness of the resulting sort}@}, {@{the structure S ca
 
 ### depth-first search
 
-{@{An alternative algorithm for topological sorting}@} is {@{based on [depth-first search](depth-first%20search.md)}@}. The algorithm {@{loops through each node of the graph, in an arbitrary order}@}, initiating {@{a depth-first search that terminates when it hits any node that has already been visited}@} since {@{the beginning of the topological sort or the node has no outgoing edges \(i.e., a leaf node\)}@}: <!--SR:!2025-02-07,58,339!2025-02-24,67,339!2025-03-08,81,351!2025-02-07,52,331!2025-10-30,266,359-->
+{@{An alternative algorithm for topological sorting}@} is {@{based on [depth-first search](depth-first%20search.md)}@}. The algorithm {@{loops through each node of the graph, in an arbitrary order}@}, initiating {@{a depth-first search that terminates when it hits any node that has already been visited}@} since {@{the beginning of the topological sort or the node has no outgoing edges \(i.e., a leaf node\)}@}: <!--SR:!2025-11-05,271,359!2025-02-24,67,339!2025-03-08,81,351!2025-09-28,233,351!2025-10-30,266,359-->
 
 <pre>
 <i>L</i> ← Empty list that will contain the sorted nodes
@@ -288,7 +288,7 @@ Note that {@{the [prefix sum](prefix%20sum.md#parallel%20algorithms)}@} for {@{t
 >     <b>while</b> {@{global size of <i>Q</i> &gt; 0}@}
 >
 >     {@{<b>return</b> localOrder}@}
-> </pre> <!--SR:!2025-03-16,87,359!2025-02-25,70,351!2025-03-13,85,351!2025-02-27,72,334!2025-03-16,87,359!2025-03-21,92,359!2025-03-08,81,351!2025-03-20,91,359!2025-05-20,119,311!2025-09-06,213,327!2025-03-17,88,359!2025-02-23,68,334!2025-02-25,70,338!2025-03-09,81,338!2025-03-20,91,359!2025-02-07,52,331!2025-03-21,92,359!2025-03-18,89,359!2025-03-19,90,359!2025-02-22,67,327!2025-03-09,81,338!2025-03-11,83,351-->
+> </pre> <!--SR:!2025-03-16,87,359!2025-02-25,70,351!2025-03-13,85,351!2025-02-27,72,334!2025-03-16,87,359!2025-03-21,92,359!2025-03-08,81,351!2025-03-20,91,359!2025-05-20,119,311!2025-09-06,213,327!2025-03-17,88,359!2025-02-23,68,334!2025-02-25,70,338!2025-03-09,81,338!2025-03-20,91,359!2025-10-06,241,351!2025-03-21,92,359!2025-03-18,89,359!2025-03-19,90,359!2025-02-22,67,327!2025-03-09,81,338!2025-03-11,83,351-->
 
 {@{The communication cost}@} depends {@{heavily on the given graph partition}@}. As for {@{runtime}@}, on {@{a [CRCW-PRAM](parallel%20RAM.md) model that allows fetch-and-decrement in constant time}@}, this algorithm {@{runs in ${\mathcal {O} }\left({\frac {m+n}{p} }+D(\Delta +\log n)\right)$}@}, where {@{_m_ is the number of edges, _n_ is the number of vertices, _D_ is again the longest path in _G_ and _Δ_ the maximum degree}@}.<sup>[\[7\]](#^ref-7)</sup> <!--SR:!2025-02-27,72,351!2025-02-15,59,318!2025-02-20,65,319!2025-03-02,63,278!2025-02-09,15,238!2025-05-25,125,311-->
 

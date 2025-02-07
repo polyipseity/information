@@ -233,7 +233,7 @@ tags:
 > 2. The price of music downloads falls.
 > 3. The price of CDs falls.
 >
-> - solution: {@{For 1, the demand curve moves to the right, as music downloads and iPods/MP3 players are complements. For 2, the demand curve does not change, only the quantity demanded increases under the _law of demand_. For 3, the demand curve moves to the left, as music downloads and CDs are substitutes.}@} <!--SR:!2025-02-07,75,356-->
+> - solution: {@{For 1, the demand curve moves to the right, as music downloads and iPods/MP3 players are complements. For 2, the demand curve does not change, only the quantity demanded increases under the _law of demand_. For 3, the demand curve moves to the left, as music downloads and CDs are substitutes.}@} <!--SR:!2026-02-15,373,376-->
 
 <!-- markdownlint MD028 -->
 

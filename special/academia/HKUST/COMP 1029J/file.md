@@ -48,7 +48,7 @@ When done with reading, {@{close the reader to avoid locking the file by calling
 
 Use {@{`java.nio.file.Files.newBufferedWriter(path[, charset[, options]])` to read a text file}@}. For `charset`, if you leave it blank, {@{UTF-8 is used. You can use the system charset by calling `java.nio.charset.Charset.defaultCharset()`}@}. For `options`, if you leave it blank, {@{`StandardOpenOption.WRITE` is used. It creates the file if not exist and empties the content. If appending to an existing file, use `StandardOpenOption.APPEND` instead}@}. If needed, handle {@{exceptions reported by the above methods using methods in [error § catching exceptions](error.md#catching%20exceptions)}@}. <!--SR:!2026-10-15,737,330!2026-02-20,520,310!2025-07-06,341,290!2026-12-18,786,330-->
 
-To write something, use {@{`writer.write(string)`}@}. To write a newline, use {@{`writer.newLine()`}@}. An example: <!--SR:!2027-01-15,819,330!2025-02-07,286,330-->
+To write something, use {@{`writer.write(string)`}@}. To write a newline, use {@{`writer.newLine()`}@}. An example: <!--SR:!2027-01-15,819,330!2028-08-31,1301,350-->
 
 ```Java
 writer.write("Hello, world!");

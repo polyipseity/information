@@ -8,7 +8,7 @@ tags:
 
 # 5-step persuasive selling
 
-The 5-step persuasive inverts {@{the traditional narrative style that builds to a climax, i.e. using the pyramid style that starts with the climax}@}. <!--SR:!2025-02-07,179,310-->
+The 5-step persuasive inverts {@{the traditional narrative style that builds to a climax, i.e. using the pyramid style that starts with the climax}@}. <!--SR:!2027-03-17,768,330-->
 
 ```Python
 # pytextgen generate module

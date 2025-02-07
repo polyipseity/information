@@ -22,7 +22,7 @@ The structural system of a building only {@{consists of members designed to carr
 
 The structural system of a high-rise building should support {@{vertical loads such as gravity and foundation settlement, and also lateral loads such as earthquake, wind}@}. The latter, {@{lateral loads, are especially important for tall buildings}@}. Otherwise, tall buildings may {@{slide (horizontal translation) or overturn (rotation about the base)}@}. Generally the higher up, {@{the larger the load}@}. <!--SR:!2025-05-19,259,290!2026-05-23,543,315!2027-03-24,798,335!2025-03-04,204,310-->
 
-Hence, foundation-wise, low-rise buildings are {@{supported by shallow foundations (footings)}@}, while high-rise buildings are {@{supported by deep foundations (pipes), which may even reach the bedrock}@}. <!--SR:!2025-02-07,195,315!2026-04-25,520,315-->
+Hence, foundation-wise, low-rise buildings are {@{supported by shallow foundations (footings)}@}, while high-rise buildings are {@{supported by deep foundations (pipes), which may even reach the bedrock}@}. <!--SR:!2027-06-06,849,335!2026-04-25,520,315-->
 
 The structural system affects {@{the load distribution}@}. For example, a {@{structural steel undergoing overturning due to wind}@} would experience {@{tension at the wind-facing side and compression on the other side}@}. A {@{reinforced concrete (concrete with steel bars)}@} would experience the same thing, but {@{steel bars bear most of the tension while concrete bears most of the compression and the heavy vertical loading}@}. <!--SR:!2027-05-04,818,335!2026-06-10,553,315!2025-06-07,297,335!2026-05-27,547,315!2025-05-10,230,275-->
 
