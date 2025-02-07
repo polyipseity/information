@@ -1,0 +1,39 @@
+assignment:
+  comments:
+    3121940:
+      attachments: []
+      author: (selfs)
+      content: 2nd submission has removed the cache files regenerated on install.
+      datetime: 2024-03-31 23:51:00+08:00
+      id: 3121940
+    3121943:
+      attachments: []
+      author: (selfs)
+      content: Remove ALL __pycache__
+      datetime: 2024-03-31 23:55:00+08:00
+      id: 3121943
+  content: "Please follow the submission guidelines provided in Project Description.pdf\n\
+    \n\nActions\n\n\n\n\n\n\n\n , and submit your project work in a .zip file. You\
+    \ may want to check the popular Q&As (TBA) as well."
+  grade:
+    entered: 10
+    graded anonymously: false
+    possible: 10
+  id: 323969
+  properties:
+    available:
+      end: 2024-03-31 23:59:00+08:00
+      start: 2024-03-24 00:00:00+08:00
+    due: 2024-03-31 23:59:00+08:00
+    file types:
+    - zip
+    points: 10
+    submitting: a file upload
+  submissions:
+  - datetime: 2024-03-31 23:55:00+08:00
+    id: -1
+  title: Project Phase 1
+course:
+  id: 56316
+  name: COMP4321 (LX)
+type: submission/HKUST Canvas

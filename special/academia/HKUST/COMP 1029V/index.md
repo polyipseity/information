@@ -33,22 +33,26 @@ The content is in teaching order.
 - [Visual Basic for Applications](Visual%20Basic%20for%20Applications.md)
 - [basics](basics.md)
 - [control flow § branching](control%20flow.md#branching)
+- [assignments/exercise for lesson 2](assignments/exercise%20for%20lesson%202/index.md)
 
 ## lesson 3
 
 - [Excel object](Excel%20object.md)
 - [control flow § iteration](control%20flow.md#iteration)
 - [subroutine and function](subroutine%20and%20function.md)
+- [assignments/exercise for lesson 3](assignments/exercise%20for%20lesson%203/index.md)
 
 ## lesson 4
 
 - [form control](form%20control.md)
 - [recursion](recursion.md)
+- [assignments/exercise for lesson 4](assignments/exercise%20for%20lesson%204/index.md)
 
 ## lesson 5
 
 - [object](object.md)
 - [array](array.md)
+- [assignments/exercise for lesson 5](assignments/exercise%20for%20lesson%205/index.md)
 
 ## assessments
 

@@ -9,7 +9,7 @@ assignment:
   properties: {}
   submissions:
   - datetime: ''
-  - id: -1
+    id: -1
   title: HW1
 course:
   id: 54709

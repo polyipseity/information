@@ -33,8 +33,8 @@ The content is in teaching order.
 
 ## lesson 3
 
-- [exercise for lesson 3](exercise%20for%20lesson%203/)
 - (???)
+- [assignments/exercise for lesson 3](assignments/exercise%20for%20lesson%203/index.md)
 
 ## lesson 4
 

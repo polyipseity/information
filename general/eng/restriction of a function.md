@@ -1,0 +1,1 @@
+restriction (mathematics).md

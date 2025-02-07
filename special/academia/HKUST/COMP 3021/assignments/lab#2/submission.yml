@@ -1,0 +1,44 @@
+assignment:
+  comments:
+    3218385:
+      attachments: []
+      author: (self)
+      content: https://github.com/polyipseity/hkust-comp-3021/tree/lab/2
+      datetime: 2024-10-01 12:29:00+08:00
+      id: 3218385
+  content: 'Provide the link to your GitHub repositories and a screenshot of the execution
+    results.
+
+     
+
+    TestLab2.java
+
+
+
+
+
+    Download TestLab2.java'
+  grade:
+    entered: 1
+    graded anonymously: false
+    possible: 1
+  id: 341834
+  properties:
+    available:
+      end: 2024-10-01 23:59:00+08:00
+      start: null
+    due: 2024-10-01 23:59:00+08:00
+    file types:
+    - png
+    - jpeg
+    - jpg
+    points: 1
+    submitting: a file upload
+  submissions:
+  - datetime: 2024-10-01 12:29:00+08:00
+    id: -1
+  title: Lab#2
+course:
+  id: 58181
+  name: COMP3021 (L1)
+type: submission/HKUST Canvas

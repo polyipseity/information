@@ -34,24 +34,28 @@ The content is in teaching order.
 - [function](function.md)
 - [comment](comment.md)
 - [control flow](control%20flow.md)
+- [assignments/exercise for lesson 2](assignments/exercise%20for%20lesson%202/index.md)
 
 ## lesson 3
 
 - [sequence § multidimensional](sequence.md#multidimensional)
 - [Conway's Game of Life](Conway's%20Game%20of%20Life.md)
 - [console](console.md)
+- [assignments/exercise for lesson 3](assignments/exercise%20for%20lesson%203/index.md)
 
 ## lesson 4
 
 - [dictionary](dictionary.md)
 - [error](error.md)
 - [file](file.md)
+- [assignments/exercise for lesson 4](assignments/exercise%20for%20lesson%204/index.md)
 
 ## lesson 5
 
 - [recursion](recursion.md)
 - [turtle](turtle.md)
 - [object](object.md)
+- [assignments/exercise for lesson 5](assignments/exercise%20for%20lesson%205/index.md)
 
 ## assessments
 

@@ -1,0 +1,68 @@
+assignment:
+  comments:
+    3236665:
+      attachments: []
+      author: (self)
+      content: https://github.com/polyipseity/hkust-comp-3021/tree/lab/4 (https://github.com/polyipseity/hkust-comp-3021/commit/99a90c5f208bba759fc17c369c468619eab28452)
+      datetime: 2024-10-14 10:15:00+08:00
+      id: 3236665
+  content: 'Provide the link to your GitHub repositories and a screenshot of the execution
+    results.
+
+    TestLab4.java
+
+
+
+
+
+    Download TestLab4.java
+
+    FAQs:
+
+
+    Q: Should we include a period at the end of the sentence?
+
+    A: It is fine either way.
+
+
+
+    Q: Are we matching words or substrings?
+
+    A: Substrings. E.g. "Hand" is matched when "and" is the keyword. Matching on words
+    will require regular expression, which is out of scope for this course.
+
+
+
+    Q: Should we make sure that the date format is the same as in the expected output?
+
+    A: No, similar to lab3.
+
+
+
+    Q: Can we change the compareTo function directly? Will it affect our lab3 grade?
+
+    A: You can change it directly. It will not affect your lab3 submission.'
+  grade:
+    entered: 1
+    graded anonymously: false
+    possible: 1
+  id: 341836
+  properties:
+    available:
+      end: 2024-10-15 23:59:00+08:00
+      start: 2024-10-06 00:00:00+08:00
+    due: 2024-10-15 23:59:00+08:00
+    file types:
+    - png
+    - jpeg
+    - jpg
+    points: 1
+    submitting: a file upload
+  submissions:
+  - datetime: 2024-10-14 10:15:00+08:00
+    id: -1
+  title: Lab#4
+course:
+  id: 58181
+  name: COMP3021 (L1)
+type: submission/HKUST Canvas

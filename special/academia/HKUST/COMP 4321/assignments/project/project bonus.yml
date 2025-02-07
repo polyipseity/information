@@ -1,0 +1,19 @@
+assignment:
+  comments: {}
+  content: No additional details were added for this assignment.
+  grade:
+    entered: 3
+    graded anonymously: false
+    possible: 4.5
+  id: 323967
+  properties:
+    due: No Due Date
+    points: 4.5
+  submissions:
+  - datetime: ''
+    id: -1
+  title: Project Bonus
+course:
+  id: 56316
+  name: COMP4321 (LX)
+type: submission/HKUST Canvas

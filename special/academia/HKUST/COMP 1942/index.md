@@ -23,6 +23,10 @@ tags:
 
 The content is in teaching order.
 
+## children
+
+- [project](project/project.md)
+
 ## week 1 lecture
 
 - datetime: 2024-01-31T09:00:00+08:00/2024-01-31T10:30:00+08:00

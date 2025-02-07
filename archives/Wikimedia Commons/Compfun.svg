@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.0"
+   width="600"
+   height="300"
+   id="svg1901">
+  <defs
+     id="defs1903">
+    <marker
+       refX="0"
+       refY="0"
+       orient="auto"
+       style="overflow:visible"
+       id="Arrow1Lend">
+      <path
+         d="M 0,0 L 5,-5 L -12.5,0 L 5,5 L 0,0 z "
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         id="path4140" />
+    </marker>
+  </defs>
+  <g
+     style="opacity:1"
+     id="layer1">
+    <path
+       d="M 250 174 A 69 117 0 1 1  112,174 A 69 117 0 1 1  250 174 z"
+       transform="translate(-92,-10)"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-linejoin:miter;stroke-opacity:1"
+       id="path2157" />
+    <path
+       d="M 250 174 A 69 117 0 1 1  112,174 A 69 117 0 1 1  250 174 z"
+       transform="translate(125,-9)"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-linejoin:miter;stroke-opacity:1"
+       id="path3139" />
+    <path
+       d="M 250 174 A 69 117 0 1 1  112,174 A 69 117 0 1 1  250 174 z"
+       transform="translate(335,-8)"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-linejoin:miter;stroke-opacity:1"
+       id="path3141" />
+    <text
+       x="77"
+       y="39"
+       style="font-size:28px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Times New Roman"
+       id="text3151"
+       xml:space="preserve"><tspan
+         x="77"
+         y="39"
+         style="font-size:36px"
+         id="tspan3153">X</tspan></text>
+    <text
+       x="294"
+       y="40"
+       style="font-size:28px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Times New Roman"
+       id="text3155"
+       xml:space="preserve"><tspan
+         x="294"
+         y="40"
+         style="font-size:36px"
+         id="tspan3157">Y</tspan></text>
+    <text
+       x="505"
+       y="41"
+       style="font-size:28px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Times New Roman"
+       id="text3159"
+       xml:space="preserve"><tspan
+         x="505"
+         y="41"
+         style="font-size:36px"
+         id="tspan3161">Z</tspan></text>
+    <path
+       d="M 140,32 L 242,32"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow1Lend);stroke-opacity:1"
+       id="path3163" />
+    <path
+       d="M 359,33 L 461,33"
+       style="font-size:20px;opacity:1;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow1Lend);stroke-opacity:1"
+       id="path4332" />
+    <text
+       x="182"
+       y="26"
+       style="font-size:20px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Times New Roman"
+       id="text4334"
+       xml:space="preserve"><tspan
+         x="182"
+         y="26"
+         style="font-size:28px"
+         id="tspan4336">f</tspan></text>
+    <text
+       x="405"
+       y="22"
+       style="font-size:20px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Times New Roman"
+       id="text4338"
+       xml:space="preserve"><tspan
+         x="405"
+         y="22"
+         style="font-size:28px"
+         id="tspan4340">g</tspan></text>
+    <text
+       x="82"
+       y="99"
+       style="font-size:20px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Times New Roman"
+       id="text4342"
+       xml:space="preserve"><tspan
+         x="82"
+         y="99"
+         style="font-size:28px"
+         id="tspan4344">a</tspan></text>
+    <text
+       x="67"
+       y="146"
+       style="font-size:20px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Times New Roman"
+       id="text4346"
+       xml:space="preserve"><tspan
+         x="67"
+         y="146"
+         style="font-size:28px"
+         id="tspan4348">b</tspan></text>
+    <text
+       x="90"
+       y="188"
+       style="font-size:20px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Times New Roman"
+       id="text4350"
+       xml:space="preserve"><tspan
+         x="90"
+         y="188"
+         style="font-size:28px"
+         id="tspan4352">c</tspan></text>
+    <text
+       x="79"
+       y="243"
+       style="font-size:20px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Times New Roman"
+       id="text4354"
+       xml:space="preserve"><tspan
+         x="79"
+         y="243"
+         style="font-size:28px"
+         id="tspan4356">d</tspan></text>
+    <text
+       x="301"
+       y="83"
+       style="font-size:20px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Times New Roman"
+       id="text4358"
+       xml:space="preserve"><tspan
+         x="301"
+         y="83"
+         style="font-size:28px"
+         id="tspan4360">1</tspan></text>
+    <text
+       x="294"
+       y="134"
+       style="font-size:20px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Times New Roman"
+       id="text4362"
+       xml:space="preserve"><tspan
+         x="294"
+         y="134"
+         style="font-size:28px"
+         id="tspan4364">2</tspan></text>
+    <text
+       x="314"
+       y="180"
+       style="font-size:20px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Times New Roman"
+       id="text4366"
+       xml:space="preserve"><tspan
+         x="314"
+         y="180"
+         style="font-size:28px"
+         id="tspan4368">3</tspan></text>
+    <text
+       x="296"
+       y="227"
+       style="font-size:20px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Times New Roman"
+       id="text4370"
+       xml:space="preserve"><tspan
+         x="296"
+         y="227"
+         style="font-size:28px"
+         id="tspan4372">4</tspan></text>
+    <text
+       x="509"
+       y="95"
+       style="font-size:20px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Times New Roman"
+       id="text4374"
+       xml:space="preserve"><tspan
+         x="509"
+         y="95"
+         style="font-size:28px"
+         id="tspan4376">@</tspan></text>
+    <text
+       x="509"
+       y="164"
+       style="font-size:20px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Times New Roman"
+       id="text4378"
+       xml:space="preserve"><tspan
+         x="509"
+         y="164"
+         style="font-size:28px"
+         id="tspan4380">#</tspan></text>
+    <text
+       x="510"
+       y="230"
+       style="font-size:20px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Times New Roman"
+       id="text4382"
+       xml:space="preserve"><tspan
+         x="510"
+         y="230"
+         style="font-size:28px"
+         id="tspan4384">!!</tspan></text>
+    <path
+       d="M 107,93 L 283,78"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow1Lend);stroke-opacity:1"
+       id="path4386" />
+    <path
+       d="M 93,138 L 282,92"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow1Lend);stroke-opacity:1"
+       id="path4388" />
+    <path
+       d="M 112,183 L 291,176"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow1Lend);stroke-opacity:1"
+       id="path4390" />
+    <path
+       d="M 102,235 L 278,223"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow1Lend);stroke-opacity:1"
+       id="path4392" />
+    <path
+       d="M 322,77 L 492,89"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow1Lend);stroke-opacity:1"
+       id="path4394" />
+    <path
+       d="M 317,128 L 488,153"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow1Lend);stroke-opacity:1"
+       id="path4396" />
+    <path
+       d="M 333,174 L 486,167"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow1Lend);stroke-opacity:1"
+       id="path4398" />
+    <path
+       d="M 319,220 L 493,224"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow1Lend);stroke-opacity:1"
+       id="path4400" />
+  </g>
+</svg>
