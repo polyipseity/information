@@ -1,0 +1,534 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   viewBox="201 103 614 632"
+   width="614pt"
+   height="632pt"
+   id="svg6434"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="Cartesian-coordinate-system-with-circle.svg">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1301"
+     inkscape:window-height="744"
+     id="namedview6566"
+     showgrid="false"
+     inkscape:zoom="0.29873418"
+     inkscape:cx="383.75"
+     inkscape:cy="395"
+     inkscape:window-x="65"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg6434" />
+  <metadata
+     id="metadata6436">
+    <dc:date>2006-04-19 01:03Z</dc:date>
+    <!-- Produced by OmniGraffle Professional 4.1.1 -->
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs6438">
+    <font-face
+       font-size="24pt"
+       units-per-em="1000"
+       underline-position="-75.683594"
+       underline-thickness="49.316406"
+       slope="0"
+       x-height="541.6667"
+       cap-height="750"
+       ascent="770.01953"
+       descent="-229.98047"
+       font-weight="500"
+       id="font-face6440">
+      <!--{
+    NSCTFontTraitsAttribute = {
+        NSCTFontProportionTrait = 0; 
+        NSCTFontSlantTrait = 0; 
+        NSCTFontSymbolicTrait = 0; 
+        NSCTFontWeightTrait = 0; 
+    }; 
+    NSFontNameAttribute = Helvetica; 
+    NSFontSizeAttribute = 24; 
+}-->
+      <font-face-src>
+        <font-face-name
+           name="Helvetica" />
+      </font-face-src>
+    </font-face>
+    <font-face
+       font-size="36pt"
+       units-per-em="1000"
+       underline-position="-75.683594"
+       underline-thickness="49.316406"
+       slope="-333.33334"
+       x-height="527.77777"
+       cap-height="736.11115"
+       ascent="770.01953"
+       descent="-229.98047"
+       font-style="italic"
+       font-weight="500"
+       id="font-face6442">
+      <!--{
+    NSCTFontCascadeListAttribute = (
+        NSCTFontDescriptor &lt;0x9A57D30&gt; = {
+    NSCTFontTraitsAttribute = {
+        NSCTFontProportionTrait = 0; 
+        NSCTFontSlantTrait = 0; 
+        NSCTFontSymbolicTrait = 0; 
+        NSCTFontWeightTrait = 0; 
+    }; 
+    NSFontNameAttribute = Helvetica; 
+}
+    ); 
+    NSCTFontTraitsAttribute = {NSCTFontSlantTrait = -0.06666667; NSCTFontSymbolicTrait = 1; }; 
+    NSFontNameAttribute = "Helvetica-Oblique"; 
+    NSFontSizeAttribute = 36; 
+}-->
+      <font-face-src>
+        <font-face-name
+           name="Helvetica-Oblique" />
+      </font-face-src>
+    </font-face>
+    <font-face
+       font-size="24pt"
+       units-per-em="1000"
+       underline-position="-75.683594"
+       underline-thickness="49.316406"
+       slope="0"
+       x-height="541.6667"
+       cap-height="729.1667"
+       ascent="770.01953"
+       descent="-229.98047"
+       font-weight="bold"
+       id="font-face6444">
+      <!--{
+    NSCTFontTraitsAttribute = {
+        NSCTFontProportionTrait = 0; 
+        NSCTFontSlantTrait = 0; 
+        NSCTFontSymbolicTrait = 2; 
+        NSCTFontWeightTrait = 0.4; 
+    }; 
+    NSFontNameAttribute = "Helvetica-Bold"; 
+    NSFontSizeAttribute = 24; 
+}-->
+      <font-face-src>
+        <font-face-name
+           name="Helvetica-Bold" />
+      </font-face-src>
+    </font-face>
+    <font-face
+       font-size="18pt"
+       units-per-em="1000"
+       underline-position="-75.683594"
+       underline-thickness="49.316406"
+       slope="0"
+       x-height="555.55554"
+       cap-height="722.22223"
+       ascent="770.01953"
+       descent="-229.98047"
+       font-weight="bold"
+       id="font-face6446">
+      <!--{
+    NSCTFontTraitsAttribute = {
+        NSCTFontProportionTrait = 0; 
+        NSCTFontSlantTrait = 0; 
+        NSCTFontSymbolicTrait = 2; 
+        NSCTFontWeightTrait = 0.4; 
+    }; 
+    NSFontNameAttribute = "Helvetica-Bold"; 
+    NSFontSizeAttribute = 18; 
+}-->
+      <font-face-src>
+        <font-face-name
+           name="Helvetica-Bold" />
+      </font-face-src>
+    </font-face>
+  </defs>
+  <circle
+     style="fill:none;fill-opacity:1;stroke:#e90805;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+     cx="503.99994"
+     cy="431.99994"
+     r="144.00024"
+     id="circle6458" />
+  <line
+     style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+     x1="495.5"
+     y1="432"
+     x2="792"
+     y2="432"
+     id="line6460" />
+  <line
+     style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+     x1="216"
+     y1="432"
+     x2="504"
+     y2="432"
+     id="line6462" />
+  <line
+     style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+     x1="504"
+     y1="720"
+     x2="504"
+     y2="432"
+     id="line6464" />
+  <line
+     style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+     x1="504"
+     y1="432"
+     x2="504"
+     y2="144"
+     id="line6466" />
+  <line
+     style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+     x1="576"
+     y1="441.5"
+     x2="576"
+     y2="423.5"
+     id="line6468" />
+  <line
+     style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+     x1="648"
+     y1="441.5"
+     x2="648"
+     y2="423.5"
+     id="line6470" />
+  <line
+     style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+     x1="720"
+     y1="441.5"
+     x2="720"
+     y2="423.5"
+     id="line6472" />
+  <line
+     style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+     x1="432"
+     y1="441.5"
+     x2="432"
+     y2="423.5"
+     id="line6474" />
+  <line
+     style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+     x1="360"
+     y1="441.5"
+     x2="360"
+     y2="423.5"
+     id="line6476" />
+  <line
+     style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+     x1="288"
+     y1="441.5"
+     x2="288"
+     y2="423.5"
+     id="line6478" />
+  <line
+     style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+     x1="513.5"
+     y1="648"
+     x2="495.5"
+     y2="648"
+     id="line6480" />
+  <line
+     style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+     x1="513.5"
+     y1="576"
+     x2="495.5"
+     y2="576"
+     id="line6482" />
+  <line
+     style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+     x1="513.5"
+     y1="504"
+     x2="495.5"
+     y2="504"
+     id="line6484" />
+  <line
+     style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+     x1="513.5"
+     y1="360"
+     x2="495.5"
+     y2="360"
+     id="line6486" />
+  <line
+     style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+     x1="513.5"
+     y1="288"
+     x2="495.5"
+     y2="288"
+     id="line6488" />
+  <line
+     style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+     x1="513.5"
+     y1="216"
+     x2="495.5"
+     y2="216"
+     id="line6490" />
+  <text
+     style="fill:#000000;fill-opacity:1;stroke:none;stroke-dasharray:none;stroke-opacity:1"
+     id="text6492"
+     x="569"
+     y="443.5">
+    <tspan
+       style="font-size:30px"
+       font-size="24pt"
+       x="569.32617"
+       y="466.5"
+       textLength="13.347"
+       id="tspan6494">1</tspan>
+  </text>
+  <text
+     style="fill:#000000;fill-opacity:1;stroke:none;stroke-dasharray:none;stroke-opacity:1"
+     id="text6496"
+     x="641"
+     y="443.5">
+    <tspan
+       style="font-size:30px"
+       font-size="24pt"
+       x="641.32617"
+       y="466.5"
+       textLength="13.347"
+       id="tspan6498">2</tspan>
+  </text>
+  <text
+     style="fill:#000000;fill-opacity:1;stroke:none;stroke-dasharray:none;stroke-opacity:1"
+     id="text6500"
+     x="713"
+     y="443.5">
+    <tspan
+       style="font-size:30px"
+       font-size="24pt"
+       x="713.32617"
+       y="466.5"
+       textLength="13.347"
+       id="tspan6502">3</tspan>
+  </text>
+  <text
+     style="fill:#000000;fill-opacity:1;stroke:none;stroke-dasharray:none;stroke-opacity:1"
+     id="text6504"
+     x="476.5"
+     y="344">
+    <tspan
+       style="font-size:30px"
+       font-size="24pt"
+       x="476.82617"
+       y="367"
+       textLength="13.347"
+       id="tspan6506">1</tspan>
+  </text>
+  <text
+     style="fill:#000000;fill-opacity:1;stroke:none;stroke-dasharray:none;stroke-opacity:1"
+     id="text6508"
+     x="476.5"
+     y="272.5">
+    <tspan
+       style="font-size:30px"
+       font-size="24pt"
+       x="476.82617"
+       y="295.5"
+       textLength="13.347"
+       id="tspan6510">2</tspan>
+  </text>
+  <text
+     style="fill:#000000;fill-opacity:1;stroke:none;stroke-dasharray:none;stroke-opacity:1"
+     id="text6512"
+     x="476.5"
+     y="201">
+    <tspan
+       style="font-size:30px"
+       font-size="24pt"
+       x="476.82617"
+       y="224"
+       textLength="13.347"
+       id="tspan6514">3</tspan>
+  </text>
+  <text
+     style="fill:#000000;fill-opacity:1;stroke:none;stroke-dasharray:none;stroke-opacity:1"
+     id="text6516"
+     x="468.5"
+     y="487">
+    <tspan
+       style="font-size:30px"
+       font-size="24pt"
+       x="468.83008"
+       y="510"
+       textLength="21.339001"
+       id="tspan6518">-1</tspan>
+  </text>
+  <text
+     style="fill:#000000;fill-opacity:1;stroke:none;stroke-dasharray:none;stroke-opacity:1"
+     id="text6520"
+     x="349"
+     y="443.5">
+    <tspan
+       style="font-size:30px"
+       font-size="24pt"
+       x="349.33008"
+       y="466.5"
+       textLength="21.339001"
+       id="tspan6522">-2</tspan>
+  </text>
+  <text
+     style="fill:#000000;fill-opacity:1;stroke:none;stroke-dasharray:none;stroke-opacity:1"
+     id="text6524"
+     x="421.5"
+     y="443.5">
+    <tspan
+       style="font-size:30px"
+       font-size="24pt"
+       x="421.83008"
+       y="466.5"
+       textLength="21.339001"
+       id="tspan6526">-1</tspan>
+  </text>
+  <text
+     style="fill:#000000;fill-opacity:1;stroke:none;stroke-dasharray:none;stroke-opacity:1"
+     id="text6528"
+     x="468.5"
+     y="559">
+    <tspan
+       style="font-size:30px"
+       font-size="24pt"
+       x="468.83008"
+       y="582"
+       textLength="21.339001"
+       id="tspan6530">-2</tspan>
+  </text>
+  <text
+     style="fill:#000000;fill-opacity:1;stroke:none;stroke-dasharray:none;stroke-opacity:1"
+     id="text6532"
+     x="781"
+     y="436">
+    <tspan
+       style="font-style:italic;font-size:45px"
+       font-size="36pt"
+       font-style="italic"
+       x="781"
+       y="471"
+       textLength="18"
+       id="tspan6534">x</tspan>
+  </text>
+  <text
+     style="fill:#000000;fill-opacity:1;stroke:none;stroke-dasharray:none;stroke-opacity:1"
+     id="text6536"
+     x="470.5"
+     y="116.5">
+    <tspan
+       style="font-style:italic;font-size:45px"
+       font-size="36pt"
+       font-style="italic"
+       x="470.5"
+       y="151.5"
+       textLength="18"
+       id="tspan6538">y</tspan>
+  </text>
+  <text
+     style="fill:#000000;fill-opacity:1;stroke:none;stroke-dasharray:none;stroke-opacity:1"
+     id="text6540"
+     x="468.5"
+     y="631">
+    <tspan
+       style="font-size:30px"
+       font-size="24pt"
+       x="468.83008"
+       y="654"
+       textLength="21.339001"
+       id="tspan6542">-3</tspan>
+  </text>
+  <text
+     style="fill:#000000;fill-opacity:1;stroke:none;stroke-dasharray:none;stroke-opacity:1"
+     id="text6544"
+     x="276.5"
+     y="443.5">
+    <tspan
+       style="font-size:30px"
+       font-size="24pt"
+       x="276.83008"
+       y="466.5"
+       textLength="21.339001"
+       id="tspan6546">-3</tspan>
+  </text>
+  <text
+     style="fill:#e90806;fill-opacity:1;stroke:none;stroke-dasharray:none;stroke-opacity:1"
+     id="text6548"
+     x="641"
+     y="283.5">
+    <tspan
+       style="font-weight:bold;font-size:30px;fill:#e90806"
+       font-size="24pt"
+       font-weight="bold"
+       x="641.44922"
+       y="319.5"
+       textLength="13.347"
+       id="tspan6550">x</tspan>
+    <tspan
+       style="font-weight:bold;font-size:22.5px;fill:#e90806"
+       font-size="18pt"
+       font-weight="bold"
+       x="654.79688"
+       y="301.5"
+       textLength="15.011"
+       id="tspan6552">2</tspan>
+    <tspan
+       style="font-weight:bold;font-size:30px;fill:#e90806"
+       font-size="24pt"
+       font-weight="bold"
+       x="669.80859"
+       y="319.5"
+       textLength="14.015"
+       id="tspan6554">+</tspan>
+    <tspan
+       style="font-weight:bold;font-size:30px;fill:#e90806"
+       font-size="24pt"
+       font-weight="bold"
+       x="683.82422"
+       y="319.5"
+       textLength="20.014999"
+       id="tspan6556">y</tspan>
+    <tspan
+       style="font-weight:bold;font-size:22.5px;fill:#e90806"
+       font-size="18pt"
+       font-weight="bold"
+       x="703.83984"
+       y="301.5"
+       textLength="15.011"
+       id="tspan6558">2</tspan>
+    <tspan
+       style="font-weight:bold;font-size:30px;fill:#e90806"
+       font-size="24pt"
+       font-weight="bold"
+       x="718.85156"
+       y="319.5"
+       textLength="40.699001"
+       id="tspan6560">= 4</tspan>
+  </text>
+  <path
+     style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+     inkscape:connector-curvature="0"
+     d="m 495,154 9,-18 9,18"
+     id="path6562" />
+  <path
+     style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+     inkscape:connector-curvature="0"
+     d="m 781,423 19,9 -18,9"
+     id="path6564" />
+</svg>

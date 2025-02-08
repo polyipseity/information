@@ -1,0 +1,1 @@
+inverse demand function.md
