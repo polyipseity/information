@@ -1,0 +1,10 @@
+<svg width="175mm" height="173mm" version="1.1" viewBox="0 0 175 173" xmlns="http://www.w3.org/2000/svg"><rect width="175" height="173" fill="#fff"/>
+ <g fill="none"><path d="m27 6v45m0 12v23m0 13v40m0 14v13m20 0v-13m0-14v-40m0-13v-80m20 0v80m0 13v40m0 14v13m40 0v-67m0-28v-65m20 0v4m0 13v63m0 13v67m20 0v-67m0-13v-80m-140 140h8m88 0h64m0-20h-64m-16 0h-80m160-20h-64m-16 0h-80m0-80h80m11 0h69m0 20h-69m-11 0h-80m0 20h80m11 0h69" stroke="#ccc" stroke-width=".5"/>
+ <g stroke-dasharray="2"><path d="m87 66h-60v20" stroke="#f00"/><path d="m98 26h29v60" stroke="#080"/><path d="m87 136h-30v-50" stroke="#00f"/></g>
+ <path d="m87 170v-160m-84 76h161" stroke="#000" stroke-width="1.5"/><path d="m83 146h8m-8-20h8m-8-20h8m-8-80h8m-8 20h8m-8 20h8m56 16v8m-20-8v8m-20-8v8m-80-8v8m20-8v8m20-8v8" stroke="#000"/></g>
+ <circle cx="87" cy="86" r="2" fill="#b0b"/><circle cx="27" cy="66" r="2" fill="#f00"/><circle cx="127" cy="26" r="2" fill="#080"/><circle cx="57" cy="136" r="2" fill="#00f"/><path d="m160 82 13 4-13 4 4-4m-81-72 4-13 4 13-4-4"/>
+ <g font-family="Times">
+ <g font-size="10px">
+ <g text-anchor="middle"><text x="27" y="98">−3</text><text x="50" y="98">−2</text><text x="67" y="98">−1</text><text x="107" y="98">1</text><text x="127" y="98">2</text><text x="147" y="98">3</text></g>
+ <text x="92" y="109">−1</text><text x="92" y="129">−2</text><text x="92" y="149">−3</text><text x="92" y="69">1</text><text x="92" y="49">2</text><text x="92" y="29">3</text></g>
+ <g font-size="14px"><text x="73" y="11" font-style="italic">y<tspan x="161" y="99">x</tspan></text><text x="113" y="20" fill="#080">(2,3)</text><text x="10" y="62" fill="#f00">(−3,1)</text><text x="91" y="82" fill="#b0b">(0,0)</text><text x="16" y="150" fill="#00f">(−1.5,−2.5)</text></g></g></svg>
