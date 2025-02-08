@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Author: Ika, Date: 07/22/2015 -->
+
+<!-- Anyone can copy and revise this code without any copyright concern. -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1314"
+   height="1272"
+   version="1.1"
+   id="svg32"
+   sodipodi:docname="Surface_normal_tangent.svg"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)">
+  <metadata
+     id="metadata38">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs36" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1302"
+     inkscape:window-height="715"
+     id="namedview34"
+     showgrid="false"
+     inkscape:zoom="0.185"
+     inkscape:cx="1665.0127"
+     inkscape:cy="436.57622"
+     inkscape:window-x="64"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g18" />
+  <!-- Marker styles. -->
+  <marker
+     id="blue-ending"
+     viewBox="0 0 400 200"
+     refX="200"
+     refY="100"
+     markerUnits="strokeWidth"
+     markerWidth="4"
+     markerHeight="2"
+     orient="auto">
+    <path
+       d="M 0 0 L 400 100 L 0 200 z"
+       stroke="rgb(0,0,255)"
+       fill="rgb(0,0,255)"
+       id="path2" />
+  </marker>
+  <!-- Gradient styles. -->
+  <radialGradient
+     id="g"
+     cx="75%"
+     cy="80%"
+     r="40%"
+     fx="80%"
+     fy="95%">
+    <stop
+       offset="0%"
+       style="stop-color:rgb(255,20,0);stop-opacity:0.1"
+       id="stop5" />
+    <stop
+       offset="100%"
+       style="stop-color:rgb(240,0,0);stop-opacity:1"
+       id="stop7" />
+  </radialGradient>
+  <!-- The surface. -->
+  <path
+     d="M80 1200 q50 -150 150 -300 q500 -500 1000 50 q-150 -30 -250 300 q-500 -400 -900 -50 z"
+     stroke="none"
+     fill="url(#g)"
+     id="path10" />
+  <!-- Vectors. -->
+  <g
+     style="stroke:rgb(0,0,255); stroke-width:20; stroke-linecap:round"
+     fill="none"
+     marker-end="url(#blue-ending)"
+     id="g18">
+    <!-- Verticle. -->
+    <path
+       d="m 700,700 5.40541,-543.24325"
+       id="path12"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <!-- Tangent. -->
+    <path
+       d="m 700,700 500,11.98305"
+       id="path14"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <!-- Verticle + Tangent. -->
+    <path
+       d="M 700,700 1174.3243,195.94595"
+       id="path16"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+  </g>
+  <!-- Texts. -->
+  <g
+     font-size="150"
+     id="g30"
+     font-family="sans-serif"
+     fill="rgb(0,0,0)">
+    <text
+       x="500"
+       y="200"
+       id="text20">V</text>
+    <text
+       x="1020"
+       y="180"
+       id="text22">V</text>
+    <text
+       x="1050"
+       y="550"
+       id="text24">V</text>
+    <text
+       x="1050"
+       y="550"
+       dx="80"
+       dy="30"
+       font-size="100"
+       id="text26">//</text>
+    <text
+       x="500"
+       y="200"
+       dx="80"
+       dy="30"
+       font-size="100"
+       transform="rotate(180 610,200)"
+       id="text28">T</text>
+  </g>
+</svg>

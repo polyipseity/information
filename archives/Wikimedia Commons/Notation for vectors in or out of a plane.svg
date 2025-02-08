@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<svg version="1.1" viewBox="0 0 110 42"	xmlns="http://www.w3.org/2000/svg">
+<title>Z-plane vector direction notation</title>
+<desc>into plane: Circle with a cross inside it out-of plane: Circle with a cross inside it</desc>
+<g fill="white" stroke="#000" stroke-width="2">
+<circle cx="21" cy="21" r="20"/><circle cx="89" cy="21" r="20"/><circle cx="89" cy="21" r="2" fill="#000"/>
+<path d="M21,0 v40 M0,21 h40" transform="rotate(-45,21,20)"/></g>
+</svg>
