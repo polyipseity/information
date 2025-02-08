@@ -25,7 +25,7 @@ In the study of economics, {@{the term _[marginal](marginalism.md)_}@} refers to
 
 Initially, {@{the term utility}@} {@{equated usefulness with the production of pleasure and avoidance of pain}@} by {@{moral philosophers, Jeremy Bentham and John Stuart Mill}@}.<sup>[\[5\]](#^ref-5)</sup> In line with this philosophy, the concept of utility was {@{defined as "the feelings of pleasure and pain"<sup>[\[6\]](#^ref-6)</sup> and further as a "_quantity_ of feeling"}@}.<sup>[\[7\]](#^ref-7)</sup>
 
-{@{Contemporary mainstream economic theory}@} frequently {@{defers metaphysical questions, and merely notes or assumes that preference structures conforming to certain rules can be usefully _proxied_ by associating goods, services, or their uses with quantities}@}, and {@{_defines_ "utility" as such a quantification}@}.<sup>[\[8\]](#^ref-8)</sup>
+{@{Contemporary mainstream economic theory}@} frequently {@{defers metaphysical questions}@}, and merely notes or assumes that {@{preference structures conforming to certain rules can be usefully _proxied_ by associating goods, services, or their uses with quantities}@}, and {@{_defines_ "utility" as such a quantification}@}.<sup>[\[8\]](#^ref-8)</sup>
 
 In {@{any standard framework}@}, the same object may {@{have different marginal utilities for different people, reflecting different preferences or individual circumstances}@}.<sup>[\[9\]](#^ref-9)</sup>
 

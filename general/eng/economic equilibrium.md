@@ -70,7 +70,7 @@ In terms of the equilibrium properties, we can see that {@{P2 is satisfied}@}: i
 
 {@{Most economists, for example [Paul Samuelson](Paul%20Samuelson.md)}@},<sup>[\[6\]](#^ref-6)</sup> caution against {@{attaching a [normative](positive%20and%20normative%20economics.md) meaning (value judgement) to the equilibrium price}@}. For example, food markets may be {@{in equilibrium at the same time that people are starving (because they cannot afford to pay the high equilibrium price)}@}.
 
-Indeed, this occurred during {@{the [Great Famine](Great%20Famine%20(Ireland).md) in [Ireland](Ireland.md) in 1845–52}@}, where {@{[food was exported](Great%20Famine%20(Ireland).md#food%20exports%20during%20Famine) though people were starving}@}, due to {@{the greater profits in selling to the English – the equilibrium price of the Irish-British market for potatoes was above the price that Irish farmers could afford}@}, and thus {@{(among other reasons) they starved}@}.<sup>[\[7\]](#^ref-7)</sup>
+Indeed, this occurred during {@{the [Great Famine](Great%20Famine%20(Ireland).md) in [Ireland](Ireland.md) in 1845–52}@}, where {@{[food was exported](Great%20Famine%20(Ireland).md#food%20exports%20during%20Famine) though people were starving}@}, due to {@{the greater profits in selling to the English}@} – {@{the equilibrium price of the Irish-British market for potatoes}@} was {@{above the price that Irish farmers could afford}@}, and thus {@{(among other reasons) they starved}@}.<sup>[\[7\]](#^ref-7)</sup>
 
 ## interpretations
 
